@@ -17,7 +17,7 @@ WeightClassKg,Sex,Event,Place,Name,Division,BirthYear,Equipment,BodyweightKg,Squ
 75,F,SBD,2,Elina Chernina,O,,Wraps,74.2,135,145,150,,150,77.5,82.5,87.5,,87.5,-160,160,175,,175,412.5
 75,F,SBD,DQ,Patricia Wetton,M3,,Wraps,74.2,-90,-90,-90,,,,,,,,,,,,,
 82.5,F,SBD,1,Tatyana Merezhko,O,,Wraps,82.2,202.5,212.5,220,,220,95,-100,-100,,95,215,227.5,-232.5,,227.5,542.5
-90+,F,SBD,1,Ann Christin Ӧberg,O,,Wraps,92.3,125,135,145,,145,102.5,112.5,,,112.5,170,185,192.5,200,192.5,450
+90+,F,SBD,1,Ann Christin Öberg,O,,Wraps,92.3,125,135,145,,145,102.5,112.5,,,112.5,170,185,192.5,200,192.5,450
 56,M,SBD,1,Tomass Stanislavskis,T1,,Wraps,55.9,100,112.5,120,122.5,120,60,72.5,75,,75,115,130,137.5,140,137.5,332.5
 60,M,SBD,1,Lauris Kalasnikovs,T2,,Wraps,59.6,100,110,120,,120,70,75,-80,,75,140,155,162.5,,162.5,357.5
 60,M,SBD,1,Elmir Tarverdiyev,O,,Wraps,60,170,-185,187.5,192.5,187.5,100,110,,,110,210,230,-240,,230,527.5
@@ -37,7 +37,7 @@ WeightClassKg,Sex,Event,Place,Name,Division,BirthYear,Equipment,BodyweightKg,Squ
 82.5,M,SBD,2,Stanislav Simeonov,O,,Wraps,81.2,210,222.5,230,,230,145,155,162.5,,162.5,240,-260,-275,,240,632.5
 82.5,M,SBD,1,Dmitrijs Stepenko,M2,,Wraps,80.9,180,190,,,190,135,145,,,145,200,210,,,210,545
 82.5,M,SBD,1,Vadims Grabars,M5,,Wraps,82.3,150,170,185,,185,90,102.5,-105,,102.5,235,-245,245,,245,532.5
-82.5,M,SBD,1,Grigori Rubin,M8,,Wraps,75.3,105,110,115,,115,87.5,92.5,95,,95,145,152.5,161,,161,370
+82.5,M,SBD,1,Grigori Rubin,M8,,Wraps,75.3,105,110,115,,115,87.5,92.5,95,,95,145,152.5,161,,161,371
 90,M,SBD,1,Aleksandrs Antipovs,J,,Wraps,88.4,190,200,210,,210,155,165,170,,170,260,270,275,,275,655
 90,M,SBD,1,Gunduz Mamadov,O,,Wraps,88.3,280,300,-315,,300,180,190,-200,,190,-280,280,-305,,280,770
 90,M,SBD,2,Aigars Jaņēvičs,O,,Wraps,89.2,220,230,240,,240,175,182.5,-185,,182.5,250,265,-275,,265,687.5
@@ -50,7 +50,7 @@ WeightClassKg,Sex,Event,Place,Name,Division,BirthYear,Equipment,BodyweightKg,Squ
 90,M,SBD,1,Andriy Galkevich,M1,,Wraps,89.2,235,242.5,255,,255,150,165,175,,175,230,242.5,255,,255,685
 90,M,SBD,2,Adam Browne,M1,,Wraps,88.2,-120,120,140,,140,140,150,-157.5,,150,160,170,-210,,170,460
 90,M,SBD,1,Eric Conway,M3,,Wraps,88.7,145,150,155,,155,100,110,112.5,,112.5,190,205,212.5,,212.5,480
-90,M,SBD,1,Aleksandr Tsvetkov,M4,,Wraps,89.6,200,212.5,221,,221,115,-120,120,,120,220,245,-251,,245,585
+90,M,SBD,1,Aleksandr Tsvetkov,M4,,Wraps,89.6,200,212.5,221,,221,115,-120,120,,120,220,245,-251,,245,586
 90,M,SBD,1,Evgeniy Khudoleev,M6,,Wraps,88.9,-180,180,190,,190,-125,-125,125,,125,200,215,230,,230,545
 100,M,SBD,1,Daniel Shepheard,T3,,Wraps,95.4,180,182.5,200,,200,155,162.5,-170,,162.5,240,260,272.5,,272.5,635
 100,M,SBD,1,Vusal Aghaparov,J,,Wraps,96.2,250,-270,-270,,250,190,-200,,,190,270,-285,-285,,270,710
@@ -73,7 +73,7 @@ WeightClassKg,Sex,Event,Place,Name,Division,BirthYear,Equipment,BodyweightKg,Squ
 110,M,SBD,1,Orkhan Vagif Ahmadzade,O,,Wraps,103.8,250,-260,,,250,170,190,-205,,190,260,,,,260,700
 110,M,SBD,1,Igor Zarubin,M1,,Wraps,108.9,190,200,210,,210,150,160,170,,170,200,215,225,,225,605
 110,M,SBD,2,Igor Zaytsev,M1,,Wraps,110,192.5,-200,-200,,192.5,-130,130,-140,,130,222.5,227.5,-232.5,,227.5,550
-125,M,SBD,1,Aris Kalva,T2,,Wraps,118.9,180,197.5,-202.5,,197.5,120,-125,,,120,240,251,-260,,251,567.5
+125,M,SBD,1,Aris Kalva,T2,,Wraps,118.9,180,197.5,-202.5,,197.5,120,-125,,,120,240,251,-260,,251,568.5
 125,M,SBD,1,Nikolay Fesanyuk,O,,Wraps,122.6,330,355,362.5,,362.5,-200,212.5,217.5,,217.5,340,-365,-365,,340,920
 125,M,SBD,2,Vladimir Golubev,O,,Wraps,120.4,300,320,,,320,220,230,235,,235,310,325,-335,,325,880
 125,M,SBD,3,Aleksandrs Aleksejevs,O,,Wraps,124.2,280,300,,,300,205,210,215,,215,330,345,355,,355,870
@@ -90,8 +90,8 @@ WeightClassKg,Sex,Event,Place,Name,Division,BirthYear,Equipment,BodyweightKg,Squ
 140,M,SBD,DQ,Aleksey Ermakov,O,,Wraps,129,260,-280,-280,,260,185,-195,,,185,-270,-270,-270,,,
 140,M,SBD,DQ,Aleksey Ermakov,M1,,Wraps,129,260,-280,-280,,260,185,-195,,,185,-270,-270,-270,,,
 140+,M,SBD,1,Denis Bondarenko,O,,Wraps,140.1,260,270,280,,280,200,210,212.5,,212.5,240,260,280,,280,772.5
-140+,M,SBD,1,Sergei Yakovlev,M1,,Wraps,159.8,260,275,-285,,275,182.5,192.5,202.5,,202.5,290,320,335,,335,812.5
-56,F,SBD,1,Ariela Amitay,M3,,Multi-ply,55.3,145,145,160,,160,105,110,114,117.5,114,145,-155,155,,155,427.5
+140+,M,SBD,1,Sergey Yakovlev,M1,,Wraps,159.8,260,275,-285,,275,182.5,192.5,202.5,,202.5,290,320,335,,335,812.5
+56,F,SBD,1,Ariela Amitay,M3,,Multi-ply,55.3,-145,145,160,,160,105,110,114,117.5,114,145,-155,155,,155,429
 60,M,SBD,1,Aleksandr Romanichev,M3,,Multi-ply,59.5,200,220,,,220,125,132.5,-140,,132.5,205,225,,,225,577.5
 67.5,M,SBD,1,Tomáš Siska,T1,,Multi-ply,65.3,-130,130,137.5,,137.5,55,-60,-60,,55,100,112.5,120,,120,312.5
 75,M,SBD,1,David Oliveira,J,,Multi-ply,70.7,240,-270,-270,,240,140,147.5,152.5,,152.5,225,245,-260,,245,637.5
@@ -118,7 +118,7 @@ WeightClassKg,Sex,Event,Place,Name,Division,BirthYear,Equipment,BodyweightKg,Squ
 82.5,M,SBD,1,Vadims Grabars,M5,,Single-ply,82.5,200,215,-225,,215,90,125,-132.5,,125,230,240,-250,,240,580
 90,M,SBD,DQ,Roman Durnov,O,,Single-ply,86.6,260,285,302.5,,302.5,-192.5,-195,-195,,,,,,,,
 90,M,SBD,1,Stefan Sochański,M6,,Single-ply,89,225,242.5,-253,,242.5,122.5,130,-135,,130,230,255,,,255,627.5
-100,M,SBD,1,Gabriele Calista,O,,Single-ply,93.5,285,292.5,,,292.5,180,190,-200,,190,300,315,331,,331,812.5
+100,M,SBD,1,Gabriele Calista,O,,Single-ply,93.5,285,292.5,,,292.5,180,190,-200,,190,300,315,331,,331,813.5
 100,M,SBD,2,Georgiy Yegazaren,O,,Single-ply,99.9,220,250,-270,,250,145,152.5,157.5,,157.5,220,240,-255,,240,647.5
 110,M,SBD,1,Austris Šaicāns,O,,Single-ply,109.9,300,320,340,,340,205,215,225,,225,310,325,335,,335,900
 110,M,SBD,2,David Satsielasjvili,O,,Single-ply,108.6,-210,270,,,270,180,190,200,,200,240,-250,,,240,710
@@ -152,7 +152,7 @@ WeightClassKg,Sex,Event,Place,Name,Division,BirthYear,Equipment,BodyweightKg,Squ
 67.5,M,B,4,Michael Phipps,O,1979,Raw,65.2,,,,,,92.5,100,-105,,100,,,,,,100
 75,M,B,1,Abu Chaudhury,J,1991,Raw,69.1,,,,,,140,145,-147.5,,145,,,,,,145
 75,M,B,2,Sergejs Isčenko,J,1992,Raw,71.2,,,,,,-125,125,-132.5,,125,,,,,,125
-75,M,B,1,Rоman Yeremashvili,O,1981,Raw,72.4,,,,,,200,210,220,,220,,,,,,220
+75,M,B,1,Roman Eremashvili,O,1981,Raw,72.4,,,,,,200,210,220,,220,,,,,,220
 75,M,B,2,Ramin Rzayev,O,1980,Raw,75,,,,,,182.5,-192.5,-192.5,,182.5,,,,,,182.5
 75,M,B,3,Aleksandr Rabinovich,O,1967,Raw,74.2,,,,,,157.5,167.5,170,,170,,,,,,170
 75,M,B,4,Nerius Bimbiris,O,1985,Raw,74.2,,,,,,160,-165,-170,,160,,,,,,160
@@ -204,9 +204,9 @@ WeightClassKg,Sex,Event,Place,Name,Division,BirthYear,Equipment,BodyweightKg,Squ
 90,M,B,2,Valeri Marvejev,M3,1960,Raw,89.3,,,,,,130,135,-137.5,,135,,,,,,135
 90,M,B,1,Frank Thomas Kutzsch,M4,1956,Raw,88.3,,,,,,147.5,155,160,,160,,,,,,160
 90,M,B,1,Valērijs Ņegajevs,M6,1949,Raw,88.6,,,,,,135,140,-142.5,,140,,,,,,140
-100,M,B,1,Oleg Bazilevych,O,1982,Raw,96.8,,,,,,235,245,-256,,245,,,,,,245
+100,M,B,1,Oleg Bazilevich,O,1982,Raw,96.8,,,,,,235,245,-256,,245,,,,,,245
 100,M,B,2,Florindo Figueiredo Pinheiro,O,1973,Raw,96.8,,,,,,235,242.5,-251,,242.5,,,,,,242.5
-100,M,B,3,Sergiy Didovik,O,1978,Raw,99.7,,,,,,205,212.5,,,212.5,,,,,,212.5
+100,M,B,3,Sergey Didovyk,O,1978,Raw,99.7,,,,,,205,212.5,,,212.5,,,,,,212.5
 100,M,B,4,Igor Priemyshev,O,1982,Raw,98.8,,,,,,200,207.5,-212.5,,207.5,,,,,,207.5
 100,M,B,5,Valeriy Kuznetsov,O,1983,Raw,98.2,,,,,,180,190,-200,,190,,,,,,190
 100,M,B,6,Pavels Gaimovič,O,1990,Raw,98.3,,,,,,180,-190,190,,190,,,,,,190
@@ -276,12 +276,12 @@ WeightClassKg,Sex,Event,Place,Name,Division,BirthYear,Equipment,BodyweightKg,Squ
 140,M,B,5,Alexey Brazhkin,M1,1971,Raw,129.9,,,,,,170,180,200,,200,,,,,,200
 140,M,B,1,Edmunds Andrups,M2,1970,Raw,125.6,,,,,,190,200,205,,205,,,,,,205
 140,M,B,1,Mikhail Nikolaev,M3,1961,Raw,129.4,,,,,,200,212.5,-217.5,,212.5,,,,,,212.5
-140,M,B,2,Laszlo Vass,M3,1964,Raw,138.8,,,,,,165,172.5,177.5,,177.5,,,,,,177.5
+140,M,B,2,László Vass,M3,1964,Raw,138.8,,,,,,165,172.5,177.5,,177.5,,,,,,177.5
 140,M,B,3,Per Holm,M3,1964,Raw,133.4,,,,,,142.5,155,-162.5,,155,,,,,,155
 140,M,B,1,Virginius Kairevicus,M4,1960,Raw,131.6,,,,,,140,150,,,150,,,,,,150
 140+,M,B,1,Rikard Erlandsson,O,1977,Raw,163,,,,,,230,250,-270,,250,,,,,,250
 140+,M,B,1,Guntars Kusiņš,M1,1971,Raw,153.7,,,,,,190,205,-210,,205,,,,,,205
-140+,M,B,DQ,Jerzy Maciej Kot,M2,1968,Raw,145.1,,,,,,160,170,-175,,170,,,,,,170
+140+,M,B,1,Jerzy Maciej Kot,M2,1968,Raw,145.1,,,,,,160,170,-175,,170,,,,,,170
 56,F,B,1,Ariela Amitay,M3,1964,Multi-ply,55.6,,,,,,105,110,115,,115,,,,,,115
 67.5,F,B,1,Dagmar Liptáková,O,1976,Multi-ply,63.2,,,,,,125,-135,-135,,125,,,,,,125
 82.5,F,B,1,Zdenka Hudíková,O,1980,Multi-ply,81.4,,,,,,120,-130,130,,130,,,,,,130
@@ -298,14 +298,14 @@ WeightClassKg,Sex,Event,Place,Name,Division,BirthYear,Equipment,BodyweightKg,Squ
 90,M,B,2,Viesturs Eidemanis,O,1979,Multi-ply,88.8,,,,,,230,240,-250,,240,,,,,,240
 90,M,B,1,Volodymyr Starchenko,M1,1975,Multi-ply,89.4,,,,,,200,210,-220,,210,,,,,,210
 90,M,B,1,Didier Theux,M4,1958,Multi-ply,87.7,,,,,,235,247.5,-255,,247.5,,,,,,247.5
-100,M,B,1,Sergiy Didovik,O,1978,Multi-ply,99.7,,,,,,280,-292.5,-292.5,,280,,,,,,280
+100,M,B,1,Sergey Didovyk,O,1978,Multi-ply,99.7,,,,,,280,-292.5,-292.5,,280,,,,,,280
 100,M,B,2,Steve Gameiro Barros,O,1978,Multi-ply,98.7,,,,,,275,-290,-290,,275,,,,,,275
 100,M,B,3,Namiq Nuruyev,O,1986,Multi-ply,97.6,,,,,,-255,255,-282.5,,255,,,,,,255
 100,M,B,1,Marko Lempinen,M2,1966,Multi-ply,96.6,,,,,,-225,-225,225,,225,,,,,,225
 100,M,B,1,Valery Tomilov,M3,1965,Multi-ply,98,,,,,,225,235,,,235,,,,,,235
 100,M,B,1,Valeriy Akentyev,M4,1958,Multi-ply,100,,,,,,235,250,-260,,250,,,,,,250
 110,M,B,1,Nikolay Alyshev,O,1985,Multi-ply,108.2,,,,,,270,287.5,-300,,287.5,,,,,,287.5
-110,M,B,2,Kalle Eemeli Ylitalo-James,O,1983,Multi-ply,109.7,,,,,,250,262.5,272.5,,272.5,,,,,,272.5
+110,M,B,2,Kalle Ylitalo-James,O,1983,Multi-ply,109.7,,,,,,250,262.5,272.5,,272.5,,,,,,272.5
 110,M,B,3,Bruno Ricardo Alves Ruela,O,1988,Multi-ply,106.5,,,,,,240,255,270,,270,,,,,,270
 110,M,B,4,Gennady Obermeister,O,1970,Multi-ply,109,,,,,,-260,260,-280,,260,,,,,,260
 110,M,B,1,Sami Huhtala,M1,1974,Multi-ply,110,,,,,,280,-292.5,-300,,280,,,,,,280
@@ -333,7 +333,7 @@ WeightClassKg,Sex,Event,Place,Name,Division,BirthYear,Equipment,BodyweightKg,Squ
 75,M,B,1,Edgars Peterlēvics,O,1986,Single-ply,74.2,,,,,,210,217.5,-222.5,,217.5,,,,,,217.5
 75,M,B,2,Ramin Rzayev,O,1980,Single-ply,74.9,,,,,,212.5,-220,-220,,212.5,,,,,,212.5
 75,M,B,1,Aleksandr Rabinovich,M2,1967,Single-ply,75,,,,,,165,175,182.5,,182.5,,,,,,182.5
-75,M,B,1,Hans-Jurgen Kaule,M5,1954,Single-ply,74.3,,,,,,160,-165,165,,165,,,,,,165
+75,M,B,1,Hans-Jürgen Kaule,M5,1954,Single-ply,74.3,,,,,,160,-165,165,,165,,,,,,165
 75,M,B,1,Valery Belkin,M8,1940,Single-ply,74.6,,,,,,-100,100,105,,105,,,,,,105
 82.5,M,B,1,Alexander Papir,M6,1945,Single-ply,80,,,,,,110,117.5,-122.5,,117.5,,,,,,117.5
 90,M,B,1,Aleksandrs Ņikitins,O,1980,Single-ply,90,,,,,,-230,-230,230,,230,,,,,,230
@@ -364,7 +364,7 @@ WeightClassKg,Sex,Event,Place,Name,Division,BirthYear,Equipment,BodyweightKg,Squ
 90+,F,D,1,Kristīne Gecēviča,J,1994,Raw,100.1,,,,,,,,,,,160,170,180,-185,180,180
 90+,F,D,1,Anna-Maria Rosén,M1,1972,Raw,92.5,,,,,,,,,,,200,210,221,,221,221
 56,M,D,1,Aleksandr Romanichev,M3,1963,Raw,55.9,,,,,,,,,,,180,190,-200,,190,190
-60,M,D,1,Michael Phipps,O,1979,Raw,65.2,,,,,,,,,,,150,165,-177.5,,165,165
+67.5,M,D,1,Michael Phipps,O,1979,Raw,65.2,,,,,,,,,,,150,165,-177.5,,165,165
 67.5,M,D,1,Anatoliy Bochkovskyy,M5,1954,Raw,67.1,,,,,,,,,,,-187.5,,187.5,,187.5,187.5
 75,M,D,1,Ēriks Silovs,T2,1997,Raw,74.6,,,,,,,,,,,200,207.5,212.5,,212.5,212.5
 75,M,D,1,Pavel Eliseev,O,1986,Raw,73.2,,,,,,,,,,,220,230,-240,,230,230
@@ -390,7 +390,7 @@ WeightClassKg,Sex,Event,Place,Name,Division,BirthYear,Equipment,BodyweightKg,Squ
 100,M,D,1,Hafiz Verdiyev,O,1990,Raw,96.6,,,,,,,,,,,-315,315,-332.5,,315,315
 100,M,D,2,Lars Stöwesandt,O,1979,Raw,97.9,,,,,,,,,,,250,262.5,275,,275,275
 100,M,D,3,Georgiy Yegazaren,O,1984,Raw,97,,,,,,,,,,,240,260,272.5,,272.5,272.5
-100,M,D,4,Sergiy Didovik,O,1978,Raw,99.7,,,,,,,,,,,205,212.5,-215,,212.5,212.5
+100,M,D,4,Sergey Didovyk,O,1978,Raw,99.7,,,,,,,,,,,205,212.5,-215,,212.5,212.5
 100,M,D,1,Andreas Schmidt,M1,1971,Raw,94.4,,,,,,,,,,,210,220,237.5,,237.5,237.5
 100,M,D,1,Valery Tomilov,M3,1965,Raw,98,,,,,,,,,,,220,240,260,,260,260
 100,M,D,2,Kamran Alizada,M3,1964,Raw,97,,,,,,,,,,,200,-210,,,200,200
@@ -414,14 +414,14 @@ WeightClassKg,Sex,Event,Place,Name,Division,BirthYear,Equipment,BodyweightKg,Squ
 125,M,D,2,Voldemars Sers,M4,1960,Raw,111.9,,,,,,,,,,,180,-187.5,,,180,180
 140,M,D,1,Justins Petinens,T3,1996,Raw,132,,,,,,,,,,,-290,290,300,305,300,300
 140,M,D,1,Sten Haugas,O,1990,Raw,134,,,,,,,,,,,260,-280,280,,280,280
-140+,M,D,1,Konstantīns Konstantīnovs,O,1978,Raw,140.2,,,,,,,,,,,370,400,405,,405,405
+140+,M,D,1,Konstantīn Konstantīnovs,O,1978,Raw,140.2,,,,,,,,,,,370,400,405,,405,405
 140+,M,D,2,Ivans Bistrovs,O,1987,Raw,153.6,,,,,,,,,,,320,-340,-340,,320,320
 67.5,F,D,1,Yuliya Pilipchatina,O,1984,Multi-ply,67.5,,,,,,,,,,,150,160,170,,170,170
 60,M,D,1,Aleksandr Romanichev,M3,1963,Multi-ply,58,,,,,,,,,,,200,220,,,220,220
 67.5,M,D,1,Andre Martins Rei,J,1993,Multi-ply,66.5,,,,,,,,,,,-200,220,225,-230,225,225
 75,M,D,1,Rustam Musaev,O,1978,Multi-ply,74.8,,,,,,,,,,,-255,255,-270,,255,255
 90,M,D,1,Tomass Rihards Chiapas,T1,2000,Multi-ply,89.4,,,,,,,,,,,190,200,-205,,200,200
-90,M,D,1,Vladimir Zhabin,O,1980,Multi-ply,89.9,,,,,,,,,,,320,335,345,345,350,350
+90,M,D,1,Vladimir Zhabin,O,1980,Multi-ply,89.9,,,,,,,,,,,320,335,345,350,345,345
 100,M,D,1,Paulo Santos,O,1988,Multi-ply,96.2,,,,,,,,,,,280,305,325,,325,325
 100,M,D,2,Valery Tomilov,O,1965,Multi-ply,98,,,,,,,,,,,270,290,-300,,290,290
 100,M,D,DQ,Niclas Friberg,M1,1974,Multi-ply,98.6,,,,,,,,,,,-301,-301,-301,,,
