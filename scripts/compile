@@ -139,7 +139,6 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays):
     add_international_names(newentries)
     newentries.remove_column_by_name("JapaneseName")
 
-
     # Add the MeetID.
     assert "MeetID" in entriescsv.fieldnames
     assert "MeetID" in meetscsv.fieldnames
@@ -186,8 +185,6 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays):
     age_from_birthyear(newentries, date)
     newentries.remove_column_by_name("BirthYear")
     newentries.remove_column_by_name("BirthDay")
-
-
 
     entriescsv.cat(newentries)
     meetscsv.cat(newmeet)
