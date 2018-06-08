@@ -135,6 +135,11 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays):
     newentries.remove_column_by_name("Tested")
     newentries.remove_column_by_name("AgeClass")
 
+    # Make use of Japanese Names
+    add_international_names(newentries)
+    newentries.remove_column_by_name("JapaneseName")
+
+
     # Add the MeetID.
     assert "MeetID" in entriescsv.fieldnames
     assert "MeetID" in meetscsv.fieldnames
@@ -182,9 +187,7 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays):
     newentries.remove_column_by_name("BirthYear")
     newentries.remove_column_by_name("BirthDay")
 
-    # Make use of Japanese Names
-    add_international_names(newentries)
-    newentries.remove_column_by_name("JapaneseName")
+
 
     entriescsv.cat(newentries)
     meetscsv.cat(newmeet)

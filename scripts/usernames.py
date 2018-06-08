@@ -69,7 +69,7 @@ def get_username(name):
 
     # If the name has East Asian characters, store the unicode numbers
     if any(is_eastasian(c) for c in name):
-        ret = 'asia-'+''.join([str(ord(c))for c in name])
+        ret = 'jp-'+''.join([str(ord(c))for c in name])
     else:  # Name is latin
         name_lower = name.lower()
         name_ascii = map(lambda c: sub_from(SubstitutionMap, c), name_lower)
