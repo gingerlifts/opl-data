@@ -17,7 +17,7 @@ F,Lorraine San Miguel,SBD,T2,47,Single-ply,43.4,105,52.5,120,277.5,4,1996
 F,Ashley Taylor Cross,SBD,T2,47,Single-ply,45.7,95,42.5,110,247.5,5,
 F,Sabra Warren,SBD,T2,47,Single-ply,44.3,90,57.5,87.5,235,6,1996
 F,Avery Huff,SBD,T2,52,Single-ply,50.7,90,25,97.5,212.5,1,1996
-F,Ariel Bulmash,SBD,T2,57,Single-ply,55.5,137.5,97.5,155,390,1,1995
+F,Bulmash Ariel,SBD,T2,57,Single-ply,55.5,137.5,97.5,155,390,1,
 F,Cheyann Maloney,SBD,T2,57,Single-ply,56.5,145,57.5,140,342.5,2,1995
 F,Anna Kathryn Colbert,SBD,T2,57,Single-ply,56,110,45,130,285,3,
 F,Brittany Weathersby,SBD,T2,57,Single-ply,55.3,105,50,125,280,4,1995
@@ -33,7 +33,7 @@ F,Stephanie Brown,SBD,T2,84,Single-ply,75.6,160,65,175,400,1,1991
 F,Walker Sarah,SBD,T2,84,Single-ply,83.3,147.5,82.5,140,370,2,1996
 F,Arrial Harris,SBD,T2,84,Single-ply,75.5,122.5,67.5,165,355,3,1996
 F,Faviola Martinez,SBD,T2,84,Single-ply,80.9,127.5,80,147.5,355,4,1995
-F,Cursti Cope,SBD,T2,84,Single-ply,78.3,140,85,125,350,5,1997
+F,Cursti Cope,SBD,T2,84,Single-ply,78.3,140,85,125,350,5,
 F,Priscilla Perez,SBD,T2,84+,Single-ply,96.8,140,82.5,150,372.5,1,1995
 F,Corrina Lyon,SBD,T2,84+,Single-ply,84.7,145,77.5,135,357.5,2,
 F,Andrea Fields,SBD,T2,84+,Single-ply,84.1,137.5,45,140,322.5,3,1995
@@ -58,11 +58,11 @@ F,Julia Shropshire,SBD,T3,84,Single-ply,72.2,147.5,65,152.5,365,2,1994
 F,Pauline MacAulay,SBD,T3,84,Single-ply,76.1,30,30,57.5,117.5,3,2001
 F,Estefana Williams,SBD,T3,84+,Single-ply,95.1,160,82.5,180,422.5,1,1995
 F,Molly Zunker,SBD,JR,47,Single-ply,45.8,137.5,72.5,145,355,1,1991
-F,Yamashita Ren,SBD,JR,52,Single-ply,51.4,160,97.5,160,417.5,1,1989
+F,Yamashita Ren,SBD,JR,52,Single-ply,51.4,160,97.5,160,417.5,1,
 F,Emily Liebert,SBD,JR,52,Single-ply,51.2,,87.5,122.5,210,2,1992
 F,Natalie Axley,SBD,JR,63,Single-ply,60.8,92.5,47.5,142.5,282.5,1,
-F,Shaina Pettit,SBD,JR,72,Single-ply,68.5,185,130,195,510,1,1989
-F,Stacie Pomrening,SBD,JR,72,Single-ply,70.7,175,97.5,167.5,440,2,1992
+F,Shaina Pettit,SBD,JR,72,Single-ply,68.5,185,130,195,510,1,
+F,Pomrening Stacie,SBD,JR,72,Single-ply,70.7,175,97.5,167.5,440,2,
 F,Erica Myers,SBD,JR,72,Single-ply,71,165,97.5,172.5,435,3,1988
 F,Jessica Dodel,SBD,JR,72,Single-ply,71.2,182.5,97.5,145,425,4,1992
 F,Monet Bland,SBD,JR,84,Single-ply,81.8,200,,165,365,1,1991
@@ -72,24 +72,24 @@ F,Molly Zunker,SBD,O,47,Single-ply,45.8,137.5,72.5,145,355,1,1991
 F,Ann Leverett,SBD,O,47,Single-ply,45.3,115,72.5,130,317.5,2,1954
 F,Susan Elwyn,SBD,O,47,Single-ply,46.1,100,47.5,115,262.5,3,1947
 F,Ashley Taylor Cross,SBD,O,47,Single-ply,45.7,95,42.5,110,247.5,4,
-F,Yamashita Ren,SBD,O,52,Single-ply,51.4,160,97.5,160,417.5,1,1989
+F,Yamashita Ren,SBD,O,52,Single-ply,51.4,160,97.5,160,417.5,1,
 F,Juanita Najera,SBD,O,52,Single-ply,51.6,140,95,170,405,2,1981
 F,Kaitlain Link,SBD,O,52,Single-ply,51.6,142.5,75,127.5,345,3,1995
-F,Tammy Cutrona,SBD,O,52,Single-ply,51.5,105,70,120,295,4,1966
+F,Cutrona Tammy,SBD,O,52,Single-ply,51.5,105,70,120,295,4,
 F,Emily Liebert,SBD,O,52,Single-ply,51.2,,87.5,122.5,210,5,1992
 F,Rowena Lopez,SBD,O,57,Single-ply,55.5,165,112.5,192.5,470,1,1977
-F,Ariel Bulmash,SBD,O,57,Single-ply,55.5,137.5,97.5,155,390,2,1995
+F,Bulmash Ariel,SBD,O,57,Single-ply,55.5,137.5,97.5,155,390,2,
 F,Danielle Bennett,SBD,O,57,Single-ply,55.1,162.5,82.5,142.5,387.5,3,1986
 F,Lynne Homan,SBD,O,57,Single-ply,56.3,122.5,92.5,152.5,367.5,4,1962
 F,Monica Sabotka,SBD,O,57,Single-ply,56.3,105,65,140,310,5,
 F,Alyssa Hitchcock,SBD,O,63,Single-ply,62.5,210,117.5,215,542.5,1,1984
 F,Jennifer Thompson,SBD,O,63,Single-ply,61.1,145,137.5,203,485.5,2,1973
-F,Jennifer Rey-Gaudreau,SBD,O,63,Single-ply,61.7,160,105,172.5,437.5,3,1971
+F,Jennifer Gaudreau,SBD,O,63,Single-ply,61.7,160,105,172.5,437.5,3,
 F,Michelle James,SBD,O,63,Single-ply,58.9,130,57.5,152.5,340,4,
 F,Katie Van Dusen,SBD,O,72,Single-ply,68.8,207.5,137.5,180,525,1,1988
-F,Shaina Pettit,SBD,O,72,Single-ply,68.5,185,130,195,510,2,1989
+F,Shaina Pettit,SBD,O,72,Single-ply,68.5,185,130,195,510,2,
 F,Donna Marts,SBD,O,72,Single-ply,69.6,167.5,105,170,442.5,3,1960
-F,Stacie Pomrening,SBD,O,72,Single-ply,70.7,175,97.5,167.5,440,4,1992
+F,Pomrening Stacie,SBD,O,72,Single-ply,70.7,175,97.5,167.5,440,4,
 F,Erica Myers,SBD,O,72,Single-ply,71,165,97.5,172.5,435,5,1988
 F,Jessica Dodel,SBD,O,72,Single-ply,71.2,182.5,97.5,145,425,6,1992
 F,Laquanda Moffett,SBD,O,72,Single-ply,71.7,165,67.5,172.5,405,7,1994
@@ -108,10 +108,10 @@ F,Eastin Kimberly,SBD,O,84+,Single-ply,110.6,117.5,105,170,392.5,7,1970
 F,Clara Lauterwasser,SBD,O,84+,Single-ply,94.5,145,77.5,137.5,360,8,1993
 F,Malinda Baum,SBD,O,84+,Single-ply,97.7,120,82.5,152.5,355,9,1963
 F,Suzanne Hartwig-Gary,SBD,M1,52,Single-ply,51.9,142.5,75,140,357.5,1,1968
-F,Tammy Cutrona,SBD,M1,52,Single-ply,51.5,105,70,120,295,2,1966
+F,Cutrona Tammy,SBD,M1,52,Single-ply,51.5,105,70,120,295,2,
 F,Antoinette Kemper,SBD,M1,57,Single-ply,54.9,115,82.5,155,352.5,1,1964
 F,Jennifer Thompson,SBD,M1,63,Single-ply,61.1,145,137.5,203,485.5,1,1973
-F,Jennifer Rey-Gaudreau,SBD,M1,63,Single-ply,61.7,160,105,172.5,437.5,2,1971
+F,Jennifer Gaudreau,SBD,M1,63,Single-ply,61.7,160,105,172.5,437.5,2,
 F,Lara Sturm,SBD,M1,63,Single-ply,62.6,157.5,85,145,387.5,3,1968
 F,Tina Crawford,SBD,M1,63,Single-ply,61.8,142.5,75,152.5,370,4,1965
 F,Michelle James,SBD,M1,63,Single-ply,58.9,130,57.5,152.5,340,5,
@@ -120,7 +120,7 @@ F,Rhonda Clark,SBD,M1,72,Single-ply,71.8,152.5,85,200,437.5,1,1965
 F,Jill Joiner-Wong,SBD,M1,72,Single-ply,66,140,87.5,157.5,385,2,1969
 F,Colleen Hansford,SBD,M1,72,Single-ply,69.3,157.5,77.5,147.5,382.5,3,1968
 F,Liane Blyn,SBD,M1,84,Single-ply,80.3,220,165,202.5,587.5,1,1972
-F,Sarah Bohlen,SBD,M1,84,Single-ply,79.8,150,87.5,155,392.5,2,1969
+F,Bohlen Sarah,SBD,M1,84,Single-ply,79.8,150,87.5,155,392.5,2,
 F,Laura Styrlund,SBD,M1,84+,Single-ply,85.6,170,125,180,475,1,1964
 F,Eastin Kimberly,SBD,M1,84+,Single-ply,110.6,117.5,105,170,392.5,2,1970
 F,Ann Leverett,SBD,M2,47,Single-ply,45.3,115,72.5,130,317.5,1,1954
@@ -135,7 +135,7 @@ F,Susan Elwyn,SBD,M3,47,Single-ply,46.1,100,47.5,115,262.5,1,1947
 F,Marie Laurence,SBD,M3,52,Single-ply,51.4,60,32.5,92.5,185,1,1942
 F,Annemarie Kemmerer,SBD,M3,63,Single-ply,61,110,67.5,142.5,320,1,1953
 F,Helen White,SBD,M3,63,Single-ply,59.4,95,70,120,285,2,1945
-F,Gail Moore,SBD,M3,72,Single-ply,70.9,135,87.5,150,372.5,1,1947
+F,Moore Gail,SBD,M3,72,Single-ply,70.9,135,87.5,150,372.5,1,
 F,Pamela Walters,SBD,M3,72,Single-ply,65.5,55,50,107.5,212.5,2,1952
 F,Faith Ireland,SBD,M4,63,Single-ply,62.3,110,65,127.5,302.5,1,1942
 F,Regina Hackney,SBD,M4,84,Single-ply,82.7,92.5,65,120,277.5,1,1939

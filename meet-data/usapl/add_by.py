@@ -204,7 +204,6 @@ def correct_names(csv):
 
 
 def add_by(oldcsv,sourcecsv):
-    missing = []
     old_name_idx = oldcsv.index('Name')
     source_name_idx = sourcecsv.index('Name')
     source_by_idx = sourcecsv.index('BirthYear')
@@ -216,7 +215,6 @@ def add_by(oldcsv,sourcecsv):
 
     for row in oldcsv.rows:
         name = usernames.get_username(row[old_name_idx])
-        name = ''.join([i for i in name if not i.isdigit()])
 
         old_by = row[old_by_idx]
         if old_by == '':
@@ -234,10 +232,8 @@ def add_by(oldcsv,sourcecsv):
                     success = True
                     break
             if not success:
-                missing.append(name)
-        if row[old_by_idx] in ['2014','2015','2016','2017'] or len(row[old_by_idx]) ==1:
-            row[old_by_idx]='' 
-    return [oldcsv,missing]
+                print("Couldn't match name for lifter: %s" % name)
+    return oldcsv
 
 
 
@@ -251,13 +247,8 @@ def add_birthyears(entriespath,url):
 
             sourcecsv = makeentriescsv(soup)
             sourcecsv = correct_names(sourcecsv)
-            [oldcsv,missing] = add_by(oldcsv,sourcecsv)
-            if missing != []:
-                print("Can't match names in %s" %entriespath)
-                for name in missing:
-                    print("Couldn't match name for lifter: %s" % name)
-
-
+            print('Adding BirthYear to %s' %entriespath)
+            oldcsv = add_by(oldcsv,sourcecsv)
             with open(dirname + os.sep + 'entries.csv', 'w') as fd:
                 oldcsv.write(fd)
     except:
