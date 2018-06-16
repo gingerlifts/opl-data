@@ -30,7 +30,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,Best3SquatKg,Best3BenchKg,
 1,M,Blake Panik,SBD,R-Y,60,Raw,93,65.8,147.4,306.2,2001
 1,M,Josh Novak,SBD,R-Y,60,Raw,56.7,47.6,117.9,222.2,
 2,M,Drew Dyson,SBD,R-Y,60,Raw,52.2,47.6,102.1,201.9,2000
-1,M,Joe Sullivan,SBD,JR,90,Single-ply,229.1,147.4,258.6,635.1,
+1,M,Joe Sullivan,SBD,JR,90,Single-ply,229.1,147.4,258.6,635.1,1993
 1,M,Jason Tiemeier,SBD,R-JR,,Raw,206.4,138.3,256.3,601,1990
 1,M,Cody Shearrow,SBD,R-JR,67.5,Raw,140.6,93,165.6,399.2,1993
 1,M,Keith Schneider,SBD,R-JR,75,Raw,199.6,108.9,233.6,542.1,1992
@@ -60,7 +60,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,Best3SquatKg,Best3BenchKg,
 1,M,Joe Candito,SBD,R-O,82.5,Raw,181.4,145.2,233.6,560.2,1989
 2,M,Dan Ferrato,SBD,R-O,82.5,Raw,165.6,129.3,220,514.9,
 3,M,Orin Safko,SBD,R-O,82.5,Raw,179.2,102.1,197.3,478.6,1989
-5,M,Christopher Aydin,SBD,R-O,82.5,Raw,213.2,,229.1,442.3,
+5,M,Christopher Aydin,SBD,R-O,82.5,Raw,213.2,,229.1,442.3,1988
 6,M,Korey Kunze,SBD,R-O,82.5,Raw,152,99.8,170.1,421.9,1985
 7,M,Jason Thiel,SBD,R-O,82.5,Raw,136.1,97.5,174.6,408.2,1980
 1,M,Lloyd Summers,SBD,R-O,90,Raw,226.8,181.4,258.6,666.8,
