@@ -9,7 +9,7 @@ from usernames import get_username
 import os
 import sys
 import toml
-from interpolate_ages import interpolate
+
 
 MEETID = 0
 
@@ -171,8 +171,7 @@ def age_from_birthday(csv, date, birthdays):
         row[minageidx] = str(years)
         row[maxageidx] = str(years)
 
-
-def agerange_from_division(csv, configtoml):
+def agerange_from_division(csv,configtoml):
     if 'Division' in csv.fieldnames and configtoml:
         dividx = csv.index('Division')
         ageidx = csv.index('Age')
@@ -183,13 +182,14 @@ def agerange_from_division(csv, configtoml):
 
         # Match up the divisions to those specified in the config files
         for row in csv.rows:
-            if row[ageidx] == '':
+            if row[ageidx] =='':
                 for div_key in divisions:
                     div = divisions[div_key]
                     if row[dividx] == div["name"]:
                         row[minageidx] = str(div["min"])
                         row[maxageidx] = str(div["max"])
                         break
+
 
 
 def add_international_names(csv):
@@ -293,6 +293,7 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays, configtoml):
 
     date = newmeet.rows[0][newmeet.index('Date')]
 
+
     # Populate the MinAge and MaxAge columns
     newentries.append_column('MinAge')
     newentries.append_column('MaxAge')
@@ -303,15 +304,16 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays, configtoml):
 
         for row in newentries.rows:
             if row[ageidx] != '':
-                row[minageidx] = row[ageidx]
-                row[maxageidx] = row[ageidx]
+                row[minageidx]=row[ageidx]
+                row[maxageidx]=row[ageidx]
             else:
-                row[minageidx] = '0'
-                row[maxageidx] = '999'
+                row[minageidx]='0'
+                row[maxageidx]='999'   
     else:
         for row in newentries.rows:
-            row[minageidx] = '0'
-            row[maxageidx] = '999'
+            row[minageidx]='0'
+            row[maxageidx]='999'  
+
 
     # Try deriving from Birthday first.
     age_from_birthday(newentries, date, birthdays)
@@ -321,7 +323,7 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays, configtoml):
     newentries.remove_column_by_name("BirthYear")
     newentries.remove_column_by_name("BirthDay")
 
-    agerange_from_division(newentries, configtoml)
+    agerange_from_division(newentries,configtoml)
 
     entriescsv.cat(newentries)
     meetscsv.cat(newmeet)
@@ -407,6 +409,8 @@ def main(builddir, meetdir, lifterdir):
     entriescsv.append_column('Event')
     entriescsv.append_column('Equipment')
     entriescsv.append_column('Age')
+    entriescsv.append_column('MinAge')
+    entriescsv.append_column('MaxAge')
     entriescsv.append_column('Division')
     entriescsv.append_column('BodyweightKg')
     entriescsv.append_column('WeightClassKg')
@@ -445,6 +449,7 @@ def main(builddir, meetdir, lifterdir):
 
     birthdays = make_birthdays_map(lifterdir)
 
+
     configpath = ''
     configtoml = None
     configfile = None
@@ -468,10 +473,7 @@ def main(builddir, meetdir, lifterdir):
             assert 'meet.csv' in files
             entriespath = dirname + os.sep + 'entries.csv'
             meetpath = dirname + os.sep + 'meet.csv'
-            addmeet(entriescsv, meetscsv, entriespath,
-                    meetpath, birthdays, configtoml)
-
-    entriescsv = interpolate(entriescsv, meetscsv)
+            addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays,configtoml)
 
     # Construct the lifters.csv.
     build_lifterscsv(lifterdir, builddir)
