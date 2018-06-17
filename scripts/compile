@@ -9,7 +9,6 @@ from usernames import get_username
 import os
 import sys
 import toml
-from interpolate_ages import interpolate
 
 MEETID = 0
 
@@ -408,6 +407,8 @@ def main(builddir, meetdir, lifterdir):
     entriescsv.append_column('Event')
     entriescsv.append_column('Equipment')
     entriescsv.append_column('Age')
+    entriescsv.append_column('MinAge')
+    entriescsv.append_column('MaxAge')
     entriescsv.append_column('Division')
     entriescsv.append_column('BodyweightKg')
     entriescsv.append_column('WeightClassKg')
