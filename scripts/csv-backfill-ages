@@ -159,15 +159,16 @@ def estimate_birthdate(lifter_data):
             curr_year = age_date[1][:4]
             age_date[0]+= init_year - curr_year
 
-        min_date = bd_data[0][1]
-        max_date = bd_data[0][1]
+        min_date = bd_data[0][1][4:]
+        max_date = bd_data[0][1][4:]
         has_had_bd = False
         lower_age = bd_data[0][0]
 
         for age_date in bd_data[1:]:
-            if age_date[0] == lower_age:
-
-            else:
+            if age_date[0] == lower_age and age_date[1][4:] > min_date:
+                min_date = age_date[1][4:]
+            elif age_date[0] == lower_age +1 and age_date[1][4:] < max_date:
+                max_date = age_date[1][4:]
 
         # We can't estimate a birthdate, use the least charitable range for interpolation
         if not has_had_bd:
