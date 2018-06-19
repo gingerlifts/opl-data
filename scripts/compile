@@ -172,7 +172,8 @@ def age_from_birthday(csv, date, birthdays):
         row[minageidx] = str(years)
         row[maxageidx] = str(years)
 
-def agerange_from_division(csv,configtoml):
+
+def agerange_from_division(csv, configtoml):
     if 'Division' in csv.fieldnames and configtoml:
         dividx = csv.index('Division')
         ageidx = csv.index('Age')
@@ -183,59 +184,12 @@ def agerange_from_division(csv,configtoml):
 
         # Match up the divisions to those specified in the config files
         for row in csv.rows:
-            if row[ageidx] =='':
+            if row[ageidx] == '':
                 for div_key in divisions:
                     div = divisions[div_key]
                     if row[dividx] == div["name"]:
                         row[minageidx] = str(div["min"])
                         row[maxageidx] = str(div["max"])
-                        break
-
-
-
-def ageclass_from_agerange(minage, maxage):
-    if maxage <= 18:
-        return '0-18'
-    elif maxage <= 23:
-        return '19-23'
-    elif minage >= 39 and maxage <= 44:
-        return '39-44'
-    elif minage > 44 and maxage <= 49:
-        return '45-49'
-    elif minage > 49 and maxage <= 54:
-        return '50-54'
-    elif minage > 54 and maxage <= 59:
-        return '55-59'
-    elif minage > 59 and maxage <= 64:
-        return '60-64'
-    elif minage > 64 and maxage <= 69:
-        return '65-69'
-    elif minage > 69 and maxage <= 74:
-        return '70-74'
-    elif minage > 74 and maxage <= 79:
-        return '75-79'
-    elif minage > 79:
-        return '80-999'
-    else:
-        return ''
-
-
-def agerange_from_division(csv, configtoml):
-    if 'Division' in csv.fieldnames and configtoml:
-        dividx = csv.index('Division')
-        ageidx = csv.index('Age')
-        ageclassidx = csv.index('AgeClass')
-
-        divisions = configtoml["divisions"]
-
-        # Match up the divisions to those specified in the config files
-        for row in csv.rows:
-            if row[ageidx] == '':
-                for div_key in divisions:
-                    div = divisions[div_key]
-                    if row[dividx] == div["name"]:
-                        row[ageclassidx] = ageclass_from_agerange(
-                            div["min"], div["max"])
                         break
 
 
@@ -340,7 +294,6 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays, configtoml):
 
     date = newmeet.rows[0][newmeet.index('Date')]
 
-
     # Populate the MinAge and MaxAge columns
     newentries.append_column('MinAge')
     newentries.append_column('MaxAge')
@@ -351,16 +304,15 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays, configtoml):
 
         for row in newentries.rows:
             if row[ageidx] != '':
-                row[minageidx]=row[ageidx]
-                row[maxageidx]=row[ageidx]
+                row[minageidx] = row[ageidx]
+                row[maxageidx] = row[ageidx]
             else:
-                row[minageidx]='0'
-                row[maxageidx]='999'   
+                row[minageidx] = '0'
+                row[maxageidx] = '999'
     else:
         for row in newentries.rows:
-            row[minageidx]='0'
-            row[maxageidx]='999'  
-
+            row[minageidx] = '0'
+            row[maxageidx] = '999'
 
     # Try deriving from Birthday first.
     age_from_birthday(newentries, date, birthdays)
@@ -370,7 +322,7 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays, configtoml):
     newentries.remove_column_by_name("BirthYear")
     newentries.remove_column_by_name("BirthDay")
 
-    agerange_from_division(newentries,configtoml)
+    agerange_from_division(newentries, configtoml)
 
     entriescsv.cat(newentries)
     meetscsv.cat(newmeet)
@@ -496,7 +448,6 @@ def main(builddir, meetdir, lifterdir):
 
     birthdays = make_birthdays_map(lifterdir)
 
-
     configpath = ''
     configtoml = None
     configfile = None
@@ -520,7 +471,8 @@ def main(builddir, meetdir, lifterdir):
             assert 'meet.csv' in files
             entriespath = dirname + os.sep + 'entries.csv'
             meetpath = dirname + os.sep + 'meet.csv'
-            addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays,configtoml)
+            addmeet(entriescsv, meetscsv, entriespath,
+                    meetpath, birthdays, configtoml)
 
     # Construct the lifters.csv.
     build_lifterscsv(lifterdir, builddir)
