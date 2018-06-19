@@ -27,8 +27,6 @@ def is_int(s):
     except ValueError:
         return False
 
-
-# This quite possibly has bugs...
 # Check that a lifter has a consistent birthyear
 def is_by_consistent(lifter_data):
     if lifter_data[0][0] != '':
@@ -70,33 +68,21 @@ def is_by_consistent(lifter_data):
 
             # Check that the age is consistent
             if newage != -1:
-                if age != -1:
-                    if newage < age + ageyeardiff:
-                        # print("A")
-                        return False
-                if newage < minage + minyeardiff :
-                    # print("C")
-                    # print(minage,minyeardiff,age_data)
+                if age != -1 and newage < age + ageyeardiff:
+                    return False
+                elif newage < minage + minyeardiff :
                     return False
                 elif newage > maxage + maxyeardiff +1:
-                    # print("D")
-                    # print(age_data,maxage,newage,maxyeardiff)
                     return False
 
             # Check that the minage is consistent
-            if new_minage != 0:
-                if new_minage > maxage + maxyeardiff+1: 
-                    # print("E")
-                    # print(maxage,maxyeardiff,age_data)
-                    return False
+            if new_minage != 0 and new_minage > maxage + maxyeardiff+1:
+                return False
 
 
             # Check that the maxage is consistent 
-            if new_maxage != 999:
-                if new_maxage < minage + minyeardiff:
-                    # print("G")
-                    # print(age_data,minage,new_maxage,minyeardiff)
-                    return False
+            if new_maxage != 999 and new_maxage < minage + minyeardiff:
+                return False
 
             if newage != -1:
                 age = newage
@@ -114,7 +100,7 @@ def mnth_day_cmp(age_data):
     return  age_data[1][4:]
 
 
-# Checks whether thr lifter has a consistent birthday
+# Checks whether a lifter has a consistent birthday
 def is_bd_consistent(lifter_data):
     for age_data in lifter_data:
         age = age_data[0]
@@ -238,7 +224,7 @@ def get_known_range(lifter_data):
     else:
         return []
 
-def interpolate_lifter_age(lifter_data):
+def interpolate_lifter(lifter_data):
 
     if len(lifter_data) > 1:
         bd_range = estimate_birthdate(lifter_data)
@@ -369,20 +355,7 @@ def interpolate_lifter_age(lifter_data):
 
 
 
-def backfill_ages(LifterAgeHash,MeetDateHash):
-    # lifter_data = []
-    # for age_data in LifterAgeHash[10781]:
-    #     lifter_data.append(age_data[:3]+[MeetDateHash[age_data[3]]]+[age_data[3]])
-
-
-    # lifter_data.sort(key=lambda x: x[3])
-
-    # #print(lifter_data)
-
-    # if is_by_consistent(lifter_data) and is_bd_consistent(lifter_data):
-    #     lifter_data = interpolate_lifter_age(lifter_data)
-    #     print(lifter_data)
-
+def interpolate_ages(LifterAgeHash,MeetDateHash):
     for lifter in LifterAgeHash:
         # Create an array of age data sorted by date
         lifter_data = []
@@ -393,7 +366,7 @@ def backfill_ages(LifterAgeHash,MeetDateHash):
         lifter_data.sort(key=lambda x: x[3])
 
         if is_by_consistent(lifter_data) and is_bd_consistent(lifter_data):
-            lifter_data = interpolate_lifter_age(lifter_data)
+            lifter_data = interpolate_lifter(lifter_data)
 
         lifter_data.sort(key=lambda x: x[4])
 
@@ -453,6 +426,8 @@ def generate_hashmap(entriespath,meetpath):
 
     return [LifterAgeHash,MeetDateHash]
 
+
+# For writing the LifterAgeHash back to a csv file
 def write_age_data(entriespath,LifterAgeHash):
     entriescsv  = oplcsv.Csv(entriespath)
 
@@ -479,7 +454,7 @@ def write_age_data(entriespath,LifterAgeHash):
 
 def main(entriespath,meetpath):
     [LifterAgeHash,MeetDateHash]=generate_hashmap(entriespath,meetpath)
-    LifterAgeHash = backfill_ages(LifterAgeHash,MeetDateHash)
+    LifterAgeHash = interpolate_ages(LifterAgeHash,MeetDateHash)
 
     write_age_data(entriespath,LifterAgeHash)
 
