@@ -6,10 +6,6 @@
 
 import oplcsv
 import sys
-from wilks import wilks, mcculloch, ageCoeff
-import usernames
-
-
 
 
 def to_string(f):
@@ -26,6 +22,7 @@ def is_int(s):
         return True
     except ValueError:
         return False
+
 
 # Check that a lifter has a consistent birthyear
 def is_by_consistent(lifter_data):
@@ -58,29 +55,28 @@ def is_by_consistent(lifter_data):
 
             ageyeardiff = new_year - int(agedate[:4])
             if newagedate[4:] < agedate[4:]:
-                ageyeardiff -=1
+                ageyeardiff -= 1
             minyeardiff = new_year - int(mindate[:4])
             if new_mindate[4:] < mindate[4:]:
-                minyeardiff -=1
+                minyeardiff -= 1
             maxyeardiff = new_year - int(maxdate[:4])
             if new_maxdate[4:] < maxdate[4:]:
-                maxyeardiff -=1
+                maxyeardiff -= 1
 
             # Check that the age is consistent
             if newage != -1:
                 if age != -1 and newage < age + ageyeardiff:
                     return False
-                elif newage < minage + minyeardiff :
+                elif newage < minage + minyeardiff:
                     return False
-                elif newage > maxage + maxyeardiff +1:
+                elif newage > maxage + maxyeardiff + 1:
                     return False
 
             # Check that the minage is consistent
             if new_minage != 0 and new_minage > maxage + maxyeardiff+1:
                 return False
 
-
-            # Check that the maxage is consistent 
+            # Check that the maxage is consistent
             if new_maxage != 999 and new_maxage < minage + minyeardiff:
                 return False
 
@@ -96,8 +92,9 @@ def is_by_consistent(lifter_data):
 
     return True
 
+
 def mnth_day_cmp(age_data):
-    return  age_data[1][4:]
+    return age_data[1][4:]
 
 
 # Checks whether a lifter has a consistent birthday
@@ -110,10 +107,10 @@ def is_bd_consistent(lifter_data):
 
         if age != '':
             # this is an exact age
-            if float(age) % 1 ==0:
-                bd_data.append([age,date])
+            if float(age) % 1 == 0:
+                bd_data.append([age, date])
 
-    if len(bd_data) >1:
+    if len(bd_data) > 1:
         # Sort the age data by day and month
         bd_data.sort(mnth_day_cmp)
 
@@ -122,15 +119,16 @@ def is_bd_consistent(lifter_data):
         # Offset the age data so it is all from one year
         for age_date in bd_data[1:]:
             curr_year = age_date[1][:4]
-            age_date[0]+= init_year - curr_year
+            age_date[0] += init_year - curr_year
 
-        # Check that the age data is still sorted by age, 
+        # Check that the age data is still sorted by age,
         # if not the birthdate isn't consistent
-        for ii in range(1,len(bd_data)):
+        for ii in range(1, len(bd_data)):
             if bd_data[ii-1][0] > bd_data[ii][0]:
                 return False
 
     return True
+
 
 # Gives the range that a lifters birthday lies in
 def estimate_birthdate(lifter_data):
@@ -140,12 +138,12 @@ def estimate_birthdate(lifter_data):
     for age_data in lifter_data:
         age = age_data[0]
         date = age_data[3]
-            
-        # this is an exact age
-        if age != '' and float(age) % 1 ==0:
-            bd_data.append([int(age),date])
 
-    if len(bd_data) >1:
+        # this is an exact age
+        if age != '' and float(age) % 1 == 0:
+            bd_data.append([int(age), date])
+
+    if len(bd_data) > 1:
         # Sort the age data by day and month
         bd_data.sort(key=mnth_day_cmp)
 
@@ -154,7 +152,7 @@ def estimate_birthdate(lifter_data):
         # Offset the age data so it is all from one year
         for age_date in bd_data[1:]:
             curr_year = int(age_date[1][:4])
-            age_date[0]+= init_year - curr_year
+            age_date[0] += init_year - curr_year
 
         min_date = bd_data[0][1][5:]
         max_date = bd_data[0][1][5:]
@@ -164,7 +162,7 @@ def estimate_birthdate(lifter_data):
         for age_date in bd_data[1:]:
             if age_date[0] == lower_age:
                 min_date = age_date[1][5:]
-            elif age_date[0] == lower_age +1:
+            elif age_date[0] == lower_age + 1:
                 max_date = age_date[1][5:]
                 has_had_bd = True
 
@@ -174,14 +172,14 @@ def estimate_birthdate(lifter_data):
         if not has_had_bd:
             return []
 
-
-        else: # We've managed to bound the birthdate
-            by = init_year - (lower_age +1)
+        else:  # We've managed to bound the birthdate
+            by = init_year - (lower_age + 1)
             min_date = str(by)+'-'+min_date
             max_date = str(by)+'-'+max_date
-            return [min_date,max_date]
-    else: # No recorded ages, can't estimate a birthdate
+            return [min_date, max_date]
+    else:  # No recorded ages, can't estimate a birthdate
         return []
+
 
 # Gets the range where we know that the lifter hasn't had a birthday
 # this function assumes that there are no years where we see the lifter at different ages
@@ -191,13 +189,13 @@ def get_known_range(lifter_data):
     bd_data = []
     for age_data in lifter_data:
         age = age_data[0]
-        date = age_data[3]    
+        date = age_data[3]
 
         # this is an exact age
-        if age != '' and float(age) % 1 ==0:
-            bd_data.append([int(age),date])
+        if age != '' and float(age) % 1 == 0:
+            bd_data.append([int(age), date])
 
-    if len(bd_data) >1:
+    if len(bd_data) > 1:
         # Sort the age data by day and month
         bd_data.sort(key=mnth_day_cmp)
 
@@ -206,11 +204,10 @@ def get_known_range(lifter_data):
         # Offset the age data so it is all from one year
         for age_date in bd_data[1:]:
             curr_year = int(age_date[1][:4])
-            age_date[0]+= init_year - curr_year
+            age_date[0] += init_year - curr_year
 
         min_date = bd_data[0][1][5:]
         max_date = bd_data[0][1][5:]
-
 
         for age_date in bd_data[1:]:
             if age_date[1][5:] < min_date:
@@ -218,24 +215,26 @@ def get_known_range(lifter_data):
             elif age_date[1][5:] > max_date:
                 max_date = age_date[1][5:]
 
-        return [max_date,min_date]
-    elif len(bd_data) ==1:
-        return [bd_data[0][1][5:],bd_data[0][1][5:]]
+        return [max_date, min_date]
+    elif len(bd_data) == 1:
+        return [bd_data[0][1][5:], bd_data[0][1][5:]]
     else:
         return []
+
 
 def interpolate_lifter(lifter_data):
 
     if len(lifter_data) > 1:
         bd_range = estimate_birthdate(lifter_data)
 
-        if bd_range != []: # Then we have a birthday range and can be semi-accurate
+        if bd_range != []:  # Then we have a birthday range and can be semi-accurate
             for age_data in lifter_data:
                 if age_data[0] == '':
                     mnth_day = age_data[3][4:]
                     # Then they haven't had their birthday yet
                     if mnth_day < bd_range[0][4:]:
-                        age_data[0] = int(age_data[3][:4])-int(bd_range[0][:4])-1
+                        age_data[0] = int(age_data[3][:4]) - \
+                            int(bd_range[0][:4])-1
                         age_data[1] = age_data[0]
                         age_data[2] = age_data[0]
                     # Then they've had their birthday
@@ -243,14 +242,15 @@ def interpolate_lifter(lifter_data):
                         age_data[0] = int(age_data[3][:4])-int(bd_range[0][:4])
                         age_data[1] = age_data[0]
                         age_data[2] = age_data[0]
-                    else: # We're not sure if they've had their birthday
-                        age_data[0] = int(age_data[3][:4])-int(bd_range[0][:4])-0.5
+                    else:  # We're not sure if they've had their birthday
+                        age_data[0] = int(age_data[3][:4]) - \
+                            int(bd_range[0][:4])-0.5
                         age_data[1] = int(age_data[0]-0.5)
                         age_data[2] = int(age_data[0]+0.5)
-        else: # We have only birthyears, a single age or only divisions
- 
+        else:  # We have only birthyears, a single age or only divisions
+
             by = 0
-            approx_by =0
+            approx_by = 0
             min_by = 0
             max_by = 9999
             known_range = []
@@ -260,25 +260,26 @@ def interpolate_lifter(lifter_data):
                 # Then we have an age derived from birthyear
                 if age_data[0] != '':
                     if float(age_data[0]) % 1 == 0.5:
-                        by = int(age_data[3][:4]) -  int((float(age_data[0])+0.5))
+                        by = int(age_data[3][:4]) - \
+                            int((float(age_data[0])+0.5))
                     else:
                         approx_by = int(age_data[3][:4])-int(age_data[0])
 
-
                 # Find the tighest bounds given by divisions
-                if max_by != 9999 and int(age_data[3][:4]) -age_data[1] < max_by:
-                    max_by =  int(age_data[3][:4]) -int(age_data[1])
+                if max_by != 9999 and int(age_data[3][:4]) - age_data[1] < max_by:
+                    max_by = int(age_data[3][:4]) - int(age_data[1])
 
-                if min_by != 0 and int(age_data[3][:4]) - age_data[2]  > min_by:
+                if min_by != 0 and int(age_data[3][:4]) - age_data[2] > min_by:
                     min_by = int(age_data[3][:4]) - int(age_data[2])
 
             # Then the division information let's us have an exact birthyear
-            if min_by > approx_by: 
+            if min_by > approx_by:
                 by = min_by
             elif max_by < approx_by:
                 by = max_by
 
-            # If we have at least one exact age, then we have a range in which we know they don't have a birthday
+            # If we have at least one exact age,
+            # then we have a range in which we know they don't have a birthday
             if approx_by != 0:
                 known_range = get_known_range(lifter_data)
 
@@ -291,14 +292,15 @@ def interpolate_lifter(lifter_data):
                             age_data[1] = int(age_data[0]-0.5)
                             age_data[2] = int(age_data[0]+0.5)
                         else:
-                            # Check whether known_range is an upper or lower bound on the birthday
+                            # Check whether known_range is an upper
+                            # or lower bound on the birthday
                             lower_bound = False
                             if approx_by < by:
                                 lower_bound = True
 
                             # Then the lifter hasn't had their birthday yet
                             if lower_bound and age_data[3][5:] <= known_range[1]:
-                                age_data[0] = int(age_data[3][:4])-by -1
+                                age_data[0] = int(age_data[3][:4])-by - 1
                                 age_data[1] = age_data[0]
                                 age_data[2] = age_data[0]
                             # Then we're not sure if they've had their birthday
@@ -307,17 +309,18 @@ def interpolate_lifter(lifter_data):
                                 age_data[1] = int(age_data[0]-0.5)
                                 age_data[2] = int(age_data[0]+0.5)
                             # Then the lifter has had their birthday
-                            elif age_data[3][5:] >= known_range[0]:                 
+                            elif age_data[3][5:] >= known_range[0]:
                                 age_data[0] = int(age_data[3][:4])-by
                                 age_data[1] = age_data[0]
-                                age_data[2] = age_data[0]                           
+                                age_data[2] = age_data[0]
                             # Then we're not sure if they've had their birthday
                             else:
                                 age_data[0] = int(age_data[3][:4])-by-0.5
                                 age_data[1] = int(age_data[0]-0.5)
                                 age_data[2] = int(age_data[0]+0.5)
 
-            # Then deal with the case where we have an age and the division information doesn't give the birthyear
+            # Then deal with the case where we have an age
+            # and the division information doesn't give the birthyear
             elif approx_by != 0:
 
                 # Assign upper and lower age bounds based on approximate birthyear
@@ -326,42 +329,39 @@ def interpolate_lifter(lifter_data):
                     if age_data[0] == '':
                         if age_data[3][5:] < known_range[0]:
                             age_data[0] = year - approx_by - 0.5
-                            age_data[1] = year - approx_by -1
-                            age_data[2] = year - approx_by 
+                            age_data[1] = year - approx_by - 1
+                            age_data[2] = year - approx_by
                         elif age_data[3][5:] > known_range[1]:
                             age_data[0] = year - approx_by + 0.5
                             age_data[1] = year - approx_by
                             age_data[2] = year - approx_by + 1
                         # We know an exact age for this date
-                        elif age_data[3][5:] >= known_range[0] and age_data[3][5:] <= known_range[1]:
+                        elif (age_data[3][5:] >= known_range[0] and
+                              age_data[3][5:] <= known_range[1]):
                             age_data[0] = year - approx_by
                             age_data[1] = year - approx_by
                             age_data[2] = year - approx_by
-
 
             # Finally deal with the only division case
             else:
                 # Set age bounds based on divisions
                 for age_data in lifter_data:
                     year = int(age_data[3][:4])
-                    if min_by !=0:
+                    if min_by != 0:
                         age_data[1] = year - min_by - 1
                     if max_by != 9999:
                         age_data[2] = year - max_by
 
-
     return lifter_data
 
 
-
-
-def interpolate_ages(LifterAgeHash,MeetDateHash):
+def interpolate_ages(LifterAgeHash, MeetDateHash):
     for lifter in LifterAgeHash:
         # Create an array of age data sorted by date
         lifter_data = []
         for age_data in LifterAgeHash[lifter]:
-            lifter_data.append(age_data[:3]+[MeetDateHash[age_data[3]]]+[age_data[3]])
-
+            lifter_data.append(
+                age_data[:3]+[MeetDateHash[age_data[3]]]+[age_data[3]])
 
         lifter_data.sort(key=lambda x: x[3])
 
@@ -370,19 +370,16 @@ def interpolate_ages(LifterAgeHash,MeetDateHash):
 
         lifter_data.sort(key=lambda x: x[4])
 
-
         # Put this data back into the hashmap
         for ii in range(len(LifterAgeHash[lifter])):
             LifterAgeHash[lifter][ii][0] = lifter_data[ii][0]
             LifterAgeHash[lifter][ii][1] = lifter_data[ii][1]
             LifterAgeHash[lifter][ii][2] = lifter_data[ii][2]
 
-
-
     return LifterAgeHash
 
 
-def generate_hashmap(entriespath,meetpath):
+def generate_hashmap(entriespath, meetpath):
     # Hashtable for lifter age-data lookup
     # int -> [(str, int, int, int),....] LifterID -> Array of (Age,MinAge,MaxAge,MeetID).
     LifterAgeHash = {}
@@ -397,7 +394,7 @@ def generate_hashmap(entriespath,meetpath):
         minageidx = fieldnames.index('MinAge')
         maxageidx = fieldnames.index('MaxAge')
         meetIDidx = fieldnames.index('MeetID')
-        
+
         for x in fd.readlines():
             row = x.rstrip("\r\n").split(',')
             lifterID = int(row[lifterIDidx])
@@ -407,16 +404,16 @@ def generate_hashmap(entriespath,meetpath):
             meetID = int(row[meetIDidx])
 
             if lifterID not in LifterAgeHash:
-                LifterAgeHash[lifterID] = [[age,minage,maxage,meetID]]
+                LifterAgeHash[lifterID] = [[age, minage, maxage, meetID]]
             else:
-                LifterAgeHash[lifterID].append([age,minage,maxage,meetID])
+                LifterAgeHash[lifterID].append([age, minage, maxage, meetID])
 
     with open(meetpath, 'r', encoding='utf-8') as fd:
         fieldnames = fd.readline().rstrip().split(',')
 
         meetIDidx = fieldnames.index('MeetID')
         dateidx = fieldnames.index('Date')
-        
+
         for x in fd.readlines():
             row = x.rstrip("\r\n").split(',')
             date = row[dateidx]
@@ -424,46 +421,42 @@ def generate_hashmap(entriespath,meetpath):
 
             MeetDateHash[meetID] = date
 
-    return [LifterAgeHash,MeetDateHash]
+    return [LifterAgeHash, MeetDateHash]
 
 
 # For writing the LifterAgeHash back to a csv file
-def write_age_data(entriespath,LifterAgeHash):
-    entriescsv  = oplcsv.Csv(entriespath)
+def write_age_data(entriespath, LifterAgeHash):
+    entriescsv = oplcsv.Csv(entriespath)
 
     lifterIDidx = entriescsv.index('LifterID')
-    ageidx      = entriescsv.index('Age')
-    minageidx   = entriescsv.index('MinAge')
-    maxageidx   = entriescsv.index('MaxAge')
-    meetIDidx   = entriescsv.index('MeetID')
+    ageidx = entriescsv.index('Age')
+    minageidx = entriescsv.index('MinAge')
+    maxageidx = entriescsv.index('MaxAge')
+    meetIDidx = entriescsv.index('MeetID')
 
     for row in entriescsv.rows:
         lifterID = row[lifterIDidx]
         meetID = row[meetIDidx]
-       
+
         for age_data in LifterAgeHash[int(lifterID)]:
             if age_data[3] == int(meetID):
-                row[ageidx]    = str(age_data[0])
+                row[ageidx] = str(age_data[0])
                 row[minageidx] = str(age_data[1])
                 row[maxageidx] = str(age_data[2])
                 break
 
-
     entriescsv.write_filename(entriespath)
 
 
-def main(entriespath,meetpath):
-    [LifterAgeHash,MeetDateHash]=generate_hashmap(entriespath,meetpath)
-    LifterAgeHash = interpolate_ages(LifterAgeHash,MeetDateHash)
+def main(entriespath, meetpath):
+    [LifterAgeHash, MeetDateHash] = generate_hashmap(entriespath, meetpath)
+    LifterAgeHash = interpolate_ages(LifterAgeHash, MeetDateHash)
 
-    write_age_data(entriespath,LifterAgeHash)
-
-
-
+    write_age_data(entriespath, LifterAgeHash)
 
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
         print(' Usage: %s csv' % sys.argv[0], file=sys.stderr)
         sys.exit(1)
-    sys.exit(main(sys.argv[1],sys.argv[2]))
+    sys.exit(main(sys.argv[1], sys.argv[2]))
