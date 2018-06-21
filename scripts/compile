@@ -321,7 +321,7 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays, configtoml):
     newentries.remove_column_by_name("BirthYear")
     newentries.remove_column_by_name("BirthDay")
 
-    agerange_from_division(newentries, configtoml)
+    agerange_from_division(newentries,configtoml)
 
     entriescsv.cat(newentries)
     meetscsv.cat(newmeet)
