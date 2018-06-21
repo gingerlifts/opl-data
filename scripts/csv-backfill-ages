@@ -1,0 +1,281 @@
+#!/usr/bin/env python3
+# vim: set ts=8 sts=4 et sw=4 tw=99:
+#
+# Uses existing age to data to estimate ages for all
+# lifter meets. Only fills in data if it is consistent.
+
+import oplcsv
+import sys
+from wilks import wilks, mcculloch, ageCoeff
+import usernames
+
+# Hashtable for lifter age-data lookup
+# int -> [(str, int, int, int),....] LifterID -> Array of (Age,MinAge,MaxAge,MeetID).
+LifterAgeHash = {}
+# Hashtable for looking up meet-dates from IDs, int -> str
+MeetDateHash = {}
+
+
+def to_string(f):
+    try:
+        return "{:.2f}".format(f)
+    except ValueError:
+        print("Field not a float: %f" % f, file=sys.stderr)
+        sys.exit(1)
+
+
+def is_int(s):
+    try:
+        int(s)
+        return True
+    except ValueError:
+        return False
+
+
+# This quite possibly has bugs...
+# Check that a lifter has a consistent birthyear
+def is_by_consistent(lifter_data):
+    if lifter_data[0][0] != '':
+        age = float(lifter_data[0][0])
+    else:
+        age = -1
+
+    minage = lifter_data[0][1]
+    maxage = lifter_data[0][2]
+    ageyear = int(lifter_data[0][3].split('-')[0])
+    minyear = ageyear
+    maxyear = ageyear
+
+    if len(lifter_data) > 1:
+        for age_data in lifter_data[1:]:
+            new_year = int(age_data[3].split('-')[0])
+            new_minage = age_data[1]
+            new_maxage = age_data[2]
+            new_age = -1
+            if age_data[0] != '':
+                # Want the lower age if age is derived from birthyear
+                new_age = round(float(age_data[0])-0.5)
+            else:
+                new_age = -1
+
+            ageyeardiff = new_year - ageyear
+            minyeardiff = new_year - minyear
+            maxyeardiff = new_year - maxyear
+
+            # Check that the age is consistent
+            if new_age != -1:
+                if age != -1:
+                    if new_age < age + ageyeardiff -1:
+                        return False
+                    elif new_age > age+ ageyeardiff + 1:
+                        return False
+                if new_age < minage + minyeardiff -1:
+                    return False
+                elif new_age > maxage + maxyeardiff:
+                    return False
+
+            # Check that the minage is consistent
+            if new_minage != 0:
+                if new_minage > maxage + maxyeardiff: 
+                    return False
+                elif new_minage > age + maxyeardiff:
+                    return False
+
+            # Check that the maxage is consistent 
+            if new_maxage != 999:
+                if new_maxage < minage + minyeardiff:
+                    return False
+                elif new_maxage < age + maxyeardiff:
+                    return False
+
+            if new_age != -1:
+                age = new_age
+                ageyear = new_year
+            if new_minage != 0:
+                minage = new_minage
+                minyear = new_year
+            if new_maxage != 999:
+                maxage = new_maxage
+                maxyear = new_year
+
+    return True
+
+def mnth_day_cmp(age_data1,age_data2):
+    return  age_data1[3][4:] < age_data2[3][4:]
+
+
+# Checks whether thr lifter has a consistent birthday
+def is_bd_consistent(lifter_data):
+    for age_data in lifter_data:
+        age = age_data[0]
+        date = age_data[3]
+
+        if age != '':
+            # this is an exact age
+            if float(age) % 1 ==0:
+                bd_data.append([age,date])
+
+    if len(bd_data) >1:
+        # Sort the age data by day and month
+        bd_data.sort(mnth_day_cmp)
+
+        init_year = bd_data[0][1][:4]
+
+        # Offset the age data so it is all from one year
+        for age_date in bd_data[1:]:
+            curr_year = age_date[1][:4]
+            age_date[0]+= init_year - curr_year
+
+        # Check that the age data is still sorted by age, 
+        # if not the birthdate isn't consistent
+        for ii in range(1,len(bd_data)):
+            if bd_data[ii-1][0] > bd_data[ii][0]:
+                return False
+
+    return True
+
+# Gives the range that a lifters birthday lies in
+def estimate_birthdate(lifter_data):
+    min_date = ''
+    max_date = ''
+    bd_data = []
+    for age_data in lifter_data:
+        age = age_data[0]
+        date = age_data[3]
+
+        if age != '':
+            # this is an exact age
+            if float(age) % 1 ==0:
+                bd_data.append([age,date])
+
+    if len(bd_data) >1:
+        # Sort the age data by day and month
+        bd_data.sort(mnth_day_cmp)
+
+        init_year = bd_data[0][1][:4]
+
+        # Offset the age data so it is all from one year
+        for age_date in bd_data[1:]:
+            curr_year = age_date[1][:4]
+            age_date[0]+= init_year - curr_year
+
+        min_date = bd_data[0][1]
+        max_date = bd_data[0][1]
+        has_had_bd = False
+        lower_age = bd_data[0][0]
+
+        for age_date in bd_data[1:]:
+            if age_date[0] == lower_age:
+
+            else:
+
+        # We can't estimate a birthdate, use the least charitable range for interpolation
+        if not has_had_bd:
+
+            # If lifter is a master, estimate their age as lower
+            # If lifter is a junior, estimate their age as higher
+
+
+
+
+
+
+
+def interpolate_ages(lifter_data):
+    if lifter_data[0][0] != '':
+        age = float(lifter_data[0][0])
+    else:
+        age = -1
+
+    minage = lifter_data[0][1]
+    maxage = lifter_data[0][2]
+    ageyear = int(lifter_data[0][3].split('-')[0])
+    minyear = ageyear
+    maxyear = ageyear
+
+    if len(lifter_data) > 1:
+        bd_range = estimate_birthdate(lifter_data)
+        for age_data in lifter_data[1:]:
+
+
+    return lifter_data
+
+
+
+
+def backfill_ages():
+    global LifterAgeHash
+    global MeetDateHash
+
+    for lifter in LifterAgeHash:
+        # Create an array of age data sorted by date
+        lifter_data = []
+        for agedata in LifterAgeHash[lifter]:
+            lifter_data.append(agedata[:3]+[MeetDateHash[agedata[3]]])
+
+        lifter_data.sort(key=lambda x: x[3])
+
+        if is_by_consistent(lifter_data):
+            interpolate_ages(lifter_data)
+
+
+
+
+
+
+
+
+
+def generate_hashmap(entriespath,meetpath):
+    global LifterAgeHash
+    global MeetDateHash
+
+    with open(entriespath, 'r', encoding='utf-8') as fd:
+        fieldnames = fd.readline().rstrip().split(',')
+
+        lifterIDidx = fieldnames.index('LifterID')
+        ageidx = fieldnames.index('Age')
+        minageidx = fieldnames.index('MinAge')
+        maxageidx = fieldnames.index('MaxAge')
+        meetIDidx = fieldnames.index('MeetID')
+        
+        for x in fd.readlines():
+            row = x.rstrip("\r\n").split(',')
+            lifterID = int(row[lifterIDidx])
+            age = row[ageidx]
+            minage = int(row[minageidx])
+            maxage = int(row[maxageidx])
+            meetID = int(row[meetIDidx])
+
+            if lifterID not in LifterAgeHash:
+                LifterAgeHash[lifterID] = [[age,minage,maxage,meetID]]
+            else:
+                LifterAgeHash[lifterID].append([age,minage,maxage,meetID])
+
+    with open(meetpath, 'r', encoding='utf-8') as fd:
+        fieldnames = fd.readline().rstrip().split(',')
+
+        meetIDidx = fieldnames.index('MeetID')
+        dateidx = fieldnames.index('Date')
+        
+        for x in fd.readlines():
+            row = x.rstrip("\r\n").split(',')
+            date = row[dateidx]
+            meetID = int(row[meetIDidx])
+
+            MeetDateHash[meetID] = date
+
+
+def main(entriespath,meetpath):
+    generate_hashmap(entriespath,meetpath)
+    backfill_ages()
+
+
+
+
+
+if __name__ == '__main__':
+    if len(sys.argv) != 3:
+        print(' Usage: %s csv' % sys.argv[0], file=sys.stderr)
+        sys.exit(1)
+    sys.exit(main(sys.argv[1],sys.argv[2]))
