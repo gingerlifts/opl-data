@@ -9,7 +9,7 @@ from usernames import get_username
 import os
 import sys
 import toml
-
+from interpolate_ages import interpolate
 
 MEETID = 0
 
@@ -233,7 +233,6 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays, configtoml):
     newentries.remove_column_by_name("CyrillicName")
     newentries.remove_column_by_name("Country-State")
     newentries.remove_column_by_name("College/University")
-    newentries.remove_column_by_name("AgeClass")
 
     # Make use of Japanese Names
     add_international_names(newentries)
@@ -408,8 +407,6 @@ def main(builddir, meetdir, lifterdir):
     entriescsv.append_column('Event')
     entriescsv.append_column('Equipment')
     entriescsv.append_column('Age')
-    entriescsv.append_column('MinAge')
-    entriescsv.append_column('MaxAge')
     entriescsv.append_column('Division')
     entriescsv.append_column('BodyweightKg')
     entriescsv.append_column('WeightClassKg')
@@ -433,6 +430,7 @@ def main(builddir, meetdir, lifterdir):
     entriescsv.append_column('Wilks')
     entriescsv.append_column('McCulloch')
     entriescsv.append_column('Tested')
+    entriescsv.append_column('AgeClass')
     initial_entriescsv_num_columns = len(entriescsv.fieldnames)
 
     meetscsv.append_column('MeetID')
@@ -472,6 +470,8 @@ def main(builddir, meetdir, lifterdir):
             meetpath = dirname + os.sep + 'meet.csv'
             addmeet(entriescsv, meetscsv, entriespath,
                     meetpath, birthdays, configtoml)
+
+    entriescsv = interpolate(entriescsv, meetscsv)
 
     # Construct the lifters.csv.
     build_lifterscsv(lifterdir, builddir)

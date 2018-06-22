@@ -4,7 +4,6 @@
 # Uses existing age to data to estimate ages for all
 # lifter meets. Only fills in data if it is consistent.
 
-import oplcsv
 import sys
 
 
@@ -27,7 +26,8 @@ def is_int(s):
 # Check that a lifter has a consistent birthyear
 def is_by_consistent(lifter_data):
     if lifter_data[0][0] != '':
-        age = float(lifter_data[0][0])
+        # Want the lower age if age is derived from birthyear
+        age = float(lifter_data[0][0]) - (float(lifter_data[0][0]) % 1)
     else:
         age = -1
 
@@ -356,6 +356,7 @@ def interpolate_lifter(lifter_data):
 
 
 def interpolate_ages(LifterAgeHash, MeetDateHash):
+
     for lifter in LifterAgeHash:
         # Create an array of age data sorted by date
         lifter_data = []
@@ -379,54 +380,12 @@ def interpolate_ages(LifterAgeHash, MeetDateHash):
     return LifterAgeHash
 
 
-def generate_hashmap(entriespath, meetpath):
+def generate_hashmap(entriescsv, meetcsv):
     # Hashtable for lifter age-data lookup
     # int -> [(str, int, int, int),....] LifterID -> Array of (Age,MinAge,MaxAge,MeetID).
     LifterAgeHash = {}
     # Hashtable for looking up meet-dates from IDs, int -> str
     MeetDateHash = {}
-
-    with open(entriespath, 'r', encoding='utf-8') as fd:
-        fieldnames = fd.readline().rstrip().split(',')
-
-        lifterIDidx = fieldnames.index('LifterID')
-        ageidx = fieldnames.index('Age')
-        minageidx = fieldnames.index('MinAge')
-        maxageidx = fieldnames.index('MaxAge')
-        meetIDidx = fieldnames.index('MeetID')
-
-        for x in fd.readlines():
-            row = x.rstrip("\r\n").split(',')
-            lifterID = int(row[lifterIDidx])
-            age = row[ageidx]
-            minage = int(row[minageidx])
-            maxage = int(row[maxageidx])
-            meetID = int(row[meetIDidx])
-
-            if lifterID not in LifterAgeHash:
-                LifterAgeHash[lifterID] = [[age, minage, maxage, meetID]]
-            else:
-                LifterAgeHash[lifterID].append([age, minage, maxage, meetID])
-
-    with open(meetpath, 'r', encoding='utf-8') as fd:
-        fieldnames = fd.readline().rstrip().split(',')
-
-        meetIDidx = fieldnames.index('MeetID')
-        dateidx = fieldnames.index('Date')
-
-        for x in fd.readlines():
-            row = x.rstrip("\r\n").split(',')
-            date = row[dateidx]
-            meetID = int(row[meetIDidx])
-
-            MeetDateHash[meetID] = date
-
-    return [LifterAgeHash, MeetDateHash]
-
-
-# For writing the LifterAgeHash back to a csv file
-def write_age_data(entriespath, LifterAgeHash):
-    entriescsv = oplcsv.Csv(entriespath)
 
     lifterIDidx = entriescsv.index('LifterID')
     ageidx = entriescsv.index('Age')
@@ -435,28 +394,89 @@ def write_age_data(entriespath, LifterAgeHash):
     meetIDidx = entriescsv.index('MeetID')
 
     for row in entriescsv.rows:
+        lifterID = int(row[lifterIDidx])
+        age = row[ageidx]
+        minage = int(row[minageidx])
+        maxage = int(row[maxageidx])
+        meetID = int(row[meetIDidx])
+
+        if lifterID not in LifterAgeHash:
+            LifterAgeHash[lifterID] = [[age, minage, maxage, meetID]]
+        else:
+            LifterAgeHash[lifterID].append([age, minage, maxage, meetID])
+
+    meetIDidx = meetcsv.index('MeetID')
+    dateidx = meetcsv.index('Date')
+
+    for row in meetcsv.rows:
+        date = row[dateidx]
+        meetID = int(row[meetIDidx])
+
+        MeetDateHash[meetID] = date
+
+    return [LifterAgeHash, MeetDateHash]
+
+
+def get_ageclass(maxage, minage):
+
+    if maxage <= 18:
+        return '0-18'
+    elif maxage <= 23:
+        return '19-23'
+    elif minage >= 39 and maxage <= 44:
+        return '39-44'
+    elif minage > 44 and maxage <= 49:
+        return '45-49'
+    elif minage > 49 and maxage <= 54:
+        return '50-54'
+    elif minage > 54 and maxage <= 59:
+        return '55-59'
+    elif minage > 59 and maxage <= 64:
+        return '60-64'
+    elif minage > 64 and maxage <= 69:
+        return '65-69'
+    elif minage > 69 and maxage <= 74:
+        return '70-74'
+    elif minage > 74 and maxage <= 79:
+        return '75-79'
+    elif minage > 79:
+        return '80-999'
+    else:
+        return ''
+
+# Adds the interpolated ages back to the csv file, removes MinAge & MaxAge
+
+
+def update_csv(entriescsv, LifterAgeHash):
+
+    lifterIDidx = entriescsv.index('LifterID')
+    ageidx = entriescsv.index('Age')
+    meetIDidx = entriescsv.index('MeetID')
+
+    if 'AgeClass' not in entriescsv.fieldnames:
+        entriescsv.append_column('AgeClass')
+
+    ageclassidx = entriescsv.index('AgeClass')
+
+    for row in entriescsv.rows:
         lifterID = row[lifterIDidx]
         meetID = row[meetIDidx]
 
         for age_data in LifterAgeHash[int(lifterID)]:
             if age_data[3] == int(meetID):
+
                 row[ageidx] = str(age_data[0])
-                row[minageidx] = str(age_data[1])
-                row[maxageidx] = str(age_data[2])
+                row[ageclassidx] = str(get_ageclass(age_data[1], age_data[2]))
                 break
 
-    entriescsv.write_filename(entriespath)
+    entriescsv.remove_column_by_name("MinAge")
+    entriescsv.remove_column_by_name("MaxAge")
+
+    return entriescsv
 
 
-def main(entriespath, meetpath):
-    [LifterAgeHash, MeetDateHash] = generate_hashmap(entriespath, meetpath)
+def interpolate(entriescsv, meetcsv):
+    [LifterAgeHash, MeetDateHash] = generate_hashmap(entriescsv, meetcsv)
     LifterAgeHash = interpolate_ages(LifterAgeHash, MeetDateHash)
 
-    write_age_data(entriespath, LifterAgeHash)
-
-
-if __name__ == '__main__':
-    if len(sys.argv) != 3:
-        print(' Usage: %s csv' % sys.argv[0], file=sys.stderr)
-        sys.exit(1)
-    sys.exit(main(sys.argv[1], sys.argv[2]))
+    return update_csv(entriescsv, LifterAgeHash)
