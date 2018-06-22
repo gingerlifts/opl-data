@@ -18,11 +18,6 @@ csvfile: builddir
 	scripts/compile "${BUILDDIR}" "${DATADIR}" "lifter-data"
 	scripts/csv-bodyweight "${BUILDDIR}/${PLFILE}"
 	scripts/csv-wilks "${BUILDDIR}/${PLFILE}"
-<<<<<<< HEAD
-	scripts/csv-interpolate-ages "${BUILDDIR}/${PLFILE}" "${BUILDDIR}/${MEETFILE}"
-=======
-	scripts/csv-backfill-ages "${BUILDDIR}/${PLFILE}" "${BUILDDIR}/${MEETFILE}"
->>>>>>> Think I'm finished with functionality.
 
 # Generate a large amount of test data: entries.csv with > 10million entries.
 benchdata: builddir
