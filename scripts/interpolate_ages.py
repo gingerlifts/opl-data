@@ -40,7 +40,7 @@ def is_by_consistent(lifter_data):
 
     if len(lifter_data) > 1:
         for age_data in lifter_data[1:]:
-            newagedate = age_data[DATE_IDX]
+            newagedate = age_data[AGE_IDX]
             new_year = get_year(age_data[DATE_IDX])
 
             new_mindate = age_data[DATE_IDX]
@@ -259,7 +259,7 @@ def interpolate_lifter(lifter_data):
                     # Then they've had their birthday
                     elif curr_monthday > get_monthday(bd_range[1]):
                         age_data[AGE_IDX] = curr_year - \
-                            get_year(bd_range[0])
+                            get_year(bd_range[DATE_IDX])
                         age_data[MINAGE_IDX] = age_data[AGE_IDX]
                         age_data[MAXAGE_IDX] = age_data[AGE_IDX]
                     else:  # We're not sure if they've had their birthday
@@ -521,9 +521,13 @@ def update_csv(entriescsv, LifterAgeHash):
         lifterID = row[lifterIDidx]
         meetID = row[meetIDidx]
 
-        if check_age_spacing(LifterAgeHash[int(lifterID)]):
-            for age_data in LifterAgeHash[int(lifterID)]:
-                if age_data[DATE_IDX] == int(meetID):
+        for age_data in LifterAgeHash[int(lifterID)]:
+            if age_data[DATE_IDX] == int(meetID):
+
+                row[ageidx] = str(age_data[AGE_IDX])
+                row[ageclassidx] = str(get_ageclass(
+                    age_data[MINAGE_IDX], age_data[MAXAGE_IDX]))
+                break
 
                     row[ageidx] = str(age_data[AGE_IDX])
                     row[ageclassidx] = str(get_ageclass(
