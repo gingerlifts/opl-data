@@ -20,6 +20,8 @@ pub enum Federation {
     #[serde(rename = "365Strong")]
     #[strum(to_string = "365Strong", serialize = "365strong")]
     _365Strong,
+    #[strum(to_string = "AAP", serialize = "aap")]
+    AAP,
     #[strum(to_string = "AAU", serialize = "aau")]
     AAU,
     #[strum(to_string = "ADAU", serialize = "adau")]
@@ -72,8 +74,12 @@ pub enum Federation {
     EPA,
     #[strum(to_string = "EPF", serialize = "epf")]
     EPF,
+    #[strum(to_string = "FALPO", serialize = "falpo")]
+    FALPO,
     #[strum(to_string = "FEMEPO", serialize = "femepo")]
     FEMEPO,
+    #[strum(to_string = "FEPOA", serialize = "fepoa")]
+    FEPOA,
     #[strum(to_string = "FESUPO", serialize = "fesupo")]
     FESUPO,
     #[strum(to_string = "FFForce", serialize = "ffforce")]
