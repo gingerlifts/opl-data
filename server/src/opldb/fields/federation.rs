@@ -251,6 +251,8 @@ pub enum MetaFederation {
     /// All entries that have "Tested = Yes".
     #[strum(to_string = "all-amateur")]
     AllAmateur,
+    #[strum(to_string = "all-argentina")]
+    AllArgentina,
     #[strum(to_string = "all-australia")]
     AllAustralia,
     #[strum(to_string = "all-canada")]
