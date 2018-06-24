@@ -302,6 +302,7 @@ impl MetaFederation {
                     || meet.federation == Federation::DSF
                     || meet.federation == Federation::EPA
                     || meet.federation == Federation::EPF
+                    || meet.federation == Federation::FALPO
                     || meet.federation == Federation::FEMEPO
                     || meet.federation == Federation::FESUPO
                     || meet.federation == Federation::FFForce
@@ -336,6 +337,11 @@ impl MetaFederation {
                     || meet.federation == Federation::WNPF
             }
             MetaFederation::AllAmateur => entry.tested,
+            MetaFederation::AllArgentina => {
+                meet.federation == Federation::AAP
+                    || meet.federation == Federation::FALPO
+                    || meet.federation == Federation::FEPOA
+            }
             MetaFederation::AllAustralia => {
                 meet.federation == Federation::APU
                     || meet.federation == Federation::CAPO
