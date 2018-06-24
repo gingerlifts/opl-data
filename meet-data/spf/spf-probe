@@ -17,6 +17,8 @@ NUMPAGES = 1  # Number of pages to go back in results, 10 results per page.
 SPFDIR = os.path.dirname(os.path.realpath(__file__))
 SPFURL = "http://www.southernpowerlifting.com/events/list/?tribe_event_display=past"
 
+INVICTUSURL = "https://www.invictuspowerlifting.net/copy-of-schedule"
+
 
 def getpageurl(n):
     return SPFURL + "&tribe_paged=" + str(n)
@@ -56,6 +58,31 @@ def getmeetlist(html):
 
     return urls
 
+def get_invictus_meets(html):
+    soup = BeautifulSoup(html, 'html.parser')
+
+    meet_items = soup.find('div', {'class': 's_pQyQInlineSkininlineContent'})
+
+    urls = []
+    for a in meet_items.find_all('a'):
+        url = a['href']
+
+        if 'www.invictuspowerlifting.net/events-1' in url:
+            continue
+        if 'www.invictuspowerlifting.net/results' in url:
+            continue
+        if 'www.invictuspowerlifting.net/copy-of-schedule' in url:
+            continue
+
+
+        if 'http' not in url:
+            url = BASEURL + url
+            url = url.replace('../', '')
+        if url not in urls:
+            urls.append(url)
+
+    return urls
+
 
 def getenteredurls():
     urls = []
@@ -74,6 +101,8 @@ def main():
         html = gethtml(url)
         meets = getmeetlist(html)
         meetlist = meetlist + meets
+
+    meetlist = meetlist + get_invictus_meets(gethtml(INVICTUSURL))
 
     known = getenteredurls()
 
