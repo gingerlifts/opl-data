@@ -1,5 +1,6 @@
 [divisions]
     open = {name ="Open",min=0,max=999}
+    guest = {name ="Guest",min=0,max=999}
     juniors = {name = "Juniors",min=0,max=23}
     subjuniors = {name = "Sub-Juniors",min=0,max=18}
     paralympics = {name = "Paralympics",min=0,max=999}
