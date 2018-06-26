@@ -38,9 +38,10 @@ def is_by_consistent(lifter_data):
     mindate = lifter_data[0][DATE_IDX]
     maxdate = lifter_data[0][DATE_IDX]
 
+
     if len(lifter_data) > 1:
         for age_data in lifter_data[1:]:
-            newagedate = age_data[AGE_IDX]
+            newagedate = age_data[DATE_IDX]
             new_year = get_year(age_data[DATE_IDX])
 
             new_mindate = age_data[DATE_IDX]
@@ -259,7 +260,7 @@ def interpolate_lifter(lifter_data):
                     # Then they've had their birthday
                     elif curr_monthday > get_monthday(bd_range[1]):
                         age_data[AGE_IDX] = curr_year - \
-                            get_year(bd_range[DATE_IDX])
+                            get_year(bd_range[0])
                         age_data[MINAGE_IDX] = age_data[AGE_IDX]
                         age_data[MAXAGE_IDX] = age_data[AGE_IDX]
                     else:  # We're not sure if they've had their birthday
@@ -421,21 +422,36 @@ def generate_hashmap(entriescsv, meetcsv):
 
     lifterIDidx = entriescsv.index('LifterID')
     ageidx = entriescsv.index('Age')
-    minageidx = entriescsv.index('MinAge')
-    maxageidx = entriescsv.index('MaxAge')
     meetIDidx = entriescsv.index('MeetID')
+    ageclassidx = entriescsv.index('AgeClass')
+
 
     for row in entriescsv.rows:
         lifterID = int(row[lifterIDidx])
         age = row[ageidx]
-        minage = int(row[minageidx])
-        maxage = int(row[maxageidx])
         meetID = int(row[meetIDidx])
+
+        minage = 0
+        maxage = 999
+
+
+        if age == '' and row[ageclassidx] != '':
+            [minage_str,maxage_str] = row[ageclassidx].split('-')
+            minage = int(minage_str)
+            maxage = int(maxage_str)
+        elif age != '':
+        	if float(age) != float(age) % 1:
+        		minage = int(float(age))
+        		maxage = int(float(age)) + 1
+        	else:
+        		minage = int(age)
+        		maxage = int(age)
+
 
         if lifterID not in LifterAgeHash:
             LifterAgeHash[lifterID] = [[age, minage, maxage, meetID]]
         else:
-            LifterAgeHash[lifterID].append([age, minage, maxage, meetID])
+            LifterAgeHash[lifterID].append([age, minage, int(maxage), meetID])
 
     meetIDidx = meetcsv.index('MeetID')
     dateidx = meetcsv.index('Date')
@@ -501,9 +517,6 @@ def update_csv(entriescsv, LifterAgeHash):
                 row[ageclassidx] = str(get_ageclass(
                     age_data[MINAGE_IDX], age_data[MAXAGE_IDX]))
                 break
-
-    entriescsv.remove_column_by_name("MinAge")
-    entriescsv.remove_column_by_name("MaxAge")
 
     return entriescsv
 
