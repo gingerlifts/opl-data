@@ -38,7 +38,6 @@ def is_by_consistent(lifter_data):
     mindate = lifter_data[0][DATE_IDX]
     maxdate = lifter_data[0][DATE_IDX]
 
-
     if len(lifter_data) > 1:
         for age_data in lifter_data[1:]:
             newagedate = age_data[DATE_IDX]
@@ -425,7 +424,6 @@ def generate_hashmap(entriescsv, meetcsv):
     meetIDidx = entriescsv.index('MeetID')
     ageclassidx = entriescsv.index('AgeClass')
 
-
     for row in entriescsv.rows:
         lifterID = int(row[lifterIDidx])
         age = row[ageidx]
@@ -434,19 +432,17 @@ def generate_hashmap(entriescsv, meetcsv):
         minage = 0
         maxage = 999
 
-
         if age == '' and row[ageclassidx] != '':
-            [minage_str,maxage_str] = row[ageclassidx].split('-')
+            [minage_str, maxage_str] = row[ageclassidx].split('-')
             minage = int(minage_str)
             maxage = int(maxage_str)
         elif age != '':
-        	if float(age) != float(age) % 1:
-        		minage = int(float(age))
-        		maxage = int(float(age)) + 1
-        	else:
-        		minage = int(age)
-        		maxage = int(age)
-
+            if float(age) != float(age) % 1:
+                minage = int(float(age))
+                maxage = int(float(age)) + 1
+            else:
+                minage = int(age)
+                maxage = int(age)
 
         if lifterID not in LifterAgeHash:
             LifterAgeHash[lifterID] = [[age, minage, maxage, meetID]]
