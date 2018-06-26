@@ -164,7 +164,8 @@ def age_from_birthday(csv, date, birthdays):
 
         row[ageidx] = str(years)
 
-def ageclass_from_agerange(minage,maxage):
+
+def ageclass_from_agerange(minage, maxage):
     if maxage <= 18:
         return '0-18'
     elif maxage <= 23:
@@ -190,6 +191,7 @@ def ageclass_from_agerange(minage,maxage):
     else:
         return ''
 
+
 def agerange_from_division(csv, configtoml):
     if 'Division' in csv.fieldnames and configtoml:
         dividx = csv.index('Division')
@@ -204,9 +206,9 @@ def agerange_from_division(csv, configtoml):
                 for div_key in divisions:
                     div = divisions[div_key]
                     if row[dividx] == div["name"]:
-                        row[ageclassidx] = ageclass_from_agerange(div["min"],div["max"])
+                        row[ageclassidx] = ageclass_from_agerange(
+                            div["min"], div["max"])
                         break
-
 
 
 def add_international_names(csv):
@@ -318,7 +320,7 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays, configtoml):
     newentries.remove_column_by_name("BirthYear")
     newentries.remove_column_by_name("BirthDay")
 
-    newentries.append_column('AgeClass') 
+    newentries.append_column('AgeClass')
     agerange_from_division(newentries, configtoml)
 
     entriescsv.cat(newentries)
