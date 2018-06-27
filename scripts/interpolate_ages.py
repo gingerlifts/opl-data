@@ -488,9 +488,23 @@ def get_ageclass(maxage, minage):
     else:
         return ''
 
-# Adds the interpolated ages back to the csv file, removes MinAge & MaxAge
+# Checks that the gaps between meets are reasonable, if not
+# we don't write this data to the csv
+def check_age_spacing(lifterdata):
+    # If there is more than a 10 year gap between age data, it's probably two lifters
+    max_gap = 9
+
+    ages = [float(x[0]) for x in lifterdata if x[0] != '']
+    if len(ages) >1:
+        ages.sort()
+        diffs = [ages[ii + 1] - ages[ii] for ii in range(len(ages)-1)]
+        if max(diffs) > max_gap:
+            return False
+
+    return True
 
 
+# Adds the interpolated ages back to the csv file
 def update_csv(entriescsv, LifterAgeHash):
 
     lifterIDidx = entriescsv.index('LifterID')
@@ -506,13 +520,14 @@ def update_csv(entriescsv, LifterAgeHash):
         lifterID = row[lifterIDidx]
         meetID = row[meetIDidx]
 
-        for age_data in LifterAgeHash[int(lifterID)]:
-            if age_data[DATE_IDX] == int(meetID):
+        if check_age_spacing(LifterAgeHash[int(lifterID)]):
+            for age_data in LifterAgeHash[int(lifterID)]:
+                if age_data[DATE_IDX] == int(meetID):
 
-                row[ageidx] = str(age_data[AGE_IDX])
-                row[ageclassidx] = str(get_ageclass(
-                    age_data[MINAGE_IDX], age_data[MAXAGE_IDX]))
-                break
+                    row[ageidx] = str(age_data[AGE_IDX])
+                    row[ageclassidx] = str(get_ageclass(
+                        age_data[MINAGE_IDX], age_data[MAXAGE_IDX]))
+                    break
 
     return entriescsv
 
