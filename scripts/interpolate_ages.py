@@ -504,11 +504,6 @@ def check_age_spacing(lifterdata):
 
     return True
 
-# Checks that the gaps between meets are reasonable, if not
-# we don't write this data to the csv
-def check_age_spacing(lifterdata):
-    # If there is more than a 10 year gap between age data, it's probably two lifters
-    max_gap = 9
 
 # Adds the interpolated ages back to the csv file
 def update_csv(entriescsv, LifterAgeHash):
