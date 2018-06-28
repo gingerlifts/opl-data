@@ -44,7 +44,7 @@ WeightClassKg,Name,Country,Age,Division,BodyweightKg,Best3SquatKg,Best3BenchKg,B
 67.5,Ben Poole,GBR,30,SR,67.1,195,120,217.5,532.5,SBD,Raw,M,1
 67.5,David Probert,GBR,41,M1,66.3,145,95,190,430,SBD,Raw,M,1
 67.5,Jacob Stagg,USA,19,T3,66.5,145,80,192.5,417.5,SBD,Raw,M,1
-67.5,Thomas QUELET,FRA,18,T3,66.5,140,87.5,172.5,400,SBD,Raw,M,2
+67.5,Thomas Quelet,FRA,18,T3,66.5,140,87.5,172.5,400,SBD,Raw,M,2
 67.5,Robert McDonnell,GBR,22,JR,67.2,155,,,,SBD,Raw,M,DQ
 67.5,Yannick Sutter,SWI,24,SR,67.4,150,,,,SBD,Raw,M,DQ
 67.5,Patrick Paulos,SWI,20,JR,60.6,150,,,,SBD,Raw,M,DQ
@@ -95,7 +95,7 @@ WeightClassKg,Name,Country,Age,Division,BodyweightKg,Best3SquatKg,Best3BenchKg,B
 110,Michael Goodwin,GBR,29,SR,102.4,240,170,277.5,687.5,SBD,Raw,M,5
 110,Chris Scott,USA,23,JR,106.5,237.5,152.5,265,655,SBD,Raw,M,1
 110,Steve Welch,USA,43,M1,109.9,250,142.5,252.5,645,SBD,Raw,M,2
-110,François KALIC,FRA,52,M3,100.2,207.5,155,235,597.5,SBD,Raw,M,1
+110,François Kalic,FRA,52,M3,100.2,207.5,155,235,597.5,SBD,Raw,M,1
 110,Greg Tilley,USA,49,M2,106.1,180,140,227.5,547.5,SBD,Raw,M,1
 110,Roger Horn,USA,68,M6,106.1,147.5,115,190,452.5,SBD,Raw,M,1
 125,Lutz Drescher,SWI,25,SR,110.7,230,170,290,690,SBD,Raw,M,1
