@@ -250,6 +250,7 @@ def get_known_range(lifter_data):
     else:
         return []
 
+
 def add_birthyears(lifter_data):
     global AGE_IDX
     global MINAGE_IDX
@@ -259,8 +260,9 @@ def add_birthyears(lifter_data):
 
     # First check if a birthyear is listed
     if any(age_data[BY_IDX] != '' for age_data in lifter_data):
-        by = [age_data[BY_IDX] for age_data in lifter_data if age_data[BY_IDX] != ''][0]
-        for age_data in  lifter_data:
+        by = [age_data[BY_IDX]
+              for age_data in lifter_data if age_data[BY_IDX] != ''][0]
+        for age_data in lifter_data:
             age_data[BY_IDX] = by
 
     # If we don't have a birthyear, check whether we can see an age change over a year
@@ -268,9 +270,8 @@ def add_birthyears(lifter_data):
         bd_range = estimate_birthdate(lifter_data)
         if bd_range != []:
             by = bd_range[0].split('-')[0]
-            for age_data in  lifter_data:
+            for age_data in lifter_data:
                 age_data[BY_IDX] = by
-
 
 
 def add_birthyears(lifter_data):
