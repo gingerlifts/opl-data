@@ -9,7 +9,7 @@ from usernames import get_username
 import os
 import sys
 import toml
-from interpolate_ages import interpolate, get_ageclass
+from interpolate_ages import interpolate,get_ageclass
 
 MEETID = 0
 
@@ -246,6 +246,7 @@ def standardise_bp_ageclass(csv):
                 row[ageclassidx] = ''
 
 
+
 # Appends to entriescsv and meetscsv, while assigning a MeetID mapping.
 def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays, configtoml):
     newentries = Csv(entriespath)
@@ -263,6 +264,9 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays, configtoml):
     # Make use of Japanese Names
     add_international_names(newentries)
     newentries.remove_column_by_name("JapaneseName")
+
+
+
 
     # Assign default Tested values.
     if 'Tested' not in newentries.fieldnames:
@@ -322,6 +326,7 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays, configtoml):
     # Standardise BP AgeClass
     if fed in ['BP', 'EPA', 'ScottishPL']:
         standardise_bp_ageclass(newentries)
+
 
     # Try deriving from Birthday first.
     age_from_birthday(newentries, date, birthdays)
