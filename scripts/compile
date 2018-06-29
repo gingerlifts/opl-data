@@ -264,6 +264,9 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays, configtoml):
     add_international_names(newentries)
     newentries.remove_column_by_name("JapaneseName")
 
+
+
+
     # Assign default Tested values.
     if 'Tested' not in newentries.fieldnames:
         newentries.append_column('Tested')
