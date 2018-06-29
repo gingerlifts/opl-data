@@ -67,7 +67,6 @@ def main(filename):
     for row in csv.rows:
         if not row[nameidx]:
             if script == 'Cyrillic':
-                print(intlidx)
                 row[nameidx] = cyrillic_to_latin(row[intlidx])
             elif script == 'Japanese':
                 temp_name = romkan.to_hepburn(row[intlidx])
