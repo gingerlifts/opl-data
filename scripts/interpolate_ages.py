@@ -4,6 +4,8 @@
 # Uses existing age to data to estimate ages for all
 # lifter meets. Only fills in data if it is consistent.
 
+import datetime
+
 AGE_IDX = 0
 MINAGE_IDX = 1
 MAXAGE_IDX = 2
@@ -144,6 +146,8 @@ def estimate_birthdate(lifter_data):
     global BY_IDX
     bdageidx = 0
     meetdateidx = 1
+    # If a lifter has their birthday over the length of the meet we don't know
+    max_meetlength =12
 
     min_date = ''
     max_date = ''
@@ -188,8 +192,11 @@ def estimate_birthdate(lifter_data):
         else:  # We've managed to bound the birthdate
             by = init_year - (lower_age + 1)
             min_date = str(by)+'-'+min_date
-            max_date = str(by)+'-'+max_date
-            return [min_date, max_date]
+            max_datetime = datetime.date(by,int(max_date.split('-')[0]),int(max_date.split('-')[1]))
+
+            fuzzed_end = max_datetime + datetime.timedelta(days=max_meetlength)
+            
+            return [min_date, fuzzed_end.strftime("%Y-%m-%d")]
     else:  # No recorded ages, can't estimate a birthdate
         return []
 
