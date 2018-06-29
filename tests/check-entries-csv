@@ -751,24 +751,24 @@ def check_row_division(row, csv, divisions, meetyear):
         if row[csv.index('Division')] == div["name"]:
             if 'BirthYear' in csv.fieldnames and row[csv.index('BirthYear')].isdigit():
                 approxage = meetyear - int(row[csv.index('BirthYear')])
-                if approxage > int(div["max"]):
+                if approxage > float(div["max"]) + 0.5:
                     pwarning("Lifter \"%s\" is too old(~%s) for division: %s" %
                              (row[csv.index('Name')],
                                  approxage,
                                  row[csv.index('Division')]))
-                elif approxage < int(div["min"]):
+                elif approxage < int(div["min"]) - 0.5:
                     pwarning("Lifter \"%s\" is too young(~%s) for division: %s" %
                              (row[csv.index('Name')],
                                  approxage,
                                  row[csv.index('Division')]))
 
             elif 'Age' in csv.fieldnames and row[csv.index('Age')].isdigit():
-                if int(row[csv.index('Age')]) > div["max"]:
+                if int(row[csv.index('Age')]) > round(div["max"] + 0.5):
                     pwarning("Lifter \"%s\" is too old(%s) for division: %s" %
                              (row[csv.index('Name')],
                                  row[csv.index('Age')],
                                  row[csv.index('Division')]))
-                elif int(row[csv.index('Age')]) < div["min"]:
+                elif int(row[csv.index('Age')]) < round(div["min"] - 0.5):
                     pwarning("Lifter \"%s\" is too young(%s) for division: %s" %
                              (row[csv.index('Name')],
                                  row[csv.index('Age')],

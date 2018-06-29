@@ -9,7 +9,7 @@ from usernames import get_username
 import os
 import sys
 import toml
-from interpolate_ages import interpolate
+from interpolate_ages import interpolate,get_ageclass
 
 MEETID = 0
 
@@ -165,33 +165,6 @@ def age_from_birthday(csv, date, birthdays):
         row[ageidx] = str(years)
 
 
-def ageclass_from_agerange(minage, maxage):
-    if maxage <= 18:
-        return '0-18'
-    elif maxage <= 23:
-        return '19-23'
-    elif minage >= 39 and maxage <= 44:
-        return '39-44'
-    elif minage > 44 and maxage <= 49:
-        return '45-49'
-    elif minage > 49 and maxage <= 54:
-        return '50-54'
-    elif minage > 54 and maxage <= 59:
-        return '55-59'
-    elif minage > 59 and maxage <= 64:
-        return '60-64'
-    elif minage > 64 and maxage <= 69:
-        return '65-69'
-    elif minage > 69 and maxage <= 74:
-        return '70-74'
-    elif minage > 74 and maxage <= 79:
-        return '75-79'
-    elif minage > 79:
-        return '80-999'
-    else:
-        return ''
-
-
 def agerange_from_division(csv, configtoml):
     if 'Division' in csv.fieldnames and configtoml:
         dividx = csv.index('Division')
@@ -206,7 +179,7 @@ def agerange_from_division(csv, configtoml):
                 for div_key in divisions:
                     div = divisions[div_key]
                     if row[dividx] == div["name"]:
-                        row[ageclassidx] = ageclass_from_agerange(
+                        row[ageclassidx] = get_ageclass(
                             div["min"], div["max"])
                         break
 
@@ -239,6 +212,41 @@ def tested_from_division(division, federation):
     return "No"
 
 
+# Converts the AgeClass data from BP meets into our format
+def standardise_bp_ageclass(csv):
+    if 'AgeClass' in csv.fieldnames:
+        ageclassidx = csv.index('AgeClass')
+
+        for row in csv.rows:
+            ageclass = row[ageclassidx].lower()
+            if ageclass in ['open', 'senior', '23-39', 'sen', 's', 'snr']:
+                row[ageclassidx] = ''
+            elif ageclass in ['u16', 'u/16']:
+                row[ageclassidx] = '0-16'
+            elif ageclass in ['u18', 'sub-junior', '<=18', 'subjun', 'sj', 's-j', 'u 18',
+                              'sub jnr', 'u/18', 'subjnr', 'sub-jun']:
+                row[ageclassidx] = '0-18'
+            elif ageclass in ['u20', 'u/20']:
+                row[ageclassidx] = '0-20'
+            elif ageclass in ['u21']:
+                row[ageclassidx] = '0-21'
+            elif ageclass in ['u23', 'junior', '<=23', 'jun', 'j', 'jnr', 'u/23']:
+                row[ageclassidx] = '19-23'
+            elif ageclass in ['m1', 'masters 1', 'master 1']:
+                row[ageclassidx] = '40-49'
+            elif ageclass in ['m2', 'masters 2', 'master 2']:
+                row[ageclassidx] = '50-59'
+            elif ageclass in ['m3', 'masters 3', 'master 3']:
+                row[ageclassidx] = '60-69'
+            elif ageclass in ['m4', 'masters 4', 'master 4']:
+                row[ageclassidx] = '70-999'
+            elif ageclass in ['m5', 'masters 5', 'master 5']:
+                row[ageclassidx] = '80-999'
+            else:
+                row[ageclassidx] = ''
+
+
+
 # Appends to entriescsv and meetscsv, while assigning a MeetID mapping.
 def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays, configtoml):
     newentries = Csv(entriespath)
@@ -256,6 +264,9 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays, configtoml):
     # Make use of Japanese Names
     add_international_names(newentries)
     newentries.remove_column_by_name("JapaneseName")
+
+
+
 
     # Assign default Tested values.
     if 'Tested' not in newentries.fieldnames:
@@ -296,7 +307,7 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays, configtoml):
     assert "MeetPath" not in newmeet.fieldnames
     path = meetpath[meetpath.index(
         os.sep) + 1: meetpath.rindex(os.sep)].replace(os.sep, '/')
-    assert ',' not in path
+    assert ', ' not in path
 
     newmeet.append_column("MeetPath")
     idx = newmeet.index("MeetPath")
@@ -312,13 +323,16 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays, configtoml):
 
     date = newmeet.rows[0][newmeet.index('Date')]
 
+    # Standardise BP AgeClass
+    if fed in ['BP', 'EPA', 'ScottishPL']:
+        standardise_bp_ageclass(newentries)
+
+
     # Try deriving from Birthday first.
     age_from_birthday(newentries, date, birthdays)
 
     # Otherwise, try deriving from BirthYear.
     age_from_birthyear(newentries, date)
-    newentries.remove_column_by_name("BirthYear")
-    newentries.remove_column_by_name("BirthDay")
 
     newentries.append_column('AgeClass')
     agerange_from_division(newentries, configtoml)
@@ -431,7 +445,11 @@ def main(builddir, meetdir, lifterdir):
     entriescsv.append_column('McCulloch')
     entriescsv.append_column('Tested')
     entriescsv.append_column('AgeClass')
-    initial_entriescsv_num_columns = len(entriescsv.fieldnames)
+
+    # We remove these columns later, interpolate_ages needs to use them temporarily
+    entriescsv.append_column('BirthDay')
+    entriescsv.append_column('BirthYear')
+    initial_entriescsv_num_columns = len(entriescsv.fieldnames) - 2
 
     meetscsv.append_column('MeetID')
     meetscsv.append_column('MeetPath')
@@ -472,6 +490,9 @@ def main(builddir, meetdir, lifterdir):
                     meetpath, birthdays, configtoml)
 
     entriescsv = interpolate(entriescsv, meetscsv)
+
+    entriescsv.remove_column_by_name('BirthYear')
+    entriescsv.remove_column_by_name('BirthDay')
 
     # Construct the lifters.csv.
     build_lifterscsv(lifterdir, builddir)
