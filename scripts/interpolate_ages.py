@@ -305,18 +305,10 @@ def interpolate_lifter(lifter_data):
 
     if len(lifter_data) > 1:
 
-<<<<<<< HEAD
         # This needs to be called first as we are
         # replacing some of the .5 ages with exact ages below
         add_birthyears(lifter_data)
 
-=======
-        # This needs to be called first as we are replacing some of the .5 ages with exact ages below
-        add_birthyears(lifter_data)
-
-
-
->>>>>>> BP AgeClass data is now used, interpolate_ages.py can handle edge case ages, AgeClass is now an enum is rust.
         bd_range = estimate_birthdate(lifter_data)
 
         if bd_range != []:  # Then we have a birthday range and can be semi-accurate
