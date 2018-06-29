@@ -250,6 +250,28 @@ def get_known_range(lifter_data):
     else:
         return []
 
+def add_birthyears(lifter_data):
+    global AGE_IDX
+    global MINAGE_IDX
+    global MAXAGE_IDX
+    global DATE_IDX
+    global BY_IDX
+
+    # First check if a birthyear is listed
+    if any(age_data[BY_IDX] != '' for age_data in lifter_data):
+        by = [age_data[BY_IDX] for age_data in lifter_data if age_data[BY_IDX] != ''][0]
+        for age_data in  lifter_data:
+            age_data[BY_IDX] = by
+
+    # If we don't have a birthyear, check whether we can see an age change over a year
+    else:
+        bd_range = estimate_birthdate(lifter_data)
+        if bd_range != []:
+            by = bd_range[0].split('-')[0]
+            for age_data in  lifter_data:
+                age_data[BY_IDX] = by
+
+
 
 def add_birthyears(lifter_data):
     global AGE_IDX
@@ -283,10 +305,18 @@ def interpolate_lifter(lifter_data):
 
     if len(lifter_data) > 1:
 
+<<<<<<< HEAD
         # This needs to be called first as we are
         # replacing some of the .5 ages with exact ages below
         add_birthyears(lifter_data)
 
+=======
+        # This needs to be called first as we are replacing some of the .5 ages with exact ages below
+        add_birthyears(lifter_data)
+
+
+
+>>>>>>> BP AgeClass data is now used, interpolate_ages.py can handle edge case ages, AgeClass is now an enum is rust.
         bd_range = estimate_birthdate(lifter_data)
 
         if bd_range != []:  # Then we have a birthday range and can be semi-accurate
@@ -573,7 +603,6 @@ def update_csv(entriescsv, MeetDateHash, LifterAgeHash):
         meetID = row[meetIDidx]
 
         if check_age_spacing(LifterAgeHash[int(lifterID)]):
-
             for age_data in LifterAgeHash[int(lifterID)]:
                 if age_data[DATE_IDX] == int(meetID):
                     # The age that a lifter is turning that year
