@@ -473,7 +473,7 @@ def generate_hashmap(entriescsv, meetcsv):
     meetIDidx = entriescsv.index('MeetID')
     ageclassidx = entriescsv.index('AgeClass')
     byidx = entriescsv.index('BirthYear')
-    bdidx = entriescsv.index('BirthYear')
+    bdidx = entriescsv.index('BirthDay')
 
     for row in entriescsv.rows:
         lifterID = int(row[lifterIDidx])
