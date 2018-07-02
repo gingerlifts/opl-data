@@ -9,7 +9,7 @@ from usernames import get_username
 import os
 import sys
 import toml
-from interpolate_ages import interpolate, get_ageclass
+from interpolate_ages import interpolate
 
 MEETID = 0
 
@@ -178,8 +178,9 @@ def agerange_from_division(csv, configtoml):
             if row[ageidx] == '':
                 for div_key in divisions:
                     div = divisions[div_key]
-                    if row[dividx] == div["name"]:                 
-                        row[ageclassidx] = str(div["min"]) + "-" + str(div["max"])
+                    if row[dividx] == div["name"]:
+                        row[ageclassidx] = str(
+                            div["min"]) + "-" + str(div["max"])
                         break
 
 

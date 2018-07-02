@@ -779,24 +779,21 @@ def check_row_division(row, csv, divisions, meetyear):
     pwarning("Lifter \"%s\" has an unknown division: %s" %
              (row[csv.index('Name')], row[csv.index('Division')]))
 
+
 def check_row_ageclass(row, csv):
     if 'AgeClass' in csv.fieldnames:
         ageclassidx = csv.index('AgeClass')
         ageclass = row[ageclassidx]
 
-
         if ageclass != '':
             if '-' not in ageclass:
                 pwarning("Lifter %s has an unrecognised ageclass: %s" %
-                          (row[csv.index('Name')], ageclass))
+                         (row[csv.index('Name')], ageclass))
             else:
-                [lower,upper] = ageclass.split('-')
+                [lower, upper] = ageclass.split('-')
                 if not (lower.isdigit() and upper.isdigit()):
                     pwarning("Lifter %s has an unrecognised ageclass: %s" %
                              (row[csv.index('Name')], ageclass))
-
-
-
 
 
 def check_row(row, csv, configtoml, meet_date, meet_id):
