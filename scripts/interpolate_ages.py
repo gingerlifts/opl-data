@@ -39,8 +39,10 @@ def is_by_consistent(lifter_data):
     else:
         age = -1
 
-    minage = lifter_data[0][MINAGE_IDX]
-    maxage = lifter_data[0][MAXAGE_IDX]
+    # minage from division can be fractional (e.g 39.5, we want the lower age)
+    minage = int(lifter_data[0][MINAGE_IDX])
+    # maxage from division can be fractional (e.g 17.5, we want the upper age)
+    maxage = round(lifter_data[0][MAXAGE_IDX])
     agedate = lifter_data[0][DATE_IDX]
     mindate = lifter_data[0][DATE_IDX]
     maxdate = lifter_data[0][DATE_IDX]
