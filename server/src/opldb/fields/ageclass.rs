@@ -1,17 +1,11 @@
-//! Defines the `AgeClass` field for the `meets` table.
+//! Defines the `AgeClass` field for the `entries` table.
 
 #[derive(Clone, Debug, Deserialize, Serialize, PartialEq)]
 pub enum AgeClass {
     #[serde(rename = "0-16")]
     Class0_16,
-    #[serde(rename = "0-18")]
+    #[serde(rename = "17-18")]
     Class0_18,
-    #[serde(rename = "0-20")]
-    Class0_20,
-    #[serde(rename = "0-21")]
-    Class0_21,
-    #[serde(rename = "0-23")]
-    Class0_23,
     #[serde(rename = "19-23")]
     Class19_23,
     #[serde(rename = "40-44")]
@@ -34,5 +28,4 @@ pub enum AgeClass {
     Class80_999,
     #[serde(rename = "")]
     Classblank,
-    Freeform(String),
 }

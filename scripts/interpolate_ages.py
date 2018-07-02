@@ -12,7 +12,7 @@ MAXAGE_IDX = 2
 DATE_IDX = 3
 BY_IDX = 4
 
-AGE_DIVISIONS = ['0-18', '19-23', '40-44', '45-49', '50-54',
+AGE_DIVISIONS = ['0-16','0-18', '19-23', '40-44', '45-49', '50-54',
                  '55-59', '60-64', '65-69', '70-74', '75-79', '80-999']
 
 
@@ -489,8 +489,8 @@ def generate_hashmap(entriescsv, meetcsv):
 
         if age == '' and row[ageclassidx] != '':
             [minage_str, maxage_str] = row[ageclassidx].split('-')
-            minage = int(minage_str)
-            maxage = int(maxage_str)
+            minage = float(minage_str)
+            maxage = float(maxage_str)
         elif age != '':
             if float(age) != float(age) % 1:
                 minage = int(float(age))
@@ -504,7 +504,7 @@ def generate_hashmap(entriescsv, meetcsv):
                 [age, minage, maxage, meetID, birthyear]]
         else:
             LifterAgeHash[lifterID].append(
-                [age, minage, int(maxage), meetID, birthyear])
+                [age, minage, maxage, meetID, birthyear])
 
     meetIDidx = meetcsv.index('MeetID')
     dateidx = meetcsv.index('Date')

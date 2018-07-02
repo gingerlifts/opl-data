@@ -178,9 +178,8 @@ def agerange_from_division(csv, configtoml):
             if row[ageidx] == '':
                 for div_key in divisions:
                     div = divisions[div_key]
-                    if row[dividx] == div["name"]:
-                        row[ageclassidx] = get_ageclass(
-                            div["min"], div["max"])
+                    if row[dividx] == div["name"]:                 
+                        row[ageclassidx] = str(div["min"]) + "-" + str(div["max"])
                         break
 
 
@@ -210,40 +209,6 @@ def tested_from_division(division, federation):
     if federation == 'RPS' and 'Elite' in division:
         return "Yes"
     return "No"
-
-
-# Converts the AgeClass data from BP meets into our format
-def standardise_bp_ageclass(csv):
-    if 'AgeClass' in csv.fieldnames:
-        ageclassidx = csv.index('AgeClass')
-
-        for row in csv.rows:
-            ageclass = row[ageclassidx].lower()
-            if ageclass in ['open', 'senior', '23-39', 'sen', 's', 'snr']:
-                row[ageclassidx] = ''
-            elif ageclass in ['u16', 'u/16']:
-                row[ageclassidx] = '0-16'
-            elif ageclass in ['u18', 'sub-junior', '<=18', 'subjun', 'sj', 's-j', 'u 18',
-                              'sub jnr', 'u/18', 'subjnr', 'sub-jun']:
-                row[ageclassidx] = '0-18'
-            elif ageclass in ['u20', 'u/20']:
-                row[ageclassidx] = '0-20'
-            elif ageclass in ['u21']:
-                row[ageclassidx] = '0-21'
-            elif ageclass in ['u23', 'junior', '<=23', 'jun', 'j', 'jnr', 'u/23']:
-                row[ageclassidx] = '19-23'
-            elif ageclass in ['m1', 'masters 1', 'master 1']:
-                row[ageclassidx] = '40-49'
-            elif ageclass in ['m2', 'masters 2', 'master 2']:
-                row[ageclassidx] = '50-59'
-            elif ageclass in ['m3', 'masters 3', 'master 3']:
-                row[ageclassidx] = '60-69'
-            elif ageclass in ['m4', 'masters 4', 'master 4']:
-                row[ageclassidx] = '70-999'
-            elif ageclass in ['m5', 'masters 5', 'master 5']:
-                row[ageclassidx] = '80-999'
-            else:
-                row[ageclassidx] = ''
 
 
 # Appends to entriescsv and meetscsv, while assigning a MeetID mapping.
@@ -303,7 +268,7 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays, configtoml):
     assert "MeetPath" not in newmeet.fieldnames
     path = meetpath[meetpath.index(
         os.sep) + 1: meetpath.rindex(os.sep)].replace(os.sep, '/')
-    assert ', ' not in path
+    assert ',' not in path
 
     newmeet.append_column("MeetPath")
     idx = newmeet.index("MeetPath")
@@ -318,10 +283,6 @@ def addmeet(entriescsv, meetscsv, entriespath, meetpath, birthdays, configtoml):
         row[idx] = str(get_lifterid(row[nameidx]))
 
     date = newmeet.rows[0][newmeet.index('Date')]
-
-    # Standardise BP AgeClass
-    if fed in ['BP', 'EPA', 'ScottishPL']:
-        standardise_bp_ageclass(newentries)
 
     # Try deriving from Birthday first.
     age_from_birthday(newentries, date, birthdays)
