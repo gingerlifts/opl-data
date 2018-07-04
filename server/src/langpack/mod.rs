@@ -35,10 +35,14 @@ pub enum Language {
     it,
     /// Polish.
     pl,
+    /// Portuguese.
+    pt,
     /// Slovenian.
     sl,
     /// Russian.
     ru,
+    /// Turkish.
+    tr,
     /// Vietnamese.
     vi,
 }
@@ -302,8 +306,10 @@ pub struct LangInfo {
     fr: Option<Translations>,
     it: Option<Translations>,
     pl: Option<Translations>,
+    pt: Option<Translations>,
     sl: Option<Translations>,
     ru: Option<Translations>,
+    tr: Option<Translations>,
     vi: Option<Translations>,
 }
 
@@ -318,8 +324,10 @@ impl LangInfo {
             fr: None,
             it: None,
             pl: None,
+            pt: None,
             sl: None,
             ru: None,
+            tr: None,
             vi: None,
         }
     }
@@ -345,8 +353,10 @@ impl LangInfo {
             Language::fr => self.fr = trans,
             Language::it => self.it = trans,
             Language::pl => self.pl = trans,
+            Language::pt => self.pt = trans,
             Language::sl => self.sl = trans,
             Language::ru => self.ru = trans,
+            Language::tr => self.tr = trans,
             Language::vi => self.vi = trans,
         };
 
@@ -363,8 +373,10 @@ impl LangInfo {
             Language::fr => self.fr.as_ref().unwrap(),
             Language::it => self.it.as_ref().unwrap(),
             Language::pl => self.pl.as_ref().unwrap(),
+            Language::pt => self.pt.as_ref().unwrap(),
             Language::sl => self.sl.as_ref().unwrap(),
             Language::ru => self.ru.as_ref().unwrap(),
+            Language::tr => self.tr.as_ref().unwrap(),
             Language::vi => self.vi.as_ref().unwrap(),
         }
     }
@@ -503,8 +515,10 @@ impl Language {
             Language::fr => NumberFormat::ArabicComma,
             Language::it => NumberFormat::ArabicComma,
             Language::pl => NumberFormat::ArabicComma,
+            Language::pt => NumberFormat::ArabicComma,
             Language::sl => NumberFormat::ArabicComma,
             Language::ru => NumberFormat::ArabicComma,
+            Language::tr => NumberFormat::ArabicComma,
             Language::vi => NumberFormat::ArabicComma,
         }
     }
