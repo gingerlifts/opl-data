@@ -1,6 +1,6 @@
 Name,Age,Sex,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Place,Event,Equipment
 Hope Smith,20,F,F-OR,87.5,90,,,,,32.5,37.5,-40,37.5,,,,,,37.5,1,B,Raw
-Luke ShakeSpeare,21,M,M-OE,97.4,100,,,,,240,-260,-260,240,,,,,,240,1,B,Multi-ply
+Luke Shakespeare,21,M,M-OE,97.4,100,,,,,240,-260,-260,240,,,,,,240,1,B,Multi-ply
 Lex Dourian,42,M,M-OR,80.1,82.5,,,,,97.5,105,-112.5,105,,,,,,105,1,B,Raw
 Daniel Wade,24,M,M-OR,109.1,110,,,,,140,150,-155,150,,,,,,150,1,B,Raw
 Damien Ussia,25,M,M-OR,117.4,125,,,,,-190,190,205,205,,,,,,205,1,B,Raw
@@ -25,5 +25,5 @@ Jacob Hughes,23,M,M-OR,95.2,100,145,160,-172.5,160,75,82.5,87.5,87.5,185,200,210
 Matthew Selves,29,M,M-OR,122.3,125,265,272.5,,272.5,180,190,-195,190,265,277.5,285,,285,747.5,1,SBD,Wraps
 Will Hunt,27,M,M-OR,124.2,125,245,260,,260,170,182.5,-190,182.5,270,-290,290,,290,732.5,2,SBD,Wraps
 Mike Jones,36,M,M-OR,150.5,125+,305,-322.5,-322.5,305,192.5,202.5,-205,202.5,330,340,,,340,847.5,1,SBD,Wraps
-George Mclaren,31,M,M-OR,167.3,125+,-300,-320,320,320,190,197.5,-202.5,197.5,300,-320,330,,330,847.5,2,SBD,Wraps
+George McLaren,31,M,M-OR,167.3,125+,-300,-320,320,320,190,197.5,-202.5,197.5,300,-320,330,,330,847.5,2,SBD,Wraps
 Salevasa Samatau,26,M,M-OR,146.8,125+,300,330,,330,250,-255,-255,250,100,-320,,,100,680,3,SBD,Wraps
