@@ -1,0 +1,49 @@
+#!/usr/bin/env python3
+import oplcsv
+import os
+
+def standardise(filename):
+    
+    csv = oplcsv.Csv(filename)
+
+    if 'AgeClass' in csv.fieldnames:
+        acidx = csv.index('AgeClass')
+        for row in csv.rows:
+            ageclass = row[acidx]
+
+            if ageclass in ['Open','Snr','Senior','senior','SEN','S','sen','23-39','SNR','Sen','SENIOR']:
+                row[acidx] = ''
+            elif ageclass in ['U23','U/23','u23','<=23','','Junior','J','Jnr','JNR','jun','Jun']:
+                row[acidx] = '0-22.5'
+            elif ageclass in ['U16','U/16','u16']:
+                row[acidx] = '0-15.5'
+            elif ageclass in ['U18','U/18','u18','<=18','u/18','U 18']:
+                row[acidx] = '0-17.5'
+            elif ageclass in ['U20','u20','U/20','u/20']:
+                row[acidx] = '0-19.5'
+            elif ageclass == 'U21':
+                row[acidx] = '0-20.5'
+            elif ageclass in ['39-49','M1','m1','Masters 1','MASTER 1']:
+                row[acidx] = '39.5-49.5'
+            elif ageclass in ['Sub-Junior','Sub-junior','Sub Jnr','subjnr','SJ','Sub JNR','subjun','S-J','Sub-Jun','sub Jnr']:
+                row[acidx] = '0-17.5'
+            elif ageclass in ['49-59','M2','m2','Masters 2','MASTER 2']:
+                row[acidx] = '49.5-59.5'
+            elif ageclass in ['M3','m3','Masters 3']:
+                row[acidx] = '59.5-69.5'
+            elif ageclass in ['M4','m4','Masters 4']:
+                row[acidx] = '69.5-999'
+            elif ageclass in ['M5']:
+                row[acidx] = '79.5-999'
+
+
+        with open(filename, 'w') as fd:
+            csv.write(fd)
+
+
+
+if __name__ == '__main__':
+   for dirname, subdirs, files in os.walk(os.getcwd()):
+            if 'entries.csv' in files:
+                entriespath = dirname + os.sep + 'entries.csv'
+                standardise(entriespath)

@@ -585,9 +585,27 @@ def update_csv(entriescsv, MeetDateHash, LifterAgeHash):
                             '-')[0]) - int(age_data[BY_IDX])
 
                     row[ageidx] = str(age_data[AGE_IDX])
-                    row[ageclassidx] = str(get_ageclass(
-                        age_data[MINAGE_IDX], age_data[MAXAGE_IDX], yearage))
+                    if row[ageclassidx] != '':
+                        [oldmin, oldmax] = row[ageclassidx].split('-')
+
+                        # Deal with the case where the divisions tell us the birthyear
+                        if (float(oldmin) - age_data[MINAGE_IDX]) == 0.5:
+                            row[ageclassidx] = str(get_ageclass(
+                                float(oldmin), age_data[MAXAGE_IDX], yearage))
+                        elif (float(oldmax) - age_data[MAXAGE_IDX]) == 0.5:
+                            row[ageclassidx] = str(get_ageclass(
+                                age_data[MINAGE_IDX], float(oldmax), yearage))
+                        else:
+                            row[ageclassidx] = str(get_ageclass(
+                                age_data[MINAGE_IDX], age_data[MAXAGE_IDX], yearage))
+                    else:
+                        row[ageclassidx] = str(get_ageclass(
+                            age_data[MINAGE_IDX], age_data[MAXAGE_IDX], yearage))
                     break
+        elif row[ageclassidx] != '':  # Make sure all lifter data has a standard AgeClass
+            [minage, maxage] = row[ageclassidx].split('-')
+            row[ageclassidx] = str(get_ageclass(
+                float(minage), float(maxage), None))
 
     return entriescsv
 

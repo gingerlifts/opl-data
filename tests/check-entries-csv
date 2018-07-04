@@ -791,7 +791,8 @@ def check_row_ageclass(row, csv):
                          (row[csv.index('Name')], ageclass))
             else:
                 [lower, upper] = ageclass.split('-')
-                if not (lower.isdigit() and upper.isdigit()):
+                if (not (lower.replace('.', '').isdigit() and
+                         upper.replace('.', '').isdigit())):
                     pwarning("Lifter %s has an unrecognised ageclass: %s" %
                              (row[csv.index('Name')], ageclass))
 
