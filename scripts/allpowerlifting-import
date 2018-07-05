@@ -1,14 +1,8 @@
 #!/usr/bin/env python3
 # vim: set ts=8 sts=4 et sw=4 tw=99:
 #
-# Import data from the extremely well-designed NSF website.
-# Since they use a database for all their meets, everything
-# is imported very easily, as with the USAPL.
-#
-# Except these guys actually show all of their data, and seem
-# to take it seriously.
-#
-
+# Import data from the AllPowerlifting website. This script should only be used 
+# for meets where AllPowerlifting is the primary source.
 
 from bs4 import BeautifulSoup
 import errno
