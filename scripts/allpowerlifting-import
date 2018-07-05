@@ -134,7 +134,7 @@ def getresults(soup, url):
 
             russian_names = get_cyrillic_names(subpage_url)
             subpage_csv.append_column('CyrillicName')
-            
+
             cyrnameidx = subpage_csv.index('CyrillicName')
             nameidx = subpage_csv.index('Name')
             for ii in range(len(subpage_csv.rows)):
@@ -183,7 +183,7 @@ def get_cyrillic_names(url):
         if len(row) > 1:
             tds = tr.find_all('td')
             name = tds[nameidx].text
-            name = name.replace('e','е').replace('x','х')
+            name = name.replace('e', 'е').replace('x', 'х')
 
             names.append(name)
 
