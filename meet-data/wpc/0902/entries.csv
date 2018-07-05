@@ -67,7 +67,7 @@ Pryazhentsev Vladimir,75,72.65,F,F-M (40 - 44) -AWPC,-175,175,185,190,185,110,12
 Paraskeva Igor,75,73.55,F,F-M (45 - 49) -AWPC,160,170,-175,,170,105,115,120,,120,170,190,205,,205,495,1,SBD,Raw,MLD
 Bobkov Sergiy,75,74.25,F,F-M (55 - 59) -AWPC,130,,,,130,80,90,,,90,-140,,,,-140,,DQ,SBD,Raw,UKR
 Kravtsov Petro,75,72.45,F,F-M (60 - 64) -AWPC,180,185,-190,,185,110,115,117.5,,117.5,180,190,195,,195,497.5,1,SBD,Raw,UKR
-Manchuk Volodymyr,75,73.85,F,F-M (65 - 69) -AWPC,110,120,-130,,,105,112.5,-115,,112.5,-150,,,,,,DQ,SBD,Raw,UKR
+Manchuk Volodymyr,75,73.85,F,F-M (65 - 69) -AWPC,110,120,-130,,120,105,112.5,-115,,112.5,-150,,,,,,DQ,SBD,Raw,UKR
 Vasylenko Volodymyr,75,74.8,F,F-M (65 - 69) -AWPC,105,-110,110,,110,-65,-65,-65,,,,,,,,,DQ,SBD,Raw,UKR
 Kolyadenko Olexandr,82.5,80.6,F,F-T (13-15) -AWPC,-150,-150,-150,,,,,,,,,,,,,,DQ,SBD,Raw,UKR
 Kovalenko Bogdan,82.5,80.5,F,F-T (16-17) -AWPC,180,-190,200,,200,90,100,-105,,100,200,215,220,-230.5,220,520,1,SBD,Raw,AZE
@@ -102,7 +102,7 @@ Zaytsev Sergei,90,89.15,F,F-O -AWPC,-230,-230,230,,230,190,200,-205,,200,250,270
 Kharauzov Alexei,90,90,F,F-O -AWPC,215,230,237.5,,237.5,190,202.5,-207.5,,202.5,230,252.5,270,,270,710,4,SBD,Raw,RUS
 Mikhaylyuk Ivan,90,84.45,F,F-O -AWPC,230,240,-250,,240,150,155,160,,160,260,-270,270,,270,670,5,SBD,Raw,RUS
 Sinetskiy Roman,90,89.4,F,F-O -AWPC,220,-230,230,,230,160,-165,165,,165,260,-275,-275,,260,655,6,SBD,Raw,RUS
-Zakharov Yuri,90,89.25,F,F-O -AWPC,220,230,235,,235,-175,-175,-175,,-175,,,,,,,DQ,SBD,Raw,RUS
+Zakharov Yuri,90,89.25,F,F-O -AWPC,220,230,235,,235,-175,-175,-175,,,,,,,,,DQ,SBD,Raw,RUS
 Talda Konstantin,90,90,M,M-O -AWPC,210,220,-230.5,,220,-172.5,-172.5,-172.5,,,,,,,,,DQ,SBD,Raw,RUS
 Leontyev Alexander,90,90,F,F-M (45 - 49) -AWPC,215,225,235,,235,-155,155,160,,160,215,225,235,,235,630,1,SBD,Raw,RUS
 Vashchenko Vasyl,90,87.4,F,F-M (50 - 54) -AWPC,140,150,160,,160,120,125,-127.5,,125,150,160,175,,175,460,1,SBD,Raw,UKR
@@ -309,7 +309,7 @@ Smorkalov Alexei,100,100,M,M-O -AWPC,,,,,,-162.5,-162.5,-162.5,,,,,,,,,DQ,B,Raw,
 Karelin Dmitry,100,97.9,M,M-M -AWPC,,,,,,165,-170,170,,170,,,,,,170,1,B,Raw,RUS
 Semenov Nikolai,100,100,M,M-M -AWPC,,,,,,135,142.5,147.5,,147.5,,,,,,147.5,2,B,Raw,RUS
 Fadeyev Yevgeny,100,98.25,M,M-M -AWPC,,,,,,135,142.5,-147.5,,142.5,,,,,,142.5,3,B,Raw,RUS
-Chidingov Pavel,100,98.9,M,M-M -AWPC,,,,,,-160,-160,160,,,,,,,,,DQ,B,Raw,RUS
+Chidingov Pavel,100,98.9,M,M-M -AWPC,,,,,,-160,-160,-160,,,,,,,,,DQ,B,Raw,RUS
 Shibayev Vladimir,100,98.85,M,M-M -AWPC,,,,,,165,175,180,,180,,,,,,180,1,B,Raw,RUS
 Chygyrynskiy Volodymyr,100,95.05,M,M-M -AWPC,,,,,,110,,,,110,,,,,,110,2,B,Raw,UKR
 Mandrygin Viktor,100,99.9,M,M-M -AWPC,,,,,,160,170,177.5,,177.5,,,,,,177.5,1,B,Raw,RUS
