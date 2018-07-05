@@ -109,8 +109,11 @@ def getresults(soup, url):
 
     russian_names = get_cyrillic_names(url)
     csv.append_column('CyrillicName')
+    cyrnameidx = csv.index('CyrillicName')
+    nameidx = csv.index('Name')
     for ii in range(len(csv.rows)):
-        csv.rows[ii][-1] = russian_names[ii]
+        if csv.rows[ii][nameidx] != russian_names[ii]:
+            csv.rows[ii][cyrnameidx] = russian_names[ii]
 
     csv.append_column('SheetName')
     for row in csv.rows:
@@ -131,8 +134,12 @@ def getresults(soup, url):
 
             russian_names = get_cyrillic_names(subpage_url)
             subpage_csv.append_column('CyrillicName')
+            
+            cyrnameidx = subpage_csv.index('CyrillicName')
+            nameidx = subpage_csv.index('Name')
             for ii in range(len(subpage_csv.rows)):
-                subpage_csv.rows[ii][-1] = russian_names[ii]
+                if subpage_csv.rows[ii][nameidx] != russian_names[ii]:
+                    subpage_csv.rows[ii][cyrnameidx] = russian_names[ii]
 
             subpage_csv.append_column('SheetName')
             for row in subpage_csv.rows:
@@ -176,6 +183,8 @@ def get_cyrillic_names(url):
         if len(row) > 1:
             tds = tr.find_all('td')
             name = tds[nameidx].text
+            name = name.replace('e','е').replace('x','х')
+
             names.append(name)
 
     return names
