@@ -209,7 +209,7 @@ Cesar Aguera Sainz,ESP,33,,M,Wraps,M_O_CR_WPC,108.4,110,310,-330,-330,,310,210,2
 Maurice Agesilas,FRA,31,,M,Wraps,M_O_CR_WPC,110,110,260,-280,-280,,260,190,200,-215,,200,-300,300,-315,,300,760,SBD,3
 Aron Moody,GB,29,,M,Wraps,M_O_CR_WPC,104.4,110,255,-275,-275,,255,155,-165,-165,,155,260,272.5,-282.5,,272.5,682.5,SBD,4
 David-John Williamson,GB,29,,M,Wraps,M_O_CR_WPC,104.9,110,200,-220,235,,235,150,160,167.5,,167.5,240,255,270,,270,672.5,SBD,5
-Naël Cetout,FRA,28,,M,Wraps,M_O_CR_WPC,105.2,110,-270,-270,-270,,,,,,,,,,,,,,SBD,DQ
+NaÃ¤l Cetout,FRA,28,,M,Wraps,M_O_CR_WPC,105.2,110,-270,-270,-270,,,,,,,,,,,,,,SBD,DQ
 Hristo Muskov,BUL,32,,M,Wraps,M_O_CR_WPC,117.7,125,290,300,310,,310,160,170,180,,180,330,-340,,,330,820,SBD,1
 Santiago Fernandez Linares,ESP,37,,M,Wraps,M_O_CR_WPC,110.1,125,,,,,,,,,,,,,,,,,SBD,DQ
 Bradley Scott,GB,29,,M,Wraps,M_O_CR_WPC,130.9,140,290,305,-310,,305,182.5,192.5,-200,,192.5,290,302.5,310,,310,807.5,SBD,1
@@ -244,7 +244,7 @@ Boris Laisin,EST,67,,M,Raw,M_M6_R_WPC,69.6,75,,,,,,105,107.5,-110,,107.5,,,,,,10
 Tapio Laine,FIN,66,,M,Raw,M_M6_R_WPC,120.4,125,,,,,,140,150,160,,160,,,,,,160,B,1
 Jacques Brestin,FRA,62,,M,Raw,M_M5_R_WPC,81.6,82.5,,,,,,105,112.5,117.5,,117.5,,,,,,117.5,B,1
 Massimo Papini,ITA,61,,M,Raw,M_M5_R_WPC,121.8,125,,,,,,190,201,-206,,201,,,,,,201,B,1
-José Martin,FRA,57,,M,Raw,M_M4_R_WPC,67.2,67.5,,,,,,102.5,107.5,-110,,107.5,,,,,,107.5,B,1
+JosÃ© Martin,FRA,57,,M,Raw,M_M4_R_WPC,67.2,67.5,,,,,,102.5,107.5,-110,,107.5,,,,,,107.5,B,1
 Vladlen Astaptsev,FIN,50,,M,Raw,M_M3_R_WPC,71.5,75,,,,,,80,90,95,,95,,,,,,95,B,1
 Joaquim Da Silva,FRA,53,,M,Raw,M_M3_R_WPC,81.8,82.5,,,,,,145,150,152.5,,152.5,,,,,,152.5,B,1
 Aleksandr Scherbakov,MOL,51,,M,Raw,M_M3_R_WPC,89.2,90,,,,,,205,215,-217.5,,215,,,,,,215,B,1
@@ -276,7 +276,7 @@ Merlin Bocka,FRA,38,,M,Raw,M_O_R_WPC,89.3,90,,,,,,160,167.5,-172.5,,167.5,,,,,,1
 Roberto Vazquez Rivera,ESP,25,,M,Raw,M_O_R_WPC,90.2,100,,,,,,-190,192.5,-200,,192.5,,,,,,192.5,B,1
 Pierre Silas Dieu Juste,FRA,27,,M,Raw,M_O_R_WPC,94.9,100,,,,,,180,190,-200,,190,,,,,,190,B,2
 Jani Virtanen,FIN,22,,M,Raw,M_O_R_WPC,97.1,100,,,,,,180,190,-195,,190,,,,,,190,B,3
-Michaël Hainak,FRA,27,,M,Raw,M_O_R_WPC,92.2,100,,,,,,180,187.5,-190,,187.5,,,,,,187.5,B,4
+MichaÃ¤l Hainak,FRA,27,,M,Raw,M_O_R_WPC,92.2,100,,,,,,180,187.5,-190,,187.5,,,,,,187.5,B,4
 Maurice Agesilas,FRA,31,,M,Raw,M_O_R_WPC,110,110,,,,,,200,210,-212.5,,210,,,,,,210,B,1
 Jonathan Bottin,FRA,30,,M,Raw,M_O_R_WPC,106.8,110,,,,,,190,202.5,-210,,202.5,,,,,,202.5,B,2
 Abdul-Rashid Metrishev,RUS,44,,M,Raw,M_O_R_WPC,106.8,110,,,,,,190,202.5,-210,,202.5,,,,,,202.5,B,3
@@ -308,7 +308,7 @@ Geoffrey Godard,FRA,28,,M,Raw,M_O_R_WPC,69,75,,,,,,,,,,,170,180,-190,,180,180,D,
 Tom Mannion,IRL,37,,M,Raw,M_O_R_WPC,81.4,82.5,,,,,,,,,,,265,-281,281,,281,281,D,1
 Vincent Kluska,FRA,30,,M,Raw,M_O_R_WPC,81.4,82.5,,,,,,,,,,,235,250,255,,255,255,D,2
 Grégoire Ho Bing Huang,FRA,35,,M,Raw,M_O_R_WPC,97.9,100,,,,,,,,,,,275,322.5,-332.5,,322.5,322.5,D,1
-Gérard Lama,FRA,36,,M,Raw,M_O_R_WPC,108.7,110,,,,,,,,,,,300,0,350,,350,350,D,1
+GÃ©rard Lama,FRA,36,,M,Raw,M_O_R_WPC,108.7,110,,,,,,,,,,,300,0,350,,350,350,D,1
 Jean Luc Leon,FRA,29,,M,Raw,M_O_R_WPC,112.7,125,,,,,,,,,,,300,-330,-330,,300,300,D,1
 Hristo Muskov,BUL,32,,M,Raw,M_O_R_WPC,118,125,,,,,,,,,,,300,,,,300,300,D,0
 Karim Messai,FRA,24,,M,Raw,M_O_R_WPC,132.4,140,,,,,,,,,,,-300,300,-330,,300,300,D,1
@@ -317,34 +317,34 @@ Emma Ylitalo-James,GB,48,,F,Single-ply,F_O_ES_WPC,87.2,90,,,,,,-210,-210,,,,,,,,
 Peter Hermann,SWI,76,,M,Single-ply,M_M8_ES_WPC,80.2,82.5,,,,,,107.5,112.5,115,,115,,,,,,115,B,1
 Tapio Laine,FIN,66,,M,Multi-ply,M_M6_EM_WPC,120.4,125,,,,,,-235,-235,-235,,,,,,,,,B,DQ
 Didier Theux,FRA,60,,M,Multi-ply,M_M5_EM_WPC,87.3,90,,,,,,210,220,-505,,220,,,,,,220,B,1
-Stéphane Chavin Gazalier,FRA,57,,M,Single-ply,M_M4_ES_WPC,89.8,90,,,,,,175,-200.5,-200.5,,175,,,,,,175,B,1
+StÃ©phane Chavin Gazalier,FRA,57,,M,Single-ply,M_M4_ES_WPC,89.8,90,,,,,,175,-200.5,-200.5,,175,,,,,,175,B,1
 Farid Laloui,FRA,59,,M,Single-ply,M_M4_ES_WPC,96.7,100,,,,,,165,-170,-170,,165,,,,,,165,B,1
 David Gibson,GB,51,,M,Single-ply,M_M3_ES_WPC,84.9,90,,,,,,160,-170,170,-175,170,,,,,,170,B,1
 Marcus Young,FIN,53,,M,Single-ply,M_M3_ES_WPC,86.4,90,,,,,,160,170,-177.5,,170,,,,,,170,B,2
-Stéphane Gurini,FRA,53,,M,Multi-ply,M_M3_EM_WPC,89.7,90,,,,,,190,-205,-205,,190,,,,,,190,B,1
+StÃ©phane Gurini,FRA,53,,M,Multi-ply,M_M3_EM_WPC,89.7,90,,,,,,190,-205,-205,,190,,,,,,190,B,1
 Marcus Young,FIN,53,,M,Multi-ply,M_M3_EM_WPC,86.4,90,,,,,,170,180,-190,,180,,,,,,180,B,2
 Denis Tomsin,FRA,45,,M,Single-ply,M_M2_ES_WPC,74.6,75,,,,,,155,162.5,-170,,162.5,,,,,,162.5,B,1
-Hervé Gainche,FRA,46,,M,Single-ply,M_M2_ES_WPC,123.7,125,,,,,,195,-205,205,,205,,,,,,205,B,1
+HervÃ© Gainche,FRA,46,,M,Single-ply,M_M2_ES_WPC,123.7,125,,,,,,195,-205,205,,205,,,,,,205,B,1
 Fabrice Lapiccirella,FRA,42,,M,Single-ply,M_M1_ES_WPC,82.5,82.5,,,,,,-155,-155,-155,,,,,,,,,B,DQ
 Mickael Dupire,FRA,44,,M,Single-ply,M_M1_ES_WPC,115.1,125,,,,,,250,-260,260,,260,,,,,,260,B,1
 David Campos,FRA,23,,M,Single-ply,M_J_ES_WPC,81.2,82.5,,,,,,160,-165,-165,,160,,,,,,160,B,1
 Pieter Flamme,FRA,34,,M,Single-ply,M_O_ES_WPC,89.2,90,,,,,,250,-260,-260,,250,,,,,,250,B,1
 Roman Pelykh,UKR,32,,M,Multi-ply,M_O_EM_WPC,72.2,75,,,,,,230,-240,-240,,230,,,,,,230,B,1
 Didier Theux,FRA,60,,M,Multi-ply,M_O_EM_WPC,87.3,90,,,,,,210,220,-505,,220,,,,,,220,B,1
-Stéphane Gurini,FRA,53,,M,Multi-ply,M_O_EM_WPC,89.7,90,,,,,,190,-205,-205,,190,,,,,,190,B,2
+StÃ©phane Gurini,FRA,53,,M,Multi-ply,M_O_EM_WPC,89.7,90,,,,,,190,-205,-205,,190,,,,,,190,B,2
 Marcus Young,FIN,53,,M,Multi-ply,M_O_EM_WPC,86.4,90,,,,,,170,180,-190,,180,,,,,,180,B,3
 Garry Barros Gameiro,FRA,34,,M,Multi-ply,M_O_EM_WPC,109.9,110,,,,,,255,265,-275,,265,,,,,,265,B,1
 Petteri Hosio,FIN,39,,M,Multi-ply,M_O_EM_WPC,121.7,125,,,,,,-350,-360,-360,,,,,,,,,B,DQ
 Emma Ylitalo-James,GB,48,,F,Single-ply,F_M2_ES_WPC,87.2,90,,,,,,,,,,,160,175,190,-200,190,190,D,1
 Sandrine Platel,FRA,43,,F,Single-ply,F_M1_ES_WPC,67.4,67.5,,,,,,,,,,,182.5,192.5,200,,200,200,D,1
 Sandrine Platel,FRA,43,,F,Single-ply,F_O_ES_WPC,67.4,67.5,,,,,,,,,,,182.5,192.5,200,,200,200,D,1
-François Chazelle,FRA,80,,M,Single-ply,M_M9_ES_WPC,86.4,90,,,,,,,,,,,182.5,-190,0,,182.5,182.5,D,1
+FranÃ§ois Chazelle,FRA,80,,M,Single-ply,M_M9_ES_WPC,86.4,90,,,,,,,,,,,182.5,-190,0,,182.5,182.5,D,1
 Lothar Schulze,GER,68,,M,Single-ply,M_M6_ES_WPC,80.5,82.5,,,,,,,,,,,120,140,155,,155,155,D,1
 Stephan Sochanski,ITA,69,,M,Single-ply,M_M6_ES_WPC,90.2,100,,,,,,,,,,,220,246,0,,246,246,D,1
 Didier Theux,FRA,60,,M,Multi-ply,M_M5_EM_WPC,87.3,90,,,,,,,,,,,250,265,-280,,265,265,D,1
 Patrick Breton,FRA,58,,M,Single-ply,M_M4_ES_WPC,80.3,82.5,,,,,,,,,,,240,260,-275,,260,260,D,1
 Phil Watkins,GB,49,,M,Single-ply,M_M2_ES_WPC,89,90,,,,,,,,,,,285,305,0,,305,305,D,1
-José Teixera,POR,47,,M,Single-ply,M_M2_ES_WPC,92.3,100,,,,,,,,,,,265,-280,-282.5,,265,265,D,1
+JosÃ© Teixera,POR,47,,M,Single-ply,M_M2_ES_WPC,92.3,100,,,,,,,,,,,265,-280,-282.5,,265,265,D,1
 Phil Watkins,GB,49,,M,Single-ply,M_O_ES_WPC,89,90,,,,,,,,,,,285,305,0,,305,305,D,1
 Ahmadov Ramil,,30,,M,Single-ply,M_O_ES_WPC,100,100,,,,,,,,,,,300,315,330,,330,330,D,1
 Gaspare Impeduglia,ITA,30,,M,Single-ply,M_O_ES_WPC,103.8,110,,,,,,,,,,,260,-285,285,,285,285,D,1
