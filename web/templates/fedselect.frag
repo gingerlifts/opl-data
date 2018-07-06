@@ -124,6 +124,13 @@
     <option value="IrishPF">IrishPF - Irish Powerlifting Federation [IPF]</option>
     <option value="IrishPO">IrishPO - Irish Powerlifting Organization [IPL] (Incomplete)</option>
   </optgroup>
+  <optgroup label="Israel">
+    <option value="IPC,NPA">
+      All Israeli Feds
+    </option>
+    <option value="IPC">IPC - Israel Powerlifting Community [IPO]</option>
+    <option value="NPA">NPA - National Powerlifting Association of Israel</option>
+  </optgroup>
   <optgroup label="Japan">
     <option value="JPA">JPA - Japan Powerlifting Federation [IPF] (Incomplete)</option>
   </optgroup>
@@ -150,11 +157,12 @@
     <option value="WPC-Portugal">WPC-Portugal - WPC Portugal [WPC] (Incomplete)</option>
   </optgroup>
   <optgroup label="Russia">
-    <option value="BB,FPR,SCT,WPC-RUS,WRPF">
+    <option value="BB,FPR,GPC-RUS,SCT,WPC-RUS,WRPF">
       All Russian Feds
     </option>
     <option value="BB">BB - Bogatyr Brotherhood [GPA]</option>
     <option value="FPR">FPR - Russian Powerlifting Federation [IPF] (Incomplete)</option>
+    <option value="GPC-RUS">GPC-RUS - GPC Russia [GPC]</option>
     <option value="NAP">NAP - National Association of Powerlifting [IPA]</option>
     <option value="SCT">SCT - Super-Cup of Titans (Single-ply)</option>
     <option value="WPC-RUS">WPC-RUS - WPC Russia (Incomplete)</option>
