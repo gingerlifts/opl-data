@@ -56,10 +56,8 @@ def getmeetinfo(soup):
     if venue[-2:] == ', ':
         venue = venue[:-2]
 
-    split = venue.split(', ')
-    if len(split) > 1:
-        country = split[0]
-        town = split[-1]
+    if ', ' in venue:
+        [country, town] = venue.split(', ')
     else:
         country = venue
         town = ''
@@ -280,7 +278,11 @@ def getpagedata(soup):
             csv.fieldnames += ['Country']
         elif h == 'G':
             csv.fieldnames += ['IGNORE']
-        elif h in ['R','W']: # Resh, Wilks
+<<<<<<< HEAD
+        elif h == 'R':
+=======
+        elif h == 'W': # Wilks
+>>>>>>> GPA Eurasian Champs
             csv.fieldnames += ['IGNORE']
         else:
             error("Unknown column name: \"%s\"" % h)
