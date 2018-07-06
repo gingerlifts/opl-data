@@ -21,6 +21,7 @@
 		"status": "Status projektu",
 		"faq": "Najczęściej zadawane pytania",
 		"contact": "Kontakt",
+		"shop": "Shop",
 		"supportus": "Pomóż nam"
 	},
 	"columns": {
@@ -132,7 +133,9 @@
 	    "vietnam": "Wietnam",
 	    "wales": "Walia"
 	},
-	"search": "Wyszukaj",
+	"buttons": {
+		"search": "Wyszukaj"
+	},
 	"selectors": {
 		"equipment": {
 			"raw": "Raw",
@@ -166,6 +169,23 @@
 			"all": "Wszystkie płcie",
 			"m": "Mężczyźni",
 			"f": "Kobiety"
+		},
+		"fed": {
+			"all": "All Feds",
+			"all_tested": "All Drug-Tested Feds",
+			"all_amateur": "All Amateur and Optionally Drug-Tested Feds",
+			"international": "International",
+			"regional": "Regional",
+			"all_usa": "All United States Feds",
+			"all_argentina": "All Argentinian Feds",
+			"all_australia": "All Australian Feds",
+			"all_canada": "All Canadian Feds",
+			"all_finland": "All Finnish Feds",
+			"all_germany": "All German Feds",
+			"all_ireland": "All Irish Feds",
+			"all_russia": "All Russian Feds",
+			"all_uk": "All United Kingdom Feds",
+			"all_ukraine": "All Ukrainian Feds"
 		}
 	}
 }

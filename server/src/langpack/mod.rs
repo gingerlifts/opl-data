@@ -206,6 +206,7 @@ pub struct HeaderTranslations {
     pub status: String,
     pub faq: String,
     pub contact: String,
+    pub shop: String,
     pub supportus: String,
 }
 
@@ -233,12 +234,18 @@ pub struct ColumnTranslations {
 }
 
 #[derive(Serialize, Deserialize)]
+pub struct ButtonTranslations {
+    pub search: String,
+}
+
+#[derive(Serialize, Deserialize)]
 pub struct SelectorTranslations {
     pub equipment: EquipmentSelectorTranslations,
     pub weightclass: WeightClassSelectorTranslations,
     pub sort: SortSelectorTranslations,
     pub year: YearSelectorTranslations,
     pub sex: SexSelectorTranslations,
+    pub fed: FedSelectorTranslations,
 }
 
 #[derive(Serialize, Deserialize)]
@@ -285,6 +292,25 @@ pub struct SexSelectorTranslations {
 }
 
 #[derive(Serialize, Deserialize)]
+pub struct FedSelectorTranslations {
+    pub all: String,
+    pub all_tested: String,
+    pub all_amateur: String,
+    pub international: String,
+    pub regional: String,
+    pub all_usa: String,
+    pub all_argentina: String,
+    pub all_australia: String,
+    pub all_canada: String,
+    pub all_finland: String,
+    pub all_germany: String,
+    pub all_ireland: String,
+    pub all_russia: String,
+    pub all_uk: String,
+    pub all_ukraine: String,
+}
+
+#[derive(Serialize, Deserialize)]
 pub struct Translations {
     pub units: UnitsTranslations,
     pub equipment: EquipmentTranslations,
@@ -292,7 +318,7 @@ pub struct Translations {
     pub header: HeaderTranslations,
     pub columns: ColumnTranslations,
     pub country: CountryTranslations,
-    pub search: String,
+    pub buttons: ButtonTranslations,
     pub selectors: SelectorTranslations,
 }
 
@@ -584,5 +610,33 @@ impl Serialize for LocalizedWeightClassAny {
             NumberFormat::ArabicComma => self.class.format_comma(),
         };
         serializer.serialize_str(&s)
+    }
+}
+
+/// Gets the appropriat
+pub fn get_localized_name<'db>(
+    lifter: &'db opldb::Lifter,
+    language: Language,
+) -> &'db str {
+    match language {
+        Language::de => &lifter.name,
+        Language::en => &lifter.name,
+        Language::eo => &lifter.name,
+        Language::es => &lifter.name,
+        Language::fi => &lifter.name,
+        Language::fr => &lifter.name,
+        Language::it => &lifter.name,
+        Language::pl => &lifter.name,
+        Language::pt => &lifter.name,
+        Language::sl => &lifter.name,
+        Language::ru => {
+            if let Some(ref cyr) = lifter.cyrillic_name {
+                cyr
+            } else {
+                &lifter.name
+            }
+        }
+        Language::tr => &lifter.name,
+        Language::vi => &lifter.name,
     }
 }

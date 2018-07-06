@@ -21,6 +21,7 @@
 		"status": "Estado do projeto",
 		"faq": "FAQ",
 		"contact": "Contacto",
+		"shop": "Shop",
 		"supportus": "Ajuda-nos"
 	},
 	"columns": {
@@ -125,14 +126,16 @@
 	    "uk": "Reino Unido",
 	    "ukraine": "Ucrânia",
 	    "uruguay": "Uruguai",
-	    "usa": "Estados Unidos da América",
+	    "usa": "EUA",
 	    "usvirginislands": "Ilhas Virgens Americanas",
 	    "uzbekistan": "Uzbequistão",
 	    "venezuela": "Venezuela",
 	    "vietnam": "Vietname",
 	    "wales": "País de Gales"
 	},
-	"search": "Procura",
+	"buttons": {
+		"search": "Procura"
+	},
 	"selectors": {
 		"equipment": {
 			"raw": "Raw",
@@ -142,7 +145,7 @@
 			"multi": "Multi-ply"
 		},
 		"weightclass": {
-			"all": "Todas as classes",
+			"all": "Classes",
 			"traditional": "Tradicional",
 			"ipfmen": "IPF Masculino",
 			"ipfwomen": "IPF Feminino"
@@ -160,12 +163,29 @@
 			"points": "Por Pontos"
 		},
 		"year": {
-			"all": "Todos os anos"
+			"all": "Anos"
 		},
 		"sex": {
-			"all": "Todos os sexos",
+			"all": "Géneros",
 			"m": "Masculino",
 			"f": "Feminino"
+		},
+		"fed": {
+			"all": "All Feds",
+			"all_tested": "All Drug-Tested Feds",
+			"all_amateur": "All Amateur and Optionally Drug-Tested Feds",
+			"international": "International",
+			"regional": "Regional",
+			"all_usa": "All United States Feds",
+			"all_argentina": "All Argentinian Feds",
+			"all_australia": "All Australian Feds",
+			"all_canada": "All Canadian Feds",
+			"all_finland": "All Finnish Feds",
+			"all_germany": "All German Feds",
+			"all_ireland": "All Irish Feds",
+			"all_russia": "All Russian Feds",
+			"all_uk": "All United Kingdom Feds",
+			"all_ukraine": "All Ukrainian Feds"
 		}
 	}
 }
