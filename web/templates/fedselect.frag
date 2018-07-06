@@ -174,7 +174,7 @@
   </optgroup>
   <optgroup label="Ukraine">
     <option value="WPA,WPUF">
-      All Ukranian Feds
+      All Ukrainian Feds
     </option>
     <option value="WPAU">WPAU - World Powerlifting Alliance Ukraine [WPA] (Incomplete)</option>
     <option value="WPUF">WPUF - World Powerlifting Union of Federations [WPUF] (Incomplete)</option>
