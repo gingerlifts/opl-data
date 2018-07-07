@@ -346,10 +346,10 @@ def parse_fieldnames(sheet):
             fieldnames.append('IGNORE')
         elif text == '':
             fieldnames.append('IGNORE')
-        elif text == 'командный зачет': # Team points
+        elif text == 'командный зачет':  # Team points
             fieldnames.append('IGNORE')
-        elif text == 'баллы': # Points
-            fieldnames.append('IGNORE')        
+        elif text == 'баллы':  # Points
+            fieldnames.append('IGNORE')
 
         else:
             print(sheet)
@@ -400,7 +400,8 @@ def parse_sheet(sheet):
                                   'армейский', 'тяговое', 'военный', 'двоеборье',
                                   '1_2 веса']):  # Bench reps
         return csv
-    elif 'жд профессионалы' in title or 'жд сфо' in title: # Bench and then bench for reps
+    # Bench and then bench for reps
+    elif 'жд профессионалы' in title or 'жд сфо' in title:
         return csv
     elif 'богатырский' in title:  # Heroic Press ?? Some kind of overhead press maybe
         return csv
