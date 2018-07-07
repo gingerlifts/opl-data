@@ -183,6 +183,8 @@ pub enum Federation {
     RAWU,
     #[strum(to_string = "RPS", serialize = "rps")]
     RPS,
+    #[strum(to_string = "RPU", serialize = "rpu")]
+    RPU,
     #[strum(to_string = "RUPC", serialize = "rupc")]
     RUPC,
     #[strum(to_string = "ScottishPL", serialize = "scottishpl")]
@@ -397,6 +399,7 @@ impl MetaFederation {
                     || meet.federation == Federation::GPCRUS
                     || meet.federation == Federation::NAP
                     || meet.federation == Federation::SCT
+                    || meet.federation == Federation::RPU
                     || meet.federation == Federation::WPCRUS
                     || meet.federation == Federation::WRPF
             }
