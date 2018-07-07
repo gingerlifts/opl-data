@@ -1,8 +1,0 @@
-#!/bin/sh
-# Usage: input | try-uglify filename
-
-if ! type uglifyjs > /dev/null; then
-	cat > "$1"
-else
-	uglifyjs -o "$1"
-fi
