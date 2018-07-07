@@ -84,7 +84,7 @@ def parse_fieldnames(sheet):
         iterable = iter(range(len(header)))
 
         for i in iterable:
-            text = header[i].lower().replace('.', '').replace('-','')
+            text = header[i].lower().replace('.', '').replace('-', '')
             text = text.lower()
 
             if '№' in text or 'номер' in text:
@@ -107,7 +107,7 @@ def parse_fieldnames(sheet):
                 fieldnames.append('IGNORE')
             elif 'очки по вилксу' in text or 'коэф виллс' in text:  # Wilks
                 fieldnames.append('IGNORE')
-            elif 'тренер' in text: # Coach
+            elif 'тренер' in text:  # Coach
                 fieldnames.append('IGNORE')
             elif 'жре бий' in text or 'оч ки' in text:  # Individual points
                 fieldnames.append('IGNORE')
