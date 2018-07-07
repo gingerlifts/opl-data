@@ -60,7 +60,7 @@ def getmeetinfo(soup):
     if len(split) > 1:
         country = split[0]
         town = split[-1]
-   else:
+    else:
         country = venue
         town = ''
 
