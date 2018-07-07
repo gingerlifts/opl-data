@@ -56,6 +56,8 @@ pub enum Federation {
     BVDK,
     #[strum(to_string = "CAPO", serialize = "capo")]
     CAPO,
+    #[strum(to_string = "CAST", serialize = "cast")]
+    CAST,
     #[strum(to_string = "CommonwealthPF", serialize = "commonwealthpf")]
     CommonwealthPF,
     #[strum(to_string = "CPF", serialize = "cpf")]
@@ -162,6 +164,8 @@ pub enum Federation {
     NZPF,
     #[strum(to_string = "OceaniaPF", serialize = "oceaniapf")]
     OceaniaPF,
+    #[strum(to_string = "OS", serialize = "os")]
+    OS,
     #[strum(to_string = "ParaPL", serialize = "parapl")]
     ParaPL,
     #[strum(to_string = "PA", serialize = "pa")]
@@ -377,6 +381,11 @@ impl MetaFederation {
                     || meet.federation == Federation::GPCCAN
                     || meet.federation == Federation::RAWCAN
                     || meet.federation == Federation::WRPFCAN
+            }
+            MetaFederation::AllCzechia => {
+                meet.federation == Federation::CAST 
+                    || meet.federation == Federation::CSST
+                    || meet.federation == Federation::OS                    
             }
             MetaFederation::AllFinland => {
                 meet.federation == Federation::FPO || meet.federation == Federation::SVNL

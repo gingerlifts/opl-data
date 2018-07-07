@@ -3,12 +3,12 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Nicole Guillaume Sabine,M3,France,47.35,90,100,105,105,52.5,57.5,60,60,120,130,-135,130,295,48,F,,1963,Wraps,SBD
 1,Dominika Heráková,T3,Czech Republic,49.15,65,75,-80,75,35,40,-42.5,40,65,75,-80,75,190,52,F,,1998,Wraps,SBD
 2,Tatjana Guseva,O,Latvia,50.7,90,95,100,100,65,70,75,75,95,102.5,110,110,285,52,F,,1982,Wraps,SBD
-DQ,Katerina Grebneva,O,Ukraine,51.4,90,90,100,100,-55,-55,-55,,,,,,,52,F,Катерина Гребньова,1989,Wraps,SBD
+DQ,Katerina Grebneva,O,Ukraine,51.4,-90,90,100,100,-55,-55,-55,,,,,,,52,F,Катерина Гребньова,1989,Wraps,SBD
 1,Kateryna Myalkovska,M1,Ukraine,51.8,100,110,115,115,62.5,67.5,70,70,115,125,130,130,315,52,F,Катерина Мялковська,1972,Wraps,SBD
 1,Val Swaine,M5,Great Britain,55.45,55,60,65,65,37.5,-40,-40,37.5,100,105,110,110,212.5,56,F,,1955,Wraps,SBD
 1,Emma Iane,O,Great Britain,59.4,150,160,-165,160,70,75,-80,75,155,165,170,170,405,60,F,,1981,Wraps,SBD
 2,Ellen Freeborn,O,Great Britain,59.45,130,-140,140,140,60,65,67.5,67.5,130,142.5,147.5,147.5,355,60,F,,1991,Wraps,SBD
-3,Joanna Droždž,O,Poland,59.4,105,110,115,115,52.5,57.5,60,60,115,120,130,130,305,60,F,,1990,Wraps,SBD
+3,Joanna Dróždž,O,Poland,59.4,105,110,115,115,52.5,57.5,60,60,115,120,130,130,305,60,F,,1990,Wraps,SBD
 4,Jana Zenovich-Leshkevich,O,Latvia,58.6,90,100,105,105,60,65,-70,65,110,120,130,130,300,60,F,,1985,Wraps,SBD
 1,Julie Davis,M1,Great Britain,59.65,-130,130,-140,130,70,75,-80,75,140,150,155,155,360,60,F,,1976,Wraps,SBD
 1,Karolina Bottyán,T1,Hungary,60.6,-100,-100,110,110,30,-35,-35,30,90,105,-110,105,245,67.5,F,,2002,Wraps,SBD
@@ -25,7 +25,7 @@ DQ,Katerina Grebneva,O,Ukraine,51.4,90,90,100,100,-55,-55,-55,,,,,,,52,F,Кат�
 1,Vladana Radonjić,T1,Serbia,85.85,-140,150,-160,150,45,50,55,55,120,140,-145,140,345,90,F,,2001,Wraps,SBD
 1,Jeri Jones,J,Great Britain,99.5,165,172.5,180,180,75,80,-85,80,140,147.5,-152.5,147.5,407.5,100,F,,1995,Wraps,SBD
 1,Charlotte Wareing,M3,Great Britain,98.6,-130,-130,130,130,85,90,95,95,170,180,-185,180,405,100,F,,1962,Wraps,SBD
-1,Milena Martinović,T3,Serbia,118.5,132.5,137.5,142.5,142.5,87.5,92.5,-97.5,92.5,140,150,155,155,390,110,F,,1999,Wraps,SBD
+1,Milena Martinović,T3,Serbia,118.5,132.5,137.5,142.5,142.5,87.5,92.5,-97.5,92.5,140,150,155,155,390,110+,F,,1999,Wraps,SBD
 1,Pavel Balážik,O,Slovak Republic,51.95,110,122.5,-130,122.5,75,82.5,87.5,87.5,130,142.5,147.5,147.5,357.5,56,M,,1979,Wraps,SBD
 1,László Vereb István,T1,Hungary,59.05,110,130,-135,130,60,65,-70,65,110,130,-132.5,130,325,60,M,,2002,Wraps,SBD
 1,Rafał Grzesiuk,O,Poland,59.75,140,-155,155,155,82.5,87.5,90,90,160,170,-175,170,415,60,M,,1986,Wraps,SBD
@@ -41,15 +41,15 @@ DQ,Katerina Grebneva,O,Ukraine,51.4,90,90,100,100,-55,-55,-55,,,,,,,52,F,Кат�
 1,Isaac Walker,O,Ireland,75,175,182.5,187.5,187.5,-80,100,112.5,112.5,220,240,-250,240,540,75,M,,1992,Wraps,SBD
 2,Damian Zapart,O,Poland,70,160,-170,-170,160,100,110,-115,110,170,180,185,185,455,75,M,,1983,Wraps,SBD
 1,Ivan Stankovic,M1,Serbia,74.1,210,230,-242.5,230,125,-130,-130,125,200,220,237.5,237.5,592.5,75,M,,1974,Wraps,SBD
-1,Adriano Da Costa,M3,France,72.9,-225,225,233,233,120,-131,,120,220,228,,228,581,75,M,,1963,Wraps,SBD
+1,Adriano DaCosta,M3,France,72.9,-225,225,233,233,120,-131,,120,220,228,,228,581,75,M,,1963,Wraps,SBD
 1,Josef Gabrhel,M5,Slovak Republic,73.05,130,140,150,150,95,100,-102.5,100,165,175,-185,175,425,75,M,,1955,Wraps,SBD
 1,Guylhem Feraud,M7,France,72.8,-130,130,138,138,105,-113,-113,105,170,178,,178,421,75,M,,1945,Wraps,SBD
 1,Aleksandr Zarubov,T2,Russia,79.05,160,175,190,190,105,117.5,-125,117.5,200,220,-241,220,527.5,82.5,M,Александр Зарубов,1999,Wraps,SBD
 1,Bvinder Singh Barraih,T3,Great Britain,82,210,225,232.5,232.5,152.5,157.5,165.5,165.5,230,245,260.5,260.5,658.5,82.5,M,,1997,Wraps,SBD
-2,Petr Hlousek,T3,Czech Republic,81.25,190,205,210,210,100,-110,110,110,190,200,-220,200,520,82.5,M,,1998,Wraps,SBD
+2,Petr Hloušek,T3,Czech Republic,81.25,190,205,210,210,100,-110,110,110,190,200,-220,200,520,82.5,M,,1998,Wraps,SBD
 1,Harley Wells,J,Great Britain,80.1,210,-225,,210,130,145,-152.5,145,200,220,-230,220,575,82.5,M,,1994,Wraps,SBD
 1,Przemysław Kawczyński,J,Poland,81.1,150,170,180,180,95,102.5,-107.5,102.5,200,217.5,-225,217.5,500,82.5,M,,1994,Wraps,SBD
-1,Petr Horak,O,Czech Republic,82.1,220,250,257.5,257.5,130,155,160,160,250,285,300.5,300.5,718,82.5,M,,1979,Wraps,SBD
+1,Petr Horák,O,Czech Republic,82.1,220,250,257.5,257.5,130,155,160,160,250,285,300.5,300.5,718,82.5,M,,1979,Wraps,SBD
 2,Mateusz Rufkiewicz,O,Poland,82.35,180,200,210,210,165,175,180,180,230,250,-270,250,640,82.5,M,,1988,Wraps,SBD
 1,Zsolt Horváth,M1,Hungary,81.6,210,-220,220,220,125,130,135,135,220,230,-240,230,585,82.5,M,,1975,Wraps,SBD
 2,Konrad Troll,M1,Poland,77.75,115,120,-130,120,90,-95,95,95,190,200,-205,200,415,82.5,M,,1972,Wraps,SBD
@@ -61,7 +61,7 @@ DQ,Katerina Grebneva,O,Ukraine,51.4,90,90,100,100,-55,-55,-55,,,,,,,52,F,Кат�
 1,Radosław Borowy,J,Poland,89.35,230,-240,245,245,190,-202.5,-202.5,190,-220,230,-242.5,230,665,90,M,,1995,Wraps,SBD
 1,Ryan Alexander,O,Great Britain,88.65,275,290,300,300,165,175,180,180,250,265,275,275,755,90,M,,1988,Wraps,SBD
 2,Christopher Derrick,O,Great Britain,89.05,255,-270,-270,255,150,157.5,162.5,162.5,290,310,-328.5,310,727.5,90,M,,1988,Wraps,SBD
-3,Andrija Simonovic,O,Serbia,88.45,255,267.5,272.5,272.5,155,165,-167.5,165,-240,240,,240,677.5,90,M,,1991,Wraps,SBD
+3,Andrija Simonović,O,Serbia,88.45,255,267.5,272.5,272.5,155,165,-167.5,165,-240,240,,240,677.5,90,M,,1991,Wraps,SBD
 4,Dawid Welna,O,Poland,83.6,160,170,-175,170,145,155,-157.5,155,170,190,210,210,535,90,M,,1991,Wraps,SBD
 DQ,James Young,O,Great Britain,90,70,,,70,155,167.5,-170,167.5,70,,,70,,90,M,,1992,Wraps,SBD
 DQ,Danny Iane,O,Great Britain,88.22,-260,-260,-260,,,,,,,,,,,90,M,,1979,Wraps,SBD
@@ -69,7 +69,7 @@ DQ,Alexandre Saingery,O,France,88.3,-215,-215,-215,,,,,,,,,,,90,M,,1988,Wraps,SB
 1,Peter Herák,M4,Slovak Republic,87,220,-242.5,-242.5,220,110,117.5,120,120,215,225,-232.5,225,565,90,M,,1960,Wraps,SBD
 1,Petr Kutner,M6,Czech Republic,83.1,130,140,145,145,72.5,80,,80,165,180,-185,180,405,90,M,,1950,Wraps,SBD
 1,Ádám Jakubek,T2,Slovak Republic,98.4,170,180,-190,180,112.5,120,-125,120,200,-210,-210,200,500,100,M,,2001,Wraps,SBD
-1,David Marusinec,J,Slovak Republic,98.35,275,282.5,-300,282.5,180,187.5,192.5,192.5,305,312.5,320,320,795,100,M,,1994,Wraps,SBD
+1,Dávid Marušinec,J,Slovak Republic,98.35,275,282.5,-300,282.5,180,187.5,192.5,192.5,305,312.5,320,320,795,100,M,,1994,Wraps,SBD
 2,Jesse Moran,J,Ireland,99.2,270,-285,-285,270,180,195,-201,195,-270,270,-300,270,735,100,M,,1994,Wraps,SBD
 3,Robert Hopkinson,J,Great Britain,98.4,265,-277.5,277.5,277.5,130,,,130,272.5,282.5,290,290,697.5,100,M,,1993,Wraps,SBD
 4,Kacper Maszczak,J,Poland,99.7,180,210,-235,210,135,142.5,150,150,240,270,285,285,645,100,M,,1996,Wraps,SBD
@@ -84,7 +84,7 @@ DQ,Alexandre Saingery,O,France,88.3,-215,-215,-215,,,,,,,,,,,90,M,,1988,Wraps,SB
 2,Fabrice Benchabane,M2,France,97.6,207.5,220,227.5,227.5,130,137.5,140,140,247.5,257.5,-265,257.5,625,100,M,,1971,Wraps,SBD
 1,Mariusz Rufkiewicz,M3,Poland,100,190,220,-240,220,140,150,-160,150,200,225,240,240,610,100,M,,1967,Wraps,SBD
 1,Anthony Cooper,J,Great Britain,104.85,290,300,312.5,312.5,210,-220,220,220,275,-290,-290,275,807.5,110,M,,1995,Wraps,SBD
-2,Robert Majoros,J,Hungary,104.55,270,-285,-285,270,180,210,216,216,300,310,322.5,310,796,110,M,,1994,Wraps,SBD
+2,Róbert Majoros,J,Hungary,104.55,270,-285,-285,270,180,210,216,216,300,310,-322.5,310,796,110,M,,1994,Wraps,SBD
 1,Alexandar Pelovski,O,Bulgaria,109.7,250,275,-285,275,195,202.5,-205,202.5,280,-302.5,302.5,302.5,780,110,M,,1991,Wraps,SBD
 1,Łukasz Lipka,O,Poland,108.7,260,280,290,290,160,-170,170,170,280,300,-305,300,760,110,M,,1992,Wraps,SBD
 2,Andrzej Mitera,O,Poland,105.1,250,275,285,285,165,175,180,180,265,285,-295,285,750,110,M,,1987,Wraps,SBD
@@ -103,16 +103,16 @@ DQ,Alexandre Saingery,O,France,88.3,-215,-215,-215,,,,,,,,,,,90,M,,1988,Wraps,SB
 1,Radosław Soboń,O,Poland,110.25,-267.5,267.5,-280,267.5,187.5,197.5,-207.5,197.5,265,275,-280,275,740,125,M,,1989,Wraps,SBD
 2,Przemyslaw Karwański,O,Poland,119.7,240,260,270,270,165,172.5,175,175,265,275,282.5,282.5,727.5,125,M,,1980,Wraps,SBD
 3,Damian Sieradzki,O,Poland,120.5,240,260,-270,260,165,172.5,-175,172.5,260,280,-297.5,280,712.5,125,M,,1989,Wraps,SBD
-1,Akos Lehotkai,M1,Slovak Republic,121.05,260,280,-290,280,155,160,165,165,280,300,-305,300,745,125,M,,1975,Wraps,SBD
+1,Ákos Lehotkai,M1,Slovak Republic,121.05,260,280,-290,280,155,160,165,165,280,300,-305,300,745,125,M,,1975,Wraps,SBD
 1,Jarosław Bastek,M2,Poland,113,190,200,210,210,180,185,-190,185,220,230,240,240,635,125,M,,1969,Wraps,SBD
 2,Rafał Klauz,M2,Poland,113.2,150,170,200,200,145,155,162.5,162.5,230,250,-260,250,612.5,125,M,,1971,Wraps,SBD
-1,Patryk Łazor,J,Poland,126,270,290,302.5,302.5,165,175,182.5,182.5,280,302.5,315,302.5,787.5,140,M,,1993,Wraps,SBD
-1,Kamil Jarota,O,Poland,128.25,350,370,380.5,370,200,210,220,220,340,365,375,365,955,140,M,,1991,Wraps,SBD
+1,Patryk Łazor,J,Poland,126,270,290,302.5,302.5,165,175,182.5,182.5,280,302.5,-315,302.5,787.5,140,M,,1993,Wraps,SBD
+1,Kamil Jarota,O,Poland,128.25,350,370,-380.5,370,200,210,220,220,340,365,-375,365,955,140,M,,1991,Wraps,SBD
 2,Alexandar Stankovic,O,Serbia,139.1,300,320,330,330,190,200,-205,200,330,350,-357.5,350,880,140,M,,1982,Wraps,SBD
 3,Johanna Massé Romuald,O,France,138.75,310,320,-330,320,240,-250,250,250,250,270,-290,270,840,140,M,,1992,Wraps,SBD
 1,Franck Loup,M2,France,131.1,250,-266,-266,250,140,-150,155,155,240,260,-275,260,665,140,M,,1968,Wraps,SBD
-1,Petr Petraš,O,Czech Republic,169.8,425,,,425,275,,,275,370,400,-410,400,1100,140,M,,1984,Wraps,SBD
-2,Jan Barkoczi,O,Slovak Republic,144.35,-190,,190,190,130,135,142.5,142.5,200,220,-230,220,552.5,140,M,,1992,Wraps,SBD
+1,Petr Petráš,O,Czech Republic,169.8,425,,,425,275,,,275,370,400,-410,400,1100,140+,M,,1984,Wraps,SBD
+2,Ján Barkoczi,O,Slovak Republic,144.35,-190,,190,190,130,135,142.5,142.5,200,220,-230,220,552.5,140+,M,,1992,Wraps,SBD
 1,Rehana Maniar,M1,Ireland,66.9,-160,180,-201,180,80,90,-100,90,150,165,-167.5,165,435,67.5,F,,1974,Multi-ply,SBD
 1,Charlotte Wareing,M3,Great Britain,98.65,152.5,162.5,170,170,85,90,92.5,92.5,170,180,182.5,182.5,445,100,F,,1962,Multi-ply,SBD
 1,Dominik Filip,T2,Czech Republic,59.05,-110,125,-135,125,60,70,-75,70,135,155.5,157.5,157.5,352.5,60,M,,2000,Multi-ply,SBD
@@ -124,10 +124,10 @@ DQ,Alexandre Saingery,O,France,88.3,-215,-215,-215,,,,,,,,,,,90,M,,1988,Wraps,SB
 1,Tomasz Bejgrowicz,O,Poland,99.35,120,140,160,160,120,135,142.5,142.5,160,-180,200,200,502.5,100,M,,1979,Multi-ply,SBD
 1,Libor Hurdálek,M5,Czech Republic,99.35,220,-240,-240,220,150,155,-160,155,200,210,220,220,595,100,M,,1954,Multi-ply,SBD
 1,Filip Pilný,T3,Czech Republic,107.25,225,245,-260,245,120,135,140,140,180,200,-215,200,585,110,M,,1998,Multi-ply,SBD
-DQ,Jan Velgos,T2,Slovak Republic,120.5,-330,330,345,345,-305,-305,-305,,,,,,,125,M,,2001,Multi-ply,SBD
+DQ,Ján Velgos,T2,Slovak Republic,120.5,-330,330,345,345,-305,-305,-305,,,,,,,125,M,,2001,Multi-ply,SBD
 1,Andrew Cairney,O,Great Britain,125,100,,,100,100,,,100,300,,,300,500,125,M,,1979,Multi-ply,SBD
 DQ,Eric Bar,M2,France,111.25,-215,215,230,230,-210,-210,-210,,,,,,,125,M,,1969,Multi-ply,SBD
-1,Jiři Svozil,M5,Czech Republic,110.95,145,155,162.5,162.5,60,70,75,75,180,200,,200,437.5,125,M,,1954,Multi-ply,SBD
+1,Jiří Svozil,M5,Czech Republic,110.95,145,155,162.5,162.5,60,70,75,75,180,200,,200,437.5,125,M,,1954,Multi-ply,SBD
 1,Anita Grądzka,O,Poland,43.1,,,,,55,60,65,65,,,,,65,44,F,,1984,Raw,B
 1,Olga Matysiak,T1,Poland,48,,,,,25,30,35,35,,,,,35,48,F,,2003,Raw,B
 1,Kseniya Voloshina,O,Ukraine,46.5,,,,,57.5,62.5,65,65,,,,,65,48,F,Ксенія Волошина,1985,Raw,B
@@ -143,7 +143,7 @@ DQ,Eric Bar,M2,France,111.25,-215,215,230,230,-210,-210,-210,,,,,,,125,M,,1969,M
 1,Carmena Luty,T2,Poland,72.1,,,,,55,60,62.5,62.5,,,,,62.5,75,F,,1999,Raw,B
 1,Anzela Romanovica,M3,Latvia,71.95,,,,,80,90,95,95,,,,,95,75,F,,1963,Raw,B
 1,Mila Jakolevic,M5,Serbia,74.85,,,,,45,50,-56,50,,,,,50,75,F,,1954,Raw,B
-1,Tatiana Magulova,O,Slovak Republic,76.6,,,,,70,75,-77.5,75,,,,,75,82.5,F,,1981,Raw,B
+1,Tatiana Magulová,O,Slovak Republic,76.6,,,,,70,75,-77.5,75,,,,,75,82.5,F,,1981,Raw,B
 1,Minna Pajulahti,O,Finland,82.75,,,,,110,-115,-122.5,110,,,,,110,90,F,,1981,Raw,B
 1,Krystyna Puzio,M3,Poland,94.85,,,,,55,60,-62.5,60,,,,,60,100,F,,1965,Raw,B
 1,Michal Zembrowski,O,Poland,55.95,,,,,90,95,100,100,,,,,100,56,M,,1991,Raw,B
@@ -152,7 +152,7 @@ DQ,Eric Bar,M2,France,111.25,-215,215,230,230,-210,-210,-210,,,,,,,125,M,,1969,M
 1,Witold Tarkowski,M7,Poland,60,,,,,45,50,52.5,52.5,,,,,52.5,60,M,,1944,Raw,B
 1,Jakub Chrzanowski,T3,Poland,66.4,,,,,157.5,170,-175,170,,,,,170,67.5,M,,1997,Raw,B
 1,Bartosz Słodek,O,Poland,67.25,,,,,-115,120,-122.5,120,,,,,120,67.5,M,,1977,Raw,B
-2,Jiři Lacina,O,Czech Republic,62.55,,,,,95,105,110,110,,,,,110,67.5,M,,1991,Raw,B
+2,Jiří Lacina,O,Czech Republic,62.55,,,,,95,105,110,110,,,,,110,67.5,M,,1991,Raw,B
 3,Mete Betermin,O,France,67.15,,,,,105,-115,-115,105,,,,,105,67.5,M,,1987,Raw,B
 1,Ireneusz Rosak,M2,Poland,67.5,,,,,100,105,110,110,,,,,110,67.5,M,,1970,Raw,B
 1,Antoni Kaliński,M5,Poland,66.75,,,,,100,105,107.5,107.5,,,,,107.5,67.5,M,,1953,Raw,B
@@ -169,7 +169,7 @@ DQ,Eric Bar,M2,France,111.25,-215,215,230,230,-210,-210,-210,,,,,,,125,M,,1969,M
 1,Wiesław Kiwacki,M1,Poland,74.8,,,,,135,142.5,-155,142.5,,,,,142.5,75,M,,1976,Raw,B
 1,Zbigniew Gulajski,M2,Poland,71,,,,,130,135,-140,135,,,,,135,75,M,,1971,Raw,B
 2,Boško Stamenkovski,M2,Macedonia,72.55,,,,,125,130,-136,130,,,,,130,75,M,,1971,Raw,B
-1,Adriano Da Costa,M3,France,73.3,,,,,117.5,122.5,127.5,127.5,,,,,127.5,75,M,,1963,Raw,B
+1,Adriano DaCosta,M3,France,73.3,,,,,117.5,122.5,127.5,127.5,,,,,127.5,75,M,,1963,Raw,B
 1,József Németh,M4,Hungary,73.55,,,,,105,110,112.5,112.5,,,,,112.5,75,M,,1958,Raw,B
 2,Jacky Dubus,M4,France,71.7,,,,,100,-105,-105,100,,,,,100,75,M,,1961,Raw,B
 1,Zbigniew Koper,M5,Poland,74.85,,,,,95,102.5,107.5,107.5,,,,,107.5,75,M,,1953,Raw,B
@@ -194,7 +194,7 @@ DQ,Eric Bar,M2,France,111.25,-215,215,230,230,-210,-210,-210,,,,,,,125,M,,1969,M
 4,Ryszard Śliwiński,M6,Poland,75.1,,,,,67.5,72.5,-75,72.5,,,,,72.5,82.5,M,,1950,Raw,B
 1,Sylwester Kubacki,M7,Poland,80.75,,,,,80,85,-87.5,85,,,,,85,82.5,M,,1944,Raw,B
 1,Wiesław Dąbrowski,M8,Poland,76.55,,,,,40,45,-50,45,,,,,45,82.5,M,,1940,Raw,B
-1,Matej Syrovátka,T3,Czech Republic,89.9,,,,,160,172.5,181,181,,,,,181,90,M,,1998,Raw,B
+1,Matěj Syrovátka,T3,Czech Republic,89.9,,,,,160,172.5,181,181,,,,,181,90,M,,1998,Raw,B
 2,Stojancho Atanasov,T3,Macedonia,82.95,,,,,140,145,150,150,,,,,150,90,M,,1998,Raw,B
 1,Krystian Piotrak,J,Poland,89.9,,,,,180,190,195,195,,,,,195,90,M,,1995,Raw,B
 2,Dairis Leonovics,J,Latvia,84.25,,,,,160,165,-167.5,165,,,,,165,90,M,,1994,Raw,B
@@ -203,12 +203,12 @@ DQ,Eric Bar,M2,France,111.25,-215,215,230,230,-210,-210,-210,,,,,,,125,M,,1969,M
 3,Eric Baton,O,France,84.3,,,,,135,145,-150,145,,,,,145,90,M,,1983,Raw,B
 1,Krzysztof Klimaszewski,M1,Poland,83.65,,,,,140,150,167.5,167.5,,,,,167.5,90,M,,1976,Raw,B
 2,Pavol Glovacký,M1,Slovak Republic,82.7,,,,,115,122.5,127.5,127.5,,,,,127.5,90,M,,1977,Raw,B
-1,István Gyuricska,M3,Hungary,82.8,,,,,150,155,,155,,,,,155,90,M,,1967,Raw,B
+1,István Gyuricska Jr,M3,Hungary,82.8,,,,,150,155,,155,,,,,155,90,M,,1967,Raw,B
 2,Arkadij Mazur,M3,Germany,90,,,,,125,130,135,135,,,,,135,90,M,,1966,Raw,B
 3,Luc Grandjean,M3,France,88.7,,,,,110,120,-125,120,,,,,120,90,M,,1966,Raw,B
 1,François Denis Jean,M5,France,88.25,,,,,165,170,176,176,,,,,176,90,M,,1956,Raw,B
 2,Zbigniew Cabaj,M5,Poland,88.75,,,,,120,130,-135,130,,,,,130,90,M,,1955,Raw,B
-1,Jozef Völgyak,M6,Slovak Republic,88.15,,,,,130,135,140,140,,,,,140,90,M,,1951,Raw,B
+1,Jozef Völgyák,M6,Slovak Republic,88.15,,,,,130,135,140,140,,,,,140,90,M,,1951,Raw,B
 2,Kazimierz Tamiłowski,M6,Poland,84.1,,,,,132.5,137.5,-140,137.5,,,,,137.5,90,M,,1948,Raw,B
 3,Stefan Sochański,M6,Poland,89.7,,,,,87.5,92.5,,92.5,,,,,92.5,90,M,,1948,Raw,B
 1,Jakub Świerzko,T1,Poland,91.8,,,,,90,97.5,-105,97.5,,,,,97.5,100,M,,2001,Raw,B
@@ -230,7 +230,7 @@ DQ,Adam Sobek,J,Slovak Republic,94.8,,,,,-160,-160,-160,,,,,,,100,M,,1995,Raw,B
 2,Wldemar Joznik,M5,Poland,95.5,,,,,80,85,90,90,,,,,90,100,M,,1952,Raw,B
 1,Marc Assirelli,M6,France,98.2,,,,,130,-135,135,135,,,,,135,100,M,,1948,Raw,B
 1,Mirosław Orłowski,M7,Poland,97.2,,,,,135,-140,-140,135,,,,,135,100,M,,1943,Raw,B
-1,Robert Majoros,J,Hungary,105.4,,,,,190,200,210,210,,,,,210,110,M,,1994,Raw,B
+1,Róbert Majoros,J,Hungary,105.4,,,,,190,200,210,210,,,,,210,110,M,,1994,Raw,B
 1,Kamil Pilarski,J,Poland,100.2,,,,,190,200,-210,200,,,,,200,110,M,,1994,Raw,B
 1,Jason Torche,O,Great Britain,108.05,,,,,190,205,-210,205,,,,,205,110,M,,1985,Raw,B
 2,Krzysztof Celiński,O,Poland,108.6,,,,,190,202.5,-205,202.5,,,,,202.5,110,M,,1985,Raw,B
@@ -257,7 +257,7 @@ DQ,Péter Forgács,O,Hungary,107.25,,,,,-200,,,,,,,,,110,M,,1989,Raw,B
 1,Olaf Engler,M2,Poland,114,,,,,130,137.5,-140,137.5,,,,,137.5,125,M,,1971,Raw,B
 1,Peter Szabó,M3,Slovak Republic,121.8,,,,,155,-162.5,162.5,162.5,,,,,162.5,125,M,,1964,Raw,B
 2,Freyr Runarsson Gunnar,M3,Iceland,115.3,,,,,132.5,145,155,155,,,,,155,125,M,,1965,Raw,B
-1,Baldvin Skulason,M5,Iceland,117.4,,,,,-180.5,180.5,190,190,,,,,190,125,M,,1957,Raw,B
+1,Baldvin Skúlason,M5,Iceland,117.4,,,,,-180.5,180.5,190,190,,,,,190,125,M,,1957,Raw,B
 1,Marcin Sokolowski,T3,Poland,133.5,,,,,190,-200,-200,190,,,,,190,140,M,,1997,Raw,B
 1,Vasilij Mazur,O,Moldova,127.1,,,,,205,220,227.5,227.5,,,,,227.5,140,M,,1984,Raw,B
 2,Marek Makarewicz,O,Poland,132.6,,,,,220,225,-227.5,225,,,,,225,140,M,,1979,Raw,B
@@ -266,20 +266,20 @@ DQ,Péter Forgács,O,Hungary,107.25,,,,,-200,,,,,,,,,110,M,,1989,Raw,B
 1,Ján Orosz,M3,Slovak Republic,132.9,,,,,205,215,220.5,220.5,,,,,220.5,140,M,,1964,Raw,B
 2,László Vass,M3,Hungary,140,,,,,195,200,-205,200,,,,,200,140,M,,1964,Raw,B
 1,Piotr Redzik Paweł,M5,Poland,125.8,,,,,120,130,140,140,,,,,140,140,M,,1957,Raw,B
-1,Aleksandar Ilić,O,Serbia,143.2,,,,,250,260,-265,260,,,,,260,140,M,,1992,Raw,B
-2,Romuald Massé Johanna,O,France,142.4,,,,,240,250,-260,250,,,,,250,140,M,,1992,Raw,B
-3,Adam Švehla,O,Czech Republic,142.7,,,,,205,212.5,-220,212.5,,,,,212.5,140,M,,1981,Raw,B
+1,Aleksandar Ilić,O,Serbia,143.2,,,,,250,260,-265,260,,,,,260,140+,M,,1992,Raw,B
+2,Romuald Massé Johanna,O,France,142.4,,,,,240,250,-260,250,,,,,250,140+,M,,1992,Raw,B
+3,Adam Švehla,O,Czech Republic,142.7,,,,,205,212.5,-220,212.5,,,,,212.5,140+,M,,1981,Raw,B
 1,Aleksandar Tošić,J,Serbia,65.75,,,,,90,-95,-95,90,,,,,90,67.5,M,,1994,Multi-ply,B
 1,Hans Klein,M8,Germany,66.35,,,,,95,100,105,105,,,,,105,67.5,M,,1941,Multi-ply,B
 1,Dawid Urbanowicz,T2,Poland,73.7,,,,,110,-120,120,120,,,,,120,75,M,,1999,Multi-ply,B
 1,Krzysztof Wolszczak,O,Poland,73.55,,,,,140,-150,-155,140,,,,,140,75,M,,1985,Multi-ply,B
-1,Kari Elison,M5,Iceland,72.8,,,,,-137.5,-137.5,137.5,137.5,,,,,137.5,75,M,,1953,Multi-ply,B
+1,Kári Elíson,M5,Iceland,72.8,,,,,-137.5,-137.5,137.5,137.5,,,,,137.5,75,M,,1953,Multi-ply,B
 1,Joannis Sulime,M6,France,74.05,,,,,120,125,130,130,,,,,130,75,M,,1951,Multi-ply,B
 1,Dominik Wasilkiewicz,T2,Poland,77.2,,,,,90,-100,-100,90,,,,,90,82.5,M,,2000,Multi-ply,B
 1,Ilkka Naskali,O,Finland,82.2,,,,,190,205,-215,205,,,,,205,82.5,M,,1983,Multi-ply,B
 DQ,Pavol Glovacký,M1,Slovak Republic,81.95,,,,,-160,-165,-165,,,,,,,82.5,M,,1977,Multi-ply,B
 1,Saša Antić,M2,Serbia,76.55,,,,,120,-140,,120,,,,,120,82.5,M,,1972,Multi-ply,B
-1,István Gyuricska,M3,Hungary,82.35,,,,,160,170,175,175,,,,,175,82.5,M,,1967,Multi-ply,B
+1,István Gyuricska Jr,M3,Hungary,82.35,,,,,160,170,175,175,,,,,175,82.5,M,,1967,Multi-ply,B
 1,Martin Heindl,M5,Austria,75.65,,,,,105,110,112.5,112.5,,,,,112.5,82.5,M,,1955,Multi-ply,B
 1,Gerd Müller,M6,Germany,81.8,,,,,120,130,135,135,,,,,135,82.5,M,,1952,Multi-ply,B
 1,Franz Haar,M6,Austria,75.45,,,,,102.5,107.5,110,110,,,,,110,82.5,M,,1947,Multi-ply,B
@@ -288,10 +288,10 @@ DQ,Pavol Glovacký,M1,Slovak Republic,81.95,,,,,-160,-165,-165,,,,,,,82.5,M,,197
 1,Miliza Antić,M2,Serbia,88.2,,,,,120,-160,170,170,,,,,170,90,M,,1970,Multi-ply,B
 1,Luc Grandjean,M3,France,89.2,,,,,-147.5,147.5,-155,147.5,,,,,147.5,90,M,,1966,Multi-ply,B
 1,Florián Dolán,M4,Slovak Republic,82.85,,,,,-140,140,-150,140,,,,,140,90,M,,1962,Multi-ply,B
-1,Jozef Völgyak,M6,Slovak Republic,88.2,,,,,150,155,160,160,,,,,160,90,M,,1951,Multi-ply,B
+1,Jozef Völgyák,M6,Slovak Republic,88.2,,,,,150,155,160,160,,,,,160,90,M,,1951,Multi-ply,B
 2,Kazimierz Tamiłowski,M6,Poland,84.05,,,,,150,157.5,-160,157.5,,,,,157.5,90,M,,1948,Multi-ply,B
 1,Stefan Sochonski,M6,Poland,89.25,,,,,105,112.5,,112.5,,,,,112.5,90,M,,1948,Multi-ply,B
-1,Tomáš Křiž,O,Slovak Republic,99.2,,,,,-280,280,-300,280,,,,,280,100,M,,1992,Multi-ply,B
+1,Tomáš Kríž,O,Slovak Republic,99.2,,,,,-280,280,-300,280,,,,,280,100,M,,1992,Multi-ply,B
 2,Krzysztof Zakrzewski,O,Poland,99.05,,,,,250,260,-280,260,,,,,260,100,M,,1977,Multi-ply,B
 3,Dawid Deptuch,O,Poland,92.55,,,,,230,-250,,230,,,,,230,100,M,,1986,Multi-ply,B
 4,Elias Dobrowolski,O,Germany,93.75,,,,,190,200,-232.5,200,,,,,200,100,M,,1988,Multi-ply,B
@@ -301,13 +301,13 @@ DQ,Pavol Glovacký,M1,Slovak Republic,81.95,,,,,-160,-165,-165,,,,,,,82.5,M,,197
 1,Andrew Saunders,M2,Great Britain,105.05,,,,,-230,230,250,250,,,,,250,110,M,,1967,Multi-ply,B
 1,Jan Gołąbek,M4,Poland,109.55,,,,,160,170,-180,170,,,,,170,110,M,,1958,Multi-ply,B
 1,Hans-Ulrich Vetter,M6,Germany,107.4,,,,,180,190,200,200,,,,,200,110,M,,1952,Multi-ply,B
-1,Jan Velgos,T2,Slovak Republic,122.85,,,,,300,310,-320,310,,,,,310,125,M,,2001,Multi-ply,B
+1,Ján Velgos,T2,Slovak Republic,122.85,,,,,300,310,-320,310,,,,,310,125,M,,2001,Multi-ply,B
 1,Piotr Šlapa,O,Poland,120.25,,,,,265,-280,-280,265,,,,,265,125,M,,1983,Multi-ply,B
 2,Michal Niestroj,O,Poland,117.45,,,,,-220,220,-230,220,,,,,220,125,M,,1980,Multi-ply,B
 1,Mirosław Zakrzewski,M1,Poland,119.9,,,,,245,255,-265,255,,,,,255,125,M,,1974,Multi-ply,B
 1,Eric Bar,M2,France,117.18,,,,,205,-215,,205,,,,,205,125,M,,1969,Multi-ply,B
 1,Gunnar Runnarsson,M3,Iceland,115.5,,,,,135,142.5,147.5,147.5,,,,,147.5,125,M,,1965,Multi-ply,B
-1,Baldvin Skulason,M5,Iceland,116.45,,,,,225,235,-242.5,235,,,,,235,125,M,,1957,Multi-ply,B
+1,Baldvin Skúlason,M5,Iceland,116.45,,,,,225,235,-242.5,235,,,,,235,125,M,,1957,Multi-ply,B
 1,Toivo Ihalainen Jani,M1,Finland,125.6,,,,,200,-220,,200,,,,,200,140,M,,1975,Multi-ply,B
 1,Weronika Szczytyńska,J,Poland,70.55,110,-120,120,120,,,,,,,,,120,75,F,,1994,Wraps,S
 1,Daniel Gnatowski,T3,Poland,67.15,140,150,-170,150,,,,,,,,,150,67.5,M,,1998,Wraps,S
@@ -316,11 +316,11 @@ DQ,Damian Krasucki,J,Poland,62.1,,,,,,,,,,,,,,67.5,M,,1995,Wraps,S
 1,Łukasz Górecki,O,Poland,66.8,-165,165,175,175,,,,,,,,,175,67.5,M,,1983,Wraps,S
 1,Ivan Giňovský,M3,Slovak Republic,89.6,220,232.5,-250.5,232.5,,,,,,,,,232.5,90,M,,1967,Wraps,S
 1,Józef Bejgrowicz,M5,Poland,83.8,150,170,,170,,,,,,,,,170,90,M,,1952,Wraps,S
-1,Martin Hurdalek,O,Czech Republic,98.7,230,-250,-250,230,,,,,,,,,230,100,M,,1978,Wraps,S
+1,Martin Hurdálek,O,Czech Republic,98.7,230,-250,-250,230,,,,,,,,,230,100,M,,1978,Wraps,S
 DQ,Rafał Biedrzycki,J,Poland,108,-170,-170,-170,,,,,,,,,,,110,M,,1998,Wraps,S
 1,Patryk Łazor,J,Poland,123,260,280,300,300,,,,,,,,,300,125,M,,1993,Wraps,S
-1,Jiři Svozil,M5,Czech Republic,110.95,140,,,140,,,,,,,,,140,125,M,,1954,Wraps,S
-1,Przemysław Górnicki,O,Poland,147.7,-280,280,300,300,,,,,,,,,300,140,M,,1990,Wraps,S
+1,Jiří Svozil,M5,Czech Republic,110.95,140,,,140,,,,,,,,,140,125,M,,1954,Wraps,S
+1,Przemysław Górnicki,O,Poland,147.7,-280,280,300,300,,,,,,,,,300,140+,M,,1990,Wraps,S
 1,Rehana Manhar,M1,Ireland,67.5,150,182.5,-200,182.5,,,,,,,,,182.5,67.5,F,,1974,Multi-ply,S
 1,Catherine Iredale,O,Great Britain,110,130,150,160,160,,,,,,,,,160,110,F,,1991,Multi-ply,S
 1,Aleksandar Tošić,J,Serbia,66.1,-80,80,-110,80,,,,,,,,,80,67.5,M,,1994,Multi-ply,S
@@ -357,13 +357,13 @@ DQ,Rafał Biedrzycki,J,Poland,108,-170,-170,-170,,,,,,,,,,,110,M,,1998,Wraps,S
 1,Krystian Zawadzki,T2,Poland,61.8,,,,,,,,,120,-130,-131,120,120,67.5,M,,2000,Raw,D
 1,Kamil Olewicz,J,Poland,67.5,,,,,,,,,190,197.5,202.5,202.5,202.5,67.5,M,,1994,Raw,D
 1,Antoni Kaliński,M5,Poland,67.5,,,,,,,,,130,140,-142.5,140,140,67.5,M,,1953,Raw,D
-1,Dominik Minarik,T2,Slovak Republic,74.45,,,,,,,,,180,195,206,206,206,75,M,,1999,Raw,D
+1,Dominik Minárik,T2,Slovak Republic,74.45,,,,,,,,,180,195,206,206,206,75,M,,1999,Raw,D
 2,Nikola Stanković,T2,Serbia,71.5,,,,,,,,,145,155,162.5,162.5,162.5,75,M,,2000,Raw,D
 3,Dawid Urbanowicz,T2,Poland,73.55,,,,,,,,,140,150,-162.5,150,150,75,M,,1999,Raw,D
 1,Daniel Gnatowski,T3,Poland,70.85,,,,,,,,,150,170,180,180,180,75,M,,1998,Raw,D
 1,Tomasz Miloch,O,Poland,74.95,,,,,,,,,225,240,245,245,245,75,M,,1983,Raw,D
 2,Andriy Avdeev,O,Ukraine,74.3,,,,,,,,,200,210,-215,210,210,75,M,Андрій Авдеєв,1983,Raw,D
-1,Adriano Da Costa,M3,France,73.05,,,,,,,,,223,230,-237.5,230,230,75,M,,1963,Raw,D
+1,Adriano DaCosta,M3,France,73.05,,,,,,,,,223,230,-237.5,230,230,75,M,,1963,Raw,D
 1,Ryszard Śliwiński,M6,Poland,74.45,,,,,,,,,140,150,155,155,155,75,M,,1950,Raw,D
 1,Michel Desforges,M7,France,72.2,,,,,,,,,130,137.5,142.5,142.5,142.5,75,M,,1944,Raw,D
 1,Konrad Majocha,T3,Poland,82.45,,,,,,,,,200,-220.5,-220.5,200,200,82.5,M,,1998,Raw,D
@@ -376,7 +376,7 @@ DQ,Rafał Biedrzycki,J,Poland,108,-170,-170,-170,,,,,,,,,,,110,M,,1998,Wraps,S
 1,Zbigniew Koper,M5,Poland,75.5,,,,,,,,,150,160,165,165,165,82.5,M,,1953,Raw,D
 2,Jean Palicot,M5,France,77,,,,,,,,,145,160,-167.5,160,160,82.5,M,,1953,Raw,D
 1,William Healy,M6,Ireland,81.25,,,,,,,,,225,-230,230,230,230,82.5,M,,1950,Raw,D
-1,Matej Syrovátka,T3,Czech Republic,89.6,,,,,,,,,260,280,-290,280,280,90,M,,1998,Raw,D
+1,Matěj Syrovátka,T3,Czech Republic,89.6,,,,,,,,,260,280,-290,280,280,90,M,,1998,Raw,D
 2,Stojancho Atanasov,T3,Macedonia,83.55,,,,,,,,,200,220,-240,220,220,90,M,,1998,Raw,D
 1,Jozef Keszocze,O,Czech Republic,89.3,,,,,,,,,-230,240,-250,240,240,90,M,,1992,Raw,D
 2,Alexandre Saingery,O,France,89.45,,,,,,,,,225,240,-247.5,240,240,90,M,,1988,Raw,D
@@ -384,7 +384,7 @@ DQ,Rafał Biedrzycki,J,Poland,108,-170,-170,-170,,,,,,,,,,,110,M,,1998,Wraps,S
 1,Oleg Fistican,M1,Moldova,87.75,,,,,,,,,210,225,-227.5,225,225,90,M,,1973,Raw,D
 1,Zbigniew Cabaj,M5,Poland,88.95,,,,,,,,,-180,180,200,200,200,90,M,,1955,Raw,D
 1,Kazimierz Jasiński,M7,Poland,85.2,,,,,,,,,185,192.5,,192.5,192.5,90,M,,1947,Raw,D
-1,Zoltan Jurko,M8,Slovak Republic,83.7,,,,,,,,,102.5,115,122.5,122.5,122.5,90,M,,1940,Raw,D
+1,Zoltán Jurko,M8,Slovak Republic,83.7,,,,,,,,,102.5,115,122.5,122.5,122.5,90,M,,1940,Raw,D
 1,Radosław Wąs,T1,Poland,99,,,,,,,,,170,185,-195,185,185,100,M,,2002,Raw,D
 2,Jakub Świerzko,T1,Poland,90.35,,,,,,,,,150,165,167.5,167.5,167.5,100,M,,2001,Raw,D
 1,Adam Sobek,J,Slovak Republic,96.45,,,,,,,,,200,215,-230,215,215,100,M,,1995,Raw,D
@@ -419,8 +419,8 @@ DQ,Rafał Biedrzycki,J,Poland,108,-170,-170,-170,,,,,,,,,,,110,M,,1998,Wraps,S
 1,Robert Nemś,M2,Poland,132.4,,,,,,,,,300,315,322.5,322.5,322.5,140,M,,1969,Raw,D
 2,Franck Loup,M2,France,131.7,,,,,,,,,240,260,-275,260,260,140,M,,1968,Raw,D
 1,Paweł Redzik Piotr,M5,Poland,125.8,,,,,,,,,180,200,225,225,225,140,M,,1957,Raw,D
-1,Adam Švehla,O,Czech Republic,142.5,,,,,,,,,300,312.5,-317.5,312.5,312.5,140,M,,1981,Raw,D
-1,Jan Drzazgowski,M4,Poland,141.1,,,,,,,,,230,260,-275,260,260,140,M,,1959,Raw,D
+1,Adam Švehla,O,Czech Republic,142.5,,,,,,,,,300,312.5,-317.5,312.5,312.5,140+,M,,1981,Raw,D
+1,Jan Drzazgowski,M4,Poland,141.1,,,,,,,,,230,260,-275,260,260,140+,M,,1959,Raw,D
 1,Karin Heindl,M5,Austria,54.3,,,,,,,,,85,95,100,100,100,56,F,,1957,Multi-ply,D
 1,Julie Davis,M1,Great Britain,63.5,,,,,,,,,145,-155,-155,145,145,67.5,F,,1976,Multi-ply,D
 1,Minna Pajulahti,O,Finland,82.65,,,,,,,,,65,,,65,65,90,F,,1981,Multi-ply,D
@@ -430,7 +430,7 @@ DQ,Rafał Biedrzycki,J,Poland,108,-170,-170,-170,,,,,,,,,,,110,M,,1998,Wraps,S
 1,Aleksandar Tošić,O,Serbia,65.75,,,,,,,,,100,110,130,130,130,67.5,M,,1994,Multi-ply,D
 1,Srdjan Trifunovic,M1,Serbia,65.1,,,,,,,,,200,-220,-220,200,200,67.5,M,,1973,Multi-ply,D
 1,Marko Rudy,J,Slovak Republic,73.65,,,,,,,,,200,215,220,220,220,75,M,,1996,Multi-ply,D
-1,Kari Elison,M5,Iceland,72.8,,,,,,,,,220,-235.5,-235.5,220,220,75,M,,1953,Multi-ply,D
+1,Kári Elíson,M5,Iceland,72.8,,,,,,,,,220,-235.5,-235.5,220,220,75,M,,1953,Multi-ply,D
 1,Joni Orpana,O,Finland,78,,,,,,,,,270,-285.5,-285.5,270,270,82.5,M,,1988,Multi-ply,D
 2,Ben Kelly,O,Ireland,82.5,,,,,,,,,230,250,-272.5,250,250,82.5,M,,1980,Multi-ply,D
 1,Martin Heindl,M5,Austria,75.65,,,,,,,,,185,200,213.5,213.5,213.5,82.5,M,,1955,Multi-ply,D
@@ -441,7 +441,7 @@ DQ,Jozef Keszocze,O,Czech Republic,88.7,,,,,,,,,-250,-250,,,,90,M,,1992,Multi-pl
 1,Stanislav Pryakhin,M1,Russia,86.4,,,,,,,,,280,-310.5,,280,280,90,M,Станислав Пряхин,1975,Multi-ply,D
 1,Miliza Antić,M2,Serbia,88.2,,,,,,,,,170,,,170,170,90,M,,1970,Multi-ply,D
 1,Stefan Sochański,M6,Poland,89.25,,,,,,,,,215,240,,240,240,90,M,,1948,Multi-ply,D
-1,Richard Sos,J,Czech Republic,93.9,,,,,,,,,240,255,-270,255,255,100,M,,1996,Multi-ply,D
+1,Richard Šos,J,Czech Republic,93.9,,,,,,,,,240,255,-270,255,255,100,M,,1996,Multi-ply,D
 1,Ernő Eck,J,Hungary,92.15,,,,,,,,,225,-235,,225,225,100,M,,1994,Multi-ply,D
 1,Fabrice Benchabane,M2,France,97.35,,,,,,,,,240,250,-260,250,250,100,M,,1971,Multi-ply,D
 1,Mehdi Mohammed Ait,O,France,102,,,,,,,,,280,300,305,305,305,110,M,,1987,Multi-ply,D
