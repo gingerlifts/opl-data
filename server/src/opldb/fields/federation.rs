@@ -394,6 +394,7 @@ impl MetaFederation {
             MetaFederation::AllRussia => {
                 meet.federation == Federation::BB
                     || meet.federation == Federation::FPR
+                    || meet.federation == Federation::GPCRUS
                     || meet.federation == Federation::NAP
                     || meet.federation == Federation::SCT
                     || meet.federation == Federation::WPCRUS
