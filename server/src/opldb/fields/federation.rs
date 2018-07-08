@@ -274,6 +274,8 @@ pub enum MetaFederation {
     AllAustralia,
     #[strum(to_string = "all-canada")]
     AllCanada,
+    #[strum(to_string = "all-czechia")]
+    AllCzechia,
     #[strum(to_string = "all-finland")]
     AllFinland,
     #[strum(to_string = "all-germany")]
