@@ -166,8 +166,8 @@ pub enum Federation {
     NZPF,
     #[strum(to_string = "OceaniaPF", serialize = "oceaniapf")]
     OceaniaPF,
-    #[strum(to_string = "OS", serialize = "os")]
-    OS,
+    #[strum(to_string = "OlomouckySilak", serialize = "olomouckysilak")]
+    OlomouckySilak,
     #[strum(to_string = "ParaPL", serialize = "parapl")]
     ParaPL,
     #[strum(to_string = "PA", serialize = "pa")]
@@ -390,7 +390,7 @@ impl MetaFederation {
             MetaFederation::AllCzechia => {
                 meet.federation == Federation::CAST 
                     || meet.federation == Federation::CSST
-                    || meet.federation == Federation::OS                    
+                    || meet.federation == Federation::OlomouckySilak                    
             }
             MetaFederation::AllFinland => {
                 meet.federation == Federation::FPO || meet.federation == Federation::SVNL
