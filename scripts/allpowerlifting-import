@@ -1,6 +1,6 @@
-# !/usr/bin/env python3
-# vim: set ts=8 sts=4 et sw=4 tw=99:
-#
+#!/usr/bin/env python3
+
+
 # Import data from the AllPowerlifting website. This script should only be used
 # for meets where AllPowerlifting is the primary source.
 
@@ -97,13 +97,11 @@ def getmeetinfo(soup):
 def getresults(soup, url):
     csv = Csv()
 
-    subpages = soup.find('ul', id='pldb-table-subs')
-    links = subpages.find_all('a')
 
     if '?all_attempts=1' not in url:
         url = url + '?all_attempts=1'
 
-    div_name = re.sub('\(.*?\)', '', subpages.find('li').text).strip()
+
 
     subpage_html = gethtml(url)
 
@@ -129,11 +127,18 @@ def getresults(soup, url):
 
         csv.rows[ii][byidx] = birthyears[ii]
 
-    csv.append_column('SheetName')
-    for row in csv.rows:
-        row[-1] = div_name
 
-    if len(links) > 1:
+    subpages = soup.find('ul', id='pldb-table-subs')
+
+    if subpages:
+        div_name = re.sub('\(.*?\)', '', subpages.find('li').text).strip()
+        csv.append_column('SheetName')
+        for row in csv.rows:
+            row[-1] = div_name
+
+
+        links = subpages.find_all('a')
+
         for link in links:
             div_name = re.sub('\(.*?\)', '', link.text).strip()
             subpage_ext = link['href'].split('/')[:-1][-1]
@@ -213,7 +218,7 @@ def get_cyrillic_names_and_birthyears(url):
             names.append(name)
 
             if byidx:
-                by = tds[byidx].text
+                by = tds[byidx].text.replace('—','')
             else:
                 by = ''
 
@@ -289,7 +294,9 @@ def getpagedata(soup):
     csv.fieldnames += ['WeightClassKg', 'Sex']
 
     wcstate = None
-    sexstate = None
+
+    # If unspecified assume male and fix later
+    sexstate = 'M'
 
     for tr in trs[1:]:
         row = [x.text for x in tr.find_all('td')]
@@ -307,7 +314,6 @@ def getpagedata(soup):
 
         else:
             assert wcstate
-            assert sexstate
 
             # Accumulate the row, but we need to look at the class of each td
             # to figure out whether lifts were good or bad.
