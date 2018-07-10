@@ -1,0 +1,1094 @@
+Event,Sex,Division,WeightClassLBS,Equipment,Best3BenchLBS,Bench4LBS,Best3DeadliftLBS,Deadlift4LBS,TotalLBS,Name
+B,M,Class 1 Men,148,Single-ply,264.5,,,,264.5,Dave Constantineau
+B,M,Class 1 Men,165,Single-ply,374.7,,,,374.7,Nick Buck
+B,M,Class 1 Men,165,Single-ply,336,,,,336,Andy Kaszubski
+B,M,Class 1 Men,181,Single-ply,,,,,,Scott Rickford
+B,M,Class 1 Men,198,Single-ply,451.7,,,,451.7,Pete Ramundo
+B,M,Class 1 Men,220,Single-ply,462.7,,,,462.7,Don Rygh
+B,M,Class 1 Men,242,Single-ply,440.7,,,,440.7,Fateh Sihota
+B,M,Class 1 Men,259,Single-ply,446.2,,,,446.2,Dennis Rolon
+B,M,Class 1 Men,275,Single-ply,540,,,,540,David Palmer
+B,M,Class 1 Men,275,Single-ply,512.5,,,,512.5,River Newman
+B,M,Class 1 Men,275,Single-ply,314,,,,314,John Solleder
+B,M,Disabled 1 Men 40-59,181,Single-ply,,,,,,Scott Rickford
+B,M,Disabled 1 Men 40-59,220,Single-ply,473.7,,,,473.7,Steve Pena
+B,M,Disabled 2 Men 20-39,275,Single-ply,413.2,,,,413.2,Brady Tanner
+B,M,Disabled 2 Men 60,242,Single-ply,321.7,325,,,321.7,Scott Dolan
+B,M,Disabled 2 Men 60,242,Single-ply,303,,,,303,Bob Brodt
+B,M,Elite Open Men,165,Single-ply,,,,,,Donald Ramil
+B,M,Elite Open Men,198,Single-ply,677.7,,,,677.7,Ryan Marble
+B,M,Elite Open Men,198,Single-ply,655.7,,,,655.7,Jerry Aquino
+B,M,Elite Open Men,198,Single-ply,655.7,,,,655.7,Jerry Aquino
+B,M,Elite Open Men,198,Single-ply,617.2,632.6,,,617.2,Matt Lamarque
+B,M,Elite Open Men,220,Single-ply,777,,,,777,Greg Powell
+B,M,Elite Open Men,309,Single-ply,,,,,,Robert Vick
+B,M,Junior Men 20-25,123,Single-ply,352.5,,,,352.5,Michael Saldivar
+B,M,Junior Men 20-25,148,Single-ply,325,,,,325,Agustin Soto
+B,M,Junior Men 20-25,181,Single-ply,479.5,,,,479.5,Luis Alaniz
+B,M,Junior Men 20-25,181,Single-ply,435.2,,,,435.2,Joseph La Mattina
+B,M,Junior Men 20-25,181,Single-ply,402.2,,,,402.2,Filho Almada
+B,M,Junior Men 20-25,198,Single-ply,402.2,,,,402.2,Ed Young
+B,M,Junior Men 20-25,220,Single-ply,518,,,,518,Jarkko Forss
+B,M,Law-Fire 40-47 Men,220,Single-ply,402.2,,,,402.2,Robert Saludares
+B,M,Law-Fire 40-47 Men,242,Single-ply,617.2,,,,617.2,Freddy Crosby
+B,M,Law-Fire 40-47 Men,242,Single-ply,584,,,,584,Chad Bertelmann
+B,M,Law-Fire 40-47 Men,242,Single-ply,451.7,,,,451.7,Tim Prince
+B,M,Law-Fire 40-47 Men,308,Single-ply,562,,,,562,Keoni Reich
+B,M,Law-Fire 40-47 Men,309,Single-ply,650.2,,,,650.2,Jonathan Koma
+B,M,Law-Fire 48-55 Men,198,Single-ply,,,,,,Frank Lowe
+B,M,Law-Fire 48-55 Men,242,Single-ply,540,,,,540,Joe Gardner
+B,M,Law-Fire 48-55 Men,259,Single-ply,,,,,,J. C. Tolle
+B,M,Law-Fire 48-55 Men,275,Single-ply,501.5,,,,501.5,Darren Kaleleiki
+B,M,Law-Fire 48-55 Men,309,Single-ply,501.5,,,,501.5,Warren Orr
+B,M,Law-Fire 56-63 Men,220,Single-ply,502.6,,,,502.6,Mike Frizzell
+B,M,Law-Fire 64 Men,220,Single-ply,402.2,,,,402.2,Joe Parsons
+B,M,Law-Fire 64 Men,259,Single-ply,325,,,,325,Ed Acey
+B,M,Law-Fire Open Men,198,Single-ply,,,,,,Richard Derengowski
+B,M,Law-Fire Open Men,198,Single-ply,677.7,,,,677.7,Ryan Marble
+B,M,Law-Fire Open Men,242,Single-ply,617.2,,,,617.2,Freddy Crosby
+B,M,Law-Fire Open Men,308,Single-ply,562,,,,562,Keoni Reich
+B,M,Law-Fire Open Men,309,Single-ply,650.2,,,,650.2,Jonathan Koma
+B,M,Law-Fire Submaster Men,198,Single-ply,,,,,,Richard Derengowski
+B,M,Master Men 40-46,165,Single-ply,534.5,,,,534.5,Donald Ramil
+B,M,Master Men 40-46,181,Single-ply,325,,,,325,Shawn Oliphant
+B,M,Master Men 40-46,198,Single-ply,617.2,632.6,,,617.2,Matt Lamarque
+B,M,Master Men 40-46,220,Single-ply,473.7,,,,473.7,Steve Pena
+B,M,Master Men 40-46,220,Single-ply,,,,,,Tony Blas
+B,M,Master Men 40-46,220,Single-ply,,,,,,Coby Washburn
+B,M,Master Men 40-46,220,Single-ply,490.5,,,,490.5,Jesse Avila
+B,M,Master Men 40-46,220,Single-ply,308.5,,,,308.5,Daniel Miller
+B,M,Master Men 40-46,242,Single-ply,584,,,,584,Chad Bertelmann
+B,M,Master Men 40-46,242,Single-ply,440.7,,,,440.7,Michael Botticelli
+B,M,Master Men 40-46,242,Single-ply,440.7,,,,440.7,Fateh Sihota
+B,M,Master Men 40-46,259,Single-ply,457.2,,,,457.2,Allen Heisler
+B,M,Master Men 40-46,275,Single-ply,,,,,,David Lewis
+B,M,Master Men 40-46,308,Single-ply,749.5,,,,749.5,Dave Forstner
+B,M,Master Men 40-46,309,Single-ply,,,,,,Robert Vick
+B,M,Master Men 47-53,148,Single-ply,363.7,,,,363.7,Chris Balanga
+B,M,Master Men 47-53,198,Single-ply,435.2,,,,435.2,Darren Carr
+B,M,Master Men 47-53,220,Single-ply,512.5,,,,512.5,John Westleigh
+B,M,Master Men 47-53,220,Single-ply,468.2,,,,468.2,Gary Gulseth
+B,M,Master Men 47-53,220,Single-ply,418.7,,,,418.7,Junior Aparecido
+B,M,Master Men 47-53,242,Single-ply,,,,,,Michael Neely
+B,M,Master Men 47-53,242,Single-ply,611.7,,,,611.7,James Seaver
+B,M,Master Men 47-53,242,Single-ply,507,,,,507,Lonnie Wilborn
+B,M,Master Men 47-53,242,Single-ply,501.5,,,,501.5,Brant Bishop
+B,M,Master Men 47-53,242,Single-ply,473.7,,,,473.7,Juha Pukkila
+B,M,Master Men 47-53,242,Single-ply,451.7,,,,451.7,Steven Petersen
+B,M,Master Men 47-53,259,Single-ply,545.5,,,,545.5,Mick Quilici
+B,M,Master Men 47-53,275,Single-ply,540,,,,540,David Palmer
+B,M,Master Men 47-53,309,Single-ply,551,,,,551,Scott Bromeisl
+B,M,Master Men 47-53,309,Single-ply,501.5,,,,501.5,Warren Orr
+B,M,Master Men 54-60,132,Single-ply,225.7,,,,225.7,Chetram Mangra
+B,M,Master Men 54-60,148,Single-ply,264.5,,,,264.5,Dave Constantineau
+B,M,Master Men 54-60,181,Single-ply,325,,,,325,Leamon Woodley
+B,M,Master Men 54-60,181,Single-ply,402.2,,,,402.2,Martin Aguirie
+B,M,Master Men 54-60,181,Single-ply,270,,,,270,Pat Young
+B,M,Master Men 54-60,198,Single-ply,479.5,,,,479.5,Jeff Woods
+B,M,Master Men 54-60,198,Single-ply,473.7,,,,473.7,Bob Levering
+B,M,Master Men 54-60,220,Single-ply,,,,,,Ed Macauley
+B,M,Master Men 54-60,220,Single-ply,,,,,,Don Rygh
+B,M,Master Men 54-60,220,Single-ply,600.7,640.3,,,600.7,Kenneth Millrany
+B,M,Master Men 54-60,220,Single-ply,502.6,,,,502.6,Mike Frizzell
+B,M,Master Men 54-60,275,Single-ply,402.2,,,,402.2,Mike Sinner
+B,M,Master Men 54-60,275,Single-ply,314,,,,314,John Solleder
+B,M,Master Men 54-60,309,Single-ply,655.7,,,,655.7,James Mersberg
+B,M,Master Men 61-67,181,Single-ply,325,,,,325,Paul Janoff
+B,M,Master Men 61-67,198,Single-ply,374.7,,,,374.7,Ernest Reyes
+B,M,Master Men 61-67,220,Single-ply,347,,,,347,Nino Murray
+B,M,Master Men 61-67,242,Single-ply,297.5,,,,297.5,Eddie Morgan
+B,M,Master Men 61-67,242,Single-ply,440.7,,,,440.7,Tom Gonnering
+B,M,Master Men 61-67,259,Single-ply,,,,,,Willard Crossen Jr.
+B,M,Master Men 61-67,259,Single-ply,374.7,,,,374.7,John Towne
+B,M,Master Men 61-67,275,Single-ply,314,,,,314,Larry Riskey
+B,M,Master Men 68-74,198,Single-ply,314,,,,314,Dan Swift
+B,M,Master Men 68-74,198,Single-ply,171.8,,,,171.8,Frank Hammer
+B,M,Master Men 68-74,242,Single-ply,336,,,,336,Al Williamson
+B,M,Master Men 75-79,198,Single-ply,176.2,,,,176.2,John Herbein
+B,M,Master Men 80-84,181,Single-ply,181.7,,,,181.7,John Mc Ewen
+B,M,Master Men 80-84,198,Single-ply,303,,,,303,William Prince
+B,M,Master Men 80-84,275,Single-ply,413.2,,,,413.2,Bob Kehl
+B,M,Master Men 90,165,Single-ply,121.2,,,,121.2,Donald Dreyer
+B,M,Master Men 90,165,Single-ply,132.2,,,,132.2,Robert Fornachon
+B,M,Open Men,114,Single-ply,259,,,,259,Landon Sakai
+B,M,Open Men,181,Single-ply,325,,,,325,Leamon Woodley
+B,M,Open Men,181,Single-ply,451.7,,,,451.7,Daniel Sisneros
+B,M,Open Men,181,Single-ply,402.2,,,,402.2,Filho Almada
+B,M,Open Men,198,Single-ply,473.7,,,,473.7,Preston Quinn
+B,M,Open Men,198,Single-ply,540,,,,540,Michael Early
+B,M,Open Men,198,Single-ply,534.5,,,,534.5,Larry Cox
+B,M,Open Men,198,Single-ply,518,,,,518,Jarkko Forss
+B,M,Open Men,220,Single-ply,,,,,,Tyler Carlson
+B,M,Open Men,220,Single-ply,,,,,,Coby Washburn
+B,M,Open Men,220,Single-ply,600.7,,,,600.7,Kenneth Millrany
+B,M,Open Men,220,Single-ply,578.5,,,,578.5,Matthew Arnaldo
+B,M,Open Men,220,Single-ply,551,,,,551,Tony Blas
+B,M,Open Men,220,Single-ply,418.7,,,,418.7,Junior Aparecido
+B,M,Open Men,242,Single-ply,325,,,,325,J. C. Wright
+B,M,Open Men,242,Single-ply,578.5,,,,578.5,Seppo Juntilla
+B,M,Open Men,242,Single-ply,507,,,,507,Lonnie Wilborn
+B,M,Open Men,242,Single-ply,473.7,,,,473.7,Juha Pukkila
+B,M,Open Men,259,Single-ply,545.5,,,,545.5,Mick Quilici
+B,M,Open Men,275,Single-ply,611.7,,,,611.7,Norman Tavares
+B,M,Open Men,275,Single-ply,512.5,,,,512.5,River Newman
+B,M,Open Men,308,Single-ply,755,,,,755,Tim Moon
+B,M,Open Men,308,Single-ply,749.5,,,,749.5,Dave Forstner
+B,M,Open Men,308,Single-ply,540,,,,540,Kamuela Wassman
+B,M,Open Men,309,Single-ply,,,,,,Doug Gerona
+B,M,Open Men,309,Single-ply,826.5,,,,826.5,Darren Elisaga
+B,M,Open Men,309,Single-ply,760.5,,,,760.5,Ray Voigt
+B,M,Open Men,309,Single-ply,655.7,,,,655.7,James Mersberg
+B,M,Open Men,309,Single-ply,551,,,,551,Scott Bromeisl
+B,M,Submaster Men 33-39,198,Single-ply,473.7,,,,473.7,Preston Quinn
+B,M,Submaster Men 33-39,198,Single-ply,655.7,,,,655.7,Jerry Aquino
+B,M,Submaster Men 33-39,242,Single-ply,490.5,,,,490.5,Matt Krueger
+B,M,Submaster Men 33-39,309,Single-ply,826.5,,,,826.5,Darren Elisaga
+B,M,Submaster Men 33-39,309,Single-ply,810,,,,810,Christopher Sutton
+B,M,Teen Men 14-15,132,Single-ply,110,,,,110,Jaden Golston
+B,M,Teen Men 14-15,165,Single-ply,,,,,,Gabriel Campos
+B,M,Teen Men 14-15,198,Single-ply,259,,,,259,Tyler Fields
+B,M,Teen Men 14-15,220,Single-ply,209.2,,,,209.2,Trevor Meder
+B,M,Teen Men 16-17,123,Single-ply,243.6,,,,243.6,Justin Berner
+B,M,Teen Men 16-17,123,Single-ply,121.2,,,,121.2,Julian Kong
+B,M,Teen Men 16-17,165,Single-ply,154.2,,,,154.2,Jacob Chan
+B,M,Teen Men 16-17,181,Single-ply,407.7,,,,407.7,Drayden-Steele Kawewehi
+B,M,Teen Men 16-17,181,Single-ply,325,,,,325,Joshua Olivarez
+B,M,Teen Men 16-17,181,Single-ply,154.2,,,,154.2,Pao-Heng Hsu
+B,M,Teen Men 16-17,198,Single-ply,,,,,,Adam O Sullivan
+B,M,Teen Men 16-17,220,Single-ply,165.2,,,,165.2,Mario Adolfo Valdes-Hernandez
+B,M,Teen Men 18-19,148,Single-ply,192.7,,,,192.7,Jun Yang
+B,M,Teen Men 18-19,165,Single-ply,,,,,,Alex Kovatch
+B,M,Teen Men 18-19,165,Single-ply,165.2,,,,165.2,Pengye Yang
+B,M,Teen Men 18-19,165,Single-ply,143.2,,,,143.2,Shu Hashimoto
+B,M,Teen Men 18-19,220,Single-ply,275.5,,,,275.5,Zepeng Lu
+B,M,Teen Men 18-19,242,Single-ply,391.2,,,,391.2,Yudai Katsumata
+D,M,Class 1 Men,148,Single-ply,,,440.7,,440.7,Dave Constantineau
+D,M,Class 1 Men,165,Single-ply,,,468.2,,468.2,Noah Andersen
+D,M,Class 1 Men,198,Single-ply,,,617.2,,617.2,Marks Labostrie
+D,M,Class 1 Men,220,Single-ply,,,490.5,,490.5,Robert Saludares
+D,M,Class 1 Men,220,Single-ply,,,617.2,,617.2,Brian Fahrenfeld
+D,M,Class 1 Men,242,Single-ply,,,556.5,,556.5,Fateh Sihota
+D,M,Class 1 Men,259,Single-ply,,,512.5,,512.5,Isaac Conde
+D,M,Class 1 Men,259,Single-ply,,,628.2,,628.2,Dennis Rolon
+D,M,Class 1 Men,275,Single-ply,,,523.5,,523.5,River Newman
+D,M,Class 1 Men,275,Single-ply,,,633.7,,633.7,David Palmer
+D,M,Class 1 Men,308,Single-ply,,,584,,584,Fred Riccardi
+D,M,Disabled 1 Men 40-59,220,Single-ply,,,486.1,,486.1,Steve Pena
+D,M,Disabled 2 Men 20-39,275,Single-ply,,,501.5,,501.5,Brady Tanner
+D,M,Disabled 2 Men 40-59,165,Single-ply,,,424.2,,424.2,Chad Mc Farland
+D,M,Disabled 2 Men 40-59,181,Single-ply,,,440.7,447.3,440.7,Vilmar Oliveira
+D,M,Disabled 2 Men 40-59,220,Single-ply,,,501.5,,501.5,Reid Solar
+D,M,Disabled 2 Men 60,220,Single-ply,,,479.5,,479.5,Bob Hafner
+D,M,Disabled 2 Men 60,308,Single-ply,,,281,325,281,Alan Fraser
+D,M,Junior Men 20-25,148,Single-ply,,,600.7,,600.7,Agustin Soto
+D,M,Junior Men 20-25,165,Single-ply,,,341.5,,341.5,Jimi Kuutti
+D,M,Junior Men 20-25,181,Single-ply,,,501.5,,501.5,Joseph La Mattina
+D,M,Junior Men 20-25,181,Single-ply,,,661.2,,661.2,Luis Alaniz
+D,M,Junior Men 20-25,198,Single-ply,,,529,,529,Ed Young
+D,M,Junior Men 20-25,198,Single-ply,,,551,,551,Jarkko Forss
+D,M,Junior Men 20-25,242,Single-ply,,,529,,529,Renan Moreno
+D,M,Law-Fire 40-47 Men,220,Single-ply,,,490.5,,490.5,Robert Saludares
+D,M,Law-Fire 40-47 Men,242,Single-ply,,,556.5,,556.5,Freddy Crosby
+D,M,Law-Fire 40-47 Men,308,Single-ply,,,551,,551,Tommy Harrison
+D,M,Law-Fire 40-47 Men,308,Single-ply,,,684.3,,684.3,Keoni Reich
+D,M,Law-Fire 48-55 Men,165,Single-ply,,,435.2,,435.2,Larry Esquivel
+D,M,Law-Fire 48-55 Men,198,Single-ply,,,452.8,,452.8,Frank Lowe
+D,M,Law-Fire 48-55 Men,259,Single-ply,,,573,,573,J. C. Tolle
+D,M,Law-Fire 48-55 Men,275,Single-ply,,,457.2,,457.2,Darren Kaleleiki
+D,M,Law-Fire 56-63 Men,220,Single-ply,,,,,,Mike Frizzell
+D,M,Law-Fire 56-63 Men,242,Single-ply,,,534.5,,534.5,Robert Hanson
+D,M,Law-Fire Open Men,198,Single-ply,,,562,,562,Ryan Marble
+D,M,Law-Fire Open Men,242,Single-ply,,,534.5,,534.5,Robert Hanson
+D,M,Law-Fire Open Men,242,Single-ply,,,556.5,,556.5,Freddy Crosby
+D,M,Law-Fire Open Men,308,Single-ply,,,551,,551,Tommy Harrison
+D,M,Law-Fire Open Men,308,Single-ply,,,650.2,,650.2,Keoni Reich
+D,M,Master Men 40-46,165,Single-ply,,,424.2,,424.2,Chad Mc Farland
+D,M,Master Men 40-46,220,Single-ply,,,529,,529,Jesse Avila
+D,M,Master Men 40-46,220,Single-ply,,,486.1,,486.1,Steve Pena
+D,M,Master Men 40-46,242,Single-ply,,,556.5,,556.5,Fateh Sihota
+D,M,Master Men 40-46,259,Single-ply,,,600.7,,600.7,Allen Heisler
+D,M,Master Men 40-46,259,Single-ply,,,727.5,,727.5,Kari Pontinen
+D,M,Master Men 40-46,275,Single-ply,,,600.7,,600.7,David Lewis
+D,M,Master Men 40-46,308,Single-ply,,,672.2,,672.2,Dave Forstner
+D,M,Master Men 40-46,309,Single-ply,,,716.2,,716.2,Ricardo Nort
+D,M,Master Men 47-53,148,Single-ply,,,501.5,,501.5,Chris Balanga
+D,M,Master Men 47-53,198,Single-ply,,,600.7,,600.7,Eddie DiFruscia
+D,M,Master Men 47-53,220,Single-ply,,,485,,485,Junior Aparecido
+D,M,Master Men 47-53,220,Single-ply,,,556.5,,556.5,John Westleigh
+D,M,Master Men 47-53,220,Single-ply,,,661.2,,661.2,Tim Sparkes
+D,M,Master Men 47-53,220,Single-ply,,,,,,Gary Gulseth
+D,M,Master Men 47-53,242,Single-ply,,,507,,507,Juha Pukkila
+D,M,Master Men 47-53,242,Single-ply,,,551,,551,Steven Petersen
+D,M,Master Men 47-53,242,Single-ply,,,573,,573,Brant Bishop
+D,M,Master Men 47-53,242,Single-ply,,,,,,Michael Neely
+D,M,Master Men 47-53,275,Single-ply,,,633.7,,633.7,David Palmer
+D,M,Master Men 47-53,275,Single-ply,,,709.6,,709.6,Terry Putman
+D,M,Master Men 47-53,275,Single-ply,,,771.5,,771.5,Patrick Holloway
+D,M,Master Men 47-53,309,Single-ply,,,584,,584,Scott Bromeisl
+D,M,Master Men 47-53,309,Single-ply,,,617.2,,617.2,Thomas Guiney
+D,M,Master Men 54-60,132,Single-ply,,,270,,270,Chetram Mangra
+D,M,Master Men 54-60,148,Single-ply,,,440.7,,440.7,Dave Constantineau
+D,M,Master Men 54-60,165,Single-ply,,,429.7,,429.7,Nino Domingo
+D,M,Master Men 54-60,181,Single-ply,,,584,,584,Leamon Woodley
+D,M,Master Men 54-60,181,Single-ply,,,435.2,,435.2,Pat Young
+D,M,Master Men 54-60,198,Single-ply,,,707.4,,707.4,Tom Eiseman
+D,M,Master Men 54-60,220,Single-ply,,,,,,Mike Frizzell
+D,M,Master Men 54-60,220,Single-ply,,,501.5,,501.5,Reid Solar
+D,M,Master Men 54-60,275,Single-ply,,,662.3,,662.3,Tom Pennella
+D,M,Master Men 54-60,309,Single-ply,,,501.5,,501.5,James Mersberg
+D,M,Master Men 61-67,165,Single-ply,,,457.2,,457.2,John Clay
+D,M,Master Men 61-67,165,Single-ply,,,451.7,,451.7,Richard Cirigliano
+D,M,Master Men 61-67,181,Single-ply,,,424.2,,424.2,Stuart Coogan
+D,M,Master Men 61-67,220,Single-ply,,,479.5,,479.5,Bob Hafner
+D,M,Master Men 61-67,242,Single-ply,,,611.7,,611.7,Eddie Morgan
+D,M,Master Men 61-67,242,Single-ply,,,606.2,,606.2,Ron LHuillier
+D,M,Master Men 61-67,259,Single-ply,,,545.5,,545.5,Willard Crossen Jr.
+D,M,Master Men 68-74,165,Single-ply,,,385.7,,385.7,James Christian
+D,M,Master Men 68-74,198,Single-ply,,,352.5,,352.5,Frank Hammer
+D,M,Master Men 68-74,242,Single-ply,,,435.2,,435.2,Al Williamson
+D,M,Master Men 75-79,198,Single-ply,,,402.2,,402.2,John Herbein
+D,M,Master Men 80-84,181,Single-ply,,,363.7,,363.7,Ron Ringewold
+D,M,Master Men 85-89,198,Single-ply,,,364.8,,364.8,William Leedy
+D,M,Master Men 90,165,Single-ply,,,141,,141,Donald Dreyer
+D,M,Open Men,114,Single-ply,,,374.7,,374.7,Landon Sakai
+D,M,Open Men,165,Single-ply,,,457.2,,457.2,John Clay
+D,M,Open Men,165,Single-ply,,,341.5,,341.5,Jimi Kuutti
+D,M,Open Men,181,Single-ply,,,584,,584,Leamon Woodley
+D,M,Open Men,181,Single-ply,,,479.5,,479.5,Daniel Sisneros
+D,M,Open Men,198,Single-ply,,,707.4,,707.4,Tom Eiseman
+D,M,Open Men,198,Single-ply,,,600.7,,600.7,Eddie DiFruscia
+D,M,Open Men,198,Single-ply,,,562,,562,Ryan Marble
+D,M,Open Men,198,Single-ply,,,551,,551,Jarkko Forss
+D,M,Open Men,198,Single-ply,,,507,,507,Preston Quinn
+D,M,Open Men,220,Single-ply,,,661.2,,661.2,Tim Sparkes
+D,M,Open Men,220,Single-ply,,,600.7,,600.7,Tyler Carlson
+D,M,Open Men,220,Single-ply,,,485,,485,Junior Aparecido
+D,M,Open Men,242,Single-ply,,,688.7,,688.7,J. C. Wright
+D,M,Open Men,242,Single-ply,,,529,,529,Renan Moreno
+D,M,Open Men,242,Single-ply,,,507,,507,Juha Pukkila
+D,M,Open Men,259,Single-ply,,,727.5,,727.5,Kari Pontinen
+D,M,Open Men,275,Single-ply,,,709.6,,709.6,Terry Putman
+D,M,Open Men,275,Single-ply,,,523.5,,523.5,River Newman
+D,M,Open Men,308,Single-ply,,,672.2,,672.2,Dave Forstner
+D,M,Open Men,308,Single-ply,,,694.2,,694.2,Kamuela Wassman
+D,M,Open Men,309,Single-ply,,,562,,562,Ray Voigt
+D,M,Open Men,309,Single-ply,,,716.2,,716.2,Ricardo Nort
+D,M,Submaster Men 33-39,165,Single-ply,,,573,,573,Ryan Snelling
+D,M,Submaster Men 33-39,198,Single-ply,,,507,,507,Preston Quinn
+D,M,Submaster Men 33-39,220,Single-ply,,,545.5,,545.5,Dennis Schmidt
+D,M,Submaster Men 33-39,242,Single-ply,,,701.9,,701.9,Matt Krueger
+D,M,Teen Men 14-15,132,Single-ply,,,231.2,,231.2,Jaden Golston
+D,M,Teen Men 14-15,220,Single-ply,,,303,,303,Trevor Meder
+D,M,Teen Men 16-17,123,Single-ply,,,363.7,,363.7,Justin Berner
+D,M,Teen Men 16-17,123,Single-ply,,,264.5,,264.5,Julian Kong
+D,M,Teen Men 16-17,165,Single-ply,,,336,,336,Jacob Chan
+D,M,Teen Men 16-17,181,Single-ply,,,523.5,,523.5,Joshua Olivarez
+D,M,Teen Men 16-17,181,Single-ply,,,470.4,,470.4,Drayden-Steele Kawewehi
+D,M,Teen Men 16-17,181,Single-ply,,,374.7,,374.7,Pao-Heng Hsu
+D,M,Teen Men 16-17,220,Single-ply,,,385.7,,385.7,Mario Adolfo Valdes-Hernandez
+D,M,Teen Men 18-19,148,Single-ply,,,402.2,,402.2,Jun Yang
+D,M,Teen Men 18-19,165,Single-ply,,,518,,518,Alex Kovatch
+D,M,Teen Men 18-19,165,Single-ply,,,341.5,,341.5,Pengye Yang
+D,M,Teen Men 18-19,165,Single-ply,,,275.5,,275.5,Shu Hashimoto
+D,M,Teen Men 18-19,242,Single-ply,,,567.5,,567.5,Yudai Katsumata
+D,M,Teen Men 18-19,242,Single-ply,,,562,,562,Marcos Garza
+BD,M,Class 1 Men,148,Single-ply,264.5,,440.7,,705.2,Dave Constantineau
+BD,M,Class 1 Men,259,Single-ply,446.2,,628.2,,1074.4,Dennis Rolon
+BD,M,Class 1 Men,275,Single-ply,512.5,,523.5,,1036,River Newman
+BD,M,Class 1 Men,275,Single-ply,540,,633.7,,1173.7,David Palmer
+BD,M,Disabled 1 Men 40-59,220,Single-ply,473.7,,486.1,,959.8,Steve Pena
+BD,M,Disabled 2 Men 20-39,275,Single-ply,413.2,,501.5,,914.7,Brady Tanner
+BD,M,Junior Men 20-25,148,Single-ply,325,,600.7,,925.7,Agustin Soto
+BD,M,Junior Men 20-25,181,Single-ply,435.2,,501.5,,936.7,Joseph La Mattina
+BD,M,Junior Men 20-25,181,Single-ply,479.5,,661.2,,1140.7,Luis Alaniz
+BD,M,Junior Men 20-25,198,Single-ply,402.2,,529,,931.2,Ed Young
+BD,M,Junior Men 20-25,198,Single-ply,518,,551,,1069,Jarkko Forss
+BD,M,Law-Fire 40-47 Men,220,Single-ply,402.2,,490.5,,892.7,Robert Saludares
+BD,M,Law-Fire 40-47 Men,242,Single-ply,617.2,,556.5,,1173.7,Freddy Crosby
+BD,M,Law-Fire 40-47 Men,308,Single-ply,562,,684.3,,1246.3,Keoni Reich
+BD,M,Law-Fire 48-55 Men,259,Single-ply,,,573,,,J. C. Tolle
+BD,M,Law-Fire 48-55 Men,275,Single-ply,501.5,,457.2,,958.7,Darren Kaleleiki
+BD,M,Law-Fire 56-63 Men,220,Single-ply,502.6,,,,,Mike Frizzell
+BD,M,Law-Fire Open Men,198,Single-ply,677.7,,562,,1239.7,Ryan Marble
+BD,M,Law-Fire Open Men,242,Single-ply,617.2,,556.5,,1173.7,Freddy Crosby
+BD,M,Law-Fire Open Men,308,Single-ply,562,,684.3,,1212.2,Keoni Reich
+BD,M,Master Men 40-46,220,Single-ply,473.7,,486.1,,959.8,Steve Pena
+BD,M,Master Men 40-46,220,Single-ply,490.5,,529,,1019.5,Jesse Avila
+BD,M,Master Men 40-46,259,Single-ply,457.2,,600.7,,1057.9,Allen Heisler
+BD,M,Master Men 40-46,308,Single-ply,749.5,,672.2,,1421.7,Dave Forstner
+BD,M,Master Men 47-53,148,Single-ply,363.7,,501.5,,865.2,Chris Balanga
+BD,M,Master Men 47-53,220,Single-ply,468.2,,,,,Gary Gulseth
+BD,M,Master Men 47-53,220,Single-ply,512.5,,556.5,,1069,John Westleigh
+BD,M,Master Men 47-53,242,Single-ply,,,,,,Michael Neely
+BD,M,Master Men 47-53,242,Single-ply,473.7,,507,,980.7,Juha Pukkila
+BD,M,Master Men 47-53,242,Single-ply,451.7,,551,,1002.7,Steven Petersen
+BD,M,Master Men 47-53,242,Single-ply,501.5,,573,,1074.5,Brant Bishop
+BD,M,Master Men 47-53,275,Single-ply,540,,633.7,,1173.7,David Palmer
+BD,M,Master Men 47-53,Super,Single-ply,551,,584,,1135,Scott Bromeisl
+BD,M,Master Men 54-60,148,Single-ply,264.5,,440.7,,705.2,Dave Constantineau
+BD,M,Master Men 54-60,181,Single-ply,325,,584,,909,Leamon Woodley
+BD,M,Master Men 54-60,220,Single-ply,502.6,,,,,Mike Frizzell
+BD,M,Master Men 54-60,Super,Single-ply,655.7,,501.5,,1157.2,James Mersberg
+BD,M,Master Men 61-67,242,Single-ply,297.5,,611.7,,909.2,Eddie Morgan
+BD,M,Master Men 61-67,259,Single-ply,,,545.5,,,Willard Crossen Jr.
+BD,M,Master Men 68-74,198,Single-ply,171.8,,352.5,,524.3,Frank Hammer
+BD,M,Master Men 75-79,198,Single-ply,176.2,,402.2,,578.2,John Herbein
+BD,M,Master Men 90,165,Single-ply,121.2,,141,,262.2,Donald Dreyer
+BD,M,Open Men,114,Single-ply,259,,374.7,,633.7,Landon Sakai
+BD,M,Open Men,181,Single-ply,325,,584,,909,Leamon Woodley
+BD,M,Open Men,198,Single-ply,473.7,,507,,980.7,Preston Quinn
+BD,M,Open Men,198,Single-ply,518,,551,,1069,Jarkko Forss
+BD,M,Open Men,220,Single-ply,,,600.7,,,Tyler Carlson
+BD,M,Open Men,242,Single-ply,473.7,,507,,980.7,Juha Pukkila
+BD,M,Open Men,242,Single-ply,325,,688.7,,1013.7,J. C. Wright
+BD,M,Open Men,308,Single-ply,540,,694.2,,1234.2,Kamuela Wassman
+BD,M,Open Men,308,Single-ply,749.5,,672.2,,1421.7,Dave Forstner
+BD,M,Open Men,Super,Single-ply,760.5,,562,,1322.5,Ray Voigt
+BD,M,Submaster Men 33-39,198,Single-ply,473.7,,507,,980.7,Preston Quinn
+BD,M,Submaster Men 33-39,242,Single-ply,490.5,,701.9,,1192.4,Matt Krueger
+BD,M,Teen Men 14-15,132,Single-ply,110,,231.2,,341.2,Jaden Golston
+BD,M,Teen Men 14-15,220,Single-ply,209.2,,303,,512.2,Trevor Meder
+BD,M,Teen Men 16-17,123,Single-ply,121.2,,264.5,,385.7,Julian Kong
+BD,M,Teen Men 16-17,165,Single-ply,154.2,,336,,490.2,Jacob Chan
+BD,M,Teen Men 16-17,181,Single-ply,407.7,,470.4,,878.4,Drayden-Steele Kawewehi
+BD,M,Teen Men 16-17,181,Single-ply,325,,523.5,,848.5,Joshua Olivarez
+BD,M,Teen Men 16-17,181,Single-ply,154.2,,374.7,,528.9,Pao-Heng Hsu
+BD,M,Teen Men 16-17,220,Single-ply,165.2,,385.7,,550.9,Mario Adolfo Valdes-Hernandez
+BD,M,Teen Men 18-19,148,Single-ply,192.7,,402.2,,594.9,Jun Yang
+BD,M,Teen Men 18-19,165,Single-ply,165.2,,341.5,,506.7,Pengye Yang
+BD,M,Teen Men 18-19,165,Single-ply,143.2,,275.5,,418.7,Shu Hashimoto
+BD,M,Teen Men 18-19,165,Single-ply,,,518,,,Alex Kovatch
+BD,M,Teen Men 18-19,242,Single-ply,391.2,,567.5,,958.7,Yudai Katsumata
+B,M,Class 1 Men,165,Multi-ply,402.2,,,,402.2,Dinesh Mangra
+B,M,Class 1 Men,165,Multi-ply,308.5,,,,308.5,Noah Andersen
+B,M,Class 1 Men,165,Multi-ply,292,,,,292,Francisco Garcia
+B,M,Class 1 Men,220,Multi-ply,308.5,,,,308.5,Eloy Ambriz
+B,M,Disabled 2 Men 60,198,Multi-ply,189.4,190.5,,,189.4,Alfred Franke
+B,M,Junior Men 20-25,242,Multi-ply,529,,,,529,Renan Moreno
+B,M,Law-Fire 40-47 Men,220,Multi-ply,567.5,,,,567.5,Charles Farmer
+B,M,Law-Fire 40-47 Men,308,Multi-ply,705.2,,,,705.2,Tommy Harrison
+B,M,Law-Fire 48-55 Men,181,Multi-ply,358,,,,358,Michael Ioannou
+B,M,Law-Fire 56-63 Men,198,Multi-ply,347,,,,347,William Denniston
+B,M,Law-Fire 56-63 Men,308,Multi-ply,292,,,,292,Michal Johnson
+B,M,Law-Fire 64 Men,132,Multi-ply,275.5,,,,275.5,Gary Miller
+B,M,Law-Fire Open Men,308,Multi-ply,705.2,,,,705.2,Tommy Harrison
+B,M,Master Men 40-46,275,Multi-ply,507,,,,507,Jani Ihalainen
+B,M,Master Men 40-46,275,Multi-ply,451.7,,,,451.7,Harjit Kumar
+B,M,Master Men 40-46,308,Multi-ply,600.7,,,,600.7,Jeremiah Johnson
+B,M,Master Men 47-53,165,Multi-ply,314,,,,314,Keith Cunningham
+B,M,Master Men 47-53,220,Multi-ply,352.5,,,,352.5,Marcelo Puga
+B,M,Master Men 47-53,259,Multi-ply,501.5,,,,501.5,Nick Massey
+B,M,Master Men 54-60,181,Multi-ply,358,,,,358,Michael Ioannou
+B,M,Master Men 54-60,220,Multi-ply,485,,,,485,James Noblit
+B,M,Master Men 54-60,259,Multi-ply,457.2,,,,457.2,Jim Presley
+B,M,Master Men 54-60,309,Multi-ply,,,,,,Joe Mickelson
+B,M,Master Men 61-67,132,Multi-ply,275.5,,,,275.5,Gary Miller
+B,M,Master Men 61-67,148,Multi-ply,424.2,,,,424.2,Alfredo Evangelista
+B,M,Master Men 61-67,198,Multi-ply,347,,,,347,William Denniston
+B,M,Master Men 61-67,242,Multi-ply,176.2,,,,176.2,William B. Caughey
+B,M,Master Men 68-74,165,Multi-ply,266.7,,,,266.7,Gary Witzel
+B,M,Open Men,148,Multi-ply,424.2,,,,424.2,Alfredo Evangelista
+B,M,Open Men,198,Multi-ply,617.2,,,,617.2,Simon Kankkonen
+B,M,Open Men,220,Multi-ply,584,,,,584,Kalle Rasanen
+B,M,Open Men,242,Multi-ply,529,,,,529,Renan Moreno
+B,M,Open Men,259,Multi-ply,501.5,,,,501.5,Nick Massey
+B,M,Open Men,259,Multi-ply,457.2,,,,457.2,Jim Presley
+B,M,Open Men,275,Multi-ply,,,,,,Harjit Kumar
+B,M,Open Men,275,Multi-ply,507,,,,507,Jani Ihalainen
+B,M,Open Men,309,Multi-ply,,,,,,Joe Mickelson
+B,M,Submaster Men 33-39,198,Multi-ply,391.2,,,,391.2,Jackson Jones
+B,M,Submaster Men 33-39,275,Multi-ply,341.5,,,,341.5,Stephen Mace
+B,M,Teen Men 16-17,165,Multi-ply,292,,,,292,Francisco Garcia
+D,M,Class 1 Men,148,Multi-ply,,,402.2,,,Jeremiah Head
+D,M,Class 1 Men,165,Multi-ply,,,457.2,462.7,,Francisco Garcia
+D,M,Class 1 Men,220,Multi-ply,,,402.2,,,Eloy Ambriz
+D,M,Disabled 2 Men 60,198,Multi-ply,,,250.2,251.3,,Alfred Franke
+D,M,Law-Fire 40-47 Men,220,Multi-ply,,,633.7,,,Charles Farmer
+D,M,Law-Fire 48-55 Men,198,Multi-ply,,,573,,,Dan Guches
+D,M,Law-Fire 56-63 Men,181,Multi-ply,,,523.5,,,Charles Mc Farland
+D,M,Law-Fire 56-63 Men,308,Multi-ply,,,469.3,,,Michal Johnson
+D,M,Law-Fire 64 Men,132,Multi-ply,,,353.6,,,Gary Miller
+D,M,Law-Fire Open Men,220,Multi-ply,,,308.5,,,Manny Burruel
+D,M,Master Men 40-46,181,Multi-ply,,,573,,,Ben Dehghan
+D,M,Master Men 40-46,275,Multi-ply,,,600.7,,,Jani Ihalainen
+D,M,Master Men 40-46,308,Multi-ply,,,600.7,650.2,,Jeremiah Johnson
+D,M,Master Men 47-53,165,Multi-ply,,,485,,,Keith Cunningham
+D,M,Master Men 47-53,220,Multi-ply,,,501.5,,,Marcelo Puga
+D,M,Master Men 47-53,259,Multi-ply,,,523.5,,,Nick Massey
+D,M,Master Men 54-60,198,Multi-ply,,,573,,,Dan Guches
+D,M,Master Men 54-60,220,Multi-ply,,,380.2,,,James Noblit
+D,M,Master Men 54-60,259,Multi-ply,,,468.2,479.5,,Jim Presley
+D,M,Master Men 54-60,309,Multi-ply,,,501.5,,,Joe Mickelson
+D,M,Master Men 61-67,132,Multi-ply,,,353.6,,,Gary Miller
+D,M,Master Men 61-67,148,Multi-ply,,,468.2,,,Alfredo Evangelista
+D,M,Master Men 61-67,181,Multi-ply,,,523.5,,,Charles Mc Farland
+D,M,Master Men 61-67,220,Multi-ply,,,308.5,314,,Manny Burruel
+D,M,Master Men 61-67,242,Multi-ply,,,281,,,William B. Caughey
+D,M,Master Men 68-74,165,Multi-ply,,,314,,,Gary Witzel
+D,M,Open Men,148,Multi-ply,,,468.2,,,Alfredo Evangelista
+D,M,Open Men,220,Multi-ply,,,749.5,,,Kalle Rasanen
+D,M,Open Men,259,Multi-ply,,,523.5,,,Nick Massey
+D,M,Open Men,259,Multi-ply,,,468.2,479.5,,Jim Presley
+D,M,Open Men,275,Multi-ply,,,600.7,,,Jani Ihalainen
+D,M,Open Men,309,Multi-ply,,,501.5,,,Joe Mickelson
+D,M,Submaster Men 33-39,275,Multi-ply,,,600.7,,,Stephen Mace
+D,M,Teen Men 16-17,148,Multi-ply,,,402.2,,,Jeremiah Head
+D,M,Teen Men 16-17,165,Multi-ply,,,457.2,,,Francisco Garcia
+BD,M,Law-Fire 40-47 Men,220,Multi-ply,567.5,,633.7,,1201.2,Charles Farmer
+BD,M,Law-Fire 64 Men,132,Multi-ply,275.5,,353.6,,629.1,Gary Miller
+BD,M,Master Men 40-46,275,Multi-ply,507,,600.7,,1107.7,Jani Ihalainen
+BD,M,Master Men 40-46,308,Multi-ply,600.7,,600.7,,1201.4,Jeremiah Johnson
+BD,M,Master Men 47-53,165,Multi-ply,314,,485,,799,Keith Cunningham
+BD,M,Master Men 47-53,220,Multi-ply,352.5,,501.5,,854,Marcelo Puga
+BD,M,Master Men 47-53,259,Multi-ply,501.5,,523.5,,1025,Nick Massey
+BD,M,Master Men 54-60,220,Multi-ply,485,,380.2,,865.2,James Noblit
+BD,M,Master Men 54-60,259,Multi-ply,457.2,,468.2,,925.4,Jim Presley
+BD,M,Master Men 54-60,Super,Multi-ply,,,501.5,,,Joe Mickelson
+BD,M,Master Men 61-67,132,Multi-ply,275.5,,353.6,,629.1,Gary Miller
+BD,M,Master Men 61-67,148,Multi-ply,424.2,,468.2,,892.4,Alfredo Evangelista
+BD,M,Master Men 61-67,242,Multi-ply,176.2,,281,,457.2,William B. Caughey
+BD,M,Master Men 68-74,165,Multi-ply,266.7,,314,,580.7,Gary Witzel
+BD,M,Open Men,148,Multi-ply,424.2,,468.2,,892.4,Alfredo Evangelista
+BD,M,Open Men,220,Multi-ply,584,,749.5,,1333.5,Kalle Rasanen
+BD,M,Open Men,259,Multi-ply,457.2,,468.2,,925.4,Jim Presley
+BD,M,Open Men,259,Multi-ply,501.5,,523.5,,1025,Nick Massey
+BD,M,Open Men,275,Multi-ply,507,,600.7,,1107.7,Jani Ihalainen
+BD,M,Open Men,Super,Multi-ply,,,501.5,,,Joe Mickelson
+BD,M,Submaster Men 33-39,275,Multi-ply,341.5,,600.7,,942.2,Stephen Mace
+B,M,Class 1 Men,165,Raw,236.7,,,,236.7,Kwame Pollard
+B,M,Class 1 Men,181,Raw,275.5,,,,275.5,Matt Hanlon
+B,M,Class 1 Men,181,Raw,253.5,,,,253.5,Tanner Bogart
+B,M,Class 1 Men,220,Raw,275.5,,,,275.5,Zach Harris
+B,M,Class 1 Men,220,Raw,242.5,,,,242.5,Jorge Sierra
+B,M,Class 1 Men,220,Raw,325,,,,325,Joseph Karamatic
+B,M,Class 1 Men,220,Raw,314,,,,314,Sam Devedjian
+B,M,Class 1 Men,259,Raw,501.5,,,,501.5,Bruce Mamea
+B,M,Class 1 Men,259,Raw,330.5,,,,330.5,Jesse Migliori
+B,M,Class 1 Men,259,Raw,325,,,,325,Isaac Conde
+B,M,Class 1 Men,259,Raw,253.5,,,,253.5,Billy Caughey
+B,M,Class 1 Men,275,Raw,402.2,,,,402.2,Desmond Coleman
+B,M,Class 1 Men,275,Raw,440.7,,,,440.7,Chase Ulrick
+B,M,Disabled 1 Men 13-19,148,Raw,137.7,,,,137.7,Clarence Kehres
+B,M,Disabled 1 Men 20-39,220,Raw,369.2,,,,369.2,Benjamin Bleskin
+B,M,Disabled 1 Men 40-59,220,Raw,,,,,,Seth Reardon
+B,M,Disabled 2 Men 40-59,181,Raw,264.5,,,,264.5,Vilmar Oliveira
+B,M,Junior Men 20-25,132,Raw,236.7,,,,236.7,Fabriano Mariscal
+B,M,Junior Men 20-25,165,Raw,275.5,,,,275.5,Ezequiel De Simone
+B,M,Junior Men 20-25,181,Raw,308.5,,,,308.5,Patrick Keogh
+B,M,Junior Men 20-25,181,Raw,259,,,,259,Steven Bassetti
+B,M,Junior Men 20-25,181,Raw,242.5,,,,242.5,Brett Robinson
+B,M,Junior Men 20-25,181,Raw,236.7,,,,236.7,James King
+B,M,Junior Men 20-25,181,Raw,210.3,,,,210.3,Braden Jensen
+B,M,Junior Men 20-25,198,Raw,374.7,,,,374.7,Kyle Francescatti
+B,M,Junior Men 20-25,198,Raw,330.5,,,,330.5,Johnny De Leon
+B,M,Junior Men 20-25,198,Raw,242.5,,,,242.5,Cody Mondeau
+B,M,Junior Men 20-25,220,Raw,331.4,,,,331.4,Joseph Karamatic
+B,M,Junior Men 20-25,242,Raw,308.5,,,,308.5,Mitch Bellon
+B,M,Junior Men 20-25,275,Raw,380.2,,,,380.2,Oscar Rivero
+B,M,Junior Men 20-25,308,Raw,485,,,,485,Walter Kupihe
+B,M,Junior Men 20-25,309,Raw,319.5,,,,319.5,Donald Loew
+B,M,Law-Fire 40-47 Men,198,Raw,363.7,,,,363.7,Jason Smith
+B,M,Law-Fire 40-47 Men,220,Raw,325,,,,325,Nick Berriman
+B,M,Law-Fire 40-47 Men,220,Raw,276.6,,,,276.6,David Chadwick
+B,M,Law-Fire 40-47 Men,259,Raw,402.2,,,,402.2,Flip Silva
+B,M,Law-Fire 48-55 Men,242,Raw,330.5,,,,330.5,Amado Monzon
+B,M,Law-Fire 48-55 Men,275,Raw,,,,,,Eric Jones
+B,M,Law-Fire 56-63 Men,259,Raw,303,,,,303,Donald Bryant
+B,M,Law-Fire Open Men,259,Raw,402.2,,,,402.2,Flip Silva
+B,M,Master Men 40-46,165,Raw,330.5,,,,330.5,David R. Smith
+B,M,Master Men 40-46,181,Raw,374.7,,,,374.7,Chad Medina
+B,M,Master Men 40-46,220,Raw,479.5,,,,479.5,James Kelly
+B,M,Master Men 40-46,220,Raw,380.2,,,,380.2,Byron Fletcher
+B,M,Master Men 40-46,220,Raw,363.7,,,,363.7,Chris Bohenek
+B,M,Master Men 40-46,242,Raw,385.7,,,,385.7,Kim Paivoke
+B,M,Master Men 40-46,309,Raw,485,,,,485,Ricardo Nort
+B,M,Master Men 47-53,132,Raw,115.5,,,,115.5,Gustavo Almada
+B,M,Master Men 47-53,181,Raw,341.5,,,,341.5,Jon Cunningham
+B,M,Master Men 47-53,198,Raw,402.2,,,,402.2,Louie Mansanas
+B,M,Master Men 47-53,198,Raw,363.7,,,,363.7,Jason Smith
+B,M,Master Men 47-53,198,Raw,336,,,,336,Chris Hatley
+B,M,Master Men 47-53,198,Raw,270,,,,270,Carlos Martinez
+B,M,Master Men 47-53,220,Raw,501.5,,,,501.5,James Hunter
+B,M,Master Men 47-53,242,Raw,396.7,,,,396.7,Marcelo Schneider
+B,M,Master Men 47-53,309,Raw,479.5,,,,479.5,De Witt Martin
+B,M,Master Men 54-60,165,Raw,242.5,,,,242.5,Nino Domingo
+B,M,Master Men 54-60,165,Raw,220.2,,,,220.2,Brian Thomas
+B,M,Master Men 54-60,181,Raw,286.5,,,,286.5,Joel Korotkin
+B,M,Master Men 54-60,220,Raw,225.7,,,,225.7,Eugene Merrill
+B,M,Master Men 54-60,242,Raw,314,,,,314,James Murphy
+B,M,Master Men 54-60,275,Raw,402.2,,,,402.2,Nick Frazzetta
+B,M,Master Men 54-60,275,Raw,396.7,,,,396.7,Eric Jones
+B,M,Master Men 61-67,181,Raw,286.5,,,,286.5,Ed Regwa
+B,M,Master Men 61-67,259,Raw,221.3,,,,221.3,Tom Matlock
+B,M,Master Men 61-67,275,Raw,292,,,,292,Tom Morgan
+B,M,Master Men 61-67,275,Raw,435.2,,,,435.2,Forest Hofer
+B,M,Master Men 68-74,181,Raw,204.8,,,,204.8,Bob Hochstein
+B,M,Master Men 68-74,181,Raw,192.7,,,,192.7,Tom Haggenmiller
+B,M,Master Men 68-74,242,Raw,308.5,,,,308.5,Daniel Smith III
+B,M,Master Men 75-79,181,Raw,192.7,,,,192.7,Mike Haigwood
+B,M,Master Men 75-79,181,Raw,253.5,,,,253.5,Ed Angstrom
+B,M,Master Men 75-79,198,Raw,214.7,,,,214.7,Arnold Pereza
+B,M,Master Men 80-84,165,Raw,148.7,,,,148.7,Charles Vause
+B,M,Master Men 80-84,198,Raw,170.7,,,,170.7,Joseph Di Gregorio
+B,M,Master Men 80-84,220,Raw,270,,,,270,Johnny Yong
+B,M,Master Men 85-89,181,Raw,138.8,,,,138.8,Cleophus Scrutchions
+B,M,Master Men 90,181,Raw,99,,,,99,Rodney Graves
+B,M,Open Men,165,Raw,275.5,,,,275.5,Justin Rhoads
+B,M,Open Men,165,Raw,275.5,,,,275.5,Ezequiel De Simone
+B,M,Open Men,165,Raw,242.5,,,,242.5,Karter Brachear
+B,M,Open Men,165,Raw,236.7,,,,236.7,Kwame Pollard
+B,M,Open Men,198,Raw,435.2,,,,435.2,Jermaine Lyles
+B,M,Open Men,198,Raw,402.2,,,,402.2,Cody Coffey
+B,M,Open Men,198,Raw,380.2,,,,380.2,Max Panziera
+B,M,Open Men,198,Raw,374.7,,,,374.7,Kyle Francescatti
+B,M,Open Men,198,Raw,352.5,,,,352.5,Charlen Luz
+B,M,Open Men,198,Raw,314,,,,314,Joshep Nacarro Faraud
+B,M,Open Men,220,Raw,501.5,,,,501.5,James Hunter
+B,M,Open Men,220,Raw,479.5,,,,479.5,James Kelly
+B,M,Open Men,220,Raw,424.7,,,,424.7,Sami Harju
+B,M,Open Men,220,Raw,385.7,,,,385.7,Cephas Mctizic
+B,M,Open Men,220,Raw,380.2,,,,380.2,Byron Fletcher
+B,M,Open Men,220,Raw,363.7,,,,363.7,Chris Bohenek
+B,M,Open Men,220,Raw,352.5,,,,352.5,Bill Corbin
+B,M,Open Men,220,Raw,308.5,,,,308.5,Daniel Miller
+B,M,Open Men,242,Raw,473.7,,,,473.7,Scotty Clark
+B,M,Open Men,242,Raw,396.7,,,,396.7,Marcelo Schneider
+B,M,Open Men,242,Raw,385.7,,,,385.7,Kim Paivoke
+B,M,Open Men,242,Raw,380.2,,,,380.2,Donovan Ballo
+B,M,Open Men,242,Raw,308.5,,,,308.5,Makila Antero
+B,M,Open Men,259,Raw,462.7,,,,462.7,Calvin Wren
+B,M,Open Men,275,Raw,435.2,,,,435.2,Forest Hofer
+B,M,Open Men,275,Raw,380.2,,,,380.2,Oscar Rivero
+B,M,Open Men,309,Raw,485,,,,485,Ricardo Nort
+B,M,Submaster Men 33-39,181,Raw,276.6,,,,276.6,Humberto Rodriguez
+B,M,Submaster Men 33-39,198,Raw,,,,,,Jack Rogers
+B,M,Submaster Men 33-39,198,Raw,435.2,,,,435.2,Jermaine Lyles
+B,M,Submaster Men 33-39,198,Raw,352.5,,,,352.5,Charlen Luz
+B,M,Submaster Men 33-39,220,Raw,,,,,,Atte Poikonen
+B,M,Submaster Men 33-39,220,Raw,473.7,,,,473.7,Percy Colvin
+B,M,Submaster Men 33-39,220,Raw,352.5,,,,352.5,Mariano Miravalles
+B,M,Submaster Men 33-39,242,Raw,473.7,,,,473.7,Scotty Clark
+B,M,Submaster Men 33-39,242,Raw,308.5,,,,308.5,Makila Antero
+B,M,Submaster Men 33-39,259,Raw,501.5,,,,501.5,Bruce Mamea
+B,M,Submaster Men 33-39,259,Raw,462.7,,,,462.7,Calvin Wren
+B,M,Submaster Men 33-39,308,Raw,534.5,,,,534.5,Mike Mc Elroy
+B,M,Submaster Men 33-39,309,Raw,424.2,,,,424.2,Sean Powell
+B,M,Teen Men 12-13,105,Raw,60.5,,,,60.5,Colby Helms
+B,M,Teen Men 12-13,181,Raw,110,,,,110,Will Bishop
+B,M,Teen Men 12-13,275,Raw,159.7,,,,159.7,Robert Vick Jr.
+B,M,Teen Men 12-13,97,Raw,60.5,,,,60.5,Billy Farmer
+B,M,Teen Men 14-15,132,Raw,154.2,,,,154.2,Rafael Cora
+B,M,Teen Men 14-15,148,Raw,214.7,,,,214.7,Kaison Uehara
+B,M,Teen Men 14-15,148,Raw,165.2,,,,165.2,Tristan Lin
+B,M,Teen Men 14-15,198,Raw,143.2,,,,143.2,Armani Katzman
+B,M,Teen Men 14-15,97,Raw,71.5,,,,71.5,Kurt Schindele
+B,M,Teen Men 16-17,123,Raw,110,,,,110,Tyler Farmer
+B,M,Teen Men 16-17,165,Raw,264.5,,,,264.5,Lexington Young
+B,M,Teen Men 16-17,220,Raw,308.5,,,,308.5,Dahlton Franco
+B,M,Teen Men 18-19,165,Raw,242.5,,,,242.5,Karter Brachear
+B,M,Teen Men 18-19,165,Raw,214.7,,,,214.7,Brandon Manteca
+B,M,Teen Men 18-19,198,Raw,385.7,,,,385.7,Jamison Faith
+B,M,Teen Men 18-19,242,Raw,319.5,,,,319.5,Marcos Garza
+B,M,Teen Men 18-19,259,Raw,270,,,,270,Jarome Torres
+D,M,Class 1 Men,165,Raw,,,396.7,,396.7,Kwame Pollard
+D,M,Class 1 Men,181,Raw,,,462.7,,462.7,Leon De Leon
+D,M,Class 1 Men,181,Raw,,,462.7,,462.7,Matteo Novelo
+D,M,Class 1 Men,181,Raw,,,551,,551,Matt Hanlon
+D,M,Class 1 Men,220,Raw,,,479.5,,479.5,Joseph Karamatic
+D,M,Class 1 Men,220,Raw,,,501.5,,501.5,Jorge Sierra
+D,M,Class 1 Men,220,Raw,,,611.7,,611.7,Drake Kuehn
+D,M,Class 1 Men,220,Raw,,,479.5,,479.5,Zach Harris
+D,M,Class 1 Men,259,Raw,,,512.5,,512.5,Billy Caughey
+D,M,Class 1 Men,275,Raw,,,628.2,,628.2,Chase Ulrick
+D,M,Class 1 Men,275,Raw,,,628.2,,628.2,Desmond Coleman
+D,M,Class 1 Men,308,Raw,,,628.2,,628.2,Jason Sacre
+D,M,Disabled 1 Men 13-19,148,Raw,,,275.5,,275.5,Clarence Kehres
+D,M,Junior Men 20-25,132,Raw,,,424.2,,424.2,Fabriano Mariscal
+D,M,Junior Men 20-25,165,Raw,,,429.7,,429.7,Rahfee Washington
+D,M,Junior Men 20-25,165,Raw,,,496,,496,Ezequiel De Simone
+D,M,Junior Men 20-25,181,Raw,,,446.2,,446.2,Brett Robinson
+D,M,Junior Men 20-25,181,Raw,,,462.7,,462.7,Steven Bassetti
+D,M,Junior Men 20-25,181,Raw,,,463.8,,463.8,Braden Jensen
+D,M,Junior Men 20-25,181,Raw,,,523.5,,523.5,Patrick Keogh
+D,M,Junior Men 20-25,198,Raw,,,473.7,,473.7,Cody Mondeau
+D,M,Junior Men 20-25,198,Raw,,,523.5,,523.5,Johnny De Leon
+D,M,Junior Men 20-25,198,Raw,,,567.5,,567.5,Kyle Francescatti
+D,M,Junior Men 20-25,220,Raw,,,496,,496,Sam Devedjian
+D,M,Junior Men 20-25,220,Raw,,,479.5,,479.5,Joseph Karamatic
+D,M,Junior Men 20-25,242,Raw,,,540,,540,Mitch Bellon
+D,M,Junior Men 20-25,275,Raw,,,551,573,551,Oscar Rivero
+D,M,Junior Men 20-25,308,Raw,,,628.2,,628.2,Walter Kupihe
+D,M,Junior Men 20-25,309,Raw,,,,,,Donald Loew
+D,M,Law-Fire 40-47 Men,198,Raw,,,584,,584,Jason Smith
+D,M,Law-Fire 40-47 Men,220,Raw,,,402.2,,402.2,David Chadwick
+D,M,Law-Fire 40-47 Men,220,Raw,,,462.7,,462.7,Nick Berriman
+D,M,Law-Fire 40-47 Men,259,Raw,,,540,,540,Flip Silva
+D,M,Law-Fire Open Men,259,Raw,,,540,,540,Flip Silva
+D,M,Master Men 40-46,181,Raw,,,523.5,,523.5,Chad Medina
+D,M,Master Men 40-46,181,Raw,,,,,,Shawn Oliphant
+D,M,Master Men 40-46,220,Raw,,,518,,518,Chris Bohenek
+D,M,Master Men 40-46,220,Raw,,,562,,562,Byron Fletcher
+D,M,Master Men 40-46,242,Raw,,,473.7,,473.7,Kim Paivoke
+D,M,Master Men 40-46,308,Raw,,,628.2,,628.2,Jason Sacre
+D,M,Master Men 47-53,132,Raw,,,264.5,270,264.5,Gustavo Almada
+D,M,Master Men 47-53,132,Raw,,,264.5,270,264.5,Gustavo Almada
+D,M,Master Men 47-53,148,Raw,,,385.7,,385.7,James Needles
+D,M,Master Men 47-53,181,Raw,,,435.2,,435.2,Jon Cunningham
+D,M,Master Men 47-53,181,Raw,,,534.5,,534.5,Marchand Fleming
+D,M,Master Men 47-53,198,Raw,,,325,,325,Nabeel Bahu
+D,M,Master Men 47-53,198,Raw,,,424.2,,424.2,Chris Hatley
+D,M,Master Men 47-53,198,Raw,,,502.6,,502.6,Carlos Martinez
+D,M,Master Men 47-53,198,Raw,,,584,,584,Jason Smith
+D,M,Master Men 47-53,242,Raw,,,573,,573,Marcelo Schneider
+D,M,Master Men 47-53,242,Raw,,,573,,573,Matt Maini
+D,M,Master Men 47-53,275,Raw,,,529,,529,Silvio Braga
+D,M,Master Men 47-53,309,Raw,,,573,,573,Scott Wesley Jordan
+D,M,Master Men 47-53,309,Raw,,,595,,595,De Witt Martin
+D,M,Master Men 54-60,165,Raw,,,418.7,,418.7,David Felton
+D,M,Master Men 54-60,181,Raw,,,501.5,,501.5,Anthony Williams
+D,M,Master Men 54-60,220,Raw,,,418.7,,418.7,Eugene Merrill
+D,M,Master Men 54-60,220,Raw,,,512.5,,512.5,Mitch Edelstein
+D,M,Master Men 54-60,242,Raw,,,468.2,,468.2,James Murphy
+D,M,Master Men 54-60,275,Raw,,,589.5,,589.5,Nick Frazzetta
+D,M,Master Men 61-67,181,Raw,,,413.2,,413.2,Ed Regwa
+D,M,Master Men 61-67,242,Raw,,,352.5,,352.5,Tom Gonnering
+D,M,Master Men 61-67,259,Raw,,,440.7,,440.7,Tom Matlock
+D,M,Master Men 61-67,275,Raw,,,462.7,,462.7,Tom Morgan
+D,M,Master Men 68-74,181,Raw,,,380.2,,380.2,Andrew Christo
+D,M,Master Men 68-74,181,Raw,,,374.7,,374.7,Tom Haggenmiller
+D,M,Master Men 68-74,198,Raw,,,562,,562,Jerry Shetka
+D,M,Master Men 75-79,132,Raw,,,203.7,,203.7,Eugene Kawamata
+D,M,Master Men 75-79,181,Raw,,,242.5,,242.5,Mike Haigwood
+D,M,Master Men 85-89,181,Raw,,,203.7,,203.7,Cleophus Scrutchions
+D,M,Master Men 90,181,Raw,,,,,,Rodney Graves
+D,M,Open Men,165,Raw,,,540,,540,Justin Rhoads
+D,M,Open Men,165,Raw,,,496,,496,Ezequiel De Simone
+D,M,Open Men,165,Raw,,,485,,485,Karter Brachear
+D,M,Open Men,165,Raw,,,418.7,,418.7,David Felton
+D,M,Open Men,165,Raw,,,396.7,,396.7,Kwame Pollard
+D,M,Open Men,181,Raw,,,451.7,,451.7,Erick Gonzalez
+D,M,Open Men,198,Raw,,,639.2,,639.2,Mikko Kopreinen
+D,M,Open Men,198,Raw,,,567.5,,567.5,Max Panziera
+D,M,Open Men,198,Raw,,,567.5,,567.5,Kyle Francescatti
+D,M,Open Men,198,Raw,,,540,,540,Cody Coffey
+D,M,Open Men,198,Raw,,,462.7,,462.7,Charlen Luz
+D,M,Open Men,220,Raw,,,694.2,,694.2,Joni Kivela
+D,M,Open Men,220,Raw,,,666.7,,666.7,Cephas Mctizic
+D,M,Open Men,220,Raw,,,562,,562,Bill Corbin
+D,M,Open Men,220,Raw,,,562,,562,Byron Fletcher
+D,M,Open Men,220,Raw,,,518,,518,Chris Bohenek
+D,M,Open Men,242,Raw,,,600.7,,600.7,Donovan Ballo
+D,M,Open Men,242,Raw,,,573,,573,Marcelo Schneider
+D,M,Open Men,242,Raw,,,562,,562,Seppo Juntilla
+D,M,Open Men,242,Raw,,,473.7,,473.7,Kim Paivoke
+D,M,Open Men,242,Raw,,,507,,507,Makila Antero
+D,M,Open Men,275,Raw,,,628.2,,628.2,Desmond Coleman
+D,M,Open Men,275,Raw,,,551,,551,Oscar Rivero
+D,M,Open Men,275,Raw,,,529,,529,Silvio Braga
+D,M,Open Men,309,Raw,,,573,,573,Scott Wesley Jordan
+D,M,Submaster Men 33-39,181,Raw,,,431.9,,431.9,Humberto Rodriguez
+D,M,Submaster Men 33-39,198,Raw,,,639.2,,639.2,Mikko Kopreinen
+D,M,Submaster Men 33-39,198,Raw,,,457.2,,457.2,Jack Rogers
+D,M,Submaster Men 33-39,198,Raw,,,462.7,,462.7,Charlen Luz
+D,M,Submaster Men 33-39,220,Raw,,,595,,595,Mariano Miravalles
+D,M,Submaster Men 33-39,220,Raw,,,551,,551,Percy Colvin
+D,M,Submaster Men 33-39,242,Raw,,,507,,507,Makila Antero
+D,M,Submaster Men 33-39,309,Raw,,,424.2,,424.2,Sean Powell
+D,M,Teen Men 12-13,105,Raw,,,187.2,,187.2,Colby Helms
+D,M,Teen Men 12-13,181,Raw,,,203.7,,203.7,Will Bishop
+D,M,Teen Men 12-13,275,Raw,,,,,,Robert Vick Jr.
+D,M,Teen Men 12-13,97,Raw,,,154.2,,154.2,Billy Farmer
+D,M,Teen Men 14-15,132,Raw,,,319.5,330.5,319.5,Rafael Cora
+D,M,Teen Men 14-15,148,Raw,,,418.7,,418.7,Kaison Uehara
+D,M,Teen Men 14-15,148,Raw,,,369.2,,369.2,Tristan Lin
+D,M,Teen Men 14-15,198,Raw,,,385.7,,385.7,Armani Katzman
+D,M,Teen Men 14-15,97,Raw,,,187.2,,187.2,Kurt Schindele
+D,M,Teen Men 16-17,123,Raw,,,242.5,,242.5,Tyler Farmer
+D,M,Teen Men 16-17,165,Raw,,,424.2,,424.2,Lexington Young
+D,M,Teen Men 18-19,165,Raw,,,485,,485,Karter Brachear
+D,M,Teen Men 18-19,165,Raw,,,330.5,,330.5,Brandon Manteca
+D,M,Teen Men 18-19,198,Raw,,,501.5,,501.5,Jamison Faith
+D,M,Teen Men 18-19,259,Raw,,,462.7,,462.7,Jarome Torres
+BD,M,Class 1 Men,181,Raw,275.5,,551,,826.5,Matt Hanlon
+BD,M,Class 1 Men,220,Raw,242.5,,501.5,,744,Jorge Sierra
+BD,M,Class 1 Men,220,Raw,275.5,,479.5,,755,Zach Harris
+BD,M,Class 1 Men,220,Raw,325,,479.5,,804.5,Joseph Karamatic
+BD,M,Class 1 Men,259,Raw,253.5,,512.5,,766,Billy Caughey
+BD,M,Class 1 Men,275,Raw,402.2,,628.2,,1030.4,Desmond Coleman
+BD,M,Junior Men 20-25,132,Raw,236.7,,424.2,,660.9,Fabriano Mariscal
+BD,M,Junior Men 20-25,165,Raw,275.5,,496,,771.5,Ezequiel De Simone
+BD,M,Junior Men 20-25,181,Raw,210.3,,463.8,,674.1,Braden Jensen
+BD,M,Junior Men 20-25,181,Raw,242.5,,446.2,,688.7,Brett Robinson
+BD,M,Junior Men 20-25,181,Raw,259,,462.7,,721.7,Steven Bassetti
+BD,M,Junior Men 20-25,181,Raw,308.5,,523.5,,832,Patrick Keogh
+BD,M,Junior Men 20-25,198,Raw,374.7,,567.5,,942.2,Kyle Francescatti
+BD,M,Junior Men 20-25,220,Raw,325,,479.5,,810.9,Joseph Karamatic
+BD,M,Junior Men 20-25,242,Raw,308.5,,540,,848.5,Mitch Bellon
+BD,M,Junior Men 20-25,308,Raw,485,,628.2,,1113.2,Walter Kupihe
+BD,M,Law-Fire 40-47 Men,198,Raw,363.7,,584,,947.7,Jason Smith
+BD,M,Law-Fire 40-47 Men,220,Raw,276.6,,402.2,,678.8,David Chadwick
+BD,M,Master Men 40-46,181,Raw,374.7,,523.5,,898.2,Chad Medina
+BD,M,Master Men 40-46,220,Raw,363.7,,518,,881.7,Chris Bohenek
+BD,M,Master Men 40-46,220,Raw,380.2,,562,,942.2,Byron Fletcher
+BD,M,Master Men 40-46,242,Raw,385.7,,473.7,,859.4,Kim Paivoke
+BD,M,Master Men 47-53,132,Raw,115.5,,264.5,,380,Gustavo Almada
+BD,M,Master Men 47-53,181,Raw,341.5,,435.2,,776.7,Jon Cunningham
+BD,M,Master Men 47-53,198,Raw,336,,424.2,,760.2,Chris Hatley
+BD,M,Master Men 47-53,198,Raw,270,,502.6,,772.6,Carlos Martinez
+BD,M,Master Men 47-53,198,Raw,363.7,,584,,947.7,Jason Smith
+BD,M,Master Men 47-53,242,Raw,396.7,,573,,969.7,Marcelo Schneider
+BD,M,Master Men 47-53,Super,Raw,479.5,,595,,1074.5,De Witt Martin
+BD,M,Master Men 54-60,220,Raw,225.7,,418.7,,644.4,Eugene Merrill
+BD,M,Master Men 54-60,242,Raw,314,,468.2,,782.2,James Murphy
+BD,M,Master Men 54-60,275,Raw,402.2,,589.5,,991.7,Nick Frazzetta
+BD,M,Master Men 61-67,259,Raw,221.3,,440.7,,662,Tom Matlock
+BD,M,Master Men 61-67,275,Raw,292,,462.7,,754.7,Tom Morgan
+BD,M,Master Men 75-79,181,Raw,192.7,,242.5,,435.2,Mike Haigwood
+BD,M,Master Men 85-89,181,Raw,138.8,,203.7,,342.5,Cleophus Scrutchions
+BD,M,Open Men,165,Raw,242.5,,485,,727.5,Karter Brachear
+BD,M,Open Men,165,Raw,275.5,,496,,771.5,Ezequiel De Simone
+BD,M,Open Men,165,Raw,275.5,,540,,815.5,Justin Rhoads
+BD,M,Open Men,198,Raw,374.7,,567.5,,942.2,Kyle Francescatti
+BD,M,Open Men,198,Raw,402.2,,540,,942.2,Cody Coffey
+BD,M,Open Men,198,Raw,380.2,,567.5,,947.7,Max Panziera
+BD,M,Open Men,220,Raw,363.7,,518,,881.7,Chris Bohenek
+BD,M,Open Men,220,Raw,352.5,,562,,914.5,Bill Corbin
+BD,M,Open Men,220,Raw,380.2,,562,,942.2,Byron Fletcher
+BD,M,Open Men,242,Raw,308.5,,507,,815.5,Makila Antero
+BD,M,Open Men,242,Raw,385.7,,473.7,,858.7,Kim Paivoke
+BD,M,Open Men,242,Raw,396.7,,573,,969.7,Marcelo Schneider
+BD,M,Open Men,242,Raw,380.2,,600.7,,980.9,Donovan Ballo
+BD,M,Submaster Men 33-39,181,Raw,276.6,,431.9,,708.5,Humberto Rodriguez
+BD,M,Submaster Men 33-39,220,Raw,473.7,,551,,1024.7,Percy Colvin
+BD,M,Submaster Men 33-39,220,Raw,352.5,,595,,947.5,Mariano Miravalles
+BD,M,Submaster Men 33-39,242,Raw,308.5,,507,,815.5,Makila Antero
+BD,M,Submaster Men 33-39,Super,Raw,424.2,,424.2,,848.4,Sean Powell
+BD,M,Teen Men 12-13,105,Raw,60.5,,187.2,,247.7,Colby Helms
+BD,M,Teen Men 12-13,181,Raw,110,,203.7,,313.7,Will Bishop
+BD,M,Teen Men 12-13,97,Raw,60.5,,154.2,,214.7,Billy Farmer
+BD,M,Teen Men 14-15,148,Raw,214.7,,418.7,,633.4,Kaison Uehara
+BD,M,Teen Men 14-15,97,Raw,71.5,,187.2,,258.7,Kurt Schindele
+BD,M,Teen Men 16-17,123,Raw,110,,242.5,,352.5,Tyler Farmer
+BD,M,Teen Men 16-17,165,Raw,264.5,,424.2,,688.7,Lexington Young
+BD,M,Teen Men 18-19,165,Raw,242.5,,485,,727.5,Karter Brachear
+BD,M,Teen Men 18-19,165,Raw,214.7,,330.5,,545.2,Brandon Manteca
+BD,M,Teen Men 18-19,259,Raw,270,,462.7,,732.7,Jarome Torres
+B,M,Class 1 Men,242,Single-ply,418.7,,,,418.7,Brent Gapusan
+B,F,Class 1 Women,105,Single-ply,132.2,,,,132.2,Jennifer Genato
+B,F,Class 1 Women,132,Single-ply,132.2,,,,132.2,Susan Chloupek
+B,F,Class 1 Women,165,Single-ply,132.2,,,,132.2,Natalie Caughey
+B,F,Class 1 Women,181,Single-ply,159.7,,,,159.7,DeAnna Dutton
+B,F,Junior Women,105,Single-ply,181.7,,,,181.7,Cailee Awa
+B,F,Junior Women,132,Single-ply,115.5,,,,115.5,Hannah Barnhill
+B,F,Junior Women,148,Single-ply,181.7,,,,181.7,Jamie Tsuji
+B,F,Law-Fire 40-47 Women,181,Single-ply,220.2,,,,220.2,Gion Prevard
+B,F,Law-Fire 48-55 Women,181,Single-ply,220.2,,,,220.2,Gion Prevard
+B,F,Law-Fire Open Women,181,Single-ply,220.2,,,,220.2,Gion Prevard
+B,F,Master Women 40-46,148,Single-ply,148.7,,,,148.7,Holly Morello
+B,F,Master Women 40-46,148,Single-ply,176.2,,,,176.2,Dede Soekardi
+B,F,Master Women 40-46,221,Single-ply,132.2,,,,132.2,Trisha Puou
+B,F,Master Women 47-53,105,Single-ply,154.2,,,,154.2,Yuxin Hao
+B,F,Master Women 47-53,148,Single-ply,187.2,,,,187.2,Andrea Macauley
+B,F,Master Women 47-53,165,Single-ply,,,,,,Virpi Pukkila
+B,F,Master Women 47-53,165,Single-ply,137.7,,,,137.7,Lucia Feraud Montenegro
+B,F,Master Women 47-53,181,Single-ply,132.2,,,,132.2,Stacy Whetstone
+B,F,Master Women 47-53,97,Single-ply,104.5,,,,104.5,Elizabeth Cabe
+B,F,Master Women 54-60,148,Single-ply,233.4,,,,233.4,Beverly Anolin
+B,F,Master Women 54-60,181,Single-ply,402.2,,,,402.2,Karen Campbell
+B,F,Master Women 54-60,181,Single-ply,198.2,,,,198.2,Josefina Jackson
+B,F,Master Women 54-60,181,Single-ply,181.7,,,,181.7,Deborah Maxwell
+B,F,Master Women 54-60,181,Single-ply,159.7,,,,159.7,DeAnna Dutton
+B,F,Master Women 54-60,198,Single-ply,192.7,,,,192.7,Linda Gerking
+B,F,Master Women 61-67,123,Single-ply,126.7,,,,126.7,Karon Denniston
+B,F,Master Women 61-67,132,Single-ply,132.2,,,,132.2,Susan Chloupek
+B,F,Master Women 61-67,148,Single-ply,209.2,,,,209.2,Peach Presley
+B,F,Master Women 61-67,220,Single-ply,,,,,,Sue Vaterlaus
+B,F,Master Women 68-74,181,Single-ply,181.7,,,,181.7,Pat Robey
+B,F,Master Women 75-79,165,Single-ply,127.8,,,,127.8,Gerda Shupe
+B,F,Open Women,114,Single-ply,154.2,,,,154.2,Morgan Matteoni
+B,F,Open Women,148,Single-ply,233.4,,,,233.4,Beverly Anolin
+B,F,Open Women,148,Single-ply,198.2,,,,198.2,Samantha Panziera
+B,F,Open Women,165,Single-ply,,,,,,Virpi Pukkila
+B,F,Open Women,165,Single-ply,137.7,,,,137.7,Lucia Fernaud Montenegro
+B,F,Open Women,181,Single-ply,402.2,,,,402.2,Karen Campbell
+B,F,Open Women,221,Single-ply,209.2,,,,209.2,Makala Davis
+B,F,Open Women,221,Single-ply,132.2,,,,132.2,Trisha Puou
+B,F,Open Women,97,Single-ply,104.5,,,,104.5,Elizabeth Cabe
+B,F,Submaster Women,148,Single-ply,181.7,,,,181.7,Lynn Gilpin-Parks
+B,F,Submaster Women,181,Single-ply,176.2,,,,176.2,Jamie Farmer
+B,F,Teen Women 16-17,132,Single-ply,203.7,,,,203.7,Pamela Arce
+B,F,Teen Women 18-19,148,Single-ply,143.2,,,,143.2,Jessica Luna
+D,F,Class 1 Women,105,Single-ply,,,259,,259,Jennifer Genato
+D,F,Class 1 Women,148,Single-ply,,,264.5,,264.5,Tiffany Keeling
+D,F,Class 1 Women,148,Single-ply,,,264.5,,264.5,Wendy Pledger
+D,F,Class 1 Women,148,Single-ply,,,275.5,,275.5,Angie Buschman
+D,F,Class 1 Women,148,Single-ply,,,325,,325,Kathy Caraccioli
+D,F,Class 1 Women,165,Single-ply,,,319.5,,319.5,Natalie Caughey
+D,F,Class 1 Women,181,Single-ply,,,292,,292,DeAnna Dutton
+D,F,Class 1 Women,181,Single-ply,,,352.5,,352.5,Jennifer Mosher
+D,F,Class 1 Women,198,Single-ply,,,392.3,,392.3,Linda Gerking
+D,F,Class 1 Women,220,Single-ply,,,325,,325,Tara Walsh
+D,F,Junior Women,105,Single-ply,,,319.5,,319.5,Cailee Awa
+D,F,Junior Women,123,Single-ply,,,374.7,,374.7,Marianne Kosonen
+D,F,Junior Women,132,Single-ply,,,314,,314,Hannah Barnhill
+D,F,Junior Women,148,Single-ply,,,352.5,,352.5,Jamie Tsuji
+D,F,Master Women 40-46,114,Single-ply,,,364.8,,364.8,Valesca Cristina Rocha
+D,F,Master Women 40-46,148,Single-ply,,,314,,314,Holly Morello
+D,F,Master Women 40-46,148,Single-ply,,,330.5,,330.5,Dede Soekardi
+D,F,Master Women 40-46,221,Single-ply,,,402.2,,402.2,Trisha Puou
+D,F,Master Women 47-53,105,Single-ply,,,275.5,,275.5,Yuxin Hao
+D,F,Master Women 47-53,148,Single-ply,,,325,,325,Kathy Caraccioli
+D,F,Master Women 47-53,165,Single-ply,,,330.5,,330.5,Ling Tarr
+D,F,Master Women 47-53,165,Single-ply,,,286.5,,286.5,Lucia Fernaud Montenegro
+D,F,Master Women 47-53,97,Single-ply,,,325,,325,Elizabeth Cabe
+D,F,Master Women 54-60,114,Single-ply,,,253.5,,253.5,Miriam Bucks
+D,F,Master Women 54-60,132,Single-ply,,,429,,429,Jane Mc Cubbin
+D,F,Master Women 54-60,148,Single-ply,,,371.4,,371.4,Beverly Anolin
+D,F,Master Women 54-60,181,Single-ply,,,418.7,,418.7,Karen Campbell
+D,F,Master Women 54-60,181,Single-ply,,,363.7,,363.7,Josefina Jackson
+D,F,Master Women 54-60,181,Single-ply,,,292,,292,DeAnna Dutton
+D,F,Master Women 54-60,181,Single-ply,,,253.5,,253.5,Deborah Maxwell
+D,F,Master Women 54-60,198,Single-ply,,,392.3,,392.3,Linda Gerking
+D,F,Master Women 61-67,148,Single-ply,,,314,,314,Peach Presley
+D,F,Master Women 61-67,220,Single-ply,,,242.5,,242.5,Sue Vaterlaus
+D,F,Master Women 61-67,97,Single-ply,,,181.7,,181.7,Donna Aliminosa
+D,F,Master Women 68-74,181,Single-ply,,,264.5,,264.5,Pat Robey
+D,F,Master Women 75-79,165,Single-ply,,,260.1,,260.1,Gerda Shupe
+D,F,Master Women 90,181,Single-ply,,,91.3,,91.3,Evelyn Kilgore
+D,F,Open Women,114,Single-ply,,,364.8,,364.8,Valesca Cristina Rocha
+D,F,Open Women,123,Single-ply,,,374.7,,374.7,Marianne Kosonen
+D,F,Open Women,132,Single-ply,,,429.7,,429.7,Jane Mc Cubbin
+D,F,Open Women,148,Single-ply,,,424.2,,424.2,Rebekah Schmidt
+D,F,Open Women,148,Single-ply,,,371.4,,371.4,Beverly Anolin
+D,F,Open Women,148,Single-ply,,,314,,314,Samantha Panziera
+D,F,Open Women,165,Single-ply,,,337.1,,337.1,Joni Texeira
+D,F,Open Women,165,Single-ply,,,292,,292,Nicole Campbell
+D,F,Open Women,165,Single-ply,,,286.5,,286.5,Lucia Fernaud Montenegro
+D,F,Open Women,181,Single-ply,,,418.7,,418.7,Karen Campbell
+D,F,Open Women,221,Single-ply,,,462.7,,462.7,Makala Davis
+D,F,Open Women,221,Single-ply,,,402.2,,402.2,Trisha Puou
+D,F,Open Women,97,Single-ply,,,325,,325,Elizabeth Cabe
+D,F,Submaster Women,148,Single-ply,,,424.2,,424.2,Rebekah Schmidt
+D,F,Submaster Women,181,Single-ply,,,325,,325,Jamie Farmer
+D,F,Submaster Women,181,Single-ply,,,352.5,,352.5,Jennifer Mosher
+D,F,Teen Women 16-17,198,Single-ply,,,347,,347,Jessica Luna
+D,F,Teen Women 18-19,132,Single-ply,,,319.5,,319.5,Yesenia Valdez
+BD,F,Class 1 Women,105,Single-ply,132.2,,259,,391.2,Jennifer Genato
+BD,F,Class 1 Women,165,Single-ply,132.2,,319.5,,451.7,Natalie Caughey
+BD,F,Junior Women,105,Single-ply,181.7,,319.5,,507.2,Cailee Awa
+BD,F,Junior Women,132,Single-ply,115.5,,314,,429.5,Hannah Barnhill
+BD,F,Junior Women,148,Single-ply,181.7,,352.5,,534.2,Jamie Tsuji
+BD,F,Master Women 40-46,148,Single-ply,148.7,,314,,462.7,Holly Morello
+BD,F,Master Women 40-46,Super,Single-ply,132.2,,402.2,,534.4,Trisha Puou
+BD,F,Master Women 47-53,105,Single-ply,154.2,,275.5,,429.7,Yuxin Hao
+BD,F,Master Women 47-53,97,Single-ply,104.5,,325,,429.5,Elizabeth Cabe
+BD,F,Master Women 54-60,148,Single-ply,233.4,,371.4,,604.8,Beverly Anolin
+BD,F,Master Women 54-60,181,Single-ply,181.7,,253.5,,435.2,Deborah Maxwell
+BD,F,Master Women 54-60,181,Single-ply,159.7,,292,,451.7,DeAnna Dutton
+BD,F,Master Women 54-60,181,Single-ply,402.2,,418.7,,820.9,Karen Campbell
+BD,F,Master Women 54-60,198,Single-ply,192.7,,392.3,,585,Linda Gerking
+BD,F,Master Women 61-67,148,Single-ply,209.2,,314,,523.2,Peach Presley
+BD,F,Master Women 61-67,220,Single-ply,,,242.5,,,Sue Vaterlaus
+BD,F,Master Women 68-74,181,Single-ply,181.7,,264.5,,446.2,Pat Robey
+BD,F,Master Women 75-79,165,Single-ply,127.8,,260.1,,387.9,Gerda Shupe
+BD,F,Open Women,148,Single-ply,198.2,,314,,512.2,Samantha Panziera
+BD,F,Open Women,148,Single-ply,233.4,,371.4,,604.8,Beverly Anolin
+BD,F,Open Women,181,Single-ply,402.2,,418.7,,820.9,Karen Campbell
+BD,F,Open Women,97,Single-ply,104.5,,325,,429.5,Elizabeth Cabe
+BD,F,Open Women,221+,Single-ply,132.2,,402.2,,534.4,Trisha Puou
+BD,F,Submaster Women,181,Single-ply,176.2,,325,,501.2,Jamie Farmer
+BD,F,Teen Women 16-17,198,Single-ply,143.2,,347,,490.2,Jessica Luna
+B,F,Disabled 2 Women 13-19,123,Multi-ply,104.5,,,,104.5,Delilah Burruel
+B,F,Junior Women,198,Multi-ply,303,,,,303,Lauren Lugdon
+B,F,Master Women 40-46,123,Multi-ply,104.5,,,,104.5,Sagi Macias
+B,F,Master Women 40-46,198,Multi-ply,306.3,,,,306.3,Amy Rudder
+B,F,Master Women 47-53,132,Multi-ply,170.7,,,,170.7,Rebecca Moore
+B,F,Master Women 47-53,181,Multi-ply,104.5,,,,104.5,Deana Bowes
+B,F,Master Women 54-60,221,Multi-ply,181.7,,,,181.7,Gloria Caughey
+B,F,Open Women,132,Multi-ply,170.7,,,,170.7,Rebecca Moore
+B,F,Open Women,198,Multi-ply,306.3,,,,306.3,Amy Rudder
+B,F,Open Women,198,Multi-ply,270,,,,270,Mary Denning
+B,F,Open Women,220,Multi-ply,293.1,,,,293.1,Caylen Gapusan
+B,F,Open Women,221,Multi-ply,181.7,,,,181.7,Gloria Caughey
+B,F,Submaster Women,198,Multi-ply,270,,,,270,Mary Denning
+B,F,DIV,CLS,Multi-ply,,,,,,NAME
+D,F,Class 1 Women,132,Multi-ply,,,242.5,,242.5,Susan Chloupek
+D,F,Disabled 2 Women 13-19,123,Multi-ply,,,203.7,225.7,203.7,Delilah Burruel
+D,F,Disabled 2 Women 13-19,123,Multi-ply,,,203.7,225.7,203.7,Delilah Burruel
+D,F,Master Women 40-46,123,Multi-ply,,,259,264.5,259,Sagi Macias
+D,F,Master Women 47-53,132,Multi-ply,,,253.5,,253.5,Rebecca Moore
+D,F,Master Women 47-53,181,Multi-ply,,,181.7,,181.7,Deana Bowes
+D,F,Master Women 61-67,132,Multi-ply,,,242.5,,242.5,Susan Chloupek
+D,F,Open Women,132,Multi-ply,,,253.5,,253.5,Rebecca Moore
+D,F,Open Women,198,Multi-ply,,,308.5,,308.5,Lauren Lugdon
+D,F,Open Women,221,Multi-ply,,,363.7,,363.7,Jacqualyn Richardson
+BD,F,Master Women 47-53,132,Multi-ply,170.7,,253.5,,424.2,Rebecca Moore
+BD,F,Open Women,132,Multi-ply,170.7,,253.5,,424.2,Rebecca Moore
+B,F,Class 1 Women,148,Raw,187.2,,,,187.2,Chelsie Satterfield
+B,F,Class 1 Women,148,Raw,104.5,,,,104.5,Kellye Millrany
+B,F,Class 1 Women,148,Raw,66,,,,66,Sheela Rangen
+B,F,Class 1 Women,165,Raw,159.7,,,,159.7,Mirtha Delatorre
+B,F,Class 1 Women,165,Raw,121.2,,,,121.2,Carly Grennor
+B,F,Class 1 Women,181,Raw,143.2,,,,143.2,Pam Carter
+B,F,Disabled 1 Women 20-39,148,Raw,187.2,,,,187.2,Chelsie Satterfield
+B,F,Disabled 2 Women 20-39,198,Raw,154.2,,,,154.2,Chloe Kaalund
+B,F,Disabled 2 Women 60,220,Raw,99,,,,99,Marlene Wexler
+B,F,Junior Women,123,Raw,176.2,,,,176.2,Marianne Kosonen
+B,F,Junior Women,148,Raw,214.7,,,,214.7,Marianne Hartio
+B,F,Junior Women,148,Raw,187.2,,,,187.2,Morgan Taylor
+B,F,Law-Fire 40-47 Women,181,Raw,170.7,,,,170.7,Roxanne LeMaire
+B,F,Master Women 40-46,114,Raw,132.2,,,,132.2,Valesca Cristina Rocha
+B,F,Master Women 40-46,132,Raw,148.7,,,,148.7,Lainey Kelly
+B,F,Master Women 40-46,148,Raw,132.2,,,,132.2,Maria Novais
+B,F,Master Women 40-46,148,Raw,104.5,,,,104.5,Kellye Millrany
+B,F,Master Women 40-46,165,Raw,159.7,,,,159.7,Mirtha Delatorre
+B,F,Master Women 40-46,181,Raw,165.2,,,,165.2,Suzette Reed
+B,F,Master Women 40-46,198,Raw,165.2,,,,165.2,Maggie Castellano
+B,F,Master Women 40-46,220,Raw,143.2,,,,143.2,Faith Robinson
+B,F,Master Women 40-46,221,Raw,181.7,,,,181.7,Elizabeth Guerra
+B,F,Master Women 47-53,114,Raw,110,,,,110,Lisa Balestrini
+B,F,Master Women 47-53,132,Raw,115.5,,,,115.5,Deirdre Harris
+B,F,Master Women 47-53,165,Raw,176.2,,,,176.2,Artemira Dede Sobrinho
+B,F,Master Women 47-53,181,Raw,165.2,,,,165.2,Lisa Van Buskirk
+B,F,Master Women 47-53,221,Raw,253.5,,,,253.5,Arletha Phillip
+B,F,Master Women 54-60,105,Raw,88,,,,88,Jennifer Souders
+B,F,Master Women 54-60,123,Raw,82.5,,,,82.5,Martha Godinez-Shim
+B,F,Master Women 54-60,132,Raw,143.2,,,,143.2,Tierney Korotkin
+B,F,Master Women 54-60,148,Raw,66,,,,66,Sheela Rangen
+B,F,Master Women 61-67,181,Raw,170.7,,,,170.7,Joni Harriss
+B,F,Master Women 61-67,220,Raw,121.2,,,,121.2,Susan Arnett
+B,F,Master Women 68-74,132,Raw,121.2,,,,121.2,Leona Pereza
+B,F,Master Women 68-74,148,Raw,88,,,,88,Carolyn Vanzlow-Edgar
+B,F,Master Women 68-74,220,Raw,99,,,,99,Marlene Wexler
+B,F,Master Women 80-84,148,Raw,88,,,,88,Carrie Reese
+B,F,Open Women,114,Raw,126.7,,,,126.7,Linda Barnes
+B,F,Open Women,114,Raw,132.2,,,,132.2,Valesca Cristina Rocha
+B,F,Open Women,123,Raw,176.2,,,,176.2,Marianne Kosonen
+B,F,Open Women,132,Raw,154.2,,,,154.2,Shawn Coffey
+B,F,Open Women,148,Raw,214.7,,,,214.7,Marianne Hartio
+B,F,Open Women,148,Raw,187.2,,,,187.2,Morgan Taylor
+B,F,Open Women,148,Raw,132.2,,,,132.2,Maria Novais
+B,F,Open Women,165,Raw,187.2,,,,187.2,Deana Tollefson
+B,F,Open Women,165,Raw,187.2,,,,187.2,Joni Texeira
+B,F,Open Women,165,Raw,176.2,,,,176.2,Artemira Dede Sobrinho
+B,F,Open Women,165,Raw,154.2,,,,154.2,Mirela Silva
+B,F,Open Women,181,Raw,275.5,,,,275.5,Minna Pajulahti
+B,F,Open Women,181,Raw,231.2,,,,231.2,Missy Gentry
+B,F,Open Women,181,Raw,165.2,,,,165.2,Suzette Reed
+B,F,Open Women,198,Raw,181.7,,,,181.7,Jessica Blevins
+B,F,Open Women,220,Raw,154.2,,,,154.2,Megan Dutton
+B,F,Open Women,221,Raw,154.2,,,,154.2,Michelle Garrett
+B,F,Open Women,221,Raw,209.2,,,,209.2,Poha Henson
+B,F,Special Olympian Women,198,Raw,154.2,,,,154.2,Chloe Kaalund
+B,F,Submaster Women,165,Raw,187.2,,,,187.2,Joni Texeira
+B,F,Submaster Women,181,Raw,275.5,,,,275.5,Minna Pajulahti
+B,F,Submaster Women,181,Raw,231.2,,,,231.2,Missy Gentry
+B,F,Teen Women 12-13,165,Raw,121.2,,,,121.2,Mataya Straka
+B,F,Teen Women 12-13,198,Raw,203.7,,,,203.7,Tyara Straka
+B,F,Teen Women 14-15,148,Raw,176.2,,,,176.2,Havvy Ehrich
+B,F,Teen Women 14-15,165,Raw,82.5,,,,82.5,Ava Eisele
+B,F,Teen Women 16-17,198,Raw,143.2,,,,143.2,Itzayanni Martinez
+B,F,Teen Women 18-19,123,Raw,,,,,,Alison Schaaf
+B,F,Teen Women 18-19,123,Raw,148.7,,,,148.7,Misty Prado
+B,F,Teen Women 18-19,132,Raw,121.2,,,,121.2,Yesenia Valdez
+B,F,DIV,CLS,Raw,,,,,0,NAME
+D,F,Class 1 Women,148,Raw,,,170.7,,170.7,Sheela Rangen
+D,F,Class 1 Women,148,Raw,,,352.5,,352.5,Chelsie Satterfield
+D,F,Class 1 Women,165,Raw,,,303,,303,Briana Lacey
+D,F,Class 1 Women,165,Raw,,,308.5,,308.5,Carly Grennor
+D,F,Class 1 Women,165,Raw,,,325,,325,Mirtha Delatorre
+D,F,Disabled 1 Women 20-39,148,Raw,,,352.5,,352.5,Chelsie Satterfield
+D,F,Disabled 1 Women 20-39,148,Raw,,,352.5,,352.5,Chelsie Satterfield
+D,F,Disabled 2 Women 20-39,198,Raw,,,303,,303,Chloe Kaalund
+D,F,Disabled 2 Women 60,220,Raw,,,248,,248,Marlene Wexler
+D,F,Junior Women,148,Raw,,,341.5,,341.5,Marianne Hartio
+D,F,Junior Women,148,Raw,,,374.7,,374.7,Morgan Taylor
+D,F,Junior Women,165,Raw,,,303,,303,Briana Lacey
+D,F,Junior Women,198,Raw,,,308.5,,308.5,Lauren Lugdon
+D,F,Law-Fire 40-47 Women,181,Raw,,,303,,303,Roxanne LeMaire
+D,F,Law-Fire 40-47 Women,181,Raw,,,380.2,,380.2,Stacy Domingo
+D,F,Law-Fire 48-55 Women,181,Raw,,,308.5,,308.5,Gion Prevard
+D,F,Law-Fire Open Women,181,Raw,,,308.5,,308.5,Gion Prevard
+D,F,Master Women 40-46,148,Raw,,,330.5,,330.5,Maria Novais
+D,F,Master Women 40-46,165,Raw,,,325,,325,Mirtha Delatorre
+D,F,Master Women 40-46,181,Raw,,,380.2,,380.2,Stacy Domingo
+D,F,Master Women 40-46,198,Raw,,,402.2,,402.2,Maggie Castellano
+D,F,Master Women 40-46,220,Raw,,,303,,303,Faith Robinson
+D,F,Master Women 40-46,221,Raw,,,407.7,,407.7,Leilana Mc Kindra
+D,F,Master Women 40-46,221,Raw,,,336,,336,Elizabeth Guerra
+D,F,Master Women 47-53,114,Raw,,,220.2,,220.2,Lisa Balestrini
+D,F,Master Women 47-53,132,Raw,,,242.5,,242.5,Deirdre Harris
+D,F,Master Women 47-53,165,Raw,,,429.7,,429.7,Artemira Sobrinho
+D,F,Master Women 47-53,221,Raw,,,413.2,,413.2,Arletha Phillip
+D,F,Master Women 54-60,105,Raw,,,198.2,,198.2,Jennifer Souders
+D,F,Master Women 54-60,123,Raw,,,253.5,,253.5,Martha Godinez-Shim
+D,F,Master Women 54-60,132,Raw,,,248,,248,Tierney Korotkin
+D,F,Master Women 54-60,148,Raw,,,170.7,,170.7,Sheela Rangen
+D,F,Master Women 68-74,148,Raw,,,176.2,,176.2,Carolyn Vanzlow-Edgar
+D,F,Master Women 68-74,165,Raw,,,248,,248,Charlene Muscio
+D,F,Master Women 68-74,181,Raw,,,170.7,,170.7,Jacqueline Fendler
+D,F,Master Women 68-74,220,Raw,,,248,,248,Marlene Wexler
+D,F,Master Women 80-84,148,Raw,,,209.2,,209.2,Carrie Reese
+D,F,Open Women,114,Raw,,,264.5,,264.5,Linda Barnes
+D,F,Open Women,132,Raw,,,330.5,,330.5,Shawn Coffey
+D,F,Open Women,148,Raw,,,374.7,,374.7,Morgan Taylor
+D,F,Open Women,148,Raw,,,341.5,,341.5,Marianne Hartio
+D,F,Open Women,148,Raw,,,330.5,,330.5,Maria Novais
+D,F,Open Women,148,Raw,,,259,,259,Jessica Rahimi
+D,F,Open Women,165,Raw,,,363.7,,363.7,Deana Tollefson
+D,F,Open Women,165,Raw,,,429.7,,429.7,Artemira Sobrinho
+D,F,Open Women,165,Raw,,,407.7,,407.7,Mirela Silva
+D,F,Open Women,165,Raw,,,292,,292,Jessica Brown
+D,F,Open Women,181,Raw,,,418.7,,418.7,Minna Pajulahti
+D,F,Open Women,198,Raw,,,415.4,,415.4,Jessica Blevins
+D,F,Open Women,198,Raw,,,308.5,,308.5,Lauren Lugdon
+D,F,Open Women,220,Raw,,,385.7,,385.7,Megan Dutton
+D,F,Open Women,221,Raw,,,,,,Poha Henson
+D,F,Open Women,221,Raw,,,363.7,,363.7,Michelle Garrett
+D,F,Special Olympian Women,198,Raw,,,303,,303,Chloe Kaalund
+D,F,Submaster Women,165,Raw,,,337.1,,337.1,Joni Texeira
+D,F,Submaster Women,181,Raw,,,418.7,,418.7,Minna Pajulahti
+D,F,Submaster Women,181,Raw,,,314,,314,Crystal Luiz-Jones
+D,F,Teen Women 12-13,165,Raw,,,308.5,,308.5,Mataya Straka
+D,F,Teen Women 12-13,198,Raw,,,374.7,,374.7,Tyara Straka
+D,F,Teen Women 14-15,148,Raw,,,303,,303,Havvy Ehrich
+D,F,Teen Women 14-15,165,Raw,,,187.2,,187.2,Ava Eisele
+D,F,Teen Women 16-17,132,Raw,,,275.5,,275.5,Pamela Arce
+D,F,Teen Women 16-17,198,Raw,,,330.5,,330.5,Itzayanni Martinez
+D,F,Teen Women 18-19,123,Raw,,,,,,Alison Schaaf
+D,F,Teen Women 18-19,123,Raw,,,319.5,,319.5,Misty Prado
+BD,F,Class 1 Women,148,Raw,66,,170.7,,236.7,Sheela Rangen
+BD,F,Class 1 Women,148,Raw,187.2,,352.5,,539.7,Chelsie Satterfield
+BD,F,Class 1 Women,165,Raw,121.2,,308.5,,429.7,Carly Grennor
+BD,F,Class 1 Women,165,Raw,159.7,,325,,484.7,Mirtha Delatorre
+BD,F,Disabled 1 Women 20-39,148,Raw,187.2,,352.5,,539.7,Chelsie Satterfield
+BD,F,Disabled 2 Women 60,220,Raw,99,,248,,347,Marlene Wexler
+BD,F,Junior Women,148,Raw,214.7,,341.5,,556.2,Marianne Hartio
+BD,F,Junior Women,148,Raw,187.2,,374.7,,561.9,Morgan Taylor
+BD,F,Master Women 40-46,165,Raw,159.7,,325,,484.7,Mirtha Delatorre
+BD,F,Master Women 40-46,198,Raw,165.2,,402.2,,567.4,Maggie Castellano
+BD,F,Master Women 40-46,220,Raw,143.2,,303,,446.2,Faith Robinson
+BD,F,Master Women 47-53,114,Raw,110,,220.2,,330.7,Lisa Balestrini
+BD,F,Master Women 47-53,132,Raw,115.5,,242.5,,358,Deirdre Harris
+BD,F,Master Women 47-53,Super,Raw,253.5,,413.2,,666.7,Arletha Phillip
+BD,F,Master Women 54-60,123,Raw,82.5,,253.5,,336,Martha Godinez-Shim
+BD,F,Master Women 54-60,132,Raw,143.2,,248,,391.2,Tierney Korotkin
+BD,F,Master Women 54-60,148,Raw,66,,170.7,,236.7,Sheela Rangen
+BD,F,Master Women 68-74,148,Raw,88,,176.2,,264.2,Carolyn Vanzlow-Edgar
+BD,F,Master Women 68-74,220,Raw,99,,248,,347,Marlene Wexler
+BD,F,Master Women 80-84,148,Raw,88,,209.2,,297.2,Carrie Reese
+BD,F,Open Women,148,Raw,214.7,,341.5,,556.2,Marianne Hartio
+BD,F,Open Women,148,Raw,187.2,,374.7,,561.9,Morgan Taylor
+BD,F,Open Women,165,Raw,187.2,,363.7,,550.9,Deana Tollefson
+BD,F,Open Women,181,Raw,275.5,,418.7,,694.2,Minna Pajulahti
+BD,F,Open Women,198,Raw,181.7,,415.4,,597.1,Jessica Blevins
+BD,F,Open Women,220,Raw,154.2,,385.7,,539.9,Megan Dutton
+BD,F,Open Women,Super,Raw,154.2,,363.7,,517.9,Michelle Garrett
+BD,F,Open Women,Super,Raw,209.2,,,,,Poha Henson
+BD,F,Submaster Women,181,Raw,275.5,,418.7,,694.2,Minna Pajulahti
+BD,F,Teen Women 12-13,165,Raw,121.2,,308.5,,429.7,Mataya Straka
+BD,F,Teen Women 12-13,198,Raw,203.7,,374.7,,578.4,Tyara Straka
+BD,F,Teen Women 14-15,148,Raw,176.2,,303,,479.2,Havvy Ehrich
+BD,F,Teen Women 14-15,165,Raw,82.5,,187.2,,269.7,Ava Eisele
+BD,F,Teen Women 18-19,123,Raw,148.7,,319.5,,468.2,Misty Prado
+BD,F,Teen Women 18-19,123,Raw,,,,,,Alison Schaaf
