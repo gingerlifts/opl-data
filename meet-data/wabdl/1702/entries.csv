@@ -98,7 +98,7 @@ B,M,Master Men 61-67,198,Single-ply,374.7,,,,374.7,Ernest Reyes
 B,M,Master Men 61-67,220,Single-ply,347,,,,347,Nino Murray
 B,M,Master Men 61-67,242,Single-ply,297.5,,,,297.5,Eddie Morgan
 B,M,Master Men 61-67,242,Single-ply,440.7,,,,440.7,Tom Gonnering
-B,M,Master Men 61-67,259,Single-ply,,,,,,Willard Crossen Jr.
+B,M,Master Men 61-67,259,Single-ply,,,,,,Willard Crossen Jr
 B,M,Master Men 61-67,259,Single-ply,374.7,,,,374.7,John Towne
 B,M,Master Men 61-67,275,Single-ply,314,,,,314,Larry Riskey
 B,M,Master Men 68-74,198,Single-ply,314,,,,314,Dan Swift
@@ -242,7 +242,7 @@ D,M,Master Men 61-67,181,Single-ply,,,424.2,,424.2,Stuart Coogan
 D,M,Master Men 61-67,220,Single-ply,,,479.5,,479.5,Bob Hafner
 D,M,Master Men 61-67,242,Single-ply,,,611.7,,611.7,Eddie Morgan
 D,M,Master Men 61-67,242,Single-ply,,,606.2,,606.2,Ron LHuillier
-D,M,Master Men 61-67,259,Single-ply,,,545.5,,545.5,Willard Crossen Jr.
+D,M,Master Men 61-67,259,Single-ply,,,545.5,,545.5,Willard Crossen Jr
 D,M,Master Men 68-74,165,Single-ply,,,385.7,,385.7,James Christian
 D,M,Master Men 68-74,198,Single-ply,,,352.5,,352.5,Frank Hammer
 D,M,Master Men 68-74,242,Single-ply,,,435.2,,435.2,Al Williamson
@@ -330,7 +330,7 @@ BD,M,Master Men 54-60,181,Single-ply,325,,584,,909,Leamon Woodley
 BD,M,Master Men 54-60,220,Single-ply,502.6,,,,,Mike Frizzell
 BD,M,Master Men 54-60,Super,Single-ply,655.7,,501.5,,1157.2,James Mersberg
 BD,M,Master Men 61-67,242,Single-ply,297.5,,611.7,,909.2,Eddie Morgan
-BD,M,Master Men 61-67,259,Single-ply,,,545.5,,,Willard Crossen Jr.
+BD,M,Master Men 61-67,259,Single-ply,,,545.5,,,Willard Crossen Jr
 BD,M,Master Men 68-74,198,Single-ply,171.8,,352.5,,524.3,Frank Hammer
 BD,M,Master Men 75-79,198,Single-ply,176.2,,402.2,,578.2,John Herbein
 BD,M,Master Men 90,165,Single-ply,121.2,,141,,262.2,Donald Dreyer
@@ -575,7 +575,7 @@ B,M,Submaster Men 33-39,308,Raw,534.5,,,,534.5,Mike Mc Elroy
 B,M,Submaster Men 33-39,309,Raw,424.2,,,,424.2,Sean Powell
 B,M,Teen Men 12-13,105,Raw,60.5,,,,60.5,Colby Helms
 B,M,Teen Men 12-13,181,Raw,110,,,,110,Will Bishop
-B,M,Teen Men 12-13,275,Raw,159.7,,,,159.7,Robert Vick Jr.
+B,M,Teen Men 12-13,275,Raw,159.7,,,,159.7,Robert Vick Jr
 B,M,Teen Men 12-13,97,Raw,60.5,,,,60.5,Billy Farmer
 B,M,Teen Men 14-15,132,Raw,154.2,,,,154.2,Rafael Cora
 B,M,Teen Men 14-15,148,Raw,214.7,,,,214.7,Kaison Uehara
@@ -696,7 +696,7 @@ D,M,Submaster Men 33-39,242,Raw,,,507,,507,Makila Antero
 D,M,Submaster Men 33-39,309,Raw,,,424.2,,424.2,Sean Powell
 D,M,Teen Men 12-13,105,Raw,,,187.2,,187.2,Colby Helms
 D,M,Teen Men 12-13,181,Raw,,,203.7,,203.7,Will Bishop
-D,M,Teen Men 12-13,275,Raw,,,,,,Robert Vick Jr.
+D,M,Teen Men 12-13,275,Raw,,,,,,Robert Vick Jr
 D,M,Teen Men 12-13,97,Raw,,,154.2,,154.2,Billy Farmer
 D,M,Teen Men 14-15,132,Raw,,,319.5,330.5,319.5,Rafael Cora
 D,M,Teen Men 14-15,148,Raw,,,418.7,,418.7,Kaison Uehara
@@ -911,7 +911,6 @@ B,F,Open Women,198,Multi-ply,270,,,,270,Mary Denning
 B,F,Open Women,220,Multi-ply,293.1,,,,293.1,Caylen Gapusan
 B,F,Open Women,221,Multi-ply,181.7,,,,181.7,Gloria Caughey
 B,F,Submaster Women,198,Multi-ply,270,,,,270,Mary Denning
-B,F,DIV,CLS,Multi-ply,,,,,,NAME
 D,F,Class 1 Women,132,Multi-ply,,,242.5,,242.5,Susan Chloupek
 D,F,Disabled 2 Women 13-19,123,Multi-ply,,,203.7,225.7,203.7,Delilah Burruel
 D,F,Disabled 2 Women 13-19,123,Multi-ply,,,203.7,225.7,203.7,Delilah Burruel
