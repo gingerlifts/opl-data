@@ -316,7 +316,8 @@ def getpagedata(soup):
                 text = td.find(text=True)
 
                 # Get the country data
-                if text is None and td.has_attr('id') and 'LocationID' in td['id']:
+                if (text is None and td.has_attr('id') and
+                        'LocationID' in td['id'] and td.a):
                     text = td.a['title']
 
                 if text is None:
