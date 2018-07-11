@@ -288,7 +288,9 @@ def getpagedata(soup):
     csv.fieldnames += ['WeightClassKg', 'Sex']
 
     wcstate = None
-    sexstate = None
+
+    # If unspecified assume male and fix later
+    sexstate = 'M'
 
     for tr in trs[1:]:
         row = [x.text for x in tr.find_all('td')]
@@ -306,7 +308,6 @@ def getpagedata(soup):
 
         else:
             assert wcstate
-            assert sexstate
 
             # Accumulate the row, but we need to look at the class of each td
             # to figure out whether lifts were good or bad.
@@ -315,7 +316,8 @@ def getpagedata(soup):
                 text = td.find(text=True)
 
                 # Get the country data
-                if text is None and td.has_attr('id') and 'LocationID' in td['id']:
+                if (text is None and td.has_attr('id') and
+                        'LocationID' in td['id'] and td.a):
                     text = td.a['title']
 
                 if text is None:
