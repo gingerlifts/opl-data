@@ -228,6 +228,9 @@ pub enum Federation {
     WelshPA,
     #[strum(to_string = "WPA", serialize = "wpa")]
     WPA,
+    #[serde(rename = "WPA-RUS")]
+    #[strum(to_string = "WPA-RUS", serialize = "wpa-rus")]
+    WPARUS,
     #[strum(to_string = "WPAU", serialize = "wpau")]
     WPAU,
     #[strum(to_string = "WPC", serialize = "wpc")]
@@ -423,6 +426,7 @@ impl MetaFederation {
                     || meet.federation == Federation::RPU
                     || meet.federation == Federation::SCT
                     || meet.federation == Federation::SPSS
+                    || meet.federation == Federation::WPARUS
                     || meet.federation == Federation::WPCRUS
                     || meet.federation == Federation::WRPF
             }
