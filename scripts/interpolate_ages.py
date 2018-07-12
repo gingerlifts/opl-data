@@ -466,28 +466,29 @@ def interpolate_ages(LifterAgeHash, MeetDateHash):
     global BY_IDX
 
     for lifter in LifterAgeHash:
-        # Create an array of age data sorted by date
-        lifter_data = []
-        for age_data in LifterAgeHash[lifter]:
-            # Replace the meet ID with the meet date and append the meet ID to the end
-            lifter_data.append(age_data[:DATE_IDX]+[MeetDateHash[age_data[DATE_IDX]]]
-                               + age_data[DATE_IDX+1:] + [age_data[DATE_IDX]])
+        if lifter >0:
+            # Create an array of age data sorted by date
+            lifter_data = []
+            for age_data in LifterAgeHash[lifter]:
+                # Replace the meet ID with the meet date and append the meet ID to the end
+                lifter_data.append(age_data[:DATE_IDX]+[MeetDateHash[age_data[DATE_IDX]]]
+                                   + age_data[DATE_IDX+1:] + [age_data[DATE_IDX]])
 
-        lifter_data.sort(key=lambda x: x[DATE_IDX])
+            lifter_data.sort(key=lambda x: x[DATE_IDX])
+            #print(lifter_data)
+            if is_by_consistent(lifter_data) and is_bd_consistent(lifter_data):
+                lifter_data = interpolate_lifter(lifter_data)
+            #print(lifter_data)
+            # Sort by meet ID
+            lifter_data.sort(key=lambda x: x[-1])
 
-        if is_by_consistent(lifter_data) and is_bd_consistent(lifter_data):
-            lifter_data = interpolate_lifter(lifter_data)
+            # Put this data back into the hashmap
+            for ii in range(len(LifterAgeHash[lifter])):
+                LifterAgeHash[lifter][ii][AGE_IDX] = lifter_data[ii][AGE_IDX]
+                LifterAgeHash[lifter][ii][MINAGE_IDX] = lifter_data[ii][MINAGE_IDX]
+                LifterAgeHash[lifter][ii][MAXAGE_IDX] = lifter_data[ii][MAXAGE_IDX]
 
-        # Sort by meet ID
-        lifter_data.sort(key=lambda x: x[-1])
-
-        # Put this data back into the hashmap
-        for ii in range(len(LifterAgeHash[lifter])):
-            LifterAgeHash[lifter][ii][AGE_IDX] = lifter_data[ii][AGE_IDX]
-            LifterAgeHash[lifter][ii][MINAGE_IDX] = lifter_data[ii][MINAGE_IDX]
-            LifterAgeHash[lifter][ii][MAXAGE_IDX] = lifter_data[ii][MAXAGE_IDX]
-
-            LifterAgeHash[lifter][ii][BY_IDX] = lifter_data[ii][BY_IDX]
+                LifterAgeHash[lifter][ii][BY_IDX] = lifter_data[ii][BY_IDX]
 
     return LifterAgeHash
 
