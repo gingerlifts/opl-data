@@ -11,7 +11,7 @@ Dimitri Kukharenko,M,49,76.2,82.5,M2,,,,,,-180,180,-200,,180,,,,,,180,1,Multi-pl
 Mieczyslaw Maczka,M,63,82.2,82.5,M5,,,,,,100,,,,100,,,,,,100,1,Multi-ply,B,Germany
 Jose Ramon Sanchez Medina,M,40,85.5,90,M1,,,,,,-150,-150,150,,150,,,,,,150,1,Multi-ply,B,Spain
 Alexis Andres,M,45,85.1,90,M2,,,,,,152.5,157.5,160,,160,,,,,,160,1,Multi-ply,B,France
-Robert kanclerz,M,40,95.7,100,M1,,,,,,185,195,202.5,,202.5,,,,,,202.5,1,Multi-ply,B,Poland
+Robert Kanclerz,M,40,95.7,100,M1,,,,,,185,195,202.5,,202.5,,,,,,202.5,1,Multi-ply,B,Poland
 Christian Vagner,M,46,95.7,100,M2,,,,,,160,170,-180,,170,,,,,,170,1,Multi-ply,B,France
 Franciszek Szabluk,M,61,98.5,100,M5,,,,,,210,-220,-220,,210,,,,,,210,1,Multi-ply,B,Poland
 Jani Ihalainen,M,42,106.1,110,M1,,,,,,200,,,,200,,,,,,200,1,Multi-ply,B,Finland
@@ -36,7 +36,6 @@ Veronika Zemanova,F,36,68.1,75,FO,,,,,,,,,,,150,170,185,,185,185,1,Raw,D,Czech
 Pauliina Loponen,F,24,70.8,75,FO,,,,,,,,,,,130,-152.5,157.5,,157.5,157.5,2,Raw,D,Finland
 Virpi Knuutila,F,50,81,82.5,F3,,,,,,,,,,,205,220,-230,,220,220,1,Raw,D,Finland
 Andreja Valant,F,37,87.2,90,FO,,,,,,,,,,,150,160,-170,,160,160,1,Raw,D,Slovenia
-,,,,,,,,,,,,,,,,,,,,,,DQ,Raw,D,
 Pavel Balazik,M,38,55.3,56,MO,,,,,,,,,,,140,147.5,-155,,147.5,147.5,1,Raw,D,Slovakia
 George Cole,M,26,55.6,56,MO,,,,,,,,,,,125,132.5,-140,,132.5,132.5,2,Raw,D,GB
 Jason Bar,M,15,56.4,60,MT1,,,,,,,,,,,90,-102.5,,,90,90,1,Raw,D,France
@@ -95,7 +94,7 @@ Dana Beskova,F,63,55.9,56,F5,,,,,,35,-40,-40,,35,,,,,,35,1,Raw,B,Czech
 Fatiha Chettibi,F,27,56.8,60,FO,,,,,,85,90,-92.5,,90,,,,,,90,1,Raw,B,France
 Veronika Zemanova,F,36,68.4,75,FO,,,,,,-85,95,-102.5,,95,,,,,,95,1,Raw,B,Czech
 Paulina Loponen,F,24,71.5,75,FO,,,,,,70,-85.5,-85.5,,70,,,,,,70,2,Raw,B,Finland
-Marianne Hartio,F,25,70.6,75,FO,,,,,,-90,-95,-95,,0,,,,,,,DQ,Raw,B,Finland
+Marianne Hartio,F,25,70.6,75,FO,,,,,,-90,-95,-95,,,,,,,,,DQ,Raw,B,Finland
 Blandine Deprez,F,32,78,82.5,FO,,,,,,62.5,-67.5,-67.5,,62.5,,,,,,62.5,1,Raw,B,France
 Andreja Valant,F,37,86.7,90,FO,,,,,,60,-67.5,-67.5,,60,,,,,,60,1,Raw,B,Slovenia
 Charlotte Wareing,F,55,105,110,F4,,,,,,100,105,-107.5,,105,,,,,,105,1,Raw,B,GB
@@ -192,7 +191,7 @@ Ivan Stankovic,M,43,74.3,75,M1,210,225,235,-242.5,235,,,,,,,,,,,235,1,Wraps,S,Se
 Aldo Michaux,M,42,72,75,M1,160,170,180,,180,,,,,,,,,,,180,1,Wraps,S,France
 Guylhem Feraud,M,73,73.3,75,M7,115,125,-135,,125,,,,,,,,,,,125,1,Wraps,S,France
 Isaac Walker,M,26,78.7,82.5,MO,160,175,200,,200,,,,,,,,,,,200,1,Wraps,S,Ireland
-Bertrand couvercelle,M,40,80.9,82.5,M1,187.5,200,-210,,200,,,,,,,,,,,200,1,Wraps,S,France
+Bertrand Couvercelle,M,40,80.9,82.5,M1,187.5,200,-210,,200,,,,,,,,,,,200,1,Wraps,S,France
 Mieczyslaw Maczka,M,63,82.2,82.5,M5,100,,,,100,,,,,,,,,,,100,1,Wraps,S,Germany
 Bill Healy,M,68,81,82.5,M6,195,205,-215,,205,,,,,,,,,,,205,1,Wraps,S,Ireland
 Konrad Majocha,M,20,88.8,90,MJ,170,185,200,,200,,,,,,,,,,,200,1,Wraps,S,Poland
@@ -280,7 +279,7 @@ Steven Sepp,M,25,89,90,MO,230,240,250,,250,160,165,-167.5,,165,260,280,-285,,280
 Fabrice Logli,M,27,89.8,90,MO,220,230,235,,235,155,165,-170,,165,230,247.5,255,,255,655,3,Wraps,SBD,France
 Jani Loippo,M,26,89.3,90,MO,160,-190,190,,190,160,170,-180,,170,220,250,-260,,250,610,4,Wraps,SBD,Finland
 Sebastien Guerin,M,31,86.9,90,MO,185,-195,-195,,185,160,-167.5,-167.5,,160,220,230,-250,,230,575,5,Wraps,SBD,France
-Claude N Goma,M,28,87.4,90,MO,-180,-180,-180,,,130,-135,135,,135,-180,,,,,,D,Wraps,SBD,France
+Claude N Goma,M,28,87.4,90,MO,-180,-180,-180,,,130,-135,135,,135,-180,,,,,,DQ,Wraps,SBD,France
 Thierry le Roy,M,44,88.5,90,M1,180,200,215,,215,130,140,150,,150,230,240,-245,,240,605,1,Wraps,SBD,France
 Peter Herak,M,57,87.7,90,M4,-230,-230,230,,230,122.5,127.5,130,,130,230,240,250,,250,610,1,Wraps,SBD,Slovakia
 Peter Kutner,M,68,83.1,90,M6,145,155,162.5,,162.5,70,77.5,-82.5,,77.5,175,185,-195,,185,425,1,Wraps,SBD,Czech
@@ -303,7 +302,7 @@ Jason Torche,M,32,103.7,110,MO,-265,265,282.5,,282.5,200,-215,-215,,200,280,300,
 Alexandar Pelovski,M,26,110,110,MO,-270,270,-290,,270,200,-205,-205,,200,-290,290,315,,315,785,2,Wraps,SBD,Bulgaria
 Robert Masson,M,27,105.1,110,MO,310,325,0,,325,160,165,167.5,,167.5,280,290,-297.5,,290,782.5,3,Wraps,SBD,GB
 Dmytro Hotlashov,M,32,108.7,110,MO,-285,285,300,,300,160,-170,-170,,160,292.5,-302.5,-305,,292.5,752.5,4,Wraps,SBD,Ukraine
-Mehdy Ait Mohamed ,M,31,104.8,110,MO,215,232.5,242.5,,242.5,160,-170,170,,170,290,305,312.5,,312.5,725,5,Wraps,SBD,France
+Mehdy Ait Mohamed,M,31,104.8,110,MO,215,232.5,242.5,,242.5,160,-170,170,,170,290,305,312.5,,312.5,725,5,Wraps,SBD,France
 Nikola Saric,M,23,121.3,125,MJ,295,320,330,-340,330,195,-202.5,202.5,-213,202.5,280,300,307.5,,307.5,840,1,Wraps,SBD,Serbia
 Gregory Gossec,M,22,120.5,125,MJ,255,270,-275,,270,160,170,-172.5,,170,260,-270,,,260,700,2,Wraps,SBD,France
 Jan Suda,M,39,116.8,125,MO,280,302.5,315,,315,177.5,185,190,,190,270,285,-300,,285,790,1,Wraps,SBD,Czech
