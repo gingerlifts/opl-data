@@ -1,0 +1,95 @@
+﻿Name,WeightClassLBS,BodyweightLBS,Age,State,BestSquatLBS,BestBenchLBS,BestDeadliftLBS,TotalLBS,Event,Sex,Division
+James Holden,148,143.7,33,MS,314.2,214.9,385.8,914.9,SBD,M,Open
+Brandon Maddox,148,146.6,22,AL,485,391.3,540.1,1416.4,SBD,M,Open
+Nathan Pham,165,162.1,21,LA,385.8,270.1,473.9,1129.8,SBD,M,Open
+Ronald Tarvin,165,160.6,25,AL,463,347.2,562.1,1372.3,SBD,M,Open
+Avery Vodanovich,165,155.9,20,LA,429.9,297.6,402.3,1129.8,SBD,M,Open
+Jeremiah Christian,181,176.5,28,AL,391.3,264.6,512.6,1168.5,SBD,M,Open
+Zachary Cutts,181,178,26,FL,,,,,SBD,M,Open
+Luke Jarvis,181,177.8,23,FL,396.8,314.2,512.6,1223.6,SBD,M,Open
+Nicholas Royster,181,177.2,21,FL,,,,,SBD,M,Open
+Trevor Schmitt,181,175.4,23,AL,424.4,275.6,468.5,1168.5,SBD,M,Open
+Dalton Tho-Creech,181,178.4,22,AL,440.9,303.1,440.9,1184.9,SBD,M,Open
+Greg Fields,198,196.1,39,GA,600.7,393.3,600.7,1570.7,SBD,M,Open
+David Grace,198,195.6,22,AL,473.9,,,,SBD,M,Open
+De'Jon Holmes,198,198.2,22,LA,523.6,325.2,661.4,1501.2,SBD,M,Open
+Darrell Mixon,198,193.7,30,FL,374.8,391.3,518,1284.1,SBD,M,Open
+John Sharpe,198,195.2,30,FL,347.2,270.1,457.5,1074.8,SBD,M,Open
+Kyle Mccanless,220,218.7,28,TN,677.9,352.7,677.9,1708.5,SBD,M,Open
+Peyton Cox,220,218.9,18,TN,650.3,369.3,699.9,1719.5,SBD,M,Open
+Tee Cummins,220,220,22,MS,777.1,446.4,705.5,1929,SBD,M,Open
+Matthew Linder,220,213.2,28,LA,413.4,275.6,473.9,1162.9,SBD,M,Open
+Ron McLeod,220,218.3,50,FL,457.5,374.8,501.5,1333.8,SBD,M,Open
+Dusty Smith,220,216.3,32,AL,589.7,457.5,611.7,1658.9,SBD,M,Open
+Jimmy Bryan,242,237.6,44,MS,600.7,468.5,578.7,1647.9,SBD,M,Open
+Shyam Deolalikar,242,239.8,21,LA,264.6,187.4,507,959,SBD,M,Open
+Michael Fraiser,275,251.7,24,FL,,,,,SBD,M,Open
+Kirby White,275,260.4,36,AL,633.8,578.7,501.5,1714,SBD,M,Open
+Greg Brown,308,284,43,FL,,,,,SBD,M,Open
+Keithon Burnette,308,279.7,28,MS,496,402.3,490.5,1388.8,SBD,M,Open
+Nick Chaprales,308,292.1,28,MA,722,457.5,749.6,1929.1,SBD,M,Open
+Alexis Diaz,308,286.6,32,LA,600.7,473.9,633.8,1708.4,SBD,M,Open
+Billy Hyler,308,276.8,23,FL,,,,,SBD,M,Open
+Donny Moran,308,297,30,MS,705.5,402.3,782.6,1890.4,SBD,M,Open
+Malcolm Small,308,284.6,42,FL,,,,,SBD,M,Open
+Jared Migues,308+,355.2,28,MS,738.5,457.5,755.1,1951.1,SBD,M,Open
+Gus Munoz,308+,313.6,26,FL,600.7,402.3,744,1747,SBD,M,Open
+Jimmy Bryan,242,237.6,44,MS,600.7,468.5,578.7,1647.9,SBD,M,Master (40-44)
+James Flowers,242,241.9,49,AL,501.5,435.4,,,SBD,M,Master (45-49)
+Chris Grizzard,220,208.2,42,MS,446.4,297.6,501.5,1245.5,SBD,M,Master (40-44)
+Ron McLeod,220,218.3,50,FL,457.5,374.8,501.5,1333.8,SBD,M,Master (50-54)
+Michael Nowak,242,233,45,FL,275.6,253.5,501.5,1030.6,SBD,M,Master (45-49)
+Ronald Squire,242,233.1,52,FL,,,,,SBD,M,Master (50-54)
+Steve Waters,242,232.2,53,GA,884.1,424.4,540.1,1515.6,SBD,M,Master (50-54)
+Greg Brown,308,284,43,FL,,,,,SBD,M,Master (40-44)
+Malcolm Small,308,284.6,42,Fl,479.5,396.8,,,SBD,M,Master (40-44)
+Derek Hered,165,162.8,19,FL,369.3,237,429.9,1036.2,SBD,M,Teenage (18-19)
+Dustyn Khalilzadeh,198,190.6,18,AL,358.2,270.1,479.5,1107.8,SBD,M,Teenage (18-19)
+Kanarisso Loveless,181,180.4,19,FL,369.3,325.2,463,1157.5,SBD,M,Teenage (18-19)
+Jacob Heim,242,238.7,18,FL,303.1,226,435.4,964.5,SBD,M,Teenage (18-19)
+Wyatt Reed,275,270.1,18,FL,314.2,589.8,385.8,975.6,SBD,M,Teenage (18-19)
+Landon Hoornstra,97,58.6,9,FL,77.2,,93.7,170.9,SBD,M,Youth (8-10)
+Meredith Pastucha,105,104.8,24,FL,181.9,121.3,292.1,595.3,SBD,F,Open
+Cristiane Barragan,114,114.2,38,FL,165.3,82.7,192.9,440.9,SBD,F,Open
+Marsha Long,114,113.7,54,AL,281.1,181.9,292.1,755.1,SBD,F,Open
+Diem Presley,114,113.3,40,FL,165.3,104.7,281.1,551.1,SBD,F,Open
+Jessica Flesher,123,116.2,24,MS,23.5,99.2,253.5,584.2,SBD,F,Open
+Kourtney Kuehn,123,123,26,MS,297.6,176.4,341.7,815.7,SBD,F,Open
+Melissa Mclaney,123,122.6,38,AL,220.5,137.8,237,595.3,SBD,F,Open
+Leah Benoit,148,14.04,27,MS,314.2,159.8,330.7,804.7,SBD,F,Open
+Lindsay Sport,148,136.5,28,AL,303.1,159.8,341.7,804.7,SBD,F,Open
+Kimmy A. Brooks,165,161.9,27,LA,264.6,143.3,347.2,755.1,SBD,F,Open
+Taylor Bryan,165,160.1,23,MS,303.1,176.4,325.2,804.7,SBD,F,Open
+Kaitlin Foster,165,162.5,25,TN,308.6,159.8,363.8,832.2,SBD,F,Open
+Tara  Nissan,165,160.9,43,AL,242.5,148.8,308.6,699.9,SBD,F,Open
+Michelle Chaney,181,179.7,30,FL,220.5,126.8,286.6,633.9,SBD,F,Open
+Sarah Cutts,181,170.9,24,FL,253.5,165.3,303.1,721.9,SBD,F,Open
+Sara Denham,181,175.9,38,MS,165.3,104.7,203.9,473.9,SBD,F,Open
+Kerrie Gelb,181,168.8,43,FL,242.5,126.8,303.1,672.4,SBD,F,Open
+Shelly DePiazza,198,197,31,FL,248,137.8,281.1,666.9,SBD,F,Open
+Shonna Gist,198+,279.9,28,FL,374.8,187.4,352.7,914.9,SBD,F,Open
+Marsha Long,114,113.7,54,AL,281.1,181.9,292.1,755.1,SBD,F,Master (50-54)
+Kelly Melendez,148,146.7,55,FL,,,,,SBD,F,Master (55-59)
+Elizabeth Shipley,181,171.3,42,FL,203.9,121.3,270,595.3,SBD,F,Master (40-44)
+Kerrie Gelb,181,168.8,43,FL,242.5,126.8,303.1,672.4,SBD,F,Master (40-44)
+Jennifer L. Hesters,275,243.8,42,FL,187.4,237,347.2,771.6,SBD,F,Master (40-44)
+Mary K. Sittman,165,161.4,68,FL,115.7,60.6,165.3,341.6,SBD,F,Master (65-69)
+Elisa Helton,165,155.4,17,MS,259,132.3,270.1,661.4,SBD,F,Teenage (16-17)
+Bill Lowrance,165,163.9,37,LA,,330.7,,330.7,B,M,Open
+Kanarisso Loveless,181,180.4,19,FL,,325.2,,325.2,B,M,Open
+Colton Seymour,242,241,26,MS,,385.8,,385.8,B,M,Open
+Tyler Brooks,275,266.8,29,LA,,463,,463,B,M,Open
+Jeremy Hoornstra,275,265.9,33,FL,,650.3,,650.3,B,M,Open
+Nick Chaprales,308,292.1,28,MA,,457.5,,457.5,B,M,Open
+Billy Hyler,308,276.8,23,FL,,457.5,,457.5,B,M,Open
+Steve Waters,242,232.2,53,GA,,424.4,,424.4,B,M,Master (50-54)
+Roland Deale,275,250.2,53,FL,,463,,463,B,M,Master (50-54)
+Marsha Long,114,113.7,54,AL,,181.9,,181.9,B,F,Master (50-54)
+Ronald  Tarvin,165,160.6,25,AL,,,562.1,562.1,D,M,Open
+Dan Belanger,181,176.5,52,FL,,,501.5,501.5,D,M,Open
+Colton Seymour,242,241,26,MS,,,617.2,617.2,D,M,Open
+De'Jon Holmes,198,198.2,22,LA,,,655.8,655.8,D,M,Open
+Tyler Brooks,275,266.8,29,LA,,,683.4,683.4,D,M,Open
+Nick Chaprales,308,292.1,28,MA,,,749.6,749.6,D,M,Open
+Donny Moran,308,297,30,MS,,,782.6,782.6,D,M,Open
+Dan Belanger,181,176.5,52,FL,,,501.5,501.5,D,M,Master (50-54)
