@@ -1,95 +1,95 @@
-﻿Name,WeightClassLBS,BodyweightLBS,Age,State,BestSquatLBS,BestBenchLBS,BestDeadliftLBS,TotalLBS,Event,Sex,Division,Equipment
-James Holden,148,143.7,33,MS,314.2,214.9,385.8,914.9,SBD,M,Open,Wraps
-Brandon Maddox,148,146.6,22,AL,485,391.3,540.1,1416.4,SBD,M,Open,Wraps
-Nathan Pham,165,162.1,21,LA,385.8,270.1,473.9,1129.8,SBD,M,Open,Wraps
-Ronald Tarvin,165,160.6,25,AL,463,347.2,562.1,1372.3,SBD,M,Open,Wraps
-Avery Vodanovich,165,155.9,20,LA,429.9,297.6,402.3,1129.8,SBD,M,Open,Wraps
-Jeremiah Christian,181,176.5,28,AL,391.3,264.6,512.6,1168.5,SBD,M,Open,Wraps
-Zachary Cutts,181,178,26,FL,,,,,SBD,M,Open,Wraps
-Luke Jarvis,181,177.8,23,FL,396.8,314.2,512.6,1223.6,SBD,M,Open,Wraps
-Nicholas Royster,181,177.2,21,FL,,,,,SBD,M,Open,Wraps
-Trevor Schmitt,181,175.4,23,AL,424.4,275.6,468.5,1168.5,SBD,M,Open,Wraps
-Dalton Tho-Creech,181,178.4,22,AL,440.9,303.1,440.9,1184.9,SBD,M,Open,Wraps
-Greg Fields,198,196.1,39,GA,600.7,393.3,600.7,1570.7,SBD,M,Open,Wraps
-David Grace,198,195.6,22,AL,473.9,,,,SBD,M,Open,Wraps
-De'Jon Holmes,198,198.2,22,LA,523.6,325.2,661.4,1501.2,SBD,M,Open,Wraps
-Darrell Mixon,198,193.7,30,FL,374.8,391.3,518,1284.1,SBD,M,Open,Wraps
-John Sharpe,198,195.2,30,FL,347.2,270.1,457.5,1074.8,SBD,M,Open,Wraps
-Kyle Mccanless,220,218.7,28,TN,677.9,352.7,677.9,1708.5,SBD,M,Open,Wraps
-Peyton Cox,220,218.9,18,TN,650.3,369.3,699.9,1719.5,SBD,M,Open,Wraps
-Tee Cummins,220,220,22,MS,777.1,446.4,705.5,1929,SBD,M,Open,Wraps
-Matthew Linder,220,213.2,28,LA,413.4,275.6,473.9,1162.9,SBD,M,Open,Wraps
-Ron McLeod,220,218.3,50,FL,457.5,374.8,501.5,1333.8,SBD,M,Open,Wraps
-Dusty Smith,220,216.3,32,AL,589.7,457.5,611.7,1658.9,SBD,M,Open,Wraps
-Jimmy Bryan,242,237.6,44,MS,600.7,468.5,578.7,1647.9,SBD,M,Open,Wraps
-Shyam Deolalikar,242,239.8,21,LA,264.6,187.4,507,959,SBD,M,Open,Wraps
-Michael Fraiser,275,251.7,24,FL,,,,,SBD,M,Open,Wraps
-Kirby White,275,260.4,36,AL,633.8,578.7,501.5,1714,SBD,M,Open,Wraps
-Greg Brown,308,284,43,FL,,,,,SBD,M,Open,Wraps
-Keithon Burnette,308,279.7,28,MS,496,402.3,490.5,1388.8,SBD,M,Open,Wraps
-Nick Chaprales,308,292.1,28,MA,722,457.5,749.6,1929.1,SBD,M,Open,Wraps
-Alexis Diaz,308,286.6,32,LA,600.7,473.9,633.8,1708.4,SBD,M,Open,Wraps
-Billy Hyler,308,276.8,23,FL,,,,,SBD,M,Open,Wraps
-Donny Moran,308,297,30,MS,705.5,402.3,782.6,1890.4,SBD,M,Open,Wraps
-Malcolm Small,308,284.6,42,FL,,,,,SBD,M,Open,Wraps
-Jared Migues,308+,355.2,28,MS,738.5,457.5,755.1,1951.1,SBD,M,Open,Wraps
-Gus Munoz,308+,313.6,26,FL,600.7,402.3,744,1747,SBD,M,Open,Wraps
-Jimmy Bryan,242,237.6,44,MS,600.7,468.5,578.7,1647.9,SBD,M,Master (40-44),Wraps
-James Flowers,242,241.9,49,AL,501.5,435.4,,,SBD,M,Master (45-49),Wraps
-Chris Grizzard,220,208.2,42,MS,446.4,297.6,501.5,1245.5,SBD,M,Master (40-44),Wraps
-Ron McLeod,220,218.3,50,FL,457.5,374.8,501.5,1333.8,SBD,M,Master (50-54),Wraps
-Michael Nowak,242,233,45,FL,275.6,253.5,501.5,1030.6,SBD,M,Master (45-49),Wraps
-Ronald Squire,242,233.1,52,FL,,,,,SBD,M,Master (50-54),Wraps
-Steve Waters,242,232.2,53,GA,884.1,424.4,540.1,1515.6,SBD,M,Master (50-54),Wraps
-Greg Brown,308,284,43,FL,,,,,SBD,M,Master (40-44),Wraps
-Malcolm Small,308,284.6,42,Fl,479.5,396.8,,,SBD,M,Master (40-44),Wraps
-Derek Hered,165,162.8,19,FL,369.3,237,429.9,1036.2,SBD,M,Teenage (18-19),Wraps
-Dustyn Khalilzadeh,198,190.6,18,AL,358.2,270.1,479.5,1107.8,SBD,M,Teenage (18-19),Wraps
-Kanarisso Loveless,181,180.4,19,FL,369.3,325.2,463,1157.5,SBD,M,Teenage (18-19),Wraps
-Jacob Heim,242,238.7,18,FL,303.1,226,435.4,964.5,SBD,M,Teenage (18-19),Wraps
-Wyatt Reed,275,270.1,18,FL,314.2,589.8,385.8,975.6,SBD,M,Teenage (18-19),Wraps
-Landon Hoornstra,97,58.6,9,FL,77.2,,93.7,170.9,SBD,M,Youth (8-10),Wraps
-Meredith Pastucha,105,104.8,24,FL,181.9,121.3,292.1,595.3,SBD,F,Open,Wraps
-Cristiane Barragan,114,114.2,38,FL,165.3,82.7,192.9,440.9,SBD,F,Open,Wraps
-Marsha Long,114,113.7,54,AL,281.1,181.9,292.1,755.1,SBD,F,Open,Wraps
-Diem Presley,114,113.3,40,FL,165.3,104.7,281.1,551.1,SBD,F,Open,Wraps
-Jessica Flesher,123,116.2,24,MS,23.5,99.2,253.5,584.2,SBD,F,Open,Wraps
-Kourtney Kuehn,123,123,26,MS,297.6,176.4,341.7,815.7,SBD,F,Open,Wraps
-Melissa Mclaney,123,122.6,38,AL,220.5,137.8,237,595.3,SBD,F,Open,Wraps
-Leah Benoit,148,14.04,27,MS,314.2,159.8,330.7,804.7,SBD,F,Open,Wraps
-Lindsay Sport,148,136.5,28,AL,303.1,159.8,341.7,804.7,SBD,F,Open,Wraps
-Kimmy A. Brooks,165,161.9,27,LA,264.6,143.3,347.2,755.1,SBD,F,Open,Wraps
-Taylor Bryan,165,160.1,23,MS,303.1,176.4,325.2,804.7,SBD,F,Open,Wraps
-Kaitlin Foster,165,162.5,25,TN,308.6,159.8,363.8,832.2,SBD,F,Open,Wraps
-Tara  Nissan,165,160.9,43,AL,242.5,148.8,308.6,699.9,SBD,F,Open,Wraps
-Michelle Chaney,181,179.7,30,FL,220.5,126.8,286.6,633.9,SBD,F,Open,Wraps
-Sarah Cutts,181,170.9,24,FL,253.5,165.3,303.1,721.9,SBD,F,Open,Wraps
-Sara Denham,181,175.9,38,MS,165.3,104.7,203.9,473.9,SBD,F,Open,Wraps
-Kerrie Gelb,181,168.8,43,FL,242.5,126.8,303.1,672.4,SBD,F,Open,Wraps
-Shelly DePiazza,198,197,31,FL,248,137.8,281.1,666.9,SBD,F,Open,Wraps
-Shonna Gist,198+,279.9,28,FL,374.8,187.4,352.7,914.9,SBD,F,Open,Wraps
-Marsha Long,114,113.7,54,AL,281.1,181.9,292.1,755.1,SBD,F,Master (50-54),Wraps
-Kelly Melendez,148,146.7,55,FL,,,,,SBD,F,Master (55-59),Wraps
-Elizabeth Shipley,181,171.3,42,FL,203.9,121.3,270,595.3,SBD,F,Master (40-44),Wraps
-Kerrie Gelb,181,168.8,43,FL,242.5,126.8,303.1,672.4,SBD,F,Master (40-44),Wraps
-Jennifer L. Hesters,275,243.8,42,FL,187.4,237,347.2,771.6,SBD,F,Master (40-44),Wraps
-Mary K. Sittman,165,161.4,68,FL,115.7,60.6,165.3,341.6,SBD,F,Master (65-69),Wraps
-Elisa Helton,165,155.4,17,MS,259,132.3,270.1,661.4,SBD,F,Teenage (16-17),Wraps
-Bill Lowrance,165,163.9,37,LA,,330.7,,330.7,B,M,Open,Raw
-Kanarisso Loveless,181,180.4,19,FL,,325.2,,325.2,B,M,Open,Raw
-Colton Seymour,242,241,26,MS,,385.8,,385.8,B,M,Open,Raw
-Tyler Brooks,275,266.8,29,LA,,463,,463,B,M,Open,Raw
-Jeremy Hoornstra,275,265.9,33,FL,,650.3,,650.3,B,M,Open,Raw
-Nick Chaprales,308,292.1,28,MA,,457.5,,457.5,B,M,Open,Raw
-Billy Hyler,308,276.8,23,FL,,457.5,,457.5,B,M,Open,Raw
-Steve Waters,242,232.2,53,GA,,424.4,,424.4,B,M,Master (50-54),Raw
-Roland Deale,275,250.2,53,FL,,463,,463,B,M,Master (50-54),Raw
-Marsha Long,114,113.7,54,AL,,181.9,,181.9,B,F,Master (50-54),Raw
-Ronald  Tarvin,165,160.6,25,AL,,,562.1,562.1,D,M,Open,Raw
-Dan Belanger,181,176.5,52,FL,,,501.5,501.5,D,M,Open,Raw
-Colton Seymour,242,241,26,MS,,,617.2,617.2,D,M,Open,Raw
-De'Jon Holmes,198,198.2,22,LA,,,655.8,655.8,D,M,Open,Raw
-Tyler Brooks,275,266.8,29,LA,,,683.4,683.4,D,M,Open,Raw
-Nick Chaprales,308,292.1,28,MA,,,749.6,749.6,D,M,Open,Raw
-Donny Moran,308,297,30,MS,,,782.6,782.6,D,M,Open,Raw
-Dan Belanger,181,176.5,52,FL,,,501.5,501.5,D,M,Master (50-54),Raw
+Name,WeightClassKg,BodyweightKg,Age,State,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Sex,Division,Equipment,Place
+James Holden,67.5,65.18,33,MS,142.5,97.5,175,415,SBD,M,Open,Wraps,2
+Brandon Maddox,67.5,66.5,22,AL,220,177.5,245,642.5,SBD,M,Open,Wraps,1
+Nathan Pham,75,73.53,21,LA,175,122.5,215,512.5,SBD,M,Open,Wraps,3
+Ronald Tarvin,75,72.85,25,AL,210,157.5,255,622.5,SBD,M,Open,Wraps,1
+Avery Vodanovich,75,70.72,20,LA,195,135,182.5,512.5,SBD,M,Open,Wraps,2
+Jeremiah Christian,82.5,80.06,28,AL,177.5,120,232.5,530,SBD,M,Open,Wraps,4
+Zachary Cutts,82.5,80.74,26,FL,,,,,SBD,M,Open,Wraps,DQ
+Luke Jarvis,82.5,80.65,23,FL,180,142.5,232.5,555,SBD,M,Open,Wraps,1
+Nicholas Royster,82.5,80.38,21,FL,,,,,SBD,M,Open,Wraps,DQ
+Trevor Schmitt,82.5,79.56,23,AL,192.5,125,212.5,530,SBD,M,Open,Wraps,3
+Dalton Tho-Creech,82.5,80.92,22,AL,200,137.5,200,537.5,SBD,M,Open,Wraps,2
+Greg Fields,90,88.95,39,GA,272.5,178.5,272.5,723.5,SBD,M,Open,Wraps,1
+David Grace,90,88.72,22,AL,215,,,,SBD,M,Open,Wraps,DQ
+De'Jon Holmes,90,89.9,22,LA,237.5,147.5,300,685,SBD,M,Open,Wraps,2
+Darrell Mixon,90,87.86,30,FL,170,177.5,235,582.5,SBD,M,Open,Wraps,3
+John Sharpe,90,88.54,30,FL,157.5,122.5,207.5,487.5,SBD,M,Open,Wraps,4
+Kyle Mccanless,100,99.2,28,TN,307.5,160,307.5,775,SBD,M,Open,Wraps,3
+Peyton Cox,100,99.29,18,TN,295,167.5,317.5,780,SBD,M,Open,Wraps,2
+Tee Cummins,100,99.79,22,MS,352.5,202.5,320,875,SBD,M,Open,Wraps,1
+Matthew Linder,100,96.71,28,LA,187.5,125,215,527.5,SBD,M,Open,Wraps,6
+Ron McLeod,100,99.02,50,FL,207.5,170,227.5,605,SBD,M,Open,Wraps,5
+Dusty Smith,100,98.11,32,AL,267.5,207.5,277.5,752.5,SBD,M,Open,Wraps,4
+Jimmy Bryan,110,107.77,44,MS,272.5,212.5,262.5,747.5,SBD,M,Open,Wraps,1
+Shyam Deolalikar,110,108.77,21,LA,120,85,230,435,SBD,M,Open,Wraps,2
+Michael Fraiser,125,114.17,24,FL,,,,,SBD,M,Open,Wraps,DQ
+Kirby White,125,118.12,36,AL,287.5,262.5,227.5,777.5,SBD,M,Open,Wraps,1
+Greg Brown,140,128.82,43,FL,,,,,SBD,M,Open,Wraps,DQ
+Keithon Burnette,140,126.87,28,MS,225,182.5,222.5,630,SBD,M,Open,Wraps,4
+Nick Chaprales,140,132.49,28,MA,327.5,207.5,340,875,SBD,M,Open,Wraps,1
+Alexis Diaz,140,130,32,LA,272.5,215,287.5,775,SBD,M,Open,Wraps,3
+Billy Hyler,140,125.55,23,FL,,,,,SBD,M,Open,Wraps,DQ
+Donny Moran,140,134.72,30,MS,320,182.5,355,857.5,SBD,M,Open,Wraps,2
+Malcolm Small,140,129.09,42,FL,,,,,SBD,M,Open,Wraps,DQ
+Jared Migues,140+,161.12,28,MS,335,207.5,342.5,885,SBD,M,Open,Wraps,1
+Gus Munoz,140+,142.25,26,FL,272.5,182.5,337.5,792.5,SBD,M,Open,Wraps,2
+Jimmy Bryan,110,107.77,44,MS,272.5,212.5,262.5,747.5,SBD,M,Masters 40-44,Wraps,1
+James Flowers,110,109.72,49,AL,227.5,197.5,,,SBD,M,Masters 45-49,Wraps,DQ
+Chris Grizzard,100,94.44,42,MS,202.5,135,227.5,565,SBD,M,Masters 40-44,Wraps,1
+Ron McLeod,100,99.02,50,FL,207.5,170,227.5,605,SBD,M,Masters 50-54,Wraps,1
+Michael Nowak,110,105.69,45,FL,125,115,227.5,467.5,SBD,M,Masters 45-49,Wraps,1
+Ronald Squire,110,105.73,52,FL,,,,,SBD,M,Masters 50-54,Wraps,DQ
+Steve Waters,110,105.32,53,GA,250,192.5,245,687.5,SBD,M,Masters 50-54,Wraps,1
+Greg Brown,140,128.82,43,FL,,,,,SBD,M,Masters 40-44,Wraps,DQ
+Malcolm Small,140,129.09,42,Fl,217.5,180,,,SBD,M,Masters 40-44,Wraps,DQ
+Derek Hered,75,73.84,19,FL,167.5,107.5,195,470,SBD,M,Teen 18-19,Wraps,1
+Dustyn Khalilzadeh,90,86.45,18,AL,162.5,122.5,217.5,502.5,SBD,M,Teen 18-19,Wraps,1
+Kanarisso Loveless,82.5,81.83,19,FL,167.5,147.5,210,525,SBD,M,Teen 18-19,Wraps,1
+Jacob Heim,110,108.27,18,FL,137.5,102.5,197.5,437.5,SBD,M,Teen 18-19,Wraps,1
+Wyatt Reed,125,122.52,18,FL,142.5,125,175,442.5,SBD,M,Teen 18-19,Wraps,1
+Landon Hoornstra,44,26.58,9,FL,35,,42.5,77.5,SBD,M,Youth 8-10,Wraps,1
+Meredith Pastucha,48,47.54,24,FL,82.5,55,132.5,270,SBD,F,Open,Wraps,1
+Cristiane Barragan,52,51.8,38,FL,75,37.5,87.5,200,SBD,F,Open,Wraps,3
+Marsha Long,52,51.57,54,AL,127.5,82.5,132.5,342.5,SBD,F,Open,Wraps,1
+Diem Presley,52,51.39,40,FL,75,47.5,127.5,250,SBD,F,Open,Wraps,2
+Jessica Flesher,56,52.71,24,MS,105,45,115,265,SBD,F,Open,Wraps,3
+Kourtney Kuehn,56,55.79,26,MS,135,80,155,370,SBD,F,Open,Wraps,1
+Melissa Mclaney,56,55.61,38,AL,100,62.5,107.5,270,SBD,F,Open,Wraps,2
+Leah Benoit,67.5,63.7,27,MS,142.5,72.5,150,365,SBD,F,Open,Wraps,2
+Lindsay Sport,67.5,61.92,28,AL,137.5,72.5,155,365,SBD,F,Open,Wraps,1
+Kimmy A. Brooks,75,73.44,27,LA,120,65,157.5,342.5,SBD,F,Open,Wraps,3
+Taylor Bryan,75,72.62,23,MS,137.5,80,147.5,365,SBD,F,Open,Wraps,2
+Kaitlin Foster,75,73.71,25,TN,140,72.5,165,377.5,SBD,F,Open,Wraps,1
+Tara Nissan,75,72.98,43,AL,110,67.5,140,317.5,SBD,F,Open,Wraps,4
+Michelle Chaney,82.5,81.51,30,FL,100,57.5,130,287.5,SBD,F,Open,Wraps,3
+Sarah Cutts,82.5,77.52,24,FL,115,75,137.5,327.5,SBD,F,Open,Wraps,1
+Sara Denham,82.5,79.79,38,MS,75,47.5,92.5,215,SBD,F,Open,Wraps,4
+Kerrie Gelb,82.5,76.57,43,FL,110,57.5,137.5,305,SBD,F,Open,Wraps,2
+Shelly DePiazza,90,89.36,31,FL,112.5,62.5,127.5,302.5,SBD,F,Open,Wraps,1
+Shonna Gist,90+,126.96,28,FL,170,85,160,415,SBD,F,Open,Wraps,1
+Marsha Long,52,51.57,54,AL,127.5,82.5,132.5,342.5,SBD,F,Masters 50-54,Wraps,1
+Kelly Melendez,67.5,66.54,55,FL,,,,,SBD,F,Masters 55-59,Wraps,DQ
+Elizabeth Shipley,82.5,77.7,42,FL,92.5,55,122.5,270,SBD,F,Masters 40-44,Wraps,2
+Kerrie Gelb,82.5,76.57,43,FL,110,57.5,137.5,305,SBD,F,Masters 40-44,Wraps,1
+Jennifer L. Hesters,90+,110.59,42,FL,85,107.5,157.5,350,SBD,F,Masters 40-44,Wraps,1
+Mary K. Sittman,75,73.21,68,FL,52.5,27.5,75,155,SBD,F,Masters 65-69,Wraps,1
+Elisa Helton,75,70.49,17,MS,117.5,60,122.5,300,SBD,F,Teen 16-17,Wraps,1
+Bill Lowrance,75,74.34,37,LA,,150,,150,B,M,Open,Raw,1
+Kanarisso Loveless,82.5,81.83,19,FL,,147.5,,147.5,B,M,Open,Raw,1
+Colton Seymour,110,109.32,26,MS,,175,,175,B,M,Open,Raw,1
+Tyler Brooks,125,121.02,29,LA,,210,,210,B,M,Open,Raw,2
+Jeremy Hoornstra,125,120.61,33,FL,,295,,295,B,M,Open,Raw,1
+Nick Chaprales,140,132.49,28,MA,,207.5,,207.5,B,M,Open,Raw,2
+Billy Hyler,140,125.55,23,FL,,207.5,,207.5,B,M,Open,Raw,1
+Steve Waters,110,105.32,53,GA,,192.5,,192.5,B,M,Masters 50-54,Raw,1
+Roland Deale,125,113.49,53,FL,,210,,210,B,M,Masters 50-54,Raw,1
+Marsha Long,52,51.57,54,AL,,82.5,,82.5,B,F,Masters 50-54,Raw,1
+Ronald Tarvin,75,72.85,25,AL,,,255,255,D,M,Open,Raw,1
+Dan Belanger,82.5,80.06,52,FL,,,227.5,227.5,D,M,Open,Raw,1
+Colton Seymour,110,109.32,26,MS,,,280,280,D,M,Open,Raw,1
+De'Jon Holmes,90,89.9,22,LA,,,297.5,297.5,D,M,Open,Raw,1
+Tyler Brooks,125,121.02,29,LA,,,310,310,D,M,Open,Raw,1
+Nick Chaprales,140,132.49,28,MA,,,340,340,D,M,Open,Raw,2
+Donny Moran,140,134.72,30,MS,,,355,355,D,M,Open,Raw,1
+Dan Belanger,82.5,80.06,52,FL,,,227.5,227.5,D,M,Masters 50-54,Raw,1
