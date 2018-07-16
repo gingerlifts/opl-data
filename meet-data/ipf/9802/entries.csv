@@ -1,4 +1,4 @@
-Place,WeightClassKg,Sex,Division,Name,BirthYear,BodyweightKg,Country,Best3SquatKg,Squat4Kg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment
+Place,WeightClassKg,Sex,Division,Name,BirthYear,BodyweightKg,Country,Best3SquatKg,Squat4Kg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Deadlift4Kg
 1,52,M,Open,Andrzej Stanaszek,1971,51,Poland,270,,175,137.5,582.5,SBD,Single-ply
 2,52,M,Open,Hideaki Inaba,1944,51.33,Japan,230,,95,230,555,SBD,Single-ply
 3,52,M,Open,Vidamalai Loganathan,1976,52,India,212.5,,110,230,552.5,SBD,Single-ply
@@ -22,7 +22,7 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,BodyweightKg,Country,Best3SquatK
 7,60,M,Open,Vladimir Morozovs,1968,60,Latvia,225,,130,235,590,SBD,Single-ply
 8,60,M,Open,Leandro Maccari,1979,59.66,Brazil,185,,105,180,470,SBD,Single-ply
 DQ,60,M,Open,Ivelin Petrov,1969,59.6,Bulgaria,,,,,,SBD,Single-ply
-1,67.5,M,Open,Alexey Sivokon,1973,67.3,Kazahkstan,305,316.5,195,300,800,SBD,Single-ply
+1,67.5,M,Open,Alexey Sivokon,1973,67.3,Kazahkstan,305,,195,300,800,SBD,Single-ply,316.5
 2,67.5,M,Open,Wade Hooper,1970,67.1,US.America,305,,190,245,740,SBD,Single-ply
 3,67.5,M,Open,Jarosław Olech,1974,66.9,Poland,290,,157.5,270,717.5,SBD,Single-ply
 4,67.5,M,Open,Chung-Liang Chiu,1974,66.9,Chin.Taipei,245,,152.5,275,672.5,SBD,Single-ply
