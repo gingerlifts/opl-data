@@ -20,7 +20,7 @@ DQ,Yuri Kiselev,M7,Russia,66.2,85,,,85,60,70,,70,,,,,,67.5,M,Юрий Кисел
 2,Artjoms Ignatenko,J,Latvia,74.8,150,160,172.5,172.5,-95,100,110,110,175,195,215,215,497.5,75,M,,1991,Wraps,SBD
 3,Alexei Alexeev Goruho,J,Israel,74.1,-110,110,130,130,110,-120,-120,110,100,130,150,150,390,75,M,,1989,Wraps,SBD
 1,Kevin Stuart,O,Great Britain,74.4,185,192.5,-200,192.5,150,165,172.5,172.5,230,-240,-240,230,595,75,M,,1978,Wraps,SBD
-2,Stanislav Marochko,O,Ukraine,73.7,190,200,-205,200,135,-140,140,140,-210,210,-217.5,210,550,75,M,Станіслав Марочко,1981,Wraps,SBD
+2,Stanislav Marochko,O,Ukraine,73.7,190,200,-205,200,135,-140,140,140,-210,210,-217.5,210,550,75,M,Станислав Марочко,1981,Wraps,SBD
 3,Pavel Tilis,O,Israel,73.55,-180,180,195,195,120,130,-140,130,210,220,-230,220,545,75,M,,1978,Wraps,SBD
 4,Kieran Acott,O,Great Britain,72.4,-160,165,185,185,110,120,-132.5,120,225,,,225,530,75,M,,1978,Wraps,SBD
 1,Alexander Papir,M6,Israel,74.3,95,-110,115,115,92.5,-102.5,,92.5,140,,,140,347.5,75,M,,1945,Wraps,SBD
@@ -36,7 +36,7 @@ DQ,Yuri Kiselev,M7,Russia,66.2,85,,,85,60,70,,70,,,,,,67.5,M,Юрий Кисел
 1,Jan Jíša,J,Czech Republic,88.7,200,220,230,230,130,140,142.5,142.5,220,240,250,250,622.5,90,M,,1988,Wraps,SBD
 DQ,Javidan Ramazanov,J,Azerbaijan,90,-130,-130,,,,,,,,,,,,90,M,,1989,Wraps,SBD
 1,Aleksey Bazhenov,O,Russia,88.9,230,240,247.5,247.5,170,180,187.5,187.5,250,260,-267.5,260,695,90,M,Алексей Баженов,1977,Wraps,SBD
-2,Martin Kostlan,O,Czech Republic,87.2,170,180,-190,180,130,137.5,-142.5,137.5,220,240,250,250,567.5,90,M,,1987,Wraps,SBD
+2,Martin Kostlán,O,Czech Republic,87.2,170,180,-190,180,130,137.5,-142.5,137.5,220,240,250,250,567.5,90,M,,1987,Wraps,SBD
 1,Dave Rade,M1,Swaziland,89.7,180,190,-200,190,145,-150,-150,145,250,265,271,271,606,90,M,,1969,Wraps,SBD
 1,Aleksandrs Miglāns,M2,Latvia,86,190,200,212.5,212.5,150,155,-160,155,210,220,,220,587.5,90,M,,1963,Wraps,SBD
 1,Aleksandr Tsvetkov,M3,Russia,89.4,-200,200,210,210,115,120,,120,210,232.5,240,240,570,90,M,Александр Цветков,1957,Wraps,SBD
@@ -85,7 +85,7 @@ DQ,Maksims Popovs,O,Latvia,105.95,-240,-240,-240,,,,,,,,,,,110,M,,1984,Wraps,SBD
 1,Jack Barnard,T1,Great Britain,135.1,-170,170,-200,170,-90,90,-105,90,150,175,185,185,445,140,M,,1996,Wraps,SBD
 1,Nikolay Iov,J,Russia,125.7,250,260,270,270,180,-190,190,190,250,265,275,275,735,140,M,Николай Иов,1990,Wraps,SBD
 2,Ville Pehkonen,J,Finland,133.5,-250,250,265,265,160,175,182.5,182.5,245,255,270,270,717.5,140,M,,1988,Wraps,SBD
-1,Konstantīns Konstantīnovs,O,Latvia,137,290,310,330,330,230,-245,,230,350,380,400,400,960,140,M,,1978,Wraps,SBD
+1,Konstantīn Konstantīnovs,O,Latvia,137,290,310,330,330,230,-245,,230,350,380,400,400,960,140,M,,1978,Wraps,SBD
 2,Wayne Howlett,O,Australia,125.5,280,300,310,310,210,220,225,225,280,300,310,310,845,140,M,,1980,Wraps,SBD
 3,Alexey Pisarevskiy,O,Kazakhstan,127.9,230,-240,250,250,200,210,220,220,250,260,270,270,740,140,M,,1987,Wraps,SBD
 1,Sergey Piniachev,M2,Israel,127.1,205,240,-280,240,167.5,177.5,182.5,182.5,220,260,-280,260,682.5,140,M,,1963,Wraps,SBD
@@ -120,7 +120,7 @@ DQ,Rihards Chiapas Tomass,T1,Latvia,65.3,-90,-100,-105,,,,,,,,,,,67.5,M,,2000,Si
 1,Aleksandr Petukhov,T2,Russia,67.5,-215,,215,215,135,140,145,145,235,240,250,250,610,67.5,M,Александр Петухов,1995,Single-ply,SBD
 DQ,Marc Tejero,O,USA,67,-277.5,-277.5,-277.5,,,,,,,,,,,67.5,M,,1978,Single-ply,SBD
 1,Sergey Alampiev,M3,Russia,67.2,180,200,205,205,110,-115,-115,110,180,200,-210,200,515,67.5,M,Сергей Алампиев,1957,Single-ply,SBD
-1,Gun Hoi Koo,M6,South Korea,64.5,140,150,160,160,85,90,-92.5,90,170,175,-180,175,425,67.5,M,,1946,Single-ply,SBD
+1,Gun-Hoi Koo,M6,South Korea,64.5,140,150,160,160,85,90,-92.5,90,170,175,-180,175,425,67.5,M,,1946,Single-ply,SBD
 2,Budgie Mullan,M6,Great Britain,66.35,130,137.5,-142.5,137.5,80,-90,-90,80,140,-147.5,150,150,367.5,67.5,M,,1943,Single-ply,SBD
 1,Bub Hur Kyung,M7,South Korea,60.7,80,-90,90,90,95,110,-115,110,95,115,120,120,320,67.5,M,,1937,Single-ply,SBD
 1,Daniel Mervis,T1,Great Britain,73.95,160,-170,,160,-120,120,-132.5,120,140,170,180,180,460,75,M,,1996,Single-ply,SBD
@@ -214,14 +214,14 @@ DQ,Eva Varga Violetta,T3,Hungary,66.45,-205,-218,-218,,,,,,,,,,,67.5,F,,1992,Sin
 1,Iris Shekhter,O,Israel,64.5,165,-206,-210,165,132.5,-142.5,-147.5,132.5,155,167.5,-177.5,167.5,465,67.5,F,,1978,Single-ply,SBD
 2,Chantal Rostagnat,O,France,66.3,-132.5,135,145,145,82.5,-87.5,-87.5,82.5,130,137.5,-150,137.5,365,67.5,F,,1967,Single-ply,SBD
 1,Olga Miglāne,M2,Latvia,61.6,120,130,140,140,70,-75,-75,70,110,120,-130,120,330,67.5,F,,1965,Single-ply,SBD
-1,Yuliya Medvedeva,O,Russia,75,-245,245,,245,170,-183.5,,170,200,-220,,200,615,75,F,Юлия Медведева,1979,Single-ply,SBD
+1,Yulia Medvedeva,O,Russia,75,-245,245,,245,170,-183.5,,170,200,-220,,200,615,75,F,Юлия Медведева,1979,Single-ply,SBD
 2,Angela McNamara,O,Great Britain,73.55,200,-225,-225,200,-110,110,120,120,190,205,-212.5,205,525,75,F,,1973,Single-ply,SBD
 3,Hanne Bingle,O,Great Britain,74.5,-140,-140,140,140,115,122.5,-127.5,122.5,120,130,140,140,402.5,75,F,,1959,Single-ply,SBD
 1,Trish Martin,M1,USA,71.45,145,,-165,145,102.5,114.5,-117.5,114.5,172.5,187.5,195,195,454.5,75,F,,1968,Single-ply,SBD
 1,Valentīna Abramenko,M2,Latvia,69.1,110,120,125,125,72.5,77.5,-80,77.5,110,120,-130,120,322.5,75,F,,1965,Single-ply,SBD
 1,Hanne Bingle,M3,Great Britain,74.5,-140,-140,140,140,115,122.5,-127.5,122.5,120,130,140,140,402.5,75,F,,1959,Single-ply,SBD
-1,Anna McCloskey,T3,USA,83,-200,-200,200,200,-107.5,107.5,117.5,117.5,187.5,205,-218.5,205,522.5,90,F,,1993,Single-ply,SBD
-1,Anna McCloskey,O,USA,83,-200,-200,200,200,-107.5,107.5,117.5,117.5,187.5,205,-218.5,205,522.5,90,F,,1993,Single-ply,SBD
+1,Anna Mccloskey,T3,USA,83,-200,-200,200,200,-107.5,107.5,117.5,117.5,187.5,205,-218.5,205,522.5,90,F,,1993,Single-ply,SBD
+1,Anna Mccloskey,O,USA,83,-200,-200,200,200,-107.5,107.5,117.5,117.5,187.5,205,-218.5,205,522.5,90,F,,1993,Single-ply,SBD
 1,Dorothy Shaw,M2,Great Britain,105.95,270,290,-302.5,290,142.5,147.5,-152.5,147.5,220,230,-240,230,667.5,90+,F,,1963,Single-ply,SBD
 1,Oleg Ivanyukov,O,Israel,55.75,,,,,75,80,-82.5,80,,,,,80,56,M,,1980,Raw,B
 1,Dominik Kupiec,T3,Poland,58,,,,,92.5,97.5,-100,97.5,,,,,97.5,60,M,,1992,Raw,B
@@ -243,8 +243,8 @@ DQ,Eva Varga Violetta,T3,Hungary,66.45,-205,-218,-218,,,,,,,,,,,67.5,F,,1992,Sin
 4,Gints Rekens,T3,Latvia,73.9,,,,,90,95,-102.5,95,,,,,95,75,M,,1993,Raw,B
 1,Andrey Yadrintsev,J,Russia,74.9,,,,,125,132.5,140,140,,,,,140,75,M,Андрей Ядринцев,1988,Raw,B
 2,Roberts Stepenko,J,Latvia,72,,,,,110,115,-120,115,,,,,115,75,M,,1990,Raw,B
-1,Istvan Juhasz,O,Hungary,67.6,,,,,210,218.5,-220,218.5,,,,,218.5,75,M,,1976,Raw,B
-2,Rоman Yeremashvili,O,Belarus,74.5,,,,,195,205,-210,205,,,,,205,75,M,,1981,Raw,B
+1,István Juhász,O,Hungary,67.6,,,,,210,218.5,-220,218.5,,,,,218.5,75,M,,1976,Raw,B
+2,Roman Eremashvili,O,Belarus,74.5,,,,,195,205,-210,205,,,,,205,75,M,,1981,Raw,B
 3,Giorgi Bejashvili,O,Georgia,72.5,,,,,185,-197.5,,185,,,,,185,75,M,,1980,Raw,B
 4,Vincent Eldin,O,France,73.8,,,,,130,-140,,130,,,,,130,75,M,,1972,Raw,B
 1,Pedro Claro,M2,Portugal,74.75,,,,,117.5,122.5,-127.5,122.5,,,,,122.5,75,M,,1965,Raw,B
@@ -269,10 +269,10 @@ DQ,Eva Varga Violetta,T3,Hungary,66.45,-205,-218,-218,,,,,,,,,,,67.5,F,,1992,Sin
 4,Davis Grietens,T3,Latvia,88.45,,,,,115,125,127.5,127.5,,,,,127.5,90,M,,1993,Raw,B
 1,Matīss Vācietis,J,Latvia,89.6,,,,,165,167.5,172.5,172.5,,,,,172.5,90,M,,1989,Raw,B
 2,Dmitrijs Vurca,J,Latvia,88.45,,,,,162.5,167.5,-170,167.5,,,,,167.5,90,M,,1988,Raw,B
-1,Oleg Bazilevych,O,Ukraine,89.2,,,,,230,237.5,245,245,,,,,245,90,M,Олег Базилевич,1982,Raw,B
+1,Oleg Bazilevich,O,Ukraine,89.2,,,,,230,237.5,245,245,,,,,245,90,M,Олег Базилевич,1982,Raw,B
 2,Florindo Figueiredo Pinheiro,O,Portugal,88.05,,,,,225,235,-245,235,,,,,235,90,M,,1973,Raw,B
 3,Allan Jokinen,O,Finland,89,,,,,210,215,-238.5,215,,,,,215,90,M,,1973,Raw,B
-4,János Őrsi,O,Hungary,89.9,,,,,202.5,-212.5,212.5,212.5,,,,,212.5,90,M,,1977,Raw,B
+4,János Örsi,O,Hungary,89.9,,,,,202.5,-212.5,212.5,212.5,,,,,212.5,90,M,,1977,Raw,B
 5,Ŀukasz Marcińkowski,O,Poland,87.9,,,,,190,202.5,,202.5,,,,,202.5,90,M,,1986,Raw,B
 6,Gennadiy Khvan,O,Kazakhstan,89.45,,,,,195,-202.5,,195,,,,,195,90,M,,1958,Raw,B
 7,Ojārs Vērītis,O,Latvia,87.1,,,,,190,195,-200,195,,,,,195,90,M,,1974,Raw,B
@@ -288,7 +288,7 @@ DQ,Eva Varga Violetta,T3,Hungary,66.45,-205,-218,-218,,,,,,,,,,,67.5,F,,1992,Sin
 1,Valerijs Petrovs,M6,Latvia,89,,,,,135,-140,,135,,,,,135,90,M,,1946,Raw,B
 1,Roland Schubert,M7,Germany,88.3,,,,,140,145,-150,145,,,,,145,90,M,,1940,Raw,B
 1,Josef Tullo,T3,Australia,90.1,,,,,140,150,160,160,,,,,160,100,M,,1992,Raw,B
-1,Sergiy Didovik,O,Ukraine,99.15,,,,,-210,210,,210,,,,,210,100,M,Сергій Дідовик,1978,Raw,B
+1,Sergey Didovyk,O,Ukraine,99.15,,,,,-210,210,,210,,,,,210,100,M,Сергій Дідовик,1978,Raw,B
 2,Viesturs Eidemanis,O,Latvia,91.45,,,,,195,200,-205,200,,,,,200,100,M,,1979,Raw,B
 3,Igors Gluskovs,O,Latvia,97.6,,,,,190,-195,-195,190,,,,,190,100,M,,1981,Raw,B
 4,Ivan Solntsev,O,Russia,96.6,,,,,185,-195,-195,185,,,,,185,100,M,Иван Солнцев,1974,Raw,B
@@ -301,9 +301,9 @@ DQ,Eva Varga Violetta,T3,Hungary,66.45,-205,-218,-218,,,,,,,,,,,67.5,F,,1992,Sin
 3,Olegs Illarionovs,M2,Latvia,95.45,,,,,180,190,-197.5,190,,,,,190,100,M,,1965,Raw,B
 4,Dmitriy Chertushkin,M2,Russia,98.75,,,,,155,162.5,-170,162.5,,,,,162.5,100,M,Дмитрий Чертушкин,1965,Raw,B
 5,Vyacheslav Frank,M2,Russia,97.45,,,,,132.5,137.5,140,140,,,,,140,100,M,Вячеслав Франк,1962,Raw,B
-6,Stephane Gurini,M2,France,99.9,,,,,135,140,,140,,,,,140,100,M,,1965,Raw,B
+6,Stéphane Gurini,M2,France,99.9,,,,,135,140,,140,,,,,140,100,M,,1965,Raw,B
 1,Vitaliy Ponomarev,M3,Russia,100,,,,,180,190,200,200,,,,,200,100,M,Виталий Пономарев,1957,Raw,B
-3,Stephane Chavin Gazalier,M3,France,98.3,,,,,-162.5,162.5,165,165,,,,,165,100,M,,1961,Raw,B
+3,Stéphane Chavin Gazalier,M3,France,98.3,,,,,-162.5,162.5,165,165,,,,,165,100,M,,1961,Raw,B
 4,Valeriy Akentyev,M3,Russia,96.75,,,,,150,160,162.5,162.5,,,,,162.5,100,M,Валерий Акентьев,1958,Raw,B
 1,Axel Gersdorf,M5,Germany,97.15,,,,,175,-182.5,-191,175,,,,,175,100,M,,1951,Raw,B
 2,Ivars Miziss,M5,Latvia,98.05,,,,,-135,-135,135,135,,,,,135,100,M,,1951,Raw,B
@@ -384,7 +384,7 @@ DQ,Martins Apskalns,O,Latvia,108.55,,,,,-235,-235,-242.5,,,,,,,110,M,,1985,Raw,B
 1,Svetlana Odintsova,M2,Russia,73.6,,,,,100,-107.5,107.5,107.5,,,,,107.5,75,F,Светлана Одинцова,1966,Raw,B
 1,Jolanta Logina,O,Latvia,87.7,,,,,90,-95,100,100,,,,,100,90,F,,1978,Raw,B
 1,Karina Grigorjeva,O,Latvia,90.55,,,,,77.5,82.5,85,85,,,,,85,90+,F,,1981,Raw,B
-DQ,Anna McCloskey,T3,USA,82.9,,,,,-130,-137.5,-137.5,,,,,,,90,F,,1993,Single-ply,B
+DQ,Anna Mccloskey,T3,USA,82.9,,,,,-130,-137.5,-137.5,,,,,,,90,F,,1993,Single-ply,B
 1,Michal Tamaskovic,J,Slovak Republic,52,,,,,100,105,110,110,,,,,110,52,M,,1988,Single-ply,B
 1,Oleg Ivanyukov,O,Israel,57.1,,,,,95,105,-117.5,105,,,,,105,60,M,,1980,Single-ply,B
 DQ,Chris Svoboda,J,USA,67.5,,,,,-212.5,-212.5,-212.5,,,,,,,67.5,M,,1988,Single-ply,B
@@ -449,7 +449,7 @@ DQ,Alain-Francis Mattei,M4,France,89.8,,,,,-180,,,,,,,,,90,M,,1955,Single-ply,B
 3,Darius Janutis,O,Latvia,99.7,,,,,180,-200,-200,180,,,,,180,100,M,,1986,Single-ply,B
 DQ,Bruno Szambelanczyk,O,France,98.8,,,,,-225,-225,,,,,,,,100,M,,1980,Single-ply,B
 DQ,Janis Freimanis,O,Latvia,97.5,,,,,-170,-170,-170,,,,,,,100,M,,1982,Single-ply,B
-DQ,Sergiy Didovik,O,Ukraine,99.4,,,,,-290,-290,-292.5,,,,,,,100,M,Сергій Дідовик,1978,Single-ply,B
+DQ,Sergey Didovyk,O,Ukraine,99.4,,,,,-290,-290,-292.5,,,,,,,100,M,Сергій Дідовик,1978,Single-ply,B
 DQ,Henry Lehtola,O,Finland,99.55,,,,,-312.5,-312.5,-312.5,,,,,,,100,M,,1981,Single-ply,B
 DQ,Niclas Friberg,O,Sweden,98.6,,,,,-210,-210,-210,,,,,,,100,M,,1974,Single-ply,B
 DQ,Sahib Ahmadov Mustafa,O,Azerbaijan,95.65,,,,,-290,-290,-290,,,,,,,100,M,,1980,Single-ply,B
@@ -458,9 +458,9 @@ DQ,Alexandar Kyurchev Nikolov,O,Bulgaria,97.3,,,,,-270,,,,,,,,,100,M,,1979,Singl
 1,Andrus Moroz,M1,Estonia,96.65,,,,,170,200,220,220,,,,,220,100,M,,1971,Single-ply,B
 1,Sergey Belikov,M2,Russia,99.3,,,,,-270,-270,270,270,,,,,270,100,M,Сергей Беликов,1964,Single-ply,B
 2,Dmitriy Chertushkin,M2,Russia,98.7,,,,,-190,-195,195,195,,,,,195,100,M,Дмитрий Чертушкин,1965,Single-ply,B
-DQ,Stephane Gurini,M2,France,99.9,,,,,-180,-180,-180,,,,,,,100,M,,1965,Single-ply,B
+DQ,Stéphane Gurini,M2,France,99.9,,,,,-180,-180,-180,,,,,,,100,M,,1965,Single-ply,B
 1,Vitaliy Ponomarev,M3,Russia,99.05,,,,,237.5,245,247.5,247.5,,,,,247.5,100,M,Виталий Пономарев,1957,Single-ply,B
-2,Stephane Chavin Gazalier,M3,France,98.3,,,,,237.5,245,-252.5,245,,,,,245,100,M,,1961,Single-ply,B
+2,Stéphane Chavin Gazalier,M3,France,98.3,,,,,237.5,245,-252.5,245,,,,,245,100,M,,1961,Single-ply,B
 3,Valeriy Akentyev,M3,Russia,98.5,,,,,220,225,-240,225,,,,,225,100,M,Валерий Акентьев,1958,Single-ply,B
 1,Hans-Ulrich Vetter,M4,Germany,99.1,,,,,180,190,-200,190,,,,,190,100,M,,1952,Single-ply,B
 2,Evgeniy Basov,M4,Russia,90.4,,,,,145,155,165,165,,,,,165,100,M,Евгений Басов,1955,Single-ply,B
@@ -535,10 +535,10 @@ DQ,Petras Rakauskas,M4,Latvia,128.2,,,,,-125,,,,,,,,,140,M,,1956,Single-ply,B
 1,Marko Traks,J,Estonia,157.8,,,,,280,-310,-310,280,,,,,280,140+,M,,1989,Single-ply,B
 1,Oleksandr Gonchar,O,Ukraine,141.2,,,,,340,350,-360,350,,,,,350,140+,M,Олександр Гончар,1978,Single-ply,B
 2,Andrzej Swierszcz,O,Poland,140.1,,,,,270,280,-300,280,,,,,280,140+,M,,1972,Single-ply,B
-3,Peter Mihály,O,Slovak Republic,154.8,,,,,230,-260,-272.5,230,,,,,230,140+,M,,1958,Single-ply,B
+3,Péter Mihály,O,Slovak Republic,154.8,,,,,230,-260,-272.5,230,,,,,230,140+,M,,1958,Single-ply,B
 DQ,Andrejs Mūrnieks,O,Latvia,141.3,,,,,-325,-330,-335,,,,,,,140+,M,,1980,Single-ply,B
 DQ,Markku Kalliola Kari,O,Finland,168.1,,,,,-375,-385,-400,,,,,,,140+,M,,1963,Single-ply,B
-1,Peter Mihály,M3,Slovak Republic,154.8,,,,,225,250,,250,,,,,250,140+,M,,1958,Single-ply,B
+1,Péter Mihály,M3,Slovak Republic,154.8,,,,,225,250,,250,,,,,250,140+,M,,1958,Single-ply,B
 DQ,Ariela Amitay,O,Israel,51.5,,,,,-95,-95,-95,,,,,,,52,F,,1964,Single-ply,B
 DQ,Ariela Amitay,M2,Israel,51.5,,,,,-95,-95,-95,,,,,,,52,F,,1964,Single-ply,B
 1,Alina Kazazayeva,J,Kazakhstan,59.4,,,,,80,90,-102.5,90,,,,,90,60,F,,1991,Single-ply,B
@@ -547,9 +547,9 @@ DQ,Ariela Amitay,M2,Israel,51.5,,,,,-95,-95,-95,,,,,,,52,F,,1964,Single-ply,B
 2,Iris Shekhter,O,Israel,64.75,,,,,120,135,146,146,,,,,146,67.5,F,,1978,Single-ply,B
 3,Chantal Rostagnat,O,France,65.9,,,,,-80,80,-90,80,,,,,80,67.5,F,,1967,Single-ply,B
 DQ,Darilynn Doddy,J,USA,74.35,,,,,-185,-185,-227.5,,,,,,,75,F,,1990,Single-ply,B
-DQ,Yuliya Medvedeva,O,Russia,74.6,,,,,-185,-185,-185,,,,,,,75,F,Юлия Медведева,1979,Single-ply,B
+DQ,Yulia Medvedeva,O,Russia,74.6,,,,,-185,-185,-185,,,,,,,75,F,Юлия Медведева,1979,Single-ply,B
 1,Sandra Bileiše,M2,Latvia,68.25,,,,,100,-105,-105,100,,,,,100,75,F,,1963,Single-ply,B
 DQ,Emma Ylitalo-James,M1,Great Britain,80.5,,,,,-172.5,-177.5,-177.5,,,,,,,82.5,F,,1969,Single-ply,B
-DQ,Anna McCloskey,T3,USA,82.9,,,,,-130,-137.5,-137.5,,,,,,,90,F,,1993,Single-ply,B
+DQ,Anna Mccloskey,T3,USA,82.9,,,,,-130,-137.5,-137.5,,,,,,,90,F,,1993,Single-ply,B
 1,Viktoriya Sheludko,O,Russia,86.9,,,,,200,212.5,-218.5,212.5,,,,,212.5,90,F,Виктория Шелудько,1973,Single-ply,B
-DQ,Anna McCloskey,O,USA,82.9,,,,,-130,-137.5,-137.5,,,,,,,90,F,,1993,Single-ply,B
+DQ,Anna Mccloskey,O,USA,82.9,,,,,-130,-137.5,-137.5,,,,,,,90,F,,1993,Single-ply,B
