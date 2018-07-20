@@ -1,4 +1,4 @@
-Place,Name,CyrillicName,BirthYear,Sex,WeightClassKg,BodyweightKg,Besrt3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment
+Place,Name,CyrillicName,BirthYear,Sex,WeightClassKg,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment
 1,Simonyants Karina,Симонянц Карина,1977,F,48,47.7,137.5,92.5,130,360,SBD,Single-ply
 2,Rakova Anna,Ракова Анна,1984,F,48,47.75,105,47.5,117.5,270,SBD,Single-ply
 3,Kokhan Vera,Кохан Вера,1982,F,48,47.5,102.5,57.5,105,265,SBD,Single-ply
@@ -103,7 +103,7 @@ DQ,Bogdanovskiy Vladimir,Богдановский Владимир,1985,M,100,96
 10,Romanyuk Dmitriy,Романюк Дмитрий,1976,M,110,104.4,240,240,250,730,SBD,Single-ply
 11,Kalinin Aleksey,Калинин Алексей,1984,M,110,103.7,270,200,250,720,SBD,Single-ply
 12,Nikitinskiy Aleksandr,Никитинский Александр,1975,M,110,102.65,245,180,220,645,SBD,Single-ply
-13,Starikov Aleksey,Стариков Алексей,1980,M,110,101.1,280,,,,SBD,Single-ply
+DQ,Starikov Aleksey,Стариков Алексей,1980,M,110,101.1,280,,,,SBD,Single-ply
 DQ,Malikov Aleksandr,Маликов Александр,1972,M,110,102.75,,,,,SBD,Single-ply
 DQ,Pushkov Evgeniy,Пушков Евгений,1987,M,110,107.15,,,,,SBD,Single-ply
 1,Lebedev Roman,Лебедев Роман,1981,M,125,123.7,360,260,325,945,SBD,Single-ply

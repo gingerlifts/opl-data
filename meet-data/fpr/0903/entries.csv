@@ -6,7 +6,7 @@ Place,Name,CyrillicName,BirthYear,Sex,WeightClassKg,BodyweightKg,Best3SquatKg,Be
 1,Natalya Krikunova,Наталья Крикунова,1981,F,52,49.45,147.5,80,140,367.5,SBD,Single-ply
 2,Ekaterina Denisova,Екатерина Денисова,1989,F,52,51.75,115,55,130,300,SBD,Single-ply
 1,Elena Kaneva,Елена Канева,1980,F,56,55.7,172.5,87.5,165,425,SBD,Single-ply
-2,Stella Vavilova,Стелла Вавилова,1987,F,56,55.7,130,75,132.5,337.5,SBD,Single-ply
+2,Stella Vavilova,Стэлла Вавилова,1987,F,56,55.7,130,75,132.5,337.5,SBD,Single-ply
 DQ,Evgeniya Shakhina,Евгения Шахина,1988,F,56,55.8,125,,,,SBD,Single-ply
 1,Karina Alshevskaya,Карина Альшевская,1984,F,60,59.95,165,95,165,425,SBD,Single-ply
 2,Valeriya Levochkina,Валерия Левочкина,1964,F,60,59.7,152.5,80,160,392.5,SBD,Single-ply
@@ -123,6 +123,6 @@ DQ,Aleksandr Belyaev,Александр Беляев,1973,M,110,106.15,,,,,SBD,S
 4,Andrey Osipovskiy,Андрей Осиповский,1985,M,125,122.9,350,245,275,870,SBD,Single-ply
 5,Sergey Khovryakov,Сергей Ховряков,1986,M,125,110.85,327.5,202.5,310,840,SBD,Single-ply
 6,Mikhail Chernov,Михаил Чернов,1982,M,125,112.25,295,245,280,820,SBD,Single-ply
-1,Artyom Kovalchuk,Артём Ковальчук,1982,M,125+,139.5,420,235,330,985,SBD,Single-ply
+1,Artem Kovalchuk,Артём Ковальчук,1982,M,125+,139.5,420,235,330,985,SBD,Single-ply
 2,Mikhail Viasovskiy,Михаил Виасовский,1984,M,125+,126.75,380,232.5,355,967.5,SBD,Single-ply
 3,Andrey Golubev,Андрей Голубев,1981,M,125+,126.9,290,190,260,740,SBD,Single-ply

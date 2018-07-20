@@ -11,7 +11,7 @@ Place,Name,CyrillicName,BirthYear,BodyweightKg,Sex,WeightClassKg,Best3SquatKg,Be
 6,Veronika Myasoedova,Вероника Мясоедова,1986,51.3,F,52,125,57.5,132.5,315,SBD,Single-ply
 DQ,Anna Alekseeva,Анна Алексеева,1984,50.7,F,52,120,70,,,SBD,Single-ply
 1,Olga Kabanova,Ольга Кабанова,1978,55.2,F,56,182.5,112.5,167.5,462.5,SBD,Single-ply
-2,Anna Pavlova,Анна Павлова,1983,56,F,56,172.5,105,160,437.5,SBD,Single-ply
+2,Anastasia Pavlova,Анастасия Павлова,1983,56,F,56,172.5,105,160,437.5,SBD,Single-ply
 3,Evgeniya Petrova,Евгения Петрова,1982,55.35,F,56,165,82.5,160,407.5,SBD,Single-ply
 4,Elena Lopatina,Елена Лопатина,1986,55.15,F,56,135,60,135,330,SBD,Single-ply
 1,Anzhela Kond,Анжела Конд,1975,58.7,F,60,190,130,195,515,SBD,Single-ply
@@ -44,9 +44,9 @@ DQ,Aleksandr Starodubtsev,Александр Стародубцев,1986,59.95,M
 4,Mikhail Melekhin,Михаил Мелехин,1978,67.4,M,67.5,230,180,215,625,SBD,Single-ply
 5,Aleksey Podzorov,Алексей Подзоров,1987,67.35,M,67.5,235,140,220,595,SBD,Single-ply
 1,Maksim Nurutdinov,Максим Нурутдинов,1982,75,M,75,332.5,200,295,827.5,SBD,Single-ply
-2,Aleksey Merkulov,Алексей Меркулов,1983,75,M,75,320,240,260,820,SBD,Single-ply
+2,Alexey Merkulov,Алексей Меркулов,1983,75,M,75,320,240,260,820,SBD,Single-ply
 3,Artyom Suvorov,Артём Суворов,1983,75,M,75,320,190,290,800,SBD,Single-ply
-4,Dmitriy Inzarkin,Дмитрий Инзаркин,1987,75,M,75,300,180,285,765,SBD,Single-ply
+4,Dmitry Inzarkin,Дмитрий Инзаркин,1987,75,M,75,300,180,285,765,SBD,Single-ply
 5,Nikolay Bardukov,Николай Бардуков,1984,75,M,75,310,182.5,260,752.5,SBD,Single-ply
 6,Ruslan Sorokin,Руслан Сорокин,1983,75,M,75,290,175,255,720,SBD,Single-ply
 7,Konstantin Konyaev,Константин Коняев,1986,74.15,M,75,282.5,147.5,270,700,SBD,Single-ply
@@ -64,7 +64,7 @@ DQ,Aleksandr Starodubtsev,Александр Стародубцев,1986,59.95,M
 6,Nidzhan Mustafazade,Ниджан Мустафазаде,1991,79.95,M,82.5,237.5,117.5,220,575,SBD,Single-ply
 DQ,Artur Shuvaev,Артур Шуваев,1976,81.65,M,82.5,-260,,,,SBD,Single-ply
 DQ,Dmitriy Anoshenko,Дмитрий Аношенко,1986,82.5,M,82.5,275,-170,,,SBD,Single-ply
-1,Denis Arkhipov,Денис Архипов,1979,86.95,M,90,340,220,315,875,SBD,Single-ply
+1,Denis Arkhipov,Денис Архіпов,1979,86.95,M,90,340,220,315,875,SBD,Single-ply
 2,Sergey Mashchentsov,Сергей Мащенцов,1987,89.65,M,90,317.5,195,337.5,850,SBD,Single-ply
 3,Denis Knyazev,Денис Князев,1987,89.95,M,90,330,225,295,850,SBD,Single-ply
 4,Mikhail Kuksenko,Михаил Куксенко,1980,89.1,M,90,302.5,180,310,792.5,SBD,Single-ply

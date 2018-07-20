@@ -4,8 +4,8 @@ Place,Name,CyrillicName,BirthYear,Sex,WeightClassKg,BodyweightKg,Best3SquatKg,Be
 3,Viktoriya Neznanova,Виктория Незнанова,1983,F,48,47.3,125,57.5,105,287.5,SBD,Single-ply
 4,Ekaterina Sorokina,Екатерина Сорокина,1988,F,48,46.35,115,57.5,100,272.5,SBD,Single-ply
 5,Natalya Krachkovskaya,Наталья Крачковская,1993,F,48,47.6,100,47.5,102.5,250,SBD,Single-ply
-1,Ekaterina Osipova,Екатерина Осипова,1991,F,52,51.8,185,10,145,430,SBD,Single-ply
-1,Nina Kondrasheva,Нина Кондрашева,1960,F,56,55.5,185,100,167.5,452.5,SBD,Single-ply
+1,Ekaterina Osipova,Екатерина Осипова,1991,F,52,51.8,185,100,145,430,SBD,Single-ply
+1,Nina Kondrashyova,Нина Кондрашёва,1960,F,56,55.5,185,100,167.5,452.5,SBD,Single-ply
 2,Lyudmila Kalinchuk,Людмила Калинчук,1987,F,56,54.2,180,105,160,445,SBD,Single-ply
 3,Elena Boltenko,Елена Болтенко,1985,F,56,54.85,140,72.5,135,347.5,SBD,Single-ply
 4,Vita Baryshko,Вита Барышко,1992,F,56,54.85,125,55,115,295,SBD,Single-ply
@@ -26,7 +26,7 @@ DQ,Natalya Chebatko,Наталья Чебатько,1984,F,67.5,66.2,,,,,SBD,Sin
 2,Olga Baklykova,Ольга Баклыкова,1964,F,75,74.3,140,90,140,370,SBD,Single-ply
 3,Darya Potapova,Дарья Потапова,1981,F,75,71.2,140,80,140,360,SBD,Single-ply
 DQ,Natalya Soboleva,Наталья Соболева,1985,F,75,75,,,,,SBD,Single-ply
-DQ,Elena Didyk,Елена Дидык,74.3,F,75,74.3,,,,,SBD,Single-ply
+DQ,Elena Didyk,Елена Дидык,1984,F,75,74.3,,,,,SBD,Single-ply
 DQ,Olga Treybich,Ольга Трейбич,1975,F,75,71.15,,,,,SBD,Single-ply
 1,Tatyana Kibereva,Татьяна Киберева,1986,F,90,86,200,100,182.5,482.5,SBD,Single-ply
 1,Nikolay Sobolev,Николай Соболев,1987,M,56,55.15,220,120,180,520,SBD,Single-ply
@@ -57,7 +57,7 @@ DQ,Vladimir Semenov,Владимир Семенов,1968,M,67.5,67.5,,,,,SBD,Sin
 DQ,Dmitriy Levchenko,Дмитрий Левченко,1988,M,75,75,210,,,,SBD,Single-ply
 DQ,Mikhail Lepekhin,Михаил Лепехин,1989,M,75,73.6,,,,,SBD,Single-ply
 1,Sergey Li,Сергей Ли,1979,M,82.5,82.3,320,195,310,825,SBD,Single-ply
-2,Aleksand Bosenko,Александ Босенко,1898,M,82.5,82.1,280,190,280,750,SBD,Single-ply
+2,Aleksand Bosenko,Александ Босенко,1988,M,82.5,82.1,280,190,280,750,SBD,Single-ply
 3,Mikhail Lukyanov,Михаил Лукьянов,1988,M,82.5,82.25,290,160,287.5,737.5,SBD,Single-ply
 4,Grigoriy Arbatov,Григорий Арбатов,1987,M,82.5,80.7,300,172.5,262.5,735,SBD,Single-ply
 5,Sergey Zherebtsov,Сергей Жеребцов,1988,M,82.5,82.05,325,160,250,735,SBD,Single-ply
@@ -75,7 +75,7 @@ DQ,Dmitriy Bondarev,Дмитрий Бондарев,1988,M,82.5,81.1,,,,,SBD,Sin
 3,Igor Lazarev,Игорь Лазарев,1989,M,90,89,295,190,295,780,SBD,Single-ply
 4,Evgeniy Pesterev,Евгений Пестерев,1991,M,90,88.3,302.5,182.5,265,750,SBD,Single-ply
 5,Vladimir Kudryashov,Владимир Кудряшов,1986,M,90,88.6,315,135,300,750,SBD,Single-ply
-6,Sergey Miroshnichenko,Сергей Мирошниченко,1975,M,90,85.1,290,192.5,255,737.5,SBD,Single-ply
+6,Sergiy Miroshnichenko,Сергій Мірошніченко,1975,M,90,85.1,290,192.5,255,737.5,SBD,Single-ply
 7,Vladimir Lopatin,Владимир Лопатин,1988,M,90,89.55,295,165,275,735,SBD,Single-ply
 1,Aleksandr Pupyshev,Александр Пупышев,1982,M,100,99.45,350,215,315,880,SBD,Single-ply
 2,Sergey Shevchenko,Сергей Шевченко,1986,M,100,97.1,340,190,310,840,SBD,Single-ply

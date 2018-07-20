@@ -1,9 +1,9 @@
 Place,Name,CyrillicName,BirthYear,Sex,WeightClassKg,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment
-1,Kadriya Murtazina,Кадрия Муртазина,1986,F,48,47.55,120,70,130,322.5,SBD,Single-ply
+1,Kadriya Murtazina,Кадрия Муртазина,1986,F,48,47.55,120,70,130,320,SBD,Single-ply
 2,Aygul Redzhepova,Айгуль Реджепова,1989,F,48,46.9,127.5,70,117.5,315,SBD,Single-ply
 3,Aleksandra Churkina,Александра Чуркина,1992,F,48,46,130,67.5,115,312.5,SBD,Single-ply
 DQ,Anna Sheina,Анна Шеина,1988,F,48,47.05,,,,,SBD,Single-ply
-1,Natalya Salnikova,Наталья Сальникова,1986,F,52,51.85,170,100,180,450,SBD,Single-ply
+1,Natalia Salnikova,Наталья Сальникова,1986,F,52,51.85,170,100,180,450,SBD,Single-ply
 2,Tatyana Korolyova,Татьяна Королёва,1986,F,52,50.8,155,70,150,375,SBD,Single-ply
 3,Ekaterina Nikolaeva,Екатерина Николаева,1984,F,52,52,160,77.5,137.5,375,SBD,Single-ply
 4,Aygul Abzalova,Айгуль Абзалова,1987,F,52,51.2,125,70,130,325,SBD,Single-ply
@@ -23,7 +23,7 @@ DQ,Anastasiya Goch,Анастасия Гоч,1987,F,60,59.75,160,,,,SBD,Single-p
 DQ,Anastasiya Lyubimova,Анастасия Любимова,1982,F,60,59.55,,,,,SBD,Single-ply
 DQ,Anna Melnikova,Анна Мельникова,1987,F,60,59.6,,,,,SBD,Single-ply
 1,Svetlana Sharifullina,Светлана Шарифуллина,1979,F,67.5,66.9,190,135,190,515,SBD,Single-ply
-2,Anastasiya Petrova,Анастасия Петрова,1985,F,67.5,63,180,135,170,485,SBD,Single-ply
+2,Anastasia Petrova,Анастасия Петрова,1985,F,67.5,63,180,135,170,485,SBD,Single-ply
 3,Elena Kuznetsova,Елена Кузнецова,1985,F,67.5,63.6,180,100,190,470,SBD,Single-ply
 DQ,Viktoriya Nechaeva,Виктория Нечаева,1983,F,67.5,66.65,,,,,SBD,Single-ply
 1,Irina Kashuba,Ирина Кашуба,1982,F,75,73.85,202.5,122.5,217.5,542.5,SBD,Single-ply
@@ -31,7 +31,7 @@ DQ,Viktoriya Nechaeva,Виктория Нечаева,1983,F,67.5,66.65,,,,,SBD,
 3,Ellina Kudryavtseva,Эллина Кудрявцева,1975,F,75,73.6,165,100,145,410,SBD,Single-ply
 1,Irina Grishanova,Ирина Гришанова,1984,F,82.5,82.5,172.5,107.5,150,430,SBD,Single-ply
 2,Svetlana Bochko,Светлана Бочко,1963,F,82.5,78.6,125,80,150,355,SBD,Single-ply
-1,Kadriya Murtazina,Кадрия Муртазина,1986,F,48,47.55,120,70,130,322.5,SBD,Wraps
+1,Kadriya Murtazina,Кадрия Муртазина,1986,F,48,47.55,120,70,130,320,SBD,Wraps
 1,Roman Manukyan,Роман Манукян,1989,M,56,55.95,192.5,115,205,512.5,SBD,Single-ply
 2,Anatoliy Afanasev,Анатолий Афанасьев,1989,M,56,56,195,112.5,202.5,510,SBD,Single-ply
 3,Artur Gafiyatullin,Артур Гафиятуллин,1989,M,56,55.85,180,125,190,495,SBD,Single-ply
@@ -46,7 +46,7 @@ DQ,Marsel Akhmadeev,Марсель Ахмадеев,1989,M,60,59.1,222.5,122.5,,
 DQ,Dmitriy Shutyak,Дмитрий Шутяк,1986,M,60,59.3,,,,,SBD,Single-ply
 1,Pavel Chernikov,Павел Черников,1973,M,67.5,67.25,280,157.5,242.5,680,SBD,Single-ply
 2,Dmitriy Shishov,Дмитрий Шишов,1987,M,67.5,67.2,245,165,227.5,637.5,SBD,Single-ply
-3,Igor Dolzhenko,Игорь Долженко,1988,M,67.5,67.35,250,157.5,225,632.5,SBD,Single-ply
+3,Igor Dolzhenko,Ігор Долженко,1988,M,67.5,67.35,250,157.5,225,632.5,SBD,Single-ply
 4,Mikhail Ponachevnyy,Михаил Поначевный,1988,M,67.5,66.8,250,137.5,237.5,625,SBD,Single-ply
 5,Ruzel Khabibulin,Рузель Хабибулин,1983,M,67.5,67.3,230,140,225,595,SBD,Single-ply
 6,Maksim Lavrenyuk,Максим Лавренюк,1987,M,67.5,66.6,242.5,120,220,582.5,SBD,Single-ply
@@ -54,7 +54,7 @@ DQ,Dmitriy Shutyak,Дмитрий Шутяк,1986,M,60,59.3,,,,,SBD,Single-ply
 8,Maksim Soltsin,Максим Сольцин,1990,M,67.5,67.35,200,100,205,505,SBD,Single-ply
 9,Egor Lukin,Егор Лукин,1990,M,67.5,62.25,180,120,192.5,492.5,SBD,Single-ply
 DQ,Anton Sychyov,Антон Сычёв,1984,M,67.5,67.2,,,,,SBD,Single-ply
-1,Aleksandr Tryastsin,Александр Трясцин,1983,M,75,73.9,265,172.5,230,662.5,SBD,Single-ply
+1,Aleksandr Tryastsin,Александр Трясцин,1983,M,75,73.9,265,172.5,230,667.5,SBD,Single-ply
 2,Igor Bukhranov,Игорь Бухранов,1988,M,75,74.65,262.5,150,245,657.5,SBD,Single-ply
 3,Mikhail Khmelnikov,Михаил Хмельников,1988,M,75,75,230,160,220,610,SBD,Single-ply
 4,Radik Bariev,Радик Бариев,1986,M,75,70.7,220,130,230,580,SBD,Single-ply
@@ -91,8 +91,8 @@ DQ,Sergey Shutkin,Сергей Шуткин,1969,M,90,89.25,,,,,SBD,Single-ply
 8,Sergey Shpota,Сергей Шпота,1985,M,100,95.15,290,200,275,765,SBD,Single-ply
 9,Yuriy Kovalenko,Юрий Коваленко,1983,M,100,97.8,290,180,250,720,SBD,Single-ply
 10,Ruslan Zhukov,Руслан Жуков,1989,M,100,98.15,290,157.5,262.5,710,SBD,Single-ply
-11,Vitaliy Balashov,Виталий Балашов,1988,M,100,93.7,,,,,SBD,Single-ply
-,Aleksandr Muratkin,Александр Мураткин,1987,M,100,96.4,,,,,SBD,Single-ply
+DQ,Vitaliy Balashov,Виталий Балашов,1988,M,100,93.7,,,,,SBD,Single-ply
+DQ,Aleksandr Muratkin,Александр Мураткин,1987,M,100,96.4,,,,,SBD,Single-ply
 1,Aleksandr Sykmenyov,Александр Сыкменёв,1978,M,110,109.55,317.5,290,285,892.5,SBD,Single-ply
 2,Mikhail Chukhontsev,Михаил Чухонцев,1979,M,110,107.1,335,235,305,875,SBD,Single-ply
 3,Aleksey Fyodorov,Алексей Фёдоров,1978,M,110,109.8,320,215,315,850,SBD,Single-ply
@@ -113,7 +113,7 @@ DQ,Aleksandr Volkov,Александр Волков,1965,M,125,117.7,290,,,,SBD,
 DQ,Viktor Medvedev,Виктор Медведев,1967,M,125,124.5,,,,,SBD,Single-ply
 DQ,Sergey Makarov,Сергей Макаров,1983,M,125,124.95,,,,,SBD,Single-ply
 DQ,Kirill Kropis,Кирилл Кропис,1987,M,125,115.85,,,,,SBD,Single-ply
-,Igor Filippov,Игорь Филиппов,1989,M,125,120.85,,,,,SBD,Single-ply
+DQ,Igor Filippov,Игорь Филиппов,1989,M,125,120.85,,,,,SBD,Single-ply
 1,Andrey Konovalov,Андрей Коновалов,1986,M,125+,146.45,380,290,347.5,1017.5,SBD,Single-ply
 2,Dmitriy Ivanov,Дмитрий Иванов,1984,M,125+,142.8,360,230,347.5,937.5,SBD,Single-ply
 3,Nikolay Simankov,Николай Симаньков,1967,M,125+,126.25,355,260,320,935,SBD,Single-ply
