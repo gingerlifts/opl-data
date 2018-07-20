@@ -91,6 +91,8 @@ pub enum Federation {
     FPO,
     #[strum(to_string = "FPR", serialize = "fpr")]
     FPR,
+    #[strum(to_string = "GoldenDouble", serialize = "goldendouble")]
+    GoldenDouble,
     #[strum(to_string = "GPA", serialize = "gpa")]
     GPA,
     #[strum(to_string = "GPC", serialize = "gpc")]
@@ -421,6 +423,7 @@ impl MetaFederation {
             MetaFederation::AllRussia => {
                 meet.federation == Federation::BB
                     || meet.federation == Federation::FPR
+                    || meet.federation == Federation::GoldenDouble
                     || meet.federation == Federation::GPCRUS
                     || meet.federation == Federation::NAP
                     || meet.federation == Federation::RPU
