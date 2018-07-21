@@ -1,126 +1,71 @@
-﻿Name,Age,BodyweightLBS,WeightClassLBS,Best3SquatKG,Bench1KG,Bench2KG,Bench3KG,Best3BenchKG,Deadlift1KG,Deadlift2KG,Deadlift3KG,Best3DeadliftKG,TotalKG,Division,Sex,Tested,Equipment,Event
-Jodi Miller,40,,114,117.5,,,,65,,,,135,317.5,Master (40-44),F,Yes,Wraps,SBD
-Jodi Miller,40,,114,117.5,,,,65,,,,135,317.5,Open,F,Yes,Wraps,SBD
-Lexi Dison,14,,148,35,,,,25,,,,65,125,Teenage (13-15),F,Yes,Wraps,SBD
-Bernice Gee,49,,123,77.5,,,,37.5,,,,92.5,207.5,Master (45-49),F,Yes,Multi-ply,SBD
-Paige Fabela,24,,123,137.5,,,,80,,,,125,342.5,Open,F,Yes,Multi-ply,SBD
-Cher Smalling,45,,123,60,,,,35,,,,100,195,Master (45-49),F,No,Wraps,SBD
-Jodi Miller,40,,114,117.5,,,,65,,,,135,317.5,Master (40-44),F,No,Wraps,SBD
-Valkyrie Harrison,33,,132,87.5,,,,50,,,,100,237.5,Submaster (33-39),F,No,Wraps,SBD
-Sara Geer,26,,132,87.5,,,,45,,,,130,262.5,Open,F,No,Wraps,SBD
-Sarah Dianne Pate,29,,148,92.5,,,,47.5,,,,135,275,Open,F,No,Wraps,SBD
-Kyrie Harrison,13,,114,45,,,,32.5,,,,70,147.5,Teenage (13-15),F,No,Wraps,SBD
-Bernice Gee,49,,123,77.5,,,,37.5,,,,92.5,207.5,Master (45-49),F,No,Multi-ply,SBD
-Joanie Porter,42,,148,125,,,,65,,,,135,325,Master (40-44),F,No,Multi-ply,SBD
-Brooke Straub,29,,123,142.5,,,,80,,,,120,342.5,Open,F,No,Multi-ply,SBD
-Bonnie Thomas,29,,132,140,,,,62.5,,,,145,347.5,Open,F,No,Multi-ply,SBD
-Dawn Chapman,19,,114,117.5,,,,77.5,,,,130,325,Teenage (18-19),F,No,Multi-ply,SBD
-Riley Clifton,15,,181,127.5,,,,60,,,,125,312.5,Teenage (13-15),F,No,Multi-ply,SBD
-Eddie Ross,49,,242,,,,,,,,,,,Master (45-49),M,No,Multi-ply,SBD
-Joe Fantauzzi,36,,242,225,,,,135,,,,252.5,612.5,Submaster (33-39),M,Yes,Wraps,SBD
-Zachary Lewis,24,,148,190,,,,137.5,,,,205,532.5,Open,M,Yes,Wraps,SBD
-Adam Nunnallee,33,,275,215,,,,170,,,,272.5,657.5,Open,M,Yes,Wraps,SBD
-Jonathan Helm,27,,308,237.5,,,,152.5,,,,255,645,Open,M,Yes,Wraps,SBD
-Nick Ramey,21,,198,205,,,,160,,,,265,630,Junior (20-23),M,Yes,Wraps,SBD
-Mark Rogers,33,,275,275,,,,,,,,,,Submaster (33-39),M,Yes,Multi-ply,SBD
-Aaron Pomerantz,18,,165,245,,,,205,,,,192.5,642.5,Teenage (18-19),M,Yes,Multi-ply,SBD
-Grant Brown,14,,132,135,,,,75,,,,147.5,357.5,Teenage (13-15),M,Yes,Multi-ply,SBD
-Doughton Reeves,15,,165,200,,,,117.5,,,,205,522.5,Teenage (13-15),M,Yes,Multi-ply,SBD
-Ron Beechler,53,,181,135,,,,77.5,,,,185,397.5,Master (50-54),M,No,Wraps,SBD
-Chris Lindblad,52,,275,110,,,,112.5,,,,100,322.5,Master (50-54),M,No,Wraps,SBD
-Bryan Moree,40,,198,182.5,,,,145,,,,195,522.5,Master (40-44),M,No,Wraps,SBD
-Jimmy Miller,43,,308,237.5,,,,137.5,,,,255,630,Master (40-44),M,No,Wraps,SBD
-Michael Cothran,29,,198,172.5,,,,120,,,,192.5,485,Open,M,No,Wraps,SBD
-Nicholas Tuttle,30,,198,147.5,,,,115,,,,210,472.5,Open,M,No,Wraps,SBD
-Chuck Krutulis,33,,198,292.5,,,,175,,,,,,Open,M,No,Multi-ply,SBD
-Blaine Terry,25,,220,192.5,,,,175,,,,287.5,655,Open,M,No,Wraps,SBD
-David Troutt,28,,242,260,,,,170,,,,367.5,797.5,Open,M,No,Wraps,SBD
-Eric Semifero,36,,275,302.5,,,,197.5,,,,272.5,772.5,Open,M,No,Wraps,SBD
-David Humphrey,29,,275,295,,,,200,,,,277.5,772.5,Open,M,No,Wraps,SBD
-Scott Prosek,36,,275,210,,,,197.5,,,,280,687.5,Open,M,No,Wraps,SBD
-Jackson Thomas,29,,308,225,,,,135,,,,245,605,Open,M,No,Wraps,SBD
-Patrick Ross Gray,21,,181,132.5,,,,112.5,,,,180,425,Junior (20-23),M,No,Wraps,SBD
-John Demery,22,,198,192.5,,,,127.5,,,,227.5,547.5,Junior (20-23),M,No,Wraps,SBD
-Ivan Sauerzopf,19,,220,195,,,,62.5,,,,260,517.5,Teenage (18-19),M,No,Wraps,SBD
-Peter Edgette,18,,308,295,,,,227.5,,,,295,817.5,Teenage (18-19),M,No,Wraps,SBD
-Clint Medford,52,,220,327.5,,,,235,,,,262.5,825,Master (50-54),M,No,Multi-ply,SBD
-Henry Thomason,33,,308+,,,,,,,,,,,Submaster,M,No,Multi-ply,SBD
-Adam Korenke,33,,198,295,,,,207.5,,,,272.5,775,Open,M,No,Multi-ply,SBD
-Mark Swank,45,,275,262.5,,,,115,,,,,,Open,M,No,Multi-ply,SBD
-Mark Rogers,33,,275,275,,,,,,,,,,Submaster (33-39),M,No,Multi-ply,SBD
-Jeremy Schraw,25,,308,350,,,,212.5,,,,290,852.5,Open,M,No,Multi-ply,SBD
-Henry Thomason,33,,308+,,,,,,,,,,,Open,M,No,Multi-ply,SBD
-Austin Cooley,13,,114,132.5,,,,57.5,,,,122.5,312.5,Teenage (13-15),M,No,Multi-ply,SBD
-Jason Bradley,14,,114,65,,,,40,,,,97.5,202.5,Teenage (13-15),M,No,Multi-ply,SBD
-Connor Robinson,15,,123,110,,,,57.5,,,,122.5,290,Teenage (13-15),M,No,Multi-ply,SBD
-Braden Robertson,14,,132,125,,,,77.5,,,,132.5,335,Teenage (13-15),M,No,Multi-ply,SBD
-Travis Prince,14,,132,117.5,,,,75,,,,137.5,330,Teenage (13-15),M,No,Multi-ply,SBD
-Zach Mohr,15,,181,160,,,,105,,,,165,430,Teenage (13-15),M,No,Multi-ply,SBD
-Jake Louis Beaird,14,,181,155,,,,95,,,,160,410,Teenage (13-15),M,No,Multi-ply,SBD
-Bernice Gee,49,122,123,,27.5,37.5,-47.5,37.5,,,,,37.5,Master (45-49),F,Yes,Multi-ply,B
-Paige Fabela,24,122.2,123,,70,77.5,80,80,,,,,80,Open,F,Yes,Multi-ply,B
-Sherri Schawo,51,194.2,198,,82.5,-92.5,-95,82.5,,,,,82.5,Master (50-54),F,No,Raw,B
-Mike Mercer,54,234.8,242,,195,-200,,195,,,,,195,Master (50-54),M,Yes,Raw,B
-Mike Mercer,54,234.8,242,,195,-200,,195,,,,,195,Master (50-54),M,No,Raw,B
-John Solleder,52,273.6,275,,-160,170,-182.5,170,,,,,170,Master (50-54),M,No,Multi-ply,B
-Al Davis,40,306.6,308,,250,272.5,282.5,282.5,,,,,282.5,Open,M,No,Multi-ply,B
-Ashton Lege,14,165,165,,85,87.5,-95,87.5,,,,,87.5,Teenage (13-15),M,No,Multi-ply,B
-Bernice Gee,49,122,123,,,,,,60,72.5,92.5,92.5,92.5,Master (45-49),F,Yes,Multi-ply,D
-Sherri Schawo,51,194.2,198,,,,,,130,145,150,130,130,Master (50-54),F,No,Raw,D
-Sabrina Rodriguez,16,131.6,132,,,,,,100,110,125,125,125,Teenage (16-17),F,No,Multi-ply,D
-Mike Dugan,44,218.4,220,,,,,,252.5,272.5,282.5,282.5,282.5,Master (40-44),M,No,Multi-ply,D
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,
+Name,Age,BodyweightKg,WeightClassKg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Division,Sex,Tested,Equipment,Event,Place
+Jodi Miller,40,,52,117.5,,,,65,,,,135,317.5,Master (40-44),F,Yes,Wraps,SBD,1
+Jodi Miller,40,,52,117.5,,,,65,,,,135,317.5,Open,F,Yes,Wraps,SBD,1
+Lexi Dison,14,,67.5,35,,,,25,,,,65,125,Teenage (13-15),F,Yes,Wraps,SBD,1
+Bernice Gee,49,,56,77.5,,,,37.5,,,,92.5,207.5,Master (45-49),F,Yes,Multi-ply,SBD,1
+Paige Fabela,24,,56,137.5,,,,80,,,,125,342.5,Open,F,Yes,Multi-ply,SBD,1
+Cher Smalling,45,,56,60,,,,35,,,,100,195,Master (45-49),F,No,Wraps,SBD,1
+Jodi Miller,40,,52,117.5,,,,65,,,,135,317.5,Master (40-44),F,No,Wraps,SBD,2
+Valkyrie Harrison,33,,60,87.5,,,,50,,,,100,237.5,Submaster (33-39),F,No,Wraps,SBD,1
+Sara Geer,26,,60,87.5,,,,45,,,,130,262.5,Open,F,No,Wraps,SBD,1
+Sarah Dianne Pate,29,,67.5,92.5,,,,47.5,,,,135,275,Open,F,No,Wraps,SBD,1
+Kyrie Harrison,13,,52,45,,,,32.5,,,,70,147.5,Teenage (13-15),F,No,Wraps,SBD,1
+Bernice Gee,49,,56,77.5,,,,37.5,,,,92.5,207.5,Master (45-49),F,No,Multi-ply,SBD,2
+Joanie Porter,42,,67.5,125,,,,65,,,,135,325,Master (40-44),F,No,Multi-ply,SBD,1
+Brooke Straub,29,,56,142.5,,,,80,,,,120,342.5,Open,F,No,Multi-ply,SBD,2
+Bonnie Thomas,29,,60,140,,,,62.5,,,,145,347.5,Open,F,No,Multi-ply,SBD,1
+Dawn Chapman,19,,52,117.5,,,,77.5,,,,130,325,Teenage (18-19),F,No,Multi-ply,SBD,1
+Riley Clifton,15,,82.5,127.5,,,,60,,,,125,312.5,Teenage (13-15),F,No,Multi-ply,SBD,1
+Eddie Ross,49,,110,,,,,,,,,,,Master (45-49),M,No,Multi-ply,SBD,DQ
+Joe Fantauzzi,36,,110,225,,,,135,,,,252.5,612.5,Submaster (33-39),M,Yes,Wraps,SBD,1
+Zachary Lewis,24,,67.5,190,,,,137.5,,,,205,532.5,Open,M,Yes,Wraps,SBD,1
+Adam Nunnallee,33,,125,215,,,,170,,,,272.5,657.5,Open,M,Yes,Wraps,SBD,4
+Jonathan Helm,27,,140,237.5,,,,152.5,,,,255,645,Open,M,Yes,Wraps,SBD,1
+Nick Ramey,21,,90,205,,,,160,,,,265,630,Junior (20-23),M,Yes,Wraps,SBD,1
+Mark Rogers,33,,125,275,,,,,,,,,,Submaster (33-39),M,Yes,Multi-ply,SBD,DQ
+Aaron Pomerantz,18,,75,245,,,,205,,,,192.5,642.5,Teenage (18-19),M,Yes,Multi-ply,SBD,1
+Grant Brown,14,,60,135,,,,75,,,,147.5,357.5,Teenage (13-15),M,Yes,Multi-ply,SBD,1
+Doughton Reeves,15,,75,200,,,,117.5,,,,205,522.5,Teenage (13-15),M,Yes,Multi-ply,SBD,1
+Ron Beechler,53,,82.5,135,,,,77.5,,,,185,397.5,Master (50-54),M,No,Wraps,SBD,1
+Chris Lindblad,52,,125,110,,,,112.5,,,,100,322.5,Master (50-54),M,No,Wraps,SBD,1
+Bryan Moree,40,,90,182.5,,,,145,,,,195,522.5,Master (40-44),M,No,Wraps,SBD,1
+Jimmy Miller,43,,140,237.5,,,,137.5,,,,255,630,Master (40-44),M,No,Wraps,SBD,1
+Michael Cothran,29,,90,172.5,,,,120,,,,192.5,485,Open,M,No,Wraps,SBD,1
+Nicholas Tuttle,30,,90,147.5,,,,115,,,,210,472.5,Open,M,No,Wraps,SBD,2
+Chuck Krutulis,33,,90,292.5,,,,175,,,,,,Open,M,No,Multi-ply,SBD,DQ
+Blaine Terry,25,,100,192.5,,,,175,,,,287.5,655,Open,M,No,Wraps,SBD,1
+David Troutt,28,,110,260,,,,170,,,,367.5,797.5,Open,M,No,Wraps,SBD,1
+Eric Semifero,36,,125,302.5,,,,197.5,,,,272.5,772.5,Open,M,No,Wraps,SBD,1
+David Humphrey,29,,125,295,,,,200,,,,277.5,772.5,Open,M,No,Wraps,SBD,2
+Scott Prosek,36,,125,210,,,,197.5,,,,280,687.5,Open,M,No,Wraps,SBD,3
+Jackson Thomas,29,,140,225,,,,135,,,,245,605,Open,M,No,Wraps,SBD,2
+Patrick Ross Gray,21,,82.5,132.5,,,,112.5,,,,180,425,Junior (20-23),M,No,Wraps,SBD,1
+John Demery,22,,90,192.5,,,,127.5,,,,227.5,547.5,Junior (20-23),M,No,Wraps,SBD,2
+Ivan Sauerzopf,19,,100,195,,,,62.5,,,,260,517.5,Teenage (18-19),M,No,Wraps,SBD,1
+Peter Edgette,18,,140,295,,,,227.5,,,,295,817.5,Teenage (18-19),M,No,Wraps,SBD,1
+Clint Medford,52,,100,327.5,,,,235,,,,262.5,825,Master (50-54),M,No,Multi-ply,SBD,1
+Henry Thomason,33,,140+,,,,,,,,,,,Submaster,M,No,Multi-ply,SBD,DQ
+Adam Korenke,33,,90,295,,,,207.5,,,,272.5,775,Open,M,No,Multi-ply,SBD,1
+Mark Swank,45,,125,262.5,,,,115,,,,,,Open,M,No,Multi-ply,SBD,DQ
+Mark Rogers,33,,125,275,,,,,,,,,,Submaster (33-39),M,No,Multi-ply,SBD,DQ
+Jeremy Schraw,25,,140,350,,,,212.5,,,,290,852.5,Open,M,No,Multi-ply,SBD,1
+Henry Thomason,33,,140+,,,,,,,,,,,Open,M,No,Multi-ply,SBD,DQ
+Austin Cooley,13,,52,132.5,,,,57.5,,,,122.5,312.5,Teenage (13-15),M,No,Multi-ply,SBD,1
+Jason Bradley,14,,52,65,,,,40,,,,97.5,202.5,Teenage (13-15),M,No,Multi-ply,SBD,2
+Connor Robinson,15,,56,110,,,,57.5,,,,122.5,290,Teenage (13-15),M,No,Multi-ply,SBD,1
+Braden Robertson,14,,60,125,,,,77.5,,,,132.5,335,Teenage (13-15),M,No,Multi-ply,SBD,2
+Travis Prince,14,,60,117.5,,,,75,,,,137.5,330,Teenage (13-15),M,No,Multi-ply,SBD,3
+Zach Mohr,15,,82.5,160,,,,105,,,,165,430,Teenage (13-15),M,No,Multi-ply,SBD,1
+Jake Louis Beaird,14,,82.5,155,,,,95,,,,160,410,Teenage (13-15),M,No,Multi-ply,SBD,2
+Bernice Gee,49,55.34,56,,27.5,37.5,-47.5,37.5,,,,,37.5,Master (45-49),F,Yes,Multi-ply,B,1
+Paige Fabela,24,55.43,56,,70,77.5,80,80,,,,,80,Open,F,Yes,Multi-ply,B,1
+Sherri Schawo,51,88.09,90,,82.5,-92.5,-95,82.5,,,,,82.5,Master (50-54),F,No,Raw,B,1
+Mike Mercer,54,106.5,110,,195,-200,,195,,,,,195,Master (50-54),M,Yes,Raw,B,1
+Mike Mercer,54,106.5,110,,195,-200,,195,,,,,195,Master (50-54),M,No,Raw,B,2
+John Solleder,52,124.1,125,,-160,170,-182.5,170,,,,,170,Master (50-54),M,No,Multi-ply,B,1
+Al Davis,40,139.07,140,,250,272.5,282.5,282.5,,,,,282.5,Open,M,No,Multi-ply,B,1
+Ashton Lege,14,74.84,75,,85,87.5,-95,87.5,,,,,87.5,Teenage (13-15),M,No,Multi-ply,B,1
+Bernice Gee,49,55.34,56,,,,,,60,72.5,92.5,92.5,92.5,Master (45-49),F,Yes,Multi-ply,D,1
+Sherri Schawo,51,88.09,90,,,,,,130,-145,-150,130,130,Master (50-54),F,No,Raw,D,1
+Sabrina Rodriguez,16,59.69,60,,,,,,100,110,125,125,125,Teenage (16-17),F,No,Multi-ply,D,1
+Mike Dugan,44,99.06,100,,,,,,252.5,272.5,282.5,282.5,282.5,Master (40-44),M,No,Multi-ply,D,1
