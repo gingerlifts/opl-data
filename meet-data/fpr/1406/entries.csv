@@ -71,7 +71,7 @@ Nikita Gavrin,Никита Гаврин,1997,56.35,110,55,125,290,59,SBD,Raw,Sub
 Ruslan Potolov,Руслан Потолов,2001,59,90,65,110,265,59,SBD,Raw,Sub-Juniors,M,11
 Maksim Efremov,Максим Ефремов,1997,54.2,65,60,100,225,59,SBD,Raw,Sub-Juniors,M,12
 Andrey Tolkachyov,Андрей Толкачёв,1997,58.7,115,90,-140,,59,SBD,Raw,Sub-Juniors,M,DQ
-Sergey Malkov,Сергей Малков,1997,58.45,-130,,,,59,SBD,Raw,Sub-Juniors,M,DQ
+Sergey Malkov,Сергей Мальков,1997,58.45,-130,,,,59,SBD,Raw,Sub-Juniors,M,DQ
 Aleksey Shchankin,Алексей Щанкин,1996,63.95,160,105,205,470,66,SBD,Raw,Sub-Juniors,M,1
 Sergey Tsyupko,Сергей Цюпко,1996,62.25,155,105,200,460,66,SBD,Raw,Sub-Juniors,M,2
 Aleksey Nikulin,Алексей Никулин,1996,65.15,167.5,107.5,177.5,452.5,66,SBD,Raw,Sub-Juniors,M,3
@@ -93,7 +93,7 @@ Vitaliy Chernykh,Виталий Черных,1996,64.15,110,85,140,335,66,SBD,Ra
 Beslan Guchapshev,Беслан Гучапшев,1996,65.25,155,107.5,160,422.5,66,SBD,Raw,Sub-Juniors,M,8
 Maksim Nikitin,Максим Никитин,1996,73.9,195,137.5,240,572.5,74,SBD,Raw,Sub-Juniors,M,1
 Maksim Yarusov,Максим Ярусов,1997,73.6,205,115,222.5,542.5,74,SBD,Raw,Sub-Juniors,M,2
-Igor Melnik,Игорь Мельник,1996,73.75,185,145,212.5,542.5,74,SBD,Raw,Sub-Juniors,M,3
+Igor Melnik,Ігор Мельник,1996,73.75,185,145,212.5,542.5,74,SBD,Raw,Sub-Juniors,M,3
 Denis Nesterov,Денис Нестеров,1996,72.85,190,115,225,530,74,SBD,Raw,Sub-Juniors,M,4
 Aleksandr Perevoznikov,Александр Перевозников,1996,73.75,185,115,225,525,74,SBD,Raw,Sub-Juniors,M,5
 Lev Melnichenko,Лев Мельниченко,1998,73.3,197.5,120,197.5,515,74,SBD,Raw,Sub-Juniors,M,6
@@ -149,7 +149,7 @@ Aleksandra Churkina,Александра Чуркина,1992,46.75,95,61,116,272
 Mariya Burova,Мария Бурова,1995,46.5,85.5,55,108,248.5,47,SBD,Raw,Juniors,F,2
 Zoya Ruban,Зоя Рубан,1995,46.65,80,32.5,105,217.5,47,SBD,Raw,Juniors,F,3
 Valeriya Knyazeva,Валерия Князева,1993,,,,,,47,SBD,Raw,Juniors,F,DQ
-Anna Filimonova,Анна Филимонова,1994,51.1,125,92.5,125,342.5,52,SBD,Raw,Juniors,F,1
+Inna Filimonova,Инна Филимонова,1994,51.1,125,92.5,125,342.5,52,SBD,Raw,Juniors,F,1
 Irina Zemtsova,Ирина Земцова,1991,51.6,112.5,67.5,135,315,52,SBD,Raw,Juniors,F,2
 Ekaterina Okun,Екатерина Окунь,1994,51.8,97.5,67.5,120,285,52,SBD,Raw,Juniors,F,3
 Yuliya Muravyova,Юлия Муравьёва,1993,50.8,85,60,110,255,52,SBD,Raw,Juniors,F,4
@@ -240,7 +240,7 @@ Vera Muravyova,Вера Муравьёва,1968,56.2,85,50,105,240,57,SBD,Raw,Op
 Viktoriya Lebedeva,Виктория Лебедева,1974,,,,,,57,SBD,Raw,Open,F,DQ
 Veronika Matveeva,Вероника Матвеева,1983,,,,,,57,SBD,Raw,Open,F,DQ
 Olga Vorotnikova,Ольга Воротникова,1975,62.65,142.5,100,177.5,420,63,SBD,Raw,Open,F,1
-Mariya Dubenskaya,Мария Дубенская,1988,62.15,142.5,105,170,417.5,63,SBD,Raw,Open,F,2
+Maria Dubenskaya,Мария Дубенская,1988,62.15,142.5,105,170,417.5,63,SBD,Raw,Open,F,2
 Anna Novikova,Анна Новикова,1986,62.05,140,105,150,395,63,SBD,Raw,Open,F,3
 Anastasiya Shevelyova,Анастасия Шевелёва,1989,62.6,130,100,157.5,387.5,63,SBD,Raw,Open,F,4
 Nataliya Posnikova,Наталия Посникова,1987,60.85,130,82.5,140,352.5,63,SBD,Raw,Open,F,5
@@ -252,7 +252,7 @@ Mariya Volkova,Мария Волкова,1972,70.65,160.5,125.5,155,441,72,SBD,R
 Anna Gudkova,Анна Гудкова,1978,65.55,147.5,97.5,170,415,72,SBD,Raw,Open,F,3
 Olga Sudoseva,Ольга Судосьева,1966,70.2,122.5,67.5,152.5,342.5,72,SBD,Raw,Open,F,4
 Anastasiya Gubareva,Анастасия Губарева,1985,69.15,90,50,105,245,72,SBD,Raw,Open,F,5
-Valeriya Timoshchuk,Валерия Тимощук,1988,78.65,180,102.5,175,457.5,84,SBD,Raw,Open,F,1
+Valeria Timoshchuk,Валерия Тимощук,1988,78.65,180,102.5,175,457.5,84,SBD,Raw,Open,F,1
 Zhanna Adomu,Жанна Адому,1982,74.05,122.5,82.5,135,340,84,SBD,Raw,Open,F,2
 Angelina Golikova,Ангелина Голикова,1990,78.65,115,52.5,105,272.5,84,SBD,Raw,Open,F,3
 Evgeniya Dukachyova,Евгения Дукачёва,1983,94.3,210,115,220,545,84+,SBD,Raw,Open,F,1
@@ -266,14 +266,14 @@ Yuriy Nepovinnykh,Юрий Неповинных,1965,58.15,165,107.5,200,472.5,5
 Vasiliy Dementev,Василий Дементьев,1989,57.95,135,100,170,405,59,SBD,Raw,Open,M,5
 Mikhail Andryukhin,Михаил Андрюхин,1970,65.6,240,140,270,650,66,SBD,Raw,Open,M,1
 Sergey Skochek,Сергей Скочек,1983,65.1,210,175.5,260,645.5,66,SBD,Raw,Open,M,2
-Aleksandr Kolbin,Александр Колбин,1987,65.25,230,145,252.5,627.5,66,SBD,Raw,Open,M,3
+Alexander Kolbin,Александр Колбин,1987,65.25,230,145,252.5,627.5,66,SBD,Raw,Open,M,3
 Andrey Kostenko,Андрей Костенко,1989,62.45,225,130,240,595,66,SBD,Raw,Open,M,4
 Aleksandr Shipchin,Александр Шипчин,1990,65.8,175,122.5,252.5,550,66,SBD,Raw,Open,M,5
 Oleg Ryabinnikov,Олег Рябинников,1978,73.75,230,135,262.5,627.5,74,SBD,Raw,Open,M,2
 Konstantin Kargin,Константин Каргин,1989,72.6,210,135,250,595,74,SBD,Raw,Open,M,3
 Dmitriy Andreev,Дмитрий Андреев,1978,73.45,210,140,220,570,74,SBD,Raw,Open,M,4
 David Amazyan,Давид Амазян,1988,73.95,235.5,140,260,635.5,74,SBD,Raw,Open,M,1
-Aleksey Kuzmin,Алексей Кузьмин,1982,82.7,270,180,302.5,752.5,83,SBD,Raw,Open,M,1
+Alexey Kuzmin,Алексей Кузьмин,1982,82.7,270,180,302.5,752.5,83,SBD,Raw,Open,M,1
 Konstantin Dyashkin,Константин Дяшкин,1984,82.5,262.5,170,300,732.5,83,SBD,Raw,Open,M,2
 Ivan Fedotov,Иван Федотов,1986,83,245,180,295,720,83,SBD,Raw,Open,M,3
 Stanislav Kumskov,Станислав Кумсков,1989,82.85,250,167.5,280,697.5,83,SBD,Raw,Open,M,4
@@ -294,7 +294,7 @@ Ilya Simakov,Илья Симаков,1983,89.05,210,170,250,630,93,SBD,Raw,Open,
 Aleksandr Tsybulskiy,Александр Цыбульский,1983,92.1,235,145,240,620,93,SBD,Raw,Open,M,7
 Konstantin Podshebyakin,Константин Подшебякин,1970,91.2,200,155,215,570,93,SBD,Raw,Open,M,8
 Maksim Ivanov,Максим Иванов,1981,,,,,,93,SBD,Raw,Open,M,DQ
-Yuriy Belkin,Юрий Белкин,1990,100.45,311,202.5,347.5,861,105,SBD,Raw,Open,M,1
+Yury Belkin,Юрий Белкин,1990,100.45,311,202.5,347.5,861,105,SBD,Raw,Open,M,1
 Dmitriy Likhanov,Дмитрий Лиханов,1979,103.75,305,215,325,845,105,SBD,Raw,Open,M,2
 Ernst Gross,Эрнст Гросс,1987,103.75,315,200,317.5,832.5,105,SBD,Raw,Open,M,3
 Sergey Akhlestin,Сергей Ахлестин,1989,101.75,300,190,320,810,105,SBD,Raw,Open,M,4
@@ -314,7 +314,7 @@ Vladimir Kuvaev,Владимир Куваев,1980,114.6,275,195,310,780,120,SBD
 Dmitriy Yashurin,Дмитрий Яшурин,1982,109.8,255,187.5,280,722.5,120,SBD,Raw,Open,M,5
 Konstantin Baranov,Константин Баранов,1986,,,,,,120,SBD,Raw,Open,M,DQ
 Murad Alibegov,Мурад Алибегов,1977,125,315,260,325,900,120+,SBD,Raw,Open,M,1
-Artyom Kovalchuk,Артём Ковальчук,1982,136.3,355.5,200,335,890.5,120+,SBD,Raw,Open,M,2
+Artem Kovalchuk,Артём Ковальчук,1982,136.3,355.5,200,335,890.5,120+,SBD,Raw,Open,M,2
 Ruslan Zhigalenko,Руслан Жигаленко,1980,150.45,320,210,340,870,120+,SBD,Raw,Open,M,3
 Vladimir Verdiyanu,Владимир Вердияну,1984,145,285,237.5,270,792.5,120+,SBD,Raw,Open,M,4
 Yuriy Andreev,Юрий Андреев,1965,156,350,190,250,790,120+,SBD,Raw,Open,M,5

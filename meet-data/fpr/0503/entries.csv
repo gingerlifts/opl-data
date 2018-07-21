@@ -13,7 +13,7 @@ Place,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Weight
 6,Viktor Bazhukov,60,195,132.5,207.5,535,60,M,Виктор Бажуков,1982,Single-ply,SBD
 7,Timofey Savin,59.75,195,122.5,190,507.5,60,M,Тимофей Савин,1985,Single-ply,SBD
 DQ,Sergey Chikin,60,180,,,,60,M,Сергей Чикин,1979,Single-ply,SBD
-1,Alexander Gromov,67.5,320,217.5,270,807.5,67.5,M,Александр Громов,1981,Single-ply,SBD
+1,Aleksandr Gromov,67.5,320,217.5,270,807.5,67.5,M,Александр Громов,1981,Single-ply,SBD
 2,Mikhail Speranskiy,66.75,265,195,220,680,67.5,M,Михаил Сперанский,1976,Single-ply,SBD
 3,Sergey Agafonov,63.95,250,172.5,240,662.5,67.5,M,Сергей Агафонов,1984,Single-ply,SBD
 4,Denis Varyukhin,66.6,255,155,225,635,67.5,M,Денис Варюхин,1986,Single-ply,SBD
@@ -33,7 +33,7 @@ DQ,Sergey Chikin,60,180,,,,60,M,Сергей Чикин,1979,Single-ply,SBD
 DQ,Vasiliy Buntsev,66.45,250,,,,67.5,M,Василий Бунцев,1985,Single-ply,SBD
 DQ,Aleksandr Makarov,65.3,,,,,67.5,M,Александр Макаров,1986,Single-ply,SBD
 1,Alexander Poshelyuk,74.95,300,207.5,300,807.5,75,M,,1979,Single-ply,SBD
-2,Aleksey Bakhirev,72.75,247.5,197.5,275,720,75,M,Алексей Бахирев,1981,Single-ply,SBD
+2,Alexey Bakhirev,72.75,247.5,197.5,275,720,75,M,Алексей Бахирев,1981,Single-ply,SBD
 3,Sergey Nikitin,74.2,270,180,260,710,75,M,Сергей Никитин,1982,Single-ply,SBD
 4,Maksim Vizhichenko,74.25,270,175,240,685,75,M,Максим Вижиченко,1977,Single-ply,SBD
 5,Sergey Melekhin,74.45,260,180,242.5,682.5,75,M,Сергей Мелехин,1972,Single-ply,SBD
@@ -85,7 +85,7 @@ DQ,Aleksandr Egorov,71.8,235,,,,75,M,Александр Егоров,1984,Single
 14,Maksim Kireev,81.95,257.5,185,245,687.5,82.5,M,Максим Киреев,1984,Single-ply,SBD
 15,Vasiliy Chernov,82,250,167.5,270,687.5,82.5,M,Василий Чернов,1976,Single-ply,SBD
 16,Aleksey Mochalov,75.1,265,160,245,670,82.5,M,Алексей Мочалов,1980,Single-ply,SBD
-17,Igor Sinеlnikov,82.15,200,237.5,232.5,670,82.5,M,Игорь Синельников,1961,Single-ply,SBD
+17,Igor Sinelnikov,82.15,200,237.5,232.5,670,82.5,M,Игорь Синельников,1961,Single-ply,SBD
 18,Andrey Novikov,81.35,250,155,220,625,82.5,M,Андрей Новиков,1984,Single-ply,SBD
 19,Evgeniy Andreev,81.35,240,155,230,625,82.5,M,Евгений Андреев,1979,Single-ply,SBD
 20,Sergey Kalinin,80.7,240,135,230,605,82.5,M,Сергей Калинин,1989,Single-ply,SBD
@@ -125,7 +125,7 @@ DQ,Sergey Mayakov,82.4,250,,,,82.5,M,Сергей Маяков,1982,Single-ply,S
 22,Dmitriy Kuznetsov,90,275,195,230,700,90,M,Дмитрий Кузнецов,1976,Single-ply,SBD
 23,Evgeniy Akhmedov,90,260,180,260,700,90,M,Евгений Ахмедов,1980,Single-ply,SBD
 24,Maksim Pyatkov,85.05,270,175,250,695,90,M,Максим Пятков,1983,Single-ply,SBD
-25,Aleksey Kuzmin,87,250,195,250,695,90,M,Алексей Кузьмин,1982,Single-ply,SBD
+25,Alexey Kuzmin,87,250,195,250,695,90,M,Алексей Кузьмин,1982,Single-ply,SBD
 26,Dmitriy Lodygin,89.95,250,190,250,690,90,M,Дмитрий Лодыгин,1979,Single-ply,SBD
 27,Ivan Isakov,90,280,160,250,690,90,M,Иван Исаков,1981,Single-ply,SBD
 28,Valeriy Zhurov,89.7,285,172.5,230,687.5,90,M,Валерий Журов,1979,Single-ply,SBD
@@ -239,7 +239,7 @@ DQ,Roman Lebedev,125.65,,,,,125+,M,Роман Лебедев,1980,Single-ply,SBD
 2,Marina Nikiforova,50.15,120,60,115,295,52,F,Марина Никифорова,1983,Single-ply,SBD
 3,Yana Krivorotova,51.75,130,50,112.5,292.5,52,F,Яна Криворотова,1988,Single-ply,SBD
 4,Yuliya Vavilova,51.55,112.5,52.5,125,290,52,F,Юлия Вавилова,1979,Single-ply,SBD
-5,Mariya Dubenskaya,51.85,105,60,115,280,52,F,Мария Дубенская,1988,Single-ply,SBD
+5,Maria Dubenskaya,51.85,105,60,115,280,52,F,Мария Дубенская,1988,Single-ply,SBD
 6,Olga Kurmeleva,51.55,100,50,110,260,52,F,Ольга Курмелева,1977,Single-ply,SBD
 DQ,Yuliya Mikhaylova,51.15,80,,,,52,F,Юлия Михайлова,1985,Single-ply,SBD
 1,Valentina Morozova,55.8,175,90,187.5,452.5,56,F,Валентина Морозова,1960,Single-ply,SBD
