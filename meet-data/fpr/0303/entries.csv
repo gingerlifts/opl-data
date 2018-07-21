@@ -55,7 +55,7 @@ DQ,Konstantin Khalyavkin,82.45,,,,,82.5,M,Константин Халявкин,
 3,Konstantin Pozdeev,88.1,325,165,330,820,90,M,Константин Поздеев,1984,Single-ply,SBD
 4,Alexey Shashurin,89.85,305,190,270,765,90,M,Алексей Шашурин,1984,Single-ply,SBD
 5,Denis Tsvetkov,89.5,280,200,275,755,90,M,Денис Цветков,1980,Single-ply,SBD
-6,Dmitriy Valchuk,81.1,270,200,270,740,90,M,Дмитрий Вальчук,1980,Single-ply,SBD
+6,Dmitriy Valchuk,,270,200,270,740,90,M,Дмитрий Вальчук,1980,Single-ply,SBD
 7,Andrey Tikhonov,89.3,280,170,270,720,90,M,Андрей Тихонов,1983,Single-ply,SBD
 8,Vadim Nazamidi,88.6,280,160,280,720,90,M,Вадим Назамиди,1982,Single-ply,SBD
 9,Dmitriy Demin,89.4,290,155,260,705,90,M,Дмитрий Демин,1979,Single-ply,SBD
@@ -100,9 +100,9 @@ DQ,Ivan Plashkin,107.9,295,,,,110,M,Иван Плашкин,1979,Single-ply,SBD
 10,Yuriy Mosharov,113.4,200,125,210,535,125,M,Юрий Мошаров,1979,Single-ply,SBD
 DQ,Mikhail Bulychev,119.5,,,,,125,M,Михаил Булычев,1973,Single-ply,SBD
 DQ,Denis Zavyalov,115.2,200,,,,125,M,Денис Завьялов,1979,Single-ply,SBD
-1,Arkadiy Vasnetsov,132.4,380,225,330,935,125,M,Аркадий Васнецов,1976,Single-ply,SBD
-2,Vadim Poberukhin,130,270,205,320,795,125,M,Вадим Поберухин,1961,Single-ply,SBD
-3,Sergey Eremin,130.4,300,200,280,780,125,M,Сергей Еремин,1964,Single-ply,SBD
+1,Arkadiy Vasnetsov,132.4,380,225,330,935,125+,M,Аркадий Васнецов,1976,Single-ply,SBD
+2,Vadim Poberukhin,130,270,205,320,795,125+,M,Вадим Поберухин,1961,Single-ply,SBD
+3,Sergey Eremin,130.4,300,200,280,780,125+,M,Сергей Еремин,1964,Single-ply,SBD
 1,Anna Yakutchikova,48,110,60,100,270,48,F,Анна Якутчикова,1983,Single-ply,SBD
 2,Anastasiya Golovina,45.15,95,42.5,85,222.5,48,F,Анастасия Головина,1987,Single-ply,SBD
 1,Elena Vorobyeva,51.6,122.5,77.5,140,340,52,F,Елена Воробьева,1978,Single-ply,SBD
