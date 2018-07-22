@@ -38,25 +38,47 @@ def smCoeff(a, b, c, x):
 
 
 def schwartzCoeff(x):  # Where x is BodyweightKg.
+    # Values calculated by fitting to coefficient tables
     a = 3565.902903983125
     b = -2.244917050872728
     c = 0.445775838479913
+
+    # Arbitrary choice of lower bound
+    x = max(x, 40)
     return smCoeff(a, b, c, x)
 
 
 def maloneCoeff(x):  # Where x is BodyweightKg.
+    # Values calculated by fitting to coefficient tables
     a = 106.0115863236130
     b = -1.293027130579051
     c = 0.322935585328304
+
+    # Need a lower bound somewhere, so chose when Malone=max(Wilks)
+    x = max(x, 29.24)
     return smCoeff(a, b, c, x)
 
 
 def glossCoeffMen(x):  # Where x is BodyweightKg.
-    return (schwartzCoeff(x) + wilksCoeffMen(x))/2
+    # Linear coefficients found by fitting to table
+    a = -0.000821668402557
+    b = 0.676940740094416
+
+    if x < 153.05:
+        return (schwartzCoeff(x) + wilksCoeffMen(x))/2
+    else:  # Gloss function is defined piecewise
+        return (schwartzCoeff(x) + a*x + b)/2
 
 
 def glossCoeffWomen(x):  # Where x is BodyweightKg.
-    return (maloneCoeff(x) + wilksCoeffWomen(x))/2
+    # Linear coefficients found by fitting to table
+    a = -0.000313738002024
+    b = 0.852664892884785
+
+    if x < 106.3:
+        return (maloneCoeff(x) + wilksCoeffWomen(x))/2
+    else:  # Gloss function is defined piecewise
+        return (maloneCoeff(x) + a*x + b)/2
 
 
 # Array of age coefficients, such that AGE_COEFFICIENTS[age]
