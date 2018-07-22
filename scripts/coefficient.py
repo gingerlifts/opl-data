@@ -64,10 +64,9 @@ def glossCoeffMen(x):  # Where x is BodyweightKg.
     a = -0.000821668402557
     b = 0.676940740094416
 
-    if x < 153.05:
+    if x < 153.05: # Gloss function is defined piecewise
         return (schwartzCoeff(x) + wilksCoeffMen(x))/2
-    else:  # Gloss function is defined piecewise
-        return (schwartzCoeff(x) + a*x + b)/2
+    return (schwartzCoeff(x) + a*x + b)/2
 
 
 def glossCoeffWomen(x):  # Where x is BodyweightKg.
@@ -75,10 +74,9 @@ def glossCoeffWomen(x):  # Where x is BodyweightKg.
     a = -0.000313738002024
     b = 0.852664892884785
 
-    if x < 106.3:
+    if x < 106.3: # Gloss function is defined piecewise
         return (maloneCoeff(x) + wilksCoeffWomen(x))/2
-    else:  # Gloss function is defined piecewise
-        return (maloneCoeff(x) + a*x + b)/2
+    return (maloneCoeff(x) + a*x + b)/2
 
 
 # Array of age coefficients, such that AGE_COEFFICIENTS[age]
