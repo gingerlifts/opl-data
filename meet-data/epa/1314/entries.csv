@@ -1,7 +1,7 @@
-Name,Division,Sex,Equipment,Event,BodyweightKg,WeightclassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,AgeClass,
+Name,Division,Sex,Equipment,Event,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,AgeClass,Place
 Sharn Rowlands,F-Open,F,Raw,SBD,42.4,47,80,90,92.5,92.5,45,50,52.5,52.5,100,110,115,115,260,18-23,1
 Imelda Flanagan,F-Open,F,Raw,SBD,42.8,47,65,67.5,70,70,37.5,40,42.5,42.5,105,112.5,,112.5,225,49-59,2
-Krishnaa Mahbubani,F-Open,F,Raw,SBD,52,52,-100,-100,-100,,50,55,-60,,125,130,-140,,,23-39,DQ
+Krishnaa Mahbubani,F-Open,F,Raw,SBD,52,52,-100,-100,-100,,50,55,-60,55,125,130,-140,130,,23-39,DQ
 Abi Graham,F-Open,F,Raw,SBD,61.6,63,100,110,120,120,65,70,72.5,72.5,155,-170,-170,155,347.5,23-39,1
 Gemma Burley,F-Open,F,Raw,SBD,62.2,63,75,-77.5,77.5,77.5,50,52.5,55,55,95,100,110,110,242.5,23-39,2
 Fiona Christie,F-Open,F,Raw,SBD,68.1,72,100,107.5,-112.5,107.5,45,50,55,55,135,142.5,145,145,307.5,23-39,1
@@ -36,6 +36,6 @@ Kieran Stubbings,M-Open,M,Raw,SBD,97,105,140,150,160,160,95,100,-105,100,180,190
 Andrew Rodney,M-Open,M,Raw,SBD,119,120,220,260,280,280,157.5,167.5,172.5,172.5,230,260,280,280,732.5,39-49,1
 Chris Gladding,M-Open,M,Raw,SBD,112.5,120,160,-175,175,175,135,-142.5,-142.5,135,175,187.5,-195,187.5,497.5,69-79,2
 Ashley Lynds,M-Guest,M,Raw,SBD,115.9,120,120,-130,130,130,120,130,-140,130,180,190,205,205,465,23-39,G
-Chris Hartwig,M-Open,M,Raw,SBD,123.4,120+ ,210,230,,230,160,180,-190,180,240,260,280,280,690,23-39,1
-Adam Thomson,M-Open,M,Raw,SBD,125.3,120+ ,205,217.5,222.5,222.5,135,142.5,-145,142.5,210,215,-220,215,580,18-23,2
-Matt Mackey,M-Open,M,Raw,SBD,163.3,120+ ,100,,,100,160,170,180,180,100,,,100,380,49-59,3
+Chris Hartwig,M-Open,M,Raw,SBD,123.4,120+,210,230,,230,160,180,-190,180,240,260,280,280,690,23-39,1
+Adam Thomson,M-Open,M,Raw,SBD,125.3,120+,205,217.5,222.5,222.5,135,142.5,-145,142.5,210,215,-220,215,580,18-23,2
+Matt Mackey,M-Open,M,Raw,SBD,163.3,120+,100,,,100,160,170,180,180,100,,,100,380,49-59,3
