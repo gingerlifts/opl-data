@@ -21,7 +21,7 @@ Place,Name,Team,Bench4Kg,Event,Equipment,BodyweightKg,Best3BenchKg,Sex,WeightCla
 8,Philip Guise,wm,,B,Single-ply,80.4,140,M,82.5,140
 9,David Hinchley,wm,,B,Single-ply,82.2,125,M,82.5,125
 10,Jim Taylor,wm,,B,Single-ply,81.9,67.5,M,82.5,67.5
-DQ,David Schadek,em,,B,Single-ply,80.7,,M,82.5,0
+DQ,David Schadek,em,,B,Single-ply,80.7,,M,82.5,
 1,Martin Green,sm,192.5,B,Single-ply,88.9,190.5,M,90,190.5
 2,John Porter,sm,,B,Single-ply,89.2,185,M,90,185
 3,Nigel Faulkner,nw,,B,Single-ply,83.5,175,M,90,175
@@ -30,7 +30,7 @@ DQ,David Schadek,em,,B,Single-ply,80.7,,M,82.5,0
 6,Philip Watkin,wal,,B,Single-ply,89,150,M,90,150
 7,Mark Barlow,nm,,B,Single-ply,89.1,145,M,90,145
 8,Tim Putnam,se,,B,Single-ply,83.2,125,M,90,125
-DQ,Neil Spence,nm,,B,Single-ply,88.4,,M,90,0
+DQ,Neil Spence,nm,,B,Single-ply,88.4,,M,90,
 1,Martin Yates,wm,,B,Single-ply,99.2,195,M,100,195
 2,Tim Duke,sw,,B,Single-ply,93.5,180,M,100,180
 3,George Stoneman,sm,,B,Single-ply,98.9,175,M,100,175
@@ -39,7 +39,7 @@ DQ,Neil Spence,nm,,B,Single-ply,88.4,,M,90,0
 6,Mark Vickers,wm,,B,Single-ply,93.1,157.5,M,100,157.5
 7,Stuart McKay,sm,,B,Single-ply,94.5,140,M,100,140
 8,Roy Donaldson,wm,,B,Single-ply,94.5,140,M,100,140
-,John Buck,nm,,B,Single-ply,98.6,,M,100,0
+DQ,John Buck,nm,,B,Single-ply,98.6,,M,100,
 1,Clive Henry,wm,,B,Single-ply,109.6,220,M,110,220
 2,Wayne Buck,nm,,B,Single-ply,108.3,210,M,110,210
 3,John Battye,yne,,B,Single-ply,104,200,M,110,200
