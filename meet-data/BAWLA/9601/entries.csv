@@ -1,4 +1,4 @@
-Place,Name,Team,Event,Equipment,BodyweightKg,Best3BenchKg,Bench4Kg,WeightClassKg,AgeClass,Total,Sex
+Place,Name,Team,Event,Equipment,BodyweightKg,Best3BenchKg,Bench4Kg,WeightClassKg,AgeClass,TotalKg,Sex
 1,Yohannes Seesuran,gl,B,Single-ply,53.9,90,,56,,90,M
 1,Peter Bedford,sm,B,Single-ply,58.1,120,,60,,120,M
 2,Manoj Chahal,wm,B,Single-ply,59.9,115,,60,,115,M
@@ -17,7 +17,7 @@ Place,Name,Team,Event,Equipment,BodyweightKg,Best3BenchKg,Bench4Kg,WeightClassKg
 3,Colin Gayle,gl,B,Single-ply,78.8,160,,82.5,,160,M
 4,Paul Roskilly,se,B,Single-ply,80.5,160,,82.5,,160,M
 5,Keith Bowen,wal,B,Single-ply,82.5,160,,82.5,,160,M
-6,ick McCormack,yne,B,Single-ply,80.5,155,,82.5,,155,M
+6,Rick McCormack,yne,B,Single-ply,80.5,155,,82.5,,155,M
 7,Mike Dyer,wm,B,Single-ply,82.3,150,,82.5,,150,M
 8,Nigel Green,wm,B,Single-ply,82.5,150,,82.5,,150,M
 9,David Schader,em,B,Single-ply,78.6,145,,82.5,,145,M
