@@ -1,11 +1,11 @@
-Place,Name,Team,Event,Equipment,BodyweightKg,Best3BenchKg,Bench4Kg,WeightClassKg,AgeClass,TotalKg,Sex
+Place,Name,Team,Event,Equipment,BodyweightKg,Best3BenchKg,Bench4Kg,WeightClassKg,AgeClass,Total,Sex
 1,Yohannes Seesuran,gl,B,Single-ply,53.9,90,,56,,90,M
 1,Peter Bedford,sm,B,Single-ply,58.1,120,,60,,120,M
 2,Manoj Chahal,wm,B,Single-ply,59.9,115,,60,,115,M
 3,Mohona Krishnan,sco,B,Single-ply,58.5,100,,60,,100,M
 1,Dean Law,se,B,Single-ply,64.5,150,,67.5,,150,M
 2,Mark Hale,wal,B,Single-ply,64.2,147.5,,67.5,,147.5,M
-3,Phil Stringer,yne,B,Single-ply,64.6,147.5,,67.5,39.5-49,147.5,M
+3,Phil Stringer,yne,B,Single-ply,64.6,147.5,,67.5,39.5-49,67.5,M
 4,Phil Richard,wal,B,Single-ply,62.6,140,,67.5,,140,M
 5,Darran Cassar,wm,B,Single-ply,64,140,,67.5,,140,M
 6,Raymond Bell,sco,B,Single-ply,65.3,120,,67.5,,120,M
@@ -17,7 +17,7 @@ Place,Name,Team,Event,Equipment,BodyweightKg,Best3BenchKg,Bench4Kg,WeightClassKg
 3,Colin Gayle,gl,B,Single-ply,78.8,160,,82.5,,160,M
 4,Paul Roskilly,se,B,Single-ply,80.5,160,,82.5,,160,M
 5,Keith Bowen,wal,B,Single-ply,82.5,160,,82.5,,160,M
-6,Rick McCormack,yne,B,Single-ply,80.5,155,,82.5,,155,M
+6,ick McCormack,yne,B,Single-ply,80.5,155,,82.5,,155,M
 7,Mike Dyer,wm,B,Single-ply,82.3,150,,82.5,,150,M
 8,Nigel Green,wm,B,Single-ply,82.5,150,,82.5,,150,M
 9,David Schader,em,B,Single-ply,78.6,145,,82.5,,145,M
@@ -47,4 +47,4 @@ DQ,Sean Smythe,nm,B,Single-ply,86.7,,,90,,,M
 3,Rick Fricker,sw,B,Single-ply,120.7,160,,125,,160,M
 1,Clive Lambert,sw,B,Single-ply,142.2,200,,125+,,200,M
 2,Roy Simon,gl,B,Single-ply,165.6,192.5,,125+,,192.5,M
-DQ,Philip Maddy,wm,B,Single-ply,144.3,,,125+,,,M
+DQ,Philip Maddy,wm,B,Single-ply,144.3,,,125+,,125+,M
