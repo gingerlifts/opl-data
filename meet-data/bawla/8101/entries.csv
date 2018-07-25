@@ -1,16 +1,16 @@
-Name,BodyweightKg,Best3SquatKg,Best3BenchKg,SubTotal,Best3DeadliftKg,TotalKg,Event,Equipment
-S Smith,43.5,92.5,55,147.5,100,247.5,SBD,Single-ply
-A Brown,43.3,60,35,95,100,195,SBD,Single-ply
-C Bennett,48.3,85,60,145,90,235,SBD,Single-ply
-C Haynes,48.2,67.5,50,117.5,85,202.5,SBD,Single-ply
-D Carter,51.5,67.5,32.5,100,82.5,182.5,SBD,Single-ply
-M Green,53.3,80,45,125,112.5,237.5,SBD,Single-ply
-R Bass,58.8,130,72.5,202.5,150,352.5,SBD,Single-ply
-D Webb,59.8,127.5,55,182.5,152.5,335,SBD,Single-ply
-B Gasson,57.8,107.5,52.5,160,127.5,287.5,SBD,Single-ply
-S Beech,58.2,65,35,100,120,220,SBD,Single-ply
-R Crees,56.5,65,37.5,102.5,90,192.5,SBD,Single-ply
-H Pakeman,63,85,45,130,125,255,SBD,Single-ply
-L Crawley,67.4,87.5,40,127.5,107.5,235,SBD,Single-ply
-J Oakes,72.6,160,87.5,247.5,175,422.5,SBD,Single-ply
-J Kerr,91.4,140,95,235,185,420,SBD,Single-ply
+Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Sex
+S Smith,43.5,92.5,55,100,247.5,SBD,Single-ply,F
+A Brown,43.3,60,35,100,195,SBD,Single-ply,F
+C Bennett,48.3,85,60,90,235,SBD,Single-ply,F
+C Haynes,48.2,67.5,50,85,202.5,SBD,Single-ply,F
+D Carter,51.5,67.5,32.5,82.5,182.5,SBD,Single-ply,F
+M Green,53.3,80,45,112.5,237.5,SBD,Single-ply,F
+R Bass,58.8,130,72.5,150,352.5,SBD,Single-ply,F
+D Webb,59.8,127.5,55,152.5,335,SBD,Single-ply,F
+B Gasson,57.8,107.5,52.5,127.5,287.5,SBD,Single-ply,F
+S Beech,58.2,65,35,120,220,SBD,Single-ply,F
+R Crees,56.5,65,37.5,90,192.5,SBD,Single-ply,F
+H Pakeman,63,85,45,125,255,SBD,Single-ply,F
+L Crawley,67.4,87.5,40,107.5,235,SBD,Single-ply,F
+J Oakes,72.6,160,87.5,175,422.5,SBD,Single-ply,F
+J Kerr,91.4,140,95,185,420,SBD,Single-ply,F
