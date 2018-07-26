@@ -1,4 +1,4 @@
-Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,dlift,TotalKg,Event,Equipment,WeightClassKg,Sex
+Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,WeightClassKg,Sex
 1,H Hampson,yne,47.8,127.5,65,137.5,330,SBD,Single-ply,48,F
 2,N Gifford,se,46.9,127.5,60,125,312.5,SBD,Single-ply,48,F
 3,E Dixon,yne,44.5,60,42.5,97.5,200,SBD,Single-ply,48,F
@@ -16,11 +16,11 @@ Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,dlift,TotalKg,Event,Equip
 1,M Gibson,sw,59.4,152.5,90,175,417.5,SBD,Single-ply,60,F
 2,Jackie Blasbery,em,59.7,150,80,170,410,SBD,Single-ply,60,F
 3,R Bass,gl,60,155,77.5,172.5,405,SBD,Single-ply,60,F
-1,E Harris,se,66.7,160,97.5,162.5,420,SBD,Single-ply,60,F
-2,K Dormedy,se,66.4,142.5,77.5,162.5,382.5,SBD,Single-ply,60,F
-3,V Wilson,wm,61.4,137.5,80,162.5,380,SBD,Single-ply,60,F
-4,Marie Thornton,yne,66.9,137.5,57.5,147.5,342.5,SBD,Single-ply,60,F
-5,A Jones,wm,67.2,120,50,135,305,SBD,Single-ply,60,F
+1,E Harris,se,66.7,160,97.5,162.5,420,SBD,Single-ply,67.5,F
+2,K Dormedy,se,66.4,142.5,77.5,162.5,382.5,SBD,Single-ply,67.5,F
+3,V Wilson,wm,61.4,137.5,80,162.5,380,SBD,Single-ply,67.5,F
+4,Marie Thornton,yne,66.9,137.5,57.5,147.5,342.5,SBD,Single-ply,67.5,F
+5,A Jones,wm,67.2,120,50,135,305,SBD,Single-ply,67.5,F
 1,M O'Brien,gl,74.5,190,100,205,495,SBD,Single-ply,75,F
 2,M Blackett,nw,74.2,135,70,155,360,SBD,Single-ply,75,F
 3,Doreen Dowsett,nm,67.6,120,60,152.5,332.5,SBD,Single-ply,75,F

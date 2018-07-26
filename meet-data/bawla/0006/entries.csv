@@ -1,4 +1,4 @@
-Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,dlift,TotalKg,Event,Equipment,WeightClassKg,Sex
+Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,WeightClassKg,Sex
 1,A Fleming,sco,55.9,205,115,215,535,SBD,Single-ply,56,M
 1,Phil Richard,wal,59.9,235,142.5,225,602.5,SBD,Single-ply,60,M
 1,D Gray,wm,66.3,237.5,145,265,647.5,SBD,Single-ply,67.5,M
