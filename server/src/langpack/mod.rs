@@ -163,6 +163,7 @@ pub struct CountryTranslations {
     pub bulgaria: String,
     pub canada: String,
     pub caymanislands: String,
+    pub china: String,
     pub colombia: String,
     pub costarica: String,
     pub cotedivoire: String,
