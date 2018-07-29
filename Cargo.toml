@@ -1,5 +1,7 @@
 [workspace]
 members = [
+    "checker",
+    "modules/opltypes",
     "server",
 ]
 
