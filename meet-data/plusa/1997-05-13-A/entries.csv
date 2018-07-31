@@ -1,4 +1,4 @@
-Name,WeightClassKg,Age,BodyweightKg,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,BestSquatKg,Bench1Kg,Bench2Kg,Bench3Kg,BestBenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,BestDeadliftKg,TotalKg,Event,Sex,Division
+Name,WeightClassKg,Age,BodyweightKg,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Event,Sex,Division
 Charles Dunbar,52,23,,Single-ply,,,,,220,,,,137.5,,,,,165,522.5,SBD,M,Open
 Joe Steinfeld,52,25,,Single-ply,,,,,160,,,,112.5,,,,,167.5,440,SBD,M,Open
 Doug Heath,52,23,,Single-ply,,,,,152.5,,,,92.5,,,-195,,170,415,SBD,M,Open

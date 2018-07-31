@@ -1,4 +1,4 @@
-Name,WeightClassKg,Age,BodyweightKg,Equipment,Bench1Kg,Bench2Kg,Bench3Kg,BestBenchKg,Squat1Kg,Squat2Kg,Squat3Kg,BestSquatKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,BestDeadliftKg,TotalKg,Event,Sex,Division
+Name,WeightClassKg,Age,BodyweightKg,Equipment,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Sex,Division
 David Moyer,56,,,Raw,,,,108.86,200.15,-213.19,,200.15,190.51,-199.58,,190.51,499.52,SBD,M,Open
 Robert Trujillo,56,,,Wraps,,,,108.86,,,,138.35,,192.78,206.38,206.38,453.59,SBD,M,Open
 Rich Verlander,56,,,Wraps,,,,99.79,,156.49,-165.56,156.49,,,,197.31,453.59,SBD,M,Open

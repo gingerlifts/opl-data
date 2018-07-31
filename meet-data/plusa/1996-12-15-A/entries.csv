@@ -1,4 +1,4 @@
-Name,WeightClassKg,Age,BodyweightKg,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,BestSquatKg,Bench1Kg,Bench2Kg,Bench3Kg,BestBenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,BestDeadliftKg,TotalKg,Event,Sex,Division
+Name,WeightClassKg,Age,BodyweightKg,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Event,Sex,Division
 Roger Hopkins,52,,,Wraps,,,,127.01,,,,90.72,181.44,-185.97,,,181.44,399.16,SBD,M,Open
 Ron Mercer,52,,,Wraps,,,,124.74,,,,90.72,170.1,-185.97,-185.97,,170.1,385.55,SBD,M,Open
 Bruce Rutsky,52,,,Wraps,,,,122.47,,,,88.45,,,,,151.95,362.87,SBD,M,Open
@@ -43,7 +43,7 @@ Marvin Phillips,100,,,Wraps,283.5,290.3,303.91,303.91,,,,210.92,283.5,290.3,303.
 Carlton Snitkin,100,,,Wraps,278.96,-290.3,-290.3,278.96,,,,190.51,,,,,290.3,759.77,SBD,M,Open
 R. Wariner,100,,,Wraps,,,,233.6,,,,145.15,,,,,,,SBD,M,Open
 Jim Taylor,100,,,Wraps,,,,231.33,,,,,,,,,,,SBD,M,Open
-Pat O’Brien,100,,,Wraps,,,,,,,,,,,,,,,SBD,M,Open
+Pat O'Brien,100,,,Wraps,,,,,,,,,,,,,,,SBD,M,Open
 John Kuc,110,,108.41,Wraps,294.84,306.18,317.52,317.52,204.12,210.92,-219.99,215.46,342.46,369.22,-378.75,369.22,369.22,902.2,SBD,M,Open
 Terry McKormick,110,,,Wraps,283.5,303.91,315.25,315.25,,-197.31,199.58,199.58,,,,,328.85,843.68,SBD,M,Open
 Doug Young,110,,,Wraps,274.42,288.03,-297.1,288.03,,,,229.06,317.52,-328.85,,,317.52,834.61,SBD,M,Open
@@ -56,4 +56,4 @@ Paul Wrenn,110+,,144.7,Raw,303.91,367.41,390.09,390.09,195.04,208.65,219.99,219.
 Joseph White,110+,,,Wraps,,,,369.68,,,,213.19,,,,,308.44,891.31,SBD,M,Open
 Tom Overholtzer,110+,,112.49,Wraps,,,,299.37,,,,226.8,,285.76,-306.18,,285.76,811.93,SBD,M,Open
 Marvin Allen,110+,,,Wraps,,,,308.44,,,,192.78,,,,,294.84,796.06,SBD,M,Open
-Chip Street,110+,,150.59,Wraps,,,,,,,,,,,,,,,,,
+Chip Street,110+,,150.59,Wraps,,,,,,,,,,,,,,,SBD,M,Open

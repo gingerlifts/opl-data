@@ -1,4 +1,4 @@
-Name,WeightClassKg,Equipment,Bench1Kg,Bench2Kg,Bench3Kg,BestBenchKg,Squat1Kg,Squat2Kg,Squat3Kg,BestSquatKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,BestDeadliftKg,TotalKg,Event,Sex,Division
+Name,WeightClassKg,Equipment,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Sex,Division
 John Redding,56,Wraps,90.72,-99.79,-99.79,90.72,,,201.85,201.85,204.12,-213.19,-213.19,204.12,496.68,SBD,M,Open
 Michael Cross,56,Wraps,,,99.79,99.79,,,,149.69,204.12,217.72,231.33,231.33,480.81,SBD,M,Open
 Byron Benoit,56,Wraps,,,,104.33,,,149.69,154.22,,,,183.71,442.25,SBD,M,Open

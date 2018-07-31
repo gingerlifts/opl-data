@@ -1,4 +1,4 @@
-Name,WeightClassKg,Age,BodyweightKg,Equipment,Bench1Kg,Bench2Kg,Bench3Kg,BestBenchKg,Squat1Kg,Squat2Kg,Squat3Kg,BestSquatKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,BestDeadliftKg,TotalKg,Event,Sex,Division
+Name,WeightClassKg,Age,BodyweightKg,Equipment,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Sex,Division
 Allen Clark,56,20,,Wraps,99.79,104.33,-106.59,104.33,181.44,190.51,-195.04,190.51,235.87,-244.94,-244.94,235.87,530.7,SBD,M,Open
 Ron Sappenfield,56,,,Wraps,113.4,120.2,-122.47,120.2,145.15,-154.22,-154.22,145.15,185.97,,,185.97,451.32,SBD,M,Open
 Alfred Hart,56,,,Wraps,131.54,140.61,145.38,145.38,136.08,-147.42,-147.42,136.08,,,,167.83,449.28,SBD,M,Open
