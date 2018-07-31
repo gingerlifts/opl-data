@@ -1,4 +1,4 @@
-Name,WeightClassKg,Age,BodyweightKg,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,BestSquatKg,Bench1Kg,Bench2Kg,Bench3Kg,BestBenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,BestDeadliftKg,TotalKg,Event,Sex,Division
+Name,WeightClassKg,Age,BodyweightKg,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Sex,Division
 Charles Dunbar,52,,,Single-ply,172.5,185,-192.5,185,,,,120,132.5,-142.5,,132.5,437.5,SBD,M,Open
 Kevin Meskew,52,,,Single-ply,,,,117.5,,,,75,,,,170,362.5,SBD,M,Open
 John Redding,52,,,Single-ply,-190,-190,-190,,,,,,,,,,,SBD,M,Open

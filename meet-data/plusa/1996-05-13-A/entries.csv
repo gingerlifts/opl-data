@@ -1,4 +1,4 @@
-Name,WeightClassKg,Age,BodyweightKg,Equipment,Bench1Kg,Bench2Kg,Bench3Kg,BestBenchKg,Squat1Kg,Squat2Kg,Squat3Kg,BestSquatKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,BestDeadliftKg,TotalKg,Event,Sex,Division
+Name,WeightClassKg,Age,BodyweightKg,Equipment,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Sex,Division
 Mike Cross,56,,,Wraps,,,92.99,92.99,,,151.5,151.5,,,217.27,217.27,461.76,SBD,M,Open
 Julio Nunez,56,,,Wraps,,,,117.48,,,,136.08,,,,169.64,423.2,SBD,M,Open
 Leroy Mabie,56,,,Wraps,,,,106.14,,,,126.55,,190.06,-199.58,190.06,422.75,SBD,M,Open
@@ -42,4 +42,4 @@ James Roberson,110,,,Wraps,,,,185.97,,,,276.69,,,,303.91,766.57,SBD,M,Open
 James Witt,110,52,,Wraps,,,,165.56,,,,260.82,,,,272.16,698.53,SBD,M,Open
 Don Cundy,110+,,,Wraps,,,,222.26,,272.16,-285.76,272.16,331.12,355.62,-362.87,355.62,850.03,SBD,M,Open
 George Pickett,110+,,136.08,Wraps,,,208.65,208.65,,,272.16,272.16,294.84,317.52,,317.52,798.32,SBD,M,Open
-Robert Weaver,110+,,,Wraps,-500,-500,-500,,,,,,,,,,,,,
+Robert Weaver,110+,,,Wraps,-226.79645471782,-226.79645471782,-226.79645471782,,,,,,,,,,,SBD,M,Open

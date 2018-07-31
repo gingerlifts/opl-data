@@ -1,4 +1,4 @@
-Name,WeightClassKg,Age,BodyweightKg,Equipment,Bench1Kg,Bench2Kg,Bench3Kg,BestBenchKg,Squat1Kg,Squat2Kg,Squat3Kg,BestSquatKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,BestDeadliftKg,TotalKg,Event,Sex,Division
+Name,WeightClassKg,Age,BodyweightKg,Equipment,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Sex,Division
 Enrique Hernandez,56,,,Wraps,,124,,124,,,,171,170,-186,188,188,483,SBD,M,Open
 Mike Cross,56,,,Wraps,,,,82,,,,138,203,-222,,202,422,SBD,M,Open
 Fred Wheelbarger,56,,,Wraps,,,,95,,,,150,,,,175,420,SBD,M,Open
