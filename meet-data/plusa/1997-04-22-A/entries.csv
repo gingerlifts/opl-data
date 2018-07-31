@@ -1,4 +1,4 @@
-Name,WeightClassKg,Age,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,BestSquatKg,Bench1Kg,Bench2Kg,Bench3Kg,BestBenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,BestDeadliftKg,TotalKg,Event,Sex,Division
+Name,WeightClassKg,Age,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Sex,Division
 John Redding,52,36,Single-ply,,,,,197.5,,,,92.5,,,,215,505,SBD,M,Open
 Charles Dunbar,52,,Single-ply,,200,-205,,200,,,,127.5,,,,170,497.5,SBD,M,Open
 Ernesto Milian,52,,Single-ply,,,,,170,,,,100,,,,192.5,462.5,SBD,M,Open

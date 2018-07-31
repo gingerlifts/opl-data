@@ -1,4 +1,4 @@
-Name,WeightClassKg,Age,BodyweightKg,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,BestSquatKg,Bench1Kg,Bench2Kg,Bench3Kg,BestBenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,BestDeadliftKg,TotalKg,Event,Sex,Division
+Name,WeightClassKg,Age,BodyweightKg,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Sex,Division
 Michael Cross,56,,,Raw,136.08,149.69,-154.22,149.69,-90.72,90.72,-95.25,90.72,195.04,226.8,240.4,240.4,480.81,SBD,M,Open
 Vernon Bowser,56,,,Raw,138.35,,,138.35,104.33,,,104.33,170.1,,,170.1,412.77,SBD,M,Open
 Frederick Glass,56,37,,Raw,,,,124.74,77.11,,,77.11,158.76,,,158.76,360.61,SBD,M,Open
@@ -27,7 +27,7 @@ Vince Anello,82.5,,,Raw,213.19,,,213.19,154.22,,,158.76,322.05,-347,,322.05,694,
 Felix Gomes,82.5,,,Raw,,,,235.87,,,,172.37,,,,272.16,680.39,SBD,M,Open
 Mike Letteri,82.5,,,Raw,,,,229.06,,,,158.76,,,,272.16,659.98,SBD,M,Open
 Anthony DeFrancisco,82.5,,,Raw,,,,208.65,,,,167.83,,,,274.42,650.91,SBD,M,Open
-Ron Hale,82.5,78.47,,Raw,,,,231.33,,,,165.56,,,,238.14,635.03,SBD,M,Open
+Ron Hale,82.5,,78.47,Raw,,,,231.33,,,,165.56,,,,238.14,635.03,SBD,M,Open
 S. Ellis,82.5,,,Raw,,,,195.04,,,,158.76,,,,244.94,598.74,SBD,M,Open
 Mike Burch,82.5,,,Raw,,,,199.58,-181.44,-181.44,-181.44,,,,,,,SBD,M,Open
 Jerry Jones,90,,,Raw,294.84,306.18,310.71,310.71,163.29,172.37,,174.63,285.76,294.84,310.71,294.84,780.18,SBD,M,Open
@@ -40,7 +40,7 @@ Larry Russell,90,,,Raw,,,,258.55,,,,185.97,,,,272.16,716.68,SBD,M,Open
 Gene Stevens,90,,,Raw,,,,226.8,,,,183.71,,,,272.16,682.66,SBD,M,Open
 William Seno,100,,,Raw,,,,283.5,,,,235.87,,285.76,299.37,299.37,818.74,SBD,M,Open
 Robert Gaynor,100,,,Raw,,,,290.3,,,,181.44,,322.05,-349.27,322.05,793.79,SBD,M,Open
-Pat O’Brien,100,,,Raw,,,,283.5,,,,163.29,,,-349.27,308.44,755.23,SBD,M,Open
+Pat O'Brien,100,,,Raw,,,,283.5,,,,163.29,,,-349.27,308.44,755.23,SBD,M,Open
 Tom Musciansi,100,,,Raw,,,,258.55,,,,185.97,,,,258.55,703.07,SBD,M,Open
 Terry Moneymaker,100,,,Raw,,,,278.96,,,,,,,,,,SBD,M,Open
 Tom Scott,110,,,Raw,,,,306.18,201.85,,,201.85,335.66,-353.8,,335.66,843.68,SBD,M,Open

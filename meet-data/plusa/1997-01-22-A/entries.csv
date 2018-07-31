@@ -1,4 +1,4 @@
-Name,WeightClassKg,Age,BodyweightKg,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,BestSquatKg,Bench1Kg,Bench2Kg,Bench3Kg,BestBenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,BestDeadliftKg,TotalKg,Event,Sex,Division
+Name,WeightClassKg,Age,BodyweightKg,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Sex,Division
 Gary Kucipak,52,21,,Wraps,,,,160,122.5,,,122.5,,,,170,452.5,SBD,M,Open
 Ken McDowell,52,,,Wraps,,,,162.5,,,,92.5,,,,182.5,437.5,SBD,M,Open
 Nicholas DeSantos,52,,,Wraps,,,,137.5,,,,102.5,,,,160,400,SBD,M,Open
