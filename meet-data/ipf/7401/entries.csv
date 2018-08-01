@@ -11,7 +11,7 @@ Place,Event,Equipment,Division,Age,BodyweightKg,WeightClassKg,Name,Sex,Country,S
 1,SBD,Wraps,Open,48,,56,John Bojazi,M,USA,,,,,157.5,,,,110,,,,,205,472.5
 2,SBD,Wraps,Open,,,56,Vernon Bowser,M,USA,,,,,165,,,,107.5,,,,,195,467.5
 1,SBD,Wraps,Open,,,60,Allen Lord,M,USA,182.5,192.5,-197.5,,192.5,,,,112.5,227.5,-242.5,-242.5,,227.5,532.5
-2,SBD,Wraps,Open,,,60,Steve Hoxworth,M,USA,-165,165,-172.5,,172.5,,,,112.5,210,225,230,,230,515
+2,SBD,Wraps,Open,,,60,Steve Hoxworth,M,USA,-165,165,172.5,,172.5,,,,112.5,210,225,230,,230,515
 3,SBD,Wraps,Open,,,60,Gary Wandell,M,USA,,-177.5,177.5,,177.5,,117.5,-120,117.5,,217.5,-225,,217.5,512.5
 4,SBD,Wraps,Open,,,60,Ken Thrush,M,ENG,,,,,170,,,,115,,,,,220,505
 5,SBD,Wraps,Open,,,60,Peter Weiss,M,ENG,,,,,180,,,,117.5,,,-215,,207.5,505
@@ -36,7 +36,7 @@ Place,Event,Equipment,Division,Age,BodyweightKg,WeightClassKg,Name,Sex,Country,S
 5,SBD,Wraps,Open,,,75,Mike Lukich,M,CAN,,,,,195,,,,122.5,,,,,252.5,570
 6,SBD,Wraps,Open,,,75,Chiwanga,M,ZAM,,,,,182.5,,,,120,,,,,227.5,530
 DQ,SBD,Wraps,Open,,,75,Nick Petrillo,M,ARG,,,,,180,,,,140,,,,,,
-1,SBD,Wraps,Open,,,82.5,Ernie Frantz,M,USA,255,265,272.5,,272.5,190,-197.5,-197.5,190,285,302.5,-315,,300,762.5
+1,SBD,Wraps,Open,,,82.5,Ernie Frantz,M,USA,255,265,272.5,,272.5,190,-197.5,-197.5,190,285,302.5,-315,,302.5,765
 2,SBD,Wraps,Open,,,82.5,Frank Barefield,M,USA,270,-275,,,270,,,185,185,,,,,285,740
 3,SBD,Wraps,Open,,,82.5,Dennis Wright,M,USA,,,,,250,-177.5,177.5,-185,177.5,,,,,267.5,695
 4,SBD,Wraps,Open,,,82.5,Eamon Toal,M,ENG,,,,,257.5,,,,165,,295,-317.5,,295,717.5
@@ -63,7 +63,7 @@ DQ,SBD,Wraps,Open,,,100,Pat O'Brien,M,USA,,,,,272.5,,,,150,,,,,,
 DQ,SBD,Wraps,Open,,,100,Ron Panissidi,M,USA,,,,,250,,,,,,,,,,
 DQ,SBD,Wraps,Open,,,100,Maloud,M,ZAM,,,,,,,,,,,,,,,
 1,SBD,Wraps,Open,,,110,John Kuc,M,USA,317.5,325,-340,,325,,,,222.5,355,375,385,,385,932.5
-2,SBD,Wraps,Open,,,110,Bill Seno,M,USA,290,-300,-300,,290,235,242.5,-245,242.5,295,302.5,,,305,837.5
+2,SBD,Wraps,Open,,,110,Bill Seno,M,USA,290,-300,-300,,290,235,242.5,-245,242.5,295,305,,,305,837.5
 3,SBD,Wraps,Open,,,110,Billy Horwitz,M,USA,-300,300,-312.5,,300,235,242.5,-245,242.5,295,-300,,,295,837.5
 DQ,SBD,Wraps,Open,,,110,Tony Fitton,M,ENG,,,,,,,,,,,,,,,
 DQ,SBD,Wraps,Open,,,110,John Tonti,M,USA,,,,,,,,,,,,,,,
