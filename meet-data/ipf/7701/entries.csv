@@ -1,7 +1,7 @@
 Place,Age,BodyweightKg,WeightClassKg,Division,Name,Sex,Event,Equipment,Country,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg
 1,,51.7,52,Open,Hideaki Inaba,M,SBD,Single-ply,JPN,,,,,200,,,,107.5,,,,215,522.5
-2,,51.5,52,Open,Narendra Bhairo,M,SBD,Single-ply,GBR,,,,,192.5,,115,,107.5,185,-190,-190,185,485
-3,,51.9,52,Open,Aimo Tuomisto,M,SBD,Single-ply,FIN,-180,180,-185,,180,,,,115,160,-192.5,-192.5,160,455
+2,,51.5,52,Open,Narendra Bhairo,M,SBD,Single-ply,GBR,,,,,192.5,,,,107.5,185,-190,-190,185,485
+3,,51.9,52,Open,Aimo Tuomisto,M,SBD,Single-ply,FIN,-180,180,-185,,180,,115,,115,160,-192.5,-192.5,160,455
 4,,51.7,52,Open,M. Shinno,M,SBD,Single-ply,JPN,,,,,147.5,,,,97.5,,,,170,415
 5,,51.4,52,Open,G. Malla,M,SBD,Single-ply,IND,,,,,145,,,,90,,,,157.5,392.5
 6,,52,52,Open,Sudhar Kamath,M,SBD,Single-ply,IND,,,,,130,,,,95,,,,165,390
@@ -34,15 +34,15 @@ Place,Age,BodyweightKg,WeightClassKg,Division,Name,Sex,Event,Equipment,Country,S
 10,,67.3,67.5,Open,D. Attwood,M,SBD,Single-ply,NZL,,,,,187.5,,,,117.5,,,,200,505
 11,,67.1,67.5,Open,M. Edwards,M,SBD,Single-ply,NZL,,,,,182.5,,,,102.5,,,,200,485
 DQ,,66.3,67.5,Open,Kozo Takeda,M,SBD,Single-ply,JPN,,,,,215,,,,137.5,,,,,
-1,,74.8,75,Open,Joseph Rhodes,M,SBD,Single-ply,USA,,235,-240,,235,,,172.5,172.5,265,285,,297.5,705
+1,,74.8,75,Open,Joseph Rhodes,M,SBD,Single-ply,USA,,235,-240,,235,,,172.5,172.5,265,285,297.5,297.5,705
 2,,74.2,75,Open,Peter Fiore,M,SBD,Single-ply,GBR,265,275,282.5,,282.5,,,165,165,255,-262.5,-297.5,255,702.5
 3,,74.8,75,Open,Lars Backlund,M,SBD,Single-ply,SWE,,-250,250,,250,,180,-185,180,250,260,,260,690
 4,,74,75,Open,Paul Dann,M,SBD,Single-ply,AUS,,,,,265,,,,155,265,-270,-275,265,685
 5,,72,75,Open,Keiichi Tsuchiya,M,SBD,Single-ply,JPN,,,,,215,,,,160,,,,230,605
-6,,74.5,75,Open,S. Brandon,M,SBD,Single-ply,NZL,,,,,195,,,,140,,,,200,535
+6,,74.5,75,Open,S Brandon,M,SBD,Single-ply,NZL,,,,,195,,,,140,,,,200,535
 1,,81.9,82.5,Open,Ron Collins,M,SBD,Single-ply,GBR,285,310,-327.5,,310,150,160,-167.5,160,287.5,325,-342.5,325,795
-2,,81.9,82.5,Open,Bill West,M,SBD,Single-ply,GBR,,,282.5,,280,,,152.5,152.5,,,,290,722.5
-3,,82.4,82.5,Open,Lars Bjorck,M,SBD,Single-ply,SWE,,270,-277.5,,270,,167.5,,167.5,,-285,285,285,722.5
+2,,81.9,82.5,Open,Bill West,M,SBD,Single-ply,GBR,,,280,,280,,,152.5,152.5,,,,290,722.5
+3,,82.4,82.5,Open,Lars Björck,M,SBD,Single-ply,SWE,,270,-277.5,,270,,167.5,,167.5,,-285,285,285,722.5
 4,,81.8,82.5,Open,Kenneth Mattsson,M,SBD,Single-ply,SWE,,,260,,260,,,,190,,,,270,720
 5,,81.8,82.5,Open,Bruce Waddell,M,SBD,Single-ply,AUS,,,,,260,,,,140,,,,245,645
 6,,75.5,82.5,Open,R. Kumar,M,SBD,Single-ply,IND,,,,,165,,,,120,,,,185,470
@@ -64,7 +64,7 @@ DQ,,99.8,100,Open,Paul Jordan,M,SBD,Single-ply,USA,315,-345,,,315,,,,,,,,,
 3,33,109.8,110,Open,Hannu Saarelainen,M,SBD,Single-ply,FIN,305,312.5,-317.5,,312.5,225,230,-232.5,230,310,-325,,310,852.5
 4,,110,110,Open,Tony Fitton,M,SBD,Single-ply,GBR,,,,,335,,,,190,,,,305,830
 5,,109.9,110,Open,Terry Young,M,SBD,Single-ply,CAN,,,,,275,,,,145,,,,290,710
-1,,135.4,110+,Open,Taito Haara,M,SBD,Single-ply,FIN,350,370,385,,385,210,210,,210,340,-360,,340,935
+1,,135.4,110+,Open,Taito Haara,M,SBD,Single-ply,FIN,350,370,385,,385,-210,210,,210,340,-360,,340,935
 2,,148.1,110+,Open,Kari Kemppainen,M,SBD,Single-ply,FIN,330,-340,,,330,,,,230,335,-360,-360,335,895
 3,,137.6,110+,Open,John Phillip,M,SBD,Single-ply,TGA,,,352.5,,352.5,205,-220,-220,205,305,320,330,330,887.5
 4,,133,110+,Open,Eddie Kershaw,M,SBD,Single-ply,GBR,,,,,355,,207.5,-215,207.5,300,317.5,-330,317.5,880
