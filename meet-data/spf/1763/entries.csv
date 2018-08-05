@@ -1,29 +1,29 @@
 ﻿Name,Division,Equipment,WeightClassLBS,BodyweightLBS,Event,BestSquatLBS,BestBenchLBS,BestDeadliftLBS,TotalLBS,Sex
-Anissa Butler,Master (45-49),Wrapped,148,145,BD,,160,400,560,F
-Anissa Butler,Open,Wrapped,148,145,BD,,160,400,560,F
-Anissa Butler,Police and Fire,Wrapped,148,145,BD,,160,400,560,F
-Josette Williamson,Master (45-49),Wrapped,181,169,BD,,145,320,465,F
-Josette Williamson,Open,Wrapped,181,169,BD,,145,320,465,F
-Issac Alleman,Open,Wrapped,220,216,SBD,550,360,575,1485,M
-Aaron Bartron,Open,Wrapped,198,192,SBD,490,330,480,1300,M
+Anissa Butler,Master (45-49),Wraps,148,145,BD,,160,400,560,F
+Anissa Butler,Open,Wraps,148,145,BD,,160,400,560,F
+Anissa Butler,Police and Fire,Wraps,148,145,BD,,160,400,560,F
+Josette Williamson,Master (45-49),Wraps,181,169,BD,,145,320,465,F
+Josette Williamson,Open,Wraps,181,169,BD,,145,320,465,F
+Issac Alleman,Open,Wraps,220,216,SBD,550,360,575,1485,M
+Aaron Bartron,Open,Wraps,198,192,SBD,490,330,480,1300,M
 Josh Berger,Sub-master (33-39),Raw,165,159,SBD,375,275,585,1235,M
-Kevin Bostian,Open,Wrapped,259,250,SBD,575,360,585,1520,M
-Michael Boyd,Open,Wrapped,220,216,SBD,650,395,535,1580,M
-Evan Brechbiel,Open,Wrapped,259,250,SBD,660,460,560,1680,M
+Kevin Bostian,Open,Wraps,259,250,SBD,575,360,585,1520,M
+Michael Boyd,Open,Wraps,220,216,SBD,650,395,535,1580,M
+Evan Brechbiel,Open,Wraps,259,250,SBD,660,460,560,1680,M
 Riley Burkhart,Open,Raw,165,165,SBD,400,275,470,1145,M
-Patrick Burt,Sub-master (33-39),Wrapped,198,194,SBD,360,275,415,1050,M
+Patrick Burt,Sub-master (33-39),Wraps,198,194,SBD,360,275,415,1050,M
 Antonio Carter,Open,Raw,198,196,SBD,455,380,630,1465,M
-Walter Cook,Master (55-59),Wrapped,308,277,SBD,480,330,550,1360,M
-Scott Dairympie,Police and Fire,Wrapped,220,218,SBD,465,370,495,1330,M
-Kevin Grimm,Junior,Wrapped,181,179,SBD,555,370,545,1470,M
-Corey Henry,Open,Wrapped,181,181,SBD,365,335,550,1250,M
-Thad Hodson,Sub-masters (33-39),Wrapped,308,279,SBD,525,360,485,1370,M
+Walter Cook,Master (55-59),Wraps,308,277,SBD,480,330,550,1360,M
+Scott Dairympie,Police and Fire,Wraps,220,218,SBD,465,370,495,1330,M
+Kevin Grimm,Junior,Wraps,181,179,SBD,555,370,545,1470,M
+Corey Henry,Open,Wraps,181,181,SBD,365,335,550,1250,M
+Thad Hodson,Sub-masters (33-39),Wraps,308,279,SBD,525,360,485,1370,M
 Austin Kane,Teenage (16-17),Raw,148,147,SBD,325,235,430,990,M
 David Martinez,Open,Raw,165,165,SBD,405,220,475,1100,M
-Jackson Metz,Teenage (18-19),Wrapped,148,148,SBD,320,165,370,855,M
-Christhopher Petrie,Open,Wrapped,259,252,SBD,555,325,560,1440,M
-David Puckett,Open,Wrapped,308,308,SBD,725,425,700,1850,M
-Joseph Sauble,Master (40-44),Wrapped,308,285,SBD,815,465,660,1940,M
+Jackson Metz,Teenage (18-19),Wraps,148,148,SBD,320,165,370,855,M
+Christhopher Petrie,Open,Wraps,259,252,SBD,555,325,560,1440,M
+David Puckett,Open,Wraps,308,308,SBD,725,425,700,1850,M
+Joseph Sauble,Master (40-44),Wraps,308,285,SBD,815,465,660,1940,M
 Michael James,Open,Single-ply,308,308,BD,,505,655,1160,M
 Randy Fulk,Master (55-59),Raw,242,230,BD,,270,480,750,M
 Tim Hadden,Master (45-49),Raw,308,306,BD,,410,565,975,M
@@ -35,6 +35,6 @@ Travis Roberts,Master (45-49),Single-ply,198,198,BD,,335,550,885,M
 Travis Roberts,Open,Single-ply,198,198,BD,,335,550,885,M
 Mike WIlliams,Open,Raw,242,237,B,,430,,430,M
 Sean McRae,Master (45-49),Raw,181,176,D,,,440,440,M
-Tommy O’Connor,Open,Wrapped,198,194.5,SBD,650,425,575,1650,M
-Morgan Luhouse,Sub-master (33-39),Wrapped,181,181,SBD,350,225,485,1060,F
-Morgan Luhouse,Open,Wrapped,181,181,SBD,350,225,485,1060,F
+Tommy O’Connor,Open,Wraps,198,194.5,SBD,650,425,575,1650,M
+Morgan Luhouse,Sub-master (33-39),Wraps,181,181,SBD,350,225,485,1060,F
+Morgan Luhouse,Open,Wraps,181,181,SBD,350,225,485,1060,F
