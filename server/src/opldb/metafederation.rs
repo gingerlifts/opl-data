@@ -69,7 +69,8 @@ impl MetaFederation {
 
         match self {
             MetaFederation::AllTested => {
-                meet.federation == Federation::AAU
+                meet.federation == Federation::AAPLF
+                    || meet.federation == Federation::AAU
                     || meet.federation == Federation::ADAU
                     || meet.federation == Federation::ADFPA
                     || meet.federation == Federation::ADFPF
@@ -129,7 +130,8 @@ impl MetaFederation {
                     || meet.federation == Federation::FEPOA
             }
             MetaFederation::AllAustralia => {
-                meet.federation == Federation::APU
+                meet.federation == Federation::AAPLF
+                    || meet.federation == Federation::APU
                     || meet.federation == Federation::CAPO
                     || meet.federation == Federation::GPCAUS
                     || meet.federation == Federation::PA

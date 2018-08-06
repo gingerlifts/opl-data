@@ -69,6 +69,7 @@ def pwarning(s):
 KnownFederations = {
     "365Strong",  # 365 Strong Powerlifting Federation.
     "AAP",  # Alianza Argentina Powerlifting, GPA/IPO.
+    "AAPLF",  # Australian Amateur Powerlifting Federation, defunct IPF affiliate.
     "AAU",  # Amateur Athletic Union.
     # American Drug-Free Powerlifting Association, precursor to USAPL.
     "ADFPA",
