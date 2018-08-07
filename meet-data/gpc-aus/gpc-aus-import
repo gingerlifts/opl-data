@@ -1,0 +1,300 @@
+#!/usr/bin/env python3
+# vim: set ts=8 sts=4 et sw=4 tw=99:
+#
+# Import script for SVNL
+
+from bs4 import BeautifulSoup
+import errno
+import os
+import sys
+import urllib.request
+import urllib.parse
+import re
+import subprocess
+
+try:
+    from oplcsv import Csv
+except ImportError:
+    sys.path.append(os.path.join(os.path.dirname(os.path.dirname(
+        os.path.dirname(os.path.realpath(__file__)))), "scripts"))
+    from oplcsv import Csv
+
+
+def is_float(check_str):
+    try:
+        float(check_str)
+        return True
+    except ValueError:
+        return False
+
+
+def is_int(check_str):
+    try:
+        float(check_str)
+        return check_str[-1] != '.' and float(check_str) % 1 == 0
+    except ValueError:
+        return False
+
+
+def gethtml(url):
+    with urllib.request.urlopen(url) as r:
+        return r.read().decode('utf-8')
+
+
+def error(msg):
+    print(msg, file=sys.stderr)
+    sys.exit(1)
+
+
+
+
+def getmeetinfo(soup):
+    csv = Csv()
+    csv.fieldnames = ['Federation', 'Date', 'MeetCountry',
+                      'MeetState', 'MeetTown', 'MeetName']
+
+    fed = 'GPC-AUS'
+    country = 'Australia'
+    state = ''
+    date = ''
+    name = ''
+    place = ''
+
+    row = [fed, date, country, state, place, name]
+    csv.rows = [row]
+
+    return csv
+
+def getresults(soup):
+    csv = Csv()
+    # Get the results table.
+    tbodies = soup.find_all('tbody')
+    if len(tbodies) == 0:
+        error("Couldn't find the results table.")
+
+    if len(tbodies) > 1:
+        tbodies = BeautifulSoup(''.join(str(soup.find_all('tbody'))), 'lxml')
+    else:
+        tbodies = tbodies[0]
+
+    trs = tbodies.find_all('tr')
+
+    start = 0
+    if len([x.text.strip().replace(' ','')
+            for x in trs[0].find_all('td') if x.text.strip() != '']) < 5:
+        start = 1
+
+    text = [x.text.strip().replace(' ','')
+            for x in trs[start].find_all('td') if x.text.strip() != '']
+
+    iterable = iter(range(len(text)))
+
+    # Get column information.
+    for ii in iterable:
+        h = text[ii].lower().replace('.', '')
+        if h == 'name':
+            csv.fieldnames += ['Name']
+        elif 'bwt' in h:
+            csv.fieldnames += ['BodyweightKg']
+        elif 'wtcls' in h:
+            csv.fieldnames += ['WeightClassKg']      
+        elif h == 'glossbrenner':
+            csv.fieldnames += ['IGNORE']  
+        elif h == 'age':
+            csv.fieldnames += ['Age']  
+        elif h == 'div':
+            csv.fieldnames += ['Division']  
+        elif h in ['squat 1','s1']:
+            csv.fieldnames += ['Squat1Kg']  
+        elif h in ['squat 2','s2']:
+            csv.fieldnames += ['Squat2Kg'] 
+        elif h in ['squat 3','s3']:
+            csv.fieldnames += ['Squat3Kg']  
+        elif h in ['squat 4','s4']:
+            csv.fieldnames += ['Squat4Kg']  
+        elif h in 'best squat':
+            csv.fieldnames += ['Best3SquatKg'] 
+        elif h in ['bench 1','b1']:
+            csv.fieldnames += ['Bench1Kg']  
+        elif h in ['bench 2','b2']:
+            csv.fieldnames += ['Bench2Kg'] 
+        elif h in ['bench 3','b3']:
+            csv.fieldnames += ['Bench3Kg']  
+        elif h in ['bench 4','b4']:
+            csv.fieldnames += ['Bench4Kg']  
+        elif h == 'best bench':
+            csv.fieldnames += ['Best3BenchKg'] 
+        elif h in ['deadlift 1','d1']:
+            csv.fieldnames += ['Deadlift1Kg']  
+        elif h in ['deadlift 2','d2']:
+            csv.fieldnames += ['Deadlift2Kg'] 
+        elif h in ['deadlift 3','d3']:
+            csv.fieldnames += ['Deadlift3Kg']  
+        elif h in ['deadlift 4','d4']:
+            csv.fieldnames += ['Deadlift4Kg']  
+        elif h == 'best deadlift':
+            csv.fieldnames += ['Best3DeadliftKg'] 
+        elif h == 'sub total':
+            csv.fieldnames += ['IGNORE'] 
+        elif h in ['pl total','total'] :
+            csv.fieldnames += ['TotalKg'] 
+        elif h in ['coeff score','age & coeff'] :
+            csv.fieldnames += ['IGNORE'] 
+        elif h in ['pl-div-wtcl','place'] :
+            csv.fieldnames += ['Place'] 
+        elif h == 'tm pts' :
+            csv.fieldnames += ['IGNORE'] 
+        else:
+            csv.fieldnames += [h]
+            print("Unknown column name: \"%s\"" % h)
+    for tr in trs[start+1:]:
+
+            # Accumulate the row, but we need to look at the class of each td
+            # to figure out whether lifts were good or bad.
+            lifter_data = []
+
+
+            for td in tr.find_all('td'):
+                col_text = td.text
+                # Switch to dots for decimals
+                col_text = col_text.replace(',', '.')
+
+                # Remove Unicode spaces
+                col_text = col_text.replace('\xa0', ' ')
+                col_text = col_text.replace('\u200b', ' ')
+
+                col_text = col_text.replace('\n', '')
+                col_text = col_text.replace('\t', '')
+
+                col_text = col_text.replace('*', '')
+
+                # Failed lift.
+                if td.s or td.strike or td.span:
+                    col_text = '-' + col_text.strip()
+                    col_text = col_text.replace('--', '-')
+
+                # Skipped lift.
+                if (len(col_text.strip()) > 1 and col_text.replace(' ', '').count('-')
+                        == len(col_text.replace(' ', ''))):
+                    col_text = ''
+
+                if col_text.strip() == '…..':  # Skipped lift.
+                    col_text = ''
+
+                if is_float(col_text) and float(col_text) == 0.0:
+                    col_text = ''
+
+                # Removing trailing zeros
+                if is_int(col_text.strip()):
+                    col_text = col_text.replace('.00', '').replace('.0', '')
+
+                lifter_data.append(col_text.strip().replace(
+                    '  ', ' ').replace(',', ' ').replace('SHW','140+'))
+            while len(lifter_data) < len(csv.fieldnames):
+                lifter_data.append('')
+
+
+
+            if any([x != '' for x in lifter_data]):
+                csv.rows += [lifter_data]
+
+
+    return csv
+
+
+
+def remove_empty_and_ignore_cols(csv):
+    old_fieldnames = csv.fieldnames
+    def iscolempty(csv, i):
+        for row in csv.rows:
+            if row[i]:
+                return False
+        return True
+
+    def getemptyidx(csv):
+        for i, col in enumerate(csv.fieldnames):
+            if iscolempty(csv, i):
+                return i
+        return -1
+
+    # Remove all the columns named 'IGNORE'
+    # while 'IGNORE' in csv.fieldnames:
+    #     csv.remove_column_by_name('IGNORE')
+
+
+    while True:
+        idx = getemptyidx(csv)
+        if idx == -1:
+            return
+        csv.remove_column_by_index(idx)
+    csv.fieldnames = old_fieldnames
+
+
+# Attempts are sometimes given, but not the Best3SquatKg columns, etc.
+def calc_best_lift(csv, col, attemptlist):
+    if col in csv.fieldnames:
+        return
+
+    for k in attemptlist:
+        assert k in csv.fieldnames
+
+    csv.insert_column(csv.index(attemptlist[-1]) + 1, col)
+
+    for row in csv.rows:
+        best = 0
+        for k in attemptlist:
+            try:
+                attempt = float(row[csv.index(k)])
+            except ValueError:
+                attempt = 0
+            if attempt > best:
+                best = attempt
+        if best > 0:
+            row[csv.index(col)] = str(best)
+
+
+def main(dirname,url):
+
+
+    html = gethtml(url)
+
+    soup = BeautifulSoup(html, 'lxml')
+
+    meetcsv = getmeetinfo(soup)
+    entriescsv = getresults(soup)
+    if len(entriescsv.rows) == 0:
+        error("No rows found!")
+
+
+    remove_empty_and_ignore_cols(entriescsv)
+
+
+    try:
+        os.makedirs(dirname)
+    except OSError as exception:
+        if exception.errno != errno.EEXIST:
+            raise
+        else:
+            error("Directory '%s' already exists." % dirname)
+
+    with open(dirname + os.sep + 'entries.csv', 'w') as fd:
+        entriescsv.write(fd)
+    with open(dirname + os.sep + 'meet.csv', 'w') as fd:
+        meetcsv.write(fd)
+    with open(dirname + os.sep + 'URL', 'w') as fd:
+        fd.write(url + "\n")
+
+     # Save a results file
+    with open(dirname + os.sep + 'results.xls', 'w') as fd:
+        fd.write(html)
+    os.chdir(dirname)
+    subprocess.run(['libreoffice','--headless', '--convert-to','csv','results.xls'])
+    os.remove('results.xls')
+
+    print("Imported into %s." % dirname)
+
+
+if __name__ == '__main__':
+    if len(sys.argv) != 3:
+        print("Usage: %s url" % sys.argv[0])
+    main(sys.argv[1],sys.argv[2])
