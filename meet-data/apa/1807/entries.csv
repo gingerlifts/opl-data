@@ -1,0 +1,17 @@
+﻿Name,Age,Division,Tested,BodyweightLBS,WeightClassLBS,Squat1KG,Squat2KG,Squat3KG,Best3SquatKG,Bench1KG,Bench2KG,Bench3KG,Best3BenchKG,Deadlift1KG,Deadlift2KG,Deadlift3KG,Best3DeadliftKG,TotalKG,State,Equipment,Sex,Event
+Shannan Roskam,43,Master (40-44),No,145,148,120,135,-147.5,135,80,-87.5,-87.5,80,145,157.5,-170,157.5,372.5,CO,Wraps,F,SBD
+Andrea Brummett,23,Junior (20-23),Yes,160.8,165,75,80,85,85,50,-52.5,-52.5,50,97.5,105,112.5,112.5,247.5,CO,Wraps,F,SBD
+Lee Olson,26,Open,Yes,154,165,-105,105,112.5,112.5,-72.5,72.5,-82.5,72.5,127.5,132.5,140,140,325,CO,Wraps,M,SBD
+Nick McLean,21,Open,Yes,196.2,198,192.5,202.5,210,210,115,-120,-120,115,192.5,205,-215,205,530,CO,Wraps,M,SBD
+Damir Kahrimanovic,30,Open,No,216,220,192.5,205,220,220,145,-157.5,160,160,235,237.5,-255,237.5,617.5,CO,Wraps,M,SBD
+Aaron Van Scoten,29,Open,No,240.8,242,265,275,280,280,177.5,185,,185,-302.5,302.5,-305,302.5,767.5,CO,Wraps,M,SBD
+Timothy Anderson,47,Master (45-49),Yes,180.2,181,150,160,165,165,115,-120,-120,115,197.5,205,-210,205,485,CO,Wraps,M,SBD
+Matthew Silva,34,Submaster (33-39),Yes,196.8,198,145,155,165,165,110,115,122.5,122.5,180,190,207.5,207.5,495,CO,Wraps,M,SBD
+Thomas Murphy,33,Submaster (33-39),Yes,241,242,190,195,202.5,202.5,117.5,-122.5,127.5,127.5,185,190,195,195,525,CO,Wraps,M,SBD
+Nick McLean,21,Junior (20-23),Yes,196.2,198,192.5,202.5,210,210,115,-120,-120,115,192.5,205,-215,205,530,CO,Wraps,M,SBD
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
