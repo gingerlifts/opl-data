@@ -1,0 +1,12 @@
+﻿Name,Age,Division,BodyweightLBS,WeightClassLBS, Squat1LBS, Squat2LBS, Squat3LBS, Squat4LBS,Best3SquatLBS,Bench 1,Bench 2,Bench 3,Best3BenchLBS,Deadlift1LBS,Deadlift2LBS,Deadlift3LBS,Best3DeadliftLBS,Total,State,Equipment,Event,Sex
+Macy Lane Moorehead,15,Teenage (13-15),147,148,265,315,335,,335,100,115,125,125,275,-315,330,330,790,MS,Single-Ply,SBD,F
+Macy Lane Moorehead,15,Open,147,148,265,315,335,340,335,100,115,125,125,275,-315,330,330,790,MS,Single-Ply,SBD,F
+Courtney Huskey,30,Open,145.4,148,185,195,200,,200,135,145,-150,145,240,260,-270,260,605,IL,Raw,SBD,F
+Damian Yates,24,Open,239,242,415,435,-460,,435,285,295,310,310,480,500,510,510,1255,MS,Single-Ply,SBD,M
+Tyler Cayson,29,Open,266.6,275,450,485,520,,520,275,300,320,320,-465,505,-535,505,1345,MS ,Raw,B,M
+Harley Hester,21,Junior (20-23),179,181,375,395,405,,405,275,295,315,315,425,445,-465,445,1165,MS,Raw,B,M
+Brad Harris,38,Submaster (33-39),319.2,SHW,,,,,,-535,-535,-535,,,,,,,MS,Raw,B,M
+Dwayne Franks,41,Master (40-44),324,SHW,,,,,,635,-725,-725,635,,,,,,MS,Single-Ply,B,M
+Joseph Faulkner,25,Open,328,SHW,,,,,,505,545,-560,545,,,,,,MS,Single-Ply,B,M
+Mitch Williams,78,Master (75-79),179,181,,,,,,160,170,-180,170,,,,,,MS,Raw,B,M
+Landon Ward,12,Youth (11-12),101.6,114,,,,,,90,-105,105,105,,,,,,MS,Raw,B,M
