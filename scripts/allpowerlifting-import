@@ -70,7 +70,8 @@ def getmeetinfo(soup):
     # Get the date.
     daterow = venuerow.find_next_sibling()
     longdate = daterow.find_all('td')[1].text
-    [daymonth, year] = longdate.split(', ')
+    [daymonth, year] = longdate.split(',')
+    year = year.strip()
 
     month = daymonth.split(' ')[0]
     day = daymonth.split(' ')[1]
