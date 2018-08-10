@@ -78,6 +78,7 @@ impl MetaFederation {
                     || meet.federation == Federation::AfricanPF
                     || meet.federation == Federation::APU
                     || meet.federation == Federation::AsianPF
+                    || meet.federation == Federation::AusDFPF
                     || meet.federation == Federation::BAWLA
                     || meet.federation == Federation::BDFPA
                     || meet.federation == Federation::BP
@@ -133,6 +134,7 @@ impl MetaFederation {
             MetaFederation::AllAustralia => {
                 meet.federation == Federation::AAPLF
                     || meet.federation == Federation::APU
+                    || meet.federation == Federation::AusDFPF
                     || meet.federation == Federation::CAPO
                     || meet.federation == Federation::GPCAUS
                     || meet.federation == Federation::PA

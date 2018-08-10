@@ -82,8 +82,9 @@ KnownFederations = {
     "APF",
     "APU",  # Australian Powerlifting Union.
     "AsianPF",  # Asian Powerlifting Federation, IPF.
-    # Bogatyr Brotherhood, a stand-alone and short-lived Russian federation.
+    "AusDFPF",  # Australian Drug Free Powerlifting Federation, WDFPF.
     "BAWLA",  # British Amateur Weightlifting Association, precursor to BP
+    # Bogatyr Brotherhood, a stand-alone and short-lived Russian federation.
     "BB",
     "BDFPA",  # British Drug-Free Powerlifting Association.
     "BPU",  # British Powerlifting Union.
