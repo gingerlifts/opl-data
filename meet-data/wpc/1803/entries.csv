@@ -43,8 +43,8 @@ Mihails Rapoports,19,M,81.5,82.5,,,,,,145,150,155,,155,,,,,,155,1,Latvia,B,Raw,M
 Aaron Ryan,15,M,76.9,82.5,,,,,,95,105,110,,110,,,,,,110,1,IRL,B,Raw,M_T1_R_ABPU
 Eric Stone,35,M,79.8,82.5,,,,,,177.5,195,-207.5,,195,,,,,,195,1,USA,B,Multi-ply,M_O_M_ABPU
 Vladimir Agasaryan,26,M,80.3,82.5,,,,,,150,152.5,155,,155,,,,,,155,1,GBR,B,Raw,M_O_R_ABPU
-Thomas Mccague,38,M,81.1,82.5,,,,,,130,137.5,140,-150,140,,,,,,140,2,IRL,B,Raw,M_O_R_ABPU
-Thomas Mccague,38,M,81.1,82.5,,,,,,130,137.5,140,-150,140,,,,,,140,2,IRL,B,Raw,M_O_R_ABPU_Disabled
+Thomas McCague,38,M,81.1,82.5,,,,,,130,137.5,140,-150,140,,,,,,140,2,IRL,B,Raw,M_O_R_ABPU
+Thomas McCague,38,M,81.1,82.5,,,,,,130,137.5,140,-150,140,,,,,,140,2,IRL,B,Raw,M_O_R_ABPU_Disabled
 Laura O'Shea,34,F,86,90,,,,,,57.5,62.5,-67.5,,62.5,,,,,,62.5,1,IRL,B,Raw,F_O_R_ABPU
 Bosco Reid,58,M,86.4,90,,,,,,80,85,90,,90,,,,,,90,1,IRL,B,Raw,M_M4_R_ABPU
 Robert Worthington,52,M,89.7,90,,,,,,127.5,132.5,-137.5,,132.5,,,,,,132.5,1,GBR,B,Raw,M_M3_R_ABPU
@@ -66,13 +66,13 @@ Vasily Chernyshenko,55,M,117.1,125,,,,,,122.5,127.5,132.5,,132.5,,,,,,132.5,1,RU
 James Hickey,41,M,123.7,125,,,,,,190,205,210,,210,,,,,,210,1,IRL,B,Raw,M_M1_R_ABPU
 Mark Lawford,44,M,123.4,125,,,,,,185,-192.5,-192.5,,185,,,,,,185,2,GBR,B,Raw,M_M1_R_ABPU
 Ben Karaosman,22,M,123.9,125,,,,,,170,182.5,-192.5,,182.5,,,,,,182.5,1,GBR,B,Single-ply,M_J_S_ABPU
-Julian Mckerrow,27,M,121.3,125,,,,,,185,-195,195,,195,,,,,,195,1,GBR,B,Raw,M_O_R_ABPU
+Julian McKerrow,27,M,121.3,125,,,,,,185,-195,195,,195,,,,,,195,1,GBR,B,Raw,M_O_R_ABPU
 David O'Keefe,26,M,114.5,125,,,,,,127.5,-132.5,,,127.5,,,,,,127.5,2,IRL,B,Raw,M_O_R_ABPU
-Eriksusztay,46,M,138.8,140,,,,,,-210,,220,227.5,220,,,,,,220,1,Slovakia,B,Raw,M_M2_R_ABPU
+Erik Susztay,46,M,138.8,140,,,,,,-210,,220,227.5,220,,,,,,220,1,Slovakia,B,Raw,M_M2_R_ABPU
 Lee Mortimer,41,M,135.8,140,,,,,,225,230,242.5,-250,242.5,,,,,,242.5,1,GBR,B,Raw,M_M1_R_ABPU
-Peter Mihaly,60,M,158.2,140+,,,,,,200,,,,200,,,,,,200,1,Slovakia,B,Multi-ply,M_M5_M_ABPU
+Péter Mihály,60,M,158.2,140+,,,,,,200,,,,200,,,,,,200,1,Slovakia,B,Multi-ply,M_M5_M_ABPU
 Andre Du Plessis,53,M,142.3,140+,,,,,,150,160,-165,,160,,,,,,160,1,IRL,B,Raw,M_M3_R_ABPU
-Peter Mihaly Open,60,M,158.2,140+,,,,,,200,,,,200,,,,,,200,1,Slovakia,B,Multi-ply,M_O_M_ABPU
+Péter Mihály,60,M,158.2,140+,,,,,,200,,,,200,,,,,,200,1,Slovakia,B,Multi-ply,M_O_M_ABPU
 Daniel Stain,27,M,145.6,140+,,,,,,130,140,150,,150,,,,,,150,1,GBR,B,Raw,M_O_R_ABPU
 Lexy Cattermole,38,F,51,52,77.5,85,90,,90,47.5,-52.5,52.5,,52.5,117.5,125,-133,,125,267.5,1,GBR,SBD,Wraps,F_O_C_ABPU
 Hanna Clews,28,F,51.1,52,80,85,90,,90,50,52.5,55,,55,95,100,105,,105,250,2,GBR,SBD,Wraps,F_O_C_ABPU
@@ -188,7 +188,7 @@ Steve Thresher,41,M,115.8,125,217.5,232.5,240,,240,145,152.5,-160,,152.5,275,-29
 Chris Meadows,43,M,113.7,125,220,240,-260,,240,130,-140,-140,,130,222.5,225,245,,245,615,2,USA,SBD,Raw,M_M1_R_ABPU
 Robert Bain,36,M,117.7,125,-290,290,-312.5,,290,152.5,160,162.5,,162.5,250,295,-322.5,,295,747.5,1,USA,SBD,Raw,M_O_R_ABPU
 Frankie Kemp,25,M,138.4,140,255,-270,-270,,255,160,170,-180,,170,255,-270,-275,,255,680,1,GBR,SBD,Raw,M_O_R_ABPU
-James Mcnamara,35,M,137.6,140,160,172.5,180,,180,-95,95,105,,105,180,200,210,,210,495,2,IRL,SBD,Raw,M_O_R_ABPU
+James McNamara,35,M,137.6,140,160,172.5,180,,180,-95,95,105,,105,180,200,210,,210,495,2,IRL,SBD,Raw,M_O_R_ABPU
 Odette Smaldon,24,F,47.4,48,,,,,,,,,,,115,-127.5,-127.5,,115,115,1,GBR,D,Raw,F_O_R_ABPU
 Elena Kudryashova,44,F,52,52,,,,,,,,,,,105,120,132.5,,132.5,132.5,1,RUS,D,Raw,F_M1_R_ABPU
 Katrina Allwood,47,F,56,56,,,,,,,,,,,122.5,130,-135,,130,130,1,GBR,D,Raw,F_M2_R_ABPU
@@ -228,7 +228,7 @@ John Miller,52,M,102.9,110,,,,,,,,,,,-165,175,185,,185,185,1,GBR,D,Raw,M_M3_R_AB
 James Hickey,41,M,123.7,125,,,,,,,,,,,315,-350,,,315,315,1,IRL,D,Multi-ply,M_M1_M_ABPU
 James Hickey,41,M,123.7,125,,,,,,,,,,,310,340,-365,,340,340,1,IRL,D,Raw,M_M1_R_ABPU
 William Newton,30,M,119.4,125,,,,,,,,,,,330,-342.5,,,330,330,1,GBR,D,Raw,M_O_R_ABPU
-Julian Mckerrow,27,M,121.3,125,,,,,,,,,,,290,315,-332.5,,315,315,2,GBR,D,Raw,M_O_R_ABPU
+Julian McKerrow,27,M,121.3,125,,,,,,,,,,,290,315,-332.5,,315,315,2,GBR,D,Raw,M_O_R_ABPU
 David O'Keefe,27,M,114.5,125,,,,,,,,,,,262.5,270,280,,280,280,3,IRL,D,Raw,M_O_R_ABPU
 Lee Mortimer,41,M,135.8,140,,,,,,,,,,,250,285,,,285,285,1,GBR,D,Raw,M_M1_R_ABPU
 Allen Davis,20,M,132.5,140,,,,,,,,,,,300,315,-330,,315,315,1,GBR,D,Raw,M_J_R_ABPU
