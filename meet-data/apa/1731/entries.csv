@@ -1,0 +1,23 @@
+﻿Name,Tested,Age,Division,Equipment,BodyweightLBS,WeightClassLBS,Squat1LBS,Squat2LBS,Squat3LBS,Best3SquatLBS,Bench1LBS,Bench2LBS,Bench3LBS,Bench4LBS,Best3BenchLBS,Deadlift1LBS,Deadlift2LBS,Deadlift3LBS,Deadlift4LBS,Best3DeadliftLBS,TotalLBS,State,Place,Event,Sex
+Alexa Goldstein,Yes,24,Military,Wraps,182.7,198,240,255,275,275,125,-135,-140,,125,265,285,300,310,300,700,FL,1,SBD,F
+Alisa Arakelian,Yes,36,Open,Wraps,190.1,198,305,335,365,365,175,185,190,,190,295,320,350,,350,905,MA,1,SBD,F
+Alexa Goldstein,Yes,24,Open,Wraps,182.7,198,240,255,275,275,125,-135,-140,,125,265,285,300,,300,700,FL,2,SBD,F
+Tricia Breckenridge,Yes,45,Master (40-49),Wraps,156.4,165,190,200,205,205,100,110,115,,115,210,225,-235,,225,545,NH,1,SBD,F
+Bill Suzor,Yes,56,Verterans,Wraps,196.6,198,345,370,390,390,225,-240,-245,,225,315,365,385,,385,1000,MA,1,SBD,M
+Justin Kelch,Yes,30,Military,Wraps,237,242,405,420,435,435,255,-270,-270,,255,435,455,475,,475,1165,RI,1,SBD,M
+John Williams,Yes,37,Open,Wraps,188.9,198,365,405,-425,405,275,-300,-300,,275,445,475,505,,505,1185,MA,1,SBD,M
+Nathan Euvrard,Yes,34,Open,Wraps,221.8,242,550,-595,615,615,245,265,275,,275,575,615,645,,645,1535,MA,1,SBD,M
+Robert Jackson,Yes,64,Master (60-69),Wraps,180.3,181,250,280,-305,280,170,185,200,,200,275,300,315,,315,795,CT,1,SBD,M
+Michael Carrick,Yes,55,Master (50-59),Wraps,194.6,198,280,320,350,350,255,270,-290,,270,380,410,435,,435,1055,NJ,1,SBD,M
+Bill Suzor,Yes,56,Master (50-59),Wraps,196.6,198,345,370,390,390,225,-240,-245,,225,315,365,385,,385,1000,MA,2,SBD,M
+Brendan Byrne,Yes,18,Teenage (18-19),Wraps,203.6,220,420,430,440,440,255,-265,270,,270,500,515,535,,535,1245,MA,1,SBD,M
+Noah Herzig,Yes,15,Teenage (13-15),Wraps,129.6,132,-255,255,265,265,150,-160,-160,,150,300,310,325,,325,740,MA,1,SBD,M
+Alec Hart ,Yes,15,Teenage (13-15),Wraps,130.3,132,225,-255,-275,225,155,-170,-185,,155,280,300,325,,325,705,MA,1,SBD,M
+Michael Cormier,Yes,55,Master (50-59),Wraps,197.5,198,,,,,280,300,310,,310,475,500,525,,525,835,MA,1,SBD,M
+Anthony Peterson,Yes,30,Open,Multi-ply,338.8,SHW,,,,,405,450,-500,,450,,,,,,450,NJ,1,B,M
+Vinnie Vardine,Yes,61,Master (60-69),Wraps,279.3,308,,,,,290,300,-305,,300,,,,,,300,NY,1,B,M
+Roberto Nieves,Yes,35,Submaster (33-39),Wraps,194,198,,,,,320,340,355,365,355,,,,,,355,MA,1,B,M
+Victor Paskell,Yes,38,Submaster (33-39),Wraps,137.4,148,,,,,205,225,-240,,225,,,,,,225,MA,2,B,M
+Dominic Emery,Yes,23,Junior (20-23),Wraps,131.6,132,,,,,205,-215,-225,,205,,,,,,205,MA,1,B,M
+Joseph Crozier,Yes,32,Open,Wraps,171.2,181,,,,,,,,,,,,,,,,MA,,D,M
+,,,,,,,,,,,,,,,,,,,,,,,,,

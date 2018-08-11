@@ -1,0 +1,37 @@
+﻿Name,Age,Division,Equipment,BodyweightLBS,WeightClassLBS,Squat1LBS,Squat2LBS,Squat3LBS,Squat4LBS,Best3SquatLBS,Bench1LBS,Bench2LBS,Bench3LBS,Best3BenchLBS,Deadlift1LBS,Deadlift2LBS,Deadlift3LBS,Best3DeadliftLBS,TotalLBS,Place,State,Tested,Event,Sex
+Jennifer McWhinnie,35,Submaster (33-39),Multi-ply,164.6,165,250,300,-350,,300,-155,155,-175,155,300,315,335,335,790,1,NH,Yes,SBD,F
+Meghan Dix,38,Open,Wraps,111,114,155,170,-190,,170,110,-115,115,115,215,230,240,240,525,1,NH,Yes,SBD,F
+Kayla Raucci,28,Open,Wraps,122.6,123,220,225,230,,230,110,115,-120,115,250,-260,260,260,605,1,NH,Yes,SBD,F
+Ashley Austin,29,Open,Wraps,174.8,181,175,205,220,,220,100,115,120,120,230,265,275,275,615,1,MA,Yes,SBD,F
+Makayla-Courtney McGeeney,23,Open,Wraps,174,181,165,185,205,,205,90,105,-115,105,185,210,225,225,535,2,MA,Yes,SBD,F
+Deborah Vallieres,46,Master (40-49),Wraps,229.4,SHW,-195,240,260,,260,105,115,125,125,220,240,260,260,645,1,MA,Yes,SBD,F
+Erin Merrigan,36,Submaster (33-39),Wraps,124.8,132,175,205,220,,220,105,115,-125,115,240,265,285,285,620,1,MA,Yes,SBD,F
+Nicole Park,34,Submaster (33-39),Wraps,158.8,165,205,225,235,,235,110,115,120,120,225,235,250,250,605,2,MA,Yes,SBD,F
+Cortney Burns,38,Submaster (33-39),Wraps,119.6,123,115,135,-145,,135,85,95,-100,95,180,200,215,215,445,3,MA,Yes,SBD,F
+Tristan Smart,18,Teenage (18-19),Multi-ply,216.2,220,450,-535,-550,,450,250,290,-315,290,500,-550,-560,500,1240,1,NH,Yes,SBD,M
+Mitch Shurbert,34,Submaster (33-39),Multi-ply,236.4,242,-600,-600,650,,650,-455,-455,-455,,,,,,,DQ,NH ,No,SBD,M
+George Chekas,48,Veterans,Multi-ply,173,181,260,285,-300,,285,260,285,300,300,365,395,415,415,1000,1,NH,Yes,SBD,M
+Myles Pelkey,26,Open,Multi-ply,146.6,148,245,285,305,,305,-175,190,-205,190,365,390,425,425,920,1,NH,Yes,SBD,M
+Jeremiah Powell,31,Open,Wraps,176.4,181,415,435,-450,,435,235,250,265,265,500,520,540,540,1240,1,VT,Yes,SBD,M
+William Aubin,29,Open,Wraps,201.4,220,-565,585,600,,600,290,315,325,325,565,590,-610,590,1515,1,MA,Yes,SBD,M
+Joe Bistany,45,Open,Wraps,221.8,242,375,435,455,,455,350,390,405,405,415,460,-505,460,1320,1,NH,Yes,SBD,M
+Ryan Vail,21,Open,Wraps,261.4,275,635,665,700,,700,340,-360,,340,635,-660,-660,635,1675,1,ME,No,SBD,M
+Wayne Grenier,68,Master (60-69),Wraps,196.8,198,185,215,-235,,215,185,200,210,210,325,355,-375,355,780,1,NH,Yes,SBD,M
+Joe Bistany,45,Master (40-49),Wraps,221.8,242,375,435,455,,455,350,390,405,405,415,460,-505,460,1320,1,NH,Yes,SBD,M
+Mike Bistany,49,Master (40-49),Wraps,197.8,198,245,285,305,,305,195,205,-215,205,275,305,325,325,835,2,NH,Yes,SBD,M
+Trevor Michaud,20,Junior (20-23),Wraps,165,165,225,255,275,,275,-185,-200,200,200,315,340,370,370,845,1,ME,Yes,SBD,M
+Nicholas Dejesus,23,Junior (20-23),Wraps,181.2,181,-365,-365,-365,,,,,,,,,,,,DQ,RI,Yes,SBD,M
+Nick Madden,18,Teenage (18-19),Wraps,173.6,181,350,385,415,,415,230,260,270,270,350,400,445,445,1130,1,MA,Yes,SBD,M
+Jake Bistany,17,Teenage (16-17),Wraps,198.2,198,275,295,315,335,315,175,195,-205,195,345,385,-400,385,895,1,NH,Yes,SBD,M
+Karsten Vlahos,17,Teenage (16-17),Wraps,163.2,165,255,265,-275,,265,-215,-215,-215,-215,,,,,,DQ,VT,Yes,SBD,M
+Domynick Cardinal,14,Teenage (13-15),Wraps,148.4,148,165,-185,185,,185,80,-95,100,100,165,185,200,200,485,1,NH,Yes,SBD,M
+Emma Huff,,Open,,,,,,,,,,,,,,,,,No Show,,NH,Yes,SBD,F
+Ted Sares,80,Master (80+),,,,,,,,,,,,,,,,,No Show,,NH,Yes,SBD,M
+Joshua Sanborn,39,Open,Multi-ply,237.6,242,,,,,,450,465,,465,550,605,,605,1070,1,NH,Yes,BD,M
+Matthew Scogin,57,Master (50-59),Multi-ply,248.6,275,,,,,,365,-405,405,405,500,525,-575,525,930,1,ME,Yes,BD,M
+Emily Bragonier,41,Master (40-49),Raw,157.8,165,,,,,,140,150,-155,150,,,,,150,1,VT,Yes,B,F
+Julia Shelly,16,Teenage (16-17),Raw,136.2,148,,,,,,105,-115,-115,105,,,,,105,1,NH,Yes,B,F
+Jeremy Cardinal,38,Open,Multi-ply,261,275,,,,,,510,530,-550,530,,,,,530,1,NH,Yes,B,M
+Jonathan George,33,Open,Raw,218.2,220,,,,,,405,445,475,475,,,,,475,1,NH,Yes,B,M
+Faith Sanborn,36,Open,Raw,126.2,132,,,,,,,,,,165,185,200,200,200,1,NH,Yes,D,F
+Mitch Shurbert,34,Submaster (33-39),Multi-ply,236.4,242,,,,,,,,,,600,650,-710,650,650,1,NH ,No,D,M
