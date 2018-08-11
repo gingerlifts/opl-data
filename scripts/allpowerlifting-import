@@ -108,6 +108,8 @@ def getresults(soup, url):
         url = url + '?all_attempts=1'
 
     subpage_html = gethtml(url)
+    subpage_html = re.sub('<sup.*?sup>','',subpage_html)
+
     subpage_html = subpage_html.replace('<span class="result-value-fail">',
                                         '<span class="result-value-fail">-')
 
@@ -152,10 +154,7 @@ def getresults(soup, url):
             subpage_html = subpage_html.replace(
                 '<span class="result-value-fail">', '<span class="result-value-fail">-')
                             # Remove record text
-            print(re.search('<sup class="result-value-record">.*?<\/sup>',subpage_html))
-            subpage_html = re.sub('<sup class="result-value-record">.*?<\/sup>','',subpage_html)
-            print(re.search('<sup class="result-value-record">.*?<\/sup>',subpage_html))
-            print('\n')
+            subpage_html = re.sub('<sup.*?sup>','',subpage_html)
             subpage_soup = BeautifulSoup(subpage_html, 'html.parser')
             subpage_csv = getpagedata(subpage_soup)
 
@@ -385,7 +384,6 @@ def fixtotals(csv):
     eventidx = csv.index('Event')
     
     for row in csv.rows:
-        print(row[csv.index('Name')])
         total = 0
         if ('S' in row[eventidx] and 'Best3SquatKg' in csv.fieldnames and
                 row[csv.index('Best3SquatKg')] != ''):
@@ -466,7 +464,7 @@ def fix_cyrillic_names(csv):
     if 'CyrillicName' in csv.fieldnames:
         cyridx = csv.index('CyrillicName')
         for row in csv.rows:
-            row[cyridx] = row[cyridx].replace('e', 'е').replace('x', 'х')
+            row[cyridx] = row[cyridx].replace('e', 'е').replace('x', 'х').replace('o','о')
 
 
 def remove_empty_cols_ignore_fieldname(csv):
