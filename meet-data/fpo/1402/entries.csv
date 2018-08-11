@@ -1,4 +1,4 @@
-Event,Place,Sex,Name,BodyweightKg,WeightClassKg,Division,Equipment,Best3BenchKg,Best3DeadliftKg,Totalkg
+Event,Place,Sex,Name,BodyweightKg,WeightClassKg,Division,Equipment,Best3BenchKg,Best3DeadliftKg,TotalKg
 B,1,M,Henry Lehtola,110,110,Open,Multi-ply,345,,345
 B,1,M,Kalle Räsänen,90,90,Junior,Multi-ply,290,,290
 B,2,M,Juha Märsylä,108,110,Open,Multi-ply,305,,305
@@ -12,12 +12,12 @@ B,1,M,Petri Salmela,90,90,Open,Multi-ply,195,,195
 B,1,M,Reijo Marin,110,110,Master,Multi-ply,200,,200
 B,2,M,Jarkko Forss,87.8,90,Junior,Multi-ply,160,,160
 B,2,M,Juuso Ahola,99.8,100,Open,Multi-ply,170,,170
-B,3,M,Petri Piirala,85,90,Junior,Multi-ply,140,,14o
+B,3,M,Petri Piirala,85,90,Junior,Multi-ply,140,,140
 B,DQ,M,Tomi Rantanen,139.2,140,Open,Multi-ply,,,
-B,DQ,M,Rauli Peltonen,109.9,110,Open,Multi-ply,,
+B,DQ,M,Rauli Peltonen,109.9,110,Open,Multi-ply,,,
 B,DQ,M,Risto Väänänen,97.4,100,Open,Multi-ply,,,
 B,1,M,Atte Poikonen,98.3,100,Open,Raw,222.5,,222.5
-B,1,M,Ville Sieppi,89.1,90,Open	Raw,190,,190
+B,1,M,Ville Sieppi,89.1,90,Open,Raw,190,,190
 B,1,M,Jani Suopanki,109.3,110,Open,Raw,205,,205
 B,2,M,Joni Kivelä,99.2,100,Open,Raw,195,,195,
 B,2,M,Rami Leiviskä,90,90,Open,Raw,182.5,,182.5
