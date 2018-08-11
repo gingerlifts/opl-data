@@ -384,6 +384,7 @@ def fixtotals(csv):
     eventidx = csv.index('Event')
     
     for row in csv.rows:
+        print(row[csv.index('Name')])
         total = 0
         if ('S' in row[eventidx] and 'Best3SquatKg' in csv.fieldnames and
                 row[csv.index('Best3SquatKg')] != ''):
