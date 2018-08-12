@@ -1,7 +1,7 @@
 Name,Age,Event,Sex,Division,Equipment,Tested,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place
 Laura Young,51,SBD,F,M3,Wraps,Yes,95.3,90+,62.5,-67.5,-67.5,62.5,32.5,37.5,-40,37.5,62.5,70,75,75,175,1
 Julie Novack,25,SBD,F,O,Wraps,Yes,51.4,52,-62.5,65,-77.5,65,-45,45,47.5,47.5,92.5,105,115,115,227.5,1
-Sara Hannie,29,SBD,F,O,Wraps,Yes,68.3,75,107.5,112.5,117.5,117.5,52.5,57.5,-60,57.5,122.5,137.5,-142.5,137.5,312.5,1
+Sara Frankovich-Hannie,29,SBD,F,O,Wraps,Yes,68.3,75,107.5,112.5,117.5,117.5,52.5,57.5,-60,57.5,122.5,137.5,-142.5,137.5,312.5,1
 Emily Hart,34,SBD,F,O,Wraps,Yes,72.4,75,75,85,-92.5,85,35,40,-42.5,40,107.5,115,122.5,122.5,247.5,2
 Natasha Prybil,29,SBD,F,O,Wraps,Yes,85.9,90,125,132.5,140,140,67.5,72.5,-77.5,72.5,137.5,150,,150,362.5,1
 Heather Young,24,SBD,F,O,Wraps,Yes,97.8,90+,-112.5,-112.5,-112.5,,-55,-55,-55,,122.5,130,-140,130,,DQ
@@ -58,7 +58,7 @@ Brendan Morr,22,SBD,M,J,Multi-ply,No,99.8,100,222.5,237.5,250,250,165,-172.5,,16
 Khang Nguyen,28,SBD,M,O,Wraps,No,74.4,75,135,165,177.5,177.5,115,-132.5,-132.5,115,165,185,205,205,497.5,1
 Cassandra Sheard,23,B,F,J,Raw,No,64.9,67.5,,,,,-57.5,57.5,-60,57.5,,,,,57.5,1
 Diana Janecek,47,B,F,M2,Multi-ply,No,60,60,,,,,-57.5,-57.5,-57.5,,,,,,,DQ
-V.H. Shelton,37,B,M,O,Raw,Yes,88.9,90,,,,,-175,-175,175,175,,,,,175,1
+VH Shelton,37,B,M,O,Raw,Yes,88.9,90,,,,,-175,-175,175,175,,,,,175,1
 Kevin Williams,56,B,M,M4,Raw,No,89.3,90,,,,,142.5,145,-147.5,145,,,,,145,1
 Derek Jarman,37,B,M,S,Raw,No,106.5,110,,,,,170,-192.5,-192.5,170,,,,,170,1
 Dan Ziegelmann,39,B,M,S,Raw,No,108.2,110,,,,,155,-165,170,170,,,,,170,2
