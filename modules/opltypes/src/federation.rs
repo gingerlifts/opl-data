@@ -234,7 +234,7 @@ pub enum Federation {
     #[strum(to_string = "THSPA", serialize = "thspa")]
     THSPA,
     #[strum(to_string = "UkrainePA", serialize = "ukrainepa")]
-    UkrPA,
+    UkrainePA,
     #[strum(to_string = "UPA", serialize = "upa")]
     UPA,
     #[strum(to_string = "UPC", serialize = "upc")]
