@@ -233,7 +233,7 @@ pub enum Federation {
     SVNL,
     #[strum(to_string = "THSPA", serialize = "thspa")]
     THSPA,
-    #[strum(to_string = "UkrPA", serialize = "ukrpa")]
+    #[strum(to_string = "UkrainePA", serialize = "ukrainepa")]
     UkrPA,
     #[strum(to_string = "UPA", serialize = "upa")]
     UPA,
