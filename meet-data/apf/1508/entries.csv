@@ -76,7 +76,7 @@ DQ,Torge Trieglaff,T3,Germany,82.00,-175,-175,-175,,,,,,,,,,,,,,82.5,M,,1997,Wra
 9,John Warburton,O,Great Britain,82.50,195,207.5,-215,207.5,,115,122.5,-127.5,122.5,,225,235,-245,235,,565.0,82.5,M,,1987,Wraps,SBD
 10,Sergio Pires,O,Portugal,81.80,-160,160,185,185,,115,125,-140,125,,210,220,-230,220,,530.0,82.5,M,,1982,Wraps,SBD
 1,Colin Mullaney,M4,Canada,81.70,140,150,-160,150,,125,-130,132.5,132.5,,180,200.5,-210,200.5,,483.0,82.5,M,,1959,Wraps,SBD
-2,Jose Fleury,M4,Switzerland,80.40,130,140,150,150,,95,100,105,105,,160,170,-180,170,,425.0,82.5,M,,1959,Wraps,SBD
+2,José Fleury,M4,Switzerland,80.40,130,140,150,150,,95,100,105,105,,160,170,-180,170,,425.0,82.5,M,,1959,Wraps,SBD
 1,Rui Faria,M5,Portugal,81.80,140,150,-170,150,,85,90,-100,90,,160,170,-180,170,,410.0,82.5,M,,1951,Wraps,SBD
 1,Kerekes Balazs,T2,Hungary,89.90,145,152.5,157.5,157.5,,85,92.5,-95,92.5,,182.5,195,-200,195,,445.0,90,M,,1999,Wraps,SBD
 1,Viktor Timorskiy,T3,Kazakhstan,90.00,210,232.5,-245,232.5,,135,142.5,145,145,,-270,270,300,300,,677.5,90,M,,1996,Wraps,SBD
@@ -150,14 +150,14 @@ DQ,David Beakley,O,Canada,98.00,-255,-260,-260,,,,,,,,,,,,,,100,M,,1981,Wraps,SB
 2,Vladimir Golubev,O,Kazakhstan,119.50,320,335,-342.5,335,,-225,235,240,240,,330,342.5,-360,342.5,,917.5,125,M,,1986,Wraps,SBD
 3,Artur Chrzaszcz,O,Great Britain,125.00,320,335,-345,335,,200,210,-220,210,,330,345,-355,345,,890.0,125,M,,1983,Wraps,SBD
 4,Hristo Muskov Dimitrov,O,Bulgaria,119.00,-280,280,-290,280,,215,225,232.5,232.5,,330,-362.5,,330,,842.5,125,M,,1985,Wraps,SBD
-5,Norbert Vaczi,O,Hungary,113.60,260,270,-280,270,,195,205,210,210,,255,265,-270,265,,745.0,125,M,,1990,Wraps,SBD
+5,Norbert Váczi,O,Hungary,113.60,260,270,-280,270,,195,205,210,210,,255,265,-270,265,,745.0,125,M,,1990,Wraps,SBD
 1,Tony Chard,M2,France,119.40,-200,-200,200,200,,160,170,175,175,,230,250,,250,,625.0,125,M,,1968,Wraps,SBD
 1,David Earp,M3,USA,121.20,-215,215,230,230,,145,152.5,160,160,,250,-267.5,,250,,640.0,125,M,,1963,Wraps,SBD
 1,Alexander Burlakov,M4,Russia,123.30,200,210,215,215,,185,-197.5,-197.5,185,,190,200,210,210,,610.0,125,M,Александр Бурлаков,1959,Wraps,SBD
 1,Mikhail Nagaybekov,M5,Kazakhstan,111.80,130,,,130,,130,,,130,,130,-140,140,140,,400.0,125,M,,1953,Wraps,SBD
 1,Anton Solovey,J,Kazakhstan,128.00,270,280,292.5,292.5,,200,210,217.5,217.5,,290,300,-310,300,,810.0,140,M,,1993,Wraps,SBD
 2,Frankie Kemp,J,Great Britain,133.50,210,222.5,235,235,,150,160,170,170,,240,262.5,-275,262.5,,667.5,140,M,,1993,Wraps,SBD
-1,Kamil Kaminski,O,Great Britain,137.90,280,305,-312.5,305,,210,227.5,235,235,,280,305,312.5,312.5,,852.5,140,M,,1988,Wraps,SBD
+1,Kamil Kamiński,O,Great Britain,137.90,280,305,-312.5,305,,210,227.5,235,235,,280,305,312.5,312.5,,852.5,140,M,,1988,Wraps,SBD
 2,Tofig Eyvazov Shakhin,O,Azerbaijan,127.10,280,292.5,300,300,,190,200,-205,200,,300,320,,320,,820.0,140,M,,1982,Wraps,SBD
 3,Renato Soares,O,Portugal,125.10,240,-260,260,260,,190,205,-220,205,,270,-300,-300,270,,735.0,140,M,,1978,Wraps,SBD
 DQ,Dmitry Smirnov,O,Russia,130.80,260,,,260,,,,,,,,,,,,,140,M,Дмитрий Смирнов,1978,Wraps,SBD
@@ -284,7 +284,7 @@ DQ,Aleksandr Romanichev,O,Israel,59.60,,,,,,-92.5,-92.5,-92.5,,,,,,,,,60,M,,1963
 DQ,Batyrkhan Yermagambetov,T2,Kazakhstan,89.60,,,,,,-170,-170,,,,,,,,,,90,M,,1999,Raw,B
 1,Dinislam Mukhametali,T3,Kazakhstan,88.20,,,,,,155,162.5,170,170,,,,,,,170.0,90,M,,1997,Raw,B
 2,Tim Hapke,T3,Germany,83.30,,,,,,135,-140,140,140,,,,,,,140.0,90,M,,1996,Raw,B
-3,Andreу Gabuev,T3,Russia,88.70,,,,,,130,-135,135,135,,,,,,,135.0,90,M,Андрей Габуев,1996,Raw,B
+3,Andrey Gabuev,T3,Russia,88.70,,,,,,130,-135,135,135,,,,,,,135.0,90,M,Андрей Габуев,1996,Raw,B
 1,Yevgeny Likhachev,J,Kazakhstan,90.00,,,,,,170,180,-190,180,,,,,,,180.0,90,M,,1993,Raw,B
 1,Kent Spires,O,USA,88.30,,,,,,232.5,-238,-238,232.5,,,,,,,232.5,90,M,,1970,Raw,B
 2,Christoph Scheel,O,Germany,89.60,,,,,,-205,205,-207.5,205,,,,,,,205.0,90,M,,1985,Raw,B
@@ -364,7 +364,7 @@ DQ,Batyrkhan Yermagambetov,T2,Kazakhstan,89.60,,,,,,-170,-170,,,,,,,,,,90,M,,199
 4,Oliver Kopp Dr. Marc,M1,Germany,117.10,,,,,,190,205,-215,205,,,,,,,205.0,125,M,,1972,Raw,B
 1,Dmitry Gorbachev,M2,Russia,116.70,,,,,,215,222.5,,222.5,,,,,,,222.5,125,M,Дмитрий Горбачев,1970,Raw,B
 2,Mikhail Shumikhin,M2,Kazakhstan,118.80,,,,,,215,222.5,-227.5,222.5,,,,,,,222.5,125,M,,1968,Raw,B
-1,Jiři Hajek,M3,Czech Republic,119.20,,,,,,160,170,177.5,177.5,,,,,,,177.5,125,M,,1962,Raw,B
+1,Jiří Hájek,M3,Czech Republic,119.20,,,,,,160,170,177.5,177.5,,,,,,,177.5,125,M,,1962,Raw,B
 1,Carlos García,M4,Spain,117.50,,,,,,175,-180,-180,175,,,,,,,175.0,125,M,,1959,Raw,B
 2,Anatoliy Evgrafov,M4,Russia,119.50,,,,,,160,,,160,,,,,,,160.0,125,M,Анатолий Евграфов,1960,Raw,B
 1,Josef Hakl,M6,Czech Republic,114.90,,,,,,155,160,-165,160,,,,,,,160.0,125,M,,1950,Raw,B
@@ -468,7 +468,7 @@ DQ,Patrick Bevan,M2,France,87.00,,,,,,-160,-160,-160,,,,,,,,,90,M,,1967,Single-p
 3,Timur Lutfullaev,O,Kazakhstan,99.90,,,,,,160,180,-200,180,,,,,,,180.0,100,M,,1988,Single-ply,B
 1,Juliusz Zbierski,M1,Poland,95.40,,,,,,205,-212.5,-212.5,205,,,,,,,205.0,100,M,,1974,Single-ply,B
 1,Franciszek Szabluk,M4,Poland,96.40,,,,,,190,-200,200,200,-217.5,,,,,,200.0,100,M,,1956,Single-ply,B
-1,Jan Mraz,M5,Slovak Republic,98.80,,,,,,160,180,-190,180,,,,,,,180.0,100,M,,1955,Single-ply,B
+1,Jan Mráz,M5,Slovak Republic,98.80,,,,,,160,180,-190,180,,,,,,,180.0,100,M,,1955,Single-ply,B
 1,Hans-Jurgen Borkowski,M6,Germany,92.20,,,,,,-140,140,-150,140,,,,,,,140.0,100,M,,1950,Single-ply,B
 1,Dominik Gabriel,T2,Slovak Republic,109.30,,,,,,120,140,-160,140,,,,,,,140.0,110,M,,1998,Single-ply,B
 1,Todor Kapashikov,O,Ghana,110.00,,,,,,280,290,-300,290,,,,,,,290.0,110,M,,1984,Single-ply,B
@@ -542,13 +542,13 @@ DQ,Carlos Vidas,O,Portugal,74.70,,,,,,,,,,,-230,-230,,,,,75,M,,1983,Raw,D
 1,Krisztian Balazs,T2,Hungary,90.00,,,,,,,,,,,180,190,-200,190,,190.0,90,M,,1999,Raw,D
 1,Viktor Timorskiy,T3,Kazakhstan,89.60,,,,,,,,,,,280,295,-297.5,295,,295.0,90,M,,1996,Raw,D
 1,Tim Hapke,T3,Germany,83.30,,,,,,,,,,,195,205,-215.5,205,,205.0,90,M,,1996,Raw,D
-2,Andreу Gabuev,T3,Russia,88.70,,,,,,,,,,,160,170,175,175,,175.0,90,M,Андрей Габуев,1996,Raw,D
+2,Andrey Gabuev,T3,Russia,88.70,,,,,,,,,,,160,170,175,175,,175.0,90,M,Андрей Габуев,1996,Raw,D
 1,Yevgeny Likhachev,J,Kazakhstan,90.00,,,,,,,,,,,260,270,-280,270,,270.0,90,M,,1993,Raw,D
 1,Renato Santos,J,Portugal,87.60,,,,,,,,,,,190,210,220,220,,220.0,90,M,,1994,Raw,D
 1,Cristian Sardon Ajala,O,Spain,88.10,,,,,,,,,,,280,290,297.5,297.5,,297.5,90,M,,,Raw,D
 2,Viktor Timorskiy,O,Kazakhstan,89.60,,,,,,,,,,,280,295,-297.5,295,,295.0,90,M,,1996,Raw,D
 3,Ricardo Monteiro,O,Portugal,89.20,,,,,,,,,,,270,-285,-285,270,,270.0,90,M,,1987,Raw,D
-4,Jose Blanco,O,Portugal,86.90,,,,,,,,,,,260,-280,-280,260,,260.0,90,M,,1987,Raw,D
+4,José Blanco,O,Portugal,86.90,,,,,,,,,,,260,-280,-280,260,,260.0,90,M,,1987,Raw,D
 5,Jose Teixeira Fuentes,O,Portugal,89.90,,,,,,,,,,,250,-265,,250,,250.0,90,M,,1970,Raw,D
 1,Jose Teixeira Fuentes,M2,Portugal,89.90,,,,,,,,,,,250,-265,,250,,250.0,90,M,,1970,Raw,D
 1,Helmut Silberbauer,M3,Austria,87.50,,,,,,,,,,,220,240,250,250,,250.0,90,M,,1964,Raw,D
