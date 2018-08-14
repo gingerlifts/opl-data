@@ -75,13 +75,13 @@ DQ,Sergey Petrov,95.9,230,,,,105,M,Сергей Петров,1989,SBD,Raw
 1,Semen Fadeev,118,275,155,300,730,120,M,Семен Фадеев,1973,SBD,Raw
 2,Pavel Zagranovskiy,119,280,180,270,730,120,M,Павел Заграновский,1990,SBD,Raw
 3,Petr Romanov,110.8,250,195,240,685,120,M,Петр Романов,1980,SBD,Raw
-1,Mikhail Koklyaev,159.1,360,230,417.5,1007.5,120,M,Михаил Кокляев,1978,SBD,Raw
-2,Ivan Tsigelnik,142.4,370,220,355,945,120,M,Иван Цигельник,1990,SBD,Raw
-3,Grigoriy Dvoretskikh,121.8,280,230,285,795,120,M,Григорий Дворецких,1976,SBD,Raw
-4,Maksim Chushkin,141.7,270,210,220,700,120,M,Максим Чушкин,1990,SBD,Raw
+1,Mikhail Koklyaev,159.1,360,230,417.5,1007.5,120+,M,Михаил Кокляев,1978,SBD,Raw
+2,Ivan Tsigelnik,142.4,370,220,355,945,120+,M,Иван Цигельник,1990,SBD,Raw
+3,Grigoriy Dvoretskikh,121.8,280,230,285,795,120+,M,Григорий Дворецких,1976,SBD,Raw
+4,Maksim Chushkin,141.7,270,210,220,700,120+,M,Максим Чушкин,1990,SBD,Raw
 1,Kseniya Kozlova,51,90,37.5,90,217.5,52,F,Ксения Козлова,1995,SBD,Raw
 2,Anastasiya Kachalova,50.4,70,40,87.5,197.5,52,F,Анастасия Качалова,1995,SBD,Raw
-ВК,Veronika Arkhiptsova,50.2,110,55,115,280,52,F,Вероника Архипцова,1993,SBD,Raw
+G,Veronika Arkhiptsova,50.2,110,55,115,280,52,F,Вероника Архипцова,1993,SBD,Raw
 1,Galina Zaytseva,56.65,135,70,155,360,57,F,Галина Зайцева,1987,SBD,Raw
 2,Elena Kuznetsova,52.8,135,72.5,130,337.5,57,F,Елена Кузнецова,1980,SBD,Raw
 3,Karina Zvereva,56.9,110,70,135,315,57,F,Карина Зверева,1993,SBD,Raw
@@ -102,5 +102,5 @@ DQ,Sergey Petrov,95.9,230,,,,105,M,Сергей Петров,1989,SBD,Raw
 3,Elena Titievskaya,68.4,60,45,112.5,217.5,72,F,Елена Титиевская,1996,SBD,Raw
 1,Ekaterina Bezrodnova,73,100,50,105,255,84,F,Екатерина Безроднова,1993,SBD,Raw
 2,Kseniya Korableva,73,50,35,95,180,84,F,Ксения Кораблева,1990,SBD,Raw
-1,Marina Mikhaylyut,104,130,90,135,355,84,F,Марина Михайлют,1975,SBD,Raw
-2,Elena Semenova,87.7,70,80,100,250,84,F,Елена Семенова,1979,SBD,Raw
+1,Marina Mikhaylyut,104,130,90,135,355,84+,F,Марина Михайлют,1975,SBD,Raw
+2,Elena Semenova,87.7,70,80,100,250,84+,F,Елена Семенова,1979,SBD,Raw
