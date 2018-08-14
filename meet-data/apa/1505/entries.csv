@@ -1,0 +1,16 @@
+﻿Name,Age,Division,BodyWeightLBS,WeightClassLBS,Squat1LBS,Squat2LBS,Squat3LBS,Best3SquatLBS,Bench1LBS,Bench2LBS,Bench3LBS,Best3BenchLBS,Deadlift1LBS,Deadlift2LBS,Deadlift3LBS,Best3DeadliftLBS,TotalLBS,Event,State,Sex,Equipment,Tested
+Tracy Dent,42,Master (40-49),167.6,181,225,245,-260,245,125,-135,135,135,245,265,275,275,655,SBD,GA,F,Wraps,Yes
+Latema Harrell,22,Open,138.2,148,200,215,230,230,125,140,155,155,275,310,325,325,710,SBD,AL,F,Wraps,Yes
+Tracy Dent,42,Open,167.6,181,225,245,-260,245,125,-135,135,135,245,265,275,275,655,SBD,GA,F,Wraps,Yes
+Steve Waters,53,Master (50-59),235.2,242,500,550,585,585,400,430,445,445,550,585,-605,585,1615,SBD,GA,M,Wraps,No
+Alexander Mixon,23,Junior (20-23),172.8,181,315,335,-365,335,-225,-235,-235,,,,,,DQ,SBD,AL,M,Wraps,No
+Michael Flynn,22,Junior (20-23),191.4,198,410,435,-450,435,275,290,300,300,450,465,480,480,1215,SBD,GA,M,Wraps,No
+Boone Strickland,25,Open,213.4,220,355,375,390,390,295,310,320,320,450,475,490,490,1200,SBD,FL,M,Wraps,Yes
+John Cater,25,Open,237,242,405,460,505,505,275,315,340,340,485,520,555,555,1400,SBD,GA,M,Wraps,Yes
+Sydney Bennett,16,Teenage (16-17),160.8,165,,,,,95,115,135,135,300,315,-320,315,450,BD,GA,F,Raw,Yes
+Donavan Green,21,Junior (20-23),157.2,165,,,,,-225,275,-315,275,365,410,450,450,725,BD,AL,M,Raw,Yes
+Donavan Green,21,Open,157.2,165,,,,,-225,275,-315,275,365,410,450,450,725,BD,AL,M,Raw,Yes
+Steve Waters,53,Master (50-59),235.2,242,,,,,400,430,445,445,,,,,445,B,GA,M,Raw,No
+Chase Everetts,14,Female Teenage Raw,117.4,123,,,,,,,,,150,165,175,175,175,D,,F,Raw,Yes
+Shaun Smith,46,Master (40-49),222.2,242,,,,,,,,,450,550,585,585,585,D,GA,M,Raw,Yes
+John Rowland,9,Youth (8-9),75.8,114,,,,,,,,,115,-125,125,125,125,D,GA,M,Raw,Yes
