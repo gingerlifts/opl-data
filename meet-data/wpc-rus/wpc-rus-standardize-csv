@@ -343,7 +343,7 @@ def parse_fieldnames(sheet):
         # There are a stupid number of ways to write this column so using this
         # as a catch-all
         elif any(x in text for x in['возра', 'возро', 'категорія', 'дивизион',
-                                    'возр груп', 'age categoty']):
+                                    'возр груп', 'age categoty','год р']):
             fieldnames.append('Division-Age')
         elif 'div' in text:
             fieldnames.append('Division')
