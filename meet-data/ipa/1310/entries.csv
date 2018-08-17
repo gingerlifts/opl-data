@@ -1,5 +1,5 @@
 Division,Equipment,Event,Sex,WeightClassKg,Name,Country,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,BodyweightKg,Best3DeadliftKg,BirthYear,TotalKg,Place
-Amateur Teen (14-15),Multi-ply,B,F,60,Nikita Abzayev,Russia,,82.5,87.5,90,,90,59.3,,1998,90,1
+Amateur Teen (14-15),Multi-ply,B,M,60,Nikita Abzayev,Russia,,82.5,87.5,90,,90,59.3,,1998,90,1
 Amateur Teen (14-15),Multi-ply,B,M,67.5,Artem Munchkin,Russia,,105,110,115,,115,67.5,,1997,115,1
 Amateur Open,Multi-ply,B,M,52,Elchin Babayev,Azerbaijan,,105,110,,,110,51.2,,1989,110,1
 Amateur Open,Multi-ply,B,M,67.5,Nurlan Babajanov,Azerbaijan,,140,147.5,150,,150,67.5,,1992,150,1
@@ -56,8 +56,8 @@ Amateur Open,Raw,B,M,140,Zaur Hasanov,Azerbaijan,,150,160,,,160,136,,1982,160,2
 Amateur Master (45-49),Raw,B,M,90,Alexander Federov,Russia,,165,172.5,-180,,172.5,89.5,,1968,172.5,1
 Amateur Master (45-49),Raw,B,M,125,Denis Oglobin,Russia,,195,205,210,212.5,210,119.3,,1967,210,1
 Professional,Raw,B,F,60,Larisa Qvozdeva,Russia,,90,95,-100,,95,59,,1965,95,1
-Professional Junior,Raw,B,F,67.5,Rovshan Khalilov,Azerbaijan,,-140,140,145,,145,67.2,,1990,145,1
-Professional Junior,Raw,B,F,90,Vusal Agalorov,Azerbaijan,,150,-155,-155,,150,87.7,,1991,150,1
+Professional Junior,Raw,B,M,67.5,Rovshan Khalilov,Azerbaijan,,-140,140,145,,145,67.2,,1990,145,1
+Professional Junior,Raw,B,M,90,Vusal Agalorov,Azerbaijan,,150,-155,-155,,150,87.7,,1991,150,1
 Professional Open,Raw,B,M,60,Yadigar Mammadov,Azerbaijan,,110,-120,120,,120,59.4,,1984,120,1
 Professional Open,Raw,B,M,67.5,Samir Mammadov,Azerbaijan,,165,173.5,175,,175,67.5,,1981,175,1
 Professional Open,Raw,B,M,82.5,Ali Askarov,Azerbaijan,,170,182.5,,,182.5,82.5,,1985,182.5,1

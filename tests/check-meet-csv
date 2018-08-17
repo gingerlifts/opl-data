@@ -77,6 +77,8 @@ KnownFederations = {
     "ADAU",  # Anti Drug Athletes United
     "AEP",  # Asociación Española de Powerlifting, IPF.
     "AfricanPF",  # African Powerlifting Federation, IPF.
+    # All Indonesia Weightlifting, Body Building and Powerlifting Association, IPF.
+    "AIWBPA",  
     "APA",
     "APC",  # American Powerlifting Committee.
     "APF",
@@ -189,6 +191,7 @@ KnownFederations = {
     "WPC-RUS",
     "WPC-UKR",
     "WPF",  # World Powerlifting federation (Not the Wilks one)
+    "WPU",  # World Powerlifting Union.
     "WPUF",  # World Powerlifting Union of Federations
     "WNPF",  # World Natural Powerlifting Federation.
     "WRPF",

@@ -30,7 +30,7 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Freyded Rankyn Bejerano,O,Spain,173.7,-330,340,350,350,230,240,-250,240,-340,-340,340,340,930,140+,M,,1975,Wraps,SBD
 1,Maariyah Tahir,O,Great Britain,57.8,80,-87.5,-87.5,80,45,47.5,-52.5,47.5,110,122.5,-132.5,122.5,250,60,F,,1989,Wraps,SBD
 1,Maudelene De Jong,T,Netherlands,61.4,72.5,77.5,82.5,82.5,42.5,45,-50,45,72.5,80,85,85,212.5,67.5,F,,1999,Wraps,SBD
-1,Sean Cregan,M2,Ireland,78.9,200,-240,-260,200,-130,130,-137.5,130,200,220,230,230,560,82.5,M,,1965,Multi-ply,SBD
+1,Seán Cregan,M2,Ireland,78.9,200,-240,-260,200,-130,130,-137.5,130,200,220,230,230,560,82.5,M,,1965,Multi-ply,SBD
 1,Graham Quirke,O,Ireland,89.2,-280,280,-300,280,185,195,200,200,230,-265,-270,230,710,90,M,,1979,Multi-ply,SBD
 DQ,Shane Brodie,M1,Ireland,98.5,-355,-365,-365,,,,,,,,,,,100,M,,1973,Multi-ply,SBD
 1,Lee Fagan,O,Ireland,118.6,-220,260,-300,260,170,185,-190,185,280,290,300,300,745,125,M,,1986,Multi-ply,SBD
@@ -48,7 +48,7 @@ DQ,Mustafa Yilmaz,O,Germany,92.6,-220,-245,-245,,,,,,,,,,,100,M,,1988,Single-ply
 2,Nico Van Veen,O,Netherlands,107.9,250,270,-290,270,140,152.5,-160,152.5,250,-270,,250,672.5,110,M,,1978,Single-ply,SBD
 1,Oliver Dittmar,M1,Germany,101.5,-245,-260,265,265,140,-150,150,150,200,225,235,235,650,110,M,,1970,Single-ply,SBD
 1,Peter Malfa,M3,Germany,100.7,-225,225,-255,225,125,-135,,125,200,215,230,230,580,110,M,,1963,Single-ply,SBD
-1,Marcus Griffith's,M1,Great Britain,120.4,-350,-350,350,350,240,-251,,240,320,343,,343,933,125,M,,1973,Single-ply,SBD
+1,Marcus Griffiths,M1,Great Britain,120.4,-350,-350,350,350,240,-251,,240,320,343,,343,933,125,M,,1973,Single-ply,SBD
 1,David Gladwell,O,Great Britain,137.9,300,-320,320,320,230,240,250,250,-260,260,280,280,850,140,M,,1977,Single-ply,SBD
 2,Dirk Gerbens,O,Netherlands,128.2,-260,270,-285,270,-215,220,225,225,290,310,320,320,815,140,M,,1980,Single-ply,SBD
 3,Wesley Ortega,O,Netherlands,125.2,267.5,-282.5,-282.5,267.5,177.5,187.5,192.5,192.5,302.5,317.5,-322.5,317.5,777.5,140,M,,1987,Single-ply,SBD
@@ -90,7 +90,7 @@ DQ,Martin Tetzlaff,M1,Germany,118.8,,,,,-180,-180,-180,,,,,,,125,M,,1970,Raw,B
 1,Linda Scully,O,Ireland,71.4,,,,,67.5,-72.5,72.5,72.5,,,,,72.5,75,F,,1979,Raw,B
 1,Vladimir Nazarov,O,Ireland,79.2,,,,,-172.5,175,180,180,,,,,180,82.5,M,,1982,Multi-ply,B
 DQ,Andrey Bogatkov,O,Russia,83.8,,,,,-172.5,-172.5,-172.5,,,,,,,90,M,Андрей Богатков,1975,Multi-ply,B
-1,Maksims Selickis,O,Ireland,100,,,,,285,300,-300,300,,,,,300,100,M,,1980,Multi-ply,B
+1,Maksims Selickis,O,Ireland,100,,,,,285,-300,300,300,,,,,300,100,M,,1980,Multi-ply,B
 1,Juan Hernandez,M4,Spain,98.8,,,,,-180,180,190,190,,,,,190,100,M,,1957,Multi-ply,B
 1,Francisco Calderon,O,Spain,101.7,,,,,210,220,-230,220,,,,,220,110,M,,1984,Multi-ply,B
 1,Dennis Hasny,O,Netherlands,76,,,,,130,-135,-135,130,,,,,130,82.5,M,,1981,Single-ply,B
@@ -118,7 +118,7 @@ DQ,Andrey Bogatkov,O,Russia,81.7,,,,,-185,-185,-185,,,,,,,82.5,M,Андрей Б
 1,Mikhail Grinko,O,Russia,109.2,,,,,,,,,260,280,-300,280,280,110,M,Михаил Гринько,1978,Raw,D
 2,Johannes Kraft,O,Germany,101.2,,,,,,,,,200,217.5,225,225,225,110,M,,1979,Raw,D
 1,Mukesh Singh,O,India,112.8,,,,,,,,,230,245,250,250,250,125,M,,1978,Raw,D
-1,Carlos Garcia,M3,Spain,114.5,,,,,,,,,260,280,,280,280,125,M,,1959,Raw,D
+1,Carlos García,M3,Spain,114.5,,,,,,,,,260,280,,280,280,125,M,,1959,Raw,D
 1,Colin Robinson,M4,Great Britain,122,,,,,,,,,300,320,330,330,330,125,M,,1957,Raw,D
 1,Jaap Fahner,M3,Netherlands,126.4,,,,,,,,,280,300,,300,300,140,M,,1961,Raw,D
 1,Fiona Dowling,O,Ireland,58.2,,,,,,,,,107.5,115,120,120,120,60,F,,1985,Raw,D
@@ -128,5 +128,5 @@ DQ,Andrey Bogatkov,O,Russia,81.7,,,,,-185,-185,-185,,,,,,,82.5,M,Андрей Б
 2,Kirsten Schwade,M4,Germany,92.2,,,,,,,,,90,107.5,117.5,117.5,117.5,90+,F,,1954,Raw,D
 1,Juan Hernandez,M4,Spain,98.8,,,,,,,,,225,240,-250,240,240,100,M,,1957,Multi-ply,D
 1,Paul Murphy,M2,Great Britain,86.9,,,,,,,,,250,265,275,275,275,90,M,,1968,Single-ply,D
-1,Tony Power,M1,Great Britain,113.2,,,,,,,,,-160,160,190,190,190,110,M,,1973,Single-ply,D
-1,Dawn Morrell,M3,Great Britain,74,,,,,,,,,140,160,176,176,176,67.5,F,,1960,Single-ply,D
+1,Tony Power,M1,Great Britain,113.2,,,,,,,,,-160,160,190,190,190,125,M,,1973,Single-ply,D
+1,Dawn Morrell,M3,Great Britain,74,,,,,,,,,140,160,176,176,176,75,F,,1960,Single-ply,D
