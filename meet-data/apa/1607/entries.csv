@@ -1,0 +1,22 @@
+﻿Name,Age,Division,BodyWeightLBS,WeightClassLBS,Squat1LBS,Squat2LBS,Squat3LBS,Best3SquatLBS,Bench1LBS,Bench2LBS,Bench3LBS,Best3BenchLBS,Deadlift1LBS,Deadlift2LBS,Deadlift3LBS,Best3DeadliftLBS,Deadlift4LBS,TotalLBS,Sex,Event,Equipment
+Rebecca Jones,63,Masters 60-69,189.4,198,120,-135,-145,120,80,90,95,95,200,225,240,240,,455,F,SBD,Wraps
+Alyssa Wilson,26,Open,129.6,132,135,155,-170,155,95,105,-115,105,255,285,300,300,-315,560,F,SBD,Wraps
+Meaghan Haskell,27,Open,140.2,148,165,-180,190,190,85,-100,-115,85,185,215,225,225,,500,F,SBD,Wraps
+Robert Gooch,52,Masters 50-59,226.4,242,-405,405,-455,405,-315,-315,-315,,,,,,,DQ,M,SBD,Wraps
+Steven Jones,44,Masters 40-49,301.4,308,545,-575,575,575,295,320,-330,320,500,555,-585,555,,1450,M,SBD,Wraps
+Jarod Morey (PF),35,Submasters 33-39,180,181,425,465,480,480,300,320,,320,490,520,-550,520,,1320,M,SBD,Wraps
+Kevin Chapman,39,Submasters 33-39,173,181,300,325,-335,325,200,225,235,235,315,345,400,400,,960,M,SBD,Wraps
+Travis Keyes (M),18,Teen 18-19,168.8,181,365,375,400,400,260,-275,-275,260,475,485,500,500,510,1160,M,SBD,Wraps
+Dalton Hansen,16,Teen 16-17,162.8,165,385,425,-445,425,205,-225,-225,205,405,435,450,450,,1080,M,SBD,Wraps
+Layton Maskey,13,Teen 13-15,115.8,123,95,115,-135,115,85,95,105,105,165,185,195,195,-205,415,M,SBD,Wraps
+Ethan Burton,15,Teen 13-15,142,148,115,135,145,145,105,115,125,125,185,225,265,265,,535,M,SBD,Wraps
+Jarod Morey,35,Open,180,181,425,465,480,480,300,320,,320,490,520,-550,520,,1320,M,SBD,Wraps
+Quinton Sallin,24,Open,190.4,198,375,405,415,415,275,285,295,295,475,500,520,520,,1230,M,SBD,Wraps
+Gene Schlenker,27,Open,193.2,198,-365,390,-415,390,275,290,300,300,455,490,505,505,,1195,M,SBD,Wraps
+Jason Delosier,39,Submasters 33-39,233.4,242,,,,,205,215,230,230,365,-405,405,405,,635,M,BD,Raw
+Kole Carter,53,Masters 50-59,355,SHW,,,,,500,-540,-540,500,,,,,,500,M,B,Raw
+Ryan Maskey,36,Submasters 33-39,267.8,275,,,,,365,-385,385,385,,,,,,365,M,B,Raw
+Hunter Robert Moon,26,Open,179.8,181,,,,,-275,305,315,315,,,,,,315,M,B,Raw
+Kole Carter,53,Open,355,SHW,,,,,500,-540,-540,500,,,,,,500,M,B,Raw
+Hunter Robert Moon,26,Open,179.8,181,,,,,,,,,425,445,460,460,,460,M,D,Raw
+,,,,,,,,,,,,,,,,,,,,,
