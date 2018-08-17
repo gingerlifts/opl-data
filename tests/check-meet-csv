@@ -69,7 +69,8 @@ def pwarning(s):
 KnownFederations = {
     "365Strong",  # 365 Strong Powerlifting Federation.
     "AAP",  # Alianza Argentina Powerlifting, GPA/IPO.
-    "AAPLF",  # Australian Amateur Powerlifting Federation, defunct IPF affiliate.
+    # Australian Amateur Powerlifting Federation, defunct IPF affiliate.
+    "AAPLF",
     "AAU",  # Amateur Athletic Union.
     # American Drug-Free Powerlifting Association, precursor to USAPL.
     "ADFPA",
@@ -78,7 +79,7 @@ KnownFederations = {
     "AEP",  # Asociación Española de Powerlifting, IPF.
     "AfricanPF",  # African Powerlifting Federation, IPF.
     # All Indonesia Weightlifting, Body Building and Powerlifting Association, IPF.
-    "AIWBPA",  
+    "AIWBPA",
     "APA",
     "APC",  # American Powerlifting Committee.
     "APF",
@@ -149,7 +150,8 @@ KnownFederations = {
     "NSF",  # Norwegian branch of the IPF.
     "NZPF",  # New Zealand Powerlifting Federation, IPF.
     "OceaniaPF",  # Oceania Powerlifting Federation, IPF.
-    "OlomouckySilak",  # Olomoucký Silák, a yearly bench competition in Czechia.
+    # Olomoucký Silák, a yearly bench competition in Czechia.
+    "OlomouckySilak",
     "ParaPL",  # Para Powerlifting.
     "PA",
     "PLZS",  # Powerlifting zveza Slovenije, IPF.
@@ -168,7 +170,8 @@ KnownFederations = {
     "SCT",  # Super-Cup of Titans.
     "SPA",  # Singapore Powerlifting Alliance
     "SPF",
-    "SPSS",  # Societatem Potentis Species Sports, defunct Russian raw federation.
+    # Societatem Potentis Species Sports, defunct Russian raw federation.
+    "SPSS",
     "SSF",  # Swedish IPF Affiliate.
     "SVNL",  # Finnish IPF Affiliate.
     "THSPA",  # Texas High School, single-ply only, drug-tested.

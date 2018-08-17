@@ -122,7 +122,7 @@ def check_column_name(s, row, csv):
 
     part = s.split()
     # Need this check for Indonesian names given as just initials
-    if any(len(x.replace('.','')) > 1 for x in part):
+    if any(len(x.replace('.', '')) > 1 for x in part):
         if s.upper() == s or s.lower() == s:
             perror("Name must be in proper case: \"%s\"" % s)
         elif not part[0][0].isupper():
