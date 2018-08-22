@@ -206,7 +206,7 @@ impl MetaFederation {
                 meet.federation == Federation::RAWUKR
                     || meet.federation == Federation::UkrainePA
                     || meet.federation == Federation::UPC
-                    || meet.federation == Federation::UPF
+                    || meet.federation == Federation::UkrainePF
                     || meet.federation == Federation::WPAU 
                     || meet.federation == Federation::WPCUKR
                     || meet.federation == Federation::WPUF
