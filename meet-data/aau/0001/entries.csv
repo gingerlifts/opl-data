@@ -56,7 +56,7 @@ SBD,F,Nancy Edelson,90+,R SUB,Raw,,,67.5,,190,,257.5,1
 SBD,F,Carla Perez,,R YOUTH 10-11,Raw,55,,20,,70,80,145,1
 B,F,Briana Tinglof,30,YOUTH 9-10,Single-ply,,,22.5,,,,22.5,1
 B,F,Nicole Yokley,35,R YOUTH 10-11,Raw,,,30,30.5,,,30,1
-B,F,Lee Ann Dalling,48,OPEN,Single-ply,,,70,72.5,,,70,1
+B,F,Lee-Ann Dalling,48,OPEN,Single-ply,,,70,72.5,,,70,1
 B,F,Carmella Baqui,52,OPEN,Single-ply,,,50,,,,50,1
 B,F,Margaret Irving,56,RM 45-49,Raw,,,60,,,,60,1
 B,F,Migdalia Fernandez,60,OPEN,Single-ply,,,87.5,,,,87.5,1
@@ -104,9 +104,9 @@ SBD,M,Gary Landess,60,RL 45-49,Raw,87.5,,75,,160,,322.5,1
 SBD,M,Gary Landess,60,RM 45-49,Raw,87.5,,75,,160,,322.5,2
 SBD,M,Bill Calhoun,60,RM 45-49,Raw,115,,107.5,,145,,367.5,1
 SBD,M,Howard Millan,67.5,JUNIOR,Single-ply,182.5,,115,,240,,537.5,1
-SBD,M,Edil De Leon,67.5,LIFE,Single-ply,192.5,,117.5,,217.5,,527.5,1
+SBD,M,Edil DeLeon,67.5,LIFE,Single-ply,192.5,,117.5,,217.5,,527.5,1
 SBD,M,Scott Gallan,67.5,M 40-44,Single-ply,185,,120,,192.5,,497.5,1
-SBD,M,Tom Miller,67.5,M 55-59,Single-ply,187.5,,97.5,,212.5,215,497.5,1
+SBD,M,Tom Miller #1,67.5,M 55-59,Single-ply,187.5,,97.5,,212.5,215,497.5,1
 SBD,M,Jim Selby,67.5,M 70-74,Single-ply,62.5,,60,,100,,222.5,1
 SBD,M,Clayton Bossung,67.5,MILITARY,Single-ply,160,,125,,210,,495,1
 SBD,M,Shawn Whitehead,67.5,MILITARY,Single-ply,170,,112.5,,212.5,,495,2
@@ -124,13 +124,13 @@ SBD,M,Greg Welsh,67.5,RLM 55-59,Raw,102.5,,90,,125,,317.5,1
 SBD,M,Ray Houle,67.5,RM 40-44,Raw,182.5,,120,,202.5,,505,1
 SBD,M,Greg Welsh,67.5,RM 55-59,Raw,102.5,,90,,125,,317.5,1
 SBD,M,Israel Orais,67.5,SUB,Single-ply,200,,135,,220,,555,1
-SBD,M,Chris Mc Grail,75,JUNIOR,Single-ply,,,,,,,,DQ
+SBD,M,Chris McGrail,75,JUNIOR,Single-ply,,,,,,,,DQ
 SBD,M,Adam Ramos,75,JUNIOR,Single-ply,185,,137.5,,215,,537.5,1
 SBD,M,Bill Weinstock,75,LM 50-54,Single-ply,182.5,,95,,205,,482.5,1
 SBD,M,Bill Weinstock,75,M 50-54,Single-ply,182.5,,95,,205,,482.5,1
 SBD,M,Martin Garry,75,M 70-74,Single-ply,,,,,,,,DQ
 SBD,M,Mark Green,75,MILITARY,Single-ply,212.5,,145,,202.5,,560,1
-SBD,M,Chris Mc Grail,75,MILITARY,Single-ply,,,,,,,,DQ
+SBD,M,Chris McGrail,75,MILITARY,Single-ply,,,,,,,,DQ
 SBD,M,Robert Wright,75,MILITARY,Single-ply,,,,,,,,DQ
 SBD,M,Mark Green,75,OPEN,Single-ply,212.5,,145,,202.5,,560,1
 SBD,M,Tom Lipke,75,OPEN,Single-ply,,,,,,,,DQ
@@ -166,7 +166,7 @@ SBD,M,Mike Teuchert,82.5,RM 45-49,Raw,,,,,,,,DQ
 SBD,M,Jason Granger,82.5,RT 16-17,Raw,152.5,,97.5,,215,216.5,465,1
 SBD,M,Nate Roten,82.5,RT 18-19,Raw,185,,135,,220,,540,1
 SBD,M,Tanner Teel,82.5,RT 18-19,Raw,160,,92.5,,197.5,,450,2
-SBD,M,Jj Talton,82.5,TEEN 16-17,Single-ply,230,,180,,227.5,,637.5,1
+SBD,M,JJ Talton,82.5,TEEN 16-17,Single-ply,230,,180,,227.5,,637.5,1
 SBD,M,Terry Edwards,90,LIFE,Single-ply,227.5,,155,,225,,607.5,2
 SBD,M,Jason Golec,90,LIFE,Single-ply,260,,172.5,,235,,667.5,1
 SBD,M,Martin Drake,90,LM 45,Single-ply,155,158,137.5,,202.5,,495,1
@@ -202,7 +202,7 @@ SBD,M,John Johnson,90,RT 18-19,Raw,197.5,,147.5,150,257.5,265,602.5,1
 SBD,M,John Durso,100,LM 40-44,Single-ply,297.5,297.5,182.5,,292.5,302.5,772.5,1
 SBD,M,John Durso,100,M 40-44,Single-ply,297.5,297.5,182.5,,292.5,302.5,772.5,1
 SBD,M,Kevin Fisher,100,M 45-49,Single-ply,267.5,,167.5,,305,,740,1
-SBD,M,Bob Evans,100,M 50-54,Single-ply,220,,167.5,,227.5,,615,1
+SBD,M,Bob Evans #1,100,M 50-54,Single-ply,220,,167.5,,227.5,,615,1
 SBD,M,Denny Taylor,100,M 60-64,Single-ply,242.5,,137.5,,205,,585,1
 SBD,M,Tony Falbo,100,OPEN,Single-ply,,,175,,,,175,2
 SBD,M,Joe Jimenez,100,OPEN,Single-ply,,,,,,,,DQ
@@ -284,7 +284,7 @@ B,M,Bobby Short,67.5,RT 14-15,Raw,,,107.5,,,,107.5,1
 B,M,Erin Beach,67.5,RT 16-17,Raw,,,77.5,,,,77.5,3
 B,M,Daniel Galeano,67.5,RT 16-17,Raw,,,92.5,,,,92.5,2
 B,M,Roland Rodriquez,67.5,RT 16-17,Raw,,,102.5,,,,102.5,1
-B,M,Ricky Crain,75,M 45-49,Single-ply,,,,,,,,DQ
+B,M,Rickey Dale Crain,75,M 45-49,Single-ply,,,,,,,,DQ
 B,M,Robert Herbst,75,R OPEN,Raw,,,140,,,,140,1
 B,M,Robert Herbst,75,RL 40-44,Raw,,,140,,,,140,1
 B,M,Norberto Santana,75,RM 70-74,Raw,,,100,,,,100,1
@@ -331,8 +331,8 @@ B,M,Chris Rottenburg,100,PHYS JR,Single-ply,,,,,,,,DQ
 B,M,Chris Walker,100,PHYS OPEN,Single-ply,,,160,,,,160,1
 B,M,Greg Panora,100,R JUNIOR,Raw,,,192.5,,,,192.5,1
 B,M,Todd Campo,100,R MIL/LAW,Raw,,,160,,,,160,1
-B,M,J G Allen,100,R OPEN,Raw,,,192.5,,,,192.5,1
-B,M,J G Allen,100,RM 45-49,Raw,,,192.5,,,,192.5,1
+B,M,Jg Allen,100,R OPEN,Raw,,,192.5,,,,192.5,1
+B,M,Jg Allen,100,RM 45-49,Raw,,,192.5,,,,192.5,1
 B,M,Todd Campo,100,RM 45-49,Raw,,,160,,,,160,2
 B,M,Justin Neal,100,RT 18-19,Raw,,,187.5,,,,187.5,1
 B,M,Art Jones,110,OPEN,Single-ply,,,,,,,,DQ
@@ -347,7 +347,7 @@ B,M,Eugene Abernathy,110,RM 50-54,Raw,,,152.5,,,,152.5,1
 B,M,Rocky Indivino,110,RM 55-59,Raw,,,170,,,,170,1
 B,M,Herb Brandt,110,RM75-79,Raw,,,100,,,,100,1
 B,M,Charles Milligan,125,M 45-49,Single-ply,,,150,,,,150,1
-B,M,John Mc Intyre,125,M 65-69,Single-ply,,,177.5,,,,177.5,1
+B,M,John McIntyre,125,M 65-69,Single-ply,,,177.5,,,,177.5,1
 B,M,Jason Stordahl,125,R JUNIOR,Raw,,,157.5,160,,,157.5,1
 B,M,Jeff Fahrenbruch,125,R OPEN,Raw,,,175,,,,175,1
 B,M,Tom Dorsey,125,RLM 50-54,Raw,,,,,,,,DQ
@@ -362,7 +362,7 @@ B,M,Jerry Watt,145+,M 40-44,Single-ply,,,,,,,,DQ
 B,M,Richard Schoenburger,145+,OPEN,Single-ply,,,260,,,,260,1
 B,M,Wayne Andrews,145+,R LIFE,Raw,,,132.5,,,,132.5,1
 B,M,Tim Planck,145+,R OPEN,Raw,,,197.5,,,,197.5,1
-B,M,Daniel Faasamala,145+,R SUB,Raw,,,227.5,235,,,227.5,1
+B,M,Daniel Fa'asamala,145+,R SUB,Raw,,,227.5,235,,,227.5,1
 B,M,Wayne Andrews,145+,LAW,Raw,,,132.5,,,,132.5,1
 B,M,Richard Schoenburger,145+,OPEN,Raw,,,260,,,,260,1
 B,M,Wayne Andrews,145+,RLM 50-54,Raw,,,132.5,,,,132.5,1
@@ -372,7 +372,7 @@ D,M,Keoki Akina,35,R YOUTH 10-11,Raw,,,,,80,82.5,80,1
 D,M,Gary Landess,60,RL 45-49,Raw,,,,,160,,160,1
 D,M,Gary Landess,60,RM 45-49,Raw,,,,,160,,160,1
 D,M,Bill Calhoun,60,RM 45-49,Raw,,,,,145,,145,2
-D,M,Tom Miller,67.5,M 55-59,Single-ply,,,,,212.5,215,212.5,1
+D,M,Tom Miller #1,67.5,M 55-59,Single-ply,,,,,212.5,215,212.5,1
 D,M,Jim Selby,67.5,M 70-74,Single-ply,,,,,100,,100,1
 D,M,Israel Orais,67.5,OPEN,Single-ply,,,,,220,,220,1
 D,M,Howard Millan,67.5,R JUNIOR,Raw,,,,,240,,240,1
@@ -380,8 +380,8 @@ D,M,Howard Millan,67.5,R OPEN,Raw,,,,,240,,240,1
 D,M,Josh Gonzalez,67.5,R YOUTH 12-13,Raw,,,,,170,,170,1
 D,M,Mac Scott,67.5,RLM 45-49,Raw,,,,,130,,130,1
 D,M,Alex Martinez,67.5,RM 40-44,Raw,,,,,,,,DQ
-D,M,Chris Mc Grail,75,JUNIOR,Single-ply,,,,,210,,210,1
-D,M,Chris Mc Grail,75,MILITARY,Single-ply,,,,,210,,210,1
+D,M,Chris McGrail,75,JUNIOR,Single-ply,,,,,210,,210,1
+D,M,Chris McGrail,75,MILITARY,Single-ply,,,,,210,,210,1
 D,M,Robert Herbst,75,R OPEN,Raw,,,,,187.5,,187.5,1
 D,M,Robert Herbst,75,RL 40-44,Raw,,,,,187.5,,187.5,1
 D,M,Bill Croft,75,SUB,Single-ply,,,,,,,262.5,1
@@ -405,7 +405,7 @@ D,M,Gene Luektmeyer,90,RM 50-54,Raw,,,,,,,,DQ
 D,M,Gene Luektmeyer,90,RM 50-54,Raw,,,,,,,,DQ
 D,M,Austin Demello,90,RM 70-74,Raw,,,,,155,,155,1
 D,M,Kevin Fisher,100,M 45-49,Single-ply,,,,,305,,305,1
-D,M,Bob Evans,100,M 50-54,Single-ply,,,,,227.5,,227.5,1
+D,M,Bob Evans #1,100,M 50-54,Single-ply,,,,,227.5,,227.5,1
 D,M,Greg Panora,100,R JUNIOR,Raw,,,,,295,,295,1
 D,M,Russell Yee,100,R JUNIOR,Raw,,,,,297.5,,297.5,1
 D,M,Harold Millan,100,R OPEN,Raw,,,,,290,,290,1

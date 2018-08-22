@@ -75,16 +75,16 @@ B,M,Gerald Homer,100,M 60-64,Single-ply,62,167.5,,,,167.5,1
 B,M,Arnold Narenberg,100,M 60-64,Single-ply,60,,,,,,DQ
 B,M,Matt Saunders,100,OPEN,Single-ply,,,,,,,DQ
 B,M,Lee Short,100,R LAW,Raw,40,122.5,,,,122.5,1
-B,M,J. G. Allen,100,R LIFE,Raw,47,,,,,,DQ
+B,M,Jg Allen,100,R LIFE,Raw,47,,,,,,DQ
 B,M,Joseph George,100,RLM 50-54,Raw,53,105,,,,105,1
 B,M,John Gilmour,100,RLM 75-59,Raw,79,95,,,,95,1
-B,M,J. G. Allen,100,RM 45-49,Raw,47,,,,,,DQ
+B,M,Jg Allen,100,RM 45-49,Raw,47,,,,,,DQ
 B,M,Malvin Stewart,100,RM 60-64,Raw,60,160,,,,160,1
 B,M,Mo Rau,100,RM 60-64,Raw,63,110,,,,110,2
 B,M,Gerald Fontaine,100,RM 65-69,Raw,69,120,,,,120,1
 B,M,Al Pio,100,RM 70-74,Raw,71,170,,,,170,1
 B,M,John Gilmour,100,RM 75-79,Raw,79,95,,,,95,1
-B,M,Bob Mc Intyre,100,SUBMASTERS,Single-ply,37,,,,,,DQ
+B,M,Bob McIntyre,100,SUBMASTERS,Single-ply,37,,,,,,DQ
 B,M,Bob Dunham,110,LIFE,Single-ply,,,,,,,DQ
 B,M,Eric Shimomi,110,M 40-44,Single-ply,41,152.5,,,,152.5,1
 B,M,Richard Susman,110,M 45-49,Single-ply,45,137.5,,,,137.5,1
@@ -103,7 +103,7 @@ B,M,Neil Ferone,125,RLM 40-44,Raw,43,177.5,,,,177.5,1
 B,M,Neil Ferone,125,RM 40-44,Raw,43,177.5,,,,177.5,1
 B,M,Jeff Fahrenbruch,125,RM 45-49,Raw,48,182.5,,,,182.5,1
 B,M,William Kanyr,125,RM 60-64,Raw,63,142.5,,,,142.5,1
-B,M,John Mc Intyre,145,M 65-69,Raw,66,175,,,,175,1
+B,M,John McIntyre,145,M 65-69,Raw,66,175,,,,175,1
 B,M,Mario Arrendondo,145,R LAW,Raw,25,190,,,,190,1
 B,M,Mario Arrendondo,145,R OPEN,Raw,25,190,,,,190,1
 B,M,Mike Earl,145,RLM 40-44,Raw,42,162.5,,,,162.5,1
@@ -114,14 +114,14 @@ D,M,Alex Martinez,67.5,M 40-44,Single-ply,42,,,240,,,DQ
 D,M,Jim Selby,67.5,M 70-74,Single-ply,73,,,102.5,,102.5,1
 D,M,Israel Orais,67.5,OPEN,Single-ply,40,,,210,,210,1
 D,M,Jim Selby,67.5,RLM 70-74,Raw,73,,,102.5,,102.5,1
-D,M,Chris Mc Grail,75,JR,Single-ply,22,,,202.5,,202.5,1
+D,M,Chris McGrail,75,JR,Single-ply,22,,,202.5,,202.5,1
 D,M,William Croft,75,LFETIME,Single-ply,35,,,257.5,,257.5,1
 D,M,Ron Scott,75,LM 50-54,Single-ply,53,,,,,,DQ
 D,M,Ron Scott,75,M 50-54,Single-ply,53,,,,,,DQ
 D,M,Mel Waldrop,75,M 50-54,Single-ply,52,,,,,,DQ
-D,M,Chris Mc Grail,75,MIL/LAW,Single-ply,22,,,202.5,,202.5,1
+D,M,Chris McGrail,75,MIL/LAW,Single-ply,22,,,202.5,,202.5,1
 D,M,William Croft,75,OPEN,Single-ply,35,,,257.5,,257.5,1
-D,M,Chris Mc Grail,75,OPEN,Single-ply,22,,,202.5,,202.5,2
+D,M,Chris McGrail,75,OPEN,Single-ply,22,,,202.5,,202.5,2
 D,M,Robert Stephan,75,RM 80-84,Raw,80,,,155,,155,1
 D,M,William Croft,75,SUBMASTERS,Single-ply,35,,,257.5,,257.5,1
 D,M,Timothy Kinney,82.5,LIFE,Single-ply,38,,,,,,DQ
@@ -165,7 +165,7 @@ BD,M,Brett Berteaux,67.5,RT 14-15,Raw,,70,,150,,220,1
 BD,M,Bill Weinstock,75,LM 55-59,Single-ply,55,87.5,,207.5,,295,1
 BD,M,Roger Merrell,75,M 75-79,Single-ply,82,35,,80,,115,1
 BD,M,Mugerwa Sadiki,75,R JR,Raw,23,,,,,,DQ
-BD,M,Miguel Perez,75,RH 16-17,Raw,17,100,,140,,240,1
+BD,M,Miguel Pérez,75,RH 16-17,Raw,17,100,,140,,240,1
 BD,M,Jim Naftel,75,RLM 55-59,Raw,59,70,,95,,165,1
 BD,M,Jim Naftel,75,RM 55-59,Raw,59,70,,95,,165,1
 BD,M,Jake Randleigh,75,RT 14-15,Raw,,107.5,108,145,,252.5,1
@@ -178,7 +178,7 @@ BD,M,Mario Galeano,82.5,RH 16-17,Raw,17,107.5,,142.5,,250,1
 BD,M,Michael Ross,82.5,RH 16-17,Raw,17,90,,142.5,,232.5,2
 BD,M,Jonathan Uriarte,82.5,RH 16-17,Raw,16,82.5,,132.5,,215,3
 BD,M,Richard Simon,82.5,RM 70-74,Raw,70,102.5,,125,145,227.5,1
-BD,M,J J Talton,82.5,T 18-19,Single-ply,18,185,187.5,280,,465,1
+BD,M,JJ Talton,82.5,T 18-19,Single-ply,18,185,187.5,280,,465,1
 BD,M,Chris Meier,90,LIFE,Single-ply,,192.5,,280,,472.5,1
 BD,M,Bill Styles,90,M 40-44,Single-ply,41,120,,192.5,,312.5,1
 BD,M,Rocky Gingg,90,M 45-49,Single-ply,47,,,,,,DQ
@@ -194,7 +194,7 @@ BD,M,Bob Strange,90,RLM 60-64,Raw,64,137.5,,240,,377.5,1
 BD,M,Rex Monohan,90,RLM 75-59,Raw,77,65,,142.5,,207.5,1
 BD,M,Tom Smith,90,RM 55-59,Raw,55,117.5,,245,,362.5,1
 BD,M,Dan Miesenbaugh,90,RT 18-19,Raw,,92.5,,177.5,,270,1
-BD,M,Jim Defoor,100,M 50-54,Single-ply,53,192.5,,277.5,,470,1
+BD,M,Jim DeFoor,100,M 50-54,Single-ply,53,192.5,,277.5,,470,1
 BD,M,John Peru,100,OPEN,Single-ply,29,200,,260,,460,1
 BD,M,Shawn Watson,100,OPEN,Single-ply,26,157.5,,237.5,,395,2
 BD,M,Steve Hendricks,100,R JR,Raw,,155,,227.5,,382.5,1
@@ -223,7 +223,7 @@ BD,M,Gene Abernathy,110,RLM 55-59,Raw,55,157.5,,232.5,,390,1
 BD,M,Thomas Schade,110,RM 40-44,Raw,41,192.5,,272.5,,465,1
 BD,M,Jerry Pritchett,125,JR,Single-ply,20,192.5,,307.5,,500,1
 BD,M,Dan Smith,125,LM 40-44,Single-ply,43,190,,205,,395,1
-BD,M,Chuck Mc Guire,125,M 40-44,Single-ply,41,,,,,,DQ
+BD,M,Chuck McGuire,125,M 40-44,Single-ply,41,,,,,,DQ
 BD,M,Patrick Holloway,125,OPEN,Single-ply,34,225,,322.5,,547.5,1
 BD,M,Jerry Pritchett,125,OPEN,Single-ply,20,192.5,,307.5,,500,2
 BD,M,Robert Speno,125,OPEN,Single-ply,32,205,,280,,485,3
