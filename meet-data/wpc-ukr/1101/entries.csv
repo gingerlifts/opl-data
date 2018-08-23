@@ -9,7 +9,7 @@ Place,Name,Division,BirthYear,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Be
 2,Tetyana Balashova,O,1975,Ukraine,67.5,47.5,52.5,-55,52.5,67.5,F,Тетяна Балашова,Raw,B,52.5
 1,Olga Grushevska,J,1989,Ukraine,72.8,42.5,45,-50,45,75,F,Ольга Грушевська,Raw,B,45
 1,Anna Kurkurina,O,1966,Ukraine,72.8,117.5,125,-127.5,125,75,F,Анна Куркуріна,Raw,B,125
-2,Iryna Zhelyazkova,O,1984,Ukraine,69.5,40,45,47.5,47.5,75,F,Iрина Желязкова,Raw,B,47.5
+2,Iryna Zhelyazkova,O,1984,Ukraine,69.5,40,45,47.5,47.5,75,F,Ірина Желязкова,Raw,B,47.5
 1,Tetyana Ovsiyenko,O,1975,Ukraine,82.5,55,57.5,-60,57.5,82.5,F,Тетяна Овсієнко,Raw,B,57.5
 1,Yuliya Petrovska,J,1990,Ukraine,90,50,55,-60,55,90,F,Юлія Петровська,Raw,B,55
 1,Viktor Bobchenko,T1,2003,Ukraine,43.2,25,30,32.5,32.5,52,M,Віктор Бобченко,Raw,B,32.5
@@ -37,7 +37,7 @@ Place,Name,Division,BirthYear,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Be
 4,Yegor Mogilda,T2,1993,Ukraine,72,70,75,-80,75,75,M,Єгор Могільда,Raw,B,75
 1,Ibraim Muratov,T3,1991,Ukraine,75,135,140,145,145,75,M,Ібраім Муратов,Raw,B,145
 2,Vasyl' Dubinin,T3,1991,Ukraine,74.9,120,130,135,135,75,M,Василь Дубінін,Raw,B,135
-3,Aleksandr Miroshnichenko,T3,1992,Ukraine,71.9,120,125,-130,125,75,M,Олександр Мірошниченко,Raw,B,125
+3,Aleksandr Miroshnichenko,T3,1992,Ukraine,71.9,120,125,-130,125,75,M,Александр Мирошниченко,Raw,B,125
 4,Kostyantyn Ivashyn,T3,1993,Ukraine,72.8,90,-95,100,100,75,M,Костянтин Івашин,Raw,B,100
 1,Anton Sadchenko,J,1989,Ukraine,69,-130,135,140,140,75,M,Антон Садченко,Raw,B,140
 2,Andriy Maslyak,J,1990,Ukraine,75,125,130,135,135,75,M,Андрій Масляк,Raw,B,135
@@ -63,7 +63,7 @@ Place,Name,Division,BirthYear,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Be
 2,Yevgen Chernenko,O,1974,Ukraine,80.5,150,155,160,160,82.5,M,Євген Черненко,Raw,B,160
 1,Oleksandr Markhotko,T2,1994,Ukraine,89,130,135,140,140,90,M,Олександр Мархотко,Raw,B,140
 2,Andriy Skulskyy,T2,1994,Ukraine,86.1,110,115,120,120,90,M,Андрій Скульський,Raw,B,120
-3,Aleksandr Asmolov,T2,1994,Ukraine,84.2,82.5,87.5,92.5,92.5,90,M,Олександр Асмолов,Raw,B,92.5
+3,Aleksandr Asmolov,T2,1994,Ukraine,84.2,82.5,87.5,92.5,92.5,90,M,Александр Асмолов,Raw,B,92.5
 1,Yevgen Spesivov,T3,1993,Ukraine,89.9,150,155,-157.5,155,90,M,Євген Спесивов,Raw,B,155
 2,Stanislav Mulik,T3,1991,Ukraine,87.4,125,130,-135,130,90,M,Станіслав Мулік,Raw,B,130
 3,Pavlo Lotash,T3,1992,Ukraine,88.6,125,130,-135,130,90,M,Павло Лоташ,Raw,B,130
@@ -87,7 +87,7 @@ Place,Name,Division,BirthYear,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Be
 3,Kostyantyn Tarasyk,O,1971,Ukraine,99.6,140,-145,145,145,100,M,Костянтин Тарасик,Raw,B,145
 4,Andriy Derevyagin,O,1978,Ukraine,90.9,130,140,-150,140,100,M,Андрій Деревягин,Raw,B,140
 1,Viktor Babenko,M2,1963,Ukraine,94.9,150,160,-165,160,100,M,Віктор Бабенко,Raw,B,160
-2,Volodymyr Chygyryns'kyy,M2,1962,Ukraine,95.9,130,140,150,150,100,M,Володимир Чигиринський,Raw,B,150
+2,Volodymyr Chygyrynskyy,M2,1962,Ukraine,95.9,130,140,150,150,100,M,Володимир Чигиринський,Raw,B,150
 1,Yevgen Moiseev,T3,1991,Ukraine,101.3,160,167.5,170,170,110,M,Євген Моїсеєв,Raw,B,170
 2,Stepan Makaryshkin,T3,1991,Ukraine,102.1,140,-145,-145,140,110,M,Степан Макаришкін,Raw,B,140
 1,Oleksiy Syzonenko,J,1988,Ukraine,109.8,-180,180,202.5,202.5,110,M,Олексій Сизоненко,Raw,B,202.5
@@ -130,7 +130,7 @@ DQ,Roman Sagaydak,O,1983,Ukraine,74,-200,-200,-210,,75,M,Роман Сагайд
 1,Volodymyr Zhilin,J,1988,Ukraine,89.5,240,-250,260,260,90,M,Володимир Жилін,Single-ply,B,260
 2,Sergiy Paliyenko,J,1987,Ukraine,87.9,130,135,140,140,90,M,Сергій Палієнко,Single-ply,B,140
 3,Anatoliy Sirkov,J,1991,Ukraine,82.9,130,137.5,-142.5,137.5,90,M,Анатолій Сирков,Single-ply,B,137.5
-1,Oleg Bazilevych,O,1982,Ukraine,89.9,310,322.5,-330,322.5,90,M,Олег Базiлевич,Single-ply,B,322.5
+1,Oleg Bazilevich,O,1982,Ukraine,89.9,310,322.5,-330,322.5,90,M,Олег Базилевич,Single-ply,B,322.5
 2,Volodymyr Starchenko,O,1975,Ukraine,89.8,225,232.5,-235,232.5,90,M,Володимир Старченко,Single-ply,B,232.5
 1,Elman Gadzhiev,M3,1959,Ukraine,87.7,180,190,200,200,90,M,Ельман Гаджієв,Single-ply,B,200
 1,Mykola Sergeev,T3,1991,Ukraine,95.2,-260,265,275,275,100,M,Микола Сергєєв,Single-ply,B,275
