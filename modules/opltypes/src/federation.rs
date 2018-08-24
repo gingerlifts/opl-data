@@ -237,6 +237,10 @@ pub enum Federation {
     #[strum(to_string = "GPC-RUS", serialize = "gpc-rus")]
     GPCRUS,
 
+    // Global Powerlifting Federation
+    #[strum(to_string = "GPF", serialize = "gpf")]
+    GPF,
+
     /// German Powerlifting Union, WPU.
     #[strum(to_string = "GPU", serialize = "gpu")]
     GPU,
@@ -520,8 +524,14 @@ pub enum Federation {
     /// World Powerlifting Committee.
     #[strum(to_string = "WPC", serialize = "wpc")]
     WPC,
+<<<<<<< HEAD
 
     /// German WPC affiliate.
+=======
+    #[serde(rename = "WPC-Finland")]
+    #[strum(to_string = "WPC-Finland", serialize = "wpc-finland")]
+    WPCFinland,
+>>>>>>> More missing meets and list cleanup.
     #[serde(rename = "WPC-Germany")]
     #[strum(to_string = "WPC-Germany", serialize = "wpc-germany")]
     WPCGermany,
