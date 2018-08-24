@@ -138,6 +138,8 @@ pub enum Federation {
     #[serde(rename = "GPC-RUS")]
     #[strum(to_string = "GPC-RUS", serialize = "gpc-rus")]
     GPCRUS,
+    #[strum(to_string = "GPF", serialize = "gpf")]
+    GPF,
     #[strum(to_string = "GPU", serialize = "gpu")]
     GPU,
     #[strum(to_string = "Hardcore", serialize = "hardcore")]
@@ -277,6 +279,9 @@ pub enum Federation {
     WPAU,
     #[strum(to_string = "WPC", serialize = "wpc")]
     WPC,
+    #[serde(rename = "WPC-Finland")]
+    #[strum(to_string = "WPC-Finland", serialize = "wpc-finland")]
+    WPCFinland,
     #[serde(rename = "WPC-Germany")]
     #[strum(to_string = "WPC-Germany", serialize = "wpc-germany")]
     WPCGermany,

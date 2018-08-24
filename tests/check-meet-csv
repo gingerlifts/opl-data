@@ -124,6 +124,7 @@ KnownFederations = {
     "GPC-IRL",  # Irish branch of the GPC.
     "GPC-NZ",  # New Zealand branch of the GPC.
     "GPC-RUS",  # Russian branch of the GPC.
+    "GPF",  # Global Powerlifting Federation.
     "GPU",  # German Powerlifting Union (WPU).
     "Hardcore",   # Defunct standalone US federation
     "HERC",  # Hercules Gym in Syracuse, NY. Run by Rheta West.
@@ -194,6 +195,7 @@ KnownFederations = {
     "WPA-RUS",  # World Powerlifting Alliance Russia
     "WPAU",  # World Powerlifting Alliance Ukraine.
     "WPC",
+    "WPC-Finland",
     "WPC-Germany",
     "WPC-Portugal",
     "WPC-RUS",
