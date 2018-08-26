@@ -295,6 +295,9 @@ pub enum Federation {
     #[strum(to_string = "IrishPO", serialize = "irishpo")]
     IrishPO,
 
+    /// International RAW Powerlifting
+    #[strum(to_string = "IRP", serialize = "irp")]
+    IRP,
     /// Japan Powerlifting Federation, IPF.
     #[strum(to_string = "JPA", serialize = "jpa")]
     JPA,

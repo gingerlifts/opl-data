@@ -19,7 +19,7 @@ Place,Name,Division,BirthYear,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Be
 4,Kanstantin Kaparykha,Juniors,,Belarus,74.6,92.5,97.5,-102.5,97.5,75,M,,,,,,,,,B,97.5,Raw
 1,Rosario Fazio,Open,,Germany,70,170,177.5,180,180,75,M,,,,,,,,,B,180,Raw
 2,Rifat Cayirli,Open,1985,Turkey,74.3,150,-160,160,160,75,M,,,,,,,,,B,160,Raw
-3,Michal Kozak,Open,1987,Slovakia,72.4,132.5,137.5,145,145,75,M,,,,,,,,,B,145,Raw
+3,Michal Kozák,Open,1987,Slovakia,72.4,132.5,137.5,145,145,75,M,,,,,,,,,B,145,Raw
 4,Mickael Dumann,Open,,Germany,74.7,130,140,-147.5,140,75,M,,,,,,,,,B,140,Raw
 1,Jorg Pilar,Masters 1,,Germany,74.8,137.5,142.5,145,145,75,M,,,,,,,,,B,145,Raw
 2,Rainer Falke,Masters 1,1965,Germany,60.4,112.5,117.5,122.5,122.5,75,M,,,,,,,,,B,122.5,Raw
@@ -78,7 +78,7 @@ DQ,Barbaras Serdar Boran,Open,,Turkey,94.4,-180,-180,-187.5,,95,M,,,,,,,,,B,,Raw
 2,Lars Jenjahn,Juniors,1989,Germany,100.9,177.5,182.5,187.5,187.5,115,M,,,,,,,,,B,187.5,Raw
 3,Jan Fleckenstein,Juniors,1992,Germany,101.5,172.5,177.5,182.5,182.5,115,M,,,,,,,,,B,182.5,Raw
 4,Christophe Crettenand,Juniors,1992,Switzerland,99.3,170,175,-180,175,115,M,,,,,,,,,B,175,Raw
-5,Tomas Daniel,Juniors,,Czechia,100.5,155,162.5,170,170,115,M,,,,,,,,,B,170,Raw
+5,Tomáš Daniel,Juniors,,Czechia,100.5,155,162.5,170,170,115,M,,,,,,,,,B,170,Raw
 6,Christopher Eibl,Juniors,1990,Austria,113.7,155,165,-172.5,165,115,M,,,,,,,,,B,165,Raw
 7,Przemyslaw Wierzbicki,Juniors,1991,Poland,109.2,140,150,-160,150,115,M,,,,,,,,,B,150,Raw
 1,Andre Lepies,Open,1979,Germany,106,250,270,-275,270,115,M,,,,,,,,,B,270,Raw
@@ -138,7 +138,7 @@ DQ,Barbaras Serdar Boran,Open,,Turkey,94.4,-180,-180,-187.5,,95,M,,,,,,,,,B,,Raw
 2,Moritz Thelocka,Juniors,,Germany,68.5,,,,,75,M,145,155,-162.5,155,,,,,S,155,Raw
 4,Malik Uzair,Juniors,,Pakistan,71,,,,,75,M,130,-140,150,150,,,,,S,150,Raw
 5,Kanstantin Kaparykha,Juniors,,Belarus,74.6,,,,,75,M,120,125,130,130,,,,,S,130,Raw
-2,Michal Kozak,Open,1987,Slovakia,72.4,,,,,75,M,147.5,-160,167.5,167.5,,,,,S,167.5,Raw
+2,Michal Kozák,Open,1987,Slovakia,72.4,,,,,75,M,147.5,-160,167.5,167.5,,,,,S,167.5,Raw
 1,Sebastian Kienast,Open,1981,Germany,73,,,,,75,M,130,155,-170,155,,,,,S,155,Raw
 3,Mickael Dumann,Open,,Germany,74.7,,,,,75,M,130,155,-170,155,,,,,S,155,Raw
 1,Burkhard Steffen,Masters 3,1950,Germany,72.5,,,,,75,M,155,162.5,170,170,,,,,S,170,Raw
@@ -189,7 +189,7 @@ DQ,Václav Mareš,Masters 1,1968,Czechia,104.4,,,,,115,M,-200,-200,-220,,,,,,S,,
 4,Benjamin Hoffmann,Juniors,,Germany,66.5,,,,,75,M,,,,,175,190,195,195,D,195,Raw
 5,Kanstantin Kaparykha,Juniors,,Belarus,74.6,,,,,75,M,,,,,-165,175,185,185,D,185,Raw
 1,Sebastian Kienast,Open,1981,Germany,73,,,,,75,M,,,,,210,217.5,220,220,D,220,Raw
-2,Michal Kozak,Open,1987,Slovakia,72.4,,,,,75,M,,,,,195,207.5,217.5,217.5,D,217.5,Raw
+2,Michal Kozák,Open,1987,Slovakia,72.4,,,,,75,M,,,,,195,207.5,217.5,217.5,D,217.5,Raw
 3,Mickael Dumann,Open,,Germany,74.7,,,,,75,M,,,,,190,205,-220,205,D,205,Raw
 4,Stefan Faust,Open,,Germany,70.5,,,,,75,M,,,,,175,-185,-185,175,D,175,Raw
 1,Oleg Zdorenko,Masters 1,1968,Germany,63.5,,,,,75,M,,,,,190,200,212.5,212.5,D,212.5,Raw

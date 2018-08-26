@@ -9,6 +9,7 @@
   <option value="ibsa" {% if selection.federation == "IBSA" %}selected{% endif %}>IBSA - International Blind Sports Association</option>
   <option value="ipf" {% if selection.federation == "IPF" %}selected{% endif %}>IPF - International Powerlifting Federation</option>
   <option value="ipl" {% if selection.federation == "IPL" %}selected{% endif %}>IPL - International Powerlifting League</option>
+  <option value="irp" {% if selection.federation == "IRP" %}selected{% endif %}>IRP - International RAW Powerlifting</option>
   <option value="parapl" {% if selection.federation == "ParaPL" %}selected{% endif %}>ParaPL - Para Powerlifting</option>
   <option value="wabdl" {% if selection.federation == "WABDL" %}selected{% endif %}>WABDL - World Association of Bench Pressers and Deadlifters</option>
   <option value="wdfpf" {% if selection.federation == "WDFPF" %}selected{% endif %}>WDFPF - World Drug-Free Powerlifting Federation</option>
