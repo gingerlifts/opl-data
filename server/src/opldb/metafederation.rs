@@ -35,6 +35,8 @@ pub enum MetaFederation {
     AllIreland,
     #[strum(to_string = "all-israel")]
     AllIsrael,
+    #[strum(to_string = "all-newzealand")]
+    AllNewZealand,
     #[strum(to_string = "all-russia")]
     AllRussia,
     #[strum(to_string = "all-uk")]
@@ -158,7 +160,9 @@ impl MetaFederation {
                     || meet.federation == Federation::OlomouckySilak
             }
             MetaFederation::AllFinland => {
-                meet.federation == Federation::FPO || meet.federation == Federation::SVNL
+                meet.federation == Federation::FPO 
+                    || meet.federation == Federation::SVNL
+                    || meet.federation == Federation::WPCFinland
             }
             MetaFederation::AllGermany => {
                 meet.federation == Federation::BVDK 
@@ -174,6 +178,9 @@ impl MetaFederation {
             }
             MetaFederation::AllIsrael => {
                 meet.federation == Federation::IPC || meet.federation == Federation::NPA
+            }
+            MetaFederation::AllNewZealand => {
+                meet.federation == Federation::GPCNZ || meet.federation == Federation::NZPF
             }
             MetaFederation::AllRussia => {
                 meet.federation == Federation::BB
