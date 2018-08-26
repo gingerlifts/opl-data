@@ -164,6 +164,8 @@ pub enum Federation {
     IrishPF,
     #[strum(to_string = "IrishPO", serialize = "irishpo")]
     IrishPO,
+    #[strum(to_string = "IRP", serialize = "irp")]
+    IRP,
     #[strum(to_string = "JPA", serialize = "jpa")]
     JPA,
     #[strum(to_string = "KRAFT", serialize = "kraft")]
