@@ -104,18 +104,19 @@ def getmeetlist_sporty_partial(html, code):
     return urls
 
 # Probe for the Central Districts site
+
+
 def getmeetlist_cd(html):
     soup = BeautifulSoup(html, 'html.parser')
     div = soup.find("div", {"id": "post-694"})
     urls = []
 
     for a in div.find_all('a'):
-    	url = a['href']
-    	if url not in urls:
-    		urls.append(url)
+        url = a['href']
+        if url not in urls:
+            urls.append(url)
 
     return urls
-
 
 
 def main():
