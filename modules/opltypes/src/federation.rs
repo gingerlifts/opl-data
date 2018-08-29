@@ -113,6 +113,9 @@ pub enum Federation {
     #[strum(to_string = "BPC", serialize = "bpc")]
     BPC,
 
+    #[strum(to_string = "BPF", serialize = "bpf")]
+    BPF,
+
     /// British Powerlifting Organization, WPF.
     #[strum(to_string = "BPO", serialize = "bpo")]
     BPO,

@@ -96,6 +96,7 @@ KnownFederations = {
     "BPU",  # British Powerlifting Union.
     "BP",  # British Powerlifting, IPF. Used to be GBPF.
     "BPC",  # Defunct British WPC affiliate.
+    "BPF",  # British WPU affiliate
     "BVDK",  # Bundesverband Deutscher Kraftdreikämpf, IPF.
     "CAPO",  # Australian affiliate of the WPC/GPA.
     "CAST",  # Česká Asociace Silového Trojboje GPC/WPC
