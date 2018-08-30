@@ -74,6 +74,7 @@ impl MetaFederation {
                     || meet.federation == Federation::ADAU
                     || meet.federation == Federation::ADFPA
                     || meet.federation == Federation::ADFPF
+                    || meet.federation == Federation::AIWBPA
                     || meet.federation == Federation::AEP
                     || meet.federation == Federation::AfricanPF
                     || meet.federation == Federation::APU
@@ -115,6 +116,7 @@ impl MetaFederation {
                     || meet.federation == Federation::PZKFiTS
                     || meet.federation == Federation::RAW
                     || meet.federation == Federation::RAWCAN
+                    || meet.federation == Federation::RAWUKR
                     || meet.federation == Federation::ScottishPL
                     || meet.federation == Federation::SSF
                     || meet.federation == Federation::SVNL
@@ -124,6 +126,8 @@ impl MetaFederation {
                     || meet.federation == Federation::WDFPF
                     || meet.federation == Federation::WelshPA
                     || meet.federation == Federation::WNPF
+                    || meet.federation == Federation::WP
+                    || meet.federation == Federation::WPU
             }
             MetaFederation::AllAmateur => entry.tested,
             MetaFederation::AllArgentina => {
@@ -158,7 +162,9 @@ impl MetaFederation {
                 meet.federation == Federation::FPO || meet.federation == Federation::SVNL
             }
             MetaFederation::AllGermany => {
-                meet.federation == Federation::BVDK || meet.federation == Federation::GPU
+                meet.federation == Federation::BVDK 
+                    || meet.federation == Federation::GPU
+                    || meet.federation == Federation::WPCGermany
             }
             MetaFederation::AllIreland => {
                 meet.federation == Federation::GPCIRL
@@ -179,6 +185,7 @@ impl MetaFederation {
                     || meet.federation == Federation::RPU
                     || meet.federation == Federation::SCT
                     || meet.federation == Federation::SPSS
+                    || meet.federation == Federation::Vityaz
                     || meet.federation == Federation::WPARUS
                     || meet.federation == Federation::WPCRUS
                     || meet.federation == Federation::WRPF
@@ -188,6 +195,7 @@ impl MetaFederation {
                     || meet.federation == Federation::BDFPA
                     || meet.federation == Federation::BP
                     || meet.federation == Federation::BPC
+                    || meet.federation == Federation::BPO
                     || meet.federation == Federation::BPU
                     || meet.federation == Federation::EPA
                     || meet.federation == Federation::GPCGB
@@ -196,8 +204,10 @@ impl MetaFederation {
                     || meet.federation == Federation::WelshPA
             }
             MetaFederation::AllUkraine => {
-                meet.federation == Federation::UkrainePA
+                meet.federation == Federation::RAWUKR
+                    || meet.federation == Federation::UkrainePA
                     || meet.federation == Federation::UPC
+                    || meet.federation == Federation::UkrainePF
                     || meet.federation == Federation::WPAU 
                     || meet.federation == Federation::WPCUKR
                     || meet.federation == Federation::WPUF
@@ -211,6 +221,7 @@ impl MetaFederation {
                     || meet.federation == Federation::APA
                     || meet.federation == Federation::APC
                     || meet.federation == Federation::APF
+                    || meet.federation == Federation::BBDD
                     || meet.federation == Federation::Hardcore
                     || meet.federation == Federation::HERC
                     || meet.federation == Federation::IPA
@@ -224,6 +235,7 @@ impl MetaFederation {
                     || meet.federation == Federation::RAWU
                     || meet.federation == Federation::RPS
                     || meet.federation == Federation::RUPC
+                    || meet.federation == Federation::SCI
                     || meet.federation == Federation::SPF
                     || meet.federation == Federation::THSPA
                     || meet.federation == Federation::UPA

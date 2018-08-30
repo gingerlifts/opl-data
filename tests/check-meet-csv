@@ -69,7 +69,8 @@ def pwarning(s):
 KnownFederations = {
     "365Strong",  # 365 Strong Powerlifting Federation.
     "AAP",  # Alianza Argentina Powerlifting, GPA/IPO.
-    "AAPLF",  # Australian Amateur Powerlifting Federation, defunct IPF affiliate.
+    # Australian Amateur Powerlifting Federation, defunct IPF affiliate.
+    "AAPLF",
     "AAU",  # Amateur Athletic Union.
     # American Drug-Free Powerlifting Association, precursor to USAPL.
     "ADFPA",
@@ -77,6 +78,8 @@ KnownFederations = {
     "ADAU",  # Anti Drug Athletes United
     "AEP",  # Asociación Española de Powerlifting, IPF.
     "AfricanPF",  # African Powerlifting Federation, IPF.
+    # All Indonesia Weightlifting, Body Building and Powerlifting Association, IPF.
+    "AIWBPA",
     "APA",
     "APC",  # American Powerlifting Committee.
     "APF",
@@ -86,7 +89,10 @@ KnownFederations = {
     "BAWLA",  # British Amateur Weightlifting Association, precursor to BP
     # Bogatyr Brotherhood, a stand-alone and short-lived Russian federation.
     "BB",
+    # Baddest Bench, Deadliest Deadlift. Yearly meets that used to be run by John Inzer.
+    "BBDD",
     "BDFPA",  # British Drug-Free Powerlifting Association.
+    "BPO",  # British Powerlifting Organisation, WPF.
     "BPU",  # British Powerlifting Union.
     "BP",  # British Powerlifting, IPF. Used to be GBPF.
     "BPC",  # Defunct British WPC affiliate.
@@ -147,7 +153,8 @@ KnownFederations = {
     "NSF",  # Norwegian branch of the IPF.
     "NZPF",  # New Zealand Powerlifting Federation, IPF.
     "OceaniaPF",  # Oceania Powerlifting Federation, IPF.
-    "OlomouckySilak",  # Olomoucký Silák, a yearly bench competition in Czechia.
+    # Olomoucký Silák, a yearly bench competition in Czechia.
+    "OlomouckySilak",
     "ParaPL",  # Para Powerlifting.
     "PA",
     "PLZS",  # Powerlifting zveza Slovenije, IPF.
@@ -157,36 +164,44 @@ KnownFederations = {
     "PZKFiTS",  # Polish IPF affiliate.
     "RAW",  # 100% RAW Federation (drug-tested).
     "RAW-CAN",  # 100% RAW Federation Canada (drug-tested).
+    "RAW-UKR",  # 100% RAW Federation Ukraine.
     "RAWU",  # Raw United Federation
     "RPS",
     "RPU",  # Russian Powerlifting Union
     "RUPC",  # Raw Unity.
     "ScottishPL",  # Scottish Powerlifting, IPF.
+    "SCI",  # Old US based federation, no idea what this stands for.
     "SCT",  # Super-Cup of Titans.
     "SPA",  # Singapore Powerlifting Alliance
     "SPF",
-    "SPSS",  # Societatem Potentis Species Sports, defunct Russian raw federation.
+    # Societatem Potentis Species Sports, defunct Russian raw federation.
+    "SPSS",
     "SSF",  # Swedish IPF Affiliate.
     "SVNL",  # Finnish IPF Affiliate.
     "THSPA",  # Texas High School, single-ply only, drug-tested.
     "UkrainePA",  # Ukraine Powerlifting Association.
     "UPA",
     "UPC",  # Ukrainian Powerlifting Comittee
+    "UkrainePF",  # Ukrainian Powerlifting Federation, IPF.
     "USAPL",
     "USPF",
     "USPA",
     "VietnamPA",  # Vietnam Powerlifting Alliance, GPA Affiliate.
+    "Vityaz",
     "WABDL",  # World Association of Bench Pressers and Deadlifters.
     "WDFPF",  # World Drug Free Powerlifting Association
     "WelshPA",  # Welsh Powerlifting Association, IPF.
+    "WP",  # World Powerlifting, Wilks' federation.
     "WPA",  # World Powerlifting Alliance.
     "WPA-RUS",  # World Powerlifting Alliance Russia
     "WPAU",  # World Powerlifting Alliance Ukraine.
     "WPC",
+    "WPC-Germany",
     "WPC-Portugal",
     "WPC-RUS",
     "WPC-UKR",
     "WPF",  # World Powerlifting federation (Not the Wilks one)
+    "WPU",  # World Powerlifting Union.
     "WPUF",  # World Powerlifting Union of Federations
     "WNPF",  # World Natural Powerlifting Federation.
     "WRPF",
@@ -521,6 +536,8 @@ if __name__ == '__main__':
 
                 if 'entries.csv' not in files:
                     perror('Missing entries.csv')
+                if 'URL.txt' in files:
+                    perror('Must be named "URL" with no extension')
 
     if hitError:
         sys.exit(1)

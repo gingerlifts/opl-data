@@ -250,6 +250,7 @@ impl StaticCache {
         if selection.federation == FederationSelection::AllFederations
             && selection.weightclasses == WeightClassSelection::AllClasses
             && selection.year == YearSelection::AllYears
+            && selection.event == EventSelection::AllEvents
         {
             let by_sort = match selection.sort {
                 SortSelection::BySquat => &self.constant_time.squat,
@@ -380,6 +381,33 @@ impl StaticCache {
                 );
                 cur = PossiblyOwnedNonSortedNonUnique::Owned(filter);
             }
+        }
+
+        // Filter by event manually.
+        if selection.event != EventSelection::AllEvents {
+            let filter = NonSortedNonUnique(
+                cur.0
+                    .iter()
+                    .filter_map(|&i| {
+                        let ev = opldb.get_entry(i).event;
+                        let matches: bool = match selection.event {
+                            EventSelection::AllEvents => true,
+                            EventSelection::FullPower => ev.is_full_power(),
+                            EventSelection::PushPull => ev.is_push_pull(),
+                            EventSelection::SquatOnly => ev.is_squat_only(),
+                            EventSelection::BenchOnly => ev.is_bench_only(),
+                            EventSelection::DeadliftOnly => ev.is_deadlift_only(),
+                        };
+                        if matches {
+                            Some(i)
+                        } else {
+                            None
+                        }
+                    })
+                    .collect(),
+            );
+
+            cur = PossiblyOwnedNonSortedNonUnique::Owned(filter);
         }
 
         // Filter by weight class manually.
