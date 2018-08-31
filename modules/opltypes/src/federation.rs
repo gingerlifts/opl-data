@@ -89,6 +89,9 @@ pub enum Federation {
     #[strum(to_string = "AsianPF", serialize = "asianpf")]
     AsianPF,
 
+    #[strum(to_string = "Atlantis", serialize = "atlantis")]
+    Atlantis,
+
     /// Australian Drug-Free Powerlifting Federation, WDFPF.
     #[strum(to_string = "AusDFPF", serialize = "ausdfpf")]
     AusDFPF,
