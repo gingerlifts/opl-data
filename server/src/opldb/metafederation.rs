@@ -227,6 +227,7 @@ impl MetaFederation {
                     || meet.federation == Federation::APA
                     || meet.federation == Federation::APC
                     || meet.federation == Federation::APF
+                    || meet.federation == Federation::Atlantis
                     || meet.federation == Federation::BBDD
                     || meet.federation == Federation::Hardcore
                     || meet.federation == Federation::HERC

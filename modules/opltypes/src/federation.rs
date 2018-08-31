@@ -58,6 +58,8 @@ pub enum Federation {
     APU,
     #[strum(to_string = "AsianPF", serialize = "asianpf")]
     AsianPF,
+    #[strum(to_string = "Atlantis", serialize = "atlantis")]
+    Atlantis,
     #[strum(to_string = "AusDFPF", serialize = "ausdfpf")]
     AusDFPF,
     #[strum(to_string = "BAWLA", serialize = "bawla")]

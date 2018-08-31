@@ -85,6 +85,7 @@ KnownFederations = {
     "APF",
     "APU",  # Australian Powerlifting Union.
     "AsianPF",  # Asian Powerlifting Federation, IPF.
+    "Atlantis",  # Series of Raw meets hosted by the Atlantis company
     "AusDFPF",  # Australian Drug Free Powerlifting Federation, WDFPF.
     "BAWLA",  # British Amateur Weightlifting Association, precursor to BP
     # Bogatyr Brotherhood, a stand-alone and short-lived Russian federation.
