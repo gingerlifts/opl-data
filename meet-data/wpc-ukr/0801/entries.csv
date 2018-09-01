@@ -6,7 +6,7 @@ Place,Name,Division,BirthYear,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Be
 2,Olesya Grinenko,O,1980,Ukraine,65.2,75,80,85,85,87.5,67.5,F,Олеся Гриненко,B,85,Raw
 3,Liliya Venglovskaya,O,1979,Moldova,65.9,80,-87.5,-87.5,80,,67.5,F,,B,80,Raw
 1,Maryna Khristoforova,M1,1966,Ukraine,66.1,87.5,90,92.5,92.5,95,67.5,F,Марина Христофорова,B,92.5,Raw
-1,Evgeniy Belyy,T1,1993,Ukraine,51.9,60,65,70,70,,52,M,Yеvgеn Bilyi,B,70,Raw
+1,Evgeniy Belyy,T1,1993,Ukraine,51.9,60,65,70,70,,52,M,,B,70,Raw
 1,Denys Dyadchenko,T3,1990,Ukraine,53.3,80,90,92.5,92.5,,56,M,Денис Дядченко,B,92.5,Raw
 1,Eduard Chernat,T3,1989,,58.5,100,115,120,120,,60,M,,B,120,Raw
 2,Kyrylo Pidgorodetskyy,T3,1991,Ukraine,64.62,75,80,85,85,,67.5,M,Кирило Підгородецький,B,85,Raw
@@ -47,12 +47,12 @@ Place,Name,Division,BirthYear,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Be
 1,Aleksandr Snisarenko,O,1975,Ukraine,126.6,200,215,222.5,222.5,,140,M,Александр Снисаренко,B,222.5,Raw
 2,Sergiy Veselovskiy,M1,1967,Ukraine,139.1,200,210,220,220,,140,M,Сергій Веселовський,B,220,Raw
 3,Andrey Galtsov,M1,1965,Russia,126.8,180,200,,200,,140,M,Андрей Гальцов,B,200,Raw
-1,Aleksey Lisogor,O,1986,Ukraine,151.32,190,201,,201,,140+,M,Олексій Лісогор,B,201,Raw
+1,Aleksey Lisogor,O,1986,Ukraine,151.32,190,201,,201,,140+,M,Алексей Лисогор,B,201,Raw
 1,Lyudmyla Bobchenko,O,1979,Ukraine,58.9,151,157.5,162.5,162.5,-165,60,F,Людмила Бобченко,B,162.5,Multi-ply
 3,Yuliya Diordiyeva,J,1986,Ukraine,64.5,55,60,65,65,,67.5,F,Юлія Діордієва,B,65,Multi-ply
 1,Liliya Venglovskaya,O,1979,Moldova,65.9,110,120,,120,,67.5,F,,B,120,Multi-ply
 2,Olesya Grinenko,O,1980,Ukraine,65.2,80,-85,90,90,,67.5,F,Олеся Гриненко,B,90,Multi-ply
-1,Evgeniy Belyy,T1,1993,Ukraine,51.9,60,65,70,70,,52,M,Yеvgеn Bilyi,B,70,Multi-ply
+1,Evgeniy Belyy,T1,1993,Ukraine,51.9,60,65,70,70,,52,M,,B,70,Multi-ply
 2,Olexiy Gornyy,T2,1992,Ukraine,54.9,80,90,-92.5,90,,56,M,Олексій Горний,B,90,Multi-ply
 1,Denys Dyadchenko,T3,1990,Ukraine,53.3,90,105,-110,105,,56,M,Денис Дядченко,B,105,Multi-ply
 1,Oleksandr Kovalenko,O,1983,Ukraine,64.78,-150,150,160,160,,67.5,M,Олександр Коваленко,B,160,Multi-ply
@@ -87,4 +87,4 @@ Place,Name,Division,BirthYear,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Be
 1,Oleksandr Gonchar,O,1978,Ukraine,128.25,330,340,350,350,,140,M,Олександр Гончар,B,350,Multi-ply
 3,Aleksandr Snisarenko,O,1975,Ukraine,126.6,225,240,250,250,,140,M,Александр Снисаренко,B,250,Multi-ply
 2,Sergiy Veselovskiy,M1,1967,Ukraine,139.1,240,250,260,260,,140,M,Сергій Веселовський,B,260,Multi-ply
-1,Aleksey Lisogor,J,1986,Ukraine,151.32,240,-280,-285,240,,140+,M,Олексій Лісогор,B,240,Multi-ply
+1,Aleksey Lisogor,J,1986,Ukraine,151.32,240,-280,-285,240,,140+,M,Алексей Лисогор,B,240,Multi-ply

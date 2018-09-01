@@ -533,14 +533,13 @@ pub enum Federation {
     /// World Powerlifting Committee.
     #[strum(to_string = "WPC", serialize = "wpc")]
     WPC,
-<<<<<<< HEAD
-
-    /// German WPC affiliate.
-=======
+    
+    /// Finnish WPC affiliate.
     #[serde(rename = "WPC-Finland")]
     #[strum(to_string = "WPC-Finland", serialize = "wpc-finland")]
     WPCFinland,
->>>>>>> More missing meets and list cleanup.
+
+    /// German WPC affiliate.
     #[serde(rename = "WPC-Germany")]
     #[strum(to_string = "WPC-Germany", serialize = "wpc-germany")]
     WPCGermany,
