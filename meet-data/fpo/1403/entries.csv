@@ -1,5 +1,5 @@
 Event,Place,Sex,Name,BodyweightKg,WeightClassKg,Division,Equipment,Best3BenchKg,Best3DeadliftKg,TotalKg
-B,1,M,Kalle Räsänen,89,90,Junior,Multi-ply,315.5,,315.5
+B,1,M,Kalle Räsänen #1,89,90,Junior,Multi-ply,315.5,,315.5
 B,2,M,Ilkka Lukkarinen,130.7,140,Open,Multi-ply,355,,355
 B,3,M,Tapio Laine,130.5,140,Master,Multi-ply,245,,245
 B,4,M,Reza Golmohammadi,99.4,100,Open,Multi-ply,315,,315
@@ -33,7 +33,7 @@ B,1,F,Minna Pajulahti,74.8,75,Open,Raw,110,,110
 B,2,F,Jenni Erola,74,75,Open,Raw,95,,95
 B,1,F,Nea Räisänen,61.2,67.5,Junior,Raw,75,,75
 B,2,F,Miia Keränen,80.7,82.5,Junior,Raw,70,,70
-D,1,M,Kalle Räsänen,89,90,Junior,Multi-ply,,320,320
+D,1,M,Kalle Räsänen #1,89,90,Junior,Multi-ply,,320,320
 D,2,M,Alec Pavlovich,77,82.5,Open,Multi-ply,,272.5,272.5
 D,3,M,Vesa Taavitsainen,94.9,100,Open,Multi-ply,,300,300
 D,4,M,Mikko Hirvonen,110.8,125,Open,Multi-ply,,318,318
