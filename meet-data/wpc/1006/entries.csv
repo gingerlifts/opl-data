@@ -1,13 +1,13 @@
 Place,Name,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Equipment,Division,Event
 1,Ville Mutanen,60,59,,70,50,105,225,M,Raw,T1,SBD
 1,Otto Selin,140,137.8,,365.5,305,273,943.5,M,Multi-ply,T2,SBD
-DQ,Kalle Rasanen #2,90,89.9,,,,,,M,Single-ply,T3,SBD
+DQ,Kalle Rasanen,90,89.9,,,,,,M,Single-ply,T3,SBD
 1,Teemu Haverinen,100,97.6,,280,180,260,720,M,Single-ply,T3,SBD
 DQ,Juuso Mela,82.5,80.9,,235,,,,M,Raw,Jr,SBD
 1,Kalle Hyotylainen,90,89.1,,220,140,180,540,M,Single-ply,Jr,SBD
 1,Mika Nikkonen,100,99.5,,305,210,272.5,787.5,M,Single-ply,Jr,SBD
 2,Ville Antikainen,100,93.8,,275,160,260,695,M,Wraps,Jr,SBD
-3,Kalle Rasanen #1,100,91.2,,270,175,230,675,M,Single-ply,Jr,SBD
+3,Kalle Rasanen,100,91.2,,270,175,230,675,M,Single-ply,Jr,SBD
 4,Jari Malinen,100,93.4,,230,180,225,635,M,Wraps,Jr,SBD
 1,Oskari Lehtinen,110,104.9,,360,245,285,890,M,Multi-ply,Jr,SBD
 2,Teemu Jaakkila,110,103.7,,310,215,245,770,M,Multi-ply,Jr,SBD
