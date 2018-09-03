@@ -1,4 +1,4 @@
-﻿Place,Name,Equipment,Event,Sex,Division,WeightClassKg,Age,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg
+Place,Name,Equipment,Event,Sex,Division,WeightClassKg,Age,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg
 1,Ivan Koturić,Raw,SBD,M,Subjunior,74,16,72.9,135,145,-155,,145,90,-97.5,-97.5,,90,140,155,165,,165,400
 1,Gabriel Tkalčić,Raw,SBD,M,Subjunior,83,17,80.3,-175,180,-195,,180,110,-120,120,,120,185,200,-205,,200,500
 1,Ilija Petrović,Raw,SBD,M,Subjunior,105,17,103.6,180,190,196,,196,-130,130,140,,140,220,235,245,,245,581
@@ -19,7 +19,7 @@
 1,Ema Jurjević,Raw,SBD,F,Open,72,25,71.7,105,115,-120,,115,57.5,65,67.5,,67.5,125,135,145,,145,327.5
 2,Ana Maslov,Raw,SBD,F,Open,72,30,65.6,100,107.5,-112.5,,107.5,42.5,47.5,-50,,47.5,110,120,-125,,120,275
 1,Maja Srdelić,Raw,SBD,F,Open,84,34,72.6,100,110,-112.5,,110,60,62.5,65,,65,125,135,-140,,135,310
-1,Višnja Škevin,Raw,SBD,F,Mastes 2,57,51,54.7,57.5,62.5,67.5,,67.5,47.5,50,53.5,,53.5,95,105,112.5,,112.5,233.5
+1,Višnja Škevin,Raw,SBD,F,Masters 2,57,51,54.7,57.5,62.5,67.5,,67.5,47.5,50,53.5,,53.5,95,105,112.5,,112.5,233.5
 1,Ajdin Latić,Raw,B,M,Subjunior,74,17,70.9,,,,,,100,110,-115,,110,,,,,,110
 1,Gabriel Tkalčić,Raw,B,M,Subjunior,83,17,80.3,,,,,,110,-120,-120,,110,,,,,,110
 1,Ivan Matanić,Raw,B,M,Subjunior,93,18,92,,,,,,125,130,-135,,130,,,,,,130

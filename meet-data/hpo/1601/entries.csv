@@ -1,4 +1,4 @@
-﻿Place,Name,Equipment,Event,Sex,Division,WeightClassKg,Age,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg
+Place,Name,Equipment,Event,Sex,Division,WeightClassKg,Age,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg
 1,Leon Rogina,Raw,SBD,M,Subjunior,66,17,65.12,120,130,-135,,130,-100,100,106,,106,175,186,193,,193,429
 1,Adriano Alić,Raw,SBD,M,Subjunior,74,15,70.65,130,-140,,,130,80,-85,85,,85,170,180,-185,,180,395
 1,Gabriel Tkalčić,Raw,SBD,M,Subjunior,83,16,79.20,170,180,190,,190,-120,120,-122.5,,120,190,200,-210,,200,510
@@ -56,7 +56,7 @@ DQ,Luka Banić,Raw,SBD,M,Open,83,28,82.75,160,-180,-180,,160,-145,-150,-150,,,-2
 1,Walter Smajlović,Raw,B,M,Subjunior,66,16,66,,,,,,112.5,117.5,-126,,117.5,,,,,,117.5
 1,Adriano Alić,Raw,B,M,Subjunior,74,15,70.65,,,,,,80,-85,85,,85,,,,,,85
 1,Ivan Matanić,Raw,B,M,Subjunior,93,18,88.9,,,,,,120,130,132.5,,132.5,,,,,,132.5
-DQ,Valentino Matleković,Raw,B,M,Junior,53,19,52.7,,,,,,-75,82.5,-87.5,,,,,,,,
+DQ,Valentino Matleković,Raw,B,M,Junior,53,19,52.7,,,,,,-75,-82.5,-87.5,,,,,,,,
 1,Matej Jurić,Raw,B,M,Junior,74,19,67,,,,,,100,105,110,,110,,,,,,110
 1,Dario Žinić,Raw,B,M,Junior,83,19,81,,,,,,140,150,-157,,150,,,,,,150
 1,Sejad Halilović,Raw,B,M,Junior,105,21,98.7,,,,,,160,-170,180,,180,,,,,,180
