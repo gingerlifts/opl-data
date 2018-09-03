@@ -199,7 +199,9 @@ def check_column_place(s, row, csv):
     # DD = disqualified by failing a drug test
     if s not in ['DQ', 'NS', 'G', 'DD']:
         try:
-            int(s)
+            i = int(s)
+            if i <= 0:
+                perror("Place must be positive integer or known exception: %s" % s)
         except ValueError:
             perror("Place is not an integer or known exception: %s" % s)
 
@@ -289,7 +291,6 @@ def check_column_birthyear(s, row, csv):
             pwarning("BirthYear looks implausible: '%s'" % s)
 
 
-# This is mostly duplicate code from check-meet-csv. Could be shared.
 def check_column_birthday(s, row, csv):
     date = s
     if len(date) != 10 or date.count('-') != 2:

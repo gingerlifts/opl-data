@@ -1,6 +1,6 @@
 //! Defines the `Country` field for the `meets` table.
 
-#[derive(Copy, Clone, Deserialize, Serialize, PartialEq, EnumString)]
+#[derive(Copy, Clone, Deserialize, Serialize, PartialEq, EnumString, ToString)]
 pub enum Country {
     Afghanistan,
     Albania,
@@ -8,6 +8,7 @@ pub enum Country {
     #[serde(rename = "American Samoa")]
     #[strum(to_string = "American Samoa")]
     AmericanSamoa,
+    Angola,
     Argentina,
     Armenia,
     Aruba,
@@ -15,8 +16,10 @@ pub enum Country {
     Azerbaijan,
     Austria,
     Bahamas,
+    Bahrain,
     Belarus,
     Belgium,
+    Benin,
     Bolivia,
     #[serde(rename = "Bosnia and Herzegovina")]
     #[strum(to_string = "Bosnia and Herzegovina")]
@@ -27,21 +30,27 @@ pub enum Country {
     #[strum(to_string = "British Virgin Islands")]
     BritishVirginIslands,
     Bulgaria,
+    #[serde(rename = "Burkina Faso")]
+    #[strum(to_string = "Burkina Faso")]
+    BurkinaFaso,
+    #[serde(rename = "Cabo Verde")]
+    #[strum(to_string = "Cabo Verde")]
+    CaboVerde,
     Cambodia,
     Cameroon,
     Canada,
     #[serde(rename = "Cayman Islands")]
     #[strum(to_string = "Cayman Islands")]
     CaymanIslands,
+    #[serde(rename = "Central African Republic")]
+    #[strum(to_string = "Central African Republic")]
+    CentralAfricanRepublic,
     Chile,
     China,
     Colombia,
     #[serde(rename = "Costa Rica")]
     #[strum(to_string = "Costa Rica")]
     CostaRica,
-    #[serde(rename = "Côte d’Ivoire")]
-    #[strum(to_string = "Côte d’Ivoire")]
-    CoteDIvoire,
     Croatia,
     Cuba,
     Cyprus,
@@ -51,6 +60,9 @@ pub enum Country {
     #[serde(rename = "Dominican Republic")]
     #[strum(to_string = "Dominican Republic")]
     DominicanRepublic,
+    #[serde(rename = "East Timor")]
+    #[strum(to_string = "East Timor")]
+    EastTimor,
     Ecuador,
     Egypt,
     #[serde(rename = "El Salvador")]
@@ -58,6 +70,7 @@ pub enum Country {
     ElSalvador,
     England,
     Estonia,
+    Ethiopia,
     Fiji,
     Finland,
     France,
@@ -80,27 +93,37 @@ pub enum Country {
     Italy,
     Iran,
     Iraq,
+    #[serde(rename = "Ivory Coast")]
+    #[strum(to_string = "Ivory Coast")]
+    IvoryCoast,
     Jamaica,
     Japan,
+    Jordan,
     Kazakhstan,
     Kenya,
     Kiribati,
+    Kuwait,
     Kyrgyzstan,
+    Laos,
     Latvia,
     Lebanon,
+    Liberia,
     Libya,
     Lithuania,
     Luxembourg,
     Macedonia,
     Malaysia,
+    Mali,
     #[serde(rename = "Marshall Islands")]
     #[strum(to_string = "Marshall Islands")]
     MarshallIslands,
+    Mauritania,
     Mexico,
     Moldova,
     Mongolia,
     Montenegro,
     Morocco,
+    Namibia,
     Nauru,
     Nepal,
     Netherlands,
@@ -124,6 +147,7 @@ pub enum Country {
     NorthernIreland,
     Oman,
     Pakistan,
+    Palestine,
     Panama,
     #[serde(rename = "Papua New Guinea")]
     #[strum(to_string = "Papua New Guinea")]
@@ -136,9 +160,13 @@ pub enum Country {
     #[serde(rename = "Puerto Rico")]
     #[strum(to_string = "Puerto Rico")]
     PuertoRico,
+    Qatar,
     Romania,
     Russia,
     Samoa,
+    #[serde(rename = "Saudi Arabia")]
+    #[strum(to_string = "Saudi Arabia")]
+    SaudiArabia,
     Scotland,
     Serbia,
     /// Existed from 1992-2006.
@@ -162,6 +190,7 @@ pub enum Country {
     #[strum(to_string = "Sri Lanka")]
     SriLanka,
     Sudan,
+    Swaziland,
     Sweden,
     Syria,
     Switzerland,
@@ -171,9 +200,12 @@ pub enum Country {
     Thailand,
     Togo,
     Tonga,
+    /// Unrecognized state. UN recognizes as part of Moldova.
+    Transnistria,
     #[serde(rename = "Trinidad and Tobago")]
     #[strum(to_string = "Trinidad and Tobago")]
     TrinidadAndTobago,
+    Tunisia,
     Turkey,
     Turkmenistan,
     Tuvalu,

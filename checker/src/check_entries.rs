@@ -9,6 +9,7 @@ use std::io;
 use std::path::PathBuf;
 
 use Report;
+use check_meet::Meet;
 
 /// Maps Header to index.
 struct HeaderIndexMap(Vec<Option<usize>>);
@@ -290,6 +291,20 @@ fn check_positive_weight(s: &str, line: u64, header: Header, report: &mut Report
     check_weight(s, line, header, report)
 }
 
+fn check_column_bodyweightkg(s: &str, line: u64, report: &mut Report) -> Option<WeightKg> {
+    if let Some(weight) = check_positive_weight(s, line, Header::BodyweightKg, report) {
+        if weight != WeightKg::from_i32(0) {
+            if weight < WeightKg::from_i32(15) || weight > WeightKg::from_i32(300) {
+                let warning = format!("BodyweightKg looks implausible: '{}'", s);
+                report.warning_on(line, warning);
+            }
+        }
+        Some(weight)
+    } else {
+        None
+    }
+}
+
 fn check_column_weightclasskg(s: &str, line: u64, report: &mut Report) -> Option<WeightClassKg> {
     // Disallow zeros.
     if s == "0" {
@@ -316,7 +331,7 @@ fn check_column_tested(s: &str, line: u64, report: &mut Report) {
 
 fn check_column_country(s: &str, line: u64, report: &mut Report) {
     if !s.is_empty() && s.parse::<Country>().is_err() {
-        report.warning_on(line, format!("Unknown Country '{}'", s));
+        report.error_on(line, format!("Unknown Country '{}'", s));
     }
 }
 
@@ -327,6 +342,7 @@ fn check_column_country(s: &str, line: u64, report: &mut Report) {
 pub fn do_check<R>(
     rdr: &mut csv::Reader<R>,
     mut report: Report,
+    meet: Option<Meet>,
 ) -> Result<Report, Box<Error>>
 where
     R: io::Read,
@@ -443,7 +459,7 @@ where
 
         if let Some(idx) = headers.get(Header::BodyweightKg) {
             entry.bodyweightkg =
-                check_positive_weight(&record[idx], line, Header::BodyweightKg, &mut report);
+                check_column_bodyweightkg(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::WeightClassKg) {
             entry.weightclasskg =
@@ -466,7 +482,11 @@ where
 }
 
 /// Checks a single entries.csv file by path.
-pub fn check_entries(entries_csv: PathBuf) -> Result<Report, Box<Error>> {
+pub fn check_entries(
+    entries_csv: PathBuf,
+    meet: Option<Meet>
+) -> Result<Report, Box<Error>>
+{
     // Allow the pending Report to own the PathBuf.
     let mut report = Report::new(entries_csv);
 
@@ -480,5 +500,5 @@ pub fn check_entries(entries_csv: PathBuf) -> Result<Report, Box<Error>> {
         .quoting(false)
         .from_path(&report.path)?;
 
-    Ok(do_check(&mut rdr, report)?)
+    Ok(do_check(&mut rdr, report, meet)?)
 }

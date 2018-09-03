@@ -3,6 +3,7 @@
 use serde;
 use serde::de::{self, Deserialize, Visitor};
 
+use std::error::Error;
 use std::fmt;
 use std::num;
 use std::str::FromStr;
@@ -11,7 +12,7 @@ use std::str::FromStr;
 #[derive(Debug, PartialEq, PartialOrd, Ord, Eq, Serialize)]
 pub enum Place {
     /// The placing assigned to the entry.
-    P(u8),
+    P(num::NonZeroU8),
     /// Guest Lifter.
     G,
     /// Disqualified.
@@ -47,7 +48,7 @@ impl fmt::Display for Place {
 }
 
 impl FromStr for Place {
-    type Err = num::ParseIntError;
+    type Err = Box<Error>;
 
     fn from_str(s: &str) -> Result<Self, Self::Err> {
         match s {
@@ -56,7 +57,8 @@ impl FromStr for Place {
             "DD" => Ok(Place::DD),
             "NS" => Ok(Place::NS),
             _ => {
-                let num = s.parse::<u8>()?;
+                let num = num::NonZeroU8::new(s.parse::<u8>()?)
+                    .ok_or_else(|| "Place cannot be '0'")?;
                 Ok(Place::P(num))
             }
         }
@@ -93,12 +95,16 @@ impl<'de> Deserialize<'de> for Place {
 mod tests {
     use super::*;
 
+    fn num_place(n: u8) -> Place {
+        Place::P(num::NonZeroU8::new(n).unwrap())
+    }
+
     #[test]
     fn test_place_basic() {
-        assert_eq!("1".parse::<Place>().unwrap(), Place::P(1));
-        assert_eq!("2".parse::<Place>().unwrap(), Place::P(2));
-        assert_eq!("3".parse::<Place>().unwrap(), Place::P(3));
-        assert_eq!("27".parse::<Place>().unwrap(), Place::P(27));
+        assert_eq!("1".parse::<Place>().unwrap(), num_place(1));
+        assert_eq!("2".parse::<Place>().unwrap(), num_place(2));
+        assert_eq!("3".parse::<Place>().unwrap(), num_place(3));
+        assert_eq!("27".parse::<Place>().unwrap(), num_place(27));
 
         assert_eq!("G".parse::<Place>().unwrap(), Place::G);
         assert_eq!("DQ".parse::<Place>().unwrap(), Place::DQ);
@@ -108,6 +114,7 @@ mod tests {
 
     #[test]
     fn test_place_errors() {
+        assert!("0".parse::<Place>().is_err());
         assert!("-1".parse::<Place>().is_err());
         assert!("-G".parse::<Place>().is_err());
         assert!("GG".parse::<Place>().is_err());
