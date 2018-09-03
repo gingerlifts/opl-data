@@ -92,6 +92,7 @@ TESTED_FEDERATIONS = [
     "IPF",
     "IrishPF",
     "HPLS",
+    "HPO",
     "JPA",
     "KRAFT",
     "LPF",

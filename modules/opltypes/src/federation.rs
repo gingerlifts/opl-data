@@ -268,6 +268,10 @@ pub enum Federation {
     #[strum(to_string = "HPLS", serialize = "hpls")]
     HPLS,
 
+    /// Croatian Powerlifting Organization
+    #[strum(to_string = "HPO", serialize = "hpo")]
+    HPO,
+
     /// International Blind Sport Assocation.
     #[strum(to_string = "IBSA", serialize = "ibsa")]
     IBSA,
