@@ -421,7 +421,7 @@ def parse_sheet(sheet):
         return csv
     elif 'чд' in title:  # Not sure what theses pages are, some kind of reps contest
         return csv
-    elif 'строгий' in title: # curl
+    elif 'строгий' in title:  # curl
         return csv
 
     # Figure out event, equipment, etc., and store in obj.
