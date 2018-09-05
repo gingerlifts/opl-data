@@ -1,6 +1,6 @@
 //! Defines the `Country` field for the `meets` table.
 
-#[derive(Copy, Clone, Deserialize, Serialize, PartialEq, EnumString, ToString)]
+#[derive(Copy, Clone, Debug, Deserialize, Serialize, PartialEq, EnumString, ToString)]
 pub enum Country {
     Afghanistan,
     Albania,
@@ -25,7 +25,6 @@ pub enum Country {
     #[strum(to_string = "Bosnia and Herzegovina")]
     BosniaAndHerzegovina,
     Brazil,
-    Britain,
     #[serde(rename = "British Virgin Islands")]
     #[strum(to_string = "British Virgin Islands")]
     BritishVirginIslands,
@@ -235,4 +234,19 @@ pub enum Country {
     Yugoslavia,
     Zambia,
     Zimbabwe,
+}
+
+impl Country {
+    /// Whether the country is in the UK.
+    #[inline]
+    pub fn is_in_uk(self) -> bool {
+        match self {
+            Country::England => true,
+            Country::NorthernIreland => true,
+            Country::UK => true,
+            Country::Scotland => true,
+            Country::Wales => true,
+            _ => false,
+        }
+    }
 }
