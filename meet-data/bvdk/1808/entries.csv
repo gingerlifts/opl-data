@@ -1,4 +1,4 @@
-Place,Division,WeightClassKg,Sex,Event,Equipment,Name,BodyweightKg,BirthYear,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg
+Place,Name,Sex,Event,Division,WeightClassKg,Equipment,BirthYear,BodyweightKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg
 1,Malte Siefahrt,M,D,Youth B,66,Raw,2002,64.10,95,100,107.5,107.5,107.5
 1,Lauro Biastoch,M,D,Youth B,83,Raw,2003,80.95,100,-110,112.5,112.5,112.5
 1,Tobias Pommeranz,M,D,Youth B,93,Raw,2002,85.40,135,150,160,160,160

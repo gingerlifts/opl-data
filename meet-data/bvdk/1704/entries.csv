@@ -1,4 +1,4 @@
-Place,Division,WeightClassKg,Sex,Event,Equipment,Name,BodyweightKg,BirthYear,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg
+Place,Name,Sex,Event,Division,WeightClassKg,Equipment,BirthYear,BodyweightKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg
 1,Klara Szuggar,F,D,Youth B,72,Raw,2002,71.65,90,102.5,105,105,105
 1,Jolien Steiner,F,D,Youth B,84+,Raw,2002,105.10,110,120,135,135,135
 1,Kim Ricarda Frerichs,F,D,Open,72,Raw,1993,64.30,95,105,110,110,110
