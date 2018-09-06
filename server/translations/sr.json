@@ -12,40 +12,40 @@
 	},
 	"sex": {
 		"m": "M",
-		"f": "Ž"
+		"f": "F"
 	},
 	"header": {
-		"rankings": "Rang lista",
-		"meets": "Takmičenja",
-		"data": "Podaci",
-		"status": "Status Projekta",
-		"faq": "ČPP",
-		"contact": "Kontakt",
+		"rankings": "Rankings",
+		"meets": "Meets",
+		"data": "Data",
+		"status": "Project Status",
+		"faq": "FAQ",
+		"contact": "Contact",
 		"shop": "Shop",
-		"supportus": "Podržite nas"
+		"supportus": "Support Us"
 	},
 	"columns": {
-		"place": "Mesto",
-		"formulaplace": "Rang",
-		"liftername": "Ime i Prezime",
-		"federation": "Federacija",
-		"date": "Datum",
-		"location": "Lokacija",
-		"meetname": "Naziv takmičenja",
-		"division": "Starosna kategorija",
-		"sex": "Pol",
-		"age": "Starost",
-		"equipment": "Oprema",
-		"weightclass": "Kategorija",
-		"bodyweight": "Težina",
-		"squat": "Čučanj",
+		"place": "Place",
+		"formulaplace": "Rank",
+		"liftername": "Name",
+		"federation": "Fed",
+		"date": "Date",
+		"location": "Location",
+		"meetname": "Meet Name",
+		"division": "Division",
+		"sex": "Sex",
+		"age": "Age",
+		"equipment": "Equip",
+		"weightclass": "Class",
+		"bodyweight": "Weight",
+		"squat": "Squat",
 		"bench": "Bench",
-		"deadlift": "Mrtvo dizanje",
+		"deadlift": "Deadlift",
 		"total": "Total",
 		"wilks": "Wilks",
 		"mcculloch": "McCulloch",
 		"glossbrenner": "Gloss",
-		"num_lifters": "Broj takmičara"
+		"num_lifters": "Lifters"
 	},
 	"country": {
 	    "afghanistan": "Afghanistan",
@@ -216,7 +216,7 @@
 	    "zimbabwe": "Zimbabwe"
 	},
 	"buttons": {
-		"search": "Pretraga"
+		"search": "Search"
 	},
 	"selectors": {
 		"equipment": {
@@ -227,66 +227,66 @@
 			"multi": "Multi-ply"
 		},
 		"weightclass": {
-			"all": "Sve kategorije",
-			"traditional": "Tradicionalne",
-			"ipfmen": "IPF Muškarci",
-			"ipfwomen": "IPF Žene",
-			"wp_men": "WP Muškarci",
-			"wp_women": "WP Žene"
+			"all": "All Classes",
+			"traditional": "Traditional",
+			"ipfmen": "IPF Men",
+			"ipfwomen": "IPF Women",
+			"wp_men": "WP Men",
+			"wp_women": "WP Women"
 		},
 		"sort": {
-			"by_squat": "Po čučnju",
-			"by_bench": "Po benchu",
-			"by_deadlift": "Po mrtvom dizanju",
-			"by_total": "Po totalu",
-			"by_allometric": "Po Allometričkoj skali",
-			"by_glossbrenner": "Po Glossbrenner",
-			"by_mcculloch": "Po McCulloch",
-			"by_wilks": "Po Wilks",
-			"by_division": "By starosnim kategorijama",
-			"weight": "Težinska sortiranja",
-			"points": "Bodovna sortiranja"
+			"by_squat": "By Squat",
+			"by_bench": "By Bench",
+			"by_deadlift": "By Deadlift",
+			"by_total": "By Total",
+			"by_allometric": "By Allometric Scaling",
+			"by_glossbrenner": "By Glossbrenner",
+			"by_mcculloch": "By McCulloch",
+			"by_wilks": "By Wilks",
+			"by_division": "By Division",
+			"weight": "Weight Sorts",
+			"points": "Point Sorts"
 		},
 		"year": {
-			"all": "Sve Godine"
+			"all": "All Years"
 		},
 		"sex": {
-			"all": "Svi polovi",
-			"m": "Muškarci",
-			"f": "Žene"
+			"all": "All Sexes",
+			"m": "Men",
+			"f": "Women"
 		},
 		"event": {
-			"all": "Sve discipline",
+			"all": "All Events",
 			"full_power": "Full Power",
 			"push_pull": "Push-Pull",
-			"squat_only": "Samo čučanj",
-			"bench_only": "Samo bench",
-			"deadlift_only": "Samo mrtvo dizanje"
+			"squat_only": "Squat Only",
+			"bench_only": "Bench Only",
+			"deadlift_only": "Deadlift Only"
 		},
 		"fed": {
-			"all": "Sve federacije",
-			"all_tested": "Sve federacije testirane na doping",
-			"all_amateur": "Sve amaterski i opcionalno testirane federacije",
-			"international": "Međunarodno",
-			"regional": "Regionalno",
-			"all_usa": "Svi američki takmičari",
-			"all_argentina": "Svi argentinski takmičari",
-			"all_australia": "Svi australski takmičari",
-			"all_canada": "Svi kanadski takmičari",
-			"all_croatia": "Svi hrvatski takmičari",
-			"all_czechia": "Svi češki takmičari",
-			"all_finland": "Svi finski takmičari",
-			"all_germany": "Svi njemački takmičari",
-			"all_ireland": "Svi irski takmičari",
-			"all_israel": "Svi izraelski takmičari",
-			"all_newzealand": "Svi novozelandski takmičari",
-			"all_russia": "Svi ruski takmičari",
-			"all_uk": "Svi britanski takmičari",
-			"all_ukraine": "Svi ukrajinski takmičari"
+			"all": "All Feds",
+			"all_tested": "All Drug-Tested Feds",
+			"all_amateur": "All Amateur and Optionally Drug-Tested Feds",
+			"international": "International",
+			"regional": "Regional",
+			"all_usa": "All United States Lifters",
+			"all_argentina": "All Argentinian Lifters",
+			"all_australia": "All Australian Lifters",
+			"all_canada": "All Canadian Lifters",
+			"all_croatia": "All Croatian Lifters",
+			"all_czechia": "All Czech Lifters",
+			"all_finland": "All Finnish Lifters",
+			"all_germany": "All German Lifters",
+			"all_ireland": "All Irish Lifters",
+			"all_israel": "All Israeli Lifters",
+			"all_newzealand": "All New Zealand Lifters",
+			"all_russia": "All Russian Lifters",
+			"all_uk": "All United Kingdom Lifters",
+			"all_ukraine": "All Ukrainian Lifters"
 		}
 	},
 	"lifter_page": {
-		"personal_bests": "Lični rekordi",
-		"competition_results": "Rezultati takmičenja"
+		"personal_bests": "Personal Bests",
+		"competition_results": "Competition Results"
 	}
 }
