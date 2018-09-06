@@ -28,36 +28,36 @@ Place,Name,Sex,Event,Division,WeightClassKg,Equipment,BirthYear,BodyweightKg,Ben
 2,Manuel Gruner,M,B,Juniors,120,Raw,1995,114.95,-135,135,-142.5,135,135
 1,Johanna Reichel,F,B,Juniors,84,Raw,1996,79.50,67.5,72.5,-75,72.5,72.5
 2,Antonia Carl,F,B,Juniors,84,Raw,1999,72.55,-50,52.5,-55,52.5,52.5
-1,Mike Grizibek,M,B,,74,Single-ply,1966,73.65,135,142.5,150,150,150
-1,Stefan Schneider,M,B,,93,Single-ply,1967,91.30,140,-150,,140,140
-1,Uwe Hayn,M,B,,105,Single-ply,1959,97.90,145,155,-160,155,155
-1,Mathias Keimling,M,B,,120+,Single-ply,1966,122.40,170,-180,-180,170,170
-1,Egon Escher,M,B,,74,Single-ply,1954,73.30,115,120,125,125,125
-1,Karl-Heinz May,M,B,,120,Single-ply,1953,118.80,145,180,190,190,190
-1,Lothar Hildebrandt,M,B,,105,Single-ply,1943,100.80,130,135,140,140,140
-1,Lisa Anders,F,B,,63,Single-ply,1971,61.80,50,55,60,60,60
-1,Beate Normann-Escher,F,B,,57,Single-ply,1960,55.70,42.5,45,47.5,47.5,47.5
-1,Ines Schneider,F,B,,63,Single-ply,1966,60.65,42.5,47.5,50,50,50
-1,Ilona Greiner,F,B,,72,Single-ply,1946,66.10,60,65,-67.5,65,65
-1,Christian Röhner,M,B,,83,Raw,1977,81.60,130,137.5,140,140,140
-1,Stan Wilhelm,M,B,,93,Raw,1978,87.30,135,137.5,-140,137.5,137.5
-2,Steffen Spörl,M,B,,93,Raw,1974,85.85,127.5,132.5,-135,132.5,132.5
-1,Ronny Kreitl,M,B,,105,Raw,1976,96.60,162.5,170,-175,170,170
-2,Marco Gorges,M,B,,105,Raw,1973,104.20,165,,-177.5,165,165
-3,Nico Dünkel,M,B,,105,Raw,1978,99.70,140,150,160,160,160
-4,Uwe Billig,M,B,,105,Raw,1973,100.60,120,130,-137.5,130,130
-1,Mathias Kneißl,M,B,,120,Raw,1978,105.30,150,155,157.5,157.5,157.5
-2,Andrej Sokolow,M,B,,120,Raw,1969,108.65,150,155,-157.5,155,155
+1,Mike Grizibek,M,B,Masters 2,74,Single-ply,1966,73.65,135,142.5,150,150,150
+1,Stefan Schneider,M,B,Masters 2,93,Single-ply,1967,91.30,140,-150,,140,140
+1,Uwe Hayn,M,B,Masters 2,105,Single-ply,1959,97.90,145,155,-160,155,155
+1,Mathias Keimling,M,B,Masters 2,120+,Single-ply,1966,122.40,170,-180,-180,170,170
+1,Egon Escher,M,B,Masters 3,74,Single-ply,1954,73.30,115,120,125,125,125
+1,Karl-Heinz May,M,B,Masters 3,120,Single-ply,1953,118.80,145,180,190,190,190
+1,Lothar Hildebrandt,M,B,Masters 4,105,Single-ply,1943,100.80,130,135,140,140,140
+1,Lisa Anders,F,B,Masters 1,63,Single-ply,1971,61.80,50,55,60,60,60
+1,Beate Normann-Escher,F,B,Masters 2,57,Single-ply,1960,55.70,42.5,45,47.5,47.5,47.5
+1,Ines Schneider,F,B,Masters 2,63,Single-ply,1966,60.65,42.5,47.5,50,50,50
+1,Ilona Greiner,F,B,Masters 4,72,Single-ply,1946,66.10,60,65,-67.5,65,65
+1,Christian Röhner,M,B,Masters 1,83,Raw,1977,81.60,130,137.5,140,140,140
+1,Stan Wilhelm,M,B,Masters 1,93,Raw,1978,87.30,135,137.5,-140,137.5,137.5
+2,Steffen Spörl,M,B,Masters 1,93,Raw,1974,85.85,127.5,132.5,-135,132.5,132.5
+1,Ronny Kreitl,M,B,Masters 1,105,Raw,1976,96.60,162.5,170,-175,170,170
+2,Marco Gorges,M,B,Masters 1,105,Raw,1973,104.20,165,,-177.5,165,165
+3,Nico Dünkel,M,B,Masters 1,105,Raw,1978,99.70,140,150,160,160,160
+4,Uwe Billig,M,B,Masters 1,105,Raw,1973,100.60,120,130,-137.5,130,130
+1,Mathias Kneißl,M,B,Masters 1,120,Raw,1978,105.30,150,155,157.5,157.5,157.5
+2,Andrej Sokolow,M,B,Masters 1,120,Raw,1969,108.65,150,155,-157.5,155,155
 1,Kim Ricarda Frerichs,F,B,Open,63,Raw,1993,61.70,35,40,-42.5,40,40
 1,Cornelia Machaczeck,F,B,Open,72,Raw,1994,70.10,45,50,55,55,55
 2,Julia Kath,F,B,Open,72,Raw,1981,67.45,40,45,47.5,47.5,47.5
 3,Renee-Ann Puchalla,F,B,Open,72,Raw,1989,63.90,-42.5,-45,45,45,45
-1,Andrea Walther,F,B,,63,Raw,1960,62.90,30,32.5,-37.5,32.5,32.5
-1,Heidi Losansky,F,B,,84,Raw,1953,74.95,30,32.5,35,35,35
-1,Jens Prüfer,M,B,,93,Raw,1966,87.65,115,-120,-122.5,115,115
-2,Fabrizio Quenzel,M,B,,93,Raw,1966,85.40,100,-110,,100,100
-1,Steffen Vitzthum,M,B,,105,Raw,1968,99.95,137.5,-145,,137.5,137.5
-2,Carsten Hauschild,M,B,,105,Raw,1960,96.10,80,90,100,100,100
+1,Andrea Walther,F,B,Masters 2,63,Raw,1960,62.90,30,32.5,-37.5,32.5,32.5
+1,Heidi Losansky,F,B,Masters 3,84,Raw,1953,74.95,30,32.5,35,35,35
+1,Jens Prüfer,M,B,Masters 2,93,Raw,1966,87.65,115,-120,-122.5,115,115
+2,Fabrizio Quenzel,M,B,Masters 2,93,Raw,1966,85.40,100,-110,,100,100
+1,Steffen Vitzthum,M,B,Masters 2,105,Raw,1968,99.95,137.5,-145,,137.5,137.5
+2,Carsten Hauschild,M,B,Masters 2,105,Raw,1960,96.10,80,90,100,100,100
 1,Adrian Montag,M,B,Juniors,93,Single-ply,1999,88.75,192.5,205,215,215,215
 1,Richard Schmidt,M,B,Juniors,105,Single-ply,1995,100.75,150,160,170,170,170
 1,Marcel Partschefeld,M,B,Open,66,Raw,1987,64.45,105,110,-115,110,110
