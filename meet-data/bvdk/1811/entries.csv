@@ -1,4 +1,4 @@
-﻿Place,Name,Sex,Event,Division,Equipment,BirthYear,WeightClassKg,BodyweightKg,Team,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg
+Place,Name,Sex,Event,Division,Equipment,BirthYear,WeightClassKg,BodyweightKg,Team,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg
 1,Jannik Hinsch,M,SBD,Open,Raw,1989,120,112.00,SaV Erfurt,225,240,250,250,140,147.5,155,155,230,250,260,260,665
 1,Sascha Stern,M,SBD,Open,Single-ply,1979,93,86.70,SaV Erfurt,250,-260,,250,200,-210,,200,230,240,250,250,700
 1,Nick Steinbrück,M,SBD,Open,Raw,1994,120,116.20,SaV Erfurt,210,225,-230,225,107.5,112.5,-117.5,112.5,220,230,-240,230,567.5
