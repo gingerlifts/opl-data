@@ -19,12 +19,12 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 5,Colwell,O,USA,,102.5,-117.5,-117.5,102.5,,-52.5,52.5,55,55,,102.5,110,117.5,117.5,275,67.5,F,Single-ply,SBD
 1,Diane Frantz,M3,USA,,130,147.5,167.5,167.5,,60,72.5,80,80,,137.5,160,167.5,167.5,415,67.5,F,Single-ply,SBD
 1,Laura Dodd,O,USA,73.5,215,237.5,257.5,257.5,,97.5,-105,-105,97.5,,215,237.5,242.5,242.5,597.5,75,F,Single-ply,SBD
-2,Stephanie Van De Weghe,O,USA,,187.5,202.5,-217.5,202.5,,97.5,105,-110,105,,187.5,-200,200,200,507.5,75,F,Single-ply,SBD
+2,Stephanie van de Weghe,O,USA,,187.5,202.5,-217.5,202.5,,97.5,105,-110,105,,187.5,-200,200,200,507.5,75,F,Single-ply,SBD
 1,Dawn Reshel-Sharon,O,USA,,215,232.5,-240,232.5,,127.5,137.5,-320,137.5,,220,232.5,242.5,242.5,612.5,82.5,F,Single-ply,SBD
 1,Donna Delleree,M3,USA,,112.5,115,142.5,142.5,,95,-110,-110,95,,142.5,157.5,170,170,407.5,82.5,F,Single-ply,SBD
-1,Maris Anne Sternberg,O,USA,,160,187.5,200,200,,90,100,105,105,,160,182.5,-185,182.5,487.5,90,F,Single-ply,SBD
+1,Maris Sternberg,O,USA,,160,187.5,200,200,,90,100,105,105,,160,182.5,-185,182.5,487.5,90,F,Single-ply,SBD
 1,Julie Schulz,O,USA,,190,202.5,217.5,217.5,,122.5,132.5,-140,132.5,,170,-177.5,177.5,177.5,527.5,90+,F,Single-ply,SBD
-1,Maris Anne Sternberg,M3,USA,,60,,,60,,60,,,60,,60,,,60,180,90+,F,Single-ply,SBD
+1,Maris Sternberg,M3,USA,,60,,,60,,60,,,60,,60,,,60,180,90+,F,Single-ply,SBD
 1,Sutton,T1,USA,,100,107.5,-110,107.5,,87.5,92.5,-95,92.5,,135,137.5,142.5,142.5,342.5,52,M,Single-ply,SBD
 1,Henry Garcia,O,USA,,187.5,-200,-202.5,187.5,,-100,100,110,110,,-187.5,187.5,202.5,202.5,500,52,M,Single-ply,SBD
 1,Mark Hartman,T3,USA,,205,-217.5,-217.5,205,,97.5,105,-112.5,105,,200,-215,-215,200,510,56,M,Single-ply,SBD
@@ -69,13 +69,13 @@ DQ,Hasie Debeer,O,South Africa,,-260,-260,-260,,,,,,,,,,,,,67.5,M,Single-ply,SBD
 1,Terry Dangerfield,M3,USA,,-230,-230,230,230,,145,-155,155,155,,235,252.5,-267.5,252.5,637.5,75,M,Single-ply,SBD
 DQ,Postiy,T2,USA,,237.5,-255,255,255,,-137.5,-137.5,-137.5,,,,,,,,82.5,M,Single-ply,SBD
 1,Frank Mombert,J,Belgium,,230,257.5,270,270,,130,-140,-140,130,,255,-275,-275,255,655,82.5,M,Single-ply,SBD
-2,S Allsop,J,Britain,,180,-190,-200,180,,100,110,115,115,,230,240,-250,240,535,82.5,M,Single-ply,SBD
+2,S. Allsop,J,Britain,,180,-190,-200,180,,100,110,115,115,,230,240,-250,240,535,82.5,M,Single-ply,SBD
 1,Steve Alexander,O,Britain,,300,317.5,,317.5,,200,-210,-210,200,,305,315,-327.5,315,832.5,82.5,M,Single-ply,SBD
 2,Jan Ferreira,O,South Africa,,-320,320,330,330,,200,-210,-210,200,,300,-310,-320,300,830,82.5,M,Single-ply,SBD
-3,Simon Palmer,O,South Africa,,305,-320,-320,305,,165,175,177.5,177.5,,285,-305,-305,285,767.5,82.5,M,Single-ply,SBD
+3,Simon Palmér,O,South Africa,,305,-320,-320,305,,165,175,177.5,177.5,,285,-305,-305,285,767.5,82.5,M,Single-ply,SBD
 4,D. Pearce,O,Britain,,280,295,-310,295,,145,150,155,155,,265,275,-280,275,725,82.5,M,Single-ply,SBD
 1,John Charles Varrone Jr,M2,USA,,240,250,-260,250,,122.5,-135,-135,122.5,,240,260,,260,632.5,82.5,M,Single-ply,SBD
-1,M Brown,M3,Britain,,250,265,-275,265,,150,160,-162.5,160,,260,272.5,-280,272.5,697.5,82.5,M,Single-ply,SBD
+1,M. Brown,M3,Britain,,250,265,-275,265,,150,160,-162.5,160,,260,272.5,-280,272.5,697.5,82.5,M,Single-ply,SBD
 2,Morris,M3,USA,,180,200,220,220,,120,140,-150,140,,180,210,-230,210,570,82.5,M,Single-ply,SBD
 3,Bayliss,M3,USA,,-175,-185,192.5,192.5,,130,137.5,-142.5,137.5,,210,-227.5,-227.5,210,540,82.5,M,Single-ply,SBD
 DQ,Phillips,M4,USA,,-190,-190,-190,,,,,,,,,,,,,82.5,M,Single-ply,SBD

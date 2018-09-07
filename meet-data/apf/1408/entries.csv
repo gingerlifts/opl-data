@@ -63,7 +63,7 @@ Ivan Gontaryuk,Masters 75-79,1935-12-19,79,67.5,M,SBD,Wraps,Yes,67.3,Russia,-110
 Adam Gubzhev,Teen 16-17,1996-09-11,18,75,M,SBD,Wraps,Yes,74,Russia,140,160,165,,165,105,-112.5,112.5,,112.5,180,195,202.5,,202.5,480,1
 Dmitriy Kozhemyakin,Teen 16-17,1997-06-03,17,75,M,SBD,Wraps,Yes,73.7,Russia,140,-150,150,,150,105,115,-120,,115,180,190,-207.5,,190,455,2
 Anzor Shokuyev,Teen 18-19,1994-10-12,20,75,M,SBD,Wraps,Yes,71.5,Russia,160,185,190,,190,120,132.5,,,132.5,170,-210,210,,210,532.5,1
-Dmitriy Nasonov,Juniors 20-23,1992-02-13,22,75,M,SBD,Wraps,Yes,73.2,Russia,200,212.5,217.5,,217.5,135,140,-145,,140,287.5,300,310,,310,667.5,1
+Dmitry Nasonov,Juniors 20-23,1992-02-13,22,75,M,SBD,Wraps,Yes,73.2,Russia,200,212.5,217.5,,217.5,135,140,-145,,140,287.5,300,310,,310,667.5,1
 Mikhail Vorobyev,Juniors 20-23,1990-11-21,24,75,M,SBD,Wraps,Yes,74.4,Russia,175,-185,190,,190,145,155,-160,,155,210,225,-232.5,,225,570,2
 Rinat Suleymenov,Juniors 20-23,1994-03-11,20,75,M,SBD,Wraps,Yes,73.7,Russia,170,180,-190,,180,120,125,-130,,125,210,220,-230,,220,525,3
 Maksim Amanatov,Juniors 20-23,1990-10-13,24,75,M,SBD,Wraps,Yes,73.4,Russia,170,-180,-180,,170,110,-120,-120,,110,-230,-250,-250,,,,DQ
@@ -134,7 +134,7 @@ Aleksey Vorotnikov,Open,1980-10-08,34,100,M,SBD,Wraps,Yes,98.2,Russia,215,-225,-
 Azer Aliyev,Open,1986-06-04,28,100,M,SBD,Wraps,Yes,99.6,Azerbaijan,-212.5,-212.5,-212.5,,,,,,,,-230,,,,,,DQ
 Vladimir Oleksenko,Masters 40-44,1971-11-12,43,100,M,SBD,Wraps,Yes,92.8,Russia,200,210,220,,220,-170,175,-185,,175,220,230,-240,,230,625,1
 Andrey Sukharev,Masters 40-44,1974-07-22,40,100,M,SBD,Wraps,Yes,98.6,Russia,215,225,-235,,225,157.5,162.5,-165,,162.5,-225,225,-232.5,,225,612.5,2
-Sukh-ochir Yura,Masters 40-44,1970-06-19,44,100,M,SBD,Wraps,Yes,96.4,Mongolia,190,200,-210,,200,110,120,130,,130,-230,230,240,,240,570,3
+Sukh-Ochir Yura,Masters 40-44,1970-06-19,44,100,M,SBD,Wraps,Yes,96.4,Mongolia,190,200,-210,,200,110,120,130,,130,-230,230,240,,240,570,3
 Aleksandr Ilin,Masters 45-49,1964-11-20,50,100,M,SBD,Wraps,Yes,98.1,Russia,205,212.5,216,,216,150,-155,157.5,,157.5,257.5,267.5,-270.5,,267.5,641,1
 Vyacheslav Frank,Masters 50-54,1962-03-03,52,100,M,SBD,Wraps,Yes,98.1,Russia,170,185,-195,,185,135,140,142.5,,142.5,205,217.5,-227.5,,217.5,545,1
 Igor Averin,Masters 50-54,1963-01-12,51,100,M,SBD,Wraps,Yes,99,Russia,-180,-180,-180,,,-132.5,,,,,-190,,,,-190,,DQ
@@ -227,10 +227,10 @@ Aleksey Belanchik,Masters 40-44,1974-06-29,40,125,M,SBD,Single-ply,Yes,116.5,Rus
 Ankhbayar Damdin,Open,1979-07-15,35,140,M,SBD,Single-ply,Yes,132.6,Mongolia,270,,,,270,210,-225,,,210,-180,182.5,,,182.5,662.5,1
 Darya Churyumova,Open,1989-12-07,25,52,F,SBD,Multi-ply,Yes,50.75,Russia,130,135,-140,,135,65,67.5,-72.5,,67.5,130,-137.5,137.5,,137.5,340,1
 Natalya Blinkova,Open,1991-03-20,23,56,F,SBD,Multi-ply,Yes,55.5,Russia,-170,-170,-170,,,,,,,,,,,,,,DQ
-Svetlana Veselova,Open,1987-09-19,27,60,F,SBD,Multi-ply,Yes,58.7,Russia,120,130,-140,,130,70,80,-90,,80,130,-140,-140,,130,340,1
+Světlana Veselova,Open,1987-09-19,27,60,F,SBD,Multi-ply,Yes,58.7,Russia,120,130,-140,,130,70,80,-90,,80,130,-140,-140,,130,340,1
 Vizhe Mirmirani,Masters 45-49,1965-04-14,49,60,F,SBD,Multi-ply,Yes,59.3,Russia,140,150,-160,,150,90,-100,-100,,90,140,150,-155,,150,390,1
 Yuliya Umerenkova,Open,1980-12-09,34,67.5,F,SBD,Multi-ply,Yes,67.4,Russia,185,195,200,,200,100,105,-110,,105,-185,-185,-185,,,,DQ
-Igor Lyubayev,Open,1979-04-30,35,67.5,M,SBD,Multi-ply,Yes,64.55,Russia,210,230,240,-251,240,120,130,-140,,130,210,222.5,235,-242.5,235,605,1
+Igor Lyubaev,Open,1979-04-30,35,67.5,M,SBD,Multi-ply,Yes,64.55,Russia,210,230,240,-251,240,120,130,-140,,130,210,222.5,235,-242.5,235,605,1
 Ivan Bezrukov,Open,1989-01-05,25,67.5,M,SBD,Multi-ply,Yes,67.5,Russia,-190,190,-195,,190,105,-110,-110,,105,200,205,-210,,205,500,2
 Ayurbold Gansukh,Juniors 20-23,1991-08-27,23,75,M,SBD,Multi-ply,Yes,69,Mongolia,230,245,255,,255,145,155,165,,165,190,202.5,-212.5,,202.5,622.5,1
 Oleg Son,Juniors 20-23,1991-05-22,23,75,M,SBD,Multi-ply,Yes,74.5,Russia,235,-250,250,,250,137.5,145,150,,150,207.5,222.5,-227.5,,222.5,622.5,2
@@ -832,7 +832,7 @@ Anton Ilyasov,Open,1988-11-25,26,100,M,D,Raw,Yes,97.3,Russia,,,,,,,,,,,310,325,3
 Maksim Markov,Open,1985-11-07,29,100,M,D,Raw,Yes,96.1,Russia,,,,,,,,,,,290,-302.5,-302.5,,290,290,2
 Aleksandr Kablukov,Open,1984-12-25,30,100,M,D,Raw,Yes,98.3,Russia,,,,,,,,,,,-270,280,-292.5,,280,280,3
 Konstantin Seregin,Open,1978-01-19,36,100,M,D,Raw,Yes,98.1,Russia,,,,,,,,,,,250,267.5,-270,,267.5,267.5,4
-Sukh-ochir Yura,Masters 40-44,1970-06-19,44,100,M,D,Raw,Yes,95.6,Mongolia,,,,,,,,,,,230,242.5,-252.5,,242.5,242.5,1
+Sukh-Ochir Yura,Masters 40-44,1970-06-19,44,100,M,D,Raw,Yes,95.6,Mongolia,,,,,,,,,,,230,242.5,-252.5,,242.5,242.5,1
 Dmitriy Kalinin,Masters 40-44,1970-02-16,44,100,M,D,Raw,Yes,93.5,Russia,,,,,,,,,,,232.5,235,240,,240,240,2
 Zaur Ismailov,Masters 40-44,1973-06-19,41,100,M,D,Raw,Yes,96,Azerbaijan,,,,,,,,,,,170,190,200,,200,200,3
 Vladimir Kalinin,Masters 50-54,1960-07-18,54,100,M,D,Raw,Yes,97.2,Russia,,,,,,,,,,,202.5,207.5,-210,,207.5,207.5,1
