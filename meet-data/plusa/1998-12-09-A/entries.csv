@@ -29,7 +29,7 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Jean Wayne,M3,USA,62.1,55,-72.5,-72.5,55,,37.5,45,-50,45,-62.5,65,87.5,87.5,,187.5,67.5,F,Multi-ply,SBD
 1,Patricia Thomas,M5,Canada,67.2,77.5,-85,-85,77.5,,35,40,-42.5,40,95,105,-110,105,,222.5,67.5,F,Multi-ply,SBD
 1,Andrea Callan,T3,Great Britain,70.5,100,120,132.5,132.5,,70,75,80,80,-150,150,175,175,,387.5,75,F,Multi-ply,SBD
-1,Stephanie Van De Weghe,O,USA,74.7,-245,245,-267.5,245,,155,-167.5,167.5,167.5,182.5,205,-215,205,,617.5,75,F,Multi-ply,SBD
+1,Stephanie van de Weghe,O,USA,74.7,-245,245,-267.5,245,,155,-167.5,167.5,167.5,182.5,205,-215,205,,617.5,75,F,Multi-ply,SBD
 2,Gabi Weinberger,O,Germany,74,155,-167.5,-167.5,155,,80,87.5,-90,87.5,180,-195,-195,180,,422.5,75,F,Multi-ply,SBD
 1,Pam Coons,M1,USA,70.3,117.5,-135,-137.5,117.5,,75,82.5,-87.5,82.5,102.5,125,130,130,,330,75,F,Multi-ply,SBD
 1,Patricia Damon,M2,USA,73,115,-127.5,-127.5,115,,70,-77.5,-77.5,70,117.5,125,127.5,127.5,,312.5,75,F,Multi-ply,SBD
@@ -66,11 +66,11 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 2,Stephane Moret,O,France,59.3,180,-240,-240,180,,120,-130,-130,120,-200,-200,200,200,,500,60,M,Multi-ply,SBD
 3,Luciano Pelligrino,O,Italy,58.7,150,160,170,170,,85,-90,-90,85,190,-200,200,200,,455,60,M,Multi-ply,SBD
 1,Stanley Du Plessis,T1,South Africa,67.5,130,160,-188,160,,75,-85,85,85,170,190,-200,190,,435,67.5,M,Multi-ply,SBD
-1,Justin Wilson,T2,South Africa,66.3,-80,80,-100,80,,60,70,-80,70,100,120,140,140,,290,67.5,M,Multi-ply,SBD
+1,Justin Wilson #5,T2,South Africa,66.3,-80,80,-100,80,,60,70,-80,70,100,120,140,140,,290,67.5,M,Multi-ply,SBD
 1,Thomas Lackner,J,Austria,64.8,180,195,200,200,,100,107.5,115,115,185,197.5,-205,197.5,,512.5,67.5,M,Multi-ply,SBD
 2,Fabrice Brottier,J,France,67.4,155,170,177.5,177.5,,102.5,107.5,110,110,190,202.5,215,215,,502.5,67.5,M,Multi-ply,SBD
 3,Rustam Vagif Musayev,J,Azerbaijan,65,-160,160,180,180,,90,105,-110,105,190,205,-215,205,,490,67.5,M,Multi-ply,SBD
-1,Seppo Sakari Selkäinaho,O,Finland,67.5,-250,-260,260,260,,155,-162.5,-162.5,155,-240,240,-255,240,,655,67.5,M,Multi-ply,SBD
+1,Sakari Selkäinaho,O,Finland,67.5,-250,-260,260,260,,155,-162.5,-162.5,155,-240,240,-255,240,,655,67.5,M,Multi-ply,SBD
 2,Umberto Breglia,O,Italy,65.7,205,-215,-215,205,,125,-132.5,132.5,132.5,240,250,-260,250,,587.5,67.5,M,Multi-ply,SBD
 3,Tim Judge,O,USA,67.5,215,-235,-235,215,,145,155,-162.5,155,205,215,-227.5,215,,585,67.5,M,Multi-ply,SBD
 4,Michelangelo Minniti,O,Italy,67.2,202.5,-220,-220,202.5,,115,125,-132.5,125,215,230,240,240,,567.5,67.5,M,Multi-ply,SBD
@@ -198,7 +198,7 @@ DQ,Georg Haake,O,Germany,89.6,285,-305,-310,285,,167.5,175,180,180,-315,-315,-31
 9,Dawie Els,O,South Africa,98.5,200,215,-230,215,,-125,125,-135,125,200,215,230,230,,570,100,M,Multi-ply,SBD
 DQ,Matteo Armellini,O,Italy,99.1,-330,-330,-330,,,,,,,,,,,,,100,M,Multi-ply,SBD
 DQ,Krister Kangas,O,Finland,97.9,305,320,330,330,,185,-192.5,192.5,192.5,-330,-330,-330,,,,100,M,Multi-ply,SBD
-1,Sakari Mantyla,M1,Finland,97.6,280,300,315,315,,155,165,170,170,290,300,-305,300,,785,100,M,Multi-ply,SBD
+1,Sakari Mäntylä,M1,Finland,97.6,280,300,315,315,,155,165,170,170,290,300,-305,300,,785,100,M,Multi-ply,SBD
 2,Philip Bell,M1,Great Britain,98.3,245,265,-280,265,,200,210,-215,210,292.5,302.5,-317.5,302.5,,777.5,100,M,Multi-ply,SBD
 3,Eduard Kesaev,M1,Russia,99.9,250,260,-265,260,,190,-200,-200,190,260,-270,-270,260,,710,100,M,Multi-ply,SBD
 4,Michael Higgins,M1,USA,90.9,205,227.5,-260,227.5,,160,165,172.5,172.5,215,-242.5,242.5,242.5,,642.5,100,M,Multi-ply,SBD
@@ -239,7 +239,7 @@ DQ,Bakhtiyar Guliyev,J,Azerbaijan,112,-300,-300,-300,,,,,,,,,,,,,125,M,Multi-ply
 4,Alain Jungo,O,Switzerland,119.9,310,340,-350,340,,170,-180,-180,170,320,350,370,370,,880,125,M,Multi-ply,SBD
 5,Ruggiero Chiannese,O,South Africa,121.8,300,320,-330,320,,220,230,-240,230,320,330,-350,330,,880,125,M,Multi-ply,SBD
 6,Stefan Gladu,O,Switzerland,117.3,280,290,300,300,,180,190,200,200,290,300,312.5,312.5,,812.5,125,M,Multi-ply,SBD
-7,Robert Mobius,O,Austria,121.9,310,-320,320,320,,202.5,-207.5,-207.5,202.5,290,-300,-300,290,,812.5,125,M,Multi-ply,SBD
+7,Robert Möbius,O,Austria,121.9,310,-320,320,320,,202.5,-207.5,-207.5,202.5,290,-300,-300,290,,812.5,125,M,Multi-ply,SBD
 8,Nigel Hatton,O,Great Britain,120.6,290,-320,-320,290,,-190,190,-195,190,290,320,330,330,,810,125,M,Multi-ply,SBD
 9,Dave Chouinard,O,Canada,112.6,-265,285,-307.5,285,,165,182.5,-190,182.5,225,252.5,260,260,,727.5,125,M,Multi-ply,SBD
 10,Bennie Rossouw,O,South Africa,125,220,240,260,260,,150,160,175,175,240,260,280,280,,715,125,M,Multi-ply,SBD
@@ -347,7 +347,7 @@ DQ,Oliver Kopp Dr. Marc,O,Germany,89.7,,,,,,-205,-205,-205,,,,,,,,90,M,Multi-ply
 2,Heinz Buhl,M1,Austria,89.4,,,,,,175,-185,-185,175,,,,,,175,90,M,Multi-ply,B
 3,Marcello Paredi,M1,Italy,87,,,,,,150,-160,-160,150,,,,,,150,90,M,Multi-ply,B
 DQ,Glenn Clayman,M1,USA,89.4,,,,,,-200,-210,-210,,,,,,,,90,M,Multi-ply,B
-DQ,Jan Linden,M1,Finland,89.2,,,,,,-250,-250,-250,,,,,,,,90,M,Multi-ply,B
+DQ,Jan Lindén,M1,Finland,89.2,,,,,,-250,-250,-250,,,,,,,,90,M,Multi-ply,B
 1,Lucio Sartori,M2,Italy,89.8,,,,,,130,135,-140,135,,,,,,135,90,M,Multi-ply,B
 1,Elvio Malpelo,M3,Italy,84.9,,,,,,130,140,147.5,147.5,,,,,,147.5,90,M,Multi-ply,B
 1,Alfred Stolz,M4,Austria,89.7,,,,,,150,155,-160,155,,,,,,155,90,M,Multi-ply,B
@@ -396,7 +396,7 @@ DQ,Kevin Green Brian,O,South Africa,106.5,,,,,,-235,-235,-240,,,,,,,,110,M,Multi
 2,Meinhardt Schroeder,M2,Germany,122.3,,,,,,200,210,-220,210,,,,,,210,125,M,Multi-ply,B
 3,Ian Visser,M2,South Africa,115.6,,,,,,180,-202.5,-202.5,180,,,,,,180,125,M,Multi-ply,B
 1,Jerry O'Conner,M3,Canada,113.2,,,,,,167.5,-182.5,-182.5,167.5,,,,,,167.5,125,M,Multi-ply,B
-1,J.M. Blakley,O,USA,132.5,,,,,,290,-300,300,300,,,,,,300,140,M,Multi-ply,B
+1,JM Blakley,O,USA,132.5,,,,,,290,-300,300,300,,,,,,300,140,M,Multi-ply,B
 2,Boris Wyssen,O,Switzerland,127.1,,,,,,230,240,-245,240,,,,,,240,140,M,Multi-ply,B
 3,Gerhard Holleitner,O,Austria,125.1,,,,,,225,235,-245,235,,,,,,235,140,M,Multi-ply,B
 4,Alexander Rubner,O,Germany,125.6,,,,,,220,230,-245,230,,,,,,230,140,M,Multi-ply,B
