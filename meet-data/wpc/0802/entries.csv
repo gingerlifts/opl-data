@@ -7,7 +7,7 @@ USA,Wayne Flesh III,,SBD,M,T2,,56,147.5,,,,72.5,,125,345,1,Multi-ply
 Russia,Victor Malyugin,,SBD,M,T3,,125,380,,,,235,,230,845,1,Multi-ply
 USA,Eric Lieux,,SBD,M,T3,,90,277.5,,,,170,,215,662.5,1,Multi-ply
 Egypt,Ahmed Hassanin,,SBD,M,J,,140+,430,,,,280,,290,1000,1,Multi-ply
-FIN,Miika Ruuskanen,,SBD,M,J,,140,310,,,,227.5,,280,817.5,1,Multi-ply
+Finland,Miika Ruuskanen,,SBD,M,J,,140,310,,,,227.5,,280,817.5,1,Multi-ply
 UK,James Godber,,SBD,M,J,,125,240,,,,162.5,,255,657.5,1,Multi-ply
 ,Jamie Williams,,SBD,M,J,,110,345,,,,205,,320,870,1,Multi-ply
 UK,Azer Aliyev,,SBD,M,J,,100,227.5,,,,152.5,,230,610,2,Multi-ply
@@ -103,7 +103,7 @@ USA,Dennis Pittman,58,SBD,M,M4,79.9,82.5,260,,,,160,,242.5,662.5,1,Multi-ply
 France,Jean-Pierre Chamburland,56,SBD,M,M4,79.45,82.5,255,,,,150,,205,610,2,Multi-ply
 USA,Robert Lovelace,57,SBD,M,M4,79.8,82.5,210,,,,155,,212.5,577.5,3,Multi-ply
 Russia,Yuriy Chepets,65,SBD,M,M6,77.1,82.5,225,,,,170,,215,610,1,Multi-ply
-FIN,Aimo Mursu,66,SBD,M,M6,80.05,82.5,222.5,,,,135,,242.5,600,2,Multi-ply
+Finland,Aimo Mursu,66,SBD,M,M6,80.05,82.5,222.5,,,,135,,242.5,600,2,Multi-ply
 USA,Ron Edwards,70,SBD,M,M7,81.6,82.5,175,,,,140,,210,525,1,Multi-ply
 Russia,Andrey Sizov,40,SBD,M,M1,90,90,320,,,,222.5,,315,857.5,1,Multi-ply
 Egypt,Khaled Hussein,40,SBD,M,M1,89.5,90,350,,,,210,,260,820,2,Multi-ply
@@ -144,7 +144,7 @@ UK,Budgie Mullan,64,B,M,M5,67.1,67.5,,,,,87.5,,,87.5,1,Multi-ply
 France,Guylhem Feraud,60,B,M,M5,73.95,75,,,,,132.5,,,132.5,1,Multi-ply
 USA,Scott Craig,62,B,M,M5,79.9,82.5,,,,,197.5,,,197.5,1,Multi-ply
 Russia,Yuriy Chepets,65,B,M,M6,77.1,82.5,,,,,170,,,170,1,Multi-ply
-FIN,Aimo Mursu,66,B,M,M6,80.05,82.5,,,,,135,,,135,2,Multi-ply
+Finland,Aimo Mursu,66,B,M,M6,80.05,82.5,,,,,135,,,135,2,Multi-ply
 USA,Terry Lancaster,66,B,M,M6,98.3,100,,,,,175,,,175,1,Multi-ply
 USA,Iosif Plagov,73,B,M,M7,63.95,67.5,,,,,85,,,85,1,Multi-ply
 Russia,Yury Kiselev,71,B,M,M7,64.8,67.5,,,,,80,,,80,2,Multi-ply
@@ -191,7 +191,7 @@ USA,Chris Sanford,44,SBD,M,M1,103.6,110,262.5,,,,172.5,,250,685,5,Multi-ply
 USA,Joe Norman,40,SBD,M,M1,108.1,110,,,,,,,,,DQ,Multi-ply
 Russia,Lev Bergert,42,SBD,M,M1,124.1,125,310,,,,260,,280,850,1,Multi-ply
 USA,Barry Sturdivant,43,SBD,M,M1,122.1,125,,,,,,,,,DQ,Multi-ply
-HUN,Tibor Mészáros,41,SBD,M,M1,147.3,140+,340,,,,180,,380.5,900,1,Multi-ply
+Hungary,Tibor Mészáros,41,SBD,M,M1,147.3,140+,340,,,,180,,380.5,900,1,Multi-ply
 USA,Ed Fitzpatrick,60,B,M,M5,111.7,125,,213,-227.5,-227.5,213,,,213,1,Multi-ply
 USA,Dick Zenzen,56,B,M,M4,100,100,,172.5,185,-197.5,185,,,185,1,Multi-ply
 USA,Floyd Givens,57,B,M,M4,99,100,,,,,,,,,DQ,Multi-ply
@@ -251,7 +251,7 @@ Slovakia,Luboslav Velgos,,SBD,M,O,,140,360,,,,215,,325,900,5,Multi-ply
 Egypt,Mohamed Mohamed,,SBD,M,O,,140,380,,,,210,,310,900,6,Multi-ply
 USA,John Manly,,SBD,M,O,,140,455,,,,,,,,DQ,Multi-ply
 UK,Andy Bolton,,SBD,M,O,,140+,520,,,,312.5,,427.5,1260,1,Multi-ply
-FIN,Kari Kalliola,,SBD,M,O,,140+,500,,,,370,,295,1165,2,Multi-ply
+Finland,Kari Kalliola,,SBD,M,O,,140+,500,,,,370,,295,1165,2,Multi-ply
 Egypt,Ahmed Hassanin,,SBD,M,O,,140+,420,,,,275,,250,945,3,Multi-ply
 USA,Garry Frank,,SBD,M,O,,140+,480,,,,,,,,DQ,Multi-ply
 USA,Matt Minuth,,B,M,O,,100,,347.5,-357.5,-357.5,347.5,,,347.5,1,Multi-ply
@@ -279,7 +279,7 @@ USA,Scott Barnes,,B,M,O,,140,,-300,-300,-300,,,,,DQ,Multi-ply
 France,Richard Ligier,,B,M,O,,140,,-400,-400,-400,,,,,DQ,Multi-ply
 USA,Scot Mendelson,,B,M,O,,140+,,410,460,465,465,-490,,465,1,Multi-ply
 USA,Robert Vick,,B,M,O,,140+,,382.5,-415,-462.5,382.5,,,382.5,2,Multi-ply
-FIN,Kari Kalliola,,B,M,O,,140+,,-355,355,370,370,,,370,3,Multi-ply
+Finland,Kari Kalliola,,B,M,O,,140+,,-355,355,370,370,,,370,3,Multi-ply
 Egypt,Ahmed Hassanin,,B,M,O,,140+,,250,275,-285,275,,,275,4,Multi-ply
 Russia,Aleksey Brazhkin,,B,M,O,,140+,,-270,-285,-285,,,,,DQ,Multi-ply
 Russia,Alexander Onuchin,,SBD,M,O,,56,185,,,,130,,220,535,1,Multi-ply
@@ -302,7 +302,7 @@ Russia,Maksim Tomchin,,SBD,M,O,,82.5,,,,,202.5,,,,DQ,Multi-ply
 Ukraine,Serigy Nalyeykin,,SBD,M,O,,90,440,,,,310,,300,1050,1,Multi-ply
 Russia,Andrej Sharapov,,SBD,M,O,,90,410,,,,235,,327.5,972.5,2,Multi-ply
 USA,Jason Coker,,SBD,M,O,,90,365,,,,352.5,,252.5,970,3,Multi-ply
-UK,Patrick Griffin,,SBD,M,O,,90,310,,,,237.5,,272.5,820,4,Multi-ply
+UK,Patrick GrifFinland,,SBD,M,O,,90,310,,,,237.5,,272.5,820,4,Multi-ply
 Egypt,Khaled Abd Rabou,,SBD,M,O,,90,330,,,,230,,260,820,5,Multi-ply
 UK,Steve Plunkett,,SBD,M,O,,90,310,,,,200,,260,770,6,Multi-ply
 Egypt,Mohamed Harmy,,SBD,M,O,,90,260,,,,167.5,,310,737.5,7,Multi-ply
