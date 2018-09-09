@@ -1,4 +1,4 @@
-Name,Place,WeightClassKg,Division,Sex,BodyweightKg,BirthYear,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event ,Equipment 
+Name,Place,WeightClassKg,Division,Sex,BodyweightKg,BirthYear,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Equipment
 Dennis Glok,1,83,Junior,M,82.15,1998,192.5,202.5,225,225,225,D,Single-ply
 Stefan Rzehak,1,120,Open,M,117.7,1991,-320,340,-355.5,340,340,D,Single-ply
 Tobias Zinserling,1,120,Open,M,150.5,1978,325,345,-371,345,345,D,Single-ply
