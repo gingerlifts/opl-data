@@ -8,7 +8,7 @@ Alex Loszkorih,2,120,subjuniors,M,106,2002,100,110,120,120,120,D,Single-ply
 Jitka Mormanova,1,57,Open,F,56.1,1982,105,117.5,120,120,120,D,Single-ply
 Natalie Weber,1,84,Junior,F,80.45,1996,100,112.5,120,120,120,D,Single-ply
 Anke Beninga,1,84,Master3,F,75.4,1954,110,117.5,122.5,122.5,122.5,D,Single-ply
-Carsten Hauschild,2,105,Master2,M,96.9,1960,125,-,-,125,125,D,Single-ply
+Carsten Hauschild,2,105,Master2,M,96.9,1960,125,,,125,125,D,Single-ply
 Susann-Marie Gola,1,63,Subjunior,F,61.35,2001,110,120,125,125,125,D,Single-ply
 Lukas Weidich,2,105,subjuniors,M,94.65,2002,110,120,135,135,135,D,Single-ply
 Petra Dietmayr,1,84,Master2,F,73.25,1967,120,130,137.5,137.5,137.5,D,Single-ply
@@ -57,11 +57,11 @@ Patrick Popp,3,83,Junior,M,78.45,1997,200,212.5,220,220,220,D,Single-ply
 Simon Eichler,3,83,Open,M,78.7,1993,205,220,-227.5,220,220,D,Single-ply
 Jonas Diefenbach,2,83,Junior,M,77.4,1998,205,220,222.5,222.5,222.5,D,Single-ply
 Marcus Siegmund,2,74,Open,M,71.5,1993,215,227.5,-235,227.5,227.5,D,Single-ply
-Siegmund Schiebe,2,105,Master3,M,104,1953,230,-240,-,230,230,D,Single-ply
+Siegmund Schiebe,2,105,Master3,M,104,1953,230,-240,,230,230,D,Single-ply
 Armin Ehinger,1,120,Master3,M,116.9,1957,210,220,230,230,230,D,Single-ply
 Fabrizio Quensel,1,83,Master2,M,82.75,1966,210,230,-242.5,230,230,D,Single-ply
 Dirk Motzkus,2,120,Master1,M,105.1,1977,200,220,230,230,230,D,Single-ply
-Christian Henneberger,1,74,Master1,M,73.05,1973,220,232.5,-,232.5,232.5,D,Single-ply
+Christian Henneberger,1,74,Master1,M,73.05,1973,220,232.5,,232.5,232.5,D,Single-ply
 Johann Goldstein,1,83,Master3,M,80.6,1957,220,232.5,235,235,235,D,Single-ply
 Jörg Kasparek,1,93,Master2,M,90.45,1968,200,220,235,235,235,D,Single-ply
 Simon Bausewein,5,105,Junior,M,100.2,1997,220,235,-240,235,235,D,Single-ply
