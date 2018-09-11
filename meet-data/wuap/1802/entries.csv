@@ -1,9 +1,9 @@
-Name,Sex,Event,Equipment,BodyweightKg,WeightClassKg,Division,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlfit4Kg,TotalKg,Place
+Name,Sex,Event,Equipment,BodyweightKg,WeightClassKg,Division,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place
 Erin Wiezeorick,F,SBD,Raw,50.8,52,Junior,52.5,57.5,62.5,62.5,45,-50,-50,,45,92.5,100,-105,100,207.5,1
-Meagan OConnor,F,SBD,Raw,50.8,52,Open,90,100,107.5,107.5,45,52.5,57.5,,57.5,85,95,-102.5,95,260.0,1
+Meagan O'Connor,F,SBD,Raw,50.8,52,Open,90,100,107.5,107.5,45,52.5,57.5,,57.5,85,95,-102.5,95,260.0,1
 Lauri Meins,F,SBD,Raw,51.6,52,Open,80,87.5,-92.5,87.5,42.5,-47.5,-47.5,,42.5,120,127.5,-137.5,127.5,257.5,2
 Elizabeth Johnson,F,SBD,Raw,54.8,56,Open,77.5,90,-97.5,90,40,47.5,-50,,47.5,102.5,115,-125,115,252.5,1
-Veronika Kurnat,F,SBD,Raw,59.3,60,Teen 16-17,120,130,140,140,65,65,-72.5,,65,130,140,-150,140,345.0,1
+Veronika Kurnat,F,SBD,Raw,59.3,60,Teen 16-17,120,130,140,140,-65,65,-72.5,,65,130,140,-150,140,345.0,1
 Tisha Timan,F,SBD,Raw,59.7,60,Master 40-44,97.5,105,110,110,55,60,-62.5,,60,120,130,,130,300.0,1
 Allison Tucker,F,SBD,Raw,60,60,Open,97.5,-105,-107.5,97.5,55,-57.5,-57.5,,55,132.5,-137.5,-137.5,132.5,285.0,1
 Lauri Brown,F,SBD,Raw,64.5,67.5,Submaster,77.5,85,87.5,87.5,45,50,52.5,,52.5,122.5,130,,130,270.0,1
@@ -16,7 +16,7 @@ Rachel Smola,F,SBD,Raw,96.5,90+,Submaster,70,80,85,85,47.5,52.5,-60,,52.5,82.5,9
 Kaylla Weber,F,SBD,Raw,91.7,90+,Open,147.5,-155,155,155,77.5,85,87.5,,87.5,152.5,162.5,170,170,412.5,1
 Jared Senffner,M,SBD,Raw,66.5,67.5,Junior,87.5,92.5,115,115,87.5,92.5,95,,95,100,110,120,120,330.0,1
 Trent Whitted,M,SBD,Raw,70.3,75,Teen 16-17,107.5,115,125,125,75,82.5,87.5,,87.5,172.5,185,190,190,402.5,1
-Jed Smith,M,SBD,Raw,73.6,75,Teen 16-17,65,85,110,110,45,45,62.5,,62.5,110,142.5,160,160,332.5,2
+Jed Smith,M,SBD,Raw,73.6,75,Teen 16-17,65,85,110,110,-45,45,62.5,,62.5,110,142.5,160,160,332.5,2
 Julian Zbotaniw,M,SBD,Raw,73.9,75,Junior,127.5,-135,-137.5,127.5,95,100,-105,,100,162.5,167.5,175,175,402.5,1
 David Overholt,M,SBD,Raw,73.4,75,Master 55-59,-130,137.5,145,145,70,72.5,-75,,72.5,162.5,-170,,162.5,380.0,1
 Eric Mendoza,M,SBD,Raw,81.4,82.5,Junior,212.5,227.5,235,235,135,142.5,147.5,-152.5,147.5,240,255,-272.5,255,637.5,1
@@ -32,7 +32,7 @@ Lloyd Burchett,M,SBD,Raw,96,100,Open,162.5,175,182.5,182.5,142.5,155,-162.5,,155
 Woody Baker,M,SBD,Raw,96.9,100,Open,-242.5,-242.5,,,,,,,,,,,,,DQ
 Percy Colvin,M,SBD,Raw,106.4,110,Submaster,-272.5,272.5,282.5,282.5,205,-217.5,-227.5,,205,250,257.5,-272.5,257.5,745.0,1
 Christopher Graf,M,SBD,Raw,107.9,110,Open,242.5,255,270,270,150,165,-170,,165,247.5,260,272.5,272.5,707.5,1
-Andrew Tucker,M,SBD,Raw,108.9,110,Open,262.5,-277.5,-277.5,262.5,157.5,165,165,,165,262.5,-272.5,-277.5,262.5,690.0,2
+Andrew Tucker,M,SBD,Raw,108.9,110,Open,262.5,-277.5,-277.5,262.5,157.5,-165,165,,165,262.5,-272.5,-277.5,262.5,690.0,2
 Josh Strohm,M,SBD,Raw,108.4,110,Open,210,230,-242.5,230,160,-177.5,-177.5,,160,245,-260,,245,635.0,3
 Mike Schaefer,M,SBD,Raw,106.7,110,Open,185,197.5,210,210,130,142.5,-150,,142.5,227.5,245,255,255,607.5,4
 Byron Mitchell,M,SBD,Raw,109.1,110,Open,167.5,182.5,197.5,197.5,140,142.5,-150,,142.5,217.5,225,230,230,570.0,5
