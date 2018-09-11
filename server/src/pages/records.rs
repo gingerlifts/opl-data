@@ -184,20 +184,33 @@ impl<'db> SingleRecordCollector<'db> {
         if self.accumulator[last]
             .map_or(true, |e| compare(meets, entry, e) == Ordering::Less)
         {
-            self.accumulator[last] = Some(entry);
+            // This entry matched.
+            // Since each lifter is only to be counted once in each category,
+            // scan through the accumulator and look to replace an existing entry.
+            let same_lifter: Option<usize> = self.accumulator.iter().position(|opt| {
+                opt.map_or(false, |e| e.lifter_id == entry.lifter_id)
+            });
+            match same_lifter {
+                None => {
+                    self.accumulator[last] = Some(entry);
+                }
+                Some(pos) => {
+                    let orig = &self.accumulator[pos].unwrap();
+                    // Only replace the lifter's entry if this one is better.
+                    if compare(meets, entry, orig) == Ordering::Less {
+                        self.accumulator[pos] = Some(entry);
+                    }
+                }
+            };
+
+            // Always maintain sorted order.
             self.accumulator.sort_by(|a, b| {
-                if a.is_none() && b.is_none() {
-                    return Ordering::Equal;
+                match (a, b) {
+                    (None, None) => Ordering::Equal,
+                    (Some(_), None) => Ordering::Less,
+                    (None, Some(_)) => Ordering::Greater,
+                    (Some(x), Some(y)) => compare(meets, x, y),
                 }
-                if a.is_some() && b.is_none() {
-                    // Lower comes first.
-                    return Ordering::Less;
-                }
-                if a.is_none() && b.is_some() {
-                    // Greater comes last (so b goes first).
-                    return Ordering::Greater;
-                }
-                compare(meets, a.unwrap(), b.unwrap())
             });
         }
     }
@@ -245,8 +258,21 @@ impl<'db> RecordCollector<'db> {
     /// Whether the given Entry is in the weight class this RecordCollector covers.
     #[inline]
     pub fn entry_in_class(&self, entry: &Entry) -> bool {
-        entry.bodyweightkg > self.class_min_exclusive
-            && entry.bodyweightkg <= self.class_max_inclusive
+        // If bodyweight exists, just go by bodyweight.
+        if entry.bodyweightkg != WeightKg(0_00) {
+            return entry.bodyweightkg > self.class_min_exclusive &&
+                   entry.bodyweightkg <= self.class_max_inclusive;
+        }
+
+        // Otherwise, check for a SHW category with no recorded bodyweight.
+        if self.class_max_inclusive == WeightKg::max_value() {
+            // Does the minimum weight of the SHW category fit here?
+            if let WeightClassKg::Over(w) = entry.weightclasskg {
+                return w >= self.class_min_exclusive;
+            }
+        }
+
+        false
     }
 
     pub fn integrate(&mut self, meets: &'db [Meet], entry: &'db Entry) {
