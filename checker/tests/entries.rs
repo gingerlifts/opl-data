@@ -134,3 +134,23 @@ fn test_column_event() {
                 Test User,90,M,100,100,Raw,D,1";
     assert!(check(data) > 0);
 }
+
+#[test]
+fn test_column_equipment() {
+    // Invalid Squat equipment
+    let data = "Name,WeightClassKg,Sex,Best3BenchKg,TotalKg,Equipment,SquatEquipment,Event,Place\n\
+                Test User,90,M,100,100,Raw,Straps,B,1";
+    assert_eq!(check(data), 0);
+
+    // Invalid Bench equipment
+    let data = "Name,WeightClassKg,Sex,Best3BenchKg,TotalKg,Equipment,BenchEquipment,Event,Place\n\
+                Test User,90,M,100,100,Raw,Wraps,B,1";
+    assert_eq!(check(data), 0);
+
+    // Invalid Deadlift equipment
+    let data = "Name,WeightClassKg,Sex,Best3BenchKg,TotalKg,Equipment,DeadliftEquipment,Event,Place\n\
+                Test User,90,M,100,100,Raw,Wraps,B,1";
+    assert_eq!(check(data), 0);
+
+}
+
