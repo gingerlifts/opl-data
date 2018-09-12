@@ -156,8 +156,8 @@ fn test_column_equipment() {
     assert_eq!(check(data), 1);
 
     // Invalid Squat equipment
-    let data = "Name,WeightClassKg,Sex,Best3BenchKg,TotalKg,Equipment,SquatEquipment,Event,Place\n\
-                Test User,90,M,100,100,Raw,Straps,B,1";
+    let data = "Name,WeightClassKg,Sex,Best3SquatKg,TotalKg,Equipment,SquatEquipment,Event,Place\n\
+                Test User,90,M,100,100,Raw,Straps,S,1";
     assert_eq!(check(data), 1);
 
     // Invalid Bench equipment
@@ -166,8 +166,8 @@ fn test_column_equipment() {
     assert_eq!(check(data), 1);
 
     // Invalid Deadlift equipment
-    let data = "Name,WeightClassKg,Sex,Best3BenchKg,TotalKg,Equipment,DeadliftEquipment,Event,Place\n\
-                Test User,90,M,100,100,Raw,Wraps,B,1";
+    let data = "Name,WeightClassKg,Sex,Best3DeadliftKg,TotalKg,Equipment,DeadliftEquipment,Event,Place\n\
+                Test User,90,M,100,100,Raw,Wraps,D,1";
     assert_eq!(check(data), 1);
 
 }
