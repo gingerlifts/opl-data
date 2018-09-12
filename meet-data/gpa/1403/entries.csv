@@ -1,11 +1,11 @@
 Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Squat4Kg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Bench4Kg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,WeightClassKg,Sex,CyrillicName,BirthYear,Equipment,Event
-1,Mariša Golob,J,Slovak Republic,55.3,110,120,125,125,,80,85,-87.5,85,,130,135,140,140,350,56,F,,1990,Wraps,SBD
+1,Mariša Golob,J,Slovakia,55.3,110,120,125,125,,80,85,-87.5,85,,130,135,140,140,350,56,F,,1990,Wraps,SBD
 1,Lyudmila Gaiduchenko,O,Ukraine,90,170,180,190,190,,155,163,165,165,,200,220,225,225,580,90,F,Людмила Гайдученко,1966,Wraps,SBD
 1,Ernest Ruzin,M8,Israel,61.8,120,132.5,-142.5,132.5,,75,80,-82.5,80,,150,165,-172.5,165,377.5,67.5,M,,1937,Wraps,SBD
 1,Viktor Petrenko,J,Ukraine,74.4,-175,175,190,190,,115,120,127.5,127.5,,175,190,195,195,512.5,75,M,Віктор Петренко,1992,Wraps,SBD
 1,Andriy Ivzhenko,O,Ukraine,73.9,230,-250,-260,230,,140,-147.5,147.5,147.5,,250,260,,260,637.5,75,M,Андрій Івженко,1977,Wraps,SBD
 2,Viktor Petrenko,O,Ukraine,74.4,-175,175,190,190,,115,120,127.5,127.5,,175,190,195,195,512.5,75,M,Віктор Петренко,1992,Wraps,SBD
-1,Erni Gregorčič,MS,Slovak Republic,73.6,180,200,-210,200,,130,140,147.5,147.5,,200,215,-220,215,562.5,75,M,,1976,Wraps,SBD
+1,Erni Gregorčič,MS,Slovakia,73.6,180,200,-210,200,,130,140,147.5,147.5,,200,215,-220,215,562.5,75,M,,1976,Wraps,SBD
 1,Yang-Lin Yun,J,Taiwan,82.5,-180,180,-190,180,,-140,-140,140,140,,180,200,-210,200,520,82.5,M,,1990,Wraps,SBD
 1,Andrey Mostovenko,O,Germany,80.3,280,295,305,305,,160,170,175,175,,280,-300,-300,280,760,82.5,M,,1990,Wraps,SBD
 1,Oleksiy Gerasymenko,J,Ukraine,88,250,260,-270,260,,120,-130,130,130,,270,285,-292.5,285,675,90,M,Олексій Герасименко,1994,Wraps,SBD
@@ -24,13 +24,13 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Didier Michelon,O,France,117.2,200,225,245,245,,192.5,202.5,210,210,,180,200,-210,200,655,125,M,,1963,Wraps,SBD
 1,Didier Michelon,M3,France,117.2,200,225,245,245,,192.5,202.5,210,210,,180,200,-210,200,655,125,M,,1963,Wraps,SBD
 1,Giorgi Davitashvili,MS,Georgia,128.3,220,245,260,260,281,180,-191,,180,,60,,,60,500,140,M,,1978,Wraps,SBD
-1,Mariša Golob,J,Slovak Republic,55.3,,,,,,80,85,-87.5,85,,,,,,85,56,F,,1990,Raw,B
+1,Mariša Golob,J,Slovakia,55.3,,,,,,80,85,-87.5,85,,,,,,85,56,F,,1990,Raw,B
 1,Gorelchaniki Valita,O,Georgia,55.6,,,,,,70,-75,75,75,,,,,,75,56,F,,1986,Raw,B
 1,Maryna Soltanova,O,Ukraine,68.8,,,,,,82.5,87.5,-90,87.5,,,,,,87.5,75,F,Марина Солтанова,1985,Raw,B
 1,Kaxaber Tetradze,O,Georgia,65.4,,,,,,120,130,-140,130,,,,,,130,67.5,M,,1989,Raw,B
 1,Akmal Yergashev,O,Ukraine,74.6,,,,,,175,180,185,185,-191,,,,,185,75,M,Акмал Єргашев,1989,Raw,B
 2,Igor Povazhnyuk,O,Ukraine,75,,,,,,145,152.5,-157.2,152.5,,,,,,152.5,75,M,Игорь Поважнюк,1974,Raw,B
-1,Erni Gregorčič,MS,Slovak Republic,73.6,,,,,,130,140,147.5,147.5,,,,,,147.5,75,M,,1976,Raw,B
+1,Erni Gregorčič,MS,Slovakia,73.6,,,,,,130,140,147.5,147.5,,,,,,147.5,75,M,,1976,Raw,B
 1,Oleksandr Korshak,O,Ukraine,76.2,,,,,,130,-137.5,-137.5,130,,,,,,130,82.5,M,Олександр Коршак,1983,Raw,B
 1,Amiran Jajanidze,J,Georgia,89.1,,,,,,130,145,155,155,,,,,,155,90,M,,1993,Raw,B
 1,Dmytro Volkov,J,Ukraine,89.3,,,,,,140,150,-155,150,,,,,,150,90,M,Дмитро Волков,1984,Raw,B

@@ -10,7 +10,7 @@ Place,WeightClassKg,Sex,Equipment,Name,CyrillicName,BirthYear,BodyweightKg,Best3
 1,60,F,Single-ply,Yuliya Yadrikhinskaya,Юлия Ядрихинская,1981,60,180,126,150,456,SBD
 2,60,F,Single-ply,Viktoriya Kanaeva,Виктория Канаева,1989,60,140,60,145,345,SBD
 3,60,F,Single-ply,Albina Mukminova,Альбина Мукминова,1991,57.15,115,57.5,90,262.5,SBD
-1,67.5,F,Single-ply,Yuliya Chistyakova,Юлия Чистякова,1989,67.45,180,130,157.5,467.5,SBD
+1,67.5,F,Single-ply,Yulia Chistiakova,Юлия Чистякова,1989,67.45,180,130,157.5,467.5,SBD
 2,67.5,F,Single-ply,Alina Bayramova,Алина Байрамова,1991,64,115,65,125,305,SBD
 1,75,F,Single-ply,Narine Arushanova,Наринэ Арушанова,1991,72.6,212.5,112.5,200,525,SBD
 1,82.5,F,Single-ply,Marina Krapivina,Марина Крапивина,1989,75.15,120,65,140,325,SBD
@@ -65,7 +65,7 @@ DQ,56,M,Single-ply,Vladimir Talankin,Владимир Таланкин,1985,55,,
 9,82.5,M,Single-ply,Sergey Goryunov,Сергей Горюнов,1990,78.55,230,132.5,212.5,575,SBD
 DQ,82.5,M,Single-ply,Sergey Letuta,Сергей Летута,1982,77.25,280,170,,,SBD
 DQ,82.5,M,Single-ply,Gleb Tagirov,Глеб Тагиров,1979,80.9,,,,,SBD
-1,90,M,Single-ply,Maksim Sharikov,Максим Шариков,1988,88.1,372.5,250,282.5,905,SBD
+1,90,M,Single-ply,Maxim Sharikov,Максим Шариков,1988,88.1,372.5,250,282.5,905,SBD
 2,90,M,Single-ply,Anton Rudenko,Антон Руденко,1986,89.6,325,185,325,835,SBD
 3,90,M,Single-ply,Aleksandr Mineev,Александр Минеев,1990,87.7,275,200,240,715,SBD
 4,90,M,Single-ply,Sergey Speranskiy,Сергей Сперанский,1975,88.4,200,250,200,650,SBD
