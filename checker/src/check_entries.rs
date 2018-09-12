@@ -31,9 +31,9 @@ struct Entry {
     pub place: Option<Place>,
     pub event: Option<Event>,
     pub equipment: Option<Equipment>,
-    pub squat_equipment: Option<Equipment>,
-    pub bench_equipment: Option<Equipment>,
-    pub deadlift_equipment: Option<Equipment>,
+    pub squatequipment: Option<SquatEquipment>,
+    pub benchequipment: Option<BenchEquipment>,
+    pub deadliftequipment: Option<DeadliftEquipment>,
     pub weightclasskg: Option<WeightClassKg>,
     pub bodyweightkg: Option<WeightKg>,
     pub totalkg: Option<WeightKg>,
@@ -257,72 +257,34 @@ fn check_column_equipment(s: &str, line: u64, report: &mut Report) -> Option<Equ
     }
 }
 
-fn check_column_squatequipment(s: &str, line: u64, report: &mut Report) -> Option<Equipment> {
-    if !s.is_empty()  {
-
-        match s.parse::<Equipment>() {
-            Ok(eq) => {
-                if eq == Equipment::Straps {
-                    report.error_on(line, "SquatEquipment can't be Wraps");
-                    return None;
-                }
-                return Some(eq);
-            },
-            Err(_) => {
-                report.error_on(line, format!("Invalid Squat Equipment '{}'", s));
-                return None;
-            }
-
+fn check_column_squatequipment(s: &str, line: u64, report: &mut Report) -> Option<SquatEquipment> {
+    match s.parse::<SquatEquipment>() {
+        Ok(eq) => Some(eq),
+        Err(_) => {
+            report.error_on(line, format!("Invalid Squat Equipment '{}'", s));
+            None
         }
     }
-    None
 }
 
-fn check_column_benchequipment(s: &str, line: u64, report: &mut Report) -> Option<Equipment> {
-    if !s.is_empty()  {
-
-        match s.parse::<Equipment>() {
-            Ok(eq) => {
-                if eq == Equipment::Wraps {
-                    report.error_on(line, "BenchEquipment can't be Wraps");
-                    return None;
-                }
-                if eq == Equipment::Straps {
-                    report.error_on(line, "BenchEquipment can't be Straps");
-                    return None;
-                }
-            return Some(eq);
-            },
-            Err(_) => {
-                report.error_on(line, format!("Invalid Bench Equipment '{}'", s));
-                return None;
-            }
+fn check_column_benchequipment(s: &str, line: u64, report: &mut Report) -> Option<BenchEquipment> {
+    match s.parse::<BenchEquipment>() {
+        Ok(eq) => Some(eq),
+        Err(_) => {
+            report.error_on(line, format!("Invalid Bench Equipment '{}'", s));
+            None
         }
-
     }
-    None
 }
 
-fn check_column_deadliftequipment(s: &str, line: u64, report: &mut Report) -> Option<Equipment> {
-    if !s.is_empty()  {
-
-        
-        match s.parse::<Equipment>() {
-            Ok(eq) => {
-                if eq == Equipment::Wraps {
-                    report.error_on(line, "DeadliftEquipment can't be Wraps");
-                    return None;
-                }
-                return Some(eq);
-            },
-            Err(_) => {
-                report.error_on(line, format!("Invalid Deadlift Equipment '{}'", s));
-                return None;
-            }
-
+fn check_column_deadliftequipment(s: &str, line: u64, report: &mut Report) -> Option<DeadliftEquipment> {
+    match s.parse::<DeadliftEquipment>() {
+        Ok(eq) => Some(eq),
+        Err(_) => {
+            report.error_on(line, format!("Invalid Deadlift Equipment '{}'", s));
+            None
         }
     }
-    None
 }
 
 
@@ -624,13 +586,13 @@ where
             entry.equipment = check_column_equipment(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::SquatEquipment) {
-            entry.squat_equipment = check_column_squatequipment(&record[idx], line, &mut report);
+            entry.squatequipment = check_column_squatequipment(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::BenchEquipment) {
-            entry.bench_equipment = check_column_benchequipment(&record[idx], line, &mut report);
+            entry.benchequipment = check_column_benchequipment(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::DeadliftEquipment) {
-            entry.deadlift_equipment = check_column_deadliftequipment(&record[idx], line, &mut report);
+            entry.deadliftequipment = check_column_deadliftequipment(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::Place) {
             entry.place = check_column_place(&record[idx], line, &mut report);
