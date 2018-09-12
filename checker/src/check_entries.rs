@@ -31,9 +31,9 @@ struct Entry {
     pub place: Option<Place>,
     pub event: Option<Event>,
     pub equipment: Option<Equipment>,
-    pub squatequipment: Option<SquatEquipment>,
-    pub benchequipment: Option<BenchEquipment>,
-    pub deadliftequipment: Option<DeadliftEquipment>,
+    pub squat_equipment: Option<Equipment>,
+    pub bench_equipment: Option<Equipment>,
+    pub deadlift_equipment: Option<Equipment>,
     pub weightclasskg: Option<WeightClassKg>,
     pub bodyweightkg: Option<WeightKg>,
     pub totalkg: Option<WeightKg>,
@@ -257,8 +257,10 @@ fn check_column_equipment(s: &str, line: u64, report: &mut Report) -> Option<Equ
     }
 }
 
-fn check_column_squatequipment(s: &str, line: u64, report: &mut Report) -> Option<SquatEquipment> {
-    match s.parse::<SquatEquipment>() {
+fn check_column_squatequipment(sq_eq: &str,eq: &str, line: u64, report: &mut Report) -> Option<Equipment> {
+    equipment = check_column_equipment(&eq, line, &mut Report);
+
+    match sq_eq.parse::<Equipment>() {
         Ok(eq) => Some(eq),
         Err(_) => {
             report.error_on(line, format!("Invalid Squat Equipment '{}'", s));
@@ -267,8 +269,10 @@ fn check_column_squatequipment(s: &str, line: u64, report: &mut Report) -> Optio
     }
 }
 
-fn check_column_benchequipment(s: &str, line: u64, report: &mut Report) -> Option<BenchEquipment> {
-    match s.parse::<BenchEquipment>() {
+fn check_column_benchequipment(bp_eq: &str,eq: &str, line: u64, report: &mut Report) -> Option<Equipment> {
+    equipment = check_column_equipment(&eq, line, &mut Report);
+
+    match s.parse::<Equipment>() {
         Ok(eq) => Some(eq),
         Err(_) => {
             report.error_on(line, format!("Invalid Bench Equipment '{}'", s));
@@ -277,14 +281,20 @@ fn check_column_benchequipment(s: &str, line: u64, report: &mut Report) -> Optio
     }
 }
 
-fn check_column_deadliftequipment(s: &str, line: u64, report: &mut Report) -> Option<DeadliftEquipment> {
-    match s.parse::<DeadliftEquipment>() {
-        Ok(eq) => Some(eq),
-        Err(_) => {
-            report.error_on(line, format!("Invalid Deadlift Equipment '{}'", s));
-            None
+fn check_column_deadliftequipment(dl_eq: &str,equip: &str, line: u64, report: &mut Report) -> Option<Equipment> {
+    if dl_eq != ''  {
+
+        equipment = check_column_equipment(&equip, line, &mut Report);
+        
+        match dl_eq.parse::<Equipment>() {
+            Ok(eq) => Some(eq),
+            Err(_) => {
+                report.error_on(line, format!("Invalid Deadlift Equipment '{}'", s));
+                None
+            }
         }
     }
+    None
 }
 
 
