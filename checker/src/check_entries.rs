@@ -31,6 +31,9 @@ struct Entry {
     pub place: Option<Place>,
     pub event: Option<Event>,
     pub equipment: Option<Equipment>,
+    pub squatequipment: Option<SquatEquipment>,
+    pub benchequipment: Option<BenchEquipment>,
+    pub deadliftequipment: Option<DeadliftEquipment>,
     pub weightclasskg: Option<WeightClassKg>,
     pub bodyweightkg: Option<WeightKg>,
     pub totalkg: Option<WeightKg>,
@@ -102,6 +105,9 @@ enum Header {
     Event,
     Division,
     Equipment,
+    SquatEquipment,
+    BenchEquipment,
+    DeadliftEquipment,
     BirthYear,
     BirthDay,
     Tested,
@@ -250,6 +256,39 @@ fn check_column_equipment(s: &str, line: u64, report: &mut Report) -> Option<Equ
         }
     }
 }
+
+fn check_column_squatequipment(s: &str, line: u64, report: &mut Report) -> Option<SquatEquipment> {
+    match s.parse::<SquatEquipment>() {
+        Ok(eq) => Some(eq),
+        Err(_) => {
+            report.error_on(line, format!("Invalid Squat Equipment '{}'", s));
+            None
+        }
+    }
+}
+
+fn check_column_benchequipment(s: &str, line: u64, report: &mut Report) -> Option<BenchEquipment> {
+    match s.parse::<BenchEquipment>() {
+        Ok(eq) => Some(eq),
+        Err(_) => {
+            report.error_on(line, format!("Invalid Bench Equipment '{}'", s));
+            None
+        }
+    }
+}
+
+fn check_column_deadliftequipment(s: &str, line: u64, report: &mut Report) -> Option<DeadliftEquipment> {
+    match s.parse::<DeadliftEquipment>() {
+        Ok(eq) => Some(eq),
+        Err(_) => {
+            report.error_on(line, format!("Invalid Deadlift Equipment '{}'", s));
+            None
+        }
+    }
+}
+
+
+
 
 fn check_column_place(s: &str, line: u64, report: &mut Report) -> Option<Place> {
     match s.parse::<Place>() {
@@ -523,6 +562,15 @@ where
         }
         if let Some(idx) = headers.get(Header::Equipment) {
             entry.equipment = check_column_equipment(&record[idx], line, &mut report);
+        }
+        if let Some(idx) = headers.get(Header::SquatEquipment) {
+            entry.squatequipment = check_column_squatequipment(&record[idx], line, &mut report);
+        }
+        if let Some(idx) = headers.get(Header::BenchEquipment) {
+            entry.benchequipment = check_column_benchequipment(&record[idx], line, &mut report);
+        }
+        if let Some(idx) = headers.get(Header::DeadliftEquipment) {
+            entry.deadliftequipment = check_column_deadliftequipment(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::Place) {
             entry.place = check_column_place(&record[idx], line, &mut report);
