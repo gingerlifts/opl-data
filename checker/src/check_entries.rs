@@ -453,9 +453,43 @@ fn check_event_and_total_consistency(entry: &Entry, line: u64, report: &mut Repo
         if equipment == Equipment::Straps && !event.has_deadlift() {
             report.error_on(line, format!("Event '{}' doesn't use Straps", event));
         }
+
+        // Check that the SquatEquipment makes sense
+        if let Some(squat_equipment) = entry.squat_equipment {
+            if squat_equipment == Equipment::Straps {
+                report.error_on(line, format!("SquatEquipment can't be Straps", event));
+            }
+            if squat_equipment && squat_equipment > equipment{
+                report.error_on(line, format!("SquatEquipment can't be greater than Equipment", event));                
+            }
+        }
+
+        // Check that the BenchEquipment makes sense
+        if let Some(bench_equipment) = entry.bench_equipment {
+            if bench_equipment == Equipment::Wraps {
+                report.error_on(line, format!("BenchEquipment can't be Wraps", event));
+            }
+            if bench_equipment == Equipment::Straps {
+                report.error_on(line, format!("BenchEquipment can't be Straps", event));
+            }
+            if bench_equipment && bench_equipment > equipment{
+                report.error_on(line, format!("BenchEquipment can't be greater than Equipment", event));                
+            }
+        }
+
+        // Check that the DeadliftEquipment makes sense
+        if let Some(deadlift_equipment) = entry.deadlift_equipment {
+            if deadlift_equipment == Equipment::Wraps {
+                report.error_on(line, format!("DeadliftEquipment can't be Wraps", event));
+            }
+            if deadlift_equipment && deadlift_equipment > equipment{
+                report.error_on(line, format!("DeadliftEquipment can't be greater than Equipment", event));                
+            }
+        }
     }
 
-    
+
+
     // If the lifter wasn't DQ'd, they should have data from each lift.
     // TODO: Fix all the warnings and make these all report errors.
     if let Some(ref place) = entry.place {
@@ -574,13 +608,13 @@ where
             entry.equipment = check_column_equipment(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::SquatEquipment) {
-            entry.squatequipment = check_column_squatequipment(&record[idx], line, &mut report);
+            entry.squat_equipment = check_column_squatequipment(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::BenchEquipment) {
-            entry.benchequipment = check_column_benchequipment(&record[idx], line, &mut report);
+            entry.bench_equipment = check_column_benchequipment(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::DeadliftEquipment) {
-            entry.deadliftequipment = check_column_deadliftequipment(&record[idx], line, &mut report);
+            entry.deadlift_equipment = check_column_deadliftequipment(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::Place) {
             entry.place = check_column_place(&record[idx], line, &mut report);
