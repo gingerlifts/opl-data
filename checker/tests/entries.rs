@@ -147,3 +147,26 @@ fn test_event_consistency() {
     // FIXME: This should be > 0, but we made it a warning while fixing data.
     assert!(check(data) == 0);
 }
+
+fn test_column_equipment() {
+    // Invalid equipment
+    let data = "Name,WeightClassKg,Sex,Best3BenchKg,TotalKg,Equipment,Event,Place\n\
+                Test User,90,M,100,100,100,300,ABCD,SBD,1";
+    assert_eq!(check(data), 1);
+
+    // Invalid Squat equipment
+    let data = "Name,WeightClassKg,Sex,Best3BenchKg,TotalKg,Equipment,SquatEquipment,Event,Place\n\
+                Test User,90,M,100,100,Raw,Straps,B,1";
+    assert_eq!(check(data), 1);
+
+    // Invalid Bench equipment
+    let data = "Name,WeightClassKg,Sex,Best3BenchKg,TotalKg,Equipment,BenchEquipment,Event,Place\n\
+                Test User,90,M,100,100,Raw,Wraps,B,1";
+    assert_eq!(check(data), 1);
+
+    // Invalid Deadlift equipment
+    let data = "Name,WeightClassKg,Sex,Best3BenchKg,TotalKg,Equipment,DeadliftEquipment,Event,Place\n\
+                Test User,90,M,100,100,Raw,Wraps,B,1";
+    assert_eq!(check(data), 1);
+
+}
