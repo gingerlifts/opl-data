@@ -423,6 +423,10 @@ HeaderHandlers = {
     'Event': check_column_event,
     'Division': check_column_division,
     'Equipment': check_column_equipment,
+    'SquatEquipment': check_column_equipment,
+    'BenchEquipment': check_column_equipment,
+    'DeadliftEquipment': check_column_equipment,
+
 
     # Temporary column for IPF, to be calculated as Age during compilation.
     'BirthYear': check_column_birthyear,
