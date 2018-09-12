@@ -1,5 +1,5 @@
 Place,Name,Equipment,Event,Sex,Division,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg
-1,Luka Buđak,Raw,SBD,M,Subjunior,66,100,110,125,125,55,-60,-60,55,125,130,135,135,315
+1,Luka Budak,Raw,SBD,M,Subjunior,66,100,110,125,125,55,-60,-60,55,125,130,135,135,315
 1,Danijel Parac,Raw,SBD,M,Subjunior,74,200,210,-220,210,100,105,-107.5,105,210,-230,230,230,545
 2,Dino Zrnić,Raw,SBD,M,Subjunior,74,110,125,-140,125,80,85,-90,85,140,150,-160,150,360
 3,Gabriel Tkalčić,Raw,SBD,M,Subjunior,74,100,125,-140,125,60,75,-82.5,75,120,135,147.5,147.5,347.5
@@ -27,7 +27,7 @@ Place,Name,Equipment,Event,Sex,Division,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg
 2,Patricia Januš,Raw,SBD,F,Open,63,60,65,72.5,72.5,50,55,57.5,57.5,85,95,100,100,230
 3,Dijana Bičanić,Raw,SBD,F,Open,63,40,50,-70,50,35,-40,,35,90,100,102.5,102.5,187.5
 1,Igor Jušta,Raw,B,M,Subjunior,66,,,,,75,80,-85,80,,,,,80
-2,Luka Buđak,Raw,B,M,Subjunior,66,,,,,50,55,60,60,,,,,60
+2,Luka Budak,Raw,B,M,Subjunior,66,,,,,50,55,60,60,,,,,60
 1,Danijel Parac,Raw,B,M,Subjunior,74,,,,,100,105,-110,105,,,,,105
 2,Dino Zrnić,Raw,B,M,Subjunior,74,,,,,80,85,90,90,,,,,90
 1,Miloš Mitić,Raw,B,M,Subjunior,83,,,,,110,115,-120,115,,,,,115
