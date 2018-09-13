@@ -258,7 +258,7 @@ fn check_column_equipment(s: &str, line: u64, report: &mut Report) -> Option<Equ
 }
 
 fn check_column_squatequipment(sq_eq: &str,eq: &str, line: u64, report: &mut Report) -> Option<Equipment> {
-    if sq_eq != ''  {
+    if sq_eq.is_empty()  {
 
         equipment = check_column_equipment(&equip, line, &mut Report);
         
@@ -277,7 +277,7 @@ fn check_column_squatequipment(sq_eq: &str,eq: &str, line: u64, report: &mut Rep
 }
 
 fn check_column_benchequipment(bp_eq: &str,eq: &str, line: u64, report: &mut Report) -> Option<Equipment> {
-    if bp_eq != ''  {
+    if bp_eq.is_empty()  {
 
         equipment = check_column_equipment(&eq, line, &mut Report);
 
@@ -299,7 +299,7 @@ fn check_column_benchequipment(bp_eq: &str,eq: &str, line: u64, report: &mut Rep
 }
 
 fn check_column_deadliftequipment(dl_eq: &str,equip: &str, line: u64, report: &mut Report) -> Option<Equipment> {
-    if dl_eq != ''  {
+    if dl_eq.is_empty()  {
 
         equipment = check_column_equipment(&equip, line, &mut Report);
         
