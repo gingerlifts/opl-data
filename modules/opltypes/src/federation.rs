@@ -497,8 +497,8 @@ pub enum Federation {
     USAPL,
 
     /// Ujedinjeni Srpski powerlifting savez.
-    #[strum(to_string = "USps", serialize = "usps")]
-    USps,
+    #[strum(to_string = "USPS", serialize = "usps")]
+    USPS,
 
     /// US Powerlifting Federation.
     #[strum(to_string = "USPF", serialize = "uspf")]
@@ -885,7 +885,7 @@ impl Federation {
             Federation::UPC => Some(Country::Ukraine),
             Federation::UkrainePF => Some(Country::Ukraine),
             Federation::USAPL => Some(Country::USA),
-            Federation::USps => Some(Country::Serbia),
+            Federation::USPS => Some(Country::Serbia),
             Federation::USPF => Some(Country::USA),
             Federation::USPA => Some(Country::USA),
             Federation::VietnamPA => Some(Country::Vietnam),
