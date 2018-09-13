@@ -258,27 +258,44 @@ fn check_column_equipment(s: &str, line: u64, report: &mut Report) -> Option<Equ
 }
 
 fn check_column_squatequipment(sq_eq: &str,eq: &str, line: u64, report: &mut Report) -> Option<Equipment> {
-    equipment = check_column_equipment(&eq, line, &mut Report);
+    if sq_eq != ''  {
 
-    match sq_eq.parse::<Equipment>() {
-        Ok(eq) => Some(eq),
-        Err(_) => {
-            report.error_on(line, format!("Invalid Squat Equipment '{}'", s));
-            None
+        equipment = check_column_equipment(&equip, line, &mut Report);
+        
+        match sq_eq.parse::<Equipment>() {
+            Ok(eq) => Some(eq),
+            Err(_) => {
+                report.error_on(line, format!("Invalid Squat Equipment '{}'", s));
+                None
+            }
+            if sq_eq == Equipment::Straps {
+                report.error_on(line, format!("SquatEquipment can't be Wraps", event));
+            }
         }
     }
+    None
 }
 
 fn check_column_benchequipment(bp_eq: &str,eq: &str, line: u64, report: &mut Report) -> Option<Equipment> {
-    equipment = check_column_equipment(&eq, line, &mut Report);
+    if bp_eq != ''  {
 
-    match s.parse::<Equipment>() {
-        Ok(eq) => Some(eq),
-        Err(_) => {
-            report.error_on(line, format!("Invalid Bench Equipment '{}'", s));
-            None
+        equipment = check_column_equipment(&eq, line, &mut Report);
+
+        match s.parse::<Equipment>() {
+            Ok(eq) => Some(eq),
+            Err(_) => {
+                report.error_on(line, format!("Invalid Bench Equipment '{}'", s));
+                None
+            }
+            if bp_eq == Equipment::Wraps {
+                report.error_on(line, format!("BenchEquipment can't be Wraps", event));
+            }
+            if bp_eq == Equipment::Straps {
+                report.error_on(line, format!("BenchEquipment can't be Straps", event));
+            }
         }
     }
+    None
 }
 
 fn check_column_deadliftequipment(dl_eq: &str,equip: &str, line: u64, report: &mut Report) -> Option<Equipment> {
@@ -291,6 +308,9 @@ fn check_column_deadliftequipment(dl_eq: &str,equip: &str, line: u64, report: &m
             Err(_) => {
                 report.error_on(line, format!("Invalid Deadlift Equipment '{}'", s));
                 None
+            }
+            if dl_eq == Equipment::Wraps {
+                report.error_on(line, format!("DeadliftEquipment can't be Wraps", event));
             }
         }
     }
@@ -479,9 +499,6 @@ fn check_event_and_total_consistency(entry: &Entry, line: u64, report: &mut Repo
 
         // Check that the DeadliftEquipment makes sense
         if let Some(deadlift_equipment) = entry.deadlift_equipment {
-            if deadlift_equipment == Equipment::Wraps {
-                report.error_on(line, format!("DeadliftEquipment can't be Wraps", event));
-            }
             if deadlift_equipment && deadlift_equipment > equipment{
                 report.error_on(line, format!("DeadliftEquipment can't be greater than Equipment", event));                
             }
