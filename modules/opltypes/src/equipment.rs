@@ -13,3 +13,14 @@ pub enum Equipment {
     Multi,
     Straps,
 }
+
+impl fmt::Display for Equipment {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        match *self {
+            Equipment::Raw(n) => write!(f,"Raw"),
+            Equipment::Wraps(n) => write!(f,"Wraps"),
+            Equipment::Single(n) => write!(f,"Single-Ply"),
+            Equipment::Multi(n) => write!(f,"Multi-Ply"),
+            Equipment::Straps(n) => write!(f,"Straps"),
+        }
+}
