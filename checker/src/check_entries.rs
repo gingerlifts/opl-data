@@ -298,7 +298,7 @@ fn check_column_benchequipment(s: &str, line: u64, report: &mut Report) -> Optio
         },
         Err(_) => {
             report.error_on(line, format!("Invalid Bench Equipment '{}'", s));
-            None;
+            None
         }
     }
 }
@@ -484,7 +484,7 @@ fn check_event_and_total_consistency(entry: &Entry, line: u64, report: &mut Repo
         if entry.squat_equipment != None {
             if entry.squat_equipment > Some(equipment){
                 report.error_on(line, format!("SquatEquipment '{}' can't be more
-                    supportive than the Equipment '{}'",entry.squat_equipment,equipment));                
+                    supportive than the Equipment '{}'",entry.squat_equipment.unwrap(),equipment));                
             }
         }
 
@@ -492,14 +492,14 @@ fn check_event_and_total_consistency(entry: &Entry, line: u64, report: &mut Repo
         if entry.bench_equipment != None {
             if entry.bench_equipment > Some(equipment){
                report.error_on(line, format!("BenchEquipment '{}' can't be more
-                    supportive than the Equipment '{}'",entry.bench_equipment,equipment));            }
+                    supportive than the Equipment '{}'",entry.bench_equipment.unwrap(),equipment));            }
         }
 
         // Check that the DeadliftEquipment makes sense
         if entry.deadlift_equipment != None {
             if entry.deadlift_equipment > Some(equipment){
                report.error_on(line, format!("DeadliftEquipment '{}' can't be more
-                    supportive than the Equipment '{}'",entry.deadlift_equipment,equipment));             }
+                    supportive than the Equipment '{}'",entry.deadlift_equipment.unwrap(),equipment));             }
         }
     }
 

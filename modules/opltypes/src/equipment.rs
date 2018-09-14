@@ -21,8 +21,8 @@ impl fmt::Display for Equipment {
         match *self {
             Equipment::Raw => write!(f,"Raw"),
             Equipment::Wraps => write!(f,"Wraps"),
-            Equipment::Single => write!(f,"Single-Ply"),
-            Equipment::Multi => write!(f,"Multi-Ply"),
+            Equipment::Single => write!(f,"Single-ply"),
+            Equipment::Multi => write!(f,"Multi-ply"),
             Equipment::Straps => write!(f,"Straps"),
         }
     }
