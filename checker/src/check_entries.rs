@@ -257,61 +257,69 @@ fn check_column_equipment(s: &str, line: u64, report: &mut Report) -> Option<Equ
     }
 }
 
-fn check_column_squatequipment(sq_eq: &str,eq: &str, line: u64, report: &mut Report) -> Option<Equipment> {
-    if sq_eq.is_empty()  {
-
-        equipment = check_column_equipment(&equip, line, &mut Report);
-        
-        match sq_eq.parse::<Equipment>() {
-            Ok(eq) => Some(eq),
-            Err(_) => {
-                report.error_on(line, format!("Invalid Squat Equipment '{}'", s));
-                None
-            }
-            if sq_eq == Equipment::Straps {
-                report.error_on(line, format!("SquatEquipment can't be Wraps", event));
-            }
-        }
-    }
-    None
-}
-
-fn check_column_benchequipment(bp_eq: &str,eq: &str, line: u64, report: &mut Report) -> Option<Equipment> {
-    if bp_eq.is_empty()  {
-
-        equipment = check_column_equipment(&eq, line, &mut Report);
+fn check_column_squatequipment(s: &str, line: u64, report: &mut Report) -> Option<Equipment> {
+    if !s.is_empty()  {
 
         match s.parse::<Equipment>() {
-            Ok(eq) => Some(eq),
+            Ok(eq) => {
+                if eq == Equipment::Straps {
+                    report.error_on(line, "SquatEquipment can't be Wraps");
+                    return None;
+                }
+                return Some(eq);
+            },
             Err(_) => {
-                report.error_on(line, format!("Invalid Bench Equipment '{}'", s));
-                None
+                report.error_on(line, format!("Invalid Squat Equipment '{}'", s));
+                return None;
             }
-            if bp_eq == Equipment::Wraps {
-                report.error_on(line, format!("BenchEquipment can't be Wraps", event));
-            }
-            if bp_eq == Equipment::Straps {
-                report.error_on(line, format!("BenchEquipment can't be Straps", event));
-            }
+
         }
     }
     None
 }
 
-fn check_column_deadliftequipment(dl_eq: &str,equip: &str, line: u64, report: &mut Report) -> Option<Equipment> {
-    if dl_eq.is_empty()  {
+fn check_column_benchequipment(s: &str, line: u64, report: &mut Report) -> Option<Equipment> {
+    if !s.is_empty()  {
 
-        equipment = check_column_equipment(&equip, line, &mut Report);
+        match s.parse::<Equipment>() {
+            Ok(eq) => {
+                if eq == Equipment::Wraps {
+                    report.error_on(line, "BenchEquipment can't be Wraps");
+                    return None;
+                }
+                if eq == Equipment::Straps {
+                    report.error_on(line, "BenchEquipment can't be Straps");
+                    return None;
+                }
+            return Some(eq);
+            },
+            Err(_) => {
+                report.error_on(line, format!("Invalid Bench Equipment '{}'", s));
+                return None;
+            }
+        }
+
+    }
+    None
+}
+
+fn check_column_deadliftequipment(s: &str, line: u64, report: &mut Report) -> Option<Equipment> {
+    if !s.is_empty()  {
+
         
-        match dl_eq.parse::<Equipment>() {
-            Ok(eq) => Some(eq),
+        match s.parse::<Equipment>() {
+            Ok(eq) => {
+                if eq == Equipment::Wraps {
+                    report.error_on(line, "DeadliftEquipment can't be Wraps");
+                    return None;
+                }
+                return Some(eq);
+            },
             Err(_) => {
                 report.error_on(line, format!("Invalid Deadlift Equipment '{}'", s));
-                None
+                return None;
             }
-            if dl_eq == Equipment::Wraps {
-                report.error_on(line, format!("DeadliftEquipment can't be Wraps", event));
-            }
+
         }
     }
     None
@@ -475,32 +483,23 @@ fn check_event_and_total_consistency(entry: &Entry, line: u64, report: &mut Repo
         }
 
         // Check that the SquatEquipment makes sense
-        if let Some(squat_equipment) = entry.squat_equipment {
-            if squat_equipment == Equipment::Straps {
-                report.error_on(line, format!("SquatEquipment can't be Straps", event));
-            }
-            if squat_equipment && squat_equipment > equipment{
-                report.error_on(line, format!("SquatEquipment can't be greater than Equipment", event));                
+        if entry.squat_equipment != None {
+            if entry.squat_equipment > Some(equipment){
+                report.error_on(line, "SquatEquipment can't be greater than Equipment");                
             }
         }
 
         // Check that the BenchEquipment makes sense
-        if let Some(bench_equipment) = entry.bench_equipment {
-            if bench_equipment == Equipment::Wraps {
-                report.error_on(line, format!("BenchEquipment can't be Wraps", event));
-            }
-            if bench_equipment == Equipment::Straps {
-                report.error_on(line, format!("BenchEquipment can't be Straps", event));
-            }
-            if bench_equipment && bench_equipment > equipment{
-                report.error_on(line, format!("BenchEquipment can't be greater than Equipment", event));                
+        if entry.bench_equipment != None {
+            if entry.bench_equipment > Some(equipment){
+                report.error_on(line, "BenchEquipment can't be greater than Equipment");                
             }
         }
 
         // Check that the DeadliftEquipment makes sense
-        if let Some(deadlift_equipment) = entry.deadlift_equipment {
-            if deadlift_equipment && deadlift_equipment > equipment{
-                report.error_on(line, format!("DeadliftEquipment can't be greater than Equipment", event));                
+        if entry.deadlift_equipment != None {
+            if entry.deadlift_equipment > Some(equipment){
+                report.error_on(line, "DeadliftEquipment can't be greater than Equipment");                
             }
         }
     }

@@ -1,7 +1,7 @@
 //! Defines the Equipment field.
 
 /// The Equipment field.
-#[derive(Clone, Copy, Debug, Deserialize, EnumString, PartialEq, Serialize)]
+#[derive(Clone, Copy, Debug, Deserialize, EnumString, PartialEq, Serialize, PartialOrd)]
 pub enum Equipment {
     Raw,
     Wraps,
