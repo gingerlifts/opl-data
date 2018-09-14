@@ -258,9 +258,11 @@ def check_column_equipment(s, row, csv):
     if s not in ['Raw', 'Wraps', 'Single-ply', 'Multi-ply', 'Straps']:
         perror("Unknown equipment value: \"%s\"" % s)
 
+
 def check_column_event_equipment(s, row, csv):
-    if s not in ['','Raw', 'Wraps', 'Single-ply', 'Multi-ply', 'Straps']:
+    if s not in ['', 'Raw', 'Wraps', 'Single-ply', 'Multi-ply', 'Straps']:
         perror("Unknown event equipment value: \"%s\"" % s)
+
 
 def check_lift_column(s, row, csv):
     try:
