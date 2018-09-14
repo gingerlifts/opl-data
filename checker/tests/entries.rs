@@ -150,12 +150,12 @@ fn test_event_consistency() {
 
 #[test]
 fn test_column_equipment() {
-    // Invalid equipment
-    let data = "Name,WeightClassKg,Sex,Best3BenchKg,TotalKg,Equipment,Event,Place\n\
+    //Invalid equipment
+    let data = "Name,WeightClassKg,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Place\n\
                 Test User,90,M,100,100,100,300,ABCD,SBD,1";
     assert_eq!(check(data), 1);
 
-    // Invalid Squat equipment
+    // // Invalid Squat equipment
     let data = "Name,WeightClassKg,Sex,Best3SquatKg,TotalKg,Equipment,SquatEquipment,Event,Place\n\
                 Test User,90,M,100,100,Raw,Straps,S,1";
     assert_eq!(check(data), 1);
@@ -171,17 +171,17 @@ fn test_column_equipment() {
     assert_eq!(check(data), 1);
 
     // Squat equipment greater than equipment, this should fail
-    let data = "Name,WeightClassKg,Sex,Best3BenchKg,TotalKg,Equipment,SquatEquipment,Event,Place\n\
+    let data = "Name,WeightClassKg,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,SquatEquipment,Event,Place\n\
                 Test User,90,M,100,100,100,300,Raw,Wraps,SBD,1";
     assert_eq!(check(data), 1);
 
     // Bench equipment greater than equipment, this should fail
-    let data = "Name,WeightClassKg,Sex,Best3BenchKg,TotalKg,Equipment,BenchEquipment,Event,Place\n\
+    let data = "Name,WeightClassKg,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,BenchEquipment,Event,Place\n\
                 Test User,90,M,100,100,100,300,Raw,Multi-ply,SBD,1";
     assert_eq!(check(data), 1);
 
     // Deadlift equipment greater than equipment, this should fail
-    let data = "Name,WeightClassKg,Sex,Best3BenchKg,TotalKg,Equipment,DeadliftEquipment,Event,Place\n\
+    let data = "Name,WeightClassKg,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,DeadliftEquipment,Event,Place\n\
                 Test User,90,M,100,100,100,300,Raw,Multi-ply,SBD,1";
     assert_eq!(check(data), 1);
 
