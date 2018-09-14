@@ -456,17 +456,17 @@ fn check_event_and_total_consistency(entry: &Entry, line: u64, report: &mut Repo
         if !place.is_dq() {
             if has_best3squatkg || has_best3benchkg || has_best3deadliftkg {
                 let mut total_data = WeightKg(0);
-                if event.has_squat() && has_best3squatkg {
+                if has_best3squatkg {
                     if let Some(w) = entry.best3squatkg {
                         total_data += w
                     }
                 }
-                if event.has_bench() && has_best3benchkg {
+                if has_best3benchkg {
                     if let Some(w) = entry.best3benchkg {
                         total_data += w
                     }
                 }   
-                if event.has_deadlift() && has_best3deadliftkg {
+                if has_best3deadliftkg {
                     if let Some(w) = entry.best3deadliftkg {
                         total_data += w
                     }
