@@ -269,6 +269,7 @@ pub enum Federation {
     HPLS,
 
     /// Croatian Powerlifting Federation before getting affiliated with IPF
+    #[serde(rename = "HPLS-UA")]
     #[strum(to_string = "HPLS-UA", serialize = "hpls-ua")]
     HPLSUA,
 
