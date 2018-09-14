@@ -406,59 +406,80 @@ fn check_event_and_total_consistency(entry: &Entry, line: u64, report: &mut Repo
         }
     }
 
-    // Check whether a non-DQ lifter has data from each lift they participated
-    // in and whether their Total matches the sum of their best attempts on
-    // these lifts.
+    
+    // If the lifter wasn't DQ'd, they should have data from each lift.
     // TODO: Fix all the warnings and make these all report errors.
     if let Some(ref place) = entry.place {
         if !place.is_dq() {
-            // The lifter must have a total.
-            if !is_non_zero(entry.totalkg) {
-                let s = format!("Non-DQ Entry requires a total");
-                report.warning_on(line, s)
-            }
             // Allow entries that only have a Total but no lift data.
             if has_squat_data || has_bench_data || has_deadlift_data {
-                // Make sure we have enough room to hold the sum of all lifts.
-                let mut total_data: i32 = 0;
-                if event.has_squat() {
-                    if !has_squat_data {
-                        let s = format!("Non-DQ Event '{}' requires squat data", event);
-                        report.warning_on(line, s)
-                    } else {
-                        total_data += entry.best3squatkg.unwrap().0
-                    }
+                if !has_squat_data && event.has_squat() {
+                    let s = format!("Non-DQ Event '{}' requires squat data", event);
+                    report.warning_on(line, s);
                 }
-                if event.has_bench() {
-                    if !has_bench_data {
-                        let s = format!("Non-DQ Event '{}' requires bench data", event);
-                        report.warning_on(line, s)
-                    } else {
-                        total_data += entry.best3benchkg.unwrap().0
-                    }
+                if !has_bench_data && event.has_bench() {
+                    let s = format!("Non-DQ Event '{}' requires bench data", event);
+                    report.warning_on(line, s);
                 }
-                if event.has_deadlift() {
-                    if !has_deadlift_data {
-                        let s = format!("Non-DQ Event '{}' requires deadlift data", event);
-                        report.warning_on(line, s)
-                    } else {
-                        total_data += entry.best3deadliftkg.unwrap().0
-                    }
-                }
-                let total_entry = entry.totalkg.unwrap().0;
-                if (total_data - total_entry).abs() > 50 { // 50 is 0.5*100.
-                    let s = format!("Total '{}' does not match the sum of best \
-                    attempts '{}'",
-                    (total_data as f32) / 100.0,
-                    (total_entry as f32) / 100.0);
+                if !has_deadlift_data && event.has_deadlift() {
+                    let s = format!("Non-DQ Event '{}' requires deadlift data", event);
                     report.warning_on(line, s);
                 }
             }
+        }
+    }
+    
+    // Ensure non-DQ lifters have totals and DQ lifters don't.
+    let has_totalkg: bool = is_non_zero(entry.totalkg);
+
+    if let Some(ref place) = entry.place {
+        if !place.is_dq() {
+            if !has_totalkg {
+                let s = format!("Non-DQ Entry requires a total");
+                report.warning_on(line, s)
+            }
         } else {
-            // If the lifter was DQ'd, then they must not have a Total.
-            if is_non_zero(entry.totalkg) {
-                let s = format!("DQ Entry must not have a TotalKg");
-                report.warning_on(line, s);
+            if has_totalkg {
+                let s = format!("DQ Entry must not have a total");
+                report.warning_on(line, s)
+            }
+        }
+    }
+
+    // Check that a non-DQ lifter's total is the sum of their best attempts,
+    // if their lifts have been recorded.
+    let has_best3squatkg: bool = is_non_zero(entry.best3squatkg);
+    let has_best3benchkg: bool = is_non_zero(entry.best3benchkg);
+    let has_best3deadliftkg: bool = is_non_zero(entry.best3deadliftkg);
+
+    if let Some(ref place) = entry.place {
+        if !place.is_dq() {
+            if has_best3squatkg || has_best3benchkg || has_best3deadliftkg {
+                let mut total_data = WeightKg(0);
+                if event.has_squat() && has_best3squatkg {
+                    if let Some(w) = entry.best3squatkg {
+                        total_data += w
+                    }
+                }
+                if event.has_bench() && has_best3benchkg {
+                    if let Some(w) = entry.best3benchkg {
+                        total_data += w
+                    }
+                }   
+                if event.has_deadlift() && has_best3deadliftkg {
+                    if let Some(w) = entry.best3deadliftkg {
+                        total_data += w
+                    }
+                }
+                if has_totalkg {
+                    if let Some(total_entry) = entry.totalkg {
+                        if (total_data - total_entry).abs() > WeightKg(50) {
+                            let s = format!("Total '{}' does not match the sum of best \
+                            attempts '{}'", total_data, total_entry);
+                            report.warning_on(line, s)
+                        }
+                    }
+                }
             }
         }
     }
