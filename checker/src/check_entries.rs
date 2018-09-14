@@ -258,69 +258,75 @@ fn check_column_equipment(s: &str, line: u64, report: &mut Report) -> Option<Equ
 }
 
 fn check_column_squatequipment(s: &str, line: u64, report: &mut Report) -> Option<Equipment> {
-    if !s.is_empty()  {
-
-        match s.parse::<Equipment>() {
-            Ok(eq) => {
-                if eq == Equipment::Straps {
-                    report.error_on(line, "SquatEquipment can't be Wraps");
+    if s.is_empty()  {
+        return None;
+    }
+    match s.parse::<Equipment>() {
+        Ok(eq) => {
+            match eq{
+                Equipment::Straps => {
+                    report.error_on(line, "SquatEquipment can't be Straps");
                     return None;
-                }
-                return Some(eq);
-            },
-            Err(_) => {
-                report.error_on(line, format!("Invalid Squat Equipment '{}'", s));
-                return None;
+                },
+                _ => return Some(eq);
             }
-
+        },
+        Err(_) => {
+            report.error_on(line, format!("Invalid Squat Equipment '{}'", s));
+            return None;
         }
+
     }
     None
 }
 
 fn check_column_benchequipment(s: &str, line: u64, report: &mut Report) -> Option<Equipment> {
-    if !s.is_empty()  {
-
-        match s.parse::<Equipment>() {
-            Ok(eq) => {
-                if eq == Equipment::Wraps {
+    if s.is_empty()  {
+        return None;
+    }
+    match s.parse::<Equipment>() {
+        Ok(eq) => {
+            match eq{
+                Equipment::Wraps =>{
                     report.error_on(line, "BenchEquipment can't be Wraps");
                     return None;
-                }
-                if eq == Equipment::Straps {
+                },
+                Equipment::Straps {
                     report.error_on(line, "BenchEquipment can't be Straps");
                     return None;
-                }
-            return Some(eq);
-            },
-            Err(_) => {
-                report.error_on(line, format!("Invalid Bench Equipment '{}'", s));
-                return None;
+                },
+                _ => return Some(eq);
             }
+        },
+        Err(_) => {
+            report.error_on(line, format!("Invalid Bench Equipment '{}'", s));
+            return None;
         }
-
     }
-    None
+        None
 }
 
 fn check_column_deadliftequipment(s: &str, line: u64, report: &mut Report) -> Option<Equipment> {
-    if !s.is_empty()  {
+    if s.is_empty()  {
+        return None;
+    }
 
         
-        match s.parse::<Equipment>() {
-            Ok(eq) => {
-                if eq == Equipment::Wraps {
+    match s.parse::<Equipment>() {
+        Ok(eq) => {
+            match eq{
+                Equipment::Wraps => {
                     report.error_on(line, "DeadliftEquipment can't be Wraps");
                     return None;
-                }
-                return Some(eq);
-            },
-            Err(_) => {
-                report.error_on(line, format!("Invalid Deadlift Equipment '{}'", s));
-                return None;
+                },
+                _ => return Some(eq);
             }
-
+        },
+        Err(_) => {
+            report.error_on(line, format!("Invalid Deadlift Equipment '{}'", s));
+            return None;
         }
+
     }
     None
 }
