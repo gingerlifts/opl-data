@@ -136,6 +136,19 @@ fn test_column_event() {
 }
 
 #[test]
+fn test_event_consistency() {
+    // Bench-only lifter with valid data, but marked SBD.
+    let data = "Name,Division,BirthDay,WeightClassKg,BodyweightKg,Sex,Tested,\
+                Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,\
+                Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,\
+                Deadlift4Kg,Best3DeadliftKg,TotalKg,Place,Event,Equipment,Country\n\
+                Sergei Molchanov,O,1973-03-15,125,124.6,M,No,,,,,,-230,230,240,,240\
+                ,,,,,,240,5,SBD,Raw,Russia";
+    // FIXME: This should be > 0, but we made it a warning while fixing data.
+    assert!(check(data) == 0);
+}
+
+#[test]
 fn test_column_equipment() {
     //Invalid equipment
     let data = "Name,WeightClassKg,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Place\n\
@@ -173,5 +186,3 @@ fn test_column_equipment() {
     assert_eq!(check(data), 1);
 
 }
-
-

@@ -266,14 +266,14 @@ fn check_column_squatequipment(s: &str, line: u64, report: &mut Report) -> Optio
             match eq{
                 Equipment::Straps => {
                     report.error_on(line, "SquatEquipment can't be Straps");
-                    return None;
+                    None
                 },
-                _ => return Some(eq),
+                _ => Some(eq),
             }
         },
         Err(_) => {
             report.error_on(line, format!("Invalid Squat Equipment '{}'", s));
-            return None;
+            None
         }
     }
 }
@@ -287,18 +287,18 @@ fn check_column_benchequipment(s: &str, line: u64, report: &mut Report) -> Optio
             match eq{
                 Equipment::Wraps =>{
                     report.error_on(line, "BenchEquipment can't be Wraps");
-                    return None;
+                    None
                 },
                 Equipment::Straps =>{
                     report.error_on(line, "BenchEquipment can't be Straps");
-                    return None;
+                    None
                 },
-                _ => return Some(eq),
+                _ => Some(eq),
             }
         },
         Err(_) => {
             report.error_on(line, format!("Invalid Bench Equipment '{}'", s));
-            return None;
+            None;
         }
     }
 }
@@ -314,20 +314,17 @@ fn check_column_deadliftequipment(s: &str, line: u64, report: &mut Report) -> Op
             match eq{
                 Equipment::Wraps => {
                     report.error_on(line, "DeadliftEquipment can't be Wraps");
-                    return None;
+                    None
                 },
-                _ => return Some(eq),
+                _ => Some(eq),
             }
         },
         Err(_) => {
             report.error_on(line, format!("Invalid Deadlift Equipment '{}'", s));
-            return None;
+            None
         }
     }
 }
-
-
-
 
 fn check_column_place(s: &str, line: u64, report: &mut Report) -> Option<Place> {
     match s.parse::<Place>() {
@@ -486,22 +483,23 @@ fn check_event_and_total_consistency(entry: &Entry, line: u64, report: &mut Repo
         // Check that the SquatEquipment makes sense
         if entry.squat_equipment != None {
             if entry.squat_equipment > Some(equipment){
-                report.error_on(line, "SquatEquipment can't be greater than Equipment");                
+                report.error_on(line, format!("SquatEquipment '{}' can't be more
+                    supportive than the Equipment '{}'",entry.squat_equipment,equipment));                
             }
         }
 
         // Check that the BenchEquipment makes sense
         if entry.bench_equipment != None {
             if entry.bench_equipment > Some(equipment){
-                report.error_on(line, "BenchEquipment can't be greater than Equipment");                
-            }
+               report.error_on(line, format!("BenchEquipment '{}' can't be more
+                    supportive than the Equipment '{}'",entry.bench_equipment,equipment));            }
         }
 
         // Check that the DeadliftEquipment makes sense
         if entry.deadlift_equipment != None {
             if entry.deadlift_equipment > Some(equipment){
-                report.error_on(line, "DeadliftEquipment can't be greater than Equipment");                
-            }
+               report.error_on(line, format!("DeadliftEquipment '{}' can't be more
+                    supportive than the Equipment '{}'",entry.deadlift_equipment,equipment));             }
         }
     }
 
