@@ -464,6 +464,10 @@ pub enum Federation {
     #[strum(to_string = "SPSS", serialize = "spss")]
     SPSS,
 
+    /// Syndicated Strength Alliance.
+    #[strum(to_string = "SSA", serialize = "ssa")]
+    SSA,
+
     /// Swedish IPF affiliate.
     #[strum(to_string = "SSF", serialize = "ssf")]
     SSF,
@@ -724,6 +728,7 @@ impl Federation {
             Federation::SPA => false,
             Federation::SPF => false,
             Federation::SPSS => false,
+            Federation::SSA => false,
             Federation::SSF => true,
             Federation::SVNL => true,
             Federation::THSPA => true,
@@ -872,6 +877,7 @@ impl Federation {
             Federation::SPA => Some(Country::Singapore),
             Federation::SPF => Some(Country::USA),
             Federation::SPSS => Some(Country::Russia),
+            Federation::SSA => Some(Country::USA),
             Federation::SSF => Some(Country::Sweden),
             Federation::SVNL => Some(Country::Finland),
             Federation::THSPA => Some(Country::USA),
