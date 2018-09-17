@@ -23,7 +23,7 @@ Place,Name,Equipment,BirthYear,BodyweightKg,Best3BenchKg,WeightClassKg,Sex,Cyril
 3,Oleg Polischuk,Single-ply,1991,82.55,182.5,83,M,Олег Поліщук,Juniors,B,182.5
 4,Vitaliy Nomerovskiy,Single-ply,1992,81.25,150,83,M,Віталій Номеровський,Juniors,B,150
 1,Vasil Gaydar,Single-ply,1992,88.55,260,93,M,Василь Гайдар,Juniors,B,260
-2,Nazar D'yachuk,Single-ply,1991,92.65,252.5,93,M,Назар Д'ячук,Juniors,B,252.5
+2,Nazar Dyachuk,Single-ply,1991,92.65,252.5,93,M,Назар Д'ячук,Juniors,B,252.5
 3,Taras Karnaukh,Single-ply,1992,91.05,230,93,M,Тарас Карнаух,Juniors,B,230
 4,Vladyslav Sheynin,Single-ply,1992,89.8,207.5,93,M,Владислав Шейнін,Juniors,B,207.5
 DQ,Dmitro Kuzmenko,Single-ply,1994,91.25,,93,M,Дмитро Кузьменко,Juniors,B,
@@ -37,7 +37,7 @@ DQ,Maxym Veretennikov,Single-ply,1993,92.95,,93,M,Максим Веретенн�
 2,Bogdan Semko,Single-ply,1993,111.25,215,120,M,Богдан Семко,Juniors,B,215
 3,Vladislav Bordun,Single-ply,1995,106.5,170,120,M,Владислав Бордун,Juniors,B,170
 1,Yelizaveta Ryzhak,Single-ply,1990,46.5,95,47,F,Єлізавета Рижак,Open,B,95
-1,Dar'ya Kuzmina,Single-ply,1992,51.25,70,52,F,Дар'я Кузьміна,Open,B,70
+1,Darya Kuzmina,Single-ply,1992,51.25,70,52,F,Дарья Кузьмина,Open,B,70
 2,Katerina Grisha,Single-ply,1988,51.45,67.5,52,F,Катерина Гриша,Open,B,67.5
 3,Olena Shevlyakova,Single-ply,1987,48.55,60,52,F,Альона Шевлякова,Open,B,60
 1,Ganna Gonchar,Single-ply,1993,56.85,130,57,F,Ганна Гончар,Open,B,130
@@ -81,11 +81,11 @@ DQ,Andriy Klimets,Single-ply,1990,91.6,,93,M,Андрій Клімець,Open,B,
 5,Maxym Oseledchenko,Single-ply,1981,104.95,247.5,105,M,Максим Оселедченко,Open,B,247.5
 6,Igor Petorin,Single-ply,1976,104,237.5,105,M,Ігор Петьорін,Open,B,237.5
 7,Oleksandr Dudchenko,Single-ply,1990,101.85,220,105,M,Олександр Дудченко,Open,B,220
-8,Sergiy Kharchenko,Single-ply,1988,104.1,220,105,M,Сергій Харченко,Open,B,220
+8,Sergiy Kharchenko,Single-ply,1988,104.1,220,105,M,Сергей Харченко,Open,B,220
 9,Andriy Semenkov,Single-ply,1989,104.05,215,105,M,Андрій Семенков,Open,B,215
 10,Taras Fedorchak,Single-ply,1981,103.15,205,105,M,Тарас Федорчак,Open,B,205
 1,Yuriy Kovalchuk,Single-ply,1979,119.65,300.5,120,M,Юрій Ковальчук,Open,B,300.5
-2,Valeriy Beginin,Single-ply,1979,117.55,290,120,M,Валерій Бегінін,Open,B,290
+2,Valeriy Beginin,Single-ply,1979,117.55,290,120,M,Валерий Бегинин,Open,B,290
 3,Andriy Krasilov,Single-ply,1979,114,287.5,120,M,Андрій Красілов,Open,B,287.5
 4,Mykola Koltakov,Single-ply,1983,119.15,287.5,120,M,Микола Колтаков,Open,B,287.5
 5,Oleksandr Teteruk,Single-ply,1983,118.65,275,120,M,Олександр Тетерук,Open,B,275

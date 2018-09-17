@@ -66,6 +66,10 @@ pub enum Federation {
     #[strum(to_string = "AEP", serialize = "aep")]
     AEP,
 
+    /// American Frantz Powerlifting Federation 
+    #[strum(to_string = "AFPF", serialize = "afpf")]
+    AFPF,
+
     /// African Powerlifting Federation, IPF.
     #[strum(to_string = "AfricanPF", serialize = "africanpf")]
     AfricanPF,
@@ -154,6 +158,10 @@ pub enum Federation {
     /// Commonwealth Powerlifting Federation, IPF.
     #[strum(to_string = "CommonwealthPF", serialize = "commonwealthpf")]
     CommonwealthPF,
+    
+    /// Canadian Powerlifting Congress, WPC.
+    #[strum(to_string = "CPC", serialize = "cpc")]
+    CPC,
 
     /// Canadian Powerlifting Federation, WPF.
     #[strum(to_string = "CPF", serialize = "cpf")]
@@ -643,6 +651,7 @@ impl Federation {
             Federation::ADFPA => true,
             Federation::ADFPF => true,
             Federation::AEP => true,
+            Federation::AFPF => false,
             Federation::AfricanPF => true,
             Federation::AIWBPA => true,
             Federation::APA => false,
@@ -665,6 +674,7 @@ impl Federation {
             Federation::CAPO => false,
             Federation::CAST => false,
             Federation::CommonwealthPF => true,
+            Federation::CPC => false,
             Federation::CPF => false,
             Federation::CPL => false,
             Federation::CPO => false,
@@ -795,6 +805,7 @@ impl Federation {
             Federation::ADFPA => Some(Country::USA),
             Federation::ADFPF => Some(Country::USA),
             Federation::AEP => Some(Country::Spain),
+            Federation::AFPF => Some(Country::USA),
             Federation::AfricanPF => None,
             Federation::AIWBPA => Some(Country::Indonesia),
             Federation::APA => Some(Country::USA),
@@ -817,6 +828,7 @@ impl Federation {
             Federation::CAPO => Some(Country::Australia),
             Federation::CAST => Some(Country::Czechia),
             Federation::CommonwealthPF => None,
+            Federation::CPC => Some(Country::Canada),
             Federation::CPF => Some(Country::Canada),
             Federation::CPL => Some(Country::Canada),
             Federation::CPO => Some(Country::Canada),

@@ -6,7 +6,7 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 1,Cindy Irving,M1,Canada,59,95,40,115,250,60,F,SBD,Multi-ply
 1,Wendy Greig,M2,Canada,55.9,165,70,155,390,60,F,SBD,Multi-ply
 1,Melissa Ortega,O,USA,67.1,230,140,197.5,567.5,67.5,F,SBD,Multi-ply
-2,Sonja Baldwin,O,USA,67.5,192.5,105,190,487.5,67.5,F,SBD,Multi-ply
+2,Sonji Baldwin,O,USA,67.5,192.5,105,190,487.5,67.5,F,SBD,Multi-ply
 3,Shari Spencer,O,Canada,65.4,180,115,167.5,462.5,67.5,F,SBD,Multi-ply
 4,Mishel Neufeld,O,Canada,67.2,182.5,67.5,175,425,67.5,F,SBD,Multi-ply
 5,Karen Watson,O,Canada,66,122.5,72.5,132.5,327.5,67.5,F,SBD,Multi-ply
@@ -90,7 +90,7 @@ DQ,Dan Federra,O,Canada,98.5,365,,,,100,M,SBD,Multi-ply
 1,Darwin Miller,M9,Canada,91.5,160,80,160,400,100,M,SBD,Multi-ply
 1,Toivo Ihalainen Jani,O,Finland,107.2,380,240,315,935,110,M,SBD,Multi-ply
 2,Blaine Stussey,O,USA,108.2,342.5,282.5,290,915,110,M,SBD,Multi-ply
-3,Kari Pontinen,O,Finland,108.2,375,227.5,305,907.5,110,M,SBD,Multi-ply
+3,Kari Pöntinen,O,Finland,108.2,375,227.5,305,907.5,110,M,SBD,Multi-ply
 4,Tony Correia,O,South Africa,110,335,235,300,870,110,M,SBD,Multi-ply
 5,Jason Patrick,O,USA,109.7,,235,335,570,110,M,SBD,Multi-ply
 6,Jim Gorrell,O,USA,108,,212.5,320,532.5,110,M,SBD,Multi-ply
@@ -98,7 +98,7 @@ DQ,Dan Federra,O,Canada,98.5,365,,,,100,M,SBD,Multi-ply
 2,Brent Stradeski,M1,Canada,102.4,300,105,200,605,110,M,SBD,Multi-ply
 1,Duane Fuss,M2,Canada,106.8,347.5,215,272.5,835,110,M,SBD,Multi-ply
 2,Jeffrey Anderson,M2,USA,107.1,332.5,185,250,767.5,110,M,SBD,Multi-ply
-1,A.J. Henderson,M3,USA,107.15,337.5,195,255,787.5,110,M,SBD,Multi-ply
+1,AJ Henderson,M3,USA,107.15,337.5,195,255,787.5,110,M,SBD,Multi-ply
 1,Bob Packe,M4,USA,108.8,227.5,,182.5,410,110,M,SBD,Multi-ply
 1,Skip Sandberg Larry,M5,USA,109.1,300,195,285,780,110,M,SBD,Multi-ply
 1,Scott Cummin,T3,Canada,119.1,277.5,200,272.5,750,125,M,SBD,Multi-ply
