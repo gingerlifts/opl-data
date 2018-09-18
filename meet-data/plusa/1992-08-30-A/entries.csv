@@ -1,40 +1,40 @@
 Place,Name,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Squat4Kg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,WeightClassKg,Sex,Event,Equipment
 1,Andrzej Stanaszek,Poland,48.5,195,-215,215,215,-222.5,147.5,-155,-155,147.5,120,127.5,132.5,132.5,495,52,M,SBD,Raw
-2,Alastair Fleming,Great Britain,50.85,162.5,172.5,-180,172.5,,82.5,87.5,92.5,92.5,175,185,192.5,192.5,457.5,52,M,SBD,Single-ply
+2,Alastair Fleming,UK,50.85,162.5,172.5,-180,172.5,,82.5,87.5,92.5,92.5,175,185,192.5,192.5,457.5,52,M,SBD,Single-ply
 3,Gennadiy Pitaev,Russia,50.95,140,145,150,150,,95,102.5,110,110,170,180,192.5,192.5,452.5,52,M,SBD,Single-ply
 4,Manuel Martinez,Spain,51.55,-150,150,160,160,,87.5,90,95,95,180,187.5,-200,187.5,442.5,52,M,SBD,Single-ply
 5,Christian Klein,Germany,51.65,145,-152.5,152.5,152.5,,107.5,112.5,115,115,160,170,-172.5,170,437.5,52,M,SBD,Single-ply
-6,Patrick Constantine,Great Britain,46.3,145,155,160,160,,67.5,72.5,75,75,172.5,182.5,190,190,425,52,M,SBD,Single-ply
+6,Patrick Constantine,UK,46.3,145,155,160,160,,67.5,72.5,75,75,172.5,182.5,190,190,425,52,M,SBD,Single-ply
 7,Morten Bergerson,Norway,50.95,155,-165,170,170,,80,-85,-85,80,155,165,170,170,420,52,M,SBD,Single-ply
 8,Andreas Csiszar,Hungary,51.9,130,140,-145,140,,90,,-100,90,180,-190,-190,180,410,52,M,SBD,Single-ply
-9,Miroslav Sebo,Czechoslovakia,51.65,147.5,152.5,-155,152.5,,92.5,97.5,100,100,155,-165,-165,155,407.5,52,M,SBD,Single-ply
+9,Miroslav Sebo,Czechia,51.65,147.5,152.5,-155,152.5,,92.5,97.5,100,100,155,-165,-165,155,407.5,52,M,SBD,Single-ply
 10,Kai Niemistö,Finland,51.9,140,150,-157.5,150,,90,95,-97.5,95,160,-167.5,-180,160,405,52,M,SBD,Single-ply
-1,Phillip Richard,Great Britain,55.85,210,220,225,225,,110,117.5,122.5,122.5,195,205,-212.5,205,552.5,56,M,SBD,Single-ply
-2,Jurgen Nemeth,Austria,55.65,165,175,185,185,,90,97.5,-102.5,97.5,175,185,192.5,192.5,475,56,M,SBD,Single-ply
+1,Phillip Richard,UK,55.85,210,220,225,225,,110,117.5,122.5,122.5,195,205,-212.5,205,552.5,56,M,SBD,Single-ply
+2,Jürgen Nemeth,Austria,55.65,165,175,185,185,,90,97.5,-102.5,97.5,175,185,192.5,192.5,475,56,M,SBD,Single-ply
 3,Anatoliy Proskurin,Russia,55.55,160,-170,-170,160,,100,107.5,112.5,112.5,-180,180,200,200,472.5,56,M,SBD,Single-ply
 4,Frederic Rambert,France,55.4,170,177.5,,177.5,,95,100,102.5,102.5,175,185,-190,185,465,56,M,SBD,Single-ply
-5,Tero Kirsila,Finland,55.9,160,-165,-165,160,,95,-100,-100,95,190,-205,-205,190,445,56,M,SBD,Single-ply
+5,Tero Kirsilä,Finland,55.9,160,-165,-165,160,,95,-100,-100,95,190,-205,-205,190,445,56,M,SBD,Single-ply
 6,Frederic Herasimczuk,France,52.05,117.5,122.5,-127.5,122.5,,90,95,-97.5,95,160,-170,170,170,387.5,56,M,SBD,Single-ply
 1,Janne Ollila,Finland,59.55,195,207.5,-212.5,207.5,,110,115,120,120,220,232.5,-245,232.5,560,60,M,SBD,Single-ply
-3,Richard Batchelor,Great Britain,57.45,170,177.5,187.5,187.5,,100,-105,-105,100,205,217.5,-220,217.5,505,60,M,SBD,Single-ply
+3,Richard Batchelor,UK,57.45,170,177.5,187.5,187.5,,100,-105,-105,100,205,217.5,-220,217.5,505,60,M,SBD,Single-ply
 4,Thierry Soulinthavong,France,59.4,180,190,197.5,197.5,,-105,105,110,110,182.5,192.5,-200,192.5,500,60,M,SBD,Single-ply
 5,Steve Loncke,Belgium,58.95,182.5,-192.5,-195,182.5,,100,107.5,-110,107.5,-200,200,-205,200,490,60,M,SBD,Single-ply
 6,Janos Kaiser,Hungary,60,175,185,192.5,192.5,,102.5,-105,-105,102.5,180,-192.5,192.5,192.5,487.5,60,M,SBD,Single-ply
-7,Pavol Stajer,Czechoslovakia,58.65,140,150,160,160,,105,112.5,117.5,117.5,180,200,205,205,482.5,60,M,SBD,Single-ply
-8,Johannes Eiriksson,Iceland,59.25,192.5,-200,200,200,,85,90,-95,90,-190,190,-202.5,190,480,60,M,SBD,Single-ply
+7,Pavol Stajer,Czechia,58.65,140,150,160,160,,105,112.5,117.5,117.5,180,200,205,205,482.5,60,M,SBD,Single-ply
+8,Jóhannes Eiríksson,Iceland,59.25,192.5,-200,200,200,,85,90,-95,90,-190,190,-202.5,190,480,60,M,SBD,Single-ply
 9,Miguel Llorens,Spain,59.05,177.5,-185,-185,177.5,,90,-97.5,-97.5,90,195,-205,205,205,472.5,60,M,SBD,Single-ply
 10,Sergey Gauf,Russia,59.4,-170,-170,170,170,,95,105,115,115,170,185,-200,185,470,60,M,SBD,Single-ply
 11,Csaba Balatoni,Hungary,59.65,-145,-145,145,145,,-105,105,-110,105,195,205,-210,205,455,60,M,SBD,Single-ply
-12,Tomáš Šesták,Czechoslovakia,59.5,140,155,162.5,162.5,,80,85,-90,85,-180,180,195,195,442.5,60,M,SBD,Single-ply
+12,Tomáš Šesták,Czechia,59.5,140,155,162.5,162.5,,80,85,-90,85,-180,180,195,195,442.5,60,M,SBD,Single-ply
 13,Jens Grihi,Sweden,59.6,-160,-160,160,160,,92.5,-100,-100,92.5,185,-205,-207.5,185,437.5,60,M,SBD,Single-ply
 DQ,Robert Starzec,Poland,59.45,195,-200,-200,195,,-125,-125,-125,,,,,,,60,M,SBD,Single-ply
 DD,Andriy Koval',Ukraine,59.4,-190,190,-200,190,,117.5,122.5,125,125,205,212.5,-225,212.5,,60,M,SBD,Single-ply
-1,Rodney Hypolite,Great Britain,67.4,245,257.5,-263,257.5,,120,130,-142.5,130,275,290,-302.5,290,677.5,67.5,M,SBD,Single-ply
+1,Rodney Hypolite,UK,67.4,245,257.5,-263,257.5,,120,130,-142.5,130,275,290,-302.5,290,677.5,67.5,M,SBD,Single-ply
 2,Wolfgang Homeier,Germany,66.5,210,-220,225,225,,115,120,-122.5,120,225,-230,-230,225,570,67.5,M,SBD,Single-ply
 3,Nikolai Nedoruev,Russia,65.6,210,-220,-222.5,210,,130,140,145,145,210,-220,-220,210,565,67.5,M,SBD,Single-ply
 4,Hugo Helmetschlager,Austria,67.4,205,215,-225,215,,100,105,-107.5,105,235,-245,-247.5,235,555,67.5,M,SBD,Single-ply
 5,Juha Seppälä,Finland,67.3,205,-212.5,-212.5,205,,122.5,127.5,-130,127.5,-220,-220,220,220,552.5,67.5,M,SBD,Single-ply
-6,Pavol Priam,Czechoslovakia,66.9,215,-225,225,225,,-102.5,102.5,107.5,107.5,-210,210,-217.5,210,542.5,67.5,M,SBD,Single-ply
+6,Pavol Priam,Czechia,66.9,215,-225,225,225,,-102.5,102.5,107.5,107.5,-210,210,-217.5,210,542.5,67.5,M,SBD,Single-ply
 7,Francois Besnard,France,65.8,-190,-190,190,190,,120,-125,125,125,220,-225,-225,220,535,67.5,M,SBD,Single-ply
 8,Frederic Glement,France,65.9,202.5,-212.5,-212.5,202.5,,120,127.5,-130,127.5,200,-212.5,-212.5,200,530,67.5,M,SBD,Single-ply
 9,Volodymyr Spakhi,Ukraine,66.8,190,-200,-200,190,,90,-100,-100,90,190,200,-210,200,480,67.5,M,SBD,Single-ply
@@ -43,10 +43,10 @@ DD,Andriy Koval',Ukraine,59.4,-190,190,-200,190,,117.5,122.5,125,125,205,212.5,-
 3,Roman Zuzuk,Ukraine,73.1,235,-245,245,245,,160,-165,-165,160,250,-257.5,-262.5,250,655,75,M,SBD,Single-ply
 4,Petter Kjos Jens,Norway,75,225,240,245,245,,125,-132.5,-132.5,125,235,247.5,252.5,252.5,622.5,75,M,SBD,Single-ply
 5,Hilmar Gunnarsson,Iceland,74.65,220,230,242.5,242.5,,115,125,-127.5,125,230,250,-255,250,617.5,75,M,SBD,Single-ply
-6,Jan Germanus,Slovak Republic,74.05,210,-225,230,230,,145,152.5,155,155,215,230,-240,230,615,75,M,SBD,Single-ply
+6,Jan Germanus,Slovakia,74.05,210,-225,230,230,,145,152.5,155,155,215,230,-240,230,615,75,M,SBD,Single-ply
 7,Sami Siltala,Finland,74.5,225,-232.5,-232.5,225,,130,135,137.5,137.5,250,-255,-260,250,612.5,75,M,SBD,Single-ply
 8,Fabien Chaumeny,France,74.65,200,-210,210,210,,132.5,140,142.5,142.5,237.5,250,255,255,607.5,75,M,SBD,Single-ply
-9,Petr Lehocký,Slovak Republic,74.2,205,217.5,-225,217.5,,122.5,130,132.5,132.5,245,-252.5,252.5,252.5,602.5,75,M,SBD,Single-ply
+9,Peter Lehocký,Slovakia,74.2,205,217.5,-225,217.5,,122.5,130,132.5,132.5,245,-252.5,252.5,252.5,602.5,75,M,SBD,Single-ply
 10,Gennadiy Kapshuk,Ukraine,74.05,220,-225,-225,220,,-130,130,132.5,132.5,240,-250,-250,240,592.5,75,M,SBD,Single-ply
 11,Zoltan Papp,Hungary,74.25,200,-210,-210,200,,140,145,-150,145,-240,240,-250,240,585,75,M,SBD,Single-ply
 12,Tamas Ficzere,Hungary,73.45,-215,-215,215,215,,142.5,-147.5,-147.5,142.5,-225,225,-235,225,582.5,75,M,SBD,Single-ply
@@ -57,7 +57,7 @@ DQ,Aigars Volfs,Latvia,74.4,-227.5,-227.5,-227.5,,,,,,,,,,,,75,M,SBD,Single-ply
 1,Martin Simacek,Austria,82.05,260,275,285,285,,140,150,155,155,270,287.5,297.5,297.5,737.5,82.5,M,SBD,Single-ply
 2,Laurent Dewas,France,82.3,280,287.5,292.5,292.5,,147.5,152.5,155,155,280,290,-292.5,290,737.5,82.5,M,SBD,Single-ply
 3,Øyvind Bjørnsen,Norway,82.25,270,-280,-280,270,,170,180,187.5,187.5,250,-260,260,260,717.5,82.5,M,SBD,Single-ply
-4,Attila Foldi,Hungary,81.6,250,-265,-265,250,,160,170,175,175,250,265,-270,265,690,82.5,M,SBD,Single-ply
+4,Attila Földi,Hungary,81.6,250,-265,-265,250,,160,170,175,175,250,265,-270,265,690,82.5,M,SBD,Single-ply
 5,Erik Stiklestad,Norway,82.35,265,277.5,-282.5,277.5,,140,147.5,-150,147.5,255,-262.5,262.5,262.5,687.5,82.5,M,SBD,Single-ply
 6,Michael Kalter,Netherlands,82.1,235,250,-260,250,,115,-122.5,-122.5,115,270,285,-295,285,650,82.5,M,SBD,Single-ply
 7,Vladimir Krapiva,Russia,80.3,230,-245,-245,230,,140,147.5,-152.5,147.5,-240,240,245,245,622.5,82.5,M,SBD,Single-ply
@@ -67,24 +67,24 @@ DQ,Aigars Volfs,Latvia,74.4,-227.5,-227.5,-227.5,,,,,,,,,,,,75,M,SBD,Single-ply
 11,Dan Kristensen,Denmark,82.35,-205,205,220,220,,132.5,137.5,-140,137.5,230,-242.5,-242.5,230,587.5,82.5,M,SBD,Single-ply
 12,Eric Schaffer,Switzerland,81.85,190,195,202.5,202.5,,120,130,135,135,220,235,245,245,582.5,82.5,M,SBD,Single-ply
 DQ,Mykhailo Solomin,Ukraine,82.1,-260,265,270,270,,165,172.5,-177.5,172.5,-235,-235,-235,,,82.5,M,SBD,Single-ply
-1,Jari Perala,Finland,89.9,280,295,305,305,,165,-172.5,172.5,172.5,280,295,302.5,302.5,780,90,M,SBD,Single-ply
+1,Jari Perälä,Finland,89.9,280,295,305,305,,165,-172.5,172.5,172.5,280,295,302.5,302.5,780,90,M,SBD,Single-ply
 2,Frank Duve,Norway,89.6,270,280,290,290,,175,182.5,185,185,270,282.5,-290,282.5,757.5,90,M,SBD,Single-ply
 3,Auðunn Jónsson,Iceland,89.85,275,295,-305,295,,160,167.5,172.5,172.5,290,-310,-312.5,290,757.5,90,M,SBD,Single-ply
-4,Samuel Watt,Great Britain,89.9,280,,290,290,,150,160,-162.5,160,270,290,-310,290,740,90,M,SBD,Single-ply
+4,Sam Watt,UK,89.9,280,,290,290,,150,160,-162.5,160,270,290,-310,290,740,90,M,SBD,Single-ply
 5,Jean Zivkovic,Austria,88.55,265,275,-285,275,,155,160,162.5,162.5,270,285,295,295,732.5,90,M,SBD,Single-ply
 6,Nicolas Loumi,France,88.05,265,280,290,290,,162.5,170,175,175,265,-272.5,-272.5,265,730,90,M,SBD,Single-ply
 7,Silvain Epron,France,89.55,235,245,255,255,,152.5,-157.5,-157.5,152.5,290,300,-305,300,707.5,90,M,SBD,Single-ply
 8,Vladimir Zinovsky,Russia,89.6,255,270,285,285,,145,152.5,-155,152.5,270,-280,-280,270,707.5,90,M,SBD,Single-ply
 9,Oleksiy Solovyov,Ukraine,87.65,235,250,260,260,,160,167.5,172.5,172.5,240,257.5,262.5,262.5,695,90,M,SBD,Single-ply
 10,Igor Ulyatovsky,Ukraine,89.2,230,-240,240,240,,160,170,-175,170,260,-270,-275,260,670,90,M,SBD,Single-ply
-11,Nigel Needham,Great Britain,89.5,250,-265,-265,250,,150,157.5,-162.5,157.5,250,260,262.5,262.5,670,90,M,SBD,Single-ply
+11,Nigel Needham,UK,89.5,250,-265,-265,250,,150,157.5,-162.5,157.5,250,260,262.5,262.5,670,90,M,SBD,Single-ply
 12,Jonas Åslund,Sweden,86.8,230,245,-255,245,,145,150,-152.5,150,250,-262.5,-262.5,250,645,90,M,SBD,Single-ply
 13,Krzysztof Skarzynski,Poland,89.45,220,235,245,245,,135,145,150,150,240,-260,-260,240,635,90,M,SBD,Single-ply
 14,Firas Kichi,Spain,89.65,240,255,-262.5,255,,130,-137.5,137.5,137.5,240,-252.5,-252.5,240,632.5,90,M,SBD,Single-ply
 15,Andreas Keiss,Germany,89.8,-225,225,237.5,237.5,,145,,,145,250,,,250,632.5,90,M,SBD,Single-ply
 DQ,Konstantin Kuznetsov,Russia,87.65,-235,235,-242.5,235,,160,-167.5,167.5,167.5,-265,-265,-265,,,90,M,SBD,Single-ply
 DQ,Attila Rott,Hungary,89.65,-270,-270,-280,,,,,,,,,,,,90,M,SBD,Single-ply
-1,Brian Reynolds,Great Britain,97.7,290,305,315,315,,205,215,217.5,217.5,302.5,325,332.5,332.5,865,100,M,SBD,Single-ply
+1,Brian Reynolds,UK,97.7,290,305,315,315,,205,215,217.5,217.5,302.5,325,332.5,332.5,865,100,M,SBD,Single-ply
 2,Olaf Nimmerfroh,Germany,98.3,310,330,350,350,,185,200,205,205,280,302.5,-315,302.5,857.5,100,M,SBD,Single-ply
 3,Vladimir Markovsky,Russia,95.8,290,300,305,305,,180,185,187.5,187.5,290,300,310,310,802.5,100,M,SBD,Single-ply
 4,Franz Leberwurst,Austria,97.7,285,300,310,310,,162.5,170,-175,170,290,-315,-315,290,770,100,M,SBD,Single-ply
@@ -107,8 +107,8 @@ DQ,Alwin Hilhorst,Netherlands,97.1,-260,-260,-260,,,,,,,,,,,,100,M,SBD,Single-pl
 4,Ab Mourid,Netherlands,109.5,280,295,300,300,,175,180,182.5,182.5,250,260,265,265,747.5,110,M,SBD,Single-ply
 5,Tommy Solinder,Sweden,107.9,255,265,270,270,,155,162.5,167.5,167.5,262.5,272.5,-285,272.5,710,110,M,SBD,Single-ply
 6,Alexander Sturm,Austria,100.65,250,265,-275,265,,160,167.5,170,170,260,270,-282.5,270,705,110,M,SBD,Single-ply
-7,Gerald Pilling,Great Britain,108.5,250,260,265,265,,127.5,135,-140,135,270,280,,280,680,110,M,SBD,Single-ply
-8,Gretar Hrafnsson,Iceland,103.8,200,-210,-210,200,,100,105,-107.5,105,190,-200,-200,190,495,110,M,SBD,Single-ply
+7,Gerald Pilling,UK,108.5,250,260,265,265,,127.5,135,-140,135,270,280,,280,680,110,M,SBD,Single-ply
+8,Grétar Hrafnsson,Iceland,103.8,200,-210,-210,200,,100,105,-107.5,105,190,-200,-200,190,495,110,M,SBD,Single-ply
 1,Michael Haager,Germany,110.85,290,300,307.5,307.5,,190,-197.5,,190,290,-300,300,300,797.5,125,M,SBD,Single-ply
 2,Evgeniy Timofeev,Russia,122.3,270,290,-300,290,,175,182.5,187.5,187.5,260,280,292.5,292.5,770,125,M,SBD,Single-ply
 3,Stephan Korte,Germany,110.3,-280,280,300,300,,165,172.5,-175,172.5,275,285,290,290,762.5,125,M,SBD,Single-ply
