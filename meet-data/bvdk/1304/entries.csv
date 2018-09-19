@@ -1,5 +1,5 @@
 Place,Name,Sex,Event,Division,WeightClassKg,Equipment,BirthYear,BodyweightKg,Team,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg
-1,Anne Jasmin Scholz,F,SBD,Youth A,63,Raw,1996,58.9,Powerlifting Lauchhammer e.V.,70,80,-85,80,45,50,-52.5,50,85,95,105,105,235
+1,Anne-Jasmin Scholz,F,SBD,Youth A,63,Raw,1996,58.9,Powerlifting Lauchhammer e.V.,70,80,-85,80,45,50,-52.5,50,85,95,105,105,235
 1,Lisa Korbik,F,SBD,Juniors,72,Raw,1993,68.35,SV Motor Eberswalde,90,95,-105,95,52.5,57.5,-65,57.5,95,105,120,120,272.5
 1,Esther Ehrlicher,F,SBD,Open,52,Raw,1976,50.85,PSV Sonneberg e.V.,85,-90,90,90,47.5,50,-52.5,50,115,125,135,135,275
 1,Silvia Stütz,F,SBD,Open,63,Raw,1978,62.6,Fitness Club Rhein-Main e.V.,-90,90,100,100,80,82.5,85,85,135,150,152.5,152.5,337.5
@@ -96,8 +96,8 @@ Place,Name,Sex,Event,Division,WeightClassKg,Equipment,BirthYear,BodyweightKg,Tea
 2,Alexander Holstein,M,B,Masters 2,120+,Raw,1962,124.1,KSV-Lippe,,,,,150,-155,-155,150,,,,,150
 1,Manfred Schramm,M,B,Masters 3,105,Raw,1949,96,TSV Schwalbe Tündern,,,,,130,135,140,140,,,,,140
 2,Forys Kazimierz,M,B,Masters 3,105,Raw,1945,93.1,KSV Langen,,,,,110,-120,125,125,,,,,125
-1,Hans- Peter Falk,M,B,Masters 3,120,Raw,1951,111.9,Herrnburger AV 77 e.V.,,,,,160,170,175,175,,,,,175
-2,Karl- Heinz May,M,B,Masters 3,120,Raw,1953,105.8,PSV Sonneberg e.V.,,,,,115,125,-135,125,,,,,125
+1,Hans-Peter Falk,M,B,Masters 3,120,Raw,1951,111.9,Herrnburger AV 77 e.V.,,,,,160,170,175,175,,,,,175
+2,Karl-Heinz May,M,B,Masters 3,120,Raw,1953,105.8,PSV Sonneberg e.V.,,,,,115,125,-135,125,,,,,125
 1,Keno Szopinski,M,B,Youth A,120+,Raw,1996,153.9,Powerlifting Duisburg,,,,,170,180,185,185,,,,,185
 1,Michael Gehrmann,M,B,Juniors,83,Raw,1990,79,Powerlifting Lauchhammer e.V.,,,,,150,155,-162.5,155,,,,,155
 2,Benjamin Bauer,M,B,Juniors,83,Raw,1992,80.8,TSV Eisenberg e.V.,,,,,100,105,-112.5,105,,,,,105
