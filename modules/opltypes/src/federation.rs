@@ -568,11 +568,6 @@ pub enum Federation {
     /// World Powerlifting Committee.
     #[strum(to_string = "WPC", serialize = "wpc")]
     WPC,
-    
-    /// Finnish WPC affiliate.
-    #[serde(rename = "WPC-Finland")]
-    #[strum(to_string = "WPC-Finland", serialize = "wpc-finland")]
-    WPCFinland,
 
     /// German WPC affiliate.
     #[serde(rename = "WPC-Germany")]
@@ -775,7 +770,6 @@ impl Federation {
             Federation::WPARUS => false,
             Federation::WPAU => false,
             Federation::WPC => false,
-            Federation::WPCFinland => false,
             Federation::WPCGermany => false,
             Federation::WPCMoldova => false,
             Federation::WPCPortugal => false,
@@ -929,7 +923,6 @@ impl Federation {
             Federation::WPARUS => Some(Country::Russia),
             Federation::WPAU => Some(Country::Ukraine),
             Federation::WPC => None,
-            Federation::WPCFinland => Some(Country::Finland),
             Federation::WPCGermany => Some(Country::Germany),
             Federation::WPCMoldova => Some(Country::Moldova),
             Federation::WPCPortugal => Some(Country::Portugal),
