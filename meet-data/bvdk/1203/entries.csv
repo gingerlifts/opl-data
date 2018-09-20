@@ -3,10 +3,10 @@ Place,Name,Sex,Event,Division,WeightClassKg,Equipment,BirthYear,BodyweightKg,Tea
 1,Kim-Aileen Vogt,F,D,Youth A,57,Single-ply,1995,53.3,AC Lauchhammer e.V.,70,72.5,75,75,75
 1,Sarina Schmiedeberg,F,D,Juniors,57,Single-ply,1990,56.1,AC Rüdersdorf,95,105,-112.5,105,105
 1,Sibylle Berndt,F,D,Masters 2,84,Single-ply,1958,81.1,AC Lauchhammer,90,100,110,110,110
-1,Tristan Wendlandt,M,D,Youth B,66,Raw,1998,62.9,SV Motor Eberswalde,135,150,-155,150,150
-1,Krystian Kleszczewski,M,D,Youth B,74,Raw,1997,67.8,AC Rüdersdorf,157.5,167.5,172.5,172.5,172.5
-1,Eric Völkel,M,D,Youth B,83,Raw,1996,79.3,AC Rüdersdorf,115,125,130,130,130
-2,Tobias Hempfling,M,D,Youth B,83,Raw,1997,77.3,SV Großräschen,80,87.5,100,100,100
+1,Tristan Wendlandt,M,D,Youth B,66,Single-ply,1998,62.9,SV Motor Eberswalde,135,150,-155,150,150
+1,Krystian Kleszczewski,M,D,Youth B,74,Single-ply,1997,67.8,AC Rüdersdorf,157.5,167.5,172.5,172.5,172.5
+1,Eric Völkel,M,D,Youth B,83,Single-ply,1996,79.3,AC Rüdersdorf,115,125,130,130,130
+2,Tobias Hempfling,M,D,Youth B,83,Single-ply,1997,77.3,SV Großräschen,80,87.5,100,100,100
 1,Bryan Menzel,M,D,Youth A,66,Single-ply,1994,65.1,AC Lauchhammer,140,150,155,155,155
 1,Leon Winter,M,D,Youth A,74,Single-ply,1994,72,SV Motor Eberswalde,170,-180,,170,170
 2,Willi Hubrich,M,D,Youth A,74,Single-ply,1994,70.6,AC Lauchhammer,110,120,130,130,130

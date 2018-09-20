@@ -1,6 +1,6 @@
 Name,Sex,Event,Place,Division,WeightClassKg,TotalKg,BodyweightKg,Equipment,BirthYear,Team,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg
-Rima Hassan,F,B,1,Youth B,57,35,55.5,Raw,2001,Powerlifting Lauchhammer,27.5,32.5,35,35
-Jessica Markus,F,B,1,Youth B,84,45,82.2,Raw,2000,Powerlifting Lauchhammer,40,45,-47.5,45
+Rima Hassan,F,B,1,Youth B,57,35,55.5,Single-ply,2001,Powerlifting Lauchhammer,27.5,32.5,35,35
+Jessica Markus,F,B,1,Youth B,84,45,82.2,Single-ply,2000,Powerlifting Lauchhammer,40,45,-47.5,45
 Anne-Jasmin Scholz,F,B,1,Juniors,63,85,63,Single-ply,1996,Powerlifting Lauchhammer,85,-92.5,-92.5,85
 Marina Schermer,F,B,1,Open,52,85,49.7,Single-ply,1985,KTV Sparta 1896,75,80,85,85
 Gallin Claudia,F,B,1,Open,63,100,62.5,Single-ply,1984,AC Heros Berlin,90,95,100,100
@@ -49,12 +49,12 @@ Maik Flemming,M,B,1,Masters 1,120,190,118.7,Single-ply,1975,AC Heros Berlin,180,
 Ronny Göbel,M,B,2,Masters 1,120,180,106.4,Single-ply,1976,TSV 90 Zehdenick,165,175,180,180
 Thomas Gabriel,M,B,3,Masters 1,120,180,112.2,Single-ply,1971,Sanssouci GYM Potsdam,160,170,180,180
 Thomas Lange,M,B,3,Masters 1,120,162.5,109.8,Single-ply,1967,TSV 90 Zehdenick,140,152.5,162.5,162.5
-Murat Leidecker,M,B,1,Youth B,74,80,70.6,Raw,2000,AC Rüdersdorf,80,-85,-85,80
-Florian Noerenberg,M,B,1,Youth A,83,100,77.7,Raw,1998,TSV 90 Zehdenick,90,95,100,100
-Christian Gärtner,M,B,2,Youth B,83,57.5,82,Raw,2000,AC Lauchhammer,57.5,-62.5,-62.5,57.5
+Murat Leidecker,M,B,1,Youth B,74,80,70.6,Single-ply,2000,AC Rüdersdorf,80,-85,-85,80
+Florian Noerenberg,M,B,1,Youth A,83,100,77.7,Single-ply,1998,TSV 90 Zehdenick,90,95,100,100
+Christian Gärtner,M,B,2,Youth B,83,57.5,82,Single-ply,2000,AC Lauchhammer,57.5,-62.5,-62.5,57.5
 Robin Winopal,M,B,1,Youth A,66,85,63.3,Single-ply,1998,AC Lauchhammer,80,85,-87.5,85
-Niclas Schley,M,B,2,Youth B,93,80,85.6,Raw,2001,AC Rüdersdorf,80,-90,-90,80
-Justus Doberschütz,M,B,G,Youth B,105,85,93.6,Raw,2002,AC Rüdersdorf,80,85,-90,85
+Niclas Schley,M,B,2,Youth B,93,80,85.6,Single-ply,2001,AC Rüdersdorf,80,-90,-90,80
+Justus Doberschütz,M,B,G,Youth B,105,85,93.6,Single-ply,2002,AC Rüdersdorf,80,85,-90,85
 Max Wiegand,M,B,1,Juniors,66,95,62.3,Single-ply,1994,Powerlifting Lauchhammer,90,95,-100,95
 Sebastian Hartung,M,B,2,Juniors,66,85,62.7,Single-ply,1994,AC Rüdersdorf,80,85,-90,85
 Patrick Hartung,M,B,1,Juniors,74,140,72.1,Single-ply,1994,AC Rüdersdorf,140,-145,,140

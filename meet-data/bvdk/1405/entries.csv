@@ -1,9 +1,9 @@
 Place,Name,Sex,Event,Division,WeightClassKg,Equipment,BirthYear,BodyweightKg,Team,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg
-1,Nicolas Shawn,M,B,Youth B,66,Raw,1998,62.2,AC Rüdersdorf,40,45,50,50,50
-1,Robin Winopal,M,B,Youth B,74,Raw,1998,68.7,AC Lauchhammer,50,-55,60,60,60
-2,Christian Gärtner,M,B,Youth B,74,Raw,2000,73.1,AC Lauchhammer,40,-45,45,45,45
-2,Alexander Paede,M,B,Youth B,93,Raw,1999,86.3,AC Rüdersdorf,45,50,55,55,55
-1,David Bennewitz,M,B,Youth B,93,Raw,1999,83.8,AC Rüdersdorf,70,75,80,80,80
+1,Nicolas Shawn,M,B,Youth B,66,Single-ply,1998,62.2,AC Rüdersdorf,40,45,50,50,50
+1,Robin Winopal,M,B,Youth B,74,Single-ply,1998,68.7,AC Lauchhammer,50,-55,60,60,60
+2,Christian Gärtner,M,B,Youth B,74,Single-ply,2000,73.1,AC Lauchhammer,40,-45,45,45,45
+2,Alexander Paede,M,B,Youth B,93,Single-ply,1999,86.3,AC Rüdersdorf,45,50,55,55,55
+1,David Bennewitz,M,B,Youth B,93,Single-ply,1999,83.8,AC Rüdersdorf,70,75,80,80,80
 1,Tristan Wendlandt,M,B,Youth A,66,Single-ply,1996,62.5,SV Motor Eberswalde,82.5,87.5,90,90,90
 1,Krystian Kleszczewski,M,B,Youth A,74,Single-ply,1997,72.6,AC Rüdersdorf,105,112.5,-120,112.5,112.5
 2,Ivan Machlay,M,B,Youth A,83,Single-ply,1997,75.5,AC Heros Berlin,-105,110,-120,110,110

@@ -1,6 +1,6 @@
 Place,Name,Sex,Event,Division,WeightClassKg,Equipment,BirthYear,BodyweightKg,Team,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg
-1,Janina Werner,F,B,Youth B,52,Raw,1997,48.35,AC Lauchhammer e.V.,32.5,35,37.5,37.5,37.5
-1,Lisa-Marie Hesse,F,B,Youth B,63,Raw,1997,59.8,AC Lauchhammer e.V.,32.5,37.5,-40,37.5,37.5
+1,Janina Werner,F,B,Youth B,52,Single-ply,1997,48.35,AC Lauchhammer e.V.,32.5,35,37.5,37.5,37.5
+1,Lisa-Marie Hesse,F,B,Youth B,63,Single-ply,1997,59.8,AC Lauchhammer e.V.,32.5,37.5,-40,37.5,37.5
 1,Juliane Matschke,F,B,Youth A,52,Single-ply,1994,51.3,AC Lauchhammer e.V.,22.5,27.5,-30,27.5,27.5
 1,Kim Vogt,F,B,Youth A,57,Single-ply,1995,52.9,AC Lauchhammer e.V.,25,30,-32.5,30,30
 2,Jessica Werner,F,B,Youth A,57,Single-ply,1995,54.9,AC Lauchhammer e.V.,25,27.5,-30,27.5,27.5
@@ -10,14 +10,14 @@ Place,Name,Sex,Event,Division,WeightClassKg,Equipment,BirthYear,BodyweightKg,Tea
 1,Birgit Witt,F,B,Masters 1,84+,Single-ply,1963,84.5,PSV Schwedt/O.,70,75,80,80,80
 1,Sibylle Berndt,F,B,Masters 2,84,Single-ply,1958,79.05,AC Lauchhammer,50,55,60,60,60
 1,Anne Schlieter,F,B,Masters 4,72,Single-ply,1938,65.55,AC Rüdersdorf,40,42.5,45,45,45
-1,Marcel Winkelmann,M,B,Youth B,53,Raw,1997,49.3,PL Lauchhammer,30,35,-40,35,35
-1,Krystian Kleszczewski,M,B,Youth B,66,Raw,1997,65.6,AC Rüdersdorf,75,80,82.5,82.5,82.5
-2,Tristan Wendlandt,M,B,Youth B,66,Raw,1996,63.9,SV Motor Eberswalde,70,75,-80,75,75
-3,Lukas Schuchow,M,B,Youth B,66,Raw,1998,63.7,AC Rüdersdorf,60,65,-70,65,65
-1,Eric Völkel,M,B,Youth B,74,Raw,1996,69.5,AC Rüdersdorf,70,-72.5,-72.5,70,70
-1,Martin Scholz,M,B,Youth B,83,Raw,1997,81.8,PL Lauchhammer,80,85,90,90,90
-2,Ricardo Ruhland,M,B,Youth B,83,Raw,1996,78.2,AC Lauchhammer,70,75,77.5,77.5,77.5
-1,Tim Jurick,M,B,Youth B,120,Raw,1996,116.15,AC Lauchhammer,97.5,102.5,-105,102.5,102.5
+1,Marcel Winkelmann,M,B,Youth B,53,Single-ply,1997,49.3,PL Lauchhammer,30,35,-40,35,35
+1,Krystian Kleszczewski,M,B,Youth B,66,Single-ply,1997,65.6,AC Rüdersdorf,75,80,82.5,82.5,82.5
+2,Tristan Wendlandt,M,B,Youth B,66,Single-ply,1996,63.9,SV Motor Eberswalde,70,75,-80,75,75
+3,Lukas Schuchow,M,B,Youth B,66,Single-ply,1998,63.7,AC Rüdersdorf,60,65,-70,65,65
+1,Eric Völkel,M,B,Youth B,74,Single-ply,1996,69.5,AC Rüdersdorf,70,-72.5,-72.5,70,70
+1,Martin Scholz,M,B,Youth B,83,Single-ply,1997,81.8,PL Lauchhammer,80,85,90,90,90
+2,Ricardo Ruhland,M,B,Youth B,83,Single-ply,1996,78.2,AC Lauchhammer,70,75,77.5,77.5,77.5
+1,Tim Jurick,M,B,Youth B,120,Single-ply,1996,116.15,AC Lauchhammer,97.5,102.5,-105,102.5,102.5
 1,Patrick Hartung,M,B,Youth A,66,Single-ply,1994,61.35,AC Rüdersdorf,105,115,-120,115,115
 2,Bryan Menzel,M,B,Youth A,66,Single-ply,1994,62.55,AC Lauchhammer,95,-100,100,100,100
 1,Leon Winter,M,B,Youth A,74,Single-ply,1994,71.5,SV Motor Eberswalde,80,-85,-90,80,80
