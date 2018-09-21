@@ -1,78 +1,38 @@
-Women,,,
-123 Open,,,
-Jen Oburn,215,,
-165 Open,,,
-Bonnie Graube,330,,
-Men,,,
-132 Open,,,
-Adam Zehr,340,,
-148 Open,,,
-Joe Ceklovsky,520,,
-148 Masters III,,,
-Steve Gee,285,,
-165 Open,,,
-Rudy Hillyard,370,,
-181 Open,,,
-Jim Kilts,665,,
-181 Teen 14-15,,,
-Nam Shartzer,305,,
-181 Teen 18-19,,,
-Paul Nicholson,365,,
-181 Open,Raw,,
-Brian Sheldon,240,,
-198 Open,,,
-Mike Wolfley,625,,
-198 Submasters,,,
-Chris Scarincio,455,,
-198 Masters I,,,
-George Cambell,375,,
-198 Teen 16-17,,,
-Tom DiChiara,280,,
-220 Open,,,
-Sam Luciano,405,,
-220 Teen 18-19,,,
-Anthony Virtucci,430,,
-220 Police,,,
-Tom Young,455,,
-242 Open,,,
-Bobby Fields,680,,
-Mike Ferlito,365,,
-275 Open,,,
-Bill Crawford,740,,
-275 Masters III,,,
-John Graube,570,,
-308 Open,,,
-Peter Mlynarcik,500,,
-John Hart,xxx,,
-308 Masters III,,,
-Buster Godden,540,,
-SHW Open,,,
-Shawn Lattimer,xxx,,
-Women,,,
-56 lbs,9 yrs old,,
-Kerri McCaslin,65,112,177
-165 Open,,,
-Kathy Goliszek,285,405,690
-Men,,,
-181 Open,,,
-Adam James,425,560,985
-198 Open,,,
-Brian Shaw,400,510,910
-Brendon Serritella,355,505,860
-220 Open,,,
-Ben Henderson,260,365,625
-220 Open Raw,,,
-Chris Mineo,365,500,865
-242 Masters I,,,
-James Howell,425,625,1050
-275 Open,,,
-Michael Harris,605,615,1220
-Mark Cole,350,500,850
- -----------------------------------------,,,
-Ironman,,,
-Women,,,
-98 Teen 14-15,,,
-Sarah McCaslin,185,,
-Men,,,
-275 Open,,,
-Mike Brown,600,,
+Name,Sex,WeightClassKg,Equipment,Division,Event,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place
+Jen Oburn,F,56,Multi-ply,Open,SBD,,,,97.52,,97.52,1
+Bonnie Graube,F,75,Multi-ply,Open,SBD,,,,149.69,,149.69,1
+Adam Zehr,M,56,Multi-ply,Open,SBD,,,,154.22,,154.22,1
+Joe Ceklovsky,M,67.5,Multi-ply,Open,SBD,,,,235.87,,235.87,1
+Steve Gee,M,67.5,Multi-ply,Masters 3,SBD,,,,129.27,,129.27,1
+Rudy Hillyard,M,75,Multi-ply,Open,SBD,,,,167.83,,167.83,1
+Jim Kilts,M,82.5,Multi-ply,Open,SBD,,,,301.64,,301.64,1
+Nam Shartzer,M,82.5,Multi-ply,Teen 14-15,SBD,,,,138.35,,138.35,1
+Paul Nicholson,M,82.5,Multi-ply,Teen 18-19,SBD,,,,165.56,,165.56,1
+Brian Sheldon,M,82.5,Raw,Open,SBD,,,,108.86,,108.86,1
+Mike Wolfley,M,90,Multi-ply,Open,SBD,,,,283.5,,283.5,1
+Chris Scarincio,M,90,Multi-ply,Submasters,SBD,,,,206.38,,206.38,1
+George Cambell,M,90,Multi-ply,Masters 1,SBD,,,,170.1,,170.1,1
+Tom DiChiara,M,90,Multi-ply,Teen 16-17,SBD,,,,127.01,,127.01,1
+Sam Luciano,M,100,Multi-ply,Open,SBD,,,,183.7,,183.7,1
+Anthony Virtucci,M,100,Multi-ply,Teen 18-19,SBD,,,,195.04,,195.04,1
+Tom Young,M,100,Multi-ply,Police/Fire,SBD,,,,206.38,,206.38,1
+Bobby Fields,M,110,Multi-ply,Open,SBD,,,,308.44,,308.44,1
+Mike Ferlito,M,110,Multi-ply,Open,SBD,,,,165.56,,165.56,2
+Bill Crawford,M,125,Multi-ply,Open,SBD,,,,335.66,,335.66,1
+John Graube,M,125,Multi-ply,Masters 3,SBD,,,,258.55,,258.55,1
+Peter Mlynarcik,M,140,Multi-ply,Open,SBD,,,,226.8,,226.8,1
+John Hart,M,140,Multi-ply,Open,SBD,,,,,,,DQ
+Buster Godden,M,140,Multi-ply,Masters 3,SBD,,,,244.94,,244.94,1
+Shawn Lattimer,M,140+,Multi-ply,Open,SBD,,,,,,,DQ
+Kerri McCaslin,F,40,Raw,Youth,BD,25.4,9,,29.48,50.8,80.29,1
+Kathy Goliszek,F,75,Multi-ply,Open,BD,,,,129.27,183.7,312.98,1
+Adam James,M,82.5,Multi-ply,Open,BD,,,,192.78,254.01,446.79,1
+Brian Shaw,M,90,Multi-ply,Open,BD,,,,181.44,231.33,412.77,1
+Brendon Serritella,M,90,Multi-ply,Open,BD,,,,161.03,229.06,390.09,2
+Ben Henderson,M,100,Multi-ply,Open,BD,,,,117.93,165.56,283.5,1
+Chris Mineo,M,100,Raw,Open,BD,,,,165.56,226.8,392.36,1
+James Howell,M,110,Multi-ply,Masters 1,BD,,,,192.78,283.5,476.27,1
+Michael Harris,M,125,Multi-ply,Open,BD,,,,274.42,278.96,553.38,1
+Mark Cole,M,125,Multi-ply,Open,BD,,,,158.76,226.8,385.55,2
+Sarah McCaslin,F,48,Raw,Teen 14-15,D,44.45,,,,83.91,83.91,1
+Mike Brown,M,125,Multi-ply,Open,D,,,,,272.16,272.16,1
