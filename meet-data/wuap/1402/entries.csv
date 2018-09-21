@@ -26,7 +26,7 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Bartłomiej Zaik,O,Poland,95.2,240,255,-265,255,,160,165,-170,165,,270,285,300,300,-310,720,100,M,Wraps,SBD
 2,Manuel Schreiner,O,Austria,99.8,210,220,-235,220,,190,200,210,210,-215,230,250,-265,250,,680,100,M,Wraps,SBD
 3,András Gadó,O,Hungary,100,230,-240,-240,230,,160,165,170,170,,255,260,265,265,,665,100,M,Wraps,SBD
-4,Balázs Szabó,O,Hungary,96,200,210,215,215,,140,155,-162.5,155,,270,280,287.5,287.5,,657.5,100,M,Wraps,SBD
+4,Szabolcs Balázs,O,Hungary,96,200,210,215,215,,140,155,-162.5,155,,270,280,287.5,287.5,,657.5,100,M,Wraps,SBD
 1,Lothar Pritzl,M4,Germany,90.2,145,160,170,170,-180,100,115,130,130,,180,200,,200,,500,100,M,Wraps,SBD
 1,Patyi Szilard,J,Hungary,108.3,220,235,245,245,,165,-175,175,175,180,270,280,-287.5,280,-290,700,110,M,Wraps,SBD
 2,Stefan Larch,J,Austria,109.4,235,250,-265,250,,145,152.5,157.5,157.5,,245,265,275,275,,682.5,110,M,Wraps,SBD
@@ -69,7 +69,7 @@ DQ,Torsten Kammer,M2,Germany,89.6,-230,-245,-245,,,,,,,,,,,,,,90,M,Multi-ply,SBD
 1,Edward Rożnowski,M5,Poland,88,185,205,225,225,,115,125,-130,125,,185,205,-215,205,,555,90,M,Multi-ply,SBD
 1,Stefan Sochański,M6,Poland,90,225,240,-250,240,,90,,,90,,200,230,240,240,,570,90,M,Multi-ply,SBD
 1,Markus Windtner,MS,Austria,89.4,180,,,180,,112.5,,,112.5,,180,,,180,,472.5,90,M,Multi-ply,SBD
-DQ,Jaromir Kratochvil,O,Czechia,98.9,-370,-370,-370,,,,,,,,,,,,,,100,M,Multi-ply,SBD
+DQ,Jaromír Kratochvíl,O,Czechia,98.9,-370,-370,-370,,,,,,,,,,,,,,100,M,Multi-ply,SBD
 1,Helmut Kraus,M1,Germany,97.8,280,-300,,280,,225,-240,240,240,,245,-260,-260,245,,765,100,M,Multi-ply,SBD
 1,Jan Vrba,M2,Czechia,99.6,260,-270,280,280,,200,210,220.5,220.5,,220,235,250,250,,750.5,100,M,Multi-ply,SBD
 1,Sergio Bianchi,M3,Italy,91.6,220,240,250,250,,80,90,100,100,,170,185,200,200,,550,100,M,Multi-ply,SBD
@@ -79,11 +79,11 @@ DQ,Patrik Navara,J,Czechia,114.9,-350,-370,-370,,,,,,,,,,,,,,125,M,Multi-ply,SBD
 1,Martin Košnar,O,Czechia,123.6,380,-390,390,390,,280,290,300,300,,280,300,310,310,,1000,125,M,Multi-ply,SBD
 DQ,Viktor Kudi,M2,Czechia,113.9,-320,-320,-320,,,,,,,,,,,,,,125,M,Multi-ply,SBD
 1,Krystian Slosarek,M4,Germany,117.8,265,-275,275,275,,-190,190,-215,190,,230,-245,-245,230,,695,125,M,Multi-ply,SBD
-1,Radovan Kadera,MS,Czechia,121.2,-320,320,,320,,210,220,-230,220,,290,310,-330,310,,850,125,M,Multi-ply,SBD
+1,Radovan Kaděra,MS,Czechia,121.2,-320,320,,320,,210,220,-230,220,,290,310,-330,310,,850,125,M,Multi-ply,SBD
 DQ,Silvio Rücker,MS,Germany,123.3,-320,-320,-320,,,,,,,,,,,,,,125,M,Multi-ply,SBD
 DQ,Markus Zehethofer,MS,Austria,124.9,-340,-340,-340,,,,,,,,,,,,,,125,M,Multi-ply,SBD
 1,Václav Češka,O,Czechia,153.1,-400,-400,400,400,,240,-250,-265,240,,300,310,-320,310,,950,140+,M,Multi-ply,SBD
-DQ,Martin Malinek,O,Czechia,125.5,-270,-270,-270,,,-190,-190,-190,,,,,,,,,140,M,Multi-ply,SBD
+DQ,Martin Malínek,O,Czechia,125.5,-270,-270,-270,,,-190,-190,-190,,,,,,,,,140,M,Multi-ply,SBD
 1,Stephen Parkhurst,M1,USA,129.7,-330,340,365.5,365.5,,235,-250,-250,235,,252.5,272.5,-317.5,272.5,,873,140,M,Multi-ply,SBD
 1,Jochen Hofstetter,M2,Germany,128.7,-285,285,,285,,180,190,,190,,260,280,300.5,300.5,,775.5,140,M,Multi-ply,SBD
 1,Katalin Mezei,O,Hungary,52,,,,,,50,55,57.5,57.5,,,,,,,57.5,52,F,Raw,B
@@ -164,7 +164,7 @@ DQ,Hella Schulster,M9,Germany,67.5,,,,,,-40,-50,-50,,,,,,,,,67.5,F,Raw,B
 1,Miklos Peterdi,M4,Switzerland,100.5,,,,,,170,175,180,180,,,,,,,180,110,M,Raw,B
 2,Eduard Weber,M4,Germany,106.1,,,,,,130,140,145,145,,,,,,,145,110,M,Raw,B
 1,Ernst Schlosser,M5,Germany,105,,,,,,-140,145,150,150,,,,,,,150,110,M,Raw,B
-2,Vladimir Bátik,M5,Slovakia,105.4,,,,,,120,132.5,-147.5,132.5,,,,,,,132.5,110,M,Raw,B
+2,Vladimír Bátik,M5,Slovakia,105.4,,,,,,120,132.5,-147.5,132.5,,,,,,,132.5,110,M,Raw,B
 3,Waldemar Jóźwik,M5,Poland,102.5,,,,,,90,95,-100,95,,,,,,,95,110,M,Raw,B
 1,Kalman Antal,MS,Hungary,106.9,,,,,,205,210,215,215,-217.5,,,,,,215,110,M,Raw,B
 2,Iván Kozári,MS,Hungary,103.6,,,,,,-175,-175,175,175,,,,,,,175,110,M,Raw,B
@@ -175,7 +175,7 @@ DQ,Hella Schulster,M9,Germany,67.5,,,,,,-40,-50,-50,,,,,,,,,67.5,F,Raw,B
 2,Christian Raidel,O,Austria,122,,,,,,230,237.5,-245,237.5,,,,,,,237.5,125,M,Raw,B
 1,Peter Diethalm,M1,Switzerland,122.2,,,,,,207.5,217.5,-222.5,217.5,,,,,,,217.5,125,M,Raw,B
 1,Didier Michelon,M3,France,116,,,,,,185,-195,,185,,,,,,,185,125,M,Raw,B
-2,Jiři Hajek,M3,Czechia,123.1,,,,,,155,165,-170,165,,,,,,,165,125,M,Raw,B
+2,Jiří Hájek,M3,Czechia,123.1,,,,,,155,165,-170,165,,,,,,,165,125,M,Raw,B
 1,Jozef Péter,M5,Slovakia,120.2,,,,,,-150,150,-165,150,,,,,,,150,125,M,Raw,B
 2,Dušan Svorcan,M5,Serbia,113.3,,,,,,120,-125,125,125,,,,,,,125,125,M,Raw,B
 1,Sirko Petermann,MS,Germany,115.7,,,,,,180,190,-200,190,,,,,,,190,125,M,Raw,B
@@ -201,7 +201,7 @@ DQ,Zofia Pychowska,M5,Poland,68.2,,,,,,-55,-55,-55,,,,,,,,,75,F,Multi-ply,B
 1,Julian Schmidt,J,Germany,71,,,,,,117.5,125,127.5,127.5,,,,,,,127.5,75,M,Multi-ply,B
 1,Andriy Babinchuk,O,Ukraine,69.8,,,,,,180,-190,-202.5,180,,,,,,,180,75,M,Multi-ply,B
 2,Nikolay Klass,O,Germany,71.1,,,,,,140,-150,-155,140,,,,,,,140,75,M,Multi-ply,B
-1,Hans-Jurgen Kaule,M5,Germany,74,,,,,,-155,155,160,160,165,,,,,,160,75,M,Multi-ply,B
+1,Hans-Jürgen Kaule,M5,Germany,74,,,,,,-155,155,160,160,165,,,,,,160,75,M,Multi-ply,B
 1,Miroslav Adamove,T2,Slovakia,78.6,,,,,,192.5,-200,200,200,-210,,,,,,200,82.5,M,Multi-ply,B
 1,Gabriel Kováč,T3,Slovakia,78.2,,,,,,220,230,240,240,-250,,,,,,240,82.5,M,Multi-ply,B
 1,Daniel Grabher,O,Austria,78,,,,,,102.5,112.5,-115,112.5,,,,,,,112.5,82.5,M,Multi-ply,B
@@ -247,7 +247,7 @@ DQ,Maik Seidel,M1,Germany,105.4,,,,,,-190,-190,-190,,,,,,,,,110,M,Multi-ply,B
 2,Uwe Eckert,M4,Germany,102.7,,,,,,185,-205,-210,185,,,,,,,185,110,M,Multi-ply,B
 3,Jan Gołąbek,M4,Poland,103.7,,,,,,-150,150,165,165,,,,,,,165,110,M,Multi-ply,B
 4,Karel Leibl,M4,Czechia,105.7,,,,,,110,140,-155,140,,,,,,,140,110,M,Multi-ply,B
-1,Vladimir Bátik,M5,Slovakia,106.5,,,,,,130,147.5,-160,147.5,,,,,,,147.5,110,M,Multi-ply,B
+1,Vladimír Bátik,M5,Slovakia,106.5,,,,,,130,147.5,-160,147.5,,,,,,,147.5,110,M,Multi-ply,B
 1,Andrej Smutný,MS,Slovakia,108.1,,,,,,265,280,-290,280,,,,,,,280,110,M,Multi-ply,B
 2,Miloš Ćećanović,MS,Montenegro,103.6,,,,,,225,240,250,250,,,,,,,250,110,M,Multi-ply,B
 3,Petr Hron,MS,Czechia,106.1,,,,,,225,237.5,245,245,,,,,,,245,110,M,Multi-ply,B
@@ -260,10 +260,10 @@ DQ,Didier Michelon,M3,France,116,,,,,,-365,-365,-365,,,,,,,,,125,M,Multi-ply,B
 1,Krystian Slosarek,M4,Germany,116.5,,,,,,-200,200,-220,200,,,,,,,200,125,M,Multi-ply,B
 1,Jozef Péter,M5,Slovakia,120.1,,,,,,-155,155,180,180,,,,,,,180,125,M,Multi-ply,B
 DQ,Marek Hlaváč,MS,Czechia,117.6,,,,,,-260,-260,-260,,,,,,,,,125,M,Multi-ply,B
-1,Jiři Havrda,O,Czechia,138,,,,,,300,320,-342.5,320,,,,,,,320,140,M,Multi-ply,B
+1,Jiří Havrda,O,Czechia,138,,,,,,300,320,-342.5,320,,,,,,,320,140,M,Multi-ply,B
 1,Tim Moon,M3,USA,127.4,,,,,,-337.5,337.5,357.5,357.5,-371,,,,,,357.5,140,M,Multi-ply,B
 1,Tomasz Czapiewski,MS,Poland,126.3,,,,,,165,210,-220,210,,,,,,,210,140,M,Multi-ply,B
 1,Richard Rüdisser,O,Austria,152.1,,,,,,185,-205,205,205,,,,,,,205,140+,M,Multi-ply,B
 2,Andre Schober,O,Germany,145.2,,,,,,150,-175,,150,,,,,,,150,140+,M,Multi-ply,B
-1,Peter Mihály,M4,Slovakia,161.6,,,,,,205,,,205,,,,,,,205,140+,M,Multi-ply,B
+1,Péter Mihály,M4,Slovakia,161.6,,,,,,205,,,205,,,,,,,205,140+,M,Multi-ply,B
 DQ,David Zdražil,MS,Czechia,145.9,,,,,,-260,-260,-260,,,,,,,,,140+,M,Multi-ply,B
