@@ -49,7 +49,7 @@ Maarten Roelofs,UT,D,Multi-ply,Class 1 Men,M,140+,227.5,,,,227.5,2
 Leo Contreras,CA,D,Multi-ply,Class 1 Men,M,140+,182.5,,,,182.5,3
 Jonathan Jenkins,MT,D,Multi-ply,Disabled Men,M,90,192.5,,,,192.5,1
 Gregory Gibson,TN,D,Multi-ply,Disabled Men,M,90,137.5,,,,137.5,2
-Steve Pena,CA,D,Multi-ply,Disabled Men,M,100,227.5,,,,227.5,1
+Steve Peña,CA,D,Multi-ply,Disabled Men,M,100,227.5,,,,227.5,1
 Carl Mudge,OR,D,Multi-ply,Disabled Men,M,100,185,,,,185,2
 Cody Colchado,TX,D,Multi-ply,Disabled Men,M,110,260,,,,260,1
 Jeremy Scruggs,TX,D,Multi-ply,Junior Men 20-25,M,60,237.5,,,,237.5,1
@@ -209,7 +209,7 @@ Larry Pusateri,PA,D,Multi-ply,Master Men 54-60,M,125,180,,,,180,2
 Martin Montgomery,IN,D,Multi-ply,Master Men 61-67,M,75,220,,,,220,1
 Moses Timbal,HI,D,Multi-ply,Master Men 61-67,M,75,217.5,,,,217.5,2
 James Christian,TX,D,Multi-ply,Master Men 61-67,M,75,212.5,,,,212.5,3
-Arlindo Da Silva,Brazil,D,Multi-ply,Master Men 61-67,M,75,185,,,,185,4
+Arlindo da Silva,Brazil,D,Multi-ply,Master Men 61-67,M,75,185,,,,185,4
 Thomas English,NV,D,Multi-ply,Master Men 61-67,M,75,132.5,,,,132.5,5
 Robert Krowech,MN,D,Multi-ply,Master Men 61-67,M,82.5,260,,,,260,1
 Christian Brenol,France,D,Multi-ply,Master Men 61-67,M,82.5,190,195,,,190,2
@@ -500,7 +500,7 @@ Gustavo Warrington,OR,B,Multi-ply,Elite Open,M,90,,,257.5,,257.5,2
 Michael Green,FL,B,Multi-ply,Elite Open,M,100,,,300,,300,1
 Kenneth Millrany,TN,B,Multi-ply,Elite Open,M,100,,,260,,260,2
 Jason Jackson,OK,B,Multi-ply,Elite Open,M,110,,,365,,365,1
-Michael Womack,CA,B,Multi-ply,Elite Open,M,125,,,352.5,,352.5,1
+Mike Womack,CA,B,Multi-ply,Elite Open,M,125,,,352.5,,352.5,1
 Tommy Harrison,IL,B,Multi-ply,Elite Open,M,125,,,330,,330,2
 Tiny Meeker,TX,B,Multi-ply,Elite Open,M,140,,,,,,DQ
 Mark Lauricella,CA,B,Multi-ply,Junior Men 20-25,M,67.5,,,137.5,,137.5,1
@@ -532,7 +532,7 @@ Matt Bell,IL,B,Multi-ply,Junior Men 20-25,M,100,,,205,,205,4
 Kyle Herzik,NV,B,Multi-ply,Junior Men 20-25,M,100,,,185,,185,5
 Michael Minahan,CA,B,Multi-ply,Junior Men 20-25,M,100,,,160,,160,6
 Jonathon Kos,NV,B,Multi-ply,Junior Men 20-25,M,110,,,145,,145,1
-Michael Womack,CA,B,Multi-ply,Junior Men 20-25,M,125,,,352.5,,352.5,1
+Mike Womack,CA,B,Multi-ply,Junior Men 20-25,M,125,,,352.5,,352.5,1
 Jerry Pritchett,AZ,B,Multi-ply,Junior Men 20-25,M,125,,,242.5,,242.5,2
 David Mc Coy,IL,B,Multi-ply,Junior Men 20-25,M,125,,,227.5,,227.5,3
 Josh Stevens,GA,B,Multi-ply,Junior Men 20-25,M,125,,,185,,185,4
@@ -649,7 +649,7 @@ Scott Hoekstra,CA,B,Multi-ply,Master Men 40-46,M,117.5,,,285,,285,3
 Todd Christensen,WA,B,Multi-ply,Master Men 40-46,M,117.5,,,242.5,,242.5,4
 Darwin English,NV,B,Multi-ply,Master Men 40-46,M,117.5,,,225,,225,5
 David Vasquez,CA,B,Multi-ply,Master Men 40-46,M,117.5,,,205,,205,6
-Nils Sjodin,Sweden,B,Multi-ply,Master Men 40-46,M,125,,,300,,300,1
+Nils Sjödin,Sweden,B,Multi-ply,Master Men 40-46,M,125,,,300,,300,1
 Rich Ludlam,CA,B,Multi-ply,Master Men 40-46,M,125,,,280,,280,2
 Eric Doublin,TX,B,Multi-ply,Master Men 40-46,M,125,,,260,,260,3
 Terry Putman,OK,B,Multi-ply,Master Men 40-46,M,125,,,207.5,,207.5,4
@@ -741,7 +741,7 @@ Austin Webb,AR,B,Multi-ply,Master Men 54-60,M,140,,,222.5,,222.5,1
 Peter Herdt,ID,B,Multi-ply,Master Men 54-60,M,140+,,,192.5,,192.5,1
 Moses Timbal,HI,B,Multi-ply,Master Men 61-67,M,75,,,127.5,,127.5,1
 Thomas English,NV,B,Multi-ply,Master Men 61-67,M,75,,,112.5,,112.5,2
-Arlindo Da Silva,Brazil,B,Multi-ply,Master Men 61-67,M,75,,,110,,110,3
+Arlindo da Silva,Brazil,B,Multi-ply,Master Men 61-67,M,75,,,110,,110,3
 Rudy Lozano,CA,B,Multi-ply,Master Men 61-67,M,82.5,,,185,,185,1
 Michael Minietta,NV,B,Multi-ply,Master Men 61-67,M,82.5,,,147.5,,147.5,2
 Jerry Mc Camman,CA,B,Multi-ply,Master Men 61-67,M,82.5,,,140,,140,3
@@ -759,7 +759,7 @@ Ed Acey,UT,B,Multi-ply,Master Men 61-67,M,117.5,,,200,,200,1
 William John Bidinotto,OH,B,Multi-ply,Master Men 61-67,M,117.5,,,185,,185,2
 Eldon Olson,MT,B,Multi-ply,Master Men 61-67,M,117.5,,,167.5,,167.5,3
 Mike Bonifield,CA,B,Multi-ply,Master Men 61-67,M,117.5,,,160,,160,4
-Robert O. Smith,Canada,B,Multi-ply,Master Men 61-67,M,140,,,232.5,,232.5,1
+Robert O Smith,Canada,B,Multi-ply,Master Men 61-67,M,140,,,232.5,,232.5,1
 Jim Merlino,CA,B,Multi-ply,Master Men 68-74,M,75,,,115,,115,1
 Bob Nussear,FL,B,Multi-ply,Master Men 68-74,M,75,,,110,,110,2
 Bill Tinkler,FL,B,Multi-ply,Master Men 68-74,M,75,,,105,,105,3
@@ -779,7 +779,7 @@ Russell Combest,OH,B,Multi-ply,Master Men 75-79,M,110,,,127.5,,127.5,1
 Sheldon Levy,NY,B,Multi-ply,Master Men 75-79,M,110,,,92.5,,92.5,2
 Arthur Whinston,OR,B,Multi-ply,Master Men 80-84,M,67.5,,,40,,40,1
 Edwin Free Jr,TN,B,Multi-ply,Master Men 80-84,M,90,,,62.5,,62.5,1
-Eugene L. Miranda,CA,B,Multi-ply,Master Men 80-84,M,100,,,110,,110,1
+Eugene L Miranda,CA,B,Multi-ply,Master Men 80-84,M,100,,,110,,110,1
 Dr. Donald Dreyer,LA,B,Multi-ply,Master Men 85+,M,82.5,,,70,,70,1
 Alexandra Vallejo,CA,B,Multi-ply,Master Women 40-46,F,44,,,,,,DQ
 Sandra Herring,GA,B,Multi-ply,Master Women 40-46,F,48,,,57.5,,57.5,1
@@ -830,7 +830,7 @@ Melicent Whinston,OR,B,Multi-ply,Master Women 75-79,F,60,,,30,,30,2
 Gary Bobrovitz,Canada,B,Multi-ply,Open Men,M,60,,,130,,130,1
 Alfredo Evangelista,OR,B,Multi-ply,Open Men,M,67.5,,,182.5,,182.5,1
 Charles Venturella,PA,B,Multi-ply,Open Men,M,67.5,,,177.5,,177.5,2
-David R. Smith,TX,B,Multi-ply,Open Men,M,67.5,,,167.5,,167.5,3
+David R Smith,TX,B,Multi-ply,Open Men,M,67.5,,,167.5,,167.5,3
 Jason Arnold,CA,B,Multi-ply,Open Men,M,67.5,,,147.5,,147.5,4
 Michael Salemi,CA,B,Multi-ply,Open Men,M,67.5,,,147.5,,147.5,5
 Andrew Kim,IL,B,Multi-ply,Open Men,M,75,,,227.5,235,227.5,1
@@ -839,7 +839,7 @@ Monte Hokoana,HI,B,Multi-ply,Open Men,M,75,,,182.5,,182.5,3
 Sean Kearney,FL,B,Multi-ply,Open Men,M,75,,,147.5,,147.5,4
 Chris Rayner,OK,B,Multi-ply,Open Men,M,82.5,,,,,,DQ
 Keith Daniels,HI,B,Multi-ply,Open Men,M,82.5,,,212.5,,212.5,1
-Kim Paivoke,Finland,B,Multi-ply,Open Men,M,82.5,,,210,,210,2
+Kim Päivöke,Finland,B,Multi-ply,Open Men,M,82.5,,,210,,210,2
 Phil Cannizzaro,CA,B,Multi-ply,Open Men,M,82.5,,,210,,210,3
 Don Linerud,ID,B,Multi-ply,Open Men,M,82.5,,,197.5,,197.5,4
 Anton White,IL,B,Multi-ply,Open Men,M,82.5,,,190,,190,5
@@ -855,7 +855,7 @@ Charles Phillips,AL,B,Multi-ply,Open Men,M,90,,,207.5,,207.5,6
 David Militana,TN,B,Multi-ply,Open Men,M,90,,,207.5,,207.5,7
 Nelson Callahan,HI,B,Multi-ply,Open Men,M,90,,,197.5,,197.5,8
 Ahmed Abukhater,Palestine,B,Multi-ply,Open Men,M,90,,,175,182.5,175,9
-Steve Pena,CA,B,Multi-ply,Open Men,M,100,,,,,,DQ
+Steve Peña,CA,B,Multi-ply,Open Men,M,100,,,,,,DQ
 Joe Guerra,TX,B,Multi-ply,Open Men,M,100,,,257.5,,257.5,1
 Tatu Avola,Finland,B,Multi-ply,Open Men,M,100,,,255,,255,2
 Doug Haycraft,IL,B,Multi-ply,Open Men,M,100,,,255,,255,3
@@ -875,7 +875,7 @@ David Groves,WA,B,Multi-ply,Open Men,M,117.5,,,255,,255,5
 Forest Hofer,WA,B,Multi-ply,Open Men,M,125,,,,,,DQ
 Dustin Newsom,NV,B,Multi-ply,Open Men,M,125,,,,,,DQ
 Terry Gibson,PA,B,Multi-ply,Open Men,M,125,,,300,,300,1
-Nils Sjodin,Sweden,B,Multi-ply,Open Men,M,125,,,300,,300,2
+Nils Sjödin,Sweden,B,Multi-ply,Open Men,M,125,,,300,,300,2
 Patrick Holloway,AZ,B,Multi-ply,Open Men,M,125,,,295,,295,3
 Justin Ross,AL,B,Multi-ply,Open Men,M,125,,,290,,290,4
 Thomas Kesling,TN,B,Multi-ply,Open Men,M,125,,,257.5,,257.5,5
@@ -928,10 +928,10 @@ Jock Mayes,CA,B,Multi-ply,Special Olympian Men,M,140+,,,112.5,,112.5,1
 Elizandro Vela,TX,B,Multi-ply,Special Olympian Men,M,140+,,,75,,75,2
 Manuel Vera Jr,TX,B,Multi-ply,Special Olympian Men,M,140+,,,62.5,,62.5,3
 Holly James,CA,B,Multi-ply,Special Olympian Women,F,75,,,45,,45,1
-David R. Smith,TX,B,Multi-ply,Submaster Men 33-39,M,67.5,,,165,,165,1
+David R Smith,TX,B,Multi-ply,Submaster Men 33-39,M,67.5,,,165,,165,1
 Richard Anderson,AL,B,Multi-ply,Submaster Men 33-39,M,75,,,130,,130,1
 Keith Daniels,HI,B,Multi-ply,Submaster Men 33-39,M,82.5,,,212.5,,212.5,1
-Kim Paivoke,Finland,B,Multi-ply,Submaster Men 33-39,M,82.5,,,210,,210,2
+Kim Päivöke,Finland,B,Multi-ply,Submaster Men 33-39,M,82.5,,,210,,210,2
 Phil Cannizzaro,CA,B,Multi-ply,Submaster Men 33-39,M,82.5,,,210,,210,3
 Jerry Huddleston,AL,B,Multi-ply,Submaster Men 33-39,M,82.5,,,170,,170,4
 Danny Soto,WA,B,Multi-ply,Submaster Men 33-39,M,90,,,245,,245,1
@@ -958,7 +958,7 @@ Paul Fitschen,WA,B,Multi-ply,Submaster Men 33-39,M,117.5,,,217.5,,217.5,1
 Robert Lincoln Jr,CA,B,Multi-ply,Submaster Men 33-39,M,125,,,302.5,305.5,302.5,1
 Terry Gibson,PA,B,Multi-ply,Submaster Men 33-39,M,125,,,300,,300,2
 Patrick Holloway,AZ,B,Multi-ply,Submaster Men 33-39,M,125,,,295,,295,3
-Jeff Snyder,TX,B,Multi-ply,Submaster Men 33-39,M,125,,,260,,260,4
+Jeffrey Snyder,TX,B,Multi-ply,Submaster Men 33-39,M,125,,,260,,260,4
 Jason Gibson,UT,B,Multi-ply,Submaster Men 33-39,M,125,,,255,,255,5
 Clint Berey,GA,B,Multi-ply,Submaster Men 33-39,M,125,,,235,,235,6
 Brandon Bankston,LA,B,Multi-ply,Submaster Men 33-39,M,125,,,227.5,,227.5,7
