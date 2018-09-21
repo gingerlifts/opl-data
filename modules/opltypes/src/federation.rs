@@ -501,6 +501,10 @@ pub enum Federation {
     #[strum(to_string = "UkrainePA", serialize = "ukrainepa")]
     UkrainePA,
 
+    /// Ukraine Powerlifting Organisation.
+    #[strum(to_string = "UkrainePO", serialize = "ukrainepo")]
+    UkrainePO,
+
     /// United Powerlifting Association.
     #[strum(to_string = "UPA", serialize = "upa")]
     UPA,
@@ -753,6 +757,7 @@ impl Federation {
             Federation::SVNL => true,
             Federation::THSPA => true,
             Federation::UkrainePA => false,
+            Federation::UkrainePO => false,
             Federation::UPA => false,
             Federation::UPC => false,
             Federation::UkrainePF => true,
@@ -906,6 +911,7 @@ impl Federation {
             Federation::SVNL => Some(Country::Finland),
             Federation::THSPA => Some(Country::USA),
             Federation::UkrainePA => Some(Country::Ukraine),
+            Federation::UkrainePO => Some(Country::Ukraine),
             Federation::UPA => Some(Country::USA),
             Federation::UPC => Some(Country::Ukraine),
             Federation::UkrainePF => Some(Country::Ukraine),
