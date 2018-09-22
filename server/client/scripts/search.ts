@@ -27,19 +27,25 @@ export function RankingsSearcher(
 
     let pendingItem: SearchWorkItem = null;
 
+    let path = selection;
+
     const onSearchFound = new Slick.Event();
     const onSearchNotFound = new Slick.Event();
+
+    function setPath(p: string) {
+        path = p;
+    }
 
     // Creates a URL for the rankings search endpoint.
     function makeApiUrl(item: SearchWorkItem): string {
         // Remove some characters that will cause malformed URLs.
         const query = item.query.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '_');
         const startRow = Math.max(item.startRow, 0);
-        return `/api/search/rankings${selection}?q=${query}&start=${startRow}`;
+        return `/api/search/rankings${path}?q=${query}&start=${startRow}`;
     }
 
     // Cancels any pending or active AJAX calls.
-    function cancelAllRequests(): void {
+    function terminateAllRequests(): void {
         if (activeAjaxRequest !== null) {
             activeAjaxRequest.abort();
             activeAjaxRequest = null;
@@ -83,7 +89,7 @@ export function RankingsSearcher(
     }
 
     function search(item: SearchWorkItem): void {
-        cancelAllRequests();
+        terminateAllRequests();
         pendingItem = item;
         activeTimeout = setTimeout(makeAjaxRequest, AJAX_TIMEOUT);
     }
@@ -91,6 +97,8 @@ export function RankingsSearcher(
     return {
         // Methods.
         "search": search,
+        "terminateAllRequests": terminateAllRequests,
+        "setPath": setPath,
 
         // Events.
         "onSearchFound": onSearchFound,

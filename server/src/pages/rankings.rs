@@ -16,10 +16,6 @@ pub struct Context<'db, 'a> {
     pub language: Language,
     pub strings: &'db langpack::Translations,
     pub units: opltypes::WeightUnits,
-
-    /// The title of the points column, which changes based on SortSelection.
-    pub points_column_title: &'db str,
-
     pub selection: &'a Selection,
     pub data: String,
 }
@@ -38,18 +34,6 @@ impl<'db, 'a> Context<'db, 'a> {
             language: locale.language,
             strings: locale.strings,
             units: locale.units,
-
-            // This should mirror the logic in JsEntryRow::from().
-            points_column_title: match selection.sort {
-                SortSelection::BySquat
-                | SortSelection::ByBench
-                | SortSelection::ByDeadlift
-                | SortSelection::ByTotal
-                | SortSelection::ByWilks => &locale.strings.columns.wilks,
-                SortSelection::ByMcCulloch => &locale.strings.columns.mcculloch,
-                SortSelection::ByGlossbrenner => &locale.strings.columns.glossbrenner,
-            },
-
             selection,
             data: serde_json::to_string(&slice).ok()?,
         })
