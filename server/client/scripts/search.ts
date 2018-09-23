@@ -12,14 +12,13 @@ export interface SearchRankingsResult {
 
 // Parameters for a possible remote request.
 export interface SearchWorkItem {
-    query: string;
+    path: string;  // The URL path.
+    query: string;  // The search query.
     startRow: number;  // Inclusive.
 }
 
 // Creates a function that manages AJAX requests to the rankings search endpoint.
-export function RankingsSearcher(
-    selection: string,  // For forming URLs.
-) {
+export function RankingsSearcher() {
     const AJAX_TIMEOUT = 50;  // Milliseconds before making AJAX request.
 
     let activeTimeout: number = null;  // Timeout before making AJAX request.
@@ -27,21 +26,15 @@ export function RankingsSearcher(
 
     let pendingItem: SearchWorkItem = null;
 
-    let path = selection;
-
     const onSearchFound = new Slick.Event();
     const onSearchNotFound = new Slick.Event();
-
-    function setPath(p: string) {
-        path = p;
-    }
 
     // Creates a URL for the rankings search endpoint.
     function makeApiUrl(item: SearchWorkItem): string {
         // Remove some characters that will cause malformed URLs.
         const query = item.query.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '_');
         const startRow = Math.max(item.startRow, 0);
-        return `/api/search/rankings${path}?q=${query}&start=${startRow}`;
+        return `/api/search/rankings${item.path}?q=${query}&start=${startRow}`;
     }
 
     // Cancels any pending or active AJAX calls.
@@ -98,7 +91,6 @@ export function RankingsSearcher(
         // Methods.
         "search": search,
         "terminateAllRequests": terminateAllRequests,
-        "setPath": setPath,
 
         // Events.
         "onSearchFound": onSearchFound,

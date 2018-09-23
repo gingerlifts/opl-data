@@ -141,7 +141,7 @@ function search() {
     }
 
     // Queue up an AJAX request.
-    searcher.search({query: query, startRow: startRow});
+    searcher.search({path: selection_to_path(), query: query, startRow: startRow});
     searchInfo.laststr = query;
 }
 
@@ -327,7 +327,6 @@ function makeRemoteCache(path: string, use_initial_data: boolean) {
 
         // Make this the One True Cache.
         searcher.terminateAllRequests();
-        searcher.setPath(selection_to_path());
         global_cache = cache;
         pending_cache = undefined;
 
@@ -432,7 +431,7 @@ function onLoad() {
     global_grid.onViewportChanged.notify();
 
     // Hook up the searcher.
-    searcher = RankingsSearcher(selection_to_path());
+    searcher = RankingsSearcher();
     searcher.onSearchFound.subscribe(function (e, next_index: number) {
         const numColumns = global_grid.getColumns().length;
         global_grid.scrollRowToTop(next_index);
