@@ -7,7 +7,7 @@ use langpack::{self, Language, Locale};
 use opldb;
 
 use pages::api_rankings::get_slice;
-use pages::selection::{Selection, SortSelection};
+use pages::selection::Selection;
 
 /// The context object passed to `templates/rankings.html.tera`.
 #[derive(Serialize)]
