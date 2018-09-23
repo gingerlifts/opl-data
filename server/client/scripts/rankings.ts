@@ -33,8 +33,12 @@ declare const translation_column_glossbrenner: string;
 let global_grid;  // The SlickGrid.
 let global_cache;  // The active RemoteCache rendered in the SlickGrid.
 
-// A RemoteCache in line to replace the global_cache, but it hasn't
+// A RemoteCache in line to replace the global_cache, but which hasn't
 // had its initial data loaded yet, and is still waiting on an AJAX response.
+//
+// The pending_cache is swapped to overwrite the global_cache when its onFirstLoad
+// event fires, by the event handler. Swapping only when data is available avoids
+// flickering. The concept is similar to the double-sided OpenGL framebuffer.
 let pending_cache;
 
 // Tells an event handler to not create a new history state.
@@ -145,6 +149,20 @@ function search() {
     searchInfo.laststr = query;
 }
 
+function setSortColumn(): void {
+    let sortcol = "points";
+    if (selSort.value === "by-squat") {
+        sortcol = "squat";
+    } else if (selSort.value === "by-bench") {
+        sortcol = "bench";
+    } else if (selSort.value === "by-deadlift") {
+        sortcol = "deadlift";
+    } else if (selSort.value === "by-total") {
+        sortcol = "total";
+    }
+    global_grid.setSortColumn(sortcol, false); // Sort descending.
+}
+
 function selection_to_points_title(): string {
     let sort = selSort.value;
     if (sort === "by-mcculloch") {
@@ -225,6 +243,8 @@ function changeSelection() {
     let path = selection_to_path();
     let url = path ? ("/rankings" + path) : "/";
 
+    // Adding new history state is suppressed when this function is used
+    // to cause data updates on back/forward site navigation.
     if (global_suppress_history_changes === false) {
         history.pushState(saveSelectionState(), "", url);
     }
@@ -320,18 +340,25 @@ function makeRemoteCache(path: string, use_initial_data: boolean) {
     // The first data load should replace the RemoteCache and realign
     // the grid to the first position.
     cache.onFirstLoad.subscribe(function (e, args: WorkItem) {
+        // For sanity checking, make sure this cache is actually intended
+        // to replace the active global_cache.
+        if (pending_cache !== cache) {
+            return;
+        }
+        pending_cache = undefined;
+
         // Terminate any ongoing AJAX requests from the existing RemoteCache.
         if (global_cache !== undefined) {
             global_cache.terminateActiveRequests();
         }
+        searcher.terminateAllRequests();
 
         // Make this the One True Cache.
-        searcher.terminateAllRequests();
         global_cache = cache;
-        pending_cache = undefined;
 
         // Change the Points title to have the right string.
         global_grid.updateColumnHeader("points", selection_to_points_title());
+        setSortColumn();
 
         // Invalidate everything.
         global_grid.updateRowCount();
@@ -416,17 +443,7 @@ function onLoad() {
         global_cache.ensureData({ startRow: vp.top, endRow: vp.bottom });
     });
 
-    let sortcol = "points";
-    if (selSort.value === "by-squat") {
-        sortcol = "squat";
-    } else if (selSort.value === "by-bench") {
-        sortcol = "bench";
-    } else if (selSort.value === "by-deadlift") {
-        sortcol = "deadlift";
-    } else if (selSort.value === "by-total") {
-        sortcol = "total";
-    }
-    global_grid.setSortColumn(sortcol, false); // Sort descending.
+    setSortColumn();
     global_grid.resizeCanvas();
     global_grid.onViewportChanged.notify();
 
