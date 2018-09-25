@@ -9,7 +9,7 @@ DQ,Edit Illyés,S,Wraps,46,F,M2,74.8,75,-130,-130,-130,,,,,,,,,,,,,,Hungary
 1,Dorina Bordás,S,Wraps,19,F,T3,71.7,75,80,90,-100,,90,,,,,,,,,,,90,Hungary
 2,Olha Brodetska,S,Wraps,19,F,T3,70.4,75,50,-70,-70,,50,,,,,,,,,,,50,Ukraine
 1,Jozef Gabriel,S,Wraps,62,M,M5,72.1,75,130,140,150,,150,,,,,,,,,,,150,Slovakia
-1,Jaroslav Solc,S,Wraps,61,M,M5,97,100,180,190,-200,,190,,,,,,,,,,,190,Slovakia
+1,Jaroslav Šolc,S,Wraps,61,M,M5,97,100,180,190,-200,,190,,,,,,,,,,,190,Slovakia
 1,Tibor Sipos,S,Wraps,53,M,M4,78.8,82.5,140,150,160,,160,,,,,,,,,,,160,Hungary
 1,Peter Herák,S,Wraps,57,M,M4,89.6,90,230,245,-252.5,,245,,,,,,,,,,,245,Slovakia
 1,Richard Penkert,S,Wraps,55,M,M4,108.3,110,252.5,-265,265,,265,,,,,,,,,,,265,Ireland
@@ -31,7 +31,7 @@ DQ,Béla Serfőző,S,Wraps,54,M,M3,99.1,100,-170,-170,-170,,,,,,,,,,,,,,Hungary
 2,Tibor Karalyos,S,Wraps,44,M,M1,131.2,140,250,-280,,,250,,,,,,,,,,,250,Hungary
 1,Szabolcs Kassa,S,Wraps,33,M,O,67.1,67.5,150,165,175,,175,,,,,,,,,,,175,Hungary
 1,Gábor Csikós,S,Wraps,30,M,O,80.9,82.5,140,170,-180,,170,,,,,,,,,,,170,Hungary
-1,Adam Vokal,S,Wraps,25,M,O,84.8,90,200,220,,,220,,,,,,,,,,,220,Czechia
+1,Adam Vokál,S,Wraps,25,M,O,84.8,90,200,220,,,220,,,,,,,,,,,220,Czechia
 1,Péter Czentye,S,Wraps,29,M,O,94,100,-300,300,312.5,,312.5,,,,,,,,,,,312.5,Hungary
 2,Arkadiusz Wojciech Piela,S,Wraps,24,M,O,98.2,100,280,295,305,,305,,,,,,,,,,,305,Poland
 1,Dmytro Hotlashov,S,Wraps,33,M,O,108.2,110,280,300,305,,305,,,,,,,,,,,305,Ukraine
@@ -47,13 +47,13 @@ DQ,Norbert Gáleg,S,Wraps,22,M,J,104.1,110,-260,-260,-260,,,,,,,,,,,,,,Hungary
 1,Balázs Szarka,S,Wraps,18,M,T3,102.7,110,-110,-120,120,,120,,,,,,,,,,,120,Hungary
 1,Gábor Király,S,Wraps,16,M,T2,106.2,110,205,210,215,220,215,,,,,,,,,,,215,Hungary
 1,Ariela Amitay,SBD,Multi-ply,53,F,M3,56.5,60,130,-145,-145,,130,60,-102.5,-102.5,,60,130,-140,,,130,320,Israel
-1,Angela Mcnamara,SBD,Multi-ply,45,F,M2,79.6,82.5,100,,,,100,50,,,,50,100,,,,100,250,Ireland
+1,Angela McNamara,SBD,Multi-ply,45,F,M2,79.6,82.5,100,,,,100,50,,,,50,100,,,,100,250,Ireland
 1,Rehana Maniar,SBD,Multi-ply,43,F,M1,67.2,67.5,-170,170,-205,,170,90,-105,-116,,90,155,181,-190,,181,441,Ireland
 1,Jennifer Milliron-O'Neil,SBD,Multi-ply,43,F,M1,71,75,-206,206,215,,215,-125,130,140,,140,185,206,,,206,561,Ireland
 1,Ellenmary Hogan,SBD,Multi-ply,24,F,O,59.4,60,60,75,-85,,75,40,50,-55,,50,-100,100,115,,115,240,Ireland
 1,Rebeca Ficekova,SBD,Multi-ply,17,F,T2,71.7,75,90,110,-120,,110,70,80,90,,90,100,110,120,,120,320,Slovakia
 1,Libor Hurdálek,SBD,Multi-ply,64,M,M5,100.6,110,220,235,242.5,,242.5,155,161,170,-180,170,190,210,220,,220,632.5,Czechia
-2,Jiri Svozil,SBD,Multi-ply,64,M,M5,103.5,110,165,175,-180,,175,60,70,-75,,70,180,205,,,205,450,Czechia
+2,Jiří Svozil,SBD,Multi-ply,64,M,M5,103.5,110,165,175,-180,,175,60,70,-75,,70,180,205,,,205,450,Czechia
 1,Pavel Malina,SBD,Multi-ply,58,M,M4,60.6,67.5,185,200,207.5,,207.5,105,112.5,117.5,,117.5,160,175,185,,185,510,Czechia
 1,Karol Brečka,SBD,Multi-ply,57,M,M4,80.3,82.5,195,-215,220,,220,120,130,-140,,130,195,215.5,225,,225,575,Czechia
 1,Michal Červinka,SBD,Multi-ply,58,M,M4,88.9,90,-225,225,232.5,,232.5,120,130,-135,,130,210,217.5,-222.5,,217.5,580,Slovakia
@@ -78,7 +78,7 @@ DQ,Lee Powell,SBD,Multi-ply,34,M,O,88.8,90,-300,-300,-300,,,,,,,,,,,,,,Canada
 1,Jonathan Eric Bar,SBD,Multi-ply,22,M,J,61.8,67.5,150,-157.5,-160,,150,87.5,92.5,-97.5,,92.5,-172.5,172.5,-180,,172.5,415,France
 DQ,Remus Watson,SBD,Multi-ply,20,M,J,67.1,67.5,-205,-205,-205,,,,,,,,,,,,,,Australia
 1,Benjamin Mező Áron,SBD,Multi-ply,21,M,J,86.6,90,200,-220,-230,,200,140,-150,150,,150,230,-250,-250,,230,580,Hungary
-1,Peter Uhrecky,SBD,Multi-ply,21,M,J,94.6,100,-250,-250,250,,250,195,205,210,,210,230,250,-255,,250,710,Slovakia
+1,Peter Uhrecký,SBD,Multi-ply,21,M,J,94.6,100,-250,-250,250,,250,195,205,210,,210,230,250,-255,,250,710,Slovakia
 1,Dominik Filip,SBD,Multi-ply,18,M,T3,61.8,67.5,150,160,-170,,160,-75,85,-92.5,,85,160,175,185,,185,430,Czechia
 1,Lesley Thomas,SBD,Wraps,52,F,M3,59.4,60,-127.5,-127.5,127.5,-136,127.5,67.5,72.5,75,,75,150,-160.5,160.5,,160.5,363,UK
 DQ,Ariela Amitay,SBD,Wraps,53,F,M3,57.5,60,,,,,,,,,,,,,,,,,Israel
@@ -86,12 +86,12 @@ DQ,Ariela Amitay,SBD,Wraps,53,F,M3,57.5,60,,,,,,,,,,,,,,,,,Israel
 1,Irina Pomerantsev,SBD,Wraps,48,F,M2,44.7,48,80,-85,-85,,80,55,60,-62.5,,60,90,100,-102.5,,100,240,Israel
 1,Veronika Szász Dudásné,SBD,Wraps,47,F,M2,51.6,52,100,-102.5,102.5,,102.5,50,55,-65.5,,55,116,-120,120,125,120,277.5,Hungary
 1,Sharon Cooke,SBD,Wraps,48,F,M2,58.7,60,100,-107.5,107.5,110.5,107.5,42.5,-47.5,-47.5,,42.5,122.5,132.5,137.5,,137.5,287.5,UK
-1,Angela Mcnamara,SBD,Wraps,45,F,M2,77.5,82.5,165,172.5,177.5,,177.5,100,102.5,105,,105,185,195,,,195,477.5,Ireland
+1,Angela McNamara,SBD,Wraps,45,F,M2,77.5,82.5,165,172.5,177.5,,177.5,100,102.5,105,,105,185,195,,,195,477.5,Ireland
 2,Éva Koczkás,SBD,Wraps,47,F,M2,81.2,82.5,170,180,190,,190,102.5,107.5,110,,110,150,155,162.5,,162.5,462.5,Hungary
 1,Svetlana Dobrjakova,SBD,Wraps,42,F,M1,52,52,60,-70,-70,,60,50,52.5,-55,,52.5,105,115,120,,120,232.5,Latvia
 1,Julie Davis,SBD,Wraps,42,F,M1,58.3,60,135,-145,-145,,135,75,80,-85,-85.5,80,160,167.5,173,,173,388,UK
 2,Judit Andrási,SBD,Wraps,42,F,M1,58.2,60,-95,95,105,,105,52.5,55,-60,,55,120,125,132.5,,132.5,292.5,Hungary
-1,Elena Simova,SBD,Wraps,40,F,M1,72.1,75,180,190,200,,200,90,95,100,,100,180,190,-200.5,,190,490,Slovakia
+1,Elena Šimová,SBD,Wraps,40,F,M1,72.1,75,180,190,200,,200,90,95,100,,100,180,190,-200.5,,190,490,Slovakia
 2,Mónika Bazsó,SBD,Wraps,44,F,M1,72.8,75,157.5,167.5,175,,175,92.5,97.5,102.5,,102.5,185,195,203,,203,480.5,Hungary
 1,Liane Sabourin,SBD,Wraps,43,F,M1,150.5,110+,-120,120,-130,,120,90,-100,-108,,90,160,170,-172.5,,170,380,Canada
 1,Lauren Anne Bianchi,SBD,Wraps,34,F,O,51.3,52,135,-145,-145,,135,-65,65,-67.5,,65,160,170,180,,180,380,Italy
@@ -127,7 +127,7 @@ DQ,Ariela Amitay,SBD,Wraps,53,F,M3,57.5,60,,,,,,,,,,,,,,,,,Israel
 2,Tea Stojšić,SBD,Wraps,20,F,J,57.7,60,100,107.5,-112.5,,107.5,55,60,62.5,,62.5,120,127.5,132.5,,132.5,302.5,Croatia
 1,Tetiana Brodetska,SBD,Wraps,22,F,J,74.1,75,180,191,200,,200,90,-95,-100,,90,160,170,180,,180,470,Ukraine
 2,Alexandra Soós,SBD,Wraps,20,F,J,71.3,75,-160,-170,170,,170,80,90,95,-105.5,95,185,200,-210,,200,465,Hungary
-3,Enikő Tóth,SBD,Wraps,20,F,J,68.2,75,125,135,142.5,,142.5,55,-57.5,57.5,,57.5,135,150,155,,155,355,Slovakia
+3,Enikö Tóth,SBD,Wraps,20,F,J,68.2,75,125,135,142.5,,142.5,55,-57.5,57.5,,57.5,135,150,155,,155,355,Slovakia
 DQ,Bethany Lovatt,SBD,Wraps,21,F,J,72.3,75,-175,-175,-175,,,,,,,,,,,,,,UK
 1,Johanna Smith,SBD,Wraps,23,F,J,76.8,82.5,135,142.5,-150,,142.5,75,-77.5,,,75,155,162.5,170,,170,387.5,New Zealand
 2,Barbara Tóth,SBD,Wraps,22,F,J,77.4,82.5,125,132.5,140,,140,60,65,-70,,65,125,132.5,140,,140,345,Hungary
@@ -140,7 +140,7 @@ DQ,Bethany Lovatt,SBD,Wraps,21,F,J,72.3,75,-175,-175,-175,,,,,,,,,,,,,,UK
 1,Ema Misovcikova,SBD,Wraps,15,F,T1,55,56,105,110,-120,,110,55,60,62.5,,62.5,120,125,130,,130,302.5,Slovakia
 1,Blanka Vass,SBD,Wraps,15,F,T1,58.9,60,100,105,110,,110,45,47.5,-50,,47.5,105,115,-120,120,115,272.5,Hungary
 2,Dagmar Skalova,SBD,Wraps,15,F,T1,58.6,60,95,-102.5,-102.5,,95,45,50,52.5,,52.5,95,102.5,-105,,102.5,250,Czechia
-1,Josef Cichy,SBD,Wraps,65,M,M6,59.8,60,140,150,155,,155,55,60.5,65,,65,150,160,165,-170,165,385,Czechia
+1,Josef Cichý,SBD,Wraps,65,M,M6,59.8,60,140,150,155,,155,55,60.5,65,,65,150,160,165,-170,165,385,Czechia
 1,Miaza Zia,SBD,Wraps,61,M,M5,65.5,67.5,130,145,155,,155,100,105,110,,110,152.5,170,180,,180,445,UK
 1,Ottó Antal,SBD,Wraps,59,M,M4,59.3,60,120,125,-131,,125,60,-65,,,60,140,150,155,,155,340,Hungary
 DQ,Nils Tania,SBD,Wraps,52,M,M3,66,67.5,140,145,-150,,145,-80,-80,-80,,,-150,,,,,,South Africa
@@ -150,7 +150,7 @@ DQ,Nils Tania,SBD,Wraps,52,M,M3,66,67.5,140,145,-150,,145,-80,-80,-80,,,-150,,,,
 3,Tom Leckloksavang,SBD,Wraps,25,M,O,63.3,67.5,85,100,115,,115,70,75,-85,,75,140,155,170,,170,360,France
 DQ,Alexandre Mick,SBD,Wraps,21,M,J,64,67.5,130,135,-140,,135,-95,-95,-95,,,180,-185,,,180,,France
 1,Aaron LeOal,SBD,Wraps,19,M,T3,59,60,142.5,155,-172.5,,155,90,-100,100,-106,100,182.5,197.5,205,-218,205,460,Canada
-1,Máté Kiss,SBD,Wraps,19,M,T3,62.5,67.5,160,-170,175,,175,90,100,,,100,170,180,190,,190,465,Hungary
+1,Maté Kiss,SBD,Wraps,19,M,T3,62.5,67.5,160,-170,175,,175,90,100,,,100,170,180,190,,190,465,Hungary
 1,Jason Bar,SBD,Wraps,16,M,T2,55.7,56,87.5,95,-100,,95,47.5,-52.5,-52.5,,47.5,90,97.5,-102.5,,97.5,240,France
 DQ,Benedek Prokos,SBD,Wraps,17,M,T2,59.2,60,-90,-105,-105,,,55,-65,-65,,55,105,115,-130,,115,,Hungary
 1,Edvards Juhimenko,SBD,Wraps,13,M,T1,59.2,60,135,140,145,150,145,70,75,78,,78,135,145,150,,150,373,Latvia
@@ -172,11 +172,11 @@ DQ,Benedek Prokos,SBD,Wraps,17,M,T2,59.2,60,-90,-105,-105,,,55,-65,-65,,55,105,1
 3,Péter Soós,SBD,Wraps,21,M,J,81,82.5,185,-200,-205,,185,105,115,-120,,115,185,200,-210,,200,500,Hungary
 4,Szilárd Bai,SBD,Wraps,21,M,J,82.5,82.5,185,-200,-200,,185,105,-115,-115,,105,190,200,-212.5,,200,490,Hungary
 1,Liam Turnbull,SBD,Wraps,18,M,T3,77.7,82.5,182.5,-195,200,,200,112.5,117.5,-122.5,,117.5,185,195,200,,200,517.5,UK
-2,Zoltán Horváth,SBD,Wraps,18,M,T3,78.9,82.5,170,180,190,,190,100,107.5,-110,,107.5,200,207.5,-222.5,,207.5,505,Hungary
+2,Zoltán Horváth #2,SBD,Wraps,18,M,T3,78.9,82.5,170,180,190,,190,100,107.5,-110,,107.5,200,207.5,-222.5,,207.5,505,Hungary
 1,Jakub Stachurski,SBD,Wraps,17,M,T2,72.4,75,140,150,160,,160,90,100,-102.5,,100,175,195,205,-221,205,465,Poland
 2,Štefan Lehocký,SBD,Wraps,16,M,T2,70.7,75,145,165,172.5,,172.5,75,80,85,,85,160,175,180,,180,437.5,Slovakia
 3,Csaba Méry,SBD,Wraps,17,M,T2,71.1,75,130,-140,-150,,130,95,97.5,-100,,97.5,180,190,-205,,190,417.5,Slovakia
-4,Ondrej Kaucky,SBD,Wraps,16,M,T2,73.6,75,145,150,-157.5,,150,85,90,95,,95,140,152.5,-175,,152.5,397.5,Czechia
+4,Ondřej Kaucký,SBD,Wraps,16,M,T2,73.6,75,145,150,-157.5,,150,85,90,95,,95,140,152.5,-175,,152.5,397.5,Czechia
 5,Marcell Szigetvári,SBD,Wraps,16,M,T2,72.7,75,100,112.5,120,,120,-82.5,85,-90,,85,135,145,-150,,145,350,Hungary
 1,Csaba Bajczer,SBD,Wraps,17,M,T2,81,82.5,180,195,205,,205,120,130,-135,,130,240,255,-265,,255,590,Hungary
 2,Roland Király,SBD,Wraps,17,M,T2,80.9,82.5,190,205,-215,,205,107.5,115,-120,,115,200,-210,-210,,200,520,Hungary
@@ -185,7 +185,7 @@ DQ,Benedek Prokos,SBD,Wraps,17,M,T2,59.2,60,-90,-105,-105,,,55,-65,-65,,55,105,1
 1,Ferenc Smuk,SBD,Wraps,66,M,M6,88.2,90,240,250,260,,260,100,-105,105,,105,240,260,-270,,260,625,Hungary
 2,Pavel Erban,SBD,Wraps,66,M,M6,89.7,90,95,115,-130,,115,75,-82.5,-82.5,,75,120,135,145,,145,335,Czechia
 1,Petr Kutner,SBD,Wraps,68,M,M6,90.2,100,140,155,165,,165,70,77.5,82.5,,82.5,-170,170,190,,190,437.5,Czechia
-1,Jaroslav Solc,SBD,Wraps,61,M,M5,97.3,100,170,190,202.5,,202.5,135,145,150,,150,180,190,-202.5,,190,542.5,Slovakia
+1,Jaroslav Šolc,SBD,Wraps,61,M,M5,97.3,100,170,190,202.5,,202.5,135,145,150,,150,180,190,-202.5,,190,542.5,Slovakia
 1,Peter Herák,SBD,Wraps,57,M,M4,89,90,230,-252.5,-255,-255,230,120,125,127.5,,127.5,225,235,-242.5,,235,592.5,Slovakia
 1,Gérard Ivars,SBD,Wraps,52,M,M3,89.2,90,210,-220,220,,220,110,117.5,-120,,117.5,210,220,-230,,220,557.5,France
 1,Vladimir Gosin,SBD,Wraps,53,M,M3,93.8,100,220,230,242.5,,242.5,150,160,-165,,160,260,272.5,-280,,272.5,675,Israel
@@ -195,7 +195,7 @@ DQ,Benedek Prokos,SBD,Wraps,17,M,T2,59.2,60,-90,-105,-105,,,55,-65,-65,,55,105,1
 2,Martin White,SBD,Wraps,49,M,M2,98.7,100,-240,240,-262.5,,240,140,150,155,,155,250,260,270,,270,665,UK
 3,István Kürti,SBD,Wraps,46,M,M2,90.7,100,210,225,230,,230,160,170,-172.5,,170,220,230,245,,245,645,Hungary
 4,Fabrice Benchabane,SBD,Wraps,47,M,M2,95.5,100,212.5,217.5,,,217.5,122.5,130,135,,135,240,252.5,257.5,,257.5,610,France
-5,Miroslav Sefl,SBD,Wraps,47,M,M2,96.7,100,205,215,222.5,,222.5,140,145,147.5,,147.5,210,230,240,,240,610,Czechia
+5,Miroslav Šefl,SBD,Wraps,47,M,M2,96.7,100,205,215,222.5,,222.5,140,145,147.5,,147.5,210,230,240,,240,610,Czechia
 1,Imade Bahria,SBD,Wraps,43,M,M1,90,90,260,-280,280,,280,125,130,-135,,130,270,290,300,-312,300,710,France
 2,Brian Marchant,SBD,Wraps,42,M,M1,89.5,90,205,-220,232.5,,232.5,125,132.5,-140,,132.5,235,247.5,-260,,247.5,612.5,Australia
 1,Zoltán Karsai,SBD,Wraps,44,M,M1,95.2,100,250,-260,-260,,250,180,190,195,,195,250,260,265,,265,710,Hungary
@@ -214,7 +214,7 @@ DQ,Benedek Prokos,SBD,Wraps,17,M,T2,59.2,60,-90,-105,-105,,,55,-65,-65,,55,105,1
 3,Attila Stir,SBD,Wraps,31,M,O,96.5,100,300,310,-315,,310,180,-190,-190,,180,280,-290,,,280,770,Hungary
 4,Dávid Barabás,SBD,Wraps,30,M,O,98.5,100,270,280,-290,,280,190,-200,-200,,190,280,300,-302.5,,300,770,Hungary
 5,Mikko Korpeinen,SBD,Wraps,37,M,O,97.4,100,250,-270,270,,270,150,157.5,-160,,157.5,300,310,320,,320,747.5,Finland
-6,Lukas Tesar,SBD,Wraps,26,M,O,97.6,100,-265,-265,265,,265,190,200,-205,,200,260,275,280,,280,745,Czechia
+6,Lukáš Tesař,SBD,Wraps,26,M,O,97.6,100,-265,-265,265,,265,190,200,-205,,200,260,275,280,,280,745,Czechia
 7,Andrej Ondrus,SBD,Wraps,27,M,O,98,100,275,-287.5,-287.5,,275,150,160,-165,,160,300,-310,-310,,300,735,Slovakia
 8,Aivis Bogadajevs,SBD,Wraps,27,M,O,96.5,100,-230,240,260,,260,140,160,-170,,160,280,300,310,,310,730,Latvia
 9,Péter Pálvölgyi,SBD,Wraps,25,M,O,94.8,100,220,230,-235,,230,140,150,152.5,,152.5,230,237.5,240,,240,622.5,Hungary
@@ -252,7 +252,7 @@ DQ,Richie Penkert,SBD,Wraps,55,M,M4,106.2,110,-280,-280,-280,,,,,,,,,,,,,,Irelan
 1,Tibor Pukáč,SBD,Wraps,47,M,M2,105.1,110,265,282.5,-290,,282.5,165,172.5,176,,176,240,250,255,,255,713.5,Slovakia
 2,István Bognár,SBD,Wraps,46,M,M2,107.8,110,240,-250,252.5,,252.5,155,165,-167.5,,165,240,250,255,,255,672.5,Hungary
 3,Róbert Franyó,SBD,Wraps,46,M,M2,108.4,110,-220,220,-230,,220,160,175,-182.5,,175,220,230,240,,240,635,Hungary
-1,Sasa Cvetkovic,SBD,Wraps,48,M,M2,113.3,125,230,240,250,,250,140,-150,-150,,140,250,265,275,,275,665,Serbia
+1,Saša Cvetković,SBD,Wraps,48,M,M2,113.3,125,230,240,250,,250,140,-150,-150,,140,250,265,275,,275,665,Serbia
 1,Jason Gillespie,SBD,Wraps,45,M,M2,137.4,140,245,262.5,275,,275,170,182.5,-187.5,,182.5,260,282.5,,,282.5,740,Slovakia
 1,Zsolt Antal,SBD,Wraps,43,M,M1,108.3,110,-280,280,-296,,280,190,-200.5,,,190,280,-300.5,300.5,,300.5,770.5,Hungary
 2,Reza Zamani,SBD,Wraps,41,M,M1,105.5,110,210,222.5,232.5,,232.5,150,160,167.5,,167.5,220,245,255,,255,655,Iran
@@ -264,8 +264,8 @@ DQ,Richie Penkert,SBD,Wraps,55,M,M4,106.2,110,-280,-280,-280,,,,,,,,,,,,,,Irelan
 DQ,László Végső,SBD,Wraps,41,M,M1,134,140,-280,280,-310,,280,-220,-220,-220,,,,,,,,,Hungary
 1,Tamás Bocz,SBD,Wraps,35,M,O,108.9,110,305,-320,-320,,305,210,222.5,-227.5,,222.5,310,320,,,320,847.5,Hungary
 2,Matt Pullen,SBD,Wraps,31,M,O,109.6,110,277.5,-287.5,-287.5,,277.5,170,182.5,-185,,182.5,330,-350,352.5,-371,352.5,812.5,UK
-3,Lukasz Lipka,SBD,Wraps,26,M,O,109,110,305,315,325,,325,175,-180,-180,,175,310,-315,-315,,310,810,Poland
-4,Juraj Kacmarik,SBD,Wraps,33,M,O,106.5,110,280,295,-305,,295,160,170,-175,,170,310,325,-335,,325,790,Slovakia
+3,Łukasz Lipka,SBD,Wraps,26,M,O,109,110,305,315,325,,325,175,-180,-180,,175,310,-315,-315,,310,810,Poland
+4,Juraj Kačmárik,SBD,Wraps,33,M,O,106.5,110,280,295,-305,,295,160,170,-175,,170,310,325,-335,,325,790,Slovakia
 5,Aleksandar Pelovski,SBD,Wraps,27,M,O,110,110,270,285,295,,295,195,-200,-200,,195,-290,290,-302.5,,290,780,Bulgaria
 6,Lázár Dominik,SBD,Wraps,29,M,O,100.7,110,-160,160,-180,,160,130,140,-145,,140,180,200,-220,,200,500,Hungary
 1,Alexander Zaytsev,SBD,Wraps,38,M,O,121.5,125,330,-350,-350,,330,200,210,-215,,210,300,310,317.5,,317.5,857.5,Russia
@@ -275,7 +275,7 @@ DQ,László Végső,SBD,Wraps,41,M,M1,134,140,-280,280,-310,,280,-220,-220,-220,
 2,Szilárd Rajkai,SBD,Wraps,38,M,O,128.1,140,290,310,320,,320,160,170,-175,,170,280,300,-305,,300,790,Hungary
 3,György Ladányi,SBD,Wraps,38,M,O,128.6,140,290,305,,,305,190,200,207.5,,207.5,275,-285,,,275,787.5,Hungary
 4,Róbert Blacha,SBD,Wraps,29,M,O,125.1,140,250,290,-310,,290,170,182.5,-187.5,,182.5,300,-317.5,-320,,300,772.5,Slovakia
-DQ,Roland Hegedűs,SBD,Wraps,31,M,O,133.2,140,-300,-300,,,,,,,,,,,,,,,Slovakia
+DQ,Roland Hegedüs,SBD,Wraps,31,M,O,133.2,140,-300,-300,,,,,,,,,,,,,,,Slovakia
 DQ,Péter Kiss,SBD,Wraps,28,M,O,137.7,140,-235,,,,,,,,,,,,,,,,Hungary
 1,Ojtaba Maleki,SBD,Wraps,35,M,O,162.2,140+,460,-506,-506,,460,210,220,225,,225,340,355,-370,,355,1040,Iran
 2,Milan Treskavica,SBD,Wraps,26,M,O,145.2,140+,300,320,340,,340,210,220,230,,230,300,320,-330,,320,890,Croatia
@@ -286,21 +286,21 @@ DQ,Péter Kiss,SBD,Wraps,28,M,O,137.7,140,-235,,,,,,,,,,,,,,,,Hungary
 1,Norbert Gáleg,SBD,Wraps,22,M,J,105.2,110,270,285,-300,,285,190,200,-205,,200,270,285,-292.5,,285,770,Hungary
 2,Ádám Adorján,SBD,Wraps,23,M,J,107.8,110,260,285,300,,300,140,150,155,,155,270,-300,-300,,270,725,Hungary
 3,Elviss Kranats,SBD,Wraps,23,M,J,104.4,110,220,240,260,,260,150,160,165,,165,250,260,275,,275,700,Latvia
-4,Haris Rakovic,SBD,Wraps,22,M,J,105,110,200,220,235,,235,150,160,-170,,160,240,265,275,,275,670,Bosnia and Herzegovina
+4,Haris Raković,SBD,Wraps,22,M,J,105,110,200,220,235,,235,150,160,-170,,160,240,265,275,,275,670,Bosnia and Herzegovina
 1,Topias Cunningham,SBD,Wraps,23,M,J,121.9,125,300,320,-330,,320,200,-210,-210,,200,320,350,-360,,350,870,Finland
 2,Zoltán Borbíró,SBD,Wraps,23,M,J,116.3,125,260,280,-300,,280,170,-180,-180,,170,320,330,-351,,330,780,Hungary
 3,Marc Barnes,SBD,Wraps,23,M,J,116.8,125,315,330,-337.5,,330,160,-167.5,,,160,280,-290,-292.5,,280,770,UK
 1,Josef GrOlec,SBD,Wraps,23,M,J,138.9,140,355,380,390,,390,207.5,217.5,225,,225,345,385,-400,,385,1000,Czechia
 1,Gergő Benes,SBD,Wraps,20,M,J,140.3,140+,350,370,380,,380,210,217.5,,,217.5,325,-348,-348,,325,922.5,Hungary
-2,Ladislav Kaspar,SBD,Wraps,23,M,J,145.1,140+,-300,-320,320,,320,210,220,-225,,220,320,340,-350,,340,880,Czechia
+2,Ladislav Kašpar,SBD,Wraps,23,M,J,145.1,140+,-300,-320,320,,320,210,220,-225,,220,320,340,-350,,340,880,Czechia
 3,Michael Snooke,SBD,Wraps,21,M,J,175.5,140+,350,-370,-382.5,,350,195,-200,,,195,310,,,,310,855,South Africa
 1,Mihály Horváth,SBD,Wraps,19,M,T3,106.5,110,260,-280,-280,,260,190,200,-203,,200,280,-290,-290,,280,740,Hungary
-2,Dominik Ponocny,SBD,Wraps,18,M,T3,105,110,270,-290,-290,,270,130,145,-155,,145,270,285,300,-302.5,300,715,Czechia
+2,Dominik Ponocný,SBD,Wraps,18,M,T3,105,110,270,-290,-290,,270,130,145,-155,,145,270,285,300,-302.5,300,715,Czechia
 1,Ante Gluić,SBD,Wraps,19,M,T3,122.7,125,300,310,315,,315,180,185,,,185,300,307.5,-312.5,,307.5,807.5,Croatia
 2,Sándor Varjú,SBD,Wraps,18,M,T3,122.6,125,200,220,-240,,220,122.5,130,-135,,130,180,200,220,,220,570,Hungary
 1,András Verbói,SBD,Wraps,18,M,T3,128.5,140,270,300,320,,320,150,160,-170,,160,270,300,310,,310,790,Hungary
 1,Erik Méhes,SBD,Wraps,17,M,T2,162.4,140+,190,200,-210,,200,90,-95,,,90,190,-200,200,,200,490,Slovakia
-1,Angela Mcnamara,S,Multi-ply,45,F,M2,79.9,82.5,150,180,200,,200,,,,,,,,,,,200,Ireland
+1,Angela McNamara,S,Multi-ply,45,F,M2,79.9,82.5,150,180,200,,200,,,,,,,,,,,200,Ireland
 1,Ellen Tobin Hogan,S,Multi-ply,24,F,O,60,60,70,90,101,-107.5,101,,,,,,,,,,,101,Ireland
 1,Lothar Schulze,S,Multi-ply,68,M,M6,81.7,82.5,95,120,130,,130,,,,,,,,,,,130,Germany
 1,Maczka Mieczyslaw,S,Multi-ply,64,M,M5,82.1,82.5,100,127.5,,,127.5,,,,,,,,,,,127.5,Germany
@@ -327,11 +327,11 @@ DQ,Andrew Cairney,S,Multi-ply,39,M,O,129,140,-380,,,,,,,,,,,,,,,,UK
 1,Jonathan Bar,S,Multi-ply,22,M,J,52.4,56,150,-155.5,-155.5,,150,,,,,,,,,,,150,France
 1,Remus Watson,S,Multi-ply,20,M,J,71.5,75,170,185,200,210,200,,,,,,,,,,,200,Australia
 1,Federico Sanchez,S,Multi-ply,22,M,J,82.5,82.5,-180,190,210,220,210,,,,,,,,,,,210,Argentina
-1,Benjamin Mezo Aron,S,Multi-ply,21,M,J,88.7,90,200,220,-230,-230,220,,,,,,,,,,,220,Hungary
+1,Benjamin Mező Áron,S,Multi-ply,21,M,J,88.7,90,200,220,-230,-230,220,,,,,,,,,,,220,Hungary
 1,Jason Bar,S,Multi-ply,16,M,T2,55.3,56,90,97.5,-102.5,,97.5,,,,,,,,,,,97.5,France
 1,Ariela Amitay,B,Multi-ply,53,F,M3,57.7,60,,,,,,92.5,-97.5,97.5,,97.5,,,,,,97.5,Israel
 1,Lesley Thomas,B,Multi-ply,52,F,M3,63.5,67.5,,,,,,80.5,85,90,-95,90,,,,,,90,UK
-1,Angela Mcnamara,B,Multi-ply,45,F,M2,80.7,82.5,,,,,,70,,,,70,,,,,,70,Ireland
+1,Angela McNamara,B,Multi-ply,45,F,M2,80.7,82.5,,,,,,70,,,,70,,,,,,70,Ireland
 1,Remana Maniar,B,Multi-ply,43,F,M1,67.4,67.5,,,,,,82.5,100,-110,,100,,,,,,100,Ireland
 1,Gyöngyi Herczeg,B,Multi-ply,25,F,O,64.4,67.5,,,,,,60,65,-70,,65,,,,,,65,Hungary
 DQ,Kristina Fecova,B,Multi-ply,20,F,J,58.7,60,,,,,,-80,,-80,,,,,,,,,Slovakia
@@ -370,7 +370,7 @@ DQ,Brian Johnston,B,Multi-ply,53,M,M3,106.4,110,,,,,,,,,,,,,,,,,Canada
 DQ,Kai-Uwe Göllnitz,B,Multi-ply,44,M,M1,124.7,125,,,,,,-290,-290,-290,,,,,,,,,Germany
 1,Oskars Zvarts,B,Multi-ply,40,M,M1,138.4,140,,,,,,240,-260,260,,260,,,,,,260,Ireland
 2,Jani Ihalainen,B,Multi-ply,43,M,M1,125.2,140,,,,,,205,-240,,,205,,,,,,205,Finland
-1,Filip Kanák,B,Multi-ply,25,M,O,65.5,67.5,,,,,,85,92.5,-105,,92.5,,,,,,92.5,Czechia
+1,Filip Kaňák,B,Multi-ply,25,M,O,65.5,67.5,,,,,,85,92.5,-105,,92.5,,,,,,92.5,Czechia
 1,Erik Valent,B,Multi-ply,33,M,O,73.9,75,,,,,,150,165,167.5,,167.5,,,,,,167.5,Slovakia
 2,Krzysztof Wolszczak,B,Multi-ply,33,M,O,74.3,75,,,,,,150,162.5,167.5,,167.5,,,,,,167.5,Poland
 3,Norbert Deli,B,Multi-ply,37,M,O,74.6,75,,,,,,152.5,167.5,,,167.5,,,,,,167.5,Hungary
@@ -401,10 +401,10 @@ DQ,Krisztián Kovács,B,Multi-ply,36,M,O,113.7,125,,,,,,,,,,,,,,,,,Hungary
 1,Martin McNamara,B,Multi-ply,23,M,J,87.5,90,,,,,,160,172.5,-175,,172.5,,,,,,172.5,Ireland
 2,Áron Mező,B,Multi-ply,21,M,J,88.4,90,,,,,,140,-172.5,-177.5,,140,,,,,,140,Hungary
 1,Zsolt Oláh,B,Multi-ply,23,M,J,97.5,100,,,,,,140,160,175,,175,,,,,,175,Hungary
-1,Michal Jancar,B,Multi-ply,17,M,T2,74.6,75,,,,,,150,-160,160,,160,,,,,,160,Slovakia
+1,Michal Jančár,B,Multi-ply,17,M,T2,74.6,75,,,,,,150,-160,160,,160,,,,,,160,Slovakia
 1,László Haraszti,B,Multi-ply,16,M,T2,95.5,100,,,,,,130,140,152.5,,152.5,,,,,,152.5,Hungary
 1,Ján Velgos,B,Multi-ply,17,M,T2,128.1,140,,,,,,320,345,-355,,345,,,,,,345,Slovakia
-1,Angela Mcnamara,D,Multi-ply,45,F,M2,80.7,82.5,,,,,,,,,,,70,,,,70,70,Ireland
+1,Angela McNamara,D,Multi-ply,45,F,M2,80.7,82.5,,,,,,,,,,,70,,,,70,70,Ireland
 1,Remana Maniar,D,Multi-ply,43,F,M1,67.4,67.5,,,,,,,,,,,160,181,185,,185,185,Ireland
 1,Jennifer O'Neil,D,Multi-ply,43,F,M1,73.5,75,,,,,,,,,,,200,-205,-210,,200,200,Ireland
 2,Mónika Bazsó,D,Multi-ply,44,F,M1,73.1,75,,,,,,,,,,,185,195,-203,,195,195,Hungary
@@ -442,7 +442,7 @@ DQ,Krisztián Kovács,B,Multi-ply,36,M,O,113.7,125,,,,,,,,,,,,,,,,,Hungary
 1,Norbert Hablicsek,D,Multi-ply,44,M,M1,110.7,125,,,,,,,,,,,280,300,320.5,-333,320.5,320.5,Hungary
 2,Ľubomír Trstenský,D,Multi-ply,43,M,M1,113.3,125,,,,,,,,,,,225,235,,,235,235,Slovakia
 1,Jani Ihalainen,D,Multi-ply,43,M,M1,125.2,140,,,,,,,,,,,205,240,272.5,,272.5,272.5,Finland
-1,Filip Kanák,D,Multi-ply,25,M,O,65.5,67.5,,,,,,,,,,,170,-190,190,,190,190,Czechia
+1,Filip Kaňák,D,Multi-ply,25,M,O,65.5,67.5,,,,,,,,,,,170,-190,190,,190,190,Czechia
 1,Ben Kelly,D,Multi-ply,38,M,O,82.3,82.5,,,,,,,,,,,255,267.5,272.5,-286,272.5,272.5,Ireland
 1,Ilkka Naskali,D,Multi-ply,35,M,O,89.6,90,,,,,,,,,,,240,-265,-265,,240,240,Finland
 2,Ernő Eck,D,Multi-ply,24,M,O,87.8,90,,,,,,,,,,,220,230,-240,,230,230,Hungary
@@ -519,7 +519,7 @@ DQ,Krisztián Kovács,B,Multi-ply,36,M,O,113.7,125,,,,,,,,,,,,,,,,,Hungary
 1,Boriss Laisin,B,Raw,68,M,M6,70.2,75,,,,,,105,107.5,110,,110,,,,,,110,Israel
 2,Joannis Sulime,B,Raw,67,M,M6,73.5,75,,,,,,105,110,-115,,110,,,,,,110,France
 3,István Verebi,B,Raw,67,M,M6,74,75,,,,,,105,110,-115,,110,,,,,,110,Hungary
-4,Ryszard Sliwinski,B,Raw,68,M,M6,74,75,,,,,,70,-75,,,70,,,,,,70,Poland
+4,Ryszard Śliwiński,B,Raw,68,M,M6,74,75,,,,,,70,-75,,,70,,,,,,70,Poland
 1,Bill Healy,B,Raw,68,M,M6,81.8,82.5,,,,,,130,135,-142.5,,135,,,,,,135,Ireland
 2,Gerd Müller,B,Raw,66,M,M6,81.9,82.5,,,,,,120,125,-130,,125,,,,,,125,Germany
 3,Gábor Teleki,B,Raw,65,M,M6,80.6,82.5,,,,,,80,-90,100,,100,,,,,,100,Hungary
@@ -580,7 +580,7 @@ DQ,Edward Dunne,B,Raw,40,M,M1,82,82.5,,,,,,-170,-170,-172.5,,,,,,,,,Ireland
 1,Dominik Wasilkiewicz,B,Raw,18,M,T3,82.5,82.5,,,,,,95,-100,-100,,95,,,,,,95,Poland
 1,Richárd Varjas,B,Raw,16,M,T2,63.4,67.5,,,,,,75,85,-87.5,,85,,,,,,85,Hungary
 1,István Gyuricska Jr,B,Raw,17,M,T2,78.2,82.5,,,,,,135,140,145,,145,,,,,,145,Hungary
-2,Matej Sevcik,B,Raw,16,M,T2,77.9,82.5,,,,,,125,-135,135,,135,,,,,,135,Slovakia
+2,Matej Ševčík,B,Raw,16,M,T2,77.9,82.5,,,,,,125,-135,135,,135,,,,,,135,Slovakia
 DQ,Dorian Jarosz,B,Raw,13,M,T1,52.6,56,,,,,,-45,-45,-45,,,,,,,,,Poland
 1,David Horák,B,Raw,15,M,T1,64.5,67.5,,,,,,65,72.5,-75,,72.5,,,,,,72.5,Czechia
 1,Krisztián Deme,B,Raw,15,M,T1,69.2,75,,,,,,105,115,120,,120,,,,,,120,Slovakia
@@ -596,7 +596,7 @@ DQ,Dorian Jarosz,B,Raw,13,M,T1,52.6,56,,,,,,-45,-45,-45,,,,,,,,,Poland
 1,Ulrich Vetter,B,Raw,66,M,M6,105.6,110,,,,,,140,150,-155,,150,,,,,,150,Germany
 1,László Kozma,B,Raw,61,M,M5,88.6,90,,,,,,122.5,127.5,130,,130,,,,,,130,Hungary
 2,Géza Bognár,B,Raw,63,M,M5,88.5,90,,,,,,110,115,-120,,115,,,,,,115,Hungary
-1,Jaroslav Solc,B,Raw,61,M,M5,98,100,,,,,,135,140,145,,145,,,,,,145,Slovakia
+1,Jaroslav Šolc,B,Raw,61,M,M5,98,100,,,,,,135,140,145,,145,,,,,,145,Slovakia
 2,Wieslaw Wróbel,B,Raw,61,M,M5,98.5,100,,,,,,120,-130,,,120,,,,,,120,Poland
 1,István Eszenyi,B,Raw,61,M,M5,107.8,110,,,,,,155,162.5,167.5,,167.5,,,,,,167.5,Hungary
 1,Tamás Veres,B,Raw,55,M,M4,89.9,90,,,,,,130,137.5,142.5,,142.5,,,,,,142.5,Hungary
@@ -641,12 +641,12 @@ DQ,Dorian Jarosz,B,Raw,13,M,T1,52.6,56,,,,,,-45,-45,-45,,,,,,,,,Poland
 3,Péter Géresi,B,Raw,41,M,M1,102.4,110,,,,,,185,195,-202.5,,195,,,,,,195,Hungary
 4,Péter Belme,B,Raw,43,M,M1,106.3,110,,,,,,-170,170,-175,,170,,,,,,170,Hungary
 5,Tamás Holló,B,Raw,44,M,M1,106,110,,,,,,142.5,-145,-145,,142.5,,,,,,142.5,Hungary
-1,Ondrej Vytlacil,B,Raw,31,M,O,88.3,90,,,,,,170,180,185,,185,,,,,,185,Czechia
+1,Ondřej Vytlačil,B,Raw,31,M,O,88.3,90,,,,,,170,180,185,,185,,,,,,185,Czechia
 2,Robert Nikoleychuk,B,Raw,36,M,O,88,90,,,,,,167.5,-180,-180,,167.5,,,,,,167.5,Canada
 1,Lauri Marttila,B,Raw,27,M,O,99.3,100,,,,,,215,-222.5,,,215,,,,,,215,Finland
 2,Károly Szuder,B,Raw,31,M,O,99.6,100,,,,,,190,195,200,,200,,,,,,200,Slovakia
 3,Petr Novák,B,Raw,40,M,O,98.2,100,,,,,,190,197.5,-202.5,,197.5,,,,,,197.5,Czechia
-4,Michal Hrivnak,B,Raw,24,M,O,97.3,100,,,,,,190,-192.5,-192.5,,190,,,,,,190,Slovakia
+4,Michal Hrivňak,B,Raw,24,M,O,97.3,100,,,,,,190,-192.5,-192.5,,190,,,,,,190,Slovakia
 5,Attila Rozsnoki,B,Raw,31,M,O,97.8,100,,,,,,190,-200,-200,,190,,,,,,190,Hungary
 6,RajOnd Pozsár,B,Raw,29,M,O,93.8,100,,,,,,180,182.5,-185,,182.5,,,,,,182.5,Hungary
 7,Lubomir Vidiscak,B,Raw,31,M,O,98.6,100,,,,,,160,170,-180,,170,,,,,,170,Slovakia
@@ -662,8 +662,8 @@ DQ,Attila Ocsár,B,Raw,38,M,O,91.1,100,,,,,,-140,,,,,,,,,,,Hungary
 8,Erik Rusnak,B,Raw,34,M,O,101.5,110,,,,,,185,-192.5,-192.5,,185,,,,,,185,Slovakia
 9,László Nagy,B,Raw,38,M,O,101.9,110,,,,,,175,185,-190,,185,,,,,,185,Hungary
 10,Richárd Németh,B,Raw,24,M,O,103.9,110,,,,,,180,-190,-190,,180,,,,,,180,Hungary
-11,Daniel Zarnowski,B,Raw,37,M,O,108.6,110,,,,,,160,170,172.5,,172.5,,,,,,172.5,Poland
-DQ,Róbert Svanczar,B,Raw,33,M,O,105.8,110,,,,,,-195,,,,,,,,,,,Slovakia
+11,Daniel Žarnowski,B,Raw,37,M,O,108.6,110,,,,,,160,170,172.5,,172.5,,,,,,172.5,Poland
+DQ,Róbert Svanczár,B,Raw,33,M,O,105.8,110,,,,,,-195,,,,,,,,,,,Slovakia
 DQ,Sándor Vaszilkó,B,Raw,36,M,O,108.5,110,,,,,,,,,,,,,,,,,Hungary
 1,Dezső Korom,B,Raw,21,M,J,89.3,90,,,,,,185,195,-200,,195,,,,,,195,Hungary
 1,Jani Virtanen,B,Raw,23,M,J,99.1,100,,,,,,190,-197.5,-197.5,,190,,,,,,190,Finland
@@ -675,10 +675,10 @@ DQ,Sándor Vaszilkó,B,Raw,36,M,O,108.5,110,,,,,,,,,,,,,,,,,Hungary
 1,Valentin Veres,B,Raw,19,M,T3,89.2,90,,,,,,120,125,130,,130,,,,,,130,Hungary
 2,Juraj Bokros,B,Raw,19,M,T3,88.5,90,,,,,,120,-130,-130,,120,,,,,,120,Slovakia
 3,Krisztián Pupos,B,Raw,18,M,T3,85,90,,,,,,110,117.5,-122.5,,117.5,,,,,,117.5,Hungary
-1,Matej Syrovatka,B,Raw,19,M,T3,93.4,100,,,,,,180,190,200,-205,200,,,,,,200,Czechia
+1,Matěj Syrovátka,B,Raw,19,M,T3,93.4,100,,,,,,180,190,200,-205,200,,,,,,200,Czechia
 2,Tamás Holló,B,Raw,18,M,T3,96.7,100,,,,,,-140,140,-142.5,,140,,,,,,140,Hungary
 1,Mihály Horváth,B,Raw,19,M,T3,107.9,110,,,,,,190,-203,-203,,190,,,,,,190,Hungary
-2,Vit Kovanic,B,Raw,18,M,T3,107.1,110,,,,,,145,155,162.5,,162.5,,,,,,162.5,Czechia
+2,Vít Kovanič,B,Raw,18,M,T3,107.1,110,,,,,,145,155,162.5,,162.5,,,,,,162.5,Czechia
 1,Adrián Galo,B,Raw,16,M,T2,87,90,,,,,,95,105,-112.5,,105,,,,,,105,Slovakia
 1,Ferenc Mata,B,Raw,17,M,T2,93.4,100,,,,,,135,-142.5,-145,,135,,,,,,135,Hungary
 1,Gyárfás Geréd,B,Raw,65,M,M6,118,125,,,,,,120,,,,120,,,,,,120,Hungary
@@ -714,7 +714,7 @@ DQ,Zsolt Szabó,B,Raw,42,M,M1,132.2,140,,,,,,,,,,,,,,,,,Hungary
 6,Norbert Bessenyei,B,Raw,35,M,O,119,125,,,,,,200,215,220,,220,,,,,,220,Hungary
 7,Slavomir Struhár,B,Raw,26,M,O,124.9,125,,,,,,205,212.5,217.5,,217.5,,,,,,217.5,Slovakia
 8,Zdenek Vecera,B,Raw,28,M,O,115.1,125,,,,,,200,-210,,,200,,,,,,200,Czechia
-9,Michel Jahnel,B,Raw,26,M,O,124.3,125,,,,,,162.5,170,-175,,170,,,,,,170,Germany
+9,Michel Jähnel,B,Raw,26,M,O,124.3,125,,,,,,162.5,170,-175,,170,,,,,,170,Germany
 1,Saeid Akbarizadeh,B,Raw,36,M,O,138.9,140,,,,,,220,240,-250,,240,,,,,,240,Iran
 2,Károly Buljáki,B,Raw,25,M,O,128.5,140,,,,,,190,202.5,207.5,,207.5,,,,,,207.5,Hungary
 3,Ferenc Bálint,B,Raw,27,M,O,126.9,140,,,,,,192.5,200,205,,205,,,,,,205,Hungary
@@ -757,7 +757,7 @@ DQ,Mónika Bazsó,D,Raw,44,F,M1,72.1,75,,,,,,,,,,,-185,-197.5,-197.5,,,,Hungary
 5,Petrana Blaskova,D,Raw,27,F,O,56.5,60,,,,,,,,,,,100,115,-120,,115,115,Slovakia
 6,Ildikó Sztrunga,D,Raw,39,F,O,58.5,60,,,,,,,,,,,95,107.5,115,,115,115,Hungary
 1,Bernadett Fekete,D,Raw,24,F,O,65.6,67.5,,,,,,,,,,,150,160,170,,170,170,Hungary
-2,Hana Slukova,D,Raw,24,F,O,66.8,67.5,,,,,,,,,,,135,145,-155,,145,145,Czechia
+2,Hana Slúková,D,Raw,24,F,O,66.8,67.5,,,,,,,,,,,135,145,-155,,145,145,Czechia
 3,Amela Fekovic,D,Raw,27,F,O,61.6,67.5,,,,,,,,,,,120,-135,140,,140,140,Montenegro
 4,Gyöngyi Herczeg,D,Raw,25,F,O,63.1,67.5,,,,,,,,,,,85,95,-102.5,,95,95,Hungary
 1,Carolina Cuello,D,Raw,29,F,O,73.9,75,,,,,,,,,,,155,165,170,,170,170,Argentina
@@ -773,7 +773,7 @@ DQ,Mónika Bazsó,D,Raw,44,F,M1,72.1,75,,,,,,,,,,,-185,-197.5,-197.5,,,,Hungary
 4,Mariann Krisztinné Tóth,D,Raw,39,F,O,88.1,90,,,,,,,,,,,-107.5,107.5,122.5,,122.5,122.5,Hungary
 1,Patricia Hamarics,D,Raw,21,F,J,48.7,52,,,,,,,,,,,105,-110,-110,,105,105,Hungary
 1,Audrey Le Vaillant,D,Raw,21,F,J,60,60,,,,,,,,,,,157.5,-165,-165,,157.5,157.5,France
-1,Enikő Tóth,D,Raw,20,F,J,67.3,67.5,,,,,,,,,,,140,-152.5,-161.5,,140,140,Slovakia
+1,Enikö Tóth,D,Raw,20,F,J,67.3,67.5,,,,,,,,,,,140,-152.5,-161.5,,140,140,Slovakia
 1,Alexandra Soós,D,Raw,20,F,J,72,75,,,,,,,,,,,190,205,215,,215,215,Hungary
 2,Tetiana Brodetska,D,Raw,22,F,J,73.8,75,,,,,,,,,,,160,-180,-180,,160,160,Ukraine
 3,Anna Szilágyi,D,Raw,21,F,J,68.3,75,,,,,,,,,,,130,140,145,,145,145,Hungary
@@ -795,7 +795,7 @@ DQ,Kata Piri,D,Raw,16,F,T2,57.5,60,,,,,,,,,,,-90,-90,-95,,,,Hungary
 1,VilOs Gruber,D,Raw,75,M,M8,82.5,82.5,,,,,,,,,,,105,115,130,,130,130,Hungary
 1,Milovan Marcetic,D,Raw,69,M,M6,59.9,60,,,,,,,,,,,110,-117.5,-117.5,,110,110,Serbia
 1,Boriss Laisin,D,Raw,68,M,M6,72.3,75,,,,,,,,,,,150,160,162.5,,162.5,162.5,Israel
-2,Ryszard Sliwinski,D,Raw,68,M,M6,73.7,75,,,,,,,,,,,145,155,-162.5,,155,155,Poland
+2,Ryszard Śliwiński,D,Raw,68,M,M6,73.7,75,,,,,,,,,,,145,155,-162.5,,155,155,Poland
 1,Bill Healy,D,Raw,68,M,M6,81.9,82.5,,,,,,,,,,,225,232.5,,,232.5,232.5,Ireland
 2,Gerd Müller,D,Raw,66,M,M6,81.1,82.5,,,,,,,,,,,120,135,140,,140,140,Germany
 1,Zia Mirza,D,Raw,61,M,M5,67.1,67.5,,,,,,,,,,,152.5,170,180,,180,180,UK
@@ -807,7 +807,7 @@ DQ,Kata Piri,D,Raw,16,F,T2,57.5,60,,,,,,,,,,,-90,-90,-95,,,,Hungary
 1,Alexander Romanchiev,D,Raw,54,M,M3,58.3,60,,,,,,,,,,,180,-192.5,200,,200,200,Israel
 1,Valery Boreiko,D,Raw,53,M,M3,72.6,75,,,,,,,,,,,140,,,,140,140,Israel
 1,István Varga,D,Raw,50,M,M3,75.9,82.5,,,,,,,,,,,190,210,216,,216,216,Hungary
-2,Andre Madeira,D,Raw,52,M,M3,80.1,82.5,,,,,,,,,,,180,190,-192.5,,190,190,Brazil
+2,André Madeira,D,Raw,52,M,M3,80.1,82.5,,,,,,,,,,,180,190,-192.5,,190,190,Brazil
 1,Vjekoslav Karakaš,D,Raw,48,M,M2,66.2,67.5,,,,,,,,,,,150,157.5,160,,160,160,Croatia
 1,Brian Hart,D,Raw,49,M,M2,74.6,75,,,,,,,,,,,160,185,205,,205,205,Ireland
 1,Janoš Ungai,D,Raw,42,M,M1,66.8,67.5,,,,,,,,,,,100,,,,100,100,Hungary
@@ -851,7 +851,7 @@ DQ,Juni Josep Ragues,D,Raw,32,M,O,72.7,75,,,,,,,,,,,-245,-245,-245,,,,Spain
 1,Sándor Bezsenyi,D,Raw,69,M,M6,85,90,,,,,,,,,,,160,170,177.5,,177.5,177.5,Hungary
 1,Vladimír Svoboda,D,Raw,66,M,M6,93.9,100,,,,,,,,,,,155,165,170,,170,170,Czechia
 1,Wieslaw Wróbel,D,Raw,61,M,M5,99.9,100,,,,,,,,,,,240,257.5,270,,270,270,Poland
-2,Jaroslav Solc,D,Raw,61,M,M5,99.3,100,,,,,,,,,,,180,190,-200,,190,190,Slovakia
+2,Jaroslav Šolc,D,Raw,61,M,M5,99.3,100,,,,,,,,,,,180,190,-200,,190,190,Slovakia
 1,Csaba SiOn,D,Raw,50,M,M3,86.1,90,,,,,,,,,,,220,,,,220,220,Hungary
 2,Ferenc Papp,D,Raw,54,M,M3,86.2,90,,,,,,,,,,,170,180,185,,185,185,Hungary
 1,Favio Pardo,D,Raw,50,M,M3,95.4,100,,,,,,,,,,,230,240,245,-250,245,245,Argentina
@@ -876,7 +876,7 @@ DQ,Gábor Köles,D,Raw,27,M,O,90.7,100,,,,,,,,,,,-300,,,,,,Hungary
 1,Adrián Untermayer,D,Raw,19,M,T3,82.9,90,,,,,,,,,,,200,215,-225,,215,215,Slovakia
 2,Marcell Nagy,D,Raw,18,M,T3,85.4,90,,,,,,,,,,,185,192.5,207.5,,207.5,207.5,Hungary
 DQ,Juraj Bokros,D,Raw,19,M,T3,89.2,90,,,,,,,,,,,-170,,,,,,Slovakia
-1,Matej Syrovatka,D,Raw,19,M,T3,93.7,100,,,,,,,,,,,280,300,305,,305,305,Czechia
+1,Matěj Syrovátka,D,Raw,19,M,T3,93.7,100,,,,,,,,,,,280,300,305,,305,305,Czechia
 1,Adrián Galo,D,Raw,16,M,T2,87.1,90,,,,,,,,,,,170,180,190,,190,190,Slovakia
 1,Gergő Nagy,D,Raw,15,M,T1,95.7,100,,,,,,,,,,,190,200,206,,206,206,Hungary
 1,Stanislav Jurčišin,D,Raw,72,M,M7,112.7,125,,,,,,,,,,,140,160,170,,170,170,Slovakia
@@ -911,24 +911,24 @@ DQ,Tibor Karalyos,D,Raw,44,M,M1,131.5,140,,,,,,,,,,,-310,-310,,,,,Hungary
 3,Tamás Kövesdi,D,Raw,28,M,O,111.7,125,,,,,,,,,,,320,332.5,-340,,332.5,332.5,Hungary
 4,Zdenek Vecera,D,Raw,28,M,O,115.1,125,,,,,,,,,,,300,-320,-320,,300,300,Czechia
 5,Eduard Valentík,D,Raw,37,M,O,115.2,125,,,,,,,,,,,280,-300,-300,,280,280,Czechia
-6,Michel Jahnel,D,Raw,26,M,O,124.3,125,,,,,,,,,,,245,252.5,260,,260,260,Germany
+6,Michel Jähnel,D,Raw,26,M,O,124.3,125,,,,,,,,,,,245,252.5,260,,260,260,Germany
 1,Dávid Kecskés,D,Raw,25,M,O,131.9,140,,,,,,,,,,,350,370,-385,,370,370,Hungary
 2,Adam Švehla,D,Raw,37,M,O,133.1,140,,,,,,,,,,,320,330,-335,,330,330,Czechia
 3,Andrew Cairney,D,Raw,39,M,O,129.6,140,,,,,,,,,,,280,300,-332.5,,300,300,UK
 4,Ádám Agárdi,D,Raw,24,M,O,129.1,140,,,,,,,,,,,270,-285,285,,285,285,Hungary
 5,Péter Kiss,D,Raw,28,M,O,137.2,140,,,,,,,,,,,255,270,275,,275,275,Hungary
-1,Cestmir Sima,D,Raw,40,M,O,165.8,140+,,,,,,,,,,,390,-406,-406,,390,390,Czechia
+1,Čestmír Šíma,D,Raw,40,M,O,165.8,140+,,,,,,,,,,,390,-406,-406,,390,390,Czechia
 1,Ádám Kiss,D,Raw,21,M,J,110,110,,,,,,,,,,,360,-380,,,360,360,Hungary
 2,Norbert Gáleg,D,Raw,22,M,J,105.4,110,,,,,,,,,,,280,285,-290,,285,285,Hungary
-3,Haris Rakovic,D,Raw,22,M,J,105.5,110,,,,,,,,,,,265,275,,,275,275,Bosnia and Herzegovina
+3,Haris Raković,D,Raw,22,M,J,105.5,110,,,,,,,,,,,265,275,,,275,275,Bosnia and Herzegovina
 4,Zsolt Kovács,D,Raw,23,M,J,108.3,110,,,,,,,,,,,250,-280,-280,,250,250,Hungary
 5,Szilárd Nyúzó,D,Raw,22,M,J,107.2,110,,,,,,,,,,,220,235,242.5,,242.5,242.5,Hungary
 6,Michael Ozun,D,Raw,20,M,J,109,110,,,,,,,,,,,200,-230,230,,230,230,Ireland
-1,Nikolas Toth,D,Raw,20,M,J,121,125,,,,,,,,,,,300,315,-325,,315,315,Slovakia
+1,Nikolas Tóth,D,Raw,20,M,J,121,125,,,,,,,,,,,300,315,-325,,315,315,Slovakia
 2,Adam Kostura,D,Raw,23,M,J,123.9,125,,,,,,,,,,,260,-280,-280,,260,260,Czechia
 1,Ričards Bužinskis,D,Raw,22,M,J,131.9,140,,,,,,,,,,,230,245,-257.5,,245,245,Latvia
 1,Dávid Frey,D,Raw,22,M,J,163.8,140+,,,,,,,,,,,252.5,262.5,275,,275,275,Hungary
 2,Ron Krieg,D,Raw,20,M,J,140.9,140+,,,,,,,,,,,250,260,272.5,,272.5,272.5,Germany
 1,Sándor Varjú,D,Raw,18,M,T3,122.9,125,,,,,,,,,,,180,200,215,,215,215,Hungary
 1,Gábor Király,D,Raw,16,M,T2,104,110,,,,,,,,,,,240,255,-265.5,,255,255,Hungary
-1,Adam Jakubek,D,Raw,17,M,T2,112.2,125,,,,,,,,,,,220,232.5,240.5,,240.5,240.5,Slovakia
+1,Ádám Jakubek,D,Raw,17,M,T2,112.2,125,,,,,,,,,,,220,232.5,240.5,,240.5,240.5,Slovakia
