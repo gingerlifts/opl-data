@@ -37,15 +37,17 @@ def get_country(lifter_data):
 def interpolate_countries(LifterCountryHash):
     global COUNTRY_IDX
     global MEETID_IDX
+    newLifterHash = {}
 
     for lifter in LifterCountryHash:
         if is_country_consistent(LifterCountryHash[lifter]):
             country = get_country(LifterCountryHash[lifter])
+            newLifterHash[lifter] = LifterCountryHash[lifter]
 
-            for entry in LifterCountryHash[lifter]:
+            for entry in newLifterHash[lifter]:
                 entry[COUNTRY_IDX] = country
 
-    return LifterCountryHash
+    return newLifterHash
 
 
 def generate_hashmap(entriescsv):
@@ -80,8 +82,8 @@ def update_csv(entriescsv, LifterCountryHash):
 
     for row in entriescsv.rows:
         lifterID = row[lifterIDidx]
-
-        row[countryidx] = LifterCountryHash[int(lifterID)][0][COUNTRY_IDX]
+        if lifterID in LifterCountryHash:
+            row[countryidx] = LifterCountryHash[int(lifterID)][0][COUNTRY_IDX]
 
     return entriescsv
 
