@@ -82,7 +82,7 @@ def update_csv(entriescsv, LifterCountryHash):
 
     for row in entriescsv.rows:
         lifterID = row[lifterIDidx]
-        if lifterID in LifterCountryHash:
+        if int(lifterID) in LifterCountryHash:
             row[countryidx] = LifterCountryHash[int(lifterID)][0][COUNTRY_IDX]
 
     return entriescsv
