@@ -81,8 +81,8 @@ def update_csv(entriescsv, LifterCountryHash):
     countryidx = entriescsv.index('Country')
 
     for row in entriescsv.rows:
-        lifterID = row[lifterIDidx]
-        if int(lifterID) in LifterCountryHash:
+        lifterID = int(row[lifterIDidx])
+        if lifterID in LifterCountryHash:
             row[countryidx] = LifterCountryHash[int(lifterID)][0][COUNTRY_IDX]
 
     return entriescsv
