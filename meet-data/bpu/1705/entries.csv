@@ -27,7 +27,7 @@ Paul Morgan,,M,M_M2_S_ABPU,Single-ply,99.5,100,,,,,200,-215,215,215,,,,,215,B,1
 David Gibson,,M,M_M3_D_BPU,Raw,85.2,90,,,,,150,-160,-160,150,,,,,150,B,1
 Tom Griffin,,M,M_M3_R_BPU,Raw,103.9,110,,,,,207.5,215.5,217.5,217.5,,,,,217.5,B,1
 Kevin Maher,,M,M_M4_S_BPU,Single-ply,107.4,110,,,,,212.5,220,-227.5,220,,,,,220,B,1
-Michael Gibson,,M,M_O_M_BPU,Multi-ply,96.6,100,,,,,-280,-280,-280,,,,,,,B,1
+Michael Gibson,,M,M_O_M_BPU,Multi-ply,96.6,100,,,,,-280,-280,-280,,,,,,,B,DQ
 Iain Connor,,M,M_O_M_BPU,Multi-ply,122.9,125,,,,,285,300,-320,300,,,,,300,B,2
 Kalle Ylitalo-James,,M,M_O_M_BPU,Multi-ply,123.4,125,,,,,340,355,-366,355,,,,,355,B,1
 Aaron Hosking,,M,M_O_M_BPU,Multi-ply,136.2,140,,,,,280,292.5,-300,292.5,,,,,292.5,B,1
@@ -84,7 +84,7 @@ Annie Harding,,F,F_T3_R_ABPU,Raw,65,67.5,,,,,,,,,140,-150,-150,140,140,D,1
 Nathaniel Robinson,,M,M_J_R_ABPU,Raw,89.7,90,,,,,,,,,220,240,-250,240,240,D,2
 Tawanda Bwerudza,,M,M_J_R_ABPU,Raw,87.6,90,,,,,,,,,265,285,292.5,292.5,292.5,D,1
 Priyesh Vyas,,M,M_J_R_BPU,Raw,66.9,67.5,,,,,,,,,180,-202.5,202.5,202.5,202.5,D,2
-Callum Lowe,,M,M_J_R_BPU,Raw,63,67.5,,,,,,,,,210,220,227.5,220,220,D,1
+Callum Lowe,,M,M_J_R_BPU,Raw,63,67.5,,,,,,,,,210,220,-227.5,220,220,D,1
 Osama Asim,,M,M_J_R_BPU,Raw,72.1,75,,,,,,,,,155,170,190,190,190,D,1
 Nathan Wysocki,,M,M_J_R_BPU,Raw,104.6,110,,,,,,,,,220,235,245,245,245,D,2
 Chris Collins,,M,M_J_R_BPU,Raw,108.4,110,,,,,,,,,250,262.5,-270,262.5,262.5,D,1
