@@ -1,8 +1,8 @@
 Name,Age,Sex,Division,Equipment,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Place
 Sarah Hallam,,F,F_M1_R_ABPU,Raw,,46,,,,,,,,,,,,,,B,DQ
-Amanda Cunliffe,,F,F_M2_S_ABPU,Single-ply,56.2,56,,,,,60,-65,65,65,,,,,65,B,1
+Amanda Cunliffe,,F,F_M2_S_ABPU,Single-ply,56.2,60,,,,,60,-65,65,65,,,,,65,B,1
 Sue Davies,,F,F_M2_S_BPU,Single-ply,80.1,82.5,,,,,140,-145,,140,,,,,140,B,1
-Sue Davies,,F,F_M2_S_BPU,Single-ply,80.1,825,,,,,-150,-150,-160,,,,,,,B,DQ
+Sue Davies,,F,F_M2_S_BPU,Single-ply,80.1,82.5,,,,,-150,-150,-160,,,,,,,B,DQ
 Emma Ylitalo-James,,F,F_M2_S_BPU,Single-ply,81.4,82.5,,,,,-185,-185,185,185,,,,,185,B,1
 Alison Hough,,F,F_M3_S_ABPU,Single-ply,64.2,67.5,,,,,90,97.5,100,100,,,,,100,B,2
 Alison Hough,,F,F_M3_S_ABPU,Single-ply,64.2,67.5,,,,,92.5,100,107.5,107.5,,,,,107.5,B,1
