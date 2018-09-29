@@ -7,7 +7,7 @@ Raw,F,Youth,84+,1,80,60.5,120,260.5,Lilith Bender,2003,NI,SBD
 Raw,M,Junior,53,1,80,62.5,127.5,270,Niels Daniel,1997,NI,SBD
 Single-ply,F,Master3,84,1,80,77.5,115,272.5,Anke Beninga,1954,NI,SBD
 Raw,F,Junior,63,1,100,60,117.5,277.5,Lea - Sophie Gersberg,1997,NI,SBD
-Raw,F,Master2,63,1,95.0 kg,50,140,285,Heidrun Woltjen,1965,NI,SBD
+Raw,F,Master2,63,1,95,50,140,285,Heidrun Woltjen,1965,NI,SBD
 Raw,F,Open,72,1,115,60,125,300,ereza Cechova,1992,NI,SBD
 Raw,F,Junior,84,2,112.5,72.5,127.5,312.5,Alina Kienscherf,1998,NI,SBD
 Raw,F,Open,52,1,134,73,143,350,Mareen Schmeelke,1991,NI,SBD
@@ -18,7 +18,7 @@ Raw,M,Youth,83,3,117.5,105,150,372.5,Florijan Greger,2000,NI,SBD
 Raw,M,Youth,74,2,155,95,147.5,397.5,Renè Holtze,2000,NI,SBD
 Raw,M,Youth,83,2,150,97.5,155,402.5,Lukas Seifert,2002,NI,SBD
 Raw,M,Master3,93,2,142.5,102.5,160,405,Hartmut Grulke,1952,NI,SBD
-Raw,M,Master3,93,1,150,105,165,420,Lutz  Schuricht,1951,NI,SBD
+Raw,M,Master3,93,1,150,105,165,420,Lutz Schuricht,1951,NI,SBD
 Raw,M,Youth,83,1,152.5,90,187.5,430,Benjamin Langenfeld,2001,NI,SBD
 Raw,M,Junior,93,8,160,115,160,435,Dennis Körner,1999,NI,SBD
 Raw,M,Master3,93,1,140,130,165,435,Holger Pasemann,1957,NI,SBD
@@ -33,19 +33,19 @@ Raw,M,Master1,105,G,150,130,185,465,Dirk Bernau,1972,NI,SBD
 Raw,M,Master2,83,1,155,110,210,475,Christian Gieseler,1964,NI,SBD
 Raw,M,Open,74,2,170,100,210,480,Frank Acker,1982,NI,SBD
 Raw,M,Junior,93,7,192.5,105,187.5,485,Martin Pass,1995,NI,SBD
-Raw,M,Open,93,G,165,137.5,190,492.5,Vincent Knatz   ,1990,NI,SBD
+Raw,M,Open,93,G,165,137.5,190,492.5,Vincent Knatz,1990,NI,SBD
 Raw,M,Master2,93,1,185,110,200,495,Henryk Sulik,1959,NI,SBD
 Raw,M,Open,74,1,172.5,110,215,497.5,Tom Koerner,1988,NI,SBD
 Raw,M,Master3,83,1,180,120,200,500,Dieter Hundertmark,1954,NI,SBD
 Raw,M,Open,93,7,180,122.5,200,502.5,Tom Büter,1993,NI,SBD
 Raw,M,Junior,93,6,190,120,210,520,Bastian Heinke,1995,NI,SBD
-Raw,M,Open,93,G,180,130,215,525,Curtis Lamptey   ,1991,NI,SBD
+Raw,M,Open,93,G,180,130,215,525,Curtis Lamptey,1991,NI,SBD
 Raw,M,Junior,93,5,187.5,145,200,532.5,Ali Comart,1995,NI,SBD
 Raw,M,Junior,93,4,185,130,220,535,Bennit Fahl,1999,NI,SBD
 Raw,M,Open,93,6,182.5,122.5,232.5,537.5,Nils Glaese,1992,NI,SBD
 Raw,M,Junior,74,1,195,125,225,545,Sebastian Preine,1995,NI,SBD
 Raw,M,Junior,83,1,185,122.5,240,547.5,Maurice Buabe,1997,NI,SBD
-Raw,M,Open,83,1,195,125,230,550,. Daniel Herale,1992,NI,SBD
+Raw,M,Open,83,1,195,125,230,550,Daniel Herale,1992,NI,SBD
 Raw,M,Open,93,1,200,125,232.5,557.5,Philip Göbber,1993,NI,SBD
 Raw,M,Junior,105,G,200,120,245,565,Kevin Schmidt,1998,NI,SBD
 Raw,M,Open,93,5,200,152.5,220,572.5,Alexander Khounani,1992,NI,SBD
@@ -58,12 +58,12 @@ Single-ply,M,Youth,105,1,225,162.5,240,627.5,Till Kruse,2001,NI,SBD
 Raw,M,Open,93,2,210,157.5,262.5,630,Sascha Roßkamp,1991,NI,SBD
 Raw,M,Open,93,1,227.5,155,252.5,635,Marc Krause,1994,NI,SBD
 Raw,M,Junior,105,1,222.5,157.5,260,640,Nikolai Bauer,1995,NI,SBD
-Raw,M,Open,93,G,240,182.5,235,657.5,Dennis Heckmann  ,1988,NI,SBD
+Raw,M,Open,93,G,240,182.5,235,657.5,Dennis Heckmann,1988,NI,SBD
 Raw,M,Junior,93,1,235,165,290,690,Aaron Ben Bacha,1996,NI,SBD
 Raw,M,Junior,93,2,265,150,275,690,Hendrik Wobst,1997,NI,SBD
 Raw,M,Open,93,2,250,162.5,290,702.5,Martin Mos,1988,NI,SBD
 Raw,M,Open,93,1,265,192.5,265,722.5,Maxim Schutan,1994,NI,SBD
-Raw,M,Open,93,G,255,180,300,735,Mike Schollbach  ,1981,NI,SBD
+Raw,M,Open,93,G,255,180,300,735,Mike Schollbach,1981,NI,SBD
 Raw,M,Junior,120,1,275,182.5,282.5,740,Robin Meinecke,1996,NI,SBD
 Single-ply,M,Master1,105,1,303,203,270,776,Reiner Heinrich,1971,NI,SBD
 Single-ply,M,Open,120,1,382.5,190,250,822.5,Dominik Pahl,1992,NI,SBD
