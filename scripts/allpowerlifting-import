@@ -501,7 +501,7 @@ def parse_sheetname(csv):
             sheetname = row[sn_idx].lower()
             if 'women' in sheetname or 'wo' in sheetname:
                 row[sex_idx] = 'F'
-                row[sn_idx] = sheetname.replace('women', '').replace('wo','')
+                row[sn_idx] = sheetname.replace('women', '').replace('wo', '')
             elif 'men' in sheetname:
                 row[sex_idx] = 'M'
                 row[sn_idx] = sheetname.replace('men', '')
@@ -517,10 +517,11 @@ def parse_sheetname(csv):
             row[sn_idx] = row[sn_idx].strip().replace('  ', ' ')
     return csv
 
-def standardise_division(fed,csv):
+
+def standardise_division(fed, csv):
     if 'Division' in csv.fieldnames:
         # IPF Feds that we are likely to use this script for
-        if fed in ['FPR', 'KPF', 'UkrainePF']: 
+        if fed in ['FPR', 'KPF', 'UkrainePF']:
             div_idx = csv.index('Division')
             for row in csv.rows:
                 if row[div_idx] == 'T':
@@ -538,6 +539,7 @@ def standardise_division(fed,csv):
                 elif row[div_idx] == 'M4':
                     row[div_idx] = 'Masters 4'
     return csv
+
 
 def main(url):
     html = gethtml(url)
@@ -565,7 +567,7 @@ def main(url):
     markevent(entriescsv)
 
     entriescsv = parse_sheetname(entriescsv)
-    entriescsv = standardise_division(meetcsv.rows[0][0],entriescsv)
+    entriescsv = standardise_division(meetcsv.rows[0][0], entriescsv)
 
     remove_empty_cols_ignore_fieldname(entriescsv)
 
