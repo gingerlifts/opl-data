@@ -10,14 +10,14 @@ Place,Name,Sex,Event,Division,TotalKg,WeightClassKg,Equipment,BirthYear,Bodyweig
 1,Nick-Julien Ebisch,M,SBD,Juniors,387.5,83,Raw,1997,82.5,SG Fortschr. Eibau,120,130,-140,130,90,100,107.5,107.5,140,150,-165,150
 1,Michel Müller,M,SBD,Open,600,83,Single-ply,1994,82.9,Rotation Langenbach,220,-230,230,230,-135,-137.5,137.5,137.5,210,227.5,232.5,232.5
 2,Sören Jörke,M,SBD,Open,547.5,83,Raw,1992,81.3,USV TU Dresden,190,-200,-200,190,140,145,-150,145,212.5,-220,-225,212.5
-DQ,Dominic Drechsel,M,SBD,Open,410,83,Raw,1994,79.8,BSC Rapid Chemnitz,185,192.5,-200,192.5,-117.5,-125,-125,,205,212.5,217.5,217.5
+DQ,Dominic Drechsel,M,SBD,Open,,83,Raw,1994,79.8,BSC Rapid Chemnitz,185,192.5,-200,192.5,-117.5,-125,-125,,205,212.5,217.5,217.5
 3,Max Fuhrig,M,SBD,Open,520,83,Raw,1990,82.3,Riesa AC,170,180,187.5,187.5,117.5,-122.5,122.5,122.5,200,210,-220,210
 1,Victor Jacob,M,SBD,Masters 1,535,83,Raw,1978,78.3,USV TU Dresden,170,180,190,190,125,130,135,135,180,200,210,210
 1,Bernd Kießlich,M,SBD,Masters 3,465,83,Single-ply,1954,79.7,KBV Bautzen,160,170,180,180,95,100,-105,100,160,180,185,185
 3,Robin Troelenberg,M,SBD,Juniors,515,93,Single-ply,1996,87.6,KV Bad Lausick,160,167.5,175,175,-130,140,150,150,160,175,190,190
 2,Tony Apitzsch,M,SBD,Juniors,530,93,Single-ply,1995,87.2,K&F Eilenburg,200,212.5,-217.5,212.5,115,120,122.5,122.5,180,195,-205,195
 1,Anton Ohneseit,M,SBD,Juniors,532.5,93,Single-ply,1999,92,K&F Eilenburg,180,195,200,200,112.5,120,125,125,195,207.5,-220,207.5
-DQ,Michael Hurtig,M,SBD,Open,500,93,Single-ply,1982,90,KBV Bautzen,-230,-230,230,230,-165,-165,-165,,270,-290,-290,270
+DQ,Michael Hurtig,M,SBD,Open,,93,Single-ply,1982,90,KBV Bautzen,-230,-230,230,230,-165,-165,-165,,270,-290,-290,270
 1,Tobias Reinsdorf,M,SBD,Open,610,93,Single-ply,1987,88.2,Rotation Langenbach,180,195,205,205,150,160,165,165,220,230,240,240
 2,Uwe Hering,M,SBD,Open,580.5,93,Raw,1963,92.6,KV Bad Lausick,170,180,,180,160,165,,165,220,230,235.5,235.5
 6,Martin Neubert,M,SBD,Open,497.5,93,Raw,1984,90.4,Annaberger KC,165,177.5,-187.5,177.5,105,-110,-110,105,205,215,-225,215
@@ -44,7 +44,7 @@ G,Fabian Baum,M,SBD,Juniors,525,105,Single-ply,1996,102.3,KS Colonia,125,155,175
 3,Richard Kielmann,M,SBD,Open,722.5,120+,Raw,1994,126,USV TU Dresden,250,262.5,270,270,152.5,-160,-160,152.5,285,300,-305,300
 1,Johann Grandl,M,SBD,Masters 1,620,120+,Raw,1974,135.3,Rotation Langenbach,200,210,220,220,-160,160,-170,160,210,230,240,240
 G,Yannik Russok,M,SBD,Juniors,615,120+,Single-ply,1996,121.1,KDK Flensburg,190,202.5,212.5,212.5,137.5,140,142.5,142.5,245,260,-270,260
-1,Helene Fiedler,F,SBD,Open,232.5 ,52,Single-ply,1988,51.8,USV TU Dresden,-85,85,90,90,40,-42.5,42.5,42.5,95,97.5,100,100
+1,Helene Fiedler,F,SBD,Open,232.5,52,Single-ply,1988,51.8,USV TU Dresden,-85,85,90,90,40,-42.5,42.5,42.5,95,97.5,100,100
 1,Sabrina Gebhardt,F,SBD,Juniors,270,57,Raw,1996,57,K&F Eilenburg,77.5,85,90,90,67.5,72.5,-75,72.5,95,100,107.5,107.5
 2,Patricia Hänsel,F,SBD,Juniors,247.5,63,Raw,1995,63,KV Bad Lausick,80,90,97.5,97.5,50,-57.5,-60,50,100,-110,,100
 1,Tatjana Fricke,F,SBD,Juniors,292.5,63,Single-ply,1998,63,USV TU Dresden,90,97.5,105,105,60,65,-70,65,110,117.5,122.5,122.5
