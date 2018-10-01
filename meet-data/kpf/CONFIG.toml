@@ -9,36 +9,36 @@
 
 [weightclasses.default_M]
     classes = ["59","66","74","83","93","105","120","120+"]
-    date_range=["2011-01-01","9999-99-99"]
+    date_range=["2011-01-01","9999-01-01"]
     sex = "M"
 
 [weightclasses.default_F]
     classes = ["47","52","57","63","72","84","84+"]
-    date_range=["2011-01-01","9999-99-99"]
+    date_range=["2011-01-01","9999-01-01"]
     sex = "F"
 
 
 [weightclasses.junior_M]
     classes = ["53","59","66","74","83","93","105","120","120+"]
-    date_range=["2011-01-01","9999-99-99"]
+    date_range=["2011-01-01","9999-01-01"]
     sex = "M"
     divisions = ["Juniors"]
 
 [weightclasses.teen_M]
     classes = ["32","36","40","44","48","53","59","66","74","83","93","105","120","120+"]
-    date_range=["2011-01-01","9999-99-99"]
+    date_range=["2011-01-01","9999-01-01"]
     sex = "M"
     divisions = ["Teen"]
 
 [weightclasses.junior_F]
     classes = ["40","43","47","52","57","63","72","84","84+"]
-    date_range=["2011-01-01","9999-99-99"]
+    date_range=["2011-01-01","9999-01-01"]
     sex = "F"
     divisions = ["Juniors"]
 
 [weightclasses.teen_F]
     classes = ["32","36","40","43","47","52","57","63","72","84","84+"]
-    date_range=["2011-01-01","9999-99-99"]
+    date_range=["2011-01-01","9999-01-01"]
     sex = "F"
     divisions = ["Teen"]
 
@@ -52,7 +52,7 @@
     date_range = ["0000-00-00","2010-12-31"]
     sex = "F"
 
-[exclusions]
+[exemptions]
     1302 = ["check_row_weightclass_consistency"]
     1802 = ["check_row_weightclass_consistency"]
     1201 = ["check_row_weightclass_consistency","check_row_division"]
