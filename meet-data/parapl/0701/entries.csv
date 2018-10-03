@@ -1,35 +1,35 @@
-Team,Sex,WeightClassKg,ChineseName,Name,Place,Best3Bench,Bench4Kg,Total,Event,Equipment,Division
-Shandong,F,40,´ŞÕÜ,Zhe Cui,1,90,,90,B,Raw,Open
-Jiangxi,F,44,¸£Ìú²Ğ,Fu Tiecan,1,90,,90,B,Raw,Open
-Shanghai,M,48,Îâ¹ú¾³,Guojing Wu,1,162.5,,162.5,B,Raw,Open
-Jiangxi,F,48,Ğ¤´ä¾ê,Cuijuan Xiao,1,102.5,,102.5,B,Raw,Open
-Hebei,F,60,»ôÕñÁá,Zhenling Huo,1,117.5,,117.5,B,Raw,Open
-Shandong,F,56,´Ş½¨½ğ,Jianjin Cui,1,112.5,,112.5,B,Raw,Open
-Inner Mongolia,F,52,±ß½¨ĞÀ,Jianxin Bian,1,120,,120,B,Raw,Open
-Shandong,M,67.5,ÁõÀÚ,Lei Liu,1,207.5,,207.5,B,Raw,Open
-Guangdong,M,75,ÎâÃ¯Ë³,Maoshun Wu,1,210,,210,B,Raw,Open
-Jiangsu,F,67.5,¸µÌÒÓ¢,Taoying Fu,1,142.5,,142.5,B,Raw,Open
-Jiangxi,F,75,ÕÅÀöÆ¼,Liping Zhang,1,135,,135,B,Raw,Open
-Inner Mongolia,F,82.5+,ÀîÈğ·¼,Ruifang Li,1,160,,160,B,Raw,Open
-Jiangsu,F,82.5,×óçå,Jue Zuo,1,142.5,,142.5,B,Raw,Open
-Chongqing,M,100+,Àî±ø,Bing Li,1,220,,220,B,Raw,Open
-Liaoning,M,100,Æë¶°,Dong Qi,1,232.5,,232.5,B,Raw,Open
-Shanghai,M,90,²Ì»Û³¬,Huichao Cai,1,232.5,,232.5,B,Raw,Open
-Jiangsu,M,82.5,ÕÅº£¶«,Haidong Zhang,1,247.5,248.5,247.5,B,Raw,Open
-Guangxi,F,44,ÍõÙ¥,Wei Wang,2,87.5,,87.5,B,Raw,Open
-Hunan,M,48,³ÂÉÆÃ÷,Shan Ming Chen,2,147.5,,147.5,B,Raw,Open
-Shandong,M,56,Ñî´«Ï²,Chuanxi Yang,2,182.5,,182.5,B,Raw,Open
-Anhui,M,67.5,Óİ¼ü,Jian Yu,2,180,,180,B,Raw,Open
-Ningxia,F,82.5,ÖìÃ÷Ï¼,Mingxia Zhu,2,127.5,,127.5,B,Raw,Open
-Anhui,M,90,Õ¼ÉÙ°®,Shao Ai Zhen,2,210,,210,B,Raw,Open
-Henan,M,82.5,ÌïÆ½¹ã,Pingguang Tian,2,185,,185,B,Raw,Open
-Henan,F,44,ËÎ´ºÀö,Chunli Song,3,80,,80,B,Raw,Open
-Henan,M,48,·ëÆë,Qi Feng,3,145,,145,B,Raw,Open
-Anhui,M,67.5,µËÏòÃ÷,Xiang Ming Deng,3,172.5,,172.5,B,Raw,Open
-Jilin,M,90,¶­ÔÆÅô,Yunpeng Dong,3,170,,170,B,Raw,Open
-Hubei,M,82.5,ÁõËÄº£,Sihai Liu,3,182.5,,182.5,B,Raw,Open
-Hubei,M,48,¹ùº£½¢,Haijian Guo,4,142.5,,142.5,B,Raw,Open
-Hubei,M,82.5,³Â¾ş,Jun Chen,4,162.5,,162.5,B,Raw,Open
-Jiangxi,M,82.5,°¬öÎ,Xin Ai,5,125,,125,B,Raw,Open
-Heilongjiang,M,48,ÁõÎ¢,Wei Liu,6,105,,105,B,Raw,Open
-Jiangxi,M,67.5,Ôø»Ô,Hui Zeng,6,142.5,,142.5,B,Raw,Open
+Team,Sex,WeightClassKg,ChineseName,Name,Place,Best3BenchKg,Bench4Kg,TotalKg,Event,Equipment,Division
+Shandong,F,40,å´”å“²,Zhe Cui,1,90,,90,B,Raw,Open
+Jiangxi,F,44,ç¦é“æ®‹,Fu Tiecan,1,90,,90,B,Raw,Open
+Shanghai,M,48,å´å›½å¢ƒ,Guojing Wu,1,162.5,,162.5,B,Raw,Open
+Jiangxi,F,48,è‚–ç¿ å¨Ÿ,Cuijuan Xiao,1,102.5,,102.5,B,Raw,Open
+Hebei,F,60,éœæŒ¯ç²,Zhenling Huo,1,117.5,,117.5,B,Raw,Open
+Shandong,F,56,å´”å»ºé‡‘,Jianjin Cui,1,112.5,,112.5,B,Raw,Open
+Inner Mongolia,F,52,è¾¹å»ºæ¬£,Jianxin Bian,1,120,,120,B,Raw,Open
+Shandong,M,67.5,åˆ˜ç£Š,Lei Liu,1,207.5,,207.5,B,Raw,Open
+Guangdong,M,75,å´èŒ‚é¡º,Maoshun Wu,1,210,,210,B,Raw,Open
+Jiangsu,F,67.5,å‚…æ¡ƒè‹±,Taoying Fu,1,142.5,,142.5,B,Raw,Open
+Jiangxi,F,75,å¼ ä¸½è,Li Ping Zhang,1,135,,135,B,Raw,Open
+Inner Mongolia,F,82.5+,æç‘èŠ³,Ruifang Li,1,160,,160,B,Raw,Open
+Jiangsu,F,82.5,å·¦ç,Jue Zuo,1,142.5,,142.5,B,Raw,Open
+Chongqing,M,100+,æå…µ,Bing Li,1,220,,220,B,Raw,Open
+Liaoning,M,100,é½æ ‹,Dong Qi,1,232.5,,232.5,B,Raw,Open
+Shanghai,M,90,è”¡æ…§è¶…,Huichao Cai,1,232.5,,232.5,B,Raw,Open
+Jiangsu,M,82.5,å¼ æµ·ä¸œ,Haidong Zhang,1,247.5,248.5,247.5,B,Raw,Open
+Guangxi,F,44,ç‹ä½¶,Wei Wang,2,87.5,,87.5,B,Raw,Open
+Hunan,M,48,é™ˆå–„æ˜,Shan Ming Chen,2,147.5,,147.5,B,Raw,Open
+Shandong,M,56,æ¨ä¼ å–œ,Chuanxi Yang,2,182.5,,182.5,B,Raw,Open
+Anhui,M,67.5,è™é”®,Jian Yu,2,180,,180,B,Raw,Open
+Ningxia,F,82.5,æœ±æ˜éœ,Mingxia Zhu,2,127.5,,127.5,B,Raw,Open
+Anhui,M,90,å å°‘çˆ±,Shao Ai Zhen,2,210,,210,B,Raw,Open
+Henan,M,82.5,ç”°å¹³å¹¿,Pingguang Tian,2,185,,185,B,Raw,Open
+Henan,F,44,å®‹æ˜¥ä¸½,Chunli Song,3,80,,80,B,Raw,Open
+Henan,M,48,å†¯é½,Qi Feng,3,145,,145,B,Raw,Open
+Anhui,M,67.5,é‚“å‘æ˜,Xiang Ming Deng,3,172.5,,172.5,B,Raw,Open
+Jilin,M,90,è‘£äº‘é¹,Yunpeng Dong,3,170,,170,B,Raw,Open
+Hubei,M,82.5,åˆ˜å››æµ·,Sihai Liu,3,182.5,,182.5,B,Raw,Open
+Hubei,M,48,éƒ­æµ·èˆ°,Haijian Guo,4,142.5,,142.5,B,Raw,Open
+Hubei,M,82.5,é™ˆå³»,Jun Chen,4,162.5,,162.5,B,Raw,Open
+Jiangxi,M,82.5,è‰¾é‘«,Xin Ai,5,125,,125,B,Raw,Open
+Heilongjiang,M,48,åˆ˜å¾®,Wei Liu,6,105,,105,B,Raw,Open
+Jiangxi,M,67.5,æ›¾è¾‰,Hui Zeng,6,142.5,,142.5,B,Raw,Open
