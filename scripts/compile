@@ -214,7 +214,7 @@ def add_international_names(csv):
     elif 'ChineseName' in csv.fieldnames:
         intlidx = csv.index('ChineseName')
     else:
-        return        
+        return
 
     nameidx = csv.index('Name')
     for row in csv.rows:
