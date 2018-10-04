@@ -1,0 +1,252 @@
+#!/usr/bin/env python3
+# vim: set ts=8 sts=4 et sw=4 tw=99:
+#
+# Import script for SVNL, their data is nicely formatted
+# however the header labels and meet info is all over the place
+
+from bs4 import BeautifulSoup
+import errno
+from oplcsv import Csv
+import os
+import sys
+import urllib.request
+import urllib.parse
+import re
+import subprocess
+import time
+
+
+def is_float(check_str):
+    try:
+        float(check_str)
+        return True
+    except ValueError:
+        return False
+
+def is_int(check_str):
+    try:
+        float(check_str)
+        return check_str[-1] != '.' and float(check_str) %1  ==0
+    except ValueError:
+        return False
+
+def gethtml(url):
+    with urllib.request.urlopen(url) as r:
+        return r.read()
+
+
+def error(msg):
+    print(msg, file=sys.stderr)
+    sys.exit(1)
+
+
+def getmeetinfo(soup):
+    csv = Csv()
+    csv.fieldnames = ['Federation', 'Date', 'MeetCountry',
+                      'MeetState', 'MeetTown', 'MeetName']
+
+    # Get the facts table.
+    name = soup.find('h1').text
+    placedate = soup.find('h3').text
+
+    
+
+    place= placedate.split(', ')[0]
+    datestr = ' '.join(placedate.split(', ')[1:])
+    place=place.replace('г. ','')
+    [day,datestr] = datestr.split(' - ')
+
+    datestr = datestr.replace(' года.','').replace(' года','').replace(',',' ')
+
+
+    year = datestr.split()[-1]
+    month = datestr.split()[-2]
+
+    monthdict = {'января':'01','февраля':'02','марта':'03','апреля':'04','августа':'08','сентября':'09','октября':'10','декабря':'12'}
+
+    month = monthdict[month]
+
+    if len(day) ==1:
+        day ='0' +day
+    
+    date = year + '-' +month + '-' + day
+  
+
+    fed = 'UkrainePF'
+    country = 'Ukraine'
+    state = ''
+
+    row = [fed, date, country, state, place, name]
+    csv.rows = [row]
+
+    return csv
+
+def getresults(soup):
+    csv = Csv()
+
+    # Get the results table.
+    weightclasses = soup.find_all('pre')
+    if len(weightclasses) == 0:
+        error("Couldn't find the results table.")
+
+
+    divstate = 'Open'
+    sexstate = ''
+
+
+    for results in weightclasses:
+        wc = results.find('strong').text
+
+        wc = wc.replace(',00','').replace('-','').replace(' кг.','').replace(',','.')
+        if '+' in wc:
+            wc=wc.replace('+','') +'+'
+
+
+
+        meet_data = re.sub('<strong>.*?</strong>','',str(results)).replace('<pre>\n','').replace('</pre>','').replace('<pre>','')
+        meet_data=meet_data.replace(',','.')
+        meet_data=meet_data.replace(' - ','DQ,')
+        meet_data=meet_data.replace('/',',19')
+        meet_data=meet_data.replace('. ',',')
+        meet_data =meet_data.replace('   0','')
+        meet_data = re.sub(' (?=\d)','',meet_data)
+        meet_data=meet_data.replace('\t\t','\t')
+        meet_data=meet_data.replace('\t\t','\t')
+        meet_data =meet_data.replace('\t',',')
+        meet_data=meet_data.split('\n')
+        
+        for ii in range(len(meet_data)):
+            meet_data[ii] = meet_data[ii].split(',')
+
+       
+        for row in meet_data:
+            if len([x for x in row if x.strip() != '']) <4 and '4-я' not in ''.join(row):
+                continue
+            csv.fieldnames = ['Place','CyrillicName','BirthYear','BodyweightKg','IGNORE','Best3SquatKg','Best3BenchKg','Best3DeadliftKg','TotalKg','Sex','Event','Equipment','Division','WeightClassKg']
+
+            newrow = []
+            for x in row:
+                if x in ['---.-',' ']:
+                    x = ''
+                x=x.strip()
+                newrow += [x]
+
+            newrow += ['M','SBD','Single-ply','Open']
+            newrow += [wc]
+            csv.rows += [newrow]
+
+
+    return csv
+
+
+# The place is reported as "1.", just remove the period.
+def fixplace(csv):
+    if 'Place' in csv.fieldnames:
+        placeidx = csv.index('Place')
+        totalidx = csv.index('TotalKg')
+        for row in csv.rows:
+            row[placeidx] = row[placeidx].replace('.', '')
+            if row[placeidx] == '-':
+                row[placeidx] = 'DQ'
+                row[totalidx] = ''  # Instead of a zero.
+            elif 'ulkop' in row[placeidx].lower():  # Guest lifter, I think.
+                row[placeidx] = 'G'
+            elif row[placeidx].lower() == 'gäst':
+                row[placeidx] = 'G'
+            elif 'näyt' in row[placeidx].lower():
+                row[placeidx] = 'G'
+
+def remove_empty_and_ignore_cols(csv):
+    try:
+        def iscolempty(csv, i):
+            for row in csv.rows:
+                if row[i]:
+                    return False
+            return True
+
+        def getemptyidx(csv):
+            for i, col in enumerate(csv.fieldnames):
+                if iscolempty(csv, i):
+                    return i
+            return -1
+
+
+        # Remove all the columns named 'IGNORE'
+        while 'IGNORE' in csv.fieldnames:
+            csv.remove_column_by_name('IGNORE')
+
+
+        while True:
+            idx = getemptyidx(csv)
+            if idx == -1:
+                return
+            csv.remove_column_by_index(idx)
+    except:
+        pass
+
+def unreverse_names(csv):
+    newcsv = csv
+    nameidx = csv.index('CyrillicName')
+    for row in newcsv.rows:
+        if len([x for x in row if x != '']) <6:
+            continue
+        parts = row[nameidx].split()
+        parts = [name.title() for name in parts]
+
+
+        # The last name is probably the given first name.
+        fixed = [parts[-1]] + parts[:-1]
+        name = ' '.join(fixed)
+
+
+        row[nameidx] = name
+    csv = newcsv
+
+
+
+def main(dirname,url):
+
+    html = gethtml(url)
+
+    soup = BeautifulSoup(html, 'html.parser')
+
+    meetcsv = getmeetinfo(soup)
+
+    entriescsv = getresults(soup)
+    if len(entriescsv.rows) == 0:
+        error("No rows found!")
+
+    remove_empty_and_ignore_cols(entriescsv)
+
+    try:
+        unreverse_names(entriescsv)
+    except:
+        print('reverse failed, check csv')
+    try:
+        os.makedirs(dirname)
+    except OSError as exception:
+        if exception.errno != errno.EEXIST:
+            raise
+        else:
+            error("Directory '%s' already exists." % dirname)
+
+    with open(dirname + os.sep + 'entries.csv', 'w') as fd:
+        entriescsv.write(fd)
+    with open(dirname + os.sep + 'results.txt', 'w') as fd:
+        fd.write(str(soup.text))
+    with open(dirname + os.sep + 'meet.csv', 'w') as fd:
+        meetcsv.write(fd)
+    with open(dirname + os.sep + 'URL', 'w') as fd:
+        fd.write(url + "\n")
+
+    subprocess.run(['../../scripts/calc-latin-names',dirname+os.sep+'entries.csv'])
+
+
+    print("Imported into %s." % dirname)
+
+
+
+if __name__ == '__main__':
+    if len(sys.argv) != 3:
+        print("Usage: %s dirname url" % sys.argv[0])
+    main(sys.argv[1], sys.argv[2])
