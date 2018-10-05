@@ -460,15 +460,19 @@ def markevent(csv):
         row[evtidx] = evt
 
 # Replace random english characters that AllPowerlifting uses with unicode alternatives
-
-
 def fix_cyrillic_names(csv):
     if 'CyrillicName' in csv.fieldnames:
         cyridx = csv.index('CyrillicName')
         for row in csv.rows:
             row[cyridx] = row[cyridx].replace('e', 'е').replace(
-                'x', 'х').replace('o', 'о').replace('T', 'Т').replace('i', 'і')
+                'x', 'х').replace('o', 'о').replace('T', 'Т').replace('i', 'і').replace('O','О').replace('E','Е').replace('M','М')
 
+# Replace random Unicode characters that AllPowerlifting uses with ASCII alternatives
+def fix_latin_names(csv):
+    if 'Name' in csv.fieldnames:
+        nameidx = csv.index('Name')
+        for row in csv.rows:
+            row[nameidx] = row[nameidx].replace('і','i').replace('О','O')
 
 def remove_empty_cols_ignore_fieldname(csv):
     def iscolempty(csv, i):
@@ -562,6 +566,7 @@ def main(url):
     unreverse_names(entriescsv)
 
     fix_cyrillic_names(entriescsv)
+    fix_latin_names(entriescsv)
 
     # Figure out event information.
     markevent(entriescsv)

@@ -1,4 +1,4 @@
-Place,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,WeightClassKg,Sex,CyrillicName,BirthYear,SheetName,Event,Equipment
+Place,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,WeightClassKg,Sex,CyrillicName,BirthYear,Division,Event,Equipment
 1,Inna Kalmikova,61.8,100,70,92.5,262.5,63,F,Інна Калмикова,1969,Masters 1,SBD,Single-ply
 1,Oleksandr Linnik,92.3,265,180,255,700,93,M,Олександр Линник,1976,Masters 1,SBD,Single-ply
 DQ,Yuriy Miroshnichenko,112.3,265,-195,,,120,M,Юрій Мирошниченко,1971,Masters 1,SBD,Single-ply
@@ -24,7 +24,7 @@ DQ,Dmytro Medyanik,114.5,355,-245.5,,,120,M,Дмитро Медяник,1973,Mas
 5,Igor Timoftey,73.2,250,165,250,665,74,M,Ігор Тімофтей,1986,Open,SBD,Single-ply
 DQ,Andriy Kitsun,73.3,200,-150,,,74,M,Андрій Кицун,1992,Open,SBD,Single-ply
 G,Ivan Nikolchenko,73.7,280,170,262.5,712.5,74,M,Іван Нікольченко,1995,Open,SBD,Single-ply
-1,Volodymyr Rysev,82.3,330,245,330,905,83,M,Володимир Рисєв,1982,Open,SBD,Single-ply
+1,Volodymyr Rysiev,82.3,330,245,330,905,83,M,Володимир Рисєв,1982,Open,SBD,Single-ply
 2,Maksim Samoylov,80.55,327.5,222.5,277.5,827.5,83,M,Максим Самойлов,1994,Open,SBD,Single-ply
 3,Yevgen Neskromnyy,82.1,320,182.5,280,782.5,83,M,Євген Нескоромний,1993,Open,SBD,Single-ply
 4,Sergiy Krasiy,82.85,285,190,262.5,737.5,83,M,Сергій Красій,1992,Open,SBD,Single-ply
@@ -42,7 +42,7 @@ G,Ivan Nikolchenko,73.7,280,170,262.5,712.5,74,M,Іван Нікольченко
 3,Bogdan Mygovk,102.45,340,205,300,845,105,M,Богдан Миговк,1989,Open,SBD,Single-ply
 4,Bogdan Felchin,104.7,295,180,280,755,105,M,Богдан Фельчин,1992,Open,SBD,Single-ply
 DQ,Oleksandr Rubets,97.45,-405,250,327.5,,105,M,Олександр Рубець,1996,Open,SBD,Single-ply
-DQ,Sergiy Kharchenko,104.2,290,-210,265,,105,M,Сергій Харченко,1988,Open,SBD,Single-ply
+DQ,Sergiy Kharchenko,104.2,290,-210,265,,105,M,Сергей Харченко,1988,Open,SBD,Single-ply
 1,Dmytro Pavlenko,113.9,400,262.5,290,952.5,120,M,Дмитро Павленко,1992,Open,SBD,Single-ply
 2,Oleksandr Plis,111.3,310,212.5,300,822.5,120,M,Олександр Пліс,1983,Open,SBD,Single-ply
 3,Vladyslav Kulakovskyy,115.6,300,200,260,760,120,M,Владислав Кулаковський,1989,Open,SBD,Single-ply
@@ -68,7 +68,7 @@ DQ,Anastasiya Nakonechna,55.6,-147.5,77.5,150,,57,F,Анастасія Нако�
 1,Inna Orobets,104,210,165,195,570,84+,F,Інна Оробець,1971,Open,SBD,Single-ply
 2,Tetyana Litvinyuk,96.45,200,120,160,480,84+,F,Тетяна Литвинюк,1996,Open,SBD,Single-ply
 3,Viktoriya Kazakova,84.25,165,80,160,405,84+,F,Вікторія Казакова,1988,Open,SBD,Single-ply
-1,Edgar Dolgiy,59,185,122.5,,497.5,59,M,Едгар Долгий,1996,Juniors,SBD,Single-ply
+1,Edgar Dolgiy,59,185,122.5,190,497.5,59,M,Едгар Долгий,1996,Juniors,SBD,Single-ply
 2,Mikhaylo Skop,58.28,175,102.5,180,457.5,59,M,Михайло Скоп,1997,Juniors,SBD,Single-ply
 1,Volodymyr Galkin,65.35,240,135,240,615,66,M,Володимир Галкін,1995,Juniors,SBD,Single-ply
 2,Vasil Oliynik,64.3,225,120,205,550,66,M,Василь Олійник,1994,Juniors,SBD,Single-ply
@@ -79,7 +79,7 @@ DQ,Anastasiya Nakonechna,55.6,-147.5,77.5,150,,57,F,Анастасія Нако�
 4,Denis Lukasishen,71.7,240,130,220,590,74,M,Денис Лукасишен,1996,Juniors,SBD,Single-ply
 5,Ostap Ripka,71.15,220,105,190,515,74,M,Остап Ріпка,1997,Juniors,SBD,Single-ply
 6,Nazariy Bukatchuk,68.2,190,120,200,510,74,M,Назар Букатчук,1997,Juniors,SBD,Single-ply
-DQ,Evgen Bilotskiy,72.7,270,-170,-250,,74,M,Євген Білоцький,1990,Juniors,SBD,Single-ply
+DQ,Evgen Bilotskiy,72.7,270,-170,-250,,74,M,Євген Білоцький,,Juniors,SBD,Single-ply
 DQ,Artem Ribalka,73.45,-255,-155,-190,,74,M,Артем Рибалка,1996,Juniors,SBD,Single-ply
 1,Oleksandr Lebedev,82.75,340,245,300,885,83,M,Олександр Лебедєв,1994,Juniors,SBD,Single-ply
 2,Kostyantin Musienko,82.4,310,240,260,810,83,M,Костянтин Мусієнко,1997,Juniors,SBD,Single-ply
