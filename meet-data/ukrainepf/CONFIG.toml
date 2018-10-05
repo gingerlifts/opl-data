@@ -1,0 +1,70 @@
+[divisions]
+    open = {name ="Open",min=0,max=999}
+    disabled = {name ="Disabled",min=0,max=999}
+    juniors = {name = "Juniors",min=0,max=22.5}
+    subjuniors = {name = "Sub-Juniors",min=0,max=17.5}
+    masters1 = {name = "Masters 1",min=39.5,max=999}
+    masters2 = {name = "Masters 2",min=49.5,max=999}
+    masters3 = {name = "Masters 3",min=59.5,max=999}
+    masters4 = {name = "Masters 4",min=69.5,max=999}
+
+[weightclasses.default_M]
+    classes = ["59","66","74","83","93","105","120","120+"]
+    date_range=["2011-01-01","9999-01-01"]
+    sex = "M"
+
+[weightclasses.default_F]
+    classes = ["47","52","57","63","72","84","84+"]
+    date_range=["2011-01-01","9999-01-01"]
+    sex = "F"
+
+[weightclasses.junior_M]
+    classes = ["53","59","66","74","83","93","105","120","120+"]
+    date_range=["2011-01-01","9999-01-01"]
+    sex = "M"
+    divisions = ["Juniors","Sub-Juniors"]
+
+[weightclasses.junior_F]
+    classes = ["43","47","52","57","63","72","84","84+"]
+    date_range=["2011-01-01","9999-01-01"]
+    sex = "F"
+    divisions = ["Juniors","Sub-Juniors"]
+
+[weightclasses.old_M]
+    classes = ["52","56","60","67.5","75","82.5","90","100","110","125","125+"]
+    date_range = ["0000-01-01","2010-12-31"]
+    sex = "M"
+
+[weightclasses.disabled_M]
+    classes = ["48","52","56","60","67.5","75","82.5","90","100","100+"]
+    date_range = ["0000-01-01","2010-12-31"]
+    sex = "M"
+    divisions = ["Disabled"]
+
+
+[weightclasses.oldsubjunior_M]
+    classes = ["44","48","52","56","60","67.5","75","82.5","90","100","100+"]
+    date_range = ["0000-01-01","2010-12-31"]
+    sex = "M"
+    divisions = ["Sub-Juniors"]
+
+[weightclasses.old_F]
+    classes = ["44","48","52","56","60","67.5","75","82.5","90","90+"]
+    date_range = ["0000-01-01","2010-12-31"]
+    sex = "F"
+
+[weightclasses.oldsubjunior_F]
+    classes = ["36","40","44","48","52","56","60","67.5","75","75+"]
+    date_range = ["0000-01-01","2010-12-31"]
+    sex = "F"
+    divisions = ["Sub-Juniors"]
+
+[exemptions]
+    9802 = ["check_row_weightclass_sex","check_row_weightclass_consistency"]
+    9405 = ["check_row_weightclass_sex","check_row_weightclass_consistency"]
+    9606 = ["check_row_weightclass_sex","check_row_weightclass_consistency"]
+    9702 = ["check_row_weightclass_sex","check_row_weightclass_consistency"]
+    9101 = ["check_row_weightclass_sex","check_row_weightclass_consistency"]
+    9507 = ["check_row_weightclass_sex","check_row_weightclass_consistency"]
+    9305 = ["check_row_weightclass_sex","check_row_weightclass_consistency"]
+    9205 = ["check_row_weightclass_sex","check_row_weightclass_consistency"]
