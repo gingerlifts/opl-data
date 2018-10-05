@@ -8,7 +8,7 @@ Place,Name,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Bench4
 2,Sergey Mukhortikov,1973,58.7,125,-135,137.5,137.5,,60,M,Сергей Мухортиков,Single-ply,B,137.5
 3,Yuriy Bondarev,1972,59.6,125,132.5,-135,132.5,,60,M,Юрий Бондарев,Single-ply,B,132.5
 4,Yuriy Kleschevnikov,1976,59.6,125,132.5,-135,132.5,,60,M,Юрий Клещевников,Single-ply,B,132.5
-NS,Alexey Sidorov,1974,,,,,152.5,,60,M,Алексей Сидоров,Single-ply,B,152.5
+DQ,Alexey Sidorov,1974,,,,,152.5,,60,M,Алексей Сидоров,Single-ply,B,
 1,Valeriy Bogdanov,1970,63.45,175,178.5,180,180,,67.5,M,Валерий Богданов,Single-ply,B,180
 2,Vitaliy Tamochkin,1975,66.8,165,167.5,-170,167.5,,67.5,M,Виталий Тамочкин,Single-ply,B,167.5
 3,Vladimir Ryazanov,1962,66.7,155,165,-167.5,165,,67.5,M,Владимир Рязанов,Single-ply,B,165
@@ -33,7 +33,7 @@ NS,Alexey Sidorov,1974,,,,,152.5,,60,M,Алексей Сидоров,Single-ply,
 8,Vasiliy Glinin,1955,78.2,155,-162.5,162.5,162.5,,82.5,M,Василий Глинин,Single-ply,B,162.5
 9,Evgeniy Baranov,1972,76.8,160,-170,-170,160,,82.5,M,Евгений Баранов,Single-ply,B,160
 DQ,Eduard Chuev,1973,80.9,-170,-170,-175,,,82.5,M,Эдуард Чуев,Single-ply,B,
-1,Alexander Lekomtsev,1965,89.1,225,230,236,235,,90,M,Александр Лекомцев,Single-ply,B,235
+1,Alexander Lekomtsev,1965,89.1,225,230,236,236,,90,M,Александр Лекомцев,Single-ply,B,236
 2,Sergey Sharov,1964,88.9,200,210,-215,210,,90,M,Сергей Шаров,Single-ply,B,210
 3,Aleksandr Ratataev,1971,89.2,200,210,-217.5,210,,90,M,Александр Рататаев,Single-ply,B,210
 4,Vadim Kuznetsov,1975,87.4,-180,190,195,195,,90,M,Вадим Кузнецов,Single-ply,B,195
@@ -44,7 +44,7 @@ DQ,Vladislav Kobelev,1968,86.8,-205,-205,-205,,,90,M,Владислав Кобе
 2,Viktor Smischenko,1963,96.5,210,220,225,225,,100,M,Виктор Смищенко,Single-ply,B,225
 3,German Kolesnikov,1963,99.85,210,-215,-215,210,,100,M,Герман Колесников,Single-ply,B,210
 4,Oleg Sliva,1964,96.45,-200,200,-205,200,,100,M,Олег Слива,Single-ply,B,200
-5,Valentin Sidorenko,1949,99,200,-205,-200,200,,100,M,Валентин Сидоренко,Single-ply,B,200
+5,Valentin Sidorenko,1949,99,200,-205,-205,200,,100,M,Валентин Сидоренко,Single-ply,B,200
 DQ,Dmitriy Grachev,1972,98.6,-222.5,-222.5,,,,100,M,Дмитрий Грачев,Single-ply,B,
 DQ,Murat Tubinov,1961,93,-200,-200,-200,,,100,M,Мурат Тубинов,Single-ply,B,
 1,Yuriy Khuazhev,1970,107.5,250,-257.5,257.5,257.5,,110,M,Юрий Хуажев,Single-ply,B,257.5
@@ -73,7 +73,7 @@ DQ,Mikhail Kuzmin,1962,115.2,-190,-190,-190,,,125,M,Михаил Кузьмин,
 DQ,Marina Karpova,1965,66.8,-120,-122.5,-122.5,,,67.5,F,Марина Карпова,Single-ply,B,
 1,Tatyana Danilevich,1969,67.7,110,-112.5,-112.5,110,,75,F,Татьяна Данилевич,Single-ply,B,110
 2,Tatyana Dumchenko,1974,74.3,90,-100,-112.5,90,,75,F,Татьяна Думченко,Single-ply,B,90
-DD,Marina Zhguleva,1975,,,,,137.5,,75,F,Марина Жгулева,Single-ply,B,137.5
+DD,Marina Zhguleva,1975,,,,,137.5,,75,F,Марина Жгулева,Single-ply,B,
 1,Svetlana Paltseva,1969,81.9,100,105,-110,105,,82.5,F,Светлана Пальцева,Single-ply,B,105
 1,Elena Kashirina,1962,91,95,102.5,107.5,107.5,,90+,F,Елена Каширина,Single-ply,B,107.5
 2,Natalya Kuznetsova,1978,100.1,80,85,-90,85,,90+,F,Наталья Кузнецова,Single-ply,B,85
