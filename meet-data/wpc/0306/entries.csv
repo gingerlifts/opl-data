@@ -49,7 +49,7 @@ DQ,Samir Shiraliev,J,Azerbaijan,74.78,200,220,240,240,,150,165,170,170,176,-235,
 DQ,Michel Dudziak,M3,France,81.3,-125,125,-140,125,,-105,-110,-110,,,,,,,,,82.5,M,1948,Multi-ply,SBD
 1,Christian Desnost,M4,France,81.04,-165,165,-180,165,,87.5,100,105,105,,190,-200,200,200,,470,82.5,M,1944,Multi-ply,SBD
 1,Konrad Högg,M6,Austria,82.48,120,140.5,,140.5,,135,-150.5,-150.5,135,,130,150,170.5,170.5,,446,82.5,M,1938,Multi-ply,SBD
-1,Vladislav Gacik,T1,Slovakia,84.04,170,182.5,182.5,182.5,190,115,-120,-120,115,120,185,205,210,210,,507.5,90,M,1988,Multi-ply,SBD
+1,Vladislav Gacik,T1,Slovakia,84.04,170,-182.5,182.5,182.5,190,115,-120,-120,115,120,185,205,210,210,,507.5,90,M,1988,Multi-ply,SBD
 1,Aleksandrs Grigorjevs,T3,Latvia,88.48,260,280.5,-290,280.5,,160,170,175.5,175.5,,230,250,,250,,706,90,M,1985,Multi-ply,SBD
 1,Jeremy Hecre,J,France,89.24,250,260,-270,260,,-175,185,-200,185,,240,-250,-250,240,,685,90,M,1981,Multi-ply,SBD
 1,Eric Athias,O,France,85.64,290,310,325,325,,170,180,-185,180,,290,305,-310,305,,810,90,M,1971,Multi-ply,SBD
@@ -69,7 +69,7 @@ DQ,Michel Dudziak,M3,France,81.3,-125,125,-140,125,,-105,-110,-110,,,,,,,,,82.5,
 1,Pauli Rantanen,O,Finland,99.08,340,-360,-360,340,,210,-217.5,217.5,217.5,,300,-320,-320,300,,857.5,100,M,1966,Multi-ply,SBD
 2,Markus Nischik,O,Germany,99.24,290,300,310,310,,185,192.5,200,200,,285,295,-300,295,,805,100,M,1973,Multi-ply,SBD
 3,Renaat Wouters,O,Belgium,97.3,200,215,230,230,,165,172.5,-175,172.5,,200,220,230,230,,632.5,100,M,1978,Multi-ply,SBD
-DQ,Kari Pontinen,O,Finland,98.92,-350,-350,-350,,,,,,,,,,,,,,100,M,1973,Multi-ply,SBD
+DQ,Kari Pöntinen,O,Finland,98.92,-350,-350,-350,,,,,,,,,,,,,,100,M,1973,Multi-ply,SBD
 1,Alan Luker,M3,UK,98.42,-320,320,-342.5,320,,157.5,165,167.5,167.5,,320,335,-351,335,,822.5,100,M,1949,Multi-ply,SBD
 2,Kārlis Bulāns,M3,Latvia,93.54,240,270,285,285,,140,150,-155,150,,290,310,,310,,745,100,M,1952,Multi-ply,SBD
 DQ,Alain Weil,M4,France,98.82,165,175,185,185,,,,,,,,,,,,,100,M,1945,Multi-ply,SBD
@@ -81,7 +81,7 @@ DQ,Robert Laroudie,M4,France,96.6,150,-160,-170,150,,90,95,-100,95,,-175,-175,-1
 4,Koen Demuynck,J,Belgium,108.86,230,255,-265,255,,150,165,170,170,,240,270,280,280,,705,110,M,1981,Multi-ply,SBD
 1,Rugat Agayev,O,Azerbaijan,108.86,325,350,360,360,,200,207.5,-212.5,207.5,,-325,325,-350,325,,892.5,110,M,1975,Multi-ply,SBD
 2,Mattes Aremlini,O,Italy,104.9,-305,-305,310,310,,170,180,-190,180,,280,300,-310,300,,790,110,M,1974,Multi-ply,SBD
-3,Herve Herbulot,O,France,108.68,285,300,-310,300,,150,160,-170,160,,280,-290,-290,280,,740,110,M,1964,Multi-ply,SBD
+3,Hervé Herbulot,O,France,108.68,285,300,-310,300,,150,160,-170,160,,280,-290,-290,280,,740,110,M,1964,Multi-ply,SBD
 4,Bruno Cappella,O,Italy,104.1,190,210,220,220,,150,160,170,170,,230,250,-260,250,,640,110,M,1971,Multi-ply,SBD
 DQ,Elmar Wasmer,O,Switzerland,107.6,-295,295,-310,295,,-170,170,180,180,,-265,-265,-265,,,,110,M,1967,Multi-ply,SBD
 1,Jens Breitzke,M1,Germany,109.94,270,290,310,310,,180,192.5,200,200,,255,270,280,280,,790,110,M,1962,Multi-ply,SBD
@@ -127,7 +127,7 @@ DQ,Vüqar Binnət Oğlu Namazov,J,Azerbaijan,138.44,-340,-340,,,,,,,,,,,,,,,140,
 1,Martin Heindl,M2,Austria,67.24,,,,,,115,-125,125,125,,,,,,,125,67.5,M,1955,Multi-ply,B
 1,Louis Guerio,M3,France,67.14,,,,,,-107.5,115,-121,115,,,,,,,115,67.5,M,1949,Multi-ply,B
 1,Raphael Furfari,M6,France,66.4,,,,,,-115,115,120,120,125,,,,,,120,67.5,M,1938,Multi-ply,B
-1,Marco Schroder,T1,Germany,74.76,,,,,,75,77.5,-82.5,77.5,,,,,,,77.5,75,M,1988,Multi-ply,B
+1,Marco Schröder,T1,Germany,74.76,,,,,,75,77.5,-82.5,77.5,,,,,,,77.5,75,M,1988,Multi-ply,B
 1,Samir Shiraliev,J,Azerbaijan,74.78,,,,,,150,160,,160,,,,,,,160,75,M,1981,Multi-ply,B
 1,Jean-Luc Garcia,O,France,73.62,,,,,,200,-213,-213,200,,,,,,,200,75,M,1966,Multi-ply,B
 1,Uwe Werner,M2,Germany,71.5,,,,,,170,180,-190,180,,,,,,,180,75,M,1958,Multi-ply,B
@@ -169,7 +169,7 @@ DQ,Mika Ekebom,O,Finland,89.76,,,,,,-230,-230,-230,,,,,,,,,90,M,1973,Multi-ply,B
 1,Vusal Tahir Mardanov,T3,Azerbaijan,98.36,,,,,,150,165,175.5,175.5,-180,,,,,,175.5,100,M,1985,Multi-ply,B
 1,Kristof Van Ransbeeck,J,Belgium,99.02,,,,,,150,-160,-160,150,,,,,,,150,100,M,1980,Multi-ply,B
 1,Jarkko Salminen,O,Finland,99.96,,,,,,-205,205,215,215,,,,,,,215,100,M,1969,Multi-ply,B
-1,Massimo Sobrero,O,Italy,106.02,,,,,,200,-207.5,207.5,207.5,,,,,,,207.5,100,M,1977,Multi-ply,B
+1,Massimo Sobrero,O,Italy,106.02,,,,,,200,-207.5,207.5,207.5,,,,,,,207.5,110,M,1977,Multi-ply,B
 DQ,Michal Tumidajsky,O,Poland,91.76,,,,,,-210,-215,-215,,,,,,,,,100,M,1977,Multi-ply,B
 1,Robert Brasseur,M1,France,99.64,,,,,,230,240,-252.5,240,,,,,,,240,100,M,1961,Multi-ply,B
 2,Stanislaw Kalesa,M1,Poland,90.34,,,,,,190,-200,-200,190,,,,,,,190,100,M,1959,Multi-ply,B
@@ -188,7 +188,7 @@ DQ,Ives Scheyltjens,O,Belgium,109.1,,,,,,-170,,,,,,,,,,,110,M,1965,Multi-ply,B
 1,Reinars Kudums,M1,Latvia,108.24,,,,,,200,215,-220,215,,,,,,,215,110,M,1962,Multi-ply,B
 2,Marc Savoca,M1,France,107.24,,,,,,-170,175,185,185,,,,,,,185,110,M,1961,Multi-ply,B
 1,Erhard Schubert,M2,Germany,104.74,,,,,,185,-195,195,195,,,,,,,195,110,M,1958,Multi-ply,B
-1,Marc Lebolay,M5,Finland,100.32,,,,,,177.5,182.5,187.5,187.5,,,,,,,187.5,110,M,1938,Multi-ply,B
+1,Marc LeBolay,M5,Finland,100.32,,,,,,177.5,182.5,187.5,187.5,,,,,,,187.5,110,M,1938,Multi-ply,B
 1,Tobias Ide,J,Germany,116.38,,,,,,235,250,-260,250,,,,,,,250,125,M,1980,Multi-ply,B
 1,Jean-Marc Chenin,O,France,113.72,,,,,,230,237.5,-247.5,237.5,,,,,,,237.5,125,M,1964,Multi-ply,B
 2,Bakhtiyar Guliyev,O,Azerbaijan,116.24,,,,,,220,232.5,-245,232.5,,,,,,,232.5,125,M,1976,Multi-ply,B
@@ -197,7 +197,7 @@ DQ,Ives Scheyltjens,O,Belgium,109.1,,,,,,-170,,,,,,,,,,,110,M,1965,Multi-ply,B
 2,Geoffrey Nadin,M1,UK,117.7,,,,,,185,190,-202.5,190,,,,,,,190,125,M,1962,Multi-ply,B
 1,Viktors Pevko,M2,Latvia,124.14,,,,,,240,250,-260,250,,,,,,,250,125,M,1956,Multi-ply,B
 2,Andreas Mrosek,M2,Germany,115.86,,,,,,230,-240,-250,230,,,,,,,230,125,M,1958,Multi-ply,B
-3,John Walker,M2,UK,116.54,,,,,,210,220,-227.5,220,,,,,,,220,125,M,1955,Multi-ply,B
+3,John Walker #5,M2,UK,116.54,,,,,,210,220,-227.5,220,,,,,,,220,125,M,1955,Multi-ply,B
 4,Pekka Rantanen,M2,Finland,125,,,,,,205,-215,-222.5,205,,,,,,,205,125,M,1957,Multi-ply,B
 1,Dusan Toman,M3,Slovakia,121.14,,,,,,-180,180,190,190,,,,,,,190,125,M,1950,Multi-ply,B
 2,Josef Pollendorfer,M3,Austria,111.46,,,,,,150,160,-180,160,,,,,,,160,125,M,1951,Multi-ply,B

@@ -2,7 +2,7 @@ Place,Name,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Weight
 1,Anastasiya Kulikova,1991,42.5,52.5,55,57.5,57.5,43,F,Анастасия Куликова,Single-ply,Juniors,B,57.5
 2,Ekaterina Alikina,1993,41.15,50,52.5,-57.5,52.5,43,F,Екатерина Аликина,Single-ply,Juniors,B,52.5
 3,Anastasiya Polivanova,1993,42.6,-30,30,35,35,43,F,Анастасия Поливанова,Single-ply,Juniors,B,35
-1,Aygul Sitdikova,1989,46.75,85,90,95,95,47,F,Айгуль Ситдикова,Single-ply,Juniors,B,95
+1,Aigul Sitdikova,1989,46.75,85,90,95,95,47,F,Айгуль Ситдикова,Single-ply,Juniors,B,95
 2,Aleksandra Churkina,1992,46.5,70,75,-80,75,47,F,Александра Чуркина,Single-ply,Juniors,B,75
 3,Anna Eliseeva,,46.7,70,-72.5,72.5,72.5,47,F,Анна Елисеева,Single-ply,Juniors,B,72.5
 4,Alesya Sarancha,1993,47,65,67.5,-75,67.5,47,F,Алеся Саранча,Single-ply,Juniors,B,67.5
@@ -19,7 +19,7 @@ Place,Name,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Weight
 3,Yana Talybova,1991,63,95,105,-112.5,105,63,F,Яна Талыбова,Single-ply,Juniors,B,105
 4,Natalya Fakirova,1991,62.85,-90,-95,95,95,63,F,Наталья Факирова,Single-ply,Juniors,B,95
 5,Margarita Savina,1990,61.55,72.5,77.5,-80,77.5,63,F,Маргарита Савина,Single-ply,Juniors,B,77.5
-1,Yulia Chistyakova,1989,71.55,130,138,140,140,72,F,Юлия Чистякова,Single-ply,Juniors,B,140
+1,Yulia Chistiakova,1989,71.55,130,138,140,140,72,F,Юлия Чистякова,Single-ply,Juniors,B,140
 2,Alina Bayramova,1991,66.6,60,67.5,-75,67.5,72,F,Алина Байрамова,Single-ply,Juniors,B,67.5
 1,Ekaterina Baranova,1992,81.45,132.5,137.5,142.5,142.5,84,F,Екатерина Баранова,Single-ply,Juniors,B,142.5
 2,Narine Kotenko,1991,72.15,120,-130,-140,120,84,F,Наринэ Котенко,Single-ply,Juniors,B,120
@@ -32,7 +32,7 @@ DQ,Anastasiya Balko,1989,100.05,-135,-142.5,-142.5,,84+,F,Анастасия Б�
 3,Rashad Mamedov,1993,52.65,100,107.5,-110,107.5,53,M,Рашад Мамедов,Single-ply,Juniors,B,107.5
 4,Igor Bykov,1991,45.8,80,85,-90,85,53,M,Игорь Быков,Single-ply,Juniors,B,85
 1,Oleg Smirnov,1990,58.05,160,170,175,175,59,M,Олег Смирнов,Single-ply,Juniors,B,175
-2,Kirill Krut',1991,58.3,147.5,152.5,157.5,157.5,59,M,Кирилл Круть,Single-ply,Juniors,B,157.5
+2,Kirill Krut,1991,58.3,147.5,152.5,157.5,157.5,59,M,Кирилл Круть,Single-ply,Juniors,B,157.5
 3,Aleksey Khrenkov,1992,57.9,145,150,155,155,59,M,Алексей Хренков,Single-ply,Juniors,B,155
 4,Fahri Guliyev,1991,58.3,125,135,145,145,59,M,Фахри Гулиев,Single-ply,Juniors,B,145
 5,Andrey Zybkin,1989,58.5,127.5,132.5,142.5,142.5,59,M,Андрей Зыбкин,Single-ply,Juniors,B,142.5
@@ -137,7 +137,7 @@ DQ,Ekaterina Zhiltsova,1996,42.65,-42.5,-42.5,-42.5,,43,F,Екатерина Ж�
 2,Larisa Otteva,1998,46.3,52.5,-55,-55,52.5,47,F,Лариса Оттева,Single-ply,Sub-Juniors,B,52.5
 3,Irina Nikitina,1996,45.05,50,-55,-57.5,50,47,F,Ирина Никитина,Single-ply,Sub-Juniors,B,50
 DQ,Tatyana Rikhelgof,1997,46.9,-60,-60,-60,,47,F,Татьяна Рихельгоф,Single-ply,Sub-Juniors,B,
-1,Anna Filimonova,1994,50.8,95,102.5,106,106,52,F,Анна Филимонова,Single-ply,Sub-Juniors,B,106
+1,Inna Filimonova,1994,50.8,95,102.5,106,106,52,F,Инна Филимонова,Single-ply,Sub-Juniors,B,106
 2,Ekaterina Ivanova,1995,51.7,70,72.5,75,75,52,F,Екатерина Иванова,Single-ply,Sub-Juniors,B,75
 3,Elizaveta Ikonnikova,1995,51.95,60,65,67.5,67.5,52,F,Елизавета Иконникова,Single-ply,Sub-Juniors,B,67.5
 4,Mariya Vlasenkova,1995,51.65,52.5,57.5,60,60,52,F,Мария Власенкова,Single-ply,Sub-Juniors,B,60
@@ -236,7 +236,7 @@ DQ,Ekaterina Guryeva,1985,,,,,,63,F,Екатерина Гурьева,Raw,Open,B
 4,Dmitriy Devyatkin,1988,57.5,137.5,-145,-145,137.5,59,M,Дмитрий Девяткин,Single-ply,Open,B,137.5
 5,Evgeniy Kolabin,1986,53.6,135,-142.5,,135,59,M,Евгений Колабин,Single-ply,Open,B,135
 1,Artem Rubtsov,1984,66,205,212.5,215,215,66,M,Артем Рубцов,Single-ply,Open,B,215
-2,Sergei Gladkikh,1989,65.85,200,-210,213,213,66,M,Сергей Гладких,Single-ply,Open,B,213
+2,Sergey Gladkikh,1989,65.85,200,-210,213,213,66,M,Сергей Гладких,Single-ply,Open,B,213
 3,Nikolay Isaev,1991,65.75,-200,200,212.5,212.5,66,M,Николай Исаев,Single-ply,Open,B,212.5
 4,Nikolay Pochinkin,1985,65.5,180,190,-200,190,66,M,Николай Починкин,Single-ply,Open,B,190
 5,Artem Tavastsherna,1985,65.75,180,190,-200,190,66,M,Артем Тавастшерна,Single-ply,Open,B,190
@@ -245,7 +245,7 @@ DQ,Ekaterina Guryeva,1985,,,,,,63,F,Екатерина Гурьева,Raw,Open,B
 8,Pavel Ukhanov,1987,66,155,-165,165,165,66,M,Павел Уханов,Single-ply,Open,B,165
 9,Vyacheslav Salyakhov,1980,65.55,155,162.5,-172.5,162.5,66,M,Вячеслав Саляхов,Single-ply,Open,B,162.5
 DQ,Dmitriy Chebotarev,1988,65.8,-165,-165,-165,,66,M,Дмитрий Чеботарев,Single-ply,Open,B,
-1,Alexander Gromov,1981,73.7,220,230,235,235,74,M,Александр Громов,Single-ply,Open,B,235
+1,Aleksandr Gromov,1981,73.7,220,230,235,235,74,M,Александр Громов,Single-ply,Open,B,235
 2,Maxim Beloborodov,1983,73.65,220,225,232.5,232.5,74,M,Максим Белобородов,Single-ply,Open,B,232.5
 3,Arthur Mashinskiy,1987,73.55,212.5,220,227.5,227.5,74,M,Артур Машинский,Single-ply,Open,B,227.5
 4,Aleksandr Sharagashev,1986,73.65,215,222.5,-232.5,222.5,74,M,Александр Шарагашев,Single-ply,Open,B,222.5
@@ -255,7 +255,7 @@ DQ,Dmitriy Chebotarev,1988,65.8,-165,-165,-165,,66,M,Дмитрий Чебота
 8,Igor Schurilov,1984,73.7,175,180,-182.5,180,74,M,Игорь Щурилов,Single-ply,Open,B,180
 DQ,Vyacheslav Rubtsov,1988,73.65,-205,-210,-210,,74,M,Вячеслав Рубцов,Single-ply,Open,B,
 DQ,Andrey Ustinov,1988,73.55,-215,-222.5,-222.5,,74,M,Андрей Устинов,Single-ply,Open,B,
-DQ,Aleksey Bakhirev,1981,73.7,-215,-220,-232.5,,74,M,Алексей Бахирев,Single-ply,Open,B,
+DQ,Alexey Bakhirev,1981,73.7,-215,-220,-232.5,,74,M,Алексей Бахирев,Single-ply,Open,B,
 1,Sergey Knyazev,1976,80.15,255,257.5,260,260,83,M,Сергей Князев,Single-ply,Open,B,260
 2,Dmitry Inzarkin,1987,82.75,240,247.5,250,250,83,M,Дмитрий Инзаркин,Single-ply,Open,B,250
 3,Sergey Shekurov,1981,82.6,235,-242.5,247.5,247.5,83,M,Сергей Шекуров,Single-ply,Open,B,247.5
@@ -300,7 +300,7 @@ DQ,Ramil Yakubov,1983,104.05,-260,-265,-265,,105,M,Рамиль Якубов,Sin
 DQ,Aleksey Norkin,1966,107.2,-247.5,-247.5,-247.5,,120,M,Алексей Норкин,Single-ply,Open,B,
 DQ,Alexei Malunin,1978,113.15,-290,-290,-297.5,,120,M,Алексей Малунин,Single-ply,Open,B,
 DD,Aleksandr Sykmenyov,1978,116.85,305,315,325,325,120,M,Александр Сыкменёв,Single-ply,Open,B,
-1,Andrei Konovalov,1986,159.75,320,330,-340,330,120+,M,Андрей Коновалов,Single-ply,Open,B,330
+1,Andrey Konovalov,1986,159.75,320,330,-340,330,120+,M,Андрей Коновалов,Single-ply,Open,B,330
 2,Vladislav Solovyev,1987,142.5,307.5,315,-320,315,120+,M,Владислав Соловьев,Single-ply,Open,B,315
 3,Yuriy Drachev,1982,124.6,285,300,-315,300,120+,M,Юрий Драчёв,Single-ply,Open,B,300
 4,Roman Abidzhba,1988,137.2,300,-310,-320,300,120+,M,Роман Абиджба,Single-ply,Open,B,300
@@ -311,7 +311,7 @@ DD,Aleksandr Sykmenyov,1978,116.85,305,315,325,325,120,M,Александр Сы
 DQ,Karen Danilyan,1976,172.9,-320,-320,-322.5,,120+,M,Карен Данилян,Single-ply,Open,B,
 DQ,Vitaliy Morozevich,1966,176.75,-285,-285,-295,,120+,M,Виталий Морозевич,Single-ply,Open,B,
 1,Yana Zadorina,1982,46,-97.5,-97.5,105,105,47,F,Яна Задорина,Single-ply,Open,B,105
-2,Anastasiya Strufa,1986,46.65,100,105,-110,105,47,F,Анастасия Струфа,Single-ply,Open,B,105
+2,Anastasya Strufa,1986,46.65,100,105,-110,105,47,F,Анастасия Струфа,Single-ply,Open,B,105
 3,Olga Golubeva,1970,46.6,97.5,102.5,-105,102.5,47,F,Ольга Голубева,Single-ply,Open,B,102.5
 4,Karina Simonyants,1977,46.7,95,100,-107.5,100,47,F,Карина Симонянц,Single-ply,Open,B,100
 5,Natalya Krikunova,1981,46.7,70,-72.5,-72.5,70,47,F,Наталья Крикунова,Single-ply,Open,B,70
@@ -325,7 +325,7 @@ DQ,Viktoriya Martynova,1985,46.8,-87.5,-87.5,-87.5,,47,F,Виктория Мар
 3,Ekaterina Nikolaeva,1984,56.25,105,110,115,115,57,F,Екатерина Николаева,Single-ply,Open,B,115
 4,Olesya Kononovich,1987,56.95,90,97.5,100,100,57,F,Олеся Кононович,Single-ply,Open,B,100
 1,Irina Poletaeva,1982,62.75,-152.5,152.5,158,158,63,F,Ирина Полетаева,Single-ply,Open,B,158
-2,Mariya Dubenskaya,1988,61.25,-140,140,147.5,147.5,63,F,Мария Дубенская,Single-ply,Open,B,147.5
+2,Maria Dubenskaya,1988,61.25,-140,140,147.5,147.5,63,F,Мария Дубенская,Single-ply,Open,B,147.5
 3,Yuliya Speranskaya,1981,61.1,-142.5,-145,145,145,63,F,Юлия Сперанская,Single-ply,Open,B,145
 4,Valentina Nelyubova,1966,62.3,135,145,-150,145,63,F,Валентина Нелюбова,Single-ply,Open,B,145
 1,Yulia Medvedeva,1986,66.7,160,170,177.5,177.5,72,F,Юлия Медведева,Single-ply,Open,B,177.5

@@ -3,8 +3,8 @@ Nate Litowsky,44,M,SBD,Single-ply,Youth (10-11),New York,40,47.5,-55,47.5,-25,25
 Connor Dantzler,48,M,SBD,Single-ply,Youth (10-11),Maryland,-32.5,-32.5,32.5,32.5,25,27.5,28,28,,62.5,70,-75,70,130.5,1
 Connor Dantzler,48,M,SBD,Single-ply,Open,Maryland,-32.5,-32.5,32.5,32.5,25,27.5,28,28,,62.5,70,-75,70,130.5,1
 Josh Ladson,56,M,SBD,Single-ply,Teen I (14-15),Pennsylvania,75,82.5,87.5,87.5,57.5,-62.5,62.5,62.5,,85,95,105,105,255,1
-Doc Holloway,56,M,SBD,Single-ply,Guest Lifter,Georgia,215,227.5,-235,227.5,-125,125,-135,125,,220,-232.5,-232.5,220,572.5,G
-Mike Kuhns,60,M,SBD,Single-ply,Guest Lifter,Pennsylvania,220,232.5,-237.5,232.5,142.5,147.5,155,155,,150,165,172.5,172.5,560,G
+Damarrio Holloway,56,M,SBD,Single-ply,Guest Lifter,Georgia,215,227.5,-235,227.5,-125,125,-135,125,,220,-232.5,-232.5,220,572.5,G
+Michael Kuhns,60,M,SBD,Single-ply,Guest Lifter,Pennsylvania,220,232.5,-237.5,232.5,142.5,147.5,155,155,,150,165,172.5,172.5,560,G
 James Kavarnos,60,M,SBD,Single-ply,Open,Pennsylvania,165,175,-182.5,175,102.5,107.5,-110,107.5,,195,-210.5,-210.5,195,477.5,1
 James Kavarnos,60,M,SBD,Single-ply,Masters II (50-59),Pennsylvania,165,175,-182.5,175,102.5,107.5,-110,107.5,,195,-210.5,-210.5,195,477.5,1
 Mike Petraca,67.5,M,SBD,Single-ply,Open,Rhode Island,192.5,205,-220,205,125,132.5,-137.5,132.5,,205,220,-227.5,220,557.5,1
@@ -12,16 +12,16 @@ Michael Santiago,67.5,M,SBD,Single-ply,Open,New Jersey,137.5,145,-157.5,145,115,
 Terrance Pinkett,67.5,M,SBD,Single-ply,Open,Pennsylvania,62.5,-110,-110,62.5,-187.5,-187.5,-192.5,,,,,,,,DQ
 Stephen McIsaac,67.5,M,SBD,Single-ply,Open,Massachusetts,,,,,,,,,,,,,,,DQ
 Michael Santiago,67.5,M,SBD,Single-ply,P/F/M,New Jersey,137.5,145,-157.5,145,115,-170,-170,115,,182.5,192.5,-197.5,192.5,452.5,1
-Michael Polimeni,67.5,M,SBD,Single-ply,Teen I (14-15),New Jersey,130,-142.5,-142.5,130,-90,-90,-95,-90,,142.5,145,152.5,152.5,192.5,1
+Michael Polimeni,67.5,M,SBD,Single-ply,Teen I (14-15),New Jersey,130,-142.5,-142.5,130,-90,-90,-95,,,142.5,145,152.5,152.5,,DQ
 Victor Volpone,67.5,M,SBD,Single-ply,Teen II (16-17),Pennsylvania,75,82.5,87.5,87.5,65,-67.5,72.5,72.5,,97.5,107.5,112.5,112.5,272.5,1
 Brandon Tate,67.5,M,SBD,Single-ply,Teen (18-19),Pennsylvania,120,127.5,-135,127.5,60,67.5,75,75,,137.5,152.5,165,165,367.5,1
-Michael Polimeni,67.5,M,SBD,Single-ply,High Shool JV,New Jersey,-142.5,-142.5,130,130,-90,-90,-95,,,142.5,145,152.5,152.5,,DQ
+Michael Polimeni,67.5,M,SBD,Single-ply,High Shool JV,New Jersey,130,-142.5,-142.5,130,-90,-90,-95,,,142.5,145,152.5,152.5,,DQ
 Mike Petraca,67.5,M,SBD,Single-ply,Junior (20-23),Rhode Island,192.5,205,-220,205,125,132.5,-137.5,132.5,,205,220,-227.5,220,557.5,1
 Joshua Schwartz,67.5,M,SBD,Single-ply,Junior (20-23),Illinois,-182.5,-182.5,-182.5,,,,,,,,,,,,DQ
 Lloyd Weinstein,67.5,M,SBD,Single-ply,Masters I (40-49),Connecticut,215,227.5,237.5,237.5,127.5,137.5,-145,137.5,,220,252.5,265,265,640,1
 Jules Pelligrino,67.5,M,SBD,Single-ply,Masters III (60-69),New Jersey,170,182.5,-187.5,182.5,132.5,140,145,145,,165,-185,-185,165,492.5,1
 Mike Cagliola,75,M,SBD,Single-ply,Open,Pennsylvania,-237.5,-237.5,245,245,187.5,-195,-195,187.5,,217.5,222.5,-227.5,222.5,655,1
-Nicholas Royer,75,M,SBD,Single-ply,Open,Ohio,165,180,-192.5,180,170,-181.5,181.5,181.5,,147.5,170,192.5,192.5,552.5,2
+Nicholas Royer,75,M,SBD,Single-ply,Open,Ohio,165,180,-192.5,180,170,-181.5,181.5,181.5,,147.5,170,192.5,192.5,554,2
 George Johnson,75,M,SBD,Single-ply,Open,New Jersey,60,70,-90,70,60,80,-85,80,,80,110,130,130,280,3
 Eriek Nickson,75,M,SBD,Single-ply,Guest Lifter,Indiana,260,272.5,-282.5,272.5,180,-190,-190,180,,270,-285,-285,270,722.5,G
 Clint Barzhof,75,M,SBD,Single-ply,Teen I (14-15),Pennsylvania,90,102.5,115,115,67.5,75,-80,75,,117.5,-130,-130,117.5,307.5,1
@@ -37,7 +37,7 @@ Brett Csont,75,M,SBD,Single-ply,Collegiate,New York,,,,,,,,,,,,,,,DQ
 Joe Braca,75,M,SBD,Single-ply,Masters I (40-49),Pennsylvania,230,-245,-245,230,125,137.5,-145,137.5,,275,-282.5,,275,642.5,1
 Bryan Snyder,75,M,SBD,Single-ply,Masters I (40-49),Pennsylvania,-227.5,-227.5,-227.5,,,,,,,,,,,,DQ
 Nick Theodorou,75,M,SBD,Single-ply,Masters II (50-59),Pennsylvania,160,172.5,182.5,182.5,90,-95,95,95,,227.5,245,260,260,537.5,1
-George Hummel,75,M,SBD,Single-ply,Masters II (50-59),Pennsylvania,150,,,,155,160,-165,,,160,195,-227.5,,505,2
+George Hummel,75,M,SBD,Single-ply,Masters II (50-59),Pennsylvania,150,,,150,155,160,-165,160,,160,195,-227.5,195,505,2
 Ray Lambert,75,M,SBD,Single-ply,Masters II (50-59),Pennsylvania,,,,,,,,,,,,,,,DQ
 Anthony Joseph,82.5,M,SBD,Single-ply,Open,Pennsylvania,217.5,227.5,-232.5,227.5,170,175,-180,175,,235,250,255,255,657.5,1
 Mike Ciupinski,82.5,M,SBD,Single-ply,Open,New Jersey,195,207.5,217.5,217.5,190,197.5,-202.5,197.5,,205,222.5,-237.5,222.5,637.5,2
@@ -63,7 +63,7 @@ Eliot Feldman,90,M,SBD,Single-ply,Open,Pensylvania,215,227.5,-237.5,227.5,120,13
 Ashley Mort,90,M,SBD,Single-ply,Open,Pensylvania,-190,190,-202.5,190,135,-147.5,-150,135,,,,,,,DQ
 Pete Grohoski,90,M,SBD,Single-ply,Open,Pensylvania,-255,-255,-255,,,,,,,,,,,,DQ
 Horlando Saucedo,90,M,SBD,Single-ply,Open,New York,-240,-240,-240,,,,,,,,,,,,DQ
-Chris Lentino,90,M,SBD,Single-ply,Open,New Jersey,,,,,,,,,,,,,,,DQ
+Chris Lentini,90,M,SBD,Single-ply,Open,New Jersey,,,,,,,,,,,,,,,DQ
 John Pena,90,M,SBD,Single-ply,Guest Lifter,Arizona,307.5,-317.5,-317.5,307.5,185,187.5,192.5,192.5,,265,272.5,,272.5,772.5,G
 Jeremy Auerbach,90,M,SBD,Single-ply,Teen II (16-17),Ohio,205,-220,227.5,227.5,172.5,185,-195,185,,227.5,245,-270,245,657.5,1
 Dan Rimbey,90,M,SBD,Single-ply,Teen III (18-19),Pensylvania,192.5,215,217.5,217.5,135,142.5,147.5,147.5,,227.5,247.5,-250,247.5,612.5,1
@@ -83,13 +83,13 @@ Mike Izzi,90,M,SBD,Single-ply,Masters I (40-49),Pensylvania,165,175,182.5,182.5,
 Kent Jensen,90,M,SBD,Single-ply,Masters I (40-49),Pensylvania,-110,-110,110,110,90,-105,-115,90,,130,-145,-145,130,330,7
 Joe Nealis,90,M,SBD,Single-ply,Masters II (50-59),Pensylvania,150,170,-182.5,170,145,155,-160,155,,205,-232.5,,205,530,1
 Tom Harmon,90,M,SBD,Single-ply,Masters II (50-59),New York,,,,,,,,,,,,,,,DQ
-Mike Delsignore,100,M,SBD,Single-ply,Open,Delaware,277.5,-300,-300,277.5,182.5,192.5,-197.5,192.5,,245,-272.5,272.5,272.5,742.5,1
+Mike DelSignore,100,M,SBD,Single-ply,Open,Delaware,277.5,-300,-300,277.5,182.5,192.5,-197.5,192.5,,245,-272.5,272.5,272.5,742.5,1
 Matt Gary,100,M,SBD,Single-ply,Open,Maryland,245,-262.5,262.5,262.5,165,175,-182.5,175,,265,-282.5,-282.5,265,702.5,2
 Jim Nicolosi,100,M,SBD,Single-ply,Open,New Jersey,277.5,-290,292.5,292.5,170,-182.5,-182.5,170,,220,235,-250,235,697.5,3
 George Davis,100,M,SBD,Single-ply,Open,Pennsylvania,235,245,255,255,165,172.5,177.5,177.5,,250,260,-262.5,260,692.5,4
 Thomas Ravesi,100,M,SBD,Single-ply,Open,New York,-255,255,-272.5,255,167.5,182.5,-190,182.5,,245,252.5,-260,252.5,690,5
 Mike Barcelone,100,M,SBD,Single-ply,Open,New Jersey,237.5,-257.5,260,260,182.5,190,-195,190,,217.5,235,240,240,690,6
-Robert Hansen,100,M,SBD,Single-ply,Open,New York,-230,230,-240,230,160,167.5,-172.5,167.5,,272.5,285,-297.5,285,682.5,7
+Robert Hanssen,100,M,SBD,Single-ply,Open,New York,-230,230,-240,230,160,167.5,-172.5,167.5,,272.5,285,-297.5,285,682.5,7
 Rene Moyen,100,M,SBD,Single-ply,Open,Rhode Island,237.5,-247.5,247.5,247.5,155,162.5,-167.5,162.5,,227.5,240,,240,650,8
 Jim Sullivan,100,M,SBD,Single-ply,Open,Arizona,-265,275,-285,275,175,180,-185,180,,,,,,,DQ
 Garrett McDonough,100,M,SBD,Single-ply,Open,Rhode Island,,,,,,,,,,,,,,,DQ
@@ -101,8 +101,8 @@ Randy Boczkowski,100,M,SBD,Single-ply,Junior (20-23),Pennsylvania,-200,200,-215,
 Donnie Snyder,100,M,SBD,Single-ply,High School Jr. Vars,Pennsylvania,150,-170,-170,150,75,85,-90,85,,150,165,-180,165,400,1
 Iiva Slizovskiy,100,M,SBD,Single-ply,High School Varsity,Pennsylvania,-182.5,-182.5,-205,,,,,,,,,,,,DQ
 Rich Wenner,100,M,SBD,Single-ply,Masters I (40-49),Arizona,250,270,287.5,287.5,202.5,210,-217.5,210,,250,270,287.5,287.5,785,1
-Mike Delsignore,100,M,SBD,Single-ply,Masters I (40-49),Delaware,277.5,-300,-300,277.5,182.5,192.5,-197.5,192.5,,245,-272.5,272.5,272.5,742.5,2
-Jim Sullivan,100,M,SBD,Single-ply,Masters I (40-49),Arizona,-265,275,-285,275,175,180,-185,180,,,,,,455,3
+Mike DelSignore,100,M,SBD,Single-ply,Masters I (40-49),Delaware,277.5,-300,-300,277.5,182.5,192.5,-197.5,192.5,,245,-272.5,272.5,272.5,742.5,2
+Jim Sullivan,100,M,SBD,Single-ply,Masters I (40-49),Arizona,-265,275,-285,275,175,180,-185,180,,,,,,,DQ
 Stan Chatis,100,M,SBD,Single-ply,Masters III (60-69),New York,165,182.5,187.5,187.5,120,130,-137.5,130,,192.5,207.5,217.5,217.5,535,1
 Jermaine Smith,110,M,SBD,Single-ply,Teen III (18-19),Pennsylvania,-170,175,195,195,-92.5,102.5,110,110,,190,207.5,-227.5,207.5,512.5,1
 Thomas McClafferty,110,M,SBD,Single-ply,Teen II (16-17),Pennsylvania,147.5,160.5,162.5,162.5,102.5,110,-117.5,110,,165,182.5,-190,182.5,455,1
@@ -110,7 +110,7 @@ Ray Ebner,110,M,SBD,Single-ply,Open,Pennsylvania,300,312.5,-320,312.5,195,205,-2
 Mike Shirey,110,M,SBD,Single-ply,Open,Pennsylvania,240,275,295,295,150,165,182.5,182.5,,240,275,287.5,287.5,765,2
 Tom Skelly,110,M,SBD,Single-ply,Open,Pennsylvania,270,-290,290,290,180,192.5,-205,192.5,,265,272.5,-275,272.5,755,3
 Frank Peters,110,M,SBD,Single-ply,Open,Pennsylvania,180,192.5,200,200,182.5,192.5,-205,192.5,,225,-255,-260,225,617.5,4
-William Morris,110,M,SBD,Single-ply,Masters II (60-64)),Virginia,60,,,,170,175,182.5,,183,60,,,,302.5,1
+William Morris,110,M,SBD,Single-ply,Masters II (60-64)),Virginia,60,,,60,170,175,182.5,182.5,183,60,,,60,302.5,1
 Mark Bowen,110,M,SBD,Single-ply,Masters I (40-49),Pennsylvania,-232.5,-232.5,232.5,232.5,130,140,142.5,142.5,,227.5,-237.5,,227.5,602.5,1
 Steve Schmidt,110,M,SBD,Single-ply,Masters I (40-49),Pennsylvania,,,,,,,,,,,,,,,DQ
 Josh Pierce,110,M,SBD,Single-ply,Junior (20-23),New York,-207.5,207.5,-227.5,207.5,-162.5,162.5,-172.5,162.5,,247.5,257.5,265,265,635,1
@@ -130,7 +130,7 @@ Jim Compton,125,M,SBD,Single-ply,Junior (20-23),West Virginia,265,280,290,290,19
 David Spears,125,M,SBD,Single-ply,Collegiate,Pennsylvania,225,-245,245,245,127.5,145,152.5,152.5,,210,225,237.5,237.5,635,1
 Saul Michelson,125,M,SBD,Single-ply,Masters I (40-49),Massachusetts,205,230,245,245,142.5,152.5,160,160,,215,240,-252.5,240,645,1
 Randall Olinger,125,M,SBD,Single-ply,Masters I (40-49),Pennsylvania,,,,,,,,,,,,,,,DQ
-E.C. Stumpf,125+,M,SBD,Single-ply,Open,New York,-300,300,320,320,240,247.5,255,255,,292.5,320,-332.5,320,895,1
+EC Stumpf,125+,M,SBD,Single-ply,Open,New York,-300,300,320,320,240,247.5,255,255,,292.5,320,-332.5,320,895,1
 Jeff Fiss,125+,M,SBD,Single-ply,Open,Pennsylvania,295,325,332.5,332.5,-235,235,240,240,,240,262.5,272.5,272.5,845,2
 Mike D'Amore,125+,M,SBD,Single-ply,Open,Pennsylvania,265,-282.5,282.5,282.5,182.5,192.5,205,205,,242.5,257.5,-277.5,257.5,745,3
 Tony Forella,125+,M,SBD,Single-ply,Open,Pennsylvania,230,240,255,255,147.5,155,-160,155,,215,230,237.5,237.5,647.5,4
@@ -159,10 +159,10 @@ Jen Johnston,75,F,SBD,Single-ply,Open,Pennsylvania,-52.5,52.5,57.5,57.5,42.5,50,
 Rebekah Lair,75,F,SBD,Single-ply,P/F/M,Maryland,-117.5,-117.5,117.5,117.5,-70,-70,75,75,,117.5,127.5,137.5,137.5,330,1
 Lyssa Chappelle,75,F,SBD,Single-ply,Teen II (16-17),Pennsylvania,72.5,77.5,-85,77.5,35,40,42.5,42.5,,90,95,107.5,107.5,227.5,1
 Teri Smith,75,F,SBD,Single-ply,Masters I (40-49),Pennsylvania,47.5,52.5,55,55,60,62.5,-65,62.5,,70,80,87.5,87.5,205,2
-Margaret Mclean,75,F,SBD,Single-ply,Open,Maryland,-115,-115,115,115,60,72.5,-82.5,72.5,,150,165,175,175,362.5,1
-Margaret Mclean,75,F,SBD,Single-ply,Masters I (40-49),Maryland,-115,-115,115,115,60,72.5,-82.5,72.5,,150,165,175,175,362.5,1
+Margaret McLean,75,F,SBD,Single-ply,Open,Maryland,-115,-115,115,115,60,72.5,-82.5,72.5,,150,165,175,175,362.5,1
+Margaret McLean,75,F,SBD,Single-ply,Masters I (40-49),Maryland,-115,-115,115,115,60,72.5,-82.5,72.5,,150,165,175,175,362.5,1
 Liane Blyn,75,F,SBD,Single-ply,Guest Lifter,Arizona,-180,180,-190,180,-110,110,120,120,,187.5,202.5,-207.5,202.5,502.5,G
-Pauline Keo,90,F,SBD,Single-ply,Teen I (14-15),Pennsylvania,85,92.5,95,95,-32.5,35,-40,35,,102.5,115,127.5,127.5,162.5,1
+Pauline Keo,90,F,SBD,Single-ply,Teen I (14-15),Pennsylvania,85,92.5,95,95,-32.5,35,-40,35,,102.5,115,127.5,127.5,257.5,1
 Liz Hannegan,90+,F,SBD,Single-ply,Teen II (16-17),Pennsylvania,-67.5,67.5,72.5,72.5,47.5,52.5,-55,52.5,,102.5,110,117.5,117.5,242.5,1
 Rachael Wilcox,90+,F,SBD,Single-ply,Teen II (16-17),Pennsylvania,-110,-110,-110,,57.5,62.5,67.5,67.5,,132.5,142.5,147.5,147.5,215,2
 Marvin Coleman,90,M,B,Single-ply,Open,Michigan,,,,,-245,-245,245,245,,,,,,245,1
