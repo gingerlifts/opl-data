@@ -1,12 +1,16 @@
 [divisions]
     open = {name ="Open",min=0,max=999}
     disabled = {name ="Disabled",min=0,max=999}
+    student = {name ="Student",min=0,max=999}
     juniors = {name = "Juniors",min=0,max=22.5}
     subjuniors = {name = "Sub-Juniors",min=0,max=17.5}
     masters1 = {name = "Masters 1",min=39.5,max=999}
     masters2 = {name = "Masters 2",min=49.5,max=999}
     masters3 = {name = "Masters 3",min=59.5,max=999}
     masters4 = {name = "Masters 4",min=69.5,max=999}
+    teen1214 = {name = "Teen 12-14",min=12,max=14}
+    teen1516 = {name = "Teen 15-16",min=15,max=16}
+    teen1718 = {name = "Teen 17-18",min=17,max=18}
 
 [weightclasses.default_M]
     classes = ["59","66","74","83","93","105","120","120+"]
@@ -49,7 +53,7 @@
 
 [weightclasses.oldsubjunior_M]
     classes = ["44","48","52","56","60","67.5","75","82.5","90","100","100+"]
-    date_range = ["0000-01-01","2010-12-31"]
+    date_range = ["0000-01-01","2003-12-31"]
     sex = "M"
     divisions = ["Sub-Juniors"]
 
@@ -60,7 +64,7 @@
 
 [weightclasses.oldsubjunior_F]
     classes = ["36","40","44","48","52","56","60","67.5","75","75+"]
-    date_range = ["0000-01-01","2010-12-31"]
+    date_range = ["0000-01-01","2003-12-31"]
     sex = "F"
     divisions = ["Sub-Juniors"]
 
@@ -74,3 +78,6 @@
     9305 = ["check_row_weightclass_sex","check_row_weightclass_consistency"]
     9205 = ["check_row_weightclass_sex","check_row_weightclass_consistency"]
     0204 = ["check_row_weightclass_sex","check_row_weightclass_consistency"]
+    0303 = ["check_row_weightclass_sex","check_row_weightclass_consistency"]
+    1001 = ["check_row_weightclass_sex","check_row_weightclass_consistency"]
+    1102 = ["check_row_weightclass_sex","check_row_weightclass_consistency"]
