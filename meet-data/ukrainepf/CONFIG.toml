@@ -26,13 +26,26 @@
     classes = ["53","59","66","74","83","93","105","120","120+"]
     date_range=["2011-01-01","9999-01-01"]
     sex = "M"
-    divisions = ["Juniors","Sub-Juniors"]
+    divisions = ["Juniors"]
+
+[weightclasses.subjunior_M]
+    classes = ["43","46","49","53","59","66","74","83","93","105","120","120+"]
+    date_range=["2011-01-01","9999-01-01"]
+    sex = "M"
+    divisions = ["Sub-Juniors","Teen 12-14","Teen 15-16","Teen 17-18"]
+
 
 [weightclasses.junior_F]
     classes = ["43","47","52","57","63","72","84","84+"]
     date_range=["2011-01-01","9999-01-01"]
     sex = "F"
-    divisions = ["Juniors","Sub-Juniors"]
+    divisions = ["Juniors"]
+
+[weightclasses.subjunior_F]
+    classes = ["40","43","47","52","57","63","72","84","84+"]
+    date_range=["2011-01-01","9999-01-01"]
+    sex = "F"
+    divisions = ["Sub-Juniors","Teen 12-14","Teen 15-16","Teen 17-18"]
 
 [weightclasses.old_M]
     classes = ["52","56","60","67.5","75","82.5","90","100","110","125","125+"]
@@ -81,3 +94,4 @@
     0303 = ["check_row_weightclass_sex","check_row_weightclass_consistency"]
     1001 = ["check_row_weightclass_sex","check_row_weightclass_consistency"]
     1102 = ["check_row_weightclass_sex","check_row_weightclass_consistency"]
+    1207 = ["check_row_weightclass_sex","check_row_weightclass_consistency"]
