@@ -1,7 +1,7 @@
 Place,Name,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,WeightClassKg,Sex,CyrillicName,BirthYear,Event,Equipment,Division
 1,Yelizaveta Ryzhak,46.85,120,130,135,135,85,-92.5,-92.5,85,125,130,135,135,355,47,F,Єлізавета Рижак,1990,SBD,Single-ply,Student
 2,Iryna Kurilova,46.8,-80,85,92.5,92.5,35,42.5,47.5,47.5,75,92.5,-115,92.5,232.5,47,F,Ірина Курілова,1991,SBD,Single-ply,Student
-1,Maryana Vanєkevich,48.05,75,85,-90,85,37.5,42.5,-45,42.5,75,90,100,100,227.5,52,F,Мар'яна Ванькевич,1991,SBD,Single-ply,Student
+1,Maryana Vanekevich,48.05,75,85,-90,85,37.5,42.5,-45,42.5,75,90,100,100,227.5,52,F,Мар'яна Ванькевич,1991,SBD,Single-ply,Student
 1,Varvara Khrystova,56.9,165,175,182.5,182.5,77.5,85,-90,85,150,162.5,170,170,437.5,57,F,Варвара Христова,1990,SBD,Single-ply,Student
 1,Vira Boboshko,62.65,150,-160,160,160,90,95,-100,95,150,160,-165,160,415,63,F,Віра Бобошко,1993,SBD,Single-ply,Student
 1,Ulyana Lyutnyk,66.8,180,200,-210,200,105,115,-125,115,170,180,185,185,500,72,F,Уляна Лютник,1984,SBD,Single-ply,Student
