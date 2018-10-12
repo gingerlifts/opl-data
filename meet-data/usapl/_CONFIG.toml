@@ -1,9 +1,13 @@
 [divisions]
     #USAPL Divisions
-    RO = {name ="R-O",min=0,max=999}
+    RO = {name ="R-O",min=14,max=999}
+    RG = {name ="R-G",min=0,max=999}
+    RPF = {name ="R-PF",min=14,max=999}
+    RSO = {name ="R-SO",min=0,max=999}
+    RMil = {name ="R-Mil",min=0,max=999}
     RHS = {name ="R-HS",min=13,max=19}
     RC = {name ="R-C",min=0,max=999}
-    RJR = {name = "R-JR",min=0,max=23}
+    RJR = {name = "R-JR",min=20,max=23}
     RY = {name = "R-Y",min=8,max=13}
     RY1 = {name = "R-Y1",min=8,max=9}
     RY2 = {name = "R-Y2",min=10,max=11}
@@ -20,10 +24,23 @@
     RM3B = {name = "R-M3b",min=64.5,max=68.5}
     RM4A = {name = "R-M4a",min=69.5,max=73.5}
     RM4B = {name = "R-M4b",min=74.5,max=78.5}
-    O = {name ="O",min=0,max=999}
+    
+    #Not sure what to do with this one...
+    RM = {name = "R-M",min=39.5,max=999}
+
+    RLW = {name = "R-LW",min=0,max=999}
+    RHW = {name = "R-HW",min=0,max=999}
+
+
+
+    O = {name ="O",min=14,max=999}
+    G = {name ="G",min=0,max=999}
+    PF = {name ="PF",min=14,max=999}
+    SO = {name ="SO",min=0,max=999}
+    Mil = {name ="Mil",min=0,max=999}
     C = {name ="C",min=0,max=999}
-    HS = {name ="R-HS",min=13,max=19}
-    JR = {name = "JR",min=0,max=23}
+    HS = {name ="HS",min=13,max=19}
+    JR = {name = "JR",min=20,max=23}
     Y = {name = "Y",min=8,max=13}
     Y1 = {name = "Y1",min=8,max=9}
     Y2 = {name = "Y2",min=10,max=11}
@@ -41,15 +58,24 @@
     M4A = {name = "M4a",min=69.5,max=73.5}
     M4B = {name = "M4b",min=74.5,max=78.5}
 
+    M = {name = "M",min=39.5,max=999}
+
+    LW = {name = "LW",min=0,max=999}
+    HW = {name = "HW",min=0,max=999}
+
     #IPF Divisons
     RM1 = {name = "R-M1",min=39.5,max=48.5}
     RM2 = {name = "R-M2",min=49.5,max=58.5}
     RM3 = {name = "R-M3",min=59.5,max=68.5}
     RM4 = {name = "R-M4",min=69.5,max=999}
+    RM5 = {name = "R-M5",min=79.5,max=999}
+
+    RSJr = {name = "R-SJr",min=14,max=17.5}
     M1 = {name = "M1",min=39.5,max=48.5}
     M2 = {name = "M2",min=49.5,max=58.5}
     M3 = {name = "M3",min=59.5,max=68.5}
     M4 = {name = "M4",min=69.5,max=999}
+    SJr = {name = "SJr",min=14,max=17.5}
 
 [weightclasses.default_M]
     classes = ["59","66","74","83","93","105","120","120+"]
