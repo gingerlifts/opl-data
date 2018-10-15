@@ -1,0 +1,8 @@
+Name,Age,Sex,Division,Equipment,BodyweightLb,WeightClassLb,Squat1Lb,Squat2Lb,Squat3Lb,Best3SquatLb,Bench1Lb,Bench2Lb,Bench3Lb,Best3BenchLb,Deadlift1Lb,Deadlift2Lb,Deadlift3Lb,Best3DeadliftLb,TotalLb,Event,Place
+Lia Sulkin,41,F,F Raw Master,Wraps,113.8,114,185,-200,-205,185,120,130,-140,130,195,205,-220,205,520,SBD,1
+William Carlough,51,M,M Master,Multi-ply,178,181,-525,535,-560,535,415,-425,,415,445,470,,470,1420,SBD,1
+Alexander Ersing,25,M,M Raw Open,Wraps,159,165,,,,,-225,250,280,280,,,,,280,B,1
+Tony Winarski,25,M,M Raw Open,Wraps,178.2,181,,,,,245,275,-310,275,405,440,460,460,735,BD,1
+Jim Caiafa,37,M,M Raw Open,Wraps,220,220,375,415,440,440,315,335,-355,335,485,525,-550,525,1300,SBD,1
+Jim Caiafa,37,M,M Raw Submaster,Wraps,220,220,375,415,440,440,315,335,-355,335,485,525,-550,525,1300,SBD,1
+Bryson Peterson,9,M,M Raw Youth,Raw,75,86,,,,,45,50,-60,50,,,,,50,B,1
