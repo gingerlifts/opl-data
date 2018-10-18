@@ -1,5 +1,4 @@
-{
-	"units": {
+{"units": {
 		"lbs": "фт",
 		"kg": "кг"
 	},
@@ -285,6 +284,7 @@
 			"all_germany": "All German Feds",
 			"all_ireland": "All Irish Feds",
 			"all_israel": "All Israeli Feds",
+			"all_latvia": "All Latvian Lifters",
 			"all_newzealand": "All New Zealand Feds",
 			"all_russia": "All Russian Feds",
 			"all_uk": "All United Kingdom Feds",
