@@ -132,7 +132,7 @@ impl MetaFederation {
                     || (entry.lifter_country == None
                         && meet.federation.home_country() == Some(Country::Israel))
             }
-            MetaFederation::AllLatvia => {
+          MetaFederation::AllLatvia => {
                 entry.lifter_country == Some(Country::Latvia)
                     || (entry.lifter_country == None
                         && meet.federation.home_country() == Some(Country::Latvia))

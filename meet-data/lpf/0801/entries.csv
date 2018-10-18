@@ -12,7 +12,7 @@ WeightClassKg,Place,Name,BirthYear,BodyweightKg,Team,Best3BenchKg,TotalKg,Divisi
 67.5,5,Aleksandrs Zukovs,1992,66.5,Rezekne,85,85,Sub-Juniors,M,B,Single-ply
 75,1,Sergejs Ivaņušins,1990,74.5,Aizkraukles sporta centrs,157.5,157.5,Sub-Juniors,M,B,Single-ply
 75,2,Aigars Jaņēvičs,1991,74,Rezekne,125,125,Sub-Juniors,M,B,Single-ply
-75,3,Andris Džeriņš,1992,71,Bunka,115,115,Sub-Juniors,M,B,Single-ply
+75,3,Andris Dzerins,1992,71,Bunka,115,115,Sub-Juniors,M,B,Single-ply
 75,4,Karens Mhitorjans,1991,74.5,Atlanti,110,110,Sub-Juniors,M,B,Single-ply
 75,5,Kristaps Zakis,1992,73,Bauska,95,95,Sub-Juniors,M,B,Single-ply
 75,6,Artems Ignatenko,1991,71,Jekabpils SC,92.5,92.5,Sub-Juniors,M,B,Single-ply
@@ -40,7 +40,7 @@ WeightClassKg,Place,Name,BirthYear,BodyweightKg,Team,Best3BenchKg,TotalKg,Divisi
 75,3,Maksims Panarads,1985,71.8,Atlanti,135,135,Juniors,M,B,Single-ply
 75,4,Arturs Mlecko,1989,72.2,Atlanti,125,125,Juniors,M,B,Single-ply
 75,5,Vladislavs Minginovics,1986,70.5,Extrim,115,115,Juniors,M,B,Single-ply
-75,6,Mārtiņš Šarpņicks,1989,71.8,Liepaja,115,115,Juniors,M,B,Single-ply
+75,6,Martins Sarpnicks,1989,71.8,Liepaja,115,115,Juniors,M,B,Single-ply
 75,7,Andrejs Holavskis,1987,73.7,Vikings,77.5,77.5,Juniors,M,B,Single-ply
 82.5,1,Janis Stelmahs,1988,75.55,Speka pasaule,195,195,Juniors,M,B,Single-ply
 82.5,2,Edgars Ratnieks,1987,82,Rezekne,170,170,Juniors,M,B,Single-ply
@@ -54,19 +54,19 @@ WeightClassKg,Place,Name,BirthYear,BodyweightKg,Team,Best3BenchKg,TotalKg,Divisi
 90,3,Dairis Andersons,1986,82.9,Sigulda,145,145,Juniors,M,B,Single-ply
 90,4,Iļja Hacko,1988,88.1,Brivais,145,145,Juniors,M,B,Single-ply
 90,5,Martins Marcinkevics,1985,88.6,Talsu rajons,130,130,Juniors,M,B,Single-ply
-90,6,Kristaps Somošs,1989,84.1,Dobeles Atlets,125,125,Juniors,M,B,Single-ply
+90,6,Kristaps Somoss,1989,84.1,Dobeles Atlets,125,125,Juniors,M,B,Single-ply
 90,7,Artis Apinis,1989,85.8,Dobeles Atlets,120,120,Juniors,M,B,Single-ply
 100,1,Ģirts Gūtmanis,1987,94.1,Bunka,185,185,Juniors,M,B,Single-ply
-100,2,Viktors Žoglo,1986,97.4,Extrim,167.5,167.5,Juniors,M,B,Single-ply
+100,2,Viktors Zoglo,1986,97.4,Extrim,167.5,167.5,Juniors,M,B,Single-ply
 100,3,Harijs Petrauskis,1989,98.2,Apolons,165,165,Juniors,M,B,Single-ply
 100,4,Zigmaars Zutis,1985,98.2,Sigulda,145,145,Juniors,M,B,Single-ply
-110,1,Mārtiņš Apškalns,1985,105.3,Speka pasaule,260,260,Juniors,M,B,Single-ply
+110,1,Martins Apškalns,1985,105.3,Speka pasaule,260,260,Juniors,M,B,Single-ply
 110,2,Matiss Peca,1988,103.5,Speka pasaule,220,220,Juniors,M,B,Single-ply
 110,3,Sergejs Hromisins,1986,100.8,Sigulda,145,145,Juniors,M,B,Single-ply
 110,4,Janis Sturis,1986,105.5,Brivais,145,145,Juniors,M,B,Single-ply
 125,1,Edgars Spila,1986,123.8,Brivais,230,230,Juniors,M,B,Single-ply
-125,2,Didzis Mežjānis,1986,111,Extrim,225,225,Juniors,M,B,Single-ply
-125,3,Magnus Vucāns,1986,110.7,Brivais,155,155,Juniors,M,B,Single-ply
+125,2,Didzis Mezjanis,1986,111,Extrim,225,225,Juniors,M,B,Single-ply
+125,3,Magnus Vucans,1986,110.7,Brivais,155,155,Juniors,M,B,Single-ply
 52,1,Mihails Šabarovs,1979,46.9,Aizkraukles sporta centrs,60,60,Open,M,B,Single-ply
 67.5,1,Zigmars Dukurs,1985,67,Speka pasaule,125,125,Open,M,B,Single-ply
 75,1,Ugis Smirnovs,1984,74.5,Speka pasaule,190,190,Open,M,B,Single-ply
@@ -96,7 +96,7 @@ WeightClassKg,Place,Name,BirthYear,BodyweightKg,Team,Best3BenchKg,TotalKg,Divisi
 110,5,Vasilijs Petrovs,1984,103,Brivais,187.5,187.5,Open,M,B,Single-ply
 110,6,Aleksejs Agadzanjans,1975,105.3,Vikings,182.5,182.5,Open,M,B,Single-ply
 125,1,Vitalijs Dubovs,1978,113.6,Extrim,220,220,Open,M,B,Single-ply
-125,2,Konstantīn Konstantīnovs,1978,117.5,Liepaja,210,210,Open,M,B,Raw
+125,2,Konstantīn Konstantīnovs,1978,117.5,Liepaja,210,210,Open,M,B,Single-ply
 125,3,Janis Klamers,1973,111.4,Apolons,202.5,202.5,Open,M,B,Single-ply
 125,4,Edmunds Argals,1984,115.1,Extrim,200,200,Open,M,B,Single-ply
 125,5,Ivars Cīrulis,1979,111.5,Dobeles Atlets,100,100,Open,M,B,Single-ply
@@ -105,10 +105,10 @@ WeightClassKg,Place,Name,BirthYear,BodyweightKg,Team,Best3BenchKg,TotalKg,Divisi
 75,1,Juris Červids,1962,73.8,Bauska,145,145,Masters 1,M,B,Single-ply
 75,2,Aleksandrs Radzēvičš,1963,74.5,Apolons,142.5,142.5,Masters 1,M,B,Single-ply
 75,3,Aivars Cibiņš,1963,72.8,Aizkraukles sporta centrs,100,100,Masters 1,M,B,Single-ply
-82.5,1,Andris Grēbers,1964,82,Vainode,190,190,Masters 1,M,B,Single-ply
+82.5,1,Andris Grebers,1964,82,Vainode,190,190,Masters 1,M,B,Single-ply
 82.5,2,Aleksandrs Miglāns,1963,82.3,Jekabpils SC,190,190,Masters 1,M,B,Single-ply
-90,1,Oļegs Illarionovs,1965,89.8,Apolons,165,165,Masters 1,M,B,Single-ply
-90,2,Dainis Zaķis,1961,87.5,Bauska,142.5,142.5,Masters 1,M,B,Single-ply
+90,1,Olegs Illarionovs,1965,89.8,Apolons,165,165,Masters 1,M,B,Single-ply
+90,2,Dainis Zakis,1961,87.5,Bauska,142.5,142.5,Masters 1,M,B,Single-ply
 100,1,Grigorijs Melkumjans,1967,98.7,Apolons,205,205,Masters 1,M,B,Single-ply
 100,2,Andrejs Katins,1963,91.3,Jekabpils SC,177.5,177.5,Masters 1,M,B,Single-ply
 100,3,Vilnis Draguns,1968,92.4,Talsu rajons,142.5,142.5,Masters 1,M,B,Single-ply
@@ -120,14 +120,14 @@ WeightClassKg,Place,Name,BirthYear,BodyweightKg,Team,Best3BenchKg,TotalKg,Divisi
 52,1,Jevgēņijs Vorobjovs,1953,52,Aizkraukles sporta centrs,60,60,Masters 2,M,B,Single-ply
 67.5,1,Jānis Šteinbergs,1958,67.3,Speka pasaule,135,135,Masters 2,M,B,Single-ply
 75,1,Janis Lasmanis,1955,73,Apolons,115,115,Masters 2,M,B,Single-ply
-90,1,Alfrēds Graudiņš,1956,83,Bauska,135,135,Masters 2,M,B,Single-ply
-110,1,Jānis Babris,1952,107.7,Bauska,165,165,Masters 2,M,B,Single-ply
+90,1,Alfreds Graudins,1956,83,Bauska,135,135,Masters 2,M,B,Single-ply
+110,1,Janis Babris,1952,107.7,Bauska,165,165,Masters 2,M,B,Single-ply
 125,1,Dainis Reinholds,1951,120,Aizkraukles sporta centrs,240,240,Masters 2,M,B,Single-ply
-125+,1,Māris Gūtmanis,1951,125.6,Bunka,140,140,Masters 2,M,B,Single-ply
+125+,1,Maris Gutmanis,1951,125.6,Bunka,140,140,Masters 2,M,B,Single-ply
 75,1,Jānis Pauļuks,1946,70,Jekabpils SC,140,140,Masters 3,M,B,Single-ply
 75,DQ,Anatolijs Kuzmins,1941,74.4,Aizkraukles sporta centrs,,,Masters 3,M,B,Single-ply
-82.5,1,Valērijs Petrovs,1946,82.2,Daugavpils,155,155,Masters 3,M,B,Single-ply
-82.5,2,Andris Šulcs,1943,80.4,Liepaja,120,120,Masters 3,M,B,Single-ply
+82.5,1,Valerijs Petrovs,1946,82.2,Daugavpils,155,155,Masters 3,M,B,Single-ply
+82.5,2,Andris Sulcs,1943,80.4,Liepaja,120,120,Masters 3,M,B,Single-ply
 82.5,3,Jurijs Lavrovs,1938,80.5,Aizkraukles sporta centrs,77.5,77.5,Masters 3,M,B,Single-ply
 90,1,Georgijs Agadzanans,1946,84.2,Vikings,130,130,Masters 3,M,B,Single-ply
 100,1,Aleksandrs Smelovs,1947,95.8,Apolons,175,175,Masters 3,M,B,Single-ply
