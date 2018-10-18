@@ -1,6 +1,6 @@
 Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Squat4Kg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Bench4Kg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,WeightClassKg,Sex,BirthYear,Equipment,Event
 1,Jayne Thomas Lesley,O,UK,54.5,170,190,200,200,210.5,72.5,77.5,80,80,,155.5,165.5,170,170,,450,56,F,1966,Multi-ply,SBD
-DQ,Andrea Zurcher,O,Switzerland,53.4,-200,210.5,210.5,210.5,,,,,,,,,,,,,56,F,1978,Multi-ply,SBD
+DQ,Andrea Zurcher,O,Switzerland,53.4,-200,-210.5,210.5,210.5,,,,,,,,,,,,,56,F,1978,Multi-ply,SBD
 1,Ingrid Geerinck,M1,Belgium,55.7,85,90,100,100,,40,-45,45,45,,87.5,92.5,-95,92.5,,237.5,56,F,1960,Multi-ply,SBD
 1,Sheila Rouse,M4,USA,55.9,60,85,100.5,100.5,,37.5,50,50.5,50.5,,87.5,102.5,105,105,,256,56,F,1946,Multi-ply,SBD
 1,Louise Hellal Marie,O,France,58.9,140,150,160,160,,80,85,87.5,87.5,,160,170,177.5,177.5,,425,60,F,1969,Multi-ply,SBD
@@ -25,7 +25,7 @@ DQ,Andrea Zurcher,O,Switzerland,53.4,-200,210.5,210.5,210.5,,,,,,,,,,,,,56,F,197
 2,Christoph Reinhardt,J,Germany,67.4,115,140,155,155,,110,-120,120,120,,120,150,-175,150,,425,67.5,M,1983,Multi-ply,SBD
 1,Erik Bačinský,O,Slovakia,66.7,200,210,-220,210,,135,145,-147.5,145,,220,230,-235,230,,585,67.5,M,1978,Multi-ply,SBD
 2,David Hecre,O,France,66.5,185,-192.5,-192.5,185,,120,-125,,120,,200,207.5,-212.5,207.5,,512.5,67.5,M,1971,Multi-ply,SBD
-3,Salverio Manuardi,O,Italy,67,-170,-470,170,170,,90,97.5,-102.5,97.5,,190,-205,210,210,,477.5,67.5,M,1977,Multi-ply,SBD
+3,Salverio Manuardi,O,Italy,67,-170,-170,170,170,,90,97.5,-102.5,97.5,,190,-205,210,210,,477.5,67.5,M,1977,Multi-ply,SBD
 1,Gerard McNamara,M1,Ireland,67.1,270,290,310,310,,-160,160,170,170,,240,250,-260,250,,730,67.5,M,1963,Multi-ply,SBD
 1,Alois Fasolin,M5,Germany,67.5,120,130,-135,130,,90,95,-100.5,95,,125,130,,130,,355,67.5,M,1939,Multi-ply,SBD
 1,Daniel Tatarka,J,Slovakia,74.4,220,235,-240,235,,125,-132.5,-132.5,125,,-220,220,-235,220,,580,75,M,1983,Multi-ply,SBD
@@ -61,7 +61,7 @@ DQ,Erich Traxler,M1,Austria,80.6,200,220,,220,,-130,-130,-140,,,,,,,,,82.5,M,196
 1,Christopher Jenkins,J,UK,89.7,-290,300,305,305,,-175,175,-182.5,175,,300,-322.5,-322.5,300,,780,90,M,1980,Multi-ply,SBD
 2,Azer Rasulov,J,Azerbaijan,87.3,240,255,-265,255,,140,155,,155,,220,235,-242.5,235,,645,90,M,1982,Multi-ply,SBD
 3,Damien Lecompte,J,Belgium,86.4,130,150,162.5,162.5,,120,125,130,130,,-170,185,200,200,,492.5,90,M,1980,Multi-ply,SBD
-1,Savran Özkan,O,Germany,88.7,305,325,335,335,,182.5,180,187.5,187.5,,290,-305,-305,290,,812.5,90,M,1973,Multi-ply,SBD
+1,Savran Özkan,O,Germany,88.7,305,325,335,335,,180,182.5,187.5,187.5,,290,-305,-305,290,,812.5,90,M,1973,Multi-ply,SBD
 2,Paul Newell,O,UK,88.2,300,317.5,325,325,,145,152.5,157.5,157.5,,250,262.5,-270,262.5,,745,90,M,1977,Multi-ply,SBD
 3,Thomas Ziegler,O,Germany,89.9,250,-270,270,270,,160,-170,-170,160,,-265,265,-275,265,,695,90,M,1967,Multi-ply,SBD
 4,Helmut Kraus,O,Germany,89.6,230,240,255,255,,182.5,-190,-190,182.5,,200,,,200,,637.5,90,M,1971,Multi-ply,SBD
