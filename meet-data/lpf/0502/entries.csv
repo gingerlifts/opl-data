@@ -49,7 +49,7 @@ WeightClassKg,Place,Sex,Division,Name,BirthYear,BodyweightKg,Team,Best3BenchKg,T
 100,2,M,Juniors,Edgars Spila,1986,92.3,Tukums,145,145,B,Single-ply
 100,3,M,Juniors,Andis Rudzitis,1984,98,Tukums,127.5,127.5,B,Single-ply
 100,DQ,M,Juniors,Kaspars Ločmelis,1985,99,,,,B,Single-ply
-110,1,M,Juniors,Martins Apškalns,1985,103.5,Kuldiga,240,240,B,Single-ply
+110,1,M,Juniors,Mārtiņš Apškalns,1985,103.5,Kuldiga,240,240,B,Single-ply
 52,1,M,Open,Aigars Višņevskis,1967,44.5,Apolons,105,105,B,Single-ply
 52,2,M,Open,Mihails Šabarovs,1979,46,Aizkraukles sporta centrs,80,80,B,Single-ply
 56,1,M,Open,Andris Rūdulis,1977,53.3,Tukums,140,140,B,Single-ply
@@ -88,7 +88,7 @@ WeightClassKg,Place,Sex,Division,Name,BirthYear,BodyweightKg,Team,Best3BenchKg,T
 75,1,M,Masters,Jānis Pauļuks,1946,,Jekabpils,137.5,137.5,B,Single-ply
 75,2,M,Masters,Juris Červids,1962,74,Bauska,127.5,127.5,B,Single-ply
 82.5,1,M,Masters,Aleksandrs Miglāns,1963,79.3,Jekabpils,175,175,B,Single-ply
-82.5,2,M,Masters,Andris Sulcs,1943,79.7,Lejaskurzemes sports,125,125,B,Single-ply
+82.5,2,M,Masters,Andris Šulcs,1943,79.7,Lejaskurzemes sports,125,125,B,Single-ply
 82.5,3,M,Masters,Aleksandrs Klockins,1960,78.5,Ventspils,107.5,107.5,B,Single-ply
 82.5,4,M,Masters,Imants Šulte,1944,76.9,Ventspils,105,105,B,Single-ply
 90,1,M,Masters,Genädijs Zubriks,1965,87,Apolons,220,220,B,Single-ply
@@ -105,5 +105,5 @@ WeightClassKg,Place,Sex,Division,Name,BirthYear,BodyweightKg,Team,Best3BenchKg,T
 110,3,M,Masters,Normunds Tanons,1957,105.5,Lejaskurzemes sports,175,175,B,Single-ply
 125,1,M,Masters,Dainis Reinholds,1951,113.5,Aizkraukles sporta centrs,215,215,B,Single-ply
 125,2,M,Masters,Aivars Gailitis,1963,112.8,Bauska,180,180,B,Single-ply
-125,3,M,Masters,Janis Babris,1952,113.8,Bauska,172.5,172.5,B,Single-ply
+125,3,M,Masters,Jānis Babris,1952,113.8,Bauska,172.5,172.5,B,Single-ply
 125+,1,M,Masters,Valdis Alksnītis,1940,128.2,Jekabpils,202.5,202.5,B,Single-ply

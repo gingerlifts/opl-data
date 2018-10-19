@@ -123,6 +123,7 @@
   <option value="all-czechia" {% if selection.federation == "AllCzechia" %}selected{% endif %}>{{strings.selectors.fed.all_czechia}}</option>
   <option value="cast" {% if selection.federation == "CAST" %}selected{% endif %}>CAST - Česká Asociace Silového Trojboje [GPC/WPC]</option>
   <option value="csst" {% if selection.federation == "CSST" %}selected{% endif %}>CSST - Český Svaz Silového Trojboje [IPF]</option>
+  <option value="fcst" {% if selection.federation == "FCST" %}selected{% endif %}>FCST - Federace českého silového trojboje [GPC]</option>
   <option value="olomouckysilak" {% if selection.federation == "OlomouckySilak" %}selected{% endif %}>OlomouckySilak - Olomoucký Silák </option>
 </optgroup>
 <optgroup label="{{strings.country.denmark}}">
@@ -167,10 +168,7 @@
   <option value="kpf" {% if selection.federation == "KPF" %}selected{% endif %}>KPF - Kazakhstan Powerlifting Federation [IPF]</option>
 </optgroup>
 <optgroup label="{{strings.country.latvia}}">
-  <option value="all-latvia" {% if selection.federation == "AllLatvia" %}selected{% endif %}>{{strings.selectors.fed.all_latvia}}</option>
-  <option value="gpc-latvia" {% if selection.federation == "GPC-Latvia" %}selected{% endif %}>GPC-Latvia - GPC Latvia [GPC]</option>
   <option value="lpf" {% if selection.federation == "LPF" %}selected{% endif %}>LPF - Latvijas Pauerliftinga Federācija [IPF]</option>
-  <option value="wpc-latvia" {% if selection.federation == "WPC-Latvia" %}selected{% endif %}>WPC-Latvia - WPC Latvia [WPC]</option>
 </optgroup>
 <optgroup label="{{strings.country.malaysia}}">
   <option value="mpa" {% if selection.federation == "MPA" %}selected{% endif %}>MPA - Malaysian Powerlifting Alliance [GPA]</option>
