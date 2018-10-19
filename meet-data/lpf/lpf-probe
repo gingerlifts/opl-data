@@ -42,17 +42,14 @@ def getmeetlist(html):
 
     urls = []
 
-    table = soup.find('tr', id='content')
-
     for a in soup.find_all('a'):
         url = a['href']
 
-        if any(int_str in url for int_str in ['world','euro']):
+        if any(int_str in url for int_str in ['world', 'euro']):
             continue
 
-        if not any(x in url for x in ['html','xls','doc','xlsx','docx']):
+        if not any(x in url for x in ['html', 'xls', 'doc', 'xlsx', 'docx']):
             continue
-
 
         if 'http://' not in url:
             url = BASEURL + url
@@ -61,6 +58,7 @@ def getmeetlist(html):
             urls.append(url)
 
     return urls
+
 
 def main():
     meetlist = []
