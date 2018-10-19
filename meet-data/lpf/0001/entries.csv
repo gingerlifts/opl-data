@@ -1,12 +1,12 @@
 WeightClassKg,Place,Name,BodyweightKg,BirthYear,Best3SquatKg,Best3BenchKg,Bench4Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Event,Equipment,Sex,Division
-52,1,Andris Rudulius,50.3,1977,180,150,,132.5,,462.5,SBD,Single-ply,M,Open
+52,1,Andris Rūdulis,50.3,1977,180,150,,132.5,,462.5,SBD,Single-ply,M,Open
 56,1,Jevgēņijs Vorobjovs,55.8,1953,150,90,,160,,400,SBD,Single-ply,M,Open
 56,2,Arturs Kejno,55.9,1979,135,80,,155,,370,SBD,Single-ply,M,Open
 60,1,Aleksandrs Radzēvičš,59.6,1963,245,168,,140,,553,SBD,Single-ply,M,Open
 60,2,Maris Staskevics,59.1,1982,135,90,,165,,390,SBD,Single-ply,M,Open
 60,3,Andrejs Cesils,59.4,1978,127.5,80,,175,,382.5,SBD,Single-ply,M,Open
 60,4,Alvis Ilenans,59.8,1983,130,70,,155,,355,SBD,Single-ply,M,Open
-67.5,1,Vadims Kadackis,66.5,1973,200,120,,240,,560,SBD,Single-ply,M,Open
+67.5,1,Vladims Kadzekis,66.5,1973,200,120,,240,,560,SBD,Single-ply,M,Open
 67.5,2,Osvaids Dzalbs,66,1981,190,117.5,,192.5,,500,SBD,Single-ply,M,Open
 67.5,3,Aleksandrs Ļebedevs,67.4,1978,182.5,97.5,,185,,465,SBD,Single-ply,M,Open
 67.5,4,Stanislavs Ratinskis,66.1,1981,170,95,,150,,415,SBD,Single-ply,M,Open
@@ -14,7 +14,7 @@ WeightClassKg,Place,Name,BodyweightKg,BirthYear,Best3SquatKg,Best3BenchKg,Bench4
 75,2,Aleksandrs Miglāns,74.7,1963,200,147.5,,220,,567.5,SBD,Single-ply,M,Open
 75,3,Oļegs Ivaņina,73.8,1980,140,100,,177.5,,417.5,SBD,Single-ply,M,Open
 75,4,Andrejs Bogadnovs,69.4,1964,125,115,,175,,415,SBD,Single-ply,M,Open
-82.5,1,Juriljs Ivanusins,82.5,1960,250.5,165,,315.5,,731,SBD,Single-ply,M,Open
+82.5,1,Jurijs Ivaņūšins,82.5,1960,250.5,165,,315.5,,731,SBD,Single-ply,M,Open
 82.5,2,Genädijs Zubriks,81,1964,230,190,,220,,640,SBD,Single-ply,M,Open
 82.5,3,Valērijs Judins,81.9,1979,227.5,150,,245,,622.5,SBD,Single-ply,M,Open
 82.5,4,Vitalijs Lebedevs,81.4,1978,247.5,135,,237.5,,620,SBD,Single-ply,M,Open
@@ -28,7 +28,7 @@ WeightClassKg,Place,Name,BodyweightKg,BirthYear,Best3SquatKg,Best3BenchKg,Bench4
 90,6,Aris Vitovskis,89.9,1974,175,140,,210,,525,SBD,Single-ply,M,Open
 90,7,Aigars Āriņš,85.2,1967,175,100,,215,,490,SBD,Single-ply,M,Open
 100,1,Kārlis Bulāns,93.3,1952,275,165,,290,,730,SBD,Single-ply,M,Open
-100,2,Zigmārs Savokins,90.1,1977,270,150,,300,,720,SBD,Single-ply,M,Open
+100,2,Zigmārs Sovokins,90.1,1977,270,150,,300,,720,SBD,Single-ply,M,Open
 100,3,Ugia Vaciatis,100,1967,212.5,213,215,245,,670.5,SBD,Single-ply,M,Open
 100,4,Konstantins Kociasvili,98.8,1976,240,150,,260,,650,SBD,Single-ply,M,Open
 100,5,Kaspars Bogdanovičs,91.5,1982,230,150,,260,,640,SBD,Single-ply,M,Open
