@@ -1,9 +1,9 @@
 Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Squat4Kg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Bench4Kg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,WeightClassKg,Sex,BirthYear,Equipment,Event
-1,Jayne Thomas Lesley,O,UK,54.5,170,190,200,200,210.5,72.5,77.5,80,80,,155.5,165.5,170,170,,450,56,F,1966,Multi-ply,SBD
+1,Lesley Jayne Thomas,O,UK,54.5,170,190,200,200,210.5,72.5,77.5,80,80,,155.5,165.5,170,170,,450,56,F,1966,Multi-ply,SBD
 DQ,Andrea Zurcher,O,Switzerland,53.4,-200,-210.5,210.5,210.5,,,,,,,,,,,,,56,F,1978,Multi-ply,SBD
 1,Ingrid Geerinck,M1,Belgium,55.7,85,90,100,100,,40,-45,45,45,,87.5,92.5,-95,92.5,,237.5,56,F,1960,Multi-ply,SBD
 1,Sheila Rouse,M4,USA,55.9,60,85,100.5,100.5,,37.5,50,50.5,50.5,,87.5,102.5,105,105,,256,56,F,1946,Multi-ply,SBD
-1,Louise Hellal Marie,O,France,58.9,140,150,160,160,,80,85,87.5,87.5,,160,170,177.5,177.5,,425,60,F,1969,Multi-ply,SBD
+1,Marie Louise Hellal,O,France,58.9,140,150,160,160,,80,85,87.5,87.5,,160,170,177.5,177.5,,425,60,F,1969,Multi-ply,SBD
 1,Yveline Dujardin,M1,Belgium,59.5,150,160,170,170,,92.5,97.5,100,100,,150,,,150,,420,60,F,1960,Multi-ply,SBD
 1,Lee Steggles,O,UK,66.2,190,205,215,215,,110,117.5,-120,117.5,,175,182.5,187.5,187.5,,520,67.5,F,1962,Multi-ply,SBD
 2,Michelle Murawski,O,USA,66.9,145,162.5,-177.5,162.5,,77.5,-97.5,-97.5,77.5,,147.5,160,170,170,,410,67.5,F,1967,Multi-ply,SBD
@@ -186,7 +186,7 @@ DQ,Matej Reznak,T2,Slovakia,66.5,,,,,,-110,-115,-115,,,,,,,,,67.5,M,1987,Multi-p
 3,Roberto Strohmayer,O,Austria,72.4,,,,,,130,-135,-135,130,,,,,,,130,75,M,1974,Multi-ply,B
 1,Berthold Rien,M1,Germany,74.5,,,,,,150,165,-167.5,165,,,,,,,165,75,M,1959,Multi-ply,B
 1,Uwe Werner,M2,Germany,73.2,,,,,,165,170,175,175,180.5,,,,,,175,75,M,1958,Multi-ply,B
-1,Avtar Singh Jawanda,M3,UK,74.6,,,,,,100,110,115,115,,,,,,,115,75,M,1951,Multi-ply,B
+1,Jawanda Avtar Singh,M3,UK,74.6,,,,,,100,110,115,115,,,,,,,115,75,M,1951,Multi-ply,B
 1,Joachim Wintorscheidt,M4,Germany,70.3,,,,,,105,-110,-110,105,,,,,,,105,75,M,1947,Multi-ply,B
 1,Anatolijs Kuzmins,M5,Latvia,74.5,,,,,,130,138,142.5,142.5,145,,,,,,142.5,75,M,1941,Multi-ply,B
 2,Willi Sinn,M5,Germany,73.8,,,,,,115,120,125,125,,,,,,,125,75,M,1939,Multi-ply,B
