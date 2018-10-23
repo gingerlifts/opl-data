@@ -197,7 +197,6 @@ def getresults(soup):
 
 def fix_place(csv):
     placeidx = csv.index('Place')
-    totalidx = csv.index('TotalKg')
     for row in csv.rows:
         row[placeidx] = row[placeidx].split('-')[0]
         if row[placeidx] in ['', '0']:
