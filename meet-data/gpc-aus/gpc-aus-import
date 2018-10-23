@@ -49,7 +49,7 @@ def get_pages(url):
         Select(dropdowns[ii]).select_by_visible_text('100')
         source = driver.page_source
         pages += [source]
-        ii +=1
+        ii += 1
 
     driver.quit()
     return(pages)
@@ -71,6 +71,8 @@ def getmeetinfo(soup):
 
     if state == 'NATIONAL':
         state = ''
+
+    name = name.replace('GPC ', '')
 
     date_split = date.split('/')
     date = date_split[2]+'-'+date_split[1]+'-'+date_split[0]
@@ -172,7 +174,7 @@ def getresults(soup):
                 csv.fieldnames += ['IGNORE']
             elif h == 'Team':
                 csv.fieldnames += ['Team']
-            elif h == 'Events':
+            elif h in ['Events', 'Event']:
                 csv.fieldnames += ['Event']
             elif h == 'Date':
                 csv.fieldnames += ['IGNORE']
@@ -198,7 +200,7 @@ def fix_place(csv):
     totalidx = csv.index('TotalKg')
     for row in csv.rows:
         row[placeidx] = row[placeidx].split('-')[0]
-        if row[placeidx] == '':
+        if row[placeidx] in ['', '0']:
             row[placeidx] = 'DQ'
 
 
@@ -207,7 +209,7 @@ def remove_zeros(csv):
     newcsv.fieldnames = csv.fieldnames
 
     for row in csv.rows:
-        newcsv.rows += [['' if x in ['0','BMB'] else x for x in row]]
+        newcsv.rows += [['' if x in ['0', 'BMB'] else x for x in row]]
 
     return newcsv
 
@@ -230,6 +232,7 @@ def fix_names(csv):
     for row in csv.rows:
         row[nameidx] = re.sub(' \(.*?\)', '', row[nameidx])
         row[nameidx] = row[nameidx].replace(' - ', '-')
+        row[nameidx] = row[nameidx].title()
 
 
 def fix_events(csv):
@@ -240,7 +243,7 @@ def fix_events(csv):
             row[eventidx] = 'SBD'
         elif event == 'PP':
             row[eventidx] = 'BD'
-        elif event in ['BP','BE']:
+        elif event in ['BP', 'BE']:
             row[eventidx] = 'B'
         elif event == 'DL':
             row[eventidx] = 'D'
@@ -356,7 +359,6 @@ def main(dirname, url):
             'Best3DeadliftKg' not in entriescsv.fieldnames):
         calc_best_lift(entriescsv, 'Best3DeadliftKg', [
                        'Deadlift1Kg', 'Deadlift2Kg', 'Deadlift3Kg'])
-
 
     try:
         os.makedirs(dirname)
