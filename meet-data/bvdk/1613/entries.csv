@@ -45,7 +45,7 @@ Place,Name,Division,WeightClassKg,Sex,BirthYear,BodyweightKg,Deadlift1Kg,Deadlif
 1,Marco Frey,Juniors,93,M,1995,91.8,212.5,222.5,235,235,235,D,Single-ply
 1,Thomas Stark,Master 2,105,M,1964,98.5,215,230,235,235,235,D,Single-ply
 2,Thomas Lehmeier,Open,83,M,1991,81.5,220,240,-267.5,240,240,D,Single-ply
-1,"Tobias Schäpe,",Open,120,M,1979,113,220,230,240,240,240,D,Single-ply
+1,Tobias Schäpe,Open,120,M,1979,113,220,230,240,240,240,D,Single-ply
 1,Johann Goldstein,Master 2,83,M,1957,82.1,220,230,240,240,240,D,Single-ply
 1,Armin Seynstahl,Open,74,M,1991,74,225,240,245,245,245,D,Single-ply
 1,Sebastian Heger,Open,105,M,1992,93.5,215,230,245,245,245,D,Single-ply
