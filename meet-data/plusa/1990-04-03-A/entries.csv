@@ -41,7 +41,7 @@ D. Edmondson,60,Pure,M,210,117.5,222.5,550,SBD,Single-ply,1
 Wil Taylor,60,Pure,M,220,117.5,207.5,545,SBD,Single-ply,2
 S. Sregal,60,Pure,M,207.5,120,200,527.5,SBD,Single-ply,3
 T. Taylor,60,Pure,M,205,120,200,525,SBD,Single-ply,4
-C McGuire,60,Pure,M,182.5,120,180,482.5,SBD,Single-ply,5
+C. McGuire,60,Pure,M,182.5,120,180,482.5,SBD,Single-ply,5
 A. Weiss,60,Pure,M,170,110,167.5,447.5,SBD,Single-ply,6
 J. Schroeder,60,Pure,M,160,85,200,445,SBD,Single-ply,7
 Todd Vickers,60,Pure,M,155,105,177.5,437.5,SBD,Single-ply,8
@@ -67,7 +67,7 @@ Todd Whitten,75,Pure,M,250,147.5,237.5,635,SBD,Single-ply,2
 C. George,75,Pure,M,210,155,260,625,SBD,Single-ply,3
 R. Mora,75,Pure,M,227.5,130,250,607.5,SBD,Single-ply,4
 S. Todd,75,Pure,M,232.5,155,215,602.5,SBD,Single-ply,5
-M. Debeliso,75,Pure,M,230,127.5,240,597.5,SBD,Single-ply,6
+M. DeBeliso,75,Pure,M,230,127.5,240,597.5,SBD,Single-ply,6
 J. Goodhue,75,Pure,M,232.5,142.5,220,595,SBD,Single-ply,7
 P. Dumont,75,Pure,M,227.5,137.5,210,575,SBD,Single-ply,8
 Frank Lucente,75,Pure,M,210,100,237.5,547.5,SBD,Single-ply,9
@@ -176,7 +176,7 @@ T. Jones,67.5,Natural,M,222.5,152.5,235,610,SBD,Single-ply,2
 Adam Averbach,67.5,Natural,M,205,137.5,260,602.5,SBD,Single-ply,3
 C. Easton,67.5,Natural,M,220,125,242.5,587.5,SBD,Single-ply,4
 L. Fleming,67.5,Natural,M,212.5,147.5,220,580,SBD,Single-ply,5
-C. Brown,67.5,Natural,M,202.5,132.5,212.5,547.5,SBD,Single-ply,6
+C. Brown #2,67.5,Natural,M,202.5,132.5,212.5,547.5,SBD,Single-ply,6
 Troy Culberson,75,Natural,M,252.5,142.5,275,670,SBD,Single-ply,1
 R. Cirigliano,75,Natural,M,237.5,142.5,267.5,647.5,SBD,Single-ply,2
 Richard Butera,75,Natural,M,225,150,237.5,612.5,SBD,Single-ply,3
@@ -246,7 +246,7 @@ G. Holman,125+,Natural,M,322.5,205,285,812.5,SBD,Single-ply,1
 J. Magee,125+,Natural,M,292.5,202.5,287.5,782.5,SBD,Single-ply,2
 J. Maness,125+,Natural,M,295,200,262.5,757.5,SBD,Single-ply,3
 T. Famey,125+,Natural,M,230,165,255,650,SBD,Single-ply,4
-M. Delatorre,125+,Natural,M,182.5,122.5,182.5,487.5,SBD,Single-ply,5
+M. DeLaTorre,125+,Natural,M,182.5,122.5,182.5,487.5,SBD,Single-ply,5
 Eric Fernandez,56,Teen,M,157.5,107.5,187.5,452.5,SBD,Single-ply,1
 K. Mathesss,56,Teen,M,150,105,190,445,SBD,Single-ply,2
 B. Denafo,56,Teen,M,150,95,187.5,432.5,SBD,Single-ply,3
@@ -277,7 +277,7 @@ Rich Samarron,125+,Teen,M,340,192.5,277.5,810,SBD,Single-ply,1
 J. Nickless,125+,Teen,M,320,182.5,250,752.5,SBD,Single-ply,2
 W. Solesky,125+,Teen,M,307.5,155,287.5,750,SBD,Single-ply,3
 D. Beach,125+,Teen,M,215,185,235,635,SBD,Single-ply,4
-L Muth,60,Masters 40-49,M,147.5,92.5,182.5,422.5,SBD,Single-ply,1
+L. Muth,60,Masters 40-49,M,147.5,92.5,182.5,422.5,SBD,Single-ply,1
 B. Coleman,60,Masters 40-49,M,130,92.5,137.5,360,SBD,Single-ply,2
 D. Burkes,67.5,Masters 40-49,M,167.5,107.5,210,485,SBD,Single-ply,1
 W. Miller,67.5,Masters 40-49,M,162.5,100,180,442.5,SBD,Single-ply,2
