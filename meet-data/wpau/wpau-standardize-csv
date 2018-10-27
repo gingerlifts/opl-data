@@ -237,7 +237,7 @@ def parse_fieldnames(sheet, obj):
             fieldnames.append('CyrillicName')
         elif text in ['city', 'місто', 'місце', 'регіон']:  # City /region
             fieldnames.append('IGNORE')
-        elif text in ['город', 'city / team', 'city \ club', 'city / club',
+        elif text in ['город', 'city / team', 'city \\ club', 'city / club',
                       'спорт клуб', 'клуб']:  # Home city/gym
             fieldnames.append('IGNORE')
         elif text in ['дата народ', 'день рождения', 'db', 'дата народження',
