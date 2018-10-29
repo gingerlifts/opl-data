@@ -28,6 +28,7 @@
     msmr = {name ="MSM-R",min=33,max=39}
     msmrp = {name ="MSM-RP",min=33,max=39}
     msmsp = {name ="MSM-SP",min=33,max=39}
+    msmmp = {name ="MSM-MP",min=33,max=39}
     fsmr = {name ="FSM-R",min=33,max=39}
     fsmrp = {name ="FSM-RP",min=33,max=39}
 [weightclasses.default_M]
