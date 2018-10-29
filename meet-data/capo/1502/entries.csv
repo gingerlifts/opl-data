@@ -1,13 +1,13 @@
 Name,State,Age,Division,Sex,Event,Equipment,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Place
-Wulff Breitsameter,NSW,70,MM-R,M,B,Raw,98.8,100,,,,,,110,115,120,,120,122.5,,,,122.5,120,2
-Shannon Green,NSW,36,MO-R,M,B,Raw,109.7,110,,,,,,160,167.5,175,,175,-181,,,,-181,175,2
-Brett Worland,VIC,24,MO-R,M,B,Raw,104.9,110,,,,,,185,195,200,,200,205,,,,205,200,1
+Wulff Breitsameter,NSW,70,MM-R,M,B,Raw,98.8,100,,,,,,110,115,120,122.5,120,,,,,,120,2
+Shannon Green,NSW,36,MO-R,M,B,Raw,109.7,110,,,,,,160,167.5,175,-181,175,,,,,,175,2
+Brett Worland,VIC,24,MO-R,M,B,Raw,104.9,110,,,,,,185,195,200,205,200,,,,,,200,1
 Peter Weatherall,NSW,46,MM-R,M,B,Raw,99.6,100,,,,,,155,166,-170,,166,,,,,,166,1
 Phil Ross,VIC,44,MM-R,M,B,Raw,123.1,125,,,,,,175,182.5,-190,,182.5,,,,,,182.5,1
 Aaron Jackson,NSW,29,MO-R,M,B,Raw,138.7,140,,,,,,175,182.5,-190,,182.5,,,,,,182.5,1
 Shaun Bostock,VIC,45,MO-SP,M,B,Single-ply,138.9,140,,,,,,335,350,-365,,350,,,,,,350,1
 Michelina Bajjada,NSW,40,FM-R,M,B,Raw,58,60,,,,,,42.5,50,-57.5,,50,,,,,,50,2
-Lisa Ly,VIC,39,FM-R,M,B,Raw,67.5,67.5,,,,,,55,60,62.5,-65,62.5,,,,,,62.5,1
+Lisa Ly,VIC,39,FSM-R,M,B,Raw,67.5,67.5,,,,,,55,60,62.5,-65,62.5,,,,,,62.5,1
 Skye Denton,NSW,23,FJ-R,M,B,Raw,71.5,75,,,,,,55,60,62.5,-65,62.5,,,,,,62.5,1
 Skye McDonald,VIC,30,FO-R,M,B,Raw,62,67.5,,,,,,80,85,-90,,85,,,,,,85,1
 Jiuliana McKenzie,VIC,43,FM-R,M,B,Raw,59,60,,,,,,80,85,-90,,85,,,,,,85,1
@@ -89,7 +89,7 @@ Peter Weatherall,NSW,46,MM-RP,M,SBD,Wraps,105.6,110,210,235,252.5,,252.5,150,160
 Hazem Elkheir,NSW,23,MJ-R,M,SBD,Raw,112.7,125,-210,-220,-220,,,110,117.5,125,,125,260,272.5,280,,280,,DQ
 Mark Edmonds,SA,44,MM-R,M,SBD,Raw,113,125,-220,220,-230,,220,120,140,155,,155,230,240,245,,245,620,1
 Michael Nicholas,VIC,50,MM-R,M,SBD,Raw,125.6,140,-230,230,250,265,250,150,-165,-165,,150,240,255,270,,270,670,1
-Joe Zollo,VIC,57,MM-RP,M,SBD,Wraps,110,110,250,260,115,,260,120,123,,,123,240,-253,,,240,623,3
+Joe Zollo,VIC,57,MM-RP,M,SBD,Wraps,110,110,250,260,,,260,115,120,123,,123,240,-253,,,240,623,3
 Daniel Cann,QLD,41,MM-R,M,SBD,Raw,120.2,125,260,-280,,,260,,,,,,,,,,,,DQ
 Andrew Raynes,WA,42,MM-R,M,SBD,Raw,122.3,125,-300,-300,300,,300,-190,-190,-200,,,,,,,,,DQ
 George Okunev,WA,34,MO-RP,M,SBD,Wraps,137.2,140,300,-310,,,300,-210,210,-220,,210,65,,,,65,575,2
