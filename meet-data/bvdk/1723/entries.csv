@@ -1,4 +1,4 @@
-Name,Sex,Division,WeightclassKg,BodyweightKg,BirthYear,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Equipmemt,Event
+Name,Sex,Division,WeightClassKg,BodyweightKg,BirthYear,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Equipment,Event
 Tilman Märtel,M,Juniors,83,80.9,1996,150,157.5,-162.5,157.5,157.5,8,Single-ply,D
 Bastian Grüner,M,Open,120,116.6,1986,260,270,-282.5,270,270,4,Single-ply,D
 Manuel Baumgartner,M,Open,105,100.9,1989,-270,-270,-270,,,DQ,Single-ply,D
