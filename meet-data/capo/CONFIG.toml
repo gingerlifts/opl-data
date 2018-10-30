@@ -14,16 +14,31 @@
     fjr = {name ="FJ-R",min=20,max=23}
     fjrp = {name ="FJ-RP",min=20,max=23}
     mtr = {name ="MT-R",min=13,max=19}
+    mt3r = {name ="MT3-R",min=18,max=19}
+    mt3rp = {name ="MT3-RP",min=18,max=19}
     mtrp = {name ="MT-RP",min=13,max=19}
     mtmp = {name ="MT-MP",min=13,max=19}
     ftr = {name ="FT-R",min=13,max=19}
     ftrp = {name ="FT-RP",min=13,max=19}
+    ft3rp = {name ="FT3-RP",min=18,max=19}
+    ft2r = {name ="FT2-R",min=16,max=17}
+    ft2rp = {name ="FT2-RP",min=16,max=17}
     mmr = {name ="MM-R",min=40,max=999}
+    mm1r = {name ="MM1-R",min=40,max=44}
+    mm1rp = {name ="MM1-RP",min=40,max=44}
+    mm2r = {name ="MM2-R",min=45,max=49}
+    mm2rp = {name ="MM2-RP",min=45,max=49}
+    mm3r = {name ="MM3-R",min=50,max=54}
+    mm4r = {name ="MM4-R",min=55,max=59}
+    mm4rp = {name ="MM4-RP",min=55,max=59}
     mmrp = {name ="MM-RP",min=40,max=999}
     mmsp = {name ="MM-SP",min=40,max=999}
     mmmp = {name ="MM-MP",min=40,max=999}
+    mm2mp = {name ="MM2-MP",min=45,max=49}
     fmr = {name ="FM-R",min=40,max=999}
     fmrp = {name ="FM-RP",min=40,max=999}
+    fm1rp = {name ="FM1-RP",min=40,max=44}
+    fm2rp = {name ="FM2-RP",min=45,max=49}
     fmmp = {name ="FM-MP",min=40,max=999}
     msmr = {name ="MSM-R",min=33,max=39}
     msmrp = {name ="MSM-RP",min=33,max=39}
