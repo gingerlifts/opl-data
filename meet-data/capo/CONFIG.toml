@@ -29,6 +29,13 @@
     ft3r = {name ="FT3-R",min=18,max=19}
     ft3rp = {name ="FT3-RP",min=18,max=19}
     mmr = {name ="MM-R",min=40,max=999}
+    mm1r = {name ="MM1-R",min=40,max=44}
+    mm1rp = {name ="MM1-RP",min=40,max=44}
+    mm2r = {name ="MM2-R",min=45,max=49}
+    mm2rp = {name ="MM2-RP",min=45,max=49}
+    mm3r = {name ="MM3-R",min=50,max=54}
+    mm4r = {name ="MM4-R",min=55,max=59}
+    mm4rp = {name ="MM4-RP",min=55,max=59}
     mmrp = {name ="MM-RP",min=40,max=999}
     mmsp = {name ="MM-SP",min=40,max=999}
     mmmp = {name ="MM-MP",min=40,max=999}
