@@ -1049,6 +1049,7 @@ impl Federation {
             Federation::BP => PointsSystem::Wilks,
             Federation::BVDK => PointsSystem::Wilks,
             Federation::CAPO => PointsSystem::Glossbrenner,
+            Federation::CAPONZ => PointsSystem::Glossbrenner,
             Federation::CAST => PointsSystem::Wilks,
             Federation::CommonwealthPF => PointsSystem::Wilks,
             Federation::CPC => PointsSystem::Wilks,
