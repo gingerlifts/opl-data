@@ -57,6 +57,7 @@
     fm3r = {name ="FM3-R",min=50,max=54}
     fm3rp = {name ="FM3-RP",min=50,max=54}
     fm4r = {name ="FM4-R",min=55,max=59}
+    fmsp = {name ="FM-SP",min=40,max=999}
     fmmp = {name ="FM-MP",min=40,max=999}
     msmr = {name ="MSM-R",min=33,max=39}
     msmrp = {name ="MSM-RP",min=33,max=39}
