@@ -34,6 +34,7 @@
     mmmp = {name ="MM-MP",min=40,max=999}
     mm1r = {name ="MM1-R",min=40,max=44}
     mm1rp = {name ="MM1-RP",min=40,max=44}
+    mm1sp = {name ="MM1-SP",min=40,max=44}
     mm2r = {name ="MM2-R",min=45,max=49}
     mm2rp = {name ="MM2-RP",min=45,max=49}
     mm2mp = {name ="MM2-MP",min=45,max=49}
@@ -45,12 +46,14 @@
     mm4sp = {name ="MM4-SP",min=55,max=59}
     mm5r = {name ="MM5-R",min=60,max=64}
     mm5rp = {name ="MM5-RP",min=60,max=64}
+    mm5sp = {name ="MM5-SP",min=60,max=64}
     mm6r = {name ="MM6-R",min=65,max=69}
     mm7r = {name ="MM7-R",min=70,max=74}
     mm8r = {name ="MM8-R",min=75,max=79}
     mm8rp = {name ="MM9-RP",min=80,max=999}
     fmr = {name ="FM-R",min=40,max=999}
     fmrp = {name ="FM-RP",min=40,max=999}
+    fm1r = {name ="FM1-R",min=40,max=44}
     fm1rp = {name ="FM1-RP",min=40,max=44}
     fm2r = {name ="FM2-R",min=45,max=49}
     fm2rp = {name ="FM2-RP",min=45,max=49}
