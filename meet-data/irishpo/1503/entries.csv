@@ -37,7 +37,7 @@ Matthew Costello,,M,Raw,M-J,108.95,110,160,-172.5,172.5,,172.5,,,,,,172.5,B,1
 Ruairí Keenan,,M,Raw,M-J,102.7,110,170,-175,-175,,170,,,,,,170,B,2
 Ray Kearney,,M,Raw,MO,106.3,110,170,180,-190,,180,,,,,,180,B,3
 James Farrell,,M,Raw,MO,107.15,110,200,-215,-215,,200,,,,,,200,B,2
-Oliver Hirschmann,,M,Raw,MO,102.07,110,205,212.5,215,,212.5,,,,,,212.5,B,1
+Oliver Hirschmann,,M,Raw,MO,102.07,110,205,212.5,-215,,212.5,,,,,,212.5,B,1
 Amandeep Singh,,M,Raw,M-J,114.5,125,140,147.5,-160,,147.5,,,,,,147.5,B,1
 Didier Michelon,,M,Raw,MO,115.05,125,180,190,,,190,,,,,,190,B,1
 Didier Michelon,,M,Raw,M-3,115.05,125,180,190,,,190,,,,,,190,B,1
@@ -132,7 +132,7 @@ Leona Connolly,,F,Raw,FO,73,75,40,-45,-45,,40,,,,,,40,B,3
 Tara O'Shaughnessy,,F,Single-ply,FOS,80.85,82.5,100,110,-115,,110,,,,,,110,B,1
 Tara O'Shaughnessy,,F,Single-ply,FM-1SP,80.85,82.5,100,110,-115,,110,,,,,,110,B,1
 Ursula Eulenstein,,F,Raw,FM-6,82,82.5,72.5,75,77.5,-80,77.5,,,,,,77.5,B,1
-Ursula Eulnestein,,F,Raw,FO,82,82.5,72.5,75,77.5,-80,82.5,,,,,,82.5,B,1
+Ursula Eulnestein,,F,Raw,FO,82,82.5,72.5,75,77.5,-80,77.5,,,,,,77.5,B,1
 Tara O'Shaughnessy,,F,Raw,FO,80.85,82.5,75,-80,,,75,,,,,,75,B,2
 Laura Gray,,F,Raw,FO,77.4,82.5,-52.5,52.5,-60,,52.5,,,,,,52.5,B,3
 Tara O'Shaughnessy,,F,Raw,FM-1,80.85,82.5,75,80,,,80,,,,,,80,B,1
@@ -157,4 +157,4 @@ Leona Connolly,,F,Raw,FO,73,75,,,,,,-105,105,115,,115,115,D,2
 Tara O'Shaughnessy,,F,Raw,FO,80.85,82.5,,,,,,165,175,180,-185,180,180,D,1
 Tara O'Shaughnessy,,F,Raw,FM-1,80.85,82.5,,,,,,165,175,180,-185,180,180,D,1
 Laura Gray,,F,Raw,FO,77.4,82.5,,,,,,110,120,-130,,120,120,D,2
-Patricia Page ,,F,Raw,FM-2,87.5,90,,,,,,120,130,140,-145,140,140,D,1
+Patricia Page,,F,Raw,FM-2,87.5,90,,,,,,120,130,140,-145,140,140,D,1
