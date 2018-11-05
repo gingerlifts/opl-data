@@ -1,5 +1,5 @@
 Name,Sex,BodyweightKg,WeightClassKg,BirthDate,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Division,Event,Equipment
-Sven Neuendorf,M,124,120+,1990-06-07,-270,-270,-270,,-205,205,-212.5,205,,,,,205,DQ,Open,SBD,Single-ply
+Sven Neuendorf,M,124,120+,1990-06-07,-270,-270,-270,,-205,205,-212.5,205,,,,,,DQ,Open,SBD,Single-ply
 Anja Schreiner,F,46.45,47,1993-07-30,137.5,-142.5,-142.5,137.5,87.5,92.5,98,98,110,122.5,-130,122.5,358,3,Open,SBD,Single-ply
 Rosina Polster,F,62.55,63,1984-11-17,-167.5,167.5,-172.5,167.5,100,105,-107.5,105,155,162.5,-170,162.5,435,3,Open,SBD,Single-ply
 Elke Erbs,F,66.3,72,1984-08-15,190,-200,-200,190,92.5,-97.5,-97.5,92.5,170,-182.5,192.5,192.5,475,5,Open,SBD,Single-ply
