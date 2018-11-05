@@ -1,8 +1,8 @@
 Place,Name,Equipment,Sex,Division,WeightClassKg,BirthYear,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event
 G,Alexander Lex,Raw,M,Open,93,1994,83.2,-205,207.5,-212.5,207.5,125,130,-135,130,215,-220,225,225,562.5,SBD
 2,Alexander Denk,Raw,M,Open,105,1986,93.8,170,180,190,190,157.5,165,171,171,200,215,225,225,586,SBD
-1,Alexander Diepold,Raw,M,Masters 5,66,1937,65.6,,,,,57.5,65,72.5,72.5,,,,,72.5,B
-1,Alexander Diepold,Raw,M,Masters 5,66,1937,65.6,,,,,,,,,110,125,130,130,130,D
+1,Alexander Diepold,Raw,M,Masters 4,66,1937,65.6,,,,,57.5,65,72.5,72.5,,,,,72.5,B
+1,Alexander Diepold,Raw,M,Masters 4,66,1937,65.6,,,,,,,,,110,125,130,130,130,D
 1,Bianka Kraft,Raw,F,Open,72,1983,70.2,90,-100,100,100,60,65,67.5,67.5,100,110,115,115,282.5,SBD
 3,David Jahn,Raw,M,Open,105,1989,99.3,170,182.5,190,190,150,157.5,-162.5,157.5,200,220,230,230,577.5,SBD
 1,Dustin Kohlmaier,Raw,M,Juniors,105,1995,97.4,100,110,,110,130,-140,-140,130,200,210,215,215,455,SBD

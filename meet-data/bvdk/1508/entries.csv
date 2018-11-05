@@ -1,4 +1,4 @@
-Name,Sex,WeightClassKg,BodyweightKg,Birthday,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Equipment,Division,Event
+Name,Sex,WeightClassKg,BodyweightKg,BirthDate,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Equipment,Division,Event
 Anja Schreiner,F,52,47.75,1993-07-30,130,-137.5,-142.5,130,90,95,-100,95,100,-115,,100,325,6,Single-ply,Open,SBD
 Angolos Hoikas,M,83,77.9,1992-06-12,240,-252.5,252.5,252.5,182.5,-187.5,-187.5,182.5,215,-225,-230,215,650,5,Single-ply,Open,SBD
 Marc Bielau,M,74,72.9,1986-05-05,255,265,-275.5,265,155,165,175,175,225,-250,260,260,700,6,Single-ply,Open,SBD
