@@ -1,4 +1,4 @@
-Name,Sex,BodyweightKg,WeightClassKg,BirthDate,Squat1Kg,Squat2Kg,Squat3Kg,BestSquatKg,Bench1Kg,Bench2Kg,Bench3Kg,BestBench,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Division,Event,Equipment
+Name,Sex,BodyweightKg,WeightClassKg,BirthDate,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Division,Event,Equipment
 Anja Schreiner,F,45.1,47,1993-07-30,125,130,-135,130,85,85,90,90,105,115,120,120,340,3,Open,SBD,Single-ply
 Sonja Stefanie Krüger,F,66.1,72,1999-12-04,-207.5,215,-225,215,130,137.5,-142.5,137.5,165,185,-192.5,185,537.5,1,Open,SBD,Single-ply
 Marie Hauschild,F,71.5,72,1995-06-13,195,200,205,205,95,110,,110,150,-165,165,165,480,5,Open,SBD,Single-ply
