@@ -29,8 +29,8 @@ F,Wraps,Amateur Master 50-54,90,ME,Patty Drake,88.81,138.35,81.65,165.56,385.55,
 F,Raw,Amateur Submaster 33-39,90,MA,Stephanie Stone,89.09,86.18,47.63,124.74,258.55,SBD,2
 F,Raw,Amateur Submaster 33-39,90,MA,Gina Berrettoni,88.77,117.93,70.31,158.76,347,SBD,1
 F,Raw,Amateur Open,100,MA,Nicole D'Alessandro,98.52,117.93,72.57,149.69,340.19,SBD,1
-F,Raw,Amateur Master 45-49,110+,NH,Kim Bertholet,132.99,113.4,58.97,136.08,308.45,SBD,1
-F,Raw,Amateur Open,110+,NH,Kim Bertholet,132.99,113.4,58.97,136.08,308.45,SBD,1
+F,Raw,Amateur Master 45-49,90+,NH,Kim Bertholet,132.99,113.4,58.97,136.08,308.45,SBD,1
+F,Raw,Amateur Open,90+,NH,Kim Bertholet,132.99,113.4,58.97,136.08,308.45,SBD,1
 M,Wraps,Amateur Master 80-84,67.5,VT,Chuck McCleary,67.45,68.04,29.48,108.86,206.38,SBD,1
 M,Wraps,Amateur Master 70-74,75,NH,Kevin O'Reilly,70.85,68.04,63.5,113.4,244.94,SBD,1
 M,Wraps,Amateur Master 75-79,75,NH,Roger Penland,71.76,49.9,36.29,88.45,174.63,SBD,1
@@ -55,7 +55,7 @@ M,Wraps,Amateur Master 75-79,125,NH,Carl Wallin,116.12,136.08,79.38,195.04,410.5
 M,Wraps,Amateur Open,140,NH,Luben Ikonomov,130.18,238.14,127.01,238.14,603.28,SBD,1
 F,Raw,Amateur Master 50-54,75,VT,Johanna Crowley,74.84,77.11,,,77.11,S,1
 F,Wraps,Amateur Open,82.5,VT,Katelynn Brzezinski,76.84,95.25,,,95.25,S,1
-F,Raw,Amateur Submaster 33-39,110,VT,Deanna Never,101.6,120.2,,,120.2,S,1
+F,Raw,Amateur Submaster 33-39,90+,VT,Deanna Never,101.6,120.2,,,120.2,S,1
 M,Raw,Amateur Master 50-54,82.5,NH,James LeClerc,81.1,,170.1,,170.1,B,1
 M,Raw,Amateur Master 90-94,90,NH,David Taylor,82.83,,40.82,,40.82,B,1
 F,Raw,Amateur Open,60,MA,Rose Solomon,59.69,,49.9,,49.9,B,1
@@ -64,8 +64,7 @@ F,Raw,Amateur Master 45-49,82.5,ME,Karen Cassette,77.56,,68.04,,68.04,B,1
 M,Multi-ply,Amateur Master 40-44,90,NH,Greg Monmaney,89.36,,154.22,199.58,353.8,BD,1
 M,Raw,Amateur Master 80-84,90,NH,Jack Stinson,86.73,,54.43,95.25,149.69,BD,1
 F,Raw,Amateur Master 50-54,67.5,NH,Karen Healey,66.5,,36.29,102.06,138.35,BD,1
-F,Raw,Military Amateur Open,75,VT,Casiana Arroyo,71.3,,49.9,115.67,165.56,BD,1
-F,Raw,Amateur Junior 20-23,75,VT,Casiana Arroyo,71.3,,49.9,115.67,165.56,BD,1
+F,Raw,Military Amateur Junior 20-23,75,VT,Casiana Arroyo,71.3,,49.9,115.67,165.56,BD,1
 M,Raw,Amateur Master 40-44,100,VT,Michael Sullivan,93.44,,,163.29,163.29,D,1
 F,Raw,Amateur Open,100,VT,Ally McAuslan,91.44,,,127.01,127.01,D,1
 F,Raw,Amateur Open,67.5,ME,Allison Fisher,64.95,99.79,56.7,122.47,278.96,SBD,3
@@ -73,7 +72,7 @@ F,Wraps,Amateur Junior 20-23,75,MA,Emma Huff,73.48,120.2,74.84,145.15,340.19,SBD
 F,Wraps,Pro Open,75,ME,Sarah Gaither,73.57,176.9,70.31,161.03,408.23,SBD,1
 F,Raw,Amateur Open,82.5,ME,Megan Gray,82.1,115.67,58.97,124.74,299.37,SBD,1
 F,Wraps,Amateur Submaster 33-39,100,NH,Laura-Beth Ulwick,91.81,104.33,54.43,145.15,303.91,SBD,1
-F,Raw,Amateur Open,110,MA,Erin Erhart,103.78,102.06,56.7,142.88,301.64,SBD,2
+F,Raw,Amateur Open,90+,MA,Erin Erhart,103.78,102.06,56.7,142.88,301.64,SBD,2
 M,Raw,Amateur Teen 14-15,60,MA,Noah Herzig,59.6,117.93,72.57,149.69,340.19,SBD,1
 M,Wraps,Amateur Open,67.5,CT,Zach Rizzo,65.68,170.1,104.33,226.8,501.22,SBD,1
 M,Raw,Amateur Junior 20-23,75,NY,Colin Liebert,74.66,58.97,64.64,81.65,205.25,SBD,2
@@ -105,11 +104,11 @@ M,Raw,Amateur Submaster 33-39,100,NH,Chris Dubuque,94.71,129.27,99.79,185.97,415
 M,Wraps,Amateur Junior 20-23,110,MA,Owen Mooney,109.86,183.7,124.74,224.53,532.97,SBD,2
 M,Wraps,Amateur Junior 20-23,110,MA,Cameron Maltais,107.05,210.92,124.74,233.6,569.26,SBD,1
 M,Raw,Amateur Open,110,NH,Chris Leon,107.05,265.35,188.24,276.69,730.28,SBD,1
-M,Wraps,Elite Open,125,ME,Harold Spetla,123.38,290.3,195.04,324.32,809.66,SBD,1
+M,Wraps,Amateur Elite Open,125,ME,Harold Spetla,123.38,290.3,195.04,324.32,809.66,SBD,1
 M,Single-ply,Amateur Junior 20-23,125,NY,Thomas Culkin,113.31,140.61,99.79,158.76,399.16,SBD,1
 M,Raw,Amateur Master 40-44,125,NH,Kenneth Allgair,122.38,183.7,124.74,204.12,512.56,SBD,1
 M,Wraps,Amateur Master 40-44,125,ME,John Wiinikka,124.19,294.84,176.9,301.64,773.37,SBD,1
-M,Wraps,Pro Open,125,NH,Matthew Moran,123.65,297.1,170.1,297.1,764.3,SBD,1
+M,Wraps,Amateur Pro,125,NH,Matthew Moran,123.65,297.1,170.1,297.1,764.3,SBD,1
 M,Wraps,Amateur Junior 20-23,140,NH,Hunter Darling,127.01,226.8,142.88,208.65,578.33,SBD,1
 M,Raw,Amateur Master 45-49,140,NY,Nick Asimakopoulos,132.72,256.28,197.31,290.3,743.89,SBD,1
 M,Wraps,Pro Open,140,NY,Ian MacIntyre,130.27,299.37,181.44,317.51,798.32,SBD,1

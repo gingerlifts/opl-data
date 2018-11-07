@@ -1,12 +1,12 @@
 Sex,Equipment,Division,WeightClassKg,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Place
 F,Wraps,Amateur Submaster 33-39,56,Jeannie Ward,55.16,67.5,42.5,87.5,197.5,SBD,1
 F,Wraps,Amateur Junior 20-23,60,Makenzie Stewart,59.78,75,45,102.5,222.5,SBD,1
-F,Raw,Crossfit,67.5,Isabel Fehn,62.14,67.5,35,117.5,220,SBD,1
+F,Raw,Crossfit Amateur Junior,67.5,Isabel Fehn,62.14,67.5,35,117.5,220,SBD,1
 F,Wraps,Pro Open,67.5,Jodie Burford,63.96,232.5,102.5,217.5,552.5,SBD,1
 F,Wraps,Amateur Open,75,Miranda Barnes,74.03,140,87.5,140,367.5,SBD,1
 F,Raw,Pro Open,75,Sarah Lewis #1,74.03,215,132.5,225,572.5,SBD,1
 F,Raw,Amateur Submaster 33-39,75,Lindsey Wells,70.49,72.5,47.5,100,220,SBD,1
-F,Wraps,Amateur Master 50-54,110+,Rhonda Boer,137.62,107.5,55,150,312.5,SBD,1
+F,Wraps,Amateur Master 50-54,90+,Rhonda Boer,137.62,107.5,55,150,312.5,SBD,1
 M,Wraps,Amateur Junior 20-23,67.5,Austin Ayala,64.77,190,130,215,535,SBD,1
 M,Raw,Pro Open,75,Nicholas Moskowitz,74.93,182.5,155,220,557.5,SBD,1
 M,Raw,Military Pro Open,75,Nicholas Moskowitz,74.93,182.5,155,220,557.5,SBD,1
@@ -22,8 +22,7 @@ M,Wraps,Pro Open,90,Justin Grygas,88.81,247.5,167.5,250,665,SBD,2
 M,Wraps,Pro Submaster 33-39,90,Justin Grygas,88.81,247.5,167.5,250,665,SBD,1
 M,Multi-ply,Amateur Open,90,Cory Gregory,89.99,317.5,192.5,245,755,SBD,1
 M,Multi-ply,Amateur Submaster 33-39,90,Cory Gregory,89.99,317.5,192.5,245,755,SBD,1
-M,Wraps,Military Amateur Open,90,Tony Rinella,88,100,90,157.5,347.5,SBD,1
-M,Wraps,Amateur Master 50-54,90,Tony Rinella,88,100,90,157.5,347.5,SBD,1
+M,Wraps,Military Amateur Master 50-54,90,Tony Rinella,88,100,90,157.5,347.5,SBD,1
 M,Wraps,Amateur Junior 20-23,100,Jonah Dawson,90.72,165,117.5,195,477.5,SBD,1
 M,Wraps,Amateur Open,100,Mitchell Shopinsky,98.43,197.5,140,227.5,565,SBD,2
 M,Wraps,Amateur Open,100,Clay Hicks,97.07,222.5,152.5,272.5,647.5,SBD,1

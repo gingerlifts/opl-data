@@ -15,7 +15,7 @@ F,Raw,Amateur Open,67.5,Juliana Stephan,,67.4,92.99,54.43,124.74,272.16,SBD,3
 F,Wraps,Amateur Open,67.5,Heather Wolak,,66.59,111.13,63.5,142.88,317.51,SBD,2
 F,Wraps,Amateur Open,67.5,Tina Rivera,,65.05,102.06,61.23,127.01,290.3,SBD,3
 F,Wraps,Amateur Open,67.5,Lauren Enes,,63.87,68.04,38.56,102.06,208.65,SBD,5
-F,Wraps,Crossfit,67.5,Regina Soares,,67.31,,,,,SBD,DQ
+F,Wraps,Crossfit Open,67.5,Regina Soares,,67.31,,,,,SBD,DQ
 F,Wraps,Amateur Submaster 33-39,67.5,Heather Wolak,,66.59,111.13,63.5,142.88,317.51,SBD,2
 F,Raw,Amateur Junior 20-23,75,Carla Tarrach,,74.48,131.54,68.04,158.76,358.34,SBD,1
 F,Raw,Amateur Master 45-49,75,Cynthia Line,,72.12,127.01,77.11,158.76,362.87,SBD,1
@@ -116,7 +116,7 @@ M,Wraps,Police Amateur Open,100,Chris Passaretti,,99.97,190.51,122.47,231.33,544
 M,Wraps,Pro Open,100,Patrick Walker,,98.43,240.4,170.1,249.48,659.98,SBD,3
 M,Wraps,Pro Open,100,Razzaq Manley,,99.34,249.48,188.24,281.23,718.94,SBD,2
 M,Wraps,Pro Open,100,Joe Hardy,,98.7,303.91,226.8,331.12,861.83,SBD,1
-M,Wraps,Police Amateur Submaster 33-39,100,Izzie Machado,,99.88,176.9,181.44,219.99,578.33,SBD,1
+M,Wraps,Police Amateur Submaster,100,Izzie Machado,,99.88,176.9,181.44,219.99,578.33,SBD,1
 M,Wraps,Pro Submaster 33-39,100,Patrick Walker,,98.43,240.4,170.1,249.48,659.98,SBD,1
 M,Multi-ply,Pro Open,110,Bob Merkh,,108.05,408.23,,,,SBD,DQ
 M,Raw,Amateur Master 40-44,110,Jonathan Shluker,,105.05,197.31,165.56,219.99,582.87,SBD,1
@@ -165,9 +165,9 @@ F,Wraps,Pro Submaster 33-39,67.5,Tarryn Stavola,,64.05,111.13,77.11,124.74,312.9
 F,Raw,Amateur Open,75,Colleen Lawrence,,73.94,124.74,72.57,161.03,358.34,SBD,2
 F,Raw,Amateur Open,75,Rachel Urcinas,,71.76,90.72,52.16,108.86,251.74,SBD,4
 F,Wraps,Amateur Open,90,Brittney Sinker,,89.54,142.88,83.91,185.97,412.77,SBD,1
-F,Raw,Crossfit,82.5,Pamela Godinho,,80.74,77.11,49.9,124.74,251.74,SBD,1
-F,Wraps,Crossfit,75,Elizabeth Mendez,,74.98,95.25,65.77,136.08,297.1,SBD,1
-F,Raw,Crossfit,52,Ilda Sampaio,,51.71,74.84,47.63,127.01,249.48,SBD,1
+F,Raw,Crossfit 379.509,82.5,Pamela Godinho,,80.74,77.11,49.9,124.74,251.74,SBD,1
+F,Wraps,Crossfit 473.565,75,Elizabeth Mendez,,74.98,95.25,65.77,136.08,297.1,SBD,1
+F,Raw,Crossfit 535.205,52,Ilda Sampaio,,51.71,74.84,47.63,127.01,249.48,SBD,1
 M,Raw,Amateur Junior 20-23,67.5,David Vu,,65.41,142.88,115.67,170.1,428.64,SBD,1
 M,Raw,Amateur Open,67.5,Scott Theaman,,66.68,102.06,77.11,142.88,322.05,SBD,2
 M,Wraps,Amateur Open,67.5,Eric Deribin,,67.13,163.29,106.59,190.51,460.4,SBD,1
@@ -186,7 +186,7 @@ M,Wraps,Amateur Open,82.5,CJ Appenzeller,,80.38,204.12,127.01,265.35,596.47,SBD,
 M,Wraps,Pro Open,82.5,Joey Percia,,81.37,226.8,147.42,265.35,639.57,SBD,2
 M,Raw,Amateur Open,90,Mahmoud Ahmed,,89.81,210.92,158.76,226.8,596.47,SBD,2
 M,Wraps,Amateur Junior 20-23,90,Dalton Mottillo,,89.99,192.78,140.61,238.14,571.53,SBD,1
-M,Wraps,Police/Fire/Military Pro Open,90,Christopher Ortega,,89.45,240.4,161.03,267.62,669.05,SBD,1
+M,Wraps,Police-Fire Pro Open,90,Christopher Ortega,,89.45,240.4,161.03,267.62,669.05,SBD,1
 M,Wraps,Pro Open,90,Christopher Ortega,,89.45,240.4,161.03,267.62,669.05,SBD,3
 M,Wraps,Amateur Teen 18-19,90,Rob Thomas,,89.27,235.87,167.83,240.4,644.1,SBD,1
 M,Raw,Amateur Junior 20-23,100,Issac Kim,,98.88,215.46,142.88,249.48,607.81,SBD,1

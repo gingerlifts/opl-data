@@ -1,8 +1,8 @@
 Sex,Equipment,Division,WeightClassKg,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Deadlift4Kg,Place
 F,Wraps,Amateur Open,67.5,Tina Kinsley,66.95,130,65,137.5,332.5,SBD,,1
 F,Wraps,Amateur Open,100,Brooke Robinson,93.17,147.5,65,137.5,350,SBD,,1
-F,Wraps,Pro Open,110+,Lynette Ritchie,114.76,190,107.5,210,507.49,SBD,,1
-F,Wraps,Pro Master 50-54,110+,Lynette Ritchie,114.76,190,107.5,210,507.49,SBD,,1
+F,Wraps,Pro Open,90+,Lynette Ritchie,114.76,190,107.5,210,507.49,SBD,,1
+F,Wraps,Pro Master 50-54,90+,Lynette Ritchie,114.76,190,107.5,210,507.49,SBD,,1
 M,Wraps,Amateur Teen 18-19,75,Cohen Reimers,72.03,150,92.5,155,397.49,SBD,,1
 M,Wraps,Amateur Junior 20-23,75,Landan Yount,74.03,147.5,85,190,422.49,SBD,,1
 M,Raw,Amateur Teen 14-15,82.5,Jacob Plattner,76.02,160,102.5,170,432.5,SBD,,1
@@ -25,14 +25,14 @@ M,Wraps,Pro Master 40-44,125,David Taylor,124.83,250,172.5,250,672.49,SBD,,1
 M,Raw,Military Amateur Master 40-44,125,Rodney Slone,119.84,147.5,95,182.5,424.99,SBD,,1
 M,Wraps,Pro Master 60-64,125,Tim Ritchie,114.31,160,20.41,185,365.41,SBD,,1
 M,Wraps,Pro Junior 20-23,140,Destin Johnson,137.26,300,227.5,320,847.49,SBD,,1
-F,Raw,Pro Open,110+,Lynette Ritchie,114.76,,107.5,,107.5,B,,1
-F,Raw,Pro Master 50-54,110+,Lynette Ritchie,114.76,,107.5,,107.5,B,,1
+F,Raw,Pro Open,90+,Lynette Ritchie,114.76,,107.5,,107.5,B,,1
+F,Raw,Pro Master 50-54,90+,Lynette Ritchie,114.76,,107.5,,107.5,B,,1
 M,Single-ply,Pro Master 60-64,100,Dan Goble,97.52,,162.5,,162.5,B,,1
 M,Single-ply,Pro Open,110,Danny Rodriguez #1,107.32,,207.5,,207.5,B,,1
 M,Raw,Pro Open,125,Bryan Culp Jr,117.12,,170,,170,B,,1
 M,Raw,Pro Master 60-65,125,Bryan Culp Sr,120.66,,142.5,,142.5,B,,1
-F,Raw,Pro Open,110+,Lynette Ritchie,114.76,,107.5,210,317.5,BD,,1
-F,Raw,Pro Master 50-54,110+,Lynette Ritchie,114.76,,107.5,210,317.5,BD,,1
+F,Raw,Pro Open,90+,Lynette Ritchie,114.76,,107.5,210,317.5,BD,,1
+F,Raw,Pro Master 50-54,90+,Lynette Ritchie,114.76,,107.5,210,317.5,BD,,1
 M,Raw,Amateur Junior 20-23,90,Chase Stiffler,84.82,,102.5,162.5,265,BD,,1
 M,Raw,Pro Open,110,Joe DiMaggio,102.97,,147.5,235,382.5,BD,,1
 M,Raw,Amateur Open,100,Austin Dutton,96.25,,145,227.48,372.48,BD,,1
