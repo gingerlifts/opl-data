@@ -42,7 +42,7 @@ M,Wraps,Amateur Junior 20-23,82.5,Cody Cunliffe,,79.2,149.69,117.93,260.82,528.4
 M,Wraps,Amateur Junior 20-23,82.5,David Salvatore,,82.46,204.12,122.47,217.72,544.31,SBD,1
 M,Wraps,Amateur Open,82.5,Danny Padilla,,78.29,181.44,129.27,215.46,526.17,SBD,2
 M,Wraps,Pro Open,82.5,Keith Bratley P,,81.47,242.67,151.95,272.16,666.78,SBD,1
-M,Wraps,Military Pro Submaster,82.5,Russell Fiske,,81.19,195.04,136.08,204.12,535.24,SBD,1
+M,Wraps,Military Pro Submaster 33-39,82.5,Russell Fiske,,81.19,195.04,136.08,204.12,535.24,SBD,1
 M,Wraps,Pro Submaster 33-39,82.5,Russell Fiske,,81.19,195.04,136.08,204.12,535.24,SBD,1
 M,Raw,Amateur Master 45-49,90,Robert Batista,,89.09,195.04,149.69,249.48,594.21,SBD,1
 M,Wraps,Amateur Junior 20-23,90,Eric Winter,,89.27,185.97,133.81,215.46,535.24,SBD,1
@@ -76,7 +76,7 @@ M,Wraps,Amateur Submaster 33-39,110,Erik Bonini,,104.05,181.44,127.01,217.72,526
 M,Wraps,Police Amateur Open,110,Izzie Machado,,106.59,181.44,183.7,226.8,591.94,SBD,1
 M,Wraps,Pro Junior 20-23,110,Nick Rice,,104.42,281.23,183.7,306.17,771.11,SBD,1
 M,Wraps,Pro Open,110,Melvin West,,107.86,272.16,200.71,301.64,774.51,SBD,1
-M,Wraps,Pro subMaster,110,Melvin West,,107.86,272.16,200.71,301.64,774.51,SBD,1
+M,Wraps,Pro Submaster 33-39,110,Melvin West,,107.86,272.16,200.71,301.64,774.51,SBD,1
 M,Multi-ply,Pro Open,125,John H Crane III,,121.2,326.59,281.23,317.51,925.33,SBD,1
 M,Raw,Amateur Junior 20-23,125,Rich De Angelo,,119.66,219.99,163.29,219.99,603.28,SBD,1
 M,Raw,Amateur Master 40-44,125,Marc Brodsky,,123.47,140.61,115.67,188.24,444.52,SBD,1
@@ -84,7 +84,7 @@ M,Raw,Military Pro Junior 20-23,125,Salvatore Sciascia,,113.49,249.48,210.92,281
 M,Wraps,Amateur Open,125,James Clairmont,,119.39,213.19,185.97,249.48,648.64,SBD,2
 M,Wraps,Amateur Open,125,Jarrett Foster,,115.85,265.35,170.1,326.59,762.04,SBD,1
 M,Wraps,Pro Open,125,Katori L Wilcher,,122.02,294.84,210.92,340.19,845.95,SBD,1
-M,Wraps,Pro subMaster,125,Katori L Wilcher,,122.02,294.84,210.92,340.19,845.95,SBD,1
+M,Wraps,Pro Submaster 33-39,125,Katori L Wilcher,,122.02,294.84,210.92,340.19,845.95,SBD,1
 M,Single-ply,Amateur Open,125,Joseph Rybaruk Jr,,119.48,249.48,276.69,199.58,725.75,SBD,1
 M,Wraps,Amateur Open,140,Sal Safonte,,135.99,219.99,124.74,272.16,616.89,SBD,2
 M,Wraps,Amateur Open,140,Gary Palmer,,126.46,242.67,147.42,254.01,644.1,SBD,1
@@ -94,7 +94,7 @@ M,Raw,Amateur Junior 20-23,140,Garrett Lapolt,,139.25,,183.7,,183.7,B,1
 M,Single-ply,Amateur Submaster 33-39,125,Joseph Rybaruk Jr,,119.48,,276.69,,276.69,B,1
 M,Raw,Amateur Master 60-64,125,Willie Foster,,118.75,,127.01,229.06,356.07,BD,1
 M,Raw,Amateur Open,100,Joseph Turner,,97.79,,,256.28,256.28,D,1
-F,Raw,Elite Open,48,Reyna Salvatore,,44.27,90.72,52.16,120.2,263.08,SBD,1
+F,Raw,Pro Open,48,Reyna Salvatore,,44.27,90.72,52.16,120.2,263.08,SBD,1
 F,Wraps,Amateur Open,56,Martine Acanfora,,55.88,106.59,56.7,124.74,288.03,SBD,1
 F,Wraps,Amateur Open,75,Megan Eule,,74.03,113.4,68.04,147.42,328.85,SBD,1
 F,Wraps,Amateur Teen 16-17,75,Michaela Kopp,,69.67,122.47,63.5,136.08,322.05,SBD,1

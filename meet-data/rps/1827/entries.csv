@@ -1,7 +1,7 @@
 Sex,Equipment,Division,WeightClassKg,Name,BodyweightKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Bench4Kg,Place
 M,Raw,Pro Master 40-44,110,Daniel Gavin,108.77,183.7,,183.7,B,,1
 F,Raw,Amateur Submaster 33-39,75,Natalie Montone,74.75,,117.93,117.93,D,,1
-M,Raw,Elite Open,90,Abner Nazario,86.45,,319.78,319.78,D,,1
+M,Raw,Pro Open,90,Abner Nazario,86.45,,319.78,319.78,D,,1
 M,Raw,Amateur Junior 20-23,82.5,Cody Cunliffe,81.65,,272.16,272.16,D,,1
 F,Raw,Amateur Master 45-49,60,Maria Nowacki Lifsted,57.52,43.09,,43.09,B,,1
 F,Raw,Amateur Junior 20-23,67.5,Nicole Bangert,64.68,89.81,151.95,241.54,BD,,1
@@ -21,7 +21,7 @@ M,Raw,Amateur Open,100,Sean T. Heller,98.97,147.42,199.58,347,BD,,2
 M,Raw,Amateur Open,100,Samuel May,92.53,156.49,215.46,371.95,BD,,1
 M,Raw,Amateur Teen 14-15,100,Jake Richard Taylor,97.07,97.52,217.72,315.25,BD,,1
 M,Raw,Military Amateur Master 55-59,100,Eric Blake,97.7,147.42,183.7,331.12,BD,,1
-M,Raw,Police-Fire Amateur Open,110,Michael Callahan,105.23,151.95,260.82,412.77,BD,,1
+M,Raw,Police/Fire/Military Amateur Open,110,Michael Callahan,105.23,151.95,260.82,412.77,BD,,1
 M,Raw,Amateur Junior 20-23,110,Brendan Armstrong,106.14,149.69,249.48,399.16,BD,,1
 M,Multi-ply,Amateur Master 60-64,125,Marvin Smith,117.57,115.67,151.95,267.62,BD,,1
 M,Raw,Amateur Open,125,Marc Masishin,123.2,190.51,267.62,458.13,BD,,1
