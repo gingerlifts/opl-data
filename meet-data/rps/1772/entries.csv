@@ -25,7 +25,7 @@ F,Raw,Amateur Open,75,Melissa Bock,73.39,97.52,58.97,120.2,276.69,SBD,1
 F,Raw,Amateur Submaster 33-39,75,Mary Smith,73.12,117.93,68.04,145.15,331.12,SBD,1
 F,Wraps,Amateur Open,75,Jacquelyn Hastings,74.48,142.88,,,,SBD,DQ
 F,Wraps,Amateur Teen 18-19,75,Caitlyn Reed,74.3,92.99,56.7,136.08,285.76,SBD,1
-F,Wraps,Military Amateur Junior 20-23,75,Amanda Noll,73.84,108.86,70.31,156.49,335.66,SBD,1
+F,Wraps,Amateur Junior 20-23,75,Amanda Noll,73.84,108.86,70.31,156.49,335.66,SBD,1
 F,Wraps,Military Amateur Open,75,Amanda Noll,73.84,108.86,70.31,156.49,335.66,SBD,1
 F,Raw,Amateur Junior 20-23,82.5,Caitlyn Porcaro,79.92,142.88,65.77,190.51,399.16,SBD,1
 F,Raw,Amateur Open,82.5,Sandra Else,81.19,129.27,70.31,149.69,349.27,SBD,2
@@ -73,14 +73,14 @@ M,Wraps,Amateur Open,75,Billy Walsh,70.49,172.37,95.25,219.99,487.61,SBD,3
 M,Wraps,Amateur Open,75,Nydir Hayden,74.3,226.8,131.54,215.46,573.79,SBD,2
 M,Wraps,Amateur Junior 20-23,75,Nydir Hayden,74.3,226.8,131.54,215.46,573.79,SBD,1
 M,Wraps,Amateur Open,75,Rob Pezolano,74.21,215.46,138.35,226.8,580.6,SBD,1
-M,Wraps,Military Amateur Junior 20-23,75,Joe Evans,72.76,172.37,127.01,222.26,521.63,SBD,1
+M,Wraps,Amateur Junior 20-23,75,Joe Evans,72.76,172.37,127.01,222.26,521.63,SBD,1
 M,Wraps,Military Amateur Open,75,Joe Evans,72.76,172.37,127.01,222.26,521.63,SBD,1
 M,Raw,Amateur Open,82.5,Devan Hoey,82.1,170.1,151.95,235.87,557.92,SBD,1
 M,Raw,Amateur Open,82.5,Ryan Poeldnurk,81.28,183.7,136.08,233.6,553.38,SBD,2
 M,Wraps,Amateur Junior 20-23,82.5,Christian Fletcher,79.74,174.63,106.59,215.46,496.68,SBD,3
 M,Wraps,Amateur Junior 20-23,82.5,Austin James Brady,81.01,206.38,129.27,244.94,580.6,SBD,2
 M,Wraps,Amateur Junior 20-23,82.5,Tyler E Roy,81.74,256.28,151.95,240.4,648.64,SBD,1
-M,Wraps,Military Amateur Junior 20-23,82.5,Tyler E Roy,81.74,256.28,151.95,240.4,648.64,SBD,1
+M,Wraps,Military Amateur Open,82.5,Tyler E Roy,81.74,256.28,151.95,240.4,648.64,SBD,1
 M,Wraps,Amateur Open,82.5,Stephen Borden,81.47,167.83,122.47,213.19,503.49,SBD,4
 M,Wraps,Amateur Open,82.5,Aaron Morekin,82.28,181.44,122.47,210.92,514.83,SBD,3
 M,Wraps,Amateur Open,82.5,Nicholas Buras,80.01,197.31,124.74,213.19,535.24,SBD,2
@@ -104,7 +104,8 @@ M,Single-ply,Pro Master 40-44,90,Matthew Dierolf,89.45,,,,,SBD,DQ
 M,Wraps,Amateur Junior 20-23,100,Nathan Gockley,92.8,195.04,138.35,226.8,560.19,SBD,4
 M,Wraps,Amateur Master 40-44,125,Scott Bermingham,117.84,226.8,149.69,260.82,637.3,SBD,1
 M,Raw,Military Amateur Open,67.5,Jose Daniel Juarez,64.23,,61.23,142.88,204.12,BD,1
-M,Raw,Police Amateur Submaster 33-39,82.5,Reinard Naves,79.56,,176.9,235.87,412.77,BD,1
+M,Raw,Amateur Submaster 33-39,82.5,Reinard Naves,79.56,,176.9,235.87,412.77,BD,1
+M,Raw,Police Amateur Open,82.5,Reinard Naves,79.56,,176.9,235.87,412.77,BD,1
 M,Raw,Amateur Submaster 33-39,75,Jeremy Lengle,74.12,,115.67,,115.67,B,1
 M,Raw,Amateur Teen 18-19,90,Jacob Borland,88.09,,185.97,,185.97,B,1
 M,Raw,Pro Open,90,Tim Lewis,89.63,,193.91,,193.91,B,1
