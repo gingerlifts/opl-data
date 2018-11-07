@@ -26,10 +26,10 @@
     veteran = {name = "Veteran", min = 0, max = 999}
     pro_open = {name = "Pro Open", min = 0, max = 999}
 
-    # Meets sometimes used combined weightclass divisions, inconsistent on weight classes
-    heavy = {name = "Heavy", min = 0, max = 999}
-    middle = {name = "Middle", min = 0, max = 999}
-    light = {name = "Light", min = 0, max = 999}
+    # Meets sometimes used combined weightclass divisions
+    heavy = {name = "Heavy", min = 0, max = 999} #Usually 110+ for men, 75+ for women
+    middle = {name = "Middle", min = 0, max = 999}#Usually 110
+    light = {name = "Light", min = 0, max = 999}#Usually 90 for men, 75 for women
 
 
 [weightclasses.default_M]
