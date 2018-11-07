@@ -1,5 +1,5 @@
 Sex,Equipment,Division,WeightClassKg,Name,Age,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Place
-F,Raw,Amateur Youth (9),44,Layla Merkh,9,36.38,40.82,22.68,68.04,131.54,SBD,1
+F,Raw,Amateur Youth,44,Layla Merkh,9,36.38,40.82,22.68,68.04,131.54,SBD,1
 F,Raw,Amateur Open,48,Emma Ife,,46.08,95.25,56.7,97.52,249.48,SBD,1
 F,Raw,Amateur Open,52,Cynthia St. Clair,,51.8,90.72,49.9,127.01,267.62,SBD,1
 F,Raw,Amateur Open,52,Venus Smith,,51.8,74.84,49.9,136.08,260.82,SBD,2
@@ -79,7 +79,8 @@ M,Wraps,Amateur Open,90,Jason Budsock,,89.54,206.38,129.27,258.55,594.21,SBD,2
 M,Wraps,Amateur Open,90,Keron Wilson,,88.09,192.78,163.29,233.6,589.67,SBD,3
 M,Wraps,Amateur Open,90,Eric Schwartz,,87.27,199.58,131.54,238.14,569.26,SBD,4
 M,Wraps,Amateur Master 40-44,90,Eric Schwartz,,87.27,199.58,131.54,238.14,569.26,SBD,1
-M,Wraps,Military Amateur Junior 20-23,90,Ross Dominianni,,87,170.1,124.74,204.12,498.95,SBD,1
+M,Wraps,Military Amateur Open,90,Ross Dominianni,,87,170.1,124.74,204.12,498.95,SBD,1
+M,Wraps,Amateur Junior 20-23,90,Ross Dominianni,,87,170.1,124.74,204.12,498.95,SBD,1
 M,Wraps,Amateur Open,90,Jarred Buchanan,,89.72,190.51,117.93,206.38,514.83,SBD,5
 M,Wraps,Pro Junior 20-23,90,Nick Bonavito,,89.27,272.16,181.44,249.48,703.07,SBD,1
 M,Wraps,Pro Junior 20-23,90,Nate Miriello,,88.36,199.58,174.63,249.48,623.69,SBD,2
@@ -99,8 +100,8 @@ M,Raw,Amateur Junior 20-23,82.5,Joey Colella,,80.1,,163.29,240.4,403.7,BD,1
 M,Raw,Amateur Junior 20-23,90,Greg Barnish,,89.36,,156.49,210.92,367.41,BD,2
 M,Raw,Amateur Submaster 33-39,140+,Sam Gellura Sr,,145.88,,190.51,272.16,462.66,BD,1
 M,Raw,Amateur Junior 20-23,82.5,Abner Nazario,,80.38,,,265.35,265.35,D,1
-F,Wraps,Amateur Youth (12),48,Naomi Kutin,12,46.9,102.06,47.63,20.41,170.1,SBD,1
-M,Raw,Amateur Youth (11),52,Ari Kutin,11,46.36,88.45,40.82,106.59,235.87,SBD,1
+F,Wraps,Amateur Youth,48,Naomi Kutin,12,46.9,102.06,47.63,20.41,170.1,SBD,1
+M,Raw,Amateur Youth,52,Ari Kutin,11,46.36,88.45,40.82,106.59,235.87,SBD,1
 F,Wraps,Pro Junior 20-23,75,Stephanie Diaz,,69.67,136.08,81.65,167.83,385.55,SBD,1
 M,Raw,Amateur Teen 18-19,100,Bobby Brown,,95.25,192.78,120.2,226.8,539.77,SBD,1
 M,Multi-ply,Pro Open,100,Michael Crowley,,99.34,322.05,288.03,267.62,877.7,SBD,1
