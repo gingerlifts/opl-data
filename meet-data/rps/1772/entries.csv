@@ -71,7 +71,7 @@ M,Wraps,Amateur Junior 20-23,75,Alec Del Viscio,74.12,188.24,104.33,238.14,530.7
 M,Wraps,Amateur Master 55-59,75,Richard Walsh,72.94,185.97,104.33,215.46,505.76,SBD,1
 M,Wraps,Amateur Open,75,Billy Walsh,70.49,172.37,95.25,219.99,487.61,SBD,3
 M,Wraps,Amateur Open,75,Nydir Hayden,74.3,226.8,131.54,215.46,573.79,SBD,2
-M,Wraps,Amateur junior 20-23,75,Nydir Hayden,74.3,226.8,131.54,215.46,573.79,SBD,1
+M,Wraps,Amateur Junior 20-23,75,Nydir Hayden,74.3,226.8,131.54,215.46,573.79,SBD,1
 M,Wraps,Amateur Open,75,Rob Pezolano,74.21,215.46,138.35,226.8,580.6,SBD,1
 M,Wraps,Military Amateur Junior 20-23,75,Joe Evans,72.76,172.37,127.01,222.26,521.63,SBD,1
 M,Wraps,Military Amateur Open,75,Joe Evans,72.76,172.37,127.01,222.26,521.63,SBD,1
@@ -108,8 +108,8 @@ M,Raw,Police Amateur Submaster,82.5,Reinard Naves,79.56,,176.9,235.87,412.77,BD,
 M,Raw,Amateur Submaster 33-39,75,Jeremy Lengle,74.12,,115.67,,115.67,B,1
 M,Raw,Amateur Teen 18-19,90,Jacob Borland,88.09,,185.97,,185.97,B,1
 M,Raw,Pro Open,90,Tim Lewis,89.63,,193.91,,193.91,B,1
-M,Raw,Pro SUBmaster,90,Tim Lewis,89.63,,193.91,,193.91,B,1
-M,Raw,Amateur MASTER 60-64,67.5,Christ Loutrary,63.87,,,190.51,190.51,D,1
+M,Raw,Pro Submaster 33-39,90,Tim Lewis,89.63,,193.91,,193.91,B,1
+M,Raw,Amateur Master 60-64,67.5,Christ Loutrary,63.87,,,190.51,190.51,D,1
 M,Single-ply,Pro Master 50-54,100,Chuck Blough,97.16,,,276.69,276.69,D,1
 M,Raw,Pro Junior 20-23,140+,Patrick Maguire,144.33,351.53,254.01,301.64,907.18,SBD,1
 M,Raw,Amateur Junior 20-23,100,Kevin Hayes,94.53,217.72,172.37,263.08,653.17,SBD,2
@@ -164,7 +164,7 @@ F,Raw,Pro Open,60,Annastasia Harris,59.24,127.01,86.18,136.08,349.27,SBD,1
 F,Wraps,Amateur Junior 20-23,60,Hannah Easly,58.24,115.67,70.31,147.42,333.39,SBD,1
 F,Wraps,Amateur Open,60,Lauren Mandell,59.51,120.2,72.57,147.42,340.19,SBD,1
 F,Wraps,Amateur Open,67.5,Katie Rakaczewski,66.95,106.59,63.5,142.88,312.98,SBD,3
-F,Wraps,Crossfit Submaster,67.5,Heather A Ely,64.59,111.13,58.97,138.35,308.44,SBD,1
+F,Wraps,Crossfit,67.5,Heather A Ely,64.59,111.13,58.97,138.35,308.44,SBD,1
 F,Raw,Amateur Open,75,Kirsten M Long,74.75,104.33,49.9,122.47,276.69,SBD,2
 F,Wraps,Amateur Open,75,Nicole Snyder,74.48,140.61,86.18,131.54,358.34,SBD,1
 F,Wraps,Amateur Open,75,Elizabeth Tumpa,72.03,113.4,56.7,133.81,303.91,SBD,3
