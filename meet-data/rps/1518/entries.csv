@@ -15,7 +15,7 @@ F,Raw,Amateur Open,67.5,Juliana Stephan,,67.4,92.99,54.43,124.74,272.16,SBD,3
 F,Wraps,Amateur Open,67.5,Heather Wolak,,66.59,111.13,63.5,142.88,317.51,SBD,2
 F,Wraps,Amateur Open,67.5,Tina Rivera,,65.05,102.06,61.23,127.01,290.3,SBD,3
 F,Wraps,Amateur Open,67.5,Lauren Enes,,63.87,68.04,38.56,102.06,208.65,SBD,5
-F,Wraps,Crossfit Open,67.5,Regina Soares,,67.31,,,,,SBD,DQ
+F,Wraps,Crossfit,67.5,Regina Soares,,67.31,,,,,SBD,DQ
 F,Wraps,Amateur Submaster 33-39,67.5,Heather Wolak,,66.59,111.13,63.5,142.88,317.51,SBD,2
 F,Raw,Amateur Junior 20-23,75,Carla Tarrach,,74.48,131.54,68.04,158.76,358.34,SBD,1
 F,Raw,Amateur Master 45-49,75,Cynthia Line,,72.12,127.01,77.11,158.76,362.87,SBD,1
@@ -105,7 +105,7 @@ M,Single-ply,Police Amateur Open,90,Chase Carter,,89.99,281.23,219.99,272.16,773
 M,Raw,Amateur Open,100,Saladin Butler,,99.06,215.46,138.35,258.55,612.35,SBD,4
 M,Raw,Amateur Open,100,Ryan DeFalco,,97.89,217.72,170.1,226.8,614.62,SBD,3
 M,Raw,Amateur Open,100,Gavin Wade,,98.79,204.12,158.76,254.01,616.89,SBD,2
-M,Raw,Crossfit Open,100,Raymond Peters,,99.79,163.29,113.4,238.14,514.83,SBD,1
+M,Raw,Crossfit,100,Raymond Peters,,99.79,163.29,113.4,238.14,514.83,SBD,1
 M,Raw,Pro Open,100,Matt Kimmel,,98.88,238.14,158.76,281.23,678.12,SBD,2
 M,Raw,Pro Open,100,Elish Le,,99.97,244.94,147.42,294.84,687.19,SBD,1
 M,Wraps,Amateur Master 50-54,100,Andrew Cinque,,98.07,190.51,154.22,219.99,564.72,SBD,1
@@ -165,9 +165,9 @@ F,Wraps,Pro Submaster 33-39,67.5,Tarryn Stavola,,64.05,111.13,77.11,124.74,312.9
 F,Raw,Amateur Open,75,Colleen Lawrence,,73.94,124.74,72.57,161.03,358.34,SBD,2
 F,Raw,Amateur Open,75,Rachel Urcinas,,71.76,90.72,52.16,108.86,251.74,SBD,4
 F,Wraps,Amateur Open,90,Brittney Sinker,,89.54,142.88,83.91,185.97,412.77,SBD,1
-F,Raw,Crossfit 379.509,82.5,Pamela Godinho,,80.74,77.11,49.9,124.74,251.74,SBD,1
-F,Wraps,Crossfit 473.565,75,Elizabeth Mendez,,74.98,95.25,65.77,136.08,297.1,SBD,1
-F,Raw,Crossfit 535.205,52,Ilda Sampaio,,51.71,74.84,47.63,127.01,249.48,SBD,1
+F,Raw,Crossfit,82.5,Pamela Godinho,,80.74,77.11,49.9,124.74,251.74,SBD,1
+F,Wraps,Crossfit,75,Elizabeth Mendez,,74.98,95.25,65.77,136.08,297.1,SBD,1
+F,Raw,Crossfit,52,Ilda Sampaio,,51.71,74.84,47.63,127.01,249.48,SBD,1
 M,Raw,Amateur Junior 20-23,67.5,David Vu,,65.41,142.88,115.67,170.1,428.64,SBD,1
 M,Raw,Amateur Open,67.5,Scott Theaman,,66.68,102.06,77.11,142.88,322.05,SBD,2
 M,Wraps,Amateur Open,67.5,Eric Deribin,,67.13,163.29,106.59,190.51,460.4,SBD,1

@@ -46,7 +46,7 @@ F,Wraps,Elite Open,48,Deanne Tonry,52,46.99,104.33,,129.27,233.6,SD,1
 F,Raw,Amateur Open,60,Lindsey Farrell,,58.69,102.06,,120.2,222.26,SD,1
 F,Raw,Amateur Submaster 33-39,67.5,Hilary Wynne,,64.95,,47.63,113.4,161.03,BD,1
 F,Raw,Amateur Open,60,Emma Chung,,57.33,83.91,54.43,127.01,265.35,SBD,3
-F,Raw,Crossfit Submaster,75,Monique Smalls,,73.94,102.06,68.04,151.95,322.05,SBD,1
+F,Raw,Crossfit,75,Monique Smalls,,73.94,102.06,68.04,151.95,322.05,SBD,1
 F,Raw,Amateur Open,82.5,Danielle E Oliveira,,79.11,113.4,61.23,136.08,310.71,SBD,2
 F,Raw,Amateur Junior 20-23,90,Olivia Durgin,,89.99,115.67,77.11,131.54,324.32,SBD,1
 F,Raw,Amateur Open,90,Nicole Giggie,,88.72,113.4,49.9,127.01,290.3,SBD,1
@@ -55,7 +55,7 @@ F,Raw,Amateur Open,100,Samantha Decker Nemeth,,96.07,92.99,61.23,147.42,301.64,S
 F,Raw,Amateur Open,100,Bonnie Cobleigh,,92.08,131.54,65.77,158.76,356.07,SBD,1
 F,Raw,Amateur Master 40-44,90+,Janine Palmer,,110.5,54.43,56.7,115.67,226.8,SBD,1
 F,Raw,Amateur Open,90+,Nicole D'Alessandro,,104.33,86.18,54.43,127.01,267.62,SBD,1
-F,Raw,Crossfit Open,90+,Andrea Scully,,112.49,127.01,68.04,170.1,365.14,SBD,1
+F,Raw,Crossfit,90+,Andrea Scully,,112.49,127.01,68.04,170.1,365.14,SBD,1
 M,Raw,Amateur Master 40-44,75,Michael Wainwright,,73.48,113.4,83.91,149.69,347,SBD,1
 M,Raw,Amateur Master 55-59,75,Mike Medeiros,,72.3,102.06,111.13,142.88,356.07,SBD,1
 M,Raw,Amateur Open,75,Joe Cassaro,,68.4,163.29,99.79,176.9,439.98,SBD,3
@@ -168,7 +168,7 @@ M,Raw,Amateur Submaster 33-39,100,Darren Lafreniere,,99.97,172.37,129.27,192.78,
 M,Wraps,Amateur Junior 20-23,100,Michael Gifford,,96.25,210.92,136.08,238.14,585.13,SBD,1
 M,Wraps,Amateur Open,100,Brian Martins,,99.16,179.17,104.33,219.99,503.49,SBD,6
 M,Wraps,Pro Open,100,Jeff Josselyn,,97.34,288.03,179.17,265.35,732.55,SBD,1
-M,Wraps,Pro submaster,100,Jeff Josselyn,,97.34,288.03,179.17,265.35,732.55,SBD,1
+M,Wraps,Pro subMaster,100,Jeff Josselyn,,97.34,288.03,179.17,265.35,732.55,SBD,1
 M,Raw,Amateur Master 50-54,125,Russ Karlberg,,113.13,156.49,133.81,238.14,528.44,SBD,1
 M,Wraps,Military Amateur Open,125,Steven Raposa,,111.67,204.12,136.08,208.65,548.85,SBD,1
 F,Raw,Amateur Open,67.5,Tanya Wareck,,66.13,,49.9,127.01,176.9,BD,2

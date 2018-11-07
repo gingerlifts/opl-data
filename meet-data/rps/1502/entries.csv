@@ -4,15 +4,15 @@ F,Raw,Amateur Open,60,Trisha Lamb,56.25,88.45,56.7,104.33,249.48,SBD,1
 F,Raw,Amateur Open,60,Cassandra Haynes,58.51,90.72,34.02,117.93,242.67,SBD,2
 F,Wraps,Amateur Master 45-49,60,Tera Thornton,58.51,70.31,63.5,111.13,244.94,SBD,1
 F,Raw,Amateur Master 55-59,67.5,Cheryl Williams,64.23,70.31,47.63,92.99,210.92,SBD,1
-F,Raw,Crossfit Open,75,Kimberly Einstein #2,71.67,77.11,54.43,102.06,233.6,SBD,1
+F,Raw,Crossfit,75,Kimberly Einstein #2,71.67,77.11,54.43,102.06,233.6,SBD,1
 F,Wraps,Amateur Master,75,Karla Johnson,73.94,79.38,70.31,142.88,292.57,SBD,1
 F,Wraps,Pro Open,75,Rachael Naseman,73.03,138.35,83.91,163.29,385.55,SBD,1
 F,Wraps,Pro Junior 20-23,82.5,Alexis Pihoker,79.83,161.03,92.99,199.58,453.59,SBD,1
 M,Raw,Amateur Teen 18-19,67.5,Jose Arroyo,67.13,136.08,74.84,147.42,358.34,SBD,1
 M,Raw,Amateur Open,75,Daryl Holmes,74.84,113.4,68.04,158.76,340.19,SBD,1
 M,Raw,Amateur Submaster 33-39,75,Steve Snyder,71.21,90.72,106.59,129.27,326.59,SBD,1
-M,Raw,Crossfit Open,75,Steven Nelson,74.39,147.42,124.74,172.37,444.52,SBD,1
-M,Raw,Crossfit Open,75,Deante Lamb,73.03,145.15,106.59,190.51,442.25,SBD,2
+M,Raw,Crossfit,75,Steven Nelson,74.39,147.42,124.74,172.37,444.52,SBD,1
+M,Raw,Crossfit,75,Deante Lamb,73.03,145.15,106.59,190.51,442.25,SBD,2
 M,Wraps,Amateur Junior 20-23,75,Josh Ward,73.03,172.37,122.47,183.7,478.54,SBD,1
 M,Raw,Amateur Teen 16-17,82.5,Thomas Werner,78.02,133.81,86.18,158.76,378.75,SBD,1
 M,Wraps,Amateur Junior 20-23,82.5,Andrew Granato,81.65,197.31,136.08,251.74,585.13,SBD,1
@@ -50,7 +50,7 @@ M,Wraps,Pro Junior 20-23,125,Tanner Hysell,124.74,317.51,183.7,353.8,855.02,SBD,
 M,Wraps,Pro Junior 20-23,125,David Elmore,117.93,290.3,183.7,283.5,757.5,SBD,2
 M,Wraps,Amateur Open,140,Craig Patrick,139.25,272.16,151.95,249.48,673.58,SBD,1
 M,Wraps,Amateur Open,140,Benjamin Dewig,132,254.01,142.88,265.35,662.24,SBD,2
-M,Wraps,Crossfit Open,140,Joe Robinette,136.53,192.78,154.22,219.99,566.99,SBD,1
+M,Wraps,Crossfit,140,Joe Robinette,136.53,192.78,154.22,219.99,566.99,SBD,1
 F,Raw,Amateur Master 65-69,110,Melanie Farmer,100.24,,31.75,88.45,120.2,BD,1
 M,Raw,Pro Master 45-49,90,Dave Basler,89.81,,163.29,249.48,412.77,BD,1
 M,Raw,Amateur Master 65-69,110,Dean Farmer,105.96,,61.23,136.08,197.31,BD,1
