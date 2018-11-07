@@ -6,12 +6,12 @@ F,Wraps,Pro Junior 20-23,56,Emily Gillespie,52.8,120.2,,58.97,145.15,324.32,SBD,
 F,Raw,Amateur Open,60,Mercedes Carota,58.51,102.06,,65.77,140.61,308.44,SBD,1
 F,Wraps,Amateur Open,60,Michelle Horowitz,59.33,102.06,,56.7,113.4,272.16,SBD,2
 F,Wraps,Amateur Open,60,Melissa Curtis,59.99,113.4,,56.7,124.74,294.84,SBD,1
-F,Wraps,Crossfit Open,60,Sherrie Yacalis,59.87,90.72,,63.5,124.74,278.96,SBD,1
+F,Wraps,Crossfit,60,Sherrie Yacalis,59.87,90.72,,63.5,124.74,278.96,SBD,1
 F,Wraps,Amateur Junior 20-23,60,Stella Silvestrini,59.06,115.67,,54.43,124.74,294.84,SBD,1
 F,Raw,Amateur Open,67.5,Jenaye Tyno,65,83.91,,49.9,113.4,247.21,SBD,2
 F,Raw,Amateur Open,67.5,Colleen Secor,67.04,113.4,,74.84,154.22,342.46,SBD,1
 F,Raw,Amateur Submaster 33-39,67.5,Colleen Secor,67.04,113.4,,74.84,154.22,342.46,SBD,1
-F,Raw,Crossfit Open,67.5,Ann Claire Bales,65.68,79.38,,47.63,108.86,235.87,SBD,1
+F,Raw,Crossfit,67.5,Ann Claire Bales,65.68,79.38,,47.63,108.86,235.87,SBD,1
 F,Wraps,Pro Open,67.5,Heather Freeborn,67.49,111.13,,52.16,120.2,283.5,SBD,1
 F,Raw,Amateur Master 45-49,75,Genevieve Washington,72.39,102.06,,61.23,113.4,276.69,SBD,1
 F,Raw,Amateur Open,82.5,Gina Scrocchi,80.83,142.88,,83.91,190.51,417.3,SBD,1
@@ -40,7 +40,7 @@ M,Raw,Amateur Junior 20-23,75,Dan Brown #3,74.75,145.15,,113.4,183.7,442.25,SBD,
 M,Raw,Amateur Junior 20-23,75,Ryan Hudson,73.39,156.49,,86.18,226.8,469.47,SBD,1
 M,Raw,Amateur Open,75,Anthony Gregorio,73.75,149.69,,86.18,185.97,421.84,SBD,1
 M,Raw,Amateur Submaster 33-39,75,Erik Owen,73.94,195.04,,133.81,235.87,564.72,SBD,1
-M,Raw,Crossfit Open,75,Andrew Kuhn,71.58,65.77,,49.9,79.38,195.04,SBD,1
+M,Raw,Crossfit,75,Andrew Kuhn,71.58,65.77,,49.9,79.38,195.04,SBD,1
 M,Raw,Pro Open,75,Wayne S Schmitt Jr,72.67,188.24,,145.15,235.87,569.26,SBD,1
 M,Wraps,Amateur Junior 20-23,75,Sebastian Eades,73.75,124.74,,104.33,165.56,394.63,SBD,1
 M,Wraps,Pro Open,75,Dylan Molchanoff,73.48,165.56,,124.74,190.51,480.81,SBD,1
@@ -71,7 +71,7 @@ M,Raw,Amateur Master 50-54,90,Eugene Ring,87.91,217.72,,117.93,244.94,580.6,SBD,
 M,Raw,Amateur Open,90,George LoBianco,87.45,149.69,,88.45,204.12,442.25,SBD,2
 M,Raw,Amateur Open,90,Drew Nelson,86.18,197.31,,147.42,224.53,569.26,SBD,1
 M,Raw,Pro Open,90,Adam Miller #3,87.27,263.08,,154.22,272.16,689.46,SBD,1
-M,Raw,Pro Submaster 33-39,90,Adam Miller #3,87.27,263.08,,154.22,272.16,689.46,SBD,1
+M,Raw,Pro subMaster,90,Adam Miller #3,87.27,263.08,,154.22,272.16,689.46,SBD,1
 M,Wraps,Amateur Junior 20-23,90,Luke Zuber,89.72,156.49,,113.4,217.72,487.61,SBD,3
 M,Wraps,Amateur Junior 20-23,90,Michael Johnson,86,174.63,,102.06,233.6,510.29,SBD,2
 M,Wraps,Amateur Junior 20-23,90,Alex Wilson,87.45,192.78,,145.15,208.65,546.58,SBD,1
