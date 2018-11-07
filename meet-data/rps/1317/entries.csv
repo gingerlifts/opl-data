@@ -76,10 +76,10 @@ M,Raw,B,Amateur Junior 20-23,82.5,Alexander Gonchar,80.2,135,135,4
 M,Raw,B,Amateur Junior 20-23,82.5,Igor Germanovich,82,157.5,157.5,1
 M,Raw,B,Amateur Junior 20-23,82.5,Dmitry Frolenko,80,140,140,3
 M,Raw,B,Amateur Junior 20-23,82.5,Oleg Polishchuk,82,145,145,2
-M,Raw,B,Amateur Masters 40-44,82.5,Vitali Poulin,81.8,155,155,1
-M,Raw,B,Amateur Masters 50-54,82.5,Michael Sizykh,78.2,112.5,112.5,1
-M,Multi-ply,B,Amateur Masters 50-54,82.5,Vladimir Shumakov,80,150,150,1
-M,Raw,B,Amateur Masters 65-69,82.5,Alexander Nikitin,79,90,90,1
+M,Raw,B,Amateur Master 40-44,82.5,Vitali Poulin,81.8,155,155,1
+M,Raw,B,Amateur Master 50-54,82.5,Michael Sizykh,78.2,112.5,112.5,1
+M,Multi-ply,B,Amateur Master 50-54,82.5,Vladimir Shumakov,80,150,150,1
+M,Raw,B,Amateur Master 65-69,82.5,Alexander Nikitin,79,90,90,1
 M,Multi-ply,B,Amateur Open,100,Yuri Muzychenko,93.6,160,160,1
 M,Raw,B,Amateur Open,90,Gregory Kalypin,89.6,162.5,162.5,4
 M,Raw,B,Amateur Open,90,Michael Ulitsky,88,150,150,7
@@ -102,7 +102,7 @@ M,Raw,B,Amateur Teen 18-19,90,Eugene Pogrebnyak,88.1,132.5,132.5,3
 M,Raw,B,Amateur Teen 18-19,90,Roman Pohvatko,85.4,115,115,4
 M,Raw,B,Amateur Teen 18-19,90,Vyacheslav Yakovlev,89.8,150,150,1
 M,Raw,B,Amateur Teen 18-19,100,Roman Nagornyy,93.1,150,150,2
-M,Raw,B,Amateur Masters 40-44,90,Michael Ulitsky,88,150,150,1
+M,Raw,B,Amateur Master 40-44,90,Michael Ulitsky,88,150,150,1
 M,Raw,B,Amateur PFM,90,Denis Mazur,87.3,140,140,1
 M,Raw,B,Amateur Open,100,Sergei Kondrashenko,95.8,190,190,2
 M,Raw,B,Amateur Open,100,Yevgeny Vasilyev,91.5,127.5,127.5,4
@@ -111,15 +111,15 @@ M,Raw,B,Amateur Open,100,Dmitry Pavlenko,92.5,145,145,3
 M,Raw,B,Amateur Junior 20-23,100,Alexander Shaidulin,94.4,120,120,3
 M,Raw,B,Amateur Junior 20-23,100,Constantine Shershnyov,90.9,155,155,2
 M,Raw,B,Amateur Junior 20-23,100,Dmitry Gosman,100,162.5,162.5,1
-M,Raw,B,Amateur Masters 50-54,100,Nikolai Gorbachev,92.3,140,140,1
-M,Raw,B,Amateur Masters 55-59,100,Sergey Cherny,95.3,115,115,1
+M,Raw,B,Amateur Master 50-54,100,Nikolai Gorbachev,92.3,140,140,1
+M,Raw,B,Amateur Master 55-59,100,Sergey Cherny,95.3,115,115,1
 M,Raw,B,Amateur PFM,100,Sergei Kondrashenko,95.8,190,190,1
 M,Raw,B,Amateur PFM,100,Dmitry Zherebetsky,100,130,130,2
 M,Raw,B,Amateur Open,110,Alexander Kisly,110,212.5,212.5,1
 M,Raw,B,Amateur Open,110,Maxim Edrenikov,101,140,140,2
-M,Multi-ply,B,Amateur Masters 40-44,125,Alexander Chekachkov,116,,,DQ
+M,Multi-ply,B,Amateur Master 40-44,125,Alexander Chekachkov,116,,,DQ
 M,Raw,B,Amateur Open,125,Eugene Oleksenko,111,150,150,1
-M,Raw,B,Amateur Masters 40-44,125,Alexander Chekachkov,116,150,150,1
+M,Raw,B,Amateur Master 40-44,125,Alexander Chekachkov,116,150,150,1
 M,Raw,B,Amateur Junior 20-23,125,Victor Matrosov,114,140,140,1
 M,Raw,B,Amateur Open,140,Oleg Afanasyev,130,187.5,187.5,1
 F,Raw,B,Pro Open,56,Victoria Sokolova,55.3,80,80,1

@@ -1,7 +1,7 @@
 Sex,Equipment,Division,WeightClassKg,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Place
 F,Raw,Amateur Open,48,Tiffany Savanh,45.09,90.72,54.43,117.93,263.08,SBD,1
-F,Raw,Amateur Submaster,52,Joanne Jeffrey,51.62,81.65,61.23,120.2,263.08,SBD,1
-F,Raw,Amateur Submaster,52,Julie Bissett,50.62,86.18,45.36,106.59,238.14,SBD,2
+F,Raw,Amateur Submaster 33-39,52,Joanne Jeffrey,51.62,81.65,61.23,120.2,263.08,SBD,1
+F,Raw,Amateur Submaster 33-39,52,Julie Bissett,50.62,86.18,45.36,106.59,238.14,SBD,2
 F,Wraps,Amateur Open,52,Alexandra Epp,51.98,102.06,,129.27,,SBD,DQ
 F,Raw,Amateur Junior 20-23,60,Amanda Milne,58.6,124.74,68.04,129.27,322.05,SBD,1
 F,Raw,Amateur Junior 20-23,60,Pauline Timmerman,59.42,86.18,47.63,102.06,235.87,SBD,2
@@ -18,19 +18,19 @@ F,Wraps,Pro Open,67.5,Shannon Larsen,65.95,136.08,61.23,151.95,349.27,SBD,2
 F,Wraps,Pro Open,67.5,Christina Bruce,66.41,131.54,54.43,138.35,324.32,SBD,3
 F,Raw,Amateur Junior 20-23,75,Elizabeth Venning,74.98,99.79,54.43,138.35,292.57,SBD,1
 F,Raw,Amateur Open,75,Ashley-Anne Westlake,74.98,145.15,65.77,163.29,374.21,SBD,1
-F,Raw,Amateur Submaster,75,Candyce Hamel,73.39,81.65,58.97,127.01,267.62,SBD,1
-F,Wraps,Amateur Submaster,75,Nathalie Dupont,72.3,120.2,79.38,156.49,356.07,SBD,1
+F,Raw,Amateur Submaster 33-39,75,Candyce Hamel,73.39,81.65,58.97,127.01,267.62,SBD,1
+F,Wraps,Amateur Submaster 33-39,75,Nathalie Dupont,72.3,120.2,79.38,156.49,356.07,SBD,1
 F,Raw,Amateur Junior 20-23,82.5,Kaylee Vaillancourt,79.02,122.47,54.43,142.88,319.78,SBD,1
 F,Raw,Amateur Master 40-44,82.5,Boisclair Sophie,75.39,111.13,86.18,142.88,340.19,SBD,1
 F,Raw,Amateur Master 40-44,82.5,Mary Jo Babcock,78.29,92.99,63.5,136.08,292.57,SBD,2
 F,Raw,Amateur Open,82.5,Brianne Rochon,77.29,72.57,54.43,,,SBD,DQ
-F,Raw,Amateur Submaster,82.5,Michelle Derouin,75.75,122.47,58.97,147.42,328.85,SBD,1
+F,Raw,Amateur Submaster 33-39,82.5,Michelle Derouin,75.75,122.47,58.97,147.42,328.85,SBD,1
 F,Wraps,Pro Junior 20-23,82.5,Benedicte Beaulieu,78.11,167.83,88.45,183.7,439.98,SBD,1
 F,Raw,Amateur Junior 20-23,90,Elizabeth MacKinnon,89.27,117.93,58.97,151.95,328.85,SBD,1
-F,Raw,Amateur Submaster,100,Chrystelle Moreau,94.62,129.27,77.11,140.61,347,SBD,1
-F,Wraps,Amateur Submaster,100,Anne-Marie Boivin,96.52,70.31,52.16,108.86,231.33,SBD,1
+F,Raw,Amateur Submaster 33-39,100,Chrystelle Moreau,94.62,129.27,77.11,140.61,347,SBD,1
+F,Wraps,Amateur Submaster 33-39,100,Anne-Marie Boivin,96.52,70.31,52.16,108.86,231.33,SBD,1
 F,Wraps,Pro Open,100,Yael Benyair,96.71,158.76,86.18,158.76,403.7,SBD,1
-F,Raw,Amateur Submaster,90+,Samantha Maxwell,116.85,92.99,58.97,124.74,276.69,SBD,1
+F,Raw,Amateur Submaster 33-39,90+,Samantha Maxwell,116.85,92.99,58.97,124.74,276.69,SBD,1
 F,Wraps,Amateur Junior 20-23,90+,Emilie LeBlanc,118.39,111.13,63.5,151.95,326.59,SBD,1
 M,Raw,Amateur Youth 12,60,Max Berger,59.6,74.84,45.36,83.91,204.12,SBD,1
 M,Raw,Amateur Open,67.5,Muncuran Purewal,66.04,131.54,104.33,158.76,394.63,SBD,1
@@ -44,17 +44,17 @@ M,Raw,Amateur Junior 20-23,75,Dylan Ross,74.39,192.78,108.86,238.14,539.77,SBD,1
 M,Raw,Amateur Master 50-54,75,Tadesse Tessema,73.84,131.54,74.84,158.76,365.14,SBD,1
 M,Wraps,Amateur Master 40-44,75,Elliot Wuorinen,74.57,184.84,104.33,190.51,479.67,SBD,1
 M,Wraps,Amateur Open,75,Killian Hamilton,73.62,188.24,122.47,224.53,535.24,SBD,1
-M,Wraps,Amateur open,75,Matt MacLellan,73.84,170.1,124.74,204.12,498.95,SBD,2
+M,Wraps,Amateur Open,75,Matt MacLellan,73.84,170.1,124.74,204.12,498.95,SBD,2
 M,Wraps,Amateur Open,75,Ian Dawe,73.8,176.9,120.2,167.83,464.93,SBD,3
 M,Wraps,Amateur Open,75,Justin Burns,70.76,161.03,99.79,201.85,462.66,SBD,4
-M,Wraps,Amateur Submaster,75,Matt MacLellan,73.84,170.1,124.74,204.12,498.95,SBD,1
+M,Wraps,Amateur Submaster 33-39,75,Matt MacLellan,73.84,170.1,124.74,204.12,498.95,SBD,1
 M,Multi-ply,Pro Open,82.5,Brett Burton,80.56,242.67,142.88,208.65,594.21,SBD,1
 M,Raw,Amateur Junior 20-23,82.5,Hojin Mok,79.2,181.44,129.27,206.38,517.1,SBD,1
 M,Raw,Amateur Junior 20-23,82.5,Zachary Carcasole,81.92,142.88,129.27,188.24,460.4,SBD,2
 M,Raw,Amateur Junior 20-23,82.5,Matt Best,80.38,149.69,108.86,181.44,439.98,SBD,3
 M,Raw,Amateur Open,82.5,Chris Durant,80.1,176.9,108.86,201.85,487.61,SBD,1
 M,Raw,Amateur Open,82.5,Dimitri Doulas,81.65,179.17,,244.94,,SBD,DQ
-M,Raw,Amateur Submaster,82.5,Jason Rossi,80.29,181.44,111.13,215.46,508.02,SBD,1
+M,Raw,Amateur Submaster 33-39,82.5,Jason Rossi,80.29,181.44,111.13,215.46,508.02,SBD,1
 M,Wraps,Amateur Junior 20-23,82.5,Jake Sparling,80.74,92.99,113.4,190.51,396.89,SBD,1
 M,Wraps,Amateur Open,82.5,Stathi Theofilopoulos,80.83,217.72,149.69,242.67,610.08,SBD,1
 M,Wraps,Amateur Open,82.5,Cody Hand,80.1,181.44,113.4,272.16,566.99,SBD,2
@@ -69,7 +69,7 @@ M,Raw,Amateur Open,90,Jeff McCulloch,86.45,181.44,127.01,235.87,544.31,SBD,1
 M,Raw,Amateur Open,90,Vincent Héroux,87.63,151.95,115.67,265.35,532.97,SBD,2
 M,Raw,Amateur Open,90,Francis Lefebvre,84.55,170.1,115.67,192.78,478.54,SBD,3
 M,Raw,Amateur Open,90,Dylan Cooper,88.45,124.74,83.91,179.17,387.82,SBD,4
-M,Raw,Amateur Submaster,90,Greg Veenstra,87.68,165.56,95.25,199.58,460.4,SBD,1
+M,Raw,Amateur Submaster 33-39,90,Greg Veenstra,87.68,165.56,95.25,199.58,460.4,SBD,1
 M,Wraps,Amateur Junior 20-23,90,Paul Hewitt,89.63,217.72,156.49,226.8,601.01,SBD,1
 M,Wraps,Amateur Junior 20-23,90,Phillip McDonald,89.9,215.46,117.93,263.08,596.47,SBD,2
 M,Wraps,Amateur Junior 20-23,90,Macolm Morgan,88,176.9,120.2,181.44,478.54,SBD,3
@@ -95,9 +95,9 @@ M,Raw,Amateur Open,100,Eric Alain,94.71,213.19,142.88,272.16,628.23,SBD,1
 M,Raw,Amateur Open,100,Marshall Foulkes,98.34,176.9,129.27,240.4,546.58,SBD,2
 M,Raw,Amateur Open,100,Ryan Johnson,92.99,158.76,122.47,181.44,462.66,SBD,3
 M,Raw,Amateur Open,100,Casti Constantinescu,98.79,165.56,111.13,176.9,453.59,SBD,4
-M,Raw,Amateur Submaster,100,Robin McLean,95.71,213.19,151.95,231.33,596.47,SBD,1
+M,Raw,Amateur Submaster 33-39,100,Robin McLean,95.71,213.19,151.95,231.33,596.47,SBD,1
 M,Raw,Pro Open,100,Roberto Estaca,96.52,224.53,156.49,272.16,653.17,SBD,1
-M,Raw,Pro Submaster,100,Andrew Lee,98.43,215.46,149.69,215.46,580.6,SBD,1
+M,Raw,Pro Submaster 33-39,100,Andrew Lee,98.43,215.46,149.69,215.46,580.6,SBD,1
 M,Wraps,Amateur Open,100,Adam Guida,98.88,224.53,142.88,278.96,646.37,SBD,1
 M,Wraps,Amateur Open,100,Erik Mills,96.98,226.8,140.61,272.16,639.57,SBD,2
 M,Wraps,Amateur Open,100,Peter Hossack,97.79,226.8,129.27,254.01,610.08,SBD,3
@@ -120,15 +120,15 @@ M,Wraps,Pro Master 40-44,110,Sean Murphy,104.14,238.14,127.01,249.48,614.62,SBD,
 M,Wraps,Pro Open,110,Paul Oneid,107.77,365.14,195.04,328.85,889.04,SBD,1
 M,Wraps,Pro Open,110,Dan Bruce,108.95,290.3,183.7,276.69,750.7,SBD,2
 M,Wraps,Pro Open,110,Justin Spencer,104.14,272.16,147.42,256.28,675.85,SBD,3
-M,Wraps,Pro Submaster,110,Kareem Archer,108.23,274.42,151.95,256.28,682.66,SBD,1
-M,Wraps,Pro Submaster,110,Cory Mallory,107.05,235.87,170.1,263.08,669.05,SBD,2
-M,Wraps,Pro Submaster,110,Gregory Paterson,108.77,224.53,133.81,224.53,582.87,SBD,3
+M,Wraps,Pro Submaster 33-39,110,Kareem Archer,108.23,274.42,151.95,256.28,682.66,SBD,1
+M,Wraps,Pro Submaster 33-39,110,Cory Mallory,107.05,235.87,170.1,263.08,669.05,SBD,2
+M,Wraps,Pro Submaster 33-39,110,Gregory Paterson,108.77,224.53,133.81,224.53,582.87,SBD,3
 M,Raw,Amateur Open,125,Josh Turner,112.49,208.65,151.95,249.48,610.08,SBD,1
 M,Wraps,Amateur Open,125,Davide Cannucci,120.2,247.21,167.83,244.94,659.98,SBD,1
 M,Wraps,Military Pro Submaster,125,Steve Lessard,113.31,272.16,174.63,288.03,734.82,SBD,1
 M,Wraps,Pro Open,125,Bradie Johnston,122.2,362.87,240.4,303.91,907.18,SBD,1
-M,Wraps,Pro Submaster,125,Steve Lessard,113.31,272.16,174.63,288.03,734.82,SBD,1
-M,Raw,Amateur Submaster,140,Max Boivin,138.71,185.97,127.01,215.46,528.44,SBD,1
+M,Wraps,Pro Submaster 33-39,125,Steve Lessard,113.31,272.16,174.63,288.03,734.82,SBD,1
+M,Raw,Amateur Submaster 33-39,140,Max Boivin,138.71,185.97,127.01,215.46,528.44,SBD,1
 M,Wraps,Amateur Open,140,Andre Labelle,135.35,274.42,174.63,306.17,755.23,SBD,1
 M,Raw,Amateur Open,140+,Craig Houghton,150.59,276.69,181.44,288.03,746.16,SBD,1
 M,Raw,Pro Open,140+,Jamie Seguin,147.96,326.59,213.19,322.05,861.83,SBD,1
