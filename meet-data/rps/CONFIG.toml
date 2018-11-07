@@ -55,7 +55,9 @@
     # Less specific divisions that have been used in meets
     pro_master = {name = "Pro Master", min = 40, max = 999}
     ama_master = {name = "Amateur Master", min = 40, max = 999}
+    ama_master_50 = {name = "Amateur Master 50+", min = 50, max = 999}
     ama_teen = {name = "Amateur Teen", min = 14, max = 19}
+    ama_teen_13_15 = {name = "Amateur Teen 13-15", min = 13, max = 15}
 
 
     # Occupation-based divisions, limited to only Open and Master 50+.
@@ -67,6 +69,13 @@
     pro_military_open = {name = "Military Pro Open", min = 0, max = 999}
     ama_military_50p = {name = "Military Amateur Master 50+", min = 50, max = 999}
     pro_military_50p = {name = "Military Pro Master 50+", min = 50, max = 999}
+
+    # Occupation-based divisions, that have been used although their not real divisions
+    ama_military_junior = {name = "Military Amateur Junior 20-23", min = 20, max = 23}
+    ama_military_submaster = {name = "Military Amateur Submaster 33-39", min = 33, max = 39}
+    pro_pfm_open = {name = "Police/Fire/Military Pro Open", min = 0, max = 999}
+    ama_pfm_open = {name = "Police/Fire/Military Amateur Open", min = 0, max = 999}
+
 
     # Miscellaneous divisions.
     crossfit = {name = "Crossfit", min = 0, max = 999}

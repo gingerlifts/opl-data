@@ -1,5 +1,5 @@
 Sex,Equipment,Division,WeightClassKg,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Bench4Kg,Best3DeadliftKg,TotalKg,Event,Place
-F,Wraps,Elite Open,56,Priyanka C Ghose,54.61,108.86,61.23,,138.35,308.44,SBD,1
+F,Wraps,Pro Open,56,Priyanka C Ghose,54.61,108.86,61.23,,138.35,308.44,SBD,1
 F,Wraps,Military Pro Open,56,Priyanka C Ghose,54.61,108.86,61.23,,138.35,308.44,SBD,1
 F,Wraps,Pro Junior 20-23,67.5,Jordan Adcock,64.41,154.22,77.11,,163.29,394.63,SBD,1
 F,Raw,Pro Open,75,Juliana Lindner,74.39,138.35,88.45,,170.1,396.89,SBD,1
@@ -40,7 +40,7 @@ M,Wraps,Amateur Open,110,Joshua DesVoignes,103.33,192.78,161.03,,235.87,589.67,S
 M,Wraps,Amateur Open,110,Michael Brooks,100.88,204.12,145.15,,215.46,564.72,SBD,3
 M,Wraps,Amateur Open,110,William Wooten,103.78,165.56,136.08,,215.46,517.1,SBD,4
 M,Wraps,Pro Open,110,Skyler Woolard,110,317.51,170.1,,274.42,762.04,SBD,1
-M,Wraps,Military Amateur Submaster,110,Brian Weightman,107.14,161.03,124.74,,190.51,476.27,SBD,1
+M,Wraps,Military Amateur Submaster 33-39,110,Brian Weightman,107.14,161.03,124.74,,190.51,476.27,SBD,1
 M,Raw,Amateur Master 40-44,125,Brian Burton,113.85,154.22,142.88,,226.8,523.9,SBD,1
 M,Raw,Amateur Open,125,Brian Burton,113.85,154.22,142.88,,226.8,523.9,SBD,1
 M,Raw,Amateur Submaster 33-39,125,Josh Edwards #2,111.4,195.04,147.42,,192.78,535.24,SBD,1
