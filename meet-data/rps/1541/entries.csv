@@ -1,6 +1,6 @@
 Sex,Equipment,Division,WeightClassKg,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Place
 F,Raw,Amateur Open,52,Alex Butler,50.89,70.31,47.63,97.52,215.46,SBD,1
-F,Raw,Crossfit Open,75,Victoria Chang,73.75,97.52,36.29,90.72,224.53,SBD,1
+F,Raw,Crossfit,75,Victoria Chang,73.75,97.52,36.29,90.72,224.53,SBD,1
 F,Wraps,Amateur Submaster 33-39,67.5,Tiffany Martin,63.14,120.2,43.09,104.33,267.62,SBD,1
 F,Raw,Amateur Junior 20-23,67.5,Lauren Griffith,66.86,74.84,38.56,113.4,226.8,SBD,1
 F,Raw,Amateur Open,67.5,Shannon Lynch,66.68,102.06,56.7,133.81,292.57,SBD,1
@@ -15,7 +15,7 @@ M,Raw,Amateur Junior 20-23,82.5,Cody Hartlaub,80.56,158.76,138.35,213.19,510.29,
 M,Raw,Amateur Open,82.5,Steven Valanoski,80.38,165.56,133.81,206.38,505.76,SBD,3
 M,Raw,Amateur Open,82.5,Michael Richie,81.74,197.31,133.81,231.33,562.45,SBD,2
 M,Raw,Amateur Open,82.5,Ian Titus,81.37,199.58,149.69,238.14,587.4,SBD,1
-M,Raw,Crossfit Open,82.5,Bill Freyberger,77.75,165.56,113.4,219.99,498.95,SBD,1
+M,Raw,Crossfit,82.5,Bill Freyberger,77.75,165.56,113.4,219.99,498.95,SBD,1
 M,Raw,Pro Master 40-44,82.5,Shay Larrisey,81.37,240.4,145.15,272.16,657.71,SBD,1
 M,Wraps,Amateur Junior 20-23,82.5,Dominic Cristillo,81.19,154.22,136.08,226.8,517.1,SBD,3
 M,Wraps,Amateur Junior 20-23,82.5,Joshua M Hendrickson,81.37,192.78,129.27,231.33,553.38,SBD,2

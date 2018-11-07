@@ -28,7 +28,7 @@ F,Raw,Pro Master 45-49,75,Cynthia Line,70.76,129.27,72.57,151.95,353.8,SBD,1
 F,Raw,Pro Open,75,Cynthia Line,70.76,129.27,72.57,151.95,353.8,SBD,1
 F,Wraps,Pro Open,75,Sasha Stoddard,71.58,158.76,65.77,142.88,367.41,SBD,2
 F,Wraps,Pro Open,75,Amanda Pridgen,73.84,165.56,79.38,181.44,426.38,SBD,1
-F,Wraps,Pro submaster,75,Sasha Stoddard,71.58,158.76,65.77,142.88,367.41,SBD,1
+F,Wraps,Pro subMaster,75,Sasha Stoddard,71.58,158.76,65.77,142.88,367.41,SBD,1
 F,Raw,Amateur Master 50-54,82.5,Denise Demkowicz,79.83,111.13,54.43,129.27,294.84,SBD,1
 F,Raw,Amateur Open,82.5,Stephanie Bucari-Wold,81.19,102.06,65.77,120.2,288.03,SBD,5
 F,Raw,Amateur Open,82.5,Tenley Halaquist,80.01,104.33,54.43,136.08,294.84,SBD,4
@@ -55,7 +55,7 @@ F,Raw,Amateur Open,90+,Robyn Sheehan,134.99,,,161.03,161.03,D,1
 M,Multi-ply,Pro Master 75-79,67.5,Fred Glass,67.13,,,140.61,140.61,D,1
 M,Raw,Amateur Master 60-64,67.5,Christ Loutrary,65.41,,,190.51,190.51,D,1
 M,Wraps,Amateur Open,82.5,Alan Mui,78.83,176.9,124.74,195.04,496.68,SBD,2
-M,Raw,Pro,100,Brad Parkhurst,90.17,,174.63,,174.63,B,1
+M,Raw,Pro Open,100,Brad Parkhurst,90.17,,174.63,,174.63,B,1
 M,Raw,Amateur Junior 20-23,75,Mitchell Moyer,74.57,149.69,113.4,165.56,428.64,SBD,2
 M,Raw,Amateur Junior 20-23,75,Craig Doughty,70.67,154.22,104.33,226.8,485.34,SBD,1
 M,Raw,Pro Junior 20-23,75,David McDonald,72.85,210.92,149.69,258.55,619.15,SBD,1
@@ -118,7 +118,7 @@ M,Raw,Amateur Open,100,Kyle Mongelluzzo,96.34,170.1,106.59,215.46,492.15,SBD,5
 M,Raw,Amateur Open,100,Ryan DeFalco,98.88,226.8,163.29,208.65,598.74,SBD,4
 M,Raw,Amateur Open,100,Rob Dittert,94.89,208.65,145.15,276.69,630.49,SBD,2
 M,Raw,Amateur Open,100,Zach S Bonneville,93.35,215.46,154.22,265.35,635.03,SBD,1
-M,Raw,Crossfit Submaster,100,Zianeh Kemeh-Gama,94.62,170.1,120.2,208.65,498.95,SBD,1
+M,Raw,Crossfit,100,Zianeh Kemeh-Gama,94.62,170.1,120.2,208.65,498.95,SBD,1
 M,Raw,Pro Submaster 33-39,100,Andrew J Staiger,98.88,183.7,102.06,215.46,501.22,SBD,1
 M,Wraps,Amateur Junior 20-23,100,James Hodgins,99.79,204.12,147.42,235.87,587.4,SBD,1
 M,Wraps,Amateur Master 65-69,100,Harold Moss,95.71,190.51,108.86,222.26,521.63,SBD,1
@@ -133,7 +133,7 @@ M,Wraps,Pro Open,100,Bill Emmons,94.89,192.78,136.08,278.96,607.81,SBD,3
 M,Wraps,Pro Open,100,Bryan Williams,99.88,290.3,192.78,288.03,771.11,SBD,2
 M,Single-ply,Pro Open,100,Ryan Yusella,99.25,317.51,142.88,272.16,732.55,SBD,1
 M,Raw,Amateur Submaster 33-39,110,Marty Derry,109.41,192.78,163.29,249.48,605.55,SBD,1
-M,Raw,Crossfit Master,110,Robert L Miller,104.51,158.76,115.67,197.31,471.74,SBD,1
+M,Raw,Crossfit,110,Robert L Miller,104.51,158.76,115.67,197.31,471.74,SBD,1
 M,Raw,Pro Open,110,Louis Christopher,109.5,226.8,204.12,260.82,691.73,SBD,2
 M,Raw,Pro Open,110,Aaron Frazier,108.68,324.32,231.33,308.44,864.09,SBD,1
 M,Wraps,Amateur Master 55-59,110,Lawrence Blake,102.69,188.24,142.88,208.65,539.77,SBD,1
@@ -147,7 +147,7 @@ M,Wraps,Pro Open,110,Austin Pagani,102.51,249.48,183.7,294.84,728.02,SBD,1
 M,Raw,Amateur Open,125,Ryan Palmucci,119.02,231.33,167.83,310.71,709.87,SBD,1
 M,Raw,Pro Open,125,Gabe Bonneville,122.38,310.71,192.78,324.32,827.81,SBD,2
 M,Raw,Pro Open,125,Nam Shartzer,121.83,356.07,249.48,308.44,913.99,SBD,1
-M,Raw,Pro submaster,125,Gabe Bonneville,122.38,310.71,192.78,324.32,827.81,SBD,1
+M,Raw,Pro subMaster,125,Gabe Bonneville,122.38,310.71,192.78,324.32,827.81,SBD,1
 M,Wraps,Amateur Open,125,Shawn George,119.02,142.88,108.86,238.14,489.88,SBD,4
 M,Wraps,Amateur Open,125,Timothy Shaw,120.56,204.12,147.42,272.16,623.69,SBD,3
 M,Wraps,Amateur Open,125,Dominique Thorpe,120.11,226.8,170.1,272.16,669.05,SBD,2
