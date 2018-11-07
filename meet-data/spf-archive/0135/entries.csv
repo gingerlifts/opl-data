@@ -1,32 +1,32 @@
 Name,BodyweightKg,State,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Sex,Division,WeightClassKg,Deadlift4Kg,Place
-Jean Fry,55.88,OH,181.44,113.4,158.76,453.59,SBD,Multi-ply,F,Open,56,,1
-Anna McCloskey,79.83,PA,258.55,136.08,199.58,594.21,SBD,Multi-ply,F,Open,82.5,,1
-Joe Morrow,63.14,MS,272.16,172.37,272.16,716.68,SBD,Multi-ply,M,Open,67.5,,1
-Ralph Stover,66.22,OH,276.69,167.83,222.26,666.78,SBD,Multi-ply,M,Open,67.5,,2
-Dmitry Butakov,74.39,Russia,249.48,181.44,226.8,657.71,SBD,Multi-ply,M,Open,75,,1
-Kody Presswood,74.84,IL,,,,,SBD,Multi-ply,M,Open,75,,DQ
-Charlie Conner,78.2,TN,356.07,254.01,258.55,868.63,SBD,Multi-ply,M,Open,82.5,,1
-Stanyslov Pryaklin,82.19,Russia,340.19,224.53,288.03,852.75,SBD,Multi-ply,M,Open,82.5,,2
-Michael Cartinian,89.81,IA,455.86,328.85,303.91,1088.62,SBD,Multi-ply,M,Open,90,,1
-Jason Davis,87.82,TN,362.87,240.4,317.51,920.79,SBD,Multi-ply,M,Open,90,,2
-Keven Ball,89.9,KY,351.53,281.23,272.16,904.92,SBD,Multi-ply,M,Open,90,,3
-Nick Farley,89.81,IA,351.53,249.48,272.16,873.17,SBD,Multi-ply,M,Open,90,,4
-Jimmie Pacifico,99.34,OH,428.64,299.37,315.25,1043.26,SBD,Multi-ply,M,Open,100,,1
-Jesse Soule,99.16,MI,390.09,292.57,308.44,991.1,SBD,Multi-ply,M,Open,100,,2
-Zane Geeting,99.79,MI,401.43,185.97,333.39,920.79,SBD,Multi-ply,M,Open,100,,3
-Brad Bishop,92.53,OH,362.87,102.06,299.37,764.3,SBD,Multi-ply,M,Open,100,,4
-Jon Brown,99.43,OH,374.21,,,,SBD,Multi-ply,M,Open,100,,DQ
-Joe Jester,99.61,OH,390.09,,,,SBD,Multi-ply,M,Open,100,,DQ
-Karl Schulz,99.79,IL,,,,,SBD,Multi-ply,M,Open,100,,DQ
-Vladmir Venglovschi,100.88,Maldova,453.59,278.96,317.51,1050.07,SBD,Multi-ply,M,Open,110,,1
-Dave Hoff,120.29,OH,505.76,399.16,367.41,1272.33,SBD,Multi-ply,M,Open,125,,1
-Jim Grandick,122.47,IA,430.91,342.46,333.39,1106.77,SBD,Multi-ply,M,Open,125,,2
-Josh Robinson,123.65,TN,453.59,285.76,335.66,1075.01,SBD,Multi-ply,M,Open,125,,3
-AJ Roberts,138.16,OH,517.1,394.63,369.68,1281.4,SBD,Multi-ply,M,Open,140,,1
-Shane Hammock,131.72,GA,492.15,362.87,351.53,1206.56,SBD,Multi-ply,M,Open,140,,2
-Clint Ewald,137.98,MI,430.91,362.87,328.85,1122.64,SBD,Multi-ply,M,Open,140,,3
-Brandon Lilly,128.37,OH,412.77,353.8,317.51,1084.09,SBD,Multi-ply,M,Open,140,,4
-Chris Janek,138.8,IL,464.93,333.39,,,SBD,Multi-ply,M,Open,140,,DQ
+Jean Fry,55.88,OH,181.44,113.4,158.76,453.59,SBD,Multi-ply,F,Pro Open,56,,1
+Anna McCloskey,79.83,PA,258.55,136.08,199.58,594.21,SBD,Multi-ply,F,Pro Open,82.5,,1
+Joe Morrow,63.14,MS,272.16,172.37,272.16,716.68,SBD,Multi-ply,M,Pro Open,67.5,,1
+Ralph Stover,66.22,OH,276.69,167.83,222.26,666.78,SBD,Multi-ply,M,Pro Open,67.5,,2
+Dmitry Butakov,74.39,Russia,249.48,181.44,226.8,657.71,SBD,Multi-ply,M,Pro Open,75,,1
+Kody Presswood,74.84,IL,,,,,SBD,Multi-ply,M,Pro Open,75,,DQ
+Charlie Conner,78.2,TN,356.07,254.01,258.55,868.63,SBD,Multi-ply,M,Pro Open,82.5,,1
+Stanyslov Pryaklin,82.19,Russia,340.19,224.53,288.03,852.75,SBD,Multi-ply,M,Pro Open,82.5,,2
+Michael Cartinian,89.81,IA,455.86,328.85,303.91,1088.62,SBD,Multi-ply,M,Pro Open,90,,1
+Jason Davis,87.82,TN,362.87,240.4,317.51,920.79,SBD,Multi-ply,M,Pro Open,90,,2
+Keven Ball,89.9,KY,351.53,281.23,272.16,904.92,SBD,Multi-ply,M,Pro Open,90,,3
+Nick Farley,89.81,IA,351.53,249.48,272.16,873.17,SBD,Multi-ply,M,Pro Open,90,,4
+Jimmie Pacifico,99.34,OH,428.64,299.37,315.25,1043.26,SBD,Multi-ply,M,Pro Open,100,,1
+Jesse Soule,99.16,MI,390.09,292.57,308.44,991.1,SBD,Multi-ply,M,Pro Open,100,,2
+Zane Geeting,99.79,MI,401.43,185.97,333.39,920.79,SBD,Multi-ply,M,Pro Open,100,,3
+Brad Bishop,92.53,OH,362.87,102.06,299.37,764.3,SBD,Multi-ply,M,Pro Open,100,,4
+Jon Brown,99.43,OH,374.21,,,,SBD,Multi-ply,M,Pro Open,100,,DQ
+Joe Jester,99.61,OH,390.09,,,,SBD,Multi-ply,M,Pro Open,100,,DQ
+Karl Schulz,99.79,IL,,,,,SBD,Multi-ply,M,Pro Open,100,,DQ
+Vladmir Venglovschi,100.88,Maldova,453.59,278.96,317.51,1050.07,SBD,Multi-ply,M,Pro Open,110,,1
+Dave Hoff,120.29,OH,505.76,399.16,367.41,1272.33,SBD,Multi-ply,M,Pro Open,125,,1
+Jim Grandick,122.47,IA,430.91,342.46,333.39,1106.77,SBD,Multi-ply,M,Pro Open,125,,2
+Josh Robinson,123.65,TN,453.59,285.76,335.66,1075.01,SBD,Multi-ply,M,Pro Open,125,,3
+AJ Roberts,138.16,OH,517.1,394.63,369.68,1281.4,SBD,Multi-ply,M,Pro Open,140,,1
+Shane Hammock,131.72,GA,492.15,362.87,351.53,1206.56,SBD,Multi-ply,M,Pro Open,140,,2
+Clint Ewald,137.98,MI,430.91,362.87,328.85,1122.64,SBD,Multi-ply,M,Pro Open,140,,3
+Brandon Lilly,128.37,OH,412.77,353.8,317.51,1084.09,SBD,Multi-ply,M,Pro Open,140,,4
+Chris Janek,138.8,IL,464.93,333.39,,,SBD,Multi-ply,M,Pro Open,140,,DQ
 Brad Bugg,123.83,TN,206.38,158.76,226.8,591.94,SBD,Wraps,M,Special Olympics,125,,1
 Grace Ne Castro,55.79,OH,131.54,61.23,113.4,306.17,SBD,Wraps,F,Teenage 16-17,56,,1
 Shannon Nash,83.1,SC,188.24,158.76,192.78,539.77,SBD,Wraps,F,Open,90,,1
