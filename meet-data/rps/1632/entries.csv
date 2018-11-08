@@ -1,7 +1,7 @@
 Sex,Equipment,Division,WeightClassKg,Name,Age,BodyweightKg,Squat4Kg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Place
 F,Raw,Amateur Open,48,Tiffany Savanh,,46.04,,86.18,49.9,106.59,242.67,SBD,1
 F,Wraps,Amateur Open,48,Kericia Gowrie,,47.81,,106.59,61.23,115.67,283.5,SBD,1
-F,Raw,Amateur Junior,52,Olivia Capra,,50.17,,92.99,43.09,97.52,233.6,SBD,1
+F,Raw,Amateur Junior 20-23,52,Olivia Capra,,50.17,,92.99,43.09,97.52,233.6,SBD,1
 F,Raw,Amateur Open,52,Olivia Capra,,50.17,,92.99,43.09,97.52,233.6,SBD,2
 F,Raw,Amateur Open,52,Joanne Jeffrey,,51.35,,90.72,61.23,117.93,269.89,SBD,1
 F,Raw,Amateur Submaster 33-39,52,Julie Bissett,,49.35,,86.18,45.36,104.33,235.87,SBD,1
@@ -46,7 +46,7 @@ F,Raw,Amateur Master 45-49,110,Mona Kitz,,100.88,,,70.31,156.49,226.8,BD,1
 F,Raw,Pro Open,82.5,Sheri Whetham,,79.65,,,,172.37,172.37,D,1
 F,Raw,Amateur Master 40-44,90,Andrea Berestovenko-Harris,,82.83,,,,124.74,124.74,D,1
 M,Raw,Amateur Junior 20-23,75,Dylan Ross,,74.39,,183.7,104.33,229.06,517.1,SBD,2
-M,Raw,Amateur Junior,75,Kyle Grondin,,73.3,,183.7,111.13,231.33,526.17,SBD,1
+M,Raw,Amateur Junior 20-23,75,Kyle Grondin,,73.3,,183.7,111.13,231.33,526.17,SBD,1
 M,Raw,Amateur Open,75,Kyle Grondin,,73.3,,183.7,111.13,231.33,526.17,SBD,1
 M,Wraps,Amateur Master 40-44,75,Elliot Wuorinen,,74.03,,174.63,99.79,183.7,458.13,SBD,1
 M,Multi-ply,Pro Open,82.5,Brett Burton,,77.02,,,136.08,215.46,,SBD,DQ
@@ -132,7 +132,7 @@ M,Raw,Amateur Submaster 33-39,140,Max Boivin,,132.81,,181.44,111.13,208.65,501.2
 M,Raw,Pro Open,140+,Jamie Seguin,,152.41,312.98,306.17,204.12,299.37,809.66,SBD,1
 M,Wraps,Pro Open,140+,John Carden,,142.88,,317.51,167.83,290.3,775.64,SBD,1
 M,Wraps,Pro Submaster 33-39,140+,Aaron Runnalls,,172.27,,256.28,210.92,274.42,741.62,SBD,1
-M,Single-ply,Amateur Pro,82.5,Jon Stewart,,80.92,,,172.37,,172.37,B,1
+M,Single-ply,Amateur Open,82.5,Jon Stewart,,80.92,,,172.37,,172.37,B,1
 M,Raw,Pro Master 45-49,110,Scott MacDiarmid,,100.88,,,181.44,,181.44,B,1
 M,Raw,Pro Open,110,Anthony Kell,,103.24,,,163.29,,163.29,B,1
 M,Multi-ply,Amateur Open,125,Nick Drimmel,,123.92,,,256.28,,256.28,B,1
