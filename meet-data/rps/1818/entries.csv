@@ -1,7 +1,7 @@
 Sex,Equipment,Division,WeightClassKg,State,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Place
 M,Raw,Amateur Master 50-54,75,NH,Kevin Maloney,70.13,158.76,104.33,195.04,458.13,SBD,1
 M,Wraps,Amateur Master 70-74,75,NH,Kevin O'Reilly,68.4,70.31,58.97,117.93,247.21,SBD,1
-M,Wraps,Amateur Master 77-79,75,NH,Roger Penland,70.4,40.82,34.02,81.65,156.49,SBD,1
+M,Wraps,Amateur Master 75-79,75,NH,Roger Penland,70.4,40.82,34.02,81.65,156.49,SBD,1
 M,Wraps,Amateur Master 85-89,75,NH,Chuck McCleary,69.13,68.04,40.82,108.86,217.72,SBD,1
 M,Wraps,Amateur Master 40-44,82.5,NH,Timothy Meyers,77.02,147.42,108.86,154.22,410.5,SBD,1
 M,Raw,Amateur Teen 16-17,82.5,NH,Caleb Paquette,81.47,195.04,147.42,217.72,560.19,SBD,1
@@ -32,7 +32,7 @@ M,Wraps,Amateur Master 40-44,140,MA,Wes Page,130.82,238.14,131.54,258.55,628.23,
 M,Raw,Amateur Master 45-49,140,NY,Nick Asimakopoulos,132,260.82,204.12,297.1,762.04,SBD,1
 M,Wraps,Amateur Open,140,NH,Luben Ikonomov,129.46,226.8,129.27,240.4,596.47,SBD,1
 M,Raw,Amateur Teen 16-17,110,NH,Ryan Whitney,109.5,,149.69,,149.69,B,1
-M,Raw,Amateur Teen 17-18,140,NH,Willem Froumy,137.35,,172.37,,172.37,B,1
+M,Raw,Amateur Teen 18-19,140,NH,Willem Froumy,137.35,,172.37,,172.37,B,1
 F,Wraps,Amateur Master 45-49,52,NH,Christine Cavanaugh,50.17,95.25,43.09,104.33,242.67,SBD,1
 F,Raw,Amateur Open,52,NH,Heather Stover,51.35,102.06,45.36,145.15,292.57,SBD,1
 F,Raw,Amateur Master 50-54,56,NH,Pamela Crandall,54.43,74.84,45.36,90.72,210.92,SBD,1
@@ -66,7 +66,7 @@ F,Wraps,Amateur Open,75,MA,Emily Carpenter,74.3,111.13,56.7,120.2,288.03,SBD,5
 F,Wraps,Amateur Open,75,NH,Michelle Cedrone,73.48,129.27,58.97,129.27,317.51,SBD,2
 F,Wraps,Amateur Open,75,MA,Julia Fletcher,73.84,147.42,72.57,167.83,387.82,SBD,1
 F,Wraps,Amateur Submaster 33-39,75,NH,Michelle Cedrone,73.48,129.27,58.97,129.27,317.51,SBD,1
-F,Wraps,Amateur Teen 15-16,75,NH,Emma Scruton,72.12,111.13,68.04,92.99,272.16,SBD,1
+F,Wraps,Amateur Teen 14-15,75,NH,Emma Scruton,72.12,111.13,68.04,92.99,272.16,SBD,1
 F,Wraps,Amateur Master 50-54,100,ME,Patty Drake,92.8,142.88,86.18,174.63,403.7,SBD,1
 F,Wraps,Amateur Master 70-74,110,NH,Carol Tock,102.51,61.23,38.56,90.72,190.51,SBD,1
 F,Raw,Amateur Submaster 33-39,110+,NH,Amy Dumas,154.86,120.2,61.23,142.88,324.32,SBD,1
@@ -111,7 +111,8 @@ M,Wraps,Amateur Open,100,NY,Ashton Parker,96.25,206.38,149.69,249.48,605.55,SBD,
 M,Wraps,Amateur Open,100,MA,Noah Rhein,93.26,195.04,138.35,242.67,576.06,SBD,3
 M,Wraps,Pro Open,100,ME,Harry D. Knox III,98.34,172.37,124.74,226.8,523.9,SBD,1
 M,Raw,Amateur Open,100,MA,Alex Fleming,99.16,192.78,149.69,238.14,580.6,SBD,1
-M,Raw,Police/Fire/Military Amateur Submaster 33-39,100,NY,Justin Bannon,97.34,192.78,172.37,256.28,621.42,SBD,1
+M,Raw,Police/Fire/Military Amateur Open,100,NY,Justin Bannon,97.34,192.78,172.37,256.28,621.42,SBD,1
+M,Raw,Amateur Submaster 33-39,100,NY,Justin Bannon,97.34,192.78,172.37,256.28,621.42,SBD,1
 M,Raw,Amateur Junior 20-23,110,NH,Declan Morissey,106.05,213.19,142.88,254.01,610.08,SBD,1
 M,Wraps,Amateur Junior 20-23,110,ME,Matthew Drake,107.86,181.44,95.25,201.85,478.54,SBD,1
 F,Wraps,Amateur Master 40-44,110,ME,Kathryn Holt,107.32,122.47,97.52,174.63,394.63,SBD,1
@@ -140,4 +141,4 @@ F,Raw,Amateur Master 50-54,75,MA,Patricia Proctor,73.84,,38.56,95.25,133.81,BD,1
 F,Raw,Amateur Master 55-59,100,NH,Diane Hewitt,90.9,,49.9,102.06,151.95,BD,1
 M,Single-ply,Amateur Teen 14-15,52,NH,Damian Bortolotti-Lord,32.48,,28.35,61.23,89.58,BD,1
 M,Raw,Amateur Open,100,MA,Lucas Fiehler,95.44,,113.4,260.82,374.21,BD,1
-M,Raw,Armed Forces Pro Open,110,ME,Anthony Oddi,106.68,,,249.48,249.48,D,1
+M,Raw,Military Pro Open,110,ME,Anthony Oddi,106.68,,,249.48,249.48,D,1
