@@ -71,9 +71,7 @@
     ama_military_50p = {name = "Military Amateur Master 50+", min = 50, max = 999}
     pro_military_50p = {name = "Military Pro Master 50+", min = 50, max = 999}
 
-    # Occupation-based divisions, that have been used although their not real divisions
-    #ama_military_junior = {name = "Military Amateur Junior 20-23", min = 20, max = 23}
-    #ama_military_submaster = {name = "Military Amateur Submaster 33-39", min = 33, max = 39}
+    # Occupation-based divisions, that have been used although they're not real divisions
     pro_pfm_open = {name = "Police/Fire/Military Pro Open", min = 0, max = 999}
     ama_pfm_open = {name = "Police/Fire/Military Amateur Open", min = 0, max = 999}
 
@@ -94,3 +92,5 @@
     sex = "F"
 
 [exemptions]
+    1636 = ["check_row_weightclass_consistency"]
+    1515 = ["check_row_weightclass_consistency"]
