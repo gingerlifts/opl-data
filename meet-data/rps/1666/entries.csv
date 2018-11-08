@@ -1,7 +1,7 @@
 Sex,Equipment,Division,WeightClassKg,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Place
 F,Wraps,Amateur Open,56,Cassandra Haynes,55.16,90.72,43.09,115.67,249.48,SBD,1
 F,Multi-ply,Pro Open,67.5,Emily DeMorest,61.96,213.19,83.91,201.85,498.95,SBD,1
-F,Raw,Amateur Military,67.5,Giselle Gibbs,65.32,83.91,58.97,149.69,292.57,SBD,1
+F,Raw,Military Amateur Open,67.5,Giselle Gibbs,65.32,83.91,58.97,149.69,292.57,SBD,1
 F,Raw,Amateur Open,67.5,Giselle Gibbs,65.32,83.91,58.97,149.69,292.57,SBD,1
 F,Raw,Pro Open,67.5,Stephanie Tomlinson,66.5,161.03,108.86,174.63,444.52,SBD,1
 F,Wraps,Amateur Open,67.5,Abigayle Stump,66.22,115.67,65.77,129.27,310.71,SBD,1
@@ -22,7 +22,7 @@ M,Wraps,Amateur Open,90,Drew Jones,87.63,151.95,115.67,206.38,474,SBD,2
 M,Multi-ply,Amateur Open,100,Joel Callicoat,99.34,362.87,217.72,265.35,845.95,SBD,1
 M,Multi-ply,Pro Open,100,Clint Moore,99.88,371.95,274.42,297.1,943.47,SBD,1
 M,Raw,Amateur Open,100,Michael Fetherolf,98.97,204.12,181.44,226.8,612.35,SBD,1
-M,Raw,Amateur Police,100,Michael Fetherolf,98.97,204.12,181.44,226.8,612.35,SBD,1
+M,Raw,Police Amateur Open,100,Michael Fetherolf,98.97,204.12,181.44,226.8,612.35,SBD,1
 M,Wraps,Amateur Master 50-54,100,Rich Gilbert,98.61,158.76,104.33,174.63,437.72,SBD,1
 M,Wraps,Amateur Open,100,Rich Gilbert Jr,98.43,226.8,154.22,254.01,635.03,SBD,1
 M,Wraps,Amateur Open,100,Joe Spriggs,99.88,219.99,161.03,240.4,621.42,SBD,2
