@@ -7,7 +7,7 @@ M,Raw,Amateur Submaster 33-39,82.5,NH,Mike Feld,79.65,138.35,111.13,204.12,453.5
 M,Wraps,Amateur Teen 16-17,82.5,VT,Matthew Leib,80.01,199.58,106.59,183.7,489.88,SBD,1
 M,Raw,Amateur Teen 18-19,82.5,NH,Joshua Larner,81.01,165.56,102.06,204.12,471.74,SBD,1
 M,Wraps,Amateur Master 40-44,90,MA,Robert Feudo,88.63,233.6,151.95,249.48,635.03,SBD,1
-M,Wraps,Amateur Master 44-49,90,ME,Scott Stackpole,88.72,192.78,104.33,229.06,526.17,SBD,1
+M,Wraps,Amateur Master 45-49,90,ME,Scott Stackpole,88.72,192.78,104.33,229.06,526.17,SBD,1
 M,Raw,Amateur Master 45-49,90,NH,Art McAleer,84.37,136.08,149.69,181.44,467.2,SBD,1
 M,Single-ply,Amateur Master 50-54,90,NH,Patrick Kusier,86.55,233.6,154.22,216.59,604.41,SBD,1
 M,Wraps,Amateur Master 70-74,90,NH,David Brooker,84.55,83.91,49.9,108.86,242.67,SBD,1
@@ -127,7 +127,7 @@ M,Wraps,Amateur Open,125,NH,Justin Gregoire,123.01,272.16,167.83,272.16,712.14,S
 M,Wraps,Amateur Open,125,NH,Kris Ford,114.94,238.14,129.27,251.74,619.15,SBD,4
 M,Wraps,Amateur Open,125,NH,Matthew Moran,122.56,274.42,167.83,294.84,737.09,SBD,1
 M,Wraps,Amateur Open,125,MA,Sean O'Leary,121.65,226.8,154.22,272.16,653.17,SBD,3
-M,Wraps,Armed Forces Pro Open,125,NH,Adam Millett,122.47,281.23,206.38,272.16,759.77,SBD,1
+M,Wraps,Military Pro Open,125,NH,Adam Millett,122.47,281.23,206.38,272.16,759.77,SBD,1
 M,Wraps,Pro Open,125,NH,Josh Scholfield,123.2,219.99,147.42,244.94,612.35,SBD,1
 M,Wraps,Amateur Open,140,NH,Samuel Galletta,133.08,226.8,124.74,226.8,578.33,SBD,2
 M,Wraps,Amateur Open,140,NH,Jesse Burdwood,137.44,294.84,165.56,294.84,755.23,SBD,1
@@ -141,7 +141,7 @@ M,Raw,Amateur Teen 16-17,125,NH,Willem A. Froumy,123.56,,149.69,,149.69,B,1
 M,Raw,Amateur Teen 18-19,140,NH,Willem Fargo,131.81,,129.27,,129.27,B,1
 M,Raw,Pro Open,100,NH,Brad Parkhurst,99.61,,185.97,,185.97,B,1
 M,Raw,Amateur Open,110,ME,Brandon Woodard,108.14,,206.38,,206.38,B,1
-M,Raw,Armed Forces Amateur Open,110,ME,Brandon Woodard,108.14,,206.38,,206.38,B,1
+M,Raw,Military Amateur Open,110,ME,Brandon Woodard,108.14,,206.38,,206.38,B,1
 M,Raw,Pro Open,125,NH,Greg Panora,123.83,,260.82,,260.82,B,1
 M,Raw,Amateur Open,100,MA,Kyle Lussier,98.34,,131.54,260.82,392.36,BD,1
 M,Raw,Police/Fire/Military Amateur Open,100,NY,Justin Bannon,95.16,,176.9,260.82,437.72,BD,1
