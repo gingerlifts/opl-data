@@ -1,7 +1,7 @@
 Sex,Equipment,Division,WeightClassKg,Name,BodyweightKg,Best3SquatKg,Squat4Kg,Best3BenchKg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Event,Place
 F,Wraps,Amateur Open,44,Sara Florence,44,72.5,,42.5,95,,209.99,SBD,1
 F,Wraps,Pro Open,56,Sarah Brown,53.98,160,,90,170,,419.99,SBD,1
-F,Raw,Amateur Master 54-59,56,Kathy Jones,53.07,57.5,,35,80,,172.5,SBD,1
+F,Raw,Amateur Master 55-59,56,Kathy Jones,53.07,57.5,,35,80,,172.5,SBD,1
 F,Raw,Pro Open,60,Lindsay Parish,59.06,105,,72.5,152.5,,329.99,SBD,1
 F,Wraps,Amateur Junior 20-23,60,Emily Mingus,57.79,77.5,,50,100,,227.49,SBD,1
 F,Wraps,Amateur Open,60,Emily Mingus,57.79,77.5,,50,100,,227.49,SBD,1
@@ -73,6 +73,6 @@ M,Raw,Pro Open,125,Jacob Harlan,113.76,,,215,,,215,B,1
 M,Raw,Amateur Teen 18-19,100,Nathaniel Davidson,98.97,,,160,242.5,,402.5,BD,1
 M,Raw,Amateur Teen 18-19,110,Chase Harvey,106.41,,,187.5,265,,452.49,BD,1
 F,Raw,Amateur Open,110,Sydney Gatas,108.32,,,,145,,145,D,1
-M,Raw,Amateur Master 74-79,82.5,David Palmer,77.29,,,,155,,155,D,1
+M,Raw,Amateur Master 75-79,82.5,David Palmer,77.29,,,,155,,155,D,1
 M,Raw,Pro Master 60-64,110,Jeff Hughart,109.23,,,,227.5,,227.5,D,1
 M,Raw,Amateur Master 45-49,125,Kerry Overfelt,123.92,,,,275,,275,D,1
