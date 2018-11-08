@@ -65,7 +65,7 @@ M,Raw,Amateur Open,100,Sergiy Stupin,96,185,,185,B,2
 M,Raw,Amateur Open,100,Grigoriy Kalypin,95,170,,170,B,3
 M,Raw,Amateur Open,100,Ivan Kozyr,90.7,165,,165,B,4
 M,Raw,Amateur Open,100,Vitaliy Babenko,99.8,155,,155,B,5
-M,Raw,Amateur Master 5,100,Sergiy Chernyy,99,120,,120,B,1
+M,Raw,Amateur Master 60-64,100,Sergiy Chernyy,99,120,,120,B,1
 M,Raw,Amateur Junior 20-23,110,Vladislav Potseluyko,110,165,,165,B,1
 M,Raw,Amateur Junior 20-23,110,Viktor Matrosov,102.6,130,,130,B,2
 M,Raw,Amateur Open,110,Sergiy Rizhov,106.9,210,,210,B,1
@@ -80,7 +80,7 @@ M,Raw,Amateur Open,140,Oleg Afanasyev,137.8,195,,195,B,2
 M,Raw,Amateur Open,140,Aleksey Shoniya,130,180,,180,B,3
 M,Raw,Amateur Master 40-44,140,Aleksey Shoniya,130,180,,180,B,1
 M,Raw,Amateur Master 45-49,140,Yevgen Shuturminskyy,138,197.5,,197.5,B,1
-M,Raw,Pro T3,67.5,Aleksandr Semerenco,63.4,122.5,,122.5,B,1
+M,Raw,Amateur Teen 18-19,67.5,Aleksandr Semerenco,63.4,122.5,,122.5,B,1
 M,Raw,Pro Junior 20-23,67.5,Nariman Eredzhepov,64.7,100,,100,B,1
 M,Raw,Pro Junior 20-23,90,Artem Poyarkov,87.3,130,,130,B,1
 M,Raw,Pro Junior 20-23,90,Volodymyr Guryev,88.9,120,,120,B,2
@@ -96,7 +96,7 @@ M,Raw,Pro Junior 20-23,125,Andrey Petruk,119,212.5,,212.5,B,1
 M,Raw,Pro Open,125,Andrey Petruk,119,212.5,,212.5,B,1
 M,Raw,Pro Open,125,Maksim Pogas,117.3,210,,210,B,2
 M,Raw,Pro Open,125,Alexander Chekachkov,116.4,195,,195,B,3
-M,Raw,Pro M1,125,Alexander Chekachkov,116.4,195,,195,B,1
+M,Raw,Pro Master 40-44,125,Alexander Chekachkov,116.4,195,,195,B,1
 F,Multi-ply,Amateur Junior 20-23,48,Mariya Leonova,46.6,70,,70,B,1
 M,Multi-ply,Amateur Teen 14-15,56,Yevgen Nazukin,54.7,100,,100,B,1
 M,Multi-ply,Amateur Junior 20-23,67.5,Oleksiy Alisov,64.5,140,,140,B,1
@@ -116,7 +116,7 @@ M,Multi-ply,Pro Open,100,Mykola Sergeev,100,343,,343,B,1
 M,Multi-ply,Pro Open,100,Sergiy Stupin,96,185,,185,B,2
 M,Multi-ply,Pro Open,110,Sergiy Polutin,109.7,300,,300,B,1
 M,Multi-ply,Pro Open,125,Alexander Chekachkov,116.4,260,,260,B,1
-M,Multi-ply,Pro M1,125,Alexander Chekachkov,116.4,260,,260,B,1
+M,Multi-ply,Pro Master 40-44,125,Alexander Chekachkov,116.4,260,,260,B,1
 F,Raw,Amateur Open,48,Irina Parkhomenko,46.1,,82.5,82.5,D,1
 F,Raw,Amateur Open,52,Margarita Galaktionova,52,,100,100,D,1
 F,Raw,Amateur Open,75,Tatyana Dalnikova,71,,100,100,D,1
