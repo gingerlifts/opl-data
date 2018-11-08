@@ -50,13 +50,15 @@ F,Raw,Amateur Open,67.5,Rebecca Pettey,66.5,102.06,54.43,136.08,292.57,SBD,4
 F,Wraps,Amateur Open,67.5,Kirsten Soloniewicz,62.96,129.27,38.56,115.67,283.5,SBD,4
 F,Raw,Amateur Junior 20-23,90,Kara Joyce,84.37,90.72,52.16,113.4,256.28,SBD,1
 F,Wraps,Amateur Master 45-49,100,Heather Marvin,95.07,102.06,70.31,117.93,290.3,SBD,1
-M,Raw,Military Amateur Junior 20-23,56,Adrian Clark,55.79,124.74,77.11,167.83,369.68,SBD,1
+M,Raw,Military Amateur Open,56,Adrian Clark,55.79,124.74,77.11,167.83,369.68,SBD,1
+M,Raw,Amateur Junior 20-23,56,Adrian Clark,55.79,124.74,77.11,167.83,369.68,SBD,1
 M,Raw,Amateur Junior 20-23,67.5,Troy Doming,64.68,167.83,120.2,199.58,487.61,SBD,1
 M,Wraps,Amateur Teen 18-19,67.5,Kolby Humbert,66.59,183.7,136.08,231.33,551.11,SBD,1
 M,Raw,Amateur Master 40-44,75,Michael Wainwright,74.3,113.4,83.91,149.69,347,SBD,1
 M,Raw,Amateur Open,75,Tyler Frazer,72.48,104.33,81.65,136.08,322.05,SBD,2
 M,Raw,Amateur Open,75,Max Turkewitz,70.49,176.9,113.4,174.63,464.93,SBD,1
-M,Raw,Police Amateur Master 40-44,75,Michael Wainwright,74.3,113.4,83.91,149.69,347,SBD,1
+M,Raw,Amateur Master 40-44,75,Michael Wainwright,74.3,113.4,83.91,149.69,347,SBD,1
+M,Raw,Police Amateur Open,75,Michael Wainwright,74.3,113.4,83.91,149.69,347,SBD,1
 M,Wraps,Amateur Master 40-44,75,Michael J Perna,72.57,201.85,115.67,199.58,517.1,SBD,1
 M,Wraps,Amateur Open,75,Joseph Joyal,73.39,151.95,113.4,204.12,469.47,SBD,5
 M,Wraps,Amateur Open,75,Ivan Hiew,72.67,183.7,115.67,204.12,503.49,SBD,4
@@ -70,7 +72,8 @@ M,Raw,Amateur Open,82.5,Jeremy Friedman,80.92,163.29,136.08,210.92,510.29,SBD,5
 M,Raw,Amateur Open,82.5,Michael c DAmico,80.2,201.85,124.74,283.5,610.08,SBD,1
 M,Raw,Military Amateur Open,82.5,Ryan Foguth,81.74,188.24,117.93,226.8,532.97,SBD,1
 M,Wraps,Amateur Teen 18-19,82.5,Matthias Maaloee,80.1,215.46,136.08,267.62,619.15,SBD,1
-M,Wraps,Military Amateur Junior 20-23,82.5,Adam Denmark,80.92,176.9,108.86,185.97,471.74,SBD,1
+M,Wraps,Military Amateur Open,82.5,Adam Denmark,80.92,176.9,108.86,185.97,471.74,SBD,1
+M,Wraps,Amateur Junior 20-23,82.5,Adam Denmark,80.92,176.9,108.86,185.97,471.74,SBD,1
 M,Wraps,Pro Junior 20-23,82.5,Tyler Perreault,81.56,222.26,142.88,249.48,614.62,SBD,1
 M,Wraps,Pro Open,82.5,Tyler Perreault,81.56,222.26,142.88,249.48,614.62,SBD,1
 M,Raw,Amateur Open,90,Mike Kelley,87.72,165.56,111.13,206.38,483.08,SBD,3
