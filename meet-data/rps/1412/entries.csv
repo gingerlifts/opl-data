@@ -2,11 +2,11 @@ Sex,Equipment,Division,WeightClassKg,Name,State,BodyweightKg,Best3SquatKg,Best3B
 F,Multi-ply,Pro Master 50-54,48,Robin Edson,VT,47.81,138.35,54.43,140.61,333.39,SBD,1
 F,Raw,Amateur Master 45-49,52,Gail McKenzie,VT,51.35,74.84,40.82,90.72,206.38,SBD,1
 F,Wraps,Amateur Master 65-69,52,Jane Higgins,NH,51.8,61.23,40.82,74.84,176.9,SBD,1
-F,Multi-ply,Pro Open,52,Danielle Messick,VT,50.26,154.22,72.57,140.61,367.41,SBD,1
+F,Multi-ply,Elite Open,52,Danielle Messick,VT,50.26,154.22,72.57,140.61,367.41,SBD,1
 F,Raw,Amateur Master 60-64,67.5,Wendy Hayes,NH,62.51,49.9,38.56,81.65,170.1,SBD,1
 F,Wraps,Amateur Master 55-59,67.5,Valerie Thompson,NH,61.87,74.84,43.09,83.91,201.85,SBD,1
 F,Wraps,Amateur Submaster 33-39,60,Tiffany Sopher,NH,59.87,86.18,65.77,124.74,276.69,SBD,1
-F,Single-ply,Pro Open,60,Sarah Farrar,VT,59.6,158.76,81.65,163.29,403.7,SBD,1
+F,Single-ply,Elite Open,60,Sarah Farrar,VT,59.6,158.76,81.65,163.29,403.7,SBD,1
 F,Raw,Amateur Junior 20-23,67.5,Emily Domoracki,NH,66.04,79.38,47.63,117.93,244.94,SBD,1
 F,Raw,Amateur Open,67.5,Katrina Karwoski,MA,65.32,108.86,58.97,115.67,283.5,SBD,1
 F,Raw,Amateur Open,67.5,Stevie Gow,NH,65.68,83.91,56.7,115.67,256.28,SBD,2
@@ -34,7 +34,7 @@ M,Raw,Amateur Open,82.5,Jeremiah Via,MA,79.92,174.63,95.25,206.38,476.27,SBD,4
 M,Raw,Amateur Open,82.5,Stephan Boyer,NH,79.47,154.22,104.33,195.04,453.59,SBD,5
 M,Raw,Amateur Master 45-49,82.5,Rick LaMarche,VT,82.01,197.31,136.08,254.01,587.4,SBD,1
 M,Wraps,Amateur Teen 18-19,82.5,Charles Merrick,MA,79.65,158.76,99.79,217.72,476.27,SBD,1
-M,Wraps,Pro Open,82.5,Richard Jorgenson,NH,82.42,283.5,156.49,292.57,732.55,SBD,1
+M,Wraps,Elite Open,82.5,Richard Jorgenson,NH,82.42,283.5,156.49,292.57,732.55,SBD,1
 M,Raw,Amateur Master 45-49,90,Jason Curry,VT,89.54,195.04,163.29,213.19,571.53,SBD,1
 M,Raw,Amateur Open,90,Timothy DiCesare,MA,87.91,195.04,140.61,258.55,594.21,SBD,1
 M,Raw,Amateur Open,90,Nik Ivanov,MA,83.46,161.03,95.25,172.37,428.64,SBD,2
