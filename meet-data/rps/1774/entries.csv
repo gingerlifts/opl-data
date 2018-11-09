@@ -1,6 +1,6 @@
 Sex,Equipment,Division,WeightClassKg,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Place
 F,Raw,Amateur Open,56,Angelina Bennett,54.43,108.86,58.97,133.81,301.64,SBD,1
-F,Wraps,Pro Open,60,Gabrielle Ammaturo,59.6,113.4,65.77,124.74,303.91,SBD,1
+F,Wraps,Elite Open,60,Gabrielle Ammaturo,59.6,113.4,65.77,124.74,303.91,SBD,1
 F,Raw,Amateur Open,60,Marleigh Elizabeth Durham,57.11,90.72,52.16,108.86,251.74,SBD,1
 F,Wraps,Amateur Submaster 33-39,67.5,Amber Hardman,67.13,129.27,56.7,138.35,324.32,SBD,1
 F,Wraps,Amateur Master 40-44,82.5,Elizabeth Weiner,80.33,129.27,63.5,147.42,340.19,SBD,1
@@ -22,7 +22,7 @@ M,Raw,Amateur Junior 20-23,90,Jonah Gurley,88.9,129.27,122.47,215.46,467.2,SBD,2
 M,Raw,Amateur Junior 20-23,90,Adam Bohn,85.73,183.7,115.67,219.99,519.36,SBD,1
 M,Wraps,Amateur Open,90,Adrian Rangel,89.09,197.31,122.47,226.8,546.58,SBD,1
 M,Raw,Amateur Open,90,Alfonso Wells,87.45,226.8,142.88,229.06,598.74,SBD,1
-M,Wraps,Pro Open,90,Daniel Bennett,89.81,199.58,145.15,272.16,616.89,SBD,1
+M,Wraps,Elite Open,90,Daniel Bennett,89.81,199.58,145.15,272.16,616.89,SBD,1
 M,Wraps,Amateur Teen 18-19,90,Korey Downs,88.41,254.01,176.9,235.87,666.78,SBD,1
 M,Raw,Amateur Junior 20-23,100,Isaac Elliott,98.52,142.88,97.52,192.78,433.18,SBD,1
 M,Wraps,Pro Open,100,David Turner,97.98,247.21,199.58,276.69,723.48,SBD,1

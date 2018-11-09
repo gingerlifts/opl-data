@@ -12,7 +12,7 @@ F,Raw,Amateur Master 60-64,75,Elaine Wallace,72.94,95.25,54.43,115.67,265.35,SBD
 F,Raw,Amateur Open,75,Beth Dingwall,68.04,111.13,65.77,140.61,317.51,SBD,,1
 F,Wraps,Pro Open,75,Jessica Millson,74.57,138.35,88.45,181.44,408.23,SBD,,1
 F,Raw,Amateur Open,82.5,Hilary Crannage,82.28,151.95,81.65,172.37,405.97,SBD,,1
-F,Wraps,Pro Open,82.5,Amy Wooliver,78.56,165.56,81.65,181.44,428.64,SBD,,1
+F,Wraps,Elite Open,82.5,Amy Wooliver,78.56,165.56,81.65,181.44,428.64,SBD,,1
 F,Raw,Amateur Open,90,Leah Reidy,85.18,97.52,70.31,129.27,297.1,SBD,,1
 F,Wraps,Pro Open,90,Kayla Tracey,89.45,181.44,79.38,199.58,460.4,SBD,,1
 F,Raw,Amateur Submaster 33-39,110+,Chrissy Codner,118.75,124.74,74.84,142.88,342.46,SBD,,1
@@ -24,8 +24,8 @@ M,Wraps,Amateur Submaster 33-39,75,Christopher DeBlois,74.03,136.08,113.4,165.56
 M,Raw,Amateur Teen 18-19,82.5,Michael Houle,81.65,183.7,102.06,192.78,478.54,SBD,,1
 M,Wraps,Amateur Junior 20-23,82.5,Jonathan Bedosky,81.28,151.95,99.79,185.97,437.72,SBD,,2
 M,Wraps,Amateur Junior 20-23,82.5,Andres Allen,80.38,179.17,138.35,247.21,564.72,SBD,,1
-M,Multi-ply,Pro Open,90,James Matta,89.72,331.12,267.62,231.33,830.07,SBD,,1
-M,Multi-ply,Pro Master 40-44,90,James Matta,89.72,331.12,267.62,231.33,830.07,SBD,,1
+M,Multi-ply,Elite Open,90,James Matta,89.72,331.12,267.62,231.33,830.07,SBD,,1
+M,Multi-ply,Amateur Master 40-44,90,James Matta,89.72,331.12,267.62,231.33,830.07,SBD,,1
 M,Multi-ply,Pro Master 50-54,90,Mark Van Alstyne,88.18,317.51,235.87,267.62,821,SBD,,1
 M,Raw,Military Pro Open,90,Sean Gori,88.36,151.95,124.74,215.46,492.15,SBD,,1
 M,Raw,Pro Open,90,Zachery Davis,89.27,201.85,172.37,238.14,612.35,SBD,,1
@@ -51,7 +51,8 @@ M,Wraps,Amateur Submaster 33-39,110,Jonathon Warner,102.78,165.56,181.44,238.14,
 M,Wraps,Pro Master 50-54,110,Philip Russo,108.59,195.04,170.1,179.17,544.31,SBD,,1
 M,Single-ply,Amateur Master 40-44,110,Jim Ford,105.87,265.35,201.85,260.82,728.02,SBD,,1
 M,Raw,Amateur Master 55-59,125,Mark C Morthier,113.94,190.51,117.93,233.6,542.04,SBD,,1
-M,Raw,Pro Submaster 33-39,125,Mohamed Said Ahmed Nasr,124.74,328.85,170.1,299.37,798.32,SBD,,1
+M,Raw,Elite Open,125,Mohamed Said Ahmed Nasr,124.74,328.85,170.1,299.37,798.32,SBD,,1
+M,Raw,Amateur Submaster 33-39,125,Mohamed Said Ahmed Nasr,124.74,328.85,170.1,299.37,798.32,SBD,,1
 M,Raw,Police Amateur Open,125,Joshua Walker,113.4,256.28,188.24,272.16,716.68,SBD,,1
 M,Wraps,Amateur Junior 20-23,125,Thaddeus Jones,118.93,197.31,127.01,215.46,539.77,SBD,,1
 M,Wraps,Amateur Master 45-49,125,Scott Billington,114.58,226.8,142.88,233.6,603.28,SBD,,1
