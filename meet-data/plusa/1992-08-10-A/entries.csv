@@ -58,7 +58,7 @@ F. Ramirez,82.5,Masters 40-44,M,227.5,137.5,227.5,,592.5,SBD,Single-ply,3
 M. Mitchell,82.5,Masters 40-44,M,240,130,217.5,,587.5,SBD,Single-ply,4
 R. Lovelace,82.5,Masters 40-44,M,217.5,145,215,,577.5,SBD,Single-ply,5
 J. Flaherty,82.5,Masters 40-44,M,197.5,135,245,,577.5,SBD,Single-ply,6
-Mike VanCleave,82.5,Masters 45-49,M,280,145,260,,685,SBD,Single-ply,1
+M. VanCleave,82.5,Masters 45-49,M,280,145,260,,685,SBD,Single-ply,1
 K. Hartman,82.5,Masters 45-49,M,197.5,107.5,237.5,,542.5,SBD,Single-ply,2
 J. Capps,82.5,Masters 50-54,M,187.5,117.5,195,,500,SBD,Single-ply,1
 P. Wilson,82.5,Masters 55-59,M,207.5,152.5,215,,575,SBD,Single-ply,1
@@ -70,7 +70,7 @@ H. Soudieres,82.5,Masters 80+,M,80,77.5,102.5,,260,SBD,Single-ply,1
 D. Hall,90,Submasters 35-39,M,305,187.5,300,,792.5,SBD,Single-ply,1
 D. Carnes,90,Submasters 35-39,M,277.5,177.5,287.5,,742.5,SBD,Single-ply,2
 R. Moody,90,Submasters 35-39,M,282.5,157.5,245,,685,SBD,Single-ply,3
-S. O'Kelley,90,Submasters 35-39,M,245,192.5,247,,685,SBD,Single-ply,4
+S. O’Kelley,90,Submasters 35-39,M,245,192.5,247,,685,SBD,Single-ply,4
 P. Sutphin,90,Submasters 35-39,M,247.5,155,252.5,,655,SBD,Single-ply,5
 D. Haisenleder,90,Masters 40-44,M,267.5,165,252.5,,685,SBD,Single-ply,1
 J. Boyer,90,Masters 40-44,M,260,177.5,235,,672.5,SBD,Single-ply,2
@@ -98,7 +98,7 @@ N. Washington,100,Masters 40-44,M,285,165,292.5,,742.5,SBD,Single-ply,2
 H. Gengler,100,Masters 40-44,M,272.5,192.5,260,,725,SBD,Single-ply,3
 M. Brown,100,Masters 40-44,M,247.5,162.5,277.5,,687.5,SBD,Single-ply,4
 D. Hall,100,Masters 40-44,M,260,147.5,247.5,,655,SBD,Single-ply,5
-J. Gregory Jr,100,Masters 40-44,M,250,142.5,250,,642.5,SBD,Single-ply,6
+J. Gregory Jr.,100,Masters 40-44,M,250,142.5,250,,642.5,SBD,Single-ply,6
 T. King,100,Masters 40-44,M,245,142.5,235,,622.5,SBD,Single-ply,7
 S. Butler,100,Masters 40-44,M,200,125,205,,530,SBD,Single-ply,8
 D. Hamblet,100,Masters 45-49,M,285,182.5,307.5,,775,SBD,Single-ply,1
@@ -181,7 +181,7 @@ R. Lovelace,82.5,Masters 40-44,M,,145,,,145,B,Single-ply,2
 F. Ramirez,82.5,Masters 40-44,M,,137.5,,,137.5,B,Single-ply,3
 J. Flaherty,82.5,Masters 40-44,M,,135,,,135,B,Single-ply,4
 H. Soudieres,82.5,Masters 80+,M,,77.5,,,77.5,B,Single-ply,1
-S. O'Kelley,90,Submasters 35-39,M,,192.5,,,192.5,B,Single-ply,1
+S. O’Kelley,90,Submasters 35-39,M,,192.5,,,192.5,B,Single-ply,1
 D. McMillan,90,Submasters 35-39,M,,190,,,190,B,Single-ply,2
 G. Key,90,Submasters 35-39,M,,160,,,160,B,Single-ply,3
 J. Boyer,90,Masters 40-44,M,,177.5,,,177.5,B,Single-ply,1

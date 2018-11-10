@@ -5,20 +5,20 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Best3BenchKg,Benc
 1,Helen McCalmon,O,UK,,97.5,,47.5,,145,,290,56,F,SBD,Single-ply
 1,Mary Ellen Warman,O,USA,,222.5,,102.5,,177.5,,502.5,60,F,SBD,Single-ply
 2,Amy Weisberger,O,USA,,170,,100,,172.5,,442.5,60,F,SBD,Single-ply
-3,S. Roguet,O,Belgium,,122.5,,60,,142.5,,325,60,F,SBD,Single-ply
+3,S Roguet,O,Belgium,,122.5,,60,,142.5,,325,60,F,SBD,Single-ply
 1,Mariah Liggett,O,USA,,215,230.5,120,,195,,530,67.5,F,SBD,Single-ply
 2,Liz Allworth,O,South Africa,,185,,92.5,,172.5,,450,67.5,F,SBD,Single-ply
 3,Haines,O,UK,,75,,40,,95,,210,67.5,F,SBD,Single-ply
-1,N. Patterson,T3,USA,,137.5,,60,,130,,327.5,75,F,SBD,Single-ply
+1,N Patterson,T3,USA,,137.5,,60,,130,,327.5,75,F,SBD,Single-ply
 1,Laura Dodd,O,USA,,242.5,,100,,235,,577.5,75,F,SBD,Single-ply
-2,Stephanie van de Weghe,O,USA,,202.5,,107.5,,197.5,,507.5,75,F,SBD,Single-ply
+2,Stephanie Van De Weghe,O,USA,,202.5,,107.5,,197.5,,507.5,75,F,SBD,Single-ply
 3,Wait,O,South Africa,,155,,80,,155,,390,75,F,SBD,Single-ply
 1,Tamara Rainwater-Grimwood,O,USA,,230,,142.5,,200,,572.5,82.5,F,SBD,Single-ply
 2,Bos,O,South Africa,,222.5,,125,,215,,562.5,82.5,F,SBD,Single-ply
 3,Schulte,O,South Africa,,160,,82.5,,180,,422.5,82.5,F,SBD,Single-ply
 1,Anita Bruwer,O,South Africa,,185,,92.5,,175,,452.5,90,F,SBD,Single-ply
 2,Chantal Coulon,O,France,,140,,100,,170,,410,90,F,SBD,Single-ply
-1,Maris Sternberg,O,USA,,140,,62.5,,140,,342.5,90+,F,SBD,Single-ply
+1,Anne Sternberg Maris,O,USA,,140,,62.5,,140,,342.5,90+,F,SBD,Single-ply
 1,Luca Cavagna,O,Italy,,140,,70,,145,,355,52,M,SBD,Single-ply
 1,John Nzuza,O,South Africa,,200,,115,,190,,505,56,M,SBD,Single-ply
 2,Haywood,O,UK,,125,,70,,155,,350,56,M,SBD,Single-ply
@@ -35,11 +35,11 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Best3BenchKg,Benc
 2,Avtar Singh,O,UK,,240,,150,,245,,635,67.5,M,SBD,Single-ply
 3,Schmidt,O,South Africa,,225,,160,,227.5,,612.5,67.5,M,SBD,Single-ply
 1,Ernesto Milian,M1,Puerto Rico,,227.5,,132.5,,235,,595,67.5,M,SBD,Single-ply
-1,James Capehart,M3,USA,,185,,117.5,,185,186,487.5,67.5,M,SBD,Single-ply
+1,"James""Radar"" Capehart",M3,USA,,185,,117.5,,185,186,487.5,67.5,M,SBD,Single-ply
 1,Rohan Archibald,T3,South Africa,,210,,162.5,167.5,257.5,,630,75,M,SBD,Single-ply
 1,Amira,J,France,,220,,125,,230,,575,75,M,SBD,Single-ply
 2,Clements,J,UK,,235,,130,,210,,575,75,M,SBD,Single-ply
-3,W. Debruyne,J,Belgium,,150,,95,,200,,445,75,M,SBD,Single-ply
+3,W Debruyne,J,Belgium,,150,,95,,200,,445,75,M,SBD,Single-ply
 1,Neville Primich,O,South Africa,,320,,197.5,,280,,797.5,75,M,SBD,Single-ply
 2,Jose Perez,O,USA,,325,,197.5,,265,,787.5,75,M,SBD,Single-ply
 3,Edward Downing,O,South Africa,,300,,200,,265,,765,75,M,SBD,Single-ply
@@ -49,9 +49,9 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Best3BenchKg,Benc
 7,Haskins,O,USA,,195,,132.5,,210,,537.5,75,M,SBD,Single-ply
 1,Hugo,M1,South Africa,,245,,140,,250,,635,75,M,SBD,Single-ply
 2,David Berg,M1,UK,,245,,130,,230,,605,75,M,SBD,Single-ply
-3,G. Isaac,M1,UK,,205,,120,,235,,560,75,M,SBD,Single-ply
+3,G Isaac,M1,UK,,205,,120,,235,,560,75,M,SBD,Single-ply
 4,Avtar Singh,M1,UK,,200,,132.5,,217.5,,550,75,M,SBD,Single-ply
-1,R. Mercier,M2,Belgium,,205,,122.5,,207.5,,535,75,M,SBD,Single-ply
+1,R Mercier,M2,Belgium,,205,,122.5,,207.5,,535,75,M,SBD,Single-ply
 2,Jones,M2,UK,,195,,105,,185,,485,75,M,SBD,Single-ply
 1,Phillips,M5,USA,,195,205,105,,230,,530,75,M,SBD,Single-ply
 1,Sleinburg,T3,South Africa,,220,,110,,200,,530,82.5,M,SBD,Single-ply
@@ -60,12 +60,12 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Best3BenchKg,Benc
 1,Jan Ferreira,O,South Africa,,320,,227.5,,282.5,,830,82.5,M,SBD,Single-ply
 2,Tony Kamand,O,USA,,332.5,,150,,310,,792.5,82.5,M,SBD,Single-ply
 3,Enzo Vaccari,O,Italy,,315,,180,,280,,775,82.5,M,SBD,Single-ply
-4,Calitz #1,O,South Africa,,250,,160,,280,,690,82.5,M,SBD,Single-ply
+4,Calitz,O,South Africa,,250,,160,,280,,690,82.5,M,SBD,Single-ply
 5,Frascadore,O,Italy,,220,,180,,260,,660,82.5,M,SBD,Single-ply
 6,Newell,O,UK,,255,,162.5,,235,,652.5,82.5,M,SBD,Single-ply
 1,Jones,M1,UK,,230,,165,,250,,645,82.5,M,SBD,Single-ply
 2,Lace,M1,UK,,225,,160,,250,,635,82.5,M,SBD,Single-ply
-1,M. Brown,M2,UK,,275,,162.5,,265,,702.5,82.5,M,SBD,Single-ply
+1,M Brown,M2,UK,,275,,162.5,,265,,702.5,82.5,M,SBD,Single-ply
 2,Troy Hicks,M2,USA,,222.5,,130,,240,,592.5,82.5,M,SBD,Single-ply
 3,Maeyens,M2,Belgium,,130,,90,,205,,425,82.5,M,SBD,Single-ply
 1,Edwin Angstrom,M3,USA,,192.5,,147.5,,205,,545,82.5,M,SBD,Single-ply
@@ -75,7 +75,7 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Best3BenchKg,Benc
 1,Martin Donovan,J,UK,,300,,180,,300,,780,90,M,SBD,Single-ply
 2,Lewis,J,UK,,295,,192.5,,292.5,,780,90,M,SBD,Single-ply
 3,Convers,J,Belgium,,200,,162.5,,247.5,,610,90,M,SBD,Single-ply
-1,Simon Palmér,O,South Africa,,340,,207.5,,282.5,,830,90,M,SBD,Single-ply
+1,Simon Palmer,O,South Africa,,340,,207.5,,282.5,,830,90,M,SBD,Single-ply
 2,Orsmond,O,South Africa,,325,,230,,262.5,,817.5,90,M,SBD,Single-ply
 3,Rich Ludy,O,USA,,302.5,,227.5,,282.5,,812.5,90,M,SBD,Single-ply
 4,Hoskins,O,UK,,300,,210,,300,,810,90,M,SBD,Single-ply
@@ -90,7 +90,7 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Best3BenchKg,Benc
 1,James Rouse,M3,USA,,320,,185,,277.5,,782.5,90,M,SBD,Single-ply
 1,Larry McCauley,M6,USA,,215,,155,,250,,620,90,M,SBD,Single-ply
 1,Kirby,J,UK,,250,,170,,260,,680,100,M,SBD,Single-ply
-2,S. Allsop,J,UK,,220,,145,,245,,610,100,M,SBD,Single-ply
+2,S Allsop,J,UK,,220,,145,,245,,610,100,M,SBD,Single-ply
 1,Jamie Carney,O,UK,,370,,240,,350,,960,100,M,SBD,Single-ply
 2,Kevin Hammerton,O,UK,,375,,197.5,,332.5,,905,100,M,SBD,Single-ply
 3,Jeff Jacques,O,USA,,347.5,,240,,317.5,,905,100,M,SBD,Single-ply
@@ -117,7 +117,7 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Best3BenchKg,Benc
 1,Kiss,J,USA,,330,,200,,270,,800,110,M,SBD,Single-ply
 1,Curtis Lesley,O,USA,,395,,252.5,,342.5,,990,110,M,SBD,Single-ply
 2,Eugene Van De Merwe,O,South Africa,,405,,215,,330,,950,110,M,SBD,Single-ply
-3,Martin van Biljon,O,South Africa,,372.5,,212.5,,325,,910,110,M,SBD,Single-ply
+3,Martin Van Biljon,O,South Africa,,372.5,,212.5,,325,,910,110,M,SBD,Single-ply
 4,Andy Bowman,O,UK,,355,,232.5,,320,,907.5,110,M,SBD,Single-ply
 5,Olesen,O,Denmark,,355,,210,,312.5,,877.5,110,M,SBD,Single-ply
 6,Banks,O,UK,,285,,220,,295,,800,110,M,SBD,Single-ply
@@ -130,14 +130,14 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Best3BenchKg,Benc
 1,Pardee,M5,USA,,170,,120,,197.5,,487.5,110,M,SBD,Single-ply
 1,Phillip Bennett,T3,USA,,272.5,,190,,290,,752.5,110+,M,SBD,Single-ply
 1,Scott Warman,O,USA,,435,,237.5,,367.5,,1040,125,M,SBD,Single-ply
-2,Andy Bolton,O,UK,,380,,205,,380,,965,125,M,SBD,Single-ply
+2,Andrew Bolton,O,UK,,380,,205,,380,,965,125,M,SBD,Single-ply
 3,Andre Cilliers,O,South Africa,,350,,250,,320,,920,125,M,SBD,Single-ply
 4,Barry Stoten,O,UK,,385,,232.5,,290,,907.5,125,M,SBD,Single-ply
 5,Martijs,O,Belgium,,330,,225,,305,,860,125,M,SBD,Single-ply
 6,Baaeyens,O,Belgium,,220,,180,,280,,680,125,M,SBD,Single-ply
 DQ,Balance,O,Canada,,295,,197.5,,,,,125,M,SBD,Single-ply
-1,E. Mohan,M1,USA,,327.5,,202.5,,295,,825,125,M,SBD,Single-ply
-1,David T Carter,M2,UK,,347.5,,155,,360,,862.5,125,M,SBD,Single-ply
+1,E Mohan,M1,USA,,327.5,,202.5,,295,,825,125,M,SBD,Single-ply
+1,T Carter David,M2,UK,,347.5,,155,,360,,862.5,125,M,SBD,Single-ply
 2,Stevans,M2,USA,,332.5,,192.5,,295,,820,125,M,SBD,Single-ply
 3,Liss,M2,USA,,237.5,,155,,142.5,,535,125,M,SBD,Single-ply
 1,Mike Brown,M3,UK,,270,,130,,300,,700,125,M,SBD,Single-ply
@@ -146,7 +146,7 @@ DQ,Balance,O,Canada,,295,,197.5,,,,,125,M,SBD,Single-ply
 3,Kieran Kidder,O,USA,,397.5,,247.5,,295,,940,140,M,SBD,Single-ply
 4,Collins,O,UK,,280,,190,,305,,775,140,M,SBD,Single-ply
 1,Brian Meek,M2,USA,,332.5,,222.5,,310,,865,140,M,SBD,Single-ply
-1,Steve Brodsky,O,USA,,385,,255,,337.5,,977.5,140+,M,SBD,Single-ply
+1,Steven Brodsky,O,USA,,385,,255,,337.5,,977.5,140+,M,SBD,Single-ply
 2,James Voronin,O,USA,,372.5,,247.5,,292.5,,912.5,140+,M,SBD,Single-ply
 3,Gary Heisey,O,USA,,317.5,,70,,395,,782.5,140+,M,SBD,Single-ply
 4,Eduardo Stazi,O,Italy,,275,,145,,280,,700,140+,M,SBD,Single-ply
