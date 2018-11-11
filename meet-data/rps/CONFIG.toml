@@ -13,6 +13,11 @@
     ama_teen_16_17 = {name = "Amateur Teen 16-17", min = 16, max = 17}
     ama_teen_18_19 = {name = "Amateur Teen 18-19", min = 18, max = 19}
 
+    # Pro Teen, not official divisions but have been used in several meets
+    pro_teen_14_15 = {name = "Pro Teen 14-15", min = 14, max = 15}
+    pro_teen_16_17 = {name = "Pro Teen 16-17", min = 16, max = 17}
+    pro_teen_18_19 = {name = "Pro Teen 18-19", min = 18, max = 19}
+    
     # Juniors.
     ama_junior_20_23 = {name = "Amateur Junior 20-23", min = 20, max = 23}
     pro_junior_20_23 = {name = "Pro Junior 20-23", min = 20, max = 23}
