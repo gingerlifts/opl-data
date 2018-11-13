@@ -1,5 +1,5 @@
 Name,Sex,Age,BodyweightKg,WeightClassKg,Division,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Place,Equipment,Event
-Maté Kiss,M,18,56,56,T3,130,145,-155,,145,70,77.5,80,,80,150,160,170,,170,395,1,Wraps,SBD
+Máté Kiss,M,18,56,56,T3,130,145,-155,,145,70,77.5,80,,80,150,160,170,,170,395,1,Wraps,SBD
 Totte Salmi,M,42,55.68,56,Open,130,140,156,,156,95,102.5,107.5,,107.5,165,-186,-186,,165,428.5,1,Wraps,SBD
 Štefan Lehocký,M,15,60,60,T1,120,137.5,-145,,137.5,55,62.5,-65,,62.5,140,160,,,160,360,1,Wraps,SBD
 Dan Ashcroft,M,18,60,60,T3,162.5,170,,,170,80,90,95,,95,180,192.5,,,192.5,457.5,1,Wraps,SBD
@@ -391,7 +391,7 @@ Gary Bobrovitz,M,65,66.4,67.5,M6,,,,,,110,112.5,115,-117.5,115,,,,,,115,1,Raw,B
 Andreas Vigh,M,73,65.95,67.5,M7,,,,,,75,80,82.5,,82.5,,,,,,82.5,1,Raw,B
 Budgie Mullan,M,73,66.1,67.5,M7,,,,,,60,65,-70,,65,,,,,,65,2,Raw,B
 Gerd Cedel,M,75,65.7,67.5,M8,,,,,,80,82.5,-85,,82.5,,,,,,82.5,1,Raw,B
-David Horák,M,14,73.1,75,T1,,,,,,50,57.5,65,,65,,,,,,65,1,Raw,B
+Dávid Horák,M,14,73.1,75,T1,,,,,,50,57.5,65,,65,,,,,,65,1,Raw,B
 Roman Fuksa,M,16,73.25,75,T2,,,,,,90,100,105,,105,,,,,,105,1,Raw,B
 Nikola Stanković,M,17,71.45,75,T2,,,,,,95,-100,-100,,95,,,,,,95,2,Raw,B
 Lukáš Vašíček,M,22,73.45,75,Juniors,,,,,,100,-115,-120,,100,,,,,,100,1,Raw,B
@@ -461,7 +461,7 @@ László Kupcsik,M,50,89.15,90,M3,,,,,,200,212.5,217.5,,217.5,,,,,,217.5,1,Raw,B
 Alexander Bark,M,54,85.15,90,M3,,,,,,112.5,117.5,122.5,,122.5,,,,,,122.5,2,Raw,B
 Tamás Brauner,M,56,88.1,90,M4,,,,,,155,160,165,,165,,,,,,165,1,Raw,B
 Leonid Averbakh,M,57,84.15,90,M4,,,,,,112.5,117.5,120,,120,,,,,,120,2,Raw,B
-Jean-Francois Denis,M,61,88.9,90,M5,,,,,,170,177,180,,180,,,,,,180,1,Raw,B
+Jean-François Denis,M,61,88.9,90,M5,,,,,,170,177,180,,180,,,,,,180,1,Raw,B
 Jozef Völgyák,M,65,88.1,90,M6,,,,,,130,135,,,135,,,,,,135,1,Raw,B
 Eduard Novotný,M,69,85.3,90,M6,,,,,,90,100,105,,105,,,,,,105,2,Raw,B
 Petr Vogel,M,19,97.75,100,T3,,,,,,-200,-210,-210,,,,,,,,,DQ,Raw,B
