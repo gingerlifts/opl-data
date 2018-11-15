@@ -79,6 +79,7 @@ pub enum MetaFederation {
     IPACAN,
     
     /// IrishPO, excluding non-Irish lifters and including WPC results.
+    #[strum(to_string = "irishpo")]
     IrishPO,
     
     /// USPA, plus IPL results for American lifters.
