@@ -213,18 +213,17 @@ impl MetaFederation {
             MetaFederation::IPACAN => {
                 meet.federation == Federation::IPA && meet.country == Country::Canada
             }
-<<<<<<< HEAD
+            MetaFederation::IrishPO => {
+                (meet.federation == Federation::IrishPO
+                    && (entry.lifter_country.is_none()
+                        || entry.lifter_country == Some(Country::Ireland)))
+                    || (meet.federation == Federation::WPC
+                        && entry.lifter_country == Some(Country::Ireland))
+            }
             MetaFederation::USPA => {
                 meet.federation == Federation::USPA
                     || (meet.federation == Federation::IPL
                         && entry.lifter_country == Some(Country::USA))
-=======
-            MetaFederation::IrishPO => {
-                (meet.federation == Federation::IrishPO 
-                	|| meet.federation == Federation::WPC)
-                    && meet.country == Country::Ireland
->>>>>>> Make IrishPO a metafed.
-            }
             MetaFederation::USPATested => {
                 entry.tested &&
                     (meet.federation == Federation::USPA
