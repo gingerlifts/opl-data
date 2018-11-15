@@ -201,9 +201,11 @@ impl MetaFederation {
                 meet.federation == Federation::IPA && meet.country == Country::Canada
             }
             MetaFederation::IrishPO => {
-                (meet.federation == Federation::IrishPO 
-                	|| meet.federation == Federation::WPC)
-                    && meet.country == Country::Ireland
+                (meet.federation == Federation::IrishPO
+                    && (entry.lifter_country.is_none()
+                        || entry.lifter_country == Some(Country::Ireland)))
+                    || (meet.federation == Federation::WPC
+                        && entry.lifter_country == Some(Country::Ireland))
             }
             MetaFederation::USPATested => {
                 meet.federation == Federation::USPA && entry.tested
