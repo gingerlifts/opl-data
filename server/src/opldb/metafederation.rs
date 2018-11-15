@@ -225,6 +225,7 @@ impl MetaFederation {
                 meet.federation == Federation::USPA
                     || (meet.federation == Federation::IPL
                         && entry.lifter_country == Some(Country::USA))
+            }
             MetaFederation::USPATested => {
                 entry.tested &&
                     (meet.federation == Federation::USPA
