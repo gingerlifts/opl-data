@@ -72,6 +72,7 @@ pub enum MetaFederation {
     #[strum(to_string = "ipa-can")]
     IPACAN,
     /// IrishPO, excluding non-Irish lifters and including WPC results.
+    #[strum(to_string = "irishpo")]
     IrishPO,
     #[strum(to_string = "uspa-tested")]
     USPATested,
