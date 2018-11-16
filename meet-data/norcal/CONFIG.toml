@@ -31,3 +31,5 @@
     date_range = ["2013-01-01", "9999-01-01"]
     sex = "F"
 
+[exemptions]
+    # nada
