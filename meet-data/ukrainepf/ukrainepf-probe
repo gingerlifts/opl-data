@@ -45,7 +45,6 @@ def colour(s):
     return "\033[1;33m" + s + "\033[0;m"
 
 
-
 def getmeetlist(html):
     soup = BeautifulSoup(html, 'html.parser')
 
@@ -57,7 +56,7 @@ def getmeetlist(html):
 
         if 'sorevnovaniya' not in url or 'sorevnovaniya.php' in url:
             continue
-        url = url.replace('../','')
+        url = url.replace('../', '')
         url = base_url + "/" + url
         if url not in urls:
             urls.append(url)

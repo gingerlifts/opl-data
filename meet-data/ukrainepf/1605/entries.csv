@@ -1,9 +1,9 @@
-WeightClassKg,Sex,Division,Place,Name,CyrillicName,BirthDay,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment
+WeightClassKg,Sex,Division,Place,Name,CyrillicName,BirthDate,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment
 59,M,Student,1,Igor Dorokhin,Ігор Дорохін,1996-10-31,58.72,130,107.5,190,427.5,SBD,Raw
 59,M,Student,2,Edgar Dovgiy,Едгар Довгий,1996-06-06,58.92,140,107.5,180,427.5,SBD,Raw
 59,M,Student,3,Andriy MInyayluk,Андрій МІняйлук,1999-03-02,58.64,122.5,107.5,160,390,SBD,Raw
 59,M,Student,4,Sergiy-Zenoviy Lisik,Сергій-Зеновій Лисик,1998-02-22,58.74,127.5,80,150,357.5,SBD,Raw
-59,M,Student,DQ,Vadim Gutnik,Вадим Гутник,1999-06-11,58.78,145,95,175,415,SBD,Raw
+59,M,Student,G,Vadim Gutnik,Вадим Гутник,1999-06-11,58.78,145,95,175,415,SBD,Raw
 66,M,Student,1,Ivan Kuklishin,Іван Куклишин,1996-07-02,65.9,197.5,95,210,502.5,SBD,Raw
 66,M,Student,2,Valeriy Dudash,Валерій Дудаш,1995-12-29,65,157.5,110,212.5,480,SBD,Raw
 66,M,Student,3,Vasil Mikityak,Василь Микитяк,1995-08-23,64.95,160,117.5,190,467.5,SBD,Raw
@@ -36,7 +36,7 @@ WeightClassKg,Sex,Division,Place,Name,CyrillicName,BirthDay,BodyweightKg,Best3Sq
 93,M,Student,5,Oleg Martinets,Олег Мартинець,1994-02-27,90.5,217.5,157.5,260,635,SBD,Raw
 93,M,Student,6,Ivan Seletskiy,Іван Селецький,1994-01-18,92.85,215,167.5,245,627.5,SBD,Raw
 93,M,Student,7,Oleksandr Gangur,Олександр Гангур,1999-07-03,89.5,225,120,260,605,SBD,Raw
-93,M,Student,DQ,Vasil Balazh,Василь Балаж,1988-03-15,90.5,215,140,235,590,SBD,Raw
+93,M,Student,G,Vasil Balazh,Василь Балаж,1988-03-15,90.5,215,140,235,590,SBD,Raw
 105,M,Student,1,Volodimir Zakharkiv,Володимир Захарків,1996-10-06,99.65,227.5,185,270,682.5,SBD,Raw
 105,M,Student,2,Oleksandr Gordiychuk,Олександр Гордійчук,1996-09-04,102.75,250,162.5,255,667.5,SBD,Raw
 105,M,Student,3,Vitaliy Troyan,Віталій Троян,1994-07-18,96.5,245,155,250,650,SBD,Raw
@@ -61,10 +61,10 @@ WeightClassKg,Sex,Division,Place,Name,CyrillicName,BirthDay,BodyweightKg,Best3Sq
 57,F,Student,3,Anastasiya Kravchenko,Анастасія Кравченко,1998-03-28,56.52,110,67.5,132.5,310,SBD,Raw
 57,F,Student,4,Alina Morgach,Аліна Моргач,1997-02-02,57,100,57.5,122.5,280,SBD,Raw
 57,F,Student,5,Sofiya Bzbilyas,Софія Бзбіляс,1997-09-19,56.72,92.5,55,117.5,265,SBD,Raw
-63,F,Student,1,Dariya iskiv,Дарія іськів,1999-03-31,62.45,122.5,75,147.5,345,SBD,Raw
+63,F,Student,1,Dariya Iskiv,Дарія Іськів,1999-03-31,62.45,122.5,75,147.5,345,SBD,Raw
 63,F,Student,2,Olga Chop,Ольга Чоп,1993-03-06,63,107.5,82.5,142.5,332.5,SBD,Raw
 63,F,Student,3,Yuliya Osiїk,Юлія Осіїк,1998-04-22,59.84,112.5,62.5,140,315,SBD,Raw
-63,F,Student,4,KristIna Narishkina,КрістІна Наришкіна,1999-03-13,62.75,107.5,65,122.5,295,SBD,Raw
+63,F,Student,4,Kristina Narishkina,Крістіна Наришкіна,1999-03-13,62.75,107.5,65,122.5,295,SBD,Raw
 63,F,Student,5,Diana Danilishin,Діана Данилишин,1999-02-11,58.46,82.5,57.5,100,240,SBD,Raw
 72,F,Student,1,Vasilisa Oniїtsenko,Василиса Оніїценко,1993-12-26,63.05,130,72.5,150,352.5,SBD,Raw
 72,F,Student,2,Yuliya Grigorenko,Юлія Григоренко,1996-02-03,63.1,107.5,65,135,307.5,SBD,Raw
