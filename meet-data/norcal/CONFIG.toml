@@ -1,4 +1,5 @@
 [divisions]
+    # Age categories in rule book at http://nebula.wsimg.com/57bbf3478e6e3544e11bb161d256770f?AccessKeyId=FA9D9D18B064211552E9&disposition=0&alloworigin=1
     open = {name = "Open", min = 0, max = 999}
     kids_6 = {name = "Kids 6-7", min = 6, max = 7}
     kids_8 = {name = "Kids 8-9", min = 8, max = 9}
