@@ -616,6 +616,11 @@ pub enum Federation {
     #[strum(to_string = "WABDL", serialize = "wabdl")]
     WABDL,
 
+    /// Not sure what this stands for, Anthony Clark set a bench record in this fed.
+    #[strum(to_string = "WBC", serialize = "wbc")]
+    WBC,
+
+
     /// World Drug-Free Powerlifting Association.
     #[strum(to_string = "WDFPF", serialize = "wdfpf")]
     WDFPF,
@@ -872,6 +877,7 @@ impl Federation {
             Federation::WPA => false,
             Federation::WPARUS => false,
             Federation::WPAU => false,
+            Federation::WBC => false,
             Federation::WPC => false,
             Federation::WPCGermany => false,
             Federation::WPCLatvia => false,
@@ -1038,6 +1044,7 @@ impl Federation {
             Federation::VietnamPA => Some(Country::Vietnam),
             Federation::Vityaz => Some(Country::Russia),
             Federation::WABDL => Some(Country::USA),
+            Federation::WBC => Some(Country::USA),
             Federation::WDFPF => None,
             Federation::WelshPA => Some(Country::Wales),
             Federation::WP => None,
