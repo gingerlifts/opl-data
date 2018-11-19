@@ -1,13 +1,13 @@
 Place,Name,WeightClassKg,Sex,Division,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Event,Equipment
 1,Stefanie Strauß,72,F,Open,1982,67.8,95,100,-105,100,100,B,Raw
-1,Silvia Krüger,,F,Open,1978,106.4,87.5,95,100,100,100,B,Raw
-1,Sebastian Wegener,74,F,Youth,2001,70.5,85,95,100,100,100,B,Raw
+1,Silvia Krüger,72,F,Open,1978,106.4,87.5,95,100,100,100,B,Raw
+1,Sebastian Wegener,74,M,Youth,2001,70.5,85,95,100,100,100,B,Raw
 1,Jörg Gottschalk,59,M,Masters 1,1974,56.55,82.5,92.5,100,100,100,B,Raw
 2,Frank Wunderlich,66,M,Masters 2,1964,62.95,97.5,100,-102.5,100,100,B,Raw
 1,Rudolf Pleithner,66,M,Masters 2,1962,64.35,100,102.5,-105,102.5,102.5,B,Raw
 2,Willibald Gottschalk,74,M,Masters 2,1965,72.6,100,102.5,-107.5,102.5,102.5,B,Raw
 1,Eva-Maria Gall,84+,F,Masters 1,1970,97.9,95,105,-111.5,105,105,B,Raw
-1,Dominik Bogensperger,59,F,Juniors,1997,58.95,100,105,107.5,107.5,107.5,B,Raw
+1,Dominik Bogensperger,59,M,Juniors,1997,58.95,100,105,107.5,107.5,107.5,B,Raw
 2,Xaver Schaller,74,M,Masters 3,1952,73.55,102.5,-107.5,107.5,107.5,107.5,B,Raw
 2,Klaus Disse-Stebner,120,M,Masters 3,1953,115.3,97.5,102.5,107.5,107.5,107.5,B,Raw
 1,Regina Haas,72,F,Masters 2,1962,71.7,100,105,108.5,108.5,108.5,B,Raw
@@ -22,9 +22,9 @@ Place,Name,WeightClassKg,Sex,Division,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,B
 10,Fabian Domning,93,M,Masters 1,1971,88.15,115,-120,-120,115,115,B,Raw
 1,Lothar Koehl,74,M,Masters 4,1947,74,-110,-115,115,115,115,B,Raw
 2,Hans-Werner Kössl,93,M,Masters 4,1947,90.4,100,110,115,115,115,B,Raw
-1,Anton Honcharov,74,F,Juniors,1998,72.1,107.5,112.5,117.5,117.5,117.5,B,Raw
-2,Johannes Hofmann,83,F,Youth,2000,82.65,107.5,115,120,120,120,B,Raw
-1,Max Glok,93,F,Youth,2001,92.4,112.5,120,-125,120,120,B,Raw
+1,Anton Honcharov,74,M,Juniors,1998,72.1,107.5,112.5,117.5,117.5,117.5,B,Raw
+2,Johannes Hofmann,83,M,Youth,2000,82.65,107.5,115,120,120,120,B,Raw
+1,Max Glok,93,M,Youth,2001,92.4,112.5,120,-125,120,120,B,Raw
 2,Michael Fauck,74,M,Masters 1,1977,69.3,115,120,-122.5,120,120,B,Raw
 5,Veiko Friedrich,83,M,Masters 2,1964,77.05,120,-130,-130,120,120,B,Raw
 6,Juri Makuschkin,83,M,Masters 2,1963,80.75,120,-130,-130,120,120,B,Raw
@@ -38,7 +38,7 @@ Place,Name,WeightClassKg,Sex,Division,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,B
 2,Gerhard Baumeister,83,M,Masters 3,1952,82.35,115,122.5,-127.5,122.5,122.5,B,Raw
 10,Matthias Töpfl,93,M,Open,1992,89.5,120,-125,125,125,125,B,Raw
 4,Danny Bochmann,83,M,Masters 1,1976,79.8,120,125,-130,125,125,B,Raw
-1,Jannis Gallert,105,F,Youth,2001,98.1,115,125,127.5,127.5,127.5,B,Raw
+1,Jannis Gallert,105,M,Youth,2001,98.1,115,125,127.5,127.5,127.5,B,Raw
 5,Benny Wendt,74,M,Open,1985,72.5,-122.5,127.5,-132.5,127.5,127.5,B,Raw
 3,Hans-Joachim Thürk,105,M,Masters 3,1949,101.4,125,-127.5,127.5,127.5,127.5,B,Raw
 7,Kevin Schmeelke,83,M,Open,1983,82.4,130,-135,-135,130,130,B,Raw
@@ -59,7 +59,7 @@ Place,Name,WeightClassKg,Sex,Division,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,B
 1,Helmut Gerhard Rangnit,120+,M,Masters 3,1956,126.1,125,135,-142.5,135,135,B,Raw
 4,Friedhelm Schröter,83,M,Masters 2,1961,78.9,130,135,137.5,137.5,137.5,B,Raw
 5,Torsten Ahrens,105,M,Masters 2,1959,97.75,132.5,137.5,-142.5,137.5,137.5,B,Raw
-1,Vincent Opitz,83,F,Youth,2000,82.3,130,135,138,138,138,B,Raw
+1,Vincent Opitz,83,M,Youth,2000,82.3,130,135,138,138,138,B,Raw
 3,Dirk Surma,83,M,Masters 2,1967,82.75,125,132.5,140,140,140,B,Raw
 6,Thomas Berger,120+,M,Masters 2,1964,120.2,140,-145,-145,140,140,B,Raw
 1,Arthur Hirner,83,M,Masters 3,1957,82.75,140,-142.5,-142.5,140,140,B,Raw
@@ -69,7 +69,7 @@ Place,Name,WeightClassKg,Sex,Division,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,B
 6,Andre Schober,120+,M,Open,1984,153.4,130,135,142.5,142.5,142.5,B,Raw
 8,Michael Herzog,93,M,Masters 1,1978,91.05,142.5,-150,-152.5,142.5,142.5,B,Raw
 2,Roy Berndt,83,M,Masters 2,1966,81.4,142.5,-150,,142.5,142.5,B,Raw
-1,Joschua Noah Berger,66,F,Juniors,1996,64.4,135,140,145,145,145,B,Raw
+1,Joschua Noah Berger,66,M,Juniors,1996,64.4,135,140,145,145,145,B,Raw
 8,Alexander Kirchner,93,M,Open,1985,88,140,145,-150,145,145,B,Raw
 5,Florian Brüninghaus,120+,M,Open,1987,171,135,142.5,145,145,145,B,Raw
 5,Thomas Winkelmann,83,M,Open,1984,81.3,140,147.5,-152.5,147.5,147.5,B,Raw
@@ -189,13 +189,13 @@ Place,Name,WeightClassKg,Sex,Division,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,B
 2,Sandra Beyer,84,F,Open,1988,73.8,80,-82.5,82.5,82.5,82.5,B,Raw
 3,Christine Groß,84,F,Open,1979,79.1,77.5,82.5,-85,82.5,82.5,B,Raw
 2,Andrea Lange,72,F,Masters 2,1965,67.9,80,82.5,-85,82.5,82.5,B,Raw
-2,Benedict Vetter,59,F,Juniors,1995,58.45,70,80,82.5,82.5,82.5,B,Raw
+2,Benedict Vetter,59,M,Juniors,1995,58.45,70,80,82.5,82.5,82.5,B,Raw
 2,Sandra Augustiniok,72,F,Juniors,1999,67.3,80,85,-92.5,85,85,B,Raw
 1,Gabriela Hirner,57,F,Masters 2,1965,54.9,82.5,85,-88.5,85,85,B,Raw
 1,Frieda Holzer,84,F,Masters 2,1968,83.7,75,80,85,85,85,B,Raw
 1,Antje Decker,84,F,Open,1982,78.2,82.5,87.5,-90,87.5,87.5,B,Raw
 1,Eva Speth,84+,F,Masters 3,1954,89.1,82.5,87.5,90,90,90,B,Raw
-2,Jonas-Rene Floß,105,F,Youth,2003,101.1,82.5,87.5,90,90,90,B,Raw
+2,Jonas-Rene Floß,105,M,Youth,2003,101.1,82.5,87.5,90,90,90,B,Raw
 3,Karsten Gelhar,83,M,Masters 3,1957,81.95,80,85,90,90,90,B,Raw
 1,Sonja Stefanie Krüger,72,F,Juniors,1999,68.1,90,92.5,-96.5,92.5,92.5,B,Raw
 1,Brita Dr. Fritsch,72,F,Masters 1,1973,70.7,82.5,87.5,92.5,92.5,92.5,B,Raw
@@ -203,7 +203,7 @@ Place,Name,WeightClassKg,Sex,Division,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,B
 3,Heinz Zahn,93,M,Masters 4,1945,88.65,85,90,92.5,92.5,92.5,B,Raw
 1,Fiona Feuerer,57,F,Juniors,1998,56.6,93,-100,-100,93,93,B,Raw
 6,Moritz Jäger,74,M,Open,1994,72.4,85,95,-102.5,95,95,B,Raw
-1,Dominik Wegener,59,F,Youth,2000,55,85,92.5,97.5,97.5,97.5,B,Raw
-1,Cedric Oliver Rinn,66,F,Youth,2003,64.35,90,95,97.5,97.5,97.5,B,Raw
+1,Dominik Wegener,59,M,Youth,2000,55,85,92.5,97.5,97.5,97.5,B,Raw
+1,Cedric Oliver Rinn,66,M,Youth,2003,64.35,90,95,97.5,97.5,97.5,B,Raw
 3,Steffen Kulhawy,66,M,Masters 2,1963,65.9,90,97.5,-102.5,97.5,97.5,B,Raw
 DQ,Georg Haug,120+,M,Masters 2,1965,148.1,-195,-195,-195,,,B,Raw
