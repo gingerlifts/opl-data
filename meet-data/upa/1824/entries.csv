@@ -1,4 +1,4 @@
-Name,Age,Sex,Equipment,Division,BodyweightKg,WeightClassKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Place
+Name,Age,Sex,Equipment,Division,BodyweightLb,WeightClassLb,Best3SquatLb,Best3BenchLb,Best3DeadliftLb,TotalLb,Event,Place
 Sarah Effinger,,F,Multi-ply,F-EO,129.2,132,501.5,253.5,407.9,1162.9,SBD,1
 Erica Youster,,F,Multi-ply,F-Esub,162.4,165,501.5,253.5,352.7,1107.7,SBD,1
 Abby Marsh,,F,Raw,F-G,,,,,16.5,16.5,D,G
