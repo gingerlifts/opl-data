@@ -7,7 +7,7 @@ Place,Name,Division,Sex,Equipment,WeightClassKg,BodyweightKg,Bench1Kg,Bench2Kg,B
 1,Dominik Golin,Youth A,M,Raw,74,71.88,107.5,-110,-110,107.5,107.5,B
 2,Jamal Kamal,Open,M,Raw,83,74.68,110,115,120,120,120,B
 1,Jonas Diefenbach,Juniors,M,Single-ply,83,77.36,125,-132.5,-135,125,125,B
-1,Werner Pasternak,Masters 4,M,Raw,83,81.8,110,-115,0,110,110,B
+1,Werner Pasternak,Masters 4,M,Raw,83,81.8,110,-115,,110,110,B
 1,Hauke Heß,Open,M,Raw,83,82.58,150,155,160,160,160,B
 1,Joshua Häger,Youth A,M,Raw,93,83.16,75,80,85,85,85,B
 1,Rafail Karanikolas,Juniors,M,Raw,93,84.06,97.5,102.5,110,110,110,B
