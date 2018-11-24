@@ -1,6 +1,6 @@
-Name,Age,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Sex,Event,Equipment,Place
-Tierney Korotkin,53,FM2,138,148,,,,,130,-140,-140,130,,,,,130,M,B,Wraps,1
-Jo Anne Siskidis,25,FO,129.25,132,,,,,,,,,275,305,-320,305,305,M,D,Wraps,1
+Name,Age,Division,BodyweightLBS,WeightClassLBS,Squat1LBS,Squat2LBS,Squat3LBS,Best3SquatLBS,Bench1LBS,Bench2LBS,Bench3LBS,Best3BenchLBS,Deadlift1LBS,Deadlift2LBS,Deadlift3LBS,Best3DeadliftLBS,TotalLBS,Sex,Event,Equipment,Place
+Tierney Korotkin,53,Womens Master II.,138,148,,,,,130,-140,-140,130,,,,,130,M,B,Raw,1
+Jo Anne Siskidis,25,Womens Open,129.25,132,,,,,,,,,275,305,-320,305,305,M,D,Raw,1
 Scott Birss,20,Mens Junior,142.25,148,280,300,315,315,165,180,-185,180,310,330,355,355,850,M,SBD,Wraps,1
 Victor Awad,21,Mens Junior,144,148,185,205,225,225,195,210,225,225,315,350,360,360,810,M,SBD,Wraps,2
 Marcos Cruz,23,Mens Junior,161.5,165,-400,-400,400,400,190,210,225,225,400,430,450,450,1075,M,SBD,Wraps,1
@@ -13,7 +13,7 @@ David Turner,58,Mens Master II.,194.5,198,275,295,315,315,210,220,240,240,345,37
 Frank Roa,58,Mens Master III.,177,181,315,345,370,370,265,285,300,300,355,395,405,405,1075,M,SBD,Wraps,1
 Jeff Grenzke,66,Mens Master III.,179.25,181,215,230,240,240,205,215,-220,215,,,,,,M,SBD,Wraps,2
 Kevin Canant,42,Mens Military,205.75,220,425,475,515,515,385,405,415,415,520,560,580,580,1510,M,SBD,Wraps,1
-Mark Henderson II.,26,Mens Open,131.5,132,285,-295,-315,285,275,285,300,300,385,-400,400,400,985,M,SBD,Wraps,1
+Mark Henderson II,26,Mens Open,131.5,132,285,-295,-315,285,275,285,300,300,385,-400,400,400,985,M,SBD,Wraps,1
 Louie Tabinas,28,Mens Open,145.75,148,385,405,420,420,235,250,260,260,415,445,460,460,1140,M,SBD,Wraps,1
 Vincent Bardini,27,Mens Open,145.75,148,365,395,415,415,175,205,-225,205,385,420,-435,420,1040,M,SBD,Wraps,2
 Lenin Del Castillo,27,Mens Open,138.75,148,295,335,350,350,205,225,-235,225,405,435,455,455,1030,M,SBD,Wraps,3
@@ -37,13 +37,13 @@ Rob Hager,25,Mens Open,312,341.5,550,585,605,605,320,335,355,355,520,550,570,570
 Christopher Goncalves,34,Mens Submaster,185.75,198,290,310,330,330,190,210,-225,210,350,380,405,405,945,M,SBD,Wraps,1
 Jason Mica,19,Mens Teen,179,181,455,495,510,510,255,285,-300,285,455,495,510,510,1305,M,SBD,Wraps,1
 Jackson Robison,18,Mens Teen,240.5,242,385,400,425,425,215,225,235,235,470,-485,500,500,1160,M,SBD,Wraps,1
-James Fernandez,49,MM1,140.25,148,,,,,225,270,275,275,,,,,275,M,B,Wraps,1
-Joel Korotkin,53,MM2,191.25,198,,,,,255,265,270,270,,,,,270,M,B,Wraps,1
-Hasan Cheema,27,M-O,175.7,181,,,,,305,320,330,330,-665,665,-680,665,995,M,BD,Wraps,1
-Ryan Nordby,37,M-O,224.5,242,,,,,325,-355,-355,325,,,,,325,M,B,Wraps,1
-Danny NGO,19,MT3,218,220,,,,,315,335,-345,335,545,585,600,600,935,M,BD,Wraps,1
+James Fernandez,49,Mens Master 1,140.25,148,,,,,225,270,275,275,,,,,275,M,B,Raw,1
+Joel Korotkin,53,Mens Master II.,191.25,198,,,,,255,265,270,270,,,,,270,M,B,Raw,1
+Hasan Cheema,27,Mens Open,175.7,181,,,,,305,320,330,330,-665,665,-680,665,995,M,BD,Raw,1
+Ryan Nordby,37,Mens Open,224.5,242,,,,,325,-355,-355,325,,,,,325,M,B,Raw,1
+Danny NGO,19,Mens Teen,218,220,,,,,315,335,-345,335,545,585,600,600,935,M,BD,Raw,1
 Taylor Eubanks,21,Womens Junior,121.75,123,210,220,225,225,-120,-120,-120,,,,,,,F,SBD,Wraps,1
-Emily Raney2,23,Womens Junior,145,148,205,215,-225,215,115,120,-125,120,305,325,340,340,675,F,SBD,Wraps,1
+Emily Raney,23,Womens Junior,145,148,205,215,-225,215,115,120,-125,120,305,325,340,340,675,F,SBD,Wraps,1
 Stephanie Culton,35,Womens Junior,148,148,175,195,205,205,110,-120,-120,110,275,295,305,305,620,F,SBD,Wraps,2
 Susie Christian,38,Womens Junior,144,148,125,135,145,145,90,100,105,105,180,190,205,205,455,F,SBD,Wraps,3
 Esmeralda Sandoval,23,Womens Junior,152.75,165,175,195,210,210,105,115,120,120,240,260,280,280,610,F,SBD,Wraps,1
