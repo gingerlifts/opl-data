@@ -29,13 +29,13 @@ Rachel Halliday,58.5,Teen 18-19,F,102.5,102.5,D,Single-ply,1
 Michele DeGennaro,63,Open,F,192.5,192.5,D,Single-ply,1
 Kim Beckwith,63,Open,F,172.5,172.5,D,Single-ply,2
 Michele DeGennaro,63,Lifetime,F,192.5,192.5,D,Single-ply,1
-B. Miller,63,Lifetime,F,172.5,172.5,D,Single-ply,2
+B. Miller #6,63,Lifetime,F,172.5,172.5,D,Single-ply,2
 C. Rushing,63,Teen 16-17,F,122.5,122.5,D,Single-ply,1
 H. Antonovich,63,Collegiate,F,115,115,D,Single-ply,1
-B. Miller,63,Submaster,F,172.5,172.5,D,Single-ply,1
+B. Miller #6,63,Submaster,F,172.5,172.5,D,Single-ply,1
 Dara Scott,63,Master 35-44,F,167.5,167.5,D,Single-ply,1
-Linda Jo Belsito,70,Open,F,187.5,187.5,D,Single-ply,1
-Linda Jo Belsito,70,Lifetime,F,187.5,187.5,D,Single-ply,1
+Linda-Jo Belsito,70,Open,F,187.5,187.5,D,Single-ply,1
+Linda-Jo Belsito,70,Lifetime,F,187.5,187.5,D,Single-ply,1
 T. James,70,Lifetime,F,130,130,D,Single-ply,2
 P. Becht,70,Lifetime,F,130,130,D,Single-ply,3
 R. Laport,70,Teen 14-15,F,82.5,82.5,D,Single-ply,1
@@ -43,7 +43,7 @@ K. Calderone,70,Teen 16-17,F,162.5,162.5,D,Single-ply,1
 R. Laport,70,Teen 16-17,F,107.5,107.5,D,Single-ply,2
 A. Uazquez,70,Police & Fire,F,150,150,D,Single-ply,1
 T. James,70,Police & Fire,F,130,130,D,Single-ply,2
-Linda Jo Belsito,70,Master 35-44,F,187.5,187.5,D,Single-ply,1
+Linda-Jo Belsito,70,Master 35-44,F,187.5,187.5,D,Single-ply,1
 Jan DeFoor,80,Open,F,147.5,147.5,D,Single-ply,1
 Jennifer Whitaker,80,Lifetime,F,172.5,172.5,D,Single-ply,1
 Erin Ennis,80,Teen 14-15,F,85,85,D,Single-ply,1
@@ -68,7 +68,7 @@ M. Gentile,56,Submaster,M,147.5,147.5,D,Single-ply,1
 Pat Payne,60,Open,M,227.5,227.5,D,Single-ply,1
 M. Stagg,60,Open,M,192.5,192.5,D,Single-ply,2
 R. Caputo,60,Open,M,187.5,187.5,D,Single-ply,3
-J. Di Bella,60,Lifetime,M,207.5,207.5,D,Single-ply,1
+J. Dibella,60,Lifetime,M,207.5,207.5,D,Single-ply,1
 B. Chavez,60,Teen 14-15,M,122.5,122.5,D,Single-ply,1
 A. Caramko,60,Teen 14-15,M,112.5,112.5,D,Single-ply,2
 Derrek White,60,Teen 16-17,M,167.5,167.5,D,Single-ply,1
@@ -102,7 +102,7 @@ R. Storm,67.5,Collegiate,M,190,190,D,Single-ply,1
 G. Foy,67.5,Police & Fire,M,217.5,217.5,D,Single-ply,1
 B. Warner,67.5,Police & Fire,M,187.5,187.5,D,Single-ply,2
 J. Fiorelli,67.5,Submaster,M,150,150,D,Single-ply,1
-N.Theodorou,67.5,Master 40-44,M,237.5,237.5,D,Single-ply,1
+N. Theodorou,67.5,Master 40-44,M,237.5,237.5,D,Single-ply,1
 Bob Warner,67.5,Master 45-49,M,187.5,187.5,D,Single-ply,1
 Idalo Bonacci,67.5,Master 45-49,M,175,175,D,Single-ply,2
 Gary Morrison,67.5,Master 45-49,M,157.5,157.5,D,Single-ply,3
@@ -112,7 +112,7 @@ Mike Willett,75,Open,M,272.5,272.5,D,Single-ply,1
 V. Lanza,75,Open,M,255,255,D,Single-ply,2
 D. Wedding,75,Open,M,237.5,237.5,D,Single-ply,3
 J. Stratman,75,Open,M,235,235,D,Single-ply,4
-G. Weber Jr.,75,Open,M,220,220,D,Single-ply,5
+G. Weber Jr,75,Open,M,220,220,D,Single-ply,5
 F. Smith,75,Open,M,220,220,D,Single-ply,6
 A. Luciani,75,Open,M,212.5,212.5,D,Single-ply,7
 R. Herbest,75,Open,M,205,205,D,Single-ply,8
@@ -301,7 +301,7 @@ Brett Russell,125,Open,M,337.5,337.5,D,Single-ply,1
 Tom Thompson,125,Open,M,320,320,D,Single-ply,2
 Chip McElroy,125,Open,M,282.5,282.5,D,Single-ply,3
 Teddy Finland,125,Open,M,277.5,277.5,D,Single-ply,4
-John Smith,125,Open,M,257.5,257.5,D,Single-ply,5
+John Smith #7,125,Open,M,257.5,257.5,D,Single-ply,5
 W. Newton,125,Open,M,235,235,D,Single-ply,6
 Chip McElroy,125,Lifetime,M,282.5,282.5,D,Single-ply,1
 Todd Hirt,125,Lifetime,M,282.5,282.5,D,Single-ply,2
