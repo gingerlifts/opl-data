@@ -7,7 +7,7 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 3,J. Kuhs,O,USA,,120,70,130,320,52,F,SBD,Multi-ply
 1,Amy Weisberger,O,USA,,167.5,95,167.5,430,56,F,SBD,Multi-ply
 1,J. Klein,T,USA,,95,52.5,127.5,275,60,F,SBD,Multi-ply
-1,Ellen Warman Mary,O,USA,,235,102.5,187.5,525,60,F,SBD,Multi-ply
+1,Mary Ellen Warman,O,USA,,235,102.5,187.5,525,60,F,SBD,Multi-ply
 2,Tonya Myers,O,USA,,190,90,182.5,462.5,60,F,SBD,Multi-ply
 3,A. Blakeley,O,USA,,175,122.5,160,457.5,60,F,SBD,Multi-ply
 4,S. Roguet,O,Belgium,,152.5,65,162.5,380,60,F,SBD,Multi-ply
@@ -20,7 +20,7 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 4,P. Lercangee,O,Belgium,,142.5,62.5,155,360,67.5,F,SBD,Multi-ply
 1,N. Patterson,T,USA,,125,65,130,320,75,F,SBD,Multi-ply
 1,R. Papilloud,J,Switzerland,,180,92.5,190,462.5,75,F,SBD,Multi-ply
-1,Stephanie Van De Weghe,O,USA,,220,127.5,205,552.5,75,F,SBD,Multi-ply
+1,Stephanie van de Weghe,O,USA,,220,127.5,205,552.5,75,F,SBD,Multi-ply
 2,Krista Ford,O,USA,,190,125,205,520,75,F,SBD,Multi-ply
 1,S. Morgan,T,USA,,130,65,130,325,82.5,F,SBD,Multi-ply
 1,Tamara Rainwater-Grimwood,O,USA,,263.5,177.5,237.5,678.5,82.5,F,SBD,Multi-ply
@@ -146,7 +146,7 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 1,T. Carter David,M2,UK,,350,160,340,850,125,M,SBD,Multi-ply
 1,Jerry Irvine,M3,USA,,295,147.5,297.5,740,125,M,SBD,Multi-ply
 2,Michael Brown,M3,USA,,290,135,285,710,125,M,SBD,Multi-ply
-1,Daniel Eakin W.,M5,USA,,182.5,140,221,543.5,125,M,SBD,Multi-ply
+1,Daniel Eakin,M5,USA,,182.5,140,221,543.5,125,M,SBD,Multi-ply
 1,Mike Tosaw,T,USA,,260,157.5,235.5,653,140,M,SBD,Multi-ply
 1,Jerry Obradovic,J,USA,,345,272.5,350,967.5,140,M,SBD,Multi-ply
 2,Tommy Williams,J,USA,,345,250,282.5,877.5,140,M,SBD,Multi-ply
@@ -162,7 +162,7 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 2,B. Uhlig,J,USA,,300,222.5,275,797.5,140+,M,SBD,Multi-ply
 1,Peter Tregloan,O,UK,154.3,410,245,385,1040,140+,M,SBD,Multi-ply
 2,James Voronin,O,USA,,377.5,280,310,967.5,140+,M,SBD,Multi-ply
-3,Steven Brodsky,O,USA,,365,237.5,352.5,955,140+,M,SBD,Multi-ply
+3,Steve Brodsky,O,USA,,365,237.5,352.5,955,140+,M,SBD,Multi-ply
 3,Eduardo Stazi,O,Italy,,317.5,145,310,772.5,140+,M,SBD,Multi-ply
 1,Phil Niemandt,M1,South Africa,,365,257.5,330,952.5,140+,M,SBD,Multi-ply
 2,M. Gardner,M1,USA,,340,227.5,320,887.5,140+,M,SBD,Multi-ply

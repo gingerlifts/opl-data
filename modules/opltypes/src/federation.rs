@@ -1217,6 +1217,7 @@ impl Federation {
             Federation::VietnamPA => PointsSystem::Wilks,
             Federation::Vityaz => PointsSystem::Wilks,
             Federation::WABDL => PointsSystem::Wilks,
+            Federation::WBC => PointsSystem::Wilks,
             Federation::WDFPF => PointsSystem::Wilks,
             Federation::WelshPA => PointsSystem::Wilks,
             Federation::WP => PointsSystem::Wilks,

@@ -26,10 +26,10 @@ M. Bidweil,60,Teen 16-17,M,120,120,B,Single-ply,2
 S. Duncan,75,Teen 16-17,M,152.5,152.5,B,Single-ply,1
 T. Slempien,82.5,Teen 18-19,M,147.5,147.5,B,Single-ply,1
 E. Riley,100,Teen 16-17,M,140,140,B,Single-ply,1
-A. Devito,110,Teen 18-19,M,197.5,197.5,B,Single-ply,1
+A. DeVito,110,Teen 18-19,M,197.5,197.5,B,Single-ply,1
 B. Churovia,110,Teen 18-19,M,175,175,B,Single-ply,2
 S. Curtin,110,Teen 18-19,M,130,130,B,Single-ply,3
-C Byrnes,60,Police & Fire,M,152.5,152.5,B,Single-ply,1
+C. Byrnes,60,Police & Fire,M,152.5,152.5,B,Single-ply,1
 R. Alpert,67.5,Police & Fire,M,125,125,B,Single-ply,1
 M. Fenton,67.5,Police & Fire,M,105,105,B,Single-ply,2
 G. Foy,67.5,Police & Fire,M,102.5,102.5,B,Single-ply,3
@@ -94,7 +94,7 @@ H. Sneider,100,Masters 50-54,M,155,155,B,Single-ply,1
 S. Chalk,100,Masters 55-59,M,137.5,137.5,B,Single-ply,1
 T. Cinelli,110,Masters 40-44,M,142.5,142.5,B,Single-ply,1
 George Irennee,110,Masters 45-49,M,192.5,192.5,B,Single-ply,1
-B. Moore,110,Masters 45-49,M,170,170,B,Single-ply,2
+B. Moore #5,110,Masters 45-49,M,170,170,B,Single-ply,2
 D. Grippen,110,Masters 55-59,M,125,125,B,Single-ply,1
 J. Paoiin,110,Masters 55-59,M,105,105,B,Single-ply,2
 J. Yanovith,110,Masters 60-64,M,152.5,152.5,B,Single-ply,1
@@ -114,7 +114,7 @@ J. Poindexter,145+,Masters 40-44,M,230,230,B,Single-ply,1
 B. Honeycutt,52,Lifetime,M,122.5,122.5,B,Single-ply,1
 T. Marlucci,52,Lifetime,M,87.5,87.5,B,Single-ply,2
 F. Mey,52,Lifetime,M,77.5,77.5,B,Single-ply,3
-C Byrnes,60,Lifetime,M,152.5,152.5,B,Single-ply,1
+C. Byrnes,60,Lifetime,M,152.5,152.5,B,Single-ply,1
 J. Lawrence,60,Lifetime,M,145,145,B,Single-ply,2
 D. Kabasakalian,60,Lifetime,M,135,135,B,Single-ply,3
 B. Gaugier,60,Lifetime,M,127.5,127.5,B,Single-ply,4
@@ -132,7 +132,7 @@ B. Legg,75,Lifetime,M,112.5,112.5,B,Single-ply,8
 Dennis Cieri,82.5,Lifetime,M,187.5,187.5,B,Single-ply,1
 K. Green,82.5,Lifetime,M,185,185,B,Single-ply,2
 R. Fischer,82.5,Lifetime,M,155,155,B,Single-ply,3
-B. Ray,82.5,Lifetime,M,132.5,132.5,B,Single-ply,4
+B. Ray #1,82.5,Lifetime,M,132.5,132.5,B,Single-ply,4
 J. Stowe,90,Lifetime,M,205,205,B,Single-ply,1
 D. Sandler,90,Lifetime,M,195,195,B,Single-ply,2
 D. Chevalier,90,Lifetime,M,190,190,B,Single-ply,3
@@ -140,7 +140,7 @@ F. McCracken,90,Lifetime,M,167.5,167.5,B,Single-ply,4
 P. Fiorisi,90,Lifetime,M,165,165,B,Single-ply,5
 J. Paoiin Jr,90,Lifetime,M,140,140,B,Single-ply,6
 J. Kembez,100,Lifetime,M,192.5,192.5,B,Single-ply,1
-M.Boone,100,Lifetime,M,185,185,B,Single-ply,2
+M. Boone,100,Lifetime,M,185,185,B,Single-ply,2
 J. Plummer,100,Lifetime,M,172.5,172.5,B,Single-ply,3
 D. Fetterolf,100,Lifetime,M,167.5,167.5,B,Single-ply,4
 R. Donati,110,Lifetime,M,215,215,B,Single-ply,1
@@ -180,7 +180,7 @@ Dennis Cieri,82.5,Open,M,187.5,187.5,B,Single-ply,1
 K. Green,82.5,Open,M,185,185,B,Single-ply,2
 P. Gouery,82.5,Open,M,175,175,B,Single-ply,3
 R. DiBattista,82.5,Open,M,155,155,B,Single-ply,4
-B. Ray,82.5,Open,M,132.5,132.5,B,Single-ply,5
+B. Ray #1,82.5,Open,M,132.5,132.5,B,Single-ply,5
 J. Stone,90,Open,M,205,205,B,Single-ply,1
 D. Sandler,90,Open,M,195,195,B,Single-ply,2
 M. Marie-Sainte,90,Open,M,195,195,B,Single-ply,3
@@ -196,7 +196,7 @@ Marek Koziol,100,Open,M,185,185,B,Single-ply,5
 B. Shuman,110,Open,M,227.5,227.5,B,Single-ply,1
 R. Donati,110,Open,M,215,215,B,Single-ply,2
 G. Orlando,110,Open,M,212.5,212.5,B,Single-ply,3
-T.Druby,110,Open,M,205,205,B,Single-ply,4
+T. Druby,110,Open,M,205,205,B,Single-ply,4
 A. DeVito,110,Open,M,197.5,197.5,B,Single-ply,5
 M. Cantrell,110,Open,M,195,195,B,Single-ply,6
 D. Mitchell,110,Open,M,187.5,187.5,B,Single-ply,7
