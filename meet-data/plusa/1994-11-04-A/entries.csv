@@ -8,7 +8,7 @@ Place,Name,Country,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Ben
 1,Michelle Stevens,USA,-182.5,182.5,-190,,182.5,70,-75,75,,75,185,197.5,207.5,,207.5,465,63,F,SBD,Single-ply
 2,Carole Lynch,UK,135,-145,145,-147.5,145,62.5,67.5,-70,,67.5,140,147.5,-150,,147.5,360,63,F,SBD,Single-ply
 1,Helen Williams,UK,170,180,185,-187.5,185,82.5,87.5,-90,,87.5,180,190,200,,200,472.5,70,F,SBD,Single-ply
-2,Michelle Degennaro,USA,165,175,182.5,,182.5,77.5,85,87.5,,87.5,182.5,195,-202.5,,195,465,70,F,SBD,Single-ply
+2,Michelle DeGennaro,USA,165,175,182.5,,182.5,77.5,85,87.5,,87.5,182.5,195,-202.5,,195,465,70,F,SBD,Single-ply
 1,Betsy Ojanen,USA,192.5,-205,205,-210,205,87.5,97.5,-102.5,,97.5,-175,175,195,-205,195,497.5,80,F,SBD,Single-ply
 1,Nikki Avey,USA,182.5,195,-205,-212.5,195,72.5,77.5,-80,,77.5,170,182.5,190,,190,462.5,90,F,SBD,Single-ply
 1,Julie Schulz,USA,-200,205,-215,217.5,205,115,120,125,-130,125,-170,180,-187.5,,180,510,90+,F,SBD,Single-ply
@@ -28,7 +28,7 @@ Place,Name,Country,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Ben
 2,Valeriy Nikishin,Russia,285,-300,-300,,285,165,170,-175,,170,300,-325,-332.5,,300,755,82.5,M,SBD,Single-ply
 3,Andrew Dexter,Canada,-207.5,207.5,-220,,207.5,137.5,140,-145,145,140,197.5,260,-272.5,,260,607.5,82.5,M,SBD,Single-ply
 1,John McMurren,Canada,-175,-175,175,,175,132.5,140,-142.5,,140,185,-227.5,,,185,500,90,M,SBD,Single-ply
-1,James Morton,USA,307.5,-327.5,-330,,307.5,180,185,-190,,185,-312.5,322.5,337.5,347.5,337.5,830,100,M,SBD,Single-ply
+1,Jim Morton,USA,307.5,-327.5,-330,,307.5,180,185,-190,,185,-312.5,322.5,337.5,347.5,337.5,830,100,M,SBD,Single-ply
 2,Volodymyr Ivanenko,Ukraine,320,340,350,,350,175,-185,185,,185,280,-295,-295,,280,815,100,M,SBD,Single-ply
 3,Leslie Pilling,UK,290,300,-310,,300,165,-175,-175,,165,290,310,-320,,310,775,100,M,SBD,Single-ply
 4,Maxim Tikhonov,Russia,270,290,300,,300,-110,120,130,,130,-260,260,290,,290,720,100,M,SBD,Single-ply
