@@ -1,5 +1,5 @@
 Name,Sex,Equipment,BirthYear,Division,WeightClassKg,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Place,Event
-Kim Helene Jochum,F,Raw,2000,Youth A,84+,102.2,47.5,-52.5,-52.5,47.5,47.5,1,B
+Kim-Helene Jochum,F,Raw,2000,Youth A,84+,102.2,47.5,-52.5,-52.5,47.5,47.5,1,B
 Silas Roger Hellmann,M,Raw,2001,Youth A,53,50,-45,45,-50,45,45,2,B
 Arthur Roßberg,M,Raw,2000,Youth A,53,50.9,60,70,-75,70,70,1,B
 Max Sitte,M,Raw,2001,Youth A,59,55.8,80,90.5,-95,90.5,90.5,1,B
@@ -9,7 +9,7 @@ Amon Bade,M,Raw,2000,Youth A,74,72.2,92.5,-97.5,-97.5,92.5,92.5,2,B
 Holm Lichtenfeld,M,Raw,1957,Masters 3,74,73.5,80,90,95,95,95,1,B
 Rino Beuter,M,Single-ply,2000,Youth A,74,73.8,115,120,123,123,123,1,B
 Henning Daniel,M,Raw,2002,Youth B,83,74.4,100,110,-115,110,110,1,B
-Rene Borchert,M,Single-ply,1998,Juniors,83,74.6,140,145,150,150,150,1,B
+René Borchert,M,Single-ply,1998,Juniors,83,74.6,140,145,150,150,150,1,B
 Erik Wildgrube,M,Raw,2000,Youth A,83,75.8,90,95,-100,95,95,1,B
 Dany Haupt,M,Single-ply,1999,Juniors,83,79.6,72.5,77.5,82.5,82.5,82.5,1,B
 Rolf Schmidt,M,Raw,1952,Masters 3,83,80.2,95,97.5,100,100,100,2,B
@@ -38,5 +38,5 @@ Ralf-Tobias Lustig,M,Raw,1976,Masters 1,120,115.5,165,172.5,-180,172.5,172.5,2,B
 Sebastian Lösel,M,Single-ply,1998,Juniors,120,117.3,142.5,150,165,165,165,2,B
 Michel Jähnel,M,Raw,1992,Open,120,117.7,157.5,167.5,-172.5,167.5,167.5,3,B
 Adrian Peist,M,Raw,1995,Juniors,120+,122.9,125,135,140,140,140,1,B
-Rene Fiedler,M,Raw,1982,Open,120+,131,190,-200,,190,190,1,B
+René Fiedler,M,Raw,1982,Open,120+,131,190,-200,,190,190,1,B
 Jan Grigat,M,Single-ply,1993,Open,120+,173.6,210,220,230,230,230,1,B
