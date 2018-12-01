@@ -1,5 +1,5 @@
 Name,WeightClassKg,Sex,Event,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,TotalKg,Equipment,Place
-J. Hieatt,67.5,F,B,65,70,77.5,,70,70,Multi-ply,1
+J. Hieatt,67.5,F,B,65,70,-77.5,,70,70,Multi-ply,1
 Becca Swanson,110,F,B,230,242.5,247.5,250,247.5,247.5,Multi-ply,1
 Brian Schwab,75,M,B,235,260,-272.5,,260,260,Multi-ply,1
 Brad Heck,82.5,M,B,270,280,285,,285,285,Multi-ply,1
