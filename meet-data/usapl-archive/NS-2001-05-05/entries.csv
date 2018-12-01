@@ -8,9 +8,9 @@ Division,WeightClassKg,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 60-64,60,T. Bishop,57.8,130,85,160,375,M,SBD,Single-ply,1
 40-44,67.5,M. Lofing,65.7,182.5,122.5,197.5,502.5,M,SBD,Single-ply,1
 40-44,67.5,J. Stanley,67,155,120,212.5,487.5,M,SBD,Single-ply,2
-45-49,67.5,A. Bridges,66.7,210,152.5,232.5,595,M,SBD,Single-ply,1
+45-49,67.5,Arval Bridges,66.7,210,152.5,232.5,595,M,SBD,Single-ply,1
 60-64,67.5,Ivan Zwick,66.2,65,117.5,75,257.5,M,SBD,Single-ply,1
-65-69,67.5,D. Maier,65.6,165,75,192.5,432.5,M,SBD,Single-ply,1
+65-69,67.5,Dillion Maier,65.6,165,75,192.5,432.5,M,SBD,Single-ply,1
 70-74,67.5,R. Cortes,67,165,120,220,505,M,SBD,Single-ply,1
 80-84,67.5,R. Merrell,67.4,35,35,70,140,M,SBD,Single-ply,1
 40-44,75,R. Wahl,74.6,242.5,137.5,267.5,647.5,M,SBD,Single-ply,1
@@ -32,7 +32,7 @@ Division,WeightClassKg,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 45-49,82.5,D. Barnes,81.2,167.5,127.5,187.5,482.5,M,SBD,Single-ply,4
 50-54,82.5,A. Menton,81.1,215,150,217.5,582.5,M,SBD,Single-ply,1
 50-54,82.5,J. Wold,82.2,195,127.5,222.5,545,M,SBD,Single-ply,2
-50-54,82.5,J. Rizza,81.3,210,92.5,227.5,530,M,SBD,Single-ply,3
+50-54,82.5,Joe Rizza,81.3,210,92.5,227.5,530,M,SBD,Single-ply,3
 50-54,82.5,J. Klostergaard,82.4,175,190,165,530,M,SBD,Single-ply,4
 50-54,82.5,M. Rosenwald,78.7,157.5,107.5,190,455,M,SBD,Single-ply,5
 60-64,82.5,W. Callihan,81.2,140,115,197.5,452.5,M,SBD,Single-ply,1
@@ -44,7 +44,7 @@ Division,WeightClassKg,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 40-44,90,W. Kellett,84.5,165,127.5,200,492.5,M,SBD,Single-ply,4
 40-44,90,B. Brown,89.2,250,,,,M,SBD,Single-ply,DQ
 45-49,90,L. Traub,89.7,277.5,170,315,762.5,M,SBD,Single-ply,1
-45-49,90,A. Byas,89.2,265,160,310,735,M,SBD,Single-ply,2
+45-49,90,Aaron Byas,89.2,265,160,310,735,M,SBD,Single-ply,2
 45-49,90,M. Godawa,88.7,185,165,210,560,M,SBD,Single-ply,3
 45-49,90,D. Bertier,87.5,187.5,137.5,230,555,M,SBD,Single-ply,4
 50-54,90,E. White,89.8,232.5,155,275,662.5,M,SBD,Single-ply,1
@@ -60,7 +60,7 @@ Division,WeightClassKg,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 40-44,100,B. Vivier,100,227.5,165,245,637.5,M,SBD,Single-ply,2
 40-44,100,S. Heyl,96.9,200,160,210,570,M,SBD,Single-ply,3
 40-44,100,K. Jordan,99.4,220,145,140,505,M,SBD,Single-ply,4
-45-49,100,P. Accordino,93.5,232.5,165,237.5,635,M,SBD,Single-ply,1
+45-49,100,Phillip Accordino,93.5,232.5,165,237.5,635,M,SBD,Single-ply,1
 45-49,100,R. Randall,95.5,240,160,222.5,622.5,M,SBD,Single-ply,2
 45-49,100,J. Valpatic,97.7,235,137.5,237.5,610,M,SBD,Single-ply,3
 45-49,100,M. Berg,99.1,227.5,140,227.5,595,M,SBD,Single-ply,4
@@ -68,7 +68,7 @@ Division,WeightClassKg,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 45-49,100,B. Coury,93.9,240,150,,,M,SBD,Single-ply,DQ
 45-49,100,S. Rosenberg,97.9,,,,,M,SBD,Single-ply,DQ
 50-54,100,D. Clark,96.7,252.5,130,282.5,665,M,SBD,Single-ply,1
-50-54,100,J. Yakubovsky,92.8,220,132.5,227.5,580,M,SBD,Single-ply,2
+50-54,100,Jim Yakubovsky,92.8,220,132.5,227.5,580,M,SBD,Single-ply,2
 50-54,100,O. Guzman,96.1,207.5,132.5,205,545,M,SBD,Single-ply,3
 50-54,100,R. Morton,98.6,180,120,190,490,M,SBD,Single-ply,4
 55-59,100,G. Aron,98.6,155,117.5,170,442.5,M,SBD,Single-ply,3
@@ -84,9 +84,9 @@ Division,WeightClassKg,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 50-54,110,B. Sindelar,106.7,227.5,165,252.5,645,M,SBD,Single-ply,1
 50-54,110,D. Worley,106.4,260,125,257.5,642.5,M,SBD,Single-ply,2
 50-54,110,R. Burnett,109,240,152.5,250,642.5,M,SBD,Single-ply,3
-60-64,110,R. Rood,104,217.5,157.5,250,625,M,SBD,Single-ply,1
+60-64,110,Robert Rood,104,217.5,157.5,250,625,M,SBD,Single-ply,1
 60-64,110,R. Grisham,107.7,232.5,132.5,225,590,M,SBD,Single-ply,2
-60-64,110,H. Hudson,106.4,160,100,182.5,442.5,M,SBD,Single-ply,3
+60-64,110,Hal Hudson,106.4,160,100,182.5,442.5,M,SBD,Single-ply,3
 65-69,110,L. Corulli,109.3,,,,,M,SBD,Single-ply,DQ
 40-44,125,R. Brose,123,272.5,187.5,290,750,M,SBD,Single-ply,1
 40-44,125,D. Bowie,122.5,287.5,170,290,747.5,M,SBD,Single-ply,2
