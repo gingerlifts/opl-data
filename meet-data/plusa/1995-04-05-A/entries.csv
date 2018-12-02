@@ -1,7 +1,7 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Broadhurst,67.5,Natural,M,225,105,260,590,SBD,Single-ply,1
 Greg Zweig,75,Natural,M,237.5,147.5,275,660,SBD,Single-ply,1
-E. Harrison,82.5,Natural,M,260,137.5,277.5,675,SBD,Single-ply,1
+Marlon Harrison,82.5,Natural,M,260,137.5,277.5,675,SBD,Single-ply,1
 Oliger,82.5,Natural,M,170,125,190,485,SBD,Single-ply,2
 Michael Rennie,90,Natural,M,325,185,307.5,817.5,SBD,Single-ply,1
 McCoy,90,Natural,M,290,172.5,325,787.5,SBD,Single-ply,2
@@ -61,7 +61,7 @@ Sevy,82.5,Masters 3 Pure,M,167.5,100,192.5,460,SBD,Single-ply,4
 Harper,100,Masters 3 Pure,M,260,160,315,735,SBD,Single-ply,1
 Tinsman,100,Masters 3 Pure,M,255,185,292.5,732.5,SBD,Single-ply,2
 Page,100,Masters 3 Pure,M,157.5,185,210,552.5,SBD,Single-ply,3
-Weeks,110,Masters 3 Pure,M,285,175,272.5,732.5,SBD,Single-ply,1
+Tom Weeks,110,Masters 3 Pure,M,285,175,272.5,732.5,SBD,Single-ply,1
 Smith,110,Masters 3 Pure,M,,,,,SBD,Single-ply,DQ
 DeAnda,125,Masters 3 Pure,M,327.5,197.5,265,790,SBD,Single-ply,1
 Lips,125+,Masters 3 Pure,M,302.5,205,272.5,780,SBD,Single-ply,1
@@ -112,7 +112,7 @@ Broadhurst,67.5,Pure,M,225,105,260,590,SBD,Single-ply,3
 Greg Zweig,75,Pure,M,237.5,147.5,275,660,SBD,Single-ply,1
 D. Sorenson,75,Pure,M,245,145,240,630,SBD,Single-ply,2
 Willis,75,Pure,M,205,110,230,545,SBD,Single-ply,3
-E. Harrison,82.5,Pure,M,260,137.5,277.5,675,SBD,Single-ply,1
+Marlon Harrison,82.5,Pure,M,260,137.5,277.5,675,SBD,Single-ply,1
 Skeens,82.5,Pure,M,245,165,255,665,SBD,Single-ply,2
 Smith,82.5,Pure,M,230,147.5,250,627.5,SBD,Single-ply,3
 McCoy,90,Pure,M,290,172.5,325,787.5,SBD,Single-ply,1
@@ -146,7 +146,7 @@ Harper,100,Masters 1,M,260,160,315,735,SBD,Single-ply,1
 Tinsman,100,Masters 1,M,255,185,292.5,732.5,SBD,Single-ply,2
 Page,100,Masters 1,M,157.5,185,210,552.5,SBD,Single-ply,3
 Hodges,110,Masters 1,M,287.5,150,322.5,760,SBD,Single-ply,1
-Weeks,110,Masters 1,M,285,175,272.5,732.5,SBD,Single-ply,2
+Tom Weeks,110,Masters 1,M,285,175,272.5,732.5,SBD,Single-ply,2
 Seager,110,Masters 1,M,300,125,227.5,652.5,SBD,Single-ply,3
 Smith,110,Masters 1,M,237.5,112.5,200,550,SBD,Single-ply,4
 DeAnda,125,Masters 1,M,327.5,197.5,265,790,SBD,Single-ply,1
@@ -178,7 +178,7 @@ F. Langhorst,75,Submasters 1,M,210,147.5,215,572.5,SBD,Single-ply,2
 Bernhard,75,Submasters 1,M,182.5,145,172.5,500,SBD,Single-ply,3
 Boyd,75,Submasters 1,M,162.5,122.5,207.5,492.5,SBD,Single-ply,4
 Jones,75,Submasters 1,M,140,90,180,410,SBD,Single-ply,5
-E. Harrison,82.5,Submasters 1,M,260,137.5,277.5,675,SBD,Single-ply,1
+Marlon Harrison,82.5,Submasters 1,M,260,137.5,277.5,675,SBD,Single-ply,1
 Quinn,82.5,Submasters 1,M,242.5,137.5,232.5,612.5,SBD,Single-ply,2
 Johnson,82.5,Submasters 1,M,205,142.5,262.5,610,SBD,Single-ply,3
 Gill,82.5,Submasters 1,M,215,125,245,585,SBD,Single-ply,4
