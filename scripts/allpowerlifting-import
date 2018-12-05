@@ -329,7 +329,7 @@ def getpagedata(soup):
                 if '+' in wcstate:
                     wcstate = wcstate.replace('+', '')+'+'
         else:
-            assert wcstate
+         #   assert wcstate
 
             row = []
             for td in tr.find_all('td'):

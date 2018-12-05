@@ -156,6 +156,7 @@
 </optgroup>
 <optgroup label="{{strings.country.iceland}}">
   <option value="all-iceland" {% if selection.federation == "AllIceland" %}selected{% endif %}>{{strings.selectors.fed.all_iceland}}</option>
+  <option value="ikf" {% if selection.federation == "IKF" %}selected{% endif %}>IKF - Íslenska Kraftlyfingafélagið [GPC/WPC]</option>
   <option value="kraft" {% if selection.federation == "KRAFT" %}selected{% endif %}>KRAFT - Kraftlyftingasamband Íslands [IPF]</option>
   <option value="raw-island" {% if selection.federation == "RAW-Island" %}selected{% endif %}>RAW-Ísland- 100% RAW Powerlifting Federation Iceland</option>
   <option value="wpc-island" {% if selection.federation == "WPC-Island" %}selected{% endif %}>WPC-Ísland- WPC Iceland</option>
