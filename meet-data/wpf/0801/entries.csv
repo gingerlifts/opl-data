@@ -59,13 +59,13 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Christopher Balfe,T,UK,104.5,180,200,210,210,,115,-125,125,125,,180,-200,-200,180,,515,110,M,1990,Single-ply,SBD
 1,David Satsielasjvili,O,Netherlands,106.2,280,-290,,280,,215,225,-230,225,,230,240,250,250,,755,110,M,1982,Single-ply,SBD
 2,Alexander Geitner,O,Germany,106.1,250,270,-285,270,,150,160,170,170,,280,300,-315,300,,740,110,M,1978,Single-ply,SBD
-3,Enrique Rodriguez,O,Mexico,100.8,240,260,270,270,,170,175,-177.5,175,,260,275,-285,275,,720,110,M,1974,Single-ply,SBD
+3,Enrique Rodríguez #2,O,Mexico,100.8,240,260,270,270,,170,175,-177.5,175,,260,275,-285,275,,720,110,M,1974,Single-ply,SBD
 1,John Johnson,M2,USA,103.8,215,237.5,250,250,,-205,-205,205,205,,227.5,-240,-240,227.5,,682.5,110,M,1960,Single-ply,SBD
 2,Walter Becka,M2,Austria,101.2,170,190,-202.5,190,,130,142.5,,142.5,,170,190,,190,,522.5,110,M,1962,Single-ply,SBD
 1,Konstantin Makovskiy,M3,Russia,105,230,245,,245,,175,-187.5,,175,,230,240,-250,240,,660,110,M,1957,Single-ply,SBD
 1,Gavin Kerr,J,UK,121.8,-250,250,-275,250,,190,-205,-205,190,,250,275,-285,275,,715,125,M,1985,Single-ply,SBD
 1,Cekas Nerijus,O,Ireland,122,365,385,405,405,,-240,250,-260,250,,340,-365,-365,340,,995,125,M,1980,Single-ply,SBD
-2,Ruben Hernandez,O,Mexico,117,240,260,-282.5,260,,170,180,-195,180,,260,270,272.5,272.5,,712.5,125,M,1969,Single-ply,SBD
+2,Rubén Hernández #2,O,Mexico,117,240,260,-282.5,260,,170,180,-195,180,,260,270,272.5,272.5,,712.5,125,M,1969,Single-ply,SBD
 1,Peter Bongers,M1,Netherlands,111.5,325,340.5,-345,340.5,,180,190,-200,190,,290,300,-307.5,300,,830.5,125,M,1965,Single-ply,SBD
 2,Mark Menslage,M1,USA,117,250,272.5,-287.5,272.5,,160,-177.5,195,195,,237.5,260,-277.5,260,,727.5,125,M,1965,Single-ply,SBD
 1,Steve Denison,M2,USA,124,305,325,340,340,,-255,255,-265,255,,280,300,,300,,895,125,M,1961,Single-ply,SBD
@@ -146,7 +146,7 @@ DQ,Robert Preston,O,UK,95,,,,,,-225,-235,-235,,,,,,,,,100,M,1969,Single-ply,B
 1,Harald Selsam,O,Austria,104.2,,,,,,-235,235,240,240,,,,,,,240,110,M,1968,Single-ply,B
 1,Sebastjan Rafał Balner,O,Poland,102.6,,,,,,215,225,-237.5,225,,,,,,,225,110,M,1973,Single-ply,B
 2,Danilo Pufe,O,Germany,109.3,,,,,,-210,210,-215,210,,,,,,,210,110,M,1976,Single-ply,B
-2,Enrique Rodriguez,O,Mexico,100.4,,,,,,170,-177.5,-177.5,170,,,,,,,170,110,M,1974,Single-ply,B
+2,Enrique Rodríguez #2,O,Mexico,100.4,,,,,,170,-177.5,-177.5,170,,,,,,,170,110,M,1974,Single-ply,B
 3,Colin Payne,O,UK,103.9,,,,,,155,165,-175,165,,,,,,,165,110,M,1958,Single-ply,B
 1,Sergey Gromov,M1,Russia,101.2,,,,,,220,242.5,-250,242.5,,,,,,,242.5,110,M,1966,Single-ply,B
 2,Albert Hoekstra,M1,Netherlands,105.7,,,,,,190,-200,-200,190,,,,,,,190,110,M,1964,Single-ply,B
@@ -158,7 +158,7 @@ DQ,Robert Preston,O,UK,95,,,,,,-225,-235,-235,,,,,,,,,100,M,1969,Single-ply,B
 2,Flosi Jónsson,M3,Iceland,101.8,,,,,,165,-175,175,175,,,,,,,175,110,M,1954,Single-ply,B
 3,Colin Payne,M3,UK,105,,,,,,155,-165,-170,155,,,,,,,155,110,M,1958,Single-ply,B
 1,Lothar Hildebrandt,M6,Germany,101.3,,,,,,157.5,162.5,-167.5,162.5,,,,,,,162.5,110,M,1943,Single-ply,B
-1,Ruben Hernandez,O,Mexico,116.8,,,,,,170,180,,180,,,,,,,180,125,M,1969,Single-ply,B
+1,Rubén Hernández #2,O,Mexico,116.8,,,,,,170,180,,180,,,,,,,180,125,M,1969,Single-ply,B
 DQ,Daniel Herrmann,O,Germany,116.1,,,,,,-190,-195,-195,,,,,,,,,125,M,1975,Single-ply,B
 DQ,Mathias Dietz,O,Germany,111.4,,,,,,-220,-220,,,,,,,,,,125,M,1974,Single-ply,B
 1,Gerhard Holleitner,M2,Austria,123.3,,,,,,190,-205,,190,,,,,,,190,125,M,1959,Single-ply,B
@@ -199,9 +199,9 @@ DQ,Ed Fennema,M2,Netherlands,128.3,,,,,,-217.5,-225.5,-227.5,,,,,,,,,140,M,1962,
 1,Jurgen Bayer,M1,Germany,99.1,,,,,,,,,,,250,260,-270,260,,260,100,M,1966,Single-ply,D
 1,Juri Hochstetter,M2,Germany,99.9,,,,,,,,,,,220,250,277.5,277.5,,277.5,100,M,1962,Single-ply,D
 1,Kevin Fischer,M3,USA,99.3,,,,,,,,,,,270,285,300,300,,300,100,M,1954,Single-ply,D
-1,Enrique Rodriguez,O,Mexico,100.4,,,,,,,,,,,250,270,-290,270,,270,110,M,1974,Single-ply,D
+1,Enrique Rodríguez #2,O,Mexico,100.4,,,,,,,,,,,250,270,-290,270,,270,110,M,1974,Single-ply,D
 1,John Johnson,M2,USA,104.3,,,,,,,,,,,215,237.5,-250,237.5,,237.5,110,M,1960,Single-ply,D
-1,Ruben Hernandez,O,Mexico,116.8,,,,,,,,,,,250,260,270,270,,270,125,M,1969,Single-ply,D
+1,Rubén Hernández #2,O,Mexico,116.8,,,,,,,,,,,250,260,270,270,,270,125,M,1969,Single-ply,D
 2,Heiko Fiegel Hans,O,Germany,110.4,,,,,,,,,,,200,222.5,230,230,,230,125,M,1975,Single-ply,D
 1,Gerhard Holleitner,M2,Austria,123.3,,,,,,,,,,,300,310,312.5,312.5,,312.5,125,M,1959,Single-ply,D
 2,Andrew Ward,M2,UK,114.6,,,,,,,,,,,-285,300,-310.5,300,,300,125,M,1963,Single-ply,D
