@@ -1,4 +1,4 @@
-Place,WeightClassKg,,Sex,Name,BirthYear,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Equipment
+Place,WeightClassKg,Division,Sex,Name,BirthYear,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Equipment
 DQ,59,Masters 4,M,Eberhard Grönert,1944,57.4,,,,,-55,-55,-55,,,,,,,BD,Raw
 1,83,Masters 4,M,Arthur Ahle,1941,82.7,,,,,70,,,70,,,,,70,BD,Raw
 1,72,Open,F,Stefanie Strauß,1982,66.8,,,,,90,97.5,-102.5,97.5,,,,,97.5,BD,Raw
