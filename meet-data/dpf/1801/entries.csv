@@ -23,7 +23,7 @@ Place,Name,Birthyear,Country,BodyweightKG,Squat1KG,Squat2KG,Squat3KG,Best3SquatK
 1,Barbara Claassen,,Netherlands,96.13,145,152.5,160,160,67.5,72.5,72.5,72.5,140,150,160,150,382.5,84+,Master 1,SBD,F,Raw
 1,Dennis Abbink,,Netherlands,64.19,145,152.5,160,160,105,110,112.5,110,195,205,210,210,480,66,Open,SBD,M,Raw
 2,Osman Uysal,,Netherlands,65.75,150,152.5,160,160,110,115,120,115,190,200,200,190,465,66,Juniors,SBD,M,Raw
-3,Frank Calor,,Netherlands,61.98,70,0,0,70,110,120,130,120,50,0,0,50,240,66,Open,SBD,M,Raw
+3,Frank Calor,,Netherlands,61.98,70,,,70,110,120,130,120,50,,,50,240,66,Open,SBD,M,Raw
 1,Dirk Bennenbroek,,Netherlands,71.54,180,190,200,200,105,110,115,115,180,190,190,180,495,74,Open,SBD,M,Raw
 2,Robbert Lokhorst,,Netherlands,73.07,155,162.5,167.5,162.5,100,105,105,100,190,200,205,205,467.5,74,Open,SBD,M,Raw
 3,Kenley Simons,,Netherlands,72.39,150,160,160,150,97.5,102.5,105,102.5,170,180,185,180,432.5,74,Juniors,SBD,M,Raw
@@ -32,13 +32,13 @@ Place,Name,Birthyear,Country,BodyweightKG,Squat1KG,Squat2KG,Squat3KG,Best3SquatK
 2,Denzil Vreugd,,Netherlands,75.71,180,190,196,196,120,125,130,130,210,220,222.5,220,546,83,Master 1,SBD,M,Raw
 3,Wouter van As,,Netherlands,80.18,170,180,190,180,125,130,135,135,220,230,240,230,545,83,Open,SBD,M,Raw
 4,Yves du Long,,Netherlands,81.68,175,185,195,195,107.5,112.5,117.5,117.5,220,232.5,232.5,220,532.5,83,Juniors,SBD,M,Raw
-5,Mike Beelen,,Netherlands,81.8,175,190,200,200,95,105,0,105,215,225,240,225,530,83,Open,SBD,M,Raw
+5,Mike Beelen,,Netherlands,81.8,175,190,200,200,95,105,,105,215,225,240,225,530,83,Open,SBD,M,Raw
 6,Barry Faas,,Netherlands,81.72,185,185,197.5,197.5,92.5,97.5,100,97.5,212.5,225,232.5,232.5,527.5,83,Master 1,SBD,M,Raw
-7,Max Wouters,,Netherlands,80.60,175,182.5,190,190,120,127.5,130,127.5,200,210,0,200,517.5,83,Juniors,SBD,M,Raw
+7,Max Wouters,,Netherlands,80.60,175,182.5,190,190,120,127.5,130,127.5,200,210,,200,517.5,83,Juniors,SBD,M,Raw
 8,Stijn Stoffels,,Netherlands,81.03,180,190,190,180,105,112.5,117.5,117.5,210,220,225,220,517.5,83,Juniors,SBD,M,Raw
 9,Li Hu,,Netherlands,82.46,165,175,185,185,92.5,97.5,97.5,92.5,180,200,210,200,477.5,83,Juniors,SBD,M,Raw
-,Pascal Kiers,,Netherlands,79.03,190,200,210,210,102.5,110,110,102.5,0,0,0,,0,83,Juniors,SBD,M,Raw
-,Brantley Wongsosemito,,Netherlands,82.10,180,182.5,185,182.5,0,0,0,,0,0,0,,0,83,Open,SBD,M,Raw
+,Pascal Kiers,,Netherlands,79.03,190,200,210,210,102.5,110,110,102.5,,,,,,83,Juniors,SBD,M,Raw
+,Brantley Wongsosemito,,Netherlands,82.10,180,182.5,185,182.5,,,,,,,,,,83,Open,SBD,M,Raw
 1,Emiel Fincken,,Netherlands,92.00,190,202.5,212.5,212.5,140,155,160,155,240,255,260,260,627.5,93,Open,SBD,M,Raw
 2,Erwin Nys,,Netherlands,91.24,205,210,210,210,135,145,145,145,240,260,272.5,260,615,93,Open,SBD,M,Raw
 3,Noud Beelen,,Netherlands,90.35,180,190,200,200,120,125,130,130,230,240,250,240,570,93,Open,SBD,M,Raw
@@ -46,7 +46,7 @@ Place,Name,Birthyear,Country,BodyweightKG,Squat1KG,Squat2KG,Squat3KG,Best3SquatK
 5,Jennerino Bleekman,,Netherlands,90.11,190,200,200,190,130,135,140,135,200,210,230,210,535,93,Open,SBD,M,Raw
 6,Guus Alberts,,Netherlands,92.74,180,190,195,195,112.5,120,125,125,200,207.5,212.5,212.5,532.5,93,Open,SBD,M,Raw
 7,Remco Kwint,,Netherlands,92.37,180,190,200,200,105,110,112.5,112.5,190,205,212.5,205,517.5,93,Open,SBD,M,Raw
-8,Freek Looijen,,Netherlands,85.34,185,195,0,195,100,100,105,100,220,230,230,220,515,93,Open,SBD,M,Raw
+8,Freek Looijen,,Netherlands,85.34,185,195,,195,100,100,105,100,220,230,230,220,515,93,Open,SBD,M,Raw
 9,Frans Verstege,,Netherlands,87.78,150,157.5,167.5,167.5,97.5,105,110,105,195,205,205,205,477.5,93,Open,SBD,M,Raw
 10,Harold Paul,,Netherlands,85.5,160,170,180,170,110,117.5,120,110,180,200,200,180,460,93,Master 1,SBD,M,Raw
 11,Sam Heerkens,,Netherlands,85.00,155,165,165,155,90,95,95,90,195,205,205,195,440,93,Sub-Juniors,SBD,M,Raw
@@ -62,7 +62,7 @@ Place,Name,Birthyear,Country,BodyweightKG,Squat1KG,Squat2KG,Squat3KG,Best3SquatK
 7,Nout van den Bos,,Netherlands,101.58,185,195,205,205,135,142.5,147.5,142.5,210,220,227.5,227.5,575,105,Juniors,SBD,M,Raw
 8,Roy Kreuger,,Netherlands,103.92,205,217.5,225,225,120,127.5,127.5,120,225,240,240,225,570,105,Open,SBD,M,Raw
 1,Michael Flierman,,Netherlands,110.47,210,225,235,235,140,150,157.5,150,210,225,240,240,625,120,Open,SBD,M,Raw
-2,Huub Hetterschijt,,Netherlands,119.45,175,0,0,175,175,0,0,175,175,0,0,175,525,120,Master 1,SBD,M,Raw
+2,Huub Hetterschijt,,Netherlands,119.45,175,,,175,175,,,175,175,,,175,525,120,Master 1,SBD,M,Raw
 1,Harry Seriese,,Netherlands,124.29,230,240,250,250,160,165,170,165,230,245,252.5,252.5,667.5,120+,Master 2,SBD,M,Raw
 2,Bob Tillemans,,Netherlands,132.72,195,205,215,205,117.5,125,127.5,125,250,262.5,275,262.5,592.5,120+,Juniors,SBD,M,Raw
 3,Wim Wamsteeker,,Netherlands,128.79,195,207.5,212.5,212.5,120,125,127.5,127.5,220,235,242.5,242.5,582.5,120+,Master 1,SBD,M,Raw
