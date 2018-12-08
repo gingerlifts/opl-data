@@ -39,10 +39,14 @@ pub enum MetaFederation {
     AllFinland,
     #[strum(to_string = "all-germany")]
     AllGermany,
+    #[strum(to_string = "all-iceland")]
+    AllIceland,
     #[strum(to_string = "all-ireland")]
     AllIreland,
     #[strum(to_string = "all-israel")]
     AllIsrael,
+    #[strum(to_string = "all-kazakhstan")]
+    AllKazakhstan,
     #[strum(to_string = "all-latvia")]
     AllLatvia,
     #[strum(to_string = "all-newzealand")]
@@ -58,6 +62,8 @@ pub enum MetaFederation {
 
     #[strum(to_string = "aapf")]
     AAPF,
+
+    /// BPU, but only tested entries.
     #[strum(to_string = "abpu")]
     ABPU,
 
@@ -65,6 +71,10 @@ pub enum MetaFederation {
     /// but people expect to see them all lumped together.
     #[strum(to_string = "all-bp")]
     AllBP,
+
+    /// BPU, but with international results also.
+    #[strum(to_string = "bpu")]
+    BPU,
 
     /// BVDK, but with international results also.
     #[strum(to_string = "bvdk")]
@@ -146,6 +156,11 @@ impl MetaFederation {
                     || (entry.lifter_country == None
                         && meet.federation.home_country() == Some(Country::Germany))
             }
+            MetaFederation::AllIceland => {
+                entry.lifter_country == Some(Country::Iceland)
+                    || (entry.lifter_country == None
+                        && meet.federation.home_country() == Some(Country::Iceland))
+            }
             MetaFederation::AllIreland => {
                 entry.lifter_country == Some(Country::Ireland)
                     || (entry.lifter_country == None
@@ -155,6 +170,11 @@ impl MetaFederation {
                 entry.lifter_country == Some(Country::Israel)
                     || (entry.lifter_country == None
                         && meet.federation.home_country() == Some(Country::Israel))
+            }
+            MetaFederation::AllKazakhstan => {
+                entry.lifter_country == Some(Country::Kazakhstan)
+                    || (entry.lifter_country == None
+                        && meet.federation.home_country() == Some(Country::Kazakhstan))
             }
             MetaFederation::AllLatvia => {
                 entry.lifter_country == Some(Country::Latvia)
@@ -190,7 +210,9 @@ impl MetaFederation {
                         && meet.federation.home_country() == Some(Country::USA))
             }
             MetaFederation::AAPF => meet.federation == Federation::APF && entry.tested,
-            MetaFederation::ABPU => meet.federation == Federation::BPU && entry.tested,
+            MetaFederation::ABPU => {
+                entry.tested && MetaFederation::BPU.contains(entry, meets)
+            }
             MetaFederation::AllBP => {
                 meet.federation == Federation::BAWLA
                     || meet.federation == Federation::BP
@@ -204,6 +226,11 @@ impl MetaFederation {
                         (meet.federation == Federation::IPF
                          || meet.federation == Federation::EPF
                          || meet.federation == Federation::CommonwealthPF))
+            }
+            MetaFederation::BPU => {
+                meet.federation == Federation::BPU
+                    || (meet.federation == Federation::WPC
+                        && entry.lifter_country.map_or(false, |c| c.is_in_uk()))
             }
             MetaFederation::BVDK => match meet.federation {
                 Federation::BVDK => true,

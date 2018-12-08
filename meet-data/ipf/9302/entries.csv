@@ -1,7 +1,7 @@
 Place,WeightClassKg,Sex,Division,Name,BirthYear,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Equipment
 1,52,F,Masters 1,Hisako Yoshida,1951,Japan,47.7,122.5,132.5,137.5,137.5,70,72.5,75,75,130,137.5,-142.5,137.5,350,SBD,Single-ply
 2,52,F,Masters 1,Anna-Maija Honka,1951,Sweden,50.6,120,130,137.5,137.5,60,65,-67.5,65,130,140,145,145,347.5,SBD,Single-ply
-3,52,F,Masters 1,Anita Timm,1950,Germany,51.3,100,110,115,115,65,67.5,-70,67.5,140,147.5,-150,147.5,330,SBD,Single-ply
+3,52,F,Masters 1,Anita Thimm,1950,Germany,51.3,100,110,115,115,65,67.5,-70,67.5,140,147.5,-150,147.5,330,SBD,Single-ply
 4,52,F,Masters 1,Ginger Lord,1951,USA,47.8,-107.5,107.5,115,115,57.5,-62.5,-62.5,57.5,127.5,137.5,-150,137.5,310,SBD,Single-ply
 5,52,F,Masters 1,Nadezhda Uvachan,1944,Russia,51.4,120,127.5,-130.5,127.5,60,-65,65,65,125,132.5,-140,132.5,325,SBD,Single-ply
 6,52,F,Masters 1,Adina Hyková,1943,Czechia,51.4,-95,95,-102.5,95,47.5,50,-52.5,50,115,122.5,125,125,270,SBD,Single-ply
@@ -104,7 +104,7 @@ DQ,100,M,Masters 1,Vyacheslav Piskunov,1951,Russia,98.3,-320,-320,-320,,,,,,,,,,
 10,110,M,Masters 1,Tapio Ruohonen,1950,Finland,110,190,205,215,215,160,170,-175,170,230,240,-250,240,625,SBD,Single-ply
 11,110,M,Masters 1,Rassi Smit,1947,South Africa,101.3,210,-240,-240,210,145,160,-165,160,225,245,-255,245,615,SBD,Single-ply
 12,110,M,Masters 1,Mikhail Kurbatsky,1950,Ukraine,107.8,200,-210,210,210,145,155,-160,155,220,230,-240,230,595,SBD,Single-ply
-1,125,M,Masters 1,Junior Faamausili,1951,USA,122.9,-365,365,-402.5,365,-222.5,222.5,245,245,265,277.5,297.5,297.5,907.5,SBD,Single-ply
+1,125,M,Masters 1,Suiaunoa Fa'amausili,1951,USA,122.9,-365,365,-402.5,365,-222.5,222.5,245,245,265,277.5,297.5,297.5,907.5,SBD,Single-ply
 2,125,M,Masters 1,Leonid Emelyanov,1949,Russia,124,255,270,280,280,200,210,215,215,260,275,290,290,785,SBD,Single-ply
 3,125,M,Masters 1,Bob Taylor,1953,USA,123.9,-272.5,272.5,290,290,160,170,177.5,177.5,250,265,272.5,272.5,740,SBD,Single-ply
 4,125,M,Masters 1,Daniel Smague,1947,France,122.4,-280,280,-290,280,170,-175,-175,170,275,282.5,-290,282.5,732.5,SBD,Single-ply

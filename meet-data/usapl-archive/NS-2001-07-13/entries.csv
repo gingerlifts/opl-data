@@ -16,7 +16,7 @@ WeightClassKg,Name,Team,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Ben
 67.5,David Kibler,Michigan,67,205,220,-225,220,107.5,115,125,125,210,227.5,-235,227.5,572.5,M,SBD,Single-ply,7
 67.5,Lance Slaughter,California,67,200,205,-210,205,-175,-175,-175,,,,,,,M,SBD,Single-ply,DQ
 75,Wade Hooper,Quest,75,310,-332.5,-332.5,310,192.5,205,,205,255,267.5,-275,267.5,782.5,M,SBD,Single-ply,1
-75,Greg Simmons,,71.1,227.5,237.5,242.5,242.5,150,157.5,160,160,245,252.5,260,260,662.5,M,SBD,Single-ply,2
+75,Greg Simmons #2,,71.1,227.5,237.5,242.5,242.5,150,157.5,160,160,245,252.5,260,260,662.5,M,SBD,Single-ply,2
 75,Kenny Davis,,74.7,-227.5,230,240,240,157.5,165,-170,165,242.5,252.5,257.5,257.5,662.5,M,SBD,Single-ply,3
 82.5,Daniel Austin,,80.7,295,310,320,320,160,-165,-170,160,295,320,-338,320,800,M,SBD,Single-ply,1
 90,Rob Wagner,,89.1,340,352.5,-362.5,352.5,192.5,197.5,202.5,202.5,295,302.5,-307.5,302.5,857.5,M,SBD,Single-ply,1
@@ -43,7 +43,7 @@ WeightClassKg,Name,Team,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Ben
 110,Dave Gonzalez,,110,307.5,-315,-347.5,307.5,205,212.5,-215,212.5,280,295,-307.5,295,815,M,SBD,Single-ply,7
 110,Mitch Ecelstola,,102.8,255,-267.5,267.5,267.5,182.5,187.5,190,190,277.5,282.5,287.5,287.5,745,M,SBD,Single-ply,8
 110,John Planas,California,105.1,297.5,310,-315,310,-220,-220,-220,,,,,,,M,SBD,Single-ply,DQ
-110,Matt Kroczakeski,Michigan,108.1,-292.5,292.5,302.5,302.5,192.5,200,-202.5,200,-305,-305,-305,,,M,SBD,Single-ply,DQ
+110,Matt Kroczaleski,Michigan,108.1,-292.5,292.5,302.5,302.5,192.5,200,-202.5,200,-305,-305,-305,,,M,SBD,Single-ply,DQ
 110,Mike O'Donnell,Michigan,109.5,-290,-290,-290,,,,,,,,,,,M,SBD,Single-ply,DQ
 125,Tony Cardella,,123.9,-332.5,332.5,355,355,222.5,237.5,242.5,242.5,320,332.5,-337.5,332.5,930,M,SBD,Single-ply,2
 125,Pat McGettigan,Titan,124.7,-345,345,-352.5,345,215,-222.5,-225,215,352.5,-360,-372.5,352.5,912.5,M,SBD,Single-ply,3
@@ -64,7 +64,7 @@ WeightClassKg,Name,Team,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Ben
 125+,Sean Culnan,Titan,152.5,350,365,-372.5,365,240,250,255,255,342.5,-357.5,-360,342.5,962.5,M,SBD,Single-ply,2
 125+,Tony Leiato,,140.8,357.5,-377.5,-377.5,357.5,262.5,-275,-295,262.5,-322.5,322.5,-332.5,322.5,942.5,M,SBD,Single-ply,3
 125+,Van Hatfield,,137.9,332.5,-360,-360,332.5,237.5,247.5,-252.5,247.5,322.5,340,-350,340,920,M,SBD,Single-ply,4
-125+,Dan Gaudreau,,160.7,-327.5,327.5,340,340,-257.5,257.5,262.5,262.5,277.5,300,-320,300,902.5,M,SBD,Single-ply,5
+125+,Daniel Gaudreau,,160.7,-327.5,327.5,340,340,-257.5,257.5,262.5,262.5,277.5,300,-320,300,902.5,M,SBD,Single-ply,5
 125+,Bruce Lee,California,135.6,-325,325,347.5,347.5,220,-230,-230,220,282.5,292.5,300,300,867.5,M,SBD,Single-ply,6
 125+,Wade Hanna,Michigan,129.1,295,-312.5,312.5,312.5,202.5,215,220,220,300,315,-330,315,847.5,M,SBD,Single-ply,7
 125+,Brian Oldham,,158.4,-337.5,-337.5,-337.5,,,,,,,,,,,M,SBD,Single-ply,DQ

@@ -13,6 +13,7 @@ pub enum State {
     InGermany(GermanyState),
     InIndia(IndiaState),
     InMexico(MexicoState),
+    InNetherlands(NetherlandsState),
     InNewZealand(NewZealandState),
     InUSA(USAState),
 }
@@ -35,6 +36,7 @@ impl State {
             Country::Germany => Ok(State::InGermany(s.parse::<GermanyState>()?)),
             Country::India => Ok(State::InIndia(s.parse::<IndiaState>()?)),
             Country::Mexico => Ok(State::InMexico(s.parse::<MexicoState>()?)),
+            Country::Netherlands => Ok(State::InNetherlands(s.parse::<NetherlandsState>()?)),
             Country::NewZealand => Ok(State::InNewZealand(s.parse::<NewZealandState>()?)),
             Country::USA => Ok(State::InUSA(s.parse::<USAState>()?)),
             _ => Err(ParseError::VariantNotFound),
@@ -89,6 +91,14 @@ pub enum MexicoState {
     QR, SL, SI, SO, TB, TM, TL, VE, YU, ZA
 }
 
+/// A state in the Netherlands
+#[cfg_attr(rustfmt, rustfmt_skip)]
+#[derive(Debug, EnumString, PartialEq)]
+pub enum NetherlandsState {
+    DR, FL, FR, GE, GR, LI, NB, NH, OV, UT, ZE,
+    ZH
+}
+
 /// A state in New Zealand.
 #[cfg_attr(rustfmt, rustfmt_skip)]
 #[derive(Debug, EnumString, PartialEq)]
@@ -103,5 +113,8 @@ pub enum NewZealandState {
 pub enum USAState {
     AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS,
     KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC,
-    ND, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY
+    ND, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY,
+
+    /// Guam is an unincorporated territory of the USA.
+    Guam,
 }
