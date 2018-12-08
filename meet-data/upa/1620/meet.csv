@@ -1,2 +1,6 @@
 Federation,Date,MeetCountry,MeetState,MeetTown,MeetName
+<<<<<<< HEAD:meet-data/upa/1620/meet.csv
 UPA,2016-10-01,USA,MN,Burnsville,Southside Fall Classic
+=======
+NPB,2018-09-22,Netherlands,,GD,Nijmegen,SBD Cup
+>>>>>>> NPB not DPF:meet-data/dpf/1803/meet.csv
