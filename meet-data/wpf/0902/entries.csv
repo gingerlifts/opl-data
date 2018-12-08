@@ -8,9 +8,9 @@ Bianca van Beugen,F,,Open,Single-ply,71.6,75,120,130,-140,130,85,-90,-90,,85,150
 Sigrid Vlak,F,,Open,Single-ply,45.5,48,,,,,52.5,57.5,-60,,57.5,,,,,57.5,B,1,Netherlands
 Beatrice Benecke,F,,Open,Single-ply,58,60,,,,,65,-70,-70,,65,,,,,65,B,1,Germany
 Daniela Gollnik,F,,Open,Single-ply,66.7,67.5,,,,,-60,-65,65,,65,,,,,65,B,2,Germany
-Angie Mc namara,F,,Open,Single-ply,67.1,67.5,,,,,80,85,90,,90,,,,,90,B,1,Ireland
+Angie McNamara,F,,Open,Single-ply,67.1,67.5,,,,,80,85,90,,90,,,,,90,B,1,Ireland
 Violette Wycisk,F,,Open,Single-ply,60.6,67.5,,,,,,,,,,110,120,127.5,127.5,127.5,D,2,Germany
-Angie Mc namara,F,,Open,Single-ply,67.1,67.5,,,,,,,,,,150,,,150,150,D,1,Ireland
+Angie McNamara,F,,Open,Single-ply,67.1,67.5,,,,,,,,,,150,,,150,150,D,1,Ireland
 Alina Schmidt,F,,Teen,Single-ply,81.5,82.5,,,,,60,65,-70,,65,,,,,65,B,1,Germany
 Barry Keehan,M,,Junior,Single-ply,67.3,67.5,210,225,-227.5,225,-120,120,127.5,,127.5,210,220,-222.5,220,572.5,SBD,1,Ireland
 Darren Quinn,M,,Junior,Single-ply,74.2,75,-210,-220,-220,,,,,,,,,,,,SBD,DQ,Ireland
@@ -86,15 +86,15 @@ Bernard Delany,M,,Open,Single-ply,89.9,90,290,310,-320,310,240,251,260,,260,-280
 Pall Agust Sigurdarson,M,,Open,Single-ply,99.7,100,175,190,-200,190,115,125,135,,135,200,-220,230,230,555,SBD,3,Iceland
 Thomas Romberg,M,,Open,Single-ply,99.4,100,255,-270,270,270,180,-190,190,,190,270,-290,-290,270,730,SBD,2,Germany
 Aleksander Kyurchev,M,,Open,Single-ply,95.4,100,320,340,-360,340,235,-250,250,,250,280,300,-310,300,890,SBD,1,Bulgaria
-Sean Enwright,M,,Open,Single-ply,97.9,100,-290,-300,-300,-290,180,,,,180,250,,,,,SBD,DQ,Ireland
+Sean Enwright,M,,Open,Single-ply,97.9,100,-290,-300,-300,-290,180,,,,180,250,,,250,,SBD,DQ,Ireland
 David Satsjelasjvili,M,,Open,Single-ply,106.7,110,280,290,-300,290,200,210,220,,220,200,260,270,270,780,SBD,1,Netherlands
-Alexander Mittag,M,,Open,Single-ply,109.1,110,-280,-310,-320,-280,165,,,,165,240,,,,,SBD,DQ,Germany
-Daniel Sauer,M,,Open,Single-ply,102.2,110,-270,-280,-280,-270,180,,,,180,300,,,,,SBD,DQ,Germany
+Alexander Mittag,M,,Open,Single-ply,109.1,110,-280,-310,-320,-280,165,,,,165,240,,,,240,SBD,DQ,Germany
+Daniel Sauer,M,,Open,Single-ply,102.2,110,-270,-280,-280,-270,180,,,,180,300,,,,300,SBD,DQ,Germany
 Dave van der Veen,M,,Open,Single-ply,111.9,125,330,350,-360,350,230,-240,-240,,230,250,-275,275,275,855,SBD,1,Netherlands
 Andrew Cairney,M,,Open,Single-ply,131.3,140,290,312.5,325,325,190,215,222.5,,222.5,260,-290,290,290,837.5,SBD,1,England
 Thomas Elfner,M,,Open,Single-ply,93.5,100,,,,,175,182.5,-195,,182.5,,,,,182.5,B,4,Austria
 Jochen Puchmelter,M,,Open,Single-ply,95.4,100,,,,,180,190,200,,200,,,,,200,B,3,Germany
-Patrick Mc namara,M,,Open,Single-ply,94.3,100,,,,,207.5,-212.5,,,207.5,,,,,207.5,B,2,Ireland
+Patrick McNamara,M,,Open,Single-ply,94.3,100,,,,,207.5,-212.5,,,207.5,,,,,207.5,B,2,Ireland
 Aleksander Kyurchev,M,,Open,Single-ply,95.5,100,,,,,235,245,252.5,,252.5,,,,,252.5,B,1,Bulgaria
 Micheal Vaughan,M,,Open,Single-ply,98.2,100,,,,,,,,,,240,255,270,270,270,D,2,Ireland
 Aleksander Kyurchev,M,,Open,Single-ply,95.5,100,,,,,,,,,,280,295,-302.5,295,295,D,1,Bulgaria
@@ -102,7 +102,7 @@ Martin Baumbach,M,,Open,Single-ply,105.1,110,,,,,-250,-250,-250,,,,,,,,B,DQ,Germ
 Raymond van Deventer,M,,Open,Single-ply,107.3,110,,,,,240,250,-260.5,,250,,,,,250,B,1,Netherlands
 Oliver Glänzer,M,,Open,Single-ply,100.5,110,,,,,,,,,,230,-250,-250,230,230,D,1,Germany
 Wladimir Funkner,M,,Open,Single-ply,123.2,125,,,,,150,-210,-210,,150,,,,,150,B,2,Germany
-Kakhaber Kapiani ,M,,Open,Single-ply,116.9,125,,,,,200,230,250,,250,,,,,250,B,1,Georgia
+Kakhaber Kapiani,M,,Open,Single-ply,116.9,125,,,,,200,230,250,,250,,,,,250,B,1,Georgia
 Heiko Fiegel,M,,Open,Single-ply,113.3,125,,,,,,,,,,-230,230,-250,230,230,D,2,Germany
 Andre Scheller,M,,Open,Single-ply,114.8,125,,,,,,,,,,-250,250,260,260,260,D,1,Germany
 George Chakvetadze,M,,Open,Single-ply,127.1,140,,,,,-210,210,235,,235,,,,,235,B,1,Georgia
@@ -130,7 +130,7 @@ Patrick Nyberg,M,,Teen,Single-ply,70.5,75,,,,,,,,,,130,140,-160,140,140,D,3,Germ
 Simon Cal,M,,Teen,Single-ply,68.5,75,,,,,,,,,,150,165,-175,165,165,D,2,Germany
 Niko Josifidis,M,,Teen,Single-ply,69.9,75,,,,,,,,,,165,175,200,200,200,D,1,Germany
 Rene Henn,M,,Teen,Single-ply,77.8,82.5,,,,,90,-100,-100,,90,,,,,90,B,2,Germany
-Ivan Anuchin ,M,,Teen,Single-ply,80.2,82.5,,,,,125,147.5,155,,155,,,,,155,B,1,Russia
-Artem Logunov ,M,,Teen,Single-ply,89.4,90,,,,,155,180,185,,185,,,,,185,B,1,Russia
+Ivan Anuchin,M,,Teen,Single-ply,80.2,82.5,,,,,125,147.5,155,,155,,,,,155,B,1,Russia
+Artem Logunov,M,,Teen,Single-ply,89.4,90,,,,,155,180,185,,185,,,,,185,B,1,Russia
 Thorben Sardory,M,,Teen,Single-ply,,,,,,,,,,,,,,,,,D,DQ,Germany
 Shane Nugent,M,,Teen,Single-ply,,,,,,,,,,,,,,,,,D,DQ,Ireland
