@@ -1,4 +1,4 @@
-Name,Sex,BodyweightKg,,BirthDate,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Division,Event,Equipment
+Name,Sex,BodyweightKg,WeightClassKg,BirthDate,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Division,Event,Equipment
 Anja Schreiner,F,47.3,52,1993-07-30,132.5,140,145,145,80,87.5,-95,87.5,110,120,-130,120,352.5,4,Open,SBD,Single-ply
 Catrin Resch,F,50.1,52,1965-01-08,115,122.5,127.5,127.5,75,80,-87.5,80,115,125,130,130,337.5,10,Open,SBD,Single-ply
 Rosina Polster,F,61.6,63,1984-11-17,-160,160,170,170,97.5,-102.5,102.5,102.5,150,160,-165,160,432.5,4,Open,SBD,Single-ply
