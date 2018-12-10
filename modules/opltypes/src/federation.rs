@@ -203,10 +203,6 @@ pub enum Federation {
     #[strum(to_string = "CSST", serialize = "csst")]
     CSST,
 
-    /// Dutch IPF affiliate.
-    #[strum(to_string = "DPF", serialize = "dpf")]
-    DPF,
-
     /// Danish IPF affiliate.
     #[strum(to_string = "DSF", serialize = "dsf")]
     DSF,
@@ -1228,6 +1224,7 @@ impl Federation {
             Federation::NOTLD => PointsSystem::Wilks,
             Federation::NPA => PointsSystem::Wilks,
             Federation::NPB => PointsSystem::Wilks,
+            Federation::NSF => PointsSystem::Wilks,
             Federation::NZOpen => PointsSystem::Wilks,
             Federation::NZPF => PointsSystem::Wilks,
             Federation::OceaniaPF => PointsSystem::Wilks,
