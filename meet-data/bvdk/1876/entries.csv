@@ -1,4 +1,4 @@
-Place,Name,Division,Equipment,Sex,BirthYear,WeightClassKg,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,SBD
+Place,Name,Division,Equipment,Sex,BirthYear,WeightClassKg,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event
 1,Hannah Kannowsky,Juniors,Single-ply,F,1999,52,51,55,60,62.5,62.5,-37.5,37.5,40,40,65,70,75,75,177.5,SBD
 2,Phuong-Anh Nguyen,Juniors,Single-ply,F,1995,57,55.3,125,135,142.5,142.5,62.5,67.5,70,70,112.5,120,127.5,127.5,340,SBD
 1,Simone Baumann,Open,Single-ply,F,1983,57,55.3,85,92.5,-100,92.5,52.5,55,57.5,57.5,-115,-115,115,115,265,SBD
