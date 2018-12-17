@@ -13,6 +13,9 @@ use crate::check_entries::check_entries;
 pub mod check_meet;
 use crate::check_meet::check_meet;
 
+mod compiler;
+use crate::compiler::interpolate_countries::interpolate;
+
 use std::error::Error;
 use std::path::{Path, PathBuf};
 
