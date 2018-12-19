@@ -1,6 +1,6 @@
 Name,Sex,Age,Division,Equipment,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Place,Country
 Rhianon Lovelace,F,,F_J_R_WPC,Raw,56.1,60,,,,,80,-82.5,-82.5,80,,,,,80,B,1,England
-Dagmar Liptakova,F,,F_M1_M_WPC,Multi-ply,63.1,67.5,,,,,130,15,140,140,,,,,140,B,1,Slovakia
+Dagmar Liptakova,F,,F_M1_M_WPC,Multi-ply,63.1,67.5,,,,,130,135,140,140,,,,,140,B,1,Slovakia
 Anna Rosen,F,,F_M1_R_WPC,Raw,95.8,90+,,,,,120,125,131,131,,,,,131,B,1,Sweden
 Irina Pomerantsev,F,,F_M2_R_WPC,Raw,41.2,44,,,,,60,62.5,65,65,,,,,65,B,1,Israel
 Patricia Page,F,,F_M2_R_WPC,Raw,88.5,90,,,,,45,47.5,-52.5,47.5,,,,,47.5,B,2,Ireland
@@ -53,7 +53,7 @@ Charlotte McIntyre,F,,F_J_R_WPC,Raw,71.3,75,90,100,-105,100,50,55,-60,55,135,145
 Angela McNamara,F,,F_M1_M_WPC,Multi-ply,80.8,82.5,185,220,235,235,140,,,140,200,-207.5,,200,575,SBD,1,Ireland
 Dominique Fisher #1,F,,F_M1_R_WPC,Raw,65.9,67.5,130,142.5,-152.5,142.5,65,70,-72.5,70,150,-160,-160,150,362.5,SBD,1,England
 Geni Devonish,F,,F_M1_R_WPC,Raw,87.2,90,110,120,-125,120,55,60,-65,60,120,130,135,135,315,SBD,1,England
-Tara O’Shaughnessy,F,,F_M1_S_WPC,Single-ply,73.7,75,190,-205,-205,190,105,-110,110,110,180,190,-200,190,490,SBD,1,Ireland
+Tara O Shaughnessy,F,,F_M1_S_WPC,Single-ply,73.7,75,190,-205,-205,190,105,-110,110,110,180,190,-200,190,490,SBD,1,Ireland
 Irina Pomerantsev,F,,F_M2_R_WPC,Raw,40.8,44,75,80,81,81,-60,62.5,-65,62.5,100,-105,105,105,248.5,SBD,1,Israel
 Amanda Cunliffe,F,,F_M2_R_WPC,Raw,53.8,56,75,80,85,85,40,-45,-45,40,105,115,-122.5,115,240,SBD,1,England
 Emma Mallon,F,,F_M2_R_WPC,Raw,67.3,67.5,-90,90,107.5,107.5,57.5,-62.5,62.5,62.5,120,130,140,140,310,SBD,1,England
@@ -62,7 +62,7 @@ Karla Frater,F,,F_M2_R_WPC,Raw,81.4,82.5,100,-105,107.5,107.5,40,-45,45,45,140,1
 Bev Johnson,F,,F_M3_R_WPC,Raw,65.3,67.5,55,-60,-60,55,37.5,40,45,45,90,100,110,110,210,SBD,1,England
 Patricia Wetton,F,,F_M3_R_WPC,Raw,73.4,75,85,-95,105,105,57.5,-62.5,62.5,62.5,110,-130,,110,277.5,SBD,1,England
 Alison Hough,F,,F_M3_S_WPC,Single-ply,59.4,60,120,135,145,145,87.5,92.5,97.5,97.5,130,145,152.5,152.5,395,SBD,1,England
-Amy O’Neill,F,,F_O_C_WPC,Wraps,58.3,60,110,-120,120,120,50,52.5,55,55,120,125,130,130,305,SBD,1,Ireland
+Amy O Neill,F,,F_O_C_WPC,Wraps,58.3,60,110,-120,120,120,50,52.5,55,55,120,125,130,130,305,SBD,1,Ireland
 Rachel Murphy,F,,F_O_C_WPC,Wraps,66.4,67.5,-110,110,-122.5,110,55,60,62.5,62.5,130,137.5,145,145,317.5,SBD,1,Ireland
 Joanne Connolly,F,,F_O_C_WPC,Wraps,74.9,75,-110,110,-120,110,40,,,40,140,147.5,150,150,300,SBD,3,Ireland
 Holly Ware,F,,F_O_C_WPC,Wraps,71.4,75,150,160,-165,160,90,95,100,100,180,185,192.5,192.5,452.5,SBD,1,England
@@ -84,16 +84,16 @@ Dominique Fisher #1,F,,F_O_R_WPC,Raw,65.9,67.5,130,142.5,-152.5,142.5,65,70,-72.
 Rachel Bradish,F,,F_O_R_WPC,Raw,67.1,67.5,115,117.5,-120,117.5,75,-80,-80,75,165,170,-175,170,362.5,SBD,2,England
 Hannah Venn Munns,F,,F_O_R_WPC,Raw,74,75,80,87.5,-90,87.5,62.5,-67.5,-67.5,62.5,-115,115,-120,115,265,SBD,4,England
 Kelly Matthews,F,,F_O_R_WPC,Raw,71.9,75,-85,-90,90,90,55,57.5,-60,57.5,120,130,-140,130,277.5,SBD,3,England
-Alexandra Foster,F,,F_O_R_WPC,Raw,72.6,75,105,122.5,120,120,50,-55,-55,50,140,150,-160,150,320,SBD,2,England
+Alexandra Foster,F,,F_O_R_WPC,Raw,72.6,75,105,-120,120,120,50,-55,-55,50,140,150,-160,150,320,SBD,2,England
 Naomi Sheppard,F,,F_O_R_WPC,Raw,74.2,75,130,140,145,145,70,77.5,-80,77.5,140,-150,150,150,372.5,SBD,1,England
 Alison Dufour,F,,F_O_R_WPC,Raw,80,82.5,95,110,-115,110,65,-72.5,-72.5,65,125,-142.5,142.5,142.5,317.5,SBD,2,England
 Tanya Brodie,F,,F_O_R_WPC,Raw,80.6,82.5,110,-120,120,120,50,55,-60,55,125,145,-155,145,320,SBD,1,England
 Ruth Farrelly,F,,F_O_R_WPC,Raw,65.5,67.5,110,120,-130,120,50,57.5,-65,57.5,127.5,137.5,-145,137.5,315,SBD,4,Ireland
 Lisa Bulcock,F,,F_O_R_WPC,Raw,80.1,82.5,125,132.5,137.5,137.5,67.5,72.5,-75,72.5,145,150,160,160,370,SBD,1,England
 Iwona Karwowska,F,,F_O_R_WPC,Raw,85.1,90,140,-150,150,150,70,75,80,80,-140,150,-160,150,380,SBD,1,England
-Victoria Brodie,F,,F_O_R_WPC,Raw,96.3,90+,110,-125,-130,120,60,-67.5,-67.5,60,130,147.5,-157.5,147.5,327.5,SBD,2,England
+Victoria Brodie,F,,F_O_R_WPC,Raw,96.3,90+,110,-125,-130,110,60,-67.5,-67.5,60,130,147.5,-157.5,147.5,317.5,SBD,2,England
 Laura Parker,F,,F_O_R_WPC,Raw,93.2,90+,-135,135,145,145,80,87.5,-92.5,87.5,140,150,-160,150,382.5,SBD,1,England
-Tara O’Shaughnessy,F,,F_O_S_WPC,Single-ply,73.7,75,190,-205,-205,190,105,-110,110,110,180,190,-200,190,490,SBD,1,Ireland
+Tara O Shaughnessy,F,,F_O_S_WPC,Single-ply,73.7,75,190,-205,-205,190,105,-110,110,110,180,190,-200,190,490,SBD,1,Ireland
 Chloe Passmore,F,,F_T1_R_WPC,Raw,74.1,75,55,62.5,70,70,35,40,-45,40,75,87.5,95,95,205,SBD,1,England
 Dana Smith,F,,F_T2_R_WPC,Raw,55.2,56,75,-82.5,-82.5,75,-47.5,47.5,52.5,52.5,95,105,-110,105,232.5,SBD,2,England
 Brooke Hill,F,,F_T2_R_WPC,Raw,54.8,56,85,92.5,-100,92.5,45,52.5,-55,52.5,97.5,-105,105,105,250,SBD,1,England
@@ -121,7 +121,7 @@ Paul Morgan,M,,M_M1_S_WPC,Single-ply,89.3,90,,,,,165,180,190,190,,,,,190,B,1,Eng
 Vladimir Omelkov,M,,M_M2_M_WPC,Multi-ply,108,110,,,,,-265,-265,265,265,,,,,265,B,1,Russia
 David Gibson,M,,M_M2_R_WPC,Raw,92.7,100,,,,,140,145,150,150,,,,,150,B,2,England
 David Pennington,M,,M_M2_R_WPC,Raw,96.8,100,,,,,160,172.5,180,180,,,,,180,B,1,England
-sean Blackburn,M,,M_M2_R_WPC,Raw,107.2,110,,,,,175,187.5,-202.5,187.5,,,,,187.5,B,1,England
+Sean Blackburn,M,,M_M2_R_WPC,Raw,107.2,110,,,,,175,187.5,-202.5,187.5,,,,,187.5,B,1,England
 Oleg Pivovarov,M,,M_M3_M_WPC,Multi-ply,107.1,110,,,,,230,240,,240,,,,,240,B,1,Russia
 Ismo Sahlsten,M,,M_M3_M_WPC,Multi-ply,119.6,125,,,,,210,220,227.5,227.5,,,,,227.5,B,1,Finland
 Stephane Gurini,M,,M_M3_R_WPC,Raw,99.6,100,,,,,145,152.5,-160,152.5,,,,,152.5,B,1,France
@@ -178,7 +178,7 @@ Aleksandrs Nikitins,M,,M_O_R_WPC,Raw,65.4,67.5,,,,,95,102.5,107.5,107.5,,,,,107.
 Pedro Claro,M,,M_O_R_WPC,Raw,73.5,75,,,,,125,135,-140,135,,,,,135,B,3,Portugal
 Fabio Bras,M,,M_O_R_WPC,Raw,73.9,75,,,,,135,145,-155,145,,,,,145,B,1,Portugal
 Sean Kilbride,M,,M_O_R_WPC,Raw,74.5,75,,,,,130,140,145,145,,,,,145,B,2,England
-Niall O’Keefe,M,,M_O_R_WPC,Raw,82.1,82.5,,,,,165,175,182.5,182.5,,,,,182.5,B,3,Ireland
+Niall O Keefe,M,,M_O_R_WPC,Raw,82.1,82.5,,,,,165,175,182.5,182.5,,,,,182.5,B,3,Ireland
 Luis Simoes,M,,M_O_R_WPC,Raw,82.5,82.5,,,,,185,192.5,-197.5,192.5,,,,,192.5,B,2,Portugal
 Attila Gembiczki,M,,M_O_R_WPC,Raw,80.9,82.5,,,,,180,190,195,195,,,,,195,B,1,Hungary
 Bruno Horta,M,,M_O_R_WPC,Raw,86.1,90,,,,,135,145,-150,145,,,,,145,B,3,Portugal
@@ -248,7 +248,7 @@ Jim Mawer,M,,M_O_R_WPC,Raw,58.8,60,,,,,,,,,152.5,-170,-175,152.5,152.5,D,3,Engla
 Gurnaik Birring,M,,M_O_R_WPC,Raw,58.9,60,,,,,,,,,165,175,185,185,185,D,2,England
 Alexander Romanichev,M,,M_O_R_WPC,Raw,58.9,60,,,,,,,,,175,185,195.5,195.5,195.5,D,1,Israel
 Pedro Rocha,M,,M_O_R_WPC,Raw,81.5,82.5,,,,,,,,,200,215,-220,215,215,D,3,Portugal
-Niall O’Keefe,M,,M_O_R_WPC,Raw,82.1,82.5,,,,,,,,,230,240,250,250,250,D,2,Ireland
+Niall O Keefe,M,,M_O_R_WPC,Raw,82.1,82.5,,,,,,,,,230,240,250,250,250,D,2,Ireland
 Hristo Proynov,M,,M_O_R_WPC,Raw,81.4,82.5,,,,,,,,,250,270,280,280,280,D,1,Bulgaria
 Anthony Zawalij,M,,M_O_R_WPC,Raw,76.1,82.5,,,,,,,,,-205,,,,,D,DQ,England
 Rubin Oliveira,M,,M_O_R_WPC,Raw,87.4,90,,,,,,,,,240,-255,-255,240,240,D,1,Portugal
@@ -336,7 +336,7 @@ Matt Morsia,M,,M_O_C_WPC,Wraps,98.7,100,235,-255,255,255,155,165,-170,165,270,-2
 Ricarddo Monteiro,M,,M_O_C_WPC,Wraps,99.7,100,250,262.5,-270,262.5,-150,150,160,160,270,287.5,-300,287.5,710,SBD,2,Portugal
 Martin Brown,M,,M_O_C_WPC,Wraps,98.7,100,305,327.5,342.5,342.5,182.5,195,-205,195,290,-312.5,312.5,312.5,850,SBD,1,England
 Timothy Hopwood,M,,M_O_C_WPC,Wraps,108.8,110,200,-230,-255,200,130,140,-155,140,220,250,270,270,610,SBD,5,England
-Tony O’Rourke,M,,M_O_C_WPC,Wraps,107.7,110,260,270,287.5,287.5,175,-182.5,-187.5,175,260,280,-285,280,742.5,SBD,4,Ireland
+Tony O Rourke,M,,M_O_C_WPC,Wraps,107.7,110,260,270,287.5,287.5,175,-182.5,-187.5,175,260,280,-285,280,742.5,SBD,4,Ireland
 David Aldworth,M,,M_O_C_WPC,Wraps,107.4,110,245,255,-265,255,175,185,190,190,300,-330,,300,745,SBD,3,England
 Filipo Ingroso,M,,M_O_C_WPC,Wraps,105.5,110,315,330,-340,330,180,190,195,195,290,305,-325,305,830,SBD,2,Italy
 Sam Bollands,M,,M_O_C_WPC,Wraps,107.6,110,295,315,-325,315,-190,-195,200,200,320,335,350,350,865,SBD,1,England
@@ -359,7 +359,7 @@ Frazer Marriott,M,,M_O_C_WPC,Wraps,87.5,90,160,180,-200,180,110,125,130,130,200,
 Luke Corcoran,M,,M_O_C_WPC,Wraps,87.9,90,215,-230,-230,215,115,-122.5,-122.5,115,230,-250,-250,230,560,SBD,3,England
 Travis Hughes,M,,M_O_C_WPC,Wraps,87.9,90,215,-225,-225,215,140,152.5,157.5,157.5,242.5,252.5,-270,252.5,625,SBD,1,England
 Richard Martin,M,,M_O_C_WPC,Wraps,89.7,90,-220,-220,220,220,135,145,155,155,240,250,-260,250,625,SBD,2,England
-Patrick O’Shea,M,,M_O_M_WPC,Multi-ply,96.5,100,250,265,,265,170,180,-190,180,270,-285,-285,270,715,SBD,4,Ireland
+Patrick O Shea,M,,M_O_M_WPC,Multi-ply,96.5,100,250,265,,265,170,180,-190,180,270,-285,-285,270,715,SBD,4,Ireland
 Mikko Matkainen,M,,M_O_M_WPC,Multi-ply,98.9,100,290,310,-330,310,190,200,-207,200,235,255,-257.5,255,765,SBD,3,
 James Taylor,M,,M_O_M_WPC,Multi-ply,99.6,100,300,320,325,325,210,-230,230,230,245,262.5,275,275,830,SBD,2,England
 Paulo Santos,M,,M_O_M_WPC,Multi-ply,97.8,100,340,370,-380,370,230,240,250,250,310,335,-345,335,955,SBD,1,Portugal
@@ -412,7 +412,7 @@ James Blundell,M,,M_O_R_WPC,Raw,88.3,90,205,220,-230,220,150,160,167.5,167.5,245
 Lucian Luca,M,,M_O_R_WPC,Raw,88.4,90,205,215,-222.5,215,150,157.5,162.5,162.5,250,265,275,275,652.5,SBD,3,England
 Jamie Winter,M,,M_O_R_WPC,Raw,88.2,90,220,230,-250,230,165,175,-182.5,175,255,260,265,265,670,SBD,2,England
 Faraj Jalilov,M,,M_O_R_WPC,Raw,88.5,90,240,245,250,250,-170,170,190,190,280,310,-320,310,750,SBD,1,Azerbaijan
-Aron Hosking,M,,M_O_S_WPC,Single-ply,127.4,140,342.5,362.5,-270,362.5,235,242.5,-250,242.5,285,295,-305,295,900,SBD,1,England
+Aron Hosking,M,,M_O_S_WPC,Single-ply,127.4,140,342.5,362.5,-370,362.5,235,242.5,-250,242.5,285,295,-305,295,900,SBD,1,England
 Artur Chrzaszcz,M,,M_O_S_WPC,Single-ply,122.7,140,-405,-405,-405,,,,,,,,,,,SBD,DQ,England
 Rainer Altmae,M,,M_O_S_WPC,Single-ply,70.4,75,230,245,-260,245,-190,190,200,200,-240,250,-260,250,695,SBD,1,Ireland
 Richie Power,M,,M_O_S_WPC,Single-ply,82.4,82.5,275,-300,-300,275,200,210,-215,210,240,-250,,240,725,SBD,1,Ireland
@@ -421,7 +421,7 @@ Shane Brodie,M,,M_O_S_WPC,Single-ply,,90,285,300,-320,300,180,190,-200,190,240,2
 Jason Lynch Brodie,M,,M_T1_C_WPC,Wraps,86.8,90,140,-150,,140,65,72.5,-75,72.5,145,-152.5,152.5,152.5,365,SBD,1,Ireland
 Matthew Csiszar,M,,M_T1_S_WPC,Single-ply,66,67.5,160,170,180,180,90,100,-105,100,180,200,210,210,490,SBD,1,Hungary
 Herbert Czeplinski,M,,M_T2_R_WPC,Raw,,110,250,-265,280,280,180,190,200,200,250,265,,265,745,SBD,1,Germany
-Lone’er Kavanagh,M,,M_T2_R_WPC,Raw,63.8,67.5,140,-150,-152.5,140,75,82.5,-87.5,82.5,160,170,175,175,397.5,SBD,1,England
+Lone er Kavanagh,M,,M_T2_R_WPC,Raw,63.8,67.5,140,-150,-152.5,140,75,82.5,-87.5,82.5,160,170,175,175,397.5,SBD,1,England
 Aron Blight,M,,M_T2_R_WPC,Raw,71.6,75,145,-155,-165,145,125,130,140,140,195,-210,-210,195,480,SBD,1,England
 Ben Karaosman,M,,M_T3_C_WPC,Wraps,107.3,110,-180,180,-195,180,110,120,-130,120,205,-215,215,215,515,SBD,1,England
 Aaron Hayes,M,,M_T3_C_WPC,Wraps,142.2,140+,-260,-270,270,270,135,142.5,145,145,245,260,265,265,680,SBD,1,Ireland
