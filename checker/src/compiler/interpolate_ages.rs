@@ -1,4 +1,3 @@
-use crate::check_entries::Entry;
 use opltypes::*;
 
 pub struct AgeData {
@@ -38,12 +37,24 @@ pub fn interpolate(entries: &mut [AgeData]) {
 
 
 
-
-
-
-
 #[cfg(test)]
 mod tests {
     use super::*;
 
+    #[test]
+    fn test_interp() {
+        let a = AgeData { age: 20, minage: 20, maxage: 20, date: Date::from_u32(2000_12_31);,birthyear:1980, birthdate: Date::from_u32(1980_01_01), 2000 };
+        let b = AgeData { age: 20, minage: 20, maxage: 20, date: Date::from_u32(2000_12_31);,birthyear:1980, birthdate: Date::from_u32(1980_01_01), 2000 };
+
+        let c = AgeData { age: 20, minage: 20, maxage: 20, date: Date::from_u32(2000_12_31);,birthyear:1980, birthdate: Date::from_u32(1980_01_01), 2000 };
+        let d = AgeData { age: 20, minage: 20, maxage: 20, date: Date::from_u32(2000_12_31);,birthyear:1980, birthdate: Date::from_u32(1980_01_01), 2000 };
+
+
+        let mut interp_arr = [a,b];
+        let old_arr = [c,d];
+
+        interpolate(&mut interp_arr);
+
+        assert!(interp_arr.iter().eq(old_arr.iter()));
+    }
 }
