@@ -87,7 +87,7 @@ impl HeaderIndexMap {
 ///
 /// The intention is for each field to only be parsed once, after
 /// which further processing can use the standard datatype.
-#[derive(Default,PartialEq)]
+#[derive(Default, PartialEq)]
 pub struct Entry {
     pub name: String,
     pub sex: Sex,
@@ -826,15 +826,13 @@ fn check_column_division(
     }
 }
 
-fn check_column_country(s: &str, line: u64, report: &mut Report) -> Option<Country>{
-    if s.is_empty(){
+fn check_column_country(s: &str, line: u64, report: &mut Report) -> Option<Country> {
+    if s.is_empty() {
         None
-    }
-    else if s.parse::<Country>().is_err() {
+    } else if s.parse::<Country>().is_err() {
         report.error_on(line, format!("Unknown Country '{}'", s));
         None
-    }
-    else{
+    } else {
         Some(s.parse::<Country>().unwrap())
     }
 }
