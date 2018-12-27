@@ -1,15 +1,6 @@
 use crate::check_entries::Entry;
 use opltypes::*;
 
-fn get_country(entries: &[Entry]) -> Option<Country> {
-    for entry in entries {
-        if entry.country.is_some() {
-            return entry.country;
-        }
-    }
-    None
-}
-
 fn is_country_consistent(entries: &[Entry]) -> bool {
     let mut curr_country = None;
     for entry in entries {
@@ -25,7 +16,7 @@ fn is_country_consistent(entries: &[Entry]) -> bool {
 }
 
 fn interpolate_array(entries: &mut [Entry]) {
-    let lifter_country = get_country(entries);
+    let lifter_country = entries.iter().find_map(|e| e.is_some());
     for entry in entries {
         entry.country = lifter_country;
     }
@@ -41,41 +32,23 @@ pub fn interpolate(entries: &mut [Entry]) {
 mod tests {
     use super::*;
 
+    // Helper function for generating test data
+    fn entry(country: Option<Country>) -> Entry {
+	    Entry { country, ..Entry::default() }
+	}
+
+
     #[test]
     fn test_interp_start() {
-        let a = Entry {
-            country: None,
-            ..Entry::default()
-        };
-        let b = Entry {
-            country: None,
-            ..Entry::default()
-        };
-        let c = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
-        let d = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
+        let a = entry(None);
+        let b = entry(None);
+        let c = entry(Some::Country(USA));
+        let d = entry(Some::Country(USA));
 
-        let e = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
-        let f = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
-        let g = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
-        let h = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
+        let e = entry(Some::Country(USA));
+        let f = entry(Some::Country(USA));
+        let g = entry(Some::Country(USA));
+        let h = entry(Some::Country(USA));
 
         let mut interp_arr = [a, b, c, d];
         let old_arr = [e, f, g, h];
@@ -87,39 +60,15 @@ mod tests {
 
     #[test]
     fn test_interp_end() {
-        let a = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
-        let b = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
-        let c = Entry {
-            country: None,
-            ..Entry::default()
-        };
-        let d = Entry {
-            country: None,
-            ..Entry::default()
-        };
+        let a = entry(Some::Country(USA));
+        let b = entry(Some::Country(USA));
+        let c = entry(None);
+        let d = entry(None);
 
-        let e = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
-        let f = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
-        let g = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
-        let h = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
+        let e = entry(Some::Country(USA));
+        let f = entry(Some::Country(USA));
+        let g = entry(Some::Country(USA));
+        let h = entry(Some::Country(USA));
 
         let mut interp_arr = [a, b, c, d];
         let old_arr = [e, f, g, h];
@@ -131,39 +80,15 @@ mod tests {
 
     #[test]
     fn test_interp_gaps() {
-        let a = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
-        let b = Entry {
-            country: None,
-            ..Entry::default()
-        };
-        let c = Entry {
-            country: None,
-            ..Entry::default()
-        };
-        let d = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
+        let a = entry(Some::Country(USA));
+        let b = entry(None);
+        let c = entry(None);
+        let d = entry(Some::Country(USA));
 
-        let e = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
-        let f = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
-        let g = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
-        let h = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
+        let e = entry(Some::Country(USA));
+        let f = entry(Some::Country(USA));
+        let g = entry(Some::Country(USA));
+        let h = entry(Some::Country(USA));
 
         let mut interp_arr = [a, b, c, d];
         let old_arr = [e, f, g, h];
@@ -175,31 +100,13 @@ mod tests {
 
     #[test]
     fn test_invalid_interp() {
-        let a = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
-        let b = Entry {
-            country: Some(Country::Estonia),
-            ..Entry::default()
-        };
-        let c = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
+        let a = entry(Some::Country(USA));
+        let b = entry(Some::Country(Estonia));
+        let c = entry(Some::Country(USA));
 
-        let d = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
-        let e = Entry {
-            country: Some(Country::Estonia),
-            ..Entry::default()
-        };
-        let f = Entry {
-            country: Some(Country::USA),
-            ..Entry::default()
-        };
+        let d = entry(Some::Country(USA));
+        let e = entry(Some::Country(Estonia));
+        let f = entry(Some::Country(USA));
 
         let mut interp_arr = [a, b, c];
         let old_arr = [d, e, f];
