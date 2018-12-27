@@ -29,13 +29,20 @@ pub enum Age {
     None,
 }
 
-impl Default for Age {
-    fn default() -> Age {
-        Age::None
-    }
-}
+
+
 
 impl Age {
+
+    // Convert to an Option<u8>, used by interpolate_ages
+    pub fn to_u8_option(self) -> Option<u8> {
+        match self {
+            Age::Exact(age) | Age::Approximate(age) => Some(age),
+            Age::None => None,
+        }
+    }
+
+
     /// Convert from an i64. Used by the TOML deserializer.
     pub fn from_i64(n: i64) -> Result<Self, &'static str> {
         // Some of the CONFIG.toml files hardcode 999 to mean "max Age".
@@ -135,10 +142,9 @@ impl PartialOrd for Age {
     fn partial_cmp(&self, other: &Age) -> Option<Ordering> {
         Some(self.cmp(other))
     }
-    
-    fn partial_cmp(&self, other: u32) -> Option<Ordering> {
-        Some(self.cmp(other))
-    }
+}
+impl Default for Age {
+        fn default() -> Age { Age::None }
 }
 
 //Order so that approximate ages are greater than exact ages, e.g. ~14 > 14.
@@ -160,15 +166,6 @@ impl Ord for Age {
                 Age::Approximate(_) => Ordering::Greater,
                 Age::None => Ordering::Equal,
             },
-        }
-    }
-
-
-    fn cmp(&self, other: u32) -> Ordering {
-        match self {
-            Age::Exact(age) => age.cmp(&other),
-            Age::Approximate(age) => age.cmp(&other),
-            Age::None =>  Ordering::Greater,
         }
     }
 }

@@ -1,6 +1,8 @@
 use opltypes::*;
 use std::cmp::Ordering;
 
+use crate::check_entries::Entry;
+
 
 #[derive(Copy, Clone, Debug, PartialEq, Eq)]
 pub struct AgeData {
@@ -13,24 +15,17 @@ pub struct AgeData {
     pub linenum: u32,
 }
 
-struct Bound {
-    pub birthdate_min: Date,
-    pub birthdate_max: Date,
+enum BirthdateConstraint{
+	// Region that a lifters birthdate lies in
+	Bound {min_date: Date, max_date: Date},
+
+	//Region in which we know that the lifter was 0
+	KnownRegion {min_date: Date, max_date: Date},
+
+	// No known age information
+	None,
 }
 
-struct KnownRegion {
-    pub known_date_min: Date,
-    pub known_date_max: Date,
-    pub known_age: u8,
-}
-
-struct Birthdate_constraint{
-    pub bound : Option<Bound>,
-    pub knownregion: Option<KnownRegion>, 
-}
-
-
-// FIXME
 impl PartialOrd for AgeData {
     fn partial_cmp(&self, other: &AgeData) -> Option<Ordering> {
         Some(self.cmp(other))
@@ -48,213 +43,229 @@ impl Ord for AgeData {
 fn year_diff(date1: Date,date2: Date) -> u8 {
 	if date1.year() < date2.year() {
 	    if date1.monthday() < date2.monthday(){
-	        return date1.year() - date2.year();
+	        return (date1.year() - date2.year()) as u8;
 	    }
 	    else{
-	    return date1.year() - date2.year() -1;
+	    return (date1.year() - date2.year() -1) as u8;
 	    } 
 	}
 	else if date1.year() > date2.year() {
 	    if date2.monthday() < date1.monthday(){
-	        return date2.year() - date1.year();
+	        return (date2.year() - date1.year()) as u8;
 	    }
 	    else{
-	    return date2.year() - date1.year() -1;
+		    return (date2.year() - date1.year() -1) as u8;
 	    } 
 	}
 	return 0
 }
 
 // TODO: Make use of the fuzz factor
-// TODO: See if you can switch to using dates throughout
 // Estimates the range that a lifters birthday lies within
-// Dates are either a range in which we know the birthdate lies in (if the bool is true) & an exclusion zone otherwise
+// Dates are either a range in which we know the birthdate lies in or a range in which we know the lifters age
 // This is also probably very buggy right now
-fn estimate_birthdate(entries: &[entry]) -> Birthdate_constraint
+fn estimate_birthdate(entries: &[AgeData]) -> BirthdateConstraint
 {
     //Fuzz factor for long meets incase the lifter has their birthday over the meet
     let MAX_MEETLENGTH = 12;
 
-    // Dates used to bound the birthdate    
-    let bd1_range_min = Option<Date>;
-    let bd1_range_max = Option<Date>;
-
-    let bd2_range_min = Option<Date>;
-    let bd2_range_max = Option<Date>;
+    // Ranges used to bound the birthdate    
+    let mut bd1_range : Option<(Date,Date)> = None;
+    let mut bd2_range : Option<(Date,Date)> = None;
 
     // Used to offset the ages to be from the same year
-    let init_year = Option<u32>;
-    let init_age = Option<u8>;
+    let mut init_year : Option<u32> = None;
+    let mut init_age : Option<u8> = None;
 
-    for entry in entries{
+    for entry in entries
+    {
         // If the lifter has a recorded birthdate use that
     	if entry.birthdate.is_some(){
-    		return BirthDateConstraint{Bound{entry.birthdate,entry.birthdate},None};
+    		return BirthdateConstraint::Bound{min_date:entry.birthdate.unwrap(), max_date: entry.birthdate.unwrap()};
     	}
 
     	if entry.birthyear.is_some(){
-            bd1_range_min = Date(entry.birthyear*1000+0101);
-            bd1_range_max = Date(entry.birthyear*1000+0101);
-
-            bd2_range_min = Date(entry.birthyear*1000+1231);
-            bd2_range_max = Date(entry.birthyear*1000+1231);
+            bd1_range = Some((Date::from_u32(entry.birthyear.unwrap()*1000+0101),Date::from_u32(entry.birthyear.unwrap()*1000+0101)));
+            bd2_range = Some((Date::from_u32(entry.birthyear.unwrap()*1000+1231),Date::from_u32(entry.birthyear.unwrap()*1000+1231)));
     	}
 
         // Use age to tighten our birthdate bound
     	match entry.age{
 			Age::Exact(age) => {
-                if bd1_range_min.is_none(){
-                    bd1_range_min = Date(entry.date);
-                    bd1_range_max = Date(entry.date);
-                    init_year = entry.date.year();
-                    init_age = entry.age();                    
+                if init_age.is_none()
+                {
+                    bd1_range = Some((Date::from_u32((entry.date.year()-age as u32)*1000+entry.date.monthday()),Date::from_u32((entry.date.year()-age as u32)*1000+entry.date.monthday())));
+                    init_year = Some(entry.date.year());
+                    init_age = Some(age);                    
                 }
 
                 // Another instance of the first age
-				if entry.age - (entry.date.year-init_year) == init_age{
-                    if entry.date.monthday < bd1_range_min.monthday(){
-                    	bd1_range_min = Date(bd1_range_min.year()*1000+entry.date.monthday());
+				if age - (entry.date.year()-init_year.unwrap()) as u8 == init_age.unwrap(){
+                    if entry.date.monthday() < bd1_range.unwrap().0.monthday(){
+                    	bd1_range.unwrap().0 = Date::from_u32(bd1_range.unwrap().0.year()*1000+entry.date.monthday());
                     }
-                    else if entry.date.monthday > bd1_range_max.monthday(){
-                        bd1_range_max = Date(bd1_range_max.year()*1000+entry.date.monthday());
+                    else if entry.date.monthday() > bd1_range.unwrap().1.monthday(){
+                        bd1_range.unwrap().1 = Date::from_u32(bd1_range.unwrap().1.year()*1000+entry.date.monthday());
                     }
 				}
 				else{
 					// If we've found an age change, setup the age range & update the birthyear range
-					if bd2_range_min.is_none() {
-						if entry.age - (entry.date.year-init_year) < init_age{
-                            bd2_range_min = Date((entry.date.year() - age -1)*1000 + entry.date.monthday());
-                            bd2_range_max = Date((entry.date.year() - age -1)*1000 + entry.date.monthday());
+					if bd2_range.is_none() {
+						if age - ((entry.date.year()-init_year.unwrap()) as u8) < init_age.unwrap(){
+                            bd2_range = Some((Date::from_u32((entry.date.year() - age  as u32 -1)*1000 + entry.date.monthday()),Date::from_u32((entry.date.year()  - age  as u32 -1)*1000 + entry.date.monthday())));
 						}
 						else{
-                            bd2_range_min = Date((entry.date.year() - age)*1000 + entry.date.monthday());
-                            bd2_range_max = Date((entry.date.year() - age)*1000 + entry.date.monthday());
+                            bd2_range = Some((Date::from_u32((entry.date.year() - age  as u32)*1000 + entry.date.monthday()),Date::from_u32((entry.date.year()  - age  as u32)*1000 + entry.date.monthday())));
 						}
 					}
-					if entry.date.monthday < bd2_range_min.monthday(){
-                        bd2_range_min = Date(bd2_range_min.year()*1000+entry.date.monthday());
+					if entry.date.monthday() < bd2_range.unwrap().0.monthday(){
+                        bd2_range.unwrap().0 = Date::from_u32(bd2_range.unwrap().0.year()*1000+entry.date.monthday());
                     }
-                    else if entry.date.monthday > bd2_range_max.monthday(){
-                        bd2_range_max = Date(bd2_range_max.year()*1000+entry.date.monthday());
+                    else if entry.date.monthday() > bd2_range.unwrap().1.monthday(){
+                        bd2_range.unwrap().1 = Date::from_u32(bd2_range.unwrap().1.year()*1000+entry.date.monthday());
                     }
 				}
-			}
+			},
 			Age::Approximate(age) => { 
-                if bd1_range_min.is_none(){
-                    bd1_range_min = Date((entry.date.year()-age)*1000+entry.date.monthday());
-                    bd1_range_max = Date((entry.date.year()-age+1)*1000+entry.date.monthday());
-                    init_year = entry.date.year();
-                    init_age = entry.age();                    
+                if bd1_range.is_none(){
+                    bd1_range = Some((Date::from_u32((entry.date.year()-age as u32)*1000+entry.date.monthday()),Date::from_u32((entry.date.year()-age  as u32+1)*1000+entry.date.monthday())));
+                    init_year = Some(entry.date.year());
+                    init_age = Some(age);                    
                 }
-				if bd1_range_min < entry.date.year() - age
+				if bd1_range.unwrap().0.year() == entry.date.year()  - age  as u32 //Then we know that there birthday is after the initially seen age
 				{
-                    bd1_range_min = Date((entry.date.year()-age)*1000+entry.date.monthday());
+					if bd2_range.is_none(){
+						bd2_range = Some((Date::from_u32((entry.date.year()  - age as u32-1)*1000+0101),Date::from_u32((entry.date.year()  - age  as u32-1)*1000+1231)));
+					}
+                    
 				}
-				if bd1_range_max > entry.date.year() - age
+				if bd1_range.unwrap().1.year() == entry.date.year()  - age as u32 - 1 //Then we know that there birthday is before the initially seen age
 				{
-                    bd1_range_max = Date((entry.date.year()-age+1)*1000+entry.date.monthday());
+					if bd2_range.is_none(){
+						bd2_range = Some((Date::from_u32((entry.date.year()- age as u32)*1000+0101),Date::from_u32((entry.date.year() - age  as u32)*1000+1231)));
+					}				
 				}
-			}
-			Age::None =>,
+			},
+			Age::None =>(),
     	}
 
         // Use minage to tighten our birthdate bound slightly
-    	match entry.minage{ //FIXME
+    	match entry.minage{ 
     		Age::Exact(minage) => {
-    			if entry.year - minage < bd1_range_max.year(){
-    				bd1_range_max = Date((entry.year - minage)*1000+1231);
+    			if bd1_range.is_none(){
+    				bd1_range = Some((Date::from_u32(00000101),Date::from_u32((entry.date.year()-minage as u32)*1000+entry.date.monthday())));
     			}
-                if init_age.is_some(){
-        			if minage > init_age { //Then we can bound their birthdate from the division
-        				birthyear_range = [entry.year-minage,entry.year-minage] 
-        				if age2_monthday_range[0].is_none(){
-        					age2_monthday_range = [entry.date,entry.date];
+    			else{
+	    			if (entry.date.year()  - minage  as u32) < bd1_range.unwrap().1.year(){
+	    				bd1_range.unwrap().1 = Date::from_u32((entry.date.year()   - minage as u32)*1000+1231);
+	    			}
+        			if minage > init_age.unwrap() { //Then we can bound their birthdate from the division
+        				if bd2_range.is_none(){
+                            bd2_range = Some((Date::from_u32((entry.date.year() -minage as u32)*1000+entry.date.monthday()),Date::from_u32((entry.date.year() -minage as u32)*1000+entry.date.monthday())));
         				}
-        				if entry.date < age2_monthday_range[0] {
-        					age2_monthday_range[0] = entry.date;
-        				}
-        				else{
-        					age2_monthday_range[1] = entry.date;
-        				}
+                        else{
+            				if entry.date.monthday() < bd2_range.unwrap().0.monthday() {
+                                bd2_range.unwrap().0 = Date::from_u32((entry.date.year()-minage as u32)*1000+entry.date.monthday());
+            				}
+            				else{
+                                bd2_range.unwrap().1 = Date::from_u32((entry.date.year()-minage as u32)*1000+entry.date.monthday());
+            				}
+                        }
         			}
-        			else if minage == init_age{
-    					if entry.date < age1_monthday_range[0] {
-        					age1_monthday_range[0] = entry.date;
+        			else if minage == init_age.unwrap(){
+    					if entry.date.monthday() < bd1_range.unwrap().0.monthday() {
+                            bd1_range.unwrap().0 = Date::from_u32((entry.date.year() -minage as u32)*1000+entry.date.monthday());
         				}
         				else{
-        					age1_monthday_range[1] = entry.date;
+                            bd1_range.unwrap().1 = Date::from_u32((entry.date.year() -minage as u32)*1000+entry.date.monthday());
         				}
         			}
                 }
-    		}
+    		},
     		Age::Approximate(minage) => {
-    			if entry.year - minage < bd1_range_max.year(){
-                    bd1_range_max = Date((entry.year - minage)*1000+1231);
+    			if (entry.date.year()   - minage  as u32) < bd1_range.unwrap().1.year(){ // For when a lower bound on the age has already been obtained
+                    bd1_range.unwrap().1 = Date::from_u32((entry.date.year() - minage as u32)*1000+1231);
                 }
-    			if init_age.is_some() && maxage - 1 == init_age && age2_monthday_range[0].is_none(){ // Then they must have had their birthday after the init_age entry, but we don't know when
-                    birthyear_range = [entry.year - maxage,entry.year - maxage]
-	                age2_monthday_range = [age1_monthday_range[1],1231]; 
+                // Then they must have had their birthday after the init_age entry, but we don't know when
+    			if init_age.is_some() && minage  == init_age.unwrap() && bd2_range.is_none(){ 
+                    bd1_range =  Some((Date::from_u32((entry.date.year() -minage  as u32-1)*1000+0101),Date::from_u32((entry.date.year() -minage as u32-1)*1000+bd1_range.unwrap().1.monthday())));
+	                bd2_range = Some((bd1_range.unwrap().1,Date::from_u32((entry.date.year() -minage  as u32-1)*1000+1231)));
     			}		
-    		}
-    		Age:None =>,
+    		},
+    		Age::None =>(),
     	}
 
         // Use maxage to tighten our birthdate bound slightly
-    	match entry.maxage{
+    	match entry.maxage{ 
     		Age::Exact(maxage) => {
-	  			if entry.year - maxage > birthyear_range[0]{
-	    				 birthyear_range[0] = entry.year - maxage;
-    			} 
-                if init_age.is_some(){
-        			if maxage < init_age {
-        				if age2_monthday_range.is_none(){
-        					age2_monthday_range = [entry.date,entry.date];
-        				}
-        				if entry.date < age2_monthday_range[0] {
-        					age2_monthday_range[0] = entry.date;
+    			if bd1_range.is_none(){
+    				bd1_range = Some((Date::from_u32((entry.date.year() -maxage as u32)*1000+entry.date.monthday()),entry.date));
+    			}
+    			else{
+		  			if entry.date.year()  - maxage  as u32> bd1_range.unwrap().0.year(){
+	    				bd1_range.unwrap().0 = Date::from_u32((entry.date.year()  - maxage  as u32)*1000+0101);
+	    			} 
+
+        			if maxage < init_age.unwrap() { //Then we can bound their birthdate from the division
+        				if bd2_range.is_none(){
+                            bd2_range = Some((Date::from_u32((entry.date.year() -init_age.unwrap() as u32)*1000+entry.date.monthday()),Date::from_u32((entry.date.year() -init_age.unwrap() as u32)*1000+entry.date.monthday())));
         				}
         				else{
-        					age2_monthday_range[1] = entry.date;
-        				}
+            				if entry.date.monthday() < bd2_range.unwrap().0.monthday() {
+                                bd2_range.unwrap().0 = Date::from_u32((entry.date.year()-maxage as u32)*1000+entry.date.monthday());
+            				}
+            				else{
+                                bd2_range.unwrap().1 = Date::from_u32((entry.date.year() -maxage as u32)*1000+entry.date.monthday());
+            				}
+	        			}
         			}
-        			else if maxage == init_age{
-    					if entry.date < age1_monthday_range[0] {
-        					age1_monthday_range[0] = entry.date;
+        			else if maxage == init_age.unwrap(){
+    					if entry.date.monthday() < bd1_range.unwrap().0.monthday() {
+                            bd1_range.unwrap().0 = Date::from_u32((entry.date.year() -maxage as u32)*1000+entry.date.monthday());
         				}
         				else{
-        					age1_monthday_range[1] = entry.date;
+                            bd1_range.unwrap().1 = Date::from_u32((entry.date.year() -maxage as u32)*1000+entry.date.monthday());
         				}
         			}
                 }
-    		}
+    		},
 			Age::Approximate(maxage) => {
-    			if entry.year - maxage > birthyear_range[0]{
-    				 birthyear_range[0] = entry.year - maxage;
+    			if entry.date.year()   - maxage as u32 -1 > bd1_range.unwrap().0.year(){ // For when a lower bound on the age has been obtained from maxage
+                    bd1_range.unwrap().0 = Date::from_u32((entry.date.year()  - maxage as u32)*1000+0101);
     			}
-    			if init_age.is_some() && maxage == init_age && age2_monthday_range[0].is_none() { // Then they must have had their birthday before the init_age entry, but we don't know when
-                    birthyear_range = [entry.year - maxage,entry.year - maxage]
-                    age2_monthday_range = [0101,age1_monthday_range[0]]; 
+    			// Then they must have had their birthday before the init_age entry, but we don't know when
+    			if init_age.is_some() && maxage +1 == init_age.unwrap().into() && bd2_range.is_none() { 
+                    bd1_range.unwrap().0 =  Date::from_u32((entry.date.year() -maxage as u32)*1000+bd1_range.unwrap().0.monthday());
+                    bd1_range.unwrap().1 =  Date::from_u32((entry.date.year() -maxage as u32)*1000+1231);
+
+	                bd2_range = Some((Date::from_u32((entry.date.year()-maxage as u32)*1000+0101),bd1_range.unwrap().0));
     			}    		
-    		}
-    		Age:None =>,
+    		},
+    		Age::None =>(),
     	}
     }
 
+
+
     // Bounded, first age range is before second
-    if age1_monthday_range.is_some() && age2_monthday_range.is_some(){
-    	if age1_monthday_range[1] < age2_monthday_range[0]{
-            return Birthdate_constraint{Bound{birthyear_range[0]*1000+age1_monthday_range[1],birthyear_range[1]*1000+age2_monthday_range[0]},None}
+    if bd1_range.is_some() && bd2_range.is_some(){
+    	if bd1_range.unwrap().1.monthday() < bd2_range.unwrap().0.monthday(){
+            return BirthdateConstraint::Bound{min_date: bd1_range.unwrap().1,max_date:bd2_range.unwrap().0};
 	    } // Bounded, second age range is before first
-	    else if age2_monthday_range[1] < age2_monthday_range[0]{
-            return Birthdate_constraint{Bound{birthyear_range[0]*1000+age2_monthday_range[1],birthyear_range[1]*1000+age1_monthday_range[0]},None}
+	    else{
+            return BirthdateConstraint::Bound{min_date:bd2_range.unwrap().1,max_date:bd1_range.unwrap().0};
 	    }
     }// Not bounded, return exclusion zone
-    else age1_monthday_range.is_some() {
-        return Birthdate_constraint{None,KnownRegion{birthyear_range[0]*1000+age1_monthday_range[0],birthyear_range[1]*1000+age1_monthday_range[1],init_age.unwrap()}}
+    else if bd1_range.is_some() {
+        return BirthdateConstraint::KnownRegion{min_date:Date::from_u32((bd1_range.unwrap().0.year()-init_age.unwrap() as u32)+bd1_range.unwrap().0.monthday()),
+        	max_date:Date::from_u32((bd1_range.unwrap().0.year()-init_age.unwrap() as u32)+bd1_range.unwrap().1.monthday())};
     }
 
     // We haven't successfully bounded the birthday, return a birthyear range
-    Birthdate_constraint{Bound{birthyear_range[0]*1000+0101,birthyear_range[1]*1000+1231},None}
+    if bd1_range.is_some(){
+    	return BirthdateConstraint::Bound{min_date:bd1_range.unwrap().0,max_date:bd1_range.unwrap().1};
+    }
+    BirthdateConstraint::None
  
 }
 
@@ -268,138 +279,138 @@ fn are_entries_consistent(entry1 : &AgeData, entry2: &AgeData) -> bool {
     match entry1.age {
         Age::Exact(age1) => {
 		    match entry2.age {
-	    		Age::Exact(age2) => if abs(age1-age2) != yd {return false;},
-	    		Age::Approximate(age2) => if abs(age1-age2) - yd != (0|1) {return false;},
-	    		Age::None =>,
+	    		Age::Exact(age2) => if (age1 as  i8-age2 as i8).abs() as u8 != yd {return false;},
+	    		Age::Approximate(age2) => if (age1 as i8-age2 as i8).abs() as u8 - yd >1 {return false;},
+	    		Age::None =>(),
 	    	}
 	    	match entry2.minage { 
-	    		Age::Exact(minage2)       => if abs(age1-minage2) < yd {return false;},
-	    		Age::Approximate(minage2) => if abs(age1-minage2) < yd - 1 {return false;},
-	    		Age::None =>,
+	    		Age::Exact(minage2)       => if ((age1 as i8-minage2 as i8).abs() as u8) < yd {return false;},
+	    		Age::Approximate(minage2) => if ((age1 as i8-minage2 as i8).abs() as u8) < yd - 1 {return false;},
+	    		Age::None =>(),
 	    	}
 	    	match entry2.maxage {
-	    		Age::Exact(maxage2)       => if abs(age1-maxage2) > yd {return false;},
-	    		Age::Approximate(maxage2) => if abs(age1-maxage2) > yd - 1 {return false;},
-	    		Age::None =>,
+	    		Age::Exact(maxage2)       => if ((age1 as i8-maxage2 as i8).abs() as u8) > yd {return false;},
+	    		Age::Approximate(maxage2) => if ((age1 as i8-maxage2 as i8).abs() as u8) > yd - 1 {return false;},
+	    		Age::None =>(),
 	    	}
-	    	if entry2.birthdate.is_some()  && age1 != entry2.birthdate.age_on(entry2.date) {return false}
-	    	if entry2.birthyear.is_some()  && if (entry1.date.year() - entry2.birthyear.unwrap()) as u8 - age != (0 | 1) {return false;}
+	    	if entry2.birthdate.is_some()  && entry1.age != entry2.birthdate.unwrap().age_on(entry2.date).unwrap() {return false}
+	    	if entry2.birthyear.is_some()  && (entry1.date.year() - entry2.birthyear.unwrap()) as u8 - age1 > 1 {return false;}
         },
         Age::Approximate(age1) => {
 			match entry2.age {
-	    		Age::Exact(age2) => if abs(age1-age2) - yd != (0|1),
-	    		Age::Approximate(age2) => if abs(age1-age2) != yd {return false;},
-	    		Age::None =>,
+	    		Age::Exact(age2) => if (age1 as i8-age2 as i8).abs() as u8 - yd > 1 {return false;},
+	    		Age::Approximate(age2) => if ((age1 as i8-age2 as i8).abs() as u8) != yd {return false;},
+	    		Age::None =>(),
 	    	}
 	    	match entry2.minage {
-	    		Age::Exact(minage2)       => if abs(age1-minage2) < yd + 1 {return false;},
-	    		Age::Approximate(minage2) => if abs(age1-minage2) < yd {return false;},
-	    		Age::None =>,
+	    		Age::Exact(minage2)       => if ((age1 as i8-minage2 as i8).abs() as u8) < yd + 1 {return false;},
+	    		Age::Approximate(minage2) => if ((age1 as i8-minage2 as i8).abs() as u8) < yd {return false;},
+	    		Age::None =>(),
 	    	}
 	    	match entry2.maxage {
-	    		Age::Exact(maxage2)       => if abs(age1-maxage2) > yd + 1 {return false;},
-	    		Age::Approximate(maxage2) => if abs(age1-maxage2) > yd,
-	    		Age::None =>,
+	    		Age::Exact(maxage2)       => if ((age1 as i8-maxage2 as i8).abs() as u8) > yd + 1 {return false;},
+	    		Age::Approximate(maxage2) => if ((age1 as i8-maxage2 as i8).abs() as u8) > yd {return false;},
+	    		Age::None =>(),
 	    	}
-	    	if entry2.birthdate.is_some()  && if (age1 - entry2.birthdate.age_on(entry2.date)) != (0 | 1) {return false;} 
-	    	if entry2.birthyear.is_some()  && if (entry1.date.year() - entry2.birthyear.unwrap()) as u8 - age != 0 {return false;}
+	    	if entry2.birthdate.is_some()  && (age1 - entry2.birthdate.unwrap().age_on(entry2.date).unwrap().to_u8_option().unwrap()) > 1 {return false;} 
+	    	if entry2.birthyear.is_some()  && (entry1.date.year() - entry2.birthyear.unwrap()) as u8 - age1 != 0 {return false;}
         },
-        Age::None =>,
+        Age::None =>(),
     }
 
     // Check that entry1.minage is consistent with the data in entry2
     match entry1.minage{
             Age::Exact(minage1) => {
                 match entry2.age{
-                	Age::Exact(age2)       => if abs(age2-minage1) < yd {return false;},
-                	Age::Approximate(age2) => if abs(age2-minage1) < yd + 1 {return false;},
-                	Age::None(age2) =>,
+                	Age::Exact(age2)       => if ((age2 as  i8-minage1 as i8).abs() as u8) < yd {return false;},
+                	Age::Approximate(age2) => if ((age2 as i8-minage1 as i8).abs() as  u8) < yd + 1 {return false;},
+                	Age::None =>(),
 
                 }
                 
                 match entry2.maxage{
-                	Age::Exact(maxage2) => if entries1.date < entries2.date && minage1+yd > maxage2 {return false;},
-                	Age::Approximate(maxage2)=> if entries1.date < entries2.date && minage1 + yd > maxage2 {return false;},
-                	Age::None(maxage2) => ,
+                	Age::Exact(maxage2) => if entry1.date < entry2.date && minage1+yd > maxage2 {return false;},
+                	Age::Approximate(maxage2)=> if entry1.date < entry2.date && minage1 + yd > maxage2 {return false;},
+                	Age::None => (),
 
                 }
-            	if entry2.birthyear.is_some() && (entry1.date.year() - entry2.birthyear.unwrap()) as u8 < minage {return false;}
-            	if entry2.birthdate.is_some()  && minage1 > entry2.birthdate.age_on(entry2.date) {return false;}
+            	if entry2.birthyear.is_some() && ((entry1.date.year() - entry2.birthyear.unwrap()) as u8) < minage1 {return false;}
+            	if entry2.birthdate.is_some()  && entry1.minage > entry2.birthdate.unwrap().age_on(entry2.date).unwrap() {return false;}
             },
             Age::Approximate(minage1) => {
                 match entry2.age{
-                	Age::Exact(age2)       => if abs(age2-minage1) < yd - 1 {return false;},
-                	Age::Approximate(age2) => if abs(age2-minage1) < yd {return false;},
-                	Age::None(age2) =>,
+                	Age::Exact(age2)       => if ((age2 as i8-minage1 as i8).abs() as  u8) < yd - 1 {return false;},
+                	Age::Approximate(age2) => if ((age2 as i8-minage1 as i8).abs() as u8) < yd {return false;},
+                	Age::None =>(),
 
                 }
  
                 match entry2.maxage{
-                	Age::Exact(maxage2) => if entries1.date < entries2.date && minage1+yd -1 > maxage2 {return false;},
-                	Age::Approximate(maxage2) => if entries1.date < entries2.date && minage1+yd > maxage2 {return false;},
-                	Age::None(maxage2) =>
+                	Age::Exact(maxage2) => if entry1.date < entry2.date && minage1+yd -1 > maxage2 {return false;},
+                	Age::Approximate(maxage2) => if entry1.date < entry2.date && minage1+yd > maxage2 {return false;},
+                	Age::None => (),
 
                 }
-            	if entry2.birthyear.is_some() && (entry1.date.year() - entry2.birthyear.unwrap()) as u8 < minage {return false;},
-            	if entry2.birthdate.is_some()  && minage1 -1 > entry2.birthdate.age_on(entry2.date) {return false;}
+            	if entry2.birthyear.is_some() && ((entry1.date.year() - entry2.birthyear.unwrap()) as u8) < minage1 {return false;}
+            	if entry2.birthdate.is_some()  && Age::Exact(minage1 -1) > entry2.birthdate.unwrap().age_on(entry2.date).unwrap() {return false;}
             },
-            Age::None =>,
+            Age::None =>(),
     }
 
     // Check that entry1.maxage is consistent with the data in entry2
     match entry1.maxage{
             Age::Exact(maxage1) => {
                 match entry2.age{
-                	Age::Exact(age2)       => if abs(age2-maxage1) > yd {return false;},
-                	Age::Approximate(age2) => if abs(age2-maxage1) > yd + 1 {return false;},
-                	Age::None(age2) =>,
+                	Age::Exact(age2)       => if (age2 as i8-maxage1 as i8).abs() as u8 > yd {return false;},
+                	Age::Approximate(age2) => if (age2 as i8-maxage1 as i8).abs() as u8 > yd + 1 {return false;},
+                	Age::None =>(),
 
                 }
                 match entry2.minage{
-                	Age::Exact(minage2) => if entries2.date < entries1.date && minage2+yd > maxage1 {return false;},
-                	Age::Approximate(minage2)=> if entries2.date < entries1.date && minage2 + yd -1 > maxage1 {return false;},
-                	Age::None(minage2) =>
+                	Age::Exact(minage2) => if entry2.date < entry1.date && minage2+yd > maxage1 {return false;},
+                	Age::Approximate(minage2)=> if entry2.date < entry1.date && minage2 + yd -1 > maxage1 {return false;},
+                	Age::None =>(),
 
                 }
 
             	if entry2.birthyear.is_some() && (entry1.date.year() - entry2.birthyear.unwrap()-1) as u8 > maxage1 {return false;}
-            	if entry2.birthdate.is_some()  && maxage1 < entry2.birthdate.age_on(entry2.date) {return false;}
+            	if entry2.birthdate.is_some()  && entry1.maxage < entry2.birthdate.unwrap().age_on(entry2.date).unwrap() {return false;}
             },
             Age::Approximate(maxage1) => {
 				match entry2.age{
-                	Age::Exact(age2)       => if abs(age1-maxage2) > yd - 1 {return false;},
-                	Age::Approximate(age2) => if abs(age2-maxage1) > yd,
-                	Age::None(age2) =>,
+                	Age::Exact(age2)       => if (age2 as i8-maxage1 as i8).abs() as u8 > yd  - 1 {return false;},
+                	Age::Approximate(age2) => if (age2 as i8 -maxage1 as i8).abs() as u8 > yd {return false;},
+                	Age::None =>(),
 
                 }
                 match entry2.minage{
-                	Age::Exact(minage2)=> if entries2.date < entries1.date && minage2 + yd > maxage1 {return false;},
-                	Age::Approximate(minage2) => if entries2.date < entries1.date && minage2+yd > maxage1 {return false;},
-                	Age::None(minage2) =>, 
+                	Age::Exact(minage2)=> if entry2.date < entry1.date && minage2 + yd > maxage1 {return false;},
+                	Age::Approximate(minage2) => if entry2.date < entry1.date && minage2+yd > maxage1 {return false;},
+                	Age::None =>(), 
 
                 }
 
-            	if entry2.birthyear.is_some() && (entry1.date.year() - entry2.birthdate.unwrap()-1) as u8 > maxage1 {return false;}
-            	if entry2.birthdate.is_some()  && maxage1 < entry2.birthdate.age_on(entry2.date) {return false;}
+            	if entry2.birthyear.is_some() && (entry1.date.year() - entry2.birthdate.unwrap().year()-1) as u8 > maxage1 {return false;}
+            	if entry2.birthdate.is_some()  && entry1.maxage < entry2.birthdate.unwrap().age_on(entry2.date).unwrap() {return false;}
             },
-            Age::None =>,
+            Age::None =>(),
     }
     	
     // Check that entry1.birthyear is consistent with the data in entry2
     if entry1.birthyear.is_some() {
     	match entry2.age {
-	        Age::Exact(age)       => if (entry2.date.year() - entry1.birthyear.unwrap()-1) as u8 - age != (0 | 1) {return false;},
-	        Age::Approximate(age) => if (entry2.date.year() - entry1.birthdate.unwrap()-1) as u8 - age != 0 {return false;},
+	        Age::Exact(age)       => if ((entry2.date.year() - entry1.birthyear.unwrap()-1) as u8) - age > 1 {return false;},
+	        Age::Approximate(age) => if ((entry2.date.year() - entry1.birthdate.unwrap().year()-1) as u8) - age != 0 {return false;},
 	        Age::None => (),
     	}
     	match entry2.minage {
-	        Age::Exact(minage)       => if (entry2.date.year() - entry1.birthyear.unwrap()) as u8 < minage {return false;},
-	        Age::Approximate(minage) => if (entry2.date.year() - entry1.birthdate.unwrap()) as u8 < minage {return false;},
+	        Age::Exact(minage)       => if ((entry2.date.year() - entry1.birthyear.unwrap()) as u8) < minage {return false;},
+	        Age::Approximate(minage) => if ((entry2.date.year() - entry1.birthdate.unwrap().year()) as u8) < minage {return false;},
 	        Age::None => (),
     	}
     	match entry2.maxage {
-	        Age::Exact(maxage)       => if (entry2.date.year() - entry1.birthyear.unwrap()-1) as u8 > maxage {return false;},
-	        Age::Approximate(maxage) => if (entry2.date.year() - entry1.birthdate.unwrap()-1) as u8 > maxage {return false;},
+	        Age::Exact(maxage)       => if ((entry2.date.year() - entry1.birthyear.unwrap()) as u8) > maxage {return false;},
+	        Age::Approximate(maxage) => if ((entry2.date.year() - entry1.birthdate.unwrap().year()-1) as u8) > maxage {return false;},
 	        Age::None => (),
     	}
     	if entry2.birthyear.is_some() && entry1.birthyear.unwrap() != entry2.birthyear.unwrap() {return false}
@@ -408,9 +419,9 @@ fn are_entries_consistent(entry1 : &AgeData, entry2: &AgeData) -> bool {
 
     // Check that entry1.birthdate is consistent with the data in entry2
     if entry1.birthdate.is_some() {
-    	if entry2.age != Age::None  && entry1.birthdate.age_on(entry1.date) != entry2.age {return false}
-    	if entry2.minage != Age::None  && entry1.birthdate.age_on(entry1.date) < entry2.minage {return false}
-    	if entry2.maxage != Age::None && entry1.birthdate.age_on(entry1.date) > entry2.maxage {return false}
+    	if entry2.age != Age::None  && entry1.birthdate.unwrap().age_on(entry1.date).unwrap() != entry2.age {return false}
+    	if entry2.minage != Age::None  && entry1.birthdate.unwrap().age_on(entry1.date).unwrap() < entry2.minage {return false}
+    	if entry2.maxage != Age::None && entry1.birthdate.unwrap().age_on(entry1.date).unwrap() > entry2.maxage {return false}
     	if entry2.birthyear.is_some() && entry1.birthdate.unwrap().year() != entry2.birthyear.unwrap() {return false}
     	if entry2.birthdate.is_some() && entry1.birthdate.unwrap() != entry2.birthdate.unwrap() {return false}
     }
@@ -425,8 +436,8 @@ fn is_agedata_consistent(entries: &[AgeData]) -> bool {
 	if entries.is_empty() { return true;}
 
 	// This is O(N^2), there is probably a more efficient way if doing this...
-	for ii in range(0,entries.len()){
-		for jj in range(0,entries.len()){
+	for ii in 0..entries.len(){
+		for jj in 0..entries.len(){
 			if !are_entries_consistent(&entries[ii],&entries[jj]) { return false;}
 		}
 	}
@@ -440,52 +451,50 @@ fn interpolate_array(entries: &mut [AgeData]) {
 	let bd_constraint = estimate_birthdate(entries);
 
 	for entry in entries{
-        if bd_constraint.bound.is_some(){
-            let birthdate_min = bd_constraint.bound.birthdate_min;
-            let birthdate_max = bd_constraint.bound.birthdate_max;
+		match bd_constraint{
+			BirthdateConstraint::Bound{min_date,max_date} =>{
 
-    		//Then we know the lifters birthyear
-    		if birthdate_min.year() == birthdate_max.year() {
-    			entry.birthyear = birthdate_min.year();
-    			// Then we know the lifters birthdate exactly
-    			if birthdate_min.monthday() == birthdate_max.monthday(){
-    				entry.birthdate = birthdate_min;
-    				entry.age = entry.birthdate.age_on(entry.date);
-    				entry.minage = entry.age;
-    				entry.maxage = entry.age;
-    			}
-    			else{ //Assign an approximate age range
-    				entry.age = Age::Approximate(entry.birthyear-entry.date.year()-1);
-                    entry.minage = entry.date.year()-entry.birthyear-1;
-                    entry.maxage = entry.date.year()-entry.birthyear;
-                }
-    		}
-    		else{ //Assign an age range
-    			entry.minage = entry.date.year()-birthdate_max.year() -1;
-    			entry.maxage = entry.date.year()-birthdate_min.year();
-    		}
-        }
-       //Haven't got a monthday bound for the birthdate, just a region where the lifter doen't have a birthday
-        else if bd_constraint.knownregion.is_some(){
-            let known_date_min = bd_constraint.knownregion.known_date_min;
-            let known_date_max = bd_constraint.knownregion.known_date_max;
-            let known_age = bd_constraint.knownregion.known_age;
-            if entry.date.monthday() < known_date_min.monthday(){ // We have an upper bound on the age
-                 entry.age = Age::Aproximate(known_age - (known_date_min.year()-entry.date.year())-1);
-                 entry.minage = Age::Exact(known_age - (known_date_min.year()-entry.date.year())-1);
-                 entry.maxage = Age::Exact(known_age - (known_date_min.year()-entry.date.year()));
-            }
-            else if entry.date.monthday() > known_date_max.monthday(){ // We have a lower bound on the age
-                 entry.age = Age::Aproximate(known_age - (known_date_min.year()-entry.date.year()));
-                 entry.minage = Age::Exact(known_age - (known_date_min.year()-entry.date.year()));
-                 entry.maxage = Age::Exact(known_age - (known_date_min.year()-entry.date.year())+1);
-            }
-            else{ // We can give the age exactly for this date
-                 entry.age = Age::Exact(known_age - (known_date_min.year()-entry.date.year()));
-                 entry.minage = entry.age;
-                 entry.maxage = entry.age;
-            }
-        }
+	    		//Then we know the lifters birthyear
+	    		if min_date.year() == max_date.year() {
+	    			entry.birthyear = Some(min_date.year());
+	    			// Then we know the lifters birthdate exactly
+	    			if min_date.monthday() == max_date.monthday(){
+	    				entry.birthdate = Some(min_date);
+	    				entry.age = min_date.age_on(entry.date).unwrap();
+	    				entry.minage = entry.age;
+	    				entry.maxage = entry.age;
+	    			}
+	    			else{ //Assign an approximate age range
+	    				entry.age = Age::Approximate((max_date.year()-entry.date.year()-1) as u8);
+	                    entry.minage = Age::Exact((entry.date.year() - max_date.year()-1) as u8);
+	                    entry.maxage = Age::Exact((entry.date.year() - max_date.year()) as u8);
+	                }
+	    		}
+	    		else{ //Assign an age range
+	    			entry.minage = Age::Exact((entry.date.year() - max_date.year() -1) as u8);
+	    			entry.maxage = Age::Exact((entry.date.year() - min_date.year()) as u8);
+	    		}
+			},
+			BirthdateConstraint::KnownRegion{min_date,max_date} =>{
+
+	            if entry.date.monthday() < min_date.monthday(){ // We have an upper bound on the age
+	                 entry.age = Age::Approximate((entry.date.year() - min_date.year()-1) as u8);
+	                 entry.minage = Age::Exact((entry.date.year() - min_date.year()-1)as u8);
+	                 entry.maxage = Age::Exact((entry.date.year() - min_date.year()) as u8);
+	            }
+	            else if entry.date.monthday() > max_date.monthday(){ // We have a lower bound on the age
+	                 entry.age = Age::Approximate((entry.date.year() - min_date.year())as u8);
+	                 entry.minage = Age::Exact((entry.date.year() - min_date.year()) as u8);
+	                 entry.minage = Age::Exact((entry.date.year() - min_date.year()+1) as u8);
+	            }
+	            else{ // We can give the age exactly for this date
+	                 entry.minage = Age::Exact((entry.date.year() - min_date.year()) as u8);
+	                 entry.minage = entry.age;
+	                 entry.maxage = entry.age;
+	            }
+			},
+			BirthdateConstraint::None =>(),
+		}
 	}
 }
 
