@@ -1,32 +1,32 @@
-Event,Sex,Equipment,Name,BodyweightLBS,WeightClassLBS,Best3SquatLBS,Best3BenchLBS,Best3DeadliftLBS,Deadlift4LBS,TotalLBS,,Tested,Division,Place
-SBD,F,Wraps,Carli Lufkin,163.2,165,170.9,99.2,181.9,,452,,Yes,13-15,1
-SBD,F,Wraps,Mariah Heflin,117.4,123,165.3,110.2,198.4,,473.9,,Yes,16-17,1
-SBD,F,Wraps,Melissa Romero,122.6,123,209.4,71.6,275.6,,556.6,,Yes,Open,1
-SBD,F,Wraps,Mollie Filipe,158.2,165,203.9,126.8,286.6,,617.3,,Yes,Open,1
-SBD,F,Wraps,Sarah Ross,180.8,181,325.2,159.8,385.8,,870.8,,,Open,1
-SBD,F,Wraps,Erin Stanton,251,198+,402.3,170.9,411.2,429.9,984.4,,Yes,Open,1
-SBD,F,Single-ply,Alisha Howard,171.6,181,275.6,,374.8,,,,,Submaster,DQ
-SBD,M,Multi-ply,Dave Emeott,198,198,,374.8,545.6,,,,Yes,40-44,DQ
-SBD,M,Multi-ply,John Hare,197.6,198,672.4,474,600.8,,1747.2,,Yes,50-54,1
-SBD,M,Wraps,Alex Valls,178.2,181,286.6,181.9,418.9,,887.4,,Yes,13-15,1
-SBD,M,Wraps,Nick Hernandez,194.8,198,451.9,231.5,556.7,,1240.1,,,18-19,1
-SBD,M,Wraps,Mitch Price,204.2,220,451.9,308.6,457.5,,1218,,Yes,18-19,1
-SBD,M,Wraps,Kevin Wells,273.2,275,540.1,314.2,474,,1328.3,,Yes,40-44,1
-SBD,M,Wraps,Frank Lambert,181,181,165.3,143.3,270.1,,578.7,,Yes,60-64,1
-SBD,M,Wraps,Vincent Suetos,198,198,451.9,259,407.9,,1118.8,,Yes,60-64,1
-SBD,M,Wraps,Ethan Coffeen,178.2,181,330.7,,,,,,Yes,Junior,DQ
-SBD,M,Wraps,Philip Gianopoulos,179.4,181,429.9,292.1,501.5,,1223.5,,Yes,Junior,1
-SBD,M,Wraps,Derek Dominquez,269.8,275,402.3,237,485,,1124.3,,,Junior,1
-SBD,M,Wraps,Jordan Webb,163.2,165,281.1,187.4,336.2,,804.7,,,Submaster,1
-SBD,M,Wraps,Tim Mercer,197,198,451.9,308.6,512.6,,1273.1,,Yes,Submaster,1
-SBD,M,Wraps,Eric Moore,146.6,148,286.6,226,380.3,,892.9,,,Open,1
-SBD,M,Wraps,Greg Shulman,180.4,181,529.1,352.7,457.5,,1339.3,,,Open,1
-SBD,M,Wraps,Sheldon Kreger,177.8,181,281.1,159.8,330.7,,771.6,,Yes,Open,2
-SBD,M,Wraps,Philip Gianopoulos,179.4,181,429.9,292.1,501.5,,1223.5,,Yes,Open,1
-SBD,M,Wraps,Paul Riggs,215.6,220,314.2,275.6,424.4,,1014.2,,Yes,Open,1
-SBD,M,Wraps,Jeron Kerridge,224,242,440.9,303.1,518.1,,1262.1,,,Open,1
-SBD,M,Wraps,Kevin Wells,273.2,275,540.1,314.2,474,,1328.3,,Yes,Open,1
-SBD,M,Wraps,Jeffrey Pearson,307.8,308,804.7,429.9,711,,1945.6,,Yes,Open,1
-B,M,Raw,Steve Wambach,234.2,242,,451.9,,,451.9,,,50-54,1
-B,M,Raw,Chris Henry,274.8,275,,413.4,,,413.4,,Yes,Submaster,1
-B,M,Raw,Bruce Rodabaugh,196.4,198,,341.7,,,341.7,,,Junior,1
+Event,Sex,Equipment,Name,BodyweightKg,WeightClassKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Tested,Division,Place
+SBD,F,Wraps,Carli Lufkin,74.03,75,77.52,45,82.51,,205.02,Yes,Teen 13-15,1
+SBD,F,Wraps,Mariah Heflin,53.25,56,74.98,49.99,89.99,,214.96,Yes,Teen 16-17,1
+SBD,F,Wraps,Melissa Romero,55.61,56,94.98,32.48,125.01,,252.47,Yes,Open,1
+SBD,F,Wraps,Mollie Filipe,71.76,75,92.49,57.52,130,,280,Yes,Open,1
+SBD,F,Wraps,Sarah Ross,82.01,82.5,147.51,72.48,175,,394.99,,Open,1
+SBD,F,Wraps,Erin Stanton,113.85,90+,182.48,77.52,186.52,195,446.52,Yes,Open,1
+SBD,F,Single-ply,Alisha Howard,77.84,82.5,125.01,,170.01,,,,Submasters 33-39,DQ
+SBD,M,Multi-ply,Dave Emeott,89.81,90,,170.01,247.48,,,Yes,Masters 40-44,DQ
+SBD,M,Multi-ply,John Hare,89.63,90,305,215,272.52,,792.52,Yes,Masters 50-54,1
+SBD,M,Wraps,Alex Valls,80.83,82.5,130,82.51,190.01,,402.52,Yes,Teen 13-15,1
+SBD,M,Wraps,Nick Hernandez,88.36,90,204.98,105.01,252.51,,562.5,,Teen 18-19,1
+SBD,M,Wraps,Mitch Price,92.62,100,204.98,139.98,207.52,,552.48,Yes,Teen 18-19,1
+SBD,M,Wraps,Kevin Wells,123.92,125,244.99,142.52,215,,602.51,Yes,Masters 40-44,1
+SBD,M,Wraps,Frank Lambert,82.1,82.5,74.98,65,122.52,,262.49,Yes,Masters 60-64,1
+SBD,M,Wraps,Vincent Suetos,89.81,90,204.98,117.48,185.02,,507.48,Yes,Masters 60-64,1
+SBD,M,Wraps,Ethan Coffeen,80.83,82.5,150,,,,,Yes,Juniors 20-23,DQ
+SBD,M,Wraps,Philip Gianopoulos,81.37,82.5,195,132.49,227.48,,554.97,Yes,Juniors 20-23,1
+SBD,M,Wraps,Derek Dominquez,122.38,125,182.48,107.5,219.99,,509.97,,Juniors 20-23,1
+SBD,M,Wraps,Jordan Webb,74.03,75,127.5,85,152.5,,365.01,,Submasters 33-39,1
+SBD,M,Wraps,Timothy Mercer,89.36,90,204.98,139.98,232.51,,577.47,Yes,Submasters 33-39,1
+SBD,M,Wraps,Eric Moore,66.5,67.5,130,102.51,172.5,,405.01,,Open,1
+SBD,M,Wraps,Greg Shulman,81.83,82.5,240,159.98,207.52,,607.5,,Open,1
+SBD,M,Wraps,Sheldon Kreger,80.65,82.5,127.5,72.48,150,,349.99,Yes,Open,2
+SBD,M,Wraps,Philip Gianopoulos,81.37,82.5,195,132.49,227.48,,554.97,Yes,Open,1
+SBD,M,Wraps,Paul Riggs,97.79,100,142.52,125.01,192.5,,460.03,Yes,Open,1
+SBD,M,Wraps,Jeron Kerridge,101.6,110,199.99,137.48,235.01,,572.48,,Open,1
+SBD,M,Wraps,Kevin Wells,123.92,125,244.99,142.52,215,,602.51,Yes,Open,1
+SBD,M,Wraps,Jeffrey Pearson,139.62,140,365.01,195,322.5,,882.51,Yes,Open,1
+B,M,Raw,Steve Wambach,106.23,110,,204.98,,,204.98,,Masters 50-54,1
+B,M,Raw,Chris Henry,124.65,125,,187.52,,,187.52,Yes,Submasters 33-39,1
+B,M,Raw,Bruce Rodabaugh,89.09,90,,154.99,,,154.99,,Juniors 20-23,1
