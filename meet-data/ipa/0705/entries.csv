@@ -1,20 +1,20 @@
-Division,WeightClassLBS,Event,Equipment,Sex,Name,Best3SquatLBS,Best3BenchLBS,Best3DeadliftLBS,TotalLBS,Place
-Am Open,132,SBD,Multi-ply,F,Jean Forgatsch,320,210,305,835,1
-Pro Open,123,SBD,Multi-ply,F,Natalie Carr,310,165,315,790,1
-Pro Open,132,SBD,Multi-ply,F,Bianca Stone,380,220,355,955,1
-Pro Open,165,SBD,Multi-ply,F,Kerry Sipos,355,290,380,1025,1
-Pro Open,220,B,Multi-ply,M,Jon Elick,,665,,665,1
-Pro Open,242,B,Multi-ply,M,Scott Schaeffer,,,,,DQ
-Pro Open,275,B,Multi-ply,M,Steve Green,,,,,DQ
-Am Masters,198,SBD,Multi-ply,M,Rick Hamsher,525,390,515,1430,1
-Am Open,242,SBD,Multi-ply,M,David Kuck,575,535,525,1635,1
-Am Open,275,SBD,Multi-ply,M,Alva Leisure,705,385,600,1690,1
-Am Open,308,SBD,Multi-ply,M,Scott Ware,630,340,550,1520,1
-Am Police,308,SBD,Multi-ply,M,Britt Fulk,,525,525,,DQ
-Am Teen,308+,SBD,Multi-ply,M,Ian Esterline,550,220,405,1175,1
-Pro Junior,308,SBD,Multi-ply,M,Chuck Fought,865,560,700,2125,1
-Pro Open,198,SBD,Multi-ply,M,Donnie Perkins,625,405,520,1550,2
-Pro Open,198,SBD,Multi-ply,M,Mike Maxwell,805,505,560,1870,1
-Pro Open,242,SBD,Multi-ply,M,Ed Clark,825,,540,,DQ
-Pro Open,275,SBD,Multi-ply,M,Spazz,680,420,525,1625,2
-Pro Open,275,SBD,Multi-ply,M,Spence Mckimmie,835,605,590,2030,1
+Division,WeightClassKg,Event,Equipment,Sex,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place
+Am Open,60,SBD,Multi-ply,F,Jean Forgatsch,145.15,95.25,138.35,378.75,1
+Pro Open,56,SBD,Multi-ply,F,Natalie Carr,140.61,74.84,142.88,358.34,1
+Pro Open,60,SBD,Multi-ply,F,Bianca Stone,172.37,99.79,161.03,433.18,1
+Pro Open,75,SBD,Multi-ply,F,Kerry Sipos,161.03,131.54,172.37,464.93,1
+Pro Open,100,B,Multi-ply,M,Jon Elick,,301.64,,301.64,1
+Pro Open,110,B,Multi-ply,M,Scott Schaeffer,,,,,DQ
+Pro Open,125,B,Multi-ply,M,Steve Green,,,,,DQ
+Am Masters,90,SBD,Multi-ply,M,Rick Hamsher,238.14,176.9,233.6,648.64,1
+Am Open,110,SBD,Multi-ply,M,David Kuck,260.82,242.67,238.14,741.62,1
+Am Open,125,SBD,Multi-ply,M,Alva Leisure,319.78,174.63,272.16,766.57,1
+Am Open,140,SBD,Multi-ply,M,Scott Ware,285.76,154.22,249.48,689.46,1
+Am Police,140,SBD,Multi-ply,M,Britt Fulk,,238.14,238.14,,DQ
+Am Teen,140+,SBD,Multi-ply,M,Ian Esterline,249.48,99.79,183.7,532.97,1
+Pro Junior,140,SBD,Multi-ply,M,Chuck Fought,392.36,254.01,317.51,963.88,1
+Pro Open,90,SBD,Multi-ply,M,Donnie Perkins,283.5,183.7,235.87,703.07,2
+Pro Open,90,SBD,Multi-ply,M,Mike Maxwell,365.14,229.06,254.01,848.22,1
+Pro Open,110,SBD,Multi-ply,M,Ed Clark,374.21,,244.94,,DQ
+Pro Open,125,SBD,Multi-ply,M,Spazz,308.44,190.51,238.14,737.09,2
+Pro Open,125,SBD,Multi-ply,M,Spence McKimmie,378.75,274.42,267.62,920.79,1
