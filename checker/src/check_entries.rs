@@ -826,13 +826,14 @@ fn check_column_division(
     }
 }
 
-fn check_column_country(s: &str, line: u64, report: &mut Report) ->Option<Country> {
+fn check_column_country(s: &str, line: u64, report: &mut Report) -> Option<Country> {
     match s.parse::<Country>() {
         Ok(c) => Some(c),
-        Err(_) => {
+        Err(_) if s != "" => {
             report.error_on(line, format!("Unknown Country '{}'", s));
             None
         }
+        _ => None,
     }
 }
 

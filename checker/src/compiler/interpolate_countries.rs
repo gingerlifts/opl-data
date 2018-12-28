@@ -34,9 +34,11 @@ mod tests {
 
     // Helper function for generating test data
     fn entry(country: Option<Country>) -> Entry {
-	    Entry { country, ..Entry::default() }
-	}
-
+        Entry {
+            country,
+            ..Entry::default()
+        }
+    }
 
     #[test]
     fn test_interp_start() {
