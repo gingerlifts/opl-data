@@ -41,16 +41,16 @@ impl Ord for AgeData {
 
 // Get the difference in years between 2 dates
 fn year_diff(date1: Date,date2: Date) -> u8 {
-	if date1.year() < date2.year() {
-	    if date1.monthday() < date2.monthday(){
+	if date1.year() > date2.year() {
+	    if date1.monthday() >= date2.monthday(){
 	        return (date1.year() - date2.year()) as u8;
 	    }
 	    else{
 	    return (date1.year() - date2.year() -1) as u8;
 	    } 
 	}
-	else if date1.year() > date2.year() {
-	    if date2.monthday() < date1.monthday(){
+	else if date1.year() < date2.year() {
+	    if date2.monthday() >= date1.monthday(){
 	        return (date2.year() - date1.year()) as u8;
 	    }
 	    else{
@@ -280,40 +280,45 @@ fn are_entries_consistent(entry1 : &AgeData, entry2: &AgeData) -> bool {
         Age::Exact(age1) => {
 		    match entry2.age {
 	    		Age::Exact(age2) => if (age1 as  i8-age2 as i8).abs() as u8 != yd {return false;},
-	    		Age::Approximate(age2) => if (age1 as i8-age2 as i8).abs() as u8 - yd >1 {return false;},
+	    		Age::Approximate(age2) => if (age1 as i8-age2 as i8).abs() as u8 !=yd {return false;},
 	    		Age::None =>(),
 	    	}
 	    	match entry2.minage { 
-	    		Age::Exact(minage2)       => if ((age1 as i8-minage2 as i8).abs() as u8) < yd {return false;},
-	    		Age::Approximate(minage2) => if ((age1 as i8-minage2 as i8).abs() as u8) < yd - 1 {return false;},
+	    		Age::Exact(minage2)       => if ((age1 as i8-minage2 as i8).abs() as u8) > yd {return false;},
+	    		Age::Approximate(minage2) => if ((age1 as i8-minage2 as i8).abs() as u8) > yd {return false;},
 	    		Age::None =>(),
 	    	}
 	    	match entry2.maxage {
-	    		Age::Exact(maxage2)       => if ((age1 as i8-maxage2 as i8).abs() as u8) > yd {return false;},
-	    		Age::Approximate(maxage2) => if ((age1 as i8-maxage2 as i8).abs() as u8) > yd - 1 {return false;},
+	    		Age::Exact(maxage2)       => if ((age1 as i8-maxage2 as i8).abs() as u8) < yd {return false;},
+	    		Age::Approximate(maxage2) => if ((age1 as i8-maxage2 as i8).abs() as u8) < yd {return false;},
 	    		Age::None =>(),
 	    	}
-	    	if entry2.birthdate.is_some()  && entry1.age != entry2.birthdate.unwrap().age_on(entry2.date).unwrap() {return false}
-	    	if entry2.birthyear.is_some()  && (entry1.date.year() - entry2.birthyear.unwrap()) as u8 - age1 > 1 {return false;}
+	   	if entry2.birthdate.is_some()  && entry1.age != entry2.birthdate.unwrap().age_on(entry1.date).unwrap() {return false}
+	   	if entry2.birthyear.is_some()  && (entry1.date.year() - entry2.birthyear.unwrap()) as u8 != age1 && (entry1.date.year() - entry2.birthyear.unwrap()) as u8 != age1 +1 {return false;}
         },
         Age::Approximate(age1) => {
 			match entry2.age {
-	    		Age::Exact(age2) => if (age1 as i8-age2 as i8).abs() as u8 - yd > 1 {return false;},
+	    		Age::Exact(age2) => if (age1 as i8-age2 as i8).abs() as u8 != yd {return false;},
 	    		Age::Approximate(age2) => if ((age1 as i8-age2 as i8).abs() as u8) != yd {return false;},
 	    		Age::None =>(),
 	    	}
 	    	match entry2.minage {
-	    		Age::Exact(minage2)       => if ((age1 as i8-minage2 as i8).abs() as u8) < yd + 1 {return false;},
-	    		Age::Approximate(minage2) => if ((age1 as i8-minage2 as i8).abs() as u8) < yd {return false;},
+	    		Age::Exact(minage2)       => if ((age1 as i8-minage2 as i8).abs() as u8) > yd {return false;},
+	    		Age::Approximate(minage2) => if ((age1 as i8-minage2 as i8).abs() as u8) > yd {return false;},
 	    		Age::None =>(),
 	    	}
 	    	match entry2.maxage {
-	    		Age::Exact(maxage2)       => if ((age1 as i8-maxage2 as i8).abs() as u8) > yd + 1 {return false;},
-	    		Age::Approximate(maxage2) => if ((age1 as i8-maxage2 as i8).abs() as u8) > yd {return false;},
+	    		Age::Exact(maxage2)       => if ((age1 as i8-maxage2 as i8).abs() as u8) < yd + 1 {return false;},
+	    		Age::Approximate(maxage2) => if ((age1 as i8-maxage2 as i8).abs() as u8) < yd {return false;},
 	    		Age::None =>(),
 	    	}
-	    	if entry2.birthdate.is_some()  && (age1 - entry2.birthdate.unwrap().age_on(entry2.date).unwrap().to_u8_option().unwrap()) > 1 {return false;} 
-	    	if entry2.birthyear.is_some()  && (entry1.date.year() - entry2.birthyear.unwrap()) as u8 - age1 != 0 {return false;}
+	   	if entry2.birthdate.is_some(){
+	   		let age_on = entry2.birthdate.unwrap().age_on(entry1.date).unwrap().to_u8_option().unwrap();
+	   		if age_on != age1 && age_on != age1+1{
+	   			return false;
+	   		}
+	   	} 
+	   	if entry2.birthyear.is_some()  && (entry1.date.year() - entry2.birthyear.unwrap()) as u8 != age1 +1 {return false;}
         },
         Age::None =>(),
     }
@@ -322,25 +327,24 @@ fn are_entries_consistent(entry1 : &AgeData, entry2: &AgeData) -> bool {
     match entry1.minage{
             Age::Exact(minage1) => {
                 match entry2.age{
-                	Age::Exact(age2)       => if ((age2 as  i8-minage1 as i8).abs() as u8) < yd {return false;},
-                	Age::Approximate(age2) => if ((age2 as i8-minage1 as i8).abs() as  u8) < yd + 1 {return false;},
+                	Age::Exact(age2)       => if ((age2 as  i8-minage1 as i8).abs() as u8) > yd {return false;},
+                	Age::Approximate(age2) => if ((age2 as i8-minage1 as i8).abs() as  u8) > yd {return false;},
                 	Age::None =>(),
 
                 }
-                
                 match entry2.maxage{
                 	Age::Exact(maxage2) => if entry1.date < entry2.date && minage1+yd > maxage2 {return false;},
                 	Age::Approximate(maxage2)=> if entry1.date < entry2.date && minage1 + yd > maxage2 {return false;},
                 	Age::None => (),
 
                 }
-            	if entry2.birthyear.is_some() && ((entry1.date.year() - entry2.birthyear.unwrap()) as u8) < minage1 {return false;}
-            	if entry2.birthdate.is_some()  && entry1.minage > entry2.birthdate.unwrap().age_on(entry2.date).unwrap() {return false;}
+           	if entry2.birthyear.is_some() && ((entry1.date.year() - entry2.birthyear.unwrap()) as u8) < minage1 {return false;}
+           	if entry2.birthdate.is_some()  && entry1.minage > entry2.birthdate.unwrap().age_on(entry1.date).unwrap() {return false;}
             },
             Age::Approximate(minage1) => {
                 match entry2.age{
-                	Age::Exact(age2)       => if ((age2 as i8-minage1 as i8).abs() as  u8) < yd - 1 {return false;},
-                	Age::Approximate(age2) => if ((age2 as i8-minage1 as i8).abs() as u8) < yd {return false;},
+                	Age::Exact(age2)       => if ((age2 as i8-minage1 as i8).abs() as  u8) > yd{return false;},
+                	Age::Approximate(age2) => if ((age2 as i8-minage1 as i8).abs() as u8) > yd {return false;},
                 	Age::None =>(),
 
                 }
@@ -351,8 +355,8 @@ fn are_entries_consistent(entry1 : &AgeData, entry2: &AgeData) -> bool {
                 	Age::None => (),
 
                 }
-            	if entry2.birthyear.is_some() && ((entry1.date.year() - entry2.birthyear.unwrap()) as u8) < minage1 {return false;}
-            	if entry2.birthdate.is_some()  && Age::Exact(minage1 -1) > entry2.birthdate.unwrap().age_on(entry2.date).unwrap() {return false;}
+           	if entry2.birthyear.is_some() && ((entry1.date.year() - entry2.birthyear.unwrap()) as u8) < minage1 {return false;}
+           	if entry2.birthdate.is_some()  && entry1.minage > entry2.birthdate.unwrap().age_on(entry1.date).unwrap() {return false;}
             },
             Age::None =>(),
     }
@@ -361,8 +365,8 @@ fn are_entries_consistent(entry1 : &AgeData, entry2: &AgeData) -> bool {
     match entry1.maxage{
             Age::Exact(maxage1) => {
                 match entry2.age{
-                	Age::Exact(age2)       => if (age2 as i8-maxage1 as i8).abs() as u8 > yd {return false;},
-                	Age::Approximate(age2) => if (age2 as i8-maxage1 as i8).abs() as u8 > yd + 1 {return false;},
+                	Age::Exact(age2)       => if ((age2 as i8-maxage1 as i8).abs() as u8) < yd {return false;},
+                	Age::Approximate(age2) => if ((age2 as i8-maxage1 as i8).abs() as u8) < yd + 1 {return false;},
                 	Age::None =>(),
 
                 }
@@ -373,13 +377,13 @@ fn are_entries_consistent(entry1 : &AgeData, entry2: &AgeData) -> bool {
 
                 }
 
-            	if entry2.birthyear.is_some() && (entry1.date.year() - entry2.birthyear.unwrap()-1) as u8 > maxage1 {return false;}
-            	if entry2.birthdate.is_some()  && entry1.maxage < entry2.birthdate.unwrap().age_on(entry2.date).unwrap() {return false;}
+           	if entry2.birthyear.is_some() && (entry1.date.year() - entry2.birthyear.unwrap()-1) as u8 > maxage1 {return false;}
+           	if entry2.birthdate.is_some()  && entry1.maxage < entry2.birthdate.unwrap().age_on(entry1.date).unwrap() {return false;}
             },
             Age::Approximate(maxage1) => {
 				match entry2.age{
-                	Age::Exact(age2)       => if (age2 as i8-maxage1 as i8).abs() as u8 > yd  - 1 {return false;},
-                	Age::Approximate(age2) => if (age2 as i8 -maxage1 as i8).abs() as u8 > yd {return false;},
+                	Age::Exact(age2)       => if ((age2 as i8-maxage1 as i8).abs() as u8) < yd {return false;},
+                	Age::Approximate(age2) => if ((age2 as i8 -maxage1 as i8).abs() as u8) < yd {return false;},
                 	Age::None =>(),
 
                 }
@@ -390,8 +394,8 @@ fn are_entries_consistent(entry1 : &AgeData, entry2: &AgeData) -> bool {
 
                 }
 
-            	if entry2.birthyear.is_some() && (entry1.date.year() - entry2.birthdate.unwrap().year()-1) as u8 > maxage1 {return false;}
-            	if entry2.birthdate.is_some()  && entry1.maxage < entry2.birthdate.unwrap().age_on(entry2.date).unwrap() {return false;}
+           	if entry2.birthyear.is_some() && (entry1.date.year() - entry2.birthyear.unwrap()-1) as u8 > maxage1 {return false;}
+           	if entry2.birthdate.is_some()  && entry1.maxage < entry2.birthdate.unwrap().age_on(entry1.date).unwrap() {return false;}
             },
             Age::None =>(),
     }
@@ -399,18 +403,18 @@ fn are_entries_consistent(entry1 : &AgeData, entry2: &AgeData) -> bool {
     // Check that entry1.birthyear is consistent with the data in entry2
     if entry1.birthyear.is_some() {
     	match entry2.age {
-	        Age::Exact(age)       => if ((entry2.date.year() - entry1.birthyear.unwrap()-1) as u8) - age > 1 {return false;},
-	        Age::Approximate(age) => if ((entry2.date.year() - entry1.birthdate.unwrap().year()-1) as u8) - age != 0 {return false;},
+	        Age::Exact(age2)       => if (entry2.date.year() - entry1.birthyear.unwrap()) as u8 != age2 && (entry2.date.year() - entry1.birthyear.unwrap()) as u8 != age2 +1 {return false;}
+	        Age::Approximate(age2) => if (entry2.date.year() - entry1.birthyear.unwrap()) as u8 != age2+1 {return false;},
 	        Age::None => (),
     	}
     	match entry2.minage {
-	        Age::Exact(minage)       => if ((entry2.date.year() - entry1.birthyear.unwrap()) as u8) < minage {return false;},
-	        Age::Approximate(minage) => if ((entry2.date.year() - entry1.birthdate.unwrap().year()) as u8) < minage {return false;},
+	        Age::Exact(minage2)       => if ((entry2.date.year() - entry1.birthyear.unwrap()) as u8) < minage2 {return false;},
+	        Age::Approximate(minage2) => if ((entry2.date.year() - entry1.birthyear.unwrap()) as u8) < minage2 {return false;},
 	        Age::None => (),
     	}
     	match entry2.maxage {
-	        Age::Exact(maxage)       => if ((entry2.date.year() - entry1.birthyear.unwrap()) as u8) > maxage {return false;},
-	        Age::Approximate(maxage) => if ((entry2.date.year() - entry1.birthdate.unwrap().year()-1) as u8) > maxage {return false;},
+	        Age::Exact(maxage2)       => if ((entry2.date.year() - entry1.birthyear.unwrap()) as u8) > maxage2 {return false;},
+	        Age::Approximate(maxage2) => if ((entry2.date.year() - entry1.birthyear.unwrap()-1) as u8) > maxage2 {return false;},
 	        Age::None => (),
     	}
     	if entry2.birthyear.is_some() && entry1.birthyear.unwrap() != entry2.birthyear.unwrap() {return false}
@@ -419,9 +423,19 @@ fn are_entries_consistent(entry1 : &AgeData, entry2: &AgeData) -> bool {
 
     // Check that entry1.birthdate is consistent with the data in entry2
     if entry1.birthdate.is_some() {
-    	if entry2.age != Age::None  && entry1.birthdate.unwrap().age_on(entry1.date).unwrap() != entry2.age {return false}
-    	if entry2.minage != Age::None  && entry1.birthdate.unwrap().age_on(entry1.date).unwrap() < entry2.minage {return false}
-    	if entry2.maxage != Age::None && entry1.birthdate.unwrap().age_on(entry1.date).unwrap() > entry2.maxage {return false}
+    	match entry2.age {
+	        Age::Exact(age2)       => if entry1.birthdate.unwrap().age_on(entry2.date).unwrap() != entry2.age {return false;}
+	        Age::Approximate(age2) =>{
+		   		let age_on = entry1.birthdate.unwrap().age_on(entry2.date).unwrap().to_u8_option().unwrap();
+		   		if age_on != age2 && age_on != age2+1{
+		   			return false;
+		   		}
+		   	},
+		   	Age::None =>(),
+		}
+
+    	if entry2.minage != Age::None  && entry1.birthdate.unwrap().age_on(entry2.date).unwrap() < entry2.minage {return false}
+    	if entry2.maxage != Age::None && entry1.birthdate.unwrap().age_on(entry2.date).unwrap() > entry2.maxage {return false}
     	if entry2.birthyear.is_some() && entry1.birthdate.unwrap().year() != entry2.birthyear.unwrap() {return false}
     	if entry2.birthdate.is_some() && entry1.birthdate.unwrap() != entry2.birthdate.unwrap() {return false}
     }
@@ -437,7 +451,7 @@ fn is_agedata_consistent(entries: &[AgeData]) -> bool {
 
 	// This is O(N^2), there is probably a more efficient way if doing this...
 	for ii in 0..entries.len(){
-		for jj in 0..entries.len(){
+		for jj in ii..entries.len(){
 			if !are_entries_consistent(&entries[ii],&entries[jj]) { return false;}
 		}
 	}
@@ -509,30 +523,332 @@ pub fn interpolate(entries: &mut [AgeData]) {
 mod tests {
     use super::*;
 
+
     #[test]
-    fn test_alldata() {
-        let a = AgeData { age: Age::Exact(20), minage: Age::Exact(20), maxage: Age::Exact(20), date: Date::from_u32(20001231),birthyear:Some(1980), birthdate: Some(Date::from_u32(19800101)), linenum: 1000 };
-        let b = AgeData { age: Age::Exact(20), minage: Age::Exact(20), maxage: Age::Exact(20), date: Date::from_u32(20001231),birthyear:Some(1980), birthdate: Some(Date::from_u32(19800101)), linenum: 2000 };
+    fn test_invalid_exact_age() {
+    	// Age <-> Age
+        let a = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
+        let b = AgeData { age: Age::Exact(41), minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 56 };
+        let interp_arr = [a,b];
+        let interp_arr2 = [b,a];
 
-        let c = AgeData { age: Age::Exact(20), minage: Age::Exact(20), maxage: Age::Exact(20), date: Date::from_u32(20001231),birthyear:Some(1980), birthdate: Some(Date::from_u32(19800101)), linenum: 1000 };
-        let d = AgeData { age: Age::Exact(20), minage: Age::Exact(20), maxage: Age::Exact(20), date: Date::from_u32(20001231),birthyear:Some(1980), birthdate: Some(Date::from_u32(19800101)), linenum: 2000 };
+    	// Age <-> Approx Age
+        let c = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
+        let d = AgeData { age: Age::Approximate(41), minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 56 };
+        let interp_arr3 = [c,d];
+        let interp_arr4 = [d,c];
+
+    	// Age <-> Approx Minage
+        let e = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
+        let f = AgeData { age: Age::None, minage: Age::Approximate(41), maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 56 };
+        let interp_arr5 = [e,f];
+        let interp_arr6 = [f,e];
+
+    	// Age <-> Exact Minage
+        let g = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
+        let h = AgeData { age: Age::None, minage: Age::Exact(41), maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 56 };
+        let interp_arr7 = [g,h];
+        let interp_arr8 = [h,g];
+
+    	// Age <-> Approx Maxage
+        let i = AgeData { age: Age::Exact(18), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
+        let j = AgeData { age: Age::None, minage: Age::None, maxage: Age::Approximate(40), date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 56 };
+        let interp_arr9 = [i,j];
+        let interp_arr10 = [j,i];
+
+    	// Age <-> Exact Maxage
+        let k = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
+        let l = AgeData { age: Age::None, minage: Age::None, maxage: Age::Exact(40), date: Date::from_u32(20040705),birthyear:None, birthdate: None, linenum: 56 };
+        let interp_arr11 = [k,l];
+        let interp_arr12 = [l,k];
+
+    	// Age <-> Birthyear
+        let m = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
+        let n = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:Some(1964), birthdate: None, linenum: 56 };
+        let interp_arr13 = [m,n];
+        let interp_arr14 = [n,m];
+
+    	// Age <-> Birthdate
+        let o = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
+        let p = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: Some(Date::from_u32(19630705)), linenum: 56 };
+        let interp_arr15 = [o,p];
+        let interp_arr16 = [p,o];
+
+        assert!(!is_agedata_consistent(&interp_arr));
+        assert!(!is_agedata_consistent(&interp_arr2));
+        assert!(!is_agedata_consistent(&interp_arr3));
+        assert!(!is_agedata_consistent(&interp_arr4));
+        assert!(!is_agedata_consistent(&interp_arr5));
+        assert!(!is_agedata_consistent(&interp_arr6));
+        assert!(!is_agedata_consistent(&interp_arr7));
+        assert!(!is_agedata_consistent(&interp_arr8));
+        assert!(!is_agedata_consistent(&interp_arr9));
+        assert!(!is_agedata_consistent(&interp_arr10));
+        assert!(!is_agedata_consistent(&interp_arr11));
+        assert!(!is_agedata_consistent(&interp_arr12));
+        assert!(!is_agedata_consistent(&interp_arr13));
+        assert!(!is_agedata_consistent(&interp_arr14));
+        assert!(!is_agedata_consistent(&interp_arr15));
+        assert!(!is_agedata_consistent(&interp_arr16));
+
+    }
 
 
-        let mut interp_arr = [a,b];
-        let old_arr = [c,d];
 
-        interpolate(&mut interp_arr);
+ #[test]
+    fn test_invalid_approx_age() {
 
-        assert!(interp_arr.iter().eq(old_arr.iter()));
+
+    	// Age <-> Approx Age
+        let a = AgeData { age: Age::Approximate(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
+        let b = AgeData { age: Age::Approximate(41), minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 56 };
+        let interp_arr1 = [a,b];
+        let interp_arr2 = [b,a];
+
+    	// Age <-> Approx Minage
+        let c = AgeData { age: Age::Approximate(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
+        let d = AgeData { age: Age::None, minage: Age::Approximate(41), maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 56 };
+        let interp_arr3 = [c,d];
+        let interp_arr4 = [d,c];
+
+    	// Age <-> Exact Minage
+        let e = AgeData { age: Age::Approximate(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
+        let f = AgeData { age: Age::None, minage: Age::Exact(42), maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 56 };
+        let interp_arr5 = [e,f];
+        let interp_arr6 = [f,e];
+
+    	// Age <-> Approx Maxage
+        let g = AgeData { age: Age::Approximate(18), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
+        let h = AgeData { age: Age::None, minage: Age::None, maxage: Age::Approximate(40), date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 56 };
+        let interp_arr7 = [g,h];
+        let interp_arr8 = [h,g];
+
+    	// Age <-> Exact Maxage
+        let i = AgeData { age: Age::Approximate(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
+        let j = AgeData { age: Age::None, minage: Age::None, maxage: Age::Exact(40), date: Date::from_u32(20040705),birthyear:None, birthdate: None, linenum: 56 };
+        let interp_arr9 = [i,j];
+        let interp_arr10 = [j,i];
+
+    	// Age <-> Birthyear
+        let k = AgeData { age: Age::Approximate(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
+        let l = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:Some(1963), birthdate: None, linenum: 56 };
+        let interp_arr11 = [k,l];
+        let interp_arr12 = [l,k];
+
+    	// Age <-> Birthdate
+        let m = AgeData { age: Age::Approximate(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
+        let n = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: Some(Date::from_u32(19630705)), linenum: 56 };
+        let interp_arr13 = [m,n];
+        let interp_arr14 = [n,m];
+
+        assert!(!is_agedata_consistent(&interp_arr1));
+        assert!(!is_agedata_consistent(&interp_arr2));
+        assert!(!is_agedata_consistent(&interp_arr3));
+        assert!(!is_agedata_consistent(&interp_arr4));
+        assert!(!is_agedata_consistent(&interp_arr5));
+        assert!(!is_agedata_consistent(&interp_arr6));
+        assert!(!is_agedata_consistent(&interp_arr7));
+        assert!(!is_agedata_consistent(&interp_arr8));
+        assert!(!is_agedata_consistent(&interp_arr9));
+        assert!(!is_agedata_consistent(&interp_arr10));
+        assert!(!is_agedata_consistent(&interp_arr11));
+        assert!(!is_agedata_consistent(&interp_arr12));
+        assert!(!is_agedata_consistent(&interp_arr13));
+        assert!(!is_agedata_consistent(&interp_arr14));
+
+    }
+
+
+    #[test]
+    fn test_invalid_exact_minage() {
+    	// Exact Minage <-> Exact Maxage
+        let a = AgeData { age: Age::None, minage: Age::Exact(40), maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 53 };
+        let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::Exact(53), date: Date::from_u32(20040705),birthyear:None, birthdate: None, linenum: 24 };
+
+        let interp_arr1 = [a,b];
+        let interp_arr2 = [b,a];
+
+    	// Exact Minage <-> Approx Maxage
+        let c = AgeData { age: Age::None, minage: Age::Exact(40), maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 53 };
+        let d = AgeData { age: Age::None, minage: Age::None, maxage: Age::Approximate(52), date: Date::from_u32(20040705),birthyear:None, birthdate: None, linenum: 24 };
+
+        let interp_arr3 = [c,d];
+        let interp_arr4 = [d,c];
+
+    	// Exact Minage <-> Birthyear
+        let e = AgeData { age: Age::None, minage: Age::Exact(40), maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 53 };
+        let f = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:Some(1941), birthdate: None, linenum: 24 };
+
+        let interp_arr5 = [e,f];
+        let interp_arr6 = [f,e];
+
+    	// Exact Minage <-> Birthdate
+        let g = AgeData { age: Age::None, minage: Age::Exact(40), maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 53 };
+        let h = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:None, birthdate: Some(Date::from_u32(19400705)), linenum: 24 };
+
+        let interp_arr7 = [g,h];
+        let interp_arr8 = [h,g];
+
+        assert!(!is_agedata_consistent(&interp_arr1));
+        assert!(!is_agedata_consistent(&interp_arr2));
+        assert!(!is_agedata_consistent(&interp_arr3));
+        assert!(!is_agedata_consistent(&interp_arr4));
+        assert!(!is_agedata_consistent(&interp_arr5));
+        assert!(!is_agedata_consistent(&interp_arr6));
+        assert!(!is_agedata_consistent(&interp_arr7));
+        assert!(!is_agedata_consistent(&interp_arr8));
+
+    }
+    
+  #[test]
+    fn test_invalid_approx_minage() {
+    	// Exact Minage <-> Exact Maxage
+        let a = AgeData { age: Age::None, minage: Age::Approximate(40), maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 53 };
+        let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::Exact(53), date: Date::from_u32(20040705),birthyear:None, birthdate: None, linenum: 24 };
+
+        let interp_arr1 = [a,b];
+        let interp_arr2 = [b,a];
+
+    	// Exact Minage <-> Approx Maxage
+        let c = AgeData { age: Age::None, minage: Age::Approximate(40), maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 53 };
+        let d = AgeData { age: Age::None, minage: Age::None, maxage: Age::Approximate(53), date: Date::from_u32(20040705),birthyear:None, birthdate: None, linenum: 24 };
+
+        let interp_arr3 = [c,d];
+        let interp_arr4 = [d,c];
+
+    	// Exact Minage <-> Birthyear
+        let e = AgeData { age: Age::None, minage: Age::Approximate(40), maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 53 };
+        let f = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:Some(1941), birthdate: None, linenum: 24 };
+
+        let interp_arr5 = [e,f];
+        let interp_arr6 = [f,e];
+
+    	// Exact Minage <-> Birthdate
+        let g = AgeData { age: Age::None, minage: Age::Approximate(40), maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 53 };
+        let h = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:None, birthdate: Some(Date::from_u32(19400705)), linenum: 24 };
+
+        let interp_arr7 = [g,h];
+        let interp_arr8 = [h,g];
+
+        assert!(!is_agedata_consistent(&interp_arr1));
+        assert!(!is_agedata_consistent(&interp_arr2));
+        assert!(!is_agedata_consistent(&interp_arr3));
+        assert!(!is_agedata_consistent(&interp_arr4));
+        assert!(!is_agedata_consistent(&interp_arr5));
+        assert!(!is_agedata_consistent(&interp_arr6));
+        assert!(!is_agedata_consistent(&interp_arr7));
+        assert!(!is_agedata_consistent(&interp_arr8));
+
+    }
+
+
+    #[test]
+    fn test_invalid_exact_maxage() {
+
+    	// Exact Maxage <-> Birthyear
+        let a = AgeData { age: Age::None, minage: Age::None, maxage: Age::Exact(18), date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 53 };
+        let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:Some(1960), birthdate: None, linenum: 24 };
+
+        let interp_arr1 = [a,b];
+        let interp_arr2 = [b,a];
+
+    	// Exact Maxage <-> Birthdate
+        let c = AgeData { age: Age::None, minage: Age::None, maxage: Age::Exact(18), date: Date::from_u32(19800705),birthyear:None, birthdate: None, linenum: 53 };
+        let d = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:None, birthdate: Some(Date::from_u32(19610703)), linenum: 24 };
+
+        let interp_arr3 = [c,d];
+        let interp_arr4 = [d,c];
+
+        assert!(!is_agedata_consistent(&interp_arr1));
+        assert!(!is_agedata_consistent(&interp_arr2));
+        assert!(!is_agedata_consistent(&interp_arr3));
+        assert!(!is_agedata_consistent(&interp_arr4));
+
+    }
+
+
+    #[test]
+    fn test_invalid_approx_maxage() {
+
+    	// Approx Maxage <-> Birthyear
+        let a = AgeData { age: Age::None, minage: Age::None, maxage: Age::Approximate(18), date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 53 };
+        let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:Some(1960), birthdate: None, linenum: 24 };
+
+        let interp_arr1 = [a,b];
+        let interp_arr2 = [b,a];
+
+    	// Approx Maxage <-> Birthdate
+        let c = AgeData { age: Age::None, minage: Age::None, maxage: Age::Approximate(18), date: Date::from_u32(19800705),birthyear:None, birthdate: None, linenum: 53 };
+        let d = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:None, birthdate: Some(Date::from_u32(19600703)), linenum: 24 };
+
+        let interp_arr3 = [c,d];
+        let interp_arr4 = [d,c];
+
+        assert!(!is_agedata_consistent(&interp_arr1));
+        assert!(!is_agedata_consistent(&interp_arr2));
+        assert!(!is_agedata_consistent(&interp_arr3));
+        assert!(!is_agedata_consistent(&interp_arr4));
+
+    }
+
+    #[test]
+    fn test_invalid_birthyear() {
+
+    	// Birthyear <-> Birthyear
+        let a = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:Some(1961), birthdate: None, linenum: 53 };
+        let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:Some(1960), birthdate: None, linenum: 24 };
+
+        let interp_arr1 = [a,b];
+        let interp_arr2 = [b,a];
+
+    	// Birthyear <-> Birthdate
+        let c = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(19800705),birthyear:Some(1961), birthdate: None, linenum: 53 };
+        let d = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:None, birthdate: Some(Date::from_u32(19600703)), linenum: 24 };
+
+        let interp_arr3 = [c,d];
+        let interp_arr4 = [d,c];
+
+        assert!(!is_agedata_consistent(&interp_arr1));
+        assert!(!is_agedata_consistent(&interp_arr2));
+        assert!(!is_agedata_consistent(&interp_arr3));
+        assert!(!is_agedata_consistent(&interp_arr4));
+
+    }
+
+   #[test]
+    fn test_invalid_birthdate() {
+
+    	// Birthdate <-> Birthdate
+        let a = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(19800705),birthyear:None, birthdate: Some(Date::from_u32(19600704)), linenum: 53 };
+        let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:None, birthdate: Some(Date::from_u32(19600703)), linenum: 24 };
+
+        let interp_arr1 = [a,b];
+        let interp_arr2 = [b,a];
+
+        assert!(!is_agedata_consistent(&interp_arr1));
+        assert!(!is_agedata_consistent(&interp_arr2));
+
+    }
+
+    #[test]
+    fn test_valid_justages() {
+        let a = AgeData { age: Age::Exact(20), minage: Age::None, maxage: Age::None, date: Date::from_u32(20001231),birthyear:None, birthdate: None, linenum: 100 };
+        let b = AgeData { age: Age::Exact(24), minage: Age::None, maxage: Age::None, date: Date::from_u32(20041231),birthyear:None, birthdate: None, linenum: 53 };
+        let c = AgeData { age: Age::Exact(29), minage: Age::None, maxage: Age::None, date: Date::from_u32(20091231),birthyear:None, birthdate: None, linenum: 24 };
+
+        let interp_arr = [a,b,c];
+
+        assert!(is_agedata_consistent(&interp_arr));
+
     }
 
     // #[test]
-    // fn test_basic_interp() {
-    //     let a = AgeData { age: Age::Exact(20), minage: Age::Exact(20), maxage: Age::Exact(20), date: Date::from_u32(20001231),birthyear:Some(1980), birthdate: Some(Date::from_u32(19800101)), linenum: 2000 };
-    //     let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20011231),birthyear:Some(1980), birthdate: Some(Date::from_u32(19800101)), linenum: 2000 };
+    // fn test_alldata() {
+    //     let a = AgeData { age: Age::Exact(20), minage: Age::Exact(19), maxage: Age::Exact(20), date: Date::from_u32(20001231),birthyear:Some(1980), birthdate: Some(Date::from_u32(19800101)), linenum: 1000 };
+    //     let b = AgeData { age: Age::Exact(21), minage: Age::Exact(20), maxage: Age::Exact(21), date: Date::from_u32(20011231),birthyear:Some(1980), birthdate: Some(Date::from_u32(19800101)), linenum: 2000 };
 
-    //     let c = AgeData { age: Age::Exact(20), minage: Age::Exact(20), maxage: Age::Exact(20), date: Date::from_u32(20001231),birthyear:Some(1980), birthdate: Some(Date::from_u32(19800101)), linenum: 2000 };
-    //     let d = AgeData { age: Age::Exact(21), minage: Age::Exact(21), maxage: Age::Exact(21), date: Date::from_u32(20001231),birthyear:Some(1980), birthdate: Some(Date::from_u32(19800101)), linenum: 2000 };
+    //     let c = AgeData { age: Age::Exact(20), minage: Age::Exact(19), maxage: Age::Exact(20), date: Date::from_u32(20001231),birthyear:Some(1980), birthdate: Some(Date::from_u32(19800101)), linenum: 1000 };
+    //     let d = AgeData { age: Age::Exact(21), minage: Age::Exact(20), maxage: Age::Exact(21), date: Date::from_u32(20011231),birthyear:Some(1980), birthdate: Some(Date::from_u32(19800101)), linenum: 2000 };
 
 
     //     let mut interp_arr = [a,b];
@@ -543,20 +859,37 @@ mod tests {
     //     assert!(interp_arr.iter().eq(old_arr.iter()));
     // }
 
-    #[test]
-    fn test_nodata() {
-        let a = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20001231),birthyear:None, birthdate: None, linenum: 1000 };
-        let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20011231),birthyear:None, birthdate: None, linenum: 2000 };
+    // // #[test]
+    // // fn test_basic_interp() {
+    // //     let a = AgeData { age: Age::Exact(20), minage: Age::Exact(20), maxage: Age::Exact(20), date: Date::from_u32(20001231),birthyear:Some(1980), birthdate: Some(Date::from_u32(19800101)), linenum: 2000 };
+    // //     let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20011231),birthyear:Some(1980), birthdate: Some(Date::from_u32(19800101)), linenum: 2000 };
 
-        let c = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20001231),birthyear:None, birthdate: None, linenum: 1000 };
-        let d = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20011231),birthyear:None, birthdate: None, linenum: 2000 };
+    // //     let c = AgeData { age: Age::Exact(20), minage: Age::Exact(20), maxage: Age::Exact(20), date: Date::from_u32(20001231),birthyear:Some(1980), birthdate: Some(Date::from_u32(19800101)), linenum: 2000 };
+    // //     let d = AgeData { age: Age::Exact(21), minage: Age::Exact(21), maxage: Age::Exact(21), date: Date::from_u32(20001231),birthyear:Some(1980), birthdate: Some(Date::from_u32(19800101)), linenum: 2000 };
 
 
-        let mut interp_arr = [a,b];
-        let old_arr = [c,d];
+    // //     let mut interp_arr = [a,b];
+    // //     let old_arr = [c,d];
 
-        interpolate(&mut interp_arr);
+    // //     interpolate(&mut interp_arr);
 
-        assert!(interp_arr.iter().eq(old_arr.iter()));
-    }
+    // //     assert!(interp_arr.iter().eq(old_arr.iter()));
+    // // }
+
+    // #[test]
+    // fn test_nodata() {
+    //     let a = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20001231),birthyear:None, birthdate: None, linenum: 1000 };
+    //     let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20011231),birthyear:None, birthdate: None, linenum: 2000 };
+
+    //     let c = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20001231),birthyear:None, birthdate: None, linenum: 1000 };
+    //     let d = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20011231),birthyear:None, birthdate: None, linenum: 2000 };
+
+
+    //     let mut interp_arr = [a,b];
+    //     let old_arr = [c,d];
+
+    //     interpolate(&mut interp_arr);
+
+    //     assert!(interp_arr.iter().eq(old_arr.iter()));
+    // }
 }
