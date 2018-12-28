@@ -827,13 +827,16 @@ fn check_column_division(
 }
 
 fn check_column_country(s: &str, line: u64, report: &mut Report) -> Option<Country> {
+    if s.is_empty() {
+        return None;
+    }
+
     match s.parse::<Country>() {
         Ok(c) => Some(c),
-        Err(_) if s != "" => {
+        Err(_) => {
             report.error_on(line, format!("Unknown Country '{}'", s));
             None
         }
-        _ => None,
     }
 }
 
