@@ -1,13 +1,13 @@
 Place,Name,Sex,Event,Division,Equipment,BodyweightKg,WeightClassKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg
 G,Abi Graham,F,SBD,Open,Raw,62.3,63,100,70,142.5,312.5
 1,Laura Porter,F,SBD,Open,Raw,70.2,72,85,45,115,245
-1,Debbie Powell,F,SBD,M1,Single,85.5,84+,165,100,155,420
+1,Debbie Powell,F,SBD,M1,Single-ply,85.5,84+,165,100,155,420
 1,Aaron Gideon,M,SBD,Open,Raw,62.3,66,147.5,125,170,442.5
 2,Peter Toth,M,SBD,Open,Raw,60,66,100,100,125,325
 1,Nazar Senechyn,M,SBD,U20,Raw,72.8,74,155,120,160,435
 2,Josh Foo,M,SBD,U20,Raw,70.2,74,130,87.5,200,417.5
 3,Jack Pearson,M,SBD,U18,Raw,71.2,74,120,65,140,325
-G,Joao Arseno,M,SBD,M1,Single,76.4,83,240,130,240,610
+G,Joao Arseno,M,SBD,M1,Single-ply,76.4,83,240,130,240,610
 1,Andy Ly,M,SBD,Open,Raw,79.7,83,210,130,250,590
 2,Diego Rodney,M,SBD,Open,Raw,79.9,83,195,130,250,575
 3,Alan Joseph,M,SBD,M1,Raw,81.9,83,195,125,250,570
@@ -24,7 +24,7 @@ G,Leo Doubble,M,SBD,Open,Raw,82,83,177.5,117.5,220,515
 5,Leo Johnson,M,SBD,Open,Raw,85.6,93,170,105,205,480
 6,Joao Curro,M,SBD,Open,Raw,87.3,93,160,117.5,175,452.5
 7,Shane Lightowler,M,SBD,Open,Raw,88.3,93,150,102.5,180,432.5
-1,Gary Mitchell,M,SBD,M1,Single,97.3,105,270,130,260,660
+1,Gary Mitchell,M,SBD,M1,Single-ply,97.3,105,270,130,260,660
 1,Robbie Rees,M,SBD,Open,Raw,103.8,105,240,175,305,720
 2,Zac Becker,M,SBD,U23,Raw,96.7,105,245,140,275,660
 3,Ryan Faldo,M,SBD,Open,Raw,102.5,105,222.5,142.5,240,605
