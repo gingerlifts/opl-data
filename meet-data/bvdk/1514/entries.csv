@@ -1,4 +1,4 @@
-Place,Name,Division,Sex,BodyweightKg,,BirthDate,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Equipment
+Place,Name,Division,Sex,BodyweightKg,WeightClassKg,BirthDate,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Equipment
 1,Simone Wenzlaw,Open,F,63,63,1979-07-02,125,-130,-137.5,125,75,83,-87.5,83,100,-115,115,115,323,SBD,Single-ply
 1,Martina Segerer,Open,F,104,84+,1980-07-29,120,130,-135,130,102.5,105,107.5,107.5,170,180.5,-185,180.5,418,SBD,Single-ply
 1,Anita Riedl,Masters 2,F,104.1,84+,1964-11-10,100,-110,-110,100,52.5,60,62.5,62.5,100,107.5,,107.5,270,SBD,Single-ply
