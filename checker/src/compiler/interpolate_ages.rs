@@ -1,7 +1,12 @@
+
+
 use opltypes::*;
 use std::cmp::Ordering;
+use std::fmt;
+use std::cmp;
 
 use crate::check_entries::Entry;
+extern crate permutohedron;
 
 
 #[derive(Copy, Clone, Debug, PartialEq, Eq)]
@@ -14,7 +19,7 @@ pub struct AgeData {
     pub date: Date,
     pub linenum: u32,
 }
-
+#[derive(Copy,Clone,Debug,PartialEq, Eq)]
 enum BirthdateConstraint{
 	// Region that a lifters birthdate lies in
 	Bound {min_date: Date, max_date: Date},
@@ -25,6 +30,17 @@ enum BirthdateConstraint{
 	// No known age information
 	None,
 }
+
+impl fmt::Display for BirthdateConstraint {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        match *self {
+            BirthdateConstraint::Bound{min_date,max_date} => write!(f, "{}-{}", min_date, max_date),
+            BirthdateConstraint::KnownRegion{min_date,max_date} => write!(f, "{}-{}", min_date, max_date),
+            BirthdateConstraint::None => Ok(()),
+        }
+    }
+}
+
 
 impl PartialOrd for AgeData {
     fn partial_cmp(&self, other: &AgeData) -> Option<Ordering> {
@@ -70,201 +86,262 @@ fn estimate_birthdate(entries: &[AgeData]) -> BirthdateConstraint
     let MAX_MEETLENGTH = 12;
 
     // Ranges used to bound the birthdate    
-    let mut bd1_range : Option<(Date,Date)> = None;
-    let mut bd2_range : Option<(Date,Date)> = None;
+    //bd_range = [Min Date,Max Date,Age at min,Age at max]
+    let mut bd_range : Option<(Date,Date,u8,u8)> = None;
+    let mut known_range : Option<(Date,Date,u8)> = None;
 
-    // Used to offset the ages to be from the same year
-    let mut init_year : Option<u32> = None;
-    let mut init_age : Option<u8> = None;
-
-    for entry in entries
-    {
+    for entry in entries{
         // If the lifter has a recorded birthdate use that
     	if entry.birthdate.is_some(){
     		return BirthdateConstraint::Bound{min_date:entry.birthdate.unwrap(), max_date: entry.birthdate.unwrap()};
     	}
 
     	if entry.birthyear.is_some(){
-            bd1_range = Some((Date::from_u32(entry.birthyear.unwrap()*1000+0101),Date::from_u32(entry.birthyear.unwrap()*1000+0101)));
-            bd2_range = Some((Date::from_u32(entry.birthyear.unwrap()*1000+1231),Date::from_u32(entry.birthyear.unwrap()*1000+1231)));
+            bd_range = Some((Date::from_u32(entry.birthyear.unwrap()*100_00+0101),
+            	             Date::from_u32(entry.birthyear.unwrap()*100_00+1231),
+            	             (entry.date.year()-entry.birthyear.unwrap()) as u8 -1,
+            	             (entry.date.year()-entry.birthyear.unwrap()) as u8));
     	}
 
         // Use age to tighten our birthdate bound
     	match entry.age{
-			Age::Exact(age) => {
-                if init_age.is_none()
-                {
-                    bd1_range = Some((Date::from_u32((entry.date.year()-age as u32)*1000+entry.date.monthday()),Date::from_u32((entry.date.year()-age as u32)*1000+entry.date.monthday())));
-                    init_year = Some(entry.date.year());
-                    init_age = Some(age);                    
+			Age::Exact(age) => { 
+
+				
+                // Then we can update the range in which we know their age
+                if known_range.is_none(){
+                    known_range = Some((entry.date,entry.date,age));
+                }
+                else{
+                	// Shift the date so we can compare it with the age range that we know
+	                let shifted_date =Date::from_u32((entry.date.year()-age as u32 + known_range.unwrap().2 as u32)*100_00+entry.date.monthday());
+
+	            	//Shifted age to see if we lie in known_range
+	                let mut known_shifted_age :u8; 
+					if entry.date.year() > known_range.unwrap().1.year() {
+		                known_shifted_age = ((age as u32 +known_range.unwrap().1.year())-entry.date.year()) as u8; 
+		            }
+	                else if entry.date.year() < known_range.unwrap().0.year(){
+		                known_shifted_age = ((age as u32 +known_range.unwrap().0.year())-entry.date.year()) as u8; 
+	                }
+	                else{
+	                	known_shifted_age = age;
+	                }
+	               
+
+	            	if known_shifted_age == known_range.unwrap().2{
+		                if shifted_date < known_range.unwrap().0{
+		                	known_range = Some((shifted_date,known_range.unwrap().1,known_range.unwrap().2));
+		            	}
+		            	else if shifted_date > known_range.unwrap().1{
+		                    known_range = Some((known_range.unwrap().0,shifted_date,known_range.unwrap().2));
+		            	}
+		            }
+
+                    if bd_range.is_none() {
+	                    //We've detected an age change within a year, now we can bound the birthdate
+	                    
+	                     if known_shifted_age == known_range.unwrap().2 -1{
+	                    	let bd_min = Date::from_u32((entry.date.year() - age as u32 -1)*100_00+entry.date.monthday());
+	                     	let bd_max = Date::from_u32((known_range.unwrap().0.year() - known_shifted_age as u32 -1)*100_00+known_range.unwrap().0.monthday());	
+
+		                	bd_range = Some((bd_min,bd_max,known_shifted_age,known_shifted_age+1));
+	                    }
+	                    else if known_shifted_age == known_range.unwrap().2 +1 {
+	                    	let bd_min = Date::from_u32((known_range.unwrap().1.year() - known_shifted_age as u32 )*100_00+known_range.unwrap().1.monthday());		                    
+	                    	let bd_max = Date::from_u32((entry.date.year() - age as u32)*100_00+entry.date.monthday());
+	                    	bd_range = Some((bd_min,bd_max,known_shifted_age-1,known_shifted_age));
+	                    }
+	                }
+
+
+
+                }
+                
+        
+                // If we have an existing bd_range created from approx_age/maxage/minage we want to update both known_range & bd_range
+            	if bd_range.is_some(){ 
+            		let range_shifted_min =Date::from_u32((entry.date.year()-age as u32 -1)*100_00+entry.date.monthday()); 
+            		let range_shifted_max =Date::from_u32((entry.date.year()-age as u32)*100_00+entry.date.monthday()); 
+
+                    // Ages shifted relative to the existing bd_range
+            		let age_shifted_min = ((age +bd_range.unwrap().2+1) as i32 + (bd_range.unwrap().0.year() as i32- entry.date.year() as i32)) as u8; 
+            		let age_shifted_max = ((age +bd_range.unwrap().3) as i32 + (bd_range.unwrap().1.year() as i32- entry.date.year() as i32)) as u8; 
+
+
+		            //bd_range = Some((bd_range.unwrap().0,range_shifted_max,bd_range.unwrap().2,bd_range.unwrap().3));
+
+					// Then we can update the birthday range
+                	if age_shifted_min >= bd_range.unwrap().2 && age_shifted_min < bd_range.unwrap().3 && range_shifted_min > bd_range.unwrap().0{
+	                	bd_range = Some((range_shifted_min,bd_range.unwrap().1,age_shifted_min,bd_range.unwrap().3));
+                	}
+                	else if age_shifted_max <= bd_range.unwrap().3 && age_shifted_max > bd_range.unwrap().2 && range_shifted_max < bd_range.unwrap().1 {
+	                    bd_range = Some((bd_range.unwrap().0,range_shifted_max,bd_range.unwrap().2,age_shifted_max));
+                	}
+
                 }
 
-                // Another instance of the first age
-				if age - (entry.date.year()-init_year.unwrap()) as u8 == init_age.unwrap(){
-                    if entry.date.monthday() < bd1_range.unwrap().0.monthday(){
-                    	bd1_range.unwrap().0 = Date::from_u32(bd1_range.unwrap().0.year()*1000+entry.date.monthday());
-                    }
-                    else if entry.date.monthday() > bd1_range.unwrap().1.monthday(){
-                        bd1_range.unwrap().1 = Date::from_u32(bd1_range.unwrap().1.year()*1000+entry.date.monthday());
-                    }
-				}
-				else{
-					// If we've found an age change, setup the age range & update the birthyear range
-					if bd2_range.is_none() {
-						if age - ((entry.date.year()-init_year.unwrap()) as u8) < init_age.unwrap(){
-                            bd2_range = Some((Date::from_u32((entry.date.year() - age  as u32 -1)*1000 + entry.date.monthday()),Date::from_u32((entry.date.year()  - age  as u32 -1)*1000 + entry.date.monthday())));
-						}
-						else{
-                            bd2_range = Some((Date::from_u32((entry.date.year() - age  as u32)*1000 + entry.date.monthday()),Date::from_u32((entry.date.year()  - age  as u32)*1000 + entry.date.monthday())));
-						}
-					}
-					if entry.date.monthday() < bd2_range.unwrap().0.monthday(){
-                        bd2_range.unwrap().0 = Date::from_u32(bd2_range.unwrap().0.year()*1000+entry.date.monthday());
-                    }
-                    else if entry.date.monthday() > bd2_range.unwrap().1.monthday(){
-                        bd2_range.unwrap().1 = Date::from_u32(bd2_range.unwrap().1.year()*1000+entry.date.monthday());
-                    }
-				}
+
+               
 			},
 			Age::Approximate(age) => { 
-                if bd1_range.is_none(){
-                    bd1_range = Some((Date::from_u32((entry.date.year()-age as u32)*1000+entry.date.monthday()),Date::from_u32((entry.date.year()-age  as u32+1)*1000+entry.date.monthday())));
-                    init_year = Some(entry.date.year());
-                    init_age = Some(age);                    
+                if bd_range.is_none(){
+		            let bd_min = Date::from_u32((entry.date.year()-age as u32 -1)*100_00+0101);
+		            let bd_max = Date::from_u32((entry.date.year()-age as u32 -1)*100_00+1231);
+		            if known_range.is_none(){        
+	                    bd_range = Some((bd_min,bd_max,age,age+1)); //Need to change what age we store here I think.
+	                }
+	                else{
+	                	let by = entry.date.year() - age as u32 -1;
+	                	let range_shifted_min = Date::from_u32((known_range.unwrap().0.year()-known_range.unwrap().2 as u32)*100_00+known_range.unwrap().0.monthday());
+	                	let range_shifted_max = Date::from_u32((known_range.unwrap().1.year()-known_range.unwrap().2 as u32 -1)*100_00+known_range.unwrap().1.monthday());
+	                	//then they haven't had their birthday yet in the known region
+	                	if (known_range.unwrap().1.year() - known_range.unwrap().2 as u32) > by{
+
+	                		bd_range = Some((range_shifted_max,bd_max,age,age+1));
+	                	}
+	                	else{ //They've had their birthday
+	                		bd_range = Some((bd_min,range_shifted_min,age,age+1));
+	                	}
+	                }
                 }
-				if bd1_range.unwrap().0.year() == entry.date.year()  - age  as u32 //Then we know that there birthday is after the initially seen age
-				{
-					if bd2_range.is_none(){
-						bd2_range = Some((Date::from_u32((entry.date.year()  - age as u32-1)*1000+0101),Date::from_u32((entry.date.year()  - age  as u32-1)*1000+1231)));
-					}
+                else{ //If the exisiting range is obtained from maxage or minage we can tighten the bound
+
+                }
+				// if bd1_range.unwrap().0.year() == entry.date.year()  - age  as u32 //Then we know that their birthday is after the initially seen age
+				// {
+				// 	if bd2_range.is_none(){
+				// 		bd2_range = Some((Date::from_u32((entry.date.year()  - age as u32-1)*100_00+0101),Date::from_u32((entry.date.year()  - age  as u32-1)*100_00+1231)));
+				// 	}
                     
-				}
-				if bd1_range.unwrap().1.year() == entry.date.year()  - age as u32 - 1 //Then we know that there birthday is before the initially seen age
-				{
-					if bd2_range.is_none(){
-						bd2_range = Some((Date::from_u32((entry.date.year()- age as u32)*1000+0101),Date::from_u32((entry.date.year() - age  as u32)*1000+1231)));
-					}				
-				}
+				// }
+				// if bd1_range.unwrap().1.year() == entry.date.year()  - age as u32 - 1 //Then we know that their birthday is before the initially seen age
+				// {
+				// 	if bd2_range.is_none(){
+				// 		bd2_range = Some((Date::from_u32((entry.date.year()- age as u32)*100_00+0101),Date::from_u32((entry.date.year() - age  as u32)*100_00+1231)));
+				// 	}				
+				// }
 			},
 			Age::None =>(),
-    	}
+    	 }
 
         // Use minage to tighten our birthdate bound slightly
     	match entry.minage{ 
     		Age::Exact(minage) => {
-    			if bd1_range.is_none(){
-    				bd1_range = Some((Date::from_u32(00000101),Date::from_u32((entry.date.year()-minage as u32)*1000+entry.date.monthday())));
+    			if bd_range.is_none(){
+    				bd_range = Some((Date::from_u32(00000101),
+    					Date::from_u32((entry.date.year()-minage as u32)*100_00+entry.date.monthday()),
+    					255,
+    					minage));
     			}
     			else{
-	    			if (entry.date.year()  - minage  as u32) < bd1_range.unwrap().1.year(){
-	    				bd1_range.unwrap().1 = Date::from_u32((entry.date.year()   - minage as u32)*1000+1231);
-	    			}
-        			if minage > init_age.unwrap() { //Then we can bound their birthdate from the division
-        				if bd2_range.is_none(){
-                            bd2_range = Some((Date::from_u32((entry.date.year() -minage as u32)*1000+entry.date.monthday()),Date::from_u32((entry.date.year() -minage as u32)*1000+entry.date.monthday())));
-        				}
-                        else{
-            				if entry.date.monthday() < bd2_range.unwrap().0.monthday() {
-                                bd2_range.unwrap().0 = Date::from_u32((entry.date.year()-minage as u32)*1000+entry.date.monthday());
-            				}
-            				else{
-                                bd2_range.unwrap().1 = Date::from_u32((entry.date.year()-minage as u32)*1000+entry.date.monthday());
-            				}
-                        }
-        			}
-        			else if minage == init_age.unwrap(){
-    					if entry.date.monthday() < bd1_range.unwrap().0.monthday() {
-                            bd1_range.unwrap().0 = Date::from_u32((entry.date.year() -minage as u32)*1000+entry.date.monthday());
-        				}
-        				else{
-                            bd1_range.unwrap().1 = Date::from_u32((entry.date.year() -minage as u32)*1000+entry.date.monthday());
-        				}
-        			}
+	  //   			if (entry.date.year()  - minage  as u32) < bd1_range.unwrap().1.year(){
+	  //   				bd1_range.unwrap().1 = Date::from_u32((entry.date.year()   - minage as u32)*100_00+1231);
+	  //   			}
+   //      			if minage > init_age.unwrap() { //Then we can bound their birthdate from the division
+   //      				if bd2_range.is_none(){
+   //                          bd2_range = Some((Date::from_u32((entry.date.year() -minage as u32)*100_00+entry.date.monthday()),Date::from_u32((entry.date.year() -minage as u32)*100_00+entry.date.monthday())));
+   //      				}
+   //                      else{
+   //          				if entry.date.monthday() < bd2_range.unwrap().0.monthday() {
+   //                              bd2_range = Some((Date::from_u32((entry.date.year()-minage as u32)*100_00+entry.date.monthday()),bd2_range.unwrap().1));
+   //          				}
+   //          				else{
+   //                              bd2_range = Some((bd2_range.unwrap().0,Date::from_u32((entry.date.year()-minage as u32)*100_00+entry.date.monthday())));
+   //          				}
+   //                      }
+   //      			}
+   //      			else if minage == init_age.unwrap(){
+   //  					if entry.date.monthday() < bd1_range.unwrap().0.monthday() {
+   //                          bd1_range = Some((Date::from_u32((entry.date.year()-minage as u32)*100_00+entry.date.monthday()),bd1_range.unwrap().1));
+   //      				}
+   //      				else{
+   //                          bd2_range = Some((bd2_range.unwrap().0,Date::from_u32((entry.date.year()-minage as u32)*100_00+entry.date.monthday())));
+   //      				}
+   //      			}
                 }
     		},
     		Age::Approximate(minage) => {
-    			if (entry.date.year()   - minage  as u32) < bd1_range.unwrap().1.year(){ // For when a lower bound on the age has already been obtained
-                    bd1_range.unwrap().1 = Date::from_u32((entry.date.year() - minage as u32)*1000+1231);
-                }
-                // Then they must have had their birthday after the init_age entry, but we don't know when
-    			if init_age.is_some() && minage  == init_age.unwrap() && bd2_range.is_none(){ 
-                    bd1_range =  Some((Date::from_u32((entry.date.year() -minage  as u32-1)*1000+0101),Date::from_u32((entry.date.year() -minage as u32-1)*1000+bd1_range.unwrap().1.monthday())));
-	                bd2_range = Some((bd1_range.unwrap().1,Date::from_u32((entry.date.year() -minage  as u32-1)*1000+1231)));
-    			}		
+   //  			if bd1_range.is_none(){
+   //  				bd1_range = Some((Date::from_u32(00000101),Date::from_u32((entry.date.year()-minage as u32 -1)*100_00+1231)));
+   //                  init_age = Some(minage+1);
+   //  			}
+   //  			if (entry.date.year()   - minage  as u32 -1) < bd1_range.unwrap().1.year() && bd2_range.is_some(){ // For when a lower bound on the age has already been obtained
+   //                  bd1_range = Some((bd2_range.unwrap().0,Date::from_u32((entry.date.year() - minage as u32 -1)*100_00+1231)));
+   //              }
+   //              // Then they must have had their birthday after the init_age entry, but we don't know when
+   //  			if init_age.is_some() && minage  == init_age.unwrap() && bd2_range.is_none(){ 
+   //                  bd1_range =  Some((Date::from_u32((entry.date.year() -minage  as u32-1)*100_00+0101),Date::from_u32((entry.date.year() -minage as u32-1)*100_00+bd1_range.unwrap().1.monthday())));
+	  //               bd2_range = Some((bd1_range.unwrap().1,Date::from_u32((entry.date.year() -minage  as u32-1)*100_00+1231)));
+   //  			}		
     		},
     		Age::None =>(),
     	}
 
-        // Use maxage to tighten our birthdate bound slightly
-    	match entry.maxage{ 
-    		Age::Exact(maxage) => {
-    			if bd1_range.is_none(){
-    				bd1_range = Some((Date::from_u32((entry.date.year() -maxage as u32)*1000+entry.date.monthday()),entry.date));
-    			}
-    			else{
-		  			if entry.date.year()  - maxage  as u32> bd1_range.unwrap().0.year(){
-	    				bd1_range.unwrap().0 = Date::from_u32((entry.date.year()  - maxage  as u32)*1000+0101);
-	    			} 
+   //      // Use maxage to tighten our birthdate bound slightly
+   //  	match entry.maxage{ 
+   //  		Age::Exact(maxage) => {
+   //  			if bd1_range.is_none(){
+   //  				bd1_range = Some((Date::from_u32((entry.date.year() -maxage as u32)*100_00+entry.date.monthday()),entry.date));
+   //                  init_age = Some(maxage);
+   //  			}
+   //  			else{
+		 //  			if entry.date.year()  - maxage  as u32> bd1_range.unwrap().0.year(){
+	  //   				bd1_range = Some((Date::from_u32((entry.date.year()  - maxage  as u32)*100_00+0101),bd1_range.unwrap().1));
+	  //   			} 
 
-        			if maxage < init_age.unwrap() { //Then we can bound their birthdate from the division
-        				if bd2_range.is_none(){
-                            bd2_range = Some((Date::from_u32((entry.date.year() -init_age.unwrap() as u32)*1000+entry.date.monthday()),Date::from_u32((entry.date.year() -init_age.unwrap() as u32)*1000+entry.date.monthday())));
-        				}
-        				else{
-            				if entry.date.monthday() < bd2_range.unwrap().0.monthday() {
-                                bd2_range.unwrap().0 = Date::from_u32((entry.date.year()-maxage as u32)*1000+entry.date.monthday());
-            				}
-            				else{
-                                bd2_range.unwrap().1 = Date::from_u32((entry.date.year() -maxage as u32)*1000+entry.date.monthday());
-            				}
-	        			}
-        			}
-        			else if maxage == init_age.unwrap(){
-    					if entry.date.monthday() < bd1_range.unwrap().0.monthday() {
-                            bd1_range.unwrap().0 = Date::from_u32((entry.date.year() -maxage as u32)*1000+entry.date.monthday());
-        				}
-        				else{
-                            bd1_range.unwrap().1 = Date::from_u32((entry.date.year() -maxage as u32)*1000+entry.date.monthday());
-        				}
-        			}
-                }
-    		},
-			Age::Approximate(maxage) => {
-    			if entry.date.year()   - maxage as u32 -1 > bd1_range.unwrap().0.year(){ // For when a lower bound on the age has been obtained from maxage
-                    bd1_range.unwrap().0 = Date::from_u32((entry.date.year()  - maxage as u32)*1000+0101);
-    			}
-    			// Then they must have had their birthday before the init_age entry, but we don't know when
-    			if init_age.is_some() && maxage +1 == init_age.unwrap().into() && bd2_range.is_none() { 
-                    bd1_range.unwrap().0 =  Date::from_u32((entry.date.year() -maxage as u32)*1000+bd1_range.unwrap().0.monthday());
-                    bd1_range.unwrap().1 =  Date::from_u32((entry.date.year() -maxage as u32)*1000+1231);
-
-	                bd2_range = Some((Date::from_u32((entry.date.year()-maxage as u32)*1000+0101),bd1_range.unwrap().0));
-    			}    		
-    		},
-    		Age::None =>(),
-    	}
+   //      			if maxage < init_age.unwrap() { //Then we can bound their birthdate from the division
+   //      				if bd2_range.is_none(){
+   //                          bd2_range = Some((Date::from_u32((entry.date.year() -init_age.unwrap() as u32)*100_00+entry.date.monthday()),Date::from_u32((entry.date.year() -init_age.unwrap() as u32)*100_00+entry.date.monthday())));
+   //      				}
+   //      				else{
+   //          				if entry.date.monthday() < bd2_range.unwrap().0.monthday() {
+   //                              bd2_range = Some((Date::from_u32((entry.date.year()-maxage as u32)*100_00+entry.date.monthday()),bd2_range.unwrap().1));
+   //          				}
+   //          				else{
+   //                              bd2_range = Some((bd2_range.unwrap().0,Date::from_u32((entry.date.year() -maxage as u32)*100_00+entry.date.monthday())));
+   //          				}
+	  //       			}
+   //      			}
+   //      			else if maxage == init_age.unwrap(){
+   //  					if entry.date.monthday() < bd1_range.unwrap().0.monthday() {
+   //                          bd1_range = Some((Date::from_u32((entry.date.year() -maxage as u32)*100_00+entry.date.monthday()),bd1_range.unwrap().1));
+   //      				}
+   //      				else{
+   //                          bd1_range = Some((bd1_range.unwrap().0,Date::from_u32((entry.date.year() -maxage as u32)*100_00+entry.date.monthday())));
+   //      				}
+   //      			}
+   //              }
+   //  		},
+			// Age::Approximate(maxage) => {
+			// 	if bd1_range.is_none(){
+   //  				bd1_range = Some((Date::from_u32((entry.date.year() -maxage as u32 -1)*100_00+entry.date.monthday()),entry.date));
+   //                  init_age = Some(maxage);
+   //  			}
+   //  			if entry.date.year()   - maxage as u32 -1 > bd1_range.unwrap().0.year(){ // For when a lower bound on the age has been obtained from maxage
+   //                  bd1_range = Some((Date::from_u32((entry.date.year()  - maxage as u32)*100_00+0101),bd1_range.unwrap().1));
+   //  			}
+   //  			// Then they must have had their birthday before the init_age entry, but we don't know when
+   //  			if init_age.is_some() && maxage +1 == init_age.unwrap().into() && bd2_range.is_none() { 
+   //                  bd1_range =  Some((Date::from_u32((entry.date.year() -maxage as u32)*100_00+bd1_range.unwrap().0.monthday()),Date::from_u32((entry.date.year() -maxage as u32)*100_00+1231)));
+	  //               bd2_range = Some((Date::from_u32((entry.date.year()-maxage as u32)*100_00+0101),bd1_range.unwrap().0));
+   //  			}    		
+   //  		},
+   //  		Age::None =>(),
+   //  	}
     }
-
 
 
     // Bounded, first age range is before second
-    if bd1_range.is_some() && bd2_range.is_some(){
-    	if bd1_range.unwrap().1.monthday() < bd2_range.unwrap().0.monthday(){
-            return BirthdateConstraint::Bound{min_date: bd1_range.unwrap().1,max_date:bd2_range.unwrap().0};
-	    } // Bounded, second age range is before first
-	    else{
-            return BirthdateConstraint::Bound{min_date:bd2_range.unwrap().1,max_date:bd1_range.unwrap().0};
-	    }
+    if bd_range.is_some(){
+        return BirthdateConstraint::Bound{min_date:bd_range.unwrap().0,max_date:bd_range.unwrap().1};
     }// Not bounded, return exclusion zone
-    else if bd1_range.is_some() {
-        return BirthdateConstraint::KnownRegion{min_date:Date::from_u32((bd1_range.unwrap().0.year()-init_age.unwrap() as u32)+bd1_range.unwrap().0.monthday()),
-        	max_date:Date::from_u32((bd1_range.unwrap().0.year()-init_age.unwrap() as u32)+bd1_range.unwrap().1.monthday())};
+    else if known_range.is_some() {
+        return BirthdateConstraint::KnownRegion{min_date: Date::from_u32((known_range.unwrap().0.year()-known_range.unwrap().2 as u32)*100_00+known_range.unwrap().0.monthday()),
+        	                                    max_date: Date::from_u32((known_range.unwrap().1.year()-known_range.unwrap().2 as u32)*100_00+known_range.unwrap().1.monthday())};
     }
 
-    // We haven't successfully bounded the birthday, return a birthyear range
-    if bd1_range.is_some(){
-    	return BirthdateConstraint::Bound{min_date:bd1_range.unwrap().0,max_date:bd1_range.unwrap().1};
-    }
+ 
     BirthdateConstraint::None
  
 }
@@ -424,7 +501,7 @@ fn are_entries_consistent(entry1 : &AgeData, entry2: &AgeData) -> bool {
     // Check that entry1.birthdate is consistent with the data in entry2
     if entry1.birthdate.is_some() {
     	match entry2.age {
-	        Age::Exact(age2)       => if entry1.birthdate.unwrap().age_on(entry2.date).unwrap() != entry2.age {return false;}
+	        Age::Exact(_age2)       => if entry1.birthdate.unwrap().age_on(entry2.date).unwrap() != entry2.age {return false;}
 	        Age::Approximate(age2) =>{
 		   		let age_on = entry1.birthdate.unwrap().age_on(entry2.date).unwrap().to_u8_option().unwrap();
 		   		if age_on != age2 && age_on != age2+1{
@@ -523,54 +600,108 @@ pub fn interpolate(entries: &mut [AgeData]) {
 mod tests {
     use super::*;
 
+    //asserts that all permutation of an array give the same birthdate constraint
+    //This is a super crappy way of doing this, write something better :P
+    fn all_permutation_bd_equal(entries:  &[AgeData],bound: BirthdateConstraint) ->bool {
+        let mut entries_copy = entries.to_vec().clone();
+        let mut hasfailed = false;
+     
+       permute_bd_equal(&mut entries_copy,bound,entries.len(),0,&mut hasfailed);
+       if hasfailed{
+       	return false;
+       }
+
+
+    true
+
+
+
+    }
+
+
+    // Generating permutation using Heap Algorithm 
+fn permute_bd_equal(entries:  &mut [AgeData], bound: BirthdateConstraint, size:usize, n:usize, hasfailed:  &mut bool ){
+    // if size becomes 1 then prints the obtained 
+    // permutation 
+    if size == 1 { 
+	    if estimate_birthdate(entries) != bound{
+	    	*hasfailed = true;
+	    }    
+	} 
+    else{
+    	
+        for ii in 0..size { 
+            permute_bd_equal(entries,bound,size-1,n,hasfailed); 
+      
+            // if size is odd, swap first and last 
+            // element 
+            if size%2==1 {
+                //Swap element at depth with elements below it
+            	let temp: AgeData = entries[size-1];
+
+        		entries[size-1] = entries[0];
+        		entries[0] = temp;     
+        	}
+            else{ // If size is even, swap ith and last element 
+                let temp: AgeData = entries[size-1];
+
+        		entries[size-1] = entries[ii];
+        		entries[ii] = temp;      
+            }
+        }
+    } 
+}
+
+
+
 
     #[test]
     fn test_invalid_exact_age() {
     	// Age <-> Age
-        let a = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
-        let b = AgeData { age: Age::Exact(41), minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 56 };
+        let a = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 100 };
+        let b = AgeData { age: Age::Exact(41), minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 100 };
         let interp_arr = [a,b];
         let interp_arr2 = [b,a];
 
     	// Age <-> Approx Age
-        let c = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
-        let d = AgeData { age: Age::Approximate(41), minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 56 };
+        let c = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 100 };
+        let d = AgeData { age: Age::Approximate(41), minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 100 };
         let interp_arr3 = [c,d];
         let interp_arr4 = [d,c];
 
     	// Age <-> Approx Minage
-        let e = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
-        let f = AgeData { age: Age::None, minage: Age::Approximate(41), maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 56 };
+        let e = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 100 };
+        let f = AgeData { age: Age::None, minage: Age::Approximate(41), maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 100 };
         let interp_arr5 = [e,f];
         let interp_arr6 = [f,e];
 
     	// Age <-> Exact Minage
-        let g = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
-        let h = AgeData { age: Age::None, minage: Age::Exact(41), maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 56 };
+        let g = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 100 };
+        let h = AgeData { age: Age::None, minage: Age::Exact(41), maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 100 };
         let interp_arr7 = [g,h];
         let interp_arr8 = [h,g];
 
     	// Age <-> Approx Maxage
-        let i = AgeData { age: Age::Exact(18), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
-        let j = AgeData { age: Age::None, minage: Age::None, maxage: Age::Approximate(40), date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 56 };
+        let i = AgeData { age: Age::Exact(18), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 100 };
+        let j = AgeData { age: Age::None, minage: Age::None, maxage: Age::Approximate(40), date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 100 };
         let interp_arr9 = [i,j];
         let interp_arr10 = [j,i];
 
     	// Age <-> Exact Maxage
-        let k = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
-        let l = AgeData { age: Age::None, minage: Age::None, maxage: Age::Exact(40), date: Date::from_u32(20040705),birthyear:None, birthdate: None, linenum: 56 };
+        let k = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 100 };
+        let l = AgeData { age: Age::None, minage: Age::None, maxage: Age::Exact(40), date: Date::from_u32(20040705),birthyear:None, birthdate: None, linenum: 100 };
         let interp_arr11 = [k,l];
         let interp_arr12 = [l,k];
 
     	// Age <-> Birthyear
-        let m = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
-        let n = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:Some(1964), birthdate: None, linenum: 56 };
+        let m = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 100 };
+        let n = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:Some(1964), birthdate: None, linenum: 100 };
         let interp_arr13 = [m,n];
         let interp_arr14 = [n,m];
 
     	// Age <-> Birthdate
-        let o = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
-        let p = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: Some(Date::from_u32(19630705)), linenum: 56 };
+        let o = AgeData { age: Age::Exact(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 100 };
+        let p = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: Some(Date::from_u32(19630705)), linenum: 100 };
         let interp_arr15 = [o,p];
         let interp_arr16 = [p,o];
 
@@ -593,51 +724,49 @@ mod tests {
 
     }
 
-
-
- #[test]
+    #[test]
     fn test_invalid_approx_age() {
 
 
     	// Age <-> Approx Age
-        let a = AgeData { age: Age::Approximate(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
-        let b = AgeData { age: Age::Approximate(41), minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 56 };
+        let a = AgeData { age: Age::Approximate(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 100 };
+        let b = AgeData { age: Age::Approximate(41), minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 100 };
         let interp_arr1 = [a,b];
         let interp_arr2 = [b,a];
 
     	// Age <-> Approx Minage
-        let c = AgeData { age: Age::Approximate(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
-        let d = AgeData { age: Age::None, minage: Age::Approximate(41), maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 56 };
+        let c = AgeData { age: Age::Approximate(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 100 };
+        let d = AgeData { age: Age::None, minage: Age::Approximate(41), maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 100 };
         let interp_arr3 = [c,d];
         let interp_arr4 = [d,c];
 
     	// Age <-> Exact Minage
-        let e = AgeData { age: Age::Approximate(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
-        let f = AgeData { age: Age::None, minage: Age::Exact(42), maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 56 };
+        let e = AgeData { age: Age::Approximate(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 100 };
+        let f = AgeData { age: Age::None, minage: Age::Exact(42), maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 100 };
         let interp_arr5 = [e,f];
         let interp_arr6 = [f,e];
 
     	// Age <-> Approx Maxage
-        let g = AgeData { age: Age::Approximate(18), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
-        let h = AgeData { age: Age::None, minage: Age::None, maxage: Age::Approximate(40), date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 56 };
+        let g = AgeData { age: Age::Approximate(18), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 100 };
+        let h = AgeData { age: Age::None, minage: Age::None, maxage: Age::Approximate(40), date: Date::from_u32(20040605),birthyear:None, birthdate: None, linenum: 100 };
         let interp_arr7 = [g,h];
         let interp_arr8 = [h,g];
 
     	// Age <-> Exact Maxage
-        let i = AgeData { age: Age::Approximate(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
-        let j = AgeData { age: Age::None, minage: Age::None, maxage: Age::Exact(40), date: Date::from_u32(20040705),birthyear:None, birthdate: None, linenum: 56 };
+        let i = AgeData { age: Age::Approximate(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 100 };
+        let j = AgeData { age: Age::None, minage: Age::None, maxage: Age::Exact(40), date: Date::from_u32(20040705),birthyear:None, birthdate: None, linenum: 100 };
         let interp_arr9 = [i,j];
         let interp_arr10 = [j,i];
 
     	// Age <-> Birthyear
-        let k = AgeData { age: Age::Approximate(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
-        let l = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:Some(1963), birthdate: None, linenum: 56 };
+        let k = AgeData { age: Age::Approximate(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 100 };
+        let l = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:Some(1963), birthdate: None, linenum: 100 };
         let interp_arr11 = [k,l];
         let interp_arr12 = [l,k];
 
     	// Age <-> Birthdate
-        let m = AgeData { age: Age::Approximate(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 7 };
-        let n = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: Some(Date::from_u32(19630705)), linenum: 56 };
+        let m = AgeData { age: Age::Approximate(17), minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 100 };
+        let n = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040605),birthyear:None, birthdate: Some(Date::from_u32(19630705)), linenum: 100 };
         let interp_arr13 = [m,n];
         let interp_arr14 = [n,m];
 
@@ -658,33 +787,32 @@ mod tests {
 
     }
 
-
     #[test]
     fn test_invalid_exact_minage() {
     	// Exact Minage <-> Exact Maxage
-        let a = AgeData { age: Age::None, minage: Age::Exact(40), maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 53 };
-        let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::Exact(53), date: Date::from_u32(20040705),birthyear:None, birthdate: None, linenum: 24 };
+        let a = AgeData { age: Age::None, minage: Age::Exact(40), maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 100 };
+        let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::Exact(53), date: Date::from_u32(20040705),birthyear:None, birthdate: None, linenum: 100 };
 
         let interp_arr1 = [a,b];
         let interp_arr2 = [b,a];
 
     	// Exact Minage <-> Approx Maxage
-        let c = AgeData { age: Age::None, minage: Age::Exact(40), maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 53 };
-        let d = AgeData { age: Age::None, minage: Age::None, maxage: Age::Approximate(52), date: Date::from_u32(20040705),birthyear:None, birthdate: None, linenum: 24 };
+        let c = AgeData { age: Age::None, minage: Age::Exact(40), maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 100 };
+        let d = AgeData { age: Age::None, minage: Age::None, maxage: Age::Approximate(52), date: Date::from_u32(20040705),birthyear:None, birthdate: None, linenum: 100 };
 
         let interp_arr3 = [c,d];
         let interp_arr4 = [d,c];
 
     	// Exact Minage <-> Birthyear
-        let e = AgeData { age: Age::None, minage: Age::Exact(40), maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 53 };
-        let f = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:Some(1941), birthdate: None, linenum: 24 };
+        let e = AgeData { age: Age::None, minage: Age::Exact(40), maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 100 };
+        let f = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:Some(1941), birthdate: None, linenum: 100 };
 
         let interp_arr5 = [e,f];
         let interp_arr6 = [f,e];
 
     	// Exact Minage <-> Birthdate
-        let g = AgeData { age: Age::None, minage: Age::Exact(40), maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 53 };
-        let h = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:None, birthdate: Some(Date::from_u32(19400705)), linenum: 24 };
+        let g = AgeData { age: Age::None, minage: Age::Exact(40), maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 100 };
+        let h = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:None, birthdate: Some(Date::from_u32(19400705)), linenum: 100 };
 
         let interp_arr7 = [g,h];
         let interp_arr8 = [h,g];
@@ -700,32 +828,32 @@ mod tests {
 
     }
     
-  #[test]
+   #[test]
     fn test_invalid_approx_minage() {
     	// Exact Minage <-> Exact Maxage
-        let a = AgeData { age: Age::None, minage: Age::Approximate(40), maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 53 };
-        let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::Exact(53), date: Date::from_u32(20040705),birthyear:None, birthdate: None, linenum: 24 };
+        let a = AgeData { age: Age::None, minage: Age::Approximate(40), maxage: Age::None, date: Date::from_u32(1980_07_03),birthyear:None, birthdate: None, linenum: 100 };
+        let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::Exact(53), date: Date::from_u32(2004_07_05),birthyear:None, birthdate: None, linenum: 100 };
 
         let interp_arr1 = [a,b];
         let interp_arr2 = [b,a];
 
     	// Exact Minage <-> Approx Maxage
-        let c = AgeData { age: Age::None, minage: Age::Approximate(40), maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 53 };
-        let d = AgeData { age: Age::None, minage: Age::None, maxage: Age::Approximate(53), date: Date::from_u32(20040705),birthyear:None, birthdate: None, linenum: 24 };
+        let c = AgeData { age: Age::None, minage: Age::Approximate(40), maxage: Age::None, date: Date::from_u32(1980_07_03),birthyear:None, birthdate: None, linenum: 100 };
+        let d = AgeData { age: Age::None, minage: Age::None, maxage: Age::Approximate(53), date: Date::from_u32(2004_07_05),birthyear:None, birthdate: None, linenum: 100 };
 
         let interp_arr3 = [c,d];
         let interp_arr4 = [d,c];
 
     	// Exact Minage <-> Birthyear
-        let e = AgeData { age: Age::None, minage: Age::Approximate(40), maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 53 };
-        let f = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:Some(1941), birthdate: None, linenum: 24 };
+        let e = AgeData { age: Age::None, minage: Age::Approximate(40), maxage: Age::None, date: Date::from_u32(1980_07_03),birthyear:None, birthdate: None, linenum: 100 };
+        let f = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2004_07_05),birthyear:Some(1941), birthdate: None, linenum: 100 };
 
         let interp_arr5 = [e,f];
         let interp_arr6 = [f,e];
 
     	// Exact Minage <-> Birthdate
-        let g = AgeData { age: Age::None, minage: Age::Approximate(40), maxage: Age::None, date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 53 };
-        let h = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:None, birthdate: Some(Date::from_u32(19400705)), linenum: 24 };
+        let g = AgeData { age: Age::None, minage: Age::Approximate(40), maxage: Age::None, date: Date::from_u32(1980_07_03),birthyear:None, birthdate: None, linenum: 100 };
+        let h = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2004_07_05),birthyear:None, birthdate: Some(Date::from_u32(1940_07_05)), linenum: 100 };
 
         let interp_arr7 = [g,h];
         let interp_arr8 = [h,g];
@@ -741,20 +869,19 @@ mod tests {
 
     }
 
-
     #[test]
     fn test_invalid_exact_maxage() {
 
     	// Exact Maxage <-> Birthyear
-        let a = AgeData { age: Age::None, minage: Age::None, maxage: Age::Exact(18), date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 53 };
-        let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:Some(1960), birthdate: None, linenum: 24 };
+        let a = AgeData { age: Age::None, minage: Age::None, maxage: Age::Exact(18), date: Date::from_u32(1980_07_03),birthyear:None, birthdate: None, linenum: 100 };
+        let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2004_07_05),birthyear:Some(1960), birthdate: None, linenum: 100 };
 
         let interp_arr1 = [a,b];
         let interp_arr2 = [b,a];
 
     	// Exact Maxage <-> Birthdate
-        let c = AgeData { age: Age::None, minage: Age::None, maxage: Age::Exact(18), date: Date::from_u32(19800705),birthyear:None, birthdate: None, linenum: 53 };
-        let d = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:None, birthdate: Some(Date::from_u32(19610703)), linenum: 24 };
+        let c = AgeData { age: Age::None, minage: Age::None, maxage: Age::Exact(18), date: Date::from_u32(1980_07_05),birthyear:None, birthdate: None, linenum: 100 };
+        let d = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2004_07_05),birthyear:None, birthdate: Some(Date::from_u32(1961_07_03)), linenum: 100 };
 
         let interp_arr3 = [c,d];
         let interp_arr4 = [d,c];
@@ -766,20 +893,19 @@ mod tests {
 
     }
 
-
     #[test]
     fn test_invalid_approx_maxage() {
 
     	// Approx Maxage <-> Birthyear
-        let a = AgeData { age: Age::None, minage: Age::None, maxage: Age::Approximate(18), date: Date::from_u32(19800703),birthyear:None, birthdate: None, linenum: 53 };
-        let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:Some(1960), birthdate: None, linenum: 24 };
+        let a = AgeData { age: Age::None, minage: Age::None, maxage: Age::Approximate(18), date: Date::from_u32(1980_07_03),birthyear:None, birthdate: None, linenum: 100 };
+        let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2004_07_05),birthyear:Some(1960), birthdate: None, linenum: 100 };
 
         let interp_arr1 = [a,b];
         let interp_arr2 = [b,a];
 
     	// Approx Maxage <-> Birthdate
-        let c = AgeData { age: Age::None, minage: Age::None, maxage: Age::Approximate(18), date: Date::from_u32(19800705),birthyear:None, birthdate: None, linenum: 53 };
-        let d = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:None, birthdate: Some(Date::from_u32(19600703)), linenum: 24 };
+        let c = AgeData { age: Age::None, minage: Age::None, maxage: Age::Approximate(18), date: Date::from_u32(1980_07_05),birthyear:None, birthdate: None, linenum: 100 };
+        let d = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2004_07_05),birthyear:None, birthdate: Some(Date::from_u32(1960_07_03)), linenum: 100 };
 
         let interp_arr3 = [c,d];
         let interp_arr4 = [d,c];
@@ -795,15 +921,15 @@ mod tests {
     fn test_invalid_birthyear() {
 
     	// Birthyear <-> Birthyear
-        let a = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(19800703),birthyear:Some(1961), birthdate: None, linenum: 53 };
-        let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:Some(1960), birthdate: None, linenum: 24 };
+        let a = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(1980_07_03),birthyear:Some(1961), birthdate: None, linenum: 100 };
+        let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2004_07_05),birthyear:Some(1960), birthdate: None, linenum: 100 };
 
         let interp_arr1 = [a,b];
         let interp_arr2 = [b,a];
 
     	// Birthyear <-> Birthdate
-        let c = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(19800705),birthyear:Some(1961), birthdate: None, linenum: 53 };
-        let d = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:None, birthdate: Some(Date::from_u32(19600703)), linenum: 24 };
+        let c = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(1980_07_05),birthyear:Some(1961), birthdate: None, linenum: 100 };
+        let d = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2004_07_05),birthyear:None, birthdate: Some(Date::from_u32(19600703)), linenum: 100 };
 
         let interp_arr3 = [c,d];
         let interp_arr4 = [d,c];
@@ -819,8 +945,8 @@ mod tests {
     fn test_invalid_birthdate() {
 
     	// Birthdate <-> Birthdate
-        let a = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(19800705),birthyear:None, birthdate: Some(Date::from_u32(19600704)), linenum: 53 };
-        let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(20040705),birthyear:None, birthdate: Some(Date::from_u32(19600703)), linenum: 24 };
+        let a = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(1980_07_05),birthyear:None, birthdate: Some(Date::from_u32(19600704)), linenum: 100 };
+        let b = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2004_07_05),birthyear:None, birthdate: Some(Date::from_u32(19600703)), linenum: 100 };
 
         let interp_arr1 = [a,b];
         let interp_arr2 = [b,a];
@@ -831,14 +957,167 @@ mod tests {
     }
 
     #[test]
-    fn test_valid_justages() {
-        let a = AgeData { age: Age::Exact(20), minage: Age::None, maxage: Age::None, date: Date::from_u32(20001231),birthyear:None, birthdate: None, linenum: 100 };
-        let b = AgeData { age: Age::Exact(24), minage: Age::None, maxage: Age::None, date: Date::from_u32(20041231),birthyear:None, birthdate: None, linenum: 53 };
-        let c = AgeData { age: Age::Exact(29), minage: Age::None, maxage: Age::None, date: Date::from_u32(20091231),birthyear:None, birthdate: None, linenum: 24 };
+    fn test_bound_no_data() {
+    	// Make sure no age data works
+        let a1 = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_08_05),birthyear:None, birthdate: None, linenum: 100 };
+        let a2 = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_10_12),birthyear:None, birthdate: None, linenum: 100 };
+        let a3 = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2001_07_04),birthyear:None, birthdate: None, linenum: 100 };
+        let a4 = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2007_03_05),birthyear:None, birthdate: None, linenum: 100 };
 
-        let interp_arr = [a,b,c];
+        let interp_arr1 = [a1,a2,a3,a4];
 
-        assert!(is_agedata_consistent(&interp_arr));
+        assert_eq!(estimate_birthdate(&interp_arr1),BirthdateConstraint::None);
+
+    }
+
+    #[test]
+    fn test_bound_age_range() {
+    	// See one instance of two different ages in one year
+        let a1 = AgeData { age: Age::Exact(20), minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_08_05),birthyear:None, birthdate: None, linenum: 100 };
+        let a2 = AgeData { age: Age::Exact(21), minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_10_12),birthyear:None, birthdate: None, linenum: 100 };
+        let a3 = AgeData { age: Age::Exact(21), minage: Age::None, maxage: Age::None, date: Date::from_u32(2001_07_04),birthyear:None, birthdate: None, linenum: 100 };
+        let a4 = AgeData { age: Age::Exact(27), minage: Age::None, maxage: Age::None, date: Date::from_u32(2007_03_05),birthyear:None, birthdate: None, linenum: 100 };
+
+        let mut interp_arr1 = [a1,a2,a4,a3,a4];
+        let bound1 = BirthdateConstraint::Bound{min_date: Date::from_u32(1979_08_05),max_date:Date::from_u32(1979_10_12)};
+
+        // See two instances of different ages in a year, bound should be tighter
+        let b1 = AgeData { age: Age::Exact(20), minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_08_05),birthyear:None, birthdate: None, linenum: 100 };
+        let b2 = AgeData { age: Age::Exact(21), minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_10_12),birthyear:None, birthdate: None, linenum: 100 };
+        let b3 = AgeData { age: Age::Exact(21), minage: Age::None, maxage: Age::None, date: Date::from_u32(2001_07_04),birthyear:None, birthdate: None, linenum: 100 };
+        let b4 = AgeData { age: Age::Exact(27), minage: Age::None, maxage: Age::None, date: Date::from_u32(2007_03_05),birthyear:None, birthdate: None, linenum: 100 };
+        let b5 = AgeData { age: Age::Exact(28), minage: Age::None, maxage: Age::None, date: Date::from_u32(2007_09_15),birthyear:None, birthdate: None, linenum: 100 };
+
+        let mut interp_arr2 = [b1,b2,b3,b4,b5];
+        let bound2 = BirthdateConstraint::Bound{min_date: Date::from_u32(1979_08_05),max_date:Date::from_u32(1979_09_15)};
+
+    	// See an age change, but split between two years
+        let c1 = AgeData { age: Age::Exact(20), minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_08_05),birthyear:None, birthdate: None, linenum: 100 };
+        let c2 = AgeData { age: Age::Exact(21), minage: Age::None, maxage: Age::None, date: Date::from_u32(2001_06_12),birthyear:None, birthdate: None, linenum: 100 };
+        let c3 = AgeData { age: Age::Exact(25), minage: Age::None, maxage: Age::None, date: Date::from_u32(2004_10_12),birthyear:None, birthdate: None, linenum: 100 };
+        let c4 = AgeData { age: Age::Exact(26), minage: Age::None, maxage: Age::None, date: Date::from_u32(2006_03_05),birthyear:None, birthdate: None, linenum: 100 };
+
+        let mut interp_arr3 = [c1,c2,c3,c4];
+        let bound3 = BirthdateConstraint::Bound{min_date: Date::from_u32(1979_08_05),max_date:Date::from_u32(1979_10_12)};
+
+    	// See two age changes, split between years
+        let d1 = AgeData { age: Age::Exact(20), minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_08_05),birthyear:None, birthdate: None, linenum: 100 };
+        let d2 = AgeData { age: Age::Exact(21), minage: Age::None, maxage: Age::None, date: Date::from_u32(2001_06_12),birthyear:None, birthdate: None, linenum: 100 };
+        let d3 = AgeData { age: Age::Exact(25), minage: Age::None, maxage: Age::None, date: Date::from_u32(2004_10_12),birthyear:None, birthdate: None, linenum: 100 };
+        let d4 = AgeData { age: Age::Exact(26), minage: Age::None, maxage: Age::None, date: Date::from_u32(2006_03_05),birthyear:None, birthdate: None, linenum: 100 };
+        let d5 = AgeData { age: Age::Exact(29), minage: Age::None, maxage: Age::None, date: Date::from_u32(2008_09_15),birthyear:None, birthdate: None, linenum: 100 };
+
+        let mut interp_arr4 = [d1,d2,d3,d4,d5];
+        let bound4 = BirthdateConstraint::Bound{min_date: Date::from_u32(1979_08_05),max_date:Date::from_u32(1979_09_15)};
+
+        assert!(all_permutation_bd_equal(&mut interp_arr1,bound1));
+        assert!(all_permutation_bd_equal(&mut interp_arr2,bound2));
+        assert!(all_permutation_bd_equal(&mut interp_arr3,bound3));
+        assert!(all_permutation_bd_equal(&mut interp_arr4,bound4));
+
+    }
+
+    #[test]
+    fn test_known_age_range() {
+        //All ages from one year, no age change
+        let a1 = AgeData { age: Age::Exact(20), minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_08_05),birthyear:None, birthdate: None, linenum: 100 };
+        let a2 = AgeData { age: Age::Exact(20), minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_10_12),birthyear:None, birthdate: None, linenum: 100 };
+        let a3 = AgeData { age: Age::Exact(20), minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_07_04),birthyear:None, birthdate: None, linenum: 100 };
+        let a4 = AgeData { age: Age::Exact(20), minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_03_05),birthyear:None, birthdate: None, linenum: 100 };
+
+        let mut interp_arr1 = [a1,a2,a3,a4];
+        let known1 = BirthdateConstraint::KnownRegion{min_date: Date::from_u32(1980_03_05),max_date:Date::from_u32(1980_10_12)};
+        
+        //Ages from different years, no age change
+        let b1 = AgeData { age: Age::Exact(20), minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_08_05),birthyear:None, birthdate: None, linenum: 100 };
+        let b2 = AgeData { age: Age::Exact(21), minage: Age::None, maxage: Age::None, date: Date::from_u32(2001_10_12),birthyear:None, birthdate: None, linenum: 100 };
+        let b3 = AgeData { age: Age::Exact(24), minage: Age::None, maxage: Age::None, date: Date::from_u32(2004_07_04),birthyear:None, birthdate: None, linenum: 100 };
+        let b4 = AgeData { age: Age::Exact(26), minage: Age::None, maxage: Age::None, date: Date::from_u32(2006_03_05),birthyear:None, birthdate: None, linenum: 100 };
+        
+        let mut interp_arr2 = [b1,b2,b3,b4];
+
+
+        assert!(all_permutation_bd_equal(&mut interp_arr1,known1));
+        assert!(all_permutation_bd_equal(&mut interp_arr2,known1));
+    }
+
+    #[test]
+    fn test_approx_age(){
+		// Only an approximate age
+        let a1 = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_08_05),birthyear:None, birthdate: None, linenum: 100 };
+        let a2 = AgeData { age: Age::Approximate(20), minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_10_12),birthyear:None, birthdate: None, linenum: 100 };
+        let a3 = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2001_07_04),birthyear:None, birthdate: None, linenum: 100 };
+        let mut interp_arr1 = [a1,a2,a3];
+        let bound1 = BirthdateConstraint::Bound{min_date: Date::from_u32(1979_01_01),max_date:Date::from_u32(1979_12_31)};
+
+
+        // Update a known age range to a birthdate range using an approximate age
+        let b1 = AgeData { age: Age::Exact(20), minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_08_05),birthyear:None, birthdate: None, linenum: 100 };
+        let b2 = AgeData { age: Age::Approximate(20), minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_10_12),birthyear:None, birthdate: None, linenum: 100 };
+        let b3 = AgeData { age: Age::Exact(21), minage: Age::None, maxage: Age::None, date: Date::from_u32(2001_07_04),birthyear:None, birthdate: None, linenum: 100 };
+        let b4 = AgeData { age: Age::Exact(27), minage: Age::None, maxage: Age::None, date: Date::from_u32(2007_03_05),birthyear:None, birthdate: None, linenum: 100 };
+        let mut interp_arr2 = [b1,b2,b3,b4];
+        let bound2 = BirthdateConstraint::Bound{min_date: Date::from_u32(1979_08_05),max_date:Date::from_u32(1979_12_31)};
+
+        assert!(all_permutation_bd_equal(&mut interp_arr1,bound1));
+        assert!(all_permutation_bd_equal(&mut interp_arr2,bound2));
+    }
+
+    #[test]
+    fn test_age_minage(){
+   	// Age <-> Minage
+        let a1 = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_10_12),birthyear:None, birthdate: None, linenum: 100 };
+        let a2 = AgeData { age: Age::None, minage: Age::Exact(40), maxage: Age::None, date: Date::from_u32(2000_11_13),birthyear:None, birthdate: None, linenum: 100 };
+        let a3 = AgeData { age: Age::Exact(39), minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_08_05),birthyear:None, birthdate: None, linenum: 100 };
+
+        let interp_arr1 = [a1,a2,a3];
+        let interp_arr1_1 = [a1,a3,a2];
+        let known1 = BirthdateConstraint::Bound{min_date: Date::from_u32(1960_08_05),max_date:Date::from_u32(1960_11_13)};
+       
+    //     assert_eq!(estimate_birthdate(&interp_arr1),known1);
+    //     assert_eq!(estimate_birthdate(&interp_arr1_1),known1);  	
+    // }
+
+    // #[test]
+    // fn test_minage() {
+    // 	// Just exact minage, upper bound on birthdate
+    //     let a1 = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_10_12),birthyear:None, birthdate: None, linenum: 100 };
+    //     let a2 = AgeData { age: Age::None, minage: Age::Exact(40), maxage: Age::None, date: Date::from_u32(2000_08_05),birthyear:None, birthdate: None, linenum: 100 };
+    //     let a3 = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_10_12),birthyear:None, birthdate: None, linenum: 100 };
+
+    //     let interp_arr1 = [a1,a2,a3];
+    //     let known1 = BirthdateConstraint::KnownRegion{min_date: Date::from_u32(0000_01_01),max_date:Date::from_u32(1960_08_05)};
+       
+    //     // Just approx minage, upper bound on birthdate
+    //     let b1 = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_10_12),birthyear:None, birthdate: None, linenum: 100 };
+    //     let b2 = AgeData { age: Age::None, minage: Age::Approximate(39), maxage: Age::None, date: Date::from_u32(2000_08_05),birthyear:None, birthdate: None, linenum: 100 };
+    //     let b3 = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_10_12),birthyear:None, birthdate: None, linenum: 100 };
+
+    //     let interp_arr2 = [b1,b2,b3];
+    //     let known2 = BirthdateConstraint::KnownRegion{min_date: Date::from_u32(0000_01_01),max_date:Date::from_u32(1960_12_31)};
+
+    //     // Two exact minages, tighten bound
+    //     let c1 = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_10_12),birthyear:None, birthdate: None, linenum: 100 };
+    //     let c2 = AgeData { age: Age::None, minage: Age::Exact(40), maxage: Age::None, date: Date::from_u32(2000_08_05),birthyear:None, birthdate: None, linenum: 100 };
+    //     let c3 = AgeData { age: Age::None, minage: Age::Exact(45), maxage: Age::None, date: Date::from_u32(2002_10_12),birthyear:None, birthdate: None, linenum: 100 };
+
+    //     let interp_arr3 = [c1,c2,c3];
+    //     let known3 = BirthdateConstraint::KnownRegion{min_date: Date::from_u32(0000_01_01),max_date:Date::from_u32(1957_10_12)};
+
+    //     // An exact and an approx minage, tighten bound
+    //     let d1 = AgeData { age: Age::None, minage: Age::None, maxage: Age::None, date: Date::from_u32(2000_10_12),birthyear:None, birthdate: None, linenum: 100 };
+    //     let d2 = AgeData { age: Age::None, minage: Age::Exact(40), maxage: Age::None, date: Date::from_u32(2000_08_05),birthyear:None, birthdate: None, linenum: 100 };
+    //     let d3 = AgeData { age: Age::None, minage: Age::Approximate(45), maxage: Age::None, date: Date::from_u32(2002_10_12),birthyear:None, birthdate: None, linenum: 100 };
+
+    //     let interp_arr4 = [d1,d2,d3];
+    //     let interp_arr4_1 = [d1,d3,d2];
+    //     let known4 = BirthdateConstraint::KnownRegion{min_date: Date::from_u32(0000_01_01),max_date:Date::from_u32(1957_12_31)};       
+       
+    //     assert_eq!(estimate_birthdate(&interp_arr1),known1);
+    //     assert_eq!(estimate_birthdate(&interp_arr2),known2);
+    //     //assert_eq!(estimate_birthdate(&interp_arr3),known3);
+    //     // assert_eq!(estimate_birthdate(&interp_arr4),known4);
+    //     // assert_eq!(estimate_birthdate(&interp_arr4_1),known4);
 
     }
 
