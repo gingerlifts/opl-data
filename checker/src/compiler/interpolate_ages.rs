@@ -228,7 +228,7 @@ fn estimate_birthdate(entries: &[AgeData]) -> BirthdateConstraint
                         _=> shifted_date, 
                     };
                     
-                    
+
                     //then they haven't had their birthday yet in the known region
                     if shifted_age == known_range.unwrap().2{
 
@@ -243,11 +243,11 @@ fn estimate_birthdate(entries: &[AgeData]) -> BirthdateConstraint
 
                 //need to update the age here also
                 if bd_range.unwrap().0 < bd_min{
-                        bd_range = Some((bd_min,bd_range.unwrap().1,bd_range.unwrap().2,bd_range.unwrap().3));
+                        bd_range = Some((bd_min,bd_range.unwrap().1,shifted_age,bd_range.unwrap().3));
                 }
                 
                 if bd_range.unwrap().1 > bd_max{
-                        bd_range = Some((bd_range.unwrap().0,bd_max,bd_range.unwrap().2,bd_range.unwrap().3));
+                        bd_range = Some((bd_range.unwrap().0,bd_max,bd_range.unwrap().2,shifted_age+1));
                 }
 
             }
@@ -259,12 +259,30 @@ fn estimate_birthdate(entries: &[AgeData]) -> BirthdateConstraint
             // Use minage to tighten our birthdate bound slightly
         match entry.minage{ 
             Age::Exact(minage) => {
+              let shifted_minage :u8;
+              let shifted_date: Date;
+
+              //Shift the age and date to be from reference_year
+              if reference_year.is_some(){
+                  shifted_minage = (minage as i32 + (reference_year.unwrap() as i32- entry.date.year() as i32)) as u8;
+                  shifted_date = Date::from_u32(reference_year.unwrap()*100_00+entry.date.monthday());
+              }
+              else{
+                  reference_year = Some(entry.date.year());
+                  shifted_minage = minage;
+                  shifted_date = entry.date;
+              }
+
+
+
                 if bd_range.is_none(){
-                    bd_range = Some((Date::from_u32(00000101),
-                        Date::from_u32((entry.date.year()-minage as u32)*100_00+entry.date.monthday()),
-                        255,
-                        minage));
+                    if known_range.is_none(){}
+                        bd_range = Some((Date::from_u32(00000101), entry.date, 0,minage));
+                    else{
+
+                    }
                 }
+
                 else{
         //                 if (entry.date.year()    - minage    as u32) < bd1_range.unwrap().1.year(){
         //                     bd1_range.unwrap().1 = Date::from_u32((entry.date.year()     - minage as u32)*100_00+1231);
