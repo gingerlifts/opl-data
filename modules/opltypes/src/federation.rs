@@ -348,7 +348,7 @@ pub enum Federation {
     /// Croatian Powerlifting Organization
     #[strum(to_string = "HPO", serialize = "hpo")]
     HPO,
-    
+
     /// Hantang Powerlifting
     #[strum(to_string = "HTPL", serialize = "htpl")]
     HTPL,
