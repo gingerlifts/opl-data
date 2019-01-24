@@ -569,7 +569,7 @@ pub enum Federation {
     #[strum(to_string = "ScottishPL", serialize = "scottishpl")]
     ScottishPL,
 
-    /// Old US based federation, no idea what this stands for.
+    /// State Correctional Institution, I think.
     #[strum(to_string = "SCI", serialize = "sci")]
     SCI,
 

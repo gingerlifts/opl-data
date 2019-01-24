@@ -53,7 +53,7 @@ B. Bergeron,90,M,Novice,252.5,157.5,272.5,682.5,SBD,Single-ply,2
 D. Carr,90,M,Novice,250,157.5,260,667.5,SBD,Single-ply,4
 C. Grubbs,90,M,Novice,257.5,172.5,245,675,SBD,Single-ply,3
 T. Rhoades,90,M,Novice,210,160,255,625,SBD,Single-ply,6
-C. Noble,90,M,Novice,220,132.5,252.5,605,SBD,Single-ply,7
+Cecil Noble,90,M,Novice,220,132.5,252.5,605,SBD,Single-ply,7
 C. George,90,M,Novice,215,132.5,255,602.5,SBD,Single-ply,8
 C. Lindblad,90,M,Novice,227.5,142.5,230,600,SBD,Single-ply,9
 G. Edwards,90,M,Novice,210,137.5,242.5,590,SBD,Single-ply,10
@@ -89,7 +89,7 @@ C. Vinnaneuva,110,M,Novice,215,142.5,230,587.5,SBD,Single-ply,9
 R. Herron,110,M,Novice,205,122.5,260,587.5,SBD,Single-ply,10
 D. Siegel,110,M,Novice,195,147.5,215,557.5,SBD,Single-ply,11
 V. Samsel,110,M,Novice,195,135,205,535,SBD,Single-ply,12
-R. Windsor,125,M,Novice,300,200,265,765,SBD,Single-ply,1
+Robert Windsor,125,M,Novice,300,200,265,765,SBD,Single-ply,1
 G. Fields,125,M,Novice,320,172.5,272.5,765,SBD,Single-ply,2
 T. Langston,125,M,Novice,250,150,237.5,637.5,SBD,Single-ply,3
 B. Foster,125,M,Novice,200,145,227.5,572.5,SBD,Single-ply,4
@@ -163,7 +163,7 @@ R. Daniel,100,M,Masters,202.5,160,192.5,555,SBD,Single-ply,2
 B. Chapoton,110,M,Masters,277.5,205,305,787.5,SBD,Single-ply,1
 H. Hudson,125,M,Masters,257.5,182.5,217.5,657.5,SBD,Single-ply,1
 D. Martin,125+,M,Masters,320,187.5,342.5,850,SBD,Single-ply,1
-Vicki Steenrod,52,F,Open,145,85,160,390,SBD,Single-ply,1
+Vicky Steenrod,52,F,Open,145,85,160,390,SBD,Single-ply,1
 M. McGhee,52,F,Open,92.5,57.5,127.5,277.5,SBD,Single-ply,2
 T. Talton,52,F,Open,82.5,40,117.5,240,SBD,Single-ply,3
 S. Aden,56,F,Open,82.5,50,117.5,250,SBD,Single-ply,1
