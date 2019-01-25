@@ -637,7 +637,7 @@ pub enum Federation {
     #[strum(to_string = "USAPL", serialize = "usapl")]
     USAPL,
 
-    /// Ujedinjeni Srpski powerlifting savez.
+    /// Catch-all for overseas meets done by US Military members
     #[strum(to_string = "USMilAbroad", serialize = "usmilabroad")]
     USMilAbroad,
 

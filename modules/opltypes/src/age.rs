@@ -7,12 +7,10 @@ use serde::ser::Serialize;
 use std::fmt;
 use std::num;
 use std::str::FromStr;
-use std::cmp::Ordering;
-
 
 /// The reported age of the lifter at a given meet.
 /// In the CSV file, approximate ages are reported with '.5' added.
-#[derive(Copy, Clone, Debug, PartialEq, Eq)]
+#[derive(Copy, Clone, Debug, PartialEq)]
 pub enum Age {
     /// The exact age of the lifter.
     Exact(u8),
@@ -29,20 +27,13 @@ pub enum Age {
     None,
 }
 
-
-
+impl Default for Age {
+    fn default() -> Age {
+        Age::None
+    }
+}
 
 impl Age {
-
-    // Convert to an Option<u8>, used by interpolate_ages
-    pub fn to_u8_option(self) -> Option<u8> {
-        match self {
-            Age::Exact(age) | Age::Approximate(age) => Some(age),
-            Age::None => None,
-        }
-    }
-
-
     /// Convert from an i64. Used by the TOML deserializer.
     pub fn from_i64(n: i64) -> Result<Self, &'static str> {
         // Some of the CONFIG.toml files hardcode 999 to mean "max Age".
@@ -133,39 +124,6 @@ impl Age {
                 Age::None => false,
             },
             Age::None => false,
-        }
-    }
-}
-
-// TODO: Look up what this actually does :P
-impl PartialOrd for Age {
-    fn partial_cmp(&self, other: &Age) -> Option<Ordering> {
-        Some(self.cmp(other))
-    }
-}
-impl Default for Age {
-        fn default() -> Age { Age::None }
-}
-
-//Order so that approximate ages are greater than exact ages, e.g. ~14 > 14.
-impl Ord for Age {
-    fn cmp(&self, other: &Age) -> Ordering {
-        match self {
-            Age::Exact(age) => match other {
-                Age::Exact(other_age) => age.cmp(&other_age),
-                Age::Approximate(other_age) => age.cmp(&(other_age +1)),
-                Age::None => Ordering::Less,
-            },
-            Age::Approximate(age) => match other {
-                Age::Exact(other_age) => (age+1).cmp(&other_age),
-                Age::Approximate(other_age) => age.cmp(&other_age),
-                Age::None => Ordering::Less,
-            },
-            Age::None => match other {
-                Age::Exact(_) => Ordering::Greater,
-                Age::Approximate(_) => Ordering::Greater,
-                Age::None => Ordering::Equal,
-            },
         }
     }
 }
