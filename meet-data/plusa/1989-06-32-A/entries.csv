@@ -1,4 +1,4 @@
-Name,WeightClassKg,Division,Sex,Best3SqutKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
+Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 D. Wisniewski,44,Collegiate,F,77.5,32.5,97.5,207.5,SBD,Single-ply,1
 K. Ashton,44,Collegiate,F,62.5,35,90,187.5,SBD,Single-ply,2
 M. Stipano,48,Collegiate,F,102.5,55,132.5,290,SBD,Single-ply,1
@@ -85,7 +85,7 @@ T. Booth,90,Collegiate,M,272.5,162.5,272.5,707.5,SBD,Single-ply,2
 E. Cabrera,90,Collegiate,M,257.5,157.5,277.5,692.5,SBD,Single-ply,3
 C. Taylor,90,Collegiate,M,262.5,172.5,240,675,SBD,Single-ply,4
 S. Hodsden,90,Collegiate,M,250,162.5,245,657.5,SBD,Single-ply,5
-S. Keen,90,Collegiate,M,237.5,167.5,245,650,SBD,Single-ply,6
+S. Keen #1,90,Collegiate,M,237.5,167.5,245,650,SBD,Single-ply,6
 K. Hartzell,90,Collegiate,M,240,157.5,245,642.5,SBD,Single-ply,7
 D. Foster,90,Collegiate,M,,,,,SBD,Single-ply,DQ
 R. Phillips,90,Collegiate,M,,,,,SBD,Single-ply,DQ

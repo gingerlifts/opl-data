@@ -1,4 +1,4 @@
-Name,WeightClassKg,,Division,Sex,Event,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench3Kg,Best3BenchKg,Bench4Kg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Age,Equipment,Place
+Name,WeightClassKg,BodyweightKg,Division,Sex,Event,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench3Kg,Best3BenchKg,Bench4Kg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Age,Equipment,Place
 Bonnie Aerts,56,,Open,F,B,,,,,,,62.5,65,,,,,,62.5,,Single-ply,1
 T. Kalfos,75,,Open,F,B,,,,,,,52.5,,,,,,,52.5,,Single-ply,1
 C. Westin,75,,Open,F,B,,,,,,,,,,,,,,,,Single-ply,DQ
@@ -74,7 +74,7 @@ M. Vizcarra,90,,Open,M,SBD,,,,190,,,157.5,,,,,215,,562.5,,Single-ply,4
 Travis Grevon,90,,Open,M,SBD,,,,,,,,,,,,,,,,Single-ply,DQ
 Bradley King,100,,Open,M,SBD,,,,325,,,187.5,,,,,290,,802.5,,Single-ply,1
 M. Musto,100,,Open,M,SBD,,,,280,,,202.5,,,,,292.5,,775,,Single-ply,2
-Jerry Tremblay Jr,100,,Open,M,SBD,,,,252.5,,,177.5,,,,,282.5,,710,,Single-ply,3
+Jerry Tremblay Jr,100,,Open,M,SBD,,,,252.5,,,177.5,,,,,282.5,,712.5,,Single-ply,3
 J. Blanco,100,,Open,M,SBD,,,,235,,,160,,,,,217.5,,612.5,,Single-ply,4
 J. Huggins,100,,Open,M,SBD,,,,175,,,145,,,,,167.5,,487.5,,Single-ply,5
 M. Wild,110,,Open,M,SBD,,,,292.5,,,227.5,,,,,310,,830,,Single-ply,1

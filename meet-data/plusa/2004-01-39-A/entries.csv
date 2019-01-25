@@ -1,4 +1,4 @@
-Name,BodyweightKg,WeightClassKg,Division,Sex,Event,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,,,,Best3DeadliftKg,TotalKg,Age,Place
+Name,BodyweightKg,WeightClassKg,Division,Sex,Event,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Age,Place
 S. Dussault,,90,Amateur Masters 40-44,M,B,Multi-ply,,,,,,,,185.97,,,,,185.97,,1
 Bob Calhoun,,110,Amateur Masters 40-44,M,B,Multi-ply,,,,,,,,213.19,,,,,213.19,,1
 Buster Gooden,,140,Amateur Masters 50-54,M,B,Multi-ply,,,,,,,,226.8,,,,,226.8,,1
@@ -135,8 +135,8 @@ Mike Miller,,140+,Pro Open,M,SBD,Multi-ply,,460.4,-505.76,460.4,308.44,319.78,34
 Tom Skiver,150.14,140+,Pro Open,M,SBD,Multi-ply,385.55,408.23,-430.91,408.23,290.3,317.52,-328.85,317.52,340.19,362.87,-369.68,362.87,1088.62,37,2
 Tim Harold Jr,,140+,Pro Open,M,SBD,Multi-ply,,,,385.55,,,,278.96,,,,317.52,982.03,,3
 J. Gutridge,,140+,Pro Open,M,SBD,Multi-ply,,,,362.87,,,,281.23,,,,317.52,961.62,,4
-Tony Hutson,,140+,Pro Open,M,SBD,Multi-ply,417.31,-462.66,-462.66,,290.3,-306.18,-317.52,,-317.52,-324.32,,,,41,DQ
-Mike Ruggiera,162.84,140+,Pro Open,M,SBD,Multi-ply,430.91,-467.2,-467.2,,281.23,-294.84,-294.84,281.23,,,,,,,DQ
+Tony Hutson,,140+,Pro Open,M,SBD,Multi-ply,417.31,-462.66,-462.66,417.31,290.3,-306.18,-317.52,290.3,-317.52,-324.32,,,,41,DQ
+Mike Ruggiera,162.84,140+,Pro Open,M,SBD,Multi-ply,430.91,-467.2,-467.2,430.91,281.23,-294.84,-294.84,281.23,,,,,,,DQ
 Sean Hailey,,90,Pro Submasters,M,SBD,Multi-ply,,,,294.84,,,,215.46,,,,233.6,743.89,,1
 Mark Plescia,,100,Pro Submasters,M,SBD,Multi-ply,,,,344.73,,,,213.19,,,,263.08,821,,1
 David Althoff,,100,Pro Submasters,M,SBD,Multi-ply,,,,294.84,,,,167.83,,,,249.48,712.14,,2
