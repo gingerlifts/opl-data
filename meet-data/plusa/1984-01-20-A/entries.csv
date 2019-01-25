@@ -1,4 +1,4 @@
-Name,Age,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,,Event,Equipment,Place
+Name,Age,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Ernesto Milian,,60,Open,M,208.65,117.93,249.48,576.06,SBD,Single-ply,1
 Tony Conyers,,67.5,Open,M,240.4,176.9,263.08,680.39,SBD,Single-ply,1
 Sherman Johnson,,67.5,Open,M,190.51,142.88,238.14,571.53,SBD,Single-ply,2
@@ -20,7 +20,7 @@ Jorge Garcia,,125,Open,M,317.52,233.6,317.52,868.63,SBD,Single-ply,1
 F. Zocchi,,125,Open,M,294.84,226.8,294.84,816.47,SBD,Single-ply,2
 M. Dorman,,,Class II & Below,F,127.01,72.57,147.42,347,SBD,Single-ply,1
 C. Roydhouse,,,Class II & Below,F,83.91,47.63,120.2,251.74,SBD,Single-ply,2
-k. Bravton,,,Class II & Below,F,104.33,56.7,117.93,278.96,SBD,Single-ply,3
+K. Bravton,,,Class II & Below,F,104.33,56.7,117.93,278.96,SBD,Single-ply,3
 A. Walden,,,Class II & Below,F,97.52,49.9,90.72,238.14,SBD,Single-ply,4
 L. Roberts,,,Class II & Below,F,49.9,29.48,61.24,140.61,SBD,Single-ply,5
 L. Vaillancourt,,,Class II & Above,F,115.67,74.84,158.76,349.27,SBD,Single-ply,1

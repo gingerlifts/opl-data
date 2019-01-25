@@ -638,6 +638,10 @@ pub enum Federation {
     USAPL,
 
     /// Ujedinjeni Srpski powerlifting savez.
+    #[strum(to_string = "USMilAbroad", serialize = "usmilabroad")]
+    USMilAbroad,
+
+    /// Ujedinjeni Srpski powerlifting savez.
     #[strum(to_string = "USPS", serialize = "usps")]
     USPS,
 
@@ -957,6 +961,7 @@ impl Federation {
             Federation::UPC => false,
             Federation::UkrainePF => true,
             Federation::USAPL => true,
+            Federation::USMilAbroad => false,
             Federation::USPS => false,
             Federation::USPF => false,
             Federation::USPA => false,
@@ -1148,6 +1153,7 @@ impl Federation {
             Federation::UPC => Some(Country::Ukraine),
             Federation::UkrainePF => Some(Country::Ukraine),
             Federation::USAPL => Some(Country::USA),
+            Federation::USMilAbroad => Some(Country::USA),
             Federation::USPS => Some(Country::Serbia),
             Federation::USPF => Some(Country::USA),
             Federation::USPA => Some(Country::USA),
@@ -1351,6 +1357,7 @@ impl Federation {
             Federation::UPC => PointsSystem::Wilks,
             Federation::UkrainePF => Federation::ipf_rules_on(date),
             Federation::USAPL => Federation::ipf_rules_on(date),
+            Federation::USMilAbroad => PointsSystem::Wilks,
             Federation::USPS => PointsSystem::Wilks,
             Federation::USPF => PointsSystem::Wilks,
             Federation::USPA => PointsSystem::Wilks,
