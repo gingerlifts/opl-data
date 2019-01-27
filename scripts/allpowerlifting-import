@@ -480,7 +480,8 @@ def fix_latin_names(csv):
         nameidx = csv.index('Name')
         for row in csv.rows:
             row[nameidx] = row[nameidx].replace('і', 'i').replace(
-                'О', 'O').replace('у', 'y').replace('о', 'o').replace('а', 'a')
+                'О', 'O').replace('у', 'y').replace('о', 'o').replace('а', 'a').replace(
+                'с','c')
 
 
 def remove_empty_cols_ignore_fieldname(csv):
