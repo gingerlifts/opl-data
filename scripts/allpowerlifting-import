@@ -505,6 +505,7 @@ def fix_countries(csv):
             row[countryidx] = new_country
 
 
+
 def remove_empty_cols_ignore_fieldname(csv):
     def iscolempty(csv, i):
         for row in csv.rows:
