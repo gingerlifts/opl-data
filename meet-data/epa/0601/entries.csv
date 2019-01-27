@@ -1,4 +1,4 @@
-Name,Division,Sex,Equipment,Event,BodyweightKg,WeightClass,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place
+Name,Division,Sex,Equipment,Event,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place
 Sean Rowlands ,M-E-M1,M,Single-ply,SBD,66,67.5,180,,,180,100,110,115,115,180,200,,200,495,1
 George Leggett,M-E-M4,M,Single-ply,SBD,70.7,75,150,160,,160,80,85,,85,170,-180,,170,415,1
 Mick Amey,M-E-M2,M,Single-ply,SBD,80.5,82.5,200,210,215,215,-115,115,-117.5,115,220,-230,-230,220,550,1
