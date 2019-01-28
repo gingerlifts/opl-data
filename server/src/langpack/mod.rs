@@ -181,6 +181,7 @@ pub struct CountryTranslations {
     pub benin: String,
     pub bolivia: String,
     pub bosniaandherzegovina: String,
+    pub botswana: String,
     pub brazil: String,
     pub britishvirginislands: String,
     pub brunei: String,

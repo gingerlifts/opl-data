@@ -13,7 +13,7 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Yaroslav Falbiychuk,M1,Ukraine,87.9,140,160,175,175,132.5,140,142.5,142.5,,160,180,-190,180,497.5,90,M,Ярослав Фальбійчук,1968,Wraps,Yes,SBD
 1,Volodymyr Kindrat,M4,Ukraine,89.7,140,165,170,170,90,95,-100,95,,200,212.5,217.5,217.5,482.5,90,M,Володимир Кіндрат,1956,Wraps,Yes,SBD
 1,Yuriy Chernyavskyy,O,Ukraine,96.1,195,205,220,220,155,165,-172.5,165,,220,225,-240,225,610,100,M,Юрій Чернявський,1972,Wraps,Yes,SBD
-1,Sergiy Kolesnik,M2,Ukraine,98.6,205,220,230,230,140,150,-160,150,,205,220,,220,600,100,M,Сергій Колесник,1963,Wraps,Yes,SBD
+1,Sergiy Kolesnik,M2,Ukraine,98.6,205,220,230,230,140,150,-160,150,,205,220,,220,600,100,M,Сергей Колесник,1963,Wraps,Yes,SBD
 1,Vitaliy Svirnenko,M9,Ukraine,92,70,80,90,90,45,50,55,55,,100,120,130,130,275,100,M,Віталій Свірненко,1927,Wraps,Yes,SBD
 1,Vyacheslav Vitrenyuk,J,Ukraine,102.5,180,200,,200,160,165,-170,165,,240,,,240,605,110,M,В'ячеслав Вітренюк,1988,Wraps,Yes,SBD
 1,Yuriy Malanichev,O,Ukraine,109.5,240,260,280,280,140,150,155,155,,270,280,-300,280,715,110,M,Юрій Маланічев,1956,Wraps,Yes,SBD
@@ -26,7 +26,7 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Viktor Rurenko,O,Ukraine,73,190,200,205,205,140,145,,145,,190,200,-205,200,550,75,M,Віктор Руренко,1974,Wraps,No,SBD
 1,Andriy Ploskyy,J,Ukraine,80.7,160,175,-182.5,175,105,115,-122.5,115,,170,180,-190,180,470,82.5,M,Андрій Плоский,1989,Wraps,No,SBD
 1,Andriy Ivzhenko,O,Ukraine,82.5,220,250,280,280,150,160,-170,160,,250,270,280,280,720,82.5,M,Андрій Івженко,1977,Wraps,No,SBD
-1,Petro Kravtsov,M6,Ukraine,78.4,190,200,210,210,117.5,122.5,125,125,,190,200,-205,200,535,82.5,M,,1946,Wraps,No,SBD
+1,Peter Kravtsov,M6,Ukraine,78.4,190,200,210,210,117.5,122.5,125,125,,190,200,-205,200,535,82.5,M,,1946,Wraps,No,SBD
 1,Oleksandr Loginov,M7,Ukraine,77.7,90,115,125,125,60,65,67.5,67.5,,130,142.5,147.5,147.5,340,82.5,M,Олександр Логінов,1938,Wraps,No,SBD
 1,Yuriy Antonyuk,O,Ukraine,86.1,172.5,182.5,195,195,145,152.5,157.5,157.5,,200,210,-230,210,562.5,90,M,Юрій Антонюк,1985,Wraps,No,SBD
 2,Nazar Semenyna,O,Ukraine,86.9,165,180,-190,180,125,130,132.5,132.5,,200,-245,,200,512.5,90,M,Назар Семенина,1984,Wraps,No,SBD
@@ -38,7 +38,7 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Vitaliy Korotych,O,Ukraine,98.2,215,225,230,230,150,155,160,160,,280,290,300,300,690,100,M,Віталій Коротич,1989,Wraps,No,SBD
 2,Oleksandr Karnaukh,O,Ukraine,98.8,210,230,245,245,175,-190,-190,175,,250,270,-275,270,690,100,M,Олександр Карнаух,1980,Wraps,No,SBD
 3,Oleg Bermes,O,Ukraine,96.6,240,-250,-250,240,140,145,-150,145,,230,250,-260,250,635,100,M,Олег Бермес,1976,Wraps,No,SBD
-1,Vasyl' Borisov,M6,Ukraine,95.1,110,115,125,125,70,77.5,82.5,82.5,85,120,130,137.5,137.5,345,100,M,Василь Борисов,1942,Wraps,No,SBD
+1,Vasyl Borisov,M6,Ukraine,95.1,110,115,125,125,70,77.5,82.5,82.5,85,120,130,137.5,137.5,345,100,M,Василь Борисов,1942,Wraps,No,SBD
 1,Oleksiy Bondar,O,Ukraine,124.7,240,280,290,290,190,200,205,205,,240,265,275,275,770,125,M,Олексій Бондар,1977,Wraps,No,SBD
 2,Anatoliy Omelchenko,O,Ukraine,122,280,300,-310,300,165,172.5,175,175,,270,,,270,745,125,M,Анатолій Омельченко,1969,Wraps,No,SBD
 1,Anatoliy Omelchenko,M1,Ukraine,122,280,300,-310,300,165,172.5,175,175,,270,,,270,745,125,M,Анатолій Омельченко,1969,Wraps,No,SBD
@@ -70,7 +70,7 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Oleg Vykhovanets,O,Ukraine,93.6,,,,,135,140,-142.5,140,,,,,,140,100,M,Олег Вихованець,1972,Raw,Yes,B
 DD,Yuriy Vitrenyuk,O,Ukraine,99,,,,,-190,190,-195,190,,,,,,,100,M,Юрій Вітренюк,1979,Raw,Yes,B
 DD,Maksim Kaydan,O,Ukraine,98.2,,,,,175,185,-195,185,,,,,,,100,M,Максим Кайдан,1985,Raw,Yes,B
-1,Volodymyr Chygyryns'kyy,M2,Ukraine,97,,,,,125,135,140,140,145,,,,,140,100,M,Володимир Чигиринський,1962,Raw,Yes,B
+1,Volodymyr Chygyrynskyy,M2,Ukraine,97,,,,,125,135,140,140,145,,,,,140,100,M,Володимир Чигиринський,1962,Raw,Yes,B
 1,Vitaliy Svirnenko,M9,Ukraine,92,,,,,45,50,55,55,,,,,,55,100,M,Віталій Свірненко,1927,Raw,Yes,B
 1,Vyacheslav Vitrenyuk,J,Ukraine,102.5,,,,,160,165,-170,165,,,,,,165,110,M,В'ячеслав Вітренюк,1988,Raw,Yes,B
 1,Temur Yuldashev,O,Ukraine,102,,,,,170,177.5,185,185,,,,,,185,110,M,Темур Юлдашев,1969,Raw,Yes,B
@@ -83,12 +83,12 @@ DD,Maksim Kaydan,O,Ukraine,98.2,,,,,175,185,-195,185,,,,,,,100,M,Максим К
 1,Lina Zubrytska,J,Ukraine,51.9,,,,,70,75,80,80,-82.5,,,,,80,52,F,,1988,Raw,No,B
 1,Anna Kadatska,O,Ukraine,56,,,,,90,95,-102.5,95,,,,,,95,56,F,Анна Кадацька,1977,Raw,No,B
 1,Boгdan Koshulab,T3,Ukraine,60,,,,,110,115,120,120,,,,,,120,60,M,Богдан Кошулаб,1992,Raw,No,B
-1,Akmal Yergashev,J,Tadjikistan,74.4,,,,,150,160,-170,160,,,,,,160,75,M,Акмал Єргашев,1989,Raw,No,B
+1,Akmal Yergashev,J,Tajikistan,74.4,,,,,150,160,-170,160,,,,,,160,75,M,Акмал Єргашев,1989,Raw,No,B
 2,Oleksandr Kovtun,J,Ukraine,74.5,,,,,110,120,-125,120,,,,,,120,75,M,Олександр Ковтун,1991,Raw,No,B
 1,Oleksandr Kovtun,O,Ukraine,74.5,,,,,110,120,-125,120,,,,,,120,75,M,Олександр Ковтун,1991,Raw,No,B
 1,Nazar Borushak,T3,Ukraine,80,,,,,135,145,150,150,,,,,,150,82.5,M,Назар Борушак,1992,Raw,No,B
 1,Sergiy Sarkisyan,J,Ukraine,82,,,,,120,135,140,140,,,,,,140,82.5,M,Сергій Саркісян,1989,Raw,No,B
-1,Petro Kravtsov,M6,Ukraine,78.4,,,,,117.5,122.5,125,125,,,,,,125,82.5,M,,1946,Raw,No,B
+1,Peter Kravtsov,M6,Ukraine,78.4,,,,,117.5,122.5,125,125,,,,,,125,82.5,M,,1946,Raw,No,B
 1,Oleksandr Loginov,M7,,77.7,,,,,60,65,67.5,67.5,,,,,,67.5,82.5,M,Олександр Логінов,1938,Raw,No,B
 1,Volodymyr Garbaruk,O,Ukraine,90,,,,,170,180,185,185,,,,,,185,90,M,Володимир Гарбарук,1977,Raw,No,B
 2,Andriy Baylov,O,Ukraine,89.6,,,,,165,175,177.5,177.5,,,,,,177.5,90,M,Андрій Байлов,1972,Raw,No,B
@@ -100,15 +100,15 @@ DD,Maksim Kaydan,O,Ukraine,98.2,,,,,175,185,-195,185,,,,,,,100,M,Максим К
 1,Yaroslav Dunay,O,Ukraine,98.2,,,,,200,210,220,220,,,,,,220,100,M,Ярослав Дунай,1978,Raw,No,B
 2,Mykola Legun,O,Ukraine,99.4,,,,,180,190,195,195,,,,,,195,100,M,Микола Легун,1973,Raw,No,B
 3,Ruslan Moiseev,O,Ukraine,97.8,,,,,170,-180,-180,170,,,,,,170,100,M,Руслан Моїсеєв,1981,Raw,No,B
-1,Vasyl' Borisov,M6,Ukraine,95.1,,,,,70,77.5,82.5,82.5,85,,,,,82.5,100,M,Василь Борисов,1942,Raw,No,B
+1,Vasyl Borisov,M6,Ukraine,95.1,,,,,70,77.5,82.5,82.5,85,,,,,82.5,100,M,Василь Борисов,1942,Raw,No,B
 1,Sergiy Polutin,O,Ukraine,106.2,,,,,220,230,-240,230,,,,,,230,110,M,Сергій Полутін,1975,Raw,No,B
 2,Oleg Palamarchuk,O,Ukraine,109.1,,,,,210,217.5,-220,217.5,,,,,,217.5,110,M,Олег Паламарчук,1972,Raw,No,B
 3,Sergiy Dragan,O,Ukraine,109.7,,,,,190,200,210,210,,,,,,210,110,M,Сергій Драган,1981,Raw,No,B
 1,Valeriy Kolyadyuk,M5,Ukraine,102,,,,,135,155,-160,155,,,,,,155,110,M,Валерій Колядюк,1949,Raw,No,B
-1,Andriy Kalaban'ka,O,Ukraine,121,,,,,195,205,-210,205,,,,,,205,125,M,Андрій Калабанька,1970,Raw,No,B
+1,Andriy Kalabanka,O,Ukraine,121,,,,,195,205,-210,205,,,,,,205,125,M,Андрій Калабанька,1970,Raw,No,B
 2,Vadim Kopylov,O,Ukraine,112.4,,,,,190,195,-205,195,,,,,,195,125,M,Вадим Копилов,1974,Raw,No,B
 3,Andriy Chekachkov,O,Ukraine,112.1,,,,,175,182.5,-187.5,182.5,,,,,,182.5,125,M,Андрій Чекачков,1980,Raw,No,B
-1,Oleksandr Chekachkov,M1,Ukraine,113.7,,,,,170,175,180,180,,,,,,180,125,M,Олександр Чекачков,1971,Raw,No,B
+1,Alexander Chekachkov,M1,Ukraine,113.7,,,,,170,175,180,180,,,,,,180,125,M,Александр Чекачков,1971,Raw,No,B
 1,Viktor Malyugin,J,Russia,128,,,,,210,220,225,225,,,,,,225,140,M,Виктор Малюгин,1990,Raw,No,B
 1,Sergiy Laptev,O,Ukraine,126,,,,,155,165,170,170,,,,,,170,140,M,Сергій Лаптєв,1974,Raw,No,B
 1,Viktor Kochmar,O,Ukraine,140.9,,,,,230,240,-250,240,,,,,,240,140+,M,Віктор Кочмар,1970,Raw,No,B
@@ -116,21 +116,21 @@ DD,Maksim Kaydan,O,Ukraine,98.2,,,,,175,185,-195,185,,,,,,,100,M,Максим К
 1,Oleksandr Kovtun,J,Ukraine,74.5,,,,,110,-120,,110,,,,,,110,75,M,Олександр Ковтун,1991,Multi-ply,No,B
 1,Roman Zuzuk,O,Ukraine,74.3,,,,,-205,-207.5,207.5,207.5,,,,,,207.5,75,M,Роман Зузук,1971,Multi-ply,No,B
 2,Oleksandr Kovtun,O,Ukraine,74.5,,,,,110,-120,,110,,,,,,110,75,M,Олександр Ковтун,1991,Multi-ply,No,B
-1,Petro Kravtsov,M6,Ukraine,78.4,,,,,130,140,-150,140,,,,,,140,82.5,M,,1946,Single-ply,No,B
+1,Peter Kravtsov,M6,Ukraine,78.4,,,,,130,140,-150,140,,,,,,140,82.5,M,,1946,Single-ply,No,B
 1,Volodymyr Galyga,O,Ukraine,88.4,,,,,195,207.5,-217.5,207.5,,,,,,207.5,90,M,Володимир Галига,1983,Multi-ply,No,B
-DQ,Mikhaylo Gladiy,M1,Ukraine,88.1,,,,,165,165,165,,,,,,,,90,M,Михайло Гладій,1968,Multi-ply,No,B
+DQ,Mikhaylo Gladiy,M1,Ukraine,88.1,,,,,-165,-165,-165,,,,,,,,90,M,Михайло Гладій,1968,Multi-ply,No,B
 1,Oleg Zhulynskyy,O,Ukraine,97.2,,,,,140,210,220,220,,,,,,220,100,M,Олег Жулинський,1980,Multi-ply,No,B
-1,Oleksandr Chekachkov,O,Ukraine,113.7,,,,,210,220,220,220,,,,,,220,125,M,Олександр Чекачков,1971,Multi-ply,No,B
+1,Alexander Chekachkov,O,Ukraine,113.7,,,,,210,-220,220,220,,,,,,220,125,M,Александр Чекачков,1971,Multi-ply,No,B
 2,Andriy Chekachkov,O,Ukraine,112.1,,,,,175,185,,185,,,,,,185,125,M,Андрій Чекачков,1980,Multi-ply,No,B
-1,Oleksandr Chekachkov,M1,Ukraine,113.7,,,,,210,220,220,220,,,,,,220,125,M,Олександр Чекачков,1971,Multi-ply,No,B
+1,Alexander Chekachkov,M1,Ukraine,113.7,,,,,210,-220,220,220,,,,,,220,125,M,Александр Чекачков,1971,Multi-ply,No,B
 1,Sergiy Laptev,O,Ukraine,126,,,,,160,,,160,,,,,,160,140,M,Сергій Лаптєв,1974,Multi-ply,No,B
 1,Stanislav Chygyryns'kyy,T2,Ukraine,64.3,,,,,70,77.5,85,85,,,,,,85,67.5,M,Станіслав Чигиринський,1994,Multi-ply,Yes,B
 1,Vusal Gumbatov,J,Ukraine,66.8,,,,,135,-150,155,155,,,,,,155,67.5,M,Вусал Гумбатов,1989,Multi-ply,Yes,B
 1,Stanislav Chygyryns'kyy,O,Ukraine,64.3,,,,,70,77.5,85,85,,,,,,85,67.5,M,Станіслав Чигиринський,1994,Multi-ply,Yes,B
 1,Andriy Dyatlov,O,Ukraine,80,,,,,190,200,210,210,,,,,,210,82.5,M,Андрій Дятлов,1985,Multi-ply,Yes,B
 1,Rostyslav Bondarenko,O,Ukraine,87.7,,,,,-190,200,210,210,,,,,,210,90,M,Ростислав Бондаренко,1972,Multi-ply,Yes,B
-1,Volodymyr Chygyryns'kyy,O,Ukraine,97,,,,,170,180,185,185,,,,,,185,100,M,Володимир Чигиринський,1962,Multi-ply,Yes,B
+1,Volodymyr Chygyrynskyy,O,Ukraine,97,,,,,170,180,185,185,,,,,,185,100,M,Володимир Чигиринський,1962,Multi-ply,Yes,B
 DD,Maksim Kaydan,O,Ukraine,98.2,,,,,200,210,217.5,217.5,220,,,,,,100,M,Максим Кайдан,1985,Multi-ply,Yes,B
-1,Volodymyr Chygyryns'kyy,M2,Ukraine,97,,,,,170,180,185,185,,,,,,185,100,M,Володимир Чигиринський,1962,Multi-ply,Yes,B
+1,Volodymyr Chygyrynskyy,M2,Ukraine,97,,,,,170,180,185,185,,,,,,185,100,M,Володимир Чигиринський,1962,Multi-ply,Yes,B
 1,Volodymyr Samusev,O,Ukraine,103,,,,,-170,170,180,180,,,,,,180,110,M,Володимир Самусєв,1978,Multi-ply,Yes,B
 1,Oleksandr Shvab,O,Ukraine,127.9,,,,,200,,,200,,,,,,200,140,M,Олександр Шваб,1976,Multi-ply,Yes,B

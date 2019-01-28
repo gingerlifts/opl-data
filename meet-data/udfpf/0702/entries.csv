@@ -17,7 +17,7 @@ Place,Name,Division,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3Bench
 2,Sergiy Stanev,O,1976,67,100,105,107.5,107.5,,67.5,M,Сергій Станєв,B,107.5,Single-ply
 3,Svyatoslav Ogrenchuk,O,1978,67.3,100,105,-107.5,105,,67.5,M,Святослав Огренчук,B,105,Single-ply
 1,Vadym Kukhterin,M2,1961,61.6,-90,90,100,100,,67.5,M,Вадим Кухтерін,B,100,Single-ply
-1,Petro Kravtsov,M5,1946,67.4,72.5,77.5,80,80,85,67.5,M,,B,80,Single-ply
+1,Peter Kravtsov,M5,1946,67.4,72.5,77.5,80,80,85,67.5,M,,B,80,Single-ply
 1,Vitaliy Gnalyuk,T2,1990,70,85,-90,-90,85,,75,M,Виталий Гналюк,B,85,Single-ply
 1,Denys Vostrikov,T3,1988,72.8,115,125,-130,125,,75,M,Денис Востріков,B,125,Single-ply
 2,Oleksandr Chumak,T3,1989,72.15,100,-110,-110,100,,75,M,Олександр Чумак,B,100,Single-ply
@@ -41,11 +41,11 @@ DQ,Vadym Kotsaga,O,1977,81,-140,-140,-140,,,82.5,M,Вадим Коцага,B,,Si
 1,Yaroslav Leleka,T3,1988,83.5,135,-137.5,-137.5,135,,90,M,Ярослав Лелека,B,135,Single-ply
 1,Ivan Badyra,J,1984,86.5,110,-117.5,-117.5,110,,90,M,Іван Бадира,B,110,Single-ply
 DQ,Artem Korolev,J,1986,85.2,-115,-115,-115,,,90,M,Артем Королев,B,,Single-ply
-1,Sergiy Didovik,O,1978,89.8,187.5,195,-202.5,195,,90,M,Сергій Дідовик,B,195,Single-ply
+1,Sergey Didovyk,O,1978,89.8,187.5,195,-202.5,195,,90,M,Сергій Дідовик,B,195,Single-ply
 2,Vyacheslav Nechay,O,1980,89.7,160,-170,170,170,,90,M,Вячеслав Нечай,B,170,Single-ply
 3,Rinat Zaripov,O,1970,90,160,-167.5,-167.5,160,,90,M,Рінат Заріпов,B,160,Single-ply
 4,Valentin Novikov,O,1968,89.6,-155,155,-160,155,,90,M,Валентин Новиков,B,155,Single-ply
-5,Vyacheslav Zdorovenko,O,1983,86,137.5,145,-150,145,,90,M,В'ячеслав Здоровенко,B,145,Single-ply
+5,Vyacheslav Zdorovenko,O,1983,86,137.5,145,-150,145,,90,M,Вячеслав Здоровенко,B,145,Single-ply
 6,Ruslan Sagan,O,1977,86.6,135,-145,145,145,,90,M,Руслан Саган,B,145,Single-ply
 7,Ruslan Starunchak,O,1976,88.3,137.5,-140,140,140,,90,M,Руслан Старунчак,B,140,Single-ply
 8,Bogdan Myshko,O,1972,86,125,130,-135,130,,90,M,Богдан Мышко,B,130,Single-ply
