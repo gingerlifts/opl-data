@@ -1298,7 +1298,7 @@ impl Federation {
             Federation::GPCNZ => PointsSystem::Glossbrenner,
             Federation::GPCRUS => PointsSystem::Glossbrenner,
             Federation::GPF => PointsSystem::Wilks,
-            Federation::GlobalPU => PointsSystem::Wilks,
+            Federation::GlobalPU => PointsSystem::Glossbrenner,
             Federation::GPU => PointsSystem::Wilks,
             Federation::Hardcore => PointsSystem::Wilks,
             Federation::HERC => PointsSystem::Wilks,
