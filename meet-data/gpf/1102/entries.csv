@@ -39,7 +39,7 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 2,Oleksandr Karnaukh,O,Ukraine,98.8,210,230,245,245,175,-190,-190,175,,250,270,-275,270,690,100,M,Олександр Карнаух,1980,Wraps,No,SBD
 3,Oleg Bermes,O,Ukraine,96.6,240,-250,-250,240,140,145,-150,145,,230,250,-260,250,635,100,M,Олег Бермес,1976,Wraps,No,SBD
 1,Vasyl Borisov,M6,Ukraine,95.1,110,115,125,125,70,77.5,82.5,82.5,85,120,130,137.5,137.5,345,100,M,Василь Борисов,1942,Wraps,No,SBD
-1,Oleksiy Bondar,O,Ukraine,124.7,240,280,290,290,190,200,205,205,,240,265,275,275,770,125,M,Олексій Бондар,1977,Wraps,No,SBD
+1,Oleksiy Bondar,O,Ukraine,124.7,240,280,290,290,190,200,205,205,,240,265,275,275,770,125,M,Олексій Бондарь,1977,Wraps,No,SBD
 2,Anatoliy Omelchenko,O,Ukraine,122,280,300,-310,300,165,172.5,175,175,,270,,,270,745,125,M,Анатолій Омельченко,1969,Wraps,No,SBD
 1,Anatoliy Omelchenko,M1,Ukraine,122,280,300,-310,300,165,172.5,175,175,,270,,,270,745,125,M,Анатолій Омельченко,1969,Wraps,No,SBD
 1,Nataliya Sadovska,T3,Ukraine,55.2,,,,,40,45,-50,45,,,,,,45,56,F,Наталія Садовська,1992,Raw,Yes,B
@@ -82,7 +82,7 @@ DD,Maksim Kaydan,O,Ukraine,98.2,,,,,175,185,-195,185,,,,,,,100,M,Максим К
 1,Oleksandr Shvab,O,Ukraine,127.9,,,,,160,170,175,175,,,,,,175,140,M,Олександр Шваб,1976,Raw,Yes,B
 1,Lina Zubrytska,J,Ukraine,51.9,,,,,70,75,80,80,-82.5,,,,,80,52,F,,1988,Raw,No,B
 1,Anna Kadatska,O,Ukraine,56,,,,,90,95,-102.5,95,,,,,,95,56,F,Анна Кадацька,1977,Raw,No,B
-1,Boгdan Koshulab,T3,Ukraine,60,,,,,110,115,120,120,,,,,,120,60,M,Богдан Кошулаб,1992,Raw,No,B
+1,Bordan Koshulab,T3,Ukraine,60,,,,,110,115,120,120,,,,,,120,60,M,Богдан Кошулаб,1992,Raw,No,B
 1,Akmal Yergashev,J,Tajikistan,74.4,,,,,150,160,-170,160,,,,,,160,75,M,Акмал Єргашев,1989,Raw,No,B
 2,Oleksandr Kovtun,J,Ukraine,74.5,,,,,110,120,-125,120,,,,,,120,75,M,Олександр Ковтун,1991,Raw,No,B
 1,Oleksandr Kovtun,O,Ukraine,74.5,,,,,110,120,-125,120,,,,,,120,75,M,Олександр Ковтун,1991,Raw,No,B
