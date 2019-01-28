@@ -643,6 +643,7 @@ impl Translations {
             Country::Benin => &self.country.benin,
             Country::Bolivia => &self.country.bolivia,
             Country::BosniaAndHerzegovina => &self.country.bosniaandherzegovina,
+            Country::Botswana => &self.country.botswana,
             Country::Brazil => &self.country.brazil,
             Country::BritishVirginIslands => &self.country.britishvirginislands,
             Country::Brunei => &self.country.brunei,
