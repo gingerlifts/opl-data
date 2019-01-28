@@ -412,6 +412,10 @@ def unreverse_names(csv):
         row[cyrillicnameidx] = re.sub(
             r'\(.*?\)', '', row[cyrillicnameidx]).strip()
 
+        # Remove nicknames
+        row[nameidx] = re.sub('".*?"','',row[nameidx])
+        row[nameidx] = row[nameidx].replace('  ',' ').strip()
+
         parts = row[nameidx].split()
         if len(parts) > 1:
             fixed = [parts[-1]] + parts[:-1]
