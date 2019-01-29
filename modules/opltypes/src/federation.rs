@@ -563,7 +563,7 @@ pub enum Federation {
 
     /// Unaffiliated meets held in Russia.
     #[serde(rename = "Russia-UA")]
-    #[strum(to_string = "Russia-UA", serialize = "Russia-ua")]
+    #[strum(to_string = "Russia-UA", serialize = "russia-ua")]
     RussiaUA,
 
     /// Slovenská asociásia silového trojboja, Slovakian GPC Affiliate.
