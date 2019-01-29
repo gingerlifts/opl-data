@@ -64,7 +64,7 @@ Place,Name,Division,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3Bench
 2,Ivan Sliv'yuk,J,1997,64.8,,,,,67.5,M,Іван Слив'юк,Raw,170,180,190,190,D,190
 1,Vasil Matviїv,O,1985,63.9,,,,,67.5,M,Василь Матвіїв,Raw,190,210,-230,210,D,210
 1,Oleksandr Trondyuk,J,1995,74.9,,,,,75,M,Олександр Трондюк,Raw,240,260,-270,260,D,260
-2,Mikhaylo Yurchenko,J,1999,75,,,,,75,M,Михайло Юрченко,Raw,220,220,-242.5,242.5,D,242.5
+2,Mikhaylo Yurchenko,J,1999,75,,,,,75,M,Михайло Юрченко,Raw,-220,220,242.5,242.5,D,242.5
 3,Andriy Bodrov,J,1992,72.6,,,,,75,M,Андрій Бодров,Raw,210,-225,-225,210,D,210
 1,Oleksandr Trondyuk,O,1995,74.9,,,,,75,M,Олександр Трондюк,Raw,240,260,-270,260,D,260
 2,Mikhaylo Yurchenko,O,1999,75,,,,,75,M,Михайло Юрченко,Raw,-220,220,242.5,242.5,D,242.5
