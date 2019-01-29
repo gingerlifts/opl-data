@@ -40,14 +40,14 @@ DQ,Oleksiy Kulak,68,-155,,,,,,75,M,Олексій Кулак,1990,Sub-Juniors,SB
 1,Anna Yaroshenko,52.3,,90,,25,80,195,56,F,Анна Ярошенко,1983,Juniors,SBD,Single-ply
 1,Irina Manzhaley,59.8,,90,,42.5,115,247.5,60,F,,1985,Juniors,SBD,Single-ply
 1,Oleksandra Sobol,65.4,,115,,52.5,115,282.5,67.5,F,Олександра Соболь,1987,Juniors,SBD,Single-ply
-1,Viktoria Olenytsya,120.8,,245,,172.5,232.5,650,90+,F,Вікторія Олениця,1984,Juniors,SBD,Single-ply
+1,Viktoriya Olenytsya,120.8,,245,,172.5,232.5,650,90+,F,Вікторія Олениця,1984,Juniors,SBD,Single-ply
 1,Oleksandr Telyatnyk,52,,145,,80,160,385,52,M,Олександр Телятник,1986,Juniors,SBD,Single-ply
 1,Roman Gusak,55.8,,190,,90,175,455,56,M,Роман Гусак,1986,Juniors,SBD,Single-ply
 2,Valeriy Kravets,55.5,,135,,80,162.5,377.5,56,M,Валерій Кравець,1986,Juniors,SBD,Single-ply
 1,Volodymyr Postovalov,59.8,,210,,122.5,190,522.5,60,M,Володимир Постовалов,1987,Juniors,SBD,Single-ply
 2,Grygoriy Grygorenko,60,,160,,117.5,177.5,455,60,M,Григорій Григоренко,1987,Juniors,SBD,Single-ply
 3,Oleksiy Kulbachykha,59.8,,130,,100,140,370,60,M,Олексій Кульбачиха,1985,Juniors,SBD,Single-ply
-1,Arkadiy Shalokha,67.5,,230,,157.5,250,637.5,67.5,M,Аркадій Шалоха,1983,Juniors,SBD,Single-ply
+1,Arkadiy Shalokha,67.5,,230,,157.5,250,637.5,67.5,M,Аркадий Шалоха,1983,Juniors,SBD,Single-ply
 2,Anton Karachentsev,66.2,,220,,130,240,590,67.5,M,Антон Караченцев,1983,Juniors,SBD,Single-ply
 3,Roman Murygin,64.8,,225,,130,210,565,67.5,M,Роман Муригін,1984,Juniors,SBD,Single-ply
 4,Oleksiy Pozdnukhov,66.7,,210,,102.5,230,542.5,67.5,M,Олексій Позднухов,1983,Juniors,SBD,Single-ply
@@ -60,7 +60,7 @@ DQ,Oleksiy Kulak,68,-155,,,,,,75,M,Олексій Кулак,1990,Sub-Juniors,SB
 1,Artyom Postovalov,76.9,,305,,200,280,785,82.5,M,Артем Постовалов,1986,Juniors,SBD,Single-ply
 2,Roman Sobko,82.5,,270,,177.5,290,737.5,82.5,M,Роман Собко,1983,Juniors,SBD,Single-ply
 3,Volodymyr Pirogov,81.6,,265,,185,285,735,82.5,M,Володимир Пирогов,1987,Juniors,SBD,Single-ply
-4,Vyacheslav Shutenko,80.6,,260,,150,260,670,82.5,M,В'ячеслав Шутенко,1986,Juniors,SBD,Single-ply
+4,Vyacheslav Shutenko,80.6,,260,,150,260,670,82.5,M,Вячеслав Шутенко,1986,Juniors,SBD,Single-ply
 5,Dmytro Chumakov,82.5,,260,,160,250,670,82.5,M,Дмитро Чумаков,1985,Juniors,SBD,Single-ply
 6,Vyacheslav Veligura,81.6,,250,,170,240,660,82.5,M,В'ячеслав Велігура,1983,Juniors,SBD,Single-ply
 7,Yuriy Tsivadits,80.8,,220,,170,250,640,82.5,M,Юрій Цівадіц,1983,Juniors,SBD,Single-ply
@@ -86,7 +86,7 @@ DQ,Sergiy Bespalov,76,,170,-110,,,,82.5,M,Сергій Беспалов,1986,Jun
 2,Tetyana Medynska,58.9,,100,,50,100,250,60,F,Тетяна Мединська,1982,Open,SBD,Single-ply
 1,Inga Zhdanova,64.1,,150,,87.5,155,392.5,67.5,F,Інга Жданова,1971,Open,SBD,Single-ply
 2,Veronika Valko,61.8,,110,,47.5,110,267.5,67.5,F,Вероніка Валько,1990,Open,SBD,Single-ply
-1,Viktoria Olenytsya,120.8,,245,,172.5,232.5,650,90+,F,Вікторія Олениця,1984,Open,SBD,Single-ply
+1,Viktoriya Olenytsya,120.8,,245,,172.5,232.5,650,90+,F,Вікторія Олениця,1984,Open,SBD,Single-ply
 1,Oleksandr Telyatnyk,52,,145,,80,160,385,52,M,Олександр Телятник,1986,Open,SBD,Single-ply
 1,Roman Gusak,55.8,,190,,90,175,455,56,M,Роман Гусак,1986,Open,SBD,Single-ply
 2,Anton Sopov,55.3,,160,,82.5,160,402.5,56,M,Антон Сопов,1988,Open,SBD,Single-ply
@@ -94,9 +94,9 @@ DQ,Sergiy Bespalov,76,,170,-110,,,,82.5,M,Сергій Беспалов,1986,Jun
 1,Volodymyr Postovalov,59.8,,210,,122.5,190,522.5,60,M,Володимир Постовалов,1987,Open,SBD,Single-ply
 2,Grygoriy Grygorenko,60,,160,,117.5,177.5,455,60,M,Григорій Григоренко,1987,Open,SBD,Single-ply
 3,Oleksiy Kulbachykha,59.8,,130,,100,140,370,60,M,Олексій Кульбачиха,1985,Open,SBD,Single-ply
-1,Arkadiy Shalokha,67.5,,230,,157.5,250,637.5,67.5,M,Аркадій Шалоха,1983,Open,SBD,Single-ply
+1,Arkadiy Shalokha,67.5,,230,,157.5,250,637.5,67.5,M,Аркадий Шалоха,1983,Open,SBD,Single-ply
 2,Anton Karachentsev,66.2,,220,,130,240,590,67.5,M,Антон Караченцев,1983,Open,SBD,Single-ply
-3,Stanislav Marochko,67.1,,230,,137.5,220,587.5,67.5,M,Станіслав Марочко,1981,Open,SBD,Single-ply
+3,Stanislav Marochko,67.1,,230,,137.5,220,587.5,67.5,M,Станислав Марочко,1981,Open,SBD,Single-ply
 4,Roman Murygin,64.8,,225,,130,210,565,67.5,M,Роман Муригін,1984,Open,SBD,Single-ply
 5,Oleksiy Pozdnukhov,66.7,,210,,102.5,230,542.5,67.5,M,Олексій Позднухов,1983,Open,SBD,Single-ply
 6,Mykyta Golukhin,67.5,,195,,107.5,180,482.5,67.5,M,Микита Голухін,1984,Open,SBD,Single-ply
@@ -108,12 +108,12 @@ DQ,Sergiy Bespalov,76,,170,-110,,,,82.5,M,Сергій Беспалов,1986,Jun
 1,Artyom Postovalov,76.9,,305,,200,280,785,82.5,M,Артем Постовалов,1986,Open,SBD,Single-ply
 2,Roman Sobko,82.5,,270,,177.5,290,737.5,82.5,M,Роман Собко,1983,Open,SBD,Single-ply
 3,Volodymyr Pirogov,81.6,,265,,185,285,735,82.5,M,Володимир Пирогов,1987,Open,SBD,Single-ply
-4,Vyacheslav Shutenko,80.6,,260,,150,260,670,82.5,M,В'ячеслав Шутенко,1986,Open,SBD,Single-ply
+4,Vyacheslav Shutenko,80.6,,260,,150,260,670,82.5,M,Вячеслав Шутенко,1986,Open,SBD,Single-ply
 5,Dmytro Chumakov,82.5,,260,,160,250,670,82.5,M,Дмитро Чумаков,1985,Open,SBD,Single-ply
 6,Vyacheslav Veligura,81.6,,250,,170,240,660,82.5,M,В'ячеслав Велігура,1983,Open,SBD,Single-ply
 7,Yuriy Tsivadits,80.8,,220,,170,250,640,82.5,M,Юрій Цівадіц,1983,Open,SBD,Single-ply
 8,Kostyantin Chernov,78.7,,240,,165,220,625,82.5,M,Костянтин Чернов,1984,Open,SBD,Single-ply
-9,Sergiy Kolesnyk,75.8,,240,,135,242.5,617.5,82.5,M,Сергій Колесник,1979,Open,SBD,Single-ply
+9,Sergiy Kolesnyk,75.8,,240,,135,242.5,617.5,82.5,M,Сергей Колесник,1979,Open,SBD,Single-ply
 10,Roman Silchenko,75.9,,225,,137.5,222.5,585,82.5,M,Роман Сільченко,1980,Open,SBD,Single-ply
 DQ,Yuriy Konev,82.5,-185,,,,,,82.5,M,Юрій Конєв,1978,Open,SBD,Single-ply
 DQ,Sergiy Bespalov,76,,170,-110,,,,82.5,M,Сергій Беспалов,1986,Open,SBD,Single-ply
@@ -134,7 +134,7 @@ DQ,Sergiy Bespalov,76,,170,-110,,,,82.5,M,Сергій Беспалов,1986,Ope
 8,Mykola Bezpaliy,91.1,,250,,160,240,650,100,M,Микола Безпалий,1986,Open,SBD,Single-ply
 1,Aleksandr Ayko,105.5,,300,,210,300,810,110,M,Олександр Айко,1983,Open,SBD,Single-ply
 2,Dmytro Goryushko,102.2,,290,,190,300,780,110,M,Дмитро Горюшко,1982,Open,SBD,Single-ply
-3,Volodymyr Lebedev,106,,275,,140,270,685,110,M,Володимир Лебедєв,1961,Open,SBD,Single-ply
+3,Volodymyr Lebedev,106,,275,,140,270,685,110,M,Володимир Лебєдєв,1961,Open,SBD,Single-ply
 4,Dmytro Scherbakov,100,,250,,175,240,665,110,M,Дмитро Щербаков,1974,Open,SBD,Single-ply
 5,Oleksandr Tsvirkun,104.8,,265,,145,210,620,110,M,Олександр Цвіркун,1983,Open,SBD,Single-ply
 DQ,Stepan Nikolyukin,110,,,,,,,110,M,Степан Ніколюкін,1977,Open,SBD,Single-ply
