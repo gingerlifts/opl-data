@@ -486,9 +486,10 @@ def fix_latin_names(csv):
         for row in csv.rows:
             row[nameidx] = row[nameidx].replace('і', 'i').replace(
                 'О', 'O').replace('у', 'y').replace('о', 'o').replace(
-                'а', 'a').replace('г', 'r').replace('с','c')
+                'а', 'a').replace('г', 'r').replace('с', 'c')
 
 # Use our form of the country names
+
 
 def fix_countries(csv):
     if 'Country' in csv.fieldnames:
@@ -503,7 +504,6 @@ def fix_countries(csv):
             elif country == 'Tadjikistan':
                 new_country = 'Tajikistan'
             row[countryidx] = new_country
-
 
 
 def remove_empty_cols_ignore_fieldname(csv):
