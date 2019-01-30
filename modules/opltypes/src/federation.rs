@@ -875,7 +875,7 @@ impl Federation {
             Federation::CPL => false,
             Federation::CPO => false,
             Federation::CPU => true,
-            Federation::CRPEBA => true,
+            Federation::CRPEBA => false,
             Federation::CSST => true,
             Federation::DSF => true,
             Federation::EPA => true,
@@ -1071,7 +1071,8 @@ impl Federation {
             Federation::CPL => Some(Country::Canada),
             Federation::CPO => Some(Country::Canada),
             Federation::CPU => Some(Country::Canada),
-            Federation::CRPEBA => Some(Country::Russia), //Initially Ukraine,until annexation
+            //Initially Ukraine,until annexation
+            Federation::CRPEBA => Some(Country::Russia),
             Federation::CSST => Some(Country::Czechia),
             Federation::DSF => Some(Country::Denmark),
             Federation::EPA => Some(Country::England),
