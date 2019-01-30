@@ -1,4 +1,4 @@
-﻿Name,Sex,Age,Division,Equipment,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Place
+Name,Sex,Age,Division,Equipment,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Place
 Adam Riman,M,,M_J_R,Raw,96.1,100,205,215,225,225,130,137.5,-145,137.5,270,290,-300,290,652.5,SBD,2
 Aisling Perbody,F,,F_J_R,Raw,67.5,67.5,80,90,-100,90,55,60,-65,60,130,140,145,145,295,SBD,1
 Andrew Whitaker,M,,M_O_R,Raw,97.6,100,,,,,187.5,197.5,-200,197.5,,,,,197.5,B,1
