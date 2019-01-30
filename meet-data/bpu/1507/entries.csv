@@ -1,4 +1,4 @@
-Name,Sex,Age,Division,Equipment,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Place
+﻿Name,Sex,Age,Division,Equipment,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Place
 Adam Riman,M,,M_J_R,Raw,96.1,100,205,215,225,225,130,137.5,-145,137.5,270,290,-300,290,652.5,SBD,2
 Aisling Perbody,F,,F_J_R,Raw,67.5,67.5,80,90,-100,90,55,60,-65,60,130,140,145,145,295,SBD,1
 Andrew Whitaker,M,,M_O_R,Raw,97.6,100,,,,,187.5,197.5,-200,197.5,,,,,197.5,B,1
@@ -39,7 +39,7 @@ Harry Clemson,M,,M_T3_R,Raw,74.1,75,130,145,152.5,152.5,90,102.5,107.5,107.5,180
 Hassam Zaid,M,,M_O_E,Single-ply,90.3,100,100,,,100,60,,,60,140,200,-240,200,360,SBD,2
 Jack Hillman,M,,M_O_C,Wraps,116.9,125,-220,220,-240,220,140,-155,155,155,245,255,-260,255,630,SBD,4
 James Blundell,M,,M_O_R,Raw,89.1,90,185,200,205,205,142.5,150,-157.5,150,220,232.5,-245,232.5,587.5,SBD,4
-James Chapman,M,,M_O_R,Raw,82.4,82.5,225,232.5,237.5,237.5,155,160,-165,160,210,217.5,-222.5,217.5,615,SBD,2
+James Chapman #3,M,,M_O_R,Raw,82.4,82.5,225,232.5,237.5,237.5,155,160,-165,160,210,217.5,-222.5,217.5,615,SBD,2
 James Gilbert,M,,M_O_C,Wraps,119.6,125,-255,255,275,275,180,-190,190,190,270,290,-305,290,755,SBD,2
 James Taylor,M,,M_O_E,Single-ply,99.7,100,260,270,-280,270,180,200,210,210,225,245,-255,245,725,SBD,1
 James Warren,M,,M_O_C,Wraps,108.8,110,235,250,-255,250,150,160,-170,160,245,255,-260,255,665,SBD,1
