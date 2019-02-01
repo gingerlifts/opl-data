@@ -763,7 +763,7 @@ pub enum Federation {
     #[strum(to_string = "WPF", serialize = "wpf")]
     WPF,
     
-    /// World Powerlifting Raw Organisation.
+    /// World Powerlifting League.
     #[strum(to_string = "WPLeague", serialize = "wpleague")]
     WPLeague,
 
