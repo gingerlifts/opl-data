@@ -1,5 +1,5 @@
-Name,,Country,Age,Sex,Equipment,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Place
-Alex Kovatch,BirthDate,,,M,Multi-ply,M_LWT_WPO,77.8,82.5,292.5,325,355,355,-185,-185,-185,,,,,,,,SBD,DQ
+Name,BirthDate,Country,Age,Sex,Equipment,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Place
+Alex Kovatch,,,,M,Multi-ply,M_LWT_WPO,77.8,82.5,292.5,325,355,355,-185,-185,-185,,,,,,,,SBD,DQ
 Alison Crowdus,,,,F,Multi-ply,F_HWT_WPO,122.9,90+,227.5,-242.5,242.5,242.5,-225,-247.5,-247.5,,,,,,,,SBD,DQ
 Allan Mehan,,,,M,Multi-ply,M_HWT_WPO,131.8,140,-460,-460,-460,,,,,,,,,,,,SBD,DQ
 Allen Pilley,,,,M,Multi-ply,M_HWT_WPO,122.2,125,435,-457.5,-472.5,435,272.5,305,-322.5,,305,310,327.5,-340,327.5,1067.5,SBD,7
