@@ -1090,7 +1090,7 @@ impl Federation {
             Federation::FEPOA => Some(Country::Argentina),
             Federation::FESUPO => None,
             Federation::FFForce => Some(Country::France),
-            Federation::FHSAA => Some(Country::France),
+            Federation::FHSAA => Some(Country::USA),
             Federation::FPO => Some(Country::Finland),
             Federation::FPR => Some(Country::Russia),
             Federation::GPA => None,
