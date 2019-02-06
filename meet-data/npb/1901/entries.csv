@@ -1,11 +1,11 @@
 Place,Name,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,WeightClassKg,Division,Event,Sex,Equipment
-1,Carolien Schouten,50,50,55,60,60,42.5,45,47.5,47.5,75,80,-85,80,187.5,52,Master1,SBD,F,Raw
+1,Carolien Schouten,50,50,55,60,60,42.5,45,47.5,47.5,75,80,-85,80,187.5,52,Masters 1,SBD,F,Raw
 1,Veerle van Leemput,55.1,95,100,-105,100,60,-65,65,65,130,-140,-140,130,295,57,Open,SBD,F,Raw
 2,Marianne van de Wouw,52.6,85,90,95,95,40,45,47.5,47.5,105,115,120,120,262.5,57,Juniors,SBD,F,Raw
 3,Manoe Ossel,56.4,85,-87.5,87.5,87.5,52.5,57.5,-60,57.5,102.5,107.5,112.5,112.5,257.5,57,Open,SBD,F,Raw
 4,Rilana Pal,56,90,95,-100,95,45,47.5,-50,47.5,92.5,100,-110,100,242.5,57,Juniors,SBD,F,Raw
-1,Colette Haddon,62.4,135,140,-142.5,140,72.5,75,77.5,77.5,157.5,167.5,172.5,172.5,390,63,Master1,SBD,F,Raw
-2,Natasja Martis,61.8,105,112.5,-117.5,112.5,72.5,77.5,80,80,-120,132.5,137.5,137.5,330,63,Master1,SBD,F,Raw
+1,Colette Haddon,62.4,135,140,-142.5,140,72.5,75,77.5,77.5,157.5,167.5,172.5,172.5,390,63,Masters 1,SBD,F,Raw
+2,Natasja Martis,61.8,105,112.5,-117.5,112.5,72.5,77.5,80,80,-120,132.5,137.5,137.5,330,63,Masters 1,SBD,F,Raw
 3,Roelienda Zevenbergen,62.5,102.5,107.5,110,110,55,57.5,-60,57.5,152.5,-157.5,157.5,157.5,325,63,Open,SBD,F,Raw
 4,Janine Wiessenberg,62.3,102.5,107.5,110,110,55,57.5,60,60,115,120,-125,120,290,63,Open,SBD,F,Raw
 5,Marieke Jansen,62.5,77.5,-82.5,-82.5,77.5,65,-70,-70,65,120,127.5,-135,127.5,270,63,Open,SBD,F,Raw
@@ -13,9 +13,9 @@ Place,Name,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2K
 1,Mirte de Haan,83.3,132.5,140,145,145,70,72.5,-75,72.5,155,162.5,-167.5,162.5,380,84,Open,SBD,F,Raw
 2,Elisa Hessels,82.4,117.5,125,130,130,60,65,-67.5,65,142.5,152.5,160,160,355,84,Open,SBD,F,Raw
 3,Silke van den Berg,79.2,122.5,130,135,135,65,-67.5,-67.5,65,130,140,-147.5,140,340,84,Open,SBD,F,Raw
-4,Laura Smeets,79.4,-95,102.5,107.5,107.5,70,75,-80,75,125,132.5,137.5,137.5,320,84,Master1,SBD,F,Raw
+4,Laura Smeets,79.4,-95,102.5,107.5,107.5,70,75,-80,75,125,132.5,137.5,137.5,320,84,Masters 1,SBD,F,Raw
 5,Sharon van der Linden,79.7,100,107.5,-115,107.5,57.5,62.5,-65,62.5,115,125,140,140,310,84,Juniors,SBD,F,Raw
-6,Kim Hoetjes,81.9,110,115,120,120,70,75,77.5,77.5,102.5,107.5,112.5,112.5,310,84,Master1,SBD,F,Raw
+6,Kim Hoetjes,81.9,110,115,120,120,70,75,77.5,77.5,102.5,107.5,112.5,112.5,310,84,Masters 1,SBD,F,Raw
 1,Esther Wilten,119.3,140,147.5,155,155,77.5,82.5,-85,82.5,150,155,160,160,397.5,84+,Open,SBD,F,Raw
 2,Brittney van den Berg,104.2,-135,-140,140,140,87.5,90,92.5,92.5,135,147.5,155,155,387.5,84+,Juniors,SBD,F,Raw
 1,Wes Dekkers,64.4,150,160,162.5,162.5,95,100,105,105,190,200,210,210,477.5,66,Juniors,SBD,M,Raw
@@ -45,7 +45,7 @@ Place,Name,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2K
 8,Martijn Warndorff,86.8,182.5,-190,192.5,192.5,120,127.5,130,130,210,220,230,230,552.5,93,Open,SBD,M,Raw
 9,Bram Scholten,90.7,165,172.5,180,180,137.5,145,150,150,-205,212.5,220,220,550,93,Open,SBD,M,Raw
 10,Rijker Cox,90.2,195,-202.5,-202.5,195,120,122.5,125,125,210,217.5,222.5,222.5,542.5,93,Open,SBD,M,Raw
-11,Job Zeijen,87.6,170,185,190,190,100,110,-115,110,210,230,240,240,540,93,Master1,SBD,M,Raw
+11,Job Zeijen,87.6,170,185,190,190,100,110,-115,110,210,230,240,240,540,93,Masters 1,SBD,M,Raw
 12,Remco Onkenhout,88.1,160,-170,175,175,-105,110,-120,110,215,225,235,235,520,93,Open,SBD,M,Raw
 13,Joery Wesseling,83.6,185,192.5,200,200,105,110,-112.5,110,180,190,200,200,510,93,Juniors,SBD,M,Raw
 14,Guo Rong Zhou,90,160,167.5,175,175,105,112.5,120,120,190,200,210,210,505,93,Juniors,SBD,M,Raw
