@@ -1,4 +1,4 @@
-Place,Name,BodyweightKg,WeightClass,Division,Sex,Event,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg
+Place,Name,BodyweightKg,WeightClassKg,Division,Sex,Event,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg
 1,Tommy Campion,65,67.5,M-M5,M,D,Raw,,,,,,,,,130,135,140,,140,140
 3,Ema Johnson,55.8,58.5,F-O,F,SBD,Raw,52.5,57.5,62.5,62.5,42.5,47.5,-50,47.5,75,-85,85,,85,195
 1,Shauna Goodenough,61.6,63,F-Jnr,F,SBD,Raw,70,75,-80,75,40,45,-47.5,45,90,95,100,,100,220
