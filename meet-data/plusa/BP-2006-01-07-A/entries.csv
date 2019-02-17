@@ -1,6 +1,6 @@
 Name,Division,Sex,Best3BenchKg,TotalKg,Event,Equipment,Place,BodyweightKg,WeightClassKg
 Jan Hobbs,F-E-M1,F,60,60,B,Single-ply,1,49.1,52
-Nicola Elding,F-E-Open,F,57.5,57.5,B,Single-ply,1,58.5,56
+Nicola Elding,F-E-Open,F,57.5,57.5,B,Single-ply,1,58.5,60
 Colette Pendry,F-E-Open,F,97.5,97.5,B,Single-ply,1,60,60
 Sue Tyson,F-E-M1,F,115,115,B,Single-ply,1,79.6,82.5
 Jean Maton,F-E-M1,F,110,110,B,Single-ply,2,82.5,82.5
@@ -58,7 +58,7 @@ Jerry Rice,M-E-M1,M,190,190,B,Single-ply,2,89.5,90
 Doug D'Gama,M-E-M1,M,177.5,177.5,B,Single-ply,3,87.8,90
 Chris Davies,M-E-Open,M,170,170,B,Single-ply,1,88.85,90
 Darren George,M-E-Open,M,170,170,B,Single-ply,2,89,90
-Martin Green,M-E-Open,M,,,B,Single-ply,3,89.8,90
+Martin Green,M-E-Open,M,,,B,Single-ply,DQ,89.8,90
 Ian Kinghorn,M-E-M1,M,245,245,B,Single-ply,1,99.5,100
 Steve Summing,M-E-M1,M,190,190,B,Single-ply,2,93.25,100
 Tony Stevenson,M-E-M1,M,180,180,B,Single-ply,3,90.75,100
@@ -67,7 +67,7 @@ Richard Twycross-Lewis,M-E-Open,M,215,215,B,Single-ply,1,98.05,100
 Andrew Tanner,M-E-Open,M,195,195,B,Single-ply,2,97.3,100
 Rick McCormack,M-E-Open,M,190,190,B,Single-ply,3,98.5,100
 John Wright,M-E-Open,M,165,165,B,Single-ply,4,97.4,100
-P. Singh,M-E-Open,M,,,B,Single-ply,5,99.55,100
+P. Singh,M-E-Open,M,,,B,Single-ply,DQ,99.55,100
 Allan Hulme,M-E-M1,M,195,195,B,Single-ply,1,107.85,110
 Jason Talbot,M-E-Open,M,225,225,B,Single-ply,1,109.3,110
 Glen Willson,M-E-Open,M,210,210,B,Single-ply,2,107.9,110
