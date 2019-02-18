@@ -3,7 +3,7 @@ Teresa Sawyer,F-E-M1,F,145,92.5,147.5,385,SBD,Single-ply,1,52,51.25
 Jenny Hunter,F-E-M1,F,142.5,92.5,160,395,SBD,Single-ply,1,56,55.9
 Gaby Lesting,F-E-M1,F,117.5,67.5,135,320,SBD,Single-ply,1,60,59
 Joanna Banks,F-E-M1,F,130,52.5,125,307.5,SBD,Single-ply,1,67.5,66.2
-Jackie Blasbery,F-E-M1,F,167.5,97.5,185,450,SBD,Single-ply,1,57,69.2
+Jackie Blasbery,F-E-M1,F,167.5,97.5,185,450,SBD,Single-ply,1,75,69.2
 Sue Tyson,F-E-M1,F,155,102.5,165,422.5,SBD,Single-ply,2,75,74.1
 Jean Maton,F-E-M1,F,172.5,115,182.5,470,SBD,Single-ply,1,82.5,82.2
 Geraldine Fitzsimmons,F-E-M1,F,160,55,140,355,SBD,Single-ply,1,90,89.2
@@ -12,7 +12,7 @@ Enid Dixon,F-E-M2,F,60,40,80,180,SBD,Single-ply,1,48,46.3
 Helen Richards,F-E-M2,F,117.5,65,145,327.5,SBD,Single-ply,1,67.5,67.4
 Margaret Scoltock,F-E-M2,F,117.5,67.5,115,300,SBD,Single-ply,1,75,64.4
 Doreen Dowsett,F-E-M2,F,125.5,57.5,142.5,325.5,SBD,Single-ply,1,90,69.4
-Sue Hollands,F-E-M2,F,180,90,177.5,447.5,SBD,Single-ply,1,56,82.8
+Sue Hollands,F-E-M2,F,180,90,177.5,447.5,SBD,Single-ply,1,90,82.8
 J. Maxwell,M-E-M1,M,185,107.5,200,492.5,SBD,Single-ply,1,60,54.4
 G. Dowers,M-E-M1,M,170,122.5,190,482.5,SBD,Single-ply,2,60,59.8
 N. Patrick,M-E-M1,M,185,95,192.5,472.5,SBD,Single-ply,3,60,59.5
@@ -29,7 +29,7 @@ M. Macey,M-E-M1,M,230,135,227.5,592.5,SBD,Single-ply,3,82.5,82.5
 M. Eyre,M-E-M1,M,180,,,,SBD,Single-ply,DQ,82.5,81.5
 Philip Guise,M-E-M1,M,,,,,SBD,Single-ply,DQ,90,82.2
 J. Harness,M-E-M1,M,270,175,260,705,SBD,Single-ply,1,90,88.8
-S. Porter,M-E-M1,M,260,185,250,695,SBD,Single-ply,2,90,887
+S. Porter,M-E-M1,M,260,185,250,695,SBD,Single-ply,2,90,88.7
 J. Rice,M-E-M1,M,260,185,240,685,SBD,Single-ply,3,90,87.4
 W. Carter,M-E-M1,M,230,170,250,650,SBD,Single-ply,4,90,89.8
 S. Bain,M-E-M1,M,227.5,155,227.5,610,SBD,Single-ply,5,90,87.7
@@ -60,7 +60,7 @@ Bob Baxter,M-E-M2,M,200,132.5,200,532.5,SBD,Single-ply,2,100,93.2
 A. White,M-E-M2,M,260,150,300,710,SBD,Single-ply,1,110,109
 A. Kerr,M-E-M2,M,282.5,197.5,300,780,SBD,Single-ply,1,125+,135.2
 R. Powell,M-E-M3,M,145,85,180,410,SBD,Single-ply,1,67.5,67.2
-T. harvey,M-E-M3,M,110,70,165,345,SBD,Single-ply,2,67.5,66.7
+T. Harvey,M-E-M3,M,110,70,165,345,SBD,Single-ply,2,67.5,66.7
 J. Higgins,M-E-M3,M,200,127.5,215,542.5,SBD,Single-ply,1,82.5,81.4
 D. Kirkland,M-E-M3,M,145,117.5,185,447.5,SBD,Single-ply,2,82.5,80.5
 D. Battison,M-E-M3,M,220,155,250,625,SBD,Single-ply,1,90,88.4
