@@ -4,10 +4,8 @@
 # Probes for new event results from the AAP.
 
 from bs4 import BeautifulSoup
-import datetime
 import os
 import sys
-import urllib.request
 
 try:
     import oplprobe
