@@ -1,12 +1,12 @@
 Division,Event,Equipment,Sex,WeightClassKg,Place,Age,Name,Team,BodyweightKg,Best3BenchKg,Best3DeadliftKg,TotalKg
 MJ,B,Multi-ply,M,75,1,21,Enzo Lechman,Ozis Olum,75,135,,135
 MJ,B,Multi-ply,M,75,2,23,Benjamin Ramirez,Olimpus,71.3,110,,110
-MO,B,Multi-ply,M,82.5,1,32,Fabian Izumigawa,Asudepo,79.4,165,,165
+MO,B,Multi-ply,M,82.5,1,32,Fabián Izumigawa,Asudepo,79.4,165,,165
 MO,B,Multi-ply,M,82.5,2,33,Felipe Villa,Dimaro,81.3,152.5,,152.5
 MO,B,Multi-ply,M,82.5,DQ,32,Enrique Villanueva,Rosell,82.2,,,
 MO,B,Multi-ply,M,90,1,32,Marcos Cabezas,Rio Grande,88.5,200,,200
 MO,B,Multi-ply,M,90,2,31,Fabian Blanco,Apolo,89,157.5,,157.5
-MO,B,Multi-ply,M,100,1,40,Victor Giles,Dimaro,100,210,,210
+MO,B,Multi-ply,M,100,1,40,Víctor Giles,Dimaro,100,210,,210
 MO,B,Multi-ply,M,110,1,30,Gonzalo Figueroa,Mega Gym,107,170,,170
 MO,B,Multi-ply,M,125,1,32,Marcos Cruz,Ozis Olum,113.5,145,,145
 M1,B,Multi-ply,M,90,DQ,41,Daniel Sánchez,Dimaro,89.5,,,
@@ -19,7 +19,7 @@ M3,B,Multi-ply,M,110,1,54,Sergio Gayoso,E.D.E.L.P.,108.7,190,,190
 M3,B,Multi-ply,M,125,1,50,Carlos Campos,Neo Sport,118.5,195,,195
 M3,B,Multi-ply,M,140+,1,54,Jorge Alvarez,Asudepo,151,90,,90
 M6,B,Multi-ply,M,125,1,65,Sergio Devich,Dimaro,115.5,140,,140
-MO,D,Multi-ply,M,82.5,DQ,32,Fabian Izumigawa,Asudepo,79.4,,,
+MO,D,Multi-ply,M,82.5,DQ,32,Fabián Izumigawa,Asudepo,79.4,,,
 MO,D,Multi-ply,M,90,1,41,Daniel Sánchez,Dimaro,89.5,,300,300
 MO,D,Multi-ply,M,90,2,32,Marcos Cabezas,Rio Grande,88.5,,255,255
 MO,D,Multi-ply,M,110,1,30,Figueroa Gonzalo,Apolo,107,,220,220
@@ -42,7 +42,7 @@ FJ,B,Raw,F,67.5,1,22,Aldana Richieri,Dimaro,67.4,55,,55
 FJ,B,Raw,F,67.5,2,23,Carolina Fleita,Apamule,64,37.5,,37.5
 FO,B,Raw,F,90+,1,30,Mariela Ortellado,Dimaro,94,102.5,,102.5
 F1,B,Raw,F,75,1,44,Leticia Bertotto,Apamule,73.9,100,,100
-F3,B,Raw,F,75,1,54,Valeria Aguero,Dimaro,68,130,,130
+F3,B,Raw,F,75,1,54,Valeria Agüero,Dimaro,68,130,,130
 FO,D,Raw,F,82.5,3,33,Laura Tabera,Dimaro,75.3,,120,120
 F1,D,Raw,F,60,1,40,Mariel Bertona,Dimaro,59.9,,165,165
 FJ,D,Raw,F,60,1,22,Belen Carballo,Dimaro,60,,90,90
@@ -51,14 +51,14 @@ FJ,D,Raw,F,67.5,2,23,Carolina Fleita,Apamule,64,,100,100
 FO,D,Raw,F,60,1,24,Fiamma Costa Bianchi,Dimaro,59.9,,162.5,162.5
 FO,D,Raw,F,90+,1,30,Mariela Ortellado,Dimaro,94,,215,215
 F1,D,Raw,F,75,DQ,44,Leticia Bertotto,Apamule,73.9,,,
-F3,D,Raw,F,75,1,54,Valeria Aguero,Dimaro,68,,190,190
+F3,D,Raw,F,75,1,54,Valeria Agüero,Dimaro,68,,190,190
 MT2,B,Raw,M,75,1,17,Pablo Gunsett,Fenix,73,100,,100
 MT2,B,Raw,M,82.5,1,17,Facundo Delgado,Fenix,78,90,,90
 MJ,B,Raw,M,90,1,21,Pablo Perin,Rosell,89.9,145,,145
 MJ,B,Raw,M,90,2,23,Lucas Signoretti,Fenix,86.8,132.5,,132.5
 MO,B,Raw,M,75,1,35,Alexis Martinez,Apolo,74.6,175,,175
 MO,B,Raw,M,75,2,25,Federico Mansilla,Apolo,74,127.5,,127.5
-MO,B,Raw,M,75,3,30,Martin San Felice,Apamule,73.7,125,,125
+MO,B,Raw,M,75,3,30,Martín San Felice,Apamule,73.7,125,,125
 MO,B,Raw,M,75,4,34,Gabriel Delgado,Neo Sport,74.9,125,,125
 MO,B,Raw,M,75,5,32,Carlos Orallana,E.D.E.L.P.,74.2,87.5,,87.5
 MO,B,Raw,M,82.5,1,28,Patricio Rodriguez,Dimaro,79.5,132.5,,132.5
@@ -66,7 +66,7 @@ MO,B,Raw,M,82.5,2,24,David Zerpa,Ozis Olum,78.1,117.5,,117.5
 MO,B,Raw,M,82.5,3,33,Felipe Villa,Dimaro,81.3,115,,115
 MO,B,Raw,M,90,1,37,Jose Cañizares,Fortin Confluencia,87.4,170,,170
 MO,B,Raw,M,90,2,33,Alejandro Godoy,Fenix,85,112.5,,112.5
-MO,B,Raw,M,100,1,40,Victor Giles,Dimaro,100,192.5,,192.5
+MO,B,Raw,M,100,1,40,Víctor Giles,Dimaro,100,192.5,,192.5
 MO,B,Raw,M,100,2,32,Jonatan Bolada,Dimaro,99.5,140,,140
 MO,B,Raw,M,110,1,32,Sebastian Mansilla,Fenix,103,130,,130
 MO,B,Raw,M,125,1,36,Cristian Gutierrez,Apamule,116.5,220,,220
@@ -98,7 +98,7 @@ MO,D,Raw,M,67.5,1,25,Martin Aroscheguichar,Apamule,62.7,,160,160
 MO,D,Raw,M,75,1,32,Pablo Bandin,Dimaro,73.5,,260,260
 MO,D,Raw,M,75,2,34,Gabriel Delgado,Neo Sport,74.9,,235,235
 MO,D,Raw,M,75,3,32,Carlos Orallana,E.D.E.L.P.,74.2,,180,180
-MO,D,Raw,M,75,4,30,Martin San Felice,Apamule,73.7,,175,175
+MO,D,Raw,M,75,4,30,Martín San Felice,Apamule,73.7,,175,175
 MO,D,Raw,M,75,DQ,35,Alexis Martinez,Apolo,74.6,,,
 MO,D,Raw,M,82.5,1,24,David Zerpa,Ozis Olum,78.1,,212.5,212.5
 MO,D,Raw,M,82.5,2,33,Victor Trimarco,Olimpus,81.2,,210,210

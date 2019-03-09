@@ -16,7 +16,7 @@ Place,Sex,Event,Equipment,WeightClassKg,BodyweightKg,Name,State,Squat1Kg,Squat2K
 1,M,SBD,Single-ply,60,59.5,Moses Tsimane,FS,-150,150,160,160,100,125,130,130,180,-200,200,200,490,Open
 1,F,SBD,Single-ply,60,56.4,Lisa Basson,G,110,122.5,-132.5,122.5,65,70,75,75,125,140,147.5,147.5,345,Open
 2,F,SBD,Single-ply,60,60,Danel van Jaarsveld,G,-100,100,-112.5,100,-65,-65,65,65,110,125,135,135,300,Open
-1,F,SBD,Single-ply,67.5,67.05,Michelle De Souza,G,-130,130,147.5,147.5,57.5,62.5,-65,62.5,160,-175,175,175,385,Open
+1,F,SBD,Single-ply,67.5,67.05,Michelle de Souza,G,-130,130,147.5,147.5,57.5,62.5,-65,62.5,160,-175,175,175,385,Open
 2,M,SBD,Single-ply,75,74.45,Marlon Daniels,G,160,180,200,200,130,140,150,150,180,200,220,220,570,Open
 DQ,M,SBD,Single-ply,75,74.65,Vinay Goosai,KZN,190,210,-220,210,140,150,155,155,-240,-240,-240,,,Open
 DQ,M,B,Single-ply,75,71,Freek Jonk,NW,,,,,-150,-150,-150,,,,,,,Open
@@ -35,14 +35,14 @@ DQ,M,SBD,Single-ply,110,108.3,Clyde Keevy,G,225,240,-250,240,-175,-175,-175,,225
 1,M,B,Single-ply,125,123.75,Collin Lubbe,FS,,,,,-150,150,-167.5,150,,,,,150,Open
 DQ,M,B,Single-ply,125,123.65,Ian Furman,G,,,,,,,,,,,,,,Open
 4,M,BD,Single-ply,125,117.05,Warren Bakos,G,,,,,95,105,-110,105,180,200,210,210,315,Open
-1,M,SBD,Single-ply,125+,135,Frank Janse Van Rensburg,KZN,230,250,260,260,150,240,245,245,205,220,230,230,735,Open
+1,M,SBD,Single-ply,125+,135,Frank Janse van Rensburg,KZN,230,250,260,260,150,240,245,245,205,220,230,230,735,Open
 1,F,B,Single-ply,48,47.75,Liliana Coleman,WP,,,,,-60,60,-62.5,60,,,,,60,Open
 1,M,SBD,Single-ply,52,51.95,Sean Brokenshire,WP,130,140,-150,140,95,105,,105,170,177.5,-182.5,177.5,422.5,Open
 1,F,SBD,Single-ply,56,54.65,Bernadine Brand,WP,55,-62.5,62.5,62.5,35,-40,-40,35,85,95,105,105,202.5,Open
 1,F,B,Single-ply,56,53.9,Michelle Botha,EP,,,,,40,-42.5,42.5,42.5,,,,,42.5,Open
 1,M,SBD,Single-ply,67.5,66.5,Christopher Bruce,WP,155,170,175,175,95,100,-110,100,160,170,180,180,455,Open
 1,F,B,Single-ply,67.5,67.4,Sanet Momberg,EP,,,,,110,120,130,130,,,,,130,Open
-DQ,F,SBD,Single-ply,67.5,65.3,Renate Van Dyk,WP,-125,-125,-125,,60,-62.5,,60,-135,,,,,Open
+DQ,F,SBD,Single-ply,67.5,65.3,Renate van Dyk,WP,-125,-125,-125,,60,-62.5,,60,-135,,,,,Open
 1,M,B,Single-ply,75,73.65,Jason Meyer,EP,,,,,145,157.5,-172.5,157.5,,,,,157.5,Open
 DQ,M,SBD,Single-ply,75,74.3,Conrad Dippenaar,WP,-185,-185,-185,,105,-112.5,-112.5,105,-205,,,,,Open
 1,M,SBD,Single-ply,82.5,76.1,Sevriano Malgas,WP,-140,140,-150,140,110,120,-130,120,180,200,210,210,470,Open
