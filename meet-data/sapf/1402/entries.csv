@@ -1,17 +1,17 @@
-57kg,WeightClassKg,Sex,Division,BirthYear,BirthDate,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
+Name,WeightClassKg,Sex,Division,BirthYear,BirthDate,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Stacey Bryant,57,F,Juniors,,1992-04-22,G,55.25,105,57.5,85,247.5,SBD,Raw,1
 Tammy Goosen,84,F,Juniors,,1993-09-21,G,74.75,105,45,125,275,SBD,Raw,2
 Leandre Swart,84,F,Juniors,,1995-10-23,G,79.5,75,62.5,147.5,285,SBD,Raw,1
 Jane Bothma,84+,F,Juniors,,1994-04-17,G,130.4,100,52.5,155,307.5,SBD,Raw,1
 Mariska Casey,52,F,Open,,1978-06-05,G,49.35,90,40,120,250,SBD,Raw,1
 Yvonne Pretoruis,57,F,Open,,1980-09-04,NW,55.75,85,45,95,225,SBD,Raw,1
-Danel Van Jaarsveld,63,F,Open,,1977-07-07,G,61.95,135,75,150,360,SBD,Raw,1
+Danel van Jaarsveld,63,F,Open,,1977-07-07,G,61.95,135,75,150,360,SBD,Raw,1
 Sune Gadney,63,F,Open,,1988-07-12,G,63,70,35,112.5,217.5,SBD,Raw,2
 Toni Joubert,72,F,Open,,1986-11-26,G,67.8,85,45,112.5,242.5,SBD,Raw,1
 Tarryn-Leigh Merifield,84,F,Open,,1987-02-05,G,76.55,125,75,165,365,SBD,Raw,1
 Anneke Delport,84,F,Masters 1,,1975-03-27,G,81.55,45,25,85,155,SBD,Raw,2
-Susan Kloppers,84,F,Masters 1,,1971-11-09,G,93.2,85,50,115,250,SBD,Raw,1
-Tristan Ferreira,66,M,Sub-Juniors,,1997-03-07,G,57.9,50,55,105,210,SBD,Raw,1
+Susan Kloppers,84+,F,Masters 1,,1971-11-09,G,93.2,85,50,115,250,SBD,Raw,1
+Tristan Ferreira,59,M,Sub-Juniors,,1997-03-07,G,57.9,50,55,105,210,SBD,Raw,1
 JP Swart,105,M,Sub-Juniors,,1997-02-27,G,101.1,180,115,220,515,SBD,Raw,1
 Andre Kloppers,105,M,Juniors,,1995-06-19,G,99.85,200,125,240,565,SBD,Raw,1
 Zander Kloppers,105,M,Juniors,,1993-10-09,G,97.8,160,105,190,455,SBD,Raw,2
@@ -31,4 +31,3 @@ Tony Klopper,105,M,Masters 1,1971,,G,98.9,140,85,150,375,SBD,Raw,1
 Juan Meyer,120+,M,Masters 1,,1972-05-05,G,132.95,160,170,220,550,SBD,Raw,1
 Tommy De Nysschen,83,M,Masters 2,,1963-05-30,G,76.75,140,92.5,155,387.5,SBD,Raw,1
 Rob Huff,93,M,Masters 3,1952,,G,92.55,150,105,170,425,SBD,Raw,1
-,,,,,,,,,,,,,,DQ

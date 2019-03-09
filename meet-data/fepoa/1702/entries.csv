@@ -69,7 +69,7 @@ Guillermo Bisquerra,Raw,25,MO,M,71.4,75,,,,,,190,-205,-205,,190,190,D,5
 Pablo Esquivel,Raw,39,MO,M,79.2,82.5,,,,,,205,220,230,,230,230,D,1
 David Zerpa,Raw,26,MO,M,76.1,82.5,,,,,,195,205,215,,215,215,D,2
 Ariel Luna,Raw,39,MO,M,80.9,82.5,,,,,,180,200,-210,,200,200,D,3
-Martin San Felice,Raw,32,ME,M,80.5,82.5,,,,,,200,210,-212.5,,210,210,D,1
+Martin San Felice,Raw,32,MO,M,80.5,82.5,,,,,,200,210,-212.5,,210,210,D,1
 Jose Luis Perez,Multi-ply,33,MO,M,72.9,75,,,,,,170,185,-200,,185,185,D,1
 Jesus Balbiano,Multi-ply,33,MO,M,82.5,82.5,,,,,,200,,,,200,200,D,1
 Rafael Favalini,Raw,13,MT1,M,43.9,56,,,,,,40,50,60,-75,60,60,D,1
@@ -127,8 +127,8 @@ Paticio Spera,Multi-ply,18,MT3,M,91.6,100,135,-145,,,135,,,,,,135,B,1
 Paticio Spera,Raw,18,MT3,M,91.6,100,110,120,-130,,120,,,,,,120,B,1
 Lautaro Siles,Raw,19,MT3,M,96.4,100,100,110,-120,,110,,,,,,110,B,2
 Marcelo Vargas,Raw,17,MT2,M,88.3,90,65,-75,-75,,65,,,,,,65,B,1
-Pablo Medina,Multi-ply,16,MT1,M,135,140,190,200,-210,,200,,,,,,200,B,1
-Pablo Medina,Raw,16,MT1,M,135,140,145,155,165,-170,165,,,,,,165,B,1
+Pablo Medina,Multi-ply,16,MT2,M,135,140,190,200,-210,,200,,,,,,200,B,1
+Pablo Medina,Raw,16,MT2,M,135,140,145,155,165,-170,165,,,,,,165,B,1
 Fabian Izumigawa,Multi-ply,33,MO,M,84.8,90,160,170,180,,180,,,,,,180,B,1
 Eric Mateyka,Raw,24,MO,M,90,90,170,-180,,,170,,,,,,170,B,1
 Alexis Martinez,Multi-ply,37,MO,M,83.8,90,150,157.5,-172.5,,157.5,,,,,,157.5,B,2
@@ -152,7 +152,7 @@ Javier Rios,Multi-ply,38,MO,M,120.8,125,110,120,-130,,120,,,,,,120,B,2
 Emanuel Brentasi,Raw,33,MO,M,137.1,140,220,230,235,,235,,,,,,235,B,1
 Jorge López,Raw,36,MO,M,128.5,140,-170,170,-180,,170,,,,,,170,B,2
 Walter Vernay,Raw,32,MO,M,137.2,140,155,160,-165,,160,,,,,,160,B,3
-Fernando Cortez,Raw,48,M11,M,87.1,90,,,,,,140,150,-160,,150,150,D,1
+Fernando Cortez,Raw,48,M2,M,87.1,90,,,,,,140,150,-160,,150,150,D,1
 Rodrigo Sanchez,Raw,46,M2,M,89.6,90,,,,,,220,240,250,,250,250,D,1
 Dario Ferrero,Raw,45,M2,M,84,90,,,,,,180,200,,,200,200,D,2
 Rafael Silva,Raw,48,M2,M,87.3,90,,,,,,160,170,190,,190,190,D,3
@@ -188,7 +188,7 @@ Alfredo Rojas,Raw,31,MO,M,118.8,125,,,,,,290,310,,,310,310,D,1
 Walter Vernay,Raw,32,MO,M,137.2,140,,,,,,220,235,,,235,235,D,1
 Marcos Martinez,Multi-ply,41,MO,M,97.7,100,,,,,,300,315,322.5,,322.5,322.5,D,1
 Javier Rios,Multi-ply,38,MO,M,120.8,125,,,,,,180,200,-210,,200,200,D,1
-Pablo Medina,Raw,16,MT1,M,135,140,,,,,,-235,240,-250,,240,240,D,1
+Pablo Medina,Raw,16,MT2,M,135,140,,,,,,-235,240,-250,,240,240,D,1
 Marcelo Vargas,Raw,17,MT2,M,88.2,90,,,,,,135,145,-152.5,,145,145,D,1
 Agustin Sosa,Raw,19,MT3,M,124.7,125,,,,,,190,205,215,225.5,215,215,D,1
 Patricio Spera,Raw,18,MT3,M,91.6,100,,,,,,190,200,212.5,,212.5,212.5,D,1
@@ -203,7 +203,7 @@ Leticia Bertotto,Raw,45,F2,F,88.6,90,110,120,-130,,120,,,,,,120,B,1
 Aida Agüero,Multi-ply,56,FO,F,72.6,75,130,140,-150,,140,,,,,,140,B,1
 Analia Mendez,Raw,17,FT2,F,73.9,75,50,-55,-55,,50,,,,,,50,B,1
 Elvira Montenegro,Raw,70,F7,F,64.9,67.5,-40,45,47.5,,47.5,,,,,,47.5,B,1
-Micaela Lopez,Raw,23,FJ,F,47.3,52,55,60,62.5,64,62.5,,,,,,62.5,B,1
+Micaela Lopez,Raw,23,FJ,F,47.3,48,55,60,62.5,64,62.5,,,,,,62.5,B,1
 Camila Espinosa,Raw,22,FJ,F,59.5,60,50,55,-60,,55,,,,,,55,B,1
 Monica Romero,Multi-ply,38,FO,F,58.2,60,50,-55,-55,,50,,,,,,50,B,1
 Monica Romero,Raw,38,FO,F,58.2,60,40,-45,45,,45,,,,,,45,B,2
@@ -222,7 +222,7 @@ Estela Vega,Raw,45,F2,F,64.9,67.5,,,,,,80,110,-115,,110,110,D,1
 Leticia Bertotto,Raw,45,F2,F,88.6,90,,,,,,200,210,-220,,210,210,D,1
 Selena Cuello,Raw,15,FT1,F,63.5,67.5,,,,,,90,100,105,,105,105,D,1
 Analia Mendez,Raw,17,FT2,F,73.9,75,,,,,,115,120,130,,130,130,D,1
-Micaela Lopez,Raw,23,FJ,F,47.3,52,,,,,,112.5,125,127.5,,127.5,127.5,D,1
+Micaela Lopez,Raw,23,FJ,F,47.3,48,,,,,,112.5,125,127.5,,127.5,127.5,D,1
 Camila Espinosa,Raw,22,FJ,F,59.5,60,,,,,,125,-135,135,,135,135,D,1
 Nicole Ventura,Raw,23,FJ,F,63.3,67.5,,,,,,90,100,110,,110,110,D,1
 Carina Chavez,Raw,24,FO,F,58.8,60,,,,,,155,165,-177.5,,165,165,D,1

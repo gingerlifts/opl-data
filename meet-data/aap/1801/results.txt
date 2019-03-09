@@ -24,7 +24,7 @@ Nº      NOMBRE Y APELLIDO   IPO/GPA SEX     F. Nac     PESO     Edad     DIV 1 
 12   Jose Maria Acevedo      GPA    M      18-ene-84   81,50    34       Open        -     82,5   200,0    220,0    -240,0   NO   135,0     142,5   150,0    .    370,0   260,0    -280,0   280,0    .    650,0   676,65         1°      -       -
 13   Federico Plinski        GPA    M      05-ene-85   78,40    33       Open        -     82,5   140,0    155,0    165,0    .    80,0       90,0   95,0     .    260,0   160,0    170,0    180,0    .    440,0   473,00         12°     -       -
 14   Juan Manuel Costello    GPA    M      17-mar-89   79,20    29       Open        -     82,5   150,0    165,0    180,0    .    95,0      105,0   110,0    .    290,0   170,0    185,0    200,0    .    490,0   522,34         10°     -       -
-15   Mariano Stamatti        GPA    M      08-ago-77   82,50    40       M40-49    Open    82,5   190,0    200,0    -210,0   NO   100,0     110,0   120,0    .    320,0   200,0    210,0    -220,0   NO   530,0   546,43         8°    530,00    1°
+15   Mariano Stamatti        GPA    M      08-ago-77   82,50    40       M 40-49    Open    82,5   190,0    200,0    -210,0   NO   100,0     110,0   120,0    .    320,0   200,0    210,0    -220,0   NO   530,0   546,43         8°    530,00    1°
 16   Ezequiel Uguet          GPA    M      03-mar-93   84,00    25       Open        -     90     100,0                      NO   100,0     125,0   -135,0   NO   225,0   100,0                      NO   325,0   329,88         16°     -       -
 17   Franco Elizaran         GPA    M      07-oct-96   97,10    21        Jun      Open    100    175,0    190,0    205,0    .    105,0     115,0   125,0    .    330,0   175,0    190,0    205,0    .    535,0   495,95         11°     -       -
 18   Francisco Varela        GPA    M      14-ene-95   94,30    23        Jun      Open    100    240,0    -255,0   255,0    .    160,0     170,0   175,0    .    430,0   250,0    260,0    275,0    .    705,0   663,41         2°      -       -
@@ -47,13 +47,13 @@ Fecha Competencia:                         17-mar-18                      Récor
 Nº     NOMBRE Y APELLIDO   IPO/GPA   SEX     F. Nac      PESO     Edad      DIV 1   DIV 2      CAT     1.       2.       3.     4    TOTAL   Reshel   DAM    CAB     McC     McC
  1   Soledad Gambarte        IPO      F     15-ene-97    50,60    21        Jun     Open        52    25,0    32,5     40,0     .    40,0    86,40     1°             -       -
  2   Damian Dominicheli     GPA      M      13-feb-87    74,90    31        Open      -         75    90,0    95,0     -100,0   NO   95,0    106,40          #N/A     -       -
- 3   Gaston Montagna        GPA      M      10-feb-73    75,70    45       M40-49   Open       82,5   100,0     -        -      NO   100,0   111,00          #N/A   105,50    2°
+ 3   Gaston Montagna        GPA      M      10-feb-73    75,70    45       M 40-49   Open       82,5   100,0     -        -      NO   100,0   111,00          #N/A   105,50    2°
  4   Pablo Raccanelo        GPA      M      15-feb-86    78,00    32        Open      -        82,5   115,0   -117,5   -117,5   NO   115,0   123,97          #N/A     -       -
  5   Mario Garcia           GPA      M      20-oct-92    87,70    25        Open      -         90    130,0   -140,0     -      NO   130,0   128,31          #N/A     -       -
  6   Ezequiel Millet        GPA      M      27-may-86    95,50    31        Open      -        100    160,0   -170,0   170,0    .    170,0   158,95          #N/A     -       -
  7   Nicolas Fernandez      GPA      M      09-nov-89    51,50    28        Open      -         52    77,5    -80,0    80,0     .    80,0    149,36          #N/A     -       -
  8   Martin Amaya           GPA      M      01-dic-84    85,90    33        Open      -         90    150,0   160,0    175,0    .    175,0   175,00          #N/A     -       -
- 9   Miguel Pizarro         GPA      M      06-feb-58             60       M60-69   Open       #N/A   125,0   -135,0   -140,0   NO   125,0    #N/A           #N/A   167,50    1°
+ 9   Miguel Pizarro         GPA      M      06-feb-58             60       M 60-69   Open       #N/A   125,0   -135,0   -140,0   NO   125,0    #N/A           #N/A   167,50    1°
                                                                      COPA APERTURA GPA/IPO 2018
                                                         Chascomús, Buenos Aires. ARGENTINA - 17 de marzo 2018
                                                                                              PUSHPULL
@@ -73,8 +73,8 @@ Nº      NOMBRE Y APELLIDO   IPO/GPA SEX     F. Nac     PESO     Edad     DIV 1 
  3   Ezequiel del rio        GPA    M      21-nov-87   86,20    30       Open       -     90     100,0     110,0    -120,0   NO   160,0   175,0    -190,0   NO   285,0   284,43          6°      -       -
  4   Cristian Cuello         GPA    M      27-mar-79   86,60    38       Open       -     90     -150,0    -150,0   -150,0   NO   210,0                     NO   DESC    DESC           DESC     -       -
  5   Maximo Ogasawara        GPA    M      17-nov-83   86,00    34       Open       -     90     110,0     125,0    -130,0   NO   150,0   165,0    175,0    .    300,0   299,40          5°      -       -
- 6   Lisandro Pascuale       GPA    M      07-ene-68   98,90    50       M50-59   Open    100    120,0     130,0    135,0    .    160,0   180,0    195,0    .    330,0   303,60          4°    372,90    2°
- 7   Ezequiel Costa          GPA    M      25-ago-76   113,50   41       M40-49   Open    125    170,0     180,0    -190,0   NO   250,0   -270,0            NO   430,0   376,68          1°    434,30    1°
+ 6   Lisandro Pascuale       GPA    M      07-ene-68   98,90    50       M 50-59   Open    100    120,0     130,0    135,0    .    160,0   180,0    195,0    .    330,0   303,60          4°    372,90    2°
+ 7   Ezequiel Costa          GPA    M      25-ago-76   113,50   41       M 40-49   Open    125    170,0     180,0    -190,0   NO   250,0   -270,0            NO   430,0   376,68          1°    434,30    1°
                                                                     COPA APERTURA GPA/IPO 2018
                                                        Chascomús, Buenos Aires. ARGENTINA - 17 de marzo 2018
                                                                                              DEADLIFT
