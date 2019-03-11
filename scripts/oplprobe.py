@@ -24,7 +24,7 @@ def gethtml(url):
 
 def getenteredurls(feddir):
     urls = set()
-    for dirname, subdirs, files in os.walk(feddir):
+    for dirname, subdirs, files in os.walk(os.path.dirname(os.getcwd())):
         if 'URL' in files:
             with open(dirname + os.sep + 'URL', 'r') as fd:
                 for k in fd.readlines():
