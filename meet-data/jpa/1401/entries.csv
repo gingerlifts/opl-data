@@ -24,7 +24,7 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 丹下 将太,,1992,M,50.56,53,110,115,122.5,122.5,122.5,B,Single-ply,阪南大学ｳｴｲﾄﾄﾚｰﾆﾝｸﾞ部,Juniors,1
 貴田 沢,,1994,M,50.56,53,100,110,-117.5,110,110,B,Single-ply,岡山大学ｳｴｲﾄﾄﾚｰﾆﾝｸﾞ部,Juniors,2
 森田 篤史,,1998,M,52.36,53,,,,,,B,Single-ply,浦和学院高等学校,Sub-Juniors,NS
-木村 育史,,1975,M,58.72,59,-216,-217,217,217,217,B,Single-ply,K's GYM,Open,1
+木村 育史,Yasufumi Kimura,1975,M,58.72,59,-216,-217,217,217,217,B,Single-ply,K's GYM,Open,1
 野田 俊彦,,1979,M,57.8,59,210,-216,-217.5,210,210,B,Single-ply,パワーハウス,Open,2
 中田 和夫,,1967,M,58.52,59,182.5,187.5,-212.5,187.5,187.5,B,Single-ply,K's GYM,Masters 1,1
 中田 和夫,,1967,M,58.52,59,182.5,187.5,-212.5,187.5,187.5,B,Single-ply,K's GYM,Open,3
@@ -178,7 +178,7 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 東前 めぐみ,,1983,F,71.88,72,-77.5,-77.5,-77.5,,,B,Single-ply,K's GYM,Open,DQ
 小松 麻実,,1969,F,100.06,84+,100,-107.5,-107.5,100,100,B,Single-ply,有光自動車,Masters 1,1
 小松 麻実,,1969,F,100.06,84+,100,-107.5,-107.5,100,100,B,Single-ply,有光自動車,Open,1
-福島 勇輝,,1986,M,82.66,83,275,285,-310.5,285,285,B,Single-ply,F・T．GYM,Open,1
+福島 勇輝,Yuki Fukushima,1986,M,82.66,83,275,285,-310.5,285,285,B,Single-ply,F・T．GYM,Open,1
 長谷川 直輝,,1992,M,81.64,83,230,250,-261,250,250,B,Single-ply,K's GYM横浜,Juniors,1
 長谷川 直輝,,1992,M,81.64,83,230,250,-261,250,250,B,Single-ply,K's GYM横浜,Open,2
 鈴木 貴博,,1980,M,80.02,83,235,-245,-255,235,235,B,Single-ply,個人,Open,3

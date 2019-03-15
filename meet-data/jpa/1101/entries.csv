@@ -1,5 +1,5 @@
 JapaneseName,Name,Team,Age,Sex,Division,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Place,Event,Equipment
-木村 育史,,Ｋ’ｓ ＧＹＭ,35,M,Open,58.88,59,195,200,-205,200,200,1,B,Single-ply
+木村 育史,Yasufumi Kimura,Ｋ’ｓ ＧＹＭ,35,M,Open,58.88,59,195,200,-205,200,200,1,B,Single-ply
 広永 賢司,,Ｋ’ｓ ＧＹＭ,27,M,Open,65.8,66,165,175,180,180,180,1,B,Single-ply
 竹井 保満,,烈剛河内,82,M,Masters 4,62.76,66,90,95,-100,95,95,1,B,Single-ply
 木下 俊弘,,スポーツジムB＆F,64,M,Masters 3,62.94,66,100,110,112.5,112.5,112.5,1,B,Single-ply
@@ -29,7 +29,7 @@ JapaneseName,Name,Team,Age,Sex,Division,BodyweightKg,WeightClassKg,Bench1Kg,Benc
 林 久子,,チーム鉄腕,59,F,Open,56.2,57,57.5,60,-62.5,60,60,G,B,Raw
 徳武 恵美,,個人,47,F,Open,74.74,84,100,106,107,107,107,G,B,Raw
 安楽 佳貴,,個人,23,M,Juniors,49.64,53,110,120,130,130,130,1,B,Raw
-木村 育史,,Ｋ’ｓ ＧＹＭ,35,M,Open,58.88,59,120,140,-147.5,140,140,1,B,Raw
+木村 育史,Yasufumi Kimura,Ｋ’ｓ ＧＹＭ,35,M,Open,58.88,59,120,140,-147.5,140,140,1,B,Raw
 岸田 英生,,個人,34,M,Open,58.52,59,72.5,75,-77.5,75,75,2,B,Raw
 中田 和夫,,Ｋ’ｓ ＧＹＭ,43,M,Masters 1,58.48,59,135,-145,145,145,145,1,B,Raw
 藤井 郁男,,TEAM RED VOLTAGE,43,M,Masters 1,55.46,59,87.5,90,-92.5,90,90,2,B,Raw
