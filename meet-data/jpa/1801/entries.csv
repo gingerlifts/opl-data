@@ -8,7 +8,7 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 山根 修平,,1978,M,58.45,59,175,180,-190,180,180,Ｋ'ｓ ＧＹＭ横浜,Masters 1,B,Single-ply,2
 中田 和夫,,1967,M,58.5,59,167.5,180,-190,180,180,Ｋ'ｓ ＧＹＭ,Masters 2,B,Single-ply,1
 中野 衛,,1975,M,58.65,59,180,-187.5,-187.5,180,180,ＢＩＧ ＧＵＮＳ,Masters 1,B,Single-ply,3
-池田 尚也,,1970,M,58.75,59,175,-180,-182.5,175,175,個人,Masters 1,B,Single-ply,4
+池田 尚也,Naoya Ikeda,1970,M,58.75,59,175,-180,-182.5,175,175,個人,Masters 1,B,Single-ply,4
 木田 裕太,,1984,M,58.6,59,170,-180,-182.5,170,170,ＳＵＢＳＴＡＣＥＳ［Ｘ］,Open,B,Single-ply,3
 石渡 啓之,,1959,M,57.7,59,-145,-152.5,152.5,152.5,152.5,パワーハウス,Masters 2,B,Single-ply,2
 伊差川 浩之,,1953,M,58.25,59,145,152.5,-160,152.5,152.5,ＰＯＷＥＲ ＳＰＯＲＴ,Masters 3,B,Single-ply,1
@@ -23,7 +23,7 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 金谷 貴,,1948,M,57.85,59,115,-122.5,-122.5,115,115,ノーリミッツ,Masters 4,B,Single-ply,3
 橋本 雅人,,1957,M,58.8,59,112.5,115,-117.5,115,115,ショウワパワークラブ,Masters 3,B,Single-ply,3
 渡邉 将慶,,2001,M,58.65,59,-107.5,-107.5,-107.5,,,埼玉県立草加高等学校,Sub-Juniors,B,Single-ply,DQ
-福田 将志,,1984,M,65.8,66,237.5,245,-255,245,245,ストロングライン,Open,B,Single-ply,1
+福田 将志,Masashi Fukuda,1984,M,65.8,66,237.5,245,-255,245,245,ストロングライン,Open,B,Single-ply,1
 水野 瑛,,1992,M,64.6,66,-232.5,232.5,-245,232.5,232.5,Ｋ'ｓ ＧＹＭ横浜,Open,B,Single-ply,2
 佐藤 義宏,,1982,M,65.85,66,210,217.5,225,225,225,Ｋ'ｓ ＧＹＭ横浜,Open,B,Single-ply,3
 亀谷 充男,,1971,M,65.7,66,212.5,217.5,-225,217.5,217.5,瀬野川トレーニングクラブ,Masters 1,B,Single-ply,1
@@ -81,7 +81,7 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 井出 光弘,,1961,M,73.25,74,-187.5,-192.5,-195,,,Ｆ.Ｔ.ＧＹＭ,Masters 2,B,Single-ply,DQ
 山本 茂樹,,1943,M,73.5,74,-155,-157.5,-157.5,,,ストロングライン,Masters 4,B,Single-ply,DQ
 松岡 紀佳,,1971,M,73.95,74,-215,-225,-227.5,,,Ｋ'ｓ ＧＹＭ横浜,Masters 1,B,Single-ply,DQ
-大室 豪槻,,1993,M,82.35,83,-290,292.5,-305,292.5,292.5,Ｋ'ｓ ＧＹＭ,Open,B,Single-ply,1
+大室 豪槻,Goki Omuro,1993,M,82.35,83,-290,292.5,-305,292.5,292.5,Ｋ'ｓ ＧＹＭ,Open,B,Single-ply,1
 福島 勇輝,Yuki Fukushima,1986,M,81.1,83,275,-290,-292.5,275,275,Ｆ.Ｔ.ＧＹＭ,Open,B,Single-ply,2
 安江 三千夫,,1970,M,82.1,83,-255,255,-262.5,255,255,THE STORONGST WARRIORS,Masters 1,B,Single-ply,1
 三輪 景吾,,1981,M,82.5,83,240,247.5,252.5,252.5,252.5,東名アスレチック,Open,B,Single-ply,3
@@ -135,10 +135,10 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 渡辺 雄次,,1980,M,92.05,93,-310,-310,-310,,,パワーハウス赤穂,Open,B,Single-ply,DQ
 長谷川 直輝,,1992,M,92.4,93,-307.5,-307.5,-307.5,,,Ｋ'ｓ ＧＹＭ横浜,Open,B,Single-ply,DQ
 中谷 幸市,,1960,M,92.6,93,-170,-180,-180,,,国士舘中学・高等学校PL部,Masters 2,B,Single-ply,DQ
-葛西 昌彦,,1971,M,103.8,105,307.5,315,318.5,318.5,318.5,Ｋ'ｓ ＧＹＭ,Masters 1,B,Single-ply,1
+葛西 昌彦,Masahiko Kassai,1971,M,103.8,105,307.5,315,318.5,318.5,318.5,Ｋ'ｓ ＧＹＭ,Masters 1,B,Single-ply,1
 山下 保樹,,1991,M,103,105,305,312.5,317.5,317.5,317.5,Ｋ'ｓ ＧＹＭ,Open,B,Single-ply,1
-佐藤 優輝,,1983,M,103.2,105,307.5,315,-318,315,315,Ｋ'ｓ ＧＹＭ横浜,Open,B,Single-ply,2
-武田 裕介,,1985,M,104.6,105,260,270,-292.5,270,270,ＴＸＰ,Open,B,Single-ply,3
+佐藤 優輝,Yuki Sato,1983,M,103.2,105,307.5,315,-318,315,315,Ｋ'ｓ ＧＹＭ横浜,Open,B,Single-ply,2
+武田 裕介,Yusuke Takeda,1985,M,104.6,105,260,270,-292.5,270,270,ＴＸＰ,Open,B,Single-ply,3
 阿久津 貴史,,1982,M,101.5,105,252.5,260,265,265,265,ＴＸＰ,Open,B,Single-ply,4
 後藤 衆治,,1968,M,104.3,105,257.5,265,-275,265,265,瀬野川トレーニングクラブ,Masters 2,B,Single-ply,1
 伊藤 智,,1966,M,104,105,255,262.5,-272.5,262.5,262.5,Ｋ'ｓ ＧＹＭ,Masters 2,B,Single-ply,2
@@ -165,7 +165,7 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 橋本 隆盛,,1997,M,105.2,120,-210,210,-225,210,210,岡山大学ウェイトトレーニング部,Juniors,B,Single-ply,3
 辻見 直樹,,1964,M,119.1,120,185,190,195,195,195,スーパーパワーアサマトレーニングクラブ,Masters 2,B,Single-ply,2
 柳川 大貴,,1976,M,131.1,120+,300,-320,327.5,327.5,327.5,リアルスイング,Masters 1,B,Single-ply,1
-藤本 竜希,,2000,M,121.6,120+,310,325,-330,325,325,リアルスイング,Sub-Juniors,B,Single-ply,1
+藤本 竜希,Ryuki Fujimoto,2000,M,121.6,120+,310,325,-330,325,325,リアルスイング,Sub-Juniors,B,Single-ply,1
 加瀬 智,,1991,M,122.6,120+,270,300,-327.5,300,300,Ｋ'ｓ ＧＹＭ横浜,Open,B,Single-ply,1
 須藤 健介,,1997,M,140.4,120+,-270,270,-300,270,270,コスモスポーツ,Juniors,B,Single-ply,1
 福嶋 康人,,1965,M,137.9,120+,-185,-185,185,185,185,パワーハウス山口,Masters 2,B,Single-ply,1

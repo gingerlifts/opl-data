@@ -23,7 +23,7 @@ WeightClassKg,Place,Sex,JapaneseName,Name,Age,Team,BodyweightKg,Best3BenchKg,Ben
 52,1,M,池田尚也,Naoya Ikeda,32,三重 個人,51.75,172.5,,172.5,B,Single-ply,Open
 52,2,M,石渡啓之,,42,東京 個人,51.5,140,,140,B,Single-ply,Open
 52,3,M,奥田博之,,44,京都 バーベルス京都,50.95,110,,110,B,Single-ply,Open
-56,1,M,宮崎雄二,,34,静岡 T-REX沼津,55.75,182.5,-191,182.5,B,Single-ply,Open
+56,1,M,宮崎雄二,Yuji Miyazaki,34,静岡 T-REX沼津,55.75,182.5,-191,182.5,B,Single-ply,Open
 56,DQ,M,大石昌宏,,22,長崎 マルヤジム,,,,,B,Single-ply,Open
 60,1,M,中山久幸,,39,東京 ノーリミッツ,58.8,192.5,,192.5,B,Single-ply,Open
 60,2,M,伊差川浩之,,48,沖縄 power sport,60,192.5,,192.5,B,Single-ply,Open
@@ -44,7 +44,7 @@ WeightClassKg,Place,Sex,JapaneseName,Name,Age,Team,BodyweightKg,Best3BenchKg,Ben
 75,1,M,高橋 恵介,,28,茨城 古川WTC,74.7,230,,230,B,Single-ply,Open
 75,2,M,児玉 大紀,Daiki Kodama,23,大阪 深江SC,73.85,225,,225,B,Single-ply,Open
 75,3,M,川辺一郎,,41,愛知 パワーフィットネス,74.15,192.5,,192.5,B,Single-ply,Open
-75,4,M,荒井 憲徳,,36,栃木県 ＡＴＣフィットネス  ,74.75,185,,185,B,Single-ply,Open
+75,4,M,荒井 憲徳,,36,栃木県 ＡＴＣフィットネス,74.75,185,,185,B,Single-ply,Open
 75,5,M,人見 和則,,34,東京 ノーリミッツ,73.95,167.5,,167.5,B,Single-ply,Open
 75,6,M,大庭 佳彦,,37,宮城 中村ﾄﾚｰﾆﾝｸﾞｼﾞﾑ,73.95,165,,165,B,Single-ply,Open
 75,7,M,物江 毅,,49,東京 チームポンズ,74.35,165,,165,B,Single-ply,Open
@@ -92,4 +92,4 @@ WeightClassKg,Place,Sex,JapaneseName,Name,Age,Team,BodyweightKg,Best3BenchKg,Ben
 110,9,M,日下部孔志,,32,茨城 コスモスポーツ,104.35,180,,180,B,Single-ply,Open
 125,1,M,立花浩二,,36,東京 ノーリミッツ,121.45,207.5,,207.5,B,Single-ply,Open
 125,2,M,辻見直樹,,37,神奈川ｱｻﾏﾄﾚｰﾆﾝｸﾞｸﾗﾌﾞ,119.65,195,,195,B,Single-ply,Open
-125+,1,M,三土手大介,,29,東京 ノーリミッツ,132.75,310,,310,B,Single-ply,Open
+125+,1,M,三土手大介,Daisuke Midote,29,東京 ノーリミッツ,132.75,310,,310,B,Single-ply,Open
