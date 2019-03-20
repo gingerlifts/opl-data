@@ -15,6 +15,11 @@ H. Suenaga,M,SBD,Open,82.5,Single-ply,240,155,240,635,2
 Y. Manda,M,SBD,Open,82.5,Single-ply,230,140,220,590,3
 A. Takeuchi,M,SBD,Open,90,Single-ply,232.5,152.5,235,620,1
 A. Watanabe,M,SBD,Open,90,Single-ply,245,130,220,595,2
+<<<<<<< HEAD
 S. Yoshida,M,SBD,Open,100,Single-ply,270,180,275,725,1
 Y. Yoshida,M,SBD,Open,100,Single-ply,250,160,250,660,2
+=======
+Susumu Yoshida,M,SBD,Open,100,Single-ply,270,180,275,725,1
+Yoshiaki Yoshida,M,SBD,Open,100,Single-ply,250,160,250,660,2
+>>>>>>> Fix some errors. Add more data.
 M. Aota,M,SBD,Open,100,Single-ply,250,175,230,655,3

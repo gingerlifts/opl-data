@@ -47,3 +47,6 @@
 
 [exemptions]
     1002 = ["ExemptWeightClassConsistency"]
+    0207 = ["ExemptWeightClassConsistency"]
+    0209 = ["ExemptWeightClassConsistency"]
+    0006 = ["ExemptWeightClassConsistency"]
