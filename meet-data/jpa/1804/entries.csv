@@ -22,7 +22,7 @@ JapaneseName,BirthYear,BodyweightKg,WeightClassKg,Name,Sex,Bench1Kg,Bench2Kg,Ben
 白石 匡,1980,58.35,59,,M,107.5,115,117.5,117.5,117.5,B,Raw,Open,2
 川瀬 将之,1997,64.45,66,,M,97.5,105,112.5,112.5,112.5,B,Raw,Open,7
 高橋 磨,1966,64.9,66,,M,95,102.5,-105,102.5,102.5,B,Raw,Open,11
-佐藤 恵二,1952,65.9,66,,M,120,125,-130,125,125,B,Raw,Open,2
+佐藤 恵二,1952,65.9,66,Keiji Sato,M,120,125,-130,125,125,B,Raw,Open,2
 大村 茂則,1959,65.3,66,,M,120,-125,-125,120,120,B,Raw,Open,5
 小島 学,1964,64.9,66,,M,75,-80,80,80,80,B,Raw,Open,13
 新田 幸治,1947,64.8,66,,M,100,105,-107.5,105,105,B,Raw,Open,10
@@ -105,7 +105,7 @@ JapaneseName,BirthYear,BodyweightKg,WeightClassKg,Name,Sex,Bench1Kg,Bench2Kg,Ben
 松野 翼,1984,58.35,59,,M,135,-140,-140,135,135,B,Single-ply,Open,2
 久保 元人,1989,58.6,59,,M,132.5,-135,-137.5,132.5,132.5,B,Single-ply,Open,3
 木村 育史,1975,58.8,59,Yasufumi Kimura,M,165,-219,-222.5,165,165,B,Single-ply,Open,1
-佐藤 恵二,1952,65.95,66,,M,145,150,-155,150,150,B,Single-ply,Open,1
+佐藤 恵二,1952,65.95,66,Keiji Sato,M,145,150,-155,150,150,B,Single-ply,Open,1
 鷹野 和美,1957,72.9,74,,M,80,-105,-105,80,80,B,Single-ply,Open,4
 安達 明,1979,71.95,74,,M,160,-170,-175,160,160,B,Single-ply,Open,3
 広永 賢司,1984,71.2,74,,M,185,192.5,200,200,200,B,Single-ply,Open,1

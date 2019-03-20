@@ -22,7 +22,7 @@ WeightClassKg,Place,Sex,JapaneseName,Name,Age,Team,BodyweightKg,Best3BenchKg,Ben
 75,1,F,大庭 公子,Kimiko Oba,48,福岡 遠賀勤労者体育ｾﾝﾀｰ,73.25,135,,135,B,Single-ply,Open
 52,1,M,池田 尚也,Naoya Ikeda,32,三重 個人,51.75,172.5,,172.5,B,Single-ply,Open
 52,2,M,石渡 啓之,,42,東京 個人,51.5,140,,140,B,Single-ply,Open
-52,3,M,奥田 博之,,44,京都 バーベルス京都,50.95,110,,110,B,Single-ply,Open
+52,3,M,奥田 博之,Hiroyuki Okuda,44,京都 バーベルス京都,50.95,110,,110,B,Single-ply,Open
 56,1,M,宮崎 雄二,Yuji Miyazaki,34,静岡 T-REX沼津,55.75,182.5,-191,182.5,B,Single-ply,Open
 56,DQ,M,大石 昌宏,,22,長崎 マルヤジム,,,,,B,Single-ply,Open
 60,1,M,中山 久幸,Hisayuki Nakayama,39,東京 ノーリミッツ,58.8,192.5,,192.5,B,Single-ply,Open
@@ -37,7 +37,7 @@ WeightClassKg,Place,Sex,JapaneseName,Name,Age,Team,BodyweightKg,Best3BenchKg,Ben
 67.5,4,M,野崎 秀徳,,47,佐賀 team力姫,66.75,190,,190,B,Single-ply,Open
 67.5,5,M,片瀬 勝一,,32,東京 ﾕｱｰｽﾎﾟｰﾂｸﾗﾌﾞ,63,187.5,,187.5,B,Single-ply,Open
 67.5,6,M,牛島 敏裕,,42,神奈川 ｱｻﾏﾄﾚｰﾆﾝｸﾞｸﾗﾌﾑ,66.75,175,,175,B,Single-ply,Open
-67.5,7,M,馬籠 徹,,59,栃木 宇都宮タイガー,66.9,170,175,170,B,Single-ply,Open
+67.5,7,M,馬籠 徹,Toru Magome,59,栃木 宇都宮タイガー,66.9,170,175,170,B,Single-ply,Open
 67.5,8,M,坂口 勝秀,,33,東京 クラークハッチ,66.3,147.5,,147.5,B,Single-ply,Open
 67.5,NS,M,徳本 繁之,,30,沖縄 power sport,65.2,,,,B,Single-ply,Open
 67.5,NS,M,大井 挙二,,43,ｻﾞｽﾎﾟｰﾂｺﾈｸｼｮﾝ,,,,,B,Single-ply,Open
@@ -53,7 +53,7 @@ WeightClassKg,Place,Sex,JapaneseName,Name,Age,Team,BodyweightKg,Best3BenchKg,Ben
 75,DQ,M,森岡 一義,,45,石川 スターパワージム,73.4,,,,B,Single-ply,Open
 75,DQ,M,長谷川和之,,35,愛知 TEAM POWER BOMB,73.45,,,,B,Single-ply,Open
 82.5,1,M,高橋省吾,,35,愛知 デンソー刈谷PC（ﾃﾞｨｽｴｲﾌﾞﾙ）,79.05,130,,130,B,Single-ply,Open
-82.5,1,M,大谷 進,,50,東京 ４５rpm,81.65,242.5,-245,242.5,B,Single-ply,Open
+82.5,1,M,大谷 進,Susumi Otani,50,東京 ４５rpm,81.65,242.5,-245,242.5,B,Single-ply,Open
 82.5,2,M,渡辺雄次,,22,静岡 ｽﾎﾟｰﾂｸﾗﾌﾞﾊﾟｻｰｼﾞｭ,81.6,240,-245,240,B,Single-ply,Open
 82.5,3,M,フレドリックランバート,Fredrik Lambert,35,東京 チームポンズ,80.2,197.5,,197.5,B,Single-ply,Open
 82.5,4,M,高田雄三,,35,神奈川 神之木台ﾄﾚｰﾆﾝｸﾞｼﾞﾑ,78.9,190,,190,B,Single-ply,Open

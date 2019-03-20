@@ -39,7 +39,7 @@ JapaneseName,Name,Sex,Division,WeightClassKg,Team,Age,BodyweightKg,Bench1Kg,Benc
 石渡 啓之,Hiroyuki Ishiwatari,M,Open,52,富士見ヘルスＰ,40,51.06,-130,-130,130,-143,130,130,4,B,Single-ply
 赤﨑 直樹,,M,Open,52,モモコクラブ,42,51.02,-110,110,-120,,110,110,5,B,Single-ply
 小西 雅幸,,M,Open,52,,26,50.62,-105,107.5,-112.5,,107.5,107.5,6,B,Single-ply
-奥田 博之,,M,Open,52,バーベルス京都,42,,,,,,,,NS,B,Single-ply
+奥田 博之,Hiroyuki Okuda,M,Open,52,バーベルス京都,42,,,,,,,,NS,B,Single-ply
 松本 哲,,M,Open,52,パワーハウス,31,,,,,,,,NS,B,Single-ply
 山城 興安,,M,Open,52,那覇ジム南大東,38,,,,,,,,NS,B,Single-ply
 大坪 誠,Makoto Otsubo,M,Open,56,ナニワＴＣ,21,55.66,172.5,-190.5,190.5,-195,190.5,190.5,1,B,Single-ply
@@ -102,7 +102,7 @@ JapaneseName,Name,Sex,Division,WeightClassKg,Team,Age,BodyweightKg,Bench1Kg,Benc
 水野 真也,,M,Open,75,入善町体育館,33,71.16,-140,-140,140,,140,140,18,B,Single-ply
 大庭 佳彦,,M,Open,75,イズミフィットネス,35,73,140,-145,-147.5,,140,140,19,B,Single-ply
 高橋 久,,M,Open,75,フリーウエイト,34,,,,,,,,NS,B,Single-ply
-大谷 進,Susumu Otani,M,Open,82.5,４５ＲＰＭ,48,81.98,227.5,235,242.5,,242.5,242.5,1,B,Single-ply
+大谷 進,Susumi Otani,M,Open,82.5,４５ＲＰＭ,48,81.98,227.5,235,242.5,,242.5,242.5,1,B,Single-ply
 黒岩 剛,,M,Open,82.5,チーム力姫,37,79.7,230,240.5,-250,,240.5,240.5,2,B,Single-ply
 竹内 鉄人,,M,Open,82.5,パワーウエーブ,26,82.5,-192.5,200,207.5,,207.5,207.5,3,B,Single-ply
 渡辺 雄次,,M,Open,82.5,ＳＣパサージュ,19,80.12,185,195,203,-210,203,203,4,B,Single-ply

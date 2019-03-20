@@ -1,14 +1,21 @@
 WeightClassKg,Place,JapaneseName,Name,Age,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Event,Equipment,Division
 52,1,ナベ ヤカン,Yakan Nabe,30,パワーハウス,51.55,202.5,147.5,185,535,M,SBD,Single-ply,Open
-52,2,大城 新順,,57,個人,52,145,110,170,425,M,SBD,Single-ply,Open
+52,2,大城 新順,Shinjun Oshiro,57,個人,52,145,110,170,425,M,SBD,Single-ply,Open
 52,DQ,清水 浩,,43,愛三工業,51.95,,,,,M,SBD,Single-ply,Open
 56,1,小長野源蔵,,25,東名アスレチックセンター,55.95,180,105,212.5,497.5,M,SBD,Single-ply,Open
 56,2,菅沼 健吾,,33,浜松東部トレーニングセンター,55.6,165,150,180,495,M,SBD,Single-ply,Open
 56,3,外輪 保弘,,46,広島トレーニングセンター,56,197.5,92.5,197.5,487.5,M,SBD,Single-ply,Open
+<<<<<<< HEAD
 60,1,伊差川浩之,,47,POWER ＳＰＯＲＴ,59.5,217.5,180,225,622.5,M,SBD,Single-ply,Open
 60,2,小池 和良,,28,パワーハウスつくば,59.7,225,137.5,230,592.5,M,SBD,Single-ply,Open
 60,3,笹倉 伯文,,22,社パワークラブ,59.25,210,145,230,585,M,SBD,Single-ply,Open
 60,4,水野 貴章,,33,個人,59.6,200,175,210,585,M,SBD,Single-ply,Open
+=======
+60,1,伊差川 浩之,Hiroyuki Isagawa,47,POWER ＳＰＯＲＴ,59.5,217.5,180,225,622.5,M,SBD,Single-ply,Open
+60,2,小池 和良,Kazuyoshi Koike,28,パワーハウスつくば,59.7,225,137.5,230,592.5,M,SBD,Single-ply,Open
+60,3,笹倉 伯文,Michifumi Sasakura,22,社パワークラブ,59.25,210,145,230,585,M,SBD,Single-ply,Open
+60,4,水野 貴章,Takaaki Mizuno,33,個人,59.6,200,175,210,585,M,SBD,Single-ply,Open
+>>>>>>> Add more JPA meets, make a bunch of name corrections.
 60,5,大田 一人,,52,福岡自衛隊,59.6,180,125,232.5,537.5,M,SBD,Single-ply,Open
 60,6,沖浦 克治,,55,神戸市役所パワートレーニングクラブ,59.65,195,105,232.5,532.5,M,SBD,Single-ply,Open
 60,7,柴田 仁志,,42,ＳＡＴＯトレーニングジム,59.9,180,137.5,190,507.5,M,SBD,Single-ply,Open
@@ -40,8 +47,13 @@ WeightClassKg,Place,JapaneseName,Name,Age,Team,BodyweightKg,Best3SquatKg,Best3Be
 100,2,関 幸男,,32,ＳＥＫＩ・ＪＹＭ,98.55,270,230,280,780,M,SBD,Single-ply,Open
 100,3,杉浦孝弘,,31,Ｐｏｗｅｒ Ｌｉｎｅ,99.35,295,200,280,775,M,SBD,Single-ply,Open
 100,4,福島 和文,,34,パワーハウス,97.6,282.5,185,282.5,750,M,SBD,Single-ply,Open
+<<<<<<< HEAD
 100,5,荒川 孝行,,23,パワーハウス,90.45,265,195,270,730,M,SBD,Single-ply,Open
 100,6,手崎 勝夫,,24,パワーハウス,98.35,272.5,185,250,707.5,M,SBD,Single-ply,Open
+=======
+100,5,荒川 孝行,Takayuki Arakawa,23,パワーハウス,90.45,265,195,270,730,M,SBD,Single-ply,Open
+100,6,手崎 勝夫,Katsuo Tesaki,24,パワーハウス,98.35,272.5,185,250,707.5,M,SBD,Single-ply,Open
+>>>>>>> Add more JPA meets, make a bunch of name corrections.
 110,1,近藤 好和,,43,パワーハウス,103.1,300,202.5,277.5,780,M,SBD,Single-ply,Open
 110,2,星野 光秋,,43,Ｐｏｗｅｒ Ｌｉｎｅ,106.9,317.5,222.5,240,780,M,SBD,Single-ply,Open
 110,3,中村 仁,,33,アサマトレーニングクラブ,104.6,315,212.5,242.5,770,M,SBD,Single-ply,Open
@@ -90,7 +102,7 @@ WeightClassKg,Place,JapaneseName,Name,Age,Team,BodyweightKg,Best3SquatKg,Best3Be
 52,1,高原 浩二,,44,個人,52,125,87.5,132.5,345,M,SBD,Single-ply,Masters 1
 52,2,小野瀬洋一,,40,水戸市パワーリフティング協会,51.6,120,75,147.5,342.5,M,SBD,Single-ply,Masters 1
 52,DQ,清水 浩,,43,愛三工業,51.95,,,,,M,SBD,Single-ply,Masters 1
-56,1,山川 健,,41,サン笠寺,56,200,87.5,215,502.5,M,SBD,Single-ply,Masters 1
+56,1,山川 健,Ken Yamakawa,41,サン笠寺,56,200,87.5,215,502.5,M,SBD,Single-ply,Masters 1
 56,2,外輪 保弘,,46,広島トレーニングセンター,56,197.5,92.5,197.5,487.5,M,SBD,Single-ply,Masters 1
 56,3,石川 健作,,45,個人,55.85,175,110,190,475,M,SBD,Single-ply,Masters 1
 60,1,伊差川浩之,,47,POWER ＳＰＯＲＴ,59.5,217.5,180,225,622.5,M,SBD,Single-ply,Masters 1
@@ -121,9 +133,15 @@ WeightClassKg,Place,JapaneseName,Name,Age,Team,BodyweightKg,Best3SquatKg,Best3Be
 100,2,伊藤 秀幸,,45,浜松東部トレーニングセンター,93.55,250,180,245,675,M,SBD,Single-ply,Masters 1
 110,1,近藤 好和,,43,パワーハウス,103.1,300,202.5,277.5,780,M,SBD,Single-ply,Masters 1
 110,2,星野 光秋,,43,Ｐｏｗｅｒ Ｌｉｎｅ,106.9,317.5,222.5,240,780,M,SBD,Single-ply,Masters 1
+<<<<<<< HEAD
 52,1,大城 新順,,57,個人,52,145,110,170,425,M,SBD,Single-ply,Masters 2
 52,2,羽田 久,,58,チームこん平,51.95,155,95,170,420,M,SBD,Single-ply,Masters 2
 56,1,因幡 英昭,,57,個人,53.05,235,100,230,565,M,SBD,Single-ply,Masters 2
+=======
+52,1,大城 新順,Shinjun Oshiro,57,個人,52,145,110,170,425,M,SBD,Single-ply,Masters 2
+52,2,羽田 久,Hisa Haneda,58,チームこん平,51.95,155,95,170,420,M,SBD,Single-ply,Masters 2
+56,1,因幡 英昭,Hideaki Inaba,57,個人,53.05,235,100,230,565,M,SBD,Single-ply,Masters 2
+>>>>>>> Add more JPA meets, make a bunch of name corrections.
 56,2,真下 精一,,52,個人,55.95,130,100,165,395,M,SBD,Single-ply,Masters 2
 60,1,大田 一人,,52,福岡自衛隊,59.6,180,125,232.5,537.5,M,SBD,Single-ply,Masters 2
 60,2,沖浦 克治,,55,神戸市役所パワートレーニングクラブ,59.65,195,105,232.5,532.5,M,SBD,Single-ply,Masters 2
@@ -138,7 +156,7 @@ WeightClassKg,Place,JapaneseName,Name,Age,Team,BodyweightKg,Best3SquatKg,Best3Be
 90,1,立花 正,,51,長万部パワークラブ,89,265,212.5,232.5,710,M,SBD,Single-ply,Masters 2
 100,1,佐々木健治,,51,デンソー刈谷パワークラブ,98.4,265,197.5,267.5,730,M,SBD,Single-ply,Masters 2
 110,1,藤本 章夫,,52,フジモトジム,100.75,240,180,250,670,M,SBD,Single-ply,Masters 2
-52,1,平野 芳雄,,62,スーパークラブ名古屋,51.45,130,100,150,380,M,SBD,Single-ply,Masters 3
+52,1,平野 芳雄,Yoshio Hirano,62,スーパークラブ名古屋,51.45,130,100,150,380,M,SBD,Single-ply,Masters 3
 56,1,伏見 啓,,63,個人,55.9,140,120,160,420,M,SBD,Single-ply,Masters 3
 56,2,徳田 新一,,64,ワールドフィットネス,55.95,150,72.5,180,402.5,M,SBD,Single-ply,Masters 3
 90,1,加藤 主計,,73,小樽パワーリフティング協会,88.3,200,140,190,530,M,SBD,Single-ply,Masters 3

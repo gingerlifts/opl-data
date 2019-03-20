@@ -55,10 +55,10 @@ WeightClassKg,JapaneseName,Name,Sex,Team,Age,BodyweightKg,Bench1Kg,Bench2Kg,Benc
 59,吉野 公二,,M,個人,49,58.35,135,145,-152.5,145,7,145,B,Single-ply,Open
 59,田中 祐一郎,,M,個人,50,57.95,137.5,140,142.5,142.5,2,142.5,B,Single-ply,Open
 59,椎木 智良,,M,ストロングライン,54,58.9,125,-135,142.5,142.5,3,142.5,B,Single-ply,Open
-59,浜山 久雄,,M,新日鉄住金名古屋ＢＣ,71,57.95,-125,-125,125,125,1,125,B,Single-ply,Open
+59,浜山 久雄,Hisao Hamayama,M,新日鉄住金名古屋ＢＣ,71,57.95,-125,-125,125,125,1,125,B,Single-ply,Open
 59,橋本 雅人,,M,ショウワ パワークラブ,61,58.65,115,117.5,-120,117.5,2,117.5,B,Single-ply,Open
 59,飯塚 進市,,M,水戸市パワーリフティング協会,62,58.6,110,-115,-117.5,110,3,110,B,Single-ply,Open
-59,大瀧 順巳,,M,スーパークラブ名古屋,76,54.05,75,80,-85,80,2,80,B,Single-ply,Open
+59,大瀧 順巳,Masami Otaki,M,スーパークラブ名古屋,76,54.05,75,80,-85,80,2,80,B,Single-ply,Open
 59,池田 尚也,Naoya Ikeda,M,個人,48,58,-175,-175,-175,,DQ,,B,Single-ply,Open
 59,木村 育史,Yasufumi Kimura,M,Ｋ'ｓＧＹＭ,43,58.8,-212.5,-215,-215,,DQ,,B,Single-ply,Open
 66,福田 将志,Masashi Fukuda,M,ストロングライン,34,65.7,232.5,237.5,-248.5,237.5,1,237.5,B,Single-ply,Open
@@ -77,22 +77,27 @@ WeightClassKg,JapaneseName,Name,Sex,Team,Age,BodyweightKg,Bench1Kg,Bench2Kg,Benc
 66,田本 廉,,M,Ｋ'ｓＧＹＭ横浜,20,65.1,160,-172.5,-180,160,3,160,B,Single-ply,Open
 66,西尾 純,,M,ノーリミッツ,41,65.3,140,147.5,160,160,8,160,B,Single-ply,Open
 66,上野 辰彦,,M,個人,42,64.85,142.5,150,-157.5,150,4,150,B,Single-ply,Open
-66,佐藤 恵二,,M,京都パワーリフティングクラブ,66,66,120,140,150,150,1,150,B,Single-ply,Open
+66,佐藤 恵二,Keiji Sato,M,京都パワーリフティングクラブ,66,66,120,140,150,150,1,150,B,Single-ply,Open
 66,石川 貴康,,M,Ｋ'ｓＧＹＭ,44,65.45,132.5,147.5,-152.5,147.5,5,147.5,B,Single-ply,Open
 66,李 炳八,,M,水戸市パワーリフティング協会,60,65.5,135,137.5,142.5,142.5,2,142.5,B,Single-ply,Open
 66,中村 英明,,M,個人,58,65.8,125,132.5,137.5,137.5,4,137.5,B,Single-ply,Open
 66,加藤 元,,M,Ｐｏｗｅｒ Ｌｉｎｅ,53,63.65,127.5,130,135,135,5,135,B,Single-ply,Open
-66,段安 忠信,,M,個人,74,63.85,130,-140,-145,130,1,130,B,Single-ply,Open
+66,段安 忠信,Tadanobu Danyasu,M,個人,74,63.85,130,-140,-145,130,1,130,B,Single-ply,Open
 66,関根 隆信,,M,ストロングライン,63,65.3,125,127.5,-132.5,127.5,3,127.5,B,Single-ply,Open
-66,菅谷 道夫,,M,個人,71,64.45,122.5,125,-130,125,2,125,B,Single-ply,Open
+66,菅谷 道夫,Michio Sugaya,M,個人,71,64.45,122.5,125,-130,125,2,125,B,Single-ply,Open
 66,善本 光彦,,M,フジモトジム,53,65.8,117.5,125,-130,125,6,125,B,Single-ply,Open
-66,佃 忠和,,M,Ｋ'ｓＧＹＭ横浜,74,64.9,-112.5,-112.5,112.5,112.5,3,112.5,B,Single-ply,Open
+66,佃 忠和,Tadakazu Tsukuda,M,Ｋ'ｓＧＹＭ横浜,74,64.9,-112.5,-112.5,112.5,112.5,3,112.5,B,Single-ply,Open
 66,松野 翼,,M,Ｋ'ｓＧＹＭ,34,64.35,-140,-140,-140,,DQ,,B,Single-ply,Open
 74,児玉 大紀,Daiki Kodama,M,Ｋ'ｓＧＹＭ,39,72.85,245,255,265,265,1,265,B,Single-ply,Open
 74,菊地 洋介,,M,Ｋ'ｓＧＹＭ横浜,23,72.9,225,235,-257.5,235,2,235,B,Single-ply,Open
 74,奥谷 元哉,,M,Ｋ'ｓＧＹＭ,38,73.65,-220,-220,220,220,3,220,B,Single-ply,Open
+<<<<<<< HEAD
 74,濱田 展行,,M,個人,49,73.4,210,-222.5,-222.5,210,4,210,B,Single-ply,Open
 74,三島 忠,,M,Ｋ'ｓＧＹＭ,56,73.4,-210,-210,210,210,1,210,B,Single-ply,Open
+=======
+74,濱田 展行,Nobuyuki Hamada,M,個人,49,73.4,210,-222.5,-222.5,210,4,210,B,Single-ply,Open
+74,三島 忠,Tadashi Mishima,M,Ｋ'ｓＧＹＭ,56,73.4,-210,-210,210,210,1,210,B,Single-ply,Open
+>>>>>>> Add more JPA meets, make a bunch of name corrections.
 74,松岡 良昭,,M,Ｋ'ｓＧＹＭ横浜,35,73.65,210,-222.5,-222.5,210,5,210,B,Single-ply,Open
 74,松岡 紀佳,,M,Ｋ'ｓＧＹＭ横浜,47,73.9,185,-187.5,187.5,187.5,6,187.5,B,Single-ply,Open
 74,吉岡 秀明,,M,個人,34,73.95,-187.5,-187.5,187.5,187.5,7,187.5,B,Single-ply,Open
@@ -102,7 +107,7 @@ WeightClassKg,JapaneseName,Name,Sex,Team,Age,BodyweightKg,Bench1Kg,Bench2Kg,Benc
 74,武田 大輔,,M,ＢＩＧ ＧＵＮＳ,42,73.05,180,-185,-185,180,5,180,B,Single-ply,Open
 74,岸 剛士,,M,GOLD'S GYM KOBE,36,73.75,170,180,-190,180,9,180,B,Single-ply,Open
 74,桑原 勉,,M,パワーハウス,53,73.2,155,160,165,165,2,165,B,Single-ply,Open
-74,山本 茂樹,,M,越谷市民プールトレーニングジム,75,72.75,152.5,160,-170.5,160,1,160,B,Single-ply,Open
+74,山本 茂樹,Shigeki Yamamoto,M,越谷市民プールトレーニングジム,75,72.75,152.5,160,-170.5,160,1,160,B,Single-ply,Open
 74,内村 政夫,,M,ＢＩＧ ＧＵＮＳ,59,73.1,145,155,-162.5,155,3,155,B,Single-ply,Open
 74,佐藤 一夫,,M,パワーハウス,57,72,130,135,140,140,4,140,B,Single-ply,Open
 74,鈴木 博達,,M,パワーハウス,44,73.85,125,137.5,-145,137.5,6,137.5,B,Single-ply,Open
@@ -131,7 +136,7 @@ WeightClassKg,JapaneseName,Name,Sex,Team,Age,BodyweightKg,Bench1Kg,Bench2Kg,Benc
 83,中橋 浩隆,,M,ｔｅａｍ力姫石川,58,82.4,140,-150,-150,140,7,140,B,Single-ply,Open
 83,酒井 知隆,,M,ノーリミッツ,61,83,-135,135,-140,135,2,135,B,Single-ply,Open
 83,藤本 章夫,,M,フジモトジム,69,78.45,130,-132.5,-132.5,130,3,130,B,Single-ply,Open
-83,今泉 春樹,,M,個人,71,81.05,-80,-90,100,100,1,100,B,Single-ply,Open
+83,今泉 春樹,Haruki Imaizumi,M,個人,71,81.05,-80,-90,100,100,1,100,B,Single-ply,Open
 83,安江 宏昭,,M,ＰＥＡＣＥ ＧＹＭ,49,81,-155,-155,-155,,DQ,,B,Single-ply,Open
 83,伊藤 順三,,M,個人,64,81.05,-167.5,-167.5,-167.5,,DQ,,B,Single-ply,Open
 83,安江 三千夫,,M,ＴＨＥ ＳＴＯＲＯＮＧＥＳＴ ＷＡＲＲＩＯＲＳ,48,82.2,-255,-255,-255,,DQ,,B,Single-ply,Open
@@ -160,9 +165,9 @@ WeightClassKg,JapaneseName,Name,Sex,Team,Age,BodyweightKg,Bench1Kg,Bench2Kg,Benc
 105,葛西 昌彦,Masahiko Kassai,M,Ｋ'ｓＧＹＭ,47,103.75,-300,312.5,-317,312.5,2,312.5,B,Single-ply,Open
 105,佐藤 優輝,Yuki Sato,M,Ｋ'ｓＧＹＭ横浜,35,95.2,310,-316.5,-316.5,310,3,310,B,Single-ply,Open
 105,橋本 到,,M,ノーリミッツ,29,104.75,270,-277.5,282.5,282.5,4,282.5,B,Single-ply,Open
-105,堀口 耀介,,M,ＴＸＰ,25,99.7,265,280,-300,280,5,280,B,Single-ply,Open
-105,阿久津 貴史,,M,ＴＸＰ,36,101.2,265,277.5,-282.5,277.5,6,277.5,B,Single-ply,Open
-105,柴田 道郎,,M,ｔｅａｍ力姫石川,35,104.85,265,-287.5,-287.5,265,7,265,B,Single-ply,Open
+105,堀口 耀介,Yosuke Horiguchi,M,ＴＸＰ,25,99.7,265,280,-300,280,5,280,B,Single-ply,Open
+105,阿久津 貴史,Takahito Akutsu,M,ＴＸＰ,36,101.2,265,277.5,-282.5,277.5,6,277.5,B,Single-ply,Open
+105,柴田 道郎,Michio Shibata,M,ｔｅａｍ力姫石川,35,104.85,265,-287.5,-287.5,265,7,265,B,Single-ply,Open
 105,伊藤 壮志,,M,北海学園大学パワーリフティング部,23,102.5,250,-270,-270,250,8,250,B,Single-ply,Open
 105,今村 俊博,,M,プレスタ,45,102.8,220,-230,-230,220,9,220,B,Single-ply,Open
 105,杉本 洋介,,M,パワーハウス,24,104.15,200,-210,210,210,10,210,B,Single-ply,Open
@@ -179,14 +184,14 @@ WeightClassKg,JapaneseName,Name,Sex,Team,Age,BodyweightKg,Bench1Kg,Bench2Kg,Benc
 120,齋藤 大生,Sota Saito,M,ストロングライン,28,119.55,250,-270,-282.5,250,6,250,B,Single-ply,Open
 120,柏木 悠太郎,,M,ストロングライン,21,117.9,220,245.5,-260,245.5,1,245.5,B,Single-ply,Open
 120,中村 敏雄,,M,ＴＸＰ,48,114.55,225,-242.5,242.5,242.5,3,242.5,B,Single-ply,Open
-120,横山 恭平,,M,Ｋ'ｓＧＹＭ,24,111.65,240,-255,-255,240,7,240,B,Single-ply,Open
+120,横山 恭平,Kyohei Yokoyama,M,Ｋ'ｓＧＹＭ,24,111.65,240,-255,-255,240,7,240,B,Single-ply,Open
 120,岡山 三紀,,M,北海道医療大学Ｗ･Ｔ･Ｃ同門会,46,107.9,232.5,237.5,-242.5,237.5,8,237.5,B,Single-ply,Open
 120,森 真人,,M,ＢＩＧ ＧＵＮＳ,37,111.3,-190,-190,-190,,DQ,,B,Single-ply,Open
 120,梶井 俊宏,Toshihiro Kajii,M,大学ＯＢ会ウェイトトレーニング部,38,115.15,-320,-320,-325,,DQ,,B,Single-ply,Open
 120,西古 裕志,,M,Ｐｏｗｅｒ Ｌｉｎｅ,46,115.2,-225,-225,-225,,DQ,,B,Single-ply,Open
 120,上田 真司,Shinji Ueda,M,Ｋ'ｓＧＹＭ,46,,,,,,NS,,B,Single-ply,Open
 120+,藤本 竜希,Ryuki Fujimoto,M,リアルスイング,18,126.4,180,270,-352.5,270,1,270,B,Single-ply,Open
-120+,古城 資久,,M,パワーハウス赤穂,60,127.1,205,245.5,-265.5,245.5,1,245.5,B,Single-ply,Open
+120+,古城 資久,Motohisa Kojo,M,パワーハウス赤穂,60,127.1,205,245.5,-265.5,245.5,1,245.5,B,Single-ply,Open
 120+,樋口 重敏,,M,チーム筋族,41,136.1,205,-250,-272.5,205,2,205,B,Single-ply,Open
 120+,柳川 大貴,Daiki Yanagawa,M,リアルスイング,42,130.55,-340,-340,-350,,DQ,,B,Single-ply,Open
 120+,福嶋 康人,,M,パワーハウス７山口,53,,,,,,NS,,B,Single-ply,Open

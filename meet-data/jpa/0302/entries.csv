@@ -15,7 +15,7 @@ WeightClassKg,Sex,Place,Division,JapaneseName,Name,Age,Team,BodyweightKg,Best3Be
 75,F,2,Open,宮田 葵,,26,みずほバーベルクラブ,73.7,115,,115,B,Single-ply
 52,M,1,Open,池田 尚也,Naoya Ikeda,33,個人,50.05,150,,150,B,Single-ply
 52,M,2,Open,石渡 啓之,,44,個人,51.6,140,,140,B,Single-ply
-52,M,DQ,Open,柳田 和也,,40,タケイ・パワージム,51.5,,,,B,Single-ply
+52,M,DQ,Open,柳田 和也,Kazuya Yanagida,40,タケイ・パワージム,51.5,,,,B,Single-ply
 56,M,1,Open,小西 雅幸,,29,個人,52.4,135,,135,B,Single-ply
 56,M,2,Open,平 富夫,,55,美幌聖歌高校,55.3,120,,120,B,Single-ply
 56,M,DQ,Open,伊差川浩之,,50,POWER SPORT,55.85,,,,B,Single-ply
@@ -58,7 +58,7 @@ WeightClassKg,Sex,Place,Division,JapaneseName,Name,Age,Team,BodyweightKg,Best3Be
 82.5,M,5,Open,西田 成喜,,22,遠賀体育ｾﾝﾀｰ,78.85,175,,175,B,Single-ply
 82.5,M,6,Open,株田 智弘,,27,ノーリミッツ,80.8,162.5,,162.5,B,Single-ply
 82.5,M,7,Open,宮原 健,,29,パワーハウスつくば,79.25,150,,150,B,Single-ply
-82.5,M,DQ,Open,大谷 進,,51,４５rpm,81.05,,,,B,Single-ply
+82.5,M,DQ,Open,大谷 進,Susumi Otani,51,４５rpm,81.05,,,,B,Single-ply
 82.5,M,DQ,Open,人見 和則,,35,ノーリミッツ,78.35,,,,B,Single-ply
 90,M,1,Open,岸本洋一,,25,ノーリミッツ,89.8,247.5,,247.5,B,Single-ply
 90,M,2,Open,西條正太郎,,28,個人,89.75,240,,240,B,Single-ply
@@ -122,7 +122,7 @@ WeightClassKg,Sex,Place,Division,JapaneseName,Name,Age,Team,BodyweightKg,Best3Be
 56,M,1,Masters 3,伏見 啓,,66,個人,55.6,120,,120,B,Single-ply
 60,M,1,Masters 3,鍋島 敏,,66,苫小牧ﾊﾟﾜｰﾘﾌﾃｨﾝｸﾞ協会,56.4,105,,105,B,Single-ply
 60,M,2,Masters 3,岩上 勝夫,,60,TEAM−こん平,58.65,105,,105,B,Single-ply
-67.5,M,1,Masters 3,馬籠 徹,,60,宇都宮タイガージム,67.5,155,,155,B,Single-ply
+67.5,M,1,Masters 3,馬籠 徹,Toru Magome,60,宇都宮タイガージム,67.5,155,,155,B,Single-ply
 67.5,M,2,Masters 3,桜井 良治,,66,美幌総合体育館,66.9,150,,150,B,Single-ply
 67.5,M,3,Masters 3,進藤 純二,,61,釧路ﾊﾟﾜｰﾘﾌﾃｨﾝｸﾞ協会,66.25,100,,100,B,Single-ply
 75,M,1,Masters 3,川島 晃,,67,パワーハウス,72.1,132.5,,132.5,B,Single-ply
