@@ -39,7 +39,7 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 伊差川 浩之,,1953,M,57.68,59,150,157.5,-162.5,157.5,157.5,B,Single-ply,POWERSPORT,Masters 3,1
 三浦 浩,Hiroshi Miura,1964,M,48.58,59,142.5,147.5,155,155,155,B,Single-ply,バークレイズ証券,Masters 2,1
 白石 匡,,1980,M,58.14,59,135,152.5,-160,152.5,152.5,B,Single-ply,K's GYM,Open,11
-村田 元輝,,1997,M,58.46,59,145,150.5,151.5,151.5,151.5,B,Single-ply,厚木商業高校,Sub-Juniors,1
+村田 元輝,Motoki Murata,1997,M,58.46,59,145,150.5,151.5,151.5,151.5,B,Single-ply,厚木商業高校,Sub-Juniors,1
 鈴木 康之,,1996,M,57.86,59,-150,-151,151,151,151,B,Single-ply,F・T．GYM,Sub-Juniors,2
 吉野 公二,,1969,M,58.56,59,150,-160,-160,150,150,B,Single-ply,個人,Masters 1,3
 吉野 公二,,1969,M,58.56,59,150,-160,-160,150,150,B,Single-ply,個人,Open,12
@@ -102,14 +102,9 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 児玉 大紀,Daiki Kodama,1979,M,71.94,74,260,275,-300,275,275,B,Single-ply,K's GYM,Open,1
 山下 保樹,Yasuki Yamashita,1991,M,73.84,74,210.5,227.5,-240,227.5,227.5,B,Single-ply,阪南大学ｳｴｲﾄﾄﾚｰﾆﾝｸﾞ部,Juniors,1
 山下 保樹,Yasuki Yamashita,1991,M,73.84,74,210.5,227.5,-240,227.5,227.5,B,Single-ply,阪南大学ｳｴｲﾄﾄﾚｰﾆﾝｸﾞ部,Open,2
-奥谷 元哉,,1980,M,73.58,74,225,-230,-230,225,225,B,Single-ply,K's GYM,Open,3
-<<<<<<< HEAD
-三島 忠,,1962,M,73.4,74,215,220,-230,220,220,B,Single-ply,K's GYM,Masters 2,1
-濱田 展行,,1969,M,73.62,74,215,220,-227.5,220,220,B,Single-ply,個人,Masters 1,1
-=======
+奥谷 元哉,Motoya Okutani,1980,M,73.58,74,225,-230,-230,225,225,B,Single-ply,K's GYM,Open,3
 三島 忠,Tadashi Mishima,1962,M,73.4,74,215,220,-230,220,220,B,Single-ply,K's GYM,Masters 2,1
 濱田 展行,Nobuyuki Hamada,1969,M,73.62,74,215,220,-227.5,220,220,B,Single-ply,個人,Masters 1,1
->>>>>>> Add more JPA meets, make a bunch of name corrections.
 松岡 紀佳,,1971,M,73.26,74,-205,205,212.5,212.5,212.5,B,Single-ply,K's GYM横浜,Masters 1,2
 枦山 隆,,1972,M,70.18,74,210,-215,-220,210,210,B,Single-ply,K's GYM,Masters 1,3
 濱田 展行,,1969,M,73.62,74,215,220,-227.5,220,220,B,Single-ply,個人,Open,4
@@ -222,13 +217,8 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 葛西 昌彦,Masahiko Kassai,1971,M,91.66,93,275,-293.5,-293.5,275,275,B,Single-ply,K's GYM,Masters 1,1
 大室 豪槻,Goki Omuro,1993,M,91.84,93,255,277.5,-300,277.5,277.5,B,Single-ply,阪南大学ｳｴｲﾄﾄﾚｰﾆﾝｸﾞ部,Open,1
 葛西 昌彦,Masahiko Kassai,1971,M,91.66,93,275,-293.5,-293.5,275,275,B,Single-ply,K's GYM,Open,2
-<<<<<<< HEAD
-久保 匡平,,1987,M,92.96,93,220,-230,240,240,240,B,Single-ply,京優会,Open,3
-荒川 孝行,,1978,M,91,93,222.5,232.5,-242.5,232.5,232.5,B,Single-ply,ゴールドジムバーベルクラブ,Open,4
-=======
 久保 匡平,Kyohei Kubo,1987,M,92.96,93,220,-230,240,240,240,B,Single-ply,京優会,Open,3
 荒川 孝行,Takayuki Arakawa,1978,M,91,93,222.5,232.5,-242.5,232.5,232.5,B,Single-ply,ゴールドジムバーベルクラブ,Open,4
->>>>>>> Add more JPA meets, make a bunch of name corrections.
 伊藤 禎浩,,1969,M,91.66,93,232.5,-242.5,-242.5,232.5,232.5,B,Single-ply,個人,Masters 1,2
 伊藤 禎浩,,1969,M,91.66,93,232.5,-242.5,-242.5,232.5,232.5,B,Single-ply,個人,Open,5
 北川 武志,,1958,M,87.78,93,212.5,-241.5,-241.5,212.5,212.5,B,Single-ply,K's GYM,Masters 2,1
@@ -267,7 +257,7 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 石塚 峻太,,1994,M,103.22,105,170,182.5,187.5,187.5,187.5,B,Single-ply,東洋大学,Juniors,4
 柴田 道郎,Michio Shibata,1978,M,104.22,105,-285,-285,-292.5,,,B,Single-ply,パワーハウスつくば,Open,DQ
 中谷 幸市,,1960,M,104.3,105,-235,-235,-235,,,B,Single-ply,国士舘高等学校PL部,Masters 2,DQ
-山森 智行,,1972,M,104.7,105,-270,-272.5,-275,,,B,Single-ply,K's GYM,Open,DQ
+山森 智行,Tomoyuki Yamamori,1972,M,104.7,105,-270,-272.5,-275,,,B,Single-ply,K's GYM,Open,DQ
 上田 真司,Shinji Ueda,1972,M,116.76,120,320,330,-343,330,330,B,Single-ply,K's GYM,Open,1
 後藤 衆治,Shuji Goto,1968,M,112.92,120,300,-302.5,-332.5,300,300,B,Single-ply,個人,Masters 1,1
 後藤 衆治,Shuji Goto,1968,M,112.92,120,300,-302.5,-332.5,300,300,B,Single-ply,個人,Open,2
@@ -282,7 +272,7 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 平山 健斗,,1993,M,117.76,120,-175,175,-200,175,175,B,Single-ply,岡山大学ｳｴｲﾄﾄﾚｰﾆﾝｸﾞ部,Juniors,3
 山本 誠一郎,,1996,M,119.16,120,145,-170,-170,145,145,B,Single-ply,スポーツジムB＆F,Sub-Juniors,2
 梅林 恭行,,1983,M,115.94,120,-230,-230,-230,,,B,Single-ply,SUBSTANSCE X,Open,DQ
-南 茂樹,,1965,M,,120,,,,,,B,Single-ply,エイブルスポーツクラブ,Open,NS
+南 茂樹,Shigeki Minami,1965,M,,120,,,,,,B,Single-ply,エイブルスポーツクラブ,Open,NS
 梶井 俊宏,Toshihiro Kajii,1980,M,120.02,120+,265,-275,275,275,275,B,Single-ply,阪南大学体育会WT部OB会,Open,1
 江添 和昭,,1975,M,159.78,120+,250,-260,267.5,267.5,267.5,B,Single-ply,パワーハウス,Open,2
 樋口 重敏,,1977,M,130.28,120+,220,230,-247.5,230,230,B,Single-ply,個人,Open,3

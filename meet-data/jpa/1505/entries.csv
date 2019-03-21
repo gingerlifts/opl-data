@@ -7,7 +7,7 @@ WeightClassKg,Sex,Division,Place,JapaneseName,Name,Team,BirthYear,BodyweightKg,B
 93,M,Sub-Juniors,1,對馬 瑠衣斗,,東奥義塾高等学校,1998,89.18,135,75,187.5,397.5,SBD,Raw
 43,F,Juniors,1,根本 梢,,個人,1992,42.8,75,50,125,250,SBD,Raw
 47,F,Juniors,1,早川 琴果,,阪南大学,1995,46.8,70,65,110,245,SBD,Raw
-52,F,Juniors,1,南 采沙,,京都学園大学パワーリフティング部,1993,51.3,87.5,95,100.5,280.5,SBD,Raw
+52,F,Juniors,1,南 采沙,,京都学園大学パワーリフティング部,1993,51.3,87.5,95,100.5,283,SBD,Raw
 57,F,Juniors,1,堤 彩夏,,京都学園大学パワーリフティング部,1995,56.7,100,55,143,298,SBD,Raw
 57,F,Juniors,2,寺石 知央,,京都学園大学パワーリフティング部,1993,56.4,92.5,70,125,287.5,SBD,Raw
 63,F,Juniors,1,寺原 万留々,,京都学園大学パワーリフティング部,1993,62.6,150,75,160,385,SBD,Raw
@@ -29,8 +29,8 @@ WeightClassKg,Sex,Division,Place,JapaneseName,Name,Team,BirthYear,BodyweightKg,B
 83,M,Juniors,1,古川 潤,Jun Furukawa,京都府立農芸高等学校パワーリフティング部,1996,81.44,230,112.5,260,602.5,SBD,Raw
 83,M,Juniors,2,西本 翔,,岡山大学陵門会,1992,80.12,180,125,260,565,SBD,Raw
 83,M,Juniors,3,渡部 泰弘,,岡山大学ウエイトトレーニング部,1992,82.24,210,115,232.5,557.5,SBD,Raw
-83,M,Juniors,4,坂本 寛明,,ＴＸＰ,1996,81.4,200,122.5,210,547.5,SBD,Raw
-83,M,Juniors,5,齊藤 恵太,,京都学園大学パワーリフティング部,1993,79.76,150,110,100,460,SBD,Raw
+83,M,Juniors,4,坂本 寛明,,ＴＸＰ,1996,81.4,200,122.5,210,532.5,SBD,Raw
+83,M,Juniors,5,齊藤 恵太,,京都学園大学パワーリフティング部,1993,79.76,150,110,100,360,SBD,Raw
 93,M,Juniors,1,堀口 耀介,Yosuke Horiguchi,青山学院大学,1993,92.56,255,187.5,260,702.5,SBD,Raw
 105,M,Juniors,1,松澤 孝信,Takanobu Matsuzawa,首都大学東京,1992,102.52,250,147.5,292.5,690,SBD,Raw
 105,M,Juniors,2,佐野 誓建,Seiken Sano,京都学園大学パワーリフティング部,1995,101.8,230,130,290,650,SBD,Raw

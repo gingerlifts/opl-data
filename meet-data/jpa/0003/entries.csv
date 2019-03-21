@@ -163,8 +163,8 @@ JapaneseName,Name,Sex,Division,WeightClassKg,Team,Age,BodyweightKg,Bench1Kg,Benc
 井上 康勝,,M,Open,100,岩崎BC,41,98.14,-230,-230,-230,,,,DQ,B,Single-ply
 斎藤 雅士,,M,Open,110,ＳＣ 日光,32,108.96,-260,260,270,280,270,270,1,B,Single-ply
 平野 拓也,,M,Open,110,,32,104.52,230,240,-245,,240,240,2,B,Single-ply
-南 茂樹,,M,Open,110,ＦＣラ・ピスタ,35,106.98,230,235,240,,240,240,3,B,Single-ply
-吉田 達也,,M,Open,110,スポーツジムB&F,30,109.94,212.5,-232.5,-237.5,,212.5,212.5,4,B,Single-ply
+南 茂樹,Shigeki Minami,M,Open,110,ＦＣラ・ピスタ,35,106.98,230,235,240,,240,240,3,B,Single-ply
+吉田 達也,Tatsuya Yoshida,M,Open,110,スポーツジムB&F,30,109.94,212.5,-232.5,-237.5,,212.5,212.5,4,B,Single-ply
 片場 将明,,M,Open,110,パワーハウス,27,103.44,180,-190,190,,190,190,5,B,Single-ply
 行安 忠和,,M,Open,110,ＦＣ高松,31,106.98,-190,190,-200,,190,190,6,B,Single-ply
 新保 政博,,M,Open,110,ＴＣブルーム,32,102.9,-185,-185,185,,185,185,7,B,Single-ply
@@ -174,7 +174,7 @@ JapaneseName,Name,Sex,Division,WeightClassKg,Team,Age,BodyweightKg,Bench1Kg,Benc
 柿崎 裕彦,,M,Open,125,パワーハウス,29,120.94,-257.5,257.5,-260,,257.5,257.5,1,B,Single-ply
 星嶋 靖之,,M,Open,125,岩崎BC,44,111.72,227.5,-235,235,240,235,235,2,B,Single-ply
 糸数 正則,,M,Open,125,那覇ジム,32,113.26,-230,230,-235,,230,230,3,B,Single-ply
-立花 浩二,,M,Open,125,パワーハウス,34,117.46,-185,185,205,,205,205,4,B,Single-ply
+立花 浩二,Koji Tachibana,M,Open,125,パワーハウス,34,117.46,-185,185,205,,205,205,4,B,Single-ply
 伊藤 栄,,M,Open,125,パワーハウス,25,110.04,180,190,200,,200,200,5,B,Single-ply
 石田 広文,,M,Open,125,佐賀ＴＣ,34,122.5,-200,-200,-200,,,,NS,B,Single-ply
 三土手 大介,Daisuke Midote,M,Open,125+,パワーハウス,27,129.78,275,290,300,,300,300,1,B,Single-ply

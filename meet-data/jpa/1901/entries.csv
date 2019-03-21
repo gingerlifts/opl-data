@@ -400,7 +400,7 @@ JapaneseName,Name,WeightClassKg,Sex,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best
 長島 義孝,,105,M,97.1,120,128,-130,128,128,1944,京都府 京都パワーリフティングクラブ,Masters 4,B,Raw,1
 小原 一将,Ohara Kazumasa,120,M,117.35,215,225,-231.5,225,225,1991,マッスルプロダクション 一般,Open,B,Raw,1
 和田 髙平,Kohei Wada,120,M,119.6,215,222.5,-232,222.5,222.5,1964,K's GYM,Masters 2,B,Raw,1
-古賀 宏和,,120,M,111.7,210,220,-225,220,220,1991,BEAST GYM,Open,B,Raw,2
+古賀 宏和,Hirokazu Koga,120,M,111.7,210,220,-225,220,220,1991,BEAST GYM,Open,B,Raw,2
 淵野 茂樹,,120,M,117.75,200,210,212.5,212.5,212.5,1977,個人,Masters 1,B,Raw,1
 山本 貴之,,120,M,118.9,190,200,202.5,202.5,202.5,1995,個人,Open,B,Raw,3
 宮本 覚道,,120,M,117.5,192.5,200,-210,200,200,1978,あかつき幼稚園,Masters 1,B,Raw,2
@@ -416,7 +416,7 @@ JapaneseName,Name,WeightClassKg,Sex,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best
 名越 勇樹,,120,M,108.55,200,-210,210,210,210,1998,茨城県 BIG GUNS,Juniors,B,Raw,1
 柏木 悠太郎,,120,M,,,,,,,1997,ストロングライン,Juniors,B,Raw,DQ
 中村 敏雄,,120,M,113.8,170,180,-185,180,180,1970,TXP,Masters 1,B,Raw,4
-山森 智行,,120,M,110,175,-182.5,-185,175,175,1972,K's GYM,Masters 1,B,Raw,6
+山森 智行,Tomoyuki Yamamori,120,M,110,175,-182.5,-185,175,175,1972,K's GYM,Masters 1,B,Raw,6
 安井 篤史,,120,M,118.55,160,167.5,172.5,172.5,172.5,1972,シロクマパワージム,Masters 1,B,Raw,8
 岡本 康央,,120,M,106.05,165,-175,-175,165,165,1972,タケイパワージム,Masters 1,B,Raw,9
 湯浅 正信,,120,M,112.9,200,205,-210,205,205,1962,THE CHAMPIONS,Masters 2,B,Raw,2

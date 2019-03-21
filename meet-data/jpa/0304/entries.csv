@@ -28,15 +28,9 @@ WeightClassKg,Place,Sex,JapaneseName,Name,Age,Team,BodyweightKg,Best3SquatKg,Bes
 67.5,NS,F,瀬川 照枝,,52,マルヤジム,,,,,,,SBD,Single-ply,Open
 75,1,F,宮田 葵,,26,みずほバーベルクラブ,73.64,150,105,,140,395,SBD,Single-ply,Open
 75,2,F,清野万理子,,22,新潟トレーニングﾞセンター,73.66,142.5,85,,150,377.5,SBD,Single-ply,Open
-<<<<<<< HEAD
-90,1,F,加藤 みどり,,32,きくいけ整形外科,87.9,150,87.5,,172.5,410,SBD,Single-ply,Open
-52,1,M,栗原 照久,,24,個人,51.5,195,145,,210,550,SBD,Single-ply,Open
-52,2,M,大城 新順,,59,個人,51.8,155,118,,155,427.5,SBD,Single-ply,Open
-=======
 90,1,F,加藤 みどり,Midori Kato,32,きくいけ整形外科,87.9,150,87.5,,172.5,410,SBD,Single-ply,Open
 52,1,M,栗原 照久,Akihisa Kurihara,24,個人,51.5,195,145,,210,550,SBD,Single-ply,Open
 52,2,M,大城 新順,Shinjun Oshiro,59,個人,51.8,155,118,,155,427.5,SBD,Single-ply,Open
->>>>>>> Add more JPA meets, make a bunch of name corrections.
 52,3,M,仲原 成造,,36,八重山パワークラブ,51.44,145,100,,175,420,SBD,Single-ply,Open
 52,4,M,渡辺 千晶,,39,パワーフィットネス,51.52,150,80,,170,400,SBD,Single-ply,Open
 52,DQ,M,ナベ ヤカン,Yakan Nabe,32,ノーリミッツ,51.84,200,,,,,SBD,Single-ply,Open
@@ -71,9 +65,9 @@ WeightClassKg,Place,Sex,JapaneseName,Name,Age,Team,BodyweightKg,Best3SquatKg,Bes
 82.5,4,M,与座 常友,,33,名護ジム,81.1,250,170,,245,665,SBD,Single-ply,Open
 82.5,DQ,M,濱田 展行,,33,個人,81.1,280,,,,,SBD,Single-ply,Open
 82.5,NS,M,上田 真司,,31,個人,,,,,,,SBD,Single-ply,Open
-90,1,M,小田川 洋司,,37,那覇ジム,89.1,310,190,,290,790,SBD,Single-ply,Open
+90,1,M,小田川洋司,Yoji Odagawa,37,那覇ジム,89.1,310,190,,290,790,SBD,Single-ply,Open
 90,2,M,淺間 成敏,,44,アサマトレーニングクラブ,90,282.5,185,,280,747.5,SBD,Single-ply,Open
-90,3,M,荒川 大介,,25,ノーリミッツ,86.9,265,197.5,,270,732.5,SBD,Single-ply,Open
+90,3,M,荒川 大介,Daisuke Arakawa,25,ノーリミッツ,86.9,265,197.5,,270,732.5,SBD,Single-ply,Open
 90,4,M,比屋定 英信,,41,個人,88.9,280,175,,260,715,SBD,Single-ply,Open
 90,DQ,M,岸本 洋一,,25,ノーリミッツ,89.7,270,,,,,SBD,Single-ply,Open
 100,1,M,関 幸男,,34,ｓｅｋｉ ｇｙｍ,99.94,280,225,,280,785,SBD,Single-ply,Open
@@ -87,13 +81,13 @@ WeightClassKg,Place,Sex,JapaneseName,Name,Age,Team,BodyweightKg,Best3SquatKg,Bes
 100,DQ,M,原 将浩,,36,トレ−ニングジムゼロイン,99.4,290,,,,,SBD,Single-ply,Open
 100,NS,M,高橋 克明,,33,アイアンジム,,,,,,,SBD,Single-ply,Open
 110,1,M,平櫛 雄司,,35,ＧＩＮＯＷＡＮ ＧＹＭ,104.3,285,215,,290,790,SBD,Single-ply,Open
-110,2,M,南 茂樹,,38,エイブル・フィットネスクラブ,110,290,260,262.5,240,790,SBD,Single-ply,Open
+110,2,M,南 茂樹,Shigeki Minami,38,エイブル・フィットネスクラブ,110,290,260,262.5,240,790,SBD,Single-ply,Open
 110,3,M,近藤 好和,,45,ノーリミッツ,106.2,300,215,,250,765,SBD,Single-ply,Open
 110,4,M,儀間 章次,,25,那覇ジム,108.4,275,200,,230,705,SBD,Single-ply,Open
 110,DQ,M,田中 哲也,,41,ノーリミッツ,104.1,250,,,,,SBD,Single-ply,Open
 125,1,M,二宮 正晴,,42,デンソー刈谷パワークラブ,116.1,275,210,,270,755,SBD,Single-ply,Open
 125,2,M,蟹江 秀信,,40,みずほバーベルクラブ,113.5,280,190,,250,720,SBD,Single-ply,Open
-125,DQ,M,立花 浩二,,36,ノーリミッツ,121,,,,,,SBD,Single-ply,Open
-125,NS,M,市川 正光,,30,アサマトレーニングクラブ,,,,,,,SBD,Single-ply,Open
+125,DQ,M,立花 浩二,Koji Tachibana,36,ノーリミッツ,121,,,,,,SBD,Single-ply,Open
+125,NS,M,市川 正光,Masamitsu Ichikawa,30,アサマトレーニングクラブ,,,,,,,SBD,Single-ply,Open
 125+,1,M,三土手 大介,Daisuke Midote,30,ノーリミッツ,141.4,435,312.5,,302.5,1050,SBD,Single-ply,Open
-125+,2,M,氏家 一郎,,45,アサマトレーニングクラブ,145.5,270,230,,247.5,747.5,SBD,Single-ply,Open
+125+,2,M,氏家 一郎,Ichirou Uijie,45,アサマトレーニングクラブ,145.5,270,230,,247.5,747.5,SBD,Single-ply,Open
