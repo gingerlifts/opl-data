@@ -1,0 +1,52 @@
+#!/usr/bin/env python3
+# vim: set ts=8 sts=4 et sw=4 tw=99:
+#
+# Simple script to sort ./lifter-data/name-corrections.csv
+
+import os
+import sys
+
+try:
+    from usernames import get_username
+except ImportError:
+    sys.path.append(os.path.join(os.path.dirname(
+        os.path.dirname(os.path.realpath(__file__))), "scripts"))
+    from usernames import get_username
+
+
+# Creates a hashmap keyed on misspellings.
+def load_names(datafilepath):
+    h = []
+    with open(datafilepath, 'r', encoding='utf-8') as fd:
+        for line in fd.readlines():
+            names = line.strip().split(',')
+            assert len(names) >= 2
+
+            h.append(names)
+
+    return h
+
+
+def sortfun(names):
+    return get_username(names[0])
+
+
+def write_names(datafilepath, names):
+    with open(datafilepath, 'w', encoding='utf-8') as fd:
+        for line in names:
+            fd.write(','.join(line)+'\n')
+
+
+def main():
+    scriptsdir = os.path.dirname(os.path.realpath(__file__))
+    projectdir = os.path.dirname(scriptsdir)
+    liftersdir = projectdir + os.sep + "lifter-data"
+
+    names = load_names(liftersdir+'/name-corrections.dat')
+    names.sort(key=sortfun)
+
+    write_names(liftersdir+'/name-corrections.dat', names)
+
+
+if __name__ == '__main__':
+    main()
