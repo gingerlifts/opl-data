@@ -122,7 +122,21 @@ impl<'d> EntriesRow<'d> {
     fn from(entry: &'d Entry, meet_id: u32, lifter_id: u32) -> EntriesRow<'d> {
         // McCulloch points are calculated as late as possible because they are
         // Age-dependent, and the lifter's Age may be inferred by post-checker phases.
-        let mcpts = mcculloch(entry.sex, entry.bodyweightkg, entry.totalkg, entry.age);
+        // If the lifter has an age use this to calculate McCulloch, otherwise use the
+        // lower bound obtained from AgeClass (If there is AgeClass data).
+        let mcpts = match entry.age{
+            Age::Exact(_) | Age::Approximate(_) => mcculloch(entry.sex, entry.bodyweightkg, entry.totalkg, entry.age),
+
+            Age::None => match entry.ageclass.to_range(){
+                None => mcculloch(entry.sex, entry.bodyweightkg, entry.totalkg, entry.age),
+                Some(ageclass) => {
+                    let (min,max) = ageclass;
+                    if max < 30{ mcculloch(entry.sex, entry.bodyweightkg, entry.totalkg, Age::Exact(max))}
+                    else{ mcculloch(entry.sex, entry.bodyweightkg, entry.totalkg, Age::Exact(min))}
+                }
+            },
+        };
+
 
         EntriesRow {
             meet_id,

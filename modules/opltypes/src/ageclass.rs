@@ -121,6 +121,41 @@ impl AgeClass {
             AgeClass::None
         }
     }
+    
+    //Convert an AgeClass to a u8 tuple option
+    pub fn to_range(&self)-> Option<(u8,u8)> {
+        match *self {
+            AgeClass::Class5_12 => Some((5,12)),
+            AgeClass::Class13_15 => Some((13,15)),
+            AgeClass::Class16_17 => Some((16,17)),
+            AgeClass::Class18_19 => Some((18,19)),
+            AgeClass::Class24_34 => Some((24,34)),
+            AgeClass::Class35_39 => Some((35,39)),
+            AgeClass::Class40_44 => Some((40,44)),
+            AgeClass::Class45_49 => Some((45,49)),
+            AgeClass::Class50_54 => Some((50,54)),
+            AgeClass::Class55_59 => Some((55,59)),
+            AgeClass::Class60_64 => Some((60,64)),
+            AgeClass::Class65_69 => Some((65,69)),
+            AgeClass::Class70_74 => Some((70,74)),
+            AgeClass::Class75_79 => Some((75,79)),
+            AgeClass::Class80_999 => Some((80,255)),
+            _ => None,
+
+        }
+        
+    }
+
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn from_age() {
+        assert_eq!(AgeClass::from_age(Age::Approximate(40)), AgeClass::Class40_44);
+    }
 }
 
 #[cfg(test)]
