@@ -148,15 +148,6 @@ impl AgeClass {
 
 }
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn from_age() {
-        assert_eq!(AgeClass::from_age(Age::Approximate(40)), AgeClass::Class40_44);
-    }
-}
 
 #[cfg(test)]
 mod tests {
