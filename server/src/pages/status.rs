@@ -63,10 +63,8 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     let complete = "Complete";
     statuses[_365Strong as usize].status = complete;
     statuses[BB as usize].status = complete;
-    statuses[BPU as usize].status = complete;
     statuses[HERC as usize].status = complete;
     statuses[PA as usize].status = complete;
-    statuses[RPS as usize].status = complete;
     statuses[SCT as usize].status = complete;
     statuses[THSPA as usize].status = complete;
     statuses[THSWPA as usize].status = complete;
@@ -150,14 +148,13 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     let xls_unstructured = "XLS (Unstructured)";
     statuses[_365Strong as usize].format = xls_unstructured;
     statuses[BB as usize].format = xls_unstructured;
-    statuses[BPF as usize].format = xls_unstructured;
-    statuses[BPU as usize].format = xls_unstructured;
+    statuses[BP as usize].format = pdf_unstructured;
     statuses[CPU as usize].format = database;
+    statuses[EPA as usize].format = pdf_unstructured;
     statuses[EPF as usize].format = html;
     statuses[IPA as usize].format = xls_unstructured;
     statuses[IPF as usize].format = html;
     statuses[IrishPF as usize].format = html;
-    statuses[IrishPO as usize].format = xls_unstructured;
     statuses[PA as usize].format = html;
     statuses[RAW as usize].format = pdf_unstructured;
     statuses[RPS as usize].format = html;
@@ -167,7 +164,7 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[UPA as usize].format = pdf_unstructured;
     statuses[USAPL as usize].format = database;
     statuses[USPA as usize].format = pdf_structured;
-    statuses[WPC as usize].format = xls_unstructured;
+    statuses[WelshPA as usize].format = pdf_unstructured;
 
     // Subjective ease of importation.
     let easy = "Easy";
@@ -175,14 +172,12 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     let difficult = "Difficult";
     statuses[_365Strong as usize].ease = difficult;
     statuses[BB as usize].ease = difficult;
-    statuses[BPF as usize].ease = easy;
-    statuses[BPU as usize].ease = easy;
     statuses[CPU as usize].ease = easy;
+    
     statuses[EPF as usize].ease = easy;
     statuses[IPA as usize].ease = difficult;
     statuses[IPF as usize].ease = easy;
     statuses[IrishPF as usize].ease = easy;
-    statuses[IrishPO as usize].ease = easy;
     statuses[PA as usize].ease = easy;
     statuses[RAW as usize].ease = difficult;
     statuses[RPS as usize].ease = easy;
@@ -192,20 +187,20 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[UPA as usize].ease = difficult;
     statuses[USAPL as usize].ease = easy;
     statuses[USPA as usize].ease = easy;
-    statuses[WPC as usize].ease = medium;
 
     // Maintainership variables.
-    let email_gem = "<a href=\"mailto:gem@openpowerlifting.org\">gem@</a>";
     let email_sean = "<a href=\"mailto:sean@openpowerlifting.org\">sean@</a>";
+    let email_jo = "<a href=\"mailto:jo@openpowerlifting.org\">jo@</a>";
 
     // Maintainership information.
     statuses[_365Strong as usize].maintainers = email_sean;
-    statuses[APF as usize].maintainers = email_gem;
-    statuses[BPF as usize].maintainers = email_gem;
-    statuses[BPU as usize].maintainers = email_gem;
+    statuses[BP as usize].maintainers = email_jo;   
     statuses[CPU as usize].maintainers = email_sean;
+    statuses[EPA as usize].maintainers = email_jo;
+    statuses[EPF as usize].maintainers = email_jo;    
     statuses[HERC as usize].maintainers = email_sean;
-    statuses[IrishPO as usize].maintainers = email_gem;
+    statuses[IPF as usize].maintainers = email_jo;
+    statuses[NIPF as usize].maintainers = email_jo;    
     statuses[PA as usize].maintainers = email_sean;
     statuses[RPS as usize].maintainers = email_sean;
     statuses[SPF as usize].maintainers = email_sean;
@@ -213,11 +208,7 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[USPA as usize].maintainers = email_sean;
     statuses[THSPA as usize].maintainers = email_sean;
     statuses[THSWPA as usize].maintainers = email_sean;
-    statuses[UPA as usize].maintainers = email_gem;
-    statuses[WPC as usize].maintainers = email_gem;
-    statuses[WPCFinland as usize].maintainers = email_gem;
-    statuses[WPCFrance as usize].maintainers = email_gem;
-    
+    statuses[WelshPA as usize].maintainers = email_jo;
 
     // Don't ask for maintainership applications for defunct, completed federations.
     statuses[BB as usize].maintainers = "";
