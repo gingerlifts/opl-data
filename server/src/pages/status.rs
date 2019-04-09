@@ -153,6 +153,7 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[_365Strong as usize].format = xls_unstructured;
     statuses[APU as usize].format = pdf_structured;
     statuses[BB as usize].format = xls_unstructured;
+    statuses[BDFPA as usize].format = jpg;    
     statuses[BP as usize].format = pdf_unstructured;
     statuses[BPF as usize].format = xls_unstructured;
     statuses[BPU as usize].format = xls_unstructured;
@@ -184,9 +185,12 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[_365Strong as usize].ease = difficult;
     statuses[APU as usize].ease = easy;
     statuses[BB as usize].ease = difficult;
+    statuses[BP as usize].ease = medium;    
+    statuses[BDFPA as usize].ease = impossible;    
     statuses[BPF as usize].ease = easy;
     statuses[BPU as usize].ease = easy;
     statuses[CPU as usize].ease = easy;
+    statuses[EPA as usize].ease = medium;    
     statuses[EPF as usize].ease = easy;
     statuses[IPA as usize].ease = difficult;
     statuses[IPF as usize].ease = easy;
