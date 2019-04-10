@@ -163,6 +163,8 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[BDFPA as usize].format = jpg;
     statuses[BP as usize].format = pdf_unstructured;
     statuses[BPF as usize].format = xls_unstructured;
+    statuses[BPU as usize].format = xls_unstructured;
+    statuses[BVDK as usize].format = pdf_unstructured;
     statuses[BVDK as usize].format = pdf_unstructured;
     statuses[CAPO as usize].format = pdf_unstructured;
     statuses[CPF as usize].format = pdf_unstructured;
