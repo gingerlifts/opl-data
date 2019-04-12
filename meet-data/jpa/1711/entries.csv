@@ -1,7 +1,7 @@
 WeightClassKg,Sex,JapaneseName,Name,Team,BirthYear,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Bench1Kg,Bench2Kg,Bench3Kg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Division,Place
 47,F,中田 佳見,,岡山県,1971,46.8,75,80,-82.5,-55,-55,55,92.5,100,105,80,55,105,240,SBD,Raw,Open,1
 52,F,可児 理恵,Rie Kani,岐阜県,1979,47.1,110,-115,-115,70,72.5,75,137.5,145,147.5,110,75,147.5,332.5,SBD,Raw,Open,1
-52,F,寺村 美香,,北海道,1962,50.8,70,80,85,55,60,-65,110,120,-130,85,60,120,265,SBD,Raw,Open,2
+52,F,寺村 美香,Mika Teramura,北海道,1962,50.8,70,80,85,55,60,-65,110,120,-130,85,60,120,265,SBD,Raw,Open,2
 57,F,園部 文子,,千葉県,1970,56.4,85,95,-100,47.5,52.5,-55,115,-125,130,95,52.5,130,277.5,SBD,Raw,Open,1
 57,F,上林 理沙子,,東京都,1989,54.45,85,90,-95,45,50,-55,-110,120,-130,90,50,120,260,SBD,Raw,Open,2
 57,F,平川 美由紀,,沖縄県,1973,55.8,75,-85,85,37.5,40,-42.5,105,115,-125,85,40,115,240,SBD,Raw,Open,3

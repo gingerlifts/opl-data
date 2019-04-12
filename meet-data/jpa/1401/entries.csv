@@ -7,7 +7,7 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 南 采沙,,1993,F,47,47,77.5,85.5,90,90,90,B,Single-ply,京都学園大学ﾊﾟﾜｰﾘﾌﾃｨﾝｸﾞ部,Juniors,1
 入船 美月,,1994,F,46.7,47,60,65,-70,65,65,B,Single-ply,阪南大学ｳｴｲﾄﾄﾚｰﾆﾝｸﾞ部,Juniors,2
 植草 千秋,,1983,F,46.7,47,60,-75,-75,60,60,B,Single-ply,K's GYM横浜,Open,4
-奥村 正子,,1930,F,46.85,47,42.5,-45.5,-45.5,42.5,42.5,B,Single-ply,新日織住金鹿島,Masters 4,1
+奥村 正子,Masako Okumura,1930,F,46.85,47,42.5,-45.5,-45.5,42.5,42.5,B,Single-ply,新日織住金鹿島,Masters 4,1
 酒巻 知子,,1965,F,54.85,57,100,-115,115,115,115,B,Single-ply,ストロングライン,Masters 1,1
 藤原 のどか,,1992,F,56.4,57,-115,115,-118,115,115,B,Single-ply,神戸医療福祉大学,Juniors,1
 津金 典子,,1971,F,55.4,57,77.5,82.5,-87.5,82.5,82.5,B,Single-ply,K's GYM横浜,Masters 1,2
@@ -17,7 +17,7 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 小林 展代,,1997,F,56.6,57,65,70.5,-72.5,70.5,70.5,B,Single-ply,春日部共栄高等学校,Sub-Juniors,1
 伊藤 由実子,,1976,F,56.4,57,55,65,70,70,70,B,Single-ply,マッスルプロダクション,Open,4
 長尾 優子,,1950,F,55,57,60,-65,65,65,65,B,Single-ply,個人,Masters 3,1
-伊川 玲子,,1939,F,55.8,57,-60,60,62.5,62.5,62.5,B,Single-ply,個人,Masters 4,2
+伊川 玲子,Reiko Igawa,1939,F,55.8,57,-60,60,62.5,62.5,62.5,B,Single-ply,個人,Masters 4,2
 長渕 悦子,,1955,F,55,57,-50,-50,50,50,50,B,Single-ply,Rock On,Masters 2,1
 南 恵美,,1987,F,55.55,57,-130,-130,-130,,,B,Single-ply,エイブルスポーツクラブ,Open,DQ
 山口 彩,,1986,F,,57,,,,,,B,Single-ply,K's GYM,Open,NS
@@ -32,11 +32,11 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 中野 衛,,1975,M,58.66,59,180,-185,-185,180,180,B,Single-ply,BIG GUNS,Open,5
 木田 裕大,,1984,M,57.86,59,160,170,175,175,175,B,Single-ply,SUBSTANS X,Open,6
 村上 孝志,,1984,M,58.26,59,160,170,175,175,175,B,Single-ply,B・P・S,Open,7
-池田 尚也,Naoya Ikeda,1970,M,58.48,59,175,-182.5,-187.5,175,175,B,Single-ply,リアルスタイル,Masters 1,2
-池田 尚也,Naoya Ikeda,1970,M,58.48,59,175,-182.5,-187.5,175,175,B,Single-ply,リアルスタイル,Open,8
+池田 尚也,Ikeda Naoya,1970,M,58.48,59,175,-182.5,-187.5,175,175,B,Single-ply,リアルスタイル,Masters 1,2
+池田 尚也,Ikeda Naoya,1970,M,58.48,59,175,-182.5,-187.5,175,175,B,Single-ply,リアルスタイル,Open,8
 大石 昌宏,,1979,M,58.9,59,165,-175,175,175,175,B,Single-ply,team 力姫長崎,Open,9
 森 健太,,1989,M,58.9,59,-160,160,-185,160,160,B,Single-ply,K's GYM横浜,Open,10
-伊差川 浩之,,1953,M,57.68,59,150,157.5,-162.5,157.5,157.5,B,Single-ply,POWERSPORT,Masters 3,1
+伊差川 浩之,Hiroyuki Isagawa,1953,M,57.68,59,150,157.5,-162.5,157.5,157.5,B,Single-ply,POWERSPORT,Masters 3,1
 三浦 浩,Hiroshi Miura,1964,M,48.58,59,142.5,147.5,155,155,155,B,Single-ply,バークレイズ証券,Masters 2,1
 白石 匡,,1980,M,58.14,59,135,152.5,-160,152.5,152.5,B,Single-ply,K's GYM,Open,11
 村田 元輝,Motoki Murata,1997,M,58.46,59,145,150.5,151.5,151.5,151.5,B,Single-ply,厚木商業高校,Sub-Juniors,1
@@ -54,7 +54,7 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 椎木 智良,,1964,M,58.98,59,-120,-120,120,120,120,B,Single-ply,ストロングライン,Masters 2,4
 飯塚 進市,,1956,M,58.56,59,115,-120,-120,115,115,B,Single-ply,水戸市ﾊﾟﾜｰﾘﾌﾃｨﾝｸﾞ協会,Masters 2,5
 大瀧 順巳,Masami Otaki,1942,M,54.5,59,85,100,-107.5,100,100,B,Single-ply,スーパーG名古屋,Masters 4,1
-石渡 啓之,,1959,M,55.94,59,-152.5,-157.5,-157.5,,,B,Single-ply,パワーハウス,Open,DQ
+石渡 啓之,Hiroyuki Ishiwatari,1959,M,55.94,59,-152.5,-157.5,-157.5,,,B,Single-ply,パワーハウス,Open,DQ
 松野 翼,,1984,M,57.74,59,-120,-120,-120,,,B,Single-ply,K's GYM,Open,DQ
 渡辺 匡宏,,1977,M,58.88,59,-175,-175,-190,,,B,Single-ply,GBTT,Open,DQ
 植木 信芳,,1996,M,58.78,59,,,,,,B,Single-ply,個人,Sub-Juniors,DQ
@@ -65,11 +65,11 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 中山 久幸,Hisayuki Nakayama,1963,M,63.56,66,230,-232.5,-232.5,230,230,B,Single-ply,ノーリミッツ,Open,2
 福田 将志,Masashi Fukuda,1984,M,65.92,66,205,-212.5,-235,205,205,B,Single-ply,ストロングライン,Open,3
 広永 賢司,,1984,M,65.34,66,197.5,-205,-205,197.5,197.5,B,Single-ply,K's GYM,Open,4
-水野 瑛,,1992,M,64.14,66,180,190,195,195,195,B,Single-ply,K's GYM横浜,Juniors,1
-岡田 治也,,1996,M,64.72,66,-190,-192.5,192.5,192.5,192.5,B,Single-ply,興国高等学校,Sub-Juniors,1
+水野 瑛,Yo Mizuno,1992,M,64.14,66,180,190,195,195,195,B,Single-ply,K's GYM横浜,Juniors,1
+岡田 治也,Haruya Okada,1996,M,64.72,66,-190,-192.5,192.5,192.5,192.5,B,Single-ply,興国高等学校,Sub-Juniors,1
 芦崎 高志,,1971,M,65.2,66,-190,-190,190,190,190,B,Single-ply,チーム度肝,Masters 1,2
-水野 瑛,,1992,M,64.14,66,180,190,195,195,195,B,Single-ply,K's GYM横浜,Open,5
-岡田 治也,,1996,M,64.72,66,-190,-192.5,192.5,192.5,192.5,B,Single-ply,興国高等学校,Open,6
+水野 瑛,Yo Mizuno,1992,M,64.14,66,180,190,195,195,195,B,Single-ply,K's GYM横浜,Open,5
+岡田 治也,Haruya Okada,1996,M,64.72,66,-190,-192.5,192.5,192.5,192.5,B,Single-ply,興国高等学校,Open,6
 芦崎 高志,,1971,M,65.2,66,-190,-190,190,190,190,B,Single-ply,チーム度肝,Open,7
 石川 拓也,,1979,M,65.3,66,-190,-190,190,190,190,B,Single-ply,パワーハウス,Open,8
 田中 勝之,,1980,M,65.88,66,175,182.5,-192.5,182.5,182.5,B,Single-ply,K's GYM横浜,Open,9
@@ -92,7 +92,7 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 山本 大郎,,1950,M,61.44,66,110,-125,-125,110,110,B,Single-ply,烈剛河内,Masters 3,3
 佃 忠和,Tadakazu Tsukuda,1944,M,63.16,66,110,-115,-115,110,110,B,Single-ply,K's GYM横浜,Masters 4,3
 照井 清,,1941,M,65.22,66,90,95,-100,95,95,B,Single-ply,個人,Masters 4,4
-竹井 保満,,1928,M,61.7,66,80,-85,-85,80,80,B,Single-ply,烈剛河内,Masters 4,5
+竹井 保満,Yasumitsu Takei,1928,M,61.7,66,80,-85,-85,80,80,B,Single-ply,烈剛河内,Masters 4,5
 古川 琢真,,1993,M,64.58,66,-180,-180,-180,,,B,Single-ply,GBTT,Juniors,DQ
 李 炳八,,1958,M,64.92,66,-145,,,,,B,Single-ply,水戸市ﾊﾟﾜｰﾘﾌﾃｨﾝｸﾞ協会,Masters 2,DQ
 亀谷 充男,,1971,M,65.64,66,-180,-200,-200,,,B,Single-ply,パワーハウス山口,Open,DQ
@@ -107,13 +107,13 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 濱田 展行,Nobuyuki Hamada,1969,M,73.62,74,215,220,-227.5,220,220,B,Single-ply,個人,Masters 1,1
 松岡 紀佳,,1971,M,73.26,74,-205,205,212.5,212.5,212.5,B,Single-ply,K's GYM横浜,Masters 1,2
 枦山 隆,,1972,M,70.18,74,210,-215,-220,210,210,B,Single-ply,K's GYM,Masters 1,3
-濱田 展行,,1969,M,73.62,74,215,220,-227.5,220,220,B,Single-ply,個人,Open,4
+濱田 展行,Nobuyuki Hamada,1969,M,73.62,74,215,220,-227.5,220,220,B,Single-ply,個人,Open,4
 松岡 紀佳,,1971,M,73.26,74,-205,205,212.5,212.5,212.5,B,Single-ply,K's GYM横浜,Open,5
 枦山 隆,,1972,M,70.18,74,210,-215,-220,210,210,B,Single-ply,K's GYM,Open,6
 逢野 崇大,,1994,M,72.98,74,-200,206.5,-216,206.5,206.5,B,Single-ply,阪南大学ｳｴｲﾄﾄﾚｰﾆﾝｸﾞ部,Juniors,2
-大谷 憲弘,,1980,M,73.7,74,195,200,205,205,205,B,Single-ply,エスクアティア,Open,7
-村野 知永,,1994,M,73.96,74,192.5,202.5,-207,202.5,202.5,B,Single-ply,阪南大学ｳｴｲﾄﾄﾚｰﾆﾝｸﾞ部,Juniors,3
-西村 義人,,1990,M,68,74,-200,200,-225,200,200,B,Single-ply,岡山大学陵門会,Open,8
+大谷 憲弘,Norihiro Otani,1980,M,73.7,74,195,200,205,205,205,B,Single-ply,エスクアティア,Open,7
+村野 知永,Tomohisa Murano,1994,M,73.96,74,192.5,202.5,-207,202.5,202.5,B,Single-ply,阪南大学ｳｴｲﾄﾄﾚｰﾆﾝｸﾞ部,Juniors,3
+西村 義人,Yoshito Nishimura,1990,M,68,74,-200,200,-225,200,200,B,Single-ply,岡山大学陵門会,Open,8
 守山 哲郎,,1971,M,72.56,74,190,200,-205,200,200,B,Single-ply,MAT,Masters 1,4
 髙山 由成,,1993,M,73.02,74,190,200,-207,200,200,B,Single-ply,日本橋学館大学,Juniors,4
 井出 光弘,,1961,M,73.36,74,197.5,-210,-212.5,197.5,197.5,B,Single-ply,F・TGYM,Masters 2,2
@@ -144,8 +144,8 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 増山 朱美,,1962,F,51.94,52,102.5,110,115,115,115,B,Single-ply,健宝の湯,Open,2
 伊賀 梓,,1985,F,51.4,52,105,110,-115,110,110,B,Single-ply,岡山大学陵門会,Open,3
 水野 文江,,1959,F,51.12,52,90,95,100,100,100,B,Single-ply,ゴールドジム名古屋金山,Masters 2,2
-寺村 美香,,1962,F,51.58,52,92.5,97.5,-102.5,97.5,97.5,B,Single-ply,リアルスィング,Masters 2,3
-寺村 美香,,1962,F,51.58,52,92.5,97.5,-102.5,97.5,97.5,B,Single-ply,リアルスィング,Open,4
+寺村 美香,Mika Teramura,1962,F,51.58,52,92.5,97.5,-102.5,97.5,97.5,B,Single-ply,リアルスィング,Masters 2,3
+寺村 美香,Mika Teramura,1962,F,51.58,52,92.5,97.5,-102.5,97.5,97.5,B,Single-ply,リアルスィング,Open,4
 機谷 礼美,,1966,F,50.22,52,87.5,92.5,-97.5,92.5,92.5,B,Single-ply,パワーハウス赤穂,Masters 1,1
 磯田 あかね,,1970,F,51.54,52,92.5,-97.5,-97.5,92.5,92.5,B,Single-ply,ｽｰﾊﾟｰﾊﾟﾜｰｱｻﾏﾄﾚｰﾆﾝｸﾞｸﾗﾌﾞ,Masters 1,2
 磯田 あかね,,1970,F,51.54,52,92.5,-97.5,-97.5,92.5,92.5,B,Single-ply,ｽｰﾊﾟｰﾊﾟﾜｰｱｻﾏﾄﾚｰﾆﾝｸﾞｸﾗﾌﾞ,Open,5
@@ -154,8 +154,8 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 田中 彰子,,1964,F,51.34,52,75,-80,82.5,82.5,82.5,B,Single-ply,パワーハウスかみかわ,Open,7
 松村 育子,,1983,F,50.7,52,80,-85,-85,80,80,B,Single-ply,ノーリミッツ,Open,8
 浅川 圭子,,1961,F,51.2,52,62.5,67.5,-70,67.5,67.5,B,Single-ply,パワーハウス,Masters 2,5
-古川 芳子,,1939,F,50.94,52,60,62.5,-70,62.5,62.5,B,Single-ply,K's GYM横浜,Open,1
-古川 芳子,,1939,F,50.94,52,60,62.5,-70,62.5,62.5,B,Single-ply,K's GYM横浜,Open,9
+古川 芳子,Yoshiko Furukawa,1939,F,50.94,52,60,62.5,-70,62.5,62.5,B,Single-ply,K's GYM横浜,Open,1
+古川 芳子,Yoshiko Furukawa,1939,F,50.94,52,60,62.5,-70,62.5,62.5,B,Single-ply,K's GYM横浜,Open,9
 櫻 由貴,,1995,F,51.34,52,45,60,-65,60,60,B,Single-ply,神戸医療福祉大学,Juniors,1
 塚本 美紀,,1964,F,50.66,52,42.5,45,-50,45,45,B,Single-ply,パワーハウス,Masters 1,3
 宮本 智子,Tomoko Miyamoto,1967,F,50.84,52,-100,-100,-100,,,B,Single-ply,ヴィテンののいち,Open,DQ
@@ -170,9 +170,9 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 工藤 智恵子,,1967,F,61.26,63,85,95,-97.5,95,95,B,Single-ply,マッスルプロダクション,Open,4
 林 和美,,1963,F,62.8,63,85,90,95,95,95,B,Single-ply,ｽｰﾊﾟｰﾊﾟﾜｰｱｻﾏﾄﾚｰﾆﾝｸﾞｸﾗﾌﾞ,Open,5
 溝口 久美,Kumi Mizoguchi,1988,F,71.36,72,110,115,120,120,120,B,Single-ply,K's GYM横浜,Open,1
-澤 千代美,,1949,F,70.02,72,105,112.5,118,118,118,B,Single-ply,パワーハウス,Masters 3,1
+澤 千代美,Chiyomi Sawa,1949,F,70.02,72,105,112.5,118,118,118,B,Single-ply,パワーハウス,Masters 3,1
 仲野 衣美,,1993,F,65.5,72,90,105,-112.5,105,105,B,Single-ply,阪南大学ｳｴｲﾄﾄﾚｰﾆﾝｸﾞ部,Juniors,1
-澤 千代美,,1949,F,70.02,72,105,112.5,118,118,118,B,Single-ply,パワーハウス,Open,2
+澤 千代美,Chiyomi Sawa,1949,F,70.02,72,105,112.5,118,118,118,B,Single-ply,パワーハウス,Open,2
 仲野 衣美,,1993,F,65.5,72,90,105,-112.5,105,105,B,Single-ply,阪南大学ｳｴｲﾄﾄﾚｰﾆﾝｸﾞ部,Open,3
 後藤 啓恵,,1966,F,68.08,72,-57.5,-57.5,,,,B,Single-ply,リアルスィング,Masters 1,DQ
 東前 めぐみ,Megumi Higashimae,1983,F,71.88,72,-77.5,-77.5,-77.5,,,B,Single-ply,K's GYM,Open,DQ
@@ -203,7 +203,7 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 佐藤 一夫,,1961,M,78,83,155,-160,160,160,160,B,Single-ply,パワーハウス,Masters 2,4
 渡辺 和利,,1952,M,81.52,83,160,-165,-165,160,160,B,Single-ply,今治パワーリフティングクラブ,Masters 3,2
 堀口 徹也,,1997,M,81.66,83,145,152.5,160,160,160,B,Single-ply,浦和学院高等学校,Sub-Juniors,1
-北野 利雄,,1946,M,82.54,83,-155,155,-167.5,155,155,B,Single-ply,K＆B GYM,Masters 3,3
+北野 利雄,Toshio Kitano,1946,M,82.54,83,-155,155,-167.5,155,155,B,Single-ply,K＆B GYM,Masters 3,3
 当麻 泰久,,1956,M,82.4,83,137.5,142.5,-147.5,142.5,142.5,B,Single-ply,ｽｰﾊﾟｰﾊﾟﾜｰｱｻﾏﾄﾚｰﾆﾝｸﾞｸﾗﾌﾞ,Masters 2,5
 石田 耕作,,1955,M,79.02,83,135,-140,-140,135,135,B,Single-ply,パワーハウス,Masters 2,6
 海﨑 充弘,,1995,M,82.2,83,110,-140,-140,110,110,B,Single-ply,羽衣国際大学,Juniors,4
@@ -221,7 +221,7 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 荒川 孝行,Takayuki Arakawa,1978,M,91,93,222.5,232.5,-242.5,232.5,232.5,B,Single-ply,ゴールドジムバーベルクラブ,Open,4
 伊藤 禎浩,,1969,M,91.66,93,232.5,-242.5,-242.5,232.5,232.5,B,Single-ply,個人,Masters 1,2
 伊藤 禎浩,,1969,M,91.66,93,232.5,-242.5,-242.5,232.5,232.5,B,Single-ply,個人,Open,5
-北川 武志,,1958,M,87.78,93,212.5,-241.5,-241.5,212.5,212.5,B,Single-ply,K's GYM,Masters 2,1
+北川 武志,Takeshi Kitagawa,1958,M,87.78,93,212.5,-241.5,-241.5,212.5,212.5,B,Single-ply,K's GYM,Masters 2,1
 小笠 剛志,,1974,M,91.76,93,-195,197.5,207.5,207.5,207.5,B,Single-ply,パワーハウス赤穂,Masters 1,3
 小笠 剛志,,1974,M,91.76,93,-195,197.5,207.5,207.5,207.5,B,Single-ply,パワーハウス赤穂,Open,6
 飯島 修,,1954,M,88.92,93,200,-210,-210,200,200,B,Single-ply,パワーハウス,Masters 3,1

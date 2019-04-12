@@ -17,16 +17,16 @@ WeightClassKg,Place,Sex,JapaneseName,Name,Age,Team,BodyweightKg,Best3BenchKg,Ben
 60,1,M,和田 真紀,Maki Wada,33,大阪 パワーウェーブ,59.55,127.5,-132.5,127.5,B,Single-ply,Open
 60,2,M,古味良子,,47,静岡 T-REX沼津,59.65,117.5,-120,117.5,B,Single-ply,Open
 60,DQ,F,佐々木亜紀,,36,愛知 パワーフィットネス,56.85,,,,B,Single-ply,Open
-67.5,1,F,澤千代美,,52,東京 ノーリミッツ,67.1,120,-125,120,B,Single-ply,Open
-67.5,2,F,山崎頼子,,42,高知 金太郎ﾄﾚｰﾆﾝｸﾞｸﾗﾌﾞ,64.65,117.5,-121,117.5,B,Single-ply,Open
+67.5,1,F,澤 千代美,Chiyomi Sawa,52,東京 ノーリミッツ,67.1,120,-125,120,B,Single-ply,Open
+67.5,2,F,山崎 頼子,Yoriko Yamazaki,42,高知 金太郎ﾄﾚｰﾆﾝｸﾞｸﾗﾌﾞ,64.65,117.5,-121,117.5,B,Single-ply,Open
 75,1,F,大庭 公子,Kimiko Oba,48,福岡 遠賀勤労者体育ｾﾝﾀｰ,73.25,135,,135,B,Single-ply,Open
-52,1,M,池田 尚也,Naoya Ikeda,32,三重 個人,51.75,172.5,,172.5,B,Single-ply,Open
-52,2,M,石渡 啓之,,42,東京 個人,51.5,140,,140,B,Single-ply,Open
+52,1,M,池田 尚也,Ikeda Naoya,32,三重 個人,51.75,172.5,,172.5,B,Single-ply,Open
+52,2,M,石渡 啓之,Hiroyuki Ishiwatari,42,東京 個人,51.5,140,,140,B,Single-ply,Open
 52,3,M,奥田 博之,Hiroyuki Okuda,44,京都 バーベルス京都,50.95,110,,110,B,Single-ply,Open
 56,1,M,宮崎 雄二,Yuji Miyazaki,34,静岡 T-REX沼津,55.75,182.5,-191,182.5,B,Single-ply,Open
 56,DQ,M,大石 昌宏,,22,長崎 マルヤジム,,,,,B,Single-ply,Open
 60,1,M,中山 久幸,Hisayuki Nakayama,39,東京 ノーリミッツ,58.8,192.5,,192.5,B,Single-ply,Open
-60,2,M,伊差川浩之,,48,沖縄 power sport,60,192.5,,192.5,B,Single-ply,Open
+60,2,M,伊差川 浩之,Hiroyuki Isagawa,48,沖縄 power sport,60,192.5,,192.5,B,Single-ply,Open
 60,3,M,石川 拓也,,23,福岡 遠賀勤労者体育ｾﾝﾀｰ,58.05,150,151,150,B,Single-ply,Open
 60,4,M,中野 衛,,27,茨城 個人,59.2,125,,125,B,Single-ply,Open
 60,DQ,M,ｶﾙﾛｽ 福田,,30,茨城 パワーハウスつくば,59.95,,,,B,Single-ply,Open
@@ -43,7 +43,7 @@ WeightClassKg,Place,Sex,JapaneseName,Name,Age,Team,BodyweightKg,Best3BenchKg,Ben
 67.5,NS,M,大井 挙二,,43,ｻﾞｽﾎﾟｰﾂｺﾈｸｼｮﾝ,,,,,B,Single-ply,Open
 75,1,M,高橋 恵介,Keisuke Takahashi,28,茨城 古川WTC,74.7,230,,230,B,Single-ply,Open
 75,2,M,児玉 大紀,Daiki Kodama,23,大阪 深江SC,73.85,225,,225,B,Single-ply,Open
-75,3,M,川辺一郎,,41,愛知 パワーフィットネス,74.15,192.5,,192.5,B,Single-ply,Open
+75,3,M,川辺 一郎,Ichiro Kawabe,41,愛知 パワーフィットネス,74.15,192.5,,192.5,B,Single-ply,Open
 75,4,M,荒井 憲徳,,36,栃木県 ＡＴＣフィットネス,74.75,185,,185,B,Single-ply,Open
 75,5,M,人見 和則,,34,東京 ノーリミッツ,73.95,167.5,,167.5,B,Single-ply,Open
 75,6,M,大庭 佳彦,,37,宮城 中村ﾄﾚｰﾆﾝｸﾞｼﾞﾑ,73.95,165,,165,B,Single-ply,Open
@@ -61,7 +61,7 @@ WeightClassKg,Place,Sex,JapaneseName,Name,Age,Team,BodyweightKg,Best3BenchKg,Ben
 82.5,6,M,高橋大幸,,29,東京 ノーリミッツ,81.2,187.5,,187.5,B,Single-ply,Open
 82.5,7,M,石本直樹,,39,岡山 岩崎ﾎﾞﾋｲﾋﾞﾙｸﾗﾌﾞ,81.2,170,,170,B,Single-ply,Open
 82.5,DQ,M,松本貴文,,31,富山 ﾒﾄﾞｳｽﾎﾟｰﾂｸﾗﾌﾞ,80.85,,,,B,Single-ply,Open
-90,1,M,岸本洋一,,24,東京 ノーリミッツ,89.85,255,-265,255,B,Single-ply,Open
+90,1,M,岸本 洋一,Yoichi Kishimoto,24,東京 ノーリミッツ,89.85,255,-265,255,B,Single-ply,Open
 90,2,M,中谷幸市,,42,高校連盟 国土館高校,89.35,220,,220,B,Single-ply,Open
 90,3,M,福田和正,,35,栃木 清原ﾄﾚｰﾆﾝｸﾞｸﾗﾌﾞ,88.5,215,,215,B,Single-ply,Open
 90,4,M,亀山幸弘,,37,東京 ノーリミッツ,89.1,205,,205,B,Single-ply,Open

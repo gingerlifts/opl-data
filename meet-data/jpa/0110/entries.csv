@@ -16,8 +16,8 @@ WeightClassKg,Division,Sex,Equipment,JapaneseName,Age,Team,BodyweightKg,Bench1Kg
 60,Masters 2,F,Raw,田中 典昭,59,個人,58.9,75,80,-82.5,80,80,2,,,B
 60,Masters 2,F,Raw,今井 敏夫,51,個人,59.85,95,100,102.5,102.5,102.5,1,,,B
 67.5,Masters 2,F,Raw,古田 元,54,神岡バーベルクラブ,66.45,85,87.5,-90,87.5,87.5,2,,,B
-67.5,Masters 2,F,Raw,中田 直樹,59,三菱重工高砂ＰＬ,67,-115,120,122.5,122.5,122.5,1,,,B
-82.5,Masters 2,F,Raw,前原 誠,57,個人,81,140,145,150,150,150,1,,,B
+67.5,Masters 2,M,Raw,中田 直樹,59,三菱重工高砂ＰＬ,67,-115,120,122.5,122.5,122.5,1,,,B
+82.5,Masters 2,M,Raw,前原 誠,57,個人,81,140,145,150,150,150,1,,,B
 56,Masters 3,M,Raw,伏見 啓,64,個人,55.4,110,-115,115,115,115,1,,,B
 67.5,Masters 3,M,Raw,西村 栄高,65,個人,62.4,80,90,95,95,95,2,,,B
 67.5,Masters 3,M,Raw,藤田 俊夫,66,個人,67.2,90,95,100,100,100,1,,,B
@@ -29,12 +29,12 @@ WeightClassKg,Division,Sex,Equipment,JapaneseName,Age,Team,BodyweightKg,Bench1Kg
 60,Masters 1,F,Single-ply,石川 和子,45,フィットネスクラブ高松,59.65,80,85,87.5,87.5,87.5,1,,Kazuko Ishikawa,B
 67.5,Masters 1,F,Single-ply,山崎 頼子,42,金太郎トレーニングクラブ,65.1,110,120,-122.5,120,120,1,,Yoriko Yamazaki,B
 52,Masters 1,M,Single-ply,山下 豊,42,ラピタスポーツクラブ,51.9,117.5,-127.5,127.5,127.5,127.5,1,,,B
-52,Masters 1,M,Single-ply,池田 尚也,41,オープン参加,49.9,150,155,-160,155,155,2,,,B
-56,Masters 1,M,Single-ply,石渡 啓之,42,個人,52.7,150,-160,-160,150,150,1,,,B
+52,Masters 1,M,Single-ply,池田 尚也,41,オープン参加,49.9,150,155,-160,155,155,2,,Ikeda Naoya,B
+56,Masters 1,M,Single-ply,石渡 啓之,42,個人,52.7,150,-160,-160,150,150,1,,Hiroyuki Ishiwatari,B
 60,Masters 1,M,Single-ply,柴田 仁志,42,ＳＡＴＯトレーニングジム,59.8,130,140,142.5,142.5,142.5,2,,,B
 60,Masters 1,M,Single-ply,溝口 千之武,44,個人,59.8,152.5,-157.5,-157.5,152.5,152.5,1,,,B
 67.5,Masters 1,M,Single-ply,野崎 秀徳,47,Ｔｅａｍ 力姫,67.2,180,185,190,190,190,1,-195.5,,B
-67.5,Masters 1,M,Single-ply,三木 浩史,44,フジモトジム,66.75,170,175,-180,175,175,2,,,B
+67.5,Masters 1,M,Single-ply,三木 浩史,44,フジモトジム,66.75,170,175,-180,175,175,2,,Hiroshi Miki,B
 67.5,Masters 1,M,Single-ply,千葉 宏之,40,個人,66.55,130,140,-145,140,140,3,,,B
 75,Masters 1,M,Single-ply,谷口 晃一,41,個人,73.55,160,170,182.5,182.5,182.5,1,,,B
 75,Masters 1,M,Single-ply,森岡 一義,44,スターパワージム,73.3,-180,-180,-180,,,DQ,,,B
@@ -43,13 +43,13 @@ WeightClassKg,Division,Sex,Equipment,JapaneseName,Age,Team,BodyweightKg,Bench1Kg
 90,Masters 1,M,Single-ply,小川 宗之,47,スーパークラブ名古屋,,,,,,,NS,,,B
 90,Masters 1,M,Single-ply,森本 照夫,46,個人,82.7,-140,145,152.5,152.5,152.5,4,,,B
 90,Masters 1,M,Single-ply,江藤 陽市,48,タケイ・パワージム,89.05,170,180,187.5,187.5,187.5,3,,,B
-90,Masters 1,M,Single-ply,北川 武志,43,個人,88.1,-205,207.5,-215,207.5,207.5,2,,,B
+90,Masters 1,M,Single-ply,北川 武志,43,個人,88.1,-205,207.5,-215,207.5,207.5,2,,Takeshi Kitagawa,B
 90,Masters 1,M,Single-ply,横山 睦夫,47,綜合警備保障,89.1,225,230,232.5,232.5,232.5,1,235,,B
 100,Masters 1,M,Single-ply,井上 康勝,43,個人,97.5,-215,-215,-215,,,DQ,,,B
 110,Masters 1,M,Single-ply,花田 祥之,46,ラピタースポーツクラブ,104.6,215,220,225,225,225,1,230,,B
 110,Masters 1,M,Single-ply,星野 光秋,43,Ｐｏｗｅｒ Ｌｉｎｅ,102.6,190,215,-220,215,215,2,,,B
 125+,Masters 1,M,Single-ply,氏家 一郎,44,アサマトレーニングクラブ,150.6,225,237.5,242.5,242.5,242.5,1,245,Ichirou Uijie,B
-67.5,Masters 2,F,Single-ply,澤 千代美,52,パワーハウス,67.3,100,107.5,-110.5,107.5,107.5,1,,,B
+67.5,Masters 2,F,Single-ply,澤 千代美,52,パワーハウス,67.3,100,107.5,-110.5,107.5,107.5,1,,Chiyomi Sawa,B
 56,Masters 2,M,Single-ply,大城 新順,58,個人,55.4,117.5,122.5,125,125,125,1,-130,Shinjun Oshiro,B
 60,Masters 2,M,Single-ply,白川 猛士,53,個人,59.4,145,155,160,160,160,1,-165.5,Takeshi Shirakawa,B
 60,Masters 2,M,Single-ply,木下 俊弘,54,個人,58.7,125,132.5,-140,132.5,132.5,2,,,B

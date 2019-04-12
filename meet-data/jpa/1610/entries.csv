@@ -1,6 +1,6 @@
 JapaneseName,Name,BodyweightKg,WeightClassKg,Sex,Squat1Kg,Squat2Kg,Squat3Kg,Bench1Kg,Bench2Kg,Bench3Kg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Team,Place,Event,Equipment,Division
 伊東 咲子,,51.7,52,F,120,-130,130,50,60,65,-120,130,-145,130,65,130,325,東京大学,1,SBD,Single-ply,Open
-早川 琴果,,49.4,52,F,110,120,-125,-80,80,-85,110,117.5,122.5,120,80,122.5,322.5,阪南大学,2,SBD,Single-ply,Open
+早川 琴果,Kotomi Hayakawa,49.4,52,F,110,120,-125,-80,80,-85,110,117.5,122.5,120,80,122.5,322.5,阪南大学,2,SBD,Single-ply,Open
 植村 咲月,,51.3,52,F,100,110,120,55,-60,-60,105,110,115,120,55,115,290,岡山大学,3,SBD,Single-ply,Open
 植村 茉由,,47.1,52,F,80,82.5,100,45,47.5,52.5,80,90,100,100,52.5,100,252.5,青山学院大学,4,SBD,Single-ply,Open
 鈴木 希,,50.6,52,F,90,97.5,-102.5,40,42.5,-45,90,95,100,97.5,42.5,100,240,埼玉大学,5,SBD,Single-ply,Open

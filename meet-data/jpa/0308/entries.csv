@@ -1,6 +1,6 @@
 WeightClassKg,Sex,Division,JapaneseName,Name,Team,Age,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Bench1Kg,Bench2Kg,Bench3Kg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Event,Equipment
 52,F,Open,田中 彰子,,兵庫・南大津小,39,51.5,115,-125,-125,65,70,75,130,140,145,115,75,145,335,1,SBD,Single-ply
-60,F,Open,林 久子,,兵庫教大附属幼稚園,52,59,100,-115,-120,65,70,-72.5,132.5,142.5,-150,100,70,142.5,312.5,1,SBD,Single-ply
+60,F,Open,林 久子,Hisako Hayashi,兵庫教大附属幼稚園,52,59,100,-115,-120,65,70,-72.5,132.5,142.5,-150,100,70,142.5,312.5,1,SBD,Single-ply
 52,M,Open,吉田 光夫,,茨城・土浦湖北高校,54,,,,,,,,,,,,,,,NS,SBD,Single-ply
 56,M,Open,大堀 亮太,,栃木・作新学院,28,54.7,85,-95,-95,-80,-80,80,130,140,147.5,85,80,147.5,312.5,1,SBD,Single-ply
 60,M,Open,東郷 達男,,茨城・城西中,52,,,,,,,,,,,,,,,NS,SBD,Single-ply
