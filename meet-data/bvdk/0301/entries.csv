@@ -1,4 +1,4 @@
-Place,WeightClassKg,Name,BodyweightKg,BirthYear,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Equipment,Event,Division
+﻿Place,WeightClassKg,Name,BodyweightKg,BirthYear,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Equipment,Event,Division
 2,52,Sandy Kalz,50.5,1977,95,60,90,245,F,Single-ply,SBD,Open
 5,67.5,Sabine Ehrlicher,60.8,1964,90,45,110,245,F,Single-ply,SBD,Open
 2,82.5,Vanessa Hehlein,75.6,1977,75,67.5,105,247.5,F,Single-ply,SBD,Open
@@ -59,10 +59,10 @@ Place,WeightClassKg,Name,BodyweightKg,BirthYear,Best3SquatKg,Best3BenchKg,Best3D
 3,110,Uwe Rohde,108,1966,315,192.5,290,797.5,M,Single-ply,SBD,Open
 2,110,Alexander Kwaschny,105.5,1964,290,217.5,300,807.5,M,Single-ply,SBD,Open
 3,125,Wolfgang Zimmermann,113.9,1968,315,215,290,820,M,Single-ply,SBD,Open
-4,120+,Maik Kleidt,137.5,1968,330,205,285,820,M,Single-ply,SBD,Open
-3,120+,Alex Lohrer,126.8,1978,305,230,290,825,M,Single-ply,SBD,Open
-2,120+,Kay Haasler,137.4,1971,310,225,310,845,M,Single-ply,SBD,Open
-1,120+,Marcus Hofmeister,170.7,1976,340,210,305,855,M,Single-ply,SBD,Open
+4,125+,Maik Kleidt,137.5,1968,330,205,285,820,M,Single-ply,SBD,Open
+3,125+,Alex Lohrer,126.8,1978,305,230,290,825,M,Single-ply,SBD,Open
+2,125+,Kay Haasler,137.4,1971,310,225,310,845,M,Single-ply,SBD,Open
+1,125+,Marcus Hofmeister,170.7,1976,340,210,305,855,M,Single-ply,SBD,Open
 1,125,Mathias Schröder,114.8,1976,330,240,330,900,M,Single-ply,SBD,Open
 1,110,Daniel Flaminio,109.2,1978,380,240.5,290,910,M,Single-ply,SBD,Open
 DQ,75,Kai Nowak,70.3,1978,265,165,-260,,M,Single-ply,SBD,Open

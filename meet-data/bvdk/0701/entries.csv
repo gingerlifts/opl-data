@@ -1,4 +1,4 @@
-WeightClassKg,Place,Name,BirthYear,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Sex,Division,Equipment,Event
+﻿WeightClassKg,Place,Name,BirthYear,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Sex,Division,Equipment,Event
 60,3,Kerstin Heß,1968,59,75,-80,-80,75,35,37.5,-40,37.5,95,-102.5,102.5,102.5,215,F,Open,Single-ply,SBD
 52,4,Christine Wildemann,1983,50.8,-70,70,77.5,77.5,42.5,-45,-45,42.5,100,107.5,-112.5,107.5,227.5,F,Open,Single-ply,SBD
 52,3,Anja Weber,1980,51.5,90,95,-100,95,-55,55,-57.5,55,80,95,-112.5,95,245,F,Open,Single-ply,SBD
@@ -27,7 +27,7 @@ WeightClassKg,Place,Name,BirthYear,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3
 82.5,11,Steffen Kuhlawy,1963,79.8,165,180,195,195,115,130,-140,130,200,215,225,225,550,M,Open,Single-ply,SBD
 67.5,1,Michel Ehrlicher,1985,65.7,195,205,210,210,115,-117.5,117.5,117.5,205,225,-247.5,225,552.5,M,Open,Single-ply,SBD
 82.5,10,Lars Bien,1976,80,210,220,-225,220,130,-140,-140,130,200,210,215,215,565,M,Open,Single-ply,SBD
-75,7,"Dunem, Lopes Va",1969,73.7,205,207.5,-220,207.5,140,-145,-145,140,235,-245,-245,235,582.5,M,Open,Single-ply,SBD
+75,7,Lopes Van Dunem,1969,73.7,205,207.5,-220,207.5,140,-145,-145,140,235,-245,-245,235,582.5,M,Open,Single-ply,SBD
 75,6,Michael Sterner,1979,73.5,195,-205,-205,195,155,160,165,165,215,227.5,-232.5,227.5,587.5,M,Open,Single-ply,SBD
 82.5,9,Daniel Schwarzwälder,1978,80.5,190,-210,-210,190,165,177.5,182.5,182.5,200,215,225,225,597.5,M,Open,Single-ply,SBD
 110,14,Daniel Pfeiffer,1986,102.2,215,-225,-235,215,120,-130,130,130,225,252.5,-260,252.5,597.5,M,Open,Single-ply,SBD

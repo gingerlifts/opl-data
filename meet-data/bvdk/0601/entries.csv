@@ -1,12 +1,12 @@
 Place,WeightClassKg,Name,BirthYear,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Sex,Equipment,Event,Division
-DQ,125,Achim Kircher,1968,113.9,175,175,175,175,-261,-270.5,-270.5,,,,,,,M,Single-ply,SBD,Open
+DQ,125,Achim Kircher,1968,113.9,-175,-175,175,175,-261,-270.5,-270.5,,,,,,,M,Single-ply,SBD,Open
 DQ,90,Daniel Schwarzwälder,1978,84.5,-180,180,190,190,-180,-180,-180,,,,,,,M,Single-ply,SBD,Open
 2,60,Kerstin Heß,1968,59.1,60,65,70,70,35,37.5,40,40,95,100,-105,100,210,F,Single-ply,SBD,Open
 DQ,82.5,Viktor Korell,1968,81.8,240,-250,250,250,-160,-170,-170,,,,,,,M,Single-ply,SBD,Open
 3,67.5,Anne Haisch,1981,65.6,100,-102.5,105,105,-57.5,-57.5,57.5,57.5,100,105,-110,105,267.5,F,Single-ply,SBD,Open
 2,67.5,Ines Naarmann,1968,62.4,95,-102.5,-102.5,95,60,-62.5,-62.5,60,110,115,117.5,117.5,272.5,F,Single-ply,SBD,Open
 1,52,Ines Tronke,1976,51.5,107.5,115,-120,115,65,70,75,75,120,-130,-130,120,310,F,Single-ply,SBD,Open
-4,-67.5,Daniela Falck,1900.75,62,132.5,140,-145,140,-75,-75,-75,,165,170,-170,170,310,F,Single-ply,SBD,Open
+4,67.5,Daniela Falck,1975,62,132.5,140,-145,140,-75,-75,-75,,165,-170,170,170,310,F,Single-ply,SBD,Open
 2,75,Kimiko Douglass-Ishizaka,1976,67.6,100,110,115,115,57.5,60,62.5,62.5,135,-140,-140,135,312.5,F,Single-ply,SBD,Open
 DQ,125+,Kay Haasler,1971,130,315,-340,-340,315,-230,-230,-230,,,,,,,M,Single-ply,SBD,Open
 1,56,Claudia Gallien,1984,55.7,120,-125,125,125,80,83,-85,83,115,120,125,125,333,F,Single-ply,SBD,Open
@@ -21,14 +21,14 @@ DQ,125+,Kay Haasler,1971,130,315,-340,-340,315,-230,-230,-230,,,,,,,M,Single-ply
 2,60,Alexander Zuch,1982,59.2,190,200,205,205,110,-120,-120,110,170,-180,-180,170,485,M,Single-ply,SBD,Open
 1,67.5,Gunda Fiona Bachhaus,1981,64,165,180,-190.5,180,130,-140,-140,130,165,180,190,190,500,F,Single-ply,SBD,Open
 3,67.5,Mohammed Chahour,1982,67.3,160,175,-182.5,175,135,142.5,147.5,147.5,190,200,205,205,527.5,M,Single-ply,SBD,Open
-9,75,Markus Schick,1976,71.9,150,175,175,175,233,237.5,242.5,242.5,90,115,-150,115,532.5,M,Single-ply,SBD,Open
+9,75,Markus Schick,1976,71.9,150,-175,175,175,233,237.5,242.5,242.5,90,115,-150,115,532.5,M,Single-ply,SBD,Open
 8,75,Janos Geerhardt,1967,75,185,195,200,200,117.5,120.5,125,125,230,-242.5,-242.5,230,555,M,Single-ply,SBD,Open
 2,67.5,Hendrik Rilke,1970,65.3,200,210,-215,210,125,-130,130,130,210,220,-230,220,560,M,Single-ply,SBD,Open
 1,60,Maik Tronke,1976,60,225,235,245,245,140,145,-147.5,145,165,175,-180,175,565,M,Single-ply,SBD,Open
 7,75,Lopes Van Dunem,1969,74.1,195,205,-215,205,-135,-135,135,135,215,230,240,240,580,M,Single-ply,SBD,Open
-8,110,Jörg Pflästerer ,1905,109.2,200,-215,-215,200,140,150,-160,150,235,-250,-250,235,585,M,Single-ply,SBD,Open
-9,100,Manfred Georg,1955,98.6,200,200,200,200,190.5,-200,-200,190.5,200,-230,-230,200,590.5,M,Single-ply,SBD,Open
-6,90,Axel Hüter,1971,86.9,235,-260,-260,235,100,100,100,100,235,260,-265,260,595,M,Single-ply,SBD,Open
+8,110,Jörg Pflästerer,1905,109.2,200,-215,-215,200,140,150,-160,150,235,-250,-250,235,585,M,Single-ply,SBD,Open
+9,100,Manfred Georg,1955,98.6,200,,,200,190.5,-200,-200,190.5,200,-230,-230,200,590.5,M,Single-ply,SBD,Open
+6,90,Axel Hüter,1971,86.9,235,-260,-260,235,100,,,100,235,260,-265,260,595,M,Single-ply,SBD,Open
 9,82.5,Ronny Schröder,1979,80,210,-225,-235,210,160,-165,-165,160,220,-230,230,230,600,M,Single-ply,SBD,Open
 5,75,Frank Seth,1967,73.8,225,235,240,240,142.5,147.5,-150,147.5,215,-220,-227.5,215,602.5,M,Single-ply,SBD,Open
 6,75,Michael Sterner,1979,74.6,197.5,205,210,210,152.5,160,-165,160,215,232.5,-237.5,232.5,602.5,M,Single-ply,SBD,Open
@@ -45,7 +45,7 @@ DQ,125+,Kay Haasler,1971,130,315,-340,-340,315,-230,-230,-230,,,,,,,M,Single-ply
 8,100,Frank Seidel,1977,99.2,235,250,260,260,-180,-180,180,180,245,-260,-260,245,685,M,Single-ply,SBD,Open
 7,100,Thomas Ziegler,1967,97.7,240,250,-255,250,167.5,175,177.5,177.5,-260,260,-262.5,260,687.5,M,Single-ply,SBD,Open
 6,82.5,Björn Friedrich,1968,81.2,255,270,-275,270,170,175,-180,175,240,-255,255,255,700,M,Single-ply,SBD,Open
-4,125,Volker Düwel,1967,111.9,-255,270,270,270,150,160,165,165,245,260,265,265,700,M,Single-ply,SBD,Open
+4,125,Volker Düwel,1967,111.9,-255,270,,270,150,160,165,165,245,260,265,265,700,M,Single-ply,SBD,Open
 6,100,Thomas Krämer,1970,99.8,230,245,-255,245,170,180,185,185,245,260,275,275,705,M,Single-ply,SBD,Open
 6,110,Carsten Stornfels,1970,106.7,240,270,280,280,155,162.5,-167.5,162.5,235,257.5,262.5,262.5,705,M,Single-ply,SBD,Open
 4,125+,Wulf Kronemann,1967,133.5,300,320,335,335,-275,-275,275,275,100,-102.5,-102.5,100,710,M,Single-ply,SBD,Open
@@ -71,9 +71,9 @@ DQ,125+,Kay Haasler,1971,130,315,-340,-340,315,-230,-230,-230,,,,,,,M,Single-ply
 1,100,Mario Kurzendörfer,1974,96.3,310,330,340,340,-232.5,232.5,242.5,242.5,275,287.5,295,295,877.5,M,Single-ply,SBD,Open
 2,125,Alexander Hoffmann,1981,120.1,350,370,380,380,205,215,220,220,300,-320,-335,300,900,M,Single-ply,SBD,Open
 2,125+,Andy Dörner,1976,129.8,360,380,400,400,210,-220,220,220,-285,285,-305,285,905,M,Single-ply,SBD,Open
-1,110,Daniel Flaminio,1978,109.9,350,365,365,365,235,242.5,247.5,247.5,280,292.5,300,300,912.5,M,Single-ply,SBD,Open
+1,110,Daniel Flaminio,1978,109.9,350,365,,365,235,242.5,247.5,247.5,280,292.5,300,300,912.5,M,Single-ply,SBD,Open
 1,125+,Jewgenij Kondraschow,1983,132,345,-370,370,370,245,-260,-260,245,315,-330,-350,315,930,M,Single-ply,SBD,Open
 1,125,Mathias Schröder,1976,122.4,315,335,350,350,-250,250,260.5,260.5,310,325,340,340,950.5,M,Single-ply,SBD,Open
-DQ,-67.5,Dirk Schumann,1968,67.3,-182.5,-182.5,-182.5,,-117.5,-117.5,-117.5,,,,,,,M,Single-ply,SBD,Open
+DQ,67.5,Dirk Schumann,1968,67.3,-182.5,-182.5,-182.5,,-117.5,-117.5,-117.5,,,,,,,M,Single-ply,SBD,Open
 DQ,125,Lars Reumuth,1973,118.9,-310,-310,-310,,,,,,,,,,,M,Single-ply,SBD,Open
 DQ,125,Andreas Ehliger,1978,124.1,-300,-300,-300,,,,,,,,,,,M,Single-ply,SBD,Open
