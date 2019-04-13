@@ -33,6 +33,10 @@
   @include name-color(#AE76FF);
 }
 
+.gold {
+  @include name-color(#FFD700);
+}
+
 .green {
   @include name-color(#51DA27);
 }
@@ -151,6 +155,13 @@
   background-image: linear-gradient(to right, $green, $white);
 }
 
+.lightblue_to_white {
+  $lightblue: #43D1FF;
+  $white: #EDF2F4;
+  @include gradient-prereqs($lightblue);
+  background-image: linear-gradient(to right, $lightblue, $white);
+}
+
 .pink_to_purple {
   $pink: #FF69B4;
   $purple: #AE76FF;
@@ -253,10 +264,4 @@
 
 .letter-spacing-2 {
   letter-spacing: 2px;
-}
-
-.bosslogo {
-  height: 10px;
-  width: 35px;
-  padding-left: 2px;
 }
