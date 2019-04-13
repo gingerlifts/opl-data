@@ -22,7 +22,7 @@ Billy Hutchinson,M,Single-ply,MOS,85,90,150,-160,,,150,,,,,,150,B,2
 Shane Brodie,M,Multi-ply,MOM,95.4,100,192.5,205,215,220,215,,,,,,215,B,1
 Shane Brodie,M,Multi-ply,M-1MP,95.4,100,192.5,205,215,220,215,,,,,,215,B,1
 Phil Beniston,M,Single-ply,M-3SP,95.2,100,190,200,210,,210,,,,,,210,B,1
-Gerard McNamara,M,Multi-ply,M-6,103,110,132.5,135,137.5,,137.5,,,,,,137.5,B,1
+Gerard McNamara #2,M,Multi-ply,M-6,103,110,132.5,135,137.5,,137.5,,,,,,137.5,B,1
 Conor Brett,M,Raw,MT-2,93.1,100,110,-115,-115,,110,,,,,,110,B,1
 Thomas Elfner,M,Raw,M-2,99.6,100,160,167.5,-172.5,,167.5,,,,,,167.5,B,1
 Kaz Mackowski,M,Raw,MO,92.5,100,170,175,177.5,180,177.5,,,,,,177.5,B,1
@@ -32,7 +32,7 @@ Tommy Caulfield,M,Raw,M-1,105,110,175,180,-185,,180,,,,,,180,B,2
 Aleksandr Klimovich,M,Raw,M-1,100.2,110,170,180,-190,,180,,,,,,180,B,1
 Paul Lock,M,Raw,MO,102.6,110,110,120,125,,125,,,,,,125,B,4
 Singh Kanwardeep,M,Raw,MO,105,110,120,125,-127.5,,125,,,,,,125,B,5
-Rik Davidson,M,Raw,M-3,102.65,110,130,146,-152.5,,146,,,,,,146,B,2
+Rik Davison,M,Raw,M-3,102.65,110,130,146,-152.5,,146,,,,,,146,B,2
 Matthew Costello,M,Raw,M-J,108.95,110,160,-172.5,172.5,,172.5,,,,,,172.5,B,1
 Ruairí Keenan,M,Raw,M-J,102.7,110,170,-175,-175,,170,,,,,,170,B,2
 Ray Kearney,M,Raw,MO,106.3,110,170,180,-190,,180,,,,,,180,B,3
@@ -86,7 +86,7 @@ Rik Davison,M,Raw,M-3,102.65,110,,,,,,215,235,-256,,235,235,D,2
 Gunnar Freya Runazrssor,M,Raw,M-3,109.45,110,,,,,,220,240,-255,,240,240,D,1
 Paul Lock,M,Raw,MO,102.6,110,,,,,,200,212.5,220,,220,220,D,3
 John Walker #4,M,Raw,MO,108.45,110,,,,,,200,212.5,-220,,212.5,212.5,D,4
-Marc Griffiths,M,Multi-ply,M-1MP,119.15,125,,,,,,300,340,,,340,340,D,1
+Marcus Griffiths,M,Multi-ply,M-1MP,119.15,125,,,,,,300,340,,,340,340,D,1
 Colin Robinson,M,Raw,M-4,119.55,125,,,,,,290,310,-321,,310,310,D,1
 Amandeep Singh,M,Raw,M-J,114.5,125,,,,,,210,225,232.5,-235,232.5,232.5,D,1
 Tony Power,M,Raw,M-1,126.6,140,,,,,,150,175,-200,,175,175,D,1
@@ -114,7 +114,7 @@ Alfreð Björnsson,M,Single-ply,M-4SP,88.7,90,,,,,,230,240,-250,,240,240,D,1
 Rich O'Shaughnessy,M,Raw,M-1,88.9,90,,,,,,170,180,-190,,180,180,D,1
 Wolfgang Fischer,M,Raw,M-2,88.6,90,,,,,,160,175,-190,,175,175,D,1
 Jason Brodie Lynch,M,Raw,MT-1,89.5,90,,,,,,125,132.5,,,132.5,132.5,D,1
-Gerard McNamara,M,Multi-ply,M-6MP,103,110,,,,,,-250,-250,,,,,D,DQ
+Gerard McNamara #2,M,Multi-ply,M-6MP,103,110,,,,,,-250,-250,,,,,D,DQ
 Róisín Bourke,F,Raw,FO,48,48,45,47.5,-50,,47.5,,,,,,47.5,B,1
 Lianne Mathers,F,Raw,FO,55.15,56,52.5,55,60,,60,,,,,,60,B,1
 Karla Harkin,F,Raw,FO,55.9,56,50,55,-57.5,,55,,,,,,55,B,2

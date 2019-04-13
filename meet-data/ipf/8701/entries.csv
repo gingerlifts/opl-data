@@ -3,7 +3,7 @@ Place,WeightClassKg,Name,Division,Sex,Event,Equipment,Country,Best3SquatKg,Best3
 2,52,Kari Ojalehto,Open,M,SBD,Single-ply,Finland,192.5,107.5,192.5,492.5
 3,52,John Maxwell,Open,M,SBD,Single-ply,UK,180,87.5,210,477.5
 4,52,Josef Fenzl,Open,M,SBD,Single-ply,Austria,120,70,155,345
-1,56,Gerard McNamara,Open,M,SBD,Single-ply,Ireland,205,117.5,227.5,550
+1,56,Gerard McNamara #1,Open,M,SBD,Single-ply,Ireland,205,117.5,227.5,550
 2,56,David Pattaway,Open,M,SBD,Single-ply,USA,215,97.5,225,537.5
 3,56,Gary Simes,Open,M,SBD,Single-ply,UK,210,105,210,525
 4,56,Yrjö Haatanen,Open,M,SBD,Single-ply,Finland,170,115,222.5,507.5
@@ -30,7 +30,7 @@ DQ,60,Per Opsahl,Open,M,SBD,Single-ply,Norway,,,,
 5,75,Victor Okeke,Open,M,SBD,Single-ply,UK,265,135,305,705
 6,75,John Paniatou,Open,M,SBD,Single-ply,Australia,265,157.5,277.5,700
 7,75,Kåre Lundgren,Open,M,SBD,Single-ply,Sweden,270,157.5,265,692.5
-8,75,Harry v.d. Brand,Open,M,SBD,Single-ply,Netherlands,260,140,277.5,677.5
+8,75,Harry van der Brandt,Open,M,SBD,Single-ply,Netherlands,260,140,277.5,677.5
 9,75,Norwin Martina,Open,M,SBD,Single-ply,Netherlands,245,155,255,655
 10,75,Francis Mezzanotte,Open,M,SBD,Single-ply,France,245,130,265,640
 11,75,Roberto Bettati,Open,M,SBD,Single-ply,Italy,250,115,267.5,632.5
@@ -73,7 +73,7 @@ DQ,90,Eric Coppin,Open,M,SBD,Single-ply,Belgium,,,,
 8,100,Romeo Ghattas,Open,M,SBD,Single-ply,Brazil,300,200,280,780
 9,100,Guy Delen,Open,M,SBD,Single-ply,France,280,205,292.5,777.5
 10,100,Hugo de Grauwe,Open,M,SBD,Single-ply,Belgium,300,180,280,760
-11,100,Thieery Zemis,Open,M,SBD,Single-ply,France,300,180,270,750
+11,100,Thierry Zemis,Open,M,SBD,Single-ply,France,300,180,270,750
 12,100,Ian Traill,Open,M,SBD,Single-ply,Australia,280,185,275,740
 13,100,Benjamin Oria,Open,M,SBD,Single-ply,Spain,270,155,310,735
 14,100,Tor Sønsterød,Open,M,SBD,Single-ply,Norway,270,150,295,715

@@ -15,7 +15,7 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,BodyweightKg,Country,Best3SquatK
 9,56,M,Open,Štefan Koľšovský,1961,55.8,Slovakia,195,137.5,160,492.5,SBD,Single-ply
 DQ,56,M,Open,Sławomir Śledź,1976,55.8,Poland,215,,,,SBD,Single-ply
 1,60,M,Open,Mikhail Andryukhin,1963,60,Russia,265,150,270,685,SBD,Single-ply
-2,60,M,Open,Gerard McNamara,1963,59.6,Ireland,245,155,252.5,652.5,SBD,Single-ply
+2,60,M,Open,Gerard McNamara #1,1963,59.6,Ireland,245,155,252.5,652.5,SBD,Single-ply
 3,60,M,Open,Viltaliy Teteutsa,1977,59.6,Ukraine,240,160,225,625,SBD,Single-ply
 4,60,M,Open,Mariusz Olech,1976,59.8,Poland,230,135,245,610,SBD,Single-ply
 5,60,M,Open,Konst Bachtevanov,1977,59.4,Bulgaria,225,145,235,605,SBD,Single-ply
@@ -137,7 +137,7 @@ DQ,110,M,Open,Ignat Belousov,1976,108.6,Belarus,,,,,SBD,Single-ply
 7,125,M,Open,Greg Wagner,1972,122.9,USA,372.5,247.5,310,930,SBD,Single-ply
 8,125,M,Open,Vese Paraschkevov,1977,124.7,Bulgaria,355,202.5,347.5,905,SBD,Single-ply
 9,125,M,Open,Joern Hoeyset,1979,123.7,Norway,342.5,215,342.5,900,SBD,Single-ply
-10,125,M,Open,Masamits Ichikawa,1972,114.2,Japan,335,225,320,880,SBD,Single-ply
+10,125,M,Open,Masamitsu Ichikawa,1972,114.2,Japan,335,225,320,880,SBD,Single-ply
 11,125,M,Open,Frode Rui,1969,117.9,Norway,340,220,320,880,SBD,Single-ply
 12,125,M,Open,Tamas Haidu,1980,123.5,Hungary,320,215,320,855,SBD,Single-ply
 13,125,M,Open,Morten Sørig,1969,124.8,Denmark,325,225,297.5,847.5,SBD,Single-ply
