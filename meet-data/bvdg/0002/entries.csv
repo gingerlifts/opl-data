@@ -14,7 +14,7 @@ WeightClassKg,Place,Name,BirthYear,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3D
 82.5,9,Mathias Ingwer,1983,76.3,150,60,165,375,Youth,M,SBD,Single-ply
 60,3,Sylvia Mudrick,1977,57.3,80,50,100,230,Juniors,F,SBD,Single-ply
 60,5,Sebastian Buley,1983,57.5,85,85,130,300,Youth,M,SBD,Single-ply
-90,1,Susanne Weber,1978,90.1,107.5,85,120,312.5,Juniors,F,SBD,Single-ply
+90+,1,Susanne Weber,1978,90.1,107.5,85,120,312.5,Juniors,F,SBD,Single-ply
 75,10,Mirko Adam,1980,74.6,60,60,257.5,377.5,Juniors,M,SBD,Single-ply
 75,6,Christian Gmeiner,1984,72.5,140,80,155,375,Youth,M,SBD,Single-ply
 75,7,Lars Habermann,1983,68.7,150,72.5,150,372.5,Youth,M,SBD,Single-ply
@@ -51,7 +51,7 @@ WeightClassKg,Place,Name,BirthYear,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3D
 75,2,Rene Rohde,1983,74.6,172.5,115,190,477.5,Youth,M,SBD,Single-ply
 75,1,Michael Koch,1983,74.3,170,132.5,177.5,480,Youth,M,SBD,Single-ply
 60,1,Sascha Liegl,1982,58.8,145,82.5,170,397.5,Youth,M,SBD,Single-ply
-125,3,Franz Süberkrüb,1981,141.6,240,145,235,620,Juniors,M,SBD,Single-ply
+125+,3,Franz Süberkrüb,1981,141.6,240,145,235,620,Juniors,M,SBD,Single-ply
 75,7,Falk Haumer,1978,72.8,180,92.5,210,482.5,Juniors,M,SBD,Single-ply
 75,8,Oliver Hädicke,1980,72.2,175,130,175,480,Juniors,M,SBD,Single-ply
 56,1,Thomas Korell,1983,55.4,135,77.5,170,382.5,Youth,M,SBD,Single-ply
@@ -68,7 +68,7 @@ WeightClassKg,Place,Name,BirthYear,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3D
 125,2,Daniel Stock,1979,118.5,240,182.5,240,662.5,Juniors,M,SBD,Single-ply
 90,4,Jörg Langhammer,1980,88.9,200,145,250,595,Juniors,M,SBD,Single-ply
 67.5,1,Janet Friedrich,1983,60.8,145,70,132.5,347.5,Youth,F,SBD,Single-ply
-125,2,Falk Nieschalke,1979,131,265,185,230,680,Juniors,M,SBD,Single-ply
+125+,2,Falk Nieschalke,1979,131,265,185,230,680,Juniors,M,SBD,Single-ply
 82.5,4,Robert Ossner,1981,81.1,210,135,222.5,567.5,Juniors,M,SBD,Single-ply
 67.5,1,Babett Rothe,1981,63.9,145,82.5,135,362.5,Juniors,F,SBD,Single-ply
 100,1,Francesco Virzi,1983,91.8,220,165,225,610,Youth,M,SBD,Single-ply
@@ -94,6 +94,6 @@ WeightClassKg,Place,Name,BirthYear,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3D
 110,1,Daniel Flaminio,1978,107.8,285,220,270,775,Juniors,M,SBD,Single-ply
 75,2,Florian Dorfner,1978,73.4,255,152.5,235,642.5,Juniors,M,SBD,Single-ply
 125,1,Alexande Hoffmann,1981,119.5,330,177.5,305,812.5,Juniors,M,SBD,Single-ply
-125,1,Dietmar Zint,1977,128.6,315,240.5,295,850,Juniors,M,SBD,Single-ply
+125+,1,Dietmar Zint,1977,128.6,315,240.5,295,850,Juniors,M,SBD,Single-ply
 75,1,Kai Nowak,1978,74.6,265,175,250,690,Juniors,M,SBD,Single-ply
 90,1,Michael Seibel,1977,89.9,310.5,205,270,785,Juniors,M,SBD,Single-ply
