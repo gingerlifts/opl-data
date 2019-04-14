@@ -65,8 +65,14 @@ pub enum MetaFederation {
     AllSerbia,
     #[strum(to_string = "all-slovenia")]
     AllSlovenia,
+    #[strum(to_string = "all-spain")]
+    AllSpain,
     #[strum(to_string = "all-southafrica")]
     AllSouthAfrica,
+    #[strum(to_string = "all-sweden")]
+    AllSweden,
+    #[strum(to_string = "all-switzerland")]
+    AllSwitzerland,
     #[strum(to_string = "all-uk")]
     AllUK,
     #[strum(to_string = "all-ukraine")]
@@ -246,10 +252,25 @@ impl MetaFederation {
                     || (entry.lifter_country == None
                         && meet.federation.home_country() == Some(Country::Slovenia))
             }
+            MetaFederation::AllSpain => {
+                entry.lifter_country == Some(Country::Spain)
+                    || (entry.lifter_country == None
+                        && meet.federation.home_country() == Some(Country::Spain))
+            }
             MetaFederation::AllSouthAfrica => {
                 entry.lifter_country == Some(Country::SouthAfrica)
                     || (entry.lifter_country == None
                         && meet.federation.home_country() == Some(Country::SouthAfrica))
+            }
+            MetaFederation::AllSweden => {
+                entry.lifter_country == Some(Country::Sweden)
+                    || (entry.lifter_country == None
+                        && meet.federation.home_country() == Some(Country::Sweden))
+            }
+            MetaFederation::AllSwitzerland => {
+                entry.lifter_country == Some(Country::Switzerland)
+                    || (entry.lifter_country == None
+                        && meet.federation.home_country() == Some(Country::Switzerland))
             }
             MetaFederation::AllUK => {
                 // UK lifters can set UK records abroad, except in Ireland.
@@ -305,6 +326,7 @@ impl MetaFederation {
                         && entry.lifter_country.map_or(false, |c| c.is_in_uk()))
             }
             MetaFederation::BVDK => match meet.federation {
+                Federation::BVDG => true, // Precursor to the BVDK.
                 Federation::BVDK => true,
                 Federation::IPF | Federation::EPF => {
                     entry.lifter_country == Some(Country::Germany)
