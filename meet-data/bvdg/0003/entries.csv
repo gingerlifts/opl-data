@@ -9,7 +9,7 @@ WeightClassKg,Place,Division,Name,BirthYear,BodyweightKg,Best3SquatKg,Best3Bench
 67.5,1,Masters 1,Vera Loch,1960,66,120,75,130,325,F,Single-ply,SBD
 75,2,Masters 3,Ulrich Mielich,1939,74.2,105,72.5,147.5,325,M,Single-ply,SBD
 52,1,Masters 1,Klothilde Bruder,1956,51.5,123,70,140,332.5,F,Single-ply,SBD
-60,1,Masters 1,Hans Georg Wickel,1952,58.2,105,82.5,155,342.5,M,Single-ply,SBD
+60,1,Masters 1,Hans-Georg Wickel,1952,58.2,105,82.5,155,342.5,M,Single-ply,SBD
 ,2,Masters 1,Salih Meryem,1959,66,150,80,135,365,M,Single-ply,SBD
 67.5,2,Masters 3,Dezsö Szloboda,1937,64.6,150,62.5,160,372.5,M,Single-ply,SBD
 67.5,1,Masters 2,Anita Thimm,1950,61.3,125,80,170,375,F,Single-ply,SBD
@@ -50,7 +50,7 @@ WeightClassKg,Place,Division,Name,BirthYear,BodyweightKg,Best3SquatKg,Best3Bench
 82.5,7,Masters 1,Michael Ramsey,1958,82.1,215,135,242.5,592.5,M,Single-ply,SBD
 100,5,Masters 1,Manfred Georg,1955,98.3,230,160,205,595,M,Single-ply,SBD
 125,5,Masters 1,Uwe Dörfert,1959,110.5,207.5,187.5,200,595,M,Single-ply,SBD
-110,4,Masters 2,Xave Kennerknecht,1946,106.4,225,120,250,595,M,Single-ply,SBD
+110,4,Masters 2,Xaver Kennerknecht,1946,106.4,225,120,250,595,M,Single-ply,SBD
 82.5,6,Masters 1,Peter Rathke,1959,82,215,165,220,600,M,Single-ply,SBD
 100,4,Masters 1,Herbert Krämer,1959,99,225,140,235,600,M,Single-ply,SBD
 82.5,1,Masters 2,Rudi Maier,1949,81.4,235,155,215,605,M,Single-ply,SBD
@@ -77,7 +77,7 @@ WeightClassKg,Place,Division,Name,BirthYear,BodyweightKg,Best3SquatKg,Best3Bench
 82.5,2,Masters 1,Wilfried Dörner,1952,80.4,250,165,250,665,M,Single-ply,SBD
 110,1,Masters 1,Helmut Platzer,1951,104.3,240,155,270,665,M,Single-ply,SBD
 100,1,Masters 2,Siegfri Schindler,1948,98,255,150,265,670,M,Single-ply,SBD
-100,2,Masters 1,Rudi Küster,1955,99.7,280,110,282.5,672.5,M,Single-ply,SBD
+100,2,Masters 1,Rudolf Küster,1955,99.7,280,110,282.5,672.5,M,Single-ply,SBD
 82.5,1,Masters 1,Detlef Riedel,1959,79.3,265,180,230,675,M,Single-ply,SBD
 125,2,Masters 1,Hans-Werner Riedl,1952,110.6,265,145,265,675,M,Single-ply,SBD
 90,1,Masters 1,Peter Hillebrand,1960,87.1,250,180,260,690,M,Single-ply,SBD
@@ -94,4 +94,4 @@ WeightClassKg,Place,Division,Name,BirthYear,BodyweightKg,Best3SquatKg,Best3Bench
 110,DQ,Masters 1,Jürgen Wurffel,1954,109.8,225,165,,,M,Single-ply,SBD
 125+,DQ,Masters 1,Frank Girrulat,1959,127.3,,,,,M,Single-ply,SBD
 67.5,DQ,Masters 2,Errico Jacomini,1949,66.7,180,,,,M,Single-ply,SBD
-82.5,DQ,Masters 3,Vaclav Dlask,1940,81.7,217.5,,,,M,Single-ply,SBD
+82.5,DQ,Masters 3,Václav Dlask,1940,81.7,217.5,,,,M,Single-ply,SBD

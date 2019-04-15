@@ -18,7 +18,7 @@ WeightClassKg,Place,Name,BirthYear,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3
 82.5,1,Claudia Weinzierl,1970,82.1,125,135,140,140,102.5,112.5,120,120,135,147.5,152.5,152.5,412.5,F,Open,Single-ply,SBD
 90+,1,Lysann Funke,1981,90.4,160,-180,180,180,70,80,90,90,150,170,180,180,450,F,Open,Single-ply,SBD
 60,2,Alexander Zuch,1982,58.8,180,195,-205,195,115,-120,120,120,170,-180,-180,170,485,M,Open,Single-ply,SBD
-60,1,Gunda von Bachhaus,1981,59.9,170,180,182.5,182.5,122.5,130,-137.5,130,170,182.5,187.5,187.5,500,F,Open,Single-ply,SBD
+60,1,Gundula Fiona Sommer von Bachhaus,1981,59.9,170,180,182.5,182.5,122.5,130,-137.5,130,170,182.5,187.5,187.5,500,F,Open,Single-ply,SBD
 82.5,14,Andre Füßl,1979,79.1,160,170,-175,170,115,122.5,-130,122.5,200,207.5,-215,207.5,500,M,Open,Single-ply,SBD
 67.5,2,Klaus Scheer,1970,66.2,175,190,205,205,120,130,-135,130,175,185,-190,185,520,M,Open,Single-ply,SBD
 60,1,Hendrik Rilke,1970,59.2,180,190,-195,190,110,115,120,120,190,202.5,215,215,525,M,Open,Single-ply,SBD
@@ -51,7 +51,7 @@ WeightClassKg,Place,Name,BirthYear,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3
 110,12,Rudolf Küster,1955,108,250,270,285,285,100,-110,110,110,255,275,287.5,287.5,682.5,M,Open,Single-ply,SBD
 75,1,Marcel Mette,1976,73.7,-255,-270,275,275,150,-160,160,160,245,255,-267.5,255,690,M,Open,Single-ply,SBD
 82.5,4,Mario Schnurr,1966,80.8,262.5,-285,-302.5,262.5,150,157.5,165,165,245,262.5,-272.5,262.5,690,M,Open,Single-ply,SBD
-100,7,Rene Koppelt,1978,98.3,240,250,-260,250,180,190,200,200,230,240,-250,240,690,M,Open,Single-ply,SBD
+100,7,René Koppelt,1978,98.3,240,250,-260,250,180,190,200,200,230,240,-250,240,690,M,Open,Single-ply,SBD
 110,11,Roberto Adami,1970,102.8,230,250,-265,250,155,162.5,-170,162.5,260,280,-300,280,692.5,M,Open,Single-ply,SBD
 90,4,Jan Smolczyk,1970,86.8,225,235,242.5,242.5,170,177.5,180,180,250,262.5,277.5,277.5,700,M,Open,Single-ply,SBD
 82.5,3,Steffen Spörl,1974,82.4,260,275,-282.5,275,177.5,187.5,192.5,192.5,240,250,260,260,727.5,M,Open,Single-ply,SBD
@@ -65,7 +65,7 @@ WeightClassKg,Place,Name,BirthYear,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3
 110,6,Andreas Stanik,1976,108,265,280,290,290,-202.5,-202.5,202.5,202.5,265,280,-285,280,772.5,M,Open,Single-ply,SBD
 110,5,Andre Zimmermann,1968,107.9,265,280,290,290,220,225,-227.5,225,265,-275,-285,265,780,M,Open,Single-ply,SBD
 82.5,1,Marco Sura,1978,80.6,280,300,-315,300,180,187.5,-192.5,187.5,280,290,297.5,297.5,785,M,Open,Single-ply,SBD
-82.5,2,Andre Hentschel,1984,81.3,270,290,302.5,302.5,210,-217.5,217.5,217.5,250,257.5,265,265,785,M,Open,Single-ply,SBD
+82.5,2,André Hentschel,1984,81.3,270,290,302.5,302.5,210,-217.5,217.5,217.5,250,257.5,265,265,785,M,Open,Single-ply,SBD
 110,4,Matthias Simpig,1972,100.4,290,305,320,320,180,190,-195,190,260,275,-290,275,785,M,Open,Single-ply,SBD
 125,3,Anton Elzer,1974,120.4,290,305,-310,305,200,-210,-210,200,280,-292.5,-292.5,280,785,M,Open,Single-ply,SBD
 110,3,Maik Hellwig,1981,101.3,295,-315,-325,295,162.5,170,-175,170,305,322.5,-332.5,322.5,787.5,M,Open,Single-ply,SBD
@@ -82,7 +82,7 @@ WeightClassKg,Place,Name,BirthYear,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3
 100,1,Reinhard Melzig,1955,98.6,300,320,-325,320,190,-210,-210,190,310,-325,325,325,835,M,Open,Single-ply,SBD
 110,1,Andreas Reiz,1984,106.8,310,325,-335,325,190,200,205,205,300,310,-315,310,840,M,Open,Single-ply,SBD
 90,1,Mario Kurzendörfer,1974,89.3,300,320,-325,320,220,227.5,235,235,275,287.5,-292.5,287.5,842.5,M,Open,Single-ply,SBD
-125+,2,Andy Dörner,1976,131.2,385,400,-410,400,220,-235,235,235,295,305,312.5,312.5,947.5,M,Open,Single-ply,SBD
+125+,2,Andy-Elvis Dörner,1976,131.2,385,400,-410,400,220,-235,235,235,295,305,312.5,312.5,947.5,M,Open,Single-ply,SBD
 125+,1,Jewgenij Kondraschow,1983,139.9,365,390,-425,390,240,-245,-245,240,315,337.5,-340,337.5,967.5,M,Open,Single-ply,SBD
 75,DQ,Eduard Tepper,1971,72.9,-240,-240,-240,,-190,-190,-190,,,,,,,M,Open,Single-ply,SBD
 82.5,DQ,Inatij Jablonosvskij,1982,80.4,280,-292.5,-315,280,-185,-185,-185,,,,,,,M,Open,Single-ply,SBD

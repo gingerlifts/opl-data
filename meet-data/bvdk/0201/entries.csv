@@ -28,7 +28,7 @@ WeightClassKg,Place,Name,BodyweightKg,BirthYear,Squat1Kg,Squat2Kg,Squat3Kg,Best3
 90,2,Markus Hinz,88.1,1971,260,280,290,290,160,180,-185,180,260,270,-282.5,270,740,M,Single-ply,SBD,Open
 125+,2,Maik Kleidt,138,1968,-307.5,-307.5,307.5,307.5,200,-205,205,205,260,270,277.5,277.5,790,M,Single-ply,SBD,Open
 100,2,Markus Nischik,97.9,1973,280,290,300,300,180,187.5,192.5,192.5,280,290,300,300,792.5,M,Single-ply,SBD,Open
-125,2,Andy Dörner,113,1976,-310,325,-340,325,175,182.5,-187.5,182.5,275,290,302.5,302.5,810,M,Single-ply,SBD,Open
+125,2,Andy-Elvis Dörner,113,1976,-310,325,-340,325,175,182.5,-187.5,182.5,275,290,302.5,302.5,810,M,Single-ply,SBD,Open
 110,2,Alexander Kwaschny,107.5,1964,-285,285,295,295,217.5,-225,-225,217.5,300,310,-325,310,822.5,M,Single-ply,SBD,Open
 60,3,Sylvia Mudrick,59.3,1977,70,82.5,-90,82.5,52.5,-57.5,57.5,57.5,90,100,110,110,250,F,Single-ply,SBD,Open
 67.5,3,Claudia Emmrich,65.4,1967,100,115,-122.5,115,80,85,-87.5,85,135,145,-155,145,345,F,Single-ply,SBD,Open
@@ -48,7 +48,7 @@ WeightClassKg,Place,Name,BodyweightKg,BirthYear,Squat1Kg,Squat2Kg,Squat3Kg,Best3
 67.5,6,Ulrike Hofmann,64.1,1961,85,90,-95,90,-50,52.5,-55,52.5,95,100,-105,100,242.5,F,Single-ply,SBD,Open
 90,6,Jochen Stöver,89.2,1965,210,225,-232.5,225,145,-155,157.5,157.5,245,260,270,270,652.5,M,Single-ply,SBD,Open
 125,6,Martin Fischer,112,1966,260,275,,275,165,172.5,-177.5,172.5,300,-312.5,-312.5,300,747.5,M,Single-ply,SBD,Open
-90,7,Rene Ullerich,87.4,1978,220,235,-240,235,175,185,-192.5,185,230,-242.5,-242.5,230,650,M,Single-ply,SBD,Open
+90,7,René Ullerich,87.4,1978,220,235,-240,235,175,185,-192.5,185,230,-242.5,-242.5,230,650,M,Single-ply,SBD,Open
 125,7,Heiko Franke,114.1,1978,270,280,-287.5,280,-180,185,190,190,260,267.5,-272.5,267.5,737.5,M,Single-ply,SBD,Open
 90,8,Thomas Ranft,84.9,1968,-215,230,237.5,237.5,152.5,160,165,165,220,240,-250,240,642.5,M,Single-ply,SBD,Open
 75,DQ,Mario Kammerl,73.5,1975,-195,-195,-195,,-117.5,,,,-212.5,,,,,M,Single-ply,SBD,Open
