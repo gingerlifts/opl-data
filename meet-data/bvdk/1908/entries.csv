@@ -1,4 +1,4 @@
-Name,Sex,BirthDate,BodyweightKg,WeightClasskg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Division,Place,Equipment,Event
+Name,Sex,BirthDate,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Division,Place,Equipment,Event
 Lisa Schlagbauer,F,1996-10-31,62.65,63,140,150,,150,77.5,-82.5,,77.5,145,155,,155,382.5,Juniors,6,Single-ply,SBD
 Sofia Walter,F,1996-10-15,70.85,72,195,,,195,90,95,,95,130,140,,140,430,Juniors,2,Single-ply,SBD
 Thomas Geserer,M,1997-09-19,81.6,83,-242.5,252.5,267.5,267.5,155,162.5,,162.5,210,225,-232.5,225,655,Juniors,3,Single-ply,SBD
