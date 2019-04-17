@@ -1,6 +1,6 @@
-﻿Name,Division,Sex,WeightClassKg,BodyweightKg,BirthYear,Team,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Equipment,Event,Place
+Name,Division,Sex,WeightClassKg,BodyweightKg,BirthYear,Team,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Equipment,Event,Place
 Emily Finnern,Juniors,F,57,55.85,2000,HAV 77 e.V.,75,77.5,80,80,80,Raw,B,1
-Anna Lea Schröder,Youth,F,57,58.1,2003,FSV Blau-Weiß Bergen,30,35,-37.5,35,35,Raw,B,1
+Anna Lea Schröder,Youth,F,63,58.1,2003,FSV Blau-Weiß Bergen,30,35,-37.5,35,35,Raw,B,1
 Mandy Lipinski,Open,F,63,60.65,1984,Greifenpower e.V.,60,62.5,65,65,65,Raw,B,1
 Judith Höpfner,Open,F,72,66,1995,Greifenpower e.V.,70,-75,-75,70,70,Raw,B,2
 Rustam Hadschi,Juniors,M,74,68.1,2000,Motor Barth,92.5,97.5,102.5,102.5,102.5,Raw,B,1
@@ -42,7 +42,7 @@ Swen Engel,Masters 1,M,105,105,1972,AC Lauchhammer,160,167.5,-172.5,167.5,167.5,
 Torsten Pecht,Masters 2,M,120,105.85,1964,Greifenpower e.V.,195,-205,205,205,205,Raw,B,1
 Tobias Jahn,Youth,M,120,106.35,2001,Motor Barth,100,105,-110,105,105,Raw,B,1
 Janick Dupke,Open,M,120,108.2,1993,Brüeler SV,130,135,-140,135,135,Raw,B,4
-Daniel Grambow,Open,M,105,109.3,1989,Brüeler SV,-125,125,130,130,130,Single-ply,B,G
+Daniel Grambow,Open,M,120,109.3,1989,Brüeler SV,-125,125,130,130,130,Single-ply,B,G
 Frank Bandelin,Masters 1,M,120,109.8,1974,Motor Wolgast,160,170,-175,170,170,Raw,B,1
 Thomas Schröter,Masters 1,M,120,109.9,1970,Blau-Weiß-Bergen,135,140,-145,140,140,Raw,B,2
 Jürgen Heiden,Masters 3,M,120,110.2,1955,SV Motor Wolgast,140,145,150,150,150,Raw,B,1
@@ -51,7 +51,7 @@ Stephan Schlenther,Masters 1,M,120,117.5,1976,Greifenpower e.V.,-205,205,212.5,2
 Andreas Reiz,Open,M,120,117.85,1984,Greifenpower e.V.,190,-200,200,200,200,Raw,B,1
 Sven Harloff,Open,M,120,118.9,1981,Greifenpower e.V.,150,-157.5,-157.5,150,150,Raw,B,2
 Toni Kasten,Open,M,120,120,1993,Brüeler SV,160,165,170,170,170,Raw,B,3
-Olaf Waehnke,Masters 2,M,120+,120.4,1964,Greifenpower e.V.,-165,-165,-165,-165,-165,Raw,B,2
+Olaf Waehnke,Masters 2,M,120+,120.4,1964,Greifenpower e.V.,-165,-165,-165,-165,,Raw,B,DQ
 Thomas Brunnenkref,Masters 1,M,120+,120.6,1977,Greifenpower e.V.,165,-170,,165,165,Raw,B,1
 Bernd Meyer,Masters 2,M,120+,126.8,1961,Greifenpower e.V.,160,170,-175,170,170,Single-ply,B,1
 Bernd Meyer,Masters 2,M,120+,126.8,1961,Greifenpower e.V.,-215,-215,215,215,215,Raw,B,1
