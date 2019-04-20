@@ -63,6 +63,8 @@ pub enum MetaFederation {
     AllRussia,
     #[strum(to_string = "all-serbia")]
     AllSerbia,
+    #[strum(to_string = "all-slovakia")]
+    AllSlovakia,
     #[strum(to_string = "all-slovenia")]
     AllSlovenia,
     #[strum(to_string = "all-spain")]
@@ -75,6 +77,8 @@ pub enum MetaFederation {
     AllSwitzerland,
     #[strum(to_string = "all-uk")]
     AllUK,
+    #[strum(to_string = "all-uk-tested")]
+    AllUKTested,
     #[strum(to_string = "all-ukraine")]
     AllUkraine,
     #[strum(to_string = "all-usa")]
@@ -247,6 +251,11 @@ impl MetaFederation {
                     || (entry.lifter_country == None
                         && meet.federation.home_country() == Some(Country::Serbia))
             }
+            MetaFederation::AllSlovakia => {
+                entry.lifter_country == Some(Country::Slovakia)
+                    || (entry.lifter_country == None
+                        && meet.federation.home_country() == Some(Country::Slovakia))
+            }
             MetaFederation::AllSlovenia => {
                 entry.lifter_country == Some(Country::Slovenia)
                     || (entry.lifter_country == None
@@ -284,6 +293,9 @@ impl MetaFederation {
                                 .home_country()
                                 .map_or(false, |c| c.is_in_uk()))
                 }
+            }
+            MetaFederation::AllUKTested => {
+                entry.tested && MetaFederation::AllUK.contains(entry, meets)
             }
             MetaFederation::AllUkraine => {
                 entry.lifter_country == Some(Country::Ukraine)

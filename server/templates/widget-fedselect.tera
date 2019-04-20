@@ -71,6 +71,7 @@
 </optgroup>
 <optgroup label="{{strings.country.uk}}">
   <option value="all-uk" {% if selection.federation == "AllUK" %}selected{% endif %}>{{strings.selectors.fed.all_uk}}</option>
+  <option value="all-uk-tested" {% if selection.federation == "AllUKTested" %}selected{% endif %}>{{strings.selectors.fed.all_uk_tested}}</option>
   <option value="abpu" {% if selection.federation == "ABPU" %}selected{% endif %}>ABPU - Amateur British Powerlifting Union [WPC]</option>
   <option value="bawla" {% if selection.federation == "BAWLA" %}selected{% endif %}>BAWLA - British Amateur Weightlifting Association [IPF]</option>
   <option value="bdfpa" {% if selection.federation == "BDFPA" %}selected{% endif %}>BDFPA - British Drug-Free Powerlifting Association</option>
@@ -109,6 +110,9 @@
 </optgroup>
 <optgroup label="{{strings.country.belarus}}">
   <option value="belpf" {% if selection.federation == "BelPF" %}selected{% endif %}>BelPF - Belarus Powerlifting Federation [IPF]</option>
+</optgroup>
+<optgroup label="{{strings.country.brazil}}">
+  <option value="cblb" {% if selection.federation == "CBLB" %}selected{% endif %}>CBLB - Confederação Brasileira de Levantamentos Básicos [IPF]</option>
 </optgroup>
 <optgroup label="{{strings.country.canada}}">
   <option value="all-canada" {% if selection.federation == "AllCanada" %}selected{% endif %}>{{strings.selectors.fed.all_canada}}</option>
@@ -163,12 +167,15 @@
   <option value="all-germany" {% if selection.federation == "AllGermany" %}selected{% endif %}>{{strings.selectors.fed.all_germany}}</option>
   <option value="bvdk" {% if selection.federation == "BVDK" %}selected{% endif %}>BVDK - Bundesverband Deutscher Kraftdreikämpf [IPF]</option>
   <option value="gpu" {% if selection.federation == "GPU" %}selected{% endif %}>GPU - German Powerlifting Union [WPU]</option>
-  <option value="insanity" {% if selection.federation == "Insanity" %}selected{% endif %}>Insanity Meet</option>
+  <option value="grawa" {% if selection.federation == "GRAWA" %}selected{% endif %}>GRAWA - German RAW Association [IRP]</option>
   <option value="upc-germany" {% if selection.federation == "UPC-Germany" %}selected{% endif %}>UPC-Germany - United Powerlifting Congress [WPC/GPC/WUAP]</option>
   <option value="wpc-germany" {% if selection.federation == "WPC-Germany" %}selected{% endif %}>WPC Germany</option>
 </optgroup>
 <optgroup label="{{strings.country.greece}}">
   <option value="all-greece" {% if selection.federation == "AllGreece" %}selected{% endif %}>{{strings.selectors.fed.all_greece}}</option>
+</optgroup>
+<optgroup label="{{strings.country.hungary}}">
+  <option value="hpc" {% if selection.federation == "HPC" %}selected{% endif %}>HPC - Hungarian Powerlifting Congress [WPC]</option>
 </optgroup>
 <optgroup label="{{strings.country.iceland}}">
   <option value="all-iceland" {% if selection.federation == "AllIceland" %}selected{% endif %}>{{strings.selectors.fed.all_iceland}}</option>
@@ -275,13 +282,15 @@
 <optgroup label="{{strings.country.serbia}}">
   <option value="all-serbia" {% if selection.federation == "AllSerbia" %}selected{% endif %}>{{strings.selectors.fed.all_serbia}}</option>
   <option value="usps" {% if selection.federation == "USPS" %}selected{% endif %}>USPS - Ujedinjeni Srpski powerlifting savez [GPC]</option>
-  <option value="wrpf-srb" {% if selection.federation == "WRPF-SRB" %}selected{% endif %}>WRPF-SRB - WRPF Srbija</option>
+  <option value="wrpf-srb" {% if selection.federation == "WRPF-SRB" %}selected{% endif %}>WRPF-SRB - WRPF Srbija - Republika Srpska</option>
 </optgroup>
 <optgroup label="{{strings.country.singapore}}">
   <option value="spa" {% if selection.federation == "SPA" %}selected{% endif %}>SPA - Singapore Powerlifting Alliance [GPA]</option>
 </optgroup>
 <optgroup label="{{strings.country.slovakia}}">
+  <option value="all-slovakia" {% if selection.federation == "AllSlovakia" %}selected{% endif %}>{{strings.selectors.fed.all_slovakia}}</option>
   <option value="sast" {% if selection.federation == "SAST" %}selected{% endif %}>SAST - Slovenská asociásia silového trojboja [GPC]</option>
+  <option value="wuap-svk" {% if selection.federation == "WUAP-SVK" %}selected{% endif %}>WUAP-SVK - WUAP Slovakia</option>
 </optgroup>
 <optgroup label="{{strings.country.slovenia}}">
   <option value="all-slovenia" {% if selection.federation == "AllSlovenia" %}selected{% endif %}>{{strings.selectors.fed.all_slovenia}}</option>

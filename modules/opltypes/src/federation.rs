@@ -192,10 +192,9 @@ pub enum Federation {
     #[strum(to_string = "CAST", serialize = "cast")]
     CAST,
 
-    /// Unaffiliated meets held in Czechia.
-    #[serde(rename = "Czechia-UA")]
-    #[strum(to_string = "Czechia-UA", serialize = "chzechia-ua")]
-    CzechiaUA,
+    /// Confederação Brasileira de Levantamentos Básicos, IPF.
+    #[strum(to_string = "CBLB", serialize = "cblb")]
+    CBLB,
 
     /// Chinese Powerlifting Association, GPA.
     #[strum(to_string = "ChinaPA", serialize = "chinapa")]
@@ -241,6 +240,11 @@ pub enum Federation {
     /// Český svaz silového trojboje, Czech IPF affiliate.
     #[strum(to_string = "CSST", serialize = "csst")]
     CSST,
+
+    /// Unaffiliated meets held in Czechia.
+    #[serde(rename = "Czechia-UA")]
+    #[strum(to_string = "Czechia-UA", serialize = "chzechia-ua")]
+    CzechiaUA,
 
     /// Deutscher Bodybuilding und Kraftsport Verband, first German federation.
     #[strum(to_string = "DBKV", serialize = "dbkv")]
@@ -375,6 +379,10 @@ pub enum Federation {
     #[strum(to_string = "GPU", serialize = "gpu")]
     GPU,
 
+    /// German RAW Association, IRP.
+    #[strum(to_string = "GRAWA", serialize = "grawa")]
+    GRAWA,
+
     /// Defunct stand-alone US federation.
     #[strum(to_string = "Hardcore", serialize = "hardcore")]
     Hardcore,
@@ -382,6 +390,10 @@ pub enum Federation {
     /// Hercules Gym in Syracuse, NY. Run by Rheta West.
     #[strum(to_string = "HERC", serialize = "herc")]
     HERC,
+
+    /// Hungarian Powerlifting Congress, WPC.
+    #[strum(to_string = "HPC", serialize = "hpc")]
+    HPC,
 
     /// Croatian IPF affiliate
     #[strum(to_string = "HPLS", serialize = "hpls")]
@@ -948,6 +960,11 @@ pub enum Federation {
     #[strum(to_string = "WUAP-AUT", serialize = "wuap-aut")]
     WUAPAUT,
 
+    /// Slovakian WUAP affiliate.
+    #[serde(rename = "WUAP-SVK")]
+    #[strum(to_string = "WUAP-SVK", serialize = "wuap-svk")]
+    WUAPSVK,
+
     /// Xtreme Powerlifting Coalition.
     #[strum(to_string = "XPC", serialize = "xpc")]
     XPC,
@@ -1001,6 +1018,7 @@ impl Federation {
             Federation::CAPO => false,
             Federation::CAPONZ => false,
             Federation::CAST => false,
+            Federation::CBLB => true,
             Federation::ChinaPA => false,
             Federation::CommonwealthPF => true,
             Federation::CPA => false,
@@ -1042,9 +1060,11 @@ impl Federation {
             Federation::GPCRUS => false,
             Federation::GPF => false,
             Federation::GPU => false,
+            Federation::GRAWA => false,
             Federation::Hardcore => false,
             Federation::HERC => false,
             Federation::CroatiaUA => false,
+            Federation::HPC => false,
             Federation::HPLS => true,
             Federation::HPLSUA => false,
             Federation::HPO => false,
@@ -1179,6 +1199,7 @@ impl Federation {
             Federation::WRPFSweden => false,
             Federation::WUAP => false,
             Federation::WUAPAUT => false,
+            Federation::WUAPSVK => false,
             Federation::XPC => false,
             Federation::XPCPoland => false,
         }
@@ -1226,6 +1247,7 @@ impl Federation {
             Federation::CAPO => Some(Country::Australia),
             Federation::CAPONZ => Some(Country::NewZealand),
             Federation::CAST => Some(Country::Czechia),
+            Federation::CBLB => Some(Country::Brazil),
             Federation::ChinaPA => Some(Country::China),
             Federation::CommonwealthPF => None,
             Federation::CPA => Some(Country::Canada),
@@ -1269,9 +1291,11 @@ impl Federation {
             Federation::GPCRUS => Some(Country::Russia),
             Federation::GPF => None,
             Federation::GPU => Some(Country::Germany),
+            Federation::GRAWA => Some(Country::Germany),
             Federation::Hardcore => Some(Country::USA),
             Federation::HERC => Some(Country::USA),
             Federation::CroatiaUA => Some(Country::Croatia),
+            Federation::HPC => Some(Country::Hungary),
             Federation::HPLS => Some(Country::Croatia),
             Federation::HPLSUA => Some(Country::Croatia),
             Federation::HPO => Some(Country::Croatia),
@@ -1405,6 +1429,7 @@ impl Federation {
             Federation::WRPFSweden => Some(Country::Sweden),
             Federation::WUAP => None,
             Federation::WUAPAUT => Some(Country::Austria),
+            Federation::WUAPSVK => Some(Country::Slovakia),
             Federation::XPC => Some(Country::USA),
             Federation::XPCPoland => Some(Country::Poland),
         }
@@ -1464,6 +1489,7 @@ impl Federation {
             Federation::CAPO => PointsSystem::Glossbrenner,
             Federation::CAPONZ => PointsSystem::Glossbrenner,
             Federation::CAST => PointsSystem::Wilks,
+            Federation::CBLB => Federation::ipf_rules_on(date),
             Federation::ChinaPA => PointsSystem::Wilks,
             Federation::CommonwealthPF => Federation::ipf_rules_on(date),
             Federation::CPA => PointsSystem::Wilks,
@@ -1506,9 +1532,11 @@ impl Federation {
             Federation::GPCRUS => PointsSystem::Glossbrenner,
             Federation::GPF => PointsSystem::Wilks,
             Federation::GPU => PointsSystem::Wilks,
+            Federation::GRAWA => PointsSystem::Wilks,
             Federation::Hardcore => PointsSystem::Wilks,
             Federation::HERC => PointsSystem::Wilks,
             Federation::CroatiaUA => PointsSystem::Wilks,
+            Federation::HPC => PointsSystem::Wilks,
             Federation::HPLS => Federation::ipf_rules_on(date),
             Federation::HPLSUA => PointsSystem::Wilks,
             Federation::HPO => PointsSystem::Wilks,
@@ -1642,6 +1670,7 @@ impl Federation {
             Federation::WRPFSweden => PointsSystem::Wilks,
             Federation::WUAP => PointsSystem::Wilks,
             Federation::WUAPAUT => PointsSystem::Wilks,
+            Federation::WUAPSVK => PointsSystem::Wilks,
             Federation::XPC => PointsSystem::Wilks,
             Federation::XPCPoland => PointsSystem::Wilks,
         }
