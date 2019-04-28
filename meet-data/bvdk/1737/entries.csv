@@ -1,4 +1,4 @@
-﻿Name,Place,Division,Sex,Team,BirthDate,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Event,Equipment
+Name,Place,Division,Sex,Team,BirthDate,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Event,Equipment
 Anja Schreiner,1,Open,F,SC Oberölsbach,1993-07-30,47,47,85,91,97,97,97,B,Single-ply
 Erika Krüger,1,Open,F,Fitness-Club Rhein-Main e.V.,1982-05-05,51.9,52,37.5,40,42.5,42.5,42.5,B,Single-ply
 Gabriela Hirner,1,Masters 2,F,KSC Amberg II,1965-10-09,55.6,57,100,110,-120,110,110,B,Single-ply
@@ -25,8 +25,8 @@ Eva Wolff,2,Open,F,Turngemeinde Landshut 1861 e.V.,1992-06-20,71.2,72,-52.5,52.5
 Ines Schneider,2,Masters 2,F,Polizeisportverein Sonneberg e.V.,1966-04-26,72.65,84,55,60,62.5,62.5,62.5,B,Single-ply
 Juliane Normann,1,Open,F,Polizeisportverein Sonneberg e.V.,1985-02-17,72.75,84,47.5,52.5,-55,52.5,52.5,B,Single-ply
 Ursula Häuser,1,Masters 2,F,Fitness-Club Rhein-Main e.V.,1960-05-11,73.15,84,65,67.5,70,70,70,B,Single-ply
-Jolien Steiner,1,Youth B,F,Polizeisportverein Sonneberg e.V.,2002-10-09,95.5,84,60,65,-70,65,65,B,Single-ply
-Tina Scheuer,1,Open,F,Kraftsportverein 1959 Langen e.V.,1979-10-07,96.5,84,95,100,-105,100,100,B,Single-ply
+Jolien Steiner,1,Youth B,F,Polizeisportverein Sonneberg e.V.,2002-10-09,95.5,84+,60,65,-70,65,65,B,Single-ply
+Tina Scheuer,1,Open,F,Kraftsportverein 1959 Langen e.V.,1979-10-07,96.5,84+,95,100,-105,100,100,B,Single-ply
 Dominik Wegener,1,Youth A,M,KKSV Sonneberg e.V.,2000-03-11,54.45,59,70,77.5,82.5,82.5,82.5,B,Single-ply
 Dominik Bogensperger,1,Juniors,M,KSC Amberg II,1997-02-10,58.8,59,120,125,130,130,130,B,Single-ply
 Martin Schwer,1,Juniors,M,FC Ebenhofen,1998-08-24,62.25,66,95,102.5,-107.5,102.5,102.5,B,Single-ply
@@ -39,7 +39,7 @@ Tim Fürst,1,Open,M,Fitness-Club Rhein-Main e.V.,1989-10-10,65.6,66,-92.5,92.5,-
 Richard Kariun,2,Youth B,M,AC Bavaria Forchheim 1908 e.V.,2002-05-24,66.2,74,65,72.5,75,75,75,B,Single-ply
 Sebastian Wegener,1,Youth B,M,KKSV Sonneberg e.V.,2001-03-29,66.35,74,70,75,80,80,80,B,Single-ply
 Roland Rothenberger,1,Masters 4,M,1. AC Bayreuth,1947-04-05,67.5,74,90,95,100,100,100,B,Single-ply
- Christian Bogensperger,3,Juniors,M,KSC Amberg II,1994-05-28,68.75,74,105,-110,-110,105,105,B,Single-ply
+Christian Bogensperger,3,Juniors,M,KSC Amberg II,1994-05-28,68.75,74,105,-110,-110,105,105,B,Single-ply
 Kevin Litwitz,1,Juniors,M,SC Oberölsbach,1997-06-06,69.15,74,110,115,125,125,125,B,Single-ply
 Christian Rupp,1,Youth A,M,Sportverein Fellbach 1890 e. V.,1999-07-30,69.8,74,115,120,125,125,125,B,Single-ply
 Patrick Knüpfer,1,Open,M,Kraftsportfreunde Stoeckigt e.V.,1992-04-21,70.45,74,102.5,-107.5,115,115,115,B,Single-ply
@@ -63,7 +63,7 @@ Josef Weiß,1,Masters 3,M,KSC Frauenau,1954-06-09,83,83,70,85,-90,85,85,B,Single
 Jens Marquardt,3,Masters 2,M,Kraftsportfreunde Stoeckigt e.V.,1965-02-23,84.5,93,135,-140,-140,135,135,B,Single-ply
 Rainer Schötz,1,Masters 4,M,SC Oberölsbach,1943-03-30,85,93,132.5,-137.5,,132.5,132.5,B,Single-ply
 Mark Boronkai,2,Masters 2,M,SC Oberölsbach,1958-01-28,85.25,93,-140,140,145,145,145,B,Single-ply
-  Dirk Wetzel,2,Open,M,SG Motor Arnstadt,1980-10-12,85.3,93,180,-190,190,190,190,B,Single-ply
+ Dirk Wetzel,2,Open,M,SG Motor Arnstadt,1980-10-12,85.3,93,180,-190,190,190,190,B,Single-ply
 Albert Geitner,2,Masters 3,M,SC Oberölsbach,1956-02-07,86.1,93,110,115,120,120,120,B,Single-ply
 Andreas Schmidt,5,Open,M,Kraftsportfreunde Stoeckigt e.V.,1989-02-22,87,93,135,142.5,-150,142.5,142.5,B,Single-ply
 Andreas Staude,4,Open,M,STC Bavaria 20 Landshut,1979-04-07,88.35,93,145,155,-165,155,155,B,Single-ply
@@ -72,7 +72,7 @@ Paul Aigner,1,Juniors,M,Ac-Amberg e.V.,1994-05-17,89,93,150,160,-170,160,160,B,S
 Hans-Jürgen Ehrt,1,Masters 3,M,KSC Amberg II,1956-12-04,90.25,93,200,-210,,200,200,B,Single-ply
 Guido Nieland,1,Masters 1,M,Athletik Club 1892 Weinheim e. V.,1970-09-25,91.45,93,182.5,192.5,-200,192.5,192.5,B,Single-ply
 Klaus Hanseder,4,Masters 2,M,KSC Attila Dachau e.V.,1962-08-24,92.6,93,115,120,-122.5,120,120,B,Single-ply
-Daniel Welsch,1,Open,M,KSC Amberg II,1978-02-12,92.8,93,195,200,-200,200,200,B,Single-ply
+Daniel Welsch,1,Open,M,KSC Amberg II,1978-02-12,92.8,93,195,200,,200,200,B,Single-ply
 Klaus Semskij,1,Masters 2,M,STC Bavaria 20 Landshut,1964-11-20,92.8,93,215,225,-250,225,225,B,Single-ply
 Alexander Denk,3,Open,M,KSC Puch e.V.,1986-04-03,92.9,93,160,165,-210,165,165,B,Single-ply
 Matthias Töpfl,5,Open,M,Turngemeinde Landshut 1861 e.V.,1992-02-01,93.5,105,150,-160,160,160,160,B,Single-ply
@@ -93,7 +93,7 @@ Mike Pollak,1,Masters 1,M,FC Ebenhofen,1971-02-03,105.95,120,170,190,202.5,202.5
 Klaus Kubesch,2,Masters 2,M,FC Ebenhofen,1960-04-03,105.95,120,150,155,-160,155,155,B,Single-ply
 Marc Gerecke,2,Open,M,Kraftsportfreunde Stoeckigt e.V.,1992-01-17,107.15,120,155,162.5,-170,162.5,162.5,B,Single-ply
 Stephan Lerach,1,Masters 2,M,KSC Frauenau,1962-12-23,107.85,120,165,175,185,185,185,B,Single-ply
- Werner Wieninger,1,Masters 3,M,KKC Bodyfit e. V.,1957-01-17,107.9,120,150,157.5,165,165,165,B,Single-ply
+Werner Wieninger,1,Masters 3,M,KKC Bodyfit e. V.,1957-01-17,107.9,120,150,157.5,165,165,165,B,Single-ply
 Alfons Mietz,1,Masters 4,M,KSC Frauenau,1947-11-04,109.55,120,-120,120,130,130,130,B,Single-ply
 Silko Salomo,2,Masters 1,M,Ac-Amberg e.V.,1968-12-08,113.15,120,192.5,-210,,192.5,192.5,B,Single-ply
 Lawrence Anderson,2,Masters 3,M,1. AC Bayreuth,1956-09-30,115.9,120,120,130,140,140,140,B,Single-ply
