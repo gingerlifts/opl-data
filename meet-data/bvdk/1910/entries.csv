@@ -59,7 +59,7 @@ Place,Name,Division,WeightClassKg,Sex,Team,BirthYear,BodyweightKg,Bench1Kg,Bench
 4,Andreas Fuß,Open,120,M,TSV Roßdorf 08,1981,108.55,130,140,-147.5,140,140,Single-ply,B
 1,Peter Herteux,Masters 2,120,M,Kraftsportverein 1959 Langen e.V.,1968,109.9,180,185,,185,185,Single-ply,B
 4,Marcus Coburger,Masters 2,120,M,Kraftsportverein 1959 Langen e.V.,1964,110.3,125,-130,130,130,130,Single-ply,B
-2,Sven Lorenz,Open,120,M,STC Bavaria 20 Landshut,1905,111.7,185,-192.5,-195,185,185,Single-ply,B
+2,Sven Lorenz,Open,120,M,STC Bavaria 20 Landshut,,111.7,185,-192.5,-195,185,185,Single-ply,B
 3,Michael Schäfer,Masters 2,120,M,Kraftsportfreunde Stoeckigt e.V.,1962,113.2,125,-132.5,132.5,132.5,132.5,Single-ply,B
 DQ,Matthias Raab,Masters 1,120,M,TSV Roßdorf 08,1979,115.65,-155,-155,-155,,,Single-ply,B
 3,Steve Vogel,Open,120,M,FC Erzgebirge Aue e.V. Abt. Krafts,1983,115.9,160,170,-175,170,170,Single-ply,B
