@@ -1,4 +1,4 @@
-Name,Place,Division,Sex,Team,BirthDate,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Event,Equipment
+﻿Name,Place,Division,Sex,Team,BirthDate,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Event,Equipment
 Anja Schreiner,1,Open,F,SC Oberölsbach,1993-07-30,47,47,85,91,97,97,97,B,Single-ply
 Erika Krüger,1,Open,F,Fitness-Club Rhein-Main e.V.,1982-05-05,51.9,52,37.5,40,42.5,42.5,42.5,B,Single-ply
 Gabriela Hirner,1,Masters 2,F,KSC Amberg II,1965-10-09,55.6,57,100,110,-120,110,110,B,Single-ply
@@ -63,7 +63,7 @@ Josef Weiß,1,Masters 3,M,KSC Frauenau,1954-06-09,83,83,70,85,-90,85,85,B,Single
 Jens Marquardt,3,Masters 2,M,Kraftsportfreunde Stoeckigt e.V.,1965-02-23,84.5,93,135,-140,-140,135,135,B,Single-ply
 Rainer Schötz,1,Masters 4,M,SC Oberölsbach,1943-03-30,85,93,132.5,-137.5,,132.5,132.5,B,Single-ply
 Mark Boronkai,2,Masters 2,M,SC Oberölsbach,1958-01-28,85.25,93,-140,140,145,145,145,B,Single-ply
- Dirk Wetzel,2,Open,M,SG Motor Arnstadt,1980-10-12,85.3,93,180,-190,190,190,190,B,Single-ply
+Dirk Wetzel,2,Open,M,SG Motor Arnstadt,1980-10-12,85.3,93,180,-190,190,190,190,B,Single-ply
 Albert Geitner,2,Masters 3,M,SC Oberölsbach,1956-02-07,86.1,93,110,115,120,120,120,B,Single-ply
 Andreas Schmidt,5,Open,M,Kraftsportfreunde Stoeckigt e.V.,1989-02-22,87,93,135,142.5,-150,142.5,142.5,B,Single-ply
 Andreas Staude,4,Open,M,STC Bavaria 20 Landshut,1979-04-07,88.35,93,145,155,-165,155,155,B,Single-ply
