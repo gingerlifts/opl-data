@@ -1,4 +1,4 @@
-Place,Name,Division,Sex,Team,BirthDate,BodyweightKg,,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Equipment,Event
+﻿Place,Name,Division,Sex,Team,BirthDate,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Equipment,Event
 1,Katja Haindl,Open,F,Turngemeinde Landshut 1861 e.V.,1994-05-06,55.7,57,,,,,47.5,52.5,55,,,,,,55,Raw,B
 1,Dagmar McSwain,Masters 4,F,Turngemeinde Landshut 1861 e,1944-07-05,58.15,63,50,57.5,60,60,45,50,52.5,52.5,70,80,85,85,197.5,Raw,SBD
 1,Doris Augustiniok,Masters 1,F,Turngemeinde Landshut 1861 e.V.,1971-10-05,59.75,63,,,,,55,60,62.5,,,,,,62.5,Raw,B
