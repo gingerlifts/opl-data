@@ -1,0 +1,24 @@
+﻿Place,Name,Sex,Event,Div,WeightClassKg,Equipment,Age,BodyweightKg, Squat1Kg, Squat2Kg, Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Tested
+,Kathleen James,F,SBD,F_MCR_1_APF,67.5,Wraps,41,63.5,,,,127.5,,,,80,,,,147.5,355,No
+,Akilah Jones,F,SBD,F_OCR_APF,75,Wraps,32,72.8,,,,150,,,,90,,,,160,400,No
+,Allison Martin,F,SBD,F_OCR_APF,75,Wraps,26,74.2,,,,102.5,,,,65,,,,145,312.5,No
+,Shelly Cannon,F,SBD,F_OEM_APF,67.5,Multi-Ply,39,63,,,,152.5,,,,110,,,,137.5,400,No
+,Tim James,M,SBD,M_MCR_1_APF,100,Wraps,40,99.65,,,,262.5,,,,172.5,,,,305,740,No
+,Tucker Pendleton,M,SBD,M_MCR_2_APF,100,Wraps,49,95.05,,,,160,,,,160,,,,215,535,No
+,Lou Lavarro,M,SBD,M_MEM_5_APF,110,Multi-Ply,61,109.2,,,,195,,,,127.5,,,,227.5,550,No
+,Gary Bishop,M,SBD,M_MES_3_APF,110,Single-Ply,54,106.75,,,,245,,,,185,,,,227.5,657.5,No
+,Channing Doyle,M,SBD,M_OCR_APF,90,Wraps,31,90,,,,327.5,,,,195,,,,320,842.5,No
+,Gabriel Naspinski,M,SBD,M_OCR_APF,110,Wraps,35,107.75,,,,270,,,,0,,,,0,0,No
+,Chad Robison,M,SBD,M_OCR_APF,125,Wraps,31,120.45,,,,245,,,,182.5,,,,217.5,645,No
+,Donnie Kiernan,M,SBD,M_OCR_APF,SHW,Wraps,36,150.85,,,,272.5,,,,185,,,,270,727.5,No
+,Daniel Tinajero,M,SBD,M_OEM_APF,110,Multi-Ply,31,108.55,,,,320,,,,325,,,,305,950,No
+,Denis Havrikov,M,SBD,M_OR_APF,75,Raw,26,72.6,,,,0,,,,155,,,,0,0,No
+,George Brennon Huff,M,SBD,M_OR_APF,125,Raw,30,121.25,,,,240,,,,182.5,,,,260,682.5,No
+,Jacob Schmidt,M,SBD,M_TCR_1_APF,52,Wraps,13,50.75,,,,55,,,,30,,,,70,155,No
+,Bryson Schmidt,M,SBD,M_TR_1_APF,52,Raw,13,50.55,,,,55,,,,30,,,,82.5,167.5,No
+,Baine Willis,M,SBD,M_TR_2_APF,100,Raw,17,95.55,,,,185,,,,125,,,,240,550,No
+,Kathleen James,F,B,F_MCR_1_APF,67.5,Wraps,41,64,,,,,75,80,-85,80,,,,,80,No
+,Kailey Spires,F,B,F_TR_3_APF,67.5,Raw,18,61,,,,,80,85,87.5,87.5,,,,,87.5,No
+,Tucker Pendleton,M,B,M_MCR_2_APF,100,Wraps,49,95.05,,,,,160,-165,-165,160,,,,,160,No
+,Denis Havrikov,M,B,M_OR_APF,75,Raw,26,72.6,,,,,135,145,155,155,,,,,155,No
+,Tim James,M,D,M_MCR_1_APF,100,Wraps,40,99.65,,,,,,,,,305,-310,-310,305,305,No
