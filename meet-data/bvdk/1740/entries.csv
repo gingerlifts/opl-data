@@ -1,4 +1,4 @@
-﻿Name,Sex,Place,Team,BirthDate,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Event,Equipment,Division
+Name,Sex,Place,Team,BirthDate,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Event,Equipment,Division
 Petra Tschirsky,F,2,LV Bayern I,1972-11-19,60.95,63,-70,70,77.5,77.5,77.5,B,Single-ply,Open
 Rosina Polster,F,2,LV Bayern I,1984-11-17,65.8,72,95,100,105,105,105,B,Single-ply,Open
 Ina Scholz,F,1,LV Sachsen I,1978-07-08,67.75,72,122.5,-125,-125,122.5,122.5,B,Single-ply,Open
@@ -32,7 +32,7 @@ Dennis Sauter,M,4,LV Baden-Württemberg,1994-09-14,117.2,120,260,-285,-285,260,2
 Günther Salbeck,M,5,LV Bayern III,1978-03-04,117.75,120,-240,-240,240,240,240,B,Single-ply,Open
 Christoph Seefeld,M,3,LV Bayern II,1980-11-29,118.4,120,235,250,275,275,275,B,Single-ply,Open
 Jan-Phillip Mankel,M,6,LV Hessen II,1990-01-01,118.75,120,190,200,207.5,207.5,207.5,B,Single-ply,Open
-Kevin Jäger,M,7,LV Hessen I,1995-08-25,120.95,120+,280,-330,-355,280,280,B,Single-ply,Open
+Kevin Jäger #1,M,7,LV Hessen I,1995-08-25,120.95,120+,280,-330,-355,280,280,B,Single-ply,Open
 Ronny Reimling,M,2,LV Sachsen II,1976-04-21,121.2,120+,245,-262.5,-265,245,245,B,Single-ply,Open
 Achim Kircher,M,6,LV Hessen II,1968-11-08,121.5,120+,185,197.5,202.5,202.5,202.5,B,Single-ply,Open
 Robert Kretzschmar,M,DQ,LV Sachsen II,1976-07-10,121.65,120+,-280,-280,-302.5,,,B,Single-ply,Open
