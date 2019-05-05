@@ -13,7 +13,7 @@ WeightClassKg,Name,Division,Sex,BodyweightKg,Best3BenchKg,TotalKg,Event,Equipmen
 75,Sharon Ashcroft,F-E-Open,F,74.8,110,110,B,Single-ply,1
 75,Wendy Chamberlain,F-E-Open,F,70.8,80,80,B,Single-ply,2
 82.5,Jean Wheeler,F-E-Open,F,76.4,85,85,B,Single-ply,1
-90,Jackie Pepper,F-E-Open,F,102.2,82.5,82.5,B,Single-ply,1
+90+,Jackie Pepper,F-E-Open,F,102.2,82.5,82.5,B,Single-ply,1
 56,Daniel Hoey,M-E-Open,M,54.6,80,80,B,Single-ply,1
 67.5,Phil Richard,M-E-Open,M,63.6,155,155,B,Single-ply,1
 67.5,Mark Hale,M-E-Open,M,66,155,155,B,Single-ply,2
@@ -36,7 +36,7 @@ WeightClassKg,Name,Division,Sex,BodyweightKg,Best3BenchKg,TotalKg,Event,Equipmen
 100,John Battye,M-E-Open,M,98.2,190,190,B,Single-ply,6
 100,Roy Donaldson,M-E-Open,M,96.2,160,160,B,Single-ply,7
 110,Tom Duke,M-E-Open,M,100.6,180,180,B,Single-ply,1
-110,Tony Blythe,M-E-Open,M,104,-,-,B,Single-ply,2
+110,Tony Blythe,M-E-Open,M,104,,,B,Single-ply,DQ
 125,Clive Lambert,M-E-Open,M,125,180,180,B,Single-ply,1
 125,Ben Jones,M-E-Open,M,114.6,130,130,B,Single-ply,2
 125+,Dean Bowring,M-E-Open,M,125.8,255,255,B,Single-ply,1
@@ -52,7 +52,7 @@ WeightClassKg,Name,Division,Sex,BodyweightKg,Best3BenchKg,TotalKg,Event,Equipmen
 110,John Dobbs,M-E-M1,M,108.2,190,190,B,Single-ply,2
 110,Julian Massey,M-E-M1,M,108.4,145,145,B,Single-ply,3
 125+,Roy Simon,M-E-M1,M,181.6,207.5,207.5,B,Single-ply,1
-125+,Lee Kelly,M-E-M1,M,144.8,,0,B,Single-ply,2
+125+,Lee Kelly,M-E-M1,M,144.8,,,B,Single-ply,DQ
 67.5,Michael James,M-E-M2,M,66.6,135,135,B,Single-ply,1
 75,Stan Macrow,M-E-M2,M,73.8,135,135,B,Single-ply,1
 75,Dave Kirkland,M-E-M2,M,74.4,120,120,B,Single-ply,2
