@@ -1,4 +1,4 @@
-Place,Team,Name,Sex,BirthYear,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Equipment,Division
+﻿Place,Team,Name,Sex,BirthYear,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Equipment,Division
 5,VT Union Groß Ilsede,Helena Schlosser,F,1988,53.2,56,110,115,120,120,60,65,67.5,67.5,100,110,-112.5,110,297.5,SBD,Single-ply,Open
 5,VT Union Groß Ilsede,Laura Gramann,F,1987,59.9,60,-107.5,-107.5,107.5,107.5,60,65,-67.5,65,110,115,-122.5,115,287.5,SBD,Single-ply,Open
 4,USV Jena,Igor Schneidmüller,M,1988,58.8,60,-150,160,-175,160,100,-107.5,107.5,107.5,150,170,180,180,447.5,SBD,Single-ply,Open
@@ -13,7 +13,7 @@ Place,Team,Name,Sex,BirthYear,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat
 G,AC Rüdersdorf,Martin Lux,M,1989,77.9,82.5,170,180,-190,180,-115,115,-120,115,170,180,-190,180,475,SBD,Single-ply,Open
 4,USV Jena,Andre Justus,M,1987,78.9,82.5,-250,250,-260,250,130,-135,135,135,240,250,260,260,645,SBD,Single-ply,Open
 5,VT Union Groß Ilsede,Andreas Jekel,M,1986,79,82.5,-200,205,217.5,217.5,145,-150,150,150,-175,180,190,190,557.5,SBD,Single-ply,Open
-G,SV 1919 Grimma,Matthias Grab,M,1985,81.3,82.5,215,230,-240,230,-130,135,-140,135,245,-255,-250,245,610,SBD,Single-ply,Open
+G,SV 1919 Grimma,Matthias Grab,M,1985,81.3,82.5,215,230,-240,230,-130,135,-140,135,245,-255,-255,245,610,SBD,Single-ply,Open
 G,AC Lauchhammer,Leon Koschnik,M,1988,82,82.5,230,240,-250,240,155,-160,160,160,220,240,250,250,650,SBD,Single-ply,Open
 G,AC Rüdersdorf,Marcus Peikert,M,1989,82.9,90,200,210,220,220,140,150,-155,150,180,200,220,220,590,SBD,Single-ply,Open
 1,VfB Klötze 07,Ronny Harnisch,M,1987,83.2,90,200,210,217.5,217.5,120,130,135,135,240,250,260,260,612.5,SBD,Single-ply,Open
