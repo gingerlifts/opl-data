@@ -1,4 +1,4 @@
-Name,Sex,WeightClassKg,Division,Team,BirthDate,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Event,Equipment
+﻿Name,Sex,WeightClassKg,Division,Team,BirthDate,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Event,Equipment
 Sabine Engelberger,F,52,Juniors,TV Kempten (S),1982-03-05,48.1,47.5,32.5,80,160,1,SBD,Single-ply
 Alexander Diepold,M,60,Masters 3,KSC Puch (O),1937-10-07,60,145,100,150,395,1,SBD,Single-ply
 Sergej Riel,M,67.5,Juniors,AC Kaufbeuren (S),1982-05-16,61,140,107.5,140,387.5,1,SBD,Single-ply
@@ -15,7 +15,7 @@ Anton Blum,M,82.5,Juniors,TG Landshut (N),1985-02-01,80.9,160,137.5,205,502.5,1
 Stefan Augustiniok,M,82.5,Open,TG Landshut (N),1969-01-06,82,160,115,220,495,1,SBD,Single-ply
 Juri Makuschkin,M,82.5,Masters 1,TG Landshut (N),1963-02-22,82.5,200,140,217.5,557.5,1,SBD,Single-ply
 David Schröder,M,90,Juniors,StC Landshut (N),1985-12-23,87,200,122.5,205,527.5,1,SBD,Single-ply
-Georg Seisenberger,M,,Masters 1,TG Landshut (N),1958-10-30,89.7,225,177.5,260,662.5,1,SBD,Single-ply
+Georg Seisenberger,M,90,Masters 1,TG Landshut (N),1958-10-30,89.7,225,177.5,260,662.5,1,SBD,Single-ply
 Matthias Melcher,M,90,Open,StC Landshut (N),1974-05-30,89.8,250,135,312.5,697.5,1,SBD,Single-ply
 Josef Weiß,M,100,Masters 2,KSC Frauenau (N),1954-06-09,91.8,160,110,180,450,1,SBD,Single-ply
 Michael Oberfranz,M,100,Juniors,AC Baj. München (O),1984-05-08,97.2,200,120,225,545,1,SBD,Single-ply
@@ -28,5 +28,5 @@ Martin Slach,M,110,Open,AC Kaufbeuren (S),1976-09-01,106,220,115,230,565,3,SBD,
 Matthias Kaposchi,M,110,Open,AC Baj. München (O),1979-10-09,106.7,170,140,185,495,4,SBD,Single-ply
 Albert Alzinger,M,110,Youth,KKC Abbach (N),1987-04-24,107.4,180,105,210,495,1,SBD,Single-ply
 Jürgen Titz,M,110,Masters 1,AC Kaufbeuren (S),1965-05-23,108,240,150,210,600,1,SBD,Single-ply
-Florian Trindorfer ,M,125,Juniors,AC Baj. München (O),1986-04-16,111.6,210,130,205,545,1,SBD,Single-ply
+Florian Trindorfer,M,125,Juniors,AC Baj. München (O),1986-04-16,111.6,210,130,205,545,1,SBD,Single-ply
 Florian Trimpl,M,125,Open,KSC Puch (O),1979-07-09,125,200,140,280,620,1,SBD,Single-ply
