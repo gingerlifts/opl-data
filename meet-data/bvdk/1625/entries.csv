@@ -1,4 +1,4 @@
-Name,WeightClassKg,BirthDate,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Sex,Place,Equipment,Division,Event
+﻿Name,WeightClassKg,BirthDate,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Sex,Place,Equipment,Division,Event
 Karin Engelbrecht,52,1956-07-11,51,72.5,75,77.5,77.5,77.5,F,1,Single-ply,Open,B
 Cindy Müller-Kruschel,63,1979-03-04,58.7,60,65,-70,65,65,F,2,Single-ply,Open,B
 Hjördis Dietrich,72,1989-03-27,64.1,60,65,-67.5,65,65,F,2,Single-ply,Open,B
@@ -9,7 +9,7 @@ Andrea Pauli,72,1980-01-01,68.9,80,87.5,90,90,90,F,1,Single-ply,Open,B
 Vivien Röder,84,1988-05-30,73,135,140,145,145,145,F,2,Single-ply,Open,B
 Frieda Holzer,84,1968-11-20,78.7,-117.5,117.5,-122.5,117.5,117.5,F,1,Single-ply,Open,B
 Patrick Strangis,93,1993-10-19,83.5,150,160,-165,160,160,M,G,Single-ply,Open,B
-"Angelos Hoikas,",93,1992-06-12,84,-205,205,215,215,215,M,2,Single-ply,Open,B
+Angelos Hoikas,93,1992-06-12,84,-205,205,215,215,215,M,2,Single-ply,Open,B
 Michael Herzog,93,1978-01-30,90.8,-200,200,-215,200,200,M,2,Single-ply,Open,B
 Ronny Berndt,93,1979-03-23,92.7,-230,-230,-230,,,M,DQ,Single-ply,Open,B
 Uwe Hering,105,1963-12-18,94.8,225,230,240,240,240,M,1,Single-ply,Open,B
