@@ -38,7 +38,7 @@ Stefan Pagelsen,M,Open,78.1,83,TG Landshut,265,-277.5,-277.5,265,265,3,D,Single-
 Lukas Gallenberger,M,Juniors,78.4,83,AC Olympia Schrobenhausen,140,150,157.5,157.5,157.5,5,D,Single-ply
 Max Stark,M,Youth B,80.6,83,SC Oberölsbach,200,210,-215,210,210,1,D,Single-ply
 Lars Penther,M,Open,80.8,83,AC-92 Weinheim,215,230,-242.5,230,230,5,D,Single-ply
-Johann Goldstein,M,Masters 2,81.1,83,AC Olympia Schrobenhausen,215,230,-,230,230,2,D,Single-ply
+Johann Goldstein,M,Masters 2,81.1,83,AC Olympia Schrobenhausen,215,230,,230,230,2,D,Single-ply
 Robert Robeis,M,Masters 2,81.2,83,AC Amberg,210,230,232.5,232.5,232.5,1,D,Single-ply
 Michael Gruber,M,Juniors,81.6,83,PSV Salzburg,170,180,185,185,185,3,D,Single-ply
 Manuel Körner,M,Open,82.1,83,KSV Höllhöhe,260,-270,-280,260,260,4,D,Single-ply
@@ -55,7 +55,7 @@ Heinz Zotz,M,Masters 2,85.4,93,KSC Atitila Dachau,240,252.5,-265,252.5,252.5,1,D
 Patrick Klostermeier,M,Open,86.2,93,AC Olympia Schrobenhausen,210,230,-235,230,230,8,D,Single-ply
 Josef Weiss,M,Masters 3,86.7,93,KSC Frauenau,190,200,-210,200,200,1,D,Single-ply
 Maximillian Braun,M,Juniors,87.9,93,SC Oberölsbach,210,220,232.5,232.5,232.5,3,D,Single-ply
-Daniel Hedinger,M,Masters 1,88.1,93,STC Bavaria Landshut,195,-205,-,195,195,3,D,Single-ply
+Daniel Hedinger,M,Masters 1,88.1,93,STC Bavaria Landshut,195,-205,,195,195,3,D,Single-ply
 Sebastian Leopolder,M,Open,88.3,93,PSV Salzburg,220,-227.5,-227.5,220,220,9,D,Single-ply
 Patrick Kaindl,M,Open,88.7,93,TSG Augsburg,180,190,200,200,200,10,D,Single-ply
 Johannes Gruber,M,Open,89.8,93,Body Aktiv Wien,240,272.5,-280,272.5,272.5,5,D,Single-ply
@@ -78,7 +78,7 @@ Josef Sussbauer,M,Masters 3,96.1,105,KSV Höllhöhe,190,202.5,-207.5,202.5,202.5
 Daniel Meyer,M,Open,96.2,105,AC Olympia Schrobenhausen,220,240,-250,240,240,4,D,Single-ply
 Lothar Krause,M,Masters 4,96.6,105,Ohrdrufer Sportverein,135,145,150,150,150,1,D,Single-ply
 Pascal Fleissner,M,Open,97.6,105,AC Siegen,255,270,-285,270,270,3,D,Single-ply
-#VALUE!,M,Masters 2,97.8,105,SC Oberölsbach,210,225,235,235,235,2,D,Single-ply
+Thomas Stark,M,Masters 2,97.8,105,SC Oberölsbach,210,225,235,235,235,2,D,Single-ply
 Daniel Rackl,M,Juniors,98.8,105,SC Oberölsbach,175,-195,200,200,200,6,D,Single-ply
 Mykola Grapp,M,Open,99,105,SV Quitt Ankum,330,350,360,360,360,1,D,Single-ply
 Florian Augustin,M,Juniors,99.6,105,AC Olympia Schrobenhausen,180,200,210,210,210,5,D,Single-ply
@@ -91,18 +91,18 @@ Maximillian Ernst,M,Open,103.5,105,TSG Augsburg,225,-240,240,240,240,5,D,Single-
 Kevin Kaltenecker,M,Juniors,104,105,AC Olympia Schrobenhausen,230,250,260,260,260,2,D,Single-ply
 Wolfgang Franke,M,Masters 1,104.2,105,STC Bavaria Landshut,220,-230,,220,220,1,D,Single-ply
 Sascha Obermeier,M,Open,104.7,105,KSV Höllhöhe,230,240,-245,240,240,6,D,Single-ply
-Klaus Cech,M,Masters 2,105.4,110,AC-92 Weinheim,160,-170,170,170,170,1,D,Single-ply
-Dominik Laumer,M,Juniors,106.1,110,KSV Höllhöhe,240,255,270,270,270,1,D,Single-ply
-Andreas Gerdt,M,Open,106.1,110,Stemmclub Bavaria Landshut,257.5,-270,-270,257.5,257.5,4,D,Single-ply
-Heinz Mihoubi,M,Masters 3,107.5,110,KSV Höllhöhe,-210,-210,,-210,-210,DQ,D,Single-ply
-Alexander Geitner,M,Open,108.7,110,USV TU Dresden,280,300,320,320,320,1,D,Single-ply
-Johannes Setz,M,Open,109.6,110,Juniors Gym Imst,250,270,272.5,272.5,272.5,2,D,Single-ply
-Stefan Degasperi,M,Masters 1,111.1,110,KSC Attila Dachau,247.5,262.5,-270,262.5,262.5,2,D,Single-ply
-Daniel Schneider,M,Open,112.2,110,AC Siegen,-245,252.5,-260,252.5,252.5,5,D,Single-ply
-Odo Sinnhuber,M,Masters 1,112.5,110,AK ASVÖ Bodyform Salzburg,235,250,,250,250,3,D,Single-ply
-Malte Fleissner,M,Open,114.7,110,AC Siegen,-330,-330,,-330,-330,DQ,D,Single-ply
-Armin Huber,M,Open,116.1,110,TSG Augsburg,240,260,-270,260,260,3,D,Single-ply
-Hans-Jürgen Sandl,M,Masters 1,119,110,KSV Höllhöhe,275,287.5,-300,287.5,287.5,1,D,Single-ply
+Klaus Cech,M,Masters 2,105.4,120,AC-92 Weinheim,160,-170,170,170,170,1,D,Single-ply
+Dominik Laumer,M,Juniors,106.1,120,KSV Höllhöhe,240,255,270,270,270,1,D,Single-ply
+Andreas Gerdt,M,Open,106.1,120,Stemmclub Bavaria Landshut,257.5,-270,-270,257.5,257.5,4,D,Single-ply
+Heinz Mihoubi,M,Masters 3,107.5,120,KSV Höllhöhe,-210,-210,,,,DQ,D,Single-ply
+Alexander Geitner,M,Open,108.7,120,USV TU Dresden,280,300,320,320,320,1,D,Single-ply
+Johannes Setz,M,Open,109.6,120,Juniors Gym Imst,250,270,272.5,272.5,272.5,2,D,Single-ply
+Stefan Degasperi,M,Masters 1,111.1,120,KSC Attila Dachau,247.5,262.5,-270,262.5,262.5,2,D,Single-ply
+Daniel Schneider,M,Open,112.2,120,AC Siegen,-245,252.5,-260,252.5,252.5,5,D,Single-ply
+Odo Sinnhuber,M,Masters 1,112.5,120,AK ASVÖ Bodyform Salzburg,235,250,,250,250,3,D,Single-ply
+Malte Fleissner,M,Open,114.7,120,AC Siegen,-330,-330,,,,DQ,D,Single-ply
+Armin Huber,M,Open,116.1,120,TSG Augsburg,240,260,-270,260,260,3,D,Single-ply
+Hans-Jürgen Sandl,M,Masters 1,119,120,KSV Höllhöhe,275,287.5,-300,287.5,287.5,1,D,Single-ply
 Peter Mungenast,M,Open,121.8,120+,Juniors Gym Imst,240,260,-280,260,260,3,D,Single-ply
 Martin Schnegg,M,Juniors,127.2,120+,Juniors Gym Imst,260,280,-300,280,280,1,D,Single-ply
 Franz Dallinger,M,Masters 1,127.6,120+,AK ASVÖ Bodyform Salzburg,270,280,290,290,290,1,D,Single-ply
