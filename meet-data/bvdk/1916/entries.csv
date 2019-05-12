@@ -1,7 +1,7 @@
-Name,Sex,BodyweightKg,WeightClassKg,BirthYear,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Equipment,Event,Division
+﻿Name,Sex,BodyweightKg,WeightClassKg,BirthYear,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Equipment,Event,Division
 Isabel Wagner,F,53.3,57,1994,90,92.5,95,95,57.5,62.5,-65,62.5,127.5,132.5,137.5,137.5,295,5,Raw,SBD,Open
 Anna Lea Schröder,F,58.35,63,2003,40,50,60,60,30,-35,-35,30,60,70,80,80,170,G,Raw,SBD,Open
-Aenne Kretschmann,F,63,63,2000,100,105,107.5,107.5,57.5,62.5,65,35,115,122.5,127.5,127.5,300,5,Raw,SBD,Open
+Aenne Kretschmann,F,63,63,2000,100,105,107.5,107.5,57.5,62.5,65,65,115,122.5,127.5,127.5,300,5,Raw,SBD,Open
 Clemens Lück,M,68,74,1991,167.5,175,180,180,120,125,130,130,212.5,225,-235,225,535,2,Raw,SBD,Open
 Rustam Hadschi,M,68.5,74,2000,150,160,-165,160,100,105,-107.5,105,160,170,180,180,445,8,Raw,SBD,Open
 Tim Hajo Paltinat,M,73,74,2000,117.5,127.5,-132.5,127.5,90,95,-100,95,130,145,152.5,152.5,375,8,Raw,SBD,Open
@@ -31,4 +31,3 @@ Tobias Jahn,M,108.95,120,2001,165,177.5,190,190,105,110,115,115,170,180,190,190,
 Marius Urbansky,M,118.15,120,1997,190,200,210,210,120,132.5,-142.5,132.5,235,250,260,260,602.5,7,Raw,SBD,Open
 Sven Lange,M,121.75,120+,1980,165,175,185,185,170,180,-185,180,200,215,230,230,595,7,Raw,SBD,Open
 Kai Diening,M,134.85,120+,2001,165,180,190,190,117.5,125,130,130,205,225,240,240,560,6,Raw,SBD,Open
-,,,,,,,,,,,,,,,,,,,Raw,SBD,Open
