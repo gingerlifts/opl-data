@@ -1,10 +1,10 @@
-Name,Place,Division,Sex,Team,BirthDate,WeightClasskg,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Event,Equipment
+﻿Name,Place,Division,Sex,Team,BirthDate,WeightClassKg,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Event,Equipment
 Karin Engelbrecht,1,Masters 3,F,1. AC Bayreuth v. 1954 e.V.,1956-07-11,52,50.7,75,77.5,-80,77.5,77.5,B,Single-ply
 Sabrina Boy,1,Open,F,SV Motor Eberswade e.V.,1982-06-28,52,51.05,62.5,-65,-65,62.5,62.5,B,Single-ply
 Gabriela Hirner,1,Masters 2,F,KSC II Amberg,1965-10-09,57,55.85,-107.5,107.5,-113,107.5,107.5,B,Single-ply
 Manuela Horst,1,Masters 1,F,KSC II Amberg,1972-04-11,57,56.45,42.5,-45,-45,42.5,42.5,B,Single-ply
 Pia Kring,2,Masters 2,F,AC Power Elite Haiger e.V.,1957-09-05,57,56.45,72.5,75,77.5,77.5,77.5,B,Single-ply
- Marianne Lankau,2,Masters 3,F,Sportclub Elite v. 1921 e. V.,1953-04-13,63,58.25,52.5,55,-57.5,55,55,B,Single-ply
+Marianne Lankau,2,Masters 3,F,Sportclub Elite v. 1921 e. V.,1953-04-13,63,58.25,52.5,55,-57.5,55,55,B,Single-ply
 Anita Thimm,1,Masters 3,F,KSV 1959 Langen e.V.,1950-01-11,63,61.5,70,72.5,,72.5,72.5,B,Single-ply
 Lisa Anders,1,Masters 1,F,Polizeisportverein Sonneberg e.V.,1971-11-21,63,61.7,57.5,60,-62.5,60,60,B,Single-ply
 Ursula Nothnagel,1,Masters 4,F,Sportclub Elite v. 1921 e. V.,1936-05-15,63,61.75,-50,52.5,-55,52.5,52.5,B,Single-ply
@@ -55,7 +55,7 @@ Mike Grizibek,2,Masters 2,M,KSV Zillbach,1966-11-03,74,73.55,-157.5,157.5,162.5,
 Willi Gottschalk,4,Masters 2,M,SC Oberölsbach,1966-09-28,74,73.6,120,-125,-127.5,120,120,B,Single-ply
 Klaus Griesch,1,Masters 2,M,Iron Athletik SportclubErfurt e.V.,1959-03-05,74,73.85,165,172.5,-185,172.5,172.5,B,Single-ply
 Robin Ernst,3,Youth A,M,Hellas 09 Oranienbaum,1998-05-29,74,73.9,97.5,105,107.5,107.5,107.5,B,Single-ply
- Tim Telscher,1,Youth A,M,SV Quitt Ankum,1998-08-17,74,74,115,122.5,130,130,130,B,Single-ply
+Tim Telscher,1,Youth A,M,SV Quitt Ankum,1998-08-17,74,74,115,122.5,130,130,130,B,Single-ply
 Tilman Märtl,2,Juniors,M,Ac-Amberg e.V.,1996-03-03,74,74,70,90,-95,90,90,B,Single-ply
 Danny Bochmann,2,Masters 1,M,SV Rotation Langenbach,1976-08-06,74,74,115,140,-142.5,140,140,B,Single-ply
 Matthias Krenzer,7,Masters 2,M,AC Power Elite Haiger e.V.,1957-04-24,83,74.55,100,102.5,-107.5,102.5,102.5,B,Single-ply
@@ -115,10 +115,10 @@ Klaus-Dieter Jacob,3,Masters 2,M,TSV 90 Zehdenick e.V.,1961-10-21,93,92.75,180,-
 Stephan Krebs,4,Masters 2,M,SV Rotation Langenbach,1959-02-25,93,92.95,142.5,145,-147.5,145,145,B,Single-ply
 Olaf Meurer,DQ,Masters 2,M,SV Motor Eberswade e.V.,1965-03-21,105,93.4,-190,-190,-192.5,,,B,Single-ply
 Uwe Schmutzler,1,Open,M,SG Fortschritt Eibau e.V,1979-11-03,105,93.9,260,270,275,275,275,B,Single-ply
- Peter Kirsch,3,Masters 2,M,SG Randersacker,1960-12-28,105,97.45,180,192.5,195,195,195,B,Single-ply
+Peter Kirsch,3,Masters 2,M,SG Randersacker,1960-12-28,105,97.45,180,192.5,195,195,195,B,Single-ply
 Werner Bauer,1,Masters 4,M,Ac-Amberg e.V.,1943-10-15,105,98.2,-140,140,-150,140,140,B,Single-ply
 Helmut Reimann,DQ,Masters 3,M,Todtglüsinger Sportverein von 1930,1951-04-06,105,99.15,-195,-207.5,-207.5,,,B,Single-ply
- Heiko Müller,4,Masters 1,M,SV 1956 e.V.Großkochberg,1970-12-22,105,99.4,195,202.5,207.5,207.5,207.5,B,Single-ply
+Heiko Müller,4,Masters 1,M,SV 1956 e.V.Großkochberg,1970-12-22,105,99.4,195,202.5,207.5,207.5,207.5,B,Single-ply
 Mario Schnurr,2,Masters 2,M,KSV Renchtal e.V.,1966-07-28,105,99.6,210,220,-225,220,220,B,Single-ply
 Milan Bogner,7,Open,M,KSV Mainz 08,1988-07-05,105,99.95,197.5,202.5,-207.5,202.5,202.5,B,Single-ply
 Wolfgang Strasser,5,Open,M,STC Bavaria 20 Landshut e.V.,1989-05-28,105,100.1,200,210,215,215,215,B,Single-ply
@@ -141,7 +141,7 @@ Eric Stockdreher,1,Juniors,M,Herrnburger Athletenverein 77 e.V.,1996-01-21,105,1
 Oliver Dittmar,DQ,Masters 1,M,AC-92 Weinheim,1970-06-20,105,104.95,-167.5,-170,-175,,,B,Single-ply
 Imre Eiszner,1,Masters 2,M,Kraftsport Lauter,1959-11-05,120,105.4,200,207.5,212.5,212.5,212.5,B,Single-ply
 Michael Schäfer,4,Masters 2,M,KSF Stöckigt,1962-01-15,120,106.8,155,157.5,-160,157.5,157.5,B,Single-ply
- Daniel Härter,1,Juniors,M,Schwinger-club-2006,1995-02-28,120,107.15,250,257.5,-270,257.5,257.5,B,Single-ply
+Daniel Härter,1,Juniors,M,Schwinger-club-2006,1995-02-28,120,107.15,250,257.5,-270,257.5,257.5,B,Single-ply
 Justin Wiban,1,Youth B,M,Hellas 09 Oranienbaum,2001-07-09,120,107.3,92.5,97.5,-102.5,97.5,97.5,B,Single-ply
 Paul Günther,2,Juniors,M,SV 1919 Grimma,1996-06-05,120,108.2,-217.5,217.5,-232.5,217.5,217.5,B,Single-ply
 Simon Reichmeier,2,Open,M,KSC Frauenau,1989-03-10,120,108.55,245,-250,250,250,250,B,Single-ply
@@ -149,7 +149,7 @@ Florian Apitius,5,Open,M,FSV 1895 Magdeburg e.V.,1980-02-12,120,108.75,190,-205,
 Thomas Lange,4,Masters 1,M,TSV 90 Zehdenick e.V.,1967-08-19,120,111.75,-165,165,170,170,170,B,Single-ply
 Jens Christalle,DQ,Masters 1,M,Hausdorfer Sportverein e.V.,1970-05-22,120,112.25,-270,-270,-270,,,B,Single-ply
 Rene Perl,3,Masters 1,M,SV Grieben 47,1973-02-22,120,112.5,185,192.5,-197.5,192.5,192.5,B,Single-ply
- Wolfgang Zimmermann,1,Masters 1,M,KSC II Amberg,1968-02-10,120,112.65,250,255,-257.5,255,255,B,Single-ply
+Wolfgang Zimmermann,1,Masters 1,M,KSC II Amberg,1968-02-10,120,112.65,250,255,-257.5,255,255,B,Single-ply
 Josef Hermann,2,Masters 4,M,AC 1888 Marburg e.V.,1946-07-06,120,114.25,140,150,-160,150,150,B,Single-ply
 Günther Salbeck,4,Open,M,SC-Wald e.V.,1978-03-04,120,114.9,225,235,-240,235,235,B,Single-ply
 André Schnorr,1,Youth A,M,SV Quitt Ankum,1999-10-15,120,115.45,110,120,125,125,125,B,Single-ply
@@ -168,6 +168,6 @@ Udo Thielking,2,Masters 2,M,AC Power Elite Haiger e.V.,1961-05-30,120+,134.5,215
 Nico Ziegler,2,Open,M,USV TU-Dresden,1984-01-25,120+,135.05,265,-280,-280,265,265,B,Single-ply
 Thomas Krümmling,1,Masters 1,M,Hellas 09 Oranienbaum,1976-08-11,120+,136.75,235,-255,-270,235,235,B,Single-ply
 Claus Piechatzek,1,Open,M,Ac-Amberg e.V.,1986-08-05,120+,139.75,270,-290,-290,270,270,B,Single-ply
- Eberhardt Schwanke,1,Masters 3,M,STC Bavaria 20 Landshut e.V.,1953-09-07,120+,141.1,220,240,-245,240,240,B,Single-ply
+Eberhardt Schwanke,1,Masters 3,M,STC Bavaria 20 Landshut e.V.,1953-09-07,120+,141.1,220,240,-245,240,240,B,Single-ply
 Matthias Scholz,DQ,Open,M,Schwerathletik Verein Erfurt e.V.,1983-05-22,120+,143.6,-210,-210,-225,,,B,Single-ply
 Georg Haug,1,Masters 2,M,Powerlifting Duisburg,1965-07-01,120+,151.4,250,-255,-255,250,250,B,Single-ply
