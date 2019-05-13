@@ -1,4 +1,4 @@
-# Social Media 
+sharon eggleton,princess_of_iron Social Media 
 
 OpenPowerlifting can optionally associate lifters with their Instagram profiles.
 
