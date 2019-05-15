@@ -1,4 +1,4 @@
-Place,Name,Division,Sex,Team,BirthDate,BodyweightKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Equipment,WeightClassKg,Event
+﻿Place,Name,Division,Sex,Team,BirthDate,BodyweightKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Equipment,WeightClassKg,Event
 1,Carolina Haag,Youth A,F,TG Landshut / Sparte KDK,1998-02-21,53.45,70,80,85,85,85,Raw,57,D
 1,Petra Tschirsky,Masters 1,F,KSV Höllhöhe,1972-11-19,56.8,120,130,137.5,137.5,137.5,Raw,57,D
 1,Eva Kastl,Youth A,F,TG Landshut / Sparte KDK,1997-05-27,59,70,80,-85,80,80,Raw,63,D
@@ -43,7 +43,7 @@ Place,Name,Division,Sex,Team,BirthDate,BodyweightKg,Deadlift1Kg,Deadlift2Kg,Dead
 1,Harald Paul,Masters 3,M,FSV Blau-Weiß Bergen e.V.,1954-10-15,124.05,190,205,215,215,215,Raw,120+,D
 1,Erik Lorenz,Youth B,M,Gothaer Bierfassheberverein e.V.,2000-08-06,124.85,165,175,182.5,182.5,182.5,Raw,120+,D
 1,Ana Geitner,Open,F,USV TU-Dresden,1967-03-07,42,140,147.5,-150,147.5,147.5,Single-ply,47,D
-1,Sindi Viragos,Open,F,AC Siegen e.V.,1978-07-01,52,122.5,127.5,132.5,132.5,132.5,Single-ply,57,D
+1,Sindi Viragos,Open,F,AC Siegen e.V.,1978-07-01,52,122.5,127.5,132.5,132.5,132.5,Single-ply,52,D
 2,Rima Hassan,Youth B,F,Powerlifting Lauchhammer e.V.,2001-04-01,54.7,57.5,65,72.5,72.5,72.5,Single-ply,57,D
 1,Celine Hein,Youth B,F,Kraftsportverein Weissensee e.V.,2000-03-08,55.8,100,110,,110,110,Single-ply,57,D
 1,Susann Cichon,Open,F,KSV Renchtal e.V.,1987-05-22,56.4,155,162.5,-167.5,162.5,162.5,Single-ply,57,D
@@ -83,7 +83,7 @@ Place,Name,Division,Sex,Team,BirthDate,BodyweightKg,Deadlift1Kg,Deadlift2Kg,Dead
 2,Heinz Kovarna,Masters 4,M,Postsportverein Blau Gelb Fulda,1944-02-04,65.95,125,140,147.5,147.5,147.5,Single-ply,66,D
 3,Alex Osipenko,Juniors,M,KSV Renchtal e.V.,1993-12-16,67.7,-175,175,200,200,200,Single-ply,74,D
 1,Eric Helbig,Youth A,M,Powerlifting Lauchhammer e.V.,1997-04-14,70.2,170,180,185,185,185,Single-ply,74,D
-3, Tim Telscher,Youth A,M,SV Quitt Ankum,1998-08-17,70.95,150,-165,165,165,165,Single-ply,74,D
+3,Tim Telscher,Youth A,M,SV Quitt Ankum,1998-08-17,70.95,150,-165,165,165,165,Single-ply,74,D
 4,Georgios Efthymiou,Open,M,KFV Döbeln e.V.,1977-08-03,72.3,190,200,-210,200,200,Single-ply,74,D
 1,Horst Echtner,Masters 3,M,SSV Bad Brambach e. V.,1952-02-05,72.55,190,200,-210,200,200,Single-ply,74,D
 2,Armin Seynstahl,Open,M,TSV Katzwang,1991-10-20,73.05,220,230,-235,230,230,Single-ply,74,D
@@ -137,11 +137,11 @@ Place,Name,Division,Sex,Team,BirthDate,BodyweightKg,Deadlift1Kg,Deadlift2Kg,Dead
 3,Pascal Fleissner,Open,M,AC Siegen e.V.,1988-01-07,98.15,265,-285,-285,265,265,Single-ply,105,D
 1,Lothar Krause,Masters 4,M,Ohrdrufer Sportverein e.V.,1943-08-04,98.45,150,-160,-160,150,150,Single-ply,105,D
 3,Valeri Karpov,Masters 3,M,SV Quitt Ankum,1955-12-04,98.6,170,200,-205,200,200,Single-ply,105,D
-3,  Klaus Uschold,Masters 2,M,KSV Höllhöhe,1963-10-14,99.35,210,-225,-225,210,210,Single-ply,105,D
+3,Klaus Uschold,Masters 2,M,KSV Höllhöhe,1963-10-14,99.35,210,-225,-225,210,210,Single-ply,105,D
 4,Daniel Mezger,Juniors,M,ASV Griesheim,1992-04-01,100.8,270,-285,-285,270,270,Single-ply,105,D
-2, Harald Nutsch,Masters 2,M,SC Oberölsbach,1959-02-24,101.05,210,220,-227.5,220,220,Single-ply,105,D
+2,Harald Nutsch,Masters 2,M,SC Oberölsbach,1959-02-24,101.05,210,220,-227.5,220,220,Single-ply,105,D
 6,Tamas Turiczki,Open,M,Corpus Fitness Weightplayers 199,1984-11-30,101.45,240,250,-255,250,250,Single-ply,105,D
-,Martin Verhoff,Masters 2,M,Kraftsportverein Bochum 1898 e.V.,1963-10-17,101.7,-210,-220,,,,Single-ply,105,D
+DQ,Martin Verhoff,Masters 2,M,Kraftsportverein Bochum 1898 e.V.,1963-10-17,101.7,-210,-220,,,,Single-ply,105,D
 2,Josef Grießl,Masters 1,M,STC Bavaria 20 Landshut e.V.,1967-12-17,103.75,250,-262.5,-262.5,250,250,Single-ply,105,D
 5,Dennis Sauter,Juniors,M,Corpus Fitness Weightplayers 199,1994-09-14,103.85,250,260,-265,260,260,Single-ply,105,D
 1,Thomas Krämer,Masters 1,M,AC-92 Weinheim,1970-05-25,104.2,245,262.5,-270,262.5,262.5,Single-ply,105,D
