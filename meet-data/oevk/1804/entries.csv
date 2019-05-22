@@ -1,4 +1,4 @@
-Name,Sex,BirthDate,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Division,Place,Equipment,Event
+﻿Name,Sex,BirthYear,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Division,Place,Equipment,Event
 Martin Krusch,M,1987,81.45,83,140,-145,-145,140,140,,5,Raw,B
 Michael Köhl,M,1989,81.6,83,130,-140,-140,130,130,,6,Raw,B
 Simon Friesenecker,M,1987,82.4,83,120,-132.5,-135,120,120,,7,Raw,B
@@ -19,16 +19,16 @@ Michael Leitner,M,1994,119.1,120,175,-185,-185,175,175,,2,Raw,B
 Michael Kunz,M,1967,115.8,120,160,165,172.5,172.5,172.5,,3,Raw,B
 Franz Huemer,M,1963,107.7,120,155,165,-170,165,165,,4,Raw,B
 Josef Schnaderbek,M,1959,118.7,120,147.5,152.5,157.5,157.5,157.5,,5,Raw,B
-Christian Wackernell,M,1980,161.5,'120+,242.5,250,-260,250,250,,1,Raw,B
-Gernot Kasparek,M,1975,121.5,'120+,210.5,-222.5,-222.5,210,210,,2,Raw,B
-Günther Ferstl,M,1979,158,'120+,180,190,-200,190,190,,3,Raw,B
-Mario Hopf,M,1984,179.6,'120+,180,187.5,-192.5,187.5,187.5,,4,Raw,B
-Christoph Würflinger,M,1988,146.9,'120+,175,185,-200,185,185,,5,Raw,B
-Michael Schipfer,M,1991,128.3,'120+,170,177.5,-180,177.5,177.5,,6,Raw,B
-Markus Grabner,M,1977,126.5,'120+,165,172.5,-180,172.5,172.5,,7,Raw,B
-Bernd Kerschbaumer,M,1965,132.6,'120+,160,170,-175,170,170,,8,Raw,B
-Robert Stöcklinger,M,1965,120.2,'120+,145,150,155,155,155,,9,Raw,B
-Günther Haberfellner,M,1962,136.1,'120+,115,122.5,-127.5,122.5,122.5,,10,Raw,B
+Christian Wackernell,M,1980,161.5,120+,242.5,250,-260,250,250,,1,Raw,B
+Gernot Kasparek,M,1975,121.5,120+,210.5,-222.5,-222.5,210,210,,2,Raw,B
+Günther Ferstl,M,1979,158,120+,180,190,-200,190,190,,3,Raw,B
+Mario Hopf,M,1984,179.6,120+,180,187.5,-192.5,187.5,187.5,,4,Raw,B
+Christoph Würflinger,M,1988,146.9,120+,175,185,-200,185,185,,5,Raw,B
+Michael Schipfer,M,1991,128.3,120+,170,177.5,-180,177.5,177.5,,6,Raw,B
+Markus Grabner,M,1977,126.5,120+,165,172.5,-180,172.5,172.5,,7,Raw,B
+Bernd Kerschbaumer,M,1965,132.6,120+,160,170,-175,170,170,,8,Raw,B
+Robert Stöcklinger,M,1965,120.2,120+,145,150,155,155,155,,9,Raw,B
+Günther Haberfellner,M,1962,136.1,120+,115,122.5,-127.5,122.5,122.5,,10,Raw,B
 Catherine Lekic,F,1982,49.25,52,52.5,57.5,-60,57.5,57.5,,1,Raw,B
 Carina Jeritsch,F,1993,51.85,52,40,45,-47.5,45,45,,2,Raw,B
 Marlene Sabathy,F,1996,55.4,57,65,70.5,72.5,72.5,72.5,,1,Raw,B
