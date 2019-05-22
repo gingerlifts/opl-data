@@ -1,4 +1,4 @@
-﻿Name,Sex,BirthYear,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Division,Place,Equipment,Event
+Name,Sex,BirthYear,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Division,Place,Equipment,Event
 Martin Krusch,M,1987,81.45,83,140,-145,-145,140,140,,5,Raw,B
 Michael Köhl,M,1989,81.6,83,130,-140,-140,130,130,,6,Raw,B
 Simon Friesenecker,M,1987,82.4,83,120,-132.5,-135,120,120,,7,Raw,B
@@ -20,7 +20,7 @@ Michael Kunz,M,1967,115.8,120,160,165,172.5,172.5,172.5,,3,Raw,B
 Franz Huemer,M,1963,107.7,120,155,165,-170,165,165,,4,Raw,B
 Josef Schnaderbek,M,1959,118.7,120,147.5,152.5,157.5,157.5,157.5,,5,Raw,B
 Christian Wackernell,M,1980,161.5,120+,242.5,250,-260,250,250,,1,Raw,B
-Gernot Kasparek,M,1975,121.5,120+,210.5,-222.5,-222.5,210,210,,2,Raw,B
+Gernot Kasparek,M,1975,121.5,120+,210,-222.5,-222.5,210,210,,2,Raw,B
 Günther Ferstl,M,1979,158,120+,180,190,-200,190,190,,3,Raw,B
 Mario Hopf,M,1984,179.6,120+,180,187.5,-192.5,187.5,187.5,,4,Raw,B
 Christoph Würflinger,M,1988,146.9,120+,175,185,-200,185,185,,5,Raw,B
