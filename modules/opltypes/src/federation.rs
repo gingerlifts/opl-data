@@ -372,6 +372,11 @@ pub enum Federation {
     #[strum(to_string = "GPC-RUS", serialize = "gpc-rus")]
     GPCRUS,
 
+    /// Croatian branch of the GPA.
+    #[serde(rename = "GPC-WUAP-CRO")]
+    #[strum(to_string = "GPC-WUAP-CRO", serialize = "gpc-wuap-cro")]
+    GPCWUAPCRO,
+
     /// Global Powerlifting Federation
     #[strum(to_string = "GPF", serialize = "gpf")]
     GPF,
@@ -1076,6 +1081,7 @@ impl Federation {
             Federation::GPCNZ => false,
             Federation::GPCUSA => false,
             Federation::GPCRUS => false,
+            Federation::GPCWUAPCRO => false,
             Federation::GPF => false,
             Federation::GPU => false,
             Federation::GRAWA => false,
@@ -1311,6 +1317,7 @@ impl Federation {
             Federation::GPCNZ => Some(Country::NewZealand),
             Federation::GPCUSA => Some(Country::USA),
             Federation::GPCRUS => Some(Country::Russia),
+            Federation::GPCWUAPCRO => Some(Country::Croatia),
             Federation::GPF => None,
             Federation::GPU => Some(Country::Germany),
             Federation::GRAWA => Some(Country::Germany),
@@ -1556,6 +1563,7 @@ impl Federation {
             Federation::GPCNZ => PointsSystem::Glossbrenner,
             Federation::GPCUSA => PointsSystem::Glossbrenner,
             Federation::GPCRUS => PointsSystem::Glossbrenner,
+            Federation::GPCWUAPCRO => PointsSystem::Wilks,
             Federation::GPF => PointsSystem::Wilks,
             Federation::GPU => PointsSystem::Wilks,
             Federation::GRAWA => PointsSystem::Wilks,
