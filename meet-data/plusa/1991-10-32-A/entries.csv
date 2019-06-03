@@ -1,4 +1,4 @@
-﻿Name,WeightClassKg,Division,Sex,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
+Name,WeightClassKg,Division,Sex,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Joy Davis,56,Open,F,,,117.93,77.11,145.15,340.19,SBD,Single-ply,1
 Nerva Morrison,56,Open,F,,,108.86,61.24,136.08,306.18,SBD,Single-ply,2
 Julie Field,56+,Open,F,,,136.08,99.79,149.69,385.55,SBD,Single-ply,1
@@ -64,7 +64,7 @@ Charlie Poole,75,Natural,M,,,204.12,149.69,240.4,594.21,SBD,Single-ply,1
 Todd Burkholder,75,Natural,M,,,229.06,142.88,215.46,587.4,SBD,Single-ply,2
 Greg Harvey,75,Natural,M,,,185.97,142.88,204.12,532.97,SBD,Single-ply,3
 Rick Lanz,75,Natural,M,,,190.51,104.33,226.8,521.63,SBD,Single-ply,4
-Tee Myers,82.5,Natural,M,,,276.69,149.69,301.64,728.02,SBD,Single-ply,1
+Tee Meyers,82.5,Natural,M,,,276.69,149.69,301.64,728.02,SBD,Single-ply,1
 David Wilkerson,82.5,Natural,M,,,263.08,158.76,240.4,662.25,SBD,Single-ply,2
 Bobby Reece,82.5,Natural,M,,,244.94,145.15,240.4,630.49,SBD,Single-ply,3
 Gary Lands,82.5,Natural,M,,,226.8,158.76,226.8,612.35,SBD,Single-ply,4
@@ -96,7 +96,7 @@ Bernard Johnson,67.5,Open,M,,,226.8,154.22,233.6,614.62,SBD,Single-ply,1
 Ricky Mills,67.5,Open,M,,,238.14,129.27,206.38,573.8,SBD,Single-ply,2
 L. Braurd,67.5,Open,M,,,165.56,104.33,204.12,474,SBD,Single-ply,3
 S. Lawrence,67.5,Open,M,,,170.1,117.93,183.71,471.74,SBD,Single-ply,4
-Tee Myers,82.5,Open,M,,,276.69,149.69,301.64,728.02,SBD,Single-ply,1
+Tee Meyers,82.5,Open,M,,,276.69,149.69,301.64,728.02,SBD,Single-ply,1
 Paul Perzan,82.5,Open,M,,,276.69,176.9,263.08,716.68,SBD,Single-ply,2
 Alex Lyons,82.5,Open,M,,,242.67,151.95,274.42,669.05,SBD,Single-ply,3
 David Wilkerson,82.5,Open,M,,,263.08,158.76,240.4,662.25,SBD,Single-ply,4
