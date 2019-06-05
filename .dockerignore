@@ -1,0 +1,12 @@
+.dockerignore
+.git
+.gitattributes
+.gitignore
+.gitlab-ci.yml
+.travis.yml
+Dockerfile
+LICENSE
+*.md
+
+build/
+docs/
