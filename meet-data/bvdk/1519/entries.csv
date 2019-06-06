@@ -1,8 +1,8 @@
 Name,WeightClassKg,Division,Sex,BodyweightKg,BirthDate,Team,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Equipment,Event
 Anita Riedl,84+,Masters 2,F,103.4,1964-11-10,KSC Frauenau,100,105,,105,105,1,Single-ply,D
-Cheyenne Reich,52,Youth A,F,52,1998-09-17,Juniors Gym,120,-127.5,120,120,120,1,Single-ply,D
-Dakota Reich,57,Youth A,F,55.6,1998-09-17,Juniors Gym,140,-145,140,165.6,165.6,1,Single-ply,D
-Michaela Lässer-Walt,52,Master 1,F,49.7,1967-11-17,STC Bavaria Landshut,125,130,-132.5,130,130,1,Single-ply,D
+Cheyenne Reich,52,Youth A,F,52,1998-09-17,Juniors Gym,100,120,-127.5,120,120,1,Single-ply,D
+Dakota Reich,57,Youth A,F,55.6,1998-09-17,Juniors Gym,120,140,-145,140,165.6,1,Single-ply,D
+Michaela Lässer-Walt,52,Masters 1,F,49.7,1967-11-17,STC Bavaria Landshut,125,130,-132.5,130,130,1,Single-ply,D
 Caroline Garhammer-Vogt,63,Open,F,61.8,1978-08-20,SPCO Schweiz,160,175,-195,175,175,1,Single-ply,D
 Veronika Mull,84,Open,F,78.6,1989-08-20,KSC Puch,140,157.5,165,165,165,1,Single-ply,D
 Heide Baumann,63,Open,F,62.1,1976-07-22,KSV Höllhöhe,140,155,-162.5,155,155,2,Single-ply,D
@@ -10,13 +10,13 @@ Franziska Altschäffl,84,Juniors,F,76.9,1995-08-22,ESV München-Neuaubing,75,90,
 Sabine Zangerle,72,Open,F,67.4,1982-08-24,Power Bunker Imst,90,100,-105,100,100,2,Single-ply,D
 Daniela Bentschitsch,84,Masters 2,F,83.8,1965-04-25,KSV Reutte,147.5,155,-162.5,155,155,2,Single-ply,D
 Frederike Pfeiffer,72,Masters 3,F,66.3,1952-07-26,Gitti City Stockerau,140,150,157.5,157.5,157.5,1,Single-ply,D
-Martina Segerer,'84+,Open,F,104.4,1980-07-29,SC Wald,160,-170,-170,160,160,1,Single-ply,D
+Martina Segerer,84+,Open,F,104.4,1980-07-29,SC Wald,160,-170,-170,160,160,1,Single-ply,D
 Susanne Steidle,84,Masters 2,F,77.3,1964-05-30,SV Würzburg 05,145,155,,155,155,1,Single-ply,D
 Andrea Pauli,72,Open,F,63.3,1980-01-01,KSC Frauenau,130,137.5,140,140,140,1,Single-ply,D
 Patrizia Giuliani,72,Juniors,F,67.9,1993-03-03,ESV München-Neuaubing,72.5,82.5,87.5,87.5,87.5,2,Single-ply,D
 Carina Regensberger,57,Open,F,56.2,1982-03-04,KSV Reutte,132.5,140,147.5,147.5,147.5,1,Single-ply,D
 Melanie Hausdörfer,72,Juniors,F,65.5,1995-05-04,PSV Sonneberg,90,100,-110,100,100,1,Single-ply,D
-Ana Geitner,47,Master 1,F,41.8,1967-03-07,USV TU Dresden,140,145,-147.5,145,145,1,Single-ply,D
+Ana Geitner,47,Masters 1,F,41.8,1967-03-07,USV TU Dresden,140,145,-147.5,145,145,1,Single-ply,D
 Sabine Bommersbach,63,Masters 2,F,58.6,1964-07-07,PSV Sonneberg,110,125,-140,125,125,1,Single-ply,D
 Herbert Rieder,59,Masters 1,M,51.4,1971-09-10,TV Kempten,60,70,85,85,85,1,Single-ply,D
 Sascha Stendebach,93,Open,M,91.7,1991-06-11,KSV Mainz 08,322.5,335,342.5,342.5,342.5,1,Single-ply,D
@@ -26,7 +26,7 @@ Manuel Körner,83,Open,M,82.3,1983-10-13,KSV Höllhöhe,270,-285,-285,270,270,2,
 Christoph Senn,105,Open,M,102.4,1981-03-14,Power Bunker Imst,275,-282.5,,275,275,2,Single-ply,D
 Ali Alkan,74,Masters 3,M,67.1,1950-03-15,AC-92 Weinheim,85,100,105,105,105,1,Single-ply,D
 Sunday Ehogharukomwen,83,Masters 2,M,75.8,1965-03-15,KSC Atitila Dachau,235,250,-265,250,250,1,Single-ply,D
-Christoph Erbs,105,Open,M,94.2,1979-05-15,VfB Klötze,-330,-347.5,-347.5,-330,-330,,Single-ply,D
+Christoph Erbs,105,Open,M,94.2,1979-05-15,VfB Klötze,-330,-347.5,-347.5,,,DQ,Single-ply,D
 Stefan Degasperi,105,Masters 1,M,105,1972-09-15,KSC Attila Dachau,242.5,252.5,-262.5,252.5,252.5,3,Single-ply,D
 Heinz Mihoubi,120,Masters 3,M,105.9,1947-11-15,KSV Höllhöhe,190,205,-215,205,205,1,Single-ply,D
 Guido Meier,93,Masters 1,M,91.8,1966-05-16,ESV München-Neuaubing,237.5,250,-262.5,250,250,2,Single-ply,D
@@ -42,7 +42,7 @@ Stefan Pagelsen,83,Juniors,M,78.4,1992-07-18,TG Landshut,200,220,235,235,235,2,S
 Kai Döring,105,Open,M,99.4,1976-08-18,KSC Attila Dachau,205,222.5,-235,222.5,222.5,6,Single-ply,D
 Johannes Setz,120,Open,M,108.5,1982-11-18,Juniors Gym,240,255,265,265,265,6,Single-ply,D
 Malte Fleissner,120,Open,M,115.2,1989-12-18,AC Siegen,322.5,335,-345,335,335,1,Single-ply,D
-Patrick Strangis,83,Juniors,M,82.8,1993-10-19,C.F.  Weightplayers,200,210,-215,210,210,5,Single-ply,D
+Patrick Strangis,83,Juniors,M,82.8,1993-10-19,C.F. Weightplayers,200,210,-215,210,210,5,Single-ply,D
 Xaver Kennerknecht,105,Masters 3,M,104.9,1946-11-19,TV Kempten,180,195,207.5,207.5,207.5,1,Single-ply,D
 Thomas Möller,74,Masters 2,M,73.5,1957-12-19,C.F Weightplayers,230,-235,-237.5,230,230,1,Single-ply,D
 Thomas Starklauf,93,Open,M,92,1989-12-19,AC Bavaria Forchheim,270,285,295,295,295,3,Single-ply,D
@@ -95,12 +95,12 @@ Daniel Schneider,120,Open,M,111.8,1989-05-05,AC Siegen,240,-262.5,-262.5,240,240
 Josef Pangerl,105,Masters 1,M,104.3,1968-02-06,KSV Höllhöhe,220,-235,235,235,235,4,Single-ply,D
 Andreas Schmid,83,Open,M,82.3,1991-04-06,ASV 1897 Neu-Ulm,240,252.5,-267.5,252.5,252.5,5,Single-ply,D
 Johannes Gruber,93,Open,M,86.7,1991-05-06,Body Aktiv Wien,240,250,-260,250,250,5,Single-ply,D
-Kevin Litwitz,66,Youth A,M,62.6,1967-09-06,SC Oberölsbach,140,155,160,160,160,1,Single-ply,D
-Mykola Grapp,105,Open,M,97,1982-12-06,SV Quitt Ankum,-330,-330,-332.5,-330,-330,DQ,Single-ply,D
+Kevin Litwitz,66,Youth A,M,62.6,,SC Oberölsbach,140,155,160,160,160,1,Single-ply,D
+Mykola Grapp,105,Open,M,97,1982-12-06,SV Quitt Ankum,-330,-330,-332.5,,,DQ,Single-ply,D
 Ekkehard Enslin,83,Masters 2,M,79.8,1956-03-07,C.F Weightplayers,210,220,-227.5,220,220,3,Single-ply,D
 Andreas Staude,83,Open,M,82.9,1979-04-07,STC Bavaria Landshut,240,-260,-275,240,240,8,Single-ply,D
-Michael Laabs,120+,Masters 1,M,156.7,1973-07-07,C.F Weightplayers,290,-300,-300,290,290,,Single-ply,D
-Andreas Schmitt,93,Masters 2,M,92.8,1975-07-07,AC-92 Weinheim,175,185,195,195,195,2,Single-ply,D
+Michael Laabs,120+,Masters 1,M,156.7,1973-07-07,C.F Weightplayers,290,-300,-300,290,290,1,Single-ply,D
+Andreas Schmitt,93,Masters 2,M,92.8,,AC-92 Weinheim,175,185,195,195,195,2,Single-ply,D
 Alexander Diepold,66,Masters 4,M,63.8,1937-11-07,KSC Puch,140,147.5,152.5,152.5,152.5,1,Single-ply,D
 Johannes Meier,83,Juniors,M,74.4,1995-11-07,SC Oberölsbach,130,140,150,150,150,7,Single-ply,D
 Johann Goldstein,83,Masters 2,M,80.4,1957-12-07,KSC Atitila Dachau,215,230,-242.5,230,230,2,Single-ply,D
