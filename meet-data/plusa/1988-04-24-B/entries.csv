@@ -2,12 +2,12 @@ Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 D. Black,,Open,F,107.5,60,120,287.5,SBD,Single-ply,1
 L. Wysocki,,Open,F,112.5,57.5,147.5,317.5,SBD,Single-ply,2
 J. Farabee,,Open,F,110,55,125,290,SBD,Single-ply,3
-A. Wilson,,Open,F,97.5,62.5,137.5,297.5,SBD,Single-ply,4
+A. Wilson #4,,Open,F,97.5,62.5,137.5,297.5,SBD,Single-ply,4
 D. Lassiter,,Open,F,92.5,52.5,102.5,247.5,SBD,Single-ply,5
 R. Minor,,Open,F,80,50,95,225,SBD,Single-ply,6
 T. Miller,,Open,F,72.5,35,80,187.5,SBD,Single-ply,7
 Dave Weiss,56,LW Teen,M,120,110,155,385,SBD,Single-ply,1
-B. Miller,,LW Teen,M,160,95,155,410,SBD,Single-ply,2
+B. Miller #13,,LW Teen,M,160,95,155,410,SBD,Single-ply,2
 A. Collias,90,HW Teen,M,272.5,160,245,677.5,SBD,Single-ply,1
 R. DeBias,,HW Teen,M,175,137.5,190,502.5,SBD,Single-ply,2
 H. Rome,,LW Masters,M,177.5,105,195,477.5,SBD,Single-ply,1
@@ -21,7 +21,7 @@ G. McElroy,67.5,Class II & Below,M,165,117.5,172.5,455,SBD,Single-ply,1
 J. Rich,75,Class II & Below,M,222.5,120,205,547.5,SBD,Single-ply,1
 T. Cassidy,75,Class II & Below,M,162.5,82.5,210,455,SBD,Single-ply,2
 G. Kovach,82.5,Class II & Below,M,190,102.5,230,522.5,SBD,Single-ply,1
-M. White,82.5,Class II & Below,M,150,85,170,405,SBD,Single-ply,2
+M. White #7,82.5,Class II & Below,M,150,85,170,405,SBD,Single-ply,2
 A. Collias,90,Class II & Below,M,272.5,160,245,677.5,SBD,Single-ply,1
 T. Zatta,90,Class II & Below,M,222.5,157.5,245,625,SBD,Single-ply,2
 J. Zelent,100,Class II & Below,M,250,167.5,247.5,665,SBD,Single-ply,1
@@ -45,5 +45,5 @@ D. Rotolo,100,Open,M,257.5,162.5,300,720,SBD,Single-ply,5
 J. Haywood,100,Open,M,265,182.5,260,707.5,SBD,Single-ply,6
 Louie Simmons,110,Open,M,372.5,227.5,292.5,892.5,SBD,Single-ply,1
 Leo Wysocki,110,Open,M,297.5,210,265,772.5,SBD,Single-ply,2
-B. Rush,110,Open,M,282.5,200,260,742.5,SBD,Single-ply,3
+B. Rush #3,110,Open,M,282.5,200,260,742.5,SBD,Single-ply,3
 P. Beane,125,Open,M,275,182.5,270,727.5,SBD,Single-ply,1

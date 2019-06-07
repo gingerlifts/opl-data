@@ -39,7 +39,7 @@ J. Cobb,56,Class II,M,132.5,82.5,152.5,367.5,SBD,Single-ply,2
 J. Stuckey,60,Class II,M,197.5,102.5,185,485,SBD,Single-ply,1
 G. Llout,60,Class II,M,155,100,130,385,SBD,Single-ply,2
 C. McDonald,60,Class II,M,102.5,,,,SBD,Single-ply,DQ
-J. Thompson,67.5,Class II,M,177.5,135,220,532.5,SBD,Single-ply,1
+J. Thompson #5,67.5,Class II,M,177.5,135,220,532.5,SBD,Single-ply,1
 K. Hall,67.5,Class II,M,175,110,172.5,457.5,SBD,Single-ply,2
 R. Pulley,67.5,Class II,M,157.5,105,195,457.5,SBD,Single-ply,3
 G. Reed,67.5,Class II,M,160,105,177.5,442.5,SBD,Single-ply,4
@@ -49,7 +49,7 @@ B. Schwab,75,Class II,M,182.5,142.5,220,545,SBD,Single-ply,3
 T. Southwood,75,Class II,M,207.5,125,197.5,530,SBD,Single-ply,4
 M. Lambiase,75,Class II,M,182.5,117.5,195,495,SBD,Single-ply,5
 S. Lockhart,75,Class II,M,160,100,185,445,SBD,Single-ply,6
-R. Thomas,82.5,Class II,M,245,145,280,670,SBD,Single-ply,1
+R. Thomas #9,82.5,Class II,M,245,145,280,670,SBD,Single-ply,1
 J. Bennett,82.5,Class II,M,215,160,250,625,SBD,Single-ply,2
 M. Blizzard,82.5,Class II,M,215,170,237.5,622.5,SBD,Single-ply,3
 T. Keen,82.5,Class II,M,235,137.5,237.5,610,SBD,Single-ply,4
@@ -86,13 +86,13 @@ S. Crowe,110,Novice,M,265,157.5,192.5,615,SBD,Single-ply,3
 S. Bessent,110,Novice,M,192.5,127.5,222.5,542.5,SBD,Single-ply,4
 G. Silas,110,Novice,M,192.5,137.5,182.5,512.5,SBD,Single-ply,5
 D. Lott,110,Novice,M,200,112.5,195,507.5,SBD,Single-ply,6
-B. Crow,125,Novice,M,262.5,180,295,737.5,SBD,Single-ply,1
+B. Crow #1,125,Novice,M,262.5,180,295,737.5,SBD,Single-ply,1
 M. Marasco,125,Novice,M,275,202.5,227.5,705,SBD,Single-ply,2
 N. Gewirtzman,125,Novice,M,250,167.5,257.5,675,SBD,Single-ply,3
 B. Wilson,125,Novice,M,210,152.5,227.5,590,SBD,Single-ply,4
 J. Kennedy,125,Novice,M,217.5,145,207.5,570,SBD,Single-ply,5
 C. Simpson,125,Novice,M,212.5,125,207.5,545,SBD,Single-ply,6
-K. Jackson,125+,Novice,M,295,170,272.5,737.5,SBD,Single-ply,1
+K. Jackson #4,125+,Novice,M,295,170,272.5,737.5,SBD,Single-ply,1
 T. Wright,125+,Novice,M,277.5,147.5,240,665,SBD,Single-ply,2
 J. Sutherland,56,Open,M,202.5,115,202.5,520,SBD,Single-ply,1
 P. Gutierrez,56,Open,M,170,92.5,207.5,470,SBD,Single-ply,2
@@ -100,7 +100,7 @@ Hennis Washington,60,Open,M,220,137.5,220,577.5,SBD,Single-ply,1
 J. Stuckey,60,Open,M,197.5,102.5,185,485,SBD,Single-ply,2
 G. Jefferson,67.5,Open,M,215,137.5,217.5,570,SBD,Single-ply,1
 E. Johnson,67.5,Open,M,207.5,117.5,217.5,542.5,SBD,Single-ply,2
-J. Thompson,67.5,Open,M,177.5,135,220,532.5,SBD,Single-ply,3
+J. Thompson #5,67.5,Open,M,177.5,135,220,532.5,SBD,Single-ply,3
 G. Kiser,75,Open,M,237.5,167.5,282.5,687.5,SBD,Single-ply,1
 G. Wright,75,Open,M,205,160,262.5,627.5,SBD,Single-ply,2
 T. Calhoun,75,Open,M,210,152.5,227.5,590,SBD,Single-ply,3
