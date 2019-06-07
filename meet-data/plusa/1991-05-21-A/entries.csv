@@ -10,7 +10,7 @@ A. Cain,90,Open,M,260,150,260,670,SBD,Single-ply,2
 D. Johnson,100,Open,M,302.5,187.5,300,790,SBD,Single-ply,1
 E. Johnson,100,Open,M,270,172.5,272.5,715,SBD,Single-ply,2
 J. Caar,100,Open,M,240,190,242.5,672.5,SBD,Single-ply,3
-M. Walker,100,Open,M,192.5,157.5,227.5,577.5,SBD,Single-ply,4
+M. Walker #1,100,Open,M,192.5,157.5,227.5,577.5,SBD,Single-ply,4
 C. Chapin,100,Open,M,147.5,100,182.5,430,SBD,Single-ply,5
 F. Christman,110,Open,M,317.5,197.5,287.5,802.5,SBD,Single-ply,1
 D. Muns,110,Open,M,307.5,180,272.5,760,SBD,Single-ply,2
@@ -72,7 +72,7 @@ B. Benoit,97,Class II,M,190,122.5,200,512.5,SBD,Single-ply,1
 M. Hoseman,98,Class II,M,185,102.5,192.5,480,SBD,Single-ply,1
 J. Gaar,100,Class II,M,240,190,242.5,672.5,SBD,Single-ply,1
 L. Snowden,100,Class II,M,220,142.5,245,607.5,SBD,Single-ply,2
-M. Walker,100,Class II,M,192.5,157.5,227.5,577.5,SBD,Single-ply,3
+M. Walker #1,100,Class II,M,192.5,157.5,227.5,577.5,SBD,Single-ply,3
 B. Taylor,100,Class II,M,207.5,145,192.5,545,SBD,Single-ply,4
 C. Chapin,100,Class II,M,147.5,100,192.5,440,SBD,Single-ply,5
 M. Erby,110,Class II,M,317.5,165,272.5,755,SBD,Single-ply,1
