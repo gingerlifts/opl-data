@@ -1,4 +1,4 @@
-Place,Name,Division,Sex,Team,BirthDate,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Event,Equipment,WeightClassKg
+﻿Place,Name,Division,Sex,Team,BirthDate,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Event,Equipment,WeightClassKg
 1,Martina Rummel,Masters 1,F,KSC Puch e.V.,1976-03-25,53.1,67.5,-72.5,-72.5,67.5,67.5,B,Raw,57
 1,Katja Haindl,Open,F,Turngemeinde Landshut 1861 e.V.,1994-05-06,56.3,50,55,57.5,57.5,57.5,B,Raw,57
 2,Doris Augustiniok,Masters 1,F,Turngemeinde Landshut 1861 e.V.,1971-10-05,59.8,57.5,62.5,65,65,65,B,Raw,63
@@ -78,4 +78,4 @@ Place,Name,Division,Sex,Team,BirthDate,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,B
 1,Simon Reichmeier,Open,M,KSC Frauenau,1989-03-10,118.6,200,-210,-210,200,200,B,Raw,120
 1,Moritz Taschner,Youth,M,AC Bavaria Forchheim 1908 e.V.,2002-11-19,131.5,150,165,170,170,170,B,Raw,120+
 1,Jochen Schulz,Masters 2,M,ESV München-Neuaubing,1968-02-16,147.8,145,155,-163,155,155,B,Raw,120+
-G,Stefan Pagelsen,Open,M,Turngemeinde Landshut 1861 e.V.,1992-07-18,,137.5,147.5,155,155,155,B,Raw,53
+G,Stefan Pagelsen,Open,M,Turngemeinde Landshut 1861 e.V.,1992-07-18,,137.5,147.5,155,155,155,B,Raw,
