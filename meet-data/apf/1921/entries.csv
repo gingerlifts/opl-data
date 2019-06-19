@@ -1,4 +1,4 @@
-﻿Name,Age,Sex,Equipment,Div,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Tested,Event,Team
+Name,Age,Sex,Equipment,Division,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Tested,Event,Team
 Arman Ahrabian,25,M,Raw,M_OR_APF,105.6,110,175,-187.5,-187.5,175,260,275,292.5,292.5,467.5,1,,BD,Gladiator Teddy Bears
 Jesse Allen,19,M,Raw,M_TR_3_APF,70.7,75,102.5,-107.5,110,110,155,165,172.5,172.5,282.5,1,,BD,
 Reuben Arellano,25,M,Raw,M_OR_AAPF,81.2,82.5,-135,137.5,140,140,205,215,222.5,222.5,362.5,1,Yes,BD,
