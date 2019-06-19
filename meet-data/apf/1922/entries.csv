@@ -1,4 +1,4 @@
-﻿Name,Age,Sex,Division,Equipment,Tested,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Event,Team
+Name,Age,Sex,Division,Equipment,Tested,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Event,Team
 Bobby Body,41,M,M_MR_1_AAPF,Raw,Yes,78.3,82.5,170,180,185,185,,,,,185,1,B,Team DAV
 Bobby Body,41,M,M_OR_AAPF,Raw,Yes,78.3,82.5,170,180,185,185,,,,,185,1,B,Team DAV
 Bobby Body,41,M,M_MR_1_APF,Raw,,78.3,82.5,170,180,185,185,,,,,185,1,B,Team DAV
