@@ -1,4 +1,4 @@
-﻿Name,Age,Sex,Division,Equipment,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Place,Tested,Event
+Name,Age,Sex,Division,Equipment,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Place,Tested,Event
 Athias Eric,48,M,M_M2_EM_WPC,Multi-ply,81.8,82.5,260,-300,-320,,260,170,-200,200,,200,260,290,-313,,290,750,1,,SBD
 Couvercelle Bertrand,41,M,M_M1_CR_WPC,Wraps,81.4,82.5,195,-205,205,,205,115,-117.5,,,115,190,-202.5,,,190,510,1,,SBD
 Michalon Marc,40,M,M_M1_CR_WPC,Wraps,98.8,100,245,255,-265.5,,255,150,160,170,,170,245,255,265,,265,690,1,,SBD
