@@ -1,7 +1,7 @@
-﻿Name,Age,Sex,Division,Equipment,BodyweightKg,WeightClassKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Place,Event
+Name,Age,Sex,Division,Equipment,BodyweightKg,WeightClassKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Place,Event
 April Wells,22,F,FJ-R,Raw,55.78,56,97.5,105,110,117.5,110,110,2,D
 Heidi Griffiths,22,F,FJ-R,Raw,78.3,82.5,125,135,-140,,135,135,3,D
-Sheryl -Ann Kaye-Bourne,23,F,FJ-R,Raw,138.8,0,200,217.5,-220,,217.5,217.5,1,D
+Sheryl-Ann Kaye-Bourne,23,F,FJ-R,Raw,138.8,90+,200,217.5,-220,,217.5,217.5,1,D
 Coralie Weir,55,F,FM-R,Raw,51.68,52,155,-162.5,-162.5,,155,155,1,D
 Daniela Frisina,40,F,FM-R,Raw,55.1,56,105,115,-120,,115,115,3,D
 Andrea Pearce,50,F,FM-R,Raw,59.8,60,135,142.5,145,147.5,145,145,2,D
@@ -9,8 +9,8 @@ Bev Morgan,54,F,FM-R,Raw,64.7,67.5,142.5,152.5,-160,,152.5,152.5,2,D
 Leonie Robertson,60,F,FM-R,Raw,64.8,67.5,95,100,105,-110,105,105,3,D
 Janet Smith,48,F,FM-R,Raw,74.3,75,165,175,185,-190,185,185,1,D
 Pauline Magri,68,F,FM-R,Raw,79.6,82.5,110,120,130,132.5,130,130,1,D
-Amanda Hart,43,F,FM-R,Raw,101.4,0,130,-137.5,137.5,,137.5,137.5,2,D
-Janet Hammel,77,F,FM-R,Raw,102.1,0,67.5,72.5,-77.5,,72.5,72.5,3,D
+Amanda Hart,43,F,FM-R,Raw,101.4,90+,130,-137.5,137.5,,137.5,137.5,2,D
+Janet Hammel,77,F,FM-R,Raw,102.1,90+,67.5,72.5,-77.5,,72.5,72.5,3,D
 Michelina Weatherall,42,F,FM-SP,Single-ply,58.8,60,172.5,-180,-180,,172.5,172.5,1,D
 Lauren Nowak,30,F,FO-R,Raw,48,48,110,117.5,122.5,127.5,122.5,122.5,4,D
 Bec Carrick,28,F,FO-R,Raw,55.7,56,125,-130,-130,,125,125,1,D
@@ -18,7 +18,7 @@ Lily Chan,34,F,FO-R,Raw,56.1,60,140,147.5,157.5,160,157.5,157.5,1,D
 Amber Stephens,16,F,FT-R,Raw,58.9,60,110,122.5,-132.5,,122.5,122.5,1,D
 Jessica Taylor,19,F,FT-R,Raw,59.3,60,100,-102.5,,,100,100,3,D
 Emma Jenson,25,F,FO-R,Raw,65.7,67.5,155,165,-172.5,,165,165,2,D
-Sarah  Morris,28,F,FO-R,Raw,64.5,67.5,140,142.5,147.5,,147.5,147.5,6,D
+Sarah Morris,28,F,FO-R,Raw,64.5,67.5,140,142.5,147.5,,147.5,147.5,6,D
 Amanda Woods,38,F,FO-R,Raw,64,67.5,130,140.5,145,147.5,145,145,8,D
 Gemma Richardson,27,F,FO-R,Raw,64.9,67.5,115,120,125,,125,125,9,D
 Viki Hokai,29,F,FO-R,Raw,66.3,67.5,107.5,112.5,117.5,,117.5,117.5,2,D
