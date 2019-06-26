@@ -1,4 +1,4 @@
-﻿Name,WeightClassKg,Division,Place,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Equipment,Tested,Event
+Name,WeightClassKg,Division,Place,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Equipment,Tested,Event
 Kasey Smith,56,F_OR_APF,1,27,80,67.5,117.5,265,F,Raw,,SBD
 Kinzi Atwood,60,F_JCR_AAPF,1,23,115,67.5,145,327.5,F,Wraps,Yes,SBD
 Caitlin Cook,60,F_OCR_APF,1,26,130,67.5,135,332.5,F,Wraps,,SBD
@@ -15,9 +15,9 @@ David Ronces-Morales,67.5,M_OCR_AAPF,1,22,135,90,187.5,412.5,M,Wraps,Yes,SBD
 Justin Allred,75,M_OR_AAPF,1,24,152.5,107.5,180,440,M,Raw,Yes,SBD
 Joshua LaRe,82.5,M_JCR_AAPF,1,20,162.5,100,197.5,460,M,Wraps,Yes,SBD
 Hampton Pelton,82.5,M_OCR_APF,1,25,220,150,262.5,632.5,M,Wraps,,SBD
-Justin Chris Christensen (O),82.5,M_OCR_APF,2,33,220,170,230,620,M,Wraps,,SBD
+Justin Chris Christensen,82.5,M_OCR_APF,2,33,220,170,230,620,M,Wraps,,SBD
 Shayne Buchanan,82.5,M_OCR_APF,3,25,187.5,140,175,502.5,M,Wraps,,SBD
-Justin Chris Christensen (S),82.5,M_SCR_APF,1,33,220,170,230,620,M,Wraps,,SBD
+Justin Chris Christensen,82.5,M_SCR_APF,1,33,220,170,230,620,M,Wraps,,SBD
 Richard Damraur,82.5,M_SCR_APF,2,33,170,122.5,192.5,485,M,Wraps,,SBD
 Paul Sharp,82.5,M_SCR_APF,3,35,145,70,155,370,M,Wraps,,SBD
 Torin Subin,82.5,M_TCR_3_AAPF,1,19,210,135,235,580,M,Wraps,Yes,SBD
@@ -37,17 +37,17 @@ Garett Walker,100,M_OR_AAPF,1,26,147.5,100,170,417.5,M,Raw,Yes,SBD
 Nicholas Scott Gravley,110,M_JR_AAPF,1,23,227.5,137.5,245,610,M,Raw,Yes,SBD
 Colby Henry,110,M_JR_APF,1,22,177.5,110,207.5,495,M,Raw,,SBD
 Daniel Savage,110,M_MCR_2_APF,1,46,200,147.5,237.5,585,M,Wraps,,SBD
-Joel Schurtz (O),110,M_OCR_APF,1,39,282.5,210,265,757.5,M,Wraps,,SBD
+Joel Schurtz,110,M_OCR_APF,1,39,282.5,210,265,757.5,M,Wraps,,SBD
 Lee Jacobs,110,M_OCR_APF,2,35,240,162.5,255,657.5,M,Wraps,,SBD
-Joel Schurtz (S),110,M_SCR_APF,1,39,282.5,210,265,757.5,M,Wraps,,SBD
+Joel Schurtz,110,M_SCR_APF,1,39,282.5,210,265,757.5,M,Wraps,,SBD
 Kuli Malohifoou,125,M_OCR_APF,1,36,227.5,185,287.5,700,M,Wraps,,SBD
 Anthony Kucia,125,M_MCR_2_APF,1,46,227.5,182.5,250,660,M,Wraps,,SBD
-Shay McQuiston (O),140+,M_OCR_APF,1,36,332.5,190,265,787.5,M,Wraps,,SBD
-Shay McQuiston (S),140+,M_SCR_APF,1,36,332.5,190,265,787.5,M,Wraps,,SBD
+Shay McQuiston,140+,M_OCR_APF,1,36,332.5,190,265,787.5,M,Wraps,,SBD
+Shay McQuiston,140+,M_SCR_APF,1,36,332.5,190,265,787.5,M,Wraps,,SBD
 Rylee Reeves,140+,M_JCR_APF,1,23,305,177.5,290,772.5,M,Wraps,,SBD
 Jeremy Clifford,140,M_OCR_APF,DQ,33,250,167.5,,167.5,M,Wraps,,SBD
-Justin Chris Christensen (O),82.5,M_OCR_APF,1,33,,170,,170,M,Wraps,,B
-Justin Chris Christensen (S),82.5,M_SCR_APF,1,33,,170,,170,M,Wraps,,B
+Justin Chris Christensen,82.5,M_OCR_APF,1,33,,170,,170,M,Wraps,,B
+Justin Chris Christensen,82.5,M_SCR_APF,1,33,,170,,170,M,Wraps,,B
 Thomas Grove,90,M_OR_APF,1,28,,167.5,,167.5,M,Raw,,B
 Garrett Olsen,52,Male Novice 10,1,10,,,65,65,M,Raw,,D
 Wyatt Olsen,52,Male Novice 12,1,12,,,90,90,M,Raw,,D
