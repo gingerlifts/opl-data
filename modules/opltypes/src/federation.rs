@@ -859,6 +859,11 @@ pub enum Federation {
     #[serde(rename = "WPC-Iceland")]
     #[strum(to_string = "WPC-Iceland", serialize = "wpc-iceland")]
     WPCIceland,
+    
+    /// Italian WPC affiliate.
+    #[serde(rename = "WPC-Italy")]
+    #[strum(to_string = "WPC-Italy", serialize = "wpc-italy")]
+    WPCItaly,
 
     /// Kazakh WPC affiliate.
     #[serde(rename = "WPC-KAZ")]
