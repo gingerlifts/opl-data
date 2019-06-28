@@ -1,4 +1,4 @@
-Name,Age,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Sex,Event,Equuipment,Tested
+Name,Age,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Sex,Event,Equipment,Tested
 Troy Christianson,41,M_MCR_1_AAPF,123.6,125,225,240,247.5,247.5,142.5,157.5,167.5,167.5,225,242.5,250,250,665,1,M,SBD,Wraps,Yes
 Tory Hansen,28,M_OCR_APF,79.8,82.5,145,162.5,-175,162.5,102.5,107.5,-112.5,107.5,185,215,227.5,227.5,497.5,1,M,SBD,Wraps,
 Sean Bartholick,32,M_OR_AAPF,81.8,82.5,125,130,-137.5,130,85,-95,-97.5,85,155,157.5,162.5,162.5,377.5,1,M,SBD,Raw,Yes
