@@ -1,15 +1,15 @@
-﻿Name,Tested,Age,WeightClassKg,BodyweightKg,Division,Equipment,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Sex,Place
+Name,Tested,Age,WeightClassKg,BodyweightKg,Division,Equipment,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Sex,Place
 Bethany Barrett,,19,56,52.4,F-RT3-APF,Raw,65,50,,,SBD,F,DQ
 Alyssa Kroll,Yes,19,67.5,63.4,F-RT3-AAPF,Raw,85,80,125,290,SBD,F,1
-Collette Smith ,Yes,22,52,51.4,F-RJR-AAPF,Raw,75,52.5,120,247.5,SBD,F,1
+Collette Smith,Yes,22,52,51.4,F-RJR-AAPF,Raw,75,52.5,120,247.5,SBD,F,1
 Katelyn Prawitt,,23,75,71.8,F-RJR-APF,Raw,100,60,137.5,297.5,SBD,F,1
-Collette Smith ,Yes,30,52,51.4,F-RO-AAPF,Raw,75,52.5,120,247.5,SBD,F,1
+Collette Smith,Yes,30,52,51.4,F-RO-AAPF,Raw,75,52.5,120,247.5,SBD,F,1
 Kasey Smith,,26,56,55,F-RO-APF,Raw,95,75,140,310,SBD,F,1
 Daniela Des Islets,Yes,26,67.5,63,F-RO-AAPF,Raw,100,60,115,275,SBD,F,2
 Heather Otto,Yes,35,67.5,64.6,F-RO-AAPF,Raw,85,67.5,127.5,280,SBD,F,1
 Heidi Saavedra,,34,82.5,79.6,F-RO-APF,Raw,112.5,70,145,327.5,SBD,F,2
 Jamie Toone,,26,82.5,81.2,F-RO-APF,Raw,77.5,77.5,107.5,262.5,SBD,F,3
-Taylor Porter ,,30,82.5,80,F-RO-APF,Raw,152.5,80,147.5,380,SBD,F,1
+Taylor Porter,,30,82.5,80,F-RO-APF,Raw,152.5,80,147.5,380,SBD,F,1
 Joshua LaRe,Yes,19,67.5,66.3,M-RT3-AAPF,Raw,135,100,195,430,SBD,M,1
 Joseph Harbold,Yes,21,82.5,80.3,M-RJR-AAPF,Raw,172.5,105,260,537.5,SBD,M,1
 Joseph Harbold,,21,82.5,80.3,M-RJR-APF,Raw,172.5,105,260,537.5,SBD,M,1
@@ -40,7 +40,7 @@ Colton Powell,Yes,22,90,87.7,M-CRJR-AAPF,Wraps,175,120,180,475,SBD,M,1
 Taylor Griffiths,,22,100,97.6,M-CRJR-APF,Wraps,235,185,302.5,722.5,SBD,M,1
 Mikkel Langseth,,22,110,107.7,M-CRJR-APF,Wraps,270,140,265,675,SBD,M,1
 Jason Gonzalez,,24,67.5,65.4,M-CRO-APF,Wraps,195,152.5,210,557.5,SBD,M,1
-Robert Simmons,Yes,24,90,88.7,M-CRO-AAPF,Wraps,207.5,147.5,,355,SBD,M,1
+Robert Simmons,Yes,24,90,88.7,M-CRO-AAPF,Wraps,207.5,147.5,240,595,SBD,M,1
 Michael Lear,Yes,33,82.5,81.5,M-CRO-AAPF,Wraps,245,152.5,300,697.5,SBD,M,1
 Robert Simmons,,24,90,88.7,M-CRO-APF,Wraps,207.5,147.5,240,595,SBD,M,1
 Michael Lear,,33,82.5,81.5,M-CRO-APF,Wraps,245,152.5,300,697.5,SBD,M,1
@@ -58,7 +58,7 @@ Tommy Winn,,37,100,95.3,M-CRSM-APF,Wraps,185,125,280,590,SBD,M,1
 Shay McQuiston,,35,140,131.9,M-CRSM-APF,Wraps,322.5,192.5,272.5,787.5,SBD,M,1
 Brett Zimmerman,,41,100,97.3,M-CRM1-APF,Wraps,175,150,242.5,567.5,SBD,M,1
 Terry Vogel,,44,100,98.3,M-CRM1-APF,Wraps,182.5,145,215,542.5,SBD,M,2
-Les Beecher,,48,100,98.4,M-RM1-APF,,242.5,185,252.5,680,SBD,M,1
+Les Beecher,,48,100,98.4,M-RM1-APF,Raw,242.5,185,252.5,680,SBD,M,1
 Nate Barnes,,42,110,103.6,M-CRM1-APF,Wraps,205,167.5,227.5,600,SBD,M,1
 Steve Arnoldus,Yes,45,110,106.7,M-CRM2-AAPF,Wraps,212.5,137.5,230,580,SBD,M,1
 Cody Clawson,,18,90,84.3,M-SPT3-APF,Single-ply,255,182.5,210,647.5,SBD,M,1
@@ -69,7 +69,7 @@ Mike Saunders,,37,90,89.3,M-SPO-APF,Single-ply,,302.5,,,SBD,M,DQ
 Ryan Marble,,30,90,89.8,M-SPO-APF,Single-ply,297.5,282.5,272.5,852.5,SBD,M,2
 Arron Chavez,,30,140+,148,M-SPO-APF,Single-ply,240,205,292.5,737.5,SBD,M,1
 Arron Chavez,,44,140+,148,M-SPM1-APF,Single-ply,240,205,292.5,737.5,SBD,M,1
-Cosette Neely ,,38,48,47.6,F-MPO-APF,Multi-ply,152.5,,125,,SBD,F,DQ
+Cosette Neely,,38,48,47.6,F-MPO-APF,Multi-ply,152.5,,125,,SBD,F,DQ
 Sara Schiff,,30,90+,102.6,F-MPO-APF,Multi-ply,217.5,130,230,577.5,SBD,F,1
 Sara Schiff,,41,90+,102.6,F-MPM1-APF,Multi-ply,217.5,130,230,577.5,SBD,F,1
 Misael Peraza,,29,75,74.3,M-MPO-APF,Multi-ply,300,167.5,260,727.5,SBD,M,1
@@ -80,8 +80,8 @@ Dalen Randa,,30,125,119.6,M-MPO-APF,Multi-ply,387.5,332.5,287.5,1007.5,SBD,M,1
 Jeffrey Miller,,35,125,115.5,M-MPO-APF,Multi-ply,427.5,142.5,350,920,SBD,M,2
 Dalen Randa,,50,125,119.6,M-MPM3-APF,Multi-ply,387.5,332.5,287.5,1007.5,SBD,M,1
 Alyssa Kroll,Yes,19,67.5,63.4,F-RT3-AAPF,Raw,,80,,80,B,F,1
-Collette Smith ,Yes,22,52,51.4,F-RJR-AAPF,Raw,,52.5,,52.5,B,F,1
-Collette Smith ,Yes,30,52,51.4,F-RO-AAPF,Raw,,52.5,,52.5,B,F,1
+Collette Smith,Yes,22,52,51.4,F-RJR-AAPF,Raw,,52.5,,52.5,B,F,1
+Collette Smith,Yes,30,52,51.4,F-RO-AAPF,Raw,,52.5,,52.5,B,F,1
 Taylor Porter,,30,82.5,80,F-RO-APF,Raw,,80,,80,B,F,1
 Greg Griffith,,28,90,89.3,M-RO-APF,Raw,,200,,200,B,M,1
 Russell Jardine,Yes,26,100,97.9,M-RO-AAPF,Raw,,170,,170,B,M,1
@@ -91,10 +91,10 @@ Shay McQuiston,,35,140,131.9,M-RO-APF,Raw,,192.5,,192.5,B,M,1
 Ti Dyphibane,,39,75,73.6,M-RSM-APF,Raw,,145,,145,B,M,1
 Shay McQuiston,,35,140,131.9,M-RSM-APF,Raw,,192.5,,192.5,B,M,1
 Mike Brownfield,,43,125,123.6,M-RM1-APF,Raw,,,,,B,M,DQ
-Cosette Neely ,,38,48,47.6,F-SPO-APF,Single-ply,,,,,B,F,DQ
+Cosette Neely,,38,48,47.6,F-SPO-APF,Single-ply,,,,,B,F,DQ
 Mike Saunders,Yes,37,90,89.3,M-SPO-AAPF,Single-ply,,302.5,,302.5,B,M,1
-Collette Smith ,Yes,22,52,51.4,F-RJR-AAPF,Raw,,,120,120,D,F,1
-Collette Smith ,Yes,30,52,51.4,F-RO-AAPF,Raw,,,120,120,D,F,1
+Collette Smith,Yes,22,52,51.4,F-RJR-AAPF,Raw,,,120,120,D,F,1
+Collette Smith,Yes,30,52,51.4,F-RO-AAPF,Raw,,,120,120,D,F,1
 Taylor Porter,,30,82.5,80,F-RO-APF,Raw,,,147.5,147.5,D,F,1
 Mike Brownfield,,30,125,123.6,M-RO-APF,Raw,,,292.5,292.5,D,M,1
 Mike Brownfield,,43,125,123.6,M-RM1-APF,Raw,,,292.5,292.5,D,M,1
@@ -102,4 +102,4 @@ Jake Benson,,30,90,89.1,M-RO-APF,Raw,,,310,310,D,M,1
 Jake Benson,,23,90,89.1,M-RJ-APF,Raw,,,310,310,D,M,1
 Sara Schiff,,30,90+,102.6,F-MPO-APF,Multi-ply,,,230,230,D,F,1
 Sara Schiff,,41,90+,102.6,F-MPM1-APF,Multi-ply,,,230,230,D,F,1
-Cosette Neely ,,38,48,47.6,F-MPO-APF,Multi-ply,,,125,125,D,F,1
+Cosette Neely,,38,48,47.6,F-MPO-APF,Multi-ply,,,125,125,D,F,1
