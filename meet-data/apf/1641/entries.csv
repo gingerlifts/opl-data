@@ -1,4 +1,4 @@
-﻿Name,Age,Division,BodyweightKg,WeightClassKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Equipment,Tested,Event,Place
+Name,Age,Division,BodyweightKg,WeightClassKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Equipment,Tested,Event,Place
 Aaron Harper,33,M_SCR_APF,115.2,125,272.5,200,295,767.5,M,Wraps,,SBD,1
 Brockton Letcher,21,M_JCR_AAPF,89.6,90,227.5,175,287.5,690,M,Wraps,Yes,SBD,1
 Brockton Letcher,21,M_JCR_APF,89.6,90,227.5,175,287.5,690,M,Wraps,,SBD,1
@@ -37,7 +37,7 @@ Taylor Tobin,24,F_OR_AAPF,74.6,75,77.5,50,117.5,245,F,Raw,Yes,SBD,2
 Melody Mathewson,20,F_JR_AAPF,75.5,82.5,95,50,100,245,F,Raw,Yes,SBD,1
 Jennifer Glass,44,F_MR_1_APF,74,75,40,42.5,110,192.5,F,Raw,,SBD,1
 Daniel Ferguson,20,M_JR_APF,141.5,140+,,167.5,,167.5,M,Raw,,B,1
-Edward Borstein,19,M_TCR_3_AAPF,70.95,75,,97.5,,97.5,M,Wraps,Yes,B,1
+Edward Borstein,19,M_TCR_3_AAPF,70.95,75,,97.5,,97.5,M,Raw,Yes,B,1
 Tishia Sutton,45,F_OR_APF,46.6,48,,57.5,,57.5,F,Raw,,B,1
 Tishia Sutton,45,F_MR_2_APF,46.6,48,,57.5,,57.5,F,Raw,,B,1
 Tishia Sutton,45,F_MR_2_AAPF,46.6,48,,57.5,,57.5,F,Raw,Yes,B,1
