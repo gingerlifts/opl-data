@@ -1,4 +1,4 @@
-Name,Team,BirthYear,BodyweightKg,Squat1kg,Squat2kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Sex,Equipment,Division,Event,WeightClassKg
+﻿Name,Team,BirthYear,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Sex,Equipment,Division,Event,WeightClassKg
 Anja Schreiner,SC Oberölsbach,1993,45.65,145,155,-162.5,155,85,90,-95,90,120,130,-135,130,375,3,F,Single-ply,Open,SBD,47
 Karolina Moszynska,KSV Mainz 08,1986,56.95,-175,-175,177.5,177.5,107.5,115,122.5,122.5,160,-167.5,,160,460,2,F,Single-ply,Open,SBD,57
 Marie Hauschild,Schwerathletik Verein Erfurt e.V,1995,70.45,-190,-195,195,195,125,-127.5,127.5,127.5,165,175,-180,175,497.5,1,F,Single-ply,Open,SBD,72
