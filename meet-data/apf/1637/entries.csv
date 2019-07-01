@@ -1,7 +1,7 @@
-﻿Name,Age,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Sex,Equipment,Tested,Event
+Name,Age,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Sex,Equipment,Tested,Event
 Karen Ferrero,47,F_OR_APF,46.05,48,47.5,52.5,-57.5,52.5,37.5,-42.5,42.5,42.5,75,80,-87.5,80,175,1,F,Raw,,SBD
 Wendy Shadbar,42,F_OR_APF,82.25,82.5,57.5,67.5,75,75,35,40,45,45,75,80,85,85,205,1,F,Raw,,SBD
-Jacqueline Dildine,27,F_OR_APF,95.8,SHW,137.5,145,150,150,85,-97.5,-102.5,85,137.5,-157.5,-160,137.5,372.5,1,F,Raw,,SBD
+Jacqueline Dildine,27,F_OR_APF,95.8,90+,137.5,145,150,150,85,-97.5,-102.5,85,137.5,-157.5,-160,137.5,372.5,1,F,Raw,,SBD
 Ricky Nguyen,21,M_OCR_APF,59.4,60,97.5,105,112.5,112.5,67.5,72.5,-82.5,72.5,125,142.5,157.5,157.5,342.5,1,M,Wraps,,SBD
 Mackenzie Mickel,23,M_OCR_APF,82.2,82.5,140,-150,150,150,95,-100,105,105,162.5,175,182.5,182.5,437.5,1,M,Wraps,,SBD
 Clay Ladd,39,M_OCR_APF,87.55,90,75,92.5,110,110,57.5,67.5,-72.5,67.5,75,102.5,120,120,297.5,1,M,Wraps,,SBD
