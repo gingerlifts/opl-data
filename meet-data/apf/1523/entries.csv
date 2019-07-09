@@ -1,7 +1,7 @@
 Name,Age,WeightClassKg,BodyweightKg,Equipment,Sex,Division,Tested,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Place
-Steven Clark,22,100,97.5,Multi-ply,M,M_OR_AAPF,Yes,182.5,195,220,220,130,137.5,-145,137.5,215,-237.5,-237.5,215,572.5,SBD,1
+Steven Clark,22,100,97.5,Multi-ply,M,M_OEM_AAPF,Yes,182.5,195,220,220,130,137.5,-145,137.5,215,-237.5,-237.5,215,572.5,SBD,1
 Matt Borquez,27,82.5,82.1,Raw,M,M_OR_AAPF,Yes,205,215,,215,175,-182.5,-182.5,175,237.5,247.5,-252.5,247.5,637.5,SBD,1
-Mitchell Wallace,27,82.5,80.3,Raw,M,M_Or_AAPF,Yes,142.5,157.5,165,165,102.5,-110,-110,102.5,185,197.5,207.5,207.5,475,SBD,2
+Mitchell Wallace,27,82.5,80.3,Raw,M,M_OR_AAPF,Yes,142.5,157.5,165,165,102.5,-110,-110,102.5,185,197.5,207.5,207.5,475,SBD,2
 Elijah Privette,19,90,89.1,Raw,M,M_TR_3_AAPF,Yes,160,-170,,160,125,-130,-130,125,210,217.5,-227.5,217.5,502.5,SBD,1
 Jonathan Wolverton,21,90,85.8,Raw,M,M_JR_AAPF,Yes,175,190,205,205,100,112.5,-125,112.5,200,230,-238,230,547.5,SBD,1
 Ryan Delman,40,90,89.6,Raw,M,M_MR_1_AAPF,Yes,215,227.5,-232.5,227.5,137.5,145,-150,145,,,,,,SBD,DQ
