@@ -1,6 +1,6 @@
 Place,Name,Age,Sex,Division,Equipment,WeightClassKg,BodyweightKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event
 2,Frank Ventriglia Sr,65,M,M_MEM_6_APF,Multi-ply,110,106.6,80,120,200,BD
-1,James Banville,52,M,M_MEM_2_APF,Multi-ply,110,103.9,175,212.5,387.5,BD
+1,James Banville,52,M,M_MEM_3_APF,Multi-ply,110,103.9,175,212.5,387.5,BD
 1,Randy Favreau,50,M,M_MEM_3_APF,Multi-ply,100,94.8,222.5,272.5,495,BD
 1,Kathy Wood,61,F,F_MEM_5_APF,Multi-ply,82.5,81.6,37.5,107.5,145,BD
 1,Pamela McKeege,31,F,F_OEM_APF,Multi-ply,67.5,61.2,57.5,87.5,145,BD
