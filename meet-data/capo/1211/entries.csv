@@ -1,6 +1,6 @@
 Name,Age,State,Country,Division,Sex,WeightClassKg,BodyweightKg,Equipment,Event,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Place
 Freda Mazzon,40,VIC,Australia,FM-R,F,67.5,65.35,Raw,D,140,160,180,-185,180,180,1
-Taylor Young,57,NSW,Australia,FM-R,F,67.5,65.5,Raw,D,160,165,170,,170,170,2
+Taylor Young #1,57,NSW,Australia,FM-R,F,67.5,65.5,Raw,D,160,165,170,,170,170,2
 Lucie Thompson,35,NSW,Australia,FSM-R,F,82.5,75.8,Raw,D,170,180,185,-190,185,185,3
 Rachel O'Gorman,35,NSW,Australia,FSM-R,F,90,88.2,Raw,D,165,177.5,185,192.5,185,185,4
 Rachel Clayton,43,NZ,New Zealand,FM-R,F,60,58.8,Raw,D,120,130,135,-137.5,135,135,5
@@ -17,7 +17,7 @@ Anna Kate Lonergan,24,TAS,Australia,FO-R,F,82.5,79.2,Raw,D,125,145,-160,,145,145
 Court Paapu,30,NZ,New Zealand,FO-R,F,75,69.8,Raw,D,110,120,130,135,130,130,16
 Lillian Convery,29,NZ,New Zealand,FO-R,F,75,69,Raw,D,100,110,120,131,120,120,17
 Marietta Trentin,60,QLD,Australia,FM-R,F,67.5,61,Raw,D,100,107.5,-112.5,,107.5,107.5,18
-Gigi Van Der Poll,36,QLD,Australia,FSM-R,F,82.5,79.4,Raw,D,120,130,-135,,130,130,19
+Gigi Van der Poll,36,QLD,Australia,FSM-R,F,82.5,79.4,Raw,D,120,130,-135,,130,130,19
 Christine Vanzella,36,ACT,Australia,FSM-R,F,82.5,81.6,Raw,D,105,120,130,-132.5,130,130,20
 Bonnie Townsend,19,QLD,Australia,FT-R,F,67.5,66.7,Raw,D,95,105,112.5,,112.5,112.5,21
 Helena Moore,41,QLD,Australia,FM-R,F,67.5,64.9,Raw,D,-105,105,110,,110,110,22

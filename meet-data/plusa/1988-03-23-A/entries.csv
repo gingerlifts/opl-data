@@ -52,7 +52,7 @@ K. Stokes,67.5,125,65,137.5,327.5,SBD,Single-ply,Open,F,,4
 R. Dehaven,67.5,110,45,122.5,277.5,SBD,Single-ply,Open,F,,5
 C. Pedro,75,142.5,70,147.5,360,SBD,Single-ply,Open,F,,1
 S. Warms,75,132.5,70,147.5,350,SBD,Single-ply,Open,F,,2
-J. Davis,75,137.5,65,127.5,330,SBD,Single-ply,Open,F,,3
+J. Davis #10,75,137.5,65,127.5,330,SBD,Single-ply,Open,F,,3
 S. Jones,67.5,220,115,215,550,SBD,Single-ply,Teen,M,,1
 L. Agee,67.5,150,105,165,420,SBD,Single-ply,Teen,M,,2
 M. Massey,67.5,155,90,162.5,407.5,SBD,Single-ply,Teen,M,,3
@@ -70,14 +70,14 @@ Tim Sanders,90,277.5,175,262.5,715,SBD,Single-ply,Teen,M,,1
 D. West,90,147.5,105,195,447.5,SBD,Single-ply,Teen,M,,2
 B. Johnson,100,250,152.5,227.5,630,SBD,Single-ply,Teen,M,,1
 J. Vega,125,232.5,170,222.5,625,SBD,Single-ply,Teen,M,,1
-B. Adams,52,187.5,117.5,197.5,502.5,SBD,Single-ply,Open,M,,1
-David Ramsey,56,220,117.5,212.5,550,SBD,Single-ply,Open,M,,1
+Bobby Adams #1,52,187.5,117.5,197.5,502.5,SBD,Single-ply,Open,M,,1
+David Ramsey #1,56,220,117.5,212.5,550,SBD,Single-ply,Open,M,,1
 David Contreras,67.5,267.5,182.5,232.5,682.5,SBD,Single-ply,Open,M,,1
-P. Manicchia,67.5,210,165,227.5,602.5,SBD,Single-ply,Open,M,,2
+Phillip Manicchia,67.5,210,165,227.5,602.5,SBD,Single-ply,Open,M,,2
 Bubba Wolford,67.5,235,142.5,205,582.5,SBD,Single-ply,Open,M,,3
 J. Karakashevich,67.5,215,105,225,545,SBD,Single-ply,Open,M,,4
 D. Robinson,67.5,170,117.5,195,482.5,SBD,Single-ply,Open,M,,5
-J. Tyree,75,277.5,157.5,272.5,707.5,SBD,Single-ply,Open,M,,1
+John Tyree,75,277.5,157.5,272.5,707.5,SBD,Single-ply,Open,M,,1
 B. McKee,75,215,145,227.5,587.5,SBD,Single-ply,Open,M,,2
 L. Castillo,75,227.5,137.5,215,580,SBD,Single-ply,Open,M,,3
 S. Blevins,75,207.5,117.5,192.5,517.5,SBD,Single-ply,Open,M,,4
@@ -108,22 +108,22 @@ R. Blank,110,320,245,287.5,852.5,SBD,Single-ply,Open,M,,2
 C. Whaley,110,322.5,190,295,807.5,SBD,Single-ply,Open,M,,3
 C. Conarty,110,317.5,,,,SBD,Single-ply,Open,M,,DQ
 G. Johnson,125,307.5,197.5,317.5,822.5,SBD,Single-ply,Open,M,,1
-D. Hartman,125,307.5,232.5,242.5,782.5,SBD,Single-ply,Open,M,,2
+David Hartman,125,307.5,232.5,242.5,782.5,SBD,Single-ply,Open,M,,2
 T. Young,125+,287.5,182.5,287.5,757.5,SBD,Single-ply,Open,M,,1
 S. Johnson #6,125+,287.5,190,265,742.5,SBD,Single-ply,Open,M,,2
 J. Capehart,67.5,180,110,182.5,472.5,SBD,Single-ply,Masters,M,45,1
 Bill Johnston,82.5,292.5,157.5,250,700,SBD,Single-ply,Masters,M,41,1
 R. Boyles,82.5,170,85,175,430,SBD,Single-ply,Masters,M,60,2
 Larry Rapier,90,282.5,172.5,272.5,727.5,SBD,Single-ply,Masters,M,40,1
-H. Holly,100,235,147.5,235,617.5,SBD,Single-ply,Masters,M,53,1
-P. Haberman,100,230,147.5,227.5,605,SBD,Single-ply,Masters,M,56,2
+Harrell Holly,100,235,147.5,235,617.5,SBD,Single-ply,Masters,M,53,1
+Paul Haberman,100,230,147.5,227.5,605,SBD,Single-ply,Masters,M,56,2
 J. Griffith,100,182.5,105,217.5,505,SBD,Single-ply,Masters,M,44,3
 B. Jones,110,192.5,130,210,532.5,SBD,Single-ply,Masters,M,41,1
 L. Powers,125,245,152.5,200,597.5,SBD,Single-ply,Masters,M,40,1
 B. Taylor,125+,272.5,172.5,265,710,SBD,Single-ply,Masters,M,45,1
 J. Lyons,125+,222.5,150,260,632.5,SBD,Single-ply,Masters,M,42,2
 G. Murphy,52,132.5,85,162.5,380,SBD,Single-ply,Collegiate,M,,1
-J. Ayers,52,177.5,92.5,107.5,377.5,SBD,Single-ply,Collegiate,M,,2
+Jeff Ayers,52,177.5,92.5,107.5,377.5,SBD,Single-ply,Collegiate,M,,2
 J. Crist,56,165,97.5,180,442.5,SBD,Single-ply,Collegiate,M,,1
 W. Moses,60,182.5,105,200,487.5,SBD,Single-ply,Collegiate,M,,1
 L. Richard,60,137.5,100,150,387.5,SBD,Single-ply,Collegiate,M,,2
@@ -147,7 +147,7 @@ R. Kammam,100,267.5,187.5,250,705,SBD,Single-ply,Collegiate,M,,2
 A. Smith III,100,170,170,227.5,567.5,SBD,Single-ply,Collegiate,M,,3
 J. Gaiser,100,220,130,210,560,SBD,Single-ply,Collegiate,M,,4
 S. Jenkins,100,140,107.5,170,417.5,SBD,Single-ply,Collegiate,M,,5
-D. Hartman,125,307.5,232.5,242.5,782.5,SBD,Single-ply,Collegiate,M,,1
+David Hartman,125,307.5,232.5,242.5,782.5,SBD,Single-ply,Collegiate,M,,1
 S. Johnson #6,125+,287.5,190,265,742.5,SBD,Single-ply,Collegiate,M,,1
 R. Clark #2,52,110,50,147.5,307.5,SBD,Single-ply,Collegiate,F,,1
 D. Hershberger,52,75,42.5,95,212.5,SBD,Single-ply,Collegiate,F,,2

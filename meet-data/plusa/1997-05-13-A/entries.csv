@@ -1,5 +1,5 @@
 Name,WeightClassKg,Age,BirthDate,BodyweightKg,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Event,Sex,Division,Place
-Chuck Dunbar,52,23,,,Single-ply,,,,,220,,,,137.5,,,,,165,522.5,SBD,M,Open,1
+Chuck Dunbar,52,22,,,Single-ply,,,,,220,,,,137.5,,,,,165,522.5,SBD,M,Open,1
 Joe Steinfeld,52,25,,,Single-ply,,,,,160,,,,112.5,,,,,167.5,440,SBD,M,Open,2
 Doug Heath,52,23,,,Single-ply,,,,,152.5,,,,92.5,,,-195,,170,415,SBD,M,Open,3
 John Redding,52,35,,,Single-ply,-192.5,-192.5,-192.5,,,,,,,,,,,,,SBD,M,Open,DQ
@@ -39,7 +39,7 @@ Scott Saluzzi,82.5,,,,Single-ply,,,,,272.5,,,,192.5,,,,,305,770,SBD,M,Open,4
 Brian Wadie,82.5,,,,Single-ply,,,,,295,,,,180,,,,,295,770,SBD,M,Open,5
 Ernie Frantz,82.5,,,,Single-ply,,,,,272.5,,,,185,,,,,310,767.5,SBD,M,Open,6
 Dean Becker,82.5,,,,Single-ply,,,,,295,,,,177.5,,,,,295,767.5,SBD,M,Open,7
-James Grudzien,82.5,,,,Single-ply,,,,,277.5,,,,187.5,290,-300,,,290,755,SBD,M,Open,8
+Jim Grudzien,82.5,,,,Single-ply,,,,,277.5,,,,187.5,290,-300,,,290,755,SBD,M,Open,8
 Ted Mossbarger,82.5,,,,Single-ply,,,,,272.5,,,,175,,,,,290,737.5,SBD,M,Open,9
 Steve Gilardi,82.5,,,,Single-ply,,,,,287.5,,,,170,,,,,270,727.5,SBD,M,Open,10
 Fred Hatfield,82.5,,,,Single-ply,-305,,,,,,,,,,,,,,,SBD,M,Open,DQ
@@ -48,7 +48,7 @@ Mike Capasso,82.5,,,,Single-ply,-285,-285,-285,,,,,,,,,,,,,SBD,M,Open,DQ
 Roger Estep,90,,,,Single-ply,,330,-342.5,,330,,,,222.5,,,305,,305,857.5,SBD,M,Open,1
 Jerry Jones,90,,,,Single-ply,-342.5,-342.5,342.5,-357.5,342.5,,,,185,,,,,320,847.5,SBD,M,Open,2
 James Cash,90,,,,Single-ply,,312.5,-325,,312.5,,,,190,,320,-345,,320,822.5,SBD,M,Open,3
-Rick Woods,90,,,,Single-ply,,,,,287.5,,,,210,,,,,297.5,795,SBD,M,Open,4
+Rich Woods #1,90,,,,Single-ply,,,,,287.5,,,,210,,,,,297.5,795,SBD,M,Open,4
 Gary Sanger,90,,,,Single-ply,,,,,310,,,,192.5,,,,,287.5,790,SBD,M,Open,5
 Frank Watts,90,,,,Single-ply,,,,,267.5,,,,165,,,,,272.5,705,SBD,M,Open,6
 Vince Anello,90,,,,Single-ply,,,305,,305,,,202.5,202.5,-352.5,-352.5,-352.5,,,,SBD,M,Open,DQ

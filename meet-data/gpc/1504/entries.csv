@@ -2,7 +2,7 @@ Name,Event,Equipment,Country,Sex,BirthDate,Division,BodyweightKg,WeightClassKg,S
 Mariel Bertona,B,Raw,Argentina,F,1971-07-03,M1,58.9,60,,,,,,90,95,-100,,95,,,,,,95,1
 Carolina Fleita,B,Raw,Argentina,F,1992-09-09,J,63.35,67.5,,,,,,40,45,47.5,,47.5,,,,,,47.5,1
 Leticia Bertotto,B,Raw,Argentina,F,1971-09-18,M1,74.4,75,,,,,,100,110,-112.5,,110,,,,,,110,1
-Valeria Agüero,B,Raw,Argentina,F,1961-09-15,M3,68.5,75,,,,,,125,135,-141,,135,,,,,,135,1
+Aida Agüero,B,Raw,Argentina,F,1961-09-15,M3,68.5,75,,,,,,125,135,-141,,135,,,,,,135,1
 Laura Tabera,B,Raw,Argentina,F,1975-12-23,O,76,82.5,,,,,,60,65,-70,,65,,,,,,65,1
 Mariela Ortellado,B,Raw,Argentina,F,1985-07-10,O,93,90+,,,,,,95,100,110,-115,110,,,,,,110,1
 Martín San Felice,B,Raw,Argentina,M,,O,74,75,,,,,,-110,110,120,-130,120,,,,,,120,1
@@ -35,10 +35,10 @@ Serafin Rocha,B,Raw,Brazil,M,1948-04-27,M6,115.5,125,,,,,,110,120,125,-130.5,125
 Gonzalo Iriarte,B,Raw,Argentina,M,1980-02-13,O,147,140+,,,,,,180,-200,,,180,,,,,,180,1
 Gonzalo Iriarte,B,Raw,Argentina,M,1980-02-13,SM,147,140+,,,,,,180,-200,,,180,,,,,,180,1
 Mariel Bertona,D,Raw,Argentina,F,1971-07-03,M1,58.9,60,,,,,,,,,,,150,160,-167.5,,160,160,1
-Andressa Gomes De Lima,D,Raw,Brazil,F,1990-04-27,O,59.5,60,,,,,,,,,,,160,170,175,-180,175,175,1
+Andressa Gomes de Lima,D,Raw,Brazil,F,1990-04-27,O,59.5,60,,,,,,,,,,,160,170,175,-180,175,175,1
 Carolina Fleita,D,Raw,Argentina,F,1992-09-09,J,63.35,67.5,,,,,,,,,,,95,100,105,,105,105,1
 Leticia Bertoto,D,Raw,Argentina,F,1971-09-18,M1,74.4,75,,,,,,,,,,,180,190,-195,,190,190,1
-Valeria Agüero,D,Raw,Argentina,F,,M3,68.5,75,,,,,,,,,,,175,,,,175,175,1
+Aida Agüero,D,Raw,Argentina,F,,M3,68.5,75,,,,,,,,,,,175,,,,175,175,1
 Laura Tabera,D,Raw,Argentina,F,1975-12-23,O,76,82.5,,,,,,,,,,,120,130,-140,,130,130,1
 Mariela Ortellado,D,Raw,Argentina,F,1985-07-10,O,93,90+,,,,,,,,,,,205,-220,220,-230,220,220,1
 Martin Arosteguichar,D,Raw,Argentina,M,1990-08-17,O,64.9,67.5,,,,,,,,,,,-170,170,185.5,-200,185.5,185.5,1
@@ -61,7 +61,7 @@ Carlos Campos,D,Raw,Argentina,M,1965-10-02,M3,117.4,125,,,,,,,,,,,170,180,,,180,
 Alfredo Rojas,D,Raw,Argentina,M,1985-09-17,O,116.8,125,,,,,,,,,,,290,305,315,-320,315,315,1
 Pablo Lucero,D,Raw,Argentina,M,1985-03-26,O,139,140,,,,,,,,,,,210,220,-240,,220,220,1
 Estela Peña,SBD,Wraps,Argentina,F,1990-04-10,O,74,75,240,250,260,,260,105,112.5,115,,115,215,225,-235,,225,600,1
-Valeria Agüero,SBD,Wraps,Argentina,F,1961-09-15,M3,68.4,75,-175,175,190,,190,125,135,-140,,135,160,,,,160,485,1
+Aida Agüero,SBD,Wraps,Argentina,F,1961-09-15,M3,68.4,75,-175,175,190,,190,125,135,-140,,135,160,,,,160,485,1
 Rosangela M.De Santos,SBD,Wraps,Brazil,F,1965-01-04,M3,70.8,75,-110,-110,-110,,,70,80,-90,,80,140,150,160,,160,,DQ
 Mariela Ortellado,SBD,Wraps,Argentina,F,1985-07-10,O,93.5,90+,-200,-200,200,-205,200,90,100,-110,-110,100,200,215,-225,,215,515,1
 Daniel Ramirez,SBD,Wraps,Argentina,M,1981-08-10,O,67.4,67.5,130,140,150,,150,110,-120,125,,125,170,180,190,,190,465,1
@@ -90,7 +90,7 @@ Daniel Sánchez,SBD,Wraps,Argentina,M,1973-11-21,M1,88.2,90,250,275,300.5,,300.5
 Pablo Dávalos,SBD,Wraps,Argentina,M,1966-03-14,M2,86.6,90,85,90,105,,105,75,80,-90,,80,135,145,150,,150,335,1
 Juan Jose Ales,SBD,Wraps,Argentina,M,1957-03-09,M4,89.8,90,170,180,190,,190,125,130,-140,,130,160,170,185,,185,505,1
 Gaston Cabral,SBD,Wraps,Argentina,M,1996-12-25,T3,95.5,100,180,200,207.5,,207.5,150,165,-170,,165,200,210,220,,220,592.5,1
-Dione Cesar Teodoro,SBD,Wraps,Brazil,M,1992-01-12,J,99.8,100,215,-235,235,,235,150,160,165,,165,225,250,260,,260,660,1
+Dione César Teodoro,SBD,Wraps,Brazil,M,1992-01-12,J,99.8,100,215,-235,235,,235,150,160,165,,165,225,250,260,,260,660,1
 Ramon Machado,SBD,Wraps,Argentina,M,1989-03-28,O,100,100,170,-185,185,,185,135,145,150,,150,215,230,-232.5,,230,565,2
 Matías Santa Cruz,SBD,Wraps,Argentina,M,1987-09-19,O,91.9,100,200,215,230,,230,160,-165,-165,,160,200,215,225,,225,615,1
 Jefferson Miguel Deltrejo de Deus,SBD,Wraps,Brazil,M,1978-01-03,O,97.6,100,260,270,280,,280,175,185,190,,190,270,280,290,,290,760,1
@@ -102,7 +102,7 @@ Gustavo Castro,SBD,Wraps,Argentina,M,1995-08-24,J,100.7,110,180,200,210,,210,120
 Lucas Gigena,SBD,Wraps,Argentina,M,1992-09-30,J,105.4,110,170,185,-195,,185,90,100,-105,,100,180,-190,-190,,180,465,2
 Walter Morales,SBD,Wraps,Argentina,M,1972-06-04,M1,108,110,80,,,,80,160,175,-188,,175,125,,,,125,380,2
 Gustavo Miño,SBD,Wraps,Argentina,M,1971-01-15,M1,104.1,110,200,220,230,,230,140,-150,-150,,140,200,220,-230,,220,590,1
-Marcio Rogerio de Lima,SBD,Wraps,Brazil,M,1972-04-11,M1,114,125,240,-255,-260,,240,165,170,-185,,170,265,285,295,,295,705,1
+Marcio Rogério de Lima,SBD,Wraps,Brazil,M,1972-04-11,M1,114,125,240,-255,-260,,240,165,170,-185,,170,265,285,295,,295,705,1
 Victor Quispe,SBD,Wraps,Argentina,M,1970-09-27,M2,108.2,110,190,220,240,,240,140,-150,150,,150,200,230,-245,,230,620,1
 Everton Soares Garcia,SBD,Wraps,Brazil,M,1981-05-06,O,127.9,140,265,285,300,,300,200,-220,225,,225,265,285,300,,300,825,2
 Everton Soares Garcia,SBD,Wraps,Brazil,M,1981-05-06,SM,127.9,140,265,285,300,,300,200,-220,225,,225,265,285,300,,300,825,1

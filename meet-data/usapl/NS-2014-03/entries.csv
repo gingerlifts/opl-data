@@ -8,7 +8,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 2,M,Jerry Alaniz,SBD,M-T3,66,Single-ply,64.4,250,172.5,230,652.5,1995
 3,M,Kenny Nguyen,SBD,M-T3,66,Single-ply,64.1,205,200.5,200,605.5,1995
 4,M,Colby Knapp,SBD,M-T3,66,Single-ply,65.4,242.5,137.5,215,595,1994
-5,M,Sawyer Yarnell,SBD,M-T3,66,Single-ply,65,235,125,232.5,592.5,
+5,M,Sawyer Yandell,SBD,M-T3,66,Single-ply,65,235,125,232.5,592.5,
 6,M,Henry Hsu,SBD,M-T3,66,Single-ply,65.7,192.5,130,192.5,515,1994
 7,M,Tristan Ruiz,SBD,M-T3,66,Single-ply,65.7,180,115,195,490,
 8,M,Vincent E. Moon,SBD,M-T3,66,Single-ply,63.5,165,140,180,485,
@@ -126,7 +126,7 @@ DQ,M,Ray Smith,SBD,M-T3,93,Single-ply,92.5,,,,,
 28,M,Rabih Abifaraj,SBD,M-Jr,83,Single-ply,80.8,215,95,115,425,1992
 29,M,Joseph Porzio,BD,M-Jr,83,Single-ply,81,,157.5,245,402.5,1991
 1,M,Ian Bell,SBD,M-Jr,93,Single-ply,91.6,365,217.5,365,947.5,1992
-4,M,Westbrook Nathan,SBD,M-Jr,93,Single-ply,92.8,295,200,285,780,1992
+4,M,Nathan Westbrook,SBD,M-Jr,93,Single-ply,92.8,295,200,285,780,1992
 5,M,Jordan Glenn,SBD,M-Jr,93,Single-ply,90.2,282.5,165,315,762.5,1993
 6,M,Matt Cassista,SBD,M-Jr,93,Single-ply,91.6,297.5,185,280,762.5,1992
 7,M,Brennan Riche,SBD,M-Jr,93,Single-ply,92.6,277.5,207.5,275,760,1992
@@ -137,7 +137,7 @@ DQ,M,Ray Smith,SBD,M-T3,93,Single-ply,92.5,,,,,
 14,M,Tyler Martinez,SBD,M-Jr,93,Single-ply,91.6,240,170,245,655,1992
 15,M,Clayton Barone,SBD,M-Jr,93,Single-ply,92.5,235,162.5,250,647.5,1992
 4,M,Sam Busche,SBD,M-Jr,93,Single-ply,84.8,245,150,250,645,1992
-16,M,Christopher Robinson,SBD,M-Jr,93,Single-ply,92.1,207.5,210,227.5,645,1990
+16,M,Christopher Robinson #1,SBD,M-Jr,93,Single-ply,92.1,207.5,210,227.5,645,1990
 6,M,Justin Fratantuono,SBD,M-Jr,93,Single-ply,87.3,245,147.5,237.5,630,1993
 7,M,Hunter Scothom,SBD,M-Jr,93,Single-ply,85.3,212.5,150,262.5,625,
 17,M,Matthew Cortez,SBD,M-Jr,93,Single-ply,92.4,270,152.5,202.5,625,

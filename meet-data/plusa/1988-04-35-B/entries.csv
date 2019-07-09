@@ -2,7 +2,7 @@ Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 H. Mullick,48,Open,F,95,42.5,105,242.5,SBD,Single-ply,1
 N. Marschal,52,Open,F,87.5,42.5,92.5,222.5,SBD,Single-ply,1
 E. Cox,52,Open,F,70,35,97.5,202.5,SBD,Single-ply,2
-N. Cline,56,Open,F,137.5,92.5,165,395,SBD,Single-ply,1
+Nora Cline,56,Open,F,137.5,92.5,165,395,SBD,Single-ply,1
 D. Ruthardt,60,Open,F,110,72.5,147.5,330,SBD,Single-ply,1
 R. Mason,67.5,Open,F,92.5,40,105,237.5,SBD,Single-ply,1
 D. Campbell,52,Teen,M,125,82.5,122.5,330,SBD,Single-ply,1
@@ -44,7 +44,7 @@ M. Winburn,82.5,Masters,M,170,115,172.5,457.5,SBD,Single-ply,4
 B. Johnson,90,Masters,M,262.5,147.5,262.5,672.5,SBD,Single-ply,1
 B. Corbin,90,Masters,M,142.5,137.5,190,470,SBD,Single-ply,2
 Bill Jackson,110,Masters,M,282.5,192.5,285,760,SBD,Single-ply,1
-H. Hudson,125,Masters,M,262.5,170,280,712.5,SBD,Single-ply,1
+Hal Hudson,125,Masters,M,262.5,170,280,712.5,SBD,Single-ply,1
 L. Evans,125+,Masters,M,235,142.5,220,597.5,SBD,Single-ply,1
 K. Jefferson,67.5,Class I,M,190,102.5,215,507.5,SBD,Single-ply,1
 M. Melnik,67.5,Class I,M,190,107.5,205,502.5,SBD,Single-ply,2
@@ -87,7 +87,7 @@ T. Adkins,60,Open,M,175,97.5,187.5,460,SBD,Single-ply,1
 D. Wilson #10,60,Open,M,167.5,110,177.5,455,SBD,Single-ply,2
 J. Jackson,67.5,Open,M,,,,,SBD,Single-ply,DQ
 D. Arredondo,67.5,Open,M,,,,,SBD,Single-ply,DQ
-J. Tyree,75,Open,M,272.5,157.5,282.5,712.5,SBD,Single-ply,1
+John Tyree,75,Open,M,272.5,157.5,282.5,712.5,SBD,Single-ply,1
 G. Kaiser,75,Open,M,220,132.5,237.5,590,SBD,Single-ply,2
 D. Goodin,75,Open,M,212.5,140,222.5,575,SBD,Single-ply,3
 Dan Gay,82.5,Open,M,317.5,200,325,842.5,SBD,Single-ply,1
@@ -102,8 +102,8 @@ G. Henton,90,Open,M,315,172.5,280,767.5,SBD,Single-ply,3
 P. Linton,90,Open,M,317.5,157.5,247.5,722.5,SBD,Single-ply,4
 P. Padron,90,Open,M,220,147.5,227.5,595,SBD,Single-ply,5
 T. Allen,90,Open,M,,,,,SBD,Single-ply,DQ
-B. Nester,100,Open,M,380,205,315,900,SBD,Single-ply,1
-S. Wagner,100,Open,M,350,207.5,295,852.5,SBD,Single-ply,2
+Brian Nester,100,Open,M,380,205,315,900,SBD,Single-ply,1
+Scott Wagner,100,Open,M,350,207.5,295,852.5,SBD,Single-ply,2
 K. Adcock,100,Open,M,337.5,215,300,852.5,SBD,Single-ply,3
 M. Barnes,100,Open,M,327.5,197.5,285,810,SBD,Single-ply,4
 R. Tucker,100,Open,M,285,140,290,715,SBD,Single-ply,5
@@ -112,20 +112,20 @@ R. Osborn,100,Open,M,,,,,SBD,Single-ply,DQ
 Steve Goggins,110,Open,M,395,235,377.5,1007.5,SBD,Single-ply,1
 Robert Windsor,110,Open,M,372.5,250,322.5,945,SBD,Single-ply,2
 Larry Mistric,110,Open,M,377.5,220,322.5,920,SBD,Single-ply,3
-R. Patterson,110,Open,M,352.5,227.5,310,890,SBD,Single-ply,4
+Robert Patterson,110,Open,M,352.5,227.5,310,890,SBD,Single-ply,4
 S. Murray,110,Open,M,300,205,280,785,SBD,Single-ply,5
 J. Regaldo,110,Open,M,282.5,167.5,267.5,717.5,SBD,Single-ply,6
 I. Snow,110,Open,M,270,152.5,287.5,710,SBD,Single-ply,7
 M. Paradise,110,Open,M,245,162.5,275,682.5,SBD,Single-ply,9
 J. Ruthardt,110,Open,M,265,177.5,245,687.5,SBD,Single-ply,8
 J. Gandara,110,Open,M,200,117.5,200,517.5,SBD,Single-ply,10
-L. Ross,125,Open,M,340,220,350,910,SBD,Single-ply,1
+Lance Ross,125,Open,M,340,220,350,910,SBD,Single-ply,1
 G. Fields,125,Open,M,367.5,215,312.5,895,SBD,Single-ply,2
 J. Young,125,Open,M,310,210,317.5,837.5,SBD,Single-ply,3
 T. Dixon,125,Open,M,295,200,312.5,807.5,SBD,Single-ply,4
 T. Harveston,125,Open,M,282.5,205,272.5,760,SBD,Single-ply,5
 B. Koch,125,Open,M,272.5,172.5,292.5,737.5,SBD,Single-ply,6
-H. Hudson,125,Open,M,262.5,170,280,712.5,SBD,Single-ply,7
+Hal Hudson,125,Open,M,262.5,170,280,712.5,SBD,Single-ply,7
 M. Lord,125,Open,M,250,197.5,260,707.5,SBD,Single-ply,8
 M. Walls,125,Open,M,,,,,SBD,Single-ply,DQ
 J. Turner,125+,Open,M,300,230,320,850,SBD,Single-ply,1

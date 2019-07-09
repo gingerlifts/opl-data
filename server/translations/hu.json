@@ -8,7 +8,9 @@
 		"wraps": "Bandázs",
 		"single": "Egy",
 		"multi": "Több",
-		"straps": "Gurtni"
+		"straps": "Gurtni",
+		"classic": "Classic",
+		"equipped": "Equipped"
 	},
 	"sex": {
 		"m": "Férfi",
@@ -258,6 +260,7 @@
 			"by_glossbrenner": "Glossbrenner alapján",
 			"by_ipfpoints": "By IPF Points",
 			"by_mcculloch": "McCulloch alapján",
+			"by_nasa": "By NASA Points",
 			"by_wilks": "Wilks alapján",
 			"by_division": "Osztály alapján",
 			"weight": "Weight Sorts",
@@ -288,6 +291,8 @@
 			"all_usa": "Összes egyesült államokbeli szövetség",
 			"all_argentina": "Összes argentin szövetség",
 			"all_australia": "Összes ausztrál szövetség",
+			"all_belarus": "All Belarusian Lifters",
+			"all_brazil": "All Brazilian Lifters",
 			"all_canada": "Összes kanadai szövetség",
 			"all_china": "All Chinese Lifters",
 			"all_croatia": "Összes horvát szövetség",
@@ -299,6 +304,7 @@
 			"all_iceland": "All Icelandic Lifters",
 			"all_ireland": "Összes ír szövetség",
 			"all_israel": "Összes izraeli szövetség",
+			"all_italy": "All Italian Lifters",
 			"all_kazakhstan": "All Kazakh Lifters",
 			"all_latvia": "All Latvian Lifters",
 			"all_newzealand": "All New Zealand Lifters",

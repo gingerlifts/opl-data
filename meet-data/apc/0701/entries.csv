@@ -49,14 +49,14 @@ WeightClassKg,Name,Sex,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 140,Eric Stoler,M,Open,332.5,137.5,327.5,797.5,SBD,Multi-ply,2
 140+,Mike Lanier,M,Open,415,240,330,985,SBD,Multi-ply,1
 140+,Darrin Guerra,M,Open,342.5,312.5,300,955,SBD,Multi-ply,2
-140+,Mike Lanier,M,Subm.,415,240,330,985,SBD,Multi-ply,1
+140+,Mike Lanier,M,Submasters,415,240,330,985,SBD,Multi-ply,1
 75,Herbert Geohaghon,M,Special Olympics,45,50,90,185,SBD,Raw,1
 67.5,Shaylen Tilley,M,Special Olympics,60,37.5,100,197.5,SBD,Raw,2
 67.5,Robert Armstrong,M,Special Olympics,55,40,115,210,SBD,Raw,1
 82.5,Stanley Smith,M,Special Olympics,55,80,110,245,SBD,Raw,1
 125,Billy Joe Bateman,M,Special Olympics,100,70,160,330,SBD,Raw,1
 56,Jill Dewitt,F,Special Olympics,,25,95,120,BD,Raw,1
-100,Eric Dewitt,M,Special Olympics,,45,125,170,BD,Raw,1
+100,Eric DeWitt,M,Special Olympics,,45,125,170,BD,Raw,1
 90,Stefan Gerasimou,M,Special Olympics,,57,125,182.5,BD,Raw,1
 140,Christopher Neal,M,Special Olympics,,47.5,135,182.5,BD,Raw,1
 125,Chuck Reis,M,Special Olympics,,80,132.5,212.5,BD,Raw,1
@@ -78,7 +78,7 @@ WeightClassKg,Name,Sex,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 125,Brian Meek,M,M 60-64,,220,,220,B,Multi-ply,1
 110,Andy Williamson,M,M 40-44,,212.5,,212.5,B,Multi-ply,2
 110,David Moore,M,M 45-49,,237.5,,237.5,B,Multi-ply,1
-110,Pat Hall,M,M 40-44,,255,,255,B,Multi-ply,1
+110,Pat Hall #1,M,M 40-44,,255,,255,B,Multi-ply,1
 125,Jim Sinclair,M,M 50-54,,190,,190,B,Multi-ply,1
 125,Dave van Brocklin,M,M 55-59,,177.5,,177.5,B,Multi-ply,1
 140,David Marr,M,M 40-44,,267.5,,267.5,B,Multi-ply,1
@@ -86,7 +86,7 @@ WeightClassKg,Name,Sex,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 82.5,Leon Sparango,M,Open,,162.5,,162.5,B,Multi-ply,1
 90,Frank Caminita,M,Open,,320,,320,B,Multi-ply,1
 125,Brian Mek,M,Open,,220,,220,B,Multi-ply,1
-110,Pat Hall,M,Open,,255,,255,B,Multi-ply,1
+110,Pat Hall #1,M,Open,,255,,255,B,Multi-ply,1
 140,David Marr,M,Open,,267.5,,267.5,B,Multi-ply,2
 140,Tommie Harrison,M,Open,,330,,330,B,Multi-ply,1
 140+,Robert Vick,M,Open,,,,,B,Multi-ply,DQ

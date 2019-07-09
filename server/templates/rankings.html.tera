@@ -3,6 +3,16 @@
 {% block includes %}
   <script type="text/javascript">
     const initial_data = {{data | safe}};
+    const urlprefix = "{{urlprefix | safe}}";
+
+    const default_equipment = "raw_wraps";
+    const default_weightclass = "all";
+    const default_fed = "all";
+    const default_sex = "all";
+    const default_ageclass = "all";
+    const default_year = "all";
+    const default_event = "all";
+    const default_sort = "by-wilks";
 
     const translation_column_formulaplace = "{{strings.columns.formulaplace}}";
     const translation_column_liftername = "{{strings.columns.liftername}}";
@@ -40,6 +50,7 @@
 {% block controls %}
   <div id="controls">
     <div id="controls-left">
+      {% include "widget-fedselect" %}
       {% include "widget-equipmentselect" %}
       {% include "widget-weightclass" %}
       <select id="sexselect">
@@ -47,9 +58,8 @@
         <option value="men"{% if selection.sex == "Men" %} selected{% endif %}>{{strings.selectors.sex.m}}</option>
         <option value="women"{% if selection.sex == "Women" %} selected{% endif %}>{{strings.selectors.sex.f}}</option>
       </select>
-      {% include "widget-fedselect" %}
       {% include "widget-ageselect" %}
-      {% include "widget-yearselect" %}
+      {% include "common/widget-yearselect" %}
       {% include "widget-eventselect" %}
       {% include "widget-sortselect" %}
     </div>

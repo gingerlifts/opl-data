@@ -4,7 +4,7 @@ Place,Sex,Name,Division,Age,WeightClassKg,Event,Equipment,Country,BodyweightKg,S
 3,M,Narendra Bhairo,Open,,52,SBD,Single-ply,UK,51.8,,,,210,,,,,117.5,,,200,-215,200,,527.5,No
 4,M,Aimo Tuomisto,Open,,52,SBD,Single-ply,Finland,51.4,,,,185,,,,,107.5,,,,,192.5,,485,No
 5,M,Geoff Cairns,Open,,52,SBD,Single-ply,New Zealand,52,,,,185,,,,,100,,,,,197.5,,482.5,No
-6,M,Don McVicar,Open,,52,SBD,Single-ply,Canada,51.6,,,,190,,,,,117.5,,,,,172.5,,480,No
+6,M,Don MacVicar,Open,,52,SBD,Single-ply,Canada,51.6,,,,190,,,,,117.5,,,,,172.5,,480,No
 7,M,Y. Tokutaka,Open,,52,SBD,Single-ply,Japan,51.4,,,,180,,,,,110,,,,,185,,475,No
 8,M,Brij Bhushan,Open,,52,SBD,Single-ply,India,51.6,,,,170,,,,,110,,,,,175,,455,No
 9,M,Jeff Madsen,Open,,52,SBD,Single-ply,New Zealand,51.6,,,,165,,,,,75,,,,,215,,455,No
@@ -17,7 +17,7 @@ Place,Sex,Name,Division,Age,WeightClassKg,Event,Equipment,Country,BodyweightKg,S
 5,M,S. Finateri,Open,,56,SBD,Single-ply,Canada,55.8,,,,212.5,,,,,105,,,,,210,,527.5,No
 6,M,Haruji Watanabe-Saikachi,Open,,56,SBD,Single-ply,Japan,55.6,,,,180,,,,,115,,,-235,-235,220,,515,No
 7,M,D. James,Open,,56,SBD,Single-ply,Canada,55.4,,,,197.5,,,,,107.5,,,,,202.5,,507.5,No
-8,M,Dave Mannering,Open,,56,SBD,Single-ply,UK,55.6,,,,210,,,,,105,,,,,190,,505,No
+8,M,David Mannering,Open,,56,SBD,Single-ply,UK,55.6,,,,210,,,,,105,,,,,190,,505,No
 9,M,PJ Joseph,Open,,56,SBD,Single-ply,India,55.6,,,,182.5,,,,,100,,,,,217.5,,500,No
 10,M,Sudhakar Kamath,Open,,56,SBD,Single-ply,India,55,,,,175,,,,,110,,,,,180,,465,No
 11,M,Aimo Bennett,Open,,56,SBD,Single-ply,Australia,56,,,,157.5,,,,,92.5,,,,,200,,450,No
@@ -26,7 +26,7 @@ Place,Sex,Name,Division,Age,WeightClassKg,Event,Equipment,Country,BodyweightKg,S
 3,M,Ray Verdonck,Open,,60,SBD,Single-ply,USA,59.8,,,,237.5,,,,,135,,,,217.5,217.5,,590,No
 4,M,Tony Galvez,Open,,60,SBD,Single-ply,UK,59.8,,,,235,,,,,122.5,,,,,225,,582.5,No
 5,M,Gordon Catterson,Open,,60,SBD,Single-ply,Canada,60,,,,220,,,,,132.5,,,,,222.5,,575,No
-6,M,C. Coliair,Open,,60,SBD,Single-ply,Australia,59.6,,,,200,,,,,112.5,,,,,220,,532.5,No
+6,M,Charles Coleiro,Open,,60,SBD,Single-ply,Australia,59.6,,,,200,,,,,112.5,,,,,220,,532.5,No
 7,M,Tony Collins,Open,,60,SBD,Single-ply,Ireland,59.4,,,,195,,,,,110,,,,,212.5,,517.5,No
 8,M,Fred McCarthy,Open,,60,SBD,Single-ply,Ireland,59.4,,,,205,,,,,92.5,,,,,212.5,,510,No
 9,M,M. Kumar,Open,,60,SBD,Single-ply,India,59,,,,185,,,,,122.5,,,,,195,,502.5,No

@@ -1,5 +1,5 @@
 Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Division,Equipment,Event,Squat4Kg,Bench4Kg,Deadlift4Kg
-G,Berlynn Shamblin,OR,44,31.6,6,25.87,20.87,42.5,89.24,F,Juniors,Raw,SBD,,,45
+G,Berlynn Shamblin,OR,44,31.6,6,25.87,20.87,42.5,89.24,F,Youth,Raw,SBD,,,45
 1,Dominique Ocampo,CA,52,51.4,24,87.5,40,157.5,285,F,Open,Raw,SBD,,,
 1,Sarah Post,CA,67.5,64.3,43,97.5,62.5,142.5,302.5,F,Open,Raw,SBD,,,
 DQ,Jen Ripple,OR,67.5,66.5,35,,,160,,F,Open,Raw,SBD,,,
@@ -53,7 +53,7 @@ DQ,Michael Mitchell,WA,140,138.3,23,245,,,,M,Juniors 20-23,Raw,SBD,,,
 1,Jeff Bassett,OR,110,105.5,49,227.5,162.5,227.5,617.5,M,Masters 45-49,Raw,SBD,,,
 1,Jerem Feltman,AK,125,121.5,42,272.5,160,272.5,705,M,Masters 40-44,Raw,SBD,,,
 1,Stephen E. Adams,OR,125,123.3,55,282.5,185,250,717.5,M,Masters 55-59,Raw,SBD,,,260
-2,Kevin Smith,OR,125,120.8,58,205,190,230,625,M,Masters 55-59,Raw,SBD,,,
+2,Kevin Smith #5,OR,125,120.8,58,205,190,230,625,M,Masters 55-59,Raw,SBD,,,
 1,Greg Norby,OR,90,88.5,23,275,185,247.5,707.5,M,Juniors 20-23,Wraps,SBD,,187.5,
 1,Scott Lacoste,OR,82.5,81.5,26,207.5,152.5,210,570,M,Open,Wraps,SBD,,,
 DQ,Eric Branch,OR,82.5,81.7,31,210,,227.5,,M,Open,Wraps,SBD,,,
@@ -73,7 +73,7 @@ DQ,Eric Branch,OR,82.5,81.7,31,210,,227.5,,M,Open,Wraps,SBD,,,
 1,Jeff McConnell,OR,82.5,77.9,58,,127.5,,127.5,M,Masters 55-59,Raw,B,,,
 1,Jeff Bassett,OR,110,105.5,49,,162.5,,162.5,M,Masters 45-49,Raw,B,,,
 1,Travis Osborne,OR,125,113.3,40,,205,,205,M,Masters 40-44,Raw,B,,,
-1,Kevin Smith,OR,125,120.8,58,,190,,190,M,Masters 55-59,Raw,B,,,
+1,Kevin Smith #5,OR,125,120.8,58,,190,,190,M,Masters 55-59,Raw,B,,,
 1,Joe Beteta,OR,82.5,81.9,73,,145,,145,M,Masters 70-74,Single-ply,B,,,
 1,Melissa Tally,OR,90,83.3,42,,,130,130,F,Open,Raw,D,,,
 1,Melissa Tally,OR,90,83.3,42,,,130,130,F,Masters 40-44,Raw,D,,,

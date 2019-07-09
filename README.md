@@ -26,7 +26,7 @@ To the extent possible under law, all data (`*.csv`) in the `meet-data/` folder 
 of all copyright and related or neighboring rights. The work is published from the United States.
 
 Although you are under no requirement to do so, if you incorporate OpenPowerlifting</br>
-data into your project, please consider adding a statement of attribution,</br>
+data into your project, please consider adding a statement of attribution</br>
 so that people may know about this project and help contribute data.
 
 Sample attribution text:
@@ -51,7 +51,6 @@ When a menu appears, choose "Customize installation".<br/>
 Press the Enter key until it asks `Default toolchain?`. Type `nightly` and press Enter.<br/>
 Continue pressing Enter at the remaining prompts until Rust is installed.
 
-
 Log out and log back in to allow `~/.cargo/bin` to be part of your default shell `$PATH`.
 
 Install dependencies:
@@ -67,3 +66,14 @@ make
 cd server
 cargo run --release
 ```
+
+### Docker
+
+To run the server using Docker, simply build and run:
+
+```
+docker build -t opl .
+docker run -p 8000:8000 opl
+```
+
+Access at http://localhost:8000/ per usual.

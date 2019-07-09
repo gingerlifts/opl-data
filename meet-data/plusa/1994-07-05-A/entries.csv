@@ -1,24 +1,24 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Alex Galant,52,Masters 45-49,M,140,87.5,142.5,370,SBD,Single-ply,1
-Fred Higgins,56,Masters 40-44,M,182.5,120,192.5,495,SBD,Single-ply,1
+Freddie Higgins,56,Masters 40-44,M,182.5,120,192.5,495,SBD,Single-ply,1
 Dennis Smith,56,Masters 60-64,M,135,80,160,375,SBD,Single-ply,1
-L. Christ,60,Masters 45-49,M,170,120.5,202.5,492.5,SBD,Single-ply,1
+Larry Christ,60,Masters 45-49,M,170,120.5,202.5,492.5,SBD,Single-ply,1
 D. Stoval,67.5,Masters 45-49,M,147.5,107.5,175,430,SBD,Single-ply,2
 K. Crouse,67.5,Masters 45-49,M,137.5,112.5,187.5,437.5,SBD,Single-ply,1
 R. Nolan,67.5,Masters 65-69,M,102.5,67.5,147.5,317.5,SBD,Single-ply,1
 Roy Mason,67.5,Masters 75-79,M,95,,,,SBD,Single-ply,DQ
-S. Pardue,75,Submasters 35-39,M,222.5,142.5,217.5,582.5,SBD,Single-ply,1
+Sam Pardue,75,Submasters 35-39,M,222.5,142.5,217.5,582.5,SBD,Single-ply,1
 Wittenbach,75,Submasters 35-39,M,,122.5,,122.5,B,Single-ply,2
-S. Pardue,75,Submasters 35-39,M,,142.5,,142.5,B,Single-ply,1
+Sam Pardue,75,Submasters 35-39,M,,142.5,,142.5,B,Single-ply,1
 C. Chestand,75,Masters 40-44,M,227.5,150,210,587.5,SBD,Single-ply,1
-J. Smoker,75,Masters 45-49,M,,,,,SBD,Single-ply,DQ
+Jon Smoker,75,Masters 45-49,M,,,,,SBD,Single-ply,DQ
 Leighninger,75,Masters 45-49,M,190,85,215,490,SBD,Single-ply,2
-C. Wodraska,75,Masters 45-49,M,262.5,142.5,222.5,627.5,SBD,Single-ply,1
+Charles Wodraska,75,Masters 45-49,M,262.5,142.5,222.5,627.5,SBD,Single-ply,1
 D. Lindsley,75,Masters 50-54,M,195,102.5,190,487.5,SBD,Single-ply,1
 Ben Brent,75,Masters 55-59,M,215,100,242.5,557.5,SBD,Single-ply,1
 D. Crain,75,Masters 65-69,M,,127.5,,127.5,B,Single-ply,1
 J. Williams,82.5,Masters 40-44,M,232.5,155,250,637.5,SBD,Single-ply,2
-J. Tyree,82.5,Masters 40-44,M,247.5,162.5,277.5,687.5,SBD,Single-ply,1
+John Tyree,82.5,Masters 40-44,M,247.5,162.5,277.5,687.5,SBD,Single-ply,1
 James Christin,82.5,Masters 45-49,M,,,,,SBD,Single-ply,DQ
 Art Menton,82.5,Masters 45-49,M,185,130,197.5,512.5,SBD,Single-ply,3
 M. Ford,82.5,Masters 45-49,M,250,110,272.5,632.5,SBD,Single-ply,2
@@ -36,7 +36,7 @@ B. Roth,90,Masters 50-54,M,175,130,202.5,507.5,SBD,Single-ply,3
 K. Fryer,90,Masters 50-54,M,210,140,227.5,577.5,SBD,Single-ply,2
 Dan Hamblet,90,Masters 50-54,M,260,172.5,275,707.5,SBD,Single-ply,1
 F. Simmonds,90,Masters 60-64,M,160,90,200,450,SBD,Single-ply,1
-D. Bourland,90,Masters 65-69,M,170,95,190,455,SBD,Single-ply,1
+David Bourland,90,Masters 65-69,M,170,95,190,455,SBD,Single-ply,1
 C. Lee Sr,90,Masters 70-74,M,150,112.5,182.5,445,SBD,Single-ply,1
 J. Kurpiel,90,Masters 80-84,M,120,80,160,360,SBD,Single-ply,1
 M. Carr,100,Submasters 35-39,M,240,142.5,247.5,630,SBD,Single-ply,3
@@ -51,11 +51,11 @@ R. Trudeau,100,Masters 45-49,M,,130,,130,B,Single-ply,2
 J. Patin,100,Masters 45-49,M,,145,,145,B,Single-ply,1
 W. Low,100,Masters 50-54,M,157.5,105,210,472.5,SBD,Single-ply,3
 R. Haugen,100,Masters 50-54,M,142.5,150,210,502.5,SBD,Single-ply,2
-R. Pfeiffer,100,Masters 50-54,M,250,160,255,665,SBD,Single-ply,1
+Rüdiger Pfeiffer,100,Masters 50-54,M,250,160,255,665,SBD,Single-ply,1
 L. Gibson,100,Masters 55-59,M,245,157.5,230,632.5,SBD,Single-ply,2
-J. Engelbert,100,Masters 55-59,M,257.5,132.5,295,685,SBD,Single-ply,1
+Jerry Engelbert,100,Masters 55-59,M,257.5,132.5,295,685,SBD,Single-ply,1
 R. Dupre,100,Masters 60-64,M,167.5,87.5,195,450,SBD,Single-ply,1
-R. Monahan,100,Masters 65-69,M,122.5,77.5,160,360,SBD,Single-ply,1
+Rex Monahan,100,Masters 65-69,M,122.5,77.5,160,360,SBD,Single-ply,1
 Ernie Nagy,100,Masters 70-74,M,100,142.5,150,392.5,SBD,Single-ply,1
 G. Blackman,110,Masters 40-44,M,185,140,190,515,SBD,Single-ply,3
 J. Beckham,110,Masters 40-44,M,232.5,157.5,237.5,627.5,SBD,Single-ply,2
@@ -70,7 +70,7 @@ G. Byrne,110,Masters 60-64,M,127.5,75,150,352.5,SBD,Single-ply,1
 R. Henshaw,125,Submasters 35-39,M,,187.5,,187.5,B,Single-ply,1
 Gil Thompson,125,Masters 40-44,M,345,255,300,900,SBD,Single-ply,1
 N. Bolich,125,Masters 45-49,M,272.5,182.5,250,705,SBD,Single-ply,2
-D. Burton,125,Masters 45-49,M,340,155,287.5,782.5,SBD,Single-ply,1
+Danny Burton,125,Masters 45-49,M,340,155,287.5,782.5,SBD,Single-ply,1
 R. Woodson,125,Masters 50-54,M,185,150,185,520,SBD,Single-ply,2
 C. Batten,125,Masters 50-54,M,255,207.5,250,712.5,SBD,Single-ply,1
 Hal Hudson,125,Masters 55-59,M,222.5,137.5,242.5,602.5,SBD,Single-ply,1
@@ -79,7 +79,7 @@ B. Taylor,125+,Masters 40-44,M,300,187.5,227.5,715,SBD,Single-ply,2
 Mike Mostafa,125+,Masters 40-44,M,290,195,285,770,SBD,Single-ply,1
 M. Snowden,125+,Masters 45-49,M,240,140,250,630,SBD,Single-ply,3
 K. Bivans,125+,Masters 45-49,M,282.5,182.5,245,710,SBD,Single-ply,2
-B. Meek,125+,Masters 45-49,M,325,220,305,850,SBD,Single-ply,1
+Brian Meek,125+,Masters 45-49,M,325,220,305,850,SBD,Single-ply,1
 Ann Leverett,48,Masters 40-44,F,120,83,152.5,355.5,SBD,Single-ply,1
 N. Smith,48,Masters 55-59,F,95,47.5,107.5,250,SBD,Single-ply,1
 Ginger Lord,52,Masters 40-44,F,100,62.5,125,287.5,SBD,Single-ply,1

@@ -23,7 +23,7 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,BodyweightKg,Country,Bench1Kg,Be
 3,52,F,Open,Marion Braun,1970,51.4,Austria,90,-95,100,,100,100,B,Single-ply
 4,52,F,Open,Yveline Dujardin,1960,51.8,Belgium,97.5,100,-102.5,,100,100,B,Single-ply
 5,52,F,Open,Kumi Kobayashi,1961,52,Japan,92.5,-100,-100,,92.5,92.5,B,Single-ply
-6,52,F,Open,Gabi Hirner,1965,50.9,Germany,85,90,-92.5,,90,90,B,Single-ply
+6,52,F,Open,Gabriela Hirner,1965,50.9,Germany,85,90,-92.5,,90,90,B,Single-ply
 7,52,F,Open,Marvi Sirkiae,1972,51.8,Finland,-87.5,-87.5,87.5,,87.5,87.5,B,Single-ply
 1,56,F,Open,Tamara Althaus,1975,53.8,Germany,110,-115,-115,,110,110,B,Single-ply
 2,56,F,Open,Li-Min Lin,1970,54.9,Taiwan,102.5,110,,,110,110,B,Single-ply
@@ -87,7 +87,7 @@ DQ,90+,F,Open,Inge Preikszas,1955,104.3,Germany,-115,-115,,,,,B,Single-ply
 3,52,M,Open,Christian Klein,1970,51.8,Germany,130,137.5,-140,,137.5,137.5,B,Single-ply
 4,52,M,Open,Andrey Podpalny,1968,52,Russia,137.5,,-142.5,,137.5,137.5,B,Single-ply
 5,52,M,Open,Andris Rūdulis,1977,49.2,Latvia,-130,132.5,,,132.5,132.5,B,Single-ply
-6,52,M,Open,Pham Hung,1974,51.6,USA,-132.5,132.5,-142.5,,132.5,132.5,B,Single-ply
+6,52,M,Open,Hung Pham,1974,51.6,USA,-132.5,132.5,-142.5,,132.5,132.5,B,Single-ply
 7,52,M,Open,Tsung-Ting Hsieh,1982,52,Taiwan,110,125,-132.5,,125,125,B,Single-ply
 8,52,M,Open,Satish M. Patade,1963,51,India,90,102.5,-107.5,,102.5,102.5,B,Single-ply
 1,56,M,Open,Makoto Otsubo,1968,55.2,Japan,162.5,168.5,175,181,175,175,B,Single-ply
@@ -96,7 +96,7 @@ DQ,90+,F,Open,Inge Preikszas,1955,104.3,Germany,-115,-115,,,,,B,Single-ply
 4,56,M,Open,Binod-Kumar Patra,1969,55.55,India,125,132.5,-135,,132.5,132.5,B,Single-ply
 5,56,M,Open,Peter Marcak,1970,56,Slovakia,127.5,132.5,-137.5,,132.5,132.5,B,Single-ply
 6,56,M,Open,Sandor Jancsar,1967,54.9,Hungary,120,130,-135,,130,130,B,Single-ply
-7,56,M,Open,Stefan Kolsovski,1961,53.8,Slovakia,125,-132.5,-135,,125,125,B,Single-ply
+7,56,M,Open,Štefan Koľšovský,1961,53.8,Slovakia,125,-132.5,-135,,125,125,B,Single-ply
 8,56,M,Open,Feng-Pin Wu,1976,55.8,Taiwan,110,120,-127.5,,120,120,B,Single-ply
 9,56,M,Open,Markus Cecon,1967,55.55,Austria,112.5,117.5,-120,,117.5,117.5,B,Single-ply
 1,60,M,Open,Magnus Carlsson,1967,59.9,Sweden,-170,170,180,,180,180,B,Single-ply
@@ -214,14 +214,14 @@ DQ,110,M,Open,Ove Lehto,1972,106.3,Finland,-225,-225,-225,,,,B,Single-ply
 DQ,110,M,Open,Masashi Saitoh,1968,108.2,Japan,-237.5,-237.5,-237.5,,,,B,Single-ply
 1,125,M,Open,Horace Lane,1964,122.9,USA,260,272.5,277.5,,277.5,277.5,B,Single-ply
 2,125,M,Open,Misi Inoke,1960,122.6,USA,-265,265,275,,275,275,B,Single-ply
-3,125,M,Open,Piebe Faber,1962,117.8,Netherlands,250,260,-265,,260,260,B,Single-ply
+3,125,M,Open,Piet Faber,1962,117.8,Netherlands,250,260,-265,,260,260,B,Single-ply
 4,125,M,Open,Szabolcs Balázs,1973,116.9,Hungary,255,-265,-265,,255,255,B,Single-ply
 5,125,M,Open,Mauri Kortesalmi,1963,119,Finland,245,-252.5,-252.5,,245,245,B,Single-ply
 6,125,M,Open,Robert Pawelski,1970,119.7,Poland,-240,240,-262.5,,240,240,B,Single-ply
 7,125,M,Open,Zdeněk Sedmík,1976,124.5,Czechia,215,-222.5,222.5,,222.5,222.5,B,Single-ply
 8,125,M,Open,Gerard Correia,1978,111.7,South Africa,195,205,-210,,205,205,B,Single-ply
 9,125,M,Open,Denis Chassé,1950,116.5,Canada,170,-180,-180,,170,170,B,Single-ply
-10,125,M,Open,Richard Frickner,1961,125,UK,160,-172.5,-172.5,,160,160,B,Single-ply
+10,125,M,Open,Richard Fricker,1961,125,UK,160,-172.5,-172.5,,160,160,B,Single-ply
 DQ,125,M,Open,Reinhold Kases,1964,122.9,Austria,-257.5,-257.5,-260,,,,B,Single-ply
 1,125+,M,Open,James Henderson #1,1965,185.4,USA,282.5,-297.5,-297.5,,282.5,282.5,B,Raw
 2,125+,M,Open,Rif Gadiev,1964,149.3,Russia,260,-267.5,-267.5,,260,260,B,Single-ply

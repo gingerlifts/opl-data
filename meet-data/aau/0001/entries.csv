@@ -212,7 +212,7 @@ SBD,M,Russell Yee,,100,R JR,Raw,260,,175,,297.5,,732.5,2
 SBD,M,Bob Boyles,,100,R Open,Raw,247.5,,157.5,,272.5,,677.5,3
 SBD,M,Dan Mahan,,100,R Open,Raw,260,,162.5,,257.5,,680,2
 SBD,M,Tom Pete,,100,R Open,Raw,275,,182.5,,272.5,,730,1
-SBD,M,Steven Short,,100,R Sub,Raw,197.5,,137.5,,275,,610,1
+SBD,M,Steven Short #2,,100,R Sub,Raw,197.5,,137.5,,275,,610,1
 SBD,M,John Constante,,100,RLM 40-44,Raw,230,,115,,240,245,585,1
 SBD,M,Ed Berteaux,,100,RLM 45-49,Raw,202.5,,135,,232.5,,570,2
 SBD,M,Raul Lopez,,100,RLM 45-49,Raw,215,215,157.5,,240,,612.5,1
@@ -220,7 +220,7 @@ SBD,M,Bob Boyles,,100,RM 40-44,Raw,247.5,,157.5,,272.5,,677.5,1
 SBD,M,Raul Lopez,,100,RM 45-49,Raw,215,215,157.5,,240,,612.5,1
 SBD,M,Steve Gaytan,,110,M 40-44,Single-ply,230,,147.5,,250,,627.5,2
 SBD,M,KaRLM Deutsch,,110,M 40-44,Single-ply,265,,172.5,,255,,692.5,1
-SBD,M,John Dumont,,110,M 55-59,Single-ply,230,232.5,150,,220,,600,1
+SBD,M,John DuMont,,110,M 55-59,Single-ply,230,232.5,150,,220,,600,1
 SBD,M,James Butler,,110,Law/Mil,Single-ply,227.5,,165,,227.5,,620,1
 SBD,M,KaRLM Deutsch,,110,Open,Single-ply,265,,172.5,,255,,692.5,2
 SBD,M,Oscar Orengo,,110,Open,Single-ply,230,,175,,240,,645,3
@@ -228,12 +228,12 @@ SBD,M,Steven Sarcia,,110,Open,Single-ply,305,,200,,265,,770,1
 SBD,M,Itaru Toma,,110,Open,Single-ply,225,,175,,210,,610,4
 SBD,M,David Roman,,110,R Law/Mil,Raw,220,,160,,227.5,,607.5,1
 SBD,M,Anthony Brill,,110,R Open,Raw,235,,162.5,,287.5,,685,1
-SBD,M,John Dumont,,110,R Open,Raw,230,232.5,150,,220,,600,2
+SBD,M,John DuMont,,110,R Open,Raw,230,232.5,150,,220,,600,2
 SBD,M,Dave Simmons,,110,R Open,Raw,,,,,,,,DQ
 SBD,M,Anthony Brill,,110,R Sub,Raw,235,,162.5,,287.5,,685,1
 SBD,M,Dave Simmons,,110,RM 40-44,Raw,,,,,,,,DQ
 SBD,M,David Roman,,110,RM 45-49,Raw,220,,160,,227.5,,607.5,1
-SBD,M,John Dumont,,110,RM 55-59,Raw,230,,150,,220,,600,1
+SBD,M,John DuMont,,110,RM 55-59,Raw,230,,150,,220,,600,1
 SBD,M,Lazzario Nieves,,125,JR,Single-ply,320,,195,,272.5,,787.5,1
 SBD,M,Ed Flagg,,125,Law/Mil,Single-ply,245,,150,,230,,625,1
 SBD,M,Lazzario Nieves,,125,Open,Single-ply,320,,195,,272.5,,787.5,1
@@ -414,7 +414,7 @@ D,M,Bob Evans #1,,100,M 50-54,Single-ply,,,,,227.5,,227.5,1
 D,M,Greg Panora,,100,R JR,Raw,,,,,295,,295,1
 D,M,Russell Yee,,100,R JR,Raw,,,,,297.5,,297.5,1
 D,M,Harold Millan,,100,R Open,Raw,,,,,290,,290,1
-D,M,Steven Short,,100,R Sub,Raw,,,,,275,,275,1
+D,M,Steven Short #2,,100,R Sub,Raw,,,,,275,,275,1
 D,M,John Constante,,100,RLM 40-44,Raw,,,,,240,245,240,1
 D,M,Bob Boyles,,100,RM 40-44,Raw,,,,,272.5,,272.5,1
 D,M,Christian Sanchez,,100,RT 14-15,Raw,,,,,,,,DQ

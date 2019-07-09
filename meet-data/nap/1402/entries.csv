@@ -200,7 +200,7 @@ DQ,90,Dmitriy Kuznetsov,Дмитрий Кузнецов,Russia,1976-12-06,M,SBD,
 1,125,Sergey Luchenkov,Сергей Лученков,Russia,1977-05-24,M,SBD,Wraps,Pro Open,124.2,280,290,295,,295,220,-225,-225,,220,300,307.5,315,,315,830
 2,125,Ivan Vesnovatyy,Иван Весноватый,Russia,1985-07-06,M,SBD,Wraps,Pro Open,123.1,260,275,285,,285,180,190,-195,,190,300,320,-330,,320,795
 1,100,Nikita Gulyaev,Никита Гуляев,Russia,1994-07-11,M,S,Multi-ply,Pro Juniors,94.5,210,220,225,,225,,,,,,,,,,,225
-1,100,Valeriy Kuznetsov,Валерий Кузнецов,Russia,1983-08-21,M,S,Multi-ply,Pro Open,96.2,300,320,330,,330,,,,,,,,,,,330
+1,100,Valeriy Kuznetsov,Валерій Кузнєцов,Russia,1983-08-21,M,S,Multi-ply,Pro Open,96.2,300,320,330,,330,,,,,,,,,,,330
 2,100,Aleksandr Evdokimov,Александр Евдокимов,Russia,1978-07-15,M,S,Multi-ply,Pro Open,99.8,-330,-330,330,,330,,,,,,,,,,,330
 3,100,Vyacheslav Tunkin,Вячеслав Тункин,Kazakhstan,1980-06-12,M,S,Multi-ply,Pro Open,95.9,310,-320,-330,,310,,,,,,,,,,,310
 1,110,Aleksandr Klass,Александр Класс,Kazakhstan,1991-08-04,M,S,Multi-ply,Pro Juniors,103,-170,-170,270,,270,,,,,,,,,,,270
@@ -211,7 +211,7 @@ DQ,90,Dmitriy Kuznetsov,Дмитрий Кузнецов,Russia,1976-12-06,M,SBD,
 1,90,Andrey Mitrofanov,Андрей Митрофанов,Russia,1978-08-08,M,D,Multi-ply,Pro Open,89,,,,,,,,,,,260,285,-292.5,,285,285
 1,100,Nikita Gulyaev,Никита Гуляев,Russia,1994-07-11,M,D,Multi-ply,Pro Juniors,94.5,,,,,,,,,,,190,200,210,,210,210
 1,100,Aleksandr Evdokimov,Александр Евдокимов,Russia,1978-07-15,M,D,Multi-ply,Pro Open,99.8,,,,,,,,,,,290,300,305,,305,305
-2,100,Valeriy Kuznetsov,Валерий Кузнецов,Russia,1983-08-21,M,D,Multi-ply,Pro Open,96.2,,,,,,,,,,,260,270,-280,,270,270
+2,100,Valeriy Kuznetsov,Валерій Кузнєцов,Russia,1983-08-21,M,D,Multi-ply,Pro Open,96.2,,,,,,,,,,,260,270,-280,,270,270
 1,110,Aleksandr Klass,Александр Класс,Kazakhstan,1991-08-04,M,D,Multi-ply,Pro Juniors,103,,,,,,,,,,,270,-285,-290,,270,270
 1,110,Aleksandr Zhechev,Александр Жечев,Kazakhstan,1966-07-14,M,D,Multi-ply,Pro Masters 45-49,107.6,,,,,,,,,,,190,210,220,,220,220
 1,110,Ruslan Minibaev,Руслан Минибаев,Russia,1985-02-21,M,D,Multi-ply,Pro Open,102.7,,,,,,,,,,,300,310,-320,,310,310
@@ -237,7 +237,7 @@ DQ,75,Bayazit Garifulin,Баязит Гарифулин,Russia,1989-01-05,M,SBD,
 2,100,Nikita Shakhtarin,Никита Шахтарин,Russia,1994-05-06,M,SBD,Multi-ply,Pro Juniors,98.5,-200,200,220,,220,130,137.5,-142.5,,137.5,200,215,-230,,215,572.5
 1,100,Aleksey Kozlov,Алексей Козлов,Russia,1970-05-19,M,SBD,Multi-ply,Pro Masters 40-44,100,340,-382.5,,,340,205,215,220,,220,290,321.5,330,,330,890
 1,100,Aleksandr Evdokimov,Александр Евдокимов,Russia,1978-07-15,M,SBD,Multi-ply,Pro Open,99.8,-330,-330,330,,330,225,-235,-235,,225,290,300,305,,305,860
-2,100,Valeriy Kuznetsov,Валерий Кузнецов,Russia,1983-08-21,M,SBD,Multi-ply,Pro Open,96.2,300,320,330,,330,210,220,230,,230,260,270,-280,,270,830
+2,100,Valeriy Kuznetsov,Валерій Кузнєцов,Russia,1983-08-21,M,SBD,Multi-ply,Pro Open,96.2,300,320,330,,330,210,220,230,,230,260,270,-280,,270,830
 3,100,Ivan Svetlakov,Иван Светлаков,Russia,1985-03-16,M,SBD,Multi-ply,Pro Open,95.4,245,260,-275,,260,145,155,-170,,155,230,245,-260,,245,660
 4,100,Dmitriy Zhudro,Дмитрий Жудро,Russia,1988-05-25,M,SBD,Multi-ply,Pro Open,94.7,-215,-215,225,,225,135,145,155,,155,210,220,230,,230,610
 1,110,Aleksandr Klass,Александр Класс,Kazakhstan,1991-08-04,M,SBD,Multi-ply,Pro Juniors,103,-270,-270,270,,270,170,180,190,,190,270,-285,-290,,270,730
@@ -322,7 +322,7 @@ DQ,60,Viktor Derbush,Виктор Дербуш,Russia,1988-02-12,M,B,Raw,Amateur
 DQ,67.5,Fedor Tarasov,Федор Тарасов,Russia,1994-04-25,M,B,Raw,Amateur Juniors,66.55,,,,,,-122.5,-122.5,,,,,,,,,
 1,67.5,Vladimir Zabegalin,Владимир Забегалин,Russia,1973-02-16,M,B,Raw,Amateur Masters 40-44,66.65,,,,,,135,-145,-145,,135,,,,,,135
 DQ,67.5,Aleksandr Zadorin,Александр Задорин,Russia,1949-06-02,M,B,Raw,Amateur Masters 65-69,67.5,,,,,,-100,-100,-100,-102.5,,,,,,,
-1,67.5,Garif Giniyatullin,Гариф Гиниятуллин,Russia,1932-12-15,M,B,Raw,Amateur Masters 80+,66,,,,,,60,65,-67.5,,65,,,,,,65
+1,67.5,Garifulla Giniyatullin,Гарифулла Гиниятуллин,Russia,1932-12-15,M,B,Raw,Amateur Masters 80+,66,,,,,,60,65,-67.5,,65,,,,,,65
 1,67.5,Yanis Kalaychev,Янис Калайчев,Russia,1985-07-23,M,B,Raw,Amateur Open,61.7,,,,,,160,167.5,172.5,,172.5,,,,,,172.5
 2,67.5,Vadim Peskov,Вадим Песков,Russia,1992-06-29,M,B,Raw,Amateur Open,66.9,,,,,,145,150,155,,155,,,,,,155
 3,67.5,Sergey Zagray,Сергей Заграй,Russia,1985-08-15,M,B,Raw,Amateur Open,67.5,,,,,,140,145,150,,150,,,,,,150
@@ -445,7 +445,7 @@ DQ,90,Danil Mananchikov,Данил Мананчиков,Russia,1994-02-10,M,B,Ra
 4,90,Pavel Shukshin,Павел Шукшин,Russia,1980-08-03,M,B,Raw,Amateur Open,89.4,,,,,,160,165,-167.5,,165,,,,,,165
 5,90,Konstantin Serovaev,Константин Сероваев,Russia,1985-02-03,M,B,Raw,Amateur Open,87.8,,,,,,-152.5,152.5,-160,,152.5,,,,,,152.5
 6,90,Dmitriy Voropaev,Дмитрий Воропаев,Russia,1988-05-31,M,B,Raw,Amateur Open,87.7,,,,,,-145,-150,150,,150,,,,,,150
-7,90,Artem Petrov,Артем Петров,Russia,1989-06-08,M,B,Raw,Amateur Open,88.7,,,,,,150,-155,-155,,150,,,,,,150
+7,90,Artem Petrov,Артём Петров,Russia,1989-06-08,M,B,Raw,Amateur Open,88.7,,,,,,150,-155,-155,,150,,,,,,150
 8,90,Sergey Chudov,Сергей Чудов,Russia,1976-08-27,M,B,Raw,Amateur Open,88.95,,,,,,-150,-150,150,,150,,,,,,150
 9,90,Vladimir Kozlikhin,Владимир Козлихин,Russia,1981-07-28,M,B,Raw,Amateur Open,88.05,,,,,,142.5,147.5,-150,,147.5,,,,,,147.5
 10,90,Yuriy Pigalev,Юрий Пигалев,Russia,1980-06-04,M,B,Raw,Amateur Open,89.9,,,,,,-142.5,145,-155,,145,,,,,,145

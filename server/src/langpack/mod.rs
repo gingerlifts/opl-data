@@ -152,6 +152,11 @@ pub struct EquipmentTranslations {
     pub single: String,
     pub multi: String,
     pub straps: String,
+
+    /// Terminology for OpenIPF, meaning "Raw".
+    pub classic: String,
+    /// Terminology for OpenIPF, meaning "Single-ply".
+    pub equipped: String,
 }
 
 #[derive(Serialize, Deserialize)]
@@ -428,6 +433,7 @@ pub struct SortSelectorTranslations {
     pub by_glossbrenner: String,
     pub by_ipfpoints: String,
     pub by_mcculloch: String,
+    pub by_nasa: String,
     pub by_wilks: String,
     pub by_division: String,
     pub weight: String,
@@ -466,6 +472,8 @@ pub struct FedSelectorTranslations {
     pub all_usa: String,
     pub all_argentina: String,
     pub all_australia: String,
+    pub all_belarus: String,
+    pub all_brazil: String,
     pub all_canada: String,
     pub all_china: String,
     pub all_croatia: String,
@@ -477,6 +485,7 @@ pub struct FedSelectorTranslations {
     pub all_iceland: String,
     pub all_ireland: String,
     pub all_israel: String,
+    pub all_italy: String,
     pub all_kazakhstan: String,
     pub all_latvia: String,
     pub all_newzealand: String,
@@ -550,7 +559,7 @@ impl LangInfo {
         &mut self,
         language: Language,
         filename: &str,
-    ) -> Result<(), Box<Error>> {
+    ) -> Result<(), Box<dyn Error>> {
         let file = File::open(filename)?;
         let mut buf_reader = BufReader::new(file);
         let mut contents = String::new();

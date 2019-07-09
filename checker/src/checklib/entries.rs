@@ -14,7 +14,11 @@ use crate::checklib::meet::Meet;
 use crate::{EntryIndex, Report};
 
 /// List of all plausible weightclasses, for non-configured federations.
-const DEFAULT_WEIGHTCLASSES: [WeightClassKg; 49] = [
+const DEFAULT_WEIGHTCLASSES: [WeightClassKg; 52] = [
+    // FIXME: Temporary classes while USPA is unconfigured.
+    WeightClassKg::UnderOrEqual(WeightKg::from_raw(90_72)),
+    WeightClassKg::Over(WeightKg::from_raw(90_72)),
+    WeightClassKg::Over(WeightKg::from_raw(82_50)),
     // IPF Men.
     WeightClassKg::UnderOrEqual(WeightKg::from_i32(53)),
     WeightClassKg::UnderOrEqual(WeightKg::from_i32(59)),
@@ -256,8 +260,6 @@ enum Header {
 
     // Columns below this point are ignored.
     Team,
-    #[strum(serialize = "Country-State")]
-    CountryState,
     State,
     #[strum(serialize = "College/University")]
     CollegeUniversity,
@@ -404,8 +406,8 @@ fn check_column_name(name: &str, line: u64, report: &mut Report) -> String {
             match word {
                 // Common short words that mostly translate to "the".
                 "bin" | "da" | "de" | "do" | "del" | "den" | "der" | "des" | "di"
-                | "dos" | "du" | "e" | "el" | "in't" | "la" | "le" | "los" | "v"
-                | "v." | "v.d." | "van" | "von" | "zur" => {
+                | "dos" | "du" | "e" | "el" | "in't" | "la" | "le" | "los" | "'t"
+                | "v" | "v." | "v.d." | "van" | "von" | "zur" => {
                     continue;
                 }
 
@@ -665,19 +667,21 @@ fn check_column_place(s: &str, line: u64, report: &mut Report) -> Place {
     }
 }
 
-fn check_column_age(s: &str, line: u64, report: &mut Report) -> Age {
+fn check_column_age(s: &str, exempt_age: bool, line: u64, report: &mut Report) -> Age {
     match s.parse::<Age>() {
         Ok(age) => {
-            let num = match age {
-                Age::Exact(n) => n,
-                Age::Approximate(n) => n,
-                Age::None => 24,
-            };
+            if !exempt_age {
+                let num = match age {
+                    Age::Exact(n) => n,
+                    Age::Approximate(n) => n,
+                    Age::None => 24,
+                };
 
-            if num < 5 {
-                report.error_on(line, format!("Age '{}' unexpectedly low", s));
-            } else if num > 100 {
-                report.error_on(line, format!("Age '{}' unexpectedly high", s));
+                if num < 5 {
+                    report.error_on(line, format!("Age '{}' unexpectedly low", s));
+                } else if num > 100 {
+                    report.error_on(line, format!("Age '{}' unexpectedly high", s));
+                }
             }
 
             age
@@ -1763,7 +1767,7 @@ pub fn do_check<R>(
     meet: Option<&Meet>,
     config: Option<&Config>,
     mut report: Report,
-) -> Result<CheckResult, Box<Error>>
+) -> Result<CheckResult, Box<dyn Error>>
 where
     R: io::Read,
 {
@@ -1782,6 +1786,8 @@ where
         el.iter()
             .any(|&e| e == Exemption::ExemptWeightClassConsistency)
     });
+    let exempt_age: bool =
+        exemptions.map_or(false, |el| el.iter().any(|&e| e == Exemption::ExemptAge));
 
     let headers: HeaderIndexMap = check_headers(rdr.headers()?, config, &mut report);
     if !report.messages.is_empty() {
@@ -1834,7 +1840,7 @@ where
             entry.place = check_column_place(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::Age) {
-            entry.age = check_column_age(&record[idx], line, &mut report);
+            entry.age = check_column_age(&record[idx], exempt_age, line, &mut report);
         }
         if let Some(idx) = headers.get(Header::Event) {
             entry.event = check_column_event(&record[idx], line, &headers, &mut report);
@@ -2076,7 +2082,7 @@ pub fn check_entries(
     entries_csv: PathBuf,
     meet: Option<&Meet>,
     config: Option<&Config>,
-) -> Result<CheckResult, Box<Error>> {
+) -> Result<CheckResult, Box<dyn Error>> {
     // Allow the pending Report to own the PathBuf.
     let mut report = Report::new(entries_csv);
 

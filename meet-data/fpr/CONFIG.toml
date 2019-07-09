@@ -81,6 +81,7 @@
     divisions = ["Paralympics"]
 
 [exemptions]
+    0310 = ["ExemptWeightClassConsistency"]
     0804 = ["ExemptWeightClassConsistency"]
     0805 = ["ExemptWeightClassConsistency"]
     0807 = ["ExemptWeightClassConsistency"]
@@ -115,3 +116,4 @@
     1106 = ["ExemptWeightClassConsistency"]
     1310 = ["ExemptWeightClassConsistency"]
     1107 = ["ExemptWeightClassConsistency"]
+    1808 = ["ExemptWeightClassConsistency"]

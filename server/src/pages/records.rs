@@ -37,20 +37,20 @@ impl Default for RecordsSelection {
 
 impl RecordsSelection {
     /// Converts a RecordSelection to a Selection.
-    pub fn to_full_selection(&self) -> Selection {
+    pub fn to_full_selection(&self, default: &Selection) -> Selection {
         Selection {
             equipment: self.equipment,
             federation: self.federation,
             sex: self.sex,
             ageclass: self.ageclass,
             year: self.year,
-            ..Selection::default()
+            ..*default
         }
     }
 
     /// Translates a URL path to a RecordSelection.
-    pub fn from_path(p: &path::Path) -> Result<Self, ()> {
-        let mut ret = RecordsSelection::default();
+    pub fn from_path(p: &path::Path, default: &RecordsSelection) -> Result<Self, ()> {
+        let mut ret = default.clone();
 
         // Disallow empty path components.
         if let Some(s) = p.to_str() {
@@ -155,6 +155,7 @@ impl FromStr for ClassKindSelection {
 /// The context object passed to `templates/records.html.tera`.
 #[derive(Serialize)]
 pub struct Context<'db> {
+    pub urlprefix: &'static str,
     pub page_title: &'db str,
     pub language: Language,
     pub strings: &'db langpack::Translations,
@@ -463,9 +464,11 @@ fn make_collectors<'db>(
 fn find_records<'db>(
     opldb: &'db OplDb,
     sel: &RecordsSelection,
+    default: &Selection,
 ) -> Vec<RecordCollector<'db>> {
     // Get a list of all entries corresponding to the selection.
-    let indices = algorithms::get_entry_indices_for(&sel.to_full_selection(), opldb);
+    let indices =
+        algorithms::get_entry_indices_for(&sel.to_full_selection(default), opldb);
 
     // Build a vector of structs that can remember records.
     let mut collectors = make_collectors(sel.sex, sel.classkind);
@@ -682,12 +685,14 @@ impl<'db> Context<'db> {
         opldb: &'db OplDb,
         locale: &'db Locale,
         selection: &RecordsSelection,
+        default: &Selection,
     ) -> Context<'db> {
-        let records = find_records(opldb, selection);
+        let records = find_records(opldb, selection, default);
         let tables = prettify_records(records, opldb, locale);
 
         Context {
-            page_title: &locale.strings.header.records,
+            urlprefix: "/",
+            page_title: "Powerlifting Records",
             language: locale.language,
             strings: locale.strings,
             units: locale.units,

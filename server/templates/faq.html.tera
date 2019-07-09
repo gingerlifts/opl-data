@@ -37,7 +37,7 @@
 
 <h2>What do colored names mean?</h2>
 
-<p>This site has no ads or paywalls -- we are generously funded by donations from the powerlifting community via <a href="https://www.patreon.com/openpowerlifting">Patreon</a>. As a way of saying thanks, donators have the option of choosing a custom color for their name.</p>
+<p>This site has no ads or paywalls -- we are generously funded by donations from the powerlifting community <a href="https://www.patreon.com/join/openpowerlifting">through Patreon</a>. As a way of saying thanks, donators have the option of choosing a custom color for their name.</p>
 
 <h2>Why are WRPF totals lower than reported? (Why isn't Yury #1?)</h2>
 
@@ -61,7 +61,7 @@
 
 <p>Hopefully in the future that will be possible, but right now that isn't possible, because the majority of federations are operating with extremely old and bad technology: PDF files instead of databases.</p>
 
-<p>The <a href="/status">status page</a> shows how many meets are in our database. Every one of these meets was downloaded and entered by hand. As you can imagine, this takes a tremendous amount of time and energy. On average, meets that are posted as PDFs take about 20 minutes to enter, and meets that are posted as spreadsheets take between 5 minutes to an hour to enter, usually depending on how Russian the source federation is. For some federations, we wrote programs that slightly simplify the process, but still require manual review.</p>
+<p>The <a href="{{urlprefix | safe}}status">status page</a> shows how many meets are in our database. Every one of these meets was downloaded and entered by hand. As you can imagine, this takes a tremendous amount of time and energy. On average, meets that are posted as PDFs take about 20 minutes to enter, and meets that are posted as spreadsheets take between 5 minutes to an hour to enter, usually depending on how Russian the source federation is. For some federations, we wrote programs that slightly simplify the process, but still require manual review.</p>
 
 <p>We strongly encourage federations to stop using PDF. Although PDFs look like spreadsheets to humans, to a computer they are functionally equivalent to JPG files, and converting them back to spreadsheets is extremely error-prone. Instead, we suggest hosting meet results as HTML.</p>
 
@@ -77,7 +77,7 @@
 
 <p>We're powerlifters, and powerlifting badly needed someone to organize its results. It's our hope that by giving away all our data for free, you will be more motivated to support the project by sending in corrections and telling other lifters about us. We want as many people actively using our data as possible, so that they can send in corrections of their own, which will cause us to have extremely accurate historical data. We want you to really feel that we're working for your benefit.</p>
 
-<p>To make sure that this site remains free, we release all of our data into the public domain, and all of our code under the AGPLv3+ license. You can download our entire database right now from the <a href="data.html">Data page</a> -- in fact, you really should! That prevents us from ever making the data private, because if we did so, you could easily create a new, free website with better data. It's our hope that this model keeps powerlifting data in the public domain forever.</p>
+<p>To make sure that this site remains free, we release all of our data into the public domain, and all of our code under the AGPLv3+ license. You can download our entire database right now from the <a href="{{urlprefix | safe}}data.html">Data page</a> -- in fact, you really should! That prevents us from ever making the data private, because if we did so, you could easily create a new, free website with better data. It's our hope that this model keeps powerlifting data in the public domain forever.</p>
 
 <p>Basically, we're Powerlifting librarians and archivists, and don't charge for this site for the same reason that librarians don't charge you to read one of their books.</p>
 

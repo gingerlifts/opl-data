@@ -1,5 +1,5 @@
 Name,State,Age,Division,Sex,WeightClassKg,BodyweightKg,Equipment,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Event,Place
-Taylor Young,NSW,58,FO-R,F,60,59.9,Raw,160,170,180,190,180,180,D,1
+Taylor Young #1,NSW,58,FO-R,F,60,59.9,Raw,160,170,180,190,180,180,D,1
 Lyndall Vile,NSW,25,FO-R,F,75,72,Raw,150,155,160,-165,160,160,D,2
 Anna Lonergan,TAS,26,FO-R,F,82.5,75.35,Raw,120,145,155,,155,155,D,3
 Camila Sadri,QLD,20,FJ-R,F,75,70.3,Raw,160,170,172.5,175,172.5,172.5,D,4
@@ -37,7 +37,7 @@ Peter Pike,TAS,25,MO-R,M,90,83.25,Raw,230,250,-262.5,,250,250,D,19
 Justin Lucas,TAS,38,MO-R,M,90,89.75,Raw,260,-270,,,260,260,D,20
 Jake Oakenfull,TAS,23,MJ-R,M,110,108.4,Raw,280,-300,-300,,280,280,D,21
 Terry Gibbs,NSW,59,MM-R,M,100,98.2,Raw,185,201,205,,205,205,D,22
-Brent Drake,NSW,37,MO-R,M,100,99.4,Raw,250,260,270,,270,270,D,23
+Brent Drake #2,NSW,37,MO-R,M,100,99.4,Raw,250,260,270,,270,270,D,23
 Jonny Nelson,QLD,31,MO-MP,M,100,99.5,Multi-ply,-270,270,-285,,270,270,D,24
 Brian Jarrott,VIC,45,MM-R,M,90,88.2,Raw,220,235,240,,240,240,D,25
 Nathaniel Anthony,QLD,23,MJ-R,M,75,73.8,Raw,210,222.5,-227.5,,222.5,222.5,D,26

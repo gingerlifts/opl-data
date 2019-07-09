@@ -2,7 +2,7 @@ Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 D. Adkins,,Teen 14-15,M,111.13,65.77,136.08,312.98,SBD,Single-ply,1
 A. Lavelle,100,Teen 16-17,M,249.48,138.35,226.8,614.62,SBD,Single-ply,1
 J. Barber,,Teen 16-17,M,104.33,83.91,154.22,342.46,SBD,Single-ply,2
-D. Glitt,,Teen 16-17,M,147.42,74.84,172.37,394.63,SBD,Single-ply,3
+Dean Glitt,,Teen 16-17,M,147.42,74.84,172.37,394.63,SBD,Single-ply,3
 J. Wiest,110,Teen 18-19,M,317.52,181.44,272.16,771.11,SBD,Single-ply,1
 D. Szostek,75,Teen 18-19,M,215.46,127.01,226.8,569.26,SBD,Single-ply,2
 R. Tyo,,Teen 18-19,M,181.44,122.47,204.12,508.02,SBD,Single-ply,3
@@ -15,13 +15,13 @@ T. Shrior,100,Masters 40-49,M,244.94,124.74,240.4,610.08,SBD,Single-ply,3
 L. Donahue,67.5,Masters 40-49,M,147.42,115.67,181.44,444.52,SBD,Single-ply,4
 R. Dobson,67.5,Masters 40-49,M,149.69,99.79,176.9,426.38,SBD,Single-ply,5
 B. Coyer,,Masters 40-49,M,204.12,145.15,238.14,587.4,SBD,Single-ply,6
-J. Klein,,Masters 40-49,M,113.4,115.67,181.44,410.5,SBD,Single-ply,7
+Jim Klein,,Masters 40-49,M,113.4,115.67,181.44,410.5,SBD,Single-ply,7
 T. Hendrickson,,Masters 40-49,M,113.4,113.4,181.44,408.23,SBD,Single-ply,8
 M. Daniels,,Masters 50+,M,226.8,124.74,226.8,578.33,SBD,Single-ply,1
 H. Rome,75,Masters 50+,M,167.83,99.79,185.97,453.59,SBD,Single-ply,2
 D. Nesser,52,Class II & Below,M,58.97,36.29,106.59,201.85,SBD,Single-ply,1
 B. Stafford,67.5,Class II & Below,M,199.58,120.2,204.12,523.9,SBD,Single-ply,1
-C. Picklesimer,67.5,Class II & Below,M,181.44,124.74,181.44,487.61,SBD,Single-ply,2
+G. Picklesimer,67.5,Class II & Below,M,181.44,124.74,181.44,487.61,SBD,Single-ply,2
 L. Donahue,67.5,Class II & Below,M,147.42,115.67,181.44,444.52,SBD,Single-ply,3
 R. Dobson,67.5,Class II & Below,M,149.69,99.79,176.9,426.38,SBD,Single-ply,4
 F. Bauer,67.5,Class II & Below,M,172.37,,,,SBD,Single-ply,DQ
@@ -50,7 +50,7 @@ C. Risner,90,Class II & Below,M,254.01,142.88,247.21,644.1,SBD,Single-ply,3
 F. Costanzo,90,Class II & Below,M,238.14,161.03,238.14,637.3,SBD,Single-ply,4
 E. Evensen,90,Class II & Below,M,226.8,147.42,238.14,612.35,SBD,Single-ply,5
 J. Burleson,90,Class II & Below,M,231.33,142.88,226.8,601.01,SBD,Single-ply,6
-J. Davis,90,Class II & Below,M,226.8,131.54,235.87,594.21,SBD,Single-ply,7
+J. Davis #12,90,Class II & Below,M,226.8,131.54,235.87,594.21,SBD,Single-ply,7
 D. Schultheis,90,Class II & Below,M,183.71,142.88,240.4,566.99,SBD,Single-ply,8
 J. Baumeyer,90,Class II & Below,M,201.85,127.01,210.92,539.78,SBD,Single-ply,9
 A. Colvin,90,Class II & Below,M,176.9,127.01,229.06,532.97,SBD,Single-ply,10
@@ -93,7 +93,7 @@ J. Friend,60,Open,M,154.22,106.59,172.37,433.18,SBD,Single-ply,1
 D. Harber,60,Open,M,117.93,81.65,142.88,342.46,SBD,Single-ply,2
 R. Mickle,67.5,Open,M,226.8,147.42,208.65,582.87,SBD,Single-ply,1
 G. Ripley,67.5,Open,M,217.72,142.88,219.99,580.6,SBD,Single-ply,2
-W. Ewing,67.5,Open,M,195.04,129.27,238.14,562.46,SBD,Single-ply,3
+Willie Ewing,67.5,Open,M,195.04,129.27,238.14,562.46,SBD,Single-ply,3
 A. Furnas,67.5,Open,M,210.92,142.88,206.38,560.19,SBD,Single-ply,4
 S. Farnsworth,75,Open,M,272.16,165.56,263.08,700.8,SBD,Single-ply,1
 Angelo Berardinelli,75,Open,M,272.16,158.76,265.35,696.27,SBD,Single-ply,2

@@ -1,6 +1,6 @@
 Name,WeightClassKg,Division,Sex,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 L. Fox,47.5,Open,F,145,145,D,Single-ply,1
-J. Davis,53,Open,F,167.5,167.5,D,Single-ply,1
+J. Davis #23,53,Open,F,167.5,167.5,D,Single-ply,1
 C. Trosper,70,Open,F,207.5,207.5,D,Single-ply,1
 A. Tallarico,70,Open,F,185,185,D,Single-ply,2
 Andrea Sortwell,80,Open,F,197.5,197.5,D,Single-ply,1
@@ -12,7 +12,7 @@ Ken Snell,56,Open,M,200,200,D,Single-ply,2
 M. Madigan,56,Open,M,170,170,D,Single-ply,3
 Mike Stagg,60,Open,M,207.5,207.5,D,Single-ply,1
 Pat Boarman,60,Open,M,197.5,197.5,D,Single-ply,2
-K. Clemens,60,Open,M,195,195,D,Single-ply,3
+Kevin Clemens,60,Open,M,195,195,D,Single-ply,3
 D. Gilley,67.5,Open,M,220,220,D,Single-ply,1
 Mark Thomas,67.5,Open,M,205,205,D,Single-ply,2
 Krockenberger,75,Open,M,255,255,D,Single-ply,1
@@ -31,7 +31,7 @@ B. Cullum,90,Open,M,262.5,262.5,D,Single-ply,4
 L. Welch,90,Open,M,262.5,262.5,D,Single-ply,5
 C. Trosper,90,Open,M,257.5,257.5,D,Single-ply,6
 J. Cross,90,Open,M,255,255,D,Single-ply,7
-C. Holmes,100,Open,M,342.5,342.5,D,Single-ply,1
+Chad Holmes,100,Open,M,342.5,342.5,D,Single-ply,1
 J. Maddox,100,Open,M,312.5,312.5,D,Single-ply,2
 Pat Tyring,100,Open,M,305,305,D,Single-ply,3
 Leonard Sample,100,Open,M,297.5,297.5,D,Single-ply,4
@@ -41,7 +41,7 @@ C. Driscoll,110,Open,M,330,330,D,Single-ply,1
 J. Kruszynski,110,Open,M,292.5,292.5,D,Single-ply,2
 M. Robbins,110,Open,M,267.5,267.5,D,Single-ply,3
 J. Anstey,110,Open,M,242.5,242.5,D,Single-ply,4
-M. Reeves,125,Open,M,327.5,327.5,D,Single-ply,1
+Marvin Reeves,125,Open,M,327.5,327.5,D,Single-ply,1
 Darrell Bowie,125,Open,M,297.5,297.5,D,Single-ply,2
 L. Gaffigan,125,Open,M,295,295,D,Single-ply,3
 Tim Mooney,125,Open,M,275,275,D,Single-ply,4
@@ -49,7 +49,7 @@ Vae Mafuli,125+,Open,M,340,340,D,Single-ply,1
 Ken Ufford,125+,Open,M,337.5,337.5,D,Single-ply,2
 Ken Snell,56,Lifetime,M,200,200,D,Single-ply,1
 M. Madigan,56,Lifetime,M,170,170,D,Single-ply,2
-K. Clemens,60,Lifetime,M,195,195,D,Single-ply,1
+Kevin Clemens,60,Lifetime,M,195,195,D,Single-ply,1
 Ben Brent,75,Lifetime,M,265,265,D,Single-ply,1
 Krockenberger,75,Lifetime,M,255,255,D,Single-ply,2
 R. Perine,75,Lifetime,M,247.5,247.5,D,Single-ply,3
@@ -61,10 +61,10 @@ J. Scalzitti,82.5,Lifetime,M,217.5,217.5,D,Single-ply,3
 T. Piper,82.5,Lifetime,M,205,205,D,Single-ply,4
 C. Terry,90,Lifetime,M,327.5,327.5,D,Single-ply,1
 T. Simon,90,Lifetime,M,287.5,287.5,D,Single-ply,2
-M. Ricker,90,Lifetime,M,287.5,287.5,D,Single-ply,3
+Mike Ricker,90,Lifetime,M,287.5,287.5,D,Single-ply,3
 J. Croat,90,Lifetime,M,255,255,D,Single-ply,4
 L. Grant,90,Lifetime,M,250,250,D,Single-ply,5
-C. Holmes,100,Lifetime,M,342.5,342.5,D,Single-ply,1
+Chad Holmes,100,Lifetime,M,342.5,342.5,D,Single-ply,1
 Leonard Sample,100,Lifetime,M,297.5,297.5,D,Single-ply,2
 N. Johnson,100,Lifetime,M,295,295,D,Single-ply,3
 D. Anguish,100,Lifetime,M,275,275,D,Single-ply,4
@@ -85,7 +85,7 @@ D. Garris,110,Juniors,M,282.5,282.5,D,Single-ply,1
 Tim Vaughn,125+,Juniors,M,260,260,D,Single-ply,1
 Ken Snell,56,Submasters,M,200,200,D,Single-ply,1
 M. Madigan,56,Submasters,M,170,170,D,Single-ply,2
-K. Clemens,60,Submasters,M,195,195,D,Single-ply,1
+Kevin Clemens,60,Submasters,M,195,195,D,Single-ply,1
 D. Horton,67.5,Submasters,M,190,190,D,Single-ply,1
 Krockenberger,75,Submasters,M,255,255,D,Single-ply,1
 H. Lee,82.5,Submasters,M,245,245,D,Single-ply,1
@@ -108,7 +108,7 @@ M. Robbins,110,Police & Fire,M,267.5,267.5,D,Single-ply,1
 Ken Ufford,125+,Police & Fire,M,337.5,337.5,D,Single-ply,1
 Colin Matthews,52,Teen 14-15,M,80,80,D,Single-ply,1
 J. Logsdon,56,Teen 14-15,M,85,85,D,Single-ply,1
-M. Wynn,56,Teen 16-17,M,182.5,182.5,D,Single-ply,1
+Marcus Wynn,56,Teen 16-17,M,182.5,182.5,D,Single-ply,1
 Roger Nurrenbern,67.5,Teen 16-17,M,145,145,D,Single-ply,1
 D. Cummings,100,Teen 16-17,M,217.5,217.5,D,Single-ply,1
 J. Cross,90,Teen 18-19,M,255,255,D,Single-ply,1

@@ -44,20 +44,20 @@ L. Fleming,67.5,Pure,M,225,,145,225,,595,SBD,Single-ply,5
 E. Vaughn,67.5,Pure,M,227.5,,125,227.5,,580,SBD,Single-ply,6
 H. Brodhurst,67.5,Pure,M,225,,102.5,250,,577.5,SBD,Single-ply,7
 V. Brown,67.5,Pure,M,230,,122.5,202.5,,555,SBD,Single-ply,8
-G. Graces,67.5,Pure,M,215,,117.5,222.5,,555,SBD,Single-ply,9
+G. Graves,67.5,Pure,M,215,,117.5,222.5,,555,SBD,Single-ply,9
 R. Willis,67.5,Pure,M,197.5,,100,217.5,,515,SBD,Single-ply,10
 J. Schiller,67.5,Pure,M,197.5,,110,202.5,,510,SBD,Single-ply,11
 D. Grant,67.5,Pure,M,165,,117.5,195,,477.5,SBD,Single-ply,12
 J. Jones,67.5,Pure,M,130,,80,162.5,,372.5,SBD,Single-ply,13
 M. Waggoner,67.5,Pure,M,185,,,,,,SBD,Single-ply,DQ
 B. Peace,75,Pure,M,257.5,,145,227.5,,630,SBD,Single-ply,1
-M. Ewoldsen,75,Pure,M,257.5,,142.5,222.5,,622.5,SBD,Single-ply,2
+Mike Ewoldsen,75,Pure,M,257.5,,142.5,222.5,,622.5,SBD,Single-ply,2
 M. Arrendell,75,Pure,M,227.5,,147.5,235,,610,SBD,Single-ply,3
 C. Passanante,75,Pure,M,185,,115,195,,495,SBD,Single-ply,4
 Curtis Payne,82.5,Pure,M,320,322.5,160,320,,800,SBD,Single-ply,1
 S. Todd,82.5,Pure,M,245,,150,227.5,,622.5,SBD,Single-ply,2
 R. Sherwood,82.5,Pure,M,,,,,,,SBD,Single-ply,DQ
-W. McCoy,90,Pure,M,297.5,,160,317.5,,775,SBD,Single-ply,1
+Willie McCoy,90,Pure,M,297.5,,160,317.5,,775,SBD,Single-ply,1
 P. Kouf,90,Pure,M,267.5,,167.5,270,,705,SBD,Single-ply,2
 J. Schraub,90,Pure,M,305,,145,245,,695,SBD,Single-ply,3
 T. Dunlap,90,Pure,M,250,,150,270,,670,SBD,Single-ply,4
@@ -75,7 +75,7 @@ D. Cullinane,100,Pure,M,265,,152.5,242.5,,660,SBD,Single-ply,7
 E. Payne,100,Pure,M,240,,162.5,255,,657.5,SBD,Single-ply,8
 Earl Hammons,110,Pure,M,327.5,,185,277.5,,790,SBD,Single-ply,1
 Joe Dentice,110,Pure,M,280,,182.5,290,,752.5,SBD,Single-ply,2
-D. Kraft,110,Pure,M,275,,172.5,285,,732.5,SBD,Single-ply,3
+Dave Kraft,110,Pure,M,275,,172.5,285,,732.5,SBD,Single-ply,3
 J. Taylor,110,Pure,M,282.5,,170,272.5,,725,SBD,Single-ply,4
 S. Sherill,110,Pure,M,282.5,,157.5,272.5,,712.5,SBD,Single-ply,5
 K. Thomas,110,Pure,M,275,,172.5,257.5,,705,SBD,Single-ply,7
@@ -94,15 +94,15 @@ L. Fleming,67.5,Natural,M,225,,145,225,,595,SBD,Single-ply,1
 E. Vaughn,67.5,Natural,M,227.5,,125,227.5,,580,SBD,Single-ply,2
 H. Brodhurst,67.5,Natural,M,225,,102.5,250,,577.5,SBD,Single-ply,3
 G. Graves,67.5,Natural,M,215,,117.5,222.5,,555,SBD,Single-ply,5
-P. Trujillo,67.5,Natural,M,200,,137.5,205,,542.5,SBD,Single-ply,4
+Phillip Trujillo,67.5,Natural,M,200,,137.5,205,,542.5,SBD,Single-ply,4
 Fred Toins,75,Natural,M,290,,170,282.5,,742.5,SBD,Single-ply,1
 C. DeFracisco,75,Natural,M,227.5,,137.5,200,,565,SBD,Single-ply,2
 Donnie Cole,82.5,Natural,M,306,,132.5,287.5,,726,SBD,Single-ply,1
-P. Ireland,82.5,Natural,M,280,,187.5,242.5,,710,SBD,Single-ply,2
+Peter Ireland,82.5,Natural,M,280,,187.5,242.5,,710,SBD,Single-ply,2
 S. Scott,82.5,Natural,M,230,,137.5,242.5,,610,SBD,Single-ply,3
 S. Dain,82.5,Natural,M,205,,127.5,215,,547.5,SBD,Single-ply,4
 Willie McCoy,90,Natural,M,297.5,,160,317.5,,775,SBD,Single-ply,1
-H. Dunagan,90,Natural,M,295,,175,302.5,,772.5,SBD,Single-ply,2
+Hugh Dunagan,90,Natural,M,295,,175,302.5,,772.5,SBD,Single-ply,2
 T. Dunlap,90,Natural,M,250,,150,270,,670,SBD,Single-ply,3
 B. Van Farowe,90,Natural,M,252.5,,145,265,,662.5,SBD,Single-ply,4
 P. Jenkins,90,Natural,M,227.5,,140,235,,602.5,SBD,Single-ply,5
@@ -164,7 +164,7 @@ F. Harris,125,Pure Novice,M,245,,187.5,215,,647.5,SBD,Single-ply,2
 R Earie,125,Pure Novice,M,250,,142.5,255,,647.5,SBD,Single-ply,3
 E. Martin,125,Pure Novice,M,237.5,,132.5,225,,595,SBD,Single-ply,4
 Viet Tran,56,High School Pure,M,175,,117.5,210,,502.5,SBD,Single-ply,1
-H. Nguyen,60,High School Pure,M,220,,127.5,210,,557.5,SBD,Single-ply,1
+Hien Nguyen,60,High School Pure,M,220,,127.5,210,,557.5,SBD,Single-ply,1
 J. Chapman,90,High School Pure,M,82.5,,87.5,172.5,,342.5,SBD,Single-ply,1
 W. Nightwalker,67.5,Teen,M,170,,105,230,,505,SBD,Single-ply,1
 D. Butler,75,Teen,M,195,,107.5,227.5,,530,SBD,Single-ply,1
@@ -192,10 +192,10 @@ A. Young,60,Submasters,M,157.5,,117.5,200,,475,SBD,Single-ply,2
 J. Shroedr,60,Submasters,M,160,,87.5,200,,447.5,SBD,Single-ply,3
 V. Brown,67.5,Submasters,M,230,,122.5,202.5,,555,SBD,Single-ply,1
 R. Williams,67.5,Submasters,M,190,,102.5,170,,462.5,SBD,Single-ply,2
-C. Mustari,75,Submasters,M,245,,162.5,250,,657.5,SBD,Single-ply,1
+Carl Mustari,75,Submasters,M,245,,162.5,250,,657.5,SBD,Single-ply,1
 B. Peace,75,Submasters,M,257.5,,145,227.5,,630,SBD,Single-ply,2
 J. Dawkins,75,Submasters,M,137.5,,112.5,172.5,,422.5,SBD,Single-ply,3
-D. Cole,82.5,Submasters,M,306,,132.5,287.5,,726,SBD,Single-ply,1
+Donnie Cole,82.5,Submasters,M,306,,132.5,287.5,,726,SBD,Single-ply,1
 J. Laribilk,82.5,Submasters,M,267.5,,175,242.5,,685,SBD,Single-ply,2
 R. Sherwood,82.5,Submasters,M,227.5,,130,217.5,,575,SBD,Single-ply,3
 Willie McCoy,90,Submasters,M,297.5,,160,317.5,,775,SBD,Single-ply,1
@@ -216,13 +216,13 @@ T. Ross,110,Submasters,M,270,,152.5,240,,662.5,SBD,Single-ply,4
 R. Kroeger,110,Submasters,M,252.5,,155,250,,657.5,SBD,Single-ply,5
 P. Snedeker,110,Submasters,M,200,,125,205,,530,SBD,Single-ply,6
 G. Tate,110,Submasters,M,185,,80,170,,435,SBD,Single-ply,7
-W. Tolbert,125,Submasters,M,312.5,,227.5,297.5,,837.5,SBD,Single-ply,1
+Willie Tolbert,125,Submasters,M,312.5,,227.5,297.5,,837.5,SBD,Single-ply,1
 J. Tout,125,Submasters,M,282.5,,175,272.5,,730,SBD,Single-ply,2
 M. Carney,125+,Submasters,M,282.5,,172.5,250,,705,SBD,Single-ply,1
 T. Buford,125+,Submasters,M,272.5,,172.5,250,,695,SBD,Single-ply,2
 T. Lorhmann,125+,Submasters,M,287.5,,172.5,232.5,,692.5,SBD,Single-ply,3
 Robert Trujillo,60,Masters 1,M,110,,80,165,,355,SBD,Single-ply,1
-P. Trujillo,67.5,Masters 1,M,200,,137.5,205,,542.5,SBD,Single-ply,1
+Phillip Trujillo,67.5,Masters 1,M,200,,137.5,205,,542.5,SBD,Single-ply,1
 B. Williams,67.5,Masters 1,M,157.5,,92.5,200,,450,SBD,Single-ply,2
 G. Rich,67.5,Masters 1,M,145,,100,175,,420,SBD,Single-ply,3
 D. Rhodes,75,Masters 1,M,235,,140,250,,625,SBD,Single-ply,1

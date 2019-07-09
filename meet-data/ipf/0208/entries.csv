@@ -8,10 +8,10 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,BodyweightKg,Country,Best3SquatK
 2,56,M,Open,Shih-Wu Lu,1975,55.2,Taiwan,242.5,117.5,260,620,SBD,Single-ply
 3,56,M,Open,Tsung-Ting Hsieh,1982,55.4,Taiwan,210,140,255,605,SBD,Single-ply
 4,56,M,Open,Sergiy Vatyuk,1962,55.8,Ukraine,200,152.5,215,567.5,SBD,Single-ply
-5,56,M,Open,Darius Wszola,1978,56,Poland,222.5,140,205,567.5,SBD,Single-ply
+5,56,M,Open,Dariusz Wszoła,1978,56,Poland,222.5,140,205,567.5,SBD,Single-ply
 6,56,M,Open,Azat Rakhmankulov,1975,55.6,Uzbekistan,205,110,240,555,SBD,Single-ply
 7,56,M,Open,Jürgen Nemeth,1972,56,Austria,200,115,225,540,SBD,Single-ply
-8,56,M,Open,Alan Whigham,1975,56,USA,212.5,115,205,532.5,SBD,Single-ply
+8,56,M,Open,Allen Whigham,1975,56,USA,212.5,115,205,532.5,SBD,Single-ply
 9,56,M,Open,Štefan Koľšovský,1961,55.8,Slovakia,195,137.5,160,492.5,SBD,Single-ply
 DQ,56,M,Open,Sławomir Śledź,1976,55.8,Poland,215,,,,SBD,Single-ply
 1,60,M,Open,Mikhail Andryukhin,1963,60,Russia,265,150,270,685,SBD,Single-ply
@@ -20,7 +20,7 @@ DQ,56,M,Open,Sławomir Śledź,1976,55.8,Poland,215,,,,SBD,Single-ply
 4,60,M,Open,Mariusz Olech,1976,59.8,Poland,230,135,245,610,SBD,Single-ply
 5,60,M,Open,Konst Bachtevanov,1977,59.4,Bulgaria,225,145,235,605,SBD,Single-ply
 6,60,M,Open,Chung-Liang Chiu,1974,59.6,Taiwan,210,132.5,250,592.5,SBD,Single-ply
-7,60,M,Open,Tim Taylor,1966,59.8,USA,200,147.5,240,587.5,SBD,Single-ply
+7,60,M,Open,Tim Taylor #1,1966,59.8,USA,200,147.5,240,587.5,SBD,Single-ply
 8,60,M,Open,Dušan Skirkanič,1961,59.8,Slovakia,190,115,200,505,SBD,Single-ply
 9,60,M,Open,Jason Gomez,1974,58.8,Philippines,100,147.5,100,347.5,SBD,Single-ply
 DQ,60,M,Open,Hiroyuki Isagawa,1953,59.6,Japan,222.5,,,,SBD,Single-ply
@@ -85,7 +85,7 @@ DQ,75,M,Open,Dainius Juodgudis,1971,74.6,Lithuania,,,,,SBD,Single-ply
 12,90,M,Open,Donald Giblin,1977,87.9,New Zealand,250,190,250,690,SBD,Single-ply
 13,90,M,Open,Jeff Butt,1970,89.9,Canada,255,192.5,240,687.5,SBD,Single-ply
 14,90,M,Open,Stephen King,1962,88.5,New Zealand,260,147.5,260,667.5,SBD,Single-ply
-DQ,90,M,Open,Michael Mastrean,1971,88.8,USA,335,,,,SBD,Single-ply
+DQ,90,M,Open,Mike Mastrean,1971,88.8,USA,335,,,,SBD,Single-ply
 DQ,90,M,Open,Jamie Burke,1976,90,UK,,,,,SBD,Single-ply
 DQ,90,M,Open,Daniele Ghirardi,1969,90,Italy,310,,,,SBD,Single-ply
 1,100,M,Open,Oleksiy Rokochyy Jr,1981,99.44,Ukraine,385,240,347.5,972.5,SBD,Single-ply

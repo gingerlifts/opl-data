@@ -183,7 +183,7 @@ WeightClassKg,Sex,Tested,Division,Name,Event,Equipment,Country,Best3SquatKg,Best
 100,M,No,Masters 45-49,Sakari Mäntylä,SBD,Multi-ply,Finland,290,157.5,305,752.5,3
 100,M,No,Masters 45-49,Bob Kelly,SBD,Multi-ply,USA,240,127.5,250,617.5,4
 110,M,No,Masters 45-49,Gerhard Schranz,SBD,Multi-ply,Austria,260,217.5,317.5,795,1
-110,M,No,Masters 45-49,Doug Wiliams,SBD,Multi-ply,UK,300,190,250,740,2
+110,M,No,Masters 45-49,Doug Williams,SBD,Multi-ply,UK,300,190,250,740,2
 125,M,No,Masters 45-49,John Florio,SBD,Multi-ply,USA,382.5,200,292.5,875,1
 125,M,No,Masters 45-49,Kal Lindstrom,SBD,Multi-ply,Finland,300,170,310,780,2
 140+,M,No,Masters 45-49,Phil Niemandt,SBD,Multi-ply,South Africa,370,180,305,855,1
@@ -383,7 +383,7 @@ WeightClassKg,Sex,Tested,Division,Name,Event,Equipment,Country,Best3SquatKg,Best
 125,M,No,Open,Colin Kelly,B,Multi-ply,USA,,227.5,,227.5,4
 140,M,No,Open,Scott Mendelson,B,Multi-ply,USA,,292.5,,292.5,1
 140,M,No,Open,Jamie Shell,B,Multi-ply,USA,,280,,280,2
-140,M,No,Open,Holger Kuttrof,B,Multi-ply,Germany,,265,,265,3
+140,M,No,Open,Holger Kuttroff,B,Multi-ply,Germany,,265,,265,3
 140,M,No,Open,Uwe Frey,B,Multi-ply,Germany,,230,,230,4
 140+,M,No,Open,Clay Brandenburg,B,Multi-ply,USA,,300,,300,1
 140+,M,No,Open,Ingo Czeplinski,B,Multi-ply,Germany,,260,,260,2

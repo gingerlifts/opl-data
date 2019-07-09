@@ -193,7 +193,7 @@ Kyle Herzik,M,B,Juniors 20-25,100,Single-ply,NV,USA,160,,,,160,4
 Adam Contreras,M,B,Juniors 20-25,100,Single-ply,CA,USA,147.5,,,,147.5,5
 David Barth,M,B,Juniors 20-25,100,Single-ply,PA,USA,,,,,,DQ
 Jason Perez,M,B,Juniors 20-25,110,Single-ply,TX,USA,237.5,,,,237.5,1
-Ben Smith,M,B,Juniors 20-25,110,Single-ply,ME,USA,185,,,,185,2
+Ben Smith #10,M,B,Juniors 20-25,110,Single-ply,ME,USA,185,,,,185,2
 Chris Stimac,M,B,Juniors 20-25,110,Single-ply,OR,USA,,,,,,DQ
 Ben Foreman,M,B,Juniors 20-25,117.5,Single-ply,,Canada,142.5,,,,142.5,1
 Fred Riccardi,M,B,Juniors 20-25,117.5,Single-ply,NY,USA,67.5,,,,67.5,2
@@ -348,7 +348,7 @@ Ron Jones,M,B,Masters 47-53,90,Single-ply,AL,USA,,,,,,DQ
 John Phillips,M,B,Masters 47-53,100,Single-ply,OH,USA,170,,,,170,4
 Jon Wolbers,M,B,Masters 47-53,100,Single-ply,,Canada,165,,,,165,5
 Leonard Pokora,M,B,Masters 47-53,110,Single-ply,MI,USA,215,,,,215,3
-Kenneth Tawzer,M,B,Masters 47-53,110,Single-ply,CA,USA,182.5,,,,182.5,6
+Ken Tawzer,M,B,Masters 47-53,110,Single-ply,CA,USA,182.5,,,,182.5,6
 David Wolf,M,B,Masters 47-53,110,Single-ply,WY,USA,165,,,,165,7
 Thomas Wright,M,B,Masters 47-53,110,Single-ply,KS,USA,110,,,,110,8
 Willard Crossen Jr,M,B,Masters 47-53,117.5,Single-ply,WA,USA,250,,,,250,2
@@ -441,7 +441,7 @@ Dennis Schultz,M,B,Law-Fire 48-55,140+,Single-ply,CA,USA,,,,,,DQ
 Lee Lichtle,M,B,Law-Fire 56,75,Single-ply,FL,USA,142.5,,,,142.5,1
 James Rouse,M,B,Law-Fire 56,90,Single-ply,IL,USA,145,,,,145,1
 Daniel Smith III,M,B,Law-Fire 56,110,Single-ply,CA,USA,182.5,,,,182.5,1
-Kenneth Tawzer,M,B,Law-Fire 56,110,Single-ply,CA,USA,182.5,,,,182.5,2
+Ken Tawzer,M,B,Law-Fire 56,110,Single-ply,CA,USA,182.5,,,,182.5,2
 Robert C. Lincoln,M,B,Law-Fire 56,117.5,Single-ply,CA,USA,220,,,,220,1
 Betty Lafferty,F,B,Open,48,Single-ply,AL,USA,70,,,,70,1
 Ita Pantilat,F,B,Open,52,Single-ply,WA,USA,97.5,,,,97.5,1
@@ -556,7 +556,7 @@ Dan Simpson,M,D,Open,90,Single-ply,CA,USA,,,205,,205,5
 Tom Eiseman,M,D,Open,90,Single-ply,NJ,USA,,,,,,DQ
 Niclas Friberg,M,D,Open,100,Single-ply,,Sweden,,,305,,305,1
 Chris Morris #3,M,D,Open,100,Single-ply,PA,USA,,,297.5,,297.5,2
-Steve Lemarie,M,D,Open,100,Single-ply,LA,USA,,,292.5,,292.5,3
+Steve LeMarie,M,D,Open,100,Single-ply,LA,USA,,,292.5,,292.5,3
 Ben Bittner,M,D,Open,100,Single-ply,MN,USA,,,280,,280,4
 Brent Howard,M,D,Open,110,Single-ply,NV,USA,,,342.5,,342.5,1
 Kari Pöntinen,M,D,Open,110,Single-ply,,Finland,,,340,,340,2
@@ -673,7 +673,7 @@ Kyle Herzik,M,D,Juniors 20-25,100,Single-ply,NV,USA,,,232.5,,232.5,3
 Jon Mokma,M,D,Juniors 20-25,100,Single-ply,MI,USA,,,227.5,,227.5,4
 Adam Contreras,M,D,Juniors 20-25,100,Single-ply,CA,USA,,,175,,175,5
 Garrett Muro,M,D,Juniors 20-25,110,Single-ply,NV,USA,,,310,,310,1
-Ben Smith,M,D,Juniors 20-25,110,Single-ply,ME,USA,,,195,,195,2
+Ben Smith #10,M,D,Juniors 20-25,110,Single-ply,ME,USA,,,195,,195,2
 Fred Riccardi,M,D,Juniors 20-25,117.5,Single-ply,NY,USA,,,250,,250,1
 Daniel Reeves,M,D,Juniors 20-25,117.5,Single-ply,AZ,USA,,,250,,250,2
 Ben Foreman,M,D,Juniors 20-25,117.5,Single-ply,,Canada,,,192.5,,192.5,3
@@ -710,7 +710,7 @@ Chris Goyes,M,D,Masters 40-46,82.5,Single-ply,TX,USA,,,237.5,,237.5,3
 Dan Guches,M,D,Masters 40-46,90,Single-ply,OR,USA,,,265,,265,1
 Rolando Espinoza,M,D,Masters 40-46,90,Single-ply,TX,USA,,,227.5,,227.5,2
 John Pfeiffer,M,D,Masters 40-46,90,Single-ply,OH,USA,,,152.5,,152.5,3
-Steve Lemarie,M,D,Masters 40-46,100,Single-ply,LA,USA,,,292.5,,292.5,1
+Steve LeMarie,M,D,Masters 40-46,100,Single-ply,LA,USA,,,292.5,,292.5,1
 Al Tortorelli,M,D,Masters 40-46,100,Single-ply,CA,USA,,,287.5,,287.5,2
 Steven Petersen,M,D,Masters 40-46,100,Single-ply,TX,USA,,,260,,260,3
 Harlan South,M,D,Masters 40-46,100,Single-ply,IL,USA,,,252.5,,252.5,4

@@ -8,7 +8,9 @@
 		"wraps": "Bandaże",
 		"single": "Jedno",
 		"multi": "Wielo",
-		"straps": "Paski"
+		"straps": "Paski",
+		"classic": "Classic",
+		"equipped": "Equipped"
 	},
 	"sex": {
 		"m": "M",
@@ -258,6 +260,7 @@
 			"by_glossbrenner": "Po Glossbrennerze",
 			"by_ipfpoints": "By IPF Points",
 			"by_mcculloch": "Po McCullochu",
+			"by_nasa": "By NASA Points",
 			"by_wilks": "Po Wilksie",
 			"by_division": "By Division",
 			"weight": "Posortowane po wadze",
@@ -288,6 +291,8 @@
 			"all_usa": "All United States Lifters",
 			"all_argentina": "All Argentinian Lifters",
 			"all_australia": "All Australian Lifters",
+			"all_belarus": "All Belarusian Lifters",
+			"all_brazil": "All Brazilian Lifters",
 			"all_canada": "All Canadian Lifters",
 			"all_china": "All Chinese Lifters",
 			"all_croatia": "All Croatian Lifters",
@@ -299,6 +304,7 @@
 			"all_iceland": "All Icelandic Lifters",
 			"all_ireland": "All Irish Lifters",
 			"all_israel": "All Israeli Lifters",
+			"all_italy": "All Italian Lifters",
 			"all_kazakhstan": "All Kazakh Lifters",
 			"all_latvia": "All Latvian Lifters",
 			"all_newzealand": "All New Zealand Lifters",

@@ -1,10 +1,10 @@
 Name,Age,Sex,Division,Equipment,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Event,Place
 Helen McCalmon,,F,M 55-59,Multi-ply,,56,90,95,102.5,102.5,50,55,-57.5,55,125,135,-145,135,,292.5,SBD,1
-Lee Steggles,,M,Open,Multi-ply,,60,150,165,177.5,177.5,92.5,-100,100,100,140,155,-165,155,,432.5,SBD,1
+Lee Steggles,,F,Open,Multi-ply,,60,150,165,177.5,177.5,92.5,-100,100,100,140,155,-165,155,,432.5,SBD,1
 Jeanette Miller,,F,Open,Multi-ply,,82.5,180,200,220,220,120,130,-140,130,200,220,-230,220,,570,SBD,1
 Dorothy Shaw,,F,Open,Multi-ply,,90+,,,,,135,145,155,155,,,,,,155,B,1
 Nick Comer,,M,Open,Multi-ply,,67.5,-165,165,175,175,140,150,-155,150,175,185,200,200,,525,SBD,1
-Dave Mannering,,M,Open,Multi-ply,,75,272.5,-282.5,-282.5,272.5,195,200,-202.5,200,250,-260,,250,,722.5,SBD,1
+David Mannering,,M,Open,Multi-ply,,75,272.5,-282.5,-282.5,272.5,195,200,-202.5,200,250,-260,,250,,722.5,SBD,1
 Lee Gordon,,M,Open,Multi-ply,,75,270,-282.5,-282.5,270,-150,150,160,160,270,-290,-292.5,270,,700,SBD,2
 Phil Randall,,M,Open,Multi-ply,,75,160,175,-190,175,115,122.5,130,130,180,200,220,220,,525,SBD,3
 Dan Rush,,M,Disabled,Multi-ply,,82.5,65,70,80,80,50,55,60,60,65,70,80,80,,220,SBD,1
@@ -14,7 +14,7 @@ Mark Spurling,,M,Open,Multi-ply,,82.5,260,270,275,275,155,160,-165,160,270,-275,
 Neil Arnold,,M,Open,Multi-ply,,82.5,270,280,-290,280,170,-177.5,-177.5,170,225,240,-255,240,,690,SBD,3
 Ivan Gladdish,,M,M 45-49,Multi-ply,,82.5,205,225,232.5,232.5,157.5,165,-172.5,165,230,252.5,-267.5,252.5,,650,SBD,1
 Mick Streeter,,M,Disabled,Multi-ply,,90,,,,,130,140,-150,140,,,,,,140,B,1
-Chris Jenkins,,M,Juniors,Multi-ply,,90,240,250,260,260,120,150,160,160,260,285,300,300,,720,SBD,1
+Chris Jenkins #4,,M,Juniors,Multi-ply,,90,240,250,260,260,120,150,160,160,260,285,300,300,,720,SBD,1
 Martin Donovan,,M,Open,Multi-ply,,90,300,320,340,340,200,-215,-215,200,300,320,-340,320,,860,SBD,1
 Ed Nonis,,M,Open,Multi-ply,,90,-260,260,275,275,185,190,195,195,260,270,-277.5,270,,740,SBD,2
 Craig Blake,,M,Open,Multi-ply,,90,280,300,-310,300,160,170,175,175,262.5,-270,,262.5,,737.5,SBD,3

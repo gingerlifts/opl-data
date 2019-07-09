@@ -19,7 +19,7 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Miklós Kardos,M5,Hungary,79.2,100,110,115,115,,70,75,77.5,77.5,,130,140,145,145,,337.5,82.5,M,,1951,Wraps,SBD
 1,Michal Kotleba,T2,Slovakia,89.3,110,115,-125,115,,70,75,-80,75,,130,140,150,150,,340,90,M,,1997,Wraps,SBD
 1,Alexander Smetana,T3,Slovakia,83.6,140,150,160,160,,110,120,125,125,,180,200,-215,200,,485,90,M,,1996,Wraps,SBD
-1,Juraj Hajnik,J,Slovakia,87.6,170,185,202.5,202.5,,150,-165,165,165,,235,255,-272.5,255,,622.5,90,M,,1993,Wraps,SBD
+1,Juraj Hájnik,J,Slovakia,87.6,170,185,202.5,202.5,,150,-165,165,165,,235,255,-272.5,255,,622.5,90,M,,1993,Wraps,SBD
 2,Miroslav Skácel,J,Czechia,89.5,170,185,202.5,202.5,,-145,145,150,150,,-230,230,-240,230,,582.5,90,M,,1994,Wraps,SBD
 3,Radomir Kvasnička,J,Slovakia,88,150,170,-180,170,,115,125,130,130,,180,200,207.5,207.5,,507.5,90,M,,1993,Wraps,SBD
 1,János Fazekas,O,Hungary,89.1,210,225,-240,225,,185,-192.5,192.5,192.5,,260,-280,-280,260,,677.5,90,M,,1987,Wraps,SBD
@@ -43,7 +43,7 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 2,Zoltán Kovács,O,Hungary,104.1,225,-240,240,240,,150,170,-180,170,,300,310,315,315,,725,110,M,,1989,Wraps,SBD
 1,Norbert Királyi,M1,Hungary,105.9,-220,220,230,230,,190,200,-205.5,200,,280,300,,300,,730,110,M,,1974,Wraps,SBD
 1,Ondrej Döme,M4,Slovakia,102.4,150,162.5,170,170,,140,145,150,150,,150,160,165,165,,485,110,M,,1955,Wraps,SBD
-1,Marius Babkovic,T3,Slovakia,112.2,200,217.5,-227.5,217.5,,120,130,-135,130,,230,240,250,250,,597.5,125,M,,1994,Wraps,SBD
+1,Marius Babkovič,T3,Slovakia,112.2,200,217.5,-227.5,217.5,,120,130,-135,130,,230,240,250,250,,597.5,125,M,,1994,Wraps,SBD
 1,Jan Teliska,J,Slovakia,114.1,190,205,220,220,,165,-175,-175,165,,220,-235,-235,220,,605,125,M,,1991,Wraps,SBD
 1,Tahir Mardanov Vusal,O,Azerbaijan,124.6,310,-330,330,330,,220,232.5,-240,232.5,,350,-380,-380,350,,912.5,125,M,,1985,Wraps,SBD
 2,József Kosaras,O,Hungary,119.7,260,275,-285,275,,200,210,215,215,,290,300,-305,300,,790,125,M,,1985,Wraps,SBD
@@ -130,7 +130,7 @@ DQ,Mária Kovács Ildikó,T3,Hungary,54,,,,,,-60,-60,-60,,,,,,,,,56,F,,1995,Raw,
 1,László Kasza,M7,Hungary,100.5,,,,,,130,140,145,145,-156,,,,,,145,110,M,,1941,Raw,B
 1,Slavomír Struhár,J,Slovakia,121.8,,,,,,175,190,200,200,,,,,,,200,125,M,,1991,Raw,B
 1,Norbert Stranszki,O,Hungary,123.8,,,,,,230,240,250,250,,,,,,,250,125,M,,1986,Raw,B
-2,Lukasz Toczylowski,O,Italy,123.5,,,,,,210,220,-240,220,,,,,,,220,125,M,,1985,Raw,B
+2,Łukasz Toczylowski,O,Italy,123.5,,,,,,210,220,-240,220,,,,,,,220,125,M,,1985,Raw,B
 3,Jan Stevove,O,Slovakia,116,,,,,,200,-210,,200,,,,,,,200,125,M,,1980,Raw,B
 1,Tamás Szabó,M1,Hungary,120.9,,,,,,190,200,-207.5,200,,,,,,,200,125,M,,1971,Raw,B
 1,Jozef Péter,M5,Slovakia,119.7,,,,,,160,-167.5,-170,160,,,,,,,160,125,M,,1950,Raw,B
@@ -178,7 +178,7 @@ DQ,Jamal Ahmedzade,O,Azerbaijan,105,,,,,,,,,,,,,,,,,110,M,,1984,Multi-ply,B
 1,János Csatári,M4,Hungary,103.5,,,,,,150,,,150,,,,,,,150,110,M,,1956,Multi-ply,B
 1,Zoltán Csepregi,O,Hungary,116.6,,,,,,380,390,400,400,,,,,,,400,125,M,,1975,Multi-ply,B
 2,Petr Bolf,O,Czechia,113.7,,,,,,320,327.5,-335,327.5,,,,,,,327.5,125,M,,1987,Multi-ply,B
-3,Lukasz Toczylowski,O,Italy,123.5,,,,,,280,-310,-310,280,,,,,,,280,125,M,,1985,Multi-ply,B
+3,Łukasz Toczylowski,O,Italy,123.5,,,,,,280,-310,-310,280,,,,,,,280,125,M,,1985,Multi-ply,B
 4,Štefan Lazar,O,Czechia,116.1,,,,,,230,245,-255,245,,,,,,,245,125,M,,1978,Multi-ply,B
 5,Vlastimil Pól,O,Czechia,111.2,,,,,,210,-220,-220,210,,,,,,,210,125,M,,1987,Multi-ply,B
 DQ,Roman Szanyi,O,Slovakia,116.9,,,,,,-270,-270,-270,,,,,,,,,125,M,,1984,Multi-ply,B
@@ -220,7 +220,7 @@ DQ,Ferenc Balázs,M1,Hungary,112.4,,,,,,-310,-310,-310,,,,,,,,,125,M,,1970,Multi
 1,Alexandar Pelovski,J,Bulgaria,102.7,,,,,,,,,,,230,250,-292.5,250,,250,110,M,,1991,Raw,D
 2,Ádám Böszörmenyi,J,Hungary,104.8,,,,,,,,,,,195,205,215,215,,215,110,M,,1992,Raw,D
 1,Zsolt Hetyési,O,Hungary,104.6,,,,,,,,,,,260,275,285,285,,285,110,M,,1985,Raw,D
-2,Zoltán Farkaś,O,Slovakia,100.8,,,,,,,,,,,230,245,255,255,,255,110,M,,1988,Raw,D
+2,Zoltán Farkaš,O,Slovakia,100.8,,,,,,,,,,,230,245,255,255,,255,110,M,,1988,Raw,D
 1,Norbert Hablicsek,M1,Hungary,103.5,,,,,,,,,,,230,240,,240,,240,110,M,,1974,Raw,D
 1,Václav Mareš,M2,Czechia,109.8,,,,,,,,,,,250,270,285,285,,285,110,M,,1968,Raw,D
 1,Tahir Mardanov Vusal,O,Azerbaijan,124.3,,,,,,,,,,,330,-362.5,-362.5,330,,330,125,M,,1985,Raw,D

@@ -8,7 +8,9 @@
 		"wraps": "Knälindor",
 		"single": "Singel",
 		"multi": "Multi",
-		"straps": "Dragremmar"
+		"straps": "Dragremmar",
+		"classic": "Classic",
+		"equipped": "Equipped"
 	},
 	"sex": {
 		"m": "M",
@@ -258,6 +260,7 @@
 			"by_glossbrenner": "Glossbrenner",
 			"by_ipfpoints": "By IPF Points",
 			"by_mcculloch": "McCulloch",
+			"by_nasa": "By NASA Points",
 			"by_wilks": "Wilkspoäng",
 			"by_division": "By Division",
 			"weight": "Vikt Sortering",
@@ -288,6 +291,8 @@
 			"all_usa": "Alla Amerikanska Förbund",
 			"all_argentina": "Alla Argentinska Förbund",
 			"all_australia": "Alla Australiensiska Förbund",
+			"all_belarus": "All Belarusian Lifters",
+			"all_brazil": "All Brazilian Lifters",
 			"all_canada": "Alla Kanadensiska Förbund",
 			"all_china": "All Chinese Lifters",
 			"all_croatia": "Alla Kroatiska Förbund",
@@ -299,6 +304,7 @@
 			"all_iceland": "All Icelandic Lifters",
 			"all_ireland": "Alla Irländska Förbund",
 			"all_israel": "Alla Israeliska Förbund",
+			"all_italy": "All Italian Lifters",
 			"all_kazakhstan": "All Kazakh Lifters",
 			"all_latvia": "All Latvian Lifters",
 			"all_newzealand": "All New Zealand Lifters",

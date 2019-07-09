@@ -4,7 +4,7 @@ Place,Event,Equipment,Division,Sex,Name,BirthYear,WeightClassKg,BodyweightKg,Cou
 3,B,Raw,Open,F,Aino Askala,1992,57,56.7,Finland,,,,,77.5,-82.5,82.5,82.5,,,,,82.5
 1,B,Raw,Open,M,Romuald Massé,1992,120+,146.11,France,,,,,245,255,257.5,257.5,,,,,257.5
 2,B,Raw,Open,M,Luke Tolman,1999,93,90.75,UK,,,,,-200,212.5,-217.5,212.5,,,,,212.5
-3,B,Raw,Open,M,Pawel Tyborczyk,1979,93,91.78,Poland,,,,,212.5,-220,-220,212.5,,,,,212.5
+3,B,Raw,Open,M,Paweł Tyborczyk,1979,93,91.78,Poland,,,,,212.5,-220,-220,212.5,,,,,212.5
 4,B,Raw,Open,M,Niko Del Bianchi,1997,105,104.62,Slovenia,,,,,207.5,-220,220,220,,,,,220
 5,B,Raw,Open,M,Kornél Schauer,1977,120,108.35,Hungary,,,,,210,217.5,222.5,222.5,,,,,222.5
 6,B,Raw,Open,M,Simo Sistonen,1983,120,118.88,Finland,,,,,220,227.5,-235,227.5,,,,,227.5
@@ -24,7 +24,7 @@ DQ,B,Raw,Open,M,Aleksandar Arbutina,1994,105,104.03,Serbia,,,,,-200,-200,,,,,,,
 2,D,Raw,Open,F,Sheri Miles,1986,84,74.9,UK,,,,,,,,,190,205,212.5,212.5,212.5
 3,D,Raw,Open,F,Catherine Lekić,1982,52,51.33,Austria,,,,,,,,,115,125,-140,125,125
 1,D,Raw,Open,M,Jari Saario,1985,120+,140.89,Finland,,,,,,,,,340,350,360,360,360
-2,D,Raw,Open,M,Greg Lewis,1992,120,116.25,UK,,,,,,,,,290,310,325,325,325
+2,D,Raw,Open,M,Greg Lewis #1,1992,120,116.25,UK,,,,,,,,,290,310,325,325,325
 3,D,Raw,Open,M,Marian Piwowarczyk,1961,66,63.24,Poland,,,,,,,,,140,160,177.5,177.5,177.5
 1,SBD,Single-ply,Open,M,Sergey Mashintsov,1987,105,99.41,Russia,305,335,,335,250,-270,,250,275,325,,325,910
 2,SBD,Single-ply,Open,M,Mikhail Frolov,1979,120+,120.63,Russia,305,350,-400,350,225,255,270,270,275,-325,,275,895
@@ -35,7 +35,7 @@ DQ,B,Raw,Open,M,Aleksandar Arbutina,1994,105,104.03,Serbia,,,,,-200,-200,,,,,,,
 3,SBD,Raw,Open,M,Pierre Shillingford,1988,93,92.58,UK,247.5,255,260,260,167.5,172.5,-175,172.5,290,300,-310,300,732.5
 4,SBD,Raw,Open,M,Ossi Sahlberg,1992,83,82.2,Finland,230,-240,240,240,157.5,-165,-165,157.5,270,280,-295,280,677.5
 5,SBD,Raw,Open,M,Teemu Hällfors,1995,83,82.62,Finland,230,-240,242.5,242.5,175,180,-182.5,180,240,252.5,-267.5,252.5,675
-6,SBD,Raw,Open,M,Novak Lukic,1999,93,91.58,Serbia,250,255,260,260,150,157.5,-162.5,157.5,262.5,-272.5,-272.5,262.5,680
+6,SBD,Raw,Open,M,Novak Lukić,1999,93,91.58,Serbia,250,255,260,260,150,157.5,-162.5,157.5,262.5,-272.5,-272.5,262.5,680
 7,SBD,Raw,Open,M,Domen Sešel,1995,105,103.66,Slovenia,245,-260,260,260,145,-155,-155,145,255,270,280,280,685
 8,SBD,Raw,Open,M,Muggur Ólafsson,1996,74,72.66,Iceland,180,185,-187.5,185,120,125,127.5,127.5,220,-225,,220,532.5
 9,SBD,Raw,Open,M,Bertrand Saugy,1988,93,91.53,Switzerland,190,202.5,210,210,137.5,-145,145,145,230,245,-250,245,600

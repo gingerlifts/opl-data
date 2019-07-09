@@ -29,7 +29,7 @@ T. Jenkins,90,Novice,M,,229.06,147.42,267.62,644.1,SBD,Single-ply,3
 E. Coffman,90,Novice,M,,240.4,154.22,244.94,639.57,SBD,Single-ply,4
 W. Roberts,90,Novice,M,,217.72,154.22,263.08,635.03,SBD,Single-ply,5
 J. Franklin,90,Novice,M,,210.92,142.88,254.01,607.81,SBD,Single-ply,6
-D. Orr,90,Novice,M,,229.06,127.01,244.94,601.01,SBD,Single-ply,7
+D. Orr #1,90,Novice,M,,229.06,127.01,244.94,601.01,SBD,Single-ply,7
 W. Hill,90,Novice,M,,213.19,147.42,226.8,587.4,SBD,Single-ply,8
 M. Harrison,90,Novice,M,,219.99,127.01,226.8,573.8,SBD,Single-ply,9
 B. Spann,90,Novice,M,,192.78,124.74,215.46,532.97,SBD,Single-ply,10
@@ -69,13 +69,13 @@ R. Miles,82.5,Open,M,,244.94,145.15,272.16,662.25,SBD,Single-ply,4
 M. Barguera,82.5,Open,M,,249.48,161.03,226.8,637.3,SBD,Single-ply,5
 L. Harris,82.5,Open,M,,238.14,140.61,244.94,623.69,SBD,Single-ply,6
 C. Wright,82.5,Open,M,,226.8,122.47,263.08,612.35,SBD,Single-ply,7
-D. Castellano,90,Open,M,,290.3,158.76,281.23,730.28,SBD,Single-ply,1
+Dominick Castellano,90,Open,M,,290.3,158.76,281.23,730.28,SBD,Single-ply,1
 B. Chepren,90,Open,M,,263.08,145.15,278.96,687.19,SBD,Single-ply,2
 J. Seager,110,Open,M,,335.66,183.71,306.18,825.54,SBD,Single-ply,1
 D. Green,110,Open,M,,294.84,195.04,310.71,800.59,SBD,Single-ply,2
-H. Roberts,110,Open,M,,294.84,179.17,272.16,746.16,SBD,Single-ply,3
+Herc Roberts,110,Open,M,,294.84,179.17,272.16,746.16,SBD,Single-ply,3
 J. Hernandez,110,Open,M,,335.66,,,,SBD,Single-ply,DQ
-J. Boethner,125,Open,M,,308.44,210.92,292.57,811.93,SBD,Single-ply,1
+J. Boettner,125,Open,M,,308.44,210.92,292.57,811.93,SBD,Single-ply,1
 R. Walders,125,Open,M,,258.55,176.9,285.76,721.21,SBD,Single-ply,2
 K. Woodard,125+,Open,M,,319.78,195.04,290.3,805.13,SBD,Single-ply,1
 R. Pereda,,Masters,M,74.84,254.01,140.61,240.4,635.03,SBD,Single-ply,1
@@ -83,9 +83,9 @@ T. Trevora,,Masters,M,80.74,231.33,140.61,235.87,607.81,SBD,Single-ply,3
 W. Roberts,,Masters,M,86.64,217.72,154.22,263.08,635.03,SBD,Single-ply,2
 L. Vargas,,Masters,M,88.45,195.04,142.88,195.04,532.97,SBD,Single-ply,5
 Underhill,,Masters,M,94.8,199.58,138.35,204.12,542.04,SBD,Single-ply,4
-B. Remley,,Masters,M,89.36,185.97,131.54,204.12,521.63,SBD,Single-ply,6
+Bill Remley,,Masters,M,89.36,185.97,131.54,204.12,521.63,SBD,Single-ply,6
 J. Komrath,,Masters,M,73.48,102.06,102.06,142.88,347,SBD,Single-ply,7
-D. DeWitt,,Open,F,67.13,185.97,104.33,185.97,476.27,SBD,Single-ply,1
+Debra Poston,,Open,F,67.13,185.97,104.33,185.97,476.27,SBD,Single-ply,1
 L. Smith,,Open,F,78.93,165.56,95.25,190.51,451.32,SBD,Single-ply,2
 K. Besuden,,Open,F,58.51,147.42,61.24,142.88,351.53,SBD,Single-ply,3
 T. Disano,,Open,F,51.71,106.59,65.77,131.54,303.91,SBD,Single-ply,5

@@ -6,7 +6,7 @@ Place,Name,Division,Event,Equipment,Sex,State,WeightClassKg,BodyweightKg,Age,Bes
 2,Queene Resngit,Open,SBD,Raw,F,CA,52,49.4,20,65,32.5,102.5,200
 1,Lindsey Epperly,Open,SBD,Raw,F,CA,60,59.6,27,107.5,67.5,147.5,322.5
 2,Jeniffer Nguyen,Open,SBD,Raw,F,CA,60,58,31,97.5,50,145,292.5
-3,Jennifer De Leon,Open,SBD,Raw,F,CA,60,59.9,32,90,62.5,122.5,275
+3,Jennifer De Leon #1,Open,SBD,Raw,F,CA,60,59.9,32,90,62.5,122.5,275
 4,Leticia Ferrara,Open,SBD,Raw,F,CA,60,59,30,57.5,42.5,90,190
 1,Nataticia Sanchez Gonzales,Open,SBD,Raw,F,CA,75,72.6,27,100,52.5,125,277.5
 2,Vyvyence Deon,Open,SBD,Raw,F,CA,75,69.5,25,87.5,37.5,115,240
@@ -30,7 +30,7 @@ Place,Name,Division,Event,Equipment,Sex,State,WeightClassKg,BodyweightKg,Age,Bes
 3,Danial Ho,Open,SBD,Raw,M,CA,75,73.3,31,145,95,190,430
 1,Derrick Cheng,Open,SBD,Raw,M,CA,82.5,80.8,24,192.5,127.5,245,565
 2,Oscar Monteviregen,Open,SBD,Raw,M,CA,82.5,76.1,32,135,97.5,227.5,460
-3,Jimmy Lu,Open,SBD,Raw,M,CA,82.5,71.1,31,157.5,105,187.5,450
+3,Jimmy Lu,Open,SBD,Raw,M,CA,82.5,81.1,31,157.5,105,187.5,450
 1,Justin Tran,Open,SBD,Raw,M,CA,90,88.2,24,157.5,115,200,472.5
 1,John Oppenhemer,Open,SBD,Raw,M,CA,110,105.2,24,192.5,142.5,235,570
 2,Rudy Alcantar,Open,SBD,Raw,M,CA,110,108.5,32,192.5,152.5,227.5,572.5

@@ -1,5 +1,5 @@
 Name,BodyweightKg,Age,WeightClassKg,Division,Sex,Bench1Kg,Bench2Kg,Best3BenchKg,TotalKg,Event,Equipment,Place
-J. Lippert,,,56,Juniors,F,,,100,100,B,Single-ply,1
+Jenny Lippert,,,56,Juniors,F,,,100,100,B,Single-ply,1
 L. Lyons,,,60,Juniors,F,,,57.5,57.5,B,Single-ply,1
 S. Heany,,,67.5,Juniors,F,,,85,85,B,Single-ply,1
 A. Ramsamooj,,,52,Teen,F,,,42.5,42.5,B,Single-ply,1
@@ -49,7 +49,7 @@ R. Knowles,,,75,Open,F,,,75,75,B,Single-ply,4
 Joyce Hamblin,,52,82.5,Open,F,,,95,95,B,Single-ply,1
 J. Isaacson,,,82.5,Open,F,,,82.5,82.5,B,Single-ply,2
 D. Pellerin,,,90,Open,F,,,77.5,77.5,B,Single-ply,1
-H. Pham,,,52,Juniors,M,,,125,125,B,Single-ply,1
+Hung Pham,,,52,Juniors,M,,,125,125,B,Single-ply,1
 T. Brooks,,,60,Juniors,M,,,117.5,117.5,B,Single-ply,1
 K. Ramsey,,,75,Juniors,M,,,155,155,B,Single-ply,1
 E. Ramos,,,82.5,Juniors,M,,,180,180,B,Single-ply,1
@@ -64,7 +64,7 @@ G. Hernandez,,,75,Submasters,M,,,127.5,127.5,B,Single-ply,1
 G. Stewart,,,82.5,Submasters,M,,,195,195,B,Single-ply,1
 A. Faretta,,,82.5,Submasters,M,,,150,150,B,Single-ply,2
 J. Edwards,,,90,Submasters,M,,,215,215,B,Single-ply,1
-K. Kanemoto,,,90,Submasters,M,,,192.5,192.5,B,Single-ply,2
+Keith Kanemoto,,,90,Submasters,M,,,192.5,192.5,B,Single-ply,2
 C. Palmer,,,90,Submasters,M,,,185,185,B,Single-ply,3
 D. Reese,,,90,Submasters,M,,,165,165,B,Single-ply,4
 D. Wilson #5,,,90,Submasters,M,,,157.5,157.5,B,Single-ply,5
@@ -117,10 +117,10 @@ T. Camp,,,90,Masters 50-54,M,,,167.5,167.5,B,Single-ply,2
 M. Urrutia,,,90,Masters 50-54,M,,,147.5,147.5,B,Single-ply,3
 J. Young,,,90,Masters 50-54,M,,,142.5,142.5,B,Single-ply,4
 M. Peterson,,,90,Masters 50-54,M,,,120,120,B,Single-ply,5
-G. Holzinger,,,90,Masters 50-54,M,,,115,115,B,Single-ply,6
+Godfrey Holzinger,,,90,Masters 50-54,M,,,115,115,B,Single-ply,6
 G. Nelson,,,110,Masters 50-54,M,,,,,B,Single-ply,DQ
 D. James,,,125+,Masters 55-59,M,,,167.5,167.5,B,Single-ply,2
-J. Benson,,,75,Masters 55-59,M,,,130,130,B,Single-ply,1
+Jim Benson,,,75,Masters 55-59,M,,,130,130,B,Single-ply,1
 H. Neal,,,82.5,Masters 55-59,M,,,107.5,107.5,B,Single-ply,1
 Moses Caballero,,,90,Masters 55-59,M,,,182.5,182.5,B,Single-ply,1
 R. Brim,,,90,Masters 55-59,M,,,140,140,B,Single-ply,2
@@ -143,7 +143,7 @@ Sonny Ronolo,,,75,Masters 70+,M,,,125,125,B,Single-ply,1
 W. Williams,,,90,Masters 70+,M,,,85,85,B,Single-ply,1
 C. Davis,,,110,Masters 70+,M,,,115,115,B,Single-ply,1
 T. Brooks,,,60,Novice,M,,,117.5,117.5,B,Single-ply,1
-J. Cranston,,,67.5,Novice,M,,,125,125,B,Single-ply,1
+Jody Cranston,,,67.5,Novice,M,,,125,125,B,Single-ply,1
 T. Beers,,,67.5,Novice,M,,,102.5,102.5,B,Single-ply,2
 S. Ward,,,75,Novice,M,,,162.5,162.5,B,Single-ply,1
 M. Batsole,,,75,Novice,M,,,157.5,157.5,B,Single-ply,2
@@ -203,11 +203,11 @@ A. Schlachter,,,82.5,Teen,M,,,92.5,92.5,B,Single-ply,3
 M. Mergups,,,90,Teen,M,,,115,115,B,Single-ply,1
 J. Steele,,,100,Teen,M,,,117.5,117.5,B,Single-ply,1
 C. Allen,,,110,Teen,M,,,105,105,B,Single-ply,1
-Hung-Tran Pham,,,52,Open,M,,,125,125,B,Single-ply,1
+Hung Pham,,,52,Open,M,,,125,125,B,Single-ply,1
 G. Murphy,,,52,Open,M,,,92.5,92.5,B,Single-ply,2
 Kerwin Unten,,,56,Open,M,,,140,140,B,Single-ply,1
 Jim Lawrence,,,60,Open,M,,,157.5,157.5,B,Single-ply,1
-R. Allen,,,60,Open,M,,,150,150,B,Single-ply,2
+Robert Allen,,,60,Open,M,,,150,150,B,Single-ply,2
 L. Vongthongthip,,,60,Open,M,,,137.5,137.5,B,Single-ply,3
 G. Morgan,,,60,Open,M,,,125,125,B,Single-ply,4
 M. Corellli,,,60,Open,M,,,120,120,B,Single-ply,5
@@ -216,9 +216,9 @@ Chuck Brunson,,,67.5,Open,M,,,177.5,177.5,B,Single-ply,2
 L. Slaughter,,,67.5,Open,M,,,172.5,172.5,B,Single-ply,3
 D. Keranen,,,67.5,Open,M,,,140,140,B,Single-ply,4
 Derek Ito,,,75,Open,M,,,215,215,B,Single-ply,1
-E. Lumpkin,,,75,Open,M,,,162.5,162.5,B,Single-ply,2
+Eric Lumpkin,,,75,Open,M,,,162.5,162.5,B,Single-ply,2
 Leonard McCormick Jr,,,82.5,Open,M,,,222.5,222.5,B,Single-ply,1
-R. DeCourt,,,82.5,Open,M,,,217.5,217.5,B,Single-ply,2
+Robert DeCourt,,,82.5,Open,M,,,217.5,217.5,B,Single-ply,2
 M. Saito,,,82.5,Open,M,,,215,215,B,Single-ply,3
 Byron Beebe,,,82.5,Open,M,,,207.5,207.5,B,Single-ply,4
 J. Hernandez,,,82.5,Open,M,,,182.5,182.5,B,Single-ply,5

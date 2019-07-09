@@ -1,7 +1,7 @@
 Name,WeightClassKg,Sex,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Event,Equipment,Place
-J. Caldwell,56,M,Open,200,100,135,,435,SBD,Single-ply,1
+Jim Caldwell,56,M,Open,200,100,135,,435,SBD,Single-ply,1
 Angelo Berardinelli,75,M,Open,265,170,260,,695,SBD,Single-ply,1
-G. Underwood,75,M,Open,250,162.5,255,,667.5,SBD,Single-ply,2
+Gene Underwood,75,M,Open,250,162.5,255,,667.5,SBD,Single-ply,2
 M. Cyrus,82.5,M,Open,245,147.5,257.5,,650,SBD,Single-ply,1
 D. Pinkerton,82.5,M,Open,250,140,245,,635,SBD,Single-ply,2
 J. Bartone,82.5,M,Open,237.5,160,232.5,,630,SBD,Single-ply,3
@@ -49,8 +49,8 @@ J. Roge,67.5,F,Open,150,95,147.5,,392.5,SBD,Single-ply,1
 A. Hoffman,67.5,F,Open,137.5,70,157.5,,365,SBD,Single-ply,2
 L. Hager,67.5,F,Open,127.5,70,155,,352.5,SBD,Single-ply,3
 Deborah Sorenson,75,F,Open,195,112.5,220,232.5,527.5,SBD,Single-ply,1
-D. Dryden,,M,Masters 40+,215,112.5,245,,572.5,SBD,Single-ply,4
-J. Bayliss,,M,Masters 40+,205,135,240,,580,SBD,Single-ply,3
+Dave Dryden,,M,Masters 40+,215,112.5,245,,572.5,SBD,Single-ply,4
+John Bayliss,,M,Masters 40+,205,135,240,,580,SBD,Single-ply,3
 W. Russell,,M,Masters 40+,297.5,170,245,,712.5,SBD,Single-ply,1
 B. Coyer,,M,Masters 40+,210,135,240,,585,SBD,Single-ply,2
 J. Martin,,M,Masters 40+,165,122.5,220,,507.5,SBD,Single-ply,5
@@ -82,4 +82,4 @@ C. Herald,110,M,Novice,210,165,227.5,,602.5,SBD,Single-ply,2
 G. Maynard,125,M,Novice,235,125,272.5,,632.5,SBD,Single-ply,1
 A. Phillips,125,M,Novice,210,145,242.5,,597.5,SBD,Single-ply,2
 J. Rush,125,M,Novice,240,142.5,215,,597.5,SBD,Single-ply,3
-R. Proffitt,125+,M,Novice,217.5,130,150,,497.5,SBD,Single-ply,1
+Roy Proffitt,125+,M,Novice,217.5,130,150,,497.5,SBD,Single-ply,1

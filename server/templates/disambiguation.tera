@@ -14,7 +14,7 @@
     <h1>Lifter Disambiguation</h1>
 
     {% for variant in variants %}
-      <h2><a href="/u/{{variant.lifter.username}}"><span class="{{variant.lifter.color}}">{{variant.localized_name}}</span> ({{variant.lifter_sex}}){% if variant.lifter.instagram %}<a href="https://instagram.com/{{variant.lifter.instagram}}" class="instagram" rel="noopener" target="_blank"><i class="fa fa-instagram fa-resize"></i></a>{% endif %}{% if variant.lifter.vkontakte %}<a href="https://vk.com/{{variant.lifter.vkontakte}}" class="instagram" rel="noopener" target="_blank"><i class="fa fa-vk fa-resize"></i></a>{% endif %}</a></h2>
+      <h2><a href="{{urlprefix | safe}}u/{{variant.lifter.username}}"><span class="{{variant.lifter.color}}">{{variant.localized_name}}</span> ({{variant.lifter_sex}}){% if variant.lifter.instagram %}<a href="https://instagram.com/{{variant.lifter.instagram}}" class="instagram" rel="noopener" target="_blank"><i class="fa fa-instagram fa-resize"></i></a>{% endif %}{% if variant.lifter.vkontakte %}<a href="https://vk.com/{{variant.lifter.vkontakte}}" class="instagram" rel="noopener" target="_blank"><i class="fa fa-vk fa-resize"></i></a>{% endif %}</a></h2>
 
       <table>
         <thead><tr>
@@ -41,7 +41,7 @@
             <td>{{this.federation}}</td>
             <td>{{this.date}}</td>
             <td>{{this.country}}{% if this.state %}-{{this.state}}{% endif %}</td>
-            <td><a href="/m/{{this.meet_path | safe}}">{{this.meet_name}}</a></td>
+            <td><a href="{{urlprefix | safe}}m/{{this.meet_path | safe}}">{{this.meet_name}}</a></td>
             <td>{{this.division}}</td>
             <td>{{this.age}}</td>
             <td>{{this.equipment}}</td>

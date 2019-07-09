@@ -1,5 +1,5 @@
 Name,WeightClassKg,Sex,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Age,Place
-J. Davis,52,M,Open,125,87.5,115,327.5,SBD,Single-ply,,1
+John Davis #5,52,M,Open,125,87.5,115,327.5,SBD,Single-ply,,1
 B. Vales,56,M,Open,162.5,102.5,197.5,462.5,SBD,Single-ply,,1
 D. Devor,56,M,Open,170,97.5,172.5,440,SBD,Single-ply,,2
 R. Yates,60,M,Open,157.5,100,170,427.5,SBD,Single-ply,,1
@@ -32,14 +32,14 @@ B. Whitener,100,M,Open,,,,,SBD,Single-ply,,DQ
 John Florio,110,M,Open,332.5,210,317.5,860,SBD,Single-ply,,1
 Thor Kritsky,110,M,Open,332.5,210,315,857.5,SBD,Single-ply,,2
 Pierino Anastasio,110,M,Open,322.5,215,305,842.5,SBD,Single-ply,19,3
-R. Seagraves,110,M,Open,300,182.5,292.5,775,SBD,Single-ply,,4
+Ralph Seagraves,110,M,Open,300,182.5,292.5,775,SBD,Single-ply,,4
 D. Pollio,110,M,Open,282.5,182.5,282.5,747.5,SBD,Single-ply,,5
 B. Russell,110,M,Open,,,,,SBD,Single-ply,,DQ
 J. MacLeod,110,M,Open,,,,,SBD,Single-ply,,DQ
 Steve Wilson,125,M,Open,345,242.5,345,932.5,SBD,Single-ply,,1
 Keith Spartano,125,M,Open,330,202.5,280,812.5,SBD,Single-ply,,2
 D. Schweinfurth,125,M,Open,297.5,187.5,312.5,797.5,SBD,Single-ply,,3
-D. Glitt,125,M,Open,297.5,187.5,275,760,SBD,Single-ply,,4
+Dean Glitt,125,M,Open,297.5,187.5,275,760,SBD,Single-ply,,4
 T. Lewis,125,M,Open,275,182.5,262.5,720,SBD,Single-ply,,5
 P. Stringer,125,M,Open,260,187.5,250,697.5,SBD,Single-ply,,6
 B. Wilkins,125,M,Open,227.5,177.5,275,680,SBD,Single-ply,,7
@@ -91,7 +91,7 @@ C. King,90,M,Below Class II,192.5,122.5,222.5,537.5,SBD,Single-ply,,6
 T. Hale,90,M,Below Class II,192.5,137.5,205,535,SBD,Single-ply,,7
 R. Curry,90,M,Below Class II,180,120,235,535,SBD,Single-ply,,8
 H. Killian,90,M,Below Class II,,,,,SBD,Single-ply,,DQ
-J. Bosken,100,M,Below Class II,250,170,287.5,707.5,SBD,Single-ply,,1
+Jerry Bosken,100,M,Below Class II,250,170,287.5,707.5,SBD,Single-ply,,1
 M. Byrd,100,M,Below Class II,240,192.5,235,667.5,SBD,Single-ply,,2
 R. Derreberry,100,M,Below Class II,227.5,170,245,642.5,SBD,Single-ply,,3
 S. Parker,100,M,Below Class II,222.5,140,265,627.5,SBD,Single-ply,,4
@@ -113,7 +113,7 @@ Vince White,,M,Masters,275,165,210,650,SBD,Single-ply,,1
 L. Davis,,M,Masters,162.5,130,192.5,485,SBD,Single-ply,,2
 J. Bavliss,,M,Masters,142.5,112.5,180,435,SBD,Single-ply,,3
 Pam Booth,48,F,Open,122.5,62.5,137.5,322.5,SBD,Single-ply,,1
-Mary Ryan,52,F,Open,145,92.5,150,387.5,SBD,Single-ply,,1
+Mary Ryan-Jeffrey,52,F,Open,145,92.5,150,387.5,SBD,Single-ply,,1
 B. D'Amico,52,F,Open,97.5,55,127.5,280,SBD,Single-ply,,2
 T. Holstein,52,F,Open,70,32.5,95,197.5,SBD,Single-ply,,3
 Vicky Steenrod,56,F,Open,182.5,97.5,147.5,427.5,SBD,Single-ply,,1

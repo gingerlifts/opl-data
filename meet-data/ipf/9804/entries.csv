@@ -16,7 +16,7 @@ DQ,52,F,Masters 1,Sally Bowers,1949,51.5,USA,115,,,,SBD,Single-ply
 7,67.5,F,Masters 1,Anne B.Gabrielsen,1952,63.5,Norway,145,75,140,360,SBD,Single-ply
 8,67.5,F,Masters 1,Marta Lockhart,1957,54.9,Argentina,105,57.5,132.5,295,SBD,Single-ply
 1,67.5+,F,Masters 1,Irene King,1954,74.3,Canada,172.5,97.5,182.5,452.5,SBD,Single-ply
-2,67.5+,F,Masters 1,Morgan-Leifermann,1951,106.1,USA,185,102.5,165,452.5,SBD,Single-ply
+2,67.5+,F,Masters 1,J. Morgan-Leifermann,1951,106.1,USA,185,102.5,165,452.5,SBD,Single-ply
 3,67.5+,F,Masters 1,Eva Paulig,1954,77.2,Germany,127.5,100,150,377.5,SBD,Single-ply
 4,67.5+,F,Masters 1,Sasha Meshkov,1957,68.3,USA,127.5,65,145,337.5,SBD,Single-ply
 5,67.5+,F,Masters 1,Hildegard Utecht,1951,68.4,Germany,125,77.5,130,332.5,SBD,Single-ply
@@ -25,7 +25,7 @@ DQ,52,F,Masters 1,Sally Bowers,1949,51.5,USA,115,,,,SBD,Single-ply
 1,56,M,Masters 1,Yasuhiro Sotowa,1954,55.8,Japan,197.5,97.5,195,490,SBD,Single-ply
 1,60,M,Masters 1,Ira Rosen,1950,59.3,USA,165,100,190,455,SBD,Single-ply
 2,60,M,Masters 1,Jose Arbuello,1950,59.5,Argentina,150,87.5,190,427.5,SBD,Single-ply
-3,60,M,Masters 1,Burhard Steffen,1950,59.8,Germany,162.5,105,157.5,425,SBD,Single-ply
+3,60,M,Masters 1,Burkhard Steffen,1950,59.8,Germany,162.5,105,157.5,425,SBD,Single-ply
 DQ,60,M,Masters 1,Mashiro Yachi,1956,59,Japan,,,,,SBD,Single-ply
 1,67.5,M,Masters 1,Chokichi Itoh,1950,67.3,Japan,242.5,142.5,235,620,SBD,Single-ply
 2,67.5,M,Masters 1,Arval Bridges,1954,67,USA,210,157.5,227.5,595,SBD,Single-ply
@@ -51,7 +51,7 @@ DD,67.5,M,Masters 1,Alain Cuvelier,1953,66.8,France,212.5,137.5,212.5,,SBD,Singl
 8,82.5,M,Masters 1,Paplo Coppa,1956,81.6,Argentina,170,132.5,210,512.5,SBD,Single-ply
 9,82.5,M,Masters 1,Jorge Machado,1955,80.4,Uruguay,165,92.5,200,457.5,SBD,Single-ply
 10,82.5,M,Masters 1,Walter Ivo,1950,80.7,Brazil,135,115,175,425,SBD,Single-ply
-DQ,82.5,M,Masters 1,Júlio Chavez,1952,80,Argentina,200,,,,SBD,Single-ply
+DQ,82.5,M,Masters 1,Júlio Chavez #1,1952,80,Argentina,200,,,,SBD,Single-ply
 1,90,M,Masters 1,Michael Hansper,1956,85,Germany,270,190,295,755,SBD,Single-ply
 2,90,M,Masters 1,Mikha Vereschagin,1950,89.6,Russia,275,180,280,735,SBD,Single-ply
 3,90,M,Masters 1,Roberto Alessio,1958,88.4,Argentina,260,160,280,700,SBD,Single-ply
@@ -127,7 +127,7 @@ DQ,75,M,Masters 2,Ali Bouchakour,1945,74.3,France,205,,,,SBD,Single-ply
 1,82.5,M,Masters 2,Olício dos Santos Filho,1944,82.4,Brazil,210,145,303,657.5,SBD,Single-ply
 2,82.5,M,Masters 2,Armstrong Rafael,1944,80.4,USA,237.5,160,227.5,625,SBD,Single-ply
 3,82.5,M,Masters 2,Oscar Hernandez,1946,80.2,Argentina,220,100,277.5,597.5,SBD,Single-ply
-4,82.5,M,Masters 2,Guenter Luedecke,1948,81.7,Germany,215,130,230,575,SBD,Single-ply
+4,82.5,M,Masters 2,Günter Lüdecke,1948,81.7,Germany,215,130,230,575,SBD,Single-ply
 5,82.5,M,Masters 2,Hans Wende,1944,82.4,Germany,175,105,235,515,SBD,Single-ply
 DQ,82.5,M,Masters 2,Dario Martinez,1941,82,Argentina,225,,,,SBD,Single-ply
 1,90,M,Masters 2,Christian Buchs,1947,89.8,France,282.5,180,250,712.5,SBD,Single-ply

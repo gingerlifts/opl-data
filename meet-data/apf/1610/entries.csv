@@ -6,7 +6,7 @@ Hunter Charneski,25,M,Raw,M_OR_AAPF,117.6,125,SBD,182.5,200,212.5,212.5,157.5,17
 Dillon Davis,22,M,Raw,M_JR_AAPF,80.5,82.5,SBD,-75,75,,75,110,125,-137.5,125,75,,,75,275,2,Blueline Barbell Club
 Brandon Dunbar,34,M,Multi-ply,M_OEM_APF,97.2,100,SBD,-320,-320,-320,,275,,,275,227.5,,,227.5,,DQ,
 Dakota Dunn,22,M,Wraps,M_OCR_AAPF,116.5,125,SBD,167.5,185,-192.5,185,120,132.5,-137.5,132.5,200,220,227.5,227.5,545,1,Strength Beyond
-David Emeott,47,M,Multi-ply,M_MEM_3_APF,97.1,100,SBD,260,272.5,-290,272.5,177.5,190,200,200,227.5,-247.5,247.5,247.5,720,1,XXX Powerlifting
+David Emeott,47,M,Multi-ply,M_MEM_2_APF,97.1,100,SBD,260,272.5,-290,272.5,177.5,190,200,200,227.5,-247.5,247.5,247.5,720,1,XXX Powerlifting
 Jonathon Estrada,19,M,Raw,M_TR_3_AAPF,98.8,100,SBD,102.5,107.5,-127.5,107.5,112.5,-140,-140,112.5,142.5,155,182.5,182.5,402.5,1,
 Gina Fuga,22,F,Wraps,F_JCR_AAPF,76.6,82.5,SBD,95,-100,107.5,107.5,52.5,-60,-60,52.5,125,135,145,145,305,1,Michigan BarBenders
 Gina Fuga,22,F,Wraps,F_JCR_APF,76.6,82.5,SBD,95,-100,107.5,107.5,52.5,-60,-60,52.5,125,135,145,145,305,1,Michigan BarBenders
@@ -23,10 +23,10 @@ Garek Henry,28,M,Raw,M_OR_APF,87.7,90,SBD,-202.5,-202.5,-202.5,,125,,,125,202.5,
 Jessica Holton,30,F,Wraps,F_OCR_AAPF,58.8,60,SBD,97.5,-102.5,-102.5,97.5,60,-62.5,-62.5,60,-115,-115,-115,,,DQ,
 Josh Holton,31,M,Wraps,M_OCR_AAPF,88.5,90,SBD,172.5,180,-185,180,122.5,125,-127.5,125,207.5,220,225,225,530,1,
 Nicholas Hurkmans,45,M,Wraps,M_MCR_2_AAPF,120.7,125,SBD,210,225,242.5,242.5,142.5,147.5,152.5,152.5,230,250,277.5,277.5,672.5,1,
-Adam Jones,33,M,Multi-ply,M_OEM_AAPF,87.6,90,SBD,135,147.5,172.5,172.5,90,102.5,110,110,135,172.5,190,190,472.5,1,Liberation Garage Barbell
-Adam Jones,33,M,Multi-ply,M_OEM_APF,87.6,90,SBD,135,147.5,172.5,172.5,90,102.5,110,110,135,172.5,190,190,472.5,1,Liberation Garage Barbell
-Adam Jones,33,M,Multi-ply,M_SEM_AAPF,87.6,90,SBD,135,147.5,172.5,172.5,90,102.5,110,110,135,172.5,190,190,472.5,1,Liberation Garage Barbell
-Adam Jones,33,M,Multi-ply,M_SEM_APF,87.6,90,SBD,135,147.5,172.5,172.5,90,102.5,110,110,135,172.5,190,190,472.5,1,Liberation Garage Barbell
+Adam Jones #4,33,M,Multi-ply,M_OEM_AAPF,87.6,90,SBD,135,147.5,172.5,172.5,90,102.5,110,110,135,172.5,190,190,472.5,1,Liberation Garage Barbell
+Adam Jones #4,33,M,Multi-ply,M_OEM_APF,87.6,90,SBD,135,147.5,172.5,172.5,90,102.5,110,110,135,172.5,190,190,472.5,1,Liberation Garage Barbell
+Adam Jones #4,33,M,Multi-ply,M_SEM_AAPF,87.6,90,SBD,135,147.5,172.5,172.5,90,102.5,110,110,135,172.5,190,190,472.5,1,Liberation Garage Barbell
+Adam Jones #4,33,M,Multi-ply,M_SEM_APF,87.6,90,SBD,135,147.5,172.5,172.5,90,102.5,110,110,135,172.5,190,190,472.5,1,Liberation Garage Barbell
 Joydip Joy,21,M,Raw,M_JR_AAPF,66.1,67.5,SBD,140,150,160,160,92.5,-107.5,107.5,107.5,190,-205,-205,190,457.5,1,
 Ryan Jung,24,M,Raw,M_OR_AAPF,80.5,82.5,SBD,180,187.5,202.5,202.5,107.5,112.5,120,120,187.5,197.5,207.5,207.5,530,1,
 Ryan Jung,24,M,Raw,M_OR_APF,80.5,82.5,SBD,180,187.5,202.5,202.5,107.5,112.5,120,120,187.5,197.5,207.5,207.5,530,2,
@@ -123,8 +123,8 @@ Cory Sly,27,M,Raw,M_OR_AAPF,107.7,110,B,,,,,165,175,-182.5,175,,,,,175,1,
 Jim Wetenhall,62,M,Multi-ply,M_MEM_5_AAPF,123.4,125,B,,,,,157.5,-162.5,-162.5,157.5,,,,,157.5,1,
 Kathy Wetenhall,63,F,Multi-ply,F_MEM_5_AAPF,81.9,82.5,B,,,,,87.5,92.5,,92.5,,,,,92.5,1,
 Mark Wilson,57,M,Raw,M_MR_4_AAPF,124.8,125,B,,,,,160,177.5,-182.5,177.5,,,,,177.5,1,
-William Allen,70,M,Raw,M_MR_7_AAPF,80.8,82.5,D,,,,,,,,,125,137.5,145,145,145,1,Armageddon
-William Allen,70,M,Raw,M_MR_7_APF,80.8,82.5,D,,,,,,,,,125,137.5,145,145,145,1,Armageddon
+William Allen #1,70,M,Raw,M_MR_7_AAPF,80.8,82.5,D,,,,,,,,,125,137.5,145,145,145,1,Armageddon
+William Allen #1,70,M,Raw,M_MR_7_APF,80.8,82.5,D,,,,,,,,,125,137.5,145,145,145,1,Armageddon
 Tina Enners,47,F,Raw,F_MR_2_AAPF,82,82.5,D,,,,,,,,,112.5,-132.5,-132.5,112.5,112.5,1,BlueLine Barbell Club
 Tina Enners,47,F,Raw,F_OR_AAPF,82,82.5,D,,,,,,,,,112.5,-132.5,-132.5,112.5,112.5,1,BlueLine Barbell Club
 Robert Fuciarelli,42,M,Raw,M_OR_APF,90,90,D,,,,,,,,,282.5,-300,-300,282.5,282.5,1,

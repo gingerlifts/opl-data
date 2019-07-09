@@ -7,19 +7,19 @@
   align-items: stretch;
 
   background-color: $header-background-color;
-  color: $control-text-color;
+  color: $header-color;
 
   height: $header-height;
   width: 100%;
   overflow: hidden;
 }
 
-#header a {
+#header a.nav__link {
   /* Make the <a> behave like a <div> for easier clicking. */
   display: flex;
   align-items: center;
 
-  color: $control-text-color;
+  color: $header-color;
   font-size: 9pt;
   font-weight: bold;
   text-decoration: none;
@@ -49,7 +49,7 @@
   padding-right: 8px;
 }
 
-.header-logo {
+#header img.header-logo {
   padding-left: 8px;
   padding-top: 4px;
   padding-bottom: 4px;

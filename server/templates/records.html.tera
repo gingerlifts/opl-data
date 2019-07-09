@@ -1,6 +1,15 @@
 {% extends "desktop-base" %}
 
 {% block includes %}
+  <script type="text/javascript">
+    const urlprefix = "{{urlprefix | safe }}";
+    const default_equipment = "raw_wraps";
+    const default_classkind = "traditional-classes";
+    const default_fed = "all";
+    const default_sex = "men";
+    const default_ageclass = "all";
+    const default_year = "all";
+  </script>
   <script defer src="/static/scripts/{{statics::records_js()}}"></script>
 {% endblock includes %}
 
@@ -15,6 +24,7 @@
 {% block controls %}
   <div id="controls">
     <div id="controls-left">
+      {% include "widget-fedselect" %}
       {% include "widget-equipmentselect" %}
       <select id="classkindselect">
         <option value="traditional-classes" {% if selection.classkind == "Traditional" %}selected{% endif %}>{{strings.selectors.weightclass.traditional}}</option>
@@ -26,9 +36,8 @@
         <option value="men" {% if selection.sex == "Men" %}selected{% endif %}>{{strings.selectors.sex.m}}</option>
         <option value="women" {% if selection.sex == "Women" %}selected{% endif %}>{{strings.selectors.sex.f}}</option>
       </select>
-      {% include "widget-fedselect" %}
       {% include "widget-ageselect" %}
-      {% include "widget-yearselect" %}
+      {% include "common/widget-yearselect" %}
     </div>
   </div>
 {% endblock controls %}
@@ -57,9 +66,9 @@
       <tr>
         <td>{{this.weightclass}}</td>
         <td>{{this.rank}}</td>
-        <td>{% if this.lifter %}<a class="{{this.lifter.color}}" href="/u/{{this.lifter.username}}">{{this.localized_name}}</a>{% if this.lifter.instagram %}<a href="https://www.instagram.com/{{this.lifter.instagram}}" class="instagram" rel="noopener" target="_blank"><i class="fa fa-instagram fa-resize"></i></a>{% endif %}{% if this.lifter.vkontakte %}<a href="https://vk.com/{{this.lifter.vkontakte}}" class="instagram" rel="noopener" target="_blank"><i class="fa fa-vk fa-resize"></i></a>{% endif %}{% endif %}</td>
+        <td>{% if this.lifter %}<a class="{{this.lifter.color}}" href="{{urlprefix | safe}}u/{{this.lifter.username}}">{{this.localized_name}}</a>{% if this.lifter.instagram %}<a href="https://www.instagram.com/{{this.lifter.instagram}}" class="instagram" rel="noopener" target="_blank"><i class="fa fa-instagram fa-resize"></i></a>{% endif %}{% if this.lifter.vkontakte %}<a href="https://vk.com/{{this.lifter.vkontakte}}" class="instagram" rel="noopener" target="_blank"><i class="fa fa-vk fa-resize"></i></a>{% endif %}{% endif %}</td>
         <td>{{this.weight_lifted}}</td>
-        <td>{% if this.date %}<a href="/m/{{this.path | safe}}">{{this.date}}</a>{% endif %}</td>
+        <td>{% if this.date %}<a href="{{urlprefix | safe}}m/{{this.path | safe}}">{{this.date}}</a>{% endif %}</td>
         <td>{{this.federation}}</td>
       </tr>
       {% endfor %}

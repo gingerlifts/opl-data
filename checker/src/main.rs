@@ -28,7 +28,7 @@ fn is_meetdir(entry: &DirEntry) -> bool {
 }
 
 /// Determines the project root from the binary path.
-fn get_project_root() -> Result<PathBuf, Box<Error>> {
+fn get_project_root() -> Result<PathBuf, Box<dyn Error>> {
     const ERR: &str = "get_project_root() ran out of parent directories";
     Ok(env::current_exe()? // root/target/release/binary
         .parent()
@@ -159,7 +159,7 @@ fn get_configurations(meet_data_root: &Path) -> Result<ConfigMap, (usize, usize)
     }
 }
 
-fn main() -> Result<(), Box<Error>> {
+fn main() -> Result<(), Box<dyn Error>> {
     // Build the command-line argument parsing in code.
     // This is a little verbose, but it's easy to change.
     let argmatches = clap::App::new("OpenPowerlifting Checker")
@@ -186,6 +186,12 @@ fn main() -> Result<(), Box<Error>> {
                 .help("Compiles the database into build/*.csv"),
         )
         .arg(
+            clap::Arg::with_name("compile-onefile")
+                .short("1")
+                .long("compile-onefile")
+                .help("Compiles build/openpowerlifting.csv, the easy-use variant"),
+        )
+        .arg(
             clap::Arg::with_name("PATH")
                 .help("Optionally restricts processing to just this parent directory")
                 .required(false)
@@ -201,7 +207,8 @@ fn main() -> Result<(), Box<Error>> {
     }
 
     // Validate arguments.
-    let is_compiling: bool = argmatches.is_present("compile");
+    let is_compiling: bool =
+        argmatches.is_present("compile") || argmatches.is_present("compile-onefile");
     let debug_age_username: Option<&str> = argmatches.value_of("age");
     let debug_country_username: Option<&str> = argmatches.value_of("country");
     let is_debugging: bool =
@@ -360,9 +367,13 @@ fn main() -> Result<(), Box<Error>> {
         compiler::interpolate_age(&mut meetdata, &liftermap);
 
         // Perform final compilation if requested.
-        if is_compiling {
+        if argmatches.is_present("compile") {
             let buildpath = project_root.join("build");
             compiler::make_csv(&meetdata, &lifterdata, &buildpath)?;
+        }
+        if argmatches.is_present("compile-onefile") {
+            let buildpath = project_root.join("build");
+            compiler::make_onefile_csv(&meetdata, &buildpath)?;
         }
     }
 

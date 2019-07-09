@@ -12,7 +12,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 DQ,Lori Quandt,CA,60,59.6,49,85,-52.5,120,,F,Masters 45-49,Raw,,,,SBD
 1,Vicki Estes,CA,60,58.8,51,92.5,57.5,140,290,F,Masters 50-54,Raw,,142.5,95,SBD
 1,Ligaya Busby,CA,67.5,64.8,60,72.5,42.5,103,218,F,Masters 60-64,Raw,,107.5,,SBD
-1,James Cooper,CA,52,51.4,15,82.5,45,95,222.5,M,Juniors 13-15,Raw,,,,SBD
+1,James Cooper #2,CA,52,51.4,15,82.5,45,95,222.5,M,Juniors 13-15,Raw,,,,SBD
 1,Cha Moua,CA,56,56,16,95,80,112.5,287.5,M,Juniors 16-17,Raw,,,,SBD
 1,Justin Vang,CA,60,60,14,82.5,60,110,252.5,M,Juniors 13-15,Raw,,,,SBD
 1,Khaisan Siv,CA,60,59.3,17,167.5,77.5,185,430,M,Juniors 16-17,Raw,,,,SBD
@@ -44,7 +44,7 @@ DQ,Ruben McCullouch,CA,125,122.6,21,-142.5,,,,M,Juniors 20-23,Raw,,,,SBD
 1,Rodrigo Manzo,CA,67.5,67.4,22,202.5,137.5,260.5,600.5,M,Open,Raw,,,,SBD
 2,Vincent Wynn,CA,67.5,66.3,26,182.5,142.5,237.5,562.5,M,Open,Raw,,,,SBD
 3,Scott Birss,CA,67.5,65.9,21,145,82.5,157.5,385,M,Open,Raw,,,,SBD
-1,Ryan Taylor,CA,82.5,82.5,26,197.5,125,207.5,530,M,Open,Raw,,,,SBD
+1,Ryan Taylor #4,CA,82.5,82.5,26,197.5,125,207.5,530,M,Open,Raw,,,,SBD
 2,David Park,CA,82.5,81.7,21,175,130,220,525,M,Open,Raw,,,,SBD
 3,Ian Gilbert,CA,82.5,82.3,24,177.5,132.5,205,515,M,Open,Raw,,,,SBD
 4,Brice Nielsen,CA,82.5,82,25,165,120,227.5,512.5,M,Open,Raw,,,,SBD
@@ -78,7 +78,7 @@ DQ,Michael West,CA,125,120.4,41,197.5,-192.5,,,M,Masters 40-44,Raw,,,,SBD
 1,Daly Khay,CA,75,74.8,19,165,122.5,197.5,485,M,Juniors 18-19,Wraps,,,,SBD
 1,Robert Frame,CA,82.5,76.2,21,155,105,175,435,M,Juniors 20-23,Wraps,,,,SBD
 1,Marques Ramirez,CA,90,87.1,16,120,90,167.5,377.5,M,Juniors 16-17,Wraps,,,,SBD
-1,Ryan Jones,CA,90,89.4,22,215,137.5,245,597.5,M,Juniors 20-23,Wraps,,,,SBD
+1,Ryan Jones #10,CA,90,89.4,22,215,137.5,245,597.5,M,Juniors 20-23,Wraps,,,,SBD
 1,Jasper Juan,CA,125,112.3,21,267.5,170,272.5,710,M,Juniors 20-23,Wraps,,,,SBD
 1,Guillermo Toledo,CA,67.5,65.6,29,135,117.5,192.5,445,M,Open,Wraps,,,,SBD
 DQ,Dylan Eacret,CA,82.5,79.2,29,-170,135,230,,M,Open,Wraps,,,,SBD
@@ -111,7 +111,7 @@ DQ,Bob Kehl,CA,125,123.6,78,,-185,,,M,Masters 75-79,Single-ply,,,,B
 1,Hailey Ortega,CA,82.5,78.6,14,,,105,105,F,Juniors 13-15,Raw,,110,,D
 1,Aileen Castillo,CA,90,88.1,30,,,112.5,112.5,F,Open,Raw,,,,D
 1,Martha Eble,CA,56,55.3,61,,,85,85,F,Masters 60-64,Raw,,,,D
-1,Ryan Jones,CA,90,89.4,22,,,245,245,M,Juniors 20-23,Raw,,,,D
+1,Ryan Jones #10,CA,90,89.4,22,,,245,245,M,Juniors 20-23,Raw,,,,D
 1,Brian Oliver,CA,125,125,22,,,185,185,M,Juniors 20-23,Raw,,,,D
 1,Clay Edgin,CA,140+,161.4,35,,,250,250,M,Submasters 35-39,Raw,,,,D
 1,Jeff Grenzke,CA,82.5,81.7,66,,,152.5,152.5,M,Masters 65-69,Raw,,,,D

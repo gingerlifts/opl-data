@@ -1,8 +1,8 @@
 Name,Event,Sex,Division,BodyweightKg,WeightClassKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Equipment
 Bonnie Aerts,SBD,F,Open,53.15,56,75,50,106,231,1,Multi-ply
 Bonnie Aerts,SBD,F,M 45-49,53.15,56,75,50,106,231,1,Multi-ply
-Ernesto Milan,SBD,M,Open,51.6,52,200,105,190,495,1,Multi-ply
-Ernesto Milan,SBD,M,M 60-64,51.6,52,200,105,190,495,1,Multi-ply
+Ernesto Milian,SBD,M,Open,51.6,52,200,105,190,495,1,Multi-ply
+Ernesto Milian,SBD,M,M 60-64,51.6,52,200,105,190,495,1,Multi-ply
 Jason Gordon,SBD,M,T 16-17,73.2,75,170,82.5,152.5,405,1,Multi-ply
 Caitlin Hanouser,SBD,F,T 13-15,71.7,75,72.5,42.5,95,210,1,Multi-ply
 Ronnie Baker,SBD,M,M 50-54,82.5,82.5,252.5,175,232.5,660,1,Multi-ply
@@ -35,7 +35,7 @@ Carl Tiller,B,M,Open,98.5,100,,,,,DQ,Multi-ply
 Carl Tiller,B,M,M 40-44,98.5,100,,,,,DQ,Multi-ply
 Mark Arnold,B,M,Open,100,100,,237.5,,237.5,1,Multi-ply
 Wakelain Stoneman,B,M,Open,108.5,110,,160,,160,1,Multi-ply
-Roderick Thomas,B,M,Subm.,105,110,,240,,240,1,Multi-ply
+Roderick Thomas,B,M,Submasters,105,110,,240,,240,1,Multi-ply
 Alan Aerts,B,M,Open,126,140,,202.5,,202.5,1,Multi-ply
 Alan Aerts,B,M,M 50-54,126,140,,202.5,,202.5,1,Multi-ply
 Tyler Brown,B,M,T 16-17,140,140,,142.5,,142.5,1,Multi-ply

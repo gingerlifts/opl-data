@@ -73,6 +73,10 @@
   @include name-color(#FFA200);
 }
 
+.chartreuse_yellow {
+  @include name-color(#DFFF00);
+}
+
 .yellow {
   @include name-color(#FFFC00);
 }
@@ -116,6 +120,12 @@
 .iceland {
   @include gradient-prereqs($default-color);
   background-image: linear-gradient(to right, #005DB5, #EDF2F4, #DD1832);
+}
+
+// Green, white, and red.
+.italy {
+  @include gradient-prereqs($default-color);
+  background-image: linear-gradient(to right, #51DA27, #EDF2F4, #DD1832);
 }
 
 // Millennial pink color palette
@@ -172,6 +182,20 @@
   background-image: linear-gradient(to right, $lightblue, $white);
 }
 
+.neongreen_to_white {
+  $neongreen: #39ff14;
+  $white: #EDF2F4;
+  @include gradient-prereqs($neongreen);
+  background-image: linear-gradient(to right, $neongreen, $white);
+}
+
+.pink_to_lightblue {
+  $pink: #FF69B4;
+  $lightblue: #43D1FF;
+  @include gradient-prereqs($pink);
+  background-image: linear-gradient(to right, $pink, $lightblue);
+}
+
 .pink_to_purple {
   $pink: #FF69B4;
   $purple: #AE76FF;
@@ -201,6 +225,20 @@
   background-image: linear-gradient(to right, $purple, $green);
 }
 
+.purple_to_silver {
+  $purple: #AE76FF;
+  $silver: #C0C0C0;
+  @include gradient-prereqs($purple);
+  background-image: linear-gradient(to right, $purple, $silver);
+}
+
+.purple_to_turquoise {
+  $purple: #AE76FF;
+  $turquoise: #40E0D0;
+  @include gradient-prereqs($purple);
+  background-image: linear-gradient(to right, $purple, $turquoise);
+}
+
 .matt_gradient {
   @include gradient-prereqs($default-color);
   background-image: 
@@ -218,6 +256,13 @@
   background-image: linear-gradient(to right, $red, $yellow);
 }
 
+.red_to_yellow_to_red {
+  $red: #FB3640;
+  $yellow: #FFFC00;
+  @include gradient-prereqs($red);
+  background-image: linear-gradient(to right, $red, $yellow, $red);
+}
+
 .red_to_white {
   $red: #FB3640;
   $white: #EDF2F4;
@@ -225,11 +270,32 @@
   background-image: linear-gradient(to right, $red, $white);
 }
 
+.all_red_top_down {
+  $red: #FB3640;
+  $darker_red: #AE252C;
+  @include gradient-prereqs($darker-red);
+  background-image: linear-gradient(to bottom, $red, $darker_red);
+}
+
+.teal_to_white {
+  $teal: #01ECE3;
+  $white: #EDF2F4;
+  @include gradient-prereqs($teal);
+  background-image: linear-gradient(to right, $teal, $white);
+}
+
 .turquoise_to_magenta {
   $turquoise: #40E0D0;
   $magenta: #FF00FF;
   @include gradient-prereqs($turquoise);
   background-image: linear-gradient(to right, $turquoise, $magenta);
+}
+
+.yellow_to_purple {
+  $yellow: #FFFC00;
+  $purple: #AE76FF;
+  @include gradient-prereqs($yellow);
+  background-image: linear-gradient(to right, $yellow, $purple);
 }
 
 // Red, Gray, Black.
@@ -248,6 +314,13 @@
   $red: #FB3640;
   @include gradient-prereqs($green);
   background-image: linear-gradient(to right, $green 45%, $red 55%);
+}
+
+// Designed by Mike Overkamp.
+.mike_overkamp {
+  font-family: monospace;
+  @include gradient-prereqs(#1E8AFB);
+  background-image: linear-gradient(to bottom, #f00 40%, #fff 40%, #fff 80%, #1E8AFB 80%, #1E8AFB 100%);
 }
 
 .teal-shadow {

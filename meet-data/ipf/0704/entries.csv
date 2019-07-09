@@ -14,7 +14,7 @@ DQ,Hung Yang Sheng,1984,Taiwan,55.6,100,,,100,80,,,80,-255,-255,-255,,,56,Open,S
 2,Konstantin Pavlov,1973,Russia,58.9,250,260,267.5,267.5,180,187.5,-192.5,187.5,210,215,-220,215,670,60,Open,SBD,M,Single-ply
 3,Yoshihiro Sato,1982,Japan,59.6,220,-235,235,235,175,-182.5,182.5,182.5,210,220,-225,220,637.5,60,Open,SBD,M,Single-ply
 4,Etienne Lited,1979,France,59.6,232.5,-242.5,242.5,242.5,-130,130,135,135,222.5,232.5,242.5,242.5,620,60,Open,SBD,M,Single-ply
-5,Pawel Osmialowski,1977,Poland,59.8,230,240,250,250,130,-140,140,140,205,215,222.5,222.5,612.5,60,Open,SBD,M,Single-ply
+5,Paweł Ośmiałowski,1977,Poland,59.8,230,240,250,250,130,-140,140,140,205,215,222.5,222.5,612.5,60,Open,SBD,M,Single-ply
 6,Kuat Sarbalaev,1983,Kazakhstan,59.3,210,230,235,235,140,147.5,150,150,220,-240,-240,220,605,60,Open,SBD,M,Single-ply
 7,Dominik Golak,1982,Poland,59.6,210,220,-230,220,130,140,147.5,147.5,200,210,-220,210,577.5,60,Open,SBD,M,Single-ply
 8,Liang Chiu Chung,1974,Taiwan,59.7,212.5,-225,,212.5,90,,,90,245,257.5,-272.5,257.5,560,60,Open,SBD,M,Single-ply
@@ -65,7 +65,7 @@ DQ,Lung-Hsin Huang,1981,Taiwan,74.5,-280,-280,-280,,202.5,212.5,-222.5,212.5,275
 9,Arvo Kaljapulk,1982,Estonia,81.8,270,-275,-275,270,150,160,-180,160,310,315,-320,315,745,82.5,Open,SBD,M,Single-ply
 10,Richard Hozjan,1982,Australia,82.1,-260,260,-280,260,190,197.5,200,200,275,285,-300,285,745,82.5,Open,SBD,M,Single-ply
 11,Lars Berglund,1986,Sweden,81.7,275,285,-290,285,190,195,200,200,250,-267.5,-267.5,250,735,82.5,Open,SBD,M,Single-ply
-12,Helmut Moth,1970,Austria,81.2,250,-260,260,260,-145,145,150,150,250,255,-260,255,665,82.5,Open,SBD,M,Single-ply
+12,Helmut Möth,1970,Austria,81.2,250,-260,260,260,-145,145,150,150,250,255,-260,255,665,82.5,Open,SBD,M,Single-ply
 DQ,Richie Rosales Enrique,1976,Philippines,80.1,-257.5,-257.5,-257.5,,215,222.5,225,225,225,245,-260,245,,82.5,Open,SBD,M,Single-ply
 DQ,Muntesr Mohamed,1967,Libya,81.8,-270,-270,-270,,170,-172.5,-200,170,,,,,,82.5,Open,SBD,M,Single-ply
 DD,Davranbek Turakhanov,1974,Kazakhstan,80.2,-320,320,332.5,332.5,202.5,212.5,217.5,217.5,-305,312.5,322.5,322.5,,82.5,Open,SBD,M,Single-ply
@@ -116,8 +116,8 @@ DQ,Claudio D'Ovidio,1969,Italy,99,335,,,335,,,,,,,,,,100,Open,SBD,M,Single-ply
 3,Tomáš Šárik,1975,Czechia,109.3,330,345,-352.5,345,240,250,255,255,310,330,335,335,935,110,Open,SBD,M,Single-ply
 4,Marian Czarkowski,1969,Poland,108.1,350,-365,-365,350,245,255,-260,255,320,327.5,-335,327.5,932.5,110,Open,SBD,M,Single-ply
 5,Tor-Herman Omland,1977,Norway,109.4,347.5,-357.5,357.5,357.5,257.5,262.5,265,265,305,310,-312.5,310,932.5,110,Open,SBD,M,Single-ply
-6,Anthony Harris,1964,USA,108.3,-355,365,-382.5,365,217.5,-222.5,-222.5,217.5,330,-345,-352.5,330,912.5,110,Open,SBD,M,Single-ply
-7,Slawomir Ceglarek,1974,Poland,109.2,330,350,360,360,225,-240,-240,225,325,327.5,-345,327.5,912.5,110,Open,SBD,M,Single-ply
+6,Anthony Harris #1,1964,USA,108.3,-355,365,-382.5,365,217.5,-222.5,-222.5,217.5,330,-345,-352.5,330,912.5,110,Open,SBD,M,Single-ply
+7,Sławomir Ceglarek,1974,Poland,109.2,330,350,360,360,225,-240,-240,225,325,327.5,-345,327.5,912.5,110,Open,SBD,M,Single-ply
 8,Janne Salmela,1971,Sweden,107.4,-330,-330,330,330,-220,220,225,225,330,,,330,885,110,Open,SBD,M,Single-ply
 9,Sune Bak,1974,Denmark,106.2,275,300,-310,300,240,247.5,-255,247.5,270,-290,290,290,837.5,110,Open,SBD,M,Single-ply
 10,Fridrich Matejík,1983,Slovakia,107.7,300,320,-340,320,220,227.5,-235,227.5,270,290,-302.5,290,837.5,110,Open,SBD,M,Single-ply
@@ -125,7 +125,7 @@ DQ,Claudio D'Ovidio,1969,Italy,99,335,,,335,,,,,,,,,,100,Open,SBD,M,Single-ply
 12,Rashed Al Omari,1970,UAE,103.6,-270,-270,285,285,230,245,260,260,200,240,-280,240,785,110,Open,SBD,M,Single-ply
 13,Brian George,,Canada,108,285,295,305,305,187.5,192.5,-195,192.5,280,-305,-305,280,777.5,110,Open,SBD,M,Single-ply
 DQ,Raed Zgouzi,1973,Libya,104,,,,,,,,,,,,,,110,Open,SBD,M,Single-ply
-DQ,Michael Mastrean,1971,USA,106.3,-385,-390,-395,,-240,-247.5,262.5,262.5,305,327.5,-342.5,327.5,,110,Open,SBD,M,Single-ply
+DQ,Mike Mastrean,1971,USA,106.3,-385,-390,-395,,-240,-247.5,262.5,262.5,305,327.5,-342.5,327.5,,110,Open,SBD,M,Single-ply
 DQ,Stephen Pritchard,1971,Australia,107.6,-290,-290,-300,,-252.5,-252.5,252.5,252.5,270,292.5,300,300,,110,Open,SBD,M,Single-ply
 DQ,Zbyněk Krejča,1974,Czechia,108.3,290,305,315,315,250,270,-290,270,-285,-285,,,,110,Open,SBD,M,Single-ply
 DQ,Jamie Emberley,1980,Canada,108.9,-345,-345,-355,,-250,-255,-262.5,,,,,,,110,Open,SBD,M,Single-ply

@@ -1,5 +1,5 @@
 Name,WeightClassKg,Division,Sex,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Age,Place
-V. Tolisano,56,Open,M,,190.51,133.81,210.92,535.24,SBD,Single-ply,,1
+Vince Tolisano,56,Open,M,,190.51,133.81,210.92,535.24,SBD,Single-ply,,1
 Ken Snell,56,Open,M,,172.37,104.33,195.04,471.74,SBD,Single-ply,,2
 W. Wilson,60,Open,M,,183.71,145.15,192.78,521.63,SBD,Single-ply,,1
 Ernesto Milian,60,Open,M,,190.51,99.79,183.71,474,SBD,Single-ply,,2
@@ -12,14 +12,14 @@ L. Soto,75,Open,M,,258.55,154.22,274.42,687.19,SBD,Single-ply,,3
 Rick Weil,75,Open,M,,238.14,199.58,229.06,666.78,SBD,Single-ply,,4
 J. Giallardo,75,Open,M,,222.26,170.1,242.67,635.03,SBD,Single-ply,,5
 S. Barquera,75,Open,M,,244.94,149.69,226.8,621.42,SBD,Single-ply,,6
-D. Castellano,75,Open,M,,235.87,115.67,249.48,601.01,SBD,Single-ply,,7
+Dominick Castellano,75,Open,M,,235.87,115.67,249.48,601.01,SBD,Single-ply,,7
 B. Ely,82.5,Open,M,,276.69,151.95,281.23,709.87,SBD,Single-ply,,1
 P. Lomba,82.5,Open,M,80.29,249.48,176.9,281.23,707.6,SBD,Single-ply,,2
 Robert Pereda,82.5,Open,M,81.19,297.1,145.15,265.35,707.6,SBD,Single-ply,,3
 Virgil Diaz,82.5,Open,M,,276.69,154.22,263.08,694,SBD,Single-ply,21,4
 M. Brown,82.5,Open,M,,260.82,183.71,249.48,694,SBD,Single-ply,,5
 C. Wright,82.5,Open,M,,235.87,122.47,283.5,641.83,SBD,Single-ply,,6
-E. Gillie,90,Open,M,89.81,319.78,204.12,303.91,827.81,SBD,Single-ply,40,1
+Ed Gillie,90,Open,M,89.81,319.78,204.12,303.91,827.81,SBD,Single-ply,40,1
 B. Robertson,90,Open,M,,299.37,195.04,292.57,786.98,SBD,Single-ply,,2
 P. Mustakas,90,Open,M,,281.23,179.17,288.03,748.43,SBD,Single-ply,,3
 D. Gant,90,Open,M,,260.82,190.51,276.69,728.02,SBD,Single-ply,,4
@@ -27,18 +27,18 @@ D. Denham,90,Open,M,,244.94,192.78,244.94,682.66,SBD,Single-ply,,5
 R. Vitkun,100,Open,M,,290.3,181.44,303.91,775.64,SBD,Single-ply,,1
 B. Beckly,100,Open,M,,290.3,185.97,297.1,773.38,SBD,Single-ply,,2
 B. Wilson,100,Open,M,,294.84,192.78,276.69,764.3,SBD,Single-ply,,3
-H. Roberts,100,Open,M,,290.3,170.1,281.23,741.62,SBD,Single-ply,,4
-D. Crowley,100,Open,M,,303.91,145.15,290.3,739.36,SBD,Single-ply,,5
+Herc Roberts,100,Open,M,,290.3,170.1,281.23,741.62,SBD,Single-ply,,4
+Dan Crowley,100,Open,M,,303.91,145.15,290.3,739.36,SBD,Single-ply,,5
 R. Rareigh,100,Open,M,,267.62,192.78,278.96,739.36,SBD,Single-ply,,6
 R. Daley,100,Open,M,,,,,,SBD,Single-ply,,DQ
 T. Myers,110,Open,M,,315.25,210.92,319.78,845.95,SBD,Single-ply,,1
 J. Garcia,110,Open,M,,308.44,215.46,317.52,841.41,SBD,Single-ply,,2
-R. Vaillancourt,110,Open,M,,317.52,208.65,272.16,798.32,SBD,Single-ply,,3
+Richard Vaillancourt,110,Open,M,,317.52,208.65,272.16,798.32,SBD,Single-ply,,3
 J. Hernandez,125,Open,M,,344.73,213.19,303.91,861.83,SBD,Single-ply,,1
 J. Severino,125,Open,M,,306.18,231.33,278.96,816.47,SBD,Single-ply,,2
 J. Newell,125,Open,M,,303.91,170.1,312.98,786.98,SBD,Single-ply,,3
 Orlando Muniz-Zacca,125+,Open,M,,226.8,124.74,151.95,503.49,SBD,Single-ply,,1
-M. Ferrera,52,Novice,M,,138.35,115.67,149.69,403.7,SBD,Single-ply,,1
+Mark Ferrera,52,Novice,M,,138.35,115.67,149.69,403.7,SBD,Single-ply,,1
 R. Miguel,52,Novice,M,,136.08,86.18,154.22,376.48,SBD,Single-ply,,2
 S. Perez,52,Novice,M,50.8,113.4,74.84,129.27,317.52,SBD,Single-ply,,3
 E. Zekler,52,Novice,M,,111.13,72.57,129.27,312.98,SBD,Single-ply,,4
@@ -116,7 +116,7 @@ G. Labognty,90,Novice,M,,192.78,104.33,192.78,489.88,SBD,Single-ply,,20
 S. Williams,90,Novice,M,,163.29,122.47,204.12,489.88,SBD,Single-ply,,21
 A. Johns,90,Novice,M,,147.42,90.72,176.9,415.04,SBD,Single-ply,,22
 D. Gaffney,90,Novice,M,,102.06,136.08,102.06,340.19,SBD,Single-ply,,23
-T. Chrosniak,100,Novice,M,,272.16,154.22,294.84,721.21,SBD,Single-ply,,1
+Tim Chrosniak,100,Novice,M,,272.16,154.22,294.84,721.21,SBD,Single-ply,,1
 P. Bouchard,100,Novice,M,,233.6,185.97,272.16,691.73,SBD,Single-ply,,2
 J. Campbel,100,Novice,M,,254.01,154.22,274.42,682.66,SBD,Single-ply,,3
 L. McAllister,100,Novice,M,,235.87,181.44,260.82,678.12,SBD,Single-ply,,4
@@ -142,7 +142,7 @@ R. Hoyt,125,Novice,M,,199.58,142.88,226.8,569.26,SBD,Single-ply,,4
 S. Burris,125,Novice,M,,215.46,,,,SBD,Single-ply,,DQ
 W. Perez,125+,Novice,M,,213.19,154.22,249.48,616.89,SBD,Single-ply,,1
 S. Brown,125+,Novice,M,,217.72,154.22,244.94,616.89,SBD,Single-ply,,2
-E. Gillie,,Masters,M,89.81,319.78,204.12,303.91,827.81,SBD,Single-ply,40,1
+Ed Gillie,,Masters,M,89.81,319.78,204.12,303.91,827.81,SBD,Single-ply,40,1
 P. Lomba,,Masters,M,80.29,249.48,176.9,281.23,707.6,SBD,Single-ply,,2
 Robert Pereda,,Masters,M,81.19,297.1,145.15,265.35,707.6,SBD,Single-ply,,3
 R. Trudell,,Masters Class II & Below,M,89.81,260.82,142.88,249.48,653.17,SBD,Single-ply,,1

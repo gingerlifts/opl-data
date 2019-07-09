@@ -2,7 +2,7 @@ Place,Name,BirthYear,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatK
 1,Dariusz Wszoła,1978,Poland,58.1,240,-250,250,250,162.5,167.5,-172.5,167.5,200,210,217.5,217.5,635,59,Open,SBD,M,Single-ply
 2,Sergey Levin,1987,Russia,58.74,230,242.5,250,250,160,167.5,-175,167.5,210,-217.5,-220,210,627.5,59,Open,SBD,M,Single-ply
 3,Etienne Lited,1979,France,58.88,-225,225,235,235,147.5,152.5,-155,152.5,222.5,232.5,240,240,627.5,59,Open,SBD,M,Single-ply
-4,Pawel Osmialowski,1977,Poland,58.58,240,250,-255,250,130,140,147.5,147.5,210,220,227.5,227.5,625,59,Open,SBD,M,Single-ply
+4,Paweł Ośmiałowski,1977,Poland,58.58,240,250,-255,250,130,140,147.5,147.5,210,220,227.5,227.5,625,59,Open,SBD,M,Single-ply
 5,Frédéric Tinebra,1978,France,58.33,225,235,-242.5,235,145,150,-152.5,150,200,-212.5,212.5,212.5,597.5,59,Open,SBD,M,Single-ply
 1,Hassan El Belghiti,1975,France,65.53,270,-285,-285,270,147.5,-152.5,,147.5,292.5,305,312.5,312.5,730,66,Open,SBD,M,Single-ply
 2,Pierangelo Puddu,1977,Italy,65.85,187.5,-200,200,200,157.5,-160,-160,157.5,240,250,-255,250,607.5,66,Open,SBD,M,Single-ply
@@ -80,7 +80,7 @@ DQ,Per Nilsson,1974,Sweden,104.28,337.5,352.5,360,360,-275,-280,-280,,255,270,-2
 DQ,Sorin Cazacu,1973,Romania,118.63,-360,-367.5,-372.5,,225,-235,235,235,260,272.5,-275,272.5,,120,Open,SBD,M,Single-ply
 DQ,Christian Wackernell,1980,Austria,119.26,-325,-325,-325,,-260,-260,-260,,,,,,,120,Open,SBD,M,Single-ply
 1,Volodymyr Svistunov,1987,Ukraine,158.7,410,432.5,-440,432.5,300,310,317.5,317.5,342.5,350,-367.5,350,1100,120+,Open,SBD,M,Single-ply
-2,Andrey Konovalov,1986,Russia,153.21,415,425,430,430,305,315,325,325,335,342.5,-350,342.5,1097.5,120+,Open,SBD,M,Single-ply
+2,Andrey Konovalov #1,1986,Russia,153.21,415,425,430,430,305,315,325,325,335,342.5,-350,342.5,1097.5,120+,Open,SBD,M,Single-ply
 3,Dean Bowring,1974,UK,138.09,390,-410,-410,390,285,295,-300,295,330,350,365,365,1050,120+,Open,SBD,M,Single-ply
 4,Kenneth Sandvik,1975,Finland,136.41,380,395,402.5,402.5,310,315,320,320,310,320,325,325,1047.5,120+,Open,SBD,M,Single-ply
 5,Milan Špingl,1980,Czechia,142.1,400,410,420,420,270,280,290,290,300,320,327.5,327.5,1037.5,120+,Open,SBD,M,Single-ply

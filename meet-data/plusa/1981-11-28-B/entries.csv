@@ -17,7 +17,7 @@ B. Nix,75,Open,M,154.22,83.91,167.83,405.97,SBD,Single-ply,5
 A. Caldwell,82.5,Open,M,219.99,161.03,251.74,632.76,SBD,Single-ply,1
 P. Stevens,82.5,Open,M,235.87,147.42,235.87,619.15,SBD,Single-ply,2
 B. Hopkins,82.5,Open,M,215.46,154.22,222.26,591.94,SBD,Single-ply,3
-L. Keyes,90,Open,M,276.69,201.85,294.84,773.37,SBD,Single-ply,1
+Lonnie Keyes,90,Open,M,276.69,201.85,294.84,773.37,SBD,Single-ply,1
 D. Bost,90,Open,M,310.71,183.7,272.16,766.57,SBD,Single-ply,2
 J. Hardy,90,Open,M,238.14,195.04,249.48,682.66,SBD,Single-ply,3
 Dennis Duncan,90,Open,M,106.59,238.14,183.7,528.44,SBD,Raw,1
@@ -29,9 +29,9 @@ J. Haley,100,Open,M,263.08,165.56,281.23,709.87,SBD,Single-ply,4
 V. Harrelson #2,110,Open,M,301.64,183.7,294.84,780.18,SBD,Single-ply,1
 L. Shepard,110,Open,M,272.16,172.37,308.44,752.96,SBD,Single-ply,2
 R. Backers,110,Open,M,281.23,167.83,294.84,743.89,SBD,Single-ply,3
-E. Surelle,110,Open,M,319.78,161.03,263.08,743.89,SBD,Single-ply,4
+Ernie Surell,110,Open,M,319.78,161.03,263.08,743.89,SBD,Single-ply,4
 L. Mejias,110,Open,M,274.42,179.17,278.96,732.55,SBD,Single-ply,5
-Z. Carnes,110,Open,M,249.48,181.44,272.16,703.07,SBD,Single-ply,6
+Zack Carnes,110,Open,M,249.48,181.44,272.16,703.07,SBD,Single-ply,6
 D. Ricafrente,125,Open,M,335.66,204.12,294.84,834.61,SBD,Single-ply,1
 K. Payne,125,Open,M,285.76,217.72,278.96,782.45,SBD,Single-ply,2
 C. Nell,125,Open,M,281.23,229.06,258.55,768.84,SBD,Single-ply,3
@@ -42,7 +42,7 @@ P. Wazni,52,Open,F,74.84,36.29,120.2,231.33,SBD,Single-ply,2
 C. Colley,60,Open,F,81.65,54.43,113.4,249.48,SBD,Single-ply,1
 W. Stegall,75,Open,F,99.79,49.9,138.35,288.03,SBD,Single-ply,1
 H. Quaries,52,Open,F,54.43,27.22,83.91,165.56,SBD,Single-ply,3
-S. Zimmerman,,Masters 40+,M,217.72,122.47,226.8,566.99,SBD,Single-ply,1
+Steve Zimmerman,,Masters 40+,M,217.72,122.47,226.8,566.99,SBD,Single-ply,1
 J. McGrath,,Masters 40+,M,176.9,102.06,199.58,478.54,SBD,Single-ply,2
 R. Boykin,52,Novice,M,86.18,72.57,151.95,310.71,SBD,Single-ply,1
 P. Wazni,52,Novice,F,74.84,36.29,120.2,231.33,SBD,Single-ply,1
@@ -96,7 +96,7 @@ M. Camp,90,Novice,M,170.1,129.27,181.44,480.81,SBD,Single-ply,10
 G. LaBounty,90,Novice,M,165.56,102.06,183.7,451.32,SBD,Single-ply,11
 P. Galloway,90,Novice,M,147.42,102.06,165.56,415.04,SBD,Single-ply,12
 J. Haley,100,Novice,M,263.08,165.56,281.23,709.87,SBD,Single-ply,1
-S. Scully,100,Novice,M,217.72,165.56,283.5,666.78,SBD,Single-ply,2
+Sean Scully,100,Novice,M,217.72,165.56,283.5,666.78,SBD,Single-ply,2
 B. Farmer,100,Novice,M,188.24,142.88,238.14,569.26,SBD,Single-ply,3
 S. Langord,100,Novice,M,154.22,124.74,185.97,464.93,SBD,Single-ply,4
 L. Mejias,110,Novice,M,274.42,179.17,278.96,732.55,SBD,Single-ply,1

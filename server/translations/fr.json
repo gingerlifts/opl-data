@@ -8,7 +8,9 @@
 		"wraps": "Bandes",
 		"single": "Pli simple",
 		"multi": "Multi-plis",
-		"straps": "Sangles"
+		"straps": "Sangles",
+		"classic": "Classic",
+		"equipped": "Equipped"
 	},
 	"sex": {
 		"m": "H",
@@ -258,6 +260,7 @@
 			"by_glossbrenner": "Par Glossbrenner",
 			"by_ipfpoints": "By IPF Points",
 			"by_mcculloch": "Par McCulloch",
+			"by_nasa": "By NASA Points",
 			"by_wilks": "Par Wilks",
 			"by_division": "Par Division",
 			"weight": "Tris par Classe",
@@ -288,6 +291,8 @@
 			"all_usa": "Toutes Fédés USA",
 			"all_argentina": "Toutes Fédés Argentines",
 			"all_australia": "Toutes Fédés Australiennes",
+			"all_belarus": "All Belarusian Lifters",
+			"all_brazil": "All Brazilian Lifters",
 			"all_canada": "Toutes Fédés Canadiennes",
 			"all_china": "All Chinese Lifters",
 			"all_croatia": "Toutes Fédés Croates",
@@ -299,6 +304,7 @@
 			"all_iceland": "All Icelandic Lifters",
 			"all_ireland": "Toutes Fédés Irelandaises",
 			"all_israel": "Toutes Fédés Israéliennes",
+			"all_italy": "All Italian Lifters",
 			"all_kazakhstan": "All Kazakh Lifters",
 			"all_latvia": "All Latvian Lifters",
 			"all_newzealand": "All New Zealand Lifters",

@@ -94,7 +94,7 @@ def parse_sheetname(s):
         elif word == 'присед' or word == 'sq':
             assert not event
             event = 'S'
-        elif word in ['жим', 'bp', 'bench', 'жд', 'press']:
+        elif word in ['жим', 'bp', 'bench', 'жд', 'press', 'лёжа', 'стоя']:
             assert not event or event == 'B'
             event = 'B'
             if equipment == 'Wraps':
@@ -327,7 +327,8 @@ def parse_fieldnames(sheet):
                 [next(iterable) for x in range(2)]
 
         elif text in ['жим', 'жим 1', 'benchpress 1', 'жим макс кг 1',
-                      'жим на максимум 1', 'жим вес', 'жим лежа 1', 'bp1', 'жим лёжа 1']:
+                      'жим на максимум 1', 'жим вес', 'жим лежа 1', 'bp1', 'жим лёжа 1',
+                      'жим стоя 1']:
             assert header[i + 1].lower() in ['2', 'bp2']
             assert header[i + 2].lower() in ['3', 'bp3']
             fieldnames.append('Bench1Kg')
@@ -374,7 +375,7 @@ def parse_fieldnames(sheet):
             fieldnames.append('IGNORE')
 
         else:
-            die('Fix parse_fieldnames(): Unknown column header text: "%s"' % text)
+            die('parse_fieldnames(): Unknown column header text: "%s"' % text)
 
     return fieldnames
 
@@ -426,7 +427,8 @@ def parse_sheet(sheet):
     elif 'богатырский' in title:  # Heroic Press ?? Some kind of overhead press maybe
         return csv
     elif any(x in title for x in ['корпус', 'судейски', 'командный зачёт',
-                                  'абсолютный', 'судейство', 'судейская']):  # Results
+                                  'абсолютный', 'судейство', 'судейская',
+                                  'коллегия']):  # Results
         return csv
     elif 'арм' in title:  # Arm wrestling
         return csv
@@ -559,7 +561,7 @@ def standardize_division_age(csv):
                 'юниор 20-23' in row[idx] or 'юниоры 20-23' in row[idx]):
             division = 'Juniors 20-23'
         elif 'девушки 14-16' in row[idx]:
-            division = 'Girls 14-16'
+            division = 'Teen 14-16'
         elif 'юноши 13-15' in row[idx] or 'teen 13-15' in row[idx]:
             division = 'Teen 13-15'
         elif 'teen 13-19' in row[idx] or 'юноши 13-19' in row[idx]:
@@ -576,7 +578,7 @@ def standardize_division_age(csv):
         elif 'юноши 18-19' in row[idx] or 'teen 18-19' in row[idx]:
             division = 'Teen 18-19'
         elif 'юноши 17-19' in row[idx] or 'teen 17-19' in row[idx]:
-            division = 'Teen 17-19'
+            division = 'Sub-Juniors 17-19'
         elif 'тeenager t1' in row[idx] or 't1' in row[idx]:
             division = 'Teen T1'
         elif 'тeenager t2' in row[idx] or 't2' in row[idx]:
@@ -631,12 +633,12 @@ def standardize_division_age(csv):
             division = 'Teen'
         elif 'мастера' in row[idx]or 'master' in row[idx]:
             division = 'Masters'
-        elif any(div in row[idx] for div in['открытая', 'open', 'открыая']):
+        elif any(div in row[idx] for div in['открытая', 'open', 'открыая', 'откртыая']):
             division = 'Open'
         elif 'юниор' in row[idx] or 'junior' in row[idx] or 'j' in row[idx]:
-            division = 'Juniors'
+            division = 'Juniors 20-23'
         elif 'девушки' in row[idx]:
-            division = 'Girls'
+            division = 'Sub-Juniors 17-19'
         elif 'ветераны' in row[idx]:
             division = 'Masters'
         elif row[idx] != '':

@@ -109,7 +109,7 @@ Mikko Korpeinen,M,B,Raw,34,O,97.3,100,,,,,,150,155,-160,,155,,,,,,155,Finland,5
 Ricky Moore,M,B,Raw,35,O,98.8,100,,,,,,,,,,,,,,,,,UK,DQ
 David Fiori,M,B,Raw,40,M1,98.1,100,,,,,,160,170,-177.5,,170,,,,,,170,USA,1
 Dmitrii Nikanorov,M,B,Raw,43,M1,94.4,100,,,,,,152.5,-157.5,-160,,152.5,,,,,,152.5,Russia,2
-Miroslaw Borkowski,M,B,Raw,52,M3,98.1,100,,,,,,125,132.5,140,,140,,,,,,140,Poland,1
+Mirosław Borkowski,M,B,Raw,52,M3,98.1,100,,,,,,125,132.5,140,,140,,,,,,140,Poland,1
 Franciszek Szabluk,M,B,Raw,58,M4,95.3,100,,,,,,160,167.5,-175,,167.5,,,,,,167.5,Poland,1
 Valeriy Akentyev,M,B,Raw,57,M4,99.3,100,,,,,,160,167.5,-175,,167.5,,,,,,167.5,Russia,2
 Petr Nosek,M,B,Raw,56,M4,99.1,100,,,,,,115,120,125,,125,,,,,,125,Czechia,3
@@ -297,7 +297,7 @@ Jason Sciacca,M,SBD,Wraps,36,O,89.1,90,250,265,275,,275,145,-152.5,-152.5,,145,2
 Christian Diaz,M,SBD,Wraps,32,O,90,90,247.5,260,-267.5,,260,152.5,-160,-160,,152.5,247.5,260,-267.5,,260,672.5,USA,6
 Andrew Merrit,M,SBD,Wraps,28,O,89,90,197.5,210,-225,,210,142.5,147.5,-150,,147.5,227.5,240,250,,250,607.5,USA,7
 Kevin Platt,M,SBD,Wraps,27,O,87.4,90,190,205,-220,,205,132.5,145,-152.5,,145,215,-232.5,-232.5,,215,565,USA,8
-Chris Jenkins,M,SBD,Wraps,35,O,89.7,90,277.5,292.5,-300,,292.5,165,-172.5,,,165,,,,,,,UK,DQ
+Chris Jenkins #7,M,SBD,Wraps,35,O,89.7,90,277.5,292.5,-300,,292.5,165,-172.5,,,165,,,,,,,UK,DQ
 Imad Bahria,M,SBD,Wraps,40,M1,89.2,90,255,275,280,285,280,135,140,-145,,140,295,305,-310,,305,725,France,1
 Daniel Sánchez,M,SBD,Wraps,41,M1,89,90,-275,275,-300,,275,145,165,172.5,,172.5,225,-267.5,,,225,672.5,Argentina,2
 Thierry le Roy,M,SBD,Wraps,42,M1,86.3,90,190,205,215,,215,140,150,-157.5,,150,230,240,-245,,240,605,France,3
@@ -462,7 +462,7 @@ Belinda Azzopardi,F,D,Raw,42,M1,81.2,82.5,,,,,,,,,,,130,-145,-145,,130,130,Austr
 Kim Welsher,F,D,Raw,50,M3,78,82.5,,,,,,,,,,,135,140,142.5,,142.5,142.5,USA,1
 Minna Pajulahti,F,D,Raw,34,O,87.9,90,,,,,,,,,,,100,,,,100,100,Finland,1
 Artemira Sobrinho,F,D,Raw,47,M2,,,,,,,,,,,,,,,,,,,Brazil,NS
-Andressa Gomes De Lima,F,D,Raw,25,O,,,,,,,,,,,,,,,,,,,Brazil,NS
+Andressa Gomes de Lima,F,D,Raw,25,O,,,,,,,,,,,,,,,,,,,Brazil,NS
 Ruth Burke,F,D,Raw,49,M2,98.2,90+,,,,,,,,,,,100,,,,100,100,Ireland,1
 Mariela Ortellado,F,D,Raw,30,O,93.3,90+,,,,,,,,,,,170,190,205,,205,205,Argentina,1
 Adriano DaCosta,M,D,Raw,52,M3,70.6,75,,,,,,,,,,,220,,,,220,220,France,1
@@ -504,7 +504,7 @@ Tomas Brabic,M,D,Raw,21,J,,,,,,,,,,,,,,,,,,,Czechia,NS
 Alexey Okunev,M,D,Raw,39,O,,,,,,,,,,,,,,,,,,,Russia,NS
 Emilio Mansilla,M,D,Raw,31,O,,,,,,,,,,,,,,,,,,,Argentina,NS
 Layla Balduino,F,D,Multi-ply,20,J,54.8,56,,,,,,,,,,,130,140,150,-160,150,150,Brazil,1
-Francieli Alves De Andrade,F,D,Multi-ply,27,O,59.5,60,,,,,,,,,,,140,145,-150,-150,145,145,Brazil,1
+Francieli Alves de Andrade,F,D,Multi-ply,27,O,59.5,60,,,,,,,,,,,140,145,-150,-150,145,145,Brazil,1
 Celine Corringer,F,D,Multi-ply,38,O,59.7,60,,,,,,,,,,,90,100,-110,110,100,100,France,2
 Eliana Jaluska,F,D,Multi-ply,30,O,65.9,67.5,,,,,,,,,,,145,-150,-150,-150,145,145,Brazil,1
 Guilherme De Lozzo Garbelini,M,D,Multi-ply,31,O,65.5,67.5,,,,,,,,,,,180,190,205,-205.5,205,205,Brazil,1

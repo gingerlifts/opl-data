@@ -8,7 +8,9 @@
 		"wraps": "Wraps",
 		"single": "Single-Ply",
 		"multi": "Multi-Ply",
-		"straps": "Strap"
+		"straps": "Strap",
+		"classic": "Classic",
+		"equipped": "Equipped"
 	},
 	"sex": {
 		"m": "E",
@@ -258,6 +260,7 @@
 			"by_glossbrenner": "Glossberner'e göre",
 			"by_ipfpoints": "By IPF Points",
 			"by_mcculloch": "McCulloch'a göre",
+			"by_nasa": "By NASA Points",
 			"by_wilks": "Wilks'e göre",
 			"by_division": "By Division",
 			"weight": "Ağırlık Değerlendirmeleri",
@@ -288,6 +291,8 @@
 			"all_usa": "All United States Lifters",
 			"all_argentina": "All Argentinian Lifters",
 			"all_australia": "All Australian Lifters",
+			"all_belarus": "All Belarusian Lifters",
+			"all_brazil": "All Brazilian Lifters",
 			"all_canada": "All Canadian Lifters",
 			"all_china": "All Chinese Lifters",
 			"all_croatia": "All Croatian Lifters",
@@ -299,6 +304,7 @@
 			"all_iceland": "All Icelandic Lifters",
 			"all_ireland": "All Irish Lifters",
 			"all_israel": "All Israeli Lifters",
+			"all_italy": "All Italian Lifters",
 			"all_kazakhstan": "All Kazakh Lifters",
 			"all_latvia": "All Latvian Lifters",
 			"all_newzealand": "All New Zealand Lifters",
@@ -320,7 +326,7 @@
 		}
 	},
 	"lifter_page": {
-		"personal_bests": "Personal Bests",
-		"competition_results": "Competition Results"
+		"personal_bests": "Kişisel En İyi Dereceleri",
+		"competition_results": "Müsabaka Sonuçları"
 	}
 }

@@ -70,7 +70,7 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Best3BenchKg,Benc
 3,Maeyens,M2,Belgium,,130,,90,,205,,425,82.5,M,SBD,Single-ply
 1,Edwin Angstrom,M3,USA,,192.5,,147.5,,205,,545,82.5,M,SBD,Single-ply
 1,Bill Ramsrud,M5,USA,,192.5,,107.5,,230,,530,82.5,M,SBD,Single-ply
-2,John Gallacher,M5,UK,,180,,100,,235,,515,82.5,M,SBD,Single-ply
+2,John Gallacher #1,M5,UK,,180,,100,,235,,515,82.5,M,SBD,Single-ply
 3,D'aversa,M5,Italy,,150,,127.5,,170,,447.5,82.5,M,SBD,Single-ply
 1,Martin Donovan,J,UK,,300,,180,,300,,780,90,M,SBD,Single-ply
 2,Lewis,J,UK,,295,,192.5,,292.5,,780,90,M,SBD,Single-ply
@@ -124,7 +124,7 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Best3BenchKg,Benc
 7,John Neighbour,O,UK,,285,,220,,280,,785,110,M,SBD,Single-ply
 8,Puymbroeck,O,Belgium,,275,,170,,260,,705,110,M,SBD,Single-ply
 1,Rick Cornett,M1,USA,,395,,210,,282.5,,887.5,110,M,SBD,Single-ply
-2,Wysocki,M1,USA,,292.5,,202.5,,272.5,,767.5,110,M,SBD,Single-ply
+2,Leo Wysocki,M1,USA,,292.5,,202.5,,272.5,,767.5,110,M,SBD,Single-ply
 3,H Van Wyk,M1,South Africa,,292.5,,170,,287.5,,750,110,M,SBD,Single-ply
 1,Seabrook,M4,USA,,240,,140,,232.5,,612.5,110,M,SBD,Single-ply
 1,Pardee,M5,USA,,170,,120,,197.5,,487.5,110,M,SBD,Single-ply
@@ -138,7 +138,7 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Best3BenchKg,Benc
 DQ,Balance,O,Canada,,295,,197.5,,,,,125,M,SBD,Single-ply
 1,E. Mohan,M1,USA,,327.5,,202.5,,295,,825,125,M,SBD,Single-ply
 1,David Carter #1,M2,UK,,347.5,,155,,360,,862.5,125,M,SBD,Single-ply
-2,Stevans,M2,USA,,332.5,,192.5,,295,,820,125,M,SBD,Single-ply
+2,Glen Stevans,M2,USA,,332.5,,192.5,,295,,820,125,M,SBD,Single-ply
 3,Liss,M2,USA,,237.5,,155,,142.5,,535,125,M,SBD,Single-ply
 1,Mike Brown,M3,UK,,270,,130,,300,,700,125,M,SBD,Single-ply
 1,Peter Tregloan,O,UK,,375,,237.5,,367.5,,980,140,M,SBD,Single-ply
