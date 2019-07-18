@@ -1,4 +1,4 @@
-WeightClassKg,Division,Sex,Name,Age,BodyweightKg,State,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place,Squat1LB,Squat2LB,Squat3LB,Bench1LB,Bench2LB,Bench3LB,Deadlift1LB,Deadlift2LB,Deadlift3LB
+WeightClassKg,Division,Sex,Name,Age,BodyweightKg,State,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place,Squat1Kg,Squat2Kg,Squat3Kg,Bench1Kg,Bench2Kg,Bench3Kg,Deadlift1Kg,Deadlift2KgB,Deadlift3Kg
 56,Juniors,F,Lauren Novero,22,55.79,Ar,74.84,34.02,99.79,208.65,SBD,Wraps,1,,,,,,,,,
 48,Open,F,Lauren Mitchell,28,47.17,Tn,102.06,34.02,102.06,238.14,SBD,Wraps,1,,,,,,,,,
 67.5,Submasters,F,Sarah Newman,36,66.22,Ar,102.06,45.36,113.4,260.82,SBD,Wraps,1,,,,,,,,,
@@ -13,7 +13,7 @@ WeightClassKg,Division,Sex,Name,Age,BodyweightKg,State,Best3SquatKg,Best3BenchKg
 67.5,Teenage 16-17,M,Tucker Russell,16,67.13,Ar,170.1,108.86,165.56,444.52,SBD,Wraps,1,,,,,,,,,
 82.5,Teenage 16-17,M,Keeton Jones,16,81.19,Ar,158.76,113.4,206.38,478.54,SBD,Wraps,1,,,,,,,,,
 100,Teenage 16-17,M,Jared Sheperd,17,99.79,Ar,195.04,136.08,238.14,569.26,SBD,Wraps,1,,,,,,,,,
-100,Teenage 18-19,M,Trystan Oakley,19,98.43,Ar,240.4,154.22,249.48,644.1,SBD,Wraps,1,475,495,530,320,340,-350,520,550,-585
+100,Teenage 18-19,M,Trystan Oakley,19,98.43,Ar,240.4,154.22,249.48,644.1,SBD,Wraps,1,215.46,224.53,240.40,145.15,154.22,-158.76,235.87,249.48,-265.35
 82.5,Teenage 18-19,M,Clayton Harrell,19,78.93,Ar,156.49,97.52,197.31,451.32,SBD,Wraps,1,,,,,,,,,
 90,Juniors,M,Douglas Mattews,20,89.81,Ar,235.87,140.61,238.14,614.62,SBD,Wraps,1,,,,,,,,,
 90,Juniors,M,Xue Yan,22,86.64,Tn,188.24,124.74,233.6,546.58,SBD,Wraps,2,,,,,,,,,
