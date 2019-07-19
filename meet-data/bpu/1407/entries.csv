@@ -1,4 +1,10 @@
 Name,Sex,Country,Division,Tested,Event,Equipment,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place
+Elizabeth Collins,F,UK,F_M2_R_BPU,No,D,Raw,55,56,,,,,,,,,,,,,105,105,1
+Monique Amy Newton,F,UK,F_J_R_BPU,No,D,Raw,56,56,,,,,,,,,,,,,115,115,1
+Michael Phipps,M,UK,M_O_R_BPU,No,D,Raw,63.5,67.5,,,,,,,,,,,,,160,160,1
+Daniella Scozzi,F,UK,F_M2_R_BPU,No,D,Raw,71.9,75,,,,,,,,,,,160,170,-180,170,1
+Dale Humphreys,M,UK,M_J_R_BPU,No,B,Raw,65.65,67.5,,,,,,,,,215,,,,,215,1
+John Antrobus,M,UK,M_O_S_BPU,No,B,Single-ply,87.4,90,,,,,,,,,220,,,,,220,1
 Nicola Bennett,F,UK,F_J_R_BPU,No,SBD,Raw,59.6,60,80,-95,-95,80,50,55,-57.5,,55,110,117.5,-120,117.5,252.5,1
 Joanna Halliday,F,UK,F_O_R_BPU,No,SBD,Raw,59.6,60,60,,,60,50,,,,50,100,,,100,210,1
 Emmy Louise,F,UK,F_O_R_BPU,No,SBD,Raw,51.7,52,90,105,110,110,65,-75,-75,,65,135,150,-160,150,325,1
