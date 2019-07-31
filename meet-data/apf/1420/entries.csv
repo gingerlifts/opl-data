@@ -1,4 +1,4 @@
-Lifter,WeightClassKg,Sex,Age,Equipment,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Place
+Name,WeightClassKg,Sex,Age,Equipment,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Place
 Miranda Colbert,67.5,F,19,Raw,F_TR_3_APF,136.08,52.16,113.4,301.64,SBD,1
 Diane Gmiter,82.5,F,,Raw,F_OR_APF,170.1,92.99,165.56,428.64,SBD,1
 Shawn Smith,67.5,M,,Raw,M_OR_APF,149.69,63.5,181.44,394.63,SBD,1
