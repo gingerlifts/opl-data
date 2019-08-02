@@ -11,7 +11,7 @@ Place,Name,Age,Division,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3K
 3,Linda Radel,47,F-OR,F,55.2,56,55,62.5,-65,,62.5,117.5,125,130,,130,192.5,Australia,BD,Raw
 4,Tomica Robertson,36,F-OR,F,53.3,56,40,-45,-45,,40,100,107.5,115,,115,155,Australia,BD,Raw
 1,Bec Giles,30,F-OR,F,59.6,60,75,80,85,,85,145,155,160,-167.5,160,245,Australia,BD,Raw
-2,Lauren Green,36,F-OR,F,59.7,60,75,80,-85,,80,140,150,-160,,150,230,Australia,BD,Raw
+2,Lauren Green #1,36,F-OR,F,59.7,60,75,80,-85,,80,140,150,-160,,150,230,Australia,BD,Raw
 3,Shea Baker,27,F-OR,F,59.4,60,65,70,-77.5,,70,120,130,137.5,,137.5,207.5,Australia,BD,Raw
 4,Amy Binder,31,F-OR,F,57.7,60,47.5,52.5,-57.5,,52.5,115,125,132.5,,132.5,185,Australia,BD,Raw
 5,Emma Thow,21,F-OR,F,59.6,60,55,-60,-60,,55,120,125,130,,130,185,Australia,BD,Raw
@@ -81,7 +81,7 @@ DQ,Kiara Small,26,F-OR,F,79.75,82.5,-70,-75,-75,,,145,155,-160,,155,,Australia,B
 6,Brad McMahon,31,M-OR,M,73.7,75,-105,112.5,122.5,,122.5,200,210,-220,,210,332.5,Australia,BD,Raw
 7,Wesley Vick,23,M-OR,M,74.5,75,105,110,-115,,110,190,200,-205,,200,310,Australia,BD,Raw
 8,Beau Rutherford,25,M-OR,M,73.4,75,115,-120,-120,,115,180,190,-200,,190,305,Australia,BD,Raw
-9,Jax Wearing,30,M-OR,M,74.8,75,100,105,110,,110,160,170,180,,180,290,Australia,BD,Raw
+9,Jaxson Wearing,30,M-OR,M,74.8,75,100,105,110,,110,160,170,180,,180,290,Australia,BD,Raw
 10,Jake Attard,16,M-OR,M,73.6,75,85,95,100.5,105,100.5,140,155,-160,,155,255,Australia,BD,Raw
 11,Michael Watt,34,M-OR,M,74.5,75,140,147.5,-153,,147.5,,,,,,147.5,Australia,B,Raw
 1,Yianni Magoulias,25,M-OR,M,78.25,82.5,150,160,-165,,160,280,-300,-300,,280,440,Australia,BD,Raw
@@ -132,7 +132,7 @@ DQ,Kiara Small,26,F-OR,F,79.75,82.5,-70,-75,-75,,,145,155,-160,,155,,Australia,B
 20,Trent Andersen,26,M-OR,M,88.5,90,135,142.5,-145,,142.5,200,212.5,-220,,212.5,355,Australia,BD,Raw
 21,Wes Horan,34,M-OR,M,84.8,90,135,142.5,-145,,142.5,185,200,210,,210,352.5,Australia,BD,Raw
 22,Franco Steenkamp,18,M-OR,M,87.3,90,112.5,120,-125,,120,200,225,,,225,345,South Africa,BD,Raw
-23,Matt Wilson,46,M-OR,M,87.7,90,110,117.5,120,,120,200,210,220,,220,340,Australia,BD,Raw
+23,Matt Wilson #6,46,M-OR,M,87.7,90,110,117.5,120,,120,200,210,220,,220,340,Australia,BD,Raw
 24,Jack Delaney,24,M-OR,M,90,90,112.5,120,-125,,120,200,220,-230,,220,340,Australia,BD,Raw
 25,Patrick Brownlie,23,M-OR,M,86,90,127.5,135,145,,145,170,185,190,,190,335,Australia,BD,Raw
 26,Harely Taylor,24,M-OR,M,89.2,90,110,-115,-115,,110,220,-235,-235,,220,330,Australia,BD,Raw

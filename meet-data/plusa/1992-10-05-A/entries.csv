@@ -104,7 +104,7 @@ B. Warner,67.5,Police & Fire,M,187.5,187.5,D,Single-ply,2
 J. Fiorelli,67.5,Submasters,M,150,150,D,Single-ply,1
 N. Theodorou,67.5,Masters 40-44,M,237.5,237.5,D,Single-ply,1
 Bob Warner,67.5,Masters 45-49,M,187.5,187.5,D,Single-ply,1
-Idalo Bonacci,67.5,Masters 45-49,M,175,175,D,Single-ply,2
+Italo Bonacci,67.5,Masters 45-49,M,175,175,D,Single-ply,2
 Gary Morrison,67.5,Masters 45-49,M,157.5,157.5,D,Single-ply,3
 C. Prokocimer,67.5,Masters 45-49,M,155,155,D,Single-ply,4
 Russ Dodson,67.5,Masters 50-54,M,172.5,172.5,D,Single-ply,1
@@ -123,7 +123,7 @@ Dave Wedding,75,Lifetime,M,237.5,237.5,D,Single-ply,3
 R. Solo,75,Lifetime,M,200,200,D,Single-ply,4
 L. Weizer,75,Lifetime,M,200,200,D,Single-ply,5
 V. Cosenza,75,Lifetime,M,192.5,192.5,D,Single-ply,6
-B. Legg,75,Lifetime,M,185,185,D,Single-ply,7
+Bob Legg,75,Lifetime,M,185,185,D,Single-ply,7
 A. Orlando,75,Lifetime,M,182.5,182.5,D,Single-ply,8
 J. Gray,75,Teen 14-15,M,112.5,112.5,D,Single-ply,1
 P. Dipaola,75,Teen 16-17,M,242.5,242.5,D,Single-ply,1
@@ -134,7 +134,7 @@ R. DeJeoin,75,Collegiate,M,237.5,237.5,D,Single-ply,1
 J. Stratman,75,Collegiate,M,235,235,D,Single-ply,2
 J. Rosato,75,Collegiate,M,212.5,212.5,D,Single-ply,3
 D. Wedding,75,Police & Fire,M,237.5,237.5,D,Single-ply,1
-B. Legg,75,Police & Fire,M,185,185,D,Single-ply,2
+Bob Legg,75,Police & Fire,M,185,185,D,Single-ply,2
 V. Lanza,75,Submasters,M,255,255,D,Single-ply,1
 E. Gillen,75,Submasters,M,242.5,242.5,D,Single-ply,2
 K. Buddie,75,Submasters,M,237.5,237.5,D,Single-ply,3
@@ -144,7 +144,7 @@ J. Misiaczek,75,Submasters,M,175,175,D,Single-ply,6
 Gary Hoxworth,75,Masters 40-44,M,222.5,222.5,D,Single-ply,1
 Greg Norman,75,Masters 40-44,M,207.5,207.5,D,Single-ply,2
 M. Rosewald,75,Masters 40-44,M,192.5,192.5,D,Single-ply,3
-B. Legg,75,Masters 40-44,M,185,185,D,Single-ply,4
+Bob Legg,75,Masters 40-44,M,185,185,D,Single-ply,4
 F. D'Amato,75,Masters 40-44,M,167.5,167.5,D,Single-ply,5
 C. Donald,75,Masters 45-49,M,230,230,D,Single-ply,1
 F. Kenyon,75,Masters 45-49,M,190,190,D,Single-ply,2
@@ -153,7 +153,7 @@ Bob Bendel,75,Masters 65-69,M,175,175,D,Single-ply,1
 D. Thompson,75,Special Olypmics,M,147.5,147.5,D,Single-ply,1
 Todd Russell,82.5,Open,M,260,260,D,Single-ply,1
 John Flaherty,82.5,Open,M,250,250,D,Single-ply,2
-Michael Rachmiel,82.5,Open,M,250,250,D,Single-ply,3
+Mike Rachmiel,82.5,Open,M,250,250,D,Single-ply,3
 A. Johnson,82.5,Open,M,237.5,237.5,D,Single-ply,4
 J. Rizzuto,82.5,Open,M,230,230,D,Single-ply,5
 D. Quinones,82.5,Open,M,212.5,212.5,D,Single-ply,6
@@ -162,7 +162,7 @@ Jerry Szigethy,82.5,Lifetime,M,292.5,292.5,D,Single-ply,1
 Todd Russell,82.5,Lifetime,M,260,260,D,Single-ply,2
 Robert Fisher,82.5,Lifetime,M,250,250,D,Single-ply,3
 John Flaherty,82.5,Lifetime,M,250,250,D,Single-ply,4
-Michael Rachmiel,82.5,Lifetime,M,250,250,D,Single-ply,5
+Mike Rachmiel,82.5,Lifetime,M,250,250,D,Single-ply,5
 A. Johnson,82.5,Lifetime,M,237.5,237.5,D,Single-ply,6
 G. Cork,82.5,Lifetime,M,235,235,D,Single-ply,7
 B. Wood,82.5,Lifetime,M,227.5,227.5,D,Single-ply,8
@@ -187,7 +187,7 @@ S. Rotenberg,82.5,Masters 40-44,M,217.5,217.5,D,Single-ply,4
 T. Hauprich,82.5,Masters 40-44,M,210,210,D,Single-ply,5
 Ted Butler,82.5,Masters 45-49,M,245,245,D,Single-ply,1
 Er. Johnson,82.5,Masters 45-49,M,205,205,D,Single-ply,2
-Rob DeRisi,82.5,Masters 50-54,M,205,205,D,Single-ply,1
+Robert DeRisi Sr,82.5,Masters 50-54,M,205,205,D,Single-ply,1
 Don Levesque,82.5,Masters 60-64,M,235,235,D,Single-ply,1
 D. Ginenthal,82.5,Masters 60-64,M,192.5,192.5,D,Single-ply,2
 Ron Reuther,90,Open,M,260,260,D,Single-ply,1
@@ -220,7 +220,7 @@ D. Johnson,90,Masters 40-44,M,212.5,212.5,D,Single-ply,3
 Fred Rice,90,Masters 45-49,M,285,285,D,Single-ply,5
 B. Ennis,90,Masters 45-49,M,255,255,D,Single-ply,1
 L. Blum,90,Masters 45-49,M,255,255,D,Single-ply,2
-R. Cote,90,Masters 45-49,M,250,250,D,Single-ply,3
+Roland Cote,90,Masters 45-49,M,250,250,D,Single-ply,3
 K. Fidler,90,Masters 45-49,M,205,205,D,Single-ply,4
 J. Berbein,90,Masters 50-54,M,230,230,D,Single-ply,1
 Burt Rosenfield,90,Masters 60-64,M,212.5,212.5,D,Single-ply,1
@@ -234,7 +234,7 @@ Patrick Tyring,100,Open,M,295,295,D,Single-ply,5
 C. Meyer,100,Open,M,292.5,292.5,D,Single-ply,6
 J. King,100,Open,M,287.5,287.5,D,Single-ply,7
 C. Marshall,100,Open,M,272.5,272.5,D,Single-ply,8
-J. Polvinale,100,Open,M,272.5,272.5,D,Single-ply,9
+Joe Polvinale,100,Open,M,272.5,272.5,D,Single-ply,9
 R. Birch,100,Open,M,265,265,D,Single-ply,10
 G. Costello,100,Open,M,260,260,D,Single-ply,11
 R. Roach,100,Open,M,250,250,D,Single-ply,12

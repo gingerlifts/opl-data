@@ -11,9 +11,9 @@ B. Olson,90,Division 1,M,Denver,280,192.5,252.5,725,SBD,Single-ply,1
 Joe Dentice,90,Division 1,M,Columbus,267.5,175,277.5,720,SBD,Single-ply,2
 Bob Boyles,90,Division 1,M,Des Moines,272.5,172.5,250,695,SBD,Single-ply,3
 J. Sommer,90,Division 1,M,Columbus,240,155,245,640,SBD,Single-ply,4
-J. Sabonis,100,Division 1,M,Dallas,307.5,192.5,327.5,827.5,SBD,Single-ply,1
+Jim Sabonis,100,Division 1,M,Dallas,307.5,192.5,327.5,827.5,SBD,Single-ply,1
 R. Hussey,100,Division 1,M,Des Moines,302.5,182.5,287.5,772.5,SBD,Single-ply,2
-N. Burich,100,Division 1,M,Denver,272.5,172.5,257.5,702.5,SBD,Single-ply,3
+Nick Burich,100,Division 1,M,Denver,272.5,172.5,257.5,702.5,SBD,Single-ply,3
 Van Duren,100,Division 1,M,Des Moines,265,145,250,660,SBD,Single-ply,4
 D. Worley,100,Division 1,M,Denver,250,120,210,580,SBD,Single-ply,5
 G. Williams,110,Division 1,M,Denver,245,192.5,290,727.5,SBD,Single-ply,1
@@ -58,8 +58,8 @@ T. Vickers,56,Division 3,M,Columbus,152.5,105,180,437.5,SBD,Single-ply,4
 A. Chua,56,Division 3,M,Des Moines,155,77.5,167.5,400,SBD,Single-ply,5
 C. Burton,56,Division 3,M,Dallas,137.5,95,147.5,380,SBD,Single-ply,6
 L. Auchuleta,56,Division 3,M,Des Moines,102.5,70,102.5,275,SBD,Single-ply,7
-Edmondson,60,Division 3,M,Denver,212.5,122.5,200,535,SBD,Single-ply,1
-D. Niguyen,60,Division 3,M,Des Moines,195,127.5,207.5,530,SBD,Single-ply,2
+Dave Edmondson,60,Division 3,M,Denver,212.5,122.5,200,535,SBD,Single-ply,1
+D. Nguyen,60,Division 3,M,Des Moines,195,127.5,207.5,530,SBD,Single-ply,2
 D. Sisney,60,Division 3,M,Denver,190,122.5,210,522.5,SBD,Single-ply,3
 N. Romero,60,Division 3,M,Des Moines,175,117.5,182.5,475,SBD,Single-ply,4
 C. Hild,60,Division 3,M,Des Moines,175,125,160,460,SBD,Single-ply,5
@@ -168,7 +168,7 @@ R. Brown #7,125,Division 3,M,Denver,272.5,190,295,757.5,SBD,Single-ply,3
 M. Pigg,125,Division 3,M,Denver,320,145,272.5,737.5,SBD,Single-ply,4
 M. Hamond,125,Division 3,M,Dallas,285,160,260,705,SBD,Single-ply,5
 B. Winters,125,Division 3,M,Denver,182.5,120,170,472.5,SBD,Single-ply,6
-D. McCain,125+,Division 3,M,Des Moines,362.5,220,310,892.5,SBD,Single-ply,1
+Dan McCain,125+,Division 3,M,Des Moines,362.5,220,310,892.5,SBD,Single-ply,1
 J. Maddy,125+,Division 3,M,Denver,345,285,232.5,862.5,SBD,Single-ply,2
 BJ Rozzi,125+,Division 3,M,Columbus,195,152.5,242.5,590,SBD,Single-ply,3
 D. Lillie,125+,Division 3,M,Columbus,197.5,140,220,557.5,SBD,Single-ply,4

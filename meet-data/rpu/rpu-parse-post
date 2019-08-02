@@ -14,7 +14,7 @@ SCRIPTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 REPOSCRIPTDIR="${SCRIPTDIR}/../../scripts"
 REPOTESTSDIR="${SCRIPTDIR}/../../tests"
 
-${SCRIPTDIR}/rpu-standardize-csv results.csv > entries.csv
+${SCRIPTDIR}/rpu-standardize-csv original.csv > entries.csv
 
 ${REPOSCRIPTDIR}/calc-best-lifts entries.csv
 ${REPOSCRIPTDIR}/calc-latin-names entries.csv
@@ -26,6 +26,7 @@ sed -i -e 's/,0\.0,/,,/g' entries.csv
 sed -i -e 's/,0\.0,/,,/g' entries.csv
 
 cp ${SCRIPTDIR}/../meet.template meet.csv
+echo "RPU,,Russia,,," >> meet.csv
 
 # Show any warnings.
 ${REPOTESTSDIR}/check

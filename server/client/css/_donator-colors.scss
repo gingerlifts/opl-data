@@ -29,10 +29,6 @@
   @include name-color(#FFB6C1);
 }
 
-.limegreen {
-  @include name-color(#32CD32);
-}
-
 .purple {
   @include name-color(#AE76FF);
 }
@@ -49,8 +45,20 @@
   @include name-color(#11782f);
 }
 
+.emeraldgreen {
+  @include name-color(#50C878);
+}
+
+.limegreen {
+  @include name-color(#32CD32);
+}
+
 .neongreen {
   @include name-color(#39ff14);
+}
+
+.olivegreen {
+  @include name-color(#556B2F);
 }
 
 .lightblue {
@@ -67,6 +75,10 @@
 
 .red {
   @include name-color(#FB3640);
+}
+
+.cranberryred {
+  @include name-color(#9C0045);
 }
 
 .orange {
@@ -152,6 +164,13 @@
   $gold: #FFD700;
   @include gradient-prereqs($gold);
   background-image: linear-gradient(to right, $blue, $gold);
+}
+
+.blue_to_lightblue {
+  $blue: #507CFF;
+  $lightblue: #43D1FF;
+  @include gradient-prereqs($lightblue);
+  background-image: linear-gradient(to right, $blue, $lightblue);
 }
 
 .blue_to_yellow {
@@ -247,6 +266,13 @@
       #e399ae, #d09bbd, #c799bf,
       #bc98c0, #b296c0, #b28fbc,
       #b387b7, #b580b1, #b678ab);
+}
+
+.red_to_purple {
+  $red: #FB3640;
+  $purple: #AE76FF;
+  @include gradient-prereqs($red);
+  background-image: linear-gradient(to right, $red, $purple);
 }
 
 .red_to_yellow {
