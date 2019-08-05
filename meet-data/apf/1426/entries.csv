@@ -31,7 +31,7 @@ Hari Nandagopal,24,M_OR_AAPF,96.3,100,102.5,110,112.5,112.5,,,,,112.5,1,M,Raw,Ye
 Matt Mattoon,30,M_OR_AAPF,104.7,110,170,177.5,185,185,,,,,185,1,M,Raw,Yes,B
 Kevin McHugh,25,M_OR_AAPF,138,140,165,177.5,182.5,182.5,,,,,182.5,1,M,Raw,Yes,B
 James Briggs,56,M_MR_4_APF,89,90,132.5,-145,145,145,,,,,145,1,M,Raw,,B
-Don Machalinski,50,M_MR_4_APF,81.4,82.5,102.5,110,-115,110,,,,,110,2,M,Raw,,B
+Don Machalinski,50,M_MR_3_APF,81.4,82.5,102.5,110,-115,110,,,,,110,2,M,Raw,,B
 Ken Bram,48,M_MR_2_APF,66.2,67.5,142.5,150,,150,,,,,150,1,M,Raw,,B
 Dennis Liberti,45,M_MR_2_APF,89.2,90,167.5,175,-177.5,175,,,,,175,2,M,Raw,,B
 Michael Gell,45,M_MR_2_APF,135.5,140,160,167.5,-172.5,167.5,,,,,167.5,3,M,Raw,,B
@@ -53,14 +53,13 @@ Nicolas Lepine,31,M_OR_APF,125,125,150,167.5,-177.5,167.5,,,,,167.5,2,M,Raw,,B
 Kevin McHugh,25,M_OR_APF,138,140,165,177.5,182.5,182.5,,,,,182.5,1,M,Raw,,B
 Michael Gell,45,M_OR_APF,135.5,140,160,167.5,-172.5,167.5,,,,,167.5,2,M,Raw,,B
 Ryan DePew,29,M_OR_APF,126,140,-157.5,162.5,-177.5,162.5,,,,,162.5,3,M,Raw,,B
-Vince Tindal,33,M_OR_APF,143,SHW,200,217.5,-227.5,217.5,,,,,217.5,1,M,Raw,,B
+Vince Tindal,33,M_OR_APF,143,140+,200,217.5,-227.5,217.5,,,,,217.5,1,M,Raw,,B
 Thomas Grimm,65,M_MEM_6_AAPF,119.9,125,115,122.5,127.5,127.5,,,,,127.5,1,M,Multi-ply,Yes,B
-Paul Rupright,59,M_MEM_5_AAPF,154.3,SHW,-225,225,-237.5,225,,,,,225,1,M,Multi-ply,Yes,B
+Paul Rupright,59,M_MEM_5_AAPF,154.3,140+,-225,225,-237.5,225,,,,,225,1,M,Multi-ply,Yes,B
 James Briggs,56,M_MEM_4_AAPF,89,90,132.5,167.5,172.5,172.5,,,,,172.5,1,M,Multi-ply,Yes,B
 James Briggs,56,M_MEM_4_APF,89,90,132.5,167.5,172.5,172.5,,,,,172.5,1,M,Multi-ply,,B
-Jacques Avery,28,M_OR_AAPF,,,,,,,,,,,,DQ,M,Raw,Yes,B
 Mary Grimm,62,F_MR_5_AAPF,54.5,56,,,,,75,82.5,87.5,87.5,87.5,1,F,Raw,Yes,D
-Sarah Currie,33,F_OR_AAPF,111.6,SHW,,,,,115,137.5,155,155,155,1,F,Raw,Yes,D
+Sarah Currie,33,F_OR_AAPF,111.6,90+,,,,,115,137.5,155,155,155,1,F,Raw,Yes,D
 Alexandra Perry,24,F_OR_APF,59.8,60,,,,,120,130,-137.5,130,130,1,F,Raw,,D
 Alex Vallejo,49,F_MEM_2_AAPF,51.3,52,,,,,112.5,125,-127.5,125,125,1,F,Multi-ply,Yes,D
 Michael Mingey,36,M_SR_AAPF,98.4,100,,,,,237.5,250,,250,250,1,M,Raw,Yes,D
@@ -101,7 +100,7 @@ Nicolas Lepine,31,M_OR_APF,125,125,,,,,275,292.5,300,300,300,1,M,Raw,,D
 Erik Schlick,31,M_OR_APF,120.1,125,,,,,277.5,292.5,-302.5,292.5,292.5,2,M,Raw,,D
 Kevin McHugh,25,M_OR_APF,138,140,,,,,287.5,307.5,-312.5,307.5,307.5,1,M,Raw,,D
 Ryan DePew,29,M_OR_APF,126,140,,,,,200,205,210,210,210,2,M,Raw,,D
-Vince Tindal,33,M_OR_APF,143,SHW,,,,,235,,,235,235,1,M,Raw,,D
+Vince Tindal,33,M_OR_APF,143,140+,,,,,235,,,235,235,1,M,Raw,,D
 Gary Dingle,63,M_MEM_5_AAPF,92.5,100,,,,,260,272.5,,272.5,272.5,1,M,Multi-ply,Yes,D
 Greg Zweig,55,M_MEM_4_AAPF,80.4,82.5,,,,,257.5,267.5,-272.5,267.5,267.5,1,M,Multi-ply,Yes,D
 Greg Zweig,55,M_OEM_AAPF,80.4,82.5,,,,,257.5,267.5,-272.5,267.5,267.5,1,M,Multi-ply,Yes,D
@@ -110,4 +109,3 @@ Greg Zweig,55,M_MEM_4_APF,80.4,82.5,,,,,257.5,267.5,-272.5,267.5,267.5,1,M,Multi
 Don Power,41,M_MEM_1_APF,119,125,,,,,227.5,250,272.5,272.5,272.5,1,M,Multi-ply,,D
 Greg Zweig,55,M_OEM_APF,80.4,82.5,,,,,257.5,267.5,-272.5,267.5,267.5,1,M,Multi-ply,,D
 Don Powers,41,M_OEM_APF,119,125,,,,,227.5,250,272.5,272.5,272.5,1,M,Multi-ply,,D
-Jacques Avery,28,M_OR_AAPF,,,,,,,,,,,,DQ,M,Raw,Yes,D
