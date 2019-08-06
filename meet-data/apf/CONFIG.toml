@@ -652,3 +652,4 @@
     0702 = ["ExemptWeightClassConsistency"] # A Forezzi in 48 class with no BW
     0402 = ["ExemptWeightClassConsistency"] # Missing weightclasses
     1551 = ["ExemptWeightClassConsistency"] # Different High School weightclasses
+    1429 = ["ExemptBest3SquatKg","ExemptBest3BenchKg","ExemptBest3DeadliftKg"] # Only Event and TotalKg were reported
