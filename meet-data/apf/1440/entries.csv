@@ -1,4 +1,4 @@
-Name,Age,Division,BodyweightKg,WeightClassKg, Squat  1, Squat  2, Squat  3,Best Squat,Bench 1,Bench 2,Bench 3,Best Bench,Deadlift 1,Deadlift 2,Deadlift 3,Best Deadlift,PL Total,Place,Sex,Equipment,Event
+Name,Age,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Sex,Equipment,Event
 Sarah Marie Parker,21,F_JR_APF,89.8,90,77.5,85,-100,85,37.5,47.5,-55,47.5,87.5,102.5,117.5,117.5,250,1,F,Raw,SBD
 Kristie Almeida,25,F_OR_APF,58.8,60,62.5,-72.5,-72.5,62.5,37.5,42.5,47.5,47.5,90,100,110,110,220,1,F,Raw,SBD
 Ashley Cooper,26,F_OR_APF,64,67.5,137.5,142.5,147.5,147.5,92.5,102.5,-107.5,102.5,142.5,165,175,175,425,1,F,Raw,SBD
@@ -43,7 +43,7 @@ Shawn Anthony Washington,32,M_OR_APF,87.4,90,,,,,147.5,160,-182.5,160,,,,,,1,M,R
 Brandon Smith,35,M_OR_APF,107.8,110,,,,,232.5,252.5,257.5,257.5,,,,,,1,M,Raw,B
 Nicky Cafaro,50,M_MEM_3_APF,74.4,75,,,,,92.5,100,105,105,,,,,,1,M,Multi-ply,B
 Greg Jurkowski,50,M_MEM_3_APF,124,125,,,,,200,217.5,-227.5,217.5,,,,,,1,M,Multi-ply,B
-Jonathan Gade ,48,M_MEM_2_APF,127,140,,,,,182.5,205,-227.5,205,,,,,,1,M,Multi-ply,B
+Jonathan Gade,48,M_MEM_2_APF,127,140,,,,,182.5,205,-227.5,205,,,,,,1,M,Multi-ply,B
 Jonathan Gade,48,M_OEM_APF,127,140,,,,,182.5,205,-227.5,205,,,,,,1,M,Multi-ply,B
 Mark DeGovanni,35,M_OR_APF,,,,,,,,,,,,,,,,DQ,M,Raw,B
 John Ervien,56,M_MR_4_APF,,,,,,,,,,,,,,,,DQ,M,Raw,B
