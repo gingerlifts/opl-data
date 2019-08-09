@@ -55,7 +55,7 @@ Barrett Parks,M,M_MR_2_AAPF,Raw,100,209.79,155.59,204.71,570.08,SBD,Yes,2
 Shawna Purall,F,F_SR_APF,Raw,75,129.95,97.39,182.34,409.68,SBD,,1
 Kelsie Raddas,F,F_OR_AAPF,Raw,67.5,97.24,54.98,119.98,272.19,SBD,Yes,1
 Kayla Richey,F,F_TR_1_AAPF,Raw,67.5,,39.92,92.4,132.31,BD,Yes,1
-Kelly Riskey,F,F_SR_AAPF,Raw,90+,,,,0,SBD,Yes,1
+Kelly Riskey,F,F_SR_AAPF,Raw,90+,,,,,SBD,Yes,DQ
 Larry Riskey,M,M_OR_AAPF,Raw,140,,157.4,147.42,304.81,BD,Yes,1
 Broc Riskey,M,M_TR_1_AAPF,Raw,82.5,,57.47,122.47,179.94,BD,Yes,1
 Ramin Robinson,M,M_OR_AAPF,Raw,67.5,144.92,122.47,167.38,434.77,SBD,Yes,1
@@ -74,4 +74,4 @@ Marc Tomlinson,M,M_MR_5_APF,Raw,82.5,,112.49,,112.49,B,,1
 Ronald White,M,M_MR_7_AAPF,Raw,82.5,,69.97,84.91,154.88,BD,Yes,1
 Kris Woods,M,M_TEM_3_AAPF,Multi-ply,90,227.48,147.42,229.97,604.87,SBD,Yes,1
 Leman Woodley,F,F_MR_1_APF,Raw,90,,,282.13,282.13,D,,1
-Abraham ,M,M_MR_1_APF,Raw,100,,124.74,,124.74,B,,1
+Abraham,M,M_MR_1_APF,Raw,100,,124.74,,124.74,B,,1
