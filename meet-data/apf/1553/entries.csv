@@ -1,4 +1,4 @@
-﻿Place,Name,BirthDate,BodyweightKg,WeightClassKg,Equipment,Sex,Team,Division,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event
+Place,Name,BirthYear,BodyweightKg,WeightClassKg,Equipment,Sex,Team,Division,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event
 1,Bianca Voitek,1985,60,60,Raw,F,CZE,F_OR_WPC,,,,,-75,-77.5,77.5,77.5,,,,,77.5,B
 2,Dominika Novotná,1988,59,60,Raw,F,CZE,F_OR_WPC,,,,,72.5,-75,-75,72.5,,,,,72.5,B
 1,Miroslava Herčková,1979,64.9,67.5,Raw,F,SVK,F_OR_WPC,,,,,95,-102.5,102.5,102.5,,,,,102.5,B
@@ -48,7 +48,7 @@ DQ,Rankyn Freyded,1975,188,140+,Multi-ply,M,ESP,M_OEM_WPC,,,,,-300,-305,-305,,,,
 1,Sebastian Balner,1973,106.5,110,Multi-ply,M,POL,M_MEM_1_WPC,,,,,220,230,-240,230,,,,,230,B
 1,Sebastian Balner,1973,106.5,110,Raw,M,POL,M_MR_1_WPC,,,,,170,185,-195,185,,,,,185,B
 1,Lajos Kovács,1971,120.2,125,Multi-ply,M,HUN,M_MEM_1_WPC,,,,,-295,-295,300,300,,,,,300,B
-1,Erik Susztay,1972,124.5,1125,Raw,M,SVK,M_MR_1_WPC,,,,,207.5,215,-220,215,,,,,215,B
+1,Erik Susztay,1972,124.5,125,Raw,M,SVK,M_MR_1_WPC,,,,,207.5,215,-220,215,,,,,215,B
 2,Marcin Gorzedowski,1971,117.8,125,Raw,M,POL,M_MR_1_WPC,,,,,195,,,195,,,,,195,B
 1,Rankyn Freyded,1975,188,140+,Multi-ply,M,ESP,M_MEM_1_WPC,,,,,-220,300,,300,,,,,300,B
 1,Rankyn Freyded,1975,188,140+,Raw,M,ESP,M_MR_1_WPC,,,,,240,-250,-250,240,,,,,240,B
@@ -97,9 +97,9 @@ DQ,Erik Bohovič,1974,142.6,140+,Raw,M,SVK,M_MR_1_WPC,,,,,-240,-240,-240,,,,,,,B
 1,Jaroslav Tomanec,1943,82.5,82.5,Multi-ply,M,CZE,M_MEM_7_WPC,,,,,,,,,150,157,162,162,162,D
 1,Ernst Ruzin,1937,62.5,67.5,Raw,M,ISR,M_MR_8_WPC,,,,,,,,,145,150,155,155,155,D
 1,Radostina Lulova,1993,59.8,60,Raw,F,BUL,F_JR_WPC,110,120,-130,120,50,55,-60,55,140,145,150,150,325,SBD
-1,Bianca Voitek,1985,60,60,Raw,F,CZE,F_OR_WPC,100,-100,-105,100,-75,75,-80,75,100,110,122.5,122.5,297.5,SBD
+1,Bianca Voitek,1985,60,60,Raw,F,CZE,F_OR_WPC,100,-105,-105,100,-75,75,-80,75,100,110,122.5,122.5,297.5,SBD
 2,Dominika Novotná,1988,59,60,Raw,F,CZE,F_OR_WPC,95,97.5,-100,97.5,72.5,75,-77.5,75,105,110,112.5,112.5,285,SBD
-1,Tom Huschenbett,2000,44.3,52,Raw,M,GER,M_TR_1_WPC,105,112,115,,60,-65,65,65,50,55,-60,55,235,SBD
+1,Tom Huschenbett,2000,44.3,52,Raw,M,GER,M_TR_1_WPC,105,112,115,115,60,-65,65,65,50,55,-60,55,235,SBD
 1,Tomáš Siska,2000,70.8,75,Multi-ply,M,SVK,M_TEM_1_WPC,125,140,150,150,-60,60,67.5,67.5,115,130,135,135,352.5,SBD
 1,Tristan Cianni,1996,80.8,82.5,Multi-ply,M,GER,M_TEM_3_WPC,200,-230,-230,200,140,150,160,160,180,200.5,222.5,222.5,582.5,SBD
 2,Robin Hejl,1996,76.9,82.5,Multi-ply,M,CZE,M_TEM_3_WPC,140,160,-165,160,90,-100,-100,90,160,170,-180,170,420,SBD
@@ -125,7 +125,7 @@ DQ,Erik Bohovič,1974,142.6,140+,Raw,M,SVK,M_MR_1_WPC,,,,,-240,-240,-240,,,,,,,B
 4,Norbert Majoroš,1986,94.1,100,Raw,M,SVK,M_OR_WPC,230,237.5,-242.5,237.5,150,155,-160,155,-270,285,-292.5,285,677.5,SBD
 1,Petr Folprecht,1985,109.1,110,Raw,M,CZE,M_OR_WPC,280,295,305,305,165,175,-180,175,300,320,-330,320,800,SBD
 DQ,Zoltán Kovács,1989,103.6,110,Raw,M,HUN,M_OR_WPC,-235,-235,235,235,140,150,-160,150,-300,,-300,,,SBD
-1,Grzegorz Szklarz,1989,129.5,125,Raw,M,POL,M_OR_WPC,-220,220,232.5,232.5,180,190,200,200,270,285,300,300,732.5,SBD
+1,Grzegorz Szklarz,1989,,125,Raw,M,POL,M_OR_WPC,-220,220,232.5,232.5,180,190,200,200,270,285,300,300,732.5,SBD
 2,Matthias Grosse,1978,110.6,125,Raw,M,GER,M_OR_WPC,200,220,232.5,232.5,170,180,-185,180,100,,,100,512.5,SBD
 1,Robert Sprutta,1988,151.5,140+,Raw,M,POL,M_OR_WPC,275,295,,295,177.5,187.5,-195,187.5,305,327.5,,327.5,810,SBD
 1,Mihály Bakó,1974,86.3,90,Raw,M,HUN,M_MR_1_WPC,160,-165,-167.5,160,115,125,-132.5,125,180,192.5,202.5,202.5,487.5,SBD
