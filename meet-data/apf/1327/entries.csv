@@ -31,7 +31,7 @@ Dale Menefee,M,M_SEM_APF,Multi-ply,100,272.16,272.16,204.12,748.43,SBD,,1
 Logan Zechar,M,M_JEM_APF,Multi-ply,100,349.27,226.8,331.12,907.18,SBD,,1
 Joshua Eisele,M,M_OEM_APF,Multi-ply,100,235.87,136.08,247.21,619.15,SBD,,1
 Micah Abrams,M,M_OR_APF,Raw,110,170.1,136.08,215.46,521.63,SBD,,2
-Robert Knutsson,M,M_OR_APF,Raw,110,249.48,204.12,281.23,737.09,SBD,,1
+Robert Knutsson,M,M_OR_APF,Raw,110,249.48,204.12,281.23,734.82,SBD,,1
 Tom Keim,M,M_OEM_APF,Multi-ply,110,229.06,176.9,215.46,621.42,SBD,,2
 Mike Szudarek,M,M_OEM_APF,Multi-ply,110,362.87,65.77,317.51,746.16,SBD,,1
 Luke Rose,M,M_OR_APF,Raw,125,260.82,176.9,258.55,696.26,SBD,,1
@@ -50,7 +50,7 @@ Jeff Chrissis,M,M_MEM_4_APF,Multi-ply,100,,201.85,,201.85,B,,1
 Dale Storch,M,M_MR_5_APF,Raw,100,,140.61,,140.61,B,,1
 Devlin McMannis,M,M_MR_2_APF,Raw,100,,199.58,,199.58,B,,1
 Justin Pepperney,M,M_MEM_1_APF,Multi-ply,100,,195.04,,195.04,B,,1
-Jon Elick,M,M_SM_APF,Multi-ply,100,,285.76,,285.76,B,,1
+Jon Elick,M,M_SEM_APF,Multi-ply,100,,285.76,,285.76,B,,1
 Gabe Longworth,M,M_OEM_AAPF,Multi-ply,100,,294.84,,294.84,B,Yes,1
 Brad Walker,M,M_MR_1_APF,Raw,110,,199.58,,199.58,B,,1
 Ariel Albores,M,M_SEM_APF,Multi-ply,110,,151.95,,151.95,B,,1
