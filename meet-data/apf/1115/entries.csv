@@ -1,4 +1,4 @@
-Name,Sex,Age,BodyweightKg,WeightClass,Equipment,Division,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Event,Tested
+Name,Sex,Age,BodyweightKg,WeightClassKg,Equipment,Division,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Event,Tested
 Mike Steck,M,54,89,90,Multi-ply,M_MEM_3_AAPF,290,-305,305,290,-210,215,-227.5,215,210,227.5,-235,227.5,732.5,1,SBD,Yes
 Brian Pittman,M,44,96.9,100,Multi-ply,M_MEM_1_AAPF,115,-122.5,132.5,132.5,-155,155,-170,155,142.5,150,155,155,442.5,1,SBD,Yes
 Matt Borquez,M,23,74.8,75,Raw,M_JR_AAPF,190,195,200,200,145,155,160,160,182.5,190,195,195,555,1,SBD,Yes
