@@ -667,3 +667,4 @@
     1446 = ["ExemptWeightClassConsistency", "ExemptDivision"] # High school stuff
     1646 = ["ExemptWeightClassConsistency", "ExemptDivision"] # High school stuff
     1324 = ["ExemptWeightClassConsistency"] #Missing weightclass & Division
+    1346 = ["ExemptWeightClassConsistency"] # Missing weightclass
