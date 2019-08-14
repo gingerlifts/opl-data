@@ -6,7 +6,7 @@ Mark Haschuldt,M,M_OR_APF,113.85,125,,232.5,,232.5,1,B,,Raw
 Maura Shuttleworth,F,F_OEM_AAPF,51.35,52,,115,,115,1,B,Yes,Multi-ply
 Brandon Labrie,M,M_OEM_AAPF,99.52,100,,112.5,,112.5,1,B,Yes,Multi-ply
 Eric DeCaires,M,M_OEM_AAPF,99.16,100,,,,,DQ,B,Yes,Multi-ply
-John lenz,M,M_OEM_AAPF,109.77,110,,,,,DQ,B,Yes,Multi-ply
+John Lenz,M,M_OEM_AAPF,109.77,110,,,,,DQ,B,Yes,Multi-ply
 Jerry Foltz,M,M_MEM_2_AAPF,130,140,,285,,285,1,B,Yes,Multi-ply
 Chris Neal,M,M_SEM_APF,86,90,,257.5,,257.5,1,B,,Multi-ply
 James Burdette,M,M_OEM_APF,99.52,100,,325,,325,1,B,,Multi-ply
@@ -14,14 +14,14 @@ Tom Waldrep,M,M_OEM_APF,98.43,100,,320,,320,2,B,,Multi-ply
 Tom Waldrep,M,M_MEM_2_APF,98.43,100,,320,,320,1,B,,Multi-ply
 Tommy Westhoff,M,M_OEM_APF,103.87,110,,295,,295,3,B,,Multi-ply
 Jake Prazak,M,M_OEM_APF,108.14,110,,,,,DQ,B,,Multi-ply
-Jeff johnston,M,M_OEM_APF,106.68,110,,330,,330,1,B,,Multi-ply
+Jeff Johnston,M,M_OEM_APF,106.68,110,,330,,330,1,B,,Multi-ply
 Paul Balyeat,M,M_OEM_APF,104.6,110,,300,,300,2,B,,Multi-ply
 Dave Murphy,M,M_MEM_4_APF,108.05,110,,,,,DQ,B,,Multi-ply
 Dan Eilers,M,M_OEM_APF,123.1,125,,240,,240,1,B,,Multi-ply
 Dan Grauerholz,M,M_SEM_APF,121.11,125,,,,,DQ,B,,Multi-ply
 Jerry Foltz,M,M_MEM_2_APF,130,140,,285,,285,1,B,,Multi-ply
-Hunter Luyando,M,M_GR_AAPF,38.1,40.82,,,52.5,52.5,1,D,Yes,Raw
-Brian Graupman,M,M_MR_1_AAPF,101.15,100,,,247.5,247.5,1,D,Yes,Raw
+Hunter Luyando,M,M_GR_AAPF,38.1,40,,,52.5,52.5,G,D,Yes,Raw
+Brian Graupman,M,M_MR_1_AAPF,101.15,110,,,247.5,247.5,1,D,Yes,Raw
 Brandon Cass,M,M_OR_APF,99.34,100,,,345,345,1,D,,Raw
 Mike Dempsey,M,M_MR_3_APF,109.5,110,,,,,DQ,D,,Raw
 David Hansen,M,M_OEM_AAPF,87.91,90,,,335,335,1,D,Yes,Multi-ply
@@ -50,7 +50,7 @@ Adam Ward,M,M_OR_AAPF,151.14,140+,310,197.5,305,812.5,1,SBD,Yes,Raw
 Pam Boako,M,M_OR_APF,67.04,67.5,155,90,170,415,1,SBD,,Raw
 Therese Janc,F,F_OR_APF,75.84,82.5,150,105,212.5,467.5,1,SBD,,Raw
 Therese Janc,F,F_SR_APF,75.84,82.5,150,105,212.5,467.5,1,SBD,,Raw
-Joey Welsh,M,M_TR_3_APF,89.63,100,210,,,,DQ,SBD,,Raw
+Joey Welsh,M,M_TR_3_APF,89.63,90,210,,,,DQ,SBD,,Raw
 Jens Nestingen,M,M_OR_APF,99.25,100,230,147.5,290,667.5,1,SBD,,Raw
 Mike Dempsey,M,M_MR_3_APF,109.5,110,,,,,DQ,SBD,,Raw
 Matt Fredricks,M,M_OR_APF,136.8,140,,,,,DQ,SBD,,Raw
