@@ -7,7 +7,7 @@ Fargeslich Shmuel,66,M,M_MR_6_WPC,Raw,69.6,75,95,100,-105,100,,,,,100.0,B,1
 Brosh Berkovich,16,M,M_TR_2_WPC,Raw,72,75,-97.5,-100,-100,,,,,,,B,DQ
 Anton Drapkin,21,M,M_JR_WPC,Raw,74.5,75,100,105,110,110,,,,,110.0,B,1
 Ben Shapira,18,M,M_TR_3_WPC,Raw,74.4,75,110,117.5,-122,117.5,,,,,117.5,B,1
-Leon Schneider,29,M,M_OR_WPC,Raw,70.8,75,112.5,-115,115,112.5,,,,,112.5,B,1
+Leon Schneider,29,M,M_OR_WPC,Raw,70.8,75,112.5,-115,115,115,,,,,115,B,1
 Eyal Hoolly,16,M,M_TR_2_WPC,Raw,75.4,82.5,105,110,-115,110,,,,,110.0,B,1
 Aram Hagazi,18,M,M_TR_3_WPC,Raw,79,82.5,115,120,130,130,,,,,130.0,B,1
 Sergey Zhivaev,41,M,M_MR_1_WPC,Raw,79.1,82.5,120,140,150,150,,,,,150.0,B,1
@@ -32,7 +32,7 @@ Igal Laybal,43,M,M_MR_1_WPC,Raw,106.6,110,130,140,-150,140,,,,,140.0,B,1
 Boris Doktorovich,62,M,M_MR_5_WPC,Raw,104.4,110,100,110,112.5,112.5,,,,,112.5,B,1
 Shay Markis,36,M,M_OR_WPC,Raw,113.4,125,135,145,155,155,,,,,155.0,B,2
 Philip Katz,38,M,M_OR_WPC,Raw,106.8,110,160,170,175,175,,,,,175.0,B,2
-Hen Rosilio,19,M,M_JR_WPC,Raw,104.8,110,160,170,-175,170,,,,,170.0,B,1
+Hen Rosilio,19,M,M_TR_3_WPC,Raw,104.8,110,160,170,-175,170,,,,,170.0,B,1
 Viktor Benkler,34,M,M_OR_WPC,Raw,106.3,110,170,-190,190,190,,,,,190.0,B,1
 Sergei Rudikov,39,M,M_OR_WPC,Raw,115.6,125,-180,190,-200,190,,,,,190.0,B,1
 Aseed Mattar,23,M,M_JR_WPC,Raw,110.5,125,180,-190,195,195,,,,,195.0,B,1
@@ -74,7 +74,7 @@ Vadim Katunin,37,M,M_OR_WPC,Raw,99.9,100,175,185,190,190,270,285,292.5,292.5,482
 Alon Zahal,16,M,M_TR_2_WPC,Raw,100,100,-125,,,,,,,,,BD,DQ
 Farhat Essa,18,M,M_TR_3_WPC,Raw,100,100,-145,,,,,,,,,BD,DQ
 Roni Nakach,44,M,M_MR_1_WPC,Raw,100,100,-150,,,,,,,,,BD,DQ
-Ariela Amitay,48,F,F_OEM_WPC,Multi-ply,54.4,56,95,-97.5,-97.5,,150,-155,-157.5,150,245.0,BD,1
+Ariela Amitay,48,F,F_OEM_WPC,Multi-ply,54.4,56,95,-97.5,-97.5,95,150,-155,-157.5,150,245.0,BD,1
 Igor Kashuba,54,M,M_MEM_3_WPC,Multi-ply,80.7,82.5,120,127.5,132,132,180,195,205,205,337.0,BD,1
 Igor Rojko,31,M,M_OEM_WPC,Multi-ply,86.8,90,165,-175,175,175,235,-242.5,-242.5,235,410.0,BD,1
 Haim Patliar,37,M,M_OEM_WPC,Multi-ply,95.4,100,165,170,-175,170,240,250,-260,250,420.0,BD,2
