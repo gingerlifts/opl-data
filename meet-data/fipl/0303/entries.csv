@@ -1,6 +1,6 @@
 Sex,WeightClassKg,Division,Name,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Event,Equipment
 F,67.5,Open,Antonietta Orsini,66.1,-190,190,207.5,207.5,115,122.5,127.5,127.5,190,207.5,216,216,551,1,SBD,Single-ply
-F,60,Masters 1,Laura Locatelli,57.4,155,162.5,-167.5,162.5,85,90,-92.5,90,185,-195,,195,447.5,1,SBD,Single-ply
+F,60,Masters 1,Laura Locatelli,57.4,155,162.5,-167.5,162.5,85,90,-92.5,90,185,-195,,185,437.5,1,SBD,Single-ply
 F,75,Masters 1,Maria Pia Moscianese,70.5,140,-147.5,147.5,147.5,80,,-82.5,80,140,160,180,180,407.5,1,SBD,Single-ply
 F,60,Open,Nicoletta Perego,57.2,125,-135,-135,125,65,67.5,-70,67.5,145,-155,-160,145,337.5,1,SBD,Single-ply
 F,52,Open,Maria Pia Salemme,51.2,-115,115,-120,115,47.5,52.5,-55,52.5,125,-140,140,140,307.5,1,SBD,Single-ply
@@ -12,7 +12,7 @@ F,75,Masters 1,Donatella Beretta,67.9,70,,,70,80,85,-90,85,100,,,100,255,2,SBD,S
 F,56,Juniors,Giuliana Tomasello,55.5,80,-90,90,90,42.5,45,-47.5,45,80,-100,-105,80,215,1,SBD,Single-ply
 M,75,Open,Toni Pedrazzi,73.8,207.5,217.5,-222.5,217.5,-115,115,122.5,122.5,245,255,-260,255,595,1,SBD,Single-ply
 M,82.5,Open,Andrea Conti,77.7,180,190,-200,190,150,155,-160,155,200,215,225,225,570,1,SBD,Single-ply
-M,110,Open,Silvio Crisafi,105.2,180,100,210,210,-130,130,-145,130,200,-225,225,225,565,1,SBD,Single-ply
+M,110,Open,Silvio Crisafi,105.2,180,190,210,210,-130,130,-145,130,200,-225,225,225,565,1,SBD,Single-ply
 M,67.5,Open,Massimo Cremonesi,67,150,160,-165,160,90,-97.5,100,100,160,170,-175,170,430,1,SBD,Single-ply
 M,90,Open,Giuseppe Grifono,83.1,150,165,175,175,100,110,-115,110,190,205,215,215,500,1,SBD,Single-ply
 M,100,Open,Daniele Albertini,93.3,160,180,210,210,80,90,100,100,130,190,220,220,530,1,SBD,Single-ply
@@ -20,7 +20,7 @@ M,75,Open,Nicholas Bessi,74.5,130,145,-155,145,70,80,-95,80,180,190,-195,190,415
 M,100,Open,Antonio Militello,92.1,140,160,-175,160,100,-110,-110,100,150,170,185,185,445,2,SBD,Single-ply
 M,75,Juniors,Florenz Collaku,71.3,115,125,-130,125,75,85,90,90,125,140,160,160,375,4,SBD,Single-ply
 M,100,Juniors,Alberto Franceschini,90.2,275,295,-305.5,295,-140,150,155,155,240,260,-267.5,260,710,1,SBD,Single-ply
-M,82.5,Juniors,Luca Pennacchi,75.6,220,-235,-240,235,130,-140,-140,130,220,225,-232.5,225,590,1,SBD,Single-ply
+M,82.5,Juniors,Luca Pennacchi,75.6,220,235,-240,235,130,-140,-140,130,220,225,-232.5,225,590,1,SBD,Single-ply
 M,90,Juniors,Alessio Marazzini,85.3,215,230,-240,230,120,-132.5,140,140,220,240,-267.5,240,610,1,SBD,Single-ply
 M,75,Juniors,Mimmo Dabush,75,180,187.5,-195,187.5,110,-115,115,115,200,207.5,-212.5,207.5,510,1,SBD,Single-ply
 M,75,Juniors,Walter Bonazza,74.4,150,-160,160,160,115,122.5,127.5,127.5,200,210,217.5,217.5,505,2,SBD,Single-ply
@@ -56,7 +56,7 @@ M,90,Open,Alessandro Favorito,88.7,280,-300,-300,280,162.5,172.5,180,180,280,300
 M,125,Open,Francesco Baldassarre,113.1,300,-315,315,315,185,195,-205,195,-320,330,-362.5,330,840,1,SBD,Single-ply
 M,100,Open,Stefano Bettati,95.1,280,-300,300,300,170,180,-190,180,-280,280,-307.5,280,760,1,SBD,Single-ply
 M,90,Open,Davide Vailati,86.6,-260,260,-280,260,155,165,-170,165,260,280,,280,705,3,SBD,Single-ply
-M,100,Open,Antonio Foroni,97.2,260,-275,-275,260,-185,185,-200,185,300,-320,,30,475,2,SBD,Single-ply
+M,100,Open,Antonio Foroni,97.2,260,-275,-275,260,-185,185,-200,185,300,-320,,300,745,2,SBD,Single-ply
 M,110,Open,Martino Albanese,103.6,-210,210,250,250,195,205,215.5,215.5,270,290,-310,290,755.5,1,SBD,Single-ply
 M,100,Open,Dario De Porti,98.9,260,-275,280,280,120,-130,-130,120,280,300,310,310,710,1,SBD,Single-ply
 M,110,Open,Gianluca Bellandi,101.6,-260,-260,260,260,-170,170,-180,170,260,270,-280,270,700,2,SBD,Single-ply
