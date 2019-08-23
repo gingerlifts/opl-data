@@ -1,4 +1,4 @@
-Name,Sex,Age,Division,BodyweightKg,WeightClassKg,Sqaut1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Team,Place,Equipment
+Name,Sex,Age,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Team,Place,Equipment
 Malinda Baum,F,49,F_MEM_1_APF,101.79,90+,142.5,150,,150,105,-112.5,112.5,112.5,142.5,150,,150,412.5,SBD,,1,Multi-ply
 Randy Carter,M,41,M_MR_1_APF,85.91,90,62.5,-85,125,125,112.5,122.5,-142.5,122.5,75,-90,130,130,377.5,SBD,Hood/Parker,1,Raw
 Jim Fritz,M,41,M_MR_1_APF,96.16,100,175,192.5,202.5,202.5,142.5,157.5,-165,157.5,210,230,-245,230,589.99,SBD,,1,Raw
