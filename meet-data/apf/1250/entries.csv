@@ -1,4 +1,4 @@
-Name,Sex,WeightClassKg,BodyweightKg,Event,Tested,Division,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place
+Name,Sex,WeightClassKg,BodyweightKg,Event,Tested,Division,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place
 Bryan Czdko,M,100,99.52,SBD,Yes,M_JR_AAPF,Raw,120.2,124.74,131.54,131.54,95.25,102.06,104.33,102.06,154.22,163.29,170.1,170.1,403.7,1
 Korey Seelman,M,100,97.25,SBD,Yes,M_OR_AAPF,Raw,183.7,192.78,199.58,199.58,124.74,136.08,136.08,124.74,229.06,244.94,256.28,244.94,569.26,1
 Kyle Hanges,M,90,89.9,SBD,,M_OR_APF,Raw,183.7,197.31,208.65,197.31,165.56,165.56,,165.56,183.7,199.58,208.65,208.65,571.53,1
