@@ -151,7 +151,6 @@ pub enum Country {
     Niger,
     Nigeria,
     Niue,
-    Northern Ireland,
     Norway,
     #[serde(rename = "N.Ireland")]
     #[strum(to_string = "N.Ireland")]
