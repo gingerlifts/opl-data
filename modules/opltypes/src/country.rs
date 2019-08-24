@@ -154,6 +154,7 @@ pub enum Country {
     Norway,
     #[serde(rename = "N.Ireland")]
     #[strum(to_string = "N.Ireland")]
+    NorthernIreland,
     Oman,
     Pakistan,
     Palestine,
