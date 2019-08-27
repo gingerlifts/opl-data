@@ -2,11 +2,11 @@ Name,Sex,Age,Division,BodyweightKg,WeightClassKg,Best3SquatKg,Best3BenchKg,Best3
 Taylar Stallings,F,26,F_OR_APF,74,75,197.5,120,227.5,545,SBD,1,Raw
 Jenn Rotsinger,F,34,F_OR_APF,54.6,56,130,90,165,385,SBD,2,Raw
 April Shumaker,F,46,F_OES_APF,47.2,48,130,105,140,375,SBD,1,Single-ply
-Kimberly Eastin,F,41,F_OES_APF,108.4,SHW,,,,,SBD,DQ,Single-ply
+Kimberly Eastin,F,41,F_OES_APF,108.4,90+,,,,,SBD,DQ,Single-ply
 Al Annunziato,M,65,M_MR_6_APF,74.6,75,140,112.5,222.5,475,SBD,1,Raw
 Nephi Solorzano,M,21,M_JR_APF,108.4,110,215,160,232.5,607.5,SBD,1,Raw
 Brandon Sangemino,M,20,M_JR_APF,66,67.5,157.5,110,170,437.5,SBD,2,Raw
-Zach Seymour,M,11,M_YR_APF,42.4,56,80,55,125,260,SBD,3,Raw
+Zach Seymour,M,11,M_YR_APF,42.4,52,80,55,125,260,SBD,3,Raw
 Dominic Russo,M,15,M_TR_1_APF,59.2,60,115,97.5,147.5,360,SBD,4,Raw
 David Argy,M,17,M_TR_2_APF,74.3,75,110,77.5,,,SBD,DQ,Raw
 Ronald Crawford,M,78,M_MR_8_APF,54.4,56,,67.5,,67.5,B,1,Raw
@@ -31,7 +31,7 @@ Tony Maldonado,M,28,M_OR_APF,102.2,110,215,130,227.5,572.5,SBD,2,Raw
 Perry Ellis Jr,M,30,M_OR_APF,122,125,340,205,342.5,887.5,SBD,1,Raw
 Frederick Goldberg,M,53,M_OR_APF,119.2,125,145,220,227.5,592.5,SBD,2,Raw
 Chris Pluhacek,M,30,M_OR_APF,132.4,140,272.5,212.5,307.5,792.5,SBD,1,Raw
-Billy Tutko,M,33,M_OR_APF,159,SHW,307.5,255,62.5,625,SBD,1,Raw
+Billy Tutko,M,33,M_OR_APF,159,140+,307.5,255,62.5,625,SBD,1,Raw
 Jake Benedix,M,18,M_OES_APF,59.4,60,182.5,107.5,170,460,SBD,1,Single-ply
 Brett Benedix,M,16,M_OES_APF,67.2,67.5,220,95,190,505,SBD,1,Single-ply
 Bob Benedix,M,52,M_OES_APF,82,82.5,332.5,147.5,260,740,SBD,1,Single-ply
