@@ -1,8 +1,8 @@
 Place,Event,Name,BodyweightKg,WeightClassKg,Sex,Division,Equipment,Age,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg
-1,B,Totte Salmi ,59.6,60,M,Open,Raw,44,100,107.5,-110,,107.5,,,,,,107.5
+1,B,Totte Salmi,59.6,60,M,Open,Raw,44,100,107.5,-110,,107.5,,,,,,107.5
 1,B,Leif Ojala,67.5,67.5,M,Open,Raw,51,120,130,135,,135,,,,,,135
 1,B,Joni Laiho,73.7,75,M,Open,Raw,26,130,140,-147.5,,140,,,,,,140
-1,B,Rami Leivisk ,82.5,82.5,M,Open,Raw,41,140,150,160,,160,,,,,,160
+1,B,Rami Leivisk,82.5,82.5,M,Open,Raw,41,140,150,160,,160,,,,,,160
 2,B,Henri Vauto,82,82.5,M,Open,Raw,32,140,147.5,155,,155,,,,,,155
 3,B,Daniel Szasko,80.9,82.5,M,Open,Raw,35,127.5,135,-140,,135,,,,,,135
 1,B,Santeri Asikainen,88.4,90,M,Open,Raw,28,210,222.5,-230.5,,222.5,,,,,,222.5
@@ -20,7 +20,7 @@ Place,Event,Name,BodyweightKg,WeightClassKg,Sex,Division,Equipment,Age,Bench1Kg,
 3,B,Topi Frifeldt,109.3,110,M,Open,Raw,37,215,225,-230,,225,,,,,,225
 4,B,Jari Koskinen,109.5,110,M,Open,Raw,36,210,220,-225,,220,,,,,,220
 5,B,Sauli Kallunki,108.8,110,M,Open,Raw,24,177.5,190,-200,,190,,,,,,190
-6,B,Harri Visnen ,108.8,110,M,Open,Raw,43,182.5,190,-200,,190,,,,,,190
+6,B,Harri Visnen,108.8,110,M,Open,Raw,43,182.5,190,-200,,190,,,,,,190
 7,B,Mikko Leinonen,101.4,110,M,Open,Raw,30,160,175,185,,185,,,,,,185
 8,B,Ville Suominen,105.8,110,M,Open,Raw,27,170,180,-190,,180,,,,,,180
 9,B,Kirill Shitikov,106.3,110,M,Open,Raw,34,140,145,150,,150,,,,,,150
@@ -38,7 +38,7 @@ Place,Event,Name,BodyweightKg,WeightClassKg,Sex,Division,Equipment,Age,Bench1Kg,
 1,B,Virpi Pukkila,73.3,75,F,Masters 50-54,Multi-ply,51,130,137.5,-145,,137.5,,,,,,137.5
 1,B,Marianne Kosonen,54.9,56,F,Open,Multi-ply,26,150,157.5,-160,,157.5,,,,,,157.5
 1,B,Anna-Maija Kosonen,67.5,67.5,F,Open,Multi-ply,29,-145,145,-150,,145,,,,,,145
-1,B,Virpi Pukkila ,73.3,75,F,Open,Multi-ply,51,130,137.5,-145,,137.5,,,,,,137.5
+1,B,Virpi Pukkila,73.3,75,F,Open,Multi-ply,51,130,137.5,-145,,137.5,,,,,,137.5
 1,B,Julia Vins,65.4,67.5,F,Juniors 20-23,Multi-ply,23,155,160,165,,165,,,,,,165
 1,B,Ville Rajala,81.4,82.5,M,Teen 13-15,Multi-ply,13,60,62.5,65,,65,,,,,,65
 1,B,Nicky Norris,78.3,82.5,M,Open,Multi-ply,30,210,227.5,235,,235,,,,,,235
@@ -55,19 +55,19 @@ DQ,B,Jarkko Forss,82.4,82.5,M,Juniors 20-23,Multi-ply,23,-320,-320,-322.5,,,,,,,
 1,B,Leif Ojala,67.5,67.5,M,Masters 50-54,Raw,51,120,130,135,,135,,,,,,135
 DQ,B,Jarno Tuomiranta,72.2,75,M,Masters 55-59,Raw,57,-107.5,-107.5,-107.5,,,,,,,,
 1,B,Rane Ovaska,81.2,82.5,M,Masters 55-59,Raw,59,100,110,117.5,,117.5,,,,,,117.5
-1,B,Pekka Anttila ,89.3,90,M,Masters 50-54,Raw,54,90,92.5,95,,95,,,,,,95
+1,B,Pekka Anttila,89.3,90,M,Masters 50-54,Raw,54,90,92.5,95,,95,,,,,,95
 1,B,Juhani Krkkinen,99.6,100,M,Masters 55-59,Raw,59,140,145,150,,150,,,,,,150
 1,B,Juha Ojanen,105,110,M,Masters 55-59,Raw,57,155,162.5,170,,170,,,,,,170
 1,B,Raimo Hiisi,122.1,125,M,Masters 50-54,Raw,50,180,192.5,200,,200,,,,,,200
 1,B,Tero Ylivinkka,130.9,140,M,Masters 50-54,Raw,53,180,190,-200,,190,,,,,,190
-1,B,Saku Grommi,59.3,60,M,Teen 17-19,Raw,18,80,87.5,90,,90,,,,,,90
+1,B,Saku Grommi,59.3,60,M,Teen 18-19,Raw,18,80,87.5,90,,90,,,,,,90
 1,B,Tomi Reijonen,71.7,75,M,Teen 13-15,Raw,14,60,-65,-65,,60,,,,,,60
 1,B,Otto Doering,78.9,82.5,M,Teen 13-15,Raw,15,75,85,-92.5,,85,,,,,,85
-1,B,Totte Salmi ,59.6,60,M,Masters 40-44,Raw,44,100,107.5,-110,,107.5,,,,,,107.5
+1,B,Totte Salmi,59.6,60,M,Masters 40-44,Raw,44,100,107.5,-110,,107.5,,,,,,107.5
 1,B,Jani Vaskelainen,74.7,75,M,Masters 40-44,Raw,44,110,120,125,,125,,,,,,125
 2,B,Jyrki Marttala,72.7,75,M,Masters 40-44,Raw,42,100,110,115,,115,,,,,,115
 3,B,Pasi Pohjola,73.2,75,M,Masters 40-44,Raw,41,110,115,-122.5,,115,,,,,,115
-1,B,Rami Leivisk ,82.5,82.5,M,Masters 40-44,Raw,41,140,150,160,,160,,,,,,160
+1,B,Rami Leivisk,82.5,82.5,M,Masters 40-44,Raw,41,140,150,160,,160,,,,,,160
 2,B,Markus Gren,81.4,82.5,M,Masters 45-49,Raw,47,130,140,145,,145,,,,,,145
 3,B,Jorma Mononen,81.1,82.5,M,Masters 45-49,Raw,45,130,135,-140,,135,,,,,,135
 1,B,Klaus Renfors,89.1,90,M,Masters 45-49,Raw,46,147.5,152.5,160,,160,,,,,,160
@@ -77,7 +77,7 @@ DQ,B,Jarno Tuomiranta,72.2,75,M,Masters 55-59,Raw,57,-107.5,-107.5,-107.5,,,,,,,
 3,B,Jarkko Yl-Hkkinen,96.6,100,M,Masters 40-44,Raw,40,160,170,180,,180,,,,,,180
 4,B,Kim Pivke,95.8,100,M,Masters 45-49,Raw,46,130,160,170,,170,,,,,,170
 5,B,Jari-Pekka Suominen,98.6,100,M,Masters 45-49,Raw,47,160,170,-182.5,,170,,,,,,170
-1,B,Harri Visnen ,108.8,110,M,Masters 40-44,Raw,43,182.5,190,-200,,190,,,,,,190
+1,B,Harri Visnen,108.8,110,M,Masters 40-44,Raw,43,182.5,190,-200,,190,,,,,,190
 1,B,Harri Pyklmki,123.6,125,M,Masters 45-49,Raw,45,180,190,200,,200,,,,,,200
 1,D,Eveliina Lehto,46.6,48,F,Open,Raw,26,,,,,,110,-120,-120,,110,110
 1,D,Taru Visuri,51.9,52,F,Open,Raw,34,,,,,,145,157.5,160,165,160,160
@@ -113,8 +113,8 @@ DQ,B,Jarno Tuomiranta,72.2,75,M,Masters 55-59,Raw,57,-107.5,-107.5,-107.5,,,,,,,
 1,D,Sanna Marika Halenius,83.4,90,F,Masters 40-44,Raw,40,,,,,,170,180,-185,,180,180
 1,D,Pivi Kaarto,95.5,90+,F,Masters 40-44,Raw,42,,,,,,190,212.5,-222.5,,212.5,212.5
 1,D,Eveliina Anttila,55.9,56,F,Juniors 20-23,Raw,20,,,,,,92.5,100,-105,,100,100
-1,D,Maria Tuomi,53.9,56,F,Teen 17-19,Raw,19,,,,,,97.5,107.5,-115,,107.5,107.5
-1,D,Elisa Koikkalainen,57.4,60,F,Teen 17-19,Raw,19,,,,,,140,150,-155,,150,150
+1,D,Maria Tuomi,53.9,56,F,Teen 18-19,Raw,19,,,,,,97.5,107.5,-115,,107.5,107.5
+1,D,Elisa Koikkalainen,57.4,60,F,Teen 18-19,Raw,19,,,,,,140,150,-155,,150,150
 1,D,Ada Ritamki,69.3,75,F,Teen 13-15,Raw,15,,,,,,85,90,95,100,95,95
 1,B,Sannikka Hosio,55.7,56,F,Open,Raw,34,55,-60,-60,,55,,,,,,55
 1,B,Johanna Bies,64.4,67.5,F,Open,Raw,47,112.5,117.5,121,123,121,,,,,,121
@@ -140,15 +140,15 @@ DQ,B,Jarno Tuomiranta,72.2,75,M,Masters 55-59,Raw,57,-107.5,-107.5,-107.5,,,,,,,
 2,B,Sanna Marika Halenius,83.4,90,F,Masters 40-44,Raw,40,80,-85,85,,85,,,,,,85
 1,B,Pivi Kaarto,95.5,90+,F,Masters 40-44,Raw,42,112.5,117.5,122.5,-127.5,122.5,,,,,,122.5
 1,B,Eveliina Anttila,57.4,60,F,Juniors 20-23,Raw,20,45,50,52.5,,52.5,,,,,,52.5
-1,B,Elisa Koikkalainen,56,56,F,Teen 17-19,Raw,19,65,-70,70,-78,70,,,,,,70
-2,B,Maria Tuomi,53.9,56,F,Teen 17-19,Raw,19,37.5,-40,-40,,37.5,,,,,,37.5
+1,B,Elisa Koikkalainen,56,56,F,Teen 18-19,Raw,19,65,-70,70,-78,70,,,,,,70
+2,B,Maria Tuomi,53.9,56,F,Teen 18-19,Raw,19,37.5,-40,-40,,37.5,,,,,,37.5
 1,B,Ada Ritamki,69.3,75,F,Teen 13-15,Raw,15,35,40,-42.5,,40,,,,,,40
 1,D,Marianne Kosonen,54.9,56,F,Open,Multi-ply,26,,,,,,190,200,210,,210,210
 1,D,Anna-Maija Kosonen,67.5,67.5,F,Open,Multi-ply,29,,,,,,195,205,-215,-215,205,205
 1,D,Julia Vins,65.4,67.5,F,Juniors 20-23,Multi-ply,23,,,,,,185,192.5,-200,-200,192.5,192.5
 1,D,Amanda Wentjrvi,71.8,75,F,Juniors 20-23,Multi-ply,20,,,,,,130,142.5,-155,,142.5,142.5
 1,D,Pinja Rajala,62.4,67.5,F,Teen 13-15,Multi-ply,15,,,,,,100,107.5,112.5,,112.5,112.5
-1,D,Pentti Nestori Piri,78.5,82.5,M,Masters 90-94,Raw,92,,,,,,50,60,-70,,60,60
+1,D,Pentti Nestori Piri,78.5,82.5,M,Masters 80+,Raw,92,,,,,,50,60,-70,,60,60
 1,D,Nicky Norris,78.3,82.5,M,Open,Multi-ply,30,,,,,,250,267.5,275,,275,275
 1,D,Kalle Rsnen,90,90,M,Open,Multi-ply,28,,,,,,350,370,-375,,370,370
 1,D,Oskari Lehtinen,100,100,M,Open,Multi-ply,30,,,,,,310,337.5,345,-355.5,345,345
@@ -187,7 +187,7 @@ DQ,D,Jukka Matikainen,94.4,100,M,Open,Multi-ply,25,,,,,,-300,-310,-315,,,
 1,D,Marcus Saarikalle,107.8,110,M,Masters 40-44,Raw,40,,,,,,300,-320,,,300,300
 DQ,D,Harri Visnen,108.8,110,M,Masters 40-44,Raw,43,,,,,,-65,,,,,
 1,D,Harri Pyklmki,123.6,125,M,Masters 45-49,Raw,45,,,,,,270,280,290,,290,290
-1,D,Totte Salmi ,59.6,60,M,Open,Raw,44,,,,,,175,185,190,,190,190
+1,D,Totte Salmi,59.6,60,M,Open,Raw,44,,,,,,175,185,190,,190,190
 1,D,Vesa Jrvelinen,74.1,75,M,Open,Raw,43,,,,,,200,225,240,,240,240
 2,D,Joni Laiho,73.7,75,M,Open,Raw,26,,,,,,200,215,225,,225,225
 1,D,Henri Vauto,82,82.5,M,Open,Raw,32,,,,,,230,250,260,,260,260
@@ -213,7 +213,7 @@ DQ,D,Topi Innanen,89.1,90,M,Open,Raw,24,,,,,,-265,-275,-275,,,
 5,D,Sauli Kallunki,108.8,110,M,Open,Raw,24,,,,,,250,272.5,280,,280,280
 6,D,Jussi Jantunen,108.5,110,M,Open,Raw,31,,,,,,200,215,227.5,,227.5,227.5
 7,D,Kirill Shitikov,106.3,110,M,Open,Raw,,,,,,,197.5,205,215,,215,215
-DQ,D,Jani-Pekka Eirala,109.6,110,M,Open,Raw,,,,,,,340,,,,,
+DQ,D,Jani-Pekka Eirala,109.6,110,M,Open,Raw,,,,,,,340,,,,340,
 1,D,Topias Cunningham,120.5,125,M,Open,Raw,,,,,,,340,362.5,-380,,362.5,362.5
 2,D,Samuli Ketola,124.2,125,M,Open,Raw,27,,,,,,-300,320,-330,,320,320
 3,D,Jan-Erik Maantila,115.4,125,M,Open,Raw,34,,,,,,-280,280,300,,300,300
