@@ -357,9 +357,48 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[SCT as usize].maintainers = "";
 
     // Federation Instagram accounts.
+    statuses[365Strong as usize].instagram = "365_strongwpf";
+    statuses[APA as usize].instagram = "apawpa_official";
+    statuses[APF as usize].instagram = "apf_powerlifting";
+    statuses[AsianPF as usize].instagram = "asian.powerlifting.federation";
+    statuses[BVDK as usize].instagram = "derkraftdreikaempfer";
+    statuses[CAPO as usize].instagram = "capopowerlifting";
+    statuses[ChinaPA as usize].instagram = "gpachina";
+    statuses[FFForce as usize].instagram = "ffforce__";
+    statuses[GPC-AUS as usize].instagram = "gpcaustralia";
+    statuses[GPC-GB as usize].instagram = "gpc_gb";
+    statuses[GPC-IRL as usize].instagram = "gpcireland";
+    statuses[GPC-NZ as usize].instagram = "gpcnewzealand";
     statuses[IPF as usize].instagram = "theipf";
+    statuses[IPL as usize].instagram = "iplpowerlifting";
+    statuses[IrishPF as usize].instagram = "irishpowerliftingfederation";
+    statuses[IrishPO as usize].instagram = "ipoaipowpc";
+    statuses[ParaPL as usize].instagram = "parapowerlifting";
+    statuses[ProRaw as usize].instagram = "prorawpowerlifting";
+    statuses[RAW-UKR as usize].instagram = "raw100power";
+    statuses[RPS as usize].instagram = "rps_powerlifting";
+    statuses[ScottishPL as usize].instagram = "scottishpowerlifting";
     statuses[SPF as usize].instagram = "southernpowerliftingfederation";
+    statuses[SwissPL as usize].instagram = "swiss_powerlifting";
+    statuses[ThaiPF as usize].instagram = "thaipowerlifting";
+    statuses[UPA as usize].instagram = "upa_events_";
+    statuses[UPC as usize].instagram = "powerliftingupc";
+    statuses[USAPL as usize].instagram = "usapowerlifting";
     statuses[USPA as usize].instagram = "uspapower";
+    statuses[WelshPA as usize].instagram = "welsh_powerlifting";
+    statuses[WPAU as usize].instagram = "wpaukraine";
+    statuses[WPC-Finland as usize].instagram = "wpcfinland";
+    statuses[WPC-SA as usize].instagram = "wpc_powerlifting_cpt";
+    statuses[WRPF as usize].instagram = "wrp_official";
+    statuses[WRPF-AUS as usize].instagram = "wrpfaustralia";
+    statuses[WRPF-Belarus as usize].instagram = "wrpf_belarus";
+    statuses[WRPF-Ireland as usize].instagram = "wrpfireland";
+    statuses[WRPF-KAZ as usize].instagram = "wrpfkazakhstan";
+    statuses[WRPF-Lithuania as usize].instagram = "wrpf_lithuania";
+    statuses[WRPF-Slovenia as usize].instagram = "wrpfslovenia";
+    statuses[WRPF-Spain as usize].instagram = "wrpf_spain";
+    statuses[WRPF-Sweden as usize].instagram = "wrpf.sweden";
+    statuses[WUAP as usize].instagram = "wuapusa";
 }
 
 impl<'a> Context<'a> {
