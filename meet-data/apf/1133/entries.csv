@@ -1,4 +1,4 @@
-Name,Age,Div,Equipment,Division,Tested,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Place
+Name,Age,Sex,Equipment,Division,Tested,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Place
 Lea-Ann Domanski,34,F,Multi-ply,F_OEM_AAPF,Yes,66.3,67.5,137.5,-150,150,150,92.5,102.5,-107.5,102.5,125,137.5,-145,137.5,390,SBD,1
 Lea-Ann Domanski,34,F,Multi-ply,F_SEM_AAPF,Yes,66.3,67.5,137.5,-150,150,150,92.5,102.5,-107.5,102.5,125,137.5,-145,137.5,390,SBD,1
 Samantha Ruttenberg,19,F,Multi-ply,F_TEM_3_AAPF,Yes,65,67.5,70,77.5,-90,77.5,-45,47.5,-55,47.5,85,92.5,-100,92.5,217.5,SBD,1
