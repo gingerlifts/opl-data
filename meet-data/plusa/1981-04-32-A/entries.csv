@@ -1,12 +1,12 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
-M. Thompson,52,Teen 14-15,M,120.2,68.04,136.08,324.32,SBD,Single-ply,1
+Mike Thompson #1,52,Teen 14-15,M,120.2,68.04,136.08,324.32,SBD,Single-ply,1
 B. Larry,52,Teen 14-15,M,108.86,47.63,136.08,292.57,SBD,Single-ply,2
 A. Dickerson,52,Teen 14-15,M,104.33,52.16,127.01,283.5,SBD,Single-ply,3
 J. Pruitt,52,Teen 14-15,M,108.86,52.16,120.2,281.23,SBD,Single-ply,4
 K. Murr,52,Teen 16-17,M,102.06,61.24,124.74,288.03,SBD,Single-ply,1
 T. Murr,52,Teen 16-17,M,90.72,56.7,113.4,260.82,SBD,Single-ply,2
 Randall Kea,52,Teen 18-19,M,136.08,122.47,149.69,408.23,SBD,Single-ply,1
-C. Worrell,52,Teen 18-19,M,90.72,54.43,104.33,249.48,SBD,Single-ply,2
+Cindy Worrell,52,Teen 18-19,F,90.72,54.43,104.33,249.48,SBD,Single-ply,2
 E. Moore,56,Teen 14-15,M,108.86,77.11,167.83,353.8,SBD,Single-ply,1
 M. Slaton,56,Teen 14-15,M,115.67,74.84,140.61,331.12,SBD,Single-ply,2
 K. Glover,56,Teen 14-15,M,102.06,61.24,149.69,312.98,SBD,Single-ply,3
@@ -16,7 +16,7 @@ B. Decker,56,Teen 16-17,M,131.54,92.99,163.29,387.82,SBD,Single-ply,1
 R. Snipes,56,Teen 16-17,M,124.74,83.91,136.08,344.73,SBD,Single-ply,2
 E. Cornelius,56,Teen 16-17,M,117.93,74.84,149.69,342.46,SBD,Single-ply,3
 T. Gilbert,56,Teen 16-17,M,92.99,61.24,120.2,274.42,SBD,Single-ply,4
-C. Pardue,56,Teen 18-19,M,131.54,70.31,131.54,333.39,SBD,Single-ply,1
+Candice Pardue,56,Teen 18-19,F,131.54,70.31,131.54,333.39,SBD,Single-ply,1
 A. Clark,60,Teen 14-15,M,127.01,83.91,165.56,376.48,SBD,Single-ply,1
 T. Clark,60,Teen 14-15,M,136.08,68.04,158.76,362.87,SBD,Single-ply,2
 T. Oakes,60,Teen 14-15,M,108.86,81.65,113.4,303.91,SBD,Single-ply,4
@@ -26,8 +26,8 @@ C. Summer,60,Teen 16-17,M,154.22,83.91,154.22,392.36,SBD,Single-ply,2
 T. Williams,60,Teen 16-17,M,136.08,104.33,136.08,376.48,SBD,Single-ply,3
 V. Patton,60,Teen 16-17,M,136.08,65.77,161.03,362.87,SBD,Single-ply,4
 S. Gambon,60,Teen 18-19,M,192.78,104.33,201.85,498.95,SBD,Single-ply,1
-J. Stankewich,60,Teen 18-19,M,167.83,104.33,188.24,460.4,SBD,Single-ply,2
-W. Wilson,60,Teen 18-19,M,154.22,131.54,167.83,453.59,SBD,Single-ply,3
+John Stankewich,60,Teen 18-19,M,167.83,104.33,188.24,460.4,SBD,Single-ply,2
+Willie Wilson,60,Teen 18-19,M,154.22,131.54,167.83,453.59,SBD,Single-ply,3
 D. Nitchell,60,Teen 18-19,M,136.08,90.72,192.78,419.57,SBD,Single-ply,4
 K. Gravitt,67.5,Teen 14-15,M,165.56,72.57,170.1,408.23,SBD,Single-ply,1
 K. Houston,67.5,Teen 14-15,M,102.06,72.57,145.15,319.78,SBD,Single-ply,3
@@ -37,7 +37,7 @@ J. Luninham,67.5,Teen 16-17,M,174.63,97.52,197.31,469.47,SBD,Single-ply,1
 W. Nanna,67.5,Teen 16-17,M,124.74,95.25,174.63,394.63,SBD,Single-ply,2
 A. Fowler,67.5,Teen 16-17,M,145.15,86.18,163.29,394.63,SBD,Single-ply,3
 T. Pearson,67.5,Teen 16-17,M,90.72,92.99,138.35,322.05,SBD,Single-ply,4
-R. Pardue,67.5,Teen 18-19,M,233.6,104.33,195.04,532.97,SBD,Single-ply,1
+Roger Pardue,67.5,Teen 18-19,M,233.6,104.33,195.04,532.97,SBD,Single-ply,1
 P. Adams,67.5,Teen 18-19,M,147.42,95.25,204.12,446.79,SBD,Single-ply,2
 J. Grosh,67.5,Teen 18-19,M,104.33,83.91,163.29,351.53,SBD,Single-ply,3
 R. Coleman,75,Teen 14-15,M,197.31,108.86,199.58,505.76,SBD,Single-ply,1
@@ -73,7 +73,7 @@ G. Hucks,82.5,Teen 18-19,M,163.29,106.59,192.78,462.66,SBD,Single-ply,7
 D. Marks,82.5,Teen 18-19,M,102.06,111.13,208.65,421.84,SBD,Single-ply,8
 T. Mullinex,90,Teen 14-15,M,181.44,79.38,183.71,444.52,SBD,Single-ply,1
 J. Ashworth,90,Teen 14-15,M,142.88,92.99,165.56,401.43,SBD,Single-ply,2
-P. Mears,90,Teen 16-17,M,183.71,104.33,190.51,478.54,SBD,Single-ply,1
+Paul Mears #2,90,Teen 16-17,M,183.71,104.33,190.51,478.54,SBD,Single-ply,1
 N. Wix,90,Teen 16-17,M,156.49,115.67,204.12,476.27,SBD,Single-ply,2
 K. Humby,90,Teen 16-17,M,158.76,122.47,192.78,474,SBD,Single-ply,3
 L. Van Born,90,Teen 16-17,M,163.29,106.59,199.58,469.47,SBD,Single-ply,4

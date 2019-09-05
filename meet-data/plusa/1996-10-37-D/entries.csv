@@ -2,7 +2,7 @@ Name,WeightClassKg,Division,Sex,Event,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,
 J. Vasquez,60,Open,M,B,,115,,115,Single-ply,1
 S. Weingutt,67.5,Open,M,B,,137.5,,137.5,Single-ply,1
 S. Grotto,67.5,Open,M,B,,132.5,,132.5,Single-ply,2
-R. McCarty,75,Open,M,B,,187.5,,187.5,Single-ply,1
+Ralph McCarty,75,Open,M,B,,187.5,,187.5,Single-ply,1
 G. Gutierrez,75,Open,M,B,,172.5,,172.5,Single-ply,2
 D. Cherer,75,Open,M,B,,,,,Single-ply,DQ
 B. Shaw,82.5,Open,M,B,,152.5,,152.5,Single-ply,3
@@ -18,7 +18,7 @@ R. Jackson,110,Open,M,B,,165,,165,Single-ply,1
 Tiny Meeker,125,Open,M,B,,227.5,,227.5,Single-ply,1
 T. Bruner,125,Open,M,B,,217.5,,217.5,Single-ply,2
 S. Woelk,125+,Open,M,B,,227.5,,227.5,Single-ply,1
-J. Soliz,125+,Open,M,B,,110,,110,Single-ply,2
+Jesse Soliz III,125+,Open,M,B,,110,,110,Single-ply,2
 S. Weingust,67.5,Masters,M,B,,137.5,,137.5,Single-ply,1
 K. Anderson,110,Masters,M,B,,190,,190,Single-ply,1
 D. DeLos Santos,110,Masters,M,B,,182.5,,182.5,Single-ply,2
@@ -28,17 +28,17 @@ J. Jimenez,82.5,Open,F,B,,122.5,,122.5,Single-ply,1
 R. May,82.5,Open,F,B,,97.5,,97.5,Single-ply,2
 S. Ballard,52,Open,F,SBD,52.5,50,32.5,135,Single-ply,1
 J. Cowan,60,Open,F,SBD,120,62.5,160,342.5,Single-ply,1
-Y. Garcia,82.5,Open,F,SBD,162.5,52.5,150,365,Single-ply,1
+Yvette Garcia,82.5,Open,F,SBD,162.5,52.5,150,365,Single-ply,1
 C. Calderon,60,Below Class I,M,SBD,170,102.5,147.5,420,Single-ply,1
 T. Riffe,75,Below Class I,M,SBD,205,130,222.5,557.5,Single-ply,1
 T. Nava,75,Below Class I,M,SBD,207.5,132.5,207.5,547.5,Single-ply,2
 B. Shaw,82.5,Below Class I,M,SBD,227.5,152.5,240,620,Single-ply,1
 D. Jenten,82.5,Below Class I,M,SBD,217.5,152.5,240,610,Single-ply,2
 D. Wainscott,82.5,Below Class I,M,SBD,220,157.5,220,597.5,Single-ply,3
-A. Lewis,82.5,Below Class I,M,SBD,227.5,147.5,212.5,587.5,Single-ply,4
+Al Lewis,82.5,Below Class I,M,SBD,227.5,147.5,212.5,587.5,Single-ply,4
 E. Luna,82.5,Below Class I,M,SBD,220,130,200,550,Single-ply,5
 C. Beall,82.5,Below Class I,M,SBD,175,102.5,200,477.5,Single-ply,6
-L. Gutierrez,90,Below Class I,M,SBD,220,165,220,605,Single-ply,1
+Leroy Gutierrez,90,Below Class I,M,SBD,220,165,220,605,Single-ply,1
 A. Plattner,90,Below Class I,M,SBD,220,155,210,585,Single-ply,2
 J. Lozano,90,Below Class I,M,SBD,210,165,207.5,582.5,Single-ply,3
 J. Holt,100,Below Class I,M,SBD,272.5,182.5,242.5,697.5,Single-ply,1
@@ -56,7 +56,7 @@ G. Villanueva,125,Below Class I,M,SBD,237.5,150,232.5,620,Single-ply,1
 R. Johnson,125,Below Class I,M,SBD,240,,,,Single-ply,DQ
 H. Regeon,125+,Below Class I,M,SBD,287.5,152.5,245,685,Single-ply,1
 R. LeGrande,125+,Below Class I,M,SBD,250,147.5,202.5,600,Single-ply,2
-J. Soliz,125+,Below Class I,M,SBD,215,110,195,520,Single-ply,3
+Jesse Soliz III,125+,Below Class I,M,SBD,215,110,195,520,Single-ply,3
 Gary Menaker,67.5,Masters 40-49,M,SBD,200,115,232.5,547.5,Single-ply,1
 A. Menton,82.5,Masters 40-49,M,SBD,220,137.5,227.5,585,Single-ply,1
 P. Meheran,90,Masters 40-49,M,SBD,220,110,240,570,Single-ply,1
@@ -64,17 +64,17 @@ G. Moreno,100,Masters 40-49,M,SBD,255,140,225,620,Single-ply,1
 M. Villarreal,100,Masters 40-49,M,SBD,227.5,160,222.5,610,Single-ply,2
 V. Roberts,110,Masters 40-49,M,SBD,250,150,245,645,Single-ply,1
 M. McDaniel,125,Masters 40-49,M,SBD,285,185,267.5,737.5,Single-ply,1
-H. de la Rosa,125,Masters 40-49,M,SBD,250,180,265,695,Single-ply,2
+Homer de la Rosa,125,Masters 40-49,M,SBD,250,180,265,695,Single-ply,2
 G. Villanueva,125,Masters 40-49,M,SBD,237.5,150,232.5,620,Single-ply,3
 Max Peek #1,67.5,Masters 50+,M,SBD,175,87.5,195,457.5,Single-ply,1
 Gary Menaker,67.5,Open,M,SBD,200,115,232.5,547.5,Single-ply,1
-R. McCarty,75,Open,M,SBD,252.5,187.5,230,670,Single-ply,1
+Ralph McCarty,75,Open,M,SBD,252.5,187.5,230,670,Single-ply,1
 L. Zamora,82.5,Open,M,SBD,65,65,310,440,Single-ply,1
 R. Nesuda,90,Open,M,SBD,255,160,287.5,702.5,Single-ply,1
 K. Leesk,100,Open,M,SBD,282.5,170,247.5,700,Single-ply,4
 J. Holt,100,Open,M,SBD,272.5,182.5,242.5,697.5,Single-ply,5
 C. Garcia,100,Open,M,SBD,320,132.5,285,737.5,Single-ply,2
-P. Fletcher,100,Open,M,SBD,305,210,295,810,Single-ply,1
+Paul Fletcher,100,Open,M,SBD,305,210,295,810,Single-ply,1
 M. McDaniel,100,Open,M,SBD,285,185,267.5,737.5,Single-ply,3
 T. Bruner,100,Open,M,SBD,230,217.5,100,547.5,Single-ply,6
 V. Reyes,100,Open,M,SBD,,,,,Single-ply,DQ
@@ -106,4 +106,4 @@ E. Brown,110,Teen,M,SBD,285,127.5,272.5,685,Single-ply,1
 J. Gerra,110,Teen,M,SBD,150,90,170,410,Single-ply,2
 J. Stevenson,125,Teen,M,SBD,255,167.5,205,627.5,Single-ply,1
 J. Rangel,125,Teen,M,SBD,272.5,,,,Single-ply,DQ
-J. Soliz,125+,Teen,M,SBD,215,110,195,520,Single-ply,1
+Jesse Soliz III,125+,Teen,M,SBD,215,110,195,520,Single-ply,1

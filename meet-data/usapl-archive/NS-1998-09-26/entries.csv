@@ -10,10 +10,10 @@ WeightClassKg,Sex,Equipment,Division,Name,Best3BenchKg,Bench4Kg,Event,TotalKg,Pl
 56,F,Single-ply,F-Jr,Jill Darling,90,,B,90,1
 56,F,Single-ply,F-M2a,Joyce Orme,70,,B,70,1
 60,F,Single-ply,F-O,Bettina Altizer,110,,B,110,1
-60,F,Single-ply,F-O,Jerri Lippert,105,,B,105,2
+60,F,Single-ply,F-O,Jerri-Lynn Lippert,105,,B,105,2
 60,F,Single-ply,F-O,Angie Overdeer,95,,B,95,3
 60,F,Single-ply,F-LT,Bettina Altizer,110,,B,110,1
-60,F,Single-ply,F-LT,Jerri Lippert,105,,B,105,2
+60,F,Single-ply,F-LT,Jerri-Lynn Lippert,105,,B,105,2
 67.5,F,Single-ply,F-O,Lynn Frankmann,85,,B,85,1
 67.5,F,Single-ply,F-O,Christy Melton,75,,B,75,2
 67.5,F,Single-ply,F-LT,Christy Melton,75,,B,75,1
@@ -60,21 +60,21 @@ WeightClassKg,Sex,Equipment,Division,Name,Best3BenchKg,Bench4Kg,Event,TotalKg,Pl
 75,M,Single-ply,M-O,Steve Ward,190,,B,190,3
 75,M,Single-ply,M-O,Andy Furnas,175,,B,175,4
 75,M,Single-ply,M-O,Mike Didonato,170,,B,170,5
-75,M,Single-ply,M-O,Paul Flemming,165,,B,165,6
+75,M,Single-ply,M-O,Paul Fleming #2,165,,B,165,6
 75,M,Single-ply,M-LT,Andy Furnas,175,,B,175,1
 75,M,Single-ply,M-LT,Jonah Roberts,172.5,,B,172.5,2
 75,M,Single-ply,M-LT,Nick Mercorelli,167.5,,B,167.5,3
-75,M,Single-ply,M-LT,Paul Fleming,125,,B,125,4
+75,M,Single-ply,M-LT,Paul Fleming #2,165,,B,165,4
 75,M,Single-ply,M-LT,Gary Reale,122.5,,B,122.5,5
 75,M,Single-ply,M-LT,Drew Lindsey,115,,B,115,6
 75,M,Single-ply,M-PF,Nick Merorelli,167.5,,B,167.5,1
-75,M,Single-ply,M-PF,Paul Fleming,165,,B,165,2
+75,M,Single-ply,M-PF,Paul Fleming #2,165,,B,165,2
 75,M,Raw,MR-O,David Seman,130,,B,130,1
 75,M,Single-ply,M-Jr,Mike Didonato,170,,B,170,1
 75,M,Single-ply,M-Jr,Jonathan Gray,160,,B,160,2
 75,M,Single-ply,M-Jr,Chad Norris,125,,B,125,3
 75,M,Single-ply,M-C,Jonathan Gray,160,,B,160,1
-82.5,M,Single-ply,M-O,Leonard McCormick Jr,220,227.5,B,220,1
+82.5,M,Single-ply,M-O,Leonard McCormick,220,227.5,B,220,1
 82.5,M,Single-ply,M-O,Scott Kerman,205,,B,205,2
 82.5,M,Single-ply,M-O,Tim Rickett,200,,B,200,3
 82.5,M,Single-ply,M-O,Steve Spinelli,200,,B,200,4
@@ -214,7 +214,7 @@ WeightClassKg,Sex,Equipment,Division,Name,Best3BenchKg,Bench4Kg,Event,TotalKg,Pl
 82.5,M,Single-ply,M-M1a,Pat Carroll,142.5,,B,142.5,4
 82.5,M,Single-ply,M-M1b,Raymond Manes,137.5,,B,137.5,1
 82.5,M,Single-ply,M-M2a,Jim Klostergard,180,,B,180,1
-82.5,M,Single-ply,M-M2a,William McLaughlin,157.5,,B,157.5,2
+82.5,M,Single-ply,M-M2a,William McLaughlin #3,157.5,,B,157.5,2
 82.5,M,Single-ply,M-M2a,Richard Goldsmith,147.5,,B,147.5,3
 82.5,M,Single-ply,M-M2a,Jon Springmeyer,137.5,,B,137.5,4
 82.5,M,Single-ply,M-M2b,Robert Sowala,125,,B,125,1

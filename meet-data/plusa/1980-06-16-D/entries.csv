@@ -9,7 +9,7 @@ L. Bonham,56,Open,M,,124.74,83.91,142.88,351.53,SBD,Single-ply,3
 G. Kochi,56,Open,M,,104.33,83.91,142.88,331.12,SBD,Single-ply,4
 M. Baker,56,Open,M,,108.86,70.31,149.69,328.85,SBD,Single-ply,5
 A. Retes,56,Open,M,,97.52,49.9,113.4,260.82,SBD,Single-ply,6
-D. Adams,56,Open,M,,90.72,38.56,104.33,233.6,SBD,Single-ply,7
+D. Adams,56,Open,F,,90.72,38.56,104.33,233.6,SBD,Single-ply,7
 N. Longoria,56,Open,M,,74.84,36.29,90.72,201.85,SBD,Single-ply,8
 K. Von Schoech,60,Open,M,,154.22,113.4,176.9,444.52,SBD,Single-ply,1
 P. Horace,60,Open,M,,136.08,102.06,192.78,430.91,SBD,Single-ply,2
@@ -17,12 +17,12 @@ L. Gioia,60,Open,M,,145.15,99.79,174.63,419.57,SBD,Single-ply,3
 A. Kestler,60,Open,M,,136.08,120.2,158.76,415.04,SBD,Single-ply,4
 T. Shiavo,60,Open,M,,145.15,102.06,158.76,405.97,SBD,Single-ply,5
 E. Elauria,60,Open,M,,129.27,120.2,136.08,385.55,SBD,Single-ply,6
-D. Goldstein,60,Open,M,,117.93,86.18,158.76,362.87,SBD,Single-ply,7
-J. Demoss,60,Open,M,,117.93,86.18,145.15,349.27,SBD,Single-ply,8
+David Goldstein,60,Open,M,,117.93,86.18,158.76,362.87,SBD,Single-ply,7
+J. DeMoss,60,Open,M,,117.93,86.18,145.15,349.27,SBD,Single-ply,8
 P. Evans,60,Open,M,,92.99,63.5,136.08,292.57,SBD,Single-ply,9
 F. Johnstone,60,Open,M,,90.72,81.65,117.93,290.3,SBD,Single-ply,10
 C. Whistler,60,Open,M,,63.5,45.36,113.4,222.26,SBD,Single-ply,11
-G. Bass,67.5,Open,M,,167.83,133.81,213.19,514.83,SBD,Single-ply,1
+George Bass,67.5,Open,M,,167.83,133.81,213.19,514.83,SBD,Single-ply,1
 A. Dempster,67.5,Open,M,,154.22,124.74,208.65,487.61,SBD,Single-ply,2
 J. Chow,67.5,Open,M,,142.88,142.88,190.51,476.27,SBD,Single-ply,3
 R. Zahniser,67.5,Open,M,,154.22,102.06,181.44,437.72,SBD,Single-ply,4
@@ -96,7 +96,7 @@ A. Cardero,110,Open,M,,142.5,90,172.5,405,SBD,Single-ply,5
 C. Walker,125,Open,M,,200,132.5,220,552.5,SBD,Single-ply,1
 R. VanUnen,125,Open,M,,192.5,150,192.5,535,SBD,Single-ply,2
 L. Williams,125,Open,M,,125,92.5,210,427.5,SBD,Single-ply,3
-E. Brock,125+,Open,M,,220,205,207.5,632.5,SBD,Single-ply,1
+Ed Brock,125+,Open,M,,220,205,207.5,632.5,SBD,Single-ply,1
 W. Wallis,125+,Open,M,,197.5,137.5,227.5,562.5,SBD,Single-ply,2
 B. Torre,125+,Open,M,,170,150,217.5,537.5,SBD,Single-ply,3
 Jim Lem,,Masters,M,80.74,285,167.5,287.5,740,SBD,Single-ply,1

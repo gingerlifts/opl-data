@@ -297,4 +297,5 @@
     IA-2014-01 = ["ExemptWeightClassConsistency"] # Unknown bodyweights and classes.
     IA-2015-02 = ["ExemptWeightClassConsistency"] # Unknown bodyweights and classes.
     NS-2015-04 = ["ExemptWeightClassConsistency"] # Unknown bodyweights and classes.
-    NS-2018-01 = ["ExemptDivision"] # Ashton Rouska wore Wraps.
+    NS-2018-01 = ["ExemptDivision"] # Ashton Rouska wore Wraps in Single-ply.
+    2019-03-03 = ["ExemptDivision"] # Amanda Lawrence was Raw in Single-ply.

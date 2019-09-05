@@ -1,7 +1,7 @@
 Name,WeightClassKg,BodyweightKg,Division,Sex,Event,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench3Kg,Best3BenchKg,Bench4Kg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Age,Equipment,Place
 Bonnie Aerts,56,,Open,F,B,,,,,,,62.5,65,,,,,,62.5,,Single-ply,1
 T. Kalfos,75,,Open,F,B,,,,,,,52.5,,,,,,,52.5,,Single-ply,1
-C. Westin,75,,Open,F,B,,,,,,,,,,,,,,,,Single-ply,DQ
+Cara Westin,75,,Open,F,B,,,,,,,,,,,,,,,,Single-ply,DQ
 Griselda Gonzalez,90+,,Open,F,B,,,,,,,115,,,,,,,115,19,Raw,1
 William Garcia,56,,Open,M,B,,,,,,,135,,,,,,,135,,Single-ply,1
 S. Bloomer,60,,Open,M,B,,,,,,,120,,,,,,,120,,Single-ply,2
@@ -21,7 +21,7 @@ J. Hunter,100,,Open,M,B,,,,,,,197.5,,,,,,,197.5,,Single-ply,1
 T. Robinson,100,,Open,M,B,,,,,,,155,,,,,,,155,,Single-ply,2
 Juan Laija,110,,Open,M,B,,,,,,,260,,,,,,,260,,Single-ply,1
 E. Argumedo,110,,Open,M,B,,,,,,,192.5,,,,,,,192.5,,Single-ply,2
-M. Lutz,125,,Open,M,B,,,,,,,260,,,,,,,260,,Single-ply,1
+Mike Lutz,125,,Open,M,B,,,,,,,260,,,,,,,260,,Single-ply,1
 Alan Aerts,125,,Open,M,B,,,,,,,215,,,,,,,215,,Single-ply,2
 J. Keeley,125,,Open,M,B,,,,,,,150,,,,,,,150,,Single-ply,3
 Mark Bell,140,,Open,M,B,,,,,,,,,,,,,,,,Single-ply,DQ
@@ -29,7 +29,7 @@ Richard Lopez,140+,,Open,M,B,,,,,,,292.5,,,,,,,292.5,,Single-ply,1
 J. Kurland,140+,,Open,M,B,,,,,,,142.5,,,,,,,142.5,,Single-ply,2
 Bonnie Aerts,56,,Open,F,BD,,,,,,,62.5,65,,,,112.5,,175,,Single-ply,1
 K. Geoffrey,56,,Open,F,BD,,,,,,,35,,,,,87.5,,122.5,,Single-ply,2
-G. Puckett,60,,Open,F,BD,,,,,,,62.5,,,,,117.5,120,180,,Single-ply,1
+Georgiann Puckett,60,,Open,F,BD,,,,,,,62.5,,,,,117.5,120,180,,Single-ply,1
 C. Keating,60,,Open,F,BD,,,,,,,42.5,,,,,112.5,,155,,Single-ply,2
 E. Kearney,60,,Open,F,BD,,,,,,,40,,,,,95,,135,,Single-ply,3
 T. Kalfos,75,,Open,F,BD,,,,,,,52.5,,,,,92.5,,145,,Single-ply,1
@@ -53,9 +53,9 @@ Becky Rich,60,,Open,F,SBD,,,,130,,,90,,,,,145,,365,,Wraps,1
 D. Puckett,60,,Open,F,SBD,,,,77.5,,,62.5,,,,,117.5,120,257.5,,Single-ply,2
 C. Keating,60,,Open,F,SBD,,,,72.5,,,42.5,,,,,112.5,,227.5,,Single-ply,3
 E. Kearney,60,,Open,F,SBD,,,,55,,,40,,,,,95,,190,,Single-ply,4
-G. Blackwell,75,,Open,F,SBD,,,,165,,,82.5,,,,,145,,392.5,,Single-ply,1
+Gia Blackwell,75,,Open,F,SBD,,,,165,,,82.5,,,,,145,,392.5,,Single-ply,1
 T. Kalfos,75,,Open,F,SBD,,,,80,,,52.5,,,,,92.5,,225,,Single-ply,2
-C. Westin,75,,Open,F,SBD,,,,185,,,,,,,,,,,,Single-ply,DQ
+Cara Westin,75,,Open,F,SBD,,,,185,,,,,,,,,,,,Single-ply,DQ
 N. Stern,82.5,,Open,F,SBD,,,,,,,,,,,,,,,,Single-ply,DQ
 Janet Loveall,90,87.54,Open,F,SBD,,,227.5,227.5,145,,145,,,,210,210,,582.5,,Single-ply,1
 R. Cove,75,,Open,M,SBD,,,,187.5,,,135,,,,,200,,522.5,,Single-ply,1

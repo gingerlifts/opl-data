@@ -195,7 +195,7 @@ DQ,Sophia Cabrera,CA,75,71.4,,29,,,,,F,Open,Raw,SBD,,,,Yes
 1,Carol Smolsky,NE,67.5,65.6,,60,102.5,62.5,132.5,297.5,F,Masters 60-64,Raw,SBD,,,,Yes
 2,Jo-Ann Martinez,CO,67.5,64.3,,60,97.5,62.5,135,295,F,Masters 60-64,Raw,SBD,,,,Yes
 3,Christine Fox,MO,67.5,66.6,,60,50,42.5,92.5,185,F,Masters 60-64,Raw,SBD,,,,Yes
-1,Mindy Polk,NV,75,74.4,,40,110,65,152.5,327.5,F,Masters 40-44,Raw,SBD,,,,Yes
+1,Mindy Polk,NV,75,74.4,1979-03-22,40,110,65,152.5,327.5,F,Masters 40-44,Raw,SBD,,,,Yes
 1,Cynthia Browning,IN,75,73.3,,49,135,105,185,425,F,Masters 45-49,Raw,SBD,,,,Yes
 1,Katherine Brown,TX,75,74,,52,137.5,77.5,165,380,F,Masters 50-54,Raw,SBD,,,,Yes
 DQ,Debbie Nelson,WA,75,73.2,,53,,47.5,137.5,,F,Masters 50-54,Raw,SBD,,,,Yes
@@ -303,7 +303,7 @@ DQ,Terrence Rooney,MA,90,87.4,,28,,152.5,232.5,,M,Open,Raw,SBD,,,,Yes
 7,Eric Hernandez,CA,100,99.5,,26,215,147.5,275,637.5,M,Open,Raw,SBD,,,,Yes
 8,Zachary Vassallo-Perez,WY,100,96.4,,24,215,142.5,262.5,620,M,Open,Raw,SBD,,,,Yes
 9,Elijah Vroman,MO,100,97.6,,18,220,147.5,237.5,605,M,Open,Raw,SBD,,,,Yes
-10,Ian Sanchez,NM,100,97.8,,25,217.5,125,257.5,600,M,Open,Raw,SBD,,,,Yes
+10,Ian Sanchez #1,NM,100,97.8,,25,217.5,125,257.5,600,M,Open,Raw,SBD,,,,Yes
 11,Michael Arroyo,CA,100,96.2,,22,215,132.5,237.5,585,M,Open,Raw,SBD,,,,Yes
 12,Zachary Underwood,OH,100,97.2,,29,190,117.5,242.5,550,M,Open,Raw,SBD,,,,Yes
 13,Lance Carmichael,CA,100,98.9,,31,185,127.5,232.5,545,M,Open,Raw,SBD,,,,Yes
@@ -449,7 +449,7 @@ DQ,Patrick Diggins,NV,140,129.6,,59,165,,,,M,Masters 55-59,Wraps,SBD,,,,Yes
 1,James Grinstead,CA,100,99,,30,277.5,175,260,712.5,M,Open,Single-ply,SBD,,,,Yes
 1,Joe Walden,KS,82.5,80.4,,62,182.5,105,197.5,485,M,Masters 60-64,Single-ply,SBD,,115,,Yes
 1,Keith Kanemoto,CA,90,86.1,,60,272.5,195,237.5,705,M,Masters 60-64,Single-ply,SBD,,,,Yes
-1,Parry Markle,ID,110,101.6,,60,227.5,215,292.5,735,M,Masters 60-64,Single-ply,SBD,,,,Yes
+DD,Parry Markle,ID,110,101.6,,60,227.5,215,292.5,,M,Masters 60-64,Single-ply,SBD,,,,Yes
 1,Betsy Spann,CA,67.5,67.3,,62,102.5,77.5,147.5,327.5,F,Open,Multi-ply,SBD,,,,Yes
 1,Betsy Spann,CA,67.5,67.3,,62,102.5,77.5,147.5,327.5,F,Masters 60-64,Multi-ply,SBD,,,,Yes
 1,Brooke Smith,TX,60,59.4,,22,,72.5,,72.5,F,Juniors 20-23,Raw,B,,75,,Yes

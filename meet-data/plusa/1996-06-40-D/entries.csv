@@ -1,5 +1,5 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Age,Place
-R. McCarty,67.5,Open,M,,162.5,,162.5,B,Single-ply,,1
+Ralph McCarty,67.5,Open,M,,162.5,,162.5,B,Single-ply,,1
 S. Grosso,67.5,Open,M,,135,,135,B,Single-ply,,2
 S. Weingust,67.5,Open,M,,117.5,,117.5,B,Single-ply,,3
 M. Doucet,67.5,Open,M,,107.5,,107.5,B,Single-ply,,4
@@ -21,11 +21,11 @@ C. Goode,90,Open,M,,150,,150,B,Single-ply,,6
 J. West,90,Open,M,,147.5,,147.5,B,Single-ply,,7
 C. Pamphillis,90,Open,M,,,,,B,Single-ply,,DQ
 M. Randol,100,Open,M,,197.5,,197.5,B,Single-ply,,1
-F. Silva Jr,101,Open,M,,170,,170,B,Single-ply,,1
-H. Ortega,102,Open,M,,165,,165,B,Single-ply,,1
-J. Holt,103,Open,M,,,,,B,Single-ply,,DQ
+Flip Silva Jr,100,Open,M,,170,,170,B,Single-ply,,2
+H. Ortega,100,Open,M,,165,,165,B,Single-ply,,3
+J. Holt,100,Open,M,,,,,B,Single-ply,,DQ
 C Strahan,110,Open,M,,170,,170,B,Single-ply,,1
-T. Cardella,110,Open,M,,167.5,,167.5,B,Single-ply,,2
+Tony Cardella,110,Open,M,,167.5,,167.5,B,Single-ply,,2
 T. Perzigian,110,Open,M,,,,,B,Single-ply,,DQ
 Myron Heronema,125,Open,M,,247.5,,247.5,B,Single-ply,,1
 Tiny Meeker,125,Open,M,,220,,220,B,Single-ply,,2
@@ -75,7 +75,7 @@ A. Suarez,100,Below Class I,M,232.5,190,247.5,670,SBD,Single-ply,,3
 L. Neef,100,Below Class I,M,260,147.5,240,647.5,SBD,Single-ply,,4
 H. Cowey,100,Below Class I,M,232.5,165,245,642.5,SBD,Single-ply,,5
 J. Fox,100,Below Class I,M,217.5,150,237.5,605,SBD,Single-ply,,6
-F. Silva Jr,100,Below Class I,M,212.5,170,200,582.5,SBD,Single-ply,,7
+Flip Silva Jr,100,Below Class I,M,212.5,170,200,582.5,SBD,Single-ply,,7
 C. Ballard,100,Below Class I,M,205,145,225,575,SBD,Single-ply,,8
 J. Holt,100,Below Class I,M,,,,,SBD,Single-ply,,DQ
 Mark Blankley,110,Below Class I,M,282.5,235,282.5,800,SBD,Single-ply,,1
@@ -94,9 +94,9 @@ T. Lytel,125,Below Class I,M,237.5,115,255,607.5,SBD,Single-ply,,5
 R. LeGrande,125+,Below Class I,M,260,145,217.5,622.5,SBD,Single-ply,,1
 John Tyree,82.5,Masters 40-49,M,250,170,292.5,712.5,SBD,Single-ply,,1
 A. Menton,82.5,Masters 40-49,M,217.5,,215,,SBD,Single-ply,,DQ
-M. Ford,90,Masters 40-49,M,252.5,107.5,252.5,612.5,SBD,Single-ply,,1
+Mike Ford,90,Masters 40-49,M,252.5,107.5,252.5,612.5,SBD,Single-ply,,1
 B. Wright,90,Masters 40-49,M,125,142.5,182.5,450,SBD,Single-ply,,2
-S. Rosenberg,100,Masters 40-49,M,232.5,142.5,247.5,622.5,SBD,Single-ply,,1
+Steve Rosenberg,100,Masters 40-49,M,232.5,142.5,247.5,622.5,SBD,Single-ply,,1
 Gabriel Moreno,100,Masters 40-49,M,232.5,147.5,220,600,SBD,Single-ply,,2
 M. Villarreal,100,Masters 40-49,M,227.5,147.5,205,580,SBD,Single-ply,,3
 J. Leitner,100,Masters 40-49,M,205,162.5,205,572.5,SBD,Single-ply,,4
@@ -112,8 +112,8 @@ R. MacDonald,110,Masters 50+,M,125,147.5,142.5,415,SBD,Single-ply,,1
 Hal Hudson,125,Masters 50+,M,210,137.5,245,592.5,SBD,Single-ply,,1
 C. Stine,56,Open,M,,,,,SBD,Single-ply,,DQ
 Ralph McCarty,67.5,Open,M,217.5,162.5,215,595,SBD,Single-ply,,1
-Robert Blount Jr,67.5,Open,M,197.5,117.5,240,555,SBD,Single-ply,,2
-M. Duhon,67.5,Open,M,177.5,112.5,192.5,482.5,SBD,Single-ply,,3
+Robert Blount,67.5,Open,M,197.5,117.5,240,555,SBD,Single-ply,,2
+Michael Duhon,67.5,Open,M,177.5,112.5,192.5,482.5,SBD,Single-ply,,3
 D. Hensley,75,Open,M,250,150,260,660,SBD,Single-ply,,1
 Luis Zarnora,82.5,Open,M,275,160,305,740,SBD,Single-ply,,1
 John Tyree,82.5,Open,M,250,170,292.5,712.5,SBD,Single-ply,,2
@@ -123,7 +123,7 @@ D. Madere,90,Open,M,292.5,202.5,257.5,752.5,SBD,Single-ply,,1
 Randy Nesuda,90,Open,M,260,160,260,680,SBD,Single-ply,,2
 J. Garcia,90,Open,M,260,160,250,670,SBD,Single-ply,,3
 Pete Lozano,90,Open,M,250,160,240,650,SBD,Single-ply,,4
-M. Ford,90,Open,M,252.5,107.5,252.5,612.5,SBD,Single-ply,,5
+Mike Ford,90,Open,M,252.5,107.5,252.5,612.5,SBD,Single-ply,,5
 C. Tunsel,90,Open,M,,,,,SBD,Single-ply,,DQ
 C. Pamphilis,90,Open,M,,,,,SBD,Single-ply,,DQ
 Larry Hartnett,100,Open,M,265,175,280,720,SBD,Single-ply,,1
@@ -157,14 +157,14 @@ D. Sperry,90,Teen,M,140,95,170,405,SBD,Single-ply,,2
 B. Frazier,100,Teen,M,255,165,270,690,SBD,Single-ply,,1
 R. Davis,100,Teen,M,160,137.5,227.5,525,SBD,Single-ply,,2
 D. Vaughn,100,Teen,M,145,100,185,430,SBD,Single-ply,,3
-T. Cardella,110,Teen,M,290,165,272.5,727.5,SBD,Single-ply,,1
+Tony Cardella,110,Teen,M,290,165,272.5,727.5,SBD,Single-ply,,1
 J. King,110,Teen,M,215,152.5,227.5,595,SBD,Single-ply,,2
 C. Loggins,125,Teen,M,310,185,307.5,802.5,SBD,Single-ply,,1
 L. Garcia,125,Teen,M,320,147.5,227.5,695,SBD,Single-ply,,2
 R. Forrest,125,Teen,M,130,55,150,335,SBD,Single-ply,,3
 R. Schumann,125+,Teen,M,245,127.5,240,612.5,SBD,Single-ply,,1
-J. Soliz,125+,Teen,M,200,102.5,182.5,485,SBD,Single-ply,,2
-G. Hartmann,48,Open,F,100,67.5,130,297.5,SBD,Single-ply,,1
+Jesse Soliz III,125+,Teen,M,200,102.5,182.5,485,SBD,Single-ply,,2
+Glenna Hartmann,48,Open,F,100,67.5,130,297.5,SBD,Single-ply,,1
 Valerie Luna,52,Open,F,115,45,125,285,SBD,Single-ply,,1
 S. Ballard,52,Open,F,72.5,57.5,82.5,212.5,SBD,Single-ply,,2
 Toni Barse,56,Open,F,115,72.5,115,302.5,SBD,Single-ply,,1

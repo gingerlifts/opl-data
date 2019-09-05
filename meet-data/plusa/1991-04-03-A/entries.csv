@@ -2,7 +2,7 @@ Name,Age,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,To
 Valdiviez,,44,Open,F,105,55,120,280,SBD,Single-ply,1
 Gennero,,44,Open,F,92.5,55,122.5,270,SBD,Single-ply,2
 Davis,,48,Open,F,100,45,115,260,SBD,Single-ply,1
-Henry,,52,Open,F,130,77.5,160,367.5,SBD,Single-ply,2
+Krystal Henry,,52,Open,F,130,77.5,160,367.5,SBD,Single-ply,2
 Stauffenberger,,52,Open,F,115,65,142.5,322.5,SBD,Single-ply,1
 Marich,,52,Open,F,92.5,52.5,100,245,SBD,Single-ply,3
 Annette Schneidmill,,56,Open,F,137.5,75,150,362.5,SBD,Single-ply,1
@@ -19,7 +19,7 @@ Ervin,,67.5,Open,F,122.5,52.5,150,325,SBD,Single-ply,2
 Smith,,67.5,Open,F,120,70,132.5,322.5,SBD,Single-ply,3
 Wendland,,67.5,Open,F,150,,,,SBD,Single-ply,DQ
 Shontel Vice,,75,Open,F,122.5,62.5,147.5,332.5,SBD,Single-ply,1
-Gill,,75,Open,F,115,57.5,140,312.5,SBD,Single-ply,2
+Susan Gill,,75,Open,F,115,57.5,140,312.5,SBD,Single-ply,2
 Robertson,,82.5,Open,F,,,,,SBD,Single-ply,DQ
 Valerie Perry,,90+,Open,F,215,105,227.5,547.5,SBD,Single-ply,1
 Rice,,90+,Open,F,127.5,67.5,170,365,SBD,Single-ply,2
@@ -90,7 +90,7 @@ Dave Passon,,100,Pure,M,330,190,282.5,802.5,SBD,Single-ply,3
 Adams,,100,Pure,M,317.5,187.5,282.5,787.5,SBD,Single-ply,4
 Bales,,100,Pure,M,282.5,187.5,265,735,SBD,Single-ply,5
 Smith,,100,Pure,M,272.5,137.5,305,715,SBD,Single-ply,6
-Keller #1,,100,Pure,M,287.5,177.5,250,715,SBD,Single-ply,7
+Robert Keller #1,,100,Pure,M,287.5,177.5,250,715,SBD,Single-ply,7
 Tom Weeks,,100,Pure,M,292.5,150,265,707.5,SBD,Single-ply,8
 Puccino,,100,Pure,M,262.5,175,267.5,705,SBD,Single-ply,9
 Willie McCoy,,100,Pure,M,155,160,245,560,SBD,Single-ply,10
@@ -107,7 +107,7 @@ Cohen,,110,Pure,M,280,177.5,297.5,755,SBD,Single-ply,4
 Hammon,,110,Pure,M,305,182.5,250,737.5,SBD,Single-ply,5
 Brown,,110,Pure,M,305,182.5,250,737.5,SBD,Single-ply,6
 O'Donnell,,110,Pure,M,262.5,175,260,697.5,SBD,Single-ply,7
-Ferguson,,110,Pure,M,272.5,177.5,227.5,677.5,SBD,Single-ply,8
+Ed Ferguson,,110,Pure,M,272.5,177.5,227.5,677.5,SBD,Single-ply,8
 Garcia,,110,Pure,M,250,185,227.5,662.5,SBD,Single-ply,9
 Wilcox,,110,Pure,M,132.5,112.5,150,395,SBD,Single-ply,10
 J. Britton,,125,Pure,M,295,217.5,245,757.5,SBD,Single-ply,1
@@ -179,7 +179,7 @@ Blake,,110,Natural,M,267.5,182.5,267.5,717.5,SBD,Single-ply,2
 Ingram,,110,Natural,M,275,155,270,700,SBD,Single-ply,3
 O'Donnell,,110,Natural,M,262.5,175,260,697.5,SBD,Single-ply,4
 Sacco,,110,Natural,M,272.5,157.5,250,680,SBD,Single-ply,5
-Ferguson,,110,Natural,M,272.5,177.5,227.5,677.5,SBD,Single-ply,6
+Ed Ferguson,,110,Natural,M,272.5,177.5,227.5,677.5,SBD,Single-ply,6
 Meyers,,110,Natural,M,262.5,137.5,272.5,672.5,SBD,Single-ply,7
 Garcia,,110,Natural,M,250,185,227.5,662.5,SBD,Single-ply,8
 John Mattei,,110,Natural,M,252.5,162.5,240,655,SBD,Single-ply,9
@@ -219,7 +219,7 @@ Tony Cardin,,82.5,Submasters 33-39,M,267.5,162.5,255,685,SBD,Single-ply,4
 Bradham,,82.5,Submasters 33-39,M,242.5,172.5,247.5,662.5,SBD,Single-ply,5
 Spicer,,82.5,Submasters 33-39,M,240,152.5,232.5,625,SBD,Single-ply,6
 K. Hryb,,82.5,Submasters 33-39,M,205,125,237.5,567.5,SBD,Single-ply,7
-S. Rosenberg,,82.5,Submasters 33-39,M,207.5,127.5,227.5,562.5,SBD,Single-ply,8
+Steve Rosenberg,,82.5,Submasters 33-39,M,207.5,127.5,227.5,562.5,SBD,Single-ply,8
 Rodriguer,,82.5,Submasters 33-39,M,212.5,122.5,222.5,557.5,SBD,Single-ply,9
 Stahl,,82.5,Submasters 33-39,M,190,130,232.5,552.5,SBD,Single-ply,10
 Alsteen,,82.5,Submasters 33-39,M,200,125,200,525,SBD,Single-ply,12
@@ -264,7 +264,7 @@ Scott,,82.5,Masters 40-49,M,215,145,215,575,SBD,Single-ply,2
 Smith,,82.5,Masters 40-49,M,167.5,105,202.5,475,SBD,Single-ply,3
 Jensen,,82.5,Masters 40-49,M,167.5,125,182.5,475,SBD,Single-ply,4
 Brooks,,90,Masters 40-49,M,112.5,65,170,347.5,SBD,Single-ply,7
-Carman,,90,Masters 40-49,M,245,155,235,635,SBD,Single-ply,1
+Sam Carman,,90,Masters 40-49,M,245,155,235,635,SBD,Single-ply,1
 Piazza,,90,Masters 40-49,M,245,162.5,215,622.5,SBD,Single-ply,2
 Antal,,90,Masters 40-49,M,227.5,160,200,587.5,SBD,Single-ply,3
 Hollinger,,90,Masters 40-49,M,227.5,125,220,572.5,SBD,Single-ply,4

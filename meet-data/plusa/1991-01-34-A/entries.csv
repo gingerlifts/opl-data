@@ -6,7 +6,7 @@ R. Bartley,60,Teen 18-19,F,142.5,90,132.5,365,SBD,Single-ply,2
 B. Beech,75,Teen 16-17,F,130,67.5,137.5,335,SBD,Single-ply,1
 T. Peterson,52,Teen 14-15,M,110,50,117.5,277.5,SBD,Single-ply,1
 B. Sutton,52,Teen 14-15,M,75,82.5,95,252.5,SBD,Single-ply,2
-M. Hartman,52,Teen 16-17,M,187.5,92.5,185,465,SBD,Single-ply,1
+Mark Hartman #1,52,Teen 16-17,M,187.5,92.5,185,465,SBD,Single-ply,1
 Z. Scrip,52,Teen 16-17,M,127.5,70,137.5,335,SBD,Single-ply,2
 R. O'Conner,56,Teen 14-15,M,92.5,42.5,100,235,SBD,Single-ply,1
 E. Blocker,56,Teen 14-15,M,72.5,55,102.5,230,SBD,Single-ply,2
@@ -36,7 +36,7 @@ C. Marcus,82.5,Teen 18-19,M,182.5,102.5,200,485,SBD,Single-ply,1
 D. Anderson,82.5,Teen 18-19,M,,,,,SBD,Single-ply,DQ
 R. Robinson,90,Teen 14-15,M,142.5,132.5,182.5,457.5,SBD,Single-ply,1
 H. Carter,90,Teen 16-17,M,220,122.5,200,542.5,SBD,Single-ply,1
-R. Ray,90,Teen 18-19,M,250,192.5,230,672.5,SBD,Single-ply,1
+Ronnie Ray Jr,90,Teen 18-19,M,250,192.5,230,672.5,SBD,Single-ply,1
 J. Parrish,90,Teen 18-19,M,265,157.5,232.5,655,SBD,Single-ply,2
 C. Poston,90,Teen 18-19,M,255,147.5,237.5,640,SBD,Single-ply,3
 J. Most,90,Teen 18-19,M,227.5,150,240,617.5,SBD,Single-ply,4
@@ -95,21 +95,21 @@ R. Smith,90,Masters 45-49,M,187.5,97.5,187.5,472.5,SBD,Single-ply,1
 LB Baker,90,Masters 50-54,M,227.5,155,227.5,610,SBD,Single-ply,1
 Burt Rosenfield,90,Masters 55-59,M,185,137.5,227.5,550,SBD,Single-ply,2
 Larry McCauley,90,Masters 55-59,M,230,172.5,272.5,675,SBD,Single-ply,1
-M. Richards,90,Masters 65-69,M,197.5,140,205,542.5,SBD,Single-ply,1
+Mac Richards,90,Masters 65-69,M,197.5,140,205,542.5,SBD,Single-ply,1
 Joe DeVerville,100,Masters 40-44,M,297.5,217.5,295,810,SBD,Single-ply,1
 J. Bowman,100,Masters 40-44,M,260,155,247.5,662.5,SBD,Single-ply,2
 D. Hall,100,Masters 40-44,M,255,147.5,235,637.5,SBD,Single-ply,3
-M. Stone,100,Masters 45-49,M,265,172.5,250,687.5,SBD,Single-ply,1
+Mike Stone #1,100,Masters 45-49,M,265,172.5,250,687.5,SBD,Single-ply,1
 T. Bauers,100,Masters 50-54,M,250,137.5,250,637.5,SBD,Single-ply,1
 R. Spaulding,100,Masters 50-54,M,205,127.5,197.5,530,SBD,Single-ply,2
 E. Anderson,100,Masters 55-59,M,187.5,155,182.5,525,SBD,Single-ply,1
 H. McEvoy,100,Masters 60-64,M,120,117.5,187.5,425,SBD,Single-ply,1
 Glen Stevans,110,Masters 40-44,M,335,182.5,295,812.5,SBD,Single-ply,1
-B. Rogers,110,Masters 40-44,M,305,197.5,290,792.5,SBD,Single-ply,2
+Buddy Rogers,110,Masters 40-44,M,305,197.5,290,792.5,SBD,Single-ply,2
 T. Hogan,110,Masters 40-44,M,235,170,235,640,SBD,Single-ply,3
 R. Liss,110,Masters 40-44,M,212.5,172.5,250,635,SBD,Single-ply,4
-R. Ray,110,Masters 45-49,M,290,232.5,285,807.5,SBD,Single-ply,1
-B. Frye,110,Masters 45-49,M,297.5,182.5,272.5,752.5,SBD,Single-ply,2
+Ronnie Ray Sr,110,Masters 45-49,M,290,232.5,285,807.5,SBD,Single-ply,1
+Butch Frye,110,Masters 45-49,M,297.5,182.5,272.5,752.5,SBD,Single-ply,2
 D. Taylor #4,110,Masters 50-54,M,300,165,262.5,727.5,SBD,Single-ply,1
 H. LeMaster,110,Masters 50-54,M,205,117.5,182.5,505,SBD,Single-ply,2
 Dean Eakin,110,Masters 55-59,M,70,70,70,210,SBD,Single-ply,1
@@ -123,5 +123,5 @@ Dean Glitt,140,Masters 40-44,M,300,187.5,192.5,680,SBD,Single-ply,1
 M. Parham,140,Masters 40-44,M,185,120,185,490,SBD,Single-ply,2
 R. Gillenbardo,140,Masters 40-44,M,182.5,115,160,457.5,SBD,Single-ply,3
 Larry Browning,140,Masters 45-49,M,227.5,147.5,240,615,SBD,Single-ply,1
-B. Coyer,140,Masters 50-54,M,197.5,,,,SBD,Single-ply,DQ
+Bob Coyer,140,Masters 50-54,M,197.5,,,,SBD,Single-ply,DQ
 C. Adams,140+,Masters 40-44,M,205,155,237.5,597.5,SBD,Single-ply,1

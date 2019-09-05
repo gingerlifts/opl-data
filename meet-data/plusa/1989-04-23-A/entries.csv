@@ -1,5 +1,5 @@
 Name,WeightClassKg,Division,Sex,Age,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
-Glen Murphy,52,Collegiate,M,,,140,87.5,157.5,385,SBD,Single-ply,1
+Glenn Murphy,52,Collegiate,M,,,140,87.5,157.5,385,SBD,Single-ply,1
 Jeff Ayers,52,Collegiate,M,,,162.5,92.5,105,360,SBD,Single-ply,2
 Chris Landsman,56,Collegiate,M,,,160,87.5,177.5,425,SBD,Single-ply,1
 Greg Kinsman,56,Collegiate,M,,,135,102.5,170,407.5,SBD,Single-ply,2
@@ -26,7 +26,7 @@ R. Phillips,90,Collegiate,M,,,230,170,242.5,642.5,SBD,Single-ply,2
 M. Graham,90,Collegiate,M,,,237.5,162.5,227.5,627.5,SBD,Single-ply,3
 Lou Hernandez,100,Collegiate,M,,,260,182.5,235,677.5,SBD,Single-ply,1
 Stephen Galicki,100,Collegiate,M,,,267.5,142.5,255,665,SBD,Single-ply,2
-Norman McClaney,100,Collegiate,M,,,227.5,152.5,270,650,SBD,Single-ply,3
+Norman McLaney,100,Collegiate,M,,,227.5,152.5,270,650,SBD,Single-ply,3
 D. LeBlanc,100,Collegiate,M,,,250,140,222.5,612.5,SBD,Single-ply,4
 A. Ritzler,100,Collegiate,M,,,197.5,137.5,202.5,537.5,SBD,Single-ply,5
 Mike Standfill,110,Collegiate,M,,,255,182.5,255,692.5,SBD,Single-ply,1
@@ -46,14 +46,14 @@ Shavonda Bland,82.5,Collegiate,F,,,142.5,70,132.5,345,SBD,Single-ply,1
 C. Dunn,82.5,Collegiate,F,,,115,70,132.5,317.5,SBD,Single-ply,2
 Bobby Adams #1,56,Open,M,,,200,125,200,525,SBD,Single-ply,1
 Bubba Wolford,67.5,Open,M,,,272.5,172.5,235,680,SBD,Single-ply,1
-R. Brown #8,67.5,Open,M,,,205,115,212.5,532.5,SBD,Single-ply,2
+Rick Brown,67.5,Open,M,,,205,115,212.5,532.5,SBD,Single-ply,2
 L. Schwartz,67.5,Open,M,,,200,115,150,465,SBD,Single-ply,3
 John Tyree,75,Open,M,,,282.5,167.5,292.5,742.5,SBD,Single-ply,1
 L. Castillo,75,Open,M,,,230,127.5,210,567.5,SBD,Single-ply,2
 Eddie Mooney,82.5,Open,M,,,310,207.5,327.5,845,SBD,Single-ply,1
 S. Auld,82.5,Open,M,,,302.5,150,280,732.5,SBD,Single-ply,2
 R. Williams,82.5,Open,M,,,260,172.5,265,697.5,SBD,Single-ply,3
-J. Wiseman,82.5,Open,M,,,250,137.5,237.5,625,SBD,Single-ply,4
+Jonathan Wiseman,82.5,Open,M,,,250,137.5,237.5,625,SBD,Single-ply,4
 C. Sandau,82.5,Open,M,,,232.5,157.5,235,625,SBD,Single-ply,5
 Rick Osburn,100,Open,M,,,340,192.5,322.5,855,SBD,Single-ply,1
 Michael Hanlon,100,Open,M,,,340,200,310,850,SBD,Single-ply,2
@@ -112,7 +112,7 @@ M. Holland,110,Class II,M,,,290,152.5,250,692.5,SBD,Single-ply,4
 L. Bryant,110,Class II,M,,,250,175,265,690,SBD,Single-ply,5
 R. Neel,110,Class II,M,,,265,165,257.5,687.5,SBD,Single-ply,6
 R. Bueche,110,Class II,M,,,245,182.5,240,667.5,SBD,Single-ply,7
-R. Ladd,110,Class II,M,44,,242.5,157.5,230,630,SBD,Single-ply,8
+Richard Ladd,110,Class II,M,44,,242.5,157.5,230,630,SBD,Single-ply,8
 A. White,110,Class II,M,,,210,110,197.5,517.5,SBD,Single-ply,9
 L. Baillo,125,Class II,M,,,230,135,240,605,SBD,Single-ply,1
 Marcellus Ivey,125+,Class II,M,,,270,185,237.5,692.5,SBD,Single-ply,1
@@ -165,7 +165,7 @@ Buddy Taylor,125+,Masters,M,46,,280,167.5,280,727.5,SBD,Single-ply,1
 Phillip Manicchia,67.5,State Open,M,,,250,187.5,250,687.5,SBD,Single-ply,1
 Ken Tyler,56,State Open,M,,,215,140,202.5,557.5,SBD,Single-ply,1
 David Contreras,75,State Open,M,,,277.5,192.5,237.5,707.5,SBD,Single-ply,1
-J. Wiseman,82.5,State Open,M,,,250,137.5,237.5,625,SBD,Single-ply,1
+Jonathan Wiseman,82.5,State Open,M,,,250,137.5,237.5,625,SBD,Single-ply,1
 Dan Gay,90,State Open,M,,,332.5,215,320,867.5,SBD,Single-ply,1
 Jeff Schmidt,90,State Open,M,,,275,195,292.5,762.5,SBD,Single-ply,2
 D. Nostrant,90,State Open,M,,,227.5,157.5,227.5,612.5,SBD,Single-ply,3

@@ -37,17 +37,17 @@ B. Bullock,90,Open,M,190,145,265,600,SBD,Single-ply,6
 Darrell Carnes,100,Open,M,310,220,332.5,862.5,SBD,Single-ply,1
 N. Burrough,100,Open,M,337.5,202.5,305,845,SBD,Single-ply,2
 Randy Heller,100,Open,M,327.5,197.5,265,790,SBD,Single-ply,3
-D. Beverland,100,Open,M,310,195,272.5,777.5,SBD,Single-ply,4
+Dirk Beverland,100,Open,M,310,195,272.5,777.5,SBD,Single-ply,4
 J. Olson,100,Open,M,277.5,195,272.5,745,SBD,Single-ply,5
 J. Trammel,100,Open,M,250,205,272.5,727.5,SBD,Single-ply,6
 Pat Gentry,110,Open,M,352.5,232.5,332.5,917.5,SBD,Single-ply,1
-D. Conners,110,Open,M,310,205,320,835,SBD,Single-ply,2
+Daryl Conners,110,Open,M,310,205,320,835,SBD,Single-ply,2
 J. Seager,110,Open,M,342.5,172.5,310,825,SBD,Single-ply,3
 J. Reeves,110,Open,M,290,220,295,805,SBD,Single-ply,4
 S. Weathersby,110,Open,M,227.5,147.5,227.5,602.5,SBD,Single-ply,5
 Jeff Thill,125,Open,M,340,237.5,357.5,935,SBD,Single-ply,1
 Mike Detrino,125,Open,M,340,185,310,835,SBD,Single-ply,2
-R. Walters,125,Open,M,305,195,317.5,817.5,SBD,Single-ply,3
+Ronnie Walters,125,Open,M,305,195,317.5,817.5,SBD,Single-ply,3
 T. Gray,125,Open,M,295,182.5,275,752.5,SBD,Single-ply,4
 G. Jefferson,52,Novice,M,120,95,162.5,377.5,SBD,Single-ply,1
 S. Jefferson,52,Novice,M,110,67.5,125,302.5,SBD,Single-ply,2
@@ -73,7 +73,7 @@ R. Herrick,75,Novice,M,132.5,82.5,195,410,SBD,Single-ply,9
 J. Snow,82.5,Novice,M,222.5,147.5,230,600,SBD,Single-ply,1
 A. Swain,82.5,Novice,M,210,127.5,240,577.5,SBD,Single-ply,2
 L. Travis,82.5,Novice,M,215,152.5,207.5,575,SBD,Single-ply,3
-B. Nusbann,82.5,Novice,M,207.5,125,232.5,565,SBD,Single-ply,4
+B. Nusbaum,82.5,Novice,M,207.5,125,232.5,565,SBD,Single-ply,4
 S. Glenn,82.5,Novice,M,175,175,200,550,SBD,Single-ply,5
 R. Stauffer,82.5,Novice,M,182.5,120,222.5,525,SBD,Single-ply,6
 K. Trevorah,82.5,Novice,M,205,105,212.5,522.5,SBD,Single-ply,7
@@ -110,15 +110,15 @@ K. Brown,110,Novice,M,227.5,150,242.5,620,SBD,Single-ply,8
 S. Weathersby,110,Novice,M,227.5,147.5,227.5,602.5,SBD,Single-ply,9
 C. Word,125,Novice,M,290,225,297.5,812.5,SBD,Single-ply,1
 R. Yon,125,Novice,M,227.5,125,305,657.5,SBD,Single-ply,2
-JH Williams,125,Novice,M,237.5,115,237.5,590,SBD,Single-ply,3
+H. Williams,125,Novice,M,237.5,115,237.5,590,SBD,Single-ply,3
 LB Baker,,Masters 40-49,M,260,167.5,237.5,665,SBD,Single-ply,3
 J. Rowler,,Masters 40-49,M,250,155,262.5,667.5,SBD,Single-ply,2
-F. Lee,,Masters 40-49,M,250,160,272.5,682.5,SBD,Single-ply,1
-K. Brown,,Masters 40-49,M,227.5,150,242.5,620,SBD,Single-ply,4
+F. Lee,110,Masters 40-49,M,250,160,272.5,682.5,SBD,Single-ply,1
+K. Brown,110,Masters 40-49,M,227.5,150,242.5,620,SBD,Single-ply,4
 D. Flerrick,,Masters 40-49,M,190,115,217.5,522.5,SBD,Single-ply,5
-J. Kirk,,Masters 40-49,M,137.5,157.5,220,515,SBD,Single-ply,6
-Tom Trevorah,,Masters 50-59,M,230,135,212.5,577.5,SBD,Single-ply,2
-H. Williams,,Masters 50-59,M,237.5,115,237.5,590,SBD,Single-ply,1
+J. Kirk,90+,Masters 40-49,M,137.5,157.5,220,515,SBD,Single-ply,6
+Tom Trevorah,82.5,Masters 50-59,M,230,135,212.5,577.5,SBD,Single-ply,2
+H. Williams,125,Masters 50-59,M,237.5,115,237.5,590,SBD,Single-ply,1
 B. Parker,,Masters 50-59,M,192.5,87.5,217.5,497.5,SBD,Single-ply,3
 H. Carter,,Masters 50-59,M,147.5,127.5,182.5,457.5,SBD,Single-ply,4
 Ellen Trevorah,,Masters 50-59,F,160,70,137.5,367.5,SBD,Single-ply,1

@@ -166,6 +166,13 @@
   background-image: linear-gradient(to right, $blue, $gold);
 }
 
+.blue_to_green {
+  $blue: #507CFF;
+  $green: #51DA27;
+  @include gradient-prereqs($green);
+  background-image: linear-gradient(to right, $blue, $green);
+}
+
 .blue_to_lightblue {
   $blue: #507CFF;
   $lightblue: #43D1FF;
@@ -206,6 +213,20 @@
   $white: #EDF2F4;
   @include gradient-prereqs($neongreen);
   background-image: linear-gradient(to right, $neongreen, $white);
+}
+
+.neongreen_to_royalblue {
+  $neongreen: #39ff14;
+  $royalblue: #507CFF;
+  @include gradient-prereqs($neongreen);
+  background-image: linear-gradient(to right, $neongreen, $royalblue);
+}
+
+.orange_to_green {
+  $orange: #FFA200;
+  $green: #F1DA27;
+  @include gradient-prereqs($orange);
+  background-image: linear-gradient(to right, $orange, $green);
 }
 
 .pink_to_lightblue {
@@ -296,6 +317,13 @@
   background-image: linear-gradient(to right, $red, $white);
 }
 
+.red_to_white_to_red {
+  $red: #FB3640;
+  $white: #EDF2F4;
+  @include gradient-prereqs($red);
+  background-image: linear-gradient(to right, $red, $white, $red);
+}
+
 .all_red_top_down {
   $red: #FB3640;
   $darker_red: #AE252C;
@@ -349,6 +377,60 @@
   background-image: linear-gradient(to bottom, #f00 40%, #fff 40%, #fff 80%, #1E8AFB 80%, #1E8AFB 100%);
 }
 
+// Designed by Johan Frisk.
+.johan_frisk {
+  @include gradient-prereqs(#000000);
+  font-weight: bold;
+  font-variant: small-caps;
+  text-decoration-line: none;
+  background-image: linear-gradient( to bottom, #bf262b, #ffa200 );
+  text-shadow: 0px -1px 3px #ffa20066;
+  letter-spacing: 1px;
+}
+
+.fire_animation {
+  animation: fire_animation 0.75s infinite linear alternate;
+}
+@keyframes fire_animation {
+  from { text-shadow: 0px -1px 3px #ffa20024; }
+  to { text-shadow: 0px -1px 3px #ffa200cc; }
+}
+
+// Runescape flash3
+@keyframes flash3 {
+  0%{
+    color: #00B000;
+  }
+  50%{
+    color: #80FF80;
+  }
+}
+
+.flash3 {
+  animation: flash3 0.45s steps(1, end) infinite;
+}
+
+// Runescape glow3
+@keyframes glow3 {
+  0%{
+    color: #FFFFFF;
+  } 25%{
+    color: #00B000;
+  } 50% {
+    color: #FFFFFF;
+  } 67.5%{
+    color: #00FFFF;
+  } 75% {
+    color: #0000FF;
+  } 100% {
+    color: #FFFFFF;
+  }
+}
+
+.glow3 {
+  animation: glow3 3s linear infinite;
+}
+
 .teal-shadow {
   // Sharp offset shadow in teal.
   // 1px blur is more readable than 0px blur at small sizes.
@@ -369,6 +451,10 @@
 
 .comicsans {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.papyrus {
+  font-family: "Papyrus";
 }
 
 .helvetica {

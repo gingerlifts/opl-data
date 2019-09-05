@@ -1,6 +1,6 @@
 Name,Age,WeightClassKg,Sex,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Place
 Donna McKinney,42,52,F,Open,138.35,81.65,156.49,376.48,Single-ply,SBD,1
-Matha Robins,37,56,F,Open,138.35,81.65,163.29,383.29,Single-ply,SBD,1
+Martha Robins,37,56,F,Open,138.35,81.65,163.29,383.29,Single-ply,SBD,1
 D. Jackson,40,56,F,Open,122.47,65.77,163.29,351.53,Single-ply,SBD,2
 Flo Stewart,,60,F,Open,129.27,68.04,174.63,371.95,Single-ply,SBD,1
 M. Hightower,35,75,F,Open,136.08,97.52,140.61,374.21,Single-ply,SBD,1
@@ -23,8 +23,8 @@ Al Bianchi,,100,M,Open,306.18,192.78,290.3,789.25,Single-ply,SBD,1
 T. Tapp,17,100,M,Open,238.14,176.9,258.55,673.59,Single-ply,SBD,2
 J. Siska,19,100,M,Open,199.58,99.79,199.58,498.95,Single-ply,SBD,G
 A. Rios,39,100,M,Open,,226.8,,226.8,Single-ply,B,G
-S. Hampton,,110,M,Open,335.66,190.51,306.18,832.34,Single-ply,SBD,2
-James Jacobs,,110,M,Open,335.66,229.06,317.52,882.24,Single-ply,SBD,1
+Stephen Hampton,,110,M,Open,335.66,190.51,306.18,832.34,Single-ply,SBD,2
+James Jacobs #1,,110,M,Open,335.66,229.06,317.52,882.24,Single-ply,SBD,1
 C. Sarvis,,110,M,Open,283.5,183.71,272.16,739.36,Single-ply,SBD,3
 O. Orengo,,110,M,Open,244.94,170.1,244.94,659.98,Single-ply,SBD,G
 M. Snajdr,,125,M,Open,278.96,,,,Single-ply,SBD,DQ

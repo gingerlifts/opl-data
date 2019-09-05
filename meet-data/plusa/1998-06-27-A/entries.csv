@@ -32,7 +32,7 @@ J. Marshall,85,Intermediate 24-29,M,250,157.5,245,652.5,SBD,Single-ply,1
 T. Homer,85,Intermediate 24-29,M,205,145,265,615,SBD,Single-ply,2
 W. Edmondson,85,Intermediate 24-29,M,187.5,137.5,237.5,562.5,SBD,Single-ply,3
 B. Thompson,93,Intermediate 24-29,M,242.5,170,230,642.5,SBD,Single-ply,1
-M. Zubmer,103,Intermediate 24-29,M,237.5,167.5,-215,190,SBD,Single-ply,1
+M. Zubmer,103,Intermediate 24-29,M,237.5,167.5,-215,,SBD,Single-ply,DQ
 C. Coy,127,Intermediate 24-29,M,285,160,282.5,727.5,SBD,Single-ply,1
 Z. Krempin,143,Intermediate 24-29,M,210,180,272.5,662.5,SBD,Single-ply,1
 Adam Shumaker,77.5,Juniors,M,190,127.5,230,547.5,SBD,Single-ply,1
@@ -87,7 +87,7 @@ D. Wilson #3,127,Natural,M,160,125,205,490,SBD,Single-ply,4
 David Oyler,143+,Natural,M,320,165,275,760,SBD,Single-ply,1
 Mike Ewoldsen,70,Pure,M,237.5,140,237.5,615,SBD,Single-ply,2
 M. Woodworth,70,Pure,M,237.5,150,230,617.5,SBD,Single-ply,1
-T. Perkins,77.5,Pure,M,292.5,155,230,677.5,SBD,Single-ply,1
+Terry Perkins,77.5,Pure,M,292.5,155,230,677.5,SBD,Single-ply,1
 D. Sorenson,77.5,Pure,M,255,155,227.5,637.5,SBD,Single-ply,2
 M. Andrus,85,Pure,M,220,162.5,260,642.5,SBD,Single-ply,1
 T. Homer,85,Pure,M,205,145,265,615,SBD,Single-ply,2
@@ -140,7 +140,7 @@ B. Melton,143,Submasters 30-34,M,250,185,255,690,SBD,Single-ply,1
 T. Gulney,143,Submasters 30-34,M,235,155,272.5,662.5,SBD,Single-ply,2
 David Oyler,143+,Submasters 30-34,M,320,165,275,760,SBD,Single-ply,1
 M. Woodworth,70,Submasters 35-39,M,237.5,150,230,617.5,SBD,Single-ply,1
-T. Perkins,77.5,Submasters 35-39,M,292.5,155,230,677.5,SBD,Single-ply,1
+Terry Perkins,77.5,Submasters 35-39,M,292.5,155,230,677.5,SBD,Single-ply,1
 B. Schnahel,77.5,Submasters 35-39,M,167.5,92.5,160,420,SBD,Single-ply,2
 B. Bales,77.5,Submasters 35-39,M,142.5,,,,SBD,Single-ply,DQ
 B. Broussard,85,Submasters 35-39,M,260,147.5,255,662.5,SBD,Single-ply,1

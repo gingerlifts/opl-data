@@ -2,7 +2,7 @@ Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 K. Emry,52,Open,F,100,65,110,275,SBD,Single-ply,1
 N. Jones,48,Natural,F,90,47.5,112.5,250,SBD,Single-ply,1
 Le N. Le,52,Natural,F,117.5,85,125,327.5,SBD,Single-ply,1
-L. Adams,60,Natural,F,170,82.5,187.5,440,SBD,Single-ply,1
+Lee-Ann Adams,60,Natural,F,170,82.5,187.5,440,SBD,Single-ply,1
 Cynthia Gensler,67.5,Natural,F,137.5,85,185,407.5,SBD,Single-ply,1
 K. Gardner,67.5,Natural,F,130,90,150,370,SBD,Single-ply,2
 J. Morency,75,Natural,F,95,37.5,112.5,245,SBD,Single-ply,1
@@ -10,8 +10,8 @@ Jon Arenberg,60,Natural,M,202.5,135,210,547.5,SBD,Single-ply,1
 G. Fernandes,60,Natural,M,92.5,97.5,182.5,372.5,SBD,Single-ply,2
 S. Lau,67.5,Natural,M,227.5,132.5,210,570,SBD,Single-ply,1
 S. Kato,67.5,Natural,M,207.5,152.5,207.5,567.5,SBD,Single-ply,2
-R. Cortes,67.5,Natural,M,182.5,120,220,522.5,SBD,Single-ply,3
-C. Balanga,67.5,Natural,M,200,132.5,187.5,520,SBD,Single-ply,4
+Robert Cortes,67.5,Natural,M,182.5,120,220,522.5,SBD,Single-ply,3
+Chris Balanga,67.5,Natural,M,200,132.5,187.5,520,SBD,Single-ply,4
 J. Drake,67.5,Natural,M,200,95,217.5,512.5,SBD,Single-ply,5
 A. Nelson,67.5,Natural,M,175,125,155,455,SBD,Single-ply,6
 J. Krebs,75,Natural,M,197.5,125,225,547.5,SBD,Single-ply,1
@@ -25,9 +25,9 @@ P. Surface,75,Natural,M,,,,,SBD,Single-ply,DQ
 Mike Laney,82.5,Natural,M,265,155,277.5,697.5,SBD,Single-ply,1
 J. Carreon,82.5,Natural,M,272.5,160,240,672.5,SBD,Single-ply,2
 Jesus Fragoso,82.5,Natural,M,227.5,152.5,282.5,662.5,SBD,Single-ply,3
-C. Meier,82.5,Natural,M,217.5,160,247.5,625,SBD,Single-ply,4
+Chris Meier,82.5,Natural,M,217.5,160,247.5,625,SBD,Single-ply,4
 W. Kindred,82.5,Natural,M,200,135,237.5,572.5,SBD,Single-ply,5
-J. Neyer,82.5,Natural,M,222.5,122.5,212.5,557.5,SBD,Single-ply,6
+John Neyer,82.5,Natural,M,222.5,122.5,212.5,557.5,SBD,Single-ply,6
 M. Garry,82.5,Natural,M,190,105,220,515,SBD,Single-ply,7
 J. Williams,82.5,Natural,M,227.5,175,62.5,465,SBD,Single-ply,8
 David Lewandowski,90,Natural,M,262.5,147.5,275,685,SBD,Single-ply,1
@@ -53,10 +53,10 @@ M. Morrissette,125,Natural,M,227.5,137.5,227.5,592.5,SBD,Single-ply,6
 Richard Schoenburger,125+,Natural,M,62.5,275,62.5,400,SBD,Single-ply,1
 S. Lau,67.5,Open,M,227.5,132.5,210,570,SBD,Single-ply,1
 J. Drake,67.5,Open,M,200,95,217.5,512.5,SBD,Single-ply,2
-C. Meier,82.5,Open,M,217.5,160,247.5,625,SBD,Single-ply,1
+Chris Meier,82.5,Open,M,217.5,160,247.5,625,SBD,Single-ply,1
 J. Lem,82.5,Open,M,65,65,240,370,SBD,Single-ply,2
 R. Fedkiw,90,Open,M,310,210,302.5,822.5,SBD,Single-ply,1
-B. Jasperson,90,Open,M,272.5,165,255,692.5,SBD,Single-ply,2
+Bruce Jasperson,90,Open,M,272.5,165,255,692.5,SBD,Single-ply,2
 J. Dean,90,Open,M,235,137.5,237.5,610,SBD,Single-ply,3
 J. Patrick,90,Open,M,150,140,227.5,517.5,SBD,Single-ply,4
 Scott Roberts,100,Open,M,320,205,305,830,SBD,Single-ply,1
@@ -68,7 +68,7 @@ G. Hogan,110,Open,M,272.5,152.5,320,745,SBD,Single-ply,2
 R. Casio,110,Open,M,272.5,192.5,272.5,737.5,SBD,Single-ply,3
 Steve Denison,125,Open,M,305,217.5,305,827.5,SBD,Single-ply,1
 P. Leonard,125,Open,M,300,187.5,320,807.5,SBD,Single-ply,2
-B. Meek,125,Open,M,310,202.5,290,802.5,SBD,Single-ply,3
+Brian Meek,125,Open,M,310,202.5,290,802.5,SBD,Single-ply,3
 S. McRitchie,125,Open,M,275,205,297.5,777.5,SBD,Single-ply,4
 Troy Morris,125,Open,M,295,190,287.5,772.5,SBD,Single-ply,5
 C. Milligan,125,Open,M,235,150,227.5,612.5,SBD,Single-ply,6

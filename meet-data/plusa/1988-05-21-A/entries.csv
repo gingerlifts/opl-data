@@ -20,7 +20,7 @@ C. Brooks,90,Natural,M,220,145,230,595,SBD,Single-ply,3
 C. Hulslander,90,Natural,M,217.5,145,207.5,570,SBD,Single-ply,4
 R. Taptto,90,Natural,M,220,120,217.5,557.5,SBD,Single-ply,5
 J. Flowers,100,Natural,M,282.5,147.5,242.5,672.5,SBD,Single-ply,1
-J. Buben,100,Natural,M,260,145,262.5,667.5,SBD,Single-ply,2
+Jay Buben,100,Natural,M,260,145,262.5,667.5,SBD,Single-ply,2
 D. Wilbur,125,Natural,M,205,125,210,540,SBD,Single-ply,1
 A. Thomas,125,Natural,M,,,,,SBD,Single-ply,DQ
 A. Napal,52,Open,F,115,67.5,137.5,320,SBD,Single-ply,1
@@ -33,7 +33,7 @@ E. Vaughn,75,Below Class II,M,222.5,157.5,227.5,607.5,SBD,Single-ply,1
 J. Detwieler,75,Below Class II,M,215,132.5,210,557.5,SBD,Single-ply,2
 M. Seiler,75,Below Class II,M,182.5,147.5,197.5,527.5,SBD,Single-ply,3
 T. Kelting,75,Below Class II,M,170,120,210,500,SBD,Single-ply,4
-K. Price,82.5,Below Class II,M,260,140,242.5,642.5,SBD,Single-ply,1
+Kit Price,82.5,Below Class II,M,260,140,242.5,642.5,SBD,Single-ply,1
 D. Presgrove,82.5,Below Class II,M,235,132.5,227.5,595,SBD,Single-ply,2
 J. McMurtey,82.5,Below Class II,M,145,105,170,420,SBD,Single-ply,3
 R. Poccino,90,Below Class II,M,210,142.5,237.5,590,SBD,Single-ply,1
@@ -52,7 +52,7 @@ R. Little,82.5,Masters,M,217.5,160,215,592.5,SBD,Single-ply,2
 J. Farnam,82.5,Masters,M,197.5,,,,SBD,Single-ply,DQ
 B. Atkinson,100,Masters,M,162.5,137.5,235,535,SBD,Single-ply,1
 R. Ritter,110,Masters,M,220,162.5,237.5,620,SBD,Single-ply,1
-A. Warner,110,Masters,M,190,120,242.5,552.5,SBD,Single-ply,2
+Al Warner,110,Masters,M,190,120,242.5,552.5,SBD,Single-ply,2
 B. Blevins,60,Open,M,190,110,227.5,527.5,SBD,Single-ply,1
 D. Black,60,Open,M,150,115,190,455,SBD,Single-ply,2
 G. Childers,67.5,Open,M,155,97.5,185,437.5,SBD,Single-ply,1
@@ -62,8 +62,8 @@ Rickey Dale Crain,75,Open,M,332.5,182.5,310,825,SBD,Single-ply,1
 E. Vaughn,75,Open,M,222.5,157.5,227.5,607.5,SBD,Single-ply,2
 S. Auld,82.5,Open,M,307.5,147.5,287.5,742.5,SBD,Single-ply,1
 D. Jones,82.5,Open,M,290,132.5,260,682.5,SBD,Single-ply,2
-K. Price,82.5,Open,M,260,140,242.5,642.5,SBD,Single-ply,3
-M. Baker,90,Open,M,320,202.5,292.5,815,SBD,Single-ply,1
+Kit Price,82.5,Open,M,260,140,242.5,642.5,SBD,Single-ply,3
+Mike Baker,90,Open,M,320,202.5,292.5,815,SBD,Single-ply,1
 D. Berry,100,Open,M,370,185,320,875,SBD,Single-ply,1
 G. Evans,100,Open,M,312.5,195,290,797.5,SBD,Single-ply,2
 D. Willingham,100,Open,M,312.5,187.5,277.5,777.5,SBD,Single-ply,3
@@ -93,7 +93,7 @@ T. Looney,90,Teen,M,250,137.5,242.5,630,SBD,Single-ply,2
 B. Briggs,90,Teen,M,170,120,227.5,517.5,SBD,Single-ply,3
 S. Tolbert,90,Teen,M,185,110,192.5,487.5,SBD,Single-ply,4
 E. Thompson,90,Teen,M,162.5,112.5,192.5,467.5,SBD,Single-ply,5
-S. Grimes,100,Teen,M,320,185,267.5,772.5,SBD,Single-ply,1
+Shannon Grimes,100,Teen,M,320,185,267.5,772.5,SBD,Single-ply,1
 J. Rauh,100,Teen,M,175,107.5,200,482.5,SBD,Single-ply,2
 J. Silver,100,Teen,M,117.5,70,135,322.5,SBD,Single-ply,3
 R. Sissney,125,Teen,M,200,142.5,202.5,545,SBD,Single-ply,1

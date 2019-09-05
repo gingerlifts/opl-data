@@ -17,10 +17,10 @@ Place,Division,WeightClassKg,Sex,Equipment,Event,Name,Country,Best3SquatKg,Best3
 1,Masters 1,90,M,Single-ply,SBD,J. Billuph,England,247.5,152.5,300,700
 2,Masters 1,90,M,Single-ply,SBD,Frans v. Puffelen,Netherlands,300,115,275,690
 3,Masters 1,90,M,Single-ply,SBD,Nate Foster,USA,242.5,152.5,260,655
-4,Masters 1,90,M,Single-ply,SBD,I. Williamson,Canada,230,152.5,242.5,625
+4,Masters 1,90,M,Single-ply,SBD,Ivan Williamson,Canada,230,152.5,242.5,625
 5,Masters 1,90,M,Single-ply,SBD,O. Vinje,Norway,215,140,240,595
 1,Masters 1,100,M,Single-ply,SBD,Don Mills,USA,332.5,210,302.5,845
-2,Masters 1,100,M,Single-ply,SBD,P. Fleming,USA,250,200,272.5,722.5
+2,Masters 1,100,M,Single-ply,SBD,Paul Fleming #1,USA,250,200,272.5,722.5
 3,Masters 1,100,M,Single-ply,SBD,Matti Aunula,Finland,275,162.5,265,702.5
 4,Masters 1,100,M,Single-ply,SBD,M. Bergbaur,West Germany,200,160,250,610
 5,Masters 1,100,M,Single-ply,SBD,J. Monstad,Norway,225,110,265,600
@@ -32,7 +32,7 @@ Place,Division,WeightClassKg,Sex,Equipment,Event,Name,Country,Best3SquatKg,Best3
 2,Masters 2,56,M,Single-ply,SBD,Heikki Mähönen,Finland,80,55,127.5,262.5
 1,Masters 2,60,M,Single-ply,SBD,Ted Brown,England,170,115,190,475
 1,Masters 2,67.5,M,Single-ply,SBD,K. Holte,Norway,175,112.5,240,527.5
-2,Masters 2,67.5,M,Single-ply,SBD,P. Neyer,USA,190,102.5,230,522.5
+2,Masters 2,67.5,M,Single-ply,SBD,Phil Neyer,USA,190,102.5,230,522.5
 3,Masters 2,67.5,M,Single-ply,SBD,V. Vounger,Australia,120,65,150,335
 1,Masters 2,75,M,Single-ply,SBD,G. Williamson,USA,200,115,212.5,527.5
 2,Masters 2,75,M,Single-ply,SBD,Joe Stockinger,Canada,177.5,110,230,517.5
@@ -43,7 +43,7 @@ Place,Division,WeightClassKg,Sex,Equipment,Event,Name,Country,Best3SquatKg,Best3
 5,Masters 2,82.5,M,Single-ply,SBD,N. Schwartz,Canada,120,72.5,167.5,360
 1,Masters 2,90,M,Single-ply,SBD,M. Matsuo,Japan,210,145,240,595
 2,Masters 2,90,M,Single-ply,SBD,P. Johnson,USA,205,137.5,227.5,570
-3,Masters 2,90,M,Single-ply,SBD,G. Tornberg,USA,175,125,210,510
+3,Masters 2,90,M,Single-ply,SBD,Gordon Tornberg,USA,175,125,210,510
 1,Masters 2,100,M,Single-ply,SBD,Pentti Nikkanen,Finland,235,150,240,625
 2,Masters 2,100,M,Single-ply,SBD,J. Hjalmarsson,Iceland,205,122.5,260,587.5
 1,Masters 2,110,M,Single-ply,SBD,J. Wright,Australia,275,170,280,725

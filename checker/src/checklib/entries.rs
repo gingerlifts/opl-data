@@ -781,7 +781,7 @@ fn check_weight(s: &str, line: u64, header: Header, report: &mut Report) -> Weig
     }
 }
 
-fn check_positive_weight(
+fn check_nonnegative_weight(
     s: &str,
     line: u64,
     header: Header,
@@ -794,7 +794,7 @@ fn check_positive_weight(
 }
 
 fn check_column_bodyweightkg(s: &str, line: u64, report: &mut Report) -> WeightKg {
-    let weight = check_positive_weight(s, line, Header::BodyweightKg, report);
+    let weight = check_nonnegative_weight(s, line, Header::BodyweightKg, report);
     if weight != WeightKg::from_i32(0) {
         if weight < WeightKg::from_i32(15) || weight > WeightKg::from_i32(300) {
             report.error_on(line, format!("Implausible BodyweightKg '{}'", s));
@@ -978,6 +978,20 @@ fn check_event_and_total_consistency(entry: &Entry, line: u64, report: &mut Repo
         report.error_on(line, "DQ'd entries cannot have a TotalKg");
     } else if !entry.place.is_dq() && !has_totalkg {
         report.error_on(line, "Non-DQ entries must have a TotalKg");
+    }
+
+    // If any "Best" lift is failed, the lifter must be DQ'd.
+    if !entry.place.is_dq() && entry.best3squatkg < WeightKg::from_i32(0) {
+        report.error_on(line, "Non-DQ entries cannot have a negative Best3SquatKg");
+    }
+    if !entry.place.is_dq() && entry.best3benchkg < WeightKg::from_i32(0) {
+        report.error_on(line, "Non-DQ entries cannot have a negative Best3BenchKg");
+    }
+    if !entry.place.is_dq() && entry.best3deadliftkg < WeightKg::from_i32(0) {
+        report.error_on(
+            line,
+            "Non-DQ entries cannot have a negative Best3DeadliftKg",
+        );
     }
 
     // Check that a non-DQ lifter's total is the sum of their best attempts,
@@ -1493,8 +1507,11 @@ fn check_division_age_consistency(
 
     // Check that the Age, BirthYear, and BirthDate columns are internally
     // consistent.
+    let age_from_birthyear: Option<Age> = entry
+        .birthyear
+        .and_then(|birthyear| Some(Age::from_birthyear_on_date(birthyear, meet_date)));
     if let Some(birthyear) = entry.birthyear {
-        let approx_age = Age::from_birthyear_on_date(birthyear, meet_date);
+        let approx_age = age_from_birthyear.unwrap();
 
         // Pairwise check BirthYear and Age.
         if approx_age.is_definitely_less_than(entry.age)
@@ -1604,6 +1621,43 @@ fn check_division_age_consistency(
                 age, entry.division, max_age
             ),
         );
+    }
+
+    // Handle specially the case of BirthYear-based age divisions.
+    // The issue is that if we define a division that is 19.5-22.5 (IPF Juniors),
+    // the "is_definitely" checks above will permit ages between 19-23,
+    // and therefore allow Age::Approximate(18), since that is not definitely
+    // lower than 19.5. That allows lifters to be in *either* T3 or Juniors,
+    // even though federation rules would only allow one.
+    if let Age::Approximate(min) = min_age {
+        if let Age::Approximate(max) = max_age {
+            if let Some(Age::Approximate(age)) = age_from_birthyear {
+                // Compare approximate age values exactly.
+                if age < min {
+                    report.error_on(
+                        line,
+                        format!(
+                            "BirthYear Age {} too young for division '{}': min age {}",
+                            age_from_birthyear.unwrap(),
+                            entry.division,
+                            min_age
+                        ),
+                    );
+                }
+
+                if age > max {
+                    report.error_on(
+                        line,
+                        format!(
+                            "BirthYear Age {} too old for division '{}': max age {}",
+                            age_from_birthyear.unwrap(),
+                            entry.division,
+                            max_age
+                        ),
+                    );
+                }
+            }
+        }
     }
 
     (min_age, max_age)
@@ -1915,8 +1969,12 @@ where
 
         // TotalKg is a positive weight if present or 0 if missing.
         if let Some(idx) = headers.get(Header::TotalKg) {
-            entry.totalkg =
-                check_positive_weight(&record[idx], line, Header::TotalKg, &mut report);
+            entry.totalkg = check_nonnegative_weight(
+                &record[idx],
+                line,
+                Header::TotalKg,
+                &mut report,
+            );
         }
 
         if let Some(idx) = headers.get(Header::BodyweightKg) {
