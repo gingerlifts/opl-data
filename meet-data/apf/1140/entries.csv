@@ -1,4 +1,4 @@
-Name,Age,Sex,Division,BodyweightLBS,WeightClassKg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Tested,Event,Place,Equipment
+Name,Age,Sex,Division,BodyweightKg,WeightClassKg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Tested,Event,Place,Equipment
 Kimberly Martin,,F,F_OR_AAPF,,90+,142.5,,,,87.5,,,,147.5,377.5,Yes,SBD,1,Raw
 Kathleen Milliner,47,F,F_MEM_2_APF,,90+,57.5,,,,85,,,,107.5,250,,SBD,1,Multi-ply
 Ty Batemen,45,M,M_MEM_2_AAPF,,82.5,205,,,,120,,,,215,540,Yes,SBD,1,Multi-ply
@@ -80,7 +80,7 @@ Jason Gibson,37,M,3_OEM_AAPF,,,,,,,,285,305,-320,305,305,Yes,D,1,Multi-ply
 Brandon Utz,22,M,1_JR_APF,,,,,,,,192.5,210,-227.5,210,210,,D,1,Raw
 Brandon Utz,22,M,1_JEM_APF,,,,,,,,192.5,210,-227.5,210,210,,D,1,Multi-ply
 Ryan Otterson,23,M,1_JEM_AAPF,,,,,,,,205,215,230,230,230,Yes,D,1,Multi-ply
-Brenda Clayton,23,F,F_JR_AAPF,58.33,60,,,,,37.5,,,,72.5,110,Yes,BD,1,Raw
-Doug Clayton,54,M,M_MEM_3_APF,81.19,82.5,,,,,140,,,,205,345,,BD,1,Multi-ply
-Doug Clayton,54,M,M_MEM_3_APF,81.19,82.5,,,,,140,,,,205,345,,BD,1,Multi-ply
-Clifford Stevens,37,M,M_SR_AAPF,71.85,75,,,,,90,,,,145,235,Yes,BD,1,Raw
+Brenda Clayton,23,F,F_JR_AAPF,26.46,60,,,,,37.5,,,,72.5,110,Yes,BD,1,Raw
+Doug Clayton,54,M,M_MEM_3_APF,36.83,82.5,,,,,140,,,,205,345,,BD,1,Multi-ply
+Doug Clayton,54,M,M_MEM_3_APF,36.83,82.5,,,,,140,,,,205,345,,BD,1,Multi-ply
+Clifford Stevens,37,M,M_SR_AAPF,32.59,75,,,,,90,,,,145,235,Yes,BD,1,Raw
