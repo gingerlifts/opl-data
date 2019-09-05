@@ -40,8 +40,8 @@ Travis Brady,25,M,M_OEM_AAPF,,210,,,,165,,,,,,Yes,SBD,DQ,Multi-ply
 Bob Cowles,53,M,M_MEM_3_APF,,,142.5,152.5,-157.5,152.5,,,,,152.5,,B,1,Multi-ply
 Kurt Larsen,38,M,M_SEM_APF,,,-200,200,-222.5,200,,,,,200,,B,1,Multi-ply
 Jason Gibson,37,M,M_SEM_APF,,,295,-320,-337.5,295,,,,,295,,B,1,Multi-ply
-Kurt Larsen,38,M,M_SES_AAPF,,,-200,200,-222.5,200,,,,,200,Yes,B,1,Multi-ply
-Jason Gibson,37,M,M_SES_AAPF,,,295,-320,-337.5,295,,,,,295,Yes,B,1,Multi-ply
+Kurt Larsen,38,M,M_SEM_AAPF,,,-200,200,-222.5,200,,,,,200,Yes,B,1,Multi-ply
+Jason Gibson,37,M,M_SEM_AAPF,,,295,-320,-337.5,295,,,,,295,Yes,B,1,Multi-ply
 Jordan Gibson,17,M,M_TEM_2_APF,,,175,197.5,-210,197.5,,,,,197.5,,B,1,Multi-ply
 Jordan Gibson,17,M,M_TEM_2_APF,,,175,197.5,-210,197.5,,,,,197.5,,B,1,Multi-ply
 Ryan Wallis,15,M,M_TEM_1_AAPF,,,35,42.5,-47.5,42.5,,,,,42.5,Yes,B,1,Multi-ply
@@ -67,7 +67,7 @@ Jason Gibson,37,M,M_SEM_AAPF,,,,,,,285,305,-320,305,305,Yes,D,1,Multi-ply
 Jordan Gibson,17,M,M_TEM_2_APF,,,,,,,250,282.5,-300,282.5,282.5,,D,1,Multi-ply
 Jordan Gibson,17,M,M_TEM_2_AAPF,,,,,,,250,282.5,-300,282.5,282.5,Yes,D,1,Multi-ply
 Daniel O'Keef,28,M,M_OR_AAPF,,,,,,,197.5,220,-227.5,220,220,Yes,D,1,Raw
-Nick Lenhart,24,M,1_OEM_APF,,,,,,,227.5,250,262.5,262.5,262.5,,D,1,Multi-ply
+Nick Lenhart,24,M,M_OEM_APF,,,,,,,227.5,250,262.5,262.5,262.5,,D,1,Multi-ply
 Mitchell Maccarthy,25,M,M_OEM_APF,,,,,,,250,275,-295,275,275,,D,1,Multi-ply
 Ed Kinsey,30,M,M_OEM_APF,,,,,,,242.5,265,-272.5,265,265,,D,1,Multi-ply
 Cassidy Hilton,30,F,F_OEM_APF,,,,,,,230,-257.5,272.5,272.5,272.5,,D,1,Multi-ply
