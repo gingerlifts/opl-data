@@ -24,12 +24,12 @@ Mitchell Maccarthy,25,M,M_OEM_APF,90,322.5,,,,175,,,,275,772.5,,SBD,1,Multi-ply
 Landon Waters,27,M,M_OEM_APF,90,215,,,,140,,,,220,575,,SBD,2,Multi-ply
 Ed Kinsey,30,M,M_OEM_APF,100,352.5,,,,222.5,,,,265,840,,SBD,1,Multi-ply
 Cassidy Hilton,30,M,M_OEM_APF,110,275,,,,185,,,,272.5,732.5,,SBD,1,Multi-ply
-C.J. Jenkins,31,M,M_OEM_APF,110,90,,,,,,,,,,,SBD,DQ,Multi-ply
+CJ Jenkins,31,M,M_OEM_APF,110,90,,,,,,,,,,,SBD,DQ,Multi-ply
 Mick Benales,30,M,M_OEM_APF,125,375,,,,250,,,,250,875,,SBD,1,Multi-ply
 Jason Gibson,37,M,M_OEM_APF,140,437.5,,,,295,,,,305,1037.5,,SBD,1,Multi-ply
 Nick Lenhart,24,M,M_OEM_AAPF,67.5,265,,,,182.5,,,,262.5,710,Yes,SBD,1,Multi-ply
 Spencer Westwood,28,M,M_OEM_AAPF,67.5,300,,,,167.5,,,,232.5,700,Yes,SBD,2,Multi-ply
-Chris Mcgrail,32,M,M_OEM_AAPF,82.5,250,,,,,,,,232.5,,Yes,SBD,DQ,Multi-ply
+Chris McGrail,32,M,M_OEM_AAPF,82.5,250,,,,,,,,232.5,,Yes,SBD,DQ,Multi-ply
 Mitchell Maccarthy,25,M,M_OEM_AAPF,90,322.5,,,,175,,,,275,772.5,Yes,SBD,1,Multi-ply
 Ed Kinsey,30,M,M_OEM_AAPF,100,352.5,,,,222.5,,,,265,840,Yes,SBD,1,Multi-ply
 Mick Benales,30,M,M_OEM_AAPF,125,375,,,,250,,,,250,875,Yes,SBD,1,Multi-ply
@@ -50,18 +50,18 @@ Nick Lenhart,24,M,M_OEM_APF,,,165,182.5,-185,182.5,,,,,182.5,,B,1,Multi-ply
 Ed Kinsey,30,M,M_OEM_APF,,,212.5,-222.5,222.5,222.5,,,,,222.5,,B,1,Multi-ply
 Scott Mecham,32,M,M_OEM_APF,,,320,-327.5,-335,320,,,,,320,,B,1,Multi-ply
 Cassidy Hilton,30,M,M_OEM_APF,,,185,-207.5,-207.5,185,,,,,185,,B,2,Multi-ply
-C.J. Jenkins,31,M,M_OEM_APF,,,-285,-297.5,-297.5,,,,,,,,B,DQ,Multi-ply
+CJ Jenkins,31,M,M_OEM_APF,,,-285,-297.5,-297.5,,,,,,,,B,DQ,Multi-ply
 Jason Gibson,37,M,M_OEM_APF,,,295,-320,-337.5,295,,,,,295,,B,1,Multi-ply
 Nick Lenhart,24,M,M_OEM_AAPF,,,165,182.5,-185,182.5,,,,,182.5,Yes,B,1,Multi-ply
 Ed Kinsey,30,M,M_OEM_AAPF,,,212.5,-222.5,222.5,222.5,,,,,222.5,Yes,B,1,Multi-ply
 Mike Saunders,32,M,M_OEM_AAPF,,,-275,-275,-275,,,,,,,Yes,B,DQ,Multi-ply
 Jason Gibson,37,M,M_OEM_AAPF,,,295,-320,-337.5,295,,,,,295,Yes,B,1,Multi-ply
 Keith Utz,48,M,M_MR_2_APF,,,,,,,225,245,-252.5,245,245,,D,1,Raw
-Chansey Mckendrick,,M,M_SEM_APF,,,,,,,190,-202.5,-202.5,190,190,,D,1,Multi-ply
+Chansey Mc Kendrick,,M,M_SEM_APF,,,,,,,190,-202.5,-202.5,190,190,,D,1,Multi-ply
 Jason Hansen,36,M,M_SEM_AAPF,,,,,,,235,250,-255,250,250,Yes,D,1,Multi-ply
 Kurt Larsen,38,M,M_SEM_APF,,,,,,,205,-245,-245,205,205,,D,2,Multi-ply
 Jason Gibson,37,M,M_SEM_APF,,,,,,,285,305,-320,305,305,,D,1,Multi-ply
-Chansey Mckendrick,,M,M_SEM_AAPF,,,,,,,190,-202.5,-202.5,190,190,Yes,D,1,Multi-ply
+Chansey Mc Kendrick,,M,M_SEM_AAPF,,,,,,,190,-202.5,-202.5,190,190,Yes,D,1,Multi-ply
 Kurt Larsen,38,M,M_SEM_AAPF,,,,,,,205,-245,-245,205,205,Yes,D,1,Multi-ply
 Jason Gibson,37,M,M_SEM_AAPF,,,,,,,285,305,-320,305,305,Yes,D,1,Multi-ply
 Jordan Gibson,17,M,M_TEM_2_APF,,,,,,,250,282.5,-300,282.5,282.5,,D,1,Multi-ply
@@ -71,7 +71,7 @@ Nick Lenhart,24,M,M_OEM_APF,,,,,,,227.5,250,262.5,262.5,262.5,,D,1,Multi-ply
 Mitchell Maccarthy,25,M,M_OEM_APF,,,,,,,250,275,-295,275,275,,D,1,Multi-ply
 Ed Kinsey,30,M,M_OEM_APF,,,,,,,242.5,265,-272.5,265,265,,D,1,Multi-ply
 Cassidy Hilton,30,F,F_OEM_APF,,,,,,,230,-257.5,272.5,272.5,272.5,,D,1,Multi-ply
-C.J. Jenkins,31,M,M_OEM_APF,,,,,,,,,,,,,D,DQ,Multi-ply
+CJ Jenkins,31,M,M_OEM_APF,,,,,,,,,,,,,D,DQ,Multi-ply
 Jason Gibson,37,M,M_OEM_APF,,,,,,,285,305,-320,305,305,,D,1,Multi-ply
 Nick Lenhart,24,M,M_OEM_AAPF,,,,,,,227.5,250,262.5,262.5,262.5,Yes,D,1,Multi-ply
 Mitchell Maccarthy,25,M,M_OEM_AAPF,,,,,,,250,275,-295,275,275,Yes,D,1,Multi-ply
