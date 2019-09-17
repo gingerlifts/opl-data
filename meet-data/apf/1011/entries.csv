@@ -1,7 +1,7 @@
 Name,Sex,Division,WeightClassKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Tested,Place
 James Giangregorio,M,M_JR_APF,75,157.5,130,182.5,470,Raw,SBD,,1
 Corey Grund,M,M_OEM_APF,82.5,225,175,230,630,Multi-ply,SBD,,1
-Nick Cameron,M,M_TEM_#_APF,82.5,182.5,160,237.5,580,Multi-ply,SBD,,1
+Nick Cameron,M,M_TEM_3_APF,82.5,182.5,160,237.5,580,Multi-ply,SBD,,1
 Steven Culver,M,M_OEM_APF,82.5,165,107.5,190,462.5,Multi-ply,SBD,,2
 Greg Friedman,M,M_JR_APF,82.5,135,102.5,182.5,420,Raw,SBD,,1
 Tony Mendez,M,M_JR_APF,82.5,,117.5,182.5,,Raw,SBD,,DQ
@@ -25,7 +25,7 @@ Jade Mendelson,F,F_TR_1_AAPF,82.5,,62.5,,62.5,Raw,B,Yes,1
 M. Mendelson,F,F_OEM_APF,90,,125,,125,Multi-ply,B,,1
 Michaela Andrews,F,F_JEM_APF,90+,,60,,60,Multi-ply,B,,1
 Jimmy Taylor,M,M_TR_1_APF,67.5,,67.5,,67.5,Raw,B,,1
-Alvin Waldon,M,M_TR_4_APF,110,,197.5,,197.5,Raw,B,,1
+Alvin Waldon,M,M_MR_4_APF,110,,197.5,,197.5,Raw,B,,1
 Ken Thunberg,M,M_MR_2_AAPF,110,,165,,165,Raw,B,Yes,1
 David Andrews,M,M_MEM_3_APF,125,,190,,190,Multi-ply,B,,1
 Bruce Cameron,M,M_MEM_3_APF,125,,180,,180,Multi-ply,B,,2
