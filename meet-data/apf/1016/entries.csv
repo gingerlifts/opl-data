@@ -59,6 +59,6 @@ Doug Petersen,M,Multi-ply,M_MEM_3_AAPF,100,,213.19,,213.19,B,1,Yes
 Joe McDermott,M,Multi-ply,M_MEM_7_APF,75,,136.08,,136.08,B,1,
 Joe McDermott,M,Multi-ply,M_MEM_7_AAPF,75,,136.08,,136.08,B,1,Yes
 Pat O'Grady,M,Multi-ply,M_MEM_1_APF,75,,,197.31,197.31,D,1,
-Don Broverman,M,Multi-ply,,,,,,,,DQ,
-Greg Jurkowski,M,Multi-ply,,,,,,,,DQ,
-Omar Maldonado,M,Multi-ply,,,,,,,,DQ,
+Don Broverman,M,Multi-ply,,,,,,,SBD,DQ,
+Greg Jurkowski,M,Multi-ply,,,,,,,SBD,DQ,
+Omar Maldonado,M,Multi-ply,,,,,,,SBD,DQ,
