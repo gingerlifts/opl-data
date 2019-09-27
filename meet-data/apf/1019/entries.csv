@@ -12,7 +12,7 @@ Rachel Nutter,F,124.47,90+,F_OEM_AAPF,,187.5,,187.5,1,B,Multi-ply,Yes
 Rachel Nutter,F,124.47,90+,F_SEM_AAPF,,187.5,,187.5,1,B,Multi-ply,Yes
 Nathan Bratsch,M,96.43,100,M_OEM_AAPF,,240,,240,1,B,Multi-ply,Yes
 Mike Anderson,M,107.86,110,M_MEM_4_AAPF,,177.5,,177.5,1,B,Multi-ply,Yes
-Eric Knudsen,M,124.65,140,M_MEM_3_AAPF,,227.5,,227.5,1,B,Multi-ply,Yes
+Eric Knudsen,M,124.65,125,M_MEM_3_AAPF,,227.5,,227.5,1,B,Multi-ply,Yes
 Dean Reiman,M,81.56,82.5,M_MEM_2_APF,,252.5,,252.5,1,B,Multi-ply,
 Jason Nguyen,M,89.9,90,M_OEM_APF,,232.5,,232.5,1,B,Multi-ply,
 Dale Schmidtke,M,99.06,100,M_MEM_1_APF,,215,,215,1,B,Multi-ply,
@@ -52,8 +52,8 @@ Cris Tillman,M,121.2,125,M_TR_3_APF,267.5,177.5,295,740,1,SBD,Raw,
 Tim Lowmenn,M,124.74,125,M_OR_APF,255,195,295,745,1,SBD,Raw,
 Tim Lowmenn,M,124.74,125,M_MR_3_APF,255,195,295,745,1,SBD,Raw,
 Craig Meiers,M,119.39,125,M_OR_APF,252.5,180,270,702.5,2,SBD,Raw,
-Paul Wiesbrod,M,139.34,140,M_JR_APF,265,155,307.5,817.5,1,SBD,Raw,
-Paul Wiesbrod,M,139.34,140,M_OR_APF,265,155,397.5,817.5,1,SBD,Raw,
+Paul Wiesbrod,M,139.34,140,M_JR_APF,265,155,307.5,727.5,1,SBD,Raw,
+Paul Wiesbrod,M,139.34,140,M_OR_APF,265,155,307.5,727.5,1,SBD,Raw,
 Dave Damminga,M,163.75,140+,M_OR_APF,320,182.5,320,830,1,SBD,Raw,
 Kate Tobin,F,53.98,56,F_OEM_AAPF,137.5,75,155,367.5,1,SBD,Multi-ply,Yes
 Joe Kuphal,M,80.47,82.5,M_SEM_AAPF,272.5,205,197.5,675,1,SBD,Multi-ply,Yes
@@ -75,6 +75,6 @@ Jeff Badker,M,105.91,110,M_OEM_APF,,240,250,490,1,BD,Multi-ply,
 Marshall Johnson,M,122.65,125,M_OEM_APF,432.5,260,327.5,1020,2,SBD,Multi-ply,
 Anthony Carlquist,M,119.2,125,M_OEM_APF,455,307.5,332.5,1095,1,SBD,Multi-ply,
 Mario Ochua,M,115.39,125,M_SEM_APF,,,,,DQ,SBD,Multi-ply,
-Ryan Goldstone,M,127.73,125,M_OEM_APF,375,290,,,DQ,SBD,Multi-ply,
+Ryan Goldstone,M,127.73,140,M_OEM_APF,375,290,,,DQ,SBD,Multi-ply,
 Pete Stave,M,135.44,140,M_OEM_APF,,290,297.5,587.5,1,BD,Multi-ply,
 Nicholas Boll,M,139.25,140,M_OEM_APF,417.5,240,270,927.5,1,SBD,Multi-ply,
