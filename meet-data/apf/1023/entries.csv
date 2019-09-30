@@ -1,4 +1,4 @@
-Name,Sex,BodyWeightKg,WeightClassKg,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Tested,Equipment,Place
+Name,Sex,BodyweightKg,WeightClassKg,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Tested,Equipment,Place
 Greg Ripley,M,74.3,75,M_MEM_2_APF,220,125,180,525,SBD,,Multi-ply,1
 Matt Brandys,M,79.5,82.5,M_OEM_APF,195,145,235,575,SBD,,Multi-ply,1
 Elisha Joseph,F,89.7,90,F_OR_APF,200,160,215,575,SBD,,Raw,1
