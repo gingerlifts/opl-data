@@ -1,4 +1,4 @@
-Sex,Name,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3Squat,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Place,Equipment,Event
+Sex,Name,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Place,Equipment,Event
 F,Lauryane Beauchais,F_OR_WPC,50.6,52,,,,,,42.5,47.5,-50,,47.5,,,,,,47.5,1,Raw,B
 F,Sabine Arnaud,F_OR_WPC,48.2,52,,,,,,-50,-50,-50,,,,,,,,,DQ,Raw,B
 F,Isabelle Camicas,F_OR_WPC,52.8,56,,,,,,35,-37.5,37.5,,37.5,,,,,,37.5,1,Raw,B
