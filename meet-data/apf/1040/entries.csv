@@ -1,4 +1,4 @@
-Name,Sex,AGE,Division,BodyweightKg,WeightClassKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Place,Equipment
+Name,Sex,Age,Division,BodyweightKg,WeightClassKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Place,Equipment
 Frank Reales,M,51,M_MR_3_APF,65.05,67.5,129.27,90.72,161.03,381.02,SBD,1,Raw
 Ron Blackmon,M,63,M_MEM_5_APF,87.54,90,204.12,188.24,197.31,589.67,SBD,1,Multi-ply
 Joseph Herrera,M,46,M_MEM_2_APF,89.63,90,197.31,136.08,210.92,544.31,SBD,1,Multi-ply
