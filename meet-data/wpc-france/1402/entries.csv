@@ -1,4 +1,4 @@
-Sex,Name,Age,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3Squat,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Place,Equipment,Event
+Sex,Name,Age,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Place,Equipment,Event
 F,Audrey Rigal,39,F_OR_WPC,50.1,52,,,,,,25,-27.5,-27.5,,25,,,,,,25,2,Raw,B
 F,Sabine Arnaud,44,F_OR_WPC,49.1,52,,,,,,45,-47.5,-47.5,,45,,,,,,45,1,Raw,B
 F,Isabelle Camicas,52,F_OR_WPC,53.4,56,,,,,,32.5,35,37.5,-40,37.5,,,,,,37.5,1,Raw,B
