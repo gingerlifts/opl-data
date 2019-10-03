@@ -2,7 +2,7 @@ Name,Sex,Division,Equipment,WeightClassKg,Best3SquatKg,Best3BenchKg,Best3Deadlif
 Jade Mendelson,F,F_TEM_1_APF,Multi-ply,82.5,,82.5,,82.5,B,1
 Steve Tamerius,M,M_MEM_5_APF,Multi-ply,67.5,,,,,B,DQ
 David Velieka,M,M_OEM_APF,Multi-ply,90,,180,,180,B,1
-Greg Sanijajlia,M,M_OEM_APF,Multi-ply,0.45,,160,,160,B,1
+Greg Sanijajlia,M,M_OEM_APF,Multi-ply,90,,160,,160,B,1
 James Strout,M,M_OEM_APF,Multi-ply,100,,242.5,,242.5,B,1
 Darrell Copeland,M,M_MEM_2_APF,Multi-ply,100,,222.5,,222.5,B,1
 Justus Owens,M,M_OEM_APF,Multi-ply,100,,,,,B,DQ
@@ -21,7 +21,7 @@ Scott Galeck,M,M_JEM_APF,Multi-ply,56,110,,,,SBD,DQ
 David Oliver,M,M_JEM_APF,Multi-ply,67.5,160,102.5,227.5,490,SBD,1
 Justin Pascual,M,M_JEM_APF,Multi-ply,82.5,257.5,167.5,,,SBD,DQ
 Justin Pascual,M,M_OEM_APF,Multi-ply,82.5,257.5,167.5,,,SBD,DQ
-John Deluca,M,M_OEM_APF,Multi-ply,90,207.5,185,217.5,610,SBD,1
+John DeLuca,M,M_OEM_APF,Multi-ply,90,207.5,185,217.5,610,SBD,1
 Billy Reynolds,M,M_OEM_APF,Multi-ply,90,227.5,170,210,607.5,SBD,2
 David Thompson,M,M_OEM_APF,Multi-ply,90,,,,,SBD,DQ
 James Kegrice,M,M_MEM_1_APF,Multi-ply,90,342.5,187.5,290,820,SBD,1
@@ -35,12 +35,12 @@ Todd Kezarian,M,M_MEM_3_APF,Multi-ply,110,182.5,172.5,182.5,537.5,SBD,1
 Dan Varela,M,M_MEM_5_APF,Multi-ply,110,345,62.5,275,682.5,SBD,1
 Manual Frutoz,M,M_MEM_5_APF,Multi-ply,110,190,140,195,525,SBD,2
 Jim Razor,M,M_MEM_5_APF,Multi-ply,110,165,137.5,155,457.5,SBD,3
-Tony Ponce,M,M_OEM_APF,Multi-ply,125,332.5,217.5,255,795,SBD,1
-Jonathon Hunley,M,M_OEM_APF,Multi-ply,125,230,162.5,280,682.5,SBD,2
+Tony Ponce,M,M_OEM_APF,Multi-ply,125,332.5,217.5,255,805,SBD,1
+Jonathon Hunley,M,M_OEM_APF,Multi-ply,125,230,162.5,280,672.5,SBD,2
 Dan Leoncini,M,M_MEM_1_APF,Multi-ply,125,305,182.5,232.5,719.5,SBD,1
 Eddie Drake,M,M_MEM_1_APF,Multi-ply,125,215,170,217.5,602.5,SBD,2
 Tony Rodenberg,M,M_MEM_3_APF,Multi-ply,125,140,112.5,210,462.5,SBD,1
-Bill Mcewen,M,M_MEM_4_APF,Multi-ply,125,172.5,172.5,182.5,455,SBD,1
+Bill McEwen,M,M_MEM_4_APF,Multi-ply,125,172.5,100,182.5,455,SBD,1
 Robert Lee,M,M_OEM_APF,Multi-ply,140,320,272.5,235,827.5,SBD,1
 Dave Sladivar,M,M_OEM_APF,Multi-ply,140,397.5,,,,SBD,DQ
 Thad Coleman,M,M_OEM_APF,Multi-ply,140+,425,307.5,330,1062.5,SBD,1
