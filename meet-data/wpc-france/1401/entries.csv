@@ -12,7 +12,7 @@ M,Eric Segura,M_OR_WPC,58.8,60,,,,,,55,57.5,-60,,57.5,,,,,,57.5,2,Raw,B
 M,Jean-Claude Camicas,M_OR_WPC,59.5,60,,,,,,80,85,-87.5,,85,,,,,,85,1,Raw,B
 M,Emerick Viot,M_OR_WPC,64.8,67.5,,,,,,-105,-107.5,107.5,,107.5,,,,,,107.5,2,Raw,B
 M,Florian Hebert,M_OR_WPC,65.1,67.5,,,,,,112.5,117.5,-120,,117.5,,,,,,117.5,1,Raw,B
-M,Joel Tartare,M_OR_WPC,73.4,75,,,,,,90,96,-97.5,,96,,,,,,96,4,Raw,B
+M,Joël Tartare,M_OR_WPC,73.4,75,,,,,,90,96,-97.5,,96,,,,,,96,4,Raw,B
 M,Frederic Pin,M_OR_WPC,72.3,75,,,,,,-97.5,102.5,-107.5,,102.5,,,,,,102.5,3,Raw,B
 M,Fabien Ibacache,M_OR_WPC,72.2,75,,,,,,115,-120,-120,,115,,,,,,115,2,Raw,B
 M,Damien Thoniel,M_OR_WPC,74.5,75,,,,,,130,-140,-140,,130,,,,,,130,1,Raw,B
@@ -29,7 +29,7 @@ M,Romain Clapier,M_OR_WPC,86,90,,,,,,152.5,157.5,-162.5,,157.5,,,,,,157.5,5,Raw,
 M,Quentin Buhlman,M_OR_WPC,87.2,90,,,,,,160,165,-170,,165,,,,,,165,4,Raw,B
 M,Movsar Baliev,M_OR_WPC,85.7,90,,,,,,160,-167.5,167.5,,167.5,,,,,,167.5,3,Raw,B
 M,Amaury Riche,M_OEM_WPC,86.4,90,,,,,,180,-190,-190,,180,,,,,,180,2,Multi-ply,B
-M,Sébastien Lefaux,M_OEM_WPC,88,90,,,,,,240,252.5,-260,,252.5,,,,,,252.5,1,Multi-ply,B
+M,Sebastien Lefaux,M_OEM_WPC,88,90,,,,,,240,252.5,-260,,252.5,,,,,,252.5,1,Multi-ply,B
 M,Herve Viot,M_OR_WPC,94.7,100,,,,,,110,120,-122.5,,120,,,,,,120,7,Raw,B
 M,Mario Viera,M_OR_WPC,91.2,100,,,,,,122.5,-130,-130,,122.5,,,,,,122.5,6,Raw,B
 M,Jean-Francois Lemoine,M_OR_WPC,98.8,100,,,,,,125,135,140,-145,140,,,,,,140,5,Raw,B
@@ -65,5 +65,5 @@ M,Jimmy Le Scornec,M_OCR_WPC,99,100,200,210,220,,220,140,150,160,,160,215,230,24
 M,Andre Falcao,M_OEM_WPC,100,100,-360,360,-380,,360,-270,-270,-270,,,,,,,,,DQ,Multi-ply,SBD
 M,Alexandre Moustapha,M_OCR_WPC,106.7,110,-185,205,220,,220,160,-175,-182.5,,160,245,265,285,300,285,665,1,Wraps,SBD
 M,Gilles Zozzoli,M_OEM_WPC,106.1,110,240,270,300,,300,200,-230,-230,,200,220,240,260,,260,760,1,Multi-ply,SBD
-M,Hérve Gainche,M_OEM_WPC,123.4,125,-270,285,-300,,285,190,200.5,-205,,200.5,210,230,240,,240,725.5,2,Multi-ply,SBD
+M,Hervé Gainche,M_OEM_WPC,123.4,125,-270,285,-300,,285,190,200.5,-205,,200.5,210,230,240,,240,725.5,2,Multi-ply,SBD
 M,Tony Chard,M_OEM_WPC,122.9,125,-280,280,-305,,280,200,210,-220,,210,280,310,-322.5,,310,800,1,Multi-ply,SBD
