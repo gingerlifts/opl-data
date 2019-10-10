@@ -30,7 +30,7 @@ Mitch Horrocks,M,UK,M_J_R_BPU,No,SBD,Raw,69,75,-160,170,180,180,100,-110,115,,11
 Mirka Bila,F,Czechia,F_O_R_BPU,No,SBD,Raw,,75,,,,,,,,,,,,,,,NS
 Lenka Kratochvílová,F,Czechia,F_O_R_BPU,No,SBD,Raw,,75,,,,,,,,,,,,,,,NS
 Steven Short #1,M,UK,M_M1_R_BPU,No,SBD,Raw,74.15,75,162.5,172.5,182.5,182.5,122.5,-135,-135,,122.5,210,232.5,,232.5,537.5,1
-Sara Sandberg,F,Sweden,F_J_R_ABPU,Yes,B,Raw,70.9,75,,,,,60,-62.5,-62.5,,60,,,,,60,1
+Sara Sandberg,F,Sweden,F_J_R_BPU,Yes,B,Raw,70.9,75,,,,,60,-62.5,-62.5,,60,,,,,60,1
 Vincent Eldin,M,France,M_M1_M_BPU,No,B,Multi-ply,74.5,75,,,,,-193,-193,-193,,,,,,,,DQ
 Vincent Bourgeois,M,France,M_O_R_BPU,No,SBD,Raw,,67.5,,,,,,,,,,,,,,,NS
 Michael Phipps,M,UK,M_O_R_BPU,No,B,Raw,63.5,67.5,,,,,90,-100,102.5,,102.5,,,,,102.5,2
@@ -48,9 +48,9 @@ Cameron Squire,M,UK,M_J_R_BPU,No,SBD,Raw,78.6,82.5,140,150,160,160,110,-120,122.
 Liam Wilkinson,M,UK,M_J_R_BPU,No,SBD,Raw,82.2,82.5,200,-207.5,-207.5,200,120,-122.5,-122.5,,120,220,-230,-232.5,220,540,2
 Lloyd Chugg,M,UK,M_J_R_BPU,No,SBD,Raw,77,82.5,180,-200,-200,180,130,140,-142.5,,140,220,230,240,240,560,1
 John Warburton,M,UK,M_O_R_BPU,No,SBD,Raw,81.8,82.5,170,185,202.5,202.5,115,-125,,,115,220,230,-240,230,547.5,2
-Maria Helgesson,F,Sweden,F_O_R_ABPU,Yes,B,Raw,,82.5,,,,,100,107.5,-110,,107.5,,,,,107.5,1
+Maria Helgesson,F,Sweden,F_O_R_BPU,Yes,B,Raw,,82.5,,,,,100,107.5,-110,,107.5,,,,,107.5,1
 Chris Pike,M,UK,M_O_R_BPU,No,B,Raw,80.7,82.5,,,,,155,-165,-165,,155,,,,,155,1
-Anki Eberg,M,Sweden,M_O_R_ABPU,Yes,SBD,Raw,92.1,100,-110,120,135,135,90,100,-110,,100,170,190,-210,190,425,1
+Anki Eberg,M,Sweden,M_O_R_BPU,Yes,SBD,Raw,92.1,100,-110,120,135,135,90,100,-110,,100,170,190,-210,190,425,1
 Edgaras Borovikovas,M,UK,M_J_R_BPU,No,SBD,Raw,86.45,90,160,180,-200,180,-140,140,-152,,140,220,240,-250,240,560,2
 Edward Whitehead,M,UK,M_J_R_BPU,No,SBD,Raw,86.45,90,190,-200,-200,190,130,-140,-150,,130,220,240,252.5,252.5,572.5,1
 Mark Bentley,M,UK,M_M2_CR_BPU,No,SBD,Wraps,86.45,90,160,-205,205,205,125,130,132.5,,132.5,220,242.5,-252.5,242.5,580,1
