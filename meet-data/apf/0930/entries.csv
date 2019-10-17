@@ -1,5 +1,5 @@
 Name,Equipment,Sex,WeightClassKg,Division,State,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Place
-Chris Ernest ,Raw,M,100,M_OR_APF,OH,200,,200,B,1
+Chris Ernest,Raw,M,100,M_OR_APF,OH,200,,200,B,1
 Adam Yezer,Raw,M,82.5,M_MR_1_APF,NC,142.5,,142.5,B,1
 Killer Williams,Multi-ply,M,110,M_MEM_2_APF,SC,210,,210,B,1
 Kenny Malchow,Multi-ply,M,125,M_MEM_2_APF,SC,240,,240,B,1
@@ -18,54 +18,5 @@ Dale Pierce,Multi-ply,M,90,M_MEM_1_APF,VA,157.5,240,397.5,BD,1
 Brian Pittman,Multi-ply,M,110,M_MEM_1_APF,SC,202.5,167.5,370,BD,1
 Kurt Hall,Multi-ply,M,110,M_MEM_3_APF,NC,210,245,455,BD,1
 Jake Pence,Multi-ply,M,140+,M_OEM_APF,NC,,,,BD,DQ
-Patty Herrera,Raw,F,76.2,F_MR_1_APF,NC,47.5,72.5,120,BD,1
-Jennifer Gonzales,Multi-ply,F,67.5,F_OR_APF,NC,97.5,162.5,260,BD,1
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
-,,,,,,,,,,DQ
+Patty Herrera,Raw,F,75,F_MR_1_APF,NC,47.5,72.5,120,BD,1
+Jennifer Gonzales,Multi-ply,F,67.5,F_OEM_APF,NC,97.5,162.5,260,BD,1
