@@ -107,7 +107,6 @@ mod tests {
         assert!(matches_table(schwartz_coefficient(110.0 / kg), 0.9991));
         assert!(matches_table(schwartz_coefficient(162.0 / kg), 0.6753));
         assert!(matches_table(schwartz_coefficient(220.0 / kg), 0.5545));
-        assert!(matches_table(schwartz_coefficient(220.0 / kg), 0.5545));
 
         // Test the second piece (bounded by 136kg).
         // Note that 286 and 287 fail due to rounding.
