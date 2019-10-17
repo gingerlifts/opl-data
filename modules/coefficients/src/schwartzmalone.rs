@@ -4,7 +4,8 @@ use opltypes::*;
 
 /// Calculates the Schwartz coefficient, used for men.
 ///
-/// The exact formula was found in a clipping, reproduced verbatim below:
+/// The exact formula was found in the magazine Powerlifting USA,
+/// Vol.6, No.2, August 1982, on page 61. That text is reproduced below:
 ///
 /// Computerized Schwartz Formula...Dr. Lyle Schwartz has often been
 /// asked for a means by which the formula he has given Powerlifting can be
