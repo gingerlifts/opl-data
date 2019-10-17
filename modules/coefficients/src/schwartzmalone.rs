@@ -2,9 +2,9 @@
 
 use opltypes::*;
 
-/// Exact formula found in a newspaper clipping.
+/// Calculates the Schwartz coefficient, used for men.
 ///
-/// The exact text of that clipping is as follows:
+/// The exact formula was found in a clipping, reproduced verbatim below:
 ///
 /// Computerized Schwartz Formula...Dr. Lyle Schwartz has often been
 /// asked for a means by which the formula he has given Powerlifting can be
