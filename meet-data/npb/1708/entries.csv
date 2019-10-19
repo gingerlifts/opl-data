@@ -1,31 +1,31 @@
 Place,Name,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,WeightClassKg,Division,Event,Sex,Equipment
-1,53.32,Yara Immers,42.50,45.00,-50.00,45.00,45.00,57 kg,Juniors,B,F,Single-Ply
-1,71.05,Maaike de Vries,110.00,,,110.00,110.00,72kg,Juniors,B,F,Single-Ply
-1,83.70,Iejla Strik,170.00,-180.00,-185.00,170.00,170.00,84 kg,Open,B,F,Single-Ply
-2,80.85,Joan Steeman,60.00,65.00,-67.50,65.00,65.00,84 kg,Open,B,F,Single-Ply
-1,114.15,Brenda van der Meulen,190.00,203.00,207.50,207.50,207.50,84+kg,Open,B,F,Single-Ply
-1,64.90,Frank Calor,120.00,135.00,-137.50,135.00,135.00,66 kg,Open,B,M,Single-Ply
-1,66.05,Charlie Smith,160.00,-165.00,167.50,167.50,167.50,74 kg,Masters 2,B,M,Single-Ply
-2,67.75,Jan van Waardenburg,105.00,110.00,-115.00,110.00,110.00,74 kg,Masters 2,B,M,Single-Ply
-3,72.05,Maaikel Hamers,90.00,95.00,100.00,100.00,100.00,74 kg,Sub-Juniors,B,M,Single-Ply
-1,82.05,Art Asrian,170.00,-185.00,-192.50,170.00,170.00,83 kg,Open,B,M,Single-Ply
-3,81.10,Neil Commandeur,-145.00,-145.00,145.00,145.00,145.00,83 kg,Open,B,M,Single-Ply
-2,81.60,Jos van Kersbergen,-150.00,-150.00,150.00,150.00,150.00,83 kg,Masters 3,B,M,Single-Ply
-4,77.10,Jurgen Kaaijmolen,-100.00,100.00,-105.00,100.00,100.00,83 kg,Sub-Juniors,B,M,Single-Ply
-1,88.80,Pieter van de Vijfeijken,-160.00,160.00,-165.00,160.00,160.00,93kg,Masters 2,B,M,Single-Ply
-2,90.55,Pier Wierda,130.00,136.00,140.00,140.00,140.00,93kg,Masters 3,B,M,Single-Ply
-3,92.75,Adriaan Fabrie,125.00,,,125.00,125.00,93kg,Masters 4,B,M,Single-Ply
-1,103.20,Harm de Jong,230.00,240.00,-250.00,240.00,240.00,105 kg,Open,B,M,Single-Ply
-2,101.45,Paul den Ouden,175.00,185.00,192.50,192.50,192.50,105 kg,Masters 3,B,M,Single-Ply
-3,101.55,Sven den Houting,180.00,190.00,192.50,192.50,192.50,105 kg,Masters 1,B,M,Single-Ply
-4,101.50,Francisco G. Morales,182.50,-192.50,-192.50,182.50,182.50,105 kg,Open,B,M,Single-Ply
-5,100.35,Jochem Schaap,160.00,170.00,175.00,175.00,175.00,105 kg,Juniors,B,M,Single-Ply
-6,102.20,Mariusz Vermeulen,170.00,-210.00,-210.00,170.00,170.00,105 kg,Masters 3,B,M,Single-Ply
-,102.55,Pascal Boers,-132.50,-132.50,-132.50,-132.50,0.00,105 kg,Open,B,M,Single-Ply
-1,112.65,Valentijn Hulshorst,185.00,190.00,195.00,195.00,195.00,120 kg,Masters 1,B,M,Single-Ply
-2,117.4,Orson Harms,180.00,187.50,-192.50,187.50,187.50,120 kg,Masters 1,B,M,Single-Ply
-3,109.65,Roel van Drogen,165.00,170.00,175.00,175.00,175.00,120 kg,Masters 4,B,M,Single-Ply
-1,120.25,Jordi Snijder,300.00,-315.00,-315.00,300.00,300.00,120+ kg,Open,B,M,Single-Ply
-2,180.30,Sven Jansen,240.00,250.00,260.00,260.00,260.00,120+ kg,Open,B,M,Single-Ply
-3,159.30,Rene Hamers,225.00,-230.00,-230.00,225.00,225.00,120+ kg,Masters 1,B,M,Single-Ply
-4,134.25,Wesley Ortega,192.50,-202.50,-202.50,192.50,192.50,120+ kg,Open,B,M,Single-Ply
+1,Yara Immers,53.32,42.50,45.00,-50.00,45.00,45.00,57 kg,Juniors,B,F,Single-ply
+1,Maaike de Vries,71.05,110.00,,,110.00,110.00,72kg,Juniors,B,F,Single-ply
+1,Iejla Strik,83.70,170.00,-180.00,-185.00,170.00,170.00,84 kg,Open,B,F,Single-ply
+2,Joan Steeman,80.85,60.00,65.00,-67.50,65.00,65.00,84 kg,Open,B,F,Single-ply
+1,Brenda van der Meulen,114.15,190.00,203.00,207.50,207.50,207.50,84+kg,Open,B,F,Single-ply
+1,Frank Calor,64.90,120.00,135.00,-137.50,135.00,135.00,66 kg,Open,B,M,Single-ply
+1,Charlie Smith,66.05,160.00,-165.00,167.50,167.50,167.50,74 kg,Masters 2,B,M,Single-ply
+2,Jan van Waardenburg,67.75,105.00,110.00,-115.00,110.00,110.00,74 kg,Masters 2,B,M,Single-ply
+3,Maaikel Hamers,72.05,90.00,95.00,100.00,100.00,100.00,74 kg,Sub-Juniors,B,M,Single-ply
+1,Art Asrian,82.05,170.00,-185.00,-192.50,170.00,170.00,83 kg,Open,B,M,Single-ply
+3,Neil Commandeur,81.10,-145.00,-145.00,145.00,145.00,145.00,83 kg,Open,B,M,Single-ply
+2,Jos van Kersbergen,81.60,-150.00,-150.00,150.00,150.00,150.00,83 kg,Masters 3,B,M,Single-ply
+4,Jurgen Kaaijmolen,77.10,-100.00,100.00,-105.00,100.00,100.00,83 kg,Sub-Juniors,B,M,Single-ply
+1,Pieter van de Vijfeijken,88.80,-160.00,160.00,-165.00,160.00,160.00,93kg,Masters 2,B,M,Single-ply
+2,Pier Wierda,90.55,130.00,136.00,140.00,140.00,140.00,93kg,Masters 3,B,M,Single-ply
+3,Adriaan Fabrie,92.75,125.00,,,125.00,125.00,93kg,Masters 4,B,M,Single-ply
+1,Harm de Jong,103.20,230.00,240.00,-250.00,240.00,240.00,105 kg,Open,B,M,Single-ply
+2,Paul den Ouden,101.45,175.00,185.00,192.50,192.50,192.50,105 kg,Masters 3,B,M,Single-ply
+3,Sven den Houting,101.55,180.00,190.00,192.50,192.50,192.50,105 kg,Masters 1,B,M,Single-ply
+4,Francisco G. Morales,101.50,182.50,-192.50,-192.50,182.50,182.50,105 kg,Open,B,M,Single-ply
+5,Jochem Schaap,100.35,160.00,170.00,175.00,175.00,175.00,105 kg,Juniors,B,M,Single-ply
+6,Mariusz Vermeulen,102.20,170.00,-210.00,-210.00,170.00,170.00,105 kg,Masters 3,B,M,Single-ply
+,Pascal Boers,102.55,-132.50,-132.50,-132.50,-132.50,0.00,105 kg,Open,B,M,Single-ply
+1,Valentijn Hulshorst,112.65,185.00,190.00,195.00,195.00,195.00,120 kg,Masters 1,B,M,Single-ply
+2,Orson Harms,117.4,180.00,187.50,-192.50,187.50,187.50,120 kg,Masters 1,B,M,Single-ply
+3,Roel van Drogen,109.65,165.00,170.00,175.00,175.00,175.00,120 kg,Masters 4,B,M,Single-ply
+1,Jordi Snijder,120.25,300.00,-315.00,-315.00,300.00,300.00,120+ kg,Open,B,M,Single-ply
+2,Sven Jansen,180.30,240.00,250.00,260.00,260.00,260.00,120+ kg,Open,B,M,Single-ply
+3,Rene Hamers,159.30,225.00,-230.00,-230.00,225.00,225.00,120+ kg,Masters 1,B,M,Single-ply
+4,Wesley Ortega,134.25,192.50,-202.50,-202.50,192.50,192.50,120+ kg,Open,B,M,Single-ply
