@@ -120,6 +120,10 @@ pub enum MetaFederation {
     #[strum(to_string = "bvdk")]
     BVDK,
 
+    /// FRPL, but with international results also.
+    #[strum(to_string = "frpl")]
+    FRPL,
+
     /// GPC-AUS, but excluding non-Australian lifters.
     #[strum(to_string = "gpc-aus")]
     #[serde(rename = "GPC-AUS")]
@@ -422,6 +426,16 @@ impl MetaFederation {
                 }
                 _ => false,
             },
+            MetaFederation::FRPL => match meet.federation {
+                Federation::FRPL => {
+                    entry.lifter_country == None
+                        || entry.lifter_country == Some(Country::Romania)
+                }
+                Federation::IPF | Federation::EPF => {
+                    entry.lifter_country == Some(Country::Romania)
+                }
+                _ => false,
+            },
             MetaFederation::GPCAUS => {
                 meet.federation == Federation::GPCAUS
                     && (entry.lifter_country == None
@@ -484,9 +498,7 @@ impl MetaFederation {
                     entry.lifter_country == None
                         || entry.lifter_country == Some(Country::NewZealand)
                 }
-                Federation::IPF
-                | Federation::OceaniaPF
-                | Federation::CommonwealthPF => {
+                Federation::IPF | Federation::OceaniaPF | Federation::CommonwealthPF => {
                     entry.lifter_country == Some(Country::NewZealand)
                 }
                 _ => false,
