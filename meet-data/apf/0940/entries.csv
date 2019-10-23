@@ -19,7 +19,7 @@ Igor Kalyta,26,M_OEM_AAPF,Multi-ply,Yes,89.7,90,,,,,210,-220,-220,210,,,,,210,B,
 Sam Borrego,24,M_OEM_AAPF,Multi-ply,Yes,93.4,100,,,,,205,-227.5,-227.5,205,,,,,205,B,1,M
 Dave Ewen,27,M_OEM_AAPF,Multi-ply,Yes,99.9,100,,,,,150,-160,160,160,,,,,160,B,2,M
 Jim Hussey,65,M_MEM_6_APF,Multi-ply,,89.6,90,,,,,-172.5,-172.5,-172.5,,,,,,,B,DQ,M
-Floyd Kucharski ,68,M_MEM_6_APF,Multi-ply,,99.3,100,,,,,100,107.5,115,115,,,,,115,B,1,M
+Floyd Kucharski,68,M_MEM_6_APF,Multi-ply,,99.3,100,,,,,100,107.5,115,115,,,,,115,B,1,M
 Clay Barnett,59,M_MEM_4_APF,Multi-ply,,123.4,125,,,,,185,195,-200,195,,,,,195,B,1,M
 Charles Smith,52,M_MEM_3_APF,Multi-ply,,81.6,82.5,,,,,162.5,-167.5,-167.5,162.5,,,,,162.5,B,1,M
 David Murphy,54,M_MEM_3_APF,Multi-ply,,114.6,125,,,,,147.5,160,-182.5,160,,,,,160,B,1,M
@@ -33,9 +33,9 @@ Dennis Gonzalez,33,M_OEM_APF,Multi-ply,,98.9,100,,,,,212.5,222.5,-227.5,222.5,,,
 Eric Maroscher,42,M_OEM_APF,Multi-ply,,100.8,110,,,,,182.5,-195,,182.5,,,,,182.5,B,1,M
 Zak Kroeger,32,M_OEM_APF,Multi-ply,,116.6,125,,,,,247.5,265,-272.5,265,,,,,265,B,1,M
 Ernie Lilliebridge Sr,37,M_OEM_APF,Multi-ply,,136.8,140,,,,,215,-227.5,,215,,,,,215,B,1,M
-Mario DeBenedetti,43,M_OEM_APF,Multi-ply,,,,,,,,,,,,,,,,,B,DQ,M
-Mario DeBenedetti,43,M_MEM_1_APF,Multi-ply,,,,,,,,,,,,,,,,,B,DQ,M
-Robert Vick,35,M_OEM_AAPF,Multi-ply,Yes,,,,,,,,,,,,,,,,B,DQ,M
+Mario DeBenedetti,43,M_OEM_APF,Multi-ply,,,140,,,,,,,,,,,,,,B,DQ,M
+Mario DeBenedetti,43,M_MEM_1_APF,Multi-ply,,,140,,,,,,,,,,,,,,B,DQ,M
+Robert Vick,35,M_OEM_AAPF,Multi-ply,Yes,,140+,,,,,,,,,,,,,,B,DQ,M
 Jarrett Kelley,17,F_TEM_2_AAPF,Multi-ply,Yes,98.7,90+,-205,-205,-205,,-125,125,-142.5,125,-185,185,215,215,,SBD,DQ,F
 Thomas Grimm,60,M_MEM_5_AAPF,Multi-ply,Yes,103.9,110,112.5,130,140,140,92.5,100,112.5,112.5,105,122.5,142.5,142.5,395,SBD,1,M
 Robert Falcioni,52,M_MEM_3_AAPF,Multi-ply,Yes,109.1,110,265,287.5,-300,287.5,157.5,167.5,-175,167.5,230,250,-260,250,705,SBD,1,M
@@ -75,7 +75,7 @@ Jason Patrick,37,M_OEM_APF,Multi-ply,,117.8,125,390,420,,420,272.5,287.5,-302.5,
 Mike Goldman,48,M_OEM_APF,Multi-ply,,124.5,125,-365,-365,365,365,-242.5,-245,-245,,,,,,,SBD,DQ,M
 Keegan Groth,17,M_OEM_APF,Multi-ply,,158.9,140+,-227.5,227.5,-250,227.5,125,-142.5,-142.5,125,-182.5,-182.5,-182.5,,,SBD,DQ,M
 Jayson McNett,28,M_OEM_APF,Multi-ply,,152,140+,-390,-390,-390,,-282.5,-285,-285,,,,,,,SBD,DQ,M
-Pete Andrich,38,M_OEM_AAPF,Multi-ply,Yes,,,,,,,,,,,,,,,,SBD,DQ,M
+Pete Andrich,38,M_OEM_AAPF,Multi-ply,Yes,,140+,,,,,,,,,,,,,,SBD,DQ,M
 Mary Grimm,56,F_MEM_4_AAPF,Multi-ply,Yes,58.7,60,30,32.5,35,35,15,20,-25,20,47.5,52.5,60,60,115,SBD,1,F
 Suzanne Gray,52,F_MEM_3_AAPF,Multi-ply,Yes,50.3,52,40,47.5,-52.5,47.5,25,30,-35,30,50,60,70,70,147.5,SBD,1,F
 Maria Dowle,53,F_MEM_3_AAPF,Multi-ply,Yes,78.8,82.5,115,125,137.5,137.5,45,50,-55,50,85,95,102.5,102.5,290,SBD,1,F
@@ -87,8 +87,8 @@ Rachael Fishman,27,F_OEM_AAPF,Multi-ply,Yes,65.1,67.5,140,160,-172.5,160,107.5,1
 Shannon Detman,27,F_OEM_AAPF,Multi-ply,Yes,87.8,90,200,217.5,240,240,102.5,112.5,-120,112.5,160,182.5,-195,182.5,535,SBD,1,F
 Jennifer Gimmell,27,F_OEM_AAPF,Multi-ply,Yes,89.2,90,137.5,150,-157.5,150,92.5,-105,-105,92.5,137.5,150,-157.5,150,392.5,SBD,2,F
 Maris Sternberg,60,F_MEM_5_APF,Multi-ply,,95,90+,125,137.5,-142.5,137.5,62.5,70,-82.5,70,97.5,-105,-105,97.5,305,SBD,1,F
-Stephanie Van de Weghe,47,F_MEM_2_APF,Multi-ply,,72.9,75,262.5,275,287.5,287.5,155,167.5,-172.5,167.5,190,205,-212.5,205,660,SBD,1,F
-Stephanie Van de Weghe,47,F_OEM_APF,Multi-ply,,72.9,75,262.5,275,287.5,287.5,155,167.5,-172.5,167.5,190,205,-212.5,205,660,SBD,1,F
+Stephanie van de Weghe,47,F_MEM_2_APF,Multi-ply,,72.9,75,262.5,275,287.5,287.5,155,167.5,-172.5,167.5,190,205,-212.5,205,660,SBD,1,F
+Stephanie van de Weghe,47,F_OEM_APF,Multi-ply,,72.9,75,262.5,275,287.5,287.5,155,167.5,-172.5,167.5,190,205,-212.5,205,660,SBD,1,F
 Maris Sternberg,60,F_OEM_APF,Multi-ply,,95,90+,125,137.5,-142.5,137.5,62.5,70,-82.5,70,97.5,-105,-105,97.5,305,SBD,1,F
 Kirby Anderson,72,M_MEM_7_AAPF,Multi-ply,Yes,66.1,67.5,130,142.5,150,150,92.5,100,-105,100,120,-140,-140,120,370,SBD,1,M
 Joe DiMaggio Sr,48,M_MEM_2_AAPF,Multi-ply,Yes,99.2,100,240,260,-272.5,260,-140,140,145,145,205,217.5,-227.5,217.5,622.5,SBD,1,M
