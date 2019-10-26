@@ -262,4 +262,4 @@
     1707 = ["ExemptWeightClassConsistency"]  # Some lifters missing weight info.
     1803 = ["ExemptWeightClassConsistency"]  # Some lifters missing weight info.
     1811 = ["ExemptWeightClassConsistency"]  # Some lifters missing weight info.
-    1909 = ["ExemptWeightClassConsistency"] # Non-standard weightclasses and divisions
+    1908 = ["ExemptWeightClassConsistency"] # Non-standard weightclasses and divisions
