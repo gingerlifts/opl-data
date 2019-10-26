@@ -1,0 +1,37 @@
+Place,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,WeightClassKg,Division,Event,Sex,Equipment
+1,G. Tromp,"59,5","242,5",140,220,"602,5",60,Open,SBD,M,Single-ply
+2,M. de Vries,"56,5",175,"92,5",170,"437,5",60,Open,SBD,M,Single-ply
+1,B. Burger,"66,9","212,5",105,220,"537,5",67.5,Open,SBD,M,Single-ply
+2,L. Baak,"67,8",190,120,220,530,67.5,Open,SBD,M,Single-ply
+3,F. v/d Putten,66,"167,5",130,180,"477,5",67.5,Open,SBD,M,Single-ply
+1,H. v/d Brand,74,250,145,270,665,75,Open,SBD,M,Single-ply
+2,A. Groenenboom,"74,6",260,"147,5","242,5",650,75,Open,SBD,M,Single-ply
+3,P. Sanders,"74,6",195,"132,5",245,"572,5",75,Open,SBD,M,Single-ply
+G,N. Martina,"74,9",250,155,"267,5","672,5",75,Open,SBD,M,Single-ply
+1,J. Verhagen,"80,3",250,"147,5","257,5",655,82.5,Open,SBD,M,Single-ply
+2,P. v. Haaren,"80,6",240,150,"262,5","652,5",82.5,Open,SBD,M,Single-ply
+3,P. Nowee,"80,9","252,5","147,5","252,5","652,5",82.5,Open,SBD,M,Single-ply
+4,H. v/d Putten,"81,9","252,5",135,265,"652,5",82.5,Open,SBD,M,Single-ply
+5,F. Hasselt,"80,6",250,"152,5","237,5",640,82.5,Open,SBD,M,Single-ply
+6,E. Buys,"79,7",240,"137,5",260,"637,5",82.5,Open,SBD,M,Single-ply
+7,J. v/d Brug,"80,7",225,"152,5",245,"622,5",82.5,Open,SBD,M,Single-ply
+1,A. Schneider,"84,8",265,"197,5",270,"732,5",90,Open,SBD,M,Single-ply
+2,F. v. Puffelen,"89,8",305,"122,5",270,"697,5",90,Open,SBD,M,Single-ply
+3,H. v/d Waal,"87,3",265,"162,5",260,"687,5",90,Open,SBD,M,Single-ply
+4,F. Meyer,"86,6",230,150,280,660,90,Open,SBD,M,Single-ply
+1,H. Hijman,"99,5",300,170,300,770,100,Open,SBD,M,Single-ply
+2,W. Nolles,"99,3",285,160,315,760,100,Open,SBD,M,Single-ply
+3,J. Koopmans,100,285,190,280,755,100,Open,SBD,M,Single-ply
+4,H. Keizer,99,295,165,280,740,100,Open,SBD,M,Single-ply
+5,B. v. Lier,"99,6",295,"162,5",280,"737,5",100,Open,SBD,M,Single-ply
+6,R. Beintema,"99,2","267,5","147,5","312,5","727,5",100,Open,SBD,M,Single-ply
+1,B. Veneberg,"107,9",295,"192,5",315,"802,5",110,Open,SBD,M,Single-ply
+2,L. v. Dintel,"108,8",300,"177,5",320,"797,5",110,Open,SBD,M,Single-ply
+3,A. Goossen,110,270,230,285,785,110,Open,SBD,M,Single-ply
+4,F. v/d Meulen,"103,8",300,185,275,760,110,Open,SBD,M,Single-ply
+5,J. Goossen,"105,1",255,"172,5",290,"717,5",110,Open,SBD,M,Single-ply
+6,A. de Bruin,"103,7",270,,,,110,Open,SBD,M,Single-ply
+1,S. Wulfse,"124,1",350,255,"357,5","962,5",125,Open,SBD,M,Single-ply
+2,R. v/d Tak,"112,8",295,"207,5",300,"802,5",125,Open,SBD,M,Single-ply
+1,G. du Prie,131,350,233,"327,5",910,125+,Open,SBD,M,Single-ply
+2,J. de Vries,"129,3",320,190,290,800,125+,Open,SBD,M,Single-ply
