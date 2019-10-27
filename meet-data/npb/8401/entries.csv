@@ -1,8 +1,8 @@
 Place,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,WeightClassKg,Division,Event,Sex,Equipment
 1,T. Dassen,160.00,82.50,182.50,425.00,52.00,Open,SBD,M,Single-ply
 1,S. Jellema,135.00,110.00,185.00,430.00,56.00,Open,SBD,M,Single-ply
-2,M. de Vries,145.00,82.50,180.00,407.50,56.00,Open,SBD,M,Single-ply
-1,G. Tromp,217.50,122.50,210.00,550.00,60.00,Open,SBD,M,Single-ply
+2,Marco de Vries,145.00,82.50,180.00,407.50,56.00,Open,SBD,M,Single-ply
+1,Gerard Tromp,217.50,122.50,210.00,550.00,60.00,Open,SBD,M,Single-ply
 2,V. Vialle,205.00,110.00,225.00,540.00,60.00,Open,SBD,M,Single-ply
 3,R. Simpson,180.00,90.00,190.00,460.00,60.00,Open,SBD,M,Single-ply
 4,H. Glas,175.00,95.00,175.00,445.00,60.00,Open,SBD,M,Single-ply
@@ -13,7 +13,7 @@ Place,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,WeightClassKg,Divis
 2,J. Verhagen,240.00,140.00,275.00,655.00,75.00,Open,SBD,M,Single-ply
 3,J. Commers,260.00,140.00,230.00,630.00,75.00,Open,SBD,M,Single-ply
 4,A. Groenenboom,260.00,137.50,225.00,622.50,75.00,Open,SBD,M,Single-ply
-5,C. Hoppenbrouwer,225.00,130.00,257.50,612.50,75.00,Open,SBD,M,Single-ply
+5,Coen Hoppenbrouwer,225.00,130.00,257.50,612.50,75.00,Open,SBD,M,Single-ply
 6,A. van Roon,225.00,127.50,250.00,602.50,75.00,Open,SBD,M,Single-ply
 7,H. van der Putten,255.00,115.00,230.00,600.00,75.00,Open,SBD,M,Single-ply
 8,G. Hensen,220.00,145.00,230.00,595,75.00,Open,SBD,M,Single-ply
@@ -32,7 +32,7 @@ Place,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,WeightClassKg,Divis
 3,H. Fiedler,260.00,190.00,250.00,700.00,90.00,Open,SBD,M,Single-ply
 4,A. v. Bladeren,265.00,165.00,262.50,692.50,90.00,Open,SBD,M,Single-ply
 5,D. Grevelink,260.00,130.00,280.00,670.00,90.00,Open,SBD,M,Single-ply
-6,P. Faber,260.00,162.50,240.00,662.50,90.00,Open,SBD,M,Single-ply
+6,Piebe Faber,260.00,162.50,240.00,662.50,90.00,Open,SBD,M,Single-ply
 7,F. Charite,240.00,150.00,245.00,635.00,90.00,Open,SBD,M,Single-ply
 DQ,J. Muurmans,250.00,155.00,,,90.00,Open,SBD,M,Single-ply
 1,R. Henderson,290.00,170.00,315.00,775.00,100.00,Open,SBD,M,Single-ply
@@ -44,15 +44,15 @@ DQ,J. Muurmans,250.00,155.00,,,90.00,Open,SBD,M,Single-ply
 7,H.J. Joosse,245.00,180.00,280.00,705.00,100.00,Open,SBD,M,Single-ply
 8,J. Martin,260.00,150.00,270.00,680.00,100.00,Open,SBD,M,Single-ply
 9,J. Huygens,240.00,135.00,270.00,645.00,100.00,Open,SBD,M,Single-ply
-1,L. Kok,330.00,215.00,290.00,835.00,110.00,Open,SBD,M,Single-ply
-2,G. Admiraal,290.00,192.50,327.50,810.00,110.00,Open,SBD,M,Single-ply
+1,Leo Kok,330.00,215.00,290.00,835.00,110.00,Open,SBD,M,Single-ply
+2,Gerard Admiraal,290.00,192.50,327.50,810.00,110.00,Open,SBD,M,Single-ply
 3,C. van Setten,320.00,175.00,312.50,807.50,110.00,Open,SBD,M,Single-ply
 4,J. Brizzi,280.00,170.00,302.50,752.50,110.00,Open,SBD,M,Single-ply
 5,Ferry van der Meulen,300.00,175.00,275.00,750.00,110.00,Open,SBD,M,Single-ply
 6,A. Goossen,255.00,220.00,250.00,725.00,110.00,Open,SBD,M,Single-ply
 1,Ab Wolders,375.00,225.00,360.00,960.00,125.00,Open,SBD,M,Single-ply
 2,P. Vrasdonk,365.00,220.00,365.00,950.00,125.00,Open,SBD,M,Single-ply
-3,H. van Eck,290.00,210.00,260.00,760.00,125.00,Open,SBD,M,Single-ply
-1,G. du Prie,380.00,245.00,327.50,952.50,125+,Open,SBD,M,Single-ply
-2,K. de Vreugd,395.00,195.00,330.00,920.00,125+,Open,SBD,M,Single-ply
+3,Huub van Eck,290.00,210.00,260.00,760.00,125.00,Open,SBD,M,Single-ply
+1,Gerard du Prie,380.00,245.00,327.50,952.50,125+,Open,SBD,M,Single-ply
+2,Cees de Vreugd,395.00,195.00,330.00,920.00,125+,Open,SBD,M,Single-ply
 3,J. de Vries,305.00,190.00,285.00,780.00,125+,Open,SBD,M,Single-ply
