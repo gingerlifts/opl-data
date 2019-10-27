@@ -123,6 +123,10 @@
     fscrbpu = {name ="F_S_CR_BPU",min=33,max=39,equipment=["Raw","Wraps"],sex="F",tested="No"}
     fssbpu = {name ="F_S_S_BPU",min=33,max=39,equipment="Single-ply",sex="F",tested="No"}
     fsmbpu = {name ="F_S_M_BPU",min=33,max=39,equipment="Multi-ply",sex="F",tested="No"}
+    
+    beginners = {name = "Beginners",min=0,max=999}
+    open = {name = "Open",min=0,max=999}
+    pro = {name = "Pro",min=0,max=999}
 
     # ABPU Divisions
     morabpu = {name ="M_O_R_ABPU",min=0,max=999,equipment="Raw",sex="M",tested="Yes"}
@@ -262,4 +266,4 @@
     1707 = ["ExemptWeightClassConsistency"]  # Some lifters missing weight info.
     1803 = ["ExemptWeightClassConsistency"]  # Some lifters missing weight info.
     1811 = ["ExemptWeightClassConsistency"]  # Some lifters missing weight info.
-    1908 = ["ExemptWeightClassConsistency"] # Non-standard weightclasses and divisions
+    1908 = ["ExemptWeightClassConsistency"] # Non-standard weightclasses
