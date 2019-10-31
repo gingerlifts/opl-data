@@ -323,7 +323,7 @@
     fpfemapf = {name ="F_PFEM_AAPF",min=0,max=999,equipment="Multi-ply",sex="F"} #Police/Fire
     fpfraapf = {name ="F_PFR_AAPF",min=0,max=999,equipment="Raw",sex="F",tested="Yes"} #Police/Fire
 
- # WPC Divisions.
+    # WPC Divisions.
     morwpc = {name ="M_OR_WPC",min=0,max=999,equipment="Raw",sex="M"}
     mocrwpc = {name ="M_OCR_WPC",min=0,max=999,equipment=["Raw","Wraps"],sex="M"}
     moswpc = {name ="M_OES_WPC",min=0,max=999,equipment="Single-ply",sex="M"}
@@ -545,8 +545,7 @@
     myesawpc = {name ="M_YES_AWPC",min=0,max=12,equipment="Single-ply",sex="M"} #Youth
     myemawpc = {name ="M_YEM_AWPC",min=0,max=12,equipment="Multi-ply",sex="M",tested="Yes"} #Youth
     mpfemawpc = {name ="M_PFEM_AWPC",min=0,max=999,equipment="Multi-ply",sex="M",tested="Yes"} #Police/Fire
-    fpfemawpc = {name ="F_PFEM_AWPC",min=0,max=999,equipment="Multi-ply",sex="F",tested="Yes"} #Police/Fire
-
+    
     forawpc = {name ="F_OR_AWPC",min=0,max=999,equipment="Raw",sex="F",tested="Yes"}
     focrawpc = {name ="F_OCR_AWPC",min=0,max=999,equipment=["Raw","Wraps"],sex="F",tested="Yes"}
     fosawpc = {name ="F_OES_AWPC",min=0,max=999,equipment="Single-ply",sex="F",tested="Yes"}
@@ -618,6 +617,11 @@
     fyrawpc = {name ="F_YR_AWPC",min=0,max=12,equipment="Raw",sex="F",tested="Yes"} #Youth
     fyesawpc = {name ="F_YES_AWPC",min=0,max=12,equipment="Single-ply",sex="F"} #Youth
     fyemawpc = {name ="F_YEM_AWPC",min=0,max=12,equipment="Multi-ply",sex="F"} #Youth
+    fpfemawpc = {name ="F_PFEM_AWPC",min=0,max=999,equipment="Multi-ply",sex="F",tested="Yes"} #Police/Fire
+
+    #WPO Division
+    mwpo = {name ="M_WPO",min=0,max=999,equipment="Multi-ply",sex="M"}
+    fwpo = {name ="F_WPO",min=0,max=999,equipment="Multi-ply",sex="F"}
 
     #Misc
     m4049 = {name ="M 40-49",min=40,max=49}

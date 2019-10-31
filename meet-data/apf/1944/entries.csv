@@ -1,0 +1,30 @@
+Name,Sex,Age,Division,Equipment,BodyweightKg,WeightClassKg,Squa1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Place,Team
+Tara Webber,F,29,F_WPO,Multi-ply,74.3,75,305,-322.5,330,330,152.5,-165,-165,152.5,207.5,227.5,240,240,722.5,SBD,1,Xconditioning
+Cosette Neely,F,41,F_WPO,Multi-ply,47.8,48,207.5,-217.5,-220,207.5,-145,145,-155,145,155,-170,-170,155,507.5,SBD,2,Sweattshop
+Stacia Al Mahoe,F,23,F_WPO,Multi-ply,47.45,48,175,182.5,192.5,192.5,115,122.5,127.5,127.5,167.5,182.5,-187.5,182.5,502.5,SBD,3,Fifty Barbell
+Shawna Mendelson,F,47,F_WPO,Multi-ply,80.95,82.5,-300,322.5,-330,322.5,192.5,200,-210,200,210,-230,-235,210,732.5,SBD,4,Blue Collar Barbell
+Andrea Corder,F,28,F_WPO,Multi-ply,80.2,82.5,262.5,285,302.5,302.5,145,157.5,-167.5,157.5,262.5,-277.5,-277.5,262.5,722.5,SBD,5,Sweattshop
+Jeannie Nutter,F,34,F_WPO,Multi-ply,67.15,67.5,257.5,275,-290,275,-135,135,-145,135,210,230,-237.5,230,640,SBD,6,VIP Barbell
+Tracey Patrick,F,48,F_WPO,Multi-ply,64.8,67.5,260,275,-285,275,-160,-160,160,160,142.5,182.5,-200,182.5,617.5,SBD,7,Detroit Barbell
+Debbie Damminga,F,58,F_WPO,Multi-ply,70.55,75,255,272.5,285,285,125,-132.5,-132.5,125,220,240,-257.5,240,650,SBD,8,Twin Cities Barbell
+Katrina Bielomyza,F,39,F_WPO,Multi-ply,89.9,90,312.5,-330,-330,312.5,165,175,-185,175,212.5,-227.5,227.5,227.5,715,SBD,9,Lighting Fitness
+Alecia Varga,F,40,F_WPO,Multi-ply,58.95,60,190,210,-220,210,-135,135,140,140,167.5,177.5,-182.5,177.5,527.5,SBD,10,Dogg House
+Valerie Oliveira,F,26,F_WPO,Multi-ply,92,SHW,-282.5,282.5,302.5,302.5,162.5,177.5,185,185,195,207.5,-215,207.5,695,SBD,11,
+Jenna Rowe,F,35,F_WPO,Multi-ply,69.55,75,227.5,250,-265,250,-117.5,-117.5,117.5,117.5,182.5,192.5,-200,192.5,560,SBD,12,Hellbent Barbell Club
+Crystal Tate,F,32,F_WPO,Multi-ply,88.95,90,327.5,352.5,370,352.5,-212.5,-220,-220,,,,,,,SBD,DQ,Monster Garage Gym
+Sarah Effinger,F,38,F_WPO,Multi-ply,55.6,56,-235,-240,-247.5,,,,,,,,,,,SBD,DQ,The Battlefield Wolfpack Strength
+Dave Hoff,M,31,M_WPO,Multi-ply,132.6,140,532.5,577.5,,577.5,425,442.5,460,460,340,370,,370,1407.5,SBD,1,Westside Barbell
+Bob Merkh,M,35,M_WPO,Multi-ply,120.7,125,-485,485,515,515,345,-380,,345,-310,310,325,325,1185,SBD,2,Atlantic City Barbell
+Daniel Tinajero,M,32,M_WPO,Multi-ply,106.1,110,375,397.5,422.5,422.5,332.5,352.5,-365,352.5,327.5,350,-372.5,350,1125,SBD,3,Perfect Storm Hardcore Training
+Henry Thomason,M,40,M_WPO,Multi-ply,118.2,125,465,502.5,-510,502.5,-345,345,-355,345,300,-320,-322.5,300,1147.5,SBD,4,Hidden Gym
+Allen Pilley,M,37,M_WPO,Multi-ply,122.65,125,447.5,487.5,-510,487.5,302.5,330,-342.5,330,307.5,-330,-330,307.5,1125,SBD,5,CTX Barbell
+Marc Tejero,M,41,M_WPO,Multi-ply,66.75,67.5,337.5,-365,-380,337.5,-187.5,187.5,,187.5,237.5,260,-272.5,260,785,SBD,6,Main Street Barbell
+Joseph Stein #1,M,24,M_WPO,Multi-ply,158.4,SHW,475,502.5,522.5,522.5,-287.5,-287.5,295,295,287.5,322.5,327.5,327.5,1145,SBD,7,Absolute Performance
+Anthony Oliveira,M,33,M_WPO,Multi-ply,115.8,125,472.5,-490,,472.5,250,-285,-285,250,317.5,335,-352.5,335,1057.5,SBD,8,Night Crew
+Alex Kovatch,M,21,M_WPO,Multi-ply,74.65,75,352.5,385,-412.5,385,-202.5,202.5,-240,202.5,230,255,-272.5,255,842.5,SBD,9,Westside Barbell
+James Burdette,M,46,M_WPO,Multi-ply,101.5,110,400,410,430,430,-320,320,-337.5,320,250,-275,-275,250,1000,SBD,10,
+Thomas Krawiec,M,37,M_WPO,Multi-ply,82,82.5,402.5,-425,-425,402.5,-300,-300,-300,,,,,,,SBD,DQ,Barbell 4:13
+Dave Kirschen,M,42,M_WPO,Multi-ply,74.9,75,-345,-365,-365,,,,,,,,,,,SBD,DQ,Hellbent Barbell Club
+Chris Della Fave,M,31,M_WPO,Multi-ply,110.7,125,-465,-475,-475,,,,,,,,,,,SBD,DQ,Bergen County Barbell/Hellbent BB
+Brian Hill,M,31,M_WPO,Multi-ply,108.6,110,-480,-510,-510,,,,,,,,,,,SBD,DQ,Hill's Gym
+Matt Minuth,M,38,M_WPO,Multi-ply,109.75,110,-500,-510,-510,,,,,,,,,,,SBD,DQ,Barbell 4:13
