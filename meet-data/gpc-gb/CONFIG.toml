@@ -1,0 +1,3 @@
+# Configuration for GPC-GB.
+
+    1914 = ["ExemptWeightClassConsistency", "ExemptDivision"]
