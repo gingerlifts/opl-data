@@ -18,7 +18,7 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,BodyweightKg,Country,Bench1Kg,Be
 4,60,F,Masters 1,Marleen Houg,1959,58.5,Netherlands,75,77.5,80,80,80,B,Single-ply
 5,60,F,Masters 1,Susanne Cunat,1959,59.4,Austria,-75,75,80,80,80,B,Single-ply
 6,60,F,Masters 1,Doris Jawinski,1955,59.1,Germany,70,75,,75,75,B,Single-ply
-1,67.5,F,Masters 1,Yvonne v. Stoep,1960,66.7,Netherlands,97.5,102.5,110,110,110,B,Single-ply
+1,67.5,F,Masters 1,Yvonne van der Stoep,1960,66.7,Netherlands,97.5,102.5,110,110,110,B,Single-ply
 2,67.5,F,Masters 1,Christian DiPrata,1957,61.9,France,90,92.5,95,95,95,B,Single-ply
 3,67.5,F,Masters 1,Ursula Häuser,1960,66.2,Germany,87.5,92.5,95,95,95,B,Single-ply
 4,67.5,F,Masters 1,Evelyne Herbin,1956,66.1,France,82.5,-87.5,-92.5,82.5,82.5,B,Single-ply
@@ -170,7 +170,7 @@ DQ,56,M,Masters 2,Joachim Lietzau,1950,55.8,Germany,-100,-100,-115,,,B,Single-pl
 8,82.5,M,Masters 2,Kari Mattila,1949,81.6,Sweden,115,-125,125,125,125,B,Single-ply
 1,90,M,Masters 2,Tadashi Tachibana,1949,88.9,Japan,185,192.5,200,200,200,B,Single-ply
 2,90,M,Masters 2,Dave Cummerow,1948,86.5,USA,165,170,177.5,177.5,177.5,B,Single-ply
-3,90,M,Masters 2,Hans-Jürg Pietsch,1948,85.77,Germany,170,175,-177.5,175,175,B,Single-ply
+3,90,M,Masters 2,Hans-Jürgen Pietsch,1948,85.77,Germany,170,175,-177.5,175,175,B,Single-ply
 4,90,M,Masters 2,Tilman Gallant,1948,85.8,Canada,160,-170,170,170,170,B,Single-ply
 5,90,M,Masters 2,Lucien Chonckel,1941,85.4,France,155,160,-162.5,160,160,B,Single-ply
 6,90,M,Masters 2,Bo Eklöf,1944,86.1,Sweden,130,-137.5,137.5,137.5,137.5,B,Single-ply
