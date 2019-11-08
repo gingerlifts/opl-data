@@ -86,6 +86,9 @@ pub enum Exemption {
 
     /// Allows lifters of any bodyweight to compete in any weightclass.
     ExemptWeightClassConsistency,
+
+    /// Allows a meet to contain implausibly young or old lifters.
+    ExemptAge,
 }
 
 #[derive(Debug)]
@@ -134,15 +137,6 @@ fn parse_divisions(value: &Value, report: &mut Report) -> Vec<DivisionConfig> {
                 report.error(format!("Division name '{}' must be unique", name));
                 break;
             }
-        }
-
-        // Standardize on plural variants.
-        // For example, require "Masters" instead of "Master".
-        if name.contains("Master") && !name.contains("Masters") {
-            report.error(format!(
-                "Division name '{}' must use plural 'Masters'",
-                name
-            ));
         }
 
         // Parse the minimum age.

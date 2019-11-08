@@ -1,5 +1,5 @@
 Place,Name,Division,BirthYear,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Bench4Kg,WeightClassKg,Sex,Equipment,Event,TotalKg
-1,Dana Brusova,FJ,1992,Slovakia,45,-55,60,-62.5,60,,48,F,Raw,B,60
+1,Dana Brusová,FJ,1992,Slovakia,45,-55,60,-62.5,60,,48,F,Raw,B,60
 1,Katalin Mezei,FO,1979,Hungary,47.2,50,55,57.5,57.5,,48,F,Raw,B,57.5
 1,Andrea Kovács,FO,1979,Hungary,51.8,50,52.5,-55,52.5,,52,F,Raw,B,52.5
 2,Szilvia Kaiser,FO,1982,Hungary,51.6,45,47.5,-50,47.5,,52,F,Raw,B,47.5
@@ -13,7 +13,7 @@ G,Tekla Pop,FJ,1993,Hungary,54.7,40,45,-50,45,,56,F,Raw,B,45
 5,Szandra Kovacs,FO,1988,Hungary,59.7,55,60,-65,60,,60,F,Raw,B,60
 1,Ilona Egri,FM1,1972,Hungary,60,55,-57.5,-57.5,55,,60,F,Raw,B,55
 1,Marta Brenkusova,FT2,1996,Slovakia,67.25,50,55,-57.5,55,,67.5,F,Raw,B,55
-1,Miroslava Nagajdova,FJ,1992,Slovakia,61.5,50,55,-60,55,,67.5,F,Raw,B,55
+1,Miroslava Nagajdová,FJ,1992,Slovakia,61.5,50,55,-60,55,,67.5,F,Raw,B,55
 1,Marianna Berentei,FO,1977,Hungary,71.15,40,45,-50,45,,75,F,Raw,B,45
 1,Marianna Óvári,FM1,1973,Hungary,77.3,100,,105,105,,82.5,F,Raw,B,105
 1,Tomáš Siska,MT1,2000,Slovakia,46.7,25,30,32.5,32.5,,52,M,Raw,B,32.5
@@ -118,7 +118,7 @@ DQ,Ondrej Döme,MM4,1955,Slovakia,99.5,-145,-145,-145,,,100,M,Raw,B,
 9,Gabor Dusan,MO,,Slovakia,122,165,170,175,175,,125,M,Raw,B,175
 1,Tamás Szabó,MM1,1971,Hungary,117.4,190,195,-200,195,,125,M,Raw,B,195
 2,Roman Capák,MM1,1970,Slovakia,117.6,180,-190,190,190,,125,M,Raw,B,190
-3,Jan Hubay,MM1,1971,Slovakia,123.9,150,160,,160,,125,M,Raw,B,160
+3,Ján Hubay,MM1,1971,Slovakia,123.9,150,160,,160,,125,M,Raw,B,160
 1,Ján Orosz,MM2,1964,Slovakia,124.7,220,230,-237.5,230,,125,M,Raw,B,230
 1,László Mészáros,MO,1968,Hungary,131,280,290,302.5,302.5,,140,M,Raw,B,302.5
 2,Erik Susztay,MO,1972,Slovakia,133,205,210,215,215,,140,M,Raw,B,215
@@ -149,7 +149,7 @@ DQ,Filip Stanko,MJE,1990,Slovakia,79.2,180,-190,190,190,,82.5,M,Multi-ply,B,
 1,Sándor Jungwirth,MEM2,1965,Hungary,82.3,125,130,135,135,,82.5,M,Multi-ply,B,135
 1,Miroslav Čaba,MET3,1993,Slovakia,86.9,200,220,-230,220,,90,M,Multi-ply,B,220
 1,Tomáš Bugáň,MJE,1990,Slovakia,89.9,205,215,220,220,,90,M,Multi-ply,B,220
-2,Vladimir Okrajek,MJE,1990,Slovakia,89.8,130,145,-155,145,,90,M,Multi-ply,B,145
+2,Vladimír Okrajek,MJE,1990,Slovakia,89.8,130,145,-155,145,,90,M,Multi-ply,B,145
 1,János Örsi,MOE,1977,Hungary,89.8,270,-280,-280,270,,90,M,Multi-ply,B,270
 2,Patrik Stanko,MOE,1986,Slovakia,85.3,150,157.5,-165,157.5,,90,M,Multi-ply,B,157.5
 DQ,József Kovács,MOE,1977,Hungary,89.8,-200,-200,-200,,,90,M,Multi-ply,B,

@@ -40,6 +40,9 @@ pub struct FederationStatus {
 
     /// People who have committed to keeping this federation updated.
     pub maintainers: &'static str,
+
+    /// The federation's Instagram account.
+    pub instagram: &'static str,
 }
 
 impl FederationStatus {
@@ -53,6 +56,7 @@ impl FederationStatus {
             ease: "",
             maintainers:
                 "None (<a href=\"mailto:updates@openpowerlifting.org\">Apply</a>)",
+            instagram: "",
         }
     }
 }
@@ -165,6 +169,7 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     let xls_unstructured = "XLS (Unstructured)";
     let xls_structured = "XLS (Structured)";
     statuses[_365Strong as usize].format = xls_structured;
+    statuses[AAP as usize].format = pdf_structured;
     statuses[AEP as usize].format = html;
     statuses[APA as usize].format = html;
     statuses[APF as usize].format = xls_unstructured;
@@ -214,6 +219,7 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[USPA as usize].format = pdf_structured;
     statuses[WelshPA as usize].format = pdf_unstructured;
     statuses[WPC as usize].format = xls_unstructured;
+    statuses[WPCItaly as usize].format = jpg;
     statuses[WPNZ as usize].format = jpg;
     statuses[WRPFAUS as usize].format = jpg;
     statuses[WUAP as usize].format = pdf_structured;
@@ -224,6 +230,7 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     let difficult = "Difficult";
     let impossible = "Impossible";
     statuses[_365Strong as usize].ease = easy;
+    statuses[AAP as usize].ease = difficult;
     statuses[AEP as usize].ease = medium;
     statuses[APA as usize].ease = medium;
     statuses[APF as usize].ease = difficult;
@@ -272,6 +279,7 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[USAPL as usize].ease = easy;
     statuses[USPA as usize].ease = easy;
     statuses[WPC as usize].ease = medium;
+    statuses[WPCItaly as usize].ease = difficult;
     statuses[WPNZ as usize].ease = difficult;
     statuses[WRPFAUS as usize].ease = impossible;
     statuses[WUAP as usize].ease = difficult;
@@ -282,6 +290,7 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     let email_gem = "<a href=\"mailto:gem@openpowerlifting.org\">gem@</a>";
     let email_jo = "<a href=\"mailto:jo@openpowerlifting.org\">jo@</a>";
     let email_matt = "<a href=\"mailto:matt@openpowerlifting.org\">matt@</a>";
+    let email_mbeelen = "<a href=\"mailto:mbeelen@openpowerlifting.org\">mbeelen@</a>";
     let email_milena = "<a href=\"mailto:milena@openpowerlifting.org\">milena@</a>";
     let email_robby = "<a href=\"mailto:ramasson@hotmail.co.uk\">Robby Masson</a>";
     let email_romi = "<a href=\"mailto:romi@openpowerlifting.org\">Romi@</a>";
@@ -323,6 +332,7 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[IrishPO as usize].maintainers = email_gem;
     statuses[NASA as usize].maintainers = email_boris;
     statuses[NIPF as usize].maintainers = email_jo;
+    statuses[NPB as usize].maintainers = email_mbeelen;
     statuses[NZPF as usize].maintainers = email_matt;
     statuses[OceaniaPF as usize].maintainers = email_matt;
     statuses[OEVK as usize].maintainers = email_milena;
@@ -341,12 +351,62 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[WPC as usize].maintainers = email_gem;
     statuses[WPCFinland as usize].maintainers = email_gem;
     statuses[WPCFrance as usize].maintainers = email_gem;
+    statuses[WPCItaly as usize].maintainers = email_gem;
+    statuses[WPCPortugal as usize].maintainers = email_gem;
     statuses[WPNZ as usize].maintainers = email_matt;
     statuses[WRPFAUS as usize].maintainers = email_matt;
 
     // Don't ask for maintainership applications for defunct, completed federations.
     statuses[BB as usize].maintainers = "";
     statuses[SCT as usize].maintainers = "";
+
+    // Federation Instagram accounts.
+    statuses[_365Strong as usize].instagram = "365_strongwpf";
+    statuses[AAP as usize].instagram = "alianzaargentinapowerlifting_";
+    statuses[APA as usize].instagram = "apawpa_official";
+    statuses[APF as usize].instagram = "apf_powerlifting";
+    statuses[AsianPF as usize].instagram = "asian.powerlifting.federation";
+    statuses[BVDK as usize].instagram = "derkraftdreikaempfer";
+    statuses[CAPO as usize].instagram = "capopowerlifting";
+    statuses[ChinaPA as usize].instagram = "gpachina";
+    statuses[FFForce as usize].instagram = "ffforce__";
+    statuses[GPCAUS as usize].instagram = "gpcaustralia";
+    statuses[GPCGB as usize].instagram = "gpc_gb";
+    statuses[GPCIRL as usize].instagram = "gpcireland";
+    statuses[GPCNZ as usize].instagram = "gpcnewzealand";
+    statuses[IPF as usize].instagram = "theipf";
+    statuses[IPL as usize].instagram = "iplpowerlifting";
+    statuses[IrishPF as usize].instagram = "irishpowerliftingfederation";
+    statuses[IrishPO as usize].instagram = "ipoaipowpc";
+    statuses[NIPF as usize].instagram = "nipowerlifting";
+    statuses[NZPF as usize].instagram = "newzealandpowerlifting";
+    statuses[ParaPL as usize].instagram = "parapowerlifting";
+    statuses[ProRaw as usize].instagram = "prorawpowerlifting";
+    statuses[RAWUKR as usize].instagram = "raw100power";
+    statuses[RPS as usize].instagram = "rps_powerlifting";
+    statuses[ScottishPL as usize].instagram = "scottishpowerlifting";
+    statuses[SPF as usize].instagram = "southernpowerliftingfederation";
+    statuses[SwissPL as usize].instagram = "swiss_powerlifting";
+    statuses[ThaiPF as usize].instagram = "thaipowerlifting";
+    statuses[UPA as usize].instagram = "upa_events_";
+    statuses[UPC as usize].instagram = "powerliftingupc";
+    statuses[USAPL as usize].instagram = "usapowerlifting";
+    statuses[USPA as usize].instagram = "uspapower";
+    statuses[WelshPA as usize].instagram = "welsh_powerlifting";
+    statuses[WNPF as usize].instagram = "wnpf_powerlifting";
+    statuses[WPAU as usize].instagram = "wpaukraine";
+    statuses[WPCFinland as usize].instagram = "wpcfinland";
+    statuses[WPCSA as usize].instagram = "wpc_powerlifting_cpt";
+    statuses[WRPF as usize].instagram = "wrp_official";
+    statuses[WRPFAUS as usize].instagram = "wrpfaustralia";
+    statuses[WRPFBelarus as usize].instagram = "wrpf_belarus";
+    statuses[WRPFIreland as usize].instagram = "wrpfireland";
+    statuses[WRPFKAZ as usize].instagram = "wrpfkazakhstan";
+    statuses[WRPFLithuania as usize].instagram = "wrpf_lithuania";
+    statuses[WRPFSlovenia as usize].instagram = "wrpfslovenia";
+    statuses[WRPFSpain as usize].instagram = "wrpf_spain";
+    statuses[WRPFSweden as usize].instagram = "wrpf.sweden";
+    statuses[WUAP as usize].instagram = "wuapusa";
 }
 
 impl<'a> Context<'a> {

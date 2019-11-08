@@ -7,7 +7,7 @@ Mike Yost,67.5,Open,M,S,Single-ply,28,201.85,,,,201.85,,1
 James Schall,75,Masters 70-74,M,S,Raw,70,92.99,,,,92.99,,1
 Brian Strickland,82.5,Open,M,S,Single-ply,28,272.16,,,,272.16,,1
 Virgil Diaz,82.5,Submasters,M,S,Single-ply,36,256.28,,,,256.28,,1
-G. Rodgers,82.5,Masters 45-49,M,S,Raw,45,172.37,,,,172.37,,1
+Gary Rodgers,82.5,Masters 45-49,M,S,Raw,45,172.37,,,,172.37,,1
 R. Lewis Sr,90,Masters 40-44,M,S,Single-ply,41,235.87,,,,235.87,,1
 Burt Rosenfield,90,Masters 65-69,M,S,Single-ply,65,181.44,,,,181.44,,1
 Larry Lee,110,Open,M,S,Single-ply,32,226.8,,,,226.8,,1
@@ -18,11 +18,11 @@ R. Granados,52,Open,F,B,Single-ply,36,,70.31,,,70.31,,1
 R. Granados,52,Submasters,F,B,Single-ply,36,,70.31,,,70.31,,1
 Yvette Vlack,56,Open,F,B,Raw,32,,72.57,,,72.57,,1
 C. Bennett,60,Open,F,B,Single-ply,29,,70.31,,,70.31,,2
-K. Haynes,60,Open,F,B,Single-ply,32,,70.99,,,70.99,,1
+Katie Haynes,60,Open,F,B,Single-ply,32,,70.99,,,70.99,,1
 L. Gross,67.5,Open,F,B,Single-ply,35,,81.65,,,81.65,,1
 Jessica Wyman,90+,Open,F,B,Single-ply,26,,81.65,,,81.65,,1
 S. Covington,90+,Open,F,B,Raw,30,,72.57,,,72.57,,1
-G. Murphy,52,Submasters,M,B,Single-ply,38,,88.45,,,88.45,,1
+Glenn Murphy,52,Submasters,M,B,Single-ply,38,,88.45,,,88.45,,1
 Ken Snell,67,Submasters,M,B,Single-ply,39,,120.2,,,120.2,,1
 Ryan Quartuccio,60,Teen 14-15,M,B,Single-ply,14,,65.77,,,65.77,,1
 Mike Yost,67.5,Open,M,B,Single-ply,28,,154.22,,,154.22,,1
@@ -96,7 +96,7 @@ Bill Bradford,125,Submasters,M,B,Raw,39,,183.71,,,183.71,,1
 Geoff Resnik,145,Open,M,B,Single-ply,36,,249.48,,,249.48,,1
 Jerry Tancil,145,Masters 40-44,M,B,Single-ply,44,,244.94,,,244.94,,1
 Robert Churovia,145,Masters 55-59,M,B,Single-ply,55,,192.78,,,192.78,,1
-G. Resnik,145,Submasters,M,B,Single-ply,36,,249.48,,,249.48,,1
+Geoff Resnik,145,Submasters,M,B,Single-ply,36,,249.48,,,249.48,,1
 Ed Brooks,145,Submasters,M,B,Single-ply,37,,217.72,,,217.72,,2
 C. Bryant,145,Open,M,B,Raw,35,,229.06,,,229.06,,1
 Robert Churovia,145,Masters 55-59,M,B,Raw,55,,192.78,,,192.78,,1
@@ -106,8 +106,8 @@ Richard Schoenburger,145+,Open,M,B,Raw,31,,240.4,249.48,,240.4,,1
 Doreen Trafton,67.5,Open,F,D,Single-ply,28,,,,161.03,161.03,,1
 Ken Snell,56,Open,M,D,Single-ply,39,,,,185.97,185.97,,1
 Mike Yost,67.5,Open,M,D,Single-ply,28,,,,204.12,204.12,,1
-D. Whitney,67.5,Masters 50-54,M,D,Single-ply,53,,,,226.8,226.8,,1
-R. Beyer,67.5,Masters 60-64,M,D,Raw,60,,,,158.76,158.76,,1
+Dean Whitney,67.5,Masters 50-54,M,D,Single-ply,53,,,,226.8,226.8,,1
+Richard Beyer,67.5,Masters 60-64,M,D,Raw,60,,,,158.76,158.76,,1
 James Schall,67.5,Masters 70-74,M,D,Raw,70,,,,156.49,156.49,,1
 J. Jones,67.5,Submasters,M,D,Raw,37,,,,176.9,176.9,,1
 Keith Mason,82.5,Open,M,D,Single-ply,31,,,,294.84,294.84,,1
@@ -122,7 +122,7 @@ J. Herlein,90,Masters 55-59,M,D,Single-ply,59,,,,244.94,244.94,,1
 Burt Rosenfield,90,Masters 65-69,M,D,Single-ply,65,,,,215.46,215.46,,1
 Burt Rosenfield,90,Open,M,D,Raw,65,,,,283.5,283.5,,1
 P. Skinner,90,Masters 40-44,M,D,Single-ply,40,,,,226.8,226.8,,2
-Tom Smith,90,Masters 55-59,M,D,Single-ply,57,,,,235.87,235.87,,2
+Tom Smith #3,90,Masters 55-59,M,D,Single-ply,,,,,235.87,235.87,,2
 Bill Remley,100,Masters 65-69,M,D,Single-ply,67,,,,222.26,222.26,,1
 Greg Jurkowski,100,Open,M,D,Single-ply,34,,,,292.57,292.57,,1
 Chris McQuay,100,Open,M,D,Raw,34,,,,235.87,235.87,,1

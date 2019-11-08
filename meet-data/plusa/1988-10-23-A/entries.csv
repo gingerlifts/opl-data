@@ -1,6 +1,6 @@
 Name,WeightClassKg,Division,Sex,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
-P. Box,48,Open,F,,150,70,145,365,SBD,Single-ply,1
-B. Lopez,52,Open,F,,130,62.5,135,327.5,SBD,Single-ply,1
+Peggy Box,48,Open,F,,150,70,145,365,SBD,Single-ply,1
+Bertha Lopez,52,Open,F,,130,62.5,135,327.5,SBD,Single-ply,1
 Teresa Mims-DeVoltz,56,Open,F,,130,72.5,185,387.5,SBD,Single-ply,1
 L. Azzano,56,Open,F,,127.5,75,152.5,355,SBD,Single-ply,2
 B. Anthony,56,Open,F,,95,50,102.5,247.5,SBD,Single-ply,3
@@ -8,13 +8,13 @@ L. Martinez,56,Open,F,,72.5,40,97.5,210,SBD,Single-ply,4
 Nora Cline,60,Open,F,,177.5,105,175,457.5,SBD,Single-ply,1
 TL Burney,60,Open,F,,135,65,132.5,332.5,SBD,Single-ply,2
 E. Pepe,67.5,Open,F,,135,77.5,150,362.5,SBD,Single-ply,1
-D. LeBlanc,67.5,Open,F,,90,45,115,250,SBD,Single-ply,2
-C. Konst,67.5,Open,F,,182.5,,145,,SBD,Single-ply,DQ
+Denise LeBlanc,67.5,Open,F,,90,45,115,250,SBD,Single-ply,2
+Crystal Konst,67.5,Open,F,,182.5,,145,,SBD,Single-ply,DQ
 R. Stutzman,75,Open,F,,112.5,57.5,117.5,287.5,SBD,Single-ply,1
 D. Eaton,75,Open,F,,110,52.5,125,287.5,SBD,Single-ply,2
 J. Deforr,75,Open,F,,110,47.5,115,272.5,SBD,Single-ply,3
 EM Douglas,82.5,Open,F,,145,92.5,157.5,395,SBD,Single-ply,1
-T. McKenzie,90,Open,F,,170,82.5,182.5,435,SBD,Single-ply,1
+Teri McKenzie,90,Open,F,,170,82.5,182.5,435,SBD,Single-ply,1
 L. Martinez,56,High School,F,,72.5,40,97.5,210,SBD,Single-ply,1
 D. Campbell,56,Teen,M,,127.5,97.5,150,375,SBD,Single-ply,1
 J. Alcala,67.5,Teen,M,,177.5,97.5,210,485,SBD,Single-ply,1
@@ -30,7 +30,7 @@ L. Clark,82.5,Teen,M,,237.5,167.5,270,675,SBD,Single-ply,1
 K. Fertitta,82.5,Teen,M,,200,142.5,227.5,570,SBD,Single-ply,2
 R. Newman,82.5,Teen,M,,100,65,142.5,307.5,SBD,Single-ply,3
 T. Fagan,90,Teen,M,,157.5,112.5,205,475,SBD,Single-ply,1
-D. Mallard,100,Teen,M,,285,200,247.5,732.5,SBD,Single-ply,1
+Deryl Mallard,100,Teen,M,,285,200,247.5,732.5,SBD,Single-ply,1
 D. Smith,100,Teen,M,,162.5,95,227.5,485,SBD,Single-ply,2
 K. Gibson,125,Teen,M,,225,132.5,205,562.5,SBD,Single-ply,1
 B. Taylor,52,High School,M,,,52.5,125,,SBD,Single-ply,DQ
@@ -59,7 +59,7 @@ D. Mullenix,90,High School,M,,212.5,130,220,562.5,SBD,Single-ply,2
 T. Fagan,90,High School,M,,157.5,112.5,205,475,SBD,Single-ply,3
 M. Garza,90,High School,M,,157.5,102.5,182.5,442.5,SBD,Single-ply,4
 E. Scott,90,High School,M,,142.5,87.5,157.5,387.5,SBD,Single-ply,5
-D. Mallard,100,High School,M,,285,200,247.5,732.5,SBD,Single-ply,1
+Deryl Mallard,100,High School,M,,285,200,247.5,732.5,SBD,Single-ply,1
 A. Gutierrez,100,High School,M,,207.5,150,210,567.5,SBD,Single-ply,2
 A. Driggers,100,High School,M,,195,120,215,530,SBD,Single-ply,3
 R. Hattenbach,100,High School,M,,177.5,125,205,507.5,SBD,Single-ply,4
@@ -93,7 +93,7 @@ K. Duran,75,Below Class II,M,,180,122.5,215,517.5,SBD,Single-ply,8
 R. Villagomez,75,Below Class II,M,,205,137.5,175,517.5,SBD,Single-ply,9
 D. Madre,75,Below Class II,M,,182.5,142.5,182.5,507.5,SBD,Single-ply,10
 J. Morales,82.5,Below Class II,M,,235,147.5,250,632.5,SBD,Single-ply,1
-J. Wiseman,82.5,Below Class II,M,,240,125,250,615,SBD,Single-ply,2
+Jonathan Wiseman,82.5,Below Class II,M,,240,125,250,615,SBD,Single-ply,2
 T. Mata,82.5,Below Class II,M,,220,147.5,220,587.5,SBD,Single-ply,3
 R. Caudill,82.5,Below Class II,M,,215,130,237.5,582.5,SBD,Single-ply,4
 K. Fertitta,82.5,Below Class II,M,,200,142.5,227.5,570,SBD,Single-ply,5
@@ -105,7 +105,7 @@ L. Neef,82.5,Below Class II,M,,212.5,120,197.5,530,SBD,Single-ply,10
 D. Gregory,82.5,Below Class II,M,,182.5,120,190,492.5,SBD,Single-ply,11
 T. Stephens,82.5,Below Class II,M,,175,110,182.5,467.5,SBD,Single-ply,12
 G. Robertson,90,Below Class II,M,,285,177.5,320,782.5,SBD,Single-ply,1
-S. Fraser,90,Below Class II,M,,287.5,192.5,265,745,SBD,Single-ply,2
+Shane Fraser,90,Below Class II,M,,287.5,192.5,265,745,SBD,Single-ply,2
 J. Stewart,90,Below Class II,M,,265,170,232.5,667.5,SBD,Single-ply,3
 S. Nauls,90,Below Class II,M,,237.5,155,245,637.5,SBD,Single-ply,4
 J. Gruter,90,Below Class II,M,,237.5,150,245,632.5,SBD,Single-ply,5
@@ -158,29 +158,29 @@ G. Bloom,90,Open,M,,340,195,292.5,827.5,SBD,Single-ply,2
 G. Robertson,90,Open,M,,285,177.5,320,782.5,SBD,Single-ply,3
 K. Johnson,90,Open,M,,275,180,305,760,SBD,Single-ply,5
 T. Allen,90,Open,M,,295,187.5,272.5,755,SBD,Single-ply,6
-S. Fraser,90,Open,M,,287.5,192.5,265,745,SBD,Single-ply,7
-C. DeRousselle,90,Open,M,,312.5,165,290,767.5,SBD,Single-ply,4
+Shane Fraser,90,Open,M,,287.5,192.5,265,745,SBD,Single-ply,7
+Chad DeRousselle,90,Open,M,,312.5,165,290,767.5,SBD,Single-ply,4
 T. Bruner,90,Open,M,,280,175,275,730,SBD,Single-ply,8
 D. Dyson,90,Open,M,,237.5,160,250,647.5,SBD,Single-ply,9
 Bruce Jasperson,90,Open,M,,250,167.5,227.5,645,SBD,Single-ply,10
 J. Rackley,90,Open,M,,215,147.5,215,577.5,SBD,Single-ply,11
 Scott Wagner,100,Open,M,,365,202.5,310,877.5,SBD,Single-ply,1
 M. Hall,100,Open,M,,280,190,292.5,762.5,SBD,Single-ply,2
-C. Guiton,100,Open,M,,272.5,170,285,727.5,SBD,Single-ply,3
+Clarence Guiton,100,Open,M,,272.5,170,285,727.5,SBD,Single-ply,3
 JP Airaghi,100,Open,M,,262.5,195,255,712.5,SBD,Single-ply,4
 B. Chasteen,100,Open,M,,272.5,167.5,255,695,SBD,Single-ply,5
 John Hoffmann,110,Open,M,,330,240,325,895,SBD,Single-ply,1
-T. Allen,110,Open,M,,370,230,295,895,SBD,Single-ply,2
-J. Sanchez,110,Open,M,,342.5,162.5,342.5,847.5,SBD,Single-ply,3
+Tom Allen,110,Open,M,,370,230,295,895,SBD,Single-ply,2
+John Sanchez #2,110,Open,M,,342.5,162.5,342.5,847.5,SBD,Single-ply,3
 David Reece,110,Open,M,,300,222.5,250,772.5,SBD,Single-ply,4
 C. Glasser,110,Open,M,,277.5,192.5,262.5,732.5,SBD,Single-ply,5
 R. Bueche,110,Open,M,,220,177.5,235,632.5,SBD,Single-ply,6
-J. Regaldo,110,Open,M,,,162.5,,162.5,B,Single-ply,1
+Joe Regaldo,110,Open,M,,,162.5,,162.5,B,Single-ply,1
 C. Whaley,125,Open,M,,340,187.5,307.5,835,SBD,Single-ply,1
 S. Murray,125,Open,M,,315,210,255,780,SBD,Single-ply,2
 J. Neal,125,Open,M,,242.5,182.5,277.5,702.5,SBD,Single-ply,4
 T. Thomas,125,Open,M,,282.5,197.5,257.5,737.5,SBD,Single-ply,3
-Anthony Clark,125+,Open,M,,392.5,295,310,997.5,SBD,Single-ply,1
+Anthony Clark #1,125+,Open,M,,392.5,295,310,997.5,SBD,Single-ply,1
 Frank Luna #2,125+,Open,M,,367.5,190,287.5,845,SBD,Single-ply,2
 K. Rosa,125+,Open,M,,305,227.5,312.5,845,SBD,Single-ply,3
 G. Johnson,125+,Open,M,,322.5,205,312.5,840,SBD,Single-ply,4

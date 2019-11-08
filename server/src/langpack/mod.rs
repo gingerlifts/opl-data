@@ -42,6 +42,8 @@ pub enum Language {
     it,
     /// Japanese.
     ja,
+    /// Dutch.
+    nl,
     /// Polish.
     pl,
     /// Portuguese.
@@ -64,6 +66,10 @@ pub enum Language {
     #[serde(rename = "zh-Hant")]
     #[strum(to_string = "zh-Hant")]
     zh_hant,
+    /// Chinese, written in Simplified Chinese script.
+    #[serde(rename = "zh-Hans")]
+    #[strum(to_string = "zh-Hans")]
+    zh_hans,
 }
 
 impl fmt::Display for Language {
@@ -84,6 +90,7 @@ impl fmt::Display for Language {
                 Language::hu => "hu",
                 Language::it => "it",
                 Language::ja => "ja",
+                Language::nl => "nl",
                 Language::pl => "pl",
                 Language::pt => "pt",
                 Language::sl => "sl",
@@ -94,6 +101,7 @@ impl fmt::Display for Language {
                 Language::uk => "uk",
                 Language::vi => "vi",
                 Language::zh_hant => "zh-Hant",
+                Language::zh_hans => "zh-Hans",
             }
         )
     }
@@ -429,11 +437,13 @@ pub struct SortSelectorTranslations {
     pub by_bench: String,
     pub by_deadlift: String,
     pub by_total: String,
+    pub by_ah: String,
     pub by_allometric: String,
     pub by_glossbrenner: String,
     pub by_ipfpoints: String,
     pub by_mcculloch: String,
     pub by_nasa: String,
+    pub by_reshel: String,
     pub by_wilks: String,
     pub by_division: String,
     pub weight: String,
@@ -472,6 +482,8 @@ pub struct FedSelectorTranslations {
     pub all_usa: String,
     pub all_argentina: String,
     pub all_australia: String,
+    pub all_belarus: String,
+    pub all_brazil: String,
     pub all_canada: String,
     pub all_china: String,
     pub all_croatia: String,
@@ -488,6 +500,7 @@ pub struct FedSelectorTranslations {
     pub all_latvia: String,
     pub all_newzealand: String,
     pub all_poland: String,
+    pub all_portugal: String,
     pub all_russia: String,
     pub all_serbia: String,
     pub all_slovakia: String,
@@ -540,6 +553,7 @@ pub struct LangInfo {
     hu: Option<Translations>,
     it: Option<Translations>,
     ja: Option<Translations>,
+    nl: Option<Translations>,
     pl: Option<Translations>,
     pt: Option<Translations>,
     sl: Option<Translations>,
@@ -550,6 +564,7 @@ pub struct LangInfo {
     uk: Option<Translations>,
     vi: Option<Translations>,
     zh_hant: Option<Translations>,
+    zh_hans: Option<Translations>,
 }
 
 impl LangInfo {
@@ -578,6 +593,7 @@ impl LangInfo {
             Language::hu => self.hu = trans,
             Language::it => self.it = trans,
             Language::ja => self.ja = trans,
+            Language::nl => self.nl = trans,
             Language::pl => self.pl = trans,
             Language::pt => self.pt = trans,
             Language::sl => self.sl = trans,
@@ -588,6 +604,7 @@ impl LangInfo {
             Language::uk => self.uk = trans,
             Language::vi => self.vi = trans,
             Language::zh_hant => self.zh_hant = trans,
+            Language::zh_hans => self.zh_hans = trans,
         };
 
         Ok(())
@@ -607,6 +624,7 @@ impl LangInfo {
             Language::hu => self.hu.as_ref().unwrap(),
             Language::it => self.it.as_ref().unwrap(),
             Language::ja => self.ja.as_ref().unwrap(),
+            Language::nl => self.nl.as_ref().unwrap(),
             Language::pl => self.pl.as_ref().unwrap(),
             Language::pt => self.pt.as_ref().unwrap(),
             Language::sl => self.sl.as_ref().unwrap(),
@@ -617,6 +635,7 @@ impl LangInfo {
             Language::uk => self.uk.as_ref().unwrap(),
             Language::vi => self.vi.as_ref().unwrap(),
             Language::zh_hant => self.zh_hant.as_ref().unwrap(),
+            Language::zh_hans => self.zh_hans.as_ref().unwrap(),
         }
     }
 }
@@ -849,6 +868,7 @@ impl Language {
             Language::hu => NumberFormat::ArabicComma,
             Language::it => NumberFormat::ArabicComma,
             Language::ja => NumberFormat::ArabicPeriod,
+            Language::nl => NumberFormat::ArabicComma,
             Language::pl => NumberFormat::ArabicComma,
             Language::pt => NumberFormat::ArabicComma,
             Language::sl => NumberFormat::ArabicComma,
@@ -859,6 +879,7 @@ impl Language {
             Language::uk => NumberFormat::ArabicComma,
             Language::vi => NumberFormat::ArabicComma,
             Language::zh_hant => NumberFormat::ArabicPeriod,
+            Language::zh_hans => NumberFormat::ArabicPeriod,
         }
     }
 }

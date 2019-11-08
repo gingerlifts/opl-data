@@ -28,15 +28,18 @@
   <option value="csst" {% if selection.federation == "CSST" %}selected{% endif %}>CSST / {{strings.country.czechia}}</option>
   <option value="dsf" {% if selection.federation == "DSF" %}selected{% endif %}>DSF / {{strings.country.denmark}}</option>
   <option value="falpo" {% if selection.federation == "FALPO" %}selected{% endif %}>FALPO / {{strings.country.argentina}}</option>
+  <option value="fecapolif" {% if selection.federation == "FECAPOLIF" %}selected{% endif %}>FECAPOLIF / {{strings.country.cameroon}}</option>
   <option value="femepo" {% if selection.federation == "FEMEPO" %}selected{% endif %}>FEMEPO / {{strings.country.mexico}}</option>
   <option value="ffforce" {% if selection.federation == "FFForce" %}selected{% endif %}>FFForce / {{strings.country.france}}</option>
   <option value="fipl" {% if selection.federation == "FIPL" %}selected{% endif %}>FIPL / {{strings.country.italy}}</option>
   <option value="fpr" {% if selection.federation == "FPR" %}selected{% endif %}>FPR / {{strings.country.russia}}</option>
+  <option value="frpl" {% if selection.federation == "FRPL" %}selected{% endif %}>FRPL / {{strings.country.romania}}</option>
   <option value="hpls" {% if selection.federation == "HPLS" %}selected{% endif %}>HPLS / {{strings.country.croatia}}</option>
   <option value="irishpf" {% if selection.federation == "IrishPF" %}selected{% endif %}>IrishPF / {{strings.country.ireland}}</option>
   <option value="jpa" {% if selection.federation == "JPA" %}selected{% endif %}>JPA / {{strings.country.japan}}</option>
   <option value="kpf" {% if selection.federation == "KPF" %}selected{% endif %}>KPF / {{strings.country.kazakhstan}}</option>
   <option value="kraft" {% if selection.federation == "KRAFT" %}selected{% endif %}>KRAFT / {{strings.country.iceland}}</option>
+  <option value="ljtf" {% if selection.federation == "LJTF" %}selected{% endif %}>LJTF / {{strings.country.lithuania}}</option>
   <option value="lpf" {% if selection.federation == "LPF" %}selected{% endif %}>LPF / {{strings.country.latvia}}</option>
   <option value="naurupf" {% if selection.federation == "NauruPF" %}selected{% endif %}>NauruPF / {{strings.country.nauru}}</option>
   <option value="npb" {% if selection.federation == "NPB" %}selected{% endif %}>NPB / {{strings.country.netherlands}}</option>
@@ -51,7 +54,7 @@
   <option value="sapf" {% if selection.federation == "SAPF" %}selected{% endif %}>SAPF / {{strings.country.southafrica}}</option>
   <option value="ssf" {% if selection.federation == "SSF" %}selected{% endif %}>SSF / {{strings.country.sweden}}</option>
   <option value="svnl" {% if selection.federation == "SVNL" %}selected{% endif %}>SVNL / {{strings.country.finland}}</option>
-  <option value="swisspl" {% if selection.federation == "SwissPL" %}selected{% endif %}>Swiss Powerlifting / {{strings.country.switzerland}}</option>
+  <option value="swisspl" {% if selection.federation == "SwissPL" %}selected{% endif %}>SwissPL / {{strings.country.switzerland}}</option>
   <option value="thaipf" {% if selection.federation == "ThaiPF" %}selected{% endif %}>ThaiPF / {{strings.country.thailand}}</option>
   <option value="ukrainepf" {% if selection.federation == "UkrainePF" %}selected{% endif %}>UkrainePF / {{strings.country.ukraine}}</option>
   <option value="usapl" {% if selection.federation == "USAPL" %}selected{% endif %}>USAPL / {{strings.country.usa}}</option>

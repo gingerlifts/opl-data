@@ -22,7 +22,7 @@ Each meet is represented by a folder inside the federation folder. For example, 
 
 The name given to the meet folder is extremely important: taken together with the federation folder, it forms the `MeetPath` that uniquely identifies the meet throughout the project.
 
-So for example, a meet that is stored in `meet-data/fpo/1502` will have the `MeetPath` of `fpo/1502`, and on the website it will be accessible at the address [http://www.openpowerlifting.org/meet.html?m=fpo/1502](http://www.openpowerlifting.org/meet.html?m=fpo/1502).
+So for example, a meet that is stored in `meet-data/fpo/1502` will have the `MeetPath` of `fpo/1502`, and on the website it will be accessible at the address [https://www.openpowerlifting.org/m/fpo/1502](https://www.openpowerlifting.org/m/fpo/1502).
 
 For most federations, each meet folder is named YYxx, where YY is the last two digits of the year in which the meet was held, and xx is a counter starting at 01. If a federation had three meets in 2015, they would receive folders named `1501`, `1502`, and `1503`, respectively. The order does not matter: it is OK for `1503` to have taken place before `1501`.
 
@@ -35,7 +35,7 @@ Each meet is described completely by files named `entries.csv` and `meet.csv`, t
 In addition, there are some required-if-applicable files that are not currently used to build the database, but provide helpful information:
 
 - A file named `URL` includes a list of URLs, one on each line, pointing to the original source of the results.
-- A file named `results.txt` (if source was PDF) or `results.csv` (if source was a spreadsheet) documents the original, un-edited version of the results as downloaded from the source. This is important in case of error.
+- A file named `original.txt` (if source was PDF) or `original.csv` (if source was a spreadsheet) documents the original, un-edited version of the results as downloaded from the source. This is important in case of error.
 
 
 ## Structure of meet.csv

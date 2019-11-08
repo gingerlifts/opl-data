@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # vim: set ts=8 sts=4 et sw=4 tw=99:
 #
-# Standardize the results.csv to the OpenPowerlifting
+# Standardize the original.csv to the OpenPowerlifting
 # internal format.
 #
 
@@ -292,7 +292,7 @@ def consume_first_column(csv):
             elif row[0] == 'BP' or row[0] == 'BENCH PRESS' or row[0] == 'APC BP':
                 event = 'B'
                 equipment = 'Raw'
-            elif row[0] == 'EBP' or row[0] == 'EQP BP':
+            elif row[0] == 'EBP' or row[0] == 'EQP BP' or row[0] == 'BP EQP':
                 event = 'B'
                 equipment = 'Single-ply'
             elif row[0] == 'PUSH/PULL':
@@ -506,6 +506,6 @@ def main(filename):
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print(" Usage: %s results.csv" % sys.argv[0], file=sys.stderr)
+        print(" Usage: %s original.csv" % sys.argv[0], file=sys.stderr)
         sys.exit(1)
     main(sys.argv[1])

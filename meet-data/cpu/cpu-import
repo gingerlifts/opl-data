@@ -34,7 +34,7 @@ def canonicalize_number(s):
 
 def parsehtml(html):
     # Decode network bytes as UTF-8.
-    html = html.decode('utf-8')
+    html = html.decode('utf-8', errors='replace')
 
     # The HTML is malformed. We do some spot corrections first.
     html = html.replace("<font size='2'>", "")
@@ -44,15 +44,15 @@ def parsehtml(html):
     table = soup.find('table', {'id': 'customers'})
 
     # Build the meet.csv.
-    date = table.find('font', {'size': '4'}).contents[0]
+    date = table.find('font', {'size': '4'}).contents[0].string
     assert len(date) == 10
 
     # The header looks like "2019 Belle River Open, Belle River, ON".
-    header = table.find('font', {'size': '5'}).contents[0]
-    split_header = header.split(', ')
+    header = table.find('font', {'size': '5'}).contents[0].string
+    split_header = header.split(',')
     assert len(split_header) >= 3
 
-    province = split_header[-1]
+    province = split_header[-1].strip()
     town = split_header[-2].replace('  ', ' ').strip()
     meetname = ', '.join(split_header[0:-2]).replace('  ', ' ').strip()
 
@@ -102,11 +102,15 @@ def parsehtml(html):
         cells = row.find_all('td')
         num_cells = len(cells)
 
-        if num_cells == 0:
+        if num_cells == 0 or num_cells == 2:
             # This happens with the meet information rows, which are malformed.
             continue
 
         elif num_cells == 16:
+            # Skip the NAME row.
+            if cells[0].text == "NAME":
+                continue
+
             # Handle control rows.
             if 'EQUIPPED' in cells[0].text:
                 # Event.

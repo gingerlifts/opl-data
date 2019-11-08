@@ -26,15 +26,21 @@ pub struct Context<'db> {
 
     // Instead of having the JS try to figure out how to access
     // other sorts, just tell it what the paths are.
+    pub path_if_by_ah: String,
     pub path_if_by_division: String,
     pub path_if_by_glossbrenner: String,
     pub path_if_by_ipfpoints: String,
     pub path_if_by_nasa: String,
+    pub path_if_by_reshel: String,
+    pub path_if_by_total: String,
     pub path_if_by_wilks: String,
 
     /// True iff the meet reported any age data.
     pub has_age_data: bool,
     pub sortselection: MeetSortSelection,
+
+    /// Year of competition, used in the heading.
+    pub year: u32,
 
     /// List of tables, to be printed one after the other.
     pub tables: Vec<Table<'db>>,
@@ -50,10 +56,13 @@ pub struct Table<'db> {
 /// A sort selection widget just for the meet page.
 #[derive(Copy, Clone, Debug, PartialEq, Serialize)]
 pub enum MeetSortSelection {
+    ByAH,
     ByDivision,
     ByGlossbrenner,
     ByIPFPoints,
+    ByReshel,
     ByNASA,
+    ByTotal,
     ByWilks,
 
     /// Special value that resolves to one of the others after lookup.
@@ -65,10 +74,13 @@ impl FromStr for MeetSortSelection {
 
     fn from_str(s: &str) -> Result<Self, Self::Err> {
         match s {
+            "by-ah" => Ok(MeetSortSelection::ByAH),
             "by-division" => Ok(MeetSortSelection::ByDivision),
             "by-glossbrenner" => Ok(MeetSortSelection::ByGlossbrenner),
-            "by-nasa" => Ok(MeetSortSelection::ByNASA),
             "by-ipf-points" => Ok(MeetSortSelection::ByIPFPoints),
+            "by-nasa" => Ok(MeetSortSelection::ByNASA),
+            "by-reshel" => Ok(MeetSortSelection::ByReshel),
+            "by-total" => Ok(MeetSortSelection::ByTotal),
             "by-wilks" => Ok(MeetSortSelection::ByWilks),
             _ => Err(()),
         }
@@ -170,13 +182,31 @@ impl<'a> ResultsRow<'a> {
                 .in_format(number_format),
             total: entry.totalkg.as_type(units).in_format(number_format),
             points: match points_system {
-                PointsSystem::Wilks => entry.wilks.in_format(number_format),
+                PointsSystem::AH => {
+                    let points =
+                        coefficients::ah(entry.sex, entry.bodyweightkg, entry.totalkg);
+                    points.in_format(number_format)
+                }
                 PointsSystem::Glossbrenner => entry.glossbrenner.in_format(number_format),
+                PointsSystem::IPFPoints => entry.ipfpoints.in_format(number_format),
+                PointsSystem::Reshel => {
+                    let points = coefficients::reshel(
+                        entry.sex,
+                        entry.bodyweightkg,
+                        entry.totalkg,
+                    );
+                    points.in_format(number_format)
+                }
                 PointsSystem::NASA => {
                     let points = coefficients::nasa(entry.bodyweightkg, entry.totalkg);
                     points.in_format(number_format)
                 }
-                PointsSystem::IPFPoints => entry.ipfpoints.in_format(number_format),
+                PointsSystem::Total => entry
+                    .totalkg
+                    .as_type(units)
+                    .as_points()
+                    .in_format(number_format),
+                PointsSystem::Wilks => entry.wilks.in_format(number_format),
             },
         }
     }
@@ -450,15 +480,30 @@ fn make_tables_by_points<'db>(
         .map(|(_key, group)| group.max_by_key(|x| x.wilks).unwrap())
         .collect();
 
+    // The points system to be used for display.
+    // The "Total" logic below changes this to select the federation default.
+    let mut display_points_system = points_system;
+
     match points_system {
+        PointsSystem::AH => {
+            entries.sort_unstable_by(|a, b| algorithms::cmp_ah(&meets, a, b));
+        }
         PointsSystem::Glossbrenner => {
             entries.sort_unstable_by(|a, b| algorithms::cmp_glossbrenner(&meets, a, b));
         }
         PointsSystem::IPFPoints => {
             entries.sort_unstable_by(|a, b| algorithms::cmp_ipfpoints(&meets, a, b));
         }
+        PointsSystem::Reshel => {
+            entries.sort_unstable_by(|a, b| algorithms::cmp_reshel(&meets, a, b));
+        }
         PointsSystem::NASA => {
             entries.sort_unstable_by(|a, b| algorithms::cmp_nasa(&meets, a, b));
+        }
+        PointsSystem::Total => {
+            entries.sort_unstable_by(|a, b| algorithms::cmp_total(&meets, a, b));
+            let meet = opldb.get_meet(meet_id);
+            display_points_system = meet.federation.default_points(meet.date);
         }
         PointsSystem::Wilks => {
             entries.sort_unstable_by(|a, b| algorithms::cmp_wilks(&meets, a, b));
@@ -468,7 +513,7 @@ fn make_tables_by_points<'db>(
     let rows: Vec<ResultsRow> = entries
         .into_iter()
         .zip(1..)
-        .map(|(e, i)| ResultsRow::from(opldb, locale, points_system, e, i))
+        .map(|(e, i)| ResultsRow::from(opldb, locale, display_points_system, e, i))
         .collect();
 
     vec![Table { title: None, rows }]
@@ -485,6 +530,9 @@ impl<'db> Context<'db> {
         let default_points: PointsSystem = meet.federation.default_points(meet.date);
 
         let tables: Vec<Table> = match sort {
+            MeetSortSelection::ByAH => {
+                make_tables_by_points(&opldb, &locale, PointsSystem::AH, meet_id)
+            }
             MeetSortSelection::ByDivision => make_tables_by_division(
                 &opldb,
                 &locale,
@@ -504,6 +552,12 @@ impl<'db> Context<'db> {
             MeetSortSelection::ByNASA => {
                 make_tables_by_points(&opldb, &locale, PointsSystem::NASA, meet_id)
             }
+            MeetSortSelection::ByReshel => {
+                make_tables_by_points(&opldb, &locale, PointsSystem::Reshel, meet_id)
+            }
+            MeetSortSelection::ByTotal => {
+                make_tables_by_points(&opldb, &locale, PointsSystem::Total, meet_id)
+            }
             MeetSortSelection::ByWilks => {
                 make_tables_by_points(&opldb, &locale, PointsSystem::Wilks, meet_id)
             }
@@ -515,19 +569,31 @@ impl<'db> Context<'db> {
         let points_column_title = match sort {
             MeetSortSelection::ByDivision | MeetSortSelection::ByFederationDefault => {
                 match default_points {
+                    PointsSystem::AH => "AH",
                     PointsSystem::Glossbrenner => &locale.strings.columns.glossbrenner,
                     PointsSystem::IPFPoints => &locale.strings.columns.ipfpoints,
                     PointsSystem::NASA => "NASA",
+                    PointsSystem::Reshel => "Reshel",
+                    // FIXME: Total actually uses the meet default.
+                    PointsSystem::Total => "Points",
                     PointsSystem::Wilks => &locale.strings.columns.wilks,
                 }
             }
+            MeetSortSelection::ByAH => "AH",
             MeetSortSelection::ByGlossbrenner => &locale.strings.columns.glossbrenner,
             MeetSortSelection::ByIPFPoints => &locale.strings.columns.ipfpoints,
             MeetSortSelection::ByNASA => "NASA",
+            MeetSortSelection::ByReshel => "Reshel",
+            // FIXME: Total actually uses the meet default.
+            MeetSortSelection::ByTotal => "Points",
             MeetSortSelection::ByWilks => &locale.strings.columns.wilks,
         };
 
         // Paths do not include the urlprefix, which defaults to "/".
+        let path_if_by_ah = match default_points {
+            PointsSystem::AH => format!("m/{}", meet.path),
+            _ => format!("m/{}/by-ah", meet.path),
+        };
         let path_if_by_division = format!("m/{}/by-division", meet.path);
         let path_if_by_glossbrenner = match default_points {
             PointsSystem::Glossbrenner => format!("m/{}", meet.path),
@@ -540,6 +606,14 @@ impl<'db> Context<'db> {
         let path_if_by_nasa = match default_points {
             PointsSystem::NASA => format!("m/{}", meet.path),
             _ => format!("m/{}/by-nasa", meet.path),
+        };
+        let path_if_by_reshel = match default_points {
+            PointsSystem::Reshel => format!("m/{}", meet.path),
+            _ => format!("m/{}/by-reshel", meet.path),
+        };
+        let path_if_by_total = match default_points {
+            PointsSystem::NASA => format!("m/{}", meet.path),
+            _ => format!("m/{}/by-total", meet.path),
         };
         let path_if_by_wilks = match default_points {
             PointsSystem::Wilks => format!("m/{}", meet.path),
@@ -554,26 +628,36 @@ impl<'db> Context<'db> {
             units: locale.units,
             points_column_title,
             sortselection: match sort {
+                MeetSortSelection::ByAH => MeetSortSelection::ByAH,
                 MeetSortSelection::ByDivision => MeetSortSelection::ByDivision,
                 MeetSortSelection::ByGlossbrenner => MeetSortSelection::ByGlossbrenner,
                 MeetSortSelection::ByIPFPoints => MeetSortSelection::ByIPFPoints,
+                MeetSortSelection::ByReshel => MeetSortSelection::ByReshel,
                 MeetSortSelection::ByNASA => MeetSortSelection::ByNASA,
+                MeetSortSelection::ByTotal => MeetSortSelection::ByTotal,
                 MeetSortSelection::ByWilks => MeetSortSelection::ByWilks,
                 MeetSortSelection::ByFederationDefault => match default_points {
+                    PointsSystem::AH => MeetSortSelection::ByAH,
                     PointsSystem::Glossbrenner => MeetSortSelection::ByGlossbrenner,
                     PointsSystem::IPFPoints => MeetSortSelection::ByIPFPoints,
+                    PointsSystem::Reshel => MeetSortSelection::ByReshel,
                     PointsSystem::NASA => MeetSortSelection::ByNASA,
+                    PointsSystem::Total => MeetSortSelection::ByTotal,
                     PointsSystem::Wilks => MeetSortSelection::ByWilks,
                 },
             },
             meet: MeetInfo::from(&meet, locale.strings),
+            year: meet.date.year(),
             has_age_data: true, // TODO: Maybe use again?
             tables,
             use_rank_column: sort != MeetSortSelection::ByDivision,
+            path_if_by_ah,
             path_if_by_division,
             path_if_by_glossbrenner,
             path_if_by_ipfpoints,
             path_if_by_nasa,
+            path_if_by_reshel,
+            path_if_by_total,
             path_if_by_wilks,
         }
     }

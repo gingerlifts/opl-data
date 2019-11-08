@@ -104,7 +104,7 @@ R. Stineman,113.5,SM-4,M,,147.5,,147.5,B,Single-ply,2
 E. Doublin,127,SM-1,M,,220,,220,B,Single-ply,1
 T. Mano,145+,SM-1,M,,220,,220,B,Single-ply,1
 T. McKinney,145+,SM-1,M,,210,,210,B,Single-ply,2
-D. Oyler,145+,SM-2,M,,165,,165,B,Single-ply,1
+David Oyler,145+,SM-2,M,,165,,165,B,Single-ply,1
 S. Anderson,62.5,T1,M,,102.5,,102.5,B,Single-ply,1
 T. Wilson,77,T1,M,,117.5,,117.5,B,Single-ply,1
 R. May,92.5,T1,M,,70,,70,B,Single-ply,1
@@ -126,7 +126,7 @@ Mike Stainbrook,85,BP-M3,M,,110,,110,B,Single-ply,1
 B. Williams,77,BP-MP,M,,107.5,,107.5,B,Single-ply,1
 Mike Stainbrook,85,DL-M3,M,,,65,65,D,Single-ply,1
 B. Williams,77,DL-MP,M,,,205,205,D,Single-ply,1
-D. McCarthy,103,DL-N,M,,,255,255,D,Single-ply,1
+David McCarthy,103,DL-N,M,,,255,255,D,Single-ply,1
 M. Allen,93,Int,M,,160,215,375,BD,Single-ply,1
 C. Kennedy,57.5,M1,M,,95,145,240,BD,Single-ply,1
 Jim Sabonis,92.5,M1,M,,120,260,380,BD,Single-ply,1
@@ -137,9 +137,9 @@ C. Kennedy,57.5,MP,M,,95,145,240,BD,Single-ply,1
 C. Cardan,85,MP,M,,165,245,410,BD,Single-ply,1
 Jim Sabonis,93,MP,M,,120,260,380,BD,Single-ply,1
 T. Tinsman,113.5,MP,M,,180,280,460,BD,Single-ply,1
-R. Lamb,113.5,MP,M,,137.5,215,352.5,BD,Single-ply,2
+Rod Lamb,113.5,MP,M,,137.5,215,352.5,BD,Single-ply,2
 Jim Sabonis,93,N,M,,120,260,380,BD,Single-ply,1
-D. McCarthy,103,N,M,,155,255,410,BD,Single-ply,1
+David McCarthy,103,N,M,,155,255,410,BD,Single-ply,1
 E. Wilkins,93,P,M,,165,272.5,437.5,BD,Single-ply,1
 Jim Sabonis,93,P,M,,120,260,380,BD,Single-ply,2
 R. Hudson,103,P,M,,147.5,232.5,380,BD,Single-ply,1
@@ -147,7 +147,7 @@ T. Tinsman,113.5,P,M,,150,280,430,BD,Single-ply,1
 J. Payne,143,P,M,,155,237.5,392.5,BD,Single-ply,1
 T. Chapman,77,PN,M,,110,170,280,BD,Single-ply,1
 C. Oliger,92.5,SM,M,,127.5,185,312.5,BD,Single-ply,1
-D. McCarthy,103,SM,M,,155,255,410,BD,Single-ply,1
+David McCarthy,103,SM,M,,155,255,410,BD,Single-ply,1
 R. Carson,113.5,SM,M,,147.5,262.5,410,BD,Single-ply,1
 C. Wall,113.5,SM,M,,110,140,250,BD,Single-ply,2
 J. Mansfield,62.5,HS-1,M,137.5,85,167.5,390,SBD,Single-ply,1
@@ -159,7 +159,7 @@ W. Edmondson,70,Int 1,M,170,125,220,515,SBD,Single-ply,2
 J. Allen,93,Int 1,M,275,167.5,260,702.5,SBD,Single-ply,1
 C. Schmidt,103,Int 1,M,260,-137.5,,,SBD,Single-ply,DQ
 J. Macartney,113.5,Int 1,M,290,177.5,275,742.5,SBD,Single-ply,1
-M. Scheffler,127,Int 1,M,262.5,157.5,262.5,682.5,SBD,Single-ply,1
+Mike Scheffler,127,Int 1,M,262.5,157.5,262.5,682.5,SBD,Single-ply,1
 A. Troutman,145+,Int X,M,310,-235,,,SBD,Single-ply,DQ
 S. Anderson,62.5,Jr 1,M,172.5,102.5,180,455,SBD,Single-ply,1
 N. Russell,70,Jr 1,M,162.5,102.5,192.5,457.5,SBD,Single-ply,1
@@ -174,7 +174,7 @@ T. Wright,145+,M1-1,M,295,155,237.5,687.5,SBD,Single-ply,1
 B. Johnson,85,M2-1,M,230,92.5,227.5,550,SBD,Single-ply,1
 W. Murphy,93,M2-1,M,165,95,150,410,SBD,Single-ply,1
 Jim Duree,127,M2-1,M,282.5,135,225,642.5,SBD,Single-ply,1
-H. Rome,70,M3-1,M,137.5,100,172.5,410,SBD,Single-ply,1
+Harry Rome,70,M3-1,M,137.5,100,172.5,410,SBD,Single-ply,1
 Mike Stainbrook,85,M3-1,M,72.5,132.5,65,270,SBD,Single-ply,1
 R. Holdon,85,MP-1,M,182.5,97.5,200,480,SBD,Single-ply,1
 Donnie Cole,93,MP-1,M,280,152.5,305,737.5,SBD,Single-ply,1
@@ -198,11 +198,11 @@ C. Schmidt,103,NX,M,260,-137.5,,,SBD,Single-ply,DQ
 J. Macartney,113.5,N1,M,290,177.5,275,742.5,SBD,Single-ply,1
 M. Schefflor,127,N1,M,262.5,157.5,262.5,682.5,SBD,Single-ply,1
 Jim Duree,127,N1,M,282.5,135,225,642.5,SBD,Single-ply,2
-D. Oyler,145+,N1,M,295,175,295,765,SBD,Single-ply,1
+David Oyler,145+,N1,M,295,175,295,765,SBD,Single-ply,1
 A. Troutman,145+,N1,M,310,-235,,,SBD,Single-ply,DQ
 M. Woodworth,70,P1,M,232.5,150,227.5,610,SBD,Single-ply,1
 Mike Ewoldsen,70,P2,M,235,135,240,610,SBD,Single-ply,1
-T. Perkins,77,P2,M,260,152.5,232.5,645,SBD,Single-ply,1
+Terry Perkins,77,P2,M,260,152.5,232.5,645,SBD,Single-ply,1
 K. Cunningham,77,P2,M,200,163.5,210,573.5,SBD,Single-ply,2
 E. Jusino,77,P3,M,200,112.5,227.5,540,SBD,Single-ply,1
 B. Bishop,85,P1,M,230,177.5,267.5,675,SBD,Single-ply,1
@@ -220,15 +220,15 @@ N. Bowe,103,P3,M,185,155,207.5,547.5,SBD,Single-ply,1
 C. Schmidt,103,PX,M,260,-137.5,,,SBD,Single-ply,DQ
 J. Macartney,113.5,P1,M,290,177.5,275,742.5,SBD,Single-ply,1
 M. Scheffter,127,P1,M,262.5,157.5,262.5,682.5,SBD,Single-ply,1
-A. Saunders,145+,P1,M,400,227.5,290,917.5,SBD,Single-ply,1
-D. Oyler,145+,P2,M,295,175,295,765,SBD,Single-ply,1
+Tony Saunders,145+,P1,M,400,227.5,290,917.5,SBD,Single-ply,1
+David Oyler,145+,P2,M,295,175,295,765,SBD,Single-ply,1
 A. Troutman,145+,PX,M,310,-235,,,SBD,Single-ply,DQ
 D. Lucente,77,PN-1,M,227.5,132.5,232.5,592.5,SBD,Single-ply,1
 D. Lucente,85,PN-1,M,227.5,150,220,597.5,SBD,Single-ply,1
 G. Murphy Jr,54,SM-1,M,140,90,150,380,SBD,Single-ply,1
 J. Rutherford,62.5,SM-1,M,162.5,92.5,177.5,432.5,SBD,Single-ply,1
 M. Woodworth,70,SM-1,M,232.5,150,227.5,610,SBD,Single-ply,1
-T. Perkins,77,SM-1,M,260,152.5,232.5,645,SBD,Single-ply,1
+Terry Perkins,77,SM-1,M,260,152.5,232.5,645,SBD,Single-ply,1
 B. Brassard,77,SM-2,M,250,150,240,640,SBD,Single-ply,1
 K. Cunningham,77,SM-3,M,200,163.5,210,573.5,SBD,Single-ply,1
 B. Bales,77,SM-4,M,162.5,102.5,162.5,427.5,SBD,Single-ply,1
@@ -244,11 +244,11 @@ J. Robinson,103,SM-1,M,217.5,160,247.5,625,SBD,Single-ply,1
 N. Bowe,103,SM-2,M,185,155,207.5,547.5,SBD,Single-ply,1
 J. Capps,103,SM-3,M,,,282.5,282.5,D,Single-ply,1
 R. Stineman,113.5,SM-1,M,170,147.5,175,492.5,SBD,Single-ply,1
-D. Bowie,127,SM-1,M,322.5,177.5,300,800,SBD,Single-ply,1
+Darrell Bowie,127,SM-1,M,322.5,177.5,300,800,SBD,Single-ply,1
 S. Miller,127,SM-2,M,227.5,140,227.5,595,SBD,Single-ply,1
-A. Saunders,145+,SM-1,M,400,227.5,290,917.5,SBD,Single-ply,1
+Tony Saunders,145+,SM-1,M,400,227.5,290,917.5,SBD,Single-ply,1
 D. Cordial,145+,SM-2,M,342.5,227.5,287.5,857.5,SBD,Single-ply,1
-D. Oyler,145+,SM-3,M,295,175,295,765,SBD,Single-ply,1
+David Oyler,145+,SM-3,M,295,175,295,765,SBD,Single-ply,1
 S. Anderson,62.5,T1,M,172.5,102.5,180,455,SBD,Single-ply,1
 D. Lucente,85,T1,M,227.5,150,220,597.5,SBD,Single-ply,1
 C. Frazier,85,TX,M,160,,,160,S,Single-ply,1

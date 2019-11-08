@@ -31,7 +31,7 @@ Ján Velgos,M,B,Multi-ply,14,T1,114.2,125,,,,,,185,195,201,203,201,,,,,,201,Slov
 Anton Begalko,M,B,Multi-ply,28,O,114.9,125,,,,,,-380,-390,390,-400,390,,,,,,390,Russia,1
 Alexey Fedyayev,M,B,Multi-ply,,O,111.1,125,,,,,,250,260,-280,,260,,,,,,260,Kazakhstan,2
 Dmitry Bubnov,M,B,Multi-ply,41,M1,124.3,125,,,,,,280,302.5,-322.5,,302.5,,,,,,302.5,Russia,1
-Jani Ihalainen,M,B,Multi-ply,40,M1,118.1,125,,,,,,200,225,,,225,,,,,,225,Finland,2
+Jani Toivo Kristian Ihalainen,M,B,Multi-ply,40,M1,118.1,125,,,,,,200,225,,,225,,,,,,225,Finland,2
 Grant Sandow,M,B,Multi-ply,53,M3,115.8,125,,,,,,185,195,205,,205,,,,,,205,Australia,1
 Ric Duncan,M,B,Multi-ply,62,M5,120.8,125,,,,,,265,277.5,-290,290,277.5,,,,,,277.5,USA,1
 Josef Hakl,M,B,Multi-ply,65,M6,114.1,125,,,,,,185,195,-200,,195,,,,,,195,Czechia,1
@@ -88,7 +88,7 @@ József Németh,M,B,Raw,57,M4,75.8,82.5,,,,,,110,115,117.5,,117.5,,,,,,117.5,Hun
 John Dieter,M,B,Raw,59,M4,77.1,82.5,,,,,,110,115,-120,,115,,,,,,115,France,3
 Milou Lazreg,M,B,Raw,67,M6,78.6,82.5,,,,,,85,90,-100,,90,,,,,,90,France,1
 Birchmans Pereira,M,B,Raw,69,M6,80.7,82.5,,,,,,-40,,,,,,,,,,,Canada,DQ
-Edwin Angstrom,M,B,Raw,74,M7,80.9,82.5,,,,,,120,130.5,-135,,130.5,,,,,,130.5,USA,1
+Ed Angstrom,M,B,Raw,74,M7,80.9,82.5,,,,,,120,130.5,-135,,130.5,,,,,,130.5,USA,1
 Brandon Snowder,M,B,Raw,27,O,89.2,90,,,,,,180,192.5,205,,205,,,,,,205,USA,1
 Robert Kanclerz,M,B,Raw,37,O,89.3,90,,,,,,180,-190,190,-208,190,,,,,,190,Poland,2
 Scott Kimble,M,B,Raw,28,O,88.7,90,,,,,,170,-180,-180,,170,,,,,,170,South Africa,3
@@ -462,7 +462,7 @@ Belinda Azzopardi,F,D,Raw,42,M1,81.2,82.5,,,,,,,,,,,130,-145,-145,,130,130,Austr
 Kim Welsher,F,D,Raw,50,M3,78,82.5,,,,,,,,,,,135,140,142.5,,142.5,142.5,USA,1
 Minna Pajulahti,F,D,Raw,34,O,87.9,90,,,,,,,,,,,100,,,,100,100,Finland,1
 Artemira Sobrinho,F,D,Raw,47,M2,,,,,,,,,,,,,,,,,,,Brazil,NS
-Andressa Gomes De Lima,F,D,Raw,25,O,,,,,,,,,,,,,,,,,,,Brazil,NS
+Andressa Gomes de Lima,F,D,Raw,25,O,,,,,,,,,,,,,,,,,,,Brazil,NS
 Ruth Burke,F,D,Raw,49,M2,98.2,90+,,,,,,,,,,,100,,,,100,100,Ireland,1
 Mariela Ortellado,F,D,Raw,30,O,93.3,90+,,,,,,,,,,,170,190,205,,205,205,Argentina,1
 Adriano DaCosta,M,D,Raw,52,M3,70.6,75,,,,,,,,,,,220,,,,220,220,France,1
@@ -504,7 +504,7 @@ Tomas Brabic,M,D,Raw,21,J,,,,,,,,,,,,,,,,,,,Czechia,NS
 Alexey Okunev,M,D,Raw,39,O,,,,,,,,,,,,,,,,,,,Russia,NS
 Emilio Mansilla,M,D,Raw,31,O,,,,,,,,,,,,,,,,,,,Argentina,NS
 Layla Balduino,F,D,Multi-ply,20,J,54.8,56,,,,,,,,,,,130,140,150,-160,150,150,Brazil,1
-Francieli Alves De Andrade,F,D,Multi-ply,27,O,59.5,60,,,,,,,,,,,140,145,-150,-150,145,145,Brazil,1
+Francieli Alves de Andrade,F,D,Multi-ply,27,O,59.5,60,,,,,,,,,,,140,145,-150,-150,145,145,Brazil,1
 Celine Corringer,F,D,Multi-ply,38,O,59.7,60,,,,,,,,,,,90,100,-110,110,100,100,France,2
 Eliana Jaluska,F,D,Multi-ply,30,O,65.9,67.5,,,,,,,,,,,145,-150,-150,-150,145,145,Brazil,1
 Guilherme De Lozzo Garbelini,M,D,Multi-ply,31,O,65.5,67.5,,,,,,,,,,,180,190,205,-205.5,205,205,Brazil,1
@@ -527,7 +527,7 @@ Dominique Dufour,M,D,Multi-ply,33,O,102,110,,,,,,,,,,,230,242.5,250,,250,250,Fra
 Charles Driscoll,M,D,Multi-ply,54,M3,106.7,110,,,,,,,,,,,272.5,305,,,305,305,USA,1
 Valeriy Akentyev,M,D,Multi-ply,57,M4,100.3,110,,,,,,,,,,,180,200,215,220,215,215,Russia,1
 Ivars Cīrulis,M,D,Multi-ply,35,O,115.3,125,,,,,,,,,,,320,350,361,-370,361,361,Latvia,1
-Jani Ihalainen,M,D,Multi-ply,40,M1,118.1,125,,,,,,,,,,,200,-250,,,200,200,Finland,1
+Jani Toivo Kristian Ihalainen,M,D,Multi-ply,40,M1,118.1,125,,,,,,,,,,,200,-250,,,200,200,Finland,1
 Ric Duncan,M,D,Multi-ply,62,M5,120.8,125,,,,,,,,,,,247.5,272.5,-280,,272.5,272.5,USA,1
 Gatis Roze,M,D,Multi-ply,24,O,131.1,140,,,,,,,,,,,300,352.5,362.5,,362.5,362.5,Latvia,1
 Sergey Tymchenko,M,D,Multi-ply,45,M2,126.1,140,,,,,,,,,,,260,,,,260,260,Kazakhstan,1

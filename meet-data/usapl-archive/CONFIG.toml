@@ -1,3 +1,5 @@
+# Configuration for old USAPL meets.
+
 [divisions]
     # Official division names are as described in an email from the USAPL
     # National Office (nationaloffice@usapowerlifting.com), sent 2018-02-22.
@@ -285,3 +287,4 @@
     NS-2004-12-11 = ["ExemptWeightClassConsistency"] #Has 44kg and 48kg men's classes
     NS-2004-09-19 = ["ExemptWeightClassConsistency"] #Has 44kg and 48kg men's classes
     CO-2004-12-11 = ["ExemptWeightClassConsistency"] #Has 44kg and 48kg men's classes
+    NS-2003-03-21 = ["ExemptDivision", "ExemptWeightClassConsistency"] #More specific HS divisions

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Given a results.csv as outputted by wrpf-parse, parse each sheet one at a time
+# Given a original.csv as outputted by wrpf-parse, parse each sheet one at a time
 # and join all the sheets together into an OpenPowerlifting-formatted CSV file.
 
 import sys
@@ -82,9 +82,12 @@ def parse_sheetname(s):
         elif word == 'спр':  # Some other federation that does multi-ply.
             assert not federation
             federation = 'SPR'
-        elif word in ['gpa', 'gpaipod', 'gpaipo']:
+        elif word in ['gpa', 'gpaipod', 'gpaipo', 'ipo']:
             assert not federation
             federation = 'GPA'
+        elif word == 'ipl':
+            assert not federation
+            federation = 'IPL'
 
         # Events
         elif word in ['пл', 'пауэрлифтинг', 'pl', 'пауэрифтинг', 'пауэлифтинг',
@@ -113,7 +116,7 @@ def parse_sheetname(s):
         # Equipment
         elif word in ['однослой', 'однослое', 'односл', 's ply', 'однослойной',
                       '1ой', '1ply', 'однослойная', 'однослойный', 'однолойной',
-                      '1сл', 'односл']:
+                      '1сл', 'односл', 'однопетельная']:
             equipment = 'Single-ply'
         elif word in ['экипировке', 'm ply', 'eq', 'многослой', 'экипировка',
                       'мн', 'эипировке']:
@@ -126,7 +129,7 @@ def parse_sheetname(s):
         elif 'бинт' in word or word == 'wraps':
             equipment = 'Wraps'
         elif word in ['безкипировки', 'raw', 'безэкип', 'классический', 'классич']:
-            die('Fix parse_sheetname(): Meet contains raw and wraps results, '
+            die('Fix parse_sheetname(): Meet contains raw and wraps original, '
                 'this needs to be done manually.')
             equipment = 'Wraps'
 
@@ -398,8 +401,8 @@ def parse_sheet(sheet):
         return csv  # "Power sport", overhead-press + bicep-curl
     elif 'roll' in title or 'ролл' in title:
         return csv
-    elif 'командный зачет' in title:
-        return csv  # Team results
+    elif 'командный зачет' in title or 'комндное первенство' in title:  # Team points
+        return csv
     elif 'командное первенство' in title:
         return csv
     elif 'apollo' in title or 'appol' in title or 'аполл' in title:
@@ -445,6 +448,8 @@ def parse_sheet(sheet):
     elif 'бицепс' in title:  # Curl
         return csv
     elif 'isf' in title:  # Some kind of calesthetics competition
+        return csv
+    elif 'спр' in title:  # Strongman
         return csv
 
     # Figure out event, equipment, etc., and store in obj.
@@ -554,9 +559,9 @@ def standardize_division_age(csv):
         # Fill in the Division.
         # Handle the divisions with numbers first.
         if 'открытая 20-23' in row[idx]:
-            division = 'Open 20-23'
+            division = 'Juniors 20-23'
         elif 'открытая 24-39' in row[idx]:
-            division = 'Open 24-39'
+            division = 'Open'
         elif ('юниорки 20-23' in row[idx] or 'juniors 20-23' in row[idx] or
                 'юниор 20-23' in row[idx] or 'юниоры 20-23' in row[idx]):
             division = 'Juniors 20-23'
@@ -801,6 +806,6 @@ def main(filename):
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print(" Usage: %s results.csv > entries.csv" % sys.argv[0])
+        print(" Usage: %s original.csv > entries.csv" % sys.argv[0])
         sys.exit(1)
     sys.exit(main(sys.argv[1]))

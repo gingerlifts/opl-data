@@ -11,7 +11,7 @@ Place,Name,Age,Division,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3K
 3,Linda Radel,47,F-OR,F,55.2,56,55,62.5,-65,,62.5,117.5,125,130,,130,192.5,Australia,BD,Raw
 4,Tomica Robertson,36,F-OR,F,53.3,56,40,-45,-45,,40,100,107.5,115,,115,155,Australia,BD,Raw
 1,Bec Giles,30,F-OR,F,59.6,60,75,80,85,,85,145,155,160,-167.5,160,245,Australia,BD,Raw
-2,Lauren Green,36,F-OR,F,59.7,60,75,80,-85,,80,140,150,-160,,150,230,Australia,BD,Raw
+2,Lauren Green #1,36,F-OR,F,59.7,60,75,80,-85,,80,140,150,-160,,150,230,Australia,BD,Raw
 3,Shea Baker,27,F-OR,F,59.4,60,65,70,-77.5,,70,120,130,137.5,,137.5,207.5,Australia,BD,Raw
 4,Amy Binder,31,F-OR,F,57.7,60,47.5,52.5,-57.5,,52.5,115,125,132.5,,132.5,185,Australia,BD,Raw
 5,Emma Thow,21,F-OR,F,59.6,60,55,-60,-60,,55,120,125,130,,130,185,Australia,BD,Raw
@@ -45,7 +45,7 @@ Place,Name,Age,Division,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3K
 11,Cheryl Pfeffer,36,F-OR,F,73.1,75,-60,60,62.5,,62.5,130,135,-142.5,,135,197.5,Australia,BD,Raw
 12,Dianne Castanelli,68,F-OR,F,74.6,75,40,45,-50,,45,100,110,-117.5,,110,155,Australia,BD,Raw
 13,Darlene Williams,41,F-OR,F,74.2,75,40,-42.5,42.5,,42.5,92.5,-95,-95,,92.5,135,Australia,BD,Raw
-1,Kate Mitchell-Parker,28,F-OR,F,79,82.5,127.5,137.5,140,142.5,140,190,200,210,-212.5,210,350,New Zealand,BD,Raw
+1,Kate Mitchell-Roggeveen,28,F-OR,F,79,82.5,127.5,137.5,140,142.5,140,190,200,210,-212.5,210,350,New Zealand,BD,Raw
 2,Annie Short,23,F-OR,F,82.2,82.5,100,107.5,110,115.5,110,185,200,207.5,212.5,207.5,317.5,Australia,BD,Raw
 3,Carey Boyce,38,F-OR,F,76.8,82.5,90,97.5,100,,100,170,185,,,185,285,Australia,BD,Raw
 4,Crystal Trace,32,F-OR,F,81,82.5,87.5,-92.5,92.5,,92.5,175,185,192.5,,192.5,285,Australia,BD,Raw
@@ -81,7 +81,7 @@ DQ,Kiara Small,26,F-OR,F,79.75,82.5,-70,-75,-75,,,145,155,-160,,155,,Australia,B
 6,Brad McMahon,31,M-OR,M,73.7,75,-105,112.5,122.5,,122.5,200,210,-220,,210,332.5,Australia,BD,Raw
 7,Wesley Vick,23,M-OR,M,74.5,75,105,110,-115,,110,190,200,-205,,200,310,Australia,BD,Raw
 8,Beau Rutherford,25,M-OR,M,73.4,75,115,-120,-120,,115,180,190,-200,,190,305,Australia,BD,Raw
-9,Jax Wearing,30,M-OR,M,74.8,75,100,105,110,,110,160,170,180,,180,290,Australia,BD,Raw
+9,Jaxson Wearing,30,M-OR,M,74.8,75,100,105,110,,110,160,170,180,,180,290,Australia,BD,Raw
 10,Jake Attard,16,M-OR,M,73.6,75,85,95,100.5,105,100.5,140,155,-160,,155,255,Australia,BD,Raw
 11,Michael Watt,34,M-OR,M,74.5,75,140,147.5,-153,,147.5,,,,,,147.5,Australia,B,Raw
 1,Yianni Magoulias,25,M-OR,M,78.25,82.5,150,160,-165,,160,280,-300,-300,,280,440,Australia,BD,Raw
@@ -132,7 +132,7 @@ DQ,Kiara Small,26,F-OR,F,79.75,82.5,-70,-75,-75,,,145,155,-160,,155,,Australia,B
 20,Trent Andersen,26,M-OR,M,88.5,90,135,142.5,-145,,142.5,200,212.5,-220,,212.5,355,Australia,BD,Raw
 21,Wes Horan,34,M-OR,M,84.8,90,135,142.5,-145,,142.5,185,200,210,,210,352.5,Australia,BD,Raw
 22,Franco Steenkamp,18,M-OR,M,87.3,90,112.5,120,-125,,120,200,225,,,225,345,South Africa,BD,Raw
-23,Matt Wilson,46,M-OR,M,87.7,90,110,117.5,120,,120,200,210,220,,220,340,Australia,BD,Raw
+23,Matt Wilson #6,46,M-OR,M,87.7,90,110,117.5,120,,120,200,210,220,,220,340,Australia,BD,Raw
 24,Jack Delaney,24,M-OR,M,90,90,112.5,120,-125,,120,200,220,-230,,220,340,Australia,BD,Raw
 25,Patrick Brownlie,23,M-OR,M,86,90,127.5,135,145,,145,170,185,190,,190,335,Australia,BD,Raw
 26,Harely Taylor,24,M-OR,M,89.2,90,110,-115,-115,,110,220,-235,-235,,220,330,Australia,BD,Raw
@@ -190,7 +190,7 @@ DQ,Morgan Mabunda,28,M-OR,M,93,100,-145,-145,,,,245,250,-255,,250,,South Africa,
 8,Daniel Kandilas,32,M-OR,M,108,110,140,147.5,155,,155,280,290,-300,,290,445,Australia,BD,Raw
 9,Mark Brennan,52,M-OR,M,103.5,110,-155,160,165,,165,-255,265,-275,,265,430,Australia,BD,Raw
 10,Trent Mcfazden,37,M-OR,M,106.5,110,137.5,145,-150,,145,270,-290,-290,,270,415,Australia,BD,Raw
-11,Gary Jones,52,M-OR,M,108.2,110,162.5,170,-175,,170,232.5,-242.5,242.5,,242.5,412.5,Australia,BD,Raw
+11,Gary Jones #1,52,M-OR,M,108.2,110,162.5,170,-175,,170,232.5,-242.5,242.5,,242.5,412.5,Australia,BD,Raw
 12,John Blanchfield,41,M-OR,M,107.4,110,150,160,-165,,160,230,240,250,,250,410,Australia,BD,Raw
 13,Leon Howell,36,M-OR,M,104.3,110,122.5,132.5,-138,,132.5,230,245,255,,255,387.5,Australia,BD,Raw
 14,Nick Hawley,31,M-OR,M,105,110,125,137.5,142.5,,142.5,220,237.5,245,,245,387.5,Australia,BD,Raw

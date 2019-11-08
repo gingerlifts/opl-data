@@ -13,7 +13,7 @@ Place,WeightClassKg,Sex,Division,Name,Country,Best3SquatKg,Best3BenchKg,Bench4Kg
 3,67.5,M,Masters 1,Mauri Lappalainen,Finland,230,100,,252.5,582.5,SBD,Single-ply
 4,67.5,M,Masters 1,Daniel Reybrouck,Belgium,185,125,,190,500,SBD,Single-ply
 DQ,67.5,M,Masters 1,Bjørn Andreas Holmsen,Norway,,,,,,SBD,Single-ply
-1,75,M,Masters 1,Hugo van der Brandt,Netherlands,245,140,,250,635,SBD,Single-ply
+1,75,M,Masters 1,Harrie van den Brand,Netherlands,245,140,,250,635,SBD,Single-ply
 2,75,M,Masters 1,John Hibbert,UK,220,162.5,,240,622.5,SBD,Single-ply
 3,75,M,Masters 1,Paul Thill,Luxembourg,217.5,142.5,,235,595,SBD,Single-ply
 4,75,M,Masters 1,Michael Hunnum,UK,210,135,,230,575,SBD,Single-ply
@@ -63,7 +63,7 @@ DQ,110,M,Masters 1,Aloysius Moonen,Belgium,,,,,,SBD,Single-ply
 2,125,M,Masters 1,Rolf Larsen,Norway,320,200,,290,810,SBD,Single-ply
 3,125,M,Masters 1,Hans Gunnarson,Sweden,270,185,,292.5,747.5,SBD,Single-ply
 4,125,M,Masters 1,Gerd Herrmann,West Germany,295,155,,275,725,SBD,Single-ply
-5,125,M,Masters 1,Daniel Dewas,France,285,157.5,,270,712.5,SBD,Single-ply
+5,125,M,Masters 1,Pierre Daniel Dewas,France,285,157.5,,270,712.5,SBD,Single-ply
 DD,125,M,Masters 1,David Carter #1,UK,,,,,,SBD,Single-ply
 1,125+,M,Masters 1,Andy Kerr,UK,315,233,236,353,901,SBD,Single-ply
 2,125+,M,Masters 1,Knut Åsvang,Norway,300,185,,280,765,SBD,Single-ply
@@ -85,7 +85,7 @@ DQ,125+,M,Masters 1,Walter Kaiser,Austria,,,,,,SBD,Single-ply
 DQ,60,M,Masters 2,Alexander Diepold,West Germany,,,,,,SBD,Single-ply
 1,67.5,M,Masters 2,Viljo Karvinen,Finland,185,130,,235,550,SBD,Single-ply
 2,67.5,M,Masters 2,Larry Mintz,USA,230,95,,210,535,SBD,Single-ply
-3,67.5,M,Masters 2,Michael Barry,UK,190,135,,210,535,SBD,Single-ply
+3,67.5,M,Masters 2,Mick Barry,UK,190,135,,210,535,SBD,Single-ply
 4,67.5,M,Masters 2,Robert Alecock,UK,185,102.5,,202.5,490,SBD,Single-ply
 5,67.5,M,Masters 2,Miquel Sancho,Spain,135,85,,180,400,SBD,Single-ply
 DQ,67.5,M,Masters 2,Walter Schleich,West Germany,,,,,,SBD,Single-ply
@@ -117,7 +117,7 @@ DQ,75,M,Masters 2,Bill Ramsrud,USA,,,,,,SBD,Single-ply
 7,90,M,Masters 2,Thomas Fertl,West Germany,210,155,,230,595,SBD,Single-ply
 8,90,M,Masters 2,Bob Strange,USA,182.5,142.5,,252.5,577.5,SBD,Single-ply
 1,100,M,Masters 2,Willi Müller,West Germany,270,155,,305,730,SBD,Single-ply
-2,100,M,Masters 2,Jerry Englebert,USA,250,155,,310,715,SBD,Single-ply
+2,100,M,Masters 2,Jerry Engelbert,USA,250,155,,310,715,SBD,Single-ply
 3,100,M,Masters 2,Deri Lewis,UK,210,130,,265,605,SBD,Single-ply
 4,100,M,Masters 2,Pentti Kurkela,Finland,195,160,,242.5,597.5,SBD,Single-ply
 1,110,M,Masters 2,Joe Dalton,USA,250,160,,245,655,SBD,Single-ply

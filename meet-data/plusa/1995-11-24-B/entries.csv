@@ -15,12 +15,12 @@ Maxwell,52,Juniors,F,92.5,,42.5,115,,250,SBD,Single-ply,2
 Bowshier,60,Juniors,F,147.5,,80,157.5,,385,SBD,Single-ply,1
 Walker,75,Juniors,F,,,,,,,SBD,Single-ply,DQ
 Hatch,82.5,Juniors,F,,,,,,,SBD,Single-ply,DQ
-Russow,90+,Juniors,F,192.5,195,92.5,157.5,,442.5,SBD,Single-ply,1
+Jennifer Russow,90+,Juniors,F,192.5,195,92.5,157.5,,442.5,SBD,Single-ply,1
 Gutierrez,52,Submasters,F,100,,60,112.5,,272.5,SBD,Single-ply,1
 Mary Hetzel,60,Submasters,F,145,,77.5,155,,377.5,SBD,Single-ply,1
 Capps,60,Submasters,F,112.5,,57.5,142.5,,312.5,SBD,Single-ply,2
 Hashimoto,67.5,Submasters,F,105,,50,145,,300,SBD,Single-ply,1
-McKinney,75,Submasters,F,172.5,,87.5,187.5,192.5,447.5,SBD,Single-ply,1
+R. McKinney,75,Submasters,F,172.5,,87.5,187.5,192.5,447.5,SBD,Single-ply,1
 Martinez,75,Submasters,F,125,,70,125,,320,SBD,Single-ply,2
 Calhoun,82.5,Submasters,F,140,,85,155,,380,SBD,Single-ply,1
 Renfro,82.5,Submasters,F,128.5,,80,170,,378.5,SBD,Single-ply,2
@@ -55,19 +55,19 @@ French,100,Open,M,,,,,,,SBD,Single-ply,DQ
 Capps,110,Open,M,265,,175,282.5,,722.5,SBD,Single-ply,1
 Eville,110,Open,M,235,,152.5,240,,627.5,SBD,Single-ply,2
 Jim Duree,110,Open,M,,,,,,,SBD,Single-ply,DQ
-Tarras,125,Open,M,320,,217.5,280,,817.5,SBD,Single-ply,1
+W. Tarras,125,Open,M,320,,217.5,280,,817.5,SBD,Single-ply,1
 Angton,125,Open,M,257.5,,192.5,277.5,,727.5,SBD,Single-ply,2
 Sheffler,125,Open,M,272.5,,155,275,,702.5,SBD,Single-ply,3
-A. Saunders,140+,Open,M,392.5,,230,277.5,,900,SBD,Single-ply,1
+Tony Saunders,140+,Open,M,392.5,,230,277.5,,900,SBD,Single-ply,1
 Nehumi Tuihalamaka,140+,Open,M,395,,185,320,,900,SBD,Single-ply,2
-Oyler,140+,Open,M,322.5,,177.5,280,,780,SBD,Single-ply,3
+David Oyler,140+,Open,M,322.5,,177.5,280,,780,SBD,Single-ply,3
 Dayon,140+,Open,M,250,,185,235,,670,SBD,Single-ply,4
 Kennedy,56,Masters,M,161,166,92.5,165,,418.5,SBD,Single-ply,1
 Holden,67.5,Masters,M,165,,100,180,,445,SBD,Single-ply,1
 Johnson,75,Masters,M,180,,130,197.5,,507.5,SBD,Single-ply,1
 Atkinson,82.5,Masters,M,242.5,,162.5,245,,650,SBD,Single-ply,1
 Bell,82.5,Masters,M,215,,155,232.5,,602.5,SBD,Single-ply,2
-Close,90,Masters,M,257.5,,165,265,,687.5,SBD,Single-ply,1
+G. Close,90,Masters,M,257.5,,165,265,,687.5,SBD,Single-ply,1
 Gaibreath,90,Masters,M,157.5,,90,185,,432.5,SBD,Single-ply,2
 T. Tinsman,100,Masters,M,240,,170,280,,690,SBD,Single-ply,1
 L. Kye,110,Masters,M,317.5,,170,250,,737.5,SBD,Single-ply,1
@@ -112,10 +112,10 @@ Jackson,100,Submasters,M,265,,172.5,277.5,,715,SBD,Single-ply,4
 Howard,100,Submasters,M,220,,160,240,,620,SBD,Single-ply,5
 French,100,Submasters,M,,,,,,,SBD,Single-ply,DQ
 Capps,110,Submasters,M,265,,175,282.5,,722.5,SBD,Single-ply,1
-Tarras,125,Submasters,M,320,,217.5,280,,817.5,SBD,Single-ply,1
+W. Tarras,125,Submasters,M,320,,217.5,280,,817.5,SBD,Single-ply,1
 Woodson,125,Submasters,M,100,,210,100,,410,SBD,Single-ply,2
-A. Saunders,140+,Submasters,M,392.5,,230,277.5,,900,SBD,Single-ply,1
-Oyler,140+,Submasters,M,322.5,,177.5,280,285,780,SBD,Single-ply,2
+Tony Saunders,140+,Submasters,M,392.5,,230,277.5,,900,SBD,Single-ply,1
+David Oyler,140+,Submasters,M,322.5,,177.5,280,285,780,SBD,Single-ply,2
 Peek,67.5,Grandmasters,M,160,,92.5,182.5,,435,SBD,Single-ply,1
 Frost,48,Juniors,F,,,55,,,55,B,Single-ply,1
 Hatch,82.5,Juniors,F,,,60,,,60,B,Single-ply,2
@@ -163,10 +163,10 @@ Metzger,110,Pure,M,,,207.5,,,207.5,B,Single-ply,2
 Jones,110,Pure,M,,,190,,,190,B,Single-ply,3
 Crumbley,110,Pure,M,,,160,,,160,B,Single-ply,4
 Angton,125,Pure,M,,,192.5,,,192.5,B,Single-ply,1
-Briggs,125,Pure,M,,,177.5,,,177.5,B,Single-ply,2
+Briggs #2,125,Pure,M,,,177.5,,,177.5,B,Single-ply,2
 Henderson,125,Pure,M,,,165,,,165,B,Single-ply,3
 Bender,140,Pure,M,,,212.5,,,212.5,B,Single-ply,1
-A. Saunders,140+,Pure,M,,,230,,,230,B,Single-ply,1
+Tony Saunders,140+,Pure,M,,,230,,,230,B,Single-ply,1
 Dayon,140+,Pure,M,,,185,,,185,B,Single-ply,2
 Dave Kennedy #1,56,Masters,M,,,92.5,,,92.5,B,Single-ply,1
 Robert Trujillo,60,Masters,M,,,82.5,,,82.5,B,Single-ply,1
@@ -174,7 +174,7 @@ Stewart,67.5,Masters,M,,,132.5,,,132.5,B,Single-ply,1
 Ford,75,Masters,M,,,132.5,,,132.5,B,Single-ply,1
 Belanger,82.5,Masters,M,,,132.5,,,132.5,B,Single-ply,1
 France,90,Masters,M,,,120,,,120,B,Single-ply,2
-Close,90,Masters,M,,,165,,,165,B,Single-ply,1
+G. Close,90,Masters,M,,,165,,,165,B,Single-ply,1
 Sweeney,100,Masters,M,,,202.5,,,202.5,B,Single-ply,1
 Akins,100,Masters,M,,,172.5,,,172.5,B,Single-ply,2
 Griffin,100,Masters,M,,,,,,,B,Single-ply,DQ
@@ -198,7 +198,7 @@ McIntyre,100,Natural,M,,,172.5,,,172.5,B,Single-ply,4
 Akins,100,Natural,M,,,172.5,,,172.5,B,Single-ply,5
 Bums,110,Natural,M,,,195,,,195,B,Single-ply,1
 Jones,110,Natural,M,,,190,,,190,B,Single-ply,2
-Ferguson,110,Natural,M,,,180,,,180,B,Single-ply,3
+Ed Ferguson,110,Natural,M,,,180,,,180,B,Single-ply,3
 Miller Edwards,110,Natural,M,,,180,,,180,B,Single-ply,4
 Crumbley,110,Natural,M,,,160,,,160,B,Single-ply,5
 Woodson,125,Natural,M,,,210,,,210,B,Single-ply,1
@@ -212,7 +212,7 @@ Boone,100,Submasters II,M,,,192.5,,,192.5,B,Single-ply,1
 Metzger,110,Submasters II,M,,,207.5,,,207.5,B,Single-ply,1
 Crumbley,110,Submasters II,M,,,160,,,160,B,Single-ply,2
 Thomason,125,Submasters II,M,,,228.5,,,228.5,B,Single-ply,1
-Tarras,125,Submasters II,M,,,217.5,,,217.5,B,Single-ply,2
+W. Tarras,125,Submasters II,M,,,217.5,,,217.5,B,Single-ply,2
 Davis,67.5,Juniors,M,,,125,,,125,B,Single-ply,1
 MacKenzie,67.5,Juniors,M,,,112.5,,,112.5,B,Single-ply,2
 McNeill,75,Juniors,M,,,142.5,,,142.5,B,Single-ply,1
@@ -222,7 +222,7 @@ Ratajczvk,82.5,Juniors,M,,,137.5,,,137.5,B,Single-ply,2
 Wehlander,82.5,Juniors,M,,,,,,,B,Single-ply,DQ
 James,90,Juniors,M,,,165,,,165,B,Single-ply,1
 Harris,90,Juniors,M,,,165,,,165,B,Single-ply,2
-Link,100,Juniors,M,,,182.5,,,182.5,B,Single-ply,1
+William Link,100,Juniors,M,,,182.5,,,182.5,B,Single-ply,1
 Brown,140,Juniors,M,,,197.5,,,197.5,B,Single-ply,1
 Pjesky,140,Juniors,M,,,150,,,150,B,Single-ply,2
 Gardina,75,Submasters I,M,,,137.5,,,137.5,B,Single-ply,1
@@ -230,14 +230,14 @@ Severn,82.5,Submasters I,M,,,177.5,,,177.5,B,Single-ply,1
 Gilles,90,Submasters I,M,,,185,,,185,B,Single-ply,1
 McIntosh,100,Submasters I,M,,,192.5,,,192.5,B,Single-ply,1
 Garcia,100,Submasters I,M,,,190,,,190,B,Single-ply,2
-Ritzler,100,Submasters I,M,,,185,,,185,B,Single-ply,3
+Jeff Ritzler,100,Submasters I,M,,,185,,,185,B,Single-ply,3
 McIntyre,100,Submasters I,M,,,172.5,,,172.5,B,Single-ply,4
 Jones,110,Submasters I,M,,,190,,,190,B,Single-ply,1
 Miller Edwards,110,Submasters I,M,,,180,,,180,B,Single-ply,2
 Woodson,125,Submasters I,M,,,210,,,210,B,Single-ply,1
 Bender,140,Submasters I,M,,,210,,,210,B,Single-ply,1
 Dayon,140+,Submasters I,M,,,185,,,185,B,Single-ply,1
-Oyler,140+,Submasters I,M,,,177.5,,,177.5,B,Single-ply,2
+David Oyler,140+,Submasters I,M,,,177.5,,,177.5,B,Single-ply,2
 Tabariet,140+,Submasters I,M,,,145,,,145,B,Single-ply,3
 McClain,75,Masters II,M,,,132.5,,,132.5,B,Single-ply,1
 Ray,75,Masters II,M,,,107.5,,,107.5,B,Single-ply,2
@@ -245,7 +245,7 @@ Hrasch,75,Masters II,M,,,,,,,B,Single-ply,DQ
 Atkinson,82.5,Masters II,M,,,162.5,,,162.5,B,Single-ply,1
 Shoaf,82.5,Masters II,M,,,132.5,,,132.5,B,Single-ply,2
 Evatt,90,Masters II,M,,,122.5,,,122.5,B,Single-ply,1
-Lamb,100,Masters II,M,,,132.5,,,132.5,B,Single-ply,1
+Rod Lamb,100,Masters II,M,,,132.5,,,132.5,B,Single-ply,1
 Hood,110,Masters II,M,,,216,,,216,B,Single-ply,1
 Anderson,110,Masters II,M,,,182.5,,,182.5,B,Single-ply,2
 Hogan,125,Masters II,M,,,,,,,B,Single-ply,DQ

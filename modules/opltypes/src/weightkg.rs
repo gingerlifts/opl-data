@@ -1,5 +1,7 @@
 //! Defines fields that represent weights.
 
+use crate::Points;
+
 use serde;
 use serde::de::{self, Deserialize, Visitor};
 use serde::ser::Serialize;
@@ -142,7 +144,8 @@ impl WeightKg {
     pub fn as_lbs(self) -> WeightAny {
         let f = (self.0 as f32) * 2.20462262;
 
-        // Round down to the hundredth place.
+        // Round to the hundredth place.
+        // Half-way cases are rounded away from zero.
         let mut rounded = f.round() as i32;
 
         // Pounds values tend to be reported only to the nearest tenth.
@@ -239,6 +242,11 @@ impl WeightAny {
                 format!("{}", integer)
             }
         }
+    }
+
+    /// Used to reinterpret the weight as points, for `PointsSystem::Total`.
+    pub fn as_points(self) -> Points {
+        Points::from_i32(self.0)
     }
 }
 
@@ -367,6 +375,10 @@ mod tests {
         // 240.4 lbs should be unchanged.
         let w = "109.04".parse::<WeightKg>().unwrap();
         assert_eq!(w.as_lbs().0, 240_40);
+
+        // 317.5 should be just under 700lbs.
+        let w = "317.5".parse::<WeightKg>().unwrap();
+        assert_eq!(w.as_lbs().0, 699_97);
     }
 
     #[test]

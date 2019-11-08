@@ -1,6 +1,6 @@
 Division,Equipment,Event,WeightClassKg,Name,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Age,BodyweightKg,Place
 Amateur Masters 65-69,Multi-ply,B,90,Ron Blackmon,M,,226.8,,226.8,66,89.45,1
-Amateur Submasters 33-39,Raw,B,125,Ryan Alexander,M,,208.65,,208.65,33,117.75,1
+Amateur Submasters 33-39,Raw,B,125,Ryan Alexander #3,M,,208.65,,208.65,33,117.75,1
 Amateur Masters 45-49,Raw,B,90,Billy Fletcher,M,,138.35,,138.35,45,87.36,1
 Amateur Masters 50-54,Raw,B,100,Greg Osteen,M,,158.76,,158.76,54,97.34,1
 Amateur Masters 65-69,Raw,B,100,Peter Marston,M,,74.84,,74.84,65,96.43,1
@@ -23,7 +23,7 @@ Pro Open,Wraps,SD,75,Therese Janc,F,167.83,,199.58,367.41,,,2
 Pro Submasters 33-39,Wraps,SD,75,Therese Janc,F,167.83,,199.58,367.41,,,1
 Pro Masters 40-44,Wraps,SBD,75,Jennifer Payne,F,147.42,83.91,136.08,367.41,,,1
 Amateur Teen 16-17,Wraps,SBD,90,Coby Webb,M,136.08,97.52,219.99,453.59,,,1
-Amateur Open,Multi-ply,SBD,90,Matt Wilson,M,272.16,201.85,240.4,714.41,,,1
+Amateur Open,Multi-ply,SBD,90,Matt Wilson #4,M,272.16,201.85,240.4,714.41,,,1
 Amateur Open,Multi-ply,SBD,100,Jon Hayes,M,247.21,,,,,,DQ
 Amateur Open,Multi-ply,SBD,140,Mathew Linton,M,274.42,136.08,229.06,639.57,,,1
 Amateur Masters 40-44,Multi-ply,SBD,110,Donald Grunstra,M,319.78,192.78,242.67,755.23,,,1
@@ -40,7 +40,7 @@ Amateur Open,Wraps,SBD,125,Jonathan Mathas,M,274.42,167.83,274.42,716.68,,,1
 Amateur Open,Wraps,SBD,125,Shane Bushman,M,260.82,170.1,272.16,703.07,,,2
 Amateur Open,Wraps,SBD,125,Mark Henrion,M,156.49,111.13,204.12,471.74,,,3
 Amateur Open,Wraps,SBD,140,Ike Ford,M,249.48,185.97,226.8,662.24,,,1
-Amateur Open,Wraps,SBD,140,Chris Johnston,M,208.65,158.76,238.14,605.55,,,2
+Amateur Open,Wraps,SBD,140,Chris Johnston #2,M,208.65,158.76,238.14,605.55,,,2
 Amateur Open,Wraps,SBD,140,Sam Kelly,M,183.7,,,,,,DQ
 Amateur Submasters 33-39,Wraps,SBD,100,Eddie Washington,M,129.27,115.67,145.15,390.09,,,1
 Amateur Masters 45-49,Wraps,SBD,82.5,Scotty Terry,M,136.08,104.33,161.03,401.43,,,1
@@ -58,7 +58,7 @@ Pro Masters 50-54,Multi-ply,SBD,125,Harry Wotring,M,290.3,276.69,226.8,793.79,,,
 Pro Open,Wraps,SBD,90,Greg Crook,M,251.74,158.76,238.14,648.64,,,1
 Pro Open,Wraps,SBD,100,Chad Ingle,M,249.48,151.95,244.94,646.37,,,1
 Pro Open,Wraps,SBD,110,Mark Ferris,M,319.78,204.12,337.93,861.83,,,1
-Pro Open,Wraps,SBD,110,Jordan Smith,M,281.23,158.76,272.16,712.14,,,2
+Pro Open,Wraps,SBD,110,Jordan Smith #1,M,281.23,158.76,272.16,712.14,,,2
 Pro Open,Wraps,SBD,125,Kyle Jenkins,M,294.84,197.31,258.55,750.7,,,1
 Pro Open,Wraps,SBD,140+,Michael Schultze,M,351.53,233.6,317.51,902.65,,,1
 Pro Submasters 33-39,Wraps,SBD,90,Bryan Chaikin,M,242.67,170.1,256.28,669.05,,,1

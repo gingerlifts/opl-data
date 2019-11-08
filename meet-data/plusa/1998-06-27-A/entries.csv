@@ -2,7 +2,7 @@ Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 D. McNulty,54,Open,F,,70,,70,B,Single-ply,1
 Mary Hetzel,54,Pure,F,,82.5,,82.5,B,Single-ply,2
 Adam Shumaker,77.5,Teen,M,,127.5,,127.5,B,Single-ply,4
-M. Andrus,85,Pure,M,,162.5,,162.5,B,Single-ply,3
+Michael Andrus,85,Pure,M,,162.5,,162.5,B,Single-ply,3
 B. Nichols,85,Pure Novice,M,,155,,155,B,Single-ply,4
 D. Banker,93,Submasters 35-39,M,,160,,160,B,Single-ply,4
 D. Wilson #3,127,Submasters 35-39,M,,125,,125,B,Single-ply,1
@@ -32,7 +32,7 @@ J. Marshall,85,Intermediate 24-29,M,250,157.5,245,652.5,SBD,Single-ply,1
 T. Homer,85,Intermediate 24-29,M,205,145,265,615,SBD,Single-ply,2
 W. Edmondson,85,Intermediate 24-29,M,187.5,137.5,237.5,562.5,SBD,Single-ply,3
 B. Thompson,93,Intermediate 24-29,M,242.5,170,230,642.5,SBD,Single-ply,1
-M. Zubmer,103,Intermediate 24-29,M,237.5,167.5,-215,190,SBD,Single-ply,1
+M. Zubmer,103,Intermediate 24-29,M,237.5,167.5,-215,,SBD,Single-ply,DQ
 C. Coy,127,Intermediate 24-29,M,285,160,282.5,727.5,SBD,Single-ply,1
 Z. Krempin,143,Intermediate 24-29,M,210,180,272.5,662.5,SBD,Single-ply,1
 Adam Shumaker,77.5,Juniors,M,190,127.5,230,547.5,SBD,Single-ply,1
@@ -84,12 +84,12 @@ J. Capps,127,Natural,M,295,180,287.5,762.5,SBD,Single-ply,1
 C. Coy,127,Natural,M,285,160,282.5,727.5,SBD,Single-ply,2
 Mike Scheffler,127,Natural,M,262.5,165,277.5,705,SBD,Single-ply,3
 D. Wilson #3,127,Natural,M,160,125,205,490,SBD,Single-ply,4
-D. Oyler,143+,Natural,M,320,165,275,760,SBD,Single-ply,1
+David Oyler,143+,Natural,M,320,165,275,760,SBD,Single-ply,1
 Mike Ewoldsen,70,Pure,M,237.5,140,237.5,615,SBD,Single-ply,2
 M. Woodworth,70,Pure,M,237.5,150,230,617.5,SBD,Single-ply,1
-T. Perkins,77.5,Pure,M,292.5,155,230,677.5,SBD,Single-ply,1
+Terry Perkins,77.5,Pure,M,292.5,155,230,677.5,SBD,Single-ply,1
 D. Sorenson,77.5,Pure,M,255,155,227.5,637.5,SBD,Single-ply,2
-M. Andrus,85,Pure,M,220,162.5,260,642.5,SBD,Single-ply,1
+Michael Andrus,85,Pure,M,220,162.5,260,642.5,SBD,Single-ply,1
 T. Homer,85,Pure,M,205,145,265,615,SBD,Single-ply,2
 Donnie Cole,93,Pure,M,295,135,322.5,752.5,SBD,Single-ply,3
 Randall Henderson,93,Pure,M,272.5,170,327.5,770,SBD,Single-ply,1
@@ -112,7 +112,7 @@ B. Melton,143,Pure,M,250,185,255,690,SBD,Single-ply,1
 A. Jones,143,Pure,M,257.5,175,257.5,690,SBD,Single-ply,2
 T. Gulney,143,Pure,M,235,155,272.5,662.5,SBD,Single-ply,3
 A. Troutman,143+,Pure,M,312.5,227.5,282.5,822.5,SBD,Single-ply,1
-D. Oyler,143+,Pure,M,320,165,275,760,SBD,Single-ply,2
+David Oyler,143+,Pure,M,320,165,275,760,SBD,Single-ply,2
 J. Rogers,70,Pure Novice,M,137.5,117.5,142.5,397.5,SBD,Single-ply,1
 T. Lipke,77.5,Pure Novice,M,217.5,122.5,222.5,562.5,SBD,Single-ply,1
 D. Legarreta,85,Pure Novice,M,240,160,265,665,SBD,Single-ply,1
@@ -127,7 +127,7 @@ B. Melton,143,Pure Novice,M,250,185,255,690,SBD,Single-ply,1
 Z. Krempin,143,Pure Novice,M,210,180,272.5,662.5,SBD,Single-ply,2
 T. Guiney,143,Pure Novice,M,235,155,272.5,662.5,SBD,Single-ply,3
 D. Sorenson,77.5,Submasters 30-34,M,255,155,227.5,637.5,SBD,Single-ply,1
-M. Andrus,85,Submasters 30-34,M,220,162.5,260,642.5,SBD,Single-ply,1
+Michael Andrus,85,Submasters 30-34,M,220,162.5,260,642.5,SBD,Single-ply,1
 G. Green,85,Submasters 30-34,M,230,160,250,640,SBD,Single-ply,2
 B. Frazier,85,Submasters 30-34,M,192.5,137.5,212.5,542.5,SBD,Single-ply,3
 Randall Henderson,93,Submasters 30-34,M,272.5,170,327.5,770,SBD,Single-ply,1
@@ -138,9 +138,9 @@ J. Perry,103,Submasters 30-34,M,240,-145,95,,SBD,Single-ply,DQ
 Mike Scheffler,127,Submasters 30-34,M,262.5,165,277.5,705,SBD,Single-ply,1
 B. Melton,143,Submasters 30-34,M,250,185,255,690,SBD,Single-ply,1
 T. Gulney,143,Submasters 30-34,M,235,155,272.5,662.5,SBD,Single-ply,2
-D. Oyler,143+,Submasters 30-34,M,320,165,275,760,SBD,Single-ply,1
+David Oyler,143+,Submasters 30-34,M,320,165,275,760,SBD,Single-ply,1
 M. Woodworth,70,Submasters 35-39,M,237.5,150,230,617.5,SBD,Single-ply,1
-T. Perkins,77.5,Submasters 35-39,M,292.5,155,230,677.5,SBD,Single-ply,1
+Terry Perkins,77.5,Submasters 35-39,M,292.5,155,230,677.5,SBD,Single-ply,1
 B. Schnahel,77.5,Submasters 35-39,M,167.5,92.5,160,420,SBD,Single-ply,2
 B. Bales,77.5,Submasters 35-39,M,142.5,,,,SBD,Single-ply,DQ
 B. Broussard,85,Submasters 35-39,M,260,147.5,255,662.5,SBD,Single-ply,1
@@ -170,17 +170,17 @@ L. Jacobs,70,Intermediate 24-29,F,172.5,75,,,SBD,Single-ply,DQ
 K. Brandy,70,Juniors,F,95,42.5,120,257.5,SBD,Single-ply,1
 D. McNulty,54,Masters 40-49,F,132.5,70,142.5,345,SBD,Single-ply,1
 S. Bagby,70,Masters 40-49,F,127.5,65,127.5,320,SBD,Single-ply,1
-K. Lamb,63,Masters 50-59,F,87.5,42.5,87.5,217.5,SBD,Single-ply,1
+Kay Lamb,63,Masters 50-59,F,87.5,42.5,87.5,217.5,SBD,Single-ply,1
 I. Cleslelski,77.5,Masters 5 (Pure),F,125,75,127.5,327.5,SBD,Single-ply,1
-M. Scheffler,70,Natural,F,125,70,142.5,337.5,SBD,Single-ply,1
+Micki Scheffler,70,Natural,F,125,70,142.5,337.5,SBD,Single-ply,1
 L. Jacobs,70,Natural,F,127.5,75,,,SBD,Single-ply,DQ
 L. Rudy,85,Natural,F,75,32.5,97.5,205,SBD,Single-ply,1
 D. McNulty,54,Pure,F,132.5,70,142.5,345,SBD,Single-ply,1
 Mary Hetzel,63,Pure,F,145,82.5,160,387.5,SBD,Single-ply,1
-M. Scheffler,70,Pure,F,125,70,142.5,337.5,SBD,Single-ply,1
+Micki Scheffler,70,Pure,F,125,70,142.5,337.5,SBD,Single-ply,1
 L. Jacobs,70,Pure,F,127.5,75,,,SBD,Single-ply,DQ
 C. Schroeder,58,Pure Novice,F,80,47.5,92.5,220,SBD,Single-ply,1
-M. Scheffler,70,Pure Novice,F,125,70,142.5,337.5,SBD,Single-ply,1
+Micki Scheffler,70,Pure Novice,F,125,70,142.5,337.5,SBD,Single-ply,1
 M. O'Ryan,70,Pure Novice,F,67.5,42.5,75,185,SBD,Single-ply,2
 L. Jacobs,70,Pure Novice,F,127.5,75,,,SBD,Single-ply,DQ
 R. Heidman,58,Submasters 30-34,F,137.5,72.5,137.5,347.5,SBD,Single-ply,1
@@ -188,6 +188,6 @@ Mary Hetzel,63,Submasters 35-39,F,145,82.5,160,387.5,SBD,Single-ply,1
 C. Gill,63,Submasters 35-39,F,102.5,55,110,267.5,SBD,Single-ply,2
 S. Meyer,70,Submasters 35-39,F,125,62.5,117.5,305,SBD,Single-ply,1
 K. Bright,77.5,Teen,F,75,38.5,100,213.5,SBD,Single-ply,1
-D. Wisnieski,35,Youth,F,35,22.5,62.5,120,SBD,Single-ply,1
+David Wisnieski,35,Youth,M,35,22.5,62.5,120,SBD,Single-ply,1
 M. Gill,40,Youth,F,57.5,27.5,70,155,SBD,Single-ply,1
 B. Schwaninger,63,Youth,F,60,37.5,92.5,190,SBD,Single-ply,1

@@ -85,7 +85,7 @@ impl HeaderIndexMap {
     }
 }
 
-pub struct CheckResult {
+pub struct EntriesCheckResult {
     pub report: Report,
     pub entries: Option<Vec<Entry>>,
 }
@@ -111,6 +111,7 @@ pub struct Entry {
     // Optional age information.
     pub age: Age,
     pub ageclass: AgeClass,
+    pub birthyearclass: BirthYearClass,
     pub birthyear: Option<u32>,
     pub birthdate: Option<Date>,
     /// Minimum Age associated with the Division per the CONFIG, inclusive.
@@ -667,19 +668,21 @@ fn check_column_place(s: &str, line: u64, report: &mut Report) -> Place {
     }
 }
 
-fn check_column_age(s: &str, line: u64, report: &mut Report) -> Age {
+fn check_column_age(s: &str, exempt_age: bool, line: u64, report: &mut Report) -> Age {
     match s.parse::<Age>() {
         Ok(age) => {
-            let num = match age {
-                Age::Exact(n) => n,
-                Age::Approximate(n) => n,
-                Age::None => 24,
-            };
+            if !exempt_age {
+                let num = match age {
+                    Age::Exact(n) => n,
+                    Age::Approximate(n) => n,
+                    Age::None => 24,
+                };
 
-            if num < 5 {
-                report.error_on(line, format!("Age '{}' unexpectedly low", s));
-            } else if num > 100 {
-                report.error_on(line, format!("Age '{}' unexpectedly high", s));
+                if num < 5 {
+                    report.error_on(line, format!("Age '{}' unexpectedly low", s));
+                } else if num > 100 {
+                    report.error_on(line, format!("Age '{}' unexpectedly high", s));
+                }
             }
 
             age
@@ -779,7 +782,7 @@ fn check_weight(s: &str, line: u64, header: Header, report: &mut Report) -> Weig
     }
 }
 
-fn check_positive_weight(
+fn check_nonnegative_weight(
     s: &str,
     line: u64,
     header: Header,
@@ -792,7 +795,7 @@ fn check_positive_weight(
 }
 
 fn check_column_bodyweightkg(s: &str, line: u64, report: &mut Report) -> WeightKg {
-    let weight = check_positive_weight(s, line, Header::BodyweightKg, report);
+    let weight = check_nonnegative_weight(s, line, Header::BodyweightKg, report);
     if weight != WeightKg::from_i32(0) {
         if weight < WeightKg::from_i32(15) || weight > WeightKg::from_i32(300) {
             report.error_on(line, format!("Implausible BodyweightKg '{}'", s));
@@ -978,6 +981,20 @@ fn check_event_and_total_consistency(entry: &Entry, line: u64, report: &mut Repo
         report.error_on(line, "Non-DQ entries must have a TotalKg");
     }
 
+    // If any "Best" lift is failed, the lifter must be DQ'd.
+    if !entry.place.is_dq() && entry.best3squatkg < WeightKg::from_i32(0) {
+        report.error_on(line, "Non-DQ entries cannot have a negative Best3SquatKg");
+    }
+    if !entry.place.is_dq() && entry.best3benchkg < WeightKg::from_i32(0) {
+        report.error_on(line, "Non-DQ entries cannot have a negative Best3BenchKg");
+    }
+    if !entry.place.is_dq() && entry.best3deadliftkg < WeightKg::from_i32(0) {
+        report.error_on(
+            line,
+            "Non-DQ entries cannot have a negative Best3DeadliftKg",
+        );
+    }
+
     // Check that a non-DQ lifter's total is the sum of their best attempts,
     // if their lifts have been recorded.
     if !entry.place.is_dq()
@@ -999,8 +1016,8 @@ fn check_event_and_total_consistency(entry: &Entry, line: u64, report: &mut Repo
 
     // Check that the TotalKg isn't something completely nonsensical.
     // Usually this occurs when pounds were mislabeled as kilograms.
-    // The current Multi-ply record is 1367.
-    if entry.totalkg >= WeightKg::from_i32(1400) {
+    // The current Multi-ply record is 1407.5.
+    if entry.totalkg >= WeightKg::from_i32(1408) {
         report.error_on(
             line,
             format!(
@@ -1491,8 +1508,11 @@ fn check_division_age_consistency(
 
     // Check that the Age, BirthYear, and BirthDate columns are internally
     // consistent.
+    let age_from_birthyear: Option<Age> = entry
+        .birthyear
+        .and_then(|birthyear| Some(Age::from_birthyear_on_date(birthyear, meet_date)));
     if let Some(birthyear) = entry.birthyear {
-        let approx_age = Age::from_birthyear_on_date(birthyear, meet_date);
+        let approx_age = age_from_birthyear.unwrap();
 
         // Pairwise check BirthYear and Age.
         if approx_age.is_definitely_less_than(entry.age)
@@ -1602,6 +1622,43 @@ fn check_division_age_consistency(
                 age, entry.division, max_age
             ),
         );
+    }
+
+    // Handle specially the case of BirthYear-based age divisions.
+    // The issue is that if we define a division that is 19.5-22.5 (IPF Juniors),
+    // the "is_definitely" checks above will permit ages between 19-23,
+    // and therefore allow Age::Approximate(18), since that is not definitely
+    // lower than 19.5. That allows lifters to be in *either* T3 or Juniors,
+    // even though federation rules would only allow one.
+    if let Age::Approximate(min) = min_age {
+        if let Age::Approximate(max) = max_age {
+            if let Some(Age::Approximate(age)) = age_from_birthyear {
+                // Compare approximate age values exactly.
+                if age < min {
+                    report.error_on(
+                        line,
+                        format!(
+                            "BirthYear Age {} too young for division '{}': min age {}",
+                            age_from_birthyear.unwrap(),
+                            entry.division,
+                            min_age
+                        ),
+                    );
+                }
+
+                if age > max {
+                    report.error_on(
+                        line,
+                        format!(
+                            "BirthYear Age {} too old for division '{}': max age {}",
+                            age_from_birthyear.unwrap(),
+                            entry.division,
+                            max_age
+                        ),
+                    );
+                }
+            }
+        }
     }
 
     (min_age, max_age)
@@ -1765,7 +1822,7 @@ pub fn do_check<R>(
     meet: Option<&Meet>,
     config: Option<&Config>,
     mut report: Report,
-) -> Result<CheckResult, Box<dyn Error>>
+) -> Result<EntriesCheckResult, Box<dyn Error>>
 where
     R: io::Read,
 {
@@ -1784,10 +1841,12 @@ where
         el.iter()
             .any(|&e| e == Exemption::ExemptWeightClassConsistency)
     });
+    let exempt_age: bool =
+        exemptions.map_or(false, |el| el.iter().any(|&e| e == Exemption::ExemptAge));
 
     let headers: HeaderIndexMap = check_headers(rdr.headers()?, config, &mut report);
     if !report.messages.is_empty() {
-        return Ok(CheckResult {
+        return Ok(EntriesCheckResult {
             report,
             entries: None,
         });
@@ -1836,7 +1895,7 @@ where
             entry.place = check_column_place(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::Age) {
-            entry.age = check_column_age(&record[idx], line, &mut report);
+            entry.age = check_column_age(&record[idx], exempt_age, line, &mut report);
         }
         if let Some(idx) = headers.get(Header::Event) {
             entry.event = check_column_event(&record[idx], line, &headers, &mut report);
@@ -1911,8 +1970,12 @@ where
 
         // TotalKg is a positive weight if present or 0 if missing.
         if let Some(idx) = headers.get(Header::TotalKg) {
-            entry.totalkg =
-                check_positive_weight(&record[idx], line, Header::TotalKg, &mut report);
+            entry.totalkg = check_nonnegative_weight(
+                &record[idx],
+                line,
+                Header::TotalKg,
+                &mut report,
+            );
         }
 
         if let Some(idx) = headers.get(Header::BodyweightKg) {
@@ -2026,11 +2089,28 @@ where
             }
         }
 
+        // If the BirthYear wasn't assigned yet, infer it from any surrounding info.
+        if entry.birthyear.is_none() {
+            if let Some(birthdate) = entry.birthdate {
+                entry.birthyear = Some(birthdate.year());
+            }
+        }
+
         // Assign the AgeClass based on Age.
         entry.ageclass = AgeClass::from_age(entry.age);
         // Or assign the AgeClass based on Division information.
         if entry.ageclass == AgeClass::None {
             entry.ageclass = AgeClass::from_range(division_age_min, division_age_max);
+        }
+
+        // Assign the BirthYearClass based on BirthYear.
+        if entry.birthyearclass == BirthYearClass::None {
+            if let Some(meet) = meet {
+                if let Some(year) = entry.birthyear {
+                    let meet = meet.date.year();
+                    entry.birthyearclass = BirthYearClass::from_birthyear(year, meet);
+                }
+            }
         }
 
         // Calculate points (except for McCulloch, which is Age-dependent).
@@ -2067,10 +2147,25 @@ where
         entries.push(entry);
     }
 
-    Ok(CheckResult {
+    Ok(EntriesCheckResult {
         report,
         entries: Some(entries),
     })
+}
+
+/// Checks a single entries.csv string, used by the server.
+pub fn check_entries_from_string(
+    entries_csv: &str,
+    meet: Option<&Meet>,
+) -> Result<EntriesCheckResult, Box<dyn Error>> {
+    let report = Report::new(PathBuf::from("uploaded/content"));
+
+    let mut rdr = csv::ReaderBuilder::new()
+        .quoting(false)
+        .terminator(csv::Terminator::Any(b'\n'))
+        .from_reader(entries_csv.as_bytes());
+
+    Ok(do_check(&mut rdr, meet, None, report)?)
 }
 
 /// Checks a single entries.csv file by path.
@@ -2078,14 +2173,14 @@ pub fn check_entries(
     entries_csv: PathBuf,
     meet: Option<&Meet>,
     config: Option<&Config>,
-) -> Result<CheckResult, Box<dyn Error>> {
+) -> Result<EntriesCheckResult, Box<dyn Error>> {
     // Allow the pending Report to own the PathBuf.
     let mut report = Report::new(entries_csv);
 
     // The entries.csv file must exist.
     if !report.path.exists() {
         report.error("File does not exist");
-        return Ok(CheckResult {
+        return Ok(EntriesCheckResult {
             report,
             entries: None,
         });

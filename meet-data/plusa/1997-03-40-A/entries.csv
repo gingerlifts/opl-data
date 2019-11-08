@@ -1,5 +1,5 @@
 Name,WeightClassKg,Sex,Country,Division,Best3BenchKg,Bench4Kg,TotalKg,Event,Equipment,Place
-L. Jin,44,F,USA,Open,50,,50,B,Single-ply,1
+Lori Jin,44,F,USA,Open,50,,50,B,Single-ply,1
 Judy Gedney,47.5,F,USA,Masters 4,60,,60,B,Single-ply,1
 P. Cushing,50.5,F,USA,Open,57.5,,57.5,B,Single-ply,1
 Shauna Williock,50.5,F,USA,Teen 1,42.5,,42.5,B,Single-ply,1
@@ -9,7 +9,7 @@ Taubman,55.5,F,Belgium,Masters 1,85,,85,B,Single-ply,1
 L. Sutter,55.5,F,USA,Open,85,,85,B,Single-ply,2
 Pamela Ty,55.5,F,USA,Open,70,,70,B,Single-ply,3
 Mary Ruffner,58.5,F,USA,Open,95,,95,B,Single-ply,1
-K. Haynes,58.5,F,USA,Open,87.5,,87.5,B,Single-ply,2
+Katie Haynes,58.5,F,USA,Open,87.5,,87.5,B,Single-ply,2
 Megan Pittman,58.5,F,USA,Teen 1,45,,45,B,Single-ply,1
 Shari McMahon,63,F,USA,Open,102.5,,102.5,B,Single-ply,1
 K. Hummel,70,F,USA,Open,52.5,,52.5,B,Single-ply,1
@@ -61,7 +61,7 @@ C. Foy,90,M,USA,Open,202.5,,202.5,B,Single-ply,3
 Jim Vrabel,90,M,USA,Open,200,,200,B,Single-ply,4
 J. Joseph,90,M,Belgium,Open,200,,200,B,Single-ply,5
 A. Goodrich,90,M,USA,Open,182.5,,182.5,B,Single-ply,6
-W. Strosnider,90,M,USA,Masters 2,165,,165,B,Single-ply,1
+Wally Strosnider,90,M,USA,Masters 2,165,,165,B,Single-ply,1
 J. Marcus,90,M,USA,Masters 3,157.5,,157.5,B,Single-ply,1
 F. Weismuller,90,M,USA,Masters 2,155,,155,B,Single-ply,2
 J. Feehan,90,M,USA,Open,155,,155,B,Single-ply,7
@@ -102,7 +102,7 @@ Harry Thanos,125,M,USA,Open,205,,205,B,Single-ply,2
 Laine Snook,125,M,England,Open,200,,200,B,Single-ply,3
 C. van Tress,125,M,USA,Open,187.5,,187.5,B,Single-ply,4
 Tom Matic,125,M,USA,Masters 1,185,,185,B,Single-ply,1
-G. Krueger,125,M,USA,Masters 2,182.5,,182.5,B,Single-ply,1
+Gary Krueger,125,M,USA,Masters 2,182.5,,182.5,B,Single-ply,1
 Kenneth Bastin,125,M,USA,Open,162.5,,162.5,B,Single-ply,5
 Richard Van Eck,125,M,USA,Masters 3,147.5,,147.5,B,Single-ply,2
 Calvin Davis,125,M,USA,Masters 7,120,,120,B,Single-ply,1
@@ -110,7 +110,7 @@ Dave Adamovich,145,M,USA,Open,240,,240,B,Single-ply,1
 Steve Ellis,145,M,USA,Masters 1,232.5,,232.5,B,Single-ply,1
 W. Baekelant,145,M,Belgium,Open,215,,215,B,Single-ply,2
 Joshua Hardin,145,M,USA,Juniors,205,,205,B,Raw,1
-Matthew Lake,145,M,USA,Teen 3,205,,205,B,Single-ply,1
+Matt Lake,145,M,USA,Teen 3,205,,205,B,Single-ply,1
 Richard Gries,145,M,USA,Open,190,,190,B,Single-ply,3
 Jim Griffin,145+,M,USA,Open,240,,240,B,Single-ply,1
 William Gibbs,145+,M,USA,Masters 1,212.5,,212.5,B,Single-ply,1

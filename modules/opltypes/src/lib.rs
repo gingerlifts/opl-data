@@ -18,6 +18,10 @@ extern crate serde_json;
 // Public exports.
 mod age;
 pub use self::age::{Age, PrettyAge};
+mod ageclass;
+pub use self::ageclass::AgeClass;
+mod birthyearclass;
+pub use self::birthyearclass::BirthYearClass;
 mod country;
 pub use self::country::Country;
 mod date;
@@ -26,6 +30,8 @@ mod equipment;
 pub use self::equipment::Equipment;
 mod event;
 pub use self::event::Event;
+mod export;
+pub use self::export::ExportRow;
 mod federation;
 pub use self::federation::Federation;
 mod place;
@@ -42,8 +48,6 @@ mod weightkg;
 pub use self::weightkg::{WeightAny, WeightKg};
 mod weightclasskg;
 pub use self::weightclasskg::{WeightClassAny, WeightClassKg};
-mod ageclass;
-pub use self::ageclass::AgeClass;
 mod yesno;
 pub use self::yesno::deserialize_yes_no;
 

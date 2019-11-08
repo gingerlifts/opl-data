@@ -1,7 +1,6 @@
 //! Checks CSV data files for validity.
 
 extern crate checker; // The "src/lib.rs" module.
-extern crate clap; // Command Line Argument Parser.
 extern crate colored; // Allows outputting pretty terminal colors.
 extern crate rayon; // A work-stealing auto-parallelism library.
 extern crate walkdir; // Allows walking through a directory, looking at files.
@@ -14,10 +13,27 @@ use walkdir::{DirEntry, WalkDir};
 use std::collections::BTreeMap;
 use std::env;
 use std::error::Error;
+use std::fs;
 use std::io::{self, Write};
 use std::path::{Path, PathBuf};
 use std::process;
 use std::sync::atomic::{AtomicUsize, Ordering};
+
+/// Stores user-specified arguments from the command line.
+struct Args {
+    /// Whether the usage information should be printed.
+    help: bool,
+    /// Prints debug info for a single lifter's Age.
+    debug_age_username: Option<String>,
+    /// Prints debug info for a single lifter's Country.
+    debug_country_username: Option<String>,
+    /// Whether the database should be compiled for the server.
+    compile: bool,
+    /// Whether the database should be compiled for humans.
+    compile_onefile: bool,
+    /// Any remaining unrecognized arguments.
+    free: Vec<String>,
+}
 
 // For purposes of testing, a meet directory is any directory containing
 // either of the files "entries.csv" or "meet.csv".
@@ -101,7 +117,7 @@ fn get_configurations(meet_data_root: &Path) -> Result<ConfigMap, (usize, usize)
     // Build a list of every CONFIG.toml.
     let configs = WalkDir::new(&meet_data_root)
         .min_depth(1)
-        .max_depth(1) // Grab each federation's folder.
+        .max_depth(2) // Allow apf/CONFIG.toml or mags/plusa/CONFIG.toml.
         .into_iter()
         .filter_map(|entry| {
             entry.ok().and_then(|e| {
@@ -159,45 +175,51 @@ fn get_configurations(meet_data_root: &Path) -> Result<ConfigMap, (usize, usize)
     }
 }
 
+/// Displays the help message for the CLI argument parser.
+fn display_help_message() {
+    println!(
+        r#"
+OpenPowerlifting Checker
+Checks and compiles the OpenPowerlifting database
+
+USAGE:
+    checker [FLAGS] [OPTIONS] [PATH]
+
+FLAGS:
+    -c, --compile            Compiles the database into build/*.csv
+    -1, --compile-onefile    Compiles build/openpowerlifting.csv, the easy-use variant
+    -h, --help               Prints this help information
+
+OPTIONS:
+        --age <username>        Prints age debug info for the given username
+        --country <username>    Prints country debug info for the given username
+
+ARGS:
+    <PATH>    Optionally restricts processing to just this parent directory
+"#
+    );
+}
+
 fn main() -> Result<(), Box<dyn Error>> {
     // Build the command-line argument parsing in code.
-    // This is a little verbose, but it's easy to change.
-    let argmatches = clap::App::new("OpenPowerlifting Checker")
-        .version("0.1")
-        .about("Checks and compiles the OpenPowerlifting database")
-        .arg(
-            clap::Arg::with_name("age")
-                .long("age")
-                .value_name("username")
-                .takes_value(true)
-                .help("Prints age interpolation debug info for the given username"),
-        )
-        .arg(
-            clap::Arg::with_name("country")
-                .long("country")
-                .value_name("username")
-                .takes_value(true)
-                .help("Prints country interpolation debug info for the given username"),
-        )
-        .arg(
-            clap::Arg::with_name("compile")
-                .short("c")
-                .long("compile")
-                .help("Compiles the database into build/*.csv"),
-        )
-        .arg(
-            clap::Arg::with_name("compile-onefile")
-                .short("1")
-                .long("compile-onefile")
-                .help("Compiles build/openpowerlifting.csv, the easy-use variant"),
-        )
-        .arg(
-            clap::Arg::with_name("PATH")
-                .help("Optionally restricts processing to just this parent directory")
-                .required(false)
-                .index(1),
-        )
-        .get_matches();
+    // Get the arguments that were passed to the program, ignoring the binary name
+    let mut args = pico_args::Arguments::from_env();
+
+    // Parse the arguments.
+    let args = Args {
+        help: args.contains(["-h", "--help"]),
+        debug_age_username: args.opt_value_from_str("--age")?,
+        debug_country_username: args.opt_value_from_str("--country")?,
+        compile: args.contains(["-c", "--compile"]),
+        compile_onefile: args.contains(["-1", "--compile-onefile"]),
+        free: args.free()?,
+    };
+
+    // If the help message was requested, display it and exit immediately.
+    if args.help {
+        display_help_message();
+        return Ok(());
+    }
 
     // Get handles to various parts of the project.
     let project_root = get_project_root()?;
@@ -207,25 +229,23 @@ fn main() -> Result<(), Box<dyn Error>> {
     }
 
     // Validate arguments.
-    let is_compiling: bool =
-        argmatches.is_present("compile") || argmatches.is_present("compile-onefile");
-    let debug_age_username: Option<&str> = argmatches.value_of("age");
-    let debug_country_username: Option<&str> = argmatches.value_of("country");
+    let is_compiling: bool = args.compile || args.compile_onefile;
     let is_debugging: bool =
-        debug_age_username.is_some() || debug_country_username.is_some();
+        args.debug_age_username.is_some() || args.debug_country_username.is_some();
 
-    let search_root = match argmatches.value_of("PATH") {
-        None => meet_data_root.clone(),
-        Some(path) => {
-            let full_path = env::current_dir()?.join(path);
-            // Canonicalization will fail if the path doesn't exist.
-            match full_path.canonicalize() {
-                Ok(p) => p,
-                Err(e) => {
-                    let msg = full_path.to_str().unwrap();
-                    println!("{}: {}", msg, e);
-                    process::exit(1);
-                }
+    // Any free argument is interpreted as a folder for limiting checking scope.
+    let search_root = if args.free.is_empty() {
+        meet_data_root.clone()
+    } else {
+        // Assume the path is the first element of args.free.
+        let full_path = env::current_dir()?.join(&args.free[0]);
+        // Canonicalization will fail if the path doesn't exist.
+        match full_path.canonicalize() {
+            Ok(p) => p,
+            Err(e) => {
+                let msg = full_path.to_str().unwrap();
+                println!("{}: {}", msg, e);
+                process::exit(1);
             }
         }
     };
@@ -342,37 +362,60 @@ fn main() -> Result<(), Box<dyn Error>> {
     }
     let lifterdata = result.map;
 
-    print_summary(error_count + internal_error_count, warning_count);
+    // Check for username errors.
+    // FIXME: This adds a whole second to the checker time.
+    // FIXME: Lifetimes are really making this harder than it should be.
+    // FIXME: Otherwise we could just do the checking in create_liftermap().
+    let liftermap = meetdata.create_liftermap();
+    for lifter_indices in liftermap.values() {
+        let first = &meetdata.get_entry(lifter_indices[0]).name;
+        for index in lifter_indices.iter().skip(1) {
+            let entry = &meetdata.get_entry(*index);
+            if first != &entry.name {
+                let msg = format!(
+                    "Conflict for {}: '{}' vs '{}'",
+                    entry.username, first, entry.name
+                );
+                println!(" {}", msg.bold().red());
+                error_count += 1;
+            }
+        }
+    }
 
+    // The default mode without arguments just performs data checks.
+    print_summary(error_count + internal_error_count, warning_count);
     if error_count > 0 || internal_error_count > 0 {
         process::exit(1);
     }
 
-    // The default mode without arguments just performs data checks.
+    // Perform cross-Entry data interpolation.
     if is_compiling || is_debugging {
-        let liftermap = meetdata.create_liftermap();
-
         // Perform country interpolation.
-        if let Some(u) = debug_country_username {
-            compiler::interpolate_country_debug_for(&mut meetdata, &liftermap, u);
+        if let Some(u) = args.debug_country_username {
+            compiler::interpolate_country_debug_for(&mut meetdata, &liftermap, &u);
             process::exit(0); // TODO: Complain if someone passes --compile.
         }
         compiler::interpolate_country(&mut meetdata, &liftermap);
 
         // Perform age interpolation.
-        if let Some(u) = debug_age_username {
-            compiler::interpolate_age_debug_for(&mut meetdata, &liftermap, u);
+        if let Some(u) = args.debug_age_username {
+            compiler::interpolate_age_debug_for(&mut meetdata, &liftermap, &u);
             process::exit(0); // TODO: Complain if someone passes --compile.
         }
         compiler::interpolate_age(&mut meetdata, &liftermap);
+    }
 
-        // Perform final compilation if requested.
-        if argmatches.is_present("compile") {
-            let buildpath = project_root.join("build");
+    // Perform final compilation if requested.
+    if is_compiling {
+        let buildpath = project_root.join("build");
+        if !buildpath.exists() {
+            fs::create_dir(&buildpath)?;
+        }
+
+        if args.compile {
             compiler::make_csv(&meetdata, &lifterdata, &buildpath)?;
         }
-        if argmatches.is_present("compile-onefile") {
-            let buildpath = project_root.join("build");
+        if args.compile_onefile {
             compiler::make_onefile_csv(&meetdata, &buildpath)?;
         }
     }

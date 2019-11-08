@@ -14,7 +14,7 @@ Alexis Andres,M,45,85.1,90,M2,,,,,,152.5,157.5,160,,160,,,,,,160,1,Multi-ply,B,F
 Robert Kanclerz,M,40,95.7,100,M1,,,,,,185,195,202.5,,202.5,,,,,,202.5,1,Multi-ply,B,Poland
 Christian Vagner,M,46,95.7,100,M2,,,,,,160,170,-180,,170,,,,,,170,1,Multi-ply,B,France
 Franciszek Szabluk,M,61,98.5,100,M5,,,,,,210,-220,-220,,210,,,,,,210,1,Multi-ply,B,Poland
-Jani Ihalainen,M,42,106.1,110,M1,,,,,,200,,,,200,,,,,,200,1,Multi-ply,B,Finland
+Jani Toivo Kristian Ihalainen,M,42,106.1,110,M1,,,,,,200,,,,200,,,,,,200,1,Multi-ply,B,Finland
 Sergey Starodubskiy,M,40,116.7,125,M1,,,,,,280,305,-320.5,,305,,,,,,305,1,Multi-ply,B,Russia
 Laurent Jacques,M,48,124.8,125,M2,,,,,,212.5,-220,220,,220,,,,,,220,1,Multi-ply,B,France
 Eric Bar,M,49,111,125,M2,,,,,,215,-217.5,-220,,215,,,,,,215,2,Multi-ply,B,France
@@ -25,7 +25,7 @@ Janík Velgos,M,17,125,125,T2,,,,,,320,-330,340,-347.5,340,,,,,,340,1,Multi-ply,
 Oskars Zwarts,M,39,137.1,140,O,,,,,,235,245,260,,260,,,,,,260,1,Multi-ply,B,Ireland
 Tamara Gajdosova,F,13,46.5,48,T1,,,,,,,,,,,60,70,80,,80,80,1,Raw,D,Slovakia
 Lorraine Balbiani,F,23,55.6,56,J,,,,,,,,,,,110,117.5,-120,,117.5,117.5,1,Raw,D,France
-Dana Beskova,F,63,54.2,56,M5,,,,,,,,,,,60,70,75,,75,75,1,Raw,D,Czech
+Dana Besková,F,63,54.2,56,M5,,,,,,,,,,,60,70,75,,75,75,1,Raw,D,Czech
 Bekki Cole,F,24,58.5,60,O,,,,,,,,,,,115,122.5,-130,,122.5,122.5,1,Raw,D,GB
 Petrana Blašková,F,26,59,60,O,,,,,,,,,,,90,100,110,,110,110,2,Raw,D,Slovakia
 Ellen Tobin Hogan,F,24,63.2,67.5,O,,,,,,,,,,,110,117.5,-120,,117.5,117.5,1,Raw,D,Ireland
@@ -84,13 +84,13 @@ Milija Antić,M,47,87,90,M2,,,,,,,,,,,150,,,,150,150,1,Multi-ply,D,Serbia
 Heinz Mihoubi,M,70,98,100,M7,,,,,,,,,,,185,195,200,,200,200,1,Multi-ply,D,Germany
 Wiesław Wrŏbel,M,61,99.7,100,M5,,,,,,,,,,,235,250,260,,260,260,1,Multi-ply,D,Poland
 Cirulis Ivars,M,38,104.7,110,O,,,,,,,,,,,300,320,-330,,320,320,1,Multi-ply,D,Latvia
-Jani Ihalainen,M,42,106.1,110,M1,,,,,,,,,,,220,260,-302.5,,260,260,1,Multi-ply,D,Finland
+Jani Toivo Kristian Ihalainen,M,42,106.1,110,M1,,,,,,,,,,,220,260,-302.5,,260,260,1,Multi-ply,D,Finland
 David Rex Thomas,M,66,106.4,110,M6,,,,,,,,,,,160,181,,,181,181,1,Multi-ply,D,GB
 Ioannis Krokos,M,20,106.6,110,J,,,,,,,,,,,265,280,287.5,-290,287.5,287.5,1,Multi-ply,D,Luxembourg
 Vasilii Mazur,M,34,113.2,125,O,,,,,,,,,,,-315,315,-330,,315,315,1,Multi-ply,D,Moldova
 Péter Pintér,M,33,115.4,125,O,,,,,,,,,,,280,300,305,,305,305,2,Multi-ply,D,Slovakia
 Lorraine Balbiani,F,23,55.7,56,J,,,,,,60,-63,63,65,63,,,,,,63,1,Raw,B,France
-Dana Beskova,F,63,55.9,56,M5,,,,,,35,-40,-40,,35,,,,,,35,1,Raw,B,Czech
+Dana Besková,F,63,55.9,56,M5,,,,,,35,-40,-40,,35,,,,,,35,1,Raw,B,Czech
 Fatiha Chettibi,F,27,56.8,60,O,,,,,,85,90,-92.5,,90,,,,,,90,1,Raw,B,France
 Veronika Zemanová,F,36,68.4,75,O,,,,,,-85,95,-102.5,,95,,,,,,95,1,Raw,B,Czech
 Paulina Loponen,F,24,71.5,75,O,,,,,,70,-85.5,-85.5,,70,,,,,,70,2,Raw,B,Finland
@@ -121,7 +121,7 @@ Patrik Tomáš,M,22,81.8,82.5,J,,,,,,150,160,-162.5,,160,,,,,,160,1,Raw,B,Czech
 Lukáš Chmela,M,36,81.7,82.5,O,,,,,,155,160,-165.5,,160,,,,,,160,1,Raw,B,Czech
 Dimitri Kukharenko,M,49,76.6,82.5,M2,,,,,,155,160,170,,170,,,,,,170,1,Raw,B,Spain
 Robert Tomáš,M,45,80.1,82.5,M2,,,,,,140,-150,-150,,140,,,,,,140,2,Raw,B,Czech
-Jaromir Skalicky,M,49,81.8,82.5,M2,,,,,,125,-132.5,-132.5,,125,,,,,,125,3,Raw,B,Czech
+Jaromír Skalický,M,49,81.8,82.5,M2,,,,,,125,-132.5,-132.5,,125,,,,,,125,3,Raw,B,Czech
 Joaquim DaSilva,M,53,80.6,82.5,M3,,,,,,145,-150,-150,,145,,,,,,145,1,Raw,B,France
 Mieczyslaw Marzka,M,63,82.3,82.5,M5,,,,,,100,107.5,,,107.5,,,,,,107.5,1,Raw,B,Germany
 Jean Pierre Labrousse,M,62,81.3,82.5,M5,,,,,,90,92.5,95,,95,,,,,,95,2,Raw,B,France
@@ -180,7 +180,7 @@ Michal Červinka,M,58,88.6,90,M4,220,230,-237.5,,230,115,122.5,130,,130,195,210,
 Robert Graham,M,52,97.1,100,M3,230,260,-280,,260,120,160,175,,175,200,220,230,,230,665,1,Multi-ply,SBD,GB
 Libor Hurdálek,M,63,99.2,100,M5,220,235,240,,240,155,160,170,171,170,190,210,220,,220,630,1,Multi-ply,SBD,Czech
 Eric Bar,M,49,107.5,110,M2,205,,,,205,215,-222.5,-222.5,,215,242.5,-260,260,,260,680,1,Multi-ply,SBD,France
-Jani Ihalainen,M,42,114.1,125,M1,205,220,-235,,220,200,-220,-230,,200,-200,215,262.5,,262.5,682.5,1,Multi-ply,SBD,Finland
+Jani Toivo Kristian Ihalainen,M,42,114.1,125,M1,205,220,-235,,220,200,-220,-230,,200,-200,215,262.5,,262.5,682.5,1,Multi-ply,SBD,Finland
 Julie Marlats,F,29,65.3,67.5,O,132.5,142.5,150,,150,,,,,,,,,,,150,1,Wraps,S,France
 Ellen Tobin Hogan,F,24,64.5,67.5,O,70,80,-100,,80,,,,,,,,,,,80,2,Wraps,S,Ireland
 Charlotte Wareing,F,55,106.3,110,M4,160,170,180,,180,,,,,,,,,,,180,1,Wraps,S,GB
@@ -241,7 +241,7 @@ Mierczyslaw Maczka,M,63,82.2,82.5,M5,100,,,,100,,,,,,,,,,,100,1,Multi-ply,S,Germ
 Milija Antić,M,47,87,90,M2,-120,120,150,,150,,,,,,,,,,,150,1,Multi-ply,S,Serbia
 Simon Stopar,M,34,92.7,100,O,315,-330,330,,330,,,,,,,,,,,330,1,Multi-ply,S,Slovenia
 Michal Červinka,M,58,92.6,100,M4,220,235,240,,240,,,,,,,,,,,240,1,Multi-ply,S,Slovakia
-Jani Ihalainen,M,42,106.1,110,M1,212.5,215,220,225,220,,,,,,,,,,,220,1,Multi-ply,S,Finland
+Jani Toivo Kristian Ihalainen,M,42,106.1,110,M1,212.5,215,220,225,220,,,,,,,,,,,220,1,Multi-ply,S,Finland
 Péter Pintér,M,33,115.9,125,O,320,340,-345,,340,,,,,,,,,,,340,1,Multi-ply,S,Slovakia
 Vivien Are,M,28,56,56,O,115,130,-150,,130,60,70,-77.5,,70,127.5,140,-145,,140,340,1,Wraps,SBD,France
 Jason Bar,M,15,55.3,56,T1,85,90.5,93,,93,47.5,52.5,-55,,52.5,92.5,103,,,103,248.5,1,Wraps,SBD,France

@@ -11,7 +11,7 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 2,Tonya Myers,O,USA,,190,90,182.5,462.5,60,F,SBD,Multi-ply
 3,Anna Blakley,O,USA,,175,122.5,160,457.5,60,F,SBD,Multi-ply
 4,S. Roguet,O,Belgium,,152.5,65,162.5,380,60,F,SBD,Multi-ply
-1,A. Houser,T,USA,,110,52.5,135,297.5,67.5,F,SBD,Multi-ply
+1,Alexia Houser,T,USA,,110,52.5,135,297.5,67.5,F,SBD,Multi-ply
 1,T. Staudinger,J,Canada,,135,75,180,390,67.5,F,SBD,Multi-ply
 2,T. Goosen,J,South Africa,,140,57.5,170,367.5,67.5,F,SBD,Multi-ply
 1,Mariah Liggett,O,USA,,230,130,210,570,67.5,F,SBD,Multi-ply
@@ -47,7 +47,7 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 3,Roy Harper,O,Canada,,175,117.5,210,502.5,67.5,M,SBD,Multi-ply
 1,Will Taylor,M1,USA,,165,97.5,200,462.5,67.5,M,SBD,Multi-ply
 1,David Berg,M2,UK,,215,115,220,550,67.5,M,SBD,Multi-ply
-2,J. Addy,M2,USA,,137.5,65,162.5,365,67.5,M,SBD,Multi-ply
+2,John Addy,M2,USA,,137.5,65,162.5,365,67.5,M,SBD,Multi-ply
 1,J. Ehman,T,USA,,205,82.5,197.5,485,75,M,SBD,Multi-ply
 1,P. Avans,J,USA,,237.5,152.5,240,630,75,M,SBD,Multi-ply
 2,Nelson Caetano,J,Italy,,230,112.5,230,572.5,75,M,SBD,Multi-ply
@@ -61,7 +61,7 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 1,G. Isaac,M2,UK,,220,130,250,600,75,M,SBD,Multi-ply
 2,Troy Hicks,M2,USA,,197.5,120,250,567.5,75,M,SBD,Multi-ply
 3,D. Lather,M2,USA,,195,137.5,232.5,565,75,M,SBD,Multi-ply
-1,J. Wells,M3,USA,,200,150,182.5,532.5,75,M,SBD,Multi-ply
+1,Jerry Wells,M3,USA,,200,150,182.5,532.5,75,M,SBD,Multi-ply
 2,James Capehart,M3,USA,,175,117.5,157.5,450,75,M,SBD,Multi-ply
 1,Richard Giller,M6,USA,,165,132.5,215,512.5,75,M,SBD,Multi-ply
 1,Mark Placek,T,USA,,242.5,145,240,627.5,82.5,M,SBD,Multi-ply
@@ -69,7 +69,7 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 1,Y. Malka,J,USA,,172.5,132.5,215,520,82.5,M,SBD,Multi-ply
 2,W. Debruyne,J,Belgium,,182.5,120,212.5,515,82.5,M,SBD,Multi-ply
 1,Arnold Coleman,O,USA,,322.5,227.5,287.5,837.5,82.5,M,SBD,Multi-ply
-2,Joseph McCoy,O,USA,,305,232.5,257.5,795,82.5,M,SBD,Multi-ply
+2,Joe McCoy,O,USA,,305,232.5,257.5,795,82.5,M,SBD,Multi-ply
 3,Enzo Vaccari,O,Italy,,300,180,292.5,772.5,82.5,M,SBD,Multi-ply
 4,Rohan Archibald,O,South Africa,,290,185,275,750,82.5,M,SBD,Multi-ply
 1,David Jones,M1,UK,,240,170,260,670,82.5,M,SBD,Multi-ply
@@ -79,7 +79,7 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 2,R. Mercier,M2,Belgium,,190,115,200,505,82.5,M,SBD,Multi-ply
 1,Robyn Brown,M3,UK,,275,160,280,715,82.5,M,SBD,Multi-ply
 2,Chris Bannagham,M3,UK,,230,110,265,605,82.5,M,SBD,Multi-ply
-3,Edwin Angstrom,M3,USA,,185,150,210,545,82.5,M,SBD,Multi-ply
+3,Ed Angstrom,M3,USA,,185,150,210,545,82.5,M,SBD,Multi-ply
 1,LB Baker,M4,USA,,207.5,150,215,572.5,82.5,M,SBD,Multi-ply
 1,Ross Phillips,M5,USA,,182.5,102.5,220,505,82.5,M,SBD,Multi-ply
 1,Michael Otto,T,South Africa,,292.5,170,300,762.5,90,M,SBD,Multi-ply
@@ -93,7 +93,7 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 3,Johnny Kay,O,USA,,300,205,260,765,90,M,SBD,Multi-ply
 4,C. Merion,O,,,265,160,265,690,90,M,SBD,Multi-ply
 1,P. Jones,M1,UK,,235,175,250,660,90,M,SBD,Multi-ply
-2,T. Kurlowicz,M1,USA,,245,142.5,245,632.5,90,M,SBD,Multi-ply
+2,Ted Kurlowicz,M1,USA,,245,142.5,245,632.5,90,M,SBD,Multi-ply
 3,V. Spangrud,M1,USA,,230,147.5,192.5,570,90,M,SBD,Multi-ply
 1,Bill Ramsrud,M6,USA,,182.5,85,215,482.5,90,M,SBD,Multi-ply
 1,Malcolm Richards,M7,USA,,202.5,152.5,217.5,572.5,90,M,SBD,Multi-ply
@@ -105,11 +105,11 @@ Place,Name,Division,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 4,Jean-Marc Chenin,O,France,,302.5,215,280,797.5,100,M,SBD,Multi-ply
 5,R. Keener,O,USA,,295,200,280,775,100,M,SBD,Multi-ply
 6,A. Gonzales,O,,,262.5,182.5,280,725,100,M,SBD,Multi-ply
-1,William West,M2,UK,,360,190,330,880,100,M,SBD,Multi-ply
+1,Bill West #1,M2,UK,,360,190,330,880,100,M,SBD,Multi-ply
 2,L. Hasler,M2,South Africa,,305,207.5,325,837.5,100,M,SBD,Multi-ply
 3,Hamid Tazi,M2,Italy,,220,180,250,650,100,M,SBD,Multi-ply
 2,S. Candberg,M3,USA,,287.5,180,285,752.5,100,M,SBD,Multi-ply
-1,B. Frye,M3,USA,,260,187.5,282.5,730,100,M,SBD,Multi-ply
+1,Butch Frye,M3,USA,,260,187.5,282.5,730,100,M,SBD,Multi-ply
 3,J. Devrainville,M3,Belgium,,210,132.5,235,577.5,100,M,SBD,Multi-ply
 1,Ernie Frantz,M5,USA,,327.5,162.5,282.5,772.5,100,M,SBD,Multi-ply
 1,Melvin Huff,M6,USA,,192.5,125,215,532.5,100,M,SBD,Multi-ply

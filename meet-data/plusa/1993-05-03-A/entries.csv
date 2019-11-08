@@ -46,7 +46,7 @@ H. Brodhurst,67.5,Pure,M,225,,102.5,250,,577.5,SBD,Single-ply,7
 V. Brown,67.5,Pure,M,230,,122.5,202.5,,555,SBD,Single-ply,8
 G. Graves,67.5,Pure,M,215,,117.5,222.5,,555,SBD,Single-ply,9
 R. Willis,67.5,Pure,M,197.5,,100,217.5,,515,SBD,Single-ply,10
-J. Schiller,67.5,Pure,M,197.5,,110,202.5,,510,SBD,Single-ply,11
+Joe Schiller,67.5,Pure,M,197.5,,110,202.5,,510,SBD,Single-ply,11
 D. Grant,67.5,Pure,M,165,,117.5,195,,477.5,SBD,Single-ply,12
 J. Jones,67.5,Pure,M,130,,80,162.5,,372.5,SBD,Single-ply,13
 M. Waggoner,67.5,Pure,M,185,,,,,,SBD,Single-ply,DQ
@@ -68,7 +68,7 @@ P. Jenkins,90,Pure,M,227.5,,140,235,,602.5,SBD,Single-ply,8
 Kent Johnson,100,Pure,M,335,,182.5,340,,857.5,SBD,Single-ply,1
 R. Tucker,100,Pure,M,307.5,,155,302.5,,765,SBD,Single-ply,2
 J. Bockoven,100,Pure,M,260,,162.5,280,,702.5,SBD,Single-ply,3
-L. Ventress,100,Pure,M,282.5,,145,265,,692.5,SBD,Single-ply,4
+Larry Ventress,100,Pure,M,282.5,,145,265,,692.5,SBD,Single-ply,4
 R. King,100,Pure,M,275,,157.5,257.5,,690,SBD,Single-ply,5
 B. Samuels,100,Pure,M,250,,162.5,260,,672.5,SBD,Single-ply,6
 D. Cullinane,100,Pure,M,265,,152.5,242.5,,660,SBD,Single-ply,7
@@ -82,11 +82,11 @@ K. Thomas,110,Pure,M,275,,172.5,257.5,,705,SBD,Single-ply,7
 R. Hill,110,Pure,M,287.5,,165,237.5,,690,SBD,Single-ply,8
 B. Harrington,110,Pure,M,227.5,,157.5,272.5,,657.5,SBD,Single-ply,6
 L. Foreman,110,Pure,M,,,,,,,SBD,Single-ply,DQ
-Dave Reece,125,Pure,M,347.5,,243.5,282.5,,873.5,SBD,Single-ply,1
+David Reece,125,Pure,M,347.5,,243.5,282.5,,873.5,SBD,Single-ply,1
 Glenn Pendlay,125,Pure,M,315,,187.5,270,,772.5,SBD,Single-ply,2
 Nehumi Tuihalamaka,125+,Pure,M,395,,195,285,,875,SBD,Single-ply,1
 B. Anderson,125+,Pure,M,287.5,,200,302.5,,790,SBD,Single-ply,2
-D. Oyler,125+,Pure,M,317.5,,172.5,275,,765,SBD,Single-ply,3
+David Oyler,125+,Pure,M,317.5,,172.5,275,,765,SBD,Single-ply,3
 M. Mitchell,125+,Pure,M,290,,167.5,242.5,,700,SBD,Single-ply,4
 T. Lohrmann,125+,Pure,M,287.5,,172.5,232.5,,692.5,SBD,Single-ply,5
 Robert Trujillo,60,Natural,M,110,,80,165,,355,SBD,Single-ply,1
@@ -119,14 +119,14 @@ M. Farney,110,Natural,M,277.5,,165,265,,707.5,SBD,Single-ply,4
 B. Harrington,110,Natural,M,227.5,,157.5,265,,650,SBD,Single-ply,5
 G. Bunck,110,Natural,M,67.5,,95,67.5,,230,SBD,Single-ply,6
 Scott Edmiston,125,Natural,M,332.5,,220,320,,872.5,SBD,Single-ply,1
-T. Allen,125,Natural,M,355,,227.5,277.5,,860,SBD,Single-ply,3
+Tom Allen,125,Natural,M,355,,227.5,277.5,,860,SBD,Single-ply,3
 S. Stoughton,125,Natural,M,325,,197.5,297.5,,820,SBD,Single-ply,2
-D. Oyler,125+,Natural,M,317.5,,172.5,275,,765,SBD,Single-ply,1
+David Oyler,125+,Natural,M,317.5,,172.5,275,,765,SBD,Single-ply,1
 G. Young,52,Pure Novice,M,172.5,,97.5,172.5,,442.5,SBD,Single-ply,1
 J. Mann,60,Pure Novice,M,135,,95,152.5,,382.5,SBD,Single-ply,1
 C. Bailey,60,Pure Novice,M,137.5,,82.5,147.5,,367.5,SBD,Single-ply,2
 V. Brown,67.5,Pure Novice,M,230,,122.5,202.5,,555,SBD,Single-ply,1
-J. Schiller,67.5,Pure Novice,M,197.5,,110,202.5,,510,SBD,Single-ply,2
+Joe Schiller,67.5,Pure Novice,M,197.5,,110,202.5,,510,SBD,Single-ply,2
 D. Grant,67.5,Pure Novice,M,182.5,,117.5,195,,495,SBD,Single-ply,3
 B. Peace,75,Pure Novice,M,257.5,,145,227.5,,630,SBD,Single-ply,1
 J. McElroy,75,Pure Novice,M,235,,152.5,240,,627.5,SBD,Single-ply,2
@@ -203,7 +203,7 @@ J. Cowan,90,Submasters,M,260,,125,265,,650,SBD,Single-ply,2
 Mike Nichols,90,Submasters,M,237.5,,145,237.5,,620,SBD,Single-ply,3
 L. Dauria,90,Submasters,M,227.5,,145,217.5,,590,SBD,Single-ply,4
 E. Rodriguez,90,Submasters,M,205,,115,220,,540,SBD,Single-ply,5
-R. Puccino,100,Submasters,M,272.5,,167.5,262.5,,702.5,SBD,Single-ply,1
+Robert Puccino,100,Submasters,M,272.5,,167.5,262.5,,702.5,SBD,Single-ply,1
 R. King,100,Submasters,M,275,,157.5,257.5,,690,SBD,Single-ply,2
 E. Payne,100,Submasters,M,240,,162.5,255,,657.5,SBD,Single-ply,3
 M. Bresling,100,Submasters,M,242.5,,142.5,227.5,,612.5,SBD,Single-ply,4
@@ -241,7 +241,7 @@ R. Hill,110,Masters 1,M,287.5,,165,237.5,,690,SBD,Single-ply,1
 K. Walker,110,Masters 1,M,237.5,,142.5,272.5,,652.5,SBD,Single-ply,2
 J. Anderson,110,Masters 1,M,210,,127.5,190,,527.5,SBD,Single-ply,3
 L. Smith,110,Masters 1,M,202.5,,100,172.5,,475,SBD,Single-ply,4
-L. Cheney,125,Masters 1,M,272.5,,185,260,,717.5,SBD,Single-ply,1
+Les Cheney,125,Masters 1,M,272.5,,185,260,,717.5,SBD,Single-ply,1
 E. Smith,125,Masters 1,M,265,,145,245,,655,SBD,Single-ply,2
 B. Woods,125+,Masters 1,M,260,,175,240,,675,SBD,Single-ply,1
 W. Paola,75,Masters 2,M,145,,127.5,165,,437.5,SBD,Single-ply,1

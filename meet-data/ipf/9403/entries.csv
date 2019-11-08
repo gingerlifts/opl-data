@@ -1,12 +1,12 @@
 Place,Sex,Division,WeightClassKg,Name,BirthYear,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment
 1,F,Masters 1,52,Nadezdha Uvachan,1944,Russia,51.6,130,70,132.5,332.5,SBD,Single-ply
 2,F,Masters 1,52,Adina Hyková,1943,Czechia,51.3,112.5,57.5,127.5,297.5,SBD,Single-ply
-3,F,Masters 1,52,Marie Guinard,1942,France,51.6,102.5,62.5,130,295,SBD,Single-ply
+3,F,Masters 1,52,Marie-Françoise Guinard,1942,France,51.6,102.5,62.5,130,295,SBD,Single-ply
 4,F,Masters 1,52,Pat Reeves,1945,UK,43,85,40,120,245,SBD,Single-ply
 5,F,Masters 1,52,Enid Dixon,1943,UK,46.6,77.5,40,107.5,225,SBD,Single-ply
 DQ,F,Masters 1,52,Anita Thimm,1950,Germany,50.5,120,,,,SBD,Single-ply
 DQ,F,Masters 1,52,Edirt Lalanne,1950,France,51.3,107.5,,,,SBD,Single-ply
-1,F,Masters 1,60,Alie v.d. Keulen,1951,Netherlands,60,140,75,160,375,SBD,Single-ply
+1,F,Masters 1,60,Aly van der Keulen,1951,Netherlands,60,140,75,160,375,SBD,Single-ply
 2,F,Masters 1,56,Tatyana Atlashkina,1944,Russia,54.6,125,60,140,325,SBD,Single-ply
 3,F,Masters 1,56,Irmeli Vaulakorpi,1954,Finland,55.5,120,70,130,320,SBD,Single-ply
 4,F,Masters 1,60,Agnes Oursel,1953,France,58.1,130,57.5,140,327.5,SBD,Single-ply
@@ -66,7 +66,7 @@ DQ,M,Masters 1,67.5,John Hibbert,1946,UK,66.5,,,,,SBD,Single-ply
 16,M,Masters 1,75,Yashiyuk Hiramine,1953,Japan,73.9,200,127.5,215,542.5,SBD,Single-ply
 17,M,Masters 1,75,Jagdish Pangrej,1954,India,73.1,195,135,200,530,SBD,Single-ply
 18,M,Masters 1,75,Ernst Güntert,1948,Germany,74.6,190,97.5,230,517.5,SBD,Single-ply
-DQ,M,Masters 1,75,Harry van der Brandt,1946,Netherlands,74.6,247.5,150,,,SBD,Single-ply
+DQ,M,Masters 1,75,Harrie van den Brand,1946,Netherlands,74.6,247.5,150,,,SBD,Single-ply
 1,M,Masters 1,82.5,Valery Glazunov,1948,Russia,81.1,280,185,240,705,SBD,Single-ply
 2,M,Masters 1,82.5,Alexander Nemchinov,1951,Russia,81.9,250,160,280,690,SBD,Single-ply
 3,M,Masters 1,82.5,Pietro Andreatta,1950,Italy,82.5,275,147.5,267.5,690,SBD,Single-ply

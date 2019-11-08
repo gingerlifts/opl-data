@@ -11,8 +11,8 @@ Edward Pouch II,100,Open,Yes,M,B,,192.78,,192.78,Multi-ply,4
 Doug Harvel,100,Open,Yes,M,B,,176.9,,176.9,Multi-ply,5
 Ron Walsh,110,Open,Yes,M,B,,249.48,,249.48,Multi-ply,3
 DeAugustino,110,Open,Yes,M,B,,215.46,,215.46,Multi-ply,4
-K. Naslund,110,Open,Yes,M,B,,213.19,,213.19,Multi-ply,5
-M. Coulter,110,Open,Yes,M,B,,213.19,,213.19,Multi-ply,6
+Keith Naslund,110,Open,Yes,M,B,,213.19,,213.19,Multi-ply,5
+Marcus Coulter,110,Open,Yes,M,B,,213.19,,213.19,Multi-ply,6
 M. McAboy,110,Open,Yes,M,B,,210.92,,210.92,Multi-ply,7
 Bob Calhoun,110,Open,Yes,M,B,,208.65,,208.65,Multi-ply,8
 Harry Bowlby,110,Open,Yes,M,B,,195.04,,195.04,Multi-ply,9
@@ -65,7 +65,7 @@ Peter Dauncey,110,Open,No,M,B,,274.42,,274.42,Multi-ply,1
 Chris Taylor,110,Open,No,M,B,,263.08,,263.08,Multi-ply,2
 Marvin Teter,125,Open,No,M,B,,240.4,,240.4,Multi-ply,1
 Bill Dougherty,125,Open,No,M,B,,235.87,,235.87,Multi-ply,2
-Jamie Harris,140+,Open,No,M,B,,326.59,,326.59,Multi-ply,1
+Jamie Harris #1,140+,Open,No,M,B,,326.59,,326.59,Multi-ply,1
 Ashley Boyce,60,Open,No,F,B,,115.67,,115.67,Multi-ply,1
 Jolynn Arvin,90+,Open,No,F,B,,161.03,,161.03,Multi-ply,1
 Carl West,75,Submasters,No,M,B,,172.37,,172.37,Multi-ply,1
@@ -99,7 +99,7 @@ Robert Walter,90,Open,Yes,M,SBD,265.35,151.95,265.35,682.66,Multi-ply,7
 Russ McDonnell,100,Open,Yes,M,SBD,328.85,213.19,285.76,827.81,Multi-ply,3
 Jason Cox,100,Open,Yes,M,SBD,294.84,204.12,249.48,748.43,Multi-ply,6
 Mark Cline,100,Open,Yes,M,SBD,276.69,149.69,299.37,725.75,Multi-ply,8
-Anthony Powell,100,Open,Yes,M,SBD,238.14,161.03,272.16,671.32,Multi-ply,10
+Anthony Powell #1,100,Open,Yes,M,SBD,238.14,161.03,272.16,671.32,Multi-ply,10
 TJ Vanella,100,Open,Yes,M,SBD,215.46,154.22,210.92,580.6,Multi-ply,11
 Michael Kenney,100,Open,Yes,M,SBD,199.58,127.01,208.65,535.24,Multi-ply,12
 Ron Walsh,110,Open,Yes,M,SBD,326.59,249.48,274.42,850.49,Multi-ply,4
@@ -117,7 +117,7 @@ Sean Costello,125,Open,Yes,M,SBD,263.08,185.97,254.01,703.07,Multi-ply,11
 Bill Pizzino,125,Open,Yes,M,SBD,249.48,165.56,249.48,664.51,Multi-ply,12
 Tim Quinn,125,Open,Yes,M,SBD,215.46,161.03,238.14,614.62,Multi-ply,13
 Mark Krug,140,Open,Yes,M,SBD,331.12,181.44,274.42,786.98,Multi-ply,4
-Jim Yaws,140,Open,Yes,M,SBD,328.85,170.1,272.16,771.11,Multi-ply,5
+Jim Yates,140,Open,Yes,M,SBD,328.85,170.1,272.16,771.11,Multi-ply,5
 David Oyler,140+,Open,Yes,M,SBD,322.05,183.7,299.37,805.13,Multi-ply,4
 Robert Edwards,140+,Open,Yes,M,SBD,226.8,104.33,204.12,535.24,Multi-ply,5
 Maria Bott,48,Open,Yes,F,SBD,122.47,58.97,111.13,292.57,Multi-ply,1
@@ -146,7 +146,7 @@ Mark Keshishian,100,Submasters,Yes,M,SBD,310.71,181.44,256.28,748.43,Multi-ply,2
 John Antigani,100,Submasters,Yes,M,SBD,285.76,161.03,249.48,696.26,Multi-ply,3
 Walter Welcheck,100,Submasters,Yes,M,SBD,226.8,158.76,249.48,635.03,Multi-ply,4
 Larry Gray,110,Submasters,Yes,M,SBD,310.71,163.29,294.84,768.84,Multi-ply,4
-G. Bartholomew,110,Submasters,Yes,M,SBD,258.55,149.69,294.84,703.07,Multi-ply,5
+Graham Bartholomew,110,Submasters,Yes,M,SBD,258.55,149.69,294.84,703.07,Multi-ply,5
 Bruce Lanthiew,110,Submasters,Yes,M,SBD,265.35,147.42,265.35,678.12,Multi-ply,6
 Doug Amdt,110,Submasters,Yes,M,SBD,242.67,131.54,272.16,646.37,Multi-ply,7
 R. Safreed Jr,125,Submasters,Yes,M,SBD,322.05,201.85,260.82,784.71,Multi-ply,2
@@ -181,7 +181,7 @@ Rickey Dale Crain,75,Open,No,M,SBD,362.87,195.04,299.37,857.29,Multi-ply,1
 John Wood,75,Open,No,M,SBD,294.84,181.44,272.16,748.43,Multi-ply,2
 Tom Lavelle,75,Open,No,M,SBD,288.03,190.51,226.8,705.34,Multi-ply,3
 Al Bemardo,75,Open,No,M,SBD,201.85,124.74,226.8,553.38,Multi-ply,8
-Mike Bamo,82.5,Open,No,M,SBD,317.51,192.78,294.84,805.13,Multi-ply,1
+Mike Barno,82.5,Open,No,M,SBD,317.51,192.78,294.84,805.13,Multi-ply,1
 Bill Courtney,82.5,Open,No,M,SBD,256.28,231.33,226.8,714.41,Multi-ply,2
 George Varre,82.5,Open,No,M,SBD,251.74,131.54,251.74,635.03,Multi-ply,5
 Steven Koch,82.5,Open,No,M,SBD,183.7,117.93,204.12,505.76,Multi-ply,9
@@ -219,7 +219,7 @@ Elaine Kunkel,48,Open,No,F,SBD,113.4,52.16,127.01,292.57,Multi-ply,2
 Jacqueline Davis,52,Open,No,F,SBD,156.49,81.65,174.63,412.77,Multi-ply,1
 Jenny Burkey,56,Open,No,F,SBD,145.15,70.31,136.08,351.53,Multi-ply,2
 Ashley Boyce,60,Open,No,F,SBD,192.78,115.67,179.17,487.61,Multi-ply,1
-M. Diamond,60,Open,No,F,SBD,163.29,92.99,181.44,437.72,Multi-ply,2
+Melanie Diamond,60,Open,No,F,SBD,163.29,92.99,181.44,437.72,Multi-ply,2
 Jodi Rhoads,60,Open,No,F,SBD,172.37,97.52,140.61,410.5,Multi-ply,3
 Tracy Smith,67.5,Open,No,F,SBD,158.76,99.79,190.51,449.06,Multi-ply,1
 Anita Kellogg,67.5,Open,No,F,SBD,158.76,83.91,195.04,437.72,Multi-ply,2

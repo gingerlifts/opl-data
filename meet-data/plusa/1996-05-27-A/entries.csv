@@ -103,7 +103,7 @@ P. Edwards,90,Juniors,M,155,80,185,420,SBD,Single-ply,2
 C. Fugate,90,Juniors,M,140,105,142.5,387.5,SBD,Single-ply,3
 B. Scott,90,Masters 1,M,195,112.5,210,517.5,SBD,Single-ply,1
 J. Ites,90,Masters 2,M,160,145,210,515,SBD,Single-ply,1
-J. Atkinson,90,Masters 3,M,245,177.5,257.5,680,SBD,Single-ply,1
+John Atkinson,90,Masters 3,M,245,177.5,257.5,680,SBD,Single-ply,1
 E. Rodriguez,90,Masters 3,M,227.5,147.5,227.5,602.5,SBD,Single-ply,2
 D. Anthony,90,Masters 3,M,192.5,100,212.5,505,SBD,Single-ply,3
 S. Westrich,90,Masters 3,M,160,115,192.5,467.5,SBD,Single-ply,4
@@ -131,7 +131,7 @@ T. Marks,90,Submasters 2,M,235,147.5,227.5,610,SBD,Single-ply,2
 G. Schuster,90,Submasters 2,M,197.5,,,,SBD,Single-ply,DQ
 Greg Titus,90,Open,M,,202.5,,202.5,B,Single-ply,1
 D. Woosley,90,Open,M,,190,,190,B,Single-ply,2
-J. Atkinson,90,Open,M,,177.5,,177.5,B,Single-ply,3
+John Atkinson,90,Open,M,,177.5,,177.5,B,Single-ply,3
 B. Carey,90,Open,M,,165,,165,B,Single-ply,4
 R. Day,90,Open,M,,160,,160,B,Single-ply,5
 E. Rodriguez,90,Open,M,,147.5,,147.5,B,Single-ply,6
@@ -157,14 +157,14 @@ P. Jackson,100,Pure Novice,M,257.5,165,290,712.5,SBD,Single-ply,3
 M. Skates,100,Pure Novice,M,282.5,165,260,707.5,SBD,Single-ply,4
 M. Zimmer,100,Pure Novice,M,267.5,,,,SBD,Single-ply,DQ
 A. Barnes,100,Submasters 1,M,272.5,187.5,247.5,707.5,SBD,Single-ply,1
-D. McCarthy,100,Submasters 1,M,262.5,172.5,267.5,702.5,SBD,Single-ply,2
-R. Heldman,100,Submasters 1,M,275,165,235,675,SBD,Single-ply,3
+David McCarthy,100,Submasters 1,M,262.5,172.5,267.5,702.5,SBD,Single-ply,2
+Roger Heldman,100,Submasters 1,M,275,165,235,675,SBD,Single-ply,3
 L. Washington,100,Submasters 2,M,287.5,175,295,757.5,SBD,Single-ply,1
 Bob Boyles,100,Submasters 2,M,287.5,162.5,265,715,SBD,Single-ply,2
 Ron Carter,100,Submasters 2,M,257.5,167.5,272.5,697.5,SBD,Single-ply,3
 E. Payne,100,Submasters 2,M,235,160,250,645,SBD,Single-ply,4
 E. McDonald,100,Submasters 2,M,212.5,145,182.5,540,SBD,Single-ply,5
-D. McCarthy,100,Open,M,,172.5,,172.5,B,Single-ply,1
+David McCarthy,100,Open,M,,172.5,,172.5,B,Single-ply,1
 Ron Carter,100,Open,M,,167.5,,167.5,B,Single-ply,2
 J. Bruce,110,Juniors,M,220,165,212.5,597.5,SBD,Single-ply,1
 M. Zuber,110,Juniors,M,235,147.5,215,597.5,SBD,Single-ply,2
@@ -174,7 +174,7 @@ Jim Duree,110,Masters 2,M,272.5,132.5,237.5,642.5,SBD,Single-ply,2
 T. Tinsman,110,Masters 3,M,225,182.5,275,682.5,SBD,Single-ply,1
 G. Barnett,110,Masters 3,M,242.5,152.5,242.5,637.5,SBD,Single-ply,2
 M. Slaughter,110,Masters 3,M,107.5,107.5,137.5,352.5,SBD,Single-ply,3
-D. Gonzalez,110,Natural,M,337.5,215,287.5,840,SBD,Single-ply,1
+Dave Gonzales,110,Natural,M,337.5,215,287.5,840,SBD,Single-ply,1
 R. Falcioni,110,Natural,M,292.5,182.5,282.5,757.5,SBD,Single-ply,2
 J. Dentice,110,Natural,M,252.5,185,270,707.5,SBD,Single-ply,3
 B. Youngs,110,Natural,M,267.5,180,250,697.5,SBD,Single-ply,4
@@ -185,11 +185,11 @@ J. Bruce,110,Pure,M,227.5,165,212.5,605,SBD,Single-ply,3
 J. Bruce,110,Pure Novice,M,227.5,165,212.5,605,SBD,Single-ply,1
 T. Severino,110,Pure Novice,M,207.5,170,227.5,605,SBD,Single-ply,2
 V. Currie,110,Pure Novice,M,,,,,SBD,Single-ply,DQ
-D. Gonzalez,110,Submasters 1,M,337.5,215,287.5,840,SBD,Single-ply,1
+Dave Gonzales,110,Submasters 1,M,337.5,215,287.5,840,SBD,Single-ply,1
 R. Falcioni,110,Submasters 2,M,292.5,182.5,282.5,757.5,SBD,Single-ply,1
 Paris Mason,110,Submasters 2,M,272.5,182.5,272.5,727.5,SBD,Single-ply,2
 J. Dentice,110,Submasters 2,M,252.5,185,270,707.5,SBD,Single-ply,3
-D. Gonzalez,110,Open,M,,215,,215,B,Single-ply,1
+Dave Gonzales,110,Open,M,,215,,215,B,Single-ply,1
 T. Severino,110,Open,M,,170,,170,B,Single-ply,2
 Jim Duree,110,Open,M,,132.5,,132.5,B,Single-ply,3
 R. Hall,125,High School Pure,M,215,120,227.5,562.5,SBD,Single-ply,1
@@ -199,7 +199,7 @@ M. Sheffler,125,Intermediate,M,265,157.5,272.5,695,SBD,Single-ply,2
 R. Williams,125,Intermediate,M,250,200,237.5,687.5,SBD,Single-ply,3
 C. Knowles,125,Juniors,M,230,187.5,255,672.5,SBD,Single-ply,1
 M. Farney,125,Masters 1,M,260,192.5,250,702.5,SBD,Single-ply,1
-J. Seager,125,Masters 1,M,320,152.5,227.5,700,SBD,Single-ply,2
+Joe Seager,125,Masters 1,M,320,152.5,227.5,700,SBD,Single-ply,2
 D. McAlester,125,Masters 1,M,205,158.5,232.5,596,SBD,Single-ply,3
 B. Sawyer,125,Masters 2,M,242.5,137.5,227.5,607.5,SBD,Single-ply,1
 P. Tewksbury,125,Natural,M,315,210,320,845,SBD,Single-ply,1
@@ -243,10 +243,10 @@ T. Wright,140+,Intermediate,M,267.5,162.5,232.5,662.5,SBD,Single-ply,1
 J. McGee,140+,Masters 1,M,337.5,195,265,797.5,SBD,Single-ply,1
 Steve Brodsky,140+,Natural,M,365,245,300,910,SBD,Single-ply,1
 J. McGee,140+,Natural,M,337.5,195,265,797.5,SBD,Single-ply,2
-D. Oyler,140+,Natural,M,295,165,287.5,747.5,SBD,Single-ply,3
-D. Oyler,140+,Pure,M,295,165,287.5,747.5,SBD,Single-ply,1
+David Oyler,140+,Natural,M,295,165,287.5,747.5,SBD,Single-ply,3
+David Oyler,140+,Pure,M,295,165,287.5,747.5,SBD,Single-ply,1
 T. Wright,140+,Pure Novice,M,267.5,162.5,232.5,662.5,SBD,Single-ply,1
-D. Oyler,140+,Submasters 1,M,295,165,287.5,747.5,SBD,Single-ply,1
+David Oyler,140+,Submasters 1,M,295,165,287.5,747.5,SBD,Single-ply,1
 B. Bowman,140+,Submasters 1,M,250,182.5,272.5,705,SBD,Single-ply,2
 M. Mitchell,140+,Submasters 2,M,300,187.5,260,747.5,SBD,Single-ply,1
 M. Payne,82.5,Masters 1,F,110,,,,SBD,Single-ply,DQ

@@ -1,6 +1,6 @@
 Name,BirthYear,WeightClassKg,BodyweightKg,Country,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Sex,Event,Equipment,Division,Place
 Kari Ojalehto,,52,51.8,Finland,180,110,180,,470,M,SBD,Single-ply,Open,1
-Tom Dassen,,52,51.6,Netherlands,160,87.5,192.5,,440,M,SBD,Single-ply,Open,2
+Ton Dassen,,52,51.6,Netherlands,160,87.5,192.5,,440,M,SBD,Single-ply,Open,2
 Josef Fenzl,,52,51.6,Austria,140,70,160,,,M,SBD,Single-ply,Open,DD
 Phil Stringer,,56,55.8,UK,205,132.5,190,,527.5,M,SBD,Single-ply,Open,1
 Yussi Haatanen,,56,55.9,Finland,180,115,210,,505,M,SBD,Single-ply,Open,2
@@ -14,7 +14,7 @@ Gerard Tromp,1959,60,59.8,Netherlands,225,132.5,200,,557.5,M,SBD,Single-ply,Open
 Paul Wermuth,,60,58.8,Switzerland,195,110,210,,515,M,SBD,Single-ply,Open,6
 S Valler,,60,58.9,Italy,,,,,,M,SBD,Single-ply,Open,DQ
 Kári Elíson,1953,67.5,67.4,Iceland,247.5,182.5,280,,710,M,SBD,Single-ply,Open,1
-Harry van der Brandt,1948,67.5,67.5,Netherlands,255,155,270,,680,M,SBD,Single-ply,Open,2
+Harrie van den Brand,1948,67.5,67.5,Netherlands,255,155,270,,680,M,SBD,Single-ply,Open,2
 Eddy Pengelly,1949,67.5,67.3,UK,250,150,272.5,,672.5,M,SBD,Single-ply,Open,3
 Wilfried Dörner,1952,67.5,67.2,Germany,250,165,250,,665,M,SBD,Single-ply,Open,4
 Jan Theys,,67.5,66.7,Belgium,252.5,145,255,,652.5,M,SBD,Single-ply,Open,5
@@ -33,7 +33,7 @@ Norman Martina,,75,74.8,Netherlands,,,,,,M,SBD,Single-ply,Open,DQ
 G Garette,,75,74.4,France,195,147.5,220,,,M,SBD,Single-ply,Open,DD
 Claudio Ardini,1953,82.5,82.5,Italy,290,200,317.5,,807.5,M,SBD,Single-ply,Open,1
 Jarmo Virtanen,1963,82.5,82.4,Finland,300,180,305,,785,M,SBD,Single-ply,Open,2
-Meike Duffy,,82.5,82.2,UK,295,192.5,290,,777.5,M,SBD,Single-ply,Open,3
+Mike Duffy,,82.5,82.2,UK,295,192.5,290,,777.5,M,SBD,Single-ply,Open,3
 Kjell Johansen,,82.5,82.1,Norway,270,185,307.5,,762.5,M,SBD,Single-ply,Open,4
 Janus Schneider,1951,82.5,82.4,Netherlands,280,202.5,265,,747.5,M,SBD,Single-ply,Open,5
 John Berkhuizen,,82.5,82.2,Netherlands,270,150,275,,695,M,SBD,Single-ply,Open,6
@@ -47,8 +47,8 @@ Floreano Domenici,1952,90,89.8,Italy,300,200,305,,805,M,SBD,Single-ply,Open,2
 Sulo Kierivaara,1943,90,89.7,Finland,300,192.5,307.5,,800,M,SBD,Single-ply,Open,3
 Christian Buchs,,90,88.9,France,320,195,260,,775,M,SBD,Single-ply,Open,4
 Atle Edvardsen,1951,90,89.3,Norway,295,175,292.5,,762.5,M,SBD,Single-ply,Open,5
-Arnold von Söhsten,,90,89.4,Netherlands,300,175,285,,760,M,SBD,Single-ply,Open,6
-Miecis Szafranski,,90,89.5,Germany,290,185,280,,755,M,SBD,Single-ply,Open,7
+Arnold van Söhsten,,90,89.4,Netherlands,300,175,285,,760,M,SBD,Single-ply,Open,6
+Miecyslaw Szafranski,,90,89.5,Germany,290,185,280,,755,M,SBD,Single-ply,Open,7
 Paul Neiser,,90,89.6,Luxembourg,265,182.5,290,,737.5,M,SBD,Single-ply,Open,8
 P Liechti,,90,88.9,Sweden,270,155,250,,675,M,SBD,Single-ply,Open,9
 Karl Holzinger,,90,89.3,Austria,260,160,230,,650,M,SBD,Single-ply,Open,10
@@ -61,18 +61,18 @@ Rob Henderson,,100,98.8,Netherlands,300,172.5,310,,782.5,M,SBD,Single-ply,Open,4
 Michel Wiegmann,,100,98.4,Netherlands,307.5,165,300,,772.5,M,SBD,Single-ply,Open,5
 Moreno Ceccarelli,,100,98.8,Italy,285,185,295,,765,M,SBD,Single-ply,Open,6
 Leopold Krendl,1957,100,99.9,Austria,290,152.5,300,,742.5,M,SBD,Single-ply,Open,7
-Klaut Fink,,100,98.7,Germany,280,185,265,,730,M,SBD,Single-ply,Open,8
+Klaus Fink,,100,98.7,Germany,280,185,265,,730,M,SBD,Single-ply,Open,8
 Anders T. Solheim,1950,100,98.4,Norway,290,150,285,,725,M,SBD,Single-ply,Open,9
 Helge Laursen,1949,100,99.8,Denmark,270,177.5,275,,722.5,M,SBD,Single-ply,Open,10
 Hans Derynck,,100,99.7,Belgium,280,155,285,,720,M,SBD,Single-ply,Open,11
 Mark Savage,,110,109.9,UK,340,195,365,,900,M,SBD,Single-ply,Open,1
-Ray Nobile,,110,109.7,UK,320,215,325,,860,M,SBD,Single-ply,Open,2
+Raymond Nobile,,110,109.7,UK,320,215,325,,860,M,SBD,Single-ply,Open,2
 Kyösti Vilmi,1960,110,109.9,Finland,330,210,290,,830,M,SBD,Single-ply,Open,3
 Conny De Blois,,110,108.9,Germany,300,195,305,,800,M,SBD,Single-ply,Open,4
 Søren Oldenborg,1955,110,109.4,Denmark,280,200,300,,780,M,SBD,Single-ply,Open,5
 Jan Kværnstuen,,110,109.5,Norway,220,192.5,150,,562.5,M,SBD,Single-ply,Open,6
 Ruppert Mörth,1951,110,109.9,Austria,270,150,,,,M,SBD,Single-ply,Open,DQ
-Nevenpää A,,125,124.3,Finland,345,222.5,325,,892.5,M,SBD,Single-ply,Open,1
+Ari Nevenpää,,125,124.3,Finland,345,222.5,325,,892.5,M,SBD,Single-ply,Open,1
 Herrmann Blank,1936,125,123.3,Germany,340,200,340,,880,M,SBD,Single-ply,Open,2
 Michael Brügger,1961,125,118.7,Germany,310,215,330,,855,M,SBD,Single-ply,Open,3
 Arthur White,,125,123.8,UK,320,185,350,,855,M,SBD,Single-ply,Open,4

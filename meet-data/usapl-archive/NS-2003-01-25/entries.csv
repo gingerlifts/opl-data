@@ -17,7 +17,7 @@ WeightClassKg,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Division,Ev
 60,Bettina Altizer,187.5,127.5,167.5,482.5,F-O,SBD,Single-ply,F,1
 60,Jennifer Thompson #1,145,132.5,170,447.5,F-O,SBD,Single-ply,F,2
 60,Stacy Urso,165,87.5,185,437.5,F-O,SBD,Single-ply,F,3
-60,Jennifer Rey,165,105.5,162.5,433,F-O,SBD,Single-ply,F,4
+60,Jennifer Rey-Gaudreau,165,105.5,162.5,433,F-O,SBD,Single-ply,F,4
 60,Jill Darling,150,115,140,405,F-O,SBD,Single-ply,F,5
 60,Veronica Aguila,147.5,87.5,147.5,382.5,F-O,SBD,Single-ply,F,6
 60,Jessica Kratz,122.5,72.5,137.5,332.5,F-O,SBD,Single-ply,F,7
@@ -54,7 +54,7 @@ WeightClassKg,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Division,Ev
 60,Kala McCauley,142.5,62.5,155,360,F-T1,SBD,Single-ply,F,1
 67.5,Molly Dennany,147.5,85,155,387.5,F-T1,SBD,Single-ply,F,1
 52,Carly Nogle,145,75,160.5,380.5,F-T2,SBD,Single-ply,F,1
-52,Jennifer Ray #1,107.5,65,125,297.5,F-T2,SBD,Single-ply,F,2
+52,Jennifer Ray,107.5,65,125,297.5,F-T2,SBD,Single-ply,F,2
 56,Andrea Motter,130,55,112.5,297.5,F-T2,SBD,Single-ply,F,1
 56,Jessica Stewart,97.5,50,107.5,255,F-T2,SBD,Single-ply,F,2
 60,Jan Marello,137.5,70,150,357.5,F-T2,SBD,Single-ply,F,1
@@ -112,7 +112,7 @@ WeightClassKg,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Division,Ev
 52,Deb Hairston,97.5,57.5,117.5,272.5,F-M1b,SBD,Single-ply,F,1
 52,Barb Zinsmaster,85,40,107.5,232.5,F-M1b,SBD,Single-ply,F,2
 56,Ellen Stein,145,77.5,175,397.5,F-M1b,SBD,Single-ply,F,1
-60,Kate D-Craig,137.5,80,150,367.5,F-M1b,SBD,Single-ply,F,1
+60,Kate Dingle-Craig,137.5,80,150,367.5,F-M1b,SBD,Single-ply,F,1
 60,Brenda Howard,105,62.5,110,277.5,F-M1b,SBD,Single-ply,F,2
 67.5,Ruth Welding,147.5,82.5,160,390,F-M1b,SBD,Single-ply,F,1
 67.5,Sasha Meshkov,140,67.5,152.5,360,F-M1b,SBD,Single-ply,F,2
@@ -135,6 +135,6 @@ WeightClassKg,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Division,Ev
 60,Georgia Johnson,37.5,35,55,127.5,F-M3b,SBD,Single-ply,F,1
 56,Elma Beck,65.5,32.5,88,186,F-M4a,SBD,Single-ply,F,1
 52,Heather Hampson,135,75,162.5,372.5,F-G,SBD,Single-ply,F,G
-67.5,Marian Gibson,177.5,117.5,192.5,487.5,F-G,SBD,Single-ply,F,G
+67.5,Marian Gibson #1,177.5,117.5,192.5,487.5,F-G,SBD,Single-ply,F,G
 82.5,Jean Maton,165,105.2,180,450.2,F-G,SBD,Single-ply,F,G
 90,Jennifer Busby,180,105,175,460,F-G,SBD,Single-ply,F,G

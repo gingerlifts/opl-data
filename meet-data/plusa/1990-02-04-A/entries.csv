@@ -21,8 +21,8 @@ Place,Name,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg
 1,Laura Dodd,USA,,205,220,232.5,232.5,95,102.5,-110,102.5,187.5,205,,205,,540,75,F,SBD,Single-ply
 2,Mendy Smith,UK,,155,165,175,175,90,97.5,100,100,180,192.5,-202.5,192.5,,467.5,75,F,SBD,Single-ply
 1,Sharon Powell,USA,,210,-227.5,-227.5,210,117.5,125,127.5,127.5,205,215,-222.5,215,,552.5,82.5,F,SBD,Single-ply
-2,Jacki Dula,USA,,-165,165,170,170,77.5,-82.5,82.5,82.5,160,172.5,-177.5,172.5,,425,82.5,F,SBD,Single-ply
-3,Helen Williams,UK,,162.5,172.5,-177.5,172.5,82.5,-192,-192,82.5,150,162.5,-167.5,162.5,,417.5,82.5,F,SBD,Single-ply
+2,Jackie Dula,USA,,-165,165,170,170,77.5,-82.5,82.5,82.5,160,172.5,-177.5,172.5,,425,82.5,F,SBD,Single-ply
+3,Helen Williams #1,UK,,162.5,172.5,-177.5,172.5,82.5,-192,-192,82.5,150,162.5,-167.5,162.5,,417.5,82.5,F,SBD,Single-ply
 1,Maris Sternberg,USA,,197.5,-207.5,207.5,207.5,95,110,-112.5,110,192.5,205,210,210,,527.5,90,F,SBD,Single-ply
 2,Peggy Conley,Canada,,177.5,182.5,192.5,192.5,75,80,-85,80,155,-167.5,-167.5,155,,427.5,90,F,SBD,Single-ply
 1,Dawn Reshel-Sharon,USA,90.6,200,220,237.5,237.5,122.5,130,-132.5,130,222.5,242.5,257.5,257.5,,625,90+,F,SBD,Single-ply
@@ -64,7 +64,7 @@ Place,Name,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg
 8,Schvilla,Israel,,-220,220,-235,220,135,-140,-140,135,220,240,-250,240,,595,90,M,SBD,Single-ply
 1,Gary Drigo,USA,,365,382.5,392.5,392.5,237.5,250,257.5,257.5,317.5,330,-337.5,330,,980,100,M,SBD,Single-ply
 2,Curtis Lesley,USA,,-365,365,377.5,377.5,220,230,-235,230,320,-335,-340,320,,927.5,100,M,SBD,Single-ply
-3,William West,UK,,340,360,-370,360,182.5,192.5,197.5,197.5,330,-345,-345,330,,887.5,100,M,SBD,Single-ply
+3,Bill West #1,UK,,340,360,-370,360,182.5,192.5,197.5,197.5,330,-345,-345,330,,887.5,100,M,SBD,Single-ply
 4,Cedric Saffy,South Africa,,270,285,295,295,-200,-200,200,200,310,330,-340,330,,825,100,M,SBD,Single-ply
 5,Stefanson,Iceland,,250,267.5,-272.5,267.5,165,175,182.5,182.5,230,-240,-240,230,,680,100,M,SBD,Single-ply
 6,Doug Williams,UK,,-265,270,-275,270,130,137.5,-140,137.5,240,250,-257.5,250,,657.5,100,M,SBD,Single-ply
@@ -73,7 +73,7 @@ DQ,Brian Smith,UK,,-235,-235,-242.5,,,,,,,,,,,,100,M,SBD,Single-ply
 DQ,Goppel,Belgium,,-190,-190,-190,,,,,,,,,,,,100,M,SBD,Single-ply
 DQ,Arthur Croone,USA,,-300,-300,-300,,,,,,,,,,,,100,M,SBD,Single-ply
 1,Scott Warman,USA,,-362.5,-362.5,365,365,210,222.5,230,230,362.5,372.5,-382.5,372.5,,967.5,110,M,SBD,Single-ply
-2,Eugene Van De Merwe,South Africa,,370,-395,395,395,195,205,212.5,212.5,300,312.5,332.5,332.5,,940,110,M,SBD,Single-ply
+2,Eugene van der Merwe,South Africa,,370,-395,395,395,195,205,212.5,212.5,300,312.5,332.5,332.5,,940,110,M,SBD,Single-ply
 3,Jim Bornhop,USA,,360,-380,-380,360,225,230,235,235,335,345,-347.5,345,,940,110,M,SBD,Single-ply
 4,Dan Helgenberger,USA,,332.5,-350,350,350,210,222.5,227.5,227.5,317.5,330,-332.5,330,,907.5,110,M,SBD,Single-ply
 5,Bray #2,UK,,275,285,290,290,190,210,-215,210,300,310,320,320,,820,110,M,SBD,Single-ply

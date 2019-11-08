@@ -8,7 +8,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 2,M,Jerry Alaniz,SBD,M-T3,66,Single-ply,64.4,250,172.5,230,652.5,1995
 3,M,Kenny Nguyen,SBD,M-T3,66,Single-ply,64.1,205,200.5,200,605.5,1995
 4,M,Colby Knapp,SBD,M-T3,66,Single-ply,65.4,242.5,137.5,215,595,1994
-5,M,Sawyer Yarnell,SBD,M-T3,66,Single-ply,65,235,125,232.5,592.5,
+5,M,Sawyer Yandell,SBD,M-T3,66,Single-ply,65,235,125,232.5,592.5,
 6,M,Henry Hsu,SBD,M-T3,66,Single-ply,65.7,192.5,130,192.5,515,1994
 7,M,Tristan Ruiz,SBD,M-T3,66,Single-ply,65.7,180,115,195,490,
 8,M,Vincent E. Moon,SBD,M-T3,66,Single-ply,63.5,165,140,180,485,
@@ -32,7 +32,7 @@ DQ,M,James Windham,SBD,M-T3,66,Single-ply,65.2,,,,,1994
 4,M,Jordan Michael Figlioli,SBD,M-T3,83,Single-ply,82.2,190,140,220,550,
 5,M,Austin M. Stephen,SB,M-T3,83,Single-ply,81.4,272.5,155,,427.5,
 1,M,James Rigsby,SBD,M-T3,93,Single-ply,89.4,302.5,200,275,777.5,1995
-1,M,Michael Davis,SBD,M-T3,93,Single-ply,91.8,287.5,165,285,737.5,1995
+1,M,Michael Davis #1,SBD,M-T3,93,Single-ply,91.8,287.5,165,285,737.5,1995
 2,M,Jacob Weiss,SBD,M-T3,93,Single-ply,92.6,260,170,247.5,677.5,1995
 3,M,James Guillory,SBD,M-T3,93,Single-ply,91.9,242.5,220,200,662.5,1994
 3,M,Bryson Randall,SBD,M-T3,93,Single-ply,89.1,250,145,255,650,1994
@@ -188,7 +188,7 @@ DQ,M,Brandon Graham,SBD,M-Jr,120,Single-ply,119.7,,,,,1991
 1,M,Stephen King,SBD,M-Jr,120+,Single-ply,143.4,370,272.5,292.5,935,1992
 2,M,Scott Dobbins,SBD,M-Jr,120+,Single-ply,123,350,252.5,305,907.5,1992
 2,M,Timothy Johnson,SBD,M-Jr,120+,Single-ply,126.4,342.5,230,312.5,885,1993
-3,M,Ryan Carrillo,SBD,M-Jr,120+,Single-ply,157.5,310,300,270,880,1991
+3,M,Ryan Carrillo #1,SBD,M-Jr,120+,Single-ply,157.5,310,300,270,880,1991
 4,M,John Caruso,SBD,M-Jr,120+,Single-ply,128.9,330,250,282.5,862.5,1993
 5,M,Joseph Sharp,SBD,M-Jr,120+,Single-ply,147.3,305,250,260,815,1990
 6,M,Brad Newhard,SBD,M-Jr,120+,Single-ply,138.2,335,222.5,240,797.5,1991

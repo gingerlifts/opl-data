@@ -2,7 +2,7 @@ Name,WeightClassKg,Division,Sex,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Dead
 S. Perez,52,Novice,M,,127.01,83.91,136.08,347,SBD,Single-ply,1
 B. Vargas,56,Novice,M,,147.42,97.52,165.56,410.5,SBD,Single-ply,1
 C. Horman,56,Novice,M,,113.4,79.38,170.1,362.87,SBD,Single-ply,2
-C. Brunson,60,Novice,M,,158.76,127.01,183.71,469.47,SBD,Single-ply,1
+Chuck Brunson,60,Novice,M,,158.76,127.01,183.71,469.47,SBD,Single-ply,1
 D. Carlisle,60,Novice,M,,147.42,108.86,181.44,437.72,SBD,Single-ply,2
 J. Carter,67.5,Novice,M,,204.12,120.2,199.58,523.9,SBD,Single-ply,1
 R. Esposito,67.5,Novice,M,,181.44,122.47,204.12,508.02,SBD,Single-ply,2
@@ -49,20 +49,20 @@ J. Vause,110,Novice,M,,229.06,133.81,235.87,598.74,SBD,Single-ply,1
 B. Tinny,110,Novice,M,,204.12,151.95,215.46,571.53,SBD,Single-ply,2
 C. Robery,110,Novice,M,,195.04,127.01,249.48,571.53,SBD,Single-ply,3
 M. Hart,110,Novice,M,,272.16,136.08,,,SBD,Single-ply,DQ
-R. Irby,110,Novice,M,,,,,,SBD,Single-ply,DQ
+Rusty Irby,110,Novice,M,,,,,,SBD,Single-ply,DQ
 D. Claridy,125,Novice,M,,285.76,181.44,294.84,762.04,SBD,Single-ply,1
 R. Nolan,125,Novice,M,,199.58,151.95,217.72,569.26,SBD,Single-ply,2
 R. Silvers,125,Novice,M,,,,,,SBD,Single-ply,DQ
-C. Carver,125+,Novice,M,,294.84,183.71,249.48,728.02,SBD,Single-ply,1
-W. Wilson,60,Open,M,,195.04,147.42,201.85,544.31,SBD,Single-ply,1
+Carl Carver,125+,Novice,M,,294.84,183.71,249.48,728.02,SBD,Single-ply,1
+Willie Wilson,60,Open,M,,195.04,147.42,201.85,544.31,SBD,Single-ply,1
 R. Jordan,60,Open,M,,181.44,136.08,176.9,494.42,SBD,Single-ply,2
 Tony Conyers,67.5,Open,M,,247.21,172.37,265.35,684.93,SBD,Single-ply,1
 Sherman Johnson,67.5,Open,M,,199.58,145.15,226.8,571.53,SBD,Single-ply,2
 M. Maclean,67.5,Open,M,,215.46,136.08,215.46,566.99,SBD,Single-ply,3
-L. Soto,75,Open,M,,254.01,156.49,281.23,691.73,SBD,Single-ply,1
+Luis Soto #1,75,Open,M,,254.01,156.49,281.23,691.73,SBD,Single-ply,1
 Rick Weil,75,Open,M,,240.4,190.51,235.87,666.78,SBD,Single-ply,2
 B. Mitchel,75,Open,M,,199.58,122.47,244.94,566.99,SBD,Single-ply,3
-M. Brown,82.5,Open,M,,292.57,188.24,265.35,746.16,SBD,Single-ply,1
+Michael Brown,82.5,Open,M,,292.57,188.24,265.35,746.16,SBD,Single-ply,1
 Chip Hultquist,82.5,Open,M,,272.16,172.37,294.84,739.36,SBD,Single-ply,2
 J. Guillardo,82.5,Open,M,,242.67,181.44,254.01,678.12,SBD,Single-ply,3
 R. Miles,82.5,Open,M,,244.94,145.15,272.16,662.25,SBD,Single-ply,4
@@ -70,27 +70,27 @@ M. Barguera,82.5,Open,M,,249.48,161.03,226.8,637.3,SBD,Single-ply,5
 L. Harris,82.5,Open,M,,238.14,140.61,244.94,623.69,SBD,Single-ply,6
 C. Wright,82.5,Open,M,,226.8,122.47,263.08,612.35,SBD,Single-ply,7
 Dominick Castellano,90,Open,M,,290.3,158.76,281.23,730.28,SBD,Single-ply,1
-B. Chepren,90,Open,M,,263.08,145.15,278.96,687.19,SBD,Single-ply,2
-J. Seager,110,Open,M,,335.66,183.71,306.18,825.54,SBD,Single-ply,1
-D. Green,110,Open,M,,294.84,195.04,310.71,800.59,SBD,Single-ply,2
+Barry Chepren,90,Open,M,,263.08,145.15,278.96,687.19,SBD,Single-ply,2
+Joe Seager,110,Open,M,,335.66,183.71,306.18,825.54,SBD,Single-ply,1
+Dave Green,110,Open,M,,294.84,195.04,310.71,800.59,SBD,Single-ply,2
 Herc Roberts,110,Open,M,,294.84,179.17,272.16,746.16,SBD,Single-ply,3
 J. Hernandez,110,Open,M,,335.66,,,,SBD,Single-ply,DQ
-J. Boettner,125,Open,M,,308.44,210.92,292.57,811.93,SBD,Single-ply,1
+Jeff Boettner,125,Open,M,,308.44,210.92,292.57,811.93,SBD,Single-ply,1
 R. Walders,125,Open,M,,258.55,176.9,285.76,721.21,SBD,Single-ply,2
 K. Woodard,125+,Open,M,,319.78,195.04,290.3,805.13,SBD,Single-ply,1
-R. Pereda,,Masters,M,74.84,254.01,140.61,240.4,635.03,SBD,Single-ply,1
+Robert Pereda,,Masters,M,74.84,254.01,140.61,240.4,635.03,SBD,Single-ply,1
 T. Trevora,,Masters,M,80.74,231.33,140.61,235.87,607.81,SBD,Single-ply,3
 W. Roberts,,Masters,M,86.64,217.72,154.22,263.08,635.03,SBD,Single-ply,2
 L. Vargas,,Masters,M,88.45,195.04,142.88,195.04,532.97,SBD,Single-ply,5
-Underhill,,Masters,M,94.8,199.58,138.35,204.12,542.04,SBD,Single-ply,4
+W. Underhill,,Masters,M,94.8,199.58,138.35,204.12,542.04,SBD,Single-ply,4
 Bill Remley,,Masters,M,89.36,185.97,131.54,204.12,521.63,SBD,Single-ply,6
 J. Komrath,,Masters,M,73.48,102.06,102.06,142.88,347,SBD,Single-ply,7
 Debra Poston,,Open,F,67.13,185.97,104.33,185.97,476.27,SBD,Single-ply,1
-L. Smith,,Open,F,78.93,165.56,95.25,190.51,451.32,SBD,Single-ply,2
-K. Besuden,,Open,F,58.51,147.42,61.24,142.88,351.53,SBD,Single-ply,3
-T. Disano,,Open,F,51.71,106.59,65.77,131.54,303.91,SBD,Single-ply,5
-C. Fisher,,Open,F,51.71,113.4,54.43,133.81,301.64,SBD,Single-ply,7
-R. Brown #4,,Open,F,54.43,106.59,61.24,136.08,303.91,SBD,Single-ply,6
+Lou Ann Smith,,Open,F,78.93,165.56,95.25,190.51,451.32,SBD,Single-ply,2
+Kim Besuden,,Open,F,58.51,147.42,61.24,142.88,351.53,SBD,Single-ply,3
+Tina DiSalvo,,Open,F,51.71,106.59,65.77,131.54,303.91,SBD,Single-ply,5
+Carol Fisher,,Open,F,51.71,113.4,54.43,133.81,301.64,SBD,Single-ply,7
+Ruthie Brown,,Open,F,54.43,106.59,61.24,136.08,303.91,SBD,Single-ply,6
 Ellen Trevorah,,Open,F,72.12,136.08,52.16,138.35,326.59,SBD,Single-ply,4
-L. Sprague,,Open,F,63.96,92.99,43.09,106.59,242.67,SBD,Single-ply,9
+Lisa Sprague,,Open,F,63.96,92.99,43.09,106.59,242.67,SBD,Single-ply,9
 L. Roberts,,Open,F,66.22,77.11,38.56,131.54,247.21,SBD,Single-ply,8

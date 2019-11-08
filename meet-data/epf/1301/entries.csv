@@ -4,7 +4,7 @@ Place,Name,BirthYear,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatK
 2,Michel Ruffault,1964,France,73.62,215,225,227.5,227.5,115,125,130,130,245,257.5,262.5,262.5,620,74,Masters 1,SBD,M,Single-ply
 3,Viggo Torgersen,1964,Norway,73.09,212.5,220,225,225,152.5,157.5,160,160,217.5,227.5,232.5,232.5,617.5,74,Masters 1,SBD,M,Single-ply
 4,Udo Bauer,1965,Germany,73.15,205,212.5,217.5,217.5,115,117.5,120,120,252.5,260,265,265,602.5,74,Masters 1,SBD,M,Single-ply
-DQ,Andreas Poehls,1968,Germany,73.3,-215,-215,-215,,-185,185,-190,185,225,-235,-237.5,225,,74,Masters 1,SBD,M,Single-ply
+DQ,Andreas Pöhls,1968,Germany,73.3,-215,-215,-215,,-185,185,-190,185,225,-235,-237.5,225,,74,Masters 1,SBD,M,Single-ply
 1,David Decouleur,1972,France,82.3,-270,280,285,285,170,177.5,185,185,270,280,-290,280,750,83,Masters 1,SBD,M,Single-ply
 2,Bernhard Kotzot,1968,Germany,82.5,270,-280,-282.5,270,-175,180,187.5,187.5,242.5,252.5,257.5,257.5,715,83,Masters 1,SBD,M,Single-ply
 3,Pavol Slíž,1973,Slovakia,81.22,260,280,282.5,282.5,160,170,-172.5,170,260,-280,-280,260,712.5,83,Masters 1,SBD,M,Single-ply
@@ -46,7 +46,7 @@ DD,Richard Kobr,1969,Czechia,103.21,-250,-270,-290,,-280,-290,-300,,-240,-250,-2
 DQ,Jürgen Titz,1965,Germany,113.42,260,-275,-275,260,-180,-180,,,,,,,,120,Masters 1,SBD,M,Single-ply
 1,Geir Arne Giseth,1966,Norway,131.13,-300,300,320,320,230,-240,240,240,280,300,-315,300,860,120+,Masters 1,SBD,M,Single-ply
 2,Jaroslav Šoukal,1972,Czechia,150.01,285,-305,305,305,270,285,290,290,245,265,-280,265,860,120+,Masters 1,SBD,M,Single-ply
-3,Valentin Patru,1968,Belgium,132.78,315,-330,330,330,185,192.5,-197.5,192.5,270,285,287.5,287.5,810,120+,Masters 1,SBD,M,Single-ply
+3,Valentin Pătru,1968,Belgium,132.78,315,-330,330,330,185,192.5,-197.5,192.5,270,285,287.5,287.5,810,120+,Masters 1,SBD,M,Single-ply
 4,Wim Wamsteeker,1969,Netherlands,135.35,310,325,330,330,200,207.5,210,210,250,262.5,270,270,810,120+,Masters 1,SBD,M,Single-ply
 DQ,Richard Hocquard,1968,France,123.81,-300,-310,-310,,150,190,-200,190,240,255,-265,255,,120+,Masters 1,SBD,M,Single-ply
 DQ,Åge Berntsen,1973,Norway,145.12,300,320,-335,320,-210,-210,-210,,275,282.5,-287.5,282.5,,120+,Masters 1,SBD,M,Single-ply
@@ -104,7 +104,7 @@ DQ,Adalgiso Sicoli,1960,France,104.43,-310,-310,-310,,150,155,160,160,260,275,-2
 1,Milan Gombár,1948,Slovakia,61.84,-200,200,-212.5,200,120,-125,-125,120,205,-220,-220,205,525,66,Masters 3,SBD,M,Single-ply
 1,Noriano Coppari,1951,Italy,73.94,195,-210,-210,195,130,135,140,140,205,-217.5,217.5,217.5,552.5,74,Masters 3,SBD,M,Single-ply
 2,Claude Couturier,1952,France,72.93,195,-205,-205,195,135,-140,-140,135,195,205,217.5,217.5,547.5,74,Masters 3,SBD,M,Single-ply
-3,Stanley Macrow,1949,UK,69.13,160,170,175,175,122.5,127.5,130,130,182.5,192.5,197.5,197.5,502.5,74,Masters 3,SBD,M,Single-ply
+3,Stan Macrow,1949,UK,69.13,160,170,175,175,122.5,127.5,130,130,182.5,192.5,197.5,197.5,502.5,74,Masters 3,SBD,M,Single-ply
 4,Jacques Beauverger,1946,France,72.1,155,-162.5,-165,155,90,95,-97.5,95,182.5,190,200,200,450,74,Masters 3,SBD,M,Single-ply
 1,Janos Fabri,1945,Hungary,80.68,200,210,-215,210,130,-135,,130,240,260,,260,600,83,Masters 3,SBD,M,Single-ply
 2,Günter Lüdecke,1948,Germany,82.69,195,205,212.5,212.5,140,-142.5,-142.5,140,200,210,215,215,567.5,83,Masters 3,SBD,M,Single-ply

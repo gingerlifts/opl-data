@@ -2,8 +2,8 @@ Name,Age,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,To
 Valdiviez,,44,Open,F,105,55,120,280,SBD,Single-ply,1
 Gennero,,44,Open,F,92.5,55,122.5,270,SBD,Single-ply,2
 Davis,,48,Open,F,100,45,115,260,SBD,Single-ply,1
-Henry,,52,Open,F,130,77.5,160,367.5,SBD,Single-ply,2
-Stauffenberger,,52,Open,F,115,65,142.5,322.5,SBD,Single-ply,1
+Krystal Henry,,52,Open,F,130,77.5,160,367.5,SBD,Single-ply,2
+Linda Stauffenberger,,52,Open,F,115,65,142.5,322.5,SBD,Single-ply,1
 Marich,,52,Open,F,92.5,52.5,100,245,SBD,Single-ply,3
 Annette Schneidmill,,56,Open,F,137.5,75,150,362.5,SBD,Single-ply,1
 Mary Hetzel,,56,Open,F,132.5,72.5,152.5,357.5,SBD,Single-ply,2
@@ -19,7 +19,7 @@ Ervin,,67.5,Open,F,122.5,52.5,150,325,SBD,Single-ply,2
 Smith,,67.5,Open,F,120,70,132.5,322.5,SBD,Single-ply,3
 Wendland,,67.5,Open,F,150,,,,SBD,Single-ply,DQ
 Shontel Vice,,75,Open,F,122.5,62.5,147.5,332.5,SBD,Single-ply,1
-Gill,,75,Open,F,115,57.5,140,312.5,SBD,Single-ply,2
+Susan Gill,,75,Open,F,115,57.5,140,312.5,SBD,Single-ply,2
 Robertson,,82.5,Open,F,,,,,SBD,Single-ply,DQ
 Valerie Perry,,90+,Open,F,215,105,227.5,547.5,SBD,Single-ply,1
 Rice,,90+,Open,F,127.5,67.5,170,365,SBD,Single-ply,2
@@ -64,7 +64,7 @@ Jeff Shockley,,82.5,Pure,M,272.5,172.5,260,705,SBD,Single-ply,4
 Shaw,,82.5,Pure,M,245,162.5,247.5,655,SBD,Single-ply,5
 Brown,,82.5,Pure,M,255,147.5,240,642.5,SBD,Single-ply,6
 Madlock,,82.5,Pure,M,227.5,155,250,632.5,SBD,Single-ply,7
-Winston,,82.5,Pure,M,235,130,257.5,622.5,SBD,Single-ply,8
+P. Winston,,82.5,Pure,M,235,130,257.5,622.5,SBD,Single-ply,8
 Johnson,,82.5,Pure,M,210,127.5,255,592.5,SBD,Single-ply,9
 K. Hryb,,82.5,Pure,M,205,125,237.5,567.5,SBD,Single-ply,10
 Alsteen,,82.5,Pure,M,200,125,200,525,SBD,Single-ply,11
@@ -76,8 +76,8 @@ Artie Margulies,,90,Pure,M,250,170,257.5,677.5,SBD,Single-ply,5
 S. Davis,,90,Pure,M,282.5,142.5,250,675,SBD,Single-ply,6
 Rogers #1,,90,Pure,M,230,162.5,280,672.5,SBD,Single-ply,7
 Wesselowski,,90,Pure,M,237.5,140,290,667.5,SBD,Single-ply,8
-Ventress,,90,Pure,M,275,137.5,255,667.5,SBD,Single-ply,9
-Grimm,,90,Pure,M,250,152.5,265,667.5,SBD,Single-ply,10
+Larry Ventress,,90,Pure,M,275,137.5,255,667.5,SBD,Single-ply,9
+D. Grimm,,90,Pure,M,250,152.5,265,667.5,SBD,Single-ply,10
 Wheeler,,90,Pure,M,220,157.5,280,657.5,SBD,Single-ply,11
 Garcia,,90,Pure,M,245,185,227.5,657.5,SBD,Single-ply,12
 Korff,,90,Pure,M,272.5,157.5,225,655,SBD,Single-ply,13
@@ -90,10 +90,10 @@ Dave Passon,,100,Pure,M,330,190,282.5,802.5,SBD,Single-ply,3
 Adams,,100,Pure,M,317.5,187.5,282.5,787.5,SBD,Single-ply,4
 Bales,,100,Pure,M,282.5,187.5,265,735,SBD,Single-ply,5
 Smith,,100,Pure,M,272.5,137.5,305,715,SBD,Single-ply,6
-Keller #1,,100,Pure,M,287.5,177.5,250,715,SBD,Single-ply,7
+Robert Keller #1,,100,Pure,M,287.5,177.5,250,715,SBD,Single-ply,7
 Tom Weeks,,100,Pure,M,292.5,150,265,707.5,SBD,Single-ply,8
-Puccino,,100,Pure,M,262.5,175,267.5,705,SBD,Single-ply,9
-Willie McCoy,,100,Pure,M,155,160,245,560,SBD,Single-ply,10
+Robert Puccino,,100,Pure,M,262.5,175,267.5,705,SBD,Single-ply,9
+Willie McCoy,,100,Pure,M,255,160,245,660,SBD,Single-ply,10
 Heldman,,100,Pure,M,282.5,155,217.5,655,SBD,Single-ply,11
 Morton,,100,Pure,M,237.5,175,227.5,640,SBD,Single-ply,12
 Brand,,100,Pure,M,242.5,145,252.5,640,SBD,Single-ply,13
@@ -107,11 +107,11 @@ Cohen,,110,Pure,M,280,177.5,297.5,755,SBD,Single-ply,4
 Hammon,,110,Pure,M,305,182.5,250,737.5,SBD,Single-ply,5
 Brown,,110,Pure,M,305,182.5,250,737.5,SBD,Single-ply,6
 O'Donnell,,110,Pure,M,262.5,175,260,697.5,SBD,Single-ply,7
-Ferguson,,110,Pure,M,272.5,177.5,227.5,677.5,SBD,Single-ply,8
+Ed Ferguson,,110,Pure,M,272.5,177.5,227.5,677.5,SBD,Single-ply,8
 Garcia,,110,Pure,M,250,185,227.5,662.5,SBD,Single-ply,9
 Wilcox,,110,Pure,M,132.5,112.5,150,395,SBD,Single-ply,10
-Brittain,,125,Pure,M,295,217.5,245,757.5,SBD,Single-ply,1
-Serrano,,125,Pure,M,277.5,205,267.5,750,SBD,Single-ply,2
+J. Britton,,125,Pure,M,295,217.5,245,757.5,SBD,Single-ply,1
+Mike Serrano,,125,Pure,M,277.5,205,267.5,750,SBD,Single-ply,2
 Culberson,,125,Pure,M,272.5,192.5,272.5,737.5,SBD,Single-ply,3
 J. Sammaron,,125,Pure,M,272.5,185,272.5,730,SBD,Single-ply,4
 Fames,,125,Pure,M,255,182.5,262.5,700,SBD,Single-ply,5
@@ -120,7 +120,7 @@ Guiney,,125,Pure,M,220,132.5,272.5,625,SBD,Single-ply,7
 Tidwell,,125,Pure,M,205,135,227.5,567.5,SBD,Single-ply,8
 Galloway #1,,125+,Pure,M,342.5,190,250,782.5,SBD,Single-ply,1
 Robert Burcham,,125+,Pure,M,240,195,267.5,702.5,SBD,Single-ply,2
-Oyler,,125+,Pure,M,282.5,150,245,677.5,SBD,Single-ply,3
+David Oyler,,125+,Pure,M,282.5,150,245,677.5,SBD,Single-ply,3
 Brewer,,125+,Pure,M,250,185,227.5,662.5,SBD,Single-ply,4
 De la Torre,,125+,Pure,M,170,142.5,227.5,540,SBD,Single-ply,5
 Phillips,,125+,Pure,M,,,,,SBD,Single-ply,DQ
@@ -134,7 +134,7 @@ Jensen,,67.5,Natural,M,,,,,SBD,Single-ply,DQ
 Troy Culberson,,75,Natural,M,242.5,147.5,292.5,682.5,SBD,Single-ply,1
 Richard Cirigliano,,75,Natural,M,237.5,142.5,267.5,647.5,SBD,Single-ply,2
 Broussard,,75,Natural,M,255,140,235,630,SBD,Single-ply,3
-Zamora,,75,Natural,M,215,140,250,605,SBD,Single-ply,4
+Louis Zamora,,75,Natural,M,215,140,250,605,SBD,Single-ply,4
 Chestland,,75,Natural,M,227.5,160,207.5,595,SBD,Single-ply,5
 Garafola,,75,Natural,M,217.5,142.5,222.5,582.5,SBD,Single-ply,6
 Hargett,,75,Natural,M,217.5,95,235,547.5,SBD,Single-ply,7
@@ -162,7 +162,7 @@ Chasse,,90,Natural,M,,,,,SBD,Single-ply,DQ
 Kiltz,,90,Natural,M,,,,,SBD,Single-ply,DQ
 Johnson,,100,Natural,M,307.5,182.5,322.5,812.5,SBD,Single-ply,1
 Dave Passon,,100,Natural,M,330,190,282.5,802.5,SBD,Single-ply,2
-Gonzales,,100,Natural,M,302.5,205,272.5,780,SBD,Single-ply,3
+Dave Gonzales,,100,Natural,M,302.5,205,272.5,780,SBD,Single-ply,3
 Crutchmer,,100,Natural,M,257.5,212.5,270,740,SBD,Single-ply,4
 Sullivan,,100,Natural,M,287.5,180,272.5,740,SBD,Single-ply,5
 Meyers,,100,Natural,M,287.5,147.5,285,720,SBD,Single-ply,6
@@ -179,7 +179,7 @@ Blake,,110,Natural,M,267.5,182.5,267.5,717.5,SBD,Single-ply,2
 Ingram,,110,Natural,M,275,155,270,700,SBD,Single-ply,3
 O'Donnell,,110,Natural,M,262.5,175,260,697.5,SBD,Single-ply,4
 Sacco,,110,Natural,M,272.5,157.5,250,680,SBD,Single-ply,5
-Ferguson,,110,Natural,M,272.5,177.5,227.5,677.5,SBD,Single-ply,6
+Ed Ferguson,,110,Natural,M,272.5,177.5,227.5,677.5,SBD,Single-ply,6
 Meyers,,110,Natural,M,262.5,137.5,272.5,672.5,SBD,Single-ply,7
 Garcia,,110,Natural,M,250,185,227.5,662.5,SBD,Single-ply,8
 John Mattei,,110,Natural,M,252.5,162.5,240,655,SBD,Single-ply,9
@@ -193,7 +193,7 @@ Dan Crowley,,125+,Natural,M,352.5,177.5,297.5,827.5,SBD,Single-ply,1
 Greene,,125+,Natural,M,327.5,212.5,272.5,812.5,SBD,Single-ply,2
 John Magee,,125+,Natural,M,300,205,280,785,SBD,Single-ply,3
 Maness,,125+,Natural,M,320,195,260,775,SBD,Single-ply,4
-Oyler,,125+,Natural,M,282.5,160,245,687.5,SBD,Single-ply,5
+David Oyler,,125+,Natural,M,282.5,160,245,687.5,SBD,Single-ply,5
 Zedeker,,125+,Natural,M,252.5,165,260,677.5,SBD,Single-ply,6
 Brewer,,125+,Natural,M,250,185,227.5,662.5,SBD,Single-ply,7
 Phillips,,125+,Natural,M,,,,,SBD,Single-ply,DQ
@@ -219,7 +219,7 @@ Tony Cardin,,82.5,Submasters 33-39,M,267.5,162.5,255,685,SBD,Single-ply,4
 Bradham,,82.5,Submasters 33-39,M,242.5,172.5,247.5,662.5,SBD,Single-ply,5
 Spicer,,82.5,Submasters 33-39,M,240,152.5,232.5,625,SBD,Single-ply,6
 K. Hryb,,82.5,Submasters 33-39,M,205,125,237.5,567.5,SBD,Single-ply,7
-S. Rosenberg,,82.5,Submasters 33-39,M,207.5,127.5,227.5,562.5,SBD,Single-ply,8
+Steve Rosenberg,,82.5,Submasters 33-39,M,207.5,127.5,227.5,562.5,SBD,Single-ply,8
 Rodriguer,,82.5,Submasters 33-39,M,212.5,122.5,222.5,557.5,SBD,Single-ply,9
 Stahl,,82.5,Submasters 33-39,M,190,130,232.5,552.5,SBD,Single-ply,10
 Alsteen,,82.5,Submasters 33-39,M,200,125,200,525,SBD,Single-ply,12
@@ -229,12 +229,12 @@ Henry,,82.5,Submasters 33-39,M,,,,,SBD,Single-ply,DQ
 Bob Boyles,,90,Submasters 33-39,M,287.5,170,255,712.5,SBD,Single-ply,1
 Zachary,,90,Submasters 33-39,M,240,155,297.5,692.5,SBD,Single-ply,2
 Artie Margulies,,90,Submasters 33-39,M,250,170,257.5,677.5,SBD,Single-ply,3
-Ventress,,90,Submasters 33-39,M,275,137.5,255,667.5,SBD,Single-ply,4
+Larry Ventress,,90,Submasters 33-39,M,275,137.5,255,667.5,SBD,Single-ply,4
 Cullinane,,90,Submasters 33-39,M,240,157.5,235,632.5,SBD,Single-ply,5
 Carey,,90,Submasters 33-39,M,230,137.5,242.5,610,SBD,Single-ply,6
 Prejean,,90,Submasters 33-39,M,175,107.5,217.5,500,SBD,Single-ply,7
 Tom Weeks,,100,Submasters 33-39,M,,,,,SBD,Single-ply,DQ
-Kivela,,100,Submasters 33-39,M,292.5,150,265,707.5,SBD,Single-ply,1
+Shawn Kivela,,100,Submasters 33-39,M,292.5,150,265,707.5,SBD,Single-ply,1
 Willie McCoy,,100,Submasters 33-39,M,250,152.5,240,642.5,SBD,Single-ply,2
 Morton,,100,Submasters 33-39,M,255,160,245,660,SBD,Single-ply,3
 Holder,,100,Submasters 33-39,M,237.5,175,227.5,640,SBD,Single-ply,4
@@ -247,7 +247,7 @@ O'Donnell,,110,Submasters 33-39,M,275,155,270,700,SBD,Single-ply,3
 John Mattei,,110,Submasters 33-39,M,262.5,175,260,697.5,SBD,Single-ply,1
 Pope,,110,Submasters 33-39,M,252.5,162.5,240,655,SBD,Single-ply,4
 Brad Kretsch,,125,Submasters 33-39,M,217.5,160,212.5,590,SBD,Single-ply,5
-Gamble,,125,Submasters 33-39,M,310,197.5,317.5,825,SBD,Single-ply,1
+D. Gamble,,125,Submasters 33-39,M,310,197.5,317.5,825,SBD,Single-ply,1
 Pierce,,125,Submasters 33-39,M,272.5,215,307.5,795,SBD,Single-ply,2
 Owens,,125,Submasters 33-39,M,255,155,272.5,682.5,SBD,Single-ply,3
 King,,125,Submasters 33-39,M,257.5,180,232.5,670,SBD,Single-ply,4
@@ -264,7 +264,7 @@ Scott,,82.5,Masters 40-49,M,215,145,215,575,SBD,Single-ply,2
 Smith,,82.5,Masters 40-49,M,167.5,105,202.5,475,SBD,Single-ply,3
 Jensen,,82.5,Masters 40-49,M,167.5,125,182.5,475,SBD,Single-ply,4
 Brooks,,90,Masters 40-49,M,112.5,65,170,347.5,SBD,Single-ply,7
-Carman,,90,Masters 40-49,M,245,155,235,635,SBD,Single-ply,1
+Sam Carman,,90,Masters 40-49,M,245,155,235,635,SBD,Single-ply,1
 Piazza,,90,Masters 40-49,M,245,162.5,215,622.5,SBD,Single-ply,2
 Antal,,90,Masters 40-49,M,227.5,160,200,587.5,SBD,Single-ply,3
 Hollinger,,90,Masters 40-49,M,227.5,125,220,572.5,SBD,Single-ply,4
@@ -300,7 +300,7 @@ Daryl Johnson,62,100,Masters 50+,M,275,152.5,260,687.5,SBD,Single-ply,1
 Shackelford,,110,Masters 50+,M,222.5,145,207.5,575,SBD,Single-ply,1
 Nelson,,125,Masters 50+,M,227.5,152.5,210,590,SBD,Single-ply,1
 Schaan,,125,Masters 50+,M,137.5,117.5,197.5,452.5,SBD,Single-ply,2
-Fellows,,125+,Masters 50+,M,240,115,230,585,SBD,Single-ply,1
+B. Fellows,,125+,Masters 50+,M,240,115,230,585,SBD,Single-ply,1
 Hollinger,,52,Teen,M,110,67.5,107.5,285,SBD,Single-ply,1
 Medlin,,56,Teen,M,137.5,95,182.5,415,SBD,Single-ply,1
 Kagan,,56,Teen,M,122.5,117.5,170,410,SBD,Single-ply,2
@@ -342,7 +342,7 @@ Brown,,67.5,Pure Novice,M,225,117.5,205,547.5,SBD,Single-ply,2
 Hunt,,67.5,Pure Novice,M,170,122.5,200,492.5,SBD,Single-ply,3
 Trujillo,,67.5,Pure Novice,M,165,90,207.5,462.5,SBD,Single-ply,4
 Mark Himmelberger,,75,Pure Novice,M,252.5,137.5,235,625,SBD,Single-ply,1
-Zamora,,75,Pure Novice,M,215,140,250,605,SBD,Single-ply,2
+Louis Zamora,,75,Pure Novice,M,215,140,250,605,SBD,Single-ply,2
 T. Castor,,75,Pure Novice,M,222.5,142.5,217.5,582.5,SBD,Single-ply,3
 Mitchell,,75,Pure Novice,M,185,162.5,212.5,560,SBD,Single-ply,4
 Greeley,,75,Pure Novice,M,215,137.5,202.5,555,SBD,Single-ply,5
@@ -354,7 +354,7 @@ Raney,,75,Pure Novice,M,,,,,SBD,Single-ply,DQ
 Winfrey,,75,Pure Novice,M,122.5,67.5,162.5,352.5,SBD,Single-ply,10
 R. Johnson,,82.5,Pure Novice,M,257.5,135,272.5,665,SBD,Single-ply,1
 Madlock,,82.5,Pure Novice,M,227.5,155,250,632.5,SBD,Single-ply,2
-Winston,,82.5,Pure Novice,M,235,130,257.5,622.5,SBD,Single-ply,3
+P. Winston,,82.5,Pure Novice,M,235,130,257.5,622.5,SBD,Single-ply,3
 T. Johnson,,82.5,Pure Novice,M,210,127.5,255,592.5,SBD,Single-ply,4
 J. Hannah,,82.5,Pure Novice,M,215,145,215,575,SBD,Single-ply,5
 K. Hryb,,82.5,Pure Novice,M,197.5,125,237.5,560,SBD,Single-ply,6
@@ -371,7 +371,7 @@ Downey,,90,Pure Novice,M,220,122.5,220,562.5,SBD,Single-ply,7
 Daniels,,90,Pure Novice,M,205,127.5,217.5,550,SBD,Single-ply,8
 Prejean,,90,Pure Novice,M,175,107.5,217.5,500,SBD,Single-ply,9
 Payne,,100,Pure Novice,M,230,167.5,272.5,670,SBD,Single-ply,1
-Kivela,,100,Pure Novice,M,275,152.5,240,667.5,SBD,Single-ply,2
+Shawn Kivela,,100,Pure Novice,M,275,152.5,240,667.5,SBD,Single-ply,2
 Lee,,100,Pure Novice,M,272.5,157.5,227.5,657.5,SBD,Single-ply,3
 Brand,,100,Pure Novice,M,242.5,145,252.5,640,SBD,Single-ply,4
 Kroeger,,100,Pure Novice,M,245,147.5,242.5,635,SBD,Single-ply,5
@@ -388,7 +388,7 @@ Garcia,,110,Pure Novice,M,250,185,227.5,662.5,SBD,Single-ply,4
 Pope,,110,Pure Novice,M,217.5,160,212.5,590,SBD,Single-ply,5
 Wooten,,110,Pure Novice,M,210,145,210,565,SBD,Single-ply,6
 Wilcox,,110,Pure Novice,M,132.5,112.5,150,395,SBD,Single-ply,7
-Britton,,125,Pure Novice,M,295,217.5,245,757.5,SBD,Single-ply,1
+J. Britton,,125,Pure Novice,M,295,217.5,245,757.5,SBD,Single-ply,1
 Branch,,125,Pure Novice,M,255,165,255,675,SBD,Single-ply,2
 Gerecke,,125,Pure Novice,M,255,170,247.5,672.5,SBD,Single-ply,3
 Mills,,125,Pure Novice,M,235,175,237.5,647.5,SBD,Single-ply,4

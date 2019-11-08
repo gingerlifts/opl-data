@@ -1,7 +1,7 @@
 Name,WeightClassKg,Division,Age,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Sex,Place
 James Barlow,75,Open,,,182.5,145,222.5,550,SBD,Single-ply,M,1
 J. Lewis,75,Open,,,162.5,115,185,462.5,SBD,Single-ply,M,2
-J. Jamerson,82.5,Open,,,192.5,130,220,542.5,SBD,Single-ply,M,1
+Jamie Jamerson,82.5,Open,,,192.5,130,220,542.5,SBD,Single-ply,M,1
 B. Welch,82.5,Open,,,182.5,137.5,202.5,522.5,SBD,Single-ply,M,2
 J. West,82.5,Open,,,182.5,112.5,205,500,SBD,Single-ply,M,3
 C. Hoskin,90,Open,,,260,137.5,252.5,650,SBD,Single-ply,M,1
@@ -16,9 +16,9 @@ B. Beard,100,Open,,,,,,,SBD,Single-ply,M,DQ
 Andrew Stewart,110,Open,,,345,227.5,345,917.5,SBD,Single-ply,M,1
 G. Smith,110,Open,,,227.5,117.5,247.5,592.5,SBD,Single-ply,M,2
 Gerald Welch,125,Open,,,397.5,237.5,342.5,977.5,SBD,Single-ply,M,1
-R. Talley,125,Open,,,305,220,295,820,SBD,Single-ply,M,2
+Richard Talley,125,Open,,,305,220,295,820,SBD,Single-ply,M,2
 Jason Wisner,125+,Open,15,132,300,182.5,280,762.5,SBD,Single-ply,M,1
-T. Pennington,75,Collegiate,,,152.5,132.5,215,500,SBD,Single-ply,M,1
+Tony Pennington,75,Collegiate,,,152.5,132.5,215,500,SBD,Single-ply,M,1
 T. Stephens,75,Collegiate,,,162.5,132.5,187.5,482.5,SBD,Single-ply,M,2
 S. Fyfe,75,Collegiate,,,185,112.5,167.5,465,SBD,Single-ply,M,3
 J. West,82.5,Collegiate,,,182.5,112.5,205,500,SBD,Single-ply,M,1

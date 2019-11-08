@@ -1,7 +1,7 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Henry Garcia #1,52,Open,M,187.5,110,202.5,500,SBD,Single-ply,1
 Brett Bozzelli,52,Open,M,145,110,175,430,SBD,Single-ply,2
-Andrew Leonard,52,Open,M,142.5,92.5,175,410,SBD,Single-ply,3
+Andy Leonard,52,Open,M,142.5,92.5,175,410,SBD,Single-ply,3
 David Walker,52,Open,M,125,90,175,390,SBD,Single-ply,4
 Howard Bates,52,Open,M,132.5,85,160,377.5,SBD,Single-ply,5
 Dave Weiss,56,Open,M,177.5,122.5,202.5,502.5,SBD,Single-ply,1
@@ -37,7 +37,7 @@ Gabe Dominelli,75,Open,M,62.5,192.5,62.5,317.5,SBD,Single-ply,10
 Gregory Jones,82.5,Open,M,307.5,190,290,787.5,SBD,Single-ply,1
 Henry Gerard,82.5,Open,M,295,160,287.5,742.5,SBD,Single-ply,2
 Curtis Bradham,82.5,Open,M,262.5,177.5,277.5,717.5,SBD,Single-ply,3
-Hosein Farzane-fard,82.5,Open,M,265,167.5,250,682.5,SBD,Single-ply,4
+Hosein Farzane-Fard,82.5,Open,M,265,167.5,250,682.5,SBD,Single-ply,4
 Benny Taghivand,82.5,Open,M,272.5,160,250,682.5,SBD,Single-ply,5
 Mike Pilkenton,82.5,Open,M,250,165,260,675,SBD,Single-ply,6
 Robert Arciuolo,82.5,Open,M,267.5,172.5,227.5,667.5,SBD,Single-ply,7
@@ -53,7 +53,7 @@ Robert Wagner,90,Open,M,362.5,185,300,847.5,SBD,Single-ply,1
 Steve Scialpi,90,Open,M,335,185,312.5,832.5,SBD,Single-ply,2
 Timothy Wilson,90,Open,M,267.5,172.5,322.5,762.5,SBD,Single-ply,3
 David Boucher,90,Open,M,312.5,190,250,752.5,SBD,Single-ply,4
-Mike Thompson,90,Open,M,277.5,162.5,277.5,717.5,SBD,Single-ply,5
+Mike Thompson #2,90,Open,M,277.5,162.5,277.5,717.5,SBD,Single-ply,5
 Paul Fiorisi,90,Open,M,272.5,202.5,227.5,702.5,SBD,Single-ply,6
 Joe Valchine,90,Open,M,272.5,155,270,697.5,SBD,Single-ply,7
 Artie Margulies,90,Open,M,260,172.5,265,697.5,SBD,Single-ply,8
@@ -66,8 +66,8 @@ Chris Siapanides,100,Open,M,332.5,195,322.5,850,SBD,Single-ply,2
 Willie Croner,100,Open,M,310,202.5,280,792.5,SBD,Single-ply,3
 Roger Pauli II,100,Open,M,332.5,182.5,272.5,787.5,SBD,Single-ply,4
 Robert Kowalcyk,100,Open,M,295,205,267.5,767.5,SBD,Single-ply,5
-Michael Jarret,100,Open,M,305,180,277.5,762.5,SBD,Single-ply,6
-W. P. Brinton,100,Open,M,292.5,197.5,272.5,762.5,SBD,Single-ply,7
+Mike Jarrett,100,Open,M,305,180,277.5,762.5,SBD,Single-ply,6
+Bill Brinton,100,Open,M,292.5,197.5,272.5,762.5,SBD,Single-ply,7
 Marc Terman,100,Open,M,282.5,167.5,307.5,757.5,SBD,Single-ply,8
 W. Ashworth,100,Open,M,305,172.5,270,747.5,SBD,Single-ply,9
 J. C. Wolfe,100,Open,M,290,200,247.5,737.5,SBD,Single-ply,10
@@ -92,7 +92,7 @@ Deron Rogers,125,Open,M,295,232.5,272.5,800,SBD,Single-ply,3
 Edroy Jenkins,125,Open,M,302.5,205,290,797.5,SBD,Single-ply,4
 Robert Huesman,125,Open,M,307,167.5,260,734.5,SBD,Single-ply,5
 W. R. Davis,125,Open,M,292.5,170,260,722.5,SBD,Single-ply,6
-F. B. Dias,125,Open,M,290,160,265,715,SBD,Single-ply,7
+Frank Dias,125,Open,M,290,160,265,715,SBD,Single-ply,7
 R. K. White,125,Open,M,272.5,162.5,275,710,SBD,Single-ply,8
 Wayne Stewart,125+,Open,M,325,215,285,825,SBD,Single-ply,1
 Jeffrey Coan,125+,Open,M,292.5,200,272.5,765,SBD,Single-ply,2

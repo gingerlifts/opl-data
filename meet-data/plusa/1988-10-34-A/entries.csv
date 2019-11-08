@@ -1,10 +1,10 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 J. Saling,56,Open,M,140,77.5,160,377.5,SBD,Single-ply,1
-D. Seymour,56,Open,M,90,60,115,265,SBD,Single-ply,2
+Dave Seymour,56,Open,M,90,60,115,265,SBD,Single-ply,2
 R. Todd,60,Open,M,170,112.5,182.5,465,SBD,Single-ply,1
 T. Parco,60,Open,M,107.5,95,140,342.5,SBD,Single-ply,2
 P. Brighton,60,Open,M,95,40,125,260,SBD,Single-ply,3
-L. Duran,67.5,Open,M,215,122.5,230,567.5,SBD,Single-ply,1
+Larry Duran,67.5,Open,M,215,122.5,230,567.5,SBD,Single-ply,1
 M. Barna,67.5,Open,M,197.5,137.5,217.5,552.5,SBD,Single-ply,2
 J. Reed,67.5,Open,M,177.5,100,187.5,465,SBD,Single-ply,3
 M. Wilson,67.5,Open,M,155,110,182.5,447.5,SBD,Single-ply,4
@@ -26,14 +26,14 @@ S. Bergath,82.5,Open,M,220,130,220,570,SBD,Single-ply,6
 Vernon Banks,90,Open,M,275,167.5,265,707.5,SBD,Single-ply,1
 J. Gauthier,90,Open,M,227.5,155,232.5,615,SBD,Single-ply,2
 L. Drummond,90,Open,M,205,140,227.5,572.5,SBD,Single-ply,3
-R. Exum,90,Open,M,215,105,250,570,SBD,Single-ply,4
+Robert Exum,90,Open,M,215,105,250,570,SBD,Single-ply,4
 F. Byrum,90,Open,M,197.5,125,232.5,555,SBD,Single-ply,5
 B. Home,90,Open,M,207.5,105,207.5,520,SBD,Single-ply,6
 B. Rosenthal,90,Open,M,25,160,25,210,SBD,Single-ply,7
 G. Chrestensen,100,Open,M,280,190,260,730,SBD,Single-ply,1
 R. Hanning,100,Open,M,287.5,160,260,707.5,SBD,Single-ply,2
-K. Wheeler,100,Open,M,292.5,145,255,692.5,SBD,Single-ply,3
-G. Pamplin,100,Open,M,272.5,182.5,227.5,682.5,SBD,Single-ply,4
+Ken Wheeler,100,Open,M,292.5,145,255,692.5,SBD,Single-ply,3
+Gary Pamplin,100,Open,M,272.5,182.5,227.5,682.5,SBD,Single-ply,4
 P. Powers,100,Open,M,235,145,245,625,SBD,Single-ply,5
 M. Beer,110,Open,M,220,147.5,237.5,605,SBD,Single-ply,1
 A. Dotin,110,Open,M,195,162.5,227.5,585,SBD,Single-ply,2
@@ -54,24 +54,24 @@ P. Curletto,,Open,F,107.5,42.5,112.5,262.5,SBD,Single-ply,4
 B. Brighton,,Open,F,95,40,125,260,SBD,Single-ply,5
 M. Stockton,,Open,F,90,52.5,112.5,255,SBD,Single-ply,6
 S. Bell,,Open,F,125,55,150,330,SBD,Single-ply,2
-L. Duran,67.5,LW Masters,M,215,122.5,230,567.5,SBD,Single-ply,1
+Larry Duran,67.5,LW Masters,M,215,122.5,230,567.5,SBD,Single-ply,1
 K. Kuhlmann,82.5,LW Masters,M,227.5,160,227.5,615,SBD,Single-ply,1
 S. O'Neill,82.5,LW Masters,M,210,145,200,555,SBD,Single-ply,2
-D. Torrence,82.5,LW Masters,M,182.5,110,195,487.5,SBD,Single-ply,3
+Donald Torrence,82.5,LW Masters,M,182.5,110,195,487.5,SBD,Single-ply,3
 R. Strange,82.5,HW Masters,M,210,155,250,615,SBD,Single-ply,1
 R. Brown #10,82.5,HW Masters,M,200,152.5,232.5,585,SBD,Single-ply,2
 F. Byrum,90,HW Masters,M,197.5,125,232.5,555,SBD,Single-ply,1
 G. Cracker,90+,HW Masters,M,177.5,97.5,217.5,492.5,SBD,Single-ply,1
 W. Grothenrath,90+,HW Masters,M,150,105,150,405,SBD,Single-ply,2
 A. Brownstein,82.5,LW Teen,M,210,112.5,225,547.5,SBD,Single-ply,2
-F. Garnett,82.5,LW Teen,M,200,132.5,240,572.5,SBD,Single-ply,1
+Fred Garnett,82.5,LW Teen,M,200,132.5,240,572.5,SBD,Single-ply,1
 J. Reed,67.5,LW Teen,M,177.5,100,187.5,465,SBD,Single-ply,1
 D. Keaton,82.5,LW Teen,M,175,107.5,165,447.5,SBD,Single-ply,3
 M. Kay,82.5,LW Teen,M,107.5,85,125,317.5,SBD,Single-ply,6
 Mike Sorenson,82.5,LW Teen,M,122.5,85,150,357.5,SBD,Single-ply,5
 G. Solis,82.5,LW Teen,M,100,62.5,145,307.5,SBD,Single-ply,7
 T. Vigil,82.5,LW Teen,M,137.5,95,182.5,415,SBD,Single-ply,4
-D. Seymour,56,LW Teen,M,90,60,115,265,SBD,Single-ply,1
+Dave Seymour,56,LW Teen,M,90,60,115,265,SBD,Single-ply,1
 R. Filippone,82.5,LW Teen,M,80,77.5,140,297.5,SBD,Single-ply,8
 E. Terra,82.5,LW Teen,M,95,40,115,250,SBD,Single-ply,9
 W. Essau,90+,HW Teen,M,230,135,227.5,592.5,SBD,Single-ply,1

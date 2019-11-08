@@ -1,6 +1,6 @@
 # OpenPowerlifting Data Distribution README
 
-For a rendered version of this document, [view the README on GitLab](https://gitlab.com/openpowerlifting/opl-data/blob/master/docs/facebook-guidelines.md).
+For a rendered version of this document, [view the README on GitLab](https://gitlab.com/openpowerlifting/opl-data/blob/master/docs/data-readme.md).
 
 
 ## CSV Data Format
@@ -68,17 +68,25 @@ The `Age` column is defined by [modules/opltypes/src/age.rs](https://gitlab.com/
 
 ### AgeClass
 
-Optional. The age class in which the filter falls, for example `40-45`.
+Optional. The age class in which the filter falls, for example `40-45`. These classes are based on exact age of the lifter on the day of competition.
 
 AgeClass is mostly useful because sometimes a federation will report that a lifter competed in the 50-54 divison without providing any further age information. This way, we can still tag them as 50-54, even if the `Age` column is empty.
 
 The full range available to `AgeClass` is defined by [modules/opltypes/src/ageclass.rs](https://gitlab.com/openpowerlifting/opl-data/blob/master/modules/opltypes/src/ageclass.rs). 
 
+### BirthYearClass
+
+Optional. The birth year class in which the filter falls, for example `40-49`. The ages in the range are the oldest possible ages for the lifter that year. For example, `40-49` means "the year the lifters turns 40 through the full year in which the lifter turns 49."
+
+`BirthYearClass` is used primarily by the IPF and by IPF affiliates. Non-IPF federations tend to use `AgeClass` instead.
+
+The full range available to `BirthYearClass` is defined by [modules/opltypes/src/birthyearclass.rs](https://gitlab.com/openpowerlifting/opl-data/blob/master/modules/opltypes/src/birthyearclass.rs). 
+
 ### Division
 
 Optional. Free-form UTF-8 text describing the division of competition, like `Open` or `Juniors 20-23` or `Professional`.
 
-Some federations are *configured* in our database, which means that we have agreed on a limited set of division options for that federation, and we have rewritten their results to only use that set, and tests enforce that. Even still, divisions are not standardized *between* configured federation: it really is free-form text, just to provide context.
+Some federations are *configured* in our database, which means that we have agreed on a limited set of division options for that federation, and we have rewritten their results to only use that set, and tests enforce that. Even still, divisions are not standardized *between* configured federations: it really is free-form text, just to provide context.
 
 Information about age should not be extracted from the `Division`, but from the `AgeClass` column.
 
@@ -124,7 +132,7 @@ Optional. Fourth attempts for each of squat, bench, and deadlift, respectively. 
 
 Negative values indicate failed attempts.
 
-Fourth attempts are special, in that they do not count toward the `Best3TotalKg`. They are used for recording single-lift records.
+Fourth attempts are special, in that they do not count toward the `TotalKg`. They are used for recording single-lift records.
 
 ### Best3SquatKg, Best3BenchKg, Best3DeadliftKg
 

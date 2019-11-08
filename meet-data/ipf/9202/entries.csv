@@ -15,13 +15,13 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,Country,BodyweightKg,Best3SquatK
 3,67.5,F,Juniors,Andrea Gschwendtner,1969,Germany,65.7,165,77.5,175,417.5,SBD,Single-ply
 4,67.5,F,Juniors,Lina Fasulo,1973,Germany,52.1,127.5,67.5,125,320,SBD,Single-ply
 5,67.5,F,Juniors,Mari Okuno,1971,Japan,57.1,110,70,135,315,SBD,Single-ply
-6,67.5,F,Juniors,Jennifer Ray #3,,USA,58.85,122.5,67.5,130,320,SBD,Single-ply
+6,67.5,F,Juniors,Jennifer Rey-Gaudreau,,USA,58.85,122.5,67.5,130,320,SBD,Single-ply
 7,67.5,F,Juniors,Li-Wen Liao,,Taiwan,59.4,117.5,50,150,317.5,SBD,Single-ply
 8,67.5,F,Juniors,A. Kohda,,Japan,56.75,115,50,127.5,292.5,SBD,Single-ply
 9,67.5,F,Juniors,L. Park,,Australia,59.65,107.5,57.5,122.5,287.5,SBD,Single-ply
 10,67.5,F,Juniors,C. Bolt,,Australia,55.9,100,45,115,260,SBD,Single-ply
 DQ,67.5,F,Juniors,Huang,,Taiwan,,145,75,,,SBD,Single-ply
-1,90,F,Juniors,Leanne Jonhson,1971,Australia,89.6,207.5,105,195,507.5,SBD,Single-ply
+1,90,F,Juniors,Leanne Johnson,1971,Australia,89.6,207.5,105,195,507.5,SBD,Single-ply
 2,90,F,Juniors,Alexandra Koller,,Germany,68.1,145,87.5,162.5,395,SBD,Single-ply
 3,90,F,Juniors,Leslie Look,1972,USA,85.7,177.5,85,197.5,460,SBD,Single-ply
 4,90,F,Juniors,Gemma Williams,,USA,81.2,167.5,67.5,177.5,412.5,SBD,Single-ply
@@ -69,7 +69,7 @@ DQ,67.5,M,Juniors,Rodney Hypolite,1969,UK,,,,,,SBD,Single-ply
 6,75,M,Juniors,Glen Gray,,Canada,,207.5,142.5,225,575,SBD,Single-ply
 7,75,M,Juniors,Tatsuya Saitoh,,Japan,,225,122.5,225,572.5,SBD,Single-ply
 8,75,M,Juniors,Hoi Leung,,Canada,,230,115,220,565,SBD,Single-ply
-9,75,M,Juniors,Burns,,Australia,,180,127.5,212.5,520,SBD,Single-ply
+9,75,M,Juniors,Darren Burns,,Australia,,180,127.5,212.5,520,SBD,Single-ply
 DQ,75,M,Juniors,Calvin Dial,1972,USA,,,,,,SBD,Single-ply
 DQ,75,M,Juniors,Ari Kortetjärvi,1970,Finland,,,,,,SBD,Single-ply
 1,82.5,M,Juniors,Martin Simacek,1973,Austria,,290,152.5,295,737.5,SBD,Single-ply

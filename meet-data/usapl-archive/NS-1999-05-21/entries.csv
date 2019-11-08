@@ -1,8 +1,8 @@
 Name,WeightClassKg,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Sex,Event,Equipment
 Freddie Higgins,56,M-M1b,160,110,187.5,457.5,1,M,SBD,Single-ply
-Dennis Smith,56,M-M3b,125,75,147.5,347.5,1,M,SBD,Single-ply
+Dennis Smith #1,56,M-M3b,125,75,147.5,347.5,1,M,SBD,Single-ply
 John Corsello,60,M-M1a,160,122.5,182.5,465,1,M,SBD,Single-ply
-Michael Blaize,60,M-M1b,127.5,67.5,140,335,1,M,SBD,Single-ply
+Mike Blaize,60,M-M1b,127.5,67.5,140,335,1,M,SBD,Single-ply
 Gary Morrison,60,M-M2a,150,90,170,410,1,M,SBD,Single-ply
 Iain Burgess,60,M-M2b,157.5,100,167.5,425,1,M,SBD,Single-ply
 T. Bishop,60,M-M3a,125,77.5,155,357.5,1,M,SBD,Single-ply
@@ -39,7 +39,7 @@ Mike Rosenwald,82.5,M-M2a,160,110,190,460,2,M,SBD,Single-ply
 Jim Klostergaard,82.5,M-M2a,65,185.5,140,390,3,M,SBD,Single-ply
 Victor Bazzone,82.5,M-M2b,160,117.5,217.5,495,1,M,SBD,Single-ply
 B. Boutwell,82.5,M-M3a,172.5,137.5,217.5,527.5,1,M,SBD,Single-ply
-E. Fleisher,82.5,M-M3a,192.5,132.5,200,525,2,M,SBD,Single-ply
+Ernie Fleisher,82.5,M-M3a,192.5,132.5,200,525,2,M,SBD,Single-ply
 B. Callihan,82.5,M-M3a,172.5,117.5,200,490,3,M,SBD,Single-ply
 Ron Ringewold,82.5,M-M3a,185,90,210,485,4,M,SBD,Single-ply
 Bennie Taghivand,90,M-M1a,285,177.5,260,722.5,1,M,SBD,Single-ply
@@ -49,7 +49,7 @@ W. Lavalier,90,M-M1a,200,155,230,585,4,M,SBD,Single-ply
 William Kellett,90,M-M1a,152.5,135,190,477.5,5,M,SBD,Single-ply
 M. Edwards,90,M-M1a,60,,,,DQ,M,SBD,Single-ply
 Phillip Accordino,90,M-M1b,230,162.5,242.5,635,1,M,SBD,Single-ply
-L. Everett,90,M-M1b,210,140,272.5,622.5,2,M,SBD,Single-ply
+Lawrence Everett,90,M-M1b,210,140,272.5,622.5,2,M,SBD,Single-ply
 Joe Rizza,90,M-M1b,237.5,100,232.5,570,3,M,SBD,Single-ply
 Larry Tilley,90,M-M1b,175,125,227.5,527.5,4,M,SBD,Single-ply
 M. Mooney,90,M-M1b,170,115,175,460,5,M,SBD,Single-ply
@@ -58,10 +58,10 @@ T. Butler,90,M-M2a,235,147.5,250,632.5,1,M,SBD,Single-ply
 A. Christo,90,M-M2a,235,142.5,235,612.5,2,M,SBD,Single-ply
 Jim Yakubovsky,90,M-M2a,215,145,240,600,3,M,SBD,Single-ply
 David Mansfield,90,M-M2a,240,115,237.5,592.5,4,M,SBD,Single-ply
-J. Wold,90,M-M2a,217.5,127.5,240,585,5,M,SBD,Single-ply
+Jim Wold,90,M-M2a,217.5,127.5,240,585,5,M,SBD,Single-ply
 David Kernion,90,M-M2a,195,107.5,197.5,500,6,M,SBD,Single-ply
 Richard Herrick,90,M-M2a,155,115,175,445,7,M,SBD,Single-ply
-B. Bower,90,M-M2b,260,170,245,675,1,M,SBD,Single-ply
+Bud Bower,90,M-M2b,260,170,245,675,1,M,SBD,Single-ply
 Jim Waters,90,M-M2b,170,105,230,505,2,M,SBD,Single-ply
 John Herbein,90,M-M3a,170,120,237.5,527.5,1,M,SBD,Single-ply
 S. O'Neill,90,M-M3a,192.5,125,207.5,525,2,M,SBD,Single-ply
@@ -72,14 +72,14 @@ Mike Lohman,100,M-M1a,290,180,290,760,2,M,SBD,Single-ply
 D. Montembault,100,M-M1a,215,157.5,255,627.5,3,M,SBD,Single-ply
 John Valpatic,100,M-M1b,217.5,145,252.5,615,1,M,SBD,Single-ply
 C. Cornelius,100,M-M1b,205,175,227.5,607.5,2,M,SBD,Single-ply
-S. Rosenberg,100,M-M1b,247.5,,,,DQ,M,SBD,Single-ply
+Steve Rosenberg,100,M-M1b,247.5,,,,DQ,M,SBD,Single-ply
 David Clark,100,M-M2a,255,177.5,277.5,710,1,M,SBD,Single-ply
 M. Bolick,100,M-M2a,177.5,97.5,227.5,502.5,2,M,SBD,Single-ply
 Robert Morton,100,M-M2a,172.5,130,200,502.5,3,M,SBD,Single-ply
 Mike Nichols,100,M-M2a,165,110,215,490,4,M,SBD,Single-ply
 C. Lilly,100,M-M2a,222.5,,,,DQ,M,SBD,Single-ply
 Robert Rood,100,M-M2b,205,165,215,585,1,M,SBD,Single-ply
-K. Hansen,100,M-M2b,240,,,,DQ,M,SBD,Single-ply
+Kirk Hansen,100,M-M2b,240,,,,DQ,M,SBD,Single-ply
 J. Tate,100,M-M3a,170,140,172.5,482.5,1,M,SBD,Single-ply
 N. Simmons,100,M-M3a,115,102.5,147.5,365,2,M,SBD,Single-ply
 J. Dean,100,M-M3b,165,125,205,495,1,M,SBD,Single-ply
@@ -95,7 +95,7 @@ Buddy Rogers,110,M-M2a,277.5,205,250,732.5,1,M,SBD,Single-ply
 Ron Burnett,110,M-M2a,227.5,140,250,617.5,2,M,SBD,Single-ply
 D. Davenport,110,M-M2a,182.5,122.5,237.5,542.5,3,M,SBD,Single-ply
 Will Morris,110,M-M2b,227.5,175,255,657.5,1,M,SBD,Single-ply
-H. Mulholland,110,M-M2b,227.5,172.5,255,655,2,M,SBD,Single-ply
+Harold Mulholland,110,M-M2b,227.5,172.5,255,655,2,M,SBD,Single-ply
 John DuMont,110,M-M2b,260,,,,DQ,M,SBD,Single-ply
 Hal Hudson,110,M-M3a,182.5,115,217.5,515,1,M,SBD,Single-ply
 Lou Corulli,110,M-M3b,142.5,60,147.5,350,1,M,SBD,Single-ply
@@ -108,5 +108,5 @@ CJ Batten,125,M-M2b,142.5,215,237.5,595,2,M,SBD,Single-ply
 I. Fenumiai,125+,M-M1a,275,232.5,265,772.5,1,M,SBD,Single-ply
 R. Smith,125+,M-M1a,287.5,187.5,265,740,2,M,SBD,Single-ply
 J. Pledger,125+,M-M1a,300,182.5,250,732.5,3,M,SBD,Single-ply
-J. Severino,125+,M-M1b,265,162.5,230,657,1,M,SBD,Single-ply
+Joe Severino,125+,M-M1b,265,162.5,230,657,1,M,SBD,Single-ply
 F. Borowski,125+,M-M2b,182.5,137.5,,,DQ,M,SBD,Single-ply

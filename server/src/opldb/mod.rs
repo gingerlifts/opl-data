@@ -133,6 +133,8 @@ pub struct Entry {
     pub tested: bool,
     #[serde(rename(deserialize = "AgeClass"))]
     pub ageclass: AgeClass,
+    #[serde(rename(deserialize = "BirthYearClass"))]
+    pub birthyearclass: BirthYearClass,
     #[serde(rename(deserialize = "Country"))]
     pub lifter_country: Option<Country>,
 }
@@ -301,7 +303,7 @@ impl OplDb {
         let mut meets = import_meets_csv(meets_csv)?;
         let (entries, metafed_cache) = import_entries_csv(entries_csv, &mut meets)?;
 
-        let static_cache = StaticCache::new(&meets, &entries);
+        let static_cache = StaticCache::new(&lifters, &meets, &entries);
 
         Ok(OplDb {
             lifters,
@@ -398,12 +400,7 @@ impl OplDb {
 
     /// Look up the lifter_id by username.
     pub fn get_lifter_id(&self, username: &str) -> Option<u32> {
-        for i in 0..self.lifters.len() {
-            if self.lifters[i].username == username {
-                return Some(i as u32);
-            }
-        }
-        None
+        self.static_cache.username_map.get(username).cloned()
     }
 
     /// Get a list of all lifters that have the same username base,

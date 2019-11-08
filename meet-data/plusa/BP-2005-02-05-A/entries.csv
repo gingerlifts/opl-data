@@ -23,7 +23,7 @@ S. Walker,M-E-M1,M,242.5,175,245,662.5,SBD,Single-ply,2,75,74.8
 K. Singh,M-E-M1,M,235,152.5,230,617.5,SBD,Single-ply,3,75,74.4
 Allen Ottolangui,M-E-M1,M,220,132.5,230,582.5,SBD,Single-ply,4,75,74.5
 Mick Coopey,M-E-M1,M,190,110,200,500,SBD,Single-ply,5,75,73.7
-N. Bassi,M-E-M1,M,170,122.5,192.5,485,SBD,Single-ply,1,82.5,74.3
+Nirmal Bassi,M-E-M1,M,170,122.5,192.5,485,SBD,Single-ply,1,82.5,74.3
 P. Hughes,M-E-M1,M,220,177.5,210,607.5,SBD,Single-ply,2,82.5,80.6
 M. Macey,M-E-M1,M,230,135,227.5,592.5,SBD,Single-ply,3,82.5,82.5
 M. Eyre,M-E-M1,M,180,,,,SBD,Single-ply,DQ,82.5,81.5
@@ -32,7 +32,7 @@ J. Harness,M-E-M1,M,270,175,260,705,SBD,Single-ply,1,90,88.8
 S. Porter,M-E-M1,M,260,185,250,695,SBD,Single-ply,2,90,88.7
 J. Rice,M-E-M1,M,260,185,240,685,SBD,Single-ply,3,90,87.4
 W. Carter,M-E-M1,M,230,170,250,650,SBD,Single-ply,4,90,89.8
-S. Bain,M-E-M1,M,227.5,155,227.5,610,SBD,Single-ply,5,90,87.7
+Steve Bain,M-E-M1,M,227.5,155,227.5,610,SBD,Single-ply,5,90,87.7
 A. Stevens,M-E-M1,M,220,180,210,610,SBD,Single-ply,6,90,88.8
 J. Banks,M-E-M1,M,220,145,240,605,SBD,Single-ply,7,90,89.9
 I. Kinghorn,M-E-M1,M,237.5,220,235,692.5,SBD,Single-ply,1,100,99.1
@@ -41,9 +41,9 @@ S. Blacknell,M-E-M1,M,237.5,165,255,657.5,SBD,Single-ply,3,100,98.9
 Andrew Rodney,M-E-M1,M,332.5,190,300,822.5,SBD,Single-ply,1,110,109.6
 Brian Lee,M-E-M1,M,287.5,217.5,295,800,SBD,Single-ply,1,125,119.8
 P. Laing,M-E-M1,M,280,170,312.5,762.5,SBD,Single-ply,2,125,121.8
-G. Poole,M-E-M1,M,320,160,270,750,SBD,Single-ply,3,125,112.7
+Geoff Poole,M-E-M1,M,320,160,270,750,SBD,Single-ply,3,125,112.7
 Phil Frost,M-E-M1,M,260,192.5,260,712.5,SBD,Single-ply,4,125,115.6
-F. Beckles,M-E-M1,M,270,160,280,710,SBD,Single-ply,5,125,118.4
+Frank Beckles,M-E-M1,M,270,160,280,710,SBD,Single-ply,5,125,118.4
 M. Mcbride,M-E-M2,M,200,115,230,545,SBD,Single-ply,1,67.5,67.5
 J. Hibbert,M-E-M2,M,185,140,220,545,SBD,Single-ply,2,67.5,67
 Stan Macrow,M-E-M2,M,202.5,155,220,577.5,SBD,Single-ply,1,75,74.1
@@ -53,13 +53,13 @@ Miguel Flores,M-E-M2,M,230,90,200,520,SBD,Single-ply,4,75,71.2
 D. Barnes,M-E-M2,M,250,160,305.5,715.5,SBD,Single-ply,1,82.5,82
 Mick Amey,M-E-M2,M,190,105,215,510,SBD,Single-ply,2,82.5,76
 Kevin Jane,M-E-M2,M,255,165,280,700,SBD,Single-ply,1,90,89.6
-P. Kerridge,M-E-M2,M,192.5,122.5,220,535,SBD,Single-ply,2,90,89.1
+Paul Kerridge,M-E-M2,M,192.5,122.5,220,535,SBD,Single-ply,2,90,89.1
 Brian Baker,M-E-M2,M,170,25,170,365,SBD,Single-ply,3,90,89.7
-K. Williams,M-E-M2,M,215,150,225,590,SBD,Single-ply,1,100,94.8
+Ken Williams #1,M-E-M2,M,215,150,225,590,SBD,Single-ply,1,100,94.8
 Bob Baxter,M-E-M2,M,200,132.5,200,532.5,SBD,Single-ply,2,100,93.2
-A. White,M-E-M2,M,260,150,300,710,SBD,Single-ply,1,110,109
-A. Kerr,M-E-M2,M,282.5,197.5,300,780,SBD,Single-ply,1,125+,135.2
-R. Powell,M-E-M3,M,145,85,180,410,SBD,Single-ply,1,67.5,67.2
+Arthur White,M-E-M2,M,260,150,300,710,SBD,Single-ply,1,110,109
+Andy Kerr,M-E-M2,M,282.5,197.5,300,780,SBD,Single-ply,1,125+,135.2
+Roger Powell,M-E-M3,M,145,85,180,410,SBD,Single-ply,1,67.5,67.2
 T. Harvey,M-E-M3,M,110,70,165,345,SBD,Single-ply,2,67.5,66.7
 J. Higgins,M-E-M3,M,200,127.5,215,542.5,SBD,Single-ply,1,82.5,81.4
 D. Kirkland,M-E-M3,M,145,117.5,185,447.5,SBD,Single-ply,2,82.5,80.5

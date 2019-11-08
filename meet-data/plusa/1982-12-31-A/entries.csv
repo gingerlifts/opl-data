@@ -2,11 +2,11 @@ Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 Chuck Mooney,52,Open,M,127.5,82.5,182.5,392.5,SBD,Single-ply,1
 R. Casey,52,Open,M,110,85,132.5,327.5,SBD,Single-ply,2
 Brian Vales,56,Open,M,165,110,175,450,SBD,Single-ply,1
-R. Yates,56,Open,M,127.5,85,160,372.5,SBD,Single-ply,2
+Rick Yates,56,Open,M,127.5,85,160,372.5,SBD,Single-ply,2
 Dan Palmateer,60,Open,M,202.5,122.5,185,510,SBD,Single-ply,1
 Robert Wahl,67.5,Open,M,295,135,267.5,697.5,SBD,Single-ply,1
 M. Sarver,67.5,Open,M,175,125,212.5,512.5,SBD,Single-ply,2
-H. Rome,67.5,Open,M,157.5,110,175,442.5,SBD,Single-ply,3
+Harry Rome,67.5,Open,M,157.5,110,175,442.5,SBD,Single-ply,3
 Butch Brown,75,Open,M,265,147.5,285,697.5,SBD,Single-ply,1
 Don Hundley,75,Open,M,260,117.5,275,652.5,SBD,Single-ply,2
 F. Sideri,75,Open,M,220,157.5,212.5,590,SBD,Single-ply,3
@@ -21,7 +21,7 @@ C. Wilson,82.5,Open,M,215,137.5,227.5,580,SBD,Single-ply,6
 T. Russell,82.5,Open,M,190,145,192.5,527.5,SBD,Single-ply,7
 C. Rome,82.5,Open,M,192.5,127.5,195,515,SBD,Single-ply,8
 Buster Whitener,90,Open,M,272.5,177.5,297.5,747.5,SBD,Single-ply,1
-T. Culp,90,Open,M,282.5,170,272.5,725,SBD,Single-ply,2
+Tony Culp,90,Open,M,282.5,170,272.5,725,SBD,Single-ply,2
 B. Gill,90,Open,M,282.5,150,275,707.5,SBD,Single-ply,3
 D. Drenen,90,Open,M,242.5,192.5,255,690,SBD,Single-ply,4
 J. Wilhoit,90,Open,M,272.5,165,250,687.5,SBD,Single-ply,5
@@ -30,11 +30,11 @@ J. Mikolay,90,Open,M,232.5,170,232.5,635,SBD,Single-ply,7
 Don Hall,100,Open,M,267.5,157.5,260,685,SBD,Single-ply,1
 P. Whatley,100,Open,M,200,157.5,272.5,630,SBD,Single-ply,2
 D. McGregor,100,Open,M,205,135,185,525,SBD,Single-ply,3
-Randy Scott,110,Open,M,302.5,220,282.5,805,SBD,Single-ply,1
-N. Busick,110,Open,M,295,205,255,755,SBD,Single-ply,2
-S. Jarvis,110,Open,M,240,150,242.5,632.5,SBD,Single-ply,3
+Randy Scott #1,110,Open,M,302.5,220,282.5,805,SBD,Single-ply,1
+Nick Busick,110,Open,M,295,205,255,755,SBD,Single-ply,2
+Steve Jarvis #1,110,Open,M,240,150,242.5,632.5,SBD,Single-ply,3
 Dave Waddington,125,Open,M,412.5,240,327.5,980,SBD,Single-ply,1
-C. Cunningham,125,Open,M,317.5,182.5,297.5,797.5,SBD,Single-ply,2
+Corey Cunningham,125,Open,M,317.5,182.5,297.5,797.5,SBD,Single-ply,2
 James Oesh,125+,Open,M,307.5,192.5,302.5,802.5,SBD,Single-ply,1
 J. Cook,125+,Open,M,282.5,175,317.5,775,SBD,Single-ply,2
 Steve Lindway,125+,Open,M,320,165,272.5,757.5,SBD,Single-ply,3
@@ -83,7 +83,7 @@ Stan Judd,125,Class II,M,260,175,275,710,SBD,Single-ply,1
 Steve Judd,125,Class II,M,227.5,165,250,642.5,SBD,Single-ply,2
 T. Lewis,125,Class II,M,252.5,142.5,230,625,SBD,Single-ply,3
 W. Lilly,125,Class II,M,170,132.5,210,512.5,SBD,Single-ply,4
-R. Coyer,125+,Class II,M,220,147.5,245,612.5,SBD,Single-ply,1
+Bob Coyer,125+,Class II,M,220,147.5,245,612.5,SBD,Single-ply,1
 Mary Ryan-Jeffrey,52,Open,F,140,80,145,365,SBD,Single-ply,1
 L. Smith,56,Open,F,95,37.5,107.5,240,SBD,Single-ply,1
 J. Smith,60,Open,F,90,35,105,230,SBD,Single-ply,1

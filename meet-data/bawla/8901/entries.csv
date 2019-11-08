@@ -1,14 +1,14 @@
 Name,Team,BodyweightKg,WeightClassKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Sex,Division,Place
 Helen Wolsey,WA,43.15,44,120,60,137.5,317.5,SBD,Single-ply,F,Open,1
-C. Coleman,SE,43.35,44,82.5,37.5,102.5,222.5,SBD,Single-ply,F,Open,2
+Christine Coleman,SE,43.35,44,82.5,37.5,102.5,222.5,SBD,Single-ply,F,Open,2
 Jodie Cook,NM,43,44,75,35,95,205,SBD,Single-ply,F,Open,3
 Karen Cameron,SE,46.9,48,125,62.5,137.5,325,SBD,Single-ply,F,Open,1
-A. Brown,SW,45.45,48,95,40,138,272.5,SBD,Single-ply,F,Open,2
-H. Lawson,YNE,47.45,48,97.5,40,90,227.5,SBD,Single-ply,F,Open,3
-D. Daniels,SM,45.45,48,80,35,110,225,SBD,Single-ply,F,Open,4
+Ann Brown,SW,45.45,48,95,40,138,272.5,SBD,Single-ply,F,Open,2
+Heather Lawson,YNE,47.45,48,97.5,40,90,227.5,SBD,Single-ply,F,Open,3
+Deborah Daniels,SM,45.45,48,80,35,110,225,SBD,Single-ply,F,Open,4
 Enid Dixon,YNE,45.85,48,57.5,35,92.5,185,SBD,Single-ply,F,Open,5
 Lesley Manester,SE,51.6,52,130,72.5,145,347.5,SBD,Single-ply,F,Open,1
-J. DeWhalley,SE,51.05,52,110,52.5,135,297.55,SBD,Single-ply,F,Open,2
+Jayne DeWhalley,SE,51.05,52,110,52.5,135,297.55,SBD,Single-ply,F,Open,2
 J. Horn,NW,51.75,52,105,37.5,127.5,270,SBD,Single-ply,F,Open,3
 G. Gardner,NW,52,52,92.5,50,115,257.5,SBD,Single-ply,F,Open,4
 Toni Hollis,SM,48.7,52,85,,,,SBD,Single-ply,F,Open,DQ
@@ -41,7 +41,7 @@ Judith Oakes,SE,74.55,75,202.5,115,215,532.5,SBD,Single-ply,F,Open,1
 T. Dunning,NM,73.5,75,155,80,180,415,SBD,Single-ply,F,Open,2
 T. Dove,EM,73.7,75,160,65,150,375,SBD,Single-ply,F,Open,3
 D. Reeves,YNE,67.9,75,157.5,,,,SBD,Single-ply,F,Open,DQ
-H. Williams,NW,75.2,82.5,172.5,82.5,167.5,422.5,SBD,Single-ply,F,Open,1
+Helen Williams #1,NW,75.2,82.5,172.5,82.5,167.5,422.5,SBD,Single-ply,F,Open,1
 Suzanne Smith #4,GL,75.05,82.5,147.5,75,182.5,405,SBD,Single-ply,F,Open,2
 K. Wilson,WM,80.6,82.5,140,75,170,385,SBD,Single-ply,F,Open,3
 Carole Springett,YNE,76.35,82.5,140,67.5,147.5,355,SBD,Single-ply,F,Open,4
@@ -50,4 +50,4 @@ Smith-Williams,WM,83.05,90,175,115,195,485,SBD,Single-ply,F,Open,1
 Beverley Martin,WM,89,90,195,80,202.5,477.5,SBD,Single-ply,F,Open,2
 Myrtle Augee,GL,93.45,90+,212.5,122.5,225,560,SBD,Single-ply,F,Open,1
 Jacqueline Pepper,SE,90.1,90+,170,85,182.5,437.5,SBD,Single-ply,F,Open,2
-C. Bonner,SM,95.6,90+,162.5,80,170,412.5,SBD,Single-ply,F,Open,3
+Caroline Bonner,SM,95.6,90+,162.5,80,170,412.5,SBD,Single-ply,F,Open,3

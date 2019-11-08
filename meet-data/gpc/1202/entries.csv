@@ -64,18 +64,18 @@ DQ,Arnold Gavaj,T3,Slovakia,86.7,-200,-200,-200,,,,,,,,,,,,,,90,M,1993,Wraps,SBD
 1,Hrvoje Sirovec,T3,Croatia,100,-260,-280,280,280,,160,170,-175,170,,240,-255,-255,240,,690,100,M,1992,Wraps,SBD
 2,Roman Salaba,T3,Czechia,91.1,-170,180,200,200,,100,110,-120,110,,210,220,-240,220,,530,100,M,1993,Wraps,SBD
 1,Valentin Ver,J,Hungary,95.5,260,-280,-285,260,,120,140,160,160,,270,-290,,270,,690,100,M,1990,Wraps,SBD
-2,Adam Baksza,J,Hungary,99.6,250,-265,-265,250,,155,170,-175,170,,225,240,255,255,,675,100,M,1990,Wraps,SBD
+2,Ádám Baksza,J,Hungary,99.6,250,-265,-265,250,,155,170,-175,170,,225,240,255,255,,675,100,M,1990,Wraps,SBD
 3,Máté Szabo,J,Slovakia,97.6,190,205,220,220,,165,172.5,180,180,,220,-245,-245,220,,620,100,M,1988,Wraps,SBD
 4,Miroslav Drugda,J,Slovakia,95.8,150,180,-190,180,,120,130,-135,130,,200,,,200,,510,100,M,1989,Wraps,SBD
 1,Roman Zverev,O,Russia,99.5,310,320,330,330,,180,185,-190,185,,285,300,-310,300,,815,100,M,1988,Wraps,SBD
 2,Oleg Materikin,O,Russia,97.5,300,-310,-310,300,,190,-200,-200,190,,260,280,-300,280,,770,100,M,1982,Wraps,SBD
 3,Ľubomír Vidiščák,O,Slovakia,99.3,245,-252.5,-255,245,,160,165,-175,165,,245,255,-267.5,255,,665,100,M,1987,Wraps,SBD
 4,Imad Bahria,O,France,96.6,235,250,260,260,,127.5,135,-137.5,135,,260,-272.5,-280,260,,655,100,M,1975,Wraps,SBD
-1,Attila Toth,M1,Hungary,98.9,230,-245,-245,230,,165,-175,-175,165,,235,245,-255,245,,640,100,M,1970,Wraps,SBD
+1,Attila Tóth,M1,Hungary,98.9,230,-245,-245,230,,165,-175,-175,165,,235,245,-255,245,,640,100,M,1970,Wraps,SBD
 1,Vladimír Šlesingr,M2,Czechia,95.2,160,-185,-200,160,,110,120,-122.5,120,,-200,200,225,225,,505,100,M,1966,Wraps,SBD
 1,László Köteles,M3,Hungary,91.1,80,90,100,100,,100,110,120,120,,80,100,120,120,,340,100,M,1958,Wraps,SBD
 1,Roman Denikaev,M4,Russia,98.3,145,155,160,160,,120,130,,130,,145,160,180,180,,470,100,M,1955,Wraps,SBD
-1,Jozsef Imre Kovacs,M5,Hungary,92.6,140,150,160,160,,130,140,-150,140,,170,180,190,190,,490,100,M,1948,Wraps,SBD
+1,József Imre Kovács,M5,Hungary,92.6,140,150,160,160,,130,140,-150,140,,170,180,190,190,,490,100,M,1948,Wraps,SBD
 2,Vladimír Svoboda,M5,Czechia,93.8,145,155,165,165,,110,115,120,120,,145,155,165,165,,450,100,M,1952,Wraps,SBD
 1,František Esser,M6,Czechia,97.6,120,-140,145,145,,110,122.5,-125,122.5,,170,192.5,200,200,,467.5,100,M,1946,Wraps,SBD
 2,Vilmos Karoly Gruber,M6,Hungary,96,135,150,155,155,,65,72.5,75,75,,160,175,180,180,,410,100,M,1943,Wraps,SBD
@@ -116,7 +116,7 @@ DQ,Ferenc Gyenes,M1,Hungary,112.6,-205,-205,-205,,,,,,,,,,,,,,125,M,1968,Wraps,S
 1,Alexandar Stankovic,O,Serbia,134.6,280,300,-315,300,,190,200,,200,,300,320,336,336,-342.5,836,140,M,1982,Wraps,SBD
 2,Jerome Hubert Pierre Reslinger,O,France,132.3,,,240,240,,180,190,,190,,220,240,,240,,670,140,M,1981,Wraps,SBD
 1,Spiros Markopoulos,M2,Australia,126.6,200,220,235,235,,140,150,-160,150,,140,,,140,,525,140,M,1964,Wraps,SBD
-1,Zachary Turner,T3,Australia,144.8,295,310,-317.5,310,,170,182.5,190,190,,65,,,65,,565,140+,M,1994,Wraps,SBD
+1,Zach Turner #1,T3,Australia,144.8,295,310,-317.5,310,,170,182.5,190,190,,65,,,65,,565,140+,M,1994,Wraps,SBD
 1,Jack Pollard,J,Australia,152.3,-280,280,-300,280,,170,180,185,185,,280,-300,-300,280,,745,140+,M,1991,Wraps,SBD
 1,Freyded Rankyn Bejerano,O,Spain,166.3,270,290,-305,290,,217.5,230,235,235,,260,285,300,300,,825,140+,M,1975,Wraps,SBD
 2,Danijel Škopec,O,Croatia,140.7,240,-260,-260,240,,140,,,140,,250,270,,270,,650,140+,M,1982,Wraps,SBD
@@ -155,7 +155,7 @@ DQ,Ferenc Gyenes,M1,Hungary,112.6,-205,-205,-205,,,,,,,,,,,,,,125,M,1968,Wraps,S
 1,Srdjan Trifunovic,O,Serbia,65.4,180,-205,-210,180,,85,-112.5,-125,85,,170,200,-210,200,,465,67.5,M,1973,Multi-ply,SBD
 1,Rene Michalov,T3,Slovakia,74.1,-215,220,235,235,,145,150,157.5,157.5,,210,220,227.5,227.5,,620,75,M,1993,Multi-ply,SBD
 2,Jozef Grega,T3,Slovakia,72.1,-220,220,235,235,-260,135,145,152.5,152.5,,200,220,-227.5,220,,607.5,75,M,1993,Multi-ply,SBD
-1,Toni Olavi Mikael Haaparanta,O,Finland,74.6,-315,315,-330,315,,-195,-195,200,200,,210,235,-257.5,235,,750,75,M,1973,Multi-ply,SBD
+1,Toni Haaparanta,O,Finland,74.6,-315,315,-330,315,,-195,-195,200,200,,210,235,-257.5,235,,750,75,M,1973,Multi-ply,SBD
 2,Branko Ostojič,O,Serbia,74.1,180,200,215,215,,120,150,-160,150,,210,240,252.5,252.5,,617.5,75,M,1979,Multi-ply,SBD
 3,Erni Gregorčič,O,Slovakia,74.4,200,215,225,225,,160,170,-175,170,,190,210,221,221,,616,75,M,1976,Multi-ply,SBD
 DQ,Gerard McNamara #1,M2,Ireland,74.8,,,,,,,,,,,,,,,,,75,M,1963,Multi-ply,SBD
@@ -228,7 +228,7 @@ DQ,Marek Kerekes,O,Slovakia,125.3,290,-310,,290,,-200,-200,-207.5,,,,,,,,,140,M,
 1,Eva Orenicová,M5,Slovakia,52,,,,,,50,55,-60,55,,,,,,,55,52,F,1951,Raw,B
 1,Patricia Kurillova,T3,Slovakia,53.3,,,,,,50,-55,-55,50,,,,,,,50,56,F,1993,Raw,B
 1,Natasa Janjic,O,Serbia,54.7,,,,,,-85,85,-92,85,,,,,,,85,56,F,1980,Raw,B
-1,Miroslava Nagajdova,T3,Slovakia,58.4,,,,,,50,55,57.5,57.5,-60,,,,,,57.5,60,F,1992,Raw,B
+1,Miroslava Nagajdová,T3,Slovakia,58.4,,,,,,50,55,57.5,57.5,-60,,,,,,57.5,60,F,1992,Raw,B
 1,Maria Kavuľova,J,Slovakia,59.1,,,,,,50,55,-57.5,55,,,,,,,55,60,F,1990,Raw,B
 1,Martina Namešpetrova,O,Slovakia,59.8,,,,,,75,80,85,85,-87.5,,,,,,85,60,F,1984,Raw,B
 2,Terezia Mila,O,Slovakia,58.4,,,,,,-70,80,-85,80,,,,,,,80,60,F,1975,Raw,B
@@ -306,7 +306,7 @@ DQ,Marek Kerekes,O,Slovakia,125.3,290,-310,,290,,-200,-200,-207.5,,,,,,,,,140,M,
 2,Gabor Berek,O,Hungary,95.5,,,,,,210,220,227.5,227.5,,,,,,,227.5,100,M,1987,Raw,B
 3,Vladimir Flimel,O,Slovakia,98.5,,,,,,215,222.5,-227.5,222.5,,,,,,,222.5,100,M,1976,Raw,B
 4,Róbert Svanczár,O,Slovakia,94.2,,,,,,170,180,187.5,187.5,,,,,,,187.5,100,M,1985,Raw,B
-5,Sandor Lukacs,O,Hungary,95.9,,,,,,170,180,-190,180,,,,,,,180,100,M,1985,Raw,B
+5,Sándor Lukács,O,Hungary,95.9,,,,,,170,180,-190,180,,,,,,,180,100,M,1985,Raw,B
 6,Zsolt Vajda,O,Slovakia,98.4,,,,,,170,-180,-180,170,,,,,,,170,100,M,1978,Raw,B
 7,Imrich Činčura,O,Slovakia,98.4,,,,,,155,162.5,167.5,167.5,,,,,,,167.5,100,M,1954,Raw,B
 DQ,Marek Namešpetra,O,Slovakia,97.9,,,,,,,,,,,,,,,,,100,M,1978,Raw,B
@@ -344,7 +344,7 @@ DQ,Stefan Manasić,T3,Serbia,105.7,,,,,,-180,,,,,,,,,,,110,M,1993,Raw,B
 2,Erik Susztay,O,Slovakia,124.4,,,,,,205,-215,-215,205,,,,,,,205,125,M,1972,Raw,B
 3,David Zdražil,O,Czechia,123.5,,,,,,175,190,-205,190,,,,,,,190,125,M,1978,Raw,B
 1,Ernesto Queiruga,M1,Argentina,116.7,,,,,,-200,200,220,220,-235,,,,,,220,125,M,1970,Raw,B
-2,Jan Hubay,M1,Slovakia,119.1,,,,,,-165,165,-170,165,,,,,,,165,125,M,1971,Raw,B
+2,Ján Hubay,M1,Slovakia,119.1,,,,,,-165,165,-170,165,,,,,,,165,125,M,1971,Raw,B
 1,Petri Billy Haavisto,M2,Finland,119.8,,,,,,165,175,186,186,,,,,,,186,125,M,1965,Raw,B
 2,Péter Szabó,M2,Slovakia,121.1,,,,,,160,167.5,-172.5,167.5,,,,,,,167.5,125,M,1964,Raw,B
 3,Gunnar Runnarsson,M2,Iceland,111.6,,,,,,145,155,,155,,,,,,,155,125,M,1965,Raw,B
@@ -467,7 +467,7 @@ DQ,Tamás Sántha,O,Hungary,128.8,,,,,,-290,-290,-290,,,,,,,,,140,M,1982,Multi-p
 DQ,Willan Hunt,O,Australia,129.6,,,,,,-250,-250,-275,,,,,,,,,140,M,1988,Multi-ply,B
 1,Jan Vítek,M1,Czechia,137.9,,,,,,185,-195,200,200,,,,,,,200,140,M,1971,Multi-ply,B
 1,Jozef Péter,M5,Slovakia,129.4,,,,,,170,-190,-200,170,,,,,,,170,140,M,1950,Multi-ply,B
-1,Zachary Turner,T3,Australia,146,,,,,,225,241,250,250,-260,,,,,,250,140+,M,1994,Multi-ply,B
+1,Zach Turner #1,T3,Australia,146,,,,,,225,241,250,250,-260,,,,,,250,140+,M,1994,Multi-ply,B
 1,Kari Markku Kalliola,O,Finland,166.7,,,,,,280,300,,300,,,,,,,300,140+,M,1963,Multi-ply,B
 2,Marek Pivovarnik,O,Slovakia,140.2,,,,,,215,225,230,230,,,,,,,230,140+,M,1984,Multi-ply,B
 1,Péter Mihály,M3,Slovakia,143.5,,,,,,200,,,200,,,,,,,200,140+,M,1958,Multi-ply,B

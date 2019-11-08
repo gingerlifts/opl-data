@@ -2,11 +2,11 @@ Name,WeightClassKg,Division,Sex,Age,Event,Squat1Kg,Squat2Kg,Best3SquatKg,Best3Be
 Max Peek #1,67.5,Masters,M,55,SBD,,,175,97.5,192.5,465,Single-ply,1
 J. Christian,75,Masters,M,44,SBD,,,202.5,122.5,250,575,Single-ply,1
 K. Hughes,75,Masters,M,51,SBD,,,197.5,97.5,185,480,Single-ply,2
-Van Cleave,82.5,Masters,M,44,SBD,,,265,137.5,245,647.5,Single-ply,1
+Mike VanCleave,82.5,Masters,M,44,SBD,,,265,137.5,245,647.5,Single-ply,1
 B. Corbin,90,Masters,M,50,SBD,,,210,142.5,227.5,580,Single-ply,1
 L. Archer,90,Masters,M,40,SBD,,,212.5,122.5,210,545,Single-ply,2
 H. Bodden,90,Masters,M,47,SBD,,,142.5,122.5,170,435,Single-ply,3
-C. King,100,Masters,M,40,SBD,,,250,185,255,690,Single-ply,1
+Clifford King,100,Masters,M,40,SBD,,,250,185,255,690,Single-ply,1
 J. Huckabay,100,Masters,M,48,SBD,,,215,152.5,227.5,595,Single-ply,2
 J. Hamiter,100,Masters,M,43,SBD,,,210,150,227.5,587.5,Single-ply,3
 K. Appel,100,Masters,M,43,SBD,,,207.5,140,230,577.5,Single-ply,4
@@ -42,7 +42,7 @@ L. Herrera,52,Teen,F,,SBD,,,42.5,30,70,142.5,Single-ply,3
 Susan Woolsey,56,Teen,F,,SBD,,,67.5,45,80,192.5,Single-ply,1
 D. Nonte,52,Open,F,,SBD,,,95,47.5,127.5,270,Single-ply,1
 A. Yamilee,52,Open,F,,SBD,,,62.5,40,102.5,205,Single-ply,2
-J. Juergens,75,Open,F,,SBD,,,142.5,77.5,150,370,Single-ply,1
+Jane Juergens,75,Open,F,,SBD,,,142.5,77.5,150,370,Single-ply,1
 P. Walls,90,Open,F,,SBD,,,190,100,162.5,452.5,Single-ply,1
 T. Malone,90+,Open,F,,SBD,,,,,,,Single-ply,DQ
 K. Mathews,60,Open,M,,SBD,,,160,120,205,485,Single-ply,1
@@ -59,7 +59,7 @@ Larry Hartnett,82.5,Open,M,,SBD,,,,,,,Single-ply,DQ
 K. Johnson,90,Open,M,,SBD,,,300,175,325,800,Single-ply,1
 Bill Ellis,90,Open,M,,SBD,,,305,192.5,265,762.5,Single-ply,2
 J. Hirt,90,Open,M,,SBD,,,245,160,285,690,Single-ply,3
-C. Garcia,100,Open,M,,SBD,,,337.5,182.5,292.5,812.5,Single-ply,1
+Chris Garcia,100,Open,M,,SBD,,,337.5,182.5,292.5,812.5,Single-ply,1
 J. Adams,100,Open,M,,SBD,,,327.5,187.5,285,800,Single-ply,2
 T. An #1,100,Open,M,,SBD,,,272.5,170,240,682.5,Single-ply,3
 W. Cooper,100,Open,M,,SBD,,,227.5,150,295,672.5,Single-ply,4
@@ -67,12 +67,12 @@ T. Bruner,100,Open,M,,SBD,,,312.5,192.5,,,Single-ply,DQ
 B. Thomas,110,Open,M,,SBD,,,307.5,197.5,297.5,802.5,Single-ply,1
 L. Hernandez,110,Open,M,,SBD,,,295,212.5,287.5,795,Single-ply,2
 D. Raymond #2,110,Open,M,,SBD,,,,,,,Single-ply,DQ
-D. Mallard,110,Open,M,,SBD,,,,,,,Single-ply,DQ
+Deryl Mallard,110,Open,M,,SBD,,,,,,,Single-ply,DQ
 J. Smith #12,125,Open,M,,SBD,,,320,160,275,755,Single-ply,1
 T. Oliver,125,Open,M,,SBD,,,310,182.5,255,747.5,Single-ply,2
 W. Luna,125,Open,M,,SBD,,,287.5,157.5,245,690,Single-ply,3
 Frank Luna #2,125+,Open,M,,SBD,,,372.5,202.5,290,865,Single-ply,1
-Anthony Clark,125+,Open,M,,SBD,415,-450,415,,,,Single-ply,DQ
+Anthony Clark #1,125+,Open,M,,SBD,415,-450,415,,,,Single-ply,DQ
 K. Ponton,60,Below Class I,M,,SBD,,,150,115,170,435,Single-ply,1
 H. Meier,67.5,Below Class I,M,,SBD,,,162.5,120,182.5,465,Single-ply,1
 P. Inskeep,67.5,Below Class I,M,,SBD,,,157.5,112.5,185,455,Single-ply,2
@@ -103,7 +103,7 @@ J. Putnam,110,Below Class I,M,,SBD,,,227.5,170,227.5,625,Single-ply,1
 R. Womack,110,Below Class I,M,,SBD,,,217.5,155,212.5,585,Single-ply,2
 B. Oden #2,125,Below Class I,M,,SBD,,,317.5,195,267.5,780,Single-ply,1
 T. Oliver,125,Below Class I,M,,SBD,,,310,182.5,255,747.5,Single-ply,2
-J. Huddleston,125,Below Class I,M,,SBD,,,290,170,255,715,Single-ply,3
+Joe Huddleston,125,Below Class I,M,,SBD,,,290,170,255,715,Single-ply,3
 W. Luna,125,Below Class I,M,,SBD,,,287.5,157.5,245,690,Single-ply,4
 J. Coffman,125,Below Class I,M,,SBD,,,215,155,207.5,577.5,Single-ply,5
 P. Toennies,125,Below Class I,M,,SBD,,,,,,,Single-ply,DQ
@@ -139,7 +139,7 @@ B. Schiller,82.5,Open,M,,B,,,,142.5,,142.5,Single-ply,4
 M. Oliviery,82.5,Open,M,,B,,,,,,,Single-ply,DQ
 Bill Ellis,90,Open,M,,B,,,,192.5,,192.5,Single-ply,1
 J. Young,90,Open,M,,B,,,,185,,185,Single-ply,2
-C. King,100,Open,M,,B,,,,185,,185,Single-ply,2
+Clifford King,100,Open,M,,B,,,,185,,185,Single-ply,2
 T. An #1,100,Open,M,,B,,,,170,,170,Single-ply,3
 T. Huckabay,100,Open,M,,B,,,,152.5,,152.5,Single-ply,4
 T. Bruner,100,Open,M,,B,,,,192.5,,192.5,Single-ply,1
@@ -150,7 +150,7 @@ R. Womack,110,Open,M,,B,,,,155,,155,Single-ply,1
 B. Fincher,110,Open,M,,B,,,,152.5,,152.5,Single-ply,2
 J. Young,125,Open,M,,B,,,,210,,210,Single-ply,1
 I. Bright,125,Open,M,,B,,,,182.5,,182.5,Single-ply,2
-J. Huddleston,125,Open,M,,B,,,,170,,170,Single-ply,3
+Joe Huddleston,125,Open,M,,B,,,,170,,170,Single-ply,3
 J. Tabarlet,125,Open,M,,B,,,,170,,170,Single-ply,4
-R. Rivera,125+,Open,M,,B,,,,240,,240,Single-ply,1
-Anthony Clark,125+,Open,M,,B,,,,,,,Single-ply,DQ
+Ray Rivera,125+,Open,M,,B,,,,240,,240,Single-ply,1
+Anthony Clark #1,125+,Open,M,,B,,,,,,,Single-ply,DQ

@@ -1,5 +1,8 @@
 extern crate opltypes;
 
+mod ah;
+pub use crate::ah::ah;
+
 mod dots;
 pub use crate::dots::dots;
 
@@ -14,6 +17,9 @@ pub use crate::mcculloch::mcculloch;
 
 mod nasa;
 pub use crate::nasa::nasa;
+
+mod reshel;
+pub use crate::reshel::reshel;
 
 mod schwartzmalone;
 pub use crate::schwartzmalone::schwartzmalone;

@@ -1,5 +1,5 @@
 Name,WeightClassKg,Division,Sex,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
-Carlos Moreno,67.5,Open,M,,,135,,135,B,Single-ply,1
+Carlos Moreno #1,67.5,Open,M,,,135,,135,B,Single-ply,1
 Duane Madere,82.5,Open,M,,,192.5,,192.5,B,Single-ply,1
 J. Campos,82.5,Open,M,,,140,,140,B,Single-ply,2
 T. Mata Jr,90,Open,M,,,175,,175,B,Single-ply,1
@@ -10,7 +10,7 @@ E. Molina Jr,90,Open,M,,,137.5,,137.5,B,Single-ply,5
 T. Touchstone,100,Open,M,,,217.5,,217.5,B,Single-ply,1
 Wayne Hinds,100,Open,M,,,215,,215,B,Single-ply,2
 Steve Foster,110,Open,M,,,215,,215,B,Single-ply,1
-J. Stewart,125,Open,M,,,247.5,,247.5,B,Single-ply,2
+John Stewart,125,Open,M,,,247.5,,247.5,B,Single-ply,2
 Tiny Meeker,125,Open,M,,,255,,255,B,Single-ply,1
 Edward Beck,125,Open,M,,,192.5,,192.5,B,Single-ply,3
 David Gardner,75,Masters,M,,,130,,130,B,Single-ply,1
@@ -21,9 +21,9 @@ D. Shaw,90,Masters,M,,,160,,160,B,Single-ply,3
 Dan Bennett,90,Masters,M,,,97.5,,97.5,B,Single-ply,4
 D. Springer,100,Masters,M,,,187.5,,187.5,B,Single-ply,1
 E. Molina Sr,100,Masters,M,,,170,,170,B,Single-ply,2
-F. Siva Jr,100,Masters,M,,,112.5,,112.5,B,Single-ply,3
+Flip Silva Sr,100,Masters,M,,,112.5,,112.5,B,Single-ply,3
 Steve Foster,110,Masters,M,,,215,,215,B,Single-ply,1
-H. Hudson,125,Masters,M,,,130,,130,B,Single-ply,1
+Hal Hudson,125,Masters,M,,,130,,130,B,Single-ply,1
 Terrell Smith,75,Submasters,M,,,147.5,,147.5,B,Single-ply,1
 D. Muntz,90,Submasters,M,,,172.5,,172.5,B,Single-ply,1
 P. Lewis,90,Submasters,M,,,102.5,,102.5,B,Single-ply,2
@@ -57,7 +57,7 @@ R. Gil,90,Open,M,,,,,,SBD,Single-ply,DQ
 Wayne Hinds,100,Open,M,,242.5,215,250,707.5,SBD,Single-ply,5
 D. Broseman,100,Open,M,,262.5,152.5,255,670,SBD,Single-ply,6
 L. Loganbill,100,Open,M,,245,150,220,615,SBD,Single-ply,7
-S. Hambright,100,Open,M,,,,,,SBD,Single-ply,DQ
+Steve Hambright,100,Open,M,,,,,,SBD,Single-ply,DQ
 A. Kuehne,110,Open,M,,265,172.5,272.5,710,SBD,Single-ply,6
 K. Acosta,110,Open,M,,272.5,167.5,247.5,687.5,SBD,Single-ply,8
 B. Moore #2,110,Open,M,,235,157.5,265,657.5,SBD,Single-ply,10
@@ -70,8 +70,8 @@ D. Siferd,82.5,Masters 40-49,M,,172.5,142.5,170,485,SBD,Single-ply,1
 R. Miller,82.5,Masters 40-49,M,,170,112.5,192.5,475,SBD,Single-ply,2
 Peter Meheran,90,Masters 40-49,M,,245,130,262.5,637.5,SBD,Single-ply,1
 B. Haines,100,Masters 40-49,M,,272.5,162.5,262.5,697.5,SBD,Single-ply,1
-S. Rosenberg,100,Masters 40-49,M,,260,150,257.5,667.5,SBD,Single-ply,2
-G. Moreno,100,Masters 40-49,M,,260,152.5,230,642.5,SBD,Single-ply,3
+Steve Rosenberg,100,Masters 40-49,M,,260,150,257.5,667.5,SBD,Single-ply,2
+Gabriel Moreno #1,100,Masters 40-49,M,,260,152.5,230,642.5,SBD,Single-ply,3
 B. Wright,100,Masters 40-49,M,,217.5,172.5,220,610,SBD,Single-ply,4
 M. Villarreal,100,Masters 40-49,M,,227.5,172.5,172.5,572.5,SBD,Single-ply,5
 M. Smith,100,Masters 40-49,M,,200,132.5,227.5,560,SBD,Single-ply,6
@@ -88,14 +88,14 @@ E. Godfrey #4,90,Masters 50+,M,,182.5,112.5,185,480,SBD,Single-ply,2
 M. Ellsworth,100,Masters 50+,M,,150,65,142.5,357.5,SBD,Single-ply,1
 E. Kelley,110,Masters 50+,M,,197.5,112.5,182.5,492.5,SBD,Single-ply,1
 B. Ellerbee,125,Masters 50+,M,,237.5,155,215,607.5,SBD,Single-ply,1
-H. Hudson,125,Masters 50+,M,,200,130,242.5,572.5,SBD,Single-ply,2
+Hal Hudson,125,Masters 50+,M,,200,130,242.5,572.5,SBD,Single-ply,2
 M. McDaniel,125+,Open,M,,285,190,287.5,762.5,SBD,Single-ply,1
 S. Bell,125+,Open,M,,247.5,205,285,737.5,SBD,Single-ply,2
 Thuong Nguyen,56,Open,M,,195,112.5,205,512.5,SBD,Single-ply,1
-Carlos Moreno,67.5,Open,M,,227.5,135,215,577.5,SBD,Single-ply,1
+Carlos Moreno #1,67.5,Open,M,,227.5,135,215,577.5,SBD,Single-ply,1
 Michael Duhon,67.5,Open,M,,185,117.5,220,522.5,SBD,Single-ply,2
 John Tyree,75,Open,M,,257.5,165,282.5,705,SBD,Single-ply,1
-T. Riffe,75,Open,M,,222.5,147.5,242.5,612.5,SBD,Single-ply,2
+Tim Riffe,75,Open,M,,222.5,147.5,242.5,612.5,SBD,Single-ply,2
 C. Martinez,75,Open,M,,227.5,147.5,215,590,SBD,Single-ply,3
 E. Campos,75,Open,M,,205,155,217.5,577.5,SBD,Single-ply,5
 J. Sandler,75,Open,M,,,,,,SBD,Single-ply,DQ
@@ -122,7 +122,7 @@ R. Norris,110,Open,M,,260,137.5,287.5,685,SBD,Single-ply,9
 Mike Meza,110,Open,M,,,,,,SBD,Single-ply,DQ
 K. Kelly,125,Open,M,,282.5,165,275,722.5,SBD,Single-ply,2
 E. Back,125,Open,M,,285,192.5,320,797.5,SBD,Single-ply,1
-C. Rhodes,125,Open,M,,,,,,SBD,Single-ply,DQ
+Collin Rhodes #1,125,Open,M,,,,,,SBD,Single-ply,DQ
 Michael Duhon,67.5,Submasters,M,,185,117.5,205,507.5,SBD,Single-ply,1
 Terell Smith,75,Submasters,M,,177.5,147.5,227.5,552.5,SBD,Single-ply,1
 T. May,75,Submasters,M,,195,115,200,510,SBD,Single-ply,2
@@ -134,7 +134,7 @@ D. Muntz,90,Submasters,M,,232.5,172.5,250,655,SBD,Single-ply,2
 P. Lewis,90,Submasters,M,,165,102.5,192.5,460,SBD,Single-ply,3
 R. Thomas #10,90,Submasters,M,,152.5,132.5,175,460,SBD,Single-ply,4
 R. Nesuda,100,Submasters,M,,272.5,172.5,282.5,727.5,SBD,Single-ply,1
-S. Hambright,100,Submasters,M,,,,,,SBD,Single-ply,DQ
+Steve Hambright,100,Submasters,M,,,,,,SBD,Single-ply,DQ
 Edward Beck,125,Submasters,M,,285,192.5,320,797.5,SBD,Single-ply,1
 R. Schumann,125+,Teen,M,,,,,,SBD,Single-ply,DQ
 J. Velasquez,56,Teen,M,,150,100,152.5,402.5,SBD,Single-ply,1

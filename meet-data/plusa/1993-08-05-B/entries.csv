@@ -1,6 +1,6 @@
 Name,Age,WeightClassKg,Division,Sex,Best3SquatKg,Squat4Kg,Best3BenchKg,Bench4Kg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Kim Plumb,,60,Submasters 36-39,F,,,50,,,,B,Single-ply,DQ
-Silvani,,90+,Submasters 36-39,F,,,97.5,,,,B,Single-ply,DQ
+M. Silvani,,90+,Submasters 36-39,F,,,97.5,,,,B,Single-ply,DQ
 Mary Ann Yarborough,,60,Masters 40-44,F,,,65,,,,B,Single-ply,DQ
 Gipson,,67.5,Masters 40-44,F,,,50,,,,B,Single-ply,DQ
 Marshall,,75,Masters 40-44,F,,,67.5,,,,B,Single-ply,DQ
@@ -17,7 +17,7 @@ Hairston,,125,Submasters 33-35,M,,,182.5,,,,B,Single-ply,DQ
 Phillips,,125,Submasters 33-35,M,,,155,,,,B,Single-ply,DQ
 Green,,125,Submasters 33-35,M,,,107.5,,,,B,Single-ply,DQ
 Hubbard,,125+,Submasters 33-35,M,,,182.5,,,,B,Single-ply,DQ
-Finocchino,,125+,Submasters 33-35,M,,,177.5,,,,B,Single-ply,DQ
+G. Finocchio,,125+,Submasters 33-35,M,,,177.5,,,,B,Single-ply,DQ
 Mike Wenning,,56,Submasters 36-39,M,,,126,127.5,,,B,Single-ply,DQ
 Dave Kennedy #1,,56,Submasters 36-39,M,,,95,,,,B,Single-ply,DQ
 Higginson,,75,Submasters 36-39,M,,,130,,,,B,Single-ply,DQ
@@ -78,7 +78,7 @@ Rice,,110,Masters 65-69,M,,,77.5,,,,B,Single-ply,DQ
 Davis,,125,Masters 65-69,M,,,145,,,,B,Single-ply,DQ
 Hensley,,125,Masters 65-69,M,,,112.5,,,,B,Single-ply,DQ
 Kellogg,,56,Submasters 33-35,F,87.5,,45,,95,227.5,SBD,Single-ply,1
-Wilder,,60,Submasters 33-35,F,100,,57.5,,137.5,295,SBD,Single-ply,1
+C. Wilder,,60,Submasters 33-35,F,100,,57.5,,137.5,295,SBD,Single-ply,1
 Neff,,60,Submasters 33-35,F,100,,52.5,,115,267.5,SBD,Single-ply,2
 Plumb,,60,Submasters 36-39,F,100,,50,,140,290,SBD,Single-ply,1
 Berry,,52,Masters 40-44,F,80,,47.5,,105,232.5,SBD,Single-ply,1
@@ -100,14 +100,14 @@ D. Cordial,,125+,Submasters 33-35,M,300,,212.5,,260,772.5,SBD,Single-ply,1
 Hubbard,,125+,Submasters 33-35,M,250,,182.5,,230,662.5,SBD,Single-ply,2
 Dave Kennedy #1,,56,Submasters 36-39,M,160,161,95,,162.5,417.5,SBD,Single-ply,1
 Plumb,,56,Submasters 36-39,M,142.5,,85,,172.5,400,SBD,Single-ply,2
-Dye,,67.5,Submasters 36-39,M,182.5,,112.5,,182.5,477.5,SBD,Single-ply,1
+Bob Dye,,67.5,Submasters 36-39,M,182.5,,112.5,,182.5,477.5,SBD,Single-ply,1
 Greg Guthrie,,75,Submasters 36-39,M,225,,140,,247.5,612.5,SBD,Single-ply,1
 Gallagher,,75,Submasters 36-39,M,227.5,,127.5,,252.5,607.5,SBD,Single-ply,2
 Navarre,,75,Submasters 36-39,M,232.5,,142.5,,225,600,SBD,Single-ply,3
 Donnie Cole,,82.5,Submasters 36-39,M,292.5,,137.5,,287.5,717.5,SBD,Single-ply,1
 Winkler,,82.5,Submasters 36-39,M,240,,150,,227.5,617.5,SBD,Single-ply,2
 Distretti,,82.5,Submasters 36-39,M,205,,142.5,,205,552.5,SBD,Single-ply,3
-Toy,,90,Submasters 36-39,M,247.5,,150,,227.5,625,SBD,Single-ply,1
+James Toy,,90,Submasters 36-39,M,247.5,,150,,227.5,625,SBD,Single-ply,1
 Adams,,90,Submasters 36-39,M,225,,157.5,,240,622.5,SBD,Single-ply,2
 Gipson,,90,Submasters 36-39,M,217.5,,137.5,,250,605,SBD,Single-ply,3
 Cordial,,90,Submasters 36-39,M,215,,132.5,,240,587.5,SBD,Single-ply,4
@@ -120,7 +120,7 @@ Shelby Jones #1,,110,Submasters 36-39,M,307.5,,160,,255,722,SBD,Single-ply,2
 Larry Prince,,110,Submasters 36-39,M,245,,177.5,,207.5,630,SBD,Single-ply,3
 Tom Weeks,,125,Submasters 36-39,M,250,,147.5,,280,677.5,SBD,Single-ply,1
 Roger Bell,,75,Masters 40-44,M,253.5,,152.5,,255,661,SBD,Single-ply,1
-Carman,,82.5,Masters 40-44,M,250,,150,,227.5,627.5,SBD,Single-ply,1
+Sam Carman,,82.5,Masters 40-44,M,250,,150,,227.5,627.5,SBD,Single-ply,1
 Boutte,,82.5,Masters 40-44,M,240,,125,,235,600,SBD,Single-ply,2
 Koplin,,82.5,Masters 40-44,M,205,,147.5,,205,557.5,SBD,Single-ply,3
 Leal,,82.5,Masters 40-44,M,205,,110,,227.5,542.5,SBD,Single-ply,4
@@ -134,13 +134,13 @@ Gipson,,110,Masters 40-44,M,295,,145,,320,760,SBD,Single-ply,1
 Morgan #2,,110,Masters 40-44,M,260,,162.5,,292.5,715,SBD,Single-ply,2
 Hill,,110,Masters 40-44,M,292.5,,165,,250,707.5,SBD,Single-ply,3
 Kirby,,110,Masters 40-44,M,272.5,,142.5,,265,680,SBD,Single-ply,4
-DeAnda,,125,Masters 40-44,M,280,,165,,237.5,682.5,SBD,Single-ply,1
-Rich Peters,,125,Masters 40-44,M,240,,147.5,,215,602.5,SBD,Single-ply,2
+Joe DeAnda,,125,Masters 40-44,M,280,,165,,237.5,682.5,SBD,Single-ply,1
+Richard Peters,,125,Masters 40-44,M,240,,147.5,,215,602.5,SBD,Single-ply,2
 Gary Reynolds,,125+,Masters 40-44,M,275,,192.5,,327.5,795,SBD,Single-ply,1
 Taylor,,125+,Masters 40-44,M,320,,200,,262.5,782.5,SBD,Single-ply,2
 Wolf,,125+,Masters 40-44,M,265,,165,,245,675,SBD,Single-ply,3
 Ritch,,125+,Masters 40-44,M,230,,147.5,,230,607.5,SBD,Single-ply,4
-Crouse,,67.5,Masters 45-49,M,150,,110,,182.5,442.5,SBD,Single-ply,1
+Kenneth Crouse,,67.5,Masters 45-49,M,150,,110,,182.5,442.5,SBD,Single-ply,1
 Wood,,67.5,Masters 45-49,M,117.5,,75,,160,352.5,SBD,Single-ply,2
 R. Shelton,,75,Masters 45-49,M,162.5,,102.5,,182.5,447.5,SBD,Single-ply,1
 Solan,,90,Masters 45-49,M,255,,160,,270,685,SBD,Single-ply,1
@@ -160,7 +160,7 @@ Cramer,,75,Masters 50-54,M,167.5,,110,,160,437.5,SBD,Single-ply,2
 Richard Glumac,50,82.5,Masters 50-54,M,240,,122.5,,282.5,645,SBD,Single-ply,1
 Johnson,,82.5,Masters 50-54,M,192.5,,127.5,,220,540,SBD,Single-ply,2
 Grech,,82.5,Masters 50-54,M,167.5,,100,,182.5,450,SBD,Single-ply,3
-Yeager,,90,Masters 50-54,M,187.5,,,,,,SBD,Single-ply,DQ
+J. Yeager,,90,Masters 50-54,M,187.5,,,,,,SBD,Single-ply,DQ
 Earl Davis,,100,Masters 50-54,M,240,,132.5,,232.5,605,SBD,Single-ply,1
 Arrington,,100,Masters 50-54,M,227.5,,125,,217.5,570,SBD,Single-ply,2
 White,,100,Masters 50-54,M,222.5,,162.5,,177.5,562.5,SBD,Single-ply,3

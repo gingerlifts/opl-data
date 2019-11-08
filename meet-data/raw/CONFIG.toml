@@ -1,3 +1,5 @@
+# Configuration for 100% RAW.
+
 [divisions]
     # Age in 100% RAW is determined by exact age on date of meet.
     open = {name = "Open", min = 0, max = 999, equipment="Raw"}
@@ -79,3 +81,6 @@
     1829 = ["ExemptWeightClassConsistency"]  # Used old classes for youth.
     1833 = ["ExemptWeightClassConsistency"]  # Used old classes for youth.
     1615 = ["ExemptWeightClassConsistency"]  # Used old classes for youth.
+    1203 = ["ExemptAge","ExemptWeightClassConsistency"] # Lifter of age 4, 44 used for youth.
+    1503 = ["ExemptWeightClassConsistency"]  # Used old classes for youth.
+    1906 = ["ExemptWeightClassConsistency"]  # Used old classes for youth.

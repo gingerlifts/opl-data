@@ -4,7 +4,7 @@ Place,Name,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Squat4Kg
 3,Jane White,UK,44,90,97.5,102.5,102.5,,50,55,57.5,57.5,,95,107.5,-110,107.5,,267.5,44,F,SBD,Single-ply
 1,Marie-France Vassart,Belgium,47.5,115,-120,120,120,,52.5,55,-57.5,55,,130,137.5,142.5,142.5,,317.5,48,F,SBD,Single-ply
 2,Eva Sanchez,Sweden,47.6,100,107.5,112.5,112.5,,52.5,57.5,60,60,,125,132.5,137.5,137.5,,310,48,F,SBD,Single-ply
-3,Godula von Bachhaus,Germany,47.9,-105,105,-115,105,,52.5,-57.5,57.5,57.5,,127.5,137.5,-150,137.5,,300,48,F,SBD,Single-ply
+3,Godula Bachhaus,Germany,47.9,-105,105,-115,105,,52.5,-57.5,57.5,57.5,,127.5,137.5,-150,137.5,,300,48,F,SBD,Single-ply
 4,Lena Wessmann,Sweden,47.5,110,-115,117.5,117.5,,50,55,57.5,57.5,,112.5,-122.5,122.5,122.5,,297.5,48,F,SBD,Single-ply
 5,Marie-Claire De Faria,France,47.8,85,95,-100,95,,55,60,-62.5,60,,120,130,-135,130,,285,48,F,SBD,Single-ply
 6,Tuija Karjalainen,Finland,47.3,110,117.5,-120,117.5,,50,57.5,-62.5,57.5,,105,-115,-115,105,,280,48,F,SBD,Single-ply
@@ -12,7 +12,7 @@ Place,Name,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Squat4Kg
 8,Edith Scherpf,Germany,47.8,105,-115,-115,105,,55,-57.5,-57.5,55,,110,-115,115,115,,275,48,F,SBD,Single-ply
 9,Irma Ruler,Netherlands,46,-100,100,-110,100,,45,47.5,-50,47.5,,-105,105,115,115,,262.5,48,F,SBD,Single-ply
 10,Anna Telesca,Italy,47.7,-80,-85,85,85,,40,-45,-45,40,,105,-115,-115,105,,230,48,F,SBD,Single-ply
-1,Joella Smal,Belgium,50.7,120,127.5,130,130,,62.5,65,-67.5,65,,145,-152.5,152.5,152.5,,347.5,52,F,SBD,Single-ply
+1,Joelle Smal,Belgium,50.7,120,127.5,130,130,,62.5,65,-67.5,65,,145,-152.5,152.5,152.5,,347.5,52,F,SBD,Single-ply
 2,Sisi Dolman,Netherlands,51.2,145,-157.5,-157.5,145,,50,55,57.5,57.5,,145,-150,-150,145,,347.5,52,F,SBD,Single-ply
 3,Bernadette Plouviez,Belgium,51.4,120,127.5,130,130,,-65,65,67.5,67.5,,132.5,137.5,142.5,142.5,,340,52,F,SBD,Single-ply
 4,Audhild Hansen,Norway,50.8,115,-120,122.5,122.5,,55,57.5,-60,57.5,,140,-145,145,145,,325,52,F,SBD,Single-ply
@@ -41,13 +41,13 @@ DQ,Catherine De Pauw,Belgium,54.3,112.5,-120,120,120,,52.5,55,-57.5,55,,-140,-14
 4,Claire Gerard,France,64.8,100,-110,-110,100,,97.5,102.5,-105,102.5,,130,140,-150,140,,342.5,67.5,F,SBD,Single-ply
 5,Irene Vietor,Germany,67.3,-130,-130,130,130,,57.5,-62.5,-62.5,57.5,,-137.5,137.5,-145,137.5,,325,67.5,F,SBD,Single-ply
 6,Nina Delre,Italy,62.2,90,97.5,-105,97.5,,52.5,-55,-55,52.5,,140,145,147.5,147.5,,297.5,67.5,F,SBD,Single-ply
-1,Patricia Morgan,UK,72.5,160,175,-185,175,,75,-82.5,82.5,82.5,,165,175,185,185,,442.5,75,F,SBD,Single-ply
+1,Patricia Morgan #3,UK,72.5,160,175,-185,175,,75,-82.5,82.5,82.5,,165,175,185,185,,442.5,75,F,SBD,Single-ply
 2,Taina Hakala-Rajala,Finland,74.6,150,-157.5,-160,150,,82.5,87.5,-90,87.5,,155,-167.5,167.5,167.5,,405,75,F,SBD,Single-ply
 3,Thea Borgstede,Netherlands,70.1,-135,140,145,145,,65,70,-72.5,70,,155,167.5,170,170,,385,75,F,SBD,Single-ply
 1,Judith Oakes,UK,78,185,197.5,207.5,207.5,,100,105,-110,105,,180,190,-202.5,190,,502.5,82.5,F,SBD,Single-ply
 2,Tiina Korenius,Finland,76.5,145,155,-160,155,,62.5,-67.5,-67.5,62.5,,147.5,155,160,160,,377.5,82.5,F,SBD,Single-ply
 3,Jacqueline Pepper,UK,81.9,125,132.5,-137.5,132.5,,65,72.5,-77.5,72.5,,145,162.5,-175,162.5,,367.5,82.5,F,SBD,Single-ply
-1,Janice Kerr,UK,89.2,142.5,-147.5,147.5,147.5,,87.5,90,92.5,92.5,,157.5,167.5,-172.5,167.5,,407.5,90,F,SBD,Single-ply
+1,Janis Kerr,UK,89.2,142.5,-147.5,147.5,147.5,,87.5,90,92.5,92.5,,157.5,167.5,-172.5,167.5,,407.5,90,F,SBD,Single-ply
 2,Anne Lehtokoski,Finland,86.8,147.5,157.5,165,165,,67.5,-72.5,-72.5,67.5,,145,157.5,167.5,167.5,,400,90,F,SBD,Single-ply
 1,Rebecca Waibler,Germany,91.4,120,130,140,140,,90,100,110,110,-120,-120,140,,140,,390,90+,F,SBD,Single-ply
 2,Catharina van Zegeren,Netherlands,90.7,-115,125,-130,125,,57.5,62.5,-65,62.5,,140,150,160,160,,347.5,90+,F,SBD,Single-ply

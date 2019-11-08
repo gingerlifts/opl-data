@@ -2,29 +2,29 @@ Name,WeightClassKg,Sex,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,Deadli
 Jim Caldwell,56,M,Open,200,100,135,,435,SBD,Single-ply,1
 Angelo Berardinelli,75,M,Open,265,170,260,,695,SBD,Single-ply,1
 Gene Underwood,75,M,Open,250,162.5,255,,667.5,SBD,Single-ply,2
-M. Cyrus,82.5,M,Open,245,147.5,257.5,,650,SBD,Single-ply,1
+Mike Cyrus,82.5,M,Open,245,147.5,257.5,,650,SBD,Single-ply,1
 D. Pinkerton,82.5,M,Open,250,140,245,,635,SBD,Single-ply,2
-J. Bartone,82.5,M,Open,237.5,160,232.5,,630,SBD,Single-ply,3
+Joe Bartone,82.5,M,Open,237.5,160,232.5,,630,SBD,Single-ply,3
 B. Cailor,82.5,M,Open,190,132.5,245,,567.5,SBD,Single-ply,4
 R. Welker,82.5,M,Open,200,117.5,220,,537.5,SBD,Single-ply,5
-R. Hawkins,90,M,Open,295,170,285,,750,SBD,Single-ply,1
-J. Schmock,90,M,Open,257.5,187.5,300,,745,SBD,Single-ply,2
+Rick Hawkins,90,M,Open,295,170,285,,750,SBD,Single-ply,1
+James Schmock,90,M,Open,257.5,187.5,300,,745,SBD,Single-ply,2
 Doug Currence,90,M,Open,267.5,182.5,292.5,,742.5,SBD,Single-ply,3
 N. Lombardi,90,M,Open,275,132.5,242.5,,650,SBD,Single-ply,4
 S. Gabriel,90,M,Open,240,165,227.5,,632.5,SBD,Single-ply,5
 L. Mentus,90,M,Open,232.5,150,227.5,,610,SBD,Single-ply,6
 Ricky Dotson,100,M,Open,362.5,215,300,,877.5,SBD,Single-ply,1
-T. Monroe,100,M,Open,307.5,200,310,,817.5,SBD,Single-ply,2
-T. van Horn,100,M,Open,275,185,300,,760,SBD,Single-ply,3
+Todd Monroe,100,M,Open,307.5,200,310,,817.5,SBD,Single-ply,2
+Tim van Horn,100,M,Open,275,185,300,,760,SBD,Single-ply,3
 Kirk Bardos,100,M,Open,252.5,177.5,287.5,,717.5,SBD,Single-ply,4
 B. VanSwaringen,100,M,Open,282.5,155,272.5,,710,SBD,Single-ply,5
 R. Roach,100,M,Open,225,150,237.5,,612.5,SBD,Single-ply,6
 John Florio,110,M,Open,370,200,300,,870,SBD,Single-ply,1
-R. Cornett,110,M,Open,365,200,282.5,,847.5,SBD,Single-ply,2
-D. Dague,110,M,Open,307.5,192.5,320,,820,SBD,Single-ply,3
+Rick Cornett,110,M,Open,365,200,282.5,,847.5,SBD,Single-ply,2
+Dan Dague,110,M,Open,307.5,192.5,320,,820,SBD,Single-ply,3
 M. Siriano,110,M,Open,282.5,192.5,320,,795,SBD,Single-ply,4
 J. Rohr,110,M,Open,272.5,172.5,317.5,,762.5,SBD,Single-ply,5
-G. Estepp,110,M,Open,277.5,175,290,,742.5,SBD,Single-ply,6
+Greg Estepp,110,M,Open,277.5,175,290,,742.5,SBD,Single-ply,6
 T. Flaherty,110,M,Open,250,170,282.5,,702.5,SBD,Single-ply,7
 J. Buckholtz,110,M,Open,250,172.5,265,,687.5,SBD,Single-ply,8
 Brett Russell,110,M,Open,25,25,390,,440,SBD,Raw,9
@@ -32,7 +32,7 @@ D. Rohr,125,M,Open,300,227.5,320,,847.5,SBD,Single-ply,1
 Keith Spartano,125,M,Open,340,200,282.5,,822.5,SBD,Single-ply,2
 J. King,125,M,Open,302.5,170,310,,782.5,SBD,Single-ply,3
 H. Nixon,125,M,Open,272.5,182.5,277.5,,732.5,SBD,Single-ply,4
-Matt Dimmel,125+,M,Open,410,225,342.5,,977.5,SBD,Single-ply,1
+Matt Dimel,125+,M,Open,410,225,342.5,,977.5,SBD,Single-ply,1
 Dan Wohleber,125+,M,Open,367.5,185,365,,917.5,SBD,Single-ply,2
 Mike Gollehon,125+,M,Open,365,207.5,322.5,,895,SBD,Single-ply,3
 J. Cook,125+,M,Open,320,207.5,332.5,,860,SBD,Single-ply,4
@@ -45,14 +45,14 @@ L. Richards,56,F,Open,112.5,55,127.5,,295,SBD,Single-ply,2
 T. Holstein,56,F,Open,95,47.5,115,,257.5,SBD,Single-ply,3
 J. Rotz,60,F,Open,122.5,52.5,147.5,,322.5,SBD,Single-ply,1
 M. Ramirez,60,F,Open,127.5,57.5,127.5,,312.5,SBD,Single-ply,2
-J. Roge,67.5,F,Open,150,95,147.5,,392.5,SBD,Single-ply,1
-A. Hoffman,67.5,F,Open,137.5,70,157.5,,365,SBD,Single-ply,2
-L. Hager,67.5,F,Open,127.5,70,155,,352.5,SBD,Single-ply,3
+Janice Roge,67.5,F,Open,150,95,147.5,,392.5,SBD,Single-ply,1
+Amy Hoffman,67.5,F,Open,137.5,70,157.5,,365,SBD,Single-ply,2
+Lora Ann Hager,67.5,F,Open,127.5,70,155,,352.5,SBD,Single-ply,3
 Deborah Sorenson,75,F,Open,195,112.5,220,232.5,527.5,SBD,Single-ply,1
 Dave Dryden,,M,Masters 40+,215,112.5,245,,572.5,SBD,Single-ply,4
 John Bayliss,,M,Masters 40+,205,135,240,,580,SBD,Single-ply,3
 W. Russell,,M,Masters 40+,297.5,170,245,,712.5,SBD,Single-ply,1
-B. Coyer,,M,Masters 40+,210,135,240,,585,SBD,Single-ply,2
+Bob Coyer,,M,Masters 40+,210,135,240,,585,SBD,Single-ply,2
 J. Martin,,M,Masters 40+,165,122.5,220,,507.5,SBD,Single-ply,5
 J. Kirk,60,M,Novice,165,82.5,147.5,,395,SBD,Single-ply,1
 S. Bailey,67.5,M,Novice,115,80,137.5,,332.5,SBD,Single-ply,1
@@ -72,7 +72,7 @@ N. Centers,90,M,Novice,227.5,175,232.5,,635,SBD,Single-ply,2
 T. Graham,90,M,Novice,232.5,145,227.5,,605,SBD,Single-ply,3
 B. Bailey,90,M,Novice,205,125,210,,540,SBD,Single-ply,4
 R. Grimm,100,M,Novice,272.5,170,287.5,,730,SBD,Single-ply,1
-T. Gardner,100,M,Novice,245,182.5,240,,667.5,SBD,Single-ply,2
+Tim Ray Gardner,100,M,Novice,245,182.5,240,,667.5,SBD,Single-ply,2
 M. King,100,M,Novice,230,182.5,255,,667.5,SBD,Single-ply,3
 J. Lahoda,100,M,Novice,222.5,155,215,,592.5,SBD,Single-ply,4
 C. Wilson,100,M,Novice,182.5,115,242.5,,540,SBD,Single-ply,5

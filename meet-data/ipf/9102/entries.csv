@@ -16,8 +16,8 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,Country,Best3SquatKg,Best3BenchK
 5,75,M,Masters 1,J. Lezama,,Uruguay,222.5,117.5,,250,590,SBD,Single-ply
 6,75,M,Masters 1,James Christian,,USA,182.5,120,,245,547.5,SBD,Single-ply
 7,75,M,Masters 1,J. Zapata,,Argentina,190,85,,190,465,SBD,Single-ply
-DQ,75,M,Masters 1,C. Da Silva,,Brazil,,,,,,SBD,Single-ply
-1,82.5,M,Masters 1,Harry van der Brand,1946,Netherlands,260,160,,280,700,SBD,Single-ply
+DQ,75,M,Masters 1,C. DaSilva,,Brazil,,,,,,SBD,Single-ply
+1,82.5,M,Masters 1,Harrie van den Brand,1946,Netherlands,260,160,,280,700,SBD,Single-ply
 2,82.5,M,Masters 1,Tatsufumi Nakao,,Japan,270,155,,250,675,SBD,Single-ply
 3,82.5,M,Masters 1,Mike Van Cleve,,USA,265,137.5,,250,652.5,SBD,Single-ply
 4,82.5,M,Masters 1,J. Qarchioni,,Argentina,232.5,135,,257.5,625,SBD,Single-ply
@@ -26,16 +26,16 @@ DQ,75,M,Masters 1,C. Da Silva,,Brazil,,,,,,SBD,Single-ply
 7,82.5,M,Masters 1,Frank Ramirez,,USA,192.5,115,,215,522.5,SBD,Single-ply
 1,90,M,Masters 1,Josef Mička,1949,Czechia,250,170,,270,690,SBD,Single-ply
 2,90,M,Masters 1,Reijo Jaakkola,1948,Finland,230,172.5,,262.5,665,SBD,Single-ply
-3,90,M,Masters 1,M. Montenegro,,Argentina,260,135,,240,635,SBD,Single-ply
+3,90,M,Masters 1,Manuel Montenegro,,Argentina,260,135,,240,635,SBD,Single-ply
 DQ,90,M,Masters 1,Victor Elliott,,USA,,,,,,SBD,Single-ply
 1,100,M,Masters 1,Dan Hamblet,,USA,270,175,,272.5,717.5,SBD,Single-ply
-2,100,M,Masters 1,N. Carrizo,,Argentina,257.5,150,,240,647.5,SBD,Single-ply
+2,100,M,Masters 1,Norberto Carrizo,,Argentina,257.5,150,,240,647.5,SBD,Single-ply
 3,100,M,Masters 1,Tapio Ruohonen,,Finland,220,130,,235,585,SBD,Single-ply
 4,100,M,Masters 1,V. Cespedes,,Bolivia,220,150,,235,605,SBD,Single-ply
 DQ,100,M,Masters 1,G. Mengual,,France,255,130,,,,SBD,Single-ply
 1,110,M,Masters 1,Nat Washington,,USA,280,152.5,,297.5,730,SBD,Single-ply
 2,110,M,Masters 1,C. Lopez,,Brazil,270,200,,260,730,SBD,Single-ply
-3,110,M,Masters 1,Daniel Dewas,1945,France,270,152.5,,272.5,695,SBD,Single-ply
+3,110,M,Masters 1,Pierre Daniel Dewas,1945,France,270,152.5,,272.5,695,SBD,Single-ply
 4,110,M,Masters 1,E. Suarez,,Argentina,250,160,,270,680,SBD,Single-ply
 5,110,M,Masters 1,J. Robledo,,Argentina,260,140,,240,640,SBD,Single-ply
 6,110,M,Masters 1,Larry Vazquez,,Uruguay,180,115,,240,535,SBD,Single-ply

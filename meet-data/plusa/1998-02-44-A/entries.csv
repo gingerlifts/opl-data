@@ -1,5 +1,5 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
-J. Yu,67.5,Open,M,,152.5,,152.5,B,Single-ply,1
+Joseph Yu,67.5,Open,M,,152.5,,152.5,B,Single-ply,1
 Sheldon Weingust,67.5,Open,M,,152.5,,152.5,B,Single-ply,2
 M. Stokke,67.5,Open,M,,132.5,,132.5,B,Single-ply,3
 D. Gardner,75,Open,M,,112.5,,112.5,B,Single-ply,1
@@ -21,7 +21,7 @@ E. Bobo,110,Open,M,,197.5,,197.5,B,Single-ply,2
 Flip Silva Jr,110,Open,M,,182.5,,182.5,B,Single-ply,3
 J. Brogley,110,Open,M,,162.5,,162.5,B,Single-ply,4
 Tiny Meeker,125,Open,M,,250,,250,B,Single-ply,1
-J. Stewart,125,Open,M,,237.5,,237.5,B,Single-ply,2
+John Stewart,125,Open,M,,237.5,,237.5,B,Single-ply,2
 J. Ash,125+,Masters,M,,175,,175,B,Single-ply,1
 Homer de la Rosa,125+,Masters,M,,172.5,,172.5,B,Single-ply,2
 Sheldon Weingust,67.5,Masters,M,,122.5,,122.5,B,Single-ply,1
@@ -39,7 +39,7 @@ Victor Burke,100,Masters,M,,107.5,,107.5,B,Single-ply,6
 J. Brogley,110,Masters,M,,162.5,,162.5,B,Single-ply,1
 J. Leitner,110,Masters,M,,160,,160,B,Single-ply,2
 Bob Garza,125,Masters,M,,220,,220,B,Single-ply,1
-H. Hudson,125,Masters,M,,130,,130,B,Single-ply,2
+Hal Hudson,125,Masters,M,,130,,130,B,Single-ply,2
 M. Doucet,,Submasters,M,,125,,125,B,Single-ply,2
 T. Smith,,Submasters,M,,147.5,,147.5,B,Single-ply,1
 D. Springer,90,Submasters,M,,172.5,,172.5,B,Single-ply,1
@@ -61,7 +61,7 @@ B. Cowey,75,Below Class I,M,207.5,137.5,205,550,SBD,Single-ply,2
 C. Littlejohn,75,Below Class I,M,187.5,107.5,202.5,497.5,SBD,Single-ply,3
 L. Genteman,75,Below Class I,M,165,117.5,202.5,485,SBD,Single-ply,4
 A. Hernandez,75,Below Class I,M,142.5,102.5,150,395,SBD,Single-ply,5
-A. Lewis,82.5,Below Class I,M,210,140,215,565,SBD,Single-ply,1
+Al Lewis,82.5,Below Class I,M,210,140,215,565,SBD,Single-ply,1
 S. Anderson,82.5,Below Class I,M,172.5,127.5,215,515,SBD,Single-ply,2
 D. Bradshaw,82.5,Below Class I,M,142.5,127.5,192.5,462.5,SBD,Single-ply,3
 Brian Fusilier,90,Below Class I,M,275,200,272.5,747.5,SBD,Single-ply,1
@@ -74,7 +74,7 @@ M. Pearce,90,Below Class I,M,175,120,230,525,SBD,Single-ply,7
 C. Beall,90,Below Class I,M,182.5,117.5,212.5,512.5,SBD,Single-ply,8
 I. Barela,90,Below Class I,M,200,155,182.5,537.5,SBD,Single-ply,5
 B. Haines,100,Below Class I,M,260,162.5,260,682.5,SBD,Single-ply,1
-L. Gutierrez,100,Below Class I,M,242.5,175,252.5,670,SBD,Single-ply,2
+Leroy Gutierrez,100,Below Class I,M,242.5,175,252.5,670,SBD,Single-ply,2
 C. Goode,100,Below Class I,M,240,172.5,240,652.5,SBD,Single-ply,3
 R. Gil,100,Below Class I,M,227.5,160,240,627.5,SBD,Single-ply,4
 B. Moore #2,100,Below Class I,M,215,140,260,615,SBD,Single-ply,5
@@ -83,16 +83,16 @@ J. King,110,Below Class I,M,280,177.5,270,727.5,SBD,Single-ply,1
 M. Land,110,Below Class I,M,245,182.5,255,682.5,SBD,Single-ply,2
 D. Broseman,110,Below Class I,M,,,,,SBD,Single-ply,DQ
 K. Kelly,125,Below Class I,M,300,150,255,705,SBD,Single-ply,1
-M. Dobrovolski,82.5,Masters 40-49,M,177.5,100,210,487.5,SBD,Single-ply,1
+Mike Dobrovolski,82.5,Masters 40-49,M,177.5,100,210,487.5,SBD,Single-ply,1
 J. Bennett,90,Masters 40-49,M,105,70,137.5,312.5,SBD,Single-ply,1
 Larry Mistric,100,Masters 40-49,M,275,187.5,287.5,750,SBD,Single-ply,1
 B. Haines,100,Masters 40-49,M,260,162.5,260,682.5,SBD,Single-ply,2
 C. Turco,100,Masters 40-49,M,260,165,240,665,SBD,Single-ply,3
 William Cooper,100,Masters 40-49,M,227.5,115,295,637.5,SBD,Single-ply,5
-S. Rosenberg,100,Masters 40-49,M,250,145,255,650,SBD,Single-ply,4
-G. Moreno,100,Masters 40-49,M,247.5,152.5,227.5,627.5,SBD,Single-ply,6
+Steve Rosenberg,100,Masters 40-49,M,250,145,255,650,SBD,Single-ply,4
+Gabriel Moreno #1,100,Masters 40-49,M,247.5,152.5,227.5,627.5,SBD,Single-ply,6
 J. Dziedzic,100,Masters 40-49,M,192.5,140,235,567.5,SBD,Single-ply,7
-M. Villareal,100,Masters 40-49,M,,,,,SBD,Single-ply,DQ
+M. Villarreal,100,Masters 40-49,M,,,,,SBD,Single-ply,DQ
 C. Garcia,110,Masters 40-49,M,327.5,130,272.5,730,SBD,Single-ply,1
 M. McDaniel,125,Masters 40-49,M,280,185,287.5,752.5,SBD,Single-ply,1
 C. Wahl,125+,Masters 50+,M,122.5,92.5,142.5,357.5,SBD,Single-ply,1
@@ -101,14 +101,14 @@ Harold Bodden,100,Masters 50+,M,122.5,147.5,205,475,SBD,Single-ply,1
 E. Kelley,110,Masters 50+,M,165,102.5,182.5,450,SBD,Single-ply,1
 Ernie Surrell,125,Masters 50+,M,330,172.5,262.5,765,SBD,Single-ply,1
 Bob Garza,125,Masters 50+,M,250,220,242.5,712.5,SBD,Single-ply,2
-H. Hudson,125,Masters 50+,M,202.5,130,240,572.5,SBD,Single-ply,3
+Hal Hudson,125,Masters 50+,M,202.5,130,240,572.5,SBD,Single-ply,3
 Jeff Neal,125+,Open,M,365,232.5,312.5,910,SBD,Single-ply,1
 M. McDaniel,125+,Open,M,332.5,167.5,285,785,SBD,Single-ply,2
 D. Fleming,125+,Open,M,,,,,SBD,Single-ply,DQ
 M. Vasquez,60,Open,M,182.5,90,180,452.5,SBD,Single-ply,1
-J. Yu,67.5,Open,M,185,152.5,195,532.5,SBD,Single-ply,1
+Joseph Yu,67.5,Open,M,185,152.5,195,532.5,SBD,Single-ply,1
 Johnny Vasquez,67.5,Open,M,205,132.5,187.5,525,SBD,Single-ply,2
-T. Riffe,75,Open,M,205,125,240,570,SBD,Single-ply,2
+Tim Riffe,75,Open,M,205,125,240,570,SBD,Single-ply,2
 A. Howard,75,Open,M,182.5,147.5,245,575,SBD,Single-ply,1
 Duane Madere,82.5,Open,M,252.5,180,240,672.5,SBD,Single-ply,1
 P. Wainscott,82.5,Open,M,240,160,245,645,SBD,Single-ply,2

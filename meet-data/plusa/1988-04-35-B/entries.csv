@@ -30,7 +30,7 @@ T. Schmidt,82.5,Teen,M,182.5,107.5,197.5,487.5,SBD,Single-ply,6
 J. Howe,82.5,Teen,M,182.5,92.5,182.5,457.5,SBD,Single-ply,7
 C. Dorita,82.5,Teen,M,162.5,102.5,,,SBD,Single-ply,DQ
 G. Taylor,82.5,Teen,M,242.5,147.5,,,SBD,Single-ply,DQ
-D. Mallard,100,Teen,M,255,172.5,232.5,660,SBD,Single-ply,1
+Deryl Mallard,100,Teen,M,255,172.5,232.5,660,SBD,Single-ply,1
 J. Perry,100,Teen,M,240,135,217.5,592.5,SBD,Single-ply,2
 M. Burkett,100,Teen,M,197.5,155,237.5,590,SBD,Single-ply,3
 R. Alcarez,110,Teen,M,255,165,260,680,SBD,Single-ply,1
@@ -38,8 +38,8 @@ J. Vega,125,Teen,M,257.5,172.5,252.5,682.5,SBD,Single-ply,1
 James Capehart,67.5,Masters,M,182.5,112.5,180,475,SBD,Single-ply,1
 J. Christian,75,Masters,M,182.5,130,227.5,540,SBD,Single-ply,1
 J. Hurst,82.5,Masters,M,217.5,162.5,245,625,SBD,Single-ply,1
-M. Leyva,82.5,Masters,M,242.5,117.5,232.5,592.5,SBD,Single-ply,2
-E. Mullick,82.5,Masters,M,197.5,142.5,197.5,537.5,SBD,Single-ply,3
+Manuel Leyva,82.5,Masters,M,242.5,117.5,232.5,592.5,SBD,Single-ply,2
+Emile Mullick,82.5,Masters,M,197.5,142.5,197.5,537.5,SBD,Single-ply,3
 M. Winburn,82.5,Masters,M,170,115,172.5,457.5,SBD,Single-ply,4
 B. Johnson,90,Masters,M,262.5,147.5,262.5,672.5,SBD,Single-ply,1
 B. Corbin,90,Masters,M,142.5,137.5,190,470,SBD,Single-ply,2
@@ -65,7 +65,7 @@ W. Cooper,90,Class I,M,200,122.5,240,562.5,SBD,Single-ply,4
 J. McDaniel,90,Class I,M,217.5,,,,SBD,Single-ply,DQ
 R. Goldman,100,Class I,M,302.5,195,245,742.5,SBD,Single-ply,1
 G. Charlton,100,Class I,M,280,145,280,705,SBD,Single-ply,2
-K. Hansen,100,Class I,M,260,165,260,685,SBD,Single-ply,3
+Kirk Hansen,100,Class I,M,260,165,260,685,SBD,Single-ply,3
 R. Stigen,100,Class I,M,272.5,167.5,235,675,SBD,Single-ply,4
 K. Holder,100,Class I,M,215,130,230,575,SBD,Single-ply,5
 S. Murray,110,Class I,M,300,205,280,785,SBD,Single-ply,1
@@ -88,46 +88,46 @@ D. Wilson #10,60,Open,M,167.5,110,177.5,455,SBD,Single-ply,2
 J. Jackson,67.5,Open,M,,,,,SBD,Single-ply,DQ
 D. Arredondo,67.5,Open,M,,,,,SBD,Single-ply,DQ
 John Tyree,75,Open,M,272.5,157.5,282.5,712.5,SBD,Single-ply,1
-G. Kaiser,75,Open,M,220,132.5,237.5,590,SBD,Single-ply,2
+Gary Kaiser,75,Open,M,220,132.5,237.5,590,SBD,Single-ply,2
 D. Goodin,75,Open,M,212.5,140,222.5,575,SBD,Single-ply,3
 Dan Gay,82.5,Open,M,317.5,200,325,842.5,SBD,Single-ply,1
 T. Springer,82.5,Open,M,295,187.5,235,717.5,SBD,Single-ply,2
 R. Reichert,82.5,Open,M,250,170,272.5,692.5,SBD,Single-ply,3
 N. Manziel,82.5,Open,M,260,172.5,235,667.5,SBD,Single-ply,4
 T. Mata,82.5,Open,M,235,142.5,217.5,595,SBD,Single-ply,5
-D. Larson,82.5,Open,M,,,,,SBD,Single-ply,DQ
+Dave Larson,82.5,Open,M,,,,,SBD,Single-ply,DQ
 Mark Northcutt,90,Open,M,345,200,282.5,827.5,SBD,Single-ply,1
-G. Bryant,90,Open,M,320,180,287.5,787.5,SBD,Single-ply,2
+Greg Bryant,90,Open,M,320,180,287.5,787.5,SBD,Single-ply,2
 G. Henton,90,Open,M,315,172.5,280,767.5,SBD,Single-ply,3
 P. Linton,90,Open,M,317.5,157.5,247.5,722.5,SBD,Single-ply,4
 P. Padron,90,Open,M,220,147.5,227.5,595,SBD,Single-ply,5
 T. Allen,90,Open,M,,,,,SBD,Single-ply,DQ
 Brian Nester,100,Open,M,380,205,315,900,SBD,Single-ply,1
 Scott Wagner,100,Open,M,350,207.5,295,852.5,SBD,Single-ply,2
-K. Adcock,100,Open,M,337.5,215,300,852.5,SBD,Single-ply,3
+Ken Adcock,100,Open,M,337.5,215,300,852.5,SBD,Single-ply,3
 M. Barnes,100,Open,M,327.5,197.5,285,810,SBD,Single-ply,4
 R. Tucker,100,Open,M,285,140,290,715,SBD,Single-ply,5
 K. Carter,100,Open,M,267.5,167.5,,,SBD,Single-ply,DQ
-R. Osborn,100,Open,M,,,,,SBD,Single-ply,DQ
+Ricky Osborn,100,Open,M,,,,,SBD,Single-ply,DQ
 Steve Goggins,110,Open,M,395,235,377.5,1007.5,SBD,Single-ply,1
 Robert Windsor,110,Open,M,372.5,250,322.5,945,SBD,Single-ply,2
 Larry Mistric,110,Open,M,377.5,220,322.5,920,SBD,Single-ply,3
 Robert Patterson,110,Open,M,352.5,227.5,310,890,SBD,Single-ply,4
 S. Murray,110,Open,M,300,205,280,785,SBD,Single-ply,5
-J. Regaldo,110,Open,M,282.5,167.5,267.5,717.5,SBD,Single-ply,6
+Joe Regaldo,110,Open,M,282.5,167.5,267.5,717.5,SBD,Single-ply,6
 I. Snow,110,Open,M,270,152.5,287.5,710,SBD,Single-ply,7
 M. Paradise,110,Open,M,245,162.5,275,682.5,SBD,Single-ply,9
 J. Ruthardt,110,Open,M,265,177.5,245,687.5,SBD,Single-ply,8
 J. Gandara,110,Open,M,200,117.5,200,517.5,SBD,Single-ply,10
 Lance Ross,125,Open,M,340,220,350,910,SBD,Single-ply,1
-G. Fields,125,Open,M,367.5,215,312.5,895,SBD,Single-ply,2
+Greg Fields #1,125,Open,M,367.5,215,312.5,895,SBD,Single-ply,2
 J. Young,125,Open,M,310,210,317.5,837.5,SBD,Single-ply,3
 T. Dixon,125,Open,M,295,200,312.5,807.5,SBD,Single-ply,4
 T. Harveston,125,Open,M,282.5,205,272.5,760,SBD,Single-ply,5
-B. Koch,125,Open,M,272.5,172.5,292.5,737.5,SBD,Single-ply,6
+Bruce Koch #1,125,Open,M,272.5,172.5,292.5,737.5,SBD,Single-ply,6
 Hal Hudson,125,Open,M,262.5,170,280,712.5,SBD,Single-ply,7
 M. Lord,125,Open,M,250,197.5,260,707.5,SBD,Single-ply,8
-M. Walls,125,Open,M,,,,,SBD,Single-ply,DQ
-J. Turner,125+,Open,M,300,230,320,850,SBD,Single-ply,1
+Mitch Walls,125,Open,M,,,,,SBD,Single-ply,DQ
+Justin Turner #1,125+,Open,M,300,230,320,850,SBD,Single-ply,1
 K. Smith,125+,Open,M,307.5,200,310,817.5,SBD,Single-ply,2
 D. Lackey,125+,Open,M,255,182.5,267.5,705,SBD,Single-ply,3

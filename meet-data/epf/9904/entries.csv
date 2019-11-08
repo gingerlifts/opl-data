@@ -20,13 +20,13 @@ Place,Name,BirthYear,WeightClassKg,BodyweightKg,Country,Best3SquatKg,Best3BenchK
 3,Marianne Lankau,1953,67.5,63.8,Germany,102.5,57.5,110,270,Masters 1,F,SBD,Single-ply
 1,Joke van der Meulen,1951,75,69.8,Netherlands,160,85,175,420,Masters 1,F,SBD,Single-ply
 2,E. Schijndel,1958,75,72.2,Netherlands,95,80,135,310,Masters 1,F,SBD,Single-ply
-3,Anke Benigna,1954,75,71.8,Germany,92.5,65,115,272.5,Masters 1,F,SBD,Single-ply
+3,Anke Beninga,1954,75,71.8,Germany,92.5,65,115,272.5,Masters 1,F,SBD,Single-ply
 1,Brigitte Wampach,1956,82.5,82.3,Luxembourg,165.5,80,160,405,Masters 1,F,SBD,Single-ply
 2,Eva Paulig,1954,82.5,81.2,Germany,135,107.5,157.5,400,Masters 1,F,SBD,Single-ply
 1,Anita Kick,1953,90,88.1,Germany,130,70,120,320,Masters 1,F,SBD,Single-ply
 1,Liliane Boulle,1946,44,43.7,France,105,50,115,270,Masters 2,F,SBD,Single-ply
 1,Nadejda Uvachan,1944,52,50.7,Russia,122.5,65,127.5,315,Masters 2,F,SBD,Single-ply
-2,Marie-Fra Guinard,1942,52,50.5,France,105,60,140,305,Masters 2,F,SBD,Single-ply
+2,Marie-Françoise Guinard,1942,52,50.5,France,105,60,140,305,Masters 2,F,SBD,Single-ply
 1,Rita Bass,1945,60,60,UK,157.5,80,175,412.5,Masters 2,F,SBD,Single-ply
 2,Dagmar McSwain,1944,60,59.7,Austria,120,70,135,325,Masters 2,F,SBD,Single-ply
 1,Tatjana Fomina,1946,67.5,65.6,Russia,165,62.5,165,392.5,Masters 2,F,SBD,Single-ply
@@ -38,7 +38,7 @@ Place,Name,BirthYear,WeightClassKg,BodyweightKg,Country,Best3SquatKg,Best3BenchK
 2,Vlad Timirgalejev,1956,56,56,Russia,170,95,180,445,Masters 1,M,SBD,Single-ply
 1,Anton Mihok,1957,60,59.7,Slovakia,202.5,135,220,557.5,Masters 1,M,SBD,Single-ply
 2,Rafael Lopez,1958,60,59,Spain,200,120,230,550,Masters 1,M,SBD,Single-ply
-1,Ron Kerr,1955,67.5,67.3,UK,205,137.5,250,592.5,Masters 1,M,SBD,Single-ply
+1,Ronnie Kerr,1955,67.5,67.3,UK,205,137.5,250,592.5,Masters 1,M,SBD,Single-ply
 2,Francisco Molina,1955,67.5,65.8,Spain,225,135,205,565,Masters 1,M,SBD,Single-ply
 3,Alain Cuvelier,1953,67.5,67.3,France,210,130,220,560,Masters 1,M,SBD,Single-ply
 4,Miguel Flores,1955,67.5,67.5,UK,222.5,122.5,210,555,Masters 1,M,SBD,Single-ply
@@ -49,7 +49,7 @@ Place,Name,BirthYear,WeightClassKg,BodyweightKg,Country,Best3SquatKg,Best3BenchK
 3,Steve Walker,1956,75,74.7,UK,240,170,255,665,Masters 1,M,SBD,Single-ply
 4,Elie Lelouche,1958,75,74.6,France,255,157.5,245,657.5,Masters 1,M,SBD,Single-ply
 5,Noriano Coppari,1951,75,74.4,Italy,220,140,250,610,Masters 1,M,SBD,Single-ply
-6,Co Hoppenbrouwers,1958,75,73.6,Netherlands,200,145,255,600,Masters 1,M,SBD,Single-ply
+6,Coert Hoppenbrouwers,1958,75,73.6,Netherlands,200,145,255,600,Masters 1,M,SBD,Single-ply
 7,Roger Remy,1953,75,74.4,Belgium,220,127.5,240,587.5,Masters 1,M,SBD,Single-ply
 8,Peter Hruby,1953,75,73.4,Czechia,220,135,210,565,Masters 1,M,SBD,Single-ply
 9,Pavol Schauer,1951,75,73.8,Czechia,205,112.5,207.5,525,Masters 1,M,SBD,Single-ply
@@ -101,11 +101,11 @@ DQ,Ola Wermelin,1955,100,99.1,Sweden,270,,,,Masters 1,M,SBD,Single-ply
 10,Ronald Braak,1956,110,102.5,Netherlands,240,145,220,605,Masters 1,M,SBD,Single-ply
 DQ,Enrico Bianchi,1957,110,109.6,Italy,,,,,Masters 1,M,SBD,Single-ply
 1,Valeriy Melnik,1958,125,112.8,Ukraine,310,215,300,825,Masters 1,M,SBD,Single-ply
-2,Rudi Kuester,1955,125,115.7,Germany,320,120,307.5,747.5,Masters 1,M,SBD,Single-ply
+2,Rudolf Küster,1955,125,115.7,Germany,320,120,307.5,747.5,Masters 1,M,SBD,Single-ply
 3,John Blackburn,1955,125,123.1,UK,295,162.5,290,747.5,Masters 1,M,SBD,Single-ply
 4,Conny Olsson,1954,125,111.5,Sweden,250,147.5,267.5,665,Masters 1,M,SBD,Single-ply
 1,Yuriy Zabolotnyy,1958,125+,164,Ukraine,375,202.5,312.5,890,Masters 1,M,SBD,Single-ply
-2,Yngve Gustansson,1959,125+,146.9,Sweden,347.5,237.5,302.5,887.5,Masters 1,M,SBD,Single-ply
+2,Yngve Gustafsson,1959,125+,146.9,Sweden,347.5,237.5,302.5,887.5,Masters 1,M,SBD,Single-ply
 3,Eberhard Schwanke,1953,125+,129,Germany,325,240,290,855,Masters 1,M,SBD,Single-ply
 4,Raimo Avila,1955,125+,139.9,Finland,305,185,260,750,Masters 1,M,SBD,Single-ply
 5,Kurt Hübner,1956,125+,135,Germany,277.5,180,270,727.5,Masters 1,M,SBD,Single-ply
@@ -139,7 +139,7 @@ DQ,Ernst Güntert,1948,75,74,Germany,,,,,Masters 2,M,SBD,Single-ply
 8,Giorgio Zanetti,1945,82.5,80.2,Italy,200,122.5,200,522.5,Masters 2,M,SBD,Single-ply
 9,Freddy Veranneman,1949,82.5,82,Belgium,155,102.5,245,502.5,Masters 2,M,SBD,Single-ply
 DQ,Adam Borzecki,1945,82.5,81.7,Poland,180,115,,,Masters 2,M,SBD,Single-ply
-DD,Harry van der Brandt,1945,82.5,81,Netherlands,250,167.5,255,,Masters 2,M,SBD,Single-ply
+DD,Harrie van den Brand,1945,82.5,81,Netherlands,250,167.5,255,,Masters 2,M,SBD,Single-ply
 1,Stefan Sochaňski,1948,90,89.1,Poland,242.5,152.5,257.5,652.5,Masters 2,M,SBD,Single-ply
 2,Terje Brovold,1945,90,87.9,Norway,240,175,235,650,Masters 2,M,SBD,Single-ply
 3,Yaroslav Chala,1948,90,87.7,Ukraine,220,175,230,625,Masters 2,M,SBD,Single-ply

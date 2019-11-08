@@ -7,9 +7,9 @@ Place,Age,BodyweightKg,WeightClassKg,Division,Name,Sex,Event,Equipment,Country,S
 2,,55.9,56,Open,Yrjö Haatanen,M,SBD,Single-ply,Finland,,,,,190,,,,,115,,220,-235,,220,525,No
 3,,55.5,56,Open,Tony Zappia,M,SBD,Single-ply,Australia,,,185,,185,,,110,,110,,,,,205,500,No
 4,,53.9,56,Open,Subrata Dutta,M,SBD,Wraps,India,,,,,155,,,,,107.5,,,,,197.5,460,No
-5,,55,56,Open,K. Paul,M,SBD,Single-ply,Australia,,,,,122.5,,,,,75,,,,,187.5,385,No
+5,,55,56,Open,Kevin Paul,M,SBD,Single-ply,Australia,,,,,122.5,,,,,75,,,,,187.5,385,No
 6,,52.9,56,Open,L. Josefsson,M,SBD,Single-ply,Sweden,,,,,152.5,,,,,72.5,,,,,157.5,382.5,No
-DQ,,,56,Open,S. Finateri,M,SBD,Single-ply,Canada,-195,-195,-195,,,,,,,,,,,,,,No
+DQ,,,56,Open,Stefano Finateri,M,SBD,Single-ply,Canada,-195,-195,-195,,,,,,,,,,,,,,No
 1,,59.6,60,Open,Lamar Gant,M,SBD,Single-ply,USA,200,217.5,-232.5,,217.5,-135,135,140,,140,245,265,282.5,,282.5,640,No
 2,,60,60,Open,Eddy Pengelly,M,SBD,Single-ply,UK,227.5,-237.5,-237.5,,227.5,,,137.5,,137.5,250,-265,-270,,250,615,No
 3,,59.9,60,Open,Antero Köykkä,M,SBD,Single-ply,Finland,,,200,,200,,,,,122.5,,,,,230,552.5,No
@@ -37,7 +37,7 @@ DQ,,,67.5,Open,S. Pal,M,SBD,Single-ply,India,,,,,,,,,,,,,,,,,No
 6,,74.4,75,Open,Tatsufumi Nakao,M,SBD,Single-ply,Japan,,,,,220,,,187.5,-192.5,187.5,,,,,250,657.5,No
 7,,74.7,75,Open,Kjell Johansen,M,SBD,Single-ply,Norway,,,,,260,,,,,150,,,,,240,650,No
 8,,74.6,75,Open,B. Alexander,M,SBD,Single-ply,Canada,,,,,227.5,,,,,140,,,,,265,632.5,No
-9,,74.95,75,Open,B. Grant,M,SBD,Single-ply,Canada,,,,,242.5,,,,,135,,,,,247.5,625,No
+9,,74.95,75,Open,Bill Grant #2,M,SBD,Single-ply,Canada,,,,,242.5,,,,,135,,,,,247.5,625,No
 10,,74.6,75,Open,Tormod Andersen,M,SBD,Single-ply,Norway,,,,,230,,,,,145,,,,,230,605,No
 11,,74.8,75,Open,E. Wan,M,SBD,Single-ply,Belgium,,,,,205,,,,,130,,,,,245,580,No
 12,,74.4,75,Open,Louis Loncke,M,SBD,Single-ply,Belgium,,,,,220,,,,,127.5,,,,,230,577.5,No
@@ -46,7 +46,7 @@ DQ,,,67.5,Open,S. Pal,M,SBD,Single-ply,India,,,,,,,,,,,,,,,,,No
 15,,72.4,75,Open,T. Suzuki,M,SBD,Single-ply,Japan,,,,,185,,,,,165,,,,,195,545,No
 DQ,,,75,Open,Rick Gaugler,M,SBD,Single-ply,USA,-267.5,-267.5,-267.5,,,,,,,,,,,,,,No
 1,,81.7,82.5,Open,Walter Thomas,M,SBD,Single-ply,USA,,,305,,305,,,187.5,,187.5,290,300,325,,325,817.5,No
-2,,82.1,82.5,Open,Bill West,M,SBD,Single-ply,UK,,,307.5,,307.5,,,,,157.5,,300,-307.5,,300,765,No
+2,,82.1,82.5,Open,Bill West #1,M,SBD,Single-ply,UK,,,307.5,,307.5,,,,,157.5,,300,-307.5,,300,765,No
 3,,81.9,82.5,Open,Kenneth Mattsson,M,SBD,Single-ply,Sweden,,280,-285,,280,,,,,192.5,,,,,280,752.5,No
 4,,82.5,82.5,Open,Sulo Kierivaara,M,SBD,Single-ply,Finland,,,,,270,,,,,170,,292.5,,,292.5,732.5,No
 5,,81.8,82.5,Open,Lars Backlund,M,SBD,Single-ply,Sweden,,,,,270,,,,,190,,,,,270,730,No
@@ -68,17 +68,17 @@ DQ,,,75,Open,Rick Gaugler,M,SBD,Single-ply,USA,-267.5,-267.5,-267.5,,,,,,,,,,,,,
 8,,88,90,Open,Totsuharu Maeda,M,SBD,Single-ply,Japan,,,,,280,,,,,157.5,,,,,262.5,700,No
 9,,89.6,90,Open,Hugo de Grauwe,M,SBD,Single-ply,Belgium,,,,,240,,,,,137.5,,,,,250,627.5,No
 10,,89.5,90,Open,B. Kerkers,M,SBD,Single-ply,India,,,,,200,,,,,140,,,,,200,540,No
-11,,84.8,90,Open,S. Henke,M,SBD,Single-ply,West Germany,,,,,190,,,,,120,,,,,220,530,No
+11,,84.8,90,Open,Siegfried Henke,M,SBD,Single-ply,West Germany,,,,,190,,,,,120,,,,,220,530,No
 DQ,,89.4,90,Open,Kanta Kanada,M,SBD,Single-ply,Zambia,-235,-235,-235,,,,,,,,,,,,,,No
 1,,99.95,100,Open,Larry Pacifico,M,SBD,Single-ply,USA,-347.5,347.5,-365,,347.5,210,225,-237.5,,225,320,340,-350,,340,912.5,No
-2,,99.2,100,Open,Ray Nobile,M,SBD,Single-ply,UK,,335,342.5,,342.5,,,210,,210,,,322.5,,322.5,875,No
+2,,99.2,100,Open,Raymond Nobile,M,SBD,Single-ply,UK,,335,342.5,,342.5,,,210,,210,,,322.5,,322.5,875,No
 3,,99.9,100,Open,Reijo Kiviranta,M,SBD,Single-ply,Finland,295,-315,325,,325,180,190,-195,,190,310,327.5,335,,335,850,No
 4,,99.7,100,Open,Ray Yvander,M,SBD,Single-ply,Sweden,330,-335,-335,,330,195,200,-202.5,,200,317.5,-327.5,-327.5,,317.5,847.5,No
 5,,99,100,Open,B. Tanton,M,SBD,Single-ply,Canada,,,,,310,,,,,180,,,,,295,785,No
 6,,99.7,100,Open,E. Jack,M,SBD,Single-ply,Canada,,,,,302.5,,,,,180,,,,,300,782.5,No
-7,,99.7,100,Open,M. Meikle,M,SBD,Single-ply,Australia,,,,,270,,,,,165,,,,,290,725,No
+7,,99.7,100,Open,Mal Meikle,M,SBD,Single-ply,Australia,,,,,270,,,,,165,,,,,290,725,No
 DQ,39,99,100,Open,Dennis Reed,M,SBD,Single-ply,USA,320,332.5,342.5,,342.5,,,,,187.5,-327.5,-327.5,-327.5,,,,No
-DQ,,99.5,100,Open,J. Wright,M,SBD,Single-ply,Australia,,,,,295,,,,,,,,,,,,No
+DQ,,99.5,100,Open,John Wright #1,M,SBD,Single-ply,Australia,,,,,295,,,,,,,,,,,,No
 1,,109.5,110,Open,Terry McCormick,M,SBD,Single-ply,USA,325,340,-352.5,,340,,,230,,230,327.5,347.5,,,347.5,917.5,No
 2,,109.7,110,Open,Hannu Saarelainen,M,SBD,Single-ply,Finland,320,335,340,,340,235,-247.5,-247.5,,235,315,327.5,332.5,,332.5,907.5,No
 3,,110,110,Open,Ulf Morin,M,SBD,Single-ply,Sweden,325,335,345,,345,,,,,215,300,322.5,-335,,322.5,882.5,No
@@ -88,7 +88,7 @@ DQ,,99.5,100,Open,J. Wright,M,SBD,Single-ply,Australia,,,,,295,,,,,,,,,,,,No
 7,,102.2,110,Open,L. Ernbom,M,SBD,Single-ply,Sweden,,,,,290,,,,,185,,,,,315,790,No
 8,,104.5,110,Open,Karl Hult,M,SBD,Single-ply,Canada,,,,,295,,,,,210,,,,,257.5,762.5,No
 9,,109.6,110,Open,Alex Kapica,M,SBD,Single-ply,Australia,,,,,285,,,,,165,,,,,295,745,No
-10,,107.7,110,Open,S. Nakamura,M,SBD,Single-ply,Japan,,,,,300,,,,,170,,,,,265,735,No
+10,,107.7,110,Open,Shoei Nakamura,M,SBD,Single-ply,Japan,,,,,300,,,,,170,,,,,265,735,No
 11,,105.5,110,Open,Jan Kaleberg,M,SBD,Single-ply,Norway,,,,,260,,,,,160,,,,,280,700,No
 1,,141,110+,Open,Doyle Kenady,M,SBD,Single-ply,USA,365,387.5,402.5,,402.5,230,242.5,250,,250,330,375,-402.5,,375,1027.5,No
 2,,137.4,110+,Open,Taito Haara,M,SBD,Single-ply,Finland,370,400,-425,,400,,,,,210,,330,-357.5,,330,940,No

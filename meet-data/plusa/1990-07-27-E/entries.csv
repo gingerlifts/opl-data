@@ -15,20 +15,20 @@ D. Fiore,56,Open,M,108.86,108.86,B,Single-ply,2
 B. Hobin,56,Open,M,102.06,102.06,B,Single-ply,3
 J. Sofa,60,Teen 17-19,M,131.54,131.54,B,Single-ply,1
 M. Fenton,60,Teen 17-19,M,97.52,97.52,B,Single-ply,2
-R. Ballard,60,Submasters,M,56.7,56.7,B,Single-ply,1
+Rae Ballard,60,Submasters,F,56.7,56.7,B,Single-ply,1
 B. Wilner,60,Masters 40-49,M,113.4,113.4,B,Single-ply,1
 Al Siegel,60,Masters 50+,M,97.52,97.52,B,Single-ply,1
 C. Byrnes,60,Lifetime,M,149.69,149.69,B,Single-ply,1
 J. Scalzo,60,Lifetime,M,140.61,140.61,B,Single-ply,3
 P. Day,60,Lifetime,M,138.35,138.35,B,Single-ply,4
 F. Dunn,60,Lifetime,M,113.4,113.4,B,Single-ply,6
-P. Verrastro,60,Lifetime,M,106.59,106.59,B,Single-ply,8
+Pasquale Verrastro,60,Lifetime,M,106.59,106.59,B,Single-ply,8
 Al Siegel,60,Lifetime,M,97.52,97.52,B,Single-ply,10
 C. Cocco,60,Lifetime,M,74.84,74.84,B,Single-ply,12
 C. Byrnes,60,Lifetime,M,149.69,149.69,B,Single-ply,2
 P. Day,60,Lifetime,M,138.35,138.35,B,Single-ply,5
 F. Dunn,60,Lifetime,M,113.4,113.4,B,Single-ply,7
-P. Verrastro,60,Lifetime,M,106.59,106.59,B,Single-ply,9
+Pasquale Verrastro,60,Lifetime,M,106.59,106.59,B,Single-ply,9
 Al Siegel,60,Lifetime,M,97.52,97.52,B,Single-ply,11
 J. Hook,67.5,Teen 14-16,M,90.72,90.72,B,Single-ply,1
 J. Page,67.5,Teen 17-19,M,151.95,151.95,B,Single-ply,1
@@ -39,12 +39,12 @@ T. Ksanznak,67.5,Submasters,M,147.42,147.42,B,Single-ply,1
 J. Wolfe,67.5,Masters 50+,M,95.25,95.25,B,Single-ply,1
 M. Viera,67.5,Lifetime,M,158.76,158.76,B,Single-ply,1
 B. Ruzzo,67.5,Lifetime,M,154.22,154.22,B,Single-ply,2
-S. Polke,67.5,Lifetime,M,149.69,149.69,B,Single-ply,3
+Scott Polke,67.5,Lifetime,M,149.69,149.69,B,Single-ply,3
 T. Didior,67.5,Lifetime,M,149.69,149.69,B,Single-ply,4
 J. Donato,67.5,Lifetime,M,147.42,147.42,B,Single-ply,5
 T. Ksanznak,67.5,Lifetime,M,147.42,147.42,B,Single-ply,6
 J. Ksanznak,67.5,Lifetime,M,147.42,147.42,B,Single-ply,7
-J. Minich,67.5,Lifetime,M,142.88,142.88,B,Single-ply,8
+Jerod Minich,67.5,Lifetime,M,142.88,142.88,B,Single-ply,8
 J. Rubio,67.5,Lifetime,M,142.88,142.88,B,Single-ply,9
 D. DeRosa,67.5,Lifetime,M,140.61,140.61,B,Single-ply,10
 B. Hummel,67.5,Lifetime,M,138.35,138.35,B,Single-ply,11
@@ -61,12 +61,12 @@ B. Reed,67.5,Lifetime,M,113.4,113.4,B,Single-ply,21
 M. Viera,67.5,Open,M,158.76,158.76,B,Single-ply,1
 B. Ruzzo,67.5,Open,M,154.22,154.22,B,Single-ply,2
 J. Page,67.5,Open,M,151.95,151.95,B,Single-ply,3
-S. Polke,67.5,Open,M,149.69,149.69,B,Single-ply,4
+Scott Polke,67.5,Open,M,149.69,149.69,B,Single-ply,4
 T. Didior,67.5,Open,M,149.69,149.69,B,Single-ply,5
 J. Donato,67.5,Open,M,147.42,147.42,B,Single-ply,6
 T. Ksanznak,67.5,Open,M,147.42,147.42,B,Single-ply,7
 J. Ksanznak,67.5,Open,M,147.42,147.42,B,Single-ply,8
-J. Minich,67.5,Open,M,142.88,142.88,B,Single-ply,9
+Jerod Minich,67.5,Open,M,142.88,142.88,B,Single-ply,9
 J. Rubio,67.5,Open,M,142.88,142.88,B,Single-ply,10
 D. DeRosa,67.5,Open,M,140.61,140.61,B,Single-ply,11
 D. Kabasakahan,67.5,Open,M,140.61,140.61,B,Single-ply,12
@@ -102,7 +102,7 @@ B. Lee,75,Lifetime,M,149.69,149.69,B,Single-ply,5
 D. Johnston,75,Lifetime,M,145.15,145.15,B,Single-ply,6
 D. Wray,75,Lifetime,M,122.47,122.47,B,Single-ply,7
 B. Kasulis,75,Lifetime,M,117.93,117.93,B,Single-ply,8
-B. Legg,75,Lifetime,M,106.59,106.59,B,Single-ply,9
+Bob Legg,75,Lifetime,M,106.59,106.59,B,Single-ply,9
 E. Morrison,75,Open,M,183.71,183.71,B,Single-ply,1
 Joe Masher,75,Open,M,172.37,172.37,B,Single-ply,2
 K. Page,75,Open,M,167.83,167.83,B,Single-ply,3
@@ -114,7 +114,7 @@ B. Lee,75,Open,M,62.6,62.6,B,Single-ply,12
 D. VanRyn,75,Open,M,149.69,149.69,B,Single-ply,8
 C. Sisti,75,Open,M,122.47,122.47,B,Single-ply,9
 M. Orloff,75,Open,M,120.2,120.2,B,Single-ply,10
-B. Legg,75,Open,M,120.2,120.2,B,Single-ply,11
+Bob Legg,75,Open,M,120.2,120.2,B,Single-ply,11
 P. Teutul,82.5,Teen 14-16,M,131.54,131.54,B,Single-ply,1
 J. Leber,82.5,Teen 14-16,M,122.47,122.47,B,Single-ply,2
 G. Edwards,82.5,Teen 17-19,M,156.49,156.49,B,Single-ply,1
@@ -127,7 +127,7 @@ D. Robinson,82.5,Teen 17-19,M,111.13,111.13,B,Single-ply,7
 C. Gardiner,82.5,Submasters,M,163.29,163.29,B,Single-ply,1
 S. Nocek,82.5,Submasters,M,140.61,140.61,B,Single-ply,2
 P. Veet,82.5,Submasters,M,117.93,117.93,B,Single-ply,3
-J. Klostergaad,82.5,Masters 40-49,M,176.9,176.9,B,Single-ply,1
+Jim Klostergaard,82.5,Masters 40-49,M,176.9,176.9,B,Single-ply,1
 N. Sousa,82.5,Masters 40-49,M,167.83,167.83,B,Single-ply,2
 H. Melain,82.5,Masters 40-49,M,151.95,151.95,B,Single-ply,3
 F. Craft,82.5,Masters 40-49,M,142.88,142.88,B,Single-ply,4
@@ -175,12 +175,12 @@ C. Welcome,90,Submasters,M,181.44,181.44,B,Single-ply,2
 R. Raftery,90,Submasters,M,136.08,136.08,B,Single-ply,3
 B. Olinger,90,Submasters,M,129.27,129.27,B,Single-ply,4
 S. Yarosh,90,Submasters,M,129.27,129.27,B,Single-ply,5
-E. Lanoue,90,Masters 40-49,M,221.35,221.35,B,Single-ply,1
+Ed Lanoue,90,Masters 40-49,M,221.35,221.35,B,Single-ply,1
 J. Farrell,90,Masters 40-49,M,154.22,154.22,B,Single-ply,2
 B. Shopp,90,Masters 40-49,M,154.22,154.22,B,Single-ply,3
 S. Zerbe,90,Masters 40-49,M,127.01,127.01,B,Single-ply,4
 B. Rosenfield,90,Masters 50+,M,145.15,145.15,B,Single-ply,1
-D. Waller,90,Masters 50+,M,136.08,136.08,B,Single-ply,2
+Doc Waller,90,Masters 50+,M,136.08,136.08,B,Single-ply,2
 N. Young,90,Lifetime,M,197.31,197.31,B,Single-ply,1
 M. Memmona,90,Lifetime,M,197.31,197.31,B,Single-ply,2
 J. Chiosalo,90,Lifetime,M,197.31,197.31,B,Single-ply,3
@@ -201,7 +201,7 @@ B. Shoop,90,Lifetime,M,154.22,154.22,B,Single-ply,17
 V. Falco,90,Lifetime,M,142.88,142.88,B,Single-ply,18
 D. Holbert,90,Lifetime,M,142.88,142.88,B,Single-ply,19
 F. Mozdziak,90,Lifetime,M,136.08,136.08,B,Single-ply,20
-D. Waller,90,Lifetime,M,136.08,136.08,B,Single-ply,21
+Doc Waller,90,Lifetime,M,136.08,136.08,B,Single-ply,21
 R. Raftery,90,Lifetime,M,136.08,136.08,B,Single-ply,22
 B. Olinger,90,Lifetime,M,129.27,129.27,B,Single-ply,23
 M. Young,90,Open,M,197.31,197.31,B,Single-ply,1
@@ -222,7 +222,7 @@ B. Shoop,90,Open,M,154.22,154.22,B,Single-ply,15
 C. Zupko,90,Open,M,154.22,154.22,B,Single-ply,16
 V. Falco,90,Open,M,142.88,142.88,B,Single-ply,17
 F. Mozdziak,90,Open,M,138.35,138.35,B,Single-ply,18
-D. Waller,90,Open,M,136.08,136.08,B,Single-ply,19
+Doc Waller,90,Open,M,136.08,136.08,B,Single-ply,19
 B. Olinger,90,Open,M,129.27,129.27,B,Single-ply,20
 K. Carroll,100,Teen 14-16,M,113.4,113.4,B,Single-ply,1
 T. Wauls,100,Teen 17-19,M,170.1,170.1,B,Single-ply,1
@@ -238,9 +238,9 @@ M. Hanik,100,Submasters,M,158.76,158.76,B,Single-ply,4
 L. Frazier,100,Submasters,M,156.49,156.49,B,Single-ply,5
 R. Tomasetti,100,Submasters,M,136.08,136.08,B,Single-ply,6
 R. Madalone,100,Masters 40-49,M,183.71,183.71,B,Single-ply,1
-R. Cote,100,Masters 40-49,M,176.9,176.9,B,Single-ply,2
+Roland Cote,100,Masters 40-49,M,176.9,176.9,B,Single-ply,2
 F. Duffee,100,Masters 40-49,M,176.9,176.9,B,Single-ply,3
-T. Keefer,100,Masters 40-49,M,167.83,167.83,B,Single-ply,4
+Tim Keefer,100,Masters 40-49,M,167.83,167.83,B,Single-ply,4
 L. Gallo,100,Masters 40-49,M,167.83,167.83,B,Single-ply,5
 R. Brooks,100,Masters 40-49,M,163.29,163.29,B,Single-ply,6
 K. Evans,100,Masters 40-49,M,106.59,106.59,B,Single-ply,7
@@ -252,12 +252,12 @@ G. Allen,100,Lifetime,M,181.44,181.44,B,Single-ply,4
 G. Jones,100,Lifetime,M,179.17,179.17,B,Single-ply,5
 B. Baechler,100,Lifetime,M,179.17,179.17,B,Single-ply,6
 S. Roscoe,100,Lifetime,M,176.9,176.9,B,Single-ply,7
-R. Cote,100,Lifetime,M,176.9,176.9,B,Single-ply,8
+Roland Cote,100,Lifetime,M,176.9,176.9,B,Single-ply,8
 F. Duffee,100,Lifetime,M,149.69,149.69,B,Single-ply,18
 G. Whitaker,100,Lifetime,M,176.9,176.9,B,Single-ply,9
 P. Maguire,100,Lifetime,M,176.9,176.9,B,Single-ply,10
 J. Clark,100,Lifetime,M,172.37,172.37,B,Single-ply,11
-T. Keefer,100,Lifetime,M,167.83,167.83,B,Single-ply,12
+Tim Keefer,100,Lifetime,M,167.83,167.83,B,Single-ply,12
 E. Hafener,100,Lifetime,M,165.56,165.56,B,Single-ply,13
 T. Wojnar,100,Lifetime,M,158.76,158.76,B,Single-ply,14
 M. Hanik,100,Lifetime,M,158.76,158.76,B,Single-ply,15
@@ -273,7 +273,7 @@ G. Allen,100,Open,M,181.44,181.44,B,Single-ply,4
 B. Bachler,100,Open,M,179.17,179.17,B,Single-ply,5
 G. Jones,100,Open,M,179.17,179.17,B,Single-ply,6
 S. Roscoe,100,Open,M,176.9,176.9,B,Single-ply,7
-R. Cote,100,Open,M,176.9,176.9,B,Single-ply,8
+Roland Cote,100,Open,M,176.9,176.9,B,Single-ply,8
 F. Duffee,100,Open,M,176.9,176.9,B,Single-ply,9
 F. Maguire,100,Open,M,165.56,165.56,B,Single-ply,10
 E. Hafner,100,Open,M,165.56,165.56,B,Single-ply,11
@@ -322,33 +322,33 @@ R. Husted,125,Masters 40-49,M,213.19,213.19,B,Single-ply,2
 T. Santini,125,Masters 40-49,M,185.97,185.97,B,Single-ply,3
 M. Marsh,125,Masters 40-49,M,181.44,181.44,B,Single-ply,4
 B. Churovia,125,Lifetime,M,222.26,222.26,B,Single-ply,1
-G. Resnick,125,Lifetime,M,219.99,219.99,B,Single-ply,2
+Geoff Resnick,125,Lifetime,M,219.99,219.99,B,Single-ply,2
 R. Husted,125,Lifetime,M,213.19,213.19,B,Single-ply,3
 J. Yarosh,125,Lifetime,M,208.65,208.65,B,Single-ply,4
 C. Miller,125,Lifetime,M,199.58,199.58,B,Single-ply,5
-B. D'Antonio,125,Lifetime,M,195.04,195.04,B,Single-ply,6
+Robert D'Antonio,125,Lifetime,M,195.04,195.04,B,Single-ply,6
 M. Kelly,125,Lifetime,M,190.51,190.51,B,Single-ply,7
 M. Chovinard,125,Lifetime,M,190.51,190.51,B,Single-ply,8
 M. Marsh,125,Lifetime,M,181.44,181.44,B,Single-ply,9
-G. Resnick,125,Open,M,219.99,219.99,B,Single-ply,1
+Geoff Resnick,125,Open,M,219.99,219.99,B,Single-ply,1
 N. Giles,125,Open,M,215.46,215.46,B,Single-ply,2
 R. Husted,125,Open,M,213.19,213.19,B,Single-ply,3
-B. D'Antonio,125,Open,M,195.04,195.04,B,Single-ply,4
+Robert D'Antonio,125,Open,M,195.04,195.04,B,Single-ply,4
 M. Kelly,125,Open,M,190.51,190.51,B,Single-ply,5
 M. Chovinard,125,Open,M,190.51,190.51,B,Single-ply,6
 T. Santini,125,Open,M,185.97,185.97,B,Single-ply,7
 M. Marsh,125,Open,M,181.44,181.44,B,Single-ply,8
-J. Poindexter,125+,Submasters,M,258.55,258.55,B,Single-ply,1
-J. Poindexter,125+,Lifetime,M,258.55,258.55,B,Single-ply,1
+Jack Poindexter,125+,Submasters,M,258.55,258.55,B,Single-ply,1
+Jack Poindexter,125+,Lifetime,M,258.55,258.55,B,Single-ply,1
 K. Jones,125+,Lifetime,M,249.48,249.48,B,Single-ply,2
 G. Arner,125+,Lifetime,M,204.12,204.12,B,Single-ply,3
-J. Poindexter,125+,Open,M,258.55,258.55,B,Single-ply,1
+Jack Poindexter,125+,Open,M,258.55,258.55,B,Single-ply,1
 K. Jones,125+,Open,M,249.48,249.48,B,Single-ply,2
 G. Arner,125+,Open,M,204.12,204.12,B,Single-ply,3
 S. Thompson,,LW,F,79.38,79.38,B,Single-ply,1
 C. Cocco,,LW,F,74.84,74.84,B,Single-ply,2
 M. Kurtancheck,,LW,F,61.24,61.24,B,Single-ply,3
-R. Ballard,,LW,F,61.24,61.24,B,Single-ply,4
+Rae Ballard,60,LW,F,56.7,56.7,B,Single-ply,4
 K. Rutledge,,LW,F,52.16,52.16,B,Single-ply,5
 M. Slanec,,HW,F,79.38,79.38,B,Single-ply,1
 M. Geise,,HW,F,70.31,70.31,B,Single-ply,2

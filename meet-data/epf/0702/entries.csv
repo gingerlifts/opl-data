@@ -25,7 +25,7 @@ Place,Name,BirthYear,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatK
 2,Linda Kåda Høiland,1979,Norway,59.7,152.5,162.5,-167.5,162.5,77.5,82.5,85,85,170,177.5,182.5,182.5,430,60,Open,SBD,F,Single-ply
 3,Laura Locatelli,1957,Italy,57.9,150,-157.5,-162.5,150,87.5,92.5,-95,92.5,185,-192.5,-192.5,185,427.5,60,Open,SBD,F,Single-ply
 4,Helene Johage,1967,Sweden,58.4,150,157.5,-162.5,157.5,90,-95,-95,90,150,157.5,165,165,412.5,60,Open,SBD,F,Single-ply
-5,Daiva Zaroviene,1965,Lithuania,59.65,-135,135,145,145,107.5,-115,115,115,140,152.5,-167.5,152.5,412.5,60,Open,SBD,F,Single-ply
+5,Daiva Žarovienė,1965,Lithuania,59.65,-135,135,145,145,107.5,-115,115,115,140,152.5,-167.5,152.5,412.5,60,Open,SBD,F,Single-ply
 6,Carina Persson,1967,Sweden,59.75,150,-160,-160,150,75,-80,-80,75,175,187.5,-192.5,187.5,412.5,60,Open,SBD,F,Single-ply
 7,Maria Szymkowiak,1961,Poland,59.05,145,152.5,-157.5,152.5,80,85,-90,85,150,162.5,-167.5,162.5,400,60,Open,SBD,F,Single-ply
 8,Monika Rovná,1982,Czechia,57.05,147.5,155,-160,155,62.5,67.5,70,70,140,145,-150,145,370,60,Open,SBD,F,Single-ply
@@ -95,7 +95,7 @@ DQ,Aivo Nurmine,1964,Estonia,82.1,-270,-270,-270,,205,-210,-215,205,-280,,,,,82.
 2,Mario Kurzendörfer,1974,Germany,88.75,-300,315,322.5,322.5,225,-232.5,232.5,232.5,270,285,-295,285,840,90,Open,SBD,M,Single-ply
 3,Pjotr van den Hoek,1972,Netherlands,89.9,300,-312.5,312.5,312.5,225,-232.5,-232.5,225,285,292.5,300,300,837.5,90,Open,SBD,M,Single-ply
 4,Jiří Horník,1978,Czechia,88.55,270,290,-300,290,200,210,215,215,300,312.5,-325,312.5,817.5,90,Open,SBD,M,Single-ply
-5,Andr Peeters,1970,France,89.8,285,300,-310,300,205,210,212.5,212.5,285,300,-307.5,300,812.5,90,Open,SBD,M,Single-ply
+5,André Peeters,1970,France,89.8,285,300,-310,300,205,210,212.5,212.5,285,300,-307.5,300,812.5,90,Open,SBD,M,Single-ply
 6,Hristo Hristov,1984,Bulgaria,89.9,300,-320,320,320,155,165,-172.5,165,310,325,-335,325,810,90,Open,SBD,M,Single-ply
 7,Pavol Varchola,1978,Slovakia,89.5,285,295,-305,295,-190,190,205,205,285,300,-315,300,800,90,Open,SBD,M,Single-ply
 8,Michael Jensen,1980,Denmark,89.85,300,312.5,322.5,322.5,167,-175,175,175,-285,285,-302.5,285,782.5,90,Open,SBD,M,Single-ply

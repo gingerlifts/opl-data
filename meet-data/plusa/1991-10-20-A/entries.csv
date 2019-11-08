@@ -2,7 +2,7 @@ Name,Country,WeightClassKg,Division,Sex,Age,Best3SquatKg,Squat4Kg,Best3BenchKg,B
 Marie Cherbonnel,France,47.5,Masters 45-49,F,,87.5,,72.5,,115,117.5,275,SBD,Single-ply,1
 Judy Gedney,USA,47.5,Masters 50-54,F,,115,117.5,60,,133.5,,308.5,SBD,Single-ply,1
 Sue Rasor,USA,50.5,Masters 45-49,F,,112.5,,72.5,,132.5,135,317.5,SBD,Single-ply,1
-Marie Guinard,France,50.5,Masters 45-49,F,,85,,52.5,,120,,257.5,SBD,Single-ply,2
+Marie-Françoise Guinard,France,50.5,Masters 45-49,F,,85,,52.5,,120,,257.5,SBD,Single-ply,2
 Sandi Brady,USA,53,Masters 40-44,F,,132.5,,65,,150,,347.5,SBD,Single-ply,1
 Garriel Keeble,USA,55.5,Masters 40-44,F,,110,117.5,67.5,,130,,307.5,SBD,Single-ply,1
 Barbara Falconio,USA,55.5,Masters 50-54,F,,105,,55,,132.5,,292.5,SBD,Single-ply,1
@@ -15,7 +15,7 @@ Cyndi Regan,USA,90,Masters 40-44,F,,185,,117.5,122.5,182.5,,485,SBD,Single-ply,1
 Bob Schiegel,USA,52,Masters 45-49,M,,152.5,155,77.5,,170,,400,SBD,Single-ply,1
 Alan Gutteride,UK,60,Masters 40-44,M,,190,201,136,,215,,541,SBD,Single-ply,1
 Ira Rosen,USA,60,Masters 40-44,M,,,,,,,,,SBD,Single-ply,DQ
-Jerri Ringi,USA,60,Masters 45-49,M,,175,,82.5,,165,,422.5,SBD,Single-ply,1
+Gerald Ringi,USA,60,Masters 45-49,M,,175,,82.5,,165,,422.5,SBD,Single-ply,1
 Fred Glass,USA,60,Masters 50-54,M,,137.5,,65,,190,,392.5,SBD,Single-ply,1
 Vincenzo Tidona,France,60,Masters 60+,M,,135,137.5,100,,167.5,,402.5,SBD,Single-ply,1
 Richard Nolan,USA,60,Masters 60+,M,,95,,65,,127.5,,287.5,SBD,Single-ply,2
@@ -37,7 +37,7 @@ Ed Hamblin,USA,75,Masters 60+,M,,197.5,,117.5,,235,,550,SBD,Single-ply,1
 Raymond Jones,UK,82.5,Masters 40-44,M,,200,,120,,240,,560,SBD,Single-ply,1
 Walter Thomas,USA,82.5,Masters 45-49,M,,272.5,,190,,295,,757.5,SBD,Single-ply,1
 Richard Glumac,USA,82.5,Masters 45-49,M,,250,,122.5,,285,,657.5,SBD,Single-ply,2
-Ali Bouchacour,France,82.5,Masters 45-49,M,,200,,155,,270,,625,SBD,Single-ply,3
+Ali Rabah Bouchakour,France,82.5,Masters 45-49,M,,200,,155,,270,,625,SBD,Single-ply,3
 Gregg Hayward,USA,82.5,Masters 50-54,M,,217.5,,112.5,,227.5,,557.5,SBD,Single-ply,1
 Murdie,UK,82.5,Masters 50-54,M,,170,,120,,220,,510,SBD,Single-ply,2
 Tom Trevorah,USA,82.5,Masters 55-59,M,,205,,127.5,,232.5,,565,SBD,Single-ply,1
@@ -73,7 +73,7 @@ Al Bunescu,USA,110,Masters 60+,M,,180,,87.5,,170,,437.5,SBD,Single-ply,2
 Larry Garro,USA,125,Masters 40-44,M,,295,,200,,277.5,,772.5,SBD,Single-ply,1
 Frank Dias,USA,125,Masters 50-54,M,,262.5,,150,,265,,677.5,SBD,Single-ply,1
 Laurel Corulli,USA,125,Masters 55-59,M,,165,,142.5,,240,,547.5,SBD,Single-ply,1
-Donald Stratton,USA,125,Masters 60+,M,,72.5,,107.5,,160,,340,SBD,Single-ply,1
+Don Stratton,USA,125,Masters 60+,M,,72.5,,107.5,,160,,340,SBD,Single-ply,1
 Michael Richardson,USA,145,Masters 45-49,M,,212.5,,157.5,,237.5,,607.5,SBD,Single-ply,1
 Al Siegel,USA,145,Masters 50-54,M,,245,,120,,242.5,,607.5,SBD,Single-ply,1
 Paul Wrenn,USA,145+,Masters 40-44,M,,325,,172.5,,302.5,,800,SBD,Single-ply,1

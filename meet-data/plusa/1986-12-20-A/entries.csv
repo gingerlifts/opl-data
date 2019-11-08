@@ -22,7 +22,7 @@ Place,Name,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 1,Jan Theys,Belgium,74.2,255,165,250,670,75,M,SBD,Single-ply
 2,Davide Cantoni,Italy,74.4,262.5,135,265,662.5,75,M,SBD,Single-ply
 3,Frédéric Buttigieg,France,74.3,250,142.5,255,647.5,75,M,SBD,Single-ply
-4,Kenneth Jackson,UK,71.1,232.5,135,245,612.5,75,M,SBD,Single-ply
+4,Ken Jackson,UK,71.1,232.5,135,245,612.5,75,M,SBD,Single-ply
 5,Pironi,Italy,74.6,210,125,240,575,75,M,SBD,Single-ply
 6,Dieter Müller,Germany,73.8,217.5,122.5,220,560,75,M,SBD,Single-ply
 1,Jarmo Virtanen,Finland,82.2,300,180,330,810,82.5,M,SBD,Single-ply
@@ -46,7 +46,7 @@ DD,John Cousins,UK,88.8,285,182.5,287.5,,90,M,SBD,Single-ply
 2,Aarre Käpylä,Finland,100.5,290,160,315,765,110,M,SBD,Single-ply
 3,Magnús Ver Magnússon,Iceland,108.9,280,182.5,275,737.5,110,M,SBD,Single-ply
 4,M. Felber,Austria,109.4,265,177.5,250,692.5,110,M,SBD,Single-ply
-1,Neil Jones,UK,116.9,300,172.5,337.5,810,125,M,SBD,Single-ply
+1,Neil Jones #1,UK,116.9,300,172.5,337.5,810,125,M,SBD,Single-ply
 2,Sandro Schwald,Germany,112.5,300,162.5,300,762.5,125,M,SBD,Single-ply
 3,Svend Ødegård Karlsen,Norway,114.6,275,175,300,750,125,M,SBD,Single-ply
 4,F. Van der Herrik,Netherlands,114.6,315,165,265,745,125,M,SBD,Single-ply

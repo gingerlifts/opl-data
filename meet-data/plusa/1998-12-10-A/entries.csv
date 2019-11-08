@@ -1,7 +1,7 @@
 Name,Age,Country,WeightClassKg,Sex,Equipment,Best3SquatKg,Squat4Kg,Best3BenchKg,Bench4Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Event,Division,Place
 M. Cahill,38,USA,44,F,Raw,40.82,,36.29,,81.65,,158.76,SBD,Open,1
 M. Lemes,35,USA,52,F,Raw,74.84,,58.97,61.24,117.93,122.47,251.74,SBD,Open,1
-R.Maxey,16,USA,60,F,Raw,61.24,,34.02,,97.52,,192.78,SBD,Open,1
+R. Maxey,16,USA,60,F,Raw,61.24,,34.02,,97.52,,192.78,SBD,Open,1
 Tara Fay,19,USA,67.5,F,Raw,124.74,129.27,81.65,83.91,140.61,,347,SBD,Open,1
 C. Koski,41,USA,67.5,F,Raw,56.7,,45.36,,90.72,,192.78,SBD,Open,2
 Vicky Hembree,37,USA,90,F,Raw,172.37,,124.74,127.01,181.44,,478.54,SBD,Open,1
@@ -36,7 +36,7 @@ M. George,20,USA,56,F,Single-ply,95.25,,54.43,,131.54,,281.23,SBD,Open,1
 A. Kammier,19,USA,56,F,Single-ply,95.25,,54.43,,115.67,,265.35,SBD,Open,2
 M. Harp,57,USA,56,F,Single-ply,99.79,,43.09,,102.06,104.33,244.94,SBD,Open,3
 S. Worth,15,USA,56,F,Single-ply,90.72,,45.36,,102.06,,238.14,SBD,Open,4
-F. Stewart,,USA,60,F,Single-ply,129.27,,63.5,,167.83,,360.61,SBD,Open,1
+Flozzell Thomas-Stewart,,USA,60,F,Single-ply,129.27,,63.5,,167.83,,360.61,SBD,Open,1
 J. Souza,17,USA,60,F,Single-ply,136.08,,68.04,,145.15,,349.27,SBD,Open,2
 C. Lhota,18,USA,60,F,Single-ply,,,,,,,,SBD,Open,DQ
 A. Amerling,,USA,67.5,F,Single-ply,138.35,,63.5,,174.63,,376.48,SBD,Open,1
@@ -53,20 +53,20 @@ Natasha Newbold,35,Bahamas,90,F,Single-ply,183.71,,106.59,,158.76,,449.06,SBD,Op
 N. Munroe,,Bahamas,90,F,Single-ply,161.03,,86.18,,154.22,,401.43,SBD,Open,2
 Ellen Trevorah,63,USA,90,F,Single-ply,149.69,,86.18,,149.69,,385.55,SBD,Open,3
 J. Lieferman,47,USA,90+,F,Single-ply,208.65,,106.59,,147.42,,462.66,SBD,Open,1
-G. Murphy,39,USA,52,M,Single-ply,139.48,,90.72,,145.15,,375.35,SBD,Open,1
+Glenn Murphy,39,USA,52,M,Single-ply,139.48,,90.72,,145.15,,375.35,SBD,Open,1
 Darung,11,Bahamas,52,M,Single-ply,61.24,,34.02,,79.38,,174.63,SBD,Open,2
 J. Allgeier,18,USA,56,M,Single-ply,151.95,,92.99,,170.1,,415.04,SBD,Open,1
 Eric Kupperstein,,USA,60,M,Single-ply,226.8,,129.27,,238.14,,594.21,SBD,Open,1
 Ray Houle,39,USA,60,M,Single-ply,206.38,,124.74,,222.26,,553.38,SBD,Open,2
-H. Shivaie,49,USA,60,M,Single-ply,179.17,,92.99,,199.58,,471.74,SBD,Open,3
-A.Ruiz,43,Puerto Rico,60,M,Single-ply,176.9,,83.91,,190.51,,451.32,SBD,Open,4
+Homi Shivaie,49,USA,60,M,Single-ply,179.17,,92.99,,199.58,,471.74,SBD,Open,3
+Alberto Ruiz,43,Puerto Rico,60,M,Single-ply,176.9,,83.91,,190.51,,451.32,SBD,Open,4
 G. Snow,15,USA,60,M,Single-ply,163.29,,86.18,,190.51,,439.99,SBD,Open,5
 D. Taylor #1,21,USA,67.5,M,Single-ply,258.55,,136.08,,240.4,,635.03,SBD,Open,1
 R. Grayes,23,USA,67.5,M,Single-ply,222.26,,145.15,,226.8,,594.21,SBD,Open,2
 T. Richards,43,USA,67.5,M,Single-ply,192.78,,113.4,,195.04,,501.22,SBD,Open,3
 D. Evans #4,18,Bahamas,67.5,M,Single-ply,192.78,,97.52,,208.65,,498.95,SBD,Open,4
-L. Blas,61,USA,67.5,M,Single-ply,154.22,,96.39,,190.51,,441.12,SBD,Open,5
-J. Shapiro,,USA,67.5,M,Single-ply,136.08,,111.13,,161.03,,408.23,SBD,Open,6
+Lindy Blas,61,USA,67.5,M,Single-ply,154.22,,96.39,,190.51,,441.12,SBD,Open,5
+John Shapiro,,USA,67.5,M,Single-ply,136.08,,111.13,,161.03,,408.23,SBD,Open,6
 A. Gonzales,54,USA,67.5,M,Single-ply,136.08,,102.06,,161.03,,399.16,SBD,Open,7
 S. Robbins,19,USA,67.5,M,Single-ply,138.35,,92.99,,151.95,,383.29,SBD,Open,8
 M. Clickett,,USA,75,M,Single-ply,266.49,,174.63,,213.19,,654.31,SBD,Open,1
@@ -80,7 +80,7 @@ C. Warren,35,USA,82.5,M,Single-ply,249.48,,185.97,,285.76,,721.21,SBD,Open,1
 J. Mendoza,20,USA,82.5,M,Single-ply,251.74,,142.88,,265.35,274.42,659.98,SBD,Open,2
 M. Catalino,19,USA,82.5,M,Single-ply,274.42,,161.03,,222.26,,657.71,SBD,Open,3
 F. Major,40,Bahamas,82.5,M,Single-ply,233.6,,179.17,,208.65,,621.42,SBD,Open,4
-J. Orengia,52,USA,82.5,M,Single-ply,215.46,,140.61,,260.82,,616.89,SBD,Open,5
+Joe Orengia,52,USA,82.5,M,Single-ply,215.46,,140.61,,260.82,,616.89,SBD,Open,5
 D. Shuman,42,USA,82.5,M,Single-ply,231.33,,145.15,,222.26,,598.74,SBD,Open,6
 M. Drake,37,USA,82.5,M,Single-ply,226.8,,127.01,,240.4,,594.21,SBD,Open,7
 Mike Mastrean,,USA,90,M,Single-ply,319.78,,206.38,,283.5,,809.66,SBD,Open,1
@@ -91,16 +91,16 @@ Tom Trevorah,64,USA,90,M,Single-ply,235.87,,149.69,,226.8,,612.35,SBD,Open,5
 Gregory,55,Puerto Rico,90,M,Single-ply,260.82,,136.08,,204.12,,601.01,SBD,Open,6
 John Herbein,60,USA,90,M,Single-ply,201.85,,122.47,,238.14,,562.46,SBD,Open,7
 E. Lewis,49,USA,90,M,Single-ply,240.4,,127.01,,192.78,,560.19,SBD,Open,8
-M. Musto,43,USA,100,M,Single-ply,272.16,,181.44,,272.16,,725.75,SBD,Open,1
+Michael Musto,43,USA,100,M,Single-ply,272.16,,181.44,,272.16,,725.75,SBD,Open,1
 Charlt,35,Bahamas,100,M,Single-ply,267.62,,167.83,,278.96,,714.41,SBD,Open,2
 Const,38,Ecuador,100,M,Single-ply,251.74,,140.61,,254.01,,646.37,SBD,Open,3
 B. Evans,52,USA,100,M,Single-ply,206.38,,149.69,,206.38,,562.46,SBD,Open,4
 J. Jimenez,,Ecuador,100,M,Single-ply,204.12,,129.27,,204.12,,537.51,SBD,Open,5
 M. Walker #2,15,USA,100,M,Single-ply,181.44,,127.01,,226.8,,535.24,SBD,Open,6
-O. Orengo,,Puerto Rico,110,M,Single-ply,249.48,,163.29,,231.33,,644.1,SBD,Open,1
-R. Spikes,54,USA,110,M,Single-ply,226.8,,145.15,,254.01,,625.96,SBD,Open,2
+Oscar Orengo,,Puerto Rico,110,M,Single-ply,249.48,,163.29,,231.33,,644.1,SBD,Open,1
+Ron Spikes,54,USA,110,M,Single-ply,226.8,,145.15,,254.01,,625.96,SBD,Open,2
 Andrew Stewart,40,USA,125,M,Single-ply,365.14,,235.87,,362.87,,963.88,SBD,Open,1
-D. Dreyer,47,USA,125,M,Single-ply,249.48,,151.95,,260.82,,662.25,SBD,Open,2
+Dave Dreyer,47,USA,125,M,Single-ply,249.48,,151.95,,260.82,,662.25,SBD,Open,2
 Lou Lavarro,41,USA,145,M,Single-ply,319.78,,272.16,,351.53,,943.47,SBD,Open,1
 B. Rolle,35,Bahamas,145,M,Single-ply,362.87,,213.19,,317.52,,893.58,SBD,Open,2
 W. Stewart #5,19,USA,145,M,Single-ply,249.48,,142.88,,204.12,,596.47,SBD,Open,3

@@ -7,7 +7,7 @@ M. Ellis,52,Teen 16-17,M,127.5,60,137.5,325,SBD,Single-ply,1
 J. Trossbach,56,Teen 14-15,M,,,,,SBD,Single-ply,DQ
 J. Dawson,56,Teen 16-17,M,110,60,125,295,SBD,Single-ply,4
 J. Brady,56,Teen 16-17,M,115,67.5,150,332.5,SBD,Single-ply,3
-V.Tu,56,Teen 16-17,M,130,85,160,375,SBD,Single-ply,1
+V. Tu,56,Teen 16-17,M,130,85,160,375,SBD,Single-ply,1
 J. Prewitt,56,Teen 16-17,M,140,77.5,152.5,370,SBD,Single-ply,2
 M. Pheulpin,60,Teen 14-15,M,82.5,65,137.5,285,SBD,Single-ply,1
 J. Hernandez,60,Teen 16-17,M,,,,,SBD,Single-ply,DQ
@@ -34,7 +34,7 @@ J. DeNofa,75,Teen 16-17,M,192.5,120,227.5,540,SBD,Single-ply,1
 J. Williams,75,Teen 18-19,M,175,117.5,227.5,520,SBD,Single-ply,1
 C. Stevenson,75,Teen 18-19,M,157.5,80,162.5,400,SBD,Single-ply,2
 A. Halko,75,Teen 18-19,M,,,,,SBD,Single-ply,DQ
-M. Brandon,75,Juniors 20-23,M,240,165,215,620,SBD,Single-ply,1
+Marcus Brandon,75,Juniors 20-23,M,240,165,215,620,SBD,Single-ply,1
 D. Magnum,75,Juniors 20-23,M,60,172.5,140,372.5,SBD,Single-ply,2
 H. Byrd,82.5,Teen 16-17,M,202.5,92.5,212.5,507.5,SBD,Single-ply,3
 D. McNeal,82.5,Teen 16-17,M,170,132.5,170,472.5,SBD,Single-ply,5
@@ -45,9 +45,9 @@ B. Baker,82.5,Teen 16-17,M,200,127.5,227.5,555,SBD,Single-ply,2
 E. Ellis,82.5,Teen 16-17,M,170,87.5,190,447.5,SBD,Single-ply,7
 K. Semon,82.5,Teen 16-17,M,205,142.5,237.5,585,SBD,Single-ply,1
 A. Moore,82.5,Teen 18-19,M,160,120,185,465,SBD,Single-ply,1
-J. Wallace,82.5,Teen 18-19,M,,,,,SBD,Single-ply,DQ
+John Wallace,82.5,Teen 18-19,M,,,,,SBD,Single-ply,DQ
 J. Smith,82.5,Juniors 20-23,M,227.5,137.5,235,600,SBD,Single-ply,1
-T. Golden,90,Teen 14-15,M,125,,180,305,SD,Single-ply,1
+Tom Golden,90,Teen 14-15,M,125,,180,305,SD,Single-ply,1
 E. Cridge,90,Teen 16-17,M,197.5,160,245,602.5,SBD,Single-ply,2
 E. Lipsey,90,Teen 16-17,M,170,85,210,465,SBD,Single-ply,8
 F. Soaia,90,Teen 16-17,M,187.5,147.5,202.5,537.5,SBD,Single-ply,5
@@ -58,7 +58,7 @@ M. Ruttenber,90,Teen 16-17,M,225,127.5,212.5,565,SBD,Single-ply,3
 T. Youngblood,90,Teen 16-17,M,225,135,245,605,SBD,Single-ply,1
 M. Allen,90,Teen 16-17,M,195,127.5,187.5,510,SBD,Single-ply,6
 L. Woodard,90,Teen 18-19,M,260,157.5,267.5,685,SBD,Single-ply,1
-D. Dillard,90,Teen 18-19,M,195,90,185,470,SBD,Single-ply,6
+Dick Dillard,90,Teen 18-19,M,195,90,185,470,SBD,Single-ply,6
 J. Keese,90,Teen 18-19,M,192.5,110,217.5,520,SBD,Single-ply,5
 L. Eaton,90,Teen 18-19,M,175,115,232.5,522.5,SBD,Single-ply,4
 R. Cooper,90,Teen 18-19,M,217.5,112.5,227.5,557.5,SBD,Single-ply,3
@@ -91,7 +91,7 @@ J. McKenney,125+,Juniors 20-23,M,320,227.5,260,807.5,SBD,Single-ply,1
 G. Schroeder,56,Open,F,100,55,140,295,SBD,Single-ply,1
 M. Shull,67.5,Open,F,132.5,87.5,192.5,412.5,SBD,Single-ply,1
 Marlene Hamfeldt,44,Collegiate,F,60,55,95,210,SBD,Single-ply,1
-M. Brandon,75,Collegiate,M,240,165,215,620,SBD,Single-ply,1
+Marcus Brandon,75,Collegiate,M,240,165,215,620,SBD,Single-ply,1
 A. Halko,75,Collegiate,M,185,145,210,540,SBD,Single-ply,2
 J. Smith,82.5,Collegiate,M,227.5,137.5,235,600,SBD,Single-ply,1
 Erik Steiner,90,Collegiate,M,255,145,250,650,SBD,Single-ply,1
@@ -108,7 +108,7 @@ B. House,56,Teen 14-15,F,67.5,37.5,107.5,212.5,SBD,Single-ply,1
 L. Parker,60,Teen 16-17,F,90,42.5,102.5,235,SBD,Single-ply,1
 A. Laigie,67.5,Teen 14-15,F,67.5,37.5,82.5,187.5,SBD,Single-ply,1
 J. Golden,67.5,Teen 14-15,F,57.5,45,82.5,185,SBD,Single-ply,2
-A. Doucette,75,Teen 16-17,F,,37.5,95,132.5,BD,Single-ply,1
+Arlene Doucette,75,Teen 16-17,F,,37.5,95,132.5,BD,Single-ply,1
 K. Trudell,90+,Teen 16-17,F,102.5,57.5,107.5,267.5,SBD,Single-ply,1
 G. Schroeder,56,Open,F,100,55,140,295,SBD,Single-ply,2
 M. Shull,67.5,Open,F,132.5,87.5,192.5,412.5,SBD,Single-ply,2

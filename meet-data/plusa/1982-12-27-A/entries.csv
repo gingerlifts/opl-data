@@ -17,13 +17,13 @@ M. Liles,82.5,Intermediate,M,185,152.5,202.5,540,SBD,Single-ply,3
 B. Danahy,82.5,Intermediate,M,185,142.5,205,532.5,SBD,Single-ply,4
 D. Bartlett,90,Intermediate,M,212.5,132.5,272.5,617.5,SBD,Single-ply,1
 H. Brown,90,Intermediate,M,237.5,127.5,237.5,602.5,SBD,Single-ply,2
-J. Buben,90,Intermediate,M,210,127.5,237.5,575,SBD,Single-ply,3
+Jay Buben,90,Intermediate,M,210,127.5,237.5,575,SBD,Single-ply,3
 R. Arrington,90,Intermediate,M,145,115,207.5,467.5,SBD,Single-ply,4
 K. Delaughter,100,Intermediate,M,260,182.5,260,702.5,SBD,Single-ply,1
 T. Highfill,100,Intermediate,M,230,145,265,640,SBD,Single-ply,2
 S. Schmidt,100,Intermediate,M,222.5,155,220,597.5,SBD,Single-ply,3
 C. Boenker,100,Intermediate,M,167.5,112.5,227.5,507.5,SBD,Single-ply,4
-S. Brodie,110,Intermediate,M,282.5,150,282.5,715,SBD,Single-ply,1
+Steve Brodie,110,Intermediate,M,282.5,150,282.5,715,SBD,Single-ply,1
 D. Matthews,110,Intermediate,M,215,160,277.5,652.5,SBD,Single-ply,2
 K. Doonkeen,110,Intermediate,M,227.5,192.5,230,650,SBD,Single-ply,3
 D. Sloan,110,Intermediate,M,220,145,220,585,SBD,Single-ply,4
@@ -34,7 +34,7 @@ K. Arnold,56,Open,M,160,112.5,170,442.5,SBD,Single-ply,1
 K. Sturdian,56,Open,M,125,77.5,160,362.5,SBD,Single-ply,2
 D. Harris,56,Open,M,77.5,45,112.5,235,SBD,Single-ply,3
 Kevin Lasater,60,Open,M,195,127.5,242.5,565,SBD,Single-ply,1
-M. Barnett,60,Open,M,140,90,172.5,402.5,SBD,Single-ply,2
+Mike Barnett #1,60,Open,M,140,90,172.5,402.5,SBD,Single-ply,2
 J. Gonzalez,60,Open,M,142.5,87.5,172.5,402.5,SBD,Single-ply,3
 J. Davis #6,60,Open,M,110,77.5,140,327.5,SBD,Single-ply,4
 Charles Wodraska,67.5,Open,M,222.5,142.5,210,575,SBD,Single-ply,1
@@ -46,14 +46,14 @@ A. McCalloh,75,Open,M,222.5,112.5,240,575,SBD,Single-ply,3
 M. Payne,75,Open,M,227.5,110,222.5,560,SBD,Single-ply,4
 M. Ledbetter,75,Open,M,185,117.5,235,537.5,SBD,Single-ply,5
 Ron Boren,82.5,Open,M,257.5,167.5,302.5,727.5,SBD,Single-ply,1
-R. Farmer,82.5,Open,M,265,177.5,277.5,720,SBD,Single-ply,2
+Rick Farmer,82.5,Open,M,265,177.5,277.5,720,SBD,Single-ply,2
 J. Trussler,82.5,Open,M,215,135,227.5,577.5,SBD,Single-ply,3
-S. Hente,90,Open,M,272.5,155,262.5,690,SBD,Single-ply,1
+Stuart Hente,90,Open,M,272.5,155,262.5,690,SBD,Single-ply,1
 J. Lowery,90,Open,M,250,182.5,257.5,690,SBD,Single-ply,2
 D. Bartlett,90,Open,M,212.5,132.5,272.5,617.5,SBD,Single-ply,3
 R. Peter,100,Open,M,305,200,280,785,SBD,Single-ply,1
 B. Murray,100,Open,M,260,182.5,227.5,670,SBD,Single-ply,2
-G. Sims,100,Open,M,222.5,147.5,272.5,642.5,SBD,Single-ply,3
+George Sims,100,Open,M,222.5,147.5,272.5,642.5,SBD,Single-ply,3
 Mike Bandera,110,Open,M,327.5,182.5,320,830,SBD,Single-ply,1
 Steve Brodie,110,Open,M,282.5,150,282.5,715,SBD,Single-ply,2
 D. Matthews,110,Open,M,215,160,277.5,652.5,SBD,Single-ply,3
@@ -67,8 +67,8 @@ T. Farnham,,Open,F,60,27.5,80,167.5,SBD,Single-ply,1
 Paula Lowery,,Open,F,92.5,57.5,125,275,SBD,Single-ply,2
 R. Ellard,,Open,F,87.5,52.5,122.5,262.5,SBD,Single-ply,3
 S. Littleton,,Open,F,90,62.5,95,247.5,SBD,Single-ply,4
-Chris Carpenter,,Open,F,127.5,77.5,145,350,SBD,Single-ply,5
+Chris Carpenter #1,,Open,F,127.5,77.5,145,350,SBD,Single-ply,5
 Treva Slagle,,Open,F,120,60,150,330,SBD,Single-ply,6
 N. Olivas,,Open,F,125,65,137.5,327.5,SBD,Single-ply,7
-D. Scott,,Open,F,102.5,40,100,242.5,SBD,Single-ply,8
+Dot Scott,,Open,F,102.5,40,100,242.5,SBD,Single-ply,8
 T. Forshee,,Open,F,107.5,50,122.5,280,SBD,Single-ply,9

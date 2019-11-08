@@ -230,6 +230,54 @@ pub fn cmp_nasa(meets: &[Meet], a: &Entry, b: &Entry) -> cmp::Ordering {
         .then(a.totalkg.cmp(&b.totalkg).reverse())
 }
 
+/// Defines an `Ordering` of Entries by Reshel points.
+///
+/// Because Reshel points aren't stored on the Entry, they are recalculated
+/// each comparison. The computation is not particularly expensive,
+/// but does involve powf().
+#[inline]
+pub fn cmp_reshel(meets: &[Meet], a: &Entry, b: &Entry) -> cmp::Ordering {
+    let a_points = coefficients::reshel(a.sex, a.bodyweightkg, a.totalkg);
+    let b_points = coefficients::reshel(b.sex, b.bodyweightkg, b.totalkg);
+
+    // First sort by Reshel points, higher first.
+    a_points
+        .cmp(&b_points)
+        .reverse()
+        // If equal, sort by Date, earlier first.
+        .then(
+            meets[a.meet_id as usize]
+                .date
+                .cmp(&meets[b.meet_id as usize].date),
+        )
+        // If that's equal too, sort by Total, highest first.
+        .then(a.totalkg.cmp(&b.totalkg).reverse())
+}
+
+/// Defines an `Ordering` of Entries by AH (Haleczko) points.
+///
+/// Because AH points aren't stored on the Entry, they are recalculated
+/// each comparison. The computation is not particularly expensive,
+/// but does involve powf().
+#[inline]
+pub fn cmp_ah(meets: &[Meet], a: &Entry, b: &Entry) -> cmp::Ordering {
+    let a_points = coefficients::ah(a.sex, a.bodyweightkg, a.totalkg);
+    let b_points = coefficients::ah(b.sex, b.bodyweightkg, b.totalkg);
+
+    // First sort by AH points, higher first.
+    a_points
+        .cmp(&b_points)
+        .reverse()
+        // If equal, sort by Date, earlier first.
+        .then(
+            meets[a.meet_id as usize]
+                .date
+                .cmp(&meets[b.meet_id as usize].date),
+        )
+        // If that's equal too, sort by Total, highest first.
+        .then(a.totalkg.cmp(&b.totalkg).reverse())
+}
+
 /// Gets a list of all entry indices matching the given selection.
 pub fn get_entry_indices_for<'db>(
     selection: &Selection,
@@ -335,46 +383,50 @@ pub fn get_entry_indices_for<'db>(
             cur.0
                 .iter()
                 .filter_map(|&i| {
+                    use AgeClass::*;
+                    use AgeClassSelection::*;
+
                     let class = opldb.get_entry(i).ageclass;
+                    let byclass = opldb.get_entry(i).birthyearclass;
+
                     let matches: bool = match selection.ageclass {
-                        AgeClassSelection::AllAges => true,
-                        AgeClassSelection::Youth512 => class == AgeClass::Class5_12,
-                        AgeClassSelection::Teenage1315 => class == AgeClass::Class13_15,
-                        AgeClassSelection::Teenage1617 => class == AgeClass::Class16_17,
-                        AgeClassSelection::Teenage1819 => class == AgeClass::Class18_19,
-                        AgeClassSelection::Juniors2023 => class == AgeClass::Class20_23,
-                        AgeClassSelection::Seniors2434 => class == AgeClass::Class24_34,
-                        AgeClassSelection::Submasters3539 => {
-                            class == AgeClass::Class35_39
-                        }
-                        AgeClassSelection::Masters4049 => {
-                            class == AgeClass::Class40_44 || class == AgeClass::Class45_49
-                        }
-                        AgeClassSelection::Masters5059 => {
-                            class == AgeClass::Class50_54 || class == AgeClass::Class55_59
-                        }
-                        AgeClassSelection::Masters6069 => {
-                            class == AgeClass::Class60_64 || class == AgeClass::Class65_69
-                        }
-                        AgeClassSelection::Masters7079 => {
-                            class == AgeClass::Class70_74 || class == AgeClass::Class75_79
-                        }
-                        AgeClassSelection::Masters4044 => class == AgeClass::Class40_44,
-                        AgeClassSelection::Masters4549 => class == AgeClass::Class45_49,
-                        AgeClassSelection::Masters5054 => class == AgeClass::Class50_54,
-                        AgeClassSelection::Masters5559 => class == AgeClass::Class55_59,
-                        AgeClassSelection::Masters6064 => class == AgeClass::Class60_64,
-                        AgeClassSelection::Masters6569 => class == AgeClass::Class65_69,
-                        AgeClassSelection::Masters7074 => class == AgeClass::Class70_74,
-                        AgeClassSelection::Masters7579 => class == AgeClass::Class75_79,
-                        AgeClassSelection::MastersOver80 => {
-                            class == AgeClass::Class80_999
-                        }
+                        AllAges => true,
+
+                        // Age-based classes.
+                        Youth512 => class == Class5_12,
+                        Teenage1315 => class == Class13_15,
+                        Teenage1617 => class == Class16_17,
+                        Teenage1819 => class == Class18_19,
+                        Juniors2023 => class == Class20_23,
+                        Seniors2434 => class == Class24_34,
+                        Submasters3539 => class == Class35_39,
+                        Masters4049 => class == Class40_44 || class == Class45_49,
+                        Masters5059 => class == Class50_54 || class == Class55_59,
+                        Masters6069 => class == Class60_64 || class == Class65_69,
+                        Masters7079 => class == Class70_74 || class == Class75_79,
+                        Masters4044 => class == Class40_44,
+                        Masters4549 => class == Class45_49,
+                        Masters5054 => class == Class50_54,
+                        Masters5559 => class == Class55_59,
+                        Masters6064 => class == Class60_64,
+                        Masters6569 => class == Class65_69,
+                        Masters7074 => class == Class70_74,
+                        Masters7579 => class == Class75_79,
+                        MastersOver80 => class == Class80_999,
+
+                        // BirthYear-based classes.
+                        SubJuniorsY14Y18 => byclass == BirthYearClass::ClassY14Y18,
+                        JuniorsY19Y23 => byclass == BirthYearClass::ClassY19Y23,
+                        SeniorsY24Y39 => byclass == BirthYearClass::ClassY24Y39,
+                        MastersY40Y49 => byclass == BirthYearClass::ClassY40Y49,
+                        MastersY50Y59 => byclass == BirthYearClass::ClassY50Y59,
+                        MastersY60Y69 => byclass == BirthYearClass::ClassY60Y69,
+                        MastersOverY70 => byclass == BirthYearClass::ClassY70Y999,
                     };
                     if matches {
-                        Some(i)
+                        Option::Some(i)
                     } else {
-                        None
+                        Option::None
                     }
                 })
                 .collect(),

@@ -2,13 +2,13 @@ Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 Delcy Palk,47,Open,F,110,50,115,275,SBD,Single-ply,1
 Linda Thomas,47,Open,F,87.5,50,105,242.5,SBD,Single-ply,2
 Shana Eaton,47,Open,F,75,45,105,225,SBD,Single-ply,3
-D. Hershberger,47,Open,F,72.5,47.5,90,210,SBD,Single-ply,4
+Dolly Hershberger,47,Open,F,72.5,47.5,90,210,SBD,Single-ply,4
 Tanya Talton,50.5,Open,F,105,57.5,122.5,285,SBD,Single-ply,1
 Kim Holtz,50.5,Open,F,92.5,50,92.5,235,SBD,Single-ply,2
-Laurie Green,53,Open,F,135,62.5,132.5,330,SBD,Single-ply,1
+Laurie Greene,53,Open,F,135,62.5,132.5,330,SBD,Single-ply,1
 Wendi Jones,53,Open,F,107.5,60,145,312.5,SBD,Single-ply,2
 Belinda Lee,53,Open,F,77.5,47.5,115,240,SBD,Single-ply,3
-C. Fitzwater,55.5,Open,F,100,52.5,140,292.5,SBD,Single-ply,1
+Carolyn Fitzwater,55.5,Open,F,100,52.5,140,292.5,SBD,Single-ply,1
 Mari Eastman,55.5,Open,F,97.5,52.5,130,280,SBD,Single-ply,2
 Sharon Smith,58.5,Open,F,130,62.5,152.5,345,SBD,Single-ply,1
 C. Rawson,58.5,Open,F,105,52.5,132.5,290,SBD,Single-ply,2
@@ -20,9 +20,9 @@ R. McKinney,63,Open,F,137.5,65,172.5,375,SBD,Single-ply,1
 Tracy LeGos,63,Open,F,117.5,72.5,102.5,292.5,SBD,Single-ply,2
 Mandy Creel,80,Open,F,132.5,62.5,142.5,337.5,SBD,Single-ply,1
 Jenny Creel,80,Open,F,127.5,60,147.5,335,SBD,Single-ply,2
-Kenneth Hayashi,52,Open,M,150,75,170,395,SBD,Single-ply,1
+Ken Hayashi,52,Open,M,150,75,170,395,SBD,Single-ply,1
 D. San Miguel,52,Open,M,125,75,157.5,357.5,SBD,Single-ply,2
-Kevin Jones,56,Open,M,167.5,102.5,175,445,SBD,Single-ply,1
+Kevin Jones #12,56,Open,M,167.5,102.5,175,445,SBD,Single-ply,1
 Mike Duhon,56,Open,M,150,102.5,190,442.5,SBD,Single-ply,2
 Jack Rubio,56,Open,M,135,117.5,177.5,430,SBD,Single-ply,3
 Carlos Toro,56,Open,M,125,90,167.5,382.5,SBD,Single-ply,4
@@ -31,7 +31,7 @@ Matt Machtay,60,Open,M,190,112.5,182.5,485,SBD,Single-ply,2
 Chris Boillot,67.5,Open,M,227.5,142.5,230,600,SBD,Single-ply,1
 Curtis Green,67.5,Open,M,215,142.5,225,582.5,SBD,Single-ply,2
 Jeff Shaw,67.5,Open,M,185,150,230,565,SBD,Single-ply,3
-T. van Bodegom,67.5,Open,M,217.5,122.5,220,560,SBD,Single-ply,4
+Todd VanBodegom-Smith,67.5,Open,M,217.5,122.5,220,560,SBD,Single-ply,4
 Charlie Sizemore,67.5,Open,M,215,122.5,222.5,560,SBD,Single-ply,5
 Donnie Jackson,67.5,Open,M,205,127.5,227.5,560,SBD,Single-ply,6
 Luis Sampedro,67.5,Open,M,210,115,227.5,552.5,SBD,Single-ply,7
@@ -65,5 +65,5 @@ Tim Russ,100,Open,M,247.5,167.5,245,660,SBD,Single-ply,3
 David Mitchell,110,Open,M,240,182.5,267.5,690,SBD,Single-ply,1
 Fred Rafanello,125,Open,M,280,167.5,272.5,720,SBD,Single-ply,1
 Chris Lehan,125,Open,M,255,165,265,685,SBD,Single-ply,2
-D. Spinelli,125,Open,M,262.5,170,252.5,685,SBD,Single-ply,3
+Dorn Spinelli,125,Open,M,262.5,170,252.5,685,SBD,Single-ply,3
 Mike Garlitz,125+,Open,M,322.5,152.5,252.5,727.5,SBD,Single-ply,1

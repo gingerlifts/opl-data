@@ -11,7 +11,7 @@ DQ,Mart Kleszczynska,1979,48,47.9,Poland,-115,-115,-115,,,,,,,,,,,F,Juniors,SBD,
 2,Larysa Vitsyevska,1978,52,51.7,Ukraine,130,140,-145,140,80,-87.5,-87.5,80,-155,155,-160,155,375,F,Juniors,SBD,Single-ply
 3,Ludmila Titova,1978,52,51.4,Ukraine,130,137.5,142.5,142.5,65,-70,70,70,135,145,-152.5,145,357.5,F,Juniors,SBD,Single-ply
 4,Lidia Koziol,1980,52,51.4,Poland,120,130,135,135,62.5,67.5,-70,67.5,125,135,-140,135,337.5,F,Juniors,SBD,Single-ply
-5,Sofhia GuilHomat,1975,52,51.2,France,120,-125,-125,120,55,60,-62.5,60,-135,135,142.5,142.5,322.5,F,Juniors,SBD,Single-ply
+5,Sophie Guihomat,1975,52,51.2,France,120,-125,-125,120,55,60,-62.5,60,-135,135,142.5,142.5,322.5,F,Juniors,SBD,Single-ply
 1,Elena Petrunina,1976,56,54.9,Russia,170,175,180,180,90,95,97.5,97.5,170,175,177.5,177.5,455,F,Juniors,SBD,Single-ply
 2,Dana Matejova,1975,56,55.7,Germany,-157.5,157.5,162.5,162.5,92.5,97.5,100,100,145,152.5,-160,152.5,415,F,Juniors,SBD,Single-ply
 3,Oxana Gordienko,1977,56,54.5,Ukraine,120,132.5,-137.5,132.5,62.5,70,75,75,130,145,152.5,152.5,360,F,Juniors,SBD,Single-ply
@@ -27,7 +27,7 @@ DQ,Inna Maximova,1976,56,55.7,Russia,165,175,-185,175,-85,-85,-85,,,,,,,F,Junior
 1,Svetlana Miklashevich,1975,67.5,66.5,Russia,170,180,-190,180,130,140,-142.5,140,170,182.5,187.5,187.5,507.5,F,Juniors,SBD,Single-ply
 2,Lesya Humynska,1980,67.5,62.7,Ukraine,185,192.5,-197.5,192.5,100,105,-110,105,185,192.5,-197.5,192.5,490,F,Juniors,SBD,Single-ply
 3,Beate Grabosch,1975,67.5,65.1,Germany,135,145,152.5,152.5,80,87.5,-92.5,87.5,145,152.5,,152.5,392.5,F,Juniors,SBD,Single-ply
-4,Marja Koskinen,1975,67.5,66.6,Finland,142.5,-150,-150,142.5,72.5,82.5,-87.5,82.5,130,137.5,142.5,142.5,367.5,F,Juniors,SBD,Single-ply
+4,Maria Koskinen,1975,67.5,66.6,Finland,142.5,-150,-150,142.5,72.5,82.5,-87.5,82.5,130,137.5,142.5,142.5,367.5,F,Juniors,SBD,Single-ply
 5,Elena Belova,1979,67.5,63.4,Belarus,137.5,-147.5,-147.5,137.5,80,87.5,-90,87.5,120,130,-145,130,355,F,Juniors,SBD,Single-ply
 1,Anja Wiezkowiak,1975,75,71,Germany,197.5,207.5,212.5,212.5,102.5,107.5,110,110,205,220,232.5,232.5,555,F,Juniors,SBD,Single-ply
 2,Ingunn Haakonsen,1976,75,69.5,Norway,175,185,-192.5,185,90,95,-100,95,175,185,190,190,470,F,Juniors,SBD,Single-ply
@@ -36,7 +36,7 @@ DQ,Inna Maximova,1976,56,55.7,Russia,165,175,-185,175,-85,-85,-85,,,,,,,F,Junior
 5,Natascha Gulik,1979,75,71.5,Belarus,120,130,-145,130,-85,85,-95,85,120,130,-142.5,130,345,F,Juniors,SBD,Single-ply
 6,Catja Smith,1976,75,71.5,UK,-135,135,-147.5,135,65,-70,-75,65,135,-142.5,-142.5,135,335,F,Juniors,SBD,Single-ply
 1,Natalya Payusova,1975,82.5,78.9,Russia,200,210,220,220,140,150,152.5,152.5,200,-222.5,-222.5,200,572.5,F,Juniors,SBD,Single-ply
-2,Sam Burns-Salmon,1976,82.5,76.5,UK,-150,155,-165,155,80,-87.5,-90,80,150,162.5,-167.5,162.5,397.5,F,Juniors,SBD,Single-ply
+2,Samantha Burns-Salmond,1976,82.5,76.5,UK,-150,155,-165,155,80,-87.5,-90,80,150,162.5,-167.5,162.5,397.5,F,Juniors,SBD,Single-ply
 3,Ewa Przytulska,1982,82.5,75.5,Poland,125,-135,135,135,77.5,-85,-85,77.5,142.5,150,155,155,367.5,F,Juniors,SBD,Single-ply
 4,Evelyn Reichart,1978,82.5,75.5,Austria,127.5,135,-140,135,72.5,80,-85,80,112.5,120,-127.5,120,335,F,Juniors,SBD,Single-ply
 1,Anna Ganenko,1975,90,89.5,Ukraine,170,200,210,210,110,125,-132.5,125,150,172.5,180,180,515,F,Juniors,SBD,Single-ply
@@ -89,7 +89,7 @@ DQ,Alexey Nemtsev,1975,82.5,79.9,Russia,,,,300,,,,200,,,,,,M,Juniors,SBD,Single-
 5,Herbert Stummer,1976,100,91.2,Austria,,,,225,,,,155,,,,230,610,M,Juniors,SBD,Single-ply
 DQ,Arkadiusz Buda,1976,100,91.4,Poland,,,,,,,,,,,,,,M,Juniors,SBD,Single-ply
 DQ,Dezidér Mihok,1975,100,94.5,Czechia,,,,280,,,,,,,,,,M,Juniors,SBD,Single-ply
-1,Volodym Muravliov,1975,110,109.1,Ukraine,,,,320,,,,225,,,,337.5,882.5,M,Juniors,SBD,Single-ply
+1,Volodymyr Muravlyov,1975,110,109.1,Ukraine,,,,320,,,,225,,,,337.5,882.5,M,Juniors,SBD,Single-ply
 2,Jari Martikainen,1975,110,109.4,Finland,,,,307.5,,,,177.5,,,,320,805,M,Juniors,SBD,Single-ply
 3,Kristoffer Willebrand,1975,110,107.7,Sweden,,,,310,,,,190,,,,290,790,M,Juniors,SBD,Single-ply
 4,Damir Krunic,1975,110,109.5,Yugoslavia,,,,275,,,,200,,,,297.5,772.5,M,Juniors,SBD,Single-ply

@@ -26,7 +26,7 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,K. Chilcott,Juniors,UK,,160,170,180,180,,115,120,-125,120,170,-180,180,180,,480,60,M,SBD,Single-ply
 1,Doug Heath,Open,USA,,192.5,217.5,235,235,,147.5,177.5,182.5,182.5,192.5,220,-240,220,,637.5,60,M,SBD,Single-ply
 2,K. Chilcott,Open,UK,,160,170,180,180,,115,120,-125,120,170,-180,180,180,,480,60,M,SBD,Single-ply
-DQ,J. Schiller,Open,USA,,147.5,160,172.5,172.5,,-105,-120,-120,,,,,,,,60,M,SBD,Single-ply
+DQ,Joe Schiller,Open,USA,,147.5,160,172.5,172.5,,-105,-120,-120,,,,,,,,60,M,SBD,Single-ply
 1,Frederick Glass,Masters 3,USA,,130,152.5,-175,152.5,,65,70,72.5,72.5,182.5,190,-202.5,190,,415,60,M,SBD,Single-ply
 1,P. Jacobs,Teen 3,Belgium,,180,-195,-195,180,,120,125,-132.5,125,200,-207.5,-212.5,200,,505,67.5,M,SBD,Single-ply
 2,John Marsden #2,Teen 3,UK,,155,170,-180,170,,100,110,112.5,112.5,195,-205,-205,195,,477.5,67.5,M,SBD,Single-ply
@@ -40,7 +40,7 @@ DQ,J. Schiller,Open,USA,,147.5,160,172.5,172.5,,-105,-120,-120,,,,,,,,60,M,SBD,S
 2,Jim Benson,Masters 1,USA,,190,207.5,217.5,217.5,,110,115,117.5,117.5,215,222.5,-230,222.5,,557.5,67.5,M,SBD,Single-ply
 1,James Capehart,Masters 2,USA,,170,182.5,187.5,187.5,,112.5,117.5,120,120,172.5,182.5,-187.5,182.5,,490,67.5,M,SBD,Single-ply
 2,Les Cramer,Masters 2,USA,,172.5,180,-182.5,180,,112.5,-117.5,,112.5,165,-172.5,-177.5,165,,457.5,67.5,M,SBD,Single-ply
-1,Joseph McCoy,Teen 2,USA,,227.5,247.5,260,260,,145,155,-160,155,220,-237.5,-237.5,220,,635,75,M,SBD,Single-ply
+1,Joe McCoy,Teen 2,USA,,227.5,247.5,260,260,,145,155,-160,155,220,-237.5,-237.5,220,,635,75,M,SBD,Single-ply
 1,Edward Downing,Teen 3,South Africa,,,,,235,,,,,167.5,,,,232.5,,635,75,M,SBD,Single-ply
 2,J. de Vriese,Teen 3,Belgium,,170,185,195,195,,90,95,-100,95,180,200,-210,200,,490,75,M,SBD,Single-ply
 3,D Setteys,Teen 3,Belgium,,125,140,155,155,,90,102.5,110,110,140,175,195,195,,460,75,M,SBD,Single-ply
@@ -57,7 +57,7 @@ DQ,J. Schiller,Open,USA,,147.5,160,172.5,172.5,,-105,-120,-120,,,,,,,,60,M,SBD,S
 3,Jim Kiser,Masters 1,USA,,142.5,180,-200,180,,105,115,-122.5,115,147.5,165,175,175,,470,75,M,SBD,Single-ply
 1,Bill Ramsrud,Masters 5,USA,,172.5,202.5,-207.5,202.5,,62.5,,,62.5,62.5,,,62.5,,327.5,75,M,SBD,Single-ply
 1,Ed Riley #3,Teen 1,USA,,102.5,120,130,130,,-102.5,107.5,110,110,142.5,165,172.5,172.5,,412.5,82.5,M,SBD,Single-ply
-1,Householder,Teen 2,USA,,185,207.5,220,220,,140,152.5,160,160,230,245,-257.5,245,-257.5,625,82.5,M,SBD,Single-ply
+1,T. Householder,Teen 2,USA,,185,207.5,220,220,,140,152.5,160,160,230,245,-257.5,245,-257.5,625,82.5,M,SBD,Single-ply
 1,Frank Mombert,Teen 3,Belgium,,-200,200,-230,200,,115,127.5,135,135,240,255,-265,255,,590,82.5,M,SBD,Single-ply
 1,Tony Kamand,Open,USA,,-310,322.5,337.5,337.5,,190,202.5,-210,202.5,287.5,305,315,315,,855,82.5,M,SBD,Single-ply
 2,Enzo Cattuci,Open,Italy,,255,-270,270,270,,195,205,-210,205,250,265,-295,265,,740,82.5,M,SBD,Single-ply
@@ -83,14 +83,14 @@ DQ,J. Schiller,Open,USA,,147.5,160,172.5,172.5,,-105,-120,-120,,,,,,,,60,M,SBD,S
 1,Burt Rosenfield,Masters 4,USA,,185,200,-210,200,,137.5,-147.5,-147.5,137.5,210,-227.5,-227.5,210,,547.5,90,M,SBD,Single-ply
 1,A. Mesa,Juniors,UK,,240,-260,-260,240,,150,162.5,-170,162.5,245,-255,255,255,,657.5,100,M,SBD,Single-ply
 1,Rick Priester,Open,Netherlands,,295,305,315,315,,205,212.5,-217.5,212.5,290,302.5,310,310,,837.5,100,M,SBD,Single-ply
-2,R Anthony,Open,South Africa,,300,-330,,300,,200,215,-217.5,215,280,315,-325,315,,830,100,M,SBD,Single-ply
+2,R. Anthony,Open,South Africa,,300,-330,,300,,200,215,-217.5,215,280,315,-325,315,,830,100,M,SBD,Single-ply
 3,M Biljon,Open,South Africa,,-320,320,-340,320,,187.5,197.5,-200,197.5,-310,310,-322.5,310,,827.5,100,M,SBD,Single-ply
 4,A. Mesa,Open,UK,,240,-260,-260,240,,150,162.5,-170,162.5,245,-255,255,255,,657.5,100,M,SBD,Single-ply
 1,Joe DeVerville,Masters 1,USA,,277.5,292.5,-297.5,292.5,,205,-210,-210,205,287.5,-300,-300,287.5,,785,100,M,SBD,Single-ply
 1,Mike Stone #1,Masters 2,USA,,250,275,292.5,292.5,,170,-182.5,-182.5,170,250,-260,,250,,712.5,100,M,SBD,Single-ply
 1,Tom Bauers,Masters 3,USA,,-240,-240,257.5,257.5,,150,-165,,150,227.5,272.5,,272.5,,680,100,M,SBD,Single-ply
 1,Henry McEvoy,Masters 5,USA,,-100,100,125,125,,107.5,117.5,-125,117.5,170,182.5,192.5,192.5,,435,100,M,SBD,Single-ply
-1,Eugene Van der Merwer,Open,South Africa,,405,-425,-440,405,,210,-220,220,220,310,-337.5,,310,,935,110,M,SBD,Single-ply
+1,Eugene van der Merwe,Open,South Africa,,405,-425,-440,405,,210,-220,220,220,310,-337.5,,310,,935,110,M,SBD,Single-ply
 2,T. Cameron,Open,UK,,272.5,-300,300,300,,200,220,-230,220,272.5,-295,295,295,,815,110,M,SBD,Single-ply
 3,Enrico Brusco,Open,Italy,,-310,310,-330,310,,-200,200,210,210,275,-297.5,-297.5,275,,795,110,M,SBD,Single-ply
 4,P Decat,Open,Belgium,,215,230,-240,230,,135,145,-155,145,250,265,272.5,272.5,,647.5,110,M,SBD,Single-ply

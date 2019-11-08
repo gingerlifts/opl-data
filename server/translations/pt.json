@@ -17,14 +17,14 @@
 		"f": "F"
 	},
 	"header": {
-		"rankings": "Rankings",
-		"records": "Records",
+		"rankings": "Classificações",
+		"records": "Recordes",
 		"meets": "Competições",
 		"data": "Dados",
 		"status": "Estado do projeto",
 		"faq": "FAQ",
 		"contact": "Contacto",
-		"shop": "Shop",
+		"shop": "Loja",
 		"supportus": "Ajuda-nos"
 	},
 	"columns": {
@@ -257,10 +257,12 @@
 			"by_deadlift": "Por Peso Morto",
 			"by_total": "Por Total",
 			"by_allometric": "Por Escala Alométrica",
+			"by_ah": "By AH (Haleczko)",
 			"by_glossbrenner": "Por Glossbrenner",
 			"by_ipfpoints": "By IPF Points",
 			"by_mcculloch": "Por McCulloch",
 			"by_nasa": "By NASA Points",
+			"by_reshel": "By Reshel",
 			"by_wilks": "Por Wilks",
 			"by_division": "By Division",
 			"weight": "Por Peso",
@@ -291,6 +293,8 @@
 			"all_usa": "All United States Lifters",
 			"all_argentina": "All Argentinian Lifters",
 			"all_australia": "All Australian Lifters",
+			"all_belarus": "All Belarusian Lifters",
+			"all_brazil": "All Brazilian Lifters",
 			"all_canada": "All Canadian Lifters",
 			"all_china": "All Chinese Lifters",
 			"all_croatia": "All Croatian Lifters",
@@ -307,6 +311,7 @@
 			"all_latvia": "All Latvian Lifters",
 			"all_newzealand": "All New Zealand Lifters",
 			"all_poland": "All Polish Lifters",
+			"all_portugal": "All Portugese Lifters",
 			"all_russia": "All Russian Lifters",
 			"all_serbia": "All Serbian Lifters",
 			"all_slovakia": "All Slovak Lifters",
@@ -324,7 +329,7 @@
 		}
 	},
 	"lifter_page": {
-		"personal_bests": "Personal Bests",
-		"competition_results": "Competition Results"
+		"personal_bests": "Melhores Resultados Pessoais",
+		"competition_results": "Resultados da Competição"
 	}
 }

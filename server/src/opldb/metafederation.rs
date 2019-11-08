@@ -29,6 +29,10 @@ pub enum MetaFederation {
     AllArgentina,
     #[strum(to_string = "all-australia")]
     AllAustralia,
+    #[strum(to_string = "all-belarus")]
+    AllBelarus,
+    #[strum(to_string = "all-brazil")]
+    AllBrazil,
     #[strum(to_string = "all-canada")]
     AllCanada,
     #[strum(to_string = "all-china")]
@@ -61,6 +65,8 @@ pub enum MetaFederation {
     AllNewZealand,
     #[strum(to_string = "all-poland")]
     AllPoland,
+    #[strum(to_string = "all-portugal")]
+    AllPortugal,
     #[strum(to_string = "all-russia")]
     AllRussia,
     #[strum(to_string = "all-serbia")]
@@ -102,6 +108,10 @@ pub enum MetaFederation {
     #[strum(to_string = "all-bp")]
     AllBP,
 
+    /// BDFPA, but with international results also.
+    #[strum(to_string = "bdfpa")]
+    BDFPA,
+
     /// BPU, but with international results also.
     #[strum(to_string = "bpu")]
     BPU,
@@ -110,12 +120,23 @@ pub enum MetaFederation {
     #[strum(to_string = "bvdk")]
     BVDK,
 
+    /// FRPL, but with international results also.
+    #[strum(to_string = "frpl")]
+    FRPL,
+
     /// GPC-AUS, but excluding non-Australian lifters.
     #[strum(to_string = "gpc-aus")]
+    #[serde(rename = "GPC-AUS")]
     GPCAUS,
+
+    /// GPC-GB, but with international results also.
+    #[strum(to_string = "gpc-gb")]
+    #[serde(rename = "GPC-GB")]
+    GPCGB,
 
     /// GPC-WUAP-CRO, but including HPO results and excluding non-Croatians.
     #[strum(to_string = "gpc-wuap-cro")]
+    #[serde(rename = "GPC-WUAP-CRO")]
     GPCWUAPCRO,
 
     /// HPLS, but excluding non-Croatian lifters.
@@ -134,13 +155,25 @@ pub enum MetaFederation {
     #[strum(to_string = "ipf-internationals")]
     IPFInternationals,
 
+    /// IrishPF, but with international results also.
+    #[strum(to_string = "irishpf")]
+    IrishPF,
+
     /// IrishPO, excluding non-Irish lifters and including WPC results.
     #[strum(to_string = "irishpo")]
     IrishPO,
 
+    /// LJTF, but with international results also.
+    #[strum(to_string = "ljtf")]
+    LJTF,
+
     /// NPB, but with international results also.
     #[strum(to_string = "npb")]
     NPB,
+
+    /// NZPF, but with international results also.
+    #[strum(to_string = "nzpf")]
+    NZPF,
 
     /// OEVK, but with international results also.
     #[strum(to_string = "oevk")]
@@ -189,6 +222,16 @@ impl MetaFederation {
                 entry.lifter_country == Some(Country::Australia)
                     || (entry.lifter_country == None
                         && meet.federation.home_country() == Some(Country::Australia))
+            }
+            MetaFederation::AllBelarus => {
+                entry.lifter_country == Some(Country::Belarus)
+                    || (entry.lifter_country == None
+                        && meet.federation.home_country() == Some(Country::Belarus))
+            }
+            MetaFederation::AllBrazil => {
+                entry.lifter_country == Some(Country::Brazil)
+                    || (entry.lifter_country == None
+                        && meet.federation.home_country() == Some(Country::Brazil))
             }
             MetaFederation::AllCanada => {
                 entry.lifter_country == Some(Country::Canada)
@@ -271,6 +314,11 @@ impl MetaFederation {
                     || (entry.lifter_country == None
                         && meet.federation.home_country() == Some(Country::Poland))
             }
+            MetaFederation::AllPortugal => {
+                entry.lifter_country == Some(Country::Portugal)
+                    || (entry.lifter_country == None
+                        && meet.federation.home_country() == Some(Country::Portugal))
+            }
             MetaFederation::AllRussia => {
                 entry.lifter_country == Some(Country::Russia)
                     || (entry.lifter_country == None
@@ -312,8 +360,12 @@ impl MetaFederation {
                         && meet.federation.home_country() == Some(Country::Switzerland))
             }
             MetaFederation::AllUK => {
-                // UK lifters can set UK records abroad, except in Ireland.
-                if meet.country == Country::Ireland {
+                // UK lifters sometimes switch country affiliation from UK to Ireland
+                // when they compete IrishPF.
+                //
+                // Assume that all IrishPF lifting is done for Ireland,
+                // even if the lifter is marked as UK.
+                if meet.federation == Federation::IrishPF {
                     false
                 } else {
                     entry.lifter_country.map_or(false, |c| c.is_in_uk())
@@ -362,6 +414,11 @@ impl MetaFederation {
                          || meet.federation == Federation::EPF
                          || meet.federation == Federation::CommonwealthPF))
             }
+            MetaFederation::BDFPA => {
+                meet.federation == Federation::BDFPA
+                    || (meet.federation == Federation::WDFPF
+                        && entry.lifter_country.map_or(false, |c| c.is_in_uk()))
+            }
             MetaFederation::BPU => {
                 meet.federation == Federation::BPU
                     || (meet.federation == Federation::WPC
@@ -378,11 +435,33 @@ impl MetaFederation {
                 }
                 _ => false,
             },
+            MetaFederation::FRPL => match meet.federation {
+                Federation::FRPL => {
+                    entry.lifter_country == None
+                        || entry.lifter_country == Some(Country::Romania)
+                }
+                Federation::IPF | Federation::EPF => {
+                    entry.lifter_country == Some(Country::Romania)
+                }
+                _ => false,
+            },
             MetaFederation::GPCAUS => {
                 meet.federation == Federation::GPCAUS
                     && (entry.lifter_country == None
                         || entry.lifter_country == Some(Country::Australia))
             }
+            MetaFederation::GPCGB => match meet.federation {
+                Federation::GPCGB => true,
+                fed => {
+                    if let Some(country) = entry.lifter_country {
+                        country.is_in_uk()
+                            && country != Country::NorthernIreland
+                            && fed.sanctioning_body(meet.date) == Some(Federation::GPC)
+                    } else {
+                        false
+                    }
+                }
+            },
             MetaFederation::GPCWUAPCRO => {
                 (meet.federation == Federation::GPCWUAPCRO
                     || meet.federation == Federation::HPO)
@@ -411,6 +490,16 @@ impl MetaFederation {
                 | Federation::CommonwealthPF => true,
                 _ => false,
             },
+            MetaFederation::IrishPF => match meet.federation {
+                Federation::IrishPF => {
+                    entry.lifter_country == None
+                        || entry.lifter_country == Some(Country::Ireland)
+                }
+                Federation::IPF | Federation::EPF => {
+                    entry.lifter_country == Some(Country::Ireland)
+                }
+                _ => false,
+            },
             MetaFederation::IrishPO => {
                 (meet.federation == Federation::IrishPO
                     && (entry.lifter_country.is_none()
@@ -418,10 +507,30 @@ impl MetaFederation {
                     || (meet.federation == Federation::WPC
                         && entry.lifter_country == Some(Country::Ireland))
             }
+            MetaFederation::LJTF => match meet.federation {
+                Federation::LJTF => {
+                    entry.lifter_country == None
+                        || entry.lifter_country == Some(Country::Lithuania)
+                }
+                Federation::IPF | Federation::EPF => {
+                    entry.lifter_country == Some(Country::Lithuania)
+                }
+                _ => false,
+            },
             MetaFederation::NPB => match meet.federation {
                 Federation::NPB => true,
                 Federation::IPF | Federation::EPF => {
                     entry.lifter_country == Some(Country::Netherlands)
+                }
+                _ => false,
+            },
+            MetaFederation::NZPF => match meet.federation {
+                Federation::NZPF => {
+                    entry.lifter_country == None
+                        || entry.lifter_country == Some(Country::NewZealand)
+                }
+                Federation::IPF | Federation::OceaniaPF | Federation::CommonwealthPF => {
+                    entry.lifter_country == Some(Country::NewZealand)
                 }
                 _ => false,
             },

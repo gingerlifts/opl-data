@@ -3,8 +3,8 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,Country,BodyweightKg,Best3SquatK
 2,52,F,Masters 1,Carol Scott-Todd,,Australia,50.8,97.5,55,130,282.5,SBD,Single-ply
 3,52,F,Masters 1,Eila Kumpuniemi,1942,Finland,51.25,100,57.5,125,282.5,SBD,Single-ply
 4,52,F,Masters 1,C. Hayworth,,USA,48.8,72.5,45,112.5,230,SBD,Single-ply
-DQ,52,F,Masters 1,Pamela Cutjar,1948,Australia,47,95,45,,,SBD,Single-ply
-1,67.5,F,Masters 1,Tony Harms,1950,Netherlands,59.55,155,75,177.5,407.5,SBD,Single-ply
+DQ,52,F,Masters 1,Pam Cutjar,1948,Australia,47,95,45,,,SBD,Single-ply
+1,67.5,F,Masters 1,Tonny Harms,1950,Netherlands,59.55,155,75,177.5,407.5,SBD,Single-ply
 2,67.5,F,Masters 1,Anita Thimm,1950,Germany,54.55,115,65,157.5,337.5,SBD,Single-ply
 3,67.5,F,Masters 1,Tiny Koppin,1940,Netherlands,65.85,145,82.5,160,387.5,SBD,Single-ply
 4,67.5,F,Masters 1,W. Wright,,USA,63.6,120,55,150,325,SBD,Single-ply
@@ -58,7 +58,7 @@ DQ,75,M,Masters 1,Terje Brovold,1945,Norway,,220,135,,,SBD,Single-ply
 DQ,82.5,M,Masters 1,L. Hombul,,Papua New Guinea,,,,,,SBD,Single-ply
 DQ,82.5,M,Masters 1,Mike VanCleave,,USA,,,,,,SBD,Single-ply
 1,90,M,Masters 1,Atle Edvardsen,1951,Norway,,287.5,172.5,285,745,SBD,Single-ply
-2,90,M,Masters 1,Harry van der Brandt,1946,Netherlands,,270,160,270,700,SBD,Single-ply
+2,90,M,Masters 1,Harrie van den Brand,1946,Netherlands,,270,160,270,700,SBD,Single-ply
 3,90,M,Masters 1,Ken Fougere,1952,Canada,,267.5,160,262.5,690,SBD,Single-ply
 4,90,M,Masters 1,T. Cox,,Australia,,245,150,285,680,SBD,Single-ply
 5,90,M,Masters 1,Jonny Wall,1945,Sweden,,260,145,262.5,667.5,SBD,Single-ply
@@ -84,7 +84,7 @@ DQ,90,M,Masters 1,M. Kashihara,,Japan,,,,,,SBD,Single-ply
 9,110,M,Masters 1,Tapio Ruohonen,1950,Finland,,205,152.5,242.5,600,SBD,Single-ply
 1,125,M,Masters 1,Sonny Alexander,,Canada,,285,170,267.5,722.5,SBD,Single-ply
 2,125,M,Masters 1,Daniel Smague,1947,France,,275,165,275,715,SBD,Single-ply
-3,125,M,Masters 1,Daniel Dewas,1945,France,,280,152.5,272.5,705,SBD,Single-ply
+3,125,M,Masters 1,Pierre Daniel Dewas,1945,France,,280,152.5,272.5,705,SBD,Single-ply
 4,125,M,Masters 1,Bill Slish,,USA,,250,127.5,245,622.5,SBD,Single-ply
 5,125,M,Masters 1,Stan Hallmond,,New Zealand,,240,160,220,620,SBD,Single-ply
 DQ,125,M,Masters 1,J. Östby,,Sweden,,,,,,SBD,Single-ply
@@ -119,7 +119,7 @@ DQ,75,M,Masters 2,Kip Hughs,,USA,,,,,,SBD,Single-ply
 5,82.5,M,Masters 2,Lyndon Lam,1941,Canada,,185,110,225,520,SBD,Single-ply
 6,82.5,M,Masters 2,D. Marshall,,New Zealand,,180,135,190,505,SBD,Single-ply
 7,82.5,M,Masters 2,O. Acron,,Australia,,170,105,190,465,SBD,Single-ply
-8,82.5,M,Masters 2,C. Holt,,Australia,,140,85,160,385,SBD,Single-ply
+8,82.5,M,Masters 2,Chris Holt,,Australia,,140,85,160,385,SBD,Single-ply
 DD,82.5,M,Masters 2,Esko Ketola,1941,Finland,,,,,,SBD,Single-ply
 1,90,M,Masters 2,Veli Kumpuniemi,1932,Finland,,220,147.5,277.5,645,SBD,Single-ply
 2,90,M,Masters 2,Patrick Spillane,,Australia,,220,110,277.5,607.5,SBD,Single-ply

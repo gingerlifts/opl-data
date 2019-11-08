@@ -26,10 +26,12 @@ use rocket::http::{ContentType, Cookies, Status};
 use rocket::request::{Form, Request};
 use rocket::response::{NamedFile, Redirect, Responder, Response};
 use rocket::State;
+use rocket_contrib::json::Json;
 use rocket_contrib::templates::Template;
 
 use strum::IntoEnumIterator;
 
+use std::collections::HashMap;
 use std::env;
 use std::error::Error;
 use std::fs::File;
@@ -212,6 +214,14 @@ fn lifter(
             Some(Ok(Template::render("disambiguation", &context)))
         }
     }
+}
+
+/// Exports single-lifter data as a CSV file.
+#[get("/u/<username>/csv")]
+fn lifter_csv(username: String, opldb: State<ManagedOplDb>) -> Option<String> {
+    let lifter_id = opldb.get_lifter_id(&username)?;
+    let entry_filter = None;
+    pages::lifter_csv::export_csv(&opldb, lifter_id, entry_filter).ok()
 }
 
 #[get("/mlist/<mselections..>?<lang>")]
@@ -416,6 +426,23 @@ fn default_search_rankings_api(
     search_rankings_api(None, query, opldb)
 }
 
+// Renders the development environment.
+#[get("/")]
+fn dev_main() -> Template {
+    let dummy: HashMap<String, String> = HashMap::new();
+    Template::render("dev/checker", dummy)
+}
+
+/// Handles POST requests for getting data checked.
+#[post("/checker", data = "<input>")]
+fn dev_checker_post(
+    opldb: State<ManagedOplDb>,
+    input: Json<pages::checker::CheckerInput>,
+) -> Option<JsonString> {
+    let output = pages::checker::check(&opldb, &input);
+    Some(JsonString(serde_json::to_string(&output).ok()?))
+}
+
 #[get("/lifters.html?<q>")]
 fn old_lifters(opldb: State<ManagedOplDb>, q: String) -> Option<Redirect> {
     let name = &q;
@@ -460,7 +487,22 @@ fn old_contact() -> Redirect {
 #[get("/robots.txt")]
 fn robots_txt() -> &'static str {
     // Allow robots full site access except for JSON endpoints.
-    "User-agent: *\nDisallow: /api/"
+    r#"User-agent: *
+Disallow: /api/
+Disallow: /dev/
+
+# Disallow bots from marketing and SEO companies.
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SemrushBot-SA
+Disallow: /"#
 }
 
 #[catch(404)]
@@ -498,6 +540,7 @@ fn rocket(opldb: ManagedOplDb, langinfo: ManagedLangInfo) -> rocket::Rocket {
                 records,
                 records_default,
                 lifter,
+                lifter_csv,
                 meetlist,
                 meetlist_default,
                 meet,
@@ -511,6 +554,7 @@ fn rocket(opldb: ManagedOplDb, langinfo: ManagedLangInfo) -> rocket::Rocket {
                 robots_txt,
             ],
         )
+        .mount("/dev/", routes![dev_main, dev_checker_post])
         .mount(
             "/",
             routes![
@@ -544,6 +588,7 @@ fn rocket(opldb: ManagedOplDb, langinfo: ManagedLangInfo) -> rocket::Rocket {
                 dist::openipf::records,
                 dist::openipf::records_default,
                 dist::openipf::lifter,
+                dist::openipf::lifter_csv,
                 dist::openipf::meet,
                 dist::openipf::faq,
             ],

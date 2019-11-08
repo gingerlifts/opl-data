@@ -9,7 +9,7 @@ Peter Lidstrom,100,Teen,M,172.37,122.47,165.56,460.4,1,SBD,Single-ply
 Ann Leverett,,Open,F,111.13,65.77,136.08,312.98,1,SBD,Single-ply
 Jody Howard,,Open,F,92.99,83.91,113.4,290.3,2,SBD,Single-ply
 Angie Sammut,,Open,F,61.24,52.16,104.33,217.72,3,SBD,Single-ply
-Chas Lockard,52,Masters,M,113.4,63.5,151.95,328.85,1,SBD,Single-ply
+Charles Lockard,52,Masters,M,113.4,63.5,151.95,328.85,1,SBD,Single-ply
 Rock Silon,100,Masters,M,299.37,167.83,278.96,746.16,2,SBD,Single-ply
 Dan Boone,125,Masters,M,249.48,120.2,283.5,653.17,3,SBD,Single-ply
 Bill Lindsey,90,Collegiate,M,260.82,149.69,249.48,659.98,1,SBD,Single-ply
@@ -44,13 +44,13 @@ John Holmes,100,Open,M,,199.58,,199.58,3,B,Raw
 Greg Weaver,100,Open,M,,192.78,,192.78,4,B,Raw
 David Clark,100,Open,M,,176.9,,176.9,5,B,Raw
 Eric Redding,100,Open,M,,161.03,,161.03,6,B,Raw
-Kevin Payne,110,Open,M,,210.92,,210.92,1,B,Raw
+Kevin Payne #1,110,Open,M,,210.92,,210.92,1,B,Raw
 Mike Turner,110,Open,M,,204.12,,204.12,2,B,Raw
 Steve Strength,110,Open,M,,204.12,,204.12,3,B,Raw
 Shawn Decgan,110,Open,M,,192.78,,192.78,4,B,Raw
 Mike O'Bryan,125,Open,M,,217.72,,217.72,1,B,Raw
 William Forbes,125,Open,M,,181.44,,181.44,2,B,Raw
-Chas Lockard,52,Open,M,113.4,63.5,151.95,328.85,1,SBD,Single-ply
+Charles Lockard,52,Open,M,113.4,63.5,151.95,328.85,1,SBD,Single-ply
 Robert Allen,56,Open,M,136.08,120.2,176.9,433.18,1,SBD,Single-ply
 R. McKnight,60,Open,M,104.33,92.99,163.29,360.61,1,SBD,Single-ply
 Harvey Coney,67.5,Open,M,217.72,108.86,226.8,553.38,1,SBD,Single-ply
@@ -74,7 +74,7 @@ Mack Gibson,100,Open,M,294.84,165.56,303.91,764.3,3,SBD,Single-ply
 Steve Krome,100,Open,M,258.55,188.24,290.3,737.09,4,SBD,Single-ply
 Steve Strength,110,Open,M,294.84,195.04,317.52,807.4,1,SBD,Single-ply
 Dan Macri,110,Open,M,294.84,188.24,260.82,743.89,2,SBD,Single-ply
-Rick Vaillancourt,125,Open,M,367.41,210.92,290.3,868.63,1,SBD,Single-ply
+Richard Vaillancourt,125,Open,M,367.41,210.92,290.3,868.63,1,SBD,Single-ply
 Tom King,125,Open,M,312.98,195.04,285.76,793.79,2,SBD,Single-ply
 Jim Schulze,125,Open,M,294.84,201.85,290.3,786.98,3,SBD,Single-ply
 William Forbes,125,Open,M,283.5,181.44,283.5,748.43,4,SBD,Single-ply
@@ -103,7 +103,7 @@ Stan Conway,90,Class II,M,258.55,163.29,217.72,639.57,5,SBD,Single-ply
 Jack Price,90,Class II,M,219.99,165.56,235.87,621.42,6,SBD,Single-ply
 Bubba Price,90,Class II,M,213.19,165.56,226.8,605.55,7,SBD,Single-ply
 J. Hachmeister,90,Class II,M,231.33,142.88,226.8,601.01,8,SBD,Single-ply
-Marian Gibson,90,Class II,M,183.71,149.69,226.8,560.19,9,SBD,Single-ply
+Marian Gibson #2,90,Class II,M,183.71,149.69,226.8,560.19,9,SBD,Single-ply
 Travis Holloway,90,Class II,M,204.12,111.13,208.65,523.9,10,SBD,Single-ply
 Greg Weaver,100,Class II,M,251.74,192.78,249.48,694,1,SBD,Single-ply
 Lary Hogue,100,Class II,M,231.33,172.37,278.96,682.66,2,SBD,Single-ply

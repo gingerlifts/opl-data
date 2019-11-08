@@ -5,11 +5,14 @@
 'use strict';
 
 // These are generated inline via templates/meet.html.tera.
-declare const path_if_by_wilks: string;
-declare const path_if_by_glossbrenner: string;
-declare const path_if_by_nasa: string;
-declare const path_if_by_ipfpoints: string;
+declare const path_if_by_ah: string;
 declare const path_if_by_division: string;
+declare const path_if_by_glossbrenner: string;
+declare const path_if_by_ipfpoints: string;
+declare const path_if_by_nasa: string;
+declare const path_if_by_reshel: string;
+declare const path_if_by_total: string;
+declare const path_if_by_wilks: string;
 
 let selSort: HTMLSelectElement;
 
@@ -17,6 +20,9 @@ let selSort: HTMLSelectElement;
 // change to match.
 function redirect() {
     switch (selSort.value) {
+        case "by-ah":
+            window.location.href = path_if_by_ah;
+            break;
         case "by-division":
             window.location.href = path_if_by_division;
             break;
@@ -28,6 +34,12 @@ function redirect() {
             break;
         case "by-nasa":
             window.location.href = path_if_by_nasa;
+            break;
+        case "by-reshel":
+            window.location.href = path_if_by_reshel;
+            break;
+        case "by-total":
+            window.location.href = path_if_by_total;
             break;
         case "by-wilks":
             window.location.href = path_if_by_wilks;

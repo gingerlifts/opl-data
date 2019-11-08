@@ -1,7 +1,7 @@
 Name,Division,WeightClassKg,Best3SquatKg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Equipment,Sex,AgeClass,Age,BodyweightKg,Place
 Joe Williams,Novice,52,127.01,,,95.25,,,,147.42,369.68,SBD,Single-ply,M,,14,,1
 Ron Hess,Novice,52,147.42,,,74.84,,,,129.27,351.53,SBD,Single-ply,M,,,,2
-Scott Segal,Novice,56,161.03,,,97.52,,,,183.7,442.25,SBD,Single-ply,M,,,,1
+Scott Siegel,Novice,56,161.03,,,97.52,,,,183.7,442.25,SBD,Single-ply,M,,,,1
 Mitchell Sirota,Novice,56,124.74,,,106.59,,,,165.56,396.89,SBD,Single-ply,M,,,,2
 Tom Russo,Novice,56,90.72,,,86.18,,,,174.63,351.53,SBD,Single-ply,M,,,,3
 Steve Soukup,Novice,56,102.06,,,88.45,,,,129.27,319.78,SBD,Single-ply,M,,,,4
@@ -32,7 +32,7 @@ Dave Beyerland,Novice,90,258.55,,,172.37,,,,256.28,687.19,SBD,Single-ply,M,,,,5
 Pat Gentry,Novice,100,303.91,,,201.85,,,,322.05,827.81,SBD,Single-ply,M,,21,,1
 John Lehman,Novice,100,258.55,,,208.65,,,,254.01,721.21,SBD,Single-ply,M,,,,2
 Bill Johns,Novice,100,281.23,,,165.56,,,,254.01,700.8,SBD,Single-ply,M,,,,3
-Prince Matt,Novice,100,240.4,,,192.78,,,,242.67,675.85,SBD,Single-ply,M,,,,4
+Matt Prince,Novice,100,240.4,,,192.78,,,,242.67,675.85,SBD,Single-ply,M,,,,4
 Jack Dempsey,Novice,100,240.4,,,172.37,,,,249.48,662.24,SBD,Single-ply,M,,,,5
 Todd Peters,Novice,110,276.69,,,167.83,,,,260.82,705.34,SBD,Single-ply,M,,,,1
 Louis Baltz,Novice,110,249.48,,,163.29,,,,249.48,662.24,SBD,Single-ply,M,,,,2
@@ -44,7 +44,7 @@ Steve Johnson #6,Novice,125,278.96,,,156.49,,,,283.5,718.94,SBD,Single-ply,M,,,,
 Richard Deph,Novice,125,222.26,,,154.22,,,,274.42,650.91,SBD,Single-ply,M,,,,3
 D. Velazquez,Novice,125,199.58,,,156.49,,,,226.8,582.87,SBD,Single-ply,M,,,,4
 Larry Seigel,Novice,125,167.83,,,122.47,,,,222.26,512.56,SBD,Single-ply,M,,,,5
-Mike Boyer,Open,56,170.1,,,102.06,,,,181.44,453.59,SBD,Single-ply,M,,,,1
+Mike Boyer #1,Open,56,170.1,,,102.06,,,,181.44,453.59,SBD,Single-ply,M,,,,1
 Ramon Miguel,Open,56,61.23,,,61.23,,,,61.23,183.7,SBD,Single-ply,M,,,,2
 Ernesto Milian,Open,60,217.72,,,131.54,,,,256.28,605.55,SBD,Single-ply,M,,,,1
 Tony Conyers,Open,67.5,258.55,,,172.37,,,,249.48,680.39,SBD,Single-ply,M,,,66.68,1
@@ -63,7 +63,7 @@ Garry Lawson,Open,82.5,258.55,,,158.76,,,,247.21,664.51,SBD,Single-ply,M,,,,5
 Dominick Castellano,Open,90,328.85,,,190.51,,,,335.66,855.02,SBD,Single-ply,M,,,,1
 Rick Weil,Open,90,299.37,244.94,-251.74,244.94,,,,281.23,825.54,SBD,Single-ply,M,,,82.89,2
 Paul Mustakas,Open,90,312.98,,,195.04,317.51,-335.66,-335.66,317.51,825.54,SBD,Single-ply,M,,,,3
-Luis Soto,Open,90,308.44,,,179.17,,,,297.1,784.71,SBD,Single-ply,M,,,,4
+Luis Soto #1,Open,90,308.44,,,179.17,,,,297.1,784.71,SBD,Single-ply,M,,,,4
 Tom Higgins,Open,90,278.96,,,161.03,,,,310.71,750.7,SBD,Single-ply,M,,,,5
 Skip Falcone,Open,90,281.23,,,174.63,,,,294.84,750.7,SBD,Single-ply,M,,,,6
 Joe Ladnier,Open,100,362.87,,,240.4,,,,351.53,954.81,SBD,Single-ply,M,,,,1

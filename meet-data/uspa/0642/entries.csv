@@ -46,7 +46,7 @@ DQ,Shelby Heath,Open,Raw,F,CA,60,57.9,29,,,,,,,SBD
 5,Brandi Moore,Open,Raw,F,CA,67.5,66.5,45,137.5,,87.5,165,,390,SBD
 6,Kelly Lenahan,Open,Raw,F,CA,67.5,67,26,132.5,,75,170,,377.5,SBD
 7,Rachel Benson,Open,Raw,F,UT,67.5,66.6,23,135,,70,150,,355,SBD
-8,Erica Gomez,Open,Raw,F,NV,67.5,67.5,25,112.5,,65,142.5,,320,SBD
+8,Erica Gomez #1,Open,Raw,F,NV,67.5,67.5,25,112.5,,65,142.5,,320,SBD
 9,Sarah Dooley,Open,Raw,F,OH,67.5,67.5,36,117.5,,60,132.5,,310,SBD
 10,Hannah Stephens,Open,Raw,F,AL,67.5,64.5,24,117.5,,72.5,102.5,,292.5,SBD
 1,Angela Bivens,Open,Raw,F,GA,75,74.4,36,152.5,,90,190,,432.5,SBD
@@ -253,7 +253,7 @@ DQ,Brandon Allen #1,Open,Raw,M,NV,140+,156.8,27,,,,,,,SBD
 1,Travis Parker,Masters 45-49,Raw,M,SD,110,107.3,49,277.5,,180,287.5,,745,SBD
 DQ,Albert Tamayo,Masters 55-59,Raw,M,FL,110,106.1,55,,,,,,,SBD
 1,David Bialski,Masters 40-44,Raw,M,FL,125,123.4,42,250,,145,295,,690,SBD
-1,John Dignan,Masters 45-49,Raw,M,NV,125,117.6,48,260,,157.5,267.5,,685,SBD
+1,John Dignan #2,Masters 45-49,Raw,M,NV,125,117.6,48,260,,157.5,267.5,,685,SBD
 2,Greg Simpson,Masters 45-49,Raw,M,GA,125,118.7,46,242.5,,170,245,,657.5,SBD
 3,Peter Butterfield,Masters 45-49,Raw,M,TX,125,122.65,46,220,,137.5,265,,622.5,SBD
 1,Kurt Gray,Masters 50-54,Raw,M,OK,125,121.95,52,217.5,,155,252.5,,625,SBD
@@ -332,7 +332,7 @@ DQ,Tom Sharp,Open,Wraps,M,AZ,100,99.75,25,,,180,,,,SBD
 6,Joseph Ferguson,Open,Wraps,M,CA,110,107.3,34,240,,175,290,,705,SBD
 7,Andreas Gallagher,Open,Wraps,M,NV,110,109.65,35,250,,165,282.5,,697.5,SBD
 8,Lawrence Garnett,Open,Wraps,M,TX,110,108.8,29,255,,167.5,265,,687.5,SBD
-9,John D. Marcum,Open,Wraps,M,KY,110,108.2,46,262.5,277.5,160,245,,667.5,SBD
+9,JD Marcum,Open,Wraps,M,KY,110,108.2,46,262.5,277.5,160,245,,667.5,SBD
 10,James Porter,Open,Wraps,M,WY,110,102.2,23,222.5,,167.5,267.5,,657.5,SBD
 DQ,Jason Torche,Open,Wraps,M,WA,110,101.05,30,,,,,,,SBD
 1,Tyler Cotton,Open,Wraps,M,NJ,125,120.4,25,300,,205,340,,845,SBD
@@ -342,10 +342,10 @@ DQ,Jason Torche,Open,Wraps,M,WA,110,101.05,30,,,,,,,SBD
 5,Joshua Sanderson,Open,Wraps,M,AZ,125,120.1,23,307.5,,187.5,265,,760,SBD
 6,Jonathan Cotton,Open,Wraps,M,CO,125,119.5,32,245,,185,287.5,,717.5,SBD
 DQ,Samuel Nichols,Open,Wraps,M,NV,125,116.2,17,,,,,,,SBD
-DQ,Nicholas Rowland,Open,Wraps,M,AZ,125,121.95,28,297.5,,,337.5,,,SBD
+DQ,Nick Rowland,Open,Wraps,M,AZ,125,121.95,28,297.5,,,337.5,,,SBD
 DQ,Don Holcomb,Open,Wraps,M,TX,125,122.55,35,,,,,,,SBD
 1,Tyler Ward,Open,Wraps,M,CA,140,139.9,27,327.5,,182.5,352.5,,862.5,SBD
-1,Ethan Gonzalez,Open,Wraps,M,AZ,140+,152.7,32,295,,215,275,,785,SBD
+1,Ethan Gonzalez #1,Open,Wraps,M,AZ,140+,152.7,32,295,,215,275,,785,SBD
 2,David Douglas,Open,Wraps,M,CA,140+,150,29,102.5,,275,345,,722.5,SBD
 1,Ismael Hernandez,Submasters 35-39,Wraps,M,TX,110,105.8,36,292.5,,200,260,,752.5,SBD
 DQ,Don Holcomb,Submasters 35-39,Wraps,M,TX,125,122.55,35,,,,,,,SBD
@@ -366,7 +366,7 @@ DQ,Gary Loyd,Masters 45-49,Wraps,M,CA,82.5,81.95,48,,,137.5,220,,,SBD
 1,David Gomez,Masters 55-59,Wraps,M,TX,100,98.25,57,190,,110,192.5,,492.5,SBD
 1,Greg Baxter,Masters 60-64,Wraps,M,CA,100,99.55,61,220,,120,262.5,,602.5,SBD
 1,Tommy Hastings,Masters 40-44,Wraps,M,TX,110,109.15,41,257.5,,160,295.5,,713,SBD
-1,John D. Marcum,Masters 45-49,Wraps,M,KY,110,108.2,46,262.5,277.5,160,245,,667.5,SBD
+1,JD Marcum,Masters 45-49,Wraps,M,KY,110,108.2,46,262.5,277.5,160,245,,667.5,SBD
 2,Darren Robuck,Masters 45-49,Wraps,M,CA,110,108.4,49,227.5,,160,227.5,,615,SBD
 1,Jerry Tremblay,Masters 50-54,Wraps,M,CA,110,108.4,53,227.5,,150,227.5,,605,SBD
 DQ,Terry O'Neal,Masters 55-59,Wraps,M,AZ,110,105.95,56,,,,,,,SBD

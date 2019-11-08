@@ -11,7 +11,7 @@ Place,WeightClassKg,Sex,Division,Name,Country,Best3SquatKg,Best3BenchKg,Best3Dea
 3,67.5,M,Masters 1,Marcel Motuelle,France,210,112.5,202.5,525,SBD,Single-ply
 4,67.5,M,Masters 1,V. Malqui,Peru,210,115,200,525,SBD,Single-ply
 5,67.5,M,Masters 1,E. Tejada,Peru,140,105,180,425,SBD,Single-ply
-1,75,M,Masters 1,Harrij van der Brand,Netherlands,250,135,275,660,SBD,Single-ply
+1,75,M,Masters 1,Harrie van den Brand,Netherlands,250,135,275,660,SBD,Single-ply
 2,75,M,Masters 1,Jos Verhagen,Netherlands,235,142.5,270,647.5,SBD,Single-ply
 3,75,M,Masters 1,Marcel St. Laurent,Canada,247.5,147.5,250,645,SBD,Single-ply
 4,75,M,Masters 1,Gerard Beaudoux,France,205,140,267.5,612.5,SBD,Single-ply
@@ -23,14 +23,14 @@ DQ,75,M,Masters 1,D. Smith,USA,,,,,SBD,Single-ply
 2,82.5,M,Masters 1,Kenneth Elliot,UK,240,175,272.5,687.5,SBD,Single-ply
 3,82.5,M,Masters 1,Troy Hicks,USA,242.5,145,295,682.5,SBD,Single-ply
 4,82.5,M,Masters 1,Manuel Montenegro,Argentina,215,127.5,232.5,575,SBD,Single-ply
-1,90,M,Masters 1,Ronald Vaughan,UK,300,160,310,770,SBD,Single-ply
+1,90,M,Masters 1,Ron Vaughan,UK,300,160,310,770,SBD,Single-ply
 2,90,M,Masters 1,Dan Hamblet,USA,257.5,157.5,307.5,722.5,SBD,Single-ply
 3,90,M,Masters 1,Rainer Griebl,West Germany,260,152.5,290,702.5,SBD,Single-ply
 4,90,M,Masters 1,Maurice Lambert,France,245,160,255,660,SBD,Single-ply
 5,90,M,Masters 1,Hugo Salhuana,Peru,260,152.5,230,642.5,SBD,Single-ply
 6,90,M,Masters 1,Willi Bollmann,West Germany,235,160,235,630,SBD,Single-ply
 7,90,M,Masters 1,A. Grados,Peru,155,90,165,410,SBD,Single-ply
-1,100,M,Masters 1,O. Lomba,USA,305,202.5,307.5,815,SBD,Single-ply
+1,100,M,Masters 1,Omar Lomba,USA,305,202.5,307.5,815,SBD,Single-ply
 2,100,M,Masters 1,Ralph Farquharson,UK,310,182.5,317.5,810,SBD,Single-ply
 3,100,M,Masters 1,Bernhard Bouer,France,260,140,300,700,SBD,Single-ply
 4,100,M,Masters 1,J. Godoy Cruz,Argentina,225,145,252.5,622.5,SBD,Single-ply
@@ -60,7 +60,7 @@ DQ,52,M,Masters 1,Prosper Andrieu,France,,,,,SBD,Single-ply
 3,75,M,Masters 1,Jean-Pierre Lebel,France,182.5,102.5,250,535,SBD,Single-ply
 4,75,M,Masters 1,David Briggs,UK,155,117.5,210,482.5,SBD,Single-ply
 5,75,M,Masters 1,César Berrocal C,Peru,145,117.5,175,437.5,SBD,Single-ply
-DQ,75,M,Masters 1,J. Bowen,USA,,,,,SBD,Single-ply
+DQ,75,M,Masters 1,John Bowen,USA,,,,,SBD,Single-ply
 1,82.5,M,Masters 1,Veli Kumpuniemi,Finland,205,140,270,615,SBD,Single-ply
 2,82.5,M,Masters 1,Dave Rodger,UK,185,140,225,550,SBD,Single-ply
 3,82.5,M,Masters 1,Burt Rosenfield,USA,152.5,125,200,477.5,SBD,Single-ply
