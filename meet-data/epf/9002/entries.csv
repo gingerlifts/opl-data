@@ -20,7 +20,7 @@ Place,Name,BirthYear,WeightClassKg,BodyweightKg,Country,Best3SquatKg,Best3BenchK
 3,Philippe Hoareau,1968,67.5,66.8,France,250,127.5,227.5,605,M,Juniors,SBD,Single-ply
 4,Jonas Bengtssen,1968,67.5,67,Sweden,230,122.5,230,582.5,M,Juniors,SBD,Single-ply
 5,Arne Brovold,1970,67.5,67.4,Norway,220,122.5,222.5,565,M,Juniors,SBD,Single-ply
-6,Alejand Rodrigues,1960,67.5,66.6,Spain,207.5,122.5,215,545,M,Juniors,SBD,Single-ply
+6,Alejand Rodrigues,,67.5,66.6,Spain,207.5,122.5,215,545,M,Juniors,SBD,Single-ply
 7,Ste Sichelschmidt,1967,67.5,67.2,Germany,180,125,215,520,M,Juniors,SBD,Single-ply
 1,Oivind Björnsen,1970,75,74.3,Norway,245,170,250,665,M,Juniors,SBD,Single-ply
 2,Ferdi Pesendörfer,1967,75,74.4,Austria,250,150,257.5,657.5,M,Juniors,SBD,Single-ply
