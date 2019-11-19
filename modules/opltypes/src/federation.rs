@@ -437,6 +437,10 @@ pub enum Federation {
     #[strum(to_string = "HERC", serialize = "herc")]
     HERC,
 
+    /// Hong Kong Weightlifting and Powerlifting, IPF.
+    #[strum(to_string = "HKWPA", serialize = "hkwpa")]
+    HKWPA,
+
     /// Hungarian Powerlifting Congress, WPC.
     #[strum(to_string = "HPC", serialize = "hpc")]
     HPC,
@@ -823,6 +827,10 @@ pub enum Federation {
     #[strum(to_string = "UPL", serialize = "upl")]
     UPL,
 
+    /// United States Association of Blind Athletes, IBSA.
+    #[strum(to_string = "USABA", serialize = "usaba")]
+    USABA,
+
     /// USA Bench Press Association, unaffiliated.
     #[strum(to_string = "USABPA", serialize = "usabpa")]
     USABPA,
@@ -870,6 +878,10 @@ pub enum Federation {
 
     #[strum(to_string = "Vityaz", serialize = "vityaz")]
     Vityaz,
+
+    /// Vietnam Powerlifting Federation, IPF.
+    #[strum(to_string = "VPF", serialize = "vpf")]
+    VPF,
 
     /// World Association of Bench Pressers and Deadlifters.
     #[strum(to_string = "WABDL", serialize = "wabdl")]
@@ -1219,6 +1231,7 @@ impl Federation {
             Federation::Hardcore => false,
             Federation::HERC => false,
             Federation::CroatiaUA => false,
+            Federation::HKWPA => true,
             Federation::HPC => false,
             Federation::HPLS => true,
             Federation::HPLSUA => false,
@@ -1314,6 +1327,7 @@ impl Federation {
             Federation::UPCGermany => false,
             Federation::UkrainePF => true,
             Federation::UPL => false,
+            Federation::USABA => true,
             Federation::USABPA => false,
             Federation::USAUA => false,
             Federation::USAPL => true,
@@ -1326,6 +1340,7 @@ impl Federation {
             Federation::USSports => false,
             Federation::VietnamPA => false,
             Federation::Vityaz => false,
+            Federation::VPF => true,
             Federation::WABDL => true,
             Federation::WarriorPLF => false,
             Federation::WDFPF => true,
@@ -1482,6 +1497,7 @@ impl Federation {
             Federation::Hardcore => Some(Country::USA),
             Federation::HERC => Some(Country::USA),
             Federation::CroatiaUA => Some(Country::Croatia),
+            Federation::HKWPA => Some(Country::HongKong),
             Federation::HPC => Some(Country::Hungary),
             Federation::HPLS => Some(Country::Croatia),
             Federation::HPLSUA => Some(Country::Croatia),
@@ -1576,6 +1592,7 @@ impl Federation {
             Federation::UPCGermany => Some(Country::Germany),
             Federation::UkrainePF => Some(Country::Ukraine),
             Federation::UPL => Some(Country::Ukraine),
+            Federation::USABA => Some(Country::USA),
             Federation::USABPA => Some(Country::USA),
             Federation::USAUA => Some(Country::USA),
             Federation::USAPL => Some(Country::USA),
@@ -1588,6 +1605,7 @@ impl Federation {
             Federation::USSports => Some(Country::USA),
             Federation::VietnamPA => Some(Country::Vietnam),
             Federation::Vityaz => Some(Country::Russia),
+            Federation::VPF => Some(Country::Vietnam),
             Federation::WABDL => Some(Country::USA),
             Federation::WarriorPLF => Some(Country::USA),
             Federation::WBC => Some(Country::USA),
@@ -1764,6 +1782,7 @@ impl Federation {
             Federation::Hardcore => None,
             Federation::HERC => None,
             Federation::CroatiaUA => None,
+            Federation::HKWPA => Some(Federation::IPF),
             Federation::HPC => None,
             Federation::HPLS => Some(Federation::IPF),
             Federation::HPLSUA => None,
@@ -1865,6 +1884,7 @@ impl Federation {
             Federation::UPCGermany => Some(Federation::UPC),
             Federation::UkrainePF => Some(Federation::IPF),
             Federation::UPL => Some(Federation::IPL),
+            Federation::USABA => Some(Federation::IBSA),
             Federation::USABPA => None,
             Federation::USAUA => None,
             Federation::USAPL => Some(Federation::IPF),
@@ -1877,6 +1897,7 @@ impl Federation {
             Federation::USSports => None,
             Federation::VietnamPA => None,
             Federation::Vityaz => None,
+            Federation::VPF => Some(Federation::IPF),
             Federation::WABDL => None,
             Federation::WarriorPLF => None,
             Federation::WBC => None,
@@ -2044,6 +2065,7 @@ impl Federation {
             Federation::Hardcore => PointsSystem::Wilks,
             Federation::HERC => PointsSystem::Wilks,
             Federation::CroatiaUA => PointsSystem::Wilks,
+            Federation::HKWPA => Federation::ipf_rules_on(date),
             Federation::HPC => PointsSystem::Wilks,
             Federation::HPLS => Federation::ipf_rules_on(date),
             Federation::HPLSUA => PointsSystem::Wilks,
@@ -2138,6 +2160,7 @@ impl Federation {
             Federation::UPCGermany => PointsSystem::Glossbrenner,
             Federation::UkrainePF => Federation::ipf_rules_on(date),
             Federation::UPL => PointsSystem::Wilks,
+            Federation::USABA => PointsSystem::Wilks,
             Federation::USABPA => PointsSystem::Wilks,
             Federation::USAUA => PointsSystem::Wilks,
             Federation::USAPL => Federation::ipf_rules_on(date),
@@ -2150,6 +2173,7 @@ impl Federation {
             Federation::USSports => PointsSystem::Wilks,
             Federation::VietnamPA => PointsSystem::Wilks,
             Federation::Vityaz => PointsSystem::Wilks,
+            Federation::VPF => Federation::ipf_rules_on(date),
             Federation::WABDL => PointsSystem::Wilks,
             Federation::WarriorPLF => PointsSystem::Wilks,
             Federation::WBC => PointsSystem::Wilks,

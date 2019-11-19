@@ -34,6 +34,7 @@
   <option value="fipl" {% if selection.federation == "FIPL" %}selected{% endif %}>FIPL / {{strings.country.italy}}</option>
   <option value="fpr" {% if selection.federation == "FPR" %}selected{% endif %}>FPR / {{strings.country.russia}}</option>
   <option value="frpl" {% if selection.federation == "FRPL" %}selected{% endif %}>FRPL / {{strings.country.romania}}</option>
+  <option value="hkwpa" {% if selection.federation == "HKWPA" %}selected{% endif %}>HKWPA / {{strings.country.hongkong}}</option>
   <option value="hpls" {% if selection.federation == "HPLS" %}selected{% endif %}>HPLS / {{strings.country.croatia}}</option>
   <option value="irishpf" {% if selection.federation == "IrishPF" %}selected{% endif %}>IrishPF / {{strings.country.ireland}}</option>
   <option value="jpa" {% if selection.federation == "JPA" %}selected{% endif %}>JPA / {{strings.country.japan}}</option>
@@ -58,5 +59,6 @@
   <option value="thaipf" {% if selection.federation == "ThaiPF" %}selected{% endif %}>ThaiPF / {{strings.country.thailand}}</option>
   <option value="ukrainepf" {% if selection.federation == "UkrainePF" %}selected{% endif %}>UkrainePF / {{strings.country.ukraine}}</option>
   <option value="usapl" {% if selection.federation == "USAPL" %}selected{% endif %}>USAPL / {{strings.country.usa}}</option>
+  <option value="vpf" {% if selection.federation == "VPF" %}selected{% endif %}>VPF / {{strings.country.vietnam}}</option>
 </optgroup>
 </select>

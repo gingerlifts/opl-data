@@ -5,8 +5,15 @@
 # internal format.
 #
 
+import os
 import sys
-from oplcsv import Csv
+
+try:
+    from oplcsv import Csv
+except ImportError:
+    sys.path.append(os.path.join(os.path.dirname(os.path.dirname(
+        os.path.dirname(os.path.realpath(__file__)))), "scripts"))
+    from oplcsv import Csv
 
 
 def error(msg):
@@ -500,6 +507,11 @@ def main(filename):
     if 'Deadlift1Kg' in csv.fieldnames:
         calc_best_lift(csv, 'Best3DeadliftKg', [
                        'Deadlift1Kg', 'Deadlift2Kg', 'Deadlift3Kg'])
+
+    if 'BirthDate' not in csv.fieldnames:
+        csv.insert_column(csv.index('BirthYear'), 'BirthDate')
+    if 'Division' not in csv.fieldnames:
+        csv.insert_column(csv.index('BodyweightKg'), 'Division')
 
     csv.write(sys.stdout)
 

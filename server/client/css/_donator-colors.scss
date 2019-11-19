@@ -61,6 +61,10 @@
   @include name-color(#556B2F);
 }
 
+.lightazure {
+  @include name-color(#00AEFF);
+}
+
 .lightblue {
   @include name-color(#43D1FF);
 }
@@ -91,6 +95,11 @@
 
 .yellow {
   @include name-color(#FFFC00);
+}
+
+// A nice yellow that isn't so bright.
+.solidyellow {
+  @include name-color(#FD3);
 }
 
 .gold {
@@ -429,6 +438,12 @@
   background-image: linear-gradient( to bottom, #bf262b, #ffa200 );
   text-shadow: 0px -1px 3px #ffa20066;
   letter-spacing: 1px;
+}
+
+// Designed by Laura Kelly.
+.laura_kelly {
+  @include gradient-prereqs(#00f2ff);
+  background-image: linear-gradient(to right, #00f2ff, #ae76ff);
 }
 
 .fire_animation {

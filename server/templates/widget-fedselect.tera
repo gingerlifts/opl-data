@@ -188,6 +188,9 @@
 <optgroup label="{{strings.country.greece}}">
   <option value="all-greece" {% if selection.federation == "AllGreece" %}selected{% endif %}>{{strings.selectors.fed.all_greece}}</option>
 </optgroup>
+<optgroup label="{{strings.country.hongkong}}">
+  <option value="hkwpa" {% if selection.federation == "HKWPA" %}selected{% endif %}>HKWPA - Hong Kong Weightlifting and Powerlifting [IPF]</option>
+</optgroup>
 <optgroup label="{{strings.country.hungary}}">
   <option value="hpc" {% if selection.federation == "HPC" %}selected{% endif %}>HPC - Hungarian Powerlifting Congress [WPC]</option>
 </optgroup>
@@ -369,5 +372,6 @@
 </optgroup>
 <optgroup label="{{strings.country.vietnam}}">
   <option value="vietnampa" {% if selection.federation == "VietnamPA" %}selected{% endif %}>VietnamPA - Vietnam Powerlifting Alliance [GPA]</option>
+  <option value="vpf" {% if selection.federation == "VPF" %}selected{% endif %}>VPF - Vietnam Powerlifting Federation [IPF]</option>
 </optgroup>
 </select>

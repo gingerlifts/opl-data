@@ -236,8 +236,11 @@ def main(filename):
     # Simple processing that might depend on the stateful data.
     fixup_weightclasskg(csv)
 
-    # Output.
+    # Add an empty BirthDate column to reduce future git churn.
     csv.remove_empty_columns()
+    csv.insert_column(csv.index('Age'), 'BirthDate')
+
+    # Output.
     while 'DELETEME' in csv.fieldnames:
         csv.remove_column_by_name('DELETEME')
     csv.write(sys.stdout)
