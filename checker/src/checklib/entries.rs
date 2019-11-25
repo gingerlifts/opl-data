@@ -496,7 +496,6 @@ fn check_column_cyrillicname(s: &str, line: u64, report: &mut Report) -> Option<
     Some(s.to_string())
 }
 
-// Temporarily disabled until all names are converted to HiraganaKatakana
 fn check_column_japanesename(s: &str, line: u64, report: &mut Report) -> Option<String> {
     for c in s.chars() {
         if !usernames::is_eastasian(c) && c != ' ' {
