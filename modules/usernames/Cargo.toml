@@ -9,3 +9,4 @@ license = "AGPL-3.0-or-later"
 edition = "2018"
 
 [dependencies]
+unicode-jp = "0.3.0"

@@ -1,5 +1,7 @@
 //! Implements Name to Username conversion logic.
 
+use kana::*;
+
 /// Calculates the ASCII equivalent of a Name.
 fn convert_to_ascii(name: &str) -> Result<String, String> {
     let mut ascii_name = String::with_capacity(name.len());
@@ -62,9 +64,13 @@ fn is_exception(letter: char) -> bool {
 }
 
 /// Checks if the given character is Chinese/Japanese/Korean.
-fn is_eastasian(letter: char) -> bool {
+pub fn is_eastasian(letter: char) -> bool {
     let ord: u32 = letter as u32;
     match ord {
+        // Some valid punctuation symbols
+        12_293..=12_294 => true,
+        // Hiragana
+        12_352..=12_447 => true, 
         // CJK Compatibility.
         13_056..=13_311 => true,
         // CJK Unified Ideographs.
@@ -112,8 +118,11 @@ pub fn make_username(name: &str) -> Result<String, String> {
     }
 
     if name.chars().any(is_eastasian) {
-        let ea_id: String = name
+        let kata_name = hira2kata(name);
+
+        let ea_id: String = kata_name
             .chars()
+            .filter(|letter| !letter.is_whitespace())
             .map(|letter| (letter as u32).to_string())
             .collect();
         Ok(format!("ea-{}", ea_id))
@@ -142,11 +151,11 @@ mod tests {
     fn eastasian() {
         assert_eq!(
             make_username("武田 裕介").unwrap(),
-            "ea-2749430000323502920171"
+            "ea-27494300003502920171"
         );
         assert_eq!(
             make_username("光紀 高橋").unwrap(),
-            "ea-2080932000323964027211"
+            "ea-20809320003964027211"
         );
     }
 

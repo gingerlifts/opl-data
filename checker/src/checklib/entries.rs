@@ -99,6 +99,7 @@ pub struct Entry {
     pub name: String,
     pub username: String,
     pub cyrillicname: Option<String>,
+    pub japanesename: Option<String>,
     pub sex: Sex,
     pub place: Place,
     pub event: Event,
@@ -485,6 +486,22 @@ fn check_column_cyrillicname(s: &str, line: u64, report: &mut Report) -> Option<
         if !CYRILLIC_CHARACTERS.contains(c) {
             let msg = format!(
                 "CyrillicName '{}' contains non-Cyrillic character '{}'",
+                s, c
+            );
+            report.error_on(line, msg);
+            return None;
+        }
+    }
+
+    Some(s.to_string())
+}
+
+// Temporarily disabled until all names are converted to HiraganaKatakana
+fn check_column_japanesename(s: &str, line: u64, report: &mut Report) -> Option<String> {
+    for c in s.chars() {
+        if !usernames::is_eastasian(c) && c != ' ' {
+            let msg = format!(
+                "JapaneseName '{}' contains non-Japanese character '{}'",
                 s, c
             );
             report.error_on(line, msg);
@@ -2028,6 +2045,10 @@ where
         if let Some(idx) = headers.get(Header::CyrillicName) {
             entry.cyrillicname =
                 check_column_cyrillicname(&record[idx], line, &mut report);
+        }
+        if let Some(idx) = headers.get(Header::JapaneseName) {
+            entry.japanesename =
+                check_column_japanesename(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::BirthYear) {
             entry.birthyear =
