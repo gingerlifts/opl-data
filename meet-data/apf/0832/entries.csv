@@ -45,7 +45,7 @@ Scott Mecham,M,M_OEM_APF,97.8,100,29,,217.5,,217.5,B,Yes,Multi-ply,1
 Donnie Younger,M,M_OEM_APF,106.8,110,32,,,,,B,Yes,Multi-ply,DQ
 Charles Farmer,M,M_SEM_APF,,90,34,,,,,B,Yes,Multi-ply,DQ
 Brad Tripp,M,M_MEM_1_APF,153.6,140+,44,,285,,285,B,Yes,Multi-ply,1
-Randy Marchant,M,M_MEM_4_APF,96.2,110,56,,,,,B,Yes,Multi-ply,DQ
+Randy Marchant,M,M_MEM_4_APF,96.2,100,56,,,,,B,Yes,Multi-ply,DQ
 Jake Harrison,M,M_TR_1_APF,110,110,15,,112.5,,112.5,B,Yes,Raw,1
 Andrew Craig,M,M_TR_2_APF,72,75,17,,97.5,,97.5,B,Yes,Raw,1
 Dustin Hanson,M,M_TR_3_APF,59.1,60,19,,115,,115,B,Yes,Raw,1
@@ -53,7 +53,7 @@ Eric Mena,M,M_TR_1_APF,102.6,110,15,,107.5,,107.5,B,Yes,Raw,2
 Chris Erickson,M,M_TR_2_APF,109.4,110,16,,112.5,,112.5,B,Yes,Raw,1
 Andrew Beehler,M,M_TR_2_APF,108,110,17,,107.5,,107.5,B,Yes,Raw,2
 Brandon Utz,M,M_TR_3_APF,73.4,75,18,,102.5,,102.5,B,Yes,Raw,1
-J.T. Jicha,M,M_OR_APF,89.4,90,24,,120,,120,B,Yes,Raw,1
+JT Jicha,M,M_OR_APF,89.4,90,24,,120,,120,B,Yes,Raw,1
 Keith Utz,M,M_MR_1_APF,97.7,100,44,,137.5,,137.5,B,Yes,Raw,1
 J.J. Putnam,M,M_MR_2_APF,106.1,110,46,,140,,140,B,Yes,Raw,1
 J.J. Putnam,M,M_MR_2_APF,106.1,110,46,,140,,140,B,,Raw,2
@@ -81,7 +81,7 @@ Dustin Hanson,M,M_TR_3_APF,59.1,60,19,,,140,140,D,Yes,Raw,1
 Ryan Lund,M,M_TR_2_APF,66.1,67.5,17,,,182.5,182.5,D,Yes,Raw,1
 Brandon Utz,M,M_TR_3_APF,73.4,75,18,,,145,145,D,Yes,Raw,1
 Keith Utz,M,M_MR_1_APF,97.7,100,40,,,232.5,232.5,D,Yes,Raw,1
-J.T. Jicha,M,M_OR_APF,89.4,90,24,,,192.5,192.5,D,Yes,Raw,1
+JT Jicha,M,M_OR_APF,89.4,90,24,,,192.5,192.5,D,Yes,Raw,1
 Russ Bennett,M,M_OR_APF,126.4,140,45,,,265,265,D,Yes,Raw,1
 Russ Bennett,M,M_MR_2_APF,126.4,140,45,,,265,265,D,Yes,Raw,1
 J.J. Putnam,M,M_MR_2_APF,106.1,110,46,,,142.5,142.5,D,Yes,Raw,1
@@ -91,6 +91,6 @@ Adam Korenke,M,M_OR_APF,81.3,82.5,27,,,227.5,227.5,D,,Raw,1
 Russ Bennett,M,M_OR_APF,126.4,140,45,,,265,265,D,,Raw,2
 Russ Bennett,M,M_MR_2_APF,126.4,140,45,,,265,265,D,,Raw,2
 J.J. Putnam,M,M_MR_2_APF,106.1,110,46,,,142.5,142.5,D,,Raw,2
-Jessi Metz,F,F_OR_APF,67.5,67.5,25,,,62.5,62.5,D,,Multi-ply,1
-Ryan Lund,M,M_TR_2_APF,66.1,67.5,17,,,182.5,182.5,D,,Multi-ply,1
-Adam Korenke,M,M_OR_APF,81.3,82.5,27,,,227.5,227.5,D,,Multi-ply,1
+Jessi Metz,F,F_OEM_APF,67.5,67.5,25,,,62.5,62.5,D,,Multi-ply,1
+Ryan Lund,M,M_TEM_2_APF,66.1,67.5,17,,,182.5,182.5,D,,Multi-ply,1
+Adam Korenke,M,M_OEM_APF,81.3,82.5,27,,,227.5,227.5,D,,Multi-ply,1
