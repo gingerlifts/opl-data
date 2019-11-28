@@ -65,6 +65,10 @@ fn is_exception(letter: char) -> bool {
 pub fn is_eastasian(letter: char) -> bool {
     let ord: u32 = letter as u32;
     match ord {
+        // Some valid punctuation symbols
+        12_293..=12_294 => true,
+        // Hiragana
+        12_352..=12_447 => true, 
         // CJK Compatibility.
         13_056..=13_311 => true,
         // CJK Unified Ideographs.
