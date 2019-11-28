@@ -493,7 +493,7 @@ fn check_column_name(name: &str, line: u64, report: &mut Report) -> String {
             format!("Name '{}' must have suffix fully-capitalized", name),
         );
     }
-    canonicalize_name_utf8(s)
+    canonicalize_name_utf8(name)
 }
 
 const CYRILLIC_CHARACTERS: &str = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя\
