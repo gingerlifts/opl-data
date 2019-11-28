@@ -4,6 +4,7 @@ use coefficients::{glossbrenner, ipf, wilks};
 use csv;
 use opltypes::*;
 use strum::IntoEnumIterator;
+use unicode_normalization::UnicodeNormalization;
 
 use std::error::Error;
 use std::io;
@@ -12,6 +13,7 @@ use std::path::PathBuf;
 use crate::checklib::config::{Config, Exemption, WeightClassConfig};
 use crate::checklib::meet::Meet;
 use crate::{EntryIndex, Report};
+
 
 /// List of all plausible weightclasses, for non-configured federations.
 const DEFAULT_WEIGHTCLASSES: [WeightClassKg; 52] = [
@@ -99,6 +101,7 @@ pub struct Entry {
     pub name: String,
     pub username: String,
     pub cyrillicname: Option<String>,
+    pub japanesename: Option<String>,
     pub sex: Sex,
     pub place: Place,
     pub event: Event,
@@ -472,7 +475,7 @@ fn check_column_name(name: &str, line: u64, report: &mut Report) -> String {
         );
     }
 
-    name.to_string()
+    name.nfc().collect::<String>()
 }
 
 const CYRILLIC_CHARACTERS: &str = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя\
@@ -492,7 +495,22 @@ fn check_column_cyrillicname(s: &str, line: u64, report: &mut Report) -> Option<
         }
     }
 
-    Some(s.to_string())
+    Some(s.nfc().collect::<String>())
+}
+
+fn check_column_japanesename(s: &str, line: u64, report: &mut Report) -> Option<String> {
+    for c in s.chars() {
+        if !usernames::is_eastasian(c) && c != ' ' {
+            let msg = format!(
+                "JapaneseName '{}' contains non-Japanese character '{}'",
+                s, c
+            );
+            report.error_on(line, msg);
+            return None;
+        }
+    }
+
+    Some(s.nfc().collect::<String>())
 }
 
 fn check_column_birthyear(
@@ -2028,6 +2046,10 @@ where
         if let Some(idx) = headers.get(Header::CyrillicName) {
             entry.cyrillicname =
                 check_column_cyrillicname(&record[idx], line, &mut report);
+        }
+        if let Some(idx) = headers.get(Header::JapaneseName) {
+            entry.japanesename =
+                check_column_japanesename(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::BirthYear) {
             entry.birthyear =

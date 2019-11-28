@@ -62,7 +62,7 @@ fn is_exception(letter: char) -> bool {
 }
 
 /// Checks if the given character is Chinese/Japanese/Korean.
-fn is_eastasian(letter: char) -> bool {
+pub fn is_eastasian(letter: char) -> bool {
     let ord: u32 = letter as u32;
     match ord {
         // CJK Compatibility.
