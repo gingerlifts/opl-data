@@ -92,6 +92,25 @@ pub struct EntriesCheckResult {
     pub entries: Option<Vec<Entry>>,
 }
 
+// Returns s as a String in Unicode NFKC form.
+//
+// Unicode decompositions take 2 forms, canonical equivalence and compatibility
+//
+// Canonical equivalence means that characters or sequences of characters represent
+// the same written character and should always be displayed the same.
+// For example Ω and Ω are canonically equivalent, as are Ç and C+◌̧
+//
+// Compatibility means that characters or sequences of characters represent the same
+// written character but may be displayed differently.
+// For example ｶ and カ are compatible, as are ℌ and H.
+//
+// NFKC form decomposes characters by compatibility and then recomposes by canonical
+// equivalence. We want NFKC form as half-width characters should display the same as
+// full width characters on the site, as should font variants
+fn canonicalize_name_utf8(s: &str) -> String {
+    return s.nfkc().collect::<String>()
+}
+
 /// Stores parsed data for a single row.
 ///
 /// The intention is for each field to only be parsed once, after
@@ -474,8 +493,7 @@ fn check_column_name(name: &str, line: u64, report: &mut Report) -> String {
             format!("Name '{}' must have suffix fully-capitalized", name),
         );
     }
-
-    name.nfc().collect::<String>()
+    canonicalize_name_utf8(s)
 }
 
 const CYRILLIC_CHARACTERS: &str = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя\
@@ -495,7 +513,7 @@ fn check_column_cyrillicname(s: &str, line: u64, report: &mut Report) -> Option<
         }
     }
 
-    Some(s.nfc().collect::<String>())
+    Some(canonicalize_name_utf8(s))
 }
 
 fn check_column_japanesename(s: &str, line: u64, report: &mut Report) -> Option<String> {
@@ -510,7 +528,7 @@ fn check_column_japanesename(s: &str, line: u64, report: &mut Report) -> Option<
         }
     }
 
-    Some(s.nfc().collect::<String>())
+    Some(canonicalize_name_utf8(s))
 }
 
 fn check_column_birthyear(
