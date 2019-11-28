@@ -500,7 +500,7 @@ fn check_column_cyrillicname(s: &str, line: u64, report: &mut Report) -> Option<
 
 fn check_column_japanesename(s: &str, line: u64, report: &mut Report) -> Option<String> {
     for c in s.chars() {
-        if !usernames::is_eastasian(c) && c != ' ' {
+        if !usernames::is_japanese(c) && c != ' ' {
             let msg = format!(
                 "JapaneseName '{}' contains non-Japanese character '{}'",
                 s, c
