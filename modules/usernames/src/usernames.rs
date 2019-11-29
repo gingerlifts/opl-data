@@ -71,22 +71,32 @@ fn is_hiragana(letter: char) -> bool {
 }
 
 /// Gives the equivalent Katakana for a Hiragana Character
-fn hira_to_kata_char(c: char) -> char {
-    let code = (c as i32 + (KATAKANA_START as i32 - HIRAGANA_START as i32)) as u32;
-    std::char::from_u32(code as u32).unwrap()
+fn hira_to_kata_char(c: char) -> Option<char> {
+    let code = c as i32 + (KATAKANA_START as i32 - HIRAGANA_START as i32);
+
+    std::char::from_u32(code as u32)
 }
 
 /// Gives the equivalent Katakana for a Hiragana String
-fn hira_to_kata(name: &str) -> String {
+fn hira_to_kata(name: &str) -> Result<String, String> {
     let mut kata = vec![];
-    for c in name.chars() {
-        if is_hiragana(c) {
-            kata.push(hira_to_kata_char(c));
+    for letter in name.chars() {
+        if is_hiragana(letter) {
+            if let Some(kata_char) = hira_to_kata_char(letter) {
+                kata.push(kata_char);
+            } else {
+                return Err(format!(
+                    "Character '{}' ({:?}) in '{}' could not be converted to Katakana",
+                    letter,
+                    letter,
+                    name.to_lowercase()
+                ));
+            }
         } else {
-            kata.push(c);
+            kata.push(letter);
         }
     }
-    kata.into_iter().collect()
+    Ok(kata.into_iter().collect())
 }
 
 /// Checks if the given character is Japanese.
@@ -143,13 +153,17 @@ pub fn make_username(name: &str) -> Result<String, String> {
 
     if name.chars().any(is_japanese) {
         let kata_name = hira_to_kata(name);
-
-        let ea_id: String = kata_name
-            .chars()
-            .filter(|letter| !letter.is_whitespace())
-            .map(|letter| (letter as u32).to_string())
-            .collect();
-        Ok(format!("ea-{}", ea_id))
+        if kata_name.is_ok() {
+            let ea_id: String = kata_name
+                .unwrap()
+                .chars()
+                .filter(|letter| !letter.is_whitespace())
+                .map(|letter| (letter as u32).to_string())
+                .collect();
+            Ok(format!("ea-{}", ea_id))
+        } else {
+            kata_name
+        }
     } else {
         convert_to_ascii(name)
     }
@@ -221,5 +235,11 @@ mod tests {
     #[test]
     fn invalid_ascii() {
         assert!(make_username("John Smith; ").is_err());
+    }
+
+    #[test]
+    fn valid_hira_to_kata() {
+        assert!(hira_to_kata("なべ やかん").unwrap() == "ナベ ヤカン");
+        assert!(hira_to_kata("因幡 英昭").unwrap() == "因幡 英昭");
     }
 }
