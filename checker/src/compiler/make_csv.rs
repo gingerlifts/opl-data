@@ -242,7 +242,7 @@ impl<'md> EntryLifterData<'md> {
             name: &entry.name,
             username: &entry.username,
             cyrillicname: entry.cyrillicname.as_deref(),
-            japanesename: entry.cyrillicname.as_deref(),
+            japanesename: entry.japanesename.as_deref(),
         }
     }
 

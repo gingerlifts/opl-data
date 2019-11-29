@@ -65,20 +65,24 @@ const HIRAGANA_START: u32 = 0x3041;
 const HIRAGANA_END: u32 = 0x3096;
 const KATAKANA_START: u32 = 0x30A1;
 
+/// Returns whether a character is Hiragana
 fn is_hiragana(letter: char) -> bool {
     HIRAGANA_START <= letter as u32 && letter as u32 <= HIRAGANA_END
 }
 
-// Gives the equivalent Katakana for a Hiragana character
+/// Gives the equivalent Katakana for a Hiragana Character
+fn hira_to_kata_char(c: char) -> char {
+    let code = (c as i32 + (KATAKANA_START as i32 - HIRAGANA_START as i32)) as u32;
+    std::char::from_u32(code as u32).unwrap()
+}
+
+/// Gives the equivalent Katakana for a Hiragana String
 fn hira_to_kata(name: &str) -> String {
     let mut kata = vec![];
     for c in name.chars() {
-
-        if is_hiragana(c){
-            let code = c as i32 + (KATAKANA_START as i32 - HIRAGANA_START as i32);
-            kata.push(std::char::from_u32(code as u32).unwrap());
-        }
-        else{
+        if is_hiragana(c) {
+            kata.push(hira_to_kata_char(c));
+        } else {
             kata.push(c);
         }
     }
@@ -139,7 +143,7 @@ pub fn make_username(name: &str) -> Result<String, String> {
 
     if name.chars().any(is_japanese) {
         let kata_name = hira_to_kata(name);
-        
+
         let ea_id: String = kata_name
             .chars()
             .filter(|letter| !letter.is_whitespace())
@@ -177,7 +181,6 @@ mod tests {
             make_username("光紀 高橋").unwrap(),
             "ea-20809320003964027211"
         );
-
     }
 
     #[test]

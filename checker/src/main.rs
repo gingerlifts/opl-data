@@ -384,10 +384,9 @@ fn main() -> Result<(), Box<dyn Error>> {
                 println!(" {}", msg.bold().red());
                 error_count += 1;
             }
-            match first_japanesename{
-               Some(first_jp) => {
-                match &entry.japanesename  {
-                    Some(jp_name) if first_jp != jp_name => {
+            if let Some(first_jp) = first_japanesename {
+                if let Some(jp_name) = first_japanesename {
+                    if first_jp != jp_name {
                         let msg = format!(
                             "Conflict for {}: '{}' vs '{}'",
                             entry.username, first_jp, jp_name
@@ -395,11 +394,7 @@ fn main() -> Result<(), Box<dyn Error>> {
                         println!(" {}", msg.bold().red());
                         error_count += 1;
                     }
-                    _ => {} 
                 }
-               } 
-               _ => {}
-
             }
         }
     }

@@ -528,7 +528,7 @@ fn check_column_japanesename(s: &str, line: u64, report: &mut Report) -> Option<
             return None;
         }
     }
-    if !s.is_empty(){
+    if !s.is_empty() {
         return Some(canonicalize_name_utf8(s));
     }
     None
