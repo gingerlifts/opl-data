@@ -61,6 +61,30 @@ fn is_exception(letter: char) -> bool {
     }
 }
 
+const HIRAGANA_START: u32 = 0x3041;
+const HIRAGANA_END: u32 = 0x3096;
+const KATAKANA_START: u32 = 0x30A1;
+
+fn is_hiragana(letter: char) -> bool {
+    HIRAGANA_START <= letter as u32 && letter as u32 <= HIRAGANA_END
+}
+
+// Gives the equivalent Katakana for a Hiragana character
+fn hira_to_kata(name: &str) -> String {
+    let mut kata = vec![];
+    for c in name.chars() {
+
+        if is_hiragana(c){
+            let code = c as i32 + (KATAKANA_START as i32 - HIRAGANA_START as i32);
+            kata.push(std::char::from_u32(code as u32).unwrap());
+        }
+        else{
+            kata.push(c);
+        }
+    }
+    kata.into_iter().collect()
+}
+
 /// Checks if the given character is Japanese.
 pub fn is_japanese(letter: char) -> bool {
     let ord: u32 = letter as u32;
@@ -114,8 +138,11 @@ pub fn make_username(name: &str) -> Result<String, String> {
     }
 
     if name.chars().any(is_japanese) {
-        let ea_id: String = name
+        let kata_name = hira_to_kata(name);
+        
+        let ea_id: String = kata_name
             .chars()
+            .filter(|letter| !letter.is_whitespace())
             .map(|letter| (letter as u32).to_string())
             .collect();
         Ok(format!("ea-{}", ea_id))
@@ -141,19 +168,20 @@ mod tests {
     }
 
     #[test]
-    fn eastasian() {
+    fn japanese_name() {
         assert_eq!(
             make_username("武田 裕介").unwrap(),
-            "ea-2749430000323502920171"
+            "ea-27494300003502920171"
         );
         assert_eq!(
             make_username("光紀 高橋").unwrap(),
-            "ea-2080932000323964027211"
+            "ea-20809320003964027211"
         );
+
     }
 
     #[test]
-    fn eastasian_regression() {
+    fn japanese_regression() {
         assert!(make_username("佐々木博之").is_ok());
         assert!(make_username("石川記みよ").is_ok());
         assert!(make_username("加藤 みどり").is_ok());

@@ -528,8 +528,10 @@ fn check_column_japanesename(s: &str, line: u64, report: &mut Report) -> Option<
             return None;
         }
     }
-
-    Some(canonicalize_name_utf8(s))
+    if !s.is_empty(){
+        return Some(canonicalize_name_utf8(s));
+    }
+    None
 }
 
 fn check_column_birthyear(
