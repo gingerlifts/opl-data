@@ -371,16 +371,30 @@ fn main() -> Result<(), Box<dyn Error>> {
     // FIXME: Otherwise we could just do the checking in create_liftermap().
     let liftermap = meetdata.create_liftermap();
     for lifter_indices in liftermap.values() {
-        let first = &meetdata.get_entry(lifter_indices[0]).name;
+        let first_name = &meetdata.get_entry(lifter_indices[0]).name;
+        let first_japanesename = &meetdata.get_entry(lifter_indices[0]).japanesename;
+
         for index in lifter_indices.iter().skip(1) {
             let entry = &meetdata.get_entry(*index);
-            if first != &entry.name {
+            if first_name != &entry.name {
                 let msg = format!(
                     "Conflict for {}: '{}' vs '{}'",
-                    entry.username, first, entry.name
+                    entry.username, first_name, entry.name
                 );
                 println!(" {}", msg.bold().red());
                 error_count += 1;
+            }
+            if let Some(first_jp) = first_japanesename {
+                if let Some(jp_name) = first_japanesename {
+                    if first_jp != jp_name {
+                        let msg = format!(
+                            "Conflict for {}: '{}' vs '{}'",
+                            entry.username, first_jp, jp_name
+                        );
+                        println!(" {}", msg.bold().red());
+                        error_count += 1;
+                    }
+                }
             }
         }
     }
