@@ -75,7 +75,9 @@ When you run `make` in the root directory and see:
   ```
 
 go to `server/templates` and check if you have `static-asset-map-mac.tera` file,if you dont,
-rename file `static-asset-map-mac-os-fix.tera` to `static-asset-map.tera`.
+rename file `static-asset-map-mac-os-fix.tera` to `static-asset-map.tera`. Then go to `server/client/build` folder and open
+`static-asset-map.tera` file, change the hashed file names in your `server/templates/static-asset-map.tera` file to the ones you see in the
+`server/client/build/static-asset-map.tera` file
 
 
 then run `make` again (You should see Good luck! message if everything succeeds)
