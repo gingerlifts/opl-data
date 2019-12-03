@@ -113,10 +113,12 @@ export function RemoteCache(
     // Given more JSON data, add it to the rows array.
     function addRows(json): void {
         length = json.total_length;
-        for (let i = 0; i < json.rows.length; ++i) {
-            const source: (string | number)[] = json.rows[i];
-            const index = source[Column.SortedIndex] as number;
-            rows[index] = source;
+        if (json.rows && json.rows.length) {
+          for (let i = 0; i < json.rows.length; ++i) {
+              const source: (string | number)[] = json.rows[i];
+              const index = source[Column.SortedIndex] as number;
+              rows[index] = source;
+          }
         }
     }
 

@@ -21,7 +21,9 @@
 'use strict';
 
 import { RemoteCache, WorkItem, Column } from './remotecache';
-import { SearchRankingsResult, SearchWorkItem, RankingsSearcher } from './search';
+import { RankingsSearcher } from './search';
+import { onMobileLoad } from './mobile';
+import { isMobile } from './utils';
 
 // Variables provided by the server.
 declare const initial_data: Object[];
@@ -164,6 +166,13 @@ function search() {
     if (query === searchInfo.laststr) {
         startRow = global_grid.getViewport().top + 1;
     }
+
+    let filtersMobileMenu = document.getElementById("controls-mobile-menu") as HTMLDivElement;
+
+    if(filtersMobileMenu && filtersMobileMenu.classList) {
+      filtersMobileMenu.classList.add("hide");
+    }
+
 
     // Queue up an AJAX request.
     searcher.search({path: selection_to_path(), query: query, startRow: startRow});
@@ -415,7 +424,7 @@ function makeRemoteCache(path: string, use_initial_data: boolean) {
     return cache;
 }
 
-function onLoad() {
+export function onLoad() {
     initializeEventListeners();
 
     // Make sure that selector state is provided for each entry in history.
@@ -491,4 +500,13 @@ function onLoad() {
     });
 }
 
-document.addEventListener("DOMContentLoaded", onLoad);
+// add DOMContentLoaded event listener only if
+// rankings page was not previouly initialized be mobile script
+document.addEventListener("DOMContentLoaded", () => {
+  if (isMobile()) {
+    onMobileLoad();
+    onLoad();
+  } else {
+    onLoad();
+  }
+});

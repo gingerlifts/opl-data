@@ -20,6 +20,9 @@
 
 'use strict';
 
+import { onMobileLoad } from './mobile';
+import { isMobile } from './utils';
+
 // These are generated inline via templates/meet.html.tera.
 declare const path_if_by_ah: string;
 declare const path_if_by_division: string;
@@ -76,4 +79,11 @@ function onLoad() {
     selSort.addEventListener("change", redirect);
 }
 
-document.addEventListener("DOMContentLoaded", onLoad);
+document.addEventListener("DOMContentLoaded", () => {
+  if (isMobile()) {
+    onMobileLoad();
+    onLoad();
+  } else {
+    onLoad();
+  }
+});

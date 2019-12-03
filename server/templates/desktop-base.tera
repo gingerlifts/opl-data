@@ -5,7 +5,7 @@
 <head>
   {# Static header parts. #}
   <meta charset="utf-8" />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {# Dynamic header parts. #}
   <title>{{page_title}}</title>
 

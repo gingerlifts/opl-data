@@ -20,7 +20,8 @@
 
 'use strict';
 
-import { Csv } from "./csv";
+import { onMobileLoad } from '../mobile';
+import { isMobile } from '../utils';
 
 let checkButton: HTMLButtonElement;
 let meetTextArea: HTMLTextAreaElement;
@@ -126,4 +127,11 @@ function checkerOnLoad() {
     initializeEventListeners();
 }
 
-document.addEventListener("DOMContentLoaded", checkerOnLoad);
+document.addEventListener("DOMContentLoaded", () => {
+  if (isMobile()) {
+    onMobileLoad();
+    checkerOnLoad();
+  } else {
+    checkerOnLoad();
+  }
+});

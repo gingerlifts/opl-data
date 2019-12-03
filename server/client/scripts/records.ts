@@ -20,6 +20,9 @@
 
 'use strict';
 
+import { onMobileLoad } from './mobile';
+import { isMobile } from './utils';
+
 // Variables provided by the server.
 declare const urlprefix: string;
 
@@ -96,4 +99,11 @@ function records_addEventListeners() {
     records_addSelectorListeners(selRecordsYear);
 }
 
-document.addEventListener("DOMContentLoaded", records_addEventListeners);
+document.addEventListener("DOMContentLoaded", () => {
+  if (isMobile()) {
+    onMobileLoad();
+    records_addEventListeners();
+  } else {
+    records_addEventListeners();
+  }
+});

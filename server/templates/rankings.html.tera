@@ -68,6 +68,32 @@
       <button id="searchbutton">{{strings.buttons.search}}</button>
     </div>
   </div>
+
+  <div id="controls-mobile">
+    <button id="controls-mobile-toggle-button"></button>
+    <div id="controls-mobile-menu" class="hide">
+      <div id="controls-mobile-filters">
+        {% include "widget-fedselect" %}
+        {% include "widget-equipmentselect" %}
+        {% include "widget-weightclass" %}
+        <select id="sexselect">
+          <option value="all"{% if selection.sex == "AllSexes" %} selected{% endif %}>{{strings.selectors.sex.all}}</option>
+          <option value="men"{% if selection.sex == "Men" %} selected{% endif %}>{{strings.selectors.sex.m}}</option>
+          <option value="women"{% if selection.sex == "Women" %} selected{% endif %}>{{strings.selectors.sex.f}}</option>
+        </select>
+        {% include "widget-ageselect" %}
+        {% include "common/widget-yearselect" %}
+        {% include "widget-eventselect" %}
+        {% include "widget-sortselect" %}
+      </div>
+      <div id="controls-mobile-search-input">
+        <input type="text" id="searchfield" autofocus/>
+      </div>
+      <div id="controls-mobile-search-button">
+        <button id="searchbutton">{{strings.buttons.search}}</button>
+      </div>
+    </div>
+  </div>
 {% endblock controls %}
 
 {% block body %}

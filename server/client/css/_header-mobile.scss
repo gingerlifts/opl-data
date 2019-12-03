@@ -1,0 +1,71 @@
+@media (max-width: $breakpoint-tablet) {
+  #header-mobile {
+    display: block;
+  }
+
+  #header {
+    display: none;
+  }
+}
+
+@media (min-width: $breakpoint-tablet) {
+  #header-mobile {
+    display: none;
+  }
+
+  #header {
+    display: flex;
+  }
+}
+
+#header-mobile {
+  height: 40px;
+  background-color: $header-background-color-mobile;
+
+  .header-hamburger{
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 5px;
+    font-size: 18pt;
+    padding: 0px;
+    text-align: center;
+    padding-top: 0px;
+    text-decoration: none;
+    color: $background-color;
+  }
+
+  .mobile-header-logo-link {
+    height: 40px;
+    display: block;
+    width: 100px;
+    margin: auto;
+
+    .header-logo {
+      width: 100%;
+    }
+  }
+
+  #header-mobile-menu {
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: $background-color;
+
+    #header-mobile-menu-selectors {
+      text-align: center;
+    }
+
+    .nav__link_mobile {
+      display: block;
+      width: 100%;
+      padding: 10px 0px;
+      text-decoration: none;
+      text-align: center;
+    }
+  }
+}
