@@ -4,7 +4,7 @@ let mobileMenuToggler: HTMLButtonElement;
 let mobileMenuLinks: HTMLCollection;
 let filtersMobileMenu: HTMLDivElement;
 
-function toggleMobileFilters() : void {
+function toggleMobileFilters(): void {
     // hide mobile menu when user clicks on filters
     mobileMenu = document.getElementById("header-mobile-menu") as HTMLDivElement;
     mobileMenu.classList.add("hide");
@@ -13,7 +13,7 @@ function toggleMobileFilters() : void {
     mobileMenu.classList.toggle("hide");
 }
 
-function toggleMobileMenu() : void {
+function toggleMobileMenu(): void {
     filtersMobileMenu = document.getElementById("controls-mobile-menu") as HTMLDivElement;
     mobileMenu = document.getElementById("header-mobile-menu") as HTMLDivElement;
     // hide filters menu when user clicks on main menu
@@ -27,7 +27,7 @@ function toggleMobileMenu() : void {
 
 }
 
-function removeDesktopViews() : void {
+function removeDesktopViews(): void {
   const desktopGlobalMenu = document.getElementById("header") as HTMLButtonElement;
   const desktopControls = document.getElementById("controls") as HTMLButtonElement;
   if (desktopGlobalMenu) {
@@ -52,19 +52,10 @@ function initMobileEventListeners(): void {
     mobileMenuToggler.addEventListener("click", toggleMobileMenu, false);
   }
 
-  if(mobileMenuLinks.length > 0) {
+  if (mobileMenuLinks.length > 0) {
     for (let i = 0; i < mobileMenuLinks.length; i++) {
       mobileMenuLinks[i].addEventListener("click", toggleMobileMenu, false);
     }
-  }
-}
-
-function loadRankingsPage(): void {
-  if (!(<any>window).rankingsPageLoaded) {
-    (<any>window).isMobileView = true;
-    (<any>window).rankingsPageLoaded = true;
-    console.log('loadRankingsPage', loadRankingsPage)
-    loadRankingsPage();
   }
 }
 

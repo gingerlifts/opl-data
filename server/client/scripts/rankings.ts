@@ -373,9 +373,11 @@ function makeRemoteCache(path: string, use_initial_data: boolean) {
     // Construct a new RemoteCache.
     const langSelect = document.getElementById("langselect") as HTMLSelectElement;
     const unitSelect = document.getElementById("weightunits") as HTMLSelectElement;
+    const selectedUnits = unitSelect.value;
+    const selectedLang = langSelect.value;
 
     let data = use_initial_data ? initial_data : null;
-    let cache = RemoteCache("TESTING", data, path, langSelect.value, unitSelect.value);
+    let cache = RemoteCache("TESTING", data, path, selectedLang, selectedUnits);
 
     // Hook up event handlers.
 

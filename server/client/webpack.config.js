@@ -11,6 +11,7 @@ var babelOptions = {
 
 module.exports = {
   entry: {
+    header: "./scripts/header.ts",
     mobile: "./scripts/mobile.ts",
     rankings: "./scripts/rankings.ts",
     records: "./scripts/records.ts",

@@ -27,9 +27,6 @@
 // Provided by the rankings template.
 declare const urlprefix: string;
 
-let langselect;
-let weightunits;
-
 // Column mapping for the server rankings JSON.
 // This should match with the serialization of the JsEntryRow
 // in the Rust server source.

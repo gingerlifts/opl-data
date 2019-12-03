@@ -43,3 +43,5 @@
 
   </div>
 </div>
+
+<script defer src="/static/scripts/{{statics::header_js()}}"></script>
