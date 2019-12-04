@@ -97,5 +97,10 @@
 {% endblock controls %}
 
 {% block body %}
+  <div id="rankings-more-details-tooltip" class="mobile-grid-name-more-container hide">
+      <div id="more-tool-tip-close-btn">X</div>
+      <div id="rankings-more-details-tooltip-content">
+      </div>
+  </div>
   <div id="theGrid"></div>
 {% endblock body %}

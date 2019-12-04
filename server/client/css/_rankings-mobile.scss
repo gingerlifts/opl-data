@@ -1,0 +1,31 @@
+.mobile-grid-name-show-more {
+    background: url($mobile-grid-name-show-more-icon) 96% no-repeat $control-background-color;
+    background-color: transparent;
+    background-size: 100%;
+    position: absolute;
+    right: 5px;
+    width: 20px;
+    height: 100%;
+    text-align: center;
+}
+.mobile-grid-name-more-container {
+  position: fixed;
+  background: white;
+  left: 0px;
+  bottom: 0px;
+  padding: 10px;
+  right: 0;
+  z-index: 2;
+  background-color: $row-alt-background-color;
+  border: 10px solid $background-color;
+
+  #more-tool-tip-close-btn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
+
+  a {
+    color: $table-header-background-color
+  }
+}
