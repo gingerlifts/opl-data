@@ -57,8 +57,8 @@ declare const translation_column_mcculloch: string;
 declare const translation_column_glossbrenner: string;
 declare const translation_column_ipfpoints: string;
 
-let global_grid;  // The SlickGrid.
-let global_cache;  // The active RemoteCache rendered in the SlickGrid.
+let global_grid: any;  // The SlickGrid.
+let global_cache: any; // The active RemoteCache rendered in the SlickGrid.
 
 // A RemoteCache in line to replace the global_cache, but which hasn't
 // had its initial data loaded yet, and is still waiting on an AJAX response.
@@ -66,13 +66,13 @@ let global_cache;  // The active RemoteCache rendered in the SlickGrid.
 // The pending_cache is swapped to overwrite the global_cache when its onFirstLoad
 // event fires, by the event handler. Swapping only when data is available avoids
 // flickering. The concept is similar to the double-sided OpenGL framebuffer.
-let pending_cache;
+let pending_cache: any;
 
 // Tells an event handler to not create a new history state.
 // Used when navigating backwards/forwards, instead of by changing a selector.
 let global_suppress_history_changes: boolean = false;
 
-let searcher;
+let searcher: any;
 let searchInfo = {laststr: ''};
 
 let selEquipment: HTMLSelectElement;
@@ -93,7 +93,7 @@ let searchButton: HTMLButtonElement;
 function makeDataProvider() {
     return {
         getLength: function() { return global_cache.getLength(); },
-        getItem: function(idx) {
+        getItem: function(idx: number) {
             let entry: (string | number)[] = global_cache.rows[idx];
             if (entry === undefined) {
                 return;
@@ -123,6 +123,23 @@ function makeDataProvider() {
             const date = '<a href="' + urlprefix + 'm/' + entry[Column.Path] + '">' +
                 entry[Column.Date] + '</a>';
 
+            // on mobile wrap name with container and add show more icon
+            if(isMobile()) {
+              name = `<div class="mobile-grid-name-cell">
+                  ${name}
+                  <span class="mobile-grid-name-show-more"
+                    age="${entry[Column.Age]}"
+                    sex="${entry[Column.Sex]}"
+                    fed="${entry[Column.Federation]}"
+                    location="${loc}"
+                    date="${encodeURI(date)}"
+                    equipment="${entry[Column.Equipment]}"
+                    weightclass="${entry[Column.WeightClass]}"
+                    bodyweight="${entry[Column.Bodyweight]}"
+                  ></span>
+                </div>`
+            }
+
             return {
                 rank: (entry[Column.SortedIndex] as number) + 1,
                 name: name,
@@ -145,7 +162,7 @@ function makeDataProvider() {
     }
 }
 
-function onResize(evt: any) {
+function onResize() {
     global_grid.resizeCanvas();
 }
 
@@ -264,7 +281,7 @@ function saveSelectionState() {
 }
 
 // Load the current selection, for use with popping history state.
-function restoreSelectionState(state) {
+function restoreSelectionState(state: any) {
     // Although the selectors are being changed in this function,
     // we don't want the changeSelection() event handler to have any effect.
     removeAllSelectorListeners();
@@ -309,19 +326,19 @@ function changeSelection() {
     pending_cache = cache;
 
     // on mobile we should rerender the table to show only relevant columns
-    if(isMobile()) {
+    if(isMobile() && global_grid instanceof Slick.Grid) {
       renderGridTable();
     }
 
 }
 
-function addSelectorListeners(selector) {
+function addSelectorListeners(selector: HTMLElement) {
     selector.addEventListener("change", changeSelection);
 }
 
 // Used when navigating through history: otherwise navigation
 // would add more history events.
-function removeSelectorListeners(selector) {
+function removeSelectorListeners(selector: HTMLElement) {
     selector.removeEventListener("change", changeSelection);
 }
 
@@ -418,6 +435,12 @@ function makeRemoteCache(path: string, use_initial_data: boolean) {
         // Move the grid into position.
         global_grid.scrollRowToTop(args.startRow);
         global_grid.render();
+
+        // after the grid is rendered attach event listeners for mobile name more buttons
+        // setTimeout is to be sure that it is rendered
+        if (isMobile()) {
+          setTimeout(() => attachShowMoreButtonEventListeners());
+        }
     } as any);
 
     // Data loads after the first should let the grid know that new
@@ -428,12 +451,21 @@ function makeRemoteCache(path: string, use_initial_data: boolean) {
         }
         global_grid.updateRowCount();
         global_grid.render();
+
+        // after the grid is rendered attach event listeners for mobile name more buttons
+        // setTimeout is to be sure that it is rendered
+        if (isMobile()) {
+          setTimeout(() => attachShowMoreButtonEventListeners());
+        }
     } as any);
 
     return cache;
 }
 
 function renderMobileRankingTooltip(event: any): void {
+  event.preventDefault();
+  event.stopPropagation();
+
   const age = event.target.getAttribute('age');
   const sex = event.target.getAttribute('sex');
   const date = event.target.getAttribute('date');
@@ -446,7 +478,10 @@ function renderMobileRankingTooltip(event: any): void {
   const tooltipContent = document.getElementById("rankings-more-details-tooltip-content") as HTMLDivElement;
   const moreToolTipCloseBtn = document.getElementById("more-tool-tip-close-btn") as HTMLDivElement;
 
-  moreToolTipCloseBtn.addEventListener("click", () => {
+  moreToolTipCloseBtn.addEventListener("click", (event: any) => {
+    event.preventDefault();
+    event.stopPropagation();
+
     const moreToolTip = document.getElementById("rankings-more-details-tooltip") as HTMLDivElement;
     moreToolTip.classList.add('hide');
   }, false);
@@ -465,28 +500,12 @@ function renderMobileRankingTooltip(event: any): void {
   moreToolTip.classList.toggle('hide');
 }
 
-function mobileNameFormatter(row, cell, value, columnDef, dataContext): String {
-  if (value == null) {
-    return "";
-  } else {
-    const moreDetailsButtons = document.getElementsByClassName("mobile-grid-name-show-more") as HTMLCollection;
+function attachShowMoreButtonEventListeners(): void {
+  const moreDetailsButtons = document.getElementsByClassName("mobile-grid-name-show-more") as HTMLCollection;
 
-    for (let button of moreDetailsButtons) {
-      button.addEventListener("click", renderMobileRankingTooltip, false);
-    }
-    return `<div class="mobile-grid-name-cell">
-              ${value}
-              <span class="mobile-grid-name-show-more"
-                age="${dataContext.age}"
-                sex="${dataContext.sex}"
-                fed="${dataContext.fed}"
-                location="${dataContext.loc}"
-                date="${encodeURI(dataContext.date)}"
-                equipment="${dataContext.equipment}"
-                weightclass="${dataContext.weightclass}"
-                bodyweight="${dataContext.bodyweight}"
-              ></span>
-            </div>`;
+  for (let button of moreDetailsButtons) {
+    button.removeEventListener("click", renderMobileRankingTooltip);
+    button.addEventListener("click", renderMobileRankingTooltip, false);
   }
 }
 
@@ -531,17 +550,19 @@ function renderGridTable(): void {
       }
 
       if (isMobile()) {
+          // on mobile columns should have full width for better readability
           options.forceFitColumns = false;
 
           // on Mobile show only Rank, Lifter, Result and Points
           columns = [
               {id: "filler", width: 20, minWidth: 20, focusable: false, selectable: false, resizable: false},
               {id: "rank", name: translation_column_formulaplace, field: "rank", width: 40},
-              {id: "name", name: translation_column_liftername, field: "name", width: nameWidth, formatter: mobileNameFormatter},
+              {id: "name", name: translation_column_liftername, field: "name", width: nameWidth, formatter: urlformatter},
           ];
 
           const thisUrl = window.location.href;
 
+          // show only colums relevant to selected filter
           if (thisUrl.indexOf("squat-only") >= 0) {
               columns.push({id: "squat", name: translation_column_squat, field: "squat", width: numberWidth});
           } else if (thisUrl.indexOf("bench-only") >= 0) {
@@ -550,13 +571,18 @@ function renderGridTable(): void {
               columns.push({id: "deadlift", name: translation_column_deadlift, field: "deadlift", width: numberWidth});
           } else if (thisUrl.indexOf("full-power") >= 0) {
               columns.push({id: "total", name: translation_column_total, field: "total", width: numberWidth});
+          } else if (thisUrl.indexOf("push-pull") >= 0) {
+              columns.push({id: "bench", name: translation_column_bench, field: "bench", width: numberWidth});
+              columns.push({id: "deadlift", name: translation_column_deadlift, field: "deadlift", width: numberWidth});
           } else {
+              // show all results is no filter selected
               columns.push({id: "squat", name: translation_column_squat, field: "squat", width: numberWidth});
               columns.push({id: "bench", name: translation_column_bench, field: "bench", width: numberWidth});
               columns.push({id: "deadlift", name: translation_column_deadlift, field: "deadlift", width: numberWidth});
               columns.push({id: "total", name: translation_column_total, field: "total", width: numberWidth});
           }
 
+          // always show points
           columns.push({id: "points", name: selection_to_points_title(), field: "points", width: numberWidth});
 
       }
