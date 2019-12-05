@@ -33,6 +33,24 @@
       <button onclick="location.href='https://gitlab.com/openpowerlifting/opl-data/tree/master/meet-data/{{meet.path}}'" type="button">Edit Meet</button>
     </div>
   </div>
+
+  <div id="controls-mobile">
+    <button id="controls-mobile-toggle-button"></button>
+    <div id="controls-mobile-menu" class="hide">
+      <div id="controls-mobile-filters">
+        <select id="sortselect">
+          <option value="by-division" {% if sortselection == "ByDivision" %}selected{% endif %}>{{strings.selectors.sort.by_division}}</option>
+          <option value="by-ipf-points" {% if sortselection == "ByIPFPoints" %}selected{% endif %}>{{strings.selectors.sort.by_ipfpoints}}</option>
+          <option value="by-total" {% if sortselection == "ByTotal" %}selected{% endif %}>{{strings.selectors.sort.by_total}}</option>
+          <option value="by-wilks" {% if sortselection == "ByWilks" %}selected{% endif %}>{{strings.selectors.sort.by_wilks}}</option>
+        </select>
+      </div>
+      <div id="controls-mobile-search-button">
+          <button onclick="location.href='https://gitlab.com/openpowerlifting/opl-data/tree/master/meet-data/{{meet.path}}'" type="button">Edit Meet</button>
+      </div>
+    </div>
+  </div>
+
 {% endblock controls %}
 
 {% block body %}
