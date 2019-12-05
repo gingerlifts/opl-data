@@ -22,7 +22,6 @@
 
 import { RemoteCache, WorkItem, Column } from './remotecache';
 import { RankingsSearcher } from './search';
-import { onMobileLoad } from './mobile';
 import { isMobile } from './utils';
 
 // Variables provided by the server.
@@ -629,13 +628,10 @@ export function onLoad() {
     });
 }
 
-// add DOMContentLoaded event listener only if
-// rankings page was not previouly initialized be mobile script
-document.addEventListener("DOMContentLoaded", () => {
-  if (isMobile()) {
-    onMobileLoad();
-    onLoad();
-  } else {
-    onLoad();
-  }
-});
+function loadRankingsScripts() {
+  onLoad();
+}
+
+export {
+  loadRankingsScripts
+}

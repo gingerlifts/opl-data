@@ -10,7 +10,6 @@
     const default_ageclass = "all";
     const default_year = "all";
   </script>
-  <script defer src="/static/scripts/{{statics::records_js()}}"></script>
 {% endblock includes %}
 
 {% block topbar_hack %}

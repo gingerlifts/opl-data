@@ -1,3 +1,9 @@
+import { onMobileLoad } from './mobile';
+import { loadMeetScripts } from './meet';
+import { loadMeetList } from './meetlist';
+import { loadRankingsScripts } from './rankings'
+import { loadRecordsScripts } from './records';
+import { isMobile } from './utils';
 
 function changeLanguage(): void {
    const time = new Date();
@@ -35,8 +41,27 @@ export {
   changeUnits
 }
 
-// since for now each page has it's own DOM load event listener
-// we need to execute theese when they are loaded
-setTimeout(() => {
+document.addEventListener("DOMContentLoaded", () => {
+  const thisPage = window.location.pathname;
+
+  // first we check if user is on mobile
+  // if yes - remove desktop header and controls
+  // since desktop and mobile header and controls have
+  // have html elements with same ids - we need first
+  // remove desktop elements not ot have duplicated id's
+  if(isMobile()) {
+      onMobileLoad();
+  }
+
   initHeaderEventListeners();
-})
+
+  if (thisPage.indexOf("/m/") >= 0) {
+    loadMeetScripts();
+  } else if (thisPage.indexOf("/mlist") >= 0) {
+    loadMeetList();
+  } else if (thisPage.indexOf("/records") >= 0) {
+    loadRecordsScripts();
+  } else if(thisPage === '/' || thisPage.indexOf("/rankings") >= 0){
+    loadRankingsScripts();
+  }
+});

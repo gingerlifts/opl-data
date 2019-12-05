@@ -30,5 +30,8 @@
     {% block topbar_hack_end %}{% endblock topbar_hack_end %}
     {% block body %}{% endblock body %}
   {% block flexbox_hack_end %}{% endblock flexbox_hack_end %}
+
+  <script defer src="/static/scripts/{{statics::slickgrid_min_js()}}"></script>
+  <script defer src="/static/scripts/{{statics::main_js()}}"></script>
 </body>
 </html>

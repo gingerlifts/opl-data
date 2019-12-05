@@ -20,9 +20,6 @@
 
 'use strict';
 
-import { onMobileLoad } from './mobile';
-import { isMobile } from './utils';
-
 let selFed: HTMLSelectElement;
 let selYear: HTMLSelectElement;
 
@@ -63,11 +60,10 @@ function addEventListeners(): void {
     addSelectorListeners(selYear);
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  if (isMobile()) {
-    onMobileLoad();
-    addEventListeners();
-  } else {
-    addEventListeners();
-  }
-});
+function loadMeetList():void {
+  addEventListeners();
+}
+
+export {
+  loadMeetList
+}

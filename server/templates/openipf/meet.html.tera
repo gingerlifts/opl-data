@@ -17,7 +17,6 @@
     const path_if_by_total = "{{urlprefix | safe}}{{path_if_by_total | safe}}";
     const path_if_by_wilks = "{{urlprefix | safe}}{{path_if_by_wilks | safe}}";
   </script>
-  <script defer src="/static/scripts/{{statics::meet_js()}}"></script>
 {% endblock includes %}
 
 {% block controls %}
@@ -41,7 +40,7 @@
     <h1 id="meet">{{year}} {{meet.federation}} {{meet.name}}</h1>
     <p>{{meet.date}}, {{meet.country}}{% if meet.state %}-{{meet.state}}{% endif %}{% if meet.town %}, {{meet.town}}{% endif %}</p>
 
-    <table>
+    <table id="meetTable">
       <thead><tr>
         {% if use_rank_column %}
           <th>{{strings.columns.formulaplace}}</th>
