@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   initHeaderEventListeners();
 
-  if (thisPage.indexOf("/openipf")) {
+  if (thisPage.indexOf("/openipf") >= 0) {
     if (thisPage.indexOf("openipf/m/") >= 0) {
       loadMeetScripts();
     } else if (thisPage.indexOf("openipf/mlist") >= 0) {
@@ -32,7 +32,6 @@ document.addEventListener("DOMContentLoaded", () => {
               thisPage.indexOf("openipf/rankings") >= 0){
       loadRankingsScripts();
     }
-
     return;
   }
 
