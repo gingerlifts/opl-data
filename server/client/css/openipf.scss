@@ -6,6 +6,7 @@
 $background-color: #F4F4F4;
 $header-color: $background-color;
 $header-background-color: #303030;
+$header-background-color-mobile: #303030;
 
 $default-color: #120D0B;
 $primary-color: #FDB93E;
@@ -21,6 +22,8 @@ $control-background-color: #F4F4F4;
 $control-hover-color: #FFFFFF;
 $control-active-color: #D8D8D8;
 $control-selector-image: "/static/images/select_dropdown_gold.png";
+$control-mobile-filter-icon: "/static/images/mobile_filter.png";
+$mobile-grid-name-show-more-icon: "/static/images/more_icon.png";
 
 // Height definitions.
 $control-bar-height: 36px;
@@ -31,17 +34,25 @@ $table-row-height: 18px;
 
 // Definitions for media queries.
 $mobile-cutoff: 600px;
+$breakpoint-tablet: 767px;
 
 // External things that are hopefully pretty small.
 @import "../node_modules/slickgrid/slick.grid";
 
 // Internal things.
 @import "header";
+@import "header-mobile";
 @import "tables";
 @import "controls";
+@import "controls-mobile";
 @import "records-columns";
+@import "records-mobile";
+@import "rankings-mobile";
+@import "meet-mobile";
+@import "lifter-mobile";
 @import "donator-colors";
 @import "layout";
+
 
 // Override the setting in "layout": prefer blackish to yellowish.
 h2 {

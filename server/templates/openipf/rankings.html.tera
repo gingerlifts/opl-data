@@ -66,8 +66,40 @@
       <button id="searchbutton">{{strings.buttons.search}}</button>
     </div>
   </div>
+
+  <div id="controls-mobile">
+    <button id="controls-mobile-toggle-button"></button>
+    <div id="controls-mobile-menu" class="hide">
+      <div id="controls-mobile-filters">
+        {% include "openipf/widget-fedselect" %}
+        {% include "openipf/widget-equipmentselect" %}
+        {% include "openipf/widget-weightclass" %}
+        <select id="sexselect">
+          <option value="all"{% if selection.sex == "AllSexes" %} selected{% endif %}>{{strings.selectors.sex.all}}</option>
+          <option value="men"{% if selection.sex == "Men" %} selected{% endif %}>{{strings.selectors.sex.m}}</option>
+          <option value="women"{% if selection.sex == "Women" %} selected{% endif %}>{{strings.selectors.sex.f}}</option>
+        </select>
+        {% include "openipf/widget-ageselect" %}
+        {% include "common/widget-yearselect" %}
+        {% include "openipf/widget-eventselect" %}
+        {% include "openipf/widget-sortselect" %}
+      </div>
+      <div id="controls-mobile-search-input">
+        <input type="text" id="searchfield" autofocus/>
+      </div>
+      <div id="controls-mobile-search-button">
+        <button id="searchbutton">{{strings.buttons.search}}</button>
+      </div>
+    </div>
+  </div>
+
 {% endblock controls %}
 
 {% block body %}
+  <div id="rankings-more-details-tooltip" class="mobile-grid-name-more-container hide">
+      <div id="more-tool-tip-close-btn">X</div>
+      <div id="rankings-more-details-tooltip-content">
+      </div>
+  </div>
   <div id="theGrid"></div>
 {% endblock body %}
