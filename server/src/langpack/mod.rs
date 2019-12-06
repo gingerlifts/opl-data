@@ -42,6 +42,8 @@ pub enum Language {
     it,
     /// Japanese.
     ja,
+    /// Lithuanian.
+    lt,
     /// Dutch.
     nl,
     /// Polish.
@@ -90,6 +92,7 @@ impl fmt::Display for Language {
                 Language::hu => "hu",
                 Language::it => "it",
                 Language::ja => "ja",
+                Language::lt => "lt",
                 Language::nl => "nl",
                 Language::pl => "pl",
                 Language::pt => "pt",
@@ -504,6 +507,7 @@ pub struct FedSelectorTranslations {
     pub all_hungary: String,
     pub all_iceland: String,
     pub all_indonesia: String,
+    pub all_iran: String,
     pub all_ireland: String,
     pub all_israel: String,
     pub all_italy: String,
@@ -581,6 +585,7 @@ pub struct LangInfo {
     hu: Option<Translations>,
     it: Option<Translations>,
     ja: Option<Translations>,
+    lt: Option<Translations>,
     nl: Option<Translations>,
     pl: Option<Translations>,
     pt: Option<Translations>,
@@ -621,6 +626,7 @@ impl LangInfo {
             Language::hu => self.hu = trans,
             Language::it => self.it = trans,
             Language::ja => self.ja = trans,
+            Language::lt => self.lt = trans,
             Language::nl => self.nl = trans,
             Language::pl => self.pl = trans,
             Language::pt => self.pt = trans,
@@ -652,6 +658,7 @@ impl LangInfo {
             Language::hu => self.hu.as_ref().unwrap(),
             Language::it => self.it.as_ref().unwrap(),
             Language::ja => self.ja.as_ref().unwrap(),
+            Language::lt => self.lt.as_ref().unwrap(),
             Language::nl => self.nl.as_ref().unwrap(),
             Language::pl => self.pl.as_ref().unwrap(),
             Language::pt => self.pt.as_ref().unwrap(),
@@ -898,6 +905,7 @@ impl Language {
             Language::hu => NumberFormat::ArabicComma,
             Language::it => NumberFormat::ArabicComma,
             Language::ja => NumberFormat::ArabicPeriod,
+            Language::lt => NumberFormat::ArabicComma,
             Language::nl => NumberFormat::ArabicComma,
             Language::pl => NumberFormat::ArabicComma,
             Language::pt => NumberFormat::ArabicComma,
