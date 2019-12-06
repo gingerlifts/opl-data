@@ -88,9 +88,9 @@
         <tr>
           <td>{{this.place}}</td>
           <td>{{this.federation}}</td>
-          <td>{{this.date}}</td>
+          <td class="meet-list-date>{{this.date}}</td>
           <td>{{this.country}}{% if this.state %}-{{this.state}}{% endif %}</td>
-          <td><a href="{{urlprefix | safe}}m/{{this.meet_path | safe}}">{{this.meet_name}}</a></td>
+          <td class="meet-list-name"><a href="{{urlprefix | safe}}m/{{this.meet_path | safe}}">{{this.meet_name}}</a></td>
           <td>{{this.division}}</td>
           {% if show_sex_column %}
             <td>{{this.sex}}</td>

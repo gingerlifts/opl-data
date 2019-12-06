@@ -17,14 +17,14 @@
         Tracking {{num_entries}} entries for {{num_lifters}} lifters from {{num_meets}} meets.
 
     <h2>Federations</h2>
-    <table>
+    <table id="statusTable">
       <thead><tr>
         <th>Name</th>
         <th>Meets Entered</th>
         <th>Status</th>
-	<th>New Meet Detection</th>
-	<th>Results Format</th>
-	<th>Ease of Import</th>
+      	<th>New Meet Detection</th>
+      	<th>Results Format</th>
+      	<th>Ease of Import</th>
         <th>Maintainers</th>
       </tr></thead>
       <tbody>
@@ -33,9 +33,9 @@
           <td>{{this.fed}}{% if this.instagram %}<a href="https://instagram.com/{{this.instagram}}" class="instagram" rel="noopener" target="_blank"><i class="fa fa-instagram fa-resize"></i></a>{% endif %}</td>
           <td>{{this.meet_count}}</td>
           <td>{{this.status}}</td>
-	  <td>{{this.has_probe}}</td>
-	  <td>{{this.format}}</td>
-	  <td>{{this.ease}}</td>
+      	  <td>{{this.has_probe}}</td>
+      	  <td>{{this.format}}</td>
+      	  <td>{{this.ease}}</td>
           <td>{{this.maintainers | safe}}</td>
         </tr>
       {% endfor %}
