@@ -309,6 +309,7 @@ function changeSelection() {
 
     // on mobile we should rerender the table to show only relevant columns
     if(isMobile() && global_grid instanceof Slick.Grid) {
+      renderSelectedFilters()
       renderGridTable();
     }
 
@@ -417,6 +418,7 @@ function makeRemoteCache(path: string, use_initial_data: boolean) {
         // Move the grid into position.
         global_grid.scrollRowToTop(args.startRow);
         global_grid.render();
+        renderSelectedFilters();
     } as any);
 
     // Data loads after the first should let the grid know that new
@@ -427,6 +429,7 @@ function makeRemoteCache(path: string, use_initial_data: boolean) {
         }
         global_grid.updateRowCount();
         global_grid.render();
+        renderSelectedFilters();
     } as any);
 
     return cache;
@@ -532,6 +535,40 @@ function renderGridTable(): void {
 
 }
 
+function getSelectedFilters() {
+  return [
+      { name: "equipment", value: selEquipment.value },
+      { name: "weightclass", value: selWeightClass.value },
+      { name: "federation", value: selFed.value },
+      { name: "sex", value: selSex.value },
+      { name: "ageclass", value: selAgeClass.value },
+      { name: "year", value: selYear.value },
+      { name: "event", value: selEvent.value },
+      { name: "sort", value: selSort.value }
+  ]
+}
+
+function renderSelectedFilters(): void {
+  const filtersContainer = document.getElementById('selectedFilters');
+
+  if(filtersContainer) {
+    // first clean ald filters
+    filtersContainer.innerHTML = '';
+    const filters = getSelectedFilters();
+
+    filters.forEach(filter => {
+      if( filter.value && filter.value !== 'all') {
+        const filterItem = document.createElement('span');
+        
+        filterItem.setAttribute("class","selected-filter")
+        filterItem.innerHTML = filter.value;
+        filtersContainer.appendChild(filterItem);
+      }
+    });
+
+  }
+}
+
 export function onLoad() {
     initializeEventListeners();
 
@@ -546,6 +583,7 @@ export function onLoad() {
     }
 
     renderGridTable();
+    renderSelectedFilters();
 
     // Hook up the searcher.
     searcher = RankingsSearcher();

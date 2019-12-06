@@ -1,4 +1,23 @@
+#selectedFilters {
+  display: none;
+}
+
 @media (max-width: $breakpoint-tablet) {
+
+  #selectedFilters {
+    display: block;
+
+    .selected-filter {
+      display: inline-block;
+      background: $table-header-background-color;
+      margin: 3px;
+      border-radius: 23px;
+      font-size: 11px;
+      text-align: center;
+      padding: 1px 3px 4px 3px;
+    }
+  }
+
   .records-col {
     table {
       display: block;

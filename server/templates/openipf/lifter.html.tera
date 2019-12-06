@@ -60,7 +60,7 @@
       <thead><tr>
         <th>{{strings.columns.place}}</th>
         <th>{{strings.columns.federation}}</th>
-        <th>{{strings.columns.date}}</th>
+        <th class="meet-list-date">{{strings.columns.date}}</th>
         <th>{{strings.columns.location}}</th>
         <th>{{strings.columns.meetname}}</th>
         <th>{{strings.columns.division}}</th>

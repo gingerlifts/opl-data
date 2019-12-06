@@ -96,5 +96,6 @@
 {% endblock controls %}
 
 {% block body %}
+  <div id="selectedFilters"></div>
   <div id="theGrid"></div>
 {% endblock body %}
