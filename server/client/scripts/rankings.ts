@@ -122,23 +122,6 @@ function makeDataProvider() {
             const date = '<a href="' + urlprefix + 'm/' + entry[Column.Path] + '">' +
                 entry[Column.Date] + '</a>';
 
-            // on mobile wrap name with container and add show more icon
-            if(isMobile()) {
-              name = `<div class="mobile-grid-name-cell">
-                  ${name}
-                  <span class="mobile-grid-name-show-more"
-                    age="${entry[Column.Age]}"
-                    sex="${entry[Column.Sex]}"
-                    fed="${entry[Column.Federation]}"
-                    location="${loc}"
-                    date="${encodeURI(date)}"
-                    equipment="${entry[Column.Equipment]}"
-                    weightclass="${entry[Column.WeightClass]}"
-                    bodyweight="${entry[Column.Bodyweight]}"
-                  ></span>
-                </div>`
-            }
-
             return {
                 rank: (entry[Column.SortedIndex] as number) + 1,
                 name: name,
@@ -434,12 +417,6 @@ function makeRemoteCache(path: string, use_initial_data: boolean) {
         // Move the grid into position.
         global_grid.scrollRowToTop(args.startRow);
         global_grid.render();
-
-        // after the grid is rendered attach event listeners for mobile name more buttons
-        // setTimeout is to be sure that it is rendered
-        if (isMobile()) {
-          setTimeout(() => attachShowMoreButtonEventListeners());
-        }
     } as any);
 
     // Data loads after the first should let the grid know that new
@@ -450,62 +427,9 @@ function makeRemoteCache(path: string, use_initial_data: boolean) {
         }
         global_grid.updateRowCount();
         global_grid.render();
-
-        // after the grid is rendered attach event listeners for mobile name more buttons
-        // setTimeout is to be sure that it is rendered
-        if (isMobile()) {
-          setTimeout(() => attachShowMoreButtonEventListeners());
-        }
     } as any);
 
     return cache;
-}
-
-function renderMobileRankingTooltip(event: any): void {
-  event.preventDefault();
-  event.stopPropagation();
-
-  const age = event.target.getAttribute('age');
-  const sex = event.target.getAttribute('sex');
-  const date = event.target.getAttribute('date');
-  const equipment = event.target.getAttribute('equipment');
-  const fed= event.target.getAttribute('fed');
-  const location= event.target.getAttribute('location');
-  const weightclass = event.target.getAttribute('weightclass');
-  const bodyweight = event.target.getAttribute('bodyweight');
-  const moreToolTip = document.getElementById("rankings-more-details-tooltip") as HTMLDivElement;
-  const tooltipContent = document.getElementById("rankings-more-details-tooltip-content") as HTMLDivElement;
-  const moreToolTipCloseBtn = document.getElementById("more-tool-tip-close-btn") as HTMLDivElement;
-
-  moreToolTipCloseBtn.addEventListener("click", (event: any) => {
-    event.preventDefault();
-    event.stopPropagation();
-
-    const moreToolTip = document.getElementById("rankings-more-details-tooltip") as HTMLDivElement;
-    moreToolTip.classList.add('hide');
-  }, false);
-
-  tooltipContent.innerHTML = `
-    <div>${translation_column_age}: ${age}</div>
-    <div>${translation_column_sex}: ${sex}</div>
-    <div>${translation_column_weightclass}: ${weightclass}</div>
-    <div>${translation_column_bodyweight}: ${bodyweight}</div>
-    <div>${translation_column_date}: ${decodeURI(date)}</div>
-    <div>${translation_column_equipment}: ${equipment}</div>
-    <div>${translation_column_federation}: ${fed}</div>
-    <div>${translation_column_location}: ${location}</div>
-  `;
-
-  moreToolTip.classList.toggle('hide');
-}
-
-function attachShowMoreButtonEventListeners(): void {
-  const moreDetailsButtons = document.getElementsByClassName("mobile-grid-name-show-more") as HTMLCollection;
-
-  for (let button of moreDetailsButtons) {
-    button.removeEventListener("click", renderMobileRankingTooltip);
-    button.addEventListener("click", renderMobileRankingTooltip, false);
-  }
 }
 
 function renderGridTable(): void {
@@ -569,20 +493,27 @@ function renderGridTable(): void {
           } else if (thisUrl.indexOf("deadlift-only") >= 0) {
               columns.push({id: "deadlift", name: translation_column_deadlift, field: "deadlift", width: numberWidth});
           } else if (thisUrl.indexOf("full-power") >= 0) {
+              columns.push({id: "squat", name: translation_column_squat, field: "squat", width: numberWidth});
+              columns.push({id: "bench", name: translation_column_bench, field: "bench", width: numberWidth});
+              columns.push({id: "deadlift", name: translation_column_deadlift, field: "deadlift", width: numberWidth});
               columns.push({id: "total", name: translation_column_total, field: "total", width: numberWidth});
           } else if (thisUrl.indexOf("push-pull") >= 0) {
               columns.push({id: "bench", name: translation_column_bench, field: "bench", width: numberWidth});
               columns.push({id: "deadlift", name: translation_column_deadlift, field: "deadlift", width: numberWidth});
           } else {
-              // show all results is no filter selected
-              columns.push({id: "squat", name: translation_column_squat, field: "squat", width: numberWidth});
-              columns.push({id: "bench", name: translation_column_bench, field: "bench", width: numberWidth});
-              columns.push({id: "deadlift", name: translation_column_deadlift, field: "deadlift", width: numberWidth});
-              columns.push({id: "total", name: translation_column_total, field: "total", width: numberWidth});
+            // show only total on mobile by default
+            columns.push({id: "total", name: translation_column_total, field: "total", width: numberWidth});
           }
 
-          // always show points
           columns.push({id: "points", name: selection_to_points_title(), field: "points", width: numberWidth});
+          columns.push({id: "weightclass", name: translation_column_weightclass, field: "weightclass", width: numberWidth});
+          columns.push({id: "bodyweight", name: translation_column_bodyweight, field: "bodyweight", width: numberWidth});
+          columns.push({id: "age", name: translation_column_age, field: "age", width: shortWidth});
+          columns.push({id: "sex", name: translation_column_sex, field: "sex", width: shortWidth});
+          columns.push({id: "date", name: translation_column_date, field: "date", width: dateWidth, formatter: urlformatter});
+          columns.push({id: "equipment", name: translation_column_equipment, field: "equipment", width: shortWidth});
+          columns.push({id: "fed", name: translation_column_federation, field: "fed", width: numberWidth});
+          columns.push({id: "location", name: translation_column_location, field: "loc", width: dateWidth});
 
       }
 

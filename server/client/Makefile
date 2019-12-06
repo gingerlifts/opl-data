@@ -28,7 +28,6 @@ images: builddir
 	cp images/select_dropdown_red.png "${BUILDDIR}/images/"
 	cp images/select_dropdown_gold.png "${BUILDDIR}/images/"
 	cp images/mobile_filter.png "${BUILDDIR}/images/"
-	cp images/more_icon.png "${BUILDDIR}/images/"
 	cp ${PROJECTDATA}/favicon-32x32.ico "${BUILDDIR}/images/favicon.ico"
 	cp ${PROJECTDATA}/apple-touch-icon.png "${BUILDDIR}/images/"
 
