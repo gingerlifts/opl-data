@@ -84,12 +84,6 @@
         {% include "openipf/widget-eventselect" %}
         {% include "openipf/widget-sortselect" %}
       </div>
-      <div id="controls-mobile-search-input">
-        <input type="text" id="searchfield" autofocus/>
-      </div>
-      <div id="controls-mobile-search-button">
-        <button id="searchbutton">{{strings.buttons.search}}</button>
-      </div>
     </div>
   </div>
 

@@ -559,7 +559,7 @@ function renderSelectedFilters(): void {
     filters.forEach(filter => {
       if( filter.value && filter.value !== 'all') {
         const filterItem = document.createElement('span');
-        
+
         filterItem.setAttribute("class","selected-filter")
         filterItem.innerHTML = filter.value;
         filtersContainer.appendChild(filterItem);
@@ -569,7 +569,33 @@ function renderSelectedFilters(): void {
   }
 }
 
+function renderSearchToHeader(): void {
+  const searchContainer = document.getElementById('headerSearchContainer') as HTMLSpanElement;
+  
+  if (searchContainer) {
+    // hide logo
+    const mainlogo = document.getElementById('headerLogoMobile') as HTMLLinkElement;
+    mainlogo.classList.add('hide');
+    searchContainer.classList.remove('hide');
+
+    const search = document.createElement('input') as HTMLInputElement;
+
+    search.setAttribute('id', 'searchfield');
+    search.setAttribute('type', 'text');
+    search.setAttribute('class', 'rankings-mobile-search');
+    const searchButton = document.createElement('button') as HTMLInputElement;
+    searchButton.setAttribute('id', 'searchbutton');
+    search.setAttribute('class', 'rankings-mobile-search-button');
+
+
+    searchContainer.appendChild(search);
+    searchContainer.appendChild(searchButton);
+  }
+
+}
+
 export function onLoad() {
+    renderSearchToHeader();
     initializeEventListeners();
 
     // Make sure that selector state is provided for each entry in history.

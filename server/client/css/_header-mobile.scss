@@ -47,6 +47,29 @@
     }
   }
 
+  #headerSearchContainer {
+    display: flex;
+    width: 200px;
+    margin: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    #searchfield {
+      width: 150px;
+      height: 15px;
+    }
+
+    #searchbutton {
+      background: url($mobile-search-icon) 96% no-repeat $control-background-color;
+      background-color: $mobile-search-background;
+      background-size: 61%;
+      width: 26px;
+      height: 25px;
+      display: block;
+      background-position: center;
+    }
+  }
+
   #header-mobile-menu {
     display: flex;
     flex-direction: column;
