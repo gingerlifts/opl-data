@@ -21,7 +21,7 @@
 
 <div id="header-mobile">
   <a href="javascript:void(0)" class="header-hamburger" id="mobileMenuToggler">&#9776;</a>
-  <span id="headerSearchContainer"></span>
+  <span id="headerSearchContainer" class="hide"></span>
   <a id="headerLogoMobile" class="mobile-header-logo-link" href="https://www.openpowerlifting.org">
     <img class="header-logo" src="/static/images/{{statics::logo_on_black_svg()}}" alt="OpenPowerlifting"/>
   </a>
