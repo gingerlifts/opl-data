@@ -1,4 +1,4 @@
-Name,BodyWeightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Team,Place,Event,Equipment,Sex
+Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Team,Place,Event,Equipment,Sex
 Gerard Tromp,63.2,235,140,217.5,592.5,Spartacus,1,SBD,Single-ply,M
 Krokee,76.4,232.5,152.5,232.5,617.5,Spartacus,1,SBD,Single-ply,M
 Henk Keizer,98.6,232.5,152.5,270,655,Spartacus,1,SBD,Single-ply,M
@@ -6,16 +6,16 @@ Piebe Faber,111.4,300,220,302.5,822.5,Spartacus,1,SBD,Single-ply,M
 Robert van der Tak,122.9,330,230,330,890,Spartacus,1,SBD,Single-ply,M
 Ad Schenkels,84,265,170,302.5,737.5,K.C.S.,2,SBD,Single-ply,M
 Mallens,107.8,290,235,300,825,K.C.S.,2,SBD,Single-ply,M
-Groeneboom,117,300,235,270,805,K.C.S.,2,SBD,Single-ply,M
+Ariel Groeneboom,117,300,235,270,805,K.C.S.,2,SBD,Single-ply,M
 Steinbach,127,305,185,310,800,K.C.S.,2,SBD,Single-ply,M
 Ab Wolders,115.7,290,175,270,735,K.C.S.,2,SBD,Single-ply,M
-Vries,61.7,225,122.5,220,567.5,SSS,3,SBD,Single-ply,M
+Marco de Vries,61.7,225,122.5,220,567.5,SSS,3,SBD,Single-ply,M
 Groot,67,190,115,202.5,507.5,SSS,3,SBD,Single-ply,M
-Schneider,88,280,202.5,282.5,765,SSS,3,SBD,Single-ply,M
-Meulen,102,290,147.5,290,727.5,SSS,3,SBD,Single-ply,M
-Jorksveld,129,325,210,325,860,SSS,3,SBD,Single-ply,M
+Janus Schneider,88,280,202.5,282.5,765,SSS,3,SBD,Single-ply,M
+Ferry van der Meulen,102,290,147.5,290,727.5,SSS,3,SBD,Single-ply,M
+Corry van Jansen Jorksveld,129,325,210,325,860,SSS,3,SBD,Single-ply,M
 Haaken,84.2,280,160,315,755,UPV,4,SBD,Single-ply,M
-Hijman,100,305,167.5,285,757.5,UPV,4,SBD,Single-ply,M
+Henny Hijman,100,305,167.5,285,757.5,UPV,4,SBD,Single-ply,M
 Siphen,102.5,265,190,285,740,UPV,4,SBD,Single-ply,M
 Hensen,103,225,170,245,640,UPV,4,SBD,Single-ply,M
 Mourid,110,300,190,270,760,UPV,4,SBD,Single-ply,M
