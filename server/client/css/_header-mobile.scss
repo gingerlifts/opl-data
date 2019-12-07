@@ -57,6 +57,12 @@
     #searchfield {
       width: 150px;
       height: 15px;
+      outline: none;
+
+      &:focus {
+        box-shadow: 0 0 5px $primary-color;
+        border: 1px solid $primary-color;
+      }
     }
 
     #searchbutton {
