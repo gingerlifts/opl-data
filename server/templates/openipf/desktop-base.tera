@@ -5,7 +5,7 @@
 <head>
   {# Static header parts. #}
   <meta charset="utf-8" />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {# Dynamic header parts. #}
   <title>{{page_title}}</title>
 
@@ -31,6 +31,7 @@
     {% block body %}{% endblock body %}
   {% block flexbox_hack_end %}{% endblock flexbox_hack_end %}
 
-  {% include "common/header-script" %}
+  <script defer src="/static/scripts/{{statics::slickgrid_min_js()}}"></script>
+  <script defer src="/static/scripts/{{statics::main_js()}}"></script>
 </body>
 </html>

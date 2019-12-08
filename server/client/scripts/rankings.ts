@@ -21,7 +21,8 @@
 'use strict';
 
 import { RemoteCache, WorkItem, Column } from './remotecache';
-import { SearchRankingsResult, SearchWorkItem, RankingsSearcher } from './search';
+import { RankingsSearcher } from './search';
+import { isMobile } from './utils';
 
 // Variables provided by the server.
 declare const initial_data: Object[];
@@ -55,8 +56,8 @@ declare const translation_column_mcculloch: string;
 declare const translation_column_glossbrenner: string;
 declare const translation_column_ipfpoints: string;
 
-let global_grid;  // The SlickGrid.
-let global_cache;  // The active RemoteCache rendered in the SlickGrid.
+let global_grid: any;  // The SlickGrid.
+let global_cache: any; // The active RemoteCache rendered in the SlickGrid.
 
 // A RemoteCache in line to replace the global_cache, but which hasn't
 // had its initial data loaded yet, and is still waiting on an AJAX response.
@@ -64,13 +65,13 @@ let global_cache;  // The active RemoteCache rendered in the SlickGrid.
 // The pending_cache is swapped to overwrite the global_cache when its onFirstLoad
 // event fires, by the event handler. Swapping only when data is available avoids
 // flickering. The concept is similar to the double-sided OpenGL framebuffer.
-let pending_cache;
+let pending_cache: any;
 
 // Tells an event handler to not create a new history state.
 // Used when navigating backwards/forwards, instead of by changing a selector.
 let global_suppress_history_changes: boolean = false;
 
-let searcher;
+let searcher: any;
 let searchInfo = {laststr: ''};
 
 let selEquipment: HTMLSelectElement;
@@ -91,7 +92,7 @@ let searchButton: HTMLButtonElement;
 function makeDataProvider() {
     return {
         getLength: function() { return global_cache.getLength(); },
-        getItem: function(idx) {
+        getItem: function(idx: number) {
             let entry: (string | number)[] = global_cache.rows[idx];
             if (entry === undefined) {
                 return;
@@ -137,16 +138,17 @@ function makeDataProvider() {
                 deadlift: entry[Column.Deadlift],
                 total: entry[Column.Total],
                 points: entry[Column.Points],
+                idx: idx
             };
         }
     }
 }
 
-function onResize(evt) {
+function onResize() {
     global_grid.resizeCanvas();
 }
 
-function searchOnEnter(keyevent) {
+function searchOnEnter(keyevent: any) {
     // keyCode is deprecated, but non-Firefox-desktop doesn't support key.
     if (keyevent.keyCode === 13 || keyevent.key === "Enter") {
         search();
@@ -155,7 +157,8 @@ function searchOnEnter(keyevent) {
 
 function search() {
     const query = searchField.value;
-    if (!query) {
+    // reload on mobile, so that menu closes
+    if (!query && !isMobile()) {
         return;
     }
 
@@ -164,6 +167,13 @@ function search() {
     if (query === searchInfo.laststr) {
         startRow = global_grid.getViewport().top + 1;
     }
+
+    let filtersMobileMenu = document.getElementById("controls-mobile-menu") as HTMLDivElement;
+
+    if (filtersMobileMenu && filtersMobileMenu.classList) {
+      filtersMobileMenu.classList.add("hide");
+    }
+
 
     // Queue up an AJAX request.
     searcher.search({path: selection_to_path(), query: query, startRow: startRow});
@@ -253,7 +263,7 @@ function saveSelectionState() {
 }
 
 // Load the current selection, for use with popping history state.
-function restoreSelectionState(state) {
+function restoreSelectionState(state: any) {
     // Although the selectors are being changed in this function,
     // we don't want the changeSelection() event handler to have any effect.
     removeAllSelectorListeners();
@@ -297,15 +307,21 @@ function changeSelection() {
     }
     pending_cache = cache;
 
+    // on mobile we should rerender the table to show only relevant columns
+    if(isMobile() && global_grid instanceof Slick.Grid) {
+      renderSelectedFilters()
+      renderGridTable();
+    }
+
 }
 
-function addSelectorListeners(selector) {
+function addSelectorListeners(selector: HTMLElement) {
     selector.addEventListener("change", changeSelection);
 }
 
 // Used when navigating through history: otherwise navigation
 // would add more history events.
-function removeSelectorListeners(selector) {
+function removeSelectorListeners(selector: HTMLElement) {
     selector.removeEventListener("change", changeSelection);
 }
 
@@ -349,7 +365,7 @@ function initializeEventListeners() {
     searchButton.addEventListener("click", search, false);
 
     window.addEventListener("resize", onResize, false);
-    window.onpopstate = function(event) {
+    window.onpopstate = function(event: any) {
         restoreSelectionState(event.state);
         global_suppress_history_changes = true;
         changeSelection();
@@ -364,9 +380,11 @@ function makeRemoteCache(path: string, use_initial_data: boolean) {
     // Construct a new RemoteCache.
     const langSelect = document.getElementById("langselect") as HTMLSelectElement;
     const unitSelect = document.getElementById("weightunits") as HTMLSelectElement;
+    const selectedUnits = unitSelect.value;
+    const selectedLang = langSelect.value;
 
     let data = use_initial_data ? initial_data : null;
-    let cache = RemoteCache("TESTING", data, path, langSelect.value, unitSelect.value);
+    let cache = RemoteCache("TESTING", data, path, selectedLang, selectedUnits);
 
     // Hook up event handlers.
 
@@ -400,6 +418,7 @@ function makeRemoteCache(path: string, use_initial_data: boolean) {
         // Move the grid into position.
         global_grid.scrollRowToTop(args.startRow);
         global_grid.render();
+        renderSelectedFilters();
     } as any);
 
     // Data loads after the first should let the grid know that new
@@ -410,12 +429,173 @@ function makeRemoteCache(path: string, use_initial_data: boolean) {
         }
         global_grid.updateRowCount();
         global_grid.render();
+        renderSelectedFilters();
     } as any);
 
     return cache;
 }
 
-function onLoad() {
+function renderGridTable(): void {
+      // Check templates/rankings.html.tera.
+      const nameWidth = 200;
+      const shortWidth = 40;
+      const dateWidth = 70;
+      const numberWidth = 55;
+
+      function urlformatter(row, cell, value, columnDef, dataContext) {
+          return value;
+      }
+
+      let columns = [
+          {id: "filler", width: 20, minWidth: 20, focusable: false,
+              selectable: false, resizable: false},
+          {id: "rank", name: translation_column_formulaplace, field: "rank", width: 40},
+          {id: "name", name: translation_column_liftername, field: "name", width: nameWidth, formatter: urlformatter},
+          {id: "fed", name: translation_column_federation, field: "fed", width: numberWidth},
+          {id: "date", name: translation_column_date, field: "date", width: dateWidth, formatter: urlformatter},
+          {id: "location", name: translation_column_location, field: "loc", width: dateWidth},
+          {id: "sex", name: translation_column_sex, field: "sex", width: shortWidth},
+          {id: "age", name: translation_column_age, field: "age", width: shortWidth},
+          {id: "equipment", name: translation_column_equipment, field: "equipment", width: shortWidth},
+          {id: "weightclass", name: translation_column_weightclass, field: "weightclass", width: numberWidth},
+          {id: "bodyweight", name: translation_column_bodyweight, field: "bodyweight", width: numberWidth},
+          {id: "squat", name: translation_column_squat, field: "squat", width: numberWidth},
+          {id: "bench", name: translation_column_bench, field: "bench", width: numberWidth},
+          {id: "deadlift", name: translation_column_deadlift, field: "deadlift", width: numberWidth},
+          {id: "total", name: translation_column_total, field: "total", width: numberWidth},
+          {id: "points", name: selection_to_points_title(), field: "points", width: numberWidth}
+      ];
+
+      let options = {
+          enableColumnReorder: false,
+          forceSyncScrolling: false,
+          forceFitColumns: true,
+          rowHeight: 23,
+          topPanelHeight: 23,
+          cellFlashingCssClass: "searchflashing"
+      }
+
+      if (isMobile()) {
+          // on mobile columns should have full width for better readability
+          options.forceFitColumns = false;
+
+          // on Mobile show only Rank, Lifter, Result and Points
+          columns = [
+              {id: "filler", width: 20, minWidth: 20, focusable: false, selectable: false, resizable: false},
+              {id: "rank", name: translation_column_formulaplace, field: "rank", width: 40},
+              {id: "name", name: translation_column_liftername, field: "name", width: nameWidth, formatter: urlformatter},
+          ];
+
+          const thisUrl = window.location.href;
+
+          // show only colums relevant to selected filter
+          if (thisUrl.indexOf("squat-only") >= 0) {
+              columns.push({id: "squat", name: translation_column_squat, field: "squat", width: numberWidth});
+          } else if (thisUrl.indexOf("bench-only") >= 0) {
+              columns.push({id: "bench", name: translation_column_bench, field: "bench", width: numberWidth});
+          } else if (thisUrl.indexOf("deadlift-only") >= 0) {
+              columns.push({id: "deadlift", name: translation_column_deadlift, field: "deadlift", width: numberWidth});
+          } else if (thisUrl.indexOf("full-power") >= 0) {
+              columns.push({id: "squat", name: translation_column_squat, field: "squat", width: numberWidth});
+              columns.push({id: "bench", name: translation_column_bench, field: "bench", width: numberWidth});
+              columns.push({id: "deadlift", name: translation_column_deadlift, field: "deadlift", width: numberWidth});
+              columns.push({id: "total", name: translation_column_total, field: "total", width: numberWidth});
+          } else if (thisUrl.indexOf("push-pull") >= 0) {
+              columns.push({id: "bench", name: translation_column_bench, field: "bench", width: numberWidth});
+              columns.push({id: "deadlift", name: translation_column_deadlift, field: "deadlift", width: numberWidth});
+          } else {
+            // show only total on mobile by default
+            columns.push({id: "total", name: translation_column_total, field: "total", width: numberWidth});
+          }
+
+          columns.push({id: "points", name: selection_to_points_title(), field: "points", width: numberWidth});
+          columns.push({id: "weightclass", name: translation_column_weightclass, field: "weightclass", width: numberWidth});
+          columns.push({id: "bodyweight", name: translation_column_bodyweight, field: "bodyweight", width: numberWidth});
+          columns.push({id: "age", name: translation_column_age, field: "age", width: shortWidth});
+          columns.push({id: "sex", name: translation_column_sex, field: "sex", width: shortWidth});
+          columns.push({id: "date", name: translation_column_date, field: "date", width: dateWidth, formatter: urlformatter});
+          columns.push({id: "equipment", name: translation_column_equipment, field: "equipment", width: shortWidth});
+          columns.push({id: "fed", name: translation_column_federation, field: "fed", width: numberWidth});
+          columns.push({id: "location", name: translation_column_location, field: "loc", width: dateWidth});
+
+      }
+
+      global_cache = makeRemoteCache(selection_to_path(), true);
+      global_grid = new Slick.Grid("#theGrid", makeDataProvider() as any, columns, options);
+
+      // Hook up the cache.
+      global_grid.onViewportChanged.subscribe(function () {
+          const vp = global_grid.getViewport();
+          global_cache.ensureData({ startRow: vp.top, endRow: vp.bottom });
+      });
+
+      setSortColumn();
+      global_grid.resizeCanvas();
+      global_grid.onViewportChanged.notify();
+
+}
+
+function getSelectedFilters() {
+  return [
+      { name: "equipment", value: selEquipment.value },
+      { name: "weightclass", value: selWeightClass.value },
+      { name: "federation", value: selFed.value },
+      { name: "sex", value: selSex.value },
+      { name: "ageclass", value: selAgeClass.value },
+      { name: "year", value: selYear.value },
+      { name: "event", value: selEvent.value },
+      { name: "sort", value: selSort.value }
+  ]
+}
+
+function renderSelectedFilters(): void {
+  const filtersContainer = document.getElementById('selectedFilters');
+
+  if(filtersContainer) {
+    // first clean ald filters
+    filtersContainer.innerHTML = '';
+    const filters = getSelectedFilters();
+
+    filters.forEach(filter => {
+      if( filter.value && filter.value !== 'all') {
+        const filterItem = document.createElement('span');
+
+        filterItem.setAttribute("class","selected-filter")
+        filterItem.innerHTML = filter.value;
+        filtersContainer.appendChild(filterItem);
+      }
+    });
+
+  }
+}
+
+function renderSearchToHeader(): void {
+  const searchContainer = document.getElementById('headerSearchContainer') as HTMLSpanElement;
+  
+  if (searchContainer) {
+    // hide logo
+    const mainlogo = document.getElementById('headerLogoMobile') as HTMLLinkElement;
+    mainlogo.classList.add('hide');
+    searchContainer.classList.remove('hide');
+
+    const search = document.createElement('input') as HTMLInputElement;
+
+    search.setAttribute('id', 'searchfield');
+    search.setAttribute('type', 'text');
+    search.setAttribute('class', 'rankings-mobile-search');
+    const searchButton = document.createElement('button') as HTMLInputElement;
+    searchButton.setAttribute('id', 'searchbutton');
+    search.setAttribute('class', 'rankings-mobile-search-button');
+
+
+    searchContainer.appendChild(search);
+    searchContainer.appendChild(searchButton);
+  }
+
+}
+
+export function onLoad() {
+    renderSearchToHeader();
     initializeEventListeners();
 
     // Make sure that selector state is provided for each entry in history.
@@ -428,62 +608,14 @@ function onLoad() {
         history.replaceState(saveSelectionState(), "", undefined);
     }
 
-    // Check templates/rankings.html.tera.
-    const nameWidth = 200;
-    const shortWidth = 40;
-    const dateWidth = 70;
-    const numberWidth = 55;
-
-    function urlformatter(row, cell, value, columnDef, dataContext) {
-        return value;
-    }
-
-    let columns = [
-        {id: "filler", width: 20, minWidth: 20, focusable: false,
-            selectable: false, resizable: false},
-        {id: "rank", name: translation_column_formulaplace, field: "rank", width: 40},
-        {id: "name", name: translation_column_liftername, field: "name", width: nameWidth, formatter: urlformatter},
-        {id: "fed", name: translation_column_federation, field: "fed", width: numberWidth},
-        {id: "date", name: translation_column_date, field: "date", width: dateWidth, formatter: urlformatter},
-        {id: "location", name: translation_column_location, field: "loc", width: dateWidth},
-        {id: "sex", name: translation_column_sex, field: "sex", width: shortWidth},
-        {id: "age", name: translation_column_age, field: "age", width: shortWidth},
-        {id: "equipment", name: translation_column_equipment, field: "equipment", width: shortWidth},
-        {id: "weightclass", name: translation_column_weightclass, field: "weightclass", width: numberWidth},
-        {id: "bodyweight", name: translation_column_bodyweight, field: "bodyweight", width: numberWidth},
-        {id: "squat", name: translation_column_squat, field: "squat", width: numberWidth},
-        {id: "bench", name: translation_column_bench, field: "bench", width: numberWidth},
-        {id: "deadlift", name: translation_column_deadlift, field: "deadlift", width: numberWidth},
-        {id: "total", name: translation_column_total, field: "total", width: numberWidth},
-        {id: "points", name: selection_to_points_title(), field: "points", width: numberWidth}
-    ];
-
-    let options = {
-        enableColumnReorder: false,
-        forceSyncScrolling: false,
-        forceFitColumns: true,
-        rowHeight: 23,
-        topPanelHeight: 23,
-        cellFlashingCssClass: "searchflashing"
-    }
-
-    global_cache = makeRemoteCache(selection_to_path(), true);
-    global_grid = new Slick.Grid("#theGrid", makeDataProvider() as any, columns, options);
-
-    // Hook up the cache.
-    global_grid.onViewportChanged.subscribe(function (e, args) {
-        var vp = global_grid.getViewport();
-        global_cache.ensureData({ startRow: vp.top, endRow: vp.bottom });
-    });
-
-    setSortColumn();
-    global_grid.resizeCanvas();
-    global_grid.onViewportChanged.notify();
+    renderGridTable();
+    renderSelectedFilters();
 
     // Hook up the searcher.
     searcher = RankingsSearcher();
     searcher.onSearchFound.subscribe(function (e, next_index: number) {
         const numColumns = global_grid.getColumns().length;
+
         global_grid.scrollRowToTop(next_index);
         for (let i = 0; i < numColumns; ++i) {
             global_grid.flashCell(next_index, i, 100);
@@ -491,4 +623,10 @@ function onLoad() {
     });
 }
 
-document.addEventListener("DOMContentLoaded", onLoad);
+function loadRankingsScripts() {
+  onLoad();
+}
+
+export {
+  loadRankingsScripts
+}

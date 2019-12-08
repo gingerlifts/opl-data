@@ -36,7 +36,6 @@ label {
 }
   </style>
 
-  <script defer src="/static/scripts/{{statics::checker_js()}}"></script>
 </head>
 <body>
   <h2>OpenPowerlifting Online Checker: "Clippy" Edition</h2>
@@ -59,5 +58,6 @@ label {
   <pre id="entriesErrorPre"></pre>
   <label for="entries">entries.csv:</label>
   <textarea id="entriesTextArea" name="entries" rows="16" cols="120"></textarea>
+  <script defer src="/static/scripts/{{statics::checker_js()}}"></script>
 </body>
 </html>

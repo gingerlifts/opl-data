@@ -35,8 +35,6 @@
     const translation_column_ipfpoints = "{{strings.columns.ipfpoints}}";
   </script>
 
-  <script defer src="/static/scripts/{{statics::slickgrid_min_js()}}"></script>
-  <script defer src="/static/scripts/{{statics::rankings_js()}}"></script>
 {% endblock includes %}
 
 {% block flexbox_hack %}
@@ -68,8 +66,30 @@
       <button id="searchbutton">{{strings.buttons.search}}</button>
     </div>
   </div>
+
+  <div id="controls-mobile">
+    <button id="controls-mobile-toggle-button"></button>
+    <div id="controls-mobile-menu" class="hide">
+      <div id="controls-mobile-filters">
+        {% include "openipf/widget-fedselect" %}
+        {% include "openipf/widget-equipmentselect" %}
+        {% include "openipf/widget-weightclass" %}
+        <select id="sexselect">
+          <option value="all"{% if selection.sex == "AllSexes" %} selected{% endif %}>{{strings.selectors.sex.all}}</option>
+          <option value="men"{% if selection.sex == "Men" %} selected{% endif %}>{{strings.selectors.sex.m}}</option>
+          <option value="women"{% if selection.sex == "Women" %} selected{% endif %}>{{strings.selectors.sex.f}}</option>
+        </select>
+        {% include "openipf/widget-ageselect" %}
+        {% include "common/widget-yearselect" %}
+        {% include "openipf/widget-eventselect" %}
+        {% include "openipf/widget-sortselect" %}
+      </div>
+    </div>
+  </div>
+
 {% endblock controls %}
 
 {% block body %}
+  <div id="selectedFilters"></div>
   <div id="theGrid"></div>
 {% endblock body %}

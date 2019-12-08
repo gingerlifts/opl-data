@@ -74,7 +74,7 @@ function records_reload() {
     }
 }
 
-function records_addSelectorListeners(selector) {
+function records_addSelectorListeners(selector: any) {
     if (selector) {
         selector.addEventListener("change", records_reload);
     }
@@ -96,4 +96,10 @@ function records_addEventListeners() {
     records_addSelectorListeners(selRecordsYear);
 }
 
-document.addEventListener("DOMContentLoaded", records_addEventListeners);
+function loadRecordsScripts(): void {
+  records_addEventListeners();
+}
+
+export {
+  loadRecordsScripts
+}

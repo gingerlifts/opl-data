@@ -71,9 +71,11 @@ function redirect() {
     }
 }
 
-function onLoad() {
+function loadMeetScripts() {
     selSort = document.getElementById("sortselect") as HTMLSelectElement;
     selSort.addEventListener("change", redirect);
 }
 
-document.addEventListener("DOMContentLoaded", onLoad);
+export {
+  loadMeetScripts
+}

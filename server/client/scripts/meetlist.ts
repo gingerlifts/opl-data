@@ -60,4 +60,10 @@ function addEventListeners(): void {
     addSelectorListeners(selYear);
 }
 
-document.addEventListener("DOMContentLoaded", addEventListeners);
+function loadMeetList():void {
+  addEventListeners();
+}
+
+export {
+  loadMeetList
+}

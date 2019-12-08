@@ -10,7 +10,6 @@
     const default_ageclass = "all";
     const default_year = "all";
   </script>
-  <script defer src="/static/scripts/{{statics::records_js()}}"></script>
 {% endblock includes %}
 
 {% block topbar_hack %}
@@ -40,6 +39,27 @@
       {% include "common/widget-yearselect" %}
     </div>
   </div>
+  <div id="controls-mobile">
+    <button id="controls-mobile-toggle-button"></button>
+    <div id="controls-mobile-menu" class="hide">
+      <div id="controls-mobile-filters">
+        {% include "widget-fedselect" %}
+        {% include "widget-equipmentselect" %}
+        <select id="classkindselect">
+          <option value="traditional-classes" {% if selection.classkind == "Traditional" %}selected{% endif %}>{{strings.selectors.weightclass.traditional}}</option>
+          <option value="ipf-classes" {% if selection.classkind == "IPF" %}selected{% endif %}>IPF</option>
+          <option value="para-classes" {% if selection.classkind == "Para" %}selected{% endif %}>Para</option>
+          <option value="wp-classes" {% if selection.classkind == "WP" %}selected{% endif %}>WP</option>
+        </select>
+        <select id="sexselect">
+          <option value="men" {% if selection.sex == "Men" %}selected{% endif %}>{{strings.selectors.sex.m}}</option>
+          <option value="women" {% if selection.sex == "Women" %}selected{% endif %}>{{strings.selectors.sex.f}}</option>
+        </select>
+        {% include "widget-ageselect" %}
+        {% include "common/widget-yearselect" %}
+      </div>
+    </div>
+  </div>
 {% endblock controls %}
 
 {% block body %}
@@ -54,8 +74,8 @@
     <h2>{{table.title}}</h2>
     <table>
       <thead><tr>
-        <th>{{strings.columns.weightclass}}</th>
-        <th>{{strings.columns.formulaplace}}</th>
+        <th class="weight-class-header">{{strings.columns.weightclass}}</th>
+        <th class="weight-class-place">{{strings.columns.formulaplace}}</th>
         <th>{{strings.columns.liftername}}</th>
         <th>{{table.weight_column_label}}</th>
         <th>{{strings.columns.date}}</th>
@@ -66,9 +86,23 @@
       <tr>
         <td>{{this.weightclass}}</td>
         <td>{{this.rank}}</td>
-        <td>{% if this.lifter %}<a class="{{this.lifter.color}}" href="{{urlprefix | safe}}u/{{this.lifter.username}}">{{this.localized_name}}</a>{% if this.lifter.instagram %}<a href="https://www.instagram.com/{{this.lifter.instagram}}" class="instagram" rel="noopener" target="_blank"><i class="fa fa-instagram fa-resize"></i></a>{% endif %}{% if this.lifter.vkontakte %}<a href="https://vk.com/{{this.lifter.vkontakte}}" class="instagram" rel="noopener" target="_blank"><i class="fa fa-vk fa-resize"></i></a>{% endif %}{% endif %}</td>
+        <td class="lifter-name-link">{% if this.lifter %}
+          <a class="{{this.lifter.color}}" href="{{urlprefix | safe}}u/{{this.lifter.username}}">
+            {{this.localized_name}}
+          </a>
+          {% if this.lifter.instagram %}
+            <a href="https://www.instagram.com/{{this.lifter.instagram}}" class="instagram" rel="noopener" target="_blank">
+              <i class="fa fa-instagram fa-resize"></i>
+            </a>
+          {% endif %}
+          {% if this.lifter.vkontakte %}
+            <a href="https://vk.com/{{this.lifter.vkontakte}}" class="instagram" rel="noopener" target="_blank">
+              <i class="fa fa-vk fa-resize"></i>
+            </a>
+          {% endif %}{% endif %}
+        </td>
         <td>{{this.weight_lifted}}</td>
-        <td>{% if this.date %}<a href="{{urlprefix | safe}}m/{{this.path | safe}}">{{this.date}}</a>{% endif %}</td>
+        <td class="lifter-date-link">{% if this.date %}<a href="{{urlprefix | safe}}m/{{this.path | safe}}">{{this.date}}</a>{% endif %}</td>
         <td>{{this.federation}}</td>
       </tr>
       {% endfor %}
