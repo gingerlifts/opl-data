@@ -286,6 +286,7 @@ enum Header {
     #[strum(serialize = "College/University")]
     CollegeUniversity,
     School,
+    Instagram,
 }
 
 /// Checks that the headers are valid.
