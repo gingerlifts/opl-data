@@ -3,13 +3,20 @@
   bottom: $footer-height;
   left: 0;
   z-index: 2;
-
   width: 100%;
-  padding-top: 10px;
-
   background-color: $background-color;
-
   overflow-y: scroll;
+  height: 0;
+  // since the controls menus can have different height -
+  // we make the animation listen to max-height property
+  // and keeping the height auto (depend on amout of elements in the menu)
+  transition: max-height 0.3s; // slide out the menu
+  max-height: 0px;
+
+  &.open {
+    max-height: 330px;
+    height: auto;
+  }
 
   #controls-mobile-filters {
     display: flex;

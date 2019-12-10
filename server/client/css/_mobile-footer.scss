@@ -110,8 +110,13 @@ footer > #footerSearchContainer {
   display: flex;
   flex-direction: column;
   background-color: $background-color;
-  padding-bottom: 10px;
   overflow-y: scroll;
+  height: 0;
+  transition: height 0.3s; // slide out the menu
+
+  &.open {
+    height: 450px;
+  }
 
   #footer-mobile-menu-selectors {
     text-align: center;

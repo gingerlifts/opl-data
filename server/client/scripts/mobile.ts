@@ -26,12 +26,12 @@ function toggleMobileFilters(): void {
 
     // Hides the mobile menu when the user clicks on the filters menu.
     if (mobileMenu && mobileMenu.classList) {
-      mobileMenu.classList.add("hide");
+      mobileMenu.classList.remove("open");
     }
 
     // Toggle the filters menu.
     if (filtersMobileMenu && filtersMobileMenu.classList) {
-      filtersMobileMenu.classList.toggle("hide");
+      filtersMobileMenu.classList.toggle("open");
     }
 }
 
@@ -42,19 +42,39 @@ function toggleMobileMenu(): void {
 
     // Hide the filters menu when the user clicks on the main menu.
     if (filtersMobileMenu && filtersMobileMenu.classList) {
-      filtersMobileMenu.classList.add("hide");
+      filtersMobileMenu.classList.remove("open");
     }
 
     // Toggle the mobile menu.
     if (mobileMenu && mobileMenu.classList) {
-      mobileMenu.classList.toggle("hide");
+      mobileMenu.classList.toggle("open");
     }
+}
+
+function hideMenus():void {
+  const filtersMobileMenu = document.getElementById("controls-mobile-menu") as HTMLDivElement;
+  const mobileMenu = document.getElementById("mobile-menu-popup") as HTMLDivElement;
+
+  // Hide the filters menu when the user clicks on the main menu.
+  if (filtersMobileMenu && filtersMobileMenu.classList) {
+    filtersMobileMenu.classList.remove("open");
+  }
+
+  // Toggle the mobile menu.
+  if (mobileMenu && mobileMenu.classList) {
+    mobileMenu.classList.remove("open");
+  }
 }
 
 function initMobileFooter(): void {
   const mobileControlsBtn = document.getElementById("controls-mobile-toggle-button") as HTMLButtonElement;
   const mobileMenuToggler = document.getElementById("mobileMenuToggler") as HTMLButtonElement;
   const mobileMenuLinks = document.getElementsByClassName("nav__link_mobile") as HTMLCollection;
+  const searchField = document.getElementById("searchfield") as HTMLInputElement;
+
+  if (searchField) {
+     searchField.addEventListener("focus", hideMenus, false);
+  }
 
   if (mobileControlsBtn) {
     mobileControlsBtn.addEventListener("click", toggleMobileFilters, false);

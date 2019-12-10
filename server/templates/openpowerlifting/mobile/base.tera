@@ -36,7 +36,7 @@
 </head>
 <body>
   <div id="mobile-wrapper">
-    <div id="mobile-menu-popup" class="hide">
+    <div id="mobile-menu-popup">
       <a href="{{urlprefix | safe}}" class="nav__link_mobile">{{strings.header.rankings}}</a>
       <a href="{{urlprefix | safe}}records" class="nav__link_mobile">{{strings.header.records}}</a>
       <a href="{{urlprefix | safe}}mlist" class="nav__link_mobile">{{strings.header.meets}}</a>
@@ -55,7 +55,7 @@
       </div>
     </div>
 
-    <div id="controls-mobile-menu" class="hide">
+    <div id="controls-mobile-menu">
       {% block controls %}
       {% endblock controls %}
     </div>
