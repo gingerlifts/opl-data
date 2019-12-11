@@ -1,0 +1,14 @@
+$slideout-menu-width: 80%;
+
+@media (max-width: $breakpoint-tablet) {
+  @import "layout";
+  @import "footer";
+  @import "menu";
+  @import "controls";
+  @import "records";
+  @import "meet";
+  @import "meet-list";
+  @import "lifter";
+  @import "data";
+  @import "status";
+}

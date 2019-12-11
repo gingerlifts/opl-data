@@ -53,11 +53,4 @@ $breakpoint-tablet: 767px;
 @import "donator-colors";
 
 // Mobile stuff gets included too!
-@import "mobile-footer";
-@import "controls-mobile";
-@import "data-mobile";
-@import "lifter-mobile";
-@import "records-mobile";
-@import "meet-mobile";
-@import "meet-list-mobile";
-@import "status-mobile";
+@import "mobile/style";
