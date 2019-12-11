@@ -10,7 +10,8 @@
 // The contents of the wrapper that aren't the footer.
 #mobile-content {
   padding-bottom: $footer-height;
-
+  overflow: hidden;
+  
   div.content {
     padding: 0px 10px 0px 10px;
   }
