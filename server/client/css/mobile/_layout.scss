@@ -17,5 +17,10 @@
 
   div.mixed-content-with-controls {
     padding-top: 0px;
+    overflow: hidden;
+  }
+
+  div.mixed-content {
+    overflow: hidden;
   }
 }

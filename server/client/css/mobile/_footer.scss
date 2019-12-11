@@ -33,6 +33,19 @@ footer > .footer-hamburger {
   text-align: center;
   text-decoration: none;
   color: $control-text-color;
+  background: url($mobile-burger-menu-icon) no-repeat;
+  background-size: 90%;
+  background-position: center;
+
+  &.active {
+    background: url($mobile-close-icon) no-repeat;
+    background-size: 50%;
+    background-position: center;
+  }
+
+  &:focus {
+    outline: 0;
+  }
 }
 
 footer > #controls-mobile-toggle-button {
@@ -43,9 +56,19 @@ footer > #controls-mobile-toggle-button {
   right: 8px;
   padding: 0px;
   border: none;
-  background: url($control-mobile-filter-icon) 96% no-repeat $control-text-color;
+  background: url($control-mobile-filter-icon) no-repeat;
   background-color: transparent;
   background-size: 100%;
+
+  &.active {
+    background: url($mobile-close-icon) no-repeat;
+    background-size: 50%;
+    background-position: center;
+  }
+
+  &:focus {
+    outline: 0;
+  }
 }
 
 footer > .mobile-header-logo-link {
@@ -108,23 +131,31 @@ footer > .mobile-header-logo-link {
 }
 
 #footerSearchToggler {
-  background: url($mobile-search-icon) 96% no-repeat $control-text-color;
+  background: url($mobile-search-icon) no-repeat;
   background-color: transparent;
+  background-position: center;
   border: none;
   border-radius: 0;
-  background-size: 61%;
-  width: 35px;
+  background-size: 50%;
+  width: $footer-height;
   height: $footer-height;
   display: block;
   background-position: center;
   position: fixed;
-  right: 70px;
+  right: 60px;
   bottom: 0px;
   z-index: 4;
   padding: 0;
   margin: 0;
 
   &.active {
+    background: url($mobile-close-icon) no-repeat;
     background-color: $mobile-search-active-color;
+    background-size: 50%;
+    background-position: center;
+  }
+
+  &:focus {
+    outline: 0;
   }
 }

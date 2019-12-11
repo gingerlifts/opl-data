@@ -23,6 +23,19 @@
 function toggleMobileFilters(): void {
     const mobileMenu = document.getElementById("mobile-menu-popup") as HTMLDivElement;
     const filtersMobileMenu = document.getElementById("controls-mobile-menu") as HTMLDivElement;
+    const mobileControlsBtn = document.getElementById("controls-mobile-toggle-button") as HTMLButtonElement;
+    const mobileMenuToggler = document.getElementById("mobileMenuToggler") as HTMLButtonElement;
+
+    hideSearch();
+
+    // hide close icon from main menu toggler
+    if (mobileMenuToggler && mobileMenuToggler.classList) {
+      mobileMenuToggler.classList.remove("active");
+    }
+
+    if (mobileControlsBtn && mobileControlsBtn.classList) {
+      mobileControlsBtn.classList.toggle("active");
+    }
 
     // Hides the mobile menu when the user clicks on the filters menu.
     if (mobileMenu && mobileMenu.classList) {
@@ -39,6 +52,20 @@ function toggleMobileFilters(): void {
 function toggleMobileMenu(): void {
     const filtersMobileMenu = document.getElementById("controls-mobile-menu") as HTMLDivElement;
     const mobileMenu = document.getElementById("mobile-menu-popup") as HTMLDivElement;
+    const mobileMenuToggler = document.getElementById("mobileMenuToggler") as HTMLButtonElement;
+    const mobileControlsBtn = document.getElementById("controls-mobile-toggle-button") as HTMLButtonElement;
+
+    hideSearch();
+
+    // hide close icon from controls toggler
+    if (mobileControlsBtn && mobileControlsBtn.classList) {
+      mobileControlsBtn.classList.remove("active");
+    }
+
+    // toogle icon
+    if (mobileMenuToggler && mobileMenuToggler.classList) {
+      mobileMenuToggler.classList.toggle("active");
+    }
 
     // Hide the filters menu when the user clicks on the main menu.
     if (filtersMobileMenu && filtersMobileMenu.classList) {
@@ -54,6 +81,18 @@ function toggleMobileMenu(): void {
 function hideMenus():void {
   const filtersMobileMenu = document.getElementById("controls-mobile-menu") as HTMLDivElement;
   const mobileMenu = document.getElementById("mobile-menu-popup") as HTMLDivElement;
+  const mobileControlsBtn = document.getElementById("controls-mobile-toggle-button") as HTMLButtonElement;
+  const mobileMenuToggler = document.getElementById("mobileMenuToggler") as HTMLButtonElement;
+
+  // switch close icon to burger icon
+  if (mobileMenuToggler && mobileMenuToggler.classList) {
+    mobileMenuToggler.classList.remove("active");
+  }
+
+  // switch close icon to control icon
+  if (mobileControlsBtn && mobileControlsBtn.classList) {
+    mobileControlsBtn.classList.remove("active");
+  }
 
   // Hide the filters menu when the user clicks on the main menu.
   if (filtersMobileMenu && filtersMobileMenu.classList) {
@@ -66,13 +105,30 @@ function hideMenus():void {
   }
 }
 
-function toggleSearch(): void {
+function hideSearch(): void {
   const searchContainer = document.getElementById("footerSearchContainer") as HTMLDivElement;
   const searchToggler = document.getElementById("footerSearchToggler") as HTMLButtonElement;
 
   if (searchContainer && searchContainer.classList) {
-    hideMenus();
+    searchContainer.classList.remove("open");
+  }
+
+  if (searchToggler && searchToggler.classList) {
+    searchToggler.classList.remove("active");
+  }
+}
+
+function toggleSearch(): void {
+  const searchContainer = document.getElementById("footerSearchContainer") as HTMLDivElement;
+  const searchToggler = document.getElementById("footerSearchToggler") as HTMLButtonElement;
+
+  hideMenus();
+
+  if (searchContainer && searchContainer.classList) {
     searchContainer.classList.toggle("open");
+  }
+
+  if (searchToggler && searchToggler.classList) {
     searchToggler.classList.toggle("active");
   }
 }

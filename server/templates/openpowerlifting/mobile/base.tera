@@ -75,7 +75,7 @@
     {% endblock mobilecontent %}
 
     <footer id="mobile-footer">
-      <a href="javascript:void(0)" class="footer-hamburger" id="mobileMenuToggler">&#9776;</a>
+      <a href="javascript:void(0)" class="footer-hamburger" id="mobileMenuToggler"></a>
 
       {% block footer_middle_content %}
         <a id="headerLogoMobile" class="mobile-header-logo-link" href="https://www.openpowerlifting.org">
