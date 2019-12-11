@@ -1,37 +1,39 @@
 #controls-mobile-menu {
   position: fixed;
-  bottom: $footer-height;
-  left: 0;
+  right: calc(-100% + -#{$slideout-menu-width});
   z-index: 2;
-  width: 100%;
-  background-color: $background-color;
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: $table-header-background-color;
   overflow-y: scroll;
-  height: 0;
-  // since the controls menus can have different height -
-  // we make the animation listen to max-height property
-  // and keeping the height auto (depend on amout of elements in the menu)
-  transition: max-height 0.3s; // slide out the menu
-  max-height: 0px;
+  height: calc(100% - #{$footer-height});
+  transition: right 0.3s; // slide out the menu
+  font-size: 14pt;
+  width: $slideout-menu-width;
 
   &.open {
-    max-height: 330px;
-    height: auto;
+    right: 0;
+    width: $slideout-menu-width;
+  }
+
+  .controls-mobile-menu-wrapper {
+    padding-bottom: 20px;
   }
 
   #controls-mobile-filters {
     display: flex;
     flex-direction: column;
-    padding-bottom: 10px;
+    padding: 0px 20px;
 
     select {
       width: 93%;
-      margin: unset;
+      margin: 10px 0px;
       margin-top: 10px;
       align-self: center;
       background-size: 4%;
       font-size: 12pt;
       padding: 5px;
-      border-radius: 0px;
+      box-sizing: border-box;
     }
   }
 }

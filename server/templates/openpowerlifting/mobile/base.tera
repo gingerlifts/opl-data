@@ -37,7 +37,7 @@
 <body>
   <div id="mobile-wrapper">
     <div id="mobile-menu-popup">
-        <div class="mobile-menu-popup-menu-wrapper">
+      <div class="mobile-menu-popup-menu-wrapper">
         <a href="{{urlprefix | safe}}" class="nav__link_mobile">{{strings.header.rankings}}</a>
         <a href="{{urlprefix | safe}}records" class="nav__link_mobile">{{strings.header.records}}</a>
         <a href="{{urlprefix | safe}}mlist" class="nav__link_mobile">{{strings.header.meets}}</a>
@@ -58,8 +58,10 @@
     </div>
 
     <div id="controls-mobile-menu">
-      {% block controls %}
-      {% endblock controls %}
+      <div class="controls-mobile-menu-wrapper">
+        {% block controls %}
+        {% endblock controls %}
+      </div>
     </div>
 
     {# The Rankings page inserts a <div> here. #}
