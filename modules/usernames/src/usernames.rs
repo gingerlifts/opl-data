@@ -122,6 +122,27 @@ pub fn is_japanese(letter: char) -> bool {
     }
 }
 
+/// Checks if the given character is Cyrllic.
+pub fn is_cyrillic(letter: char) -> bool {
+    let ord: u32 = letter as u32;
+    match ord {
+        // Cyrillic
+        1024..=1279 => true,
+        // Non Cyrillic.
+        _ => false,
+    }
+}
+
+/// Checks if the given string contains Japanese characters.
+pub fn contains_japanese(name: &str) -> bool {
+    name.chars().any(is_japanese)
+}
+
+/// Checks if the given string contains Cyrillic characters.
+pub fn contains_cyrillic(name: &str) -> bool {
+    name.chars().any(is_cyrillic)
+}
+
 /// Given a UTF-8 Name, create the corresponding ASCII Username.
 ///
 /// Usernames are used throughout the project as unique identifiers
@@ -137,7 +158,7 @@ pub fn is_japanese(letter: char) -> bool {
 pub fn make_username(name: &str) -> Result<String, String> {
     if name.is_empty() {
         Ok(String::default())
-    } else if name.chars().any(is_japanese) {
+    } else if contains_japanese(name) {
         let kata_name = hira_to_kata(name);
         let ea_id: String = kata_name
             .chars()
