@@ -14,7 +14,7 @@ footer {
   width: 100%;
 
   // This is a hack to get the footer to always be above the SlickGrid.
-  z-index: 1;
+  z-index: 3;
 
   color: $control-text-color;
   background-color: $control-bar-background-color;
@@ -58,31 +58,73 @@ footer > .mobile-header-logo-link {
   }
 }
 
-footer > #footerSearchContainer {
+#footerSearchContainer {
   display: flex;
-  align-items: center;
-  width: 240px;
+  width: 100%;
   margin: auto;
+  position: fixed;
+  bottom: 0;
+  background: $mobile-search-active-color;
+  align-items: center;
+  padding: 7px 0px;
+  justify-content: center;
+  transition: bottom 0.3s; // slide out the menu
+  visibility: hidden;
+  z-index: 2;
+
+  &.open {
+    bottom: $footer-height;
+    visibility: unset;
+  }
+
+  #searchbutton {
+    background: $table-header-background-color;
+    cursor: pointer;
+    color: white;
+    border-radius: 0;
+    font-size: 14pt;
+    margin: 0;
+    border: 0;
+    display: block;
+    width: 20%;
+    height: 30px;
+  }
 
   #searchfield {
     font-size: 14pt;
-    width: 180px;
-    height: 20px;
     outline: none;
+    margin: 0;
+    display: block;
+    width: 70%;
+    height: 30px;
+    box-sizing: border-box;
+    border: none;
 
     &:focus {
       box-shadow: 0 0 5px $control-border-color;
       border: 1px solid $control-border-color;
     }
   }
+}
 
-  #searchbutton {
-    background: url($mobile-search-icon) 96% no-repeat $control-text-color;
-    background-color: $control-background-color;
-    background-size: 61%;
-    width: 35px;
-    height: 35px;
-    display: block;
-    background-position: center;
+#footerSearchToggler {
+  background: url($mobile-search-icon) 96% no-repeat $control-text-color;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  background-size: 61%;
+  width: 35px;
+  height: $footer-height;
+  display: block;
+  background-position: center;
+  position: fixed;
+  right: 70px;
+  bottom: 0px;
+  z-index: 4;
+  padding: 0;
+  margin: 0;
+
+  &.active {
+    background-color: $mobile-search-active-color;
   }
 }

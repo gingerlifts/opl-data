@@ -66,12 +66,27 @@ function hideMenus():void {
   }
 }
 
+function toggleSearch(): void {
+  const searchContainer = document.getElementById("footerSearchContainer") as HTMLDivElement;
+  const searchToggler = document.getElementById("footerSearchToggler") as HTMLButtonElement;
+
+  if (searchContainer && searchContainer.classList) {
+    hideMenus();
+    searchContainer.classList.toggle("open");
+    searchToggler.classList.toggle("active");
+  }
+}
+
 function initMobileFooter(): void {
   const mobileControlsBtn = document.getElementById("controls-mobile-toggle-button") as HTMLButtonElement;
   const mobileMenuToggler = document.getElementById("mobileMenuToggler") as HTMLButtonElement;
   const mobileMenuLinks = document.getElementsByClassName("nav__link_mobile") as HTMLCollection;
   const searchField = document.getElementById("searchfield") as HTMLInputElement;
+  const searchToggler = document.getElementById("footerSearchToggler") as HTMLButtonElement;
 
+  if (searchToggler) {
+     searchToggler.addEventListener("click", toggleSearch, false);
+  }
   if (searchField) {
      searchField.addEventListener("focus", hideMenus, false);
   }
