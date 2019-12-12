@@ -15,6 +15,7 @@
     min-height: 0;
     display: flex; // this is to have children with flex: 1 to fit in every screen
     flex-direction: column;
+    overflow-y: scroll;
   }
 
   &.open {
