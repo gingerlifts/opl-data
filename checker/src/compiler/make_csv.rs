@@ -261,7 +261,7 @@ impl<'md> EntryLifterData<'md> {
             username: "seanstangl",
             cyrillicname: Some("Шон Стангл"),
             japanesename: Some("ショーン・スタングル"),
-            greekname: Some("Σων Στέιβ")
+            greekname: Some("Σων Στέιβ"),
         }
     }
 }

@@ -96,7 +96,6 @@ fn hira_to_kata(name: &str) -> String {
     name.chars().map(|c| hira_to_kata_char(c)).collect()
 }
 
-
 /// Returns the writing system a character belongs to
 pub fn get_writing_system(letter: char) -> WritingSystem {
     let ord: u32 = letter as u32;
@@ -138,15 +137,14 @@ pub fn get_writing_system(letter: char) -> WritingSystem {
 
 /// Returns the likely writing system of a string
 pub fn contains_writing_system(name: &str) -> WritingSystem {
-    for letter in name.chars(){
+    for letter in name.chars() {
         let ws = get_writing_system(letter);
-        if ws  != WritingSystem::Latin{
+        if ws != WritingSystem::Latin {
             return ws;
         }
     }
     WritingSystem::Latin
 }
-
 
 /// Given a UTF-8 Name, create the corresponding ASCII Username.
 ///

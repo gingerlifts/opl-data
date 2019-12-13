@@ -504,7 +504,9 @@ fn check_column_cyrillicname(s: &str, line: u64, report: &mut Report) -> Option<
         None
     } else {
         for c in s.chars() {
-            if usernames::get_writing_system(c) != usernames::WritingSystem::Cyrillic && !"-' .".contains(c) {
+            if usernames::get_writing_system(c) != usernames::WritingSystem::Cyrillic
+                && !"-' .".contains(c)
+            {
                 let msg = format!(
                     "CyrillicName '{}' contains non-Cyrillic character '{}'",
                     s, c
@@ -522,7 +524,9 @@ fn check_column_japanesename(s: &str, line: u64, report: &mut Report) -> Option<
         None
     } else {
         for c in s.chars() {
-            if usernames::get_writing_system(c) != usernames::WritingSystem::Japanese && c != ' ' {
+            if usernames::get_writing_system(c) != usernames::WritingSystem::Japanese
+                && c != ' '
+            {
                 let msg = format!(
                     "JapaneseName '{}' contains non-Japanese character '{}'",
                     s, c
@@ -540,11 +544,11 @@ fn check_column_greekname(s: &str, line: u64, report: &mut Report) -> Option<Str
         None
     } else {
         for c in s.chars() {
-            if usernames::get_writing_system(c) != usernames::WritingSystem::Greek && !"-' .".contains(c) {
-                let msg = format!(
-                    "GreekName '{}' contains non-Greek character '{}'",
-                    s, c
-                );
+            if usernames::get_writing_system(c) != usernames::WritingSystem::Greek
+                && !"-' .".contains(c)
+            {
+                let msg =
+                    format!("GreekName '{}' contains non-Greek character '{}'", s, c);
                 report.error_on(line, msg);
                 return None;
             }
@@ -2119,8 +2123,7 @@ where
                 check_column_japanesename(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::GreekName) {
-            entry.greekname =
-                check_column_greekname(&record[idx], line, &mut report);
+            entry.greekname = check_column_greekname(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::BirthYear) {
             entry.birthyear =
