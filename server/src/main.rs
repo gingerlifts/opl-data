@@ -481,7 +481,6 @@ fn search_rankings_api<'db>(
         None => default,
         Some(path) => pages::selection::Selection::from_path(&path, &default).ok()?,
     };
-
     let result =
         pages::api_search::search_rankings(&opldb, &selection, query.start, &query.q);
 
