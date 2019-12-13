@@ -1,8 +1,8 @@
 //! Implements the /api/search endpoints.
 
-use usernames::contains_cyrillic;
-use usernames::contains_japanese;
+use usernames::contains_writing_system;
 use usernames::make_username;
+use usernames::WritingSystem;
 
 use crate::opldb::{algorithms, OplDb};
 use crate::pages::selection::Selection;
@@ -47,7 +47,7 @@ pub fn search_rankings<'db>(
 
     // Disallow bogus searches.
     if normalized.is_empty()
-        && !(contains_cyrillic(&query_no_us) || contains_japanese(&query_no_us))
+        && contains_writing_system(&normalized) == WritingSystem::Latin
     {
         return SearchRankingsResult { next_index: None };
     }
@@ -85,6 +85,12 @@ pub fn search_rankings<'db>(
             }
         } else if let Some(jp_name) = &lifter.japanese_name {
             if jp_name.contains(&query_no_us) || jp_name.contains(&backwards_with_space) {
+                return SearchRankingsResult {
+                    next_index: Some(i),
+                };
+            }
+        } else if let Some(el_name) = &lifter.greek_name {
+            if el_name.contains(&query_no_us) || el_name.contains(&backwards_with_space) {
                 return SearchRankingsResult {
                     next_index: Some(i),
                 };
