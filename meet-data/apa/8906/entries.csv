@@ -4,7 +4,7 @@ Helen Donarum,,56.80,60,Open,63.5,F,63.5,B,Single-ply,1
 Dawn Whitham,,63.95,67.5,Open,113.4,F,113.4,B,Single-ply,1
 H. Barbie,,60.32,67.5,Open,74.84,F,74.84,B,Single-ply,2
 D. Blum,,63.15,67.5,Open,54.43,F,54.43,B,Single-ply,3
-S. Hineline,14,46.26,52,Teen,58.97,M,58.97,B,Single-ply,1
+S. Hineline,14,46.26,48,Teen,58.97,M,58.97,B,Single-ply,1
 S. McDonough,15,57.60,60,Teen,113.4,M,113.4,B,Single-ply,1
 J. Badurek,18,72.11,75,Teen,138.35,M,138.35,B,Single-ply,1
 T. McFadden,17,69.95,75,Teen,133.81,M,133.81,B,Single-ply,2
@@ -18,8 +18,8 @@ C. Lett,16,91.50,100,Teen,142.88,M,142.88,B,Single-ply,1
 J. Little,14,90.36,100,Teen,111.13,M,111.13,B,Single-ply,2
 J. Bayer,14,103.85,110,Teen,115.67,M,115.67,B,Single-ply,1
 L. Hatcher,15,112.02,125,Teen,147.42,M,147.42,B,Single-ply,1
-T. Opitz,15,136.51,140+,Teen,172.37,M,172.37,B,Single-ply,1
-R. Robinson,14,131.07,140+,Teen,131.54,M,131.54,B,Single-ply,2
+T. Opitz,15,136.51,140,Teen,172.37,M,172.37,B,Single-ply,1
+R. Robinson,14,131.07,140,Teen,131.54,M,131.54,B,Single-ply,2
 R. Perotta,35,57.60,60,Submasters 33-39,97.52,M,97.52,B,Single-ply,1
 L. Larson,35,62.59,67.5,Submasters 33-39,145.15,M,145.15,B,Single-ply,1
 G. Norman,36,73.02,75,Submasters 33-39,124.74,M,124.74,B,Single-ply,1
@@ -27,15 +27,15 @@ B. Todd,37,86.28,90,Submasters 33-39,181.44,M,181.44,B,Single-ply,1
 R. Plouffe,36,94.33,100,Submasters 33-39,154.22,M,154.22,B,Single-ply,1
 P. Crevier,35,107.48,110,Submasters 33-39,163.29,M,163.29,B,Single-ply,1
 J. Pritchard,36,103.85,110,Submasters 33-39,158.76,M,158.76,B,Single-ply,2
-Norm MacKay,54,73.02,75,Masters 40-49,156.49,M,156.49,B,Single-ply,1
-C. Higgins,53,72.11,75,Masters 40-49,131.54,M,131.54,B,Single-ply,2
+Norm MacKay,,73.02,75,Masters 40-49,156.49,M,156.49,B,Single-ply,1
+C. Higgins,,72.11,75,Masters 40-49,131.54,M,131.54,B,Single-ply,2
 Art Petridias,49,73.92,75,Masters 40-49,124.74,M,124.74,B,Single-ply,3
 Neal Wellins,47,74.04,75,Masters 40-49,115.67,M,115.67,B,Single-ply,4
 Roland Cote,45,102.95,110,Masters 40-49,190.51,M,190.51,B,Single-ply,1
 J. Valerio,49,103.85,110,Masters 40-49,145.15,M,145.15,B,Single-ply,2
 Joseph Mugovero,40,123.36,125,Masters 40-49,176.9,M,176.9,B,Single-ply,1
 T. Lehnert,52,73.01,75,Masters 50-59,131.54,M,131.54,B,Single-ply,1
-Art Cournoyer,62,78.57,82.5,Masters 50-59,117.93,M,117.93,B,Single-ply,1
+Art Cournoyer,,78.57,82.5,Masters 50-59,117.93,M,117.93,B,Single-ply,1
 Pete Stanley,53,87.07,90,Masters 50-59,124.74,M,124.74,B,Single-ply,1
 Chris Byrnes,,58.50,60,Police/Fire,127.01,M,127.01,B,Single-ply,1
 G. Kasabian,,86.96,90,Police/Fire,163.29,M,163.29,B,Single-ply,1
@@ -81,6 +81,6 @@ J. Bayer,,103.85,110,Open,115.67,M,115.67,B,Single-ply,4
 Keith Lang,,112.93,125,Open,256.28,M,256.28,B,Single-ply,1
 Tim Bartlett,,117.01,125,Open,210.92,M,210.92,B,Single-ply,2
 L. Hatcher,,112.02,125,Open,147.42,M,147.42,B,Single-ply,3
-D. Burtman,,130.61,140+,Open,199.58,M,199.58,B,Single-ply,1
-R. Robinson,,131.07,140+,Open,131.54,M,131.54,B,Single-ply,3
-W. Dawson,,125.17,140+,Open,147.42,M,147.42,B,Single-ply,2
+D. Burtman,,130.61,140,Open,199.58,M,199.58,B,Single-ply,1
+R. Robinson,,131.07,140,Open,131.54,M,131.54,B,Single-ply,3
+W. Dawson,,125.17,140,Open,147.42,M,147.42,B,Single-ply,2
