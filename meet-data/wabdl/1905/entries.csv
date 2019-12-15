@@ -1,0 +1,80 @@
+Event,Sex,Division,WeightClassLBS,Equipment,Best3BenchLBS,Bench4LBS,Best3DeadliftLBS,Deadlift4LBS,TotalLBS,Name,State,Place
+B,F,Disabled 2 40-59,148,Raw,71.5,73.7,,,71.5,Heidi Gustafson,MN,1
+B,F,Disabled 2 60,198,Raw,111.1,,,,111.1,Marlene Wexler,MN,1
+D,F,Disabled 2 60,198,Raw,,,259,,259,Marlene Wexler,MN,1
+BD,F,Disabled 2 60,198,Raw,111.1,,259,,370.1,Marlene Wexler,MN,1
+B,F,Master 40-46,132,Raw,104.5,,,,104.5,Heather Fry,WI,1
+D,F,Master 40-46,132,Raw,,,209.2,214.7,209.2,Heather Fry,WI,1
+B,F,Master 47-53,165,Raw,104.5,,,,104.5,Karma Mc Millian,WI,1
+D,F,Master 47-53,165,Raw,,,253.5,,253.5,Karma Mc Millian,WI,1
+D,F,Master 47-53,198,Raw,,,242.5,253.5,242.5,Amy Kalal,MN,2
+B,F,Master 54-60,148,Raw,170.7,176.2,,,170.7,Lisa Staplin,MN,1
+B,F,Master 68-74,165,Raw,66,,,,66,Jacqueline Fendler,MN,1
+D,F,Master 68-74,165,Raw,,,209.2,215.8,209.2,Jacqueline Fendler,MN,1
+BD,F,Master 68-74,165,Raw,66,,209.2,,275.2,Jacqueline Fendler,MN,1
+B,F,Master 68-74,198,Raw,111.1,,,,111.1,Marlene Wexler,MN,1
+D,F,Master 68-74,198,Raw,,,259,,259,Marlene Wexler,MN,1
+BD,F,Master 68-74,198,Raw,111.1,,259,,370.1,Marlene Wexler,MN,1
+B,F,Open ,165,Raw,93.5,,,,93.5,Heather Fonder,MN,1
+D,F,Open ,165,Raw,,,203.7,214.7,203.7,Heather Fonder,MN,1
+BD,F,Open ,165,Raw,93.5,,203.7,,297.2,Heather Fonder,MN,1
+B,F,Open ,181,Raw,93.5,,,,93.5,Jaclynn Melina,MN,1
+D,F,Open ,181,Raw,,,181.7,,181.7,Jaclynn Melina,MN,1
+BD,F,Open ,181,Raw,93.5,,181.7,,275.2,Jaclynn Melina,MN,1
+B,M,Class 1 ,148,Raw,154.2,,,,154.2,Tyler Riffe,MN,1
+D,M,Class 1 ,148,Raw,,,308.5,,308.5,Tyler Riffe,MN,1
+B,M,Class 1 ,198,Single-ply,347,,,,347,Joseph Musick,IL,1
+D,M,Class 1 ,198,Single-ply,,,490.5,,490.5,Joseph Musick,IL,1
+BD,M,Class 1 ,198,Single-ply,347,,490.5,,837.5,Joseph Musick,IL,1
+B,M,Disabled 1 40-59,165,Raw,281,,,,281,Scott Rickford,MN,1
+D,M,Disabled 2 40-59,242,Raw,,,451.7,,451.7,Brian Graupmann,MN,1
+B,M,Junior 20-25,123,Raw,203.7,,,,203.7,Travis Carr,MN,1
+D,M,Junior 20-25,123,Raw,,,396.7,402.2,396.7,Travis Carr,MN,1
+B,M,Junior 20-25,198,Raw,253.5,,,,253.5,Cody Mondeau,WI,1
+D,M,Junior 20-25,198,Raw,,,490.5,,490.5,Cody Mondeau,WI,1
+D,M,Junior 20-25,198,Raw,,,501.5,512.5,501.5,Derek Hiltner,MN,1
+B,M,Junior 20-25,308+,Raw,308.5,,,,308.5,Donald Loew,WI,1
+D,M,Junior 20-25,308+,Raw,,,633.7,,633.7,Donald Loew,WI,1
+B,M,Master 40-46,220,Raw,396.7,,,,396.7,Randy Fry,WI,1
+D,M,Master 40-46,220,Raw,,,468.2,,468.2,Randy Fry,WI,1
+BD,M,Master 40-46,220,Raw,396.7,,468.2,,864.9,Randy Fry,WI,1
+B,M,Master 40-46,242,Single-ply,501.5,,,,501.5,James Guffy,IL,1
+D,M,Master 40-46,242,Multi-ply,,,551,,551,James Guffy,IL,1
+B,M,Master 47-53,181,Raw,321.7,,,,321.7,Mike Stanchfield,MN,1
+D,M,Master 47-53,181,Raw,,,474.8,,474.8,Mike Stanchfield,MN,1
+BD,M,Master 47-53,181,Raw,321.7,,474.8,,796.5,Mike Stanchfield,MN,1
+B,M,Master 47-53,198,Raw,414.3,,,,414.3,Tommie Gentry,IL,1
+B,M,Master 54-60,198,Single-ply,518,,,,518,Tony Coduto,IL,1
+B,M,Master 54-60,220,Raw,281,,,,281,Andrew Jensen,WI,1
+B,M,Master 54-60,242,Raw,319.5,,,,319.5,Bob Miller,MN,2
+B,M,Master 54-60,242,Raw,407.7,,,,407.7,Don Rygh,MN,1
+D,M,Master 54-60,242,Raw,,,578.5,,578.5,Bob Miller,MN,1
+BD,M,Master 54-60,242,Raw,319.5,,578.5,,898,Bob Miller,MN,1
+D,M,Master 54-60,308,Single-ply,,,462.7,,462.7,Steve Johnson,MN,1
+D,M,Master 61-67,132,Raw,,,385.7,,385.7,Chuck Wong,MN,1
+B,M,Master 68-74,181,Raw,181.7,,,,181.7,Tom Haggenmiller,MN,2
+B,M,Master 68-74,181,Raw,231.2,,,,231.2,Daniel Hawkinson,MN,1
+D,M,Master 68-74,181,Raw,,,385.7,,385.7,Tom Haggenmiller,MN,2
+D,M,Master 68-74,181,Raw,,,501.5,,501.5,Robert Krowech,MN,1
+BD,M,Master 68-74,181,Raw,181.7,,385.7,,567.4,Tom Haggenmiller,MN,1
+B,M,Master 75-79,259,Single-ply,352.5,,,,352.5,Al Williamson,WI,1
+B,M,Master 80-84,220,Raw,115.5,,,,115.5,Sigurd Sandstrom,WI,1
+D,M,Master 80-84,220,Raw,,,260.1,,260.1,Sigurd Sandstrom,WI,1
+BD,M,Master 80-84,220,Raw,115.5,,260.1,,375.6,Sigurd Sandstrom,WI,1
+D,M,Open ,123,Raw,,,396.7,402.2,396.7,Travis Carr,MN,1
+B,M,Open ,181,Raw,231.2,,,,231.2,Daniel Hawkinson,MN,1
+B,M,Open ,181,Single-ply,402.2,,,,402.2,Kertis Jensen,WI,1
+B,M,Open ,198,Single-ply,518,,,,518,Tony Coduto,IL,1
+B,M,Open ,220,Raw,396.7,,,,396.7,Randy Fry,WI,1
+D,M,Open ,220,Raw,,,468.2,,468.2,Randy Fry,WI,1
+BD,M,Open ,220,Raw,396.7,,468.2,,864.9,Randy Fry,WI,1
+B,M,Open ,242,Single-ply,501.5,,,,501.5,James Guffy,IL,1
+D,M,Open ,242,Multi-ply,,,551,,551,James Guffy,IL,1
+B,M,Open ,275,Raw,451.7,,,,451.7,Chase Ulrick,MN,1
+D,M,Open ,275,Raw,,,672.2,,672.2,Chase Ulrick,MN,1
+BD,M,Open ,275,Raw,451.7,,672.2,,1123.9,Chase Ulrick,MN,1
+B,M,Submaster 33-39,165,Single-ply,341.5,,,,341.5,Nick Buck,WI,1
+D,M,Teen 12-13,105,Raw,,,165.2,176.2,165.2,Casen Ramirez,MN,1
+B,M,Teen 12-13,220,Raw,126.7,,,,126.7,Kaiden Fuhrman,WI,1
+B,M,Teen 18-19,165,Raw,275.5,,,,275.5,Luke Gratz,WI,1
+D,M,Teen 18-19,198,Raw,,,468.2,,468.2,Jacques Le Duc,WI,1
