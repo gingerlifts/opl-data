@@ -18,6 +18,7 @@
 	"mx": "Mx"
     },
     "header": {
+        "description": "The OpenPowerlifting project aims to create a permanent, accurate, convenient, accessible, open archive of the world's powerlifting data.",
         "rankings": "Rangorde",
         "records": "Records",
         "meets": "Wedstrijden",

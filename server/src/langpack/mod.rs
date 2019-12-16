@@ -361,6 +361,7 @@ pub struct CountryTranslations {
 
 #[derive(Serialize, Deserialize)]
 pub struct HeaderTranslations {
+    pub description: String,
     pub rankings: String,
     pub records: String,
     pub meets: String,
