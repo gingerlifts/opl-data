@@ -43,7 +43,7 @@ impl<'db, 'a> Context<'db, 'a> {
         Some(Context {
             urlprefix: "/",
             page_title: "Rankings".to_string(),
-            page_description: &locale.strings.header.description,
+            page_description: &locale.strings.html_header.description,
             language: locale.language,
             strings: locale.strings,
             units: locale.units,

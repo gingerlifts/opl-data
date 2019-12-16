@@ -192,7 +192,7 @@ impl<'db> Context<'db> {
         Context {
             urlprefix: "/",
             page_title: &locale.strings.header.meets,
-            page_description: &locale.strings.header.description,
+            page_description: &locale.strings.html_header.description,
             language: locale.language,
             strings: locale.strings,
             units: locale.units,

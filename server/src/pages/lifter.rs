@@ -464,7 +464,7 @@ impl<'a> Context<'a> {
         Context {
             urlprefix: "/",
             page_title: get_localized_name(&lifter, locale.language),
-            page_description: &locale.strings.header.description,
+            page_description: &locale.strings.html_header.description,
             language: locale.language,
             strings: locale.strings,
             units: locale.units,

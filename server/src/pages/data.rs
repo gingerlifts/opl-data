@@ -19,7 +19,7 @@ impl<'a> Context<'a> {
         Context {
             urlprefix: "/",
             page_title: &locale.strings.header.data,
-            page_description: &locale.strings.header.description,
+            page_description: &locale.strings.html_header.description,
             strings: locale.strings,
             language: locale.language,
             units: locale.units,
