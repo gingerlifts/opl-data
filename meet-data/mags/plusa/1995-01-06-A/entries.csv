@@ -1,4 +1,4 @@
-Place,Name,Division,AgeClass,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,WeightClassKg,Sex,Event,Equipment
+Place,Name,Division,AgeRange,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,WeightClassKg,Sex,Event,Equipment
 1,Ellen Kunkle,O,,USA,,100,42.5,107.5,250,48,F,SBD,Multi-ply
 1,Maria Sarris,T,13-19,USA,,112.5,56,158.5,327,52,F,SBD,Multi-ply
 2,A. McCallion,T,13-19,South Africa,,95,52.5,120,267.5,52,F,SBD,Multi-ply
@@ -106,7 +106,7 @@ Place,Name,Division,AgeClass,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best
 5,R. Keener,O,,USA,,295,200,280,775,100,M,SBD,Multi-ply
 6,A. Gonzales,O,,,,262.5,182.5,280,725,100,M,SBD,Multi-ply
 1,Bill West #1,M2,45-49,UK,,360,190,330,880,100,M,SBD,Multi-ply
-2,L. Hasler,M2,45-49,South Africa,,305,207.5,325,837.5,100,M,SBD,Multi-ply
+2,Les Hasler,M2,45-49,South Africa,,305,207.5,325,837.5,100,M,SBD,Multi-ply
 3,Hamid Tazi,M2,45-49,Italy,,220,180,250,650,100,M,SBD,Multi-ply
 2,S. Candberg,M3,50-54,USA,,287.5,180,285,752.5,100,M,SBD,Multi-ply
 1,Butch Frye,M3,50-54,USA,,260,187.5,282.5,730,100,M,SBD,Multi-ply

@@ -6,7 +6,7 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,Country,BodyweightKg,Best3SquatK
 DQ,52,F,Masters 1,Pam Cutjar,1948,Australia,47,95,45,,,SBD,Single-ply
 1,67.5,F,Masters 1,Tonny Harms,1950,Netherlands,59.55,155,75,177.5,407.5,SBD,Single-ply
 2,67.5,F,Masters 1,Anita Thimm,1950,Germany,54.55,115,65,157.5,337.5,SBD,Single-ply
-3,67.5,F,Masters 1,Tiny Koppin,1940,Netherlands,65.85,145,82.5,160,387.5,SBD,Single-ply
+3,67.5,F,Masters 1,Tinje Koppen,1940,Netherlands,65.85,145,82.5,160,387.5,SBD,Single-ply
 4,67.5,F,Masters 1,W. Wright,,USA,63.6,120,55,150,325,SBD,Single-ply
 5,67.5,F,Masters 1,Marsah Serre,1946,USA,66.7,120,50,152.5,322.5,SBD,Single-ply
 6,67.5,F,Masters 1,P. Hancock,,Australia,67.35,120,55,130,305,SBD,Single-ply
@@ -101,7 +101,7 @@ DQ,125+,M,Masters 1,Karl Bivans,,USA,,,,,,SBD,Single-ply
 1,60,M,Masters 2,Roger Powell,1936,UK,,185,100,230,515,SBD,Single-ply
 2,60,M,Masters 2,Precious McKenzie,1936,UK,,175,125,215,515,SBD,Single-ply
 1,67.5,M,Masters 2,Viljo Karvinen,1936,Finland,,190,130,230,550,SBD,Single-ply
-2,67.5,M,Masters 2,Robert Cortes,1931,USA,,172.5,127.5,220,520,SBD,Single-ply
+2,67.5,M,Masters 2,Robert Cortes,1930,USA,,172.5,127.5,220,520,SBD,Single-ply
 3,67.5,M,Masters 2,G. Morrissey,,Australia,,160,85,165,410,SBD,Single-ply
 4,67.5,M,Masters 2,Roy Mason,1918,USA,,110,37.5,200,347.5,SBD,Single-ply
 5,67.5,M,Masters 2,Vladimir Younger,,Australia,,100,70,150,320,SBD,Single-ply

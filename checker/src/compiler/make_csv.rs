@@ -25,7 +25,7 @@ struct MeetsRow<'d> {
     #[serde(rename = "MeetCountry")]
     pub country: Country,
     #[serde(rename = "MeetState")]
-    pub state: Option<State>,
+    pub state: Option<String>,
     #[serde(rename = "MeetTown")]
     pub town: Option<&'d str>,
     #[serde(rename = "MeetName")]
@@ -42,7 +42,7 @@ impl<'d> MeetsRow<'d> {
             federation: meet.federation,
             date: meet.date,
             country: meet.country,
-            state: meet.state,
+            state: meet.state.and_then(|s| Some(s.to_state_string())),
             town: meet.town.as_deref(),
             name: &meet.name,
             ruleset: meet.ruleset,
@@ -121,6 +121,8 @@ struct EntriesRow<'d> {
     tested: &'static str,
     #[serde(rename = "Country")]
     country: Option<Country>,
+    #[serde(rename = "State")]
+    state: Option<State>,
 }
 
 impl<'d> EntriesRow<'d> {
@@ -130,14 +132,15 @@ impl<'d> EntriesRow<'d> {
         let est_age = if !entry.age.is_none() {
             entry.age
         } else {
-            // From known bounds, choose the one that's closest to Senior (~30).
-            entry.ageclass.to_range().map_or(Age::None, |(min, max)| {
-                if max < Age::Exact(30) {
-                    max
-                } else {
-                    min
-                }
-            })
+            // Round toward Senior (~30).
+            let (min, max) = (entry.agerange.min, entry.agerange.max);
+            if max.is_some() && max < Age::Exact(30) {
+                max
+            } else if min.is_some() && min > Age::Exact(30) {
+                min
+            } else {
+                Age::None
+            }
         };
 
         let mcculloch = mcculloch(entry.sex, entry.bodyweightkg, entry.totalkg, est_age);
@@ -149,7 +152,7 @@ impl<'d> EntriesRow<'d> {
             event: entry.event,
             equipment: entry.equipment,
             age: entry.age,
-            ageclass: entry.ageclass,
+            ageclass: AgeClass::from_range(entry.agerange.min, entry.agerange.max),
             birthyearclass: entry.birthyearclass,
             division: &entry.division,
             bodyweightkg: entry.bodyweightkg,
@@ -177,6 +180,7 @@ impl<'d> EntriesRow<'d> {
             ipfpoints: entry.ipfpoints,
             tested: if entry.tested { "Yes" } else { "" },
             country: entry.country,
+            state: entry.state,
         }
     }
 }
@@ -193,6 +197,10 @@ struct LiftersRow<'md, 'ld> {
     name: &'md str,
     #[serde(rename = "CyrillicName")]
     cyrillicname: Option<&'md str>,
+    #[serde(rename = "JapaneseName")]
+    japanesename: Option<&'md str>,
+    #[serde(rename = "GreekName")]
+    greekname: Option<&'md str>,
     #[serde(rename = "Username")]
     username: &'md str,
     #[serde(rename = "Instagram")]
@@ -214,6 +222,8 @@ impl<'md, 'ld> LiftersRow<'md, 'ld> {
             id: entrydata.id,
             name: entrydata.name,
             cyrillicname: entrydata.cyrillicname,
+            japanesename: entrydata.japanesename,
+            greekname: entrydata.greekname,
             username: entrydata.username,
             instagram: lifterdata.instagram.as_deref(),
             vkontakte: lifterdata.vkontakte.as_deref(),
@@ -229,6 +239,8 @@ struct EntryLifterData<'md> {
     name: &'md str,
     username: &'md str, // Stored again for simplicity of iteration.
     cyrillicname: Option<&'md str>,
+    japanesename: Option<&'md str>,
+    greekname: Option<&'md str>,
 }
 
 impl<'md> EntryLifterData<'md> {
@@ -238,6 +250,8 @@ impl<'md> EntryLifterData<'md> {
             name: &entry.name,
             username: &entry.username,
             cyrillicname: entry.cyrillicname.as_deref(),
+            japanesename: entry.japanesename.as_deref(),
+            greekname: entry.greekname.as_deref(),
         }
     }
 
@@ -249,6 +263,8 @@ impl<'md> EntryLifterData<'md> {
             name: "Sean Stangl",
             username: "seanstangl",
             cyrillicname: Some("Шон Стангл"),
+            japanesename: Some("ショーン・スタングル"),
+            greekname: Some("Σόν Στένγλ"),
         }
     }
 }
@@ -302,6 +318,12 @@ pub fn make_csv(
                     // has more information that could be attributed.
                     if data.cyrillicname.is_none() && entry.cyrillicname.is_some() {
                         data.cyrillicname = entry.cyrillicname.as_deref();
+                    }
+                    if data.japanesename.is_none() && entry.japanesename.is_some() {
+                        data.japanesename = entry.japanesename.as_deref();
+                    }
+                    if data.greekname.is_none() && entry.greekname.is_some() {
+                        data.greekname = entry.greekname.as_deref();
                     }
                     data.id
                 }

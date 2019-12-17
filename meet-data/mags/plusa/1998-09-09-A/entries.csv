@@ -1,4 +1,4 @@
-Name,BodyweightKg,WeightClassKg,Division,AgeClass,Sex,Best3SquatKg,Squat4Kg,Best3BenchKg,Bench4Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Event,Equipment,Age,Place
+Name,BodyweightKg,WeightClassKg,Division,AgeRange,Sex,Best3SquatKg,Squat4Kg,Best3BenchKg,Bench4Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Event,Equipment,Age,Place
 Dominic Page,,60,Teen,13-19,M,,,77.11,,,,77.11,B,Multi-ply,,1
 Bill Poston,,110,Amateur Masters,40-999,M,,,154.22,,,,154.22,B,Multi-ply,,1
 J. McNeill,,90,Amateur Masters 50-54,50-54,M,,,165.56,,,,165.56,B,Multi-ply,,1
@@ -49,7 +49,7 @@ Dan Fields,,90,Amateur Submasters,33-39,M,249.48,,170.1,,226.8,,646.37,SBD,Multi
 Walter Welcheck,,90,Amateur Submasters,33-39,M,204.12,,172.37,,263.08,,639.57,SBD,Multi-ply,,2
 T. Repman,,90,Amateur Submasters,33-39,M,235.87,,131.54,,238.14,,605.55,SBD,Multi-ply,,3
 Tim Reem,,100,Amateur Submasters,33-39,M,272.16,,172.37,,272.16,,716.68,SBD,Multi-ply,,1
-Richard Safreed Jr,,125,Amateur Submasters,33-39,M,328.85,,219.99,,274.42,,823.27,SBD,Multi-ply,,1
+Rich Safreed Jr,,125,Amateur Submasters,33-39,M,328.85,,219.99,,274.42,,823.27,SBD,Multi-ply,,1
 Lindsey Pigford,,125,Amateur Submasters,33-39,M,328.85,,183.71,,288.03,,800.59,SBD,Multi-ply,,2
 G. Hirsch,,125,Amateur Submasters,33-39,M,226.8,,165.56,,226.8,,619.15,SBD,Multi-ply,,3
 R. Schwed,,140,Amateur Submasters,33-39,M,317.52,,195.04,,256.28,,768.84,SBD,Multi-ply,,1

@@ -1,4 +1,4 @@
-Name,WeightClassKg,Division,AgeClass,Age,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place,BodyweightKg
+Name,WeightClassKg,Division,AgeRange,Age,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place,BodyweightKg
 Cathy Falconio,67.5,Submasters,33-39,,F,147.42,79.38,149.69,376.48,SBD,Single-ply,1,
 K. Donato,67.5,Masters 45-49,45-49,,F,111.13,77.11,136.08,324.32,SBD,Single-ply,1,
 P. Carr,67.5,Masters 45-49,45-49,,F,108.86,56.7,127.01,292.57,SBD,Single-ply,2,
@@ -88,7 +88,7 @@ Pat Susco,110,Submasters,33-39,,M,383.29,190.51,319.78,893.58,SBD,Single-ply,2,
 Mark Dimiduk,110,Submasters,33-39,,M,326.59,199.58,317.51,843.68,SBD,Single-ply,3,
 Jeff Goldstein,110,Submasters,33-39,,M,328.85,192.78,299.37,821,SBD,Single-ply,4,
 Mike Ludwig,110,Submasters,33-39,,M,324.32,181.44,249.48,755.23,SBD,Single-ply,5,
-D. Royer,110,Submasters,33-39,,M,240.4,199.58,249.48,689.46,SBD,Single-ply,6,
+Daniel Royer,110,Submasters,33-39,,M,240.4,199.58,249.48,689.46,SBD,Single-ply,6,
 M. Robbins,110,Submasters,33-39,,M,204.12,158.76,238.14,601.01,SBD,Single-ply,7,
 John Schaeffer,110,Masters 40-44,40-44,,M,317.51,215.46,226.8,759.77,SBD,Single-ply,1,
 CJ Batten,110,Masters 45-49,45-49,,M,244.94,210.92,258.55,714.41,SBD,Single-ply,1,

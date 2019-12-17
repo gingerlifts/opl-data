@@ -122,6 +122,7 @@ pub struct Entry {
     pub username: String,
     pub cyrillicname: Option<String>,
     pub japanesename: Option<String>,
+    pub greekname: Option<String>,
     pub sex: Sex,
     pub place: Place,
     pub event: Event,
@@ -133,14 +134,12 @@ pub struct Entry {
 
     // Optional age information.
     pub age: Age,
-    pub ageclass: AgeClass,
+    /// May be explicitly specified, or inferred by other age information.
+    /// Division age ranges are carried here (possibly after further narrowing).
+    pub agerange: AgeRange,
     pub birthyearclass: BirthYearClass,
     pub birthyear: Option<u32>,
     pub birthdate: Option<Date>,
-    /// Minimum Age associated with the Division per the CONFIG, inclusive.
-    pub division_age_min: Age,
-    /// Maximum Age associated with the Division per the CONFIG, inclusive.
-    pub division_age_max: Age,
 
     pub weightclasskg: WeightClassKg,
     pub bodyweightkg: WeightKg,
@@ -165,6 +164,7 @@ pub struct Entry {
 
     pub tested: bool,
     pub country: Option<Country>,
+    pub state: Option<State>,
 
     // Points are always recalculated, never taken from the data.
     //
@@ -245,6 +245,7 @@ enum Header {
     CyrillicName,
     JapaneseName,
     ChineseName,
+    GreekName,
     Sex,
     Age,
     Place,
@@ -257,7 +258,7 @@ enum Header {
     BirthYear,
     BirthDate,
     Tested,
-    AgeClass,
+    AgeRange,
     Country,
 
     WeightClassKg,
@@ -494,42 +495,66 @@ fn check_column_name(name: &str, line: u64, report: &mut Report) -> String {
             format!("Name '{}' must have suffix fully-capitalized", name),
         );
     }
+
     canonicalize_name_utf8(name)
 }
 
-const CYRILLIC_CHARACTERS: &str = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя\
-                                   АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ\
-                                   ҐґЄєЖжІіЇї\
-                                   -' .";
-
 fn check_column_cyrillicname(s: &str, line: u64, report: &mut Report) -> Option<String> {
-    for c in s.chars() {
-        if !CYRILLIC_CHARACTERS.contains(c) {
-            let msg = format!(
-                "CyrillicName '{}' contains non-Cyrillic character '{}'",
-                s, c
-            );
-            report.error_on(line, msg);
-            return None;
+    if s.is_empty() {
+        None
+    } else {
+        for c in s.chars() {
+            if usernames::get_writing_system(c) != usernames::WritingSystem::Cyrillic
+                && !"-' .".contains(c)
+            {
+                let msg = format!(
+                    "CyrillicName '{}' contains non-Cyrillic character '{}'",
+                    s, c
+                );
+                report.error_on(line, msg);
+                return None;
+            }
         }
+        Some(canonicalize_name_utf8(s))
     }
-
-    Some(canonicalize_name_utf8(s))
 }
 
 fn check_column_japanesename(s: &str, line: u64, report: &mut Report) -> Option<String> {
-    for c in s.chars() {
-        if !usernames::is_japanese(c) && c != ' ' {
-            let msg = format!(
-                "JapaneseName '{}' contains non-Japanese character '{}'",
-                s, c
-            );
-            report.error_on(line, msg);
-            return None;
+    if s.is_empty() {
+        None
+    } else {
+        for c in s.chars() {
+            if usernames::get_writing_system(c) != usernames::WritingSystem::Japanese
+                && c != ' '
+            {
+                let msg = format!(
+                    "JapaneseName '{}' contains non-Japanese character '{}'",
+                    s, c
+                );
+                report.error_on(line, msg);
+                return None;
+            }
         }
+        Some(canonicalize_name_utf8(s))
     }
+}
 
-    Some(canonicalize_name_utf8(s))
+fn check_column_greekname(s: &str, line: u64, report: &mut Report) -> Option<String> {
+    if s.is_empty() {
+        None
+    } else {
+        for c in s.chars() {
+            if usernames::get_writing_system(c) != usernames::WritingSystem::Greek
+                && !"-' .".contains(c)
+            {
+                let msg =
+                    format!("GreekName '{}' contains non-Greek character '{}'", s, c);
+                report.error_on(line, msg);
+                return None;
+            }
+        }
+        Some(canonicalize_name_utf8(s))
+    }
 }
 
 fn check_column_birthyear(
@@ -731,35 +756,62 @@ fn check_column_age(s: &str, exempt_age: bool, line: u64, report: &mut Report) -
     }
 }
 
-fn check_column_ageclass(s: &str, line: u64, report: &mut Report) {
+fn check_column_agerange(
+    s: &str,
+    inferred_agerange: AgeRange,
+    line: u64,
+    report: &mut Report,
+) -> AgeRange {
     if s.is_empty() {
-        return;
+        return inferred_agerange;
     }
 
     // Ensure that there is a dash, or the split below can panic.
     if s.chars().filter(|c| *c == '-').count() != 1 {
         report.error_on(
             line,
-            format!("AgeClass '{}' must be a range of two Ages", s),
+            format!("AgeRange '{}' must be a range of two Ages", s),
         );
-        return;
+        return inferred_agerange;
     }
 
     // Knowing that there is one dash, split into two parts.
     let (left, right_with_dash) = s.split_at(s.find('-').unwrap());
     let right = &right_with_dash[1..];
 
-    if left.parse::<Age>().is_err() {
+    // Parse the two Ages into an AgeRange.
+    let lower: Age = left.parse::<Age>().unwrap_or(Age::None);
+    let upper: Age = right.parse::<Age>().unwrap_or(Age::None);
+    if lower.is_none() {
         report.error_on(
             line,
-            format!("Lower bound of AgeClass '{}' looks invalid", s),
+            format!("Lower bound of AgeRange '{}' looks invalid", s),
         );
     }
-    if right.parse::<Age>().is_err() {
+    if upper.is_none() {
         report.error_on(
             line,
-            format!("Upper bound of AgeClass '{}' looks invalid", s),
+            format!("Upper bound of AgeRange '{}' looks invalid", s),
         );
+    }
+    let explicit_agerange = AgeRange::from((lower, upper));
+
+    // Return the most meaningful AgeRange possible.
+    match (inferred_agerange.is_some(), explicit_agerange.is_some()) {
+        (false, false) => AgeRange::default(),
+        (true, false) => inferred_agerange,
+        (false, true) => explicit_agerange,
+        (true, true) => {
+            // If both are defined, narrow to the intersection.
+            let intersection = inferred_agerange.intersect(explicit_agerange);
+            if intersection.is_none() {
+                report.error_on(
+                    line,
+                    format!("AgeRange value '{}' doesn't agree with AgeRange '{}' inferred from other age data", explicit_agerange, inferred_agerange)
+                );
+            }
+            intersection
+        }
     }
 }
 
@@ -917,9 +969,39 @@ fn check_column_country(s: &str, line: u64, report: &mut Report) -> Option<Count
     }
 }
 
-fn check_column_state(s: &str, line: u64, report: &mut Report) {
-    if !s.is_empty() && !s.is_ascii() {
-        report.error_on(line, format!("State '{}' must be ASCII", s));
+/// Checks the "State" column.
+///
+/// If the lifter's Country is explicitly specified, the State is checked
+/// against that. Otherwise, the State is checked against the MeetCountry.
+fn check_column_state(
+    s: &str,
+    lifter_country: Option<Country>,
+    meet: Option<&Meet>,
+    line: u64,
+    report: &mut Report,
+) -> Option<State> {
+    if s.is_empty() {
+        return None;
+    }
+
+    // Get the country either from the Country column or from the MeetCountry.
+    match lifter_country.or(meet.and_then(|m| Some(m.country))) {
+        Some(country) => {
+            let state = State::from_str_and_country(s, country).ok();
+            if state.is_none() {
+                let c = country.to_string();
+                let msg = format!("Unknown State '{}' for Country '{}'", s, c,);
+                report.error_on(line, msg);
+            }
+            state
+        }
+        None => {
+            // At the least, make sure it's ASCII.
+            if !s.is_ascii() {
+                report.error_on(line, format!("State '{}' must be ASCII", s));
+            }
+            None
+        }
     }
 }
 
@@ -2053,12 +2135,21 @@ where
         // Assign the Tested column if it's configured for the Division.
         entry.tested = get_tested_from_division_config(&entry, config);
 
+        // Check the Country and State information.
         if let Some(idx) = headers.get(Header::Country) {
             entry.country = check_column_country(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::State) {
-            check_column_state(&record[idx], line, &mut report);
+            let c = entry.country;
+            entry.state = check_column_state(&record[idx], c, meet, line, &mut report);
+
+            // If the Country was not explicitly specified, but the State was,
+            // the lifter's Country is inferrable from the MeetCountry.
+            if entry.country.is_none() {
+                entry.country = entry.state.and_then(|state| Some(state.to_country()));
+            }
         }
+
         if let Some(idx) = headers.get(Header::Tested) {
             entry.tested = check_column_tested(&record[idx], line, &mut report);
         }
@@ -2070,6 +2161,9 @@ where
             entry.japanesename =
                 check_column_japanesename(&record[idx], line, &mut report);
         }
+        if let Some(idx) = headers.get(Header::GreekName) {
+            entry.greekname = check_column_greekname(&record[idx], line, &mut report);
+        }
         if let Some(idx) = headers.get(Header::BirthYear) {
             entry.birthyear =
                 check_column_birthyear(&record[idx], meet, line, &mut report);
@@ -2077,9 +2171,6 @@ where
         if let Some(idx) = headers.get(Header::BirthDate) {
             entry.birthdate =
                 check_column_birthdate(&record[idx], meet, line, &mut report);
-        }
-        if let Some(idx) = headers.get(Header::AgeClass) {
-            check_column_ageclass(&record[idx], line, &mut report);
         }
 
         // Check consistency across fields.
@@ -2103,8 +2194,6 @@ where
             line,
             &mut report,
         );
-        entry.division_age_min = division_age_min;
-        entry.division_age_max = division_age_max;
 
         check_division_sex_consistency(&entry, config, line, &mut report);
         check_division_place_consistency(&entry, config, line, &mut report);
@@ -2130,18 +2219,28 @@ where
             }
         }
 
+        // Infer the AgeRange based on Age or Division.
+        let range_from_age = AgeRange::from(entry.age);
+        let inferred_agerange = if range_from_age.is_some() {
+            range_from_age
+        } else {
+            // Fall back to Division-based ranges if the exact Age isn't specified.
+            AgeRange::from((division_age_min, division_age_max))
+        };
+
+        // The AgeRange can also be specified explicitly in an optional column.
+        if let Some(idx) = headers.get(Header::AgeRange) {
+            entry.agerange =
+                check_column_agerange(&record[idx], inferred_agerange, line, &mut report);
+        } else {
+            entry.agerange = inferred_agerange;
+        }
+
         // If the BirthYear wasn't assigned yet, infer it from any surrounding info.
         if entry.birthyear.is_none() {
             if let Some(birthdate) = entry.birthdate {
                 entry.birthyear = Some(birthdate.year());
             }
-        }
-
-        // Assign the AgeClass based on Age.
-        entry.ageclass = AgeClass::from_age(entry.age);
-        // Or assign the AgeClass based on Division information.
-        if entry.ageclass == AgeClass::None {
-            entry.ageclass = AgeClass::from_range(division_age_min, division_age_max);
         }
 
         // Assign the BirthYearClass based on BirthYear.

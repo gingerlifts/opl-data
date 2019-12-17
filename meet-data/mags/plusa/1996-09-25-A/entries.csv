@@ -1,4 +1,4 @@
-Name,WeightClassKg,Division,AgeClass,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
+Name,WeightClassKg,Division,AgeRange,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Rich Green,52,Amateur Open,,M,136.08,88.45,147.42,371.95,SBD,Multi-ply,1
 D. Burchette,52,Amateur Open,,M,136.08,77.11,145.15,358.34,SBD,Multi-ply,2
 D. Hall,52,Amateur Open,,M,113.4,49.9,129.27,292.57,SBD,Multi-ply,3
@@ -58,7 +58,7 @@ B. Johnson,67.5,Pro Open,,M,,,,,SBD,Multi-ply,DQ
 Joey Almodovar,75,Pro Open,,M,290.3,174.63,290.3,755.23,SBD,Multi-ply,1
 B. Schremp,75,Pro Open,,M,249.48,,,,SBD,Multi-ply,DQ
 C. Cirnigliaro,82.5,Pro Open,,M,240.4,170.1,226.8,637.3,SBD,Multi-ply,1
-B. Courtney,82.5,Pro Open,,M,,226.8,,226.8,B,Multi-ply,1
+Bill Courtney,82.5,Pro Open,,M,,226.8,,226.8,B,Multi-ply,1
 Sylvester Anderson,90,Pro Submasters,33-39,M,324.32,190.51,322.05,836.88,SBD,Multi-ply,1
 Dave Bornstein,90,Pro Open,,M,310.71,199.58,294.84,805.13,SBD,Multi-ply,1
 Russell Dell,90,Pro Masters,40-999,M,317.52,204.12,297.1,818.74,SBD,Multi-ply,1

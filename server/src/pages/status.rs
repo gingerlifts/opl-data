@@ -11,6 +11,7 @@ use crate::opldb;
 pub struct Context<'a> {
     pub urlprefix: &'static str,
     pub page_title: &'a str,
+    pub page_description: &'a str,
     pub language: Language,
     pub strings: &'a langpack::Translations,
     pub units: WeightUnits,
@@ -80,6 +81,7 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[HPO as usize].status = complete;
     statuses[IPF as usize].status = complete;
     statuses[IrishPF as usize].status = complete;
+    statuses[LGBT as usize].status = complete;
     statuses[PA as usize].status = complete;
     statuses[ProRaw as usize].status = complete;
     statuses[RPS as usize].status = complete;
@@ -200,6 +202,7 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[IPLNZ as usize].format = pdf_structured;
     statuses[IrishPF as usize].format = html;
     statuses[IrishPO as usize].format = xls_unstructured;
+    statuses[LGBT as usize].format = xls_unstructured;
     statuses[NASA as usize].format = pdf_structured;
     statuses[NZPF as usize].format = pdf_unstructured;
     statuses[OceaniaPF as usize].format = pdf_structured;
@@ -261,6 +264,7 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[IPLNZ as usize].ease = medium;
     statuses[IrishPF as usize].ease = easy;
     statuses[IrishPO as usize].ease = easy;
+    statuses[LGBT as usize].ease = easy;
     statuses[NASA as usize].ease = easy;
     statuses[NZPF as usize].ease = difficult;
     statuses[OceaniaPF as usize].ease = medium;
@@ -330,6 +334,7 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[IPLNZ as usize].maintainers = email_matt;
     statuses[IrelandUA as usize].maintainers = email_jo;
     statuses[IrishPO as usize].maintainers = email_gem;
+    statuses[LGBT as usize].maintainers = email_gem;
     statuses[NASA as usize].maintainers = email_boris;
     statuses[NIPF as usize].maintainers = email_jo;
     statuses[NPB as usize].maintainers = email_mbeelen;
@@ -367,7 +372,7 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[APF as usize].instagram = "apf_powerlifting";
     statuses[AsianPF as usize].instagram = "asian.powerlifting.federation";
     statuses[BVDK as usize].instagram = "derkraftdreikaempfer";
-    statuses[BPU as usize].instagram = "officialbpu";
+    statuses[BPU as usize].instagram = "british_powerlifting_union";
     statuses[CAPO as usize].instagram = "capopowerlifting";
     statuses[ChinaPA as usize].instagram = "gpachina";
     statuses[FFForce as usize].instagram = "ffforce__";
@@ -425,6 +430,7 @@ impl<'a> Context<'a> {
         Context {
             urlprefix: "/",
             page_title: &locale.strings.header.status,
+            page_description: &locale.strings.html_header.description,
             language: locale.language,
             strings: locale.strings,
             units: locale.units,

@@ -1,4 +1,4 @@
-Name,BodyweightKg,Age,WeightClassKg,Division,AgeClass,Sex,Best3SquatKg,Squat4Kg,Best3BenchKg,Bench4Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Event,Equipment,Place
+Name,BodyweightKg,Age,WeightClassKg,Division,AgeRange,Sex,Best3SquatKg,Squat4Kg,Best3BenchKg,Bench4Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Event,Equipment,Place
 Dawn Handy,,,60,Special Olympics Open,,F,,,56.7,,,,56.7,B,Multi-ply,1
 Kelly Purnell,,15,75,Special Olympics Teen,13-19,F,,,68.04,,,,68.04,B,Multi-ply,1
 Dominic Page,,16,56,Special Olympics Teen,13-19,M,,,74.84,,,,74.84,B,Multi-ply,1
@@ -92,7 +92,7 @@ Timothy Reem,,,100,Amateur Submasters,33-39,M,235.87,,136.08,,272.16,,644.1,SBD,
 Bert Collins,,,100,Amateur Submasters,33-39,M,204.12,,131.54,,235.87,,571.53,SBD,Multi-ply,2
 Larry Gray,,,110,Amateur Submasters,33-39,M,317.52,,165.56,,294.84,,777.91,SBD,Multi-ply,1
 Doug Arndt,,,110,Amateur Submasters,33-39,M,238.14,,140.61,,274.42,,653.17,SBD,Multi-ply,2
-Richard Safreed Jr,,,125,Amateur Submasters,33-39,M,335.66,,213.19,,274.42,,823.27,SBD,Multi-ply,1
+Rich Safreed Jr,,,125,Amateur Submasters,33-39,M,335.66,,213.19,,274.42,,823.27,SBD,Multi-ply,1
 L. Pigford,,,125,Amateur Submasters,33-39,M,294.84,,183.71,,288.03,,766.57,SBD,Multi-ply,2
 G. Evans,,,125,Amateur Submasters,33-39,M,274.42,,147.42,,249.48,,671.32,SBD,Multi-ply,3
 T. Quinn,,,125,Amateur Submasters,33-39,M,231.33,,163.29,,256.28,,650.91,SBD,Multi-ply,4
@@ -183,7 +183,7 @@ Marcel St. Laurent,,,82.5,Pro Masters 55-59,55-59,M,254.01,260.82,170.1,174.63,2
 Len Mintus,,,90,Pro Masters 45-49,45-49,M,260.82,,52.16,,181.44,,494.42,SBD,Multi-ply,1
 Mac Richards,,75,90,Pro Masters 75-79,75-79,M,199.58,,149.69,,213.19,,562.46,SBD,Multi-ply,1
 John Black,,,100,Pro Masters 45-49,45-49,M,342.46,,154.22,,267.62,,764.3,SBD,Multi-ply,1
-Don Mills,,61,100,Pro Masters 50-54,50-54,M,328.85,,147.42,,294.84,,771.11,SBD,Multi-ply,1
+Don Mills,,61,100,Pro Masters 60-64,60-64,M,328.85,,147.42,,294.84,,771.11,SBD,Multi-ply,1
 Mark Dimiduk,,,110,Pro Masters 40-44,40-44,M,381.02,,192.78,,308.44,,882.24,SBD,Multi-ply,1
 Jerry Ellsworth,,,110,Pro Masters 45-49,45-49,M,294.84,,183.71,,285.76,,764.3,SBD,Multi-ply,1
 Les Hasler,,,110,Pro Masters 50-54,50-54,M,328.85,,208.65,,315.25,,852.75,SBD,Multi-ply,1

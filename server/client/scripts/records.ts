@@ -74,13 +74,60 @@ function records_reload() {
     }
 }
 
-function records_addSelectorListeners(selector) {
+function records_addSelectorListeners(selector?: HTMLSelectElement) {
     if (selector) {
         selector.addEventListener("change", records_reload);
     }
 }
 
-function records_addEventListeners() {
+// Render the selected filters into the header, for use on mobile devices.
+//
+// On desktop, the selected filters are visually obvious, because they're
+// always on the screen. On mobile, the filters are hidden in a menu.
+// So instead we show breadcrumbs for filters that differ from the defaults.
+function renderSelectedFilters(): void {
+    const div = document.getElementById("selectedFilters");
+    if (div === null) return;
+
+    // Clear old filters.
+    div.innerHTML = "";
+
+    // Helper function to create a new filter breadcrumb.
+    function newFilter(parent: HTMLElement, label: string): void {
+        const item = document.createElement("span");
+        item.setAttribute("class", "selected-filter");
+        item.innerHTML = label;
+        parent.appendChild(item);
+    }
+
+    // Create new filters.
+    if (selEquipment.value !== default_equipment) {
+        newFilter(div, selEquipment.selectedOptions[0].label);
+    }
+    if (selClassKind !== null && selClassKind.value !== default_classkind) {
+        newFilter(div, selClassKind.selectedOptions[0].label);
+    }
+    if (selSex.value !== default_sex) {
+        newFilter(div, selSex.selectedOptions[0].label);
+    }
+    if (selFederation.value !== default_fed) {
+        let label = selFederation.selectedOptions[0].label;
+
+        // If there is " - " in the label, then it's the federation acronym
+        // followed by the expansion. Just include the acronym.
+        label = label.split(" - ")[0];
+        newFilter(div, label);
+    }
+
+    if (selAgeClass.value !== default_ageclass) {
+        newFilter(div, selAgeClass.selectedOptions[0].label);
+    }
+    if (selRecordsYear.value !== default_year) {
+        newFilter(div, selRecordsYear.selectedOptions[0].label);
+    }
+}
+
+function initRecords() {
     selEquipment = document.getElementById("equipmentselect") as HTMLSelectElement;
     selClassKind = document.getElementById("classkindselect") as HTMLSelectElement;
     selSex = document.getElementById("sexselect") as HTMLSelectElement;
@@ -94,6 +141,10 @@ function records_addEventListeners() {
     records_addSelectorListeners(selFederation);
     records_addSelectorListeners(selAgeClass);
     records_addSelectorListeners(selRecordsYear);
+
+    renderSelectedFilters();
 }
 
-document.addEventListener("DOMContentLoaded", records_addEventListeners);
+export {
+    initRecords
+}

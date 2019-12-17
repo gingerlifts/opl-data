@@ -1,4 +1,4 @@
-Name,WeightClassKg,Division,AgeClass,Sex,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
+Name,WeightClassKg,Division,AgeRange,Sex,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Linda Staufenberger,50.5,Sub-Masters 35-39,35-39,F,,112.5,67.5,135,315,SBD,Single-ply,1
 Cadiz Tomaso,55.5,Sub-Masters 35-39,35-39,F,,120,70,135,325,SBD,Single-ply,1
 Julie Dingle,58.5,Sub-Masters 35-39,35-39,F,,132.5,70,147.5,350,SBD,Single-ply,1
@@ -27,7 +27,7 @@ Larry Donahue,67.5,Masters 40-44,40-44,M,,142.5,112.5,182.5,437.5,SBD,Single-ply
 Don Bacon,67.5,Masters 40-44,40-44,M,,140,100,177.5,417.5,SBD,Single-ply,5
 D. Villano,67.5,Masters 40-44,40-44,M,,,,,,SBD,Single-ply,DQ
 John Welch #1,75,Masters 40-44,40-44,M,43,245,162.5,242.5,650,SBD,Single-ply,1
-Steve Brown,75,Masters 40-44,40-44,M,,197.5,122.5,230,550,SBD,Single-ply,2
+Steve Brown #7,75,Masters 40-44,40-44,M,,197.5,122.5,230,550,SBD,Single-ply,2
 James Barlow,75,Masters 40-44,40-44,M,,195,150,205,550,SBD,Single-ply,3
 Jack Stevens,75,Masters 40-44,40-44,M,,215,117.5,215,547.5,SBD,Single-ply,4
 Jim Sudak,75,Masters 40-44,40-44,M,,147.5,120,232.5,500,SBD,Single-ply,5
@@ -114,7 +114,7 @@ Ben Brent,75,Masters 50-54,50-54,M,,200,95,247.5,542.5,SBD,Single-ply,2
 Phil Simon,75,Masters 50-54,50-54,M,,200,125,200,525,SBD,Single-ply,3
 George Squibb,75,Masters 50-54,50-54,M,,182.5,95,192.5,470,SBD,Single-ply,4
 Kip Hughes,75,Masters 50-54,50-54,M,,185,82.5,167.5,435,SBD,Single-ply,5
-Bob DeRisi,82.5,Masters 50-54,50-54,M,,210,127.5,227.5,565,SBD,Single-ply,1
+Rober DeRisi,82.5,Masters 50-54,50-54,M,,210,127.5,227.5,565,SBD,Single-ply,1
 Jim Klein,82.5,Masters 50-54,50-54,M,,172.5,115,192.5,480,SBD,Single-ply,2
 James Ites,82.5,Masters 50-54,50-54,M,,130,117.5,195,442.5,SBD,Single-ply,3
 Bob Strange,90,Masters 50-54,50-54,M,,195,162.5,255,612.5,SBD,Single-ply,1

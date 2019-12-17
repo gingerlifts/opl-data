@@ -1,4 +1,4 @@
-Name,WeightClassKg,Division,AgeClass,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
+Name,WeightClassKg,Division,AgeRange,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 K. Mathews,52,Teen,13-19,M,120,97.5,140,357.5,SBD,Single-ply,1
 R. Martinez,52,Teen,13-19,M,115,75,137.5,327.5,SBD,Single-ply,2
 B. Heiser,56,Teen,13-19,M,137.5,82.5,142.5,362.5,SBD,Single-ply,1
@@ -147,7 +147,7 @@ Anthony Clark #1,125+,Open,,M,392.5,280,287.5,960,SBD,Single-ply,1
 A. Shata,125+,Open,,M,345,227.5,335,907.5,SBD,Single-ply,2
 John Houser,125+,Open,,M,342.5,197.5,320,860,SBD,Single-ply,3
 Don Martin,125+,Open,,M,302.5,165,320,787.5,SBD,Single-ply,4
-M. Tiberia,52,Class II,,M,117.5,67.5,150,335,SBD,Single-ply,1
+Michael Tiberia,52,Class II,,M,117.5,67.5,150,335,SBD,Single-ply,1
 J. Flores,56,Class II,,M,145,105,157.5,407.5,SBD,Single-ply,1
 Crystal Konst,56,Class II,,F,140,62.5,122.5,325,SBD,Single-ply,2
 T. Tiangtrong,60,Class II,,M,192.5,110,155,457.5,SBD,Single-ply,1

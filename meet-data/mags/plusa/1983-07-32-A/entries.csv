@@ -1,4 +1,4 @@
-Name,WeightClassKg,Division,AgeClass,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
+Name,WeightClassKg,Division,AgeRange,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Steve Zimmerman,,Masters,40-999,M,260.82,140.61,263.08,664.51,SBD,Single-ply,1
 B. Baker,,Masters,40-999,M,195.04,122.47,195.04,512.56,SBD,Single-ply,5
 Rocky Layton,,Masters,40-999,M,229.06,156.49,219.99,605.55,SBD,Single-ply,2
@@ -51,7 +51,7 @@ F. Tiller,82.5,Open,,M,,149.69,,149.69,B,Raw,2
 Scott Kicklighter,82.5,Open,,M,,113.4,,113.4,B,Raw,3
 David Mims,90,Teen,13-19,M,249.48,142.88,274.42,666.78,SBD,Single-ply,1
 T. Wood,90,Teen,13-19,M,226.8,136.08,249.48,612.35,SBD,Single-ply,2
-T. Hollaway,90,Teen,13-19,M,176.9,102.06,188.24,467.2,SBD,Single-ply,3
+Travis Hollaway,90,Teen,13-19,M,176.9,102.06,188.24,467.2,SBD,Single-ply,3
 Will Washington,90,Open,,M,276.69,167.83,285.76,730.28,SBD,Single-ply,1
 R. Toohy,90,Open,,M,272.16,147.42,285.76,705.34,SBD,Single-ply,2
 Mike Detrino,90,Open,,M,244.94,129.27,240.4,614.62,SBD,Single-ply,3
@@ -86,15 +86,15 @@ K. Clarke,100,Open,,M,,195.04,,195.04,B,Raw,3
 Randy Kicklighter,100,Open,,M,,185.97,,185.97,B,Raw,4
 K. Harris,110,Open,,M,265.35,163.29,301.64,730.28,SBD,Single-ply,1
 D. Clark,110,Open,,M,265.35,181.44,265.35,712.14,SBD,Single-ply,2
-E. Redding,110,Open,,M,240.4,176.9,213.19,630.49,SBD,Single-ply,3
+Eric Redding,110,Open,,M,240.4,176.9,213.19,630.49,SBD,Single-ply,3
 Rocky Layton,110,Open,,M,229.06,156.49,219.99,605.55,SBD,Single-ply,4
 K. Harris,110,Class II,,M,265.35,163.29,301.64,730.28,SBD,Single-ply,1
 L. Vickrey,110,Class II,,M,235.87,185.97,265.35,687.19,SBD,Single-ply,2
-E. Redding,110,Class II,,M,240.4,176.9,213.19,630.49,SBD,Single-ply,3
+Eric Redding,110,Class II,,M,240.4,176.9,213.19,630.49,SBD,Single-ply,3
 M. Timmerman,110,Class II,,M,204.12,151.95,258.55,614.62,SBD,Single-ply,4
 L. Vickrey,110,Open,,M,,185.97,,185.97,B,Raw,1
 D. Clark,110,Open,,M,,181.44,,181.44,B,Raw,2
-E. Redding,110,Open,,M,,176.9,,176.9,B,Raw,3
+Eric Redding,110,Open,,M,,176.9,,176.9,B,Raw,3
 M. Timmerman,110,Open,,M,,151.95,,151.95,B,Raw,4
 Kevin Payne #1,125,Open,,M,299.37,222.26,274.42,796.06,SBD,Single-ply,1
 Tom McLaughlin,125,Open,,M,319.78,197.31,265.35,782.45,SBD,Single-ply,2

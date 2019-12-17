@@ -1,4 +1,4 @@
-Name,WeightClassKg,Division,AgeClass,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
+Name,WeightClassKg,Division,AgeRange,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Hue Mullick,48,Masters 40-44,40-44,F,80,35,95,210,SBD,Single-ply,1
 Karin Reagan,52,Masters 40-44,40-44,F,120,72.5,152.5,345,SBD,Single-ply,1
 Jackie Shelnutt,56,Masters 40-44,40-44,F,117.5,60,130,307.5,SBD,Single-ply,1
@@ -83,7 +83,7 @@ Bobby Fulgroat,82.5,Masters 55-59,55-59,M,175,80,247.5,502.5,SBD,Single-ply,3
 John Bowen,82.5,Masters 55-59,55-59,M,182.5,97.5,207.5,487.5,SBD,Single-ply,4
 Richard Fly,82.5,Masters 55-59,55-59,M,167.5,97.5,170,435,SBD,Single-ply,5
 Jack Box,82.5,Masters 60-64,60-64,M,157.5,122.5,197.5,477.5,SBD,Single-ply,1
-Francis Barrett,82.5,Masters 65-69,65-69,M,162.5,100,187.5,450,SBD,Single-ply,1
+Francis Barrett #1,82.5,Masters 65-69,65-69,M,162.5,100,187.5,450,SBD,Single-ply,1
 George Stevens,82.5,Masters 70-74,70-74,M,102.5,62.5,137.5,302.5,SBD,Single-ply,1
 Kit Price,90,Masters 40-44,40-44,M,305,212.5,297.5,815,SBD,Single-ply,1
 Ed Gillie,90,Masters 40-44,40-44,M,297.5,200,292.5,790,SBD,Single-ply,2
@@ -102,7 +102,7 @@ Ray Roberts,90,Masters 50-54,50-54,M,207.5,127.5,200,535,SBD,Single-ply,3
 Larry McCauley,90,Masters 55-59,55-59,M,200,160,267.5,627.5,SBD,Single-ply,1
 Don Schofield,90,Masters 55-59,55-59,M,192.5,112.5,205,510,SBD,Single-ply,2
 Alfred Johns,90,Masters 55-59,55-59,M,180,102.5,210,492.5,SBD,Single-ply,3
-ML Nicholson,90,Masters 60-64,60-64,M,185,105,202.5,492.5,SBD,Single-ply,1
+Merickston Nicholson,90,Masters 60-64,60-64,M,185,105,202.5,492.5,SBD,Single-ply,1
 Rex Monahan,90,Masters 60-64,60-64,M,140,97.5,190,427.5,SBD,Single-ply,2
 Charles Lee,90,Masters 60-64,60-64,M,122.5,120,172.5,415,SBD,Single-ply,3
 J. McDonough,90,Masters 65-69,65-69,M,157.5,110,145,412.5,SBD,Single-ply,1
@@ -142,7 +142,7 @@ Joe Cummins,110,Masters 45-49,45-49,M,277.5,187.5,272.5,737.5,SBD,Single-ply,1
 Ernest Schmuck,110,Masters 45-49,45-49,M,255,157.5,255,667.5,SBD,Single-ply,2
 Robert Gilmore,110,Masters 45-49,45-49,M,,,,,SBD,Single-ply,DQ
 Curtis Walker,110,Masters 50-54,50-54,M,255,192.5,267.5,715,SBD,Single-ply,1
-Richard Daniel,110,Masters 50-54,50-54,M,227.5,195,195,617.5,SBD,Single-ply,2
+Richard Daniel #2,110,Masters 50-54,50-54,M,227.5,195,195,617.5,SBD,Single-ply,2
 Frank Stapleton,110,Masters 50-54,50-54,M,182.5,157.5,212.5,552.5,SBD,Single-ply,3
 Robert Pleticha,125,Masters 40-44,40-44,M,332.5,222.5,300,855,SBD,Single-ply,1
 Jorge Garcia,125,Masters 40-44,40-44,M,320,205,325,850,SBD,Single-ply,2

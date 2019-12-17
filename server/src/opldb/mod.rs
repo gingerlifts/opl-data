@@ -25,6 +25,10 @@ pub struct Lifter {
     pub name: String,
     #[serde(rename(deserialize = "CyrillicName"))]
     pub cyrillic_name: Option<String>,
+    #[serde(rename(deserialize = "JapaneseName"))]
+    pub japanese_name: Option<String>,
+    #[serde(rename(deserialize = "GreekName"))]
+    pub greek_name: Option<String>,
     #[serde(rename(deserialize = "Username"))]
     pub username: String,
     #[serde(rename(deserialize = "Instagram"))]
@@ -137,6 +141,8 @@ pub struct Entry {
     pub birthyearclass: BirthYearClass,
     #[serde(rename(deserialize = "Country"))]
     pub lifter_country: Option<Country>,
+    #[serde(rename(deserialize = "State"))]
+    pub lifter_state: Option<State>,
 }
 
 impl Entry {

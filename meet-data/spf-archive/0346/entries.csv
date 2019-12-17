@@ -1,4 +1,4 @@
-Place,WeightClassKg,Division,Name,Sex,Equipment,Event,Age,BodyweightKg,State,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,AgeClass
+Place,WeightClassKg,Division,Name,Sex,Equipment,Event,Age,BodyweightKg,State,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,AgeRange
 1,60,Teenage 13-15,Hannah Walker,F,Wraps,SBD,14,59.24,NC,77.11,38.56,95.25,210.92,
 1,100,Teenage 16-17,Jessica Garner,F,Wraps,SBD,16,98.25,TN,81.65,54.43,122.47,258.55,
 1,60,Juniors,Jaclyn Wolfe,F,Wraps,SBD,20,59.06,KY,120.2,58.97,165.56,344.73,
@@ -49,7 +49,7 @@ Place,WeightClassKg,Division,Name,Sex,Equipment,Event,Age,BodyweightKg,State,Bes
 1,90,Masters 40-44,John Rowland,M,Wraps,SBD,43,88.27,GA,274.42,181.44,285.76,741.62,
 1,140,Masters 40-44,Jeff Clabo,M,Wraps,SBD,40,136.62,TN,258.55,158.76,242.67,659.98,
 1,110,Masters 45-49,Terry Mitchell,M,Wraps,SBD,48,104.42,VA,181.44,138.35,188.24,508.02,
-1,125,Masters 50-54,Joe Ladnier,M,Wraps,SBD,50,122.92,MS,319.78,254.01,306.17,879.97,
+1,125,Masters 50-54,Joe Ladnier,M,Wraps,SBD,,122.92,MS,319.78,254.01,306.17,879.97,
 1,90,Masters 60-64,Bruce Sulta,M,Wraps,SBD,61,84.37,NC,185.97,90.72,195.04,471.74,
 1,67.5,Submasters,Leah Russell,F,Single-ply,SBD,36,65.41,GA,136.08,81.65,149.69,367.41,
 1,75,Open,Sara Masters,F,Single-ply,SBD,31,68.31,TN,138.35,99.79,154.22,392.36,

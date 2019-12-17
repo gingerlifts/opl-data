@@ -1,5 +1,20 @@
 //! Implements Name to Username conversion logic.
 
+/// Writing systems for characters, for categorization.
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub enum WritingSystem {
+    Cyrillic,
+    Greek,
+    Japanese,
+    Latin,
+}
+
+impl Default for WritingSystem {
+    fn default() -> WritingSystem {
+        WritingSystem::Latin
+    }
+}
+
 /// Calculates the ASCII equivalent of a Name.
 fn convert_to_ascii(name: &str) -> Result<String, String> {
     let mut ascii_name = String::with_capacity(name.len());
@@ -61,39 +76,83 @@ fn is_exception(letter: char) -> bool {
     }
 }
 
-/// Checks if the given character is Japanese.
-pub fn is_japanese(letter: char) -> bool {
-    let ord: u32 = letter as u32;
-    match ord {
-        // Some valid punctuation symbols
-        12_293..=12_294 => true,
-        // Hiragana
-        12_352..=12_447 => true,
-        // CJK Unified Ideographs.
-        19_968..=40_959 => true,
-        // CJK Compatibility Forms.
-        65_072..=65_103 => true,
-        // CJK Compatibility Ideographs.
-        63_744..=64_255 => true,
-        // CJK Compatibility Ideographs Supplement.
-        194_560..=195_103 => true,
-        // Katakana.
-        12_448..=12_543 => true,
-        // CJK Radicals Supplement.
-        11_904..=12_031 => true,
-        // CJK Unified Ideographs Extension A.
-        13_312..=19_903 => true,
-        // CJK Unified Ideographs Extension B.
-        131_072..=173_791 => true,
-        // CJK Unified Ideographs Extension C.
-        173_824..=177_983 => true,
-        // CJK Unified Ideographs Extension D.
-        177_984..=178_207 => true,
-        // CJK Unified Ideographs Extension E.
-        178_208..=183_983 => true,
-        // Non East-Asian.
-        _ => false,
+const HIRAGANA_START: u32 = 0x3041;
+const HIRAGANA_END: u32 = 0x3096;
+const KATAKANA_START: u32 = 0x30A1;
+
+/// Returns the character, converting any Hiragana to Katakana.
+///
+/// Hiragana characters are always a single Unicode scalar value.
+/// When changing this function, also change the test update hira_to_kata_char_is_safe().
+fn hira_to_kata_char(c: char) -> char {
+    let scalar = c as u32;
+    if scalar >= HIRAGANA_START && scalar <= HIRAGANA_END {
+        // Shift from the Hiragana list to the equivalent Katakana list.
+        let kata_scalar = scalar + (KATAKANA_START - HIRAGANA_START);
+        // Safe because of the bounds checking above.
+        // Safety is asserted by the test "hira_to_kata_char_is_safe()" below.
+        unsafe { std::char::from_u32_unchecked(kata_scalar) }
+    } else {
+        c
     }
+}
+
+/// Gives the equivalent Katakana for a Hiragana String.
+fn hira_to_kata(name: &str) -> String {
+    name.chars().map(|c| hira_to_kata_char(c)).collect()
+}
+
+/// Get the WritingSystem for the current character.
+///
+/// Returns `Latin` if unknown.
+pub fn get_writing_system(c: char) -> WritingSystem {
+    match c as u32 {
+        // Cyrillic.
+        0x400..=0x4FF => WritingSystem::Cyrillic,
+        // Greek.
+        0x370..=0x3FF => WritingSystem::Greek,
+        // Some valid punctuation symbols.
+        0x3005..=0x3006 => WritingSystem::Japanese,
+        // Hiragana.
+        0x3040..=0x309F => WritingSystem::Japanese,
+        // CJK Unified Ideographs.
+        0x4E00..=0x9FFF => WritingSystem::Japanese,
+        // CJK Compatibility Forms.
+        0xFE30..=0xFE4F => WritingSystem::Japanese,
+        // CJK Compatibility Ideographs.
+        0xF900..=0xFAFF => WritingSystem::Japanese,
+        // CJK Compatibility Ideographs Supplement.
+        0x2F800..=0x2FA1F => WritingSystem::Japanese,
+        // Katakana.
+        0x30A0..=0x30FF => WritingSystem::Japanese,
+        // CJK Radicals Supplement.
+        0x2E80..=0x2EFF => WritingSystem::Japanese,
+        // CJK Unified Ideographs Extension A.
+        0x3400..=0x4DBF => WritingSystem::Japanese,
+        // CJK Unified Ideographs Extension B.
+        0x20000..=0x2A6DF => WritingSystem::Japanese,
+        // CJK Unified Ideographs Extension C.
+        0x2A700..=0x2B73F => WritingSystem::Japanese,
+        // CJK Unified Ideographs Extension D.
+        0x2B740..=0x2B81F => WritingSystem::Japanese,
+        // CJK Unified Ideographs Extension E.
+        0x2B820..=0x2CEAF => WritingSystem::Japanese,
+        // Character is either Latin or not a letter.
+        _ => WritingSystem::Latin,
+    }
+}
+
+/// Returns the likely writing system of a string.
+///
+/// The first non-Latin character encountered is considered representative.
+pub fn infer_writing_system(s: &str) -> WritingSystem {
+    for c in s.chars() {
+        let system = get_writing_system(c);
+        if system != WritingSystem::Latin {
+            return system;
+        }
+    }
+    WritingSystem::Latin
 }
 
 /// Given a UTF-8 Name, create the corresponding ASCII Username.
@@ -110,12 +169,12 @@ pub fn is_japanese(letter: char) -> bool {
 /// ```
 pub fn make_username(name: &str) -> Result<String, String> {
     if name.is_empty() {
-        return Ok(String::default());
-    }
-
-    if name.chars().any(is_japanese) {
-        let ea_id: String = name
+        Ok(String::default())
+    } else if infer_writing_system(name) == WritingSystem::Japanese {
+        let kata_name = hira_to_kata(name);
+        let ea_id: String = kata_name
             .chars()
+            .filter(|letter| !letter.is_whitespace())
             .map(|letter| (letter as u32).to_string())
             .collect();
         Ok(format!("ea-{}", ea_id))
@@ -141,19 +200,19 @@ mod tests {
     }
 
     #[test]
-    fn eastasian() {
+    fn japanese_name() {
         assert_eq!(
             make_username("武田 裕介").unwrap(),
-            "ea-2749430000323502920171"
+            "ea-27494300003502920171"
         );
         assert_eq!(
             make_username("光紀 高橋").unwrap(),
-            "ea-2080932000323964027211"
+            "ea-20809320003964027211"
         );
     }
 
     #[test]
-    fn eastasian_regression() {
+    fn japanese_regression() {
         assert!(make_username("佐々木博之").is_ok());
         assert!(make_username("石川記みよ").is_ok());
         assert!(make_username("加藤 みどり").is_ok());
@@ -190,5 +249,25 @@ mod tests {
     #[test]
     fn invalid_ascii() {
         assert!(make_username("John Smith; ").is_err());
+    }
+
+    /// Tests that Hiragana characters are converted to Katakana
+    /// for purposes of username comparisons, and that non-Hiragana
+    /// characters are left alone.
+    #[test]
+    fn valid_hira_to_kata() {
+        assert!(hira_to_kata("なべ やかん") == "ナベ ヤカン");
+        assert!(hira_to_kata("因幡 英昭") == "因幡 英昭");
+        assert!(hira_to_kata("ASCII Chars") == "ASCII Chars");
+    }
+
+    /// Tests that the limited use of "unsafe" in hira_to_kata_char
+    /// is safe for all possible inputs.
+    #[test]
+    fn hira_to_kata_char_is_safe() {
+        for scalar in HIRAGANA_START..=HIRAGANA_END {
+            let kata_scalar = scalar + (KATAKANA_START - HIRAGANA_START);
+            assert!(std::char::from_u32(kata_scalar).is_some());
+        }
     }
 }

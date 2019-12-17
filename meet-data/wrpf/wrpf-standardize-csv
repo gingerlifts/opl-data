@@ -305,11 +305,13 @@ def parse_fieldnames(sheet):
             fieldnames.append('IGNORE')
         elif text == 'команда' or text == 'coach':  # Coach
             fieldnames.append('IGNORE')
+        elif text in ['сountry/city/state', 'страна/город/область']:
+            fieldnames.append('Country/City/State')
+        elif text in ['country/town', 'город/страна']:
+            fieldnames.append('Country/City/State')
         elif 'город' in text or 'регіон' in text:
             # We don't care about city-level information.
             fieldnames.append('IGNORE')
-        elif text in ['сountry/city/state', 'страна/город/область', 'country/town']:
-            fieldnames.append('Country/City/State')
         elif text == 'разряд/звание':  # Rank
             fieldnames.append('IGNORE')
 
@@ -447,6 +449,8 @@ def parse_sheet(sheet):
     elif 'isf' in title:  # Some kind of calesthetics competition
         return csv
     elif 'спр' in title or 'wsf' in title:  # Strongman
+        return csv
+    elif 'лямках' in title:  # Straps
         return csv
 
     # Figure out event, equipment, etc., and store in obj.

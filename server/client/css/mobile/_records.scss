@@ -1,0 +1,53 @@
+#selectedFilters.records-selected-filters {
+  display: none;
+}
+
+#selectedFilters.records-selected-filters {
+  display: flex;
+  background: transparent;
+  border: none;
+  height: auto;
+  min-height: auto;
+  flex-wrap: wrap;
+
+  .selected-filter {
+    background: $table-header-background-color;
+    display: inline-block;
+    margin: 5px 2px 1px 0px;
+    border-radius: 3px;
+    font-size: 11px;
+    text-align: center;
+    padding: 0 5px;
+    height: 15px;
+  }
+}
+.records-col {
+  h2 {
+    margin-top: 0px;
+  }
+  table {
+    display: block;
+    overflow-x: scroll;
+    padding: 0;
+    table-layout: fixed;
+
+    .weight-class-header,
+    .weight-class-place {
+      max-width: 30px;
+      overflow-x: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .lifter-name-link {
+      display: inline-block;
+      min-width: 200px;
+      height: auto;
+      line-height: 21px;
+    }
+
+    .lifter-date-link {
+      display: inline-block;
+      min-width: 100px;
+    }
+  }
+}
