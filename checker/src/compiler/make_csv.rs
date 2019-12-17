@@ -25,7 +25,7 @@ struct MeetsRow<'d> {
     #[serde(rename = "MeetCountry")]
     pub country: Country,
     #[serde(rename = "MeetState")]
-    pub state: Option<State>,
+    pub state: Option<String>,
     #[serde(rename = "MeetTown")]
     pub town: Option<&'d str>,
     #[serde(rename = "MeetName")]
@@ -42,7 +42,7 @@ impl<'d> MeetsRow<'d> {
             federation: meet.federation,
             date: meet.date,
             country: meet.country,
-            state: meet.state,
+            state: meet.state.and_then(|s| Some(s.to_state_string())),
             town: meet.town.as_deref(),
             name: &meet.name,
             ruleset: meet.ruleset,
@@ -121,6 +121,8 @@ struct EntriesRow<'d> {
     tested: &'static str,
     #[serde(rename = "Country")]
     country: Option<Country>,
+    #[serde(rename = "State")]
+    state: Option<State>,
 }
 
 impl<'d> EntriesRow<'d> {
@@ -178,6 +180,7 @@ impl<'d> EntriesRow<'d> {
             ipfpoints: entry.ipfpoints,
             tested: if entry.tested { "Yes" } else { "" },
             country: entry.country,
+            state: entry.state,
         }
     }
 }
@@ -196,6 +199,8 @@ struct LiftersRow<'md, 'ld> {
     cyrillicname: Option<&'md str>,
     #[serde(rename = "JapaneseName")]
     japanesename: Option<&'md str>,
+    #[serde(rename = "GreekName")]
+    greekname: Option<&'md str>,
     #[serde(rename = "Username")]
     username: &'md str,
     #[serde(rename = "Instagram")]
@@ -218,6 +223,7 @@ impl<'md, 'ld> LiftersRow<'md, 'ld> {
             name: entrydata.name,
             cyrillicname: entrydata.cyrillicname,
             japanesename: entrydata.japanesename,
+            greekname: entrydata.greekname,
             username: entrydata.username,
             instagram: lifterdata.instagram.as_deref(),
             vkontakte: lifterdata.vkontakte.as_deref(),
@@ -234,6 +240,7 @@ struct EntryLifterData<'md> {
     username: &'md str, // Stored again for simplicity of iteration.
     cyrillicname: Option<&'md str>,
     japanesename: Option<&'md str>,
+    greekname: Option<&'md str>,
 }
 
 impl<'md> EntryLifterData<'md> {
@@ -244,6 +251,7 @@ impl<'md> EntryLifterData<'md> {
             username: &entry.username,
             cyrillicname: entry.cyrillicname.as_deref(),
             japanesename: entry.japanesename.as_deref(),
+            greekname: entry.greekname.as_deref(),
         }
     }
 
@@ -256,6 +264,7 @@ impl<'md> EntryLifterData<'md> {
             username: "seanstangl",
             cyrillicname: Some("Шон Стангл"),
             japanesename: Some("ショーン・スタングル"),
+            greekname: Some("Σόν Στένγλ"),
         }
     }
 }
@@ -312,6 +321,9 @@ pub fn make_csv(
                     }
                     if data.japanesename.is_none() && entry.japanesename.is_some() {
                         data.japanesename = entry.japanesename.as_deref();
+                    }
+                    if data.greekname.is_none() && entry.greekname.is_some() {
+                        data.greekname = entry.greekname.as_deref();
                     }
                     data.id
                 }

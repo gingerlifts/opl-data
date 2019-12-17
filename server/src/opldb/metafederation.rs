@@ -246,6 +246,11 @@ pub enum MetaFederation {
 
     /// ThaiPF, excluding non-Thai lifters and including IPF results.
     ThaiPF,
+
+    /// WRPF-USA.
+    #[strum(to_string = "wrpf-usa")]
+    #[serde(rename = "WRPF-USA")]
+    WRPFUSA,
 }
 
 /// Helper function for MetaFederation::contains() for AllCountry meta-feds.
@@ -386,8 +391,7 @@ impl MetaFederation {
             }
             MetaFederation::BPU => {
                 meet.federation == Federation::BPU
-                    || (meet.federation.sanctioning_body(meet.date)
-                        == Some(Federation::WPC)
+                    || (meet.federation == Federation::WPC
                         && entry.lifter_country.map_or(false, |c| c.is_in_uk()))
             }
             MetaFederation::BVDK => match meet.federation {
@@ -547,6 +551,14 @@ impl MetaFederation {
                 Federation::IPF | Federation::ORPF | Federation::AsianPF => {
                     entry.lifter_country == Some(Country::Thailand)
                 }
+                _ => false,
+            },
+            MetaFederation::WRPFUSA => match meet.federation {
+                Federation::WRPF => match entry.lifter_country {
+                    Some(Country::USA) => true,
+                    None => meet.country == Country::USA,
+                    _ => false,
+                },
                 _ => false,
             },
         }

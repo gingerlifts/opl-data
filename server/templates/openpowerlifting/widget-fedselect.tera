@@ -5,7 +5,7 @@
 <optgroup label="{{strings.selectors.fed.international}}">
   <option value="gpa" {% if selection.federation == "GPA" %}selected{% endif %}>GPA - Global Powerlifting Alliance</option>
   <option value="gpc" {% if selection.federation == "GPC" %}selected{% endif %}>GPC - Global Powerlifting Committee</option>
-  <option value="gpc" {% if selection.federation == "GPF" %}selected{% endif %}>GPF - Global Powerlifting Federation</option>
+  <option value="gpf" {% if selection.federation == "GPF" %}selected{% endif %}>GPF - Global Powerlifting Federation</option>
   <option value="ibsa" {% if selection.federation == "IBSA" %}selected{% endif %}>IBSA - International Blind Sports Association</option>
   <option value="ipf" {% if selection.federation == "IPF" %}selected{% endif %}>IPF - International Powerlifting Federation</option>
   <option value="ipl" {% if selection.federation == "IPL" %}selected{% endif %}>IPL - International Powerlifting League</option>
@@ -69,8 +69,9 @@
   <option value="uspf" {% if selection.federation == "USPF" %}selected{% endif %}>USPF - United States Powerlifting Federation</option>
   <option value="ussf" {% if selection.federation == "USSF" %}selected{% endif %}>USSF - United States Strengthlifting Federation</option>
   <option value="ussports" {% if selection.federation == "USSports" %}selected{% endif %}>USSports - Unified Strength Sports Federation</option>
-  <option value="xpc" {% if selection.federation == "XPC" %}selected{% endif %}>XPC - Xtreme Powerlifting Coalition</option>
   <option value="wnpf" {% if selection.federation == "WNPF" %}selected{% endif %}>WNPF - World Natural Powerlifting Federation</option>
+  <option value="wrpf-usa" {% if selection.federation == "WRPF-USA" %}selected{% endif %}>WRPF USA</option>
+  <option value="xpc" {% if selection.federation == "XPC" %}selected{% endif %}>XPC - Xtreme Powerlifting Coalition</option>
 </optgroup>
 <optgroup label="{{strings.country.uk}}">
   <option value="all-uk" {% if selection.federation == "AllUK" %}selected{% endif %}>{{strings.selectors.fed.all_uk}}</option>
@@ -150,7 +151,7 @@
 </optgroup>
 <optgroup label="{{strings.country.colombia}}">
   <option value="all-colombia" {% if selection.federation == "AllColombia" %}selected{% endif %}>{{strings.selectors.fed.all_colombia}}</option>
-  <option value="colpa" {% if selection.federation == "ColPA" %}selected{% endif %}>ColPA - Colombian Powerlifting Federation [IPF]</option>>
+  <option value="colpf" {% if selection.federation == "ColPF" %}selected{% endif %}>ColPF - Colombian Powerlifting Federation [IPF]</option>>
 </optgroup>
 <optgroup label="{{strings.country.croatia}}">
   <option value="all-croatia" {% if selection.federation == "AllCroatia" %}selected{% endif %}>{{strings.selectors.fed.all_croatia}}</option>

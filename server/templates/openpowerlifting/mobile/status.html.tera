@@ -8,6 +8,9 @@
   </footer>
 {% endblock footer_hack_end %}
 
+{% block controlsbutton %}
+{% endblock controlsbutton %}
+
 {% block body %}
 <center>
   <div class="text-content">
@@ -18,7 +21,7 @@
         Tracking {{num_entries}} entries for {{num_lifters}} lifters from {{num_meets}} meets.
 
     <h2>Federations</h2>
-    <table>
+    <table id="statusTable">
       <thead><tr>
         <th>Name</th>
         <th>Meets Entered</th>

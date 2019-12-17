@@ -38,6 +38,7 @@ fn default_openipf_selection() -> pages::selection::Selection {
         year: YearSelection::AllYears,
         event: EventSelection::FullPower,
         sort: SortSelection::ByIPFPoints,
+        state: None,
     }
 }
 
@@ -164,6 +165,7 @@ pub fn records(
         classkind: pages::records::ClassKindSelection::IPF,
         ageclass: default_rankings.ageclass,
         year: default_rankings.year,
+        state: None,
     };
 
     let selection = if let Some(sel) = selections {

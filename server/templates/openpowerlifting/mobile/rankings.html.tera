@@ -39,37 +39,41 @@
   <script defer src="/static/scripts/{{statics::slickgrid_min_js()}}"></script>
 {% endblock includes %}
 
-{% block flexbox_hack %}
-  <div class="flexbox">
-{% endblock flexbox_hack %}
+{# Zero out the mobile-content div. It's not used for Rankings. #}
+{% block mobilecontent %}
+{% endblock mobilecontent %}
 
+{% block flexbox_hack %}
+  <div id="selectedFilters"></div>
+  <div class="flexbox">
+    <div id="theGrid"></div>
+{% endblock flexbox_hack %}
 {% block flexbox_hack_end %}
   </div>
+  <div id="footerSearchContainer">
+    <input type="text" id="searchfield" autocomplete="off"/>
+    <button id="searchbutton">{{strings.buttons.search}}</button>
+  </div>
+  <button id="footerSearchToggler"></button>
+
 {% endblock flexbox_hack_end %}
 
 {% block controls %}
-  <div id="controls">
-    <div id="controls-left">
-      {% include "openpowerlifting/widget-fedselect" %}
-      {% include "openpowerlifting/widget-equipmentselect" %}
-      {% include "openpowerlifting/widget-weightclass" %}
-      <select id="sexselect">
-        <option value="all"{% if selection.sex == "AllSexes" %} selected{% endif %}>{{strings.selectors.sex.all}}</option>
-        <option value="men"{% if selection.sex == "Men" %} selected{% endif %}>{{strings.selectors.sex.m}}</option>
-        <option value="women"{% if selection.sex == "Women" %} selected{% endif %}>{{strings.selectors.sex.f}}</option>
-      </select>
-      {% include "openpowerlifting/widget-ageselect" %}
-      {% include "widget-yearselect" %}
-      {% include "openpowerlifting/widget-eventselect" %}
-      {% include "openpowerlifting/widget-sortselect" %}
-    </div>
-    <div id="controls-right">
-      <input type="text" id="searchfield" autofocus/>
-      <button id="searchbutton">{{strings.buttons.search}}</button>
-    </div>
+  <div id="controls-mobile-filters">
+    Sort
+    {% include "openpowerlifting/widget-sortselect" %}
+    Category
+    {% include "openpowerlifting/widget-fedselect" %}
+    {% include "openpowerlifting/widget-equipmentselect" %}
+    {% include "openpowerlifting/widget-weightclass" %}
+    <select id="sexselect">
+      <option value="all"{% if selection.sex == "AllSexes" %} selected{% endif %}>{{strings.selectors.sex.all}}</option>
+      <option value="men"{% if selection.sex == "Men" %} selected{% endif %}>{{strings.selectors.sex.m}}</option>
+      <option value="women"{% if selection.sex == "Women" %} selected{% endif %}>{{strings.selectors.sex.f}}</option>
+    </select>
+    {% include "openpowerlifting/widget-ageselect" %}
+    {% include "widget-yearselect" %}
+    {% include "openpowerlifting/widget-eventselect" %}
+
   </div>
 {% endblock controls %}
-
-{% block body %}
-  <div id="theGrid"></div>
-{% endblock body %}

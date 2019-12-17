@@ -22,8 +22,8 @@
 {% endblock footer_hack_end %}
 
 {% block controls %}
-  <div id="controls">
-    <div id="controls-left">
+
+    <div id="controls-mobile-filters">
       {% include "openpowerlifting/widget-fedselect" %}
       {% include "openpowerlifting/widget-equipmentselect" %}
       <select id="classkindselect">
@@ -39,11 +39,13 @@
       {% include "openpowerlifting/widget-ageselect" %}
       {% include "widget-yearselect" %}
     </div>
-  </div>
+
 {% endblock controls %}
 
 {% block body %}
+
   <div class="mixed-content-with-controls">
+    <div id="selectedFilters" class="records-selected-filters"></div>
     {% for table in tables %}
 
     {% if loop.index is odd %}
@@ -54,8 +56,8 @@
     <h2>{{table.title}}</h2>
     <table>
       <thead><tr>
-        <th>{{strings.columns.weightclass}}</th>
-        <th>{{strings.columns.formulaplace}}</th>
+        <th class="weight-class-header">{{strings.columns.weightclass}}</th>
+        <th class="weight-class-place">{{strings.columns.formulaplace}}</th>
         <th>{{strings.columns.liftername}}</th>
         <th>{{table.weight_column_label}}</th>
         <th>{{strings.columns.date}}</th>
@@ -66,9 +68,9 @@
       <tr>
         <td>{{this.weightclass}}</td>
         <td>{{this.rank}}</td>
-        <td>{% if this.lifter %}<a class="{{this.lifter.color}}" href="{{urlprefix | safe}}u/{{this.lifter.username}}">{{this.localized_name}}</a>{% if this.lifter.instagram %}<a href="https://www.instagram.com/{{this.lifter.instagram}}" class="instagram" rel="noopener" target="_blank"><i class="fa fa-instagram fa-resize"></i></a>{% endif %}{% if this.lifter.vkontakte %}<a href="https://vk.com/{{this.lifter.vkontakte}}" class="instagram" rel="noopener" target="_blank"><i class="fa fa-vk fa-resize"></i></a>{% endif %}{% endif %}</td>
+        <td class="lifter-name-link">{% if this.lifter %}<a class="{{this.lifter.color}}" href="{{urlprefix | safe}}u/{{this.lifter.username}}">{{this.localized_name}}</a>{% if this.lifter.instagram %}<a href="https://www.instagram.com/{{this.lifter.instagram}}" class="instagram" rel="noopener" target="_blank"><i class="fa fa-instagram fa-resize"></i></a>{% endif %}{% if this.lifter.vkontakte %}<a href="https://vk.com/{{this.lifter.vkontakte}}" class="instagram" rel="noopener" target="_blank"><i class="fa fa-vk fa-resize"></i></a>{% endif %}{% endif %}</td>
         <td>{{this.weight_lifted}}</td>
-        <td>{% if this.date %}<a href="{{urlprefix | safe}}m/{{this.path | safe}}">{{this.date}}</a>{% endif %}</td>
+        <td class="lifter-date-link">{% if this.date %}<a href="{{urlprefix | safe}}m/{{this.path | safe}}">{{this.date}}</a>{% endif %}</td>
         <td>{{this.federation}}</td>
       </tr>
       {% endfor %}

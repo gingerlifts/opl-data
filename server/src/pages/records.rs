@@ -20,6 +20,7 @@ pub struct RecordsSelection {
     pub classkind: ClassKindSelection,
     pub ageclass: AgeClassSelection,
     pub year: YearSelection,
+    pub state: Option<State>,
 }
 
 impl Default for RecordsSelection {
@@ -31,6 +32,7 @@ impl Default for RecordsSelection {
             classkind: ClassKindSelection::Traditional,
             ageclass: AgeClassSelection::AllAges,
             year: YearSelection::AllYears,
+            state: None,
         }
     }
 }
@@ -44,6 +46,7 @@ impl RecordsSelection {
             sex: self.sex,
             ageclass: self.ageclass,
             year: self.year,
+            state: self.state,
             ..*default
         }
     }
@@ -69,6 +72,7 @@ impl RecordsSelection {
         let mut parsed_classkind: bool = false;
         let mut parsed_ageclass: bool = false;
         let mut parsed_year: bool = false;
+        let mut parsed_state: bool = false;
 
         // Iterate over each path component, attempting to determine
         // what kind of data it is.
@@ -118,6 +122,12 @@ impl RecordsSelection {
                 }
                 ret.year = y;
                 parsed_year = true;
+            } else if let Ok(s) = State::from_full_code(segment) {
+                if parsed_state {
+                    return Err(());
+                }
+                ret.state = Some(s);
+                parsed_state = true;
             // Unknown string, therefore malformed URL.
             } else {
                 return Err(());
@@ -157,6 +167,7 @@ impl FromStr for ClassKindSelection {
 pub struct Context<'db> {
     pub urlprefix: &'static str,
     pub page_title: &'db str,
+    pub page_description: &'db str,
     pub language: Language,
     pub strings: &'db langpack::Translations,
     pub units: WeightUnits,
@@ -693,6 +704,7 @@ impl<'db> Context<'db> {
         Context {
             urlprefix: "/",
             page_title: "Powerlifting Records",
+            page_description: &locale.strings.html_header.description,
             language: locale.language,
             strings: locale.strings,
             units: locale.units,

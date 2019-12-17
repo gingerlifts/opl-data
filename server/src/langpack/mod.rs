@@ -360,6 +360,11 @@ pub struct CountryTranslations {
 }
 
 #[derive(Serialize, Deserialize)]
+pub struct HTMLHeaderTranslations {
+    pub description: String,
+}
+
+#[derive(Serialize, Deserialize)]
 pub struct HeaderTranslations {
     pub rankings: String,
     pub records: String,
@@ -563,6 +568,7 @@ pub struct Translations {
     pub equipment: EquipmentTranslations,
     pub sex: SexTranslations,
     pub header: HeaderTranslations,
+    pub html_header: HTMLHeaderTranslations,
     pub columns: ColumnTranslations,
     pub country: CountryTranslations,
     pub buttons: ButtonTranslations,
@@ -1001,6 +1007,8 @@ pub fn get_localized_name(lifter: &opldb::Lifter, language: Language) -> &str {
             lifter.cyrillic_name.as_ref().unwrap_or(&lifter.name)
         }
         Language::ja => lifter.japanese_name.as_ref().unwrap_or(&lifter.name),
+        Language::el => lifter.greek_name.as_ref().unwrap_or(&lifter.name),
+
         _ => &lifter.name,
     }
 }

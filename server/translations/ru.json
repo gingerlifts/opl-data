@@ -17,8 +17,11 @@
 		"f": "Ж",
 		"mx": "Mx"
 	},
+	"html_header": {
+		"description": "The OpenPowerlifting project aims to create a permanent, accurate, convenient, accessible, open archive of the world's powerlifting data."
+	},
 	"header": {
-		"rankings": "Рэнкинги",
+		"rankings": "Рейтинги",
 		"records": "Рекорды",
 		"meets": "Протоколы",
 		"data": "Данные",
@@ -270,7 +273,7 @@
 			"by_wilks": "По Вилксу",
 			"by_division": "By Division",
 			"weight": "Сортировки по Весу",
-			"points": "Сортировки по Точкам"
+			"points": "Сортировки по Очкам"
 		},
 		"year": {
 			"all": "Все Годы"
