@@ -51,9 +51,31 @@
 {% endblock controls %}
 
 {% block body %}
-  <div class="mixed-content-with-controls">
-    <h1 id="meet">{{year}} {{meet.federation}} {{meet.name}}</h1>
-    <p>{{meet.date}}, {{meet.country}}{% if meet.state %}-{{meet.state}}{% endif %}{% if meet.town %}, {{meet.town}}{% endif %}</p>
+  <div class="mixed-content-with-controls" id="meetMobile">
+
+    <div class="meet-mobile-header-container">
+      <div class="meet-mobile-meet-name">
+        <h1 id="meet">{{year}} {{meet.federation}} {{meet.name}}</h1>
+      </div>
+      <div class="meet-mobile-location-and-date">
+          <div class="meet-mobile-location">
+            <p>{{meet.country}}{% if meet.state %}-{{meet.state}}{% endif %}{% if meet.town %}, {{meet.town}}{% endif %}</p>
+          </div>
+          <div class="meet-mobile-date">
+            <p>{{meet.date}}</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="meet-mobile-filter-container">
+      <div class="meet-mobile-by-division-toggle-container">
+        {{strings.selectors.sort.by_division}}
+        <label class="switch">
+          <input id="byDivisionToggler" type="checkbox" {% if sortselection == "ByDivision" %}checked{% endif %}>
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </div>
 
     <table id="meetTable">
       <thead><tr>

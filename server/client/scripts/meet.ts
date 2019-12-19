@@ -76,6 +76,18 @@ function redirect() {
 }
 
 function initMeet(): void {
+    const toggler = document.getElementById("byDivisionToggler") as HTMLInputElement;
+
+    toggler.addEventListener('change', function() {
+        if(this.checked) {
+            selSort.value = "by-division";
+            redirect();
+        } else {
+            selSort.value = "by-wilks";
+            redirect();
+        }
+    });
+
     selSort = document.getElementById("sortselect") as HTMLSelectElement;
     selSort.addEventListener("change", redirect);
 }
