@@ -111,8 +111,11 @@
                 {% endif %}
               </div>
               {% if this.total %}
-                <div class="meet-list-total">{{strings.columns.total}} {{this.total}}</div>
+                <div class="meet-list-total">{{strings.columns.total}}: {{this.total}}</div>
+              {% else %}
+                <div class="meet-list-total">{{strings.columns.total}}: 0</div>
               {% endif %}
+
 
               <div class="toggle-more-arrow">
                 <img src="/static/images/select_dropdown_red.png" alt="toggle-more"/>
@@ -123,9 +126,11 @@
             <div class="results-lifter-hidden-row hide">
 
               <div class="results-lifter-details-more-results-row">
-                <div class="meet-lifter-equipment">
-                 {{strings.columns.equipment}}: {{this.equipment}}
-                </div>
+                {% if this.equipment %}
+                  <div class="meet-lifter-equipment">
+                   {{strings.columns.equipment}}: {{this.equipment}}
+                  </div>
+                {% endif %}
 
                 {% if this.squat %}
                   <div class="meet-lifter-squat">
@@ -163,13 +168,17 @@
                   </div>
                 {% endif %}
 
-                <div class="meet-lifter-weightclass">
-                 {{strings.columns.weightclass}}: {{this.weightclass}}
-                </div>
+                {% if this.weightclass %}
+                  <div class="meet-lifter-weightclass">
+                   {{strings.columns.weightclass}}: {{this.weightclass}}
+                  </div>
+                {% endif %}
 
-                <div class="meet-lifter-bodyweight">
-                 {{strings.columns.bodyweight}}: {{this.bodyweight}}
-                </div>
+                {% if this.bodyweight %}
+                  <div class="meet-lifter-bodyweight">
+                   {{strings.columns.bodyweight}}: {{this.bodyweight}}
+                  </div>
+                {% endif %}
               </div>
 
 
