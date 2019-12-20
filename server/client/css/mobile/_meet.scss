@@ -1,3 +1,4 @@
+$meet-name-header-height: 35px;
 
 #controls-edit-meet-button-container {
   display: flex;
@@ -32,7 +33,7 @@
 #meetMobile {
   .meet-mobile-header-container {
     display: flex;
-    height: 30px;
+    height: $meet-name-header-height;
     position: fixed;
     background-color: $table-header-background-color;
     width: 100%;
@@ -45,7 +46,8 @@
       align-items: center;
       padding-left: 5px;
       h1 {
-        font-size: 100%;
+        font-size: 13px;
+        font-weight: 400;
       }
     }
   }
@@ -73,7 +75,7 @@
 
   .meet-mobile-filter-container {
     display: flex;
-    height: 35px;
+    height: $meet-name-header-height;
     position: fixed;
     background-color: $background-color;
     width: 100%;
@@ -153,7 +155,7 @@
 }
 
 #meetResultsContainer {
-  padding-top: 30px;
+  padding-top: calc(5px + #{$meet-name-header-height});
 
   .results-group-row {
     display: flex;

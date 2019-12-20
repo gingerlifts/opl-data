@@ -77,7 +77,7 @@ function redirect() {
 
 function initMeet(): void {
     const toggler = document.getElementById("byDivisionToggler") as HTMLInputElement;
-
+    const showDetailsToggler = document.getElementById('showDetailsToggler') as HTMLInputElement;
     const lifterRows = document.getElementsByClassName('results-lifter-row-container') as HTMLCollection;
 
     for (let row of lifterRows) {
@@ -89,6 +89,22 @@ function initMeet(): void {
         arrow.classList.toggle("rotate");
       });
     }
+
+    showDetailsToggler.addEventListener('change', function() {
+        const hiddenRows = document.getElementsByClassName('results-lifter-hidden-row') as HTMLCollection;
+
+        if(this.checked) {
+            for (let row of hiddenRows) {
+              row.classList.remove("hide");
+            }
+
+        } else {
+          for (let row of hiddenRows) {
+            row.classList.add("hide");
+          }
+
+        }
+    });
 
     toggler.addEventListener('change', function() {
         if(this.checked) {
