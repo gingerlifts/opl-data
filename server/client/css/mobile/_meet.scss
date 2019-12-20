@@ -168,6 +168,7 @@
     display: flex;
     padding: 5px 0px;
     align-items: center;
+    font-size: 12px;
 
     .toggle-more-arrow {
       display: flex;
@@ -187,7 +188,11 @@
 
     .meet-list-name {
       width: auto;
-      padding: 0px 10px;
+      padding: 0px 0px 0px 10px;
+      max-width: 50%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
 
       .instagram {
         text-decoration: none;
@@ -209,14 +214,14 @@
     text-align: center;
 
     .results-lifter-details-more-results-row {
-      font-size: 12px;
+      font-size: 11px;
       display: flex;
       justify-content: space-around;
       padding: 5px;
     }
 
     .results-lifter-details-more-data-row{
-      font-size: 12px;
+      font-size: 11px;
       display: flex;
       justify-content: space-around;
       padding: 5px;
