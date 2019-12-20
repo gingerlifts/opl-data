@@ -78,6 +78,18 @@ function redirect() {
 function initMeet(): void {
     const toggler = document.getElementById("byDivisionToggler") as HTMLInputElement;
 
+    const lifterRows = document.getElementsByClassName('results-lifter-row-container') as HTMLCollection;
+
+    for (let row of lifterRows) {
+      const hiddenData = row.querySelector('.results-lifter-hidden-row') as HTMLElement;
+      const arrow = row.querySelector('img') as HTMLElement;
+
+      row.addEventListener('click', function() {
+        hiddenData.classList.toggle("hide");
+        arrow.classList.toggle("rotate");
+      });
+    }
+
     toggler.addEventListener('change', function() {
         if(this.checked) {
             selSort.value = "by-division";

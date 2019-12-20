@@ -38,7 +38,7 @@
     width: 100%;
     left: 0;
     z-index: 1;
-    
+
     .meet-mobile-meet-name {
       flex-grow: 1;
       display: flex;
@@ -74,11 +74,11 @@
   .meet-mobile-filter-container {
     display: flex;
     height: 35px;
-    position: absolute;
+    position: fixed;
     background-color: $background-color;
-    top: 30px;
     width: 100%;
     left: 0px;
+    bottom: $footer-height;
   }
   .meet-mobile-by-division-toggle-container {
     display: flex;
@@ -150,4 +150,79 @@
       border-radius: 50%;
     }
   }
+}
+
+#meetResultsContainer {
+  padding-top: 30px;
+
+  .results-group-row {
+    display: flex;
+    flex-direction: column;
+
+    .divheader {
+      color: $table-header-background-color;
+    }
+  }
+
+  .results-lifter-visible-row {
+    display: flex;
+    padding: 5px 0px;
+    align-items: center;
+
+    .toggle-more-arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 5px;
+
+      img {
+        display: inline-block;
+        height: 15px;
+
+        &.rotate {
+          transform: rotate(90deg) scaleX(-1);
+        }
+      }
+    }
+
+    .meet-list-name {
+      width: auto;
+      padding: 0px 10px;
+
+      .instagram {
+        text-decoration: none;
+      }
+    }
+
+    .meet-list-total {
+      margin-left: auto;
+    }
+  }
+
+  .results-lifter-row-container{
+    &:nth-child(2n){
+      background-color: $row-alt-background-color;
+    }
+  }
+
+  .results-lifter-hidden-row {
+    text-align: center;
+
+    .results-lifter-details-more-results-row {
+      font-size: 12px;
+      display: flex;
+      justify-content: space-around;
+      padding: 5px;
+    }
+
+    .results-lifter-details-more-data-row{
+      font-size: 12px;
+      display: flex;
+      justify-content: space-around;
+      padding: 5px;
+      border-bottom: 1px solid $table-header-background-color;;
+    }
+  }
+
+
 }
