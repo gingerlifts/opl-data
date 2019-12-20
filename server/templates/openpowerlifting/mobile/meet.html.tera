@@ -77,6 +77,115 @@
       </div>
     </div>
 
+
+    <div id="meetResultsContainer">
+      {% for table in tables %}
+
+      <div class="results-group-row">
+        {% if table.title %}
+          <div class="divheader">{{table.title}}</div>
+        {% endif %}
+
+        {% for this in table.rows %}
+          <div class="results-lifter-row-container">
+
+            <div class="results-lifter-visible-row">
+              {% if use_rank_column %}
+                <div>{{this.rank}}</div>
+              {% else %}
+                <div>{{this.place}}</div>
+              {% endif %}
+              <div class="meet-list-name">
+                <a class="{{this.lifter.color}}" href="{{urlprefix | safe}}u/{{this.lifter.username}}">
+                  {{this.localized_name}}
+                </a>
+                {% if this.lifter.instagram %}
+                  <a href="https://www.instagram.com/{{this.lifter.instagram}}" class="instagram" rel="noopener" target="_blank">
+                    <i class="fa fa-instagram fa-resize"></i>
+                  </a>
+                {% endif %}
+                {% if this.lifter.vkontakte %}
+                  <a href="https://vk.com/{{this.lifter.vkontakte}}" class="instagram" rel="noopener" target="_blank">
+                    <i class="fa fa-vk fa-resize"></i>
+                  </a>
+                {% endif %}
+              </div>
+              {% if this.total %}
+                <div class="meet-list-total">{{strings.columns.total}} {{this.total}}</div>
+              {% endif %}
+
+              <div class="toggle-more-arrow">
+                <img src="/static/images/select_dropdown_red.png" alt="toggle-more"/>
+              </div>
+            </div>
+
+
+            <div class="results-lifter-hidden-row hide">
+
+              <div class="results-lifter-details-more-results-row">
+                <div class="meet-lifter-equipment">
+                 {{strings.columns.equipment}}: {{this.equipment}}
+                </div>
+
+                {% if this.squat %}
+                  <div class="meet-lifter-squat">
+                   {{strings.columns.squat}}: {{this.squat}}
+                  </div>
+                {% endif %}
+
+                {% if this.bench %}
+                  <div class="meet-lifter-bench">
+                   {{strings.columns.bench}}: {{this.bench}}
+                  </div>
+                {% endif %}
+
+                {% if this.deadlift %}
+                  <div class="meet-lifter-deadlift">
+                   {{strings.columns.deadlift}}: {{this.deadlift}}
+                  </div>
+                {% endif %}
+              </div>
+
+              <div class="results-lifter-details-more-data-row">
+                {% if this.points %}
+                  <div class="meet-lifter-points">
+                   {{points_column_title}}: {{this.points}}
+                  </div>
+                {% endif %}
+
+                <div class="meet-lifter-sex">
+                 {{strings.columns.sex}}: {{this.sex}}
+                </div>
+
+                {% if has_age_data %}
+                  <div class="meet-lifter-age">
+                   {{strings.columns.age}}: {{this.age}}
+                  </div>
+                {% endif %}
+
+                <div class="meet-lifter-weightclass">
+                 {{strings.columns.weightclass}}: {{this.weightclass}}
+                </div>
+
+                <div class="meet-lifter-bodyweight">
+                 {{strings.columns.bodyweight}}: {{this.bodyweight}}
+                </div>
+              </div>
+
+
+
+
+
+
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+
+      {% endfor %}
+    </div>
+
+
     <table id="meetTable">
       <thead><tr>
         {% if use_rank_column %}
@@ -97,7 +206,9 @@
         <th>{{strings.columns.squat}}</th>
         <th>{{strings.columns.bench}}</th>
         <th>{{strings.columns.deadlift}}</th>
-      </tr></thead>
+      </tr>
+
+      </thead>
       <tbody>
       {% for table in tables %}
         {% if table.title %}
