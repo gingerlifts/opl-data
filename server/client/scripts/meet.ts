@@ -92,17 +92,24 @@ function initMeet(): void {
 
     showDetailsToggler.addEventListener('change', function() {
         const hiddenRows = document.getElementsByClassName('results-lifter-hidden-row') as HTMLCollection;
+        const arrows = document.getElementsByClassName('results-lifter-more-arrow') as HTMLCollection;
 
         if(this.checked) {
             for (let row of hiddenRows) {
               row.classList.remove("hide");
             }
 
+            for (let arrow of arrows) {
+              arrow.classList.add("rotate");
+            }
+
         } else {
           for (let row of hiddenRows) {
             row.classList.add("hide");
           }
-
+          for (let arrow of arrows) {
+            arrow.classList.remove("rotate");
+          }
         }
     });
 
