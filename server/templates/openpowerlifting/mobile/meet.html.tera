@@ -75,6 +75,15 @@
           <span class="slider round"></span>
         </label>
       </div>
+
+      <div class="meet-mobile-by-division-toggle-container">
+        Show details
+        <label class="switch">
+          <input id="showDetailsToggler" type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </div>
+
     </div>
 
 
