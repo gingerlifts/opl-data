@@ -5,7 +5,7 @@ Place,Name,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2K
 1,Sebastiaan Tempelaars,158.05,,,,,240,-247.5,-252.5,240,,,,,240,120+,Open,B,M,Raw
 1,William van der Struis,87.7,,,,,150,157.5,162.5,162.5,,,,,162.5,93,Open,B,M,Raw
 1,Fabbio Hu,66.8,,,,,122.5,130,-132.5,130,,,,,130,74,Open,B,M,Raw
-1,Ninja Bakermans,104.5,,,,,160,170,-175,170,,,,,170,120,Open,B,M,Raw
+1,Ninja Bakermans,104.5,,,,,160,170,-175,170,,,,,170,105,Open,B,M,Raw
 2,Thomas van Helsum,88.7,,,,,150,-152.5,-152.5,150,,,,,150,93,Open,B,M,Raw
 1,Jafar Dijks,79.25,,,,,122.5,130,-135,130,,,,,130,83,Open,B,M,Raw
 2,Sander van Zutphen,138.65,,,,,180,-192.5,-192.5,180,,,,,180,120+,Open,B,M,Raw
@@ -13,7 +13,7 @@ Place,Name,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2K
 3,Quinten Doornbos,90.15,,,,,122.5,130,-132.5,130,,,,,130,93,Open,B,M,Raw
 1,Eray Cingi,74,250,262.5,-270,262.5,165,172.5,177.5,177.5,255,-275,-285,255,695,74,Open,SBD,M,Single-ply
 2,Sven den Houting,101,-275,275,290,290,175,-182.5,182.5,182.5,250,260,267.5,267.5,740,105,Open,SBD,M,Single-ply
-3,Mitchel Leunissen,81.45,210,220,230,230,165,-175,-175,165,250,-275,-275,250,645,93,Open,SBD,M,Single-ply
+3,Mitchel Leunissen,81.45,210,220,230,230,165,-175,-175,165,250,-275,-275,250,645,83,Open,SBD,M,Single-ply
 4,Tibor Arnout,103.95,250,260,-270,260,155,-160,-160,155,270,280,290,290,705,105,Open,SBD,M,Single-ply
 5,Jochem Schaap,100.95,240,-255,-255,240,185,195,200,200,210,225,-230,225,665,105,Open,SBD,M,Single-ply
 6,Sjoerd Schoufs,73.2,-195,-195,200,200,95,-100,100,100,205,220,-225,220,520,74,Open,SBD,M,Single-ply
