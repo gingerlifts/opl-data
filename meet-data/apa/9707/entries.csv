@@ -1,4 +1,4 @@
-Name,WeightClassLBS,Division,Sex,Age,BodyweightLBS,Event,Equipment,Best3BenchLBS,Best3DeadliftLBS,TotalLBS,Place,Tested
+Name,WeightClassKg,Division,Sex,Age,BodyweightKg,Event,Equipment,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Tested
 Bob Kayhart,181,Open,M,,176,D,Single-ply,,529.5,529.5,,Yes
 Bob Kayhart,181,Open,M,,176,D,Single-ply,,529.5,529.5,,
 C. Kelly,220,Open,M,47,208,B,Raw,347.5,,347.5,,Yes
