@@ -1,4 +1,4 @@
-BodyweightKg,Name,Team,Place,WeigthClassKg,Division,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Equipment,Sex
+BodyweightKg,Name,Team,Place,WeightClassKg,Division,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Equipment,Sex
 65.2,Rob van de Weert,Physial,1,67.5,Sub-Juniors,125,130,-135,130,60,-65,65,65,130,135,145,145,340,SBD,Single-ply,M
 61.8,Jonny Vos,Physial,2,67.5,Sub-Juniors,115,125,-127.5,125,50,55,-60,55,115,125,130,130,310,SBD,Single-ply,M
 69.3,Ralf Rutten,NKV Atlas,1,75,Sub-Juniors,100,110,120,120,60,67.5,72.5,72.5,110,130,145,145,337.5,SBD,Single-ply,M
