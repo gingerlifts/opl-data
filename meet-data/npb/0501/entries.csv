@@ -23,7 +23,7 @@ Place,Name,WeightClassKg,Team,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,B
 2,Arjan Mater,67.5,fennell,67.2,110,125,-130,,125,125,B,Single-ply,M,Open
 3,Danny Dohmen,67.5,fennell,65.7,90,-92.5,-92.5,,90,90,B,Single-ply,M,Juniors
 1,Charie Smith,67.5,Essbra,62.6,135,142.5,-147.5,,142.5,142.5,B,Single-ply,M,Masters 1
-2,Douglas carli,67.5,fennell,67.4,125,-130,-132.5,,125,125,B,Single-ply,M,Masters 1
+2,Douglas Carli,67.5,fennell,67.4,125,-130,-132.5,,125,125,B,Single-ply,M,Masters 1
 1,Erik Konickx,75,Fennel,73.1,165,170,176,177.5,176,176,B,Single-ply,M,Open
 2,Pjotr Odolinski,75,Spartacus,74.6,152.5,157.5,-162.5,,157.5,157.5,B,Single-ply,M,Open
 1,Erik Konickx,75,Fennel,73.1,165,170,176,177.5,176,176,B,Single-ply,M,Masters 1
@@ -34,7 +34,7 @@ Place,Name,WeightClassKg,Team,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,B
 2,Neil Commandeur,82.5,Spartacus,82.5,135,140,-145,,140,140,B,Single-ply,M,Open
 3,Danny van Dorsten,82.5,Fennell,82.3,127.5,132.5,137.5,,137.5,137.5,B,Single-ply,M,Open
 1,Jonny van Putten,82.5,Essbra,82,-120,120,130,,130,130,B,Single-ply,M,Juniors
-1,Bert v/d Heugden,82.5,Essbra,81.7,130,135,140,,140,140,B,Single-ply,M,Masters 1
+1,Bert v.d. Heugden,82.5,Essbra,81.7,130,135,140,,140,140,B,Single-ply,M,Masters 1
 2,Paul Hulscher,82.5,Physical,80.8,100,-110,110,,110,110,B,Single-ply,M,Masters 1
 1,Erik Raaymaker,82.5,Essbra,82.1,125,130,135,,135,135,B,Single-ply,M,Masters 2
 1,Frans van Putten,90,Essbra,88,205.5,210,217.5,,217.5,217.5,B,Single-ply,M,Open
@@ -45,7 +45,7 @@ Place,Name,WeightClassKg,Team,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,B
 6,Ruud Laarman,90,Altas,85.3,130,137.5,147.5,,147.5,147.5,B,Single-ply,M,Open
 7,Paul Stolk,90,Schuttersveld,89.7,140,147.5,-150,,147.5,147.5,B,Single-ply,M,Open
 8,Arnold Boersma,90,Ysbrechtum,88.4,115,122.5,-127.5,,122.5,122.5,B,Single-ply,M,Open
-9,Gilbert van der Heijden,90,Top-Fit,87.4,-172.5,-172.5,-172.5,,-172.5,-172.5,B,Single-ply,M,Open
+DQ,Gilbert van der Heijden,90,Top-Fit,87.4,-172.5,-172.5,-172.5,,-172.5,,B,Single-ply,M,Open
 1,Marthijn Seyen ten Hoorn,90,Plato,89.6,120,135,142.5,,142.5,142.5,B,Single-ply,M,Juniors
 2,Thijs van Griensven,90,Plato,89.6,-120,-120,120,,120,120,B,Single-ply,M,Juniors
 1,Frans v Putten,90,Essbra,88,205.5,210,217.5,,217.5,217.5,B,Single-ply,M,Masters 1
@@ -86,4 +86,4 @@ DQ,Carlos de Noten,100,Plato,95.3,-200,-200,-200,,,,B,Single-ply,M,Open
 3,Robbert Meinen,125+,Ysbrechtum,131.7,180,185,-190,,185,185,B,Single-ply,M,Open
 4,Rien Bijdevier,125+,Physical,129.5,160,170,-180,,170,170,B,Single-ply,M,Open
 1,Rien Bijdevier,125+,Physical,129.5,160,170,-180,,170,170,B,Single-ply,M,Masters 1
-1,Cees Ootjers,125+,Atlas,140,-165,165,175,,175,175,B,Single-ply,M,Disabled
+1,Cees Ootjers,100+,Atlas,140,-165,165,175,,175,175,B,Single-ply,M,Disabled
