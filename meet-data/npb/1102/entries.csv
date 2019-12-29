@@ -5,9 +5,9 @@ Place,Name,BodyweightKg,Team,Division,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,B
 DQ,Hermine Landvreugd,60.9,Alg Lid,Masters 2,63,-100,-100,-100,,55,60,-62.5,60,140,150,152.5,152.5,,SBD,Single-ply,F
 1,Merijn Helsloot,64.8,Spartacus,Sub-Juniors,66,135,145,150,150,65,70,72.5,72.5,160,-170,170,170,392.5,SBD,Single-ply,M
 1,Jafar Dijks,73.8,Hard-Core,Sub-Juniors,74,175,185,190,190,77.5,82.5,87.5,87.5,165,180,187.5,187.5,465,SBD,Single-ply,M
-1,Tom v/d Broek,81.8,Axis Fitness,Sub-Juniors,83,140,-145,145,145,95,100,105,105,200,205,210,210,460,SBD,Single-ply,M
+1,Tom v.d. Broek,81.8,Axis Fitness,Sub-Juniors,83,140,-145,145,145,95,100,105,105,200,205,210,210,460,SBD,Single-ply,M
 1,Gokhan Kart,83.2,Word Tilburg,Sub-Juniors,93,-170,170,-180,170,125,127.5,-132.5,127.5,215,217.5,-222.5,217.5,515,SBD,Single-ply,M
-1,Jorg v/d Water,73,Atlas Nijmegen,Juniors,74,157.5,167.5,-172.5,167.5,105,112.5,-117.5,112.5,180,192.5,-200,192.5,472.5,SBD,Single-ply,M
+1,Jorg v.d. Water,73,Atlas Nijmegen,Juniors,74,157.5,167.5,-172.5,167.5,105,112.5,-117.5,112.5,180,192.5,-200,192.5,472.5,SBD,Single-ply,M
 1,Johnny Vos,80.6,Physical,Juniors,83,180,-187.5,-187.5,180,80,87.5,-90,87.5,175,-180,,175,442.5,SBD,Single-ply,M
 1,Jorrit de Jong,91.9,Atlas Nijmegen,Juniors,93,190,205,-207.5,205,-130,-130,130,130,210,220,230,230,565,SBD,Single-ply,M
 2,Frank Mastrigt,88.8,Ijbrechten,Juniors,93,-190,190,200,200,110,117.5,-122.5,117.5,210,225,232.5,232.5,550,SBD,Single-ply,M
@@ -17,10 +17,10 @@ DQ,Hermine Landvreugd,60.9,Alg Lid,Masters 2,63,-100,-100,-100,,55,60,-62.5,60,1
 DQ,Niels Rook,139,Spartacus,Juniors,120+,-315,-330,-330,,,,,,,,,,,SBD,Single-ply,M
 1,Raimondo Touw,81.9,Hard-Core,Masters 1,83,165,-175,-175,165,100,110,-115,110,-165,165,-175,165,440,SBD,Single-ply,M
 1,Piet van Haaren,91.9,Atlas,Masters 1,93,295,315,325,325,150,160,167.5,167.5,295,317.5,-325,317.5,810,SBD,Single-ply,M
-2,Pieter vd Vijfeijke,88.2,Spartacus,Masters 1,93,205,215,,215,162.5,-167.5,,162.5,230,237.5,242.5,242.5,620,SBD,Single-ply,M
+2,Pieter van de Vijfeijke,88.2,Spartacus,Masters 1,93,205,215,,215,162.5,-167.5,,162.5,230,237.5,242.5,242.5,620,SBD,Single-ply,M
 3,John Schellekens,91,Physical,Masters 1,93,182.5,195,200,200,125,-130,130,130,220,235,-245,235,565,SBD,Single-ply,M
 4,Paul Hulscher,91,Physical,Masters 1,93,165,175,185,185,-125,125,130,130,170,185,195,195,510,SBD,Single-ply,M
-1,Jacobus v/d Werf,101.1,Spartacus,Masters 1,105,185,195,-200,195,160,165,-167.5,165,185,200,-210,200,560,SBD,Single-ply,M
+1,Jacobus v.d. Werf,101.1,Spartacus,Masters 1,105,185,195,-200,195,160,165,-167.5,165,185,200,-210,200,560,SBD,Single-ply,M
 DQ,Wim Wamsteeker,130.2,SSS,Masters 1,120+,-300,-300,-300,,,,,,,,,,,SBD,Single-ply,M
 1,Fried Zevenbergen,82.3,Hard-Core,Masters 2,83,125,-130,-130,125,130,135,-140,135,180,190,200,200,460,SBD,Single-ply,M
 1,Bram Hazeu,103.2,Spartacus,Masters 2,105,220,230,240,240,152.5,160,,160,240,260,-270,260,660,SBD,Single-ply,M
