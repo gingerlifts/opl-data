@@ -1,4 +1,4 @@
-Place,Name,Birthyear,WeightClassKg,Team,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Event,Equipment,Sex,Division
+Place,Name,BirthYear,WeightClassKg,Team,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Event,Equipment,Sex,Division
 1,Sandra Carli,1961,52,Fennell,51.3,80,82.5,85,85,85,B,Single-ply,F,Open
 DQ,Tonia Strik,1950,60,Atlas,61,85,85,85,,,B,Single-ply,F,Open
 DQ,Jolanda Valk,1972,60,Atlas,57.5,90,90,90,,,B,Single-ply,F,Open
