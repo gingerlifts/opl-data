@@ -1,4 +1,4 @@
-ame,WeightClassKg,Division,Sex,Age,BodyweightKg,Event,Equipment,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Tested
+Name,WeightClassKg,Division,Sex,Age,BodyweightKg,Event,Equipment,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Tested
 G. Leader,75,M50-54,F,51,69.85,B,Single-ply,,61.23,,61.23,1,Yes
 G. Henderson,67.5,Novice,F,26,66.22,B,Single-ply,,38.56,,38.56,1,Yes
 Kim Austen,56,Open,F,29,52.62,B,Single-ply,,63.5,,63.5,1,Yes
