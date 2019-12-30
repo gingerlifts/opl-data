@@ -1,5 +1,5 @@
 Name,BodyweightKg,WeightClassKg,Team,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Division,Event,Equipment,Sex
-John Vos,66.1,67.5,Physical,130,60,130,325,1,Open,SBD,Single-ply,M
+John Vos,66.1,67.5,Physical,130,60,130,350,1,Open,SBD,Single-ply,M
 Eric Elsing,71.9,75,Plato,145,107.5,167.5,420,2,Open,SBD,Single-ply,M
 Danny Dohmen,72.8,75,Fennell,180,130,200,510,1,Open,SBD,Single-ply,M
 Michael Diepstraten,82.1,82.5,Fennell,170,130,200,500,1,Open,SBD,Single-ply,M
@@ -22,7 +22,7 @@ Joanne Schaefer,105.8,90+,Helios Simpelveld,220,180,220,620,1,Open,SBD,Single-pl
 Pardeep Kailey,74.8,75,Atlas Nijmegen,220,140,20,380,1,Open,SBD,Single-ply,M
 John Slooten,85.4,90,S.S.S.,230,155,240,625,2,Open,SBD,Single-ply,M
 Anne Bierma,87.8,90,Ysbrechtum,230,162.5,242.5,635,1,Open,SBD,Single-ply,M
-Pjotr vd Hoek,93,100,Spartacus,300,235,297.5,832.5,1,Open,SBD,Single-ply,M
+Pjotr van den Hoek,93,100,Spartacus,300,235,297.5,832.5,1,Open,SBD,Single-ply,M
 Ylke Vaassen,109.8,110,Atlas Nijmegen,315,200,312.5,827.5,1,Open,SBD,Single-ply,M
 Ronald Braak,102,110,S.S.S.,240,160,235,635,2,Open,SBD,Single-ply,M
 Michael Kalter,111.5,125,S.S.S.,305,200,315,820,1,Open,SBD,Single-ply,M
