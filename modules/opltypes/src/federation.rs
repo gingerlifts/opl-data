@@ -281,8 +281,8 @@ pub enum Federation {
     EPF,
 
     /// European Powerlifting Alliance.
-    #[strum(to_string = "ErWPA", serialize = "erwpa")]
-    ErWPA,
+    #[strum(to_string = "EuroPA", serialize = "erpa")]
+    EuroPA,
 
     /// Ελληνικό Σωματείο Δυναμικού Τριάθλου, multi-fed Greek affiliate.
     #[strum(to_string = "ESDT", serialize = "esdt")]
@@ -1244,7 +1244,7 @@ impl Federation {
             Federation::EnglandUA => false,
             Federation::EPA => FULLY_TESTED,
             Federation::EPF => FULLY_TESTED,
-            Federation::ErWPA => false,
+            Federation::EuroPA => false,
             Federation::ESDT => false,
             Federation::FALPO => FULLY_TESTED,
             Federation::FBPD => false,
@@ -1519,7 +1519,7 @@ impl Federation {
             Federation::EnglandUA => Some(Country::England),
             Federation::EPA => Some(Country::England),
             Federation::EPF => None,
-            Federation::ErWPA =>  Some(Country::Ukraine),
+            Federation::EuroPA => None,
             Federation::ESDT => Some(Country::Greece),
             Federation::FALPO => Some(Country::Argentina),
             Federation::FBPD => Some(Country::Russia),
@@ -1814,7 +1814,7 @@ impl Federation {
             Federation::EnglandUA => None,
             Federation::EPA => Some(Federation::IPF),
             Federation::EPF => Some(Federation::IPF),
-            Federation::ErWPA => None,
+            Federation::EuroPA => None,
             Federation::ESDT => None,
             Federation::FALPO => Some(Federation::IPF),
             Federation::FBPD => None,
@@ -2121,7 +2121,7 @@ impl Federation {
             Federation::EnglandUA => PointsSystem::Wilks,
             Federation::EPA => Federation::ipf_rules_on(date),
             Federation::EPF => Federation::ipf_rules_on(date),
-            Federation::ErWPA => PointsSystem::Wilks,
+            Federation::EuroPA => PointsSystem::Wilks,
             Federation::ESDT => PointsSystem::Wilks,
             Federation::FALPO => Federation::ipf_rules_on(date),
             Federation::FBPD => PointsSystem::Wilks,
