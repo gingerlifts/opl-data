@@ -41,7 +41,7 @@ WeightClassKg,Place,Name,BirthYear,Country,BodyweightKg,Best3SquatKg,Best3BenchK
 90,9,Terry Flood,1943,Ireland,87.4,180,132.5,220,532.5,SBD,Single-ply,M-E-M1,M
 90,10,Sean Caniffe,1947,Ireland,84.7,200,100,220,520,SBD,Single-ply,M-E-M1,M
 100,1,Ralph Farquharson,1944,UK,99.8,290,192.5,307.5,790,SBD,Single-ply,M-E-M1,M
-100,2,Manfred Großmann,1942,Germany,99.1,325,175,287.5,787.5,SBD,Single-ply,M-E-M1,M
+100,2,Manfred Grossmann,1942,Germany,99.1,325,175,287.5,787.5,SBD,Single-ply,M-E-M1,M
 100,3,John Biddulph,1941,UK,97.2,275,167.5,322.5,765,SBD,Single-ply,M-E-M1,M
 100,4,Adolf Ditschmann,1945,Germany,98.9,290,165,307.5,762.5,SBD,Single-ply,M-E-M1,M
 100,5,Bernard Boyer,1946,France,99,255,152.5,307.5,715,SBD,Single-ply,M-E-M1,M
@@ -49,7 +49,7 @@ WeightClassKg,Place,Name,BirthYear,Country,BodyweightKg,Best3SquatKg,Best3BenchK
 100,7,Matti Aunula,1941,Finland,99.5,262.5,150,255,667.5,SBD,Single-ply,M-E-M1,M
 110,1,David Hancock,1945,UK,108.1,280,180,320,780,SBD,Single-ply,M-E-M1,M
 110,2,Ferry van der Meulen,1947,Netherlands,107.4,297.5,185,287.5,770,SBD,Single-ply,M-E-M1,M
-110,3,Manfred Büttner,1944,Germany,106.1,290,185,290,765,SBD,Single-ply,M-E-M1,M
+110,3,Manfred Buttner,1944,Germany,106.1,290,185,290,765,SBD,Single-ply,M-E-M1,M
 110,4,Gerd Herrmann,1943,Germany,109.5,285,160,285,730,SBD,Single-ply,M-E-M1,M
 110,5,Henk Keizer,1946,Netherlands,103,300,160,265,725,SBD,Single-ply,M-E-M1,M
 110,6,Aloysius Moonen,1947,Belgium,108.1,260,162.5,267.5,690,SBD,Single-ply,M-E-M1,M
@@ -60,7 +60,7 @@ WeightClassKg,Place,Name,BirthYear,Country,BodyweightKg,Best3SquatKg,Best3BenchK
 125,1,David Carter,1947,UK,122.6,332.5,175,370,877.5,SBD,Single-ply,M-E-M1,M
 125,2,Miroslaw Klimek,1947,Germany,121.9,285,180,300,765,SBD,Single-ply,M-E-M1,M
 125+,1,Andy Kerr,1946,UK,138,290,232.5,330,852.5,SBD,Single-ply,M-E-M1,M
-125+,2,Björn Hansen,1944,Norway,126.1,285,160,290,735,SBD,Single-ply,M-E-M1,M
+125+,2,Bjørn Hansen,1944,Norway,126.1,285,160,290,735,SBD,Single-ply,M-E-M1,M
 125+,3,Matti Tanskanen,1946,Finland,131.8,270,185,280,735,SBD,Single-ply,M-E-M1,M
 52,1,Heikki Mähonen,1924,Finland,51.2,55,45,110,210,SBD,Single-ply,M-E-M2,M
 56,1,Ted Brown,1930,UK,55.5,157.5,105,182.5,445,SBD,Single-ply,M-E-M2,M
