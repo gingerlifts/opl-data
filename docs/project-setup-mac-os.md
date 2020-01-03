@@ -22,20 +22,44 @@ Ensure that you have git installed, and run
   ```bash
   curl https://sh.rustup.rs -sSf | sh
   ```
-### 4. Add cargo package manager to your PATH
+  make sure you use nightly version of rust:
+  ```bash
+  rustup default nightly
+  ```
 
+### 4. Add cargo package manager to your PATH
   ```bash
   sudo nano ~/.bash_profile
   ```
  your PATH variable should contain `$HOME/.cargo/bin`, for example export PATH="$HOME/.cargo/bin:{other_stuff}:$PATH"
 
-### 5. Install dependencies:
+### 5. Install Python3 (if needed)
 
-  ```bash
-  brew install make npm python3-toml python3-beautifulsoup4 python3-flake8 ansible parallel uglify-js
-  ```
+```bash
+brew install python
+```
 
-### 6. Run the Makefile
+### 6. Install pip
+
+```bash
+sudo easy_install pip
+```
+
+### 7. Install dependencies:
+
+```bash
+sudo pip install toml beautifulsoup4 flake8
+```
+
+```bash
+brew install make npm ansible parallel
+```
+
+```bash
+npm install uglify-js -g
+```
+
+### 8. Run the Makefile
 In the `opl-data/` base directory, run
 
   ```bash
@@ -74,11 +98,12 @@ When you run `make` in the root directory and see:
   make[1]: *** [clientstatics] Error 1
   ```
 
-go to `server/templates` and check if you have `static-asset-map-mac.tera` file,if you dont,
-rename file `static-asset-map-mac-os-fix.tera` to `static-asset-map.tera`. Then go to `server/client/build` folder and open
-`static-asset-map.tera` file, change the hashed file names in your `server/templates/static-asset-map.tera` file to the ones you see in the
-`server/client/build/static-asset-map.tera` file
+go to `server/templates` and check if you have `static-asset-map.tera` file, if you don't,
+rename file `static-asset-map-mac-os-fix.tera` to `static-asset-map.tera` and run `make` again (You should see Good luck! message if everything succeeds).
+Then open `server/client/build/data/templates/static-asset-map.tera` file and copy the contents to the file you just renamed (`server/templates/static-asset-map.tera`).
 
 
-then run `make` again (You should see Good luck! message if everything succeeds)
-then go to the `server` folder and run `cargo run --release`
+then run `make` again
+then go to the `server` folder and run `cargo run`
+
+Unfortunately you have to paste the contents from `server/client/build/data/templates/static-asset-map.tera` to `server/templates/static-asset-map.tera` every time you do run `make` in server folder until we fix this somehow.
