@@ -1,0 +1,214 @@
+WeightClassKg,Division,Sex,Name,BirthYear,BodyweightKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Equipment,Event
+52,Youth,F,Wendlandt Mareen,1991,51.1,110.0,122.5,127.5,127.5,127.5,1,Single-ply,D
+56,Youth,F,Bauer Denise,1991,56.0,110.0,120.0,-125.0,120.0,120.0,1,Single-ply,D
+60,Youth,F,Popp Lucy-Mae,1992,56.9,70.0,80.0,85.0,85.0,85.0,1,Single-ply,D
+67.5,Youth,F,Oehlke Jennifer,1991,67.5,100.0,110.0,-112.5,110.0,110.0,1,Single-ply,D
+52,Juniors,F,Ortega Moreno Natalie,1986,51.7,60.0,-80.0,80.0,80.0,80.0,1,Single-ply,D
+56,Juniors,F,Cichon Susann,1987,55.2,147.5,-156.0,-156.0,147.5,147.5,1,Single-ply,D
+56,Juniors,F,Schuster Jacqueline,1985,55.3,117.5,127.5,130.0,130.0,130.0,2,Single-ply,D
+67.5,Juniors,F,Kluske Janine,1985,66.1,115.0,127.5,135.0,135.0,135.0,1,Single-ply,D
+67.5,Juniors,F,Roeder Vivien,1988,66.6,120.0,-130.0,-130.0,120.0,120.0,2,Single-ply,D
+75,Juniors,F,Mull Veronika,1989,75.0,115.0,130.0,-136.0,130.0,130.0,1,Single-ply,D
+52,Open,F,Ebel Natalie,1983,51.7,130.0,137.5,142.5,142.5,142.5,1,Single-ply,D
+52,Open,F,Ehrlicher Esther,1976,50.1,130.0,135.0,-140.0,135.0,135.0,2,Single-ply,D
+52,Open,F,Pfeiffer Anita,1983,51.2,105.0,115.0,-120.0,115.0,115.0,3,Single-ply,D
+56,Open,F,Hedrich Peggy,1980,56.0,115.0,-122.5,130.0,130.0,130.0,1,Single-ply,D
+56,Open,F,Viragos Sindy,1978,56.0,-125.0,125.0,127.5,127.5,127.5,2,Single-ply,D
+56,Open,F,Weber Anja,1980,52.5,100.0,110.0,122.5,122.5,122.5,3,Single-ply,D
+56,Open,F,Siebach Claire,1974,55.4,105.0,112.5,117.5,117.5,117.5,4,Single-ply,D
+60,Open,F,Falck Daniela,1975,59.2,150.0,157.5,-162.5,157.5,157.5,1,Single-ply,D
+60,Open,F,Brandt Simone,1971,57.7,115.0,125.0,130.0,130.0,130.0,2,Single-ply,D
+60,Open,F,Allard Melanie,1984,59.8,95.0,105.0,107.5,107.5,107.5,3,Single-ply,D
+60,Open,F,Kotscha Grit,1976,57.8,-90.0,100.0,105.0,105.0,105.0,4,Single-ply,D
+60,Open,F,Stoppa Kathrin,1984,56.8,80.0,92.5,100.0,100.0,100.0,5,Single-ply,D
+67.5,Open,F,Steger Nicole,1981,65.4,180.0,187.5,192.5,192.5,192.5,1,Single-ply,D
+67.5,Open,F,Bartels Daniela,1971,66.2,170.0,180.0,-190.0,180.0,180.0,2,Single-ply,D
+67.5,Open,F,Schreiber Elke,1984,65.7,155.0,165.0,170.0,170.0,170.0,3,Single-ply,D
+82.5,Open,F,Segerer Martina,1980,81.0,170.0,181.0,-190.0,181.0,181.0,1,Single-ply,D
+90,Open,F,Weinzierl Claudia,1970,83.8,150.0,160.0,165.0,165.0,165.0,1,Single-ply,D
+52,Masters 1,F,Lauber Viola,1964,50.9,105.0,115.0,122.5,122.5,122.5,1,Single-ply,D
+60,Masters 1,F,Bommersbach Sabine,1964,57.8,115.0,130.0,-140.0,130.0,130.0,1,Single-ply,D
+60,Masters 1,F,Heß Kerstin,1968,58.8,95.0,105.0,-110.0,105.0,105.0,2,Single-ply,D
+67.5,Masters 1,F,Kunkel Iris,1964,66.0,147.5,152.5,160.0,160.0,160.0,1,Single-ply,D
+67.5,Masters 1,F,Naarmann Ines,1968,66.1,125.0,130.0,135.0,135.0,135.0,2,Single-ply,D
+67.5,Masters 1,F,Köster Anke,1968,67.5,110.0,-120.0,120.0,120.0,120.0,3,Single-ply,D
+75,Masters 1,F,Wunderlich Sylvia,1965,73.9,115.0,125.0,-130.0,125.0,125.0,1,Single-ply,D
+75,Masters 1,F,Friese Kerstin,1966,71.3,110.0,120.0,-125.0,120.0,120.0,2,Single-ply,D
+90,Masters 1,F,Schulz Sabine,1962,88.8,105.0,112.5,115.0,115.0,115.0,1,Single-ply,D
+60,Masters 2,F,Bayer Ingvild,1954,59.2,132.5,-142.5,146.0,146,146,1,Single-ply,D
+67.5,Masters 2,F,Thimm Anita,1950,62.8,150,160,,160.0,160.0,1,Single-ply,D
+52,Youth,M,Menzel Brain,1994,51.6,90.0,100.0,105.0,105.0,105.0,1,Single-ply,D
+56,Youth,M,Sudhoff Matthias,1992,53.9,115.0,127.5,130.0,130.0,130.0,1,Single-ply,D
+56,Youth,M,Rese Richard,1990,53.2,120.0,-127.5,127.5,127.5,127.5,2,Single-ply,D
+60,Youth,M,Blank Steven,1990,59.4,160.0,170.0,175.0,175.0,175.0,1,Single-ply,D
+60,Youth,M,Poppe Hendrik,1990,60.0,100.0,115.0,117.5,117.5,117.5,2,Single-ply,D
+60,Youth,M,Schnurr Julian,1994,58.4,100.0,110.0,115.0,115.0,115.0,3,Single-ply,D
+67.5,Youth,M,Cerepanow Nick,1990,64.0,175.0,187.5,-197.5,187.5,187.5,1,Single-ply,D
+67.5,Youth,M,Gronschel Sebastian,1992,65.7,150.0,-160.0,-170.0,150.0,150.0,2,Single-ply,D
+67.5,Youth,M,Schwendemann Maikel,1991,66.1,-122.5,132.5,-152.5,132.5,132.5,3,Single-ply,D
+75,Youth,M,Jordan Wladimir,1990,74.2,200.0,210.0,220.0,220.0,220.0,1,Single-ply,D
+75,Youth,M,Curth Vincent,1991,73.7,180.0,192.5,-200.0,192.5,192.5,2,Single-ply,D
+75,Youth,M,Vierig Kevin,1992,75.0,155.0,165.0,167.5,167.5,167.5,3,Single-ply,D
+75,Youth,M,Becker Sergej,1991,69.5,155.0,-167.5,-167.5,155.0,155.0,4,Single-ply,D
+75,Youth,M,Leisker Robert,1993,72.7,120.0,130.0,135.0,135.0,135.0,5,Single-ply,D
+75,Youth,M,Neumann Chris,1993,71.1,100.0,110.0,115.0,115.0,115.0,6,Single-ply,D
+82.5,Youth,M,Köhler Michel,1990,77.1,220.0,235.0,-242.5,235.0,235.0,1,Single-ply,D
+82.5,Youth,M,Ruprecht Daniel,1990,81.0,175.0,185.0,195.0,195.0,195.0,2,Single-ply,D
+82.5,Youth,M,Mull Jakob,1992,81.8,170.0,182.5,195.0,195.0,195.0,3,Single-ply,D
+82.5,Youth,M,Becker Johann,1991,77.0,170.0,182.5,-192.5,182.5,182.5,4,Single-ply,D
+82.5,Youth,M,Nöthlich Felix,1990,79.4,182.5,-192.5,-192.5,182.5,182.5,5,Single-ply,D
+82.5,Youth,M,Geiß Tobias,1990,80.5,135.0,145.0,155.0,155.0,155.0,6,Single-ply,D
+90,Youth,M,Boll Michael,1990,88.0,210.0,220.0,-225.0,220.0,220.0,1,Single-ply,D
+100,Youth,M,Böttger Marcus,1990,98.0,250.0,260.0,270.0,270.0,270.0,1,Single-ply,D
+100,Youth,M,Bulla Oliver,1990,90.4,190.0,210.0,-220.0,210.0,210.0,2,Single-ply,D
+110,Youth,M,Gollnick Nico,1991,105.0,180.0,205.0,215.0,215.0,215.0,1,Single-ply,D
+110,Youth,M,Vysockij Jan,1991,100.1,190.0,205.0,-215.0,205.0,205.0,2,Single-ply,D
+125+,Youth,M,Schulze Tobias,1990,139.8,220.0,241.0,251.0,251.0,251.0,1,Single-ply,D
+56,Juniors,M,Leutzow Christian,1988,53.9,140.0,150.0,-160.0,150.0,150.0,1,Single-ply,D
+67.5,Juniors,M,Wolkow Johannes,1986,66.7,200.0,210.0,-220.0,210.0,210.0,1,Single-ply,D
+67.5,Juniors,M,Kaiser Ron,1985,63.7,-165.0,-165.0,-165.0,,,DQ,Single-ply,D
+75,Juniors,M,Ehrlicher Michel,1985,73.3,220.0,235.0,250.0,250.0,250.0,1,Single-ply,D
+75,Juniors,M,Körner Tom,1988,72.7,215.0,230.0,-240.0,230.0,230.0,2,Single-ply,D
+75,Juniors,M,Becker Felix,1989,71.1,180.0,187.5,-192.5,187.5,187.5,3,Single-ply,D
+75,Juniors,M,Tetschke Tobias,1989,70.2,150.0,170.0,-180.0,170.0,170.0,4,Single-ply,D
+82.5,Juniors,M,Grab Matthias,1985,81.1,275.0,285.0,-292.5,285.0,285.0,1,Single-ply,D
+82.5,Juniors,M,Justus André,1987,81.0,250.0,260.0,-262.5,260.0,260.0,2,Single-ply,D
+82.5,Juniors,M,Denk Alexander,1986,77.0,235.0,250.0,-260.0,250.0,250.0,3,Single-ply,D
+82.5,Juniors,M,Vierig Steven,1985,81.0,210.0,225.0,235.0,235.0,235.0,4,Single-ply,D
+82.5,Juniors,M,Lux Martin,1989,80.7,205.0,220.0,-225.0,220.0,220.0,5,Single-ply,D
+82.5,Juniors,M,Koschnik Leon,1988,82.2,200.0,220.0,-252.5,220.0,220.0,6,Single-ply,D
+90,Juniors,M,Schreiber Christian,1987,87.2,255.0,265.0,275.0,275.0,275.0,1,Single-ply,D
+90,Juniors,M,Reichardt Tobias,1986,84.1,200.0,215.0,230.0,230.0,230.0,2,Single-ply,D
+100,Juniors,M,Fleissner Malte,1989,91.9,260.0,270.0,-272.5,270.0,270.0,1,Single-ply,D
+100,Juniors,M,Pfeiffer Daniel,1986,99.0,240.0,262.5,-272.5,262.5,262.5,2,Single-ply,D
+100,Juniors,M,Ludwig Thomas,1989,94.3,190.0,200.0,205.0,205.0,205.0,3,Single-ply,D
+100,Juniors,M,Klann Stephan,1987,99.3,170.0,195.0,-207.5,195.0,195.0,4,Single-ply,D
+100,Juniors,M,Treimer Stefan,1985,90.5,-280.0,-280.0,-280.0,,,DQ,Single-ply,D
+110,Juniors,M,Podas Steven,1989,107.6,230.0,245.0,257.5,257.5,257.5,1,Single-ply,D
+110,Juniors,M,Ritschel Denny,1988,100.9,230.0,245.0,255.0,255.0,255.0,2,Single-ply,D
+110,Juniors,M,Hofmann Benjamin,1985,108.8,-230.0,240.0,-252.5,240.0,240.0,3,Single-ply,D
+125,Juniors,M,Enge Robert,1989,112.5,185.0,195.0,205.0,205.0,205.0,1,Single-ply,D
+60,Open,M,Richter Danny,1984,57.8,137.5,152.5,-160.0,152.5,152.5,1,Single-ply,D
+67.5,Open,M,Riesch Matthias,1973,65.6,240.0,247.5,-250.0,247.5,247.5,1,Single-ply,D
+67.5,Open,M,Schwabe Mirko,1979,66.4,220.0,242.5,-250.0,242.5,242.5,2,Single-ply,D
+67.5,Open,M,Kühn Marcel,1979,67.0,170.0,180.0,195.0,195.0,195.0,3,Single-ply,D
+67.5,Open,M,Dzhyoyev Alexander,1984,67.5,170.0,-177.5,-177.5,170.0,170.0,4,Single-ply,D
+75,Open,M,Schmidt Peter,1974,74.0,235.0,255.0,265.0,265.0,265.0,1,Single-ply,D
+75,Open,M,Korell Thomas,1983,73.2,235.0,250.0,262.5,262.5,262.5,2,Single-ply,D
+75,Open,M,Van Dunem Lopes,1969,74.0,230.0,240.0,-245.0,240.0,240.0,3,Single-ply,D
+75,Open,M,Kücük Ömer,1983,69.5,230.0,-240.0,-245.0,230.0,230.0,4,Single-ply,D
+75,Open,M,Knopf Sascha,1983,73.1,205.0,215.0,-220.0,215.0,215.0,5,Single-ply,D
+82.5,Open,M,Schütz Alex,1984,75.1,240.0,247.5,255.0,255.0,255.0,1,Single-ply,D
+82.5,Open,M,Starke Uwe,1976,79.7,220.0,245.0,250.0,250.0,250.0,2,Single-ply,D
+82.5,Open,M,Lysenko Alexej,1984,79.2,225.0,235.0,242.5,242.5,242.5,3,Single-ply,D
+82.5,Open,M,Erfurth Ingo,1980,79.9,230.0,242.5,-250.0,242.5,242.5,4,Single-ply,D
+82.5,Open,M,Pähtz Thomas,1983,80.5,240.0,-255.0,-257.5,240.0,240.0,5,Single-ply,D
+90,Open,M,Melcher Matthias,1974,87.9,300.0,315.0,322.5,322.5,322.5,1,Single-ply,D
+90,Open,M,Mezker Vitalij,1978,89.6,280.0,287.5,290.0,290.0,290.0,2,Single-ply,D
+90,Open,M,Pojer Ronny,1977,85.2,262.5,275.0,-287.5,275.0,275.0,3,Single-ply,D
+90,Open,M,Stöver Jochen,1965,88.4,252.5,275.0,-280.0,275.0,275.0,4,Single-ply,D
+90,Open,M,Smolczyk Jan,1970,86.1,-260.0,260.0,-277.5,260.0,260.0,5,Single-ply,D
+90,Open,M,Selzer Marco,1977,89.5,240.0,255.0,260.0,260.0,260.0,6,Single-ply,D
+90,Open,M,Stuckatz David,1975,85.8,210.0,230.0,250.0,250.0,250.0,7,Single-ply,D
+90,Open,M,Friedrich Daniel,1984,85.2,205.0,215.0,230.0,230.0,230.0,8,Single-ply,D
+100,Open,M,Hellwig Maik,1981,97.6,315.0,330.0,-340.0,330.0,330.0,1,Single-ply,D
+100,Open,M,Grapp Mykola,1982,92.5,300.0,315.0,320.0,320.0,320.0,2,Single-ply,D
+100,Open,M,Zschoche Michael,1981,97.4,300.0,310.0,-317.5,310.0,310.0,3,Single-ply,D
+100,Open,M,Stadler Tobias,1977,97.8,-285.0,300.0,-312.5,300.0,300.0,4,Single-ply,D
+100,Open,M,Rücker Markus,1973,98.3,265.0,280.0,-290.0,280.0,280.0,5,Single-ply,D
+100,Open,M,Fauter Günther,1972,94.4,250.0,272.5,-285.0,272.5,272.5,6,Single-ply,D
+100,Open,M,Fydrich Frank-Udo,1980,93.6,-265.0,-265.0,265.0,265.0,265.0,7,Single-ply,D
+100,Open,M,Krziwda Thomas,1973,96.1,220.0,240.0,-250.0,240.0,240.0,8,Single-ply,D
+110,Open,M,Simpig Matthias,1972,101.3,260.0,280.0,295.0,295.0,295.0,1,Single-ply,D
+110,Open,M,Günther Stefan,1977,107.7,280.0,295.0,-300.0,295.0,295.0,2,Single-ply,D
+110,Open,M,Wellecke Torsten,1974,107.9,-280.0,280.0,-297.5,280.0,280.0,3,Single-ply,D
+110,Open,M,Adami Roberto,1970,104.9,270.0,-285.0,,270.0,270.0,4,Single-ply,D
+110,Open,M,Baier Stefan,1972,105.0,-260.0,270.0,-275.0,270.0,270.0,5,Single-ply,D
+110,Open,M,Fenzl Andreas,1972,101.3,240.0,250.0,-260.0,250.0,250.0,6,Single-ply,D
+125,Open,M,Köster Hans-Joachim,1969,110.1,270.0,285.0,290.0,290.0,290.0,1,Single-ply,D
+125,Open,M,Zamzow Oliver,1978,110.4,260.0,280.0,-292.5,280.0,280.0,2,Single-ply,D
+125,Open,M,Pflug Hendrik,1971,118.3,255.0,-272.5,272.5,272.5,272.5,3,Single-ply,D
+125,Open,M,Stornfels Carsten,1970,110.5,240.0,270.0,-282.5,270.0,270.0,4,Single-ply,D
+125,Open,M,Köllner Markus,1971,119.2,240.0,252.5,-257.5,252.5,252.5,5,Single-ply,D
+125+,Open,M,Kondraschow Jewgenij,1983,133.9,265.0,305.0,-325.0,305.0,305.0,1,Single-ply,D
+125+,Open,M,Haasler Kay,1971,138.9,282.5,302.5,-310.0,302.5,302.5,2,Single-ply,D
+125+,Open,M,Fröhlich Daniel,1972,128.8,280.0,300.0,-305.0,300.0,300.0,3,Single-ply,D
+125+,Open,M,Wilke Heiko,1970,131.3,265.0,277.5,282.5,282.5,282.5,4,Single-ply,D
+60,Masters 1,M,Wunderlich Frank,1964,59.0,155.0,-166.0,166.0,166.0,166.0,1,Single-ply,D
+67.5,Masters 1,M,Kubisch Frank,1962,66.9,200.0,210.0,217.5,217.5,217.5,1,Single-ply,D
+67.5,Masters 1,M,Petzold Andreas,1960,66.0,200.0,216.0,-218.5,216.0,216.0,2,Single-ply,D
+67.5,Masters 1,M,Kottusch Elmar,1962,66.8,205.0,212.5,-215.0,212.5,212.5,3,Single-ply,D
+67.5,Masters 1,M,Schoennerstedt Frank,1966,67.4,182.5,192.5,-202.5,192.5,192.5,4,Single-ply,D
+75,Masters 1,M,Müller Jörg,1966,74.5,252.5,262.5,-267.5,262.5,262.5,1,Single-ply,D
+75,Masters 1,M,Marhoffer Thomas,1967,72.8,240.0,252.5,-260.0,252.5,252.5,2,Single-ply,D
+75,Masters 1,M,Ehogharukomwen Sunday,1965,74.2,235.0,252.5,-265.0,252.5,252.5,3,Single-ply,D
+75,Masters 1,M,Kulhawy Steffen,1963,74.4,200.0,215.0,-230.0,215.0,215.0,4,Single-ply,D
+82.5,Masters 1,M,Geerhardt János,1967,79.0,225.0,237.5,240.0,240.0,240.0,1,Single-ply,D
+82.5,Masters 1,M,Grunert Heiko,1968,82.1,215.0,225.0,232.5,232.5,232.5,2,Single-ply,D
+82.5,Masters 1,M,Oehmichen Peter,1963,80.2,200.0,215.0,225.0,225.0,225.0,3,Single-ply,D
+82.5,Masters 1,M,Hofmann Torsten,1966,81.1,180.0,205.0,217.5,217.5,217.5,4,Single-ply,D
+90,Masters 1,M,Schnurr Mario,1966,88.5,270.0,292.5,-300.0,292.5,292.5,1,Single-ply,D
+90,Masters 1,M,Hofmann Uwe,1966,88.6,250.0,260.0,265.0,265.0,265.0,2,Single-ply,D
+90,Masters 1,M,Meier Guido,1966,89.4,240.0,250.0,-262.5,250.0,250.0,3,Single-ply,D
+90,Masters 1,M,Quensel Fabrizio,1966,85.4,215.0,235.0,,235.0,235.0,4,Single-ply,D
+90,Masters 1,M,Schatz Frank,1961,89.7,230.0,235.0,,235.0,235.0,5,Single-ply,D
+90,Masters 1,M,Meurer Olaf,1965,88.3,205.0,220.0,-230.0,220.0,220.0,6,Single-ply,D
+100,Masters 1,M,Speer Jan,1967,99.4,-260.0,265.0,-275.0,265.0,265.0,1,Single-ply,D
+100,Masters 1,M,Mainka Torsten,1965,93.9,242.5,260.0,-265.0,260.0,260.0,2,Single-ply,D
+100,Masters 1,M,Schulze Frank,1961,94.2,190.0,205.0,220.0,220.0,220.0,3,Single-ply,D
+110,Masters 1,M,Brandlmeier Rainer,1964,105.4,275.0,285.0,287.5,287.5,287.5,1,Single-ply,D
+110,Masters 1,M,Grießl Josef,1967,100.6,260.0,275.0,285.0,285.0,285.0,2,Single-ply,D
+110,Masters 1,M,Bergmann Michael,1963,104.4,237.5,247.5,255.0,255.0,255.0,3,Single-ply,D
+110,Masters 1,M,Verhoff Martin,1963,102.3,230.0,250.0,-257.5,250.0,250.0,4,Single-ply,D
+110,Masters 1,M,Mothes Steffen,1960,108.0,240.0,250.0,-260.0,250.0,250.0,5,Single-ply,D
+125,Masters 1,M,Sendatzki Boris,1968,121.9,230.0,-250.0,250.0,250.0,250.0,1,Single-ply,D
+125+,Masters 1,M,Girrulat Frank,1959,132.5,275.0,285.0,292.5,292.5,292.5,1,Single-ply,D
+125+,Masters 1,M,Schmugge Olaf,1965,127.8,230.0,240.0,,240.0,240.0,2,Single-ply,D
+67.5,Masters 2,M,Wagner Werner,1949,67.0,150.0,160.0,167.5,167.5,167.5,1,Single-ply,D
+67.5,Masters 2,M,Dziergwa Jürgen,1958,66.7,140.0,150.0,165.0,165.0,165.0,2,Single-ply,D
+67.5,Masters 2,M,Wickel Hans-Georg,1952,63.9,130.0,140.0,147.5,147.5,147.5,3,Single-ply,D
+75,Masters 2,M,Ramsey Michael,1958,74.9,212.5,220.0,227.5,227.5,227.5,1,Single-ply,D
+75,Masters 2,M,Goldstein Johann,1957,73.5,192.5,202.5,-220.0,202.5,202.5,2,Single-ply,D
+75,Masters 2,M,Panitzsch Jörg,1954,68.4,180.0,190.0,-195.0,190.0,190.0,3,Single-ply,D
+75,Masters 2,M,Berndt Rudolf,1953,72.7,130.0,140.0,145.0,145.0,145.0,4,Single-ply,D
+82.5,Masters 2,M,Dieter Wolf,1954,82.1,180.0,195.0,202.5,202.5,202.5,1,Single-ply,D
+82.5,Masters 2,M,Kühne Hendrik,1955,81.6,185.0,-200.0,200.0,200.0,200.0,2,Single-ply,D
+82.5,Masters 2,M,Kuhnert Arndt,1958,81.0,170.0,190.0,-195.0,190.0,190.0,3,Single-ply,D
+90,Masters 2,M,Petrenz Andreas,1956,83.5,220.0,230.0,-245.0,230.0,230.0,1,Single-ply,D
+90,Masters 2,M,Weidemeier Wolfgang,1954,88.8,215.0,225.0,-245.0,225.0,225.0,2,Single-ply,D
+90,Masters 2,M,Thorandt Detlef,1957,90.0,180.0,-200.0,-200.0,180.0,180.0,3,Single-ply,D
+100,Masters 2,M,Weiser Alois,1949,96.3,235.0,247.5,255.0,255.0,255.0,1,Single-ply,D
+100,Masters 2,M,Slosarek Krystian,1958,97.7,240.0,-250.0,-257.5,240.0,240.0,2,Single-ply,D
+100,Masters 2,M,Waidmann Gustav,1953,91.5,210.0,235.0,-240.0,235.0,235.0,3,Single-ply,D
+100,Masters 2,M,Schoch Horst-Dieter,1953,100.0,200.0,212.5,-222.5,212.5,212.5,4,Single-ply,D
+110,Masters 2,M,Pinekenstein Kamal,1949,108.1,230.0,240.0,250.0,250.0,250.0,1,Single-ply,D
+110,Masters 2,M,Kapplinghaus Stefan,1956,101.0,210.0,-220.0,,210.0,210.0,2,Single-ply,D
+125,Masters 2,M,Brosda Uwe,1955,112.6,285.0,307.5,-312.5,307.5,307.5,1,Single-ply,D
+125+,Masters 2,M,Küster Rudolf,1955,126.1,275.0,305.0,310.0,310.0,310.0,1,Single-ply,D
+125+,Masters 2,M,May Karl-Heinz,1953,126.8,190.0,210.0,220.0,220.0,220.0,2,Single-ply,D
+125+,Masters 2,M,Bruhn Klaus,1953,127.8,165.0,175.0,180.0,180.0,180.0,3,Single-ply,D
+60,Masters 3,M,Reusch Ernst,1940,59.9,135.0,145.0,152.5,152.5,152.5,1,Single-ply,D
+60,Masters 3,M,Funke Friedel,1939,57.6,100.0,110.0,117.5,117.5,117.5,2,Single-ply,D
+67.5,Masters 3,M,Hökendorf Wolfgang,1946,66.7,140.0,150.0,160.0,160.0,160.0,1,Single-ply,D
+67.5,Masters 3,M,Kovarna Heinz,1944,67.5,127.5,-137.5,137.5,137.5,137.5,2,Single-ply,D
+67.5,Masters 3,M,Mielich Ulrich,1939,66.5,120.0,125.0,130.0,130.0,130.0,3,Single-ply,D
+75,Masters 3,M,Güntert Ernst,1948,72.8,190.0,206.0,-212.5,206.0,206.0,1,Single-ply,D
+75,Masters 3,M,Rühlemann Helmut,1947,74.6,-160.0,160.0,170.0,170.0,170.0,2,Single-ply,D
+82.5,Masters 3,M,Häusler Wilfried,1942,75.5,180.0,190.0,200.0,200.0,200.0,1,Single-ply,D
+82.5,Masters 3,M,Bauer Hartmut,1945,78.2,170.0,182.5,187.5,187.5,187.5,2,Single-ply,D
+90,Masters 3,M,Lüdecke Günter,1948,83.5,215.0,227.5,232.5,232.5,232.5,1,Single-ply,D
+90,Masters 3,M,Reitze Karl,1944,84.6,180.0,195.0,-207.5,195.0,195.0,2,Single-ply,D
+100,Masters 3,M,Herrmann Werner,1940,93.4,212.5,222.5,-230.0,222.5,222.5,1,Single-ply,D
+100,Masters 3,M,Bohrisch Lothar,1944,92.6,190.0,205.0,-212.5,205.0,205.0,2,Single-ply,D
+100,Masters 3,M,Krause Lothar,1943,96.2,180.0,200.0,-207.5,200.0,200.0,3,Single-ply,D
+110,Masters 3,M,Kennerknecht Xaver,1946,108.5,220.0,245.0,-261.0,245.0,245.0,1,Single-ply,D
+110,Masters 3,M,Stelter Andreas,1947,106.1,170.0,180.0,,180.0,180.0,2,Single-ply,D
+67.5,Masters 4,M,Gröll Reinhard,1935,67.1,190.0,196.0,200.0,200.0,200.0,1,Single-ply,D
+67.5,Masters 4,M,Szloboda Dezsö,1937,65.1,170.0,180.0,185.0,185.0,185.0,2,Single-ply,D
+75,Masters 4,M,Schneider Hans,1937,74.7,130.0,140.0,150.0,150.0,150.0,1,Single-ply,D
+75,Masters 4,M,Meyerhofer Gerd,1938,74.0,105.0,115.0,125.0,125.0,125.0,2,Single-ply,D
+82.5,Masters 4,M,Renn Dieter,1935,80.6,190.0,205.0,213.5,213.5,213.5,1,Single-ply,D
+90,Masters 4,M,Behncke Hans,1935,88.1,120.0,130.0,140.0,140.0,140.0,1,Single-ply,D
+100,Masters 4,M,Feldmann Klaus,1936,99.4,160.0,170.0,172.5,172.5,172.5,1,Single-ply,D
+110,Masters 4,M,Efinger Werner,1935,102.5,185.0,200.0,207.5,207.5,207.5,1,Single-ply,D
+125,Masters 4,M,Attelmann Rudolf,1936,114.1,170.0,185.0,-192.5,185.0,185.0,1,Single-ply,D
