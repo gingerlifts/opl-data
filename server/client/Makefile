@@ -56,7 +56,8 @@ package-for-server:
 	# Gzip the contents. The hashed filename is not the hash of the gzip,
 	# but the hash of the gzip's contents when decompressed.
 	./apply-gzip
-
+	# Copy asset map file to server templates folder
+	cp "${BUILDDIR}/static-asset-map.tera" "../templates/build/"
 
 # Cleans files that may cause `make` to be non-idempotent.
 rebuild-clean:
