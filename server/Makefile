@@ -41,7 +41,7 @@ client:
 clientstatics: client
 	mkdir -p "${BUILDDIR}/data/static"
 	cp -r client/build/* "${BUILDDIR}/data/static"
-	rm "${BUILDDIR}/data/templates/static-asset-map.tera"
+	rm "${BUILDDIR}/data/templates/build/static-asset-map.tera"
 	cp client/build/static-asset-map.tera "${BUILDDIR}/data/templates/"
 
 release: rebuild-clean binary data config oldstatics clientstatics

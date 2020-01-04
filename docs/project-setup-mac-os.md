@@ -87,23 +87,3 @@ In the `server/` directory, run
   ```
 
 The project should now be viewable at the default location of `localhost:8000`
-
-### Possible errors
-When you run `make` in the root directory and see:
-
-  ```bash
-  cp -r client/build/* "build/data/static"
-  rm "build/data/templates/static-asset-map.tera"
-  rm: build/data/templates/static-asset-map.tera: No such file or directory
-  make[1]: *** [clientstatics] Error 1
-  ```
-
-go to `server/templates` and check if you have `static-asset-map.tera` file, if you don't,
-rename file `static-asset-map-mac-os-fix.tera` to `static-asset-map.tera` and run `make` again (You should see Good luck! message if everything succeeds).
-Then open `server/client/build/data/templates/static-asset-map.tera` file and copy the contents to the file you just renamed (`server/templates/static-asset-map.tera`).
-
-
-then run `make` again
-then go to the `server` folder and run `cargo run`
-
-Unfortunately you have to paste the contents from `server/client/build/data/templates/static-asset-map.tera` to `server/templates/static-asset-map.tera` every time you do run `make` in server folder until we fix this somehow.
