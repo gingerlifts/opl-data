@@ -10,7 +10,7 @@ WeightClassKg,Name,BodyweightKg,Team,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3Be
 56,Dave Jacobs,55.2,Atlas Nymegen,90,95,97.5,,97.5,97.5,1,M,B,Single-ply,Disabled
 90,Ashwin Kraal,85.8,Atlas Nymegen,-142.5,142.5,147.5,,147.5,147.5,1,M,B,Single-ply,Disabled
 100,L. Sunter,95.3,Atlas Nymegen,-177.5,-177.5,177.5,,177.5,177.5,1,M,B,Single-ply,Disabled
-125+,Cees Ootjers,137,Atlas Nymegen,-155,155,165,,165,165,1,M,B,Single-ply,Disabled
+100+,Cees Ootjers,137,Atlas Nymegen,-155,155,165,,165,165,1,M,B,Single-ply,Disabled
 67.5,T. Parnian,61.3,Spartacus,180,187.5,192.5,,192.5,192.5,1,M,B,Single-ply,Open
 67.5,R. Maes,60.9,Body-Line,105,-112.5,-112.5,,105,105,2,M,B,Single-ply,Open
 75,O. Dijk,74.2,Burgum,160,-175,-175,,160,160,1,M,B,Single-ply,Open
@@ -37,7 +37,7 @@ WeightClassKg,Name,BodyweightKg,Team,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3Be
 110,H. Post,105.8,Spartacus,180,187.5,-192.5,,187.5,187.5,2,M,B,Single-ply,Open
 110,R. de Witt,106.9,Spartacus,170,177.5,182.5,,182.5,182.5,3,M,B,Single-ply,Open
 110,J. Sanders,104.2,Top/Fit,130,140,-150,,140,140,4,M,B,Single-ply,Open
-110,Orson Harms,104.1,Body Line,-150,-160,-160,,,,,M,B,Single-ply,Open
+110,Orson Harms,104.1,Body Line,-150,-160,-160,,,,DQ,M,B,Single-ply,Open
 125,F. Kasteneer,112.1,Spartacus,230,240,250,,250,250,1,M,B,Single-ply,Open
 125,M. Neele,111.9,Spartacus,205,215,220,,220,220,2,M,B,Single-ply,Open
 125,M. Kalter,111.3,S.S.S.,185,195,200,,200,200,3,M,B,Single-ply,Open
