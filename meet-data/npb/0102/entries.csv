@@ -1,4 +1,4 @@
-BodyweightKg,Division,Name,Team,WeightClassKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Event,Sex,Equipment
+WeightClassKg,Division,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Event,Sex,Equipment
 67.5,Juniors,Osfaldo Caffio,SSS,65.8,160,72.5,152.5,385,1,SBD,M,Single-ply
 67.5,Juniors,J. Peters,Schuttersveld,67.3,140,80,150,370,2,SBD,M,Single-ply
 75,Juniors,T. Deng,SSS,73.2,150,115,150,415,1,SBD,M,Single-ply
@@ -18,7 +18,7 @@ BodyweightKg,Division,Name,Team,WeightClassKg,Best3SquatKg,Best3BenchKg,Best3Dea
 67.5,Masters 1,Aly Keizer,Spartacus,63.1,147.5,75,170,392.5,1,SBD,F,Single-ply
 76,Masters 1,Coert Hoppenbrouwers,Spartacus,74.8,222.5,160,255,637.5,1,SBD,M,Single-ply
 76,Masters 1,J. Neves,Spartacus,71.5,180,115,195,490,2,SBD,M,Single-ply
-76,Masters 1,H. Joch,Top-Fit,71,140,-,-,-,-,SBD,M,Single-ply
+76,Masters 1,H. Joch,Top-Fit,71,140,,,,DQ,SBD,M,Single-ply
 90,Masters 1,Wim Bevers,Top-Fit,89.4,200,120,220,540,1,SBD,M,Single-ply
 90,Masters 1,Rob Elsing,KCS Scheveningen,89.7,160,115,190,465,1,SBD,M,Single-ply
 100,Masters 1,Ton Vranken,Top-Fit,98.6,225,162.5,252.5,640,1,SBD,M,Single-ply
@@ -32,6 +32,6 @@ BodyweightKg,Division,Name,Team,WeightClassKg,Best3SquatKg,Best3BenchKg,Best3Dea
 75,Masters 2,Gijs Klomps,Olympia,72.6,130,95,150,375,2,SBD,M,Single-ply
 90,Masters 2,Aarie van Roon,Olympia,89.5,250,145,277.5,672.5,1,SBD,M,Single-ply
 90,Masters 2,Kees Aldering,Spartacus,90,200,142.5,230,572.5,2,SBD,M,Single-ply
-90,Masters 2,O. van Wijk,Spartacus,87.7,177.5,-,-,-,-,SBD,M,Single-ply
+90,Masters 2,O. van Wijk,Spartacus,87.7,177.5,,,,DQ,SBD,M,Single-ply
 100,Masters 2,Dirk Grevelink,SSS,98.3,220,137.5,252.5,610,1,SBD,M,Single-ply
 110,Masters 2,Henk Keizer,Spartacus,105.3,245,155,272.5,672.5,1,SBD,M,Single-ply

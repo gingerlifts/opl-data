@@ -1,4 +1,4 @@
-WeightClassKg,Name,BodyweightKg,Team,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,TotalKg,Place,Sex,Event,Equipment,Division
+WeightClassKg,BodyweightKg,Name,Team,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,TotalKg,Place,Sex,Event,Equipment,Division
 56,55.6,M. Tromp,Spartacus,-55,57.5,62.5,,62.5,62.5,1,F,B,Single-ply,Open
 60,59.4,Aly Keizer,Spartacus,-77.5,77.5,80,,80,80,1,F,B,Single-ply,Open
 60,60.0,Tonia Strik,Atlas,70,72.5,75,,75,75,2,F,B,Single-ply,Open
