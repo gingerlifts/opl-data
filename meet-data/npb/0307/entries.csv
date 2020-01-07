@@ -1,4 +1,4 @@
-BodyweightKg,WeightClassKg,Name,Team,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Place,Equipment,Sex,Division
+WeightClassKg,BodyweightKg,Name,Team,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Place,Equipment,Sex,Division
 56,52.7,Mariska Dassen,Spartacus,80,85,90,90,55,57.5,60,,60,85,92.5,97.5,97.5,247.5,SBD,1,Single-ply,F,Open
 67.5,61.2,Aly Keizer,Spartacus,135,145,-150,145,85,90,92.5,,92.5,150,160,165,165,402.5,SBD,1,Single-ply,F,Open
 75,73.1,Mariet Spronk,Helios,135,140,145,145,90,95,100,,100,162.5,172.5,182.5,182.5,427.5,SBD,1,Single-ply,F,Open
