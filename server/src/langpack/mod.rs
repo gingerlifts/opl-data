@@ -16,7 +16,7 @@ use crate::opldb;
 
 /// List of languages accepted by the project, in ISO 639-1 code.
 #[allow(non_camel_case_types)]
-#[derive(Clone, Copy, Debug, EnumIter, EnumString, Serialize)]
+#[derive(Clone, Copy, Debug, EnumIter, EnumString, PartialEq, Serialize)]
 pub enum Language {
     /// Czech.
     cz,
@@ -113,10 +113,8 @@ impl fmt::Display for Language {
 impl Language {
     /// Returns the units associated with the language.
     pub fn default_units(self) -> WeightUnits {
-        match self {
-            Language::en => WeightUnits::Lbs,
-            _ => WeightUnits::Kg,
-        }
+        // English variants are decided by common::select_weight_units().
+        WeightUnits::Kg
     }
 
     /// Returns a list of available languages as strings.
@@ -370,6 +368,7 @@ pub struct HeaderTranslations {
     pub records: String,
     pub meets: String,
     pub data: String,
+    pub apps: String,
     pub status: String,
     pub faq: String,
     pub contact: String,
@@ -400,12 +399,19 @@ pub struct ColumnTranslations {
     pub mcculloch: String,
     pub glossbrenner: String,
     pub ipfpoints: String,
+    pub dots: String,
     pub num_lifters: String,
 }
 
 #[derive(Serialize, Deserialize)]
 pub struct ButtonTranslations {
     pub search: String,
+}
+
+#[derive(Serialize, Deserialize)]
+pub struct LabelTranslations {
+    pub sort: String,
+    pub category: String,
 }
 
 #[derive(Serialize, Deserialize)]
@@ -496,6 +502,7 @@ pub struct FedSelectorTranslations {
     pub all_australia: String,
     pub all_austria: String,
     pub all_belarus: String,
+    pub all_bosniaandherzegovina: String,
     pub all_brazil: String,
     pub all_canada: String,
     pub all_chile: String,
@@ -506,6 +513,7 @@ pub struct FedSelectorTranslations {
     pub all_denmark: String,
     pub all_finland: String,
     pub all_france: String,
+    pub all_georgia: String,
     pub all_germany: String,
     pub all_greece: String,
     pub all_hongkong: String,
@@ -572,6 +580,7 @@ pub struct Translations {
     pub columns: ColumnTranslations,
     pub country: CountryTranslations,
     pub buttons: ButtonTranslations,
+    pub labels: LabelTranslations,
     pub selectors: SelectorTranslations,
     pub lifter_page: LifterPageTranslations,
 }

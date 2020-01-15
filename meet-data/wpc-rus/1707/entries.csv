@@ -1,7 +1,7 @@
 Place,Name,CyrillicName,Sex,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Bench4Kg,TotalKg,WeightClassKg,Event,Equipment,Tested,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Squat4Kg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,Deadlift4Kg,Division,Age
 1,Elena Piskovaya,Елена Писковая,F,74.9,90,,,90,,90,75,B,Single-ply,Yes,,,,,,,,,,,Amateur Masters 45-49,48
 1,Vladimir Kobelev,Владимир Кобелев,M,56,140,147.5,-155,147.5,,147.5,56,B,Single-ply,Yes,,,,,,,,,,,Amateur Open,25
-1,Viktoriya Astapchuk,Виктория Астапчук,F,59.8,42.5,47.5,-50,47.5,,47.5,60,B,Raw,Yes,,,,,,,,,,,Amateur Girls,17
+1,Viktoriya Astapchuk,Виктория Астапчук,F,59.8,42.5,47.5,-50,47.5,,47.5,60,B,Raw,Yes,,,,,,,,,,,Amateur Teen 16-17,17
 1,Evgeniy Ponomarenko,Евгений Пономаренко,M,73.4,-135,-135,135,135,,135,75,B,Raw,Yes,,,,,,,,,,,Amateur Juniors 20-23,22
 1,Nikolay Dudkin,Николай Дудкин,M,72.7,130,135,-140,135,,135,75,B,Raw,Yes,,,,,,,,,,,Amateur Open,27
 1,Nikolay Tochilin,Николай Точилин,M,73.1,112.5,-117.5,-117.5,112.5,,112.5,75,B,Raw,Yes,,,,,,,,,,,Amateur Masters 40-44,40
@@ -61,5 +61,5 @@ DQ,Pavel Andreev,Павел Андреев,M,74.2,-120,-127.5,-127.5,,,,75,B,Raw
 1,Evgeniy Cherney,Евгений Черней,M,97.6,140,150,155,155,,555,100,SBD,Raw,No,180,190,200,200,,180,190,200,200,,Pro Open,35
 DQ,Viktor Gorodnyuk,Виктор Городнюк,M,109.7,-160,-160,-160,,,,110,SBD,Raw,No,205,215,-220,215,,-250,,,,,Pro Open,23
 1,Dmitriy Morozov,Дмитрий Морозов,M,86.8,-110,115,-130,115,,545,90,SBD,Wraps,No,-150,150,200,200,,200,230,-250,230,,Pro Open,35
-DQ,Irina Gorshkova,Ирина Горшкова,M,73.6,,,,,,,75,D,Single-ply,No,,,,,,-202.5,,,,,Pro Masters 40-44,44
+DQ,Irina Gorshkova,Ирина Горшкова,F,73.6,,,,,,,75,D,Single-ply,No,,,,,,-202.5,,,,,Pro Masters 40-44,44
 1,Dmitriy Stratu,Дмитрий Страту,M,90,,,,,,250,90,D,Raw,No,,,,,,250,-267.5,-267.5,250,,Pro Open,28

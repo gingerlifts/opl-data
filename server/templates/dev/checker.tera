@@ -1,4 +1,4 @@
-{% import "static-asset-map" as statics %}
+{% import "build/static-asset-map" as statics %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -43,6 +43,8 @@ label {
   <div>This is the first version of the online checker. Note that it doesn't check everything yet: it doesn't know about CONFIG.toml files, for example. The nice thing is that it responds immediately. Please let me know if you find this useful and would like to see it improved! There are lots of obvious things to do to make this tool really pleasant.</div>
   <br/>
   <div><b>NEW!</b> Copy/pasting works from spreadsheet software.</div>
+  <div><b>NEW!</b> There's a handy button to auto-convert to Kg.</div>
+  <div><b>NEW!</b> There's a button that auto-(re)calculates the Place column.</div>
   <br/>
 
   <button id="checkButton">Check</button>
@@ -57,6 +59,8 @@ label {
   <br/><br/>
 
   <pre id="entriesErrorPre"></pre>
+  <button id="toKgButton">Convert to Kg</button>
+  <button id="calcPlaceButton">Calculate Place</button>
   <label for="entries">entries.csv:</label>
   <textarea id="entriesTextArea" name="entries" rows="16" cols="120"></textarea>
 </body>

@@ -25,6 +25,7 @@
 		"records": "Records",
 		"meets": "Giải đấu",
 		"data": "Dữ liệu",
+		"apps": "Apps",
 		"status": "Tình trạng dự án",
 		"faq": "Câu hỏi thường gặp",
 		"contact": "Liên hệ",
@@ -53,6 +54,7 @@
 		"mcculloch": "McCulloch",
 		"glossbrenner": "Gloss",
 		"ipfpoints": "IPF",
+		"dots": "Dots",
 		"num_lifters": "Lifters"
 	},
 	"country": {
@@ -238,6 +240,10 @@
 	"buttons": {
 		"search": "Tìm kiếm"
 	},
+	"labels": {
+		"sort": "Sort",
+		"category": "Category"
+	},
 	"selectors": {
 		"equipment": {
 			"raw": "Raw",
@@ -302,6 +308,7 @@
 			"all_australia": "All Australian Lifters",
 			"all_austria": "All Austrian Lifters",
 			"all_belarus": "All Belarusian Lifters",
+			"all_bosniaandherzegovina": "All Lifters from Bosnia and Herzegovina",
 			"all_brazil": "All Brazilian Lifters",
 			"all_canada": "All Canadian Lifters",
 			"all_chile": "All Chilean Lifters",
@@ -312,6 +319,7 @@
 			"all_denmark": "All Danish Lifters",
 			"all_finland": "All Finnish Lifters",
 			"all_france": "All French Lifters",
+			"all_georgia": "All Georgian Lifters",
 			"all_germany": "All German Lifters",
 			"all_greece": "All Greek Lifters",
 			"all_hongkong": "All Hong Kong Lifters",

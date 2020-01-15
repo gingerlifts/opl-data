@@ -25,6 +25,7 @@
                 "records": "Рекорди",
                 "meets": "Змагання",
                 "data": "Дані",
+		"apps": "Apps",
                 "status": "Статус проекту",
                 "faq": "Запитання-відповіді",
                 "contact": "Контакти",
@@ -51,8 +52,9 @@
                 "total": "Сума",
                 "wilks": "Уілкс",
                 "mcculloch": "МакКалох",
-                "glossbrenner": "Gloss",
+                "glossbrenner": "Глосс",
                 "ipfpoints": "IPF",
+		"dots": "Dots",
                 "num_lifters": "Учасники"
         },
         "country": {
@@ -238,6 +240,10 @@
         "buttons": {
                 "search": "Шукати"
         },
+	"labels": {
+		"sort": "Sort",
+		"category": "Category"
+	},
         "selectors": {
                 "equipment": {
                         "raw": "Без",
@@ -302,6 +308,7 @@
                         "all_australia": "Всі австралійські атлети",
                         "all_austria": "Всі австрійські атлети",
                         "all_belarus": "Усі білоруські атлети",
+                        "all_bosniaandherzegovina": "All Lifters from Bosnia and Herzegovina",
                         "all_brazil": "Усі бразильські атлети",
                         "all_canada": "Усі канадійські атлети",
                         "all_chile": "Усі чилійські атлети",
@@ -312,6 +319,7 @@
                         "all_denmark": "Усі атлети данії",
                         "all_finland": "Усі фінські атлети",
                         "all_france": "Усі французькі атлети",
+                        "all_georgia": "All Georgian Lifters",
                         "all_germany": "Усі німецькі атлети",
                         "all_greece": "Усі атлети греції",
                         "all_hongkong": "Усі атлети гонг конгу",

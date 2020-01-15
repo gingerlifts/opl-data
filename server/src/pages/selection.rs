@@ -10,7 +10,7 @@ use std::str::FromStr;
 use crate::opldb::MetaFederation;
 
 /// Query selection descriptor, corresponding to HTML widgets.
-#[derive(Copy, Clone, PartialEq, Serialize)]
+#[derive(Copy, Clone, Debug, PartialEq, Serialize)]
 pub struct Selection {
     pub equipment: EquipmentSelection,
     pub federation: FederationSelection,
@@ -78,7 +78,10 @@ impl Selection {
                 ret.equipment = e;
                 parsed_equipment = true;
             // Check whether this is federation information.
-            } else if let Ok(f) = segment.parse::<FederationSelection>() {
+            } else if let Ok(f) = FederationSelection::from_str_preferring(
+                segment,
+                FedPreference::PreferMetaFederation,
+            ) {
                 if parsed_federation {
                     return Err(());
                 }
@@ -176,22 +179,50 @@ pub enum FederationSelection {
     Meta(MetaFederation),
 }
 
-impl FromStr for FederationSelection {
-    type Err = ();
+/// Controls whether to first try parsing as a MetaFederation or as a
+/// Federation.
+///
+/// The FederationSelection is overloaded and can parse as either a
+/// MetaFederation or as a Federation. Unfortunately, in different contexts,
+/// different options are preferred.
+///
+/// For example, the USPA is parseable as both Federation::USPA and
+/// MetaFederation::USPA. The MetaFederation includes Federation::IPL events,
+/// allowing USPA records and rankings to be set in their international
+/// affiliate.
+///
+/// 1. When showing rankings and records, we want the MetaFederation::USPA.
+/// 2. When showing the meet list, we want the Federation::USPA. Otherwise, it
+/// gets cluttered with international events. This is particularly bad for
+/// IPF affiliates.
+#[derive(Copy, Clone, Debug, PartialEq)]
+pub enum FedPreference {
+    PreferMetaFederation,
+    PreferFederation,
+}
 
-    fn from_str(s: &str) -> Result<Self, Self::Err> {
-        // Try to parse a MetaFederation first.
-        // A MetaFederation with the same name as a Federation
-        // may override the interpretation of that federation.
-        if let Ok(meta) = s.parse::<MetaFederation>() {
-            return Ok(FederationSelection::Meta(meta));
+impl FederationSelection {
+    pub fn from_str_preferring(s: &str, preference: FedPreference) -> Result<Self, ()> {
+        match preference {
+            FedPreference::PreferMetaFederation => {
+                if let Ok(meta) = s.parse::<MetaFederation>() {
+                    return Ok(FederationSelection::Meta(meta));
+                }
+                if let Ok(fed) = s.parse::<Federation>() {
+                    return Ok(FederationSelection::One(fed));
+                }
+                Err(())
+            }
+            FedPreference::PreferFederation => {
+                if let Ok(fed) = s.parse::<Federation>() {
+                    return Ok(FederationSelection::One(fed));
+                }
+                if let Ok(meta) = s.parse::<MetaFederation>() {
+                    return Ok(FederationSelection::Meta(meta));
+                }
+                Err(())
+            }
         }
-
-        if let Ok(fed) = s.parse::<Federation>() {
-            return Ok(FederationSelection::One(fed));
-        }
-
-        Err(())
     }
 }
 
@@ -211,7 +242,7 @@ impl Serialize for FederationSelection {
 }
 
 /// The weight class selector widget.
-#[derive(Copy, Clone, PartialEq, Serialize)]
+#[derive(Copy, Clone, Debug, PartialEq, Serialize)]
 pub enum WeightClassSelection {
     AllClasses,
 
@@ -804,6 +835,7 @@ impl FromStr for AgeClassSelection {
 #[derive(Copy, Clone, Debug, PartialEq, Serialize)]
 pub enum YearSelection {
     AllYears,
+    Year2020,
     Year2019,
     Year2018,
     Year2017,
@@ -868,6 +900,7 @@ impl FromStr for YearSelection {
     fn from_str(s: &str) -> Result<Self, Self::Err> {
         match s {
             // No entry for AllYears, since it's default.
+            "2020" => Ok(YearSelection::Year2020),
             "2019" => Ok(YearSelection::Year2019),
             "2018" => Ok(YearSelection::Year2018),
             "2017" => Ok(YearSelection::Year2017),
@@ -934,6 +967,7 @@ impl YearSelection {
     pub fn as_u32(self) -> Option<u32> {
         match self {
             YearSelection::AllYears => None,
+            YearSelection::Year2020 => Some(2020),
             YearSelection::Year2019 => Some(2019),
             YearSelection::Year2018 => Some(2018),
             YearSelection::Year2017 => Some(2017),
@@ -1032,6 +1066,7 @@ pub enum SortSelection {
     ByBench,
     ByDeadlift,
     ByTotal,
+    ByDots,
     ByGlossbrenner,
     ByIPFPoints,
     ByMcCulloch,
@@ -1047,11 +1082,51 @@ impl FromStr for SortSelection {
             "by-bench" => Ok(SortSelection::ByBench),
             "by-deadlift" => Ok(SortSelection::ByDeadlift),
             "by-total" => Ok(SortSelection::ByTotal),
+            "by-dots" => Ok(SortSelection::ByDots),
             "by-ipf-points" => Ok(SortSelection::ByIPFPoints),
             "by-glossbrenner" => Ok(SortSelection::ByGlossbrenner),
             "by-mcculloch" => Ok(SortSelection::ByMcCulloch),
             "by-wilks" => Ok(SortSelection::ByWilks),
             _ => Err(()),
+        }
+    }
+}
+
+impl From<SortSelection> for PointsSystem {
+    fn from(selection: SortSelection) -> PointsSystem {
+        match selection {
+            // Weight sorts convert to Total.
+            SortSelection::BySquat => PointsSystem::Total,
+            SortSelection::ByBench => PointsSystem::Total,
+            SortSelection::ByDeadlift => PointsSystem::Total,
+            SortSelection::ByTotal => PointsSystem::Total,
+
+            // Point sorts are taken directly.
+            SortSelection::ByDots => PointsSystem::Dots,
+            SortSelection::ByGlossbrenner => PointsSystem::Glossbrenner,
+            SortSelection::ByIPFPoints => PointsSystem::IPFPoints,
+            SortSelection::ByMcCulloch => PointsSystem::McCulloch,
+            SortSelection::ByWilks => PointsSystem::Wilks,
+        }
+    }
+}
+
+impl SortSelection {
+    /// Returns true if the SortSelection is by points, instead of by weight.
+    pub fn is_by_points(self) -> bool {
+        match self {
+            // Weight sorts.
+            SortSelection::BySquat => false,
+            SortSelection::ByBench => false,
+            SortSelection::ByDeadlift => false,
+            SortSelection::ByTotal => false,
+
+            // Point sorts.
+            SortSelection::ByDots => true,
+            SortSelection::ByGlossbrenner => true,
+            SortSelection::ByIPFPoints => true,
+            SortSelection::ByMcCulloch => true,
+            SortSelection::ByWilks => true,
         }
     }
 }

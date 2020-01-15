@@ -22,7 +22,13 @@
 
 import { Csv } from "./csv";
 
+import { csvToKg } from "./functions/tokg";
+import { csvCalcPlace } from "./functions/calc-place";
+
 let checkButton: HTMLButtonElement;
+let toKgButton: HTMLButtonElement;
+let calcPlaceButton: HTMLButtonElement;
+
 let meetTextArea: HTMLTextAreaElement;
 let entriesTextArea: HTMLTextAreaElement;
 
@@ -104,6 +110,9 @@ function replaceTabs(elem: HTMLTextAreaElement) {
 
 function initializeEventListeners() {
     checkButton = document.getElementById("checkButton") as HTMLButtonElement;
+    toKgButton = document.getElementById("toKgButton") as HTMLButtonElement;
+    calcPlaceButton = document.getElementById("calcPlaceButton") as HTMLButtonElement;
+
     meetTextArea = document.getElementById("meetTextArea") as HTMLTextAreaElement;
     entriesTextArea = document.getElementById("entriesTextArea") as HTMLTextAreaElement;
 
@@ -112,6 +121,50 @@ function initializeEventListeners() {
     entriesErrorPre = document.getElementById("entriesErrorPre") as HTMLElement;
 
     checkButton.addEventListener("click", runChecker, false);
+
+    toKgButton.addEventListener("click", function () {
+        // Parse the entries text field as CSV.
+        let csv = new Csv();
+        let csvOrError = csv.fromString(entriesTextArea.value);
+        if (typeof csvOrError === "string") {
+            entriesErrorPre.innerText = csvOrError;
+            return;
+        }
+        csv = csvOrError;
+
+        // Perform conversion.
+        csvOrError = csvToKg(csv);
+        if (typeof csvOrError === "string") {
+            entriesErrorPre.innerText = csvOrError;
+            return;
+        }
+        csv = csvOrError;
+
+        // Render back.
+        entriesTextArea.value = csv.toString();
+    }, false);
+
+    calcPlaceButton.addEventListener("click", function () {
+        // Parse the entries text field as CSV.
+        let csv = new Csv();
+        let csvOrError = csv.fromString(entriesTextArea.value);
+        if (typeof csvOrError === "string") {
+            entriesErrorPre.innerText = csvOrError;
+            return;
+        }
+        csv = csvOrError;
+
+        // Perform conversion.
+        csvOrError = csvCalcPlace(csv);
+        if (typeof csvOrError === "string") {
+            entriesErrorPre.innerText = csvOrError;
+            return;
+        }
+        csv = csvOrError;
+
+        // Render back.
+        entriesTextArea.value = csv.toString();
+    }, false);
 
     // Allow pasting from spreadsheet software by converting tabs to commas.
     meetTextArea.addEventListener("paste", e => {

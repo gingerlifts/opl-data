@@ -25,6 +25,7 @@
 		"records": "Records",
 		"meets": "Compétitions",
 		"data": "Données",
+		"apps": "Apps",
 		"status": "Etat du Projet",
 		"faq": "FAQ",
 		"contact": "Contact",
@@ -53,6 +54,7 @@
 		"mcculloch": "McCulloch",
 		"glossbrenner": "Gloss",
 		"ipfpoints": "IPF",
+		"dots": "Dots",
 		"num_lifters": "Athlètes"
 	},
 	"country": {
@@ -238,6 +240,10 @@
 	"buttons": {
 		"search": "Rechercher"
 	},
+	"labels": {
+		"sort": "Sort",
+		"category": "Category"
+	},
 	"selectors": {
 		"equipment": {
 			"raw": "Raw",
@@ -302,6 +308,7 @@
 			"all_australia": "Toutes Fédés Australiennes",
 			"all_austria": "All Austrian Lifters",
 			"all_belarus": "All Belarusian Lifters",
+			"all_bosniaandherzegovina": "All Lifters from Bosnia and Herzegovina",
 			"all_brazil": "All Brazilian Lifters",
 			"all_canada": "Toutes Fédés Canadiennes",
 			"all_chile": "All Chilean Lifters",
@@ -312,6 +319,7 @@
 			"all_denmark": "All Danish Lifters",
 			"all_finland": "Toutes Fédés Finlandaises",
 			"all_france": "All French Lifters",
+			"all_georgia": "All Georgian Lifters",
 			"all_germany": "Toutes Fédés Allemandes",
 			"all_greece": "All Greek Lifters",
 			"all_hongkong": "All Hong Kong Lifters",

@@ -246,6 +246,8 @@
     msoemaapf = {name ="M_SOEM_AAPF",min=0,max=999,equipment="Multi-ply",sex="M",tested="Yes"} #Special Olympics
     msoraapf = {name ="M_SOR_AAPF",min=0,max=999,equipment="Raw",sex="M",tested="Yes"} #Special Olympics
     mpfraapf = {name ="M_PFR_AAPF",min=0,max=999,equipment="Raw",sex="M",tested="Yes"} #Police/Fire
+    mpfcraapf = {name ="M_PFCR_AAPF",min=0,max=999,equipment=["Raw","Wraps"],sex="M",tested="Yes"} #Police/Fire
+    mpfesaapf = {name ="M_PFES_AAPF",min=0,max=999,equipment="Single-ply",sex="M",tested="Yes"} #Police/Fire
     mpfemaapf = {name ="M_PFEM_AAPF",min=0,max=999,equipment="Multi-ply",sex="M",tested="Yes"} #Police/Fire
     mnemaapf = {name ="M_NEM_AAPF",min=0,max=999,equipment="Multi-ply",sex="M",tested="Yes"} #Novice
     mnraapf = {name ="M_NR_AAPF",min=0,max=999,equipment="Raw",sex="M",tested="Yes"} #Novice
@@ -651,7 +653,7 @@
     1758 = ["ExemptAge"] # Guest lifter of age 4.
     1914 = ["ExemptWeightClassConsistency"] # Some ages were entered as bodyweights.
     1702 = ["ExemptDivision"] # Different High School divisions
-    1847 = ["ExemptDivision"] # WPO
+    1847 = ["ExemptWeightClassConsistency", "ExemptDivision"] # WPO, light, middle, and heavyweight classes.
     0701 = ["ExemptWeightClassConsistency"] # Missing weightclasses
     1101 = ["ExemptWeightClassConsistency"] # Missing weightclasses
     1401 = ["ExemptWeightClassConsistency"] # Missing weightclasses
@@ -706,3 +708,4 @@
     0827 = ["ExemptWeightClassConsistency"] # Missing weightclass
     0828 = ["ExemptWeightClassConsistency"] # Missing weightclass
     0834 = ["ExemptDivision"] # Non-standard divisions (Russia).
+    9101 = ["ExemptDivision", "ExemptWeightClassConsistency"] # Old meet.

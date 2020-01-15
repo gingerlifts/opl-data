@@ -2,9 +2,23 @@
 
 [divisions]
     open = {name ="Open", min=0, max=999}
-    t = {name ="Teen", min=13, max=19}
+    teen = {name ="Teen", min=13, max=19}
     juniors = {name ="Juniors", min=20, max=23}
     masters = {name ="Masters", min=40, max=999}
+
+    teen_14_15 = {name ="Teen 14-15", min=14, max=15}
+    teen_16_17 = {name ="Teen 16-17", min=16, max=17}
+    teen_18_19 = {name ="Teen 18-19", min=18, max=19}
+    juniors_20_24 = {name ="Juniors 20-24", min=20, max=24}
+
+    masters_40_44 = {name ="Masters 40-44", min=40, max=44}
+    masters_45_49 = {name ="Masters 45-49", min=45, max=49}
+    masters_40_49 = {name ="Masters 40-49", min=40, max=49}
+    masters_50_54 = {name ="Masters 50-54", min=50, max=54}
+    masters_50_59 = {name ="Masters 50-59", min=50, max=59}
+
+    special_olympics = {name ="Special Olympics", min=0, max=999}
+    juniors_20_23 = {name ="Juniors 20-23", min=20, max=23} # Added for esdt/1703.
 
 [weightclasses.default_F]
     classes = ["44","48","52","56","60","67.5","75","82.5","90","90+"]
@@ -18,4 +32,14 @@
 
 [exemptions]
     1501 = ["ExemptWeightClassConsistency"] #77kg class
-    1502 = ["ExemptWeightClassConsistency"] #Weird women's WCs
+    1502 = ["ExemptWeightClassConsistency"] # Weird women's WCs
+    1503 = ["ExemptWeightClassConsistency"] # No weightclasses
+    1504 = ["ExemptWeightClassConsistency"] # Special Olympics Allows men in 48kg class
+    1508 = ["ExemptWeightClassConsistency"] # Special Olympics Allows men in 48kg class
+    1602 = ["ExemptWeightClassConsistency"] # No weightclasses
+    1603 = ["ExemptWeightClassConsistency"] # No weightclasses
+    1604 = ["ExemptWeightClassConsistency"] # No weightclasses
+    1605 = ["ExemptWeightClassConsistency"] # No weightclasses
+    1606 = ["ExemptWeightClassConsistency"] # No weightclasses
+    1704 = ["ExemptWeightClassConsistency"] # No weightclasses
+    1804 = ["ExemptWeightClassConsistency"] # No weightclasses

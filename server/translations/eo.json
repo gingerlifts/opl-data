@@ -25,6 +25,7 @@
 		"records": "Rekordoj",
 		"meets": "Konkursoj",
 		"data": "Dataoj",
+		"apps": "Apps",
 		"status": "Projektstato",
 		"faq": "Respondaro",
 		"contact": "Kiel Kontakti",
@@ -53,6 +54,7 @@
 		"mcculloch": "MkKoloko",
 		"glossbrenner": "Gloss",
 		"ipfpoints": "IPF",
+		"dots": "Dots",
 		"num_lifters": "Kiom"
 	},
 	"country": {
@@ -238,6 +240,10 @@
 	"buttons": {
 		"search": "Serĉu"
 	},
+	"labels": {
+		"sort": "Sort",
+		"category": "Category"
+	},
 	"selectors": {
 		"equipment": {
 			"raw": "Sen",
@@ -302,6 +308,7 @@
 			"all_australia": "Ĉiuj Aŭstraliaj Forteguloj",
 			"all_austria": "All Austrian Lifters",
 			"all_belarus": "All Belarusian Lifters",
+			"all_bosniaandherzegovina": "All Lifters from Bosnia and Herzegovina",
 			"all_brazil": "All Brazilian Lifters",
 			"all_canada": "Ĉiuj Kanadaj Forteguloj",
 			"all_chile": "All Chilean Lifters",
@@ -312,6 +319,7 @@
 			"all_denmark": "All Danish Lifters",
 			"all_finland": "Ĉiuj Finlandaj Forteguloj",
 			"all_france": "All French Lifters",
+			"all_georgia": "All Georgian Lifters",
 			"all_germany": "Ĉiuj Germaniaj Forteguloj",
 			"all_greece": "All Greek Lifters",
 			"all_hongkong": "All Hong Kong Lifters",

@@ -26,6 +26,7 @@
 		"records": "Ρεκόρ",
 		"meets": "Αγώνες",
 		"data": "Δεδομένα",
+		"apps": "Apps",
 		"status": "Project Status",
 		"faq": "Ερωτήσεις",
 		"contact": "Επικοινωνία",
@@ -54,6 +55,7 @@
 		"mcculloch": "McCulloch",
 		"glossbrenner": "Gloss",
 		"ipfpoints": "IPF",
+		"dots": "Dots",
 		"num_lifters": "Lifters"
 	},
 	"country": {
@@ -239,6 +241,10 @@
 	"buttons": {
 		"search": "Εύρεση"
 	},
+	"labels": {
+		"sort": "Sort",
+		"category": "Category"
+	},
 	"selectors": {
 		"equipment": {
 			"raw": "Raw",
@@ -303,6 +309,7 @@
 			"all_australia": " Όλοι οι αθλητές της Αυστραλίας",
 			"all_austria": "All Austrian Lifters",
 			"all_belarus": "All Belarusian Lifters",
+			"all_bosniaandherzegovina": "All Lifters from Bosnia and Herzegovina",
 			"all_brazil": "All Brazilian Lifters",
 			"all_canada": " Όλοι οι αθλητές του Καναδά",
 			"all_chile": "All Chilean Lifters",
@@ -313,6 +320,7 @@
 			"all_denmark": "All Danish Lifters",
 			"all_finland": " Όλοι οι αθλητές της Φιλανδίας ",
 			"all_france": "All French Lifters",
+			"all_georgia": "All Georgian Lifters",
 			"all_germany": " Όλοι οι αθλητές της Γερμανίας",
 			"all_greece": " Όλοι οι αθλητές της Ελλάδας",
 			"all_hongkong": "All Hong Kong Lifters",

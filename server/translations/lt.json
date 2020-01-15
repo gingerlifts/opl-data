@@ -25,6 +25,7 @@
         "records": "Rekordai",
         "meets": "Varžybos",
         "data": "Data",
+        "apps": "Apps",
         "status": "Būsena",
         "faq": "DUK",
         "contact": "Kontaktai",
@@ -53,6 +54,7 @@
         "mcculloch": "McCulloch",
         "glossbrenner": "Gloss",
         "ipfpoints": "IPF",
+        "dots": "Dots",
         "num_lifters": "Atletai"
     },
     "country": {
@@ -238,6 +240,10 @@
     "buttons": {
         "search": "Paieška"
     },
+    "labels": {
+        "sort": "Sort",
+        "category": "Category"
+    },
     "selectors": {
         "equipment": {
             "raw": "Klasikinė",
@@ -301,6 +307,7 @@
             "all_argentina": "Visi Argentinos Atletai",
             "all_australia": "Visi Australijos Atletai",
             "all_belarus": "Visi Baltarusijos Atletai",
+            "all_bosniaandherzegovina": "All Lifters from Bosnia and Herzegovina",
             "all_brazil": "Visi Brazilijos Atletai",
             "all_canada": "Visi Kanados Atletai",
             "all_china": "Visi Kinijos Atletai",
@@ -308,6 +315,7 @@
             "all_czechia": "Visi Čekijos Atletai",
             "all_finland": "Visi Suomijos Atletai",
             "all_france": "Visi Prancūzijos Atletai",
+            "all_georgia": "All Georgian Lifters",
             "all_germany": "Visi Vokietijos Atletai",
             "all_greece": "Visi Graikijos Atletai",
             "all_iceland": "Visi Islandijos Atletai",

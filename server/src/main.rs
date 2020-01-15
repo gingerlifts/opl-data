@@ -111,10 +111,11 @@ fn rankings(
     device: Device,
     cookies: Cookies,
 ) -> Option<Template> {
-    let default = pages::selection::Selection::default();
-    let selection = pages::selection::Selection::from_path(&selections, &default).ok()?;
+    let defaults = pages::selection::Selection::default();
+    let selection =
+        pages::selection::Selection::from_path(&selections, &defaults).ok()?;
     let locale = make_locale(&langinfo, lang, languages, &cookies);
-    let cx = pages::rankings::Context::new(&opldb, &locale, &selection)?;
+    let cx = pages::rankings::Context::new(&opldb, &locale, &selection, &defaults)?;
 
     Some(match device {
         Device::Desktop => Template::render("openpowerlifting/desktop/rankings", &cx),
@@ -270,9 +271,10 @@ fn meetlist(
     device: Device,
     cookies: Cookies,
 ) -> Option<Template> {
+    let defaults = pages::meetlist::MeetListSelection::default();
     let mselection = match mselections {
-        None => pages::meetlist::MeetListSelection::default(),
-        Some(p) => pages::meetlist::MeetListSelection::from_path(&p).ok()?,
+        None => defaults,
+        Some(p) => pages::meetlist::MeetListSelection::from_path(&p, defaults).ok()?,
     };
     let locale = make_locale(&langinfo, lang, languages, &cookies);
     let cx = pages::meetlist::Context::new(&opldb, &locale, &mselection);
@@ -336,7 +338,7 @@ fn status(
     cookies: Cookies,
 ) -> Option<Template> {
     let locale = make_locale(&langinfo, lang, languages, &cookies);
-    let context = pages::status::Context::new(&opldb, &locale);
+    let context = pages::status::Context::new(&opldb, &locale, None);
 
     Some(match device {
         Device::Desktop => Template::render("openpowerlifting/desktop/status", &context),
@@ -419,9 +421,9 @@ fn index(
     }
 
     // Otherwise, render the main rankings template.
-    let selection = pages::selection::Selection::default();
+    let defaults = pages::selection::Selection::default();
     let locale = make_locale(&langinfo, lang, languages, &cookies);
-    let cx = pages::rankings::Context::new(&opldb, &locale, &selection);
+    let cx = pages::rankings::Context::new(&opldb, &locale, &defaults, &defaults);
 
     Some(IndexReturn::Template(match device {
         Device::Desktop => Template::render("openpowerlifting/desktop/rankings", &cx),
@@ -437,10 +439,10 @@ fn rankings_api(
     opldb: State<ManagedOplDb>,
     langinfo: State<ManagedLangInfo>,
 ) -> Option<JsonString> {
-    let default = pages::selection::Selection::default();
+    let defaults = pages::selection::Selection::default();
     let selection = match selections {
-        None => default,
-        Some(path) => pages::selection::Selection::from_path(&path, &default).ok()?,
+        None => defaults,
+        Some(path) => pages::selection::Selection::from_path(&path, &defaults).ok()?,
     };
 
     let language = query.lang.parse::<Language>().ok()?;
@@ -451,6 +453,7 @@ fn rankings_api(
         &opldb,
         &locale,
         &selection,
+        &defaults,
         query.start,
         query.end,
     );
@@ -662,8 +665,13 @@ fn rocket(opldb: ManagedOplDb, langinfo: ManagedLangInfo) -> rocket::Rocket {
                 dist::openipf::records_default,
                 dist::openipf::lifter,
                 dist::openipf::lifter_csv,
+                dist::openipf::meetlist,
+                dist::openipf::meetlist_default,
                 dist::openipf::meet,
+                dist::openipf::status,
+                dist::openipf::data,
                 dist::openipf::faq,
+                dist::openipf::contact,
             ],
         )
         .register(catchers![not_found, internal_error])

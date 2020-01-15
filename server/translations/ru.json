@@ -25,6 +25,7 @@
 		"records": "Рекорды",
 		"meets": "Протоколы",
 		"data": "Данные",
+		"apps": "Apps",
 		"status": "Статус Проекта",
 		"faq": "Вопросы-Ответы",
 		"contact": "Контакты",
@@ -51,8 +52,9 @@
 		"total": "Сумма",
 		"wilks": "Вилкс",
 		"mcculloch": "McCulloch",
-		"glossbrenner": "Gloss",
+		"glossbrenner": "Глосс",
 		"ipfpoints": "IPF",
+		"dots": "Дотс",
 		"num_lifters": "Lifters"
 	},
 	"country": {
@@ -238,6 +240,10 @@
 	"buttons": {
 		"search": "Поиск"
 	},
+	"labels": {
+		"sort": "Сортировать",
+		"category": "Категория"
+	},
 	"selectors": {
 		"equipment": {
 			"raw": "Без",
@@ -302,6 +308,7 @@
 			"all_australia": "Все Австралийские Лифтеры",
 			"all_austria": "All Austrian Lifters",
 			"all_belarus": "All Belarusian Lifters",
+			"all_bosniaandherzegovina": "All Lifters from Bosnia and Herzegovina",
 			"all_brazil": "All Brazilian Lifters",
 			"all_canada": "Все Канадские Лифтеры",
 			"all_chile": "All Chilean Lifters",
@@ -312,6 +319,7 @@
 			"all_denmark": "All Danish Lifters",
 			"all_finland": "All Finnish Lifters",
 			"all_france": "All French Lifters",
+			"all_georgia": "All Georgian Lifters",
 			"all_germany": "All German Lifters",
 			"all_greece": "All Greek Lifters",
 			"all_hongkong": "All Hong Kong Lifters",
