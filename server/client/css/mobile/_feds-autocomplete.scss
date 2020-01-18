@@ -1,0 +1,56 @@
+
+#feds-autocomplete-container {
+  flex: 1;
+  width: 93%;
+  margin: 10px 0px;
+  margin-top: 10px;
+  align-self: center;
+  position: relative;
+}
+
+#feds-autocomplete-input {
+  font-size: 12pt;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: url($control-selector-image) 96% / 4% no-repeat $control-background-color;
+  text-overflow: ellipsis;
+  padding-right: 17px;
+  width: 100%;
+  margin: 0;
+}
+
+#feds-autocomplete-results {
+  position: absolute;
+  z-index: 5;
+  background: white;
+  width: 100%;
+  right: 0;
+  padding: 0;
+  overflow-x: scroll;
+  max-height: 300px;
+  font-size: 12pt;
+
+  .federation-option {
+    color: black;
+    display: block;
+    width: 100%;
+    padding-left: 20px;
+    padding: 4px 10px;
+    border-bottom: 1px solid lightgray;
+
+    :hover {
+      background: $table-header-background-color
+    }
+  }
+  .federation-option-group {
+    background: $table-header-background-color;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 2px 10px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    box-sizing: border-box;
+  }
+}

@@ -23,6 +23,7 @@
 import { RemoteCache, WorkItem, Column } from "./remotecache";
 import { RankingsSearcher } from "./search";
 import { isMobile } from "./mobile";
+import { initFedsAutocomplete } from "./feds-autocomplete";
 
 // Variables provided by the server.
 declare const initial_data: Object[];
@@ -585,8 +586,24 @@ function renderGridTable(): void {
     global_grid.onViewportChanged.notify();
 }
 
+function hideFedsSelect(): void {
+  const fedselect = document.getElementById("fedselect") as HTMLSelectElement;
+  fedselect.classList.add('hide');
+}
+
+function fedSelectCallback(selectedValue: string): void {
+  selFed.value = selectedValue
+  changeSelection();
+}
+
 function initRankings(): void {
     initializeEventListeners();
+
+    // on mobile hide default fed select and show autocomplete
+    if (isMobile()) {
+      initFedsAutocomplete(fedSelectCallback);
+      hideFedsSelect();
+    }
 
     // Make sure that selector state is provided for each entry in history.
     if (history.state !== null) {
