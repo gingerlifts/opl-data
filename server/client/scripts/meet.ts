@@ -75,11 +75,74 @@ function redirect() {
     }
 }
 
-function initMeet(): void {
-    const toggler = document.getElementById("byDivisionToggler") as HTMLInputElement;
-    const showDetailsToggler = document.getElementById('showDetailsToggler') as HTMLInputElement;
-    const lifterRows = document.getElementsByClassName('results-lifter-row-container') as HTMLCollection;
+function toggleDetails(this: any): void {
+  const hiddenRows = document.getElementsByClassName('results-lifter-hidden-row') as HTMLCollection;
+  const arrows = document.getElementsByClassName('results-lifter-more-arrow') as HTMLCollection;
 
+  if (hiddenRows.length && arrows.length) {
+    if (this.checked) {
+        for (let row of hiddenRows) {
+          row.classList.remove("hide");
+        }
+
+        for (let arrow of arrows) {
+          arrow.classList.add("rotate");
+        }
+
+    } else {
+      for (let row of hiddenRows) {
+        row.classList.add("hide");
+      }
+      for (let arrow of arrows) {
+        arrow.classList.remove("rotate");
+      }
+    }
+  }
+}
+
+function toggleDivisions(this: any): void {
+  if (this.checked) {
+      selSort.value = "by-division";
+      redirect();
+  } else {
+      selSort.value = "by-wilks";
+      redirect();
+  }
+}
+
+function initTogglers(): void {
+  const divisionToggler = document.getElementById("byDivisionToggler") as HTMLInputElement;
+  const showDetailsToggler = document.getElementById('showDetailsToggler') as HTMLInputElement;
+
+  if (showDetailsToggler) {
+    showDetailsToggler.addEventListener('change', toggleDetails);
+  }
+  if (divisionToggler) {
+    divisionToggler.addEventListener('change',toggleDivisions);
+  }
+}
+
+function initCategoriesTogglers(): void {
+  const categories = document.getElementsByClassName('category') as HTMLCollection;
+
+  if (categories.length) {
+    for (let category of categories) {
+      const categoryHeader = category.querySelector('.divheader') as HTMLElement;
+      const hiddenData = category.querySelector('.results-group-row') as HTMLElement;
+      const arrow = category.querySelector('img') as HTMLElement;
+
+      categoryHeader.addEventListener('click', function() {
+        hiddenData.classList.toggle("hide");
+        arrow.classList.toggle("rotate");
+      });
+    }
+  }
+}
+
+function initLifterDetailsTogglers(): void {
+  const lifterRows = document.getElementsByClassName('results-lifter-row-container') as HTMLCollection;
+
+  if (lifterRows.length) {
     for (let row of lifterRows) {
       const hiddenData = row.querySelector('.results-lifter-hidden-row') as HTMLElement;
       const arrow = row.querySelector('img') as HTMLElement;
@@ -89,39 +152,13 @@ function initMeet(): void {
         arrow.classList.toggle("rotate");
       });
     }
+  }
+}
 
-    showDetailsToggler.addEventListener('change', function() {
-        const hiddenRows = document.getElementsByClassName('results-lifter-hidden-row') as HTMLCollection;
-        const arrows = document.getElementsByClassName('results-lifter-more-arrow') as HTMLCollection;
-
-        if(this.checked) {
-            for (let row of hiddenRows) {
-              row.classList.remove("hide");
-            }
-
-            for (let arrow of arrows) {
-              arrow.classList.add("rotate");
-            }
-
-        } else {
-          for (let row of hiddenRows) {
-            row.classList.add("hide");
-          }
-          for (let arrow of arrows) {
-            arrow.classList.remove("rotate");
-          }
-        }
-    });
-
-    toggler.addEventListener('change', function() {
-        if(this.checked) {
-            selSort.value = "by-division";
-            redirect();
-        } else {
-            selSort.value = "by-wilks";
-            redirect();
-        }
-    });
+function initMeet(): void {
+    initTogglers();
+    initCategoriesTogglers();
+    initLifterDetailsTogglers();
 
     selSort = document.getElementById("sortselect") as HTMLSelectElement;
     selSort.addEventListener("change", redirect);

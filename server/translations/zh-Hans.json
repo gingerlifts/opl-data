@@ -52,7 +52,16 @@
         "glossbrenner": "格洛斯系数（Gloss）",
         "ipfpoints": "IPF系数",
         "dots": "Dots",
-        "num_lifters": "选手"
+        "num_lifters": "选手",
+        "s": "S" ,
+        "b": "B",
+        "d": "D",
+        "sbd": "SBD",
+        "sb": "SB",
+        "sd": "SD",
+        "bs": "BS",
+        "bd": "BD",
+        "dq": "DQ"
     },
     "country": {
         "afghanistan": "阿富汗",

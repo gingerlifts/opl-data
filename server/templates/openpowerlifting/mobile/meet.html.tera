@@ -51,7 +51,7 @@
 {% endblock controls %}
 
 {% block body %}
-  <div class="mixed-content-with-controls" id="meetMobile">
+  <div class="mixed-content-with-controls {% if sortselection == "ByDivision" %}with-categories{% endif %}" id="meetMobile">
 
     <div class="meet-mobile-header-container">
       <div class="meet-mobile-meet-name">
@@ -67,7 +67,139 @@
       </div>
     </div>
 
+    <div id="meetResultsContainer">
+      {% for table in tables %}
+
+      {% if table.title %}
+        <div class="category">
+          <div class="divheader">
+            {{table.title}}
+            <img class="results-category-more-arrow" height="20px" src="/static/images/select_dropdown_white.svg" alt="toggle-more"/>
+          </div>
+      {% endif %}
+
+          <div class="results-group-row  {% if table.title %}hide{% endif %}">
+            {% for this in table.rows %}
+              <div class="results-lifter-row-container">
+                <div class="results-lifter-visible-row">
+                  {% if use_rank_column %}
+                    <div>{{this.rank}}</div>
+                  {% else %}
+                    <div>{{this.place}}</div>
+                  {% endif %}
+                  <div class="meet-list-name">
+                    <a class="{{this.lifter.color}}" href="{{urlprefix | safe}}u/{{this.lifter.username}}">
+                      {{this.localized_name}}
+                    </a>
+                    {% if this.lifter.instagram %}
+                      <a href="https://www.instagram.com/{{this.lifter.instagram}}" class="instagram" rel="noopener" target="_blank">
+                        <i class="fa fa-instagram fa-resize"></i>
+                      </a>
+                    {% endif %}
+                    {% if this.lifter.vkontakte %}
+                      <a href="https://vk.com/{{this.lifter.vkontakte}}" class="instagram" rel="noopener" target="_blank">
+                        <i class="fa fa-vk fa-resize"></i>
+                      </a>
+                    {% endif %}
+                  </div>
+
+                  {% if this.squat and this.bench and this.deadlift and this.total %}
+                    <div class="meet-list-total">{{strings.columns.sbd}}: {{this.total}}</div>
+                  {% elif this.squat and this.bench and this.total %}
+                    <div class="meet-list-total">{{strings.columns.sb}}: {{this.total}}</div>
+                  {% elif this.squat and this.deadlift and this.total %}
+                    <div class="meet-list-total">{{strings.columns.sd}}: {{this.total}}</div>
+                  {% elif this.bench and this.squat and this.total %}
+                    <div class="meet-list-total">{{strings.columns.bs}}: {{this.total}}</div>
+                  {% elif this.bench and this.deadlift and this.total %}
+                    <div class="meet-list-total">{{strings.columns.bd}}: {{this.total}}</div>
+                  {% elif this.squat and this.total %}
+                    <div class="meet-list-total">{{strings.columns.s}}: {{this.total}}</div>
+                  {% elif this.bench and this.total %}
+                    <div class="meet-list-total">{{strings.columns.b}}: {{this.total}}</div>
+                  {% elif this.deadlift and this.total %}
+                    <div class="meet-list-total">{{strings.columns.d}}: {{this.total}}</div>
+                  {% else %}
+                    <div class="meet-list-total">{{strings.columns.dq}}</div>
+                  {% endif %}
+
+
+                  <div class="toggle-more-arrow">
+                    <img class="results-lifter-more-arrow" src="/static/images/select_dropdown_red.png" alt="toggle-more"/>
+                  </div>
+                </div>
+
+                <div class="results-lifter-hidden-row hide">
+
+                  <div class="results-lifter-details-more-results-row">
+                    {% if this.equipment %}
+                      <div class="meet-lifter-equipment">
+                       {{strings.columns.equipment}}: {{this.equipment}}
+                      </div>
+                    {% endif %}
+
+                    {% if this.squat %}
+                      <div class="meet-lifter-squat">
+                       {{strings.columns.s}}: {{this.squat}}
+                      </div>
+                    {% endif %}
+
+                    {% if this.bench %}
+                      <div class="meet-lifter-bench">
+                       {{strings.columns.b}}: {{this.bench}}
+                      </div>
+                    {% endif %}
+
+                    {% if this.deadlift %}
+                      <div class="meet-lifter-deadlift">
+                       {{strings.columns.d}}: {{this.deadlift}}
+                      </div>
+                    {% endif %}
+                  </div>
+
+                  <div class="results-lifter-details-more-data-row">
+                    {% if this.points %}
+                      <div class="meet-lifter-points">
+                       {{points_column_title}}: {{this.points}}
+                      </div>
+                    {% endif %}
+
+                    <div class="meet-lifter-sex">
+                     {{strings.columns.sex}}: {{this.sex}}
+                    </div>
+
+                    {% if has_age_data %}
+                      <div class="meet-lifter-age">
+                       {{strings.columns.age}}: {{this.age}}
+                      </div>
+                    {% endif %}
+
+                    {% if this.weightclass %}
+                      <div class="meet-lifter-weightclass">
+                       {{strings.columns.weightclass}}: {{this.weightclass}}
+                      </div>
+                    {% endif %}
+
+                    {% if this.bodyweight %}
+                      <div class="meet-lifter-bodyweight">
+                       {{strings.columns.bodyweight}}: {{this.bodyweight}}
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          </div>
+
+      {% if table.title %}
+        </div>
+      {% endif %}
+
+      {% endfor %}
+    </div>
+
     <div class="meet-mobile-filter-container">
+
       <div class="meet-mobile-by-division-toggle-container">
         {{strings.selectors.sort.by_division}}
         <label class="switch">
@@ -85,194 +217,5 @@
       </div>
 
     </div>
-
-
-    <div id="meetResultsContainer">
-      {% for table in tables %}
-
-      <div class="results-group-row">
-        {% if table.title %}
-          <div class="divheader">{{table.title}}</div>
-        {% endif %}
-
-        {% for this in table.rows %}
-          <div class="results-lifter-row-container">
-
-            <div class="results-lifter-visible-row">
-              {% if use_rank_column %}
-                <div>{{this.rank}}</div>
-              {% else %}
-                <div>{{this.place}}</div>
-              {% endif %}
-              <div class="meet-list-name">
-                <a class="{{this.lifter.color}}" href="{{urlprefix | safe}}u/{{this.lifter.username}}">
-                  {{this.localized_name}}
-                </a>
-                {% if this.lifter.instagram %}
-                  <a href="https://www.instagram.com/{{this.lifter.instagram}}" class="instagram" rel="noopener" target="_blank">
-                    <i class="fa fa-instagram fa-resize"></i>
-                  </a>
-                {% endif %}
-                {% if this.lifter.vkontakte %}
-                  <a href="https://vk.com/{{this.lifter.vkontakte}}" class="instagram" rel="noopener" target="_blank">
-                    <i class="fa fa-vk fa-resize"></i>
-                  </a>
-                {% endif %}
-              </div>
-
-              {% if this.squat and this.bench and this.deadlift %}
-                <div class="meet-list-total">{{strings.columns.sbd}}: {{this.total}}</div>
-              {% elif this.squat and this.bench %}
-                <div class="meet-list-total">{{strings.columns.sb}}: {{this.total}}</div>
-              {% elif this.squat and this.deadlift %}
-                <div class="meet-list-total">{{strings.columns.sd}}: {{this.total}}</div>
-              {% elif this.bench and this.squat %}
-                <div class="meet-list-total">{{strings.columns.bs}}: {{this.total}}</div>
-              {% elif this.bench and this.deadlift %}
-                <div class="meet-list-total">{{strings.columns.bd}}: {{this.total}}</div>
-              {% elif this.squat %}
-                <div class="meet-list-total">{{strings.columns.s}}: {{this.total}}</div>
-              {% elif this.bench %}
-                <div class="meet-list-total">{{strings.columns.b}}: {{this.total}}</div>
-              {% elif this.deadlift %}
-                <div class="meet-list-total">{{strings.columns.d}}: {{this.total}}</div>
-              {% else %}
-                <div class="meet-list-total">{{strings.columns.dq}}</div>
-              {% endif %}
-
-
-              <div class="toggle-more-arrow">
-                <img class="results-lifter-more-arrow" src="/static/images/select_dropdown_red.png" alt="toggle-more"/>
-              </div>
-            </div>
-
-
-            <div class="results-lifter-hidden-row hide">
-
-              <div class="results-lifter-details-more-results-row">
-                {% if this.equipment %}
-                  <div class="meet-lifter-equipment">
-                   {{strings.columns.equipment}}: {{this.equipment}}
-                  </div>
-                {% endif %}
-
-                {% if this.squat %}
-                  <div class="meet-lifter-squat">
-                   {{strings.columns.s}}: {{this.squat}}
-                  </div>
-                {% endif %}
-
-                {% if this.bench %}
-                  <div class="meet-lifter-bench">
-                   {{strings.columns.b}}: {{this.bench}}
-                  </div>
-                {% endif %}
-
-                {% if this.deadlift %}
-                  <div class="meet-lifter-deadlift">
-                   {{strings.columns.d}}: {{this.deadlift}}
-                  </div>
-                {% endif %}
-              </div>
-
-              <div class="results-lifter-details-more-data-row">
-                {% if this.points %}
-                  <div class="meet-lifter-points">
-                   {{points_column_title}}: {{this.points}}
-                  </div>
-                {% endif %}
-
-                <div class="meet-lifter-sex">
-                 {{strings.columns.sex}}: {{this.sex}}
-                </div>
-
-                {% if has_age_data %}
-                  <div class="meet-lifter-age">
-                   {{strings.columns.age}}: {{this.age}}
-                  </div>
-                {% endif %}
-
-                {% if this.weightclass %}
-                  <div class="meet-lifter-weightclass">
-                   {{strings.columns.weightclass}}: {{this.weightclass}}
-                  </div>
-                {% endif %}
-
-                {% if this.bodyweight %}
-                  <div class="meet-lifter-bodyweight">
-                   {{strings.columns.bodyweight}}: {{this.bodyweight}}
-                  </div>
-                {% endif %}
-              </div>
-
-
-
-
-
-
-            </div>
-          </div>
-        {% endfor %}
-      </div>
-
-      {% endfor %}
-    </div>
-
-
-    <table id="meetTable">
-      <thead><tr>
-        {% if use_rank_column %}
-          <th class="meet-list-place-header">{{strings.columns.formulaplace}}</th>
-        {% else %}
-          <th class="meet-list-place-header">{{strings.columns.place}}</th>
-        {% endif %}
-        <th>{{strings.columns.liftername}}</th>
-        <th>{{strings.columns.total}}</th>
-        <th>{{points_column_title}}</th>
-        <th class="meet-list-sex-header">{{strings.columns.sex}}</th>
-        <th>{{strings.columns.equipment}}</th>
-        {% if has_age_data %}
-          <th>{{strings.columns.age}}</th>
-        {% endif %}
-        <th class="meet-list-class-header">{{strings.columns.weightclass}}</th>
-        <th>{{strings.columns.bodyweight}}</th>
-        <th>{{strings.columns.squat}}</th>
-        <th>{{strings.columns.bench}}</th>
-        <th>{{strings.columns.deadlift}}</th>
-      </tr>
-
-      </thead>
-      <tbody>
-      {% for table in tables %}
-        {% if table.title %}
-          <td colspan="12" class="divheader">{{table.title}}</td>
-        {% endif %}
-      {% for this in table.rows %}
-        <tr>
-          {% if use_rank_column == false or this.place == "DQ" or this.place == "DD" %}
-            <td>{{this.place}}</td>
-          {% else %}
-            <td>{{this.rank}}</td>
-          {% endif %}
-          <td class="meet-list-name">
-            <a class="{{this.lifter.color}}" href="{{urlprefix | safe}}u/{{this.lifter.username}}">{{this.localized_name}}</a>{% if this.lifter.instagram %}<a href="https://www.instagram.com/{{this.lifter.instagram}}" class="instagram" rel="noopener" target="_blank"><i class="fa fa-instagram fa-resize"></i></a>{% endif %}{% if this.lifter.vkontakte %}<a href="https://vk.com/{{this.lifter.vkontakte}}" class="instagram" rel="noopener" target="_blank"><i class="fa fa-vk fa-resize"></i></a>{% endif %}
-          </td>
-          <td>{{this.total}}</td>
-          <td>{{this.points}}</td>
-          <td>{{this.sex}}</td>
-          <td>{{this.equipment}}</td>
-          {% if has_age_data %}
-            <td>{{this.age}}</td>
-          {% endif %}
-          <td>{{this.weightclass}}</td>
-          <td>{{this.bodyweight}}</td>
-          <td>{{this.squat}}</td>
-          <td>{{this.bench}}</td>
-          <td>{{this.deadlift}}</td>
-        </tr>
-      {% endfor %}
-      {% endfor %}
-      </tbody>
-    </table>
   </div>
 {% endblock body %}
