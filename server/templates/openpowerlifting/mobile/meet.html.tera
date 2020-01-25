@@ -119,10 +119,25 @@
                   </a>
                 {% endif %}
               </div>
-              {% if this.total %}
-                <div class="meet-list-total">{{strings.columns.total}}: {{this.total}}</div>
+
+              {% if this.squat and this.bench and this.deadlift %}
+                <div class="meet-list-total">{{strings.columns.sbd}}: {{this.total}}</div>
+              {% elif this.squat and this.bench %}
+                <div class="meet-list-total">{{strings.columns.sb}}: {{this.total}}</div>
+              {% elif this.squat and this.deadlift %}
+                <div class="meet-list-total">{{strings.columns.sd}}: {{this.total}}</div>
+              {% elif this.bench and this.squat %}
+                <div class="meet-list-total">{{strings.columns.bs}}: {{this.total}}</div>
+              {% elif this.bench and this.deadlift %}
+                <div class="meet-list-total">{{strings.columns.bd}}: {{this.total}}</div>
+              {% elif this.squat %}
+                <div class="meet-list-total">{{strings.columns.s}}: {{this.total}}</div>
+              {% elif this.bench %}
+                <div class="meet-list-total">{{strings.columns.b}}: {{this.total}}</div>
+              {% elif this.deadlift %}
+                <div class="meet-list-total">{{strings.columns.d}}: {{this.total}}</div>
               {% else %}
-                <div class="meet-list-total">{{strings.columns.total}}: 0</div>
+                <div class="meet-list-total">{{strings.columns.dq}}</div>
               {% endif %}
 
 
@@ -143,19 +158,19 @@
 
                 {% if this.squat %}
                   <div class="meet-lifter-squat">
-                   {{strings.columns.squat}}: {{this.squat}}
+                   {{strings.columns.s}}: {{this.squat}}
                   </div>
                 {% endif %}
 
                 {% if this.bench %}
                   <div class="meet-lifter-bench">
-                   {{strings.columns.bench}}: {{this.bench}}
+                   {{strings.columns.b}}: {{this.bench}}
                   </div>
                 {% endif %}
 
                 {% if this.deadlift %}
                   <div class="meet-lifter-deadlift">
-                   {{strings.columns.deadlift}}: {{this.deadlift}}
+                   {{strings.columns.d}}: {{this.deadlift}}
                   </div>
                 {% endif %}
               </div>
