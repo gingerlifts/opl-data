@@ -55,7 +55,16 @@
 		"glossbrenner": "Gloss",
 		"ipfpoints": "IPF",
 		"dots": "Dots",
-		"num_lifters": "Athlètes"
+		"num_lifters": "Athlètes",
+		"s": "S" ,
+		"b": "B",
+		"d": "D",
+		"sbd": "SBD",
+		"sb": "SB",
+		"sd": "SD",
+		"bs": "BS",
+		"bd": "BD",
+		"dq": "DQ"
 	},
 	"country": {
 	    "afghanistan": "Afghanistan",

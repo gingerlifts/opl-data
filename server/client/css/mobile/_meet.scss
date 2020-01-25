@@ -7,30 +7,19 @@ $meet-name-header-height: 35px;
   flex-direction: column;
 }
 
-#meetTable {
-  display: block;
-  width: 100%;
-  overflow-x: scroll;
-  padding: 0;
-  padding-top: 60px;
-
-  .meet-list-place-header,
-  .meet-list-sex-header,
-  .meet-list-class-header,{
-    max-width: 30px;
-    overflow-x: hidden;
-    text-overflow: ellipsis;
-  }
-
-  .meet-list-name {
-    width: 200px;
-    display: inline-block;
-    line-height: 21px;
-    height: auto;
-  }
-}
-
 #meetMobile {
+  &.with-categories {
+    padding: 0px;
+
+    #meetResultsContainer {
+      padding-top: $meet-name-header-height;
+
+      .results-group-row {
+        padding: 0px 20px;
+      }
+    }
+  }
+
   .meet-mobile-header-container {
     display: flex;
     height: $meet-name-header-height;
@@ -45,6 +34,7 @@ $meet-name-header-height: 35px;
       display: flex;
       align-items: center;
       padding-left: 5px;
+
       h1 {
         font-size: 13px;
         font-weight: 400;
@@ -59,17 +49,11 @@ $meet-name-header-height: 35px;
     justify-content: center;
     text-align: right;
     padding-right: 5px;
+
     p {
       font-size: 11px;
       line-height: 11px;
       margin: 0;
-    }
-    .meet-mobile-location {
-
-    }
-
-    .meet-mobile-date {
-
     }
   }
 
@@ -82,6 +66,7 @@ $meet-name-header-height: 35px;
     left: 0px;
     bottom: $footer-height;
   }
+
   .meet-mobile-by-division-toggle-container {
     display: flex;
     align-items: center;
@@ -157,13 +142,23 @@ $meet-name-header-height: 35px;
 #meetResultsContainer {
   padding-top: calc(5px + #{$meet-name-header-height});
 
+  .divheader {
+    color: white;
+    background: $row-alt-background-color;
+    padding: 5px;
+
+    .results-category-more-arrow {
+      float: right;
+
+      &.rotate {
+        transform: rotate(90deg) scaleX(-1);
+      }
+    }
+  }
+
   .results-group-row {
     display: flex;
     flex-direction: column;
-
-    .divheader {
-      color: $table-header-background-color;
-    }
   }
 
   .results-lifter-visible-row {
@@ -230,6 +225,4 @@ $meet-name-header-height: 35px;
       border-bottom: 1px solid $table-header-background-color;;
     }
   }
-
-
 }

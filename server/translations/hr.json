@@ -54,8 +54,17 @@
         "mcculloch": "McCulloch",
         "glossbrenner": "Gloss",
         "ipfpoints": "IPF",
-    "dots": "Dots",
-        "num_lifters": "Broj natjecatelja"
+        "dots": "Dots",
+        "num_lifters": "Broj natjecatelja",
+        "s": "S" ,
+        "b": "B",
+        "d": "D",
+        "sbd": "SBD",
+        "sb": "SB",
+        "sd": "SD",
+        "bs": "BS",
+        "bd": "BD",
+        "dq": "DQ"
     },
     "country": {
         "afghanistan": "Afganistan",
