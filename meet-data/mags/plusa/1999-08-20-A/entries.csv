@@ -1,7 +1,7 @@
 Name,Sex,WeightClassKg,Division,AgeRange,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Equipment,Age,Place
 Nadine Baker,F,44,Masters 40-44,40-44,92.5,-100,-100,92.5,57.5,60,-62.5,60,125,132.5,,132.5,285,SBD,Multi-ply,,1
 Chris Brigham,F,48,Masters 50-54,50-54,45,70,77.5,77.5,42.5,-52.5,-52.5,42.5,55,72.5,77.5,77.5,197.5,SBD,Multi-ply,,1
-Nancy Avigliano,F,56,Masters 40-44,40-44,127.5,137.5,142.5,142.5,70,75,-77.5,75,147.5,157.5,165,165,382.5,SBD,Multi-ply,,1
+Nance Avigliano,F,56,Masters 40-44,40-44,127.5,137.5,142.5,142.5,70,75,-77.5,75,147.5,157.5,165,165,382.5,SBD,Multi-ply,,1
 Patricia Lamb,F,56,Masters 45-49,45-49,105,120,-130,120,60,67.5,-72.5,67.5,115,125,135,135,322.5,SBD,Multi-ply,,1
 Patricia Dyer,F,60,Masters 45-49,45-49,-140,140,152.5,152.5,82.5,90,93,93,145,155,165,165,410.5,SBD,Multi-ply,,1
 Barbara Fruzyna,F,60,Masters 40-44,40-44,115,-130,-137.5,115,50,60,-62.5,60,107.5,122.5,137.5,137.5,312.5,SBD,Multi-ply,44,1
@@ -48,7 +48,7 @@ Gary Benford,M,90,Masters 40-44,40-44,-297.5,-312.5,312.5,312.5,182.5,190,192.5,
 Keith Kanemoto,M,90,Masters 40-44,40-44,255,272.5,290,290,187.5,192.5,207.5,207.5,222.5,235,-245,235,732.5,SBD,Multi-ply,,2
 Mike Higgins,M,90,Masters 40-44,40-44,220,230,240,240,172.5,185,,185,237.5,250,260,260,685,SBD,Multi-ply,,3
 Mark Reifkind,M,90,Masters 40-44,40-44,-215,230,237.5,237.5,187.5,-197.5,197.5,197.5,210,-237.5,237.5,237.5,672.5,SBD,Multi-ply,,4
-Tracey Frein,M,90,Masters 40-44,40-44,210,220,235,235,160,-170,170,170,235,240,-250,240,645,SBD,Multi-ply,,6
+Tracy Frein,M,90,Masters 40-44,40-44,210,220,235,235,160,-170,170,170,235,240,-250,240,645,SBD,Multi-ply,,6
 Tom Jackson,M,90,Masters 40-44,40-44,200,227.5,-245,227.5,150,-170,170,170,-250,250,272.5,272.5,670,SBD,Multi-ply,,5
 Les Oeri,M,90,Masters 45-49,45-49,180,200,220,220,150,167.5,175,175,225,-255,-255,225,620,SBD,Multi-ply,,1
 Robert Lamb,M,90,Masters 45-49,45-49,175,-192.5,-192.5,175,115,-122.5,-122.5,115,172.5,185,190,190,480,SBD,Multi-ply,,2

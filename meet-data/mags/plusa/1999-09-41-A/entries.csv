@@ -2,7 +2,7 @@ Name,Age,BodyweightKg,WeightClassKg,Division,Sex,Squat1Kg,Squat2Kg,Squat3Kg,Best
 Lynne Barlow,39,,48,Open,F,130,145,152.5,152.5,77.5,85,-87.5,85,127.5,140,145,145,382.5,SBD,Multi-ply,1
 Margaret Kirkland,35,,48,Open,F,105,120,-125,120,60,65,,65,105,-115,-115,105,290,SBD,Multi-ply,2
 Amy Orelana,,,48,Open,F,97.5,110,-117.5,110,40,-45,-45,40,115,-125,-125,115,265,SBD,Multi-ply,3
-Nancy Avigliano,,,56,Open,F,137.5,145,147.5,147.5,70,75,,75,155,-167.5,167.5,167.5,390,SBD,Multi-ply,1
+Nance Avigliano,,,56,Open,F,137.5,145,147.5,147.5,70,75,,75,155,-167.5,167.5,167.5,390,SBD,Multi-ply,1
 Vanessa Ware,,,60,Open,F,150,162.5,177.5,177.5,90,95,100,100,170,180,190,190,467.5,SBD,Multi-ply,1
 Melanie Diamond,,,60,Open,F,167.5,-172.5,172.5,172.5,100,-107.5,-107.5,100,182.5,-195,-195,182.5,455,SBD,Multi-ply,2
 Nancy Dangerfield,42,,67.5,Open,F,-172.5,172.5,185,185,82.5,90,-95,90,210,-227.5,-227.5,210,485,SBD,Multi-ply,1
@@ -28,7 +28,7 @@ Brian Strickland,,,82.5,Open,M,-282.5,282.5,-307.5,282.5,165,-172.5,-172.5,165,2
 Fabian Wambsgans,52,,82.5,Open,M,-292.5,-292.5,-300,,,,,,,,,,,SBD,Multi-ply,DQ
 Jesse Kellum,34,,90,Open,M,362.5,-385,385,385,255,-265,-265,255,282.5,-295,295,295,935,SBD,Multi-ply,1
 Scott Vineyard,27,,90,Open,M,297.5,310,-320,310,175,180,185,185,272.5,282.5,-290,282.5,777.5,SBD,Multi-ply,2
-Anthony Butson,34,,90,Open,M,280,295,310,310,180,-190,192.5,192.5,250,-267.5,-275,250,752.5,SBD,Multi-ply,3
+Tony Butson,34,,90,Open,M,280,295,310,310,180,-190,192.5,192.5,250,-267.5,-275,250,752.5,SBD,Multi-ply,3
 Virgil Diaz,38,,90,Open,M,255,272.5,285,285,-137.5,137.5,142.5,142.5,227.5,240,-300,240,667.5,SBD,Multi-ply,4
 Matt Zweng,,,90,Open,M,-345,345,-370,345,-237.5,,,,,,,,,SBD,Multi-ply,DQ
 Tony Hardridge,36,,100,Open,M,-345,345,-365,345,222.5,235,242.5,242.5,-320,-332.5,332.5,332.5,920,SBD,Multi-ply,1
