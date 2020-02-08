@@ -48,5 +48,5 @@
 
 [exemptions]
     1504 = ["ExemptWeightClassConsistency", "ExemptLiftOrder"] # Lifter was allowed to compete in wrong weightclass.
-    1902 = ["ExemptDivisionConsistency","ExemptDivision"]
+    1902 = ["ExemptDivisionConsistency", "ExemptDivision"]
 # includes Beginner and Elite divisions.	
