@@ -1,6 +1,6 @@
 Name,Sex,Division,Equipment,Age,WeightClassKg,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Place
-Brian Cummings,M,M_GEM_APF,Multi-ply,29,140,138.8,205,145,182.5,532.5,SBD,1
-Ethan Baker,M,M_GEM_APF,Multi-ply,27,90,89.7,,230,,230,B,1
+Brian Cummings,M,M_GEM_APF,Multi-ply,29,140,138.8,205,145,182.5,532.5,SBD,G
+Ethan Baker,M,M_GEM_APF,Multi-ply,27,90,89.7,,230,,230,B,G
 Adam Smith,M,M_JEM_APF,Multi-ply,23,67.5,62.14,165,95,172.5,432.5,SBD,1
 Cliff Grenon,M,M_JEM_APF,Multi-ply,23,75,74.84,250,165,192.5,607.5,SBD,1
 Danny Diemert Jr,M,M_JEM_APF,Multi-ply,21,82.5,81.65,240,152.5,222.5,615,SBD,1
@@ -59,7 +59,7 @@ Mike Shealy,M,M_MEM_3_APF,Multi-ply,54,100,98.43,210,160,165,535,SBD,1
 Jeffrey Anderson,M,M_MEM_3_APF,Multi-ply,51,125,115.44,380,227.5,267.5,875,SBD,1
 Jeff King,M,M_MEM_3_APF,Multi-ply,51,125,124.97,312.5,190,260,762.5,SBD,2
 Robert Olinger,M,M_MEM_4_APF,Multi-ply,55,100,96.05,250,167.5,227.5,645,SBD,2
-John Burgard,M,M_MEM_4_APF,Multi-ply,51,100,99,265,137.5,247.5,650,SBD,1
+John Burgard,M,M_MEM_3_APF,Multi-ply,51,100,99,265,137.5,247.5,650,SBD,1
 Terry Lancaster,M,M_MEM_5_APF,Multi-ply,63,100,98.43,215,182.5,250,647.5,SBD,1
 William Jordan,M,M_MEM_5_APF,Multi-ply,63,100,95.71,185,130,225,540,SBD,2
 Brian Meek,M,M_MEM_5_APF,Multi-ply,60,140,127.01,352.5,240,272.5,865,SBD,1
