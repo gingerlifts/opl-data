@@ -56,7 +56,16 @@
 		"glossbrenner": "Gloss",
 		"ipfpoints": "IPF",
 		"dots": "Dots",
-		"num_lifters": "Lifters"
+		"num_lifters": "Lifters",
+		"s": "S" ,
+		"b": "B",
+		"d": "D",
+		"sbd": "SBD",
+		"sb": "SB",
+		"sd": "SD",
+		"bs": "BS",
+		"bd": "BD",
+		"dq": "DQ"
 	},
 	"country": {
 	    "afghanistan": "Afghanistan",
