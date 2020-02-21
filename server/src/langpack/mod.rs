@@ -402,6 +402,15 @@ pub struct ColumnTranslations {
     pub ipfpoints: String,
     pub dots: String,
     pub num_lifters: String,
+    pub s: String,
+    pub b: String,
+    pub d: String,
+    pub sbd: String,
+    pub sb: String,
+    pub sd: String,
+    pub bs: String,
+    pub bd: String,
+    pub dq: String,
 }
 
 #[derive(Serialize, Deserialize)]

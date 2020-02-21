@@ -1,3 +1,4 @@
+$meet-name-header-height: 35px;
 
 #controls-edit-meet-button-container {
   display: flex;
@@ -6,24 +7,235 @@
   flex-direction: column;
 }
 
-#meetTable {
-  display: block;
-  width: 100%;
-  overflow-x: scroll;
-  padding: 0;
+#meetMobile {
+  &.with-categories {
+    padding: 0px;
 
-  .meet-list-place-header,
-  .meet-list-sex-header,
-  .meet-list-class-header,{
-    max-width: 30px;
-    overflow-x: hidden;
-    text-overflow: ellipsis;
+    #meetResultsContainer {
+      padding-top: $meet-name-header-height;
+
+      .results-group-row {
+        padding: 0px 20px;
+      }
+    }
   }
 
-  .meet-list-name {
-    width: 200px;
-    display: inline-block;
-    line-height: 21px;
-    height: auto;
+  .meet-mobile-header-container {
+    display: flex;
+    height: $meet-name-header-height;
+    position: fixed;
+    background-color: $table-header-background-color;
+    width: 100%;
+    left: 0;
+    z-index: 1;
+
+    .meet-mobile-meet-name {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      padding-left: 5px;
+
+      h1 {
+        font-size: 13px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .meet-mobile-location-and-date {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    padding-right: 5px;
+
+    p {
+      font-size: 11px;
+      line-height: 11px;
+      margin: 0;
+    }
+  }
+
+  .meet-mobile-filter-container {
+    display: flex;
+    height: $meet-name-header-height;
+    position: fixed;
+    background-color: $background-color;
+    width: 100%;
+    left: 0px;
+    bottom: $footer-height;
+  }
+
+  .meet-mobile-by-division-toggle-container {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    justify-content: space-between;
+
+      /* The switch - the box around the slider */
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 48px;
+      height: 22px;
+      margin-left: 5px;
+    }
+
+    /* Hide default HTML checkbox */
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    /* The slider */
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: lightgray;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 21px;
+      width: 21px;
+      left: 1px;
+      bottom: 1px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    input:checked + .slider {
+      background-color: $table-header-background-color;
+    }
+
+    input:focus + .slider {
+      box-shadow: 0 0 1px #2196F3;
+    }
+
+    input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+
+    /* Rounded sliders */
+    .slider.round {
+      border-radius: 25px;
+    }
+
+    .slider.round:before {
+      border-radius: 50%;
+    }
+  }
+}
+
+#meetResultsContainer {
+  padding-top: calc(5px + #{$meet-name-header-height});
+
+  .divheader {
+    color: white;
+    background: $row-alt-background-color;
+    padding: 5px;
+
+    .results-category-more-arrow {
+      float: right;
+
+      &.rotate {
+        transform: rotate(90deg) scaleX(-1);
+      }
+    }
+  }
+
+  .results-group-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .results-lifter-visible-row {
+    display: flex;
+    padding: 5px 0px;
+    align-items: center;
+    font-size: 12px;
+    flex-direction: column;
+    
+    .results-lifter-visible-row-top {
+      display: flex;
+      width: 100%;
+    }
+
+    .results-lifter-visible-row-bottom {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+      padding-top: 5px;
+    }
+
+    .toggle-more-arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 5px;
+
+      img {
+        display: inline-block;
+        height: 15px;
+
+        &.rotate {
+          transform: rotate(90deg) scaleX(-1);
+        }
+      }
+    }
+
+    .meet-list-name {
+      width: auto;
+      padding: 0px 0px 0px 10px;
+      max-width: 50%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      .instagram {
+        text-decoration: none;
+      }
+    }
+
+    .meet-list-total {
+      margin-left: auto;
+    }
+  }
+
+  .results-lifter-row-container{
+    &:nth-child(2n){
+      background-color: $row-alt-background-color;
+    }
+  }
+
+  .results-lifter-hidden-row {
+    text-align: center;
+
+    .results-lifter-details-more-results-row {
+      font-size: 11px;
+      display: flex;
+      justify-content: space-around;
+      padding: 5px;
+    }
+
+    .results-lifter-details-more-data-row{
+      font-size: 11px;
+      display: flex;
+      justify-content: space-around;
+      padding: 5px;
+      border-bottom: 1px solid $table-header-background-color;;
+    }
   }
 }

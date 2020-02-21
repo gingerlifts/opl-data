@@ -30,6 +30,7 @@ images: builddir
 	cp ${PROJECTDATA}/logo-gold-on-black.svg "${BUILDDIR}/images/logo-gold-on-black.svg"
 	cp images/select_dropdown_red.png "${BUILDDIR}/images/"
 	cp images/select_dropdown_gold.png "${BUILDDIR}/images/"
+	cp images/select_dropdown_white.svg "${BUILDDIR}/images/"
 	cp images/mobile_filter.svg "${BUILDDIR}/images/"
 	cp images/mobile_filter_white.svg "${BUILDDIR}/images/"
 	cp images/search.png "${BUILDDIR}/images/"
