@@ -34,7 +34,7 @@ Corey Akers,M,28,M_OEM_APF,Multi-ply,96,100,-245,245,272.5,272.5,-167.5,167.5,-1
 Jim Prusha,M,34,M_OEM_APF,Multi-ply,97.3,100,260,272.5,280,280,170,182.5,190,190,-235,235,-255,235,705,2,SBD,
 Jason Patrick,M,32,M_OEM_APF,Multi-ply,109.1,110,397.5,425,-437.5,425,252.5,262.5,272.5,272.5,320,345,365,365,1062.5,1,SBD,
 Pete Arroyo,M,24,M_OEM_APF,Multi-ply,119,125,310,-332.5,-332.5,310,190,200,-212.5,200,265,-277.5,-277.5,265,775,3,SBD,
-Ryan Harth,M,25,M_OEM_APF,Multi-ply,108.4,125,-250,272.5,285,285,-102.5,160,-192.5,160,265,290,,290,735,4,SBD,
+Ryan Harth,M,25,M_OEM_APF,Multi-ply,108.4,110,-250,272.5,285,285,-102.5,160,-192.5,160,265,290,,290,735,4,SBD,
 Zack Hudak,M,23,M_OEM_APF,Multi-ply,120.1,125,-380,-380,380,380,-265,265,-280,265,330,-357.5,-357.5,330,975,1,SBD,
 Noel Levario,M,30,M_OEM_APF,Multi-ply,123.8,125,375,,,375,262.5,280,290,290,227.5,,,227.5,892.5,2,SBD,
 Nick Lepine,M,20,M_JEM_APF,Multi-ply,107.5,110,232.5,255,-265,255,142.5,155,-167.5,155,237.5,257.5,-272.5,257.5,667.5,1,SBD,
@@ -57,7 +57,7 @@ Tony Bartolomei,M,45,M_MEM_2_AAPF,Multi-ply,106,110,,,,,207.5,215,-220,215,,,,,2
 John Lamboley,M,62,M_MEM_5_AAPF,Multi-ply,78.9,82.5,,,,,-137.5,-147.5,-147.5,,,,,,,DQ,B,Yes
 Walter Anczerewicz,M,61,M_MEM_5_AAPF,Multi-ply,89,90,,,,,115,-130,-130,115,,,,,115,1,B,Yes
 Kathryn Sladek,F,43,F_MEM_1_AAPF,Multi-ply,55.3,56,,,,,40,45,-47.5,45,,,,,45,1,B,Yes
-Carol Krochmal,F,45,F_MEM_2_AAPF,Multi-ply,47.5,52,,,,,50,52.5,55,55,,,,,55,1,B,Yes
+Carol Krochmal,F,45,F_MEM_2_AAPF,Multi-ply,47.5,48,,,,,50,52.5,55,55,,,,,55,1,B,Yes
 Lisa Petergal,F,46,F_MEM_2_AAPF,Multi-ply,60,60,,,,,45,47.5,-50,47.5,,,,,47.5,1,B,Yes
 Susan Mies,F,50,F_MEM_3_AAPF,Multi-ply,59.1,60,,,,,52.5,55,-60,55,,,,,55,1,B,Yes
 Sidney Thoms,F,50,F_MEM_3_AAPF,Multi-ply,,90+,,,,,112.5,-127.5,-127.5,112.5,,,,,112.5,1,B,Yes
