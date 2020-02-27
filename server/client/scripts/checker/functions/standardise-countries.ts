@@ -344,21 +344,20 @@ const COUNTRY_MAP = {
 };
 
 
-
 // Creates a new Csv file with the Country assigned.
 //
 // On success, returns the new Csv.
 export const csvStandardiseCountries = (source: Csv): Csv | string => {
   const csv = source.shallowClone();
-
-  // If there is no country we don"t have to do anything.
-  if (csv.index("Country") < 0) return csv;
-
   const CountryIndex = csv.index("Country");
+
+  // If there is no country we don't have to do anything.
+  if (csv.index("Country") < 0) return csv;
 
 
   for (let ii = 0; ii < csv.rows.length; ++ii) {
-    if (csv.rows[ii][CountryIndex] in COUNTRY_MAP) csv.rows[ii][CountryIndex]  = COUNTRY_MAP[csv.rows[ii][CountryIndex]]
+    let LifterCountry = csv.rows[ii][CountryIndex];
+    if (LifterCountry in COUNTRY_MAP) csv.rows[ii][CountryIndex]  = COUNTRY_MAP[LifterCountry]
 
   }
 
