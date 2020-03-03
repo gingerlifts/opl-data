@@ -41,7 +41,7 @@ export const csvRound = (source: Csv): Csv | string => {
         const columnName = liftingColumns[jj];
         const index = indices[jj];
 
-        if (index < 0 || row[index] == '') continue;
+        if (index < 0 || row[index] === '') continue;
 
         let liftAsNum = Number(row[index]);
 
