@@ -19,7 +19,7 @@ WeightClassKg,Name,Sex,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,To
 90,Nate Gruezke,M,89.58,347.5,272.5,275,895,SBD,Multi-ply,Open,3
 90,Andre Sizov,M,89.99,330,210,340,880,SBD,Multi-ply,Open,4
 100,Abraham Harrod,M,99.79,420,285,295,1000,SBD,Multi-ply,Open,1
-100,Augie,M,99.11,385,262.5,325,972.5,SBD,Multi-ply,Open,2
+100,Augie Augustein,M,99.11,385,262.5,325,972.5,SBD,Multi-ply,Open,2
 100,Pat Helber,M,99.11,372.5,255,295,922.5,SBD,Multi-ply,Open,3
 100,Adam Driggers,M,99.79,417.5,250,70,737.5,SBD,Multi-ply,Open,4
 110,Clint Smith,M,106.37,435,352.5,347.5,1135,SBD,Multi-ply,Open,1
@@ -29,7 +29,7 @@ WeightClassKg,Name,Sex,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,To
 110,Chris Della Fave,M,109.77,405,,,,SBD,Multi-ply,Open,DQ
 125,Brian Carroll,M,124.28,520,372.5,327.5,1220,SBD,Multi-ply,Open,1
 125,Dan Steltenkamp,M,123.6,400,305,290,995,SBD,Multi-ply,Open,2
-125,Mike Harris,M,123.6,377.5,260,330,967.5,SBD,Multi-ply,Open,3
+125,Mike Harris #1,M,123.6,377.5,260,330,967.5,SBD,Multi-ply,Open,3
 125,Artem Stepanenko,M,116.62,370,230,300,900,SBD,Multi-ply,Open,4
 125,Bert Underwood,M,123.6,347.5,265,70,682.5,SBD,Multi-ply,Open,5
 125,Brian Billings,M,116.57,387.5,,,,SBD,Multi-ply,Open,DQ
@@ -41,7 +41,7 @@ WeightClassKg,Name,Sex,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,To
 140,Steve Acquaro,M,129.73,387.5,240,307.5,935,SBD,Multi-ply,Open,5
 140,Jerry O,M,133.81,345,187.5,325,857.5,SBD,Multi-ply,Open,6
 140,Jimmie Harris,M,136.98,427.5,,,,SBD,Multi-ply,Open,DQ
-140+,Chad Walker,M,151.5,502.5,355,382.5,1240,SBD,Multi-ply,Open,1
+140+,Chad Walker #1,M,151.5,502.5,355,382.5,1240,SBD,Multi-ply,Open,1
 140+,Brandon Lilly,M,146.96,457.5,377.5,350,1185,SBD,Multi-ply,Open,2
 140+,Jayson McNett,M,151.73,492.5,332.5,317.5,1142.5,SBD,Multi-ply,Open,3
 140+,Joey Rogers,M,144.7,422.5,320,262.5,1005,SBD,Multi-ply,Open,4

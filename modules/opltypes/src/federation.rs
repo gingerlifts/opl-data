@@ -580,6 +580,10 @@ pub enum Federation {
     #[strum(to_string = "LPF", serialize = "lpf")]
     LPF,
 
+    /// Mississippi High School Athletic Association.
+    #[strum(to_string = "MHSAA", serialize = "mhsaa")]
+    MHSAA,
+
     /// Michigan High School Powerlifting Association.
     #[strum(to_string = "MHSPLA", serialize = "mhspla")]
     MHSPLA,
@@ -913,6 +917,10 @@ pub enum Federation {
     #[strum(to_string = "USSports", serialize = "ussports")]
     USSports,
 
+    /// US Virgin Islands Powerlifting Federation, IPF.
+    #[strum(to_string = "USVIPF", serialize = "usvipf")]
+    USVIPF,
+
     /// Vietnam Powerlifting Alliance, GPA.
     #[strum(to_string = "VietnamPA", serialize = "vietnampa")]
     VietnamPA,
@@ -1067,6 +1075,15 @@ pub enum Federation {
     /// World Powerlifting Raw Organisation.
     #[strum(to_string = "WPRO", serialize = "wpro")]
     WPRO,
+
+    /// World Power Sport Federation.
+    #[strum(to_string = "WPSF", serialize = "wpsf")]
+    WPSF,
+
+    /// World Power Sport Federation, Belarus.
+    #[serde(rename = "WPSF-Belarus")]
+    #[strum(to_string = "WPSF-Belarus", serialize = "wpsf-belarus")]
+    WPSFBelarus,
 
     /// World Powerlifting Union.
     #[strum(to_string = "WPU", serialize = "wpu")]
@@ -1329,6 +1346,7 @@ impl Federation {
             Federation::LJTF => FULLY_TESTED,
             Federation::LMP => false,
             Federation::LPF => FULLY_TESTED,
+            Federation::MHSAA => false,
             Federation::MHSPLA => false,
             Federation::MM => false,
             Federation::MPA => false,
@@ -1410,6 +1428,7 @@ impl Federation {
             Federation::USPA => false,
             Federation::USSF => false,
             Federation::USSports => false,
+            Federation::USVIPF => FULLY_TESTED,
             Federation::VietnamPA => false,
             Federation::Vityaz => false,
             Federation::VPF => FULLY_TESTED,
@@ -1445,6 +1464,8 @@ impl Federation {
             Federation::WPNZ => FULLY_TESTED,
             Federation::WPPO => FULLY_TESTED,
             Federation::WPRO => false,
+            Federation::WPSF => false,
+            Federation::WPSFBelarus => false,
             Federation::WPU => false,
             Federation::WPUF => false,
             Federation::WPURUS => false,
@@ -1607,6 +1628,7 @@ impl Federation {
             Federation::LJTF => Some(Country::Lithuania),
             Federation::LMP => Some(Country::Mexico),
             Federation::LPF => Some(Country::Latvia),
+            Federation::MHSAA => Some(Country::USA),
             Federation::MHSPLA => Some(Country::USA),
             Federation::MM => Some(Country::USA),
             Federation::MPA => Some(Country::Malaysia),
@@ -1688,6 +1710,7 @@ impl Federation {
             Federation::USPA => Some(Country::USA),
             Federation::USSF => Some(Country::USA),
             Federation::USSports => Some(Country::USA),
+            Federation::USVIPF => Some(Country::USVirginIslands),
             Federation::VietnamPA => Some(Country::Vietnam),
             Federation::Vityaz => Some(Country::Russia),
             Federation::VPF => Some(Country::Vietnam),
@@ -1722,6 +1745,8 @@ impl Federation {
             Federation::WPNZ => Some(Country::NewZealand),
             Federation::WPPO => None,
             Federation::WPRO => Some(Country::Ukraine),
+            Federation::WPSF => None,
+            Federation::WPSFBelarus => Some(Country::Belarus),
             Federation::WPU => None,
             Federation::WPUF => Some(Country::Ukraine),
             Federation::WPURUS => Some(Country::Russia),
@@ -1905,6 +1930,7 @@ impl Federation {
             Federation::LJTF => Some(Federation::IPF),
             Federation::LMP => Some(Federation::IPL),
             Federation::LPF => Some(Federation::IPF),
+            Federation::MHSAA => None,
             Federation::MHSPLA => None,
             Federation::MM => None,
             Federation::MPA => None,
@@ -2007,6 +2033,7 @@ impl Federation {
             Federation::USPA => Some(Federation::IPL),
             Federation::USSF => None,
             Federation::USSports => None,
+            Federation::USVIPF => Some(Federation::IPF),
             Federation::VietnamPA => Some(Federation::GPA),
             Federation::Vityaz => None,
             Federation::VPF => Some(Federation::IPF),
@@ -2041,6 +2068,8 @@ impl Federation {
             Federation::WPNZ => Some(Federation::WP),
             Federation::WPPO => None,
             Federation::WPRO => None,
+            Federation::WPSF => Some(Federation::WPSF),
+            Federation::WPSFBelarus => Some(Federation::WPSF),
             Federation::WPU => None,
             Federation::WPUF => None,
             Federation::WPURUS => None,
@@ -2209,19 +2238,34 @@ impl Federation {
             Federation::IPL => PointsSystem::Wilks,
             Federation::IPLNZ => PointsSystem::Wilks,
             Federation::IrelandUA => PointsSystem::Wilks,
-            Federation::IrishPF => Federation::ipf_rules_on(date),
+            Federation::IrishPF => {
+                // On 2020-02-16, IrishPF voted to immediately switch to Dots.
+                if date > Date::from_parts(2020, 02, 16) {
+                    PointsSystem::Dots
+                } else {
+                    Federation::ipf_rules_on(date)
+                }
+            }
             Federation::IrishPO => PointsSystem::Wilks,
             Federation::IronBoy => PointsSystem::Wilks,
             Federation::IRP => PointsSystem::Wilks,
             Federation::JPA => Federation::ipf_rules_on(date),
             Federation::KPF => Federation::ipf_rules_on(date),
-            Federation::KRAFT => Federation::ipf_rules_on(date),
+            Federation::KRAFT => {
+                // On 2020-03-04, KRAFT announced that they voted for Dots since 02-29.
+                if date >= Date::from_parts(2020, 02, 29) {
+                    PointsSystem::Dots
+                } else {
+                    Federation::ipf_rules_on(date)
+                }
+            }
             Federation::KuwaitPL => PointsSystem::Wilks,
             Federation::LGBT => PointsSystem::Wilks,
             Federation::LHSPLA => PointsSystem::Wilks,
             Federation::LJTF => Federation::ipf_rules_on(date),
             Federation::LMP => PointsSystem::Wilks,
             Federation::LPF => Federation::ipf_rules_on(date),
+            Federation::MHSAA => PointsSystem::Wilks,
             Federation::MHSPLA => PointsSystem::Wilks,
             Federation::MM => PointsSystem::Wilks,
             Federation::MPA => PointsSystem::Wilks,
@@ -2310,6 +2354,7 @@ impl Federation {
             Federation::USPA => PointsSystem::Wilks,
             Federation::USSF => PointsSystem::Wilks,
             Federation::USSports => PointsSystem::Wilks,
+            Federation::USVIPF => Federation::ipf_rules_on(date),
             Federation::VietnamPA => PointsSystem::Wilks,
             Federation::Vityaz => PointsSystem::Wilks,
             Federation::VPF => Federation::ipf_rules_on(date),
@@ -2344,6 +2389,8 @@ impl Federation {
             Federation::WPNZ => PointsSystem::Wilks,
             Federation::WPPO => PointsSystem::AH,
             Federation::WPRO => PointsSystem::Wilks,
+            Federation::WPSF => PointsSystem::Wilks,
+            Federation::WPSFBelarus => PointsSystem::Wilks,
             Federation::WPU => PointsSystem::Wilks,
             Federation::WPUF => PointsSystem::Wilks,
             Federation::WPURUS => PointsSystem::Wilks,

@@ -11,6 +11,7 @@ use std::io;
 use std::path::PathBuf;
 
 use crate::checklib::config::{Config, Exemption, WeightClassConfig};
+use crate::checklib::lifterdata::LifterDataMap;
 use crate::checklib::meet::Meet;
 use crate::{EntryIndex, Report};
 
@@ -294,6 +295,7 @@ enum Header {
 /// Checks that the headers are valid.
 fn check_headers(
     headers: &csv::StringRecord,
+    meet: Option<&Meet>,
     config: Option<&Config>,
     report: &mut Report,
 ) -> HeaderIndexMap {
@@ -374,6 +376,18 @@ fn check_headers(
         // But only if the configuration file actually specifies divisions!
         if !header_map.has(Header::Division) && !config.divisions.is_empty() {
             report.error("Configured federations require a 'Division' column");
+        }
+    }
+
+    // We commonly add lifter BirthDates when lifters ask us to fix their age data.
+    // Unfortunately, since git is text-oriented, adding a column is significantly
+    // more costly than changing just one row.
+    //
+    // To avoid excessive version-control churn, the BirthDate column is mandatory
+    // (even if totally blank) for all meets since 2020.
+    if let Some(meet) = meet {
+        if meet.date.year() >= 2020 && !header_map.has(Header::BirthDate) {
+            report.error("The BirthDate column is mandatory for all meets since 2020");
         }
     }
 
@@ -616,6 +630,13 @@ fn check_column_birthdate(
                     report.error_on(line, format!("BirthDate '{}' error: {}", s, e));
                     return None;
                 }
+            }
+
+            // Ensure that the BirthDate exists in the Gregorian calendar.
+            if !bd.is_valid() {
+                let msg =
+                    format!("BirthDate '{}' does not exist in the Gregorian calendar", s);
+                report.error_on(line, msg);
             }
 
             Some(bd)
@@ -913,13 +934,14 @@ fn check_column_weightclasskg(s: &str, line: u64, report: &mut Report) -> Weight
     }
 }
 
-fn check_column_tested(s: &str, line: u64, report: &mut Report) -> bool {
+fn check_column_tested(s: &str, line: u64, report: &mut Report) -> Option<bool> {
     match s {
-        "Yes" => true,
-        "" | "No" => false,
+        "Yes" => Some(true),
+        "No" => Some(false),
+        "" => None,
         _ => {
             report.error_on(line, format!("Unknown Tested value '{}'", s));
-            false
+            None
         }
     }
 }
@@ -1459,7 +1481,7 @@ fn check_weightclass_consistency(
 
     // The no-config case was handled above, so the config can be known here.
     let config = config.unwrap();
-    let date = meet.map_or(Date::from_u32(2016_01_01), |m| m.date);
+    let date = meet.map_or(Date::from_parts(2016, 01, 01), |m| m.date);
 
     // Attempt to find out what weightclass group this row is a member of.
     //
@@ -1932,6 +1954,19 @@ fn get_tested_from_division_config(entry: &Entry, config: Option<&Config>) -> bo
     }
 }
 
+/// Determines whether this meet falls in the valid range for a
+/// partially-configured federation.
+fn should_ignore_config(meet: Option<&Meet>, config: Option<&Config>) -> bool {
+    if let Some(config) = config {
+        if let Some(meet) = meet {
+            if let Some(valid_since) = config.valid_since() {
+                return meet.date < valid_since;
+            }
+        }
+    }
+    false
+}
+
 /// Checks a single entries.csv file from an open `csv::Reader`.
 ///
 /// Extracting this out into a `Reader`-specific function is useful
@@ -1940,11 +1975,24 @@ pub fn do_check<R>(
     rdr: &mut csv::Reader<R>,
     meet: Option<&Meet>,
     config: Option<&Config>,
+    lifterdata: Option<&LifterDataMap>,
     mut report: Report,
 ) -> Result<EntriesCheckResult, Box<dyn Error>>
 where
     R: io::Read,
 {
+    // If the federation is only partially configured and this meet doesn't fall in
+    // the valid range, ignore the config by reassigning it.
+    let config = if should_ignore_config(meet, config) {
+        None
+    } else {
+        config
+    };
+
+    // Should pending disambiguations be errors?
+    let report_disambiguations =
+        config.map_or(false, |c| c.does_require_manual_disambiguation());
+
     // Scan for check exemptions.
     let exemptions = {
         let parent_folder = &report.get_parent_folder()?;
@@ -1963,7 +2011,8 @@ where
     let exempt_age: bool =
         exemptions.map_or(false, |el| el.iter().any(|&e| e == Exemption::ExemptAge));
 
-    let headers: HeaderIndexMap = check_headers(rdr.headers()?, config, &mut report);
+    let headers: HeaderIndexMap =
+        check_headers(rdr.headers()?, meet, config, &mut report);
     if !report.messages.is_empty() {
         return Ok(EntriesCheckResult {
             report,
@@ -2151,7 +2200,10 @@ where
         }
 
         if let Some(idx) = headers.get(Header::Tested) {
-            entry.tested = check_column_tested(&record[idx], line, &mut report);
+            // Blank "Tested" columns default to the federation configuration.
+            if let Some(tested) = check_column_tested(&record[idx], line, &mut report) {
+                entry.tested = tested;
+            }
         }
         if let Some(idx) = headers.get(Header::CyrillicName) {
             entry.cyrillicname =
@@ -2280,6 +2332,27 @@ where
             }
         }
 
+        // If requested, report if the username requires disambiguation.
+        if report_disambiguations && !entry.username.is_empty() {
+            if let Some(datamap) = lifterdata {
+                match datamap.get(&entry.username) {
+                    Some(lifterdata) => {
+                        if lifterdata.disambiguation_count > 0 {
+                            let url = format!(
+                                "https://www.openpowerlifting.org/u/{}",
+                                entry.username
+                            );
+                            report.error_on(
+                                line,
+                                format!("Disambiguate {} ({})", entry.name, url),
+                            );
+                        }
+                    }
+                    None => {}
+                }
+            }
+        }
+
         if entry.name.is_empty() {
             report.error_on(line, "No Name was given or could be inferred");
         }
@@ -2305,7 +2378,7 @@ pub fn check_entries_from_string(
         .terminator(csv::Terminator::Any(b'\n'))
         .from_reader(entries_csv.as_bytes());
 
-    Ok(do_check(&mut rdr, meet, None, report)?)
+    Ok(do_check(&mut rdr, meet, None, None, report)?)
 }
 
 /// Checks a single entries.csv file by path.
@@ -2313,6 +2386,7 @@ pub fn check_entries(
     entries_csv: PathBuf,
     meet: Option<&Meet>,
     config: Option<&Config>,
+    lifterdata: Option<&LifterDataMap>,
 ) -> Result<EntriesCheckResult, Box<dyn Error>> {
     // Allow the pending Report to own the PathBuf.
     let mut report = Report::new(entries_csv);
@@ -2331,5 +2405,5 @@ pub fn check_entries(
         .terminator(csv::Terminator::Any(b'\n'))
         .from_path(&report.path)?;
 
-    Ok(do_check(&mut rdr, meet, config, report)?)
+    Ok(do_check(&mut rdr, meet, config, lifterdata, report)?)
 }

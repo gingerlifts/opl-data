@@ -16,12 +16,12 @@ Jim Hussey,USA,64,M,M_MEM_5_AWPC,88.4,90,,,,172.5,,,172.5,1,B,Multi-ply
 Ron Cuny,USA,61,M,M_MEM_5_AWPC,83.8,90,,,,120,,,120,2,B,Multi-ply
 Ed Fitzpatrick,USA,60,M,M_MEM_5_AWPC,107,110,,,,220,,,220,1,B,Multi-ply
 Mike Milton,Canada,57,M,M_MEM_4_AWPC,81.8,82.5,,,,130,,,130,1,B,Multi-ply
-Mark Hammond,USA,56,M,M_MEM_4_AWPC,95.5,100,,,,197.5,,,197.5,1,B,Multi-ply
+Mark Hammond #1,USA,56,M,M_MEM_4_AWPC,95.5,100,,,,197.5,,,197.5,1,B,Multi-ply
 Ken Tawzer,USA,56,M,M_MEM_4_AWPC,106.5,110,,,,165,,,165,1,B,Multi-ply
 Clay Barnett,USA,58,M,M_MEM_4_AWPC,119.1,125,,,,185,,,185,1,B,Multi-ply
 Mary Rubcic-Tawzer,USA,52,F,F_MEM_3_AWPC,103.4,90+,,,60,57.5,,,57.5,1,B,Multi-ply
 Joe Smolinski,USA,53,M,M_MEM_3_AWPC,108.6,110,,,,,,,,DQ,B,Multi-ply
-Dave Murphy,USA,53,M,M_MEM_3_AWPC,112.3,125,,,-262.5,255,,,255,1,B,Multi-ply
+Dave Murphy #1,USA,53,M,M_MEM_3_AWPC,112.3,125,,,-262.5,255,,,255,1,B,Multi-ply
 Cozy Cozine,USA,51,M,M_MEM_3_AWPC,126.6,140,,,,205,,,205,1,B,Multi-ply
 Michael Bingham,USA,42,M,M_MEM_1_AWPC,80.2,82.5,,,,205,,,205,1,B,Multi-ply
 Ed Taber,USA,42,M,M_MEM_1_AWPC,89.5,90,,,,227.5,,,227.5,1,B,Multi-ply
@@ -36,7 +36,7 @@ Kevin Platt,USA,21,M,M_JEM_AWPC,90,90,,,,195,,,195,1,B,Multi-ply
 Sam Borrego,USA,23,M,M_JEM_AWPC,89.6,90,,,,182.5,,,182.5,2,B,Multi-ply
 Sergey Grishko,Russia,28,M,M_OEM_AWPC,72.5,75,,,,,,,,DQ,B,Multi-ply
 Evgeniy Nechaev,Russia,30,M,M_OEM_AWPC,81.3,82.5,,,,242.5,,,242.5,1,B,Multi-ply
-Timothy Hensley,USA,28,M,M_OEM_AWPC,85.7,90,,,,290,,,290,1,B,Multi-ply
+Tim Hensley,USA,28,M,M_OEM_AWPC,85.7,90,,,,290,,,290,1,B,Multi-ply
 Ayrat Fayzullin,Russia,36,M,M_OEM_AWPC,88.5,90,,,,210,,,210,2,B,Multi-ply
 Matt Minuth,USA,27,M,M_OEM_AWPC,99.6,100,,,-362.5,345,,,345,1,B,Multi-ply
 Jeff Johnston #1,USA,29,M,M_OEM_AWPC,92.4,100,,,,250,,,250,2,B,Multi-ply
@@ -45,7 +45,7 @@ Bryan Hoffman,USA,35,M,M_OEM_AWPC,108.8,110,,,,,,,,DQ,B,Multi-ply
 David Lewis,USA,36,M,M_OEM_AWPC,122.5,125,,,,295,,,295,1,B,Multi-ply
 Róbert Németh,Hungary,33,M,M_OEM_AWPC,124.2,125,,,,277.5,,,277.5,2,B,Multi-ply
 Eric Hubbs,USA,44,M,M_OEM_AWPC,113.2,125,,,-280,275,,,275,3,B,Multi-ply
-Dave Murphy,USA,53,M,M_OEM_AWPC,112.3,125,,,-262.5,255,,,255,4,B,Multi-ply
+Dave Murphy #1,USA,53,M,M_OEM_AWPC,112.3,125,,,-262.5,255,,,255,4,B,Multi-ply
 Robert Vick,USA,35,M,M_OEM_AWPC,173.5,140+,,,-440,387.5,,,387.5,1,B,Multi-ply
 Roman Polyakov,Russia,32,M,M_OEM_AWPC,145.4,140+,,,,265,,,265,2,B,Multi-ply
 Susan McCallion,USA,59,F,F_MEM_4_AWPC,52.6,56,-122.5,117.5,,45,,107.5,270,1,SBD,Multi-ply
@@ -100,7 +100,7 @@ Paul Wilder,USA,68,M,M_PFEM_AWPC,90,90,,165,,25,,185,375,1,SBD,Multi-ply
 Dick Zenzen,USA,56,M,M_PFEM_AWPC,99.9,100,,300,,172.5,,235,707.5,1,SBD,Multi-ply
 Paul Wilder,USA,68,M,M_MEM_6_AWPC,90,90,,165,,25,,185,375,1,SBD,Multi-ply
 Dick Zenzen,USA,56,M,M_MEM_4_AWPC,99.9,100,,300,,172.5,,235,707.5,1,SBD,Multi-ply
-Mike Shealy,USA,56,M,M_MEM_4_AWPC,101.6,110,,235,,160,,155,550,1,SBD,Multi-ply
+Michael Shealy,USA,56,M,M_MEM_4_AWPC,101.6,110,,235,,160,,155,550,1,SBD,Multi-ply
 Bruce McCord,USA,47,M,M_MEM_2_AWPC,99,100,,257.5,,187.5,,245,690,1,SBD,Multi-ply
 Bruce Garnett,USA,45,M,M_MEM_2_AWPC,96.3,100,,250,,182.5,,192.5,625,2,SBD,Multi-ply
 James Dibble,USA,47,M,M_MEM_2_AWPC,109.8,110,,335,,247.5,,262.5,845,1,SBD,Multi-ply
@@ -114,7 +114,7 @@ Eric Stone,USA,25,M,M_OEM_AWPC,74.8,75,,307.5,,172.5,,230,710,2,SBD,Multi-ply
 Devin Cagnolatti,USA,35,M,M_OEM_AWPC,81.3,82.5,,307.5,,240,,260,807.5,1,SBD,Multi-ply
 Vincent Lysobey,USA,37,M,M_OEM_AWPC,81.6,82.5,,307.5,,210,,255,772.5,2,SBD,Multi-ply
 Bama Hibbing,USA,39,M,M_OEM_AWPC,82.4,82.5,,260,,125,,215,600,3,SBD,Multi-ply
-Mikhail Van Rooyen,USA,33,M,M_OEM_AWPC,75.1,82.5,,142.5,,125,,165,432.5,4,SBD,Multi-ply
+Mikail Van Rooyen,USA,33,M,M_OEM_AWPC,75.1,82.5,,142.5,,125,,165,432.5,4,SBD,Multi-ply
 Ronnie Paras,USA,46,M,M_OEM_AWPC,89.7,90,-355,345,,,,,,DQ,SBD,Multi-ply
 Mike Szudarek,USA,36,M,M_OEM_AWPC,99.8,100,,385,,192.5,,272.5,850,1,SBD,Multi-ply
 Steve Wagner,USA,26,M,M_OEM_AWPC,99.6,100,,340,,205,,250,795,2,SBD,Multi-ply

@@ -66,13 +66,13 @@ DQ,Kien Vutrung,1970,Belgium,51,-180,,-180,,,,,,,,,,,52,Juniors,SBD,M,Single-ply
 4,András Csiszár,1973,Hungary,55.8,160,170,175,175,100,110,-112.5,110,200,210,-220,210,495,56,Juniors,SBD,M,Single-ply
 5,Anthony Jenkins,1974,USA,55.7,147.5,162.5,172.5,172.5,105,-117.5,117.5,117.5,182.5,190,-215,190,480,56,Juniors,SBD,M,Single-ply
 6,Yuoshikasu Umeda,1975,Japan,55.8,167.5,177.5,-187.5,177.5,97.5,102.5,105,105,175,180,-195,180,462.5,56,Juniors,SBD,M,Single-ply
-7,Christian Lein,1970,Germany,53.8,150,157.5,162.5,162.5,115,122.5,-125,122.5,160,170,-177.5,170,455,56,Juniors,SBD,M,Single-ply
+7,Christian Klein,1970,Germany,53.8,150,157.5,162.5,162.5,115,122.5,-125,122.5,160,170,-177.5,170,455,56,Juniors,SBD,M,Single-ply
 8,Takayuki Kuroda,1972,Japan,55.6,165,-175,-175,165,100,-105,-105,100,170,180,-185,180,445,56,Juniors,SBD,M,Single-ply
 DQ,Sami Lipponen,1973,Finland,55.4,195,-207.5,-207.5,195,95,-100,,95,-200,-200,-200,,,56,Juniors,SBD,M,Single-ply
 1,Red Sandoval,1971,USA,59.5,182.5,200,207.5,207.5,137.5,140,-142.5,140,192.5,202.5,207.5,207.5,555,60,Juniors,SBD,M,Single-ply
 2,Chung-Liang Chiu,1974,Taiwan,59.6,210,220,227.5,227.5,87.5,90,95,95,200,220,225,225,547.5,60,Juniors,SBD,M,Single-ply
 3,Richard Batchelor,1974,UK,59.6,185,200,-205,200,110,112.5,115,115,217.5,227.5,230,230,545,60,Juniors,SBD,M,Single-ply
-4,Valery Bogdanov,1970,Russia,59.5,200,210,-220,210,140,150,-155,150,170,182.5,-190,182.5,542.5,60,Juniors,SBD,M,Single-ply
+4,Valeriy Bogdanov,1970,Russia,59.5,200,210,-220,210,140,150,-155,150,170,182.5,-190,182.5,542.5,60,Juniors,SBD,M,Single-ply
 5,Jürgen Nemeth,1972,Austria,59,185,195,202.5,202.5,105,112.5,-117.5,112.5,215,-225,-230,215,530,60,Juniors,SBD,M,Single-ply
 6,Antonio Guerra,1971,France,58.9,185,195,205,205,105,112.5,-117.5,112.5,185,200,210,210,527.5,60,Juniors,SBD,M,Single-ply
 7,Johannes Eriksson,1972,Iceland,59.3,195,202.5,207.5,207.5,97.5,-102.5,-102.5,97.5,-205,205,,205,510,60,Juniors,SBD,M,Single-ply
@@ -105,7 +105,7 @@ DQ,Frederic Rambert,1972,France,59.5,185,-195,-195,185,110,-117.5,-117.5,110,-19
 14,Chih-Kuan Meng,1974,Taiwan,71.8,230,-240,-240,230,120,-125,-125,120,230,240,-245,240,590,75,Juniors,SBD,M,Single-ply
 15,Gaku Kawasaki,1970,Japan,72,210,220,230,230,130,140,-145,140,210,220,-230,220,590,75,Juniors,SBD,M,Single-ply
 16,Jeff Butt,1970,Canada,74.8,212.5,222.5,-230,222.5,127.5,-132.5,-132.5,127.5,235,-245,-245,235,585,75,Juniors,SBD,M,Single-ply
-17,Savran Özkan,1973,Germany,74.7,190,210,220,220,110,120,122.5,122.5,240,-250,,240,582.5,75,Juniors,SBD,M,Single-ply
+17,Özkan Savran,1973,Germany,74.7,190,210,220,220,110,120,122.5,122.5,240,-250,,240,582.5,75,Juniors,SBD,M,Single-ply
 18,Scott Fletcher,1970,Australia,74.2,210,-220,220,220,120,-130,130,130,210,-217.5,-217.5,210,560,75,Juniors,SBD,M,Single-ply
 19,Peter Meyerscough,1976,Australia,70,125,135,145,145,75,85,-95,85,182.5,-195,-195,182.5,412.5,75,Juniors,SBD,M,Single-ply
 DQ,Vadim Bratus,1973,Ukraine,74.7,-230,-230,,,,,,,,,,,,75,Juniors,SBD,M,Single-ply
@@ -168,7 +168,7 @@ DQ,Valery Voitsekhovsky,1972,Ukraine,98.1,310,317.5,-325,317.5,-200,-200,-200,,,
 9,Masao Sawa,1970,Japan,116.6,270,-290,-290,270,172.5,-180,-180,172.5,220,240,-257.5,240,682.5,125,Juniors,SBD,M,Single-ply
 10,Norio Suzuki,1974,Japan,120,250,265,275,275,150,160,-165,160,200,-220,-220,200,635,125,Juniors,SBD,M,Single-ply
 1,Lars Klev,1970,Norway,142.9,340,-360,360,360,225,235,-240,235,280,295,310,310,905,125+,Juniors,SBD,M,Single-ply
-2,Jeff Lewis,1970,USA,203.3,325,350,-375,350,210,230,-242.5,230,272.5,-297.5,-327.5,272.5,852.5,125+,Juniors,SBD,M,Single-ply
+2,Jeff Lewis #1,1970,USA,203.3,325,350,-375,350,210,230,-242.5,230,272.5,-297.5,-327.5,272.5,852.5,125+,Juniors,SBD,M,Single-ply
 3,Cheng-Tsung Wu,1972,Taiwan,154.3,335,352.5,,352.5,185,192.5,-197.5,192.5,260,280,-285,280,825,125+,Juniors,SBD,M,Single-ply
 4,Alexander Havlik,1973,Austria,126.1,290,310,320,320,190,200,202.5,202.5,270,285,-302.5,285,807.5,125+,Juniors,SBD,M,Single-ply
 5,Peter Baltus,1972,Netherlands,135.4,265,282.5,-287.5,282.5,165,-172.5,-172.5,165,290,-310,-310,290,737.5,125+,Juniors,SBD,M,Single-ply

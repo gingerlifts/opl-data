@@ -10,8 +10,10 @@
   color: $header-color;
 
   height: $header-height;
-  width: 100%;
   overflow: hidden;
+
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 #header a.nav__link {
@@ -44,17 +46,19 @@
   align-items: center;
   margin-left: auto;
   height: $header-height;
-
-  /* Push it away from the top-right corner just a little. */
-  padding-right: 8px;
 }
 
 #header img.header-logo {
-  padding-left: 8px;
   padding-top: 4px;
   padding-bottom: 4px;
-  padding-right: 2px;
   height: $header-height - 8px;
+}
+
+// Provides padding between the logo and the Rankings link.
+// This used to be built into the .header-logo, but it was separated out
+// because the OpenIPF logo is separated into two parts, only one of which needs padding.
+#header .pad {
+  padding-right: 2px;
 }
 
 // Hide the hamburger menu by default.

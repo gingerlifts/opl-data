@@ -12,17 +12,17 @@ Leamon Woodley,75,Open,M,SBD,262.5,137.5,265,665,Single-ply,1
 N. Cicero,82.5,Open,M,SBD,272.5,142.5,277.5,692.5,Single-ply,1
 B. Davis,82.5,Open,M,SBD,272.5,187.5,215,675,Single-ply,2
 J. Chapman,90,Open,M,SBD,265,165,257.5,687.5,Single-ply,1
-G. Fraser,90,Open,M,SBD,250,170,217.5,637.5,Single-ply,2
+Gordie Fraser,90,Open,M,SBD,250,170,217.5,637.5,Single-ply,2
 E. Hammon,90,Open,M,SBD,250,165,215,630,Single-ply,3
 C. Kincheloe,100,Open,M,SBD,272.5,200,272.5,745,Single-ply,1
-B. McCanse,100,Open,M,SBD,255,175,267.5,697.5,Single-ply,2
-J. Capello,100,Open,M,SBD,262.5,160,265,687.5,Single-ply,3
+Buzz McCanse,100,Open,M,SBD,255,175,267.5,697.5,Single-ply,2
+Jerry Capello,100,Open,M,SBD,262.5,160,265,687.5,Single-ply,3
 Fred Garnett,100,Open,M,SBD,272.5,,232.5,,Single-ply,DQ
 Grant Higa,110,Open,M,SBD,335,187.5,282.5,805,Single-ply,1
 Stan Efferding,125+,Open,M,SBD,340,240,327.5,907.5,Single-ply,1
 Greg Payne,125+,Open,M,SBD,365,240,302.5,907.5,Single-ply,2
 Dean Munsey,125+,Open,M,SBD,342.5,192.5,297.5,832.5,Single-ply,3
-J. Markoff,125+,Open,M,SBD,345,215,267.5,827.5,Single-ply,4
+Jeff Markoff,125+,Open,M,SBD,345,215,267.5,827.5,Single-ply,4
 H. Dillon,56,Open,F,SBD,100,52.5,105,257.5,Single-ply,1
 M. Fraser,60,Open,F,SBD,90,72.5,115,277.5,Single-ply,1
 J. Moreno,67.5,Open,F,SBD,47.5,50,75,172.5,Single-ply,1
@@ -47,7 +47,7 @@ E. Robinson,75,Novice,M,SBD,127.5,90,147.5,365,Single-ply,6
 D. Badiedi,82.5,Novice,M,SBD,210,137.5,242.5,590,Single-ply,1
 J. Rictor,82.5,Novice,M,SBD,230,120,220,570,Single-ply,2
 T. Maydish,82.5,Novice,M,SBD,195,132.5,242.5,570,Single-ply,3
-M. Moore #4,82.5,Novice,M,SBD,175,152.5,205,532.5,Single-ply,4
+Mark Moore,82.5,Novice,M,SBD,175,152.5,205,532.5,Single-ply,4
 K. Sherrod,82.5,Novice,M,SBD,152.5,107.5,170,430,Single-ply,5
 T. Depoe,82.5,Novice,M,SBD,,,,,Single-ply,DQ
 K. Frison,90,Novice,M,SBD,240,137.5,227.5,605,Single-ply,1
@@ -61,10 +61,10 @@ T. Raz,100,Novice,M,SBD,207.5,160,227.5,595,Single-ply,2
 S. Fowler,100,Novice,M,SBD,217.5,150,220,587.5,Single-ply,3
 B. Gray,100,Novice,M,SBD,147.5,90,177.5,415,Single-ply,4
 M. Saddler,100,Novice,M,SBD,117.5,77.5,157.5,352.5,Single-ply,5
-G. Ramsdell,100,Novice,M,SBD,,,,,Single-ply,DQ
+Gregg Ramsdell,100,Novice,M,SBD,,,,,Single-ply,DQ
 S. McConochil,110,Novice,M,SBD,205,147.5,195,547.5,Single-ply,1
 M. Hebert,125,Novice,M,SBD,255,142.5,242.5,640,Single-ply,1
-J. Mickelson,125,Novice,M,SBD,237.5,147.5,215,600,Single-ply,2
+Joe Mickelson,125,Novice,M,SBD,237.5,147.5,215,600,Single-ply,2
 T. Martinsen,125,Novice,M,SBD,200,,,,Single-ply,DQ
 Joaquin Diaz de Leon,125+,Novice,M,SBD,285,142.5,230,657.5,Single-ply,1
 G. Morgan,56,Open,M,B,,107.5,,107.5,Single-ply,1
@@ -73,17 +73,17 @@ P. Hale,67.5,Open,M,B,,145,,145,Single-ply,1
 D. Keranen,67.5,Open,M,B,,132.5,,132.5,Single-ply,2
 Eric Lumpkin,75,Open,M,B,,157.5,,157.5,Single-ply,1
 M. Phelps,82.5,Open,M,B,,185,,185,Single-ply,1
-B. Beebe,90,Open,M,B,,200,,200,Single-ply,1
+Byron Beebe,90,Open,M,B,,200,,200,Single-ply,1
 D. Brogan,90,Open,M,B,,167.5,,167.5,Single-ply,2
 P. Monstein,100,Open,M,B,,,,,Single-ply,DQ
 R. Wade,110,Open,M,B,,210,,210,Single-ply,1
 T. Amacher,125,Open,M,B,,232.5,,232.5,Single-ply,1
 B. Morrison,125,Open,M,B,,195,,195,Single-ply,2
-M. Jackson,125,Open,M,B,,190,,190,Single-ply,3
+Mark Jackson,125,Open,M,B,,190,,190,Single-ply,3
 T. Haug,125+,Open,M,B,,232.5,,232.5,Single-ply,1
 L. Haywood,125+,Open,M,B,,202.5,,202.5,Single-ply,2
 B. Mack,75,Masters 40-49,M,B,,97.5,,97.5,Single-ply,1
-J. Kasper,75,Masters 40-49,M,B,,97.5,,97.5,Single-ply,2
+Jack Kasper,75,Masters 40-49,M,B,,97.5,,97.5,Single-ply,2
 B. Kenyon,82.5,Masters 40-49,M,B,,152.5,,152.5,Single-ply,1
 Bennie Dooley,90,Masters 40-49,M,B,,170,,170,Single-ply,1
 Bill Sekermestrovich,90,Masters 40-49,M,B,,165,,165,Single-ply,2
@@ -114,7 +114,7 @@ D. Reese,90,Novice,M,B,,147.5,,147.5,Single-ply,1
 M. Thomas,90,Novice,M,B,,140,,140,Single-ply,2
 J. DuBois,90,Novice,M,B,,137.5,,137.5,Single-ply,3
 S. Meyer,100,Novice,M,B,,145,,145,Single-ply,1
-V. Shaw,125,Novice,M,B,,192.5,,192.5,Single-ply,1
+Victor Shaw,125,Novice,M,B,,192.5,,192.5,Single-ply,1
 J. Erevia,125,Novice,M,B,,192.5,,192.5,Single-ply,2
 B. Davis,48,Open,F,B,,57.5,,57.5,Single-ply,1
 C. Hull,52,Open,F,B,,57.5,,57.5,Single-ply,1

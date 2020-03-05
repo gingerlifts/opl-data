@@ -93,7 +93,7 @@ H. Fultz,82.5,Pure,,M,215,155,237.5,607.5,SBD,Single-ply,12
 M. Fiedor,82.5,Pure,,M,212.5,145,230,587.5,SBD,Single-ply,13
 Steve Rosenberg,82.5,Pure,,M,197.5,130,227.5,555,SBD,Single-ply,14
 E. Rodriquez,82.5,Pure,,M,220,127.5,205,552.5,SBD,Single-ply,15
-K. McIntosh,82.5,Pure,,M,242.5,142.5,,,SBD,Single-ply,DQ
+Kevin McIntosh,82.5,Pure,,M,242.5,142.5,,,SBD,Single-ply,DQ
 Tee Meyers,82.5,Pure,,M,280,147.5,,,SBD,Single-ply,DQ
 David Boucher,82.5,Pure,,M,,,,,SBD,Single-ply,DQ
 Kent Johnson,90,Pure,,M,312.5,167.5,322.5,802.5,SBD,Single-ply,1
@@ -197,7 +197,7 @@ Keith Kanemoto,82.5,Natural,,M,220,182.5,210,612.5,SBD,Single-ply,9
 R. Fye,82.5,Natural,,M,217.5,125,227.5,570,SBD,Single-ply,10
 J. Yaver,82.5,Natural,,M,195,137.5,230,562.5,SBD,Single-ply,11
 Tee Meyers,82.5,Natural,,M,280,147.5,,,SBD,Single-ply,DQ
-K. McIntosh,82.5,Natural,,M,242.5,142.5,,,SBD,Single-ply,DQ
+Kevin McIntosh,82.5,Natural,,M,242.5,142.5,,,SBD,Single-ply,DQ
 Kent Johnson,90,Natural,,M,312.5,167.5,322.5,802.5,SBD,Single-ply,1
 Steve Johnston,90,Natural,,M,307.5,182.5,282.5,772.5,SBD,Single-ply,2
 Gil Scarazzini,90,Natural,,M,272.5,190,295,757.5,SBD,Single-ply,3
@@ -218,7 +218,7 @@ Robert Puccino,100,Natural,,M,272.5,172.5,265,710,SBD,Single-ply,6
 T. Sacco,100,Natural,,M,272.5,162.5,272.5,707.5,SBD,Single-ply,7
 D. Price,100,Natural,,M,265,152.5,285,702.5,SBD,Single-ply,8
 M. Graves,100,Natural,,M,287.5,172.5,240,700,SBD,Single-ply,9
-P. Halliwell,100,Natural,,M,280,175,240,695,SBD,Single-ply,10
+Phil Halliwell,100,Natural,,M,280,175,240,695,SBD,Single-ply,10
 J. Schipper,100,Natural,,M,255,177.5,227.5,660,SBD,Single-ply,11
 A. Ortiz,100,Natural,,M,260,155,242.5,657.5,SBD,Single-ply,12
 R. Devargus,100,Natural,,M,235,157.5,225,617.5,SBD,Single-ply,13
@@ -288,9 +288,9 @@ L. Lawson,82.5,Masters 40-49,40-49,M,240,150,240,630,SBD,Single-ply,1
 Rich Tsutsui,82.5,Masters 40-49,40-49,M,232.5,160,205,597.5,SBD,Single-ply,2
 K. Crosdale,82.5,Masters 40-49,40-49,M,210,140,235,585,SBD,Single-ply,3
 A. Irby Jr,82.5,Masters 40-49,40-49,M,202.5,125,227.5,555,SBD,Single-ply,4
-T. Butler,82.5,Masters 40-49,40-49,M,200,112.5,232.5,545,SBD,Single-ply,5
+Ted Butler,82.5,Masters 40-49,40-49,M,200,112.5,232.5,545,SBD,Single-ply,5
 D. Semer,90,Masters 40-49,40-49,M,185,127.5,207.5,520,SBD,Single-ply,1
-B. Lindsey,90,Masters 40-49,40-49,M,175,137.5,205,517.5,SBD,Single-ply,2
+Bill Lindsey,90,Masters 40-49,40-49,M,175,137.5,205,517.5,SBD,Single-ply,2
 Terry Hague,90,Masters 40-49,40-49,M,150,125,205,480,SBD,Single-ply,3
 Tom Piazza,90,Masters 40-49,40-49,M,,,,,SBD,Single-ply,DQ
 Harry Silas,100,Masters 40-49,40-49,M,320,185,320,825,SBD,Single-ply,1

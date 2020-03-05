@@ -22,7 +22,7 @@ K. Le,75,Class II,,M,212.5,137.5,255,605,SBD,Single-ply,Yes,6
 K. Jones,75,Class II,,M,187.5,147.5,205,540,SBD,Single-ply,Yes,7
 B. Ramos,75,Class II,,M,192.5,115,,,SBD,Single-ply,Yes,DQ
 Todd Whitton,75,Class II,,M,240,145,,,SBD,Single-ply,Yes,DQ
-Greg Jones,82.5,Class II,,M,270,192.5,282.5,745,SBD,Single-ply,Yes,1
+Greg Jones #1,82.5,Class II,,M,270,192.5,282.5,745,SBD,Single-ply,Yes,1
 B. Henry,82.5,Class II,,M,272.5,170,260,702.5,SBD,Single-ply,Yes,2
 Colby Cardin,82.5,Class II,,M,267.5,157.5,265,690,SBD,Single-ply,Yes,3
 C. McClain,82.5,Class II,,M,280,130,267.5,677.5,SBD,Single-ply,Yes,4
@@ -123,7 +123,7 @@ A. Trejo,75,Pure,,M,215,112.5,247.5,575,SBD,Single-ply,Yes,11
 T. Montano,75,Pure,,M,210,107.5,230,547.5,SBD,Single-ply,Yes,12
 E. Rodriguez,75,Pure,,M,172.5,115,205,492.5,SBD,Single-ply,Yes,13
 Matt Betts,82.5,Pure,,M,295,175,287.5,757.5,SBD,Single-ply,Yes,1
-Greg Jones,82.5,Pure,,M,270,192.5,282.5,745,SBD,Single-ply,Yes,2
+Greg Jones #1,82.5,Pure,,M,270,192.5,282.5,745,SBD,Single-ply,Yes,2
 Curtis Payne,82.5,Pure,,M,277.5,160,307.5,745,SBD,Single-ply,Yes,3
 Kenneth Rollins,82.5,Pure,,M,307.5,160,260,727.5,SBD,Single-ply,Yes,4
 J. Carrance,82.5,Pure,,M,282.5,192.5,245,720,SBD,Single-ply,Yes,5
@@ -168,7 +168,7 @@ S. Ross,110,Pure,,M,285,182.5,305,772.5,SBD,Single-ply,Yes,2
 Steve Walsh,110,Pure,,M,292.5,180,282.5,755,SBD,Single-ply,Yes,3
 R. Brown #7,110,Pure,,M,272.5,185,290,747.5,SBD,Single-ply,Yes,4
 Robert Keller #1,110,Pure,,M,292.5,175,275,742.5,SBD,Single-ply,Yes,5
-B. Truesdale,110,Pure,,M,270,172.5,290,732.5,SBD,Single-ply,Yes,6
+Bill Truesdale,110,Pure,,M,270,172.5,290,732.5,SBD,Single-ply,Yes,6
 Ed Ferguson,110,Pure,,M,282.5,175,255,712.5,SBD,Single-ply,Yes,7
 T. Fourcade,110,Pure,,M,287.5,185,237.5,710,SBD,Single-ply,Yes,8
 R. Corbellini,110,Pure,,M,262.5,152.5,267.5,682.5,SBD,Single-ply,Yes,9
@@ -201,7 +201,7 @@ J. Walker,52,Open,,F,110,55,142.5,307.5,SBD,Single-ply,Yes,1
 Gayle Hall,52,Open,,F,115,50,117.5,282.5,SBD,Single-ply,Yes,2
 L. Legg,56,Open,,F,132.5,62.5,147.5,342.5,SBD,Single-ply,Yes,1
 L. Roberts,56,Open,,F,135,57.5,150,342.5,SBD,Single-ply,Yes,2
-G. Ells,56,Open,,F,107.5,82.5,140,330,SBD,Single-ply,Yes,3
+Genoveva Ells,56,Open,,F,107.5,82.5,140,330,SBD,Single-ply,Yes,3
 K. Lane,56,Open,,F,122.5,60,137.5,320,SBD,Single-ply,Yes,4
 K. McGowan,56,Open,,F,102.5,62.5,132.5,297.5,SBD,Single-ply,Yes,5
 J. Vasquez,56,Open,,F,117.5,52.5,122.5,292.5,SBD,Single-ply,Yes,6

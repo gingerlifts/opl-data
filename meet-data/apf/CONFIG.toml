@@ -252,6 +252,7 @@
     mnemaapf = {name ="M_NEM_AAPF",min=0,max=999,equipment="Multi-ply",sex="M",tested="Yes"} #Novice
     mnraapf = {name ="M_NR_AAPF",min=0,max=999,equipment="Raw",sex="M",tested="Yes"} #Novice
     mgraapf = {name ="M_GR_AAPF",min=0,max=999,equipment="Raw",sex="M",place="G",tested="Yes"} #Guest
+    mgemaapf = {name ="M_GEM_AAPF",min=0,max=999,equipment="Multi-ply",sex="M",place="G",tested="Yes"} #Guest
 
     foraapf = {name ="F_OR_AAPF",min=0,max=999,equipment="Raw",sex="F",tested="Yes"}
     focraapf = {name ="F_OCR_AAPF",min=0,max=999,equipment=["Raw","Wraps"],sex="F",tested="Yes"}
@@ -327,6 +328,7 @@
     fgraapf = {name ="F_GR_AAPF",min=0,max=999,equipment="Raw",sex="F",place="G",tested="Yes"} #Guest
     fpfemapf = {name ="F_PFEM_AAPF",min=0,max=999,equipment="Multi-ply",sex="F"} #Police/Fire
     fpfraapf = {name ="F_PFR_AAPF",min=0,max=999,equipment="Raw",sex="F",tested="Yes"} #Police/Fire
+    fsoemaapf = {name ="F_SOEM_AAPF",min=0,max=999,equipment="Multi-ply",sex="F",tested="Yes"} #Special Olympics
 
  # WPC Divisions.
     morwpc = {name ="M_OR_WPC",min=0,max=999,equipment="Raw",sex="M"}
@@ -709,3 +711,10 @@
     0828 = ["ExemptWeightClassConsistency"] # Missing weightclass
     0834 = ["ExemptDivision"] # Non-standard divisions (Russia).
     9101 = ["ExemptDivision", "ExemptWeightClassConsistency"] # Old meet.
+    0736 = ["ExemptWeightClassConsistency"] # Missing weightclass
+    0616 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Non standard weightclasses & divisions
+    0740 = ["ExemptWeightClassConsistency"] # Missing weightclass
+    0743 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Missing weightclasses & division
+    0747 = ["ExemptWeightClassConsistency"] # Youth weightclass
+    0618 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Missing weightclasses & division
+    0621 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Missing weightclasses & division

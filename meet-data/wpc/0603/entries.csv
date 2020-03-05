@@ -25,7 +25,7 @@ Mikhail Chekushin,Ukraine,46,,WPC,M,M 45-49,127.7,140,370,220,270,860,2,SBD,Mult
 Alan Cayer,USA,50,,WPC,M,M 50-54,74.8,75,272.5,170,275,717.5,1,SBD,Multi-ply
 Gene Bell,USA,50,1956-09-08,WPC,M,M 50-54,97.6,100,417.5,237.5,317.5,972.5,1,SBD,Multi-ply
 Dick Zenzen,USA,54,,WPC,M,M 50-54,100,100,340,190,242.5,772.5,2,SBD,Multi-ply
-Mike Shealy,USA,54,,WPC,M,M 50-54,97.7,100,192.5,142.5,165,500,3,SBD,Multi-ply
+Michael Shealy,USA,54,,WPC,M,M 50-54,97.7,100,192.5,142.5,165,500,3,SBD,Multi-ply
 Larry Mistric,USA,50,,WPC,M,M 50-54,108.6,110,362.5,230,285,877.5,1,SBD,Multi-ply
 Ken Wheeler,USA,53,,WPC,M,M 50-54,109.5,110,327.5,177.5,275,780,2,SBD,Multi-ply
 Ross Saldan,Canada,53,,WPC,M,M 50-54,108.3,110,250,182.5,252.5,685,3,SBD,Multi-ply
@@ -121,7 +121,7 @@ Justin Redding,USA,,,WPC,M,Open,109.5,110,410,255,285,950,2,SBD,Multi-ply
 Andrey Sizov,Russia,,,WPC,M,Open,101,110,340,200,310,850,3,SBD,Multi-ply
 Jarkko Holviala,Finland,,,WPC,M,Open,108.4,110,330,225,285,840,4,SBD,Multi-ply
 AJ Roberts,USA,,,WPC,M,Open,126.25,140,400,317.5,320,1037.5,1,SBD,Multi-ply
-Chris S. Clark,USA,,,WPC,M,Open,153.9,140+,440,275,332.5,1047.5,1,SBD,Multi-ply
+Chris Clark,USA,,,WPC,M,Open,153.9,140+,440,275,332.5,1047.5,1,SBD,Multi-ply
 Shawn Frankl,USA,,,WPO,M,Open,97.3,100,427.5,332.5,317.5,1077.5,1,SBD,Multi-ply
 Brian Carroll,USA,,,WPO,M,Open,100,100,467.5,287.5,322.5,1077.5,2,SBD,Multi-ply
 Larry Hook,USA,,,WPO,M,Open,99.6,100,432.5,247.5,340,1020,3,SBD,Multi-ply
@@ -130,7 +130,7 @@ Chris Mason #1,USA,,,WPO,M,Open,99,100,410,275,302.5,987.5,5,SBD,Multi-ply
 Michael Cartinian,USA,,,WPO,M,Open,89.5,100,400,292.5,292.5,985,6,SBD,Multi-ply
 Pauli Rantanen,Finland,,,WPO,M,Open,99.5,100,380,265,335,980,7,SBD,Multi-ply
 Mark Hairston,USA,,,WPO,M,Open,99.7,100,410,290,260,960,8,SBD,Multi-ply
-Phillip Del Monti,USA,,,WPO,M,Open,90,100,387.5,247.5,320,955,9,SBD,Multi-ply
+Phillip DelMonti,USA,,,WPO,M,Open,90,100,387.5,247.5,320,955,9,SBD,Multi-ply
 Scott Rowe #1,USA,,,WPO,M,Open,98,100,385,277.5,285,947.5,10,SBD,Multi-ply
 Edgars Rekšņa,Latvia,,,WPO,M,Open,98,100,350,250,330,930,11,SBD,Multi-ply
 Yevgen Yarymbash,Ukraine,,,WPO,M,Open,124.5,125,472.5,347.5,380,1200,1,SBD,Multi-ply
@@ -148,7 +148,7 @@ Todd Greninger,USA,,,WPO,M,Open,145,125+,475,270,322.5,1067.5,4,SBD,Multi-ply
 Andy Bolton,UK,,,WPO,M,Open,160,125+,250,300,455,1005,5,SBD,Multi-ply
 Matthew Smith #4,USA,,,WPO,M,Open,168,125+,485,340,62.5,887.5,6,SBD,Multi-ply
 Tibor Mészáros,Hungary,,,WPO,M,Open,150.9,125+,360,140,380,880,7,SBD,Multi-ply
-Jeff Lewis,USA,,,WPO,M,Open,245.5,125+,542.5,,317.5,,DQ,SBD,Multi-ply
+Jeff Lewis #1,USA,,,WPO,M,Open,245.5,125+,542.5,,317.5,,DQ,SBD,Multi-ply
 Joe Bayles,USA,,,WPO,M,Open,120.9,125,422.5,,,,DQ,SBD,Multi-ply
 Zach Cole #1,USA,,,WPO,M,Open,124.5,125,432.5,,310,,DQ,SBD,Multi-ply
 Scott Cartwright,USA,,,WPC,M,Open,138.8,140,457.5,,305,,DQ,SBD,Multi-ply
@@ -211,7 +211,7 @@ Gerard Baudoux,France,60,,WPC,M,M 60-64,72.7,75,,120,,120,2,B,Multi-ply
 Gylhem Feraud,France,60,,WPC,M,M 60-64,73.8,75,,120,,120,3,B,Multi-ply
 Ron Birch,Australia,61,,WPC,M,M 60-64,96.1,100,,140,,140,1,B,Multi-ply
 Bill Jordan,USA,63,,WPC,M,M 60-64,98.6,100,,137.5,,137.5,2,B,Multi-ply
-Lou Sposato,USA,67,,WPC,M,M 65-69,98.6,100,,182.5,,182.5,1,B,Multi-ply
+Louis Sposato,USA,67,,WPC,M,M 65-69,98.6,100,,182.5,,182.5,1,B,Multi-ply
 Floyd Kucharski,USA,66,,WPC,M,M 65-69,97.8,100,,120,,120,2,B,Multi-ply
 Igor Goldman,Russia,73,,WPC,M,M 70-74,97.6,100,,155,,155,1,B,Multi-ply
 David Varanov,Russia,,,WPC,M,J 20-23,59.85,60,,170,,170,1,B,Multi-ply

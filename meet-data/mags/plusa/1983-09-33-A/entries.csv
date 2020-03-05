@@ -1,6 +1,6 @@
 Name,WeightClassKg,Division,Sex,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Barbara Falconio,52,Open,F,45,106.59,52.16,138.35,297.1,SBD,Single-ply,1
-A. Crawford,52,Open,F,45,77.11,47.63,104.33,229.06,SBD,Single-ply,2
+Alice Crawford,52,Open,F,,77.11,47.63,104.33,229.06,SBD,Single-ply,2
 Mike Boyer #1,56,Open,M,,170.1,108.86,170.1,449.06,SBD,Single-ply,1
 Anthony Pallas,56,Open,M,,136.08,77.11,170.1,383.29,SBD,Single-ply,2
 Albanberg,56,Open,M,,117.93,72.57,154.22,344.73,SBD,Single-ply,3
@@ -57,7 +57,7 @@ Kazarrowsky,82.5,Open,M,,142.88,117.93,181.44,442.25,SBD,Single-ply,15
 Glen Applegate,90,Open,M,,247.21,158.76,256.28,662.25,SBD,Single-ply,1
 Griffin,90,Open,M,,213.19,167.83,244.94,625.96,SBD,Single-ply,2
 Nelson,90,Open,M,,204.12,151.95,263.08,619.15,SBD,Single-ply,3
-Ferraina,90,Open,M,,229.06,149.69,231.33,610.08,SBD,Single-ply,4
+A. Ferraina,90,Open,M,,229.06,149.69,231.33,610.08,SBD,Single-ply,4
 A. Bongo,90,Open,M,,215.46,154.22,231.33,601.01,SBD,Single-ply,5
 Romero,90,Open,M,,217.72,120.2,249.48,587.4,SBD,Single-ply,6
 Trentweesti,90,Open,M,,208.65,163.29,213.19,585.13,SBD,Single-ply,7

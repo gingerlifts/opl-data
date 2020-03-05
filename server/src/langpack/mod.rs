@@ -177,6 +177,16 @@ pub struct SexTranslations {
 
 #[derive(Serialize, Deserialize)]
 pub struct CountryTranslations {
+    // Continents are placed here rather than make a new struct.
+    // We realize these aren't countries.
+    pub africa: String,
+    pub antarctica: String,
+    pub asia: String,
+    pub europe: String,
+    pub south_america: String,
+    pub north_america: String,
+    pub oceania: String,
+
     pub afghanistan: String,
     pub albania: String,
     pub algeria: String,
@@ -222,6 +232,7 @@ pub struct CountryTranslations {
     pub denmark: String,
     pub djibouti: String,
     pub dominicanrepublic: String,
+    pub eastgermany: String,
     pub easttimor: String,
     pub ecuador: String,
     pub egypt: String,
@@ -497,6 +508,8 @@ pub struct FedSelectorTranslations {
     pub all_tested: String,
     pub international: String,
     pub regional: String,
+    pub continents: String,
+    pub countries: String,
     pub all_usa: String,
     pub all_argentina: String,
     pub all_australia: String,
@@ -557,11 +570,21 @@ pub struct FedSelectorTranslations {
     pub all_uk_tested: String,
     pub all_ukraine: String,
     pub all_vietnam: String,
+    pub all_affiliates: String,
+    pub all_internationals: String,
 }
 
 #[derive(Serialize, Deserialize)]
 pub struct AgeClassSelectorTranslations {
     pub all: String,
+    pub ipf_open: String,
+    pub ipf_subjunior: String,
+    pub ipf_junior: String,
+    pub ipf_senior: String,
+    pub ipf_master1: String,
+    pub ipf_master2: String,
+    pub ipf_master3: String,
+    pub ipf_master4: String,
 }
 
 #[derive(Serialize, Deserialize)]
@@ -756,6 +779,7 @@ impl Translations {
             Country::Denmark => &self.country.denmark,
             Country::Djibouti => &self.country.djibouti,
             Country::DominicanRepublic => &self.country.dominicanrepublic,
+            Country::EastGermany => &self.country.eastgermany,
             Country::EastTimor => &self.country.easttimor,
             Country::Ecuador => &self.country.ecuador,
             Country::Egypt => &self.country.egypt,

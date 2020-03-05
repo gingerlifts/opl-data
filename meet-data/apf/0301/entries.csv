@@ -1,6 +1,6 @@
 Name,Age,Division,Event,Sex,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Equipment
 Nick Hatch,17,M_TEM_2_APF,B,M,67.5,67.5,,,,,160,170,177.5,182.5,177.5,,,,,177.5,1,Multi-ply
-Bradley Hein,22,M_JEM_APF,B,M,107.5,110,,,,,-260,272.5,277.5,,277.5,,,,,277.5,1,Multi-ply
+Brad Hein,22,M_JEM_APF,B,M,107.5,110,,,,,-260,272.5,277.5,,277.5,,,,,277.5,1,Multi-ply
 Tyson Orwoll,21,M_JEM_APF,B,M,99.2,100,,,,,147.5,155,165,,165,,,,,165,1,Multi-ply
 Frederick Woodson,35,M_SEM_APF,B,M,99.5,100,,,,,192.5,-205,-205,,192.5,,,,,192.5,1,Multi-ply
 Leroy Gonzales,33,M_SEM_APF,B,M,110,110,,,,,177.5,187.5,-205,,187.5,,,,,187.5,1,Multi-ply
@@ -18,12 +18,12 @@ Sandra Miller,57,F_MEM_4_APF,B,F,50.75,52,,,,,37.5,42.5,-47.5,,42.5,,,,,42.5,1,M
 Camellia Luprete,52,F_MEM_3_APF,B,F,72.85,75,,,,,60,67.5,-72.5,,67.5,,,,,67.5,1,Multi-ply
 Terry White,61,M_MEM_5_APF,B,M,88,90,,,,,172.5,-185,-185,,172.5,,,,,172.5,1,Multi-ply
 Roy Barnes,61,M_MEM_5_APF,B,M,88.4,90,,,,,142.5,-147.5,-147.5,,142.5,,,,,142.5,2,Multi-ply
-Richard Giller,75,M_MEM_8_APF,B,M,72.3,75,,,,,117.5,125,-130,,125,,,,,125,1,Multi-ply
+Dick Giller,75,M_MEM_8_APF,B,M,72.3,75,,,,,117.5,125,-130,,125,,,,,125,1,Multi-ply
 Marcus Goedken,17,M_TEM_2_APF,B,M,98,100,,,,,,,,,,,,,,,DQ,Multi-ply
 Cory Schollmeyer,16,M_TEM_2_APF,B,M,64.7,67.5,,,,,,,,,,,,,,,DQ,Multi-ply
 Nancy Dangerfield,46,F_MEM_2_APF,SBD,F,66.9,67.5,175,185,-195,185,85,92.5,-95,,92.5,207.5,230,-240,230,507.5,1,Multi-ply
 Taylor Rice,16,F_TEM_2_APF,SBD,F,73.3,75,-160,160,-167.5,160,60,65,-70,,65,147.5,-160,-160,147.5,372.5,1,Multi-ply
-Kim Packer,41,F_MEM_1_APF,SBD,F,74.7,75,165,177.5,187.5,187.5,72.5,77.5,80,,80,145,157.5,162.5,162.5,430,1,Multi-ply
+Kimberly Pfeiffer-Packer,41,F_MEM_1_APF,SBD,F,74.7,75,165,177.5,187.5,187.5,72.5,77.5,80,,80,145,157.5,162.5,162.5,430,1,Multi-ply
 Annie Rivieccio,40,F_MEM_1_APF,SBD,F,81.4,82.5,170,185,205,205,122.5,-137.5,137.5,,137.5,160,170,182.5,182.5,525,1,Multi-ply
 Maris Sternberg,54,F_MEM_3_APF,SBD,F,95,90+,142.5,-172.5,,142.5,62.5,85,92.5,,92.5,70,92.5,115,115,350,1,Multi-ply
 David Hanson #3,23,M_JEM_APF,SBD,M,89.65,90,245,-275,275,275,192.5,200,207.5,,207.5,190,205,217.5,217.5,700,1,Multi-ply

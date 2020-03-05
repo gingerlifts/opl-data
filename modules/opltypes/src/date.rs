@@ -12,13 +12,28 @@ use crate::Age;
 
 /// Our data uses imprecise dates in the "YYYY-MM-DD" format,
 /// with no timezone or time data.
-/// Dates in this format can be stored as a `u32` with value YYYYMMDD.
-/// This format is compact and remains human-readable.
+///
+/// Dates are stored as a packed `u32` with 23 bits in use:
+///  (YYYY << YEAR_SHIFT) | (MM << MONTH_SHIFT) | (DD << DAY_SHIFT).
+///
+/// YEAR_SHIFT > MONTH_SHIFT > DAY_SHIFT, so that dates are properly ordered.
 #[derive(Copy, Clone, Debug, PartialEq, PartialOrd, Ord, Eq)]
 pub struct Date(u32);
 
 impl Date {
-    /// Creates a Date object from its exact internal representation.
+    // The day occupies the rightmost 5 bits: ceil(log2(31)) = 5.
+    const DAY_SHIFT: usize = 0;
+    const DAY_MASK: u32 = 0x1f;
+
+    // The month occupies the next 4 bits: ceil(log2(12)) = 4.
+    const MONTH_SHIFT: usize = 5;
+    const MONTH_MASK: u32 = 0xf;
+
+    // The year occupies the next 14 bits: ceil(log2(9999)) = 14.
+    const YEAR_SHIFT: usize = 5 + 4;
+    const YEAR_MASK: u32 = 0x3fff;
+
+    /// Creates a Date object from parts.
     ///
     /// FIXME: Using this constructor bypasses error checks.
     ///
@@ -26,14 +41,14 @@ impl Date {
     ///
     /// ```
     /// # use opltypes::Date;
-    /// let date = Date::from_u32(1988_02_16);
+    /// let date = Date::from_parts(1988, 02, 16);
     /// assert_eq!(date.year(), 1988);
     /// assert_eq!(date.month(), 2);
     /// assert_eq!(date.day(), 16);
     /// ```
     #[inline]
-    pub const fn from_u32(u: u32) -> Date {
-        Date(u)
+    pub const fn from_parts(year: u32, month: u32, day: u32) -> Date {
+        Date(year << Self::YEAR_SHIFT | month << Self::MONTH_SHIFT | day << Self::DAY_SHIFT)
     }
 
     /// Returns the year as an integer.
@@ -46,8 +61,8 @@ impl Date {
     /// assert_eq!(date.year(), 1988);
     /// ```
     #[inline]
-    pub fn year(self) -> u32 {
-        self.0 / 10_000
+    pub const fn year(self) -> u32 {
+        (self.0 >> Self::YEAR_SHIFT) & Self::YEAR_MASK
     }
 
     /// Returns the month as an integer.
@@ -60,8 +75,8 @@ impl Date {
     /// assert_eq!(date.month(), 2);
     /// ```
     #[inline]
-    pub fn month(self) -> u32 {
-        (self.0 / 100) % 100
+    pub const fn month(self) -> u32 {
+        (self.0 >> Self::MONTH_SHIFT) & Self::MONTH_MASK
     }
 
     /// Returns the day as an integer.
@@ -74,8 +89,8 @@ impl Date {
     /// assert_eq!(date.day(), 16);
     /// ```
     #[inline]
-    pub fn day(self) -> u32 {
-        self.0 % 100
+    pub const fn day(self) -> u32 {
+        (self.0 >> Self::DAY_SHIFT) & Self::DAY_MASK
     }
 
     /// Returns the month and day as a combined integer.
@@ -91,8 +106,54 @@ impl Date {
     /// assert_eq!(date.monthday(), 0216);
     /// ```
     #[inline]
-    pub fn monthday(self) -> u32 {
-        (self.0 % 10000)
+    pub const fn monthday(self) -> u32 {
+        let month = self.month();
+        let day = self.day();
+        month * 100 + day
+    }
+
+    /// Determines whether a date exists in the Gregorian calendar.
+    ///
+    /// # Examples
+    ///
+    /// ```
+    /// # use opltypes::Date;
+    /// let date = "2000-02-29".parse::<Date>().unwrap();
+    /// assert_eq!(date.is_valid(), true);
+    ///
+    /// let date = "2018-04-31".parse::<Date>().unwrap();
+    /// assert_eq!(date.is_valid(), false);
+    /// ```
+    pub fn is_valid(self) -> bool {
+        // The array has 13 elements so the month (starting from 1) can be an index.
+        let days_in_month: [u8; 13] = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+        // Ensure that the month is usable as an index into days_in_month (1-indexed).
+        let month = self.month();
+        if month > 12 {
+            return false;
+        }
+
+        let mut max_days = u32::from(days_in_month[month as usize]);
+
+        // February is a special case based on leap year logic.
+        if month == 2 {
+            let year = self.year();
+
+            // Quoth Wikipedia:
+            //  Every year that is exactly divisible by four is a leap year,
+            //  except for years that are exactly divisible by 100,
+            //  but these centurial years are leap years if they are exactly
+            //  divisible by 400.
+            let is_leap = (year % 400 == 0) || ((year % 4 == 0) && (year % 100 != 0));
+
+            if is_leap {
+                max_days += 1;
+            }
+        }
+
+        let day = self.day();
+        day > 0 && day <= max_days
     }
 
     /// Calculates the Age of a lifter on a given date,
@@ -194,9 +255,7 @@ impl FromStr for Date {
             return Err(ParseDateError::DayError);
         }
 
-        let value = (year * 10_000) + (month * 100) + day;
-
-        Ok(Date(value))
+        Ok(Date::from_parts(year, month, day))
     }
 }
 

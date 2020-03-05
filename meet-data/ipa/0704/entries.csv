@@ -36,12 +36,12 @@ Pro Open,90,SBD,Multi-ply,M,James Kegrice,340.19,208.65,,317.51,,866.36,1
 Pro Open,90,SBD,Multi-ply,M,Mark Bailey,319.78,206.38,,224.53,,750.7,2
 Pro Open,90,SBD,Multi-ply,M,Mike Yontz,272.16,185.97,,229.06,,687.19,1
 Pro Open,100,SBD,Multi-ply,M,Dan Blankenship,412.77,263.08,,294.84,,970.69,1
-Pro Open,100,SBD,Multi-ply,M,James Howell,317.51,215.46,,283.5,,816.47,2
+Pro Open,100,SBD,Multi-ply,M,James Howell #1,317.51,215.46,,283.5,,816.47,2
 Pro Open,125,SBD,Multi-ply,M,Brian Weston,430.91,238.14,,294.84,,963.88,1
 Pro Open,125,SBD,Multi-ply,M,Buddy McKee,340.19,226.8,,249.48,,816.47,2
 Pro Masters 40-44,90,SBD,Multi-ply,M,Dean Moore,365.14,61.23,,204.12,,630.49,1
 Pro Masters 40-44,100,SBD,Multi-ply,M,Chuck Blough,340.19,208.65,,272.16,,821,1
-Pro Masters 40-44,100,SBD,Multi-ply,M,James Howell,317.51,215.46,,283.5,,816.47,2
+Pro Masters 40-44,100,SBD,Multi-ply,M,James Howell #1,317.51,215.46,,283.5,,816.47,2
 Pro Masters 40-44,125,SBD,Multi-ply,M,John Bott,410.5,258.55,,306.17,,975.22,1
 Pro Masters 50-54,125,SBD,Multi-ply,M,Buddy McKee,340.19,226.8,,249.48,,816.47,1
 Pro Masters 50-54,125,SBD,Multi-ply,M,Mark Dimiduk,297.1,151.95,,272.16,,721.21,2
@@ -50,11 +50,11 @@ Amateur Teen 18-19,52,B,Multi-ply,F,Almog Dayan,,77.11,,,,77.11,1
 Amateur Teen 18-19,52,B,Raw,F,Almog Dayan,,61.23,,,,61.23,1
 Amateur Juniors 20-23,82.5,B,Multi-ply,M,Sammy Summerville,,142.88,,,,142.88,1
 Amateur Juniors 20-23,75,B,Raw,M,Oleg Symanyshyn,,99.79,,,,99.79,1
-Amateur Open,67.5,B,Multi-ply,M,Robert Legg,,95.25,,,,95.25,1
+Amateur Open,67.5,B,Multi-ply,M,Bob Legg,,95.25,,,,95.25,1
 Amateur Open,90,B,Multi-ply,M,Steven Dussault,,254.01,,,,254.01,1
 Amateur Open,110,B,Multi-ply,M,Chris Kitchen,,226.8,,,,226.8,1
 Amateur Open,125,B,Multi-ply,M,Robert Norris,,274.42,,,,274.42,2
-Amateur Open,125,B,Multi-ply,M,Richard Putnam,,319.78,,,,319.78,1
+Amateur Open,125,B,Multi-ply,M,Rich Putnam,,319.78,,,,319.78,1
 Amateur Open,140,B,Multi-ply,M,Brian Ernst,,249.48,,,,249.48,2
 Amateur Open,140,B,Multi-ply,M,Aaron Utermahlen,,294.84,,,,294.84,1
 Amateur Open,82.5,B,Raw,M,Pavlo Zinko,,124.74,,,,124.74,1
@@ -66,10 +66,10 @@ Amateur Masters 45-49,90,B,Multi-ply,M,Steven Dussault,,254.01,,,,254.01,1
 Amateur Masters 45-49,100,B,Multi-ply,M,Walter Welcheck,,199.58,,,,199.58,1
 Amateur Masters 45-49,110,B,Multi-ply,M,Bill Schemmel,,170.1,,,,170.1,1
 Amateur Masters 45-49,125,B,Multi-ply,M,Robert Norris,,274.42,,,,274.42,1
-Amateur Masters 50-54,67.5,B,Multi-ply,M,Robert Legg,,95.25,,,,95.25,1
+Amateur Masters 50-54,67.5,B,Multi-ply,M,Bob Legg,,95.25,,,,95.25,1
 Amateur Masters 55-59,125,B,Multi-ply,M,Franz Alder,,136.08,,,,136.08,1
 Amateur Masters 75-79,125,B,Multi-ply,M,Don Joy,,147.42,151.95,,,147.42,1
-Amateur Police,67.5,B,Multi-ply,M,Robert Legg,,95.25,,,,95.25,1
+Amateur Police,67.5,B,Multi-ply,M,Bob Legg,,95.25,,,,95.25,1
 Amateur Police,90,B,Multi-ply,M,James Shaughnessy,,213.19,,,,213.19,1
 Elite Amateur Open,125,B,Multi-ply,M,Ronald Scott Yard,,351.53,,,,351.53,1
 Pro Juniors 20-23,75,B,Multi-ply,M,David Sands II,,183.7,,,,183.7,1
@@ -84,4 +84,4 @@ Pro Submasters 33-39,125,B,Multi-ply,M,Rob Capozzolo,,249.48,,,,249.48,1
 Pro Masters 40-44,100,B,Multi-ply,M,Steve Hartlaub,,249.48,,,,249.48,1
 Pro Masters 45-49,140,B,Multi-ply,M,Bentz Tozer Jr,,254.01,,,,254.01,1
 Pro Masters 50-54,100,B,Multi-ply,M,Scott Bixler,,174.63,,,,174.63,1
-Pro Masters 60-64,125,B,Multi-ply,M,Robert Bellerby,,213.19,,,,213.19,1
+Pro Masters 60-64,125,B,Multi-ply,M,Bob Bellerby,,213.19,,,,213.19,1

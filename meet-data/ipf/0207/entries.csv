@@ -6,7 +6,7 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,BodyweightKg,Country,Best3SquatK
 2,52,F,Masters 1,Vera Nelson,1960,51,USA,105,45,112.5,262.5,SBD,Single-ply
 DQ,52,F,Masters 1,Anne Monjaret,1959,50.3,France,,,,,SBD,Single-ply
 1,56,F,Masters 1,Liliana Ferre,1953,55.1,Argentina,155,75,145,375,SBD,Single-ply
-2,56,F,Masters 1,Klothilde Bruder,1956,55.8,Germany,137.5,80,135,352.5,SBD,Single-ply
+2,56,F,Masters 1,Klothilde Herrmann,1956,55.8,Germany,137.5,80,135,352.5,SBD,Single-ply
 3,56,F,Masters 1,Suzan Wender,1955,55.1,Brazil,125,65,130,320,SBD,Single-ply
 4,56,F,Masters 1,Gina Stapleton,1958,55.8,USA,97.5,47.5,107.5,252.5,SBD,Single-ply
 1,60,F,Masters 1,Kazuko Ishikawa,1956,59.9,Japan,145,92.5,150,387.5,SBD,Single-ply
@@ -111,7 +111,7 @@ DQ,90,M,Masters 1,Shigetoshi Asama,1959,89.9,Japan,290,,,,SBD,Single-ply
 DQ,100,M,Masters 1,Roberto Alesio,1958,99.7,Argentina,,,,,SBD,Single-ply
 1,110,M,Masters 1,Alexa Gorokhovsky,1962,106.2,Russia,330,210,310,850,SBD,Single-ply
 2,110,M,Masters 1,Shawn Cain,1957,108.7,USA,315,210,300,825,SBD,Single-ply
-3,110,M,Masters 1,Bill Henderson,1960,109,New Zealand,285,185,290,760,SBD,Single-ply
+3,110,M,Masters 1,Bill Henderson #2,1960,109,New Zealand,285,185,290,760,SBD,Single-ply
 4,110,M,Masters 1,Aulis Aalto,1961,108.3,Finland,270,212.5,270,752.5,SBD,Single-ply
 5,110,M,Masters 1,Garry Bellinger,1960,100.1,UK,235,167.5,267.5,670,SBD,Single-ply
 6,110,M,Masters 1,Ron Strong,1958,109.8,Canada,232.5,160,272.5,665,SBD,Single-ply
@@ -133,7 +133,7 @@ DQ,125+,M,Masters 1,Truls Nygaard,1959,130.9,Norway,,,,,SBD,Single-ply
 1,60,M,Masters 2,Ira Rosen,1950,58.9,USA,175,97.5,200,472.5,SBD,Single-ply
 DQ,60,M,Masters 2,Ebihara Satoro,1951,57.5,Brazil,,,,,SBD,Single-ply
 1,67.5,M,Masters 2,Ray Fraser,1948,66.7,UK,165,125,235,525,SBD,Single-ply
-2,67.5,M,Masters 2,Gerard Dufour,1949,66.9,France,182.5,112.5,225,520,SBD,Single-ply
+2,67.5,M,Masters 2,Gérard Dufour,1949,66.9,France,182.5,112.5,225,520,SBD,Single-ply
 3,67.5,M,Masters 2,Jules Pellegrino,1943,67.3,USA,170,132.5,170,472.5,SBD,Single-ply
 DQ,67.5,M,Masters 2,Jorge Zapata,1948,67.1,Argentina,167.5,90,192.5,,SBD,Single-ply
 1,75,M,Masters 2,Leonid Lokhov,1948,74.2,Russia,230,130,260,620,SBD,Single-ply
@@ -141,7 +141,7 @@ DQ,67.5,M,Masters 2,Jorge Zapata,1948,67.1,Argentina,167.5,90,192.5,,SBD,Single-
 3,75,M,Masters 2,Jean Lou Dumoulin,1943,73,France,192.5,145,212.5,550,SBD,Single-ply
 4,75,M,Masters 2,Stan Macrow,1949,72.2,UK,185,135,220,540,SBD,Single-ply
 5,75,M,Masters 2,Kjell Andersson,1945,73.9,Sweden,190,110,220,520,SBD,Single-ply
-6,75,M,Masters 2,Juan Pereyra,1946,74.2,Argentina,200,120,200,520,SBD,Single-ply
+6,75,M,Masters 2,Juan Pereyra #1,1946,74.2,Argentina,200,120,200,520,SBD,Single-ply
 7,75,M,Masters 2,Ernst Güntert,1948,74.1,Germany,190,80,232.5,502.5,SBD,Single-ply
 1,82.5,M,Masters 2,Johann Mandlmeier,1951,81.4,Germany,232.5,180,267.5,680,SBD,Single-ply
 2,82.5,M,Masters 2,William Lincoln,1950,82,UK,252.5,162.5,245,660,SBD,Single-ply

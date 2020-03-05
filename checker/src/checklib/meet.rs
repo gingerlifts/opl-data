@@ -30,7 +30,7 @@ impl Meet {
         Meet {
             path: "test/1901".to_string(),
             federation: Federation::WRPF,
-            date: Date::from_u32(2019_03_01),
+            date: Date::from_parts(2019, 03, 01),
             country: opltypes::Country::USA,
             state: None,
             town: None,
@@ -90,7 +90,7 @@ fn check_headers(headers: &csv::StringRecord, report: &mut Report) {
 /// Checks that the MeetPath contains only characters valid in a URL.
 pub fn check_meetpath(report: &mut Report) -> Option<String> {
     match opltypes::file_to_meetpath(&report.path) {
-        Ok(s) => Some(s),
+        Ok(s) => Some(s.to_string()),
         Err(MeetPathError::NonAsciiError) => {
             report.error("Path must only contain alphanumeric ASCII or '/-' characters");
             None
@@ -149,6 +149,12 @@ pub fn check_date(s: &str, report: &mut Report) -> Option<Date> {
         || (date.year() == y && date.month() == m && date.day() > d)
     {
         report.error(format!("Meet occurs in the future in '{}'", s));
+    }
+
+    // The date should exist in the Gregorian calendar.
+    if !date.is_valid() {
+        let msg = format!("Date '{}' does not exist in the Gregorian calendar", s);
+        report.error(msg);
     }
 
     Some(date)
@@ -241,7 +247,7 @@ pub fn check_meetname(
 
     for c in s.chars() {
         // Non-ASCII characters are allowed.
-        if !c.is_alphanumeric() && !" -&.'/:".contains(c) {
+        if !c.is_alphanumeric() && !" -&.'/°:".contains(c) {
             report.error(format!("Illegal character in MeetName '{}'", s));
             break;
         }

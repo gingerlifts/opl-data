@@ -48,9 +48,9 @@ WeightClassKg,Name,Sex,Event,Equipment,Country,Division,Best3SquatKg,Bench1Kg,Be
 125,Jeff Green,M,SBD,Multi-ply,USA,O,327.5,,,,,170,295,792.5,6
 140,Jeffrey Vaughn,M,SBD,Multi-ply,USA,O,387.5,,,,,235,320,942.5,1
 140,Mario Piatelli,M,SBD,Multi-ply,Canada,O,320,,,,,287.5,275,882.5,2
-140,Bill Baker,M,SBD,Multi-ply,Canada,O,312.5,,,,,,,,DQ
+140,William Baker,M,SBD,Multi-ply,Canada,O,312.5,,,,,,,,DQ
 140+,Dietmar Zint,M,SBD,Multi-ply,Germany,O,425,,,,,290,350,1065,1
-140+,Art Ramsey,M,SBD,Multi-ply,USA,O,102.5,,,,,,,,DQ
+140+,Art Ramsey,M,SBD,Single-ply,USA,O,102.5,,,,,,,,DQ
 67.5,Gerard McNamara #1,M,SBD,Multi-ply,Ireland,M1,312.5,,,,,170,255,737.5,1
 75,Jim Butler,M,SBD,Multi-ply,Ireland,M1,230,,,,,140,220,590,1
 82.5,JJ Dunne,M,SBD,Multi-ply,Ireland,M1,255,,,,,147.5,270,672.5,1
@@ -93,10 +93,10 @@ WeightClassKg,Name,Sex,Event,Equipment,Country,Division,Best3SquatKg,Bench1Kg,Be
 82.5,Shane Brodie,M,B,Multi-ply,Ireland,O,,150,160,,,160,,160,1
 100,Chris Scott,M,B,Multi-ply,USA,O,,205,-217.5,217.5,,217.5,,217.5,1
 100,Jody Freeman,M,B,Multi-ply,USA,O,,192.5,207.5,-217.5,,207.5,,207.5,2
-110,Jason B. Jackson,M,B,Multi-ply,USA,O,,320,-337.5,-340,,320,,320,1
+110,Jason Jackson #7,M,B,Multi-ply,USA,O,,320,-337.5,-340,,320,,320,1
 110,Jeremy Zimmerman,M,B,Multi-ply,Canada,O,,-267.5,282.5,300,,300,,300,2
 110,Jani Toivo Kristian Ihalainen,M,B,Multi-ply,Finland,O,,235,250,-260,,250,,250,3
-110,Steven Parkhurst,M,B,Multi-ply,USA,O,,220,-232.5,235,,235,,235,4
+110,Stephen Parkhurst,M,B,Multi-ply,USA,O,,220,-232.5,235,,235,,235,4
 110,Guliyen Bakhtiyar,M,B,Multi-ply,Azerbaijan,O,,210,220,-235,,220,,220,5
 110,Francois Retief,M,B,Multi-ply,South Africa,O,,190,200,210,,210,,210,6
 110,Paul Scogin,M,B,Multi-ply,USA,O,,205,-217.5,-220,,205,,205,7

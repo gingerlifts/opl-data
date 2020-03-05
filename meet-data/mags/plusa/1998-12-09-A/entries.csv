@@ -16,7 +16,7 @@ Place,Name,Division,AgeRange,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Bes
 1,Wendy Greig,M1,40-44,Canada,54.7,90,102.5,117.5,117.5,,50,60,-65,60,130,-147.5,-147.5,130,,307.5,56,F,Multi-ply,SBD
 1,Shorty Labuschagne,T2,16-17,South Africa,60,67.5,77.5,-87.5,77.5,,32.5,37.5,42.5,42.5,77.5,87.5,95,95,,215,60,F,Multi-ply,SBD
 2,Daetli Labuschagne,T2,16-17,South Africa,58.1,65,75,82.5,82.5,,35,40,-42.5,40,75,85,90,90,,212.5,60,F,Multi-ply,SBD
-1,Mary Ellen Warman,O,,USA,59.9,-222.5,-222.5,222.5,222.5,,100,105,-110,105,185,192.5,197.5,197.5,,525,60,F,Multi-ply,SBD
+1,Mary Ellen Jerumbo,O,,USA,59.9,-222.5,-222.5,222.5,222.5,,100,105,-110,105,185,192.5,197.5,197.5,,525,60,F,Multi-ply,SBD
 2,Melanie Diamond,O,,USA,59.9,157.5,-167.5,167.5,167.5,,95,102.5,105,105,170,187.5,-200,187.5,,460,60,F,Multi-ply,SBD
 1,Barbara Fruzyna,M1,40-44,USA,59.4,-115,-115,115,115,,47.5,52.5,-57.5,52.5,115,125,130,130,,297.5,60,F,Multi-ply,SBD
 1,Patricia Dyer,M2,45-49,USA,59.9,142.5,150,157.5,157.5,,85,90,-93,90,145,155,-165,155,,402.5,60,F,Multi-ply,SBD
@@ -155,7 +155,7 @@ DQ,Freddie Nonjola,J,20-30,South Africa,88.7,-180,-190,-190,,,,,,,,,,,,,90,M,Mul
 1,Matt Zweng,O,,USA,89.6,337.5,347.5,360,360,,220,-227.5,-227.5,220,272.5,295,-302.5,295,,875,90,M,Multi-ply,SBD
 2,Nickie Blackie,O,,South Africa,89,300,-340,340,340,,200,230,-245,230,250,285,-305,285,,855,90,M,Multi-ply,SBD
 3,Markku Vierikko,O,,Finland,89.5,290,310,320,320,,190,200,205,205,300,-332.5,-332.5,300,,825,90,M,Multi-ply,SBD
-4,Oliver Kopp Dr. Marc,O,,Germany,89.9,250,-270,280,280,,200,-205,205,205,260,-272.5,-272.5,260,,745,90,M,Multi-ply,SBD
+4,Marc Oliver Kopp,O,,Germany,89.9,250,-270,280,280,,200,-205,205,205,260,-272.5,-272.5,260,,745,90,M,Multi-ply,SBD
 5,Hannes Foeger,O,,Austria,85.5,-250,250,-270,250,,160,165,-170,165,260,280,-290,280,,695,90,M,Multi-ply,SBD
 6,Jozsef Edmond,O,,Israel,87.6,240,250,-260,250,,150,160,165,165,270,280,-290,280,,695,90,M,Multi-ply,SBD
 7,Sergio Bianchi,O,,Italy,89.5,260,270,-285,270,,160,170,175,175,240,250,-260,250,,695,90,M,Multi-ply,SBD
@@ -222,7 +222,7 @@ DQ,Krister Kangas,O,,Finland,97.9,305,320,330,330,,185,-192.5,192.5,192.5,-330,-
 3,Rufat Agaev,O,,Azerbaijan,108.6,-330,-330,330,330,,210,-225,225,225,310,330,-355,330,,885,110,M,Multi-ply,SBD
 4,Frank Schütze,O,,Germany,103.8,300,320,330,330,,240,-250,-250,240,-270,270,-280,270,,840,110,M,Multi-ply,SBD
 5,Keith Thompson,O,,UK,108.3,290,-305,-305,290,,205,215,-217.5,215,320,335,-337.5,335,,840,110,M,Multi-ply,SBD
-6,Kevin Green Brian,O,,South Africa,107,280,-310,310,310,,200,-230,230,230,280,-320,-320,280,,820,110,M,Multi-ply,SBD
+6,Brian Kevin Green,O,,South Africa,107,280,-310,310,310,,200,-230,230,230,280,-320,-320,280,,820,110,M,Multi-ply,SBD
 7,Alessandro Schiavon,O,,Italy,107.7,250,260,275,275,,160,170,-182.5,170,270,280,290,290,,735,110,M,Multi-ply,SBD
 8,Tiekie Bezuidenhout,O,,South Africa,107.2,-240,250,260,260,,-180,180,-190,180,240,260,270,270,,710,110,M,Multi-ply,SBD
 9,Andre Gouws,O,,South Africa,101.6,120,140,155,155,,70,80,90,90,170,-180,180,180,,425,110,M,Multi-ply,SBD
@@ -342,7 +342,7 @@ DQ,Kari Laitila,O,,Finland,81.5,,,,,,-230,-230,-230,,,,,,,,82.5,M,Multi-ply,B
 6,Silvano Camozzi,O,,Italy,87.1,,,,,,175,-180,180,180,,,,,,180,90,M,Multi-ply,B
 7,Cristiano Dicecco,O,,Italy,83.1,,,,,,150,-160,-160,150,,,,,,150,90,M,Multi-ply,B
 8,Mathys Jansen,O,,South Africa,84.9,,,,,,-140,-140,140,140,,,,,,140,90,M,Multi-ply,B
-DQ,Oliver Kopp Dr. Marc,O,,Germany,89.7,,,,,,-205,-205,-205,,,,,,,,90,M,Multi-ply,B
+DQ,Marc Oliver Kopp,O,,Germany,89.7,,,,,,-205,-205,-205,,,,,,,,90,M,Multi-ply,B
 1,Franz Topf,M1,40-44,Austria,87.5,,,,,,175,-185,185,185,,,,,,185,90,M,Multi-ply,B
 2,Heinz Buhl,M1,40-44,Austria,89.4,,,,,,175,-185,-185,175,,,,,,175,90,M,Multi-ply,B
 3,Marcello Paredi,M1,40-44,Italy,87,,,,,,150,-160,-160,150,,,,,,150,90,M,Multi-ply,B
@@ -374,11 +374,11 @@ DQ,Jan Lindén,M1,40-44,Finland,89.2,,,,,,-250,-250,-250,,,,,,,,90,M,Multi-ply,B
 DQ,Timo Schmitz,J,20-23,Germany,103.6,,,,,,-165,-165,-165,,,,,,,,110,M,Multi-ply,B
 1,Frank Schütze,O,,Germany,105.3,,,,,,235,245,255,255,,,,,,255,110,M,Multi-ply,B
 2,Josi Durrer,O,,Switzerland,107.2,,,,,,-235,240,250,250,,,,,,250,110,M,Multi-ply,B
-3,Chris Taylor,O,,USA,110,,,,,,250,-270,-270,250,,,,,,250,110,M,Multi-ply,B
+3,Christian Taylor,O,,USA,110,,,,,,250,-270,-270,250,,,,,,250,110,M,Multi-ply,B
 4,Patrick Pawelka,O,,Austria,100.3,,,,,,-210,210,-212.5,210,,,,,,210,110,M,Multi-ply,B
 5,Adolf Fick,O,,South Africa,105.4,,,,,,180,-200,-200,180,,,,,,180,110,M,Multi-ply,B
 6,Vladimir Scherbakov,O,,Russia,106,,,,,,-180,180,-192.5,180,,,,,,180,110,M,Multi-ply,B
-DQ,Kevin Green Brian,O,,South Africa,106.5,,,,,,-235,-235,-240,,,,,,,,110,M,Multi-ply,B
+DQ,Brian Kevin Green,O,,South Africa,106.5,,,,,,-235,-235,-240,,,,,,,,110,M,Multi-ply,B
 1,Noble Cozine,M1,40-44,USA,107.8,,,,,,165,180,190,190,,,,,,190,110,M,Multi-ply,B
 2,Orville Moorehouse,M1,40-44,Canada,103,,,,,,115,-137.5,-137.5,115,,,,,,115,110,M,Multi-ply,B
 1,Julius Eilenberger,M2,45-49,Austria,108.5,,,,,,200,220,-227.5,220,,,,,,220,110,M,Multi-ply,B
@@ -386,7 +386,7 @@ DQ,Kevin Green Brian,O,,South Africa,106.5,,,,,,-235,-235,-240,,,,,,,,110,M,Mult
 2,Johann Grether,M3,50-54,Austria,107.8,,,,,,145,155,-160,155,,,,,,155,110,M,Multi-ply,B
 1,Daniel Nay,M4,55-59,USA,106.2,,,,,,190,-202.5,207.5,207.5,,,,,,207.5,110,M,Multi-ply,B
 2,Klaus Kurscheit,M4,55-59,Germany,100.3,,,,,,-200,200,-205,200,,,,,,200,110,M,Multi-ply,B
-1,Onn Basson,J,20-23,Israel,117.4,,,,,,190,205,220,220,,,,,,220,125,M,Multi-ply,B
+1,Oan Basson,J,20-23,Israel,117.4,,,,,,190,205,220,220,,,,,,220,125,M,Multi-ply,B
 2,Ralf Ber,J,20-23,Austria,117.4,,,,,,180,-195,-195,180,,,,,,180,125,M,Multi-ply,B
 1,Herbert Winkelmann,O,,Germany,119.2,,,,,,260,275,-285,275,,,,,,275,125,M,Multi-ply,B
 2,Frank Meichsner,O,,Germany,121.9,,,,,,250,-260,-260,250,,,,,,250,125,M,Multi-ply,B

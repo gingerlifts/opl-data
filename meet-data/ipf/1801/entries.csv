@@ -22,7 +22,7 @@ Place,Name,BirthYear,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchK
 3,Goki Omuro,1993,Japan,82.2,290,-302.5,-302.5,290,290,83,Open,B,M,Single-ply
 4,Kim Beck-Gundersen,1985,Norway,82.2,255,-265,272.5,272.5,272.5,83,Open,B,M,Single-ply
 5,Daniel Miller,1988,Poland,79.9,270,-290,-290,270,270,83,Open,B,M,Single-ply
-6,Raik Guenterberg,1989,Germany,82.45,-255,255,-272.5,255,255,83,Open,B,M,Single-ply
+6,Raik Günterberg,1989,Germany,82.45,-255,255,-272.5,255,255,83,Open,B,M,Single-ply
 DQ,Sergey Knyazev,1976,Russia,80.05,-300,-300,-305,,,83,Open,B,M,Single-ply
 DQ,Eben Booyens,1983,South Africa,81.2,-200,-205,-205,,,83,Open,B,M,Single-ply
 DQ,Mads Friche,1982,Denmark,82.7,-255,-255,-255,,,83,Open,B,M,Single-ply
@@ -52,7 +52,7 @@ DQ,Ralf Male,1994,Norway,104.5,-310,-310,-317.5,,,105,Open,B,M,Single-ply
 5,Yuriy Kovalchuk,1979,Ukraine,119.75,-310,310,-340,310,310,120,Open,B,M,Single-ply
 6,Erdenekhuu Tumurbaatar,1985,Mongolia,116.55,-290,290,-310,290,290,120,Open,B,M,Single-ply
 7,Jakob Thrane Mainz,1993,Denmark,119.85,270,290,-312.5,290,290,120,Open,B,M,Single-ply
-8,Heinrich Janse V Rensburg,1986,South Africa,105.45,190,200,205,205,205,120,Open,B,M,Single-ply
+8,Heinrich Janse van Rensburg,1986,South Africa,105.45,190,200,205,205,205,120,Open,B,M,Single-ply
 9,Martin Marshall,1987,UK,118,190,197.5,202.5,202.5,202.5,120,Open,B,M,Single-ply
 1,Jonathan Leo,1977,USA,156.6,-380,-380,380,380,380,120+,Open,B,M,Single-ply
 2,Altangerel Bujinlkham,1976,Mongolia,129.75,355,360,365,365,365,120+,Open,B,M,Single-ply
@@ -247,7 +247,7 @@ DQ,Yulia Chistiakova,1989,Russia,69.1,-162.5,-162.5,-162.5,,,72,Open,B,F,Single-
 1,Brenda van der Meulen,1978,Netherlands,113.25,195,205,-215,205,205,84+,Open,B,F,Single-ply
 2,Annette Rehoff Christensen,1965,Denmark,122.35,190,200,-210,200,200,84+,Open,B,F,Single-ply
 3,Xeniya Okatenko,1994,Kazakhstan,107.15,175,180,185,185,185,84+,Open,B,F,Single-ply
-4,Tetiana Bilousova,1975,Ukraine,108.1,-170,170,-182.5,170,170,84+,Open,B,F,Single-ply
+4,Tetyana Belousova,1975,Ukraine,108.1,-170,170,-182.5,170,170,84+,Open,B,F,Single-ply
 5,Sarah Bouskill,1979,UK,120.15,130,137.5,145,145,145,84+,Open,B,F,Single-ply
 6,Nicola Green,1983,South Africa,92.05,110,-120,120,120,120,84+,Open,B,F,Single-ply
 7,Jacqui Rees,1980,South Africa,93.6,110,-117.5,-117.5,110,110,84+,Open,B,F,Single-ply

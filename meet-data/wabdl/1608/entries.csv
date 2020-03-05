@@ -1,5 +1,5 @@
 Event,Sex,Division,WeightClassKg,Best3BenchKg,Bench4Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Name,State,Equipment,Place
-B,M,Class 1,82.5,182.5,,,,182.5,Shane Ahlo,HI,Single-ply,1
+B,M,Class 1,82.5,182.5,,,,182.5,Shane Ahlo Jr,HI,Single-ply,1
 B,M,Class 1,82.5,142.5,,,,142.5,Russell B Ancantilado,HI,Single-ply,2
 B,M,Class 1,90,175,,,,175,Allen James Unciano,HI,Single-ply,1
 B,M,Class 1,110,207.5,,,,207.5,James Smith,HI,Single-ply,1
@@ -9,12 +9,12 @@ B,M,Juniors 20-25,75,198,,,,198,William Lumayas,HI,Single-ply,1
 B,M,Juniors 20-25,90,200,,,,200,Kamalei K Benjamin-Maielua,HI,Single-ply,1
 B,M,Law-Fire 48-55,117.5,192.5,,,,192.5,Austin Keanu,HI,Single-ply,1
 B,M,Law-Fire 56-63,82.5,212.5,,,,212.5,Jay Ssr-Himabuku,HI,Single-ply,1
-B,M,Law-Fire 64,67.5,150,,,,150,Gary Miller #2,NV,Multi-ply,1
+B,M,Law-Fire 64+,67.5,150,,,,150,Gary Miller #2,NV,Multi-ply,1
 B,M,Masters 40-46,90,170,,,,170,Jason Kaneao,HI,Single-ply,2
 B,M,Masters 40-46,90,257.5,,,,257.5,Daniel Suzuki,HI,Single-ply,1
 B,M,Masters 40-46,110,200,,,,200,David-Jacob K Maielua,HI,Single-ply,1
 B,M,Masters 40-46,117.5,205,,,,205,Clifford Villareal,HI,Multi-ply,1
-B,M,Masters 47-53,140+,287.5,,,,287.5,Gary Ssr-Him,HI,Single-ply,1
+B,M,Masters 47-53,140+,287.5,,,,287.5,Gary Shim,HI,Single-ply,1
 B,M,Masters 54-60,75,235,,,,235,Deron Agaran,HI,Single-ply,1
 B,M,Masters 54-60,82.5,212.5,,,,212.5,Jay Ssr-Himabuku,HI,Single-ply,1
 B,M,Masters 54-60,82.5,187.5,,,,187.5,Kris Matsumoto,HI,Single-ply,2
@@ -34,14 +34,14 @@ B,M,Masters 80-84,75,70,,,,70,Charles Vause,HI,Single-ply,1
 B,M,Open,52,125,,,,125,Landon Sakai,HI,Single-ply,1
 B,M,Open,56,165,,,,165,Jallel Fabro,HI,Single-ply,1
 B,M,Open,67.5,182.5,,,,182.5,Jonathon Bareng,HI,Single-ply,1
-B,M,Open,82.5,182.5,,,,182.5,Shane Ahlo,HI,Single-ply,1
+B,M,Open,82.5,182.5,,,,182.5,Shane Ahlo Jr,HI,Single-ply,1
 B,M,Open,90,195,,,,195,Robert Aiu,HI,Multi-ply,1
 B,M,Open,100,311.5,320,,,311.5,Jerry Aquino,HI,Single-ply,1
 B,M,Open,110,260,,,,260,Stephen Verano,HI,Single-ply,1
 B,M,Open,117.5,205,,,,205,Clifford Villareal,HI,Multi-ply,1
 B,M,Open,140+,335,,,,335,Darren Elisaga,HI,Single-ply,1
 B,M,Open,140+,300,,,,300,James Mersberg,HI,Single-ply,2
-B,M,Open,140+,287.5,,,,287.5,Gary Ssr-Him,HI,Single-ply,3
+B,M,Open,140+,287.5,,,,287.5,Gary Shim,HI,Single-ply,3
 B,M,Submasters 33-39,90,195,,,,195,Robert Aiu,HI,Multi-ply,1
 B,M,Submasters 33-39,100,311.5,320,,,311.5,Jerry Aquino,HI,Single-ply,1
 B,M,Submasters 33-39,110,260,,,,260,Stephen Verano,HI,Single-ply,1
@@ -54,7 +54,7 @@ B,M,Teen 16-17,140,147.5,152.5,,,147.5,Angus K. Mersberg,HI,Single-ply,1
 B,M,Teen 18-19,75,135,,,,135,Trevor-James Horibata,HI,Single-ply,1
 D,M,Class 1,60,,,222.5,230,222.5,Jaimeson P Cuesta Jr,HI,Single-ply,1
 D,M,Class 1,75,,,237.5,,237.5,Kellen Mira,HI,Single-ply,1
-D,M,Class 1,82.5,,,260,,260,Shane Ahlo,HI,Single-ply,1
+D,M,Class 1,82.5,,,260,,260,Shane Ahlo Jr,HI,Single-ply,1
 D,M,Class 1,90,,,265,,265,Allen James Unciano,HI,Single-ply,1
 D,M,Class 1,100,,,207.5,,207.5,Ryan Guerrero,HI,Single-ply,1
 D,M,Class 1,110,,,270,,270,James Smith,HI,Single-ply,1
@@ -66,7 +66,7 @@ D,M,Juniors 20-25,75,,,227.5,,227.5,Darrin Fernandez,HI,Single-ply,2
 D,M,Juniors 20-25,75,,,255,,255,Dustin Zuniga,HI,Single-ply,1
 D,M,Juniors 20-25,100,,,295.5,,295.5,Kama Moises,HI,Single-ply,1
 D,M,Law-Fire 48-55,125,,,295,,295,Terry Putnam,OK,Single-ply,1
-D,M,Law-Fire 64,67.5,,,175,,175,Gary Miller #2,NV,Multi-ply,1
+D,M,Law-Fire 64+,67.5,,,175,,175,Gary Miller #2,NV,Multi-ply,1
 D,M,Law-Fire Submasters,110,,,343.5,,343.5,Romar Lagamo,HI,Single-ply,1
 D,M,Masters 40-46,82.5,,,227.5,,227.5,Ronie Martinez,HI,Single-ply,1
 D,M,Masters 47-53,140,,,227.5,,227.5,Ray Gandeza Jr,HI,Single-ply,1
@@ -86,7 +86,7 @@ D,M,Open,52,,,165.5,,165.5,Landon Sakai,HI,Single-ply,1
 D,M,Open,67.5,,,245.5,252.5,245.5,James C. Valmoja,HI,Multi-ply,1
 D,M,Open,75,,,237.5,,237.5,Kellen Mira,HI,Single-ply,1
 D,M,Open,82.5,,,345.5,,345.5,Edwin Manmano,HI,Single-ply,1
-D,M,Open,82.5,,,260,,260,Shane Ahlo,HI,Single-ply,2
+D,M,Open,82.5,,,260,,260,Shane Ahlo Jr,HI,Single-ply,2
 D,M,Open,90,,,280,,280,Rance Balidoy,HI,Multi-ply,1
 D,M,Open,90,,,280,,280,Gary Ferstler,HI,Single-ply,1
 D,M,Open,117.5,,,295,,295,Pono Moises,HI,Multi-ply,1
@@ -103,7 +103,7 @@ D,M,Teen 16-17,75,,,170,,170,Adam O'Sullivan,HI,Single-ply,1
 D,M,Teen 16-17,140,,,237.5,,237.5,Angus K. Mersberg,HI,Single-ply,1
 D,M,Teen 18-19,75,,,217.5,,217.5,Trevor-James Horibata,HI,Single-ply,1
 BD,M,Class 1,90,175,,265,,440,Allen James Unciano,HI,Single-ply,1
-BD,M,Law-Fire 64,67.5,150,,175,,325,Gary Miller #2,NV,Multi-ply,1
+BD,M,Law-Fire 64+,67.5,150,,175,,325,Gary Miller #2,NV,Multi-ply,1
 BD,M,Masters 54-60,140+,300,,215,,515,James Mersberg,HI,Single-ply,1
 BD,M,Masters 61-67,67.5,150,,175,,325,Gary Miller #2,NV,Multi-ply,1
 BD,M,Masters 68-74,60,55,,107.5,,162.5,Eugene Kawamata,HI,Single-ply,1

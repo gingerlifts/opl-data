@@ -38,7 +38,7 @@ footer > .footer-hamburger {
   background-position: center;
 
   &.active {
-    background: url($mobile-close-icon) no-repeat;
+    background: url($mobile-close-icon-side-menu) no-repeat;
     background-size: 50%;
     background-position: center;
   }
@@ -61,7 +61,7 @@ footer > #controls-mobile-toggle-button {
   background-size: 100%;
 
   &.active {
-    background: url($mobile-close-icon) no-repeat;
+    background: url($mobile-close-icon-side-menu) no-repeat;
     background-size: 50%;
     background-position: center;
   }
@@ -72,9 +72,23 @@ footer > #controls-mobile-toggle-button {
 }
 
 footer > .mobile-header-logo-link {
-  display: block;
-  width: 100px;
-  margin: auto;
+  width: 67px;
+
+  .header-logo {
+    width: 100%;
+  }
+}
+
+// for small screens like iphone 5 in Portrait mode
+@media all and (min-width:0px) and (max-width: 320px) {
+  #ipfMobileLogo {
+    margin-right: 48px;
+  }
+}
+
+footer > .mobile-header-logo-link-openipf {
+  width: 64px;
+  margin-right: 10px;
 
   .header-logo {
     width: 100%;
@@ -151,7 +165,7 @@ footer > .mobile-header-logo-link {
   margin: 0;
 
   &.active {
-    background: url($mobile-close-icon) no-repeat;
+    background: url($mobile-close-icon-search) no-repeat;
     background-color: $mobile-search-active-color;
     background-size: 50%;
     background-position: center;

@@ -9,7 +9,7 @@ Place,WeightClassKg,Division,Name,Equipment,Event,Sex,Age,BodyweightKg,State,Bes
 1,75,Teenage 16-17,Danny Pfetzer,Wraps,SBD,M,16,70.49,KY,104.33,72.57,136.08,312.98
 1,67.5,Juniors,Sam Bowles,Wraps,SBD,M,22,67.22,OH,149.69,108.86,204.12,462.66
 2,90,Juniors,Josh Selidge,Wraps,SBD,M,21,89.9,,183.7,151.95,226.8,562.45
-1,100,Juniors,Zackary Sanders,Wraps,SBD,M,20,95.35,OH,226.8,161.03,256.28,644.1
+1,100,Juniors,Zackary Sanders #1,Wraps,SBD,M,20,95.35,OH,226.8,161.03,256.28,644.1
 1,90,Juniors,Louie Altomare,Wraps,SBD,M,,89.63,OH,235.87,154.22,290.3,680.39
 3,90,Open,Christian Bartolomei,Wraps,SBD,M,29,89.36,OH,199.58,124.74,229.06,553.38
 1,90,Open,John Branch,Wraps,SBD,M,24,82.83,WV,192.78,129.27,238.14,560.19
@@ -44,11 +44,11 @@ DQ,90,Masters 40-44,Chris Ernest,Raw,B,M,,86.09,OH,,,,
 1,52,Masters 55-59,Cathy Eaton,Wraps,S,F,,50.48,OH,45.36,,,45.36
 1,75,Open,Wes McCormick,Multi-ply,SBD,M,25,74.57,OH,365.14,238.14,272.16,875.43
 1,100,Open,Jason Coker,Multi-ply,SBD,M,40,99.79,OH,385.55,385.55,249.48,1020.58
-1,90,Open,Christian Haywood,Multi-ply,SBD,M,28,89.54,OH,371.95,242.67,317.51,932.13
+1,90,Open,Christen Haywood,Multi-ply,SBD,M,28,89.54,OH,371.95,242.67,317.51,932.13
 2,90,Open,Joe Rother,Multi-ply,SBD,M,24,88,OH,362.87,244.94,308.44,916.26
 3,90,Open,Vince Carone,Multi-ply,SBD,M,25,89.63,OH,340.19,240.4,317.51,898.11
 1,75,Open,Liz Freel,Multi-ply,SBD,F,40,73.57,CA,254.01,170.1,217.72,641.83
 1,110,Open,Allen Antonelli,Multi-ply,SBD,M,37,108.5,OH,344.73,256.28,285.76,886.77
-1,118,Open,Jim Benson,Multi-ply,SBD,M,29,112.31,GA,453.59,299.37,299.37,1052.33
+1,118,Open,Jim Benson #1,Multi-ply,SBD,M,29,112.31,GA,453.59,299.37,299.37,1052.33
 1,125,Open,Elliot Baum,Multi-ply,SBD,M,26,124.65,OH,390.09,331.12,226.8,948.01
 1,140+,Open,Chris Spegal,Multi-ply,D,M,27,189.51,OH,,,387.82,387.82

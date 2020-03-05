@@ -40,7 +40,7 @@ R. Palmer,125,Open,,M,,278.96,199.58,281.23,759.77,SBD,Single-ply,,4
 Ed Gillie,90,Masters,40-999,M,,331.12,195.04,294.84,821,SBD,Single-ply,,1
 Tom Trevorah,82.5,Masters,40-999,M,,226.8,133.81,217.72,578.33,SBD,Single-ply,,1
 Victor Kaminsky,90,Masters,40-999,M,,199.58,136.08,208.65,544.31,SBD,Single-ply,,2
-E. Perez III,52,Novice,,M,,120.2,83.91,154.22,358.34,SBD,Single-ply,,1
+E. Perez III,52,Novice,,M,51.26,120.2,83.91,154.22,358.34,SBD,Single-ply,,1
 S. Perez,52,Novice,,M,,136.08,63.5,142.88,342.46,SBD,Single-ply,,2
 J. Williams,52,Novice,,M,,108.86,79.38,131.54,319.78,SBD,Single-ply,,3
 T. Autorino,56,Novice,,M,,138.35,115.67,163.29,417.31,SBD,Single-ply,,1
@@ -56,7 +56,7 @@ D. Bozeman,67.5,Novice,,M,,185.97,147.42,226.8,560.19,SBD,Single-ply,,2
 T. Small,67.5,Novice,,M,,206.38,106.59,219.99,532.97,SBD,Single-ply,,3
 R. Hanchett,67.5,Novice,,M,,174.63,129.27,204.12,508.02,SBD,Single-ply,,4
 J. Perez,67.5,Novice,,M,,181.44,120.2,197.31,498.95,SBD,Single-ply,,5
-R. Hartzog,67.5,Novice,,M,,170.1,117.93,204.12,492.15,SBD,Single-ply,,6
+Rick Hartzog,67.5,Novice,,M,,170.1,117.93,204.12,492.15,SBD,Single-ply,,6
 M. Meczywor,67.5,Novice,,M,,172.37,113.4,204.12,489.88,SBD,Single-ply,,7
 D. Montford,67.5,Novice,,M,,161.03,113.4,215.46,489.88,SBD,Single-ply,,8
 A. Lane,67.5,Novice,,M,,192.78,113.4,181.44,487.61,SBD,Single-ply,,9
@@ -78,7 +78,7 @@ H. Perez,75,Novice,,M,,192.78,136.08,208.65,537.51,SBD,Single-ply,,7
 M. Peet,75,Novice,,M,,190.51,111.13,199.58,501.22,SBD,Single-ply,,8
 C. Bough,75,Novice,,M,,174.63,117.93,206.38,498.95,SBD,Single-ply,,9
 John Sass,75,Novice,,M,,154.22,117.93,204.12,476.27,SBD,Single-ply,,10
-B. McDuffie,75,Novice,,M,,163.29,120.2,185.97,469.47,SBD,Single-ply,,11
+Brian McDuffie,75,Novice,,M,,163.29,120.2,185.97,469.47,SBD,Single-ply,,11
 K. Trevorah,75,Novice,,M,,185.97,97.52,181.44,464.93,SBD,Single-ply,,12
 T. Brooks,75,Novice,,M,,136.08,106.59,185.97,428.65,SBD,Single-ply,,13
 Ed Gillie III,75,Novice,,M,,95.25,83.91,99.79,278.96,SBD,Single-ply,14,14
@@ -157,7 +157,7 @@ S. Oropeza,110,Novice,,M,,281.23,183.71,272.16,737.09,SBD,Single-ply,,4
 Bill Tinney,110,Novice,,M,,265.35,185.97,283.5,734.82,SBD,Single-ply,,5
 T. Acker,110,Novice,,M,,258.55,188.24,258.55,705.34,SBD,Single-ply,,6
 K. Cooper,110,Novice,,M,,263.08,167.83,274.42,705.34,SBD,Single-ply,,7
-T. Peters,110,Novice,,M,,238.14,163.29,260.82,662.25,SBD,Single-ply,,8
+Todd Peters,110,Novice,,M,,238.14,163.29,260.82,662.25,SBD,Single-ply,,8
 I. Vause,110,Novice,,M,,235.87,154.22,258.55,648.64,SBD,Single-ply,,9
 M. Wabuda,110,Novice,,M,,215.46,170.1,238.14,623.69,SBD,Single-ply,,10
 T. Sellars,110,Novice,,M,,210.92,149.69,229.06,589.67,SBD,Single-ply,,11
@@ -188,7 +188,7 @@ J. Perez,,Masters,40-999,M,65.32,181.44,120.2,197.31,498.95,SBD,Single-ply,,2
 C. Blevins,,Masters,40-999,M,91.17,240.4,138.35,249.48,628.23,SBD,Single-ply,,3
 William Vargas,75,Masters,40-999,M,,208.65,127.01,208.65,544.31,SBD,Single-ply,,4
 S. Perez,52,Masters,40-999,M,,136.08,63.5,142.88,342.46,SBD,Single-ply,,5
-E. Perez,,Masters,40-999,M,58.06,,,,324.32,SBD,Single-ply,,6
+E. Perez Jr,,Masters,40-999,M,58.06,,,,324.32,SBD,Single-ply,,6
 Bill Remley,,Masters,40-999,M,80.29,172.37,129.27,204.12,505.76,SBD,Single-ply,,7
 John Sass,75,Masters,40-999,M,,154.22,117.93,204.12,476.27,SBD,Single-ply,,8
 H. Hutchinson,,Masters,40-999,M,80.29,172.37,106.59,208.65,487.61,SBD,Single-ply,,9

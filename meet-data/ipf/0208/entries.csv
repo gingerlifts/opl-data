@@ -46,7 +46,7 @@ DQ,67.5,M,Open,Vichar Mitev,1978,66.6,Bulgaria,,,,,SBD,Single-ply
 4,75,M,Open,Jacek Spychała,1978,74.8,Poland,285,177.5,295,757.5,SBD,Single-ply
 5,75,M,Open,Andreas Zeilinger,1968,74.8,Austria,270,190,267.5,727.5,SBD,Single-ply
 6,75,M,Open,Maurice O'Connor,1953,74.7,Ireland,225,165,280,670,SBD,Single-ply
-7,75,M,Open,Erik Rasmusen,1962,75,Denmark,230,170,230,630,SBD,Single-ply
+7,75,M,Open,Erik Rasmussen,1962,75,Denmark,230,170,230,630,SBD,Single-ply
 8,75,M,Open,Peter Vadasz,1979,74.5,Hungary,230,175,210,615,SBD,Single-ply
 9,75,M,Open,Sean Muir,1970,74.2,Australia,220,142.5,250,612.5,SBD,Single-ply
 10,75,M,Open,Neville Harris,1977,75,Australia,210,162.5,240,612.5,SBD,Single-ply
@@ -75,7 +75,7 @@ DQ,75,M,Open,Dainius Juodgudis,1971,74.6,Lithuania,,,,,SBD,Single-ply
 2,90,M,Open,Nikolay Marozav,1976,88.77,Belarus,332.5,230,330,892.5,SBD,Single-ply
 3,90,M,Open,Dmitriy Fedenko,1975,89.9,Russia,340,210,335,885,SBD,Single-ply
 4,90,M,Open,Petr Theuser,1961,89.99,Czechia,345,222.5,317.5,885,SBD,Single-ply
-5,90,M,Open,Hanibal Coimbra,1972,89.33,Luxembourg,322.5,207.5,325,855,SBD,Single-ply
+5,90,M,Open,Anibal Manuel Coimbra Marques,1972,89.33,Luxembourg,322.5,207.5,325,855,SBD,Single-ply
 6,90,M,Open,Ray Benemerito,1967,89.4,USA,315,215,312.5,842.5,SBD,Single-ply
 7,90,M,Open,Margus Silbaum,1976,89.8,Estonia,285,192.5,325,802.5,SBD,Single-ply
 8,90,M,Open,Dominique Desachy,1965,89.22,France,305,200,290,795,SBD,Single-ply
@@ -145,7 +145,7 @@ DQ,110,M,Open,Ignat Belousov,1976,108.6,Belarus,,,,,SBD,Single-ply
 15,125,M,Open,Steve Lousich,1965,113.8,New Zealand,285,227.5,250,762.5,SBD,Single-ply
 DQ,125,M,Open,Stoian Andreev,1978,124.77,Bulgaria,,,,,SBD,Single-ply
 1,125+,M,Open,Vitaliy Papazov,1980,127.4,Ukraine,415,275,367.5,1057.5,SBD,Single-ply
-2,125+,M,Open,Brad Gillingham,1963,150.4,USA,380,277.5,387.5,1045,SBD,Single-ply
+2,125+,M,Open,Brad Gillingham,,150.4,USA,380,277.5,387.5,1045,SBD,Single-ply
 3,125+,M,Open,Daisuke Midote,1972,136,Japan,400,305,307.5,1012.5,SBD,Single-ply
 4,125+,M,Open,Tibor Mészáros,1967,140.2,Hungary,380,220,407.5,1007.5,SBD,Single-ply
 5,125+,M,Open,Zdeněk Sedmík,1974,142.1,Czechia,380,280,340,1000,SBD,Single-ply

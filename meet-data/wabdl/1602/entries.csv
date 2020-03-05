@@ -4,14 +4,14 @@ B,M,Class 1,90,172.5,,,,172.5,Kyle Mollenberg,NV,Single-ply,1
 B,M,Class 1,100,140,,,,140,Tobias Anderson,CA,Single-ply,1
 B,M,Class 1,110,187.5,,,,187.5,Zach Drebin,CA,Single-ply,1
 B,M,Class 1,117.5,227.5,,,,227.5,Mick Quilici,NV,Multi-ply,1
-B,M,Disabled 1 40-59,117.5,237.5,245,,,237.5,Steve Peña,CA,Single-ply,1
+B,M,Disabled 1 40-59,117.5,237.5,245,,,237.5,Steve Peña #1,CA,Single-ply,1
 B,M,Juniors 20-25,67.5,145,,,,145,Josh Sisneros,CA,Single-ply,1
 B,M,Juniors 20-25,90,192.5,,,,192.5,Joey Miguel,NV,Single-ply,1
 B,M,Juniors 20-25,90,182.5,,,,182.5,Joseph Karamatic,CA,Multi-ply,1
 B,M,Juniors 20-25,100,175,,,,175,Matthew Allen,NV,Single-ply,1
 B,M,Law-Fire 56-63,117.5,115,,,,115,Manny Burruel,CA,Multi-ply,1
 B,M,Law-Fire 56-63,125,140,,,,140,Michal Johnson,CA,Multi-ply,1
-B,M,Law-Fire 64,117.5,137.5,,,,137.5,Paul Goodwin,CA,Single-ply,1
+B,M,Law-Fire 64+,117.5,137.5,,,,137.5,Paul Goodwin,CA,Single-ply,1
 B,M,Law-Fire Open,100,165,,,,165,Jordan Rodriguez,CA,Single-ply,1
 B,M,Masters 40-46,90,215,,,,215,James Hunter,CA,Single-ply,2
 B,M,Masters 40-46,90,272.5,279,,,272.5,Matt LaMarque,CA,Single-ply,1
@@ -45,7 +45,7 @@ B,M,Open,82.5,200,,,,200,Daniel Sisneros,CA,Single-ply,1
 B,M,Open,90,272.5,279,,,272.5,Matt LaMarque,CA,Single-ply,1
 B,M,Open,100,127.5,,,,127.5,Harry Munro,CA,Single-ply,2
 B,M,Open,100,245,,,,245,Matthew Arnaldo,CA,Single-ply,1
-B,M,Open,110,255,,,,255,Jerimiah Lopez,CA,Single-ply,1
+B,M,Open,110,255,,,,255,Jeremiah Lopez,CA,Single-ply,1
 B,M,Open,117.5,187.5,,,,187.5,Jim Presley,CA,Multi-ply,1
 B,M,Open,125,205,,,,205,Michael West,CA,Single-ply,1
 B,M,Open,140+,175,,,,175,John Wooner,CA,Single-ply,1
@@ -58,7 +58,7 @@ D,M,Class 1,100,,,222.5,,222.5,Tobias Anderson,CA,Single-ply,3
 D,M,Class 1,100,,,240,,240,Brandon Jurevich,CA,Single-ply,1
 D,M,Class 1,100,,,240,,240,Max Higgins,CA,Single-ply,2
 D,M,Class 1,110,,,182.5,,182.5,Zach Drebin,CA,Single-ply,2
-D,M,Class 1,110,,,227.5,,227.5,Jerimiah Lopez,CA,Single-ply,1
+D,M,Class 1,110,,,227.5,,227.5,Jeremiah Lopez,CA,Single-ply,1
 D,M,Class 1,140+,,,325,,325,Devon Woodall,CA,Single-ply,1
 D,M,Disabled 2 40-59,117.5,,,122.5,137.5,122.5,Roy Broset,CA,Multi-ply,1
 D,M,Juniors 20-25,67.5,,,167.5,,167.5,Josh Sisneros,CA,Single-ply,1
@@ -71,7 +71,7 @@ D,M,Juniors 20-25,125,,,227.5,,227.5,Tyler Milligan,CA,Single-ply,1
 D,M,Law-Fire 48-55,75,,,177.5,,177.5,Larry Esquivel,CA,Single-ply,1
 D,M,Law-Fire 56-63,117.5,,,247.5,,247.5,Manny Burruel,CA,Multi-ply,1
 D,M,Law-Fire 56-63,125,,,210.5,,210.5,Michal Johnson,CA,Multi-ply,1
-D,M,Law-Fire 64,117.5,,,147.5,155,147.5,Paul Goodwin,CA,Single-ply,1
+D,M,Law-Fire 64+,117.5,,,147.5,155,147.5,Paul Goodwin,CA,Single-ply,1
 D,M,Law-Fire Open,100,,,260,,260,Jordan Rodriguez,CA,Single-ply,1
 D,M,Masters 40-46,90,,,272.5,,272.5,Matt LaMarque,CA,Single-ply,1
 D,M,Masters 40-46,90,,,250,,250,Aaron Pina,CA,Single-ply,2
@@ -108,7 +108,7 @@ BD,M,Class 1,110,187.5,,182.5,,370,Zach Drebin,CA,Single-ply,1
 BD,M,Juniors 20-25,90,182.5,,220,221,402.5,Joseph Karamatic,CA,Multi-ply,1
 BD,M,Juniors 20-25,90,192.5,,237.5,,430,Joey Miguel,NV,Single-ply,1
 BD,M,Juniors 20-25,100,175,,245,,420,Matthew Allen,NV,Single-ply,1
-BD,M,Law-Fire 64,117.5,137.5,,147.5,155,285,Paul Goodwin,CA,Single-ply,1
+BD,M,Law-Fire 64+,117.5,137.5,,147.5,155,285,Paul Goodwin,CA,Single-ply,1
 BD,M,Law-Fire Open,100,165,,260,,425,Jordan Rodriguez,CA,Single-ply,1
 BD,M,Masters 40-46,90,272.5,279,272.5,,545,Matt LaMarque,CA,Single-ply,1
 BD,M,Masters 40-46,100,135,,215,,350,Eric Santos,CA,Single-ply,1

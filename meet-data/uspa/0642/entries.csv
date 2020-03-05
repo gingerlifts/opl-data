@@ -4,7 +4,7 @@ Place,Name,Division,Equipment,Sex,State,WeightClassKg,BodyweightKg,Age,Best3Squa
 1,Tiffani Tom,Juniors 20-23,Raw,F,CA,52,50.9,23,127.5,,45,132.5,,305,SBD
 1,Megan Garcia,Juniors 18-19,Raw,F,CA,56,53.3,18,77.5,,42.5,90,,210,SBD
 1,Sharon Luan,Juniors 18-19,Raw,F,CA,60,58.5,19,107.5,,52.5,160,,320,SBD
-1,Kristen Norris,Juniors 20-23,Raw,F,OH,60,59.9,23,142.5,,82.5,150,,375,SBD
+1,Kristen Robbins #1,Juniors 20-23,Raw,F,OH,60,59.9,23,142.5,,82.5,150,,375,SBD
 2,Logan Whitfill,Juniors 20-23,Raw,F,AZ,60,59.65,20,117.5,,55,137.5,,310,SBD
 3,Diana Dinh,Juniors 20-23,Raw,F,CA,60,59.45,23,110,,52.5,137.5,,300,SBD
 1,Tayler Claflin,Juniors 16-17,Raw,F,WY,67.5,67.15,17,125,,82.5,137.5,,345,SBD
@@ -30,7 +30,7 @@ DQ,Shelby Simmons,Juniors 18-19,Raw,F,PA,75,71.55,18,,,57.5,,,,SBD
 3,Kayla Valenzuela,Open,Raw,F,CA,56,55.8,26,100,,55,142.5,,297.5,SBD
 4,Kelsey Boronda,Open,Raw,F,CA,56,52.3,24,90,,50,122.5,,262.5,SBD
 5,Megan Garcia,Open,Raw,F,CA,56,53.3,18,77.5,,42.5,90,,210,SBD
-1,Kristen Norris,Open,Raw,F,OH,60,59.9,23,142.5,,82.5,150,,375,SBD
+1,Kristen Robbins #1,Open,Raw,F,OH,60,59.9,23,142.5,,82.5,150,,375,SBD
 2,Kelly Lovan,Open,Raw,F,IA,60,60,37,117.5,,95,160,,372.5,SBD
 3,Zoe Rodriguez,Open,Raw,F,FL,60,59.2,24,130,,77.5,157.5,,365,SBD
 4,Logan Whitfill,Open,Raw,F,AZ,60,59.65,20,117.5,,55,137.5,,310,SBD
@@ -235,7 +235,7 @@ DQ,Michael Kratz,Open,Raw,M,TX,125,114.15,34,237.5,,,250,,,SBD
 DQ,Brandon Allen #1,Open,Raw,M,NV,140+,156.8,27,,,,,,,SBD
 1,Ryan Hudson,Submasters 35-39,Raw,M,OR,75,74.95,37,230,,147.5,235,,612.5,SBD
 2,Alfred Villoch,Submasters 35-39,Raw,M,FL,75,73.65,38,182.5,,137.5,255,,575,SBD
-3,Chris Lentini,Submasters 35-39,Raw,M,AL,75,74.2,39,170,,140,215,,525,SBD
+3,Chris Lentini #1,Submasters 35-39,Raw,M,AL,75,74.2,39,170,,140,215,,525,SBD
 1,Timothy Mercer,Submasters 35-39,Raw,M,OR,100,94.5,36,240,,172.5,260,,672.5,SBD
 2,David Wallace,Submasters 35-39,Raw,M,AL,100,98.7,39,207.5,,162.5,260,,630,SBD
 1,Jared Robinson,Submasters 35-39,Raw,M,CA,110,104.55,38,210,,172.5,277.5,,660,SBD
@@ -357,7 +357,7 @@ DQ,Gary Loyd,Masters 45-49,Wraps,M,CA,82.5,81.95,48,,,137.5,220,,,SBD
 1,Roy Taylor,Masters 75-79,Wraps,M,CA,82.5,79.95,76,102.5,,57.5,160,,320,SBD
 1,Eric Kratz #1,Masters 40-44,Wraps,M,PA,90,89.65,41,245,,185,257.5,,687.5,SBD
 1,Bob Kinsey,Masters 70-74,Wraps,M,CA,90,88.8,74,120,,75,165.5,,360.5,SBD
-1,Dave Murphy,Masters 40-44,Wraps,M,CA,100,99.55,42,240,,172.5,215,,627.5,SBD
+1,Dave Murphy #2,Masters 40-44,Wraps,M,CA,100,99.55,42,240,,172.5,215,,627.5,SBD
 2,Scott Blake,Masters 40-44,Wraps,M,IN,100,99.5,44,205,,150,260,,615,SBD
 1,Timothy Sparkes,Masters 45-49,Wraps,M,AZ,100,99.1,48,262.5,,125,310.5,,698,SBD
 2,Chris Flores,Masters 45-49,Wraps,M,CA,100,94.65,45,232.5,,192.5,267.5,,692.5,SBD

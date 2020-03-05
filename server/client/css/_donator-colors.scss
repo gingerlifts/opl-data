@@ -65,8 +65,14 @@
   @include name-color(#00AEFF);
 }
 
+// Like a baby blue.
 .lightblue {
   @include name-color(#43D1FF);
+}
+
+// A pleasant blue you'd find on a menu screen button.
+.waterblue {
+  @include name-color(#3B72FF);
 }
 
 .royalblue {
@@ -109,6 +115,10 @@
 
 .gold {
   @include name-color(#FFD700);
+}
+
+.forestgreen {
+  @include name-color(#006400);
 }
 
 // Rainbow with light colors, to be readable against a dark background.
@@ -173,6 +183,12 @@
       $ireland-orange 67%, $ireland-orange);
 }
 
+//Red, black, white and green.
+.palestine {
+  @include gradient-prereqs($default-color);
+  background-image: linear-gradient(to right, #CE1126, #000000, #FFFFFF, #007A3D);
+}
+
 .blue_to_gold {
   $blue: #507CFF;
   $gold: #FFD700;
@@ -220,6 +236,13 @@
   $white: #EDF2F4;
   @include gradient-prereqs($green);
   background-image: linear-gradient(to right, $green, $white);
+}
+
+.lightblue_to_purple {
+  $lightblue: #43D1FF;
+  $purple: #AE76FF;
+  @include gradient-prereqs($lightblue);
+  background-image: linear-gradient(to right, $lightblue, $purple);
 }
 
 .lightblue_to_white {

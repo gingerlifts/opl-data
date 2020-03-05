@@ -5,7 +5,7 @@ WeightClassKg,Sex,Event,Equipment,Division,Name,Best3SquatKg,Squat4Kg,Best3Bench
 82.5,M,B,Multi-ply,Amateur Open,Paul Chase III,,,183.7,,,183.7,1
 82.5,M,B,Multi-ply,Amateur Open,Brian Stanley,,,163.29,,,163.29,2
 90,M,B,Multi-ply,Amateur Open,Steven Dussault,,,256.28,,,256.28,1
-125,M,B,Multi-ply,Amateur Open,Richard Putnam,,,317.51,,,317.51,1
+125,M,B,Multi-ply,Amateur Open,Rich Putnam,,,317.51,,,317.51,1
 125,M,B,Multi-ply,Amateur Open,Bob Norris,,,267.62,,,267.62,2
 140,M,B,Multi-ply,Amateur Open,Brian Ernst,,,258.55,,,258.55,1
 125,M,B,Multi-ply,Elite Amateur Open,Ronald Scott Yard,,,365.14,,,365.14,1
@@ -25,7 +25,7 @@ WeightClassKg,Sex,Event,Equipment,Division,Name,Best3SquatKg,Squat4Kg,Best3Bench
 67.5,M,B,Multi-ply,Pro Open,Joe Ceklovsky,,,254.01,,,254.01,1
 100,M,B,Multi-ply,Pro Open,Theodore Morris,,,249.48,,,249.48,1
 100,M,B,Multi-ply,Pro Open,Bill Cox,,,226.8,,,226.8,2
-110,M,B,Multi-ply,Pro Open,Vinny Cooke,,,251.74,,,251.74,1
+110,M,B,Multi-ply,Pro Open,Vincent Cooke,,,251.74,,,251.74,1
 125,M,B,Multi-ply,Pro Open,Brandon Matney,,,272.16,,,272.16,1
 140+,M,B,Multi-ply,Pro Open,Zane McCaslin,,,328.85,,,328.85,1
 125,M,B,Raw,Pro Open,James Farina,,,213.19,,,213.19,1
@@ -43,7 +43,7 @@ WeightClassKg,Sex,Event,Equipment,Division,Name,Best3SquatKg,Squat4Kg,Best3Bench
 75,M,SBD,Multi-ply,Amateur Open,Jim Roney,260.82,,138.35,251.74,,650.91,1
 82.5,M,SBD,Multi-ply,Amateur Open,Michael Welcheck,328.85,,170.1,249.48,,748.43,1
 90,M,SBD,Multi-ply,Amateur Open,Adrian Griffin,312.98,,229.06,254.01,,796.05,1
-90,M,SBD,Multi-ply,Amateur Open,Adam James,299.37,,229.06,267.62,,796.05,2
+90,M,SBD,Multi-ply,Amateur Open,Adam James #1,299.37,,229.06,267.62,,796.05,2
 90,M,SBD,Multi-ply,Amateur Open,Joe Palantino,265.35,,201.85,283.5,,750.7,3
 100,M,SBD,Multi-ply,Amateur Open,Chris DelPreore,362.87,,249.48,272.16,,884.51,1
 100,M,SBD,Multi-ply,Amateur Open,Abraham Harrod,317.51,,231.33,226.8,,775.64,2
@@ -56,7 +56,7 @@ WeightClassKg,Sex,Event,Equipment,Division,Name,Best3SquatKg,Squat4Kg,Best3Bench
 110,M,SBD,Raw,Amateur Open,Steven Elliott,290.3,,185.97,328.85,,805.13,1
 125,M,SBD,Raw,Amateur Open,John Battaglia,249.48,,170.1,249.48,,669.05,1
 110,M,SBD,Multi-ply,Amateur Submasters 33-39,Eric Winter,349.27,,238.14,263.08,,850.49,1
-110,M,SBD,Multi-ply,Amateur Submasters 33-39,Sam Glover,260.82,,176.9,226.8,,664.51,2
+110,M,SBD,Multi-ply,Amateur Submasters 33-39,Sam Glover Jr,260.82,,176.9,226.8,,664.51,2
 125,M,SBD,Multi-ply,Amateur Submasters 33-39,Marcus Brown,362.87,,204.12,272.16,,839.15,1
 90,M,SBD,Multi-ply,Amateur Masters 40-44,James Shaughnessy,306.17,328.85,219.99,235.87,,762.04,1
 67.5,M,SBD,Multi-ply,Amateur Masters 45-49,John Gengo,195.04,,120.2,199.58,,514.83,1
@@ -70,12 +70,12 @@ WeightClassKg,Sex,Event,Equipment,Division,Name,Best3SquatKg,Squat4Kg,Best3Bench
 60,F,SBD,Multi-ply,Amateur Open,Heather Cox,68.04,,52.16,83.91,,204.12,1
 67.5,F,SBD,Multi-ply,Amateur Open,Rheta West,183.7,,106.59,163.29,,453.59,1
 75,F,SBD,Multi-ply,Amateur Open,Gia Blackwell,158.76,,92.99,138.35,,390.09,1
-75,F,SBD,Multi-ply,Amateur Open,Sarah Walls,124.74,,74.84,120.2,,319.78,2
+75,F,SBD,Multi-ply,Amateur Open,Sarah Walls #3,124.74,,74.84,120.2,,319.78,2
 67.5,F,SBD,Multi-ply,Amateur Submasters 33-39,Rheta West,183.7,,106.59,163.29,,453.59,1
 75,F,SBD,Multi-ply,Amateur Masters 45-49,Gia Blackwell,158.76,,92.99,138.35,,390.09,1
 48,F,SBD,Multi-ply,Pro Open,Taisiya Kuznetsova,174.63,,99.79,154.22,,428.64,1
 48,F,SBD,Multi-ply,Pro Open,Elaine Grimwood,149.69,,81.65,136.08,,367.41,2
-60,F,SBD,Multi-ply,Pro Open,Hannah Johnson,142.88,,97.52,163.29,,403.7,1
+60,F,SBD,Multi-ply,Pro Open,Hannah Johnson #1,142.88,,97.52,163.29,,403.7,1
 90,F,SBD,Multi-ply,Pro Open,Cheryl Clodfelter,215.46,,113.4,219.99,231.33,548.85,1
 75,F,SBD,Multi-ply,Pro Masters 50-54,Lynne Boshoven,226.8,,117.93,210.92,,555.65,1
 90,M,SBD,Multi-ply,Pro Juniors 20-23,Chris Cox,249.48,,147.42,215.46,,612.35,1
@@ -83,7 +83,7 @@ WeightClassKg,Sex,Event,Equipment,Division,Name,Best3SquatKg,Squat4Kg,Best3Bench
 82.5,M,SBD,Multi-ply,Pro Open,Joe Kuligowski,326.59,,183.7,238.14,,748.43,2
 90,M,SBD,Multi-ply,Pro Open,Ricardo Ingravera,290.3,,188.24,276.69,,755.23,1
 100,M,SBD,Multi-ply,Pro Open,Jason Mink,288.03,,215.46,297.1,,800.59,1
-100,M,SBD,Multi-ply,Pro Open,James Howell,340.19,,204.12,226.8,,771.11,2
+100,M,SBD,Multi-ply,Pro Open,James Howell #1,340.19,,204.12,226.8,,771.11,2
 100,M,SBD,Multi-ply,Pro Open,Jason Hanisak,278.96,,226.8,249.48,,755.23,3
 110,M,SBD,Multi-ply,Pro Open,Jason Cox,476.27,,249.48,272.16,,997.9,1
 110,M,SBD,Multi-ply,Pro Open,Jim Laird,387.82,,290.3,299.37,,977.49,2
@@ -106,6 +106,6 @@ WeightClassKg,Sex,Event,Equipment,Division,Name,Best3SquatKg,Squat4Kg,Best3Bench
 140+,M,SBD,Multi-ply,Pro Masters 40-44,Robert Gormus,362.87,,294.84,306.17,,963.88,1
 90,M,SBD,Multi-ply,Pro Masters 45-49,Ricardo Ingravera,290.3,,188.24,276.69,,755.23,1
 100,M,SBD,Multi-ply,Pro Masters 55-59,Tim Sheehan,281.23,,167.83,256.28,,705.34,1
-100,M,SBD,Raw,Pro Masters 40-44,James Howell,,,,226.8,,,DQ
+100,M,SBD,Raw,Pro Masters 40-44,James Howell #1,,,,226.8,,,DQ
 90,M,SBD,Multi-ply,Pro Police,James Shaughnessy,306.17,328.85,219.99,235.87,,762.04,1
 125,M,SBD,Multi-ply,Pro Police,Ted Forbes,408.23,,231.33,317.51,,957.08,1

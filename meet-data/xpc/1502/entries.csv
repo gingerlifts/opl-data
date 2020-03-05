@@ -8,7 +8,7 @@ Place,Name,Division,Sex,Equipment,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3De
 5,Greg Powell,Heavy,M,Multi-ply,99.79,,317.51,,317.51,49,317.51,-362.87,-362.87,,B
 1,Matt Houser,Heavy,M,Multi-ply,146.06,,362.87,,362.87,31,362.87,-426.38,-426.38,,B
 DQ,Jimmy Kolb,Heavy,M,Multi-ply,107.05,,,,,24,-362.87,-453.59,-453.59,,B
-DQ,Mike Womack,Heavy,M,Multi-ply,136.08,,,,,33,-362.87,-408.23,-408.23,,B
+DQ,Mike Womack #1,Heavy,M,Multi-ply,136.08,,,,,33,-362.87,-408.23,-408.23,,B
 1,Brian Carroll,Heavy,M,Multi-ply,109.86,483.08,347,353.8,1183.88,,,,,,SBD
 2,Matt Minuth,Heavy,M,Multi-ply,106.59,453.59,385.55,333.39,1172.54,,,,,,SBD
 3,Jake Anderson,Heavy,M,Multi-ply,136.21,467.2,349.27,340.19,1156.66,,,,,,SBD
@@ -49,7 +49,7 @@ DQ,Chris Janek,Heavy,M,Multi-ply,136.26,501.22,,,,,,,,,SBD
 14,Jeffrey Cobb,Heavy,M,Wraps,123.33,299.37,197.31,290.3,786.98,,,,,,SBD
 15,Chris Carson,Heavy,M,Wraps,108.82,267.62,222.26,272.16,762.04,,,,,,SBD
 16,Aaron White,Heavy,M,Wraps,104.78,288.03,185.97,276.69,750.7,,,,,,SBD
-17,Michael Moore,Heavy,M,Wraps,122.15,272.16,195.04,294.84,762.04,,,,,,SBD
+17,Michael Moore #1,Heavy,M,Wraps,122.15,272.16,195.04,294.84,762.04,,,,,,SBD
 18,Jason Kowalewski,Heavy,M,Wraps,107.32,249.48,192.78,260.82,703.07,,,,,,SBD
 19,Christopher Crisman,Heavy,M,Wraps,181.44,72.57,244.94,72.57,390.09,,,,,,SBD
 DQ,Shane Poole,Heavy,M,Wraps,109.04,301.64,190.51,,,,,,,,SBD
@@ -58,7 +58,7 @@ DQ,Dmitry Bubnov,Heavy,M,Wraps,127.19,,233.6,,,,,,,,SBD
 2,Jeanine Whittaker,Open,F,Wraps,82.55,249.48,127.01,229.06,605.55,,,,,,SBD
 3,Ellen Stein,Open,F,Wraps,59.51,172.37,81.65,185.97,439.98,,,,,,SBD
 4,Kayla Morelan,Open,F,Wraps,59.92,170.1,79.38,158.76,408.23,,,,,,SBD
-5,Steph Tomlinson,Open,F,Wraps,64.5,156.49,97.52,179.17,433.18,,,,,,SBD
+5,Stephanie Tomlinson,Open,F,Wraps,64.5,156.49,97.52,179.17,433.18,,,,,,SBD
 6,Macy Armstrong,Open,F,Wraps,88.18,199.58,117.93,219.99,537.51,,,,,,SBD
 7,Christine Brass,Open,F,Wraps,59.87,163.29,77.11,151.95,392.36,,,,,,SBD
 8,Chelsey Lampros,Open,F,Wraps,59.92,156.49,83.91,147.42,387.82,,,,,,SBD
@@ -104,7 +104,7 @@ DQ,Brandon Crabill,Light,M,Wraps,88.54,251.74,197.31,,,,,,,,SBD
 6,Zac Whalen,Light,M,Multi-ply,99.97,392.36,283.5,310.71,986.56,,,,,,SBD
 7,JJ Thomas,Light,M,Multi-ply,99.2,351.53,299.37,324.32,975.22,,,,,,SBD
 8,Zane Geeting,Light,M,Multi-ply,98.61,374.21,231.33,347,952.54,,,,,,SBD
-9,Augie,Light,M,Multi-ply,99.99,374.21,265.35,306.17,945.74,,,,,,SBD
+9,Augie Augustein,Light,M,Multi-ply,99.99,374.21,265.35,306.17,945.74,,,,,,SBD
 10,Jason Murphy,Light,M,Multi-ply,74.98,312.98,235.87,235.87,784.71,,,,,,SBD
 11,Chad Hammond,Light,M,Multi-ply,99.2,385.55,242.67,306.17,934.4,,,,,,SBD
 12,Clint Moore,Light,M,Multi-ply,95.03,342.46,260.82,306.17,909.45,,,,,,SBD

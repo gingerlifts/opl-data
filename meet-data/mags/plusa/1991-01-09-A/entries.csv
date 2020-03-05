@@ -28,10 +28,10 @@ J. Bautista,60,Masters 45-49,45-49,M,122.5,87.5,150,360,SBD,Single-ply,3
 V. Medina,60,Masters 45-49,45-49,M,,,,,SBD,Single-ply,DQ
 Richard Nolan,60,Masters 60-64,60-64,M,92.5,60,125,277.5,SBD,Single-ply,1
 J. Jacobs,67.5,Masters 40-44,40-44,M,200,120,232.5,552.5,SBD,Single-ply,1
-Jim Benson,67.5,Masters 40-44,40-44,M,202.5,112.5,225,540,SBD,Single-ply,2
+Jim Benson #2,67.5,Masters 40-44,40-44,M,202.5,112.5,225,540,SBD,Single-ply,2
 S. Brown,67.5,Masters 40-44,40-44,M,192.5,117.5,220,530,SBD,Single-ply,3
 M. Anderson,67.5,Masters 40-44,40-44,M,160,97.5,190,447.5,SBD,Single-ply,4
-L. Donahue,67.5,Masters 40-44,40-44,M,150,110,165,425,SBD,Single-ply,5
+Larry Donahue,67.5,Masters 40-44,40-44,M,150,110,165,425,SBD,Single-ply,5
 John Addy,67.5,Masters 40-44,40-44,M,140,70,170,380,SBD,Single-ply,6
 D. Green,67.5,Masters 40-44,40-44,M,130,100,135,365,SBD,Single-ply,7
 Mike Lawson,67.5,Masters 45-49,45-49,M,227.5,120,200,547.5,SBD,Single-ply,1
@@ -78,7 +78,7 @@ Tom Trevorah,82.5,Masters 50-54,50-54,M,190,135,227.5,552.5,SBD,Single-ply,1
 Jim Klein,82.5,Masters 50-54,50-54,M,182.5,122.5,215,520,SBD,Single-ply,3
 Richard Schuller,82.5,Masters 50-54,50-54,M,195,110,212.5,517.5,SBD,Single-ply,4
 Joe McDermott,82.5,Masters 50-54,50-54,M,195,160,157.5,512.5,SBD,Single-ply,5
-D. Ginenthal,82.5,Masters 60-64,60-64,M,165,110,195,470,SBD,Single-ply,1
+David Ginenthal,82.5,Masters 60-64,60-64,M,165,110,195,470,SBD,Single-ply,1
 E. McCulloch,82.5,Masters 60-64,60-64,M,150,100,170,420,SBD,Single-ply,2
 Jack Weiss,82.5,Masters 60-64,60-64,M,145,90,165,400,SBD,Single-ply,3
 R. Madden,82.5,Masters 60-64,60-64,M,65,138.5,125,328.5,SBD,Single-ply,4
@@ -88,7 +88,7 @@ E. Paucuillo,90,Masters 40-44,40-44,M,230,170,242.5,642.5,SBD,Single-ply,3
 S. Bergath,90,Masters 40-44,40-44,M,230,137.5,237.5,605,SBD,Single-ply,11
 R. Brooks,90,Masters 40-44,40-44,M,182.5,142.5,272.5,597.5,SBD,Single-ply,4
 R. Spill,90,Masters 40-44,40-44,M,207.5,135,230,572.5,SBD,Single-ply,5
-B. Olinger,90,Masters 40-44,40-44,M,210,130,227.5,567.5,SBD,Single-ply,6
+Robert Olinger,90,Masters 40-44,40-44,M,210,130,227.5,567.5,SBD,Single-ply,6
 H. Gosthnian,90,Masters 40-44,40-44,M,207.5,117.5,237.5,562.5,SBD,Single-ply,7
 W. Schaffer,90,Masters 40-44,40-44,M,210,137.5,215,562.5,SBD,Single-ply,8
 J. Douglas,90,Masters 40-44,40-44,M,207.5,137.5,190,535,SBD,Single-ply,9
@@ -106,7 +106,7 @@ Bob Strange,90,Masters 50-54,50-54,M,210,165,240,615,SBD,Single-ply,1
 John Herbein,90,Masters 50-54,50-54,M,190,120,222.5,532.5,SBD,Single-ply,2
 Burt Rosenfield,90,Masters 55-59,55-59,M,202.5,143.5,220,566,SBD,Single-ply,1
 Richard Ladd,90,Masters 55-59,55-59,M,190,105,212.5,507.5,SBD,Single-ply,2
-B. Brissette,90,Masters 55-59,55-59,M,202.5,120,200,522.5,SBD,Single-ply,3
+Bernard Brissette,90,Masters 55-59,55-59,M,202.5,120,200,522.5,SBD,Single-ply,3
 Bill Remley,90,Masters 60-64,60-64,M,192.5,135,220,547.5,SBD,Single-ply,1
 George Manly,90,Masters 60-64,60-64,M,212.5,115,205,532.5,SBD,Single-ply,2
 J. Dean,90,Masters 60-64,60-64,M,160,125,205,490,SBD,Single-ply,3
@@ -117,7 +117,7 @@ J. Miller #11,100,Masters 40-44,40-44,M,257.5,167.5,265,690,SBD,Single-ply,3
 Mike Makofsky,100,Masters 40-44,40-44,M,250,180,250,680,SBD,Single-ply,4
 J. Austin,100,Masters 40-44,40-44,M,247.5,150,240,637.5,SBD,Single-ply,5
 L. Frazier,100,Masters 40-44,40-44,M,232.5,142.5,220,595,SBD,Single-ply,6
-B. Obrecht,100,Masters 40-44,40-44,M,200,142.5,220,562.5,SBD,Single-ply,7
+William Obrecht,100,Masters 40-44,40-44,M,200,142.5,220,562.5,SBD,Single-ply,7
 S. Chiodo,100,Masters 40-44,40-44,M,160,130,190,480,SBD,Single-ply,8
 Mike Spahr,100,Masters 40-44,40-44,M,,,,,SBD,Single-ply,DQ
 Kirk Hansen,100,Masters 45-49,45-49,M,275,178,260,713.5,SBD,Single-ply,1
@@ -145,7 +145,7 @@ Bill Baron,110,Masters 40-44,40-44,M,,,,,SBD,Single-ply,DQ
 Gene Roberson,110,Masters 45-49,45-49,M,320,150,315,785,SBD,Single-ply,1
 CJ Batten,110,Masters 45-49,45-49,M,240,200,260,700,SBD,Single-ply,2
 R. Ladd,110,Masters 45-49,45-49,M,255,165,255,675,SBD,Single-ply,3
-R. Cerrato,110,Masters 45-49,45-49,M,252.5,182.5,227.5,662.5,SBD,Single-ply,4
+Richard Cerrato,110,Masters 45-49,45-49,M,252.5,182.5,227.5,662.5,SBD,Single-ply,4
 J. Gouriey,110,Masters 45-49,45-49,M,237.5,130,265,632.5,SBD,Single-ply,5
 L. Lyczkowski,110,Masters 45-49,45-49,M,240,152.5,230,622.5,SBD,Single-ply,6
 B. Beckwith,110,Masters 50-54,50-54,M,250,182.5,255,687.5,SBD,Single-ply,1

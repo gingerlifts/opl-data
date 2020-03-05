@@ -7,7 +7,7 @@ Place,Name,Division,AgeRange,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best
 3,J. Kuhs,O,,USA,,120,70,130,320,52,F,SBD,Multi-ply
 1,Amy Weisberger,O,,USA,,167.5,95,167.5,430,56,F,SBD,Multi-ply
 1,J. Klein,T,13-19,USA,,95,52.5,127.5,275,60,F,SBD,Multi-ply
-1,Mary Ellen Warman,O,,USA,,235,102.5,187.5,525,60,F,SBD,Multi-ply
+1,Mary Ellen Jerumbo,O,,USA,,235,102.5,187.5,525,60,F,SBD,Multi-ply
 2,Tonya Myers,O,,USA,,190,90,182.5,462.5,60,F,SBD,Multi-ply
 3,Anna Blakley,O,,USA,,175,122.5,160,457.5,60,F,SBD,Multi-ply
 4,S. Roguet,O,,Belgium,,152.5,65,162.5,380,60,F,SBD,Multi-ply
@@ -17,7 +17,7 @@ Place,Name,Division,AgeRange,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best
 1,Mariah Liggett,O,,USA,,230,130,210,570,67.5,F,SBD,Multi-ply
 2,E. Allsworth,O,,South Africa,,165,105,190,460,67.5,F,SBD,Multi-ply
 3,D. Foster,O,,USA,,150,80,175,405,67.5,F,SBD,Multi-ply
-4,P. Lercangee,O,,Belgium,,142.5,62.5,155,360,67.5,F,SBD,Multi-ply
+4,Pascal Lercangee,O,,Belgium,,142.5,62.5,155,360,67.5,F,SBD,Multi-ply
 1,N. Patterson,T,13-19,USA,,125,65,130,320,75,F,SBD,Multi-ply
 1,R. Papilloud,J,20-23,Switzerland,,180,92.5,190,462.5,75,F,SBD,Multi-ply
 1,Stephanie van de Weghe,O,,USA,,220,127.5,205,552.5,75,F,SBD,Multi-ply
@@ -63,7 +63,7 @@ Place,Name,Division,AgeRange,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best
 3,D. Lather,M2,45-49,USA,,195,137.5,232.5,565,75,M,SBD,Multi-ply
 1,Jerry Wells,M3,50-54,USA,,200,150,182.5,532.5,75,M,SBD,Multi-ply
 2,James Capehart,M3,50-54,USA,,175,117.5,157.5,450,75,M,SBD,Multi-ply
-1,Richard Giller,M6,65-69,USA,,165,132.5,215,512.5,75,M,SBD,Multi-ply
+1,Dick Giller,M6,65-69,USA,,165,132.5,215,512.5,75,M,SBD,Multi-ply
 1,Mark Placek,T,13-19,USA,,242.5,145,240,627.5,82.5,M,SBD,Multi-ply
 2,K. Nelson,T,13-19,USA,,205,135,252.5,592.5,82.5,M,SBD,Multi-ply
 1,Y. Malka,J,20-23,USA,,172.5,132.5,215,520,82.5,M,SBD,Multi-ply
@@ -96,7 +96,7 @@ Place,Name,Division,AgeRange,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best
 2,Ted Kurlowicz,M1,40-44,USA,,245,142.5,245,632.5,90,M,SBD,Multi-ply
 3,V. Spangrud,M1,40-44,USA,,230,147.5,192.5,570,90,M,SBD,Multi-ply
 1,Bill Ramsrud,M6,65-69,USA,,182.5,85,215,482.5,90,M,SBD,Multi-ply
-1,Malcolm Richards,M7,70-74,USA,,202.5,152.5,217.5,572.5,90,M,SBD,Multi-ply
+1,Malcolm Richards #1,M7,70-74,USA,,202.5,152.5,217.5,572.5,90,M,SBD,Multi-ply
 1,J. McDaniel,T,13-19,USA,,280,152.5,230.5,663,100,M,SBD,Multi-ply
 1,M. Mitchell,J,20-23,USA,,297.5,200,185,682.5,100,M,SBD,Multi-ply
 1,William Wessels,O,,USA,,350,240,330,920,100,M,SBD,Multi-ply
@@ -153,7 +153,7 @@ Place,Name,Division,AgeRange,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best
 1,Kenny Malchow,O,,USA,,387.5,247.5,327.5,962.5,140,M,SBD,Multi-ply
 2,Tom Waddle,O,,USA,,372.5,250,322.5,945,140,M,SBD,Multi-ply
 3,Barry Stoten,O,,UK,,415,230,290,935,140,M,SBD,Multi-ply
-1,E. Mohan,M1,40-44,USA,,365,207.5,320,892.5,140,M,SBD,Multi-ply
+1,Ed Mohan,M1,40-44,USA,,365,207.5,320,892.5,140,M,SBD,Multi-ply
 2,Bruce Greig,M1,40-44,Canada,,342.5,185,362.5,890,140,M,SBD,Multi-ply
 1,Brian Meek,M2,45-49,USA,,360,227.5,332.5,920,140,M,SBD,Multi-ply
 1,Larry Browning,M3,50-54,USA,,237.5,185,241,663.5,140,M,SBD,Multi-ply
