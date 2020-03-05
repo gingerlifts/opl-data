@@ -50,7 +50,7 @@ DQ,Michael Valk Karl,1994,Estonia,66,-160,-160,-160,,135,142.5,-150,142.5,195,-2
 2,Vladislav Shaibekov,1995,Russia,82.9,300,312.5,325,325,200,207.5,217.5,217.5,250,260,-270,260,802.5,83,Juniors,SBD,M,Single-ply
 3,Julian Schnurr,1994,Germany,82.9,262.5,275,282.5,282.5,190,195,200,200,260,272.5,282.5,282.5,765,83,Juniors,SBD,M,Single-ply
 4,Marcin Kapala,1992,Poland,82.5,275,285,-290,285,160,165,-170,165,250,257.5,-265,257.5,707.5,83,Juniors,SBD,M,Single-ply
-5,Mickel Dahl,1996,Denmark,82.9,255,-262.5,262.5,262.5,142.5,147.5,-150,147.5,270,-280,280,280,690,83,Juniors,SBD,M,Single-ply
+5,Mickel Dahl Flensborg,1996,Denmark,82.9,255,-262.5,262.5,262.5,142.5,147.5,-150,147.5,270,-280,280,280,690,83,Juniors,SBD,M,Single-ply
 6,Patryk Bolek,1994,Denmark,82.8,270,280,-287.5,280,157.5,-162.5,-162.5,157.5,245,-255,-255,245,682.5,83,Juniors,SBD,M,Single-ply
 1,Erik Gunhamn,1992,Sweden,92.4,305,312.5,320,320,207.5,-212.5,-212.5,207.5,335,347.5,370.5,370.5,898,93,Juniors,SBD,M,Single-ply
 2,Oleksandr Rubets,1996,Ukraine,91.6,335,352.5,360,360,-220,220,230,230,270,282.5,-285,282.5,872.5,93,Juniors,SBD,M,Single-ply
@@ -81,7 +81,7 @@ DD,Vasiliy Malashkin,1992,Russia,145.5,-365,-375,-375,,-260,-280,-285,,-305,-335
 2,Dakota Reich,1998,Austria,50,90,97.5,105,105,50,55,-57.5,55,115,125,130,130,290,52,Sub-Juniors,SBD,F,Single-ply
 3,Maria Bindac,1999,Romania,51.7,95,105,-110,105,55,60,62.5,62.5,105,117.5,122.5,122.5,290,52,Sub-Juniors,SBD,F,Single-ply
 1,Krystsina Shlykovich,1998,Belarus,56.1,120,130,140,140,57.5,62.5,-65,62.5,125,135,-140,135,337.5,57,Sub-Juniors,SBD,F,Single-ply
-2,Joanna Bialek,1999,Poland,56.6,100,110,-112.5,110,50,55,-57.5,55,90,102.5,107.5,107.5,272.5,57,Sub-Juniors,SBD,F,Single-ply
+2,Joanna Białek,1999,Poland,56.6,100,110,-112.5,110,50,55,-57.5,55,90,102.5,107.5,107.5,272.5,57,Sub-Juniors,SBD,F,Single-ply
 1,Sonja Stefanie Krüger,1999,Germany,60.6,-180,185,-195,185,85,-92.5,-95,85,130,140,-147.5,140,410,63,Sub-Juniors,SBD,F,Single-ply
 2,Kseniya Atamanova,1997,Russia,62.2,155,-162.5,-162.5,155,85,90,92.5,92.5,140,147.5,-150,147.5,395,63,Sub-Juniors,SBD,F,Single-ply
 3,Katsiaryna Miadzvetskaya,1998,Belarus,61.8,140,155,-157.5,155,60,67.5,72.5,72.5,125,-145,-150,125,352.5,63,Sub-Juniors,SBD,F,Single-ply
@@ -98,7 +98,7 @@ DD,Vasiliy Malashkin,1992,Russia,145.5,-365,-375,-375,,-260,-280,-285,,-305,-335
 2,Tetyana Shlopko,1996,Ukraine,46.6,135,-145,145,145,70,75,-77.5,75,120,-132.5,-132.5,120,340,47,Juniors,SBD,F,Single-ply
 3,Aleksandra Gerber,1995,Russia,46.7,117.5,127.5,-132.5,127.5,67.5,72.5,77.5,77.5,117.5,-127.5,-127.5,117.5,322.5,47,Juniors,SBD,F,Single-ply
 1,Karen Hesthammer,1994,Norway,51.3,152.5,162.5,-167.5,162.5,87.5,92.5,-95,92.5,145,155,160,160,415,52,Juniors,SBD,F,Single-ply
-2,Natalia Melnikova,1992,Russia,51.9,157.5,170,175,175,95,100,102.5,102.5,127.5,132.5,-135,132.5,410,52,Juniors,SBD,F,Single-ply
+2,Natalya Melnikova,1992,Russia,51.9,157.5,170,175,175,95,100,102.5,102.5,127.5,132.5,-135,132.5,410,52,Juniors,SBD,F,Single-ply
 3,Julie Fosseide,1992,Norway,52,137.5,-142.5,-142.5,137.5,72.5,77.5,80,80,127.5,135,142.5,142.5,360,52,Juniors,SBD,F,Single-ply
 4,Ganna Bezhevets,1995,Ukraine,52,130,-137.5,140,140,67.5,72.5,75,75,125,135,-147.5,135,350,52,Juniors,SBD,F,Single-ply
 5,Maria Balea,1996,Romania,50.9,85,92.5,97.5,97.5,65,-72.5,72.5,72.5,100,107.5,-112.5,107.5,277.5,52,Juniors,SBD,F,Single-ply
@@ -125,4 +125,4 @@ DD,Vasiliy Malashkin,1992,Russia,145.5,-365,-375,-375,,-260,-280,-285,,-305,-335
 3,Nadege Dechamps,1996,Belgium,83.1,175,185,195,195,122.5,-130,-135,122.5,150,165,170,170,487.5,84,Juniors,SBD,F,Single-ply
 4,Eva Nemeth,1995,Hungary,82.2,110,120,132.5,132.5,90,105,107.5,107.5,110,120,135,135,375,84,Juniors,SBD,F,Single-ply
 1,Maria Koteles,1992,Hungary,142.9,170,210,-220,210,127.5,165,175,175,165,175,185,185,570,84+,Juniors,SBD,F,Single-ply
-2,Monika Lovas,1994,Hungary,116.8,175,190,205,205,120,147.5,152.5,152.5,150,170,-182.5,170,527.5,84+,Juniors,SBD,F,Single-ply
+2,Mónika Lovas,1994,Hungary,116.8,175,190,205,205,120,147.5,152.5,152.5,150,170,-182.5,170,527.5,84+,Juniors,SBD,F,Single-ply

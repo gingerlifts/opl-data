@@ -49,7 +49,7 @@ Maarten Roelofs,,UT,D,Multi-ply,Class 1,M,140+,227.5,,,,227.5,2
 Leo Contreras,,CA,D,Multi-ply,Class 1,M,140+,182.5,,,,182.5,3
 Jonathan Jenkins,,MT,D,Multi-ply,Disabled,M,90,192.5,,,,192.5,1
 Gregory Gibson,,TN,D,Multi-ply,Disabled,M,90,137.5,,,,137.5,2
-Steve Peña,,CA,D,Multi-ply,Disabled,M,100,227.5,,,,227.5,1
+Steve Peña #1,,CA,D,Multi-ply,Disabled,M,100,227.5,,,,227.5,1
 Carl Mudge,,OR,D,Multi-ply,Disabled,M,100,185,,,,185,2
 Cody Colchado,,TX,D,Multi-ply,Disabled,M,110,260,,,,260,1
 Jeremy Scruggs,,TX,D,Multi-ply,Juniors 20-25,M,60,237.5,,,,237.5,1
@@ -63,7 +63,7 @@ Sean Carr,,IL,D,Multi-ply,Juniors 20-25,M,82.5,255,,,,255,2
 Joshua Reyes,,IL,D,Multi-ply,Juniors 20-25,M,82.5,222.5,,,,222.5,3
 Jonathan Olson,,UT,D,Multi-ply,Juniors 20-25,M,82.5,167.5,,,,167.5,4
 Jason Perez,,TX,D,Multi-ply,Juniors 20-25,M,90,262.5,,,,262.5,1
-Steven Mc Shane,,MI,D,Multi-ply,Juniors 20-25,M,90,260,,,,260,2
+Steven McShane,,MI,D,Multi-ply,Juniors 20-25,M,90,260,,,,260,2
 Ben Cantrell,,IL,D,Multi-ply,Juniors 20-25,M,90,250,,,,250,3
 Earl Solidum,,HI,D,Multi-ply,Juniors 20-25,M,90,250,,,,250,4
 Landon Cross,,IL,D,Multi-ply,Juniors 20-25,M,90,240,,,,240,5
@@ -86,8 +86,8 @@ Ted Ornduff,,CA,D,Multi-ply,Law-Fire 40-47,M,100,235,,,,235,1
 Ismyanto Soekardi,,CA,D,Multi-ply,Law-Fire 40-47,M,110,295,,,,295,1
 Allen Heta,New Zealand,,D,Multi-ply,Law-Fire 40-47,M,125,180,,,,180,1
 Manny Burruel,,CA,D,Multi-ply,Law-Fire 48-55,M,117.5,272.5,,,,272.5,1
-Wilbert Kaimikaua,,HI,D,Multi-ply,Law-Fire 56,M,100,170,,,,170,1
-Eldon Olson,,MT,D,Multi-ply,Law-Fire 56,M,117.5,182.5,,,,182.5,1
+Wilbert Kaimikaua,,HI,D,Multi-ply,Law-Fire 56+,M,100,170,,,,170,1
+Eldon Olson,,MT,D,Multi-ply,Law-Fire 56+,M,117.5,182.5,,,,182.5,1
 Leticia Rosales-Buie,,CA,D,Multi-ply,Law-Fire 40-47,F,56,130,,,,130,1
 Rauaroha Joy Heta,New Zealand,,D,Multi-ply,Law-Fire 40-47,F,90+,130,135,,,130,1
 Michael Garrett,,IL,D,Multi-ply,Law-Fire Open,M,90,277.5,,,,277.5,1
@@ -103,7 +103,7 @@ Ricardo Nort,Brazil,,D,Multi-ply,Law-Fire Open,M,140,310,,,,310,1
 Marcus Austin,,OK,D,Multi-ply,Law-Fire Open,M,140,245,,,,245,2
 Keoni Reich,,HI,D,Multi-ply,Law-Fire Open,M,140+,302.5,,,,302.5,1
 Chane Cline,,OH,D,Multi-ply,Law-Fire Open,M,140+,290,,,,290,2
-Lynda D. Christopher,,AZ,D,Multi-ply,Law-Fire Open,F,56,107.5,,,,107.5,1
+Lynda Christopher,,AZ,D,Multi-ply,Law-Fire Open,F,56,107.5,,,,107.5,1
 Kim Carter,,IL,D,Multi-ply,Law-Fire Open,F,67.5,142.5,,,,142.5,1
 Abigail Biddle,,IN,D,Multi-ply,Law-Fire Open,F,90,125,,,,125,1
 Alfred Jackson,,WA,D,Multi-ply,Law-Fire Submasters,M,75,260,,,,260,1
@@ -206,9 +206,9 @@ Thomas Wright,,NV,D,Multi-ply,Masters 54-60,M,110,185,,,,185,3
 Dan Harkins,,WA,D,Multi-ply,Masters 54-60,M,117.5,172.5,,,,172.5,1
 Tom Morgan,,AR,D,Multi-ply,Masters 54-60,M,125,237.5,,,,237.5,1
 Larry Pusateri,,PA,D,Multi-ply,Masters 54-60,M,125,180,,,,180,2
-Martin Montgomery,,IN,D,Multi-ply,Masters 61-67,M,75,220,,,,220,1
+Martin Montgomery,,IN,D,Single-ply,Masters 61-67,M,75,220,,,,220,1
 Moses Timbal,,HI,D,Multi-ply,Masters 61-67,M,75,217.5,,,,217.5,2
-James Christian,,TX,D,Multi-ply,Masters 61-67,M,75,212.5,,,,212.5,3
+James Christian #1,,TX,D,Multi-ply,Masters 61-67,M,75,212.5,,,,212.5,3
 Arlindo da Silva,Brazil,,D,Multi-ply,Masters 61-67,M,75,185,,,,185,4
 Thomas English,,NV,D,Multi-ply,Masters 61-67,M,75,132.5,,,,132.5,5
 Robert Krowech,,MN,D,Multi-ply,Masters 61-67,M,82.5,260,,,,260,1
@@ -234,7 +234,7 @@ Alexandra Vallejo,,CA,D,Multi-ply,Masters 40-46,F,44,127.5,,,,127.5,1
 Sandra Herring,,GA,D,Multi-ply,Masters 40-46,F,48,122.5,,,,122.5,1
 Suzanne Hedman,,CA,D,Multi-ply,Masters 40-46,F,52,147.5,,,,147.5,1
 Alison Barnhill,,CA,D,Multi-ply,Masters 40-46,F,56,142.5,,,,142.5,1
-Lynda D. Christopher,,AZ,D,Multi-ply,Masters 40-46,F,56,107.5,,,,107.5,2
+Lynda Christopher,,AZ,D,Multi-ply,Masters 40-46,F,56,107.5,,,,107.5,2
 Julane Jazzique,,CA,D,Multi-ply,Masters 40-46,F,60,105,,,,105,1
 Teresa Jacobs,,WA,D,Multi-ply,Masters 40-46,F,75,182.5,,,,182.5,1
 Eleanora Reeves,,TN,D,Multi-ply,Masters 40-46,F,82.5,165,,,,165,1
@@ -273,7 +273,7 @@ Jeremy Benezra,,WA,D,Multi-ply,Open,M,75,272.5,,,,272.5,3
 Richard Cirigliano,,CA,D,Multi-ply,Open,M,75,245,,,,245,4
 Andrew Kim,,IL,D,Multi-ply,Open,M,75,220,,,,220,5
 Aaron Benes,,CA,D,Multi-ply,Open,M,75,210,,,,210,6
-Tom Eiseman,,NJ,D,Multi-ply,Open,M,82.5,345,,,,345,1
+Tom Eiseman,,NJ,D,Single-ply,Open,M,82.5,345,,,,345,1
 Leamon Woodley,,WA,D,Multi-ply,Open,M,82.5,317.5,,,,317.5,2
 Sean Carr,,IL,D,Multi-ply,Open,M,82.5,255,,,,255,3
 Steve LeMarie,,LA,D,Multi-ply,Open,M,90,305,,,,305,1
@@ -395,7 +395,7 @@ Daniel Winslow,,ID,D,Multi-ply,Teen 16-19,M,100,275,,,,275,1
 Du Juan Calvo,,TX,D,Multi-ply,Teen 16-19,M,100,255,,,,255,2
 Andrew Garcia,,TX,D,Multi-ply,Teen 16-19,M,100,207.5,,,,207.5,3
 Simran Randhawa,,CA,D,Multi-ply,Teen 16-19,M,100,205,,,,205,4
-Adam Contreras,,CA,D,Multi-ply,Teen 16-19,M,100,170,,,,170,5
+Adam Contreras #1,,CA,D,Multi-ply,Teen 16-19,M,100,170,,,,170,5
 Tim Peterson,,CA,D,Multi-ply,Teen 16-19,M,110,265,,,,265,1
 Max McKee,,CA,D,Multi-ply,Teen 16-19,M,117.5,227.5,,,,227.5,1
 David Willaman,,OH,D,Multi-ply,Teen 16-19,M,125,235,,,,235,1
@@ -469,7 +469,7 @@ Travis McCormick,,OR,B,Multi-ply,Class 1,M,110,,,185,,185,5
 Jonathon Kos,,NV,B,Multi-ply,Class 1,M,110,,,145,,145,6
 Tom Pennella,,WA,B,Multi-ply,Class 1,M,117.5,,,215,,215,1
 Gene Loss,,OR,B,Multi-ply,Class 1,M,117.5,,,197.5,,197.5,2
-William John Bidinotto,,OH,B,Multi-ply,Class 1,M,117.5,,,185,,185,3
+Bill Bidinotto,,OH,B,Multi-ply,Class 1,M,117.5,,,185,,185,3
 Brad Cikana,,CA,B,Multi-ply,Class 1,M,125,,,242.5,,242.5,1
 Kenneth Scroggins,,AR,B,Multi-ply,Class 1,M,125,,,232.5,,232.5,2
 Terry Putman,,OK,B,Multi-ply,Class 1,M,125,,,207.5,,207.5,3
@@ -485,7 +485,7 @@ Anthony Kokell,,NY,B,Multi-ply,Disabled,M,82.5,,,107.5,,107.5,1
 Hector Montoya,,TX,B,Multi-ply,Disabled,M,90,,,170,,170,1
 Gregory Gibson,,TN,B,Multi-ply,Disabled,M,90,,,82.5,,82.5,2
 Jarnail Singh Birring,UK,,B,Multi-ply,Disabled,M,100,,,177.5,,177.5,1
-Sean Mc Grath,,NY,B,Multi-ply,Disabled,M,100,,,147.5,,147.5,2
+Sean McGrath,,NY,B,Multi-ply,Disabled,M,100,,,147.5,,147.5,2
 Dale West,,ID,B,Multi-ply,Disabled,M,100,,,145,,145,3
 Cody Colchado,,TX,B,Multi-ply,Disabled,M,110,,,202.5,,202.5,1
 Sally Thomas,Canada,,B,Multi-ply,Disabled,F,44,,,67.5,,67.5,1
@@ -499,10 +499,10 @@ Trey Jewett,,TX,B,Multi-ply,Elite Open,M,90,,,287.5,,287.5,1
 Gustavo Warrington,,OR,B,Multi-ply,Elite Open,M,90,,,257.5,,257.5,2
 Michael Green,,FL,B,Multi-ply,Elite Open,M,100,,,300,,300,1
 Kenneth Millrany,,TN,B,Multi-ply,Elite Open,M,100,,,260,,260,2
-Jason Jackson,,OK,B,Multi-ply,Elite Open,M,110,,,365,,365,1
-Mike Womack,,CA,B,Multi-ply,Elite Open,M,125,,,352.5,,352.5,1
+Jason Jackson #7,,OK,B,Multi-ply,Elite Open,M,110,,,365,,365,1
+Mike Womack #1,,CA,B,Single-ply,Elite Open,M,125,,,352.5,,352.5,1
 Tommy Harrison,,IL,B,Multi-ply,Elite Open,M,125,,,330,,330,2
-Tiny Meeker,,TX,B,Multi-ply,Elite Open,M,140,,,,,,DQ
+Tiny Meeker,,TX,B,Single-ply,Elite Open,M,140,,,,,,DQ
 Mark Lauricella,,CA,B,Multi-ply,Juniors 20-25,M,67.5,,,137.5,,137.5,1
 Andrew Kim,,IL,B,Multi-ply,Juniors 20-25,M,75,,,227.5,235,227.5,1
 Willard Crossen III,,WA,B,Multi-ply,Juniors 20-25,M,75,,,202.5,,202.5,2
@@ -532,7 +532,7 @@ Matt Bell,,IL,B,Multi-ply,Juniors 20-25,M,100,,,205,,205,4
 Kyle Herzik,,NV,B,Multi-ply,Juniors 20-25,M,100,,,185,,185,5
 Michael Minahan,,CA,B,Multi-ply,Juniors 20-25,M,100,,,160,,160,6
 Jonathon Kos,,NV,B,Multi-ply,Juniors 20-25,M,110,,,145,,145,1
-Mike Womack,,CA,B,Multi-ply,Juniors 20-25,M,125,,,352.5,,352.5,1
+Mike Womack #1,,CA,B,Single-ply,Juniors 20-25,M,125,,,352.5,,352.5,1
 Jerry Pritchett,,AZ,B,Multi-ply,Juniors 20-25,M,125,,,242.5,,242.5,2
 David McCoy,,IL,B,Multi-ply,Juniors 20-25,M,125,,,227.5,,227.5,3
 Josh Stevens,,GA,B,Multi-ply,Juniors 20-25,M,125,,,185,,185,4
@@ -550,11 +550,11 @@ Mike Berteaux,,CO,B,Multi-ply,Law-Fire 48-55,M,100,,,232.5,,232.5,1
 David Martinez #8,,CA,B,Multi-ply,Law-Fire 48-55,M,100,,,192.5,,192.5,2
 Bruce Sabin,,CA,B,Multi-ply,Law-Fire 48-55,M,140,,,245,,245,1
 Michal Johnson,,CA,B,Multi-ply,Law-Fire 48-55,M,140+,,,62.5,,62.5,1
-Jerry Dye,,CA,B,Multi-ply,Law-Fire 56,M,90,,,145,147.5,145,1
-Eldon Olson,,MT,B,Multi-ply,Law-Fire 56,M,117.5,,,167.5,,167.5,1
-Robert C. Lincoln,,CA,B,Multi-ply,Law-Fire 56,M,125,,,227.5,,227.5,1
+Jerry Dye,,CA,B,Multi-ply,Law-Fire 56+,M,90,,,145,147.5,145,1
+Eldon Olson,,MT,B,Multi-ply,Law-Fire 56+,M,117.5,,,167.5,,167.5,1
+Robert Lincoln,,CA,B,Multi-ply,Law-Fire 56+,M,125,,,227.5,,227.5,1
 Leticia Rosales-Buie,,CA,B,Multi-ply,Law-Fire 40-47,F,56,,,67.5,,67.5,1
-Daniele Mc Collum,,CA,B,Multi-ply,Law-Fire 40-47,F,75,,,112.5,,112.5,1
+Daniele McCollum,,CA,B,Multi-ply,Law-Fire 40-47,F,75,,,112.5,,112.5,1
 Rauaroha Joy Heta,New Zealand,,B,Multi-ply,Law-Fire 40-47,F,90+,,,70,,70,1
 Alfred Jackson,,WA,B,Multi-ply,Law-Fire Open,M,75,,,175,,175,1
 Mike Ryan,,MI,B,Multi-ply,Law-Fire Open,M,82.5,,,197.5,,197.5,1
@@ -565,7 +565,7 @@ David Bickerstaff,,TX,B,Multi-ply,Law-Fire Open,M,90,,,182.5,,182.5,3
 Tyler Tebbets,,WA,B,Multi-ply,Law-Fire Open,M,90,,,155,,155,4
 Sean Boyle,,WA,B,Multi-ply,Law-Fire Open,M,100,,,227.5,,227.5,1
 Andrew Porter,,CA,B,Multi-ply,Law-Fire Open,M,110,,,,,,DQ
-Jason Jackson,,OK,B,Multi-ply,Law-Fire Open,M,110,,,365,,365,1
+Jason Jackson #7,,OK,B,Multi-ply,Law-Fire Open,M,110,,,365,,365,1
 Richard Niemritz,,WA,B,Multi-ply,Law-Fire Open,M,110,,,220,,220,2
 Devin Tallerico,,CA,B,Multi-ply,Law-Fire Open,M,110,,,182.5,,182.5,3
 Marc Zingaro,,PA,B,Multi-ply,Law-Fire Open,M,117.5,,,295,,295,1
@@ -577,7 +577,7 @@ Ricardo Nort,Brazil,,B,Multi-ply,Law-Fire Open,M,140,,,262.5,,262.5,1
 Frank Sua,,WA,B,Multi-ply,Law-Fire Open,M,140,,,230,,230,2
 Marcus Austin,,OK,B,Multi-ply,Law-Fire Open,M,140,,,205,,205,3
 Chane Cline,,OH,B,Multi-ply,Law-Fire Open,M,140+,,,265,,265,1
-Lynda D. Christopher,,AZ,B,Multi-ply,Law-Fire Open,F,56,,,55,,55,1
+Lynda Christopher,,AZ,B,Multi-ply,Law-Fire Open,F,56,,,55,,55,1
 Laurie Lamp,,WA,B,Multi-ply,Law-Fire Open,F,60,,,87.5,,87.5,1
 Kim Carter,,IL,B,Multi-ply,Law-Fire Open,F,67.5,,,112.5,,112.5,1
 Abigail Biddle,,IN,B,Multi-ply,Law-Fire Open,F,90,,,62.5,,62.5,1
@@ -635,7 +635,7 @@ Richard Pichardo,,CA,B,Multi-ply,Masters 40-46,M,100,,,182.5,,182.5,10
 Steven Petersen,,TX,B,Multi-ply,Masters 40-46,M,100,,,172.5,,172.5,11
 John Pfeiffer,,OH,B,Multi-ply,Masters 40-46,M,100,,,150,,150,12
 Mike Healy,,CA,B,Multi-ply,Masters 40-46,M,100,,,,,,DQ
-Russell Kitani,,TX,B,Multi-ply,Masters 40-46,M,110,,,,,,DQ
+Russ Kitani,,TX,B,Multi-ply,Masters 40-46,M,110,,,,,,DQ
 Ed Macauley,,OR,B,Multi-ply,Masters 40-46,M,110,,,237.5,,237.5,1
 Kent Doerfler,,OR,B,Multi-ply,Masters 40-46,M,110,,,205,,205,2
 Cody Colchado,,TX,B,Multi-ply,Masters 40-46,M,110,,,202.5,,202.5,3
@@ -685,7 +685,7 @@ Chad Drecksel,,UT,B,Multi-ply,Masters 47-53,M,100,,,187.5,,187.5,4
 Al Kennedy,,IL,B,Multi-ply,Masters 47-53,M,100,,,172.5,,172.5,5
 Mauri Cole,,AR,B,Multi-ply,Masters 47-53,M,100,,,150,,150,6
 Clinton Sims,,CA,B,Multi-ply,Masters 47-53,M,110,,,252.5,,252.5,1
-Frank Mc Laughlin,,PA,B,Multi-ply,Masters 47-53,M,110,,,252.5,257.5,252.5,2
+Frank McLaughlin,,PA,B,Multi-ply,Masters 47-53,M,110,,,252.5,257.5,252.5,2
 Gary Stevens,,CA,B,Multi-ply,Masters 47-53,M,110,,,192.5,,192.5,3
 Ron L'Huillier,,MI,B,Multi-ply,Masters 47-53,M,110,,,165,,165,4
 Willard Crossen Jr,,WA,B,Multi-ply,Masters 47-53,M,117.5,,,250,,250,1
@@ -744,7 +744,7 @@ Thomas English,,NV,B,Multi-ply,Masters 61-67,M,75,,,112.5,,112.5,2
 Arlindo da Silva,Brazil,,B,Multi-ply,Masters 61-67,M,75,,,110,,110,3
 Rudy Lozano,,CA,B,Multi-ply,Masters 61-67,M,82.5,,,185,,185,1
 Michael Minietta,,NV,B,Multi-ply,Masters 61-67,M,82.5,,,147.5,,147.5,2
-Jerry Mc Camman,,CA,B,Multi-ply,Masters 61-67,M,82.5,,,140,,140,3
+Jerry McCamman,,CA,B,Multi-ply,Masters 61-67,M,82.5,,,140,,140,3
 George Hawkins,,CA,B,Multi-ply,Masters 61-67,M,82.5,,,112.5,,112.5,4
 Don Covello,,CA,B,Multi-ply,Masters 61-67,M,82.5,,,85,,85,5
 Jim Day,,TN,B,Multi-ply,Masters 61-67,M,90,,,80,,80,1
@@ -756,10 +756,10 @@ Terry Bunce,,OR,B,Multi-ply,Masters 61-67,M,100,,,135,,135,5
 Richard Zareck,,FL,B,Multi-ply,Masters 61-67,M,110,,,190,,190,1
 Daniel Smith III,,CA,B,Multi-ply,Masters 61-67,M,110,,,157.5,,157.5,2
 Ed Acey,,UT,B,Multi-ply,Masters 61-67,M,117.5,,,200,,200,1
-William John Bidinotto,,OH,B,Multi-ply,Masters 61-67,M,117.5,,,185,,185,2
+Bill Bidinotto,,OH,B,Multi-ply,Masters 61-67,M,117.5,,,185,,185,2
 Eldon Olson,,MT,B,Multi-ply,Masters 61-67,M,117.5,,,167.5,,167.5,3
 Mike Bonifield,,CA,B,Multi-ply,Masters 61-67,M,117.5,,,160,,160,4
-Robert O. Smith,Canada,,B,Multi-ply,Masters 61-67,M,140,,,232.5,,232.5,1
+Robert O. Smith,Canada,,B,Single-ply,Masters 61-67,M,140,,,232.5,,232.5,1
 Jim Merlino,,CA,B,Multi-ply,Masters 68-74,M,75,,,115,,115,1
 Bob Nussear,,FL,B,Multi-ply,Masters 68-74,M,75,,,110,,110,2
 Bill Tinkler,,FL,B,Multi-ply,Masters 68-74,M,75,,,105,,105,3
@@ -771,7 +771,7 @@ Donald Judd,,AZ,B,Multi-ply,Masters 68-74,M,90,,,65,,65,3
 Jim Bourisaw,,MO,B,Multi-ply,Masters 68-74,M,100,,,182.5,,182.5,1
 John Herbein,,PA,B,Multi-ply,Masters 68-74,M,100,,,120,,120,2
 Donald Lovas,,CA,B,Multi-ply,Masters 68-74,M,100,,,105,,105,3
-Danny Herrera,,CA,B,Multi-ply,Masters 68-74,M,117.5,,,195,200,195,1
+Dan Herrera,,CA,B,Multi-ply,Masters 68-74,M,117.5,,,195,200,195,1
 Robert Cortes,,CA,B,Single-ply,Masters 75-79,M,67.5,,,112.5,,112.5,1
 Richard Simon,,CA,B,Multi-ply,Masters 75-79,M,82.5,,,115,,115,1
 James Weiss,,CA,B,Multi-ply,Masters 75-79,M,90,,,90,,90,1
@@ -785,10 +785,10 @@ Alexandra Vallejo,,CA,B,Multi-ply,Masters 40-46,F,44,,,,,,DQ
 Sandra Herring,,GA,B,Multi-ply,Masters 40-46,F,48,,,57.5,,57.5,1
 Suzanne Hedman,,CA,B,Multi-ply,Masters 40-46,F,52,,,87.5,,87.5,1
 Alison Barnhill,,CA,B,Multi-ply,Masters 40-46,F,56,,,,,,DQ
-Lynda D. Christopher,,AZ,B,Multi-ply,Masters 40-46,F,56,,,55,,55,1
+Lynda Christopher,,AZ,B,Multi-ply,Masters 40-46,F,56,,,55,,55,1
 Laurie Lamp,,WA,B,Multi-ply,Masters 40-46,F,60,,,87.5,,87.5,1
 Julane Jazzique,,CA,B,Multi-ply,Masters 40-46,F,60,,,67.5,,67.5,2
-Daniele Mc Collum,,CA,B,Multi-ply,Masters 40-46,F,75,,,112.5,,112.5,1
+Daniele McCollum,,CA,B,Multi-ply,Masters 40-46,F,75,,,112.5,,112.5,1
 Teresa Jacobs,,WA,B,Multi-ply,Masters 40-46,F,75,,,105,,105,2
 Janet Hase,,CA,B,Multi-ply,Masters 40-46,F,82.5,,,,,,DQ
 Eleanora Reeves,,TN,B,Multi-ply,Masters 40-46,F,82.5,,,102.5,,102.5,1
@@ -855,7 +855,7 @@ Charles Phillips,,AL,B,Multi-ply,Open,M,90,,,207.5,,207.5,6
 David Militana,,TN,B,Multi-ply,Open,M,90,,,207.5,,207.5,7
 Nelson Callahan,,HI,B,Multi-ply,Open,M,90,,,197.5,,197.5,8
 Ahmed Abukhater,Palestine,,B,Multi-ply,Open,M,90,,,175,182.5,175,9
-Steve Peña,,CA,B,Multi-ply,Open,M,100,,,,,,DQ
+Steve Peña #1,,CA,B,Multi-ply,Open,M,100,,,,,,DQ
 Joe Guerra,,TX,B,Multi-ply,Open,M,100,,,257.5,,257.5,1
 Tatu Avola,Finland,,B,Multi-ply,Open,M,100,,,255,,255,2
 Doug Haycraft,,IL,B,Multi-ply,Open,M,100,,,255,,255,3
@@ -915,7 +915,7 @@ Michelle Ichiyama,,WA,B,Multi-ply,Open,F,90,,,127.5,,127.5,2
 Brooke Bourg,,LA,B,Multi-ply,Open,F,90,,,125,,125,3
 Susan Jackson,,WA,B,Multi-ply,Open,F,90,,,125,,125,4
 Heather Gibson,,UT,B,Multi-ply,Open,F,90,,,92.5,,92.5,5
-Lisa Miller,,IL,B,Multi-ply,Open,F,90+,,,187.5,,187.5,1
+Lisa Miller #3,,IL,B,Multi-ply,Open,F,90+,,,187.5,,187.5,1
 Kelly Franklin,,MN,B,Multi-ply,Open,F,90+,,,155,,155,2
 Nicole Marie Jones,,TX,B,Multi-ply,Open,F,90+,,,150,,150,3
 Tina Riley,,CA,B,Multi-ply,Open,F,90+,,,112.5,,112.5,4
@@ -946,7 +946,7 @@ John Mendoza,,AZ,B,Multi-ply,Submasters 33-39,M,100,,,245,,245,5
 Juan Laija,,CA,B,Multi-ply,Submasters 33-39,M,100,,,237.5,,237.5,6
 Delwin Chinn,,WA,B,Multi-ply,Submasters 33-39,M,100,,,205,,205,7
 Bruce Nichols,,NV,B,Multi-ply,Submasters 33-39,M,100,,,197.5,,197.5,8
-Sean Mc Grath,,NY,B,Multi-ply,Submasters 33-39,M,100,,,147.5,,147.5,9
+Sean McGrath,,NY,B,Multi-ply,Submasters 33-39,M,100,,,147.5,,147.5,9
 Dan Tubridy,,CA,B,Multi-ply,Submasters 33-39,M,110,,,,,,DQ
 Frank Wakakuwa,,HI,B,Multi-ply,Submasters 33-39,M,110,,,,,,DQ
 James Hunter,,CA,B,Multi-ply,Submasters 33-39,M,110,,,317.5,,317.5,1
@@ -955,15 +955,15 @@ Jim Casemier,,MI,B,Multi-ply,Submasters 33-39,M,110,,,185,,185,3
 Brian Gilman,,WA,B,Multi-ply,Submasters 33-39,M,110,,,140,,140,4
 Brandon Goda,,HI,B,Multi-ply,Submasters 33-39,M,117.5,,,,,,DQ
 Paul Fitschen,,WA,B,Multi-ply,Submasters 33-39,M,117.5,,,217.5,,217.5,1
-Robert Lincoln Jr,,CA,B,Multi-ply,Submasters 33-39,M,125,,,302.5,305.5,302.5,1
+Robert Lincoln,,CA,B,Multi-ply,Submasters 33-39,M,125,,,302.5,305.5,302.5,1
 Terry Gibson,,PA,B,Multi-ply,Submasters 33-39,M,125,,,300,,300,2
 Patrick Holloway,,AZ,B,Multi-ply,Submasters 33-39,M,125,,,295,,295,3
 Jeffrey Snyder,,TX,B,Multi-ply,Submasters 33-39,M,125,,,260,,260,4
 Jason Gibson,,UT,B,Multi-ply,Submasters 33-39,M,125,,,255,,255,5
 Clint Berey,,GA,B,Multi-ply,Submasters 33-39,M,125,,,235,,235,6
 Brandon Bankston,,LA,B,Multi-ply,Submasters 33-39,M,125,,,227.5,,227.5,7
-Tiny Meeker,,TX,B,Multi-ply,Submasters 33-39,M,140,,,,,,DQ
-Steve Wong,,CA,B,Multi-ply,Submasters 33-39,M,140,,,400,,400,1
+Tiny Meeker,,TX,B,Single-ply,Submasters 33-39,M,140,,,,,,DQ
+Steve Wong,,CA,B,Single-ply,Submasters 33-39,M,140,,,400,,400,1
 Robert Vick,,IL,B,Multi-ply,Submasters 33-39,M,140+,,,365,,365,1
 Scott Wesley Jordan,,AZ,B,Multi-ply,Submasters 33-39,M,140+,,,320,,320,2
 Roy Bradshaw,,CA,B,Multi-ply,Submasters 33-39,M,140+,,,320,,320,3
@@ -1022,7 +1022,7 @@ Hunter Beall,,LA,B,Multi-ply,Teen 16-19,M,90,,,147.5,,147.5,3
 Du Juan Calvo,,TX,B,Multi-ply,Teen 16-19,M,100,,,,,,DQ
 Andrew Garcia,,TX,B,Multi-ply,Teen 16-19,M,100,,,160,,160,1
 Joshua Gonnering,,AL,B,Multi-ply,Teen 16-19,M,100,,,145,,145,2
-Adam Contreras,,CA,B,Multi-ply,Teen 16-19,M,100,,,140,,140,3
+Adam Contreras #1,,CA,B,Multi-ply,Teen 16-19,M,100,,,140,,140,3
 Andrew Kimmel,,NV,B,Multi-ply,Teen 16-19,M,100,,,137.5,,137.5,4
 Jesse Fain,,GA,B,Multi-ply,Teen 16-19,M,110,,,207.5,,207.5,1
 Tim Peterson,,CA,B,Multi-ply,Teen 16-19,M,110,,,165,,165,2

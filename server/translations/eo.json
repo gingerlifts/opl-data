@@ -25,6 +25,7 @@
 		"records": "Rekordoj",
 		"meets": "Konkursoj",
 		"data": "Dataoj",
+		"apps": "Apps",
 		"status": "Projektstato",
 		"faq": "Respondaro",
 		"contact": "Kiel Kontakti",
@@ -53,9 +54,17 @@
 		"mcculloch": "MkKoloko",
 		"glossbrenner": "Gloss",
 		"ipfpoints": "IPF",
+		"dots": "Dots",
 		"num_lifters": "Kiom"
 	},
 	"country": {
+	    "africa": "Africa",
+	    "antarctica": "Antarctica",
+	    "asia": "Asia",
+	    "europe": "Europe",
+	    "south_america": "South America",
+	    "north_america": "North America",
+	    "oceania": "Oceania",
 	    "afghanistan": "Afganio",
             "albania": "Albanio",
 	    "algeria": "Alĝerio",
@@ -101,6 +110,7 @@
 	    "denmark": "Danio",
 	    "djibouti": "Ĝibutio",
 	    "dominicanrepublic": "Dominika Respubliko",
+	    "eastgermany": "East Germany",
 	    "easttimor": "Orienta Timoro",
 	    "ecuador": "Ekvadoro",
 	    "egypt": "Egiptio",
@@ -238,6 +248,10 @@
 	"buttons": {
 		"search": "Serĉu"
 	},
+	"labels": {
+		"sort": "Sort",
+		"category": "Category"
+	},
 	"selectors": {
 		"equipment": {
 			"raw": "Sen",
@@ -297,11 +311,14 @@
 			"all_tested": "Ĉiuj Forteguloj Kontraŭ-Drogaĉaj",
 			"international": "Internaciaj Federacioj",
 			"regional": "Regionaj Federacioj",
+			"continents": "Continents",
+			"countries": "Countries",
 			"all_usa": "Ĉiuj Usonaj Forteguloj",
 			"all_argentina": "Ĉiuj Argentinaj Forteguloj",
 			"all_australia": "Ĉiuj Aŭstraliaj Forteguloj",
 			"all_austria": "All Austrian Lifters",
 			"all_belarus": "All Belarusian Lifters",
+			"all_bosniaandherzegovina": "All Lifters from Bosnia and Herzegovina",
 			"all_brazil": "All Brazilian Lifters",
 			"all_canada": "Ĉiuj Kanadaj Forteguloj",
 			"all_chile": "All Chilean Lifters",
@@ -312,6 +329,7 @@
 			"all_denmark": "All Danish Lifters",
 			"all_finland": "Ĉiuj Finlandaj Forteguloj",
 			"all_france": "All French Lifters",
+			"all_georgia": "All Georgian Lifters",
 			"all_germany": "Ĉiuj Germaniaj Forteguloj",
 			"all_greece": "All Greek Lifters",
 			"all_hongkong": "All Hong Kong Lifters",
@@ -354,10 +372,20 @@
 			"all_uk": "Ĉiuj Unuiĝinto-Reĝlandaj Forteguloj",
 			"all_uk_tested": "All Tested UK Lifters",
 			"all_ukraine": "Ĉiuj Ukrainiaj Forteguloj",
-			"all_vietnam": "All Vietnamese Lifters"
+			"all_vietnam": "All Vietnamese Lifters",
+			"all_affiliates": "All Affiliates",
+			"all_internationals": "All Internationals"
 		},
 		"ageclass": {
-			"all": "Ĉiuj Aĝoj"
+			"all": "Ĉiuj Aĝoj",
+			"ipf_open": "Open",
+			"ipf_subjunior": "Sub-Junior",
+			"ipf_junior": "Junior",
+			"ipf_senior": "Senior",
+			"ipf_master1": "Master I",
+			"ipf_master2": "Master II",
+			"ipf_master3": "Master III",
+			"ipf_master4": "Master IV"
 		}
 	},
 	"lifter_page": {

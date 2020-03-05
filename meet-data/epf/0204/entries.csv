@@ -4,7 +4,7 @@ Place,Name,BirthYear,Country,WeightClassKg,BodyweightKg,Squat1Kg,Squat2Kg,Squat3
 2,Maria Szymkowiak,1961,Poland,52,51.85,-125,125,-135,125,65,70,-75,70,125,135,-140,135,330,F,Masters 1,SBD,Single-ply
 3,Daniela Casiraghi,1953,Italy,52,51.45,110,-120,-120,110,-60,60,65,65,125,135,-140,135,310,F,Masters 1,SBD,Single-ply
 4,Monika Bruder,1954,Germany,52,49.35,100,115,120,120,47.5,52.5,57.5,57.5,110,-122.5,-125,110,287.5,F,Masters 1,SBD,Single-ply
-1,Klothilde Bruder,1956,Germany,56,55.55,120,130,137.5,137.5,67.5,75,77.5,77.5,130,142.5,147.5,147.5,362.5,F,Masters 1,SBD,Single-ply
+1,Klothilde Herrmann,1956,Germany,56,55.55,120,130,137.5,137.5,67.5,75,77.5,77.5,130,142.5,147.5,147.5,362.5,F,Masters 1,SBD,Single-ply
 2,Svetlana Eremenko,1957,Russia,56,52.85,135,140,-145,140,57.5,65,67.5,67.5,137.5,150,-155,150,357.5,F,Masters 1,SBD,Single-ply
 1,Natalya Kashirina,1954,Russia,60,60,-150,152.5,-170,152.5,87.5,92.5,-95,92.5,165,180,188,188,432.5,F,Masters 1,SBD,Single-ply
 1,Donatella Beretta,1959,Italy,67.5,61.8,120,132.5,-140,132.5,70,-75,-75,70,155,170,-180,170,372.5,F,Masters 1,SBD,Single-ply
@@ -21,7 +21,7 @@ Place,Name,BirthYear,Country,WeightClassKg,BodyweightKg,Squat1Kg,Squat2Kg,Squat3
 1,Anatoliy Bochkovskyy,1954,Ukraine,60,60,195,210,217.5,217.5,-105,105,-110,105,225,-240,240,240,562.5,M,Masters 1,SBD,Single-ply
 2,Igor Sodunam,1960,Russia,60,57.05,135,-150,-150,135,80,92.5,-100,92.5,160,170,-180,170,397.5,M,Masters 1,SBD,Single-ply
 1,Jean-Luc Abitbol,1953,France,67.5,66.5,190,-197.5,,190,115,120,-125,120,200,215,-220,215,525,M,Masters 1,SBD,Single-ply
-1,Erik Rasmusen,1962,Denmark,75,74.85,210,220,225,225,-165,165,175,175,200,215,225,225,625,M,Masters 1,SBD,Single-ply
+1,Erik Rasmussen,1962,Denmark,75,74.85,210,220,225,225,-165,165,175,175,200,215,225,225,625,M,Masters 1,SBD,Single-ply
 2,Philippe Hernandez,1962,France,75,74.35,207.5,215,220,220,-122.5,122.5,-127.5,122.5,220,240,-250,240,582.5,M,Masters 1,SBD,Single-ply
 3,Michael Ramsey,1961,Germany,75,74.6,-180,180,-190,180,115,122.5,127.5,127.5,200,217.5,225,225,532.5,M,Masters 1,SBD,Single-ply
 4,Yuri Shumskikh,1953,Russia,75,73.85,180,200,210,210,-110,110,115,115,180,197.5,205,205,530,M,Masters 1,SBD,Single-ply
@@ -91,7 +91,7 @@ Place,Name,BirthYear,Country,WeightClassKg,BodyweightKg,Squat1Kg,Squat2Kg,Squat3
 2,Wilfried Häusler,1942,Germany,75,74,190,200,-205,200,115,120,122.5,122.5,200,207.5,212.5,212.5,535,M,Masters 3,SBD,Single-ply
 3,Vyacheslav Laptev,1940,Ukraine,75,73.6,-180,180,-190,180,-97.5,97.5,-105,97.5,185,192.5,-200,192.5,470,M,Masters 3,SBD,Single-ply
 4,Oleksandr Loginov,1938,Ukraine,75,74.05,150,160,165,165,90,95,-100,95,190,-200,,190,450,M,Masters 3,SBD,Single-ply
-5,Siargei Sirotka,1935,Belarus,75,74,-147.5,-147.5,147.5,147.5,-40,-40,40,40,160,180,-185,180,367.5,M,Masters 3,SBD,Single-ply
+5,Siarhei Sirotka,1935,Belarus,75,74,-147.5,-147.5,147.5,147.5,-40,-40,40,40,160,180,-185,180,367.5,M,Masters 3,SBD,Single-ply
 1,Alexander Kulikov,1941,Russia,82.5,80.85,-215,215,225,225,125,-135,135,135,220,235,255,255,615,M,Masters 3,SBD,Single-ply
 2,Pierre Gimbert,1939,France,82.5,81.7,210,225,235,235,125,130,-135,130,210,-220,-232.5,210,575,M,Masters 3,SBD,Single-ply
 3,Vyacheslav Terzov,1938,Russia,82.5,79.7,-200,200,220,220,100,110,-115,110,200,-210,210,210,540,M,Masters 3,SBD,Single-ply

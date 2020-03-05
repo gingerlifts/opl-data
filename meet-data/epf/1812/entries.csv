@@ -8,7 +8,7 @@ Place,Name,BirthYear,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchK
 4,Roman Bakhshiev,1993,Russia,65.98,185,-190,-192.5,185,185,66,Open,B,M,Single-ply
 5,Aaron Gideon,1980,UK,64.82,172.5,180,-190,180,180,66,Open,B,M,Single-ply
 6,Pawel Hadas,1993,Poland,63.99,172.5,-180,-180,172.5,172.5,66,Open,B,M,Single-ply
-7,Norbert Bekesi,1994,Hungary,64.74,100,125,130,130,130,66,Open,B,M,Single-ply
+7,Norbert Békési,1994,Hungary,64.74,100,125,130,130,130,66,Open,B,M,Single-ply
 1,Matti Christensen,1995,Denmark,74,-258,258,270,270,270,74,Open,B,M,Single-ply
 2,Andriy Balenkov,1981,Ukraine,73.73,240,-250,250,250,250,74,Open,B,M,Single-ply
 3,Alexander Eriksson,1994,Sweden,73.8,225,237.5,245,245,245,74,Open,B,M,Single-ply
@@ -30,7 +30,7 @@ DQ,Rafal Zalewski,1983,Poland,82.93,-265,-265,-265,,,83,Open,B,M,Single-ply
 5,Andy Champ,1983,UK,92.47,232.5,-240,-257.5,232.5,232.5,93,Open,B,M,Single-ply
 6,Michel Piron,1993,Luxembourg,87.2,187.5,192.5,-195,192.5,192.5,93,Open,B,M,Single-ply
 7,Denis Leider,1989,Luxembourg,90.5,-152.5,157.5,162.5,162.5,162.5,93,Open,B,M,Single-ply
-DQ,Michael Hildebrandt-Schwan,1984,Germany,92.12,-280,-280,-280,,,93,Open,B,M,Single-ply
+DQ,Michael Hildebrandt,1984,Germany,92.12,-280,-280,-280,,,93,Open,B,M,Single-ply
 1,Egor Savelev,1994,Russia,103.66,307.5,320,330,330,330,105,Open,B,M,Single-ply
 2,Aliaksei Stasevich,1986,Belarus,104.4,300,312.5,322.5,322.5,322.5,105,Open,B,M,Single-ply
 3,Ralf Male,1994,Norway,104.23,302.5,-307.5,312.5,312.5,312.5,105,Open,B,M,Single-ply
@@ -112,7 +112,7 @@ DQ,Tarmo Parna,1978,Estonia,113.18,-265,-265,-265,,,120,Masters 1,B,M,Single-ply
 DQ,Nicklas Karlsson,1969,Sweden,125.95,-265,-265,-265,,,120+,Masters 1,B,M,Single-ply
 DQ,Jan Pinc,1973,Czechia,127.51,-272.5,-272.5,-282.5,,,120+,Masters 1,B,M,Single-ply
 DQ,Örjan Dahl,1970,Sweden,147.81,-275,-275,-275,,,120+,Masters 1,B,M,Single-ply
-DQ,Jérome Guidez,1974,France,151.61,-310,-310,-320,,,120+,Masters 1,B,M,Single-ply
+DQ,Jérôme Guidez,1974,France,151.61,-310,-310,-320,,,120+,Masters 1,B,M,Single-ply
 1,Štefan Koľšovský,1961,Slovakia,58.41,135,142.5,-147.5,142.5,142.5,59,Masters 2,B,M,Single-ply
 2,Rimantas Sakeris,1963,Lithuania,58.18,60,65,-70,65,65,59,Masters 2,B,M,Single-ply
 1,Olivier Waymel,1966,France,60,185,-200.5,-200.5,185,185,66,Masters 2,B,M,Single-ply
@@ -219,13 +219,13 @@ DQ,Andrea Hammarström,1977,Sweden,62.71,-145,-145,-145,,,63,Open,B,F,Single-ply
 1,Matilda Vilmar,1996,Sweden,62.69,132.5,140,-158,140,140,63,Juniors,B,F,Single-ply
 2,Nadezhda Churilova,1996,Russia,61.65,115,-122.5,-127.5,115,115,63,Juniors,B,F,Single-ply
 3,Carina Kals,1996,Austria,61.83,82.5,-87.5,87.5,87.5,87.5,63,Juniors,B,F,Single-ply
-4,Monika Bako,1997,Hungary,58.43,60,67.5,-82.5,67.5,67.5,63,Juniors,B,F,Single-ply
+4,Mónika Bakó,1997,Hungary,58.43,60,67.5,-82.5,67.5,67.5,63,Juniors,B,F,Single-ply
 1,Engskar Marthe Ramsrud,1999,Norway,70.9,140,142.5,147.5,147.5,147.5,72,Juniors,B,F,Single-ply
 2,Anna Mikryukova,1999,Russia,67.39,130,137.5,-145,137.5,137.5,72,Juniors,B,F,Single-ply
 3,Julianna Löllö,1995,Finland,68.89,-127.5,127.5,130,130,130,72,Juniors,B,F,Single-ply
 4,Marie Hauschild,1995,Germany,71.22,-115,115,-130,115,115,72,Juniors,B,F,Single-ply
 DQ,Emma Johansson,1996,Sweden,67.02,-135,-137.5,-142.5,,,72,Juniors,B,F,Single-ply
-1,Dorthea Espevik Anna,1998,Norway,83.23,-165,165,172.5,172.5,172.5,84,Juniors,B,F,Single-ply
+1,Anna Dorthea Espevik,1998,Norway,83.23,-165,165,172.5,172.5,172.5,84,Juniors,B,F,Single-ply
 2,Jessika Lowe,1996,Sweden,75.41,132.5,135,142.5,142.5,142.5,84,Juniors,B,F,Single-ply
 3,Amalia Kazak,1995,Russia,82.79,-125,125,-137.5,125,125,84,Juniors,B,F,Single-ply
 4,Natália Mikulášová,1999,Slovakia,72.81,105,115,-125,115,115,84,Juniors,B,F,Single-ply
@@ -243,7 +243,7 @@ DQ,Emma Johansson,1996,Sweden,67.02,-135,-137.5,-142.5,,,72,Juniors,B,F,Single-p
 2,Michelle Brand,1973,UK,83.74,110,-115,115,115,115,84,Masters 1,B,F,Single-ply
 3,Pernilla Röhr,1972,Sweden,83.4,-112.5,-112.5,112.5,112.5,112.5,84,Masters 1,B,F,Single-ply
 4,Rebecca Williams,1976,UK,77.72,100,-105,-105,100,100,84,Masters 1,B,F,Single-ply
-1,Zeneta Skaviciene,1976,Lithuania,122.47,135,145,-152.5,145,145,84+,Masters 1,B,F,Single-ply
+1,Ženeta Skavičienė,1976,Lithuania,122.47,135,145,-152.5,145,145,84+,Masters 1,B,F,Single-ply
 2,Jacqueline Gough,1977,UK,149.6,145,-152.5,-152.5,145,145,84+,Masters 1,B,F,Single-ply
 3,Kelly Phasey,1976,UK,128.41,135,-145,-147.5,135,135,84+,Masters 1,B,F,Single-ply
 1,Nathalie Feraud,1967,France,50.03,-87.5,-87.5,87.5,87.5,87.5,52,Masters 2,B,F,Single-ply
@@ -251,7 +251,7 @@ DQ,Emma Johansson,1996,Sweden,67.02,-135,-137.5,-142.5,,,72,Juniors,B,F,Single-p
 1,Gabriela Hirner,1965,Germany,54.9,107.5,110,-115,110,110,57,Masters 2,B,F,Single-ply
 2,Angelina Mangione,1964,Belgium,54.58,72.5,75,-77.5,75,75,57,Masters 2,B,F,Single-ply
 3,Michelle Franklin,1966,UK,56.11,62.5,70,-77.5,70,70,57,Masters 2,B,F,Single-ply
-1,Marie France Cabos,1967,France,58.14,-87.5,87.5,-92.5,87.5,87.5,63,Masters 2,B,F,Single-ply
+1,Marie-France Cabos,1967,France,58.14,-87.5,87.5,-92.5,87.5,87.5,63,Masters 2,B,F,Single-ply
 1,Iris Kunkel,1964,Germany,70.46,110,112.5,-115,112.5,112.5,72,Masters 2,B,F,Single-ply
 2,Ursula Häuser,1960,Germany,69.85,75,82.5,90,90,90,72,Masters 2,B,F,Single-ply
 3,Jo Beck,1966,UK,71.63,67.5,72.5,-75,72.5,72.5,72,Masters 2,B,F,Single-ply

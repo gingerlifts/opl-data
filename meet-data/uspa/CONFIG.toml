@@ -1,4 +1,8 @@
 # USPA uses exact birthdays for their age classes.
+
+[options]
+    require_manual_disambiguation = true
+
 [divisions]
     open = {name = "Open", min = 0, max = 999}
     youth = {name = "Youth", min = 4, max = 12.5}
@@ -77,4 +81,5 @@
     0270 = ["ExemptWeightClassConsistency"] # LW,MW,HW weightclasses.
     0299 = ["ExemptWeightClassConsistency"] # 60kg & 60+kg women's classes.
     0476 = ["ExemptWeightClassConsistency"] # 125+kg class.
+    0584 = ["ExemptWeightClassConsistency"] # Mx lifter, haven't configured.
     0755 = ["ExemptWeightClassConsistency"] # Guest Youth lifters didn't weigh in.

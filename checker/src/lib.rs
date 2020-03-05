@@ -4,7 +4,6 @@ extern crate chrono; // Used to get the current date.
 extern crate coefficients; // Calculates points.
 extern crate colored; // Used to provide pretty output for debug modes.
 extern crate csv; // Provides CSV reading and writing.
-extern crate hashbrown; // A faster hash implementation (will become Rust default).
 extern crate opltypes; // Datatypes common to all OpenPowerlifting projects.
 #[macro_use]
 extern crate serde_derive; // Provides struct serialization and deserialization.
@@ -127,6 +126,7 @@ impl Report {
 pub fn check(
     meetdir: &Path,
     config: Option<&Config>,
+    lifterdata: Option<&LifterDataMap>,
 ) -> Result<CheckResult, Box<dyn Error>> {
     let mut acc = Vec::new();
 
@@ -141,6 +141,7 @@ pub fn check(
         meetdir.join("entries.csv"),
         meetresult.meet.as_ref(),
         config,
+        lifterdata,
     )?;
     if !entriesresult.report.messages.is_empty() {
         acc.push(entriesresult.report);

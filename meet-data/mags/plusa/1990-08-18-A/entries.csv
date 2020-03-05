@@ -1,6 +1,6 @@
 Name,WeightClassKg,Division,AgeRange,Sex,Age,Event,Squat1Kg,Squat2Kg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Place
 Max Peek #1,67.5,Masters,40-999,M,55,SBD,,,175,97.5,192.5,465,Single-ply,1
-J. Christian,75,Masters,40-999,M,44,SBD,,,202.5,122.5,250,575,Single-ply,1
+James Christian #1,75,Masters,40-999,M,44,SBD,,,202.5,122.5,250,575,Single-ply,1
 K. Hughes,75,Masters,40-999,M,51,SBD,,,197.5,97.5,185,480,Single-ply,2
 Mike VanCleave,82.5,Masters,40-999,M,44,SBD,,,265,137.5,245,647.5,Single-ply,1
 B. Corbin,90,Masters,40-999,M,50,SBD,,,210,142.5,227.5,580,Single-ply,1
@@ -48,7 +48,7 @@ T. Malone,90+,Open,,F,,SBD,,,,,,,Single-ply,DQ
 K. Mathews,60,Open,,M,,SBD,,,160,120,205,485,Single-ply,1
 D. Ahrens,67.5,Open,,M,,SBD,,,230,157.5,205,592.5,Single-ply,1
 T. Newman,75,Open,,M,,SBD,,,245,160,255,660,Single-ply,1
-T. Cruce,75,Open,,M,,SBD,,,227.5,137.5,240,605,Single-ply,2
+Terry Cruce,75,Open,,M,,SBD,,,227.5,137.5,240,605,Single-ply,2
 R. Morris,75,Open,,M,,SBD,,,227.5,127.5,212.5,567.5,Single-ply,3
 D. Scherer,75,Open,,M,,SBD,,,205,150,207.5,562.5,Single-ply,4
 L. Farrer,75,Open,,M,,SBD,,,,,,,Single-ply,DQ
@@ -63,7 +63,7 @@ Chris Garcia,100,Open,,M,,SBD,,,337.5,182.5,292.5,812.5,Single-ply,1
 J. Adams,100,Open,,M,,SBD,,,327.5,187.5,285,800,Single-ply,2
 T. An #1,100,Open,,M,,SBD,,,272.5,170,240,682.5,Single-ply,3
 W. Cooper,100,Open,,M,,SBD,,,227.5,150,295,672.5,Single-ply,4
-T. Bruner,100,Open,,M,,SBD,,,312.5,192.5,,,Single-ply,DQ
+Tim Bruner,100,Open,,M,,SBD,,,312.5,192.5,,,Single-ply,DQ
 B. Thomas,110,Open,,M,,SBD,,,307.5,197.5,297.5,802.5,Single-ply,1
 L. Hernandez,110,Open,,M,,SBD,,,295,212.5,287.5,795,Single-ply,2
 D. Raymond #2,110,Open,,M,,SBD,,,,,,,Single-ply,DQ
@@ -142,7 +142,7 @@ J. Young,90,Open,,M,,B,,,,185,,185,Single-ply,2
 Clifford King,100,Open,,M,,B,,,,185,,185,Single-ply,2
 T. An #1,100,Open,,M,,B,,,,170,,170,Single-ply,3
 T. Huckabay,100,Open,,M,,B,,,,152.5,,152.5,Single-ply,4
-T. Bruner,100,Open,,M,,B,,,,192.5,,192.5,Single-ply,1
+Tim Bruner,100,Open,,M,,B,,,,192.5,,192.5,Single-ply,1
 J. Shoemaker,100,Open,,M,,B,,,,137.5,,137.5,Single-ply,5
 T. Terry,100,Open,,M,,B,,,,132.5,,132.5,Single-ply,6
 M. Weigel,100,Open,,M,,B,,,,,,,Single-ply,DQ

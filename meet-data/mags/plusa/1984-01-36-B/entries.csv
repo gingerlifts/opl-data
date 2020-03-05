@@ -1,7 +1,7 @@
 Name,WeightClassKg,Sex,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Age,Place
 John Davis #5,52,M,Open,125,87.5,115,327.5,SBD,Single-ply,,1
 Brian Vales,56,M,Open,162.5,102.5,197.5,462.5,SBD,Single-ply,,1
-D. Devor,56,M,Open,170,97.5,172.5,440,SBD,Single-ply,,2
+Darrell Devor,56,M,Open,170,97.5,172.5,440,SBD,Single-ply,,2
 Rick Yates,60,M,Open,157.5,100,170,427.5,SBD,Single-ply,,1
 Don Hundley,75,M,Open,262.5,120,280,662.5,SBD,Single-ply,,1
 Mike Lechler,75,M,Open,272.5,147.5,237.5,657.5,SBD,Single-ply,,2
@@ -25,7 +25,7 @@ R. Gammage,100,M,Open,305,200,300,805,SBD,Single-ply,,2
 J. Hanchesky,100,M,Open,302.5,177.5,302.5,782.5,SBD,Single-ply,,3
 B. Missner,100,M,Open,287.5,192.5,280,760,SBD,Single-ply,,4
 Rick Cornett,100,M,Open,307.5,175,260,742.5,SBD,Single-ply,,5
-R. Smith,100,M,Open,272.5,177.5,252.5,702.5,SBD,Single-ply,,6
+Ross Smith,100,M,Open,272.5,177.5,252.5,702.5,SBD,Single-ply,,6
 G. Jarvie,100,M,Open,250,150,275,675,SBD,Single-ply,,7
 Ray Granger,100,M,Open,250,175,250,675,SBD,Single-ply,,8
 Buster Whitener,100,M,Open,,,,,SBD,Single-ply,,DQ
@@ -92,7 +92,7 @@ T. Hale,90,M,Below Class II,192.5,137.5,205,535,SBD,Single-ply,,7
 R. Curry,90,M,Below Class II,180,120,235,535,SBD,Single-ply,,8
 H. Killian,90,M,Below Class II,,,,,SBD,Single-ply,,DQ
 Jerry Bosken,100,M,Below Class II,250,170,287.5,707.5,SBD,Single-ply,,1
-M. Byrd,100,M,Below Class II,240,192.5,235,667.5,SBD,Single-ply,,2
+Mike Byrd,100,M,Below Class II,240,192.5,235,667.5,SBD,Single-ply,,2
 R. Derreberry,100,M,Below Class II,227.5,170,245,642.5,SBD,Single-ply,,3
 S. Parker,100,M,Below Class II,222.5,140,265,627.5,SBD,Single-ply,,4
 J. Nicoloudakis,100,M,Below Class II,220,170,237.5,627.5,SBD,Single-ply,,5

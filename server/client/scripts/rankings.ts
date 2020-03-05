@@ -55,6 +55,8 @@ declare const translation_column_wilks: string;
 declare const translation_column_mcculloch: string;
 declare const translation_column_glossbrenner: string;
 declare const translation_column_ipfpoints: string;
+declare const translation_column_dots: string;
+declare const translation_default_sort: string;
 
 let global_grid: any;  // The SlickGrid.
 let global_cache: any;  // The active RemoteCache rendered in the SlickGrid.
@@ -197,7 +199,10 @@ function selection_to_points_title(): string {
     if (sort === "by-ipf-points") {
         return translation_column_ipfpoints;
     }
-    return translation_column_wilks;
+    if (sort === "by-dots") {
+        return translation_column_dots;
+    }
+    return translation_default_sort;
 }
 
 // Returns a string like "/raw/uspa", or the empty string

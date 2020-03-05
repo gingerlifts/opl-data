@@ -25,6 +25,7 @@
 		"records": "Rekordy",
 		"meets": "Závody",
 		"data": "Data",
+		"apps": "Apps",
 		"status": "Stav projektu",
 		"faq": "Časté otázky",
 		"contact": "Kontakty",
@@ -53,9 +54,17 @@
 		"mcculloch": "McCulloch",
 		"glossbrenner": "Gloss",
 		"ipfpoints": "IPF",
+		"dots": "Dots",
 		"num_lifters": "Soutěžících"
 	},
 	"country": {
+	    "africa": "Africa",
+	    "antarctica": "Antarctica",
+	    "asia": "Asia",
+	    "europe": "Europe",
+	    "south_america": "South America",
+	    "north_america": "North America",
+	    "oceania": "Oceania",
 	    "afghanistan": "Afghánistán",
             "albania": "Albánie",
 	    "algeria": "Alžírsko",
@@ -101,6 +110,7 @@
 	    "denmark": "Dánsko",
 	    "djibouti": "Djibouti",
 	    "dominicanrepublic": "Dominikánská reublika",
+	    "eastgermany": "East Germany",
 	    "easttimor": "Západní Timor",
 	    "ecuador": "Equádor",
 	    "egypt": "Egypt",
@@ -238,6 +248,10 @@
 	"buttons": {
 		"search": "Vyhledat"
 	},
+	"labels": {
+		"sort": "Sort",
+		"category": "Category"
+	},
 	"selectors": {
 		"equipment": {
 			"raw": "Raw",
@@ -297,11 +311,14 @@
 			"all_tested": "Všichni testovaní soutěžící",
 			"international": "Mezinárodní",
 			"regional": "Regionální",
+			"continents": "Continents",
+			"countries": "Countries",
 			"all_usa": "Všichni američtí soutěžící",
 			"all_argentina": "Všichni argentinští soutěžící",
 			"all_australia": "Všichni australští soutěžící",
 			"all_austria": "All Austrian Lifters",
 			"all_belarus": "All Belarusian Lifters",
+			"all_bosniaandherzegovina": "All Lifters from Bosnia and Herzegovina",
 			"all_brazil": "All Brazilian Lifters",
 			"all_canada": "Všichni kanadští soutěžící",
 			"all_chile": "All Chilean Lifters",
@@ -312,6 +329,7 @@
 			"all_denmark": "All Danish Lifters",
 			"all_finland": "Všichni finští soutěžící",
 			"all_france": "Všichni francouzští soutěžící",
+			"all_georgia": "All Georgian Lifters",
 			"all_germany": "Všichni němečtí soutěžící",
 			"all_greece": "Všichni řečtí soutěžící",
 			"all_hongkong": "All Hong Kong Lifters",
@@ -354,10 +372,20 @@
 			"all_uk": "Všichni britští soutěžící",
 			"all_uk_tested": "Všichni testovaní britští soutěžící",
 			"all_ukraine": "Všichni ukrajinští soutěžící",
-			"all_vietnam": "All Vietnamese Lifters"
+			"all_vietnam": "All Vietnamese Lifters",
+			"all_affiliates": "All Affiliates",
+			"all_internationals": "All Internationals"
 		},
 		"ageclass": {
-			"all": "Všechny věkové kategorie"
+			"all": "Všechny věkové kategorie",
+			"ipf_open": "Open",
+			"ipf_subjunior": "Sub-Junior",
+			"ipf_junior": "Junior",
+			"ipf_senior": "Senior",
+			"ipf_master1": "Master I",
+			"ipf_master2": "Master II",
+			"ipf_master3": "Master III",
+			"ipf_master4": "Master IV"
 		}
 	},
 	"lifter_page": {

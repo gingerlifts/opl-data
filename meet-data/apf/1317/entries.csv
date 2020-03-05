@@ -12,7 +12,7 @@ Chris Gastaris,44,M,M_MR_1_AWPC,82,82.5,142.5,-152.5,-152.5,,142.5,142.5,B,1,Raw
 Cindy Costin-Fury,30,F,F_OR_WPC,87,90,65,67.5,-70.5,,67.5,67.5,B,1,Raw,
 Danny Rodriguez #1,27,M,M_OR_WPC,117.9,125,127.5,-132.5,137.5,,137.5,137.5,B,2,Raw,
 Eric Poplar,34,M,M_OR_AWPC,119.8,125,170,180,-185,,180,180,B,1,Raw,Yes
-Federick Shubayev,74,M,M_MR_7_WPC,89,90,-107.5,115,-125,,115,115,B,1,Raw,
+Frederick Shubayev,74,M,M_MR_7_WPC,89,90,-107.5,115,-125,,115,115,B,1,Raw,
 Galen Scott,51,M,M_MR_3_WPC,106.9,110,177.5,192.5,-200,,192.5,192.5,B,1,Raw,
 George Flikas,71,M,M_MR_7_AWPC,124.4,125,165,175,185,188,185,185,B,1,Raw,Yes
 Gerald Lindas,76,M,M_MR_8_AWPC,71.9,75,100,107.5,-110,,107.5,107.5,B,1,Raw,Yes
@@ -53,15 +53,15 @@ Tom Proya,58,M,M_MR_4_WPC,80.3,82.5,175,183,188,191,188,188,B,1,Raw,
 Wade Likens,40,M,M_MR_1_AWPC,138.2,140,-215,215,223.5,-232.5,223.5,223.5,B,1,Raw,Yes
 Wade Likens,40,M,M_OR_AWPC,138.2,140,-215,215,223.5,-232.5,223.5,223.5,B,1,Raw,Yes
 Zachary Zerkle,18,M,M_TR_3_WPC,156.6,140+,115,-125,125,,125,125,B,1,Raw,
-Adam James,28,M,M_OEM_AWPC,128.8,140,250,277.5,-295,,277.5,277.5,B,1,Multi-ply,Yes
+Adam James #1,28,M,M_OEM_AWPC,128.8,140,250,277.5,-295,,277.5,277.5,B,1,Multi-ply,Yes
 Brian King,42,M,M_MEM_1_WPC,99.1,100,-247.5,-247.5,-247.5,,,,B,DQ,Multi-ply,
 Chris Cole,34,M,M_OEM_WPC,136.9,140,310,-332.5,-332.5,,310,310,B,1,Multi-ply,
 Chris Cole,34,M,M_SEM_WPC,136.9,140,310,-332.5,-332.5,,310,310,B,1,Multi-ply,
 Clint Ewald,35,M,M_OEM_WPC,146.1,140+,-340,-365,-365,,,,B,DQ,Multi-ply,
 Clinton Harwood,40,M,M_MEM_1_AWPC,140.8,140+,-345,-345,-345,,,,B,DQ,Multi-ply,Yes
 Craig Wargo,49,M,M_MEM_2_WPC,73.1,75,-192.5,-192.5,-192.5,,,,B,DQ,Multi-ply,
-Dave Murphy,58,M,M_MEM_4_WPC,108.7,110,-215,215,-235,,215,215,B,1,Multi-ply,
-Dave Murphy,58,M,M_OEM_WPC,108.7,110,-215,215,-235,,215,215,B,3,Multi-ply,
+Dave Murphy #1,58,M,M_MEM_4_WPC,108.7,110,-215,215,-235,,215,215,B,1,Multi-ply,
+Dave Murphy #1,58,M,M_OEM_WPC,108.7,110,-215,215,-235,,215,215,B,3,Multi-ply,
 Dean Tullio,30,M,M_OEM_WPC,105.4,110,215,220,-227.5,,220,220,B,2,Multi-ply,
 Eric Stone,30,M,M_OEM_AWPC,73.4,75,157.5,-175,185,,185,185,B,1,Multi-ply,Yes
 Frank Fischetti,32,M,M_OEM_AWPC,109.5,110,-242.5,-242.5,-242.5,,,,B,DQ,Multi-ply,Yes

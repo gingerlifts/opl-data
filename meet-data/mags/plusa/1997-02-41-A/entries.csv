@@ -2,7 +2,7 @@ Name,WeightClassKg,Division,AgeRange,Sex,Best3SquatKg,Best3BenchKg,Best3Deadlift
 Sheldon Weingust,67.5,Open,,M,,150,,150,B,Single-ply,1
 T. Vo,67.5,Open,,M,,140,,140,B,Single-ply,2
 D. Pheak,67.5,Open,,M,,110,,110,B,Single-ply,3
-R. McCarthy,75,Open,,M,,192.5,,192.5,B,Single-ply,1
+Ralph McCarty,75,Open,,M,,192.5,,192.5,B,Single-ply,1
 G. Gutierrez,75,Open,,M,,177.5,,177.5,B,Single-ply,2
 J. Campos,75,Open,,M,,145,,145,B,Single-ply,3
 D. Gardner,75,Open,,M,,127.5,,127.5,B,Single-ply,4
@@ -10,8 +10,8 @@ T. Resurreccion,75,Open,,M,,122.5,,122.5,B,Single-ply,5
 B. Tevepaugh,75,Open,,M,,117.5,,117.5,B,Single-ply,6
 D. Shattuck,82.5,Open,,M,,190,,190,B,Single-ply,1
 Pete Wainscott,82.5,Open,,M,,147.5,,147.5,B,Single-ply,2
-D. Madere,90,Open,,M,,200,,200,B,Single-ply,1
-E. Wilkinson,90,Open,,M,,197.5,,197.5,B,Single-ply,2
+Donald Madere,90,Open,,M,,200,,200,B,Single-ply,1
+Ed Wilkinson,90,Open,,M,,197.5,,197.5,B,Single-ply,2
 E. Virella Jr,90,Open,,M,,190,,190,B,Single-ply,3
 D. Springer,90,Open,,M,,185,,185,B,Single-ply,4
 M. Lozano,90,Open,,M,,165,,165,B,Single-ply,5
@@ -21,13 +21,13 @@ T. Touchstone,100,Open,,M,,222.5,,222.5,B,Single-ply,1
 L. Hague,100,Open,,M,,165,,165,B,Single-ply,2
 C. Ballard,100,Open,,M,,165,,165,B,Single-ply,3
 E. Molina,100,Open,,M,,160,,160,B,Single-ply,4
-T. Bruner,110,Open,,M,,215,,215,B,Single-ply,1
+Tim Bruner,110,Open,,M,,215,,215,B,Single-ply,1
 J. Holl,110,Open,,M,,185,,185,B,Single-ply,2
 Flip Silva Jr,110,Open,,M,,175,,175,B,Single-ply,3
 R. Minica,110,Open,,M,,165,,165,B,Single-ply,4
 Tiny Meeker,125,Open,,M,,240,,240,B,Single-ply,1
 Michael Hayes,125+,Open,,M,,272.5,,272.5,B,Single-ply,1
-S. Woelk,125+,Open,,M,,245,,245,B,Single-ply,2
+Stephen Woelk,125+,Open,,M,,245,,245,B,Single-ply,2
 S. Bruce,125+,Open,,M,,217.5,,217.5,B,Single-ply,3
 Sheldon Weingust,67.5,Masters,40-999,M,,150,,150,B,Single-ply,1
 D. Gardner,75,Masters,40-999,M,,127.5,,127.5,B,Single-ply,1
@@ -88,7 +88,7 @@ Thuong Nguyen,52,Open,,M,182.5,107.5,195,485,SBD,Single-ply,1
 A. Galant,56,Open,,M,145,90,165,400,SBD,Single-ply,1
 C. Calderon,60,Open,,M,175,102.5,162.5,440,SBD,Single-ply,1
 Ralph McCarty,75,Open,,M,260,192.5,227.5,680,SBD,Single-ply,1
-D. Madere,90,Open,,M,272.5,200,257.5,730,SBD,Single-ply,1
+Donald Madere,90,Open,,M,272.5,200,257.5,730,SBD,Single-ply,1
 D. Pillitiere,90,Open,,M,272.5,165,282.5,720,SBD,Single-ply,2
 M. Rigsby,90,Open,,M,245,165,282.5,692.5,SBD,Single-ply,3
 J. Scott,90,Open,,M,240,150,287.5,677.5,SBD,Single-ply,4
@@ -102,7 +102,7 @@ B. Hufnagle,100,Open,,M,245,150,225,620,SBD,Single-ply,5
 Rich Stradtman,100,Open,,M,215,155,250,620,SBD,Single-ply,6
 Tim Bruner,110,Open,,M,310,215,322.5,847.5,SBD,Single-ply,1
 M. Simmons,110,Open,,M,322.5,182.5,305,810,SBD,Single-ply,2
-C. Garcia,110,Open,,M,332.5,137.5,282.5,752.5,SBD,Single-ply,3
+Chris Garcia,110,Open,,M,332.5,137.5,282.5,752.5,SBD,Single-ply,3
 Andy Meadows,110,Open,,M,300,185,255,740,SBD,Single-ply,4
 J. Holt,110,Open,,M,250,185,230,665,SBD,Single-ply,5
 Flip Silva Jr,110,Open,,M,227.5,175,227.5,630,SBD,Single-ply,6
@@ -128,7 +128,7 @@ Terry Gunn,100,Submasters,35-39,M,245,147.5,245,637.5,SBD,Single-ply,5
 K. Wilk,100,Submasters,35-39,M,227.5,150,237.5,615,SBD,Single-ply,6
 A. Sims,100,Submasters,35-39,M,212.5,145,227.5,585,SBD,Single-ply,7
 Tim Bruner,110,Submasters,35-39,M,310,215,322.5,847.5,SBD,Single-ply,1
-C. Garcia,110,Submasters,35-39,M,332.5,137.5,282.5,752.5,SBD,Single-ply,2
+Chris Garcia,110,Submasters,35-39,M,332.5,137.5,282.5,752.5,SBD,Single-ply,2
 K. Reed,110,Submasters,35-39,M,227.5,150,295,672.5,SBD,Single-ply,3
 R. Truelove,75,Teen,13-19,M,185,107.5,192.5,485,SBD,Single-ply,1
 F. Hernandez,82.5,Teen,13-19,M,182.5,130,205,517.5,SBD,Single-ply,1

@@ -1,6 +1,6 @@
 Name,Equipment,Division,Event,BodyweightKg,WeightClassKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Place
 Andrew Willard,Wraps,MOR,SBD,121.74,125,357.5,170,307.5,835,M,1
-Chris Lindsay,Wraps,MM1R-AD,SBD,59.24,60,182.5,90,205,477.5,M,1
+Chris Lindsay #1,Wraps,MM1R-AD,SBD,59.24,60,182.5,90,205,477.5,M,1
 James Reeves,Wraps,MJR,SBD,89.54,90,265,185,300,750,M,1
 Ben Pauli,Wraps,MOR,SBD,105.78,110,282.5,167.5,302.5,752.5,M,1
 Erin Janowicz,Wraps,FM1R-AD,SBD,59.69,60,117.5,52.5,155,325,F,1
@@ -22,7 +22,7 @@ Nicolas Barsuam,Raw,MOR,B,,,,35,,35,M,G
 Tim Hensley,Multi-ply,MO-AD,B,92.53,100,,365,,365,M,1
 John Wagner,Multi-ply,MM2,B,115.58,125,,247.5,,247.5,M,1
 Larry Brendel,Raw,MOR,B,114.94,125,,212.5,,212.5,M,1
-Dave Murphy,Multi-ply,MM5,B,109.41,110,,,,,M,DQ
+Dave Murphy #1,Multi-ply,MM5,B,109.41,110,,,,,M,DQ
 Tom Pearch,Multi-ply,MM2-AD,B,108.23,110,,202.5,,202.5,M,1
 Matt Ogurek,Multi-ply,MM1-AD,B,106.23,110,,217.5,,217.5,M,1
 Jose Mireles,Multi-ply,MO,B,104.14,110,,340,,340,M,1

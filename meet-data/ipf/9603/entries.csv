@@ -14,7 +14,7 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,BodyweightKg,Country,Best3SquatK
 7,67.5,F,Masters 1,Marie-Franc Baron,1951,55.5,France,115,70,155,340,SBD,Single-ply
 8,67.5,F,Masters 1,Irmeli Vaulakorpi,1954,54.4,Finland,127.5,67.5,120,315,SBD,Single-ply
 9,67.5,F,Masters 1,Ranza Kamalova,1937,55.7,Uzbekistan,120,52.5,132.5,305,SBD,Single-ply
-10,67.5,F,Masters 1,Tatiana Fomina,1946,63,Russia,145,57.5,135,337.5,SBD,Single-ply
+10,67.5,F,Masters 1,Tatyana Fomina,1946,63,Russia,145,57.5,135,337.5,SBD,Single-ply
 11,67.5,F,Masters 1,Chieko Inoue,1946,57.2,Japan,110,60,120,290,SBD,Single-ply
 1,67.5+,F,Masters 1,Inn Smirnova,1955,80,Russia,135,90,152.5,377.5,SBD,Single-ply
 2,67.5+,F,Masters 1,Eva Paulig,1954,74.1,Germany,115,95,140,350,SBD,Single-ply
@@ -35,7 +35,7 @@ DQ,67.5+,F,Masters 1,Nadej Kojevnikova,1949,69.5,Uzbekistan,,,,,SBD,Single-ply
 3,60,M,Masters 1,Burkhard Steffen,1950,59.9,Germany,172.5,117.5,170,460,SBD,Single-ply
 4,60,M,Masters 1,R.C. Joshi,1952,59.5,India,145,105,165,415,SBD,Single-ply
 DQ,60,M,Masters 1,Masahiro Yachi,1948,58.8,Japan,180,120,,,SBD,Single-ply
-1,67.5,M,Masters 1,Jacob Hansen,1949,67.2,Denmark,230,160,230,620,SBD,Single-ply
+1,67.5,M,Masters 1,Jakob Hansen,1949,67.2,Denmark,230,160,230,620,SBD,Single-ply
 2,67.5,M,Masters 1,Gennady Sayapin,1952,66.8,Russia,230,140,230,600,SBD,Single-ply
 3,67.5,M,Masters 1,Chyokichi Itoh,1950,65.1,Japan,215,135,230,580,SBD,Single-ply
 4,67.5,M,Masters 1,Krihan Kumar,1951,66.1,India,222.5,95,235,552.5,SBD,Single-ply
@@ -46,7 +46,7 @@ DQ,67.5,M,Masters 1,Mansur Mahmood,1953,63.1,Pakistan,120,70,,,SBD,Single-ply
 2,75,M,Masters 1,Indrajith Singh,1954,73.4,India,210,150,225,585,SBD,Single-ply
 3,75,M,Masters 1,Shinji Kawai,1954,73.1,Japan,210,140,225,575,SBD,Single-ply
 4,75,M,Masters 1,Pavel Schauer,1951,71.1,Czechia,160,80,180,420,SBD,Single-ply
-1,82.5,M,Masters 1,Valery Glazunov,1948,80.4,Russia,280,185,252.5,717.5,SBD,Single-ply
+1,82.5,M,Masters 1,Valeriy Glazunov,1948,80.4,Russia,280,185,252.5,717.5,SBD,Single-ply
 2,82.5,M,Masters 1,Engelbert Daris,1954,80.1,Austria,230,150,260,640,SBD,Single-ply
 3,82.5,M,Masters 1,Herbert Haas,1949,82.1,Austria,240,160,225,625,SBD,Single-ply
 4,82.5,M,Masters 1,Christian Buchs,1947,82.3,France,230,150,230,610,SBD,Single-ply
@@ -81,7 +81,7 @@ DQ,110,M,Masters 1,Ján Šiska,1955,109.7,Slovakia,,,,,SBD,Single-ply
 1,125,M,Masters 1,Eberhard Schwanke,1953,124.4,Germany,315,240,305,860,SBD,Single-ply
 2,125,M,Masters 1,Yuriy Bespalov,1956,123.6,Russia,300,217.5,292.5,810,SBD,Single-ply
 3,125,M,Masters 1,Oleksiy Rokochyy Jr,1951,117.5,Ukraine,262.5,172.5,290,725,SBD,Single-ply
-4,125,M,Masters 1,Kamaletd Panakhov,1949,110.2,Uzbekistan,260,170,250,680,SBD,Single-ply
+4,125,M,Masters 1,Kamal Pinekenstein,1949,110.2,Uzbekistan,260,170,250,680,SBD,Single-ply
 5,125,M,Masters 1,Jawad-Hafeez Butt,1955,121.8,Pakistan,180,90,180,450,SBD,Single-ply
 1,125+,M,Masters 1,Sergey Baranov,1956,132.2,Russia,335,205,270,810,SBD,Single-ply
 2,125+,M,Masters 1,Antonín Šota,1952,135.7,Czechia,300,215,287.5,802.5,SBD,Single-ply

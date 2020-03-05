@@ -68,14 +68,14 @@ M. Gentile,56,Submasters,35-39,M,147.5,147.5,D,Single-ply,1
 Pat Payne,60,Open,,M,227.5,227.5,D,Single-ply,1
 Mike Stagg,60,Open,,M,192.5,192.5,D,Single-ply,2
 R. Caputo,60,Open,,M,187.5,187.5,D,Single-ply,3
-J. Dibella,60,Lifetime,,M,207.5,207.5,D,Single-ply,1
+Joe DiBella,60,Lifetime,,M,207.5,207.5,D,Single-ply,1
 B. Chavez,60,Teen 14-15,14-15,M,122.5,122.5,D,Single-ply,1
 A. Caramko,60,Teen 14-15,14-15,M,112.5,112.5,D,Single-ply,2
 Derrek White,60,Teen 16-17,16-17,M,167.5,167.5,D,Single-ply,1
 M. Parrincllo,60,Teen 16-17,16-17,M,160,160,D,Single-ply,2
 A. Kenney,60,Teen 16-17,16-17,M,152.5,152.5,D,Single-ply,3
 B. Serrilella,60,Teen 16-17,16-17,M,132.5,132.5,D,Single-ply,4
-D. Costello,60,Submasters,35-39,M,155,155,D,Single-ply,1
+Dan Costello,60,Submasters,35-39,M,155,155,D,Single-ply,1
 Fred Glass,60,Masters 55-59,55-59,M,180,180,D,Single-ply,1
 Richard Nolan,60,Masters 65-69,65-69,M,132.5,132.5,D,Single-ply,1
 Nick Theodorou,67.5,Open,,M,237.5,237.5,D,Single-ply,1
@@ -110,7 +110,7 @@ C. Prokocimer,67.5,Masters 45-49,45-49,M,155,155,D,Single-ply,4
 Russ Dodson,67.5,Masters 50-54,50-54,M,172.5,172.5,D,Single-ply,1
 Mike Willett,75,Open,,M,272.5,272.5,D,Single-ply,1
 V. Lanza,75,Open,,M,255,255,D,Single-ply,2
-D. Wedding,75,Open,,M,237.5,237.5,D,Single-ply,3
+David Wedding,75,Open,,M,237.5,237.5,D,Single-ply,3
 J. Stratman,75,Open,,M,235,235,D,Single-ply,4
 G. Weber Jr,75,Open,,M,220,220,D,Single-ply,5
 F. Smith,75,Open,,M,220,220,D,Single-ply,6
@@ -119,13 +119,13 @@ R. Herbest,75,Open,,M,205,205,D,Single-ply,8
 F. Pagano,75,Open,,M,147.5,147.5,D,Single-ply,9
 Dave Reilly,75,Lifetime,,M,240,240,D,Single-ply,1
 Ken Buddle,75,Lifetime,,M,237.5,237.5,D,Single-ply,2
-Dave Wedding,75,Lifetime,,M,237.5,237.5,D,Single-ply,3
+David Wedding,75,Lifetime,,M,237.5,237.5,D,Single-ply,3
 R. Solo,75,Lifetime,,M,200,200,D,Single-ply,4
 L. Weizer,75,Lifetime,,M,200,200,D,Single-ply,5
 V. Cosenza,75,Lifetime,,M,192.5,192.5,D,Single-ply,6
 Bob Legg,75,Lifetime,,M,185,185,D,Single-ply,7
 A. Orlando,75,Lifetime,,M,182.5,182.5,D,Single-ply,8
-J. Gray,75,Teen 14-15,14-15,M,112.5,112.5,D,Single-ply,1
+J. Gray #2,75,Teen 14-15,14-15,M,112.5,112.5,D,Single-ply,1
 P. Dipaola,75,Teen 16-17,16-17,M,242.5,242.5,D,Single-ply,1
 C. Dascanio,75,Teen 16-17,16-17,M,227.5,227.5,D,Single-ply,2
 R. Rouson,75,Teen 16-17,16-17,M,172.5,172.5,D,Single-ply,3
@@ -133,7 +133,7 @@ Dan Waterman,75,Teen 18-19,18-19,M,190,190,D,Single-ply,1
 R. DeJeoin,75,Collegiate,,M,237.5,237.5,D,Single-ply,1
 J. Stratman,75,Collegiate,,M,235,235,D,Single-ply,2
 J. Rosato,75,Collegiate,,M,212.5,212.5,D,Single-ply,3
-D. Wedding,75,Police & Fire,,M,237.5,237.5,D,Single-ply,1
+David Wedding,75,Police & Fire,,M,237.5,237.5,D,Single-ply,1
 Bob Legg,75,Police & Fire,,M,185,185,D,Single-ply,2
 V. Lanza,75,Submasters,35-39,M,255,255,D,Single-ply,1
 E. Gillen,75,Submasters,35-39,M,242.5,242.5,D,Single-ply,2
@@ -176,7 +176,7 @@ S. Markwell,82.5,Teen 16-17,16-17,M,210,210,D,Single-ply,2
 J. Ghougasian,82.5,Teen 18-19,18-19,M,190,190,D,Single-ply,1
 Barry Ray,82.5,Collegiate,,M,295,295,D,Single-ply,1
 D. Faucett,82.5,Collegiate,,M,200,200,D,Single-ply,2
-T. Butler,82.5,Police & Fire,,M,245,245,D,Single-ply,1
+Ted Butler,82.5,Police & Fire,,M,245,245,D,Single-ply,1
 Jeff Rizzuto,82.5,Police & Fire,,M,230,230,D,Single-ply,2
 K. Lynch,82.5,Police & Fire,,M,187.5,187.5,D,Single-ply,3
 Jerry Szigethy,82.5,Submasters,35-39,M,292.5,292.5,D,Single-ply,1
@@ -189,7 +189,7 @@ Ted Butler,82.5,Masters 45-49,45-49,M,245,245,D,Single-ply,1
 Er. Johnson,82.5,Masters 45-49,45-49,M,205,205,D,Single-ply,2
 Robert DeRisi Sr,82.5,Masters 50-54,50-54,M,205,205,D,Single-ply,1
 Don Levesque,82.5,Masters 60-64,60-64,M,235,235,D,Single-ply,1
-D. Ginenthal,82.5,Masters 60-64,60-64,M,192.5,192.5,D,Single-ply,2
+David Ginenthal,82.5,Masters 60-64,60-64,M,192.5,192.5,D,Single-ply,2
 Ron Reuther,90,Open,,M,260,260,D,Single-ply,1
 N. Bryant,90,Open,,M,257.5,257.5,D,Single-ply,2
 S. Addison,90,Open,,M,257.5,257.5,D,Single-ply,3

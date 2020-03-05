@@ -33,7 +33,7 @@ Clifford Ferris,CA,D,Multi-ply,Masters 54-60,M,110,,,187.5,,187.5,1
 Thomas Wright,NV,D,Multi-ply,Masters 54-60,M,110,,,177.5,,177.5,2
 Robert Fornachon,CA,D,Multi-ply,Masters 75-79,M,75,,,87.5,,87.5,1
 James Weiss,CA,D,Multi-ply,Masters 75-79,M,100,,,100,110,100,1
-James Butler,CA,D,Multi-ply,Masters 80-84,M,67.5,,,60,63.5,60,1
+James Butler #2,CA,D,Multi-ply,Masters 80-84,M,67.5,,,60,63.5,60,1
 Desiree Brown,CA,D,Multi-ply,Masters 40-46,F,48,,,120,,120,1
 Silvia Maher,CA,D,Multi-ply,Masters 40-46,F,67.5,,,157.5,,157.5,1
 Julane Jazzique,CA,D,Multi-ply,Masters 40-46,F,67.5,,,95,,95,2
@@ -77,17 +77,17 @@ Bill Alex,CA,B,Multi-ply,Class 1,M,140,235,,,,235,1
 Jim Barnard,CA,B,Multi-ply,Class 1,M,140,217.5,,,,217.5,2
 Leo Scott,CA,B,Multi-ply,Class 1,M,140+,217.5,,,,217.5,1
 Roy Lamont,CA,B,Multi-ply,Class 1,M,140+,207.5,,,,207.5,2
-Joe Mc Lane,CA,B,Multi-ply,Disabled,M,110,170,,,,170,1
+Joe McLane,CA,B,Multi-ply,Disabled,M,110,170,,,,170,1
 Michael Hara,CA,B,Multi-ply,Elite Open,M,75,252.5,,,,252.5,1
-Steve Wong,CA,B,Multi-ply,Elite Open,M,140,,,,,,DQ
-Mike Womack,CA,B,Multi-ply,Elite Open,M,140,388,,,,388,1
+Steve Wong,CA,B,Single-ply,Elite Open,M,140,,,,,,DQ
+Mike Womack #1,CA,B,Single-ply,Elite Open,M,140,388,,,,388,1
 Joey Bareng,CA,B,Multi-ply,Juniors 20-25,M,60,153,157.5,,,153,1
 Mark Lauricella,CA,B,Multi-ply,Juniors 20-25,M,67.5,127.5,,,,127.5,1
 John Alves,CA,B,Multi-ply,Juniors 20-25,M,75,192.5,,,,192.5,1
 Vic Karpenko,CA,B,Multi-ply,Juniors 20-25,M,90,205,,,,205,1
 Michael Minahan,CA,B,Multi-ply,Juniors 20-25,M,100,160,,,,160,1
 Daniel Reeves,AZ,B,Multi-ply,Juniors 20-25,M,110,193,,,,193,1
-Mike Womack,CA,B,Multi-ply,Juniors 20-25,M,140,388,,,,388,1
+Mike Womack #1,CA,B,Multi-ply,Juniors 20-25,M,140,388,,,,388,1
 Erica Ansberry,CA,B,Multi-ply,Juniors 20-25,F,60,70,,,,70,1
 Kathleen Girard,CA,B,Multi-ply,Juniors 20-25,F,67.5,92.5,,,,92.5,1
 Lauren Vaterlaus,CA,B,Multi-ply,Juniors 20-25,F,82.5,,,,,,DQ
@@ -98,7 +98,7 @@ Manny Burruel,CA,B,Multi-ply,Law-Fire 48-55,M,117.5,167.5,,,,167.5,1
 Bruce Sabin,CA,B,Multi-ply,Law-Fire 48-55,M,140,240,260.5,,,240,1
 Michal Johnson,CA,B,Multi-ply,Law-Fire 48-55,M,140+,233.5,,,,233.5,1
 JC Tolle,CA,B,Multi-ply,Law-Fire Submasters,M,117.5,238.5,,,,238.5,1
-Daniele Mc Collum,CA,B,Multi-ply,Law-Fire Submasters,F,75,102.5,105,,,102.5,1
+Daniele McCollum,CA,B,Multi-ply,Law-Fire Submasters,F,75,102.5,105,,,102.5,1
 Barry Cavanaugh,CA,B,Multi-ply,Masters 40-46,M,90,,,,,,DQ
 Dan Peterson,CA,B,Multi-ply,Masters 40-46,M,100,,,,,,DQ
 Fil Dena III,NV,B,Multi-ply,Masters 40-46,M,100,202.5,,,,202.5,1
@@ -167,7 +167,7 @@ James Hunter,CA,B,Multi-ply,Submasters 33-39,M,117.5,290.5,303,,,290.5,1
 Roy Bradshaw,CA,B,Multi-ply,Submasters 33-39,M,140+,320,,,,320,1
 Roy Lamont,CA,B,Multi-ply,Submasters 33-39,M,140+,207.5,,,,207.5,2
 Mondae Nunes,CA,B,Multi-ply,Submasters 33-39,F,60,52.5,,,,52.5,1
-Daniele Mc Collum,CA,B,Multi-ply,Submasters 33-39,F,75,102.5,105,,,102.5,1
+Daniele McCollum,CA,B,Multi-ply,Submasters 33-39,F,75,102.5,105,,,102.5,1
 Disarie Spencer,CA,B,Multi-ply,Submasters 33-39,F,75,55,,,,55,2
 Cynthia Matulia,CA,B,Multi-ply,Submasters 33-39,F,90,95,,,,95,1
 Tina Riley,CA,B,Multi-ply,Submasters 33-39,F,90+,110,,,,110,1

@@ -11,7 +11,7 @@ Place,Name,BirthDate,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Bench1K
 1,Lee Steggles,,F_OEM_WPC,UK,62.2,180,,,,,107.5,,175,462.5,67.5,F,,1962,Multi-ply,SBD
 1,Eva Kusau,,F_MEM_6_WPC,Germany,64.8,85,,,,,55,,110,250,67.5,F,,1934,Multi-ply,SBD
 1,Rina Viljoen,,F_TEM_2_WPC,South Africa,75,110,,,,,50,,130,290,75,F,,,Multi-ply,SBD
-1,Kris Grandick,,F_OEM_WPC,USA,73.95,177.5,,,,,92.5,,182.5,452.5,75,F,,,Multi-ply,SBD
+1,Kristina Grandick,,F_OEM_WPC,USA,73.95,177.5,,,,,92.5,,182.5,452.5,75,F,,,Multi-ply,SBD
 1,Kim Pheifter,,F_SEM_WPC,USA,74,172.5,,,,,67.5,,155,395,75,F,,,Multi-ply,SBD
 1,Evelyn Schutte,,F_MEM_4_WPC,South Africa,74.6,155,,,,,90,,65,310,75,F,,,Multi-ply,SBD
 1,Krista Ford,,F_OEM_WPC,USA,82.5,227.5,,,,,132.5,,230,590,82.5,F,,1966,Multi-ply,SBD
@@ -50,7 +50,7 @@ Place,Name,BirthDate,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Bench1K
 4,Gerhard Van Niekerk,,M_MEM_1_WPC,South Africa,74.8,225,,,,,140,,200,565,75,M,,,Multi-ply,SBD
 1,Pieter De Waal #2,,M_MEM_2_WPC,South Africa,74.3,270,,,,,140,,260,670,75,M,,,Multi-ply,SBD
 2,Arthur Little,,M_MEM_2_WPC,USA,71.95,250,,,,,132.5,,260,642.5,75,M,,1955,Multi-ply,SBD
-1,Vincent Graham,,M_SEM_WPC,Canada,74.7,265,,,,,165,,247.5,677.5,75,M,,1964,Multi-ply,SBD
+1,Vince Graham,,M_SEM_WPC,Canada,74.7,265,,,,,165,,247.5,677.5,75,M,,1964,Multi-ply,SBD
 2,Eric Hoffmeyer,,M_SEM_WPC,South Africa,74.95,200,,,,,117.5,,225,542.5,75,M,,,Multi-ply,SBD
 1,Gordon Santee,,M_MEM_4_WPC,USA,74.6,192.5,,,,,142.5,,245,580,75,M,,1946,Multi-ply,SBD
 1,Richard Flores #1,,M_MEM_5_WPC,USA,74.05,227.5,,,,,120,,243,590.5,75,M,,1938,Multi-ply,SBD
@@ -254,7 +254,7 @@ Place,Name,BirthDate,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Bench1K
 1,Josef Nussbaumer,,M_MEM_3_WPC,Austria,118.85,,,205,215.5,,215.5,,,215.5,125,M,,1951,Multi-ply,B
 1,Jean-Marc Chenin,,M_SEM_WPC,France,111.7,,,,,,245,,,245,125,M,,1964,Multi-ply,B
 2,Vyacheslav Karkh,,M_SEM_WPC,Russia,121.35,,,,,,240,,,240,125,M,Вячеслав Карх,1967,Multi-ply,B
-1,Tom Holzapfel,,M_SEM_WPC,USA,118.7,,,192.5,200.5,205,205,,,205,125,M,,1964,Multi-ply,B
+1,Tom Holzapfel Sr,,M_OEM_WPC,USA,118.7,,,192.5,200.5,205,205,,,205,125,M,,1964,Multi-ply,B
 1,Scot Mendelson,,M_OEM_WPC,USA,133.6,,,320,335,,335,,,335,140,M,,1969,Multi-ply,B
 2,Holger Kuttroff,,M_OEM_WPC,Germany,141.2,,,,,,265,,,265,140+,M,,1969,Multi-ply,B
 1,Jurgen Pietz,,M_MEM_1_WPC,Germany,125.9,,,220,230,,230,,,230,140,M,,1957,Multi-ply,B

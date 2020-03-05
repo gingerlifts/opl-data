@@ -2,8 +2,8 @@ Name,Age,WeightClassKg,BodyweightKg,Division,Sex,Squat1Kg,Squat2Kg,Squat3Kg,Squa
 R. Green,,52,,Amateur Open,M,,,,,142.88,,,,79.38,,151.95,374.21,SBD,Multi-ply,1
 F. Keefer,,56,,Amateur Open,M,,,,,167.83,,,,120.2,,183.71,471.74,SBD,Multi-ply,1
 McCollum III,,56,,Amateur Open,M,,,,,,,,,124.74,,,124.74,B,Multi-ply,1
-J. Cooke,,60,,Amateur Open,M,,,,,154.22,,,,111.13,,204.12,469.47,SBD,Multi-ply,1
-Bill Jones,,67.5,,Amateur Open,M,,,,,229.06,,,,142.88,,210.92,582.86,SBD,Multi-ply,1
+John Cooke,,60,,Amateur Open,M,,,,,154.22,,,,111.13,,204.12,469.47,SBD,Multi-ply,1
+Bill Jones #1,,67.5,,Amateur Open,M,,,,,229.06,,,,142.88,,210.92,582.86,SBD,Multi-ply,1
 E. Frahm,,67.5,,Amateur Open,M,,,,,208.65,,,,127.01,,215.46,551.12,SBD,Multi-ply,2
 Darren Taylor,,67.5,,Amateur Open,M,,,,,213.19,,,,113.4,,219.99,546.58,SBD,Multi-ply,3
 Terry Shinault,,67.5,,Amateur Open,M,,,,,185.97,,,,120.2,,206.38,512.55,SBD,Multi-ply,4
@@ -13,31 +13,31 @@ J. Hawk,,67.5,,Amateur Open,M,,,,,147.42,,,,,,,,SBD,Multi-ply,DQ
 J. Robinson,,75,,Amateur Open,M,,,,,238.14,,,,131.54,,244.94,614.62,SBD,Multi-ply,1
 Dean Graybill,,75,,Amateur Open,M,,,,,231.33,,,,113.4,,215.46,560.19,SBD,Multi-ply,2
 K. Smith,,75,,Amateur Open,M,,,,,208.65,,,,124.74,,204.12,537.51,SBD,Multi-ply,3
-S. Shanebrook,,75,,Amateur Open,M,,,,,215.46,,,,129.27,,183.71,528.44,SBD,Multi-ply,4
+Steve Shanebrook,,75,,Amateur Open,M,,,,,215.46,,,,129.27,,183.71,528.44,SBD,Multi-ply,4
 D. Stamberg,,75,,Amateur Open,M,,,,,192.78,,,,117.93,,204.12,514.83,SBD,Multi-ply,5
 Tom Lavelle,,82.5,,Amateur Open,M,,,,,272.16,,,,188.24,,217.72,678.12,SBD,Multi-ply,1
 L. Giraldi,,82.5,,Amateur Open,M,,,,,254.01,,,,181.44,,231.33,666.78,SBD,Multi-ply,2
 D. Wallace,,82.5,,Amateur Open,M,,,,,274.42,,,,138.35,,242.67,655.44,SBD,Multi-ply,3
 M. Plescia,,82.5,,Amateur Open,M,,,,,240.4,,,,154.22,,233.6,628.22,SBD,Multi-ply,4
-R. Rolle,,82.5,,Amateur Open,M,,,,,238.14,,,,120.2,,226.8,585.14,SBD,Multi-ply,5
+Russell Rolle,,82.5,,Amateur Open,M,,,,,238.14,,,,120.2,,226.8,585.14,SBD,Multi-ply,5
 B. Lentz,,82.5,,Amateur Open,M,,,,,226.8,,,,129.27,,215.46,571.53,SBD,Multi-ply,6
 E. Bell,,82.5,,Amateur Open,M,,,,,190.51,,,,129.27,,226.8,546.58,SBD,Multi-ply,7
 R. Marshall,,82.5,,Amateur Open,M,,,,,172.37,,,,129.27,,219.99,521.63,SBD,Multi-ply,8
 V. Ferraluolo,,82.5,,Amateur Open,M,,,,,181.44,,,,99.79,,197.31,478.54,SBD,Multi-ply,9
 K. Spitzer,,90,,Amateur Open,M,,,,,242.67,,,,174.63,,226.8,644.1,SBD,Multi-ply,1
 P. Mercante,,90,,Amateur Open,M,,,,,229.06,,,,108.86,,217.72,555.64,SBD,Multi-ply,2
-R. McDonnell,,100,,Amateur Open,M,,,,,317.52,,,,192.78,,272.16,782.46,SBD,Multi-ply,1
+Russ McDonnell,,100,,Amateur Open,M,,,,,317.52,,,,192.78,,272.16,782.46,SBD,Multi-ply,1
 Matt Hawkins,,100,,Amateur Open,M,,,,,285.76,,,,165.56,,256.28,707.6,SBD,Multi-ply,2
 P. Nutter,,100,,Amateur Open,M,,,,,167.83,,,,102.06,,229.06,498.95,SBD,Multi-ply,3
 J. DeAugustino,,110,,Amateur Open,M,,,,,288.03,,,,210.92,,278.96,777.91,SBD,Multi-ply,1
-S. Pagtakhan,,110,,Amateur Open,M,,,,,272.16,,,,217.72,,272.16,762.04,SBD,Multi-ply,2
+Sherwin Pagtakhan,,110,,Amateur Open,M,,,,,272.16,,,,217.72,,272.16,762.04,SBD,Multi-ply,2
 C. Taylor,,110,,Amateur Open,M,,,,,249.48,,,,217.72,,226.8,694,SBD,Multi-ply,3
 C. Florio,,110,,Amateur Open,M,,,,,226.8,,,,99.79,,210.92,537.51,SBD,Multi-ply,4
 D. Farall,,125,,Amateur Open,M,,,,,272.16,,,,170.1,,258.55,700.81,SBD,Multi-ply,1
 J. Gilbert,,125,,Amateur Open,M,,,,,276.69,,,,176.9,,242.67,696.26,SBD,Multi-ply,2
 M. Czarnota,,125,,Amateur Open,M,,,,,249.48,,,,163.29,,274.42,687.19,SBD,Multi-ply,3
 B. Parks,,125,,Amateur Open,M,,,,,244.94,,,,179.17,,235.87,659.98,SBD,Multi-ply,4
-B. Pizzino,,125,,Amateur Open,M,,,,,208.65,,,,138.35,,181.44,528.44,SBD,Multi-ply,5
+Bill Pizzino,,125,,Amateur Open,M,,,,,208.65,,,,138.35,,181.44,528.44,SBD,Multi-ply,5
 Mike Bernardon,,140,,Amateur Open,M,,,,,349.27,,,,235.87,,294.84,879.98,SBD,Multi-ply,1
 Connie Newman,,44,,Amateur Open,F,,,,,86.18,,,,49.9,,95.25,231.33,SBD,Multi-ply,1
 Maria Bott,,48,,Amateur Open,F,,,,,120.2,,,,56.7,,108.86,285.76,SBD,Multi-ply,1
@@ -57,13 +57,13 @@ Greg Gibson,,82.5,,Amateur Teen 14-15,M,,,,,215.46,,,,158.76,,224.53,598.75,SBD,
 T. Hall,,82.5,,Amateur Teen 16-17,M,,,,,260.82,,,,142.88,,235.87,639.57,SBD,Multi-ply,1
 Angela Samtucci,,60,,Amateur Teen 16-17,F,,,,,138.35,,,,61.24,,136.08,335.67,SBD,Multi-ply,1
 D. Wallace,,82.5,,Amateur Submasters,M,,,,,274.42,,,,138.35,,242.67,655.44,SBD,Multi-ply,1
-R. Rolle,,82.5,,Amateur Submasters,M,,,,,238.14,,,,120.2,,226.8,585.14,SBD,Multi-ply,2
+Russell Rolle,,82.5,,Amateur Submasters,M,,,,,238.14,,,,120.2,,226.8,585.14,SBD,Multi-ply,2
 G. Lindsey,,82.5,,Amateur Submasters,M,,,,,210.92,,,,124.74,,219.99,555.65,SBD,Multi-ply,3
 R. McClary,,90,,Amateur Submasters,M,,,,,181.44,,,,145.15,,204.12,530.71,SBD,Multi-ply,1
 T. Island,,100,,Amateur Submasters,M,,,,,294.84,,,,142.88,,249.48,687.2,SBD,Multi-ply,1
 B. Lanthier,,100,,Amateur Submasters,M,,,,,260.82,,,,138.35,,263.08,662.25,SBD,Multi-ply,2
 T. Smoyer,,100,,Amateur Submasters,M,,,,,240.4,,,,170.1,,240.4,650.9,SBD,Multi-ply,3
-B. Calhoun,,110,,Amateur Submasters,M,,,,,306.18,,,,213.19,,265.35,784.72,SBD,Multi-ply,1
+Bob Calhoun,,110,,Amateur Submasters,M,,,,,306.18,,,,213.19,,265.35,784.72,SBD,Multi-ply,1
 Graham Bartholomew,,110,,Amateur Submasters,M,,,,,272.16,,,,163.29,,297.1,732.55,SBD,Multi-ply,2
 B. Cole,,75,,Amateur Masters 40-44,M,,,,,131.54,,,,86.18,,172.37,390.09,SBD,Multi-ply,1
 James Schmuck,,82.5,,Amateur Masters 50-54,M,,,,,235.87,,,,120.2,,217.72,573.79,SBD,Multi-ply,1
@@ -75,13 +75,13 @@ E. Hawkins,,90,,Amateur Masters 55-59,M,,,,,129.27,,,,156.49,,181.44,467.2,SBD,M
 Mac Richards,,90,,Amateur Masters 70-74,M,,,,,208.65,,,,142.88,,208.65,560.18,SBD,Multi-ply,1
 J. Moyer,,100,,Amateur Masters 40-44,M,,,,,192.78,,,,151.95,,226.8,571.53,SBD,Multi-ply,1
 P. Nutter,,100,,Amateur Masters 50-54,M,,,,,167.83,,,,102.06,,229.06,498.95,SBD,Multi-ply,1
-M. Ripple,,110,,Amateur Masters 40-44,M,,,,,272.16,,,,163.29,,256.28,691.73,SBD,Multi-ply,1
+Mike Ripple,,110,,Amateur Masters 40-44,M,,,,,272.16,,,,163.29,,256.28,691.73,SBD,Multi-ply,1
 L. Frazier,,110,,Amateur Masters 45-49,M,,,,,215.46,,,,163.29,,215.46,594.21,SBD,Multi-ply,1
 Miller Edwards,,110,,Amateur Masters 50-54,M,,,,,281.23,,,,174.63,,281.23,737.09,SBD,Multi-ply,1
 I. Hayes,,110,,Amateur Masters 50-54,M,,,,,192.78,,,,120.2,,190.51,503.49,SBD,Multi-ply,2
 Ralph Raiola,,125,,Amateur Masters 45-49,M,,,,,263.08,,,,151.95,,226.8,641.83,SBD,Multi-ply,1
 Mike Bernardon,,140,,Amateur Masters 40-44,M,,,,,349.27,,,,235.87,,294.84,879.98,SBD,Multi-ply,1
-J. Yates,,140,,Amateur Masters 40-44,M,,,,,272.16,,,,120.2,,208.65,601.01,SBD,Multi-ply,2
+Jim Yates,,140,,Amateur Masters 40-44,M,,,,,272.16,,,,120.2,,208.65,601.01,SBD,Multi-ply,2
 Connie Newman,,44,,Amateur Masters 45-49,F,,,,,86.18,,,,49.9,,95.25,231.33,SBD,Multi-ply,1
 Barbara Powers,,60,,Amateur Masters 45-49,F,,,,,129.27,,,,54.43,,122.47,306.17,SBD,Multi-ply,1
 Judy Tomaselli,,75,,Amateur Masters 40-44,F,,,,,163.29,,,,49.9,,156.49,369.68,SBD,Multi-ply,1
@@ -90,7 +90,7 @@ Leroy Morrow,,82.5,,Amateur Police,M,,,,,290.3,,,,170.1,,281.23,741.63,SBD,Multi
 L. Giraldi,,82.5,,Amateur Police,M,,,,,254.01,,,,181.44,,231.33,666.78,SBD,Multi-ply,2
 S. Smith #5,,100,,Amateur Police,M,,,,,297.1,,,,199.58,,249.48,746.16,SBD,Multi-ply,1
 P. Nutter,,100,,Amateur Police,M,,,,,167.83,,,,102.06,,229.06,498.95,SBD,Multi-ply,2
-B. Calhoun,,110,,Amateur Police,M,,,,,306.18,,,,213.19,,265.35,784.72,SBD,Multi-ply,1
+Bob Calhoun,,110,,Amateur Police,M,,,,,306.18,,,,213.19,,265.35,784.72,SBD,Multi-ply,1
 J. DeAugustino,,110,,Amateur Police,M,,,,,288.03,,,,210.92,,278.96,777.91,SBD,Multi-ply,2
 D. Farall,,125,,Amateur Police,M,,,,,272.16,,,,170.1,,258.55,700.81,SBD,Multi-ply,1
 T. Petit,,125,,Amateur Police,M,,,,,226.8,,,,172.37,,215.46,614.63,SBD,Multi-ply,2
@@ -112,7 +112,7 @@ Pat Susco,,100,,Pro Open,M,,,,,378.75,,,,185.97,,319.78,884.5,SBD,Multi-ply,1
 Greg Tayman,,100,,Pro Open,M,,,,,367.41,,,,201.85,,276.69,845.95,SBD,Multi-ply,2
 John Rooney #1,,100,,Pro Open,M,,,,,303.91,,,,181.44,,272.16,757.51,SBD,Multi-ply,3
 S. Smith #5,,100,,Pro Open,M,,,,,297.1,,,,199.58,,249.48,746.16,SBD,Multi-ply,4
-D. Althoff,,100,,Pro Open,M,,,,,285.76,,,,188.24,,260.82,734.82,SBD,Multi-ply,5
+David Althoff,,100,,Pro Open,M,,,,,285.76,,,,188.24,,260.82,734.82,SBD,Multi-ply,5
 P. DiDonna,,100,,Pro Open,M,,,,,299.37,,,,161.03,,226.8,687.2,SBD,Multi-ply,6
 D. Corradini,,100,,Pro Open,M,,,,,249.48,,,,181.44,,238.14,669.06,SBD,Multi-ply,7
 Carl Seeker,,110,,Pro Open,M,,,,,322.05,,,,222.26,,331.12,875.43,SBD,Multi-ply,1

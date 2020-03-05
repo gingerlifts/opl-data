@@ -20,7 +20,7 @@ WeightClassKg,Name,Sex,Division,Equipment,Event,BodyweightKg,Best3SquatKg,Best3B
 82.5,Andy Cusick,M,Open,Multi-ply,SBD,76.2,360.61,272.16,,,299.37,932.13,2
 82.5,Justin Hurley #2,M,Open,Multi-ply,SBD,79.61,374.21,249.48,,,299.37,923.06,3
 82.5,Mick Manley,M,Open,Multi-ply,SBD,81.87,349.27,208.65,,,333.39,891.31,4
-82.5,Mark Van Alstyne,M,Open,Multi-ply,SBD,82.12,331.12,217.72,,,272.16,821,5
+82.5,Mark VanAlstyne,M,Open,Multi-ply,SBD,82.12,331.12,217.72,,,272.16,821,5
 82.5,Frazer Munnery,M,Open,Multi-ply,SBD,78.02,319.78,190.51,,,258.55,768.84,6
 90,David Kirschen,M,Open,Multi-ply,SBD,89.92,365.14,297.1,,,278.96,941.2,1
 90,JJ Thomas,M,Open,Multi-ply,SBD,89.9,376.48,244.94,,,303.91,925.33,2
@@ -54,12 +54,12 @@ WeightClassKg,Name,Sex,Division,Equipment,Event,BodyweightKg,Best3SquatKg,Best3B
 140,Chris Janek,M,Open,Multi-ply,SBD,139.71,498.95,356.07,,,381.02,1236.04,1
 140,Allan Mehan,M,Open,Multi-ply,SBD,138.57,474,349.27,,,349.27,1172.54,2
 140,Derek Wade,M,Open,Multi-ply,SBD,136.53,453.59,326.59,,,335.66,1115.84,3
-140,Grizz Joey Rogers,M,Open,Multi-ply,SBD,135.62,396.89,331.12,,,278.96,1006.98,4
+140,Joey Rogers,M,Open,Multi-ply,SBD,135.62,396.89,331.12,,,278.96,1006.98,4
 140,Jesse Luczyk,M,Open,Multi-ply,SBD,136.98,442.25,,,,288.03,,DQ
 140,Corey Miceli,M,Open,Multi-ply,SBD,139.71,458.13,254.01,,,,,DQ
 140,Jonathan Byrd,M,Open,Multi-ply,SBD,139.71,460.4,,,,,,DQ
 140,Yevgen Yarymbash,M,Open,Multi-ply,SBD,138.35,519.36,,,,,,DQ
-140+,Chad Walker,M,Open,Multi-ply,SBD,149.28,483.08,340.19,,,358.34,1181.61,1
+140+,Chad Walker #1,M,Open,Multi-ply,SBD,149.28,483.08,340.19,,,358.34,1181.61,1
 140+,Jayson McNett,M,Open,Multi-ply,SBD,153.13,480.81,328.85,,,294.84,1104.5,2
 140+,Barzeen Vaziri,M,Open,Multi-ply,SBD,148.32,,,,,,,DQ
 140+,Henry Thomason,M,Open,Multi-ply,SBD,141.07,,,,,,,DQ
@@ -68,7 +68,7 @@ WeightClassKg,Name,Sex,Division,Equipment,Event,BodyweightKg,Best3SquatKg,Best3B
 ,Jimmy Kolb,M,HW,Multi-ply,B,106.59,,430.91,,,,430.91,1
 ,Jake Prazak,M,HW,Multi-ply,B,,,419.57,,,,419.57,2
 ,Matt Houser,M,HW,Multi-ply,B,,,412.77,,,,412.77,3
-,Mike Womack,M,HW,Multi-ply,B,,,390.09,,,,390.09,4
+,Mike Womack #1,M,HW,Multi-ply,B,,,390.09,,,,390.09,4
 ,Allen Baria,M,HW,Multi-ply,B,,,362.87,,,,362.87,5
 ,Tiny Meeker,M,HW,Multi-ply,B,,,,,,,,DQ
 ,Evgeniy Nechaev,M,LW,Multi-ply,B,,,340.19,,,,340.19,1

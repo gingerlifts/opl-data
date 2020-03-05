@@ -3,7 +3,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 1,Alexandra García,AL,60,56.8,16,85,37.5,115,237.5,F,Juniors 16-17,Raw,SBD
 1,Kristen Hutchins,AL,67.5,64.95,23,115,65,157.5,337.5,F,Juniors 20-23,Raw,SBD
 2,Stephanie Hinchey,AL,67.5,63.2,22,110,72.5,125,307.5,F,Juniors 20-23,Raw,SBD
-3,Jordan Alexander,AL,67.5,66.8,23,117.5,55,125,297.5,F,Juniors 20-23,Raw,SBD
+3,Jordan Alexander #1,AL,67.5,66.8,23,117.5,55,125,297.5,F,Juniors 20-23,Raw,SBD
 1,Erica Marcum,AL,75,68.65,17,87.5,42.5,105,235,F,Juniors 16-17,Raw,SBD
 1,Victoria Avery,AL,82.5,78.8,19,115,65,150,330,F,Juniors 18-19,Raw,SBD
 1,Rachel Hughes #2,AL,52,49.55,27,90,42.5,95,227.5,F,Open,Raw,SBD
@@ -11,7 +11,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 1,Tiffany Baker,AL,60,59.4,33,137.5,65,130,332.5,F,Open,Raw,SBD
 1,Kristen Hutchins,AL,67.5,64.95,23,115,65,157.5,337.5,F,Open,Raw,SBD
 2,Stephanie Hinchey,AL,67.5,63.2,22,110,72.5,125,307.5,F,Open,Raw,SBD
-3,Jordan Alexander,AL,67.5,66.8,23,117.5,55,125,297.5,F,Open,Raw,SBD
+3,Jordan Alexander #1,AL,67.5,66.8,23,117.5,55,125,297.5,F,Open,Raw,SBD
 4,Corey Burrage,AL,67.5,67.4,24,107.5,47.5,130,285,F,Open,Raw,SBD
 1,Valeria Anderson,AL,82.5,81.25,43,107.5,70,162.5,340,F,Open,Raw,SBD
 2,Victoria Avery,AL,82.5,78.8,19,115,65,150,330,F,Open,Raw,SBD
@@ -37,7 +37,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 1,Jesse Fain,NC,125,125,19,192.5,95,232.5,520,M,Juniors 18-19,Raw,SBD
 1,Austin Blair,AL,125,115.5,21,262.5,175,265,702.5,M,Juniors 20-23,Raw,SBD
 1,Marc Villlere,LA,140+,172.5,23,332.5,205,280,817.5,M,Juniors 20-23,Raw,SBD
-DQ,Chris Lentini,AL,75,73.35,41,202.5,,,,M,Open,Raw,SBD
+DQ,Chris Lentini #1,AL,75,73.35,41,202.5,,,,M,Open,Raw,SBD
 1,Wesley Walters,AL,82.5,80.05,24,232.5,145,262.5,640,M,Open,Raw,SBD
 2,Henri Burroughs,AL,82.5,76.55,28,212.5,132.5,250,595,M,Open,Raw,SBD
 3,Mitchell Hughes,AL,82.5,77.85,27,197.5,155,215,567.5,M,Open,Raw,SBD
@@ -58,7 +58,7 @@ DQ,Chris Lentini,AL,75,73.35,41,202.5,,,,M,Open,Raw,SBD
 1,Randal Wilson,AL,140+,160.8,24,260,182.5,250,692.5,M,Open,Raw,SBD
 1,Patrick Nix,AL,82.5,82.3,35,165,112.5,190,467.5,M,Submasters 35-39,Raw,SBD
 1,Jason Bailey,AL,100,98.95,37,227.5,150,225,602.5,M,Submasters 35-39,Raw,SBD
-DQ,Chris Lentini,AL,75,73.35,41,202.5,,,,M,Masters 40-44,Raw,SBD
+DQ,Chris Lentini #1,AL,75,73.35,41,202.5,,,,M,Masters 40-44,Raw,SBD
 1,Chris Webster,AL,100,99.5,41,205,137.5,242.5,585,M,Masters 40-44,Raw,SBD
 2,Danny Summers,AL,100,91.25,42,190,120,255,565,M,Masters 40-44,Raw,SBD
 1,Juan Carlos García,AL,110,101.3,46,187.5,120,205,512.5,M,Masters 45-49,Raw,SBD

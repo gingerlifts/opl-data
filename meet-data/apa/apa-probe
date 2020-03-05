@@ -6,7 +6,6 @@
 
 
 from bs4 import BeautifulSoup
-import datetime
 import os
 import sys
 
@@ -17,18 +16,11 @@ except ImportError:
         os.path.dirname(os.path.realpath(__file__)))), "scripts"))
     import oplprobe
 
-
-# URL needs updating every year.
-# Also be careful to check if there are any result links that don't contain
-# the string "results", since they won't get picked up by the script below.
-if datetime.datetime.now().strftime("%Y") != "2019":
-    print("Warning: APA fetch URL needs updating for new year.", file=sys.stderr)
-
 FEDDIR = os.path.dirname(os.path.realpath(__file__))
 URLS = [
-    "http://www.apa-wpa.com/APA/us-meet-results/2019-2/",
-    "http://www.apa-wpa.com/APA/us-meet-results/2018-2/",
-    "http://www.apa-wpa.com/APA/us-meet-results/2017-2/"
+    "https://www.apa-wpa.com/APA/us-meet-results/2011-2020/",
+    "https://www.apa-wpa.com/APA/us-meet-results/2000-2010/",
+    "https://www.apa-wpa.com/APA/us-meet-results/1987-1999/"
 ]
 BASEURL = "http://www.apa-wpa.com/"
 
@@ -49,13 +41,13 @@ def getmeetlist(html):
     urls = []
     for a in entry_content.find_all('a'):
         url = a['href']
-        if 'http://' not in url:
+        if 'http://' not in url and 'https://www.apa-wpa.com/' not in url:
             if url.startswith('/'):
                 url = BASEURL + url[1:]
             else:
                 url = BASEURL + url
 
-        if url not in urls:
+        if url not in urls and 'wpa-ukraine.com' not in url:
             urls.append(url)
 
     return urls
@@ -71,7 +63,6 @@ def main():
     unentered = oplprobe.getunenteredurls(meetlist, entered)
 
     oplprobe.print_meets(color('[APA]'), unentered)
-    print(color('[APA] ') + "Continue working through archive.")
 
 
 if __name__ == '__main__':

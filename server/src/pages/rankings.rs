@@ -28,6 +28,7 @@ pub struct Context<'db, 'a> {
     pub strings: &'db langpack::Translations,
     pub units: opltypes::WeightUnits,
     pub selection: &'a Selection,
+    pub default_selection: &'a Selection,
     pub data: String,
 }
 
@@ -36,9 +37,23 @@ impl<'db, 'a> Context<'db, 'a> {
         opldb: &'db opldb::OplDb,
         locale: &'db langpack::Locale<'a>,
         selection: &'a Selection,
+        defaults: &'a Selection,
+        use_ipf_equipment: bool,
     ) -> Option<Context<'db, 'a>> {
         // Inline the top 100 to avoid another round-trip.
-        let slice = get_slice(&opldb, &locale, &selection, 0, 99);
+        let mut slice = get_slice(&opldb, &locale, &selection, &defaults, 0, 99);
+
+        // If this is for the IPF, use different names for some equipment.
+        if use_ipf_equipment {
+            for row in &mut slice.rows {
+                if row.equipment == &locale.strings.equipment.raw {
+                    row.equipment = &locale.strings.equipment.classic;
+                }
+                if row.equipment == &locale.strings.equipment.single {
+                    row.equipment = &locale.strings.equipment.equipped;
+                }
+            }
+        }
 
         Some(Context {
             urlprefix: "/",
@@ -48,6 +63,7 @@ impl<'db, 'a> Context<'db, 'a> {
             strings: locale.strings,
             units: locale.units,
             selection,
+            default_selection: defaults,
             data: serde_json::to_string(&slice).ok()?,
         })
     }

@@ -95,7 +95,7 @@ Ross Arnold,65,M,M_MR_6_WPC,Raw,102.8,110,,,,,,125,135,140,142.5,140,,,,,,140,1,
 Evgeny Vyborov,72,M,M_MR_7_WPC,Raw,69.8,75,,,,,,70,80,90,,90,,,,,,90,1,Russia,B
 Peter Hermann,70,M,M_MR_7_WPC,Raw,79,82.5,,,,,,105,110,-112.5,,110,,,,,,110,1,Switzerland,B
 Aleksandr Tkachuk,72,M,M_MR_7_WPC,Raw,79.8,82.5,,,,,,-95,100,-105,,100,,,,,,100,2,Russia,B
-Fredrick Shubayev,73,M,M_MR_7_WPC,Raw,87,90,,,,,,107.5,115,-120,,115,,,,,,115,1,USA,B
+Frederick Shubayev,73,M,M_MR_7_WPC,Raw,87,90,,,,,,107.5,115,-120,,115,,,,,,115,1,USA,B
 Leon Barry,72,M,M_MR_7_WPC,Raw,100,100,,,,,,137.5,142.5,-147.5,,142.5,,,,,,142.5,1,USA,B
 Iosif Plagov,77,M,M_MR_8_WPC,Raw,65.2,67.5,,,,,,80,-90,90,-92.5,90,,,,,,90,1,USA,B
 Ian Scott,75,M,M_MR_8_WPC,Raw,78.8,82.5,,,,,,102.5,105,-107.5,,105,,,,,,105,1,USA,B
@@ -168,7 +168,7 @@ Gerrit Scheel,21,M,M_JEM_WPC,Multi-ply,77.6,82.5,,,,,,160,-165,165,,165,,,,,,165
 Kalle Räsänen,22,M,M_JEM_WPC,Multi-ply,90,90,,,,,,200,,,,200,,,,,,200,1,Finland,B
 Marcus Heuer,20,M,M_JEM_WPC,Multi-ply,99.2,100,,,,,,-270,-270,-277.5,,,,,,,,,DQ,Germany,B
 Máté Szilágyi,21,M,M_JEM_WPC,Multi-ply,96.6,100,,,,,,275,-290,-290,,275,,,,,,275,1,Hungary,B
-Serhii Ivanov,22,M,M_JEM_WPC,Multi-ply,102.2,110,,,,,,-280,280,-290,,280,,,,,,280,1,Ukraine,B
+Sergiy Ivanov,22,M,M_JEM_WPC,Multi-ply,102.2,110,,,,,,-280,280,-290,,280,,,,,,280,1,Ukraine,B
 Oskari Lehtinen,23,M,M_JEM_WPC,Multi-ply,107.4,110,,,,,,280,-290,-290,,280,,,,,,280,2,Finland,B
 Laszlo Tamas,21,M,M_JEM_WPC,Multi-ply,113.8,125,,,,,,220,-230,-230,,220,,,,,,220,1,Hungary,B
 Robert Vogelsang,22,M,M_JEM_WPC,Multi-ply,119.8,125,,,,,,-165,165,-180,,165,,,,,,165,2,USA,B
@@ -227,7 +227,7 @@ Evgeny Basov,57,M,M_MEM_4_WPC,Multi-ply,89.2,90,,,,,,155,-170,175,,175,,,,,,175,
 Bruce McIntyre,55,M,M_MEM_4_WPC,Multi-ply,97.6,100,,,,,,-222.5,-222.5,,,,,,,,,,DQ,Canada,B
 Kalimulla Murzakhanov,57,M,M_MEM_4_WPC,Multi-ply,99.2,100,,,,,,200,-205,-205,,200,,,,,,200,1,Russia,B
 Joe Smolinski,57,M,M_MEM_4_WPC,Multi-ply,108.2,110,,,,,,-285,-285,,,,,,,,,,DQ,USA,B
-Dave Murphy,57,M,M_MEM_4_WPC,Multi-ply,113,125,,,,,,-235,-235,-320,,,,,,,,,DQ,USA,B
+Dave Murphy #1,57,M,M_MEM_4_WPC,Multi-ply,113,125,,,,,,-235,-235,-320,,,,,,,,,DQ,USA,B
 Gary Bobrovitz,60,M,M_MEM_5_WPC,Multi-ply,64.4,67.5,,,,,,125,132.5,135,137.5,135,,,,,,135,1,Canada,B
 Klaus Krüger,60,M,M_MEM_5_WPC,Multi-ply,88.2,90,,,,,,175,185,190,,190,,,,,,190,1,Germany,B
 Ulrich Vetter,60,M,M_MEM_5_WPC,Multi-ply,103.8,110,,,,,,190,200,205,,205,,,,,,205,1,Germany,B
@@ -280,7 +280,7 @@ Scot Mendelson,,M,M_OEM_WPC,Multi-ply,143.6,140+,,,,,,-452.5,-470,-470,,,,,,,,,D
 Oleksandr Gonchar,34,M,M_OEM_WPC,Multi-ply,147.8,140+,,,,,,350,355,362.5,,362.5,,,,,,362.5,1,Ukraine,B
 Ilkka Lukkarinen,24,M,M_OEM_WPC,Multi-ply,144.2,140+,,,,,,350,-360,-362.5,,350,,,,,,350,2,Finland,B
 Jiří Havrda,38,M,M_OEM_WPC,Multi-ply,145.6,140+,,,,,,320,-342.5,-355,,320,,,,,,320,3,Czechia,B
-William Damon Dixon,34,M,M_OEM_WPC,Multi-ply,175,140+,,,,,,-265,265,-300,,265,,,,,,265,4,USA,B
+Damon Dixon,34,M,M_OEM_WPC,Multi-ply,175,140+,,,,,,-265,265,-300,,265,,,,,,265,4,USA,B
 Martin Hajdu,17,M,M_TEM_2_WPC,Multi-ply,67.2,67.5,,,,,,130,140,-150,,140,,,,,,140,1,Hungary,B
 Gergő Vakarcs,16,M,M_TEM_2_WPC,Multi-ply,81,82.5,,,,,,-185,-185,185,192.5,185,,,,,,185,1,Hungary,B
 Quentin DaCosta,17,M,M_TEM_2_WPC,Multi-ply,98.4,100,,,,,,135,145,-157.5,,145,,,,,,145,1,France,B
@@ -375,7 +375,7 @@ Wei Seah,19,M,M_TR_3_WPC,Raw,74,75,177.5,190,200,200,,105,-112.5,-112.5,,105,240
 Daniel Acosta,19,M,M_TR_3_WPC,Raw,113.6,125,235,-250,250,250,,170,182.5,-190,,182.5,280,-300,-300,,280,712.5,1,Germany,SBD
 Tomass Rihards Čaps,12,M,M_YR_WPC,Raw,70.4,75,100,-105,110,110,,55,60,-62.5,,60,120,130,140,,140,310,1,Latvia,SBD
 Bethani Duncan,20,F,F_JEM_WPC,Multi-ply,66.2,67.5,145,157.5,-165,157.5,,87.5,97.5,-105,,97.5,142.5,155,165,,165,420,1,USA,SBD
-Tara Webber,22,F,F_JEM_WPC,Multi-ply,75,75,-240,-240,-240,,,,,,,,,,,,,,DQ,Canada,SBD
+Tara Webber,,F,F_JEM_WPC,Multi-ply,75,75,-240,-240,-240,,,,,,,,,,,,,,DQ,Canada,SBD
 Darilyn Doddy,22,F,F_JEM_WPC,Multi-ply,73.6,75,-215,220,-230,220,,177.5,-182.5,-185,,177.5,160,-172.5,-172.5,,160,557.5,1,USA,SBD
 Dawn Hickman,44,F,F_MEM_1_WPC,Multi-ply,46,48,147.5,-157.5,-157.5,147.5,,80,-90,-90,,80,125,-135,137.5,,137.5,365,1,USA,SBD
 Liz Nesuda,43,F,F_MEM_1_WPC,Multi-ply,58.8,60,30,,,30,,45,57.5,60,,60,85,,,,85,175,1,USA,SBD
@@ -384,7 +384,7 @@ Amanda DuVall,43,F,F_MEM_1_WPC,Multi-ply,68.4,75,202.5,215,-227.5,215,,-135,-142
 Tania George,42,F,F_MEM_1_WPC,Multi-ply,73.6,75,-160,160,-175,160,,110,115,120,,120,160,175,185,,185,465,1,UK,SBD
 Emma Ylitalo-James,42,F,F_MES_1_WPC,Single-ply,86.4,90,60,,,60,,192.5,-200,-202.5,,192.5,140,160,180,,180,432.5,1,UK,SBD
 Chantal Rostagnat,45,F,F_MEM_2_WPC,Multi-ply,65.2,67.5,137.5,-147.5,-147.5,137.5,,55,70,-80,,70,100,,,,100,307.5,1,France,SBD
-Lynn Barlow,53,F,F_MEM_3_WPC,Multi-ply,46.2,48,110,-122.5,-122.5,110,,70,-80,-80,,70,110,122.5,-132.5,,122.5,302.5,1,USA,SBD
+Lynne Barlow,53,F,F_MEM_3_WPC,Multi-ply,46.2,48,110,-122.5,-122.5,110,,70,-80,-80,,70,110,122.5,-132.5,,122.5,302.5,1,USA,SBD
 Susan Rinn,50,F,F_MEM_3_WPC,Multi-ply,52.6,56,-127.5,127.5,142.5,142.5,,75,82.5,-85,,82.5,115,125,137.5,,137.5,362.5,1,USA,SBD
 Terry Bishoff,53,F,F_MEM_3_WPC,Multi-ply,59,60,-142.5,-142.5,-142.5,,,,,,,,,,,,,,DQ,USA,SBD
 Debbie Damminga,51,F,F_MEM_3_WPC,Multi-ply,71.6,75,195,-205,,195,,115,-122.5,-122.5,,115,125,137.5,172.5,-190,172.5,482.5,1,USA,SBD
@@ -399,7 +399,7 @@ Ann Vanderbush,27,F,F_OEM_WPC,Multi-ply,80.4,82.5,240,-257.5,,240,,150,165,-170,
 Stephanie van de Weghe,51,F,F_OEM_WPC,Multi-ply,78.6,82.5,250,272.5,,272.5,,115,160,-170,,160,182.5,195,,,195,627.5,2,USA,SBD
 Krista Ford,45,F,F_OEM_WPC,Multi-ply,88.6,90,242.5,267.5,280,280,,110,115,120,,120,197.5,205,210,,210,610,1,USA,SBD
 Joey Taylor,21,M,M_JR_WPC,Raw,54.8,56,120,-132.5,-132.5,120,,102.5,110,-115,,110,165,177.5,182.5,190,182.5,412.5,1,USA,SBD
-Daniel Lee,20,M,M_JR_WPC,Raw,60.4,67.5,155,-162.5,162.5,162.5,,102.5,-107.5,,,102.5,180,185,190,,190,455,1,Canada,SBD
+Daniel Lee #8,20,M,M_JR_WPC,Raw,60.4,67.5,155,-162.5,162.5,162.5,,102.5,-107.5,,,102.5,180,185,190,,190,455,1,Canada,SBD
 Jack Chambers,20,M,M_JR_WPC,Raw,75,75,-170,170,-200,170,,115,122.5,127.5,,127.5,210,-230,-230,,210,507.5,1,UK,SBD
 Beasty Tuilagi,21,M,M_JR_WPC,Raw,79.6,82.5,165,175,-185,175,,160,-170,-170,,160,260,270,-280,,270,605,1,UK,SBD
 Yerlan Alkeyev,23,M,M_JR_WPC,Raw,81,82.5,-210,-210,210,210,,170,185,-195,,185,180,210,-222.5,,210,605,2,Kazakhstan,SBD
@@ -515,7 +515,7 @@ Aimo Mursu,70,M,M_MEM_7_WPC,Multi-ply,81.2,82.5,180,200,-227.5,200,,-75,75,-90,,
 Shawn Ray,16,M,M_TEM_2_WPC,Multi-ply,51,52,-165,-165,165,165,,-97.5,-97.5,-97.5,,,,,,,,,DQ,USA,SBD
 Garrett Kelso,16,M,M_TEM_2_WPC,Multi-ply,53.2,56,115,122.5,140,140,,-60,60,67.5,,67.5,137.5,147.5,157.5,,157.5,365,1,USA,SBD
 Sebastian Eschenasy,17,M,M_TEM_2_WPC,Multi-ply,64,67.5,140,165,-172.5,165,,90,-102.5,-102.5,,90,140,160,-170,,160,415,1,USA,SBD
-Stephen Lehew,17,M,M_TES_2_WPC,Single-ply,73.8,75,217.5,227.5,,227.5,,142.5,-167.5,-172.5,,142.5,195,207.5,217.5,,217.5,587.5,1,USA,SBD
+Blake Lehew,17,M,M_TES_2_WPC,Single-ply,73.8,75,217.5,227.5,,227.5,,142.5,-167.5,-172.5,,142.5,195,207.5,217.5,,217.5,587.5,1,USA,SBD
 Troy Angelo,16,M,M_TEM_2_WPC,Multi-ply,78.2,82.5,187.5,-205,-212.5,187.5,,110,120,-130,,120,215,-235,245,,245,552.5,1,USA,SBD
 Max Reichert,16,M,M_TEM_2_WPC,Multi-ply,98.2,100,195,207.5,222.5,222.5,,142.5,152.5,162.5,,162.5,210,227.5,-232.5,,227.5,612.5,1,USA,SBD
 Caleb Smith,16,M,M_TEM_2_WPC,Multi-ply,151.4,140+,182.5,205,227.5,227.5,,-162.5,162.5,165,,165,142.5,165,182.5,,182.5,575,1,USA,SBD
@@ -550,7 +550,7 @@ Clint Medford,52,M,M_MEM_3_WPC,Multi-ply,99.6,100,320,350,-365,350,,-220,-227.5,
 John Hare,51,M,M_MEM_3_WPC,Multi-ply,97.4,100,295,-340,340,340,,160,-230,240,,240,240,265,-285,,265,845,2,USA,SBD
 Mark Ironfield,50,M,M_MEM_3_WPC,Multi-ply,99.2,100,-327.5,327.5,-367.5,327.5,,-195,195,-215,,195,287.5,-305,-305,,287.5,810,3,USA,SBD
 Rod Bauer,50,M,M_MEM_3_WPC,Multi-ply,98.2,100,-255,255,-272.5,255,,210,-217.5,-217.5,,210,222.5,235,245,,245,710,4,USA,SBD
-Mike Taylor,50,M,M_MEM_3_WPC,Multi-ply,108.6,110,-377.5,-377.5,-377.5,,,,,,,,,,,,,,DQ,USA,SBD
+Mike Taylor #1,50,M,M_MEM_3_WPC,Multi-ply,108.6,110,-377.5,-377.5,-377.5,,,,,,,,,,,,,,DQ,USA,SBD
 Steve Peterson,53,M,M_MEM_3_WPC,Multi-ply,123.2,125,340,-375,-392.5,340,,142.5,-250,-250,,142.5,260,272.5,,,272.5,755,1,USA,SBD
 Dainis Polis,51,M,M_MEM_3_WPC,Multi-ply,115.8,125,250,-300,-300,250,,-170,170,-200,,170,150,,,,150,570,2,Latvia,SBD
 Bernie Ferro,58,M,M_MEM_4_WPC,Multi-ply,95.6,100,235,250,260,260,,152.5,160,165,,165,227.5,240,250,,250,675,1,USA,SBD
@@ -579,7 +579,7 @@ Jon Collier,21,M,M_OEM_WPC,Multi-ply,90.8,100,320,-340,-352.5,320,,-250,250,262.
 Ahmadov Mustafa,32,M,M_OEM_WPC,Multi-ply,97.5,100,220,255,,255,,305,-315,-315,,305,200,-240,,,200,760,5,Germany,SBD
 András Gadó,25,M,M_OEM_WPC,Multi-ply,99.8,100,-280,290,-305,290,,190,200,210,,210,240,-255,255,,255,755,6,Hungary,SBD
 Morten Andraessen,30,M,M_OEM_WPC,Multi-ply,106.8,110,-360,-360,-360,,,,,,,,,,,,,,DQ,Norway,SBD
-Ivars Cīrulis,35,M,M_OEM_WPC,Multi-ply,108.8,110,360,-390,400,400,,260,280,300,,300,330,350,-370,,350,1050,1,Latvia,SBD
+Ivars Cīrulis,,M,M_OEM_WPC,Multi-ply,108.8,110,360,-390,400,400,,260,280,300,,300,330,350,-370,,350,1050,1,Latvia,SBD
 Matt Minuth,31,M,M_OEM_WPC,Multi-ply,107,110,370,-390,-390,370,,350,-372.5,-387.5,,350,-307.5,307.5,-330,,307.5,1027.5,2,USA,SBD
 Denis Rodyakin,24,M,M_OEM_WPC,Multi-ply,107.4,110,-420,420,-435,420,,-255,-255,255,,255,312.5,-325,325,,325,1000,3,Russia,SBD
 Sergey Starodubskiy,34,M,M_OEM_WPC,Multi-ply,108,110,350,370,,370,,260,272.5,285,,285,310,-335,-347.5,,310,965,4,Russia,SBD

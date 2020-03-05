@@ -6,15 +6,15 @@ use std::ffi::OsStr;
 use std::path;
 
 use crate::langpack::{self, Language, Locale};
-use crate::opldb::{self, Meet};
-use crate::pages::selection::{FederationSelection, YearSelection};
+use crate::opldb::{self, Meet, MetaFederation};
+use crate::pages::selection::{FedPreference, FederationSelection, YearSelection};
 
 /// Query selection descriptor, corresponding to HTML widgets.
 ///
 /// For code reuse, this is a subset of the Selection struct
 /// used by the rankings page. It needs to serialize to a structure
 /// that has the same fields, so the templates can share code.
-#[derive(PartialEq, Serialize)]
+#[derive(Copy, Clone, PartialEq, Serialize)]
 pub struct MeetListSelection {
     pub federation: FederationSelection,
     pub year: YearSelection,
@@ -30,8 +30,8 @@ impl Default for MeetListSelection {
 }
 
 impl MeetListSelection {
-    pub fn from_path(p: &path::Path) -> Result<Self, ()> {
-        let mut ret = MeetListSelection::default();
+    pub fn from_path(p: &path::Path, defaults: MeetListSelection) -> Result<Self, ()> {
+        let mut ret = defaults.clone();
 
         // Disallow empty path components.
         if let Some(s) = p.to_str() {
@@ -54,11 +54,26 @@ impl MeetListSelection {
             .filter_map(|a| a.file_name().and_then(OsStr::to_str))
         {
             // Check whether this is federation information.
-            if let Ok(f) = segment.parse::<FederationSelection>() {
+            if let Ok(f) = FederationSelection::from_str_preferring(
+                segment,
+                FedPreference::PreferFederation,
+            ) {
                 if parsed_federation {
                     return Err(());
                 }
-                ret.federation = f;
+
+                // Even though we requested PreferFederation, in the case of
+                // British Powerlifting, forcibly assign the MetaFederation.
+                //
+                // BP is a special case here because it's a country-level federation
+                // that includes other countries. Lifters in, e.g., the EPA call
+                // their federation "BP" and therefore expect results to show up there.
+                if f == FederationSelection::One(Federation::BP) {
+                    ret.federation = FederationSelection::Meta(MetaFederation::BP);
+                } else {
+                    ret.federation = f;
+                }
+
                 parsed_federation = true;
             // Check whether this is year information.
             } else if let Ok(y) = segment.parse::<YearSelection>() {

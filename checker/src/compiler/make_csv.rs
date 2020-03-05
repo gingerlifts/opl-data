@@ -1,10 +1,10 @@
 //! Transforms `AllMeetData` into the final CSV files.
 
-use coefficients::mcculloch;
+use coefficients::{dots, mcculloch};
 use csv::{QuoteStyle, Terminator, WriterBuilder};
-use hashbrown::HashMap;
 use opltypes::*;
 
+use std::collections::HashMap;
 use std::path::Path;
 
 use crate::checklib::{Entry, LifterData, LifterDataMap, Meet};
@@ -117,6 +117,8 @@ struct EntriesRow<'d> {
     glossbrenner: Points,
     #[serde(rename = "IPFPoints")]
     ipfpoints: Points,
+    #[serde(rename = "Dots")]
+    dots: Points,
     #[serde(rename = "Tested")]
     tested: &'static str,
     #[serde(rename = "Country")]
@@ -152,7 +154,7 @@ impl<'d> EntriesRow<'d> {
             event: entry.event,
             equipment: entry.equipment,
             age: entry.age,
-            ageclass: AgeClass::from_range(entry.agerange.min, entry.agerange.max),
+            ageclass: AgeClass::from(entry.agerange),
             birthyearclass: entry.birthyearclass,
             division: &entry.division,
             bodyweightkg: entry.bodyweightkg,
@@ -178,6 +180,7 @@ impl<'d> EntriesRow<'d> {
             mcculloch,
             glossbrenner: entry.glossbrenner,
             ipfpoints: entry.ipfpoints,
+            dots: dots(entry.sex, entry.bodyweightkg, entry.totalkg),
             tested: if entry.tested { "Yes" } else { "" },
             country: entry.country,
             state: entry.state,

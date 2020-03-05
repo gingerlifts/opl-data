@@ -65,8 +65,14 @@
   @include name-color(#00AEFF);
 }
 
+// Like a baby blue.
 .lightblue {
   @include name-color(#43D1FF);
+}
+
+// A pleasant blue you'd find on a menu screen button.
+.waterblue {
+  @include name-color(#3B72FF);
 }
 
 .royalblue {
@@ -83,6 +89,11 @@
 
 .cranberryred {
   @include name-color(#9C0045);
+}
+
+// Color used in the DOTS formula application. A dark red.
+.dots_red {
+  @include name-color(#84000E);
 }
 
 .orange {
@@ -104,6 +115,10 @@
 
 .gold {
   @include name-color(#FFD700);
+}
+
+.forestgreen {
+  @include name-color(#006400);
 }
 
 // Rainbow with light colors, to be readable against a dark background.
@@ -168,11 +183,24 @@
       $ireland-orange 67%, $ireland-orange);
 }
 
+//Red, black, white and green.
+.palestine {
+  @include gradient-prereqs($default-color);
+  background-image: linear-gradient(to right, #CE1126, #000000, #FFFFFF, #007A3D);
+}
+
 .blue_to_gold {
   $blue: #507CFF;
   $gold: #FFD700;
   @include gradient-prereqs($gold);
   background-image: linear-gradient(to right, $blue, $gold);
+}
+
+.blue_to_gunmetal {
+  $blue: #507CFF;
+  $gunmetal: #2A3439;
+  @include gradient-prereqs($gunmetal);
+  background-image: linear-gradient(to right, $blue, $gunmetal);
 }
 
 .blue_to_green {
@@ -208,6 +236,13 @@
   $white: #EDF2F4;
   @include gradient-prereqs($green);
   background-image: linear-gradient(to right, $green, $white);
+}
+
+.lightblue_to_purple {
+  $lightblue: #43D1FF;
+  $purple: #AE76FF;
+  @include gradient-prereqs($lightblue);
+  background-image: linear-gradient(to right, $lightblue, $purple);
 }
 
 .lightblue_to_white {
@@ -257,6 +292,13 @@
   $lightblue: #43D1FF;
   @include gradient-prereqs($pink);
   background-image: linear-gradient(to right, $pink, $lightblue);
+}
+
+.pink_to_orange {
+  $pink: #FF69B4;
+  $orange: #FFA200;
+  @include gradient-prereqs($pink);
+  background-image: linear-gradient(to right, $pink, $orange);
 }
 
 .pink_to_purple {

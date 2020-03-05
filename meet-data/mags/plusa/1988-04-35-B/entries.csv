@@ -1,5 +1,5 @@
 Name,WeightClassKg,Division,AgeRange,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
-H. Mullick,48,Open,,F,95,42.5,105,242.5,SBD,Single-ply,1
+Hue Mullick,48,Open,,F,95,42.5,105,242.5,SBD,Single-ply,1
 N. Marschal,52,Open,,F,87.5,42.5,92.5,222.5,SBD,Single-ply,1
 E. Cox,52,Open,,F,70,35,97.5,202.5,SBD,Single-ply,2
 Nora Cline,56,Open,,F,137.5,92.5,165,395,SBD,Single-ply,1
@@ -36,7 +36,7 @@ M. Burkett,100,Teen,13-19,M,197.5,155,237.5,590,SBD,Single-ply,3
 R. Alcarez,110,Teen,13-19,M,255,165,260,680,SBD,Single-ply,1
 Jessie Vega,125,Teen,13-19,M,257.5,172.5,252.5,682.5,SBD,Single-ply,1
 James Capehart,67.5,Masters,40-999,M,182.5,112.5,180,475,SBD,Single-ply,1
-J. Christian,75,Masters,40-999,M,182.5,130,227.5,540,SBD,Single-ply,1
+James Christian #1,75,Masters,40-999,M,182.5,130,227.5,540,SBD,Single-ply,1
 J. Hurst,82.5,Masters,40-999,M,217.5,162.5,245,625,SBD,Single-ply,1
 Manuel Leyva,82.5,Masters,40-999,M,242.5,117.5,232.5,592.5,SBD,Single-ply,2
 Emile Mullick,82.5,Masters,40-999,M,197.5,142.5,197.5,537.5,SBD,Single-ply,3
@@ -76,7 +76,7 @@ D. Echard,110,Class I,,M,272.5,165,257.5,695,SBD,Single-ply,5
 M. Paradise,110,Class I,,M,245,162.5,275,682.5,SBD,Single-ply,6
 D. Garcia,110,Class I,,M,227.5,140,222.5,590,SBD,Single-ply,7
 J. Gandara,110,Class I,,M,200,117.5,200,517.5,SBD,Single-ply,8
-J. Kalinowski,125,Class I,,M,265,182.5,285,732.5,SBD,Single-ply,1
+Jim Kalinowski,125,Class I,,M,265,182.5,285,732.5,SBD,Single-ply,1
 D. McCaskill,125,Class I,,M,277.5,160,280,717.5,SBD,Single-ply,2
 M. Trevino,125,Class I,,M,252.5,155,252.5,660,SBD,Single-ply,3
 W. Luna,125,Class I,,M,250,140,235,625,SBD,Single-ply,4
@@ -117,7 +117,7 @@ S. Murray,110,Open,,M,300,205,280,785,SBD,Single-ply,5
 Joe Regaldo,110,Open,,M,282.5,167.5,267.5,717.5,SBD,Single-ply,6
 I. Snow,110,Open,,M,270,152.5,287.5,710,SBD,Single-ply,7
 M. Paradise,110,Open,,M,245,162.5,275,682.5,SBD,Single-ply,9
-J. Ruthardt,110,Open,,M,265,177.5,245,687.5,SBD,Single-ply,8
+John Ruthardt,110,Open,,M,265,177.5,245,687.5,SBD,Single-ply,8
 J. Gandara,110,Open,,M,200,117.5,200,517.5,SBD,Single-ply,10
 Lance Ross,125,Open,,M,340,220,350,910,SBD,Single-ply,1
 Greg Fields #1,125,Open,,M,367.5,215,312.5,895,SBD,Single-ply,2

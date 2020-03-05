@@ -13,7 +13,7 @@ Daniel Houck,23,M,Raw,M_JR_WPC,80.7,82.5,125,130,135,,135,,,,,,135,1,Westwood,B
 James Reeves,22,M,Raw,M_JR_WPC,88.3,90,177.5,187.5,-195,,187.5,,,,,,187.5,1,Detroit Barbell,B
 Randy Edwards,47,M,Multi-ply,M_MEM_2_WPC,129,140,210,215,-227.5,,215,,,,,,215,1,Heavy Metal Barbell,B
 John Wood,52,M,Single-ply,M_MES_3_WPC,82.2,82.5,150,-162.5,162.5,,162.5,,,,,,162.5,1,Green Gold Nutrition Powerlifting,B
-Dave Murphy,62,M,Single-ply,M_MES_5_WPC,108.6,110,235,242.5,255,260,255,,,,,,255,1,Detroit Barbell,B
+Dave Murphy #1,62,M,Single-ply,M_MES_5_WPC,108.6,110,235,242.5,255,260,255,,,,,,255,1,Detroit Barbell,B
 Jim Wetenhall,62,M,Single-ply,M_MES_5_WPC,128.1,140,-185,-185,,,,,,,,,,DQ,,B
 Michael Brandon,47,M,Raw,M_MR_2_AWPC,123.1,125,-192.5,192.5,195,200,195,,,,,,195,1,,B
 Michael Brandon,47,M,Raw,M_PFR_WPC,123.1,125,-192.5,192.5,195,200,195,,,,,,195,1,,B
@@ -30,7 +30,7 @@ Todd Hayataka,60,M,Raw,M_MR_5_WPC,72.7,75,95,107.5,112.5,117.5,112.5,,,,,,112.5,
 Thomas Proya,62,M,Raw,M_MR_5_WPC,87.4,90,167.5,182.5,188,,188,,,,,,188,1,Proya's Gym,B
 Gerald Lindas,80,M,Raw,M_MR_9_AWPC,70,75,97.5,-102.5,,,97.5,,,,,,97.5,1,Gerald Lindas,B
 Gerald Lindas,80,M,Raw,M_MR_9_WPC,70,75,97.5,-102.5,,,97.5,,,,,,97.5,1,Gerald Lindas,B
-Timothy Hensley,37,M,Multi-ply,M_OEM_AWPC,92.1,100,332.5,-347.5,347.5,,347.5,,,,,,347.5,1,,B
+Tim Hensley,37,M,Multi-ply,M_OEM_AWPC,92.1,100,332.5,-347.5,347.5,,347.5,,,,,,347.5,1,,B
 Joe Catenacci,35,M,Raw,M_OR_WPC,59.4,60,120,130,137.5,-140.5,137.5,,,,,,137.5,1,,B
 Matthew Schwab,30,M,Raw,M_OR_WPC,89.1,90,175,185,-190,,185,,,,,,185,1,,B
 Danny Rodriguez #1,31,M,Raw,M_OR_WPC,115.7,125,-142.5,147.5,-152.5,,147.5,,,,,,147.5,1,,B

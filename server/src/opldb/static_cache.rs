@@ -300,6 +300,7 @@ pub struct ConstantTimeCache {
     pub mcculloch: ConstantTimeBy,
     pub glossbrenner: ConstantTimeBy,
     pub ipfpoints: ConstantTimeBy,
+    pub dots: ConstantTimeBy,
 }
 
 impl ConstantTimeCache {
@@ -341,6 +342,7 @@ impl ConstantTimeCache {
                 &cmp_ipfpoints,
                 &filter_ipfpoints,
             ),
+            dots: ConstantTimeBy::new(loglin, mv, ev, &cmp_dots, &filter_dots),
         }
     }
 }
@@ -372,6 +374,7 @@ pub struct LogLinearTimeCache {
     /// List of all non-DQ Female entry indices by LifterID.
     pub female: NonSortedNonUnique,
 
+    pub year2020: NonSortedNonUnique,
     pub year2019: NonSortedNonUnique,
     pub year2018: NonSortedNonUnique,
     pub year2017: NonSortedNonUnique,
@@ -408,6 +411,9 @@ impl LogLinearTimeCache {
             male: Self::filter_entries(entries, |e| e.sex == Sex::M),
             female: Self::filter_entries(entries, |e| e.sex == Sex::F),
 
+            year2020: Self::filter_entries(entries, |e| {
+                meets[e.meet_id as usize].date.year() == 2020
+            }),
             year2019: Self::filter_entries(entries, |e| {
                 meets[e.meet_id as usize].date.year() == 2019
             }),

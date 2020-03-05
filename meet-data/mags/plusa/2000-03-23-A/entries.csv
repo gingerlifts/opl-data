@@ -28,7 +28,7 @@ Greg Campbell,90,O,,M,,,,,,,,,,231.33,,,231.33,B,Single-ply,1
 Peter Barrett,90,O,,M,,,,,,,,,,224.53,,,224.53,B,Single-ply,2
 Mike Honaker,90,O,,M,,,,,,,,,,188.24,,,188.24,B,Single-ply,3
 Falcon Major,90,O,,M,,,Bahamas,,,,,,,174.63,,,174.63,B,Single-ply,4
-Evandro Casa Grande,90,O,,M,,,Brazil,,,,,,,149.69,,,149.69,B,Single-ply,5
+Evandro Casagrande,90,O,,M,,,Brazil,,,,,,,149.69,,,149.69,B,Single-ply,5
 Peter Barrett,90,SM,33-39,M,,,,,,,,,,224.53,,,224.53,B,Single-ply,1
 Falcon Major,90,40-44,40-44,M,,,Bahamas,,,,,,,174.63,,,174.63,B,Single-ply,1
 Hollingworth,90,40-44,40-44,M,,,,,,,,,,,,,,B,Single-ply,DQ
@@ -108,7 +108,7 @@ John Misorski Sr,82.5,55-59,55-59,M,,,,,,,,,,,124.74,,124.74,D,Raw,1
 Dunn,82.5,40-44,40-44,M,,,,,,,,,,,217.72,,217.72,D,Single-ply,1
 Chambliss,90,17-19,17-19,M,,,,,,,,,,,181.44,,181.44,D,Raw,1
 Jason Brice,90,20-23,20-23,M,,,,,,,,,,,240.4,,240.4,D,Single-ply,1
-Evandro Casa Grande,90,O,,M,,,Brazil,,,,,,,,299.37,,299.37,D,Single-ply,1
+Evandro Casagrande,90,O,,M,,,Brazil,,,,,,,,299.37,,299.37,D,Single-ply,1
 Mike Honaker,90,O,,M,,,,,,,,,,,249.48,,249.48,D,Single-ply,2
 Hollingsworth,90,40-44,40-44,M,,,,,,,,,,,199.58,,199.58,D,Single-ply,1
 Tom Smith #3,90,40-44,40-44,M,,,,,,,,,,,260.82,,260.82,D,Raw,1
@@ -154,7 +154,7 @@ Lynn Wehr,67.5,40-44,40-44,F,,,,133.81,,,,,,65.77,142.88,,342.46,SBD,Single-ply,
 Helen Kostadinos,67.5,55-59,55-59,F,,,Australia,131.54,,,,,,65.77,149.69,,347,SBD,Single-ply,1
 Margarete Rubinosky,67.5,55-59,55-59,F,,,,113.4,,,,,,65.77,147.42,,326.59,SBD,Single-ply,2
 Kostadinos,67.5,O,,F,,,,131.54,,,,,,65.77,149.69,,347,SBD,Single-ply,1
-Rubinosky,67.5,Police,,F,,,,113.4,,,,,,65.77,147.42,,326.59,SBD,Single-ply,1
+Margarete Rubinosky,67.5,Police,,F,,,,113.4,,,,,,65.77,147.42,,326.59,SBD,Single-ply,1
 Shannon Pole-Summers,82.5+,14-16,14-16,F,,,,185.97,,,,,,124.74,156.49,,467.2,SBD,Single-ply,1
 Shannon Pole-Summers,82.5+,O,,F,,,,185.97,,,,,,124.74,156.49,,467.2,SBD,Single-ply,1
 Natasha Newbold,82.5+,O,,F,,,Bahamas,176.9,,,,,,111.13,167.83,,455.86,SBD,Single-ply,2
@@ -191,13 +191,13 @@ Jason Brice,90,20-23,20-23,M,,,,219.99,,,,,,174.63,240.4,,635.03,SBD,Single-ply,
 Rod Watkins,90,O,,M,,83.01,,272.16,,,,,,176.9,263.08,,712.14,SBD,Single-ply,1
 Mike Honaker,90,O,,M,,,,260.82,,,,,,188.24,249.48,,698.53,SBD,Single-ply,2
 Falcon Major,90,O,,M,,,Bahamas,,,,,,,,,,,SBD,Single-ply,DQ
-Ron Deamicis,90,40-44,40-44,M,,,,185.97,,,,,,124.74,242.67,,553.38,SBD,Wraps,1
+Ron DeAmicis,90,40-44,40-44,M,,,,185.97,,,,,,124.74,242.67,,553.38,SBD,Wraps,1
 Bill Brown,90,40-44,40-44,M,,,,258.55,,,,,,167.83,249.48,,675.85,SBD,Single-ply,1
 Falcon Major,90,40-44,40-44,M,,,Bahamas,,,,,,,,,,,SBD,Single-ply,DQ
 Tom Mascio Sr,90,45-49,45-49,M,,,,213.19,,,,,,172.37,226.8,,612.35,SBD,Single-ply,1
 Phillips,90,45-49,45-49,M,,,,204.12,,,,,,158.76,226.8,,589.67,SBD,Single-ply,2
 Tom Smith #3,90,50-54,50-54,M,,,,167.83,,,,,,122.47,260.82,,551.12,SBD,Wraps,1
-Ron Deamicis,90,Police,,M,,,,185.97,,,,,,124.74,242.67,,553.38,SBD,Wraps,1
+Ron DeAmicis,90,Police,,M,,,,185.97,,,,,,124.74,242.67,,553.38,SBD,Wraps,1
 Joe Dougherty,100,20-23,20-23,M,,,,226.8,,,,,,151.95,242.67,,621.42,SBD,Single-ply,1
 Nathan Russell,100,20-23,20-23,M,,,Bahamas,204.12,,,,,,124.74,188.24,,517.1,SBD,Single-ply,2
 Keith Klayhold,100,O,,M,,,,324.32,,,,,,192.78,283.5,,800.59,SBD,Single-ply,1
@@ -212,7 +212,7 @@ Andy Wood,110,20-23,20-23,M,,,,235.87,,,,,,154.22,274.42,,664.51,SBD,Single-ply,
 Jerome Rerucha,110,O,,M,,,,322.05,,,,,,222.26,301.64,,845.95,SBD,Single-ply,1
 Ron Zimmerman,110,O,,M,,,,306.18,,,,,,179.17,238.14,,723.48,SBD,Single-ply,2
 Tom Kristoff,110,O,,M,,,,267.62,,,,,,167.83,281.23,,716.68,SBD,Wraps,2
-Lovejoy,110,40-44,40-44,M,,,,195.04,,,,,,151.95,231.33,,578.33,SBD,Wraps,1
+B. Lovejoy,110,40-44,40-44,M,,,,195.04,,,,,,151.95,231.33,,578.33,SBD,Wraps,1
 Davis,110,45-49,45-49,M,,,,208.65,,,,,,147.42,260.82,267.62,616.89,SBD,Single-ply,1
 Jim Raines,110,50-54,50-54,M,,,,238.14,,,,,,158.76,263.08,,659.98,SBD,Single-ply,1
 Gallagher,125,SM,33-39,M,,,,,,,,,,,,,,SBD,Raw,DQ

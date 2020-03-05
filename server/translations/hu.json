@@ -25,6 +25,7 @@
 		"records": "Records",
 		"meets": "Versenyek",
 		"data": "Adat",
+		"apps": "Apps",
 		"status": "Projekt helyzete",
 		"faq": "GYIK",
 		"contact": "Kapcsolat",
@@ -53,9 +54,17 @@
 		"mcculloch": "McCulloch",
 		"glossbrenner": "Gloss",
 		"ipfpoints": "IPF",
+		"dots": "Dots",
 		"num_lifters": "Versenyzők"
 	},
 	"country": {
+	    "africa": "Africa",
+	    "antarctica": "Antarctica",
+	    "asia": "Asia",
+	    "europe": "Europe",
+	    "south_america": "South America",
+	    "north_america": "North America",
+	    "oceania": "Oceania",
 	    "afghanistan": "Afghanistan",
             "albania": "Albania",
 	    "algeria": "Algéria",
@@ -101,6 +110,7 @@
 	    "denmark": "Dánia",
 	    "djibouti": "Djibouti",
 	    "dominicanrepublic": "Dominican Republic",
+	    "eastgermany": "East Germany",
 	    "easttimor": "East Timor",
 	    "ecuador": "Ecuador",
 	    "egypt": "Egyiptom",
@@ -238,6 +248,10 @@
 	"buttons": {
 		"search": "Keresés"
 	},
+	"labels": {
+		"sort": "Sort",
+		"category": "Category"
+	},
 	"selectors": {
 		"equipment": {
 			"raw": "Raw",
@@ -297,11 +311,14 @@
 			"all_tested": "All Tested Lifters",
 			"international": "Nemzetközi",
 			"regional": "Regionális",
+			"continents": "Continents",
+			"countries": "Countries",
 			"all_usa": "Összes egyesült államokbeli szövetség",
 			"all_argentina": "Összes argentin szövetség",
 			"all_australia": "Összes ausztrál szövetség",
 			"all_austria": "All Austrian Lifters",
 			"all_belarus": "All Belarusian Lifters",
+			"all_bosniaandherzegovina": "All Lifters from Bosnia and Herzegovina",
 			"all_brazil": "All Brazilian Lifters",
 			"all_canada": "Összes kanadai szövetség",
 			"all_chile": "All Chilean Lifters",
@@ -312,6 +329,7 @@
 			"all_denmark": "All Danish Lifters",
 			"all_finland": "Összes finn szövetség",
 			"all_france": "All French Lifters",
+			"all_georgia": "All Georgian Lifters",
 			"all_germany": "Összes német szövetség",
 			"all_greece": "All Greek Lifters",
 			"all_hongkong": "All Hong Kong Lifters",
@@ -354,10 +372,20 @@
 			"all_uk": "Összes egyesült királyságokbeli szövetség",
 			"all_uk_tested": "All Tested UK Lifters",
 			"all_ukraine": "Összes ukrán szövetség",
-			"all_vietnam": "All Vietnamese Lifters"
+			"all_vietnam": "All Vietnamese Lifters",
+			"all_affiliates": "All Affiliates",
+			"all_internationals": "All Internationals"
 		},
 		"ageclass": {
-			"all": "All Ages"
+			"all": "All Ages",
+			"ipf_open": "Open",
+			"ipf_subjunior": "Sub-Junior",
+			"ipf_junior": "Junior",
+			"ipf_senior": "Senior",
+			"ipf_master1": "Master I",
+			"ipf_master2": "Master II",
+			"ipf_master3": "Master III",
+			"ipf_master4": "Master IV"
 		}
 	},
 	"lifter_page": {

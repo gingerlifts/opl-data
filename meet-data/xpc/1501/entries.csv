@@ -9,7 +9,7 @@ WeightClassKg,Event,Equipment,Sex,Name,BodyweightKg,Best3SquatKg,Bench1Kg,Bench2
 100,D,Raw,M,Brad Parkhurst,95.25,,,,,,251.74,251.74,Open,1
 110,D,Raw,M,Jared Goble,109.63,,,,,,319.78,319.78,Open,1
 125,D,Raw,M,Michael Selmon,121.56,,,,,,331.12,331.12,Open,1
-82.5,B,Raw,M,Tim Lewis,81.74,,,,,174.63,,174.63,Open,1
+82.5,B,Raw,M,Tim Lewis #1,81.74,,,,,174.63,,174.63,Open,1
 82.5,B,Raw,M,Fred Bland,77.75,,,,,145.15,,145.15,Open,2
 100,B,Raw,M,Brad Parkhurst,95.25,,,,,181.44,,181.44,Open,1
 100,B,Raw,M,Edward Bergman,96.16,,,,,172.37,,172.37,Open,2
@@ -39,7 +39,7 @@ WeightClassKg,Event,Equipment,Sex,Name,BodyweightKg,Best3SquatKg,Bench1Kg,Bench2
 140,SBD,Multi-ply,M,Bill Fritz,137.44,390.09,,,,,,,Open,DQ
 110,SBD,Multi-ply,M,Brian Carroll,109.59,,,,,,,,Open,DQ
 110,SBD,Multi-ply,M,Chris Della Fave,109.68,,,,,,376.48,,Open,DQ
-90,SBD,Multi-ply,M,Mark Van Alstyne,87.45,322.05,,,,,,,Open,DQ
+90,SBD,Multi-ply,M,Mark VanAlstyne,87.45,322.05,,,,,,,Open,DQ
 67.5,SBD,Wraps,M,Brian Galloway,62.87,260.82,,,,167.83,201.85,630.49,Open,1
 140,SBD,Wraps,M,Denis Feise,132.72,381.02,,,,244.94,308.44,934.4,Open,1
 125,SBD,Wraps,M,Kevin Smith #3,120.47,351.53,,,,219.99,335.66,907.18,Open,1

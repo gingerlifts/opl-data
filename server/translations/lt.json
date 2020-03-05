@@ -25,6 +25,7 @@
         "records": "Rekordai",
         "meets": "Varžybos",
         "data": "Data",
+        "apps": "Apps",
         "status": "Būsena",
         "faq": "DUK",
         "contact": "Kontaktai",
@@ -53,9 +54,17 @@
         "mcculloch": "McCulloch",
         "glossbrenner": "Gloss",
         "ipfpoints": "IPF",
+        "dots": "Dots",
         "num_lifters": "Atletai"
     },
     "country": {
+	       "africa": "Africa",
+	       "antarctica": "Antarctica",
+	       "asia": "Asia",
+	       "europe": "Europe",
+	       "south_america": "South America",
+	       "north_america": "North America",
+	       "oceania": "Oceania",
         "afghanistan": "Afganistanas",
         "albania": "Albanija",
         "algeria": "Alžyras",
@@ -100,6 +109,7 @@
         "denmark": "Danija",
         "djibouti": "Džibutis",
         "dominicanrepublic": "Dominikos Respublika",
+        "eastgermany": "East Germany",
         "easttimor": "Rytų Tymūras",
         "ecuador": "Ekvadoras",
         "egypt": "Egiptas",
@@ -238,6 +248,10 @@
     "buttons": {
         "search": "Paieška"
     },
+    "labels": {
+        "sort": "Sort",
+        "category": "Category"
+    },
     "selectors": {
         "equipment": {
             "raw": "Klasikinė",
@@ -297,10 +311,13 @@
             "all_tested": "Visos Tikrinamos federacijos",
             "international": "Tarptautinės",
             "regional": "Regioninės",
+	    "continents": "Continents",
+	    "countries": "Countries",
             "all_usa": "Visi JAV Atletai",
             "all_argentina": "Visi Argentinos Atletai",
             "all_australia": "Visi Australijos Atletai",
             "all_belarus": "Visi Baltarusijos Atletai",
+            "all_bosniaandherzegovina": "All Lifters from Bosnia and Herzegovina",
             "all_brazil": "Visi Brazilijos Atletai",
             "all_canada": "Visi Kanados Atletai",
             "all_china": "Visi Kinijos Atletai",
@@ -308,6 +325,7 @@
             "all_czechia": "Visi Čekijos Atletai",
             "all_finland": "Visi Suomijos Atletai",
             "all_france": "Visi Prancūzijos Atletai",
+            "all_georgia": "All Georgian Lifters",
             "all_germany": "Visi Vokietijos Atletai",
             "all_greece": "Visi Graikijos Atletai",
             "all_iceland": "Visi Islandijos Atletai",
@@ -354,10 +372,20 @@
             "all_scotland": "All Scottish Lifters",
             "all_singapore": "All Singaporean Lifters",
             "all_thailand": "All Thai Lifters",
-            "all_vietnam": "All Vietnamese Lifters"
+            "all_vietnam": "All Vietnamese Lifters",
+	    "all_affiliates": "All Affiliates",
+	    "all_internationals": "All Internationals"
         },
         "ageclass": {
-            "all": "Visi amžiai"
+            "all": "Visi amžiai",
+	    "ipf_open": "Open",
+	    "ipf_subjunior": "Sub-Junior",
+	    "ipf_junior": "Junior",
+	    "ipf_senior": "Senior",
+	    "ipf_master1": "Master I",
+	    "ipf_master2": "Master II",
+	    "ipf_master3": "Master III",
+	    "ipf_master4": "Master IV"
         }
     },
     "lifter_page": {

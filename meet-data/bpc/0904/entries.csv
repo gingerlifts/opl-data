@@ -1,13 +1,13 @@
 Name,Age,Sex,Division,Equipment,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Place
 Hanne Bingle,,F,Masters,Multi-ply,88.2,90,140,-150,-150,140,90,100,-110,100,120,130,140,140,380,SBD,1
 Leslie Watson,,F,Open,Multi-ply,46.4,48,80,90,-100,90,60,65,-67.5,65,100,105,-110,105,260,SBD,1
-Gina Iaquaniellano,,F,Open,Multi-ply,51.8,52,150,-160,160,160,70,-75,-75,70,150,-155,-155,150,380,SBD,1
+Gina Iaquaniello,,F,Open,Multi-ply,51.8,52,150,-160,160,160,70,-75,-75,70,150,-155,-155,150,380,SBD,1
 Emma Weston,,F,Open,Multi-ply,55.5,56,100,-115,115,115,45,-55,-55,45,110,125,-135,125,285,SBD,1
 Janine Murphy,,F,Open,Multi-ply,73.7,75,170,180,-190,180,77.5,82.5,-85,82.5,170,-180,-180,170,432.5,SBD,1
 Tara McKay,,F,Open,Multi-ply,76.7,82.5,100,-110,-110,100,60,65,-70,65,97.5,107.5,115,115,280,SBD,1
 Hanne Bingle,,F,Open,Multi-ply,88.2,90,140,-150,-150,140,90,100,-110,100,120,130,140,140,380,SBD,1
 Luke Corcoran,,M,Juniors,Multi-ply,74.5,75,200,210,222.5,222.5,80,85,-90,85,190,200,205,205,512.5,SBD,3
-John Corcoran,,M,Juniors,Multi-ply,74.1,75,200,210,-222.5,210,110,112.5,-115,112.5,180,200,-207.5,200,522.5,SBD,2
+John Corcoran #1,,M,Juniors,Multi-ply,74.1,75,200,210,-222.5,210,110,112.5,-115,112.5,180,200,-207.5,200,522.5,SBD,2
 Callum Cook,,M,Juniors,Multi-ply,72.1,75,-230,230,250,250,-155,155,162.5,162.5,200,220,235,235,647.5,SBD,1
 Curtis Arnold,,M,Juniors,Multi-ply,86.8,90,310,-317.5,-317.5,310,200,220,,220,240,270,275,275,805,SBD,1
 James Fernandez,,M,Juniors,Multi-ply,88.3,90,-260,-275,-275,,-170,,,,220,,,220,,SBD,DQ
@@ -45,7 +45,7 @@ Ashley Hearn,,M,Open,Multi-ply,80.2,82.5,280,300,322.5,322.5,-200,200,-205,200,-
 Clifford Richards,,M,Open,Multi-ply,82.4,82.5,-300,-320,330,330,210,220,-230,220,240,250,-260,250,800,SBD,3
 Lee Cutler,,M,Open,Multi-ply,82,82.5,-320,320,340,340,190,195,202.5,202.5,280,292.5,-305,292.5,835,SBD,2
 Chris Jenkins #8,,M,Open,Multi-ply,82.5,82.5,315,-330,-345,315,210,217.5,222.5,222.5,290,310,312.5,312.5,850,SBD,1
-Elliott Newman,,M,Open,Multi-ply,89.1,90,230,240,-250,240,152.5,-157.5,-157.5,152.5,240,255,-262.5,255,647.5,SBD,5
+Elliot Newman,,M,Open,Multi-ply,89.1,90,230,240,-250,240,152.5,-157.5,-157.5,152.5,240,255,-262.5,255,647.5,SBD,5
 Dan Cook,,M,Open,Multi-ply,89.3,90,240,260,-275,260,-155,155,165,165,210,230,-250,230,655,SBD,4
 Gary Underwood,,M,Open,Multi-ply,89.7,90,225,240,-260,240,170,185,-192.5,185,-230,-230,232.5,232.5,657.5,SBD,3
 Neil Deighton,,M,Open,Multi-ply,89.7,90,310,320,330,330,290,-300,-300,290,272.5,292.5,-302.5,292.5,912.5,SBD,2

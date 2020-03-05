@@ -15,16 +15,17 @@
     "sex": {
         "m": "M",
         "f": "F",
-	      "mx": "Mx"
+              "mx": "Mx"
     },
     "html_header": {
       "description": "The OpenPowerlifting project aims to create a permanent, accurate, convenient, accessible, open archive of the world's powerlifting data."
-  	},
+        },
     "header": {
         "rankings": "Rangorde",
         "records": "Records",
         "meets": "Wedstrijden",
         "data": "Data",
+        "apps": "Apps",
         "status": "Status",
         "faq": "FAQ",
         "contact": "Contact",
@@ -53,9 +54,17 @@
         "mcculloch": "McCulloch",
         "glossbrenner": "Gloss",
         "ipfpoints": "IPF",
+        "dots": "Dots",
         "num_lifters": "Atleten"
     },
     "country": {
+	       "africa": "Africa",
+	       "antarctica": "Antarctica",
+	       "asia": "Asia",
+	       "europe": "Europe",
+	       "south_america": "South America",
+	       "north_america": "North America",
+	       "oceania": "Oceania",
         "afghanistan": "Afghanistan",
         "albania": "Albanië",
         "algeria": "Algerije",
@@ -69,7 +78,7 @@
         "azerbaijan": "Azerbeidzjan",
         "bahamas": "Bahama's",
         "bahrain": "Bahrein",
-	"bangladesh": "Bangladesh",
+        "bangladesh": "Bangladesh",
         "belarus": "Wit-Rusland",
         "belgium": "België",
         "belize": "Belize",
@@ -101,6 +110,7 @@
         "denmark": "Denemarken",
         "djibouti": "Djibouti",
         "dominicanrepublic": "Dominicaanse Republiek",
+        "eastgermany": "East Germany",
         "easttimor": "Oost-Timor",
         "ecuador": "Ecuador",
         "egypt": "Egypte",
@@ -238,6 +248,10 @@
     "buttons": {
         "search": "Zoeken"
     },
+    "labels": {
+        "sort": "Sort",
+        "category": "Category"
+    },
     "selectors": {
         "equipment": {
             "raw": "Raw",
@@ -263,13 +277,13 @@
             "by_total": "Op Totaal",
             "by_allometric": "Op Allometrische schaling",
             "by_ah": "Op AH (Haleczko)",
-	    "by_dots": "By Dots",
+            "by_dots": "By Dots",
             "by_glossbrenner": "Op Glosbrenner",
             "by_ipfpoints": "Op IPF Punten",
             "by_mcculloch": "Op McCulloch",
             "by_nasa": "Op NASA Punten",
             "by_reshel": "Op Reshel",
-	    "by_schwartzmalone": "By Schwartz/Malone",
+            "by_schwartzmalone": "By Schwartz/Malone",
             "by_wilks": "Op Wilks",
             "by_division": "Op Divisie",
             "weight": "Gewicht sorteren",
@@ -297,11 +311,14 @@
             "all_tested": "Alle volledig gesteste atleten",
             "international": "Internationaal",
             "regional": "Regionaal",
+	    "continents": "Continents",
+	    "countries": "Countries",
             "all_usa": "Alle Verenigde Staten atleten",
             "all_argentina": "Alle Argentijnse atleten",
             "all_australia": "Alle Australische atleten",
             "all_austria": "All Austrian Lifters",
             "all_belarus": "Alle Wit-Russische atleten",
+            "all_bosniaandherzegovina": "All Lifters from Bosnia and Herzegovina",
             "all_brazil": "Alle Braziliaanse atleten",
             "all_canada": "Alle Canadeese atleten",
             "all_chile": "All Chilean Lifters",
@@ -312,6 +329,7 @@
             "all_denmark": "All Danish Lifters",
             "all_finland": "Alle Finse atleten",
             "all_france": "Alle Franse atleten",
+            "all_georgia": "All Georgian Lifters",
             "all_germany": "Alle Duitse atleten",
             "all_greece": "Alle Griekse atleten",
             "all_hongkong": "All Hong Kong Lifters",
@@ -341,7 +359,7 @@
             "all_portugal": "Alle Portugese atleten",
             "all_romania": "All Romanian Lifters",
             "all_russia": "Alle Russische atleten",
-	    "all_scotland": "All Scottish Lifters",
+            "all_scotland": "All Scottish Lifters",
             "all_serbia": "Alle Servische atleten",
             "all_singapore": "All Singaporean Lifters",
             "all_slovakia": "Alle Slowaakse atleten",
@@ -354,10 +372,20 @@
             "all_uk": "Alle Verenigd Koninkrijkse atleten",
             "all_uk_tested": "Alle geteste VK atleten",
             "all_ukraine": "Alle Oekrainse atleten",
-            "all_vietnam": "All Vietnamese Lifters"
+            "all_vietnam": "All Vietnamese Lifters",
+	    "all_affiliates": "All Affiliates",
+	    "all_internationals": "All Internationals"
         },
         "ageclass": {
-            "all": "Alle leeftijden"
+            "all": "Alle leeftijden",
+	    "ipf_open": "Open",
+	    "ipf_subjunior": "Sub-Junior",
+	    "ipf_junior": "Junior",
+	    "ipf_senior": "Senior",
+	    "ipf_master1": "Master I",
+	    "ipf_master2": "Master II",
+	    "ipf_master3": "Master III",
+	    "ipf_master4": "Master IV"
         }
     },
     "lifter_page": {

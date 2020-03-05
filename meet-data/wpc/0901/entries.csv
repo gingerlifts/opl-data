@@ -1,7 +1,7 @@
 Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Squat4Kg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Bench4Kg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,WeightClassKg,Sex,CyrillicName,BirthYear,Equipment,Event
 1,Leslie Watson,F_OEM_WPC,UK,43.7,75,85,-90,85,,57.5,62.5,-65,62.5,,100,-105,-105,100,,247.5,44,F,,1948,Multi-ply,SBD
 2,Denise Mellor,F_OEM_WPC,UK,43.7,37.5,42.5,50,50,,37.5,40,-42.5,40,,65,75,-85,75,,165,44,F,,,Multi-ply,SBD
-1,Gina Iaquaniellano,F_OEM_WPC,UK,51.5,70,105,125,125,,40,60,-70,60,,110,-130,130,130,,315,52,F,,1972,Multi-ply,SBD
+1,Gina Iaquaniello,F_OEM_WPC,UK,51.5,70,105,125,125,,40,60,-70,60,,110,-130,130,130,,315,52,F,,1972,Multi-ply,SBD
 1,Mary Lemasters,F_TEM_2_WPC,USA,55.7,117.5,130,-137.5,130,,52.5,57.5,-67.5,57.5,,115,-125,-125,115,,302.5,56,F,,1993,Multi-ply,SBD
 1,Emma Weston,F_OEM_WPC,UK,56,100,-115,-115,100,,55,60,-65,60,,110,120,-130,120,,280,56,F,,,Multi-ply,SBD
 1,Kristine Grigorjeva,F_OEM_WPC,UK,59.8,120,130,-142.5,130,,60,70,-75,70,,130,142.5,145,145,,345,60,F,,1980,Multi-ply,SBD
@@ -35,7 +35,7 @@ DQ,Mohammed Youssef,M_OEM_WPC,Egypt,56,190,-205,205,205,,125,-135,135,135,,-190,
 1,David Benkik,M_TEM_2_WPC,Slovakia,73.8,190,215,230,230,,85,92.5,100,100,,200,-220,225,225,,555,75,M,,,Multi-ply,SBD
 1,Jordan Dunn,M_TEM_3_WPC,USA,74.4,315,337.5,-352.5,337.5,,-217.5,217.5,-232.5,217.5,,232.5,252.5,262.5,262.5,-272.5,817.5,75,M,,1991,Multi-ply,SBD
 1,Callum Cook,M_JEM_WPC,UK,71.3,230,-250,-250,230,,150,-165,165,165,,230,-252.5,,230,,625,75,M,,,Multi-ply,SBD
-2,John Corcoran,M_JEM_WPC,UK,74.3,210,220,225,225,,115,-120,120,120,,180,195,-200,195,,540,75,M,,,Multi-ply,SBD
+2,John Corcoran #1,M_JEM_WPC,UK,74.3,210,220,225,225,,115,-120,120,120,,180,195,-200,195,,540,75,M,,,Multi-ply,SBD
 3,Luke Corcoran,M_JEM_WPC,UK,73.7,-210,210,220,220,,90,-95,-95,90,,190,200,210,210,,520,75,M,,,Multi-ply,SBD
 1,Ilya Kokorev,M_OEM_WPC,Russia,74,310,325,335,335,,222.5,-230,230,230,,260,275,290,290,,855,75,M,Илья Кокорев,1973,Multi-ply,SBD
 2,Ibrahim Abukala,M_OEM_WPC,Egypt,73.8,300,340,345,345,,170,185,-190,185,,260,280,-290,280,,810,75,M,,1966,Multi-ply,SBD
@@ -164,14 +164,14 @@ DQ,Ano Turtiainen,M_OEM_WPC,Finland,134.5,-470,-470,-502.5,,,,,,,,,,,,,,140,M,,1
 3,Mina Ebeed,M_JEM_WPC,Egypt,,,,,250,,,,,220,,,,,260,,730,140+,M,,1988,Multi-ply,SBD
 1,Ahmed Hassanin,M_OEM_WPC,Egypt,180,420,440,,440,,-280,280,300,300,,250,280,300,300,,1040,140+,M,,1985,Multi-ply,SBD
 2,Philippe Crets,M_OEM_WPC,Belgium,144.6,-375,-395,395,395,,-265,270,-280,270,,310,340,-375,340,,1005,140+,M,,1976,Multi-ply,SBD
-3,Daivd Fizhenry,M_OEM_WPC,Ireland,157.2,-400,-400,400,400,,290,-310,-310,290,,280,-310,-317.5,280,,970,140+,M,,,Multi-ply,SBD
+3,David Fizhenry,M_OEM_WPC,Ireland,157.2,-400,-400,400,400,,290,-310,-310,290,,280,-310,-317.5,280,,970,140+,M,,,Multi-ply,SBD
 4,Gunnar De Vadder,M_OEM_WPC,Belgium,143.6,330,-350,,330,,240,260,-272.5,260,,240,270,-280,270,,860,140+,M,,1983,Multi-ply,SBD
 DQ,Kari Markku Kalliola,M_OEM_WPC,Finland,167,-455,-455,-455,,,360,380,-400,380,,,,,,,,140+,M,,1963,Multi-ply,SBD
 DQ,Kieran Kidder,M_OEM_WPC,USA,165.8,-460,-460,-460,,,,,,,,,,,,,,140+,M,,1969,Multi-ply,SBD
 DQ,John Ewing,M_OEM_WPC,USA,147.8,-487.5,-487.5,-487.5,,,,,,,,,,,,,,140+,M,,1980,Multi-ply,SBD
 1,Tibor Mészáros,M_MEM_1_WPC,Hungary,145,300,330,360,360,,150,160,,160,,320,-380,,320,,840,140+,M,,1967,Multi-ply,SBD
 1,Leslie Watson,F_OEM_WPC,UK,43.7,,,,,,57.5,62.5,-65,62.5,,,,,,,62.5,44,F,,1948,Multi-ply,B
-1,Gina Iaquaniellano,F_OEM_WPC,UK,51.5,,,,,,40,60,-70,60,,,,,,,60,52,F,,1972,Multi-ply,B
+1,Gina Iaquaniello,F_OEM_WPC,UK,51.5,,,,,,40,60,-70,60,,,,,,,60,52,F,,1972,Multi-ply,B
 1,Mari Asp,F_OEM_WPC,USA,55.3,,,,,,-130,130,-145,130,,,,,,,130,56,F,,1975,Multi-ply,B
 1,Anne Heikkilä,F_OEM_WPC,Finland,66.8,,,,,,135,145,155,155,,,,,,,155,67.5,F,,1978,Multi-ply,B
 1,Chantal Rostagnat,F_MEM_1_WPC,France,65.1,,,,,,70,-75,-75,70,,,,,,,70,67.5,F,,1967,Multi-ply,B

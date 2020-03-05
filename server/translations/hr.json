@@ -25,6 +25,7 @@
         "records": "Records",
         "meets": "Natjecanja",
         "data": "Podaci",
+        "apps": "Apps",
         "status": "Status Projekta",
         "faq": "ČPP",
         "contact": "Kontakt",
@@ -53,9 +54,17 @@
         "mcculloch": "McCulloch",
         "glossbrenner": "Gloss",
         "ipfpoints": "IPF",
+    "dots": "Dots",
         "num_lifters": "Broj natjecatelja"
     },
     "country": {
+	       "africa": "Africa",
+	       "antarctica": "Antarctica",
+	       "asia": "Asia",
+	       "europe": "Europe",
+	       "south_america": "South America",
+	       "north_america": "North America",
+	       "oceania": "Oceania",
         "afghanistan": "Afganistan",
         "albania": "Albanija",
         "algeria": "Alžir",
@@ -101,6 +110,7 @@
         "denmark": "Danska",
         "djibouti": "Džibuti",
         "dominicanrepublic": "Dominikanska Republika",
+        "eastgermany": "East Germany",
         "easttimor": "Istočni Timor",
         "ecuador": "Ekvador",
         "egypt": "Egipat",
@@ -238,6 +248,10 @@
     "buttons": {
         "search": "Pretraži"
     },
+    "labels": {
+        "sort": "Sort",
+        "category": "Category"
+    },
     "selectors": {
         "equipment": {
             "raw": "Raw",
@@ -297,11 +311,14 @@
             "all_tested": "Svi testirani natjecatelji",
             "international": "Internacionalno",
             "regional": "Regionalno",
+	    "continents": "Continents",
+	    "countries": "Countries",
             "all_usa": "Svi američki natjecatelji",
             "all_argentina": "Svi argentinski natjecatelji",
             "all_australia": "Svi australski natjecatelji",
             "all_austria": "All Austrian Lifters",
             "all_belarus": "Svi bjeloruski natjecatelji",
+            "all_bosniaandherzegovina": "All Lifters from Bosnia and Herzegovina",
             "all_brazil": "Svi brazilski natjecatelji",
             "all_canada": "Svi kanadski natjecatelji",
             "all_chile": "All Chilean Lifters",
@@ -312,6 +329,7 @@
             "all_denmark": "All Danish Lifters",
             "all_finland": "Svi finski natjecatelji",
             "all_france": "Svi francuski natjecatelji",
+            "all_georgia": "All Georgian Lifters",
             "all_germany": "Svi njemački natjecatelji",
             "all_greece": "Svi grčki natjecatelji",
             "all_hongkong": "All Hong Kong Lifters",
@@ -354,10 +372,20 @@
             "all_uk": "Svi natjecatelji Ujedinjenog Kraljevstva",
             "all_uk_tested": "Svi testirani natjecatelji Ujedinjenog Kraljevstva",
             "all_ukraine": "Svi ukrajinski natjecatelji",
-            "all_vietnam": "All Vietnamese Lifters"
+            "all_vietnam": "All Vietnamese Lifters",
+	    "all_affiliates": "All Affiliates",
+	    "all_internationals": "All Internationals"
         },
         "ageclass": {
-            "all": "Sva godišta"
+            "all": "Sva godišta",
+	    "ipf_open": "Open",
+	    "ipf_subjunior": "Sub-Junior",
+	    "ipf_junior": "Junior",
+	    "ipf_senior": "Senior",
+	    "ipf_master1": "Master I",
+	    "ipf_master2": "Master II",
+	    "ipf_master3": "Master III",
+	    "ipf_master4": "Master IV"
         }
     },
     "lifter_page": {

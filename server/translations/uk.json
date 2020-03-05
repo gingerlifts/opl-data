@@ -25,6 +25,7 @@
                 "records": "Рекорди",
                 "meets": "Змагання",
                 "data": "Дані",
+		"apps": "Apps",
                 "status": "Статус проекту",
                 "faq": "Запитання-відповіді",
                 "contact": "Контакти",
@@ -51,11 +52,19 @@
                 "total": "Сума",
                 "wilks": "Уілкс",
                 "mcculloch": "МакКалох",
-                "glossbrenner": "Gloss",
+                "glossbrenner": "Глосс",
                 "ipfpoints": "IPF",
+		"dots": "Dots",
                 "num_lifters": "Учасники"
         },
         "country": {
+	    "africa": "Africa",
+	    "antarctica": "Antarctica",
+	    "asia": "Asia",
+	    "europe": "Europe",
+	    "south_america": "South America",
+	    "north_america": "North America",
+	    "oceania": "Oceania",
             "afghanistan": "Афганістан",
             "albania": "Албанія",
             "algeria": "Алжир",
@@ -101,6 +110,7 @@
             "denmark": "Данія",
             "djibouti": "Джибуті",
             "dominicanrepublic": "Домініканська Республіка",
+            "eastgermany": "East Germany",
             "easttimor": "Східний Тимор",
             "ecuador": "Еквадор",
             "egypt": "Єгипет",
@@ -238,6 +248,10 @@
         "buttons": {
                 "search": "Шукати"
         },
+	"labels": {
+		"sort": "Sort",
+		"category": "Category"
+	},
         "selectors": {
                 "equipment": {
                         "raw": "Без",
@@ -297,11 +311,14 @@
                         "all_tested": "Усі атлети здавші д.к.",
                         "international": "Міжнародні",
                         "regional": "Регіональні",
+			"continents": "Continents",
+			"countries": "Countries",
                         "all_usa": "Всі американські атлети",
                         "all_argentina": "Всі аргентинські атлети",
                         "all_australia": "Всі австралійські атлети",
                         "all_austria": "Всі австрійські атлети",
                         "all_belarus": "Усі білоруські атлети",
+                        "all_bosniaandherzegovina": "All Lifters from Bosnia and Herzegovina",
                         "all_brazil": "Усі бразильські атлети",
                         "all_canada": "Усі канадійські атлети",
                         "all_chile": "Усі чилійські атлети",
@@ -312,6 +329,7 @@
                         "all_denmark": "Усі атлети данії",
                         "all_finland": "Усі фінські атлети",
                         "all_france": "Усі французькі атлети",
+                        "all_georgia": "All Georgian Lifters",
                         "all_germany": "Усі німецькі атлети",
                         "all_greece": "Усі атлети греції",
                         "all_hongkong": "Усі атлети гонг конгу",
@@ -354,10 +372,20 @@
                         "all_uk": "Усі британські атлети",
                         "all_uk_tested": "Усі британські атлети з д.к.",
                         "all_ukraine": "Всі українські атлети",
-                        "all_vietnam": "Усі в'єтнамські атлети"
+                        "all_vietnam": "Усі в'єтнамські атлети",
+			"all_affiliates": "All Affiliates",
+			"all_internationals": "All Internationals"
                 },
                 "ageclass": {
-                        "all": "Усі вікові групи"
+                        "all": "Усі вікові групи",
+			"ipf_open": "Open",
+			"ipf_subjunior": "Sub-Junior",
+			"ipf_junior": "Junior",
+			"ipf_senior": "Senior",
+			"ipf_master1": "Master I",
+			"ipf_master2": "Master II",
+			"ipf_master3": "Master III",
+			"ipf_master4": "Master IV"
                 }
         },
         "lifter_page": {

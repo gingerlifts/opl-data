@@ -10,13 +10,13 @@ DQ,52,F,Masters 1,Sally Bowers,1949,51.5,USA,115,,,,SBD,Single-ply
 1,67.5,F,Masters 1,Ellen Stein,1953,58.4,USA,152.5,80,162.5,395,SBD,Single-ply
 2,67.5,F,Masters 1,Adina Hyková,1943,56.4,Czechia,135,77.5,160,372.5,SBD,Single-ply
 3,67.5,F,Masters 1,Hana Takáčová,1954,61.5,Czechia,155,80,160,395,SBD,Single-ply
-4,67.5,F,Masters 1,Klothilde Bruder,1956,54.7,Germany,140,75,145,360,SBD,Single-ply
+4,67.5,F,Masters 1,Klothilde Herrmann,1956,54.7,Germany,140,75,145,360,SBD,Single-ply
 5,67.5,F,Masters 1,Lucienne Daumas,1955,55.1,France,130,77.5,150,357.5,SBD,Single-ply
 6,67.5,F,Masters 1,Anita Thimm,1950,59.9,Germany,132.5,77.5,160,370,SBD,Single-ply
 7,67.5,F,Masters 1,Anne B.Gabrielsen,1952,63.5,Norway,145,75,140,360,SBD,Single-ply
 8,67.5,F,Masters 1,Marta Lockhart,1957,54.9,Argentina,105,57.5,132.5,295,SBD,Single-ply
 1,67.5+,F,Masters 1,Irene King,1954,74.3,Canada,172.5,97.5,182.5,452.5,SBD,Single-ply
-2,67.5+,F,Masters 1,J. Morgan-Leifermann,1951,106.1,USA,185,102.5,165,452.5,SBD,Single-ply
+2,67.5+,F,Masters 1,Jan Morgan-Leifermann,1951,106.1,USA,185,102.5,165,452.5,SBD,Single-ply
 3,67.5+,F,Masters 1,Eva Paulig,1954,77.2,Germany,127.5,100,150,377.5,SBD,Single-ply
 4,67.5+,F,Masters 1,Sasha Meshkov,1957,68.3,USA,127.5,65,145,337.5,SBD,Single-ply
 5,67.5+,F,Masters 1,Hildegard Utecht,1951,68.4,Germany,125,77.5,130,332.5,SBD,Single-ply
@@ -114,7 +114,7 @@ DD,110,M,Masters 1,Nirmaljeet Singh,1956,102.6,India,285,160,295,,SBD,Single-ply
 4,67.5,M,Masters 2,Alfredo Urrutia,1931,65,Spain,80,65,130,275,SBD,Single-ply
 1,75,M,Masters 2,Harrie van den Brand,1948,74.4,Netherlands,230,150,250,630,SBD,Single-ply
 2,75,M,Masters 2,Georges Llosa,1942,73.7,France,202.5,135,225,562.5,SBD,Single-ply
-3,75,M,Masters 2,Juan Pereyra,1946,74.7,Argentina,210,132.5,220,562.5,SBD,Single-ply
+3,75,M,Masters 2,Juan Pereyra #1,1946,74.7,Argentina,210,132.5,220,562.5,SBD,Single-ply
 4,75,M,Masters 2,Toshihiko Satoh,1940,74,Japan,200,150,210,560,SBD,Single-ply
 5,75,M,Masters 2,Karel Šourek,1943,72.6,Czechia,200,115,225,540,SBD,Single-ply
 6,75,M,Masters 2,Dieter Renn,1935,73.2,Germany,195,115,220,530,SBD,Single-ply

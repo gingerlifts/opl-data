@@ -64,6 +64,13 @@ pub fn filter_ipfpoints(entry: &Entry) -> bool {
     entry.ipfpoints > Points::from_i32(0)
 }
 
+/// Whether an `Entry` should be part of `ByDots` rankings and records.
+#[inline]
+pub fn filter_dots(entry: &Entry) -> bool {
+    // Dots points are defined to be zero if DQ.
+    entry.dots > Points::from_i32(0)
+}
+
 /// Defines an `Ordering` of Entries by Squat.
 #[inline]
 pub fn cmp_squat(meets: &[Meet], a: &Entry, b: &Entry) -> cmp::Ordering {
@@ -357,6 +364,9 @@ pub fn get_entry_indices_for<'db>(
     // Apply the Year filter.
     cur = match selection.year {
         YearSelection::AllYears => cur,
+        YearSelection::Year2020 => PossiblyOwnedNonSortedNonUnique::Owned(
+            cur.intersect(&cache.log_linear_time.year2020),
+        ),
         YearSelection::Year2019 => PossiblyOwnedNonSortedNonUnique::Owned(
             cur.intersect(&cache.log_linear_time.year2019),
         ),
@@ -482,9 +492,9 @@ pub fn get_entry_indices_for<'db>(
                         SubJuniorsY14Y18 => byclass == BirthYearClass::ClassY14Y18,
                         JuniorsY19Y23 => byclass == BirthYearClass::ClassY19Y23,
                         SeniorsY24Y39 => byclass == BirthYearClass::ClassY24Y39,
-                        MastersY40Y49 => byclass == BirthYearClass::ClassY40Y49,
-                        MastersY50Y59 => byclass == BirthYearClass::ClassY50Y59,
-                        MastersY60Y69 => byclass == BirthYearClass::ClassY60Y69,
+                        MastersOverY40 => byclass >= BirthYearClass::ClassY40Y49,
+                        MastersOverY50 => byclass >= BirthYearClass::ClassY50Y59,
+                        MastersOverY60 => byclass >= BirthYearClass::ClassY60Y69,
                         MastersOverY70 => byclass == BirthYearClass::ClassY70Y999,
                     };
                     if matches {
@@ -584,6 +594,7 @@ pub fn get_full_sorted_uniqued<'db>(
             SortSelection::ByBench => &cache.constant_time.bench,
             SortSelection::ByDeadlift => &cache.constant_time.deadlift,
             SortSelection::ByTotal => &cache.constant_time.total,
+            SortSelection::ByDots => &cache.constant_time.dots,
             SortSelection::ByGlossbrenner => &cache.constant_time.glossbrenner,
             SortSelection::ByIPFPoints => &cache.constant_time.ipfpoints,
             SortSelection::ByMcCulloch => &cache.constant_time.mcculloch,
@@ -640,6 +651,9 @@ pub fn get_full_sorted_uniqued<'db>(
         }
         SortSelection::ByTotal => {
             cur.sort_and_unique_by(&entries, &meets, cmp_total, filter_total)
+        }
+        SortSelection::ByDots => {
+            cur.sort_and_unique_by(&entries, &meets, cmp_dots, filter_dots)
         }
         SortSelection::ByGlossbrenner => cur.sort_and_unique_by(
             &entries,

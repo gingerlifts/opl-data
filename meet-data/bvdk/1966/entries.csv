@@ -17,7 +17,7 @@ Place,Name,WeightClassKg,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Be
 2,Daniel Engeser,,70.3,152.5,162.5,170,170,90,95,-100,95,170,-182.5,182.5,182.5,447.5,KSC Attila Dachau,M,Raw,Open,SBD
 2,Marie Hauschild,,70.5,145,155,160,160,75,80,82.5,82.5,-142.5,-142.5,142.5,142.5,385,SAV Erfurt,F,Raw,Open,SBD
 4,Heike Reichenauer,,75.3,117.5,125,-130,125,67.5,72.5,-75,72.5,130,137.5,-142.5,137.5,335,Bavaria Landshut,F,Raw,Open,SBD
-2,Joshua Wright,,76.3,205,215,225,225,160,162.5,165,165,250,260,267.5,267.5,657.5,Greifenpower,M,Raw,Open,SBD
+2,Joshua Wright #1,,76.3,205,215,225,225,160,162.5,165,165,250,260,267.5,267.5,657.5,Greifenpower,M,Raw,Open,SBD
 2,Martin Wimmer,,80.7,165,175,-187.5,175,105,117.5,122.5,122.5,-215,-225,225,225,522.5,Bavaria Landshut,M,Raw,Open,SBD
 1,Sebastian Kohl,,82.3,195,210,215,215,115,120,122.5,122.5,220,230,240,240,577.5,KSC Attila Dachau,M,Raw,Open,SBD
 1,Maximilian Eisinger,,82.7,240,260,267.5,267.5,157.5,167.5,172.5,172.5,250,270,275,275,715,USV Jena e.V.,M,Raw,Open,SBD
@@ -45,7 +45,7 @@ Place,Name,WeightClassKg,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Be
 1,Michael Käser,,105.9,182.5,192.5,200,200,130,137.5,140,140,187.5,200,210,210,550,SV Johannis Powerlifting,M,Raw,Open,SBD
 4,Nicolas Göb,,106.3,200,210,215,215,110,115,-120,115,227.5,237.5,-245,237.5,567.5,Powerlifting Würzburg e.V.,M,Raw,Open,SBD
 2,Mark Traut,,108,250,270,-290,270,150,160,170,170,290,315,-330,315,755,Aachener Kraftsport,M,Raw,Open,SBD
-3,Michael Hafner,,110.5,205,215,225,225,125,130,-135,130,205,212.5,220,220,575,Bavaria Landshut,M,Raw,Open,SBD
+3,Michael Häfner,,110.5,205,215,225,225,125,130,-135,130,205,212.5,220,220,575,Bavaria Landshut,M,Raw,Open,SBD
 4,Max Reiz,,111.4,190,-205,-215,190,130,-140,,130,190,205,215,215,535,Greifenpower,M,Raw,Open,SBD
 2,René Schertel,,111.9,190,205,-210,205,145,152.5,157.5,157.5,190,212.5,-225,212.5,575,AC Forchheim,M,Raw,Open,SBD
 1,Andreas Reiz,,115.6,285,295,302.5,302.5,185,-190,-190,185,310,320,-327.5,320,807.5,Greifenpower,M,Raw,Open,SBD

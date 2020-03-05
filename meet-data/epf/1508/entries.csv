@@ -11,7 +11,7 @@ Place,Name,BirthYear,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchK
 3,Tuomas Nikkilä,1978,Finland,73.47,225,-232.5,232.5,232.5,232.5,74,Open,B,M,Single-ply
 4,Markus Schick,1976,Germany,73.73,232.5,-240,-240,232.5,232.5,74,Open,B,M,Single-ply
 5,Renars Dronga,1988,Latvia,73.04,-225,225,-232.5,225,225,74,Open,B,M,Single-ply
-6,Raik Guenterberg,1989,Germany,73.57,210,220,-227.5,220,220,74,Open,B,M,Single-ply
+6,Raik Günterberg,1989,Germany,73.57,210,220,-227.5,220,220,74,Open,B,M,Single-ply
 1,Aleksandr Gromov,1981,Russia,81.62,260,272.5,-280,272.5,272.5,83,Open,B,M,Single-ply
 2,Maksim Beloborodov,1983,Russia,82.44,-270,270,-280,270,270,83,Open,B,M,Single-ply
 3,Andriy Andruchshenko,1987,Ukraine,83,-250,250,255,255,255,83,Open,B,M,Single-ply
@@ -34,7 +34,7 @@ DQ,Jan Wegiera,1965,Poland,92.97,-300,-305,-305,,,93,Open,B,M,Single-ply
 1,Vadym Dovhanyuk,1987,Ukraine,104.64,317.5,327.5,-336,327.5,327.5,105,Open,B,M,Single-ply
 2,Viktor Leskovets,1990,Ukraine,103.46,300,310,320,320,320,105,Open,B,M,Single-ply
 3,Stefan Jamroz,1980,Sweden,104.84,312.5,315,-322.5,315,315,105,Open,B,M,Single-ply
-4,Tamas Sebestyen,1980,Hungary,103.82,290,302.5,-312.5,302.5,302.5,105,Open,B,M,Single-ply
+4,Tamás Sebestyén,1980,Hungary,103.82,290,302.5,-312.5,302.5,302.5,105,Open,B,M,Single-ply
 5,Allan Grenier,1990,France,104.32,-302.5,302.5,-315,302.5,302.5,105,Open,B,M,Single-ply
 6,Tomasz Obcowski,1979,Poland,104.49,-295,295,-305,295,295,105,Open,B,M,Single-ply
 7,Khaled Ghazal,1972,Czechia,104.67,255,265,275,275,275,105,Open,B,M,Single-ply
@@ -68,7 +68,7 @@ DQ,Lasse Leinonen,1973,Finland,119.5,-310,-310,-310,,,120,Open,B,M,Single-ply
 4,Anja Schreiner,1993,Germany,47,-90,90,-105,90,90,47,Open,B,F,Single-ply
 1,Olga Golubeva,1970,Russia,51.59,112.5,117.5,120,120,120,52,Open,B,F,Single-ply
 2,Marcela Sandvik,1974,Finland,51.21,112.5,115,117.5,117.5,117.5,52,Open,B,F,Single-ply
-3,Monika Nyers,1978,Hungary,51.57,107.5,-115,115,115,115,52,Open,B,F,Single-ply
+3,Mónika Nyers,1978,Hungary,51.57,107.5,-115,115,115,115,52,Open,B,F,Single-ply
 4,Marta Sroczyk,1995,Poland,51.22,100,-107.5,107.5,107.5,107.5,52,Open,B,F,Single-ply
 5,Audrey Mingot,1993,France,51.16,105,-110,-110,105,105,52,Open,B,F,Single-ply
 6,Madlena Kratiuk,1989,Poland,51.45,-80,-80,80,80,80,52,Open,B,F,Single-ply
@@ -88,7 +88,7 @@ DQ,Lasse Leinonen,1973,Finland,119.5,-310,-310,-310,,,120,Open,B,M,Single-ply
 DQ,Iryna Vorobiova,1980,Ukraine,62.58,-117.5,-117.5,-117.5,,,63,Open,B,F,Single-ply
 1,Yulia Chistiakova,1989,Russia,71.79,160,167.5,-172.5,167.5,167.5,72,Open,B,F,Single-ply
 2,Ankie Timmers,1986,Netherlands,71.47,-150,155,-167.5,155,155,72,Open,B,F,Single-ply
-3,Vivien Roeder,1988,Germany,71.08,140,145,147.5,147.5,147.5,72,Open,B,F,Single-ply
+3,Vivien Röder,1988,Germany,71.08,140,145,147.5,147.5,147.5,72,Open,B,F,Single-ply
 4,Bianca Wienroither,1984,Austria,71.48,127.5,137.5,-150,137.5,137.5,72,Open,B,F,Single-ply
 5,Yvonne Wamnes,1992,Denmark,71.66,130,-135,135,135,135,72,Open,B,F,Single-ply
 6,Ina Scholz,1978,Germany,66.57,120,125,127.5,127.5,127.5,72,Open,B,F,Single-ply
@@ -103,5 +103,5 @@ DQ,Andrea Hammarström,1977,Sweden,69.7,-165,-165,-165,,,72,Open,B,F,Single-ply
 2,Brenda van der Meulen,1978,Netherlands,110.26,180,187.5,195,195,195,84+,Open,B,F,Single-ply
 3,Melinda Lombosi,1978,Hungary,122.18,180,187.5,195,195,195,84+,Open,B,F,Single-ply
 4,Ágnes Szabó,1988,Hungary,109.34,185,192.5,-197.5,192.5,192.5,84+,Open,B,F,Single-ply
-5,Tetiana Bilousova,1975,Ukraine,102.58,155,-162.5,-170,155,155,84+,Open,B,F,Single-ply
+5,Tetyana Belousova,1975,Ukraine,102.58,155,-162.5,-170,155,155,84+,Open,B,F,Single-ply
 DQ,Annette Rehoff Christensen,1965,Denmark,125.27,-175,-182.5,-190,,,84+,Open,B,F,Single-ply

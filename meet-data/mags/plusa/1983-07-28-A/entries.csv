@@ -1,16 +1,16 @@
 Name,WeightClassKg,Division,AgeRange,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
-G. Clark,52,Open,,M,75,60,120,255,SBD,Single-ply,1
+Geoff Clark,52,Open,,M,75,60,120,255,SBD,Single-ply,1
 Dario Mucilli,56,Open,,M,187.5,102.5,170,460,SBD,Single-ply,1
 Anthony Pallas,56,Open,,M,150,85,172.5,407.5,SBD,Single-ply,2
 John Brant,56,Open,,M,147.5,85,170,402.5,SBD,Single-ply,3
-P. Ciola,56,Open,,M,107.5,60,127.5,295,SBD,Single-ply,4
+Paul Ciola,56,Open,,M,107.5,60,127.5,295,SBD,Single-ply,4
 Daniel Capece,60,Open,,M,205,132.5,207.5,545,SBD,Single-ply,1
 M. Rose,60,Open,,M,155,102.5,210,467.5,SBD,Single-ply,2
 Robert Herbst,60,Open,,M,130,117.5,200,447.5,SBD,Single-ply,3
 David Mollevik,60,Open,,M,162.5,115,160,437.5,SBD,Single-ply,4
 Dan Millrood,60,Open,,M,155,107.5,167.5,430,SBD,Single-ply,5
 K. Norton,60,Open,,M,137.5,107.5,165,410,SBD,Single-ply,6
-M. Kunze,60,Open,,M,152.5,87.5,167.5,407.5,SBD,Single-ply,7
+Matthew Kunze,60,Open,,M,152.5,87.5,167.5,407.5,SBD,Single-ply,7
 F. Wagner,60,Open,,M,155,80,162.5,397.5,SBD,Single-ply,8
 J. Chadwick,60,Open,,M,115,90,180,385,SBD,Single-ply,9
 George Niesyty,67.5,Open,,M,230,145,260,635,SBD,Single-ply,1
@@ -31,11 +31,11 @@ L. Harlowe,75,Open,,M,182.5,125,240,547.5,SBD,Single-ply,5
 M. Collins,75,Open,,M,187.5,110,247.5,545,SBD,Single-ply,6
 R. Tousan,75,Open,,M,195,125,222.5,542.5,SBD,Single-ply,7
 B. Pancaldo,75,Open,,M,197.5,135,205,537.5,SBD,Single-ply,8
-D. Johnson,75,Open,,M,185,132.5,210,527.5,SBD,Single-ply,9
+Darryl Johnson,75,Open,,M,185,132.5,210,527.5,SBD,Single-ply,9
 J. Martuge,75,Open,,M,190,130,185,505,SBD,Single-ply,10
 S. Brier,75,Open,,M,185,112.5,192.5,490,SBD,Single-ply,11
 K. Edwards,75,Open,,M,150,120,185,455,SBD,Single-ply,12
-K. Dutro,75,Open,,M,230,,,,SBD,Single-ply,DQ
+Keala Dutro,75,Open,,M,230,,,,SBD,Single-ply,DQ
 M. Barricelle,75,Open,,M,,,,,SBD,Single-ply,DQ
 D. Greene,82.5,Open,,M,272.5,162.5,265,700,SBD,Single-ply,1
 John Hopkins,82.5,Open,,M,237.5,157.5,290,685,SBD,Single-ply,2
@@ -57,7 +57,7 @@ L. Lafay,82.5,Open,,M,,,,,SBD,Single-ply,DQ
 Joe Sarratori,90,Open,,M,285,177.5,272.5,735,SBD,Single-ply,1
 A. Coratti,90,Open,,M,272.5,165,272.5,710,SBD,Single-ply,2
 Gil Scarazzini,90,Open,,M,250,162.5,272.5,685,SBD,Single-ply,3
-N. Confessore,90,Open,,M,245,172.5,245,662.5,SBD,Single-ply,4
+Neil Confessore,90,Open,,M,245,172.5,245,662.5,SBD,Single-ply,4
 Andy Putrello,90,Open,,M,250,150,260,660,SBD,Single-ply,5
 M. Duffy,90,Open,,M,237.5,162.5,250,650,SBD,Single-ply,6
 J. King,90,Open,,M,227.5,150,272.5,650,SBD,Single-ply,7
@@ -65,7 +65,7 @@ T. Funaro,90,Open,,M,242.5,127.5,275,645,SBD,Single-ply,8
 F. Massa,90,Open,,M,230,187.5,215,632.5,SBD,Single-ply,9
 R. Briante,90,Open,,M,237.5,120,245,602.5,SBD,Single-ply,10
 M. Ferry,90,Open,,M,217.5,130,247.5,595,SBD,Single-ply,11
-H. Gelchinsky,90,Open,,M,212.5,140,227.5,580,SBD,Single-ply,12
+Harold Gelchinsky,90,Open,,M,212.5,140,227.5,580,SBD,Single-ply,12
 J. Bartley,90,Open,,M,207.5,112.5,227.5,547.5,SBD,Single-ply,13
 R. Charleston,90,Open,,M,172.5,135,220,527.5,SBD,Single-ply,14
 J. Hooper,90,Open,,M,192.5,110,197.5,500,SBD,Single-ply,15
@@ -83,9 +83,9 @@ J. Bowman,100,Open,,M,242.5,155,225,622.5,SBD,Single-ply,11
 N. O'Connor,100,Open,,M,220,152.5,275,647.5,SBD,Single-ply,7
 J. Lomio,100,Open,,M,237.5,157.5,250,645,SBD,Single-ply,8
 R. Morris,100,Open,,M,240,177.5,227.5,645,SBD,Single-ply,9
-T. Ciola,100,Open,,M,227.5,160,237.5,625,SBD,Single-ply,10
+Tom Ciola,100,Open,,M,227.5,160,237.5,625,SBD,Single-ply,10
 James Nichols,100,Open,,M,237.5,155,230,622.5,SBD,Single-ply,12
-W. Anderson,100,Open,,M,195,157.5,262.5,615,SBD,Single-ply,13
+Walt Anderson,100,Open,,M,195,157.5,262.5,615,SBD,Single-ply,13
 Peter Brahm,100,Open,,M,,,,,SBD,Single-ply,DQ
 Marty Latko,110,Open,,M,330,170,295,795,SBD,Single-ply,1
 Chris Machin,110,Open,,M,320,187.5,277.5,785,SBD,Single-ply,2
@@ -94,9 +94,9 @@ K. Potter,110,Open,,M,265,185,257.5,707.5,SBD,Single-ply,4
 E. Ruquet,110,Open,,M,295,142.5,265,702.5,SBD,Single-ply,5
 Bob Dean,110,Open,,M,275,165,250,690,SBD,Single-ply,6
 B. Welch,110,Open,,M,232.5,160,262.5,655,SBD,Single-ply,7
-R. Gregory,110,Open,,M,260,142.5,250,652.5,SBD,Single-ply,8
+Rip Gregory,110,Open,,M,260,142.5,250,652.5,SBD,Single-ply,8
 J. Martin,110,Open,,M,257.5,162.5,222.5,642.5,SBD,Single-ply,9
-M. Mack,110,Open,,M,232.5,157.5,232.5,622.5,SBD,Single-ply,10
+Mike Mack,110,Open,,M,232.5,157.5,232.5,622.5,SBD,Single-ply,10
 A. Heins,110,Open,,M,235,155,227.5,617.5,SBD,Single-ply,11
 John Martin,125,Open,,M,342.5,237.5,290,870,SBD,Single-ply,1
 Dale Stefano,125,Open,,M,305,187.5,295,787.5,SBD,Single-ply,2
@@ -120,8 +120,8 @@ S. Caron,75,Open,,F,115,45,125,285,SBD,Single-ply,1
 Marcus Padovan,52,Teen 14-15,14-15,M,112.5,62.5,127.5,302.5,SBD,Single-ply,1
 N. Garone,52,Teen 14-15,14-15,M,100,57.5,120,277.5,SBD,Single-ply,2
 Frankie Mintz,56,Teen 14-15,14-15,M,130,65,150,345,SBD,Single-ply,1
-P. Ciola,56,Teen 14-15,14-15,M,107.5,60,127.5,295,SBD,Single-ply,2
-J. Malone,90,Teen 14-15,14-15,M,210,130,200,540,SBD,Single-ply,1
+Paul Ciola,56,Teen 14-15,14-15,M,107.5,60,127.5,295,SBD,Single-ply,2
+Jim Malone,90,Teen 14-15,14-15,M,210,130,200,540,SBD,Single-ply,1
 J. Long,90,Teen 14-15,14-15,M,125,90,162.5,377.5,SBD,Single-ply,2
 Anthony Pallas,56,Teen 16-17,16-17,M,150,85,172.5,407.5,SBD,Single-ply,1
 F. Jenkins,56,Teen 16-17,16-17,M,77.5,65,100,242.5,SBD,Single-ply,2
@@ -161,13 +161,13 @@ John Hopkins,82.5,Submasters 35-39,35-39,M,237.5,157.5,290,685,SBD,Single-ply,1
 Tony Cardillo,82.5,Submasters 35-39,35-39,M,210,140,210,560,SBD,Single-ply,2
 R. Zayak,82.5,Submasters 35-39,35-39,M,185,155,192.5,532.5,SBD,Single-ply,3
 Bill Clute,90,Submasters 35-39,35-39,M,242.5,137.5,240,620,SBD,Single-ply,1
-H. Gelchinsky,90,Submasters 35-39,35-39,M,212.5,140,227.5,580,SBD,Single-ply,2
+Harold Gelchinsky,90,Submasters 35-39,35-39,M,212.5,140,227.5,580,SBD,Single-ply,2
 F. Salamone,90,Submasters 35-39,35-39,M,217.5,152.5,205,575,SBD,Single-ply,3
 George Galster,100,Submasters 35-39,35-39,M,297.5,182.5,285,765,SBD,Single-ply,1
-T. Ciola,100,Submasters 35-39,35-39,M,227.5,160,237.5,625,SBD,Single-ply,2
+Tom Ciola,100,Submasters 35-39,35-39,M,227.5,160,237.5,625,SBD,Single-ply,2
 James Nichols,100,Submasters 35-39,35-39,M,237.5,155,230,622.5,SBD,Single-ply,3
-R. Gregory,110,Submasters 35-39,35-39,M,260,142.5,250,652.5,SBD,Single-ply,1
-M. Mack,110,Submasters 35-39,35-39,M,232.5,157.5,232.5,622.5,SBD,Single-ply,2
+Rip Gregory,110,Submasters 35-39,35-39,M,260,142.5,250,652.5,SBD,Single-ply,1
+Mike Mack,110,Submasters 35-39,35-39,M,232.5,157.5,232.5,622.5,SBD,Single-ply,2
 A. Barclay,125,Submasters 35-39,35-39,M,220,160,250,630,SBD,Single-ply,1
 Cody Bartlett,67.5,Masters 40-44,40-44,M,110,100,132.5,342.5,SBD,Single-ply,1
 R. Titus,75,Masters 40-44,40-44,M,192.5,130,250,572.5,SBD,Single-ply,1
@@ -176,7 +176,7 @@ Sal Verdolino,90,Masters 40-44,40-44,M,190,145,237.5,572.5,SBD,Single-ply,2
 Tom Muscianisi,100,Masters 40-44,40-44,M,310,165,237.5,712.5,SBD,Single-ply,1
 R. Morris,100,Masters 40-44,40-44,M,240,177.5,227.5,645,SBD,Single-ply,2
 Bob Dean,110,Masters 40-44,40-44,M,275,165,250,690,SBD,Single-ply,1
-L. Schroeder,125,Masters 40-44,40-44,M,237.5,152.5,242.5,632.5,SBD,Single-ply,1
+Lenny Schroeder,125,Masters 40-44,40-44,M,237.5,152.5,242.5,632.5,SBD,Single-ply,1
 Oscar Jensen,125+,Masters 40-44,40-44,M,240,160,250,650,SBD,Single-ply,1
 Dillon Maier,67.5,Masters 45-49,45-49,M,172.5,105,207.5,485,SBD,Single-ply,1
 Larry Mintz,75,Masters 45-49,45-49,M,262.5,122.5,242.5,627.5,SBD,Single-ply,1
