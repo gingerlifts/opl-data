@@ -8,6 +8,7 @@ use opltypes::*;
 use crate::langpack::{self, get_localized_name, Language, Locale};
 use crate::opldb;
 use crate::pages::lifter::MeetResultsRow;
+use crate::pages::meet::points_column_title;
 
 /// The context object passed to `templates/disambiguation.tera`
 #[derive(Serialize)]
@@ -18,6 +19,7 @@ pub struct Context<'db> {
     pub language: Language,
     pub strings: &'db langpack::Translations,
     pub units: WeightUnits,
+    pub points_column_title: &'db str,
 
     pub variants: Vec<LifterResults<'db>>,
 }
@@ -34,6 +36,7 @@ impl<'db> Context<'db> {
     pub fn new(
         opldb: &'db opldb::OplDb,
         locale: &'db Locale,
+        points_system: PointsSystem,
         username_base: &str,
         lifter_ids: &[u32],
     ) -> Context<'db> {
@@ -53,7 +56,7 @@ impl<'db> Context<'db> {
                 // Display the meet results, most recent first.
                 let meet_results = entries
                     .into_iter()
-                    .map(|e| MeetResultsRow::from(opldb, locale, e))
+                    .map(|e| MeetResultsRow::from(opldb, locale, points_system, e))
                     .rev()
                     .collect();
 
@@ -80,6 +83,11 @@ impl<'db> Context<'db> {
             language: locale.language,
             strings: locale.strings,
             units: locale.units,
+            points_column_title: points_column_title(
+                points_system,
+                &locale,
+                points_system,
+            ),
             variants,
         }
     }
