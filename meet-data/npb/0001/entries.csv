@@ -1,4 +1,4 @@
-BodyweightKg,WeightClassKg,Name,Team,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Event,Equipment,Sex,Division
+Name,WeightClassKg,BodyweightKg,Team,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Event,Equipment,Sex,Division
 Marleen Houg,56,56,Spartacus,110,72.5,130,312.5,1,SBD,Single-ply,F,Open
 Aly Keizer,60,59.7,Spartacus,150,85,160,395,1,SBD,Single-ply,F,Open
 B. Hardus,60,58.8,Olympia,135,60,140,345,2,SBD,Single-ply,F,Open
