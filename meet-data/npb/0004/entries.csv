@@ -18,7 +18,7 @@ BodyweightKg,WeightClassKg,Name,Team,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Tot
 82.5,82.5,F. Koese,Atlas Nijmegen,-90,-90,90,90,90,2,M,B,Single-ply,Disabled
 89.5,90,L. Sunter,Essbra,165,170,-172.5,170,170,1,M,B,Single-ply,Disabled
 87.2,90,Aswin Kraal,Atlas Nijmegen,125,130,135,135,135,2,M,B,Single-ply,Disabled
-142.1,125+,Cees Ootjers,Atlas Nijmegen,150,155,160,160,160,1,M,B,Single-ply,Disabled
+142.1,100+,Cees Ootjers,Atlas Nijmegen,150,155,160,160,160,1,M,B,Single-ply,Disabled
 60,60,M. Saeed,Atlas Nijmegen,-90,90,-95,90,90,1,M,B,Single-ply,Open
 58.8,60,R. Amels,S.S.S.,77.5,-82.5,82.5,82.5,82.5,2,M,B,Single-ply,Open
 66.9,67.5,T. Deng,S.S.S.,-105,105,112.5,112.5,112.5,1,M,B,Single-ply,Open
@@ -35,7 +35,7 @@ BodyweightKg,WeightClassKg,Name,Team,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Tot
 82.2,82.5,P. Goezinne,Herculas Amsterdam,140,152.5,-160,152.5,152.5,5,M,B,Single-ply,Open
 82.4,82.5,E. de Smit,Terneuzen,130,-140,140,140,140,6,M,B,Single-ply,Open
 78.9,82.5,M. Annema,Burgum,125,132.5,-137.5,132.5,132.5,7,M,B,Single-ply,Open
-82.3,82.5,N. van der Vaart,Atlas Nijmegen,115,120,125,130,130,8,M,B,Single-ply,Open
+82.3,82.5,N. van der Vaart,Atlas Nijmegen,115,120,125,125,125,8,M,B,Single-ply,Open
 81.6,82.5,Wim Bever,Top-Fit,107.5,112.5,-115,112.5,112.5,9,M,B,Single-ply,Open
 82,82.5,G. Weber,Atlas Nijmegen,-145,-145,-145,,,DQ,M,B,Single-ply,Open
 88.3,90,A. Tool,Spartacus,160,170,180,180,180,1,M,B,Single-ply,Open
@@ -64,8 +64,8 @@ BodyweightKg,WeightClassKg,Name,Team,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Tot
 105.1,110,P. Colijn,Terneuzen,140,145,147.5,147.5,147.5,7,M,B,Single-ply,Open
 100.5,110,Johna Sanders,Top Fit,120,130,-135,130,130,8,M,B,Single-ply,Open
 100.6,110,M. van Nunen,Top Fit,-110,-110,110,110,110,9,M,B,Single-ply,Open
-123.6,125,Wim Wamsteeker,S.S.S.,210,-217.5,-217.5,210,210,1,M,B,Single-ply,Open
-111.5,125,John van Iren,Emmeloord,175,190,200,200,200,2,M,B,Single-ply,Open
-112.5,125,J. Martin,Spartacus,165,-175,-175,165,165,3,M,B,Single-ply,Open
-121.5,125,S. de Visser,Spartacus,165,-170,-170,165,165,4,M,B,Single-ply,Open
-144,125+,M. Lukken,Hercules Amsterdam,200,230,240,240,240,1,M,B,Single-ply,Open
+123.6,125,Wim Wamsteeker,S.S.S.,210,-217.5,-217.5,210,210,2,M,B,Single-ply,Open
+111.5,125,John van Iren,Emmeloord,175,190,200,200,200,3,M,B,Single-ply,Open
+112.5,125,J. Martin,Spartacus,165,-175,-175,165,165,4,M,B,Single-ply,Open
+121.5,125,S. de Visser,Spartacus,165,-170,-170,165,165,5,M,B,Single-ply,Open
+144,125,M. Lukken,Hercules Amsterdam,200,230,240,240,240,1,M,B,Single-ply,Open
