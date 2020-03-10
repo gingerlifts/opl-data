@@ -1,4 +1,4 @@
-WeightClassKg,Name,BodyweightKg,Team,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Event,Sex,Equipment,Division
+WeightClassKg,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Event,Sex,Equipment,Division
 75,Wim van Dam,LKV Leiden,68.7,190,125,190,505,1,SBD,M,Single-ply,Open
 82.5,Anne Bierma,Ysbrechten,80.1,210,137.5,227.5,575,1,SBD,M,Single-ply,Open
 82.5,T. Bruijnen,Hercules,76.3,200,112.5,225,537.5,2,SBD,M,Single-ply,Open
