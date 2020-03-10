@@ -4,13 +4,13 @@ WeightClassKg,Division,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 67.5,Masters 1,Aly Keizer,60.8,155,85,170,410,1,SBD,F,Single-ply
 75,Masters 1,Joke van der Meulen,71,162.5,85,165,412.5,1,SBD,F,Single-ply
 75,Masters 1,Lizet van Schijndel,74.4,110,92.5,130,332.5,2,SBD,F,Single-ply
-60,Juniors,M. van der Werf,59.2,125,67.5,130,332.5,1,SBD,M,Single-ply
-60,Juniors,R. Amels,59.4,100,85,140,325,2,SBD,M,Single-ply
+60,Juniors,M. van der Werf,59.2,125,67.5,130,322.5,2,SBD,M,Single-ply
+60,Juniors,R. Amels,59.4,100,85,140,325,1,SBD,M,Single-ply
 67.5,Juniors,A. de Haan,67.2,125,102.5,167.5,395,1,SBD,M,Single-ply
 67.5,Juniors,T. Deng,67.5,135,110,150,395,2,SBD,M,Single-ply
 67.5,Juniors,Osfaldo Caffio,61.3,122.5,62.5,130,315,3,SBD,M,Single-ply
 75,Juniors,Rodrigues Nelson,74.7,172.5,127.5,200,500,1,SBD,M,Single-ply
-75,Juniors,P. de Vries,69.6,170,100,210,490,2,SBD,M,Single-ply
+75,Juniors,P. de Vries,69.6,170,100,210,480,2,SBD,M,Single-ply
 75,Juniors,J. Peters,68.3,150,90,172.5,412.5,3,SBD,M,Single-ply
 82.5,Juniors,Bas Roessen,81.8,205,120,210,535,1,SBD,M,Single-ply
 82.5,Juniors,K. Nijenhuis,78.2,167.5,100,190,457.5,2,SBD,M,Single-ply
@@ -20,11 +20,11 @@ WeightClassKg,Division,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 100,Juniors,Dennis Visser,99,275,165,260,700,1,SBD,M,Single-ply
 100,Juniors,David Satsjelasjvili,98.4,250,180,200,630,2,SBD,M,Single-ply
 110,Juniors,O. Martien,104.2,225,162.5,280,667.5,1,SBD,M,Single-ply
-110,Juniors,O. Sagdin,100,210,120,230,560,2,SBD,M,Single-ply
+100,Juniors,O. Sagdin,100,210,120,230,560,3,SBD,M,Single-ply
 67.5,Masters 1,Wim van Dam,67,200,130,210,540,1,SBD,M,Single-ply
-75,Masters 1,Coert Hoppenbrouwers,74.5,227.5,155,245,617.5,1,SBD,M,Single-ply
+75,Masters 1,Coert Hoppenbrouwers,74.5,227.5,155,245,627.5,1,SBD,M,Single-ply
 75,Masters 1,Tjander Patan,73.6,200,110,200,510,2,SBD,M,Single-ply
-75,Masters 1,J. Neves,71,170,107.5,185,452.5,3,SBD,M,Single-ply
+75,Masters 1,J. Neves,71,170,107.5,185,462.5,3,SBD,M,Single-ply
 75,Masters 1,H. Joch,73.3,140,120,190,450,4,SBD,M,Single-ply
 82.5,Masters 1,E. Wiltkamp,80.2,170,125,195,490,1,SBD,M,Single-ply
 90,Masters 1,J. Biersteker,88.2,230,167.5,245,642.5,1,SBD,M,Single-ply
@@ -45,6 +45,6 @@ WeightClassKg,Division,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadlift
 90,Masters 2,Aarie van Roon,89,265,135,270,670,1,SBD,M,Single-ply
 90,Masters 2,William Paay,83.7,235,125,240,600,2,SBD,M,Single-ply
 90,Masters 2,Kees Aldering,88.8,200,135,230,565,3,SBD,M,Single-ply
-100,Masters 2,Dirk Grevelink,98.8,220,145,250,615,1,SBD,M,Single-ply
-100,Masters 2,Henk Keizer,105.4,287.5,175,270,732.5,1,SBD,M,Single-ply
+100,Masters 2,Dirk Grevelink,98.8,220,145,250,615,2,SBD,M,Single-ply
+110,Masters 2,Henk Keizer,105.4,287.5,175,270,732.5,1,SBD,M,Single-ply
 125,Masters 2,C. van Soest,121.8,225,170,255,650,1,SBD,M,Single-ply
