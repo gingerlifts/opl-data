@@ -68,4 +68,4 @@ BodyweightKg,WeightClassKg,Name,Team,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Tot
 111.5,125,John van Iren,Emmeloord,175,190,200,200,200,3,M,B,Single-ply,Open
 112.5,125,J. Martin,Spartacus,165,-175,-175,165,165,4,M,B,Single-ply,Open
 121.5,125,S. de Visser,Spartacus,165,-170,-170,165,165,5,M,B,Single-ply,Open
-144,125,M. Lukken,Hercules Amsterdam,200,230,240,240,240,1,M,B,Single-ply,Open
+144+,125,M. Lukken,Hercules Amsterdam,200,230,240,240,240,1,M,B,Single-ply,Open
