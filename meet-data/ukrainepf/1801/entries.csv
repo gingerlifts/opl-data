@@ -25,7 +25,7 @@ WeightClassKg,Sex,Division,Place,Name,CyrillicName,BirthDate,BodyweightKg,Best3S
 74,M,Open,11,Evgen Shvirov,Євген Швирьов,1982-08-20,72.24,150,110,150,410,SBD,Raw
 74,M,Open,DQ,Roman Luchin,Роман Лучин,1985-11-20,72.06,-190,,,,SBD,Raw
 74,M,Open,DQ,Vitaliy Kulish,Віталій Куліш,1987-06-13,73.09,185,117.5,-245,,SBD,Raw
-83,M,Open,1,Stanislav Zdrobilko,Станіслав Здробилко,1995-10-03,82.87,265,185,260,710,SBD,Raw
+83,M,Open,1,Stanislav Zdrobylko,Станіслав Здробилко,1995-10-03,82.87,265,185,260,710,SBD,Raw
 83,M,Open,2,Oleksiy Titov,Олексій Тітов,1994-09-02,80.56,245,160,250,655,SBD,Raw
 83,M,Open,3,Maksim Gorkin,Максим Горкін,1985-08-30,81.21,212.5,147.5,285,645,SBD,Raw
 83,M,Open,4,Sergiy Shustur,Сергій Шустур,1989-10-30,81.7,227.5,145,272.5,645,SBD,Raw
@@ -75,7 +75,7 @@ WeightClassKg,Sex,Division,Place,Name,CyrillicName,BirthDate,BodyweightKg,Best3S
 105,M,Open,5,Oleksandr Dubovoy,Олександр Дубовой,1980-07-11,104.34,285,210,265,760,SBD,Raw
 105,M,Open,6,Pavlo Krikunov,Павло Крикунов,1979-04-20,101.76,277.5,185,290,752.5,SBD,Raw
 105,M,Open,7,Sergiy Likhodid,Сергій Лиходід,1990-09-27,102.07,267.5,182.5,300,750,SBD,Raw
-105,M,Open,8,Sergiy Kovalenko,Сергій Коваленко,1994-03-05,104.97,287.5,170,290,747.5,SBD,Raw
+105,M,Open,8,Sergii Kovalenko,Сергій Коваленко,1994-03-05,104.97,287.5,170,290,747.5,SBD,Raw
 105,M,Open,9,Artem Gonchar,Артем Гончар,1989-08-21,102.85,265,190,290,745,SBD,Raw
 105,M,Open,10,Bogdan Radish,Богдан Радиш,1987-02-09,99.39,250,187.5,280,717.5,SBD,Raw
 105,M,Open,11,Oleksandr Pozdnyakov,Олександр Поздняков,1980-01-18,103.4,255,182.5,280,717.5,SBD,Raw
@@ -245,12 +245,12 @@ WeightClassKg,Sex,Division,Place,Name,CyrillicName,BirthDate,BodyweightKg,Best3S
 59,M,Sub-Juniors,2,Sebastian Marton,Себастіан Мартон,2000-07-30,57.62,137.5,120,165,422.5,SBD,Raw
 59,M,Sub-Juniors,3,Oleg Chebotaev,Олег Чеботаев,2001-05-05,58.84,145,105,167.5,417.5,SBD,Raw
 59,M,Sub-Juniors,4,Oleksandr Doroshenko,Олександр Дорошенко,2002-06-12,58.67,137.5,107.5,145,390,SBD,Raw
-59,M,Sub-Juniors,5,Nazar Chichotka,Назар Чихотка,2001-08-21,58.04,135,85,140,360,SBD,Raw
+59,M,Sub-Juniors,5,Nazar Chichotka,Назар Чичотка,2001-08-21,58.04,135,85,140,360,SBD,Raw
 59,M,Sub-Juniors,6,Ruslam Melikoe,Руслам Мелікое,2003-12-31,58.74,90,85,130,305,SBD,Raw
 59,M,Sub-Juniors,7,Denis Skiba,Денис Скиба,2004-04-26,57.41,100,60,130,290,SBD,Raw
 59,M,Sub-Juniors,NS,Bogdan Pogromskiy,Богдан Погромський,2003-09-15,,,,,,SBD,Raw
 59,M,Sub-Juniors,DQ,Vladislav Bayda,Владислав байда,2003-03-21,58.22,-125,90,155,,SBD,Raw
-66,M,Sub-Juniors,1,Yuriy Revuna,Юрій Ревуна,2000-02-19,65.4,195,122.5,210,527.5,SBD,Raw
+66,M,Sub-Juniors,1,Yurii Revuka,Юрій Ревуна,2000-02-19,65.4,195,122.5,210,527.5,SBD,Raw
 66,M,Sub-Juniors,2,Dmitro Kovbasyuk,Дмитро Ковбасюк,2000-11-10,65.55,177.5,120,222.5,520,SBD,Raw
 66,M,Sub-Juniors,3,Mikhaylo Kogut,Михайло Когут,2002-02-03,65.41,185,122.5,180,487.5,SBD,Raw
 66,M,Sub-Juniors,4,Illya Koval,Ілля Коваль,2000-05-13,65.7,150,97.5,190,437.5,SBD,Raw
@@ -283,7 +283,7 @@ WeightClassKg,Sex,Division,Place,Name,CyrillicName,BirthDate,BodyweightKg,Best3S
 105,M,Sub-Juniors,3,Taras Melnichuk,Тарас Мельничук,2001-03-25,94.63,205,135,205,545,SBD,Raw
 120,M,Sub-Juniors,DD,Ivan Begma,Іван Бегма,2000-05-17,110.37,250,183,250,,SBD,Raw
 120,M,Sub-Juniors,DD,Egor Karamushka,Єгор Карамушка,2001-01-07,116.78,180,135,192.5,,SBD,Raw
-43,F,Sub-Juniors,1,Mariya Polyanska,Марія Полянська,2003-09-18,42.88,77.5,40,115.5,233,SBD,Raw
+43,F,Sub-Juniors,1,Mariia Polianska,Марія Полянська,2003-09-18,42.88,77.5,40,115.5,233,SBD,Raw
 43,F,Sub-Juniors,2,Anastasiya Tolstaya,Анастасія Толстая,2004-04-02,42.68,80,47.5,105,232.5,SBD,Raw
 43,F,Sub-Juniors,3,Kristina Leonenko,Крістіна Лєонєнко,2001-04-22,42.77,70,55,97.5,222.5,SBD,Raw
 43,F,Sub-Juniors,4,Elizaveta Grebinik,Єлизавета Гребіник,2001-09-01,43,65,50,95,210,SBD,Raw
