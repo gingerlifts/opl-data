@@ -1,64 +1,3 @@
-<<<<<<< Updated upstream
-Name,Division,BodyweightKg,WeightClassKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Sex,Equipment,Event
-Gabunia Ace Bruce,MR-O,73.3,74,155,100,205,460,4,M,Raw,SBD
-Sam Freeman,MR-O,69.9,74,155,102.5,165,422.5,7,M,Raw,SBD
-Peter Kimber,MR-O,72.5,74,125,65,172.5,362.5,11,M,Raw,SBD
-Jose Manuel Arias Morales,MR-O,82,83,177.5,137.5,220,535,2,M,Raw,SBD
-Richard Wheeler,MR-O,82.3,83,155,127.5,200,482.5,4,M,Raw,SBD
-Mike Rose,MR-O,82.1,83,140,127.5,190,457.5,5,M,Raw,SBD
-James Cavangh,MR-O,80.7,83,140,100,160,400,6,M,Raw,SBD
-Andy Lopez,MR-O,80.9,83,112.5,77.5,127.5,317.5,7,M,Raw,SBD
-James Isaacs,MR-O,92.6,93,200,145,237.5,582.5,1,M,Raw,SBD
-Phillip Wood,MR-O,85.8,93,170,115,215,500,2,M,Raw,SBD
-William Aitken,MR-O,88.5,93,150,120,200,470,3,M,Raw,SBD
-Gavin Maselino,MR-O,89.1,93,145,100,175,420,4,M,Raw,SBD
-William McColl,MR-O,91.2,93,110,100,160,370,5,M,Raw,SBD
-Adrian Golding,MR-O,102.4,105,185,152.5,230,567.5,1,M,Raw,SBD
-Chris Pearce,MR-O,101.9,105,145,107.5,190,442.5,2,M,Raw,SBD
-Josh Mason,MR-O,111.4,120,195,132.5,245,572.5,1,M,Raw,SBD
-Christopher Windsor-Price,MR-O,136.7,120+,255,180,245,680,1,M,Raw,SBD
-Jack Lever,MR-O,73.6,74,190,110,240,540,1,M,Raw,SBD
-Ciaran Harper,MR-O,72.2,74,180,120,215,515,2,M,Raw,SBD
-Oli Pickup,MR-O,73.1,74,177.5,125,210,512.5,3,M,Raw,SBD
-Maxim Saakyan,MR-O,70.5,74,157.5,82.5,200,440,5,M,Raw,SBD
-Ryan Thompson,MR-O,73.6,74,145,100,195,440,6,M,Raw,SBD
-James Lopez,MR-O,72.5,74,155,90,162.5,407.5,8,M,Raw,SBD
-Alex Kelly,MR-O,73.5,74,140,85,175,400,9,M,Raw,SBD
-William Wong,MR-O,73.7,74,150,80,167.5,397.5,10,M,Raw,SBD
-Patrick Burgess,MR-O,81.4,83,210,115,240,565,1,M,Raw,SBD
-Alessandro Jermaes,MR-O,79,83,180,125,217.5,522.5,3,M,Raw,SBD
-Huw Neville,MR-Jr,81.7,83,175,132.5,215,522.5,1,M,Raw,SBD
-Alex Low,MR-Jr,79.7,83,177.5,95,232.5,505,2,M,Raw,SBD
-Kofi Campling,MR-Jr,82.8,83,150,97.5,200,447.5,3,M,Raw,SBD
-Farris Collins,MR-Jr,92.6,93,225,140,222.5,587.5,1,M,Raw,SBD
-Luke Schmidt,MR-Jr,90.4,93,225,140,220,585,2,M,Raw,SBD
-Adam Stanford,MR-Jr,89.6,93,200,122.5,237.5,560,3,M,Raw,SBD
-Scott Foster,MR-Jr,84.2,93,200,132.5,202.5,535,4,M,Raw,SBD
-Thomas Hiscock,MR-Jr,90.8,93,187.5,120,220,527.5,5,M,Raw,SBD
-Edward Nettleship,MR-Jr,84.6,93,175,117.5,202.5,495,6,M,Raw,SBD
-Matt Chubb,MR-Jr,87.3,93,180,110,200,490,7,M,Raw,SBD
-Dan O'Leary,MR-Jr,105,105,255,155,275,685,1,M,Raw,SBD
-Harry Butler,MR-Jr,95.7,105,180,135,265,580,2,M,Raw,SBD
-Matthew McKenzie,MR-Jr,96.6,105,200,125,207.5,532.5,3,M,Raw,SBD
-Alfie Herman,MR-Jr,103.3,105,150,120,200,470,4,M,Raw,SBD
-Lauren Best,FR-O,62.2,63,130,87.5,150,367.5,1,F,Raw,SBD
-Rosi Lima Gallo,FR-O,62.7,63,132.5,75,152.5,360,2,F,Raw,SBD
-Amy Money,FR-O,60.5,63,70,47.5,105,222.5,3,F,Raw,SBD
-Charlotte Hall,FR-O,67.9,72,65,42.5,80,187.5,1,F,Raw,SBD
-Brogan-Jade Backhouse,FR-O,82.8,84,130,70,140,340,1,F,Raw,SBD
-Karen Houghton,FR-O,82.7,84,130,57.5,125,312.5,2,F,Raw,SBD
-Leanne Lambert,FR-O,,84+,125,60,145,330,1,F,Raw,SBD
-Jade Graham,FR-O,,84+,97.5,50,130,277.5,2,F,Raw,SBD
-Nicola Brown,FR-Jr,56.1,57,102.5,57.5,122.5,282.5,1,F,Raw,SBD
-Alexsandra Nordfun,FR-Jr,56.5,57,92.5,60,125,277.5,2,F,Raw,SBD
-Catherine Clarke,FR-Jr,56,57,97.5,50,117.5,265,3,F,Raw,SBD
-Georgia Alexandra Appleby,FR-Jr,54.2,57,75,35,122.5,232.5,4,F,Raw,SBD
-Robyn Eade,FR-Jr,59.5,63,90,45,100,235,1,F,Raw,SBD
-Amie Chippendale,FR-Jr,71.9,72,120,72.5,135,327.5,1,F,Raw,SBD
-Odette Tobiawa,FR-Jr,70.8,72,100,67.5,130,297.5,2,F,Raw,SBD
-Kathyrn Hinton,FR-Jr,69.3,72,107.5,57.5,122.5,287.5,3,F,Raw,SBD
-Amy Pape,FR-Jr,80.1,84,107.5,55,150,312.5,1,F,Raw,SBD
-=======
 Name,Sex,BodyweightKg,WeightClassKg,Division,Equipment,Event,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place
 Hannah Comfort,F,46.4,47,FR-Jr,Raw,SBD,-57.5,62.5,-67.5,62.5,35,37.5,40,40,72.5,77.5,82.5,82.5,185,1
 Lucy Thorne,F,50.9,52,FR-O,Raw,SBD,50,60,-65,60,40,50,-60,50,95,105,110,110,220,1
@@ -109,4 +48,3 @@ Andy Rodney,M,119.9,120,MR-M2,Raw,SBD,170,190,200,200,130,140,150,150,190,220,24
 Ian Finch,M,,120,MR-M3,Raw,SBD,160,170,,170,102.5,112.5,117.5,117.5,190,202.5,,202.5,490,1
 Steve Walker,M,73.5,74,MR-M3,Raw,SBD,185,200,210,210,110,135,145,145,210,230,235,235,590,1
 Tony Wightman,M,81.4,83,MR-M3,Raw,SBD,130,135,,135,75,-77.5,-77.5,75,165,172.5,,172.5,382.5,1
->>>>>>> Stashed changes
