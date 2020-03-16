@@ -142,9 +142,9 @@ pub fn get_writing_system(c: char) -> WritingSystem {
         // Hangul Syllables.
         0xAC00..=0xD7A3 => WritingSystem::Korean,
         // Hangul Jamo.
-        0x100..=0x11FF => WritingSystem::Korean,
+        0x1100..=0x11FF => WritingSystem::Korean,
         // Hangul Compatibility Jamo.
-        0x3139..=0x318F => WritingSystem::Korean,
+        0x3130..=0x318F => WritingSystem::Korean,
         // Hangul Jamo Extended-A.
         0xA960..=0xA97F => WritingSystem::Korean,
         // Hangul Jamo Extended B.
