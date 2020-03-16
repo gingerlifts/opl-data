@@ -204,6 +204,8 @@ struct LiftersRow<'md, 'ld> {
     japanesename: Option<&'md str>,
     #[serde(rename = "GreekName")]
     greekname: Option<&'md str>,
+    #[serde(rename = "KoreanName")]
+    koreanname: Option<&'md str>,
     #[serde(rename = "Username")]
     username: &'md str,
     #[serde(rename = "Instagram")]
@@ -227,6 +229,7 @@ impl<'md, 'ld> LiftersRow<'md, 'ld> {
             cyrillicname: entrydata.cyrillicname,
             japanesename: entrydata.japanesename,
             greekname: entrydata.greekname,
+            koreanname: entrydata.koreanname,
             username: entrydata.username,
             instagram: lifterdata.instagram.as_deref(),
             vkontakte: lifterdata.vkontakte.as_deref(),
@@ -244,6 +247,7 @@ struct EntryLifterData<'md> {
     cyrillicname: Option<&'md str>,
     japanesename: Option<&'md str>,
     greekname: Option<&'md str>,
+    koreanname: Option<&'md str>,
 }
 
 impl<'md> EntryLifterData<'md> {
@@ -254,6 +258,7 @@ impl<'md> EntryLifterData<'md> {
             username: &entry.username,
             cyrillicname: entry.cyrillicname.as_deref(),
             japanesename: entry.japanesename.as_deref(),
+            koreanname: entry.koreanname.as_deref(),
             greekname: entry.greekname.as_deref(),
         }
     }
@@ -268,6 +273,7 @@ impl<'md> EntryLifterData<'md> {
             cyrillicname: Some("Шон Стангл"),
             japanesename: Some("ショーン・スタングル"),
             greekname: Some("Σόν Στένγλ"),
+            koreanname: Some("숀 스탄 글"),
         }
     }
 }
@@ -327,6 +333,9 @@ pub fn make_csv(
                     }
                     if data.greekname.is_none() && entry.greekname.is_some() {
                         data.greekname = entry.greekname.as_deref();
+                    }
+                    if data.koreanname.is_none() && entry.koreanname.is_some() {
+                        data.koreanname = entry.koreanname.as_deref();
                     }
                     data.id
                 }
