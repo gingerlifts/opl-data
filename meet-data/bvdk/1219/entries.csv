@@ -1,7 +1,7 @@
 WeightClassKg,Name,BodyweightKg,Team,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Division,Sex,Event,Equipment
-59,Beate Norman,58.8,PSV Sonneberg,50,60,70,70,45,-47.5,-47.5,45,70,80,90,90,205,1,Youth A,F,SBD,Single-ply
-66,Marie Hauschild,63.3,Kraftsport Weißensee,75,85,90,90,50,55,-60,55,100,110,115,115,260,1,Youth A,F,SBD,Single-ply
-74,Juliane Normann,73.8,PSV Sonneberg,45,52.5,60,60,45,50,52.5,52.5,70,85,92.5,92.5,205,1,Open,F,SBD,Single-ply
+63,Beate Norman,58.8,PSV Sonneberg,50,60,70,70,45,-47.5,-47.5,45,70,80,90,90,205,1,Youth A,F,SBD,Single-ply
+72,Marie Hauschild,63.3,Kraftsport Weißensee,75,85,90,90,50,55,-60,55,100,110,115,115,260,1,Youth A,F,SBD,Single-ply
+84,Juliane Normann,73.8,PSV Sonneberg,45,52.5,60,60,45,50,52.5,52.5,70,85,92.5,92.5,205,1,Open,F,SBD,Single-ply
 66,Paul Furmann,62.6,SG Motor Arnstadt,80,90,95,95,50,55,-60,55,137.5,147.5,-150,147.5,297.5,1,Youth B,M,SBD,Single-ply
 74,Timon Hofmann,69.5,SG Motor Arnstadt,100,112.5,-120,112.5,60,67.5,-70,67.5,115,122.5,125,125,305,2,Youth B,M,SBD,Single-ply
 74,Peter Schmidt,73.4,HSV Weimar,235,250,-255,250,130,135,-140,135,235,250,-260,250,635,1,Open,M,SBD,Single-ply
