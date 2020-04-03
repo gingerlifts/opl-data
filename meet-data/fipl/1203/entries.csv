@@ -71,7 +71,7 @@ M,74,Open,Mauro Carcano,72.8,-155,155,165,165,122.5,-125,-125,122.5,185,197.5,20
 M,83,Master I,Michele Degiampietro,81.2,150,160,170,170,120,130,135,135,200,210,220,220,525,2,SBD,Raw
 M,93,Sub-Junior,Michele Gattoni,86.9,167.5,175,185,185,112.5,-120.5,-120.5,112.5,215,242,247.5,247.5,545,1,SBD,Raw
 M,83,Junior,Michele Roncon,80.1,-160,160,170,170,105,115,-120,115,170,185,-200,185,470,1,SBD,Raw
-M,66,Junior,Mirco Brondin,58.3,70,80,90,90,60,70,-80,70,100,115,130,130,290,2,SBD,Raw
+M,59,Junior,Mirco Brondin,58.3,70,80,90,90,60,70,-80,70,100,115,130,130,290,2,SBD,Raw
 M,74,Sub-Junior,Nicola Degiampietro,68.9,120,135,145,145,85,92.5,-97.5,92.5,175,185,200,200,437.5,1,SBD,Raw
 M,74,Open,Nicola La Serra,68.5,-115,-115,115,115,75,-80,-85,75,120,125,130,130,320,14,SBD,Raw
 M,83,Open,Paolo Cetani,74.9,145,155,165,165,95,100,-105,100,160,170,-180,170,435,9,SBD,Raw
@@ -108,7 +108,7 @@ M,74,Junior,Lorenzo Giorgi,71.8,,,,,-120,120,-130,120,,,,,120,1,B,Single-ply
 M,83,Junior,Simone Carniel,79.6,,,,,-175,-175,-177.5,,,,,,,DQ,B,Single-ply
 M,74,Junior,Ennio Cipolla,72.8,,,,,-115,-120,-120,,,,,,,DQ,B,Single-ply
 M,66,Open,Federico Crescentini,64.8,,,,,177.5,-185,-185,177.5,,,,,177.5,1,B,Single-ply
-M,66,Open,Paolo Imbalzano,57,,,,,-150,-150,150,150,,,,,150,3,B,Single-ply
+M,59,Open,Paolo Imbalzano,57,,,,,-150,-150,150,150,,,,,150,3,B,Single-ply
 M,74,Open,Daniele Pomarico,72.1,,,,,160,170,-180,170,,,,,170,1,B,Single-ply
 M,66,Open,Nicola Signani,65.3,,,,,150,155,-157.5,155,,,,,155,2,B,Single-ply
 M,74,Open,Andrea Garavaglia,71.8,,,,,-130,130,140,140,,,,,140,2,B,Single-ply
@@ -142,7 +142,7 @@ M,120,Open,Niki Foschini,107.4,,,,,-175,175,190,190,,,,,190,3,B,Single-ply
 M,120+,Open,Matteo Rossi,140,,,,,180,-190,-190,180,,,,,180,1,B,Single-ply
 M,120,Open,Massimo Sobrero,113.6,,,,,150,155,-157.5,155,,,,,155,4,B,Single-ply
 M,120+,Open,Francesco Pelizza,123.9,,,,,100,-205,-205,100,,,,,100,2,B,Single-ply
-M,120,Master I,Claudio Dovidio,105.5,,,,,240,250,-260,250,,,,,250,1,B,Single-ply
+M,120,Master I,Claudio D'Ovidio,105.5,,,,,240,250,-260,250,,,,,250,1,B,Single-ply
 M,83,Master I,Daniele Ghirardi,83,,,,,210,220,-235,220,,,,,220,1,B,Single-ply
 M,120,Master I,Alberto Molino,113.8,,,,,-237.5,237.5,240,240,,,,,240,2,B,Single-ply
 M,105,Master I,Fabiano Fulvi,93.8,,,,,170,-180,180,180,,,,,180,1,B,Single-ply
@@ -157,11 +157,11 @@ M,105,Master II,Alfredo Iamonaco,103.9,,,,,137.5,142.5,-145,142.5,,,,,142.5,1,B,
 M,83,Master III,Luciano DiRocco,81.8,,,,,167.5,170,-172.5,170,,,,,170,1,B,Single-ply
 M,120,Master III,Salvatore Mazzucco,117.7,,,,,-155,155,160,160,,,,,160,1,B,Single-ply
 M,93,Master III,Sandro Rossi,91,,,,,-145,-145,-145,,,,,,,DQ,B,Single-ply
-F,56,Junior,Maria Veltan Camelia,53.5,,,,,-60,-60,60,60,,,,,60,1,B,Single-ply
-F,48,Open,Barbara Peti,46.5,,,,,70,72.5,-75,72.5,,,,,72.5,1,B,Single-ply
+F,57,Junior,Maria Veltan Camelia,53.5,,,,,-60,-60,60,60,,,,,60,1,B,Single-ply
+F,47,Open,Barbara Peti,46.5,,,,,70,72.5,-75,72.5,,,,,72.5,1,B,Single-ply
 F,57,Open,Manuela Masci,56.9,,,,,70,75,-77.5,75,,,,,75,1,B,Single-ply
 F,63,Open,Chiara Burchi,58.3,,,,,70,-75,-75,70,,,,,70,1,B,Single-ply
 F,72,Master I,Antonietta Orsini,64.5,,,,,135,140,-145,140,,,,,140,1,B,Single-ply
-F,83,Master I,Maria Pia Moscianese,72.5,,,,,77.5,85,90,90,,,,,90,1,B,Single-ply
+F,84,Master I,Maria Pia Moscianese,72.5,,,,,77.5,85,90,90,,,,,90,1,B,Single-ply
 F,63,Master I,Carmela Murolo,58.1,,,,,-55,55,60,60,,,,,60,1,B,Single-ply
 F,72,Master II,Donatella Sanitante,67.4,,,,,-67.5,67.5,-70,67.5,,,,,67.5,1,B,Single-ply
