@@ -1,61 +1,61 @@
 Place,Name,Sex,BirthDate,BirthYear,Equipment,Division,Country,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event
-,Sven Laenen,M,,,Single-Ply,Open,Belgium,103,105,,,,245,,,,172.5,,,,125,542.5,SBD
-,Niko Van den Brande,M,,,Raw,Open,Belgium,116.8,120,,,,257.5,,,,165,,,,272.5,695,SBD
-,Van Ingelgem Sam,M,,,Raw,Open,Belgium,90.75,93,,,,210,,,,155,,,,235,600,SBD
-,Rik De Grauwe,M,,,Raw,Junior,Belgium,77.45,83,,,,180,,,,140,,,,225,545,SBD
-,Alan Peeters,M,,,Raw,Open,Belgium,117,120,,,,250,,,,195,,,,295,740,SBD
-,Stefanie Verhulst,F,,,Raw,Open,Belgium,51.1,52,,,,100,,,,55,,,,125,280,SBD
-,Kuru Nour,M,,,Raw,SubJunior,Belgium,99.9,105,,,,235,,,,115,,,,245.5,595.5,SBD
-,Sonita Muluh,F,,,Raw,Open,CM,83.15,84,,,,150,,,,72.5,,,,180,402.5,SBD
-,Kathleen Compagnie,F,,,Raw,M1,Belgium,65.3,72,,,,100,,,,70,,,,125,295,SBD
-,Alexander Bossaerts,M,,,Raw,Junior,Belgium,73.55,74,,,,160,,,,100,,,,197.5,457.5,SBD
-,Jimmy Vandewiel,M,,,Raw,M1,Belgium,82.2,83,,,,205,,,,155,,,,215,575,SBD
-,Simon Podevijn,M,,,Raw,Open,Belgium,92.2,93,,,,180,,,,130,,,,242.5,552.5,SBD
-,Robert Ivanoushkin,M,,,Raw,Junior,Belgium,82,83,,,,185,,,,115,,,,205,505,SBD
-,Jef Haerinck,M,,,Raw,Junior,Belgium,83,83,,,,182.5,,,,135,,,,225,542.5,SBD
-,Bart Van Heesvelde,M,,,Raw,Open,Belgium,101.6,105,,,,220,,,,155,,,,220,595,SBD
-,Wouter Luca,M,,,Raw,Junior,Belgium,73.8,74,,,,100,,,,130,,,,235,465,SBD
-,Bart Ceunen,M,,,Raw,Open,Belgium,90.25,93,,,,195,,,,132.5,,,,220,547.5,SBD
-,Kristof Custers,M,,,Raw,Open,Belgium,73.7,74,,,,180,,,,120,,,,180,480,SBD
-,Dries Haselaars,M,,,Raw,Open,Belgium,79.4,83,,,,175,,,,132.5,,,,180,487.5,SBD
-,Nick Blockmans,M,,,Raw,SubJunior,Belgium,56.2,59,,,,127.5,,,,97.5,,,,160.5,385.5,SBD
-,Jasper Obbers,M,,,Raw,Open,Belgium,70.75,74,,,,145,,,,97.5,,,,185,427.5,SBD
-,Alexander Janssen,M,,,Raw,Open,Belgium,65.25,66,,,,125,,,,95,,,,175,395,SBD
-,Annelies Van de Velde,F,,,Raw,Junior,Belgium,55.98,57,,,,91,,,,61,,,,115,267,SBD
-,Hugo De Grauwe,M,,,Raw,M3,Belgium,104.4,105,,,,170,,,,135,,,,232.5,537.5,SBD
-,Tim Depypere,M,,,Raw,Open,Belgium,108.7,120,,,,180,,,,115,,,,205,500,SBD
-,Fidel Barrios,M,,,Raw,Open,Belgium,82.35,83,,,,157.5,,,,120,,,,180,457.5,SBD
-,Noa Depaepe,M,,,Raw,Junior,Belgium,90.5,93,,,,142.5,,,,100,,,,200,442.5,SBD
-,Bo Haek,F,,,Raw,Junior,Belgium,69.3,72,,,,80,,,,52.5,,,,105,237.5,SBD
-,Bertrand Rongé,M,,,Raw,Open,Belgium,65.75,66,,,,140,,,,100,,,,175,415,SBD
-,Christophe Ruvolo,M,,,Raw,Open,Belgium,57.4,59,,,,117.5,,,,87.5,,,,120,325,SBD
-,Keanu Robberechts,M,,,Raw,Junior,Belgium,129.4,120+,,,,135,,,,80,,,,165,380,SBD
-,Tim Molkens,M,,,Raw,Open,Belgium,73.5,74,,,,170,,,,125,,,,215,510,SBD
-,Hans Van der Staak,M,,,Raw,Junior,Belgium,58.25,59,,,,130,,,,92.5,,,,170,392.5,SBD
-,Jonas De Creus,M,,,Raw,Open,Belgium,90.8,93,,,,195,,,,120,,,,240,555,SBD
-,Aaron Messiant,M,,,Raw,Open,Belgium,81.65,83,,,,170,,,,117.5,,,,227.5,515,SBD
-,Jeroen Van Dun,M,,,Raw,Open,Belgium,105.4,120,,,,230,,,,130,,,,270,630,SBD
-,Gilles De Peuter,M,,,Raw,Junior,Belgium,80.5,83,,,,182.5,,,,97.5,,,,205,485,SBD
-,Jasper Pessemier,M,,,Raw,Open,Belgium,81.15,83,,,,175,,,,117.5,,,,210,502.5,SBD
-,Jeroen Leemans,M,,,Raw,Open,Belgium,83,83,,,,160,,,,122.5,,,,220,502.5,SBD
-,Ward Bernaerts,M,,,Raw,Open,Belgium,90,93,,,,167.5,,,,107.5,,,,210,485,SBD
-,Pieter Van Overbeke,M,,,Raw,Junior,Belgium,91.2,93,,,,165,,,,112.5,,,,200,477.5,SBD
-,Jella Troch,F,,,Raw,Open,Belgium,52,52,,,,100.5,,,,70.5,,,,120,291,SBD
-,Chesney Goossens,M,,,Raw,Open,Belgium,65.35,66,,,,135,,,,150,,,,165,450,SBD
-,Dries Vrancken,M,,,Raw,Open,Belgium,91.6,93,,,,190,,,,130,,,,232.5,552.5,SBD
-,Joris De Saedeleer,M,,,Raw,M4,Belgium,103.9,105,,,,195,,,,145,,,,250,590,SBD
-,Lien Van Buggenhout,F,,,Raw,Open,Belgium,76.95,84,,,,112.5,,,,70,,,,135,317.5,SBD
-,Kevin François,M,,,Raw,Open,Belgium,116,120,,,,210,,,,135,,,,235,580,SBD
-,Andrey Kossarev,M,,,Raw,Open,Belgium,83.4,93,,,,165,,,,112.5,,,,195,472.5,SBD
-,Selin Üsküplü,F,,,Raw,Junior,Belgium,54.16,57,,,,45,,,,25,,,,80,150,SBD
-,Wouter De Saedeleer,M,,,Raw,Open,Belgium,103.55,105,,,,,,,,192.5,,,,,192.5,B
-,Emmerik Vanhee,M,,,Raw,Open,Belgium,87.3,93,,,,,,,,165,,,,,165,B
-,Lieven De Saedeleer,M,,,Raw,Open,Belgium,101.8,105,,,,,,,,170,,,,,170,B
-,Jimmy Vandewiel,M,,,Raw,M1,Belgium,82.2,83,,,,,,,,145,,,,,145,B
-,Simon Podevijn,M,,,Raw,Open,Belgium,92.2,93,,,,,,,,137.5,,,,,137.5,B
-,Jean Marc De Ro,M,,,Raw,M1,Belgium,90.7,93,,,,,,,,120,,,,,120,B
-,Kenny Verbouw,M,,,Raw,Junior,Belgium,57.65,59,,,,,,,,110,,,,,110,B
-,Jean-Michel De Witte,M,,,Raw,Open,Belgium,56.9,59,,,,,,,,95,,,,,95,B
-,Audrey De Keersmaeker,M,,,Raw,Junior,Belgium,46.76,47,,,,,,,,64,,,,,64,B
-,Phillippe Dewilde,M,,,Raw,M2,Belgium,104,105,,,,,,,,115,,,,,115,B
-,Per Roalkvam,M,,,Single-Ply,M1,NOR,109.45,120,,,,,,,,175,,,,,175,B
+1,Sven Laenen,M,,,Single-Ply,Open,Belgium,103,105,,,,245,,,,172.5,,,,125,542.5,SBD
+2,Niko Van den Brande,M,,,Raw,Open,Belgium,116.8,120,,,,257.5,,,,165,,,,272.5,695,SBD
+1,Van Ingelgem Sam,M,,,Raw,Open,Belgium,90.75,93,,,,210,,,,155,,,,235,600,SBD
+1,Rik De Grauwe,M,,,Raw,Junior,Belgium,77.45,83,,,,180,,,,140,,,,225,545,SBD
+1,Alan Peeters,M,,,Raw,Open,Belgium,117,120,,,,250,,,,195,,,,295,740,SBD
+2,Stefanie Verhulst,F,,,Raw,Open,Belgium,51.1,52,,,,100,,,,55,,,,125,280,SBD
+1,Kuru Nour,M,,,Raw,SubJunior,Belgium,99.9,105,,,,235,,,,115,,,,245.5,595.5,SBD
+1,Sonita Muluh,F,,,Raw,Open,CM,83.15,84,,,,150,,,,72.5,,,,180,402.5,SBD
+1,Kathleen Compagnie,F,,,Raw,M1,Belgium,65.3,72,,,,100,,,,70,,,,125,295,SBD
+2,Alexander Bossaerts,M,,,Raw,Junior,Belgium,73.55,74,,,,160,,,,100,,,,197.5,457.5,SBD
+1,Jimmy Vandewiel,M,,,Raw,M1,Belgium,82.2,83,,,,205,,,,155,,,,215,575,SBD
+4,Simon Podevijn,M,,,Raw,Open,Belgium,92.2,93,,,,180,,,,130,,,,242.5,552.5,SBD
+3,Robert Ivanoushkin,M,,,Raw,Junior,Belgium,82,83,,,,185,,,,115,,,,205,505,SBD
+2,Jef Haerinck,M,,,Raw,Junior,Belgium,83,83,,,,182.5,,,,135,,,,225,542.5,SBD
+1,Bart Van Heesvelde,M,,,Raw,Open,Belgium,101.6,105,,,,220,,,,155,,,,220,595,SBD
+1,Wouter Luca,M,,,Raw,Junior,Belgium,73.8,74,,,,100,,,,130,,,,235,465,SBD
+5,Bart Ceunen,M,,,Raw,Open,Belgium,90.25,93,,,,195,,,,132.5,,,,220,547.5,SBD
+2,Kristof Custers,M,,,Raw,Open,Belgium,73.7,74,,,,180,,,,120,,,,180,480,SBD
+4,Dries Haselaars,M,,,Raw,Open,Belgium,79.4,83,,,,175,,,,132.5,,,,180,487.5,SBD
+1,Nick Blockmans,M,,,Raw,SubJunior,Belgium,56.2,59,,,,127.5,,,,97.5,,,,160.5,385.5,SBD
+3,Jasper Obbers,M,,,Raw,Open,Belgium,70.75,74,,,,145,,,,97.5,,,,185,427.5,SBD
+3,Alexander Janssen,M,,,Raw,Open,Belgium,65.25,66,,,,125,,,,95,,,,175,395,SBD
+1,Annelies Van de Velde,F,,,Raw,Junior,Belgium,55.98,57,,,,91,,,,61,,,,115,267,SBD
+1,Hugo De Grauwe,M,,,Raw,M3,Belgium,104.4,105,,,,170,,,,135,,,,232.5,537.5,SBD
+5,Tim Depypere,M,,,Raw,Open,Belgium,108.7,120,,,,180,,,,115,,,,205,500,SBD
+5,Fidel Barrios,M,,,Raw,Open,Belgium,82.35,83,,,,157.5,,,,120,,,,180,457.5,SBD
+2,Noa Depaepe,M,,,Raw,Junior,Belgium,90.5,93,,,,142.5,,,,100,,,,200,442.5,SBD
+1,Bo Haek,F,,,Raw,Junior,Belgium,69.3,72,,,,80,,,,52.5,,,,105,237.5,SBD
+2,Bertrand Rongé,M,,,Raw,Open,Belgium,65.75,66,,,,140,,,,100,,,,175,415,SBD
+1,Christophe Ruvolo,M,,,Raw,Open,Belgium,57.4,59,,,,117.5,,,,87.5,,,,120,325,SBD
+1,Keanu Robberechts,M,,,Raw,Junior,Belgium,129.4,120+,,,,135,,,,80,,,,165,380,SBD
+1,Tim Molkens,M,,,Raw,Open,Belgium,73.5,74,,,,170,,,,125,,,,215,510,SBD
+1,Hans Van der Staak,M,,,Raw,Junior,Belgium,58.25,59,,,,130,,,,92.5,,,,170,392.5,SBD
+2,Jonas De Creus,M,,,Raw,Open,Belgium,90.8,93,,,,195,,,,120,,,,240,555,SBD
+1,Aaron Messiant,M,,,Raw,Open,Belgium,81.65,83,,,,170,,,,117.5,,,,227.5,515,SBD
+3,Jeroen Van Dun,M,,,Raw,Open,Belgium,105.4,120,,,,230,,,,130,,,,270,630,SBD
+4,Gilles De Peuter,M,,,Raw,Junior,Belgium,80.5,83,,,,182.5,,,,97.5,,,,205,485,SBD
+2,Jasper Pessemier,M,,,Raw,Open,Belgium,81.15,83,,,,175,,,,117.5,,,,210,502.5,SBD
+3,Jeroen Leemans,M,,,Raw,Open,Belgium,83,83,,,,160,,,,122.5,,,,220,502.5,SBD
+6,Ward Bernaerts,M,,,Raw,Open,Belgium,90,93,,,,167.5,,,,107.5,,,,210,485,SBD
+1,Pieter Van Overbeke,M,,,Raw,Junior,Belgium,91.2,93,,,,165,,,,112.5,,,,200,477.5,SBD
+1,Jella Troch,F,,,Raw,Open,Belgium,52,52,,,,100.5,,,,70.5,,,,120,291,SBD
+1,Chesney Goossens,M,,,Raw,Open,Belgium,65.35,66,,,,135,,,,150,,,,165,450,SBD
+3,Dries Vrancken,M,,,Raw,Open,Belgium,91.6,93,,,,190,,,,130,,,,232.5,552.5,SBD
+1,Joris De Saedeleer,M,,,Raw,M4,Belgium,103.9,105,,,,195,,,,145,,,,250,590,SBD
+2,Lien Van Buggenhout,F,,,Raw,Open,Belgium,76.95,84,,,,112.5,,,,70,,,,135,317.5,SBD
+4,Kevin François,M,,,Raw,Open,Belgium,116,120,,,,210,,,,135,,,,235,580,SBD
+7,Andrey Kossarev,M,,,Raw,Open,Belgium,83.4,93,,,,165,,,,112.5,,,,195,472.5,SBD
+2,Selin Üsküplü,F,,,Raw,Junior,Belgium,54.16,57,,,,45,,,,25,,,,80,150,SBD
+1,Wouter De Saedeleer,M,,,Raw,Open,Belgium,103.55,105,,,,,,,,192.5,,,,,192.5,B
+1,Emmerik Vanhee,M,,,Raw,Open,Belgium,87.3,93,,,,,,,,165,,,,,165,B
+2,Lieven De Saedeleer,M,,,Raw,Open,Belgium,101.8,105,,,,,,,,170,,,,,170,B
+1,Jimmy Vandewiel,M,,,Raw,M1,Belgium,82.2,83,,,,,,,,145,,,,,145,B
+2,Simon Podevijn,M,,,Raw,Open,Belgium,92.2,93,,,,,,,,137.5,,,,,137.5,B
+1,Jean Marc De Ro,M,,,Raw,M1,Belgium,90.7,93,,,,,,,,120,,,,,120,B
+1,Kenny Verbouw,M,,,Raw,Junior,Belgium,57.65,59,,,,,,,,110,,,,,110,B
+1,Jean-Michel De Witte,M,,,Raw,Open,Belgium,56.9,59,,,,,,,,95,,,,,95,B
+1,Audrey De Keersmaeker,M,,,Raw,Junior,Belgium,46.76,47,,,,,,,,64,,,,,64,B
+1,Phillippe Dewilde,M,,,Raw,M2,Belgium,104,105,,,,,,,,115,,,,,115,B
+1,Per Roalkvam,M,,,Single-Ply,M1,NOR,109.45,120,,,,,,,,175,,,,,175,B
