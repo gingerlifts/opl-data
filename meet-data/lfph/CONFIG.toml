@@ -2,7 +2,7 @@
 
 [divisions]
 
-    subjuniors = {name="Sub-Juniors", min=min=14, max=18.5}
+    subjuniors = {name="Sub-Juniors", min=14, max=18.5}
     juniors = {name="Juniors", min=18.5, max=22.5}
     seniors = {name="Seniors", min=22.5, max=38.5}
     open = {name="Open", min=14, max=999}
