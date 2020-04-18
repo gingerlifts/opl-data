@@ -9,7 +9,7 @@ Place,Name,Sex,BirthDate,BirthYear,Equipment,Division,Country,BodyweightKg,Weigh
 1,Sonita Muluh,F,,,Raw,Open,Cameroon,83.15,84,,,,150,,,,72.5,,,,180,402.5,SBD
 1,Kathleen Compagnie,F,,,Raw,Masters 1,Belgium,65.3,72,,,,100,,,,70,,,,125,295,SBD
 2,Alexander Bossaerts,M,,,Raw,Juniors,Belgium,73.55,74,,,,160,,,,100,,,,197.5,457.5,SBD
-1,Jimmy Vandewiel,M,,,Raw,Masters 1,Belgium,82.2,83,,,,205,,,,155,,,,215,575,SBD
+1,Jimmy Van De Wiel,M,,,Raw,Masters 1,Belgium,82.2,83,,,,205,,,,155,,,,215,575,SBD
 4,Simon Podevijn,M,,,Raw,Open,Belgium,92.2,93,,,,180,,,,130,,,,242.5,552.5,SBD
 3,Robert Ivanoushkin,M,,,Raw,Juniors,Belgium,82,83,,,,185,,,,115,,,,205,505,SBD
 2,Jef Haerinck,M,,,Raw,Juniors,Belgium,83,83,,,,182.5,,,,135,,,,225,542.5,SBD
@@ -18,7 +18,7 @@ Place,Name,Sex,BirthDate,BirthYear,Equipment,Division,Country,BodyweightKg,Weigh
 5,Bart Ceunen,M,,,Raw,Open,Belgium,90.25,93,,,,195,,,,132.5,,,,220,547.5,SBD
 2,Kristof Custers,M,,,Raw,Open,Belgium,73.7,74,,,,180,,,,120,,,,180,480,SBD
 4,Dries Haselaars,M,,,Raw,Open,Belgium,79.4,83,,,,175,,,,132.5,,,,180,487.5,SBD
-1,Nick Blockmans,M,,,Raw,SubJuniors,Belgium,56.2,59,,,,127.5,,,,97.5,,,,160.5,385.5,SBD
+1,Nick Blockmans,M,,,Raw,Sub-Juniors,Belgium,56.2,59,,,,127.5,,,,97.5,,,,160.5,385.5,SBD
 3,Jasper Obbers,M,,,Raw,Open,Belgium,70.75,74,,,,145,,,,97.5,,,,185,427.5,SBD
 3,Alexander Janssen,M,,,Raw,Open,Belgium,65.25,66,,,,125,,,,95,,,,175,395,SBD
 1,Annelies Van De Velde,F,,,Raw,Juniors,Belgium,55.98,57,,,,91,,,,61,,,,115,267,SBD
@@ -51,7 +51,7 @@ Place,Name,Sex,BirthDate,BirthYear,Equipment,Division,Country,BodyweightKg,Weigh
 1,Wouter De Saedeleer,M,,,Raw,Open,Belgium,103.55,105,,,,,,,,192.5,,,,,192.5,B
 1,Emmerik Vanhee,M,,,Raw,Open,Belgium,87.3,93,,,,,,,,165,,,,,165,B
 2,Lieven De Saedeleer,M,,,Raw,Open,Belgium,101.8,105,,,,,,,,170,,,,,170,B
-1,Jimmy Vandewiel,M,,,Raw,Masters 1,Belgium,82.2,83,,,,,,,,145,,,,,145,B
+1,Jimmy Van De Wiel,M,,,Raw,Masters 1,Belgium,82.2,83,,,,,,,,145,,,,,145,B
 2,Simon Podevijn,M,,,Raw,Open,Belgium,92.2,93,,,,,,,,137.5,,,,,137.5,B
 1,Jean-Marc De Ro,M,,,Raw,Masters 1,Belgium,90.7,93,,,,,,,,120,,,,,120,B
 1,Kenny Verbouw,M,,,Raw,Juniors,Belgium,57.65,59,,,,,,,,110,,,,,110,B
