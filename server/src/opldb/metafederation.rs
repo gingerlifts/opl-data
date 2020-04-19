@@ -286,6 +286,11 @@ pub enum MetaFederation {
     #[strum(to_string = "jpa")]
     JPA,
 
+    /// KNKFSP, but with international results also.
+    #[strum(to_string = "knkf-sp")]
+    #[serde(rename = "KNKF-SP")]
+    KNKFSP,
+
     /// KPF, but with international results also.
     #[strum(to_string = "kpf")]
     KPF,
@@ -644,6 +649,7 @@ impl MetaFederation {
             MetaFederation::IrishPF => affiliation!(meet, entry, IrishPF, IPF, EPF),
             MetaFederation::IrishPO => affiliation!(meet, entry, IrishPO, WPC),
             MetaFederation::JPA => affiliation!(meet, entry, JPA, IPF, AsianPF),
+            MetaFederation::KNKFSP => affiliation!(meet, entry, KNKFSP, NPB, IPF, EPF),
             MetaFederation::LFPH => affiliation!(meet, entry, LFPH, IPF, EPF),
             MetaFederation::LJTF => affiliation!(meet, entry, LJTF, IPF, EPF),
             MetaFederation::LPF => affiliation!(meet, entry, LPF, IPF, EPF),
