@@ -1,9 +1,9 @@
 Sex,WeightClassKg,Division,Name,BirthYear,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Event,Equipment
-F,52,Open,Chiara Galimberti,1994,44.05,75,-80,80,80,50,55,57.5,57.5,80,90,100,100,237.5,3,SBD,Single-ply
-F,52,Open,Manuela Puzo,1984,44.09,70,75,80,80,-40,-40,40,40,102.5,115,122.5,122.5,242.5,2,SBD,Single-ply
-F,52,Open,Francesca Serra,1979,45.84,60,67.5,-75,67.5,40,45,50,50,80,90,100,100,217.5,4,SBD,Single-ply
+F,47,Open,Chiara Galimberti,1994,44.05,75,-80,80,80,50,55,57.5,57.5,80,90,100,100,237.5,2,SBD,Single-ply
+F,47,Open,Manuela Puzo,1984,44.09,70,75,80,80,-40,-40,40,40,102.5,115,122.5,122.5,242.5,1,SBD,Single-ply
+F,47,Open,Francesca Serra,1979,45.84,60,67.5,-75,67.5,40,45,50,50,80,90,100,100,217.5,3,SBD,Single-ply
 F,47,Master I,Barbara Peti,1976,46.42,112.5,117.5,125,125,70,-75,-76,70,127.5,135,-140,135,330,1,SBD,Single-ply
-F,52,Open,Clara Fiore,1994,49.79,60,-65,70,70,40,45,-50,45,80,87.5,92.5,92.5,207.5,5,SBD,Single-ply
+F,52,Open,Clara Fiore,1994,49.79,60,-65,70,70,40,45,-50,45,80,87.5,92.5,92.5,207.5,2,SBD,Single-ply
 F,52,Junior,Munira Fornaciari,1996,49.82,155,162.5,-170,162.5,75,-77.5,80,80,120,132.5,145,145,387.5,1,SBD,Single-ply
 F,52,Master II,Anna Stenghel,1968,51.09,117.5,127.5,135,135,80,-85,-85,80,130,140,147.5,147.5,362.5,1,SBD,Single-ply
 F,52,Open,Valentina Motta,1989,51.35,90,-100,100,100,52.5,57.5,62.5,62.5,110,125,-135,125,287.5,1,SBD,Single-ply
