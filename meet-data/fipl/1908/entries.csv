@@ -7,7 +7,7 @@ M,Sub-Junior,105,Karol Stecel,2003,102.47,130,135,140,140,140,1,B,Raw
 M,Sub-Junior,74,Mario Giordano,2002,71.74,105,112.5,117.5,117.5,117.5,3,B,Raw
 M,Sub-Junior,83,Davide Cecchetti,2002,80.59,130,132.5,137.5,137.5,137.5,2,B,Raw
 M,Sub-Junior,83,Fabio Rinco,2002,80.88,105,-110,112.5,112.5,112.5,6,B,Raw
-F,Sub-Junior,47,Giorgia Lamantia,2002,45.53,40,42.5,-45,42.5,42.5,2,B,Raw
+F,Sub-Junior,47,Giorgia Lamantia,2002,45.53,40,42.5,-45,42.5,42.5,1,B,Raw
 M,Sub-Junior,66,Vittorio Simonelli,2001,64.44,117.5,122.5,127.5,127.5,127.5,1,B,Raw
 M,Sub-Junior,66,Alessandro Bellocci,2001,63.21,115,117.5,120,120,120,2,B,Raw
 M,Sub-Junior,74,Nicola Paolone,2001,71.62,122,126,-129.5,126,126,2,B,Raw
@@ -17,7 +17,7 @@ M,Sub-Junior,83,Andrea Orlandi,2001,77.33,142.5,146,-150,146,146,1,B,Raw
 M,Sub-Junior,83,Nicolas Bossetti,2001,82.09,127.5,132.5,135,135,135,3,B,Raw
 M,Sub-Junior,83,Lorenzo Berti,2001,75.3,112.5,122.5,-131.5,122.5,122.5,5,B,Raw
 M,Sub-Junior,93,Elia Gober,2001,89.26,125,-130,-130,125,125,1,B,Raw
-F,Sub-Junior,47,Sara Ciaravino,2001,42.78,50.5,52.5,56,56,56,1,B,Raw
+F,Sub-Junior,43,Sara Ciaravino,2001,42.78,50.5,52.5,56,56,56,1,B,Raw
 F,Sub-Junior,52,Marta Scuderi,2001,50.02,50,52.5,54.5,54.5,54.5,1,B,Raw
 F,Sub-Junior,57,Alice Menghini,2001,55.3,67.5,72.5,75,75,75,1,B,Raw
 F,Sub-Junior,57,Marta Nembrini,2001,56.2,50,55,57.5,57.5,57.5,2,B,Raw
@@ -209,7 +209,7 @@ F,Open,57,Carla La Manna,1983,55.33,65,70,-72.5,70,70,2,B,Raw
 F,Open,63,Chiara Marconi,1983,60.82,57.5,65,-70,65,65,6,B,Raw
 M,Open,105,Francesco Molteni,1982,102.21,145,-150,150,150,150,6,B,Single-ply
 M,Open,120,Giuseppe Zangari,1982,107.36,180,185,190,190,190,3,B,Single-ply
-M,Open,93,Manuel Sellero,1982,80.74,-162.5,-162.5,-162.5,,,DQ,B,Raw
+M,Open,83,Manuel Sellero,1982,80.74,-162.5,-162.5,-162.5,,,DQ,B,Raw
 F,Open,57,Elisa Guidi,1982,55.87,70,-75,-75,70,70,3,B,Raw
 M,Open,83,Massimo De Masi,1981,81.84,-130,-130,130,130,130,18,B,Raw
 M,Open,105,Manuel Vecchiato,1981,103.34,175,-177.5,-177.5,175,175,4,B,Raw
@@ -232,7 +232,7 @@ F,Master I,47,Barbara Peti,1976,46.85,-70,70,-75,70,70,1,B,Single-ply
 M,Master I,105,Ruben Manenti,1976,102.2,140,145,-150,145,145,5,B,Raw
 F,Master I,63,Alessia Rodina,1975,62.66,85,90,95,95,95,1,B,Single-ply
 M,Master I,105,Cristian Turco,1975,95.5,165,-170,-170,165,165,3,B,Raw
-M,Master I,120,Luca Zanin,1975,101.17,-175,-182.5,-182.5,,,DQ,B,Raw
+M,Master I,105,Luca Zanin,1975,101.17,-175,-182.5,-182.5,,,DQ,B,Raw
 M,Master I,66,Ivan Seravalli,1974,64.47,-112.5,-112.5,-112.5,,,DQ,B,Raw
 M,Master I,120,Simone Montanari,1974,119.86,147.5,157.5,160,160,160,1,B,Raw
 F,Master I,84,Elena Vinzia,1974,74.14,60,-65,-65,60,60,1,B,Raw
@@ -243,7 +243,7 @@ M,Master I,74,Roberto Umana,1970,73.02,150,-156,-156,150,150,1,B,Raw
 M,Master I,105,Martino Albanese,1970,98.54,162.5,170,-177.5,170,170,2,B,Raw
 M,Master II,105,Claudio D'Ovidio,1969,104.64,240,-271,271,271,271,1,B,Single-ply
 M,Master II,105,Flavio Zilio,1969,100.44,135,142.5,145,145,145,1,B,Raw
-M,Master II,105,Marco Bastianelli,1968,87.63,-92.5,-92.5,-95,,,DQ,B,Raw
+M,Master II,93,Marco Bastianelli,1968,87.63,-92.5,-92.5,-95,,,DQ,B,Raw
 M,Master II,120,Fabio Ranuccini,1968,106.52,-120,-120,125,125,125,1,B,Raw
 F,Master II,52,Manuela Stucchi,1966,50.1,72.5,-77.5,77.5,77.5,77.5,1,B,Single-ply
 F,Master II,63,Nicoletta Perego,1966,61.7,80,85,-90,85,85,1,B,Single-ply
