@@ -11,7 +11,7 @@ WeightClassKg,Name,BodyweightKg,Team,Best3BenchKg,TotalKg,Place,Sex,Event,Equipm
 52,Boman Hommes,43.4,Butzelaar,107.5,107.5,1,M,B,Single-ply,Disabled
 90,A. Kraal,85.35,Atlas,135,135,1,M,B,Single-ply,Disabled
 100,F. Koese,92.3,Atlas,95,95,1,M,B,Single-ply,Disabled
-125+,Cees Ootjers,130,Atlas,157.5,157.5,1,M,B,Single-ply,Disabled
+100+,Cees Ootjers,130,Atlas,157.5,157.5,1,M,B,Single-ply,Disabled
 67.5,D. Asrian,66.1,Atlas,102.5,102.5,1,M,B,Single-ply,Open
 75,Oege Dijk,74.6,Burgum,160,160,1,M,B,Single-ply,Open
 75,E. Koninckx,74.25,Atlas,150,150,2,M,B,Single-ply,Open
@@ -24,7 +24,7 @@ WeightClassKg,Name,BodyweightKg,Team,Best3BenchKg,TotalKg,Place,Sex,Event,Equipm
 100,F. Winters,95.7,Atlas,180,180,3,M,B,Single-ply,Open
 100,Gatse Wouda,92.6,Butzelaar,160,160,4,M,B,Single-ply,Open
 100,A. Harms,92.65,Body-Fit,145,145,5,M,B,Single-ply,Open
-100,W. v/d Meer,99.75,Burgum,145,145,6,M,B,Single-ply,Open
+100,W. van der Meer,99.75,Burgum,145,145,6,M,B,Single-ply,Open
 100,Kees Aldering,92.05,Spartacus,142.5,142.5,7,M,B,Single-ply,Open
 100,Wim Bevers,90.9,Top Fit,122.5,122.5,8,M,B,Single-ply,Open
 110,Dave van der Veen,103.6,SSS,215,215,1,M,B,Single-ply,Open
@@ -35,6 +35,6 @@ WeightClassKg,Name,BodyweightKg,Team,Best3BenchKg,TotalKg,Place,Sex,Event,Equipm
 110,Bram Hazeu,103.75,Schuttersveld,160,160,6,M,B,Single-ply,Open
 110,Johan Sanders,105,Top Fit,142.5,142.5,7,M,B,Single-ply,Open
 110,Hans den Ouden,105.05,Top Fit,140,140,8,M,B,Single-ply,Open
-110,M. v. Nunen,104.85,Top Fit,112.5,112.5,9,M,B,Single-ply,Open
+110,M. van Nunen,104.85,Top Fit,112.5,112.5,9,M,B,Single-ply,Open
 125,Frenzel Kastaneer,113.05,Spartacus,250,250,1,M,B,Single-ply,Open
 125,Fred Anneese,110.55,Butzelaar,187.5,187.5,2,M,B,Single-ply,Open
