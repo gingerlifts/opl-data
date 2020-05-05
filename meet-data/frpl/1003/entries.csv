@@ -1,14 +1,14 @@
 Sex,Division,Name,Team,WeightClassKg,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Event,Equipment
-M,Open,Doru Mihon,Zamolxis,56,44,20,25,30,30,20,25,30,30,30,40,50,50,110,1,SBD,Raw
-M,Open,Sergiu Pintea,Zamolxis,56,49,-20,25,30,30,20,25,30,30,30,40,50,50,110,2,SBD,Raw
-M,Open,Ioan Bara,Shinkami,56,50,20,25,30,30,20,25,30,30,30,40,50,50,110,3,SBD,Raw
-M,Open,Marian Nuta,Shinkami,56,52,20,25,30,30,20,25,30,30,30,40,50,50,110,4,SBD,Raw
-M,Open,Gabriel Szabo,Zamolxis,56,56,20,25,30,30,20,25,30,30,30,40,50,50,110,5,SBD,Raw
-M,Open,Vlad David,Zamolxis,56,46,-20,25,30,30,20,25,-30,25,30,40,50,50,105,6,SBD,Raw
-M,Open,David Mocioi,Zamolxis,56,52,20,25,30,30,-20,20,25,25,30,40,50,50,105,7,SBD,Raw
-M,Open,Andrei Toader,Zamolxis,56,43,20,25,30,30,-20,20,-25,20,30,40,50,50,100,8,SBD,Raw
-M,Open,Valentin Gligor,Zamolxis,56,43,20,25,30,30,20,-25,-25,20,30,40,50,50,100,9,SBD,Raw
-M,Open,Alexandru Felea,Zamolxis,56,49,20,25,30,30,-20,-20,20,20,30,40,50,50,100,10,SBD,Raw
+M,Open,Doru Mihon,Zamolxis,52,44,20,25,30,30,20,25,30,30,30,40,50,50,110,1,SBD,Raw
+M,Open,Sergiu Pintea,Zamolxis,52,49,-20,25,30,30,20,25,30,30,30,40,50,50,110,2,SBD,Raw
+M,Open,Ioan Bara,Shinkami,52,50,20,25,30,30,20,25,30,30,30,40,50,50,110,3,SBD,Raw
+M,Open,Marian Nuta,Shinkami,52,52,20,25,30,30,20,25,30,30,30,40,50,50,110,4,SBD,Raw
+M,Open,Gabriel Szabo,Zamolxis,56,56,20,25,30,30,20,25,30,30,30,40,50,50,110,1,SBD,Raw
+M,Open,Vlad David,Zamolxis,52,46,-20,25,30,30,20,25,-30,25,30,40,50,50,105,5,SBD,Raw
+M,Open,David Mocioi,Zamolxis,52,52,20,25,30,30,-20,20,25,25,30,40,50,50,105,6,SBD,Raw
+M,Open,Andrei Toader,Zamolxis,52,43,20,25,30,30,-20,20,-25,20,30,40,50,50,100,7,SBD,Raw
+M,Open,Valentin Gligor,Zamolxis,52,43,20,25,30,30,20,-25,-25,20,30,40,50,50,100,8,SBD,Raw
+M,Open,Alexandru Felea,Zamolxis,52,49,20,25,30,30,-20,-20,20,20,30,40,50,50,100,9,SBD,Raw
 M,Open,Mihai Toparceanu,Zamolxis,60,56.4,80,-85,85,85,60,65,67.5,67.5,110,120,130,130,282.5,1,SBD,Raw
 M,Open,Darius Gligor,Zamolxis,60,56.7,50,55,60,60,60,-65,65,65,110,115,120,120,245,2,SBD,Raw
 M,Open,Razvan Cozi,Zamolxis,60,58.6,55,60,65,65,35,40,-45,40,65,75,80,80,185,3,SBD,Raw
@@ -53,8 +53,8 @@ M,Open,Vasile Pitirici,Bronx Bacau,125,110.5,170,182.5,-202.5,182.5,140,145,-152
 M,Open,Cristian Mand,Zamolxis,125+,125.2,-270,270,-282.5,270,190,200,210,210,240,260,-272.5,260,740,1,SBD,Raw
 M,Open,Marcel Coman,Bronx Bacau,125+,130,250,272.5,-282.5,272.5,150,160,167.5,167.5,250,270,282.5,282.5,722.5,2,SBD,Raw
 M,Open,Daniel Pastor,Argus Mag,125+,125.7,260,-270,272.5,272.5,195,-205,-205,195,225,235,245,245,712.5,3,SBD,Raw
-F,Open,Alexandra Bar,Shinkami,48,43.7,20,25,30,30,15,17.5,20,20,40,50,55,55,105,1,SBD,Raw
-F,Open,Petronela Lupsa,Zamolxis,48,37.7,20,25,30,30,15,17.5,20,20,40,50,-55,50,100,2,SBD,Raw
+F,Open,Alexandra Bar,Shinkami,44,43.7,20,25,30,30,15,17.5,20,20,40,50,55,55,105,1,SBD,Raw
+F,Open,Petronela Lupsa,Zamolxis,44,37.7,20,25,30,30,15,17.5,20,20,40,50,-55,50,100,2,SBD,Raw
 F,Open,Liliana Atudorei,Zamolxis,52,48.2,30,40,45,45,15,-25,25,25,55,60,70,70,140,1,SBD,Raw
 F,Open,Bianca Boia,Zamolxis,52,48.3,20,-25,25,25,15,17.5,-20,17.5,40,50,55,55,97.5,2,SBD,Raw
 F,Open,Iuliana Dabija,Bronx Bacau,56,53.7,85,95,-102.5,95,40,45,-50,45,90,100,107.5,107.5,247.5,1,SBD,Raw
