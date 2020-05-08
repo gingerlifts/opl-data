@@ -1,6 +1,6 @@
 Sex,Name,Team,BodyweightKg,WeightClassKg,Division,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Place,Event,Equipment
 F,Loredana Metehau,Bronx,46.6,47,Junior I,30,35,-40,35,35,1,B,Raw
-F,Antonia Faur,Zamolxis,41.3,47,Junior II,-25,-25,-25,,,DQ,B,Raw
+F,Antonia Faur,Zamolxis,41.3,43,Junior II,-25,-25,-25,,,DQ,B,Raw
 F,Georgeta Man,Zamolxis,49.2,52,Junior II,30,35,-37.5,35,35,1,B,Raw
 F,Diana Silinca,Zamolxis,51,52,Junior II,35,-40,-40,35,35,2,B,Raw
 F,Anamaria Motoca,Bronx,55.1,57,Junior II,45,50,57.5,57.5,57.5,1,B,Raw
@@ -22,7 +22,7 @@ M,Radu Raica,Activ Sibiu,56,59,Open,65,70,72.5,72.5,72.5,2,B,Raw
 M,Sorin Petaca,Zamolxis,57.1,59,Junior II,65,72.5,-75,72.5,72.5,3,B,Raw
 M,Florin-Daniel Militaru,Zamolxis,58.2,59,Junior II,50,55,-62.5,55,55,4,B,Raw
 M,Andreas Timpea,Zamolxis,54.5,59,Junior II,40,-45,50,50,50,5,B,Raw
-M,Darius Tomus,Zamolxis,47.8,59,Junior II,-40,-45,-45,,,DQ,B,Raw
+M,Darius Tomus,Zamolxis,47.8,53,Junior II,-40,-45,-45,,,DQ,B,Raw
 M,Marian Nuta,Shinkami,60.1,66,Junior II,-65,75,-82.5,75,75,1,B,Raw
 M,Razvan Mada,Olymp,65.5,66,Junior II,60,-65,-65,60,60,2,B,Raw
 M,Adrian Daramus,Zeus,66,66,Junior II,60,-65,-65,60,60,3,B,Raw
