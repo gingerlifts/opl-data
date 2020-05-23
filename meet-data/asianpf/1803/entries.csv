@@ -4,7 +4,7 @@ Place,WeightClassKg,Division,Sex,Name,BirthDate,BirthYear,Country,BodyweightKg,B
 3,47,Open,F,Dilrukshi N.J.K,1993-01-18,,Sri Lanka,46.32,110,35,125,270,SBD,Raw
 1,52,Open,F,Farhanna Farid,,1990,Singapore,51.46,120,57.5,173,350.5,SBD,Raw
 2,52,Open,F,Yi-Ju Chou,1980-06-25,,Taiwan,50.94,102.5,57.5,171,331,SBD,Raw
-3,52,Open,F,Kusuma D,1994-01-03,,India,51.66,112.5,65,135,312.5,SBD,Raw
+3,52,Open,F,D. Kusuma,1994-01-03,,India,51.66,112.5,65,135,312.5,SBD,Raw
 DQ,52,Open,F,Stephanie Mary Ensol,1988-11-23,,Malaysia,47.64,,,,,SBD,Raw
 1,57,Open,F,Anita Koykka,,,Philippines,56.32,130,70,150,350,SBD,Raw
 2,57,Open,F,Venus Tang,,1990,Singapore,56.54,120,77.5,147.5,345,SBD,Raw
@@ -15,19 +15,19 @@ DQ,52,Open,F,Stephanie Mary Ensol,1988-11-23,,Malaysia,47.64,,,,,SBD,Raw
 2,63,Open,F,Valeriya Kochina,1998-11-08,,Kazakhstan,62.25,137.5,77.5,150,365,SBD,Raw
 3,63,Open,F,Amartsengel Batkhishig,,1989,Mongolia,62.7,132.5,60,152.5,345,SBD,Raw
 4,63,Open,F,Gayani Randunu,1992-11-04,,Sri Lanka,60.95,137.5,52.5,142.5,332.5,SBD,Raw
-1,72,Open,F,M.M. Dilna,1988-05-15,,India,68.1,130,65,135,330,SBD,Raw
+1,72,Open,F,Dilna M.M,1988-05-15,,India,68.1,130,65,135,330,SBD,Raw
 2,72,Open,F,Sarnai Tumurbaatar,,1981,Mongolia,71.4,107.5,65,107.5,280,SBD,Raw
 DQ,72,Open,F,Marian De Soyza,1984-12-12,,Sri Lanka,68.65,,55,137.5,,SBD,Raw
 1,84,Open,F,Joyce Gail Reboton,,1992,Philippines,76.3,187.5,87.5,188.5,463.5,SBD,Raw
 2,84,Open,F,Mariya Solonenko,1983-01-28,,Kazakhstan,73.3,147.5,75,160,382.5,SBD,Raw
 1,84+,Open,F,Fang-Yun Su,1992-11-14,,Taiwan,123.9,225,117.5,208,550.5,SBD,Raw
 2,84+,Open,F,Xeniya Okatenko,1994-08-22,,Kazakhstan,111.9,200,145,205,550,SBD,Raw
-3,84+,Open,F,Tulasi K,1986-07-16,,India,94.25,120,75,130,325,SBD,Raw
+3,84+,Open,F,K. Tulasi,1986-07-16,,India,94.25,120,75,130,325,SBD,Raw
 1,47,Sub-Juniors,F,Jessa Mae Tabuan,,2002,Philippines,45,87.5,55,110,252.5,SBD,Raw
 2,47,Sub-Juniors,F,Reychelle Mae Sabang,,2000,Philippines,46.46,102.5,50,100,252.5,SBD,Raw
 1,57,Sub-Juniors,F,Anujin Narantuya,,2000,Mongolia,56.08,120,62.5,125,307.5,SBD,Raw
 2,57,Sub-Juniors,F,Yu-Yu Huang,2002-11-02,,Taiwan,56.68,112.5,47.5,135,295,SBD,Raw
-3,57,Sub-Juniors,F,Jwala Jose,2000-01-17,,India,55.04,110,47.5,125,282.5,SBD,Raw
+3,57,Sub-Juniors,F,Jwala Jose L,2000-01-17,,India,55.04,110,47.5,125,282.5,SBD,Raw
 4,57,Sub-Juniors,F,Dhanshree Mahadik,2003-05-27,,India,56.58,90,42.5,102.5,235,SBD,Raw
 1,63,Sub-Juniors,F,Anastasiya Sedova,,2000,Kazakhstan,61.45,110,52.5,125,287.5,SBD,Raw
 2,63,Sub-Juniors,F,Teng Loh Mei,2000-05-26,,Malaysia,60.75,97.5,55,117.5,270,SBD,Raw
@@ -53,7 +53,7 @@ DQ,84+,Sub-Juniors,F,Archana Surendran,2001-08-29,,India,86.1,,,110,,SBD,Raw
 3,63,Juniors,F,Orkhontuul Ochirbat,,1997,Mongolia,61.4,125,87.5,140,352.5,SBD,Raw
 1,72,Juniors,F,Shedge Akshaya,1995-05-13,,India,66.9,127.5,60,160,347.5,SBD,Raw
 1,84,Juniors,F,Alexis Nicole Go,,1996,Philippines,82,125,65,155,345,SBD,Raw
-2,84,Juniors,F,Murchana Sahariah,1997-01-07,,India,82.65,125,57.5,137.5,320,SBD,Raw
+2,84,Juniors,F,Murchana Saharia H,1997-01-07,,India,82.65,125,57.5,137.5,320,SBD,Raw
 1,84+,Juniors,F,Regina Meier,1999-03-15,,Kazakhstan,106.65,185,105,167.5,457.5,SBD,Raw
 2,84+,Juniors,F,Anujin Chuluunbat,,1999,Mongolia,116.3,187.5,65,160,412.5,SBD,Raw
 3,84+,Juniors,F,Janella Mhaecy Capili,,1998,Philippines,98.45,155,75,170,400,SBD,Raw
@@ -96,12 +96,12 @@ DQ,66,Open,M,Yondondash Baatardamba,1991-05-12,,Mongolia,66,,60,210,,SBD,Raw
 2,83,Open,M,Amarbat Batmagnai,,1990,Mongolia,79.5,220,177.5,260,657.5,SBD,Raw
 3,83,Open,M,Galbadrakh Ganbat,,1990,Mongolia,81.85,242.5,145,257.5,645,SBD,Raw
 4,83,Open,M,Chun Wing Lee,,1992,Hong Kong,81.45,230,140,260,630,SBD,Raw
-5,83,Open,M,Narayana Laxmi,1976-09-12,,India,82.3,250,125,252.5,627.5,SBD,Raw
+5,83,Open,M,D. Laxmi Narayana,1976-09-12,,India,82.3,250,125,252.5,627.5,SBD,Raw
 6,83,Open,M,Orgilbold Galdan,1986-11-21,,Mongolia,82.2,200,195,220,615,SBD,Raw
 7,83,Open,M,Ho Seok Hyun,1987-09-09,,South Korea,82.95,200,135,230,565,SBD,Raw
 8,83,Open,M,Ahmad Haider,1979-02-11,,UAE,81.5,110,185,210,505,SBD,Raw
 1,93,Open,M,Otgondalai Tsend-Ayush,,1981,Mongolia,91.6,265,207.5,230,702.5,SBD,Raw
-2,93,Open,M,Ghule Gaurav Ganesh,1994-11-20,,India,91.9,237.5,170,290,697.5,SBD,Raw
+2,93,Open,M,Gaurav Ganesh Ghule,1994-11-20,,India,91.9,237.5,170,290,697.5,SBD,Raw
 3,93,Open,M,Battumur Khumuugul,,1974,Mongolia,92.3,240,200,235,675,SBD,Raw
 4,93,Open,M,Davlatmand Odinaev,1981-08-08,,Tajikistan,91.5,220,160,260,640,SBD,Raw
 5,93,Open,M,Batbayar Battulga,,1984,Mongolia,89.5,230,150,240,620,SBD,Raw

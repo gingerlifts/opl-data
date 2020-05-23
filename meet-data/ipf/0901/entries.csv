@@ -9,7 +9,7 @@ Place,Name,Sex,Equipment,Event,BirthYear,Country,BodyweightKg,Squat1Kg,Squat2Kg,
 8,Sheng-Hung Yang,M,Single-ply,SBD,1982,Taiwan,55.82,150,165,170,170,85,97.5,-102.5,97.5,232.5,247.5,260,260,527.5,56,Open
 1,Tsung-Ting Hsieh,M,Single-ply,SBD,1982,Taiwan,59.72,255,267.5,-272.5,267.5,180,185,190,190,260,272.5,-290,272.5,730,60,Open
 2,Konstantin Danilov,M,Single-ply,SBD,1986,Russia,59.5,260,-277.5,277.5,277.5,160,170,175,175,250,265,-277.5,265,717.5,60,Open
-3,Shyam Singh Rana,M,Single-ply,SBD,1986,India,59.54,242.5,255,-270,255,112.5,117.5,120,120,250,-262.5,265,265,640,60,Open
+3,Shyam Singh Rana #1,M,Single-ply,SBD,1986,India,59.54,242.5,255,-270,255,112.5,117.5,120,120,250,-262.5,265,265,640,60,Open
 4,S. Raja Vimal,M,Single-ply,SBD,1984,India,59.96,240,250,260,260,127.5,135,-137.5,135,232.5,240,245,245,640,60,Open
 5,Etienne Lited,M,Single-ply,SBD,1979,France,59.74,235,245,-252.5,245,-145,145,150,150,232.5,242.5,-252.5,242.5,637.5,60,Open
 6,Mohamed Lakehal,M,Single-ply,SBD,1982,Algeria,59.76,240,-247.5,250,250,-135,135,-140,135,210,-220,-220,210,595,60,Open
@@ -162,7 +162,7 @@ DQ,Siti Mulyanah,F,Single-ply,SBD,1987,Indonesia,47.94,-160,-160,160,160,-105,-1
 3,Erlina Pecante,F,Single-ply,SBD,1964,Philippines,82.58,205,215,-222.5,215,115,122.5,-125,122.5,185,200,205,205,542.5,90,Open
 4,Jackie Buckley-Gray,F,Single-ply,SBD,1967,New Zealand,89.02,-185,185,-210,185,137.5,-142.5,-142.5,137.5,210,215,-225,215,537.5,90,Open
 5,Dorota Szczepanik,F,Single-ply,SBD,1969,Poland,84.52,160,170,-175,170,-130,130,-142.5,130,140,-150,160,160,460,90,Open
-6,Sampa Guha,F,Single-ply,SBD,1967,India,88.28,185,192.5,-202.5,192.5,90,97.5,105,105,160,-170,-170,160,457.5,90,Open
+6,Guha Sampa,F,Single-ply,SBD,1967,India,88.28,185,192.5,-202.5,192.5,90,97.5,105,105,160,-170,-170,160,457.5,90,Open
 7,Yuliya Bushuyeva,F,Single-ply,SBD,1981,Ukraine,84.78,165,175,-180,175,100,107.5,112.5,112.5,160,-165,-165,160,447.5,90,Open
 8,Malinda Baum,F,Single-ply,SBD,1963,USA,89.14,155,-165,-165,155,92.5,97.5,-105,97.5,155,162.5,-170,162.5,415,90,Open
 9,Amrutha Raj,F,Single-ply,SBD,1988,India,86.84,140,160,-175,160,60,72.5,-77.5,72.5,150,165,-172.5,165,397.5,90,Open

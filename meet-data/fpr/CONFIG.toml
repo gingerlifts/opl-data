@@ -100,6 +100,7 @@
     0911 = ["ExemptWeightClassConsistency"]
     1001 = ["ExemptWeightClassConsistency"]
     1002 = ["ExemptWeightClassConsistency"]
+    1005 = ["ExemptWeightClassConsistency"] #Fewer weight classes
     1106 = ["ExemptWeightClassConsistency"]
     1107 = ["ExemptWeightClassConsistency"]
     1203 = ["ExemptWeightClassConsistency"]
@@ -111,6 +112,8 @@
     1307 = ["ExemptWeightClassConsistency"]
     1309 = ["ExemptWeightClassConsistency"]
     1310 = ["ExemptWeightClassConsistency"]
+    1313 = ["ExemptWeightClassConsistency"] # Youth Classes
+    1314 = ["ExemptWeightClassConsistency"] # Youth Classes
     1403 = ["ExemptWeightClassConsistency"]
     1406 = ["ExemptWeightClassConsistency"]
     1408 = ["ExemptWeightClassConsistency"]

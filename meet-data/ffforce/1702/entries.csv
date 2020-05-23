@@ -6,7 +6,7 @@ Place,Name,Division,Equipment,Event,BirthDate,BirthYear,Age,Sex,BodyweightKg,Wei
 1,Sylvie Benlabidi,Masters 1,Single-ply,SBD,,1977,39,F,74.9,84,-105,105,-112.5,105,67.5,-72.5,-72.5,67.5,142.5,-150,150,150,322.5
 1,Nathalie Feraud,Masters 2,Single-ply,SBD,,1967,50,F,49.6,52,120,-130,130,130,77.5,85.5,88,88,130.5,140,145,145,363
 1,Marie-France Cabos,Masters 2,Single-ply,SBD,,1967,50,F,56.5,57,127.5,132.5,137.5,137.5,77.5,82.5,-85,82.5,135,-145,-145,135,355
-2,Lydie Grouet,Masters 2,Single-ply,SBD,,1960,57,F,56,57,110,115,120,120,67.5,75,-77.5,75,122.5,132.5,-140,132.5,327.5
+2,Lydie Grouet Molling,Masters 2,Single-ply,SBD,,1960,57,F,56,57,110,115,120,120,67.5,75,-77.5,75,122.5,132.5,-140,132.5,327.5
 1,Daisy Blondan,Masters 2,Single-ply,SBD,,1959,57,F,62.2,63,110,115,-122.5,115,77.5,-80,-80,77.5,140,145,-147.5,145,337.5
 2,Sylvie Barataud,Masters 2,Single-ply,SBD,,1967,49,F,57.8,63,105,110,115,115,55,60,-62.5,60,125,130,-135,130,305
 1,Marie Thérèse Jallais,Masters 3,Single-ply,SBD,,1957,59,F,50.2,52,-75,77.5,82.5,82.5,50,55,57.5,57.5,97.5,102.5,105,105,245
@@ -62,7 +62,7 @@ G,Beatrice Costa-Russic,Masters 1,Single-ply,B,,1969,48,F,52.5,57,,,,,75,-80,-80
 2,Nathalie Feraud,Masters 2,Single-ply,B,,1967,50,F,49.5,52,,,,,80,87.5,-91.5,87.5,,,,,87.5
 3,Brigitte Landon,Masters 2,Single-ply,B,,1961,55,F,48.3,52,,,,,67.5,-70,70,70,,,,,70
 1,Marie-France Cabos,Masters 2,Single-ply,B,,1967,50,F,55.9,57,,,,,77.5,-82.5,82.5,82.5,,,,,82.5
-2,Lydie Grouet,Masters 2,Single-ply,B,,1960,57,F,56.3,57,,,,,67.5,,,67.5,,,,,67.5
+2,Lydie Grouet Molling,Masters 2,Single-ply,B,,1960,57,F,56.3,57,,,,,67.5,,,67.5,,,,,67.5
 1,Patricia Maciejewski,Masters 2,Single-ply,B,,1961,55,F,62.3,63,,,,,90,-95,95,95,,,,,95
 2,Sophie Angenot,Masters 2,Single-ply,B,,1966,50,F,60.3,63,,,,,-85,-85,85,85,,,,,85
 3,Daisy Blondan,Masters 2,Single-ply,B,,1959,57,F,61.9,63,,,,,77.5,80,-82.5,80,,,,,80
@@ -77,7 +77,7 @@ G,Beatrice Costa-Russic,Masters 1,Single-ply,B,,1969,48,F,52.5,57,,,,,75,-80,-80
 2,Jérémie Godret,Juniors,Single-ply,B,,1994,23,M,65.4,66,,,,,142.5,-152.5,-152.5,142.5,,,,,142.5
 3,Jason Fretard,Juniors,Single-ply,B,,1995,21,M,98.3,105,,,,,200,-210,210,210,,,,,210
 4,Clément Bret,Juniors,Single-ply,B,,1994,22,M,100.9,105,,,,,180,195,-202.5,195,,,,,195
-1,Virgilio Manuel,Open,Single-ply,B,,1966,50,M,65.3,66,,,,,210,-220,-230,210,,,,,210
+1,Manuel Virgilio,Open,Single-ply,B,,,,M,65.3,66,,,,,210,-220,-230,210,,,,,210
 1,Antoni Mastrolorenzo,Open,Single-ply,B,,1982,35,M,73.5,74,,,,,180,190,197.5,197.5,,,,,197.5
 1,Matthias Nardoux,Open,Single-ply,B,,1986,30,M,79.1,83,,,,,185,195,-205,195,,,,,195
 1,Daniel Pires,Open,Single-ply,B,,1971,45,M,90.8,93,,,,,-192.5,192.5,-207.5,192.5,,,,,192.5

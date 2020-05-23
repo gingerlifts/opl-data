@@ -1,7 +1,6 @@
 //! Checks for meet.csv files.
 
 use chrono::{self, Datelike};
-use csv;
 use opltypes::states::*;
 use opltypes::*;
 
@@ -379,7 +378,7 @@ where
             state,
             town,
             name: name.unwrap(),
-            ruleset: ruleset,
+            ruleset,
         };
         Ok(MeetCheckResult {
             report,

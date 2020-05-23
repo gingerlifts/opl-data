@@ -1,7 +1,6 @@
 //! Checks for entries.csv files.
 
 use coefficients::{glossbrenner, wilks};
-use csv;
 use opltypes::states::*;
 use opltypes::*;
 use strum::IntoEnumIterator;
@@ -265,6 +264,7 @@ enum Header {
     Tested,
     AgeRange,
     Country,
+    EntryDate,
 
     WeightClassKg,
     BodyweightKg,
@@ -1013,6 +1013,20 @@ fn check_column_country(s: &str, line: u64, report: &mut Report) -> Option<Count
     }
 }
 
+fn check_column_entrydate(s: &str, line: u64, report: &mut Report) -> Option<Date> {
+    if s.is_empty() {
+        return None;
+    }
+
+    match s.parse::<Date>() {
+        Ok(d) => Some(d),
+        Err(_) => {
+            report.error_on(line, format!("Invalid EntryDate '{}'", s));
+            None
+        }
+    }
+}
+
 /// Checks the "State" column.
 ///
 /// If the lifter's Country is explicitly specified, the State is checked
@@ -1029,7 +1043,7 @@ fn check_column_state(
     }
 
     // Get the country either from the Country column or from the MeetCountry.
-    match lifter_country.or(meet.and_then(|m| Some(m.country))) {
+    match lifter_country.or(meet.map(|m| m.country)) {
         Some(country) => {
             let state = State::from_str_and_country(s, country).ok();
             if state.is_none() {
@@ -1249,6 +1263,7 @@ fn check_attempt_consistency_helper(
     attempt4: WeightKg,
     best3lift: WeightKg,
     exempt_lift_order: bool,
+    fourths_may_lower: bool,
     line: u64,
     report: &mut Report,
 ) {
@@ -1271,15 +1286,17 @@ fn check_attempt_consistency_helper(
         line,
         report,
     );
-    process_attempt_pair(
-        lift,
-        4,
-        maxweight,
-        attempt4,
-        exempt_lift_order,
-        line,
-        report,
-    );
+    if !fourths_may_lower {
+        process_attempt_pair(
+            lift,
+            4,
+            maxweight,
+            attempt4,
+            exempt_lift_order,
+            line,
+            report,
+        );
+    }
 
     // Check the Best3Lift validity.
     let best = attempt1.max(attempt2.max(attempt3));
@@ -1311,6 +1328,7 @@ fn check_attempt_consistency_helper(
 fn check_attempt_consistency(
     entry: &Entry,
     exempt_lift_order: bool,
+    fourths_may_lower: bool,
     line: u64,
     report: &mut Report,
 ) {
@@ -1323,6 +1341,7 @@ fn check_attempt_consistency(
         entry.squat4kg,
         entry.best3squatkg,
         exempt_lift_order,
+        fourths_may_lower,
         line,
         report,
     );
@@ -1336,6 +1355,7 @@ fn check_attempt_consistency(
         entry.bench4kg,
         entry.best3benchkg,
         exempt_lift_order,
+        fourths_may_lower,
         line,
         report,
     );
@@ -1349,6 +1369,7 @@ fn check_attempt_consistency(
         entry.deadlift4kg,
         entry.best3deadliftkg,
         exempt_lift_order,
+        fourths_may_lower,
         line,
         report,
     );
@@ -1370,7 +1391,7 @@ fn check_equipment_year(
     }
 
     // Inelegant unwrapping.
-    let date = match meet.and_then(|m| Some(&m.date)) {
+    let date = match meet.map(|m| &m.date) {
         Some(d) => d,
         None => {
             return;
@@ -1571,7 +1592,7 @@ fn check_weightclass_consistency(
         .iter()
         .enumerate()
         .find(|&(_, w)| *w == entry.weightclasskg)
-        .and_then(|(i, _)| Some(i));
+        .map(|(i, _)| i);
 
     if index.is_none() {
         // Try to make a helpful suggestion about the most likely candidate.
@@ -1664,17 +1685,17 @@ fn check_division_age_consistency(
 
     // Since it will be needed a bunch below, if there's a BirthDate,
     // figure out how old the lifter would be on the meet date.
-    let age_from_birthdate: Option<Age> = entry.birthdate.and_then(|birthdate| {
+    let age_from_birthdate: Option<Age> = entry.birthdate.map(|birthdate| {
         // Unwrapping is safe: the BirthDate column check already validated.
-        Some(birthdate.age_on(meet_date).unwrap())
+        birthdate.age_on(meet_date).unwrap()
     });
 
     let birthyear: Option<u32> = entry.birthyearrange.exact_birthyear();
 
     // Check that the Age, BirthYear, and BirthDate columns are internally
     // consistent.
-    let age_from_birthyear: Option<Age> = birthyear
-        .and_then(|birthyear| Some(Age::from_birthyear_on_date(birthyear, meet_date)));
+    let age_from_birthyear: Option<Age> =
+        birthyear.map(|birthyear| Age::from_birthyear_on_date(birthyear, meet_date));
     if let Some(birthyear) = birthyear {
         let approx_age = age_from_birthyear.unwrap();
 
@@ -2016,6 +2037,9 @@ where
     let report_disambiguations =
         config.map_or(false, |c| c.does_require_manual_disambiguation());
 
+    let fourths_may_lower: bool =
+        meet.map_or(false, |m| m.ruleset.contains(Rule::FourthAttemptsMayLower));
+
     // Scan for check exemptions.
     let exemptions = {
         let parent_folder = &report.get_parent_folder()?;
@@ -2211,6 +2235,9 @@ where
         if let Some(idx) = headers.get(Header::Country) {
             entry.country = check_column_country(&record[idx], line, &mut report);
         }
+        if let Some(idx) = headers.get(Header::EntryDate) {
+            check_column_entrydate(&record[idx], line, &mut report);
+        }
         if let Some(idx) = headers.get(Header::State) {
             let c = entry.country;
             entry.state = check_column_state(&record[idx], c, meet, line, &mut report);
@@ -2218,7 +2245,7 @@ where
             // If the Country was not explicitly specified, but the State was,
             // the lifter's Country is inferrable from the MeetCountry.
             if entry.country.is_none() {
-                entry.country = entry.state.and_then(|state| Some(state.to_country()));
+                entry.country = entry.state.map(|s| s.to_country());
             }
         }
 
@@ -2255,7 +2282,13 @@ where
 
         // Check consistency across fields.
         check_event_and_total_consistency(&entry, line, &mut report);
-        check_attempt_consistency(&entry, exempt_lift_order, line, &mut report);
+        check_attempt_consistency(
+            &entry,
+            exempt_lift_order,
+            fourths_may_lower,
+            line,
+            &mut report,
+        );
         check_equipment_year(&entry, meet, line, &mut report);
         check_weightclass_consistency(
             &entry,
