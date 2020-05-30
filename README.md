@@ -71,6 +71,41 @@ cd server
 cargo run --release
 ```
 
+### Ubuntu 20.04 LTS (Focal)
+
+Install the non-interactive command-line web client `curl`:
+
+```bash
+sudo apt-get install curl
+```
+
+Install the "nightly" version of the Rust programming language using `rustup`:
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+When a menu appears, choose "Customize installation".<br/>
+Press the Enter key until it asks `Default toolchain?`. Type `nightly` and press Enter.<br/>
+Continue pressing Enter at the remaining prompts until Rust is installed.
+
+Log out and log back in to allow `~/.cargo/bin` to be part of your default shell `$PATH`.
+
+Install dependenies:
+
+```bash
+sudo apt-get install make npm python3-bs4 python3-flake8 ansible parallel uglifyjs
+```
+
+Build the project and run the server:
+
+```bash
+make 
+cd server
+cargo run --release
+```
+
+
 ### Windows 10 (Native)
 
 1. Download and install the [Build Tools for Visual Studio 2019](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019).
