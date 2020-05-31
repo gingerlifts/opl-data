@@ -155,7 +155,7 @@ fn precompute_num_unique_lifters(entries: &[Entry], meet_id: u32) -> u32 {
 }
 
 impl OplDb {
-    /// Constructs the `OplDb` from CSV files produces by the project
+    /// Constructs the `OplDb` from CSV files produced by the project
     /// build script.
     pub fn from_csv(
         lifters_csv: &str,
@@ -287,19 +287,6 @@ impl OplDb {
         acc
     }
 
-    /// Look up the lifter_id by Name.
-    ///
-    /// This function exists for compatibility for the old site.
-    /// Outside of that, usernames or id numbers should be used.
-    pub fn get_lifter_id_by_name(&self, name: &str) -> Option<u32> {
-        for i in 0..self.lifters.len() {
-            if self.lifters[i].name == name {
-                return Some(i as u32);
-            }
-        }
-        None
-    }
-
     /// Look up the meet_id by MeetPath.
     pub fn get_meet_id(&self, meetpath: &str) -> Option<u32> {
         for i in 0..self.meets.len() {
@@ -323,7 +310,7 @@ impl OplDb {
             .binary_search_by_key(&lifter_id, |e| e.lifter_id)
             .unwrap();
 
-        // All entries for a lifter are contiguous, so scan linearly to find the first.
+        // All entries for a lifter are contiguous, so scan backwards to find the first.
         let mut first_index = found_index;
         for index in (0..found_index).rev() {
             if self.get_entry(index as u32).lifter_id == lifter_id {
@@ -333,9 +320,9 @@ impl OplDb {
             }
         }
 
-        // Scan to find the last.
+        // Scan forwards to find the last.
         let mut last_index = found_index;
-        for index in found_index..self.get_entries().len() {
+        for index in (found_index + 1)..self.get_entries().len() {
             if self.get_entry(index as u32).lifter_id == lifter_id {
                 last_index = index;
             } else {
@@ -345,7 +332,7 @@ impl OplDb {
         assert!(first_index <= last_index);
 
         // Collect entries between first_index and last_index, inclusive.
-        (first_index..last_index + 1)
+        (first_index..=last_index)
             .map(|i| self.get_entry(i as u32))
             .collect()
     }

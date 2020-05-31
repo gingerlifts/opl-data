@@ -45,38 +45,10 @@ the changes back so the entire powerlifting community may benefit.
 
 ### Fedora 31
 
-First, install the "nightly" version of the Rust programming language using `rustup`:
-
-```bash
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-```
-
-When a menu appears, choose "Customize installation".<br/>
-Press the Enter key until it asks `Default toolchain?`. Type `nightly` and press Enter.<br/>
-Continue pressing Enter at the remaining prompts until Rust is installed.
-
-Log out and log back in to allow `~/.cargo/bin` to be part of your default shell `$PATH`.
-
 Install dependencies:
 
 ```bash
 sudo dnf install make npm python3-beautifulsoup4 python3-flake8 ansible parallel uglify-js
-```
-
-Build the project and run the server:
-
-```bash
-make
-cd server
-cargo run --release
-```
-
-### Ubuntu 20.04 LTS (Focal)
-
-Install the non-interactive command-line web client `curl`:
-
-```bash
-sudo apt-get install curl
 ```
 
 Install the "nightly" version of the Rust programming language using `rustup`:
@@ -91,18 +63,20 @@ Continue pressing Enter at the remaining prompts until Rust is installed.
 
 Log out and log back in to allow `~/.cargo/bin` to be part of your default shell `$PATH`.
 
-Install dependenies:
-
-```bash
-sudo apt-get install make npm python3-bs4 python3-flake8 ansible parallel uglifyjs
-```
-
 Build the project and run the server:
 
 ```bash
-make 
+make
 cd server
 cargo run --release
+```
+
+### Ubuntu 20.04 LTS (Focal)
+
+Follow the instructions for Fedora, but use this alternate command for installing dependencies:
+
+```bash
+sudo apt-get install curl make npm python3-bs4 python3-flake8 ansible parallel uglifyjs
 ```
 
 
