@@ -79,7 +79,6 @@ Follow the instructions for Fedora, but use this alternate command for installin
 sudo apt-get install curl make npm python3-bs4 python3-flake8 ansible parallel uglifyjs
 ```
 
-
 ### Windows 10 (Native)
 
 1. Download and install the [Build Tools for Visual Studio 2019](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019).
