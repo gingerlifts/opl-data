@@ -2235,6 +2235,9 @@ impl Federation {
         } else {
             PointsSystem::SchwartzMalone
         }
+        else {
+            PointsSystem::SchwartzMalone
+        }
     }
 
     /// Helper function for specifying the PointsSystem of federations under IPL rules.
