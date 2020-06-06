@@ -1,38 +1,38 @@
 Name,Sex,Country,Division,WeightClassKg,BirthDate,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Squat4Kg,Equipment,Place,Event
 Tanja van Huizen,F,Netherlands,Teen 15-19,67.5,1988-01-05,64.8,120,130,137.5,137.5,60,65,67.5,67.5,115,120,125,125,330,-142.5,Single-ply,1,SBD
-Adriana Bialostocki,F,Germany,Open,67.5,1982-02-05,67.5,90,-100,-100,90,75,82.5,-87.5,82.5,100,105,-120,105,277.5, ,Single-ply,1,SBD
-Sonja Herzig,F,Austria,Open,75,1969-09-28,73.2,80,90,-100,90,50,55,60,60,120,130,140,140,290, ,Single-ply,1,SBD
-Lucy-Aileen Kruger,F,Germany,Masters 40-44,82.5,1963-05-29,75.65,160,180,-190,180,105,-117.5,117.5,117.5,150,170,-190,170,467.5, ,Single-ply,1,SBD
-Frank Binger,M,Germany,Open,67.5,1972-08-24,64.85,165,180,185,185,105,110,,110,202.5,207.5,,207.5,502.5, ,Single-ply,1,SBD
-Rene Bosma,M,Netherlands,Teen 15-19,75,1990-04-11,72.05,150,170,180,180,90,97.5,102.5,102.5,145,160,165,165,447.5, ,Single-ply,1,SBD
-Dirk Schumann,M,Germany,Open,75,1968-08-28,73.75,200,210,-220,210,127.5,135,-140,135,200,210,-215,210,555, ,Single-ply,1,SBD
-Heiko Grumpmann,M,Germany,Masters 40-44,75,1965-01-26,72.85,190,200,202.5,202.5,115,120,-122.5,120,-200,-205,-205,,, ,Single-ply,DQ,SBD
-Bernd Large,M,Germany,Masters 40-44,75,1963-11-08,74.4,170,180,-185,180,115,-125,,115,170,177.5,,177.5,472.5, ,Single-ply,1,SBD
-Salih Meryem,M,Germany,Masters 45-49,75,1959-03-20,71.6,140,150,160,160,90,97.5,102.5,102.5,140,150,160,160,422.5, ,Single-ply,1,SBD
-Calin Eschenasy,M,Germany,Masters 50-54,75,1955-02-15,74.8,220,230,240,240,135,140,146,146,215,225,231,231,617, ,Single-ply,1,SBD
-Mario Purkarthofer,M,Austria,Juniors 20-23,82.5,1985-03-08,82.4,240,255,262.5,262.5,120,-135,135,135,200,215,222.5,222.5,620, ,Single-ply,1,SBD
-Rocco Gopfahrt,M,Germany,Masters 40-44,82.5,1965-05-11,80.95,220,240,,240,150,157.5,-162.5,157.5,190,205,212.5,212.5,610, ,Single-ply,1,SBD
-Detlef Brill,M,Germany,Masters 45-49,82.5,1961-01-13,81.5,170,180,192.5,192.5,150,-160,-160,150,205,210,217.5,217.5,560, ,Single-ply,1,SBD
-Bernd Steinbrecher,M,Germany,Masters 50-54,82.5,1955-06-20,79,192.5,202.5,210,210,130,-135,,130,-200,-205,-205,,, ,Single-ply,DQ,SBD
-Michael Eschle,M,Germany,Open,90,1975-08-22,89.7,260,270,-275,270,155,165,-170,165,230,245,-250,245,680, ,Single-ply,1,SBD
-Frank Schmidtmann,M,Germany,Masters 40-44,90,1962-07-12,86.45,200,220,230,230,120,130,,130,230,250,260,260,620, ,Single-ply,1,SBD
-Marco Schmitt,M,Germany,Open,110,1978-02-20,103.5,250,-265,-265,250,180,190,-195,190,240,250,-255,250,690, ,Single-ply,2,SBD
-Jens Sobottka,M,Germany,Open,100,1976-06-16,96.1,250,-265,-265,250,130,135,140,140,250,260,270,270,660, ,Single-ply,1,SBD
-Alexander Mittag,M,Germany,Open,110,1982-10-12,104.2,287.5,-307.5,-315,287.5,-160,165,182.5,182.5,240,-255,265,265,735, ,Single-ply,1,SBD
-Walter Becka,M,Austria,Masters 40-44,110,1962-10-12,101.6,160,170,-180,170,125,132.5,140,140,160,175,-190,175,485, ,Single-ply,1,SBD
-Norbert Blöß,M,Germany,Masters 40-44,100,1963-07-26,90.8,180,-190,,180,-125,125,130,130,190,210,220,220,530, ,Single-ply,1,SBD
-Oliver Glänzer,M,Germany,Juniors 20-23,110,1984-06-28,104.4,220,235,245,245,140,-150,150,150,245,255,-270,255,650, ,Single-ply,1,SBD
-Oliver Türk,M,Germany,Open,125,1969-02-11,123.5,-370,-370,370,370,-230,,,,,,,,, ,Single-ply,DQ,SBD
-Gerhard Holleitner,M,Austria,Open,140,1959-06-20,125.2,250,270,,270,205,-227.5,-227.5,205,300,-325,-325,300,775, ,Single-ply,2,SBD
-Frank Jungmann,M,Germany,Masters 40-44,125,1962-06-25,117.7,230,-255,255,255,180,195,210,210,230,,,230,695, ,Single-ply,1,SBD
-Roberto Arnold,M,Germany,Masters 45-49,125,1958-12-27,120.9,300,315,,315,200,212.5,,212.5,290,-312.5,,290,817.5, ,Single-ply,1,SBD
-Jens Pollex,M,Germany,Open,140,1968-06-16,125.3,310,330,,330,200,210,-220,210,280,300,,300,840, ,Single-ply,1,SBD
-Sarah Thimm,F,Germany,Juniors 20-23,60,1987-03-29,60,,,,,30,-35,-35,30,,,,,30,,Single-ply,1,B
+Adriana Bialostocki,F,Germany,Open,67.5,1982-02-05,67.5,90,-100,-100,90,75,82.5,-87.5,82.5,100,105,-120,105,277.5,,Single-ply,1,SBD
+Sonja Herzig,F,Austria,Open,75,1969-09-28,73.2,80,90,-100,90,50,55,60,60,120,130,140,140,290,,Single-ply,1,SBD
+Lucy-Aileen Kruger,F,Germany,Masters 40-44,82.5,1963-05-29,75.65,160,180,-190,180,105,-117.5,117.5,117.5,150,170,-190,170,467.5,,Single-ply,1,SBD
+Frank Binger,M,Germany,Open,67.5,1972-08-24,64.85,165,180,185,185,105,110,,110,202.5,207.5,,207.5,502.5,,Single-ply,1,SBD
+Rene Bosma,M,Netherlands,Teen 15-19,75,1990-04-11,72.05,150,170,180,180,90,97.5,102.5,102.5,145,160,165,165,447.5,,Single-ply,1,SBD
+Dirk Schumann,M,Germany,Open,75,1968-08-28,73.75,200,210,-220,210,127.5,135,-140,135,200,210,-215,210,555,,Single-ply,1,SBD
+Heiko Grumpmann,M,Germany,Masters 40-44,75,1965-01-26,72.85,190,200,202.5,202.5,115,120,-122.5,120,-200,-205,-205,,,,Single-ply,DQ,SBD
+Bernd Large,M,Germany,Masters 40-44,75,1963-11-08,74.4,170,180,-185,180,115,-125,,115,170,177.5,,177.5,472.5,,Single-ply,1,SBD
+Salih Meryem,M,Germany,Masters 45-49,75,1959-03-20,71.6,140,150,160,160,90,97.5,102.5,102.5,140,150,160,160,422.5,,Single-ply,1,SBD
+Calin Eschenasy,M,Germany,Masters 50-54,75,1955-02-15,74.8,220,230,240,240,135,140,146,146,215,225,231,231,617,,Single-ply,1,SBD
+Mario Purkarthofer,M,Austria,Juniors 20-23,82.5,1985-03-08,82.4,240,255,262.5,262.5,120,-135,135,135,200,215,222.5,222.5,620,,Single-ply,1,SBD
+Rocco Gopfahrt,M,Germany,Masters 40-44,82.5,1965-05-11,80.95,220,240,,240,150,157.5,-162.5,157.5,190,205,212.5,212.5,610,,Single-ply,1,SBD
+Detlef Brill,M,Germany,Masters 45-49,82.5,1961-01-13,81.5,170,180,192.5,192.5,150,-160,-160,150,205,210,217.5,217.5,560,,Single-ply,1,SBD
+Bernd Steinbrecher,M,Germany,Masters 50-54,82.5,1955-06-20,79,192.5,202.5,210,210,130,-135,,130,-200,-205,-205,,,,Single-ply,DQ,SBD
+Michael Eschle,M,Germany,Open,90,1975-08-22,89.7,260,270,-275,270,155,165,-170,165,230,245,-250,245,680,,Single-ply,1,SBD
+Frank Schmidtmann,M,Germany,Masters 40-44,90,1962-07-12,86.45,200,220,230,230,120,130,,130,230,250,260,260,620,,Single-ply,1,SBD
+Marco Schmitt,M,Germany,Open,110,1978-02-20,103.5,250,-265,-265,250,180,190,-195,190,240,250,-255,250,690,,Single-ply,2,SBD
+Jens Sobottka,M,Germany,Open,100,1976-06-16,96.1,250,-265,-265,250,130,135,140,140,250,260,270,270,660,,Single-ply,1,SBD
+Alexander Mittag,M,Germany,Open,110,1982-10-12,104.2,287.5,-307.5,-315,287.5,-160,165,182.5,182.5,240,-255,265,265,735,,Single-ply,1,SBD
+Walter Becka,M,Austria,Masters 40-44,110,1962-10-12,101.6,160,170,-180,170,125,132.5,140,140,160,175,-190,175,485,,Single-ply,1,SBD
+Norbert Blöß,M,Germany,Masters 40-44,100,1963-07-26,90.8,180,-190,,180,-125,125,130,130,190,210,220,220,530,,Single-ply,1,SBD
+Oliver Glänzer,M,Germany,Juniors 20-23,110,1984-06-28,104.4,220,235,245,245,140,-150,150,150,245,255,-270,255,650,,Single-ply,1,SBD
+Oliver Türk,M,Germany,Open,125,1969-02-11,123.5,-370,-370,370,370,-230,,,,,,,,,,Single-ply,DQ,SBD
+Gerhard Holleitner,M,Austria,Open,140,1959-06-20,125.2,250,270,,270,205,-227.5,-227.5,205,300,-325,-325,300,775,,Single-ply,2,SBD
+Frank Jungmann,M,Germany,Masters 40-44,125,1962-06-25,117.7,230,-255,255,255,180,195,210,210,230,,,230,695,,Single-ply,1,SBD
+Roberto Arnold,M,Germany,Masters 45-49,125,1958-12-27,120.9,300,315,,315,200,212.5,,212.5,290,-312.5,,290,817.5,,Single-ply,1,SBD
+Jens Pollex,M,Germany,Open,140,1968-06-16,125.3,310,330,,330,200,210,-220,210,280,300,,300,840,,Single-ply,1,SBD
+Sarah Thimm,F,Germany,Juniors 20-23,60,,60,,,,,30,-35,-35,30,,,,,30,,Single-ply,1,B
 Violetta Wycisk,F,Germany,Open,60,1981-06-04,59.9,,,,,35,40,-45,40,,,,,40,,Single-ply,1,B
-Alina Schmidt,F,Germany,Teen 15-19,75,1992-01-21,73.15,,,,,35,40,-47.5,40,,,,,40,,Single-ply,1,B
+Alina Schmidt,F,Germany,Teen 15-19,75,,73.15,,,,,35,40,-47.5,40,,,,,40,,Single-ply,1,B
 Angelika Jentsch,F,Germany,Masters 40-44,67.5,1964-06-21,62.4,,,,,47.5,52.5,55,55,,,,,55,,Single-ply,1,B
 Thorben Sartory,M,Germany,Teen 15-19,56,1991-06-01,55.4,,,,,67.5,77.5,-82.5,77.5,,,,,77.5,,Single-ply,1,B
-Justin Busch,M,Germany,Teen 15-19,67.5,1992-01-31,63.3,,,,,50,-57.5,-57.5,50,,,,,50,,Single-ply,1,B
+Justin Busch,M,Germany,Teen 15-19,67.5,,63.3,,,,,50,-57.5,-57.5,50,,,,,50,,Single-ply,1,B
 Patrick Nyberg,M,Germany,Teen 15-19,67.5,1989-10-12,64,,,,,30,35,-50,35,,,,,35,,Single-ply,2,B
 Thomas Rößner,M,Germany,Juniors 20-23,67.5,1983-07-24,66.85,,,,,100,105,-107.5,105,,,,,105,,Single-ply,1,B
 Andreas Hartung,M,Germany,Juniors 20-23,75,1983-10-06,70.7,,,,,130,-135,135,135,,,,,135,,Single-ply,1,B
