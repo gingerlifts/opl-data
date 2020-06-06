@@ -1,6 +1,6 @@
 Sex,Name,Country,Division,WeightClassKg,Age,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Equipment,Place,Event
 F,Anne Hoffmans,Netherlands,Open,56,29,52.7,-87.5,92.5,97.5,98,97.5,50,-52.5,-52.5,,50,90,97.5,100,107.5,100,247.5,Wraps,1,SBD
-F,Lynn Strasser,Luxembourg,Junior,56,22,55.8,85,90,92.5,,92.5,50,55,-57.5,,55,125,130,137.5,,137.5,285,Wraps,1,SBD
+F,Lynn Strasser,Luxembourg,Juniors 20-23,56,22,55.8,85,90,92.5,,92.5,50,55,-57.5,,55,125,130,137.5,,137.5,285,Wraps,1,SBD
 F,Lauren Crisp,Luxembourg,Open,67.5,29,62,85,100,-110,,100,55,60,-62.5,,60,110,-120,-120,,110,270,Wraps,3,SBD
 F,Morgane Mayer,Luxembourg,Open,67.5,25,64.3,97.5,-102.5,-102.5,,97.5,55,60,-62.5,,60,105,112.5,117.5,,117.5,275,Wraps,1,SBD
 F,Lis Conter,Luxembourg,Open,67.5,26,67.4,62.5,67.5,-72.5,,67.5,50,55,-57.5,,55,97.5,102.5,107.5,,107.5,230,Wraps,4,SBD
@@ -36,7 +36,7 @@ F,Svenja Vennewald,Germany,Open,82.5,39,,,,,,,,,,,,,,,,,,Raw,DQ,B
 F,Tatjana von Lemberg,Germany,Masters 50-54,90,54,83.8,,,,,,90,100,-110,,100,,,,,,100,Single-ply,1,B
 F,Ursula Eulenstein,Germany,Masters 65-69,82.5,68,81.7,,,,,,70,75,77.5,,77.5,,,,,,77.5,Raw,1,B
 M,Dennis Glok,Germany,Teen 15-19,82.5,19,,,,,,,,,,,,,,,,,,Raw,DQ,B
-M,Martin van Gelder,Netherlands,Junior,82.5,21,79.6,,,,,,115,122.5,-125,,122.5,,,,,,122.5,Raw,1,B
+M,Martin van Gelder,Netherlands,Juniors 20-23s 20-23,82.5,21,79.6,,,,,,115,122.5,-125,,122.5,,,,,,122.5,Raw,1,B
 M,Rafał Krawczyk,Poland,Open,82.5,26,,,,,,,,,,,,,,,,,,Raw,DQ,B
 M,Paul Kraft,Germany,Masters 40-44,82.5,43,82.5,,,,,,195,-202.5,-207.5,,195,,,,,,195,Single-ply,1,B
 M,Mietek Maczka,Germany,Masters 60-64,82.5,63,81.8,,,,,,100,105,110,,110,,,,,,110,Raw,1,B
@@ -65,10 +65,10 @@ M,Gerhard Holleitner,Austria,Masters 55-59,110,58,,,,,,,,,,,,,,,,,,Raw,DQ,D
 M,Rainer Katenbeisser,Austria,Open,125,39,114.7,,,,,,,,,,,170,200,220,,220,220,Raw,1,D
 M,Alexej Bauer,Germany,Open,125,38,119.1,,,,,,,,,,,200,210,217.5,,217.5,217.5,Single-ply,1,D
 M,Christian Wagner,Germany,Teen 15-19,90,18,89.6,140,165,-180,,165,100,120,-125,,120,180,200,205,,205,490,Wraps,1,SBD
-M,Lucas Strubel,Germany,Junior,100,20,97.2,-200,200,-205,,200,107.5,115,125,,125,200,225,-235,,225,550,Wraps,1,SBD
+M,Lucas Strubel,Germany,Juniors 20-23,100,20,97.2,-200,200,-205,,200,107.5,115,125,,125,200,225,-235,,225,550,Wraps,1,SBD
 M,Alexander Koch,Germany,Masters 50-54,100,50,93.1,160,-165,-170,,160,110,120,-130,,120,160,180,200,-207.5,200,480,Wraps,1,SBD
 M,Fred Marienfeldt,Germany,Masters 65-69,90,69,,,,,,,,,,,,,,,,,,Single-ply,DQ,SBD
-M,Thomas Holter,Luxembourg,Junior,110,22,103,160,170,180,,180,115,120,125,,125,190,200,-212.5,,200,505,Wraps,1,SBD
+M,Thomas Holter,Luxembourg,Juniors 20-23,110,22,103,160,170,180,,180,115,120,125,,125,190,200,-212.5,,200,505,Wraps,1,SBD
 M,Pascal Feijen,Netherlands,Open,100,28,97.1,145,150,-152.5,,150,-105,107.5,110,,110,185,195,-200,,195,455,Wraps,7,SBD
 M,Marius Möller,Germany,Open,90,23,89.1,165,175,182.5,,182.5,112.5,-117.5,-117.5,,112.5,205,212.5,220,,220,515,Wraps,1,SBD
 M,Kilian Lampe,Luxembourg,Open,100,24,97.6,-180,-190,190,,190,110,115,120,,120,190,205,210,,210,520,Wraps,5,SBD
