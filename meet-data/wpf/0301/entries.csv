@@ -2,7 +2,7 @@ Sex,Name,Division,WeightClassKg,BirthDate,BodyweightKg,Squat1Kg,Squat2Kg,Squat3K
 F,Daniela Grimm,Open,60,1981-11-11,59,,,,,47.5,52,55,,55,,,,,55,Single-ply,2,B
 F,Isabel Riede,Open,60,1979-05-22,59.3,,,,,55,60,,,60,,,,,60,Single-ply,1,B
 M,David Orth,Teen 15-19,75,1987-05-01,74.2,,,,,80,85,90,92.5,90,,,,,90,Single-ply,1,B
-M,Lars Schellenberg,Teen 15-19,100,1988-05-23,91.9,,,,,70,72.5,75,,75,,,,,75,Single-ply,1,B
+M,Lars Schellenberg,Teen 15-19,100,,91.9,,,,,70,72.5,75,,75,,,,,75,Single-ply,1,B
 M,Christian Amende,Teen 15-19,75,1985-03-07,,,,,,,,,,,,,,,,Single-ply,DQ,B
 M,Johannes Rose,Teen 15-19,82.5,1985-10-08,77.3,,,,,95,100,,,100,,,,,100,Single-ply,1,B
 M,Maetin Karius,Juniors 20-23,67.5,1981-08-30,67.2,,,,,107.5,117.5,,,117.5,,,,,117.5,Single-ply,1,B
@@ -43,7 +43,7 @@ M,Gerd Mäule,Masters 45-49,125,1955-03-19,122.8,,,,,190,200,,,200,,,,,200,Singl
 M,Franz Seul,Masters 50-54,110,1948-09-21,107,,,,,180,187.5,192.5,,192.5,,,,,192.5,Single-ply,1,B
 M,Siem Wulfsen,Masters 50-54,140,,,,,,,,,,,,,,,,,Single-ply,DQ,B
 M,Werner Muller,Masters 65-69,75,1935-06-25,73.9,,,,,,72.5,75,77.5,75,,,,,75,Single-ply,1,B
-F,Colette Steinbrecher,Open,56,1970-01-20,51.7,80,85,,85,37.5,40,,,40,100,110,,110,235,Single-ply,1,SBD
+F,Colette Steinbrecher,Open,52,1970-01-20,51.7,80,85,,85,37.5,40,,,40,100,110,,110,235,Single-ply,1,SBD
 F,Ursula Eschenasy,Masters 45-49,60,1957-11-22,58.5,100,112.5,,112.5,55,60,,,60,125,,,125,297.5,Single-ply,1,SBD
 F,Svetlana Ivannikova,Juniors 20-23,75,1982-11-01,69.2,150,160,,160,90,100,105,,105,150,160,,160,425,Single-ply,1,SBD
 M,Mario Purkorthofer,Teen 15-19,82.5,1985-08-03,78.5,145,160,170,170,85,95,105,,105,130,145,160,160,435,Single-ply,1,SBD
