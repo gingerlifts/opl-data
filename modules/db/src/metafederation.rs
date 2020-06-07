@@ -178,6 +178,10 @@ pub enum MetaFederation {
     /// but people expect to see them all lumped together.
     #[strum(to_string = "bp")]
     BP,
+    
+    /// BPC, but with international results also.
+    #[strum(to_string = "bpc")]
+    BPC,
 
     /// BPU, but with international results also.
     #[strum(to_string = "bpu")]
@@ -581,10 +585,19 @@ impl MetaFederation {
                     || (meet.federation == Federation::WDFPF
                         && entry.lifter_country.map_or(false, |c| c.is_in_uk()))
             }
+            MetaFederation::BPC => {
+                meet.federation == Federation::BPC
+                    || (meet.federation == Federation::WPC
+                        && entry.lifter_country.map_or(false, |c| c.is_in_uk())
+                        && meet.date.year() <= 2012
+                       )
+            }
             MetaFederation::BPU => {
                 meet.federation == Federation::BPU
                     || (meet.federation == Federation::WPC
-                        && entry.lifter_country.map_or(false, |c| c.is_in_uk()))
+                        && entry.lifter_country.map_or(false, |c| c.is_in_uk())
+                        && meet.date.year() >= 2013
+                       )
             }
             MetaFederation::BVDK => match meet.federation {
                 // BVDG is the precursor to the BVDK.
