@@ -244,6 +244,33 @@ def check_name_disambiguation(names):
                        " but only %s variants are known." % (filename, name, count))
 
 
+def check_se_exemptions(name):
+
+    filename = 'se-exemptions.csv'
+    csv = oplcsv.Csv(os.path.join('lifter-data', filename))
+
+    if ','.join(csv.fieldnames) != "Name,OverrideSex":
+        perror("%s: CSV column names are wrong" % filename)
+        return
+
+    seenset = set()
+    for (name, override_sex,) in csv.rows:
+
+        # each name can only occur once
+        if name in seenset:
+            perror("%s: Name '%s' occurs more than once." % (filename, name))
+
+        else:
+            seenset.add(name)
+
+        # check for valid sex values
+        valid_override_sex = ['M', 'F', 'Mx', 'NB', 'GQ', '_']
+        if override_sex not in valid_override_sex:
+            perror("%s: '%s' is not a valid Sex value - must be one of : '%s'" % (
+                filename, override_sex, str(valid_override_sex)
+            ))
+
+
 def main():
     global hitError
 
@@ -253,6 +280,7 @@ def main():
     check_social_media(names)
     check_name_corrections(names)
     check_name_disambiguation(names)
+    check_se_exemptions(names)
 
     if hitError:
         return 1
