@@ -117,7 +117,7 @@ def load_exemptions(exemptions_path):
     csv = oplcsv.Csv(exemptions_path)
 
     if 'Name' not in csv.fieldnames:
-        perror("Missing Name column in %" % exemptions_path)
+        perror("Missing Name column in %s" % exemptions_path)
         return
 
     if 'OverrideSex' not in csv.fieldnames:
