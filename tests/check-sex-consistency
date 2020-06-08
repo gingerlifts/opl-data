@@ -54,7 +54,7 @@ def pwarning(s):
 ###############################################
 
 
-def process_file(path):
+def process_file(path, exemptions):
     global NameToSexHash
     global AlreadyPrintedList
 
@@ -84,6 +84,10 @@ def process_file(path):
                 pwarning("Missing name information in %s." % path)
             continue
 
+        if exemptions.get(name):
+            pwarning("Lifter %s exempted" % name)
+            continue
+
         if sex == '':
             pwarning("Missing sex information for \"%s\" in %s." %
                      (name, path))
@@ -108,13 +112,54 @@ def process_file(path):
             NameToSexHash[name][1] = NameToSexHash[name][1] + 1
 
 
+def load_exemptions(exemptions_path):
+
+    csv = oplcsv.Csv(exemptions_path)
+
+    if 'Name' not in csv.fieldnames:
+        perror("Missing Name column in %" % exemptions_path)
+        return
+
+    if 'OverrideSex' not in csv.fieldnames:
+        perror("Missing OverrideSex column in %s" % exemptions_path)
+        return
+
+    nameidx = csv.index('Name')
+    overridesexidx = csv.index('OverrideSex')
+
+    exemptions = {}
+
+    for row in csv.rows:
+        name = row[nameidx]
+        overridesex = row[overridesexidx]
+
+        if name == '':
+            perror("Missing name in %s, row: %s" % exemptions_path, str(row))
+
+        if overridesex == '':
+            perror("Missing overridesex in %s, row: %s" % exemptions_path, str(row))
+
+        exemptions[name] = overridesex
+
+    return exemptions
+
+
 def main():
+
+    if len(sys.argv) == 2:
+        exemptions_path = sys.argv[1]
+    else:
+        perror("Usage: %s sex-exemptions-file-path" % sys.argv[0])
+        sys.exit(1)
+
+    exemptions = load_exemptions(exemptions_path)
+
     for dirname, subdirs, files in os.walk(os.getcwd()):
         if "meet-data" in subdirs:
             subdirs[:] = ['meet-data']
         if 'entries.csv' in files:
             entriespath = dirname + os.sep + 'entries.csv'
-            process_file(entriespath)
+            process_file(entriespath, exemptions)
 
     for name, counts in NameToSexHash.items():
         if counts[0] and counts[1]:
