@@ -38,7 +38,7 @@ server: csv
 # Make sure that all the fields in the CSV files are in expected formats.
 check:
 	cargo run --bin checker
-	tests/check-sex-consistency
+	tests/check-sex-consistency lifter-data/se-exemptions.csv
 	tests/check-lifter-data
 	tests/check-duplicates
 	tests/check-python-style
