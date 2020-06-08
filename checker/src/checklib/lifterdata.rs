@@ -29,6 +29,9 @@ pub struct LifterData {
     /// next to lifters' names for a year. It is currently unused.
     pub flair: Option<String>,
 
+    /// The lifter's sex override
+    pub override_sex: Option<String>,
+
     /// The lifter's Instagram.
     pub instagram: Option<String>,
 
@@ -289,6 +292,67 @@ fn check_social_vkontakte(
     Ok(())
 }
 
+/// Specifies a lifter's sex override, if they want something displayed
+/// other than what we automatically infer from meet entries. These are
+/// in `lifter-data/se-exemptions.csv`
+#[derive(Deserialize)]
+struct OverrideSexRow {
+    #[serde(rename = "Name")]
+    pub name: String,
+    #[serde(rename = "OverrideSex")]
+    pub override_sex: String,
+}
+
+/// Check `lifter-data/se-exemptions.csv`, and mutate the LifterDataMap
+fn check_se_exemptions(
+    report: &mut Report,
+    map: &mut LifterDataMap,
+) -> Result<(), Box<dyn Error>> {
+    if !report.path.exists() {
+        report.error("File does not exist");
+        return Ok(());
+    }
+
+    let mut rdr = csv::ReaderBuilder::new()
+        .quoting(false)
+        .terminator(csv::Terminator::Any(b'\n'))
+        .from_path(&report.path)?;
+
+    for (rownum, result) in rdr.deserialize().enumerate() {
+        // Text editors are one-indexed and the header line was skipped
+        let line = (rownum as u64) + 2;
+
+        let row: OverrideSexRow = result?;
+        let username = match make_username(&row.name) {
+            Ok(s) => s,
+            Err(s) => {
+                report.error_on(line, s);
+                continue;
+            }
+        }; 
+
+        if has_whitespace_errors(&username) {
+            report.error_on(line, format!("Whitespace error in '{}'", &username));
+        }
+        if has_whitespace_errors(&row.override_sex) {
+            report.error_on(line, format!("Whitespace error in '{}'", &row.override_sex));
+        }
+
+        match map.get_mut(&username) {
+            Some(data) => {
+                data.override_sex = Some(row.override_sex);
+            }
+            None => {
+                let mut data = LifterData::default();
+                data.override_sex = Some(row.override_sex);
+                map.insert(username, data);
+            }
+       }
+   }
+
+   Ok(())
+}
+
 /// Map from `Username` to a count of disambiguations for that username.
 pub type DisambiguationMap = HashMap<String, u32>;
 
@@ -408,6 +472,20 @@ pub fn check_lifterdata(lifterdir: &Path) -> LifterDataCheckResult {
             report.error(e);
         }
     }
+    if report.has_messages() {
+        reports.push(report)
+    }
+
+
+    // Check se-exemptions.csv.
+    let mut report = Report::new(lifterdir.join("se-exemptions.csv"));
+    match check_se_exemptions(&mut report, &mut map) {
+        Ok(()) => (),
+        Err(e) => {
+            report.error(e);
+        }
+    }
+
     if report.has_messages() {
         reports.push(report)
     }
