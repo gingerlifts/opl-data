@@ -392,10 +392,23 @@ impl<'a> Context<'a> {
                 break;
             }
         }
-        let lifter_sex = if !entries.is_empty() && consistent_sex {
-            locale.strings.translate_sex(entries[0].sex)
-        } else {
-            "?"
+         
+        let lifter_sex = match &lifter.override_sex {
+           Some(override_sex) => {
+               if override_sex == "_" { 
+                   ""
+               }
+               else {
+                   override_sex.as_str()
+               }
+           }
+           None => {
+                if !entries.is_empty() && consistent_sex {
+                    locale.strings.translate_sex(entries[0].sex)
+                } else {
+                    "?"
+                }
+            }
         };
 
         // Filter and sort the entries, oldest entries first.

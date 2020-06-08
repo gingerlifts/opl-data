@@ -232,6 +232,9 @@ struct LiftersRow<'md, 'ld> {
     color: Option<&'ld str>,
     #[serde(rename = "Flair")]
     flair: Option<&'ld str>,
+    #[serde(rename = "OverrideSex")]
+    override_sex: Option<&'ld str>,
+
 }
 
 impl<'md, 'ld> LiftersRow<'md, 'ld> {
@@ -251,6 +254,7 @@ impl<'md, 'ld> LiftersRow<'md, 'ld> {
             vkontakte: lifterdata.vkontakte.as_deref(),
             color: lifterdata.color.as_deref(),
             flair: lifterdata.flair.as_deref(),
+            override_sex: lifterdata.override_sex.as_deref(),
         }
     }
 }
