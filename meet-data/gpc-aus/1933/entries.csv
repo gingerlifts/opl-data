@@ -1,0 +1,13 @@
+Name,Age,Division,Sex,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Place,Team,Event,Equipment
+Bel Mccreddon,40,F-OR,F,55.4,56,null,null,null,null,,null,null,null,null,,65,70,77.5,null,77.5,77.5,2,null,D,Raw
+Claire Beggs,29,F-OR,F,55.9,56,null,null,null,null,,null,null,null,null,,120,135,145,null,145,145,1,null,D,Raw
+Curtis Oakley,26,M-OR,M,88.9,90,null,null,null,null,,null,null,null,null,,-220,240,-260,null,240,240,1,null,D,Raw
+Erin Lazarus,27,F-OR,F,88.7,90,null,null,null,null,,null,null,null,null,,115,130,-140,null,130,130,2,null,D,Raw
+Jarrod Simms,26,M-OR,M,98.8,100,null,null,null,null,,null,null,null,null,,250,275,-300,null,275,275,2,null,D,Raw
+Jodan Battaglia,29,M-OR,M,95.5,100,null,null,null,null,,null,null,null,null,,200,215,-230,null,215,215,3,null,D,Raw
+Kaleb Singh,23,M-OR,M,92.6,100,null,null,null,null,,null,null,null,null,,252.5,272.5,275,null,275,275,1,null,D,Raw
+Lachlan Simms,30,M-OR,M,143.8,140+,null,null,null,null,,null,null,null,null,,250,275,-300,null,275,275,1,null,D,Raw
+Liana Wylie,33,F-OR,F,88.3,90,null,null,null,null,,null,null,null,null,,165,180,190,null,190,190,1,null,D,Raw
+Nic Sahr,30,M-OR,M,82,82.5,null,null,null,null,,null,null,null,null,,165,-185,-185,null,165,165,2,null,D,Raw
+Sam Lovejoy,38,M-OR,M,95.1,100,null,null,null,null,,null,null,null,null,,165,185,-200,null,185,185,4,null,D,Raw
+Sam Mahafonar,22,M-OR,M,78.6,82.5,null,null,null,null,,null,null,null,null,,190,200,210,null,210,210,1,null,D,Raw
