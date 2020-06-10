@@ -405,7 +405,7 @@ impl<'a> Context<'a> {
         let lifter_sex = if !entries.is_empty() {
             match entries.last() {
                 Some(last_entry) => locale.strings.translate_sex(last_entry.sex),
-                None => locale.strings.translate_sex(entries[0].sex),
+                None => "?"
             }
         } else {
             "?"
