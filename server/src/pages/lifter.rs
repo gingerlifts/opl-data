@@ -392,30 +392,24 @@ impl<'a> Context<'a> {
                 break;
             }
         }
-         
-        let lifter_sex = match &lifter.override_sex {
-           Some(override_sex) => {
-               if override_sex == "_" { 
-                   ""
-               }
-               else {
-                   override_sex.as_str()
-               }
-           }
-           None => {
-                if !entries.is_empty() && consistent_sex {
-                    locale.strings.translate_sex(entries[0].sex)
-                } else {
-                    "?"
-                }
-            }
-        };
 
         // Filter and sort the entries, oldest entries first.
         if let Some(f) = entry_filter {
             entries = entries.into_iter().filter(|e| f(opldb, *e)).collect();
         }
         entries.sort_unstable_by_key(|e| &opldb.get_meet(e.meet_id).date);
+
+        // now that the entries are sorted,
+        // headline sex is always last entry if available
+        // if not, use first entry.  If no entries, show "?"
+        let lifter_sex = if !entries.is_empty() {
+            match entries.last() {
+                Some(last_entry) => locale.strings.translate_sex(last_entry.sex),
+                None => locale.strings.translate_sex(entries[0].sex),
+            }
+        } else {
+            "?"
+        };
 
         let bests = calculate_bests(&locale, points_system, &entries);
 

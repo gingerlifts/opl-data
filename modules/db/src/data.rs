@@ -18,8 +18,6 @@ use crate::yesno::deserialize_yes_no;
 pub struct Lifter {
     #[serde(rename(deserialize = "Name"))]
     pub name: String,
-    #[serde(rename(deserialize = "OverrideSex"))]
-    pub override_sex: Option<String>,
     #[serde(rename(deserialize = "CyrillicName"))]
     pub cyrillic_name: Option<String>,
     #[serde(rename(deserialize = "GreekName"))]
