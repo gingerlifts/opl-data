@@ -46,7 +46,7 @@ M,Masters 40-44,40,98.60,Jörg Wiemann,,100,,,,,,,,,230,242.5,-252.5,242.5,242.5
 M,Masters 50-54,50,106.90,Juri Hochstätter,,110,,,,,,,,,262.5,282.5,292.5,292.5,292.5,Single-ply,1,D
 F,Masters 40-44,42,64.80,Kamilla Tillack,Poland,67.5,65,70,72.5,72.5,62.5,67.5,-70,67.5,110,120,130,130,270,Single-ply,1,SBD
 M,Masters 55-59,58,128.50,Karl-Heinz May,,140,,,,,150,-165,-165,150,,,,,150,Single-ply,1,B
-F,Masters 55-59,57,90.80,Kirsten Schwade,,100,,,,,80,-85,85,85,,,,,85,Single-ply,1,B
+F,Masters 55-59,57,90.80,Kirsten Schwade,,90+,,,,,80,-85,85,85,,,,,85,Single-ply,1,B
 M,Masters 40-44,42,98.60,Klaus Markel,,100,215,-235,240,240,140,-150,-155,140,200,220,230,230,610,Single-ply,1,SBD
 M,Open,38,82.00,Lars Jankowski,,82.5,220,240,-250,240,150,-162.5,165,165,220,235,240,240,645,Single-ply,1,SBD
 M,Open,24,97.90,Leo Läßle,,100,,,,,,,,,200,220,230,230,230,Single-ply,1,D
@@ -74,7 +74,7 @@ M,Masters 55-59,58,81.30,Peter Remmels,,82.5,140,150,160,160,90,95,-100,95,140,1
 M,Masters 60-64,61,87.50,Reinhold Schaumann-Kelch,,90,,,,,-120,-120,120,120,,,,,120,Single-ply,3,B
 M,Juniors 20-23,20,70.20,Riad Al-Samouri,Jordan,75,,,,,102.5,107.5,110,110,,,,,110,Single-ply,2,B
 M,Open,29,81.00,Ringo Riedel,,82.5,,,,,170,-192.5,-192.5,170,,,,,170,Single-ply,3,B
-M,Masters 50-54,59,66.80,Salih Meryem,,67.5,120,130,140,140,80,90,-95,90,120,130,-140,130,360,Single-ply,1,SBD
+M,Masters 50-54,,66.80,Salih Meryem,,67.5,120,130,140,140,80,90,-95,90,120,130,-140,130,360,Single-ply,1,SBD
 M,Teen 15-19,16,64.70,Sebastian Eschenasy,,67.5,135,-142.5,150,150,90,100,,100,140,160,-165,160,410,Single-ply,2,SBD
 M,Teen 15-19,18,87.60,Sebastian Kuhnert,,90,,,,,80,92.5,-102.5,92.5,,,,,92.5,Single-ply,1,B
 M,Masters 60-64,62,111.30,Simon Reitzle,,125,,,,,150,160,-170,160,,,,,160,Single-ply,1,B
