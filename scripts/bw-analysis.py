@@ -4,7 +4,6 @@ import os
 import sys
 
 from datetime import datetime
-from statistics import mean
 
 from oplcsv import CsvReadIter
 
@@ -107,6 +106,9 @@ def sanity_bw_pct_per_day2(delta_days):
         limit = 25.0 / delta_days
 
     # big weight changes are possible over a long time
+    elif delta_days < 120:
+        limit = 33.0 / delta_days
+
     else:
         limit = 40.0 / delta_days
 
@@ -115,7 +117,7 @@ def sanity_bw_pct_per_day2(delta_days):
 def analyse_data(bw_delta_list_d, lifter_name_d):
 
     bw_pct_per_day2_d = {}
-    avg_bw_pct_per_day2_d = {}
+    max_bw_pct_per_day2_d = {}
 
     # for each lifter, find the bw pct per day and store it against
     # the number of days so we can find the curve of d2(bw_pct) / d(days)
@@ -124,10 +126,6 @@ def analyse_data(bw_delta_list_d, lifter_name_d):
         sum_days = 0
 
         for (delta_bw_pct, delta_days,) in bw_delta_list:
-
-            if not bw_pct_per_day2_d.get(delta_days):
-                bw_pct_per_day2_d[delta_days] = []
-
             delta_bw_pct_day = delta_bw_pct / float(delta_days) 
 
             # exclude from analysis anything of over our sanity limit
@@ -135,19 +133,21 @@ def analyse_data(bw_delta_list_d, lifter_name_d):
                 sys.stderr.write("Excluding bw%/day: {} over {} days for lifter: {}, breaches sanity limit of {}%/day\r\n".format(delta_bw_pct_day, delta_days, lifter_name_d[lifter_id], sanity_bw_pct_per_day2(delta_days)))
             
             else:
+                if not bw_pct_per_day2_d.get(delta_days):
+                    bw_pct_per_day2_d[delta_days] = []
+
                 bw_pct_per_day2_d[delta_days].append(delta_bw_pct_day)
         
     # now for each day delta find the average bw pct delta
     for (delta_days, bw_pct_per_day_list,) in bw_pct_per_day2_d.items():
-        #avg_bw_pct_per_day2_d[delta_days] = mean(bw_pct_per_day_list)
 
-        #NOTE - try max so that we're sure anything off the curve is bad
-        avg_bw_pct_per_day2_d[delta_days] = max(bw_pct_per_day_list)
+        #use max so that we're sure anything off the curve is bad
+        max_bw_pct_per_day2_d[delta_days] = max(bw_pct_per_day_list)
 
     # now sort by delta_days
-    sorted_avg_bw_pct_per_day2_items = sorted(avg_bw_pct_per_day2_d.items(), key=lambda item_tup: item_tup[0])
+    sorted_max_bw_pct_per_day2_items = sorted(max_bw_pct_per_day2_d.items(), key=lambda item_tup: item_tup[0])
 
-    return sorted_avg_bw_pct_per_day2_items
+    return sorted_max_bw_pct_per_day2_items
 
 
 if __name__ == '__main__':
@@ -159,9 +159,9 @@ if __name__ == '__main__':
     (lifter_name_d, lifter_id_set,) = map_disamb_lifters(lifters)
     sorted_entry_list = augment_and_sort_entries(entries, meets, lifter_id_set)
     bw_delta_list_d = collect_bw_data(sorted_entry_list)
-    sorted_avg_bw_pct_per_day2_items = analyse_data(bw_delta_list_d, lifter_name_d)
+    sorted_max_bw_pct_per_day2_items = analyse_data(bw_delta_list_d, lifter_name_d)
 
     print("Days,BWPctPerDay")
-    for (delta_days, avg_bw_pct_per_day,) in sorted_avg_bw_pct_per_day2_items:
-        print("{},{}".format(delta_days, avg_bw_pct_per_day))
+    for (delta_days, max_bw_pct_per_day,) in sorted_max_bw_pct_per_day2_items:
+        print("{},{}".format(delta_days, max_bw_pct_per_day))
 
