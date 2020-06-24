@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import sys
 
 from datetime import datetime
 from statistics import mean
@@ -96,7 +97,22 @@ def collect_bw_data(sorted_entry_list):
     return bw_delta_list_d
 
 
-def analyse_data(bw_delta_list_d):
+def sanity_bw_pct_per_day2(delta_days):
+
+    # upper limit is 25%/day in 1 day (100kg/125kg next day in old days
+    # of no 110kg class and no precise weigh in data - really could be 99-101)
+
+    # this should still hold for 7 days, which would be ~3.6%/day/day
+    if delta_days < 30:
+        limit = 25.0 / delta_days
+
+    # big weight changes are possible over a long time
+    else:
+        limit = 40.0 / delta_days
+
+    return limit
+
+def analyse_data(bw_delta_list_d, lifter_name_d):
 
     bw_pct_per_day2_d = {}
     avg_bw_pct_per_day2_d = {}
@@ -112,11 +128,21 @@ def analyse_data(bw_delta_list_d):
             if not bw_pct_per_day2_d.get(delta_days):
                 bw_pct_per_day2_d[delta_days] = []
 
-            bw_pct_per_day2_d[delta_days].append(delta_bw_pct / float(delta_days))
+            delta_bw_pct_day = delta_bw_pct / float(delta_days) 
+
+            # exclude from analysis anything of over our sanity limit
+            if delta_bw_pct_day > sanity_bw_pct_per_day2(delta_days):
+                sys.stderr.write("Excluding bw%/day: {} over {} days for lifter: {}, breaches sanity limit of {}%/day\r\n".format(delta_bw_pct_day, delta_days, lifter_name_d[lifter_id], sanity_bw_pct_per_day2(delta_days)))
+            
+            else:
+                bw_pct_per_day2_d[delta_days].append(delta_bw_pct_day)
         
     # now for each day delta find the average bw pct delta
     for (delta_days, bw_pct_per_day_list,) in bw_pct_per_day2_d.items():
-        avg_bw_pct_per_day2_d[delta_days] = mean(bw_pct_per_day_list)
+        #avg_bw_pct_per_day2_d[delta_days] = mean(bw_pct_per_day_list)
+
+        #NOTE - try max so that we're sure anything off the curve is bad
+        avg_bw_pct_per_day2_d[delta_days] = max(bw_pct_per_day_list)
 
     # now sort by delta_days
     sorted_avg_bw_pct_per_day2_items = sorted(avg_bw_pct_per_day2_d.items(), key=lambda item_tup: item_tup[0])
@@ -133,8 +159,9 @@ if __name__ == '__main__':
     (lifter_name_d, lifter_id_set,) = map_disamb_lifters(lifters)
     sorted_entry_list = augment_and_sort_entries(entries, meets, lifter_id_set)
     bw_delta_list_d = collect_bw_data(sorted_entry_list)
-    sorted_avg_bw_pct_per_day2_items = analyse_data(bw_delta_list_d)
+    sorted_avg_bw_pct_per_day2_items = analyse_data(bw_delta_list_d, lifter_name_d)
 
+    print("Days,BWPctPerDay")
     for (delta_days, avg_bw_pct_per_day,) in sorted_avg_bw_pct_per_day2_items:
-        print("Days: {}, Mean bw% difference per day: {}".format(delta_days, avg_bw_pct_per_day))
+        print("{},{}".format(delta_days, avg_bw_pct_per_day))
 
