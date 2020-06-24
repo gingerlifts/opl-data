@@ -5,6 +5,10 @@ import sys
 
 from datetime import datetime
 
+# apt-get install python3-scipy
+from scipy.optimize import curve_fit
+from numpy import inf
+
 from oplcsv import CsvReadIter
 
 def opl_path(filename):
@@ -145,12 +149,18 @@ def analyse_data(bw_delta_list_d, lifter_name_d):
         max_bw_pct_per_day2_d[delta_days] = max(bw_pct_per_day_list)
 
     # now sort by delta_days
-    sorted_max_bw_pct_per_day2_items = sorted(max_bw_pct_per_day2_d.items(), key=lambda item_tup: item_tup[0])
+    delta_days_list = []
+    max_bw_pct_per_day_list = []
+    for (delta_days, max_bw_pct_per_day,) in sorted(max_bw_pct_per_day2_d.items(), key=lambda item_tup: item_tup[0]):
+        delta_days_list.append(delta_days)
+        max_bw_pct_per_day_list.append(max_bw_pct_per_day)
 
-    return sorted_max_bw_pct_per_day2_items
+    return (delta_days_list, max_bw_pct_per_day_list,)
 
 
 if __name__ == '__main__':
+
+    csv_data_output_path = sys.argv[1]
 
     lifters = CsvReadIter(opl_path('lifters.csv'), dict_reader=True)
     meets = CsvReadIter(opl_path('meets.csv'), dict_reader=True)
@@ -159,9 +169,21 @@ if __name__ == '__main__':
     (lifter_name_d, lifter_id_set,) = map_disamb_lifters(lifters)
     sorted_entry_list = augment_and_sort_entries(entries, meets, lifter_id_set)
     bw_delta_list_d = collect_bw_data(sorted_entry_list)
-    sorted_max_bw_pct_per_day2_items = analyse_data(bw_delta_list_d, lifter_name_d)
+    (delta_days_list, max_bw_pct_per_day_list,) = analyse_data(bw_delta_list_d, lifter_name_d)
 
-    print("Days,BWPctPerDay")
-    for (delta_days, max_bw_pct_per_day,) in sorted_max_bw_pct_per_day2_items:
-        print("{},{}".format(delta_days, max_bw_pct_per_day))
+    (popt, pcov,) = curve_fit(
+        f=lambda x, a, b, c: (a / (b * x)) + c,
+        xdata=delta_days_list,
+        ydata=max_bw_pct_per_day_list,
+        p0=[30.0, 2.5, 0.2],
+        bounds=([0, 0, 0.15], [inf, inf, inf]) # never get below 0.15
+    )
+    (guess_a, guess_b, guess_c,) = popt
+
+    print("y = ({}/({} * x)) + {}".format(guess_a, guess_b, guess_c))
+
+    with open(csv_data_output_path, 'wt') as out_f:
+        out_f.write("Days,BWPctPerDay\r\n")
+        for (delta_days, max_bw_pct_per_day,) in zip(delta_days_list, max_bw_pct_per_day_list):
+            out_f.write("{},{}\r\n".format(delta_days, max_bw_pct_per_day))
 
