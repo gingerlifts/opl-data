@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import re
 
 from datetime import datetime 
 
@@ -11,10 +12,15 @@ def bw_pct_delta_sanity(delta_days):
     # from scipy.optimize.curve_fit() in bw-analysis.py
     # y = (30.78803553780311/(2.557537199034035 * x)) + 0.15000000000000002
 
-    a = 30.78803553780311
-    b = 2.557537199034035
-    c = 0.15000000000000002
+    #a = 30.78803553780311
+    #b = 2.557537199034035
+    #c = 0.15000000000000002
 
+
+    a = 25
+    b = 1
+    c = 0.1
+    
     limit_bw_pct_per_day = (a / (b * delta_days)) + c
 
     return limit_bw_pct_per_day
@@ -27,16 +33,21 @@ def opl_path(filename):
 def map_lifters(lifters):
 
     lifter_name_d = {} 
+    lifter_id_set = set()
 
     for lifter_row in lifters:
-        lifter_name_d[lifter_row['LifterID']] = lifter_row['Name']
 
-    return lifter_name_d
+        # we don't care about initialed lifters or single name lifters
+        if not re.match(r'^[A-Z]\.\s[A-Z][a-z]+.*$', lifter_row['Name']) and lifter_row['Name'].find(' ') != -1:
+            lifter_name_d[lifter_row['LifterID']] = lifter_row['Name']
+            lifter_id_set.add(lifter_row['LifterID'])
+
+    return (lifter_id_set, lifter_name_d,)
 
 
 # augment entries with a datetime object from the date string in meets
 # only if it's in the set of lifter IDs we care about
-def augment_and_sort_entries(entries, meets):
+def augment_and_sort_entries(entries, meets, lifter_id_set):
 
     print("constructing date objects for meets")
     
@@ -47,7 +58,7 @@ def augment_and_sort_entries(entries, meets):
     print("augmenting entries with date objects")
 
     for entry_row in entries:
-        if entry_row['BodyweightKg'] != '':
+        if entry_row['LifterID'] in lifter_id_set and entry_row['BodyweightKg'] != '':
 
             # try only storing what we need from the entry
             #entry_list.append(entry_row) 
@@ -127,10 +138,10 @@ if __name__ == '__main__':
     entries = CsvReadIter(opl_path('entries.csv'), dict_reader=True)
 
     print("map lifters")
-    lifter_name_d = map_lifters(lifters)
+    (lifter_id_set, lifter_name_d,) = map_lifters(lifters)
 
     print("augment and sort entries")
-    sorted_entry_list = augment_and_sort_entries(entries, meets)
+    sorted_entry_list = augment_and_sort_entries(entries, meets, lifter_id_set)
 
     print("check bodyweight data")
     warning_d = check_bw_data(sorted_entry_list)
@@ -142,4 +153,5 @@ if __name__ == '__main__':
             print("from {} to {} in {} days".format(prev_bw_kg, bw_kg, delta_days))
 
     print('------------------------------------------------------------')
+    print('Lifters flagged: {}'.format(len(warning_d.keys())))
 
