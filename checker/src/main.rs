@@ -432,34 +432,12 @@ fn main() -> Result<(), Box<dyn Error>> {
     let timing = get_instant_if(args.debug_timing);
     let liftermap = meetdata.create_liftermap();
 
-    let lifter_entries_check_result = checker::check_sex_errors(&liftermap, &meetdata, &lifterdata, meet_data_root.clone());
-
-    // should this really be a Report method?
-    // or possibly iterate over both results together?
-    for report in lifter_entries_check_result.reports {
-        let (errors, warnings) = report.count_messages();
-        if errors > 0 {
-            //error_count.fetch_add(errors, Ordering::SeqCst);
-            error_count += errors;
-        }
-        if warnings > 0 {
-            //warning_count.fetch_add(warnings, Ordering::SeqCst);
-            warning_count += warnings;
-        }
-
-        if report.has_messages() {
-            let stdout = io::stdout();
-            let mut handle = stdout.lock();
-            write_report(&mut handle, report);
-        }
-    }
-
-    let japanese_names_check_result = checker::check_japanese_names(&liftermap, &meetdata, meet_data_root.clone());
+    let lifterentries_check_result = checker::check_lifterentries(&liftermap, &meetdata, &lifterdata, meet_data_root.clone());
     
     // should this really be a Report method?
     // or possibly iterate over both results together?
 
-    for report in japanese_names_check_result.reports {
+    for report in lifterentries_check_result.reports {
         let (errors, warnings) = report.count_messages();
         if errors > 0 {
             //error_count.fetch_add(errors, Ordering::SeqCst);

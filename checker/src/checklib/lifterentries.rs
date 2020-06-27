@@ -8,11 +8,80 @@ pub struct LifterEntriesCheckResult {
     pub reports: Vec<Report>
 }
 
+impl LifterEntriesCheckResult {
+
+    pub fn new() -> LifterEntriesCheckResult {
+ 
+       LifterEntriesCheckResult { reports: Vec::new() }
+    }
+
+    // we can borrow other seeing as we're going to drain
+    // its reports vector
+    pub fn push(&mut self, other: LifterEntriesCheckResult) {
+
+        for report in other.reports {
+            self.reports.push(report);
+        }
+    }
+}
+
+
+// run all the lifterentries checks in order
+pub fn check_lifterentries(liftermap: &LifterMap, meetdata: &AllMeetData, lifterdata: &LifterDataMap, meet_data_root: PathBuf) -> LifterEntriesCheckResult {
+ 
+    let mut ret_result = LifterEntriesCheckResult::new();
+
+    let sex_err_result = check_sex_errors(liftermap, meetdata, lifterdata, meet_data_root.clone());
+    let jp_name_result = check_japanese_names(liftermap, meetdata, meet_data_root.clone());
+
+    ret_result.push(sex_err_result);
+    ret_result.push(jp_name_result);
+
+    ret_result
+}
+
+
+
+// check that changes in lifter's bodyweight between meets are sane
+fn check_bw_delta_sanity(liftermap: &LifterMap, meetdata: &AllMeetData, lifterdata: &LifterDataMap, lifterdir: &Path) -> LifterEntriesCheckResult {
+
+    let mut exempt_usernames: Vec<String> = Vec::new();
+    let mut ret_result = LifterEntriesCheckResult::new();
+    let mut report = Report::new(lifterdir.join('bw-exemptions.csv'));
+
+    // read the exemption usernames
+    let mut rdr = csv::ReaderBuilder::new()
+        .quoting(false)
+        .terminator(csv::Terminator::Any(b'\n'))
+        .from_path(report.path)?;
+
+    for (rownum, result) in rdr.deserialize().enumerate() {
+        // Text editors are one-indexed, and the header line was skipped.
+        let line = (rownum as u64) + 2;
+
+        let row: NameDisambiguationRow = result?;
+        let username = match make_username(&row.name) {
+            Ok(s) => s,
+            Err(s) => {
+                report.error_on(line, s);
+                continue;
+            }
+        };
+
+        if has_whitespace_errors(&username) {
+            report.error_on(line, format!("Whitespace error in '{}'", &username));
+        }
+
+        //MARK - check that we've copied everything necessary from the lifter data checkers to read
+        //the exemptions in.  Remember to push report into ret_result.reports
+
+
+
 
 // check for consistency of each lifter's indicated sex in their entries
 // inconsistencies are flagged as errors unless the lifter has an entry in the 
 // sex exemptions file
-pub fn check_sex_errors(liftermap: &LifterMap, meetdata: &AllMeetData, lifterdata: &LifterDataMap, meet_data_root: PathBuf) -> LifterEntriesCheckResult {
+fn check_sex_errors(liftermap: &LifterMap, meetdata: &AllMeetData, lifterdata: &LifterDataMap, meet_data_root: PathBuf) -> LifterEntriesCheckResult {
 
     let mut reports: Vec<Report> = Vec::new();
 
@@ -57,7 +126,7 @@ pub fn check_sex_errors(liftermap: &LifterMap, meetdata: &AllMeetData, lifterdat
 }
 
 // Check that lifters with Japanese names have them used consistently across their entries
-pub fn check_japanese_names(liftermap: &LifterMap, meetdata: &AllMeetData, meet_data_root: PathBuf) -> LifterEntriesCheckResult {
+fn check_japanese_names(liftermap: &LifterMap, meetdata: &AllMeetData, meet_data_root: PathBuf) -> LifterEntriesCheckResult {
 
     let mut reports: Vec<Report> = Vec::new();
 
