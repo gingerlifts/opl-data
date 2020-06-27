@@ -4,6 +4,7 @@
 pub mod config;
 pub mod entries;
 pub mod lifterdata;
+pub mod lifterentries;
 pub mod meet;
 
 pub use crate::Report;

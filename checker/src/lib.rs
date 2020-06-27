@@ -26,7 +26,7 @@ pub use crate::checklib::meet::{
 };
 
 pub use crate::checklib::lifterentries::{
-    check_sex_errors, LifterEntriesCheckResult,
+    check_sex_errors, check_japanese_names, LifterEntriesCheckResult,
 };
 
 pub use crate::checklib::CheckResult;

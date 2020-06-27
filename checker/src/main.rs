@@ -418,10 +418,12 @@ fn main() -> Result<(), Box<dyn Error>> {
     // Give ownership to the permanent data store.
     let mut meetdata = AllMeetData::from(singlemeets);
 
-    // Move out of atomics.
-    let mut error_count = error_count.load(Ordering::SeqCst);
-    let warning_count = warning_count.load(Ordering::SeqCst);
-    let internal_error_count = internal_error_count.load(Ordering::SeqCst);
+    // These error counters don't need to be atomic at this point,
+    // NOTE: mark internal_error_count mutable if it ever needs to be;
+    // it isn't now, to shut the compiler up
+    let mut error_count: usize = 0;
+    let mut warning_count: usize = 0;
+    let internal_error_count: usize = 0;
 
     // Check for username errors.
     // FIXME: This adds a whole second to the checker time.
@@ -430,62 +432,52 @@ fn main() -> Result<(), Box<dyn Error>> {
     let timing = get_instant_if(args.debug_timing);
     let liftermap = meetdata.create_liftermap();
 
-    for lifter_indices in liftermap.values() {
+    let lifter_entries_check_result = checker::check_sex_errors(&liftermap, &meetdata, &lifterdata, meet_data_root.clone());
 
-        let lifter_entries_check_result = checker::check_sex_errors(&liftermap, &meetdata, &lifter_indices, meet_data_root.clone());
-
-        // should this really be a Report method?
-        for report in result.reports {
-            let errors, warnings) = report.count_messages();
-            if errors > 0 {
-                error_count.fetch_add(errors, Ordering::SeqCst);
-            }
-            if warnings > 0 {
-                warning_count.fetch_add(warnings, Ordering::SeqCst);
-            }
-
-            if report.has_messages() {
-                let stdout = io::stdout();
-                let mut handle = stdout.lock();
-                write_report(&mut handle, report);
-            }
+    // should this really be a Report method?
+    // or possibly iterate over both results together?
+    for report in lifter_entries_check_result.reports {
+        let (errors, warnings) = report.count_messages();
+        if errors > 0 {
+            //error_count.fetch_add(errors, Ordering::SeqCst);
+            error_count += errors;
+        }
+        if warnings > 0 {
+            //warning_count.fetch_add(warnings, Ordering::SeqCst);
+            warning_count += warnings;
         }
 
-        let mut japanesename = &meetdata.get_entry(lifter_indices[0]).japanesename;
-
-        for index in lifter_indices.iter().skip(1) {
-            let entry = &meetdata.get_entry(*index);
-
-            // The Name field must exactly match for the same username.
-            if name != &entry.name {
-                let msg = format!(
-                    "Conflict for '{}': '{}' vs '{}'",
-                    entry.username, name, entry.name
-                );
-                println!(" {}", msg.bold().red());
-                error_count += 1;
-            }
-
-            // If this is the first time seeing a JapaneseName, remember it.
-            if japanesename.is_none() && entry.japanesename.is_some() {
-                japanesename = &entry.japanesename;
-            }
-
-            // Otherwise, they should match.
-            if let Some(jp_name) = japanesename {
-                if let Some(entry_jp_name) = &entry.japanesename {
-                    if jp_name != entry_jp_name {
-                        let msg = format!(
-                            "Conflict for {}: '{}' vs '{}'",
-                            entry.username, jp_name, entry_jp_name
-                        );
-                        println!(" {}", msg.bold().red());
-                        error_count += 1;
-                    }
-                }
-            }
+        if report.has_messages() {
+            let stdout = io::stdout();
+            let mut handle = stdout.lock();
+            write_report(&mut handle, report);
         }
     }
+
+    let japanese_names_check_result = checker::check_japanese_names(&liftermap, &meetdata, meet_data_root.clone());
+    
+    // should this really be a Report method?
+    // or possibly iterate over both results together?
+
+    for report in japanese_names_check_result.reports {
+        let (errors, warnings) = report.count_messages();
+        if errors > 0 {
+            //error_count.fetch_add(errors, Ordering::SeqCst);
+            error_count += errors;
+        }
+        if warnings > 0 {
+            //warning_count.fetch_add(warnings, Ordering::SeqCst);
+            warning_count += warnings;
+        }
+
+        if report.has_messages() {
+            let stdout = io::stdout();
+            let mut handle = stdout.lock();
+            write_report(&mut handle, report);
+        }
+    }
+
+
     maybe_print_elapsed_for("liftermap", timing);
 
     // The default mode without arguments just performs data checks.
