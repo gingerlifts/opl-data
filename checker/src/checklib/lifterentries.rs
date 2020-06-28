@@ -1,7 +1,11 @@
 use std::path::PathBuf;
+use std::collections::HashSet;
+use opltypes::{
+    Date, WeightKg
+}
 
 use crate::{
-    LifterMap, AllMeetData, LifterDataMap, Report
+    LifterMap, AllMeetData, LifterDataMap, Report, Entry
 };
 
 pub struct LifterEntriesCheckResult {
@@ -27,15 +31,19 @@ impl LifterEntriesCheckResult {
 
 
 // run all the lifterentries checks in order
-pub fn check_lifterentries(liftermap: &LifterMap, meetdata: &AllMeetData, lifterdata: &LifterDataMap, meet_data_root: PathBuf) -> LifterEntriesCheckResult {
+pub fn check_lifterentries(liftermap: &LifterMap, meetdata: &AllMeetData, lifterdata: &LifterDataMap, meet_data_root: PathBuf, lifterdir: &Path) -> LifterEntriesCheckResult {
  
     let mut ret_result = LifterEntriesCheckResult::new();
 
     let sex_err_result = check_sex_errors(liftermap, meetdata, lifterdata, meet_data_root.clone());
     let jp_name_result = check_japanese_names(liftermap, meetdata, meet_data_root.clone());
+    let (bw_delta_usernames_result, bw_delta_exempt_usernames) = load_bw_delta_sanity_usernames(lifterdir);
+    let check_bw_delta_result = check_bw_delta(bw_delta_exempt_usernames, liftermap, meetdata, lifterdata, meet_data_root.clone());
 
     ret_result.push(sex_err_result);
     ret_result.push(jp_name_result);
+    ret_result.push(bw_delta_usernames_result);
+    ret_result.push(check_bw_delta_result);
 
     ret_result
 }
@@ -43,10 +51,71 @@ pub fn check_lifterentries(liftermap: &LifterMap, meetdata: &AllMeetData, lifter
 
 
 // check that changes in lifter's bodyweight between meets are sane
-fn check_bw_delta_sanity(liftermap: &LifterMap, meetdata: &AllMeetData, lifterdata: &LifterDataMap, lifterdir: &Path) -> LifterEntriesCheckResult {
+// we can take usernames, they aren't needed after this
+fn check_bw_delta(exempt_usernames: HashSet<String>, liftermap: &LifterMap, meetdata: &AllMeetData, lifterdata: &LifterDataMap, meet_data_root: PathBuf) -> LifterEntriesCheckResult {
+    
 
-    let mut exempt_usernames: Vec<String> = Vec::new();
-    let mut ret_result = LifterEntriesCheckResult::new();
+    for lifter_indices in liftermap.values() {
+
+        let name = &meetdata.get_entry(lifter_indices[0]).name;
+        let prev_entry_bw_date: Option<(&Entry, &WeightKg, &Date)> = None;
+
+        // skip I. Nitial and Onename
+        if name.contains(' ')
+            && name.chars().skip(1).take(1).collect::<Vec<char>>() != ['.']
+        {
+
+            // sort the lifter's entries by meet date
+            let lifter_entries_by_date: Vec<(&Entry, &Date)> = Vec::new();
+
+            for index in lifter_indices.iter() {
+                lifter_entries_by_date.push((meetdata.get_entry(*index), &meet_data.get_meet(*index).date));
+            }
+
+            // .cmp() wants the other value by ref
+            lifter_entries.sort_unstable_by_key(|e, d| &d);
+
+            // now iterate over the lifter's entries by date and check sanity of bodyweight
+            // changes over time
+            for entry_date_tup in &lifter_entries_by_date {
+                let (entry, meet_date) = entry_date_tup;
+
+                // if we have a previous entry for this lifter, compare it to the current one
+                match lifter_prev_entry_bw_date {
+                    Some(prev) => {
+
+                        // ignore entries on the same date 
+                        let (prev_entry, prev_bw, prev_date) = prev;
+
+                        if prev_date != meet_date {
+                            let bw_delta_pct: f32 = WeightKg::abs(&entry.bodyweightkg - prev_bw) * 100.0;
+                            let date_delta = meet_date - prev_date;
+
+                            //TODO - what type is date_delta and how do we get days?
+                            //TODO - is this insane?  If so, by how far?
+                            //TODO - if it's the lifter's worst so far, track that in a HashMap or
+                            //something
+                        }
+                    }
+                    None => (),
+                }
+
+                //TODO store refs in previous tuple
+            }
+        }
+    }
+
+    //TODO sort the HashMap of lifter -> worst bw delta error
+    //TODO take the top n (define this up top of func) and report them
+            
+
+
+}
+
+
+fn load_bw_delta_sanity_usernames(lifterdir: &Path) -> (LifterEntriesCheckResult, HashSet<String>) {
+
+    let mut exempt_usernames: HashSet<String> = HashSet::new();
     let mut report = Report::new(lifterdir.join('bw-exemptions.csv'));
 
     // read the exemption usernames
@@ -72,10 +141,18 @@ fn check_bw_delta_sanity(liftermap: &LifterMap, meetdata: &AllMeetData, lifterda
             report.error_on(line, format!("Whitespace error in '{}'", &username));
         }
 
-        //MARK - check that we've copied everything necessary from the lifter data checkers to read
-        //the exemptions in.  Remember to push report into ret_result.reports
+        if exempt_usernames.contains(&username) {
+            report.error_on(line, format!("Lifter '{}' is duplicatied", &username));
+        } else {
+            exempt_usernames.insert(username);
+        }
+    }
 
+    let mut reports: Vec<Report> = Vec::new();
+    reports.push(report);
 
+    (LifterEntriesCheckResult { reports }, exempt_usernames)
+}
 
 
 // check for consistency of each lifter's indicated sex in their entries
