@@ -1,12 +1,29 @@
-use std::path::PathBuf;
-use std::collections::HashSet;
+use std::path::{
+    Path, PathBuf
+};
+use std::collections::{
+    HashSet, HashMap
+};
+use usernames::{
+    make_username
+};
+
 use opltypes::{
     Date, WeightKg
-}
-
+};
 use crate::{
     LifterMap, AllMeetData, LifterDataMap, Report, Entry
 };
+use crate::checklib::lifterdata::{
+    has_whitespace_errors
+};
+
+#[derive(Deserialize)]
+struct BwExemptionRow {
+    #[serde(rename = "Name")]
+    pub name: String,
+}
+
 
 pub struct LifterEntriesCheckResult {
     pub reports: Vec<Report>
@@ -49,16 +66,42 @@ pub fn check_lifterentries(liftermap: &LifterMap, meetdata: &AllMeetData, lifter
 }
 
 
+//check a bodyweight/time delta to see if it's sane.  Return a Result with how far from the limit
+//it was
+fn check_individual_bw_delta(first_entry: &Entry, second_entry: &Entry, delta_days: u32) -> Result<f32, f32> {
+
+    let first_bw: WeightKg = first_entry.bodyweightkg;
+    let second_bw: WeightKg = second_entry.bodyweightkg;
+    let bw_delta: WeightKg = WeightKg::abs(first_bw - second_bw);
+
+    let bw_pct_delta: f32 = (bw_delta / first_bw) * 100.0;
+    let bw_pct_delta_per_day: f32 = bw_pct_delta / delta_days;
+
+    // 25% represents a lifter in old weight classes in a meet we only have weight classes for and
+    // no actual weigh in data, competing in 125kg one day and 100kg the next or vice versa
+    // (potentially 99kg and 101kg).  This drops off over a few days through the range where
+    // lifters could cut for one meet and compete again soon without cutting, and stabilises
+    // into a near-constant rate of sustainable weight loss
+    let max_bw_pct_delta_per_day: f32 = (25.0 / delta_days) + 0.15;
+
+    if bw_pct_delta_per_day > max_bw_pct_delta_per_day {
+        Err(bw_pct_delta_per_day - max_bw_pct_delta_per_day)
+    } else {
+        Ok(max_bw_pct_delta_per_day - bw_pct_delta_per_day)
+    }
+}
+
 
 // check that changes in lifter's bodyweight between meets are sane
 // we can take usernames, they aren't needed after this
 fn check_bw_delta(exempt_usernames: HashSet<String>, liftermap: &LifterMap, meetdata: &AllMeetData, lifterdata: &LifterDataMap, meet_data_root: PathBuf) -> LifterEntriesCheckResult {
     
+    let mut lifter_worst_err_map: HashMap<String, (WeightKg, WeightKg, u32, f32)> = HashMap::new();
 
     for lifter_indices in liftermap.values() {
 
         let name = &meetdata.get_entry(lifter_indices[0]).name;
-        let prev_entry_bw_date: Option<(&Entry, &WeightKg, &Date)> = None;
+        let mut prev_entry: Option<&Entry> = None;
 
         // skip I. Nitial and Onename
         if name.contains(' ')
@@ -66,49 +109,75 @@ fn check_bw_delta(exempt_usernames: HashSet<String>, liftermap: &LifterMap, meet
         {
 
             // sort the lifter's entries by meet date
-            let lifter_entries_by_date: Vec<(&Entry, &Date)> = Vec::new();
+            let mut lifter_entries_by_date: Vec<&Entry> = Vec::new();
 
             for index in lifter_indices.iter() {
-                lifter_entries_by_date.push((meetdata.get_entry(*index), &meet_data.get_meet(*index).date));
+                lifter_entries_by_date.push(meetdata.get_entry(*index));
             }
 
             // .cmp() wants the other value by ref
-            lifter_entries.sort_unstable_by_key(|e, d| &d);
+            lifter_entries_by_date.sort_unstable_by_key(|e| meetdata.get_meet(*e.index).date);
 
             // now iterate over the lifter's entries by date and check sanity of bodyweight
             // changes over time
-            for entry_date_tup in &lifter_entries_by_date {
-                let (entry, meet_date) = entry_date_tup;
+            for entry in &lifter_entries_by_date {
 
                 // if we have a previous entry for this lifter, compare it to the current one
-                match lifter_prev_entry_bw_date {
+                match prev_entry {
                     Some(prev) => {
 
-                        // ignore entries on the same date 
-                        let (prev_entry, prev_bw, prev_date) = prev;
+                        let prev_entry_date: Date = meetdata.get_meet(*prev_entry.index).date;  
+                        let entry_date: Date = meetdata.get_meet(*entry.index).date;
 
-                        if prev_date != meet_date {
-                            let bw_delta_pct: f32 = WeightKg::abs(&entry.bodyweightkg - prev_bw) * 100.0;
-                            let date_delta = meet_date - prev_date;
+                        let delta_days: u32 = (entry_date - prev_entry_date) / (60 * 60 * 24);
 
-                            //TODO - what type is date_delta and how do we get days?
-                            //TODO - is this insane?  If so, by how far?
-                            //TODO - if it's the lifter's worst so far, track that in a HashMap or
-                            //something
+                        if delta_days > 0 {
+                            // is this insane?  If so, by how far?
+                            match check_individual_bw_delta(prev_entry, entry, delta_days) {
+                                Ok(err) => (),
+                                Err(err) => {
+
+                                    // if it's the lifter's worst so far, track it
+                                    match lifter_worst_err_map.get(name) {
+                                        Some(worst) => {
+                                            if err > worst.err {
+                                                lifter_worst_err_map.insert(name, (prev_entry.bodyweightkg, entry.bodyweightkg, delta_days, err));
+                                            }
+                                        }
+                                        None => {
+                                            lifter_worst_err_map.insert(name, (prev_entry.bodyweightkg, entry.bodyweightkg, delta_days, err));
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
+                    // no previous entry, must be first entry, keep on truckin
                     None => (),
                 }
-
-                //TODO store refs in previous tuple
+                prev_entry = entry;
             }
         }
     }
 
-    //TODO sort the HashMap of lifter -> worst bw delta error
-    //TODO take the top n (define this up top of func) and report them
-            
+    //sort the HashMap of lifter -> worst bw delta error
+    //take the top n (define this up top of func) and report them
+    let mut sorted_lifter_worst_bw_delta: Vec<(String, WeightKg, WeightKg, u32, f32)> = lifter_worst_err_map.iter().collect();
+    sorted_lifter_worst_bw_delta.sort_unstable_by_key(|n, a, b, e, d| e).reverse();
 
+    let mut result = LifterEntriesCheckResult::new();
+
+    for i in 0..10 {
+        let (name, first_weight, second_weight, delta_days, err) = sorted_lifter_worst_bw_delta[i];
+        let mut report = Report::new(meet_data_root.clone());
+        let msg = format!("Anomalous bodyweight change for '{}' - from {} to {} in {} days", 
+            name, first_weight, second_weight, delta_days
+        );
+        report.warning(msg);
+        result.reports.push(report);
+    }         
+
+    result
 
 }
 
@@ -116,7 +185,7 @@ fn check_bw_delta(exempt_usernames: HashSet<String>, liftermap: &LifterMap, meet
 fn load_bw_delta_sanity_usernames(lifterdir: &Path) -> (LifterEntriesCheckResult, HashSet<String>) {
 
     let mut exempt_usernames: HashSet<String> = HashSet::new();
-    let mut report = Report::new(lifterdir.join('bw-exemptions.csv'));
+    let mut report = Report::new(lifterdir.join("bw-exemptions.csv"));
 
     // read the exemption usernames
     let mut rdr = csv::ReaderBuilder::new()
@@ -128,7 +197,7 @@ fn load_bw_delta_sanity_usernames(lifterdir: &Path) -> (LifterEntriesCheckResult
         // Text editors are one-indexed, and the header line was skipped.
         let line = (rownum as u64) + 2;
 
-        let row: NameDisambiguationRow = result?;
+        let row: BwExemptionRow = result?;
         let username = match make_username(&row.name) {
             Ok(s) => s,
             Err(s) => {
@@ -142,7 +211,7 @@ fn load_bw_delta_sanity_usernames(lifterdir: &Path) -> (LifterEntriesCheckResult
         }
 
         if exempt_usernames.contains(&username) {
-            report.error_on(line, format!("Lifter '{}' is duplicatied", &username));
+            report.error_on(line, format!("Lifter '{}' is duplicated", &username));
         } else {
             exempt_usernames.insert(username);
         }
