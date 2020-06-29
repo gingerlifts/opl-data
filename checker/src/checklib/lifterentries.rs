@@ -4,6 +4,11 @@ use std::path::{
 use std::collections::{
     HashSet, HashMap
 };
+
+use std::cmp::{
+    Ordering
+};
+
 use usernames::{
     make_username
 };
@@ -66,23 +71,31 @@ pub fn check_lifterentries(liftermap: &LifterMap, meetdata: &AllMeetData, lifter
 }
 
 
+fn get_entry_meet_date(meetdata: &AllMeetData, entry: &Entry) -> Date {
+
+    match entry.index {
+        Some(ei) => meetdata.get_meet(ei).date,
+        None => Date::from_parts(1900, 1, 1),
+    }
+}
+
 //check a bodyweight/time delta to see if it's sane.  Return a Result with how far from the limit
 //it was
 fn check_individual_bw_delta(first_entry: &Entry, second_entry: &Entry, delta_days: u32) -> Result<f32, f32> {
 
-    let first_bw: WeightKg = first_entry.bodyweightkg;
-    let second_bw: WeightKg = second_entry.bodyweightkg;
-    let bw_delta: WeightKg = WeightKg::abs(first_bw - second_bw);
+    let first_bw: f32 = f32::from(first_entry.bodyweightkg);
+    let second_bw: f32 = f32::from(second_entry.bodyweightkg);
+    let bw_delta: f32 = f32::abs(first_bw - second_bw);
 
     let bw_pct_delta: f32 = (bw_delta / first_bw) * 100.0;
-    let bw_pct_delta_per_day: f32 = bw_pct_delta / delta_days;
+    let bw_pct_delta_per_day: f32 = bw_pct_delta / delta_days as f32;
 
     // 25% represents a lifter in old weight classes in a meet we only have weight classes for and
     // no actual weigh in data, competing in 125kg one day and 100kg the next or vice versa
     // (potentially 99kg and 101kg).  This drops off over a few days through the range where
     // lifters could cut for one meet and compete again soon without cutting, and stabilises
     // into a near-constant rate of sustainable weight loss
-    let max_bw_pct_delta_per_day: f32 = (25.0 / delta_days) + 0.15;
+    let max_bw_pct_delta_per_day: f32 = (25.0 / delta_days as f32) + 0.15;
 
     if bw_pct_delta_per_day > max_bw_pct_delta_per_day {
         Err(bw_pct_delta_per_day - max_bw_pct_delta_per_day)
@@ -98,10 +111,17 @@ fn check_bw_delta(exempt_usernames: HashSet<String>, liftermap: &LifterMap, meet
     
     let mut lifter_worst_err_map: HashMap<String, (WeightKg, WeightKg, u32, f32)> = HashMap::new();
 
+    let sort_entries_by_date_closure = |a: &Entry, b: &Entry| -> Ordering {
+        let ad: Date = get_entry_meet_date(meetdata, a);
+        let bd: Date = get_entry_meet_date(meetdata, b);
+
+        ad.cmp(&bd)
+    };
+
     for lifter_indices in liftermap.values() {
 
         let name = &meetdata.get_entry(lifter_indices[0]).name;
-        let mut prev_entry: Option<&Entry> = None;
+        let mut prev: Option<&Entry> = None;
 
         // skip I. Nitial and Onename
         if name.contains(' ')
@@ -112,26 +132,26 @@ fn check_bw_delta(exempt_usernames: HashSet<String>, liftermap: &LifterMap, meet
             let mut lifter_entries_by_date: Vec<&Entry> = Vec::new();
 
             for index in lifter_indices.iter() {
-                lifter_entries_by_date.push(meetdata.get_entry(*index));
+                    lifter_entries_by_date.push(meetdata.get_entry(*index));
             }
 
-            // .cmp() wants the other value by ref
-            lifter_entries_by_date.sort_unstable_by_key(|e| meetdata.get_meet(*e.index).date);
+            lifter_entries_by_date.sort_unstable_by(|a, b| sort_entries_by_date_closure(a, b));
 
             // now iterate over the lifter's entries by date and check sanity of bodyweight
             // changes over time
             for entry in &lifter_entries_by_date {
 
                 // if we have a previous entry for this lifter, compare it to the current one
-                match prev_entry {
-                    Some(prev) => {
+                match prev {
+                    Some(prev_entry) => {
 
-                        let prev_entry_date: Date = meetdata.get_meet(*prev_entry.index).date;  
-                        let entry_date: Date = meetdata.get_meet(*entry.index).date;
+                        let prev_entry_date: Date = get_entry_meet_date(meetdata, prev_entry);
+                        let entry_date: Date = get_entry_meet_date(meetdata, entry);
 
-                        let delta_days: u32 = (entry_date - prev_entry_date) / (60 * 60 * 24);
+                        let delta_days: u32 = (u32::from(entry_date) - u32::from(prev_entry_date)) / (60 * 60 * 24);
 
-                        if delta_days > 0 {
+                        // ignore if entries are from the same day or from our catchall date
+                        if delta_days > 0 && entry_date.year() > 1900 {
                             // is this insane?  If so, by how far?
                             match check_individual_bw_delta(prev_entry, entry, delta_days) {
                                 Ok(err) => (),
@@ -155,7 +175,7 @@ fn check_bw_delta(exempt_usernames: HashSet<String>, liftermap: &LifterMap, meet
                     // no previous entry, must be first entry, keep on truckin
                     None => (),
                 }
-                prev_entry = entry;
+                prev = entry;
             }
         }
     }

@@ -215,6 +215,20 @@ impl Serialize for Date {
     }
 }
 
+// return the difference in days
+impl Sub for Date {
+    type Output = u32;
+
+    fn sub(self, other: Date) -> u32 {
+
+        let year_diff: u32 = self.year() - other.year();
+        let month_diff: u32 = self.month() - other.month();
+        let day_diff: u32 = self.day() - other.day();
+
+        // add an extra day for each leap year we encounter between years
+        let leap_year_count
+        
+
 #[derive(Debug)]
 pub enum ParseDateError {
     FormatError,
