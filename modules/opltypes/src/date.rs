@@ -6,6 +6,10 @@ use serde::ser::Serialize;
 use std::fmt;
 use std::num;
 use std::str::FromStr;
+use std::convert::TryInto;
+
+use chrono::naive::NaiveDate;
+use chrono::Datelike;
 
 use crate::Age;
 
@@ -214,6 +218,28 @@ impl Serialize for Date {
         serializer.serialize_str(&format!("{:04}-{:02}-{:02}", y, m, d))
     }
 }
+
+// return the difference in days using NaiveDate to do the date math
+impl std::ops::Sub for Date {
+    type Output = i32;
+
+    fn sub(self, other: Date) -> i32 {
+    
+        let self_nd = NaiveDate::from_ymd(
+            (self.year() as i32).try_into().unwrap(), 
+            (self.month() as i32).try_into().unwrap(),
+            (self.day() as i32).try_into().unwrap()
+        );
+        let other_nd = NaiveDate::from_ymd(
+            (other.year() as i32).try_into().unwrap(), 
+            (other.month() as i32).try_into().unwrap(),
+            (other.day() as i32).try_into().unwrap()
+        );
+
+        self_nd.num_days_from_ce() - other_nd.num_days_from_ce()
+    }
+}
+        
 
 #[derive(Debug)]
 pub enum ParseDateError {
