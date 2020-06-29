@@ -81,7 +81,7 @@ fn get_entry_meet_date(meetdata: &AllMeetData, entry: &Entry) -> Date {
 
 //check a bodyweight/time delta to see if it's sane.  Return a Result with how far from the limit
 //it was
-fn check_individual_bw_delta(first_entry: &Entry, second_entry: &Entry, delta_days: u32) -> Result<f32, f32> {
+fn check_individual_bw_delta(first_entry: &Entry, second_entry: &Entry, delta_days: i32) -> Result<f32, f32> {
 
     let first_bw: f32 = f32::from(first_entry.bodyweightkg);
     let second_bw: f32 = f32::from(second_entry.bodyweightkg);
@@ -109,7 +109,7 @@ fn check_individual_bw_delta(first_entry: &Entry, second_entry: &Entry, delta_da
 // we can take usernames, they aren't needed after this
 fn check_bw_delta(exempt_usernames: HashSet<String>, liftermap: &LifterMap, meetdata: &AllMeetData, lifterdata: &LifterDataMap, meet_data_root: PathBuf) -> LifterEntriesCheckResult {
     
-    let mut lifter_worst_err_map: HashMap<String, (WeightKg, WeightKg, u32, f32)> = HashMap::new();
+    let mut lifter_worst_err_map: HashMap<&String, (WeightKg, WeightKg, i32, f32)> = HashMap::new();
 
     let sort_entries_by_date_closure = |a: &Entry, b: &Entry| -> Ordering {
         let ad: Date = get_entry_meet_date(meetdata, a);
@@ -123,9 +123,11 @@ fn check_bw_delta(exempt_usernames: HashSet<String>, liftermap: &LifterMap, meet
         let name = &meetdata.get_entry(lifter_indices[0]).name;
         let mut prev: Option<&Entry> = None;
 
-        // skip I. Nitial and Onename
+        // skip I. Nitial and Onename, also skip any names
+        // marked for exemption
         if name.contains(' ')
             && name.chars().skip(1).take(1).collect::<Vec<char>>() != ['.']
+            && !exempt_usernames.contains(name)
         {
 
             // sort the lifter's entries by meet date
@@ -148,7 +150,7 @@ fn check_bw_delta(exempt_usernames: HashSet<String>, liftermap: &LifterMap, meet
                         let prev_entry_date: Date = get_entry_meet_date(meetdata, prev_entry);
                         let entry_date: Date = get_entry_meet_date(meetdata, entry);
 
-                        let delta_days: u32 = (u32::from(entry_date) - u32::from(prev_entry_date)) / (60 * 60 * 24);
+                        let delta_days: i32 = i32::abs(entry_date - prev_entry_date);
 
                         // ignore if entries are from the same day or from our catchall date
                         if delta_days > 0 && entry_date.year() > 1900 {
@@ -160,7 +162,8 @@ fn check_bw_delta(exempt_usernames: HashSet<String>, liftermap: &LifterMap, meet
                                     // if it's the lifter's worst so far, track it
                                     match lifter_worst_err_map.get(name) {
                                         Some(worst) => {
-                                            if err > worst.err {
+                                            let (_prev_bw, _bw, _delta_days, worst_err) = *worst;
+                                            if err > worst_err {
                                                 lifter_worst_err_map.insert(name, (prev_entry.bodyweightkg, entry.bodyweightkg, delta_days, err));
                                             }
                                         }
@@ -175,15 +178,33 @@ fn check_bw_delta(exempt_usernames: HashSet<String>, liftermap: &LifterMap, meet
                     // no previous entry, must be first entry, keep on truckin
                     None => (),
                 }
-                prev = entry;
+                prev = Some(entry);
             }
         }
     }
 
     //sort the HashMap of lifter -> worst bw delta error
     //take the top n (define this up top of func) and report them
-    let mut sorted_lifter_worst_bw_delta: Vec<(String, WeightKg, WeightKg, u32, f32)> = lifter_worst_err_map.iter().collect();
-    sorted_lifter_worst_bw_delta.sort_unstable_by_key(|n, a, b, e, d| e).reverse();
+    let sort_worst_bw_delta_closure = |
+        a: &(&String, WeightKg, WeightKg, i32, f32),
+        b: &(&String, WeightKg, WeightKg, i32, f32)| -> Ordering {
+
+        let (a_name, a_from_bw, a_to_bw, a_delta_days, a_err) = a;
+        let (b_name, b_from_bw, b_to_bw, b_delta_days, b_err) = b;
+
+        //ok to panic if this is None
+        b_err.partial_cmp(&a_err).unwrap() 
+        
+    };       
+
+    let mut sorted_lifter_worst_bw_delta: Vec<(&String, WeightKg, WeightKg, i32, f32)> = Vec::new();
+
+    for (name, tup) in lifter_worst_err_map.iter() {
+        let (from_bw, to_bw, delta_days, err) = *tup;
+        sorted_lifter_worst_bw_delta.push((*name, from_bw, to_bw, delta_days, err));
+    }  
+
+    sorted_lifter_worst_bw_delta.sort_unstable_by(|a, b| sort_worst_bw_delta_closure(a, b));
 
     let mut result = LifterEntriesCheckResult::new();
 
@@ -206,18 +227,42 @@ fn load_bw_delta_sanity_usernames(lifterdir: &Path) -> (LifterEntriesCheckResult
 
     let mut exempt_usernames: HashSet<String> = HashSet::new();
     let mut report = Report::new(lifterdir.join("bw-exemptions.csv"));
+    let mut result: LifterEntriesCheckResult = LifterEntriesCheckResult::new();
+
 
     // read the exemption usernames
-    let mut rdr = csv::ReaderBuilder::new()
+    //TODO - figure this out
+    let rdr_result = 
+
+    match
+        csv::ReaderBuilder::new()
         .quoting(false)
         .terminator(csv::Terminator::Any(b'\n'))
-        .from_path(report.path)?;
+        .from_path(report.path)
+    {
+        Ok(rb) => {
+            rdr = rb
+        }
+        Err(err) => {
+            let msg = "Unable to create CSV reader";
+            report.error(msg);
+            result.reports.push(report);
+            (result, exempt_usernames)
+        }
+    }
 
-    for (rownum, result) in rdr.deserialize().enumerate() {
+    for (rownum, row_result) in rdr.deserialize().enumerate() {
         // Text editors are one-indexed, and the header line was skipped.
         let line = (rownum as u64) + 2;
 
-        let row: BwExemptionRow = result?;
+        let row: BwExemptionRow = match row_result {
+            Ok(s) => s,
+            Err(s) => {
+                report.error_on(line, s);
+                continue;
+            }
+        };
+        
         let username = match make_username(&row.name) {
             Ok(s) => s,
             Err(s) => {
@@ -237,10 +282,9 @@ fn load_bw_delta_sanity_usernames(lifterdir: &Path) -> (LifterEntriesCheckResult
         }
     }
 
-    let mut reports: Vec<Report> = Vec::new();
-    reports.push(report);
+    result.reports.push(report);
 
-    (LifterEntriesCheckResult { reports }, exempt_usernames)
+    (result, exempt_usernames)
 }
 
 
