@@ -9,7 +9,6 @@ extern crate serde_derive;
 extern crate strum;
 #[macro_use]
 extern crate strum_macros;
-extern crate chrono;
 
 // External dependencies used only in testing code.
 #[cfg(test)]

@@ -6,10 +6,6 @@ use serde::ser::Serialize;
 use std::fmt;
 use std::num;
 use std::str::FromStr;
-use std::convert::TryInto;
-
-use chrono::naive::NaiveDate;
-use chrono::Datelike;
 
 use crate::Age;
 
@@ -35,6 +31,10 @@ impl Date {
     // The year occupies the next 14 bits: ceil(log2(9999)) = 14.
     const YEAR_SHIFT: usize = 5 + 4;
     const YEAR_MASK: u32 = 0x3fff;
+        
+    // The array has 13 elements so the month (starting from 1) can be an index.
+    const DAYS_IN_MONTH: [u8; 13] = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
 
     /// Creates a Date object from parts.
     ///
@@ -128,8 +128,6 @@ impl Date {
     /// assert_eq!(date.is_valid(), false);
     /// ```
     pub fn is_valid(self) -> bool {
-        // The array has 13 elements so the month (starting from 1) can be an index.
-        let days_in_month: [u8; 13] = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
         // Ensure that the month is usable as an index into days_in_month (1-indexed).
         let month = self.month();
@@ -137,7 +135,7 @@ impl Date {
             return false;
         }
 
-        let mut max_days = u32::from(days_in_month[month as usize]);
+        let mut max_days = u32::from(Date::DAYS_IN_MONTH[month as usize]);
 
         // February is a special case based on leap year logic.
         if month == 2 {
@@ -199,6 +197,45 @@ impl Date {
             Ok(Age::Exact(years - 1))
         }
     }
+
+    // return the number of days since the hypothetical year 0
+    // this facilitates date math
+    pub fn days_since_0(&self) -> u32 {
+
+        let leap_year_factor: u32;
+
+        // start with whole years, excluding extra days from leap years
+        let mut total_days: u32 = 365 * self.year();
+
+        // add extras from leap years, don't include the date's year
+        // if the DD/MM is before 29/02
+        if (self.month() == 1) || (self.month() == 2 && self.day() < 29) {
+            leap_year_factor = self.year() - 1;
+        } else {  
+            leap_year_factor = self.year();
+        }
+
+        // figure out how many leap year we've had
+        let leap_4_years: u32 = (leap_year_factor / 4) as u32; 
+        let leap_100_years: u32 = (leap_year_factor / 100) as u32;
+        let leap_400_years: u32 = (leap_year_factor / 400) as u32;
+
+        // add one day for each leap_4 year, subtract one for each leap_100
+        // year, add one back on for each leap_400 year
+        total_days += leap_4_years - leap_100_years + leap_400_years;
+
+        // add the days from the start of the year up to the date
+        for cur_month in 1..13 {
+            if cur_month < self.month() {
+                total_days += Date::DAYS_IN_MONTH[cur_month as usize] as u32;
+            } else if cur_month == self.month() {
+                total_days += self.day();
+            }
+        }
+
+        total_days
+    }
+        
 }
 
 impl fmt::Display for Date {
@@ -224,19 +261,7 @@ impl std::ops::Sub for Date {
     type Output = i32;
 
     fn sub(self, other: Date) -> i32 {
-    
-        let self_nd = NaiveDate::from_ymd(
-            (self.year() as i32).try_into().unwrap(), 
-            (self.month() as i32).try_into().unwrap(),
-            (self.day() as i32).try_into().unwrap()
-        );
-        let other_nd = NaiveDate::from_ymd(
-            (other.year() as i32).try_into().unwrap(), 
-            (other.month() as i32).try_into().unwrap(),
-            (other.day() as i32).try_into().unwrap()
-        );
-
-        self_nd.num_days_from_ce() - other_nd.num_days_from_ce()
+        self.days_since_0() as i32 - other.days_since_0() as i32
     }
 }
         
