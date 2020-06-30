@@ -92,6 +92,7 @@ class Csv:
         with codecs.open(filename, 'w', encoding="utf-8") as fd:
             self.write(fd)
 
+
 class CsvReadIter:
 
     def __init__(self, filename=None, fd=None, dict_reader=False):
@@ -119,7 +120,7 @@ class CsvReadIter:
             raise StopIteration
 
         next_row = next_line.rstrip("\r\n").split(',')
-        
+
         if self.dict_reader:
             return {self.fieldnames[i]: v for (i, v,) in enumerate(next_row)}
 
@@ -130,4 +131,3 @@ class CsvReadIter:
 
     def index(self, name):
         return self.fieldnames.index(name)
-
