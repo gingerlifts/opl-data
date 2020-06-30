@@ -34,7 +34,7 @@ Greg Denny,M,28,M_OEM_APF,Multi-ply,90,260,160,215,635,SBD,1,,
 Blair Longmire,M,24,M_OEM_APF,Multi-ply,100,295,,,,SBD,DQ,,
 Jeffrey Allen #1,M,29,M_OEM_APF,Multi-ply,100,,,,,SBD,DQ,,
 Seth Tomlin,M,32,M_OEM_APF,Multi-ply,110,340,217.5,290,847.5,SBD,1,,Coontail
-Ray Pierce,M,38,M_OEM_APF,Multi-ply,110,400,,,,SBD,DQ,,Alpha
+Ray Pierce #2,M,38,M_OEM_APF,Multi-ply,110,400,,,,SBD,DQ,,Alpha
 David Bergman,M,25,M_OEM_APF,Multi-ply,125,290,197.5,275,762.5,SBD,1,,Coontail
 Tim Mattson,M,37,M_OEM_APF,Multi-ply,125,275,227.5,247.5,750,SBD,2,,Alpha
 Gable Barber,M,33,M_OEM_APF,Multi-ply,125,,217.5,,,SBD,DQ,,Coontail
@@ -46,7 +46,7 @@ Chandler Batts,M,17,M_TEM_2_APF,Multi-ply,82.5,185,100,190,475,SBD,1,,FBA
 Matthew Ackley,M,17,M_TEM_2_APF,Multi-ply,90,182.5,80,180,442.5,SBD,1,,FBA
 Austin Ellis,M,14,M_TEM_1_APF,Multi-ply,52,85,45,110,240,SBD,1,,FBA
 Brandon Harper,M,18,M_TEM_3_APF,Multi-ply,75,195,157.5,220,572.5,SBD,1,,FBA
-Rosie Mc Gill,F,36,F_SR_APF,Raw,75,,72.5,,72.5,B,1,,
+Rosie McGill,F,36,F_SR_APF,Raw,75,,72.5,,72.5,B,1,,
 Anna Swisher,F,16,F_TEM_2_APF,Multi-ply,67.5,,52.5,,52.5,B,1,,
 Ron Hunka,M,45,M_MR_2_AAPF,Raw,100,,137.5,,137.5,B,1,Yes,
 Ron Hunka,M,45,M_OR_AAPF,Raw,100,,137.5,,137.5,B,1,Yes,
@@ -61,7 +61,7 @@ Brandon Gray,M,17,M_TR_2_APF,Raw,52,,67.5,,67.5,B,1,,
 Josh Firth,M,16,M_TR_2_APF,Raw,90,,142.5,,142.5,B,1,,
 Mike Gleason,M,45,M_MEM_2_APF,Multi-ply,100,,,,,B,DQ,,
 Don Moser,M,47,M_MEM_2_APF,Multi-ply,110,,,,,B,DQ,,
-Ray Pierce,M,38,M_OEM_APF,Multi-ply,110,,,,,B,DQ,,
+Ray Pierce #2,M,38,M_OEM_APF,Multi-ply,110,,,,,B,DQ,,
 Chris Pappillion,M,31,M_OEM_APF,Multi-ply,125,,300,,300,B,1,,
 Stan Carradine,M,28,M_OEM_APF,Multi-ply,125,,295,,295,B,2,,
 Michael Dobrovolski,M,54,M_MR_3_AAPF,Raw,82.5,,,182.5,182.5,D,1,Yes,

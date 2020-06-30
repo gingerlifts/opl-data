@@ -8,6 +8,9 @@
     open = {name="open", min=0, max=999, sex='M'}
     youth = {name="youth", min=5, max=12, sex='M'}
     hs = {name="hs", min=13, max=19, sex='M'}
+    fs = {name="fs", min=13, max=19, sex='M'}
+    js = {name="js", min=13, max=19, sex='M'}
+    hsp = {name="hsp", min=13, max=19, sex='M'}
     teen = {name="teen", min=13, max=19, sex='M'}
     jr = {name="jr", min=20, max=23, sex='M'}
     int = {name="int", min=24, max=29, sex='M'}
@@ -33,6 +36,9 @@
     wopen = {name="wopen", min=0, max=999, sex='F'}
     wyouth = {name="wyouth", min=5, max=12, sex='F'}
     whs = {name="whs", min=13, max=19, sex='F'}
+    whsp = {name="whsp", min=13, max=19, sex='F'}
+    wfs = {name="wfs", min=13, max=19, sex='F'}
+    wjs = {name="wjs", min=13, max=19, sex='F'}
     wteen = {name="wteen", min=13, max=19, sex='F'}
     wjr = {name="wjr", min=20, max=23, sex='F'}
     wint = {name="wint", min=24, max=29, sex='F'}
@@ -49,7 +55,7 @@
     wpure = {name="wpure", min=0, max=999, sex='F'}
     wpn = {name="wpn", min=0, max=999, sex='F'}
     wnat = {name="wnat", min=0, max=999, sex='F'}
-    wsmp = {name="wsmp", min=40, max=999, sex='F'} # Submasters Pure?
+    wsmp = {name="wsmp", min=30, max=39, sex='F'} # Submasters Pure?
     wmp = {name="wmp", min=40, max=999, sex='F'} # Masters Pure?
     wso = {name="wso", min=0, max=999, sex='F'} # Special olympics
 
@@ -57,6 +63,7 @@
     bpopen = {name="bpopen", min=0, max=999, sex='M'}
     bpyouth = {name="bpyouth", min=5, max=12, sex='M'}
     bphs = {name="bphs", min=13, max=19, sex='M'}
+    bphsp = {name="bphsp", min=13, max=19, sex='M'}
     bpteen = {name="bpteen", min=13, max=19, sex='M'}
     bpjr = {name="bpjr", min=20, max=23, sex='M'}
     bpint = {name="bpint", min=24, max=29, sex='M'}
@@ -72,7 +79,8 @@
     bppf = {name="bpp+f", min=0, max=999, sex='M'}
     bppure = {name="bppure", min=0, max=999, sex='M'}
     bpnat = {name="bpnat", min=0, max=999, sex='M'}
-    bpsmp = {name="bpsmp", min=40, max=999, sex='M'} # Submasters Pure?   
+    bppn = {name="bppn", min=0, max=999, sex='M'} #Pure novice
+    bpsmp = {name="bpsmp", min=30, max=39, sex='M'} # Submasters Pure?   
     bpmp = {name="bpmp", min=40, max=999, sex='M'} # Masters Pure?
     bpso = {name="bpso", min=0, max=999, sex='M'} # Special olympics
     bphc = {name="bphc", min=0, max=999, sex='M'} # Handicapped
@@ -113,6 +121,8 @@
     dlnov = {name="dlnov", min=0, max=999, sex='M'}
     dlpf = {name="dlp+f", min=0, max=999, sex='M'}
     dlpure = {name="dlpure", min=0, max=999, sex='M'}
+    dlpn = {name="dlpn", min=0, max=999, sex='M'} #Pure novice
+    dlnat = {name="dlnat", min=0, max=999, sex='M'} # Natural
     dlsmp = {name="dlsmp", min=40, max=999, sex='M'} # Submasters Pure?   
     dlmp = {name="dlmp", min=40, max=999, sex='M'} # Masters Pure?
 
@@ -143,6 +153,7 @@
     sqint = {name="sqint", min=24, max=29, sex='M'}
     sqsm1 = {name="sqsm1", min=30, max=35, sex='M'}
     sqsm2 = {name="sqsm2", min=35, max=39, sex='M'}
+    sqsm = {name="sqsm", min=30, max=39, sex='M'}
     sqm1 = {name="sqm1", min=40, max=49, sex='M'}
     sqm2 = {name="sqm2", min=50, max=59, sex='M'}
     sqm3 = {name="sqm3", min=60, max=69, sex='M'}
@@ -150,6 +161,8 @@
     sqnov = {name="sqnov", min=0, max=999, sex='M'}
     sqpf = {name="sqp+f", min=0, max=999, sex='M'}
     sqpure = {name="sqpure", min=0, max=999, sex='M'}
+    sqnat = {name="sqnat", min=0, max=999, sex='M'} # Natural
+    sqpn = {name="sqpn", min=0, max=999, sex='M'} # Natural
     sqsmp = {name="sqsmp", min=40, max=999, sex='M'} # Submasters Pure?   
     sqmp = {name="sqmp", min=40, max=999, sex='M'} # Masters Pure?
 
@@ -218,29 +231,48 @@
 
 [weightclasses.default_M]
     classes = ["52", "56", "60", "67.5", "75", "82.5", "90", "100", "110", "125", "140", "140+"]
-    date_range = ["1900-01-01", "9999-01-01"]
+    date_range = ["2004-01-01", "9999-01-01"]
     sex = "M"
 
 [weightclasses.default_F]
     classes = ["44", "48", "52", "56", "60", "67.5", "75", "82.5", "90", "90+"]
-    date_range = ["1900-01-01", "9999-01-01"]
+    date_range = ["2004-01-01", "9999-01-01"]
+    sex = "F"
+
+[weightclasses.old_M]
+    classes = ["54", "58", "63", "70", "77.5", "85", "93", "103", "113.5", "127", "143", "143+"]
+    date_range = ["1900-01-01", "2003-12-31"]
+    sex = "M"
+
+[weightclasses.old_F]
+    classes = ["46", "50", "54", "58", "63", "70", "77.5", "85", "85+"]
+    date_range = ["1900-01-01", "2003-12-31"]
     sex = "F"
 
 [weightclasses.youth_M]
     classes = ["40", "44", "48", "52", "56", "60", "67.5", "75", "82.5", "90", "100", "110", "125", "140", "140+"]
-    date_range = ["1900-01-01", "9999-01-01"]
+    date_range = ["2004-01-01", "9999-01-01"]
     sex = "M"
     divisions = ["youth", "bpyouth", "dlyouth"]
 
 [weightclasses.youth_F]
     classes = ["40", "44", "48", "52", "56", "60", "67.5", "75", "82.5", "90", "90+"]
-    date_range = ["1900-01-01", "9999-01-01"]
+    date_range = ["2004-01-01", "9999-01-01"]
     sex = "F"
     divisions = ["wyouth", "wbpyouth"]
 
+[weightclasses.old_youth_M]
+    classes = ["25","35","40","46","50","54", "58", "63", "70", "77.5", "85", "93", "103", "113.5", "127", "143", "143+"]
+    date_range = ["1900-01-01", "2003-12-31"]
+    sex = "M"
+    divisions = ["youth", "bpyouth", "dlyouth", "sqyouth"]
+
+[weightclasses.old_youth_F]
+    classes = ["25","35","40","46", "50", "54", "58", "63", "70", "77.5", "85", "85+"]
+    date_range = ["1900-01-01", "2003-12-31"]
+    sex = "F"
+    divisions = ["wyouth", "wbpyouth", "wdlyouth"]
+
 [exemptions]
-    9801 = ["ExemptWeightClassConsistency"]  # Old weightclasses
-    9802 = ["ExemptWeightClassConsistency"]  # Old weightclasses
-    9803 = ["ExemptWeightClassConsistency"]  # Old weightclasses
-    0301 = ["ExemptWeightClassConsistency"]  # Uses strange weightclasses.
     0904 = ["ExemptDivision"]  # Non-standard divisions.
+    1005 = ["ExemptDivision"]  # LW, HW

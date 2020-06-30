@@ -432,7 +432,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     let timing = get_instant_if(args.debug_timing);
     let liftermap = meetdata.create_liftermap();
 
-    let lifterentries_check_result = checker::check_lifterentries(&liftermap, &meetdata, &lifterdata, meet_data_root.clone());
+    let lifterentries_check_result = checker::check_lifterentries(&liftermap, &meetdata, &lifterdata, meet_data_root.clone(), &project_root.join("lifter-data"));
     
     // should this really be a Report method?
     // or possibly iterate over both results together?

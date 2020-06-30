@@ -317,6 +317,10 @@ pub enum Federation {
     #[strum(to_string = "FECAPOLIF", serialize = "fecapolif")]
     FECAPOLIF,
 
+    /// La Federación Chilena de Powerlifting, IPF.
+    #[strum(to_string = "FECHIPO", serialize = "fechipo")]
+    FECHIPO,
+
     /// Federación Mexicana de Powerlifting A.C., IPF.
     #[strum(to_string = "FEMEPO", serialize = "femepo")]
     FEMEPO,
@@ -907,6 +911,11 @@ pub enum Federation {
     #[strum(to_string = "UkrainePO", serialize = "ukrainepo")]
     UkrainePO,
 
+    /// Unified Strength Alliance, short-lived NorthEastern MP fed.
+    #[strum(to_string = "UnifiedSA", serialize = "unifiedsa")]
+    UnifiedSA,
+
+
     /// United Powerlifting Association.
     #[strum(to_string = "UPA", serialize = "upa")]
     UPA,
@@ -1354,6 +1363,7 @@ impl Federation {
             Federation::FCA => false,
             Federation::FCST => false,
             Federation::FECAPOLIF => FULLY_TESTED,
+            Federation::FECHIPO => FULLY_TESTED,
             Federation::FEMEPO => FULLY_TESTED,
             Federation::FEPOA => false,
             Federation::FESUPO => FULLY_TESTED,
@@ -1501,6 +1511,7 @@ impl Federation {
             Federation::UDFPF => FULLY_TESTED,
             Federation::UkrainePA => false,
             Federation::UkrainePO => false,
+            Federation::UnifiedSA => false,
             Federation::UPA => false,
             Federation::UPC => false,
             Federation::UPCGermany => false,
@@ -1657,6 +1668,7 @@ impl Federation {
             Federation::FCA => Some(Country::USA),
             Federation::FCST => Some(Country::Czechia),
             Federation::FECAPOLIF => Some(Country::Cameroon),
+            Federation::FECHIPO => Some(Country::Chile),
             Federation::FEMEPO => Some(Country::Mexico),
             Federation::FEPOA => Some(Country::Argentina),
             Federation::FESUPO => None,
@@ -1797,6 +1809,7 @@ impl Federation {
             Federation::UDFPF => Some(Country::Ukraine),
             Federation::UkrainePA => Some(Country::Ukraine),
             Federation::UkrainePO => Some(Country::Ukraine),
+            Federation::UnifiedSA => Some(Country::USA),
             Federation::UPA => Some(Country::USA),
             Federation::UPC => Some(Country::Ukraine),
             Federation::UPCGermany => Some(Country::Germany),
@@ -1980,6 +1993,7 @@ impl Federation {
             Federation::FCA => None,
             Federation::FCST => Some(Federation::GPC),
             Federation::FECAPOLIF => Some(Federation::IPF),
+            Federation::FECHIPO => Some(Federation::IPF),
             Federation::FEMEPO => Some(Federation::IPF),
             Federation::FEPOA => Some(Federation::GPC),
             Federation::FESUPO => Some(Federation::IPF),
@@ -2141,6 +2155,7 @@ impl Federation {
             Federation::UDFPF => Some(Federation::WDFPF),
             Federation::UkrainePA => None,
             Federation::UkrainePO => None,
+            Federation::UnifiedSA => None,
             Federation::UPA => None,
             Federation::UPC => Some(Federation::UPC),
             Federation::UPCGermany => Some(Federation::UPC),
@@ -2348,6 +2363,7 @@ impl Federation {
             Federation::FCA => PointsSystem::Wilks,
             Federation::FCST => PointsSystem::Wilks,
             Federation::FECAPOLIF => Federation::ipf_rules_on(date),
+            Federation::FECHIPO => Federation::ipf_rules_on(date),
             Federation::FEMEPO => Federation::ipf_rules_on(date),
             Federation::FEPOA => PointsSystem::Wilks,
             Federation::FESUPO => Federation::ipf_rules_on(date),
@@ -2515,6 +2531,7 @@ impl Federation {
             Federation::UDFPF => PointsSystem::Wilks,
             Federation::UkrainePA => PointsSystem::Wilks,
             Federation::UkrainePO => PointsSystem::Wilks,
+            Federation::UnifiedSA => PointsSystem::Wilks,
             Federation::UPA => PointsSystem::Wilks,
             Federation::UPC => PointsSystem::Wilks,
             Federation::UPCGermany => PointsSystem::Glossbrenner,

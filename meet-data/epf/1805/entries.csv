@@ -3,7 +3,7 @@ Place,Name,BirthYear,BirthDate,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,B
 2,Thomas Wulffeld,1969,,Sweden,58.9,162.5,172.5,-175,172.5,80,85,-87.5,85,195,205,207.5,207.5,465,59,Masters 1,SBD,M,Raw
 3,Benoit Angin,1974,,France,58.75,120,-135,140,140,70,80,90,90,110,130,147.5,147.5,377.5,59,Masters 1,SBD,M,Raw
 1,Evgeniy Stepanov,1976,,Russia,65.9,175,185,190,190,120,130,132.5,132.5,205,220,-230,220,542.5,66,Masters 1,SBD,M,Raw
-2,Mickael Bernard,1970,,France,65.05,165,170,175,175,147.5,152.5,155,155,200,205,-207.5,205,535,66,Masters 1,SBD,M,Raw
+2,Michael Bernard,1970,,France,65.05,165,170,175,175,147.5,152.5,155,155,200,205,-207.5,205,535,66,Masters 1,SBD,M,Raw
 3,Greig Murray,1971,,UK,64.9,160,167.5,172.5,172.5,115,122.5,125,125,210,227.5,230,230,527.5,66,Masters 1,SBD,M,Raw
 4,Niklas Ek,1974,,Sweden,65.75,185,192.5,-198,192.5,110,-115,115,115,210,217.5,-220,217.5,525,66,Masters 1,SBD,M,Raw
 5,Mattias Hallberg,1978,,Sweden,65.75,175,187.5,-190,187.5,120,125,-127.5,125,210,-220,-220,210,522.5,66,Masters 1,SBD,M,Raw
@@ -11,7 +11,7 @@ Place,Name,BirthYear,BirthDate,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,B
 1,Jøran Langset,1977,,Norway,72.4,205,212.5,220,220,125,130,-132.5,130,235,245,250,250,600,74,Masters 1,SBD,M,Raw
 2,Mário Belan,1973,,Slovakia,73,210,220,-227.5,220,140,147.5,-155,147.5,200,225,-235,225,592.5,74,Masters 1,SBD,M,Raw
 3,Patrick Schiffner,1978,,Germany,73.05,200,207.5,-212.5,207.5,147.5,-152.5,-152.5,147.5,215,222.5,-227.5,222.5,577.5,74,Masters 1,SBD,M,Raw
-4,Martin Smith,1973,,UK,72.95,160,170,180,180,130,140,142.5,142.5,220,230,237.5,237.5,560,74,Masters 1,SBD,M,Raw
+4,Martin Smith #1,1973,,UK,72.95,160,170,180,180,130,140,142.5,142.5,220,230,237.5,237.5,560,74,Masters 1,SBD,M,Raw
 5,Sami Siltala,1972,,Finland,73.65,175,185,187.5,187.5,135,140,-142.5,140,230,-245,-252.5,230,557.5,74,Masters 1,SBD,M,Raw
 6,Florian Dorfner,1978,,Germany,72.15,190,200,205,205,125,-130,-130,125,205,215,-220,215,545,74,Masters 1,SBD,M,Raw
 7,Marcel Rösler,1976,,Czechia,73.3,190,200,-210,200,-115,115,120,120,220,225,-227.5,225,545,74,Masters 1,SBD,M,Raw
@@ -209,7 +209,7 @@ DQ,Katariina Nokua,1973,,Finland,106.7,-177.5,-177.5,-177.5,,,,,,,,,,,84+,Master
 2,Karen Barry,1966,,Ireland,71.35,-146,146,-151,146,81,84,-86,84,150,155,-160,155,385,72,Masters 2,SBD,F,Raw
 3,Joy Mineo,1967,,UK,67.4,105,115,120,120,72.5,77.5,-80,77.5,167.5,-177.5,-177.5,167.5,365,72,Masters 2,SBD,F,Raw
 4,Elisabeth Wahlander,1960,,Sweden,70.7,130,140,-145,140,55,62.5,65,65,160,-170,-170,160,365,72,Masters 2,SBD,F,Raw
-5,Laure Romain Livy,1967,,France,69.05,117.5,-122.5,122.5,122.5,55,-60,60,60,140,-145,-145,140,322.5,72,Masters 2,SBD,F,Raw
+5,Livy Laure Romain,1967,,France,69.05,117.5,-122.5,122.5,122.5,55,-60,60,60,140,-145,-145,140,322.5,72,Masters 2,SBD,F,Raw
 1,Jackie Blasbery,1963,,UK,83.55,115,122.5,127.5,127.5,77.5,82.5,85,85,152.5,165,172.5,172.5,385,84,Masters 2,SBD,F,Raw
 2,Helen Twomey,1967,,Ireland,76.6,120,-125,-125,120,72.5,75,-77.5,75,170,177.5,-190,177.5,372.5,84,Masters 2,SBD,F,Raw
 3,Gro-Berit Stavheim,1964,,Norway,77.05,120,125.5,130.5,130.5,72.5,75,77.5,77.5,147.5,155,-160,155,363,84,Masters 2,SBD,F,Raw

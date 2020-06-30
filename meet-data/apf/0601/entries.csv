@@ -10,7 +10,7 @@ WeightClassKg,Age,BodyweightKg,Name,Division,Sex,Event,Equipment,Squat1Kg,Squat2
 110,33,108.86,Raymond Pierce,M_OEM_APF,M,B,Multi-ply,,,,,250,-272.5,-272.5,250,,,,,250,2
 110,42,105.91,Rodney Womack,M_OEM_APF,M,B,Multi-ply,,,,,192.5,-205,-205,192.5,,,,,192.5,3
 125,33,121.79,Greg Tillinghast,M_OEM_APF,M,B,Multi-ply,,,,,272.5,285,295,295,,,,,295,1
-125,44,112.45,Mike De Laval,M_OEM_APF,M,B,Multi-ply,,,,,-345,-345,-345,,,,,,,DQ
+125,44,112.45,Mike DeLaval,M_OEM_APF,M,B,Multi-ply,,,,,-345,-345,-345,,,,,,,DQ
 125,39,112.04,Patrick Parnell,M_OEM_APF,M,B,Multi-ply,,,,,-272.5,-272.5,-295,,,,,,,DQ
 125,28,115.48,Eric Wright,M_OEM_APF,M,B,Multi-ply,,,,,-300,-300,,,,,,,,DQ
 140,34,138.94,Tiny Meeker,M_OEM_APF,M,B,Multi-ply,,,,,-415,415,-440,415,,,,,415,1
@@ -78,7 +78,7 @@ WeightClassKg,Age,BodyweightKg,Name,Division,Sex,Event,Equipment,Squat1Kg,Squat2
 140,49,127.46,Mike McDaniel,M_OEM_APF,M,SBD,Multi-ply,382.5,-412.5,412.5,412.5,222.5,240,-250,240,272.5,-300,300,300,952.5,1
 140,35,128.82,Mike Askew,M_OEM_APF,M,SBD,Multi-ply,410,432.5,455,455,275,295,320,320,137.5,,,137.5,912.5,2
 140+,37,140.98,Fred Lopez,M_OEM_APF,M,SBD,Multi-ply,282.5,307.5,340,340,225,245,-255,245,272.5,295,-307.5,295,880,1
-60,16,58.01,Dustin San Miguel,M_TEM_2_APF,M,SBD,Multi-ply,125,150,-162.5,150,70,80,92.5,92.5,137.5,155,-170,155,397.5,1
+60,16,58.01,Dustin SanMiguel,M_TEM_2_APF,M,SBD,Multi-ply,125,150,-162.5,150,70,80,92.5,92.5,137.5,155,-170,155,397.5,1
 82.5,17,77.29,Brian Norris,M_TEM_2_APF,M,SBD,Multi-ply,122.5,155,-162.5,155,77.5,-92.5,-105,77.5,122.5,132.5,140,140,372.5,1
 90,17,88.9,Joe Sassie,M_TEM_2_APF,M,SBD,Multi-ply,222.5,240,-260,240,137.5,147.5,-167.5,147.5,205,215,-220,215,602.5,1
 110,16,104.01,Ross Condra,M_TEM_2_APF,M,SBD,Multi-ply,182.5,205,232.5,232.5,107.5,115,122.5,122.5,227.5,240,247.5,247.5,602.5,1

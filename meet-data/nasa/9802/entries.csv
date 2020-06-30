@@ -1,6 +1,6 @@
 WeightClassKg,Division,Sex,Place,Name,State,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment
 127,bpm5,M,DQ,Pete Lattanzi,TX,126.1,,,,,B,Raw
-127+,bpm5,M,1,Jack Griffin,TX,144.83,,160,,160,B,Raw
+143+,bpm5,M,1,Jack Griffin,TX,144.83,,160,,160,B,Raw
 103,bppure,M,1,Craig Bowen,TX,99.34,,172.5,,172.5,B,Raw
 103,bpsm,M,1,Craig Bowen,TX,99.34,,172.5,,172.5,B,Raw
 77.5,dlsm,M,1,Marc Frazier,TX,76.16,,,190,190,D,Raw
@@ -20,7 +20,6 @@ WeightClassKg,Division,Sex,Place,Name,State,BodyweightKg,Best3SquatKg,Best3Bench
 85,jr,M,2,Steven Deviney,TX,80.74,185,122.5,185,492.5,SBD,Single-ply
 93,jr,M,1,Clay Underwood,TX,90.95,205,142.5,197.5,545,SBD,Single-ply
 93,jr,M,DQ,Dan Kelinske,TX,85.96,-182.5,137.5,202.5,,SBD,Single-ply
-113.5,jr,M,1,Henry Thomason,TX,109.18,312.5,160,272.5,745,SBD,Single-ply
 113.5,jr,M,DQ,Cory Jones,TX,106.19,-182.5,160,227.5,,SBD,Single-ply
 77.5,m1,M,1,Mike Dobrowlski,TX,77.25,185,102.5,207.5,495,SBD,Single-ply
 103,m1,M,1,Larry Mistric,TX,102.24,307.5,190,277.5,775,SBD,Single-ply
@@ -92,7 +91,7 @@ WeightClassKg,Division,Sex,Place,Name,State,BodyweightKg,Best3SquatKg,Best3Bench
 127,nov,M,2,Lawrence Barnes,TX,121.61,,200,,200,B,Single-ply
 93,pure,M,1,Donovan Rascon,TX,92.62,,147.5,,147.5,B,Single-ply
 113.5,pure,M,1,Gregory McCoy,TX,112.49,,207.5,,207.5,B,Single-ply
-127+,pure,M,1,Siolo Tauaefa,TX,147.83,,245,,245,B,Single-ply
+143+,pure,M,1,Siolo Tauaefa,TX,147.83,,245,,245,B,Single-ply
 77.5,pn,M,1,Kenneth Hutchins,TX,75.66,,142.5,,142.5,B,Single-ply
 93,pn,M,1,Dale Means,TX,85.91,,147.5,,147.5,B,Single-ply
 113.5,sm1,M,1,Don Madden,TX,111.08,,170,,170,B,Single-ply
