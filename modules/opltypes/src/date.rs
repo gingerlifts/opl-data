@@ -198,21 +198,23 @@ impl Date {
         }
     }
 
-    // return the number of days since the hypothetical year 0
+    // return the number of days since Common Era started, aka 1 AD
     // this facilitates date math
-    pub fn days_since_0(&self) -> u32 {
+    pub fn days_since_ce(&self) -> u32 {
 
         let leap_year_factor: u32;
 
         // start with whole years, excluding extra days from leap years
-        let mut total_days: u32 = 365 * self.year();
+        // use self.year() - 1 because 0001-01-01 is 1 day, not 1 year + 1 day
+        let mut total_days: u32 = 365 * (self.year() - 1);
 
         // add extras from leap years, don't include the date's year
         // if the DD/MM is before 29/02
-        if (self.month() == 1) || (self.month() == 2 && self.day() < 29) {
-            leap_year_factor = self.year() - 1;
-        } else {  
+        // eg: for 1984-03-01 we get Feb 29, for 2000-01-26 we don't
+        if (self.month() > 2) || (self.month() == 2 && self.day() == 29) {
             leap_year_factor = self.year();
+        } else {
+            leap_year_factor = self.year() - 1;
         }
 
         // figure out how many leap year we've had
@@ -223,6 +225,7 @@ impl Date {
         // add one day for each leap_4 year, subtract one for each leap_100
         // year, add one back on for each leap_400 year
         total_days += leap_4_years - leap_100_years + leap_400_years;
+
 
         // add the days from the start of the year up to the date
         for cur_month in 1..13 {
@@ -261,7 +264,7 @@ impl std::ops::Sub for Date {
     type Output = i32;
 
     fn sub(self, other: Date) -> i32 {
-        self.days_since_0() as i32 - other.days_since_0() as i32
+        self.days_since_ce() as i32 - other.days_since_ce() as i32
     }
 }
         
@@ -439,4 +442,30 @@ mod test {
         let date = "3018-11-03".parse::<Date>().unwrap();
         assert!(birthdate.age_on(date).is_err());
     }
+
+    #[test]
+    fn test_days_since_ce() {
+
+        // 1 day
+        let date = "0001-01-01".parse::<Date>().unwrap();
+        assert_eq!(date.days_since_ce(), 1);
+
+        // 1 leap and 3 non-leap years, 366+(3*365) days
+        let date = "0004-12-31".parse::<Date>().unwrap();
+        assert_eq!(date.days_since_ce(), 366 + (3 * 365));
+
+        // 24 leap years ((100 / 4) - (100 / 100)) and 76 non-leap years
+        let date = "0100-12-31".parse::<Date>().unwrap();
+        assert_eq!(date.days_since_ce(), (24 * 366) + (76 * 365));
+
+        // 97 leap years ((400 / 4) - (400 / 100) + (400 / 400)) 
+        // and 303 non-leap years
+        let date = "0400-12-31".parse::<Date>().unwrap();
+        assert_eq!(date.days_since_ce(), (97 * 366) + (303 * 365));
+
+        // 3 non-leap years and a leap year but without passing Feb 29
+        let date = "0004-02-28".parse::<Date>().unwrap();
+        assert_eq!(date.days_since_ce(), (3 * 365) + 31 + 28);
+    } 
+        
 }
