@@ -442,11 +442,9 @@ fn main() -> Result<(), Box<dyn Error>> {
     for report in lifterentries_check_result.reports {
         let (errors, warnings) = report.count_messages();
         if errors > 0 {
-            //error_count.fetch_add(errors, Ordering::SeqCst);
             error_count += errors;
         }
         if warnings > 0 {
-            //warning_count.fetch_add(warnings, Ordering::SeqCst);
             warning_count += warnings;
         }
 
