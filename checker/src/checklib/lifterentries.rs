@@ -66,10 +66,8 @@ pub fn check_lifterentries(liftermap: &LifterMap, meetdata: &AllMeetData, lifter
 
 fn get_entry_meet_date(meetdata: &AllMeetData, entry: &Entry) -> Date {
 
-    match entry.index {
-        Some(ei) => meetdata.get_meet(ei).date,
-        None => Date::from_parts(1900, 1, 1),
-    }
+    // should be safe to panic if we don't have an EntryIndex at this point
+    meetdata.get_meet(entry.index.unwrap()).date
 }
 
 //check a bodyweight/time delta to see if it's sane.  Return a Result with how far from the limit
@@ -152,7 +150,8 @@ fn check_bw_delta(exempt_usernames: HashSet<String>, liftermap: &LifterMap, meet
             for entry in &lifter_entries_by_date {
 
                 //Ignore entries with no bodyweight / blank bodyweight
-                if entry.bodyweightkg == WeightKg::from_f32(0.0) {
+                //if entry.bodyweightkg == WeightKg::from_f32(0.0) {
+                if entry.bodyweightkg.is_zero() {
                     continue;
                 }
 
@@ -166,7 +165,8 @@ fn check_bw_delta(exempt_usernames: HashSet<String>, liftermap: &LifterMap, meet
                         let delta_days: i32 = i32::abs(entry_date - prev_entry_date);
 
                         // ignore if entries are from the same day or from our catchall date
-                        if delta_days > 0 && entry_date.year() > 1900 {
+                        //if delta_days > 0 && entry_date.year() > 1900 {q
+                        if delta_days > 0 {
                             // is this insane?  If so, by how far?
                             match check_individual_bw_delta(prev_entry, entry, delta_days) {
                                 Ok(_err) => (),
