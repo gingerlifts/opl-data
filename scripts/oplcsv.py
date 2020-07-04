@@ -91,3 +91,43 @@ class Csv:
         ''' Specifies UTF-8 codec. Necessary for Debian Python3. '''
         with codecs.open(filename, 'w', encoding="utf-8") as fd:
             self.write(fd)
+
+
+class CsvReadIter:
+
+    def __init__(self, filename=None, fd=None, dict_reader=False):
+        if filename and not fd:
+            self.fd = open(filename, 'r', encoding='utf-8')
+        elif fd:
+            self.fd = fd
+        else:
+            raise ValueError("Need at least filename or fd")
+
+        self.dict_reader = dict_reader
+
+        # call next() rather than .readline() so it works with any iterator that
+        # iterates over lines
+        self.fieldnames = next(self.fd).rstrip().split(',')
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        next_line = next(self.fd)
+
+        if next_line == '':
+            self.fd.close()
+            raise StopIteration
+
+        next_row = next_line.rstrip("\r\n").split(',')
+
+        if self.dict_reader:
+            return {self.fieldnames[i]: v for (i, v,) in enumerate(next_row)}
+
+        return next_row
+
+    def next(self):
+        return self.__next__()
+
+    def index(self, name):
+        return self.fieldnames.index(name)
