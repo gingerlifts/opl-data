@@ -139,7 +139,7 @@ fn check_bw_delta(exempt_usernames: HashSet<String>, liftermap: &LifterMap, meet
         {
 
             // sort the lifter's entries by meet date
-            let mut lifter_entries_by_date: Vec<&Entry> = Vec::new();
+            let mut lifter_entries_by_date: Vec<&Entry> = Vec::with_capacity(lifter_indices.len());
 
             for index in lifter_indices.iter() {
                     lifter_entries_by_date.push(meetdata.get_entry(*index));
