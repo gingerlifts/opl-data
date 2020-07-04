@@ -51,13 +51,15 @@ pub fn check_lifterentries(liftermap: &LifterMap, meetdata: &AllMeetData, lifter
     let mut ret_result = LifterEntriesCheckResult::default();
 
     let sex_err_result = check_sex_errors(liftermap, meetdata, lifterdata, meet_data_root.clone());
-    let jp_name_result = check_japanese_names(liftermap, meetdata, meet_data_root.clone());
-    let (bw_delta_usernames_result, bw_delta_exempt_usernames) = load_bw_delta_sanity_usernames(lifterdir);
-    let check_bw_delta_result = check_bw_delta(bw_delta_exempt_usernames, liftermap, meetdata, meet_data_root.clone());
-
     ret_result.append(sex_err_result);
+
+    let jp_name_result = check_japanese_names(liftermap, meetdata, meet_data_root.clone());
     ret_result.append(jp_name_result);
+
+    let (bw_delta_usernames_result, bw_delta_exempt_usernames) = load_bw_delta_sanity_usernames(lifterdir);
     ret_result.append(bw_delta_usernames_result);
+
+    let check_bw_delta_result = check_bw_delta(bw_delta_exempt_usernames, liftermap, meetdata, meet_data_root.clone());
     ret_result.append(check_bw_delta_result);
 
     ret_result
