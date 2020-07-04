@@ -46,7 +46,7 @@ pub struct LifterData {
 }
 
 /// Helper function to look for common whitespace errors.
-fn has_whitespace_errors(s: &str) -> bool {
+pub fn has_whitespace_errors(s: &str) -> bool {
     s.contains("  ") || s.starts_with(' ') || s.ends_with(' ')
 }
 
