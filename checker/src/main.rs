@@ -421,9 +421,11 @@ fn main() -> Result<(), Box<dyn Error>> {
     // These error counters don't need to be atomic at this point,
     // NOTE: mark internal_error_count mutable if it ever needs to be;
     // it isn't now, to shut the compiler up
-    let mut error_count: usize = 0;
-    let mut warning_count: usize = 0;
-    let internal_error_count: usize = 0;
+    let mut error_count = error_count.load(Ordering::SeqCst);
+    let mut warning_count = warning_count.load(Ordering::SeqCst);
+    let internal_error_count = internal_error_count.load(Ordering::SeqCst);
+
+
 
     // Check for username errors.
     // FIXME: This adds a whole second to the checker time.
