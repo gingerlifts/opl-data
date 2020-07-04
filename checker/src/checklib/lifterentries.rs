@@ -29,25 +29,18 @@ struct BwExemptionRow {
     pub name: String,
 }
 
-
+#[derive(Default)]
 pub struct LifterEntriesCheckResult {
     pub reports: Vec<Report>
 }
 
 impl LifterEntriesCheckResult {
 
-    pub fn new() -> LifterEntriesCheckResult {
- 
-       LifterEntriesCheckResult { reports: Vec::new() }
-    }
-
     // we can borrow other seeing as we're going to drain
     // its reports vector
-    pub fn push(&mut self, other: LifterEntriesCheckResult) {
+    pub fn append(&mut self, mut other: LifterEntriesCheckResult) {
 
-        for report in other.reports {
-            self.reports.push(report);
-        }
+        self.reports.append(&mut other.reports);
     }
 }
 
@@ -55,17 +48,17 @@ impl LifterEntriesCheckResult {
 // run all the lifterentries checks in order
 pub fn check_lifterentries(liftermap: &LifterMap, meetdata: &AllMeetData, lifterdata: &LifterDataMap, meet_data_root: PathBuf, lifterdir: &Path) -> LifterEntriesCheckResult {
  
-    let mut ret_result = LifterEntriesCheckResult::new();
+    let mut ret_result = LifterEntriesCheckResult::default();
 
     let sex_err_result = check_sex_errors(liftermap, meetdata, lifterdata, meet_data_root.clone());
     let jp_name_result = check_japanese_names(liftermap, meetdata, meet_data_root.clone());
     let (bw_delta_usernames_result, bw_delta_exempt_usernames) = load_bw_delta_sanity_usernames(lifterdir);
     let check_bw_delta_result = check_bw_delta(bw_delta_exempt_usernames, liftermap, meetdata, meet_data_root.clone());
 
-    ret_result.push(sex_err_result);
-    ret_result.push(jp_name_result);
-    ret_result.push(bw_delta_usernames_result);
-    ret_result.push(check_bw_delta_result);
+    ret_result.append(sex_err_result);
+    ret_result.append(jp_name_result);
+    ret_result.append(bw_delta_usernames_result);
+    ret_result.append(check_bw_delta_result);
 
     ret_result
 }
@@ -109,7 +102,7 @@ fn check_individual_bw_delta(first_entry: &Entry, second_entry: &Entry, delta_da
 // we can take usernames, they aren't needed after this
 fn check_bw_delta(exempt_usernames: HashSet<String>, liftermap: &LifterMap, meetdata: &AllMeetData, meet_data_root: PathBuf) -> LifterEntriesCheckResult {
     
-    let mut result = LifterEntriesCheckResult::new();
+    let mut result = LifterEntriesCheckResult::default();
     let mut lifter_worst_err_map: HashMap<&String, (WeightKg, WeightKg, i32, f32)> = HashMap::new();
 
     // limit the loop that generates Reports for the top n errors
@@ -252,7 +245,7 @@ fn load_bw_delta_sanity_usernames(lifterdir: &Path) -> (LifterEntriesCheckResult
 
     let mut exempt_usernames: HashSet<String> = HashSet::new();
     let mut report = Report::new(lifterdir.join("bw-exemptions.csv"));
-    let mut result: LifterEntriesCheckResult = LifterEntriesCheckResult::new();
+    let mut result: LifterEntriesCheckResult = LifterEntriesCheckResult::default();
 
 
     // We don't use the '?' suffix because we don't want to return a straight Result
