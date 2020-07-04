@@ -155,39 +155,35 @@ fn check_bw_delta(exempt_usernames: HashSet<String>, liftermap: &LifterMap, meet
                 }
 
                 // if we have a previous entry for this lifter, compare it to the current one
-                match prev {
-                    Some(prev_entry) => {
+                if let Some(prev_entry) = prev {
 
-                        let prev_entry_date: Date = get_entry_meet_date(meetdata, prev_entry);
-                        let entry_date: Date = get_entry_meet_date(meetdata, entry);
+                    let prev_entry_date: Date = get_entry_meet_date(meetdata, prev_entry);
+                    let entry_date: Date = get_entry_meet_date(meetdata, entry);
 
-                        let delta_days: i32 = i32::abs(entry_date - prev_entry_date);
+                    let delta_days: i32 = i32::abs(entry_date - prev_entry_date);
 
-                        // ignore if entries are from the same day or from our catchall date
-                        if delta_days > 0 {
-                            // is this insane?  If so, by how far?
-                            match check_individual_bw_delta(prev_entry, entry, delta_days) {
-                                Ok(_err) => (),
-                                Err(err) => {
+                    // ignore if entries are from the same day or from our catchall date
+                    if delta_days > 0 {
+                        // is this insane?  If so, by how far?
+                        match check_individual_bw_delta(prev_entry, entry, delta_days) {
+                            Ok(_err) => (),
+                            Err(err) => {
 
-                                    // if it's the lifter's worst so far, track it
-                                    match lifter_worst_err_map.get(name) {
-                                        Some(worst) => {
-                                            let (_prev_bw, _bw, _delta_days, worst_err) = *worst;
-                                            if err > worst_err {
-                                                lifter_worst_err_map.insert(name, (prev_entry.bodyweightkg, entry.bodyweightkg, delta_days, err));
-                                            }
-                                        }
-                                        None => {
+                                // if it's the lifter's worst so far, track it
+                                match lifter_worst_err_map.get(name) {
+                                    Some(worst) => {
+                                        let (_prev_bw, _bw, _delta_days, worst_err) = *worst;
+                                        if err > worst_err {
                                             lifter_worst_err_map.insert(name, (prev_entry.bodyweightkg, entry.bodyweightkg, delta_days, err));
                                         }
+                                    }
+                                    None => {
+                                        lifter_worst_err_map.insert(name, (prev_entry.bodyweightkg, entry.bodyweightkg, delta_days, err));
                                     }
                                 }
                             }
                         }
                     }
-                    // no previous entry, must be first entry, keep on truckin
-                    None => (),
                 }
                 prev = Some(entry);
             }
