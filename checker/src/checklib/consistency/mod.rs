@@ -1,6 +1,7 @@
 //! Checks for consistency errors across entries per lifter.
 
 use crate::{AllMeetData, Entry, LifterDataMap, LifterMap, Report};
+use opltypes::Date;
 
 mod bodyweight;
 use bodyweight::check_bodyweight_all;
@@ -16,6 +17,17 @@ pub enum ConsistencyResult {
     Consistent,
     Inconsistent,
     Skipped,
+}
+
+/// Helper for getting the date of an [Entry].
+pub fn get_date(meetdata: &AllMeetData, entry: &Entry) -> Date {
+    if let Some(date) = entry.entrydate {
+        date
+    } else {
+        meetdata
+            .get_meet(entry.index.expect("Unassigned EntryIndex"))
+            .date
+    }
 }
 
 /// Whether the lifter should be skipped for consistency checks.
