@@ -92,13 +92,39 @@ fn check_name_one(indices: &[EntryIndex], meetdata: &AllMeetData, report: &mut R
     }
 }
 
+/// Check name disambig consistency for one lifter 
+fn check_disambig_consistency_one(username: &String, usernames_sorted: &Vec<String>, username_i: u32, disambig_count: u32, report: &mut Report) {
+
+    if disambig_count > 1 {
+        // from username_i the next disambig_count usernames should be "usernameN"
+        for disambig_i in username_i..username_i + disambig_count {
+            //TODO
+        }
+    }
+
+}
+
 /// Checks Name consistency for all lifters.
+/// TODO - pass &lifterdatamap to check_name_all()
 pub fn check_name_all(
     liftermap: &LifterMap,
+    lifterdatamap: &LifterDataMap,
     meetdata: &AllMeetData,
     reports: &mut Vec<Report>,
 ) {
     let mut report = Report::new("[Name Consistency]".into());
+
+    let mut usernames_sorted: Vec<String> = liftermap.keys().collect();
+    usernames_sorted.sort_unstable_by_key(|k| k);
+
+    for (username_i, sorted_username) in usernames_sorted.enumerate() {
+        if let Some(lifterdata) = lifterdatamap.get(&sorted_username) {
+            if lifterdata.disambiguation_count > 1 {
+                check_disambig_consistency_one(&sorted_username, &usernames_sorted, username_i, disambig_count, &mut report);
+            }
+        };
+    }
+
 
     for lifter_indices in liftermap.values() {
         check_name_one(&lifter_indices, meetdata, &mut report);
