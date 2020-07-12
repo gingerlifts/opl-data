@@ -59,7 +59,7 @@ pub fn check(
     let mut reports = Vec::new();
 
     check_sex_all(liftermap, meetdata, lifterdata, &mut reports);
-    check_name_all(liftermap, meetdata, &mut reports);
+    check_name_all(liftermap, meetdata, lifterdata, &mut reports);
     check_bodyweight_all(liftermap, meetdata, lifterdata, &mut reports);
     check_duplicates_all(liftermap, meetdata, &mut reports);
 
