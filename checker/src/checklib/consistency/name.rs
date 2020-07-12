@@ -102,37 +102,59 @@ fn check_disambig_consistency_one(username: &str, usernames_sorted: &Vec<&str>, 
         let mut drift: usize = 0;
 
         // from username_i the next disambig_count usernames should be "usernameN"
-        for disambig_i in username_i..username_i + disambig_count as usize {
+        // if username_i is n, then the 1st variant is at n+1 and the last variant
+        // is at n+count+1
+        for disambig_i in username_i + 1..username_i + disambig_count + 1 as usize {
 
             let match_username = usernames_sorted[disambig_i];
-            let match_variant_res = match_username.split_at(username.len()).1.parse::<usize>();
 
+            // next username isn't based on the username we're disambiguating,
+            // even though it should be, so we've prematurely run out of variants
             if !match_username.starts_with(username) {
-                //TODO - fill this in with more detail, use drift to work out how much fewer
-                let msg = format!("{} should be disambiguated into {} variants, but there are fewer - already hit username {}", username, disambig_count, match_username);
+
+                //DEBUG
+                println!("username_i: {}, disambig_i: {}, drift: {}", username_i, disambig_i, drift);
+
+                // if we hit the next username n indices past username_i, then we had at most n-1
+                // variants, maybe less due to drift
+                let msg = format!("{} should be disambiguated into {} variants, but there are only {}", username, disambig_count, disambig_i - (username_i + drift) - 1);
                 report.error(msg);
                 break;
             }
+
+            // the .split_at() should be safe here now that we know match_username starts with
+            // username
+            let match_variant_res = match_username.split_at(username.len()).1.parse::<usize>();
+
             match match_variant_res {
                 Ok(match_variant_n) => {
+
+                    // we hit a variant whose number is higher than the number the base username is
+                    // configured to have.  Don't break yet as we might have more later, eg: if we 
+                    // hit #3 prematurely, #4 might still be there
                     if match_variant_n > disambig_count {
                         let msg = format!("{} should be disambiguated into {} variants, but variant #{} exists", username, disambig_count, match_variant_n);
                         report.error(msg);
                     }
                     else {
-                        // if the variant is higher than the loop index, we skipped >= 1.
+                        // if the variant is within bounds but higher than the loop index, we skipped >= 1.
                         // track how far we've drifted so that we don't keep flagging unnecessarily
                         // eg: for 1,2,4,5, only flag 3
-                        if match_variant_n > (disambig_i + drift) {
-                            let msg = format!("{} should be disambiguated into {} variants, but variant #{} appears to be missing", username, disambig_count, (disambig_i + drift));
+                        if match_variant_n > (disambig_i - username_i + drift) {
+                            let msg = format!("{} should be disambiguated into {} variants, but variant #{} appears to be missing", username, disambig_count, (disambig_i - username_i + drift));
                             report.error(msg);
-                            drift += (match_variant_n - disambig_i);
+                            drift += match_variant_n - (disambig_i - username_i);
                         }
                     }
                 }
                 Err(_) => {
-                    //TODO - fill this in with more detail, use drift to figure out how many fewer
-                    let msg = format!("{} should be disambiguated into {} variants, but there are fewer", username, disambig_count);
+                    // we didn't get a variant number even though the match 
+                    // username starts with the base username (eg: jsmith -> jsmithers) 
+                    
+                    //DEBUG
+                    println!("username_i: {}, disambig_i: {}, drift: {}", username_i, disambig_i, drift);
+                    
+                    let msg = format!("{} should be disambiguated into {} variants, but there are only {}", username, disambig_count, disambig_i - (username_i + drift) - 1);
                     report.error(msg);
                     break;
                 }
@@ -151,11 +173,9 @@ pub fn check_name_all(
 ) {
     let mut report = Report::new("[Name Consistency]".into());
 
-    //TODO - get usernames from entry indices instead
-    let mut usernames_sorted: Vec<&str> = lifterdatamap.keys().map(|u| u.as_str()).collect();  
-
-    //DEBUG
-    println!("{} keys in lifterdatamap", usernames_sorted.len());
+    //TODO - consider making these bytes initially so we can avoid .as_bytes() in the sort closure,
+    //then converting all back to str - if we even need to?
+    let mut usernames_sorted: Vec<&str> = liftermap.values().map(|i| meetdata.get_entry(i[0]).username.as_str()).collect();  
 
 
     let alpha_num_sort_closure = |a: &str, b: &str| -> Ordering {
@@ -171,9 +191,22 @@ pub fn check_name_all(
         let mut a_alpha: &str = "";
         let mut b_alpha: &str = "";
 
+        //numerical part can be no more than 9 digits to avoid overflows on 
+        //ea- usernames, this should be plenty of room for variants :)
+        let mut a_num_start_i = 0;
+        let mut b_num_start_i = 0;
+
+        if a.len() > 9 {
+            a_num_start_i = a.len() - 9;
+        }
+
+        if b.len() > 9 {
+            b_num_start_i = b.len() - 9;
+        }
+
         //work backward through the slice to extract any numerical portion
         //and therefore also the alphabetical portion
-        for a_i in (0..a.len()).rev() {
+        for a_i in (a_num_start_i..a.len()).rev() {
             if !char::from(a_bytes[a_i]).is_numeric() {
                 if a_i < a.len() - 1 {
                     let (a_alpha_part, a_num_part) = a.split_at(a_i + 1);
@@ -189,7 +222,7 @@ pub fn check_name_all(
             a_alpha = a;
         }
 
-        for b_i in (0..b.len()).rev() {
+        for b_i in (b_num_start_i..b.len()).rev() {
             if !char::from(b_bytes[b_i]).is_numeric() {
                 if b_i < b.len() - 1 {
                     let (b_alpha_part, b_num_part) = b.split_at(b_i + 1);
