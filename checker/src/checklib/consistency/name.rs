@@ -1,6 +1,8 @@
 //! Checks for consistency errors across entries per lifter.
 
-use crate::{AllMeetData, Entry, EntryIndex, LifterMap, Report};
+use std::cmp::Ordering;
+
+use crate::{AllMeetData, Entry, EntryIndex, LifterDataMap, LifterMap, Report};
 
 /// Checks that Name fields are consistent for this lifter.
 fn check_name_one(indices: &[EntryIndex], meetdata: &AllMeetData, report: &mut Report) {
@@ -92,13 +94,192 @@ fn check_name_one(indices: &[EntryIndex], meetdata: &AllMeetData, report: &mut R
     }
 }
 
+/// Check name disambig consistency for one lifter
+fn check_disambig_consistency_one(
+    username: &str,
+    usernames_sorted: &Vec<&str>,
+    username_i: usize,
+    disambig_count: usize,
+    report: &mut Report,
+) {
+    if disambig_count > 1 {
+        // if we skip a variant (eg: count is 7, but #3 is missing), track how
+        // far we have drifted past where we should be, so that we don't flag
+        // 4,5,6,7 as missing given that they won't be at the indices we expect
+        let mut drift: usize = 0;
+
+        let disambig_i_min = username_i + 1;
+        let disambig_i_max = username_i + disambig_count;
+
+        // from username_i the next disambig_count usernames should be "usernameN"
+        // if username_i is n, then the 1st variant is at n+1 and the last variant
+        // is at n+count+1
+        for disambig_i in disambig_i_min..disambig_i_max as usize {
+            let match_username = usernames_sorted[disambig_i];
+
+            // next username isn't based on the username we're disambiguating,
+            // even though it should be, so we've prematurely run out of variants
+            if !match_username.starts_with(username) {
+                let variants_seen_count = disambig_i - disambig_i_min;
+                let msg = format!(
+                    "{} should be disambiguated into {} variants, but there are only {}",
+                    username, disambig_count, variants_seen_count
+                );
+                report.error(msg);
+                break;
+            }
+
+            // the .split_at() should be safe here now that we know match_username starts
+            // with username
+            let match_variant_res =
+                match_username.split_at(username.len()).1.parse::<usize>();
+
+            match match_variant_res {
+                Ok(match_variant_n) => {
+                    // we hit a variant whose number is higher than the number the base
+                    // username is configured to have.  Don't break
+                    // yet as we might have more later, eg: if we
+                    // hit #3 prematurely, #4 might still be there
+                    if match_variant_n > disambig_count {
+                        let msg = format!("{} should be disambiguated into {} variants, but variant #{} exists", username, disambig_count, match_variant_n);
+                        report.error(msg);
+                    } else {
+                        let expected_variant_n = disambig_i - disambig_i_min + 1 + drift;
+
+                        // if the variant is within bounds but higher than implied by
+                        // the loop index, we skipped >= 1. Track how far we've
+                        // drifted so that we don't keep flagging unnecessarily
+                        // eg: for 1,2,4,5, only flag 3
+                        if match_variant_n > expected_variant_n {
+                            // if we skipped more than one, report on the range missing
+                            if match_variant_n - expected_variant_n > 1 {
+                                let msg = format!("{} should be disambiguated into {} variants, but variants #{}-#{} appear to be missing", username, disambig_count, expected_variant_n, match_variant_n - 1);
+                                report.error(msg);
+                            } else {
+                                let msg = format!("{} should be disambiguated into {} variants, but variant #{} appears to be missing", username, disambig_count, expected_variant_n);
+                                report.error(msg);
+                            }
+
+                            drift += match_variant_n - expected_variant_n;
+                        }
+                    }
+                }
+                Err(_) => {
+                    // we didn't get a variant number even though the match
+                    // username starts with the base username (eg: jsmith -> jsmithers)
+                    let variants_seen_count = disambig_i - disambig_i_min;
+                    let msg = format!("{} should be disambiguated into {} variants, but there are only {}", username, disambig_count, variants_seen_count);
+                    report.error(msg);
+                    break;
+                }
+            }
+        }
+    }
+}
+
 /// Checks Name consistency for all lifters.
 pub fn check_name_all(
     liftermap: &LifterMap,
     meetdata: &AllMeetData,
+    lifterdatamap: &LifterDataMap,
     reports: &mut Vec<Report>,
 ) {
     let mut report = Report::new("[Name Consistency]".into());
+
+    // use strs so we can slice them up in the sort
+    let mut usernames_sorted: Vec<&str> = liftermap
+        .values()
+        .map(|i| meetdata.get_entry(i[0]).username.as_str())
+        .collect();
+
+    let alpha_num_sort_closure = |a: &str, b: &str| -> Ordering {
+        // we need these as bytes to index, since usernames are ASCII this
+        // is ok
+        let a_bytes = a.as_bytes();
+        let b_bytes = b.as_bytes();
+        let mut a_num: u32 = 0;
+        let mut b_num: u32 = 0;
+        let mut a_found_num: bool = false;
+        let mut b_found_num: bool = false;
+        let mut a_alpha: &str = "";
+        let mut b_alpha: &str = "";
+
+        // numerical part can be no more than 9 digits to avoid overflows on
+        // ea- usernames, this should be plenty of room for variants :)
+        let mut a_num_start_i = 0;
+        let mut b_num_start_i = 0;
+
+        if a.len() > 9 {
+            a_num_start_i = a.len() - 9;
+        }
+
+        if b.len() > 9 {
+            b_num_start_i = b.len() - 9;
+        }
+
+        // work backward through the slice to extract any numerical portion
+        // and therefore also the alphabetical portion
+        for a_i in (a_num_start_i..a.len()).rev() {
+            if !char::from(a_bytes[a_i]).is_numeric() {
+                // if we found the first non-numerical char not at the end,
+                // then there is an alphabetical part and a numerical part,
+                // otherwise, we only have an alphabetical part.
+                if a_i < a.len() - 1 {
+                    let (a_alpha_part, a_num_part) = a.split_at(a_i + 1);
+                    a_found_num = true;
+                    a_num = a_num_part.parse::<u32>().unwrap();
+                    a_alpha = a_alpha_part;
+                }
+                break;
+            }
+        }
+
+        if !a_found_num {
+            a_alpha = a;
+        }
+
+        for b_i in (b_num_start_i..b.len()).rev() {
+            if !char::from(b_bytes[b_i]).is_numeric() {
+                if b_i < b.len() - 1 {
+                    let (b_alpha_part, b_num_part) = b.split_at(b_i + 1);
+                    b_found_num = true;
+                    b_num = b_num_part.parse::<u32>().unwrap();
+                    b_alpha = b_alpha_part;
+                }
+                break;
+            }
+        }
+
+        if !b_found_num {
+            b_alpha = b;
+        }
+
+        let alpha_cmp: Ordering = a_alpha.cmp(&b_alpha);
+
+        // if the alphabetical portions are equal, compare the numerical
+        // values of the numerical portions, this way joebloggs11 > joebloggs2
+        if alpha_cmp == Ordering::Equal {
+            return a_num.cmp(&b_num);
+        }
+
+        alpha_cmp
+    };
+
+    usernames_sorted.sort_unstable_by(|a, b| alpha_num_sort_closure(a, b));
+
+    for (username_i, sorted_username) in usernames_sorted.iter().enumerate() {
+        if let Some(lifterdata) = lifterdatamap.get(*sorted_username) {
+            if lifterdata.disambiguation_count > 1 {
+                check_disambig_consistency_one(
+                    sorted_username,
+                    &usernames_sorted,
+                    username_i,
+                    lifterdata.disambiguation_count as usize,
+                    &mut report,
+                );
+            }
+        };
+    }
 
     for lifter_indices in liftermap.values() {
         check_name_one(&lifter_indices, meetdata, &mut report);
