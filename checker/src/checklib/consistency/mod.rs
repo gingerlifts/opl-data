@@ -12,6 +12,7 @@ use sex::check_sex_all;
 mod duplicates;
 use duplicates::check_duplicates_all;
 
+
 /// Return type for consistency check functions.
 pub enum ConsistencyResult {
     Consistent,
