@@ -208,7 +208,7 @@ pub fn load_exemptions(report: &mut Report, map: &mut LifterDataMap) -> Result<(
 
     // mutate the LifterDataMap setting exemptions flags
 
-    for username in exemptions_config.sex.usernames.iter() {
+    for username in exemptions_config.sex.usernames.into_iter() {
         match map.get_mut(&username) {
             Some(data) => {
                 data.exempt_sex = true;
@@ -221,7 +221,7 @@ pub fn load_exemptions(report: &mut Report, map: &mut LifterDataMap) -> Result<(
         }
     }
 
-    for username in exemptions_config.bodyweight.usernames.iter() {
+    for username in exemptions_config.bodyweight.usernames.into_iter() {
         match map.get_mut(&username) {
             Some(data) => {
                 data.exempt_bodyweight = true;
