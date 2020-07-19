@@ -18,6 +18,7 @@ use name::check_name_all;
 mod sex;
 use sex::check_sex_all;
 
+
 /// Return type for consistency check functions.
 pub enum ConsistencyResult {
     Consistent,
