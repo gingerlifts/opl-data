@@ -2,13 +2,11 @@
 
 extern crate checker; // The "src/lib.rs" module.
 extern crate colored; // Allows outputting pretty terminal colors.
-extern crate disambiguator; // For grouping lifter data based on various attributes
 extern crate opltypes; // Used for determining MeetPath for CONFIG.toml files.
 extern crate rayon; // A work-stealing auto-parallelism library.
 extern crate walkdir; // Allows walking through a directory, looking at files.
 
-use checker::{compiler, AllMeetData, SingleMeetData};
-//use disambiguator::*;
+use checker::{compiler, AllMeetData, SingleMeetData, disambiguator};
 use colored::*;
 use opltypes::Username;
 use rayon::prelude::*;
@@ -267,7 +265,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     let args = Args {
         help: args.contains(["-h", "--help"]),
         debug_age_username: args.opt_value_from_str("--age")?,
-        debug_age_group_username: args.opt_value_from_str("--age")?,
+        debug_age_group_username: args.opt_value_from_str("--agegroup")?,
         debug_country_username: args.opt_value_from_str("--country")?,
         debug_timing: args.contains("--timing"),
         compile: args.contains(["-c", "--compile"]),
@@ -484,7 +482,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         // Find age groupings.
         if let Some(u) = args.debug_age_group_username {
             let u = Username::from_name(&u).unwrap();
-            disambiguator::group_age_group_debug_for(&mut meetdata, &liftermap, &u);
+            disambiguator::group_age::group_age_debug_for(&mut meetdata, &liftermap, &u);
             process::exit(0); // TODO: Complain if someone passes --compile.
         }
 

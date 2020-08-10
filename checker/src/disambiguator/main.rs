@@ -1,4 +1,3 @@
-//use checker::compiler::*;
 use opltypes::*;
 
 

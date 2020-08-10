@@ -1,11 +1,12 @@
 //! Checks CSV data files for validity.
 
-// The algorithm described in https://iopscience.iop.org/article/10.0088/0026-1394/44/3/005 
+// The algorithm described in https://www.researchgate.net/publication/228967818_The_evaluation_of_key_comparison_data_Determining_the_largest_consistent_subset
 // is used for grouping.
 
-//use checker::compiler::*;
-
 use opltypes::*;
+
+use crate::{AllMeetData, EntryIndex, LifterMap};
+
 
 extern crate itertools;
 extern crate itertools_num;
@@ -28,7 +29,7 @@ fn calc_error(bd_range1: & BirthDateRange, x: f32) -> f32{
 }
 
 
-fn bd_range_vec_is_consistent(bd_range_vec: & Vec<& BirthDateRange>) -> bool{
+fn bd_range_vec_is_consistent(bd_range_vec: & Vec<BirthDateRange>) -> bool{
     let mut bdr = BirthDateRange::default();
     for curr_range in bd_range_vec {
         if curr_range.max < bdr.min{
@@ -50,7 +51,7 @@ fn bd_range_vec_is_consistent(bd_range_vec: & Vec<& BirthDateRange>) -> bool{
 }
 
 // Finds the distance of a point from a vector of birthdate ranges and returns them in sorted order
-fn get_sorted_errors(x: f32, bd_range_vec: & Vec<& BirthDateRange>) -> Vec<(usize,f32)>{
+fn get_sorted_errors(x: f32, bd_range_vec: & Vec<BirthDateRange>) -> Vec<(usize,f32)>{
 
     let mut ii = 0;
     let mut errors :Vec<(usize,f32)> = bd_range_vec.into_iter()
@@ -60,7 +61,7 @@ fn get_sorted_errors(x: f32, bd_range_vec: & Vec<& BirthDateRange>) -> Vec<(usiz
 }
 
 //Check a vector of sample points to find the largest LCS possible (if any) at one of these points
-fn find_lcs_numeric<'a>(bd_range_vec: &Vec<&'a BirthDateRange>, test_vals: &Vec<f32>) -> Option<Vec<&'a BirthDateRange>>{
+fn find_lcs_numeric(bd_range_vec: &Vec<BirthDateRange>, test_vals: &Vec<f32>) -> Option<Vec<BirthDateRange>>{
     let mut best_errors = Vec::<(usize,f32)>::new();
     let mut _wm = 0.0;
 
@@ -90,7 +91,7 @@ fn find_lcs_numeric<'a>(bd_range_vec: &Vec<&'a BirthDateRange>, test_vals: &Vec<
 }
 
 //Find the points that could possibly yield a minima
-fn get_test_points(bd_range_vec: &Vec<& BirthDateRange>) ->  Vec<f32> {
+fn get_test_points(bd_range_vec: &Vec<BirthDateRange>) ->  Vec<f32> {
 
     //Calculate the points where the ordering of the error curves changes.
     let mut test_points = Vec::new();
@@ -98,8 +99,8 @@ fn get_test_points(bd_range_vec: &Vec<& BirthDateRange>) ->  Vec<f32> {
     //breakpoints occur when we are greater than the end of one range and smaller than the start of a second
     //Start by obtaining a list of sorted range mins and maxes
 
-    let mut range_mins: Vec<f32>= bd_range_vec.iter().map(|a| a.min.count_days() as f32).collect();
-    let mut range_maxs: Vec<f32>= bd_range_vec.iter().map(|a| a.max.count_days() as f32).collect();
+    let range_mins: Vec<f32>= bd_range_vec.iter().map(|a| a.min.count_days() as f32).collect();
+    let range_maxs: Vec<f32>= bd_range_vec.iter().map(|a| a.max.count_days() as f32).collect();
 
     let mut sorted_ranges = Vec::new();
     for bd_range in bd_range_vec{
@@ -136,7 +137,7 @@ fn get_test_points(bd_range_vec: &Vec<& BirthDateRange>) ->  Vec<f32> {
 
 // Version of the LCS algorithm that uses where the error curves intersect to potentially reduce
 // the numer of calls
-fn find_lcs_algebraic<'a>(bd_range_vec: &Vec<&'a BirthDateRange>) -> Option<Vec<&'a BirthDateRange>>{
+fn find_lcs_algebraic(bd_range_vec: &Vec<BirthDateRange>) -> Option<Vec<BirthDateRange>>{
     let mut best_errors = Vec::<(usize,f32)>::new();
     let mut _wm = 0.0;
 
@@ -171,7 +172,7 @@ fn find_lcs_algebraic<'a>(bd_range_vec: &Vec<&'a BirthDateRange>) -> Option<Vec<
 
 //Find the least consistent subset (if any) of a BirthDateRange
 //I don't know what I'm doing with this lifetime parameter, compiler told me to.
-fn find_lcs<'a>(bd_range_vec: &Vec<&'a BirthDateRange>) -> Option<Vec<&'a BirthDateRange>>{
+fn find_lcs(bd_range_vec: &Vec<BirthDateRange>) -> Option<Vec<BirthDateRange>>{
 
     let mut lcs = Vec::new();
     if bd_range_vec.len() == 0{
@@ -183,7 +184,7 @@ fn find_lcs<'a>(bd_range_vec: &Vec<&'a BirthDateRange>) -> Option<Vec<&'a BirthD
         return Some(lcs);
     }
     //LCS of a consistent vector is the vector
-    else if bd_range_vec_is_consistent(bd_range_vec){
+    else if bd_range_vec_is_consistent(&bd_range_vec){
         return Some(bd_range_vec.to_vec());
     }
 
@@ -204,6 +205,7 @@ fn find_lcs<'a>(bd_range_vec: &Vec<&'a BirthDateRange>) -> Option<Vec<&'a BirthD
     }
 
     // Number of sample dates, need logic to decide when to use the approximate vs algebraic methods
+    //this is wrong, FIXME
     let M = ((x_max-x_min)/(min_gap+1)+1) as usize;
 
     let numeric_ops = (M as f32)*(bd_range_vec.len() as f32)*(bd_range_vec.len() as f32).log(2.0);
@@ -212,6 +214,7 @@ fn find_lcs<'a>(bd_range_vec: &Vec<&'a BirthDateRange>) -> Option<Vec<&'a BirthD
 
 
     if numeric_ops < algebraic_ops{
+        // This needs to be replaced with a union of ranges based on the BirthDateRange data
         let test_vals: Vec<f32>  = linspace::<f32>(x_min.count_days() as f32,x_max.count_days()  as f32,M).map(|x| x).collect();
         find_lcs_numeric(bd_range_vec,&test_vals)
     }
@@ -222,12 +225,12 @@ fn find_lcs<'a>(bd_range_vec: &Vec<&'a BirthDateRange>) -> Option<Vec<&'a BirthD
 }
 
 // Group data by consistent subsets of age data
-pub fn group_by_age(bd_range_vec: & [BirthDateRange], _acceptable_delta: u32) ->  Vec<Vec<&BirthDateRange> >{
+pub fn group_by_age(bd_range_vec: &Vec<BirthDateRange>, _acceptable_delta: u32) ->  Vec<Vec<BirthDateRange> >{
     let mut all_groups_vec = Vec::new();
-    let mut ungrouped_vec: Vec<& BirthDateRange> = Vec::new();
+    let mut ungrouped_vec: Vec<BirthDateRange> = Vec::new();
 
     for bd_range in bd_range_vec{
-        ungrouped_vec.push(bd_range);
+        ungrouped_vec.push(*bd_range);
     }
 
     let mut lcs = find_lcs(&ungrouped_vec);
@@ -253,7 +256,7 @@ pub fn group_by_age(bd_range_vec: & [BirthDateRange], _acceptable_delta: u32) ->
 }
 
 //Function for printing grouped lifter data
-pub fn print_groups(initial_group: &[BirthDateRange], bd_groups: Vec<Vec<&BirthDateRange> >){
+pub fn print_groups(initial_group: &Vec<BirthDateRange>, bd_groups: &Vec<Vec<BirthDateRange> >){
     println!("Input is:");
     for curr_range in initial_group {
         print!("({},{}) ",curr_range.min,curr_range.max)
@@ -270,5 +273,87 @@ pub fn print_groups(initial_group: &[BirthDateRange], bd_groups: Vec<Vec<&BirthD
         }
         println!("");
         ii = ii+1;
+    }
+}
+
+
+
+/// Age groupings for entries under a username.
+fn group_lifter_data(
+    meetdata: &mut AllMeetData,
+    indices: &[EntryIndex],
+    debug: bool,
+){
+    
+    let mut bd_ranges = Vec::new();
+
+    // Convert the lifterdata to a list of BirthDateRange's
+    for &index in indices {
+        let mut range = BirthDateRange::default();
+
+        // Extract the MeetDate first. Because of the borrow checker, the Meet and Entry
+        // structs cannot be referenced simultaneously.
+        let mdate: Date = meetdata.get_meet(index).date;
+
+        // Get the MeetPath for more helpful debugging output.
+        // Cloning is OK since this is only for a few entries for one lifter.
+        let path: Option<String> = if debug {
+            Some(meetdata.get_meet(index).path.clone())
+        } else {
+            None
+        };
+
+        let entry = meetdata.get_entry(index);
+
+        // Narrow by BirthDate.
+        if let Some(birthdate) = entry.birthdate {
+            if range.narrow_by_birthdate(birthdate) == NarrowResult::Conflict {
+            //    trace_conflict(debug, &range, mdate, "BirthDate", &birthdate, &path);
+            }
+        }
+        // Narrow by BirthYearRange.
+        if !entry.birthyearrange.is_default() {
+            let byr = entry.birthyearrange;
+            if range.narrow_by_birthyear_range(byr) == NarrowResult::Conflict {
+          //      trace_conflict(debug, &range, mdate, "BirthYearRange", &byr, &path);
+            }
+        }
+
+        // Narrow by Age.
+        if entry.age != Age::None {
+            if range.narrow_by_age(entry.age, mdate) == NarrowResult::Conflict {
+         //       trace_conflict(debug, &range, mdate, "Age", &entry.age, &path);
+            }
+        }
+
+        // Narrow by AgeRange.
+        if entry.agerange.min.is_some() || entry.agerange.max.is_some() {
+            if range.narrow_by_range(entry.agerange.min, entry.agerange.max, mdate)
+                == NarrowResult::Conflict
+            {
+             //   trace_conflict(debug, &range, mdate, "AgeRange", &entry.agerange, &path);
+            }
+        }
+        bd_ranges.push(range);
+    }
+    let bd_groups = group_by_age(&bd_ranges,0);
+
+    if debug{
+        print_groups(&bd_ranges,&bd_groups);
+    }
+  //  bd_groups
+}
+
+
+
+/// Public-facing entry point for debugging a single lifter's interpolation.
+pub fn group_age_debug_for(
+    meetdata: &mut AllMeetData,
+    liftermap: &LifterMap,
+    username: &Username,
+) {
+    match liftermap.get(username) {
+        Some(indices) => group_lifter_data(meetdata, indices, true),
+        None => println!("Username '{}' not found", username),
     }
 }
