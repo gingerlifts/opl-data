@@ -9,6 +9,7 @@ license = "AGPL-3.0-or-later"
 [dependencies]
 coefficients = { version = "0.1", path = "../modules/coefficients/" }
 opltypes = { version = "0.1", path = "../modules/opltypes/" }
+disambiguator = { version = "0.1", path = "../disambiguator/" }
 chrono = "0.4"
 colored = "2.0"
 csv = "1.1"

@@ -9,6 +9,9 @@ use std::num;
 use std::ops;
 use std::str::FromStr;
 
+/// Remove this
+use chrono::{NaiveDate, Datelike};
+
 use crate::Age;
 
 /// Our data uses imprecise dates in the "YYYY-MM-DD" format,
@@ -52,6 +55,18 @@ impl Date {
     /// ```
     #[inline]
     pub const fn from_parts(year: u32, month: u32, day: u32) -> Date {
+        Date(year << Self::YEAR_SHIFT | month << Self::MONTH_SHIFT | day << Self::DAY_SHIFT)
+    }
+
+    /// Creates a Date object from days since `0001-01-01`
+    /// Need to do this properly, being lazy for now
+    pub fn from_days(days: u32) -> Date {
+
+        let d = NaiveDate::from_num_days_from_ce(days as i32);
+
+        let year = d.year() as u32;
+        let month = d.month() as u32;
+        let day = d.day() as u32;
         Date(year << Self::YEAR_SHIFT | month << Self::MONTH_SHIFT | day << Self::DAY_SHIFT)
     }
 

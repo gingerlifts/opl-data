@@ -2,6 +2,7 @@
 members = [
     "api",
     "checker",
+    "disambiguator",
     "modules/coefficients",
     "modules/db",
     "modules/langpack",
