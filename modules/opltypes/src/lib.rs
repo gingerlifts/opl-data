@@ -31,9 +31,6 @@ pub use self::birthyearclass::BirthYearClass;
 mod birthyearrange;
 pub use self::birthyearrange::BirthYearRange;
 
-mod birthdaterange;
-pub use self::birthdaterange::{BirthDateRange, NarrowResult};
-
 mod country;
 pub use self::country::Country;
 
