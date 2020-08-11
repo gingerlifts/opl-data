@@ -35,7 +35,7 @@ fn trace_integrated<T>(
 
 /// Helper function for debug-mode printing to keep the code legible.
 #[inline]
-fn trace_conflict<T>(
+pub fn trace_conflict<T>(
     debug: bool,
     range: &BirthDateRange,
     meetdate: Date,
