@@ -6,7 +6,7 @@ extern crate opltypes; // Used for determining MeetPath for CONFIG.toml files.
 extern crate rayon; // A work-stealing auto-parallelism library.
 extern crate walkdir; // Allows walking through a directory, looking at files.
 
-use checker::{compiler, AllMeetData, SingleMeetData, disambiguator};
+use checker::{compiler, disambiguator, AllMeetData, SingleMeetData};
 use colored::*;
 use opltypes::Username;
 use rayon::prelude::*;
@@ -307,8 +307,8 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     // Validate arguments.
     let is_compiling: bool = args.compile || args.compile_onefile;
-    let is_debugging: bool =
-        args.debug_age_username.is_some() || args.debug_country_username.is_some()
+    let is_debugging: bool = args.debug_age_username.is_some()
+        || args.debug_country_username.is_some()
         || args.debug_age_group_username.is_some();
     let is_partial: bool = !search_root.ends_with("meet-data");
 
