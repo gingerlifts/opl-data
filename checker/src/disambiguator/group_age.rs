@@ -1,6 +1,6 @@
 //! Checks CSV data files for validity.
 
-// The algorithm described in https://www.researchgate.net/publication/228967818_The_evaluation_of_key_comparison_data_Determining_the_largest_consistent_subset
+// The algorithm described in https://iopscience.iop.org/article/10.1088/0026-1394/44/3/005/meta
 // is used for grouping.
 
 use opltypes::*;
