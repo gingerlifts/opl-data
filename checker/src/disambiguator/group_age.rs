@@ -8,6 +8,8 @@ use opltypes::*;
 use crate::compiler::interpolate_age::trace_conflict;
 use crate::compiler::interpolate_age::BirthDateRange;
 use crate::compiler::interpolate_age::NarrowResult;
+use crate::compiler::interpolate_age::BDR_DEFAULT_MAX;
+use crate::compiler::interpolate_age::BDR_DEFAULT_MIN;
 use crate::{AllMeetData, EntryIndex, LifterMap};
 
 extern crate itertools;
@@ -104,6 +106,13 @@ fn find_lcs_numeric(
 }
 
 // Find the points that could possibly yield a minima
+// This implements the test point algorithm described in the paper mentioned in
+// the document header with some key changes. BirthDate data is a range, instead
+// of a defined point and so the error metric is defined piecewise with E_k(x)=0
+// when x is inside the range of k. Turning points occur in the regions
+// between the maximum of one region and the minimum of the next adjacent
+// region. The points that must be sampled to find the LCS are therefore the
+// midpoints of these regions and the boundary points of the regions.
 fn get_test_points(subset_vec: &[usize], bd_range_vec: &[BirthDateRange]) -> Vec<f32> {
     // Calculate the points where the ordering of the error curves changes.
     let mut test_points = Vec::new();
@@ -245,9 +254,21 @@ pub fn group_by_age(
 ) -> Vec<Vec<usize>> {
     let mut all_groups_vec = Vec::new();
     let mut ungrouped_vec = Vec::new();
+    let mut blank_vec = Vec::new();
 
     for ii in 0..bd_range_vec.len() {
-        ungrouped_vec.push(ii as usize);
+        // If this is a blank range bin it seperately
+        if (bd_range_vec[ii].min == BDR_DEFAULT_MIN
+            && bd_range_vec[ii].max == BDR_DEFAULT_MAX)
+        {
+            blank_vec.push(ii as usize);
+        } else {
+            ungrouped_vec.push(ii as usize);
+        }
+    }
+
+    if !blank_vec.is_empty() {
+        all_groups_vec.push(blank_vec);
     }
 
     let mut lcs = find_lcs(&ungrouped_vec, &bd_range_vec);
@@ -320,9 +341,16 @@ fn group_lifter_data(meetdata: &mut AllMeetData, indices: &[EntryIndex], debug: 
                 trace_conflict(debug, &range, mdate, "BirthDate", &birthdate, &path);
             }
         }
+
         // Narrow by BirthYearRange.
-        if !entry.birthyearrange.is_default() {
+        // Check that this is an actual BirthYearRange
+        // This is hacky and gross, fix this
+        if !entry.birthyearrange.is_default()
+            && !(entry.birthyearrange.max_year as u32 == mdate.year()
+                && entry.birthyearrange.min_year < 1800)
+        {
             let byr = entry.birthyearrange;
+
             if range.narrow_by_birthyear_range(byr) == NarrowResult::Conflict {
                 trace_conflict(debug, &range, mdate, "BirthYearRange", &byr, &path);
             }
@@ -343,6 +371,7 @@ fn group_lifter_data(meetdata: &mut AllMeetData, indices: &[EntryIndex], debug: 
                 trace_conflict(debug, &range, mdate, "AgeRange", &entry.agerange, &path);
             }
         }
+
         bd_ranges.push(range);
         meet_dates.push(mdate);
     }
