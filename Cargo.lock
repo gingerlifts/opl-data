@@ -259,6 +259,8 @@ dependencies = [
  "coefficients",
  "colored",
  "csv",
+ "itertools",
+ "itertools-num",
  "opltypes",
  "pico-args",
  "rayon",
@@ -747,6 +749,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "itertools-num"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a872a22f9e6f7521ca557660adb96dd830e54f0f490fa115bb55dd69d38b27e7"
+dependencies = [
+ "num-traits",
+]
+
+[[package]]
 name = "itoa"
 version = "0.4.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1055,6 +1066,7 @@ version = "0.1.0"
 dependencies = [
  "arrayvec",
  "ascii",
+ "chrono",
  "serde",
  "serde_derive",
  "serde_json",
