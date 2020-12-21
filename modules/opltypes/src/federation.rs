@@ -647,6 +647,14 @@ pub enum Federation {
     #[strum(to_string = "Malaysia-UA", serialize = "malaysia-ua")]
     MalaysiaUA,
 
+    /// Malta Drug Free Powerlifting Association.
+    #[strum(to_string = "MDFPA", serialize = "mdfpa")]
+    MDFPA,
+
+    /// Moldova Drug Free Powerlifting Federation.
+    #[strum(to_string = "MDFPF", serialize = "mdfpf")]
+    MDFPF,
+
     /// Mississippi High School Athletic Association.
     #[strum(to_string = "MHSAA", serialize = "mhsaa")]
     MHSAA,
@@ -834,6 +842,10 @@ pub enum Federation {
     /// Raw United Federation.
     #[strum(to_string = "RAWU", serialize = "rawu")]
     RAWU,
+
+    /// Russian Drug Free Powerlifting Federation.
+    #[strum(to_string = "RDFPF", serialize = "rdfpf")]
+    RDFPF,
 
     /// Rhino Powerlifting Club, South African GPC Affiliate.
     #[strum(to_string = "RhinoPC", serialize = "rhinopc")]
@@ -1550,6 +1562,8 @@ impl Federation {
             Federation::LMP => false,
             Federation::LPF => FULLY_TESTED,
             Federation::MalaysiaUA => false,
+            Federation::MDFPA => FULLY_TESTED,
+            Federation::MDFPF => FULLY_TESTED,
             Federation::MHSAA => false,
             Federation::MHSPLA => false,
             Federation::MM => false,
@@ -1602,6 +1616,7 @@ impl Federation {
             Federation::RawPower => false,
             Federation::RAWUKR => FULLY_TESTED,
             Federation::RAWU => false,
+            Federation::RDFPF => FULLY_TESTED,
             Federation::RhinoPC => false,
             Federation::RPS => false,
             Federation::RPU => false,
@@ -1877,6 +1892,8 @@ impl Federation {
             Federation::LPF => Some(Country::Latvia),
             Federation::MalaysiaUA => Some(Country::Malaysia),
             Federation::MHSAA => Some(Country::USA),
+            Federation::MDFPA => Some(Country::Malta),
+            Federation::MDFPF => Some(Country::Moldova),
             Federation::MHSPLA => Some(Country::USA),
             Federation::MM => Some(Country::USA),
             Federation::MPA => Some(Country::Malaysia),
@@ -1921,6 +1938,7 @@ impl Federation {
             Federation::RawPower => Some(Country::Finland),
             Federation::RAWUKR => Some(Country::Ukraine),
             Federation::RAWU => Some(Country::USA),
+            Federation::RDFPF => Some(Country::Russia),
             Federation::RhinoPC => Some(Country::SouthAfrica),
             Federation::RPS => Some(Country::USA),
             Federation::RPU => Some(Country::Russia),
@@ -2229,6 +2247,8 @@ impl Federation {
             Federation::LMP => Some(Federation::IPL),
             Federation::LPF => Some(Federation::IPF),
             Federation::MalaysiaUA => None,
+            Federation::MDFPA => Some(Federation::WDFPF),
+            Federation::MDFPF => Some(Federation::WDFPF),
             Federation::MHSAA => None,
             Federation::MHSPLA => None,
             Federation::MM => None,
@@ -2288,6 +2308,7 @@ impl Federation {
             Federation::RawPower => None,
             Federation::RAWUKR => None,
             Federation::RAWU => None,
+            Federation::RDFPF => Some(Federation::WDFPF),
             Federation::RhinoPC => Some(Federation::GPC),
             Federation::RPS => None,
             Federation::RPU => None,
@@ -2649,6 +2670,8 @@ impl Federation {
             Federation::LMP => Federation::ipl_rules_on(date),
             Federation::LPF => Federation::ipf_rules_on(date),
             Federation::MalaysiaUA => PointsSystem::Wilks,
+            Federation::MDFPA => PointsSystem::SchwartzMalone,
+            Federation::MDFPF => PointsSystem::SchwartzMalone,
             Federation::MHSAA => PointsSystem::Wilks,
             Federation::MHSPLA => PointsSystem::Wilks,
             Federation::MM => PointsSystem::Wilks,
@@ -2702,6 +2725,7 @@ impl Federation {
             Federation::RawPower => PointsSystem::Wilks,
             Federation::RAWUKR => PointsSystem::Wilks,
             Federation::RAWU => PointsSystem::Wilks,
+            Federation::RDFPF => PointsSystem::SchwartzMalone,
             Federation::RhinoPC => PointsSystem::Glossbrenner,
             Federation::RPS => PointsSystem::Wilks,
             Federation::RPU => PointsSystem::Wilks,
