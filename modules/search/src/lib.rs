@@ -2,11 +2,11 @@
 
 #[macro_use]
 extern crate tantivy;
+use tantivy::collector::TopDocs;
 use tantivy::query::QueryParser;
 use tantivy::schema::*;
 use tantivy::Index;
 use tantivy::ReloadPolicy;
-use tantivy::{collector::TopDocs, IndexReader, Opstamp};
 use tempfile::TempDir;
 
 use opldb::query::direct::RankingsQuery;
@@ -119,9 +119,7 @@ pub fn search_rankings_tantivy(
     };
     let mut schema_builder = Schema::builder();
 
-    // Define the schema with normalized_latin, backwards, and instagram. Use
-    // STORE for normalized_latin to reconstruct the documents that will be
-    // selected during the search phase
+    // Define the schema.
     schema_builder.add_u64_field("id", STORED);
     schema_builder.add_text_field("name", TEXT);
     schema_builder.add_text_field("normalized_latin", STRING);
@@ -192,8 +190,6 @@ pub fn search_rankings_tantivy(
         .expect("Failed to create reader.");
 
     let searcher = reader.searcher();
-    // We can perhaps create a feature called "search_by x", where x is
-    // name_field, instagram_field, etc...
     let query = QueryParser::for_index(
         &index,
         vec![
