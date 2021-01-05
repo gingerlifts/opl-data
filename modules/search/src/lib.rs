@@ -181,7 +181,9 @@ pub fn search_rankings_tantivy(
             }
         ));
     }
-    index_writer.commit().expect("msg");
+    index_writer
+        .commit()
+        .expect("Failed to flush index to disk.");
 
     let reader = index
         .reader_builder()
@@ -212,7 +214,7 @@ pub fn search_rankings_tantivy(
                 .doc(doc_address)
                 .expect("Failed to get docs.")
                 .get_first(id_field)
-                .expect("Failed to get top result")
+                .expect("Failed to get top result.")
                 .clone()
         })
         .next()
