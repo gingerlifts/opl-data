@@ -10,3 +10,5 @@ license = "AGPL-3.0-or-later"
 opldb = { version = "0.1", path = "../db/" }
 opltypes = { version = "0.1", path = "../opltypes/" }
 rustyline = "7.0"
+tantivy = "0.13.2"
+tempfile = "3.1.0"
