@@ -115,7 +115,6 @@ pub fn search_rankings_tantivy(
     let mut schema_builder = Schema::builder();
 
     // Define the schema.
-    schema_builder.add_u64_field("id", STORED);
     schema_builder.add_text_field("name", TEXT);
     schema_builder.add_text_field("normalized_latin", STRING);
     schema_builder.add_text_field("instagram", STRING);
