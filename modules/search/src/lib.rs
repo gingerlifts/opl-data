@@ -9,7 +9,7 @@ use tantivy::Index;
 use tantivy::ReloadPolicy;
 
 use opldb::query::direct::RankingsQuery;
-use opldb::{algorithms, Entry, OplDb};
+use opldb::{algorithms, OplDb};
 use opltypes::*;
 
 /// Searches the given rankings by lifter information.
@@ -102,13 +102,7 @@ pub fn search_rankings(
 /// Searches the given rankings by lifter information using tantivy.
 ///
 /// Returns the index of the first match from `start_row`, or `None`.
-pub fn search_rankings_tantivy(
-    db: &OplDb,
-    rankings: &RankingsQuery,
-    start_row: usize,
-    query: &str,
-    num_results: usize,
-) -> Option<Vec<u32>> {
+pub fn search_rankings_tantivy(db: &OplDb, query: &str, num_results: usize) -> Option<Vec<u32>> {
     let query = query.replace("_", "");
     let system = infer_writing_system(&query);
 
@@ -120,8 +114,6 @@ pub fn search_rankings_tantivy(
     schema_builder.add_text_field("instagram", STRING);
     schema_builder.add_text_field("localized_name", TEXT);
 
-    let list = algorithms::get_full_sorted_uniqued(rankings, db);
-
     // Build the schema and create in dir.
     let schema = schema_builder.build();
 
@@ -129,7 +121,7 @@ pub fn search_rankings_tantivy(
 
     // TODO(lukeyeh): Think of a better size for heap for the indexer and make
     // it a constant.
-    let mut index_writer = match index.writer(50_000_000) {
+    let mut index_writer = match index.writer_with_num_threads(1, 50_000_000) {
         Ok(index_writer) => index_writer,
         Err(_) => return None,
     };
@@ -140,17 +132,9 @@ pub fn search_rankings_tantivy(
     let instagram_field = schema.get_field("instagram").unwrap();
     let localized_name_field = schema.get_field("localized_name").unwrap();
 
-    // Sort entries by lifter_id. We do this such that the index is ordered in
-    // ascending order by lifter_id. This allows us to use the DocAddress as a
-    // placeholder for lifter_id.
-    let mut entries = (start_row..list.0.len())
-        .map(|i| db.get_entry(list.0[i]))
-        .collect::<Vec<&Entry>>();
-    entries.sort_by(|a, b| a.lifter_id.partial_cmp(&b.lifter_id).unwrap());
-
     // Create index with name, normalized_latin, instagram, and localized name.
-    entries.iter().for_each(|entry| {
-        let lifter = db.get_lifter(entry.lifter_id);
+    let lifters = db.get_lifters();
+    lifters.iter().for_each(|lifter| {
         let localized_name: Option<&String> = match system {
             WritingSystem::Cyrillic => lifter.cyrillic_name.as_ref(),
             WritingSystem::Greek => lifter.greek_name.as_ref(),
@@ -172,9 +156,7 @@ pub fn search_rankings_tantivy(
         ));
     });
     // Commit index.
-    index_writer
-        .commit()
-        .expect("Failed to flush index to disk.");
+    index_writer.commit().expect("Failed to commit index.");
 
     // Create reader.
     let reader = index

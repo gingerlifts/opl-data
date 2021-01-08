@@ -90,10 +90,9 @@ fn cyrillic_search() {
 #[test]
 fn basic_rankings_search_tantivy() {
     let db = db();
-    let rankings = RankingsQuery::default();
 
     // Perform the search.
-    let res = search_rankings_tantivy(&db, &rankings, 0, "Sean Stangl", 10);
+    let res = search_rankings_tantivy(&db, "Sean Stangl", 10);
     let lifter_ids = res.unwrap();
 
     assert!(lifter_ids.len() > 0);
@@ -105,10 +104,9 @@ fn basic_rankings_search_tantivy() {
 #[test]
 fn backwards_rankings_search_tantivy() {
     let db = db();
-    let rankings = RankingsQuery::default();
 
     // Perform the search.
-    let res = search_rankings_tantivy(&db, &rankings, 0, "Stangl Sean", 10);
+    let res = search_rankings_tantivy(&db, "Stangl Sean", 10);
     let lifter_ids = res.unwrap();
 
     assert!(lifter_ids.len() > 0);
@@ -120,10 +118,9 @@ fn backwards_rankings_search_tantivy() {
 #[test]
 fn cyrillic_rankings_search_tantivy() {
     let db = db();
-    let rankings = RankingsQuery::default();
 
     // Perform the search.
-    let res = search_rankings_tantivy(&db, &rankings, 0, "Шон Стангл", 10);
+    let res = search_rankings_tantivy(&db, "Шон Стангл", 10);
     let lifter_ids = res.unwrap();
 
     assert!(lifter_ids.len() > 0);
@@ -135,10 +132,9 @@ fn cyrillic_rankings_search_tantivy() {
 #[test]
 fn instagram_rankings_search_tantivy() {
     let db = db();
-    let rankings = RankingsQuery::default();
 
     // Perform the search.
-    let res = search_rankings_tantivy(&db, &rankings, 0, "ferruix", 10);
+    let res = search_rankings_tantivy(&db, "ferruix", 10);
     let lifter_ids = res.unwrap();
 
     assert!(lifter_ids.len() > 0);
