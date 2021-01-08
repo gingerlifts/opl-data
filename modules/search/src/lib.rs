@@ -7,10 +7,9 @@ use tantivy::query::QueryParser;
 use tantivy::schema::*;
 use tantivy::Index;
 use tantivy::ReloadPolicy;
-use tempfile::TempDir;
 
 use opldb::query::direct::RankingsQuery;
-use opldb::{algorithms, OplDb};
+use opldb::{algorithms, Entry, OplDb};
 use opltypes::*;
 
 /// Searches the given rankings by lifter information.
@@ -108,15 +107,11 @@ pub fn search_rankings_tantivy(
     rankings: &RankingsQuery,
     start_row: usize,
     query: &str,
-) -> Option<u64> {
+    num_results: usize,
+) -> Option<Vec<u32>> {
     let query = query.replace("_", "");
     let system = infer_writing_system(&query);
 
-    // TODO(lukeyeh): Use a non-temporary path.
-    let index_path = match TempDir::new() {
-        Ok(index_path) => index_path,
-        Err(_) => return None,
-    };
     let mut schema_builder = Schema::builder();
 
     // Define the schema.
@@ -131,10 +126,7 @@ pub fn search_rankings_tantivy(
     // Build the schema and create in dir.
     let schema = schema_builder.build();
 
-    let index = match Index::create_in_dir(&index_path, schema.clone()) {
-        Ok(index) => index,
-        Err(_) => return None,
-    };
+    let index = Index::create_in_ram(schema.clone());
 
     // TODO(lukeyeh): Think of a better size for heap for the indexer and make
     // it a constant.
@@ -144,21 +136,22 @@ pub fn search_rankings_tantivy(
     };
 
     // Get field for later use when executing search.
-    let id_field = schema.get_field("id").unwrap();
     let name_field = schema.get_field("name").unwrap();
     let normalized_latin_field = schema.get_field("normalized_latin").unwrap();
     let instagram_field = schema.get_field("instagram").unwrap();
     let localized_name_field = schema.get_field("localized_name").unwrap();
 
-    // Create the index. Iterate from start_row and add them to the search index
-    // and flush to disk. Creating the index noticeably slows down the process.
-    // Perhaps we should move the creation of the index to when the DB is
-    // created/cache it somehow then pass the index as argument to a search
-    // function.
-    for i in start_row..list.0.len() {
-        let entry = db.get_entry(list.0[i]);
-        let lifter = db.get_lifter(entry.lifter_id);
+    // Sort entries by lifter_id. We do this such that the index is ordered in
+    // ascending order by lifter_id. This allows us to use the DocAddress as a
+    // placeholder for lifter_id.
+    let mut entries = (start_row..list.0.len())
+        .map(|i| db.get_entry(list.0[i]))
+        .collect::<Vec<&Entry>>();
+    entries.sort_by(|a, b| a.lifter_id.partial_cmp(&b.lifter_id).unwrap());
 
+    // Create index with name, normalized_latin, instagram, and localized name.
+    entries.iter().for_each(|entry| {
+        let lifter = db.get_lifter(entry.lifter_id);
         let localized_name: Option<&String> = match system {
             WritingSystem::Cyrillic => lifter.cyrillic_name.as_ref(),
             WritingSystem::Greek => lifter.greek_name.as_ref(),
@@ -166,9 +159,7 @@ pub fn search_rankings_tantivy(
             WritingSystem::Korean => lifter.korean_name.as_ref(),
             WritingSystem::Latin => Some(&lifter.name),
         };
-
         index_writer.add_document(doc!(
-            id_field => u64::from(entry.lifter_id),
             name_field => lifter.name.as_str(),
             normalized_latin_field => lifter.username.as_str(),
             instagram_field =>  match &lifter.instagram {
@@ -180,17 +171,21 @@ pub fn search_rankings_tantivy(
                 None => ""
             }
         ));
-    }
+    });
+    // Commit index.
     index_writer
         .commit()
         .expect("Failed to flush index to disk.");
 
+    // Create reader.
     let reader = index
         .reader_builder()
         .reload_policy(ReloadPolicy::OnCommit)
         .try_into()
         .expect("Failed to create reader.");
 
+    // Create searcher that encompasses name, instagram, normalized latin, and
+    // localized names.
     let searcher = reader.searcher();
     let query = QueryParser::for_index(
         &index,
@@ -204,23 +199,13 @@ pub fn search_rankings_tantivy(
     .parse_query(query.as_str())
     .expect("Failed to parse query.");
 
-    // Execute search query and retrieve top result.
-    match searcher
-        .search(&query, &TopDocs::with_limit(10))
-        .expect("Failed to retrieve top docs.")
-        .into_iter()
-        .map(|(_score, doc_address)| {
-            searcher
-                .doc(doc_address)
-                .expect("Failed to get docs.")
-                .get_first(id_field)
-                .expect("Failed to get top result.")
-                .clone()
-        })
-        .next()
-        .expect("")
-    {
-        Value::U64(id) => Some(id),
-        _ => None,
-    }
+    // Execute search.
+    Some(
+        searcher
+            .search(&query, &TopDocs::with_limit(num_results))
+            .expect("Failed to retrieve top docs.")
+            .into_iter()
+            .map(|(_score, doc_address)| doc_address.doc())
+            .collect::<Vec<u32>>(),
+    )
 }

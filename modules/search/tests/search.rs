@@ -3,7 +3,6 @@
 use opldb::query::direct::RankingsQuery;
 use opldb::{algorithms, OplDb};
 use search::*;
-use std::convert::TryFrom;
 
 use std::sync::Once;
 
@@ -94,14 +93,12 @@ fn basic_rankings_search_tantivy() {
     let rankings = RankingsQuery::default();
 
     // Perform the search.
-    let res = search_rankings_tantivy(&db, &rankings, 0, "Sean Stangl");
-    let lifter_id = res.unwrap();
+    let res = search_rankings_tantivy(&db, &rankings, 0, "Sean Stangl", 10);
+    let lifter_ids = res.unwrap();
 
+    assert!(lifter_ids.len() > 0);
     // Check that the result is for the specified lifter.
-    // try_from shouldn't be a problem as we converted from u32 -> u64 in the first place.
-    // Doing this because tantivy seems to only have a add_u64_field method for
-    // the schema builder.
-    let lifter = db.get_lifter(u32::try_from(lifter_id).expect(""));
+    let lifter = db.get_lifter(*lifter_ids.get(0).unwrap());
     assert_eq!(lifter.name, "Sean Stangl");
 }
 
@@ -111,14 +108,12 @@ fn backwards_rankings_search_tantivy() {
     let rankings = RankingsQuery::default();
 
     // Perform the search.
-    let res = search_rankings_tantivy(&db, &rankings, 0, "Stangl Sean");
-    let lifter_id = res.unwrap();
+    let res = search_rankings_tantivy(&db, &rankings, 0, "Stangl Sean", 10);
+    let lifter_ids = res.unwrap();
 
+    assert!(lifter_ids.len() > 0);
     // Check that the result is for the specified lifter.
-    // try_from shouldn't be a problem as we converted from u32 -> u64 in the first place.
-    // Doing this because tantivy seems to only have a add_u64_field method for
-    // the schema builder.
-    let lifter = db.get_lifter(u32::try_from(lifter_id).expect(""));
+    let lifter = db.get_lifter(*lifter_ids.get(0).unwrap());
     assert_eq!(lifter.name, "Sean Stangl");
 }
 
@@ -128,14 +123,12 @@ fn cyrillic_rankings_search_tantivy() {
     let rankings = RankingsQuery::default();
 
     // Perform the search.
-    let res = search_rankings_tantivy(&db, &rankings, 0, "Шон Стангл");
-    let lifter_id = res.unwrap();
+    let res = search_rankings_tantivy(&db, &rankings, 0, "Шон Стангл", 10);
+    let lifter_ids = res.unwrap();
 
+    assert!(lifter_ids.len() > 0);
     // Check that the result is for the specified lifter.
-    // try_from shouldn't be a problem as we converted from u32 -> u64 in the first place.
-    // Doing this because tantivy seems to only have a add_u64_field method for
-    // the schema builder.
-    let lifter = db.get_lifter(u32::try_from(lifter_id).expect(""));
+    let lifter = db.get_lifter(*lifter_ids.get(0).unwrap());
     assert_eq!(lifter.name, "Sean Stangl");
 }
 
@@ -145,13 +138,11 @@ fn instagram_rankings_search_tantivy() {
     let rankings = RankingsQuery::default();
 
     // Perform the search.
-    let res = search_rankings_tantivy(&db, &rankings, 0, "ferruix");
-    let lifter_id = res.unwrap();
+    let res = search_rankings_tantivy(&db, &rankings, 0, "ferruix", 10);
+    let lifter_ids = res.unwrap();
 
+    assert!(lifter_ids.len() > 0);
     // Check that the result is for the specified lifter.
-    // try_from shouldn't be a problem as we converted from u32 -> u64 in the first place.
-    // Doing this because tantivy seems to only have a add_u64_field method for
-    // the schema builder.
-    let lifter = db.get_lifter(u32::try_from(lifter_id).expect(""));
+    let lifter = db.get_lifter(*lifter_ids.get(0).unwrap());
     assert_eq!(lifter.name, "Sean Stangl");
 }
