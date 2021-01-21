@@ -27,7 +27,7 @@ NS,Wayan Schiliro,F,30,Open,Wraps,,,,,,,,,,,,,,,,SBD
 1,Cornelia Vetterli,F,35,Open,Wraps,70.2,75,-135,135,-145,135,65,-70,-72.5,65,160,170,175,175,375,SBD
 2,Jessica Butera,F,24,Open,Wraps,79.2,82.5,125,130,137.5,137.5,60,65,-67.5,65,137.5,145,-150,145,347.5,SBD
 3,Beatrice Perren,F,37,Open,Wraps,78,82.5,110,120,-125,120,57.5,62.5,-65,62.5,130,140,150,150,332.5,SBD
-4,Malgorzata Kot,F,27,Open,Wraps,84.5,90,115,120,130,130,55,57.5,62.5,62.5,120,130,,130,322.5,SBD
+4,Malgorzata Becker,F,27,Open,Wraps,84.5,90,115,120,130,130,55,57.5,62.5,62.5,120,130,,130,322.5,SBD
 DQ,Daniela Kaufmann,F,27,Open,Wraps,75.1,82.5,-125,-130,-130,,,,,,,,,,,SBD
 NS,Pauline Hoffmann,F,33,Open,Wraps,,,,,,,,,,,,,,,,SBD
 1,Lukas Degen,M,26,Open,Wraps,73.1,75,190,200,202.5,202.5,120,125,127.5,127.5,200,215,225,225,555,SBD
@@ -70,7 +70,7 @@ DQ,Patrick Martini,M,25,Open,Wraps,87.6,90,180,,,180,-100,-105,-105,,,,,,,SBD
 2,José Fleury,M,58,M55-59,Wraps,78.7,82.5,150,160,170,170,100,-105,,100,165,175,,175,445,SBD
 NS,Stephan Schürch,M,56,M55-59,Wraps,,,,,,,,,,,,,,,,SBD
 1,Manuel Grundbacher,M,20,Juniors,Raw,102.2,110,,,,,120,145,-152.5,145,,,,,145,B
-1,Tina Ruedi,F,35,Open,Raw,69,75,,,,,90,95,100,100,,,,,100,B
+1,Tina Rüedi,F,35,Open,Raw,69,75,,,,,90,95,100,100,,,,,100,B
 2,Irene Pignataro,F,42,M40-44,Raw,69.7,75,,,,,77.5,80,85,85,,,,,85,B
 3,Manuela Moser,F,33,Open,Raw,61.7,67.5,,,,,50,55,-57.5,55,,,,,55,B
 NS,Pauline Hoffmann,F,33,Open,Raw,,,,,,,,,,,,,,,,B
@@ -86,4 +86,4 @@ NS,Aziz Boussalem,M,28,Open,Raw,,,,,,,,,,,,,,,,B
 3,Karsten Jörgensen,M,35,Open,Raw,101.8,110,,,,,140,145,-150,145,,,,,145,B
 1,Jeroen Velthuis,M,50,M50-54,Raw,99.9,100,,,,,132.5,142.5,-150,142.5,,,,,142.5,B
 1,Miklos Peterdi,M,61,M60-64,Raw,101.8,110,,,,,110,130,-140,130,,,,,130,B
-2,Peter Herrmann,M,75,M75-79,Raw,78.9,82.5,,,,,95,100,-105,100,,,,,100,B
+2,Peter Hermann,M,75,M75-79,Raw,78.9,82.5,,,,,95,100,-105,100,,,,,100,B

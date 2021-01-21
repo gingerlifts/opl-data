@@ -140,7 +140,7 @@ Mike Ferrantelli,M,105,FL,M-O,Single-ply,102.4,45,-240,240,-277.5,240,240,B,2
 Charles Turco,M,105,TX,M-O,Single-ply,103.3,55,-237.5,-237.5,240,240,240,B,3
 Peter Maynard,M,105,NE,M-O,Single-ply,103.7,45,210,227.5,237.5,237.5,237.5,B,4
 Julian Ulvang,M,105,FL,M-O,Single-ply,99.4,48,227.5,-240,-240,227.5,227.5,B,5
-Corey Clark,M,105,FL,M-O,Single-ply,99.1,24,212.5,-225,-227.5,212.5,212.5,B,6
+Corey Clark #1,M,105,FL,M-O,Single-ply,99.1,24,212.5,-225,-227.5,212.5,212.5,B,6
 James T Hall,M,105,KY,M-O,Single-ply,98.8,40,190,-240,-240,190,190,B,7
 Clint Poore,M,105,KY,MR-O,Raw,98.8,37,175,182.5,185,185,185,B,1
 Brandon Mauro,M,105,PA,M-T2,Single-ply,104,17,155,-165,-165,155,155,B,1
@@ -164,7 +164,7 @@ Ryan Ingram,M,105,NC,MR-C,Raw,103.4,21,182.5,192.5,-200,192.5,192.5,B,1
 Mike Ferrantelli,M,105,FL,M-PF,Single-ply,102.4,45,-240,240,-277.5,240,240,B,1
 Joseph Ferrantelli,M,105,FL,M-PF,Single-ply,102.5,68,-155,-155,155,155,155,B,2
 Peter Maynard,M,105,NE,M-LT,Single-ply,103.7,45,210,227.5,237.5,237.5,237.5,B,1
-Corey Clark,M,105,FL,M-LT,Single-ply,99.1,24,212.5,-225,-227.5,212.5,212.5,B,2
+Corey Clark #1,M,105,FL,M-LT,Single-ply,99.1,24,212.5,-225,-227.5,212.5,212.5,B,2
 James T Hall,M,105,KY,M-LT,Single-ply,98.8,40,190,-240,-240,190,190,B,3
 Clint Poore,M,105,KY,MR-LT,Raw,98.8,37,175,182.5,185,185,185,B,1
 Henry Conway,M,105,IN,MR-LT,Raw,96.8,65,115,132.5,-140,132.5,132.5,B,2
@@ -216,7 +216,7 @@ Michael Ricker,M,120+,FL,MR-M1b,Raw,140.7,46,150,165,-175,165,165,B,2
 Daniel Gaudreau,M,120+,CO,M-M2a,Single-ply,153.4,50,-290,290,-327.5,290,290,B,1
 William Campbell,M,120+,GA,M-M2a,Single-ply,128.6,53,-257.5,257.5,-275,257.5,257.5,B,2
 James Ray #1,M,120+,WI,M-M2a,Single-ply,151.8,53,250,-267.5,-267.5,250,250,B,3
-Kevin Johnson,M,120+,NY,M-M2b,Single-ply,134.3,57,-235,235,240,240,240,B,1
+Kevin Johnson #1,M,120+,NY,M-M2b,Single-ply,134.3,57,-235,235,240,240,240,B,1
 Skip Regan,M,120+,FL,M-M2b,Single-ply,125.8,59,215,222.5,-230,222.5,222.5,B,2
 Glen Tenove,M,120+,CA,MR-M2b,Raw,128,56,177.5,182.5,-185,182.5,182.5,B,1
 Robert Crawford #1,M,120+,WI,M-M3a,Single-ply,127.5,60,175,-205,-205,175,175,B,1

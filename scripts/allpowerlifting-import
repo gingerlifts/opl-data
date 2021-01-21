@@ -441,7 +441,7 @@ def getpagedata(soup):
                                      'lb': 'Lebanon', 'om': 'Oman', 'ae': 'UAE',
                                      'lt': 'Lithuania', 'ng': 'Nigeria', 'ge': 'Georgia',
                                      'cu': 'Cuba', 'lk': 'Sri Lanka', 'il': 'Israel',
-                                     'iq': 'Iraq'}
+                                     'iq': 'Iraq', 'dk': 'Denmark', 'no': 'Norway'}
                     if text in country_codes:
                         text = country_codes[text]
 
@@ -830,8 +830,6 @@ def main(url):
     entriescsv = parse_sheetname(entriescsv)
     entriescsv = standardise_division(meetcsv.rows[0][0], entriescsv)
 
-    remove_empty_cols_ignore_fieldname(entriescsv)
-
     # Wilks will be automatically calculated later.
     # Feds get it wrong all the time.
     if 'Wilks' in entriescsv.fieldnames:
@@ -845,6 +843,8 @@ def main(url):
     # Remove all the columns named 'IGNORE'
     while 'IGNORE' in entriescsv.fieldnames:
         entriescsv.remove_column_by_name('IGNORE')
+
+    remove_empty_cols_ignore_fieldname(entriescsv)
 
     try:
         os.makedirs(dirname)

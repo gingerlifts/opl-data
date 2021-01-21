@@ -52,6 +52,7 @@ fn make_export_row<'a>(entry: &'a Entry, meet: &'a Meet) -> ExportRow<'a> {
         ),
         tested: if entry.tested { "Yes" } else { "" },
         country: entry.country,
+        state: entry.state.map(opltypes::states::State::to_state_string),
         federation: meet.federation,
         parent_federation: meet.federation.sanctioning_body(meet.date),
         date: meet.date,
@@ -62,10 +63,7 @@ fn make_export_row<'a>(entry: &'a Entry, meet: &'a Meet) -> ExportRow<'a> {
     }
 }
 
-pub fn make_onefile_csv(
-    meetdata: &AllMeetData,
-    buildpath: &Path,
-) -> Result<(), csv::Error> {
+pub fn make_onefile_csv(meetdata: &AllMeetData, buildpath: &Path) -> Result<(), csv::Error> {
     let mut csv = WriterBuilder::new()
         .quote_style(QuoteStyle::Never)
         .terminator(Terminator::Any(b'\n'))

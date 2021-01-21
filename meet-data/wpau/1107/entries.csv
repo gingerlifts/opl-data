@@ -5,7 +5,7 @@ Place,Division,Sex,Name,CyrillicName,BirthYear,WeightClassKg,BodyweightKg,Best3S
 1,Amateur Juniors 20-23,F,Olga Grushevska,Ольга Грушевська,1989,75,69.8,,45,-47.5,-47.5,,45,,45,B,Raw
 1,Amateur Open,F,Olena Pogorila,Олена Погоріла,1976,48,47.5,,-55,55,57.5,,57.5,,57.5,B,Raw
 1,Amateur Open,F,Larisa Polyanska,Лариса Полянська,1983,52,51.5,,42.5,45,-47.5,,45,,45,B,Raw
-2,Amateur Open,F,Mariya Markovich,Марія Маркович,1985,52,51.5,,37.5,-40,-40,,37.5,,37.5,B,Raw
+2,Amateur Open,F,Mariya Markovich #1,Марія Маркович,1985,52,51.5,,37.5,-40,-40,,37.5,,37.5,B,Raw
 1,Amateur Open,F,Olena Lisenko,Олена Лисенко,1975,56,54.7,,67.5,-70,70,,70,,70,B,Raw
 2,Amateur Open,F,Olena Koroeva,Олена Короєва,1983,56,54,,55,-60,-60,,55,,55,B,Raw
 2,Amateur Open,F,Nataliya Mileeva,Наталя Мілеєва,1981,56,54,,55,-60,-60,,55,,55,B,Raw
@@ -164,7 +164,7 @@ DQ,Amateur Open,M,Roman Kachur,Роман Качур,1984,82.5,82.4,185,,,,,,237
 1,Pro Masters 45-49,F,Anna Kurkurina,Анна Куркуріна,1966,75,73.8,,115,-120,-125,,115,,115,B,Raw
 1,Pro Masters 50-54,F,Lyudmila Tsvetkova,Людмила Цветкова,1961,56,55,,47.5,-52.5,52.5,,52.5,,52.5,B,Raw
 1,Pro Masters 50-54,F,Irina Kabakova,Ирина Кабакова,1959,67.5,65,,42.5,-47.5,-47.5,,42.5,,42.5,B,Raw
-1,Pro Teen 13-15,M,Dmitro Shchitka,Дмитро Щітка,1998,56,54.5,,42.5,-47.5,-47.5,,42.5,,42.5,B,Raw
+1,Pro Teen 13-15,M,Dmitro Shchadko,Дмитро Щадько,1998,56,54.5,,42.5,-47.5,-47.5,,42.5,,42.5,B,Raw
 1,Pro Teen 13-15,M,Mikola Metelskiy,Микола Метельський,1997,67.5,67.4,,47.5,55,-62.5,,55,,55,B,Raw
 1,Pro Teen 16-17,M,Vladislav Kovalenko,Владислав Коваленко,1995,67.5,64.3,,95,100,-102.5,,100,,100,B,Raw
 2,Pro Teen 16-17,M,Stanislav Chigirinskiy,Станіслав Чигиринський,1994,67.5,63.2,,75,80,85,,85,,85,B,Raw

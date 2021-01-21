@@ -1,0 +1,33 @@
+Name,CyrillicName,BirthYear,BodyweightKg,Team,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,WeightClassKg,Event,Equipment,Division,Sex,BirthDate,Place
+Tatyana Taktamysheva,Татьяна Тактамышева,1994,43.68,ТФК,105,47.5,97.5,250,47,SBD,Single-ply,Open,F,,1
+Darya Tumanova,Дарья Туманова,1991,51.22,ИрГТУ,70,45,82.5,197.5,52,SBD,Single-ply,Open,F,,1
+Anna Galkina,Анна Галкина,1991,47.7,ИрГТУ,55,47.5,80,182.5,52,SBD,Single-ply,Open,F,,2
+Olga Adamovich,Ольга Адамович,1991,55.16,Спарта,130,70,130,330,57,SBD,Single-ply,Open,F,,1
+Yana Shulikova,Яна Шуликова,1993,61.6,Спарта,95,50,90,235,63,SBD,Single-ply,Open,F,,1
+Svetlana Vysotskaya,Светлана Высоцкая,1983,71.65,Спарта,127.5,90,125,342.5,72,SBD,Single-ply,Open,F,,1
+Irina Zhernakova,Ирина Жернакова,1991,66.3,ТФК,115,62.5,120,297.5,72,SBD,Single-ply,Open,F,,2
+Roman Timonin,Роман Тимонин,1991,58.66,Спарта,172.5,102.5,170,445,59,SBD,Single-ply,Open,M,,1
+Andrey Ponikorovskiy,Андрей Поникоровский,1990,65.2,Спарта,190,115,205,510,66,SBD,Single-ply,Open,M,,1
+Ruslan Gabdrashitov,Руслан Габдрашитов,1990,64.6,Спарта,185,105,175,465,66,SBD,Single-ply,Open,M,,2
+Maksim Ivanov #22,Максим Иванов,1990,63.65,Юность,130,90,175,395,66,SBD,Single-ply,Open,M,,3
+Svyatoslav Nikonov,Святослав Никонов,1994,65.35,Юность,120,85,140,345,66,SBD,Single-ply,Open,M,,4
+Magomed Khanov,Магомед Ханов,1994,65.95,Спарта,110,80,150,340,66,SBD,Single-ply,Open,M,,5
+Roman Semenov,Роман Семенов,1988,61.55,Спарта,105,70,140,315,66,SBD,Single-ply,Open,M,,6
+Aleksandr Korolev,Александр Королев,1981,70.65,ИрГТУ,250,152.5,225,627.5,74,SBD,Single-ply,Open,M,,1
+Aleksandr Zaikin,Александр Заикин,1991,73.65,Спарта,197.5,150,190,537.5,74,SBD,Single-ply,Open,M,,2
+Aleksandr Grinchuk,Александр Гринчук,1990,73.05,Юность,140,95,170,405,74,SBD,Single-ply,Open,M,,3
+Anatoliy Yumashev,Анатолий Юмашев,1993,73.05,Спарта,140,80,150,370,74,SBD,Single-ply,Open,M,,4
+Andrey Bobrikov,Андрей Бобриков,1989,69.8,,,,,,74,SBD,Single-ply,Open,M,,DQ
+Aleksandr Parilov,Александр Парилов,1991,81,Спарта,290,180,262.5,732.5,83,SBD,Single-ply,Open,M,,1
+Maksim Semiryakov,Максим Семиряков,1985,80.45,Спарта,245,165,230,640,83,SBD,Single-ply,Open,M,,2
+Sergey Solomakha,Сергей Соломаха,1987,81,Спарта,225,160,245,630,83,SBD,Single-ply,Open,M,,3
+Vladimir Belyanin,Владимир Белянин,1991,80,Спарта,220,135,230,585,83,SBD,Single-ply,Open,M,,4
+Bulat Shiretorov,Булат Ширеторов,1988,79.35,Спарта,175,110,170,455,83,SBD,Single-ply,Open,M,,5
+Vyacheslav Shimanskiy,Вячеслав Шиманский,1984,91.45,Спарта,260,180,245,685,93,SBD,Single-ply,Open,M,,1
+Maksim Vakhnovich,Максим Вахнович,1976,89.6,Спарта,240,155,270,665,93,SBD,Single-ply,Open,M,,2
+Sergey Prilutskiy,Сергей Прилуцкий,1989,91.9,Железяка,240,160,255,655,93,SBD,Single-ply,Open,M,,3
+Evgeniy Bogorodskiy,Евгений Богородский,1983,99,Железяка,210,165,220,595,105,SBD,Single-ply,Open,M,,1
+Andrey Ulyanov,Андрей Ульянов,1991,102.8,Спарта,210,140,200,550,105,SBD,Single-ply,Open,M,,2
+Pavel Masko,Павел Масько,1995,103.3,Спарта,215,110,215,540,105,SBD,Single-ply,Open,M,,3
+Maksim Orlichenko,Максим Орличенко,1978,134.2,Спарта,300,230,310,840,120+,SBD,Single-ply,Open,M,,1
+Arkadiy Trifonov,Аркадий Трифонов,1981,121.5,Спарта,280,180,285,745,120+,SBD,Single-ply,Open,M,,2

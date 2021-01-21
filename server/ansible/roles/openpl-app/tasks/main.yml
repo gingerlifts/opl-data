@@ -18,8 +18,16 @@
     src: ../build/data/
     dest: "{{ openpl_app_data_path }}/"
     archive: no
+    times: yes
     recursive: yes
-    checksum: yes
+  notify: restart openpl-app
+
+- name: force the stupid lifters.csv to really sync
+  copy:
+    src: ../build/data/opldb/lifters.csv
+    dest: "{{ openpl_app_data_path }}/opldb/lifters.csv"
+    mode: 0644
+    owner: root
   notify: restart openpl-app
 
 - name: make sure Rocket.toml is latest

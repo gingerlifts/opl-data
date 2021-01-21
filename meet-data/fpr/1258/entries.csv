@@ -1,0 +1,73 @@
+Name,CyrillicName,BirthYear,BodyweightKg,Team,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,WeightClassKg,Event,Equipment,Division,Sex,BirthDate,Place
+Anna Larionova,Анна Ларионова,1994,52.8,Мартенсит,110,62.5,115,287.5,57,SBD,Single-ply,Open,F,,1
+Yuliya Dmitrieva,Юлия Дмитриева,1989,52.12,Мартенсит,112.5,60,100,272.5,57,SBD,Single-ply,Open,F,,2
+Elena Filatova,Елена Филатова,1966,57,Космос,65,35,82.5,182.5,57,SBD,Single-ply,Open,F,,3
+Elena Kulagina,Елена Кулагина,1977,63,Космос,97.5,57.5,110,265,63,SBD,Single-ply,Open,F,,1
+Yuliya Sivakova,Юлия Сивакова,1983,69.8,Спарта,165,80,140,385,72,SBD,Single-ply,Open,F,,1
+Anna Barkhatova,Анна Бархатова,1994,64.75,Мартенсит,155,85,140,380,72,SBD,Single-ply,Open,F,,2
+Oleg Malichenko,Олег Маличенко,1995,52.72,Мартенсит,140,70,110,320,53,SBD,Single-ply,Open,M,,1
+Valeriy Tanygin,Валерий Таныгин,1987,57.6,ФСК Шелехов,185,112.5,200,497.5,59,SBD,Single-ply,Open,M,,1
+Aleksey Khomyakov,Алексей Хомяков,1995,58.4,Рекорд,192.5,105,190,487.5,59,SBD,Single-ply,Open,M,,2
+Viktor Golubev,Виктор Голубев,1996,59,Мартенсит,192.5,100,170,462.5,59,SBD,Single-ply,Open,M,,3
+Oleg Sartakov,Олег Сартаков,1994,58.8,Россия,180,80,200,460,59,SBD,Single-ply,Open,M,,4
+Vyacheslav Ignatev,Вячеслав Игнатьев,1992,58.7,НИ ИрГТУ,185,100,160,445,59,SBD,Single-ply,Open,M,,5
+Anton Peretolchin,Антон Перетолчин,1996,59,ФСК Шелехов,150,90,155,395,59,SBD,Single-ply,Open,M,,6
+Roman Timonin,Роман Тимонин,1991,64.05,Спарта,215,127.5,190,532.5,66,SBD,Single-ply,Open,M,,1
+Aleksandr Loginov,Александр Логинов,1993,65.25,Спарта,182.5,107.5,180,470,66,SBD,Single-ply,Open,M,,2
+Vladislav Zubikhin,Владислав Зубихин,1995,60.4,Носорог,120,80,105,305,66,SBD,Single-ply,Open,M,,3
+Semen Pshenichnikov,Семен Пшеничников,1991,73.3,ЦБК,240,152.5,245,637.5,74,SBD,Single-ply,Open,M,,1
+Boris Gamayunov,Борис Гамаюнов,1990,72.1,Спарта,225,145,222.5,592.5,74,SBD,Single-ply,Open,M,,2
+Kirill Repukhov,Кирилл Репухов,1994,73.5,ЦБК,230,142.5,220,592.5,74,SBD,Single-ply,Open,M,,3
+Sergey Pavlov,Сергей Павлов,1994,71.1,Мартенсит,230,105,220,555,74,SBD,Single-ply,Open,M,,4
+Vyacheslav Shaypak,Вячеслав Шайпак,1994,72,ЦБК,195,140,192.5,527.5,74,SBD,Single-ply,Open,M,,5
+Vladislav Burtik,Владислав Буртик,1995,72.05,Рекорд,205,112.5,205,522.5,74,SBD,Single-ply,Open,M,,6
+Danil Gotovskiy,Данил Готовский,1992,69.4,Спарта,195,120,180,495,74,SBD,Single-ply,Open,M,,7
+Mikhail Bykovskiy,Михаил Быковский,1994,73,ФСК Шелехов,180,105,185,470,74,SBD,Single-ply,Open,M,,8
+Aleksey Belyaev,Алексей Беляев,1993,69.85,Спарта,155,102.5,162.5,420,74,SBD,Single-ply,Open,M,,9
+Maksim Semiryakov,Максим Семиряков,1985,80.1,Спарта,247.5,175,240,662.5,83,SBD,Single-ply,Open,M,,1
+Andrey Mashukov,Андрей Машуков,1993,80.8,Спарта,250,150,255,655,83,SBD,Single-ply,Open,M,,2
+Aleksey Kamshilin,Алексей Камшилин,1987,80.7,Мартенсит,240,162.5,250,652.5,83,SBD,Single-ply,Open,M,,3
+Dmitriy Gintov,Дмитрий Гинтов,1993,82.4,ЦБК,260,170,222.5,652.5,83,SBD,Single-ply,Open,M,,4
+Anton Petrashov,Антон Петрашов,1989,78.65,Спарта,260,160,210,630,83,SBD,Single-ply,Open,M,,5
+Anatoliy Yumashev,Анатолий Юмашев,1994,82,Спарта,235,120,215,570,83,SBD,Single-ply,Open,M,,6
+Mikhail Naumov,Михаил Наумов,1995,77.35,Мартенсит,200,142.5,210,552.5,83,SBD,Single-ply,Open,M,,7
+Aleksey Khabibulin,Алексей Хабибулин,1993,78,Мартенсит,200,117.5,215,532.5,83,SBD,Single-ply,Open,M,,8
+Mikhail Aleksandrov,Михаил Александров,1993,77.4,ФСК Шелехов,170,130,190,490,83,SBD,Single-ply,Open,M,,9
+Dmitriy Leskov,Дмитрий Лесков,1986,81.2,Космос,170,117.5,200,487.5,83,SBD,Single-ply,Open,M,,10
+Dmitriy Gusakov,Дмитрий Гусаков,1993,76.15,Спарта,177.5,95,210,482.5,83,SBD,Single-ply,Open,M,,11
+Ilyas Kutliakhmetov,Ильяс Кутлиахметов,1996,81.15,Носорог,120,90,150,360,83,SBD,Single-ply,Open,M,,12
+Vladimir Razuvaev,Владимир Разуваев,1990,88.5,,310,190,272.5,772.5,93,SBD,Single-ply,Open,M,,1
+Vyacheslav Shimanskiy,Вячеслав Шиманский,1984,87.3,Спарта,280,175,240,695,93,SBD,Single-ply,Open,M,,2
+Demuriy Khelaya,Демурий Хелая,1987,91.9,Спарта,245,180,247.5,672.5,93,SBD,Single-ply,Open,M,,3
+Evgeniy Kubasov,Евгений Кубасов,1986,87.6,ФОК АГТА,230,160,245,635,93,SBD,Single-ply,Open,M,,4
+Ivan Goncharov,Иван Гончаров,1993,92.4,Спарта,230,125,220,575,93,SBD,Single-ply,Open,M,,5
+Valeriy Antipov,Валерий Антипов,1991,87,Спарта,190,150,212.5,552.5,93,SBD,Single-ply,Open,M,,6
+Nail Garipov,Наиль Гарипов,1960,91.7,,150,120,170,440,93,SBD,Single-ply,Open,M,,7
+Artemiy Matonin,Артемий Матонин,1994,86.7,Носорог,155,110,145,410,93,SBD,Single-ply,Open,M,,8
+Leonid Rafutdinov,Леонид Рафутдинов,1970,102.6,ФСК Шелехов,350,225,300,875,105,SBD,Single-ply,Open,M,,1
+Dmitriy Grigorev,Дмитрий Григорьев,1975,100.45,Спарта,250,210,235,695,105,SBD,Single-ply,Open,M,,2
+Anton Moskovskikh,Антон Московских,1994,102.5,ЦБК,260,200,235,695,105,SBD,Single-ply,Open,M,,3
+Vladimir Mikhaylov,Владимир Михайлов,1961,99.6,ФОК АГТА,220,150,260,630,105,SBD,Single-ply,Open,M,,4
+Andrey Vergules,Андрей Вергулес,1989,105.1,Спарта,330,180,310,820,120,SBD,Single-ply,Open,M,,1
+Sergey Prilutskiy,Сергей Прилуцкий,1989,113.9,Железяка,300,200,270,770,120,SBD,Single-ply,Open,M,,2
+Innokentiy Veselov,Иннокентий Веселов,1991,107.8,Локомотив,230,135,255,620,120,SBD,Single-ply,Open,M,,3
+Aleksey Malchikhin,Алексей Мальчихин,1992,105.2,Железяка,205,140,210,555,120,SBD,Single-ply,Open,M,,4
+Arkadiy Trifonov,Аркадий Трифонов,1981,133.7,Железяка,290,220,310,820,120+,SBD,Single-ply,Open,M,,1
+Anna Larionova,Анна Ларионова,1994,52.8,Мартенсит,110,62.5,115,287.5,57,SBD,Single-ply,Sub-Juniors,F,,1
+Anna Barkhatova,Анна Бархатова,1994,64.75,Мартенсит,155,85,140,380,72,SBD,Single-ply,Sub-Juniors,F,,1
+Oleg Malichenko,Олег Маличенко,1995,52.72,Мартенсит,140,70,110,320,53,SBD,Single-ply,Sub-Juniors,M,,1
+Aleksey Khomyakov,Алексей Хомяков,1995,58.4,Рекорд,192.5,105,190,487.5,59,SBD,Single-ply,Sub-Juniors,M,,1
+Viktor Golubev,Виктор Голубев,1996,59,Мартенсит,192.5,100,170,462.5,59,SBD,Single-ply,Sub-Juniors,M,,2
+Oleg Sartakov,Олег Сартаков,1994,58.8,Россия,180,80,200,460,59,SBD,Single-ply,Sub-Juniors,M,,3
+Anton Peretolchin,Антон Перетолчин,1996,59,ФСК Шелехов,150,90,155,395,59,SBD,Single-ply,Sub-Juniors,M,,4
+Vladislav Zubikhin,Владислав Зубихин,1995,60.4,Носорог,120,80,105,305,66,SBD,Single-ply,Sub-Juniors,M,,1
+Kirill Repukhov,Кирилл Репухов,1994,73.5,ЦБК,230,142.5,220,592.5,74,SBD,Single-ply,Sub-Juniors,M,,1
+Sergey Pavlov,Сергей Павлов,1994,71.1,Мартенсит,230,105,220,555,74,SBD,Single-ply,Sub-Juniors,M,,2
+Vyacheslav Shaypak,Вячеслав Шайпак,1994,72,ЦБК,195,140,192.5,527.5,74,SBD,Single-ply,Sub-Juniors,M,,3
+Vladislav Burtik,Владислав Буртик,1995,72.05,Рекорд,205,112.5,205,522.5,74,SBD,Single-ply,Sub-Juniors,M,,4
+Mikhail Bykovskiy,Михаил Быковский,1994,73,ФСК Шелехов,180,105,185,470,74,SBD,Single-ply,Sub-Juniors,M,,5
+Anatoliy Yumashev,Анатолий Юмашев,1994,82,Спарта,235,120,215,570,83,SBD,Single-ply,Sub-Juniors,M,,1
+Mikhail Naumov,Михаил Наумов,1995,77.35,Мартенсит,200,142.5,210,552.5,83,SBD,Single-ply,Sub-Juniors,M,,2
+Ilyas Kutliakhmetov,Ильяс Кутлиахметов,1996,81.15,Носорог,120,90,150,360,83,SBD,Single-ply,Sub-Juniors,M,,3
+Artemiy Matonin,Артемий Матонин,1994,86.7,Носорог,155,110,145,410,93,SBD,Single-ply,Sub-Juniors,M,,1
+Anton Moskovskikh,Антон Московских,1994,102.5,ЦБК,260,200,235,695,105,SBD,Single-ply,Sub-Juniors,M,,1
