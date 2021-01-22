@@ -40,6 +40,10 @@ FPIO_URL = 'http://fpio.org.ru/index.php?menu=7'
 NSO_URL = 'http://fp-nso.ru/%d0%b4%d0%be%d0%ba%d1%83%d0%bc%d0%b5%d0%bd%d1%82%d1%8b/'\
           '%d0%bf%d1%80%d0%be%d1%82%d0%be%d0%ba%d0%be%d0%bb%d1%8b/'
 
+PKFP_URL = 'http://ipf-perm.com/'
+
+MPF_URL = 'http://moscow-sila.ru/protokoly'
+
 
 FEDDIR = os.path.dirname(os.path.realpath(__file__))
 
@@ -171,6 +175,32 @@ def getmeetlist_NSO(html, main_url):
     return urls
 
 
+def getmeetlist_PKFP(html, main_url):
+    soup = BeautifulSoup(html, 'html.parser')
+    div = soup.find('div', {'class', 't585'})
+    urls = []
+    for a in div.find_all('a'):
+        if a.has_attr('href'):
+            url = a['href']
+            if 'yadi.sk' not in url:
+                continue
+            if url not in urls:
+                urls.append(url)
+    return urls
+
+
+def getmeetlist_MPF(html, main_url):
+    soup = BeautifulSoup(html, 'html.parser')
+    article = soup.find('article', {'id', 'post-7'})
+    urls = []
+    for a in article.find_all('a'):
+        if a.has_attr('href'):
+            url = a['href']
+            if url not in urls:
+                urls.append(url)
+    return urls
+
+
 def main():
 
     meetlist = []
@@ -186,6 +216,12 @@ def main():
 
     html_NSO = oplprobe.gethtml(NSO_URL)
     meetlist = meetlist + getmeetlist_NSO(html_NSO, NSO_URL)
+
+    html_PKFP = oplprobe.gethtml(PKFP_URL)
+    meetlist = meetlist + getmeetlist_PKFP(html_PKFP, PKFP_URL)
+
+    html_MPF = oplprobe.gethtml(MPF_URL)
+    meetlist = meetlist + getmeetlist_MPF(html_MPF, MPF_URL)
 
     entered = oplprobe.getenteredurls(FEDDIR)
     unentered = oplprobe.getunenteredurls(meetlist, entered)
