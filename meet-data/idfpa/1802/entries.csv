@@ -1,5 +1,4 @@
 Name,Sex,BodyweightKg,WeightClassKg,Age,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,Division,TotalKg,Event,Equipment,Place
-Smay Schmay,F,,,,,,,,-57.5,60,62.5,62.5,,,,,Guest,62.5,B,Raw,G
 Laura Campbell,F,60,60,,110,-115,-115,110,60,65,67.5,67.5,,,,,Open,177.5,SB,Raw,1
 Maedhbh Hanley,F,118.2,90+,,140,150,160,160,55,60,65,65,,,,,Open,225,SB,Raw,1
 Sandra Burke,F,58.5,60,,107.5,110,112.5,112.5,52.5,55,57.5,57.5,,,,,Open,170,SB,Raw,2
@@ -20,9 +19,6 @@ Ber Kiely,F,77.9,82.5,,70,77.5,80,80,42.5,-47.5,-47.5,42.5,,,,,Open,122.5,SB,Raw
 Lorraine Mc Carthy,F,86.6,90,,-50,60,70,70,40,45,-52.5,45,,,,,Open,115,SB,Raw,2
 Aine Dorgan,F,80,82.5,,35,45,-50,45,30,40,-42.5,40,,,,,Open,85,SB,Raw,2
 Kirsty Harris,F,72.3,75,,,,,,45,47.5,-50,47.5,,,,,Open,47.5,B,Raw,1
-Dr. Nwaezeigwe,M,,,,,,,,135,142.5,150,150,,,,,Guest,150,B,Raw,G
-Barry Pigott,M,,,,,,,,120,170,200,200,,,,,Guest,200,B,Raw,G
-Tiny The Unicorn,M,,,,,,,,130,-142.5,,130,,,,,Guest,130,B,Raw,G
 Sean McGrory,M,74.2,75,,-150,160,170,170,110,120,125,125,,,,,Open,295,SB,Raw,1
 Aidan Greene,M,90.8,100,,145,155,165,165,115,120,-125,120,,,,,Open,285,SB,Raw,1
 Stephen Walsh,M,88.6,90,,170,180,-190,180,90,100,-105,100,,,,,Open,280,SB,Raw,1
@@ -43,4 +39,3 @@ Carlos Gallis,M,116.8,125,,,,,,150,160,-165,160,,,,,Open,160,B,Raw,1
 Tommy Collins,M,88.4,90,,,,,,135,140,-145,140,,,,,Open,140,B,Raw,1
 John Mannion,M,82.4,82.5,,,,,,-117.5,122.5,-125,122.5,,,,,Open,122.5,B,Raw,1
 Rian Collins,M,80.9,82.5,,-140,150,-170,150,-100,-100,-100,,,,,,Open,,SB,Raw,DQ
-,,,,,,,,,,,,,,,,,,,,,
