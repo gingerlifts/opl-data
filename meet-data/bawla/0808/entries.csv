@@ -1,6 +1,6 @@
 WeightClassKg,BodyweightKg,Name,State,Country,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Event,Sex,Equipment,Division,AgeRange
 60,58.7,Nigel Patrick,NM,England,145,82.5,170,397.5,1,SBD,M,Raw,Open,
-60,58.6,Andrew Smith,EM,England,110,95,150,355,2,SBD,M,Raw,Open,
+60,58.6,Andrew Smith #3,EM,England,110,95,150,355,2,SBD,M,Raw,Open,
 67.5,66.3,Sean Kehoe,EM,England,140,120,200,460,1,SBD,M,Raw,Open,
 67.5,67.2,Samuel Welsh,NW,England,140,107.5,185,432.5,2,SBD,M,Raw,Open,
 75,74.6,Adam Tallis,NM,England,190,110,210,510,1,SBD,M,Raw,Open,
@@ -30,7 +30,7 @@ WeightClassKg,BodyweightKg,Name,State,Country,Best3SquatKg,Best3BenchKg,Best3Dea
 100,92.5,James Clutterbuck,SW,England,180,110,210,500,1,SBD,M,Raw,U18,14-17.5
 125,115,Joe Downey,,N.Ireland,180,145,250,575,1,SBD,M,Raw,U23,18.5-22.5
 125,114.9,Ricky Gates,EM,England,180,125,230,535,2,SBD,M,Raw,U23,18.5-22.5
-52,50.6,Louise Edwards,YNE,England,70,42.5,102.5,215,1,SBD,F,Raw,Open,
+52,50.6,Louise Edwards #1,YNE,England,70,42.5,102.5,215,1,SBD,F,Raw,Open,
 56,53.6,Karen Gillies,,Scotland,,,,,DQ,SBD,F,Raw,Open,
 56,55.8,Jenny Hunter,EM,England,97.5,75,153.5,326,1,SBD,F,Raw,M2,49.5-58.5
 60,59.3,Heather Scullion,NM,England,105,45,150,300,1,SBD,F,Raw,Open,
@@ -43,10 +43,10 @@ WeightClassKg,BodyweightKg,Name,State,Country,Best3SquatKg,Best3BenchKg,Best3Dea
 90+,96.2,Madeline Murtagh,YNE,England,130,70,157.5,357.5,1,SBD,F,Raw,M1,39.5-48.5
 67.5,67.5,Michael Roach,GL,England,140,87.5,180,407.5,1,SBD,M,Raw,M1,39.5-48.5
 75,74.9,Allen Ottolangui,EM,England,180,112.5,215,507.5,1,SBD,M,Raw,M1,39.5-48.5
-75,72.2,Raymond Bell,,Scotland,152.5,122.5,182.5,457.5,2,SBD,M,Raw,M1,39.5-48.5
+75,72.2,Raymond Bell #1,,Scotland,152.5,122.5,182.5,457.5,2,SBD,M,Raw,M1,39.5-48.5
 82.5,81.5,Colin Ramshaw,YNE,England,190,117.5,220,527.5,1,SBD,M,Raw,M1,39.5-48.5
 82.5,79.6,Alan Joseph,GL,England,165,117.5,207.5,490,2,SBD,M,Raw,M1,39.5-48.5
-82.5,81.6,Andrew Wright,YNE,England,155,117.5,210,482.5,3,SBD,M,Raw,M1,39.5-48.5
+82.5,81.6,Andrew Wright #3,YNE,England,155,117.5,210,482.5,3,SBD,M,Raw,M1,39.5-48.5
 82.5,77.8,Mick Coopey,YNE,England,170,100,195,465,4,SBD,M,Raw,M1,39.5-48.5
 90,88.2,Doug D'Gama,EM,England,190,150,240,580,1,SBD,M,Raw,M1,39.5-48.5
 90,87.7,Paul Coke,SW,England,175,110,230,515,2,SBD,M,Raw,M1,39.5-48.5
