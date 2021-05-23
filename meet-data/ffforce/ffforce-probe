@@ -2,11 +2,11 @@
 # vim: set ts=8 sts=4 et sw=4 tw=99:
 #
 # Probes for new Fédération Française de Force meets.
-# Also checks the results archive.
 
 from bs4 import BeautifulSoup
 import os
 import sys
+import requests
 
 try:
     import oplprobe
@@ -16,7 +16,7 @@ except ImportError:
     import oplprobe
 
 
-RESULTS_URL = "http://www.ffforce.fr/tous-les-resultats/"
+RESULTS_URL = "https://www.ffforce.fr/fr/nos-disciplines/force-athletique-ffforce/competitions-force-athletique/archives-des-resultats-force-athletique.html"
 FEDDIR = os.path.dirname(os.path.realpath(__file__))
 
 
@@ -27,13 +27,20 @@ def color(s):
 def getmeetlist(html):
     soup = BeautifulSoup(html, 'html.parser')
 
-    main = soup.find_all("div", {"class": "main-content"})
-    assert main, "No <div> element with class `main-content` found."
+    # get the value attribute for the most recent season in the season dropdown then make a POST request
+    season_selector = soup.find('select')
+    options = season_selector.find_all('option')
+    most_recent_season = options[1]['value']
+    most_recent_results = requests.post(RESULTS_URL, {'jsArtSelectCategorie': most_recent_season})
+    soup_most_recent_results = BeautifulSoup(most_recent_results.text, 'html.parser')
 
-    links = main[0].find_all("a", {"class": "ligne_xls"})
-    assert links, "No <a> elements with class `ligne_xls` found."
+    main = soup_most_recent_results.find("div", {"class": "tableau-classmt"})
+    assert main, "No <div> element with class `tableau-classmt` found."
 
-    return set(map(lambda link: link['href'].strip(), links))
+    links = main.find_all("a")
+    assert links, "No <a> elements found."
+
+    return set(map(lambda link: "https://www.ffforce.fr" + link['href'].strip(), links))
 
 
 def main():
