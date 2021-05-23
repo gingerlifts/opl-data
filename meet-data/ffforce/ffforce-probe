@@ -16,7 +16,9 @@ except ImportError:
     import oplprobe
 
 
-RESULTS_URL = "https://www.ffforce.fr/fr/nos-disciplines/force-athletique-ffforce/competitions-force-athletique/archives-des-resultats-force-athletique.html"
+RESULTS_URL = ("https://www.ffforce.fr/fr/nos-disciplines/"
+               "force-athletique-ffforce/competitions-force-athletique/"
+               "archives-des-resultats-force-athletique.html")
 FEDDIR = os.path.dirname(os.path.realpath(__file__))
 
 
@@ -27,14 +29,15 @@ def color(s):
 def getmeetlist(html):
     soup = BeautifulSoup(html, 'html.parser')
 
-    # get the value attribute for the most recent season in the season dropdown then make a POST request
+    # get the value attribute for the most recent season in the season dropdown
+    # then make a POST request
     season_selector = soup.find('select')
     options = season_selector.find_all('option')
-    most_recent_season = options[1]['value']
-    most_recent_results = requests.post(RESULTS_URL, {'jsArtSelectCategorie': most_recent_season})
-    soup_most_recent_results = BeautifulSoup(most_recent_results.text, 'html.parser')
+    latest_season = options[1]['value']
+    latest_results = requests.post(RESULTS_URL, {'jsArtSelectCategorie': latest_season})
+    soup_latest_results = BeautifulSoup(latest_results.text, 'html.parser')
 
-    main = soup_most_recent_results.find("div", {"class": "tableau-classmt"})
+    main = soup_latest_results.find("div", {"class": "tableau-classmt"})
     assert main, "No <div> element with class `tableau-classmt` found."
 
     links = main.find_all("a")
