@@ -1,15 +1,15 @@
-Name,Sex,BirthYear,BirthDate,Age,Equipment,Division,BodyweightKg,WeightClassKg,Best3BenchKg,TotalKg,Place,Event
-Valerie Silver,F,1949,,72,Unlimited,Amateur Masters 70-74,59.9,60,52.5,52.5,1,B
-Samantha Ong,F,1988,,32,Raw,Amateur Open,81,82.5,65,65,1,B
-Le Roy Vorster,M,1986,,34,Unlimited,Pro Open,123,125,330,330,1,B
-Les Wroe,M,1989,,32,Unlimited,Amateur Open,156,140+,325,325,2,B
-Jason Brown,M,1972,,48,Unlimited,Amateur Masters 45-49,122.5,125,265,265,3,B
-Bradley Lloyd-Jones,M,1996,,25,Unlimited,Amateur Open,99.9,100,275,275,4,B
-Ron Birch,M,1945,,76,Unlimited,Amateur Masters 75-79,93,100,130,130,5,B
-Regan Mitchell,M,1977,,43,Unlimited,Amateur Masters 40-44,102.1,110,220,220,6,B
-Jack Ridge,M,1992,,29,Unlimited,Amateur Open,104,110,235,235,7,B
-Russell Alderton,M,1981,,39,Unlimited,Amateur Submasters 35-39,109.8,110,225,225,8,B
-Manatuki Pryor,M,1973,,47,Unlimited,Amateur Masters 45-49,114.6,125,200,200,9,B
-Anderson Janes,M,2001,,19,Unlimited,Amateur Teen 18-19,108,110,170,170,10,B
-Chris Skaroupka,M,1985,,36,Unlimited,Amateur Submasters 35-39,122,125,150,150,11,B
-Conrad Schmidt,M,1979,,41,Raw,Amateur Masters 40-44,109.9,110,180,180,1,B
+Place,Name,Sex,BirthYear,BirthDate,Age,Equipment,Division,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,TotalKg,Event
+1,Valerie Silver,F,1949,,72,Unlimited,Masters 70-74,59.9,60,52.5,-55,-55,,52.5,52.5,B
+1,Samantha Ong,F,1988,,32,Raw,Open,81,82.5,57.5,-62.5,65,,65,65,B
+1,Le Roy Vorster,M,1986,,34,Unlimited,Open,123,125,300,330,-367.5,,330,330,B
+2,Les Wroe,M,1989,,32,Unlimited,Open,156,140+,300,325,-345,,325,325,B
+3,Jason Brown,M,1972,,48,Unlimited,Masters 45-49,122.5,125,240,-265,265,,265,265,B
+4,Bradley Lloyd-Jones,M,1996,,25,Unlimited,Open,99.9,100,-240,240,262.5,275,262.5,262.5,B
+5,Ron Birch,M,1945,,76,Unlimited,Masters 75-79,93,100,120,130,-137.5,,130,130,B
+6,Regan Mitchell,M,1977,,43,Unlimited,Masters 40-44,102.1,110,200,212.5,220,,220,220,B
+7,Jack Ridge,M,1992,,29,Unlimited,Open,104,110,220,235,-260,,235,235,B
+8,Russell Alderton,M,1981,,39,Unlimited,Submasters 35-39,109.8,110,210,225,-245,,225,225,B
+9,Manatuki Pryor,M,1973,,47,Unlimited,Masters 45-49,114.6,125,-200,200,-210,,200,200,B
+10,Anderson Janes,M,2001,,19,Unlimited,Teen 18-19,108,110,160,170,-180,,170,170,B
+11,Chris Skaroupka,M,1985,,36,Unlimited,Submasters 35-39,122,125,150,-200,-200,,150,150,B
+1,Conrad Schmidt,M,1979,,41,Raw,Masters 40-44,109.9,110,165,180,-190,,180,180,B
