@@ -70,6 +70,10 @@ pub fn check_duplicates_one(
                 if cur_meet.date == opltypes::Date::from_parts(2001, 4, 21) {
                     continue;
                 }
+                // mags/ip/IP-2002-02-16-C and mags/ip/IP-2002-02-16-B.
+                if cur_meet.date == opltypes::Date::from_parts(2002, 02, 10) {
+                    continue;
+                }
                 // usapl/NS-2021-07 and usapl/NS-2021-07-B.
                 if cur_meet.date == opltypes::Date::from_parts(2021, 03, 20) {
                     continue;
