@@ -1,7 +1,7 @@
 Name,WeightClassKg,Division,Sex,AgeRange,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Bev McGee,67.5,Open,F,,100,65,145,310,SBD,Single-ply,1
 Ford Armedilla,52,Open,M,,137.5,67.5,130,335,SBD,Single-ply,1
-Chris Murray #5 #7,52,Open,M,14-19,60,62.5,100,222.5,SBD,Single-ply,2
+Chris Murray #7,52,Open,M,14-19,60,62.5,100,222.5,SBD,Single-ply,2
 Dave Edmondson,60,Open,M,,210,117.5,210,537.5,SBD,Single-ply,1
 Todd Condiff,60,Open,M,14-19,170,105,170,445,SBD,Single-ply,2
 Darnell Fernelius,60,Open,M,,105,82.5,152.5,340,SBD,Single-ply,3
@@ -10,7 +10,7 @@ Marcel Archuleta,67.5,Open,M,,215,117.5,212.5,545,SBD,Single-ply,2
 Evan Nakachi,67.5,Open,M,,187.5,135,200,522.5,SBD,Single-ply,3
 Dwight Burkes,67.5,Open,M,40-999,145,112.5,185,442.5,SBD,Single-ply,4
 Matt Bohm,67.5,Open,M,,172.5,92.5,175,440,SBD,Single-ply,5
-Alan Murray #5,67.5,Open,M,,150,77.5,210,437.5,SBD,Single-ply,6
+Alan Murray,67.5,Open,M,,150,77.5,210,437.5,SBD,Single-ply,6
 Francis Taro,67.5,Open,M,,142.5,110,142.5,395,SBD,Single-ply,7
 John DeSandre,67.5,Open,M,,115,87.5,182.5,385,SBD,Single-ply,8
 John Winkler,67.5,Open,M,,,,,,SBD,Single-ply,DQ
