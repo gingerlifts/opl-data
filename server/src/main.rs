@@ -1,4 +1,5 @@
-#![feature(proc_macro_hygiene, decl_macro)]
+//! The OpenPowerlifting server!
+
 // Suppress clippy warnings for date literals.
 #![allow(clippy::inconsistent_digit_grouping)]
 #![allow(clippy::zero_prefixed_literal)]
@@ -11,7 +12,8 @@ use opltypes::{Federation, WeightUnits};
 extern crate rocket;
 
 // Distributions, like OpenIPF.
-mod dist;
+// TODO(sstangl): Re-enable.
+//mod dist;
 
 // Shared Rocket code between the main server and distributions.
 mod common;
@@ -23,12 +25,15 @@ mod tests;
 use langpack::{LangInfo, Language, Locale};
 use opltypes::Username;
 
-use rocket::http::{ContentType, Cookies, Status};
-use rocket::request::{Form, Request};
-use rocket::response::{NamedFile, Redirect, Responder, Response};
+use rocket::fs::NamedFile;
+use rocket::http::{ContentType, CookieJar, Status};
+use rocket::request::Request;
+use rocket::response::{Redirect, Responder, Response};
 use rocket::State;
-use rocket_contrib::json::Json;
-use rocket_contrib::templates::Template;
+use rocket::{Rocket, Build};
+use rocket::serde::json::Json;
+
+use rocket_dyn_templates::Template;
 
 use std::collections::HashMap;
 use std::env;
@@ -48,8 +53,8 @@ enum StaticFile {
     Plain(NamedFile),
 }
 
-impl Responder<'static> for StaticFile {
-    fn respond_to(self, req: &Request) -> Result<Response<'static>, Status> {
+impl<'r> Responder<'r, 'static> for StaticFile {
+    fn respond_to(self, req: &'r Request) -> Result<Response<'static>, Status> {
         let mut response = match self {
             StaticFile::Gzipped(p, f) => {
                 let mut r = f.respond_to(req)?;
@@ -70,7 +75,7 @@ impl Responder<'static> for StaticFile {
 }
 
 #[get("/static/<file..>")]
-fn statics(file: PathBuf, encoding: AcceptEncoding) -> Option<StaticFile> {
+async fn statics(file: PathBuf, encoding: AcceptEncoding) -> Option<StaticFile> {
     let staticdir = env::var("STATICDIR").ok()?;
     let filepath = Path::new(&staticdir).join(&file);
 
@@ -83,31 +88,31 @@ fn statics(file: PathBuf, encoding: AcceptEncoding) -> Option<StaticFile> {
         }
     }
 
-    let namedfile = NamedFile::open(filepath).ok()?;
+    let namedfile = NamedFile::open(filepath).await.ok()?;
     Some(StaticFile::Plain(namedfile))
 }
 
 /// Actually store the favicon in static/images/,
 /// but allow serving from the root.
 #[get("/favicon.ico")]
-fn root_favicon(encoding: AcceptEncoding) -> Option<StaticFile> {
-    statics(PathBuf::from("images/favicon.ico"), encoding)
+async fn root_favicon(encoding: AcceptEncoding) -> Option<StaticFile> {
+    statics(PathBuf::from("images/favicon.ico"), encoding).await
 }
 
 #[get("/apple-touch-icon.png")]
-fn root_apple_touch_icon(encoding: AcceptEncoding) -> Option<StaticFile> {
-    statics(PathBuf::from("images/apple-touch-icon.png"), encoding)
+async fn root_apple_touch_icon(encoding: AcceptEncoding) -> Option<StaticFile> {
+    statics(PathBuf::from("images/apple-touch-icon.png"), encoding).await
 }
 
 #[get("/rankings/<selections..>?<lang>")]
 fn rankings(
     selections: PathBuf,
     lang: Option<String>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<LangInfo>,
+    opldb: &State<ManagedOplDb>,
+    langinfo: &State<LangInfo>,
     languages: AcceptLanguage,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Template> {
     let defaults = opldb::query::direct::RankingsQuery::default();
     let selection =
@@ -130,11 +135,11 @@ fn rankings_redirect() -> Redirect {
 fn records(
     selections: Option<PathBuf>,
     lang: Option<String>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<LangInfo>,
+    opldb: &State<ManagedOplDb>,
+    langinfo: &State<LangInfo>,
     languages: AcceptLanguage,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Template> {
     let default = pages::records::RecordsQuery::default();
     let selection = if let Some(sel) = selections {
@@ -159,11 +164,11 @@ fn records(
 #[get("/records?<lang>")]
 fn records_default(
     lang: Option<String>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<LangInfo>,
+    opldb: &State<ManagedOplDb>,
+    langinfo: &State<LangInfo>,
     languages: AcceptLanguage,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Template> {
     records(None, lang, opldb, langinfo, languages, device, cookies)
 }
@@ -172,11 +177,11 @@ fn records_default(
 fn lifter(
     username: String,
     lang: Option<String>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<LangInfo>,
+    opldb: &State<ManagedOplDb>,
+    langinfo: &State<LangInfo>,
     languages: AcceptLanguage,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Result<Template, Redirect>> {
     let locale = make_locale(&langinfo, lang, languages, &cookies);
 
@@ -246,8 +251,8 @@ fn lifter(
 /// Wrapper for a CSV file as a String, to give it a Responder impl.
 struct CsvFile(String);
 
-impl Responder<'static> for CsvFile {
-    fn respond_to(self, req: &Request) -> Result<Response<'static>, Status> {
+impl<'r> Responder<'r, 'static> for CsvFile {
+    fn respond_to(self, req: &'r Request) -> Result<Response<'static>, Status> {
         let mut r = self.0.respond_to(req)?;
         r.set_header(ContentType::CSV);
         Ok(r)
@@ -256,7 +261,7 @@ impl Responder<'static> for CsvFile {
 
 /// Exports single-lifter data as a CSV file.
 #[get("/u/<username>/csv")]
-fn lifter_csv(username: String, opldb: State<ManagedOplDb>) -> Option<CsvFile> {
+fn lifter_csv(username: String, opldb: &State<ManagedOplDb>) -> Option<CsvFile> {
     let lifter_id = opldb.get_lifter_id(&username)?;
     let entry_filter = None;
     Some(CsvFile(
@@ -268,11 +273,11 @@ fn lifter_csv(username: String, opldb: State<ManagedOplDb>) -> Option<CsvFile> {
 fn meetlist(
     mselections: Option<PathBuf>,
     lang: Option<String>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<LangInfo>,
+    opldb: &State<ManagedOplDb>,
+    langinfo: &State<LangInfo>,
     languages: AcceptLanguage,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Template> {
     let defaults = pages::meetlist::MeetListQuery::default();
     let mselection = match mselections {
@@ -291,11 +296,11 @@ fn meetlist(
 #[get("/mlist?<lang>")]
 fn meetlist_default(
     lang: Option<String>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<LangInfo>,
+    opldb: &State<ManagedOplDb>,
+    langinfo: &State<LangInfo>,
     languages: AcceptLanguage,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Template> {
     meetlist(None, lang, opldb, langinfo, languages, device, cookies)
 }
@@ -304,11 +309,11 @@ fn meetlist_default(
 fn meet(
     meetpath: PathBuf,
     lang: Option<String>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<LangInfo>,
+    opldb: &State<ManagedOplDb>,
+    langinfo: &State<LangInfo>,
     languages: AcceptLanguage,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Template> {
     let mut meetpath_str: &str = meetpath.to_str()?;
     let mut sort = pages::meet::MeetSortSelection::ByFederationDefault;
@@ -334,11 +339,11 @@ fn meet(
 #[get("/status?<lang>")]
 fn status(
     lang: Option<String>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<LangInfo>,
+    opldb: &State<ManagedOplDb>,
+    langinfo: &State<LangInfo>,
     languages: AcceptLanguage,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Template> {
     let locale = make_locale(&langinfo, lang, languages, &cookies);
     let context = pages::status::Context::new(&opldb, &locale, None);
@@ -352,10 +357,10 @@ fn status(
 #[get("/faq?<lang>")]
 fn faq(
     lang: Option<String>,
-    langinfo: State<LangInfo>,
+    langinfo: &State<LangInfo>,
     languages: AcceptLanguage,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Template> {
     let locale = make_locale(&langinfo, lang, languages, &cookies);
     let context = pages::faq::Context::new(&locale);
@@ -369,10 +374,10 @@ fn faq(
 #[get("/contact?<lang>")]
 fn contact(
     lang: Option<String>,
-    langinfo: State<LangInfo>,
+    langinfo: &State<LangInfo>,
     languages: AcceptLanguage,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Template> {
     let locale = make_locale(&langinfo, lang, languages, &cookies);
     let context = pages::contact::Context::new(&locale);
@@ -393,11 +398,11 @@ enum IndexReturn {
 fn index(
     lang: Option<String>,
     fed: Option<String>, // For handling old-style URLs.
-    opldb: State<ManagedOplDb>,
-    langinfo: State<LangInfo>,
+    opldb: &State<ManagedOplDb>,
+    langinfo: &State<LangInfo>,
     languages: AcceptLanguage,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<IndexReturn> {
     // Handle old-style URLs. Hopefully we can remove this code one day.
     if let Some(fedstr) = fed {
@@ -421,9 +426,9 @@ fn index(
 #[get("/api/rankings/<selections..>?<query..>")]
 fn rankings_api(
     selections: Option<PathBuf>,
-    query: Form<RankingsApiQuery>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<LangInfo>,
+    query: RankingsApiQuery,
+    opldb: &State<ManagedOplDb>,
+    langinfo: &State<LangInfo>,
 ) -> Option<JsonString> {
     let defaults = opldb::query::direct::RankingsQuery::default();
     let selection = match selections {
@@ -451,9 +456,9 @@ fn rankings_api(
 
 #[get("/api/rankings?<query..>")]
 fn default_rankings_api(
-    query: Form<RankingsApiQuery>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<LangInfo>,
+    query: RankingsApiQuery,
+    opldb: &State<ManagedOplDb>,
+    langinfo: &State<LangInfo>,
 ) -> Option<JsonString> {
     rankings_api(None, query, opldb, langinfo)
 }
@@ -462,8 +467,8 @@ fn default_rankings_api(
 #[get("/api/search/rankings/<selections..>?<query..>")]
 fn search_rankings_api(
     selections: Option<PathBuf>,
-    query: Form<SearchRankingsApiQuery>,
-    opldb: State<ManagedOplDb>,
+    query: SearchRankingsApiQuery,
+    opldb: &State<ManagedOplDb>,
 ) -> Option<JsonString> {
     let default = opldb::query::direct::RankingsQuery::default();
     let selection = match selections {
@@ -478,8 +483,8 @@ fn search_rankings_api(
 
 #[get("/api/search/rankings?<query..>")]
 fn default_search_rankings_api(
-    query: Form<SearchRankingsApiQuery>,
-    opldb: State<ManagedOplDb>,
+    query: SearchRankingsApiQuery,
+    opldb: &State<ManagedOplDb>,
 ) -> Option<JsonString> {
     search_rankings_api(None, query, opldb)
 }
@@ -494,7 +499,7 @@ fn dev_main() -> Template {
 /// Handles POST requests for getting data checked.
 #[post("/checker", data = "<input>")]
 fn dev_checker_post(
-    opldb: State<ManagedOplDb>,
+    opldb: &State<ManagedOplDb>,
     input: Json<pages::checker::CheckerInput>,
 ) -> Option<JsonString> {
     let output = pages::checker::check(&opldb, &input);
@@ -502,7 +507,7 @@ fn dev_checker_post(
 }
 
 #[get("/lifters.html?<q>")]
-fn old_lifters(opldb: State<ManagedOplDb>, q: String) -> Option<Redirect> {
+fn old_lifters(opldb: &State<ManagedOplDb>, q: String) -> Option<Redirect> {
     let username = Username::from_name(&q).ok()?;
     opldb.get_lifter_id(username.as_str())?; // Ensure username exists.
     Some(Redirect::permanent(format!("/u/{}", username)))
@@ -514,7 +519,7 @@ fn old_meetlist() -> Redirect {
 }
 
 #[get("/meet.html?<m>")]
-fn old_meet(opldb: State<ManagedOplDb>, m: String) -> Option<Redirect> {
+fn old_meet(opldb: &State<ManagedOplDb>, m: String) -> Option<Redirect> {
     let meetpath = &m;
     let id = opldb.get_meet_id(meetpath)?;
     let pathstr = &opldb.get_meet(id).path;
@@ -574,6 +579,7 @@ fn internal_error() -> &'static str {
     "500"
 }
 
+/*
 fn rocket(opldb: ManagedOplDb, langinfo: LangInfo) -> rocket::Rocket {
     // Initialize the server.
     rocket::ignite()
@@ -622,27 +628,28 @@ fn rocket(opldb: ManagedOplDb, langinfo: LangInfo) -> rocket::Rocket {
                 old_contact,
             ],
         )
-        .mount(
-            dist::openipf::LOCAL_PREFIX,
-            routes![
-                dist::openipf::index,
-                dist::openipf::rankings,
-                dist::openipf::rankings_api,
-                dist::openipf::default_rankings_api,
-                dist::openipf::search_rankings_api,
-                dist::openipf::default_search_rankings_api,
-                dist::openipf::records,
-                dist::openipf::records_default,
-                dist::openipf::lifter,
-                dist::openipf::lifter_csv,
-                dist::openipf::meetlist,
-                dist::openipf::meetlist_default,
-                dist::openipf::meet,
-                dist::openipf::status,
-                dist::openipf::faq,
-                dist::openipf::contact,
-            ],
-        )
+//         TODO(sstangl): Re-enable.
+//        .mount(
+//            dist::openipf::LOCAL_PREFIX,
+//            routes![
+//                dist::openipf::index,
+//                dist::openipf::rankings,
+//                dist::openipf::rankings_api,
+//                dist::openipf::default_rankings_api,
+//                dist::openipf::search_rankings_api,
+//                dist::openipf::default_search_rankings_api,
+//                dist::openipf::records,
+//                dist::openipf::records_default,
+//                dist::openipf::lifter,
+//                dist::openipf::lifter_csv,
+//                dist::openipf::meetlist,
+//                dist::openipf::meetlist_default,
+//                dist::openipf::meet,
+//                dist::openipf::status,
+//                dist::openipf::faq,
+//                dist::openipf::contact,
+//            ],
+//        )
         .register(catchers![not_found, internal_error])
         .attach(Template::fairing())
         .attach(rocket::fairing::AdHoc::on_response(
@@ -652,8 +659,95 @@ fn rocket(opldb: ManagedOplDb, langinfo: LangInfo) -> rocket::Rocket {
             },
         ))
 }
+*/
 
-fn main() -> Result<(), Box<dyn Error>> {
+fn rocket(opldb: ManagedOplDb, langinfo: LangInfo) -> Rocket<Build> {
+    rocket::build()
+        .manage(opldb)
+        .manage(langinfo)
+        .mount(
+            "/",
+            routes![
+                index,
+                rankings,
+                rankings_redirect,
+                records,
+                records_default,
+                lifter,
+                lifter_csv,
+                meetlist,
+                meetlist_default,
+                meet,
+                statics,
+                root_favicon,
+                root_apple_touch_icon,
+                status,
+                faq,
+                contact,
+                robots_txt,
+            ],
+        )
+        .mount(
+            "/",
+            routes![
+                rankings_api,
+                default_rankings_api,
+                search_rankings_api,
+                default_search_rankings_api
+            ],
+        )
+        .mount("/dev/", routes![dev_main, dev_checker_post])
+        .mount(
+            "/",
+            routes![
+                old_lifters,
+                old_meetlist,
+                old_meet,
+                old_index,
+                old_faq,
+                old_contact,
+            ],
+        )
+        .attach(Template::fairing())
+}
+
+#[rocket::main]
+async fn main() -> Result<(), Box<dyn Error>> {
+    // Accept an optional "--set-cwd" argument to manually specify the
+    // current working directory. This allows the binary and the data
+    // to be separated on a production server.
+    let args: Vec<String> = env::args().collect();
+    if args.len() == 3 && args[1] == "--set-cwd" {
+        let fileroot = Path::new(&args[2]);
+        env::set_current_dir(&fileroot).expect("Invalid --set-cwd argument");
+    }
+
+    // Populate std::env with the contents of any .env file.
+    dotenv::from_filename("server.env").expect("Couldn't find server.env");
+
+    // Ensure that "STATICDIR" is set.
+    env::var("STATICDIR").expect("STATICDIR envvar not set");
+
+    // Load the OplDb.
+    let start = std::time::Instant::now();
+    let lifters_csv = env::var("LIFTERS_CSV").expect("LIFTERS_CSV not set");
+    let meets_csv = env::var("MEETS_CSV").expect("MEETS_CSV not set");
+    let entries_csv = env::var("ENTRIES_CSV").expect("ENTRIES_CSV not set");
+    let opldb = opldb::OplDb::from_csv(&lifters_csv, &meets_csv, &entries_csv)?;
+    println!(
+        "DB loaded in {}MB and {:#?}.",
+        opldb.size_bytes() / 1024 / 1024,
+        start.elapsed()
+    );
+
+    #[cfg(not(test))]
+    let _ = rocket(opldb, LangInfo::default()).launch().await;
+
+    Ok(())
+}
+
+/*
+fn main_old() -> Result<(), Box<dyn Error>> {
     // Accept an optional "--set-cwd" argument to manually specify the
     // current working directory. This allows the binary and the data
     // to be separated on a production server.
@@ -685,3 +779,4 @@ fn main() -> Result<(), Box<dyn Error>> {
     rocket(opldb, LangInfo::default()).launch();
     Ok(())
 }
+*/
