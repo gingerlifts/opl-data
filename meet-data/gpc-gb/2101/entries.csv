@@ -1,6 +1,6 @@
 Name,Age,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Place,Sex,Equipment,Event,BirthDate,Country
 Budgie Mullan,77,M-O,59.85,60,45,55,65,,65,50,57.5,-60,,57.5,75,110,120,,120,242.5,4,M,Wraps,SBD,,Scotland
-Tyler Smith,18,M-T2,68.75,75,115,135,-142.5,,135,-70,77.5,-85,,77.5,165,-175,175,,175,387.5,1,M,Wraps,SBD,,Scotland
+Tyler Smith,,M-T2,68.75,75,115,135,-142.5,,135,-70,77.5,-85,,77.5,165,-175,175,,175,387.5,1,M,Wraps,SBD,,Scotland
 Jack May,26,M-O,81.9,82.5,175,-185,185,,185,120,127.5,-132.5,,127.5,175,190,202.5,,202.5,515,7,M,Wraps,SBD,,Scotland
 Tim Drysdale,38,M-O,74.35,75,170,182.5,-192.5,,182.5,100,110,-120,,110,180,195,-210,,195,487.5,6,M,Wraps,SBD,,Scotland
 Mark Cope,35,M-O,88.65,90,150,-160,160,,160,110,120,130,,130,180,200,215,,215,505,9,M,Wraps,SBD,,Scotland
@@ -13,7 +13,7 @@ Graham Dowers,57,M-M4,71.9,75,180,190,200,,200,125,135,140,,140,190,200,,,200,54
 James Ingram,46,M-M2,89.7,90,210,-220,-220,,210,122.5,-130,130,,130,220,232.5,,,232.5,572.5,1,M,Wraps,SBD,,Scotland
 Andrew Smith #2,31,M-O,81.45,82.5,227.5,240,250,,250,147.5,155,160,,160,235,-250,,,235,645,3,M,Wraps,SBD,,Scotland
 Shane Cahill,37,M-O,65,67.5,,,,,,92.5,100,-107.5,,100,,,,,,100,1,M,Raw,B,,Scotland
-Gillian McLucky,34,F-OE,64.65,67.5,-85,85,-100,,85,45,-52.5,52.5,,52.5,100,-115,,,100,237.5,1,F,Multi-ply,SBD,,Scotland
+Gillian McLucky,34,F-O-E,64.65,67.5,-85,85,-100,,85,45,-52.5,52.5,,52.5,100,-115,,,100,237.5,1,F,Multi-ply,SBD,,Scotland
 Lesley Foulger,36,F-O,57.5,60,-75,-80,-80,,,42.5,45,-47.5,,45,110,117.5,-122.5,,117.5,,DQ,F,Wraps,SBD,,Scotland
 Sarah Ann Toner,36,F-O,73.5,75,85,-95,-95,,85,47.5,52.5,-55,,52.5,110,120,127.5,,127.5,265,12,F,Wraps,SBD,,Scotland
 Stephanie Curl,37,F-O,59.95,60,110,-120,120,,120,-52.5,-52.5,52.5,,52.5,110,120,-130,,120,292.5,8,F,Wraps,SBD,,Scotland
@@ -51,13 +51,13 @@ Chris Gray,30,M-O,109.3,110,-200,200,-210,,200,150,160,-170,,160,220,240,-260,,2
 Darren Leggatt,36,M-O,130.4,140,,,,,,,,,,,230,260,280,,280,280,1,M,Raw,D,,Scotland
 Robert Caldwell,53,M-M3,108.4,110,-235,240,-252.5,,240,155,160,,,160,235,245,-252.5,,245,645,1,M,Wraps,SBD,,Scotland
 Gary Patrick,,M-O,109.5,110,245,262.5,-272.5,,262.5,155,165,-170,,165,237.5,-262.5,-262.5,,237.5,665,13,M,Wraps,SBD,,Scotland
-Frank Sinclair,59,M-M4E,102.5,110,,,,,,,,,,,240,-250,-250,,240,240,1,M,Multi-ply,D,,Scotland
+Frank Sinclair,59,M-M4-E,102.5,110,,,,,,,,,,,240,-250,-250,,240,240,1,M,Multi-ply,D,,Scotland
 Derek Alexander,44,M-M1,96,100,220,,,,220,160,,,,160,250,,,,250,630,3,M,Wraps,SBD,,Scotland
-Neil Gren,38,M-M1,99.8,100,220,227.5,235,,235,150,157.5,162.5,,162.5,260,270,-275,,270,667.5,4,M,Wraps,SBD,,Scotland
+Neil Gren,,M-M1,99.8,100,220,227.5,235,,235,150,157.5,162.5,,162.5,260,270,-275,,270,667.5,4,M,Wraps,SBD,,Scotland
 Torin Pierce,22,M-J,102.65,110,-250,250,275,,275,145,160,-170,,160,265,285,-300,,285,720,1,M,Wraps,SBD,,Scotland
 Mark Topham,31,M-O,108.9,110,230,240,255,,255,185,192.5,200,,200,270,282.5,300,,300,755,3,M,Wraps,SBD,,Scotland
 Robert Hopkinson,26,M-O,101.65,110,245,260,270,,270,170,177.5,-182.5,,177.5,272.5,-282.5,-282.5,,272.5,720,6,M,Wraps,SBD,,Scotland
 Eben Van Wyk,40,M-M1,109.6,110,240,255,,,255,170,180,-190,,180,280,300,320,,320,755,1,M,Wraps,SBD,,Scotland
 Scott McAlpine,,M-O,109.9,110,300,320,,,320,180,190,202.5,,202.5,300,-320,320,,320,842.5,13,M,Wraps,SBD,,Scotland
-Joe McEwan,29,M-OE,114.4,125,,,,,,-230,-230,-230,,,,,,,,,DQ,M,Multi-ply,B,,Scotland
-Neil Elliott,50,M-M3E,122.5,125,,,,,,-255,-260,-260,,,,,,,,,DQ,M,Multi-ply,B,,Scotland
+Joe McEwan,29,M-O-E,114.4,125,,,,,,-230,-230,-230,,,,,,,,,DQ,M,Multi-ply,B,,Scotland
+Neil Elliott,50,M-M3-E,122.5,125,,,,,,-255,-260,-260,,,,,,,,,DQ,M,Multi-ply,B,,Scotland
