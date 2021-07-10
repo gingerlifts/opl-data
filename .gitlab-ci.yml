@@ -24,8 +24,9 @@ server:
       - target
       - server/client/node_modules
   before_script:
-    - apt-get update -qq && apt-get install -y curl nodejs python3-pip
-    - curl -sL https://deb.nodesource.com/setup_10.x | bash -
+    - apt-get update -qq && apt-get install -y curl
+    - curl -sL https://deb.nodesource.com/setup_14.x | bash -
+    - apt-get install -y nodejs python3-pip
     - pip3 install toml
   script:
     - make csv
