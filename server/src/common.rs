@@ -1,9 +1,9 @@
 //! Shared Rocket code between main.rs and dist/.
 
 use rocket::http::{CookieJar, Status};
+use rocket::outcome::Outcome;
 use rocket::request::{self, FromRequest, Request};
 use rocket::response::{self, content, Responder};
-use rocket::outcome::Outcome;
 
 use langpack::{LangInfo, Language, Locale};
 use opltypes::WeightUnits;

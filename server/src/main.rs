@@ -12,8 +12,7 @@ use opltypes::{Federation, WeightUnits};
 extern crate rocket;
 
 // Distributions, like OpenIPF.
-// TODO(sstangl): Re-enable.
-//mod dist;
+mod dist;
 
 // Shared Rocket code between the main server and distributions.
 mod common;
@@ -29,10 +28,9 @@ use rocket::fs::NamedFile;
 use rocket::http::{ContentType, CookieJar, Status};
 use rocket::request::Request;
 use rocket::response::{Redirect, Responder, Response};
-use rocket::State;
-use rocket::{Rocket, Build};
 use rocket::serde::json::Json;
-
+use rocket::State;
+use rocket::{Build, Rocket};
 use rocket_dyn_templates::Template;
 
 use std::collections::HashMap;
@@ -579,88 +577,6 @@ fn internal_error() -> &'static str {
     "500"
 }
 
-/*
-fn rocket(opldb: ManagedOplDb, langinfo: LangInfo) -> rocket::Rocket {
-    // Initialize the server.
-    rocket::ignite()
-        .manage(opldb)
-        .manage(langinfo)
-        .mount(
-            "/",
-            routes![
-                index,
-                rankings,
-                rankings_redirect,
-                records,
-                records_default,
-                lifter,
-                lifter_csv,
-                meetlist,
-                meetlist_default,
-                meet,
-                statics,
-                root_favicon,
-                root_apple_touch_icon,
-                status,
-                faq,
-                contact,
-                robots_txt,
-            ],
-        )
-        .mount("/dev/", routes![dev_main, dev_checker_post])
-        .mount(
-            "/",
-            routes![
-                rankings_api,
-                default_rankings_api,
-                search_rankings_api,
-                default_search_rankings_api
-            ],
-        )
-        .mount(
-            "/",
-            routes![
-                old_lifters,
-                old_meetlist,
-                old_meet,
-                old_index,
-                old_faq,
-                old_contact,
-            ],
-        )
-//         TODO(sstangl): Re-enable.
-//        .mount(
-//            dist::openipf::LOCAL_PREFIX,
-//            routes![
-//                dist::openipf::index,
-//                dist::openipf::rankings,
-//                dist::openipf::rankings_api,
-//                dist::openipf::default_rankings_api,
-//                dist::openipf::search_rankings_api,
-//                dist::openipf::default_search_rankings_api,
-//                dist::openipf::records,
-//                dist::openipf::records_default,
-//                dist::openipf::lifter,
-//                dist::openipf::lifter_csv,
-//                dist::openipf::meetlist,
-//                dist::openipf::meetlist_default,
-//                dist::openipf::meet,
-//                dist::openipf::status,
-//                dist::openipf::faq,
-//                dist::openipf::contact,
-//            ],
-//        )
-        .register(catchers![not_found, internal_error])
-        .attach(Template::fairing())
-        .attach(rocket::fairing::AdHoc::on_response(
-            "Delete Server Header",
-            |_request, response| {
-                response.remove_header("Server");
-            },
-        ))
-}
-*/
-
 fn rocket(opldb: ManagedOplDb, langinfo: LangInfo) -> Rocket<Build> {
     rocket::build()
         .manage(opldb)
@@ -688,6 +604,28 @@ fn rocket(opldb: ManagedOplDb, langinfo: LangInfo) -> Rocket<Build> {
             ],
         )
         .mount(
+            dist::openipf::LOCAL_PREFIX,
+            routes![
+                dist::openipf::index,
+                dist::openipf::rankings,
+                dist::openipf::rankings_api,
+                dist::openipf::default_rankings_api,
+                dist::openipf::search_rankings_api,
+                dist::openipf::default_search_rankings_api,
+                dist::openipf::records,
+                dist::openipf::records_default,
+                dist::openipf::lifter,
+                dist::openipf::lifter_csv,
+                dist::openipf::meetlist,
+                dist::openipf::meetlist_default,
+                dist::openipf::meet,
+                dist::openipf::status,
+                dist::openipf::faq,
+                dist::openipf::contact,
+            ],
+        )
+        .mount("/dev/", routes![dev_main, dev_checker_post])
+        .mount(
             "/",
             routes![
                 rankings_api,
@@ -696,7 +634,6 @@ fn rocket(opldb: ManagedOplDb, langinfo: LangInfo) -> Rocket<Build> {
                 default_search_rankings_api
             ],
         )
-        .mount("/dev/", routes![dev_main, dev_checker_post])
         .mount(
             "/",
             routes![
@@ -709,6 +646,7 @@ fn rocket(opldb: ManagedOplDb, langinfo: LangInfo) -> Rocket<Build> {
             ],
         )
         .attach(Template::fairing())
+        .register("/", catchers![not_found, internal_error])
 }
 
 #[rocket::main]
@@ -745,38 +683,3 @@ async fn main() -> Result<(), Box<dyn Error>> {
 
     Ok(())
 }
-
-/*
-fn main_old() -> Result<(), Box<dyn Error>> {
-    // Accept an optional "--set-cwd" argument to manually specify the
-    // current working directory. This allows the binary and the data
-    // to be separated on a production server.
-    let args: Vec<String> = env::args().collect();
-    if args.len() == 3 && args[1] == "--set-cwd" {
-        let fileroot = Path::new(&args[2]);
-        env::set_current_dir(&fileroot).expect("Invalid --set-cwd argument");
-    }
-
-    // Populate std::env with the contents of any .env file.
-    dotenv::from_filename("server.env").expect("Couldn't find server.env");
-
-    // Ensure that "STATICDIR" is set.
-    env::var("STATICDIR").expect("STATICDIR envvar not set");
-
-    // Load the OplDb.
-    let start = std::time::Instant::now();
-    let lifters_csv = env::var("LIFTERS_CSV").expect("LIFTERS_CSV not set");
-    let meets_csv = env::var("MEETS_CSV").expect("MEETS_CSV not set");
-    let entries_csv = env::var("ENTRIES_CSV").expect("ENTRIES_CSV not set");
-    let opldb = opldb::OplDb::from_csv(&lifters_csv, &meets_csv, &entries_csv)?;
-    println!(
-        "DB loaded in {}MB and {:#?}.",
-        opldb.size_bytes() / 1024 / 1024,
-        start.elapsed()
-    );
-
-    #[cfg(not(test))]
-    rocket(opldb, LangInfo::default()).launch();
-    Ok(())
-}
-*/
