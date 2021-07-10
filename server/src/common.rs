@@ -141,7 +141,7 @@ pub fn select_display_language(languages: &AcceptLanguage, cookies: &CookieJar<'
             // TODO: It would be better if this vector was static.
             let known_languages: Vec<String> = Language::string_list();
             let borrowed: Vec<&str> = known_languages.iter().map(|s| s.as_ref()).collect();
-            let valid_languages = accept_language::intersection(&s, borrowed);
+            let valid_languages = accept_language::intersection(s, borrowed);
 
             if valid_languages.is_empty() {
                 default
@@ -191,11 +191,11 @@ pub fn make_locale<'db>(
         // Allow an explicit "lang" GET parameter.
         Some(lang) => lang,
         // Otherwise, consult the cookies or defaults.
-        None => select_display_language(&languages, &cookies),
+        None => select_display_language(&languages, cookies),
     };
 
-    let units = select_weight_units(&languages, language, &cookies);
-    Locale::new(&langinfo, language, units)
+    let units = select_weight_units(&languages, language, cookies);
+    Locale::new(langinfo, language, units)
 }
 
 /// Return type for pre-rendered Json strings.
