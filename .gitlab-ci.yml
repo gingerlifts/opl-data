@@ -7,9 +7,7 @@ workflow:
       when: never
     - when: always
 
-# The Nightly version of Rust is required, for the moment, due to server dependencies.
-# The Rocket framework we use requires Nightly features.
-image: rustlang/rust:nightly
+image: rust:slim-buster
 
 # Test the integrity of the data.
 meet-data:
