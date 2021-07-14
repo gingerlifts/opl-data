@@ -49,3 +49,4 @@
 [exemptions]
     1914 = ["ExemptWeightClassConsistency"]
     1910 = ["ExemptWeightClassConsistency"]
+    2101 = ["ExemptWeightClassConsistency"]
