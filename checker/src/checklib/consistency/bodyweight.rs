@@ -66,7 +66,8 @@ pub fn check_bodyweight_one(
 
         let percentage_change = calc_percentage_bw_change(prev, entry);
 
-        if percentage_change.abs() > SINGLE_DAY_BODYWEIGHT_PERCENTAGE_CHANGE_THRESHOLD + interval_days*LONG_TERM_BODYWEIGHT_PERCENTAGE_DAY_CHANGE_THRESHOLD{
+        if percentage_change.abs() > (SINGLE_DAY_BODYWEIGHT_PERCENTAGE_CHANGE_THRESHOLD 
+                                      + interval_days*LONG_TERM_BODYWEIGHT_PERCENTAGE_DAY_CHANGE_THRESHOLD){
             let days = this_date - prev_date;
             let plural = if days > 1 { "s" } else { "" };
             let msg = format!(
