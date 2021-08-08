@@ -65,8 +65,8 @@ pub fn check_bodyweight_one(
 
         // Number of days that it would take to go from the minimum allowed bodyweight (15kg) to the maximum (300kg)
         let max_interval: f32 =
-            (f32::log10(300.0) - f32::log10(15.0) - f32::log10(1.0 + WEIGHT_CUT_CHANGE_THRESHOLD))
-                / (f32::log10(1.0 + TISSUE_CHANGE_THRESHOLD));
+            (f32::log2(300.0) - f32::log2(15.0) - f32::log2(1.0 + WEIGHT_CUT_CHANGE_THRESHOLD))
+                / (f32::log2(1.0 + TISSUE_CHANGE_THRESHOLD));
 
         if relative_change.abs()
             > (WEIGHT_CUT_CHANGE_THRESHOLD
