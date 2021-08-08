@@ -4,8 +4,8 @@ use crate::checklib::consistency::{self, date, ConsistencyResult};
 use crate::{AllMeetData, Entry, EntryIndex, LifterDataMap, LifterMap, Report};
 
 // These are extremely loose right now, reasonable values result in having to fix a ludicrous number of errors
-const SINGLE_DAY_BODYWEIGHT_PERCENTAGE_CHANGE_THRESHOLD: f32 = 150.0;
-const LONG_TERM_BODYWEIGHT_PERCENTAGE_DAY_CHANGE_THRESHOLD: f32 = 50.0;
+const WEIGHT_CUT_PERCENTAGE_THRESHOLD: f32 = 150.0;
+const TISSUE_CHANGE_PERCENTAGE_THRESHOLD: f32 = 50.0;
 
 /// Get the change in bodyweight from `a` to `b` as a percentage
 fn calc_percentage_bw_change(entry_from: &Entry, entry_to: &Entry) -> f32 {
@@ -64,8 +64,8 @@ pub fn check_bodyweight_one(
         let percentage_change = calc_percentage_bw_change(prev, entry);
 
         if percentage_change.abs()
-            > (SINGLE_DAY_BODYWEIGHT_PERCENTAGE_CHANGE_THRESHOLD
-                + interval_days * LONG_TERM_BODYWEIGHT_PERCENTAGE_DAY_CHANGE_THRESHOLD)
+            > (WEIGHT_CUT_PERCENTAGE_THRESHOLD
+                + interval_days * TISSUE_CHANGE_PERCENTAGE_THRESHOLD)
         {
             let days = this_date - prev_date;
             let plural = if days > 1 { "s" } else { "" };
