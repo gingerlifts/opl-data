@@ -7,12 +7,11 @@ use crate::{AllMeetData, Entry, EntryIndex, LifterDataMap, LifterMap, Report};
 const SINGLE_DAY_BODYWEIGHT_PERCENTAGE_CHANGE_THRESHOLD: f32 = 150.0;
 const LONG_TERM_BODYWEIGHT_PERCENTAGE_DAY_CHANGE_THRESHOLD: f32 = 50.0;
 
-
 /// Get the average change in bodyweight from `a` to `b` as a percentage per
 /// day.
 fn calc_percentage_bw_change(a: &Entry, b: &Entry) -> f32 {
     // Handle division-by-zero cases early.
-    if a.bodyweightkg.is_zero() || b.bodyweightkg.is_zero(){
+    if a.bodyweightkg.is_zero() || b.bodyweightkg.is_zero() {
         return 0.0;
     }
 
@@ -63,11 +62,12 @@ pub fn check_bodyweight_one(
         // negative.
         let interval_days = ((this_date - prev_date) as f32).abs();
 
-
         let percentage_change = calc_percentage_bw_change(prev, entry);
 
-        if percentage_change.abs() > (SINGLE_DAY_BODYWEIGHT_PERCENTAGE_CHANGE_THRESHOLD 
-                                      + interval_days*LONG_TERM_BODYWEIGHT_PERCENTAGE_DAY_CHANGE_THRESHOLD){
+        if percentage_change.abs()
+            > (SINGLE_DAY_BODYWEIGHT_PERCENTAGE_CHANGE_THRESHOLD
+                + interval_days * LONG_TERM_BODYWEIGHT_PERCENTAGE_DAY_CHANGE_THRESHOLD)
+        {
             let days = this_date - prev_date;
             let plural = if days > 1 { "s" } else { "" };
             let msg = format!(
