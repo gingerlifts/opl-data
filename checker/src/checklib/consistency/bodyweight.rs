@@ -1,15 +1,18 @@
 //! Checks that bodyweight changes over time are plausible.
 
-use opltypes::Date;
-
 use crate::checklib::consistency::{self, get_date, ConsistencyResult};
 use crate::{AllMeetData, Entry, EntryIndex, LifterDataMap, LifterMap, Report};
 
+// These are extremely loose right now, reasonable values result in having to fix a ludicrous number of errors
+const SINGLE_DAY_BODYWEIGHT_PERCENTAGE_CHANGE_THRESHOLD: f32 = 150.0;
+const LONG_TERM_BODYWEIGHT_PERCENTAGE_DAY_CHANGE_THRESHOLD: f32 = 50.0;
+
+
 /// Get the average change in bodyweight from `a` to `b` as a percentage per
 /// day.
-fn calc_average_percentage_change(a: &Entry, b: &Entry, a_date: Date, b_date: Date) -> f32 {
+fn calc_percentage_bw_change(a: &Entry, b: &Entry) -> f32 {
     // Handle division-by-zero cases early.
-    if a.bodyweightkg.is_zero() || b.bodyweightkg.is_zero() || a_date == b_date {
+    if a.bodyweightkg.is_zero() || b.bodyweightkg.is_zero(){
         return 0.0;
     }
 
@@ -19,14 +22,7 @@ fn calc_average_percentage_change(a: &Entry, b: &Entry, a_date: Date, b_date: Da
     let bw_delta = f32::abs(a_bw - b_bw);
 
     // Express that delta as a percentage change with respect to Entry `a`.
-    let as_percentage = (bw_delta / a_bw) * 100.0;
-
-    // Get the average change in percentage over the given time interval.
-    // Note that if `b_date` is earlier that `a_date`, `interval_days` can be
-    // negative.
-    let interval_days = (b_date - a_date) as f32;
-
-    as_percentage / interval_days
+    (bw_delta / a_bw) * 100.0
 }
 
 /// Checks bodyweight consistency for a single lifter.
@@ -62,13 +58,15 @@ pub fn check_bodyweight_one(
         let prev_date = get_date(prev);
         let this_date = get_date(entry);
 
-        let average_per_day = calc_average_percentage_change(prev, entry, prev_date, this_date);
+        // Get the average change in percentage over the given time interval.
+        // Note that if `b_date` is earlier that `a_date`, `interval_days` can be
+        // negative.
+        let interval_days = ((this_date - prev_date) as f32).abs();
 
-        // Chosen to only produce a few warnings.
-        // The intention is that this be tightened-up over time.
-        const BODYWEIGHT_PERCENTAGE_CHANGE_PER_DAY_THRESHOLD: f32 = 55.0;
 
-        if average_per_day.abs() > BODYWEIGHT_PERCENTAGE_CHANGE_PER_DAY_THRESHOLD {
+        let percentage_change = calc_percentage_bw_change(prev, entry);
+
+        if percentage_change.abs() > SINGLE_DAY_BODYWEIGHT_PERCENTAGE_CHANGE_THRESHOLD + interval_days*LONG_TERM_BODYWEIGHT_PERCENTAGE_DAY_CHANGE_THRESHOLD{
             let days = this_date - prev_date;
             let plural = if days > 1 { "s" } else { "" };
             let msg = format!(
