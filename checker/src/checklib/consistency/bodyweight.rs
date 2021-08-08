@@ -7,21 +7,20 @@ use crate::{AllMeetData, Entry, EntryIndex, LifterDataMap, LifterMap, Report};
 const SINGLE_DAY_BODYWEIGHT_PERCENTAGE_CHANGE_THRESHOLD: f32 = 150.0;
 const LONG_TERM_BODYWEIGHT_PERCENTAGE_DAY_CHANGE_THRESHOLD: f32 = 50.0;
 
-/// Get the average change in bodyweight from `a` to `b` as a percentage per
-/// day.
-fn calc_percentage_bw_change(a: &Entry, b: &Entry) -> f32 {
+/// Get the change in bodyweight from `a` to `b` as a percentage
+fn calc_percentage_bw_change(entry_from: &Entry, entry_to: &Entry) -> f32 {
     // Handle division-by-zero cases early.
-    if a.bodyweightkg.is_zero() || b.bodyweightkg.is_zero() {
+    if entry_from.bodyweightkg.is_zero() || entry_to.bodyweightkg.is_zero() {
         return 0.0;
     }
 
     // Get the absolute change in bodyweight over the interval.
-    let a_bw = f32::from(a.bodyweightkg);
-    let b_bw = f32::from(b.bodyweightkg);
-    let bw_delta = f32::abs(a_bw - b_bw);
+    let from_bw = f32::from(entry_from.bodyweightkg);
+    let to_bw = f32::from(entry_to.bodyweightkg);
+    let bw_delta = f32::abs(from_bw - to_bw);
 
     // Express that delta as a percentage change with respect to Entry `a`.
-    (bw_delta / a_bw) * 100.0
+    (bw_delta / from_bw) * 100.0
 }
 
 /// Checks bodyweight consistency for a single lifter.
@@ -57,11 +56,11 @@ pub fn check_bodyweight_one(
         let prev_date = date(prev);
         let this_date = date(entry);
 
-        // Get the average change in percentage over the given time interval.
-        // Note that if `b_date` is earlier that `a_date`, `interval_days` can be
-        // negative.
         let interval_days = ((this_date - prev_date) as f32).abs();
 
+        // Get the percentage change in bodyweight between `prev` and `entry`,
+        // we can check if this change makes sense given that a lifter could potentially do back to back 24hour weigh ins
+        //  and with a rate of long term bodyweight change
         let percentage_change = calc_percentage_bw_change(prev, entry);
 
         if percentage_change.abs()
