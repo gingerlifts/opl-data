@@ -24,6 +24,7 @@ mod tests;
 use langpack::{LangInfo, Language, Locale};
 use opltypes::Username;
 
+use bincode::Options;
 use rocket::fs::NamedFile;
 use rocket::http::{ContentType, CookieJar, Status};
 use rocket::request::Request;
@@ -693,7 +694,17 @@ async fn main() -> Result<(), Box<dyn Error>> {
     let lifters_csv = PathBuf::from(env::var("LIFTERS_CSV").expect("LIFTERS_CSV not set"));
     let meets_csv = PathBuf::from(env::var("MEETS_CSV").expect("MEETS_CSV not set"));
     let entries_csv = PathBuf::from(env::var("ENTRIES_CSV").expect("ENTRIES_CSV not set"));
-    let opldb = opldb::OplDb::from_csv(&lifters_csv, &meets_csv, &entries_csv)?;
+
+    // TODO(sstangl): This is a hack just to get started.
+    let bincode_path = entries_csv.with_file_name("opldb.bc.zst");
+
+    let bincode_file = File::open(&bincode_path)?;
+    let reader = std::io::BufReader::new(bincode_file);
+    let decoder = zstd::stream::read::Decoder::new(reader)?;
+
+    let opldb: opldb::OplDb = bincode::DefaultOptions::new().deserialize_from(decoder)?;
+
+    //let opldb = opldb::OplDb::from_csv(&lifters_csv, &meets_csv, &entries_csv)?;
     println!(
         "DB loaded in {}MB and {:#?}.",
         opldb.size_bytes() / 1024 / 1024,

@@ -1946,6 +1946,7 @@ name = "server"
 version = "0.1.0"
 dependencies = [
  "accept-language",
+ "bincode",
  "checker",
  "coefficients",
  "csv",
@@ -1962,6 +1963,7 @@ dependencies = [
  "serde_derive",
  "serde_json",
  "strum",
+ "zstd",
 ]
 
 [[package]]
