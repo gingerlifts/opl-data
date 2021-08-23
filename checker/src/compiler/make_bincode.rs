@@ -2,6 +2,7 @@
 
 use bincode::Options;
 use opldb::OplDb;
+use zstd::stream::Encoder;
 
 use std::fs::File;
 use std::io::BufWriter;
@@ -9,6 +10,8 @@ use std::path::Path;
 
 /// Serializes the entire in-memory database to a bincode file.
 pub fn make_bincode(buildpath: &Path) -> Result<(), String> {
+    const ZSTD_COMPRESSION_LEVEL: i32 = 9;
+
     let entries_path = buildpath.join("entries.csv");
     let lifters_path = buildpath.join("lifters.csv");
     let meets_path = buildpath.join("meets.csv");
@@ -22,12 +25,14 @@ pub fn make_bincode(buildpath: &Path) -> Result<(), String> {
         OplDb::from_csv(&lifters_path, &meets_path, &entries_path).map_err(|e| e.to_string())?;
 
     // Now serialize the entire in-memory database to a file.
-    let bincode_path = buildpath.join("opldb.bc");
+    let bincode_path = buildpath.join("opldb.bc.zst");
     let bincode_file = File::create(&bincode_path).map_err(|e| e.to_string())?;
-    let buf = BufWriter::new(bincode_file);
+    let with_buffer = BufWriter::new(bincode_file);
+    let with_compression =
+        Encoder::new(with_buffer, ZSTD_COMPRESSION_LEVEL).map_err(|e| e.to_string())?;
 
     bincode::DefaultOptions::new()
-        .serialize_into(buf, &db)
+        .serialize_into(with_compression, &db)
         .map_err(|e| e.to_string())?;
 
     Ok(())
