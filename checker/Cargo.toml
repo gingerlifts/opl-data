@@ -7,7 +7,9 @@ edition = "2018"
 license = "AGPL-3.0-or-later"
 
 [dependencies]
+bincode = "1.3"
 coefficients = { path = "../modules/coefficients/" }
+opldb = { path = "../modules/db/" }
 opltypes = { path = "../modules/opltypes/" }
 chrono = "0.4"
 colored = "2.0"

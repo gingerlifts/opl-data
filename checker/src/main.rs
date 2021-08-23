@@ -507,6 +507,10 @@ fn main() -> Result<(), Box<dyn Error>> {
             let timing = instant_if(args.debug_timing);
             compiler::make_csv(&meetdata, &lifterdata, &buildpath)?;
             maybe_print_elapsed_for("make_csv", timing);
+
+            let timing = instant_if(args.debug_timing);
+            compiler::make_bincode(&buildpath)?;
+            maybe_print_elapsed_for("make_bincode", timing);
         }
         if args.compile_onefile {
             let timing = instant_if(args.debug_timing);

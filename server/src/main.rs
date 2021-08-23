@@ -690,9 +690,9 @@ async fn main() -> Result<(), Box<dyn Error>> {
 
     // Load the OplDb.
     let start = std::time::Instant::now();
-    let lifters_csv = env::var("LIFTERS_CSV").expect("LIFTERS_CSV not set");
-    let meets_csv = env::var("MEETS_CSV").expect("MEETS_CSV not set");
-    let entries_csv = env::var("ENTRIES_CSV").expect("ENTRIES_CSV not set");
+    let lifters_csv = PathBuf::from(env::var("LIFTERS_CSV").expect("LIFTERS_CSV not set"));
+    let meets_csv = PathBuf::from(env::var("MEETS_CSV").expect("MEETS_CSV not set"));
+    let entries_csv = PathBuf::from(env::var("ENTRIES_CSV").expect("ENTRIES_CSV not set"));
     let opldb = opldb::OplDb::from_csv(&lifters_csv, &meets_csv, &entries_csv)?;
     println!(
         "DB loaded in {}MB and {:#?}.",
