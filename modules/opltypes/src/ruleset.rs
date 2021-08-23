@@ -3,6 +3,7 @@
 use serde::de::{self, Deserialize, Visitor};
 use serde::ser::Serialize;
 
+use std::convert::TryFrom;
 use std::fmt;
 use std::str::FromStr;
 
@@ -124,14 +125,28 @@ impl<'de> Visitor<'de> for RuleSetVisitor {
         formatter.write_str("a space-separated list of rules")
     }
 
-    fn visit_str<E: de::Error>(self, value: &str) -> Result<RuleSet, E> {
-        RuleSet::from_str(value).map_err(E::custom)
+    fn visit_i64<E: de::Error>(self, i: i64) -> Result<Self::Value, E> {
+        let v = u32::try_from(i).map_err(E::custom)?;
+        Ok(RuleSet(v))
+    }
+
+    fn visit_u64<E: de::Error>(self, u: u64) -> Result<Self::Value, E> {
+        let v = u32::try_from(u).map_err(E::custom)?;
+        Ok(RuleSet(v))
+    }
+
+    fn visit_borrowed_str<E: de::Error>(self, v: &str) -> Result<Self::Value, E> {
+        RuleSet::from_str(v).map_err(E::custom)
+    }
+
+    fn visit_str<E: de::Error>(self, v: &str) -> Result<Self::Value, E> {
+        self.visit_borrowed_str(v)
     }
 }
 
 impl<'de> Deserialize<'de> for RuleSet {
     fn deserialize<D: serde::Deserializer<'de>>(deserializer: D) -> Result<RuleSet, D::Error> {
-        deserializer.deserialize_str(RuleSetVisitor)
+        deserializer.deserialize_any(RuleSetVisitor)
     }
 }
 

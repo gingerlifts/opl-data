@@ -350,25 +350,25 @@ impl<'de> Visitor<'de> for WeightKgVisitor {
         formatter.write_str("a number or numeric string")
     }
 
-    fn visit_i64<E: de::Error>(self, i: i64) -> Result<WeightKg, E> {
+    fn visit_i64<E: de::Error>(self, i: i64) -> Result<Self::Value, E> {
         let v = i32::try_from(i).map_err(E::custom)?;
         Ok(WeightKg::from_i32(v))
     }
 
-    fn visit_u64<E: de::Error>(self, u: u64) -> Result<WeightKg, E> {
+    fn visit_u64<E: de::Error>(self, u: u64) -> Result<Self::Value, E> {
         let v = i32::try_from(u).map_err(E::custom)?;
         Ok(WeightKg::from_i32(v))
     }
 
-    fn visit_f64<E: de::Error>(self, v: f64) -> Result<WeightKg, E> {
+    fn visit_f64<E: de::Error>(self, v: f64) -> Result<Self::Value, E> {
         Ok(WeightKg::from_f64(v))
     }
 
-    fn visit_borrowed_str<E: de::Error>(self, v: &str) -> Result<WeightKg, E> {
+    fn visit_borrowed_str<E: de::Error>(self, v: &str) -> Result<Self::Value, E> {
         WeightKg::from_str(v).map_err(E::custom)
     }
 
-    fn visit_str<E: de::Error>(self, v: &str) -> Result<WeightKg, E> {
+    fn visit_str<E: de::Error>(self, v: &str) -> Result<Self::Value, E> {
         self.visit_borrowed_str(v)
     }
 }
