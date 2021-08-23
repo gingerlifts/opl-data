@@ -1,10 +1,5 @@
 //! Defines the `RuleSet` field for the `meets` table and CONFIG files.
 
-use serde::de::{self, Deserialize, Visitor};
-use serde::ser::Serialize;
-
-use std::convert::TryFrom;
-use std::fmt;
 use std::str::FromStr;
 
 /// A rule of competition.
@@ -39,7 +34,7 @@ pub enum Rule {
 ///
 /// It's expected that the human-consumable openpowerlifting.csv will not include
 /// the RuleSet of each meet, and therefore it's safe to serialize to a number.
-#[derive(Copy, Clone, Debug, Default, PartialEq)]
+#[derive(Copy, Clone, Debug, Default, PartialEq, Serialize, Deserialize)]
 pub struct RuleSet(u32);
 
 #[derive(Copy, Clone, Debug, Display, PartialEq)]
@@ -78,17 +73,6 @@ impl RuleSet {
     }
 }
 
-impl Serialize for RuleSet {
-    fn serialize<S: serde::Serializer>(&self, serializer: S) -> Result<S::Ok, S::Error> {
-        if self.0 == 0 {
-            // Output nothing instead of zero to save some space.
-            serializer.serialize_str("")
-        } else {
-            serializer.serialize_u32(self.0)
-        }
-    }
-}
-
 impl FromStr for RuleSet {
     type Err = RuleSetParseError;
 
@@ -113,40 +97,6 @@ impl FromStr for RuleSet {
             }
         }
         Ok(ruleset)
-    }
-}
-
-struct RuleSetVisitor;
-
-impl<'de> Visitor<'de> for RuleSetVisitor {
-    type Value = RuleSet;
-
-    fn expecting(&self, formatter: &mut fmt::Formatter) -> fmt::Result {
-        formatter.write_str("a space-separated list of rules")
-    }
-
-    fn visit_i64<E: de::Error>(self, i: i64) -> Result<Self::Value, E> {
-        let v = u32::try_from(i).map_err(E::custom)?;
-        Ok(RuleSet(v))
-    }
-
-    fn visit_u64<E: de::Error>(self, u: u64) -> Result<Self::Value, E> {
-        let v = u32::try_from(u).map_err(E::custom)?;
-        Ok(RuleSet(v))
-    }
-
-    fn visit_borrowed_str<E: de::Error>(self, v: &str) -> Result<Self::Value, E> {
-        RuleSet::from_str(v).map_err(E::custom)
-    }
-
-    fn visit_str<E: de::Error>(self, v: &str) -> Result<Self::Value, E> {
-        self.visit_borrowed_str(v)
-    }
-}
-
-impl<'de> Deserialize<'de> for RuleSet {
-    fn deserialize<D: serde::Deserializer<'de>>(deserializer: D) -> Result<RuleSet, D::Error> {
-        deserializer.deserialize_any(RuleSetVisitor)
     }
 }
 
