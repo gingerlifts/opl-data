@@ -702,7 +702,9 @@ async fn main() -> Result<(), Box<dyn Error>> {
     let reader = std::io::BufReader::new(bincode_file);
     let decoder = zstd::stream::read::Decoder::new(reader)?;
 
-    let opldb: opldb::OplDb = bincode::DefaultOptions::new().deserialize_from(decoder).unwrap();
+    let opldb: opldb::OplDb = bincode::DefaultOptions::new()
+        .deserialize_from(decoder)
+        .unwrap();
 
     //let opldb = opldb::OplDb::from_csv(&lifters_csv, &meets_csv, &entries_csv)?;
     println!(
