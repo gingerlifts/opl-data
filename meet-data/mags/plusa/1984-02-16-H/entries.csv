@@ -1,7 +1,7 @@
 Name,WeightClassKg,Division,Sex,Best3BenchKg,TotalKg,Event,Equipment,Place
 P. Einasson,52,Open,M,63.5,63.5,B,Raw,1
 Freddie Higgins,56,Open,M,142.88,142.88,B,Raw,1
-Francis Wilson,56,Open,M,117.93,117.93,B,Raw,2
+Francis Wilson #2,56,Open,M,117.93,117.93,B,Raw,2
 Craig Hild,56,Open,M,108.86,108.86,B,Raw,3
 T. Buege,56,Open,M,104.33,104.33,B,Raw,4
 J. Pratt,56,Open,M,92.99,92.99,B,Raw,5
@@ -43,7 +43,7 @@ T. Reeve,82.5,Open,M,156.49,156.49,B,Raw,6
 Doug Gilbertson,82.5,Open,M,151.95,151.95,B,Raw,7
 M. Lattner,82.5,Open,M,149.69,149.69,B,Raw,8
 T. Wiekert,82.5,Open,M,147.42,147.42,B,Raw,9
-D. Peterson,82.5,Open,M,142.88,142.88,B,Raw,10
+Doug Petersen,82.5,Open,M,142.88,142.88,B,Raw,10
 Dennis Armato,82.5,Open,M,136.08,136.08,B,Raw,11
 L. David,82.5,Open,M,124.74,124.74,B,Raw,12
 T. Weston,82.5,Open,M,,,B,Raw,DQ
@@ -55,7 +55,7 @@ Dan Swift,90,Open,M,174.63,174.63,B,Raw,4
 B. Chaney,90,Open,M,172.37,172.37,B,Raw,5
 Randy Cox,90,Open,M,170.1,170.1,B,Raw,6
 John Lentsch,90,Open,M,170.1,170.1,B,Raw,7
-M. Pratt,90,Open,M,167.83,167.83,B,Raw,8
+Marty Pratt,90,Open,M,167.83,167.83,B,Raw,8
 P. Despenas,90,Open,M,165.56,165.56,B,Raw,9
 S. Drelich,90,Open,M,163.29,163.29,B,Raw,10
 M. Bacidore,90,Open,M,158.76,158.76,B,Raw,11

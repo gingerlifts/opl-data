@@ -139,7 +139,7 @@ impl<'a> Locale<'a> {
         Locale {
             langinfo,
             language,
-            strings: langinfo.get_translations(language),
+            strings: langinfo.translations(language),
             number_format: language.number_format(),
             units,
         }
@@ -431,6 +431,7 @@ pub struct ColumnTranslations {
     pub federation: String,
     pub date: String,
     pub location: String,
+    pub home: String,
     pub meetname: String,
     pub division: String,
     pub sex: String,
@@ -755,7 +756,7 @@ impl Default for LangInfo {
 }
 
 impl LangInfo {
-    pub fn get_translations(&self, language: Language) -> &Translations {
+    pub fn translations(&self, language: Language) -> &Translations {
         match language {
             Language::cz => &self.cz,
             Language::de => &self.de,
@@ -1214,7 +1215,7 @@ impl fmt::Display for LocalizedWeightClassAny {
 }
 
 /// Gets the lifter's name localized into the target language.
-pub fn get_localized_name(lifter: &opldb::Lifter, language: Language) -> &str {
+pub fn localized_name(lifter: &opldb::Lifter, language: Language) -> &str {
     match language {
         Language::el => lifter.greek_name.as_ref().unwrap_or(&lifter.name),
         Language::ja => lifter.japanese_name.as_ref().unwrap_or(&lifter.name),

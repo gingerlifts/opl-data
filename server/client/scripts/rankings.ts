@@ -20,6 +20,7 @@
 
 'use strict';
 
+import { isOpenIpf } from "./distribution";
 import { RemoteCache, WorkItem, Column } from "./remotecache";
 import { RankingsSearcher } from "./search";
 import { isMobile } from "./mobile";
@@ -42,6 +43,7 @@ declare const translation_column_liftername: string;
 declare const translation_column_federation: string;
 declare const translation_column_date: string;
 declare const translation_column_location: string;
+declare const translation_column_home: string;
 declare const translation_column_sex: string;
 declare const translation_column_age: string;
 declare const translation_column_equipment: string;
@@ -101,9 +103,15 @@ function makeDataProvider() {
                 return;
             }
 
-            let loc = entry[Column.Country];
-            if (entry[Column.Country] && entry[Column.State]) {
-                loc = loc + "-" + entry[Column.State];
+            let lifterloc = entry[Column.LifterCountry];
+            if (entry[Column.LifterState]) {
+                // TODO(sstangl): This state looks like "USA-NY", but untranslated.
+                lifterloc = entry[Column.LifterState];
+            }
+
+            let meetloc = entry[Column.MeetCountry];
+            if (entry[Column.MeetCountry] && entry[Column.MeetState]) {
+                meetloc = meetloc + "-" + entry[Column.MeetState];
             }
 
             let name = '<a class="' + entry[Column.Color] +
@@ -130,7 +138,8 @@ function makeDataProvider() {
                 name: name,
                 fed: entry[Column.Federation],
                 date: date,
-                loc: loc,
+                lifterloc: lifterloc,
+                meetloc: meetloc,
                 sex: entry[Column.Sex],
                 age: entry[Column.Age],
                 equipment: entry[Column.Equipment],
@@ -479,21 +488,25 @@ function makeRemoteCache(path: string, use_initial_data: boolean) {
 // Mobile devices use a different grid ordering for different kinds of selections.
 // For simplicity, when the selectors are changed, the Grid is just re-rendered.
 function renderGridTable(): void {
-    const mobile: boolean = isMobile();
     // Check templates/rankings.html.tera.
     const nameWidth = 200;
-    const rowHeight = mobile ? 26 : 23;
+    const rowHeight = isMobile() ? 26 : 23;
     const rankWidth = 45; // five digit numbers should be fully visible
     const shortWidth = 40;
-    const dateWidth = mobile ? 80 : 70;
+    const dateWidth = isMobile() ? 80 : 70;
     const numberWidth = 55;
 
+    const fillerWidth = isMobile() ? 10 : 20;
+
+    // Helper function to provide a by-value URL formatter, needed by the grid.
     function urlformatter(row, cell, value, columnDef, dataContext) {
         return value;
     }
 
-
-    const fillerWidth = mobile ? 10 : 20;
+    // Helper function to select a column by "id" property.
+    function col(id: string): Object {
+        return columns.find(c => c.id === id) || columns[0];
+    }
 
     let columns = [
         {id: "filler", width: fillerWidth, minWidth: fillerWidth, focusable: false,
@@ -502,7 +515,7 @@ function renderGridTable(): void {
         {id: "name", name: translation_column_liftername, field: "name", width: nameWidth, formatter: urlformatter},
         {id: "fed", name: translation_column_federation, field: "fed", width: numberWidth},
         {id: "date", name: translation_column_date, field: "date", width: dateWidth, formatter: urlformatter},
-        {id: "location", name: translation_column_location, field: "loc", width: dateWidth},
+        {id: "meetloc", name: translation_column_location, field: "meetloc", width: dateWidth},
         {id: "sex", name: translation_column_sex, field: "sex", width: shortWidth},
         {id: "age", name: translation_column_age, field: "age", width: shortWidth},
         {id: "equipment", name: translation_column_equipment, field: "equipment", width: shortWidth},
@@ -518,12 +531,7 @@ function renderGridTable(): void {
     // Mobile screens are tiny.
     // To make this usable, we intend to place the information most relevant
     // to the current selection as left as possible (to the Name).
-    if (mobile) {
-        // Helper function to select a column by "id" property.
-        function col(id: string): Object {
-            return columns.find(c => c.id === id) || columns[0];
-        }
-
+    if (isMobile()) {
         // The first three columns are fixed.
         const acc: Array<any> = [];
         acc.push(col("filler"), col("rank"), col("name"));
@@ -554,10 +562,22 @@ function renderGridTable(): void {
         // Just tried to guess what people might be most likely to look for.
         acc.push(col("sex"), col("age"));
         acc.push(col("equipment"), col("weightclass"), col("bodyweight"));
-        acc.push(col("fed"), col("date"), col("location"));
+        acc.push(col("fed"), col("date"), col("meetloc"));
 
         // Use these new columns instead.
         columns = acc;
+    }
+
+    // After checking for mobile stuff, try some OpenIPF-specific fixups.
+    if (isOpenIpf()) {
+        // Replace the meet location with the lifter's home country/state.
+        // Because the IPF is heavily nationality-based, lifters really care about this.
+        const lifterloc = {id: "lifterloc", name: translation_column_home, field: "lifterloc", width: dateWidth};
+
+        const meetidx = columns.findIndex(c => c.id === "meetloc");
+        if (meetidx >= 0) {
+            columns[meetidx] = lifterloc;
+        }
     }
 
     const options = {
@@ -569,7 +589,7 @@ function renderGridTable(): void {
 
         // On mobile, columns need their full width for visibility.
         // The user can scroll horizontally.
-        forceFitColumns: (mobile ? false : true)
+        forceFitColumns: (isMobile() ? false : true)
     }
 
     global_grid = new Slick.Grid("#theGrid", makeDataProvider() as any, columns, options);

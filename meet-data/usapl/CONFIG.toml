@@ -2,7 +2,7 @@
 
 # The USAPL is in such a bad state that it makes sense to partially-configure it.
 [options]
-    valid_since = "2017-09-01"
+    valid_since = "2017-07-01"
 	require_manual_disambiguation = true
 
 [divisions]
@@ -526,6 +526,9 @@
 	WI-2021-07 = ["ExemptWeightClassConsistency"] # Used an incorrect women's class.
     VA-2021-05 = ["ExemptDivision"] # Lifter under 14 in the Open division.
     AL-2021-03 = ["ExemptDivision"] # Lifter under 14 in the Open division.
+    NJ-2021-02 = ["ExemptDivision"] # Lifter under 14 in the Open division.
+    WI-2021-04 = ["ExemptDivision"] # Lifter under 14 in the Open division.
+    SC-2021-04 = ["ExemptDivision"] # Lifter under 14 in the Open division.
 
     # Miscellaneous exemptions.
     AK-2014-04 = ["ExemptWeightClassConsistency"] # Unknown bodyweights and classes.

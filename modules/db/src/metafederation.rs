@@ -470,6 +470,11 @@ pub enum MetaFederation {
     #[strum(to_string = "wrpf-usa")]
     #[serde(rename = "WRPF-USA")]
     WRPFUSA,
+
+    /// WRPF-USA, but only for Tested entries.
+    #[strum(to_string = "wrpf-usa-tested")]
+    #[serde(rename = "WRPF-USA-Tested")]
+    WRPFUSATested,
 }
 
 /// Helper function for MetaFederation::contains() for AllCountry meta-feds.
@@ -619,7 +624,13 @@ impl MetaFederation {
             MetaFederation::AllUSA => is_from(Country::USA, entry, meet),
             MetaFederation::AllVietnam => is_from(Country::Vietnam, entry, meet),
             MetaFederation::AAPF => meet.federation == Federation::APF && entry.tested,
-            MetaFederation::ABPU => entry.tested && MetaFederation::BPU.contains(entry, meets),
+            MetaFederation::ABPU => {
+                entry.tested
+                    && (meet.federation == Federation::BPU
+                        || (meet.federation == Federation::WPC
+                            && entry.lifter_country.map_or(false, |c| c.is_in_uk())
+                            && meet.date.year() >= 2013))
+            }
             MetaFederation::ABSSeries => {
                 meet.federation == Federation::IrelandUA && meet.name.starts_with("ABS")
             }
@@ -800,6 +811,9 @@ impl MetaFederation {
                 },
                 _ => false,
             },
+            MetaFederation::WRPFUSATested => {
+                entry.tested && MetaFederation::WRPFUSA.contains(entry, meets)
+            }
         }
     }
 }
@@ -808,6 +822,7 @@ impl MetaFederation {
 ///
 /// A meet is part of the MetaFederation if it contains
 /// at least one entry such that `MetaFederation::contains(entry)`.
+#[derive(Debug, Serialize, Deserialize)]
 pub struct MetaFederationCache {
     /// Uses (MetaFederation as usize) as index to a list of meet_ids
     /// for that MetaFederation.
@@ -815,7 +830,7 @@ pub struct MetaFederationCache {
 }
 
 impl MetaFederationCache {
-    pub fn get_meet_ids_for(&self, meta: MetaFederation) -> &[u32] {
+    pub fn meet_ids_for(&self, meta: MetaFederation) -> &[u32] {
         &self.cache[meta as usize]
     }
 
@@ -846,7 +861,7 @@ impl MetaFederationCache {
             // Check whether any entries are part of each MetaFederation.
             for entry in meet_entries {
                 for meta in MetaFederation::iter() {
-                    if meta.contains(&entry, &meets) {
+                    if meta.contains(entry, meets) {
                         contains[meta as usize] = true;
                     }
                 }

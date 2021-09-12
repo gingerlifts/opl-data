@@ -15,7 +15,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 1,Yarnell Marks,MS,90,88.7,36,260,162.5,260,682.5,M,Open,Raw,SBD
 1,Sherrod Bowens,MS,110,105.9,27,267.5,177.5,275,720,M,Open,Raw,SBD
 2,Tyler Laymon,AL,110,107.7,28,192.5,135,227.5,555,M,Open,Raw,SBD
-1,Tyler Brooks,LA,125,122.3,30,285,212.5,330,827.5,M,Open,Raw,SBD
+1,Tyler Brooks #2,LA,125,122.3,30,285,212.5,330,827.5,M,Open,Raw,SBD
 2,Jacob Kruebbe,LA,125,117.1,24,240,165,275,680,M,Open,Raw,SBD
 1,Yarnell Marks,MS,90,88.7,36,260,162.5,260,682.5,M,Submasters 35-39,Raw,SBD
 2,Frank Russo,LA,90,88.9,38,195,142.5,265,602.5,M,Submasters 35-39,Raw,SBD
@@ -24,7 +24,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 2,Michael Petyak,MS,100,98.2,41,215,145,227.5,587.5,M,Masters 40-44,Raw,SBD
 1,AJ Schroeder,LA,110,107.3,42,240,182.5,260,682.5,M,Masters 40-44,Raw,SBD
 1,Heath Johnson,MS,125,124,40,205,155,205,565,M,Masters 40-44,Raw,SBD
-1,Lean Benoit,MS,60,59.9,28,155,82.5,172.5,410,F,Open,Wraps,SBD
+1,Leah Benoit,MS,60,59.9,28,155,82.5,172.5,410,F,Open,Wraps,SBD
 1,Kimmy Brooks,LA,75,74.5,27,147,77.5,182.5,407,F,Open,Wraps,SBD
 1,Tazzie Colomb,LA,90,87.9,48,165,112.5,195,472.5,F,Open,Wraps,SBD
 1,Caitlin Ciaccio,LA,90+,95.6,23,165,80,185,430,F,Open,Wraps,SBD
@@ -48,7 +48,7 @@ DQ,Tim Ilgunas,MS,90,88.6,29,250,-187.5,242.5,,M,Open,Wraps,SBD
 3,Tim Yarnell,MS,125,114.6,30,222.5,157.5,272.5,652.5,M,Open,Wraps,SBD
 1,Stephen Ballard,AL,140,138.8,28,345,185,320,850,M,Open,Wraps,SBD
 2,Greg Hayes,MS,140,132.1,26,167.5,162.5,200,530,M,Open,Wraps,SBD
-1,Eric Adams,MS,140+,145.3,26,295,222.5,300,817.5,M,Open,Wraps,SBD
+1,Eric Adams #3,MS,140+,145.3,26,295,222.5,300,817.5,M,Open,Wraps,SBD
 2,Seth Coker,MS,140+,147.1,29,287.5,217.5,275,780,M,Open,Wraps,SBD
 1,Brian Singson,LA,100,97.2,36,160,122.5,185,467.5,M,Submasters 35-39,Wraps,SBD
 1,Shain Vice,MS,110,108.9,36,247.5,142.5,242.5,632.5,M,Submasters 35-39,Wraps,SBD

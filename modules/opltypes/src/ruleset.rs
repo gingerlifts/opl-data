@@ -78,10 +78,7 @@ impl RuleSet {
 }
 
 impl Serialize for RuleSet {
-    fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
-    where
-        S: serde::Serializer,
-    {
+    fn serialize<S: serde::Serializer>(&self, serializer: S) -> Result<S::Ok, S::Error> {
         if self.0 == 0 {
             // Output nothing instead of zero to save some space.
             serializer.serialize_str("")
@@ -127,19 +124,13 @@ impl<'de> Visitor<'de> for RuleSetVisitor {
         formatter.write_str("a space-separated list of rules")
     }
 
-    fn visit_str<E>(self, value: &str) -> Result<RuleSet, E>
-    where
-        E: de::Error,
-    {
+    fn visit_str<E: de::Error>(self, value: &str) -> Result<RuleSet, E> {
         RuleSet::from_str(value).map_err(E::custom)
     }
 }
 
 impl<'de> Deserialize<'de> for RuleSet {
-    fn deserialize<D>(deserializer: D) -> Result<RuleSet, D::Error>
-    where
-        D: serde::Deserializer<'de>,
-    {
+    fn deserialize<D: serde::Deserializer<'de>>(deserializer: D) -> Result<RuleSet, D::Error> {
         deserializer.deserialize_str(RuleSetVisitor)
     }
 }
@@ -149,7 +140,7 @@ mod test {
     use super::*;
 
     #[test]
-    fn test_rule_basic() {
+    fn rule_basic() {
         let rule = "CombineRawAndWraps".parse::<Rule>().unwrap();
         assert_eq!(rule, Rule::CombineRawAndWraps);
         let rule = "CombineSingleAndMulti".parse::<Rule>().unwrap();
@@ -157,7 +148,7 @@ mod test {
     }
 
     #[test]
-    fn test_ruleset_basic() {
+    fn basic() {
         let ruleset = "CombineRawAndWraps".parse::<RuleSet>().unwrap();
         assert_eq!(ruleset.contains(Rule::CombineRawAndWraps), true);
         assert_eq!(ruleset.contains(Rule::CombineSingleAndMulti), false);
@@ -174,14 +165,14 @@ mod test {
 
     /// This test hardcodes the ordering of the Rule enum, so it may break.
     #[test]
-    fn test_ruleset_u32() {
+    fn parses_from_u32() {
         let ruleset = "2".parse::<RuleSet>().unwrap();
         assert_eq!(ruleset.contains(Rule::CombineRawAndWraps), false);
         assert_eq!(ruleset.contains(Rule::CombineSingleAndMulti), true);
     }
 
     #[test]
-    fn test_ruleset_errors() {
+    fn errors() {
         let s = "CombineFloobAndBleeb";
         assert!(s.parse::<RuleSet>().is_err());
 

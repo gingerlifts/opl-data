@@ -41,7 +41,7 @@ BodyweightKg,Name,Country,State,Event,Equipment,Division,Sex,WeightClassKg,Best3
 96.89,Carl Mudge,USA,OR,D,Single-ply,Disabled,M,100,,,185,,185,2
 59.78,Jorge Salazar Flores,Mexico,,D,Single-ply,Juniors 20-25,M,60,,,180,,180,1
 66.77,Charles West,USA,IL,D,Single-ply,Juniors 20-25,M,67.5,,,182.5,,182.5,1
-65.05,Ryan Martin,USA,OR,D,Single-ply,Juniors 20-25,M,67.5,,,180,,180,2
+65.05,Ryan Martin #6,USA,OR,D,Single-ply,Juniors 20-25,M,67.5,,,180,,180,2
 72.48,Ryan Snelling,USA,MO,D,Single-ply,Juniors 20-25,M,75,,,277.5,,277.5,1
 71.58,Laramie McMasters,USA,IL,D,Single-ply,Juniors 20-25,M,75,,,232.5,,232.5,2
 73.66,David Salazar Flores,Mexico,,D,Single-ply,Juniors 20-25,M,75,,,217.5,,217.5,3
@@ -233,7 +233,7 @@ BodyweightKg,Name,Country,State,Event,Equipment,Division,Sex,WeightClassKg,Best3
 59.78,Gary Bobrovitz,Canada,,D,Single-ply,Open,M,60,,,155,,155,2
 64.77,Joel Scott #1,USA,TX,D,Single-ply,Open,M,67.5,,,262.5,,262.5,1
 67.22,Mauricio Mendoza,Mexico,,D,Single-ply,Open,M,67.5,,,227.5,,227.5,2
-65.05,Ryan Martin,USA,OR,D,Single-ply,Open,M,67.5,,,180,,180,3
+65.05,Ryan Martin #6,USA,OR,D,Single-ply,Open,M,67.5,,,180,,180,3
 73.84,Tobias Adams,USA,CA,D,Single-ply,Open,M,75,,,285,,285,1
 72.48,Ryan Snelling,USA,MO,D,Single-ply,Open,M,75,,,277.5,,277.5,2
 73.57,Dean Kaneshiro,USA,HI,D,Single-ply,Open,M,75,,,252.5,,252.5,3
@@ -342,7 +342,7 @@ BodyweightKg,Name,Country,State,Event,Equipment,Division,Sex,WeightClassKg,Best3
 116.03,Jason Souza,USA,CA,D,Single-ply,Special Olympian,M,117.5,,,130,,130,4
 119.29,Moeun Uon,USA,CA,D,Single-ply,Special Olympian,M,125,,,185,,185,1
 122.02,Greg Cowan,USA,NV,D,Single-ply,Special Olympian,M,125,,,82.5,,82.5,2
-145.15,Ryan Johnson,USA,NV,D,Single-ply,Special Olympian,M,140+,,,170,,170,1
+145.15,Ryan Johnson #12,USA,NV,D,Single-ply,Special Olympian,M,140+,,,170,,170,1
 147.05,Jock Mayes,USA,CA,D,Single-ply,Special Olympian,M,140+,,,165,,165,2
 174.18,Kevin Klose,USA,CA,D,Single-ply,Special Olympian,M,140+,,,102.5,,102.5,3
 44.54,Soledad Rosas,USA,CA,D,Single-ply,Special Olympian,F,48,,,62.5,,62.5,1
@@ -881,7 +881,7 @@ BodyweightKg,Name,Country,State,Event,Equipment,Division,Sex,WeightClassKg,Best3
 114.4,Caleb Tombs,USA,CA,B,Multi-ply,Special Olympian,M,117.5,62.5,,,,62.5,4
 119.29,Moeun Uon,USA,CA,B,Multi-ply,Special Olympian,M,125,97.5,,,,97.5,1
 122.02,Greg Cowan,USA,NV,B,Multi-ply,Special Olympian,M,125,60,,,,60,2
-145.15,Ryan Johnson,USA,NV,B,Multi-ply,Special Olympian,M,140+,130,,,,130,1
+145.15,Ryan Johnson #12,USA,NV,B,Multi-ply,Special Olympian,M,140+,130,,,,130,1
 147.05,Jock Mayes,USA,CA,B,Multi-ply,Special Olympian,M,140+,115,,,,115,2
 174.18,Kevin Klose,USA,CA,B,Multi-ply,Special Olympian,M,140+,85,,,,85,3
 44.54,Soledad Rosas,USA,CA,B,Multi-ply,Special Olympian,F,48,57.5,,,,57.5,1

@@ -16,15 +16,15 @@ use std::fmt;
 /// whether a given MeetDate is less than or greater than a (possibly
 /// nonexistent) Date.
 #[derive(Debug, PartialEq)]
-struct BirthDateRange {
+pub struct BirthDateRange {
     pub min: Date,
     pub max: Date,
 }
 
 /// An unrealistically low Date for use as a default minimum.
-const BDR_DEFAULT_MIN: Date = Date::from_parts(1100, 01, 01);
+pub const BDR_DEFAULT_MIN: Date = Date::from_parts(1100, 01, 01);
 /// An unrealistically high Date for use as a default maximum.
-const BDR_DEFAULT_MAX: Date = Date::from_parts(9997, 06, 15);
+pub const BDR_DEFAULT_MAX: Date = Date::from_parts(9997, 06, 15);
 
 impl Default for BirthDateRange {
     fn default() -> Self {
@@ -51,7 +51,7 @@ impl fmt::Display for BirthDateRange {
 
 /// Named return enum from the BirthDateRange narrow functions, for clarity.
 #[derive(Debug, PartialEq)]
-enum NarrowResult {
+pub enum NarrowResult {
     /// Returned if the new range information was successfully integrated.
     Integrated,
     /// Returned if the new data conflicted with the known range.
@@ -220,7 +220,7 @@ impl BirthDateRange {
 
 /// Helper function for debug-mode printing to keep the code legible.
 #[inline]
-fn trace_integrated<T>(
+pub fn trace_integrated<T>(
     debug: bool,
     range: &BirthDateRange,
     fieldname: &str,
@@ -245,7 +245,7 @@ fn trace_integrated<T>(
 
 /// Helper function for debug-mode printing to keep the code legible.
 #[inline]
-fn trace_conflict<T>(
+pub fn trace_conflict<T>(
     debug: bool,
     range: &BirthDateRange,
     meetdate: Date,
@@ -285,7 +285,7 @@ fn trace_conflict<T>(
 /// `BirthDateRange::default()` is returned.
 ///
 /// Executes in `O(n)` over the indices list.
-fn get_birthdate_range(
+fn birthdate_range(
     meetdata: &mut AllMeetData,
     indices: &[EntryIndex],
     debug: bool,
@@ -295,17 +295,17 @@ fn get_birthdate_range(
     for &index in indices {
         // Extract the MeetDate first. Because of the borrow checker, the Meet and Entry
         // structs cannot be referenced simultaneously.
-        let mdate: Date = meetdata.get_meet(index).date;
+        let mdate: Date = meetdata.meet(index).date;
 
         // Get the MeetPath for more helpful debugging output.
         // Cloning is OK since this is only for a few entries for one lifter.
         let path: Option<String> = if debug {
-            Some(meetdata.get_meet(index).path.clone())
+            Some(meetdata.meet(index).path.clone())
         } else {
             None
         };
 
-        let entry = meetdata.get_entry(index);
+        let entry = meetdata.entry(index);
 
         // Narrow by BirthDate.
         if let Some(birthdate) = entry.birthdate {
@@ -373,7 +373,7 @@ where
 
 /// Given a known BirthDateRange, calculate the lifter's `Age` in each Entry.
 ///
-/// The BirthDateRange was already validated by `get_birthdate_range()`,
+/// The BirthDateRange was already validated by `birthdate_range()`,
 /// so it is guaranteed to be consistent over all the Entries.
 ///
 /// Executes in `O(n)` over the indices list.
@@ -384,8 +384,8 @@ fn infer_from_range(
     debug: bool,
 ) {
     for &index in indices {
-        let mdate: Date = meetdata.get_meet(index).date;
-        let entry = meetdata.get_entry_mut(index);
+        let mdate: Date = meetdata.meet(index).date;
+        let entry = meetdata.entry_mut(index);
 
         let entry_had_exact_age = entry.age.is_exact();
         let age_on_date = range.age_on(mdate);
@@ -444,7 +444,7 @@ fn infer_from_range(
 /// Age interpolation for a single lifter's entries.
 fn interpolate_age_single_lifter(meetdata: &mut AllMeetData, indices: &[EntryIndex], debug: bool) {
     // Attempt to determine bounds for a BirthDate. O(indices).
-    let range = get_birthdate_range(meetdata, indices, debug);
+    let range = birthdate_range(meetdata, indices, debug);
 
     // If found, attempt to apply those bounds. O(indices).
     if range != BirthDateRange::default() {

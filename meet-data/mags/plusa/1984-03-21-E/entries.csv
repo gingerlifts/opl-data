@@ -10,7 +10,7 @@ Fred Glass,56,Open,M,142.5,65,195,402.5,SBD,Single-ply,3
 Joe Kuzicka,56,Open,M,145,97.5,160,402.5,SBD,Single-ply,4
 Ed Greco,56,Open,M,115,90,170,375,SBD,Single-ply,5
 Pete Dorney,60,Open,M,185,85,227.5,497.5,SBD,Single-ply,1
-Joe Johnson,60,Open,M,160,97.5,200,457.5,SBD,Single-ply,2
+Joe Johnson #1,60,Open,M,160,97.5,200,457.5,SBD,Single-ply,2
 Robert Herbst,60,Open,M,140,112.5,182.5,435,SBD,Single-ply,3
 Chris Darrohn,60,Open,M,137.5,90,172.5,400,SBD,Single-ply,4
 Joe Braca,67.5,Open,M,197.5,150,255,602.5,SBD,Single-ply,1
@@ -22,7 +22,7 @@ Todd Wendling,67.5,Open,M,160,110,165,435,SBD,Single-ply,6
 Joe Mazzuca,75,Open,M,245,145,257.5,647.5,SBD,Single-ply,1
 Jim Gallagher #2,75,Open,M,227.5,137.5,250,615,SBD,Single-ply,2
 Brian Kline,75,Open,M,205,137.5,245,587.5,SBD,Single-ply,3
-D. Glass,75,Open,M,170,100,205,475,SBD,Single-ply,4
+Dave Glass,75,Open,M,170,100,205,475,SBD,Single-ply,4
 J. Stinner,75,Open,M,165,105,175,445,SBD,Single-ply,5
 J. Tretter,75,Open,M,,,,,SBD,Single-ply,DQ
 Richard Wenner,82.5,Open,M,265,172.5,267.5,705,SBD,Single-ply,1
@@ -58,6 +58,6 @@ S. Buchman,110,Open,M,182.5,117.5,170,470,SBD,Single-ply,5
 T. Conway,110,Open,M,160,110,172.5,442.5,SBD,Single-ply,6
 D. Markley,125,Open,M,257.5,155,295,707.5,SBD,Single-ply,1
 Bob Mikulski,125,Open,M,215,137.5,265,617.5,SBD,Single-ply,2
-W. Rollison,125,Open,M,185,117.5,215,517.5,SBD,Single-ply,3
+Bill Rollison,125,Open,M,185,117.5,215,517.5,SBD,Single-ply,3
 Jeff Henning,125+,Open,M,355,200,285,840,SBD,Single-ply,1
 John Gallo,125+,Open,M,62.5,250,115,427.5,SBD,Raw,G

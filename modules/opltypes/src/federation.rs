@@ -298,6 +298,10 @@ pub enum Federation {
     #[strum(to_string = "DFPFNL", serialize = "dfpfnl")]
     DFPFNL,
 
+    /// Dutch Powerlifting League.
+    #[strum(to_string = "DPL", serialize = "dpl")]
+    DPL,
+
     /// Danish IPF affiliate.
     #[strum(to_string = "DSF", serialize = "dsf")]
     DSF,
@@ -527,10 +531,6 @@ pub enum Federation {
     #[strum(to_string = "Hardcore", serialize = "hardcore")]
     Hardcore,
 
-    /// Hercules Gym in Syracuse, NY. Run by Rheta West.
-    #[strum(to_string = "HERC", serialize = "herc")]
-    HERC,
-
     /// Hong Kong Powerlifting Federation, WP.
     #[strum(to_string = "HKPF", serialize = "hkpf")]
     HKPF,
@@ -587,7 +587,8 @@ pub enum Federation {
     ILPA,
 
     /// International Nova Strength Association, tiny Texas "fed".
-    /// https://web.archive.org/web/20040807073200/http://www.novafitness.com/insa_fronts/index.htm
+    ///
+    /// <https://web.archive.org/web/20040807073200/http://www.novafitness.com/insa_fronts/index.htm>
     #[strum(to_string = "INSA", serialize = "insa")]
     INSA,
 
@@ -621,6 +622,10 @@ pub enum Federation {
     #[serde(rename = "IPL-Spain")]
     #[strum(to_string = "IPL-Spain", serialize = "ipl-spain")]
     IPLSpain,
+
+    /// Iran Bodybuilding & Fitness, IPF.
+    #[strum(to_string = "IranBBF", serialize = "iranbbf")]
+    IranBBF,
 
     /// Unaffiliated meets held in Ireland.
     #[serde(rename = "Ireland-UA")]
@@ -1060,6 +1065,10 @@ pub enum Federation {
     #[strum(to_string = "UPL", serialize = "upl")]
     UPL,
 
+    /// Ukrainian Raw Powerlifting Federation, WRPF
+    #[strum(to_string = "URPF", serialize = "urpf")]
+    URPF,
+
     /// United States Association of Blind Athletes, IBSA.
     #[strum(to_string = "USABA", serialize = "usaba")]
     USABA,
@@ -1340,6 +1349,11 @@ pub enum Federation {
     #[strum(to_string = "WPPL-Mexico", serialize = "wppl-mexico")]
     WPPLMexico,
 
+    /// World Power Power League, Ukraine.
+    #[serde(rename = "WPPL-Ukraine")]
+    #[strum(to_string = "WPPL-Ukraine", serialize = "wppl-ukraine")]
+    WPPLUkraine,
+
     /// World Paralympic Powerlifting (formerly ParaPL).
     #[strum(to_string = "WPPO", serialize = "wppo")]
     WPPO,
@@ -1477,6 +1491,11 @@ pub enum Federation {
     #[strum(to_string = "WUAP-AUT", serialize = "wuap-aut")]
     WUAPAUT,
 
+    /// Czechian WUAP affiliate.
+    #[serde(rename = "WUAP-CZ")]
+    #[strum(to_string = "WUAP-CZ", serialize = "wuap-cz")]
+    WUAPCZ,
+
     /// Russian WUAP affiliate.
     #[serde(rename = "WUAP-RUS")]
     #[strum(to_string = "WUAP-RUS", serialize = "wuap-rus")]
@@ -1496,10 +1515,17 @@ pub enum Federation {
     #[strum(to_string = "XPC", serialize = "xpc")]
     XPC,
 
-    /// Polish version of the XPC
+    /// Polish version of the XPC.
     #[serde(rename = "XPC-Poland")]
     #[strum(to_string = "XPC-Poland", serialize = "xpc-poland")]
     XPCPoland,
+
+    /// Extreme Performance and Strength, formerly known as HERC.
+    ///
+    /// On 2021-07-29, Rheta West requested that the name change from HERC to XPS,
+    /// in order to sanction events outside of the Hercules Gym.
+    #[strum(to_string = "XPS", serialize = "xps")]
+    XPS,
 }
 
 impl Federation {
@@ -1576,6 +1602,7 @@ impl Federation {
             Federation::CSST => FULLY_TESTED,
             Federation::DBKV => false,
             Federation::DFPFNL => FULLY_TESTED,
+            Federation::DPL => false,
             Federation::CzechiaUA => false,
             Federation::DSF => FULLY_TESTED,
             Federation::EJTL => FULLY_TESTED,
@@ -1628,7 +1655,6 @@ impl Federation {
             Federation::GRAWA => false,
             Federation::GSFBelarus => false,
             Federation::Hardcore => false,
-            Federation::HERC => false,
             Federation::CroatiaUA => false,
             Federation::HKWPA => FULLY_TESTED,
             Federation::HPC => false,
@@ -1652,6 +1678,7 @@ impl Federation {
             Federation::IPL => false,
             Federation::IPLNZ => false,
             Federation::IPLSpain => false,
+            Federation::IranBBF => FULLY_TESTED,
             Federation::IrelandUA => false,
             Federation::IrishPF => FULLY_TESTED,
             Federation::IrishPO => false,
@@ -1764,6 +1791,7 @@ impl Federation {
             Federation::UPCGermany => false,
             Federation::UkrainePF => FULLY_TESTED,
             Federation::UPL => false,
+            Federation::URPF => false,
             Federation::USABA => FULLY_TESTED,
             Federation::USABPA => false,
             Federation::USAUA => false,
@@ -1825,6 +1853,7 @@ impl Federation {
             Federation::WPNZ => FULLY_TESTED,
             Federation::WPPLBelarus => false,
             Federation::WPPLMexico => false,
+            Federation::WPPLUkraine => false,
             Federation::WPPO => FULLY_TESTED,
             Federation::WPRO => false,
             Federation::WPSF => false,
@@ -1853,11 +1882,13 @@ impl Federation {
             Federation::WSHSPL => false,
             Federation::WUAP => false,
             Federation::WUAPAUT => false,
+            Federation::WUAPCZ => false,
             Federation::WUAPRUS => false,
             Federation::WUAPSVK => false,
             Federation::WUAPUSA => false,
             Federation::XPC => false,
             Federation::XPCPoland => false,
+            Federation::XPS => false,
         }
     }
 
@@ -1925,6 +1956,7 @@ impl Federation {
             Federation::CSST => Some(Country::Czechia),
             Federation::DBKV => Some(Country::Germany),
             Federation::DFPFNL => Some(Country::Netherlands),
+            Federation::DPL => Some(Country::Netherlands),
             Federation::CzechiaUA => Some(Country::Czechia),
             Federation::DSF => Some(Country::Denmark),
             Federation::EJTL => Some(Country::Estonia),
@@ -1978,7 +2010,6 @@ impl Federation {
             Federation::GRAWA => Some(Country::Germany),
             Federation::GSFBelarus => Some(Country::Belarus),
             Federation::Hardcore => Some(Country::USA),
-            Federation::HERC => Some(Country::USA),
             Federation::HKPF => Some(Country::HongKong),
             Federation::CroatiaUA => Some(Country::Croatia),
             Federation::HKWPA => Some(Country::HongKong),
@@ -2001,6 +2032,7 @@ impl Federation {
             Federation::IPL => None,
             Federation::IPLNZ => Some(Country::NewZealand),
             Federation::IPLSpain => Some(Country::Spain),
+            Federation::IranBBF => Some(Country::Iran),
             Federation::IrelandUA => Some(Country::Ireland),
             Federation::IrishPF => Some(Country::Ireland),
             Federation::IrishPO => Some(Country::Ireland),
@@ -2106,6 +2138,7 @@ impl Federation {
             Federation::UPCGermany => Some(Country::Germany),
             Federation::UkrainePF => Some(Country::Ukraine),
             Federation::UPL => Some(Country::Ukraine),
+            Federation::URPF => Some(Country::Ukraine),
             Federation::USABA => Some(Country::USA),
             Federation::USABPA => Some(Country::USA),
             Federation::USAUA => Some(Country::USA),
@@ -2166,6 +2199,7 @@ impl Federation {
             Federation::WPNZ => Some(Country::NewZealand),
             Federation::WPPLBelarus => Some(Country::Belarus),
             Federation::WPPLMexico => Some(Country::Mexico),
+            Federation::WPPLUkraine => Some(Country::Ukraine),
             Federation::WPPO => None,
             Federation::WPRO => Some(Country::Ukraine),
             Federation::WPSF => None,
@@ -2195,11 +2229,13 @@ impl Federation {
             Federation::WSHSPL => Some(Country::USA),
             Federation::WUAP => None,
             Federation::WUAPAUT => Some(Country::Austria),
+            Federation::WUAPCZ => Some(Country::Czechia),
             Federation::WUAPRUS => Some(Country::Russia),
             Federation::WUAPSVK => Some(Country::Slovakia),
             Federation::WUAPUSA => Some(Country::USA),
             Federation::XPC => Some(Country::USA),
             Federation::XPCPoland => Some(Country::Poland),
+            Federation::XPS => Some(Country::USA),
         }
     }
 
@@ -2295,6 +2331,7 @@ impl Federation {
             Federation::CzechiaUA => None,
             Federation::DBKV => None,
             Federation::DFPFNL => Some(Federation::WDFPF),
+            Federation::DPL => Some(Federation::IPL),
             Federation::DSF => Some(Federation::IPF),
             Federation::EJTL => Some(Federation::IPF),
             Federation::EPC => {
@@ -2354,7 +2391,6 @@ impl Federation {
             Federation::GRAWA => Some(Federation::IRP),
             Federation::GSFBelarus => None,
             Federation::Hardcore => None,
-            Federation::HERC => None,
             Federation::CroatiaUA => None,
             Federation::HKPF => Some(Federation::WP),
             Federation::HKWPA => Some(Federation::IPF),
@@ -2377,6 +2413,7 @@ impl Federation {
             Federation::IPL => Some(Federation::IPL),
             Federation::IPLNZ => Some(Federation::IPL),
             Federation::IPLSpain => Some(Federation::IPL),
+            Federation::IranBBF => Some(Federation::IPF),
             Federation::IrelandUA => None,
             Federation::IrishPF => Some(Federation::IPF),
             Federation::IrishPO => Some(Federation::IPL),
@@ -2503,6 +2540,7 @@ impl Federation {
             Federation::UPCGermany => Some(Federation::UPC),
             Federation::UkrainePF => Some(Federation::IPF),
             Federation::UPL => Some(Federation::IPL),
+            Federation::URPF => Some(Federation::WRPF),
             Federation::USABA => Some(Federation::IBSA),
             Federation::USABPA => None,
             Federation::USAUA => None,
@@ -2578,6 +2616,7 @@ impl Federation {
             Federation::WPNZ => Some(Federation::WP),
             Federation::WPPLBelarus => None,
             Federation::WPPLMexico => None,
+            Federation::WPPLUkraine => None,
             Federation::WPPO => None,
             Federation::WPRO => None,
             Federation::WPSF => Some(Federation::WPSF),
@@ -2607,11 +2646,13 @@ impl Federation {
             Federation::WSHSPL => None,
             Federation::WUAP => Some(Federation::WUAP),
             Federation::WUAPAUT => Some(Federation::WUAP),
+            Federation::WUAPCZ => Some(Federation::WUAP),
             Federation::WUAPRUS => Some(Federation::WUAP),
             Federation::WUAPSVK => Some(Federation::WUAP),
             Federation::WUAPUSA => Some(Federation::WUAP),
             Federation::XPC => Some(Federation::XPC),
             Federation::XPCPoland => Some(Federation::XPC),
+            Federation::XPS => None,
         }
     }
 
@@ -2730,6 +2771,7 @@ impl Federation {
             Federation::CSST => PointsSystem::Wilks,
             Federation::DBKV => PointsSystem::Wilks,
             Federation::DFPFNL => PointsSystem::Wilks,
+            Federation::DPL => PointsSystem::Dots,
             Federation::CzechiaUA => PointsSystem::Wilks,
             Federation::DSF => Federation::ipf_rules_on(date),
             Federation::EJTL => Federation::ipf_rules_on(date),
@@ -2783,7 +2825,6 @@ impl Federation {
             Federation::GRAWA => PointsSystem::Wilks,
             Federation::GSFBelarus => PointsSystem::Wilks,
             Federation::Hardcore => PointsSystem::Wilks,
-            Federation::HERC => PointsSystem::Wilks,
             Federation::CroatiaUA => PointsSystem::Wilks,
             Federation::HKPF => Federation::wp_rules_on(date),
             Federation::HKWPA => Federation::ipf_rules_on(date),
@@ -2806,6 +2847,7 @@ impl Federation {
             Federation::IPL => Federation::ipl_rules_on(date),
             Federation::IPLNZ => Federation::ipl_rules_on(date),
             Federation::IPLSpain => Federation::ipl_rules_on(date),
+            Federation::IranBBF => Federation::ipf_rules_on(date),
             Federation::IrelandUA => PointsSystem::Wilks,
             Federation::IrishPF => {
                 // On 2020-02-16, IrishPF voted to immediately switch to Dots.
@@ -2946,6 +2988,7 @@ impl Federation {
             Federation::UPCGermany => PointsSystem::Glossbrenner,
             Federation::UkrainePF => Federation::ipf_rules_on(date),
             Federation::UPL => Federation::ipl_rules_on(date),
+            Federation::URPF => PointsSystem::Wilks,
             Federation::USABA => PointsSystem::Wilks,
             Federation::USABPA => PointsSystem::Wilks,
             Federation::USAUA => PointsSystem::Wilks,
@@ -3012,6 +3055,7 @@ impl Federation {
             Federation::WPNZ => PointsSystem::Wilks,
             Federation::WPPLBelarus => PointsSystem::Wilks,
             Federation::WPPLMexico => PointsSystem::Wilks,
+            Federation::WPPLUkraine => PointsSystem::Wilks,
             Federation::WPPO => PointsSystem::AH,
             Federation::WPRO => PointsSystem::Wilks,
             Federation::WPSF => PointsSystem::Wilks,
@@ -3041,11 +3085,13 @@ impl Federation {
             Federation::WSHSPL => PointsSystem::Wilks,
             Federation::WUAP => PointsSystem::Wilks,
             Federation::WUAPAUT => PointsSystem::Wilks,
+            Federation::WUAPCZ => PointsSystem::Wilks,
             Federation::WUAPRUS => PointsSystem::Wilks,
             Federation::WUAPSVK => PointsSystem::Wilks,
             Federation::WUAPUSA => PointsSystem::Wilks,
             Federation::XPC => PointsSystem::Wilks,
             Federation::XPCPoland => PointsSystem::Wilks,
+            Federation::XPS => PointsSystem::Wilks,
         }
     }
 }
@@ -3055,7 +3101,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_url_strings() {
+    fn url_strings() {
         // The lowercase form should parse.
         assert_eq!("wrpf".parse::<Federation>().unwrap(), Federation::WRPF);
 

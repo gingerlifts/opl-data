@@ -15,7 +15,7 @@ Place,Name,Division,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,Total
 4,Vladislav Leontyev,Open,73.15,302.5,192.5,262.5,757.5,74,M,Владислав Леонтьев,1994,SBD,Single-ply
 5,Pavel Belevantsev,Open,73.45,290,227.5,240,757.5,74,M,Павел Белеванцев,1983,SBD,Single-ply
 6,Ilya Mishin,Open,73.9,275,195,275,745,74,M,Илья Мишин,1995,SBD,Single-ply
-7,Sergey Tarasov,Open,70.2,260,165,250,675,74,M,Сергей Тарасов,1994,SBD,Single-ply
+7,Sergey Tarasov #1,Open,70.2,260,165,250,675,74,M,Сергей Тарасов,1994,SBD,Single-ply
 8,Maksim Kutovoy,Open,73.6,242.5,172.5,207.5,622.5,74,M,Максим Кутовой,1989,SBD,Single-ply
 DQ,Nikolay Sokolov #1,Open,73.75,,,,,74,M,Николай Соколов,1979,SBD,Single-ply
 1,Evgeniy Vasyukov,Open,83,330,288,282.5,900.5,83,M,Евгений Васюков,1985,SBD,Single-ply
@@ -100,7 +100,7 @@ DQ,Sergey Drogalev,Juniors,104.85,,,,,105,M,Сергей Дрогалев,2000,S
 DQ,Nikita Dyakov #4,Sub-Juniors,52.82,,,,,53,M,Никита Дьяков,2001,SBD,Single-ply
 1,Ilya Marichev,Sub-Juniors,58.54,220,159,230,609,59,M,Илья Маричев,2001,SBD,Single-ply
 2,Vladislav Yuschenko,Sub-Juniors,58.52,205,127.5,200,532.5,59,M,Владислав Ющенко,2002,SBD,Single-ply
-3,Sergey Popov,Sub-Juniors,58.16,210,97.5,222.5,530,59,M,Сергей Попов,2002,SBD,Single-ply
+3,Sergey Popov #3,Sub-Juniors,58.16,210,97.5,222.5,530,59,M,Сергей Попов,2002,SBD,Single-ply
 4,Maksim Aksaev,Sub-Juniors,58.86,200,117.5,212.5,530,59,M,Максим Аксаев,2001,SBD,Single-ply
 5,Yaroslav Elfimov,Sub-Juniors,57.52,200,117.5,180,497.5,59,M,Ярослав Елфимов,2002,SBD,Single-ply
 6,Mikhail Antsiferov,Sub-Juniors,57.9,135,70,145,350,59,M,Михаил Анциферов,2003,SBD,Single-ply
@@ -114,7 +114,7 @@ DQ,Oleg Klochko,Sub-Juniors,58.96,,,,,59,M,Олег Клочко,2001,SBD,Single
 6,Vadim Avilkin,Sub-Juniors,66,147.5,95,185,427.5,66,M,Вадим Авилкин,2001,SBD,Single-ply
 1,Dmitriy Zaytsev,Sub-Juniors,72.2,270,200.5,260,730.5,74,M,Дмитрий Зайцев,2001,SBD,Single-ply
 2,Nikita Grebenkin,Sub-Juniors,73.65,252.5,182.5,235,670,74,M,Никита Гребенкин,2001,SBD,Single-ply
-3,Evgeniy Stepanov,Sub-Juniors,72.75,245,175,235,655,74,M,Евгений Степанов,2001,SBD,Single-ply
+3,Evgeniy Stepanov #2,Sub-Juniors,72.75,245,175,235,655,74,M,Евгений Степанов,2001,SBD,Single-ply
 4,Pavel Nekrasov,Sub-Juniors,72.05,245,140,225,610,74,M,Павел Некрасов,2001,SBD,Single-ply
 5,Ivan Bondarev,Sub-Juniors,73.55,225,140,222.5,587.5,74,M,Иван Бондарев,2002,SBD,Single-ply
 6,Maksim Veretennikov,Sub-Juniors,72.85,200,150,225,575,74,M,Максим Веретенников,2003,SBD,Single-ply

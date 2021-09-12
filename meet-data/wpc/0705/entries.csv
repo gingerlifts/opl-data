@@ -59,7 +59,7 @@ DQ,Yevgeniy Gavrilov,M,SBD,Multi-ply,100,J 20-23,1984-05-01,23,99.8,Russia,310,3
 1,Eduard Shpringer,M,SBD,Multi-ply,110,T 18-19,1988-03-20,19,108.15,Russia,290,-315,,,290,200,215,,,215,200,,,,200,705
 1,Mikhail Brylin,M,SBD,Multi-ply,110,J 20-23,1984-04-19,23,108.2,Russia,-360,370,380,,380,-240,240,252.5,,252.5,322.5,340,347.5,-355,347.5,980
 DQ,Ilya Sidelnikov,M,SBD,Multi-ply,110,J 20-23,1984-03-17,23,105.5,Russia,-370,-370,-370,,,,,,,,,,,,,
-1,Caleb Smith,M,SBD,Multi-ply,125,T 16-17,1991-08-26,16,114.95,USA,210,232.5,-257.5,,232.5,70,107.5,115,,115,170,200,215,,215,562.5
+1,Caleb Smith #6,M,SBD,Multi-ply,125,T 16-17,1991-08-26,16,114.95,USA,210,232.5,-257.5,,232.5,70,107.5,115,,115,170,200,215,,215,562.5
 1,Andrey Zverev,M,SBD,Multi-ply,125,T 18-19,1987-12-10,19,111.75,Russia,240,-250,260,,260,170,185,-200,,185,200,220,,,220,665
 1,Kirill Sarychev,M,SBD,Single-ply,140+,T 18-19,1989-01-01,18,157.65,Russia,320,340,,,340,250,282.5,-290,,282.5,270,-300,300,,300,922.5
 1,Aleksandr Onuchin,M,SBD,Multi-ply,56,Open,1978-10-02,29,56,Russia,160,180,190,,190,110,120,127.5,,127.5,190,-215.5,215.5,,215.5,533
@@ -424,7 +424,7 @@ DQ,Peka Rantanen,M,B,Multi-ply,125,M 50-54,1957-03-31,50,117.8,Finland,,,,,,-220
 1,Ilkka Lukkarinen,M,B,Multi-ply,140,T 18-19,1988-09-23,19,129.3,Finland,,,,,,240,250.5,-265,,250.5,,,,,,250
 1,Alexey Shlykov,M,B,Multi-ply,140,J 20-23,1984-08-13,23,125.05,Russia,,,,,,150,250,270,,270,,,,,,270
 2,Aleksandr Laptev,M,B,Multi-ply,140,J 20-23,1983-11-28,23,132.15,Russia,,,,,,260,270,-275,,270,,,,,,270
-1,Vladimir Maksimov,M,B,Multi-ply,140,M 40-44,1966-06-07,41,130.05,Russia,,,,,,355,367.5,-375,,367.5,,,,,,367.5
+1,Vladimir Maksimov #1,M,B,Multi-ply,140,M 40-44,1966-06-07,41,130.05,Russia,,,,,,355,367.5,-375,,367.5,,,,,,367.5
 2,Tomas Veselý,M,B,Multi-ply,140,M 40-44,1966-01-01,41,140,Czechia,,,,,,200,230,-240,,230,,,,,,230
 1,Kirill Sarychev,M,B,Single-ply,140+,T 18-19,1989-01-01,18,157.4,Russia,,,,,,260,287.5,-300,,287.5,,,,,,287.5
 1,Chris Clark,M,B,Multi-ply,140+,M 40-44,1967-06-14,40,151.55,USA,,,,,,275,-300,-307.5,,275,,,,,,275
@@ -509,7 +509,7 @@ DQ,Konstantin Otavin,M,B,Multi-ply,100,Open,1973-11-25,33,100,Russia,,,,,,-300,-
 10,Alexandr Chizhov,M,B,Multi-ply,110,Open,1978-05-14,29,109,Russia,,,,,,220,-230,240,,240,,,,,,240
 11,Alexey Golodnov,M,B,Multi-ply,110,Open,1981-05-17,26,109.25,Russia,,,,,,-240,-240,240,,240,,,,,,240
 12,Pavel Kucherov,M,B,Multi-ply,110,Open,1969-01-24,38,110,Russia,,,,,,-240,-240,240,,240,,,,,,240
-13,Vladimir Maksimov,M,B,Multi-ply,110,Open,1972-07-26,35,102.9,Russia,,,,,,220,-240,-240,,220,,,,,,220
+13,Vladimir Maksimov #5,M,B,Multi-ply,110,Open,1972-07-26,35,102.9,Russia,,,,,,220,-240,-240,,220,,,,,,220
 DQ,Andrey Balakin,M,B,Multi-ply,110,Open,1978-05-23,29,105.55,Russia,,,,,,-240,-240,-240,,,,,,,,
 DQ,Ivan Kurpishev,M,B,Multi-ply,110,Open,1969-04-02,38,108.55,Russia,,,,,,-300,-310,-317.5,,,,,,,,
 DQ,Dmitriy Gorbachev,M,B,Multi-ply,110,Open,1970-03-06,37,108.75,Russia,,,,,,-310,-310,-330,,,,,,,,
@@ -529,7 +529,7 @@ DQ,Aleksandr Tretyakov #1,M,B,Multi-ply,110,Open,1967-06-14,40,110,Russia,,,,,,-
 DQ,Sergey Kapusta,M,B,Multi-ply,125,Open,1972-05-15,35,116.05,Russia,,,,,,-310,-312.5,-312.5,,,,,,,,
 DQ,Oleg Zaytsev,M,B,Multi-ply,125,Open,1969-04-19,38,118.8,Russia,,,,,,-190,-190,-210,,,,,,,,
 DQ,Alexandr Kiselev,M,B,Multi-ply,125,Open,1970-11-16,36,120.6,Russia,,,,,,-235,-250,-250,,,,,,,,
-1,Vladimir Maksimov,M,B,Multi-ply,140,Open,1966-06-07,41,130.05,Russia,,,,,,355,367.5,-375,,367.5,,,,,,367.5
+1,Vladimir Maksimov #1,M,B,Multi-ply,140,Open,1966-06-07,41,130.05,Russia,,,,,,355,367.5,-375,,367.5,,,,,,367.5
 2,Stanislav Polyakov,M,B,Multi-ply,140,Open,1973-02-21,34,126.95,Russia,,,,,,270,-305,-305,,270,,,,,,270
 3,Mikhail Reutov,M,B,Multi-ply,140,Open,1972-12-10,,131.4,Russia,,,,,,-220,-220,220,,220,,,,,,220
 DQ,Alexey Shishkin,M,B,Multi-ply,140,Open,1977-04-25,30,125.5,Russia,,,,,,-240,-240,-257.5,,,,,,,,

@@ -195,10 +195,7 @@ impl fmt::Display for Event {
 }
 
 impl Serialize for Event {
-    fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
-    where
-        S: serde::Serializer,
-    {
+    fn serialize<S: serde::Serializer>(&self, serializer: S) -> Result<S::Ok, S::Error> {
         // The greatest possible string is "SBD", 3 characters.
         let mut buf = ArrayString::<3>::new();
         write!(buf, "{}", self).expect("ArrayString overflow");
@@ -253,19 +250,13 @@ impl<'de> Visitor<'de> for EventVisitor {
         formatter.write_str("a string containing only the characters S,B,D")
     }
 
-    fn visit_str<E>(self, value: &str) -> Result<Event, E>
-    where
-        E: de::Error,
-    {
+    fn visit_str<E: de::Error>(self, value: &str) -> Result<Event, E> {
         Event::from_str(value).map_err(E::custom)
     }
 }
 
 impl<'de> Deserialize<'de> for Event {
-    fn deserialize<D>(deserializer: D) -> Result<Event, D::Error>
-    where
-        D: serde::Deserializer<'de>,
-    {
+    fn deserialize<D: serde::Deserializer<'de>>(deserializer: D) -> Result<Event, D::Error> {
         deserializer.deserialize_str(EventVisitor)
     }
 }
@@ -275,7 +266,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_event_basic() {
+    fn basic() {
         let event = "SBD".parse::<Event>().unwrap();
         assert!(event.has_push_pull());
         assert!(event.has_squat());
@@ -332,7 +323,7 @@ mod tests {
     }
 
     #[test]
-    fn test_event_errors() {
+    fn errors() {
         assert!("".parse::<Event>().is_err());
         assert!(" ".parse::<Event>().is_err());
         assert!("ABC".parse::<Event>().is_err());
@@ -340,14 +331,14 @@ mod tests {
     }
 
     #[test]
-    fn test_event_repeats() {
+    fn repeats() {
         assert!("BBBBBBBB".parse::<Event>().is_err());
         assert!("BSS".parse::<Event>().is_err());
         assert!("SSSBBBDDDDDD".parse::<Event>().is_err());
     }
 
     #[test]
-    fn test_event_display() {
+    fn display() {
         let event = "SBD".parse::<Event>().unwrap();
         assert_eq!(format!("{}", event), "SBD");
 

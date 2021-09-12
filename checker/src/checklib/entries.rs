@@ -16,7 +16,7 @@ use crate::checklib::meet::Meet;
 use crate::{EntryIndex, Report};
 
 /// List of all plausible weightclasses, for non-configured federations.
-const DEFAULT_WEIGHTCLASSES: [WeightClassKg; 49] = [
+const DEFAULT_WEIGHTCLASSES: [WeightClassKg; 51] = [
     // IPF Men.
     WeightClassKg::UnderOrEqual(WeightKg::from_i32(53)),
     WeightClassKg::UnderOrEqual(WeightKg::from_i32(59)),
@@ -33,7 +33,9 @@ const DEFAULT_WEIGHTCLASSES: [WeightClassKg; 49] = [
     WeightClassKg::UnderOrEqual(WeightKg::from_i32(52)),
     WeightClassKg::UnderOrEqual(WeightKg::from_i32(57)),
     WeightClassKg::UnderOrEqual(WeightKg::from_i32(63)),
+    WeightClassKg::UnderOrEqual(WeightKg::from_i32(69)),
     WeightClassKg::UnderOrEqual(WeightKg::from_i32(72)),
+    WeightClassKg::UnderOrEqual(WeightKg::from_i32(76)),
     WeightClassKg::UnderOrEqual(WeightKg::from_i32(84)),
     WeightClassKg::Over(WeightKg::from_i32(84)),
     // Traditional and extra classes.
@@ -444,8 +446,8 @@ fn check_column_name(name: &str, line: u64, report: &mut Report) -> String {
             match word {
                 // Common short words that mostly translate to "the".
                 "bin" | "da" | "de" | "do" | "del" | "den" | "der" | "des" | "di" | "dos"
-                | "du" | "e" | "el" | "in't" | "la" | "le" | "los" | "'t" | "te" | "ten" | "v"
-                | "v." | "v.d." | "van" | "von" | "zur" | "und" | "zu" => {
+                | "du" | "e" | "el" | "in't" | "la" | "le" | "los" | "'t" | "te" | "ten"
+                | "und" | "v" | "v." | "v.d." | "van" | "von" | "zur" | "y" | "zu" => {
                     continue;
                 }
 
@@ -517,7 +519,7 @@ fn check_column_cyrillicname(s: &str, line: u64, report: &mut Report) -> Option<
         None
     } else {
         for c in s.chars() {
-            if get_writing_system(c) != WritingSystem::Cyrillic && !"-' .".contains(c) {
+            if writing_system(c) != WritingSystem::Cyrillic && !"-' .".contains(c) {
                 let msg = format!(
                     "CyrillicName '{}' contains non-Cyrillic character '{}'",
                     s, c
@@ -535,7 +537,7 @@ fn check_column_japanesename(s: &str, line: u64, report: &mut Report) -> Option<
         None
     } else {
         for c in s.chars() {
-            if get_writing_system(c) != WritingSystem::Japanese && c != ' ' {
+            if writing_system(c) != WritingSystem::Japanese && c != ' ' {
                 let msg = format!(
                     "JapaneseName '{}' contains non-Japanese character '{}'",
                     s, c
@@ -553,7 +555,7 @@ fn check_column_greekname(s: &str, line: u64, report: &mut Report) -> Option<Str
         None
     } else {
         for c in s.chars() {
-            if get_writing_system(c) != WritingSystem::Greek && !"-' .".contains(c) {
+            if writing_system(c) != WritingSystem::Greek && !"-' .".contains(c) {
                 let msg = format!("GreekName '{}' contains non-Greek character '{}'", s, c);
                 report.error_on(line, msg);
                 return None;
@@ -568,7 +570,7 @@ fn check_column_koreanname(s: &str, line: u64, report: &mut Report) -> Option<St
         None
     } else {
         for c in s.chars() {
-            if get_writing_system(c) != WritingSystem::Korean && !"-' .".contains(c) {
+            if writing_system(c) != WritingSystem::Korean && !"-' .".contains(c) {
                 let msg = format!("KoreanName '{}' contains non-Korean character '{}'", s, c);
                 report.error_on(line, msg);
                 return None;
@@ -1919,7 +1921,7 @@ fn check_division_equipment_consistency(
 }
 
 /// Returns Testedness based on division configuration.
-fn get_tested_from_division_config(entry: &Entry, config: Option<&Config>) -> bool {
+fn tested_from_division_config(entry: &Entry, config: Option<&Config>) -> bool {
     let config = match config {
         Some(c) => c,
         None => {
@@ -1979,7 +1981,7 @@ where
 
     // Scan for check exemptions.
     let exemptions = {
-        let parent_folder = &report.get_parent_folder()?;
+        let parent_folder = &report.parent_folder()?;
         config.and_then(|c| c.exemptions_for(parent_folder))
     };
     let exempt_lift_order: bool = exemptions.map_or(false, |el| {
@@ -2143,7 +2145,7 @@ where
         }
 
         // Assign the Tested column if it's configured for the Division.
-        entry.tested = get_tested_from_division_config(&entry, config);
+        entry.tested = tested_from_division_config(&entry, config);
 
         // Check the Country and State information.
         if let Some(idx) = headers.get(Header::Country) {

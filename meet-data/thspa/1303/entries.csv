@@ -1,6 +1,6 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
 Boys,51.71,1,Brandon Sauceda,PSJA Memorial,51.71,147.42,70.31,142.88,360.61,Single-ply,SBD,M
-Boys,51.71,2,David Garcia,Pharr Valley View,51.71,131.54,70.31,156.49,358.34,Single-ply,SBD,M
+Boys,51.71,2,David Garcia #5,Pharr Valley View,51.71,131.54,70.31,156.49,358.34,Single-ply,SBD,M
 Boys,51.71,3,Kevin Sierra,PSJA Southwest,47.63,102.06,52.16,113.4,267.62,Single-ply,SBD,M
 Boys,51.71,4,Brooks Guzman,Weslaco East,51.71,92.99,47.63,115.67,256.28,Single-ply,SBD,M
 Boys,51.71,DQ,Christian Lopez #4,PSJA North,51.48,,,,,Single-ply,SBD,M
@@ -16,7 +16,7 @@ Boys,59.87,4,Isaac Diez,PSJA,59.87,183.7,124.74,158.76,467.2,Single-ply,SBD,M
 Boys,59.87,5,Gus Maldonado,Rio Grande City,59.87,174.63,83.91,179.17,437.72,Single-ply,SBD,M
 Boys,59.87,6,Carlos Giles,PSJA,59.87,147.42,81.65,145.15,374.21,Single-ply,SBD,M
 Boys,59.87,7,Eddie Garza,PSJA Southwest,59.42,129.27,68.04,124.74,322.05,Single-ply,SBD,M
-Boys,59.87,DQ,Josh Garcia,Weslaco,59.87,,,,,Single-ply,SBD,M
+Boys,59.87,DQ,Josh Garcia #6,Weslaco,59.87,,,,,Single-ply,SBD,M
 Boys,59.87,DQ,Robert Aranda,Mission Veterans Memorial,59.87,167.83,79.38,,,Single-ply,SBD,M
 Boys,67.13,1,Jose Bazaldua,Mercedes,67.13,226.8,127.01,208.65,562.45,Single-ply,SBD,M
 Boys,67.13,2,Carlos Castillo,Los Fresnos,67.13,226.8,117.93,195.04,539.77,Single-ply,SBD,M
@@ -25,7 +25,7 @@ Boys,67.13,4,Joe Rocafuerte,Los Fresnos,67.13,195.04,111.13,190.51,496.68,Single
 Boys,67.13,5,Jerry Pena,Rio Grande City,67.13,172.37,81.65,181.44,435.45,Single-ply,SBD,M
 Boys,67.13,6,Eduardo Jilpas,Weslaco,67.13,147.42,68.04,154.22,369.68,Single-ply,SBD,M
 Boys,67.13,7,Ricardo Torres,Rio Grande City,67.13,124.74,65.77,136.08,326.59,Single-ply,SBD,M
-Boys,67.13,DQ,Joe Torres,Los Fresnos,67.13,201.85,,,,Single-ply,SBD,M
+Boys,67.13,DQ,Joe Torres #5,Los Fresnos,67.13,201.85,,,,Single-ply,SBD,M
 Boys,74.84,1,DJ Martinez,PSJA Memorial,74.84,235.87,133.81,224.53,594.21,Single-ply,SBD,M
 Boys,74.84,2,Noel Zuniga,PSJA,74.84,233.6,124.74,224.53,582.87,Single-ply,SBD,M
 Boys,74.84,3,Jessie Villarreal,PSJA Southwest,70.31,195.04,104.33,192.78,492.15,Single-ply,SBD,M
@@ -45,7 +45,7 @@ Boys,82.1,8,Michael Ruiz #2,Mercedes,82.1,140.61,97.52,181.44,419.57,Single-ply,
 Boys,82.1,9,Rene Gonzalez,Los Fresnos,82.1,145.15,79.38,151.95,376.48,Single-ply,SBD,M
 Boys,82.1,DQ,Marco Villarreal,Mission Sharyland,82.1,213.19,,,,Single-ply,SBD,M
 Boys,82.1,DQ,Andrew Cura,Mission Sharyland,82.1,,,,,Single-ply,SBD,M
-Boys,89.81,1,Victor Aguilar,Mercedes,89.81,254.01,136.08,242.67,632.76,Single-ply,SBD,M
+Boys,89.81,1,Victor Aguilar #2,Mercedes,89.81,254.01,136.08,242.67,632.76,Single-ply,SBD,M
 Boys,89.81,2,Javi Perez,PSJA Memorial,89.81,233.6,129.27,210.92,573.79,Single-ply,SBD,M
 Boys,89.81,3,Alberto Roque,Mission,89.81,222.26,122.47,201.85,546.58,Single-ply,SBD,M
 Boys,89.81,4,AJ Alvarez,Donna,89.81,201.85,122.47,213.19,537.51,Single-ply,SBD,M

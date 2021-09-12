@@ -37,7 +37,7 @@ WeightClassKg,Place,Name,CyrillicName,BirthYear,BodyweightKg,Best3SquatKg,Best3B
 74,8,Aleksandr Tsitsenko,Александр Циценко,1986,73,190,135,200,525,SBD,Raw,M,Open
 74,9,Danil Shelest,Данил Шелест,2002,71.3,170,110,190,470,SBD,Raw,M,Open
 74,10,Nikita Plesovskikh,Никита Плесовских,2002,71.05,175,95,190,460,SBD,Raw,M,Open
-74,11,Nikita Smirnov,Никита Смирнов,1996,72.25,135,125,200,460,SBD,Raw,M,Open
+74,11,Nikita Smirnov #1,Никита Смирнов,1996,72.25,135,125,200,460,SBD,Raw,M,Open
 74,12,Gleb Ivanov,Глеб Иванов,1980,72.55,115,105,160,380,SBD,Raw,M,Open
 83,1,Valeriy Tuktarov,Валерий Туктаров,1992,82.7,240,165,280,685,SBD,Raw,M,Open
 83,2,Ilya Orel,Илья Орел,1993,81.55,230,157.5,272.5,660,SBD,Raw,M,Open
@@ -68,7 +68,7 @@ WeightClassKg,Place,Name,CyrillicName,BirthYear,BodyweightKg,Best3SquatKg,Best3B
 93,10,Nikolay Kalyagin,Николай Калягин,1993,91.1,210,167.5,250,627.5,SBD,Raw,M,Open
 93,11,Anatoliy Denisenko,Анатолий Денисенко,1995,89,235,135,240,610,SBD,Raw,M,Open
 93,12,Aleksandr Nemtin,Александр Немтин,1998,90,220,135,240,595,SBD,Raw,M,Open
-93,13,Sergey Popov,Сергей Попов,1999,86.35,215,145,220,580,SBD,Raw,M,Open
+93,13,Sergey Popov #28,Сергей Попов,1999,86.35,215,145,220,580,SBD,Raw,M,Open
 93,14,Artem Barabash,Артем Барабаш,1998,85.6,205,147.5,212.5,565,SBD,Raw,M,Open
 93,15,Andrey Tretyakov,Андрей Третьяков,1990,91.55,195,155,200,550,SBD,Raw,M,Open
 93,16,Aleksey Mkrtchyan,Алексей Мкртчян,1986,89.4,190,122.5,227.5,540,SBD,Raw,M,Open

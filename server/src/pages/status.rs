@@ -73,7 +73,6 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[DSF as usize].status = complete;
     statuses[GPACRO as usize].status = complete;
     statuses[GPCWUAPCRO as usize].status = complete;
-    statuses[HERC as usize].status = complete;
     statuses[HPLS as usize].status = complete;
     statuses[HPLSUA as usize].status = complete;
     statuses[HPO as usize].status = complete;
@@ -91,6 +90,7 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[USPA as usize].status = complete;
     statuses[USPC as usize].status = complete;
     statuses[WP as usize].status = complete;
+    statuses[XPS as usize].status = complete;
 
     // Probes.
     let yes = "Yes";
@@ -120,7 +120,6 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[FPR as usize].has_probe = yes;
     statuses[GPA as usize].has_probe = yes;
     statuses[GPCAUS as usize].has_probe = yes;
-    statuses[HERC as usize].has_probe = yes;
     statuses[IPA as usize].has_probe = yes;
     statuses[IPF as usize].has_probe = yes;
     statuses[IrishPF as usize].has_probe = yes;
@@ -160,6 +159,7 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[WRPFSpain as usize].has_probe = yes;
     statuses[WRPF as usize].has_probe = yes;
     statuses[XPC as usize].has_probe = yes;
+    statuses[XPS as usize].has_probe = yes;
 
     // Results format.
     let database = "Database";
@@ -331,7 +331,6 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[GPCGB as usize].maintainers = email_robby;
     statuses[GPCNZ as usize].maintainers = email_matt;
     statuses[GPCWUAPCRO as usize].maintainers = email_alan;
-    statuses[HERC as usize].maintainers = email_sean;
     statuses[HPLS as usize].maintainers = email_alan;
     statuses[HPLSUA as usize].maintainers = email_alan;
     statuses[HPO as usize].maintainers = email_alan;
@@ -369,6 +368,7 @@ fn set_hardcoded_strings(statuses: &mut Vec<FederationStatus>) {
     statuses[WPCPortugal as usize].maintainers = email_gem;
     statuses[WPNZ as usize].maintainers = email_matt;
     statuses[WRPFAUS as usize].maintainers = email_matt;
+    statuses[XPS as usize].maintainers = email_sean;
 
     // Don't ask for maintainership applications for defunct, completed federations.
     statuses[BB as usize].maintainers = "";
@@ -447,7 +447,7 @@ impl<'a> Context<'a> {
         let mut statuses: Vec<FederationStatus> =
             Federation::iter().map(FederationStatus::new).collect();
 
-        for meet in opldb.get_meets() {
+        for meet in opldb.meets() {
             let idx = meet.federation as usize;
             statuses[idx].meet_count += 1;
         }
@@ -469,9 +469,9 @@ impl<'a> Context<'a> {
             strings: locale.strings,
             units: locale.units,
             fed_statuses: statuses,
-            num_entries: opldb.get_entries().len() as u32,
-            num_meets: opldb.get_meets().len() as u32,
-            num_lifters: opldb.get_lifters().len() as u32,
+            num_entries: opldb.entries().len() as u32,
+            num_meets: opldb.meets().len() as u32,
+            num_lifters: opldb.lifters().len() as u32,
         }
     }
 }

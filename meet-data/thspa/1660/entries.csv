@@ -1,7 +1,7 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
 Boys,51.71,1,Juan Chapa,San Antonio Southside,51.53,165.56,102.06,161.03,428.64,Single-ply,SBD,M
 Boys,51.71,2,Jesse Cortez,Pharr Valley View,51.35,154.22,88.45,172.37,415.04,Single-ply,SBD,M
-Boys,55.79,3,David Garcia,Pharr Valley View,51.8,138.35,92.99,181.44,412.77,Single-ply,SBD,M
+Boys,55.79,3,David Garcia #5,Pharr Valley View,51.8,138.35,92.99,181.44,412.77,Single-ply,SBD,M
 Boys,51.71,4,Hector Villegas,Roma,51.35,156.49,77.11,174.63,408.23,Single-ply,SBD,M
 Boys,51.71,5,Randy Trevino,Gregory-Portland,50.17,163.29,81.65,161.03,405.97,Single-ply,SBD,M
 Boys,51.71,6,Angel Flores #2,Weslaco East,51.26,149.69,81.65,161.03,392.36,Single-ply,SBD,M
@@ -21,7 +21,7 @@ Boys,55.79,9,Alejandro Flores,Weslaco East,55.34,158.76,90.72,165.56,415.04,Sing
 Boys,55.79,DQ,Roger Lozano,Roma,55.79,140.61,83.91,,,Single-ply,SBD,M
 Boys,59.87,1,Jerry Alaniz,Laredo Alexander,59.42,238.14,129.27,206.38,573.79,Single-ply,SBD,M
 Boys,59.87,2,Aaron Robles,San Benito,59.51,185.97,115.67,217.72,519.36,Single-ply,SBD,M
-Boys,59.87,3,Juan Torres,San Benito,59.06,195.04,102.06,201.85,498.95,Single-ply,SBD,M
+Boys,59.87,3,Juan Torres #1,San Benito,59.06,195.04,102.06,201.85,498.95,Single-ply,SBD,M
 Boys,59.87,4,Jesus Garcia #1,Mission,59.78,195.04,99.79,183.7,478.54,Single-ply,SBD,M
 Boys,67.13,5,Tristan Ruiz,Corpus Christi Calallen,59.96,170.1,104.33,195.04,469.47,Single-ply,SBD,M
 Boys,59.87,6,Erik Oliva,Laredo United South,57.61,174.63,106.59,181.44,462.66,Single-ply,SBD,M
@@ -42,7 +42,7 @@ Boys,74.84,DQ,Elvis Benitez,San Antonio East Central,67.31,,,,,Single-ply,SBD,M
 Boys,67.13,DQ,Elijah Velasquez,Port Lavaca Calhoun,65.86,226.8,127.01,,,Single-ply,SBD,M
 Boys,82.1,1,Esteban Flores,Pharr Valley View,74.93,208.65,136.08,272.16,616.89,Single-ply,SBD,M
 Boys,74.84,2,Tristan Pelitire,Beeville Jones,73.84,226.8,163.29,222.26,612.35,Single-ply,SBD,M
-Boys,74.84,3,Joe Torres,Los Fresnos,74.12,235.87,140.61,226.8,603.28,Single-ply,SBD,M
+Boys,74.84,3,Joe Torres #5,Los Fresnos,74.12,235.87,140.61,226.8,603.28,Single-ply,SBD,M
 Boys,74.84,4,David Martinez #14,PSJA Memorial,74.3,226.8,136.08,226.8,589.67,Single-ply,SBD,M
 Boys,82.1,5,Jarad Garcia,Corpus Christi Calallen,74.93,215.46,127.01,247.21,589.67,Single-ply,SBD,M
 Boys,82.1,6,Taylor Raynard,Comal Canyon,74.93,215.46,124.74,226.8,566.99,Single-ply,SBD,M
@@ -64,7 +64,7 @@ Boys,89.81,1,Kameron Handy,Corpus Christi Tuloso-Midway,87.82,272.16,154.22,251.
 Boys,89.81,2,Jerry DeLeon,Weslaco East,89.36,278.96,163.29,235.87,678.12,Single-ply,SBD,M
 Boys,89.81,3,Matt Ritch,San Antonio East Central,83.82,283.5,158.76,233.6,675.85,Single-ply,SBD,M
 Boys,89.81,4,Jacob Flores,Beeville Jones,87.82,258.55,142.88,249.48,650.91,Single-ply,SBD,M
-Boys,89.81,5,Victor Aguilar,Mercedes,89.81,242.67,158.76,240.4,641.83,Single-ply,SBD,M
+Boys,89.81,5,Victor Aguilar #2,Mercedes,89.81,242.67,158.76,240.4,641.83,Single-ply,SBD,M
 Boys,89.81,6,Justin Mask,Gregory-Portland,86.45,235.87,165.56,233.6,635.03,Single-ply,SBD,M
 Boys,89.81,7,Leo Adams,Alice,87.45,235.87,165.56,233.6,635.03,Single-ply,SBD,M
 Boys,89.81,8,Jacob Almaguer,Seguin,88.63,254.01,140.61,240.4,635.03,Single-ply,SBD,M

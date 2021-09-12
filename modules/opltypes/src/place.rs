@@ -78,19 +78,13 @@ impl<'de> Visitor<'de> for PlaceVisitor {
         formatter.write_str("an integer or G, DQ, DD, NS")
     }
 
-    fn visit_str<E>(self, value: &str) -> Result<Place, E>
-    where
-        E: de::Error,
-    {
+    fn visit_str<E: de::Error>(self, value: &str) -> Result<Place, E> {
         Place::from_str(value).map_err(E::custom)
     }
 }
 
 impl<'de> Deserialize<'de> for Place {
-    fn deserialize<D>(deserializer: D) -> Result<Place, D::Error>
-    where
-        D: serde::Deserializer<'de>,
-    {
+    fn deserialize<D: serde::Deserializer<'de>>(deserializer: D) -> Result<Place, D::Error> {
         deserializer.deserialize_str(PlaceVisitor)
     }
 }
@@ -104,7 +98,7 @@ mod tests {
     }
 
     #[test]
-    fn test_place_basic() {
+    fn basic() {
         assert_eq!("1".parse::<Place>().unwrap(), num_place(1));
         assert_eq!("2".parse::<Place>().unwrap(), num_place(2));
         assert_eq!("3".parse::<Place>().unwrap(), num_place(3));
@@ -117,7 +111,7 @@ mod tests {
     }
 
     #[test]
-    fn test_place_errors() {
+    fn errors() {
         assert!("0".parse::<Place>().is_err());
         assert!("-1".parse::<Place>().is_err());
         assert!("-G".parse::<Place>().is_err());
@@ -127,7 +121,7 @@ mod tests {
     }
 
     #[test]
-    fn test_place_display() {
+    fn display() {
         let place = "5".parse::<Place>().unwrap();
         assert_eq!(format!("{}", place), "5");
 

@@ -272,14 +272,10 @@ impl ops::Sub for Date {
 }
 
 impl Serialize for Date {
-    fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
-    where
-        S: serde::Serializer,
-    {
+    fn serialize<S: serde::Serializer>(&self, serializer: S) -> Result<S::Ok, S::Error> {
         let mut buf = ArrayString::<10>::new();
         let (y, m, d) = (self.year(), self.month(), self.day());
         write!(buf, "{:04}-{:02}-{:02}", y, m, d).expect("ArrayString overflow");
-
         serializer.serialize_str(&buf)
     }
 }
@@ -287,8 +283,8 @@ impl Serialize for Date {
 #[derive(Debug)]
 pub enum ParseDateError {
     FormatError,
-    MonthError,
-    DayError,
+    InvalidMonth,
+    InvalidDay,
     ParseIntError(num::ParseIntError),
 }
 
@@ -296,8 +292,8 @@ impl fmt::Display for ParseDateError {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         match *self {
             ParseDateError::FormatError => write!(f, "date not in the correct format"),
-            ParseDateError::MonthError => write!(f, "invalid month"),
-            ParseDateError::DayError => write!(f, "invalid day"),
+            ParseDateError::InvalidMonth => write!(f, "invalid month"),
+            ParseDateError::InvalidDay => write!(f, "invalid day"),
             ParseDateError::ParseIntError(ref p) => p.fmt(f),
         }
     }
@@ -317,10 +313,10 @@ impl FromStr for Date {
         let day: u32 = v[2].parse::<u32>().map_err(ParseDateError::ParseIntError)?;
 
         if month == 0 || month > 12 {
-            return Err(ParseDateError::MonthError);
+            return Err(ParseDateError::InvalidMonth);
         }
         if day == 0 || day > 31 {
-            return Err(ParseDateError::DayError);
+            return Err(ParseDateError::InvalidDay);
         }
 
         Ok(Date::from_parts(year, month, day))
@@ -336,19 +332,13 @@ impl<'de> Visitor<'de> for DateVisitor {
         formatter.write_str("a string in the format YYYY-MM-DD")
     }
 
-    fn visit_str<E>(self, value: &str) -> Result<Date, E>
-    where
-        E: de::Error,
-    {
+    fn visit_str<E: de::Error>(self, value: &str) -> Result<Date, E> {
         Date::from_str(value).map_err(E::custom)
     }
 }
 
 impl<'de> Deserialize<'de> for Date {
-    fn deserialize<D>(deserializer: D) -> Result<Date, D::Error>
-    where
-        D: serde::Deserializer<'de>,
-    {
+    fn deserialize<D: serde::Deserializer<'de>>(deserializer: D) -> Result<Date, D::Error> {
         deserializer.deserialize_str(DateVisitor)
     }
 }
@@ -358,7 +348,7 @@ mod test {
     use super::*;
 
     #[test]
-    fn test_date_basic() {
+    fn basic() {
         let date = "2017-03-04".parse::<Date>().unwrap();
         assert_eq!(date.year(), 2017);
         assert_eq!(date.month(), 3);
@@ -366,7 +356,7 @@ mod test {
     }
 
     #[test]
-    fn test_date_errors() {
+    fn errors() {
         // Malformed dates.
         assert!("2017-03-04-05".parse::<Date>().is_err());
         assert!("2017-03-004".parse::<Date>().is_err());
@@ -385,7 +375,7 @@ mod test {
     }
 
     #[test]
-    fn test_date_ordering() {
+    fn ordering() {
         let d1 = "2017-01-12".parse::<Date>().unwrap();
         let d2 = "2016-01-12".parse::<Date>().unwrap();
         let d3 = "2017-01-13".parse::<Date>().unwrap();
@@ -411,13 +401,13 @@ mod test {
     }
 
     #[test]
-    fn test_date_display() {
+    fn display() {
         let date = "2017-03-04".parse::<Date>().unwrap();
         assert_eq!(format!("{}", date), "2017-03-04");
     }
 
     #[test]
-    fn test_age_on() {
+    fn age_on() {
         // The reference birthdate used in all the tests below.
         let birthdate = "1988-02-16".parse::<Date>().unwrap();
 
@@ -459,7 +449,7 @@ mod test {
     }
 
     #[test]
-    fn test_count_days() {
+    fn count_days() {
         // 1 leap and 3 non-leap years: 366+(3*365) days.
         let date = "0004-12-31".parse::<Date>().unwrap();
         assert_eq!(date.count_days(), 366 + (3 * 365));

@@ -1,14 +1,14 @@
 Name,WeightClassKg,Division,AgeRange,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 W. Snyder,52,Open,,M,117.5,55,142.5,315,SBD,Single-ply,1
 Ken Bingaman,52,Open,,M,97.5,47.5,117.5,262.5,SBD,Single-ply,2
-G. Snyder,56,Open,,M,170,107.5,197.5,475,SBD,Single-ply,1
+Gerry Snyder,56,Open,,M,170,107.5,197.5,475,SBD,Single-ply,1
 Glenn Murphy,56,Open,,M,142.5,82.5,150,375,SBD,Single-ply,2
 Pete Dorney,60,Open,,M,185,80,220,485,SBD,Single-ply,1
 M. Solano,60,Open,,M,182.5,105,182.5,470,SBD,Single-ply,2
 Walter Walkup,60,Open,,M,150,77.5,190,417.5,SBD,Single-ply,3
 Mike Zorbaugh,67.5,Open,,M,210,135,215,560,SBD,Single-ply,1
 E. Jewell,67.5,Open,,M,217.5,105,207.5,530,SBD,Single-ply,2
-D. Palmer,67.5,Open,,M,170,117.5,210,497.5,SBD,Single-ply,3
+Duane Palmer,67.5,Open,,M,170,117.5,210,497.5,SBD,Single-ply,3
 M. White #9,67.5,Open,,M,155,105,165,425,SBD,Single-ply,4
 F. O'Brian,67.5,Open,,M,90,75,137.5,302.5,SBD,Single-ply,5
 Dale Wolf,75,Open,,M,247.5,130,257.5,635,SBD,Single-ply,1
@@ -45,14 +45,14 @@ D. Jones,100,Open,,M,262.5,195,275,732.5,SBD,Single-ply,3
 Robert Stewart,100,Open,,M,262.5,182.5,280,725,SBD,Single-ply,5
 Ed Schock,100,Open,,M,272.5,150,295,717.5,SBD,Single-ply,6
 Mitch Lichtenstein,100,Open,,M,282.5,150,295,727.5,SBD,Single-ply,4
-W. Schnepf,100,Open,,M,250,145,265,660,SBD,Single-ply,7
+Bill Schnepf,100,Open,,M,250,145,265,660,SBD,Single-ply,7
 B. Romanoski,100,Open,,M,245,155,260,660,SBD,Single-ply,8
 Mark Dimiduk,110,Open,,M,360,195,322.5,877.5,SBD,Single-ply,1
 Gary Grosso,110,Open,,M,322.5,227.5,320,870,SBD,Single-ply,2
 Kevin Caulfield,110,Open,,M,340,215,292.5,847.5,SBD,Single-ply,3
 Ed Sicheri,110,Open,,M,332.5,205,285,822.5,SBD,Single-ply,4
 Jeffrey Boblooch,110,Open,,M,300,205,295,800,SBD,Single-ply,5
-R. Addy,110,Open,,M,262.5,172.5,282.5,717.5,SBD,Single-ply,6
+Rick Addy,110,Open,,M,262.5,172.5,282.5,717.5,SBD,Single-ply,6
 J. Billman,110,Open,,M,252.5,175,260,687.5,SBD,Single-ply,8
 Craig Richter,110,Open,,M,250,150,295,695,SBD,Single-ply,7
 William Gable,110,Open,,M,287.5,170,227.5,685,SBD,Single-ply,9
@@ -64,7 +64,7 @@ Larry Garro,125,Open,,M,290,162.5,275,727.5,SBD,Single-ply,4
 Chas Kercher,125,Open,,M,227.5,157.5,240,625,SBD,Single-ply,5
 Al Siegel,125,Open,,M,232.5,142.5,250,625,SBD,Single-ply,6
 Tim Harrity,125,Open,,M,222.5,152.5,210,585,SBD,Single-ply,7
-Rich Morgan,125,Open,,M,202.5,147.5,217.5,567.5,SBD,Single-ply,8
+Richard Morgan,125,Open,,M,202.5,147.5,217.5,567.5,SBD,Single-ply,8
 Telford Hagans,125+,Open,,M,362.5,237.5,317.5,917.5,SBD,Single-ply,1
 George Hechter,125+,Open,,M,347.5,225,307.5,880,SBD,Single-ply,2
 Max Eberly,125+,Open,,M,277.5,137.5,272.5,687.5,SBD,Single-ply,3
@@ -82,11 +82,11 @@ J. Cali,90,Novice,,M,237.5,147.5,260,645,SBD,Single-ply,2
 Ralph Laivara,90,Novice,,M,222.5,167.5,242.5,632.5,SBD,Single-ply,3
 M. Flurie,100,Novice,,M,300,177.5,287.5,765,SBD,Single-ply,1
 D. Jones,100,Novice,,M,262.5,202.5,275,740,SBD,Single-ply,2
-W. Schnepf,100,Novice,,M,250,145,265,660,SBD,Single-ply,3
+Bill Schnepf,100,Novice,,M,250,145,265,660,SBD,Single-ply,3
 Jeffrey Boblooch,110,Novice,,M,300,205,295,800,SBD,Single-ply,1
 Mike DePrimo,110,Novice,,M,242.5,147.5,227.5,617.5,SBD,Single-ply,2
 Larry Garro,125,Novice,,M,290,162.5,275,727.5,SBD,Single-ply,1
-A. Barclay,125,Novice,,M,232.5,160,245,637.5,SBD,Single-ply,2
+Al Barclay,125,Novice,,M,232.5,160,245,637.5,SBD,Single-ply,2
 Chas Kercher,125,Novice,,M,227.5,157.5,240,625,SBD,Single-ply,3
 Larry Mintz,,Masters LW,40-999,M,240,127.5,240,607.5,SBD,Single-ply,1
 Richard Beyer,,Masters LW,40-999,M,185,110,182.5,477.5,SBD,Single-ply,2

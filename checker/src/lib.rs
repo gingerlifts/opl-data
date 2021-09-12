@@ -27,6 +27,8 @@ mod meetdata;
 use meetdata::EntryIndex;
 pub use meetdata::{AllMeetData, LifterMap, SingleMeetData};
 
+pub mod disambiguator;
+
 use std::error::Error;
 use std::path::{Path, PathBuf};
 
@@ -108,7 +110,7 @@ impl Report {
     }
 
     /// Returns the name of the parent folder of the given file.
-    pub fn get_parent_folder(&self) -> Result<&str, &str> {
+    pub fn parent_folder(&self) -> Result<&str, &str> {
         self.path
             .as_path()
             .parent()

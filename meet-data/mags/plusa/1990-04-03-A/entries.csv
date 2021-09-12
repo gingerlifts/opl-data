@@ -34,7 +34,7 @@ Dave Weiss,56,Pure,,M,172.5,112.5,185,470,SBD,Single-ply,4
 Eric Fernandez,56,Pure,,M,157.5,107.5,187.5,452.5,SBD,Single-ply,5
 B. Denafo,56,Pure,,M,150,95,187.5,432.5,SBD,Single-ply,6
 B. Caston,56,Pure,,M,137.5,115,170,422.5,SBD,Single-ply,7
-Robert Trujillo #2,56,Pure,,M,125,90,190,405,SBD,Single-ply,8
+Robert Trujillo,56,Pure,,M,125,90,190,405,SBD,Single-ply,8
 N. Frattasio,56,Pure,,M,187.5,,,,SBD,Single-ply,DQ
 T. Miller,56,Pure,,M,,,,,SBD,Single-ply,DQ
 Dave Edmondson,60,Pure,,M,210,117.5,222.5,550,SBD,Single-ply,1
@@ -162,7 +162,7 @@ D. Moler,125+,Pure,,M,312.5,155,232.5,700,SBD,Single-ply,5
 T. Farney,125+,Pure,,M,230,160,255,645,SBD,Single-ply,6
 M. DeLaTorre,125+,Pure,,M,182.5,122.5,182.5,487.5,SBD,Single-ply,7
 B. Caston,56,Natural,,M,137.5,115,170,422.5,SBD,Single-ply,1
-Robert Trujillo #2,56,Natural,,M,125,90,190,405,SBD,Single-ply,2
+Robert Trujillo,56,Natural,,M,125,90,190,405,SBD,Single-ply,2
 Ken Westbrook,60,Natural,,M,230,110,220,560,SBD,Single-ply,1
 Dave Edmondson,60,Natural,,M,210,117.5,222.5,550,SBD,Single-ply,2
 Wil Taylor,60,Natural,,M,220,117.5,207.5,545,SBD,Single-ply,3
@@ -190,7 +190,7 @@ Donnie Cole,82.5,Natural,,M,300,137.5,310,747.5,SBD,Single-ply,2
 Bruce Jasperson,82.5,Natural,,M,275,175,277.5,727.5,SBD,Single-ply,3
 B. Henry,82.5,Natural,,M,272.5,170,267.5,710,SBD,Single-ply,4
 Mike Pilkenton,82.5,Natural,,M,260,165,275,700,SBD,Single-ply,5
-C. Hoover,82.5,Natural,,M,285,150,262.5,697.5,SBD,Single-ply,6
+Chris Hoover,82.5,Natural,,M,285,150,262.5,697.5,SBD,Single-ply,6
 Colby Cardin,82.5,Natural,,M,267.5,160,255,682.5,SBD,Single-ply,7
 D. Schuman,82.5,Natural,,M,232.5,155,227.5,615,SBD,Single-ply,8
 Keith Kanemoto,82.5,Natural,,M,220,182.5,210,612.5,SBD,Single-ply,9
@@ -321,7 +321,7 @@ Bob Strange,90,Masters 50+,50-999,M,235,155,255,645,SBD,Single-ply,1
 N. McKown,90,Masters 50+,50-999,M,180,120,212.5,512.5,SBD,Single-ply,2
 G. Miller,90,Masters 50+,50-999,M,142.5,102.5,142.5,387.5,SBD,Single-ply,3
 Larry Mattei,90,Masters 50+,50-999,M,130,67.5,145,342.5,SBD,Single-ply,4
-D. Johnson,100,Masters 50+,50-999,M,267.5,150,265,682.5,SBD,Single-ply,1
+Daryl Johnson,100,Masters 50+,50-999,M,267.5,150,265,682.5,SBD,Single-ply,1
 M. Karst,100,Masters 50+,50-999,M,147.5,115,170,432.5,SBD,Single-ply,2
 J. Robinson,110,Masters 50+,50-999,M,232.5,132.5,215,580,SBD,Single-ply,1
 Bill Shackelford,110,Masters 50+,50-999,M,197.5,140,190,527.5,SBD,Single-ply,2

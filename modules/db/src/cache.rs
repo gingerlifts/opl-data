@@ -21,7 +21,7 @@ use crate::{Entry, Lifter, Meet};
 /// Because it's non-sorted, that also means that there doesn't
 /// need to be a version of the data stored for each way in
 /// which the data can be sorted, so there's memory savings.
-#[derive(Clone, Debug, PartialEq)]
+#[derive(Clone, Debug, PartialEq, Serialize, Deserialize)]
 pub struct NonSortedNonUnique(pub Vec<u32>);
 
 /// List of indices into the opldb.entries vector,
@@ -30,6 +30,7 @@ pub struct NonSortedNonUnique(pub Vec<u32>);
 ///
 /// This is useful to get `O(1)` lookup, since it stores
 /// the filter/sort/unique algorithm in its final output.
+#[derive(Debug, Serialize, Deserialize)]
 pub struct SortedUnique(pub Vec<u32>);
 
 // TODO: Can we templatize these PossiblyOwned types?
@@ -46,7 +47,7 @@ impl<'db> Deref for PossiblyOwnedNonSortedNonUnique<'db> {
     fn deref(&self) -> &NonSortedNonUnique {
         match &self {
             PossiblyOwnedNonSortedNonUnique::Borrowed(x) => x,
-            PossiblyOwnedNonSortedNonUnique::Owned(x) => &x,
+            PossiblyOwnedNonSortedNonUnique::Owned(x) => x,
         }
     }
 }
@@ -64,7 +65,7 @@ impl<'db> Deref for PossiblyOwnedSortedUnique<'db> {
     fn deref(&self) -> &SortedUnique {
         match &self {
             PossiblyOwnedSortedUnique::Borrowed(x) => x,
-            PossiblyOwnedSortedUnique::Owned(x) => &x,
+            PossiblyOwnedSortedUnique::Owned(x) => x,
         }
     }
 }
@@ -127,42 +128,47 @@ impl NonSortedNonUnique {
             return NonSortedNonUnique(acc);
         }
 
-        let mut self_index = 0;
-        let mut other_index = 0;
+        let mut self_iter = self.0.iter();
+        let mut other_iter = other.0.iter();
 
-        let mut a = self.0[self_index];
-        let mut b = other.0[other_index];
+        let mut a: u32 = *self_iter.next().unwrap();
+        let mut b: u32 = *other_iter.next().unwrap();
 
         loop {
             match a.cmp(&b) {
                 Ordering::Equal => {
                     acc.push(a);
-                    self_index += 1;
-                    other_index += 1;
-                    if self_index == self.0.len() || other_index == other.0.len() {
-                        break;
-                    }
-                    a = self.0[self_index];
-                    b = other.0[other_index];
+                    a = match self_iter.next() {
+                        Some(a) => *a,
+                        None => {
+                            return NonSortedNonUnique(acc);
+                        }
+                    };
+                    b = match other_iter.next() {
+                        Some(b) => *b,
+                        None => {
+                            return NonSortedNonUnique(acc);
+                        }
+                    };
                 }
                 Ordering::Less => {
-                    self_index += 1;
-                    if self_index == self.0.len() {
-                        break;
-                    }
-                    a = self.0[self_index];
+                    a = match self_iter.next() {
+                        Some(a) => *a,
+                        None => {
+                            return NonSortedNonUnique(acc);
+                        }
+                    };
                 }
                 Ordering::Greater => {
-                    other_index += 1;
-                    if other_index == other.0.len() {
-                        break;
-                    }
-                    b = other.0[other_index];
+                    b = match other_iter.next() {
+                        Some(b) => *b,
+                        None => {
+                            return NonSortedNonUnique(acc);
+                        }
+                    };
                 }
             }
         }
-
-        NonSortedNonUnique(acc)
     }
 
     /// Sorts and uniques the data with reference to a comparator.
@@ -223,7 +229,8 @@ impl NonSortedNonUnique {
 }
 
 /// Owning structure of all precomputed data.
-pub(crate) struct StaticCache {
+#[derive(Debug, Serialize, Deserialize)]
+pub struct StaticCache {
     // Precalculated data for Rankings.
     pub constant_time: ConstantTimeCache,
     pub log_linear_time: LogLinearTimeCache,
@@ -250,6 +257,7 @@ impl StaticCache {
 }
 
 /// Stores all sorts for a given equipment type.
+#[derive(Debug, Serialize, Deserialize)]
 pub struct ConstantTimeBy {
     pub raw: SortedUnique,
     pub wraps: SortedUnique,
@@ -287,6 +295,7 @@ impl ConstantTimeBy {
 }
 
 /// Owning structure of all `O(1)` lookup data.
+#[derive(Debug, Serialize, Deserialize)]
 pub struct ConstantTimeCache {
     // Weight comparisons.
     pub squat: ConstantTimeBy,
@@ -327,6 +336,7 @@ impl ConstantTimeCache {
 }
 
 /// Owning structure of all `O(n log n)` lookup data.
+#[derive(Debug, Serialize, Deserialize)]
 pub struct LogLinearTimeCache {
     /// List of all non-DQ Raw entry indices by LifterID.
     pub raw: NonSortedNonUnique,
@@ -414,7 +424,7 @@ impl LogLinearTimeCache {
     }
 
     /// Looks up a year cache by integer.
-    pub fn get_year_cache(&self, year: u32) -> Option<&NonSortedNonUnique> {
+    pub fn year_cache(&self, year: u32) -> Option<&NonSortedNonUnique> {
         match year {
             2021 => Some(&self.year2021),
             2020 => Some(&self.year2020),

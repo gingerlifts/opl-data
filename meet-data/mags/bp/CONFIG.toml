@@ -5,3 +5,6 @@
 # Intentionally left blank.
 
 [exemptions]
+
+[options]
+    require_manual_disambiguation = true

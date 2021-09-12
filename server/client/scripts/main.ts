@@ -26,9 +26,17 @@ import { initMeetList } from "./meetlist";
 import { initRankings } from "./rankings";
 import { initRecords } from "./records";
 
+// Pages that have unique scripts supply a PAGE_KIND global in their template.
+enum PageKind {
+    Meet = "MEET",
+    MeetList = "MEETLIST",
+    Rankings = "RANKINGS",
+    Records = "RECORDS",
+}
+
 // Optionally provided by each template to allow main() to select the proper
 // entrance point for the current page.
-declare const PAGE_KIND: string | undefined;
+declare const PAGE_KIND: PageKind | undefined;
 
 function main() {
     // Initializes the "Change Language" and "Change Units" selectors, if present.
@@ -39,12 +47,12 @@ function main() {
         initMobileFooter();
     }
 
-    if (typeof PAGE_KIND === "string") {
+    if (typeof PAGE_KIND === "string") { // Necessary to handle the undefined case.
         switch (PAGE_KIND) {
-            case "meet": initMeet(); break;
-            case "meetlist": initMeetList(); break;
-            case "records": initRecords(); break;
-            case "rankings": initRankings(); break;
+            case PageKind.Meet: initMeet(); break;
+            case PageKind.MeetList: initMeetList(); break;
+            case PageKind.Rankings: initRankings(); break;
+            case PageKind.Records: initRecords(); break;
             default: break; // Some pages (like the FAQ) have no scripts attached.
         }
     }

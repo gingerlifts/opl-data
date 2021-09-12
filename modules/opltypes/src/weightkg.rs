@@ -6,6 +6,7 @@ use arrayvec::ArrayString;
 use serde::de::{self, Deserialize, Visitor};
 use serde::ser::Serialize;
 
+use std::convert::TryFrom;
 use std::f32;
 use std::fmt::{self, Write};
 use std::num;
@@ -35,10 +36,7 @@ impl Serialize for WeightKg {
     /// Serialize with two decimal places, exactly as in the original.
     ///
     /// This is intended for use by the compiler when writing the entries.csv.
-    fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
-    where
-        S: serde::Serializer,
-    {
+    fn serialize<S: serde::Serializer>(&self, serializer: S) -> Result<S::Ok, S::Error> {
         // Zero serializes as the empty string.
         if self.0 == 0 {
             return serializer.serialize_str("");
@@ -71,10 +69,7 @@ impl Serialize for WeightAny {
     ///
     /// This is valid since WeightAny is intended only for situations
     /// in which pretty weights should be displayed.
-    fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
-    where
-        S: serde::Serializer,
-    {
+    fn serialize<S: serde::Serializer>(&self, serializer: S) -> Result<S::Ok, S::Error> {
         if self.0 == 0 {
             return serializer.serialize_str("");
         }
@@ -139,7 +134,7 @@ impl WeightKg {
 
     #[inline]
     pub const fn from_i32(i: i32) -> WeightKg {
-        WeightKg(i * 100)
+        WeightKg(i.saturating_mul(100))
     }
 
     // This only exists because from_f32() can't be const fn at the moment.
@@ -150,6 +145,15 @@ impl WeightKg {
 
     #[inline]
     pub fn from_f32(f: f32) -> WeightKg {
+        if f.is_finite() {
+            WeightKg((f * 100.0).round() as i32)
+        } else {
+            WeightKg(0)
+        }
+    }
+
+    #[inline]
+    pub fn from_f64(f: f64) -> WeightKg {
         if f.is_finite() {
             WeightKg((f * 100.0).round() as i32)
         } else {
@@ -343,23 +347,35 @@ impl<'de> Visitor<'de> for WeightKgVisitor {
     type Value = WeightKg;
 
     fn expecting(&self, formatter: &mut fmt::Formatter) -> fmt::Result {
-        formatter.write_str("A floating-point value or the empty string.")
+        formatter.write_str("a number or numeric string")
     }
 
-    fn visit_str<E>(self, value: &str) -> Result<WeightKg, E>
-    where
-        E: de::Error,
-    {
-        WeightKg::from_str(value).map_err(E::custom)
+    fn visit_i64<E: de::Error>(self, i: i64) -> Result<WeightKg, E> {
+        let v = i32::try_from(i).map_err(E::custom)?;
+        Ok(WeightKg::from_i32(v))
+    }
+
+    fn visit_u64<E: de::Error>(self, u: u64) -> Result<WeightKg, E> {
+        let v = i32::try_from(u).map_err(E::custom)?;
+        Ok(WeightKg::from_i32(v))
+    }
+
+    fn visit_f64<E: de::Error>(self, v: f64) -> Result<WeightKg, E> {
+        Ok(WeightKg::from_f64(v))
+    }
+
+    fn visit_borrowed_str<E: de::Error>(self, v: &str) -> Result<WeightKg, E> {
+        WeightKg::from_str(v).map_err(E::custom)
+    }
+
+    fn visit_str<E: de::Error>(self, v: &str) -> Result<WeightKg, E> {
+        self.visit_borrowed_str(v)
     }
 }
 
 impl<'de> Deserialize<'de> for WeightKg {
-    fn deserialize<D>(deserializer: D) -> Result<WeightKg, D::Error>
-    where
-        D: serde::Deserializer<'de>,
-    {
-        deserializer.deserialize_str(WeightKgVisitor)
+    fn deserialize<D: serde::Deserializer<'de>>(deserializer: D) -> Result<WeightKg, D::Error> {
+        deserializer.deserialize_any(WeightKgVisitor)
     }
 }
 
@@ -368,7 +384,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_weightkg_basic() {
+    fn basic() {
         let w = "".parse::<WeightKg>().unwrap();
         assert!(w.0 == 0);
 
@@ -383,7 +399,7 @@ mod tests {
     }
 
     #[test]
-    fn test_weightkg_f32_edgecases() {
+    fn f32_edgecases() {
         // Test some special f32 values.
         let w = "-0".parse::<WeightKg>().unwrap();
         assert!(w.0 == 0);
@@ -401,7 +417,7 @@ mod tests {
     }
 
     #[test]
-    fn test_weightkg_rounding() {
+    fn rounding() {
         // If extra decimal numbers are reported, round appropriately.
         let w = "123.456".parse::<WeightKg>().unwrap();
         assert!(w.0 == 12346);
@@ -412,7 +428,7 @@ mod tests {
     /// Some results that are initially reported in LBS wind
     /// up giving slightly-under Kg values.
     #[test]
-    fn test_weightkg_as_lbs_rounding() {
+    fn as_lbs_rounding() {
         // 1709.99 lbs (reported by federation as 1710).
         let w = "775.64".parse::<WeightKg>().unwrap();
         assert_eq!(w.as_lbs().0, 1710_00);
@@ -442,7 +458,7 @@ mod tests {
     }
 
     #[test]
-    fn test_weightkg_errors() {
+    fn errors() {
         assert!("..".parse::<WeightKg>().is_err());
         assert!("123.45.6".parse::<WeightKg>().is_err());
         assert!("notafloat".parse::<WeightKg>().is_err());
@@ -450,7 +466,7 @@ mod tests {
     }
 
     #[test]
-    fn test_weightkg_display() {
+    fn display() {
         let w = "123.456".parse::<WeightKg>().unwrap();
         assert_eq!(format!("{}", w), "123.4");
 
@@ -471,10 +487,8 @@ mod tests {
     }
 
     /// Ensures that WeightKg serialization matches the original to 2 decimal places.
-    ///
-    /// Serialization is performed by the compiler.
     #[test]
-    fn test_weightkg_serialize() {
+    fn serialize() {
         let w = "0.00".parse::<WeightKg>().unwrap();
         assert_eq!(w.0, 0_00);
         assert_eq!(json!(w), "");
@@ -493,7 +507,7 @@ mod tests {
     }
 
     #[test]
-    fn test_weightkg_ordering() {
+    fn ordering() {
         let w1 = "100".parse::<WeightKg>().unwrap();
         let w2 = "200".parse::<WeightKg>().unwrap();
         assert!(w1 < w2);

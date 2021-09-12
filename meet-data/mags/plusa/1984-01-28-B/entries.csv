@@ -1,7 +1,7 @@
 Name,WeightClassKg,Division,Sex,AgeRange,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 T. Stires,,Open,F,,127.01,54.43,124.74,306.18,SBD,Single-ply,1
 G. Stires,,Open,F,,97.52,47.63,115.67,260.82,SBD,Single-ply,2
-J. Adams,,Open,F,,90.72,58.97,102.06,251.74,SBD,Single-ply,3
+Jean Adams,,Open,F,,90.72,58.97,102.06,251.74,SBD,Single-ply,3
 C. Borzumate,52,Open,F,,83.91,40.82,108.86,233.6,SBD,Single-ply,4
 Cathy Spellman,,Open,F,,,70.31,136.08,,SBD,Single-ply,DQ
 Christine Ciardelli,,Open,F,,,,,,SBD,Single-ply,DQ
@@ -13,7 +13,7 @@ M. Pinto,52,Open,M,,,63.5,127.01,,SBD,Single-ply,DQ
 J. Kronberger,52,Open,M,,,,,,SBD,Single-ply,DQ
 D. Sandy,56,Open,M,,104.33,70.31,142.88,317.52,SBD,Single-ply,1
 Brian Bannister,56,Open,M,,136.08,,151.95,,SBD,Single-ply,DQ
-B. Griffith,56,Open,M,,,115.67,,115.67,B,Raw,2
+Barry Griffith,56,Open,M,,,115.67,,115.67,B,Raw,2
 Jack Rubio,56,Open,M,,,111.13,,111.13,B,Raw,3
 Paul Griffith,60,Open,M,,185.97,106.59,158.76,451.32,SBD,Single-ply,1
 R. Ahrens,60,Open,M,,117.93,117.93,188.24,424.11,SBD,Single-ply,2
@@ -29,7 +29,7 @@ Fred Pfister,67.5,Open,M,,163.29,106.59,240.4,510.29,SBD,Single-ply,3
 Dan Millrood,67.5,Open,M,14-19,192.78,124.74,181.44,498.95,SBD,Single-ply,4
 Mark Salandra,67.5,Open,M,,167.83,131.54,181.44,480.81,SBD,Single-ply,5
 Charles Davis,67.5,Open,M,36-999,174.63,102.06,199.58,476.27,SBD,Single-ply,6
-E. Bucci,67.5,Open,M,14-19,170.1,124.74,172.37,467.2,SBD,Single-ply,7
+Eric Bucci,67.5,Open,M,14-19,170.1,124.74,172.37,467.2,SBD,Single-ply,7
 Eddie Pagan,67.5,Open,M,,138.35,108.86,185.97,433.18,SBD,Single-ply,8
 Jim Sweeney,67.5,Open,M,36-999,108.86,113.4,172.37,394.63,SBD,Single-ply,9
 O. Kiremitch,67.5,Open,M,14-19,104.33,68.04,167.83,340.19,SBD,Single-ply,10
@@ -41,7 +41,7 @@ Don Finn,75,Open,M,,215.46,129.27,226.8,571.53,SBD,Single-ply,5
 C. Giardino,75,Open,M,,199.58,136.08,226.8,562.46,SBD,Single-ply,6
 Steve Sulzer,75,Open,M,,199.58,140.61,213.19,553.38,SBD,Single-ply,7
 Chas Delp,75,Open,M,,199.58,102.06,213.19,514.83,SBD,Single-ply,8
-J. Talerico,75,Open,M,,163.29,113.4,226.8,503.49,SBD,Single-ply,9
+Joe Talerico,75,Open,M,,163.29,113.4,226.8,503.49,SBD,Single-ply,9
 G. Jones #15,75,Open,M,14-19,190.51,86.18,215.46,492.15,SBD,Single-ply,10
 S. Calabrese,75,Open,M,14-19,158.76,113.4,195.04,467.2,SBD,Single-ply,11
 W. Fiducia,75,Open,M,,165.56,102.06,199.58,467.2,SBD,Single-ply,12
@@ -82,7 +82,7 @@ Glen Applegate,90,Open,M,,235.87,158.76,258.55,653.17,SBD,Single-ply,6
 A. Ferrazo,90,Open,M,,204.12,156.49,281.23,641.83,SBD,Single-ply,7
 E. Sorra,90,Open,M,,233.6,106.59,251.74,591.94,SBD,Single-ply,12
 T. Rebollo,90,Open,M,14-19,235.87,158.76,238.14,632.76,SBD,Single-ply,8
-A. Ferraina,90,Open,M,,238.14,154.22,240.4,632.76,SBD,Single-ply,9
+Anthony Ferraina,90,Open,M,,238.14,154.22,240.4,632.76,SBD,Single-ply,9
 David Pagliaro,90,Open,M,,215.46,156.49,238.14,610.08,SBD,Single-ply,10
 Stephen Cloak,90,Open,M,,208.65,133.81,254.01,596.47,SBD,Single-ply,11
 J. Yacona,90,Open,M,14-19,210.92,127.01,215.46,553.38,SBD,Single-ply,13
@@ -110,7 +110,7 @@ R. Gardiner,100,Open,M,,197.31,136.08,226.8,560.19,SBD,Single-ply,8
 D. Cathell,100,Open,M,14-19,204.12,136.08,210.92,551.12,SBD,Single-ply,9
 Mike Bailey #4,100,Open,M,14-19,195.04,129.27,215.46,539.78,SBD,Single-ply,10
 C. Caughron,100,Open,M,,201.85,127.01,206.38,535.24,SBD,Single-ply,11
-B. Schnepf,100,Open,M,,242.67,,249.48,,SBD,Single-ply,DQ
+Bill Schnepf,100,Open,M,,242.67,,249.48,,SBD,Single-ply,DQ
 Mike Esposito,100,Open,M,,170.1,106.59,210.92,487.61,SBD,Single-ply,12
 K. Neidhart,100,Open,M,,,163.29,274.42,,SBD,Single-ply,DQ
 Steve Walsh,100,Open,M,,240.4,167.83,,,SBD,Single-ply,DQ
@@ -119,7 +119,7 @@ Todd Opitz,100,Open,M,14-19,102.06,77.11,149.69,328.85,SBD,Single-ply,13
 Ted Kurlowicz,100,Open,M,,,197.31,,197.31,B,Raw,1
 E. Kalch,100,Open,M,,,181.44,,181.44,B,Raw,2
 S. Johnson #31,100,Open,M,,,170.1,,170.1,B,Raw,3
-B. Foster,100,Open,M,,,154.22,,154.22,B,Raw,4
+Brian Foster,100,Open,M,,,154.22,,154.22,B,Raw,4
 John Robinson,100,Open,M,,,,,,SBD,Single-ply,DQ
 E. Joxinelly,100,Open,M,,,,,,SBD,Single-ply,DQ
 M. DePalmo,100,Open,M,,,,,,SBD,Single-ply,DQ
@@ -130,7 +130,7 @@ B. Lista,110,Open,M,,249.48,181.44,272.16,703.07,SBD,Single-ply,3
 Craig Carvin,110,Open,M,,276.69,163.29,263.08,703.07,SBD,Single-ply,4
 Russell Smith,110,Open,M,,240.4,158.76,278.96,678.12,SBD,Single-ply,5
 T. Bakie,110,Open,M,,256.28,142.88,274.42,673.59,SBD,Single-ply,6
-W. Rollison,110,Open,M,,170.1,108.86,204.12,483.08,SBD,Single-ply,7
+Bill Rollison,110,Open,M,,170.1,108.86,204.12,483.08,SBD,Single-ply,7
 Ray Brantner,110,Open,M,,,,285.76,285.76,D,Raw,8
 Henri Skiba,110,Open,M,,,,269.89,269.89,D,Raw,9
 B. McGrath,110,Open,M,,,,,,SBD,Single-ply,DQ

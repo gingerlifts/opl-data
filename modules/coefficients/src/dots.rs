@@ -21,12 +21,8 @@
 // TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 // MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
 
+use crate::poly4;
 use opltypes::*;
-
-/// Helper function for the common fourth-degree Dots polynomial.
-fn dots_coefficient(a: f64, b: f64, c: f64, d: f64, e: f64, x: f64) -> f64 {
-    500.0 / (a * x.powi(4) + b * x.powi(3) + c * x.powi(2) + d * x + e)
-}
 
 pub fn dots_coefficient_men(bodyweightkg: f64) -> f64 {
     const A: f64 = -0.0000010930;
@@ -37,7 +33,7 @@ pub fn dots_coefficient_men(bodyweightkg: f64) -> f64 {
 
     // Bodyweight bounds are defined; bodyweights out of range match the boundaries.
     let adjusted = bodyweightkg.clamp(40.0, 210.0);
-    dots_coefficient(A, B, C, D, E, adjusted)
+    500.0 / poly4(A, B, C, D, E, adjusted)
 }
 
 pub fn dots_coefficient_women(bodyweightkg: f64) -> f64 {
@@ -49,7 +45,7 @@ pub fn dots_coefficient_women(bodyweightkg: f64) -> f64 {
 
     // Bodyweight bounds are defined; bodyweights out of range match the boundaries.
     let adjusted = bodyweightkg.clamp(40.0, 150.0);
-    dots_coefficient(A, B, C, D, E, adjusted)
+    500.0 / poly4(A, B, C, D, E, adjusted)
 }
 
 /// Calculates Dots points.

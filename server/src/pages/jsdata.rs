@@ -1,7 +1,8 @@
 //! Types for raw data interchange from Rust to JS.
 
-use langpack::{get_localized_name, Locale, LocalizeNumber};
+use langpack::{localized_name, Locale, LocalizeNumber};
 use opldb::{Entry, OplDb};
+use opltypes::states::State;
 use opltypes::*;
 use serde::ser::{Serialize, SerializeSeq, Serializer};
 
@@ -20,10 +21,13 @@ pub struct JsEntryRow<'db> {
     pub color: Option<&'db str>,
     pub flair: Option<&'db str>,
 
+    pub lifter_country: Option<&'db str>,
+    pub lifter_state: Option<State>,
+
     pub federation: Federation,
     pub date: String,
-    pub country: &'db str,
-    pub state: Option<&'db str>,
+    pub meet_country: &'db str,
+    pub meet_state: Option<&'db str>,
     pub path: &'db str,
 
     pub sex: &'db str,
@@ -45,10 +49,7 @@ pub struct JsEntryRow<'db> {
 /// Serialize to a compact but definitely less-helpful format
 /// for JS interchange.
 impl<'db> Serialize for JsEntryRow<'db> {
-    fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
-    where
-        S: Serializer,
-    {
+    fn serialize<S: Serializer>(&self, serializer: S) -> Result<S::Ok, S::Error> {
         let mut seq = serializer.serialize_seq(None)?;
 
         seq.serialize_element(&self.sorted_index)?;
@@ -61,10 +62,13 @@ impl<'db> Serialize for JsEntryRow<'db> {
         seq.serialize_element(&self.color)?;
         seq.serialize_element(&self.flair)?;
 
+        seq.serialize_element(&self.lifter_country)?;
+        seq.serialize_element(&self.lifter_state)?;
+
         seq.serialize_element(&self.federation)?;
         seq.serialize_element(&self.date)?;
-        seq.serialize_element(&self.country)?;
-        seq.serialize_element(&self.state)?;
+        seq.serialize_element(&self.meet_country)?;
+        seq.serialize_element(&self.meet_state)?;
         seq.serialize_element(&self.path)?;
 
         seq.serialize_element(&self.sex)?;
@@ -91,8 +95,8 @@ impl<'db> JsEntryRow<'db> {
         sorted_index: u32,
         points_system: PointsSystem,
     ) -> JsEntryRow<'db> {
-        let meet = opldb.get_meet(entry.meet_id);
-        let lifter = opldb.get_lifter(entry.lifter_id);
+        let meet = opldb.meet(entry.meet_id);
+        let lifter = opldb.lifter(entry.lifter_id);
 
         let strings = locale.strings;
         let number_format = locale.number_format;
@@ -103,17 +107,20 @@ impl<'db> JsEntryRow<'db> {
 
             rank: locale.ordinal(sorted_index + 1, entry.sex),
 
-            name: get_localized_name(lifter, locale.language),
+            name: localized_name(lifter, locale.language),
             username: lifter.username.as_str(),
             instagram: lifter.instagram.as_deref(),
             vkontakte: lifter.vkontakte.as_deref(),
             color: lifter.color.as_deref(),
             flair: lifter.flair.as_deref(),
 
+            lifter_country: entry.lifter_country.map(|c| strings.translate_country(c)),
+            lifter_state: entry.lifter_state,
+
             federation: meet.federation,
             date: format!("{}", meet.date),
-            country: strings.translate_country(meet.country),
-            state: meet.state.as_deref(),
+            meet_country: strings.translate_country(meet.country),
+            meet_state: meet.state.as_deref(),
             path: &meet.path,
 
             sex: strings.translate_sex(entry.sex),

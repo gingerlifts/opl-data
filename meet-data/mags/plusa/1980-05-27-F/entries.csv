@@ -1,6 +1,6 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 K. Burkhard,52,Open,M,90.72,56.7,117.93,265.35,SBD,Single-ply,1
-R. Fogel,56,Open,M,147.42,104.33,170.1,421.84,SBD,Single-ply,1
+Ron Fogel,56,Open,M,147.42,104.33,170.1,421.84,SBD,Single-ply,1
 J. Torelli,56,Open,M,149.69,104.33,151.95,405.97,SBD,Single-ply,2
 S. Tanako,56,Open,M,124.74,68.04,138.35,331.12,SBD,Single-ply,3
 W. Tenor,56,Open,M,99.79,86.18,124.74,310.71,SBD,Single-ply,4
@@ -34,7 +34,7 @@ S. Studebaker,82.5,Open,M,195.04,124.74,204.12,523.9,SBD,Single-ply,9
 G. Brandt,82.5,Open,M,172.37,129.27,181.44,483.08,SBD,Single-ply,10
 D. Koning,90,Open,M,249.48,176.9,254.01,680.39,SBD,Single-ply,1
 Jim Mize,90,Open,M,238.14,179.17,244.94,662.25,SBD,Single-ply,2
-B. Bleadon,90,Open,M,238.14,154.22,254.01,646.37,SBD,Single-ply,3
+Ben Bleadon,90,Open,M,238.14,154.22,254.01,646.37,SBD,Single-ply,3
 D. Strickl,90,Open,M,204.12,147.42,247.21,598.74,SBD,Single-ply,4
 D. Long,90,Open,M,206.38,142.88,240.4,589.67,SBD,Single-ply,5
 Dave Dick,90,Open,M,215.46,133.81,238.14,587.4,SBD,Single-ply,6
@@ -56,5 +56,5 @@ M. Stewart,110,Open,M,254.01,170.1,219.99,644.1,SBD,Single-ply,2
 S. Snitca,110,Open,M,215.46,154.22,272.16,641.83,SBD,Single-ply,3
 Kevin Wold,110,Open,M,226.8,149.69,258.55,635.03,SBD,Single-ply,4
 Mike Pacyga,110,Open,M,210.92,147.42,272.16,630.49,SBD,Single-ply,5
-T. Melinger,110,Open,M,199.58,124.74,249.48,573.8,SBD,Single-ply,6
+Terry Melinger,110,Open,M,199.58,124.74,249.48,573.8,SBD,Single-ply,6
 T. White,125,Open,M,215.46,167.83,238.14,621.42,SBD,Single-ply,1
