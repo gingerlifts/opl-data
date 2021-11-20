@@ -1,6 +1,6 @@
 ﻿Place,Name,Sex,Equipment,Division,Team,BodyweightKg,WeightClassKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,BirthDate
 1,Verena Pieper,F,Raw,Open,SV 14/19 Westerholt e.V.,65.3,72,95,105,115,115,115,D,
-1,Onur Fakiroglu,M,Raw,Junior,KSV-Lippe-Bad-Salzuflen,73.3,74,100,115,130,130,130,D,
+1,Onur Fakiroglu,M,Raw,Juniors,KSV-Lippe-Bad-Salzuflen,73.3,74,100,115,130,130,130,D,
 1,Thomas Frütel,M,Raw,Open,KSV Bochum,90.7,93,220,230,-235,230,230,D,
 1,Oliver Glänzer,M,Raw,Open,SV 14/19 Westerholt e.V.,99.2,105,230,250,260,260,260,D,
 2,Johannes Kraft,M,Raw,Open,AC Goliath Mengede,96.4,105,210,220,225,225,225,D,
@@ -10,7 +10,7 @@
 1,Holger Ippers,M,Raw,Masters 2,Vfl Duisburg Süd,72.5,74,135,140,145,145,145,D,
 1,Josef Metz,M,Raw,Masters 4,Powerlifting Duisburg,86.6,93,140,155,-170,155,155,D,
 1,Iris Kunkel,F,Single-ply,Masters 1,AC Siegen,63,63,125,130,135,135,135,D,
-1,Kevin Jäger,M,Single-ply,Youth A,Powerlifting Duisburg,105.6,120,200,215,225,225,225,D,
+1,Kevin Jäger #1,M,Single-ply,Youth A,Powerlifting Duisburg,105.6,120,200,215,225,225,225,D,
 1,Malte Fleissner,M,Single-ply,Juniors,AC Siegen,109.3,120,260,302.5,-310,302.5,302.5,D,
 1,Thomas Boiar,M,Single-ply,Open,KSO Silberrücken,81.4,83,250,260,272.5,272.5,272.5,D,
 1,Nikolai Lorenz,M,Single-ply,Open,SV 14/19 Westerholt e.V.,84.2,93,205,215,-220,215,215,D,
