@@ -6,7 +6,7 @@ Place,Division,Name,Equipment,Event,Team,Sex,BodyweightKg,WeightClassKg,BirthDat
 3,Open,Jürgen Pfohl,Single-ply,SBD,Kölner AC 1982,M,95.61,105,1978-12-01,-180,-185,185,185,130,-135,-137.5,130,195,202.5,-210,202.5,517.5
 1,Juniors,Jan Rosenkranz,Single-ply,SBD,AC Siegen,M,82.07,83,1993-03-02,175,-185,-185,175,130,135,-140,135,212.5,222.5,,222.5,532.5
 1,Open,Claudia Kochs,Single-ply,SBD,AC Siegen,F,58.08,63,1985-11-01,55,60,65,65,42.5,47.5,52.5,52.5,75,85,95,95,212.5
-1,Juniors,Michelle Krauße,Raw,SBD,KSV Fitnesskreis Witten,F,59.85,63,1983-11-08,60,67.5,-72.5,67.5,50,-55,-55,50,95,100,105,105,222.5
+1,Juniors,Michelle Krauße,Raw,SBD,KSV Fitnesskreis Witten,F,59.85,63,,60,67.5,-72.5,67.5,50,-55,-55,50,95,100,105,105,222.5
 1,Masters 2,Marlies Winkel,Raw,SBD,TV Röhlinghausen,F,61.08,63,1957-11-20,80,85,92.5,92.5,65,70,-72.5,70,125,130,135,135,297.5
 2,Masters 1,Christian Stoebke,Raw,SBD,VfL Duisburg Süd,M,97.75,105,1976-10-06,110,120,130,130,80,87.5,-90,87.5,150,160,-170,160,377.5
 1,Juniors,Lennard Kaster,Raw,SBD,KSV Essen 1888,M,62.45,66,1995-08-25,132.5,140,147.5,147.5,72.5,77.5,80,80,187.5,200,-205,200,427.5

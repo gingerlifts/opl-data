@@ -5,8 +5,8 @@ Place,Equipment,Division,Event,Sex,Name,Team,BirthDate,BodyweightKg,WeightClassK
 1,Single-ply,Open,B,F,Karen Rehfus,AC Siegen,1982-11-09,68.6,72,50,-55,-55,50,50
 1,Single-ply,Masters 1,B,F,Nicole Börsch,AC Siegen,1976-06-19,69.7,72,120,125,130,130,130
 1,Single-ply,Masters 2,B,F,Iris Kunkel,AC Siegen,1964-07-20,67.3,72,122.5,-125,,122.5,122.5
-1,Raw,Youth B,B,M,Jonathan Häger,KSV Bochum,2000-11-05,51.6,59,42.5,45,-47.5,45,45
-2,Raw,Youth B,B,M,Marcel Monschau,KSV Lippe B. Salzuflen,2002-05-07,39.4,59,20,25,-30,25,25
+1,Raw,Youth B,B,M,Jonathan Häger,KSV Bochum,2000-11-05,51.6,53,42.5,45,-47.5,45,45
+2,Raw,Youth B,B,M,Marcel Monschau,KSV Lippe B. Salzuflen,2002-05-07,39.4,53,20,25,-30,25,25
 1,Raw,Youth B,B,M,Kai Maier,Powerlifting Duisburg,2002-02-21,87.9,93,55,62.5,-67.5,62.5,62.5
 1,Raw,Youth A,B,M,Timo Maier,Powerlifting Duisburg,1998-05-28,71.2,74,60,67.5,-72.5,67.5,67.5
 1,Raw,Youth A,B,M,Dennis Peters,KSV Lippe B. Salzuflen,1999-04-13,134.1,120+,100,107.5,110,110,110
@@ -27,7 +27,7 @@ Place,Equipment,Division,Event,Sex,Name,Team,BirthDate,BodyweightKg,WeightClassK
 2,Raw,Masters 1,B,M,Rudolf Maier,Powerlifting Duisburg,1975-07-21,98.4,105,145,150,-155,150,150
 3,Raw,Masters 1,B,M,Elio Taurisano,KSV Fitnesskreis Witten,1967-04-25,98.3,105,120,-127.5,127.5,127.5,127.5
 1,Raw,Masters 1,B,M,Christian Stoebke,VfL Duisburg Süd,1976-10-06,105.2,120,90,95,100,100,100
-1,Raw,Masters 1,B,M,Yasar Küçük,KSV Lippe B. Salzuflen,1973-09-07,151.5,120+,190,-200,-200,190,190
+1,Raw,Masters 1,B,M,Yaşar Küçük,KSV Lippe B. Salzuflen,1973-09-07,151.5,120+,190,-200,-200,190,190
 1,Raw,Masters 2,B,M,Holger Ippers,VfL Duisburg Süd,1960-10-25,78.1,83,100,105,110,110,110
 1,Raw,Masters 2,B,M,Günter Ebelt,KSV Lippe B. Salzuflen,1960-10-07,91.4,93,120,-127.5,130,130,130
 1,Raw,Masters 2,B,M,Jörg Pollmann,Body Aktiv Oberhausen,1959-01-22,113.3,120,170,175,,175,175
@@ -43,7 +43,7 @@ Place,Equipment,Division,Event,Sex,Name,Team,BirthDate,BodyweightKg,WeightClassK
 1,Single-ply,Juniors,B,M,Edgar Bechtholdt,KSV Lippe B. Salzuflen,1996-11-22,77.4,83,170,-180,185,185,185
 2,Single-ply,Juniors,B,M,Silas Geiß,AC Siegen,1997-01-26,78.1,83,115,120,-125,120,120
 1,Single-ply,Open,B,M,Benjamin Woicikowski,Kölner AC,1983-06-06,92.1,93,160,170,180,180,180
-DQ,Single-ply,,B,M,Igor Kudrjashov,KSV Lippe B. Salzuflen,1987-08-28,92.5,93,-245,-245,-245,,
+DQ,Single-ply,Open,B,M,Igor Kudrjashov,KSV Lippe B. Salzuflen,1987-08-28,92.5,93,-245,-245,-245,,
 2,Single-ply,Open,B,M,Maik Müller,KSV Essen 1888,1980-07-17,93.6,105,160,-165,-165,160,160
 1,Single-ply,Open,B,M,Malte Fleissner,AC Siegen,1989-12-18,115.4,120,250,-265,-265,250,250
 1,Single-ply,Masters 1,B,M,Jürgen Rekittke,Powerlifting Duisburg,1969-02-11,168,120+,225,240,255,255,255
