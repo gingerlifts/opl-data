@@ -49,6 +49,26 @@
     fcm5 = {name ="F-M5-U",min=79.5,max=999,equipment="Raw"}
     fem5 = {name ="F-M5",min=79.5,max=999,equipment="Single-ply"}
 
+#arnold women's classes
+    frlw = {name ="F-LW-U",min=0,max=999,equipment="Raw"}
+    felw = {name ="F-LW",min=0,max=999,equipment="Single-ply"}
+    frmw = {name ="F-MW-U",min=0,max=999,equipment="Raw"}
+    femw = {name ="F-MW",min=0,max=999,equipment="Single-ply"}
+    frhw = {name ="F-HW-U",min=0,max=999,equipment="Raw"}
+    fehw = {name ="F-HW",min=0,max=999,equipment="Single-ply"}
+    frshw = {name ="F-SHW-U",min=0,max=999,equipment="Raw"}
+    feshw = {name ="F-SHW",min=0,max=999,equipment="Single-ply"}
+
+#arnold men's classes
+    mrlw = {name ="M-LW-U",min=0,max=999,equipment="Raw"}
+    melw = {name ="M-LW",min=0,max=999,equipment="Single-ply"}
+    mrmw = {name ="M-MW-U",min=0,max=999,equipment="Raw"}
+    memw = {name ="M-MW",min=0,max=999,equipment="Single-ply"}
+    mrhw = {name ="M-HW-U",min=0,max=999,equipment="Raw"}
+    mehw = {name ="M-HW",min=0,max=999,equipment="Single-ply"}
+    mrshw = {name ="M-SHW-U",min=0,max=999,equipment="Raw"}
+    meshw = {name ="M-SHW",min=0,max=999,equipment="Single-ply"}
+
 [weightclasses.default_M]
     classes = ["59","66","74","83","93","105","120","120+"]
     date_range=["2011-01-01","9999-01-01"]

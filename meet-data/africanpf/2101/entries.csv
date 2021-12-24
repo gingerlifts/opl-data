@@ -61,7 +61,7 @@ Elmarie Engelbrecht,ARN,F-SHW-U,83.55,84,1985,,F,Raw,135,145,150,150,72.5,77.5,8
 Patty-Johanita Pretorius,ARN,F-SHW-U,81.65,84,1978,,F,Raw,120,130,-137.5,130,75,80,82.5,82.5,150,160,167.5,167.5,380,2,SBD,
 Carol Anthony,ARN,F-LW,51.65,52,1966,,F,Single-ply,105,-117.5,-117.5,105,47.5,50,52.5,52.5,-120,120,125,125,282.5,1,SBD,
 Elisabeth Barry,ARN,F-LW,51.9,52,1973,,F,Single-ply,100,-107.5,-107.5,100,47.5,50,52.5,52.5,110,115,117.5,117.5,270,2,SBD,
-Tshepo Mulaudzi,ARN,M-LW-U,51.15,53,2001,,M,Raw,90,-100,110,110,60,70,-85,70,130,145,-157.5,145,325,1,SBD,
+Tshepo Mulaudzi,ARN,M-LW-U,51.15,59,2001,,M,Raw,90,-100,110,110,60,70,-85,70,130,145,-157.5,145,325,1,SBD,
 Geordie Goliath,ARN,M-LW-U,58.3,59,1993,,M,Raw,165,-170,-170,165,80,95,102.5,102.5,130,-140,155,155,422.5,1,SBD,
 James McIlree,ARN,M-LW-U,64.7,66,2000,,M,Raw,135,147.5,155,155,90,95,100,100,170,177.5,-185,177.5,432.5,1,SBD,
 Jonah Carr,ARN,M-MW-U,81.75,83,2005,,M,Raw,150,167.5,-175,167.5,95,105,107.5,107.5,180,200,212.5,212.5,487.5,1,SBD,
@@ -77,7 +77,7 @@ Christo Schoonraad,ARN,M-HW,103.25,105,1963,,M,Single-ply,275,-285,285,285,165,1
 Johnny Dam,ARN,M-HW,96.8,105,1969,,M,Single-ply,215,230,245,245,165,175,180,180,225,245,255,255,680,2,SBD,
 Matthew Arendse,RSA,M-SJ-U,72.5,74,2004,,M,Raw,,,,,115,120,-125,120,,,,,120,1,B,South Africa
 Fabio Yslie,RSA,M-J-U,92,93,1999,,M,Raw,,,,,167.5,170,-175,170,,,,,170,1,B,South Africa
-Nick Duarte,RSA,M-O-U,92.25,93,1995,,M,Raw,,,,,165,175,-180,175,,,,,175,1,B,South Africa
+Nick Duarte #1,RSA,M-O-U,92.25,93,1995,,M,Raw,,,,,165,175,-180,175,,,,,175,1,B,South Africa
 Archie Ayekpa,RSA,M-O-U,90.35,93,1985,,M,Raw,,,,,157.5,165,-170,165,,,,,165,2,B,South Africa
 Johnny Charles Johnson,RSA,M-O-U,103.25,105,1972,,M,Raw,,,,,160,170,-180,170,,,,,170,1,B,South Africa
 Brandon Bezuidenhout,RSA,M-O-U,111.45,120,1993,,M,Raw,,,,,190,200,-205,200,,,,,200,1,B,South Africa
@@ -88,7 +88,7 @@ Gys Smith,RSA,M-M1-U,136.9,120+,1972,,M,Raw,,,,,155,165,175,175,,,,,175,1,B,Sout
 Tommie de Nysschen,RSA,M-M2-U,82.35,83,1963,,M,Raw,,,,,137.5,-142.5,-142.5,137.5,,,,,137.5,1,B,South Africa
 John Crain,RSA,M-M2-U,113.65,120,1969,,M,Raw,,,,,155,165,172.5,172.5,,,,,172.5,1,B,South Africa
 Mornay Human,RSA,M-M2-U,140.3,120+,1969,,M,Raw,,,,,160,170,172.5,172.5,,,,,172.5,1,B,South Africa
-JC Bruce,RSA,M-M3-U,65.45,66,1963,,M,Raw,,,,,75,80,-82.5,80,,,,,80,1,B,South Africa
+JC Bruce,RSA,M-M3-U,65.45,66,,,M,Raw,,,,,75,80,-82.5,80,,,,,80,1,B,South Africa
 Glen Thomas,RSA,M-M3-U,91.65,93,1960,,M,Raw,,,,,125,130,-132.5,130,,,,,130,1,B,South Africa
 Anika Ferreira,RSA,F-SJ-U,60.75,63,2004,,F,Raw,,,,,50,55,-60,55,,,,,55,1,B,South Africa
 Heike Groenewald,RSA,F-SJ-U,66.95,69,2004,,F,Raw,,,,,55,57.5,60,60,,,,,60,1,B,South Africa
