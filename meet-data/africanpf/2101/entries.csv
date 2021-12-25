@@ -119,9 +119,9 @@ Carol Anthony,RSA,F-M2,51.65,52,1966,,F,Single-ply,105,-117.5,-117.5,105,47.5,50
 Marchelle Strydom,RSA,M-SJ,92.5,93,2003,,M,Single-ply,180,220,235,235,100,115,-122.5,115,200,220,-237.5,220,570,1,SBD,South Africa
 Karabo Manamela,RSA,M-J,72.1,74,1999,,M,Single-ply,220,230,-247.5,230,120,130,140,140,210,220,-230,220,590,1,SBD,South Africa
 Christo Schoonraad,RSA,M-M2,103.25,105,1963,,M,Single-ply,275,-285,285,285,165,172.5,177.5,177.5,250,275,-277.5,275,737.5,1,SBD,South Africa
-Caitlin Poxon,UVC - Varsity College,FR-O,66.2,69,2000,,F,Raw,115,122.5,125,125,62.5,67.5,-72.5,67.5,130,140,150,150,342.5,1,SBD,
-Tshepo Mulaudzi,UV - VEGA University,MR-O,51.15,59,2001,,M,Raw,90,-100,110,110,60,70,-85,70,130,145,-157.5,145,325,1,SBD,
-Linde van der Ruben,UA - AROS University,MR-O,71.85,74,1998,,M,Raw,205,217.5,225,225,105,115,120,120,220,232.5,-262.5,232.5,577.5,1,SBD,
-Karabo Manamela,UP - University of Pretoria,MR-O,71.6,74,1999,,M,Raw,160,-200,-200,160,60,100,115,115,200,205,210,210,485,2,SBD,
-Jason Knowles,UW - University of Witwatersrand,MR-O,80.95,83,1997,,M,Raw,215,227.5,240,240,125,132.5,-140,132.5,235,245,-255,245,617.5,1,SBD,
-Grant O'Donahue,UP - University of Pretoria,MR-O,81.95,83,1999,,M,Raw,195,205,210,210,112.5,-117.5,-120,112.5,225,240,-245,240,562.5,2,SBD,
+Caitlin Poxon,UVC - Varsity College,F-O-U,66.2,69,2000,,F,Raw,115,122.5,125,125,62.5,67.5,-72.5,67.5,130,140,150,150,342.5,1,SBD,
+Tshepo Mulaudzi,UV - VEGA University,M-O-U,51.15,59,2001,,M,Raw,90,-100,110,110,60,70,-85,70,130,145,-157.5,145,325,1,SBD,
+Linde van der Ruben,UA - AROS University,M-O-U,71.85,74,1998,,M,Raw,205,217.5,225,225,105,115,120,120,220,232.5,-262.5,232.5,577.5,1,SBD,
+Karabo Manamela,UP - University of Pretoria,M-O-U,71.6,74,1999,,M,Raw,160,-200,-200,160,60,100,115,115,200,205,210,210,485,2,SBD,
+Jason Knowles,UW - University of Witwatersrand,M-O-U,80.95,83,1997,,M,Raw,215,227.5,240,240,125,132.5,-140,132.5,235,245,-255,245,617.5,1,SBD,
+Grant O'Donahue,UP - University of Pretoria,M-O-U,81.95,83,1999,,M,Raw,195,205,210,210,112.5,-117.5,-120,112.5,225,240,-245,240,562.5,2,SBD,
