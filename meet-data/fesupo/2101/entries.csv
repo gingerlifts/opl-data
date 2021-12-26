@@ -1,5 +1,5 @@
 Division,BodyweightKg,WeightClassKg,Name,BirthYear,Country,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Equipment,Sex,Place,BirthDate
-Sub-Juniors,42.5,43,Gabriela Burgos,2001,Ecuador,45,55,62.5,62.5,27.5,-30,30,30,60,72.5,85,85,177.5,SBD,Raw,F,1,
+Sub-Juniors,42.5,43,Gabriela Burgos,,Ecuador,45,55,62.5,62.5,27.5,-30,30,30,60,72.5,85,85,177.5,SBD,Raw,F,1,
 Juniors,42.5,43,Melany Guachin,2002,Ecuador,80,85,-90,85,30,32.5,35,35,80,85,90,90,210,SBD,Raw,F,1,
 Open,46.4,47,Analucia Ruiz,1986,Peru,117.5,125,-130.5,125,-55,55,-60,55,145,-155,-155,145,325,SBD,Raw,F,1,
 Open,46,47,Miriam Hernandez,1995,Ecuador,95,102.5,107.5,107.5,55,60,-62.5,60,110,117.5,-122.5,117.5,285,SBD,Raw,F,2,
