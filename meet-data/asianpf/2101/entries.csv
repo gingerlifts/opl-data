@@ -2,7 +2,7 @@ Place,WeightClassKg,Name,Division,Sex,Age,BirthYear,Country,BodyweightKg,Best3Sq
 1,59,Yadam Satish Kumar,Open,M,26,1995,India,58.6,197.5,130,200,527.5,SBD,Single-ply,
 2,59,Kayirzhan Yeleussiz,Open,M,24,1997,Kazakhstan,58.9,182.5,110,162.5,455,SBD,Single-ply,
 3,59,Parviz Abdollahpour,Open,M,34,1987,Iran,58.3,100,100,142.5,342.5,SBD,Single-ply,
-DQ,,Dhruv Raj Kure,Open,M,19,2002,India,57.8,180,,217.5,,SBD,Single-ply,
+DQ,59,Dhruv Raj Kure,Open,M,19,2002,India,57.8,180,,217.5,,SBD,Single-ply,
 1,66,Mahesh Utekar Sahil,Open,M,25,1996,India,64.6,285,160,252.5,697.5,SBD,Single-ply,
 2,66,Alexandr Kuramshin,Open,M,35,1986,Kazakhstan,65.45,240,157.5,235,632.5,SBD,Single-ply,
 3,66,B. Govindasamy,Open,M,27,1994,India,65.3,240,125,250,615,SBD,Single-ply,
