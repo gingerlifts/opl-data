@@ -35,9 +35,9 @@ DQ,Abdullah Alqattan,Open,1991,Kuwait,82.3,83,-190,190,-210,190,-125,-125,-125,-
 3,Mehdi Sadeghpour,Open,1988,Iran,139.2,120+,280,295,305,305,180,-185,-185,180,280,300,305,305,790,SBD,Raw,,M
 4,Paritesh Pal,Open,1999,India,142.35,120+,230,255,270,270,160,-170,,160,-230,230,245,245,675,SBD,Raw,,M
 5,Tuvshintugs Danzan,Open,1984,Mongolia,123.2,120+,160,,,160,220,-225,-225,220,160,,,160,540,SBD,Raw,,M
-1,Danila Kleikin,Sub-junior,2007,Kazakhstan,48.8,53,100,112.5,125,125,67.5,70,72.5,72.5,120,140,155,155,352.5,SBD,Raw,,M
-DQ,Timur Khuziakhmetov,Sub-junior,2004,Kazakhstan,52.2,53,120,-127.5,-127.5,120,-70,-70,-70,-70,140,150,157.5,157.5,,SBD,Raw,,M
-1,Rahul Rohit S,Sub-junior,2005,India,57.25,59,80,100,110,110,40,50,57.5,57.5,120,130,150,150,317.5,SBD,Raw,,M
+1,Danila Kleikin,Sub-juniors,2007,Kazakhstan,48.8,53,100,112.5,125,125,67.5,70,72.5,72.5,120,140,155,155,352.5,SBD,Raw,,M
+DQ,Timur Khuziakhmetov,Sub-juniors,2004,Kazakhstan,52.2,53,120,-127.5,-127.5,120,-70,-70,-70,-70,140,150,157.5,157.5,,SBD,Raw,,M
+1,Rahul Rohit S,Sub-juniors,2005,India,57.25,59,80,100,110,110,40,50,57.5,57.5,120,130,150,150,317.5,SBD,Raw,,M
 2,N. Kesav Kaarthick,Sub-Juniors,2006,India,56.65,59,75,85,95,95,35,42.5,45,45,95,110,120,120,260,SBD,Raw,,M
 1,Stepan Deineka,Sub-Juniors,2007,Kazakhstan,65.7,66,100,120,135,135,70,80,-90,80,110,130,-150,130,345,SBD,Raw,,M
 1,Hossein Javadfar Amir,Sub-Juniors,2003,Iran,67.9,74,152.5,165,-170,165,95,102.5,-107.5,102.5,170,185,-200,185,452.5,SBD,Raw,,M
@@ -79,7 +79,7 @@ DQ,Farid Salehi,Juniors,1998,Iran,82,83,-205,205,-227.5,205,170,180,-190,180,-24
 1,Seyedamirreza Fatahimasoum,Juniors,1999,Iran,139.5,120+,290,310,-327.5,310,160,175,-185,175,255,270,275,275,760,SBD,Raw,,M
 2,Ali Ghanbari,Juniors,2001,Iran,139.25,120+,240,260,270,270,140,165,-170,165,240,260,270,270,705,SBD,Raw,,M
 1,Kentaro Suzuki,Masters 1,1975,Japan,58.5,59,110,120,125,125,75,80,82.5,82.5,150,-170,170,170,377.5,SBD,Raw,,M
-1,Aminolah Baghlani,Masters 1,1982,Iran,65.25,66,105,120,-130,120,65,75,-80,75,185,200,-210,200,395,SBD,Raw,,M
+1,Aminolah Baghlani,Masters 1,,Iran,65.25,66,105,120,-130,120,65,75,-80,75,185,200,-210,200,395,SBD,Raw,,M
 1,Enkhbat Sanduijav,Masters 1,1974,Mongolia,71.7,74,165,175,182.5,182.5,110,117.5,120,120,185,-197.5,-210,185,487.5,SBD,Raw,,M
 2,Reza Reyhani,Masters 1,1973,Iran,72.05,74,100,130,-150,130,80,100,-107.5,100,110,160,-185,160,390,SBD,Raw,,M
 1,Mukhtiar Singh,Masters 1,1977,India,76.3,83,-150,155,165,165,135,145,147.5,147.5,220,230,-245,230,542.5,SBD,Raw,,M
@@ -255,7 +255,7 @@ DQ,Teskhuu Ichinnorov,Masters 2,1971,Mongolia,98.75,105,,,,,-215,-215,-217.5,-21
 1,Meena Sharma,Masters 1,1974,India,57.6,63,,,,,52.5,-55,60,60,,,,,60,B,Raw,,F
 1,Deepa K S,Masters 1,1978,India,71.4,76,,,,,45,50,52.5,52.5,,,,,52.5,B,Raw,,F
 1,Marina Altaibaeva,Masters 1,1973,Kazakhstan,114.6,84+,,,,,40,45,50,50,,,,,50,B,Raw,,F
-1,Nicey K L,Masters 2,1968,India,54.05,57,,,,,25,30,-35,30,,,,,30,B,Raw,,M
+1,Nicey K L,Masters 2,1968,India,54.05,57,,,,,25,30,-35,30,,,,,30,B,Raw,,F
 1,Andrey Shpitsser,Open,1986,Kazakhstan,58.15,59,,,,,145,150,-152.5,150,,,,,150,B,Raw,,M
 2,Furkat Shamuratov,Open,1996,Kazakhstan,58.9,59,,,,,125,-135,-135,125,,,,,125,B,Raw,,M
 1,Reza Mesforoush Amir,Open,1980,Iran,66,66,,,,,105,115,127.5,127.5,,,,,127.5,B,Raw,,M
@@ -369,7 +369,7 @@ DQ,Paritesh Pal,Open,1999,India,141.45,120+,-310,310,-340,310,-200,-200,-200,-20
 1,Timur Khuziakhmetov,Sub-Juniors,2004,Kazakhstan,52.6,53,140,145,,145,-72.5,72.5,77.5,77.5,145,150,,150,372.5,SBD,Single-ply,,M
 2,Danila Kleikin,Sub-Juniors,2007,Kazakhstan,49.25,53,115,125,135,135,70,72.5,75,75,125,145,-162.5,145,355,SBD,Single-ply,,M
 1,Rahul Rohith,Sub-Juniors,2007,India,56.7,59,90,100,110,110,50,55,60,60,120,130,150,150,320,SBD,Single-ply,,M
-2,N.kesav Kaarthick,Sub-Juniors,2006,India,56.5,59,80,90,100,100,35,40,-45,40,100,110,120,120,260,SBD,Single-ply,,M
+2,N. Kesav Kaarthick,Sub-Juniors,2006,India,56.5,59,80,90,100,100,35,40,-45,40,100,110,120,120,260,SBD,Single-ply,,M
 1,Stepan Deineka,Sub-Juniors,2007,Kazakhstan,65.65,66,120,140,160,160,70,-85,90,90,-110,110,145,145,395,SBD,Single-ply,,M
 1,Diyarbek Abdurashidov,Sub-Juniors,2004,Kazakhstan,81.35,83,150,170,190,190,110,120,125,125,160,180,200,200,515,SBD,Single-ply,,M
 1,Yegor Oleinikov,Sub-Juniors,2005,Kazakhstan,92.8,93,175,185,195,195,135,142.5,-145,142.5,165,175,-190,175,512.5,SBD,Single-ply,,M
