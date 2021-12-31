@@ -35,9 +35,9 @@ DQ,Abdullah Alqattan,Open,1991,Kuwait,82.3,83,-190,190,-210,190,-125,-125,-125,-
 3,Mehdi Sadeghpour,Open,1988,Iran,139.2,120+,280,295,305,305,180,-185,-185,180,280,300,305,305,790,SBD,Raw,,M
 4,Paritesh Pal,Open,1999,India,142.35,120+,230,255,270,270,160,-170,,160,-230,230,245,245,675,SBD,Raw,,M
 5,Tuvshintugs Danzan,Open,1984,Mongolia,123.2,120+,160,,,160,220,-225,-225,220,160,,,160,540,SBD,Raw,,M
-1,Danila Kleikin,Sub-juniors,2007,Kazakhstan,48.8,53,100,112.5,125,125,67.5,70,72.5,72.5,120,140,155,155,352.5,SBD,Raw,,M
-DQ,Timur Khuziakhmetov,Sub-juniors,2004,Kazakhstan,52.2,53,120,-127.5,-127.5,120,-70,-70,-70,-70,140,150,157.5,157.5,,SBD,Raw,,M
-1,Rahul Rohit S,Sub-juniors,2005,India,57.25,59,80,100,110,110,40,50,57.5,57.5,120,130,150,150,317.5,SBD,Raw,,M
+1,Danila Kleikin,Sub-Juniors,2007,Kazakhstan,48.8,53,100,112.5,125,125,67.5,70,72.5,72.5,120,140,155,155,352.5,SBD,Raw,,M
+DQ,Timur Khuziakhmetov,Sub-Juniors,2004,Kazakhstan,52.2,53,120,-127.5,-127.5,120,-70,-70,-70,-70,140,150,157.5,157.5,,SBD,Raw,,M
+1,Rahul Rohit S,Sub-Juniors,2005,India,57.25,59,80,100,110,110,40,50,57.5,57.5,120,130,150,150,317.5,SBD,Raw,,M
 2,N. Kesav Kaarthick,Sub-Juniors,2006,India,56.65,59,75,85,95,95,35,42.5,45,45,95,110,120,120,260,SBD,Raw,,M
 1,Stepan Deineka,Sub-Juniors,2007,Kazakhstan,65.7,66,100,120,135,135,70,80,-90,80,110,130,-150,130,345,SBD,Raw,,M
 1,Hossein Javadfar Amir,Sub-Juniors,2003,Iran,67.9,74,152.5,165,-170,165,95,102.5,-107.5,102.5,170,185,-200,185,452.5,SBD,Raw,,M
@@ -328,7 +328,7 @@ DQ,Natsagdorj Sereenendorj,Masters 1,1979,Mongolia,,105,,,,,,,,,,,,,,B,Raw,,M
 1,Hiroyuki Kitamura,Masters 3,1954,Japan,58.15,59,,,,,90,95,-100,95,,,,,95,B,Raw,,M
 1,Sanjiv Razdan,Masters 3,1960,India,90.65,93,,,,,110,115,125,125,,,,,125,B,Raw,,M
 2,Yuriy Aparin,Masters 3,1954,Kazakhstan,91.8,93,,,,,92.5,97.5,100,100,,,,,100,B,Raw,,M
-DQ,Bakyt Kerimbekov,Masters 3,1961,Kyrgyzstan,89.3,105,,,,,-125,,,,,,,,,B,Raw,,M
+DQ,Bakyt Kerimbekov,Masters 3,1961,Kyrgyzstan,89.3,93,,,,,-125,,,,,,,,,B,Raw,,M
 1,Kr Saha Nirmal,Masters 4,1948,India,76.15,83,,,,,50,65,72.5,72.5,,,,,72.5,B,Raw,,M
 1,Yadam Satish Kumar,Open,1995,India,58.6,59,190,-197.5,197.5,197.5,115,122.5,130,130,190,195,200,200,527.5,SBD,Single-ply,,M
 2,Kayirzhan Yeleussiz,Open,1997,Kazakhstan,58.9,59,170,182.5,-190,182.5,-100,100,110,110,150,162.5,-170,162.5,455,SBD,Single-ply,,M
@@ -383,7 +383,7 @@ DQ,Paritesh Pal,Open,1999,India,141.45,120+,-310,310,-340,310,-200,-200,-200,-20
 1,B Attavar Adarsh,Juniors,2000,India,58,59,220,235,-245,235,-120,120,-122.5,120,220,222.5,230,230,585,SBD,Single-ply,,M
 2,Abin B,Juniors,1998,India,57.95,59,205,212.5,-217.5,212.5,110,120,125,125,205,215,222.5,222.5,560,SBD,Single-ply,,M
 3,Yadhnesh V Raut,Juniors,1998,India,58.5,59,195,-205,205,205,130,-137.5,137.5,137.5,180,190,195,195,537.5,SBD,Single-ply,,M
-4,Pandrila Bharat Kumar,Juniors,2002,India,52.3,59,185,-200,200,200,105,-112.5,112.5,112.5,185,200,-225,200,512.5,SBD,Single-ply,,M
+4,Pandrila Bharat Kumar,Juniors,2002,India,52.3,53,185,-200,200,200,105,-112.5,112.5,112.5,185,200,-225,200,512.5,SBD,Single-ply,,M
 1,Mohamed Ali A Sheik,Juniors,1999,India,64.95,66,210,225,237.5,237.5,135,142.5,150,150,220,240,257.5,257.5,645,SBD,Single-ply,,M
 2,Sanku Kruparao,Juniors,1998,India,66,66,252.5,-267.5,-267.5,252.5,112.5,-117.5,117.5,117.5,252.5,265,,265,635,SBD,Single-ply,,M
 3,Venkatesh C,Juniors,1998,India,65.15,66,-200,200,-215,200,-115,-115,115,115,-170,170,192.5,192.5,507.5,SBD,Single-ply,,M
@@ -417,7 +417,7 @@ DQ,S Prajapati Akshay Kumar,Juniors,2001,India,65.4,66,-230,230,-240,230,130,137
 1,Khafi Mohammed Ali Teimouri,Masters 1,1979,Iran,91.65,93,180,230,250,250,140,170,-190,170,180,220,-225,220,640,SBD,Single-ply,,M
 1,Vahid Rajabzadeh Asar,Masters 1,1973,Iran,102.15,105,190,-210,-215,190,140,152.5,-165,152.5,230,245,-265,245,587.5,SBD,Single-ply,,M
 2,Otgonbayar Nyamsuren,Masters 1,1972,Mongolia,99.65,105,190,205,215,215,120,132.5,-152.5,132.5,200,-230,-240,200,547.5,SBD,Single-ply,,M
-1,Mojtaba Mehrban,Masters 1,1982,Iran,116.9,120,240,280,300,300,160,180,-200,180,200,-240,240,240,720,SBD,Single-ply,,M
+1,Mojtaba Mehrban,Masters 1,,Iran,116.9,120,240,280,300,300,160,180,-200,180,200,-240,240,240,720,SBD,Single-ply,,M
 2,Mohammadreza Amini,Masters 1,1980,Iran,108.7,120,120,160,162.5,162.5,100,130,-135,130,160,200,-210,200,492.5,SBD,Single-ply,,M
 1,Malik Beldinov,Masters 2,1963,Kazakhstan,60.15,66,90,115,120,120,70,80,90,90,90,110,130,130,340,SBD,Single-ply,,M
 1,Alimbek Rakhimov,Masters 2,1966,Kyrgyzstan,81.6,83,220,240,260,260,135,160,170,170,240,260,-280,260,690,SBD,Single-ply,,M
@@ -478,7 +478,7 @@ DQ,Paritesh Pal,Open,1999,India,141.45,120+,-310,310,-340,310,-200,-200,-200,-20
 1,B Attavar Adarsh,Juniors,2000,India,58,59,220,235,-245,235,-120,120,-122.5,120,220,222.5,230,230,585,SBD,Single-ply,,M
 2,Abin B,Juniors,1998,India,57.95,59,205,212.5,-217.5,212.5,110,120,125,125,205,215,222.5,222.5,560,SBD,Single-ply,,M
 3,Yadhnesh V Raut,Juniors,1998,India,58.5,59,195,-205,205,205,130,-137.5,137.5,137.5,180,190,195,195,537.5,SBD,Single-ply,,M
-4,Pandrila Bharat Kumar,Juniors,2002,India,52.3,59,185,-200,200,200,105,-112.5,112.5,112.5,185,200,-225,200,512.5,SBD,Single-ply,,M
+4,Pandrila Bharat Kumar,Juniors,2002,India,52.3,53,185,-200,200,200,105,-112.5,112.5,112.5,185,200,-225,200,512.5,SBD,Single-ply,,M
 1,Mohamed Ali A Sheik,Juniors,1999,India,64.95,66,210,225,237.5,237.5,135,142.5,150,150,220,240,257.5,257.5,645,SBD,Single-ply,,M
 2,Sanku Kruparao,Juniors,1998,India,66,66,252.5,-267.5,-267.5,252.5,112.5,-117.5,117.5,117.5,252.5,265,,265,635,SBD,Single-ply,,M
 3,Venkatesh C,Juniors,1998,India,65.15,66,-200,200,-215,200,-115,-115,115,115,-170,170,192.5,192.5,507.5,SBD,Single-ply,,M
@@ -512,7 +512,7 @@ DQ,Kumar,Juniors,2001,India,65.4,66,-230,230,-240,230,130,137.5,-142.5,137.5,-22
 1,Khafi Mohammed Ali Teimouri,Masters 1,1979,Iran,91.65,93,180,230,250,250,140,170,-190,170,180,220,-225,220,640,SBD,Single-ply,,M
 1,Vahid Rajabzadeh Asar,Masters 1,1973,Iran,102.15,105,190,-210,-215,190,140,152.5,-165,152.5,230,245,-265,245,587.5,SBD,Single-ply,,M
 2,Otgonbayar Nyamsuren,Masters 1,1972,Mongolia,99.65,105,190,205,215,215,120,132.5,-152.5,132.5,200,-230,-240,200,547.5,SBD,Single-ply,,M
-1,Mojtaba Mehrban,Masters 1,1982,Iran,116.9,120,240,280,300,300,160,180,-200,180,200,-240,240,240,720,SBD,Single-ply,,M
+1,Mojtaba Mehrban,Masters 1,,Iran,116.9,120,240,280,300,300,160,180,-200,180,200,-240,240,240,720,SBD,Single-ply,,M
 2,Mohammadreza Amini,Masters 1,1980,Iran,108.7,120,120,160,162.5,162.5,100,130,-135,130,160,200,-210,200,492.5,SBD,Single-ply,,M
 1,Malik Beldinov,Masters 2,1963,Kazakhstan,60.15,66,90,115,120,120,70,80,90,90,90,110,130,130,340,SBD,Single-ply,,M
 1,Alimbek Rakhimov,Masters 2,1966,Kyrgyzstan,81.6,83,220,240,260,260,135,160,170,170,240,260,-280,260,690,SBD,Single-ply,,M
