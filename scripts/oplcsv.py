@@ -5,10 +5,9 @@
 #
 
 import codecs
-
+import pdb
 
 class Csv:
-
     def __init__(self, filename=None):
         if filename:
             with open(filename, 'r', encoding='utf-8') as fd:
