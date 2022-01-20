@@ -11,7 +11,7 @@ Place,Name,State,Country,Division,AgeRange,BodyweightKg,WeightClassKg,BirthYear,
 1,Lucy Hyde,SE,England,FR-M1,39.5-48.5,83.3,84,,,,,,85,-90,90,90,,,,,90,B,,F,Raw
 2,Nicola Maycock,NM,England,FR-M1,39.5-48.5,78.4,84,,,,,,55,60,-62.5,60,,,,,60,B,,F,Raw
 1,Jacqueline Gough,NM,England,FR-M1,39.5-48.5,155.5,84+,,,,,,110,115,121,121,,,,,121,B,,F,Raw
-2,Sarah Bouskill,NM,England,FR-M1,39.5-48.5,119.6,84+,,,,,,100,110,-115,110,,,,,110,B,24/07/1979,F,Raw
+2,Sarah Bouskill,NM,England,FR-M1,39.5-48.5,119.6,84+,,,,,,100,110,-115,110,,,,,110,B,1979-07-24,F,Raw
 1,Rita Shergold,SM,England,FR-M2,49.5-58.5,58.5,63,,,,,,60,-65,-65,60,,,,,60,B,,F,Raw
 1,Lincoln Rose,SE,England,FR-M2,49.5-58.5,67.4,69,,,,,,-80,82.5,85,85,,,,,85,B,,F,Raw
 2,Kelly Clark #1,YNE,England,FR-M2,49.5-58.5,66.2,69,,,,,,47.5,50,-52.5,50,,,,,50,B,,F,Raw
@@ -49,7 +49,7 @@ DQ,Katie Roberts,,Wales,FR-O,,62.6,63,,,,,,-105,-105,-105,,,,,,,B,,F,Raw
 4,Harriet Waite,EM,England,FR-O,18.5-22.5,82.2,84,,,,,,67.5,72.5,75,75,,,,,75,B,,F,Raw
 5,Nicola Maycock,NM,England,FR-O,39.5-48.5,78.4,84,,,,,,55,60,-62.5,60,,,,,60,B,,F,Raw
 1,Jacqueline Gough,NM,England,FR-O,39.5-48.5,155.5,84+,,,,,,110,115,121,121,,,,,121,B,,F,Raw
-2,Sarah Bouskill,NM,England,FR-O,39.5-48.5,119.6,84+,,,,,,100,110,-115,110,,,,,110,B,24/07/1979,F,Raw
+2,Sarah Bouskill,NM,England,FR-O,39.5-48.5,119.6,84+,,,,,,100,110,-115,110,,,,,110,B,1979-07-24,F,Raw
 3,Kate Sweatman,WM,England,FR-O,,127.6,84+,,,,,,100,107.5,110,110,,,,,110,B,,F,Raw
 4,Jo Whiteley,NM,England,FR-O,49.5-58.5,119.6,84+,,,,,,95,-100,-100,95,,,,,95,B,,F,Raw
 5,Kimberley Kirkham,EM,England,FR-O,,100.9,84+,,,,,,60,65,70,70,,,,,70,B,,F,Raw
