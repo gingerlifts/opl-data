@@ -404,6 +404,11 @@
             "all_internationals": "Alle internationalen Wettkämpfe",
             "all_india": "Alle indischen Starter"
         },
+        "tested": {
+            "all": "All Lifters",
+            "fully_tested": "All Fully Tested Lifters",
+            "all_tested": "All Tested Lifters"
+        },
         "ageclass": {
             "all": "Alle Altersklassen",
             "ipf_open": "Alle Altersklassen",

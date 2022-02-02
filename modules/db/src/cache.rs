@@ -356,6 +356,11 @@ pub struct LogLinearTimeCache {
     /// List of all non-DQ Female entry indices by LifterID.
     pub female: NonSortedNonUnique,
 
+    /// List of all non-DQ Fully Tested entry indices by LifterID.
+    pub fullytestedlifters: NonSortedNonUnique,
+    /// List of all non-DQ Tested entry indices by LifterID.
+    pub alltestedlifters: NonSortedNonUnique,
+
     pub year2022: NonSortedNonUnique,
     pub year2021: NonSortedNonUnique,
     pub year2020: NonSortedNonUnique,
@@ -399,6 +404,9 @@ impl LogLinearTimeCache {
 
             male: Self::filter_entries(entries, |e| e.sex == Sex::M),
             female: Self::filter_entries(entries, |e| e.sex == Sex::F),
+
+            fullytestedlifters: Self::filter_entries(entries, |e| {meets[e.meet_id as usize].federation.is_fully_tested(meets[e.meet_id as usize].date) && e.tested}),
+            alltestedlifters: Self::filter_entries(entries, |e| e.tested),
 
             year2022: Self::filter_entries(entries, |e| {
                 meets[e.meet_id as usize].date.year() == 2022

@@ -47,6 +47,7 @@ impl RankingsQuery {
         // Prevent fields from being overwritten or redundant.
         let mut parsed_equipment: bool = false;
         let mut parsed_federation: bool = false;
+        let mut parsed_tested: bool = false;
         let mut parsed_weightclasses: bool = false;
         let mut parsed_sex: bool = false;
         let mut parsed_ageclass: bool = false;
@@ -68,6 +69,13 @@ impl RankingsQuery {
                 }
                 ret.filter.equipment = e;
                 parsed_equipment = true;
+            // Check whether this is testing information.
+            } else if let Ok(t) = segment.parse::<TestedFilter>() {
+                if parsed_tested {
+                    return Err(FromPathError::ConflictingComponent);
+                }
+                ret.filter.tested = t;
+                parsed_tested = true;
             // Check whether this is federation information.
             } else if let Ok(f) =
                 FederationFilter::from_str_preferring(segment, FedPreference::PreferMetaFederation)
@@ -84,6 +92,7 @@ impl RankingsQuery {
                 }
                 ret.filter.weightclasses = w;
                 parsed_weightclasses = true;
+
             // Check whether this is sex information.
             } else if let Ok(s) = segment.parse::<SexFilter>() {
                 if parsed_sex {

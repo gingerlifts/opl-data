@@ -273,6 +273,17 @@ pub fn entry_indices_for<'db>(
         }
     };
 
+    // Apply the Tested filter.
+    cur = match selection.tested {
+        TestedFilter::AllLifters => cur,
+        TestedFilter::FullyTestedLifters => {
+            PossiblyOwnedNonSortedNonUnique::Owned(cur.intersect(&cache.log_linear_time.fullytestedlifters))
+        }
+        TestedFilter::AllTestedLifters => {
+            PossiblyOwnedNonSortedNonUnique::Owned(cur.intersect(&cache.log_linear_time.alltestedlifters))
+        }
+    };
+
     // Apply the Year filter.
     cur = match selection.year {
         YearFilter::AllYears => cur,

@@ -474,6 +474,7 @@ pub struct SelectorTranslations {
     pub sex: SexSelectorTranslations,
     pub event: EventSelectorTranslations,
     pub fed: FedSelectorTranslations,
+    pub tested: TestedSelectorTranslations,
     pub ageclass: AgeClassSelectorTranslations,
 }
 
@@ -628,6 +629,14 @@ pub struct FedSelectorTranslations {
     pub all_affiliates: String,
     pub all_internationals: String,
 }
+
+#[derive(Serialize, Deserialize)]
+pub struct TestedSelectorTranslations {
+    pub all: String,
+    pub fully_tested: String,
+    pub all_tested: String,
+}
+
 
 #[derive(Serialize, Deserialize)]
 pub struct AgeClassSelectorTranslations {

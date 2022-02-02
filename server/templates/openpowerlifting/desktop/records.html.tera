@@ -8,6 +8,7 @@
     const default_classkind = "traditional-classes";
     const default_fed = "all";
     const default_sex = "men";
+    const default_tested = "all";
     const default_ageclass = "all";
     const default_year = "all";
   </script>
@@ -37,6 +38,7 @@
         <option value="men" {% if selection.sex == "Men" %}selected{% endif %}>{{strings.selectors.sex.m}}</option>
         <option value="women" {% if selection.sex == "Women" %}selected{% endif %}>{{strings.selectors.sex.f}}</option>
       </select>
+      {% include "openpowerlifting/widget-testedselect" %}
       {% include "openpowerlifting/widget-ageselect" %}
       {% include "widget-yearselect" %}
       <select id="stateselect" style="display: none">

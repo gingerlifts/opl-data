@@ -20,6 +20,7 @@ pub struct RecordsQuery {
     pub equipment: EquipmentFilter,
     pub federation: FederationFilter,
     pub sex: SexFilter,
+    pub tested: TestedFilter,
     pub classkind: ClassKind,
     pub ageclass: AgeClassFilter,
     pub year: YearFilter,
@@ -32,6 +33,7 @@ impl Default for RecordsQuery {
             equipment: EquipmentFilter::RawAndWraps,
             federation: FederationFilter::AllFederations,
             sex: SexFilter::Men,
+            tested: TestedFilter::AllLifters,
             classkind: ClassKind::Traditional,
             ageclass: AgeClassFilter::AllAges,
             year: YearFilter::AllYears,
@@ -48,6 +50,7 @@ impl RecordsQuery {
                 equipment: self.equipment,
                 federation: self.federation,
                 sex: self.sex,
+                tested: self.tested,
                 ageclass: self.ageclass,
                 year: self.year,
                 state: self.state,
@@ -74,6 +77,7 @@ impl RecordsQuery {
         // Prevent fields from being overwritten or redundant.
         let mut parsed_equipment: bool = false;
         let mut parsed_sex: bool = false;
+        let mut parsed_tested: bool = false;
         let mut parsed_federation: bool = false;
         let mut parsed_classkind: bool = false;
         let mut parsed_ageclass: bool = false;
@@ -109,6 +113,13 @@ impl RecordsQuery {
                 }
                 ret.sex = s;
                 parsed_sex = true;
+            // Check whether this is testing information.
+            } else if let Ok(t) = segment.parse::<TestedFilter>() {
+                if parsed_tested {
+                    return Err(FromPathError::ConflictingComponent);
+                }
+                ret.tested = t;
+                parsed_tested = true;
             // Check whether this is class kind information.
             } else if let Ok(k) = segment.parse::<ClassKind>() {
                 if parsed_classkind {

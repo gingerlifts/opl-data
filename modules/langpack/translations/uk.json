@@ -416,6 +416,11 @@
 			"all_affiliates": "All Affiliates",
 			"all_internationals": "All Internationals"
                 },
+                "tested": {
+                "all": "All Lifters",
+                "fully_tested": "All Fully Tested Lifters",
+                "all_tested": "All Tested lifters"
+                },
                 "ageclass": {
                         "all": "Усі вікові групи",
 						"youth5_12": "Youth 5-12",

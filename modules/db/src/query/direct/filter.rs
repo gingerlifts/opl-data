@@ -17,6 +17,7 @@ pub struct EntryFilter {
     pub federation: FederationFilter,
     pub weightclasses: WeightClassFilter,
     pub sex: SexFilter,
+    pub tested: TestedFilter,
     pub ageclass: AgeClassFilter,
     pub year: YearFilter,
     pub event: EventFilter,
@@ -30,6 +31,7 @@ impl Default for EntryFilter {
             federation: FederationFilter::AllFederations,
             weightclasses: WeightClassFilter::AllClasses,
             sex: SexFilter::AllSexes,
+            tested: TestedFilter::AllLifters,
             ageclass: AgeClassFilter::AllAges,
             year: YearFilter::AllYears,
             event: EventFilter::AllEvents,
@@ -526,6 +528,27 @@ impl FromStr for SexFilter {
             // No entry for AllSexes, since it's default.
             "men" => Ok(SexFilter::Men),
             "women" => Ok(SexFilter::Women),
+            _ => Err(()),
+        }
+    }
+}
+
+/// The tested selector widget.
+#[derive(Copy, Clone, Debug, PartialEq, Serialize)]
+pub enum TestedFilter {
+    AllLifters,
+    FullyTestedLifters,
+    AllTestedLifters,
+}
+
+impl FromStr for TestedFilter {
+    type Err = ();
+
+    fn from_str(s: &str) -> Result<Self, Self::Err> {
+        match s {
+            // No entry for AllLifters, since it's default.
+            "fully-tested-lifters" => Ok(TestedFilter::FullyTestedLifters),
+            "all-tested-lifters" => Ok(TestedFilter::AllTestedLifters),
             _ => Err(()),
         }
     }

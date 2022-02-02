@@ -409,6 +409,11 @@
             "all_internationals": "Všetci medzinárodníci",
             "all_india": "Všetci indickí súťažiaci"
         },
+		"tested": {
+	        "all": "All Lifters",
+	        "fully_tested": "All Fully Tested Lifters",
+	        "all_tested": "All tested Lifters"
+		},
         "ageclass": {
             "all": "Všetky vekové skupiny",
 			"youth5_12": "Youth 5-12",

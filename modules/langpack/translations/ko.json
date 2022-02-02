@@ -409,6 +409,11 @@
             "all_affiliates": "계열종합",
             "all_internationals": "국제협회종합"
         },
+        "tested": {
+            "all": "All Lifters",
+            "fully_tested": "All Fully Tested Lifters",
+            "all_tested": "All Tested Lifters"
+        },
         "ageclass": {
             "all": "나이종합",
 			"youth5_12": "Youth 5-12",

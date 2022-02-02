@@ -13,6 +13,7 @@ use crate::pages::api_rankings::query_slice;
 pub struct RankingsWidgets {
     pub equipment: EquipmentFilter,
     pub federation: FederationFilter,
+    pub tested: TestedFilter,
     pub weightclasses: WeightClassFilter,
     pub sex: SexFilter,
     pub ageclass: AgeClassFilter,
@@ -27,6 +28,7 @@ impl From<&RankingsQuery> for RankingsWidgets {
         Self {
             equipment: q.filter.equipment,
             federation: q.filter.federation,
+            tested: q.filter.tested,
             weightclasses: q.filter.weightclasses,
             sex: q.filter.sex,
             ageclass: q.filter.ageclass,

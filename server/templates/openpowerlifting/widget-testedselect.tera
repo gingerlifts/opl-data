@@ -1,0 +1,5 @@
+<select id="testedselect">
+  <option value="all" {% if selection.tested == "All" %}selected{% endif %}>{{strings.selectors.tested.all}}</option>
+  <option value="fully-tested-lifters" {% if selection.tested == "FullyTestedLifters" %}selected{% endif %}>{{strings.selectors.tested.fully_tested}}</option>
+  <option value="all-tested-lifters" {% if selection.tested == "AllTestedLifters" %}selected{% endif %}>{{strings.selectors.tested.all_tested}}</option>
+</select>
