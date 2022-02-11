@@ -9,8 +9,8 @@ Place,WeightClassKg,BodyweightKg,Name,BirthYear,Team,Bench1Kg,Bench2Kg,Bench3Kg,
 1,76,74.20,Siiri Tapaninen,2004,CFKBBC,62.5,67.5,70,70.0,70,Under 18,F,Raw,,B
 1,84,81.87,Rosanna Lampela,2004,LIKE,52.5,57.5,62.5,62.5,62.5,Under 18,F,Raw,,B
 2,84,81.60,Siiri Tossavainen,2004,KiurU,52.5,57.5,-62.5,57.5,57.5,Under 18,F,Raw,,B
-–,84,81.06,Annastiina Karvinen,2003,CFKBBC,-77.5,-77.5,-80,,,Under 18,F,Raw,,B
-1,47,45.90,Irina Filipova,1998,TiKa,50,55,-57.5,55.0,55,Under 23,,Raw,,B
+DQ,84,81.06,Annastiina Karvinen,2003,CFKBBC,-77.5,-77.5,-80,,,Under 18,F,Raw,,B
+1,47,45.90,Irina Filipova,1998,TiKa,50,55,-57.5,55.0,55,Under 23,F,Raw,,B
 1,57,54.47,Noora Miettinen,2002,TamRy,40,45,-50,45.0,45,Under 23,F,Raw,,B
 1,63,60.75,Tessa Toropainen,2000,ÄV,55,60,67.5,67.5,67.5,Under 23,F,Raw,,B
 2,63,61.75,Amanda Salin,2001,KK Eken,47.5,-50,50,50.0,50,Under 23,F,Raw,,B
@@ -67,7 +67,7 @@ Place,WeightClassKg,BodyweightKg,Name,BirthYear,Team,Bench1Kg,Bench2Kg,Bench3Kg,
 7,69,68.57,Milja Honkonen,1994,TVN,72.5,77.5,80,80.0,80,Open,F,Raw,,B
 8,69,66.26,Aino Niinivirta,1996,OPT,70,75,-80,75.0,75,Open,F,Raw,,B
 9,69,67.25,Niina Sassi,1992,HPV,67.5,-70,-70,67.5,67.5,Open,F,Raw,,B
-–,69,68,Janina Kokko,1997,E-SV,-92.5,-92.5,-92.5,,,Open,F,Raw,,B
+DQ,69,68,Janina Kokko,1997,E-SV,-92.5,-92.5,-92.5,,,Open,F,Raw,,B
 1,76,75.89,Emmeth Törrönen,1998,PV,-111,111,112,112.0,112,Open,F,Raw,,B
 2,76,74.50,Mira Lahtinen,1987,SaJy,105,110,-113,110.0,110,Open,F,Raw,,B
 3,76,75.21,Leena Saastamoinen,1991,KiurU,105,-110,110,110.0,110,Open,F,Raw,,B
@@ -81,7 +81,7 @@ Place,WeightClassKg,BodyweightKg,Name,BirthYear,Team,Bench1Kg,Bench2Kg,Bench3Kg,
 4,84+,105.59,Sari Rauhala,1984,E-SV,95,-97.5,-97.5,95.0,95,Open,F,Raw,,B
 5,84+,126.33,Kaisu Suorsa,1986,OPT,72.5,77.5,-82.5,77.5,77.5,Open,F,Raw,,B
 6,84+,114.66,Jutta Laakkonen,1986,LVK team,72.5,75,-80,75.0,75,Open,F,Raw,,B
-1,53,43.90,Lasse Rajakangas,2008,RAYVO,40,45,47.5,47.5,47.5,Under 14,F,Raw,,B
+1,47,43.90,Lasse Rajakangas,2008,RAYVO,40,45,47.5,47.5,47.5,Under 14,F,Raw,,B
 1,66,64.40,Eero Dahlgren,2008,Ols-Ta,60,65,70,70.0,70,Under 14,M,Raw,,B
 1,83,76.88,Lauri Mähönen,2007,KiurU,85,90,95,95.0,95,Under 14,M,Raw,,B
 1,93,91.76,Antti Vähäkoski,2007,YlöR,85,90,-92.5,90.0,90,Under 14,M,Raw,,B
@@ -180,12 +180,12 @@ Place,WeightClassKg,BodyweightKg,Name,BirthYear,Team,Bench1Kg,Bench2Kg,Bench3Kg,
 2,66,65.69,Tony Björkgren,1975,KoJy,110,115,120,120.0,120,Over 40,M,Raw,,B
 3,66,65.81,Ville Vaivila,1977,Team365,105,112.5,-117.5,112.5,112.5,Over 40,M,Raw,,B
 1,74,73.09,Jani Tuovinen,1979,KEV,125,130,135,135.0,135,Over 40,M,Raw,,B
-2,74,73.75,Anders Enkvist,1972,PV,125,-132.5,132.5,132.5,125,Over 40,M,Raw,,B
+2,74,73.75,Anders Enkvist,1972,PV,125,-132.5,132.5,132.5,132.5,Over 40,M,Raw,,B
 1,83,78.54,Pasi Sipiläinen,1978,HuiVo,145,150,155,155.0,155,Over 40,M,Raw,,B
 2,83,82.16,Lasse Arkela,1978,E-IT,140,147.5,150,150.0,150,Over 40,M,Raw,,B
 3,83,82.57,Antti Liimatainen,1976,PaPu,145,-150,-152.5,145.0,145,Over 40,M,Raw,,B
 4,83,81.87,Aki Viitanen,1979,TVN,115,120,-122.5,120.0,120,Over 40,M,Raw,,B
-1,93,62.21,Vesa Mattila,1980,TVN,170,175,-180,175.0,175,Over 40,M,Raw,,B
+1,93,92.21,Vesa Mattila,1980,TVN,170,175,-180,175.0,175,Over 40,M,Raw,,B
 2,93,92.28,Tero Panhelainen,1973,JoPuPo,167.5,175,-180,175.0,175,Over 40,M,Raw,,B
 3,93,90.59,Pekka Koistinen,1981,IdVo,160,162.5,165,165.0,165,Over 40,M,Raw,,B
 4,93,90.88,Jussi Harmaala,1980,LeVo,155,-165,-165,155.0,155,Over 40,M,Raw,,B
@@ -193,7 +193,7 @@ Place,WeightClassKg,BodyweightKg,Name,BirthYear,Team,Bench1Kg,Bench2Kg,Bench3Kg,
 6,93,90.04,Risto Rouru,1974,OpLi,110,120,127.5,127.5,127.5,Over 40,M,Raw,,B
 1,105,103.36,Jussi Kuusikko,1975,ViitVi,187.5,195,197.5,197.5,197.5,Over 40,M,Raw,,B
 2,105,103.52,Juha Simonen,1977,OPT,-190,190,-200,190.0,190,Over 40,M,Raw,,B
-3,105,100.14,Heikki Laakso,1973,EV,170,175,180,180.0,180,Over 40,M,Raw,,B
+3,105,100.14,Heikki Laakso #1,1973,EV,170,175,180,180.0,180,Over 40,M,Raw,,B
 4,105,103.73,Jani Syrjälä,1980,PV,172.5,180,-182.5,180.0,180,Over 40,M,Raw,,B
 5,105,103.70,Pekka Penttilä,1975,KoJy,177.5,-182.5,-182.5,177.5,177.5,Over 40,M,Raw,,B
 6,105,104.48,Jani Hyytiäinen,1974,HPV,162.5,172.5,-175,172.5,172.5,Over 40,M,Raw,,B
@@ -245,7 +245,7 @@ Place,WeightClassKg,BodyweightKg,Name,BirthYear,Team,Bench1Kg,Bench2Kg,Bench3Kg,
 3,105,103.07,Sami Salonsaari,1992,SiSi,175,182.5,-187.5,182.5,182.5,Open,M,Raw,,B
 4,105,102.98,Jonas Wallen,1983,KK Eken,170,-180,-180,170.0,170,Open,M,Raw,,B
 5,105,104.86,Jussi Kangasvieri,1987,NPower,162.5,170,-175,170.0,170,Open,M,Raw,,B
-–,105,104.44,Sakari Lammassaari,1991,HuiVo,-185,-185,-185,,,Open,M,Raw,,B
+DQ,105,104.44,Sakari Lammassaari,1991,HuiVo,-185,-185,-185,,,Open,M,Raw,,B
 1,120,118.40,Simo Sistonen,1983,Team365,230,-232.5,-235,230.0,230,Open,M,Raw,,B
 2,120,118.22,Jani Perkiö,1982,LaPo,200,205,207.5,207.5,207.5,Open,M,Raw,,B
 3,120,119.96,Ben Olenius,1981,S-V,190,197.5,205,205.0,205,Open,M,Raw,,B
