@@ -209,7 +209,7 @@ Place,Name,State,Country,Division,BodyweightKg,WeightClassKg,BirthYear,Squat1Kg,
 3,Carl Sheppard,WM,England,MR-M1,108.7,120,,,,,,150,160,165,165,,,,,165,B,,M,Raw
 DQ,Andrew Plant,YNE,England,MR-M1,117.6,120,,,,,,-170,-170,-170,,,,,,,B,,M,Raw
 1,Harbans Bansal,WM,England,MR-M1,109,120,,,,,,180,190,195,195,,,,,195,B,,M,Raw
-3,James Gordon,SE,England,MR-M2,110.6,120,,,,,,115,122.5,127.5,127.5,,,,,127.5,B,,M,Raw
+3,James Gordon #1,SE,England,MR-M2,110.6,120,,,,,,115,122.5,127.5,127.5,,,,,127.5,B,,M,Raw
 1,Stewart Cowan,EM,England,MR-M2,113.2,120,,,,,,160,167.5,-170,167.5,,,,,167.5,B,,M,Raw
 2,Darren Ball,SE,England,MR-M2,117,120,,,,,,162.5,-172.5,-172.5,162.5,,,,,162.5,B,,M,Raw
 1,David Brooks,SM,England,MR-M4,117.5,120,,,,,,122.5,127.5,-130,127.5,,,,,127.5,B,,M,Raw
@@ -232,6 +232,6 @@ DQ,Andrew Plant,YNE,England,MR-M1,117.6,120,,,,,,-170,-170,-170,,,,,,,B,,M,Raw
 8,Carl Sheppard,WM,England,MR-O,108.7,120,,,,,,150,160,165,165,,,,,165,B,,M,Raw
 9,Darren Ball,SE,England,MR-O,117,120,,,,,,162.5,-172.5,-172.5,162.5,,,,,162.5,B,,M,Raw
 10,Kieron Price,SE,England,MR-O,115.5,120,,,,,,142.5,-152.5,-152.5,142.5,,,,,142.5,B,,M,Raw
-11,James Gordon,SE,England,MR-O,110.6,120,,,,,,115,122.5,127.5,127.5,,,,,127.5,B,,M,Raw
+11,James Gordon #1,SE,England,MR-O,110.6,120,,,,,,115,122.5,127.5,127.5,,,,,127.5,B,,M,Raw
 12,David Brooks,SM,England,MR-O,117.5,120,,,,,,122.5,127.5,-130,127.5,,,,,127.5,B,,M,Raw
 DQ,Andrew Plant,YNE,England,MR-O,117.6,120,,,,,,-170,-170,-170,,,,,,,B,,M,Raw
