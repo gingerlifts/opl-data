@@ -731,6 +731,7 @@ impl MetaFederation {
             MetaFederation::FEMEPO => affiliation!(meet, entry, FEMEPO, IPF, NAPF),
             MetaFederation::FFForce => {
                 meet.federation == Federation::FFForce
+                && (entry.lifter_country == None || entry.lifter_country == Some(Country::France))
                     // The FFHMFAC is the precursor to the FFForce.
                     || meet.federation == Federation::FFHMFAC
                     // French lifters expect their international results included.
