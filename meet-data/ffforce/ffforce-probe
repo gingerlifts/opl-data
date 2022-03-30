@@ -52,7 +52,7 @@ def getmeetlist(html):
         # The FFForce has combined its calendar and results pages
         # so some meets don't have a results link yet
         full_links = list(map(lambda link: BASEURL + link.find('a')['href'],
-            filter(lambda link: link.find('a') is not None, links)))
+                          filter(lambda link: link.find('a') is not None, links)))
 
         output.extend(full_links)
 
