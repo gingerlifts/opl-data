@@ -1,7 +1,7 @@
 Name,Sex,Division,Equipment,Team,BirthYear,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Place,Event
-Justin Ehmke,M,Youth B,Single-ply,Powerlifting Duisburg,1996,45,59,45,52.5,57.5,57.5,57.5,1,B
+Justin Ehmke,M,Youth B,Single-ply,Powerlifting Duisburg,1996,45,53,45,52.5,57.5,57.5,57.5,1,B
 Edgar Bechthold,M,Youth B,Single-ply,KSV Lippe,1996,61.7,66,50,60,70,70,70,1,B
-Kevin Jäger,M,Youth B,Single-ply,Powerlifting Duisburg,1995,104.6,105,200,-205,205,205,205,1,B
+Kevin Jäger #1,M,Youth B,Single-ply,Powerlifting Duisburg,1995,104.6,105,200,-205,205,205,205,1,B
 Keno Szopinski,M,Youth B,Single-ply,Powerlifting Duisburg,1996,142.5,120+,105,112.5,120,120,120,1,B
 Tobias Haas,M,Youth A,Single-ply,KSV Bochum,1994,59.7,66,115,-120,120,120,120,1,B
 Marco Brucculeri,M,Youth A,Single-ply,KSV Bochum,1994,61.8,66,75,80,85,85,85,2,B
@@ -16,7 +16,7 @@ Harry Hermann,M,Juniors,Single-ply,KSV Lippe,1989,76.5,83,130,140,147.5,147.5,14
 Dominick Wrobel,M,Juniors,Single-ply,KSV Bochum,1988,89.9,93,125,130,132.5,132.5,132.5,1,B
 Lukas Ritzrow,M,Juniors,Single-ply,KSO Silberrücken,1992,98.7,105,-212.5,212.5,-220,212.5,212.5,1,B
 Malte Fleissner,M,Juniors,Single-ply,AC Siegen,1988,107.2,120,187.5,195,200,200,200,1,B
-Daniel Keil,M,Juniors,Single-ply,KSV Krefeld,1989,135.4,120+,220,230,,230,230,1,B
+Daniel Keil #1,M,Juniors,Single-ply,KSV Krefeld,1989,135.4,120+,220,230,,230,230,1,B
 Nicole Bockholt,F,Open,Single-ply,Powerlifting Duisburg,1977,102.3,84+,82.5,87.5,92.5,92.5,92.5,1,B
 Iris Kunkel,F,Open,Single-ply,AC Siegen,1964,63.3,72,80,105,-110,105,105,1,B
 Jan Smolczyk,M,Masters 1,Single-ply,Powerlifting Duisburg,1970,80.4,83,150,157.5,162.5,162.5,162.5,1,B
