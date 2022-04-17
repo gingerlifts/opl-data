@@ -274,6 +274,7 @@ dependencies = [
  "libc",
  "num-integer",
  "num-traits",
+ "serde",
  "time 0.1.43",
  "winapi 0.3.9",
 ]
@@ -2111,6 +2112,7 @@ version = "0.1.0"
 dependencies = [
  "accept-language",
  "checker",
+ "chrono",
  "coefficients",
  "csv",
  "dotenv",

@@ -32,11 +32,13 @@ use rocket::serde::json::Json;
 use rocket::State;
 use rocket::{Build, Rocket};
 use rocket_dyn_templates::Template;
+use serde::Deserialize;
 
 use std::collections::HashMap;
 use std::env;
 use std::error::Error;
-use std::fs::File;
+use std::fs::{File, OpenOptions};
+use std::io::Write;
 use std::path::{Path, PathBuf};
 
 use server::pages;
@@ -342,6 +344,35 @@ fn meet(
     })
 }
 
+#[derive(Deserialize)]
+struct LifterDetails {
+    instagram_handle: Option<String>,
+    date_of_birth: Option<chrono::NaiveDate>,
+}
+
+#[put("/u/<username>/details", data = "<data>")]
+fn lifter_details(username: &str, data: Json<LifterDetails>) -> Option<&'static str> {
+    let inner = data.into_inner();
+
+    // Just dump the data to a file, the handling process can be smarter
+    let mut file = OpenOptions::new()
+        .append(true)
+        .open("pending-lifter-details")
+        .ok()?;
+
+    let dob = inner
+        .date_of_birth
+        .as_ref()
+        .map(chrono::NaiveDate::to_string)
+        .unwrap_or_default();
+
+    let handle = inner.instagram_handle.unwrap_or_default();
+
+    writeln!(file, "{},{},{}", username, dob, handle).ok()?;
+
+    Some("")
+}
+
 #[get("/status?<lang>")]
 fn status(
     lang: Option<&str>,
@@ -594,6 +625,7 @@ fn rocket(opldb: ManagedOplDb) -> Rocket<Build> {
                 meetlist,
                 meetlist_default,
                 meet,
+                lifter_details,
                 statics,
                 root_favicon,
                 root_apple_touch_icon,
