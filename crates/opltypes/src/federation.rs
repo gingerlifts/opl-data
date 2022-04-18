@@ -2999,6 +2999,7 @@ impl Federation {
             Federation::LMP => Federation::ipl_rules_on(date),
             Federation::LPF => Federation::ipf_rules_on(date),
             Federation::MalaysiaUA => PointsSystem::Wilks,
+            Federation::ManxPL => Federation::ipf_rules_on(date),
             Federation::MAP => Federation::ipf_rules_on(date),
             Federation::MDFPA => PointsSystem::SchwartzMalone,
             Federation::MDFPF => PointsSystem::SchwartzMalone,
