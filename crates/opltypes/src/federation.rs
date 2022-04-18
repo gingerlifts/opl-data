@@ -1761,6 +1761,7 @@ impl Federation {
             Federation::LMP => false,
             Federation::LPF => FULLY_TESTED,
             Federation::MalaysiaUA => false,
+            Federation::ManxPL => FULLY_TESTED,
             Federation::MAP => FULLY_TESTED,
             Federation::MDFPA => FULLY_TESTED,
             Federation::MDFPF => FULLY_TESTED,
