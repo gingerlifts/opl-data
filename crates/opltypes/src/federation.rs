@@ -728,6 +728,10 @@ pub enum Federation {
     #[strum(to_string = "Malaysia-UA", serialize = "malaysia-ua")]
     MalaysiaUA,
 
+    /// Manx Powerlifting, IPF.
+    #[strum(to_string = "ManxPL", serialize = "manxpl")]
+    ManxPL,
+
     /// Malta Drug Free Powerlifting Association.
     #[strum(to_string = "MDFPA", serialize = "mdfpa")]
     MDFPA,
