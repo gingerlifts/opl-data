@@ -116,7 +116,7 @@ pub enum Country {
     India,
     Indonesia,
     Ireland,
-    Isle of Man,
+    IsleofMan,
     Israel,
     Italy,
     Iran,
