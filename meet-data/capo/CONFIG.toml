@@ -42,7 +42,7 @@
     ft1mp  = {name ="FT1-MP",min=13,max=15,sex="F", equipment="Multi-ply"}
     ft2r   = {name ="FT2-R",min=16,max=17,sex="F", equipment="Raw"}
     ft2rp  = {name ="FT2-RP",min=16,max=17,sex="F", equipment=["Raw","Wraps"]}
-    ft2sp  = {name ="FT2-SP",min=45,max=49,sex="F", equipment="Single-ply"}
+    ft2sp  = {name ="FT2-SP",min=16,max=17,sex="F", equipment="Single-ply"}
     ft3r   = {name ="FT3-R",min=18,max=19,sex="F", equipment="Raw"}
     ft3rp  = {name ="FT3-RP",min=18,max=19,sex="F", equipment=["Raw","Wraps"]}
     ft3mp  = {name ="FT3-MP",min=18,max=19,sex="F", equipment="Multi-ply"}
