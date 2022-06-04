@@ -596,6 +596,10 @@
     WI-2022-04 = ["ExemptWeightClassConsistency"] # No weight classes used.
     LA-2022-08 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Weight classes were combined and scored by formula
     WI-2022-10 = ["ExemptDivision"] # Lifter under 14 in the Open division.
+    WI-2022-10-B = ["ExemptDivision"] # Lifter under 14 in the Open division.
+    LA-2022-07 = ["ExemptWeightClassConsistency"] # No weight classes used.
+    LA-2022-06 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Some weight classes were combined and scored by formula
+    LA-2022-01 = ["ExemptDivision"] # Lifter under 14 in the Open division.
 
     # Miscellaneous exemptions.
     AK-2014-04 = ["ExemptWeightClassConsistency"] # Unknown bodyweights and classes.
@@ -607,3 +611,4 @@
     2019-03-03 = ["ExemptDivision"] # Amanda Lawrence was Raw in Single-ply.
     GA-2019-05 = ["ExemptDivision"] # Heavyweight/Lightweight.
     NS-2019-02 = ["ExemptDivision"] # Jennifer Thompson benched Raw in Single-ply.
+    WI-2018-24 = ["ExemptDivision"] # Brett Gildenzoph wore Wraps in Single-ply.
