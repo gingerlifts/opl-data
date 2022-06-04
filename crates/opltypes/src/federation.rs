@@ -502,6 +502,11 @@ pub enum Federation {
     #[strum(to_string = "GPC-POL", serialize = "gpc-pol")]
     GPCPOL,
 
+    /// Scotland branch of the GPC.
+    #[serde(rename = "GPC-Scotland")]
+    #[strum(to_string = "GPC-Scotland", serialize = "gpc-scotland")]
+    GPCScotland,
+
     /// Ukrainian branch of the GPC.
     #[serde(rename = "GPC-UKR")]
     #[strum(to_string = "GPC-UKR", serialize = "gpc-ukr")]
@@ -1707,6 +1712,7 @@ impl Federation {
             Federation::GPCLAT => false,
             Federation::GPCNZ => false,
             Federation::GPCPOL => false,
+            Federation::GPCScotland => false,
             Federation::GPCUKR => false,
             Federation::GPCUSA => false,
             Federation::GPCRUS => false,
@@ -2075,6 +2081,7 @@ impl Federation {
             Federation::GPCLAT => Some(Country::Latvia),
             Federation::GPCNZ => Some(Country::NewZealand),
             Federation::GPCPOL => Some(Country::Poland),
+            Federation::GPCScotland => Some(Country::Scotland),
             Federation::GPCUKR => Some(Country::Ukraine),
             Federation::GPCUSA => Some(Country::USA),
             Federation::GPCRUS => Some(Country::Russia),
@@ -2475,6 +2482,7 @@ impl Federation {
             Federation::GPCLAT => Some(Federation::GPC),
             Federation::GPCNZ => Some(Federation::GPC),
             Federation::GPCPOL => Some(Federation::GPC),
+            Federation::GPCScotland => Some(Federation::GPC),
             Federation::GPCUKR => Some(Federation::GPC),
             Federation::GPCUSA => Some(Federation::GPC),
             Federation::GPCRUS => Some(Federation::GPC),
@@ -2935,6 +2943,7 @@ impl Federation {
             Federation::GPCLAT => PointsSystem::Glossbrenner,
             Federation::GPCNZ => PointsSystem::Glossbrenner,
             Federation::GPCPOL => PointsSystem::Glossbrenner,
+            Federation::GPCScotland => PointsSystem::Reshel,
             Federation::GPCUKR => PointsSystem::Glossbrenner,
             Federation::GPCUSA => PointsSystem::Glossbrenner,
             Federation::GPCRUS => PointsSystem::Glossbrenner,
@@ -3231,7 +3240,6 @@ impl Federation {
         }
     }
 }
-
 #[cfg(test)]
 mod tests {
     use super::*;
