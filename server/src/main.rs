@@ -346,6 +346,7 @@ fn meet(
 
 #[derive(Deserialize)]
 struct LifterDetails {
+    email: String,
     instagram_handle: Option<String>,
     date_of_birth: Option<chrono::NaiveDate>,
 }
@@ -367,8 +368,9 @@ fn lifter_details(username: &str, data: Json<LifterDetails>) -> Option<&'static 
         .unwrap_or_default();
 
     let handle = inner.instagram_handle.unwrap_or_default();
+    let email = inner.email;
 
-    writeln!(file, "{},{},{}", username, dob, handle).ok()?;
+    writeln!(file, "{},{},{},{}", email, username, dob, handle).ok()?;
 
     Some("")
 }
