@@ -109,7 +109,7 @@
     divisions = ["Master I"]
 
 [weightclasses.2022_masterII_III_IV_F]
-    classes = [Open"]
+    classes = ["Open"]
     date_range=["2022-01-01","9999-01-01"]
     sex = "F"
     divisions = ["Master II", "Master III", "Master IV"]
