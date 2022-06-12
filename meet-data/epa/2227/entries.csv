@@ -10,10 +10,10 @@ Place,Name,Sex,Equipment,Division,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,B
 3,Sarah Finneran,F,Raw,FR-M1,84.2,84+,55,-60,60,60,60,,B
 1,Rita Shergold,F,Raw,FR-M2,59.8,63,57.5,62.5,65,65,65,,B
 1,Lincoln Rose,F,Raw,FR-M2,68.2,69,82.5,85,87.5,87.5,87.5,,B
-2,Kelly Clark,F,Raw,FR-M2,67,69,45,47.5,-50,47.5,47.5,,B
+2,Kelly Clark #1,F,Raw,FR-M2,67,69,45,47.5,-50,47.5,47.5,,B
 1,Wendie Kirkland,F,Raw,FR-M2,71.6,76,67.5,72.5,77.5,77.5,77.5,,B
 1,Joanne Laird,F,Raw,FR-M2,125.4,84+,90,95,97.5,97.5,97.5,,B
-2,Elaine Jackson,F,Raw,FR-M2,116.4,84+,70,75,80,80,80,,B
+2,Elaine Jackson #2,F,Raw,FR-M2,116.4,84+,70,75,80,80,80,,B
 1,Janet Derby,F,Raw,FR-M3,67.3,69,40,45,-50,45,45,,B
 1,Gloria Fitzpatrick,F,Raw,FR-M3,75.4,76,55,60,65,65,65,,B
 1,Barbara Leach,F,Raw,FR-M4,92.7,84+,-50,50,62.5,62.5,62.5,,B
@@ -31,9 +31,9 @@ Place,Name,Sex,Equipment,Division,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,B
 1,Karenjeet Kaur Bains,F,Raw,FR-O,66.9,69,90,95,-100,95,95,,B
 2,Lincoln Rose,F,Raw,FR-O,68.2,69,82.5,85,87.5,87.5,87.5,,B
 3,Molly Johnson,F,Raw,FR-O,67.5,69,67.5,72.5,77.5,77.5,77.5,,B
-4,Kelly Clark,F,Raw,FR-O,67,69,45,47.5,-50,47.5,47.5,,B
+4,Kelly Clark #1,F,Raw,FR-O,67,69,45,47.5,-50,47.5,47.5,,B
 5,Janet Derby,F,Raw,FR-O,67.3,69,40,45,-50,45,45,,B
-1,Lucy Robinson,F,Raw,FR-O,75.7,76,82.5,87.5,90,90,90,,B
+1,Lucy Robinson #2,F,Raw,FR-O,75.7,76,82.5,87.5,90,90,90,,B
 2,Marianna Pinter,F,Raw,FR-O,75.2,76,77.5,82.5,85,85,85,,B
 3,Bettina Hanlon,F,Raw,FR-O,70.5,76,80,82.5,-87.5,82.5,82.5,,B
 4,Wendie Kirkland,F,Raw,FR-O,71.6,76,67.5,72.5,77.5,77.5,77.5,,B
@@ -46,7 +46,7 @@ Place,Name,Sex,Equipment,Division,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,B
 3,Joanne Laird,F,Raw,FR-O,125.4,84+,90,95,97.5,97.5,97.5,,B
 4,Jamiella Bruzulier,F,Raw,FR-O,125.5,84+,85,92.5,97.5,97.5,97.5,,B
 5,Sheren Rose,F,Raw,FR-O,118,84+,75,80,82.5,82.5,82.5,,B
-6,Elaine Jackson,F,Raw,FR-O,116.4,84+,70,75,80,80,80,,B
+6,Elaine Jackson #2,F,Raw,FR-O,116.4,84+,70,75,80,80,80,,B
 7,Amanda Bradbury,F,Raw,FR-O,117,84+,67.5,72.5,77.5,77.5,77.5,,B
 8,Barbara Leach,F,Raw,FR-O,92.7,84+,-50,50,62.5,62.5,62.5,,B
 9,Sarah Finneran,F,Raw,FR-O,84.2,84+,55,-60,60,60,60,,B
@@ -64,10 +64,10 @@ Place,Name,Sex,Equipment,Division,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,B
 1,Gregory Pearson,M,Raw,MR-Sj,65.1,66,102.5,108.5,112.5,112.5,112.5,,B
 2,Emran Mahmutovic,M,Raw,MR-Sj,63.8,66,85,-90,-90,85,85,,B
 1,Faye Jordan,F,Single-ply,F-M1,67.6,69,112.5,-120,-120,112.5,112.5,,B
-1,Kelly Clark,F,Single-ply,F-M2,67,69,40,70,-75,70,70,,B
+1,Kelly Clark #1,F,Single-ply,F-M2,67,69,40,70,-75,70,70,,B
 1,Wendie Kirkland,F,Single-ply,F-M2,71.6,76,100,105,110,110,110,,B
 1,Faye Jordan,F,Single-ply,F-O,67.6,69,112.5,-120,-120,112.5,112.5,,B
-2,Kelly Clark,F,Single-ply,F-O,67,69,40,70,-75,70,70,,B
+2,Kelly Clark #1,F,Single-ply,F-O,67,69,40,70,-75,70,70,,B
 1,Wendie Kirkland,F,Single-ply,F-O,71.6,76,100,105,110,110,110,,B
 1,Kate Sweatman,F,Single-ply,F-O,126.8,84+,180,190,200,200,200,,B
 1,Samuel Syson,M,Raw,MR-Jr,78.4,83,125,130,135,135,135,,B
@@ -147,13 +147,13 @@ DQ,Darren Sach,M,Raw,MR-O,137.2,120+,-165,-165,-165,,,,B
 1,Adam Rutter,M,Raw,MR-Sj,132.8,120+,-160,-160,160,160,160,,B
 1,Angus Gardner,M,Single-ply,M-Jr,90.3,93,130,135,150,150,150,,B
 1,Joe Spring,M,Single-ply,M-Jr,165.4,120+,145,150,-165,150,150,,B
-1,Martin Green,M,Single-ply,M-M1,104.4,105,240,-245,-245,240,240,,B
+1,Martin Green #1,M,Single-ply,M-M1,104.4,105,240,-245,-245,240,240,,B
 1,Allan Hulme,M,Single-ply,M-M3,109.8,120,160,195,200,200,200,,B
 1,Bob Baxter,M,Single-ply,M-M4,101.3,105,-135,135,-145,135,135,,B
 1,Emmanuel Franklin,M,Single-ply,M-O,72.9,74,135,185,-200,185,185,,B
 1,Hugo Duarte,M,Single-ply,M-O,93,93,207.5,-215,215,215,215,,B
 2,Angus Gardner,M,Single-ply,M-O,90.3,93,130,135,150,150,150,,B
-1,Martin Green,M,Single-ply,M-O,104.4,105,240,-245,-245,240,240,,B
+1,Martin Green #1,M,Single-ply,M-O,104.4,105,240,-245,-245,240,240,,B
 2,Joseph Shaw,M,Single-ply,M-O,104.6,105,195,-215,-215,195,195,,B
 3,Bob Baxter,M,Single-ply,M-O,101.3,105,-135,135,-145,135,135,,B
 1,Keelum Walton,M,Single-ply,M-O,119.7,120,-280,280,-300,280,280,,B
