@@ -61,5 +61,5 @@ Place,Name,Sex,Equipment,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,S
 2,Tom Ashmole,M,Raw,MR-O,99.3,105,180,200,210,210,150,-163,-163,150,200,210,-220,210,570,SBD,,Scotland
 3,Mark Torrie,M,Raw,MR-O,100.6,105,167.5,177.5,185,185,105,112.5,117.5,117.5,185,195,210,210,512.5,SBD,,Scotland
 1,Kevin White,M,Raw,MR-O,109.5,120,172.5,182.5,192.5,192.5,90,95,102.5,102.5,187.5,200,210,210,505,SBD,,Scotland
-1,Brian Baker,M,Single-ply,MR-M4,90.2,93,125,130.5,132.5,132.5,-60,62.5,-65.5,62.5,155,-300,-300,155,350,SBD,,Scotland
-1,Brian Baker,M,Single-ply,MR-O,90.2,93,125,130.5,132.5,132.5,-60,62.5,-65.5,62.5,155,-300,-300,155,350,SBD,,Scotland
+1,Brian Baker,M,Single-ply,ME-M4,90.2,93,125,130.5,132.5,132.5,-60,62.5,-65.5,62.5,155,-300,-300,155,350,SBD,,Scotland
+1,Brian Baker,M,Single-ply,ME-O,90.2,93,125,130.5,132.5,132.5,-60,62.5,-65.5,62.5,155,-300,-300,155,350,SBD,,Scotland
