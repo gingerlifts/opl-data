@@ -330,6 +330,7 @@ fn set_hardcoded_strings(statuses: &mut [FederationStatus]) {
     statuses[GPCAUS as usize].maintainers = email_matt;
     statuses[GPCGB as usize].maintainers = email_robby;
     statuses[GPCNZ as usize].maintainers = email_matt;
+    statuses[GPCScotland as usize].maintainers = email_gem;
     statuses[GPCWUAPCRO as usize].maintainers = email_alan;
     statuses[HPLS as usize].maintainers = email_alan;
     statuses[HPLSUA as usize].maintainers = email_alan;
@@ -394,6 +395,7 @@ fn set_hardcoded_strings(statuses: &mut [FederationStatus]) {
     statuses[GPCGB as usize].instagram = "gpc_gb";
     statuses[GPCIRL as usize].instagram = "gpcireland";
     statuses[GPCNZ as usize].instagram = "gpcnewzealand";
+    statuses[GPCScotland as usize].instagram = "gpc.scotland";
     statuses[IPF as usize].instagram = "theipf";
     statuses[IPL as usize].instagram = "iplpowerlifting";
     statuses[IrishPF as usize].instagram = "irishpowerliftingfederation";
@@ -403,7 +405,6 @@ fn set_hardcoded_strings(statuses: &mut [FederationStatus]) {
     statuses[NPB as usize].instagram = "powerliften";
     statuses[NIPF as usize].instagram = "nipowerlifting";
     statuses[NZPF as usize].instagram = "newzealandpowerlifting";
-    statuses[PowerLeague as usize].instagram = "power.league";
     statuses[ProRaw as usize].instagram = "prorawpowerlifting";
     statuses[RawIronPL as usize].instagram = "rawironpowerliftingleague";
     statuses[RAWUKR as usize].instagram = "raw100power";

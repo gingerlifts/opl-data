@@ -90,11 +90,13 @@
     mnemapf = {name ="M_NEM_APF",min=0,max=999,equipment=["Multi-ply","Unlimited"],sex="M"} #Novice
     mcemapf = {name ="M_CEM_APF",min=0,max=999,equipment=["Multi-ply","Unlimited"],sex="M"} #Collegiate
     mgrapf = {name ="M_GR_APF",min=0,max=999,equipment="Raw",sex="M",place="G"} #Guest
+    mgcrapf = {name ="M_GCR_APF",min=0,max=999,equipment=["Raw","Wraps"],sex="M",place="G"} #Guest
     mgemapf = {name ="M_GEM_APF",min=0,max=999,equipment=["Multi-ply","Unlimited"],sex="M",place="G"} #Guest
     mgmem2apf = {name ="M_GMEM_2_APF",min=45,max=49,equipment=["Multi-ply","Unlimited"],sex="M",place="G"} #Guest
     mramapf = {name="M_RAM_APF", min=0, max=999, equipment=["Multi-ply","Unlimited"], sex="M"} # Soft Equipment.
     mmilemapf = {name="M_MILEM_APF", min=0, max=999, equipment=["Multi-ply","Unlimited"], sex="M"} # Military
     mhsemapf = {name="M_HSEM_APF", min=13, max=19, equipment=["Multi-ply","Unlimited"], sex="M"} # High School
+    mpfcrapf = {name ="M_PFCR_APF",min=0,max=999,equipment=["Raw","Wraps"],sex="M"} #Police/Fire
 
     forapf = {name ="F_OR_APF",min=0,max=999,equipment="Raw",sex="F"}
     focrapf = {name ="F_OCR_APF",min=0,max=999,equipment=["Raw","Wraps"],sex="F"}
