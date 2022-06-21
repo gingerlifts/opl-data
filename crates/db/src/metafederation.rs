@@ -39,6 +39,8 @@ pub enum MetaFederation {
     AllBelarus,
     #[strum(to_string = "all-belgium")]
     AllBelgium,
+    #[strum(to_string = "all-belize")]
+    AllBelize,
     #[strum(to_string = "all-bolivia")]
     AllBolivia,
     #[strum(to_string = "all-bosnia-and-herzegovina")]
@@ -55,6 +57,8 @@ pub enum MetaFederation {
     AllColombia,
     #[strum(to_string = "all-croatia")]
     AllCroatia,
+    #[strum(to_string = "all-cyprus")]
+    AllCyprus,
     #[strum(to_string = "all-czechia")]
     AllCzechia,
     #[strum(to_string = "all-denmark")]
@@ -251,6 +255,10 @@ pub enum MetaFederation {
     /// CSST, but with international results also.
     #[strum(to_string = "csst")]
     CSST,
+
+    /// CyprusPF, but with international results also.
+    #[strum(to_string = "cypruspf")]
+    CyprusPF,
 
     /// DSF, but with international results also.
     #[strum(to_string = "dsf")]
@@ -560,6 +568,7 @@ impl MetaFederation {
             MetaFederation::AllAzerbaijan => is_from(Country::Azerbaijan, entry, meet),
             MetaFederation::AllBelarus => is_from(Country::Belarus, entry, meet),
             MetaFederation::AllBelgium => is_from(Country::Belgium, entry, meet),
+            MetaFederation::AllBelize => is_from(Country::Belize, entry, meet),
             MetaFederation::AllBolivia => is_from(Country::Bolivia, entry, meet),
             MetaFederation::AllBosniaAndHerzegovina => {
                 is_from(Country::BosniaAndHerzegovina, entry, meet)
@@ -575,6 +584,7 @@ impl MetaFederation {
             MetaFederation::AllChina => is_from(Country::China, entry, meet),
             MetaFederation::AllColombia => is_from(Country::Colombia, entry, meet),
             MetaFederation::AllCroatia => is_from(Country::Croatia, entry, meet),
+            MetaFederation::AllCyprus => is_from(Country::Cyprus, entry, meet),
             MetaFederation::AllCzechia => is_from(Country::Czechia, entry, meet),
             MetaFederation::AllDenmark => is_from(Country::Denmark, entry, meet),
             MetaFederation::AllEstonia => is_from(Country::Estonia, entry, meet),
@@ -733,6 +743,7 @@ impl MetaFederation {
             MetaFederation::CBLB => affiliation!(meet, entry, CBLB, IPF, FESUPO),
             MetaFederation::CPU => affiliation!(meet, entry, CPU, IPF, NAPF, CommonwealthPF),
             MetaFederation::CSST => affiliation!(meet, entry, CSST, IPF, EPF),
+            MetaFederation::CyprusPF => affiliation!(meet, entry, CyprusPF, IPF, EPF),
             MetaFederation::DSF => affiliation!(meet, entry, DSF, IPF, EPF, NordicPF),
             MetaFederation::EJTL => affiliation!(meet, entry, EJTL, IPF, EPF, NordicPF),
             MetaFederation::EPA => affiliation!(meet, entry, EPA, IPF, EPF, BP),
