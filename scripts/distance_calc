@@ -1,0 +1,89 @@
+#!/usr/bin/env python3
+import pdb
+import os.path
+import oplcsv
+import simplejson
+import json
+import copy
+
+def get_names_meet(meet_code):
+    """Takes in the path to a csv containing meet results and returns a list of all lifters at that meet"""
+    csv_obj = oplcsv.Csv(meet_code)
+    col = csv_obj.fieldnames.index("Name")
+    names =[csv_obj.rows[i][col] for i in range(len(csv_obj.rows))]
+    names = list(set(names))
+    dict_names = {}
+    for name in names:
+        dict_names[name] = meet_code
+    return(dict_names)
+
+def update_edges_meet(meet_code):
+    """Takes the participants in a single meet and adds them to the list of edges (stored as csvs)"""
+    meet_names = get_names_meet(meet_code)
+    for lifter in meet_names: #loop over lifters at the meet
+        try:
+            filename = "distance_calculator/Edges/"+lifter+".json"
+            if os.path.exists(filename): #If we already have a list of people this lifter has competed with add these
+                with open(filename, 'r') as j:
+                    edges = json.loads(j.read())
+                for competitor in meet_names:
+                    if competitor not in edges.keys():
+                        edges[competitor] = meet_code
+            else:
+                edges = meet_names # If this is the first time we've seen this lifter compete we should just use the meet dictionary
+        except:
+            print(lifter)
+        try:
+            f = open(filename, 'w')
+            simplejson.dump(edges, f)
+            f.close()
+        except:
+            print(edges)
+    return 0
+
+def get_all_edges():
+    """Generates a list of people who've competed at the same meet as each lifter for each lifter"""
+    feds = os.listdir("meet-data")
+    for federation in feds:
+        print(federation)
+        if federation != "meet.template":
+            meets = os.listdir("meet-data/" + federation)
+            for meet in meets:
+                if meet.isnumeric():
+                    try:
+                        edges = update_edges_meet("meet-data/" + federation + "/" + meet + "/entries.csv")
+                    except:
+                        print(federation + "    " + meet)
+    return(feds)
+
+def get_distances(source_lifter):
+    dists = dict()
+    dists[source_lifter] = {0: "The lifter"}
+    cont = True
+    max_dist = 0
+    while cont:
+        cont = False
+        cur_keys = [x for x in dists.keys()]
+        for lifter in cur_keys:
+            if list(dists[lifter].keys())[0] == max_dist:
+                filename = "distance_calculator/Edges/" + lifter + ".json"
+                with open(filename, 'r') as j:
+                    neighbours = json.loads(j.read())
+
+                for neighbour in neighbours.keys():
+                    if neighbour not in dists.keys():
+                        dists[neighbour] = {max_dist+1:{lifter,neighbours[neighbour]}}
+                        cont = True
+        max_dist = max_dist + 1
+        print(max_dist)
+    return dists
+
+
+
+def main():
+    distance_dict = get_distances("Ed Coan")
+    return 0
+
+
+if __name__ == '__main__':
+    foo = main()
