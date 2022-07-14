@@ -1,32 +1,26 @@
 //! Checks that bodyweight changes over time are plausible.
 
-use opltypes::Date;
-
 use crate::checklib::consistency::{self, date, ConsistencyResult};
 use crate::{AllMeetData, Entry, EntryIndex, LifterDataMap, LifterMap, Report};
 
-/// Get the average change in bodyweight from `a` to `b` as a percentage per
-/// day.
-fn calc_average_percentage_change(a: &Entry, b: &Entry, a_date: Date, b_date: Date) -> f32 {
+// These are extremely loose right now, reasonable values result in having to fix a ludicrous number of errors
+const WEIGHT_CUT_CHANGE_THRESHOLD: f32 = 1.5;
+const TISSUE_CHANGE_THRESHOLD: f32 = 0.5;
+
+/// Get the relative change in bodyweight from `a` to `b`
+fn calc_relative_bw_change(entry_from: &Entry, entry_to: &Entry) -> f32 {
     // Handle division-by-zero cases early.
-    if a.bodyweightkg.is_zero() || b.bodyweightkg.is_zero() || a_date == b_date {
+    if entry_from.bodyweightkg.is_zero() || entry_to.bodyweightkg.is_zero() {
         return 0.0;
     }
 
     // Get the absolute change in bodyweight over the interval.
-    let a_bw = f32::from(a.bodyweightkg);
-    let b_bw = f32::from(b.bodyweightkg);
-    let bw_delta = f32::abs(a_bw - b_bw);
+    let from_bw = f32::from(entry_from.bodyweightkg);
+    let to_bw = f32::from(entry_to.bodyweightkg);
+    let bw_delta = f32::abs(from_bw - to_bw);
 
-    // Express that delta as a percentage change with respect to Entry `a`.
-    let as_percentage = (bw_delta / a_bw) * 100.0;
-
-    // Get the average change in percentage over the given time interval.
-    // Note that if `b_date` is earlier that `a_date`, `interval_days` can be
-    // negative.
-    let interval_days = (b_date - a_date) as f32;
-
-    as_percentage / interval_days
+    // Express that delta as a relative change with respect to Entry `a`.
+    bw_delta / from_bw
 }
 
 /// Checks bodyweight consistency for a single lifter.
@@ -62,13 +56,22 @@ pub fn check_bodyweight_one(
         let prev_date = date(prev);
         let this_date = date(entry);
 
-        let average_per_day = calc_average_percentage_change(prev, entry, prev_date, this_date);
+        let interval_days = ((this_date - prev_date) as f32).abs();
 
-        // Chosen to only produce a few warnings.
-        // The intention is that this be tightened-up over time.
-        const BODYWEIGHT_PERCENTAGE_CHANGE_PER_DAY_THRESHOLD: f32 = 55.0;
+        // Get the relative change in bodyweight between `prev` and `entry`,
+        // we can check if this change makes sense given that a lifter could potentially do back to back 24hour weigh ins
+        // and with a rate of long term bodyweight change
+        let relative_change = calc_relative_bw_change(prev, entry);
 
-        if average_per_day.abs() > BODYWEIGHT_PERCENTAGE_CHANGE_PER_DAY_THRESHOLD {
+        // Number of days that it would take to go from the minimum allowed bodyweight (15kg) to the maximum (300kg)
+        let max_interval: f32 =
+            (f32::log2(300.0) - f32::log2(15.0) - f32::log2(1.0 + WEIGHT_CUT_CHANGE_THRESHOLD))
+                / (f32::log2(1.0 + TISSUE_CHANGE_THRESHOLD));
+
+        if relative_change.abs()
+            > (WEIGHT_CUT_CHANGE_THRESHOLD
+                + f32::min(max_interval, interval_days) * TISSUE_CHANGE_THRESHOLD)
+        {
             let days = this_date - prev_date;
             let plural = if days > 1 { "s" } else { "" };
             let msg = format!(
