@@ -67,7 +67,8 @@ fn consistent_country(
     indices: &[EntryIndex],
     debug: bool,
 ) -> Option<Country> {
-    let mut acc: Option<Country> = None;
+    let mut cur_country: Option<Country> = None;
+    let mut prev_country: Option<Country> = None;
 
     for &index in indices {
         // Get the MeetPath for more helpful debugging output.
@@ -77,28 +78,41 @@ fn consistent_country(
             None
         };
 
+        //TODO - figure this out later
         let entry = meetdata.entry(index);
-
-        match (entry.country, acc) {
-            (Some(country), None) => {
-                trace_found_initial(debug, country, &path);
-                acc = Some(country);
-            }
-            (Some(country), Some(acc_country)) => {
-                if country == acc_country || country.contains(acc_country) {
-                    trace_matched(debug, country, &path);
-                } else if acc_country.contains(country) {
-                    trace_matched(debug, country, &path);
-                    acc = Some(country);
-                } else {
-                    trace_conflict(debug, country, &path);
-                    return None;
-                }
-            }
-            (None, _) => (),
-        }
+        cur_country = get_current_country(meetdata, entry, prev_country, debug);
     }
     acc
+}
+
+/// Get the country that should be considered current given
+/// the lifter's previous country, and an entry 
+fn get_current_country(
+    meetdata: &AllMeetData,
+    entry: &Entry,
+    prev_country: Option<Country>,
+    debug: bool
+) -> Option<Country> {
+
+    match (entry.country, prev_country) {
+        (Some(country), None) => {
+            trace_found_initial(debug, country, &path);
+            return Some(country);
+        }
+        (Some(country), Some(prev_country)) => {
+            if country == prev_country || country.contains(prev_country) {
+                trace_matched(debug, prev_country, &path);
+                return Some(prev_country)
+            } else if prev_country.contains(country) {
+                trace_matched(debug, country, &path);
+                return Some(country);
+            } else {
+                trace_conflict(debug, country, &path);
+                return Some(country);
+            }
+        }
+        (None, _) => (),
+    }
 }
 
 /// Country interpolation for a single lifter's entries.
@@ -107,6 +121,7 @@ fn interpolate_country_single_lifter(
     indices: &[EntryIndex],
     debug: bool,
 ) {
+    // if the lifter only has one country, populate it for all their entries
     if let Some(country) = consistent_country(meetdata, indices, debug) {
         for &index in indices {
             // Get the MeetPath for more helpful debugging output.
@@ -118,6 +133,13 @@ fn interpolate_country_single_lifter(
 
             trace_inferred(debug, country, &path);
             meetdata.entry_mut(index).country = Some(country);
+        }
+    } else {
+        // if the lifter has multiple countries, populate each one
+        // in subsequent entries that have no country
+        let mut cur_country: Option<Country> = None;
+        for &index in indices {
+            //TODO
         }
     }
 }
