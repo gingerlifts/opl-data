@@ -1,59 +1,44 @@
-# Skip CI if the commit message contains "WIP:", "[nobuild]", or "[noci]".
-# Disable CI on main for the moment, but allow in MRs: we're running out of minutes.
+# You can override the included template(s) by including variable overrides
+# SAST customization: https://docs.gitlab.com/ee/user/application_security/sast/#customizing-the-sast-settings
+# Secret Detection customization: https://docs.gitlab.com/ee/user/application_security/secret_detection/#customizing-settings
+# Dependency Scanning customization: https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#customizing-the-dependency-scanning-settings
+# Container Scanning customization: https://docs.gitlab.com/ee/user/application_security/container_scanning/#customizing-the-container-scanning-settings
+# Note that environment variables can be set in several places
+# See https://docs.gitlab.com/ee/ci/variables/#cicd-variable-precedence
 workflow:
   rules:
-    - if: $CI_COMMIT_BRANCH == "main"
-      when: never
-    - if: $CI_COMMIT_MESSAGE =~ /(WIP:|\[nobuild\]|\[noci\])/
-      when: never
-    - if: $CI_MERGE_REQUEST_TITLE =~ /(WIP:|\[nobuild\]|\[noci\])/
-      when: never
-    - when: always
-
+  - if: $CI_COMMIT_BRANCH == "main"
+    when: never
+  - if: "$CI_COMMIT_MESSAGE =~ /(WIP:|\\[nobuild\\]|\\[noci\\])/"
+    when: never
+  - if: "$CI_MERGE_REQUEST_TITLE =~ /(WIP:|\\[nobuild\\]|\\[noci\\])/"
+    when: never
+  - when: always
 image: rust:slim-buster
-
-# Test the integrity of the data.
 meet-data:
   before_script:
-    - apt-get update -qq && apt-get install -y python3-pip
-    - pip3 install flake8
+  - apt-get update -qq && apt-get install -y python3-pip
+  - pip3 install flake8
   script:
-    - make check
-
-# Build the data file and run server tests with the current data.
-# Disabled in CI as of 2022-11-01: trying to cut down on minutes.
-#server:
-#  cache:
-#    paths:
-#      - target
-#      - server/client/node_modules
-#  before_script:
-#    - apt-get update -qq && apt-get install -y curl
-#    - curl -sL https://deb.nodesource.com/setup_14.x | bash -
-#    - apt-get install -y nodejs python3-pip
-#    - pip3 install toml
-#  script:
-#    - make csv
-#    - make -C server checkprerequisites
-#    - cargo test --workspace --locked
-
-# On success, publish the latest version of the Book to GitLab Pages.
+  - make check
 pages:
   stage: deploy
   image: rust:latest
   variables:
-    CARGO_HOME: $CI_PROJECT_DIR/cargo
+    CARGO_HOME: "$CI_PROJECT_DIR/cargo"
   cache:
     key: mdbook-cache-key
     paths:
-      - $CARGO_HOME/bin
+    - "$CARGO_HOME/bin"
   before_script:
-    - export PATH="$PATH:$CARGO_HOME/bin"
-    - mdbook --version || cargo install mdbook
+  - export PATH="$PATH:$CARGO_HOME/bin"
+  - mdbook --version || cargo install mdbook
   script:
-    - mdbook build --dest-dir ../public book  # Build book/ into public/.
+  - mdbook build --dest-dir ../public book
   artifacts:
     paths:
-      - public
+    - public
   only:
-    - main
+  - main
+include:
+- template: Security/Dependency-Scanning.gitlab-ci.yml
