@@ -26,12 +26,14 @@ import { csvToKg } from "./functions/tokg";
 import { csvCalcPlace } from "./functions/calc-place";
 import { csvStandardiseCountries } from "./functions/standardise-countries";
 import { csvRound } from "./functions/round-kg";
+import { csvCalcBestLifts } from "./functions/calc-best-lifts";
 
 let checkButton: HTMLButtonElement;
 let toKgButton: HTMLButtonElement;
 let calcPlaceButton: HTMLButtonElement;
 let standardiseCountriesButton: HTMLButtonElement;
 let roundKgButton: HTMLButtonElement;
+let calcBestLiftsButton: HTMLButtonElement;
 
 let meetTextArea: HTMLTextAreaElement;
 let entriesTextArea: HTMLTextAreaElement;
@@ -118,6 +120,7 @@ function initializeEventListeners() {
     calcPlaceButton = document.getElementById("calcPlaceButton") as HTMLButtonElement;
     standardiseCountriesButton = document.getElementById("standardiseCountriesButton") as HTMLButtonElement;
     roundKgButton = document.getElementById("roundKgButton") as HTMLButtonElement;
+    calcBestLiftsButton = document.getElementById("calcBestLiftsButton") as HTMLButtonElement;
 
     meetTextArea = document.getElementById("meetTextArea") as HTMLTextAreaElement;
     entriesTextArea = document.getElementById("entriesTextArea") as HTMLTextAreaElement;
@@ -215,6 +218,32 @@ function initializeEventListeners() {
         // Render back.
         entriesTextArea.value = csv.toString();
     }, false);
+
+    calcBestLiftsButton.addEventListener(
+      "click",
+      function () {
+        // Parse the entries text field as CSV.
+        let csv = new Csv();
+        let csvOrError = csv.fromString(entriesTextArea.value);
+        if (typeof csvOrError === "string") {
+          entriesErrorPre.innerText = csvOrError;
+          return;
+        }
+        csv = csvOrError;
+
+        // Perform conversion.
+        csvOrError = csvCalcBestLifts(csv);
+        if (typeof csvOrError === "string") {
+          entriesErrorPre.innerText = csvOrError;
+          return;
+        }
+        csv = csvOrError;
+
+        // Render back.
+        entriesTextArea.value = csv.toString();
+      },
+      false
+    );
 
     // Allow pasting from spreadsheet software by converting tabs to commas.
     meetTextArea.addEventListener("paste", e => {
