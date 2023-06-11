@@ -1,5 +1,6 @@
 [workspace]
 members = [
+	"automator",
     "checker",
     "crates/coefficients",
     "crates/db",
