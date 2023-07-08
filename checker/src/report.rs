@@ -9,14 +9,58 @@
 //!    helps scan through them all.
 //! 3. The context itself is generally not helpful, because the data is CSV.
 
+use std::fmt;
 use std::path::PathBuf;
 
+use serde::Serialize;
+use smartstring::SmartString;
+
 use crate::report_count::ReportCount;
+use crate::Entry;
+
+#[derive(Clone, Debug, Serialize)]
+pub enum FixableError {
+    NameConflict {
+        username: String,
+        expected: String,
+        found: String,
+    },
+}
+
+impl fmt::Display for FixableError {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        match self {
+            Self::NameConflict {
+                username,
+                expected,
+                found,
+            } => {
+                write!(f, "Conflict for '{username}': '{expected}' vs '{found}'")
+            }
+        }
+    }
+}
+
+impl FixableError {
+    pub fn fix(&self, entry: &Entry) -> Entry {
+        let mut entry = entry.clone();
+
+        match self {
+            Self::NameConflict { expected, .. } => entry.name = SmartString::from(expected),
+        }
+
+        entry
+    }
+}
 
 /// A data error or warning message that should be reported.
 #[derive(Debug, Serialize)]
 pub enum Message {
     Error(String),
+    FixableError {
+        line_number: usize,
+        inner: FixableError,
+    },
     Warning(String),
 }
 
@@ -41,6 +85,12 @@ impl Report {
     /// Reports an error, which causes checks to fail.
     pub fn error(&mut self, message: impl ToString) {
         self.messages.push(Message::Error(message.to_string()));
+    }
+
+    pub fn fixable_error(&mut self, line_number: usize, inner: FixableError) {
+        let message = Message::FixableError { line_number, inner };
+
+        self.messages.push(message);
     }
 
     /// Reports an error on a specific line.
@@ -68,16 +118,18 @@ impl Report {
     /// Returns how many messages there are of (errors, warnings).
     pub fn count_messages(&self) -> ReportCount {
         let mut errors = 0;
+        let mut fixable_errors = 0;
         let mut warnings = 0;
 
         for message in &self.messages {
             match message {
                 Message::Error(_) => errors += 1,
+                Message::FixableError { .. } => fixable_errors += 1,
                 Message::Warning(_) => warnings += 1,
             }
         }
 
-        ReportCount::new(errors, warnings)
+        ReportCount::new(errors, fixable_errors, warnings)
     }
 
     /// Returns the name of the parent folder of the given file.

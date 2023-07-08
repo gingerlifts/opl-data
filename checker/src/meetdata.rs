@@ -29,7 +29,7 @@ pub struct AllMeetData {
 ///
 /// These indices are used to create the equivalent of a singly-linked list
 /// of `Entry` structs referring to the same lifter.
-#[derive(Copy, Clone)]
+#[derive(Copy, Clone, Debug)]
 pub struct EntryIndex {
     /// Index of the parent `SingleMeetData` within the `AllMeetData.meets`
     /// vector.

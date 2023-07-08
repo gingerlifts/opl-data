@@ -47,20 +47,43 @@ let entriesErrorPre: HTMLElement;
 // It's defined in Rust, in checker/src/lib.rs.
 interface Message {
   Error?: string;
+  FixableError?: string;
   Warning?: string;
 };
+
+interface FixableError {
+    line_number: number;
+    inner: FixableErrorInner;
+}
+
+type FixableErrorInner = NameConflict;
+
+interface NameConflict {
+    username: string;
+    expected: string;
+    found: string;
+}
 
 // Converts a Message object to a simple, uncolored string, for the moment.
 function msg2str(msg: Message): string {
     if (msg.hasOwnProperty("Error")) {
         return "Error: " + msg["Error"];
     }
+
+    if (msg.hasOwnProperty("FixableError")) {
+        const obj = msg["FixableError"]!;
+        const line_number = obj["line_number"]!;
+        const { expected, found } = obj["inner"]["NameConflict"]!;
+
+        return `Automatically fixable error on line ${line_number + 1}: expected ${expected} but found ${found}`;
+    }
+
     return "Warning: " + msg["Warning"];
 }
 
 function runChecker(): void {
     let handle = new XMLHttpRequest();
-    handle.open("POST", "/dev/checker");
+    handle.open("POST", "/dev/checker?mode=Check");
     handle.responseType = "text";
     handle.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
 
@@ -93,6 +116,10 @@ function runChecker(): void {
             } else if (output.meet_messages.length === 0) {
                 // The entries.csv is only checked if the meet.csv passes.
                 entriesErrorPre.innerText = "Pass! :)";
+            }
+
+            if (output.entries) {
+                entriesTextArea.value = output.entries;
             }
         }
     };
