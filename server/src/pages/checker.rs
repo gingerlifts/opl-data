@@ -3,11 +3,11 @@
 use opldb::OplDb;
 
 use checker::editor::Editor;
-use checker::{EntriesCheckResult, FixableError, Meet, MeetCheckResult, Message};
+use checker::{EntriesCheckResult, FixableErrorInner, Meet, MeetCheckResult, Message};
 use rocket::FromFormField;
 use std::error::Error;
 
-#[derive(Copy, Clone, FromFormField)]
+#[derive(Copy, Clone, Eq, PartialEq, FromFormField)]
 pub enum Mode {
     Check,
     Fix,
@@ -87,7 +87,7 @@ fn check_entries(
                 if let Some(id) = opldb.lifter_id(entry.username.as_str()) {
                     let lifter = opldb.lifter(id);
                     if lifter.name != entry.name {
-                        let err = FixableError::NameConflict {
+                        let err = FixableErrorInner::NameConflict {
                             username: lifter.username.to_string(),
                             expected: lifter.name.to_string(),
                             found: entry.name.to_string(),
@@ -124,7 +124,7 @@ pub fn check(opldb: &OplDb, input: &CheckerInput, mode: Mode) -> CheckerOutput {
     if meet.is_some() {
         match check_entries(&reader, opldb, input, meet) {
             Ok(EntriesCheckResult { report, .. }) => {
-                if let Mode::Fix = mode {
+                if mode == Mode::Fix {
                     fix_entries(input.entries.clone(), &report.messages, &mut output);
                 }
 
@@ -142,9 +142,9 @@ fn fix_entries(entries: String, messages: &[Message], output: &mut CheckerOutput
 
     // Fix all the errors
     for message in messages {
-        if let Message::FixableError { line_number, inner } = message {
-            inner
-                .fix(&mut editor, *line_number)
+        if let Message::FixableError(fixable_error) = message {
+            fixable_error
+                .fix(&mut editor)
                 .expect("Failed to apply edit");
         }
     }

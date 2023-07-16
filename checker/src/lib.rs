@@ -30,7 +30,7 @@ use meetdata::EntryIndex;
 pub use meetdata::{AllMeetData, LifterMap, SingleMeetData};
 
 mod report;
-pub use report::{FixableError, Message, Report};
+pub use report::{FixableErrorInner, Message, Report};
 
 pub mod report_count;
 

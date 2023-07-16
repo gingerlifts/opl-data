@@ -12,11 +12,11 @@
 use std::fmt;
 use std::path::PathBuf;
 
-use crate::editor::{CellIdentifier, Editor};
+use crate::editor::{CellIdentifier, Editor, UpdateError};
 use crate::report_count::ReportCount;
 
 #[derive(Clone, Debug, Serialize)]
-pub enum FixableError {
+pub enum FixableErrorInner {
     NameConflict {
         username: String,
         expected: String,
@@ -24,7 +24,17 @@ pub enum FixableError {
     },
 }
 
-impl fmt::Display for FixableError {
+impl FixableErrorInner {
+    fn fix(&self, line_number: usize, editor: &mut Editor) -> Result<(), UpdateError> {
+        match self {
+            Self::NameConflict { expected, .. } => {
+                editor.update(CellIdentifier::new("Name", line_number), &expected)
+            }
+        }
+    }
+}
+
+impl fmt::Display for FixableErrorInner {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         match self {
             Self::NameConflict {
@@ -38,17 +48,17 @@ impl fmt::Display for FixableError {
     }
 }
 
+#[derive(Clone, Debug, Serialize)]
+pub struct FixableError {
+    /// The line the error was found on.
+    line_number: usize,
+    /// The details of the error.
+    inner: FixableErrorInner,
+}
+
 impl FixableError {
-    pub fn fix(
-        &self,
-        editor: &mut Editor,
-        line_number: usize,
-    ) -> Result<(), Box<dyn std::error::Error>> {
-        match self {
-            Self::NameConflict { expected, .. } => {
-                editor.update(CellIdentifier::new("Name", line_number), expected)?
-            }
-        }
+    pub fn fix(&self, editor: &mut Editor) -> Result<(), Box<dyn std::error::Error>> {
+        self.inner.fix(self.line_number, editor)?;
 
         Ok(())
     }
@@ -58,10 +68,7 @@ impl FixableError {
 #[derive(Debug, Serialize)]
 pub enum Message {
     Error(String),
-    FixableError {
-        line_number: usize,
-        inner: FixableError,
-    },
+    FixableError(FixableError),
     Warning(String),
 }
 
@@ -88,8 +95,8 @@ impl Report {
         self.messages.push(Message::Error(message.to_string()));
     }
 
-    pub fn fixable_error(&mut self, line_number: usize, inner: FixableError) {
-        let message = Message::FixableError { line_number, inner };
+    pub fn fixable_error(&mut self, line_number: usize, inner: FixableErrorInner) {
+        let message = Message::FixableError(FixableError { line_number, inner });
 
         self.messages.push(message);
     }
