@@ -56,6 +56,12 @@ pub struct FixableErrorDetails {
     inner: FixableError,
 }
 
+impl fmt::Display for FixableErrorDetails {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        self.inner.fmt(f)
+    }
+}
+
 impl FixableErrorDetails {
     pub fn fix(&self, editor: &mut Editor) -> Result<(), Box<dyn std::error::Error>> {
         self.inner.fix(self.line_number, editor)?;

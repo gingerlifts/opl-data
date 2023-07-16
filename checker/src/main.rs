@@ -82,7 +82,7 @@ fn write_report(handle: &mut io::StdoutLock, report: checker::Report) {
             checker::Message::Error(s) => {
                 let _ = handle.write_fmt(format_args!(" {}\n", s.bold().red()));
             }
-            checker::Message::FixableError { inner, .. } => {
+            checker::Message::FixableError(inner) => {
                 let _ = handle.write_fmt(format_args!(" {}\n", inner.to_string().bold().red()));
             }
             checker::Message::Warning(s) => {
