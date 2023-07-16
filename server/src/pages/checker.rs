@@ -1,9 +1,9 @@
 //! Logic for the checker page.
 
-use csv::WriterBuilder;
 use opldb::OplDb;
 
-use checker::{EntriesCheckResult, Entry, FixableError, Meet, MeetCheckResult, Message};
+use checker::editor::Editor;
+use checker::{EntriesCheckResult, FixableError, Meet, MeetCheckResult, Message};
 use rocket::FromFormField;
 use std::error::Error;
 
@@ -123,12 +123,9 @@ pub fn check(opldb: &OplDb, input: &CheckerInput, mode: Mode) -> CheckerOutput {
     // If the meet.csv parsed successfully, also parse the entries.csv.
     if meet.is_some() {
         match check_entries(&reader, opldb, input, meet) {
-            Ok(EntriesCheckResult {
-                report,
-                mut entries,
-            }) => {
+            Ok(EntriesCheckResult { report, .. }) => {
                 if let Mode::Fix = mode {
-                    maybe_fix_entries(&mut entries, &report.messages, &mut output);
+                    fix_entries(input.entries.clone(), &report.messages, &mut output);
                 }
 
                 output.entries_messages = report.messages;
@@ -140,31 +137,18 @@ pub fn check(opldb: &OplDb, input: &CheckerInput, mode: Mode) -> CheckerOutput {
     output
 }
 
-fn maybe_fix_entries(
-    entries: &mut Option<Vec<Entry>>,
-    messages: &[Message],
-    output: &mut CheckerOutput,
-) {
-    if let Some(entries) = entries.as_mut() {
-        // Fix all the errors
-        for message in messages {
-            if let Message::FixableError { line_number, inner } = message {
-                let fixed = inner.fix(&entries[*line_number]);
+fn fix_entries(entries: String, messages: &[Message], output: &mut CheckerOutput) {
+    let mut editor = Editor::new(entries);
 
-                entries[*line_number] = fixed;
-            }
+    // Fix all the errors
+    for message in messages {
+        if let Message::FixableError { line_number, inner } = message {
+            inner
+                .fix(&mut editor, *line_number)
+                .expect("Failed to apply edit");
         }
-
-        // Serialize a response
-        let buffer = Vec::new();
-        let mut writer = WriterBuilder::new().from_writer(buffer);
-        writer
-            .serialize(entries)
-            .expect("Failed to serialize entries");
-
-        let serialized = writer.into_inner().expect("Failed to get entries");
-        let csv = String::from_utf8(serialized).expect("Serialized data was not UTF-8");
-
-        output.entries = csv;
     }
+
+    // Serialize a response
+    output.entries = editor.finalize();
 }

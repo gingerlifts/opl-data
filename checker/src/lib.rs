@@ -23,6 +23,7 @@ pub use crate::checklib::CheckResult;
 
 pub mod compiler;
 pub mod disambiguator;
+pub mod editor;
 
 mod meetdata;
 use meetdata::EntryIndex;

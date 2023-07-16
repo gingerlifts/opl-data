@@ -2,7 +2,6 @@
 
 use opltypes::states::*;
 use opltypes::*;
-use serde::ser::{Serialize, SerializeStruct};
 use smartstring::alias::CompactString;
 use strum::IntoEnumIterator;
 use unicode_normalization::UnicodeNormalization;
@@ -244,47 +243,6 @@ impl Entry {
         }
 
         Age::None
-    }
-}
-
-impl Serialize for Entry {
-    fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
-    where
-        S: serde::Serializer,
-    {
-        let mut state = serializer.serialize_struct("Entry", 26)?;
-
-        state.serialize_field("Place", &self.place)?;
-        state.serialize_field("Name", &self.name)?;
-        state.serialize_field("BirthDate", &self.birthdate)?;
-        state.serialize_field("Sex", &self.sex)?;
-
-        // TODO: this should probably not be empty
-        state.serialize_field("BirthYear", "")?;
-
-        state.serialize_field("Age", &self.age)?;
-        state.serialize_field("Country", &self.country)?;
-        state.serialize_field("State", &self.state)?;
-        state.serialize_field("Equipment", &self.equipment)?;
-        state.serialize_field("Division", &self.division)?;
-        state.serialize_field("BodyweightKg", &self.bodyweightkg)?;
-        state.serialize_field("WeightClassKg", &self.weightclasskg)?;
-        state.serialize_field("Squat1Kg", &self.squat1kg)?;
-        state.serialize_field("Squat2Kg", &self.squat2kg)?;
-        state.serialize_field("Squat3Kg", &self.squat3kg)?;
-        state.serialize_field("Best3SquatKg", &self.best3squatkg)?;
-        state.serialize_field("Bench1Kg", &self.bench1kg)?;
-        state.serialize_field("Bench2Kg", &self.bench2kg)?;
-        state.serialize_field("Bench3Kg", &self.bench3kg)?;
-        state.serialize_field("Best3BenchKg", &self.best3benchkg)?;
-        state.serialize_field("Deadlift1Kg", &self.deadlift1kg)?;
-        state.serialize_field("Deadlift2Kg", &self.deadlift2kg)?;
-        state.serialize_field("Deadlift3Kg", &self.deadlift3kg)?;
-        state.serialize_field("Best3DeadliftKg", &self.best3deadliftkg)?;
-        state.serialize_field("TotalKg", &self.totalkg)?;
-        state.serialize_field("Event", &self.event)?;
-
-        state.end()
     }
 }
 

@@ -12,11 +12,8 @@
 use std::fmt;
 use std::path::PathBuf;
 
-use serde::Serialize;
-use smartstring::SmartString;
-
+use crate::editor::{CellIdentifier, Editor};
 use crate::report_count::ReportCount;
-use crate::Entry;
 
 #[derive(Clone, Debug, Serialize)]
 pub enum FixableError {
@@ -42,14 +39,18 @@ impl fmt::Display for FixableError {
 }
 
 impl FixableError {
-    pub fn fix(&self, entry: &Entry) -> Entry {
-        let mut entry = entry.clone();
-
+    pub fn fix(
+        &self,
+        editor: &mut Editor,
+        line_number: usize,
+    ) -> Result<(), Box<dyn std::error::Error>> {
         match self {
-            Self::NameConflict { expected, .. } => entry.name = SmartString::from(expected),
+            Self::NameConflict { expected, .. } => {
+                editor.update(CellIdentifier::new("Name", line_number), expected)?
+            }
         }
 
-        entry
+        Ok(())
     }
 }
 

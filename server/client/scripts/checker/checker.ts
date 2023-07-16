@@ -47,7 +47,7 @@ let entriesErrorPre: HTMLElement;
 // It's defined in Rust, in checker/src/lib.rs.
 interface Message {
   Error?: string;
-  FixableError?: string;
+  FixableError?: FixableError;
   Warning?: string;
 };
 
@@ -83,7 +83,7 @@ function msg2str(msg: Message): string {
 
 function runChecker(): void {
     let handle = new XMLHttpRequest();
-    handle.open("POST", "/dev/checker?mode=Check");
+    handle.open("POST", "/dev/checker?mode=Fix");
     handle.responseType = "text";
     handle.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
 
