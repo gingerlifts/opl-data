@@ -47,16 +47,16 @@ let entriesErrorPre: HTMLElement;
 // It's defined in Rust, in checker/src/lib.rs.
 interface Message {
   Error?: string;
-  FixableError?: FixableError;
+  FixableError?: FixableErrorDetails;
   Warning?: string;
 };
 
-interface FixableError {
+interface FixableErrorDetails {
     line_number: number;
-    inner: FixableErrorInner;
+    inner: FixableError;
 }
 
-type FixableErrorInner = NameConflict;
+type FixableError = NameConflict;
 
 interface NameConflict {
     username: string;

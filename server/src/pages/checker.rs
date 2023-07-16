@@ -3,7 +3,7 @@
 use opldb::OplDb;
 
 use checker::editor::Editor;
-use checker::{EntriesCheckResult, FixableErrorInner, Meet, MeetCheckResult, Message};
+use checker::{EntriesCheckResult, FixableError, Meet, MeetCheckResult, Message};
 use rocket::FromFormField;
 use std::error::Error;
 
@@ -87,7 +87,7 @@ fn check_entries(
                 if let Some(id) = opldb.lifter_id(entry.username.as_str()) {
                     let lifter = opldb.lifter(id);
                     if lifter.name != entry.name {
-                        let err = FixableErrorInner::NameConflict {
+                        let err = FixableError::NameConflict {
                             username: lifter.username.to_string(),
                             expected: lifter.name.to_string(),
                             found: entry.name.to_string(),
@@ -140,7 +140,6 @@ pub fn check(opldb: &OplDb, input: &CheckerInput, mode: Mode) -> CheckerOutput {
 fn fix_entries(entries: String, messages: &[Message], output: &mut CheckerOutput) {
     let mut editor = Editor::new(entries);
 
-    // Fix all the errors
     for message in messages {
         if let Message::FixableError(fixable_error) = message {
             fixable_error
@@ -149,6 +148,5 @@ fn fix_entries(entries: String, messages: &[Message], output: &mut CheckerOutput
         }
     }
 
-    // Serialize a response
     output.entries = editor.finalize();
 }

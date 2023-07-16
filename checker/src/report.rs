@@ -16,7 +16,7 @@ use crate::editor::{CellIdentifier, Editor, UpdateError};
 use crate::report_count::ReportCount;
 
 #[derive(Clone, Debug, Serialize)]
-pub enum FixableErrorInner {
+pub enum FixableError {
     NameConflict {
         username: String,
         expected: String,
@@ -24,7 +24,7 @@ pub enum FixableErrorInner {
     },
 }
 
-impl FixableErrorInner {
+impl FixableError {
     fn fix(&self, line_number: usize, editor: &mut Editor) -> Result<(), UpdateError> {
         match self {
             Self::NameConflict { expected, .. } => {
@@ -34,7 +34,7 @@ impl FixableErrorInner {
     }
 }
 
-impl fmt::Display for FixableErrorInner {
+impl fmt::Display for FixableError {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         match self {
             Self::NameConflict {
@@ -49,14 +49,14 @@ impl fmt::Display for FixableErrorInner {
 }
 
 #[derive(Clone, Debug, Serialize)]
-pub struct FixableError {
+pub struct FixableErrorDetails {
     /// The line the error was found on.
     line_number: usize,
     /// The details of the error.
-    inner: FixableErrorInner,
+    inner: FixableError,
 }
 
-impl FixableError {
+impl FixableErrorDetails {
     pub fn fix(&self, editor: &mut Editor) -> Result<(), Box<dyn std::error::Error>> {
         self.inner.fix(self.line_number, editor)?;
 
@@ -68,7 +68,7 @@ impl FixableError {
 #[derive(Debug, Serialize)]
 pub enum Message {
     Error(String),
-    FixableError(FixableError),
+    FixableError(FixableErrorDetails),
     Warning(String),
 }
 
@@ -95,8 +95,8 @@ impl Report {
         self.messages.push(Message::Error(message.to_string()));
     }
 
-    pub fn fixable_error(&mut self, line_number: usize, inner: FixableErrorInner) {
-        let message = Message::FixableError(FixableError { line_number, inner });
+    pub fn fixable_error(&mut self, line_number: usize, inner: FixableError) {
+        let message = Message::FixableError(FixableErrorDetails { line_number, inner });
 
         self.messages.push(message);
     }
