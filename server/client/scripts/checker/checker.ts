@@ -111,17 +111,20 @@ function runChecker(mode: Mode): void {
                 return;
             }
 
-            if (output.meet_messages.length > 0) {
-                meetErrorPre.innerText = output.meet_messages.map(msg2str).join("\n");
-            } else {
-                meetErrorPre.innerText = "Pass! :)";
-            }
+            // Only display check results if we were checking
+            if (mode == Mode.Check) {
+                if (output.meet_messages.length > 0) {
+                    meetErrorPre.innerText = output.meet_messages.map(msg2str).join("\n");
+                } else {
+                    meetErrorPre.innerText = "Pass! :)";
+                }
 
-            if (output.entries_messages.length > 0) {
-                entriesErrorPre.innerText = output.entries_messages.map(msg2str).join("\n");
-            } else if (output.meet_messages.length === 0) {
-                // The entries.csv is only checked if the meet.csv passes.
-                entriesErrorPre.innerText = "Pass! :)";
+                if (output.entries_messages.length > 0) {
+                    entriesErrorPre.innerText = output.entries_messages.map(msg2str).join("\n");
+                } else if (output.meet_messages.length === 0) {
+                    // The entries.csv is only checked if the meet.csv passes.
+                    entriesErrorPre.innerText = "Pass! :)";
+                }
             }
 
             if (output.entries) {
