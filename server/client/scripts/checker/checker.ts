@@ -28,6 +28,7 @@ import { csvStandardiseCountries } from "./functions/standardise-countries";
 import { csvRound } from "./functions/round-kg";
 
 let checkButton: HTMLButtonElement;
+let fixButton: HTMLButtonElement;
 let toKgButton: HTMLButtonElement;
 let calcPlaceButton: HTMLButtonElement;
 let standardiseCountriesButton: HTMLButtonElement;
@@ -64,6 +65,11 @@ interface NameConflict {
     found: string;
 }
 
+enum Mode {
+    Check = "Check",
+    Fix = "Fix",
+}
+
 // Converts a Message object to a simple, uncolored string, for the moment.
 function msg2str(msg: Message): string {
     if (msg.hasOwnProperty("Error")) {
@@ -81,9 +87,9 @@ function msg2str(msg: Message): string {
     return "Warning: " + msg["Warning"];
 }
 
-function runChecker(): void {
+function runChecker(mode: Mode): void {
     let handle = new XMLHttpRequest();
-    handle.open("POST", "/dev/checker?mode=Fix");
+    handle.open("POST", `/dev/checker?mode=${mode}`);
     handle.responseType = "text";
     handle.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
 
@@ -141,6 +147,7 @@ function replaceTabs(elem: HTMLTextAreaElement) {
 
 function initializeEventListeners() {
     checkButton = document.getElementById("checkButton") as HTMLButtonElement;
+    fixButton = document.getElementById("fixButton") as HTMLButtonElement;
     toKgButton = document.getElementById("toKgButton") as HTMLButtonElement;
     calcPlaceButton = document.getElementById("calcPlaceButton") as HTMLButtonElement;
     standardiseCountriesButton = document.getElementById("standardiseCountriesButton") as HTMLButtonElement;
@@ -153,7 +160,8 @@ function initializeEventListeners() {
     meetErrorPre = document.getElementById("meetErrorPre") as HTMLElement;
     entriesErrorPre = document.getElementById("entriesErrorPre") as HTMLElement;
 
-    checkButton.addEventListener("click", runChecker, false);
+    checkButton.addEventListener("click", () => runChecker(Mode.Check), false);
+    fixButton.addEventListener("click", () => runChecker(Mode.Fix), false);
 
     toKgButton.addEventListener("click", function () {
         // Parse the entries text field as CSV.
