@@ -1,5 +1,5 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
-Freshmen,55.79,1,John Dexter,Bandera,51.8,92.99,70.31,113.4,276.69,Single-ply,SBD,M
+Freshmen,55.79,1,John Dexter #2,Bandera,51.8,92.99,70.31,113.4,276.69,Single-ply,SBD,M
 Freshmen,51.71,DQ,Michael Schneider,Castroville Medina Valley,50.98,,,,,Single-ply,SBD,M
 Freshmen,55.79,1,Benjamin Uribe,Jourdanton,55.43,106.59,61.23,111.13,278.96,Single-ply,SBD,M
 Freshmen,55.79,DQ,Jacob Reza,Castroville Medina Valley,53.52,,,,,Single-ply,SBD,M
@@ -57,7 +57,7 @@ Junior Varsity,67.13,6,Ryan Copeland,Lytle,63.5,97.52,70.31,151.95,319.78,Single
 Junior Varsity,67.13,DQ,Michael Chavarria,San Antonio Brooks Academy,61.33,111.13,74.84,,,Single-ply,SBD,M
 Junior Varsity,74.84,1,Jonathan Stoufflet,Bandera,70.67,158.76,88.45,181.44,428.64,Single-ply,SBD,M
 Junior Varsity,74.84,2,Buddy Vega,Jourdanton,71.21,151.95,90.72,145.15,387.82,Single-ply,SBD,M
-Junior Varsity,74.84,3,José Fernández,San Antonio Brooks Academy,74.3,138.35,72.57,138.35,349.27,Single-ply,SBD,M
+Junior Varsity,74.84,3,Jose Fernandez #8,San Antonio Brooks Academy,74.3,138.35,72.57,138.35,349.27,Single-ply,SBD,M
 Junior Varsity,82.1,4,N'Miah Davis,Bandera,74.93,122.47,77.11,129.27,328.85,Single-ply,SBD,M
 Junior Varsity,82.1,5,Oscar de Luna,San Antonio Memorial,75.02,129.27,56.7,124.74,310.71,Single-ply,SBD,M
 Junior Varsity,74.84,6,Nathan Salazar,Somerset,72.57,90.72,68.04,113.4,272.16,Single-ply,SBD,M
@@ -83,8 +83,8 @@ Junior Varsity,109.77,3,Jose Coronado,San Antonio Memorial,106.32,131.54,68.04,1
 Junior Varsity,124.74,1,Josh Silva,Somerset,120.2,181.44,131.54,204.12,517.1,Single-ply,SBD,M
 Junior Varsity,124.74,2,Justin Brister,Jourdanton,111.67,195.04,124.74,190.51,510.29,Single-ply,SBD,M
 Junior Varsity,124.74,3,Zach Torres,Somerset,113.4,188.24,104.33,170.1,462.66,Single-ply,SBD,M
-Junior Varsity,124.74,4,Daniel Ramirez,Somerset,113.4,176.9,102.06,174.63,453.59,Single-ply,SBD,M
-Junior Varsity,124.74,5,Brandon Williams,Del Rio,118.75,163.29,102.06,176.9,442.25,Single-ply,SBD,M
+Junior Varsity,124.74,4,Daniel Ramirez #7,Somerset,113.4,176.9,102.06,174.63,453.59,Single-ply,SBD,M
+Junior Varsity,124.74,5,Brandon Williams #1,Del Rio,118.75,163.29,102.06,176.9,442.25,Single-ply,SBD,M
 Junior Varsity,124.74,6,Tino Torres,Carrizo Springs,116.03,145.15,86.18,167.83,399.16,Single-ply,SBD,M
 Junior Varsity,124.74,DQ,Joe Reschman,Somerset,115.67,,,,,Single-ply,SBD,M
 Junior Varsity,124.74,DQ,Joe Tovar,Somerset,112.49,,,,,Single-ply,SBD,M
@@ -96,7 +96,7 @@ Junior Varsity,124.74+,4,Mario Chavez,Carrizo Springs,163.84,163.29,77.11,176.9,
 Junior Varsity,124.74+,5,Christian Soria,Somerset,135.62,136.08,86.18,136.08,358.34,Single-ply,SBD,M
 Junior Varsity,,NS,Steven Galan,Carrizo Springs,,,,,,Single-ply,SBD,M
 Junior Varsity,,NS,Albert Romo,Castroville Medina Valley,,,,,,Single-ply,SBD,M
-Junior Varsity,,NS,James Martinez,Castroville Medina Valley,,,,,,Single-ply,SBD,M
+Junior Varsity,,NS,James Martinez #6,Castroville Medina Valley,,,,,,Single-ply,SBD,M
 Junior Varsity,,NS,Andres Rodriguez,Castroville Medina Valley,,,,,,Single-ply,SBD,M
 Junior Varsity,,NS,Robert Rodriguez,Castroville Medina Valley,,,,,,Single-ply,SBD,M
 Junior Varsity,,NS,Mason Foster,Castroville Medina Valley,,,,,,Single-ply,SBD,M
@@ -180,7 +180,7 @@ Boys,89.81,6,Nick Andreas,Bandera,87.54,206.38,124.74,201.85,532.97,Single-ply,S
 Boys,89.81,7,Justin Laque,Castroville Medina Valley,86.64,185.97,136.08,208.65,530.7,Single-ply,SBD,M
 Boys,89.81,8,Silverio Trejo,Pearsall,83.01,195.04,111.13,206.38,512.56,Single-ply,SBD,M
 Boys,89.81,9,Estaban Morales,Port Lavaca Calhoun,86.64,213.19,113.4,165.56,492.15,Single-ply,SBD,M
-Boys,89.81,10,Juan Perez,Lytle,84.14,176.9,102.06,192.78,471.74,Single-ply,SBD,M
+Boys,89.81,10,Juan Perez #13,Lytle,84.14,176.9,102.06,192.78,471.74,Single-ply,SBD,M
 Boys,89.81,11,David Nieto,Pearsall,82.83,192.78,106.59,158.76,458.13,Single-ply,SBD,M
 Boys,89.81,12,Calvin Martinez,Carrizo Springs,84.37,167.83,102.06,183.7,453.59,Single-ply,SBD,M
 Boys,89.81,13,Joshua Cuevas,Pearsall,88.36,163.29,77.11,167.83,408.23,Single-ply,SBD,M
@@ -213,13 +213,13 @@ Boys,109.77,14,Justin Lomas,Crystal City,101.33,244.94,,,244.94,Single-ply,S,M
 Boys,109.77,DQ,Andrew Padilla,Poteet,105.14,204.12,92.99,,,Single-ply,SB,M
 Boys,124.74,1,Eddie Rodriguez,San Antonio Memorial,116.75,274.42,183.7,233.6,691.73,Single-ply,SBD,M
 Boys,124.74,2,Zach Monreal,Devine,119.84,258.55,158.76,249.48,666.78,Single-ply,SBD,M
-Boys,124.74,3,Gabriel Garza,Somerset,120.2,281.23,163.29,208.65,653.17,Single-ply,SBD,M
+Boys,124.74,3,Gabriel Garza #1,Somerset,120.2,281.23,163.29,208.65,653.17,Single-ply,SBD,M
 Boys,124.74,4,Israel Aguero,Jourdanton,110.5,244.94,165.56,217.72,628.23,Single-ply,SBD,M
 Boys,124.74,5,Bj Frieda,Somerset,112.04,272.16,133.81,192.78,598.74,Single-ply,SBD,M
 Boys,124.74,6,Bryce Dowds,Bandera,115.85,217.72,142.88,235.87,596.47,Single-ply,SBD,M
 Boys,124.74,7,JohnPaul Lugo,Jourdanton,119.48,226.8,122.47,204.12,553.38,Single-ply,SBD,M
 Boys,124.74,8,Aaron Herrera,Del Rio,110.95,226.8,108.86,215.46,551.11,Single-ply,SBD,M
-Boys,124.74,9,Michael Garza,Crystal City,120.38,231.33,124.74,181.44,537.51,Single-ply,SBD,M
+Boys,124.74,9,Michael Garza #1,Crystal City,120.38,231.33,124.74,181.44,537.51,Single-ply,SBD,M
 Boys,124.74,10,Lucas Taulli,Bandera,114.12,204.12,113.4,208.65,526.17,Single-ply,SBD,M
 Boys,124.74,11,Julian Herrnandez,Port Lavaca Calhoun,118.84,204.12,133.81,181.44,519.36,Single-ply,SBD,M
 Boys,124.74,12,Adrian Puga,Beeville Jones,111.13,197.31,97.52,190.51,485.34,Single-ply,SBD,M

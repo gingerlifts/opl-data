@@ -1,18 +1,18 @@
 Name,WeightClassKg,Division,AgeRange,Sex,Age,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Squat4Kg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Bench4Kg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
-Shannon Pole-Summers,90+,Amateur Teen 14-15,14-15,F,,,,,,204.12,,,,,127.01,,,,,158.76,489.88,SBD,Multi-ply,1
+Shannon Pole-Summers,90+,Amateur Teen 14-15,14-15,F,,,,,,204.12,,,,,127.01,,,,,158.76,489.88,SBD,Single-ply,1
 Robert Henning,125,Amateur Teen 14-15,14-15,M,,,,,,215.46,,,,,138.35,,,,,172.37,526.17,SBD,Multi-ply,1
 Mark Furman,90,Amateur Teen 16-17,16-17,M,,,,,,226.8,,,,,149.69,,,,,260.82,637.3,SBD,Multi-ply,1
 J. Pierce,100,Amateur Teen 16-17,16-17,M,,,,,,181.44,,,,,147.42,,,,,242.67,571.53,SBD,Multi-ply,1
-P. Curley,67.5,Amateur Teen 18-19,18-19,M,,,,,,170.1,,,,,120.2,,,,,197.31,487.61,SBD,Multi-ply,1
+Pat Curley,67.5,Amateur Teen 18-19,18-19,M,,,,,,170.1,,,,,120.2,,,,,197.31,487.61,SBD,Multi-ply,1
 R. Cohn,100,Amateur Teen 18-19,18-19,M,,,,,,192.78,,,,,113.4,,,,,165.56,471.74,SBD,Multi-ply,1
 Carl Dorr,125,Amateur Teen 18-19,18-19,M,,,,,,299.37,,,,,183.71,,,,,283.5,766.57,SBD,Multi-ply,1
 Nick Tsourounis,125,Amateur Teen 18-19,18-19,M,,,,,,299.37,,,,,172.37,,,,,249.48,721.21,SBD,Multi-ply,2
-Tim Musser,140+,Amateur Teen 18-19,18-19,M,18,,,317.52,-340.19,317.52,,,,,183.71,,,,,256.28,757.5,SBD,Raw,1
+Tim Musser,140+,Amateur Teen 18-19,18-19,M,18,,,317.52,-340.19,317.52,,,,,183.71,,,,,256.28,757.5,SBD,Wraps,1
 Ben Brand,140+,Amateur Teen 18-19,18-19,M,18,,,,,294.84,,,,,-204.12,,,,,,,SBD,Multi-ply,DQ
 Janet Faraone,52,Amateur Open,,F,,,,,,79.38,,,,,70.31,72.57,,,,79.38,229.06,SBD,Multi-ply,1
 J. Smith #78,82.5,Amateur Open,,F,,,,,,,,,,,,,,,,,,SBD,Multi-ply,DQ
 J. Yuster,90,Amateur Open,,F,,,,,,120.2,,,,,63.5,,,,,120.2,303.91,SBD,Multi-ply,1
-Shannon Pole-Summers,90+,Elite Amateur Open,,F,,,,,,204.12,,,,,127.01,,,,,158.76,489.88,SBD,Multi-ply,1
+Shannon Pole-Summers,90+,Elite Amateur Open,,F,,,,,,204.12,,,,,127.01,,,,,158.76,489.88,SBD,Single-ply,1
 Jacqueline Davis,52,Pro Open,,F,,,,,,147.42,,,,,81.65,,,,,179.17,408.23,SBD,Multi-ply,1
 Amy Weisberger,60,Pro Open,,F,,,,,,188.24,199.58,,,,136.08,,,,,199.58,523.9,SBD,Multi-ply,1
 Mary Jacobson,67.5,Pro Open,,F,,,,,,147.42,,,,,116.12,117.03,,,,161.03,424.56,SBD,Multi-ply,1
@@ -56,24 +56,24 @@ Ron Dayton,110,Amateur Open,,M,,,,,,335.66,,,,,174.63,,,,,290.3,800.59,SBD,Multi
 D. Moore,110,Amateur Open,,M,,,,,,290.3,,,,,183.71,,,,,281.23,755.23,SBD,Multi-ply,3
 David Beversdorf,110,Amateur Open,,M,,,,,,317.52,,,,,183.71,,,,,244.94,746.16,SBD,Multi-ply,4
 R. Smith,110,Amateur Open,,M,,,,,,290.3,,,,,195.04,,,,,254.01,739.36,SBD,Multi-ply,5
-J. Walk,110,Amateur Open,,M,,,,,,285.76,,,,,163.29,,,,,272.16,721.21,SBD,Multi-ply,6
+John Walk,110,Amateur Open,,M,,,,,,285.76,,,,,163.29,,,,,272.16,721.21,SBD,Multi-ply,6
 Robert Tonini,110,Amateur Open,,M,,,,,,260.82,,,,,195.04,,,,,256.28,712.14,SBD,Multi-ply,7
 Mark Watts,110,Amateur Open,,M,,,,,,283.5,,,,,190.51,,,,,238.14,712.14,SBD,Multi-ply,8
-J. Manley,110,Amateur Open,,M,,,,,,260.82,,,,,174.63,,,,,274.42,709.87,SBD,Multi-ply,9
+John Manley,110,Amateur Open,,M,,,,,,260.82,,,,,174.63,,,,,274.42,709.87,SBD,Multi-ply,9
 Palmer Simpson,110,Amateur Open,,M,,,,,,276.69,,,,,172.37,,,,,258.55,707.6,SBD,Multi-ply,10
 M. Brown,110,Amateur Open,,M,,,,,,281.23,,,,,183.71,,,,,226.8,691.73,SBD,Multi-ply,11
 Rob Capozzolo,110,Amateur Open,,M,,,,,,,,254.01,-272.16,-272.16,254.01,,,,,,254.01,B,Multi-ply,1
 Michael Olmo,125,Amateur Open,,M,,,,,,353.8,,,,,190.51,,,,,285.76,830.08,SBD,Multi-ply,1
 A. Walker,125,Amateur Open,,M,,,,,,226.8,,,,,183.71,,,,,263.08,673.59,SBD,Multi-ply,2
 Tony Gianotti,125,Amateur Open,,M,,,,,,272.16,,,,,167.83,,,,,258.55,698.53,SBD,Multi-ply,3
-J. Groff,125,Amateur Open,,M,,,,,,258.55,,,,,172.37,,,,,235.87,666.78,SBD,Multi-ply,4
+Jerry Groff,125,Amateur Open,,M,,,,,,258.55,,,,,172.37,,,,,235.87,666.78,SBD,Multi-ply,4
 E. Martin,125,Amateur Open,,M,,,,,,229.06,,,,,142.88,,,,,242.67,614.62,SBD,Multi-ply,5
 Mike Darrah,125,Amateur Open,,M,,,,,,317.52,,,,,,,,,,,,SBD,Multi-ply,DQ
-Rich Safreed,140,Amateur Open,,M,,,,,,365.14,,,,,213.19,,,,,283.5,861.83,SBD,Multi-ply,1
-C. Eckroth,140,Amateur Open,,M,,,,,,288.03,,,,,190.51,,,,,290.3,768.84,SBD,Multi-ply,2
+Rich Safreed Jr,140,Amateur Open,,M,,,,,,365.14,,,,,213.19,,,,,283.5,861.83,SBD,Multi-ply,1
+Curt Eckroth,140,Amateur Open,,M,,,,,,288.03,,,,,190.51,,,,,290.3,768.84,SBD,Multi-ply,2
 K. Miller,140,Amateur Open,,M,,,,,,272.16,,,,,156.49,,,,,242.67,671.32,SBD,Multi-ply,3
 J. Bernier,140,Amateur Open,,M,,,,,,283.5,,,,,151.95,,,,,226.8,662.25,SBD,Multi-ply,4
-Dave Oyler,140+,Amateur Open,,M,,,,,,342.46,,,,,172.37,,,,,308.44,823.27,SBD,Multi-ply,1
+David Oyler,140+,Amateur Open,,M,,,,,,342.46,,,,,172.37,,,,,308.44,823.27,SBD,Multi-ply,1
 C. Earhart,140+,Amateur Open,,M,,,,,,278.96,,,,,192.78,,,,,272.16,743.89,SBD,Multi-ply,2
 John Ford #1,140,Elite Amateur Open,,M,,,,,,337.93,,,,,172.37,,,,,292.57,802.86,SBD,Multi-ply,1
 Doug Heath,67.5,Pro Open,,M,,,,,,283.5,,,,,195.04,,,,,231.33,709.87,SBD,Multi-ply,1
@@ -119,19 +119,19 @@ E. Wise,90,Amateur Submasters 33-39,33-39,M,,,,,,208.65,,,,,163.29,,,,,217.72,58
 Greg Simmers,100,Amateur Submasters 33-39,33-39,M,,,,,,335.66,,,,,172.37,,,,,254.01,762.04,SBD,Multi-ply,1
 A. Johnson,100,Amateur Submasters 33-39,33-39,M,,,,,,272.16,,,,,165.56,,,,,249.48,687.19,SBD,Multi-ply,2
 J. Pedigo,100,Amateur Submasters 33-39,33-39,M,,,,,,294.84,,,,,142.88,,,,,249.48,687.19,SBD,Multi-ply,3
-J. Groff,125,Amateur Submasters 33-39,33-39,M,,,,,,258.55,,,,,172.37,,,,,235.87,666.78,SBD,Multi-ply,1
+Jerry Groff,125,Amateur Submasters 33-39,33-39,M,,,,,,258.55,,,,,172.37,,,,,235.87,666.78,SBD,Multi-ply,1
 Mike Darrah,125,Amateur Submasters 33-39,33-39,M,,,,,,317.52,,,,,,,,,,,,SBD,Multi-ply,DQ
-Dave Oyler,140+,Amateur Submasters 33-39,33-39,M,,,,,,342.46,,,,,172.37,,,,,308.44,823.27,SBD,Multi-ply,1
+David Oyler,140+,Amateur Submasters 33-39,33-39,M,,,,,,342.46,,,,,172.37,,,,,308.44,823.27,SBD,Multi-ply,1
 M. French,140+,Amateur Submasters 33-39,33-39,M,,,,,,267.62,,,,,154.22,,,,,288.03,709.87,SBD,Multi-ply,2
 J. Pedigo,100,Pro Submasters 33-39,33-39,M,,,,,,294.84,,,,,142.88,,,,,249.48,687.19,SBD,Multi-ply,1
 Kevin Emery,110,Pro Submasters 33-39,33-39,M,,,,,,272.16,,,,,190.51,,,,,233.6,696.27,SBD,Multi-ply,1
 John Sefcik,140,Pro Submasters 33-39,33-39,M,,,,,,376.48,,,,,199.58,,,,,285.76,861.83,SBD,Multi-ply,1
 Billy Mimnaugh,140+,Pro Submasters 33-39,33-39,M,,,,,,408.23,,,,,229.06,,,,,333.39,970.69,SBD,Multi-ply,1
-G. Ruth,75,Amateur Masters 40-44,40-44,M,,,,,,215.46,,,,,115.67,,,,,192.78,523.9,SBD,Multi-ply,1
+Greg Ruth,75,Amateur Masters 40-44,40-44,M,,,,,,215.46,,,,,115.67,,,,,192.78,523.9,SBD,Multi-ply,1
 Les Weibley,75,Amateur Masters 40-44,40-44,M,,,,,,204.12,,,,,106.59,,,,,181.44,492.15,SBD,Multi-ply,2
 F. Warner IV,82.5,Amateur Masters 40-44,40-44,M,,,,,,165.56,,,,,117.93,,,,,217.72,501.22,SBD,Multi-ply,1
 Fred Piermattei,82.5,Amateur Masters 40-44,40-44,M,,,,,,,,,,,154.22,,,,,,,SBD,Multi-ply,DQ
-J. McDowell,90,Amateur Masters 40-44,40-44,M,,,,,,288.03,,,,,142.88,,,,,206.38,637.3,SBD,Multi-ply,1
+Jim McDowell,90,Amateur Masters 40-44,40-44,M,,,,,,288.03,,,,,142.88,,,,,206.38,637.3,SBD,Multi-ply,1
 R. Miller,90,Amateur Masters 40-44,40-44,M,,,,,,174.63,,,,,113.4,,,,,188.24,476.27,SBD,Multi-ply,2
 K. Phillips,100,Amateur Masters 40-44,40-44,M,,,,,,249.48,,,,,176.9,,,,,226.8,653.17,SBD,Multi-ply,1
 R. Harvey,100,Amateur Masters 40-44,40-44,M,,,,,,226.8,,,,,136.08,,,,,249.48,612.35,SBD,Multi-ply,2
@@ -140,17 +140,17 @@ Bob Calhoun,110,Amateur Masters 40-44,40-44,M,,,,,,278.96,,,,,197.31,,,,,260.82,
 A. Walker,125,Amateur Masters 40-44,40-44,M,,,,,,272.16,,,,,183.71,,,,,263.08,718.94,SBD,Multi-ply,1
 M. Harrison,125,Amateur Masters 40-44,40-44,M,,,,,,226.8,,,,,154.22,,,,,208.65,589.67,SBD,Multi-ply,2
 Robert Thomas,125,Amateur Masters 40-44,40-44,M,,,,,,206.38,,,,,129.27,,,,,231.33,566.99,SBD,Multi-ply,3
-Rich Safreed,140,Amateur Masters 40-44,40-44,M,,,,,,365.14,,,,,213.19,,,,,283.5,861.83,SBD,Multi-ply,1
+Rich Safreed Jr,140,Amateur Masters 40-44,40-44,M,,,,,,365.14,,,,,213.19,,,,,283.5,861.83,SBD,Multi-ply,1
 John Ford #1,140,Elite Amateur Masters 40-44,40-44,M,,,,,,337.93,,,,,172.37,,,,,292.57,802.86,SBD,Multi-ply,1
 Doug Heath,67.5,Pro Masters 40-44,40-44,M,,,,,,283.5,,,,,195.04,,,,,231.33,709.87,SBD,Multi-ply,1
 Don Bailey,125,Pro Masters 40-44,40-44,M,,,,,,430.91,,,,,183.71,,,,,290.3,904.92,SBD,Multi-ply,1
-S. Middleton,82.5,Amateur Masters 45-49,45-49,M,,,,,,192.78,,,,,138.35,,,,,192.78,523.9,SBD,Multi-ply,1
+S. Middleton #1,82.5,Amateur Masters 45-49,45-49,M,,,,,,192.78,,,,,138.35,,,,,192.78,523.9,SBD,Multi-ply,1
 J. Sylvia,90,Amateur Masters 45-49,45-49,M,,,,,,294.84,,,,,136.08,,,,,263.08,694,SBD,Multi-ply,1
 B. Haggerty,100,Amateur Masters 45-49,45-49,M,,,,,,129.27,,,,,81.65,,,,,167.83,378.75,SBD,Multi-ply,1
 Palmer Simpson,110,Amateur Masters 45-49,45-49,M,,,,,,281.23,,,,,172.37,,,,,258.55,712.15,SBD,Multi-ply,1
-J. Bechtel,125,Amateur Masters 45-49,45-49,M,,,,,,274.42,,,,,170.1,,,,,249.48,694,SBD,Multi-ply,1
-John Black,110,Elite Amateur Masters 45-49,45-49,M,,,,,,335.66,,,,,149.69,,,,,258.55,743.89,SBD,Multi-ply,1
-John Black,110,Pro Masters 45-49,45-49,M,,,,,,335.66,,,,,149.69,,,,,258.55,743.89,SBD,Multi-ply,1
+Jay Bechtel,125,Amateur Masters 45-49,45-49,M,,,,,,274.42,,,,,170.1,,,,,249.48,694,SBD,Multi-ply,1
+John Black #1,110,Elite Amateur Masters 45-49,45-49,M,,,,,,335.66,,,,,149.69,,,,,258.55,743.89,SBD,Multi-ply,1
+John Black #1,110,Pro Masters 45-49,45-49,M,,,,,,335.66,,,,,149.69,,,,,258.55,743.89,SBD,Multi-ply,1
 R. Trowbridge,90,Amateur Masters 50-54,50-54,M,,,,,,192.78,,,,,136.08,,,,,208.65,537.51,SBD,Multi-ply,1
 B. O'Brien,125,Amateur Masters 50-54,50-54,M,,,,,,204.12,,,,,147.42,,,,,192.78,544.31,SBD,Multi-ply,1
 M. Taylor,140+,Pro Masters 50-54,50-54,M,,,,,,272.16,,,,,163.29,,,,,244.94,680.39,SBD,Multi-ply,1

@@ -9,11 +9,11 @@ Robert Wahl,67.5,Open,M,280,142.5,267.5,690,SBD,Single-ply,1
 James Finch,67.5,Open,M,240,145,250,635,SBD,Single-ply,2
 Don Graham,67.5,Open,M,205,117.5,232.5,555,SBD,Single-ply,3
 G. Cole,67.5,Open,M,185,137.5,200,522.5,SBD,Single-ply,4
-M. Sarver,67.5,Open,M,185,120,217.5,522.5,SBD,Single-ply,5
+Mike Sarver,67.5,Open,M,185,120,217.5,522.5,SBD,Single-ply,5
 M. Martin,67.5,Open,M,175,132.5,210,517.5,SBD,Single-ply,6
 Walt Evans,67.5,Open,M,192.5,115,210,517.5,SBD,Single-ply,7
 Mark McNeill,67.5,Open,M,190,132.5,190,512.5,SBD,Single-ply,8
-F. Aguilar,67.5,Open,M,150,102.5,182.5,435,SBD,Single-ply,9
+Frank Aguilar,67.5,Open,M,150,102.5,182.5,435,SBD,Single-ply,9
 G. Grenon,67.5,Open,M,,,,,SBD,Single-ply,DQ
 Dave Karam,75,Open,M,250,170,250,670,SBD,Single-ply,1
 Don Hundley,75,Open,M,257.5,122.5,245,625,SBD,Single-ply,2
@@ -29,7 +29,7 @@ Bill Kyle,82.5,Open,M,270,167.5,262.5,700,SBD,Single-ply,2
 Steve Snyder #2,82.5,Open,M,270,167.5,262.5,700,SBD,Single-ply,3
 Eric Mowka,82.5,Open,M,282.5,182.5,232.5,697.5,SBD,Single-ply,4
 S. Marder,82.5,Open,M,257.5,160,250,667.5,SBD,Single-ply,5
-B. Gill,82.5,Open,M,262.5,145,255,662.5,SBD,Single-ply,6
+Brian Gill,82.5,Open,M,262.5,145,255,662.5,SBD,Single-ply,6
 Steve Uhas,82.5,Open,M,277.5,127.5,250,655,SBD,Single-ply,7
 George McElroy,82.5,Open,M,272.5,150,227.5,650,SBD,Single-ply,8
 Michael Hundley,82.5,Open,M,227.5,130,255,612.5,SBD,Single-ply,9
@@ -41,7 +41,7 @@ Jon Begley,82.5,Open,M,250,160,,,SBD,Single-ply,DQ
 Mike Capasso,90,Open,M,285,182.5,295,762.5,SBD,Single-ply,1
 Bill Clary,90,Open,M,287.5,182.5,287.5,757.5,SBD,Single-ply,2
 Denny Harrison,90,Open,M,295,167.5,262.5,725,SBD,Single-ply,3
-T. Meyers,90,Open,M,262.5,160,250,672.5,SBD,Single-ply,4
+Tony Meyer,90,Open,M,262.5,160,250,672.5,SBD,Single-ply,4
 Tony Culp,90,Open,M,252.5,147.5,245,645,SBD,Single-ply,5
 Buster Whitener,90,Open,M,252.5,147.5,242.5,642.5,SBD,Single-ply,6
 John Conner,90,Open,M,240,142.5,257.5,640,SBD,Single-ply,7
@@ -52,13 +52,13 @@ J. Rose,90,Open,M,210,125,260,595,SBD,Single-ply,11
 Jack Sideris,100,Open,M,372.5,217.5,325,915,SBD,Single-ply,1
 Mark Schmidt,100,Open,M,325,200,300,825,SBD,Single-ply,2
 Jeff Betzel,100,Open,M,295,205,310,810,SBD,Single-ply,3
-BreTom Russell,100,Open,M,295,172.5,322.5,790,SBD,Single-ply,4
-R. Gammage,100,Open,M,290,200,282.5,772.5,SBD,Single-ply,5
+Brett Russell,100,Open,M,295,172.5,322.5,790,SBD,Single-ply,4
+Randy Gammage,100,Open,M,290,200,282.5,772.5,SBD,Single-ply,5
 Leon Stinson,100,Open,M,272.5,150,282.5,705,SBD,Single-ply,6
 Kerry McLane,100,Open,M,242.5,187.5,245,675,SBD,Single-ply,7
 M. Helner,100,Open,M,205,135,232.5,572.5,SBD,Single-ply,8
 Dave Schneider,110,Open,M,365,197.5,367.5,930,SBD,Single-ply,1
-Todd Wilson,110,Open,M,337.5,207.5,337.5,882.5,SBD,Single-ply,2
+Todd Wilson #1,110,Open,M,337.5,207.5,337.5,882.5,SBD,Single-ply,2
 Don Haines,110,Open,M,295,195,327.5,817.5,SBD,Single-ply,3
 Dave Wilson,110,Open,M,290,227.5,285,802.5,SBD,Single-ply,4
 Jon Green #1,110,Open,M,302.5,185,307.5,795,SBD,Single-ply,5
@@ -68,9 +68,9 @@ Scott Siewert,110,Open,M,277.5,170,295,742.5,SBD,Single-ply,8
 J. Rauch,110,Open,M,255,197.5,257.5,710,SBD,Single-ply,9
 C. Smith,110,Open,M,242.5,167.5,295,705,SBD,Single-ply,10
 Perry Parker,110,Open,M,250,165,265,680,SBD,Single-ply,11
-Dan Hall,110,Open,M,250,137.5,262.5,650,SBD,Single-ply,12
+Dan Hall #1,110,Open,M,250,137.5,262.5,650,SBD,Single-ply,12
 Nick Busick,110,Open,M,270,200,,,SBD,Single-ply,DQ
-Steve Wilson,125,Open,M,365,257.5,365,987.5,SBD,Single-ply,1
+Steve Wilson #1,125,Open,M,365,257.5,365,987.5,SBD,Single-ply,1
 Bill McKisic,125,Open,M,287.5,177.5,292.5,757.5,SBD,Single-ply,2
 Bruce Repicky,125,Open,M,260,157.5,262.5,680,SBD,Single-ply,3
 Darryl Mayo,125,Open,M,,,,,SBD,Single-ply,DQ
@@ -105,7 +105,7 @@ Don Kushner,75,Novice,M,212.5,117.5,212.5,542.5,SBD,Single-ply,3
 G. Martin,75,Novice,M,192.5,117.5,220,530,SBD,Single-ply,4
 Mark Matson,75,Novice,M,200,125,200,525,SBD,Single-ply,5
 R. Fleming,75,Novice,M,207.5,115,200,522.5,SBD,Single-ply,6
-M. Lechter,75,Novice,M,192.5,137.5,192.5,522.5,SBD,Single-ply,7
+Mike Lechler,75,Novice,M,192.5,137.5,192.5,522.5,SBD,Single-ply,7
 C. Gifford,75,Novice,M,182.5,107.5,217.5,507.5,SBD,Single-ply,8
 J. Bee,75,Novice,M,185,107.5,170,462.5,SBD,Single-ply,9
 Aldo Pucci,75,Novice,M,137.5,105,182.5,425,SBD,Single-ply,10
@@ -117,15 +117,15 @@ D. Oeder,82.5,Novice,M,215,130,227.5,572.5,SBD,Single-ply,4
 E. Heilman,82.5,Novice,M,210,122.5,232.5,565,SBD,Single-ply,5
 L. Doughty,82.5,Novice,M,212.5,132.5,217.5,562.5,SBD,Single-ply,6
 R. Hill,82.5,Novice,M,200,122.5,240,562.5,SBD,Single-ply,7
-C. Grisvard,82.5,Novice,M,185,117.5,250,552.5,SBD,Single-ply,8
-W. Wilson,82.5,Novice,M,172.5,115,242.5,530,SBD,Single-ply,9
+Chris Grisvard,82.5,Novice,M,185,117.5,250,552.5,SBD,Single-ply,8
+William Wilson,82.5,Novice,M,172.5,115,242.5,530,SBD,Single-ply,9
 Tom Russell,82.5,Novice,M,190,137.5,195,522.5,SBD,Single-ply,10
 P. Underwood,82.5,Novice,M,182.5,102.5,187.5,472.5,SBD,Single-ply,11
 W. Goga,82.5,Novice,M,160,115,165,440,SBD,Single-ply,12
 R. Bleckenridge,82.5,Novice,M,215,110,,,SBD,Single-ply,DQ
 M. Smith #56,90,Novice,M,215,157.5,237.5,610,SBD,Single-ply,1
 John Ramsey,90,Novice,M,227.5,130,237.5,595,SBD,Single-ply,2
-G. Weaver,90,Novice,M,220,155,210,585,SBD,Single-ply,3
+Greg Weaver,90,Novice,M,220,155,210,585,SBD,Single-ply,3
 J. Heflin,90,Novice,M,215,147.5,220,582.5,SBD,Single-ply,4
 S. Hilton,90,Novice,M,192.5,142.5,227.5,562.5,SBD,Single-ply,5
 R. Hawk,90,Novice,M,210,125,217.5,552.5,SBD,Single-ply,6

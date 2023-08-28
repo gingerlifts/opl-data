@@ -26,13 +26,13 @@ Lauren Wait,27,F,Novice,SBD,86.95,90,Raw,92.5,70,110,272.5,2
 Alexis Eliopoulos,30,F,Open,SBD,87.63,90,Wraps,195,127.5,205,527.5,1
 Mariah Flint,21,F,Open,D,88.09,90,Raw,,,145,145,1
 Cathy Cranford,56,F,M4,SBD,84.64,90,Raw,80,45,92.5,217.5,1
-Janet Martin,48,F,M2,BD,108.86,90+,Raw,,60,107.5,167.5,1
-Janet Martin,48,F,M2,B,108.86,90+,Raw,,60,,60,1
-Janet Martin,48,F,M2,D,108.86,90+,Raw,,,107.5,107.5,1
+Janet Martin #1,48,F,M2,BD,108.86,90+,Raw,,60,107.5,167.5,1
+Janet Martin #1,48,F,M2,B,108.86,90+,Raw,,60,,60,1
+Janet Martin #1,48,F,M2,D,108.86,90+,Raw,,,107.5,107.5,1
 Brannigan Coleman,27,M,Open,SBD,55.57,56,Raw,172.5,130,217.5,520,1
 Haris Mian,19,M,T3,SBD,64.18,67.5,Raw,120,77.5,165,362.5,1
 Collin Rausch,21,M,Novice,SBD,63.59,67.5,Raw,117.5,110,152.5,380,1
-Joseph Thomas,18,M,T3,SBD,71.71,75,Raw,182.5,125,212.5,520,1
+Joseph Thomas #4,18,M,T3,SBD,71.71,75,Raw,182.5,125,212.5,520,1
 Chris Macera,21,M,Novice,SBD,67.72,75,Raw,170,137.5,195,502.5,1
 Juan Bollo,20,M,Novice,SBD,71.99,75,Raw,172.5,112.5,207.5,492.5,2
 Kevin Gingerich,32,M,Novice,SBD,73.8,75,Raw,162.5,130,192.5,485,3
@@ -53,7 +53,7 @@ Micah Oxford,18,M,T3,SBD,88.5,90,Raw,252.5,157.5,222.5,632.5,1
 Frank Martorana,23,M,MPF,SBD,87.86,90,Raw,192.5,137.5,230,560,1
 Thomas Tourville,29,M,Novice,SBD,88.27,90,Raw,250,160,272.5,682.5,1
 Damorris Jackson,21,M,Novice,SBD,88.22,90,Raw,207.5,157.5,275,640,2
-Justin Williams,24,M,Novice,SBD,88,90,Raw,185,165,247.5,597.5,3
+Justin Williams #1,24,M,Novice,SBD,88,90,Raw,185,165,247.5,597.5,3
 Michael Cain,31,M,Novice,SBD,87.54,90,Raw,182.5,130,235,547.5,4
 Tanner Huntley,21,M,Novice,SBD,86.55,90,Wraps,215,125,275,615,1
 Thomas Tourville,29,M,Open,SBD,88.27,90,Raw,250,160,272.5,682.5,1
@@ -102,7 +102,7 @@ Ryan Farnham,36,M,MPF,SBD,103.19,110,Wraps,230,170,210,610,1
 Mathew Tosi,36,M,Open,SBD,109.32,110,Raw,245,215,275,735,1
 Jason Legrand,23,M,Open,SBD,108,110,Wraps,355,202.5,320,877.5,1
 Ryan Daining,25,M,Open,SBD,104.19,110,Wraps,325,180,272.5,777.5,2
-Chris Brown,33,M,Open,SBD,108.77,110,Wraps,242.5,165,242.5,650,4
+Chris Brown #8,33,M,Open,SBD,108.77,110,Wraps,242.5,165,242.5,650,4
 Issac Pedrote,33,M,Open,SBD,109.5,110,Wraps,277.5,162.5,232.5,672.5,3
 Brian Hill #1,29,M,Open,SBD,107.64,110,Multi-ply,457.5,320,347.5,1125,1
 Mitch Phillips,54,M,M3,SBD,106.96,110,Raw,187.5,170,260,617.5,1

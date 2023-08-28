@@ -3,7 +3,7 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,BirthDate,BodyweightKg,Country,B
 2,52,F,Masters 1,Svetlana Eremenko,1957,,50.8,Russia,135,62.5,150,347.5,SBD,Single-ply
 3,52,F,Masters 1,Alexan Karbysheva,1956,,47.7,Russia,132.5,67.5,130,330,SBD,Single-ply
 4,52,F,Masters 1,Sally Bowers,1949,,51.3,USA,130,57.5,157.5,345,SBD,Single-ply
-5,52,F,Masters 1,Cathy Solan,1958,,44,USA,112.5,52.5,130,295,SBD,Single-ply
+5,52,F,Masters 1,Catherine Solan,1958,,44,USA,112.5,52.5,130,295,SBD,Single-ply
 6,52,F,Masters 1,Seiko Omori,1951,,50.9,Japan,130,60,137.5,327.5,SBD,Single-ply
 7,52,F,Masters 1,Monika Bruder,1954,,47.5,Germany,122.5,52.5,127.5,302.5,SBD,Single-ply
 8,52,F,Masters 1,Nadejda Uvachan,1944,,51.5,Russia,122.5,67.5,130,320,SBD,Single-ply
@@ -34,7 +34,7 @@ DQ,67.5,F,Masters 1,Hatsuko Kimura,1951,,53.4,Japan,130,,,,SBD,Single-ply
 5,67.5+,F,Masters 1,Joke van der Meulen,1951,,70.4,Netherlands,165,85,170,420,SBD,Single-ply
 6,67.5+,F,Masters 1,Ruth Welding,1956,,67.7,USA,137.5,72.5,162.5,372.5,SBD,Single-ply
 7,67.5+,F,Masters 1,Sue Hallen,1957,,106.6,USA,175,125,155,455,SBD,Single-ply
-8,67.5+,F,Masters 1,Sue Hollands,1951,,84,UK,162.5,57.5,150,370,SBD,Single-ply
+8,67.5+,F,Masters 1,Sue Hollands,,,84,UK,162.5,57.5,150,370,SBD,Single-ply
 9,67.5+,F,Masters 1,Jana Hranickova,1955,,70.2,Czechia,137.5,65,122.5,325,SBD,Single-ply
 10,67.5+,F,Masters 1,Þórdís Garðarsdóttir,1944,,84.5,Iceland,115,82.5,157.5,355,SBD,Single-ply
 11,67.5+,F,Masters 1,Helen Richards,1953,,69.4,UK,120,57.5,132.5,310,SBD,Single-ply
@@ -63,7 +63,7 @@ DQ,60,M,Masters 1,Anatol Merzlyakov,1956,,60,Russia,,,,,SBD,Single-ply
 5,67.5,M,Masters 1,Kurt Rooch,1957,,67.2,Germany,200,170,232.5,602.5,SBD,Single-ply
 6,67.5,M,Masters 1,Rafael Lopez,1958,,66.4,Spain,215,130,240,585,SBD,Single-ply
 7,67.5,M,Masters 1,Réjean Talon,1957,,67.4,Canada,202.5,152.5,210,565,SBD,Single-ply
-8,67.5,M,Masters 1,Miguel Flores,1955,,66.8,UK,200,110,205,515,SBD,Single-ply
+8,67.5,M,Masters 1,Miguel Flores #2,1955,,66.8,UK,200,110,205,515,SBD,Single-ply
 9,67.5,M,Masters 1,Timo Rautiainen,1958,,67.2,Finland,185,130,185,500,SBD,Single-ply
 10,67.5,M,Masters 1,Steen Gildesberg,1958,,67,Denmark,150,102.5,187.5,440,SBD,Single-ply
 DQ,67.5,M,Masters 1,Salen Shrivastava,1953,,66,India,,,,,SBD,Single-ply
@@ -181,7 +181,7 @@ DQ,52,M,Masters 2,Yoshio Hirano,1939,,51.4,Japan,120,,,,SBD,Single-ply
 1,60,M,Masters 2,Kastuji Okiura,1945,,59.5,Japan,190,105,235,530,SBD,Single-ply
 2,60,M,Masters 2,Ira Rosen,1950,,59.9,USA,175,95,190,460,SBD,Single-ply
 3,60,M,Masters 2,Milan Gombár,1948,,59.3,Slovakia,160,95,192.5,447.5,SBD,Single-ply
-4,60,M,Masters 2,Roger Powell,1936,,59.6,UK,140,85,200,425,SBD,Single-ply
+4,60,M,Masters 2,Roger Powell #1,1936,,59.6,UK,140,85,200,425,SBD,Single-ply
 5,60,M,Masters 2,Iain Burgess,1944,,59,USA,140,85,150,375,SBD,Single-ply
 6,60,M,Masters 2,Bent Hansen,1941,,59,Denmark,125,82.5,165,372.5,SBD,Single-ply
 1,67.5,M,Masters 2,John Hibbert,1946,,67.2,UK,200,140,237.5,577.5,SBD,Single-ply
@@ -195,7 +195,7 @@ DQ,52,M,Masters 2,Yoshio Hirano,1939,,51.4,Japan,120,,,,SBD,Single-ply
 9,67.5,M,Masters 2,Dezsö Szloboda,1937,,66.8,Germany,167.5,65,190,422.5,SBD,Single-ply
 10,67.5,M,Masters 2,Alfredo Urrutia,1931,,65.6,Spain,95,67.5,135,297.5,SBD,Single-ply
 1,75,M,Masters 2,Leonid Lokhov,1948,,74.4,Russia,255,145,270,670,SBD,Single-ply
-2,75,M,Masters 2,John Russel,1946,,74.6,UK,245,140,230,615,SBD,Single-ply
+2,75,M,Masters 2,John Russell,1946,,74.6,UK,245,140,230,615,SBD,Single-ply
 3,75,M,Masters 2,Janis Pavluks,1949,,73.5,Latvia,207.5,137.5,245,590,SBD,Single-ply
 4,75,M,Masters 2,René Doubel,1945,,74.9,France,192.5,147.5,237.5,577.5,SBD,Single-ply
 5,75,M,Masters 2,Sam Alduenda,1942,,73,USA,210,145,205,560,SBD,Single-ply
@@ -212,27 +212,27 @@ DQ,52,M,Masters 2,Yoshio Hirano,1939,,51.4,Japan,120,,,,SBD,Single-ply
 2,82.5,M,Masters 2,Valeriy Glazunov,1948,,81.7,Russia,275,172.5,240,687.5,SBD,Single-ply
 3,82.5,M,Masters 2,Francis Bottemer,1946,,81.5,France,217.5,122.5,292.5,632.5,SBD,Single-ply
 4,82.5,M,Masters 2,Ali Rabah Bouchakour,1945,,81.2,France,225,150,255,630,SBD,Single-ply
-5,82.5,M,Masters 2,Olicio Santos,1940,,82.4,Brazil,215,135,270,620,SBD,Single-ply
+5,82.5,M,Masters 2,Olício dos Santos Filho,1940,,82.4,Brazil,215,135,270,620,SBD,Single-ply
 6,82.5,M,Masters 2,Oscar Espinello,1939,,81.9,Argentina,210,135,262.5,607.5,SBD,Single-ply
 7,82.5,M,Masters 2,Rudi Maier,1949,,80.2,Germany,225,145,200,570,SBD,Single-ply
 8,82.5,M,Masters 2,Günter Lüdecke,1948,,82,Germany,212.5,115,230,557.5,SBD,Single-ply
 9,82.5,M,Masters 2,Karl Sourek,1943,,78.5,Czechia,200,110,220,530,SBD,Single-ply
 10,82.5,M,Masters 2,Ketil Hodne,1947,,80.7,Norway,170,120,200,490,SBD,Single-ply
 11,82.5,M,Masters 2,Jorge Zapata,1948,,75.4,Argentina,195,85,207.5,487.5,SBD,Single-ply
-DQ,82.5,M,Masters 2,Anatoliy Volkov,1938,,81.1,Kazakhstan,180,,,,SBD,Single-ply
+DQ,82.5,M,Masters 2,Anatoliy Volkov #1,1938,,81.1,Kazakhstan,180,,,,SBD,Single-ply
 1,90,M,Masters 2,Mikha Vereschagin,1950,,88.6,Russia,280,167.5,275,722.5,SBD,Single-ply
 2,90,M,Masters 2,Stefan Sochaňski,1948,,89.7,Poland,275,157.5,287.5,720,SBD,Single-ply
-3,90,M,Masters 2,Piero Andreatta,1950,,86.5,Italy,275,155,275,705,SBD,Single-ply
+3,90,M,Masters 2,Pietro Andreatta,1950,,86.5,Italy,275,155,275,705,SBD,Single-ply
 4,90,M,Masters 2,Anatoliy Bolyuku,1950,,89.2,Ukraine,260,165,250,675,SBD,Single-ply
 5,90,M,Masters 2,Kenji Sasaki,1949,,89.6,Japan,245,170,255,670,SBD,Single-ply
 6,90,M,Masters 2,Christian Buchs,1947,,89.4,France,270,152.5,245,667.5,SBD,Single-ply
 7,90,M,Masters 2,Victor Surov,1950,,87.2,Russia,240,135,260,635,SBD,Single-ply
 8,90,M,Masters 2,Jan Łuka,1949,,89.5,Poland,250,100,280,630,SBD,Single-ply
 9,90,M,Masters 2,Jean-Paul Belmas,1949,,89.6,France,237.5,132.5,250,620,SBD,Single-ply
-10,90,M,Masters 2,Helmut Schaller,1949,,84.8,Germany,220,140,240,600,SBD,Single-ply
-11,90,M,Masters 2,Dave Battison,1948,,88.9,UK,205,140,255,600,SBD,Single-ply
+10,90,M,Masters 2,Helmut Schaller Sr,1949,,84.8,Germany,220,140,240,600,SBD,Single-ply
+11,90,M,Masters 2,David Battisson,1948,,88.9,UK,205,140,255,600,SBD,Single-ply
 12,90,M,Masters 2,Wolfgang Zimmermann,1941,,89.1,Czechia,205,140,252.5,597.5,SBD,Single-ply
-13,90,M,Masters 2,Andy Christo,1947,,88.3,USA,217.5,142.5,235,595,SBD,Single-ply
+13,90,M,Masters 2,Andrew Christo,1947,,88.3,USA,217.5,142.5,235,595,SBD,Single-ply
 14,90,M,Masters 2,Joachim Lehmann,1949,,84.2,Germany,177.5,112.5,210,500,SBD,Single-ply
 15,90,M,Masters 2,Bjarne Palm,1937,,89.9,Denmark,140,95,157.5,392.5,SBD,Single-ply
 16,90,M,Masters 2,Jose-Lui Martinez,1939,,82.6,Spain,100,150,135,385,SBD,Single-ply

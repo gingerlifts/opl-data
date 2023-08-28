@@ -1,5 +1,6 @@
 //! Logic for the page that lists meets.
 
+use langpack::{Language, Locale};
 use opldb::query::direct::*;
 use opldb::{self, Meet, MetaFederation};
 use opltypes::*;
@@ -7,14 +8,14 @@ use opltypes::*;
 use std::ffi::OsStr;
 use std::path;
 
-use crate::langpack::{self, Language, Locale};
+use super::FromPathError;
 
 /// Query selection descriptor, corresponding to HTML widgets.
 ///
 /// For code reuse, this is a subset of the Query struct
 /// used by the rankings page. It needs to serialize to a structure
 /// that has the same fields, so the templates can share code.
-#[derive(Copy, Clone, PartialEq, Serialize)]
+#[derive(Copy, Clone, PartialEq, Eq, Serialize)]
 pub struct MeetListQuery {
     pub federation: FederationFilter,
     pub year: YearFilter,
@@ -30,17 +31,17 @@ impl Default for MeetListQuery {
 }
 
 impl MeetListQuery {
-    pub fn from_path(p: &path::Path, defaults: MeetListQuery) -> Result<Self, ()> {
+    pub fn from_path(p: &path::Path, defaults: MeetListQuery) -> Result<Self, FromPathError> {
         let mut ret = defaults;
 
         // Disallow empty path components.
         if let Some(s) = p.to_str() {
             if s.contains("//") {
-                return Err(());
+                return Err(FromPathError::EmptyComponent);
             }
         } else {
             // Failed parsing UTF-8.
-            return Err(());
+            return Err(FromPathError::NotUtf8);
         }
 
         // Prevent fields from being overwritten or redundant.
@@ -54,12 +55,11 @@ impl MeetListQuery {
             .filter_map(|a| a.file_name().and_then(OsStr::to_str))
         {
             // Check whether this is federation information.
-            if let Ok(f) = FederationFilter::from_str_preferring(
-                segment,
-                FedPreference::PreferFederation,
-            ) {
+            if let Ok(f) =
+                FederationFilter::from_str_preferring(segment, FedPreference::PreferFederation)
+            {
                 if parsed_federation {
-                    return Err(());
+                    return Err(FromPathError::ConflictingComponent);
                 }
 
                 // Even though we requested PreferFederation, in the case of
@@ -78,13 +78,13 @@ impl MeetListQuery {
             // Check whether this is year information.
             } else if let Ok(y) = segment.parse::<YearFilter>() {
                 if parsed_year {
-                    return Err(());
+                    return Err(FromPathError::ConflictingComponent);
                 }
                 ret.year = y;
                 parsed_year = true;
             // Unknown string, therefore malformed URL.
             } else {
-                return Err(());
+                return Err(FromPathError::UnknownComponent);
             }
         }
 
@@ -106,23 +106,14 @@ pub struct MeetInfo<'db> {
 }
 
 impl<'db> MeetInfo<'db> {
-    pub fn from(
-        meet: &'db opldb::Meet,
-        strings: &'db langpack::Translations,
-    ) -> MeetInfo<'db> {
+    pub fn from(meet: &'db opldb::Meet, strings: &'db langpack::Translations) -> MeetInfo<'db> {
         MeetInfo {
             path: &meet.path,
             federation: meet.federation,
             date: format!("{}", &meet.date),
             country: strings.translate_country(meet.country),
-            state: match meet.state {
-                None => None,
-                Some(ref s) => Some(&s),
-            },
-            town: match meet.town {
-                None => None,
-                Some(ref s) => Some(&s),
-            },
+            state: meet.state.as_ref().map(|s| s as _),
+            town: meet.town.as_ref().map(|t| t as _),
             name: &meet.name,
             num_lifters: meet.num_unique_lifters,
         }
@@ -161,7 +152,7 @@ impl<'db> Context<'db> {
         // TODO: Move this selection logic into the opldb.
         let mut meets: Vec<&Meet> = match mselection.federation {
             FederationFilter::AllFederations => opldb
-                .get_meets()
+                .meets()
                 .iter()
                 .filter(|m| match year {
                     Some(year) => m.date.year() == year,
@@ -170,7 +161,7 @@ impl<'db> Context<'db> {
                 .collect(),
             FederationFilter::One(fed) => {
                 opldb
-                    .get_meets()
+                    .meets()
                     .iter()
                     .filter(|m| {
                         // Filter by year.
@@ -185,10 +176,10 @@ impl<'db> Context<'db> {
                     .collect()
             }
             FederationFilter::Meta(meta) => opldb
-                .get_metafed_cache()
-                .get_meet_ids_for(meta)
+                .metafed_cache()
+                .meet_ids_for(meta)
                 .iter()
-                .map(|&i| opldb.get_meet(i))
+                .map(|&i| opldb.meet(i))
                 .filter(|m| match year {
                     Some(year) => m.date.year() == year,
                     None => true,
@@ -206,8 +197,8 @@ impl<'db> Context<'db> {
 
         Context {
             urlprefix: "/",
-            page_title: &locale.strings.page_titles.meets,
-            page_description: &locale.strings.html_header.description,
+            page_title: locale.strings.page_titles.meets,
+            page_description: locale.strings.html_header.description,
             language: locale.language,
             strings: locale.strings,
             units: locale.units,
@@ -215,7 +206,7 @@ impl<'db> Context<'db> {
             meets: meets
                 .into_iter()
                 .take(PAGE_SIZE)
-                .map(|m| MeetInfo::from(m, &locale.strings))
+                .map(|m| MeetInfo::from(m, locale.strings))
                 .collect(),
             theres_more: total_meets > PAGE_SIZE,
         }

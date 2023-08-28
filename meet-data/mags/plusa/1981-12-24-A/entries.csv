@@ -9,11 +9,11 @@ R. Mattingly,52,F,Open,75,37.5,112.5,225,SBD,Single-ply,2
 Cindy Dickey,56,F,Open,87.5,45,125,257.5,SBD,Single-ply,1
 C. Heckman,60,F,Open,135,65,150,350,SBD,Single-ply,1
 Pam Stevenson,60,F,Open,120,52.5,135,307.5,SBD,Single-ply,2
-Valery Perry,60,F,Open,117.5,55,125,297.5,SBD,Single-ply,3
+Verronica Perry,60,F,Open,117.5,55,125,297.5,SBD,Single-ply,3
 Y. Heiser,67.5,F,Open,110,65,110,285,SBD,Single-ply,1
 R. Tanny,75,F,Open,110,52.5,125,287.5,SBD,Single-ply,1
 William Burr,52,M,Novice,,,,,SBD,Single-ply,DQ
-W. Unger,56,M,Novice,122.5,67.5,147.5,337.5,SBD,Single-ply,1
+Wendell Unger,56,M,Novice,122.5,67.5,147.5,337.5,SBD,Single-ply,1
 T. Davis,56,M,Novice,82.5,60,102.5,245,SBD,Single-ply,2
 M. Seiter,60,M,Novice,137.5,115,180,432.5,SBD,Single-ply,1
 R. Heoltn,60,M,Novice,127.5,97.5,182.5,407.5,SBD,Single-ply,2
@@ -22,7 +22,7 @@ R. Brenner,67.5,M,Novice,185,105,187.5,477.5,SBD,Single-ply,1
 R. Graham,67.5,M,Novice,165,130,182.5,477.5,SBD,Single-ply,2
 B. Drewry,67.5,M,Novice,152.5,95,192.5,440,SBD,Single-ply,3
 G. Koons,67.5,M,Novice,137.5,92.5,192.5,422.5,SBD,Single-ply,4
-J. Henderson,67.5,M,Novice,137.5,97.5,185,420,SBD,Single-ply,5
+Jim Henderson,67.5,M,Novice,137.5,97.5,185,420,SBD,Single-ply,5
 D. Bloydes,67.5,M,Novice,107.5,90,157.5,355,SBD,Single-ply,6
 Mark Rigsby,67.5,M,Novice,115,92.5,137.5,345,SBD,Single-ply,7
 B. Pettibone,67.5,M,Novice,92.5,55,137.5,285,SBD,Single-ply,8
@@ -44,11 +44,11 @@ M. Velom,82.5,M,Novice,205,127.5,217.5,550,SBD,Single-ply,5
 D. Johnson,82.5,M,Novice,192.5,117.5,222.5,532.5,SBD,Single-ply,6
 J. Adams,82.5,M,Novice,170,147.5,182.5,500,SBD,Single-ply,7
 Mike Rigsby,82.5,M,Novice,167.5,122.5,192.5,482.5,SBD,Single-ply,8
-J. Christopher,82.5,M,Novice,147.5,117.5,210,475,SBD,Single-ply,9
+Joe Christopher,82.5,M,Novice,147.5,117.5,210,475,SBD,Single-ply,9
 W. Mann,82.5,M,Novice,165,92.5,190,447.5,SBD,Single-ply,10
 T. DeLong,90,M,Novice,232.5,142.5,240,615,SBD,Single-ply,1
 M. Watkins,90,M,Novice,215,165,225,605,SBD,Single-ply,2
-S. Israel,90,M,Novice,200,147.5,242.5,590,SBD,Single-ply,3
+Steve Isreal,90,M,Novice,200,147.5,242.5,590,SBD,Single-ply,3
 D. Harrison,90,M,Novice,230,132.5,210,572.5,SBD,Single-ply,4
 T. Shreder,90,M,Novice,207.5,122.5,227.5,557.5,SBD,Single-ply,5
 T. Reynolds,90,M,Novice,192.5,127.5,217.5,537.5,SBD,Single-ply,6
@@ -58,11 +58,11 @@ M. Herring,90,M,Novice,185,110,210,505,SBD,Single-ply,9
 Terry Meinberg,100,M,Novice,222.5,170,270,662.5,SBD,Single-ply,1
 Charles Carroll,100,M,Novice,245,167.5,237.5,650,SBD,Single-ply,2
 J. Spicer,100,M,Novice,225,155,252.5,632.5,SBD,Single-ply,3
-T. Dreschel,100,M,Novice,235,145,240,620,SBD,Single-ply,4
+Tim Dreschel,100,M,Novice,235,145,240,620,SBD,Single-ply,4
 L. Caporaletti,100,M,Novice,217.5,142.5,247.5,607.5,SBD,Single-ply,5
 R. Price,100,M,Novice,215,135,210,560,SBD,Single-ply,6
 A. Lalcom,100,M,Novice,170,137.5,250,557.5,SBD,Single-ply,7
-F. Finney,100,M,Novice,205,145,205,555,SBD,Single-ply,8
+Frank Finney,100,M,Novice,205,145,205,555,SBD,Single-ply,8
 V. Imhoff,100,M,Novice,205,125,222.5,552.5,SBD,Single-ply,9
 L. Brunner,100,M,Novice,182.5,142.5,215,540,SBD,Single-ply,10
 Ed Lytle,100,M,Novice,165,100,157.5,422.5,SBD,Single-ply,11
@@ -74,9 +74,9 @@ F. Prete,110,M,Novice,210,137.5,272.5,620,SBD,Single-ply,4
 J. Williams,110,M,Novice,200,170,230,600,SBD,Single-ply,5
 P. Miles,110,M,Novice,210,147.5,215,572.5,SBD,Single-ply,6
 Ken Noffsinger,110,M,Novice,195,102.5,230,527.5,SBD,Single-ply,7
-W. Unger,56,M,Open,122.5,67.5,147.5,337.5,SBD,Single-ply,1
+Wendell Unger,56,M,Open,122.5,67.5,147.5,337.5,SBD,Single-ply,1
 Frank Navarre,60,M,Open,175,125,190,490,SBD,Single-ply,1
-R. Holt,60,M,Open,127.5,97.5,182.5,407.5,SBD,Single-ply,2
+Randy Holt,60,M,Open,127.5,97.5,182.5,407.5,SBD,Single-ply,2
 M. Wader,67.5,M,Open,182.5,115,225,522.5,SBD,Single-ply,1
 Daryl Engle,67.5,M,Open,170,135,215,520,SBD,Single-ply,2
 B. Drewry,67.5,M,Open,152.5,95,192.5,440,SBD,Single-ply,3
@@ -97,7 +97,7 @@ Tony Pacifico,82.5,M,Open,245,117.5,227.5,590,SBD,Single-ply,4
 R. Watkins,82.5,M,Open,227.5,120,240,587.5,SBD,Single-ply,5
 Jeff Driskill,82.5,M,Open,205,140,240,585,SBD,Single-ply,6
 Russ Presswood,82.5,M,Open,215,122.5,227.5,565,SBD,Single-ply,7
-Jerry Wells,82.5,M,Open,215,165,182.5,562.5,SBD,Single-ply,8
+Jerry Wells #1,82.5,M,Open,215,165,182.5,562.5,SBD,Single-ply,8
 J. Warman,82.5,M,Open,192.5,147.5,215,555,SBD,Single-ply,9
 W. Mann,82.5,M,Open,165,92.5,190,447.5,SBD,Single-ply,10
 Mike Capasso,90,M,Open,295,180,320,795,SBD,Single-ply,1

@@ -1,15 +1,21 @@
 # The OpenPowerlifting Project
 
-[![Build Status](https://gitlab.com/openpowerlifting/opl-data/badges/master/pipeline.svg)](https://gitlab.com/openpowerlifting/opl-data/commits/master)
+[![Build Status](https://gitlab.com/openpowerlifting/opl-data/badges/main/pipeline.svg)](https://gitlab.com/openpowerlifting/opl-data/commits/main)
 
-A permanent, accurate, convenient, accessible, open archive of the world's powerlifting data.<br/>
+A permanent, accurate, convenient, accessible, open archive of the world's powerlifting data.
 Presentation of this data is available at [OpenPowerlifting.org](https://www.openpowerlifting.org).
 
 **Powerlifting to the People.**
 
-## Development Chat
+## Contents
 
-Project development is discussed in the [OpenPowerlifting Zulip Chat](https://openpl.zulipchat.com/). Everyone is welcome to join.
+1. [Project Chat](#project-chat)
+2. [Licensing](#licensing)
+3. [Development Installation](#development-installation)
+
+## Project Chat
+
+Project work is discussed in the [OpenPowerlifting Zulip Chat](https://openpl.zulipchat.com/). Everyone is welcome to join.
 
 ## Licensing
 
@@ -48,18 +54,16 @@ the changes back so the entire powerlifting community may benefit.
 Install dependencies:
 
 ```bash
-sudo dnf install make npm python3-beautifulsoup4 python3-flake8 ansible parallel uglify-js
+sudo dnf install make npm python3-beautifulsoup4 python3-flake8 ansible parallel uglify-js jemalloc
 ```
 
-Install the "nightly" version of the Rust programming language using `rustup`:
+Install the Rust programming language using `rustup`:
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-When a menu appears, choose "Customize installation".<br/>
-Press the Enter key until it asks `Default toolchain?`. Type `nightly` and press Enter.<br/>
-Continue pressing Enter at the remaining prompts until Rust is installed.
+The default options are OK.
 
 Log out and log back in to allow `~/.cargo/bin` to be part of your default shell `$PATH`.
 
@@ -76,9 +80,8 @@ cargo run --release
 Follow the instructions for Fedora, but use this alternate command for installing dependencies:
 
 ```bash
-sudo apt-get install curl make npm python3-bs4 flake8 ansible parallel uglifyjs
+sudo apt-get install curl make npm python3-bs4 flake8 ansible parallel uglifyjs jemalloc
 ```
-
 
 ### Windows 10 (Native)
 
@@ -87,9 +90,7 @@ sudo apt-get install curl make npm python3-bs4 flake8 ansible parallel uglifyjs
 
 2. Install the [Rust language for Windows](https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe).
 
-    * When a menu appears, choose "Customize installation".
-    * Press the Enter key until it asks `Default toolchain?`. Type `nightly` and press Enter.
-    * Continue pressing Enter at the remaining prompts until Rust is installed.
+    * The default options are OK.
 
 3. To clone this repository locally, [install GitHub Desktop](https://desktop.github.com/). When given the option, select "Clone from URL" and enter `https://gitlab.com/openpowerlifting/opl-data.git` or the address to a personal fork.
 
@@ -102,9 +103,9 @@ sudo apt-get install curl make npm python3-bs4 flake8 ansible parallel uglifyjs
 
 To run the server using Docker, simply build and run:
 
-```
+```bash
 docker build -t opl .
 docker run -p 8000:8000 opl
 ```
 
-Access at http://localhost:8000/ per usual.
+Access at <http://localhost:8000/> per usual.

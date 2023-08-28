@@ -2,7 +2,7 @@ Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Be
 Boys,55.79,1,Timothy Ortiz,Odessa,51.89,124.74,74.84,142.88,342.46,Single-ply,SBD,M
 Boys,51.71,2,Ignacio Romero,Plainview,45.45,122.47,54.43,106.59,283.5,Single-ply,SBD,M
 Boys,55.79,3,Dylan Logan,Abilene Cooper,51.8,108.86,49.9,106.59,265.35,Single-ply,SBD,M
-Boys,51.71,4,Austin Perkins,Abilene Cooper,47.9,104.33,52.16,106.59,263.08,Single-ply,SBD,M
+Boys,51.71,4,Austin Perkins #2,Abilene Cooper,47.9,104.33,52.16,106.59,263.08,Single-ply,SBD,M
 Boys,51.71,5,Tucker Craig,Midland,47.99,102.06,56.7,102.06,260.82,Single-ply,SBD,M
 Boys,51.71,6,Matthew Rodriguez,Amarillo Caprock,51.17,79.38,49.9,102.06,231.33,Single-ply,SBD,M
 Boys,51.71,7,Antonio Barron,San Angelo Lake View,48.44,81.65,38.56,95.25,215.46,Single-ply,SBD,M
@@ -21,7 +21,7 @@ Boys,55.79,9,Aaron Rivera,San Angelo Lake View,55.7,120.2,79.38,129.27,328.85,Si
 Boys,55.79,10,Davin Luna,Plainview,55.52,117.93,61.23,133.81,312.98,Single-ply,SBD,M
 Boys,59.87,1,Zane Ponder,Plainview,58.69,181.44,88.45,158.76,428.64,Single-ply,SBD,M
 Boys,59.87,2,Danny Gallardo,Plainview,59.24,161.03,79.38,170.1,410.5,Single-ply,SBD,M
-Boys,59.87,3,Brandon Lee,San Angelo Lake View,59.51,158.76,72.57,163.29,394.63,Single-ply,SBD,M
+Boys,59.87,3,Brandon Lee #8,San Angelo Lake View,59.51,158.76,72.57,163.29,394.63,Single-ply,SBD,M
 Boys,59.87,4,Kobe Young,Wolfforth Frenship,58.24,129.27,74.84,142.88,347,Single-ply,SBD,M
 Boys,59.87,5,Albert Nieto,Amarillo Caprock,59.24,129.27,81.65,136.08,347,Single-ply,SBD,M
 Boys,59.87,6,Jacob Cantu,Abilene Cooper,58.88,104.33,65.77,115.67,285.76,Single-ply,SBD,M
@@ -42,7 +42,7 @@ Boys,74.84,1,Angel Moreno,San Angelo Lake View,74.57,249.48,158.76,213.19,621.42
 Boys,74.84,2,Holt Eads,Midland,73.94,195.04,133.81,226.8,555.65,Single-ply,SBD,M
 Boys,74.84,3,Jacob Hines,Abilene,73.12,213.19,106.59,213.19,532.97,Single-ply,SBD,M
 Boys,82.1,4,Cp Aguilera,San Angelo Lake View,75.07,206.38,111.13,208.65,526.17,Single-ply,SBD,M
-Boys,74.84,5,Daniel Lockhart,Midland,72.85,183.7,104.33,210.92,498.95,Single-ply,SBD,M
+Boys,74.84,5,Daniel Lockhart #1,Midland,72.85,183.7,104.33,210.92,498.95,Single-ply,SBD,M
 Boys,74.84,6,Steven Vallejo,Plainview,72.57,195.04,83.91,215.46,494.42,Single-ply,SBD,M
 Boys,74.84,7,Cameron Hurd,Midland,73.84,174.63,92.99,217.72,485.34,Single-ply,SBD,M
 Boys,74.84,8,Alex De La Rosa,Abilene Cooper,74.21,174.63,124.74,174.63,474,Single-ply,SBD,M
@@ -90,7 +90,7 @@ Boys,109.77,2,Miguel Espinoza,Abilene,105.87,263.08,165.56,238.14,666.78,Single-
 Boys,109.77,3,Zechariah Lerma,Odessa,104.42,260.82,149.69,235.87,646.37,Single-ply,SBD,M
 Boys,109.77,4,Nate Newton,San Angelo Central,107.23,256.28,136.08,219.99,612.35,Single-ply,SBD,M
 Boys,109.77,5,Matthew Cardenas,Wolfforth Frenship,105.05,235.87,145.15,226.8,607.81,Single-ply,SBD,M
-Boys,109.77,6,David Brown,Abilene,104.96,208.65,156.49,215.46,580.6,Single-ply,SBD,M
+Boys,109.77,6,David Brown #14,Abilene,104.96,208.65,156.49,215.46,580.6,Single-ply,SBD,M
 Boys,109.77,7,Josh Hunter,Abilene,102.33,226.8,120.2,226.8,573.79,Single-ply,SBD,M
 Boys,109.77,8,Tailor Hunt,San Angelo Central,101.97,235.87,127.01,206.38,569.26,Single-ply,SBD,M
 Boys,109.77,9,Justin Sanchez,Midland,103.33,217.72,127.01,206.38,551.11,Single-ply,SBD,M
@@ -113,7 +113,7 @@ Boys,124.74,DQ,Slayde Anderson,Abilene,111.77,183.7,111.13,,,Single-ply,SBD,M
 Boys,124.74,DQ,Marcus Smith,Amarillo Caprock,122.74,199.58,154.22,,,Single-ply,SBD,M
 Boys,124.74+,1,Riley Owens,Abilene Cooper,144.24,281.23,167.83,249.48,698.53,Single-ply,SBD,M
 Boys,124.74+,2,Dj Schlather,San Angelo Lake View,132.36,274.42,165.56,249.48,689.46,Single-ply,SBD,M
-Boys,124.74+,3,Pablo Gutierrez,Odessa,132.63,292.57,156.49,240.4,689.46,Single-ply,SBD,M
+Boys,124.74+,3,Pablo Gutierrez #2,Odessa,132.63,292.57,156.49,240.4,689.46,Single-ply,SBD,M
 Boys,124.74+,4,Jesus Verastegui,Abilene,147.51,272.16,136.08,222.26,630.49,Single-ply,SBD,M
 Boys,124.74+,5,Aaron Leyva,Odessa,125.46,256.28,142.88,219.99,619.15,Single-ply,SBD,M
 Boys,124.74+,6,O'Shay Scott,Midland,129.82,240.4,142.88,235.87,619.15,Single-ply,SBD,M

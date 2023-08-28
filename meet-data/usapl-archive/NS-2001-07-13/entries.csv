@@ -30,14 +30,14 @@ WeightClassKg,Name,Team,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Ben
 100,PJ Chovanec,Quest,99.3,-305,305,-325,305,182.5,195,197.5,197.5,320,-342.5,-345,320,822.5,M,SBD,Single-ply,5,M-O
 100,Marty Drueppel,,97.1,272.5,290,300,300,-190,197.5,205,205,295,312.5,-322.5,312.5,817.5,M,SBD,Single-ply,6,M-O
 100,Tony Stevens #2,,97.9,282.5,-300,-307.5,282.5,225,-245,,225,-287.5,295,300,300,807.5,M,SBD,Single-ply,7,M-O
-100,Jason Burnell,California,97.4,-300,-300,-320,,,,,,,,,,,M,SBD,Single-ply,DQ,M-O
+100,Jason Burnell #1,California,97.4,-300,-300,-320,,,,,,,,,,,M,SBD,Single-ply,DQ,M-O
 100,Scott Waits,California,99.7,-320,-325,-325,,,,,,,,,,,M,SBD,Single-ply,DQ,M-O
 100,Steve Pincock,,99,-305,,,,,,,,,,,,,M,SBD,Single-ply,DQ,M-O
 100,Michael Kalter,Guest,99.9,275,300,-327.5,300,175,190,-227.5,190,330,362.5,-367.5,362.5,852.5,M,SBD,Single-ply,2,M-O
 110,Anthony Harris #1,,105.8,300,325,337.5,337.5,200,215,220,220,315,332.5,,332.5,890,M,SBD,Single-ply,1,M-O
 110,Kevin Stewart #1,,108.7,-327.5,327.5,-337.5,327.5,230,237.5,-245,237.5,310,-320,,310,875,M,SBD,Single-ply,2,M-O
 110,Shawn Cain,,108.4,282.5,297.5,310,310,195,207.5,212.5,212.5,305,322.5,332.5,332.5,855,M,SBD,Single-ply,3,M-O
-110,Steve Mann,Quest,109.7,317.5,327.5,-337.5,327.5,205,212.5,217.5,217.5,267.5,285,-290,285,830,M,SBD,Single-ply,4,M-O
+110,Steve Mann #1,Quest,109.7,317.5,327.5,-337.5,327.5,205,212.5,217.5,217.5,267.5,285,-290,285,830,M,SBD,Single-ply,4,M-O
 110,Deron Rogers,,110,295,307.5,315,315,160,170,-182.5,170,297.5,320,340,340,825,M,SBD,Single-ply,5,M-O
 110,Patrick Johnson,,109.9,305,320,-325,320,215,227.5,-230,227.5,265,275,-280,275,822.5,M,SBD,Single-ply,6,M-O
 110,Dave Gonzalez,,110,307.5,-315,-347.5,307.5,205,212.5,-215,212.5,280,295,-307.5,295,815,M,SBD,Single-ply,7,M-O
@@ -53,7 +53,7 @@ WeightClassKg,Name,Team,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Ben
 125,Greg Wagner,,119.6,310,327.5,340,340,222.5,-237.5,-237.5,222.5,272.5,292.5,307.5,307.5,870,M,SBD,Single-ply,7,M-O
 125,Collin Rhodes #1,Titan,119.6,-310,310,-320,310,240,250,-260,250,300,-310,-310,300,860,M,SBD,Single-ply,8,M-O
 125,Mike Kautz,California,123.8,327.5,-337.5,-337.5,327.5,205,215,222.5,222.5,-305,305,-315,305,855,M,SBD,Single-ply,9,M-O
-125,Kayne Droesser,,124.5,300,-320,-320,300,232.5,242.5,250,250,280,290,-300,290,840,M,SBD,Single-ply,10,M-O
+125,Wayne Droesser,,124.5,300,-320,-320,300,232.5,242.5,250,250,280,290,-300,290,840,M,SBD,Single-ply,10,M-O
 125,Hank Sargent,,123.9,320,-335,-335,320,200,202.5,-210,202.5,305,-345,-345,305,827.5,M,SBD,Single-ply,11,M-O
 125,Mike Andersen,,123.9,305,-327.5,327.5,327.5,185,200,210,210,282.5,-307.5,-307.5,282.5,820,M,SBD,Single-ply,12,M-O
 125,Michael Hartle,,122.5,260,282.5,-292.5,282.5,202.5,212.5,-220,212.5,240,-250,-250,240,735,M,SBD,Single-ply,13,M-O

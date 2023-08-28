@@ -1,9 +1,9 @@
 Place,Name,Division,Equipment,Event,BirthDate,BirthYear,Age,Sex,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg
 1,Clara Peyraud,Sub-Juniors,Raw,B,,2002,17,F,69.85,72,,,,,92.5,97.5,-102.5,97.5,,,,,97.5
-1,Galatea Gouissemi,Juniors,Raw,B,,1998,21,F,51.6,52,,,,,50,52.5,57.5,57.5,,,,,57.5
+1,Galatéa Gouissemi,Juniors,Raw,B,,1998,21,F,51.6,52,,,,,50,52.5,57.5,57.5,,,,,57.5
 1,Lucie Rousselot,Juniors,Raw,B,,1999,20,F,56.9,57,,,,,77.5,-82.5,-82.5,77.5,,,,,77.5
 1,Camille Pailha,Juniors,Raw,B,,1999,20,F,63.7,72,,,,,82.5,87.5,90,90,,,,,90
-1,Charlotte Vedel,Seniors,Raw,B,,1994,25,F,56.6,57,,,,,92.5,-97.5,97.5,97.5,,,,,97.5
+1,Charlotte Peyraud,Seniors,Raw,B,,1994,25,F,56.6,57,,,,,92.5,-97.5,97.5,97.5,,,,,97.5
 1,Mélodie Anthouard,Seniors,Raw,B,,1988,31,F,57.4,63,,,,,-97.5,97.5,-105,97.5,,,,,97.5
 1,Véronique Descours,Masters 1,Raw,B,,1971,48,F,61.6,63,,,,,65,70,-75,70,,,,,70
 1,Sylvie Fradin,Masters 2,Raw,B,,1963,56,F,62.8,63,,,,,67.5,70,-72.5,70,,,,,70
@@ -23,7 +23,7 @@ Place,Name,Division,Equipment,Event,BirthDate,BirthYear,Age,Sex,BodyweightKg,Wei
 2,Allan Grenier,Seniors,Raw,B,,1990,29,M,100.5,105,,,,,185,195,-202.5,195,,,,,195
 3,Paul Chavanis,Seniors,Raw,B,,1988,31,M,104.05,105,,,,,185,190,,190,,,,,190
 4,Florian Piraud,Seniors,Raw,B,,1985,34,M,101.55,105,,,,,165,-167.5,-167.5,165,,,,,165
-1,Mickael Lager,Masters 1,Raw,B,,1971,48,M,72.65,74,,,,,132.5,142.5,145,145,,,,,145
+1,Mickaël Lager,Masters 1,Raw,B,,1971,48,M,72.65,74,,,,,132.5,142.5,145,145,,,,,145
 2,Jérome Boulle,Masters 1,Raw,B,,1977,42,M,70.35,74,,,,,105,112.5,-117.5,112.5,,,,,112.5
 1,Julien Vincent,Masters 1,Raw,B,,1979,40,M,82.5,83,,,,,135,-140,-140,135,,,,,135
 2,Julien Wlady,Masters 1,Raw,B,,1980,39,M,81.65,83,,,,,110,115,-117.5,115,,,,,115

@@ -1,6 +1,6 @@
 Event,Division,WeightClassKg,Best3BenchKg,Bench4Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Name,Country,State,Equipment,Sex,Place
 D,Class 1,67.5,,,195,,195,Dave Constantineau,,WI,Single-ply,M,1
-D,Class 1,75,,,200,,200,James Lin,,WA,Single-ply,M,1
+D,Class 1,75,,,200,,200,James Lin #2,,WA,Single-ply,M,1
 D,Class 1,75,,,192.5,,192.5,Rick Michaud,,ME,Single-ply,M,2
 D,Class 1,75,,,182.5,,182.5,Caleb Nute,,ME,Single-ply,M,3
 D,Class 1,82.5,,,250,,250,Ben Dehghan,,WA,Single-ply,M,1
@@ -14,7 +14,7 @@ D,Class 1,90,,,255,,255,Preston Quinn,,WI,Single-ply,M,2
 D,Class 1,90,,,252.5,,252.5,Zachary Freemantle,,WA,Single-ply,M,3
 D,Class 1,90,,,210,,210,Derek Kumagai,,WA,Single-ply,M,5
 D,Class 1,90,,,232.5,,232.5,Kevin Dunford,Canada,,Single-ply,M,4
-D,Class 1,100,,,192.5,,192.5,Michael Collins,,CA,Multi-ply,M,1
+D,Class 1,100,,,192.5,,192.5,Michael Collins #5,,CA,Multi-ply,M,1
 D,Class 1,100,,,272.5,,272.5,Adam Pixton,,UT,Single-ply,M,1
 D,Class 1,100,,,265.5,,265.5,John Westleigh,,ME,Single-ply,M,2
 D,Class 1,100,,,265,,265,Brady Hosley,,UT,Single-ply,M,3
@@ -27,7 +27,7 @@ D,Class 1,110,,,278,,278,Dennis Schmidt,,MN,Single-ply,M,1
 D,Class 1,110,,,220,,220,Joseph Doyon,,ME,Single-ply,M,3
 D,Class 1,110,,,182.5,,182.5,Chris Knott,,MN,Single-ply,M,5
 D,Class 1,110,,,215,,215,William G Caughey,,UT,Single-ply,M,4
-D,Class 1,117.5,,,250,,250,Daniel Oldham,,ID,Single-ply,M,2
+D,Class 1,117.5,,,250,,250,Dan Oldham,,ID,Single-ply,M,2
 D,Class 1,117.5,,,280,,280,David Palmer,,ME,Single-ply,M,1
 D,Class 1,117.5,,,227.5,,227.5,Jeremy Donnelly,,AZ,Single-ply,M,3
 D,Class 1,117.5,,,225,,225,Isaac Conde,,TX,Single-ply,M,4
@@ -94,7 +94,7 @@ D,Open,100,,,303.5,,303.5,Jimmy House,,AZ,Single-ply,M,2
 D,Open,100,,,292.5,300,292.5,Drew Burton,Canada,,Single-ply,M,3
 D,Open,100,,,282.5,,282.5,Christopher Calderon,,TX,Single-ply,M,4
 D,Open,100,,,272.5,,272.5,Adam Pixton,,UT,Single-ply,M,5
-D,Open,110,,,260,,260,Ryan Martin,,ME,Single-ply,M,3
+D,Open,110,,,260,,260,Ryan Martin #3,,ME,Single-ply,M,3
 D,Open,110,,,320,,320,Tim Sparkes,,AZ,Single-ply,M,1
 D,Open,110,,,282.5,,282.5,Robert Exum,,CA,Single-ply,M,2
 D,Open,110,,,260,,260,Marcelo Schneider,Brazil,,Single-ply,M,4
@@ -120,7 +120,7 @@ B,Class 1,75,,,,,,Charles Vaughn,,OR,Single-ply,M,DQ
 B,Class 1,75,175,,,,175,Nick Buck,,WI,Single-ply,M,1
 B,Class 1,75,170,,,,170,Rick Michaud,,ME,Multi-ply,M,1
 B,Class 1,75,162.5,,,,162.5,Jeramie Dawley,,OR,Single-ply,M,2
-B,Class 1,75,150,,,,150,James Lin,,WA,Multi-ply,M,2
+B,Class 1,75,150,,,,150,James Lin #2,,WA,Multi-ply,M,2
 B,Class 1,75,157.5,,,,157.5,Robert Hutchens,,NJ,Single-ply,M,3
 B,Class 1,75,145,,,,145,Andy Kaszubski,,WI,Single-ply,M,4
 B,Class 1,82.5,,,,,,Kawika Machado,,HI,Single-ply,M,DQ
@@ -143,7 +143,7 @@ B,Class 1,90,115,,,,115,Matthew Collins #3,,CA,Single-ply,M,5
 B,Class 1,100,,,,,,Samuel Swift,,TX,Single-ply,M,DQ
 B,Class 1,100,155,,,,155,Will Potter,,WA,Multi-ply,M,1
 B,Class 1,100,227.5,,,,227.5,John Westleigh,,ME,Single-ply,M,1
-B,Class 1,100,147.5,,,,147.5,Michael Collins,,CA,Multi-ply,M,2
+B,Class 1,100,147.5,,,,147.5,Michael Collins #5,,CA,Multi-ply,M,2
 B,Class 1,100,182.5,,,,182.5,Kyle Herzik,,NV,Single-ply,M,2
 B,Class 1,100,170,,,,170,Brian Fahrenfeld,,NY,Single-ply,M,3
 B,Class 1,110,82.5,,,,82.5,Harry Munro,,CA,Single-ply,M,4
@@ -155,7 +155,7 @@ B,Class 1,110,97.5,,,,97.5,William G Caughey,,UT,Single-ply,M,3
 B,Class 1,117.5,,,,,,Jeremy Donnelly,,AZ,Single-ply,M,DQ
 B,Class 1,117.5,,,,,,Joe LaSalle,,WA,Single-ply,M,DQ
 B,Class 1,117.5,147.5,,,,147.5,Isaac Conde,,TX,Single-ply,M,3
-B,Class 1,117.5,252.5,,,,252.5,Daniel Oldham,,ID,Single-ply,M,1
+B,Class 1,117.5,252.5,,,,252.5,Dan Oldham,,ID,Single-ply,M,1
 B,Class 1,117.5,218,,,,218,Mick Quilici,,NV,Multi-ply,M,1
 B,Class 1,117.5,227.5,,,,227.5,David Palmer,,ME,Single-ply,M,2
 B,Class 1,125,172.5,,,,172.5,Gene Cameron,,AZ,Single-ply,M,1
@@ -166,7 +166,7 @@ B,Class 1,140+,130,,,,130,Keith Sayles,,TX,Multi-ply,M,1
 B,Elite Open,67.5,,,,,,Kerwin Unten,,HI,Single-ply,M,DQ
 B,Elite Open,75,255.5,,,,255.5,Donald Ramil,,HI,Single-ply,M,1
 B,Elite Open,75,235,,,,235,David R Smith,,TX,Single-ply,M,2
-B,Elite Open,125,297.5,,,,297.5,David Lewis,,IL,Single-ply,M,1
+B,Elite Open,125,297.5,,,,297.5,David Lewis #4,,IL,Single-ply,M,1
 B,Elite Open,140+,,,,,,Tiny Meeker,,TX,Single-ply,M,DQ
 B,Elite Open,140+,,,,,,Robert Vick,,IL,Single-ply,M,DQ
 B,Law-Fire 40-47,110,170,,,,170,Freddy Crosby,,IL,Single-ply,M,1
@@ -178,7 +178,7 @@ B,Law-Fire 40-47,140+,,,,,,Hiram Kaikaina III,,HI,Multi-ply,M,DQ
 B,Law-Fire 48-55,90,,,,,,Gary McFarland,,CA,Single-ply,M,DQ
 B,Law-Fire 48-55,90,137.5,,,,137.5,Dan Guches,,OR,Single-ply,M,2
 B,Law-Fire 48-55,90,155,,,,155,Luis Fernando Meireles Dias,Brazil,,Single-ply,M,1
-B,Law-Fire 48-55,100,230,,,,230,Brian Reynolds,,WA,Single-ply,M,1
+B,Law-Fire 48-55,100,230,,,,230,Brian Reynolds #2,,WA,Single-ply,M,1
 B,Law-Fire 48-55,100,210,,,,210,Joe Gardner,,IL,Single-ply,M,2
 B,Law-Fire 48-55,110,155,160,,,155,Dave Ettinger,Canada,,Single-ply,M,1
 B,Law-Fire 48-55,125,190.5,,,,190.5,Eric Jones,,MI,Single-ply,M,1
@@ -230,12 +230,12 @@ B,Open,100,265,,,,265,Chad Bertelmann,,HI,Single-ply,M,2
 B,Open,100,210,,,,210,Juha Pukkila,Finland,,Single-ply,M,3
 B,Open,110,,,,,,Brent Gapusan,,HI,Multi-ply,M,DQ
 B,Open,110,,,,,,Austin Sellers,,TX,Single-ply,M,DQ
-B,Open,110,190,,,,190,Ryan Martin,,ME,Single-ply,M,2
+B,Open,110,190,,,,190,Ryan Martin #3,,ME,Single-ply,M,2
 B,Open,110,280,,,,280,Kenneth Millrany,,TN,Multi-ply,M,1
 B,Open,110,287.5,,,,287.5,Joey Murphy,,GA,Single-ply,M,1
 B,Open,110,185,,,,185,Marcelo Schneider,Brazil,,Single-ply,M,3
 B,Open,110,235,,,,235,Ulrich Zamora,,NV,Multi-ply,M,2
-B,Open,117.5,252.5,,,,252.5,Daniel Oldham,,ID,Single-ply,M,1
+B,Open,117.5,252.5,,,,252.5,Dan Oldham,,ID,Single-ply,M,1
 B,Open,117.5,185,190,,,185,Eduardo Turrini Ribeiro,Brazil,,Single-ply,M,2
 B,Open,117.5,125,,,,125,John Johnson,,MI,Single-ply,M,3
 B,Open,125,,,,,,Willard Crossen Jr,,WA,Single-ply,M,DQ
@@ -428,7 +428,7 @@ B,Submasters 33-39,90+,67.5,,,,67.5,Janessa Sturtz,,MN,Single-ply,F,1
 B,Submasters 33-39,90+,55,,,,55,Christine Ruscher,,MN,Single-ply,F,3
 BD,Class 1,67.5,130,,195,,325,Dave Constantineau,,,Single-ply,M,1
 BD,Class 1,90,212.5,,255,,467.5,Preston Quinn,,WI,Single-ply,M,1
-BD,Class 1,100,147.5,,192.5,,340,Michael Collins,,CA,Multi-ply,M,1
+BD,Class 1,100,147.5,,192.5,,340,Michael Collins #5,,CA,Multi-ply,M,1
 BD,Class 1,110,97.5,,215,,312,William G Caughey,,UT,Single-ply,M,1
 BD,Class 1,110,82.5,,165,,247.5,Harry Munro,,CA,Single-ply,M,2
 BD,Class 1,117.5,227.5,,280,,507.5,David Palmer,,ME,Single-ply,M,1

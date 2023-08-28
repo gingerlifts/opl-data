@@ -11,7 +11,7 @@ Boys,51.71,9,Taylor White,San Angelo Grape Creek,49.9,74.84,45.36,81.65,201.85,S
 Boys,51.71,10,Chris Deleon,Roscoe,51.71,97.52,,,97.52,Single-ply,S,M
 Boys,55.79,1,Evan Valenzuela,Midland,53.75,136.08,79.38,145.15,360.61,Single-ply,SBD,M
 Boys,55.79,2,Austin Martinez,Mertzon Irion County,55.11,136.08,77.11,136.08,349.27,Single-ply,SBD,M
-Boys,55.79,3,Jesse Ramirez,San Angelo Lake View,52.16,120.2,72.57,145.15,337.93,Single-ply,SBD,M
+Boys,55.79,3,Jesse Ramirez #2,San Angelo Lake View,52.16,120.2,72.57,145.15,337.93,Single-ply,SBD,M
 Boys,55.79,4,Jordan Uriegas,San Angelo Lake View,55.25,124.74,63.5,138.35,326.59,Single-ply,SBD,M
 Boys,55.79,5,Tyler Pacheco,San Angelo Lake View,55.25,127.01,63.5,127.01,317.51,Single-ply,SBD,M
 Boys,55.79,6,Pablo Hinojosa,Lamesa,55.7,122.47,61.23,124.74,308.44,Single-ply,SBD,M
@@ -99,7 +99,7 @@ Boys,82.1,20,Alejandro Méndez,Ozona,77.29,113.4,83.91,111.13,308.44,Single-ply,
 Boys,89.81,1,Abner Godoy,Midland,89.72,206.38,142.88,215.46,564.72,Single-ply,SBD,M
 Boys,89.81,2,Conrad Duran,San Angelo Lake View,83.28,190.51,117.93,183.7,492.15,Single-ply,SBD,M
 Boys,89.81,3,Aaron Allen #2,San Angelo Lake View,89.45,183.7,92.99,197.31,474,Single-ply,SBD,M
-Boys,89.81,4,Austin Turner,San Angelo Lake View,88.09,158.76,122.47,176.9,458.13,Single-ply,SBD,M
+Boys,89.81,4,Austin Turner #4,San Angelo Lake View,88.09,158.76,122.47,176.9,458.13,Single-ply,SBD,M
 Boys,89.81,5,Mikel Shaffer,San Angelo Lake View,89.72,188.24,88.45,179.17,455.86,Single-ply,SBD,M
 Boys,89.81,6,Curtis McCourkel,San Angelo Grape Creek,84.28,163.29,92.99,167.83,424.11,Single-ply,SBD,M
 Boys,89.81,7,Rogelio Valenzuela Jr,Midland,85.28,151.95,99.79,172.37,424.11,Single-ply,SBD,M
@@ -118,7 +118,7 @@ Boys,99.79,8,Roman Romero,Snyder,93.98,172.37,122.47,174.63,469.47,Single-ply,SB
 Boys,99.79,9,Danny Dillman,Midland,93.67,167.83,111.13,185.97,464.93,Single-ply,SBD,M
 Boys,99.79,10,Isacc Dearing,Midland,99.7,140.61,99.79,195.04,435.45,Single-ply,SBD,M
 Boys,99.79,11,Colton Acevedo,Big Spring,91.44,165.56,90.72,147.42,403.7,Single-ply,SBD,M
-Boys,99.79,12,Michael Medina,Ozona,94.57,142.88,106.59,142.88,392.36,Single-ply,SBD,M
+Boys,99.79,12,Michael Medina #2,Ozona,94.57,142.88,106.59,142.88,392.36,Single-ply,SBD,M
 Boys,99.79,13,Austin Davidson,Mertzon Irion County,93.89,131.54,83.91,138.35,353.8,Single-ply,SBD,M
 Boys,99.79,14,Anthony Avia,Ozona,96.25,,68.04,,68.04,Single-ply,B,M
 Boys,109.77,1,Henry Hoang,Midland,103.87,238.14,147.42,233.6,619.15,Single-ply,SBD,M
@@ -136,7 +136,7 @@ Boys,109.77,12,Richard Keaton,Coahoma,109.77,188.24,81.65,176.9,446.79,Single-pl
 Boys,109.77,13,Gunner Burklow,Lamesa,109.59,165.56,90.72,163.29,419.57,Single-ply,SBD,M
 Boys,109.77,14,Emiliano Renteria,Lamesa,105.23,147.42,97.52,172.37,417.3,Single-ply,SBD,M
 Boys,109.77,15,Max Macik,Coahoma,108.59,163.29,83.91,167.83,415.04,Single-ply,SBD,M
-Boys,109.77,16,Daniel Ramirez,San Angelo Lake View,109.13,145.15,83.91,167.83,396.89,Single-ply,SBD,M
+Boys,109.77,16,Daniel Ramirez #12,San Angelo Lake View,109.13,145.15,83.91,167.83,396.89,Single-ply,SBD,M
 Boys,109.77,17,Brandon Sanders,Coahoma,102.78,154.22,83.91,154.22,392.36,Single-ply,SBD,M
 Boys,109.77,18,John Paul Galvan,Eldorado,102.69,140.61,74.84,154.22,369.68,Single-ply,SBD,M
 Boys,109.77,19,Jorge Flores,Lamesa,100.52,163.29,,,163.29,Single-ply,S,M
@@ -163,5 +163,5 @@ Boys,124.74+,4,Devon Davis-Locke,Big Spring,128,172.37,158.76,176.9,508.02,Singl
 Boys,124.74+,5,Malachi Nichols,Midland,131.18,158.76,142.88,199.58,501.22,Single-ply,SBD,M
 Boys,124.74+,6,Sawyer Roberts,Big Spring,151.05,163.29,113.4,204.12,480.81,Single-ply,SBD,M
 Boys,124.74+,7,Zach Byars,Midland,150.59,165.56,120.2,181.44,467.2,Single-ply,SBD,M
-Boys,124.74+,8,Jackson Watkins,Big Spring,129.73,163.29,122.47,167.83,453.59,Single-ply,SBD,M
+Boys,124.74+,8,Jackson Watkins #2,Big Spring,129.73,163.29,122.47,167.83,453.59,Single-ply,SBD,M
 Boys,124.74+,9,Ben Wipff,Eldorado,136.26,170.1,92.99,181.44,444.52,Single-ply,SBD,M

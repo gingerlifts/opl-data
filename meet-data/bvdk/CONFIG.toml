@@ -17,18 +17,36 @@
     masters3 = {name = "Masters 3", min=59.5, max=68.5}
     masters4 = {name = "Masters 4", min=69.5, max=999}
     masters5 = {name = "Masters 5", min=79.5, max=999}
-	special_olympics = {name="Special Olympics", min=0, max=999}
+    special_olympics = {name="Special Olympics", min=0, max=999}
+	guest = {name="Guest", min=0, max=999}
 
     masters = {name = "Masters", min=39.5, max=999}
+
+
+
+# German forms of divisions
+    junioren = {name = "Junioren", min=0, max=22.5}
+    ajugend = {name = "A-Jugend", min=0, max=17.5}
+    bjugend = {name = "B-Jugend", min=0, max=15.5}
+    ak = {name = "AK", min=22.5, max=38.5}
+    ak1 = {name = "AK I", min=39.5, max=48.5}
+    ak2 = {name = "AK II", min=49.5, max=58.5}
+    ak3 = {name = "AK III", min=59.5, max=68.5}
+    ak4 = {name = "AK IV", min=69.5, max=999}
 
 [weightclasses.default_M]
     classes = ["59","66","74","83","93","105","120","120+"]
     date_range=["2011-01-01","9999-01-01"]
     sex = "M"
 
-[weightclasses.default_F]
+[weightclasses.year2020_F]
     classes = ["47","52","57","63","72","84","84+"]
-    date_range=["2011-01-01","9999-01-01"]
+    date_range=["2011-01-01","2020-12-31"]
+    sex = "F"
+
+[weightclasses.default_F]
+    classes = ["47","52","57","63","69","76","84","84+"]
+    date_range=["2021-01-01","9999-12-31"]
     sex = "F"
 
 [weightclasses.junior_M]
@@ -37,9 +55,15 @@
     sex = "M"
     divisions = ["Juniors","Sub-Juniors","Youth A","Youth B"]
 
-[weightclasses.junior_F]
+[weightclasses.year2020_junior_F]
     classes = ["43","47","52","57","63","72","84","84+"]
-    date_range=["2011-01-01","9999-01-01"]
+    date_range=["2011-01-01","2020-12-31"]
+    sex = "F"
+    divisions = ["Juniors","Sub-Juniors","Youth A","Youth B"]
+
+[weightclasses.junior_F]
+    classes = ["47","52","57","63","69","76","84","84+"]
+    date_range=["2021-01-01","9999-12-31"]
     sex = "F"
     divisions = ["Juniors","Sub-Juniors","Youth A","Youth B"]
 
@@ -71,3 +95,6 @@
     1223 = ["ExemptDivision"] # Non standard masters divisions.
     1867 = ["ExemptDivision"] # Non standard masters divisions.
     1754 = ["ExemptDivision"] # Non standard masters divisions.
+    2114 = ["ExemptDivision"] # Non standard divisions.
+    2226 = ["ExemptWeightClassConsistency"] # No weightclasses.
+    2323 = ["ExemptWeightClassConsistency"] # No weightclasses.

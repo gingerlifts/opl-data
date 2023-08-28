@@ -1,8 +1,8 @@
 Place,Name,BirthYear,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,WeightClassKg,Division,Event,Sex,Equipment
-1,Oleg Smirnov,1990,Russia,57.51,185,190,-200,190,190,59,Open,B,M,Single-ply
+1,Oleg Smirnov #1,1990,Russia,57.51,185,190,-200,190,190,59,Open,B,M,Single-ply
 2,Dariusz Wszoła,1978,Poland,58.64,172.5,177.5,182.5,182.5,182.5,59,Open,B,M,Single-ply
 3,Sławomir Śledź,1976,Poland,58.5,170,-177.5,180,180,180,59,Open,B,M,Single-ply
-4,Jesse Johnson,1990,UK,58.12,95,102.5,107.5,107.5,107.5,59,Open,B,M,Single-ply
+4,Jesse Johnson #3,1990,UK,58.12,95,102.5,107.5,107.5,107.5,59,Open,B,M,Single-ply
 1,Ivan Chuprinko,1986,Ukraine,65.93,230,235,239.5,239.5,239.5,66,Open,B,M,Single-ply
 2,Yan Urusov,1989,Russia,65.67,217.5,227.5,-239.5,227.5,227.5,66,Open,B,M,Single-ply
 3,Manuel Virgilio,1974,France,65.96,217.5,225,-230,225,225,66,Open,B,M,Single-ply
@@ -12,7 +12,7 @@ DQ,Keisuke Takahashi,1973,Japan,65.51,-230,-230,-230,,,66,Open,B,M,Single-ply
 DQ,Bayarbaatar Batgerel,1991,Mongolia,65.97,-195,-195,-195,,,66,Open,B,M,Single-ply
 1,Daiki Kodama,1979,Japan,73.08,260,276,300,300,300,74,Open,B,M,Single-ply
 2,Oleg Butenko,1983,Kazakhstan,73.56,245,250,255,255,255,74,Open,B,M,Single-ply
-3,Daniel Miller,1988,Poland,73.68,245,255,-260,255,255,74,Open,B,M,Single-ply
+3,Daniel Miller #5,1988,Poland,73.68,245,255,-260,255,255,74,Open,B,M,Single-ply
 4,Arthur Mashinskiy,1987,Russia,73.74,-245,245,-257.5,245,245,74,Open,B,M,Single-ply
 5,Markus Schick,1976,Germany,73.92,230,-237.5,-252.5,230,230,74,Open,B,M,Single-ply
 6,Oleksandr Shliakhta,1979,Ukraine,73.62,-220,-220,220,220,220,74,Open,B,M,Single-ply
@@ -62,7 +62,7 @@ DQ,Sergei Vaigant,1989,Kazakhstan,102,-312.5,-312.5,-327.5,,,105,Open,B,M,Single
 1,Sergey Selezen,1980,Russia,119.72,315,327.5,343,343,343,120,Open,B,M,Single-ply
 2,Christoffer Öberg,1985,Sweden,118.78,330,342.5,-343.5,342.5,342.5,120,Open,B,M,Single-ply
 3,Shinji Ueda,1972,Japan,117.64,330,337.5,-342.5,337.5,337.5,120,Open,B,M,Single-ply
-4,Brady Stewart,1982,USA,118.24,-320,325,332.5,332.5,332.5,120,Open,B,M,Single-ply
+4,Brady Stewart #1,1982,USA,118.24,-320,325,332.5,332.5,332.5,120,Open,B,M,Single-ply
 5,Jeremy Auerbach,1987,USA,117.86,312.5,-320,330,330,330,120,Open,B,M,Single-ply
 6,Per Marius Hole,1989,Norway,118.74,330,-335,-335,330,330,120,Open,B,M,Single-ply
 7,Markus Larsson,1974,Sweden,118.74,-300,-300,302.5,302.5,302.5,120,Open,B,M,Single-ply
@@ -80,14 +80,14 @@ DQ,Altangerel Bujinlkham,1976,Mongolia,119.86,-330,-330,-337.5,,,120,Open,B,M,Si
 7,Niklas Pettersson,1991,Sweden,145.36,302.5,310,-320,310,310,120+,Open,B,M,Single-ply
 8,Ryan Carrillo #1,1991,USA,155.46,300,-310,-320,300,300,120+,Open,B,M,Single-ply
 9,Mostafa Parvaresh Rooh,1981,Iran,132.08,255,267.5,272.5,272.5,272.5,120+,Open,B,M,Single-ply
-DQ,Fredrik Svensson,1979,Sweden,157.12,-395,-395,-401.5,,,120+,Open,B,M,Single-ply
+DQ,Fredrik Svensson #1,1979,Sweden,157.12,-395,-395,-401.5,,,120+,Open,B,M,Single-ply
 1,Sultan Bexeiit,1998,Kazakhstan,52,115,120,130,130,130,53,Sub-Juniors,B,M,Single-ply
 2,Sergei Sergienko,1997,Russia,52.08,117.5,122.5,-132.5,122.5,122.5,53,Sub-Juniors,B,M,Single-ply
 3,Jorge Saldana,1997,USA,52.76,100,107.5,-122.5,107.5,107.5,53,Sub-Juniors,B,M,Single-ply
 4,Matthew Devine,1997,USA,51.42,92.5,95,-107.5,95,95,53,Sub-Juniors,B,M,Single-ply
 1,Motoki Murata,1997,Japan,58.52,155,-173,-173,155,155,59,Sub-Juniors,B,M,Single-ply
 2,Aleksey Rikhter,1998,Russia,58.36,127.5,132.5,137.5,137.5,137.5,59,Sub-Juniors,B,M,Single-ply
-3,Pawel Porebny,1997,Poland,58.54,115,-130,-135,115,115,59,Sub-Juniors,B,M,Single-ply
+3,Paweł Porębny,1997,Poland,58.54,115,-130,-135,115,115,59,Sub-Juniors,B,M,Single-ply
 4,Markus Binder,1998,Austria,58.74,95,-102.5,102.5,102.5,102.5,59,Sub-Juniors,B,M,Single-ply
 1,Kuanyshbay Tulegenov,1998,Kazakhstan,64.96,147.5,155,162.5,162.5,162.5,66,Sub-Juniors,B,M,Single-ply
 2,Konstantin Kurnakin,1997,Russia,62.84,145,152.5,-160,152.5,152.5,66,Sub-Juniors,B,M,Single-ply
@@ -98,7 +98,7 @@ DQ,Fredrik Svensson,1979,Sweden,157.12,-395,-395,-401.5,,,120+,Open,B,M,Single-p
 3,Sawyer Haubert,1997,USA,70.96,-160,160,-172.5,160,160,74,Sub-Juniors,B,M,Single-ply
 4,Jared Syed,1997,UK,72.94,160,-170,-170,160,160,74,Sub-Juniors,B,M,Single-ply
 1,Szymon Glowienke,1997,Poland,81.78,185,-192.5,197.5,197.5,197.5,83,Sub-Juniors,B,M,Single-ply
-2,Michal Kojder,1997,Poland,81.68,180,-195,195,195,195,83,Sub-Juniors,B,M,Single-ply
+2,Michał Kojder,1997,Poland,81.68,180,-195,195,195,195,83,Sub-Juniors,B,M,Single-ply
 DQ,Charles Vandaver,1997,USA,80.48,-162.5,-162.5,-162.5,,,83,Sub-Juniors,B,M,Single-ply
 1,Dawid Grzegorczuk,1998,Poland,92.6,220,230,237.5,237.5,237.5,93,Sub-Juniors,B,M,Single-ply
 2,Artur Zalotov,1998,Ukraine,91.14,227.5,-235,-237.5,227.5,227.5,93,Sub-Juniors,B,M,Single-ply
@@ -106,7 +106,7 @@ DQ,Charles Vandaver,1997,USA,80.48,-162.5,-162.5,-162.5,,,83,Sub-Juniors,B,M,Sin
 4,Rasmus Bodell,1997,Sweden,91.16,170,-180,-185,170,170,93,Sub-Juniors,B,M,Single-ply
 DQ,Yutaro Kashiwagi,1997,Japan,91.26,-180,-180,-185,,,93,Sub-Juniors,B,M,Single-ply
 1,Ryuki Fujimoto,2000,Japan,104.7,260,270,295,295,295,105,Sub-Juniors,B,M,Single-ply
-2,Kamil Jagiello,1998,Poland,93.6,205,-235,-235,205,205,105,Sub-Juniors,B,M,Single-ply
+2,Kamil Jagiełło,1998,Poland,93.6,205,-235,-235,205,205,105,Sub-Juniors,B,M,Single-ply
 3,Mitchell Cowman,1997,USA,104.3,195,197.5,200,200,200,105,Sub-Juniors,B,M,Single-ply
 4,Aleh Kudrautsau,1998,Latvia,102.5,-192.5,195,197.5,197.5,197.5,105,Sub-Juniors,B,M,Single-ply
 1,Kensuke Suto,1997,Japan,118.14,210,-215,222.5,222.5,222.5,120,Sub-Juniors,B,M,Single-ply
@@ -118,7 +118,7 @@ DQ,Yutaro Kashiwagi,1997,Japan,91.26,-180,-180,-185,,,93,Sub-Juniors,B,M,Single-
 1,Ruslan Balabanov,1996,Russia,58.76,165,167.5,-190.5,167.5,167.5,59,Juniors,B,M,Single-ply
 2,Alisher Makhmudov,1995,Kazakhstan,58.8,160,-167.5,-170,160,160,59,Juniors,B,M,Single-ply
 3,Kazumasa Kimura,1994,Japan,58.88,145,150,-162.5,150,150,59,Juniors,B,M,Single-ply
-4,Pawel Hadas,1993,Poland,57.18,-132.5,-132.5,132.5,132.5,132.5,59,Juniors,B,M,Single-ply
+4,Paweł Hadas,1993,Poland,57.18,-132.5,-132.5,132.5,132.5,132.5,59,Juniors,B,M,Single-ply
 5,Garth Sullivan,1992,USA,58.34,132.5,-145,-150,132.5,132.5,59,Juniors,B,M,Single-ply
 1,Haruya Okada,1996,Japan,65.84,205,210,214,214,214,66,Juniors,B,M,Single-ply
 2,Kenny Nguyen,1995,USA,64.64,205,212.5,213.5,213.5,213.5,66,Juniors,B,M,Single-ply
@@ -152,14 +152,14 @@ DQ,Szymon Czerwinski,1996,Poland,82.46,-205,-205,-207.5,,,83,Juniors,B,M,Single-
 1,Mariusz Hintzke,1994,Poland,92.5,-280,280,-286,280,280,93,Juniors,B,M,Single-ply
 2,Nikita Vanshin,1992,Russia,92.72,250,255,-282.5,255,255,93,Juniors,B,M,Single-ply
 3,Richard Pena,1994,USA,92.12,235,-240,245,245,245,93,Juniors,B,M,Single-ply
-4,Ralf Male,1994,Norway,91.72,232.5,-237.5,242.5,242.5,242.5,93,Juniors,B,M,Single-ply
+4,Ralf A. Male,1994,Norway,91.72,232.5,-237.5,242.5,242.5,242.5,93,Juniors,B,M,Single-ply
 5,Josef Eriksson,1992,Sweden,91.92,237.5,242.5,-247.5,242.5,242.5,93,Juniors,B,M,Single-ply
 6,Marks Riekstins,1993,Latvia,92.4,227.5,237.5,-247.5,237.5,237.5,93,Juniors,B,M,Single-ply
 7,James Guillory,1994,USA,83.5,212.5,220,232.5,232.5,232.5,93,Juniors,B,M,Single-ply
 8,Daiki Igarashi,1996,Japan,91.56,180,-200,207.5,207.5,207.5,93,Juniors,B,M,Single-ply
 9,Alexander Christensen,1992,Denmark,91.02,197.5,205,-215,205,205,93,Juniors,B,M,Single-ply
 1,Erik Fredriksen,1992,Norway,102.02,252.5,262.5,272.5,272.5,272.5,105,Juniors,B,M,Single-ply
-2,Sergey Degtyarev,1992,Russia,103.16,255,265,272.5,272.5,272.5,105,Juniors,B,M,Single-ply
+2,Sergey Degtyaryov,1992,Russia,103.16,255,265,272.5,272.5,272.5,105,Juniors,B,M,Single-ply
 3,Kamil Sypka,1994,Poland,100.4,220,240,257.5,257.5,257.5,105,Juniors,B,M,Single-ply
 4,Christian Martinsson,1993,Sweden,103.74,257.5,-267.5,-267.5,257.5,257.5,105,Juniors,B,M,Single-ply
 5,Joachim Lindseth,1992,Norway,104.46,245,252.5,-260,252.5,252.5,105,Juniors,B,M,Single-ply
@@ -220,7 +220,7 @@ DQ,Maria Johansson,1984,Sweden,82.72,-160,-160,-160,,,84,Open,B,F,Single-ply
 5,Stephenie Dzurnak,1983,USA,125.7,125,145,-180,145,145,84+,Open,B,F,Single-ply
 DQ,Melinda Lombosi,1978,Hungary,123.3,-195,-195,-195,,,84+,Open,B,F,Single-ply
 1,Alexandra Suntsova,1998,Russia,42.28,50,60,-70,60,60,43,Sub-Juniors,B,F,Single-ply
-1,Maria Engrenius,1997,Sweden,46.78,77.5,82.5,-90.5,82.5,82.5,47,Sub-Juniors,B,F,Single-ply
+1,Mia Engrenius,1997,Sweden,46.78,77.5,82.5,-90.5,82.5,82.5,47,Sub-Juniors,B,F,Single-ply
 2,Jennifer Martinez #4,1998,USA,46.66,70,-77.5,-82.5,70,70,47,Sub-Juniors,B,F,Single-ply
 3,Iulia Korobovskaia,1998,Russia,46.56,62.5,67.5,-72.5,67.5,67.5,47,Sub-Juniors,B,F,Single-ply
 4,Vlada Stazayeva,1998,Kazakhstan,46.02,60,65,-70,65,65,47,Sub-Juniors,B,F,Single-ply

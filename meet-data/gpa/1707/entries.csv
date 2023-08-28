@@ -155,7 +155,7 @@ Georgios Liakos,110,M,Open,No,SBD,Raw,Greece,106,260,170,260,690,5
 Dimitrios Kouprizas,110,M,Open,Yes,D,Raw,Greece,105.5,,,250,250,4
 Miloš Ćećanović,110,M,Open,No,B,Multi-ply,Montenegro,101.8,,240,,240,1
 Konstantinos Pantelopoulos,110,M,Masters 40-49,Yes,BD,Raw,Greece,105,,,,295,1
-Mavsar Iztok,110,M,Masters 50-59,No,B,Raw,Slovenia,107.5,,182.5,,182.5,1
+Iztok Mavsar,110,M,Masters 50-59,No,B,Raw,Slovenia,107.5,,182.5,,182.5,1
 Luka Gabunia,125,M,Teen 18-19,No,BD,Raw,Georgia,115.5,,,,440,1
 Luka Gabunia,125,M,Teen 18-19,No,SBD,Raw,Georgia,115.5,,,,720,1
 Ioannis Athanasiou,125,M,Juniors 20-23,No,SBD,Raw,Greece,118,,,,715,1
@@ -170,7 +170,7 @@ Konstantinos Fassas,125,M,Juniors 20-23,Yes,B,Single-ply,Greece,124,,,,,DQ
 Konstantinos Fassas,125,M,Juniors 20-23,Yes,B,Multi-ply,Greece,124,,185,,185,1
 Athanasios Liouras,125,M,Open,No,S,Raw,Greece,116,300,,,300,1
 Athanasios Liouras,125,M,Open,No,B,Raw,Greece,116,,170,,170,5
-Andreev Stoyan,125,M,Open,No,D,Raw,Bulgaria,116,,,390,390,1
+Stoyan Andreev,125,M,Open,No,D,Raw,Bulgaria,116,,,390,390,1
 Athanasios Liouras,125,M,Open,No,D,Raw,Greece,116,,,320,320,2
 Athanasios Liouras,125,M,Open,No,BD,Raw,Greece,116,,170,320,490,1
 Athanasios Liouras,125,M,Open,No,SBD,Raw,Greece,116,300,170,320,790,1
@@ -193,28 +193,28 @@ Giorgio Karallas,140,M,Juniors 20-23,Yes,D,Raw,Greece,126,,,225,225,1
 Giorgio Karallas,140,M,Juniors 20-23,Yes,BD,Raw,Greece,126,,200,225,425,1
 Giorgio Karallas,140,M,Juniors 20-23,Yes,SBD,Wraps,Greece,126,281,200,225,706,1
 Timur Gadiev,140,M,Open,No,SBD,Raw,Russia,133.2,,,,950,1
-Emmanouil Marizas,140+,M,Open,Yes,S,Raw,Greece,154,272,,,272,1
-Emmanouil Marizas,140+,M,Open,Yes,B,Raw,Greece,154,,130,,130,1
-Emmanouil Marizas,140+,M,Open,Yes,D,Raw,Greece,154,,,282,282,1
-Emmanouil Marizas,140+,M,Open,Yes,BD,Raw,Greece,154,,130,282,412,1
-Emmanouil Marizas,140+,M,Open,Yes,SBD,Raw,Greece,154,272,130,282,684,1
-Emmanouil Marizas,140+,M,Open,Yes,S,Single-ply,Greece,154,200,,,200,1
-Emmanouil Marizas,140+,M,Open,Yes,B,Single-ply,Greece,154,,100,,100,1
-Emmanouil Marizas,140+,M,Open,Yes,D,Single-ply,Greece,154,,,225,225,1
-Emmanouil Marizas,140+,M,Open,Yes,BD,Single-ply,Greece,154,,100,225,325,1
-Emmanouil Marizas,140+,M,Open,Yes,SBD,Single-ply,Greece,154,200,100,225,525,1
-Freyded Bejerano Rankyn,140+,M,Masters 40-49,No,S,Raw,Russia,165,320,,,320,1
-Freyded Bejerano Rankyn,140+,M,Masters 40-49,No,B,Raw,Russia,165,,220,,220,1
-Freyded Bejerano Rankyn,140+,M,Masters 40-49,No,D,Raw,Russia,165,,,200,200,2
-Freyded Bejerano Rankyn,140+,M,Masters 40-49,No,BD,Raw,Russia,165,,220,200,420,2
-Freyded Bejerano Rankyn,140+,M,Masters 40-49,No,SBD,Raw,Russia,165,320,220,200,740,1
+Manolis Marizas,140+,M,Open,Yes,S,Raw,Greece,154,272,,,272,1
+Manolis Marizas,140+,M,Open,Yes,B,Raw,Greece,154,,130,,130,1
+Manolis Marizas,140+,M,Open,Yes,D,Raw,Greece,154,,,282,282,1
+Manolis Marizas,140+,M,Open,Yes,BD,Raw,Greece,154,,130,282,412,1
+Manolis Marizas,140+,M,Open,Yes,SBD,Raw,Greece,154,272,130,282,684,1
+Manolis Marizas,140+,M,Open,Yes,S,Single-ply,Greece,154,200,,,200,1
+Manolis Marizas,140+,M,Open,Yes,B,Single-ply,Greece,154,,100,,100,1
+Manolis Marizas,140+,M,Open,Yes,D,Single-ply,Greece,154,,,225,225,1
+Manolis Marizas,140+,M,Open,Yes,BD,Single-ply,Greece,154,,100,225,325,1
+Manolis Marizas,140+,M,Open,Yes,SBD,Single-ply,Greece,154,200,100,225,525,1
+Freyded Rankyn Bejerano,140+,M,Masters 40-49,No,S,Raw,Russia,165,320,,,320,1
+Freyded Rankyn Bejerano,140+,M,Masters 40-49,No,B,Raw,Russia,165,,220,,220,1
+Freyded Rankyn Bejerano,140+,M,Masters 40-49,No,D,Raw,Russia,165,,,200,200,2
+Freyded Rankyn Bejerano,140+,M,Masters 40-49,No,BD,Raw,Russia,165,,220,200,420,2
+Freyded Rankyn Bejerano,140+,M,Masters 40-49,No,SBD,Raw,Russia,165,320,220,200,740,1
 Emmanoil Pafilias,140+,M,Masters 40-49,Yes,S,Wraps,Greece,161,240,,,240,1
 Emmanoil Pafilias,140+,M,Masters 40-49,Yes,B,Raw,Greece,161,,155,,155,2
 Emmanoil Pafilias,140+,M,Masters 40-49,Yes,D,Raw,Greece,161,,,280,280,1
 Emmanoil Pafilias,140+,M,Masters 40-49,Yes,BD,Raw,Greece,161,,155,280,435,1
 Emmanoil Pafilias,140+,M,Masters 40-49,Yes,SBD,Wraps,Greece,161,240,155,280,675,1
-Freyded Bejerano Rankyn,140+,M,Masters 40-49,No,S,Single-ply,Russia,165,300,,,300,1
-Freyded Bejerano Rankyn,140+,M,Masters 40-49,No,B,Single-ply,Russia,165,,270,,270,1
-Freyded Bejerano Rankyn,140+,M,Masters 40-49,No,D,Single-ply,Russia,165,,,200,200,1
-Freyded Bejerano Rankyn,140+,M,Masters 40-49,No,BD,Single-ply,Russia,165,,270,200,470,1
-Freyded Bejerano Rankyn,140+,M,Masters 40-49,No,SBD,Single-ply,Russia,165,300,270,200,770,1
+Freyded Rankyn Bejerano,140+,M,Masters 40-49,No,S,Single-ply,Russia,165,300,,,300,1
+Freyded Rankyn Bejerano,140+,M,Masters 40-49,No,B,Single-ply,Russia,165,,270,,270,1
+Freyded Rankyn Bejerano,140+,M,Masters 40-49,No,D,Single-ply,Russia,165,,,200,200,1
+Freyded Rankyn Bejerano,140+,M,Masters 40-49,No,BD,Single-ply,Russia,165,,270,200,470,1
+Freyded Rankyn Bejerano,140+,M,Masters 40-49,No,SBD,Single-ply,Russia,165,300,270,200,770,1

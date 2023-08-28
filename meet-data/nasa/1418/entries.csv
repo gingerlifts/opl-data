@@ -7,10 +7,10 @@ Place,WeightClassKg,Name,State,Sex,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3D
 1,67.5,Samantha Neeley,KY,F,64.64,97.5,57.5,142.5,297.5,wint,SBD,Wraps
 1,67.5,Suzanne Waldrop,KY,F,63.78,120,52.5,162.5,335,wm1,SBD,Wraps
 1,67.5,Emily Clark,KY,F,65.14,95,47.5,140,282.5,wsm1,SBD,Wraps
-2,75,Kim Harris,KY,F,68.22,67.5,40,85,192.5,wopen,SBD,Wraps
+2,75,Kim Harris #2,KY,F,68.22,67.5,40,85,192.5,wopen,SBD,Wraps
 1,75,Elizabeth Kunz,KY,F,73.57,85,45,137.5,267.5,wint,SBD,Wraps
 1,75,Brittany Kuhn,KY,F,68.95,90,57.5,112.5,260,wpure,SBD,Wraps
-2,75,Kim Harris,KY,F,68.22,67.5,40,85,192.5,wsm2,SBD,Wraps
+2,75,Kim Harris #2,KY,F,68.22,67.5,40,85,192.5,wsm2,SBD,Wraps
 1,75,Amanda Willett,KY,F,71.58,92.5,55,115,262.5,wsm2,SBD,Wraps
 1,75,Kora Whitaker,KY,F,71.85,100,62.5,145,307.5,wteen,SBD,Wraps
 1,82.5,Leah Anderson,KY,F,78.38,90,57.5,137.5,285,wint,SBD,Wraps
@@ -23,7 +23,7 @@ Place,WeightClassKg,Name,State,Sex,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3D
 1,90,Beth Scott,KY,F,84.73,90,47.5,125,262.5,wint,SBD,Wraps
 1,90,Beth Scott,KY,F,84.73,90,47.5,125,262.5,wpure,SBD,Wraps
 1,90+,Kelli Dabney,KY,F,91.44,92.5,40,115,247.5,wnov,SBD,Wraps
-1,67.5,Mark Evans,KY,M,61.6,127.5,95,190,412.5,m2,SBD,Wraps
+1,67.5,Mark Evans #3,KY,M,61.6,127.5,95,190,412.5,m2,SBD,Wraps
 1,82.5,Michael Murphy,KY,M,75.57,160,120,230,510,sm2,SBD,Wraps
 1,90,Ty Fannin,KY,M,88.9,165,105,210,480,m1,SBD,Wraps
 1,90,Jeremiah Purcell,KY,M,88.99,185,112.5,205,502.5,pure,SBD,Wraps
@@ -36,8 +36,8 @@ Place,WeightClassKg,Name,State,Sex,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3D
 1,90,Brian Ely,KY,M,87.45,190,115,202.5,507.5,m2,SBD,Single-ply
 1,82.5,Fran Trent,KY,F,81.92,,32.5,80,112.5,wm1,BD,Raw
 1,90,Kayleigh Rado,OH,F,88.63,,70,130,200,wjr,BD,Raw
-1,67.5,Mark Evans,KY,M,61.6,,95,190,285,m2,BD,Raw
-1,67.5,Mark Evans,KY,M,61.6,,95,190,285,open,BD,Raw
+1,67.5,Mark Evans #3,KY,M,61.6,,95,190,285,m2,BD,Raw
+1,67.5,Mark Evans #3,KY,M,61.6,,95,190,285,open,BD,Raw
 1,75,Jeremy Lanigan,OH,M,68.04,,125,187.5,312.5,hs,BD,Raw
 1,90,Joseph Willett,KY,M,83.1,,152.5,180,332.5,m1,BD,Raw
 1,110,Joel Bennett,KY,M,106.23,,115,165,280,m2,BD,Raw

@@ -13,7 +13,7 @@ Place,Name,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Bench4
 1,Ruslan Sobko,1976,67.3,180,187.5,-195,187.5,,67.5,M,Руслан Собко,B,Single-ply,Open,187.5
 2,Olexandr Chernyshov,1966,66.8,175,185,-190,185,,67.5,M,Олександр Чернишов,B,Single-ply,Open,185
 3,Volodymyr Pogrebniy,1982,66.8,-180,182.5,-192.5,182.5,,67.5,M,Володимир Погребний,B,Single-ply,Open,182.5
-4,Viktor Piskunov,1981,66.8,-170,175,-187.5,175,,67.5,M,Виктор Пискунов,B,Single-ply,Open,175
+4,Viktor Piskunov #1,1981,66.8,-170,175,-187.5,175,,67.5,M,Віктор Піскунов,B,Single-ply,Open,175
 5,Yevgen Butsan,1981,65.9,-160,160,-175,160,,67.5,M,Євген Буцан,B,Single-ply,Open,160
 6,Vitaliy Dubyaga,1977,66.5,152.5,-157.5,-157.5,152.5,,67.5,M,Виталий Дубяга,B,Single-ply,Open,152.5
 7,Andriy Basistyy,1984,67.5,145,-152.5,-152.5,145,,67.5,M,Андрій Басистий,B,Single-ply,Open,145
@@ -26,7 +26,7 @@ Place,Name,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Bench4
 6,Vasyl' Perekhrestenko,1986,74.2,-130,140,-155,140,,75,M,Василь Перехрестенко,B,Single-ply,Open,140
 DQ,Sergiy Mosyak,1980,74.8,-200,-200,-200,,,75,M,Сергій Мосяк,B,Single-ply,Open,
 1,Leonid Plotnytskiy,1973,82,-230,230,-240,230,,82.5,M,Леонід Плотницький,B,Single-ply,Open,230
-2,Yuriy Dudnik,1980,81.8,205,215,-222.5,215,,82.5,M,Юрій Дудник,B,Single-ply,Open,215
+2,Yuriy Dudnik #1,1980,81.8,205,215,-222.5,215,,82.5,M,Юрій Дудник,B,Single-ply,Open,215
 3,Mykola Oliynyk,1981,81.1,200,210,-212.5,210,,82.5,M,Микола Олійник,B,Single-ply,Open,210
 4,Volodymyr Baklyak,1977,81.7,185,-200,-212.5,185,,82.5,M,Володимир Бакляк,B,Single-ply,Open,185
 5,Kostyantyn Shevchenko,1985,81.7,180,-187.5,-187.5,180,,82.5,M,Костянтин Шевченко,B,Single-ply,Open,180
@@ -36,7 +36,7 @@ DQ,Sergiy Mosyak,1980,74.8,-200,-200,-200,,,75,M,Сергій Мосяк,B,Singl
 2,Viktor Marynin,1983,89.5,195,207.5,212.5,212.5,,90,M,Віктор Маринін,B,Single-ply,Open,212.5
 3,Igor Yermolaev,1984,89.3,190,-202.5,207.5,207.5,,90,M,Ігор Єрмолаєв,B,Single-ply,Open,207.5
 4,Yevgen Kuzmin,1986,88.8,190,205,-212.5,205,,90,M,Євген Кузьмін,B,Single-ply,Open,205
-5,Sergey Zakharov,1982,83.2,200,-205,-207.5,200,,90,M,Сергей Захаров,B,Single-ply,Open,200
+5,Sergey Zakharov #5,1982,83.2,200,-205,-207.5,200,,90,M,Сергій Захаров,B,Single-ply,Open,200
 6,Maksim Bezklinskiy,1980,88.8,190,-200,200,200,,90,M,Максим Безклинський,B,Single-ply,Open,200
 7,Vitaliy Bogachevskiy,1986,89.9,175,185,192.5,192.5,,90,M,Віталій Богачевський,B,Single-ply,Open,192.5
 8,Dmytro Voronin,1980,89.9,-165,-165,165,165,,90,M,Дмитро Воронін,B,Single-ply,Open,165
@@ -46,7 +46,7 @@ DQ,Sergiy Mosyak,1980,74.8,-200,-200,-200,,,75,M,Сергій Мосяк,B,Singl
 3,Volodymyr Zolotashko,1971,99.8,-230,-230,232.5,232.5,,100,M,Володимир Золоташко,B,Single-ply,Open,232.5
 4,Oleksii Omelchenko,1979,100,-210,210,220,220,,100,M,Олексій Омельченко,B,Single-ply,Open,220
 5,Sergiy Korolenko,1977,100,-200,210,-230,210,,100,M,Сергій Короленко,B,Single-ply,Open,210
-6,Vladimir Omelchenko,1973,98,-185,185,-190,185,,100,M,Володимир Омельченко,B,Single-ply,Open,185
+6,Vladimir Omelchenko #1,1973,98,-185,185,-190,185,,100,M,Володимир Омельченко,B,Single-ply,Open,185
 7,Volodymyr Chygyrynskyy,1962,95,160,170,175,175,,100,M,Володимир Чигиринський,B,Single-ply,Open,175
 8,Dmytro Goryushko,1982,96.6,-170,175,-185,175,,100,M,Дмитро Горюшко,B,Single-ply,Open,175
 DQ,Vitaliy Penalyuk,1983,95.5,-180,-180,-180,,,100,M,Віталій Пеналюк,B,Single-ply,Open,
@@ -67,10 +67,10 @@ DQ,Yevgen Chirva,1983,96.6,-230,-230,-230,,,100,M,Євген Чирва,B,Single
 3,Maxym Glinchevskyy,1983,127,245,255,262.5,262.5,,125+,M,Максим Глінчевський,B,Single-ply,Open,262.5
 4,Vasyl Mezerya,1978,140.4,240,255,-262.5,255,,125+,M,Василь Мезеря,B,Single-ply,Open,255
 1,Yevgeniya Pomynchuk,1975,43.2,45,50,,50,,44,F,Євгенія Поминчук,B,Single-ply,Open,50
-1,Anastasiya Derevyanko,1987,47.4,82.5,-87.5,,82.5,,48,F,Анастасия Деревянко,B,Single-ply,Open,82.5
+1,Anastasiya Derevyanko #1,1987,47.4,82.5,-87.5,,82.5,,48,F,Анастасія Дерев'янко,B,Single-ply,Open,82.5
 1,Anna Kadatska,1977,52,-90,-90,90,90,,52,F,Анна Кадацька,B,Single-ply,Open,90
 2,Anna Sinelnikova,1984,51.2,80,82.5,85,85,,52,F,Анна Синельникова,B,Single-ply,Open,85
-3,Svetlana Dergaputskaya,1978,51.1,65,70,72.5,72.5,,52,F,Светлана Дергапутская,B,Single-ply,Open,72.5
+3,Svetlana Dergaputskaya,1978,51.1,65,70,72.5,72.5,,52,F,Світлана Дергапутська,B,Single-ply,Open,72.5
 1,Olena Dmytruk,1983,53.1,110,117.5,125,125,,56,F,Олена Дмитрук,B,Single-ply,Open,125
 2,Natalya Didyuk,1973,55.3,87.5,92.5,-97.5,92.5,,56,F,Наталя Дідюк,B,Single-ply,Open,92.5
 3,Inga Dzgoeva,1984,55.1,52.5,60,65,65,,56,F,Інга Дзгоєва,B,Single-ply,Open,65

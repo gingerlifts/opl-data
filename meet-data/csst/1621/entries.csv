@@ -10,7 +10,7 @@ Place,Name,BirthYear,BodyweightKg,Team,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,D
 2,David Košťál,2000,69.3,SK OLYMP Fitness Nový Bor,85,90,-100,90,Sub-Juniors,M,74,90,Raw,B
 DQ,Patrik Pikeš,2000,72.5,SKST Litvínov,-85,-85,-85,,Sub-Juniors,M,74,,Raw,B
 1,Patrik Janků,1998,77.9,TJ Svitavy,102.5,107.5,110,110,Sub-Juniors,M,83,110,Raw,B
-2,Karel Rada,2001,80.5,Fitness Staňkov,95,105,-110,105,Sub-Juniors,M,83,105,Raw,B
+2,Karel Rada #2,2001,80.5,Fitness Staňkov,95,105,-110,105,Sub-Juniors,M,83,105,Raw,B
 3,Lukáš Rejholec,1998,75.7,SK ZLOBR Sedlčany,100,-107.5,-107.5,100,Sub-Juniors,M,83,100,Raw,B
 4,Jiří Kymla,1999,78.2,SK ZLOBR Sedlčany,90,95,-100,95,Sub-Juniors,M,83,95,Raw,B
 1,Jaroslav Němec,1998,89,SK ZLOBR Sedlčany,122.5,135,142.5,142.5,Sub-Juniors,M,93,142.5,Raw,B
@@ -20,7 +20,7 @@ DQ,Patrik Pikeš,2000,72.5,SKST Litvínov,-85,-85,-85,,Sub-Juniors,M,74,,Raw,B
 5,Denis Kurečka,1999,91.9,Colbert club SSK Vítkovice,95,-97.5,97.5,97.5,Sub-Juniors,M,93,97.5,Raw,B
 1,Ladislav Jelínek,1998,108.4,TJ Přeštice,140,145,-155,145,Sub-Juniors,M,120,145,Raw,B
 2,Petr Řeháček,1998,98.6,SK ZLOBR Sedlčany,115,120,-125,120,Sub-Juniors,M,105,120,Raw,B
-3,Tomáš Novák #1,1999,93.6,SK ZLOBR Sedlčany,100,,,100,Sub-Juniors,M,105,100,Raw,B
+3,Tomáš Novák #2,1999,93.6,SK ZLOBR Sedlčany,100,,,100,Sub-Juniors,M,105,100,Raw,B
 1,Ekaterina Antošová,1995,51.6,SK ZLOBR Sedlčany,60,62.5,-65,62.5,Juniors,F,52,62.5,Raw,B
 2,Nikol Barkóciová,1997,51.3,TJ Sokol Lanžhot,-55,55,-62.5,55,Juniors,F,52,55,Raw,B
 3,Sára Halásová,1993,45.5,SK Fitness Gym Olomouc,37.5,-40,40,40,Juniors,F,47,40,Raw,B
@@ -110,7 +110,7 @@ DQ,Lukáš Rosenkranz,1989,84.7,SKST Litvínov,-120,-120,-120,,Open,M,93,,Raw,B
 6,Július Čmerda,1973,91.4,SKST Litvínov,117.5,125,127.5,127.5,Masters 1,M,93,127.5,Raw,B
 1,Khaled Ghazal,1972,105,TJ Sokol Pohořelice,175,185,190,190,Masters 1,M,105,190,Raw,B
 2,Zdeněk Cipriján,1974,99.8,FC Bílina,180,-185,-187.5,180,Masters 1,M,105,180,Raw,B
-3,Karel Rada,1973,104.9,Fitness Staňkov,160,170,-172.5,170,Masters 1,M,105,170,Raw,B
+3,Karel Rada #1,1973,104.9,Fitness Staňkov,160,170,-172.5,170,Masters 1,M,105,170,Raw,B
 4,Lukáš Koželuh,1974,100.8,TJ Sokol Praha-Vršovice,152.5,157.5,160,160,Masters 1,M,105,160,Raw,B
 5,Josef Reiniš,1972,101.5,PWL Vision Nutrition,150,155,160,160,Masters 1,M,105,160,Raw,B
 6,Antonín Komínek,1973,100.5,TJ Svitavy,122.5,127.5,-130,127.5,Masters 1,M,105,127.5,Raw,B

@@ -61,9 +61,9 @@ DQ,Ruslan Lelik,49.8,-80,,,,,,,52,M,Руслан Лелик,1997,Teen 12-14,SBD,
 2,Andriy Yablonskyy,55.25,,135,,72.5,,135,342.5,56,M,Андрій Яблонський,1994,Teen 15-16,SBD,Single-ply
 3,Andriy Samarik,55,,105,,72.5,,140,317.5,56,M,Андрій Самарик,1995,Teen 15-16,SBD,Single-ply
 4,Yevgen Ilnytskyy,54.95,,115,,65,,135,315,56,M,Євген Ільницький,1994,Teen 15-16,SBD,Single-ply
-5,Vladislav Ivanenko,55.95,,105,,75,,135,315,56,M,Владислав Іваненко,1995,Teen 15-16,SBD,Single-ply
+5,Vladislav Ivanenko #1,55.95,,105,,75,,135,315,56,M,Владислав Іваненко,1995,Teen 15-16,SBD,Single-ply
 6,Yuriy Chiypesh,53.8,,100,,57.5,,142.5,300,56,M,Юрій Чійпеш,1994,Teen 15-16,SBD,Single-ply
-7,Viktor Popov,54.4,,90,,67.5,,125,282.5,56,M,Виктор Попов,1994,Teen 15-16,SBD,Single-ply
+7,Viktor Popov #1,54.4,,90,,67.5,,125,282.5,56,M,Віктор Попов,1994,Teen 15-16,SBD,Single-ply
 8,Andriy Sokolov,54.6,,102.5,,65,,112.5,280,56,M,Андрій Соколов,1995,Teen 15-16,SBD,Single-ply
 DQ,German Semenov,55.8,-135,,,,,,,56,M,Герман Семенов,1995,Teen 15-16,SBD,Single-ply
 1,Yaroslav Khovalkin,58.3,,170,,75,,170,415,60,M,Ярослав Ховалкін,1994,Teen 15-16,SBD,Single-ply
@@ -72,11 +72,11 @@ DQ,German Semenov,55.8,-135,,,,,,,56,M,Герман Семенов,1995,Teen 15-
 4,Sergiy Sigitov,59.5,,115,,60,,140,315,60,M,Сергій Сигітов,1994,Teen 15-16,SBD,Single-ply
 5,Ivan Vasko,60,,110,,70,,130,310,60,M,Іван Васько,1995,Teen 15-16,SBD,Single-ply
 6,Maxym Gavrylyuk,59.2,,100,,72.5,,132.5,305,60,M,Максим Гаврилюк,1994,Teen 15-16,SBD,Single-ply
-7,Oleksiy Alekseenko,59.4,,100,,65,,130,295,60,M,Олексій Алексеєнко,1994,Teen 15-16,SBD,Single-ply
+7,Oleksiy Alekseenko #2,59.4,,100,,65,,130,295,60,M,Олексій Алексеєнко,1994,Teen 15-16,SBD,Single-ply
 8,Andriy Beley,57.3,,90,,80,,120,290,60,M,Андрій Белей,1994,Teen 15-16,SBD,Single-ply
 9,Dmitro Paschenko,56.9,,70,,70,,130,270,60,M,Дмитро Пащенко,1994,Teen 15-16,SBD,Single-ply
 DQ,Oleksandr Borodatyy,58.5,-150,,,,,,,60,M,Олександр Бородатий,1994,Teen 15-16,SBD,Single-ply
-1,Vitaliy Kasyanenko,66.3,,180,,100,,200,480,67.5,M,Віталій Кась'яненко,1995,Teen 15-16,SBD,Single-ply
+1,Vitaliy Kasyanenko #1,66.3,,180,,100,,200,480,67.5,M,Віталій Касьяненко,1995,Teen 15-16,SBD,Single-ply
 2,Mikhaylo Tarakanovskiy,67.1,,165,,115,,170,450,67.5,M,Михайло Таракановський,1995,Teen 15-16,SBD,Single-ply
 3,Dmitro Mariїch,65.3,,160,,92.5,,185,437.5,67.5,M,Дмитро Маріїч,1994,Teen 15-16,SBD,Single-ply
 4,Mikhaylo Nedvetskiy,66.7,,175,,87.5,,175,437.5,67.5,M,Михайло Недвецький,1995,Teen 15-16,SBD,Single-ply
@@ -124,7 +124,7 @@ DQ,Andriy Datsko,84,-180,,,,,,,90,M,Андрій Дацко,1994,Teen 15-16,SBD,
 1,Andriy Gumbin,59.25,,180,,87.5,,200,467.5,60,M,Андрій Гумбін,1992,Teen 17-18,SBD,Single-ply
 2,Andriy Zhukov,60,,167.5,,97.5,,175,440,60,M,Андрій Жуков,1992,Teen 17-18,SBD,Single-ply
 3,Maksim Saenko,58.95,,140,,67.5,,187.5,395,60,M,Максим Саєнко,1992,Teen 17-18,SBD,Single-ply
-4,Sergiy Pozdeev,59.3,,142.5,,87.5,,165,395,60,M,Сергій Поздєєв,1992,Teen 17-18,SBD,Single-ply
+4,Sergiy Pozdeev #1,59.3,,142.5,,87.5,,165,395,60,M,Сергій Поздєєв,1992,Teen 17-18,SBD,Single-ply
 5,Ernest Popyk,59.8,,130,,80,,140,350,60,M,Ернест Попик,1993,Teen 17-18,SBD,Single-ply
 6,Maksim Postavniy,58.9,,120,,70,,135,325,60,M,Максим Поставний,1993,Teen 17-18,SBD,Single-ply
 1,Dmytro Gaynulin,64.8,,200,,92.5,,220,512.5,67.5,M,Дмитро Гайнулін,1992,Teen 17-18,SBD,Single-ply
@@ -167,7 +167,7 @@ DQ,Andriy Datsko,84,-180,,,,,,,90,M,Андрій Дацко,1994,Teen 15-16,SBD,
 3,Petro Shevchinin,91,,200,,112.5,,222.5,535,100,M,Петро Шевчинін,1992,Teen 17-18,SBD,Single-ply
 4,Ruslan Alimov,97.7,,180,,150,,205,535,100,M,Руслан Алімов,1993,Teen 17-18,SBD,Single-ply
 2,Mykhaylo Urban,108.65,,205,,127.5,,200,532.5,100+,M,Михайло Урбан,1992,Teen 17-18,SBD,Single-ply
-3,Yevgen Vasilyev,101.7,,180,,130,,220,530,100+,M,Євген Васильєв,1993,Teen 17-18,SBD,Single-ply
+3,Yevgen Vasilyev #1,101.7,,180,,130,,220,530,100+,M,Євген Васильєв,1993,Teen 17-18,SBD,Single-ply
 5,Vitaliy Pavlyuk,100,,200,,125,,205,530,100,M,Віталій Павлюк,1993,Teen 17-18,SBD,Single-ply
 6,Oleksiy Panok,98.3,,180,,137.5,,100,417.5,100,M,Олексій Паньок,1993,Teen 17-18,SBD,Single-ply
 7,Illya Andruschak,96,,90,,70,,80,240,100,M,Ілля Андрущак,1993,Teen 17-18,SBD,Single-ply

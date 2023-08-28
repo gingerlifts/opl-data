@@ -14,7 +14,7 @@ WeightClassKg,Name,CyrillicName,Event,Equipment,Sex,Tested,Country,BirthDate,Div
 67.5,Maksim Klimov,Максим Климов,S,Wraps,M,Yes,Russia,1996-10-25,Disabled Teen 16-17,67.5,95,-105,-110,,95,,,,,,,,,,,95,2
 67.5,Nikolay Borodinov,Николай Бородинов,S,Wraps,M,Yes,Russia,1997-09-29,Disabled Teen 16-17,61,80,90,-95,,90,,,,,,,,,,,90,3
 75,Aleksey Uymin,Алексей Уймин,S,Wraps,M,Yes,Russia,1990-02-15,Disabled Juniors 20-23,72.95,85,95,105,-113.5,105,,,,,,,,,,,105,1
-75,Dmitriy Ivanov,Дмитрий Иванов,S,Wraps,M,Yes,Russia,1989-08-14,Disabled Open,72.15,105,115,120,,120,,,,,,,,,,,120,1
+75,Dmitriy Ivanov #3,Дмитрий Иванов,S,Wraps,M,Yes,Russia,1989-08-14,Disabled Open,72.15,105,115,120,,120,,,,,,,,,,,120,1
 82.5,Pavel Zubov,Павел Зубов,S,Wraps,M,Yes,Russia,1990-03-04,Disabled Juniors 20-23,80.8,-165,165,-185,,165,,,,,,,,,,,165,1
 82.5,Vladimir Nagalyuk,Владимир Нагалюк,S,Wraps,M,Yes,Ukraine,1951-09-21,Disabled Masters 60-64,82.5,110,120,130,,130,,,,,,,,,,,130,1
 82.5,Pavel Chushkin,Павел Чушкин,S,Wraps,M,Yes,Russia,1987-05-14,Disabled Open,76,110,117.5,-125,,117.5,,,,,,,,,,,117.5,1
@@ -40,7 +40,7 @@ WeightClassKg,Name,CyrillicName,Event,Equipment,Sex,Tested,Country,BirthDate,Div
 67.5,Maksim Klimov,Максим Климов,D,Raw,M,Yes,Russia,1996-10-25,Disabled Teen 16-17,67.5,,,,,,,,,,,-145,145,155,,155,155,2
 67.5,Nikolay Borodinov,Николай Бородинов,D,Raw,M,Yes,Russia,1997-09-29,Disabled Teen 16-17,61,,,,,,,,,,,100,110,115,,115,115,3
 75,Aleksey Uymin,Алексей Уймин,D,Raw,M,Yes,Russia,1990-02-15,Disabled Juniors 20-23,72.95,,,,,,,,,,,145,155,-160,,155,155,1
-75,Dmitriy Ivanov,Дмитрий Иванов,D,Raw,M,Yes,Russia,1989-08-14,Disabled Open,72.15,,,,,,,,,,,175,187.5,197.5,,197.5,197.5,1
+75,Dmitriy Ivanov #3,Дмитрий Иванов,D,Raw,M,Yes,Russia,1989-08-14,Disabled Open,72.15,,,,,,,,,,,175,187.5,197.5,,197.5,197.5,1
 82.5,Pavel Zubov,Павел Зубов,D,Raw,M,Yes,Russia,1990-03-04,Disabled Juniors 20-23,80.8,,,,,,,,,,,185,195,-205,,195,195,1
 82.5,Vladimir Nagalyuk,Владимир Нагалюк,D,Raw,M,Yes,Ukraine,1951-09-21,Disabled Masters 60-64,82.5,,,,,,,,,,,140,150,160,,160,160,1
 82.5,Sergey Galanin,Сергей Галанин,D,Raw,M,Yes,Russia,1984-03-02,Disabled Open,81.7,,,,,,,,,,,175,187.5,200,,200,200,1
@@ -67,7 +67,7 @@ WeightClassKg,Name,CyrillicName,Event,Equipment,Sex,Tested,Country,BirthDate,Div
 67.5,Maksim Klimov,Максим Климов,SBD,Wraps,M,Yes,Russia,1996-10-25,Disabled Teen 16-17,67.5,95,-105,-110,,95,70,-80,-80,,70,-145,145,155,,155,320,2
 67.5,Nikolay Borodinov,Николай Бородинов,SBD,Wraps,M,Yes,Russia,1997-09-29,Disabled Teen 16-17,61,80,90,-95,,90,55,60,-62.5,,60,100,110,115,,115,265,3
 75,Aleksey Uymin,Алексей Уймин,SBD,Wraps,M,Yes,Russia,1990-02-15,Disabled Juniors 20-23,72.95,85,95,105,-113.5,105,80,85,87.5,,87.5,145,155,-160,,155,347.5,1
-75,Dmitriy Ivanov,Дмитрий Иванов,SBD,Wraps,M,Yes,Russia,1989-08-14,Disabled Open,72.15,105,115,120,,120,90,-97.5,-97.5,,90,175,187.5,197.5,,197.5,407.5,1
+75,Dmitriy Ivanov #3,Дмитрий Иванов,SBD,Wraps,M,Yes,Russia,1989-08-14,Disabled Open,72.15,105,115,120,,120,90,-97.5,-97.5,,90,175,187.5,197.5,,197.5,407.5,1
 82.5,Pavel Zubov,Павел Зубов,SBD,Wraps,M,Yes,Russia,1990-03-04,Disabled Juniors 20-23,80.8,-165,165,-185,,165,100,107.5,-112.5,,107.5,185,195,-205,,195,467.5,1
 82.5,Vladimir Nagalyuk,Владимир Нагалюк,SBD,Wraps,M,Yes,Ukraine,1951-09-21,Disabled Masters 60-64,82.5,110,120,130,,130,50,60,-65,,60,140,150,160,,160,350,1
 82.5,Pavel Chushkin,Павел Чушкин,SBD,Wraps,M,Yes,Russia,1987-05-14,Disabled Open,76,110,117.5,-125,,117.5,107.5,-112.5,-112.5,,107.5,170,180,-188,,180,405,1
@@ -115,7 +115,7 @@ WeightClassKg,Name,CyrillicName,Event,Equipment,Sex,Tested,Country,BirthDate,Div
 67.5,Aleksey Murzin,Алексей Мурзин,B,Raw,M,Yes,Russia,1993-10-20,Disabled Teen 18-19,64.95,,,,,,60,-65,-65,,60,,,,,,60,2
 75,Aleksey Uymin,Алексей Уймин,B,Raw,M,Yes,Russia,1990-02-15,Disabled Juniors 20-23,72.95,,,,,,80,85,87.5,,87.5,,,,,,87.5,1
 75,Nikita Simonov,Никита Симонов,B,Raw,M,Yes,Russia,1989-05-10,Disabled Open,68.8,,,,,,102.5,-107.5,-107.5,,102.5,,,,,,102.5,1
-75,Dmitriy Ivanov,Дмитрий Иванов,B,Raw,M,Yes,Russia,1989-08-14,Disabled Open,72.15,,,,,,90,-97.5,-97.5,,90,,,,,,90,2
+75,Dmitriy Ivanov #3,Дмитрий Иванов,B,Raw,M,Yes,Russia,1989-08-14,Disabled Open,72.15,,,,,,90,-97.5,-97.5,,90,,,,,,90,2
 82.5,Pavel Zubov,Павел Зубов,B,Raw,M,Yes,Russia,1990-03-04,Disabled Juniors 20-23,80.8,,,,,,100,107.5,-112.5,,107.5,,,,,,107.5,1
 82.5,Vladimir Nagalyuk,Владимир Нагалюк,B,Raw,M,Yes,Ukraine,1951-09-21,Disabled Masters 60-64,82.5,,,,,,,50,60,,60,,,,,,60,1
 82.5,Sergey Galanin,Сергей Галанин,B,Raw,M,Yes,Russia,1984-03-02,Disabled Open,81.7,,,,,,107.5,120,127.5,,127.5,,,,,,127.5,1
@@ -264,8 +264,8 @@ WeightClassKg,Name,CyrillicName,Event,Equipment,Sex,Tested,Country,BirthDate,Div
 100,Igor Anfalov,Игорь Анфалов,B,Raw,M,No,Russia,1964-10-04,Pro Masters 45-49,100,,,,,,150,155,160,,160,,,,,,160,5
 100,Aslambek Abaev,Асламбек Абаев,B,Raw,M,No,Russia,1959-06-28,Pro Masters 50-54,96.5,,,,,,190,-195,,,190,,,,,,190,1
 100,Konstantin Otavin,Константин Отавин,B,Raw,M,No,Russia,1973-11-25,Pro Open,99.9,,,,,,220,225,230,-245,230,,,,,,230,1
-100,Aleksandr Popov,Александр Попов,B,Raw,M,No,Russia,1984-07-19,Pro Open,95.9,,,,,,210,220,227.5,,227.5,,,,,,227.5,2
-100,Sergey Popov,Сергей Попов,B,Raw,M,No,Russia,1984-03-02,Pro Open,97.9,,,,,,195,200,-205,,200,,,,,,200,3
+100,Aleksandr Popov #25,Александр Попов,B,Raw,M,No,Russia,1984-07-19,Pro Open,95.9,,,,,,210,220,227.5,,227.5,,,,,,227.5,2
+100,Sergey Popov #13,Сергей Попов,B,Raw,M,No,Russia,1984-03-02,Pro Open,97.9,,,,,,195,200,-205,,200,,,,,,200,3
 100,Dmitriy Tambovtsev,Дмитрий Тамбовцев,B,Raw,M,No,Russia,1969-10-24,Pro Open,98.8,,,,,,180,185,190,,190,,,,,,190,8
 100,Maksim Petrov,Максим Петров,B,Raw,M,No,Russia,1983-07-05,Pro Open,98.7,,,,,,170,175,-177.5,,175,,,,,,175,12
 110,Viktor Shurtukin,Виктор Шуртукин,B,Raw,M,No,Russia,1970-04-16,Pro Masters 40-44,104.9,,,,,,160,170,177.5,,177.5,,,,,,177.5,2
@@ -316,7 +316,7 @@ WeightClassKg,Name,CyrillicName,Event,Equipment,Sex,Tested,Country,BirthDate,Div
 100,Aleksandr Ilin,Александр Ильин,S,Wraps,M,Yes,Russia,1964-11-20,Amateur Masters 45-49,97.9,195,205,212.5,,212.5,,,,,,,,,,,212.5,2
 100,Mikhail Bobkov,Михаил Бобков,S,Wraps,M,Yes,Russia,1947-11-21,Amateur Masters 65-69,93.6,150,,,,150,,,,,,,,,,,150,1
 100,Valeriy Bystrov,Валерий Быстров,S,Wraps,M,Yes,Russia,1941-06-14,Amateur Masters 70-74,93.9,170,190,-205,,190,,,,,,,,,,,190,1
-100,Orkhan Akhmed-zade,Орхан Ахмед-заде,S,Wraps,M,Yes,Azerbaijan,1988-04-26,Amateur Open,100,230,240,-245,,240,,,,,,,,,,,240,3
+100,Orkhan Akhmadzade,Орхан Ахмед-заде,S,Wraps,M,Yes,Azerbaijan,1988-04-26,Amateur Open,100,230,240,-245,,240,,,,,,,,,,,240,3
 100,Andrey Levchenko,Андрей Левченко,S,Wraps,M,Yes,Russia,1979-04-06,Amateur Open,98.5,-152.5,152.5,-172.5,,152.5,,,,,,,,,,,152.5,4
 110,Evgeniy Kochnev,Евгений Кочнев,S,Wraps,M,Yes,Russia,1965-09-19,Amateur Masters 45-49,109.5,200,202.5,215,,215,,,,,,,,,,,215,1
 110,Vladimir Podlesnykh,Владимир Подлесных,S,Wraps,M,Yes,Russia,1962-12-15,Amateur Masters 50-54,102.1,170,-190,,,170,,,,,,,,,,,170,1
@@ -328,7 +328,7 @@ WeightClassKg,Name,CyrillicName,Event,Equipment,Sex,Tested,Country,BirthDate,Div
 44,Yuliya Peyu,Юлия Пею,D,Raw,F,Yes,Russia,1996-03-22,Amateur Teen 16-17,44,,,,,,,,,,,100,110,117.5,120,117.5,117.5,1
 52,Tatyana Tikhomirova,Татьяна Тихомирова,D,Raw,F,Yes,Russia,1971-11-20,Amateur Masters 40-44,50.5,,,,,,,,,,,-70,70,75,,75,75,1
 52,Kseniya Sharonova,Ксения Шаронова,D,Raw,F,Yes,Russia,1984-09-03,Amateur Open,51,,,,,,,,,,,70,80,90,,90,90,1
-56,Galina Tukal,Галина Тукаль,D,Raw,F,Yes,Russia,1989-06-19,Amateur Open,55.6,,,,,,,,,,,135,145,150.5,-152.5,150.5,150.5,1
+56,Galina Abramova,Галина Абрамова,D,Raw,F,Yes,Russia,1989-06-19,Amateur Open,55.6,,,,,,,,,,,135,145,150.5,-152.5,150.5,150.5,1
 56,Anastasiya Noskova,Анастасия Носкова,D,Raw,F,Yes,Russia,1984-02-14,Amateur Open,53.8,,,,,,,,,,,135,143,-150,,143,143,2
 60,Tatiana Ukhlina,Татьяна Ухлина,D,Raw,F,Yes,Russia,1971-07-19,Amateur Masters 40-44,58.7,,,,,,,,,,,110,-117.5,122.5,,122.5,122.5,1
 60,Tatiana Ukhlina,Татьяна Ухлина,D,Raw,F,Yes,Russia,1971-07-19,Amateur Open,58.7,,,,,,,,,,,110,-117.5,122.5,,122.5,122.5,1
@@ -367,7 +367,7 @@ WeightClassKg,Name,CyrillicName,Event,Equipment,Sex,Tested,Country,BirthDate,Div
 100,Aleksandr Kiselev,Александр Киселев,D,Raw,M,Yes,Russia,1968-03-28,Amateur Masters 45-49,90.7,,,,,,,,,,,150,160,,,160,160,3
 100,Valeriy Bystrov,Валерий Быстров,D,Raw,M,Yes,Russia,1941-06-14,Amateur Masters 70-74,93.9,,,,,,,,,,,180,190,195,,195,195,1
 100,Anatoliy Cherkashin,Анатолий Черкашин,D,Raw,M,Yes,Russia,1987-10-21,Amateur Open,98.2,,,,,,,,,,,250,270,290,,290,290,3
-100,Orkhan Akhmed-zade,Орхан Ахмед-заде,D,Raw,M,Yes,Azerbaijan,1988-04-26,Amateur Open,100,,,,,,,,,,,-250,250,260,,260,260,5
+100,Orkhan Akhmadzade,Орхан Ахмед-заде,D,Raw,M,Yes,Azerbaijan,1988-04-26,Amateur Open,100,,,,,,,,,,,-250,250,260,,260,260,5
 100,Aleksandr Abramov,Александр Абрамов,D,Raw,M,Yes,Russia,1987-09-20,Amateur Open,99.3,,,,,,,,,,,220,230,-240,,230,230,6
 100,Andrey Levchenko,Андрей Левченко,D,Raw,M,Yes,Russia,1979-04-06,Amateur Open,98.5,,,,,,,,,,,185,-210,,,185,185,7
 100,Aleksandr Kiselev,Александр Киселев,D,Raw,M,Yes,Russia,1968-03-28,Amateur Open,90.7,,,,,,,,,,,150,160,,,160,160,8
@@ -382,7 +382,7 @@ WeightClassKg,Name,CyrillicName,Event,Equipment,Sex,Tested,Country,BirthDate,Div
 48,Anna Pavlovskaya,Анна Павловская,SBD,Wraps,F,Yes,Russia,1997-01-26,Amateur Teen 16-17,46.35,72.5,75,77.5,,77.5,52.5,55,-57.5,,55,75,85,-92.5,,85,217.5,1
 52,Natalya Shchekaleva,Наталья Щекалева,SBD,Wraps,F,Yes,Russia,1985-10-11,Amateur Open,51.3,82.5,-87.5,87.5,,87.5,50,55,-57.5,,55,105,110,-115,,110,252.5,1
 52,Irina Shtukaturova,Ирина Штукатурова,SBD,Wraps,F,Yes,Russia,1983-08-07,Amateur Open,51,67.5,75,-80,,75,35,37.5,40,,40,82.5,-92.5,-92.5,,82.5,197.5,2
-56,Galina Tukal,Галина Тукаль,SBD,Wraps,F,Yes,Russia,1989-06-19,Amateur Open,55.6,105,-110,110,,110,50,52.5,-55,,52.5,135,145,150.5,-152.5,150.5,313,1
+56,Galina Abramova,Галина Абрамова,SBD,Wraps,F,Yes,Russia,1989-06-19,Amateur Open,55.6,105,-110,110,,110,50,52.5,-55,,52.5,135,145,150.5,-152.5,150.5,313,1
 56,Anastasiya Noskova,Анастасия Носкова,SBD,Wraps,F,Yes,Russia,1984-02-14,Amateur Open,53.8,80,85,90,,90,52.5,55,57.5,,57.5,135,143,-150,,143,290.5,2
 56,Alena Tokareva,Алена Токарева,SBD,Wraps,F,Yes,Russia,1987-01-04,Amateur Open,55.2,90,95,-100,,95,52.5,-55,-55,,52.5,100,110,117.5,,117.5,265,3
 56,Alena Makarova,Алена Макарова,SBD,Wraps,F,Yes,Russia,1996-05-31,Amateur Teen 16-17,56,75,85,90,,90,40,45,,,45,85,95,100,,100,235,1
@@ -492,7 +492,7 @@ WeightClassKg,Name,CyrillicName,Event,Equipment,Sex,Tested,Country,BirthDate,Div
 100,Valeriy Bystrov,Валерий Быстров,SBD,Wraps,M,Yes,Russia,1941-06-14,Amateur Masters 70-74,93.9,170,190,-205,,190,100,-105,-110,,100,180,190,195,,195,485,1
 100,Denis Astakhov,Денис Астахов,SBD,Wraps,M,Yes,Russia,1984-05-21,Amateur Open,100,270,280,-291,,280,140,145,-150,,145,270,-282.5,-282.5,,270,695,5
 100,Aleksandr Ryabets,Александр Рябец,SBD,Wraps,M,Yes,Russia,1983-09-08,Amateur Open,99.9,230,-240,240,,240,160,-170,-170,,160,260,280,290,,290,690,6
-100,Orkhan Akhmed-zade,Орхан Ахмед-заде,SBD,Wraps,M,Yes,Azerbaijan,1988-04-26,Amateur Open,100,230,240,-245,,240,170,-177.5,180,,180,-250,250,260,,260,680,7
+100,Orkhan Akhmadzade,Орхан Ахмед-заде,SBD,Wraps,M,Yes,Azerbaijan,1988-04-26,Amateur Open,100,230,240,-245,,240,170,-177.5,180,,180,-250,250,260,,260,680,7
 100,Andrey Yuroev,Андрей Юроев,SBD,Wraps,M,Yes,Russia,1980-10-30,Amateur Open,99.7,250,-260,-260,,250,152.5,160,-165,,160,250,260,265,,265,675,8
 100,Andrey Malenkikh,Андрей Маленьких,SBD,Wraps,M,Yes,Russia,1989-01-20,Amateur Open,95.6,240,-255,265,,265,150,-157.5,-157.5,,150,240,255,-267.5,,255,670,9
 100,Sergey Kozhaev,Сергей Кожаев,SBD,Wraps,M,Yes,Russia,1979-08-31,Amateur Open,98.7,215,225,232.5,,232.5,-140,140,-145,,140,255,-262.5,,,255,627.5,11
@@ -522,7 +522,7 @@ WeightClassKg,Name,CyrillicName,Event,Equipment,Sex,Tested,Country,BirthDate,Div
 125,Oleg Kochurov,Олег Кочуров,SBD,Wraps,M,Yes,Russia,1980-08-26,Amateur Open,120.7,-200,-200,-200,,,-160,,,,,-190,,,,,,DQ
 125,Gleb Artamonov,Глеб Артамонов,SBD,Wraps,M,Yes,Russia,1995-04-28,Amateur Teen 18-19,115.6,135,145,155,,155,110,120,,,120,180,202.5,207.5,,207.5,482.5,1
 140,Sergey Kharlamov,Сергей Харламов,SBD,Wraps,M,Yes,Russia,1973-08-21,Amateur Masters 40-44,130,180,200,210,,210,150,-160,160,,160,200,220,240,,240,610,1
-44,Lyudmila Egorova,Людмила Егорова,B,Raw,F,Yes,Russia,1999-06-03,Amateur Teen 14-15,44,,,,,,-30,35,-40,,35,,,,,,35,1
+44,Lyudmila Egorova #1,Людмила Егорова,B,Raw,F,Yes,Russia,1999-06-03,Amateur Teen 14-15,44,,,,,,-30,35,-40,,35,,,,,,35,1
 48,Nadezhda Toporkova,Надежда Топоркова,B,Raw,F,Yes,Russia,1986-09-02,Amateur Open,47.6,,,,,,37.5,40,-42.5,,40,,,,,,40,1
 48,Mariya Zavarukhina,Мария Заварухина,B,Raw,F,Yes,Russia,2000-08-15,Amateur Teen 13,46,,,,,,35,40,42.5,,42.5,,,,,,42.5,1
 48,Anna Pavlovskaya,Анна Павловская,B,Raw,F,Yes,Russia,1997-01-26,Amateur Teen 16-17,46.35,,,,,,-47.5,50,55,-58,55,,,,,,55,1
@@ -718,7 +718,7 @@ WeightClassKg,Name,CyrillicName,Event,Equipment,Sex,Tested,Country,BirthDate,Div
 90,Oleg Novikov,Олег Новиков,B,Raw,M,Yes,Russia,1970-03-13,Amateur Masters 40-44,85.6,,,,,,135,-140,-140,,135,,,,,,135,8
 90,Rafael Aptukov,Рафаэль Аптуков,B,Raw,M,Yes,Russia,1968-08-03,Amateur Masters 45-49,88.9,,,,,,160,165,-170,,165,,,,,,165,1
 90,Yuriy Rubanov,Юрий Рубанов,B,Raw,M,Yes,Russia,1967-11-28,Amateur Masters 45-49,89.55,,,,,,157.5,-162.5,-162.5,,157.5,,,,,,157.5,2
-90,Andrey Noritsin,Андрей Норицин,B,Raw,M,Yes,Russia,1963-07-30,Amateur Masters 50-54,88.6,,,,,,150,155,160,,160,,,,,,160,1
+90,Andrey Noritsin,Андрей Норицын,B,Raw,M,Yes,Russia,1963-07-30,Amateur Masters 50-54,88.6,,,,,,150,155,160,,160,,,,,,160,1
 90,Dilyus Gumarov,Дилюс Гумаров,B,Raw,M,Yes,Russia,1960-10-16,Amateur Masters 50-54,86.85,,,,,,100,110,-117.5,,110,,,,,,110,3
 90,Mikhail Khudyakov,Михаил Худяков,B,Raw,M,Yes,Russia,1955-08-04,Amateur Masters 55-59,88.1,,,,,,135,140,145,,145,,,,,,145,1
 90,Vladimir Lamatskiy,Владимир Ламацкий,B,Raw,M,Yes,Russia,1955-06-26,Amateur Masters 55-59,87,,,,,,110,-120,-120,,110,,,,,,110,4
@@ -761,7 +761,7 @@ WeightClassKg,Name,CyrillicName,Event,Equipment,Sex,Tested,Country,BirthDate,Div
 100,Vasiliy Synkov,Василий Сынков,B,Raw,M,Yes,Russia,1972-09-07,Amateur Masters 40-44,99.9,,,,,,192.5,200,-207.5,,200,,,,,,200,1
 100,Vladimir Beloglazov,Владимир Белоглазов,B,Raw,M,Yes,Russia,1969-02-20,Amateur Masters 40-44,99.9,,,,,,182.5,-192.5,-192.5,,182.5,,,,,,182.5,3
 100,Dmitriy Tabunkov,Дмитрий Табунков,B,Raw,M,Yes,Russia,1972-04-20,Amateur Masters 40-44,100,,,,,,180,-187.5,-187.5,,180,,,,,,180,5
-100,Sergey Matveev,Сергей Матвеев,B,Raw,M,Yes,Russia,1973-04-29,Amateur Masters 40-44,99.6,,,,,,170,177.5,-182.5,,177.5,,,,,,177.5,6
+100,Sergey Matveev #2,Сергей Матвеев,B,Raw,M,Yes,Russia,1973-04-29,Amateur Masters 40-44,99.6,,,,,,170,177.5,-182.5,,177.5,,,,,,177.5,6
 100,Aleksandr Samogin,Александр Самогин,B,Raw,M,Yes,Russia,1972-02-15,Amateur Masters 40-44,99.6,,,,,,162.5,170,-175,,170,,,,,,170,7
 100,Oleg Ryabokon,Олег Рябоконь,B,Raw,M,Yes,Russia,1970-10-09,Amateur Masters 40-44,92.75,,,,,,162.5,167.5,-170,,167.5,,,,,,167.5,8
 100,Oleg Kozmirenko,Олег Козмиренко,B,Raw,M,Yes,Russia,1969-07-01,Amateur Masters 40-44,98,,,,,,165,-177.5,-177.5,,165,,,,,,165,9
@@ -937,14 +937,14 @@ WeightClassKg,Name,CyrillicName,Event,Equipment,Sex,Tested,Country,BirthDate,Div
 110,Roman Brekhov,Роман Брехов,B,Multi-ply,M,No,Russia,1990-02-24,Pro Juniors 20-23,106.6,,,,,,235,245,-255,,245,,,,,,245,1
 110,Eduard Khaliulin,Эдуард Халиулин,B,Multi-ply,M,No,Russia,1973-05-22,Pro Masters 40-44,107,,,,,,285,-292.5,292.5,,292.5,,,,,,292.5,1
 110,Dmitriy Sorokin,Дмитрий Сорокин,B,Multi-ply,M,No,Russia,1971-03-22,Pro Masters 40-44,108.3,,,,,,-265,-265,-265,,,,,,,,,DQ
-110,Stanislav Maksimov,Станислав Максимов,B,Multi-ply,M,No,Russia,1968-08-04,Pro Masters 45-49,107.8,,,,,,280,-290,-300,,280,,,,,,280,2
+110,Stanislav Maksimov #1,Станислав Максимов,B,Multi-ply,M,No,Russia,1968-08-04,Pro Masters 45-49,107.8,,,,,,280,-290,-300,,280,,,,,,280,2
 110,Aleksandr Oshchepkov,Александр Ощепков,B,Multi-ply,M,No,Russia,1967-12-08,Pro Masters 45-49,108.3,,,,,,-230,-230,230,,230,,,,,,230,3
 110,Andrey Letyagin,Андрей Летягин,B,Multi-ply,M,No,Kazakhstan,1963-05-07,Pro Masters 50-54,105.4,,,,,,242.5,250,260,,260,,,,,,260,1
 110,Aleksandr Sykmenyov,Александр Сыкменёв,B,Multi-ply,M,No,Russia,1978-06-24,Pro Open,110,,,,,,305,315,330,,330,,,,,,330,1
 110,Eduard Khaliullin,Эдуард Халиуллин,B,Multi-ply,M,No,Russia,1973-05-22,Pro Open,107,,,,,,-285,-292.5,292.5,,292.5,,,,,,292.5,2
 110,Dmitriy Sorokin,Дмитрий Сорокин,B,Multi-ply,M,No,Russia,1971-03-22,Pro Open,108.3,,,,,,-265,-265,-265,,,,,,,,,DQ
 110,Artem Sukhov,Артем Сухов,B,Multi-ply,M,No,Russia,1983-03-01,Pro Open,110,,,,,,-240,-240,-240,,,,,,,,,DQ
-110,Ibragim Ibragimov,Ибрагим Ибрагимов,B,Multi-ply,M,No,Azerbaijan,1981-09-10,Pro Open,110,,,,,,-300,-305,-317.5,,,,,,,,,DQ
+110,Ibrahim Ibrahimov,Ибрагим Ибрагимов,B,Multi-ply,M,No,Azerbaijan,1981-09-10,Pro Open,110,,,,,,-300,-305,-317.5,,,,,,,,,DQ
 110,Darkhantulga Bayaraa,Дархантулга Баяраа,B,Multi-ply,M,No,Mongolia,1994-06-16,Pro Teen 18-19,109.9,,,,,,182.5,200,210,,210,,,,,,210,1
 125,Yuriy Sufimov,Юрий Суфимов,B,Multi-ply,M,No,Russia,1970-04-20,Pro Masters 40-44,113.8,,,,,,280,300,-320,,300,,,,,,300,1
 125,Pavel Yagovkin,Павел Яговкин,B,Multi-ply,M,No,Russia,1959-07-27,Pro Masters 50-54,119.2,,,,,,-245,255,-270,,255,,,,,,255,1
@@ -956,17 +956,17 @@ WeightClassKg,Name,CyrillicName,Event,Equipment,Sex,Tested,Country,BirthDate,Div
 140,Nikolay Pyshmintsev,Николай Пышминцев,B,Multi-ply,M,No,Russia,1981-01-04,Pro Open,127.1,,,,,,280,,,,280,,,,,,,DQ
 140,Kirill Rodygin,Кирилл Родыгин,B,Multi-ply,M,No,Russia,1988-02-18,Pro Open,133.4,,,,,,-190,-200,-200,,,,,,,,,DQ
 75,Vasilina Avdenko,Василина Авденко,S,Multi-ply,F,Yes,Russia,1983-08-19,Amateur Open,70,200,-215,-215,,200,,,,,,,,,,,200,1
-82.5,Igor Kozlov,Ігор Козлов,S,Multi-ply,M,Yes,Russia,1964-11-09,Amateur Masters 45-49,79.85,-170,170,180,,180,,,,,,,,,,,180,1
+82.5,Igor Kozlov #1,Игорь Козлов,S,Multi-ply,M,Yes,Russia,1964-11-09,Amateur Masters 45-49,79.85,-170,170,180,,180,,,,,,,,,,,180,1
 82.5,Nikolay Maslov,Николай Маслов,S,Multi-ply,M,Yes,Russia,1986-10-31,Amateur Open,81.7,260,-280,-280,,260,,,,,,,,,,,260,1
 90,Evgeniy Svoboda,Евгений Свобода,S,Multi-ply,M,Yes,Russia,1972-03-23,Amateur Masters 40-44,87.9,230,250,270,,270,,,,,,,,,,,270,1
-90,Artem Bykhovets,Артём Быховец,S,Multi-ply,M,Yes,Russia,1983-07-19,Amateur Open,89.7,-287.5,295,305,,305,,,,,,,,,,,305,1
+90,Artem Bykhovets,Артем Быховец,S,Multi-ply,M,Yes,Russia,1983-07-19,Amateur Open,89.7,-287.5,295,305,,305,,,,,,,,,,,305,1
 90,Evgeniy Svoboda,Евгений Свобода,S,Multi-ply,M,Yes,Russia,1972-03-23,Amateur Open,87.9,230,250,270,,270,,,,,,,,,,,270,2
 67.5,Sergey Alampiev,Сергей Алампиев,D,Multi-ply,M,Yes,Russia,1957-04-07,Amateur Masters 55-59,67.3,,,,,,,,,,,-180,200,210,,210,210,1
 75,Rustam Musaev,Рустам Мусаев,D,Multi-ply,M,Yes,Azerbaijan,1978-09-08,Amateur Open,75,,,,,,,,,,,240,255,-262.5,,255,255,1
-82.5,Igor Kozlov,Ігор Козлов,D,Multi-ply,M,Yes,Russia,1964-11-09,Amateur Masters 45-49,79.85,,,,,,,,,,,180,190,200,,200,200,1
+82.5,Igor Kozlov #1,Игорь Козлов,D,Multi-ply,M,Yes,Russia,1964-11-09,Amateur Masters 45-49,79.85,,,,,,,,,,,180,190,200,,200,200,1
 82.5,Nikolay Maslov,Николай Маслов,D,Multi-ply,M,Yes,Russia,1986-10-31,Amateur Open,81.7,,,,,,,,,,,-240,-240,-240,,,,DQ
 90,Evgeniy Svoboda,Евгений Свобода,D,Multi-ply,M,Yes,Russia,1972-03-23,Amateur Masters 40-44,87.9,,,,,,,,,,,205,235,242.5,,242.5,242.5,1
-90,Artem Bykhovets,Артём Быховец,D,Multi-ply,M,Yes,Russia,1983-07-19,Amateur Open,89.7,,,,,,,,,,,245,265,-280.5,,265,265,2
+90,Artem Bykhovets,Артем Быховец,D,Multi-ply,M,Yes,Russia,1983-07-19,Amateur Open,89.7,,,,,,,,,,,245,265,-280.5,,265,265,2
 90,Evgeniy Svoboda,Евгений Свобода,D,Multi-ply,M,Yes,Russia,1972-03-23,Amateur Open,87.9,,,,,,,,,,,205,235,255,,255,255,3
 90,Nikita Semenov,Никита Семенов,D,Multi-ply,M,Yes,Russia,1985-10-19,Amateur Open,89.1,,,,,,,,,,,-242.5,250,-262.5,,250,250,4
 100,Aleksandr Kiselev,Александр Киселев,D,Multi-ply,M,Yes,Russia,1968-03-28,Amateur Masters 45-49,91.6,,,,,,,,,,,160,180,-185,,180,180,1
@@ -990,7 +990,7 @@ WeightClassKg,Name,CyrillicName,Event,Equipment,Sex,Tested,Country,BirthDate,Div
 75,Anton Polugrudov,Антон Полугрудов,SBD,Multi-ply,M,Yes,Russia,1996-09-24,Amateur Teen 16-17,68.8,130,137.5,-142.5,,137.5,85,95,100,,100,145,150,157.5,,157.5,395,1
 75,Evgeniy Potapov,Евгений Потапов,SBD,Multi-ply,M,Yes,Russia,1996-07-28,Amateur Teen 16-17,74.3,110,125,-145,,125,90,105,-107.5,,105,140,150,160,,160,390,2
 82.5,Igor Sharifov,Игорь Шарифов,SBD,Multi-ply,M,Yes,Russia,1991-10-05,Amateur Juniors 20-23,82.5,-285,-285,285,,285,-170,170,-180,,170,255,262.5,,,262.5,717.5,1
-82.5,Igor Kozlov,Ігор Козлов,SBD,Multi-ply,M,Yes,Russia,1964-11-09,Amateur Masters 45-49,79.85,-170,170,180,,180,-125,-125,125,,125,180,190,200,,200,505,1
+82.5,Igor Kozlov #1,Игорь Козлов,SBD,Multi-ply,M,Yes,Russia,1964-11-09,Amateur Masters 45-49,79.85,-170,170,180,,180,-125,-125,125,,125,180,190,200,,200,505,1
 82.5,Vyacheslav Piskalov,Вячеслав Пискалов,SBD,Multi-ply,M,Yes,Russia,1958-10-23,Amateur Masters 50-54,81.9,260,280,-290,,280,105,115,-120,,115,220,240,,,240,635,1
 82.5,Vyacheslav Yakushov,Вячеслав Якушов,SBD,Multi-ply,M,Yes,Russia,1941-09-01,Amateur Masters 70-74,82.5,182.5,190,200,,200,115,-122.5,122.5,,122.5,190,197.5,202.5,,202.5,525,1
 82.5,Igor Sharifov,Игорь Шарифов,SBD,Multi-ply,M,Yes,Russia,1991-10-05,Amateur Open,82.5,-285,-285,285,,285,-170,170,-180,,170,255,262.5,,,262.5,717.5,1
@@ -1000,7 +1000,7 @@ WeightClassKg,Name,CyrillicName,Event,Equipment,Sex,Tested,Country,BirthDate,Div
 82.5,Sergey Chistov,Сергей Чистов,SBD,Multi-ply,M,Yes,Russia,1996-05-16,Amateur Teen 16-17,81.2,-145,150,-165,,150,95,100,105,,105,150,160,170,,170,425,1
 90,Maksim Matros,Максим Матрос,SBD,Multi-ply,M,Yes,Russia,1992-08-22,Amateur Juniors 20-23,90,250,270,-282,,270,155,-162.5,,,155,270,287.5,300,,300,725,1
 90,Evgeniy Svoboda,Евгений Свобода,SBD,Multi-ply,M,Yes,Russia,1972-03-23,Amateur Masters 40-44,87.9,230,250,270,,270,170,-185,,,170,205,235,242.5,,242.5,682.5,1
-90,Artem Bykhovets,Артём Быховец,SBD,Multi-ply,M,Yes,Russia,1983-07-19,Amateur Open,89.7,-287.5,295,305,,305,205,-215,215,,215,245,265,-280.5,,265,785,1
+90,Artem Bykhovets,Артем Быховец,SBD,Multi-ply,M,Yes,Russia,1983-07-19,Amateur Open,89.7,-287.5,295,305,,305,205,-215,215,,215,245,265,-280.5,,265,785,1
 90,Andrey Kirindyasov,Андрей Кириндясов,SBD,Multi-ply,M,Yes,Russia,1988-03-20,Amateur Open,90,280,297.5,307.5,,307.5,210,220,225,,225,210,235,-255,,235,767.5,2
 90,Ivan Demidenko,Иван Демиденко,SBD,Multi-ply,M,Yes,Russia,1976-12-20,Amateur Open,89.65,180,190,-200,,190,160,-170,-180,,160,165,175,185,,185,535,3
 90,Andrey Maslennikov,Андрей Масленников,SBD,Multi-ply,M,Yes,Russia,1989-02-16,Amateur Open,87.9,177.5,-182.5,182.5,,182.5,125,130,135,,135,190,200,-210,,200,517.5,4
@@ -1039,8 +1039,8 @@ WeightClassKg,Name,CyrillicName,Event,Equipment,Sex,Tested,Country,BirthDate,Div
 82.5,Rishat Fattakhov,Ришат Фаттахов,B,Multi-ply,M,Yes,Russia,1967-05-08,Amateur Masters 45-49,82.5,,,,,,130,,,,130,,,,,,130,1
 82.5,Vyacheslav Yakushov,Вячеслав Якушов,B,Multi-ply,M,Yes,Russia,1941-09-01,Amateur Masters 70-74,82.5,,,,,,110,,,,110,,,,,,110,1
 82.5,Aleksandr Biserov,Александр Бисеров,B,Multi-ply,M,Yes,Russia,1943-08-18,Amateur Masters 70-74,75.3,,,,,,-80,,,,,,,,,,,DQ
-82.5,Aleksey Popov,Алексей Попов,B,Multi-ply,M,Yes,Russia,1983-02-27,Amateur Open,81.8,,,,,,-227.5,-232.5,232.5,-243.5,232.5,,,,,,232.5,1
-82.5,Agshin Ismailov,Агшин Исмаилов,B,Multi-ply,M,Yes,Azerbaijan,1978-03-30,Amateur Open,82.5,,,,,,200,210,-215,,210,,,,,,210,4
+82.5,Aleksey Popov #12,Алексей Попов,B,Multi-ply,M,Yes,Russia,1983-02-27,Amateur Open,81.8,,,,,,-227.5,-232.5,232.5,-243.5,232.5,,,,,,232.5,1
+82.5,Agshin İsmayilov,Агшин Исмаилов,B,Multi-ply,M,Yes,Azerbaijan,1978-03-30,Amateur Open,82.5,,,,,,200,210,-215,,210,,,,,,210,4
 82.5,Dmitriy Apter,Дмитрий Аптер,B,Multi-ply,M,Yes,Russia,1975-11-14,Amateur Open,82.5,,,,,,155,-170,-170,,155,,,,,,155,7
 82.5,Dmitriy Ershov,Дмитрий Ершов,B,Multi-ply,M,Yes,Russia,1989-06-11,Amateur Open,82.2,,,,,,140,-150,-150,,140,,,,,,140,8
 82.5,Nikolay Ivanov,Николай Иванов,B,Multi-ply,M,Yes,Russia,1975-09-24,Amateur Open,79.25,,,,,,-195,-195,-195,,,,,,,,,DQ
@@ -1066,11 +1066,11 @@ WeightClassKg,Name,CyrillicName,Event,Equipment,Sex,Tested,Country,BirthDate,Div
 100,Aleksey Melnik,Алексей Мельник,B,Multi-ply,M,Yes,Russia,1977-07-17,Amateur Open,99.6,,,,,,-260,-265,-265,,,,,,,,,DQ
 100,Stiven Kaufman,Стивен Кауфман,B,Multi-ply,M,Yes,USA,1977-04-21,Amateur Open,99.7,,,,,,-200,-200,-200,,,,,,,,,DQ
 110,Vasiliy Synkov,Василий Сынков,B,Multi-ply,M,Yes,Russia,1972-09-07,Amateur Masters 40-44,100.7,,,,,,247.5,257.5,265,,265,,,,,,265,2
-110,Aleksandr Tretyakov,Александр Третьяков,B,Multi-ply,M,Yes,Russia,1967-06-14,Amateur Masters 45-49,109.3,,,,,,-285,-285,285,-300,285,,,,,,285,1
+110,Aleksandr Tretyakov #1,Александр Третьяков,B,Multi-ply,M,Yes,Russia,1967-06-14,Amateur Masters 45-49,109.3,,,,,,-285,-285,285,-300,285,,,,,,285,1
 110,Evgeniy Formin,Евгений Формин,B,Multi-ply,M,Yes,Russia,1967-09-21,Amateur Masters 45-49,108.9,,,,,,-210,-210,-210,,,,,,,,,DQ
 110,Andrey Zapylikhin,Андрей Запылихин,B,Multi-ply,M,Yes,Russia,1960-09-07,Amateur Masters 50-54,109.7,,,,,,210,-220,-220,,210,,,,,,210,2
 110,Salman Shamkhalov,Салман Шамхалов,B,Multi-ply,M,Yes,Russia,1952-03-29,Amateur Masters 60-64,109.7,,,,,,175,185,192.5,,192.5,,,,,,192.5,1
-110,Aleksandr Tretyakov,Александр Третьяков,B,Multi-ply,M,Yes,Russia,1967-06-14,Amateur Open,109.3,,,,,,-285,-285,285,-300,285,,,,,,285,3
+110,Aleksandr Tretyakov #1,Александр Третьяков,B,Multi-ply,M,Yes,Russia,1967-06-14,Amateur Open,109.3,,,,,,-285,-285,285,-300,285,,,,,,285,3
 110,Vasiliy Synkov,Василий Сынков,B,Multi-ply,M,Yes,Russia,1972-09-07,Amateur Open,100.7,,,,,,247.5,257.5,265,,265,,,,,,265,4
 110,Pavel Zemlyanskiy,Павел Землянский,B,Multi-ply,M,Yes,Russia,1988-07-05,Amateur Open,108.5,,,,,,-170,-170,170,,170,,,,,,170,5
 110,Ilya Pakhomov,Илья Пахомов,B,Multi-ply,M,Yes,Russia,1988-08-21,Amateur Open,106.2,,,,,,-250,-255,-260,,,,,,,,,DQ
@@ -1082,24 +1082,24 @@ WeightClassKg,Name,CyrillicName,Event,Equipment,Sex,Tested,Country,BirthDate,Div
 125,Kirill Efimov,Кирилл Ефимов,B,Multi-ply,M,Yes,Russia,1985-12-13,Amateur Open,116.9,,,,,,140,-165,-165,,140,,,,,,140,9
 125,Aleksandr Ponomarev,Александр Пономарев,B,Multi-ply,M,Yes,Russia,1967-02-27,Amateur Open,113.5,,,,,,-225,-225,,,,,,,,,,DQ
 125,Sergey Kharlamov,Сергей Харламов,B,Multi-ply,M,Yes,Russia,1969-04-09,Amateur Open,116.65,,,,,,-260,-260,-260,,,,,,,,,DQ
-125,Anatoliy Panchenko,Анатолій Панченко,B,Multi-ply,M,Yes,Russia,1973-11-07,Amateur Open,123,,,,,,-235,-235,-235,,,,,,,,,DQ
+125,Anatoliy Panchenko #1,Анатолий Панченко,B,Multi-ply,M,Yes,Russia,1973-11-07,Amateur Open,123,,,,,,-235,-235,-235,,,,,,,,,DQ
 140,Mikhail Nekrasov,Михаил Некрасов,B,Multi-ply,M,Yes,Russia,1969-11-19,Amateur Masters 40-44,136,,,,,,-240,-240,-257.5,,,,,,,,,DQ
 140,Mikhail Nekrasov,Михаил Некрасов,B,Multi-ply,M,Yes,Russia,1969-11-19,Amateur Open,136,,,,,,-240,-240,-257.5,,,,,,,,,DQ
 140,Andrey Kutlyaev,Андрей Кутляев,B,Multi-ply,M,Yes,Russia,1984-11-06,Amateur Open,139.05,,,,,,-310,-310,-310,,,,,,,,,DQ
 140+,Eduard Smetanin,Эдуард Сметанин,B,Multi-ply,M,Yes,Russia,1969-10-15,Amateur Masters 40-44,140.01,,,,,,185,200,-210,,200,,,,,,200,1
 ,Natalya Kuzmina #1,Наталья Кузьмина,D,Multi-ply,F,No,Kazakhstan,1992-01-01,Elite Open,86.5,,,,,,,,,,,230,250,-265,,250,250,2
-,Mikhail Koklyaev,Михаил Кокляев,D,Multi-ply,M,No,Russia,1978-12-17,Elite Open,160.8,,,,,,,,,,,370,400,-420,,400,400,1
+,Mikhail Koklyaev,Михаил Кокляев,D,Raw,M,No,Russia,1978-12-17,Elite Open,160.8,,,,,,,,,,,370,400,-420,,400,400,1
 ,Aleksandr Obukhovich,Александр Обухович,SBD,Wraps,M,No,Russia,1987-08-16,Elite Open,104.15,310,330,,,330,190,200,205,,205,365,385,-400,,385,920,2
 ,Aleksandr Zaytsev,Александр Зайцев,SBD,Wraps,M,No,Russia,1980-04-06,Elite Open,121.6,-340,350,370,,370,230,240,-250,,240,310,330,-340,,330,940,1
 ,Oleg Vlasov,Олег Власов,SBD,Wraps,M,No,Russia,1973-12-06,Elite Open,127.7,310,-325,325,,325,225,-240,-240,,225,310,325,340,,340,890,3
 ,Rufat Agaev,Руфат Агаев,SBD,Multi-ply,M,No,Azerbaijan,1975-08-16,Elite Open,124.8,450,-480,-480,,450,275,285,,,285,340,360,365,377.5,365,1100,1
 ,Ivan Vasyunin,Иван Васюнин,SBD,Multi-ply,M,No,Russia,1983-08-01,Elite Open,100.15,370,385,-400,,385,-302.5,-302.5,302.5,,302.5,275,-327.5,-345,,275,962.5,2
-,Timur Gadiev,Тимур Гадиев,SBD,Multi-ply,M,No,Russia,1985-07-20,Elite Open,141.6,400,430,450,,450,-300,-300,-300,,,-325,,,,,,DQ
+,Timur Gadiev,Тимур Гадиев,SBD,Single-ply,M,No,Russia,1985-07-20,Elite Open,141.6,400,430,450,,450,-300,-300,-300,,,-325,,,,,,DQ
 ,Evgeniy Baranov,Евгений Баранов,SBD,Multi-ply,M,No,Russia,1972-12-03,Elite Open,75,-300,-300,-300,,,-190,,,,,-250,,,,,,DQ
 ,Ilya Kokorev,Илья Кокорев,SBD,Multi-ply,M,No,Russia,1973-01-19,Elite Open,77.5,-320,-320,-320,,,-220,,,,,-270,,,,,,DQ
 ,Sergey Kushchev,Сергей Кущев,B,Raw,M,No,Russia,1967-10-21,Elite Open,143.8,,,,,,-250,-255,255,,255,,,,,,255,1
 ,Aleksandr Sykmenyov,Александр Сыкменёв,B,Raw,M,No,Russia,1978-06-24,Elite Open,110,,,,,,230,-235,-235,,230,,,,,,230,2
-,Sergey Fedorov,Сергей Федоров,B,Raw,M,No,Russia,1983-10-23,Elite Open,127.2,,,,,,-240,-240,-240,,,,,,,,,DQ
+,Sergey Fedorov #12,Сергей Федоров,B,Raw,M,No,Russia,1983-10-23,Elite Open,127.2,,,,,,-240,-240,-240,,,,,,,,,DQ
 ,Tiny Meeker,,B,Multi-ply,M,No,USA,1971-05-28,Elite Open,143,,,,,,400,415,-475,-500,415,,,,,,415,1
 ,Sergey Konovalov #1,Сергей Коновалов,B,Multi-ply,M,No,Russia,,Elite Open,94,,,,,,320,330,340,342.5,340,,,,,,340,2
 ,Evgeniy Nechaev,Евгений Нечаев,B,Multi-ply,M,No,Russia,1978-02-10,Elite Open,90,,,,,,310,320,327.5,,327.5,,,,,,327.5,4

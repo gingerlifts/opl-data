@@ -8,7 +8,7 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,Country,BodyweightKg,Best3SquatK
 3,48,F,Juniors,Ashley Hudson,1976,USA,45.8,130,60,130,320,SBD,Single-ply
 4,48,F,Juniors,Jennifer Maile,1984,USA,47.2,117.5,55,125,297.5,SBD,Single-ply
 5,48,F,Juniors,Monika Pisarczyk,1979,Poland,44.7,115,45,120,280,SBD,Single-ply
-6,48,F,Juniors,Margaret Doherty,1981,UK,46.1,77.5,32.5,72.5,182.5,SBD,Single-ply
+6,48,F,Juniors,Margaret Docherty,1981,UK,46.1,77.5,32.5,72.5,182.5,SBD,Single-ply
 DQ,48,F,Juniors,Mei-Chun Chen,1982,Taiwan,47.3,120,,,,SBD,Single-ply
 1,52,F,Juniors,Irina Tatarova,1975,Russia,50.7,172.5,82.5,170,425,SBD,Single-ply
 2,52,F,Juniors,Shin-Hui Chou,1982,Taiwan,51.5,140,80,155,375,SBD,Single-ply
@@ -49,7 +49,7 @@ DQ,60,F,Juniors,Petra Jurásková,1976,Czechia,58.4,,,,,SBD,Single-ply
 9,67.5,F,Juniors,Min-Chu Hung,1983,Taiwan,67.5,140,107.5,145,392.5,SBD,Single-ply
 10,67.5,F,Juniors,Anke Wendt,1978,Germany,62.3,147.5,70,170,387.5,SBD,Single-ply
 11,67.5,F,Juniors,Beate Grabosch,1975,Germany,63.9,155,87.5,145,387.5,SBD,Single-ply
-12,67.5,F,Juniors,Rebecca Roberts,1984,USA,66.2,132.5,75,165,372.5,SBD,Single-ply
+12,67.5,F,Juniors,Rebecca Roberts #3,1984,USA,66.2,132.5,75,165,372.5,SBD,Single-ply
 13,67.5,F,Juniors,K.N. Sailadji,1980,India,64.1,140,60,155,355,SBD,Single-ply
 14,67.5,F,Juniors,Christina Newman,1977,USA,67,112.5,90,145,347.5,SBD,Single-ply
 15,67.5,F,Juniors,Chisato Yamazaki,1977,Japan,65.4,135,70,140,345,SBD,Single-ply
@@ -96,10 +96,10 @@ DQ,75,F,Juniors,Jana Sedláčková,1980,Slovakia,72.6,,,,,SBD,Single-ply
 8,56,M,Juniors,Mattias Hopp,1980,Sweden,55.9,170,95,197.5,462.5,SBD,Single-ply
 9,56,M,Juniors,Szilárd Bodó,1979,Hungary,56,165,100,185,450,SBD,Single-ply
 10,56,M,Juniors,Masato Aoki,1975,Japan,55.1,165,115,165,445,SBD,Single-ply
-11,56,M,Juniors,Allan Whigham,1975,USA,54,160,85,197.5,442.5,SBD,Single-ply
+11,56,M,Juniors,Allen Whigham,1975,USA,54,160,85,197.5,442.5,SBD,Single-ply
 DQ,56,M,Juniors,Shih-Chun Hung,1980,Taiwan,55.3,175,,,,SBD,Single-ply
 DQ,56,M,Juniors,Azat Rakhmankulov,1976,Uzbekistan,55.5,,,,,SBD,Single-ply
-1,60,M,Juniors,Nikolay Sokolov,1979,Russia,59.8,237.5,147.5,225,610,SBD,Single-ply
+1,60,M,Juniors,Nikolay Sokolov #1,1979,Russia,59.8,237.5,147.5,225,610,SBD,Single-ply
 2,60,M,Juniors,Amit Selberg,1976,Sweden,59.4,225,160,222.5,607.5,SBD,Single-ply
 3,60,M,Juniors,Sami Nieminen,1975,Finland,59.9,205,132.5,240,577.5,SBD,Single-ply
 4,60,M,Juniors,Yung-His Hu,1975,Taiwan,59.6,225,110,217.5,552.5,SBD,Single-ply
@@ -194,7 +194,7 @@ DQ,90,M,Juniors,Jarno Ruohonen,1975,Finland,89.9,,,,,SBD,Single-ply
 3,100,M,Juniors,Niklas Gustafsson,1975,Sweden,99.3,320,207.5,317.5,845,SBD,Single-ply
 4,100,M,Juniors,Leonid Akimov,1975,Russia,99.7,305,192.5,340,837.5,SBD,Single-ply
 5,100,M,Juniors,Jani Palokangas,1976,Finland,99.35,320,192.5,310,822.5,SBD,Single-ply
-6,100,M,Juniors,Steve Mann,1975,USA,99.25,285,187.5,272.5,745,SBD,Single-ply
+6,100,M,Juniors,Steve Mann #1,1975,USA,99.25,285,187.5,272.5,745,SBD,Single-ply
 7,100,M,Juniors,Dariusz Buda,1976,Poland,96.9,285,190,265,740,SBD,Single-ply
 8,100,M,Juniors,Janos Klanyi,1979,Hungary,97.65,292.5,177.5,265,735,SBD,Single-ply
 9,100,M,Juniors,Ondřej Přibyl,1979,Czechia,99,280,175,275,730,SBD,Single-ply
@@ -230,7 +230,7 @@ DQ,110,M,Juniors,David Woolcock,1977,UK,107.9,,,,,SBD,Single-ply
 8,125,M,Juniors,Jiří Žaloudek,1975,Czechia,111.4,280,170,290,740,SBD,Single-ply
 9,125,M,Juniors,Mark Maydock,1975,UK,117.5,295,185,245,725,SBD,Single-ply
 DQ,125,M,Juniors,Tomohiro Yamamoto,1978,Japan,115.7,260,,,,SBD,Single-ply
-DQ,125,M,Juniors,Matthias Bache-Gabrielsen,1976,Norway,124.8,340,220,,,SBD,Single-ply
+DQ,125,M,Juniors,Mathias Bache-Gabrielsen,1976,Norway,124.8,340,220,,,SBD,Single-ply
 1,125+,M,Juniors,Oleg Gagin,1975,Russia,138.5,360,240,325,925,SBD,Single-ply
 2,125+,M,Juniors,Anders Johansson,1975,Sweden,138,340,205,320,865,SBD,Single-ply
 3,125+,M,Juniors,Ken Bachelder,1975,USA,145.8,337.5,212.5,290,840,SBD,Single-ply
@@ -239,4 +239,4 @@ DQ,125,M,Juniors,Matthias Bache-Gabrielsen,1976,Norway,124.8,340,220,,,SBD,Singl
 6,125+,M,Juniors,Zoltan Vajda,1976,Hungary,125.1,307.5,207.5,272.5,787.5,SBD,Single-ply
 7,125+,M,Juniors,Janos Gardonyi,1980,Hungary,145,300,190,270,760,SBD,Single-ply
 8,125+,M,Juniors,Jaswinder Singh Cheema,1977,India,129.2,270,175,240,685,SBD,Single-ply
-9,125+,M,Juniors,Amit Rai,1976,India,129.5,260,155,235,650,SBD,Single-ply
+9,125+,M,Juniors,Amit Rai #2,1976,India,129.5,260,155,235,650,SBD,Single-ply

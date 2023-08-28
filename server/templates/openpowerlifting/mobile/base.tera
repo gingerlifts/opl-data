@@ -23,13 +23,14 @@
   <link rel="preload" as="image" href="/static/images/close_icon.png">
   <meta name="apple-mobile-web-app-title" content="OpenPowerlifting">
 
+  {# Used by scripts to distinguish between OpenPowerlifting, OpenIPF, etc. #}
+  <script type="text/javascript">
+    const DISTRIBUTION="OPENPOWERLIFTING";
+    const IS_MOBILE=true;
+  </script>
+
   {% block includes %}
   {% endblock includes %}
-
-  {# Communicates to the JS code that this is the mobile version. #}
-  <script type="text/javascript">
-    const IS_MOBILE = true;
-  </script>
 
   {# Main script, capable of initializing every kind of page. #}
   {# The kind of page is passed by templates in JS, by setting the global PAGE_KIND. #}
@@ -45,12 +46,12 @@
         <a href="{{urlprefix | safe}}mlist" class="nav__link_mobile">{{strings.header.meets}}</a>
         <a href="{{urlprefix | safe}}status" class="nav__link_mobile">{{strings.header.status}}</a>
         <a href="{{urlprefix | safe}}faq" class="nav__link_mobile">{{strings.header.faq}}</a>
-        <a href="{{urlprefix | safe}}data" class="nav__link_mobile">{{strings.header.data}}</a>
+        <a href="https://openpowerlifting.gitlab.io/opl-csv/" class="nav__link_mobile">{{strings.header.data}}</a>
         <a href="https://www.plsource.org" class="nav__link_mobile" rel="noopener" target="_blank">{{strings.header.apps}}</a>
         <a href="https://openpowerlifting.bigcartel.com" class="nav__link_mobile" rel="noopener" target="_blank">{{strings.header.shop}}</a>
         <a href="{{urlprefix | safe}}contact" class="nav__link_mobile">{{strings.header.contact}}</a>
         <a href="https://www.patreon.com/join/openpowerlifting" class="nav__link_mobile" rel="noopener" target="_blank">{{strings.header.supportus}}</a>
-        <a href="https://instagram.com/openpowerlifting" class="nav__link_mobile" rel="noopener" target="_blank"><i class="iglogo"></i></a>
+        <a href="https://instagram.com/openpowerlifting/" class="nav__link_mobile" rel="noopener" target="_blank"><i class="iglogo"></i></a>
 
         <div id="footer-mobile-menu-selectors">
           {% include "widget-weightunits" %}

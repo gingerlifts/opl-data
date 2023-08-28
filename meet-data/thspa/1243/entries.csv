@@ -1,6 +1,6 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
 Boys,51.71,1,Randy Trevino,Gregory-Portland,51.71,149.69,79.38,154.22,383.29,Single-ply,SBD,M
-Boys,55.79,2,Joe Castillo,Gregory-Portland,51.8,140.61,74.84,138.35,353.8,Single-ply,SBD,M
+Boys,55.79,2,Joe Castillo #4,Gregory-Portland,51.8,140.61,74.84,138.35,353.8,Single-ply,SBD,M
 Boys,51.71,3,Patrick Ayala,Banquete,51.26,92.99,63.5,140.61,297.1,Single-ply,SBD,M
 Boys,51.71,4,Thomas Tillman,Corpus Christi Tuloso-Midway,51.44,83.91,56.7,90.72,231.33,Single-ply,SBD,M
 Boys,55.79,DQ,Bobby Bourlon,Banquete,51.94,,,,,Single-ply,SBD,M
@@ -33,7 +33,7 @@ Boys,74.84,1,JJ Gonzalez,Gregory-Portland,67.36,244.94,149.69,224.53,619.15,Sing
 Boys,67.13,2,Joe Alvarado,Victoria West,66.45,174.63,106.59,179.17,460.4,Single-ply,SBD,M
 Boys,67.13,3,David Ledbetter,Victoria West,66.41,172.37,108.86,174.63,455.86,Single-ply,SBD,M
 Boys,74.84,4,Qualian Bryant,Victoria West,67.31,165.56,90.72,199.58,455.86,Single-ply,SBD,M
-Boys,67.13,5,Josue Gonzalez,Corpus Christi Calallen,66.59,172.37,108.86,172.37,453.59,Single-ply,SBD,M
+Boys,67.13,5,Josue Gonzalez #2,Corpus Christi Calallen,66.59,172.37,108.86,172.37,453.59,Single-ply,SBD,M
 Boys,67.13,6,Desmon Riser,Port Lavaca Calhoun,66.45,174.63,81.65,154.22,410.5,Single-ply,SBD,M
 Boys,67.13,7,Colton Hughes,Corpus Christi Tuloso-Midway,65.68,145.15,83.91,172.37,401.43,Single-ply,SBD,M
 Boys,67.13,8,Caleb Marek,Victoria West,64.41,149.69,79.38,156.49,385.55,Single-ply,SBD,M
@@ -55,7 +55,7 @@ Boys,74.84,4,Dillon Torres,Beeville Jones,71.3,185.97,120.2,201.85,508.02,Single
 Boys,74.84,5,Joe Caldera,Port Lavaca Calhoun,73.48,174.63,136.08,192.78,503.49,Single-ply,SBD,M
 Boys,74.84,6,Jared Garcia,Corpus Christi Calallen,72.57,170.1,108.86,206.38,485.34,Single-ply,SBD,M
 Boys,74.84,7,Ryan Rosas,Corpus Christi Tuloso-Midway,68.58,158.76,99.79,174.63,433.18,Single-ply,SBD,M
-Boys,74.84,8,Aaron Flores,Corpus Christi Calallen,73.57,149.69,99.79,181.44,430.91,Single-ply,SBD,M
+Boys,74.84,8,Aaron Flores #3,Corpus Christi Calallen,73.57,149.69,99.79,181.44,430.91,Single-ply,SBD,M
 Boys,82.1,9,Roland Ybarra,Robstown,75.07,156.49,102.06,165.56,424.11,Single-ply,SBD,M
 Boys,74.84,10,Byron Davidson,Corpus Christi Calallen,69.13,136.08,86.18,170.1,392.36,Single-ply,SBD,M
 Boys,74.84,11,Trey Lopez,Rockport-Fulton,70.13,140.61,83.91,163.29,387.82,Single-ply,SBD,M
@@ -138,9 +138,9 @@ Boys,99.79,DQ,Jose Ramos,Gregory-Portland,97.75,165.56,90.72,131.54,,Single-ply,
 Boys,99.79,DQ,Charles West,Gregory-Portland,97.89,158.76,88.45,136.08,,Single-ply,SBD,M
 Boys,99.79,DQ,Tristan Schmidt,Gregory-Portland,96.25,147.42,104.33,163.29,,Single-ply,SBD,M
 Boys,109.77,DQ,Oscar Cantu,Sinton,99.97,174.63,104.33,,,Single-ply,SBD,M
-Boys,99.79,DQ,Joe Castillo,Corpus Christi West Oso,91.17,204.12,99.79,,,Single-ply,SBD,M
+Boys,99.79,DQ,Joe Castillo #1,Corpus Christi West Oso,91.17,204.12,99.79,,,Single-ply,SBD,M
 Boys,109.77,1,Michael Rodriguez #4,Kingsville King,105.69,260.82,183.7,226.8,671.32,Single-ply,SBD,M
-Boys,109.77,2,Nick Trevino,Kingsville King,104.33,226.8,136.08,272.16,635.03,Single-ply,SBD,M
+Boys,109.77,2,Nick Trevino #2,Kingsville King,104.33,226.8,136.08,272.16,635.03,Single-ply,SBD,M
 Boys,109.77,3,Blade Bronstad,Corpus Christi Calallen,105.32,244.94,127.01,242.67,614.62,Single-ply,SBD,M
 Boys,109.77,4,Tk Nolte,Gregory-Portland,107.5,244.94,136.08,233.6,614.62,Single-ply,SBD,M
 Boys,109.77,5,Bryan Chesser,George West,105.87,217.72,136.08,195.04,548.85,Single-ply,SBD,M

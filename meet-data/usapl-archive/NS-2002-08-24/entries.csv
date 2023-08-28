@@ -33,14 +33,14 @@ Sandra Perron,75,F-O,120,120,F,B,Single-ply,1
 Andrea Sortwell,82.5,F-O,117.5,117.5,F,B,Single-ply,1
 Sheri Stamper,82.5,F-O,105,105,F,B,Single-ply,2
 Charity Reynolds,90,F-O,75,75,F,B,Single-ply,1
-Debbie Ferrell,90+,F-O,172.5,172.5,F,B,Single-ply,1
+Deborah Ferrell,90+,F-O,172.5,172.5,F,B,Single-ply,1
 Minica Albizu,48,F-T1,47.5,47.5,F,B,Single-ply,1
 Devan Doan,67.5,F-T1,77.5,77.5,F,B,Single-ply,1
 Maggen Millin,82.5,F-T3,105,105,F,B,Single-ply,1
 Dan Pope,67.5,M-C,142.5,142.5,M,B,Single-ply,1
-Daniel Bedford,67.5,M-C,137.5,137.5,M,B,Single-ply,2
+Daniel Bedford #1,67.5,M-C,137.5,137.5,M,B,Single-ply,2
 Jeremy Trevis,75,M-C,127.5,127.5,M,B,Single-ply,1
-Robert Price,82.5,M-C,150,150,M,B,Single-ply,1
+Robert Price #2,82.5,M-C,150,150,M,B,Single-ply,1
 Mark Hufnagel,90,M-C,177.5,177.5,M,B,Single-ply,1
 Mark Jesenovec,100,M-C,165,165,M,B,Single-ply,1
 Jon Kester,110,M-C,185,185,M,B,Single-ply,1
@@ -51,7 +51,7 @@ Mike Cupinski,75,M-Jr,162.5,162.5,M,B,Single-ply,2
 Clint Edwards,75,M-Jr,147.5,147.5,M,B,Single-ply,3
 Jeremy Trevis,75,M-Jr,127.5,127.5,M,B,Single-ply,4
 Zachery Cooper,82.5,M-Jr,177.5,177.5,M,B,Single-ply,1
-Robert Price,82.5,M-Jr,150,150,M,B,Single-ply,2
+Robert Price #2,82.5,M-Jr,150,150,M,B,Single-ply,2
 Mark Hufnagel,90,M-Jr,177.5,177.5,M,B,Single-ply,1
 Christopher Muir,90,M-Jr,137.5,137.5,M,B,Single-ply,2
 Alan Soloman,100,M-Jr,205,205,M,B,Single-ply,1
@@ -79,7 +79,7 @@ Joey Simpson,90,M-LT,187.5,187.5,M,B,Single-ply,5
 Kevin Mayer,100,M-LT,230,230,M,B,Single-ply,1
 Jeff Cardinal,100,M-LT,185,185,M,B,Single-ply,2
 Tony Horvath,100,M-LT,155,155,M,B,Single-ply,3
-Dave Doan,110,M-LT,275,275,M,B,Single-ply,1
+David Doan,110,M-LT,275,275,M,B,Single-ply,1
 Raoul Donan,110,M-LT,252.5,252.5,M,B,Single-ply,2
 Joe Yanovitch,110,M-LT,125,125,M,B,Single-ply,3
 Michael Hartle,125,M-LT,227.5,227.5,M,B,Single-ply,1
@@ -119,13 +119,13 @@ Tony Horvath,100,M-M1b,155,155,M,B,Single-ply,1
 Brad Klinger,125,M-M1b,252.5,252.5,M,B,Single-ply,1
 Pat Dennis,125,M-M1b,242.5,242.5,M,B,Single-ply,2
 Kevin Hutchinson,125,M-M1b,235,235,M,B,Single-ply,3
-Kevin Johnson,125,M-M1b,230,230,M,B,Single-ply,4
+Kevin Johnson #1,125,M-M1b,230,230,M,B,Single-ply,4
 Ray Harvey,125+,M-M1b,212.5,212.5,M,B,Single-ply,1
 Ed Finnell,125+,M-M1b,195,195,M,B,Single-ply,2
 Andrew Bates,60,M-M2a,115,115,M,B,Single-ply,1
 Steve Gee,60,M-M2a,97.5,97.5,M,B,Single-ply,2
 Jay Haines,75,M-M2a,160,160,M,B,Single-ply,1
-David Miller,75,M-M2a,150,150,M,B,Single-ply,2
+David Miller #8,75,M-M2a,150,150,M,B,Single-ply,2
 Jim Klostergaard,82.5,M-M2a,190,190,M,B,Single-ply,1
 Jim Bartlome,90,M-M2a,95,95,M,B,Single-ply,1
 James Cash,100,M-M2a,190,190,M,B,Single-ply,1
@@ -171,7 +171,7 @@ Raymond Bernabe,100,M-M4a,115,115,M,B,Single-ply,1
 Sheldon Levy,110,M-M4a,112.5,112.5,M,B,Single-ply,1
 Andrew Fodor,75,M-M4b,60,60,M,B,Single-ply,1
 Anton Reel,82.5,M-M5a,62.5,62.5,M,B,Single-ply,1
-Charles Lee,90,M-M5a,110,110,M,B,Single-ply,1
+Charles Lee #1,90,M-M5a,110,110,M,B,Single-ply,1
 Johnnie Martinez,82.5,M-MO,187.5,187.5,M,B,Single-ply,1
 Gene Bell,90,M-MO,232.5,232.5,M,B,Single-ply,1
 George Washington,110,M-MO,145,145,M,B,Single-ply,1
@@ -181,7 +181,7 @@ Sean Fellows,56,M-O,122.5,122.5,M,B,Single-ply,2
 Eric Knight,60,M-O,155,155,M,B,Single-ply,1
 Steve Petrencak,60,M-O,152.5,152.5,M,B,Single-ply,2
 Joe Smith,60,M-O,147.5,147.5,M,B,Single-ply,3
-Robert Allen,60,M-O,145,145,M,B,Single-ply,4
+Robert Allen #1,60,M-O,145,145,M,B,Single-ply,4
 Michael Walsh,60,M-O,137.5,137.5,M,B,Single-ply,5
 Lance Slaughter,67.5,M-O,192.5,192.5,M,B,Single-ply,1
 Paul Wong,67.5,M-O,167.5,167.5,M,B,Single-ply,2
@@ -225,7 +225,7 @@ Michael Landino,100,M-O,240,240,M,B,Single-ply,3
 Tim Anderson,100,M-O,227.5,227.5,M,B,Single-ply,4
 Bob Eucker,100,M-O,222.5,222.5,M,B,Single-ply,5
 Warren Ramsey,100,M-O,162.5,162.5,M,B,Single-ply,6
-Dave Doan,110,M-O,275,275,M,B,Single-ply,1
+David Doan,110,M-O,275,275,M,B,Single-ply,1
 Pat Wilson,110,M-O,272.5,272.5,M,B,Single-ply,2
 Russ Kitani,110,M-O,255,255,M,B,Single-ply,3
 Arthur Jones,110,M-O,252.5,252.5,M,B,Single-ply,4
@@ -238,7 +238,7 @@ Frank Palmer,125,M-O,257.5,257.5,M,B,Single-ply,4
 Brad Klinger,125,M-O,252.5,252.5,M,B,Single-ply,5
 Kevin Hutchinson,125,M-O,235,235,M,B,Single-ply,6
 John Erickson,125,M-O,235,235,M,B,Single-ply,7
-Kevin Johnson,125,M-O,230,230,M,B,Single-ply,8
+Kevin Johnson #1,125,M-O,230,230,M,B,Single-ply,8
 Michael Hartle,125,M-O,227.5,227.5,M,B,Single-ply,9
 Fred Dini,125,M-O,220,220,M,B,Single-ply,10
 Mike Hodge,125+,M-O,285,285,M,B,Single-ply,1
@@ -251,7 +251,7 @@ Jack Harnady,82.5,M-PF,165,165,M,B,Single-ply,1
 Dan Sustin,82.5,M-PF,157.5,157.5,M,B,Single-ply,2
 Mike Crawford,90,M-PF,230,230,M,B,Single-ply,1
 Tim Anderson,100,M-PF,227.5,227.5,M,B,Single-ply,1
-Dave Doan,110,M-PF,275,275,M,B,Single-ply,1
+David Doan,110,M-PF,275,275,M,B,Single-ply,1
 Art Clatton,110,M-PF,170,170,M,B,Single-ply,2
 Steve Murphy,110,M-PF,,,M,B,Single-ply,DQ
 Kevin Hebert,125,M-PF,230,230,M,B,Single-ply,1
@@ -269,7 +269,7 @@ Jeff Fremont,82.5,MR-O,105,105,M,B,Raw,3
 Howard Sturman,90,MR-O,157.5,157.5,M,B,Raw,1
 Michael Ciletti,90,MR-O,145,145,M,B,Raw,2
 Christopher Muir,90,MR-O,137.5,137.5,M,B,Raw,3
-Joseph Schaffer,100,MR-O,190,190,M,B,Raw,1
+Joe Schaffer,100,MR-O,190,190,M,B,Raw,1
 Arthur Jones,110,MR-O,252.5,252.5,M,B,Raw,1
 Chuck McGuire,125+,MR-O,157.5,157.5,M,B,Raw,1
 Zach Ramnytz,56,M-T1,72.5,72.5,M,B,Single-ply,1
@@ -279,7 +279,7 @@ Warren Scott,90,M-T1,122.5,122.5,M,B,Single-ply,2
 Daniel LePert,67.5,M-T2,117.5,117.5,M,B,Single-ply,1
 Christopher Birdsall,67.5,M-T2,92.5,92.5,M,B,Single-ply,2
 Branden Tabler,100,M-T2,175,175,M,B,Single-ply,1
-Brandon Clark,100,M-T2,147.5,147.5,M,B,Single-ply,2
+Brandon Clark #7,100,M-T2,147.5,147.5,M,B,Single-ply,2
 George Riley,100,M-T2,125,125,M,B,Single-ply,3
 Justin Newsome,125+,M-T2,145,145,M,B,Single-ply,1
 Dan Pope,67.5,M-T3,142.5,142.5,M,B,Single-ply,1

@@ -2,18 +2,18 @@ Name,WeightClassKg,Division,AgeRange,Sex,Best3SquatKg,Best3BenchKg,Best3Deadlift
 Regan,82.5+,50-59,50-59,F,,72.57,,72.57,B,Multi-ply,1
 Dan Santarone,67.5,JR,20-23,M,,,,,B,Multi-ply,DQ
 Powell,67.5,Open,,M,,90.72,,90.72,B,Raw,1
-Lara,75,Open,,M,,167.83,,167.83,B,Raw,1
-Lara,75,35-39,35-39,M,,167.83,,167.83,B,Raw,1
-Passman,82.5,Open,,M,,149.69,,149.69,B,Raw,1
+Ralph Lara,75,Open,,M,,167.83,,167.83,B,Raw,1
+Ralph Lara,75,35-39,35-39,M,,167.83,,167.83,B,Raw,1
+Allan Passman,82.5,Open,,M,,149.69,,149.69,B,Raw,1
 John Kampo,82.5,35-39,35-39,M,,133.81,,133.81,B,Raw,1
 John Kampo,82.5,35-39,35-39,M,,165.56,,165.56,B,Multi-ply,1
-Passman,82.5,40-49,40-49,M,,149.69,,149.69,B,Raw,1
+Allan Passman,82.5,40-49,40-49,M,,149.69,,149.69,B,Raw,1
 Nick Santarone,82.5,50-59,50-59,M,,,,,B,Multi-ply,DQ
 Scullion,90,Open,,M,,92.99,,92.99,B,Raw,1
 Jon Rock,90,Open,,M,,102.06,,102.06,B,Multi-ply,1
-Ross,90,35-39,35-39,M,,183.71,,183.71,B,Multi-ply,1
+Bill Ross,90,35-39,35-39,M,,183.71,,183.71,B,Multi-ply,1
 Senurine,90,35-39,35-39,M,,136.08,,136.08,B,Multi-ply,2
-Myers,90,40-49,40-49,M,,174.63,,174.63,B,Raw,1
+Frank Myers,90,40-49,40-49,M,,174.63,,174.63,B,Raw,1
 Dan Caffrey,100,Open,,M,,136.08,,136.08,B,Raw,1
 Swingle,100,40-49,40-49,M,,,,,B,Multi-ply,DQ
 Howard,100,40-49,40-49,M,,163.29,,163.29,B,Raw,1
@@ -50,7 +50,7 @@ Olsen,82.5,Open,,M,158.76,79.38,206.38,444.52,SBD,Wraps,1
 Cinelli,82.5,50-59,50-59,M,108.86,86.18,140.61,335.66,SBD,Wraps,1
 Seunarine,90,35-39,35-39,M,249.48,136.08,254.01,639.57,SBD,Multi-ply,1
 Chin,90,40-49,40-49,M,244.94,158.76,240.4,644.1,SBD,Wraps,1
-Dan LoBue,100,JR,20-23,M,242.67,149.69,224.53,616.89,SBD,Wraps,1
+Dan DaSilva,100,JR,20-23,M,242.67,149.69,224.53,616.89,SBD,Wraps,1
 Dan Caffrey,100,Open,,M,201.85,136.08,213.19,551.12,SBD,Wraps,1
 John Znaczko,100,40-49,40-49,M,149.69,86.18,161.03,396.89,SBD,Multi-ply,1
 Bill Schemel,100,40-49,40-49,M,176.9,124.74,197.31,498.95,SBD,Wraps,1
@@ -58,8 +58,8 @@ Ed Debari,110,Open,,M,235.87,183.71,222.26,641.83,SBD,Wraps,1
 Brian Ramage,110,Open,,M,206.38,151.95,260.82,619.15,SBD,Wraps,2
 Scott Haddaway,110,Open,,M,226.8,158.76,226.8,612.35,SBD,Wraps,3
 Ross,110,Open,,M,183.71,158.76,181.44,523.9,SBD,Wraps,4
-Frenick,110,Open,,M,170.1,138.35,204.12,512.56,SBD,Wraps,5
-Cooper,110,Open,,M,226.8,181.44,272.16,680.39,SBD,Multi-ply,1
+Bill Frenick,110,Open,,M,170.1,138.35,204.12,512.56,SBD,Wraps,5
+David Cooper #3,110,Open,,M,226.8,181.44,272.16,680.39,SBD,Multi-ply,1
 James Dibble,110,Open,,M,256.28,,,,SBD,Multi-ply,DQ
 Ed Debari,110,35-39,35-39,M,235.87,183.71,222.26,641.83,SBD,Wraps,1
 James Dibble,110,40-49,40-49,M,256.28,,,,SBD,Multi-ply,DQ

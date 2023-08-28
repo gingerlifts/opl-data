@@ -14,7 +14,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 1,M,David Schlicker,SBD,MR-T3,125+,Raw,128.1,257.5,155,255,667.5,
 1,M,Damiano Ballejos,SBD,MR-Jr,60,Raw,59,120,90,135,345,1994
 1,M,Steven Ngo,SBD,MR-Jr,67.5,Raw,65.4,160,112.5,190,462.5,1993
-1,M,Matt Parker,SBD,MR-Jr,75,Raw,71.9,147.5,97.5,177.5,422.5,
+1,M,Matt Parker #2,SBD,MR-Jr,75,Raw,71.9,147.5,97.5,177.5,422.5,
 1,M,Jacob Dinkel,SBD,MR-Jr,82.5,Raw,80.5,170,100,187.5,457.5,1992
 1,M,Benjamin Motl,SBD,MR-Jr,90,Raw,88.8,210,155,272.5,637.5,1993
 2,M,Jordan Finley,SBD,MR-Jr,90,Raw,88,197.5,120,302.5,620,1993
@@ -40,16 +40,16 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 6,M,Frederick Barnabe,SBD,MR-O,100,Raw,95.7,187.5,115,230,532.5,1987
 7,M,Trent Dingwell,SBD,MR-O,100,Raw,97.9,162.5,145,197.5,505,1975
 8,M,Jonathan Lindberg,SBD,MR-O,100,Raw,99.8,180,105,205,490,1983
-1,M,Matt Swanson,SBD,MR-O,110,Raw,108.9,252.5,160,287.5,700,1979
+1,M,Matthew Swanson,SBD,MR-O,110,Raw,108.9,252.5,160,287.5,700,1979
 1,M,Ben Caffey,SBD,MR-O,110,Raw,103.8,242.5,165,275,682.5,1979
 5,M,Tyler Garcia #2,SBD,MR-O,110,Raw,102.9,210,127.5,240,577.5,1989
 5,M,Joe Dersch,SBD,MR-O,110,Raw,107.3,215,115,200,530,
 6,M,Kyle Cary,S,MR-O,110,Raw,105.4,145,,,145,1987
 2,M,Bradly Bechel,SBD,MR-O,125,Raw,123.3,250,185,240,675,
 2,M,Tony Arakkal,SBD,MR-O,125,Raw,115.7,242.5,155,267.5,665,1978
-3,M,Josh Hunt,SBD,MR-O,125,Raw,117,232.5,150,240,622.5,1982
-4,M,Josh Hunt,SBD,MR-O,125,Raw,117,232.5,150,240,622.5,1982
-1,M,Jimmy Freeman,SBD,MR-O,125+,Raw,131,265,152.5,280,697.5,1988
+3,M,Josh Hunt #1,SBD,MR-O,125,Raw,117,232.5,150,240,622.5,1982
+4,M,Josh Hunt #1,SBD,MR-O,125,Raw,117,232.5,150,240,622.5,1982
+1,M,James Freeman #2,SBD,MR-O,125+,Raw,131,265,152.5,280,697.5,1988
 1,M,Paul Crooks,SBD,MR-M1a,82.5,Raw,77,120,85,190,395,1970
 DQ,M,Dominic Dunnavant,SBD,MR-M1a,100,Raw,94.8,,,,,1972
 3,M,Steve Welch,SBD,MR-M1a,110,Raw,105.9,220,137.5,205,562.5,1974
@@ -90,7 +90,7 @@ DQ,M,Jim Washek,SBD,MR-M2a,110,Raw,105.1,,,,,
 4,F,Miku Kinnear,SBD,FR-O,75,Raw,73,95,50,135,280,1983
 1,F,Kateah McMasters,SBD,FR-O,82.5,Raw,80.6,107.5,52.5,137.5,297.5,1986
 2,F,Crystal Pickett,SBD,FR-O,82.5,Raw,80.5,125,62.5,105,292.5,1980
-3,F,Amanda Williams,SBD,FR-O,82.5,Raw,79.9,110,55,125,290,1975
+3,F,Amanda Williams #1,SBD,FR-O,82.5,Raw,79.9,110,55,125,290,1975
 1,F,Jenniferjoy Lilly,SBD,FR-O,90,Raw,85.7,82.5,60,105,247.5,1982
 1,F,Carol Bockerstett,SBD,FR-M1a,56,Raw,54.7,85,50,107.5,242.5,1972
 1,F,Monica LaFaver,SBD,FR-M1a,60,Raw,58.6,105,62.5,125,292.5,1969

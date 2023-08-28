@@ -1,9 +1,9 @@
 //! Logic for each lifter's personal page.
 
+use langpack::{localized_name, Language, Locale, LocalizeNumber};
 use opldb::{self, Entry};
 use opltypes::*;
 
-use crate::langpack::{self, get_localized_name, Language, Locale, LocalizeNumber};
 use crate::pages::meet::points_column_title; // FIXME: This should not be defined there.
 
 /// The context object passed to `templates/lifter.tera`
@@ -120,7 +120,7 @@ impl<'a> MeetResultsRow<'a> {
         points_system: PointsSystem,
         entry: &'a opldb::Entry,
     ) -> MeetResultsRow<'a> {
-        let meet: &'a opldb::Meet = opldb.get_meet(entry.meet_id);
+        let meet: &'a opldb::Meet = opldb.meet(entry.meet_id);
 
         let strings = locale.strings;
         let number_format = locale.number_format;
@@ -131,16 +131,10 @@ impl<'a> MeetResultsRow<'a> {
             federation: &meet.federation,
             date: format!("{}", meet.date),
             country: strings.translate_country(meet.country),
-            state: match meet.state {
-                None => None,
-                Some(ref s) => Some(&s),
-            },
+            state: meet.state.as_ref().map(|s| s as _),
             meet_name: &meet.name,
             meet_path: &meet.path,
-            division: match entry.division {
-                None => None,
-                Some(ref s) => Some(&s),
-            },
+            division: entry.division.as_ref().map(|d| d as _),
             age: PrettyAge::from(entry.age),
             sex: strings.translate_sex(entry.sex),
             equipment: strings.translate_equipment(entry.equipment),
@@ -304,16 +298,42 @@ fn calculate_bests<'db>(
         .map(|e| e.points(points_system, locale.units))
         .max();
 
+    let unlimited_squat: Option<WeightKg> = non_dq
+        .iter()
+        .filter(|e| e.equipment == Equipment::Unlimited)
+        .map(|e| e.highest_squatkg())
+        .max();
+
+    let unlimited_bench: Option<WeightKg> = non_dq
+        .iter()
+        .filter(|e| e.equipment == Equipment::Unlimited)
+        .map(|e| e.highest_benchkg())
+        .max();
+
+    let unlimited_deadlift: Option<WeightKg> = non_dq
+        .iter()
+        .filter(|e| e.equipment == Equipment::Unlimited)
+        .map(|e| e.highest_deadliftkg())
+        .max();
+
+    let unlimited_total: Option<WeightKg> = non_dq
+        .iter()
+        .filter(|e| e.event.is_full_power() && e.equipment == Equipment::Unlimited)
+        .map(|e| e.totalkg)
+        .max();
+
+    let unlimited_points: Option<Points> = non_dq
+        .iter()
+        .filter(|e| e.event.is_full_power() && e.equipment == Equipment::Unlimited)
+        .map(|e| e.points(points_system, locale.units))
+        .max();
+
     let mut rows = Vec::with_capacity(4);
 
-    if raw_squat.is_some()
-        || raw_bench.is_some()
-        || raw_deadlift.is_some()
-        || raw_total.is_some()
-    {
+    if raw_squat.is_some() || raw_bench.is_some() || raw_deadlift.is_some() || raw_total.is_some() {
         rows.push(PersonalBestsRow::new(
-            &locale,
-            &locale.strings.equipment.raw,
+            locale,
+            locale.strings.equipment.raw,
             raw_squat,
             raw_bench,
             raw_deadlift,
@@ -324,8 +344,8 @@ fn calculate_bests<'db>(
 
     if wraps_squat.is_some() || wraps_total.is_some() {
         rows.push(PersonalBestsRow::new(
-            &locale,
-            &locale.strings.equipment.wraps,
+            locale,
+            locale.strings.equipment.wraps,
             wraps_squat,
             None,
             None,
@@ -340,8 +360,8 @@ fn calculate_bests<'db>(
         || single_total.is_some()
     {
         rows.push(PersonalBestsRow::new(
-            &locale,
-            &locale.strings.equipment.single,
+            locale,
+            locale.strings.equipment.single,
             single_squat,
             single_bench,
             single_deadlift,
@@ -356,13 +376,29 @@ fn calculate_bests<'db>(
         || multi_total.is_some()
     {
         rows.push(PersonalBestsRow::new(
-            &locale,
-            &locale.strings.equipment.multi,
+            locale,
+            locale.strings.equipment.multi,
             multi_squat,
             multi_bench,
             multi_deadlift,
             multi_total,
             multi_points,
+        ));
+    }
+
+    if unlimited_squat.is_some()
+        || unlimited_bench.is_some()
+        || unlimited_deadlift.is_some()
+        || unlimited_total.is_some()
+    {
+        rows.push(PersonalBestsRow::new(
+            locale,
+            locale.strings.equipment.unlimited,
+            unlimited_squat,
+            unlimited_bench,
+            unlimited_deadlift,
+            unlimited_total,
+            unlimited_points,
         ));
     }
 
@@ -379,8 +415,8 @@ impl<'a> Context<'a> {
                                                                         * distributions.
                                                                         */
     ) -> Context<'a> {
-        let lifter = opldb.get_lifter(lifter_id);
-        let mut entries = opldb.get_entries_for_lifter(lifter_id);
+        let lifter = opldb.lifter(lifter_id);
+        let mut entries = opldb.entries_for_lifter(lifter_id);
 
         // Do all the entries have the same Sex?
         // If not, we want to show a "Sex" column for debugging.
@@ -395,9 +431,9 @@ impl<'a> Context<'a> {
 
         // Filter and sort the entries, oldest entries first.
         if let Some(f) = entry_filter {
-            entries = entries.into_iter().filter(|e| f(opldb, *e)).collect();
+            entries.retain(|e| f(opldb, e))
         }
-        entries.sort_unstable_by_key(|e| &opldb.get_meet(e.meet_id).date);
+        entries.sort_unstable_by_key(|e| &opldb.meet(e.meet_id).date);
 
         // Display sex information from the most recent meet.
         let lifter_sex = match entries.last() {
@@ -405,7 +441,7 @@ impl<'a> Context<'a> {
             None => "?",
         };
 
-        let bests = calculate_bests(&locale, points_system, &entries);
+        let bests = calculate_bests(locale, points_system, &entries);
 
         // Determine if any of the entries have attempt information.
         // If a federation only reports Bests, we don't want lots of empty columns.
@@ -433,21 +469,17 @@ impl<'a> Context<'a> {
 
         Context {
             urlprefix: "/",
-            page_title: get_localized_name(&lifter, locale.language),
-            page_description: &locale.strings.html_header.description,
+            page_title: localized_name(lifter, locale.language),
+            page_description: locale.strings.html_header.description,
             language: locale.language,
             strings: locale.strings,
             units: locale.units,
-            localized_name: get_localized_name(&lifter, locale.language),
+            localized_name: localized_name(lifter, locale.language),
             lifter,
             lifter_sex,
             show_sex_column: !consistent_sex,
             show_attempts: has_attempts,
-            points_column_title: points_column_title(
-                points_system,
-                &locale,
-                points_system,
-            ),
+            points_column_title: points_column_title(points_system, locale, points_system),
             bests,
             meet_results,
         }

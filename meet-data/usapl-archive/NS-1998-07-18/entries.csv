@@ -1,5 +1,5 @@
 WeightClassKg,Division,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Event,Equipment,Place
-52,M-T1,W. McDermott,150,77.5,152.5,380,M,SBD,Single-ply,1
+52,M-T1,Billy McDermott,150,77.5,152.5,380,M,SBD,Single-ply,1
 52,M-T1,Jeremy Steere,,,,,M,SBD,Single-ply,DQ
 56,M-T1,Clint Galvas,110,55,145,310,M,SBD,Single-ply,1
 60,M-T1,James Rego,122.5,87.5,157.5,367.5,M,SBD,Single-ply,1
@@ -48,7 +48,7 @@ WeightClassKg,Division,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Se
 125,M-T2,Joe Farber,247.5,112.5,240,600,M,SBD,Single-ply,2
 125+,M-T2,Andrew Bernard,160,120,205,485,M,SBD,Single-ply,1
 60,M-T3,Macus Wynn,227.5,105,215,547.5,M,SBD,Single-ply,1
-60,M-T3,D. Curatolo,147.5,127.5,182.5,457.5,M,SBD,Single-ply,2
+60,M-T3,Dominic Curatolo,147.5,127.5,182.5,457.5,M,SBD,Single-ply,2
 60,M-T3,Dustin Hinkel,125,87.5,160,372.5,M,SBD,Single-ply,3
 67.5,M-T3,Jason Oliviera,190,105,227.5,522.5,M,SBD,Single-ply,1
 67.5,M-T3,Steven Beitman,160,135,195,490,M,SBD,Single-ply,2
@@ -72,7 +72,7 @@ WeightClassKg,Division,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Se
 125,M-T3,Matt Wenning,247.5,182.5,252.5,682.5,M,SBD,Single-ply,2
 125+,M-T3,Jon Hipp,237.5,132.5,242.5,612.5,M,SBD,Single-ply,1
 125+,M-T3,Alex Taylor,,,,,M,SBD,Single-ply,DQ
-52,M-Jr,Ankuur Wadhwa,152.5,95,170,417.5,M,SBD,Single-ply,1
+52,M-Jr,Ankur Wadhwa,152.5,95,170,417.5,M,SBD,Single-ply,1
 56,M-Jr,Allen Whigham,170,82.5,197.5,450,M,SBD,Single-ply,1
 67.5,M-Jr,Jeremy Arias,227.5,152.5,227.5,607.5,M,SBD,Single-ply,1
 67.5,M-Jr,TJ Hoerner,240,132.5,235,607.5,M,SBD,Single-ply,2
@@ -83,12 +83,12 @@ WeightClassKg,Division,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Se
 75,M-Jr,John Walters,220,140,230,590,M,SBD,Single-ply,2
 82.5,M-Jr,Erik Thomas,262.5,155,275,692.5,M,SBD,Single-ply,1
 82.5,M-Jr,Anthony Maslan,235,152.5,277.5,665,M,SBD,Single-ply,2
-82.5,M-Jr,C. Pancott,202.5,127.5,247.5,577.5,M,SBD,Single-ply,3
+82.5,M-Jr,Cheyenne Pancott,202.5,127.5,247.5,577.5,M,SBD,Single-ply,3
 82.5,M-Jr,Andrew Loferen,242.5,122.5,207.5,572.5,M,SBD,Single-ply,4
 90,M-Jr,Charr Gahagan,260,172.5,327.5,760,M,SBD,Single-ply,1
-90,M-Jr,D. Follansbee,,,,,M,SBD,Single-ply,DQ
+90,M-Jr,David Follansbee,,,,,M,SBD,Single-ply,DQ
 90,M-Jr,Douglas Scott,,,,,M,SBD,Single-ply,DQ
-100,M-Jr,Steve Mann,312.5,185,275,772.5,M,SBD,Single-ply,1
+100,M-Jr,Steve Mann #1,312.5,185,275,772.5,M,SBD,Single-ply,1
 100,M-Jr,Ed Koo,260,190,300,750,M,SBD,Single-ply,2
 100,M-Jr,Ted Depoe,272.5,182.5,290,745,M,SBD,Single-ply,3
 100,M-Jr,Jay Massey,272.5,167.5,282.5,722.5,M,SBD,Single-ply,4

@@ -9,7 +9,7 @@ J. Whither,56,Open,M,99.79,61.24,133.81,294.84,SBD,Single-ply,2
 Jack Bunn,56,Open,M,99.79,52.16,129.27,281.23,SBD,Single-ply,3
 Dick Dillard,60,Open,M,181.44,90.72,226.8,498.95,SBD,Single-ply,1
 Mike Gillette,60,Open,M,174.63,99.79,181.44,455.86,SBD,Single-ply,2
-G. Tanner,60,Open,M,142.88,122.47,147.42,412.77,SBD,Single-ply,3
+Greg Tanner,60,Open,M,142.88,122.47,147.42,412.77,SBD,Single-ply,3
 L. Knight,60,Open,M,147.42,90.72,154.22,392.36,SBD,Single-ply,4
 D. Gibbs,60,Open,M,115.67,79.38,172.37,367.41,SBD,Single-ply,5
 D. Kayser,60,Open,M,117.93,81.65,122.47,322.05,SBD,Single-ply,6
@@ -27,10 +27,10 @@ I. Steffensen,67.5,Open,M,,,,,SBD,Single-ply,DQ
 Nick Kirkes,67.5,Open,M,,,,,SBD,Single-ply,DQ
 J. Collins,67.5,Open,M,,,,,SBD,Single-ply,DQ
 G. Lee,75,Open,M,244.94,142.88,247.21,635.03,SBD,Single-ply,1
-D. Peterson,75,Open,M,238.14,133.81,244.94,616.89,SBD,Single-ply,2
+Doug Petersen,75,Open,M,238.14,133.81,244.94,616.89,SBD,Single-ply,2
 Gary Streeter,75,Open,M,215.46,133.81,249.48,598.74,SBD,Single-ply,3
 Wally Henry,75,Open,M,215.46,151.95,222.26,589.67,SBD,Single-ply,4
-B. Weber,75,Open,M,197.31,145.15,240.4,582.87,SBD,Single-ply,5
+Bob Weber,75,Open,M,197.31,145.15,240.4,582.87,SBD,Single-ply,5
 J. Long,75,Open,M,195.04,131.54,217.72,544.31,SBD,Single-ply,6
 B. Griffin,75,Open,M,197.31,122.47,206.38,526.17,SBD,Single-ply,7
 R. Sherrod,75,Open,M,195.04,127.01,192.78,514.83,SBD,Single-ply,8
@@ -55,8 +55,8 @@ B. Baker,82.5,Open,M,192.78,115.67,197.31,505.76,SBD,Single-ply,8
 G. Rauhauser,82.5,Open,M,163.29,108.86,188.24,460.4,SBD,Single-ply,9
 S. Kuch,82.5,Open,M,136.08,104.33,181.44,421.84,SBD,Single-ply,10
 B. Matney,82.5,Open,M,113.4,58.97,136.08,308.44,SBD,Single-ply,11
-M. Ward,82.5,Open,M,,,,,SBD,Single-ply,DQ
-J. Nenow,82.5,Open,M,,,,,SBD,Single-ply,DQ
+Mike Ward #1,82.5,Open,M,,,,,SBD,Single-ply,DQ
+John Nenow,82.5,Open,M,,,,,SBD,Single-ply,DQ
 Scott Fair,90,Open,M,308.44,158.76,265.35,732.55,SBD,Single-ply,1
 Steve Lee,90,Open,M,260.82,165.56,272.16,698.53,SBD,Single-ply,2
 C. Crider,90,Open,M,263.08,165.56,244.94,673.59,SBD,Single-ply,3
@@ -83,7 +83,7 @@ M. Smith #33,100,Open,M,,,,,SBD,Single-ply,DQ
 D. Gray,100,Open,M,,,,,SBD,Single-ply,DQ
 J. Yocom,100,Open,M,,,,,SBD,Single-ply,DQ
 Tim Morrill,110,Open,M,263.08,154.22,272.16,689.46,SBD,Single-ply,1
-R. Foster,110,Open,M,249.48,163.29,244.94,657.71,SBD,Single-ply,2
+R. Foster #3,110,Open,M,249.48,163.29,244.94,657.71,SBD,Single-ply,2
 J. Argotsinger,110,Open,M,233.6,149.69,233.6,616.89,SBD,Single-ply,3
 Cory Berry,110,Open,M,204.12,154.22,254.01,612.35,SBD,Single-ply,4
 Lance Stewart,110,Open,M,181.44,129.27,204.12,514.83,SBD,Single-ply,8
@@ -95,6 +95,6 @@ K. Mogard,125,Open,M,231.33,181.44,231.33,644.1,SBD,Single-ply,1
 R. Scott,125,Open,M,244.94,154.22,244.94,644.1,SBD,Single-ply,2
 Larry Wearth,125,Open,M,226.8,140.61,233.6,601.01,SBD,Single-ply,3
 T. Long,125,Open,M,174.63,124.74,217.72,517.1,SBD,Single-ply,4
-John Ware,125+,Open,M,297.1,204.12,283.5,784.72,SBD,Single-ply,1
+John Ware #1,125+,Open,M,297.1,204.12,283.5,784.72,SBD,Single-ply,1
 Paul Stephenson,125+,Open,M,272.16,176.9,260.82,709.87,SBD,Single-ply,2
 L. Paper,125+,Open,M,174.63,104.33,181.44,460.4,SBD,Single-ply,3

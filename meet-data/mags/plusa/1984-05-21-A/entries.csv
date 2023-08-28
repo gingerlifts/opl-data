@@ -2,9 +2,9 @@ Name,WeightClassKg,Division,Sex,AgeRange,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg
 Lori Verhagen,,Open,F,,,-95.25,-95.25,95.25,95.25,95.25,B,Raw,1
 Judy Gedney,,Open,F,,45.81,,,,63.5,63.5,B,Raw,6
 Gail Gondek,,Open,F,,,,,,81.65,81.65,B,Raw,2
-C. Evenson,,Open,F,,,,,,72.57,72.57,B,Raw,3
+Carlene Evenson,,Open,F,,,,,,72.57,72.57,B,Raw,3
 Julie Skurski,,Open,F,,,,,,68.04,68.04,B,Raw,4
-Kelly Norton,,Open,F,,,,,,65.77,65.77,B,Raw,5
+Kelly Norton #2,,Open,F,,,,,,65.77,65.77,B,Raw,5
 Naomi Prince,,Open,F,,,,,,56.7,56.7,B,Raw,10
 Brenda Zuhlke,,Open,F,,,,,,52.16,52.16,B,Raw,13
 Mary Dunlevy,,Open,F,,,,,,63.5,63.5,B,Raw,7
@@ -65,7 +65,7 @@ Kurt Welu,75,Open,M,,,,,,129.27,129.27,B,Raw,11
 Mike Schumi,75,Open,M,,,,,,127.01,127.01,B,Raw,12
 E. Ramsey,75,Open,M,,,,,,120.2,120.2,B,Raw,13
 Vince Moore,75,Open,M,,,,,,83.91,83.91,B,Raw,14
-R. Flores,75,Open,M,,,,,,,,B,Raw,DQ
+Ruben Flores,75,Open,M,,,,,,,,B,Raw,DQ
 Jeff Lepak,82.5,Open,M,,,,,,204.12,204.12,B,Raw,1
 Robert Belcastro,82.5,Open,M,,,,,,190.51,190.51,B,Raw,2
 Larry Danaher,82.5,Open,M,,,,,,185.97,185.97,B,Raw,3
@@ -81,7 +81,7 @@ Steve Tasker,82.5,Open,M,,,,,,136.08,136.08,B,Raw,12
 Joe Scalzitti,82.5,Open,M,,,,,,122.47,122.47,B,Raw,13
 J. Peterson,82.5,Open,M,,,,,,,,B,Raw,DQ
 P. McEntee,82.5,Open,M,,,,,,,,B,Raw,DQ
-M. Hughes,82.5,Open,M,,,,,,,,B,Raw,DQ
+Mike Hughes,82.5,Open,M,,,,,,,,B,Raw,DQ
 Manuel Ortiz,82.5,Open,M,,,,,,,,B,Raw,DQ
 Larry Regalado,90,Open,M,,,,,,183.71,183.71,B,Raw,1
 Larry Bostic,90,Open,M,,,,,,181.44,181.44,B,Raw,2
@@ -99,7 +99,7 @@ Sam Lewis,90,Open,M,,,,,,147.42,147.42,B,Raw,12
 Byron Scurry,90,Open,M,,,,,,133.81,133.81,B,Raw,13
 Earl Kimbrough,90,Open,M,50-999,,,,,90.72,90.72,B,Raw,14
 T. Hatings,90,Open,M,,,,,,,,B,Raw,DQ
-P. Wolf,90,Open,M,,,,,,,,B,Raw,DQ
+Paul Wolf,90,Open,M,,,,,,,,B,Raw,DQ
 John Gareski,90,Open,M,,,,,,,,B,Raw,DQ
 Mike MacDonald #1,100,Open,M,,,235.87,254.01,-263.08,254.01,254.01,B,Raw,1
 Steve Hutkowski,100,Open,M,,,,,,222.26,222.26,B,Raw,2
@@ -114,7 +114,7 @@ Jim Brewer #1,100,Open,M,,,,,,170.1,170.1,B,Raw,10
 Jim Rodgers,100,Open,M,,,,,,167.83,167.83,B,Raw,11
 Rich Grande,100,Open,M,,,,,,158.76,158.76,B,Raw,12
 Andre Thomas,100,Open,M,,,,,,147.42,147.42,B,Raw,13
-Matt Chapman #4,100,Open,M,,,,,,,,B,Raw,DQ
+Matt Chapman #1,100,Open,M,,,,,,,,B,Raw,DQ
 Rick Vickers,110,Open,M,,,,,235.87,235.87,235.87,B,Raw,1
 Roger Grossnickle,110,Open,M,,,,,,219.99,219.99,B,Raw,2
 Ray Moran,110,Open,M,,,,,,215.46,215.46,B,Raw,3
@@ -127,7 +127,7 @@ Bob Dirkes,110,Open,M,,,,,,158.76,158.76,B,Raw,9
 A. Smith #23,110,Open,M,,,,,,156.49,156.49,B,Raw,10
 C. Cummings,110,Open,M,,,,,,154.22,154.22,B,Raw,11
 Mike Geiger,110,Open,M,,,,,,136.08,136.08,B,Raw,12
-William Nichols,125,Open,M,,,,,,217.72,217.72,B,Raw,1
+William Nichols #1,125,Open,M,,,,,,217.72,217.72,B,Raw,1
 Rich Anderson,125,Open,M,,,,,,217.72,217.72,B,Raw,2
 Doug Pool,125,Open,M,,,,,,206.38,206.38,B,Raw,3
 Kevin Huegen,125,Open,M,,,,,,174.63,174.63,B,Raw,4

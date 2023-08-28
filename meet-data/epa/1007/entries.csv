@@ -1,6 +1,6 @@
 Sex,WeightClassKg,Name,Division,Team,BodyweightKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Event,AgeRange,Equipment
 F,67.5,Jane Whitley,F-E-G,YNE,64.2,,125,125,G,D,23.5-38.5,Single-ply
-M,60,Neil Cook,M-E-Open,NW,59.9,95,170,265,1,BD,23.5-38.5,Single-ply
+M,60,Neil Cook #1,M-E-Open,NW,59.9,95,170,265,1,BD,23.5-38.5,Single-ply
 M,75,William Ramsay,M-E-G,YNE,69.1,,160,160,G,D,0-22.5,Single-ply
 M,75,Christian Roberts,M-E-Open,NW,72.5,145,190,335,1,BD,0-22.5,Single-ply
 M,75,Mark James Horrobin,M-E-Open,NW,68.6,125,155,280,3,BD,23.5-38.5,Single-ply
@@ -17,7 +17,7 @@ M,110,Slawomir Kochan,M-E-G,YNE,102.1,140,,140,G,B,23.5-38.5,Single-ply
 M,110,Pinda Singh,M-E-G,EM,110,,,,DQ,BD,23.5-38.5,Single-ply
 M,125,David Squires,M-E-Open,NW,110.6,170,250,420,1,BD,23.5-38.5,Single-ply
 M,125+,Ryan David Bell,M-E-Open,NW,148.3,110,180,290,3,BD,0-22.5,Single-ply
-M,125+,Richard Frances Booth,M-E-Open,NW,143.8,165,,165,2,B,23.5-38.5,Single-ply
+M,125+,Rick Booth,M-E-Open,NW,143.8,165,,165,2,B,23.5-38.5,Single-ply
 M,125+,Andy Gregory,M-E-Open,NW,147.7,170,270,440,1,BD,23.5-38.5,Single-ply
 M,125+,Peter Ratcliffe,M-E-Open,NW,134.2,147.5,275,422.5,2,BD,49.5-58.5,Single-ply
 M,52,Eren Oguz,M-E-Open,NW,46.9,57.5,140,197.5,1,BD,0-22.5,Single-ply

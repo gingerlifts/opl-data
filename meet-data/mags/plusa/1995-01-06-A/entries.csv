@@ -39,14 +39,14 @@ Place,Name,Division,AgeRange,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best
 1,Ernesto Milian,M2,45-49,Puerto Rico,,200,120,220,540,60,M,SBD,Multi-ply
 1,Nori Kawasaki,M6,65-69,USA,,152.5,100,182.5,435,60,M,SBD,Multi-ply
 1,S. Kovaskitz,T,13-19,USA,,175,87.5,187.5,450,67.5,M,SBD,Multi-ply
-2,W. Mercier,T,13-19,Belgium,,155,85,145,385,67.5,M,SBD,Multi-ply
+2,Wim Mercier,T,13-19,Belgium,,155,85,145,385,67.5,M,SBD,Multi-ply
 1,K. Marsh,J,20-23,USA,,217.5,137.5,220,575,67.5,M,SBD,Multi-ply
 2,G. Gayle,J,20-23,South Africa,,200,100,240,540,67.5,M,SBD,Multi-ply
 1,G. Singh,O,,UK,,250,150,250,650,67.5,M,SBD,Multi-ply
 2,N. Paczowski,O,,Poland,,222.5,122.5,205,550,67.5,M,SBD,Multi-ply
 3,Roy Harper,O,,Canada,,175,117.5,210,502.5,67.5,M,SBD,Multi-ply
 1,Will Taylor,M1,40-44,USA,,165,97.5,200,462.5,67.5,M,SBD,Multi-ply
-1,David Berg,M2,45-49,UK,,215,115,220,550,67.5,M,SBD,Multi-ply
+1,David Berg #1,M2,45-49,UK,,215,115,220,550,67.5,M,SBD,Multi-ply
 2,John Addy,M2,45-49,USA,,137.5,65,162.5,365,67.5,M,SBD,Multi-ply
 1,J. Ehman,T,13-19,USA,,205,82.5,197.5,485,75,M,SBD,Multi-ply
 1,P. Avans,J,20-23,USA,,237.5,152.5,240,630,75,M,SBD,Multi-ply
@@ -58,10 +58,10 @@ Place,Name,Division,AgeRange,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best
 4,Angelo Berardinelli,O,,USA,,277.5,190,257.5,725,75,M,SBD,Multi-ply
 1,S. Botor,M1,40-44,USA,,225,127.5,240,592.5,75,M,SBD,Multi-ply
 1,Ricky Posey,M1,40-44,USA,,227.5,130,210,567.5,75,M,SBD,Multi-ply
-1,G. Isaac,M2,45-49,UK,,220,130,250,600,75,M,SBD,Multi-ply
+1,Gareth Isaac,M2,45-49,UK,,220,130,250,600,75,M,SBD,Multi-ply
 2,Troy Hicks,M2,45-49,USA,,197.5,120,250,567.5,75,M,SBD,Multi-ply
 3,D. Lather,M2,45-49,USA,,195,137.5,232.5,565,75,M,SBD,Multi-ply
-1,Jerry Wells,M3,50-54,USA,,200,150,182.5,532.5,75,M,SBD,Multi-ply
+1,Jerry Wells #1,M3,50-54,USA,,200,150,182.5,532.5,75,M,SBD,Multi-ply
 2,James Capehart,M3,50-54,USA,,175,117.5,157.5,450,75,M,SBD,Multi-ply
 1,Dick Giller,M6,65-69,USA,,165,132.5,215,512.5,75,M,SBD,Multi-ply
 1,Mark Placek,T,13-19,USA,,242.5,145,240,627.5,82.5,M,SBD,Multi-ply
@@ -72,9 +72,9 @@ Place,Name,Division,AgeRange,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best
 2,Joe McCoy,O,,USA,,305,232.5,257.5,795,82.5,M,SBD,Multi-ply
 3,Enzo Vaccari,O,,Italy,,300,180,292.5,772.5,82.5,M,SBD,Multi-ply
 4,Rohan Archibald,O,,South Africa,,290,185,275,750,82.5,M,SBD,Multi-ply
-1,David Jones,M1,40-44,UK,,240,170,260,670,82.5,M,SBD,Multi-ply
+1,David Jones #14,M1,40-44,UK,,240,170,260,670,82.5,M,SBD,Multi-ply
 2,Greg Sumner,M1,40-44,USA,,237.5,147.5,237.5,622.5,82.5,M,SBD,Multi-ply
-3,B. Sharp,M1,40-44,USA,,207.5,185,227.5,620,82.5,M,SBD,Multi-ply
+3,Butch Sharp,M1,40-44,USA,,207.5,185,227.5,620,82.5,M,SBD,Multi-ply
 1,Gordon Olson,M2,45-49,USA,,287.5,160,260,707.5,82.5,M,SBD,Multi-ply
 2,R. Mercier,M2,45-49,Belgium,,190,115,200,505,82.5,M,SBD,Multi-ply
 1,Robyn Brown,M3,50-54,UK,,275,160,280,715,82.5,M,SBD,Multi-ply
@@ -108,9 +108,9 @@ Place,Name,Division,AgeRange,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best
 1,Bill West #1,M2,45-49,UK,,360,190,330,880,100,M,SBD,Multi-ply
 2,Les Hasler,M2,45-49,South Africa,,305,207.5,325,837.5,100,M,SBD,Multi-ply
 3,Hamid Tazi,M2,45-49,Italy,,220,180,250,650,100,M,SBD,Multi-ply
-2,S. Candberg,M3,50-54,USA,,287.5,180,285,752.5,100,M,SBD,Multi-ply
+2,Larry Sandberg,M3,50-54,USA,,287.5,180,285,752.5,100,M,SBD,Multi-ply
 1,Butch Frye,M3,50-54,USA,,260,187.5,282.5,730,100,M,SBD,Multi-ply
-3,J. Devrainville,M3,50-54,Belgium,,210,132.5,235,577.5,100,M,SBD,Multi-ply
+3,Jean Davrainville,M3,50-54,Belgium,,210,132.5,235,577.5,100,M,SBD,Multi-ply
 1,Ernie Frantz,M5,60-64,USA,,327.5,162.5,282.5,772.5,100,M,SBD,Multi-ply
 1,Melvin Huff,M6,65-69,USA,,192.5,125,215,532.5,100,M,SBD,Multi-ply
 1,Justin Koenig,T,13-19,South Africa,,300,200,300,800,110,M,SBD,Multi-ply
@@ -122,10 +122,10 @@ Place,Name,Division,AgeRange,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best
 1,Curtis Lesley,O,,USA,,390,260,320,970,110,M,SBD,Multi-ply
 2,Chuck Vogelpohl,O,,USA,,390,247.5,327.5,965,110,M,SBD,Multi-ply
 3,Ernest Potgieter,O,,South Africa,,400,235,320,955,110,M,SBD,Multi-ply
-4,S. Clegg,O,,USA,,320,200,310,830,110,M,SBD,Multi-ply
+4,Steve Clegg,O,,USA,,320,200,310,830,110,M,SBD,Multi-ply
 5,J. Portat,O,,USA,,267.5,165,315,747.5,110,M,SBD,Multi-ply
 1,Rick Cornett,M1,40-44,USA,,360,200,300,860,110,M,SBD,Multi-ply
-2,Doug Williams,M1,40-44,UK,,305,160,300,765,110,M,SBD,Multi-ply
+2,Doug Williams #2,M1,40-44,UK,,305,160,300,765,110,M,SBD,Multi-ply
 3,V. Gilbert,M1,40-44,USA,,240,140,260,640,110,M,SBD,Multi-ply
 4,Dick Zenzen,M1,40-44,USA,,255,142.5,195,592.5,110,M,SBD,Multi-ply
 1,Scott Siewer,M2,45-49,USA,,292.5,177.5,285,755,110,M,SBD,Multi-ply

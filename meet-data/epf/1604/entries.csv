@@ -7,7 +7,7 @@ Place,Name,BirthYear,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchK
 3,Christian Hedman,1982,Sweden,73.65,210,225,-237.5,225,225,74,Open,B,M,Single-ply
 4,Jón Einarsson,1986,Iceland,73.5,-162.5,162.5,-180,162.5,162.5,74,Open,B,M,Single-ply
 DQ,Amit Selberg,1976,Sweden,73.35,-245,-245,-247.5,,,74,Open,B,M,Single-ply
-1,Daniel Miller,1988,Poland,81.75,280,-287.5,287.5,287.5,287.5,83,Open,B,M,Single-ply
+1,Daniel Miller #5,1988,Poland,81.75,280,-287.5,287.5,287.5,287.5,83,Open,B,M,Single-ply
 2,Aleksandr Gromov,1981,Russia,81.9,-270,-270,270,270,270,83,Open,B,M,Single-ply
 3,Kim Beck-Gundersen,1985,Norway,81.45,245,250,-265,250,250,83,Open,B,M,Single-ply
 4,Mads Friche,1982,Denmark,82.15,230,237.5,-252.5,237.5,237.5,83,Open,B,M,Single-ply
@@ -32,7 +32,7 @@ DD,Patrick van der Putten,1980,Netherlands,103.45,-275,-280,-292.5,,,105,Open,B,
 6,Lasse Leinonen,1973,Finland,119.35,300,-310,-317.5,300,300,120,Open,B,M,Single-ply
 7,Markus Larsson,1974,Sweden,117.95,285,-300,-312.5,285,285,120,Open,B,M,Single-ply
 8,Sorin Cazacu,1973,Romania,119.5,260,272.5,280,280,280,120,Open,B,M,Single-ply
-9,Hjalmar Mae,1980,Estonia,106.45,-267.5,267.5,-277.5,267.5,267.5,120,Open,B,M,Single-ply
+9,Hjalmar Mäe,1980,Estonia,106.45,-267.5,267.5,-277.5,267.5,267.5,120,Open,B,M,Single-ply
 1,Kenneth Sandvik,1975,Finland,142.6,-345,345,357.5,357.5,357.5,120+,Open,B,M,Single-ply
 2,Alastair McColl,1981,Norway,141.25,-355,-355,355,355,355,120+,Open,B,M,Single-ply
 3,Christian Wackernell,1980,Austria,150.1,320,-375,-402,320,320,120+,Open,B,M,Single-ply
@@ -43,7 +43,7 @@ DQ,Jaroslav Šoukal,1972,Czechia,156.2,-345,-345,-347.5,,,120+,Open,B,M,Single-p
 1,Sebastian Daudon Bakken,1993,Norway,81.1,207.5,212.5,220,220,220,83,Juniors,B,M,Single-ply
 2,Dagfinnur Ari Normann,1993,Iceland,82.15,200,212.5,217.5,217.5,217.5,83,Juniors,B,M,Single-ply
 1,Karl Anton Löve,1997,Iceland,92.85,-195,195,-215,195,195,93,Juniors,B,M,Single-ply
-1,Ralf Male,1994,Norway,101.65,262.5,267.5,-272.5,267.5,267.5,105,Juniors,B,M,Single-ply
+1,Ralf A. Male,1994,Norway,101.65,262.5,267.5,-272.5,267.5,267.5,105,Juniors,B,M,Single-ply
 2,Christian Martinsson,1993,Sweden,104.75,257.5,265,-270,265,265,105,Juniors,B,M,Single-ply
 3,Daniel Haerter,1995,Germany,104.1,250,257.5,-270,257.5,257.5,105,Juniors,B,M,Single-ply
 4,Kamil Sypka,1994,Poland,104.45,250,257.5,-265,257.5,257.5,105,Juniors,B,M,Single-ply
@@ -63,7 +63,7 @@ DQ,Jaroslav Šoukal,1972,Czechia,156.2,-345,-345,-347.5,,,120+,Open,B,M,Single-p
 3,Ekaterina Nikolaeva,1984,Russia,61.5,-125,125,-135,125,125,63,Open,B,F,Single-ply
 1,Yulia Chistiakova,1989,Russia,71.7,-155,155,165,165,165,72,Open,B,F,Single-ply
 2,Andrea Hammarström,1977,Sweden,70.7,-162.5,162.5,-167.5,162.5,162.5,72,Open,B,F,Single-ply
-3,Kari Krokeide Ruth,1989,Norway,70.95,-135,135,137.5,137.5,137.5,72,Open,B,F,Single-ply
+3,Ruth Kari Krokeide,1989,Norway,70.95,-135,135,137.5,137.5,137.5,72,Open,B,F,Single-ply
 4,Helga Guðmundsdóttir,1974,Iceland,65.9,120,127.5,135,135,135,72,Open,B,F,Single-ply
 5,Bianca Wienroither,1984,Austria,69.65,135,-140,-140,135,135,72,Open,B,F,Single-ply
 6,Hanne Hagen Rotnes,1989,Norway,70.95,122.5,130,-137.5,130,130,72,Open,B,F,Single-ply

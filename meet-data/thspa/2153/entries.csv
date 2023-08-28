@@ -2,7 +2,7 @@ Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Be
 Boys,51.71,1,Eloy Garza,Corpus Christi West Oso,51.44,136.08,61.23,131.54,328.85,Single-ply,SBD,M
 Boys,55.79,2,Blake Suarez,Corpus Christi Tuloso-Midway,51.89,127.01,65.77,131.54,324.32,Single-ply,SBD,M
 Boys,51.71,3,Devin Cowen,Rockport-Fulton,50.17,97.52,45.36,113.4,256.28,Single-ply,SBD,M
-Boys,55.79,1,Joe Castillo,Gregory-Portland,55.7,156.49,88.45,176.9,421.84,Single-ply,SBD,M
+Boys,55.79,1,Joe Castillo #4,Gregory-Portland,55.7,156.49,88.45,176.9,421.84,Single-ply,SBD,M
 Boys,55.79,2,Mike Nunez,Corpus Christi West Oso,55.7,136.08,61.23,136.08,333.39,Single-ply,SBD,M
 Boys,59.87,1,Marcos Lara,Mathis,59.15,165.56,111.13,183.7,460.4,Single-ply,SBD,M
 Boys,59.87,2,Cody Hartman,Corpus Christi West Oso,59.51,167.83,106.59,179.17,453.59,Single-ply,SBD,M
@@ -15,13 +15,13 @@ Boys,67.13,DQ,Chantz Mickens,Corpus Christi Tuloso-Midway,59.96,,,,,Single-ply,S
 Boys,59.87,DQ,Gabriel Quinones,Gregory-Portland,59.87,113.4,,,,Single-ply,SBD,M
 Boys,59.87,DQ,Michael Baker,Gregory-Portland,58.33,113.4,,,,Single-ply,SBD,M
 Boys,59.87,DQ,Aaron Shockley,Corpus Christi Calallen,59.87,,,,,Single-ply,SBD,M
-Boys,67.13,1,Aaron Martinez,Corpus Christi Calallen,66.95,195.04,124.74,206.38,526.17,Single-ply,SBD,M
+Boys,67.13,1,Aaron Martinez #5,Corpus Christi Calallen,66.95,195.04,124.74,206.38,526.17,Single-ply,SBD,M
 Boys,67.13,2,JP Ruth,Gregory-Portland,66.86,181.44,108.86,204.12,494.42,Single-ply,SBD,M
 Boys,67.13,3,Alonzo Moya,Corpus Christi West Oso,64.77,185.97,99.79,206.38,492.15,Single-ply,SBD,M
 Boys,67.13,4,Anthony Huerta,Gregory-Portland,64.05,174.63,117.93,197.31,489.88,Single-ply,SBD,M
 Boys,67.13,5,Reed Anastasio,Gregory-Portland,64.86,136.08,90.72,161.03,387.82,Single-ply,SBD,M
 Boys,67.13,6,Daniel Valenzuela,Ingleside,63.05,149.69,86.18,136.08,371.95,Single-ply,SBD,M
-Boys,67.13,7,James King,Sinton,60.33,129.27,92.99,145.15,367.41,Single-ply,SBD,M
+Boys,67.13,7,James King #3,Sinton,60.33,129.27,92.99,145.15,367.41,Single-ply,SBD,M
 Boys,67.13,8,Raiden Windam,Gregory-Portland,65.68,142.88,70.31,136.08,349.27,Single-ply,SBD,M
 Boys,67.13,9,Christian Acosta,Ingleside,66.22,106.59,72.57,127.01,306.17,Single-ply,SBD,M
 Boys,74.84,1,Gabriel Cantu,Corpus Christi Calallen,73.21,217.72,117.93,249.48,585.13,Single-ply,SBD,M
@@ -80,13 +80,13 @@ Boys,109.77,DQ,Vince Gutierrez,Corpus Christi Tuloso-Midway,105.6,,,,,Single-ply
 Boys,109.77,DQ,Nicholas Isaacks,Gregory-Portland,107.86,204.12,,,,Single-ply,SBD,M
 Boys,109.77,DQ,William Withers,Gregory-Portland,104.14,,,,,Single-ply,SBD,M
 Boys,124.74,1,Rene Gonzales,Mathis,121.47,294.84,192.78,233.6,721.21,Single-ply,SBD,M
-Boys,124.74,2,Jacob Rodriguez,Corpus Christi Tuloso-Midway,123.01,285.76,154.22,251.74,691.73,Single-ply,SBD,M
+Boys,124.74,2,Jacob Rodriguez #4,Corpus Christi Tuloso-Midway,123.01,285.76,154.22,251.74,691.73,Single-ply,SBD,M
 Boys,124.74,3,Isaac Salinas #1,Gregory-Portland,119.2,267.62,170.1,235.87,673.58,Single-ply,SBD,M
 Boys,124.74,4,Joey Rodriguez,Corpus Christi West Oso,118.3,215.46,120.2,204.12,539.77,Single-ply,SBD,M
 Boys,124.74,5,Jeremy Trevino,Gregory-Portland,111.13,204.12,115.67,199.58,519.36,Single-ply,SBD,M
 Boys,124.74,6,Anthony Cantu,Mathis,114.03,201.85,138.35,170.1,510.29,Single-ply,SBD,M
 Boys,124.74,7,Jagger Weatherford,Gregory-Portland,119.02,176.9,113.4,167.83,458.13,Single-ply,SBD,M
 Boys,124.74,8,Edward Hernandez,Corpus Christi Tuloso-Midway,114.58,165.56,90.72,129.27,385.55,Single-ply,SBD,M
-Boys,124.74,DQ,Jaime Castillo,Corpus Christi Tuloso-Midway,111.04,,,,,Single-ply,SBD,M
+Boys,124.74,DQ,Jaime Castillo #2,Corpus Christi Tuloso-Midway,111.04,,,,,Single-ply,SBD,M
 Boys,124.74+,1,Mikey Esparza,Rockport-Fulton,127.37,254.01,181.44,226.8,662.24,Single-ply,SBD,M
 Boys,124.74+,2,Ed Hernandez,Corpus Christi West Oso,144.06,222.26,120.2,179.17,521.63,Single-ply,SBD,M

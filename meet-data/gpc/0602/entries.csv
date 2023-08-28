@@ -36,7 +36,7 @@ DQ,Denis Druzhinin,T3,Russia,74.05,-240,-240,-240,,,,,,,,,,,,,,75,M,1986,Multi-p
 1,Yannick Clement,O,France,82.2,300,325,-332.5,325,,190,202.5,207.5,207.5,,300,327.5,332.5,332.5,,865,82.5,M,1973,Multi-ply,SBD
 2,Denys Fitkevych,O,Ukraine,82.5,310,325,332.5,332.5,,220,230,237.5,237.5,,280,-290,-290,280,,850,82.5,M,1977,Multi-ply,SBD
 3,Stanislav Pryakhin,O,Russia,82.5,335,-350,-350,335,,180,195,-205,195,,285,305,-322.5,305,,835,82.5,M,1975,Multi-ply,SBD
-4,Ian Humphries,O,UK,82.4,-280,280,-300,280,,170,180,-190,180,,220,235,-245,235,,695,82.5,M,1972,Multi-ply,SBD
+4,Ian Humphreys,O,UK,82.4,-280,280,-300,280,,170,180,-190,180,,220,235,-245,235,,695,82.5,M,1972,Multi-ply,SBD
 5,Adam Brooks,O,UK,81.65,265,-275,-275,265,,160,-172.5,-172.5,160,,-235,245,255,255,,680,82.5,M,1980,Multi-ply,SBD
 6,Jean-Paul Gres,O,France,82.5,200,220,230,230,,155,162.5,165,165,,200,220,235,235,,630,82.5,M,1972,Multi-ply,SBD
 7,Denis Druzhinin,O,Russia,77,220,-230,-230,220,,120,130,-140,130,,200,220,-240,220,,570,82.5,M,1986,Multi-ply,SBD
@@ -65,8 +65,8 @@ DQ,Sebastien Borgers,J,Belgium,85.3,-220,-240,-260,,,160,,,160,,-220,,,,,,90,M,1
 2,Patrick Maguire #2,O,UK,99.2,330,-360,360,360,,250,260,270,270,,290,315,-332.5,315,,945,100,M,1971,Multi-ply,SBD
 3,Andrey Sizov,O,Russia,94.6,-300,300,310,310,,180,190,-200,190,,300,-315,315,315,,815,100,M,1968,Multi-ply,SBD
 4,Kyle Vauls,O,Ireland,97.1,260,-290,290,290,,210,217.5,-222.5,217.5,,265,280,-295,280,,787.5,100,M,1974,Multi-ply,SBD
-5,Sam Graham,O,Ireland,96.45,260,290,-310,290,,165,175,,175,,200,250,300,300,,765,100,M,1962,Multi-ply,SBD
-1,Sam Graham,M1,Ireland,96.45,260,290,-310,290,,165,175,,175,,200,250,300,300,,765,100,M,1962,Multi-ply,SBD
+5,Sam Graham #1,O,Ireland,96.45,260,290,-310,290,,165,175,,175,,200,250,300,300,,765,100,M,1962,Multi-ply,SBD
+1,Sam Graham #1,M1,Ireland,96.45,260,290,-310,290,,165,175,,175,,200,250,300,300,,765,100,M,1962,Multi-ply,SBD
 2,Patrick Verblijdt,M1,Belgium,95.3,-220,230,240,240,,115,125,-135,125,,195,210,-235,210,,575,100,M,1964,Multi-ply,SBD
 1,Georgiy Didenkul,M2,Russia,98.1,135,150,185,185,,-130,137.5,-142.5,137.5,,150,170,195,195,,517.5,100,M,1959,Multi-ply,SBD
 1,Alexandrs Smelovs,M4,Latvia,96.35,180,200,-220,200,,155,181,191,191,,200,215,,215,,606,100,M,1947,Multi-ply,SBD
@@ -132,7 +132,7 @@ DQ,Yaroslav Veligan,J,Ukraine,82.35,,,,,,-250,-250,-260,,,,,,,,,82.5,M,1983,Mult
 2,Peter Hermann,M5,Switzerland,81.95,,,,,,-112.5,-112.5,115,115,,,,,,,115,82.5,M,1942,Multi-ply,B
 1,Pierre Contoli,M7,France,78.4,,,,,,95,97.5,,97.5,,,,,,,97.5,82.5,M,1934,Multi-ply,B
 1,Gor Ayvazyan,T3,Russia,90,,,,,,190,-206,206,206,,,,,,,206,90,M,1986,Multi-ply,B
-1,Tahir Mardanov Vusal,J,Azerbaijan,90,,,,,,200,-230,230,230,-251,,,,,,230,90,M,1985,Multi-ply,B
+1,Vüsal Mardanov,J,Azerbaijan,90,,,,,,200,-230,230,230,-251,,,,,,230,90,M,1985,Multi-ply,B
 2,Mārcis Sproģis,J,Latvia,90,,,,,,160,-170,-175,160,,,,,,,160,90,M,,Multi-ply,B
 3,Leonīds Tenkaļuks,J,Latvia,87.05,,,,,,130,-140,-150,130,,,,,,,130,90,M,,Multi-ply,B
 1,Vitaliy Ponomarev,O,Russia,88.65,,,,,,230,245,-253.5,245,,,,,,,245,90,M,1957,Multi-ply,B
@@ -162,7 +162,7 @@ DQ,Tom Creytens,O,Belgium,87.8,,,,,,-147.5,-147.5,-147.5,,,,,,,,,90,M,,Multi-ply
 1,Jānis Stulpa,T2,Latvia,107.45,,,,,,100,,,100,,,,,,,100,110,M,,Multi-ply,B
 1,Eric Manshardt,J,Germany,103,,,,,,190,200,205,205,,,,,,,205,110,M,,Multi-ply,B
 1,Alexey Neklyudov,O,Russia,106.9,,,,,,280,-301,-301,280,,,,,,,280,110,M,1964,Multi-ply,B
-2,Rene Lüdtke,O,Germany,104.3,,,,,,222.5,232.5,245,245,,,,,,,245,110,M,1976,Multi-ply,B
+2,René Lüdtke,O,Germany,104.3,,,,,,222.5,232.5,245,245,,,,,,,245,110,M,1976,Multi-ply,B
 3,Sergiy Polutin,O,Ukraine,105.9,,,,,,235,245,-255,245,,,,,,,245,110,M,1975,Multi-ply,B
 4,Daniel Kaufmann,O,Germany,104,,,,,,220,230,-242.5,230,,,,,,,230,110,M,1976,Multi-ply,B
 5,Sleeve Guillaume,O,France,104.6,,,,,,185,195,-202.5,195,,,,,,,195,110,M,1978,Multi-ply,B
@@ -170,7 +170,7 @@ DQ,Oskars Bērziņš,O,Latvia,106.75,,,,,,-290,-290,-302.5,,,,,,,,,110,M,,Multi-
 1,Alexey Neklyudov,M1,Russia,106.9,,,,,,280,-301,-301,280,,,,,,,280,110,M,1964,Multi-ply,B
 1,Viktors Pevko,M2,Latvia,107.55,,,,,,210,225,,225,,,,,,,225,110,M,1956,Multi-ply,B
 2,Marc Savoca,M2,France,108.65,,,,,,182.5,192.5,-200,192.5,,,,,,,192.5,110,M,1961,Multi-ply,B
-1,Herve Pincemin,M4,France,102.65,,,,,,180,185,-187.5,185,,,,,,,185,110,M,1950,Multi-ply,B
+1,Hervé Pincemin,M4,France,102.65,,,,,,180,185,-187.5,185,,,,,,,185,110,M,1950,Multi-ply,B
 1,Kai-Uwe Göllnitz,O,Germany,124.8,,,,,,280,287.5,295,295,-301,,,,,,295,125,M,1974,Multi-ply,B
 2,Janis Ozols,O,Latvia,111.4,,,,,,-270,-270,275,275,,,,,,,275,125,M,,Multi-ply,B
 3,Martin Baumbach,O,Germany,119,,,,,,260,267.5,272.5,272.5,,,,,,,272.5,125,M,1980,Multi-ply,B
@@ -180,7 +180,7 @@ DQ,Oskars Bērziņš,O,Latvia,106.75,,,,,,-290,-290,-302.5,,,,,,,,,110,M,,Multi-
 2,Dominique Seminatore,M1,France,114.65,,,,,,240,252.5,-255,252.5,,,,,,,252.5,125,M,1962,Multi-ply,B
 1,Normunds Tanona,M2,Latvia,110.2,,,,,,160,175,-182.5,175,,,,,,,175,125,M,1957,Multi-ply,B
 1,Dainis Reinholds,M3,Latvia,123.45,,,,,,-240,240,-261,240,-261,,,,,,240,125,M,1952,Multi-ply,B
-1,Michael King,M4,UK,118.8,,,,,,-240,240,-258.5,240,,,,,,,240,125,M,1950,Multi-ply,B
+1,Mick King,M4,UK,118.8,,,,,,-240,240,-258.5,240,,,,,,,240,125,M,1950,Multi-ply,B
 2,Māris Gūtmanis,M4,Latvia,121,,,,,,110,,,110,,,,,,,110,125,M,1951,Multi-ply,B
 DQ,Jean-Marie Cavelier,M6,France,124.5,,,,,,-190,,,,,,,,,,,125,M,1939,Multi-ply,B
 1,Vladimir Sushchak,O,Russia,132.1,,,,,,252.5,257.5,262.5,262.5,,,,,,,262.5,140,M,1972,Multi-ply,B

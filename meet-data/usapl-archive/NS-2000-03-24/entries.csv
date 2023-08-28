@@ -67,7 +67,7 @@ WeightClassKg,Division,Name,School,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3D
 67.5,F-V,Gretchen Nosbisch,East,66.9,135,82.5,162.5,380,1,F,SBD,Single-ply
 67.5,F-V,Jona Anderson,Wis. Rapids,62.3,150,77.5,140,367.5,2,F,SBD,Single-ply
 67.5,F-V,Nicole Hartman,Horlick,65,137.5,72.5,145,355,3,F,SBD,Single-ply
-67.5,F-V,Ashley Sanders,Slidell,65.9,137.5,55,162.5,355,4,F,SBD,Single-ply
+67.5,F-V,Ashley Sanders #1,Slidell,65.9,137.5,55,162.5,355,4,F,SBD,Single-ply
 67.5,F-V,Nicole Sperbeck,Dimond High,66.9,130,80,140,350,5,F,SBD,Single-ply
 67.5,F-V,Anne Mankeiwicz,Neenah,66.1,125,60,142.5,327.5,6,F,SBD,Single-ply
 67.5,F-V,Katie Hemp,Phillips,61.4,117.5,65,137.5,320,7,F,SBD,Single-ply
@@ -141,11 +141,11 @@ WeightClassKg,Division,Name,School,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3D
 56,M-V,Lonnie Evans,Glen Mills,54.7,135,92.5,180,407.5,2,M,SBD,Single-ply
 56,M-V,Billy McDermott,Zion-Benton,55,150,85,160,395,3,M,SBD,Single-ply
 56,M-V,Sidney Foret,Slidell,55.4,145,67.5,170,382.5,4,M,SBD,Single-ply
-56,M-V,Chad Holmes,Ash,55.4,140,72.5,165,377.5,5,M,SBD,Single-ply
+56,M-V,Chad Holmes #2,Ash,55.4,140,72.5,165,377.5,5,M,SBD,Single-ply
 56,M-V,David Mauer,Plainwell,55.6,97.5,62.5,140,300,6,M,SBD,Single-ply
 56,M-V,Jeremy Steere,Carson City,55.8,112.5,62.5,117.5,292.5,7,M,SBD,Single-ply
 56,M-V,Travis Howe,GET,54.9,92.5,70,122.5,285,8,M,SBD,Single-ply
-56,M-V,Phil White,Plainwell,,,,,,DQ,M,SBD,Single-ply
+56,M-V,Phil White #2,Plainwell,,,,,,DQ,M,SBD,Single-ply
 56,M-JV,Brentley Marchand,Bishop Sullivan,55.6,145,75,160,380,1,M,SBD,Single-ply
 56,M-JV,Steve Sacia,GET,55.8,125,70,142.5,337.5,2,M,SBD,Single-ply
 56,M-JV,Matt Gulsvig,Horlick,55.2,115,72.5,142.5,330,3,M,SBD,Single-ply
@@ -163,7 +163,7 @@ WeightClassKg,Division,Name,School,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3D
 60,M-V,Brad Janak,Phillips,59.9,130,95,155,380,10,M,SBD,Single-ply
 60,M-V,Eric Komperud,GET,59.7,137.5,75,155,367.5,11,M,SBD,Single-ply
 60,M-V,Luke Spence,Ash,59.3,140,75,150,365,12,M,SBD,Single-ply
-60,M-V,Phil White,Plainwell,56.7,115,65,137.5,317.5,13,M,SBD,Single-ply
+60,M-V,Phil White #2,Plainwell,56.7,115,65,137.5,317.5,13,M,SBD,Single-ply
 60,M-V,Brian Abel,Lowell,58.8,80,62.5,107.5,250,14,M,SBD,Single-ply
 60,M-V,Prentice Reedy,GET,59,,,,,DQ,M,SBD,Single-ply
 60,M-V,Brandon Horton,Natchitoches,,,,,,DQ,M,SBD,Single-ply
@@ -374,7 +374,7 @@ WeightClassKg,Division,Name,School,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3D
 125,M-JV,Allen Metternick,Lowell,111.6,195,110,150,455,1,M,SBD,Single-ply
 125,M-JV,David Hefferan,Lowell,120.3,100,85,215,400,2,M,SBD,Single-ply
 125+,M-V,Nathan Patrick,Ash,136.3,272.5,167.5,250,690,1,M,SBD,Single-ply
-125+,M-V,Danny Nguyen,JI Case,140.9,267.5,150,252.5,670,2,M,SBD,Single-ply
+125+,M-V,Danny Nguyen #11,JI Case,140.9,267.5,150,252.5,670,2,M,SBD,Single-ply
 125+,M-V,Pete Carroll,Glen Mills,141.3,212.5,157.5,262.5,632.5,3,M,SBD,Single-ply
 125+,M-V,Nick Tofferi,Newaygo,134.1,205,190,235,630,4,M,SBD,Single-ply
 125+,M-V,Bryant Estes,Slidell,129.2,227.5,132.5,255,615,5,M,SBD,Single-ply

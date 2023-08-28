@@ -51,7 +51,7 @@ DD,Viktoriya Knysh,Виктория Кныш,1983,82.65,165,135,200,,84,SBD,Raw,
 1,Sergey Gladkikh,Сергей Гладких,1989,65.95,252.5,162.5,265,680,66,SBD,Raw,Open,M
 2,Alexander Kolbin,Александр Колбин,1987,65.65,240,152.5,262.5,655,66,SBD,Raw,Open,M
 3,Sergey Skochek,Сергей Скочек,1983,65.35,185,155,225,565,66,SBD,Raw,Open,M
-4,Sergey Tarasov,Сергей Тарасов,1994,65.75,200,130,225,555,66,SBD,Raw,Open,M
+4,Sergey Tarasov #1,Сергей Тарасов,1994,65.75,200,130,225,555,66,SBD,Raw,Open,M
 5,Andrey Shvankov,Андрей Шваньков,1986,66,190,140,200,530,66,SBD,Raw,Open,M
 6,Nikolay Busygin,Николай Бусыгин,1992,65.3,180,125,215,520,66,SBD,Raw,Open,M
 7,Pavel Cheremin,Павел Черемин,1994,65.35,170,120,200,490,66,SBD,Raw,Open,M
@@ -78,10 +78,10 @@ DD,Viktoriya Knysh,Виктория Кныш,1983,82.65,165,135,200,,84,SBD,Raw,
 13,Dmitriy Prelovskiy,Дмитрий Преловский,1989,82.9,180,135,210,525,83,SBD,Raw,Open,M
 1,Sergey Lupin,Сергей Лупин,1991,92.7,290,197.5,295,782.5,93,SBD,Raw,Open,M
 2,Aleksey Korchagin,Алексей Корчагин,1978,91.8,270,205,287.5,762.5,93,SBD,Raw,Open,M
-3,Roman Pogorelov,Роман Погорелов,1986,91.95,280,185,297.5,762.5,93,SBD,Raw,Open,M
+3,Roman Pogorelov #1,Роман Погорелов,1986,91.95,280,185,297.5,762.5,93,SBD,Raw,Open,M
 4,Aleksandr Usynin,Александр Усынин,1994,91.95,280,190,280,750,93,SBD,Raw,Open,M
 5,Dmitriy Kashin,Дмитрий Кашин,1988,91.9,260,170,260,690,93,SBD,Raw,Open,M
-6,Denis Nikonov,Денис Никонов,1991,92.75,225,157.5,265,647.5,93,SBD,Raw,Open,M
+6,Denis Nikonov #2,Денис Никонов,,92.75,225,157.5,265,647.5,93,SBD,Raw,Open,M
 7,Artur Kozyrevskiy,Артур Козыревский,1989,86.9,225,135,270,630,93,SBD,Raw,Open,M
 8,Igor Antipin,Игорь Антипин,1991,86.85,210,145,230,585,93,SBD,Raw,Open,M
 1,Ernst Gross,Эрнст Гросс,1987,104.8,325,200,312.5,837.5,105,SBD,Raw,Open,M
@@ -98,4 +98,4 @@ DQ,Sergey Bakhtin,Сергей Бахтин,1985,104.35,280,195,-300,,105,SBD,Ra
 5,Maksim Chechuev,Максим Чечуев,1997,119.3,240,140,240,620,120,SBD,Raw,Open,M
 1,Vasiliy Omelchenko,Василий Омельченко,1973,128.3,340,215,325,880,120+,SBD,Raw,Open,M
 2,Dmitriy Kapitanas,Дмитрий Капитанас,1989,134.6,310,220,325,855,120+,SBD,Raw,Open,M
-3,Evgeniy Ivanov,Евгений Иванов,1982,153.6,330,230,270,830,120+,SBD,Raw,Open,M
+3,Evgeniy Ivanov #1,Евгений Иванов,1982,153.6,330,230,270,830,120+,SBD,Raw,Open,M

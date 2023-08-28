@@ -2,11 +2,12 @@
 # 
 # SwissPL used to be a combination of lots of multiple federations:
 #   GPC, WUAP, and some other untested fed.
-# Since 2019 they revised to be exclusively IPF.
+# Since 2019 they revised to be exclusively IPF, but from 2020 return to mix of several untested: WPC, WRPF, GPC, WUAP
 
 [divisions]
     # Traditional, pre-IPF divisions.
     open = {name="Open", min=0, max=999}
+    t13_15 = {name="T13-15", min=13, max=15}
     t16_17 = {name="T16-17", min=16, max=17}
     t18_19 = {name="T18-19", min=18, max=19}
     juniors = {name="Juniors", min=18, max=23}
@@ -37,16 +38,33 @@
     date_range = ["1999-01-01", "2018-12-31"]
     sex = "F"
 
+[weightclasses.traditional_M_2]
+    classes = ["52","56","60","67.5","75","82.5","90","100","110","125","140","140+"]
+    date_range = ["2020-01-01", "9999-12-31"]
+    sex = "M"
+
+[weightclasses.traditional_F_2]
+    classes = ["44","48","52","56","60","67.5","75","82.5","90","90+"]
+    date_range = ["2020-01-01", "9999-12-31"]
+    sex = "F"
+
 [weightclasses.IPF_M]
     classes = ["59","66","74","83","93","105","120","120+"]
-    date_range = ["2019-01-01", "9999-12-31"]
+    date_range = ["2018-01-01", "2019-12-31"]
     sex = "M"
 
 [weightclasses.IPF_F]
     classes = ["47","52","57","63","72","84","84+"]
-    date_range = ["2019-01-01", "9999-12-31"]
+    date_range = ["2018-01-01", "2019-12-31"]
     sex = "F"
 
 [exemptions]
     # Limited weightclasses. Juniors and Sub-Juniors combined.
+    0605 = ["ExemptWeightClassConsistency"]  # Didn't use weightclasses.
+    0606 = ["ExemptWeightClassConsistency"]  # Didn't use weightclasses.
     1902 = ["ExemptWeightClassConsistency", "ExemptDivision"]
+    1701 = ["ExemptWeightClassConsistency", "ExemptDivision"]
+    1801 = ["ExemptWeightClassConsistency"]
+    1802 = ["ExemptWeightClassConsistency"]
+    1803 = ["ExemptWeightClassConsistency"]
+    1804 = ["ExemptWeightClassConsistency"]

@@ -10,7 +10,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 3,Cris Lapira,NC,60,58.8,34,92.5,52.5,135,280,F,Open,Raw,SBD
 1,Robyn Jeffrey,NC,67.5,67.3,23,130,75,160,365,F,Open,Raw,SBD
 2,Laura Anderson,NC,67.5,64.7,32,100,65,182.5,347.5,F,Open,Raw,SBD
-3,Taylor Dudley,VA,67.5,67,26,120,72.5,152.5,345,F,Open,Raw,SBD
+3,Taylor Dudley #1,VA,67.5,67,26,120,72.5,152.5,345,F,Open,Raw,SBD
 4,Taylor Sexton,NC,67.5,67.3,24,115,72.5,155,342.5,F,Open,Raw,SBD
 5,Megan Kennedy,NC,67.5,64.2,28,110,72.5,155,337.5,F,Open,Raw,SBD
 6,Audrey Copeland,NC,67.5,65.8,24,107.5,72.5,115,295,F,Open,Raw,SBD
@@ -20,7 +20,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 2,Sarah Stewart,NC,75,73,29,100,52.5,135,287.5,F,Open,Raw,SBD
 1,Denise Mitchell,NC,82.5,81.3,28,95,70,107.5,272.5,F,Open,Raw,SBD
 1,Elizabeth Aimone,NC,90,88,22,147.5,72.5,162.5,382.5,F,Open,Raw,SBD
-2,Kristin Armstrong,NC,90,83.4,32,137.5,52.5,160,350,F,Open,Raw,SBD
+2,Kristin Freeman,NC,90,83.4,32,137.5,52.5,160,350,F,Open,Raw,SBD
 3,Cheryl Willis,NC,90,83.5,45,120,62.5,142.5,325,F,Open,Raw,SBD
 4,Jessica Parker,NC,90,85.8,26,105,50,142.5,297.5,F,Open,Raw,SBD
 1,Katy Silvers,NC,90+,111.7,37,115,67.5,137.5,320,F,Open,Raw,SBD
@@ -68,7 +68,7 @@ DQ,Zachary Esposito,NC,75,73.1,23,155,,187.5,,M,Open,Raw,SBD
 5,Jacob Mulford,NC,100,97.1,24,155,102.5,192.5,450,M,Open,Raw,SBD
 DQ,Robert Miley,MD,100,97.1,28,190,,260,,M,Open,Raw,SBD
 DQ,Micheal Spates,NC,100,98.1,28,,137.5,227.5,,M,Open,Raw,SBD
-1,Nathan Fleming,NC,110,106.6,25,227.5,160,242.5,630,M,Open,Raw,SBD
+1,Nathan Fleming #1,NC,110,106.6,25,227.5,160,242.5,630,M,Open,Raw,SBD
 1,Nolan Toti,VA,125,120.1,19,287.5,185,317.5,790,M,Open,Raw,SBD
 2,Dennis Crenshaw,NC,125,115.1,32,185,102.5,217.5,505,M,Open,Raw,SBD
 3,Arthur Hurt,GA,125,116.3,48,160,130,210,500,M,Open,Raw,SBD
@@ -81,7 +81,7 @@ DQ,Micheal Spates,NC,100,98.1,28,,137.5,227.5,,M,Open,Raw,SBD
 1,Arthur Hurt,GA,125,116.3,48,160,130,210,500,M,Masters 45-49,Raw,SBD
 1,Jessica Ferris,NC,60,59.8,32,137.5,70,162.5,370,F,Open,Wraps,SBD
 1,Jessica Louer,NC,67.5,66.3,35,125,72.5,142.5,340,F,Open,Wraps,SBD
-1,Sarah Johnson,NC,75,74.9,25,172.5,87.5,185,445,F,Open,Wraps,SBD
+1,Sarah Johnson #2,NC,75,74.9,25,172.5,87.5,185,445,F,Open,Wraps,SBD
 2,Renee Emory,NC,75,74.7,51,140,67.5,120,327.5,F,Open,Wraps,SBD
 3,Kristie Gitto,NC,75,74.2,30,125,60,130,315,F,Open,Wraps,SBD
 1,Jessica Louer,NC,67.5,66.3,35,125,72.5,142.5,340,F,Submasters 35-39,Wraps,SBD

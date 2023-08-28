@@ -1,6 +1,6 @@
 Name,Sex,BirthDate,Event,Equipment,BodyweightKg,Age,Division,WeightClassKg,Country,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Squat4Kg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Bench4Kg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place
 Maria Ramos #1,F,1990-04-20,SBD,Wraps,45.4,24,Open,48,Argentina,130,140,150,150,152.5,52.5,57.5,65,65,,127.5,135.5,-137.5,135.5,350.5,1
-Veronica Garcia,F,1976-08-31,SBD,Wraps,50.3,38,Submasters 35-39,52,Argentina,105,110,-115,110,,-70,70,-75,70,,105,110,115,115,295,1
+Veronica Garcia #2,F,1976-08-31,SBD,Wraps,50.3,38,Submasters 35-39,52,Argentina,105,110,-115,110,,-70,70,-75,70,,105,110,115,115,295,1
 Sandra Pagliariche,F,1987-04-04,SBD,Wraps,56,27,Open,56,Argentina,142.5,152.5,160,160,,82.5,90,95.5,95.5,,117.5,127.5,-137.5,127.5,383,1
 Maria del Pilar Arias,F,1987-02-26,SBD,Wraps,59.9,27,Open,60,Peru,110,120,130,130,,40,50,-55,50,,110,120,125,125,305,1
 Lourdes Cacya,F,1972-02-11,SBD,Wraps,66.1,42,Masters 40-44,67.5,Peru,90,95,105,105,,40,45,50,50,,90,-100,-100,90,245,1
@@ -27,12 +27,12 @@ Juan Pillajo,M,1970-07-09,SBD,Wraps,80.7,44,Masters 40-44,82.5,Ecuador,210,220,-
 Galo Gallegos Burnham,M,1974-05-17,SBD,Wraps,81.5,40,Masters 40-44,82.5,Ecuador,120,125,130,130,,120,-125,-125,120,,140,145,150,150,400,2
 Lucio Mamani,M,,SBD,Wraps,114,,Masters 80+,125,Peru,,,,,,,,,,,,,,,,DQ
 Júlio Chavez #1,M,1952-08-19,SBD,Wraps,88.2,62,Masters 60-64,90,Argentina,150,170,,170,,91,-97.5,,91,,190,210,,210,471,1
-Drago Derpic,M,1962-01-06,SBD,Wraps,97.3,52,Masters 50-54,100,Bolivia,180,200,-235,200,,100,120,-132.5,120,,200,212.5,220,220,540,1
-José Fernández,M,1939-03-10,SBD,Wraps,106.9,75,Masters 75-79,110,Argentina,-115,-115,115,115,,-110,,,,,,,,,,DQ
+Drago Derpic Prieto,M,1962-01-06,SBD,Wraps,97.3,52,Masters 50-54,100,Bolivia,180,200,-235,200,,100,120,-132.5,120,,200,212.5,220,220,540,1
+José Fernández #2,M,1939-03-10,SBD,Wraps,106.9,75,Masters 75-79,110,Argentina,-115,-115,115,115,,-110,,,,,,,,,,DQ
 Augusto Ramos,M,1969-04-09,SBD,Wraps,100,45,Masters 45-49,100,Argentina,150,180,-200,180,,100,135,-140,135,,150,180,200,200,515,2
 Gabriel Reynoso,M,1971-10-17,SBD,Wraps,119.1,42,Masters 40-44,125,Argentina,135,155,-170,155,,85,92.5,100,100,-107.5,160,180,185,185,440,1
-Jose Egües,M,,SBD,Wraps,,,Open,82.5,Argentina,260,280,-300,280,,-135,135,,135,,220,240,-260,240,655,1
-Yonathan Rondon,M,1989-08-04,SBD,Wraps,88.8,25,Open,90,Argentina,265,272.5,-280,272.5,,160,170,177.5,177.5,,270,-280.5,-280.5,270,720,1
+José Egües,M,,SBD,Wraps,,,Open,82.5,Argentina,260,280,-300,280,,-135,135,,135,,220,240,-260,240,655,1
+Jonathan Rondon,M,1989-08-04,SBD,Wraps,88.8,25,Open,90,Argentina,265,272.5,-280,272.5,,160,170,177.5,177.5,,270,-280.5,-280.5,270,720,1
 Fernando Rubio,M,1995-09-09,SBD,Wraps,114.4,19,Teen 18-19,125,Ecuador,-245,245,260,260,,140,150,155,155,,220,-230,-240,220,635,1
 Oscar Melgar Rivero,M,,SBD,Wraps,114,,Masters 80+,125,Bolivia,,,,,,,,,,,,,,,,DQ
 Patricio Suarez,M,1974-12-04,SBD,Wraps,102.8,39,Submasters 35-39,110,Ecuador,280,-300,300,300,,155,165,170.5,170.5,,220,230,240,240,710.5,1
@@ -42,7 +42,7 @@ Edward Solorzano,M,,SBD,Wraps,114,,Masters 80+,125,Ecuador,,,,,,,,,,,,,,,,DQ
 Javier Villaverde,M,1969-03-11,SBD,Wraps,99.5,45,Masters 45-49,100,Argentina,245,255,262.5,262.5,,150,160,167.5,167.5,,252.5,267.5,-280,267.5,697.5,1
 Fernando Rubio,M,,SBD,Wraps,114,,Masters 80+,125,Peru,,,,,,,,,,,,,,,,DQ
 Pablo Perfetti,M,1980-02-28,SBD,Wraps,116,34,Open,125,Argentina,250,265,280,280,,132.5,142.5,-147.5,142.5,,260,280,290,290,712.5,1
-Javier Henrich Melgar,M,1981-01-21,SBD,Wraps,119.3,33,Open,125,Bolivia,280,-300,,280,,155,165,172.5,172.5,,240,-252.5,-252.5,240,692.5,2
+Javier Melgar Henrich,M,1981-01-21,SBD,Wraps,119.3,33,Open,125,Bolivia,280,-300,,280,,155,165,172.5,172.5,,240,-252.5,-252.5,240,692.5,2
 Randy Paredes,M,1997-02-27,SBD,Wraps,130.3,17,Teen 16-17,140,Peru,250,-275,-275,250,,130,140,-155,140,,270,-290,-290,270,660,1
 Ramiro Chavez,M,1997-12-24,SBD,Wraps,98.5,16,Teen 16-17,100,Argentina,160,180,-195,180,,105,-115,120,120,,220,-240,-240,220,520,1
 Chauana Migliavaca,M,1989-05-14,B,Raw,75,25,Open,75,Brazil,,,,,,50,60,-75,60,,,,,,60,1
@@ -65,9 +65,9 @@ Leandro Fainburg,M,1987-06-03,B,Raw,78.2,27,Open,82.5,Argentina,,,,,,-180,-180,-
 David Veloz,M,1986-03-01,B,Raw,65,28,Open,67.5,Ecuador,,,,,,110,115,120,120,,,,,,120,1
 Emiliano Barrionuevo,M,1991-12-24,B,Raw,91.8,22,Juniors 20-23,100,Argentina,,,,,,170,175,-185,175,,,,,,175,1
 Jofre Suarez,M,1984-10-09,B,Raw,98,29,Open,100,Ecuador,,,,,,160,170,-187.5,170,,,,,,170,1
-Jose Garcia,M,1980-01-07,B,Raw,106,34,Open,110,Argentina,,,,,,160,180,-190,180,,,,,,180,1
+Jose Garcia #21,M,1980-01-07,B,Raw,106,34,Open,110,Argentina,,,,,,160,180,-190,180,,,,,,180,1
 Patricio Suarez,M,1974-12-04,B,Raw,103.8,39,Submasters 35-39,110,Argentina,,,,,,150,160,165,165,,,,,,165,1
-Adrian Lopez,M,1986-08-07,B,Raw,117.1,28,Open,125,Ecuador,,,,,,160,170,-180,170,,,,,,170,1
+Adrian Lopez #3,M,1986-08-07,B,Raw,117.1,28,Open,125,Ecuador,,,,,,160,170,-180,170,,,,,,170,1
 Diego Hernandez,M,1981-10-15,B,Raw,128,32,Open,140,Argentina,,,,,,160,175,-185,175,,,,,,175,1
 Marcelo Carrizo,M,1978-06-05,B,Raw,81.9,36,Submasters 35-39,82.5,Argentina,,,,,,130,-140,-140,130,,,,,,130,1
 Sergio Tomasoni,M,1969-12-27,B,Raw,83.6,44,Masters 40-44,90,Argentina,,,,,,150,160,-170,160,,,,,,160,1

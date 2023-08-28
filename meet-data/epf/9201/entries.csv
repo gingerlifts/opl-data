@@ -1,12 +1,12 @@
 Place,Name,BirthYear,WeightClassKg,BodyweightKg,Country,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Sex,Division,Event,Equipment
-1,Sergey Zhuravlev,1960,52,50.8,Russia,200,210,230,230,100,107.5,110,110,200,215,227.5,227.5,567.5,M,Open,SBD,Single-ply
-2,John Clay,1964,52,51.9,UK,190,-197.5,197.5,197.5,105,110,112.5,112.5,200,210,215,215,525,M,Open,SBD,Single-ply
+1,Sergey Zhuravlev #1,1960,52,50.8,Russia,200,210,230,230,100,107.5,110,110,200,215,227.5,227.5,567.5,M,Open,SBD,Single-ply
+2,John Clay #3,1964,52,51.9,UK,190,-197.5,197.5,197.5,105,110,112.5,112.5,200,210,215,215,525,M,Open,SBD,Single-ply
 3,Andrzej Stanaszek,1971,52,49,Poland,195,225,230,230,147.5,157.5,,157.5,120,130,-137.5,130,517.5,M,Open,SBD,Raw
 4,Laurent Bach,1968,52,51.2,France,157.5,-165,-165,157.5,92.5,95,-97.5,95,200,205,207.5,207.5,460,M,Open,SBD,Single-ply
 5,Štefan Koľšovský,1961,52,52,Czechia,-175,175,-182.5,175,112.5,117.5,-122.5,117.5,155,162.5,-170,162.5,455,M,Open,SBD,Single-ply
 1,Wim Elyn,1963,56,55.5,Belgium,195,-210,210,210,110,120,-125,120,215,227.5,-250,227.5,557.5,M,Open,SBD,Single-ply
 2,Magnus Carlsson,1967,56,55.8,Sweden,220,240,-250,240,150,157.5,160,160,122.5,130,135,135,535,M,Open,SBD,Single-ply
-3,Klemen Jaschinski,1963,56,55.1,Germany,185,190,-195,190,-125,125,132.5,132.5,200,-210,210,210,532.5,M,Open,SBD,Single-ply
+3,Klemens Jaschinski,1963,56,55.1,Germany,185,190,-195,190,-125,125,132.5,132.5,200,-210,210,210,532.5,M,Open,SBD,Single-ply
 4,Dušan Skirkanič,1961,56,55.6,Czechia,180,195,200,200,105,112.5,115,115,205,-217.5,-217.5,205,520,M,Open,SBD,Single-ply
 5,Vladimirs Morozovs,1968,56,55.7,Latvia,180,195,205,205,90,100,110,110,200,,-220,200,515,M,Open,SBD,Single-ply
 6,Ivalin Petrov,1965,56,55.7,Bulgaria,-190,190,-197.5,190,120,-127.5,127.5,127.5,-190,190,195,195,512.5,M,Open,SBD,Single-ply
@@ -50,7 +50,7 @@ DQ,Ari Virtanen,1965,75,74.7,Finland,-265,-270,-270,,,,,,,,,,,M,Open,SBD,Single-
 7,Leo Albin,1960,82.5,82.2,Ukraine,-275,282.5,-287.5,282.5,175,180,-185,180,280,-287.5,-287.5,280,742.5,M,Open,SBD,Single-ply
 8,Michael Pehle,1960,82.5,81.6,Germany,260,272.5,-277.5,272.5,165,180,187.5,187.5,260,272.5,277.5,277.5,737.5,M,Open,SBD,Single-ply
 9,Yannick Paoloni,1954,82.5,82.3,France,270,285,-290,285,145,150,-152.5,150,290,-307.5,-307.5,290,725,M,Open,SBD,Single-ply
-10,Gerrit v Hanswijk,1964,82.5,79.7,Belgium,270,280,,280,150,155,-160,155,270,280,-290,280,715,M,Open,SBD,Single-ply
+10,Gerrit van Hansewyck,1964,82.5,79.7,Belgium,270,280,,280,150,155,-160,155,270,280,-290,280,715,M,Open,SBD,Single-ply
 DQ,Ivan Ivanushin,1962,82.5,81.7,Latvia,260,-270,,260,165,170,175,175,-290,-290,,,,M,Open,SBD,Single-ply
 DQ,Ivan Voroniecky,1965,82.5,82,Latvia,275,-290,-290,275,-180,-180,-180,,,,,,,M,Open,SBD,Single-ply
 DQ,Hannu Malinen,1955,82.5,82.3,Finland,-270,-270,-270,,,,,,,,,,,M,Open,SBD,Single-ply
@@ -75,7 +75,7 @@ DQ,Rene Keller,1960,90,89.9,Switzerland,-250,-250,-250,,,,,,,,,,,M,Open,SBD,Sing
 2,Henny Hijman,1961,100,99.6,Netherlands,315,330,337.5,337.5,180,190,195,195,307.5,317.5,-322.5,317.5,850,M,Open,SBD,Single-ply
 3,Børge Øvrebø,1960,100,99.2,Norway,305,-325,-325,305,205,-215,-215,205,300,315,-322.5,315,825,M,Open,SBD,Single-ply
 4,Hugo de Grauwe,1954,100,99.6,Belgium,300,-325,325,325,190,195,-197.5,195,290,-305,-305,290,810,M,Open,SBD,Single-ply
-5,Sergey Matveev,1961,100,91.7,Russia,300,-310,310,310,175,-182.5,-187.5,175,300,-305,-305,300,785,M,Open,SBD,Single-ply
+5,Sergei Matveev,1961,100,91.7,Russia,300,-310,310,310,175,-182.5,-187.5,175,300,-305,-305,300,785,M,Open,SBD,Single-ply
 6,Andrew Rodney,1965,100,99.5,UK,302.5,-315,315,315,165,-170,-170,165,282.5,292.5,-307.5,292.5,772.5,M,Open,SBD,Single-ply
 7,Bogdan Pierlak,1971,100,96.5,Poland,245,255,265,265,165,172.5,-175,172.5,280,290,-300,290,727.5,M,Open,SBD,Single-ply
 8,Brian Jörgensen,1965,100,98.5,Denmark,-270,280,-300,280,170,-175,-175,170,260,270,277.5,277.5,727.5,M,Open,SBD,Single-ply
@@ -90,7 +90,7 @@ DQ,Alexa Gorokhovsky,1962,100,99.7,Russia,285,295,300,300,185,-190,-190,185,-330
 5,Piebe Faber,1962,110,109.8,Netherlands,300,317.5,322.5,322.5,220,230,235,235,300,307.5,-312.5,307.5,865,M,Open,SBD,Single-ply
 6,Jarkko Makkonen,1967,110,109.1,Finland,335,-345,345,345,200,207.5,-212.5,207.5,300,-310,-312.5,300,852.5,M,Open,SBD,Single-ply
 7,Edmund Ims,1956,110,108.8,Norway,305,320,327.5,327.5,170,-177.5,177.5,177.5,300,315,322.5,322.5,827.5,M,Open,SBD,Single-ply
-8,Hans Derrynck,1956,110,109.9,Belgium,300,330,-340,330,162.5,172.5,-175,172.5,280,297.5,307.5,307.5,810,M,Open,SBD,Single-ply
+8,Hans Derynck,1956,110,109.9,Belgium,300,330,-340,330,162.5,172.5,-175,172.5,280,297.5,307.5,307.5,810,M,Open,SBD,Single-ply
 9,Victor Kachusov,1960,110,102.6,Russia,270,280,-285,280,170,175,-177.5,175,300,315,-320,315,770,M,Open,SBD,Single-ply
 10,David Brooks,1952,110,108.8,UK,225,,,225,205,215,,215,200,,,200,640,M,Open,SBD,Single-ply
 1,Viktor Naleykin,1953,125,119.8,Ukraine,360,370,380,380,197.5,205,210,210,350,360,-370,360,950,M,Open,SBD,Single-ply
@@ -100,7 +100,7 @@ DQ,Alexa Gorokhovsky,1962,100,99.7,Russia,285,295,300,300,185,-190,-190,185,-330
 5,Timo Lehtinen,1952,125,122.9,Finland,-340,340,352.5,352.5,190,200,-202.5,200,322.5,-335,-335,322.5,875,M,Open,SBD,Single-ply
 6,Dirk Pessemier,1966,125,124.3,Belgium,330,340,350,350,172.5,-177.5,180,180,320,332.5,342.5,342.5,872.5,M,Open,SBD,Single-ply
 7,Eberhard Schwanke,1953,125,119.1,Germany,300,330,-342.5,330,200,225,230,230,280,300,310,310,870,M,Open,SBD,Single-ply
-8,Terry O'Neil,1957,125,117.1,UK,290,310,325,325,155,165,172.5,172.5,300,317.5,327.5,327.5,825,M,Open,SBD,Single-ply
+8,Terry O'Neill,1957,125,117.1,UK,290,310,325,325,155,165,172.5,172.5,300,317.5,327.5,327.5,825,M,Open,SBD,Single-ply
 9,Aðils Snæbjörn,1963,125,118.1,Iceland,325,345,-350,345,160,-167.5,-170,160,300,310,-317.5,310,815,M,Open,SBD,Single-ply
 10,Stefan Schlatter,1948,125,120.9,Switzerland,260,265,-272.5,265,-135,135,-140,135,290,-300,-300,290,690,M,Open,SBD,Single-ply
 1,Hans Zerhoch,1950,125+,141.9,Germany,,,,420,,,,215,,,,330,965,M,Open,SBD,Single-ply

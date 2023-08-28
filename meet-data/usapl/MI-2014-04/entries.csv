@@ -1,7 +1,7 @@
 Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,BirthYear
 DQ,M,Rob Cummins,B,MR-O,67.5,Raw,67.1,,,,,
 1,M,David Boutsomsy,B,MR-O,82.5,Raw,82.1,,177.5,,177.5,1981
-2,M,Andrew Martin,B,MR-O,82.5,Raw,79.7,,137.5,,137.5,1994
+2,M,Andrew Martin #9,B,MR-O,82.5,Raw,79.7,,137.5,,137.5,1994
 1,M,Kurt Christie,SBD,MR-O,110,Raw,103,212.5,145,257.5,615,1982
 1,M,Jamie Caprosso,SBD,MR-M1a,100,Raw,98.5,202.5,182.5,240,625,
 1,F,Morgan Eckerle,B,FR-T1,90+,Raw,109.3,,57.5,,57.5,2000
@@ -13,7 +13,7 @@ DQ,M,Rob Cummins,B,MR-O,67.5,Raw,67.1,,,,,
 1,M,Michael Tanner,SBD,M-Jr,100,Single-ply,96.3,157.5,107.5,167.5,432.5,1994
 1,M,Matt Collins #3,SBD,M-Jr,125+,Single-ply,129.3,205,120,215,540,1990
 2,M,Kevin Meyer,SBD,MR-Jr,67.5,Raw,66.8,145,120,202.5,467.5,
-1,M,Joey Burke,SBD,MR-Jr,75,Raw,74,180,115,217.5,512.5,1994
+1,M,Joey Burke #1,SBD,MR-Jr,75,Raw,74,180,115,217.5,512.5,1994
 1,M,Greg Herrera,SBD,MR-Jr,82.5,Raw,81.3,200,150,227.5,577.5,1964
 2,M,Mason Brown,SBD,MR-Jr,82.5,Raw,80.5,175,125,210,510,1994
 1,M,Nate Wagoner,SBD,MR-Jr,90,Raw,84.6,175,132.5,227.5,535,1993

@@ -17,7 +17,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 2,M,Chris Hughes #2,B,MR-Jr,110,Raw,107.4,,160,,160,1993
 3,M,Vahe Missirian,B,MR-Jr,110,Raw,106.2,,152.5,,152.5,1991
 1,M,Zach Neuschafer,B,MR-Jr,125+,Raw,126.6,,140,,140,
-2,M,Stephen King,B,MR-Jr,125+,Raw,146.8,,25,,25,1992
+2,M,Stephen King #2,B,MR-Jr,125+,Raw,146.8,,25,,25,1992
 1,M,Mark Mavilia,B,MR-O,90,Raw,87.4,,152.5,,152.5,1981
 2,M,Robert Landauer,B,MR-M1b,100,Raw,98,,140,,140,1968
 1,F,Kristen Lobo,B,FR-T3,52,Raw,49.8,,32.5,,32.5,1995
@@ -36,7 +36,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 3,M,Jordan Larson,D,MR-Jr,90,Raw,87.6,,,200,200,1994
 1,M,Vahe Missirian,D,MR-Jr,110,Raw,106.2,,,280,280,1991
 2,M,Chris Hughes #2,D,MR-Jr,110,Raw,107.4,,,272.5,272.5,1993
-1,M,Stephen King,D,MR-Jr,125+,Raw,146.8,,,297.5,297.5,1992
+1,M,Stephen King #2,D,MR-Jr,125+,Raw,146.8,,,297.5,297.5,1992
 2,M,Zach Neuschafer,D,MR-Jr,125+,Raw,126.6,,,217.5,217.5,
 1,M,Michael DiSalvatore,D,MR-O,90,Raw,83.2,,,162.5,162.5,1989
 1,F,Kristen Lobo,D,FR-T3,52,Raw,49.8,,,90,90,1995
@@ -70,7 +70,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 15,M,Gary Marion,SBD,MR-Jr,67.5,Raw,67.4,150,112.5,167.5,430,
 18,M,Nick Desantis,SBD,MR-Jr,67.5,Raw,66.4,157.5,85,185,427.5,
 1,M,Chris Casanova,SBD,MR-Jr,75,Raw,73.6,170,127.5,222.5,520,1992
-4,M,Kyle Coogan,SBD,MR-Jr,75,Raw,71.6,177.5,112.5,220,510,1994
+4,M,Kyle Coogan #2,SBD,MR-Jr,75,Raw,71.6,177.5,112.5,220,510,1994
 11,M,Jacob Halpern,SBD,MR-Jr,75,Raw,74.2,160,110,220,490,1994
 9,M,Matt Kirkham,SBD,MR-Jr,75,Raw,72.2,175,110,200,485,
 11,M,Erik Lachance,SBD,MR-Jr,75,Raw,73.4,160,110,207.5,477.5,1991
@@ -93,7 +93,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 3,M,Vahe Missirian,SBD,MR-Jr,110,Raw,106.2,232.5,152.5,280,665,1991
 5,M,Carl Hollant,SBD,MR-Jr,125,Raw,119.2,237.5,162.5,255,655,1992
 3,M,Sam Belinsky,SBD,MR-Jr,125,Raw,120.8,197.5,155,230,582.5,
-2,M,Stephen King,SBD,MR-Jr,125+,Raw,146.8,292.5,25,297.5,615,1992
+2,M,Stephen King #2,SBD,MR-Jr,125+,Raw,146.8,292.5,25,297.5,615,1992
 5,M,Zach Neuschafer,SBD,MR-Jr,125+,Raw,126.6,205,140,217.5,562.5,
 1,M,Eric Cordeiro,SBD,M-O,82.5,Single-ply,82.4,247.5,145,230,622.5,1975
 1,M,Nicholas Lee,SBD,M-O,100,Single-ply,98,260,207.5,247.5,715,1990
@@ -105,7 +105,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 3,M,Jared Carmichael,SBD,MR-O,100,Raw,98.2,205,122.5,237.5,565,1989
 4,M,Brandon Peoples,SBD,MR-O,100,Raw,93.8,182.5,140,227.5,550,1986
 3,M,Matt Sullivan,SBD,MR-O,100,Raw,90.8,145,105,215,465,
-1,M,Chris Collins,SBD,MR-O,110,Raw,102.8,240,175,250,665,1982
+1,M,Chris Collins #3,SBD,MR-O,110,Raw,102.8,240,175,250,665,1982
 1,M,Alexander Sokolov,SBD,MR-O,125,Raw,110.6,207.5,155,207.5,570,1988
 1,M,Edward Reynolds,SBD,MR-O,125,Raw,124.2,185,145,230,560,1980
 1,M,Edju Gasinowski,SBD,M-M1a,82.5,Single-ply,81.6,242.5,150,235,627.5,1972

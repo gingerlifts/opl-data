@@ -23,8 +23,8 @@ WeightClassKg,Name,Sex,Country,Age,Division,BodyweightKg,Best3SquatKg,Best3Bench
 55.5,Anna Wyss,F,Switzerland,37,F-O,55.5,100,65,112.5,277.5,,,,SBD,Raw,2
 55.5,Ina Cerba,F,Moldova,18,F-T3,54.5,80,55,117.5,252.5,,57.5,,SBD,Raw,1
 55.5,Ina Cerba,F,Moldova,18,F-O,54.5,80,55,117.5,252.5,,57.5,,SBD,Raw,3
-58.5,Linh Nguyen,F,Ireland,31,F-SR,57.8,117.5,57.5,125,300,,,,SBD,Raw,1
-58.5,Linh Nguyen,F,Ireland,31,F-O,57.8,117.5,57.5,125,300,,,,SBD,Raw,1
+58.5,Linh Nguyen #1,F,Ireland,31,F-SR,57.8,117.5,57.5,125,300,,,,SBD,Raw,1
+58.5,Linh Nguyen #1,F,Ireland,31,F-O,57.8,117.5,57.5,125,300,,,,SBD,Raw,1
 63,Arzu Medinova,F,Ukraine,21,F-JR,62.4,80,45,115,240,,,,SBD,Raw,1
 63,Arzu Medinova,F,Ukraine,21,F-O,62.4,80,45,115,240,,,,SBD,Raw,1
 70,Oksana Dubovytska,F,Ukraine,30,F-SR,68.8,115,82.5,167.5,365,,,,SBD,Raw,1
@@ -103,8 +103,8 @@ WeightClassKg,Name,Sex,Country,Age,Division,BodyweightKg,Best3SquatKg,Best3Bench
 67.5,Ion Gaidarji,M,Moldova,17,M-O,67.3,127.5,80,145,352.5,,,,SBD,Raw,13
 67.5,Shane McCarty,M,Ireland,15,M-T1,66.7,130,60,135,325,,,,SBD,Raw,1
 67.5,Shane McCarty,M,Ireland,15,M-O,66.7,130,60,135,325,,,,SBD,Raw,14
-67.5,Andrei Curus,M,Moldova,23,M-JR,67.3,173,110,207.5,,,,,SBD,Raw,DQ
-67.5,Andrei Curus,M,Moldova,23,M-O,67.3,173,110,207.5,,,,,SBD,Raw,DQ
+67.5,Andrei Curus,M,Moldova,23,M-JR,67.3,173,110,,,,,,SBD,Raw,DD
+67.5,Andrei Curus,M,Moldova,23,M-O,67.3,173,110,,,,,,SBD,Raw,DD
 75,Tirth Ram,M,Belgium,41,M-M1,72.8,175,155,243,572.5,,,,SBD,Raw,1
 75,Tirth Ram,M,Belgium,41,M-O,72.8,175,155,243,572.5,,,,SBD,Raw,1
 75,Charles Degiorgo,M,Malaysia,35,M-SR,74.8,200,115,255,570,,,,SBD,Raw,1
@@ -119,8 +119,8 @@ WeightClassKg,Name,Sex,Country,Age,Division,BodyweightKg,Best3SquatKg,Best3Bench
 75,Leonid Balaban,M,Moldova,22,M-O,71.4,182.5,110,195,487.5,,,,SBD,Raw,7
 75,Riccardo Brancato,M,Switzerland,54,M-M3,74.3,160,117.5,210,487.5,,,,SBD,Raw,1
 75,Riccardo Brancato,M,Switzerland,54,M-O,74.3,160,117.5,210,487.5,,,,SBD,Raw,8
-75,Vasile Talpa,M,Moldova,21,M-JR,71.9,160,115,200,475,,,,SBD,Raw,2
-75,Vasile Talpa,M,Moldova,21,M-O,71.9,160,115,200,475,,,,SBD,Raw,9
+75,Vasile Talpă,M,Moldova,21,M-JR,71.9,160,115,200,475,,,,SBD,Raw,2
+75,Vasile Talpă,M,Moldova,21,M-O,71.9,160,115,200,475,,,,SBD,Raw,9
 75,Daren Fehilly,M,Ireland,17,M-T2,72.7,170,90,205,465,,,,SBD,Raw,1
 75,Daren Fehilly,M,Ireland,17,M-O,72.7,170,90,205,465,,,,SBD,Raw,10
 75,Oleksandr Buzun,M,Ukraine,35,M-SR,72.9,140,125,200,465,,,,SBD,Raw,4
@@ -133,8 +133,8 @@ WeightClassKg,Name,Sex,Country,Age,Division,BodyweightKg,Best3SquatKg,Best3Bench
 75,Maksym Yakushenko,M,Ukraine,14,M-O,72.2,92.5,90,145,327.5,,,,SBD,Raw,16
 82.5,Vitalii Ursu,M,Moldova,32,M-SR,82.1,225,165,250,640,,,,SBD,Raw,1
 82.5,Vitalii Ursu,M,Moldova,32,M-O,82.1,225,165,250,640,,,,SBD,Raw,1
-82.5,Andrei Gutu,M,Moldova,34,M-SR,82.3,230,142.5,240,612.5,,,,SBD,Raw,2
-82.5,Andrei Gutu,M,Moldova,34,M-O,82.3,230,142.5,240,612.5,,,,SBD,Raw,2
+82.5,Andrei Guţu,M,Moldova,34,M-SR,82.3,230,142.5,240,612.5,,,,SBD,Raw,2
+82.5,Andrei Guţu,M,Moldova,34,M-O,82.3,230,142.5,240,612.5,,,,SBD,Raw,2
 82.5,Ghenadii Stog,M,Moldova,27,M-SR,80.7,212.5,135,235,582.5,,,,SBD,Raw,3
 82.5,Ghenadii Stog,M,Moldova,27,M-O,80.7,212.5,135,235,582.5,,,,SBD,Raw,3
 82.5,Rostyslav Polonskyy,M,Ukraine,36,M-SR,81.2,182.5,137.5,250,570,,,,SBD,Raw,4

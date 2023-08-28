@@ -9,7 +9,7 @@ Boys,59.87,4,Austin Wooldridge,Mansfield Legacy,55.88,124.74,97.52,133.81,356.07
 Boys,55.79,5,Nate Tarpley,Fort Worth Trimble Tech,53.71,133.81,63.5,133.81,331.12,Single-ply,SBD,M
 Boys,55.79,6,Devante Hill,Fort Worth Arlington Heights,52.34,120.2,61.23,133.81,315.25,Single-ply,SBD,M
 Boys,59.87,7,Zach Rose,Cedar Hill,55.97,111.13,56.7,120.2,288.03,Single-ply,SBD,M
-Boys,55.79,8,Jose Rodriguez,Lake Worth,53.98,79.38,65.77,120.2,265.35,Single-ply,SBD,M
+Boys,55.79,8,Jose Rodriguez #12,Lake Worth,53.98,79.38,65.77,120.2,265.35,Single-ply,SBD,M
 Boys,55.79,9,Aaron George,Everman,54.61,90.72,45.36,102.06,238.14,Single-ply,SBD,M
 Boys,59.87,1,Dustin Gray,Lake Worth,59.87,174.63,81.65,201.85,458.13,Single-ply,SBD,M
 Boys,59.87,2,Vincent Sellers,Midlothian,59.87,183.7,99.79,172.37,455.86,Single-ply,SBD,M
@@ -33,7 +33,7 @@ Boys,67.13,2,Kwasi Bradford,Everman,66.68,165.56,92.99,199.58,458.13,Single-ply,
 Boys,67.13,3,Joe Posigian,Kaufman,66.32,172.37,74.84,181.44,428.64,Single-ply,SBD,M
 Boys,67.13,4,Joel Bennett,Lake Worth,64.86,140.61,90.72,181.44,412.77,Single-ply,SBD,M
 Boys,67.13,5,Kelton Specks,Cedar Hill,63.59,158.76,83.91,156.49,399.16,Single-ply,SBD,M
-Boys,67.13,6,Colin Robinson,Kaufman,65.5,161.03,77.11,154.22,392.36,Single-ply,SBD,M
+Boys,67.13,6,Colin Robinson #2,Kaufman,65.5,161.03,77.11,154.22,392.36,Single-ply,SBD,M
 Boys,67.13,7,Carlton Vance,Keller Timber Creek,65.68,151.95,81.65,145.15,378.75,Single-ply,SBD,M
 Boys,67.13,8,Brendon Rios,Mansfield Legacy,63.28,154.22,83.91,136.08,374.21,Single-ply,SBD,M
 Boys,67.13,9,Kevin Harris,Fort Worth Western Hills,64.32,147.42,70.31,151.95,369.68,Single-ply,SBD,M
@@ -59,7 +59,7 @@ Boys,74.84,13,Matt Neiman,Mansfield Legacy,71.12,151.95,97.52,142.88,392.36,Sing
 Boys,74.84,14,Michael Eusepi,Venus,68.72,154.22,79.38,151.95,385.55,Single-ply,SBD,M
 Boys,74.84,15,Kody Kittrell,Venus,73.66,122.47,90.72,156.49,369.68,Single-ply,SBD,M
 Boys,74.84,16,Clark Bohrer,Mansfield Legacy,69.63,133.81,79.38,142.88,356.07,Single-ply,SBD,M
-Boys,74.84,17,Jeremy Green,Granbury,74.16,124.74,90.72,136.08,351.53,Single-ply,SBD,M
+Boys,74.84,17,Jeremy Green #2,Granbury,74.16,124.74,90.72,136.08,351.53,Single-ply,SBD,M
 Boys,74.84,18,Zak Worthington,Mansfield Legacy,70.85,129.27,90.72,127.01,347,Single-ply,SBD,M
 Boys,74.84,19,Alton Rackstraw,Everman,72.8,111.13,61.23,154.22,326.59,Single-ply,SBD,M
 Boys,74.84,20,Essix Lightfoot,Everman,71.67,142.88,61.23,113.4,317.51,Single-ply,SBD,M
@@ -69,7 +69,7 @@ Boys,74.84,23,Cameron Bundy,Kennedale,73.39,108.86,72.57,108.86,290.3,Single-ply
 Boys,74.84,24,John Barton,Fort Worth Western Hills,73.57,102.06,61.23,120.2,283.5,Single-ply,SBD,M
 Boys,82.1,1,Theo Hollars,Burleson,76.75,231.33,136.08,272.16,639.57,Single-ply,SBD,M
 Boys,82.1,2,Ruben Fletcher,Everman,77.75,224.53,108.86,204.12,537.51,Single-ply,SBD,M
-Boys,82.1,3,Jose Ramirez,Fort Worth North Side,81.65,172.37,122.47,226.8,521.63,Single-ply,SBD,M
+Boys,82.1,3,Jose Ramirez #3,Fort Worth North Side,81.65,172.37,122.47,226.8,521.63,Single-ply,SBD,M
 Boys,82.1,4,Michael Glenn,Midlothian,81.65,201.85,99.79,199.58,501.22,Single-ply,SBD,M
 Boys,82.1,5,Fred Griffin,Everman,75.21,183.7,108.86,188.24,480.81,Single-ply,SBD,M
 Boys,82.1,6,Diego Rosalas,Fort Worth Trimble Tech,76.88,188.24,106.59,185.97,480.81,Single-ply,SBD,M
@@ -87,7 +87,7 @@ Boys,82.1,17,Quarius Henderson,Midlothian,80.06,142.88,106.59,174.63,424.11,Sing
 Boys,82.1,18,Joe Winters,Fort Worth Arlington Heights,80.92,156.49,74.84,181.44,412.77,Single-ply,SBD,M
 Boys,82.1,19,Koltyn Davis,Kennedale,80.29,142.88,92.99,172.37,408.23,Single-ply,SBD,M
 Boys,82.1,20,Jontaven King,Fort Worth Western Hills,79.83,136.08,102.06,165.56,403.7,Single-ply,SBD,M
-Boys,82.1,21,Garrett Smith,Kaufman,81.28,145.15,102.06,154.22,401.43,Single-ply,SBD,M
+Boys,82.1,21,Garrett Smith #4,Kaufman,81.28,145.15,102.06,154.22,401.43,Single-ply,SBD,M
 Boys,82.1,22,Devynn Birdow,Everman,80.97,124.74,106.59,167.83,399.16,Single-ply,SBD,M
 Boys,82.1,23,Terrance Woodall,Mansfield Legacy,79.92,140.61,90.72,136.08,367.41,Single-ply,SBD,M
 Boys,82.1,24,Jesus Varela Goicoechea,Fort Worth North Side,76.29,115.67,90.72,142.88,349.27,Single-ply,SBD,M
@@ -163,9 +163,9 @@ Boys,124.74,9,Kenny Johnson,Fort Worth Western Hills,115.76,142.88,108.86,206.38
 Boys,124.74,10,Diego Mejia,Everman,120.29,172.37,97.52,174.63,444.52,Single-ply,SBD,M
 Boys,124.74,11,Anthony Zapata,Everman,117.84,158.76,79.38,124.74,362.87,Single-ply,SBD,M
 Boys,124.74,12,Hyland Mullins,Fort Worth Paschal,121.34,133.81,74.84,124.74,333.39,Single-ply,SBD,M
-Boys,124.74+,1,Dominique Smith,Everman,139.8,285.76,181.44,263.08,730.28,Single-ply,SBD,M
+Boys,124.74+,1,Dominique Smith #2,Everman,139.8,285.76,181.44,263.08,730.28,Single-ply,SBD,M
 Boys,124.74+,2,Xavier Johnson #1,Burleson,142.61,294.84,170.1,265.35,730.28,Single-ply,SBD,M
-Boys,124.74+,3,Jordan Jackson,Fort Worth Trimble Tech,131.18,238.14,145.15,217.72,601.01,Single-ply,SBD,M
+Boys,124.74+,3,Jordan Jackson #3,Fort Worth Trimble Tech,131.18,238.14,145.15,217.72,601.01,Single-ply,SBD,M
 Boys,124.74+,4,Bobby Lynch,Burleson,137.53,238.14,151.95,208.65,598.74,Single-ply,SBD,M
 Boys,124.74+,5,Carlos Pinida,Red Oak,130.41,240.4,129.27,204.12,573.79,Single-ply,SBD,M
 Boys,124.74+,6,Keith Swan,Fort Worth Western Hills,139.8,210.92,111.13,201.85,523.9,Single-ply,SBD,M

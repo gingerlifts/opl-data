@@ -21,7 +21,7 @@ Place,Name,BirthYear,WeightClassKg,BodyweightKg,Country,Best3SquatKg,Best3BenchK
 5,Linda Høiland,1979,60,59.8,Norway,145,65,150,360,F,Juniors,SBD,Single-ply
 1,Jul Chepushtanova,1980,67.5,66.7,Russia,215,125,197.5,537.5,F,Juniors,SBD,Single-ply
 2,Anastas Jakovleva,1983,67.5,63.7,Russia,210,115,200,525,F,Juniors,SBD,Single-ply
-3,Zhanna Ivanova,1984,67.5,63.9,Ukraine,207.5,110,200,517.5,F,Juniors,SBD,Single-ply
+3,Zhanna Ivanova #1,1984,67.5,63.9,Ukraine,207.5,110,200,517.5,F,Juniors,SBD,Single-ply
 4,Juliana Toth,1984,67.5,64,Hungary,150,72.5,175,397.5,F,Juniors,SBD,Single-ply
 5,Romy Schreiber,1979,67.5,61.1,Germany,137.5,67.5,157.5,362.5,F,Juniors,SBD,Single-ply
 6,Dóra Vári-Szabó,1982,67.5,65,Hungary,140,70,140,350,F,Juniors,SBD,Single-ply
@@ -53,7 +53,7 @@ DQ,Nikoletta Nánási,1982,82.5,75.1,Hungary,,,,,F,Juniors,SBD,Single-ply
 1,Dmitry Alekseev,1983,56,56,Russia,230,120,215,565,M,Juniors,SBD,Single-ply
 2,Dmitrij Jakovlev,1982,56,55.5,Finland,170,115,190,475,M,Juniors,SBD,Single-ply
 3,Grzego Kepczynski,1981,56,55.6,Poland,175,100,180,455,M,Juniors,SBD,Single-ply
-4,Chad Mitchell,1982,56,55.6,UK,165,90,172.5,427.5,M,Juniors,SBD,Single-ply
+4,Chad Mitchell #1,1982,56,55.6,UK,165,90,172.5,427.5,M,Juniors,SBD,Single-ply
 DQ,Rafal Kurowski,1983,56,55.9,Poland,165,,,,M,Juniors,SBD,Single-ply
 1,Aleksandr Gromov,1981,60,59.9,Russia,250,167.5,210,627.5,M,Juniors,SBD,Single-ply
 2,Volodym Pogrebnyy,1982,60,59.4,Ukraine,242.5,160,205,607.5,M,Juniors,SBD,Single-ply
@@ -89,7 +89,7 @@ DQ,Daniel Hennel,1979,75,74.9,Sweden,235,,,,M,Juniors,SBD,Single-ply
 8,Richard Loricourt,1979,82.5,82,France,265,150,277.5,692.5,M,Juniors,SBD,Single-ply
 9,Mare Zak,1981,82.5,79.5,Czechia,270,160,260,690,M,Juniors,SBD,Single-ply
 10,Chris Lichtenauer,1979,82.5,80.1,Germany,270,150,247.5,667.5,M,Juniors,SBD,Single-ply
-11,Geoffrey Servotte,1980,82.5,81.2,Belgium,270,167.5,230,667.5,M,Juniors,SBD,Single-ply
+11,Geoffroy Servotte,1980,82.5,81.2,Belgium,270,167.5,230,667.5,M,Juniors,SBD,Single-ply
 12,Michael Jensen,1980,82.5,81.5,Denmark,245,150,245,640,M,Juniors,SBD,Single-ply
 13,Maik Hellwig,1981,82.5,81.6,Germany,220,122.5,265,607.5,M,Juniors,SBD,Single-ply
 14,Alessio Marazzini,1980,82.5,79.9,Italy,215,125,225,565,M,Juniors,SBD,Single-ply

@@ -1,6 +1,6 @@
 Name,BirthYear,WeightClassKg,BodyweightKg,Country,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Division,Place,Sex,Event,Equipment
 Beth Grater,,44,44,USA,102.5,52.5,115,270,F-O,1,F,SBD,Single-ply
-Cathy Solan,,44,44,USA,47.5,47.5,112.5,207.5,F-O,2,F,SBD,Single-ply
+Catherine Solan,,44,44,USA,47.5,47.5,112.5,207.5,F-O,2,F,SBD,Single-ply
 Paula Kovalchik,,48,47.8,USA,122.5,87.5,147.5,357.5,F-O,1,F,SBD,Single-ply
 Jenny Macy,,48,47.9,USA,102.5,57.5,127.5,287.5,F-O,2,F,SBD,Single-ply
 Kimberly Compton,,48,47.8,USA,95,50,107.5,252.5,F-O,3,F,SBD,Single-ply
@@ -15,7 +15,7 @@ Jill Tollefsen,,56,55.7,USA,137.5,85,145,367.5,F-O,2,F,SBD,Single-ply
 Lymne Smith,,56,55.5,USA,100,60,150,310,F-O,3,F,SBD,Single-ply
 Garriel Keeble,,56,55.7,USA,117.5,62.5,130,310,F-O,4,F,SBD,Single-ply
 Carrie Hicks,,56,55.8,USA,115,62.5,130,307.5,F-O,5,F,SBD,Single-ply
-Jennifer Rey-Fisher,,60,59.8,USA,142.5,85,165,392.5,F-O,1,F,SBD,Single-ply
+Jennifer Rey-Gaudreau,,60,59.8,USA,142.5,85,165,392.5,F-O,1,F,SBD,Single-ply
 Flozzell Thomas-Stewart,,60,59.7,USA,130,67.5,175,372.5,F-O,2,F,SBD,Single-ply
 Paula Houston,,67.5,67.2,USA,177.5,92.5,172.5,442.5,F-O,1,F,SBD,Single-ply
 Paula Birmingham,,67.5,67,USA,152.5,80,175,407.5,F-O,2,F,SBD,Single-ply
@@ -49,7 +49,7 @@ Miriam Bimbo,1979,52,51.4,USA,70,37.5,42.5,150,F-T3,3,F,SBD,Single-ply
 Jill Tollefsen,1976,60,59.9,USA,137.5,85,145,367.5,F-Jr,1,F,SBD,Single-ply
 Heather Doolittle,1975,60,59.7,USA,137.5,67.5,140,345,F-Jr,2,F,SBD,Single-ply
 Carrie Bone,1976,60,59.5,USA,107.5,52.5,127.5,287.5,F-Jr,3,F,SBD,Single-ply
-Rebecca Roberts,1976,67.5,66.6,USA,140,70,165,375,F-Jr,1,F,SBD,Single-ply
+Rebecca Roberts #3,1976,67.5,66.6,USA,140,70,165,375,F-Jr,1,F,SBD,Single-ply
 Christy Newman,1975,67.5,66.8,USA,120,82.5,142.5,345,F-Jr,2,F,SBD,Single-ply
 Katie Ford,1982,75,73.6,USA,142.5,70,145,357.5,F-T1,1,F,SBD,Single-ply
 Jennifer Jasper,1976,82.5,81.1,USA,142.5,77.5,155,375,F-Jr,1,F,SBD,Single-ply

@@ -1,7 +1,7 @@
 Equipment,Event,Division,Sex,BodyweightKg,WeightClassKg,Name,Best3BenchKg,Bench4Kg,Best3DeadliftKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,TotalKg,Country,State,Place
 Single-ply,B,Class 1,M,,75,Darren Baccay,,,,,,,,,USA,OR,DQ
 Single-ply,B,Class 1,M,,75,Justin Alford,142.5,,,,,,,142.5,USA,OR,1
-Single-ply,B,Class 1,M,,75,James Lin,115,,,,,,,115,USA,WA,2
+Single-ply,B,Class 1,M,,75,James Lin #2,115,,,,,,,115,USA,WA,2
 Single-ply,B,Class 1,M,,82.5,Alonzo Belen,,,,,,,,,USA,WA,DQ
 Single-ply,B,Class 1,M,,90,Shayne Unea,,,,,,,,,USA,OR,DQ
 Single-ply,B,Class 1,M,,90,Israel Fuentes,187.5,,,,,,,187.5,USA,WA,1
@@ -15,7 +15,7 @@ Multi-ply,B,Juniors 20-25,M,,75,Travis Belen,192.5,,,,,,,192.5,USA,WA,1
 Single-ply,B,Juniors 20-25,M,,75,Jacob Wolff,105,,,,,,,105,USA,WA,1
 Single-ply,B,Juniors 20-25,M,,90,Joshua Peterson,,,,,,,,,USA,MT,DQ
 Single-ply,B,Juniors 20-25,M,,100,Jake Garbush,195,,,,,,,195,USA,WA,1
-Single-ply,B,Law-Fire 48-55,M,,100,Brian Reynolds,228,,,,,,,228,USA,WA,1
+Single-ply,B,Law-Fire 48-55,M,,100,Brian Reynolds #2,228,,,,,,,228,USA,WA,1
 Single-ply,B,Law-Fire 48-55,M,,100,Jorge Guardado,125,,,,,,,125,USA,OK,2
 Single-ply,B,Law-Fire 56-63,M,,100,Jon Wolbers,165,,,,,,,165,Canada,,1
 Single-ply,B,Law-Fire Open,M,,100,Sean Boyle,227.5,,,,,,,227.5,USA,WA,1
@@ -23,7 +23,7 @@ Single-ply,B,Law-Fire Open,M,,140,Adrian Larsen,297.5,,,,,,,297.5,USA,OR,1
 Single-ply,B,Law-Fire Submasters,M,,100,Sean Boyle,227.5,,,,,,,227.5,USA,WA,1
 Single-ply,B,Law-Fire Submasters,M,,125,Ken Berry,240,,,,,,,240,USA,WA,1
 Single-ply,B,Masters 40-46,M,,75,Valentino Plummer,,,,,,,,,USA,OR,DQ
-Single-ply,B,Masters 40-46,M,,75,James Lin,115,,,,,,,115,USA,WA,1
+Single-ply,B,Masters 40-46,M,,75,James Lin #2,115,,,,,,,115,USA,WA,1
 Single-ply,B,Masters 40-46,M,,82.5,Gunny Hays,140,,,,,,,140,USA,WA,3
 Single-ply,B,Masters 40-46,M,,82.5,David Lenius,240,,,,,,,240,USA,ID,1
 Single-ply,B,Masters 40-46,M,,82.5,Jerry Riley,185,,,,,,,185,USA,OR,2
@@ -38,7 +38,7 @@ Single-ply,B,Masters 47-53,M,,75,Keith Cunningham,137.5,,,,,,,137.5,USA,WA,1
 Single-ply,B,Masters 47-53,M,,82.5,Alonzo Belen,,,,,,,,,USA,WA,DQ
 Single-ply,B,Masters 47-53,M,,90,Richard Joachim,170,,,,,,,170,USA,OR,1
 Single-ply,B,Masters 47-53,M,,100,James Noblit,230,240.5,,,,,,230,USA,OR,1
-Single-ply,B,Masters 47-53,M,,100,Brian Reynolds,228,,,,,,,228,USA,WA,2
+Single-ply,B,Masters 47-53,M,,100,Brian Reynolds #2,228,,,,,,,228,USA,WA,2
 Single-ply,B,Masters 47-53,M,,100,Bob Watts,185,,,,,,,185,USA,CA,3
 Single-ply,B,Masters 47-53,M,,110,Ed Macauley,,,,,,,,,USA,OR,DQ
 Single-ply,B,Masters 47-53,M,,110,Nelson Brewer,212.5,,,,,,,212.5,USA,WA,1
@@ -57,7 +57,7 @@ Single-ply,B,Masters 61-67,M,,90,Ken Schleif,87.5,,,,,,,87.5,USA,WA,3
 Single-ply,B,Masters 61-67,M,,117.5,Al Dahl,172.5,175,,,,,,172.5,Canada,,1
 Single-ply,B,Masters 61-67,M,,117.5,Mike Fryar,160,,,,,,,160,USA,WA,2
 Single-ply,B,Masters 61-67,M,,117.5,Robert Hadman,82.5,,,,,,,82.5,USA,WA,3
-Single-ply,B,Masters 68-74,M,,82.5,Ron White,105,,,,,,,105,USA,WA,1
+Single-ply,B,Masters 68-74,M,,82.5,Ron White #1,105,,,,,,,105,USA,WA,1
 Single-ply,B,Masters 85-89,M,,67.5,Arthur Whinston,35,,,,,,,35,USA,OR,1
 Single-ply,B,Masters 40-46,F,,56,Rebecca Moore,57.5,,,,,,,57.5,USA,WA,1
 Single-ply,B,Masters 40-46,F,,67.5,Teresa Jacobs,97.5,,,,,,,97.5,USA,WA,1
@@ -144,7 +144,7 @@ Single-ply,D,Masters 54-60,M,,90,Doug Woods,,,227.5,,,,,227.5,USA,WA,1
 Single-ply,D,Masters 61-67,M,,90,Godfrey Holzinger,,,207.5,,,,,207.5,USA,WA,1
 Single-ply,D,Masters 61-67,M,,90,Ken Schleif,,,145,,,,,145,USA,WA,2
 Single-ply,D,Masters 61-67,M,,117.5,Mike Fryar,,,227.5,,,,,227.5,USA,WA,1
-Single-ply,D,Masters 68-74,M,,82.5,Ron White,,,115,,,,,115,USA,WA,1
+Single-ply,D,Masters 68-74,M,,82.5,Ron White #1,,,115,,,,,115,USA,WA,1
 Single-ply,D,Masters 40-46,F,,67.5,Teresa Jacobs,,,177.5,,,,,177.5,USA,WA,1
 Single-ply,D,Masters 40-46,F,,75,Cindy Shockman,,,175,,,,,175,USA,OR,1
 Single-ply,D,Masters 40-46,F,,75,Shiela Southwood,,,107.5,,,,,107.5,USA,WA,2

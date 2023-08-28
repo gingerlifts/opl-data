@@ -1,7 +1,7 @@
 Name,Event,Equipment,State,Sex,BodyweightKg,WeightClassKg,Division,Best3SquatKg,Squat4Kg,Best3BenchKg,Bench4Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Place
 Erika Garner,SBD,Raw,KY,F,55.52,56,Open,82.5,,52.5,,135,,270,1
 Stacy Decker,SBD,Raw,KY,F,59.06,60,Submasters 35-39,57.5,,40,,100,,197.5,1
-Mark Evans,SBD,Raw,KY,M,62.69,67.5,Masters 60-64,130,,93,,190,,413,1
+Mark Evans #3,SBD,Raw,KY,M,62.69,67.5,Masters 60-64,130,,93,,190,,413,1
 Jeff Meade,SBD,Raw,KY,M,80.47,82.5,Juniors 20-24,177.5,,127.5,,222.5,,527.5,1
 Michael Rodriguez #12,SBD,Raw,KY,M,80.92,82.5,Open,135,,135,,195,,465,1
 James Logsdon,SBD,Raw,KY,M,81.33,82.5,Submasters 35-39,105,107.5,87.5,,153.5,157.5,346,1
@@ -12,7 +12,7 @@ Shawn Fante,SBD,Raw,KY,M,99.52,100,Open,200,,165,,250,,615,1
 Chesleigh Denison,SBD,Raw,KY,M,106.28,110,Open,212.5,,147.5,,272.5,,632.5,1
 Rajat Chauhan,SBD,Raw,KY,M,104.42,110,Open,207.5,,120,,227.5,,555,2
 Jason Emmick,SBD,Raw,KY,M,121.79,125,Masters 40-44,180,,180,,185,,545,1
-Aaron Crawford Sr,SBD,Raw,KY,M,142.88,140+,Open,227.5,,175,,245,255,647.5,1
+Aaron Crawford,SBD,Raw,KY,M,142.88,140+,Open,227.5,,175,,245,255,647.5,1
 Roy Harrison,B,Raw,KY,M,97.66,100,Masters 40-44,,,140,,,,140,1
 William Beavin,B,Raw,KY,M,79.92,82.5,Masters 60-64,,,132.5,,,,132.5,1
 James Hall,B,Raw,KY,M,99.79,100,Masters 45-49,,,200,,,,200,1

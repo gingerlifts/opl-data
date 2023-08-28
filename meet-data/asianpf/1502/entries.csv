@@ -13,7 +13,7 @@ Place,Name,BirthYear,BirthDate,Country,Division,BodyweightKg,WeightClassKg,Squat
 1,Aman Kapyshev,1987,,Kazakhstan,Open,82.45,83,250,260,265,265,160,165,167.5,167.5,250,260,265,265,697.5,SBD,Raw,M
 2,Andrey Prokopenko,1988,,Kazakhstan,Open,78.6,83,235,245,-252.5,245,157.5,-162.5,162.5,162.5,265,275,-290,275,682.5,SBD,Raw,M
 3,Eldar Saydaliev,1989,,Uzbekistan,Open,78.9,83,230,240,-250,240,120,130,-135,130,280,290,,290,660,SBD,Raw,M
-4,Yuriy Antonov,1991,,Uzbekistan,Open,82.1,83,200,210,217.5,217.5,155,162.5,165,165,210,220,,220,602.5,SBD,Raw,M
+4,Yuriy Antonov #1,1991,,Uzbekistan,Open,82.1,83,200,210,217.5,217.5,155,162.5,165,165,210,220,,220,602.5,SBD,Raw,M
 5,Pavel Korshunov,1989,,Uzbekistan,Open,82.1,83,-180,180,195,195,125,132.5,-137.5,132.5,240,260,265,265,592.5,SBD,Raw,M
 6,Simon Bergner,1987,,Australia,Open,82.6,83,190,200,-205,200,132.5,140,145,145,215,230,-237.5,230,575,SBD,Raw,M
 7,Faisal Alzaabi,1978,,UAE,Open,82.35,83,100,102.5,140,140,150,160,165,165,100,140,-142.5,140,445,SBD,Raw,M
@@ -74,7 +74,7 @@ DQ,Koichiro Hayashi,1994,,Japan,Juniors,65.25,66,-160,-160,-160,,105,112.5,-120,
 6,Temur Shodiev,1996,,Uzbekistan,Juniors,78.15,83,150,165,-175,165,120,125,127.5,127.5,190,200,210,210,502.5,SBD,Raw,M
 DQ,Mansoor Alsuwaidi,1995,,UAE,Juniors,81.3,83,150,170,-180,170,-100,-100,,,,,,,,SBD,Raw,M
 1,Rustam Khamdamov,1993,,Uzbekistan,Juniors,90.4,93,190,205,-210,205,150,162.5,170,170,225,235,242.5,242.5,617.5,SBD,Raw,M
-2,Timothy Davies,1992,,Australia,Juniors,92.55,93,200,212.5,,212.5,115,122.5,-127.5,122.5,235,250,-285,250,585,SBD,Raw,M
+2,Timothy Davies #2,1992,,Australia,Juniors,92.55,93,200,212.5,,212.5,115,122.5,-127.5,122.5,235,250,-285,250,585,SBD,Raw,M
 3,Sheldon Lobo,1993,,Australia,Juniors,92.9,93,182.5,190,197.5,197.5,122.5,127.5,130,130,222.5,235,242.5,242.5,570,SBD,Raw,M
 1,Evgeniy Kapralov,1993,,Uzbekistan,Juniors,103.3,105,220,235,242.5,242.5,150,170,,170,240,260,-300,260,672.5,SBD,Raw,M
 2,Farkhat Usmanov,1994,,Kazakhstan,Juniors,103.75,105,225,240,250,250,115,120,125,125,225,-242.5,-262.5,225,600,SBD,Raw,M
@@ -90,13 +90,13 @@ DQ,Mansoor Alsuwaidi,1995,,UAE,Juniors,81.3,83,150,170,-180,170,-100,-100,,,,,,,
 2,Konstantin Khardin,1968,,Uzbekistan,Masters 1,84,93,150,165,180,180,105,115,-120,115,200,220,-230,220,515,SBD,Raw,M
 1,Mirgofur Khaydarov,1974,,Uzbekistan,Masters 1,108.35,120,170,180,-190,180,150,155,160,160,180,190,200,200,540,SBD,Raw,M
 1,Sergey Deyneka,1975,,Kazakhstan,Masters 1,131.05,120+,240,250,,250,160,170,,170,-250,250,-270,250,670,SBD,Raw,M
-2,Omar Jumaa Al Dhareri,1971,,UAE,Masters 1,179.5,120+,130,,,130,155,-165,-165,155,100,,,100,385,SBD,Raw,M
+2,Omar Jumaa Aldhaheri,1971,,UAE,Masters 1,179.5,120+,130,,,130,155,-165,-165,155,100,,,100,385,SBD,Raw,M
 1,Serik Gusmanov,1956,,Kazakhstan,Masters 2,73,74,150,160,165,165,100,105,110,110,170,180,190,190,465,SBD,Raw,M
 2,Rustamkhan Turdibaev,1959,,Kazakhstan,Masters 2,73.7,74,130,140,147.5,147.5,90,97.5,102.5,102.5,180,190,192.5,192.5,442.5,SBD,Raw,M
 1,Vladimir Shkirman,1964,,Kazakhstan,Masters 2,81.15,83,100,,,100,100,,,100,100,,,100,300,SBD,Raw,M
 1,Eric Dumas,1964,,Australia,Masters 2,91.3,93,237.5,253,-260,253,137.5,145,-147.5,145,232.5,246,260,260,658,SBD,Raw,M
 1,Sergey Shuklin,1964,,Kazakhstan,Masters 2,102.2,105,160,180,200,200,110,120,130,130,200,220,240,240,570,SBD,Raw,M
-2,Alan Puleosi,1957,,Niue,Masters 2,93.95,105,90,115,-125,115,65,80,100,100,130,150,-160,150,365,SBD,Raw,M
+2,Alan Tano Puleosi,1957,,Niue,Masters 2,93.95,105,90,115,-125,115,65,80,100,100,130,150,-160,150,365,SBD,Raw,M
 1,Ulugbek Ermetov,1959,,Kazakhstan,Masters 2,106.6,120,140,155,170,170,140,150,-156,150,140,150,,150,470,SBD,Raw,M
 1,Hassan Erfanijazi,1958,,Iran,Masters 2,120.7,120+,200,220,230,230,140,150,155,155,200,220,230,230,615,SBD,Raw,M
 1,Akbar Rashedipoor,1955,,Iran,Masters 3,57.6,59,120,127.5,-130,127.5,62.5,67.5,-70,67.5,132.5,140,152.5,152.5,347.5,SBD,Raw,M
@@ -175,7 +175,7 @@ DQ,Mitsunori Matsunuma,1971,,Japan,Masters 1,90.55,93,,,,,-157.5,-157.5,-157.5,,
 1,Yuriy Zakharov,1972,,Kazakhstan,Masters 1,119.15,120,,,,,180,185,-187.5,185,,,,,185,B,Raw,M
 2,Andrey Altaybaev,1972,,Kazakhstan,Masters 1,112.5,120,,,,,170,-177.5,-177.5,170,,,,,170,B,Raw,M
 3,Hiroshi Saiko,1972,,Japan,Masters 1,109.8,120,,,,,160,-165,-170,160,,,,,160,B,Raw,M
-1,Omar Jumaa Al Dhareri,1971,,UAE,Masters 1,185,120+,,,,,-170,170,-172.5,170,,,,,170,B,Raw,M
+1,Omar Jumaa Aldhaheri,1971,,UAE,Masters 1,185,120+,,,,,-170,170,-172.5,170,,,,,170,B,Raw,M
 1,Serik Gusmanov,1956,,Kazakhstan,Masters 2,72.88,74,,,,,105,-110,110,110,,,,,110,B,Raw,M
 1,Mohammad Bahaeddin Azizibaneh,1958,,Iran,Masters 2,80.5,83,,,,,120,135,142.5,142.5,,,,,142.5,B,Raw,M
 2,Serikkazi Azilkhanov,1963,,Kazakhstan,Masters 2,80.7,83,,,,,105,112.5,117.5,117.5,,,,,117.5,B,Raw,M
@@ -212,7 +212,7 @@ DQ,Mitsunori Matsunuma,1971,,Japan,Masters 1,90.55,93,,,,,-157.5,-157.5,-157.5,,
 1,Mahriban Zhumaniyazova,1988,,Turkmenistan,Open,75.05,84,120,130,-140,130,90,95,-100,95,120,130,135,135,360,SBD,Raw,F
 2,Olesya Gureeva,1980,,Uzbekistan,Open,76.55,84,-120,120,-132.5,120,65,70,-72.5,70,120,130,137.5,137.5,327.5,SBD,Raw,F
 DQ,Zoya Kuznetsova,1989,,Kazakhstan,Open,81.7,84,-105,-112.5,-112.5,,62.5,67.5,-72.5,67.5,110,122.5,137.5,137.5,,SBD,Raw,F
-1,Kseniya Okatenko,1994,,Kazakhstan,Open,103,84+,150,160,170,170,100,107.5,-110,107.5,140,155,-172.5,155,432.5,SBD,Raw,F
+1,Xeniya Okatenko,1994,,Kazakhstan,Open,103,84+,150,160,170,170,100,107.5,-110,107.5,140,155,-172.5,155,432.5,SBD,Raw,F
 2,Olga Maksimova,1980,,Uzbekistan,Open,105.9,84+,-115,115,-120,115,80,90,-95,90,-115,120,-125,120,325,SBD,Raw,F
 1,Mariya Bovkun,2001,,Kazakhstan,Sub-Juniors,42.65,43,55,62.5,-67.5,62.5,35,40,42.5,42.5,70,80,90,90,195,SBD,Raw,F
 1,Vlada Stazayeva,1998,,Kazakhstan,Sub-Juniors,46.9,47,70,80,-85,80,45,50,-55,50,80,87.5,,87.5,217.5,SBD,Raw,F
@@ -256,7 +256,7 @@ DQ,Zoya Kuznetsova,1989,,Kazakhstan,Open,81.7,84,-105,-112.5,-112.5,,62.5,67.5,-
 1,Mahriban Zhumaniyazova,1988,,Turkmenistan,Open,75.33,84,,,,,90,95,-107.5,95,,,,,95,B,Raw,F
 2,Olesya Gureeva,1980,,Uzbekistan,Open,76.93,84,,,,,65,72.5,75,75,,,,,75,B,Raw,F
 3,Zoya Kuznetsova,1989,,Kazakhstan,Open,81.78,84,,,,,60,65,-75,65,,,,,65,B,Raw,F
-1,Kseniya Okatenko,1994,,Kazakhstan,Open,104.3,84+,,,,,90,100,107.5,107.5,,,,,107.5,B,Raw,F
+1,Xeniya Okatenko,1994,,Kazakhstan,Open,104.3,84+,,,,,90,100,107.5,107.5,,,,,107.5,B,Raw,F
 2,Olga Maksimova,1980,,Uzbekistan,Open,107.27,84+,,,,,-80,80,-90,80,,,,,80,B,Raw,F
 1,Mariya Bovkun,2001,,Kazakhstan,Sub-Juniors,42.71,43,,,,,35,40,-45,40,,,,,40,B,Raw,F
 1,Vlada Stazayeva,1998,,Kazakhstan,Sub-Juniors,46.49,47,,,,,45,50,,50,,,,,50,B,Raw,F

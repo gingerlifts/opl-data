@@ -1,4 +1,6 @@
 # Configuration for UkrainePF
+[options]
+    require_manual_disambiguation = true
 
 [divisions]
     open = {name ="Open",min=0,max=999}
@@ -25,8 +27,13 @@
     sex = "M"
 
 [weightclasses.default_F]
+    classes = ["47","52","57","63","69","76","84","84+"]
+    date_range=["2021-01-01","9999-01-01"]
+    sex = "F"
+
+[weightclasses.year2020_F]
     classes = ["47","52","57","63","72","84","84+"]
-    date_range=["2011-01-01","9999-01-01"]
+    date_range=["2011-01-01","2020-12-31"]
     sex = "F"
 
 [weightclasses.junior_M]
@@ -36,23 +43,35 @@
     divisions = ["Juniors"]
 
 [weightclasses.subjunior_M]
-    classes = ["43","46","49","53","59","66","74","83","93","105","120","120+"]
+    classes = ["53","59","66","74","83","93","105","120","120+"]
     date_range=["2011-01-01","9999-01-01"]
     sex = "M"
     divisions = ["Sub-Juniors","Teen 12-14","Teen 15-16","Teen 17-18"]
 
-
 [weightclasses.junior_F]
+    classes = ["43","47","52","57","63","69","76","84","84+"]
+    date_range=["2021-01-01","9999-01-01"]
+    sex = "F"
+    divisions = ["Juniors"]
+
+[weightclasses.year2020_junior_F]
     classes = ["43","47","52","57","63","72","84","84+"]
-    date_range=["2011-01-01","9999-01-01"]
+    date_range=["2011-01-01","2020-12-31"]
     sex = "F"
     divisions = ["Juniors"]
 
 [weightclasses.subjunior_F]
-    classes = ["40","43","47","52","57","63","72","84","84+"]
-    date_range=["2011-01-01","9999-01-01"]
+    classes = ["43","47","52","57","63","69","76","84","84+"]
+    date_range=["2021-01-01","9999-01-01"]
     sex = "F"
     divisions = ["Sub-Juniors","Teen 12-14","Teen 15-16","Teen 17-18"]
+
+[weightclasses.year2020_subjunior_F]
+    classes = ["43","47","52","57","63","72","84","84+"]
+    date_range=["2011-01-01","2020-12-31"]
+    sex = "F"
+    divisions = ["Sub-Juniors","Teen 12-14","Teen 15-16","Teen 17-18"]
+
 
 [weightclasses.old_M]
     classes = ["52","56","60","67.5","75","82.5","90","100","110","125","125+"]
@@ -72,7 +91,7 @@
     divisions = ["Disabled"]
 
 [weightclasses.oldsubjunior_M]
-    classes = ["44","48","52","56","60","67.5","75","82.5","90","100","100+"]
+    classes = ["52","56","60","67.5","75","82.5","90","100","100+"]
     date_range = ["0000-01-01","2003-12-31"]
     sex = "M"
     divisions = ["Sub-Juniors"]
@@ -89,49 +108,65 @@
     divisions = ["Sub-Juniors"]
 
 [exemptions]
-    9802 = ["ExemptWeightClassConsistency"]
-    9405 = ["ExemptWeightClassConsistency"]
-    9606 = ["ExemptWeightClassConsistency"]
-    9702 = ["ExemptWeightClassConsistency"]
-    9101 = ["ExemptWeightClassConsistency"]
-    9507 = ["ExemptWeightClassConsistency"]
-    9305 = ["ExemptWeightClassConsistency"]
-    9205 = ["ExemptWeightClassConsistency"]
-    0204 = ["ExemptWeightClassConsistency"]
-    0303 = ["ExemptWeightClassConsistency"]
-    1001 = ["ExemptWeightClassConsistency"]
-    1102 = ["ExemptWeightClassConsistency"]
-    1207 = ["ExemptWeightClassConsistency"]
-    1404 = ["ExemptWeightClassConsistency"]
+    9101 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    9205 = ["ExemptWeightClassConsistency"] # 44kg & 48kg men
+    9305 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    9405 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    9507 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    9606 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    9702 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    9802 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    9902 = ["ExemptWeightClassConsistency"] # 44kg & 48kg men
+    9905 = ["ExemptWeightClassConsistency"] # No 40kg
+    0003 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    0103 = ["ExemptWeightClassConsistency"] # 44kg & 48kg men
+    0204 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    0303 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    0608 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    0901 = ["ExemptWeightClassConsistency"] # No 52kg
+    1001 = ["ExemptWeightClassConsistency"] # Extra SJ Classes, 100+ & 82.5+
+    1010 = ["ExemptWeightClassConsistency"] # 44kg & 48kg open men
+    1012 = ["ExemptWeightClassConsistency"] # Didn't use 52kg class
+    1013 = ["ExemptWeightClassConsistency"] # 44kg & 48kg open men
+    1102 = ["ExemptWeightClassConsistency"] # 47 & 49kg men
+    1110 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1113 = ["ExemptWeightClassConsistency"] # 43 & 49kg men
+    1115 = ["ExemptWeightClassConsistency"] # 46kg open men
+    1203 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1204 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1208 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1216 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1217 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1218 = ["ExemptWeightClassConsistency"] # 46 & 49kg men
+    1219 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1220 = ["ExemptWeightClassConsistency"] # 46 & 49kg men
+    1224 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1225 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1226 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1301 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1305 = ["ExemptWeightClassConsistency"] # 46 & 49kg men
+    1316 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1317 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1318 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1319 = ["ExemptWeightClassConsistency"] # 49kg men
+    1320 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1321 = ["ExemptWeightClassConsistency"] # 46 & 49kg men
+    1323 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1327 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1404 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
     1405 = ["ExemptWeightClassConsistency","ExemptDivision"]
     1410 = ["ExemptWeightClassConsistency","ExemptDivision"]
-    1511 = ["ExemptWeightClassConsistency"]
-    1504 = ["ExemptWeightClassConsistency"]
-    1507 = ["ExemptWeightClassConsistency"]
-    1505 = ["ExemptWeightClassConsistency"]
-    1506 = ["ExemptWeightClassConsistency"]
-    1203 = ["ExemptWeightClassConsistency"]
-    1204 = ["ExemptWeightClassConsistency"]
-    1208 = ["ExemptWeightClassConsistency"]
-    1301 = ["ExemptWeightClassConsistency"]
-    1601 = ["ExemptWeightClassConsistency"]
-    0901 = ["ExemptWeightClassConsistency"]
-    0701 = ["ExemptWeightClassConsistency"]
-    1305 = ["ExemptWeightClassConsistency"]
-    1603 = ["ExemptWeightClassConsistency"]
-    1604 = ["ExemptWeightClassConsistency"]
-    1010 = ["ExemptWeightClassConsistency"]
-    1012 = ["ExemptWeightClassConsistency"] # Didn't use 52kg class.
-    1003 = ["ExemptWeightClassConsistency"]
-    1210 = ["ExemptWeightClassConsistency"]
-    1411 = ["ExemptWeightClassConsistency"]
-    1002 = ["ExemptWeightClassConsistency"]
-    9905 = ["ExemptWeightClassConsistency"]
-    1801 = ["ExemptWeightClassConsistency"]
-    1501 = ["ExemptWeightClassConsistency"]
-    1406 = ["ExemptWeightClassConsistency"]
-    1110 = ["ExemptWeightClassConsistency"]
-    1111 = ["ExemptWeightClassConsistency"]
-    0608 = ["ExemptWeightClassConsistency"]
-    1902 = ["ExemptWeightClassConsistency"]
-    1606 = ["ExemptWeightClassConsistency"]
+    1411 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1412 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1413 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1414 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1415 = ["ExemptWeightClassConsistency"] # 46 & 49kg men
+    1416 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1418 = ["ExemptWeightClassConsistency"] # Extra SJ Classes, missing womens classes
+    1420 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1504 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1517 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1604 = ["ExemptWeightClassConsistency"] # Extra SJ Classes
+    1606 = ["ExemptWeightClassConsistency"] # 46 & 49kg men
+    1609 = ["ExemptWeightClassConsistency"] # 43kg men
+    1704 = ["ExemptWeightClassConsistency"] # Extra SJ Classes

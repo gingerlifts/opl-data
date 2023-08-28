@@ -1,14 +1,14 @@
 Name,WeightClassKg,Division,Sex,Squat2Kg,Squat3Kg,Best3SquatKg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Loc Tran,52,Open,M,,,157.5,,80,,,,182.5,420,SBD,Single-ply,1
 Kathy Tascona,52,Open,F,,,97.5,,40,,,,107.5,245,SBD,Single-ply,2
-S. Fimreite,52,Open,M,,,82.5,,45,,,,110,237.5,SBD,Single-ply,3
+Sheryl Fimreite,52,Open,F,,,82.5,,45,,,,110,237.5,SBD,Single-ply,3
 Pat Weber,52,Open,F,,,67.5,,42.5,,,,110,220,SBD,Single-ply,4
 Jane Nelson,52,Open,F,,,65,,40,,,,92.5,197.5,SBD,Single-ply,5
 Jill Olson,56,Open,F,,,142.5,,72.5,,,,125,340,SBD,Single-ply,1
 S. Dilley,56,Open,M,,,70,,37.5,,,,117.5,225,SBD,Single-ply,2
 C. Young,56,Open,M,,,62.5,,55,,,,105,222.5,SBD,Single-ply,3
 S. Paull,60,Open,M,,,175,,117.5,,,,175,467.5,SBD,Single-ply,1
-S. Bolter,60,Open,M,,,135,,92.5,,,,182.5,410,SBD,Single-ply,2
+Steve Bolter,60,Open,M,,,135,,92.5,,,,182.5,410,SBD,Single-ply,2
 F. Giancola,60,Open,M,,,165,,77.5,,,,165,407.5,SBD,Single-ply,3
 J. Strommen,60,Open,M,,,120,,102.5,,,,182.5,405,SBD,Single-ply,4
 B. Mason,60,Open,M,,,137.5,,90,,,,145,372.5,SBD,Single-ply,5
@@ -43,7 +43,7 @@ Gary Clock,90,Open,M,,,220,,145,,,,240,605,SBD,Single-ply,5
 Ron Schwab,90,Open,M,,,237.5,,132.5,,,,235,605,SBD,Single-ply,6
 Mark Kiger,90,Open,M,,,195,,145,,,,220,560,SBD,Single-ply,7
 R. Burchatz,90,Open,M,,,182.5,,127.5,,,,235,545,SBD,Single-ply,8
-J. Trenhaile,90,Open,M,,,190,,120,,,,200,510,SBD,Single-ply,9
+Jay Trenhaile,90,Open,M,,,190,,120,,,,200,510,SBD,Single-ply,9
 C. Voeltz,90,Open,M,,,182.5,,90,,,,227.5,500,SBD,Single-ply,10
 Merv Young,100,Open,M,,,240,,177.5,,,,282.5,700,SBD,Single-ply,1
 Mike Berg,100,Open,M,,,250,,160,,,,275,685,SBD,Single-ply,2
@@ -56,10 +56,10 @@ Brad Kretsch,110,Open,M,,,267.5,,170,,,,275,712.5,SBD,Single-ply,3
 Wayne Oberg,110,Open,M,,,277.5,,137.5,,,,275,690,SBD,Single-ply,4
 D. Yerhof,110,Open,M,,,220,,125,,,,302.5,647.5,SBD,Single-ply,5
 M. Buhr,110,Open,M,,,245,,147.5,,,,252.5,645,SBD,Single-ply,6
-D. Mehrer,110,Open,M,,,255,,147.5,,,,235,637.5,SBD,Single-ply,7
+Don Mehrer,110,Open,M,,,255,,147.5,,,,235,637.5,SBD,Single-ply,7
 Brian Jacobson,125,Open,M,327.5,-365,327.5,,182.5,,,,200,710,SBD,Single-ply,1
 John Forman,125,Open,M,,,230,190,190,,,,200,620,SBD,Single-ply,2
-E. Red Fox,125,Open,M,,,172.5,,127.5,,,,190,490,SBD,Single-ply,3
+Ed Red Fox,125,Open,M,,,172.5,,127.5,,,,190,490,SBD,Single-ply,3
 Ralph Dirksen,125+,Open,M,,,297.5,,150,,,,265,712.5,SBD,Single-ply,1
 Lee Pestka,125+,Open,M,,,240,,165,,,,275,680,SBD,Single-ply,2
 D. Hill,125+,Open,M,,,230,,147.5,,,,212.5,590,SBD,Single-ply,3

@@ -1,12 +1,12 @@
 Place,Name,Division,BirthYear,Country,BodyweightKg,Best3BenchKg,WeightClassKg,Sex,Equipment,Best3SquatKg,Best3DeadliftKg,Event,TotalKg
-2,Anna Khudayarov,Juniors,1988,Finland,82,90,,F,Raw,,,B,90
+2,Anna Karrila,Juniors,1988,Finland,82,90,,F,Raw,,,B,90
 1,Denise Bauer,Juniors,1991,Germany,55.2,72.5,,F,Raw,,,B,72.5
 3,Maria Fuchs,Juniors,,Germany,58,67.5,,F,Raw,,,B,67.5
 1,Kamila Tillack,Masters 1,1969,Germany,63.5,70,,F,Raw,,,B,70
 1,Lolita Maurer,Masters 2,1959,Germany,60,87.5,,F,Raw,,,B,87.5
 1,Jorg Pilov,Masters 1,,Germany,74.8,135,75,M,Raw,,,B,135
 1,Tobias Ommer,Juniors,1992,Germany,84.7,95,95,M,Raw,,,B,95
-1,Marcel Kochel,Open,,Germany,94.3,195,95,M,Raw,,,B,195
+1,Marcel Köchel,Open,,Germany,94.3,195,95,M,Raw,,,B,195
 2,Markus Krummer,Open,,Germany,94.2,152.5,95,M,Raw,,,B,152.5
 1,Lech Tillade,Masters 1,,Germany,88,115,95,M,Raw,,,B,115
 1,Joachim Flett,Masters 2,1958,Germany,94.3,182.5,95,M,Raw,,,B,182.5
@@ -29,7 +29,7 @@ Place,Name,Division,BirthYear,Country,BodyweightKg,Best3BenchKg,WeightClassKg,Se
 3,Danny Schmalz,Open,1975,Germany,126,202.5,115+,M,Raw,,,B,202.5
 4,Michael Blumstein,Open,,Germany,117.5,187.5,115+,M,Raw,,,B,187.5
 1,Walter Kurda,Masters 2,1953,Germany,122.4,205,115+,M,Raw,,,B,205
-2,Anna Khudayarov,Juniors,1988,Finland,82,,,F,Raw,125,,S,125
+2,Anna Karrila,Juniors,1988,Finland,82,,,F,Raw,125,,S,125
 1,Denise Bauer,Juniors,1991,Germany,55.2,,,F,Raw,100,,S,100
 3,Maria Fuchs,Juniors,,Germany,58,,,F,Raw,90,,S,90
 1,Anett Von Der Weppen,Open,,Germany,86,,,F,Raw,180,,S,180
@@ -52,14 +52,14 @@ Place,Name,Division,BirthYear,Country,BodyweightKg,Best3BenchKg,WeightClassKg,Se
 1,Michael Blumstein,Open,,Germany,117.5,,115+,M,Raw,300,,S,300
 1,Denise Bauer,Juniors,1991,Germany,55.2,,,F,Raw,,145,D,145
 2,Maria Fuchs,Juniors,,Germany,58,,,F,Raw,,145,D,145
-3,Anna Khudayarov,Juniors,1988,Finland,82,,,F,Raw,,135,D,135
+3,Anna Karrila,Juniors,1988,Finland,82,,,F,Raw,,135,D,135
 1,Anett Von Der Weppen,Open,,Germany,86,,,F,Raw,,185,D,185
 1,Kamila Tillack,Masters 1,1969,Germany,63.5,,,F,Raw,,130,D,130
 1,Sebastian Kienast,Open,1981,Germany,74,,75,M,Raw,,235,D,235
 1,Alexander Westermeier,Juniors,,Germany,90.4,,95,M,Raw,,265,D,265
 2,Johannes Kastenholz,Juniors,,Germany,84.2,,95,M,Raw,,220,D,220
 3,Tobias Ommer,Juniors,1992,Germany,84.7,,95,M,Raw,,200,D,200
-1,Vladimir Tuček,Open,1982,Czechia,91.1,,95,M,Raw,,292.5,D,292.5
+1,Vladimír Tuček,Open,1982,Czechia,91.1,,95,M,Raw,,292.5,D,292.5
 2,Markus Krummer,Open,,Germany,94.2,,95,M,Raw,,285,D,285
 3,Matthias Schröter,Open,1981,Germany,80,,95,M,Raw,,215,D,215
 1,Lech Tillade,Masters 1,,Germany,88,,95,M,Raw,,145,D,145

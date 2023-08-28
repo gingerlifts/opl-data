@@ -30,6 +30,9 @@
     jeunes = {name = "Jeunes", min=0, max=22.5}
     horsmatch = {name = "Hors Match", min=0, max=999, place="G"}
 
+    # Silent Worker Meet
+    primetime = {name ="Prime Time", min=0, max=999}
+
 
 [weightclasses.default_M]
     classes = ["59","66","74","83","93","105","120","105+","120+"]
@@ -37,21 +40,44 @@
     sex = "M"
 
 [weightclasses.default_F]
+    classes = ["47","52","57","63","69","76","84","84+"]
+    date_range=["2021-09-01","9999-01-01"]
+    sex = "F"
+
+[weightclasses.year2020_F]
     classes = ["47","52","57","63","72","84","84+"]
-    date_range=["2011-01-01","9999-01-01"]
+    date_range=["2015-01-01","2021-08-31"]
     sex = "F"
 
 [weightclasses.junior_M]
     classes = ["53","59","66","74","83","93","105","120","105+","120+"]
     date_range=["2011-01-01","9999-01-01"]
     sex = "M"
-    divisions = ["Juniors","Sub-Juniors","Cadet"]
+    divisions = ["Juniors","Sub-Juniors"]
 
 [weightclasses.junior_F]
-    classes = ["43","47","52","57","63","72","84","84+"]
-    date_range=["2011-01-01","9999-01-01"]
+    classes = ["43","47","52","57","63","69","76","84","84+"]
+    date_range=["2021-09-01","9999-01-01"]
     sex = "F"
-    divisions = ["Juniors","Sub-Juniors","Cadet"]
+    divisions = ["Juniors","Sub-Juniors"]
+
+[weightclasses.year2020_junior_F]
+    classes = ["43","47","52","57","63","72","84","84+"]
+    date_range=["2011-01-01","2021-08-31"]
+    sex = "F"
+    divisions = ["Juniors","Sub-Juniors"]
+
+  [weightclasses.cadet_M]
+    classes = ["53", "59", "66", "74", "83", "83+"]
+    date_range = ["2011-01-01","9999-01-01"]
+    sex = "M"
+    divisions = ["Cadet"]
+
+  [weightclasses.cadet_F]
+    classes = ["43", "47", "52", "57", "63", "63+"]
+    date_range = ["2011-01-01","9999-01-01"]
+    sex = "F"
+    divisions = ["Cadet"]
 
 [weightclasses.old_M]
     classes = ["52","56","60","67.5","75","82.5","90","100","110","125","125+"]
@@ -64,12 +90,31 @@
     sex = "F"
 
 [exemptions]
-    1803 = ["ExemptWeightClassConsistency"] #83+ class
-    1802 = ["ExemptWeightClassConsistency"] #83+ class
-    1703 = ["ExemptWeightClassConsistency"] #83+ class
+    1703 = ["ExemptWeightClassConsistency"] # See note in original.csv about Mathieu Amouny
+    2034 = ["ExemptWeightClassConsistency"] # A -43 kg junior lifter competed in the Open division
+    2148 = ["ExemptWeightClassConsistency"] # This meet was for the 2020-2021 season
+    2149 = ["ExemptWeightClassConsistency"] # This meet was scored by IPF GL points
+    2186 = ["ExemptWeightClassConsistency"] # This meet was for the 2020-2021 season
+    2187 = ["ExemptWeightClassConsistency"] # This meet was for the 2021-2022 season
+    2252 = ["ExemptWeightClassConsistency"] # This meet was scored by IPF GL points
+    2246 = ["ExemptWeightClassConsistency"] # The prime time session was scored by IPF GL points
+    2361 = ["ExemptWeightClassConsistency"] # This meet was scored by IPF GL points
 
     # Challenge Villenave (no weight classes)
+    1792 = ["ExemptWeightClassConsistency"]
     1808 = ["ExemptWeightClassConsistency"]
+    18106 = ["ExemptWeightClassConsistency"]
+    18107 = ["ExemptWeightClassConsistency"]
+    18108 = ["ExemptWeightClassConsistency"]
+    18109 = ["ExemptWeightClassConsistency"]
+    18110 = ["ExemptWeightClassConsistency"]
+    18111 = ["ExemptWeightClassConsistency"]
+    18112 = ["ExemptWeightClassConsistency"]
+    18113 = ["ExemptWeightClassConsistency"]
+    18114 = ["ExemptWeightClassConsistency"]
+    18115 = ["ExemptWeightClassConsistency"]
+    18116 = ["ExemptWeightClassConsistency"]
+    18117 = ["ExemptWeightClassConsistency"]
     19123 = ["ExemptWeightClassConsistency"]
     19124 = ["ExemptWeightClassConsistency"]
     19125 = ["ExemptWeightClassConsistency"]

@@ -5,7 +5,7 @@ Place,Name,CyrillicName,BirthYear,WeightClassKg,BodyweightKg,Best3SquatKg,Best3B
 1,Anna Novokreshchenova,Анна Новокрещенова,1982,60,59.2,170,90,170,430,F,Open,SBD,Single-ply
 2,Marina May,Марина Май,1968,60,58.65,160,82.5,165,407.5,F,Open,SBD,Single-ply
 1,Olga Konstantinova,Ольга Константинова,1982,67.5,67.5,180,97.5,170,447.5,F,Open,SBD,Single-ply
-2,Anna Ivanova,Анна Іванова,1987,67.5,67.35,155,87.5,165,407.5,F,Open,SBD,Single-ply
+2,Anna Ivanova #9,Анна Иванова,1987,67.5,67.35,155,87.5,165,407.5,F,Open,SBD,Single-ply
 3,Olga Lukinykh,Ольга Лукиных,1977,67.5,67.5,142.5,75,145,362.5,F,Open,SBD,Single-ply
 1,Yuliya Erogova,Юлия Ерогова,1982,75,74.6,185,140,175,500,F,Open,SBD,Single-ply
 2,Viktoriya Poltoratskaya,Виктория Полторацкая,1981,75,71.9,182.5,117.5,170,470,F,Open,SBD,Single-ply
@@ -27,7 +27,7 @@ Place,Name,CyrillicName,BirthYear,WeightClassKg,BodyweightKg,Best3SquatKg,Best3B
 3,Aleksandr Pronevich,Александр Проневич,1989,67.5,66.8,230,145,210,585,M,Open,SBD,Single-ply
 4,Aleksandr Belinskiy,Александр Белинский,1990,67.5,67,215,152.5,207.5,575,M,Open,SBD,Single-ply
 5,Vladimir Kobelev,Владимир Кобелев,1992,67.5,63.1,197.5,112.5,195,505,M,Open,SBD,Single-ply
-6,Evgeniy Yakovlev,Євгеній Яковлев,1992,67.5,65.75,165,90,185,440,M,Open,SBD,Single-ply
+6,Evgeniy Yakovlev #3,Евгений Яковлев,1992,67.5,65.75,165,90,185,440,M,Open,SBD,Single-ply
 1,Konstantin Girin,Константин Гирин,1981,75,74.55,300,215,240,755,M,Open,SBD,Single-ply
 2,Evgeniy Trukhanov,Евгений Труханов,1982,75,74.55,270,150,250,670,M,Open,SBD,Single-ply
 3,Andrey Yuferev,Андрей Юферев,1991,75,75,240,175,250,665,M,Open,SBD,Single-ply

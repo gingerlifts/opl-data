@@ -11,7 +11,7 @@ D. Hull,60,Open,M,115.67,83.91,170.1,369.68,SBD,Single-ply,2
 S. Hensel,60,Open,M,106.59,92.99,167.83,367.41,SBD,Single-ply,3
 S. Costia,60,Open,M,115.67,81.65,147.42,344.73,SBD,Single-ply,4
 D. Dwyer,67.5,Open,M,165.56,122.47,170.1,458.13,SBD,Single-ply,1
-S. Phillips,67.5,Open,M,170.1,97.52,183.71,451.32,SBD,Single-ply,2
+S. Phillips #3,67.5,Open,M,170.1,97.52,183.71,451.32,SBD,Single-ply,2
 J. Rellick,67.5,Open,M,158.76,95.25,183.71,437.72,SBD,Single-ply,3
 E. Embler,67.5,Open,M,149.69,90.72,170.1,410.5,SBD,Single-ply,4
 Joe Campbell,67.5,Open,M,127.01,83.91,147.42,358.34,SBD,Single-ply,5
@@ -33,7 +33,7 @@ M. Bugay,75,Open,M,174.63,115.67,185.97,476.27,SBD,Single-ply,14
 Steve Azuende,75,Open,M,156.49,131.54,185.97,474,SBD,Single-ply,15
 L. Davidson,75,Open,M,170.1,124.74,172.37,467.2,SBD,Single-ply,16
 S. Merchant,75,Open,M,165.56,92.99,204.12,462.66,SBD,Single-ply,17
-B. Thompson,75,Open,M,161.03,106.59,192.78,460.4,SBD,Single-ply,18
+Brian Thompson,75,Open,M,161.03,106.59,192.78,460.4,SBD,Single-ply,18
 R. Giacomantonio,75,Open,M,147.42,136.08,174.63,458.13,SBD,Single-ply,19
 Lance Ferguson,75,Open,M,165.56,88.45,199.58,453.59,SBD,Single-ply,20
 K. Cecchini,75,Open,M,117.93,140.61,174.63,433.18,SBD,Single-ply,21
@@ -47,7 +47,7 @@ N. Escott,75,Open,M,140.61,92.99,145.15,378.75,SBD,Single-ply,28
 D. Wright,82.5,Open,M,210.92,138.35,222.26,571.53,SBD,Single-ply,1
 R. Montini,82.5,Open,M,199.58,122.47,226.8,548.85,SBD,Single-ply,2
 D. O'Donnell,82.5,Open,M,208.65,104.33,219.99,532.97,SBD,Single-ply,3
-J. Bufalini,82.5,Open,M,188.24,136.08,201.85,526.17,SBD,Single-ply,4
+Jim Bufalini,82.5,Open,M,188.24,136.08,201.85,526.17,SBD,Single-ply,4
 S. Pataky,82.5,Open,M,172.37,136.08,208.65,517.1,SBD,Single-ply,5
 S. Taylor,82.5,Open,M,165.56,138.35,204.12,508.02,SBD,Single-ply,6
 M. Rakovan,82.5,Open,M,158.76,131.54,215.46,505.76,SBD,Single-ply,7
@@ -55,7 +55,7 @@ J. Grahovac,82.5,Open,M,183.71,122.47,183.71,489.88,SBD,Single-ply,8
 J. Depew,82.5,Open,M,181.44,111.13,190.51,483.08,SBD,Single-ply,9
 Nick Blyshak,82.5,Open,M,113.4,113.4,158.76,385.55,SBD,Single-ply,10
 J. Martich,82.5,Open,M,97.52,63.5,129.27,290.3,SBD,Single-ply,11
-J. Leslie,82.5,Open,M,156.49,113.4,,,SBD,Single-ply,DQ
+Jim Leslie,82.5,Open,M,156.49,113.4,,,SBD,Single-ply,DQ
 J. Smith #23,90,Open,M,204.12,167.83,229.06,601.01,SBD,Single-ply,1
 N. Noble,90,Open,M,226.8,136.08,226.8,589.67,SBD,Single-ply,2
 James Bosley,90,Open,M,195.04,136.08,235.87,566.99,SBD,Single-ply,3
@@ -96,7 +96,7 @@ D. Kinard,110,Open,M,192.78,147.42,233.6,573.8,SBD,Single-ply,6
 Joseph Kielur,110,Open,M,208.65,129.27,235.87,573.8,SBD,Single-ply,7
 B. Hazlett,110,Open,M,170.1,97.52,195.04,462.66,SBD,Single-ply,8
 S. Melonut,110,Open,M,122.47,108.86,158.76,390.09,SBD,Single-ply,9
-R. Brown #13,125,Open,M,263.08,181.44,229.06,673.59,SBD,Single-ply,1
+Robert Brown,125,Open,M,263.08,181.44,229.06,673.59,SBD,Single-ply,1
 Paul Liszka,125,Open,M,238.14,151.95,272.16,662.25,SBD,Single-ply,2
 Al Siegel,125,Open,M,195.04,113.4,235.87,544.31,SBD,Single-ply,3
 T. Solobay,125,Open,M,192.78,117.93,213.19,523.9,SBD,Single-ply,4

@@ -4,10 +4,10 @@ Place,WeightClassKg,Sex,Division,Name,CyrillicName,BirthDate,BodyweightKg,Best3S
 3,59,M,Open,Oleksandr Agadzhanyan,Олександр Агаджанян,1979-06-03,58.7,140,90,160,390,SBD,Raw
 1,66,M,Open,Andriy Kovalishin,Андрій Ковалишин,1985-04-13,64.7,200,140,230,570,SBD,Raw
 2,66,M,Open,Mark Van,Марк Ван,1992-05-26,65.1,180,147.5,220,547.5,SBD,Raw
-3,66,M,Open,Sergiy Pozdeev,Сергій Поздєєв,1992-04-27,65.8,175,130,215,520,SBD,Raw
+3,66,M,Open,Sergiy Pozdeev #2,Сергій Поздєєв,1992-04-27,65.8,175,130,215,520,SBD,Raw
 DQ,66,M,Open,Vasil Mitsa,Василь Мица,1989-12-09,65.7,215,132.5,-255,,SBD,Raw
 1,74,M,Open,Sergiy Koblitskiy,Сергій Коблицький,1987-08-11,73.15,217.5,165,260,642.5,SBD,Raw
-2,74,M,Open,Vitaliy Bilozir,Віталій Білозір,1992-08-14,73.3,215,137.5,270,622.5,SBD,Raw
+2,74,M,Open,Vitalii Bilozir,Віталій Білозір,1992-08-14,73.3,215,137.5,270,622.5,SBD,Raw
 3,74,M,Open,Ruslan Ruban,Руслан Рубан,1990-07-09,73.8,210,155,240,605,SBD,Raw
 4,74,M,Open,Maksim Saenko,Максим Саєнко,1992-08-15,73.55,205,102.5,285,592.5,SBD,Raw
 5,74,M,Open,Volodimir Makarenko,Володимир Макаренко,1993-08-20,71.45,200,155,232.5,587.5,SBD,Raw
@@ -15,7 +15,7 @@ DQ,66,M,Open,Vasil Mitsa,Василь Мица,1989-12-09,65.7,215,132.5,-255,,S
 7,74,M,Open,Mikola Shelkovich,Микола Шелкович,1992-11-28,73.05,190,107.5,192.5,490,SBD,Raw
 DQ,74,M,Open,Taras Yurkiv,Тарас Юрків,1984-11-30,73.6,-190,147.5,,,SBD,Raw
 1,83,M,Open,Valentin Malikov,Валентин Маліков,1974-01-06,81.95,247.5,195,265,707.5,SBD,Raw
-2,83,M,Open,Igor Parshin,Игорь Паршин,1983-02-11,82.6,232.5,140,275,647.5,SBD,Raw
+2,83,M,Open,Igor Parshin #1,Игорь Паршин,1983-02-11,82.6,232.5,140,275,647.5,SBD,Raw
 3,83,M,Open,Dmitro Garkusha,Дмитро Гаркуша,1987-02-01,80.55,227.5,152.5,262.5,642.5,SBD,Raw
 4,83,M,Open,Oleksiy Karpenko,Олексій Карпенко,1993-08-12,81.8,240,145,250,635,SBD,Raw
 5,83,M,Open,Viktor Garbuzov,Віктор Гарбузов,1991-01-31,81.3,220,152.5,255,627.5,SBD,Raw
@@ -35,29 +35,29 @@ DQ,83,M,Open,Vladislav Antonenko,Владислав Антоненко,1982-06-2
 DQ,83,M,Open,Andriy Krakovskiy,Андрій Краковський,1988-08-21,82.25,-212.5,167.5,232.5,,SBD,Raw
 DQ,83,M,Open,Dmitro Sadovskiy,Дмитро Садовський,1993-11-09,82.25,225,-150,260,,SBD,Raw
 1,93,M,Open,Dmitro Chumakov,Дмитро Чумаков,1985-05-22,92.8,267.5,175,297.5,740,SBD,Raw
-2,93,M,Open,Igor Markin,Ігор Маркін,1988-02-26,90.05,267.5,182.5,287.5,737.5,SBD,Raw
+2,93,M,Open,Igor Markin #2,Ігор Маркін,1988-02-26,90.05,267.5,182.5,287.5,737.5,SBD,Raw
 3,93,M,Open,Mikhaylo Demchenko,Михайло Демченко,1995-09-22,92.05,267.5,140,315,722.5,SBD,Raw
 4,93,M,Open,Sergiy Likhodid,Сергій Лиходід,1990-09-27,92.65,245,177.5,300,722.5,SBD,Raw
 5,93,M,Open,Evgeniy Beliy,Євгеній Белий,1989-09-11,91.85,250,165,292.5,707.5,SBD,Raw
-6,93,M,Open,Dmitro Kulikov,Дмитро Куліков,1973-03-16,87.6,245,172.5,285,702.5,SBD,Raw
+6,93,M,Open,Dmytro Kulikov,Дмитро Куліков,1973-03-16,87.6,245,172.5,285,702.5,SBD,Raw
 7,93,M,Open,Artem Sendetskiy,Артем Сендецький,1988-10-15,89.35,242.5,147.5,282.5,672.5,SBD,Raw
 8,93,M,Open,Evgen Pshenichniy,Євген Пшеничний,1990-08-02,92.95,240,172.5,260,672.5,SBD,Raw
 9,93,M,Open,Roman Zadorozhniy,Роман Задорожний,1984-06-06,91.4,240,162.5,265,667.5,SBD,Raw
 10,93,M,Open,Oleksandr Gurbich,Олександр Гурбич,1989-08-27,90.7,225,162.5,267.5,655,SBD,Raw
 11,93,M,Open,Boris Shcherbak,Борис Щербак,1991-11-25,91.4,230,185,240,655,SBD,Raw
-12,93,M,Open,Yuriy Chernyavskiy,Юрій Чернявський,1972-03-02,90.75,222.5,165,255,642.5,SBD,Raw
+12,93,M,Open,Yuriy Chernyavskiy #1,Юрій Чернявський,1972-03-02,90.75,222.5,165,255,642.5,SBD,Raw
 13,93,M,Open,Roman Rudenko,Роман Руденко,1990-03-22,87.1,230,165,245,640,SBD,Raw
 14,93,M,Open,Sergiy Deynega,Сергій Дейнега,1988-05-24,92.95,215,152.5,267.5,635,SBD,Raw
 15,93,M,Open,Oleksandr Grubar,Олександр Грубар,1982-09-16,86.5,220,160,245,625,SBD,Raw
 16,93,M,Open,Andriy Stanko,Андрій Станько,1980-12-09,91.6,212.5,140,237.5,590,SBD,Raw
 17,93,M,Open,Oleg Okselenko,Олег Окселенко,1984-09-04,91.4,200,142.5,220,562.5,SBD,Raw
 DQ,93,M,Open,Vitaliy Sukovatiy,Віталій Суковатий,1984-06-07,88.95,235,157.5,239,,SBD,Raw
-DQ,93,M,Open,Andriy Koval' #2,Андрій Коваль,1989-12-05,89.55,215,140,,,SBD,Raw
+DQ,93,M,Open,Andriy Koval #2,Андрій Коваль,1989-12-05,89.55,215,140,,,SBD,Raw
 DQ,93,M,Open,Bogdan Kostyuk,Богдан Костюк,1988-11-04,92,-250,175,,,SBD,Raw
 DQ,93,M,Open,Pavlo Gorchak,Павло Горчак,1992-07-12,92.5,190,160,-232.5,,SBD,Raw
 DQ,93,M,Open,Sergiy Katerenchuk,Сергій Катеренчук,1989-02-23,92.55,-230,150,277.5,,SBD,Raw
 DQ,93,M,Open,Illya Petrenko,Ілля Петренко,1983-04-28,92.65,-230,,,,SBD,Raw
-1,105,M,Open,Kostyantin Ezik,Костянтин Єзик,1991-11-13,103.55,275,218,311.5,804.5,SBD,Raw
+1,105,M,Open,Kostiantyn Yezyk,Костянтин Єзик,1991-11-13,103.55,275,218,311.5,804.5,SBD,Raw
 2,105,M,Open,Igor Makovetskiy,Ігор Маковецький,1972-04-08,104.2,315.5,185,290,790.5,SBD,Raw
 3,105,M,Open,Artem Gonchar,Артем Гончар,1989-08-21,104.65,267.5,200,295,762.5,SBD,Raw
 4,105,M,Open,Ivan Noga,Іван Нога,1991-10-21,104.2,270,177.5,305,752.5,SBD,Raw
@@ -69,7 +69,7 @@ DQ,93,M,Open,Illya Petrenko,Ілля Петренко,1983-04-28,92.65,-230,,,,S
 10,105,M,Open,Andriy Melnik,Андрій Мельник,1982-03-28,100.85,240,205,255,700,SBD,Raw
 11,105,M,Open,Igor Fedorchenko,Ігор Федорченко,1992-07-21,97.9,210,190,290,690,SBD,Raw
 12,105,M,Open,Artem Sidorchuk,Артем Сидорчук,1991-09-01,102.05,235,185,270,690,SBD,Raw
-13,105,M,Open,Sergiy Kharchenko,Сергей Харченко,1988-03-15,103.1,232.5,190,267.5,690,SBD,Raw
+13,105,M,Open,Sergiy Kharchenko #1,Сергій Харченко,1988-03-15,103.1,232.5,190,267.5,690,SBD,Raw
 14,105,M,Open,Yuriy Likov,Юрій Ликов,1976-01-08,104.45,250,165,275,690,SBD,Raw
 15,105,M,Open,Dmitro Lavrenko,Дмитро Лавренко,1988-11-22,104.8,235,162.5,282.5,680,SBD,Raw
 16,105,M,Open,Vadim Kuzmenko,Вадим Кузьменко,1985-08-19,103.7,240,190,240,670,SBD,Raw
@@ -82,7 +82,7 @@ DQ,93,M,Open,Illya Petrenko,Ілля Петренко,1983-04-28,92.65,-230,,,,S
 DQ,105,M,Open,Sergiy Akentev,Сергій Акентьєв,1989-02-15,99.4,265,170,,,SBD,Raw
 NS,105,M,Open,Bogdan Migovk,Богдан Міговк,1989-06-16,,,,,,SBD,Raw
 DQ,105,M,Open,Evgen Nizoviy,Євген Низовий,1985-06-01,103.85,-255,,,,SBD,Raw
-1,120,M,Open,Vitaliy Alekseev,Віталій Алексеєв,1988-02-08,118.4,305,210,335,850,SBD,Raw
+1,120,M,Open,Vitaliy Alekseev #1,Віталій Алексеєв,1988-02-08,118.4,305,210,335,850,SBD,Raw
 2,120,M,Open,Viktor Marynenko,Віктор Мариненко,1987-10-07,119.65,305,205,327.5,837.5,SBD,Raw
 3,120,M,Open,Dmitro Danilyuk,Дмитро Данилюк,1987-11-03,111.25,305,180,310,795,SBD,Raw
 4,120,M,Open,Mikola Arsenyuk,Микола Арсенюк,1993-06-24,117.05,290,205,277.5,772.5,SBD,Raw
@@ -96,8 +96,8 @@ DQ,120,M,Open,Oleksiy Vyshnytskyy,Олексій Вишницький,1981-05-01
 4,120+,M,Open,Stanislav Alistratov,Станіслав Алістратов,1989-01-24,122.4,275,165,320,760,SBD,Raw
 1,47,F,Open,Violeta Chebotar,Віолета Чеботар,1994-12-07,45.35,120,82.5,130,332.5,SBD,Raw
 2,47,F,Open,Galina Gonchar,Галина Гончар,1988-07-18,46.9,95,62.5,122.5,280,SBD,Raw
-3,47,F,Open,Dariya Brazhnik,Дарія Бражник,1997-04-28,43.85,80,52.5,100,232.5,SBD,Raw
-4,47,F,Open,Anastasiya Danilova,Анастасія Данилова,1995-09-15,47,77.5,50,100,227.5,SBD,Raw
+3,47,F,Open,Dariia Brazhnyk,Дарія Бражник,1997-04-28,43.85,80,52.5,100,232.5,SBD,Raw
+4,47,F,Open,Anastasiya Danilova #1,Анастасія Данилова,1995-09-15,47,77.5,50,100,227.5,SBD,Raw
 DQ,52,F,Open,Katerina Omelchuk,Катерина Омельчук,1991-10-03,52,,,,,SBD,Raw
 1,52,F,Open,Oksana Gronovich,Оксана Гронович,1994-01-01,51.15,112.5,70,155,337.5,SBD,Raw
 2,52,F,Open,Nataliya Ivankova,Наталія Іванькова,1974-05-31,51.25,120,75,142.5,337.5,SBD,Raw

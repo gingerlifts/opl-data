@@ -23,15 +23,15 @@ DQ,F,Masters 1,60,Lisa Madsen,1950,Denmark,59.5,110,,,,SBD,Single-ply
 1,M,Masters 1,52,Alexander Yartsev,1954,Russia,51.8,185,102.5,192.5,480,SBD,Single-ply
 2,M,Masters 1,52,Ramesh Surati,1945,India,49.8,125,92.5,150,367.5,SBD,Single-ply
 3,M,Masters 1,52,Johann Mandl,1949,Austria,51.5,105,62.5,140,307.5,SBD,Single-ply
-1,M,Masters 1,56,Dominic Favre,1950,France,56,175,95,210,480,SBD,Single-ply
+1,M,Masters 1,56,Dominique Favre,1950,France,56,175,95,210,480,SBD,Single-ply
 2,M,Masters 1,56,Burkhard Steffen,1950,Germany,56,162.5,117.5,160,440,SBD,Single-ply
-3,M,Masters 1,56,Czeslav Kedziora,1951,Poland,55.8,115,117.5,185,417.5,SBD,Single-ply
+3,M,Masters 1,56,Czeslaw Kedziora,1951,Poland,55.8,115,117.5,185,417.5,SBD,Single-ply
 4,M,Masters 1,56,Bretislav Raska,1946,Slovakia,55.4,140,92.5,180,412.5,SBD,Single-ply
 5,M,Masters 1,56,Jaroslaw Kozak,1947,Czechia,55.2,130,80,155,365,SBD,Single-ply
 6,M,Masters 1,56,Pavol Spodniak,1948,Slovakia,55.2,110,85,160,355,SBD,Single-ply
 1,M,Masters 1,60,Kazuo Kaneko,1947,Japan,58.4,205,100,232.5,537.5,SBD,Single-ply
 2,M,Masters 1,60,Antonio Fidilio,1946,Germany,59.2,185,115,220,520,SBD,Single-ply
-3,M,Masters 1,60,Larry Crist,1948,USA,59.6,165,117.5,200,482.5,SBD,Single-ply
+3,M,Masters 1,60,Larry Christ,1948,USA,59.6,165,117.5,200,482.5,SBD,Single-ply
 4,M,Masters 1,60,Milan Gombár,1948,Slovakia,58.8,165,85,180,430,SBD,Single-ply
 5,M,Masters 1,60,Joachim Lietzau,1950,Germany,58.1,125,105,142.5,372.5,SBD,Single-ply
 1,M,Masters 1,67.5,Herman Nurse,1948,UK,66.3,232.5,135,250,617.5,SBD,Single-ply
@@ -85,7 +85,7 @@ DQ,M,Masters 1,75,Harrie van den Brand,1946,Netherlands,74.6,247.5,150,,,SBD,Sin
 2,M,Masters 1,90,Kevin Jane,1951,UK,88.4,270,152.5,275,697.5,SBD,Single-ply
 3,M,Masters 1,90,Peter Cihla,1950,Germany,86.6,290,140,265,695,SBD,Single-ply
 4,M,Masters 1,90,Yaroslav Chala,1948,Ukraine,83.3,240,180,250,670,SBD,Single-ply
-5,M,Masters 1,90,Martin Brown,1951,USA,88.5,237.5,150,282.5,670,SBD,Single-ply
+5,M,Masters 1,90,Martin Brown #2,1951,USA,88.5,237.5,150,282.5,670,SBD,Single-ply
 6,M,Masters 1,90,Kārlis Bulāns,1952,Latvia,87.3,232.5,137.5,285,655,SBD,Single-ply
 7,M,Masters 1,90,Manfred Vetter,1952,Germany,89.1,240,137.5,270,647.5,SBD,Single-ply
 8,M,Masters 1,90,Zdeněk Zvonič,1951,Czechia,89,230,140,275,645,SBD,Single-ply
@@ -108,7 +108,7 @@ DQ,M,Masters 1,75,Harrie van den Brand,1946,Netherlands,74.6,247.5,150,,,SBD,Sin
 8,M,Masters 1,100,Vasily Mazhuta,1947,Russia,99.5,255,182.5,290,727.5,SBD,Single-ply
 9,M,Masters 1,100,Heikki Varila,1950,Finland,97.5,260,180,275,715,SBD,Single-ply
 10,M,Masters 1,100,Flosi Jónsson,1954,Iceland,98.6,265,167.5,267.5,700,SBD,Single-ply
-11,M,Masters 1,100,Volodymyr Lebedev,1950,Ukraine,98.7,270,160,260,690,SBD,Single-ply
+11,M,Masters 1,100,Volodymyr Lebedev #1,1950,Ukraine,98.7,270,160,260,690,SBD,Single-ply
 12,M,Masters 1,100,Lubos Marcik,1952,Czechia,98.8,250,175,250,675,SBD,Single-ply
 13,M,Masters 1,100,Sandro Rossi,1950,Italy,95.7,265,150,255,670,SBD,Single-ply
 14,M,Masters 1,100,Michel Lefevre,1949,France,98.9,235,167.5,265,667.5,SBD,Single-ply
@@ -119,12 +119,12 @@ DQ,M,Masters 1,75,Harrie van den Brand,1946,Netherlands,74.6,247.5,150,,,SBD,Sin
 19,M,Masters 1,100,Krister Jonsson,1954,Sweden,99.1,240,157.5,245,642.5,SBD,Single-ply
 1,M,Masters 1,110,György Lovasz,1947,Hungary,101.9,325,197.5,317.5,840,SBD,Single-ply
 2,M,Masters 1,110,Julius Eilenberger,1953,Austria,108.6,285,245,310,840,SBD,Single-ply
-3,M,Masters 1,110,Mikhail Bobkov,1950,Russia,107.5,282.5,205,305,792.5,SBD,Single-ply
+3,M,Masters 1,110,Mikhail Bobkov,,Russia,107.5,282.5,205,305,792.5,SBD,Single-ply
 4,M,Masters 1,110,Marty Gallagher,1950,USA,106.1,317.5,175,297.5,790,SBD,Single-ply
 5,M,Masters 1,110,Ferry van der Meulen,1947,Netherlands,104.2,305,185,295,785,SBD,Single-ply
 6,M,Masters 1,110,Jiří Šafář,1950,Czechia,107.5,272.5,165,315,752.5,SBD,Single-ply
 7,M,Masters 1,110,Antero Rinne,1945,Finland,106.6,282.5,172.5,282.5,737.5,SBD,Single-ply
-8,M,Masters 1,110,David Turner,1953,UK,109.5,285,152.5,252.5,690,SBD,Single-ply
+8,M,Masters 1,110,Dave Turner,1953,UK,109.5,285,152.5,252.5,690,SBD,Single-ply
 9,M,Masters 1,110,Kjartan Helgason,1952,Iceland,102,257.5,160,240,657.5,SBD,Single-ply
 10,M,Masters 1,110,Lean-Francois Geneste,1948,France,106.2,230,122.5,270,622.5,SBD,Single-ply
 11,M,Masters 1,110,Pavol Plávka,1953,Slovakia,101,240,145,230,615,SBD,Single-ply
@@ -155,7 +155,7 @@ DQ,M,Masters 1,125+,Lajos Bajcsi,1944,Hungary,129.3,270,,,,SBD,Single-ply
 4,M,Masters 2,56,Gennady Potepun,1939,Ukraine,55.5,125,65,132.5,322.5,SBD,Single-ply
 5,M,Masters 2,56,Janos Tomoe,1942,Hungary,55,92.5,75,135,302.5,SBD,Single-ply
 6,M,Masters 2,56,Heikki Mähönen,1924,Finland,52.5,62.5,52.5,105,220,SBD,Single-ply
-1,M,Masters 2,60,Roger Powell,1936,UK,59.7,180,95,222.5,497.5,SBD,Single-ply
+1,M,Masters 2,60,Roger Powell #1,1936,UK,59.7,180,95,222.5,497.5,SBD,Single-ply
 2,M,Masters 2,60,Lucien DeFaria,1942,France,58.2,160,120,215,495,SBD,Single-ply
 3,M,Masters 2,60,Vladimir Sadovnikov,1943,Russia,59,175,87.5,197.5,460,SBD,Single-ply
 4,M,Masters 2,60,Tapani Pulkkinen,1940,Finland,59.7,170,90,190,450,SBD,Single-ply
@@ -170,11 +170,11 @@ DQ,M,Masters 2,67.5,Horst Diter,1943,Denmark,66.3,,,,,SBD,Single-ply
 2,M,Masters 2,75,Vyacheslav Bogomolov,1939,Russia,74,205,130,242.5,577.5,SBD,Single-ply
 3,M,Masters 2,75,Seppo Tiri,1939,Finland,74.5,192.5,142.5,230,565,SBD,Single-ply
 4,M,Masters 2,75,Masayuki Suzuki,1934,Japan,74,195,137.5,205,537.5,SBD,Single-ply
-5,M,Masters 2,75,Yves Garcia,1942,France,72.5,195,120,205,520,SBD,Single-ply
+5,M,Masters 2,75,Yves Garcia #1,1942,France,72.5,195,120,205,520,SBD,Single-ply
 6,M,Masters 2,75,Vladimir Manchuk,1940,Ukraine,73.2,180,127.5,195,502.5,SBD,Single-ply
 7,M,Masters 2,75,Freddy Nash,1940,South Africa,72.5,185,127.5,187.5,500,SBD,Single-ply
 8,M,Masters 2,75,Robert Mild,1932,Austria,72.9,155,112.5,200,467.5,SBD,Single-ply
-9,M,Masters 2,75,Hari Singh,1943,India,73.2,165,102.5,180,447.5,SBD,Single-ply
+9,M,Masters 2,75,Hari Singh Cheema,1943,India,73.2,165,102.5,180,447.5,SBD,Single-ply
 10,M,Masters 2,75,Alexander Loginov,1938,Ukraine,74,150,95,180,425,SBD,Single-ply
 11,M,Masters 2,75,Jiri Sollar,1937,Czechia,74,120,102.5,155,377.5,SBD,Single-ply
 DQ,M,Masters 2,75,François Chazelle,1938,France,74.3,202.5,,,,SBD,Single-ply
@@ -188,7 +188,7 @@ DQ,M,Masters 2,75,François Chazelle,1938,France,74.3,202.5,,,,SBD,Single-ply
 8,M,Masters 2,82.5,Werner Kotlík,1937,Czechia,77.1,190,130,220,540,SBD,Single-ply
 9,M,Masters 2,82.5,Anatoly Volkov,1938,Kazakhstan,79.8,170,97.5,185,452.5,SBD,Single-ply
 10,M,Masters 2,82.5,Wolfgang Kolditz,1940,Germany,81.7,140,100,167.5,407.5,SBD,Single-ply
-11,M,Masters 2,82.5,Jose-Luis Martinez,1939,Spain,81.75,75,152.5,125,352.5,SBD,Single-ply
+11,M,Masters 2,82.5,José Luis Martinez,1939,Spain,81.75,75,152.5,125,352.5,SBD,Single-ply
 1,M,Masters 2,90,Dan Hamblet,1943,USA,89.1,235,170,302.5,707.5,SBD,Single-ply
 2,M,Masters 2,90,Evgeniy Khokhlov,1941,Russia,88.1,262.5,155,262.5,680,SBD,Single-ply
 3,M,Masters 2,90,Gunnar Myhren,1943,Norway,88.75,250,147.5,245,642.5,SBD,Single-ply
@@ -197,14 +197,14 @@ DQ,M,Masters 2,75,François Chazelle,1938,France,74.3,202.5,,,,SBD,Single-ply
 6,M,Masters 2,90,Günter Schwarz,1941,Germany,88,190,130,200,520,SBD,Single-ply
 7,M,Masters 2,90,Volodymyr Burlakov,1927,Ukraine,82.6,170,125,210,505,SBD,Single-ply
 8,M,Masters 2,90,M.M. Darekar,1941,India,83.6,185,100,185,470,SBD,Single-ply
-1,M,Masters 2,100,Willi Müller,1939,Germany,99.3,282.5,160,314,756.5,SBD,Single-ply
+1,M,Masters 2,100,Willi Müller #1,1939,Germany,99.3,282.5,160,314,756.5,SBD,Single-ply
 2,M,Masters 2,100,Vsevolod Babenko,1937,Ukraine,96.8,270,172.5,265,707.5,SBD,Single-ply
 3,M,Masters 2,100,Jiří Zeman,1944,Czechia,99.7,250,165,250,665,SBD,Single-ply
 4,M,Masters 2,100,Pierre Amet,1935,France,98,245,140,270,655,SBD,Single-ply
 5,M,Masters 2,100,Truls Kristensen,1940,Norway,99,242.5,137.5,245,625,SBD,Single-ply
 6,M,Masters 2,100,Clive Shepard,1943,UK,98.7,235,122.5,252.5,610,SBD,Single-ply
 DQ,M,Masters 2,100,Wolfgang Zimmermann,1941,Czechia,97.1,195,,,,SBD,Single-ply
-1,M,Masters 2,110,Manfred Grossmann,1942,Germany,102.4,290,190,290,770,SBD,Single-ply
+1,M,Masters 2,110,Manfred Grossman,1942,Germany,102.4,290,190,290,770,SBD,Single-ply
 2,M,Masters 2,110,Miller Edwards,1943,USA,107,282.5,175,272.5,730,SBD,Single-ply
 3,M,Masters 2,110,Robert Pleticha,1943,USA,108.5,240,167.5,287.5,695,SBD,Single-ply
 4,M,Masters 2,110,Kyösti Mäkinen,1943,Finland,108.5,260,162.5,272.5,695,SBD,Single-ply
@@ -224,7 +224,7 @@ DQ,M,Masters 2,110,Zdenek Srstka,1935,Czechia,109.3,235,157.5,,,SBD,Single-ply
 5,M,Masters 2,125,Olavi Erola,1936,Finland,117,247.5,150,242.5,640,SBD,Single-ply
 6,M,Masters 2,125,Hal Hudson,1937,USA,115,215,140,250,605,SBD,Single-ply
 7,M,Masters 2,125,Nikolai Shuliatyev,1940,Russia,111.1,230,132.5,225,587.5,SBD,Single-ply
-8,M,Masters 2,125,Yevgeny Dmitriev,1940,Russia,112.2,205,157.5,212.5,575,SBD,Single-ply
+8,M,Masters 2,125,Evgeniy Dmitriev,1940,Russia,112.2,205,157.5,212.5,575,SBD,Single-ply
 1,M,Masters 2,125+,Fritz Jirausek,1944,Austria,137.2,260,180,320.5,760,SBD,Single-ply
 2,M,Masters 2,125+,Vladimir Maramzin,1941,Russia,132.4,230,150,240,620,SBD,Single-ply
 3,M,Masters 2,125+,Richard Heiden,1939,Germany,139.1,230,170,205,605,SBD,Single-ply

@@ -1,8 +1,8 @@
 Sex,Equipment,Division,WeightClassKg,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Place
 F,Wraps,Amateur Open,52,Lindsey Cormack,50.44,79.38,49.9,108.86,238.14,SBD,1
-F,Wraps,Amateur Open,56,Christine Huang,54.25,90.72,61.23,120.2,272.16,SBD,1
+F,Wraps,Amateur Open,56,Christine Huang #2,54.25,90.72,61.23,120.2,272.16,SBD,1
 F,Wraps,Amateur Open,56,Jill Gonzalez,55.25,81.65,45.36,115.67,242.67,SBD,3
-F,Wraps,Pro Open,56,Courtney Miller,55.16,129.27,61.23,129.27,319.78,SBD,3
+F,Wraps,Pro Open,56,Courtney Miller #3,55.16,129.27,61.23,129.27,319.78,SBD,3
 F,Single-ply,Amateur Teen 18-19,56,Val Natole,55.79,99.79,52.16,115.67,267.62,SBD,1
 F,Raw,Amateur Masters 70-74,60,Audrey Donellan,58.69,77.11,40.82,129.27,247.21,SBD,1
 F,Wraps,Amateur Open,60,Rebecca Mulder,57.79,99.79,68.04,115.67,283.5,SBD,2
@@ -54,7 +54,7 @@ F,Raw,Amateur Masters 55-59,90,Louise Chenal,89.45,,54.43,129.27,183.7,BD,1
 M,Wraps,Amateur Juniors 20-23,75,Luke Salerno,70.31,176.9,113.4,206.38,496.68,SBD,1
 M,Wraps,Amateur Open,75,Blase Ferraris,70.67,124.74,88.45,142.88,356.07,SBD,3
 M,Wraps,Amateur Juniors 20-23,75,Daniel Bulay,72.57,151.95,131.54,201.85,485.34,SBD,2
-M,Wraps,Amateur Masters 50-54,75,Rob Rawn,72.12,174.63,115.67,163.29,453.59,SBD,1
+M,Wraps,Amateur Masters 50-54,75,Robert Rawn,72.12,174.63,115.67,163.29,453.59,SBD,1
 M,Wraps,Amateur Open,75,Ivan Maniquis,71.49,188.24,113.4,226.8,528.44,SBD,1
 M,Wraps,Amateur Juniors 20-23,82.5,Eric Chase,81.19,113.4,92.99,149.69,356.07,SBD,6
 M,Wraps,Amateur Juniors 20-23,82.5,Vyas Maddukuri,80.65,183.7,111.13,215.46,510.29,SBD,5
@@ -83,7 +83,7 @@ M,Wraps,Amateur Open,90,Edwin Vera,89.99,219.99,136.08,254.01,610.08,SBD,10
 M,Wraps,Amateur Open,90,Brian Archy,87.27,213.19,133.81,277.83,624.82,SBD,8
 M,Wraps,Amateur Open,90,Jason Budsock,89.36,235.87,131.54,272.16,639.57,SBD,5
 M,Wraps,Amateur Open,90,Asa Burbage,88.9,235.87,151.95,272.16,659.98,SBD,2
-M,Wraps,Amateur Open,90,Dan Holly,86.27,282.36,147.42,278.96,708.74,SBD,1
+M,Wraps,Amateur Open,90,Dan Holly #1,86.27,282.36,147.42,278.96,708.74,SBD,1
 M,Wraps,Amateur Submasters 33-39,90,Asa Burbage,88.9,235.87,151.95,272.16,659.98,SBD,1
 M,Wraps,Military Amateur Open,90,Pete Esposito,86.64,174.63,120.2,176.9,471.74,SBD,1
 M,Wraps,Amateur Masters 50-54,90,Pete Esposito,86.64,174.63,120.2,176.9,471.74,SBD,1
@@ -141,7 +141,7 @@ M,Wraps,Amateur Open,125,James Clairmont,121.2,240.4,188.24,272.16,700.8,SBD,3
 M,Wraps,Amateur Open,125,Taylor Fox,122.47,294.84,161.03,283.5,739.36,SBD,2
 M,Wraps,Amateur Open,125,Peter Lembesis,115.21,238.14,163.29,240.4,641.83,SBD,5
 M,Wraps,Pro Masters 50-54,125,Shawn Nielson,117.12,294.84,181.44,238.14,714.41,SBD,1
-M,Wraps,Pro Open,125,Derek Miller,113.85,285.76,190.51,274.42,750.7,SBD,2
+M,Wraps,Pro Open,125,Derek Miller #2,113.85,285.76,190.51,274.42,750.7,SBD,2
 M,Wraps,Pro Open,125,Michael Welton,124.56,281.23,185.97,306.17,773.37,SBD,1
 M,Wraps,Amateur Juniors 20-23,140,James Nappo,133.45,244.94,124.74,183.7,553.38,SBD,1
 M,Wraps,Amateur Submasters 33-39,140,Brian Bernal,137.35,199.58,167.83,235.87,603.28,SBD,2
@@ -150,11 +150,11 @@ M,Wraps,Military Amateur Open,140,Joshua Faucett,137.26,199.58,192.78,251.74,644
 M,Wraps,Amateur Open,140,Von Ferber,132,240.4,185.97,281.23,707.6,SBD,2
 M,Wraps,Police Amateur Open,140,Edward Henderson,138.25,170.1,102.06,204.12,476.27,SBD,1
 M,Wraps,Amateur Open,140,Tim Jones,137.08,197.31,108.86,233.6,539.77,SBD,5
-M,Wraps,Amateur Open,140,Matthew Stannard,133.36,233.6,142.88,272.16,648.64,SBD,3
+M,Raw,Amateur Open,140,Matthew Stannard,133.36,233.6,142.88,272.16,648.64,SBD,3
 M,Wraps,Amateur Open,140,Gerald Rogers,131.45,297.1,167.83,260.82,725.75,SBD,1
 M,Wraps,Amateur Submasters 33-39,140,John Oso Vervelakis,139.53,294.84,181.44,294.84,771.11,SBD,1
 M,Wraps,Pro Open,140,Rich Justice,132.9,376.48,213.19,333.39,923.06,SBD,1
-M,Raw,Pro Open,125,Edward Wilson,112.76,,204.12,317.51,521.63,BD,1
+M,Raw,Pro Open,125,Edward Wilson #3,112.76,,204.12,317.51,521.63,BD,1
 F,Wraps,Amateur Open,48,Kimberly Barrientos,46.81,83.91,43.09,108.86,235.87,SBD,1
 F,Wraps,Amateur Masters 40-44,52,Kitty Chan,51.98,45.36,34.02,99.79,179.17,SBD,1
 F,Wraps,Amateur Open,56,Shannon Evans #1,54.34,88.45,49.9,124.74,263.08,SBD,2

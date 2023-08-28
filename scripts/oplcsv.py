@@ -25,6 +25,14 @@ class Csv:
     def index(self, name):
         return self.fieldnames.index(name)
 
+    def ensure_column(self, name):
+        if name not in self.fieldnames:
+            self.append_column(name)
+
+    def ensure_columns(self, namelist):
+        missing = [name for name in namelist if name not in self.fieldnames]
+        self.append_columns(missing)
+
     def append_column(self, name):
         self.fieldnames.append(name)
         for row in self.rows:
@@ -63,6 +71,15 @@ class Csv:
                 self.remove_column_by_index(i)
                 self.remove_empty_columns()
                 return
+
+    def transform_column_values_by_index(self, idx, callable):
+        for row in self.rows:
+            row[idx] = callable(row[idx])
+
+    def transform_column_values_by_name(self, name, callable):
+        for i, header in enumerate(self.fieldnames):
+            if header == name:
+                self.transform_column_values_by_index(i, callable)
 
     # Integrate another Csv object into the current one.
     def cat(self, other):

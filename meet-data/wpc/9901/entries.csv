@@ -28,7 +28,7 @@ DQ,Christina Phillips,F_TEM_2_WPC,Canada,51.25,70,,82.5,82.5,,,,,,,,,,52,F,,,Mul
 1,Stephanie van de Weghe,F_OEM_WPC,USA,73.9,,,250,250,145,157.5,,157.5,185,200,,200,607.5,75,F,,1961,Multi-ply,SBD
 2,Julie Scanlon,F_OEM_WPC,USA,74.3,200,215,,215,127.5,,,127.5,182.5,210,,210,552.5,75,F,,1976,Multi-ply,SBD
 3,Maria Ficki,F_OEM_WPC,South Africa,74.4,160,,,160,90,95,100,100,170,180,,180,440,75,F,,,Multi-ply,SBD
-1,Kimberly Pfeiffer-Packer,F_MEM_1_WPC,USA,74,142.5,152.5,160,160,60,62.5,65,65,137.5,147.5,152.5,152.5,377.5,75,F,,,Multi-ply,SBD
+1,Kimberly Pfeiffer-Packer,F_SEM_WPC,USA,74,142.5,152.5,160,160,60,62.5,65,65,137.5,147.5,152.5,152.5,377.5,75,F,,,Multi-ply,SBD
 1,Patricia Damon,F_MEM_2_WPC,USA,73.5,107.5,115,,115,,67.5,,67.5,110,117.5,,117.5,300,75,F,,,Multi-ply,SBD
 1,Priscilla Giddings,F_TEM_2_WPC,USA,80.7,112.5,122.5,132.5,132.5,70,,77.5,77.5,150,162.5,170,170,380,82.5,F,,1983,Multi-ply,SBD
 1,Sandra Bentham,F_JEM_WPC,UK,81,120,,145,145,70,80,90,90,145,155,165,165,400,82.5,F,,1977,Multi-ply,SBD
@@ -60,12 +60,12 @@ DQ,Christina Phillips,F_TEM_2_WPC,Canada,51.25,70,,82.5,82.5,,,,,,,,,,52,F,,,Mul
 DQ,Shane Dishman,M_JEM_WPC,USA,67,,,,,,,,,,,,,,67.5,M,,,Multi-ply,SBD
 1,Sakari Selkäinaho,M_OEM_WPC,Finland,67.4,255,,272.5,272.5,160,167.5,,167.5,240,260,,260,700,67.5,M,,1962,Multi-ply,SBD
 2,Tim Judge,M_OEM_WPC,USA,67.2,217.5,,,217.5,147.5,,160,160,210,220,225,225,602.5,67.5,M,,1959,Multi-ply,SBD
-3,Steve Grey,M_OEM_WPC,UK,62.8,110,120,130,130,85,95,100,100,120,125,,125,355,67.5,M,,1968,Multi-ply,SBD
+3,Steven Grey,M_OEM_WPC,UK,62.8,110,120,130,130,85,95,100,100,120,125,,125,355,67.5,M,,1968,Multi-ply,SBD
 DQ,Conan Ries,M_OEM_WPC,South Africa,66.6,,,,,,,,,,,,,,67.5,M,,1970,Multi-ply,SBD
 1,Robert Charles,M_MEM_3_WPC,USA,66.2,205,215,,215,110,115,,115,205,215,,215,545,67.5,M,,1948,Multi-ply,SBD
 1,Martin Heindl,M_MEM_1_WPC,Austria,66.3,170,187.5,,187.5,120,130,132.5,132.5,210,230,,230,550,67.5,M,,1955,Multi-ply,SBD
-2,Budgie Mullan,M_MEM_3_WPC,UK,66.8,170,177.5,180.5,180.5,105.5,110,112.5,112.5,170,185,195.5,195.5,488.5,67.5,M,,,Multi-ply,SBD
-1,Surrinder Dhah,M_MEM_4_WPC,USA,67.5,120,132.5,140,140,80,,87.5,87.5,150,172.5,,172.5,400,67.5,M,,,Multi-ply,SBD
+1,Budgie Mullan,M_MEM_4_WPC,UK,66.8,170,177.5,180.5,180.5,105.5,110,112.5,112.5,170,185,195.5,195.5,488.5,67.5,M,,,Multi-ply,SBD
+2,Surrinder Dhah,M_MEM_4_WPC,USA,67.5,120,132.5,140,140,80,,87.5,87.5,150,172.5,,172.5,400,67.5,M,,,Multi-ply,SBD
 1,Roy Harper,M_SEM_WPC,Canada,66.5,125,,130,130,122.5,,,122.5,200,230,,230,482.5,67.5,M,,,Multi-ply,SBD
 1,Michael Walters,M_TEM_3_WPC,Canada,74,210,225,,225,65,75,80,80,185,197.5,205,205,510,75,M,,,Multi-ply,SBD
 1,Andries Randall,M_JEM_WPC,South Africa,74.5,220,240,,240,115,120,130,130,250,260,270,270,640,75,M,,1975,Multi-ply,SBD
@@ -80,8 +80,8 @@ DQ,Conan Ries,M_OEM_WPC,South Africa,66.6,,,,,,,,,,,,,,67.5,M,,1970,Multi-ply,SB
 1,Ricky Posey,M_MEM_5_WPC,USA,74,195,,,195,115,130,,130,205,220,,220,545,75,M,,,Multi-ply,SBD
 1,Vince Graham,M_SEM_WPC,Canada,75,235,240,,240,165,,,165,242.5,255,,255,660,75,M,,1964,Multi-ply,SBD
 2,Vince Tanabe,M_SEM_WPC,USA,68,200,210,217.5,217.5,,120,,120,210,215,222.5,222.5,560,75,M,,,Multi-ply,SBD
-1,Chris Brown,M_TEM_2_WPC,Canada,79.5,115,132.5,142.5,142.5,65,70,72.5,72.5,145,152.5,157.5,157.5,372.5,82.5,M,,,Multi-ply,SBD
-1,Akbar Farajov,M_TEM_3_WPC,Azerbaijan,81.75,250,265,,265,140,165,,165,220,250,265,265,695,82.5,M,,,Multi-ply,SBD
+1,Chris Brown #12,M_TEM_2_WPC,Canada,79.5,115,132.5,142.5,142.5,65,70,72.5,72.5,145,152.5,157.5,157.5,372.5,82.5,M,,,Multi-ply,SBD
+1,Akbar Faradjov,M_TEM_3_WPC,Azerbaijan,81.75,250,265,,265,140,165,,165,220,250,265,265,695,82.5,M,,,Multi-ply,SBD
 2,Rob Brown,M_TEM_3_WPC,Canada,82.3,,,200,200,70,77.5,82.5,82.5,150,160,167.5,167.5,450,82.5,M,,1981,Multi-ply,SBD
 1,Adam Schumaker,M_JEM_WPC,USA,82.5,215,250,,250,125,142.5,,142.5,215,,237.5,237.5,630,82.5,M,,,Multi-ply,SBD
 1,Neville Primich,M_OEM_WPC,South Africa,82,330,350,,350,212.5,,,212.5,270,280,300,300,862.5,82.5,M,,1967,Multi-ply,SBD
@@ -133,7 +133,7 @@ DQ,Erich Zeller,M_MEM_1_WPC,Austria,88.6,240,265,275,275,,155.5,160,160,,,,,,90,
 3,James Kegrice,M_SEM_WPC,USA,90,250,,,250,132.5,,,132.5,272.5,292.5,,292.5,675,90,M,,1965,Multi-ply,SBD
 DQ,Randy Etsell,M_SEM_WPC,Canada,89,,,220,220,,,,,,,,,,90,M,,1963,Multi-ply,SBD
 1,Martin Dopper,M_TEM_3_WPC,Austria,94.6,190,225,,225,125,140,145,145,215,,,215,585,100,M,,1981,Multi-ply,SBD
-2,Carl Rogers,M_TEM_3_WPC,UK,99,205,220,,220,110,,,110,210,225,,225,555,100,M,,1980,Multi-ply,SBD
+2,Carl Rogers #1,M_TEM_3_WPC,UK,99,205,220,,220,110,,,110,210,225,,225,555,100,M,,1980,Multi-ply,SBD
 1,Bernhard Schwab,M_JEM_WPC,Austria,99,310,330,,330,190,200,205,205,290,310,320,320,855,100,M,,1979,Multi-ply,SBD
 2,Eric Patterson,M_JEM_WPC,USA,95.5,277.5,300,320,320,202.5,,,202.5,260,280,295,295,817.5,100,M,,,Multi-ply,SBD
 3,Markus Feichter,M_JEM_WPC,Austria,98.5,250,,265,265,140,150,157.5,157.5,250,277.5,,277.5,700,100,M,,1979,Multi-ply,SBD
@@ -182,7 +182,7 @@ DQ,Vugar Zeynalov,M_JEM_WPC,Azerbaijan,100.5,,,,,,,,,,,,,,110,M,,1977,Multi-ply,
 2,John Mazmanian,M_MEM_1_WPC,USA,107.2,255,267.5,272.5,272.5,,,190,190,272.5,295,,295,757.5,110,M,,,Multi-ply,SBD
 3,Walt Kracknell,M_MEM_1_WPC,USA,107,240,260,267.5,267.5,150,,165,165,242.5,260,267.5,267.5,700,110,M,,,Multi-ply,SBD
 4,Henry Fourie,M_MEM_1_WPC,South Africa,100.2,220,230,,230,115,,125,125,215,,225,225,580,110,M,,1958,Multi-ply,SBD
-1,Doug Williams,M_MEM_2_WPC,UK,107.5,,290,,290,185,195,,195,300,310,,310,795,110,M,,1954,Multi-ply,SBD
+1,Doug Williams #2,M_MEM_2_WPC,UK,107.5,,290,,290,185,195,,195,300,310,,310,795,110,M,,1954,Multi-ply,SBD
 2,Josef Pollendorfer,M_MEM_2_WPC,Austria,107.3,280,290,,290,150,160,165,165,250,265,280,280,735,110,M,,1951,Multi-ply,SBD
 1,Larry Sandberg,M_MEM_4_WPC,USA,106,262.5,272.5,,272.5,170,182.5,,182.5,275,285,295,295,750,110,M,,1940,Multi-ply,SBD
 2,Doug Schumaker,M_MEM_3_WPC,USA,106.6,222.5,,,222.5,182.5,190,,190,240,250,,250,662.5,110,M,,1948,Multi-ply,SBD
@@ -199,21 +199,21 @@ DQ,Allan Sprague,M_SEM_WPC,Canada,102.5,,,,,,182.5,192.5,192.5,205,225,250,250,,
 2,Christian Urbanc,M_JEM_WPC,Austria,120.4,270,290,300,300,140,155,,155,290,295,,295,750,125,M,,1978,Multi-ply,SBD
 3,Oan Basson,M_JEM_WPC,Israel,119.8,250,270,,270,205,212.5,217.5,217.5,220,240,260,260,747.5,125,M,,1977,Multi-ply,SBD
 4,Brad Boechler,M_JEM_WPC,Canada,117.2,260,,277.5,277.5,175,182.5,190,190,260,,,260,727.5,125,M,,,Multi-ply,SBD
-DQ,Lee Thomas,M_JEM_WPC,UK,121.5,,200,220,220,142.5,150,155,155,,,,,,125,M,,1977,Multi-ply,SBD
+DQ,Lee Thomas #1,M_JEM_WPC,UK,121.5,,200,220,220,142.5,150,155,155,,,,,,125,M,,1977,Multi-ply,SBD
 DQ,Joseph Lowder,M_JEM_WPC,USA,124,,,,,,,,,,,,,,125,M,,,Multi-ply,SBD
 1,Ano Turtiainen,M_OEM_WPC,Finland,122.3,380,400,407.5,407.5,240,,260,260,340,370,,370,1037.5,125,M,,1967,Multi-ply,SBD
 2,Shelby Robbins,M_OEM_WPC,USA,125,345,,382.5,382.5,225,,245,245,285,305,,305,932.5,125,M,,,Multi-ply,SBD
 3,Steffen Hayn,M_OEM_WPC,Germany,119.2,300,325,335,335,,195,,195,290,,,290,820,125,M,,1976,Multi-ply,SBD
 4,Dave Chouinard,M_OEM_WPC,Canada,112.4,290,310,,310,160,175,,175,245,265,280,280,765,125,M,,1971,Multi-ply,SBD
-DQ,Mikko Hamalainen,M_OEM_WPC,Finland,116.2,260,285,300,300,,,,,,,,,,125,M,,1977,Multi-ply,SBD
-DQ,Jon Grove,M_OEM_WPC,USA,122.5,340,,,340,,,,,,,,,,125,M,,1974,Multi-ply,SBD
+DQ,Mikko Hämäläinen,M_OEM_WPC,Finland,116.2,260,285,300,300,,,,,,,,,,125,M,,1977,Multi-ply,SBD
+DQ,Jon Grove,M_OEM_WPC,USA,122.5,340,,,340,,,,,,,,,,125,M,,,Multi-ply,SBD
 1,Lee Marshall,M_MEM_1_WPC,UK,118.2,360,380,390.5,390.5,180,190,200,200,320,340,350,350,940.5,125,M,,1959,Multi-ply,SBD
 2,Peter Pacas,M_MEM_1_WPC,Austria,118.5,,315,325,325,162.5,170,172.5,172.5,300,317.5,325,325,822.5,125,M,,1957,Multi-ply,SBD
 3,Tom Brooks,M_MEM_1_WPC,Canada,116.1,260,300,320,320,,170,,170,280,300,,300,790,125,M,,1959,Multi-ply,SBD
 4,Pekka Rantanen,M_MEM_1_WPC,Finland,124,290,,300,300,,215,,215,270,,,270,785,125,M,,1957,Multi-ply,SBD
 5,Ted Stewart,M_MEM_1_WPC,USA,118.5,240,265,277.5,277.5,150,,,150,260,275,,275,702.5,125,M,,1956,Multi-ply,SBD
 1,Ian Visser,M_MEM_2_WPC,South Africa,121,270,295,305,305,180,200,,200,220,242.5,250,250,755,125,M,,1953,Multi-ply,SBD
-2,Rex Thomas,M_MEM_2_WPC,UK,123.3,220,240,250,250,120,135,145,145,270,280,282.5,282.5,677.5,125,M,,1951,Multi-ply,SBD
+2,David Thomas #4,M_MEM_2_WPC,UK,123.3,220,240,250,250,120,135,145,145,270,280,282.5,282.5,677.5,125,M,,1951,Multi-ply,SBD
 3,Delmar Brown,M_MEM_2_WPC,USA,117,,237.5,272.5,272.5,162.5,,,162.5,205,227.5,240,240,675,125,M,,1953,Multi-ply,SBD
 1,Brian Meek,M_MEM_3_WPC,USA,124.9,332.5,,,332.5,232.5,,,232.5,295,307.5,,307.5,872.5,125,M,,1946,Multi-ply,SBD
 2,Jerry O'Conner,M_MEM_3_WPC,Canada,114.6,230,245,255,255,140,,,140,230,,,230,625,125,M,,1947,Multi-ply,SBD
@@ -224,7 +224,7 @@ DQ,Jon Grove,M_OEM_WPC,USA,122.5,340,,,340,,,,,,,,,,125,M,,1974,Multi-ply,SBD
 DQ,Steven Peters,M_SEM_WPC,South Africa,116.4,,,,,,,,,,,,,,125,M,,,Multi-ply,SBD
 1,Scott Warman,M_OEM_WPC,USA,125.2,410,,432.5,432.5,,,217.5,217.5,350,,372.5,372.5,1022.5,140,M,,1956,Multi-ply,SBD
 2,Holger Kuttroff,M_OEM_WPC,Germany,137.6,370,400,410,410,250,265,,265,290,310,325,325,1000,140,M,,1969,Multi-ply,SBD
-3,Art LaBare,M_OEM_WPC,USA,128.6,350,,390,390,250,,,250,312.5,337.5,,337.5,977.5,140,M,,1978,Multi-ply,SBD
+3,Art LaBare,M_OEM_WPC,USA,128.6,350,,390,390,250,,,250,312.5,337.5,,337.5,977.5,140,M,,,Multi-ply,SBD
 4,Allan Mehan,M_OEM_WPC,Canada,130.8,387.5,,417.5,417.5,,,225,225,300,317.5,,317.5,960,140,M,,1972,Multi-ply,SBD
 1,Pat Mallough,M_MEM_1_WPC,Canada,132.2,260,,300,300,200,,210,210,300,315,325,325,835,140,M,,,Multi-ply,SBD
 2,Jan van de Weghe,M_MEM_1_WPC,USA,134,275,,,275,195,,212.5,212.5,282.5,310,,310,797.5,140,M,,1955,Multi-ply,SBD
@@ -234,7 +234,7 @@ DQ,Steven Peters,M_SEM_WPC,South Africa,116.4,,,,,,,,,,,,,,125,M,,,Multi-ply,SBD
 2,Tim Bentley,M_MEM_3_WPC,USA,125.5,312.5,322.5,,322.5,202.5,,,202.5,272.5,,,272.5,797.5,140,M,,1948,Multi-ply,SBD
 1,Charles Clonce,M_MEM_4_WPC,USA,129.3,242.5,,277.5,277.5,,,140.5,140.5,200,,222.5,222.5,640.5,140,M,,1943,Multi-ply,SBD
 1,Hubert Dörer,M_SEM_WPC,Austria,126,382.5,420,430,430,200,212.5,,212.5,320,335,,335,977.5,140,M,,1966,Multi-ply,SBD
-2,Johan Smith,M_SEM_WPC,South Africa,133.5,260,285,,285,170,,200,200,270,290,,290,775,140,M,,,Multi-ply,SBD
+2,Hannie Smith,M_SEM_WPC,South Africa,133.5,260,285,,285,170,,200,200,270,290,,290,775,140,M,,,Multi-ply,SBD
 1,Aaron Ross,M_JEM_WPC,USA,150.5,362.5,390,,390,250,,,250,310,325,337.5,337.5,977.5,140+,M,,1977,Multi-ply,SBD
 2,Mags Shultz,M_JEM_WPC,Canada,165,305,330,,330,200,,,200,285,300,,300,830,140+,M,,,Multi-ply,SBD
 1,Garry Frank #1,M_OEM_WPC,USA,170,382.5,,,382.5,,300,,300,385,,,385,1067.5,140+,M,,1964,Multi-ply,SBD
@@ -320,12 +320,12 @@ DQ,Franz Krivanek,M_MEM_5_WPC,Austria,91.5,,,,,,,,,,,,,,100,M,,,Multi-ply,B
 2,Gerald Kuslolek,M_MEM_1_WPC,USA,108.7,,,,,187.5,195,,195,,,,,195,110,M,,,Multi-ply,B
 1,Jean Chenin,M_SEM_WPC,France,108.3,,,,,220,230,237.5,237.5,,,,,237.5,110,M,,,Multi-ply,B
 2,Frank Schütze,M_SEM_WPC,Germany,104.5,,,,,220,230,,230,,,,,230,110,M,,1963,Multi-ply,B
-1,Mikko Hamalainen,M_JEM_WPC,Finland,119.6,,,,,,240,250,250,,,,,250,125,M,,1977,Multi-ply,B
+1,Mikko Hämäläinen,M_JEM_WPC,Finland,119.6,,,,,,240,250,250,,,,,250,125,M,,1977,Multi-ply,B
 2,Oan Basson,M_JEM_WPC,Israel,117.5,,,,,,205,217.5,217.5,,,,,217.5,125,M,,1977,Multi-ply,B
 1,Aaron Gausvik,M_OEM_WPC,Canada,125,,,,,207.5,,,207.5,,,,,207.5,125,M,,,Multi-ply,B
 1,Pekka Rantanen,M_MEM_1_WPC,Finland,123.1,,,,,,210,220,220,,,,,220,125,M,,1957,Multi-ply,B
 2,John Walker #5,M_MEM_1_WPC,UK,117.2,,,,,190,200,212.5,212.5,,,,,212.5,125,M,,1955,Multi-ply,B
-3,Noble Cozine,M_MEM_1_WPC,USA,116.5,,,,,180,195,,195,,,,,195,125,M,,1956,Multi-ply,B
+3,Cozy Cozine,M_MEM_1_WPC,USA,116.5,,,,,180,195,,195,,,,,195,125,M,,1956,Multi-ply,B
 4,Jerry Vest,M_MEM_1_WPC,USA,120,,,,,115,,,115,,,,,115,125,M,,,Multi-ply,B
 1,Bennie Dooley,M_MEM_2_WPC,USA,114.5,,,,,,227.5,,227.5,,,,,227.5,125,M,,,Multi-ply,B
 2,Meinhardt Schroeder,M_MEM_2_WPC,Germany,120.5,,,,,205,215,220,220,,,,,220,125,M,,1951,Multi-ply,B
@@ -335,7 +335,7 @@ DQ,Franz Krivanek,M_MEM_5_WPC,Austria,91.5,,,,,,,,,,,,,,100,M,,,Multi-ply,B
 2,Stephen Peterse,M_SEM_WPC,South Africa,116.5,,,,,170,,,170,,,,,170,125,M,,,Multi-ply,B
 1,Jari Sioman,M_OEM_WPC,Finland,127,,,,,,300.5,,300.5,,,,,300.5,140,M,,1965,Multi-ply,B
 2,Hubert Dörer,M_OEM_WPC,Austria,126,,,,,190,210,222.5,222.5,,,,,222.5,140,M,,1966,Multi-ply,B
-1,Johan Smith,M_SEM_WPC,South Africa,136.5,,,,,170,,,170,,,,,170,140,M,,,Multi-ply,B
+1,Hannie Smith,M_SEM_WPC,South Africa,136.5,,,,,170,,,170,,,,,170,140,M,,,Multi-ply,B
 1,Thomas Wegscheider,M_OEM_WPC,Austria,140.1,,,,,220,240,,240,,,,,240,140+,M,,1974,Multi-ply,B
 1,Michael Cain,M_MEM_1_WPC,USA,146.6,,,,,227.5,245,260,260,,,,,260,140+,M,,1957,Multi-ply,B
 1,Phil Niemandt,M_MEM_2_WPC,South Africa,151.2,,,,,155,170,180,180,,,,,180,140+,M,,1952,Multi-ply,B

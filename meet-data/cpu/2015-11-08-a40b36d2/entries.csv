@@ -1,7 +1,7 @@
 Event,Sex,Name,State,BodyweightKg,WeightClassKg,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Place
 SBD,M,Darshan Gill,BC,92.9,93,Masters 4,177.5,122.5,185.0,485.0,Single-ply,1
-SBD,M,Matthew Vena,BC,72.4,74,Sub-Juniors,191.5,82.5,200.0,474.0,Raw,1
-SBD,M,Kyle Andersen,BC,72.0,74,Sub-Juniors,147.5,80.0,165.0,392.5,Raw,2
+SBD,M,Matthew Lewis Vena,BC,72.4,74,Sub-Juniors,191.5,82.5,200.0,474.0,Raw,1
+SBD,M,Kyle Andersen #4,BC,72.0,74,Sub-Juniors,147.5,80.0,165.0,392.5,Raw,2
 SBD,M,Derek Situ,BC,64.0,66,Sub-Juniors,137.5,85.0,162.5,385.0,Raw,1
 SBD,F,Emma Gilchrist,BC,59.6,63,Sub-Juniors,85.0,37.5,100.0,222.5,Raw,1
 SBD,M,Nathaniel Werner,BC,87.5,93,Open,205.0,132.5,230.0,567.5,Raw,2
@@ -13,7 +13,7 @@ SBD,M,Anthony Pratt,BC,81.3,83,Open,132.5,137.5,220.0,490.0,Raw,2
 SBD,M,Kieran Wood,BC,71.6,74,Open,185.0,137.5,220.0,542.5,Raw,1
 SBD,F,Khelsie Butterworth,BC,71.8,72,Open,87.5,52.5,110.0,250.0,Raw,2
 SBD,F,Gallia Porter,BC,66.0,72,Open,97.5,55.0,100.0,252.5,Raw,1
-SBD,M,Tony Vuong,BC,64.3,66,Open,207.5,125.0,202.5,535.0,Raw,2
+SBD,M,Tony Vuong #2,BC,64.3,66,Open,207.5,125.0,202.5,535.0,Raw,2
 SBD,M,Ryun Laniec,BC,65.1,66,Open,195.0,127.5,215.0,537.5,Raw,1
 SBD,F,Dawn Barroso,BC,61.3,63,Open,105.0,60.0,135.0,300.0,Raw,1
 SBD,F,Regina Openshaw,BC,57.0,57,Open,90.0,32.5,97.5,220.0,Raw,1
@@ -29,7 +29,7 @@ SBD,M,An Dinh,BC,92.2,93,Juniors,255.0,162.5,272.5,690.0,Raw,1
 SBD,F,Sarah Van Der Kamp,BC,88.9,84+,Juniors,105.0,50.0,132.5,287.5,Raw,1
 SBD,M,Sulaiman Marouf,BC,78.9,83,Juniors,117.5,85.0,155.0,357.5,Raw,4
 SBD,M,Kevin Chu #2,BC,81.7,83,Juniors,220.0,147.5,227.5,595.0,Raw,1
-SBD,M,Alexander Ross,BC,80.5,83,Juniors,215.0,137.5,225.0,577.5,Raw,2
+SBD,M,Alexander Ross #1,BC,80.5,83,Juniors,215.0,137.5,225.0,577.5,Raw,2
 SBD,M,Alex Bai,BC,75.3,83,Juniors,170.0,117.5,200.0,487.5,Raw,3
 SBD,M,Kevin Yoon,BC,71.9,74,Juniors,185.0,115.0,227.5,527.5,Raw,1
 SBD,M,Henry Michaelson,BC,73.2,74,Juniors,167.5,135.0,202.5,505.0,Raw,2

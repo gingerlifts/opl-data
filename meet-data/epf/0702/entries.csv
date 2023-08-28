@@ -30,7 +30,7 @@ Place,Name,BirthYear,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatK
 7,Maria Szymkowiak,1961,Poland,59.05,145,152.5,-157.5,152.5,80,85,-90,85,150,162.5,-167.5,162.5,400,60,Open,SBD,F,Single-ply
 8,Monika Rovná,1982,Czechia,57.05,147.5,155,-160,155,62.5,67.5,70,70,140,145,-150,145,370,60,Open,SBD,F,Single-ply
 9,Eva Buxbom,1969,Denmark,59.6,-130,-130,130,130,70,75,80,80,137.5,-147.5,-147.5,137.5,347.5,60,Open,SBD,F,Single-ply
-10,Katherine Bak,1981,Denmark,59.75,110,-117.5,117.5,117.5,65,70,-72.5,70,140,152.5,-157.5,152.5,340,60,Open,SBD,F,Single-ply
+10,Kathrine Holmgaard Bak,1981,Denmark,59.75,110,-117.5,117.5,117.5,65,70,-72.5,70,140,152.5,-157.5,152.5,340,60,Open,SBD,F,Single-ply
 1,Antonietta Orsini,1964,Italy,66.5,195,-202.5,202.5,202.5,137.5,142.5,-147.5,142.5,200,205,210,210,555,67.5,Open,SBD,F,Single-ply
 2,Gillian Wright,1973,UK,66.65,-172.5,172.5,180,180,107.5,-112.5,112.5,112.5,190,202.5,-212.5,202.5,495,67.5,Open,SBD,F,Single-ply
 3,Inna Terasmaa,1967,Estonia,66.25,-180,180,-190,180,-105,-105,105,105,175,-190,-190,175,460,67.5,Open,SBD,F,Single-ply
@@ -91,7 +91,7 @@ DQ,Thomas Wulffeld,1969,Sweden,59.7,-200,-207.5,210,210,-120,-120,-120,,215,-232
 DQ,Robert Mihailov,1977,Bulgaria,78.95,-275,-280,-280,,185,197.5,-210,197.5,275,300,320,320,,82.5,Open,SBD,M,Single-ply
 DQ,Arvo Kaljapulk,1982,Estonia,82.05,-275,-275,-275,,-150,-150,-150,,300,305,-322.5,305,,82.5,Open,SBD,M,Single-ply
 DQ,Aivo Nurmine,1964,Estonia,82.1,-270,-270,-270,,205,-210,-215,205,-280,,,,,82.5,Open,SBD,M,Single-ply
-1,Andrew Ivanets,1984,Belarus,89.45,300,312.5,322.5,322.5,185,192.5,-200,192.5,320,327.5,332.5,332.5,847.5,90,Open,SBD,M,Single-ply
+1,Andrey Ivanets,1984,Belarus,89.45,300,312.5,322.5,322.5,185,192.5,-200,192.5,320,327.5,332.5,332.5,847.5,90,Open,SBD,M,Single-ply
 2,Mario Kurzendörfer,1974,Germany,88.75,-300,315,322.5,322.5,225,-232.5,232.5,232.5,270,285,-295,285,840,90,Open,SBD,M,Single-ply
 3,Pjotr van den Hoek,1972,Netherlands,89.9,300,-312.5,312.5,312.5,225,-232.5,-232.5,225,285,292.5,300,300,837.5,90,Open,SBD,M,Single-ply
 4,Jiří Horník,1978,Czechia,88.55,270,290,-300,290,200,210,215,215,300,312.5,-325,312.5,817.5,90,Open,SBD,M,Single-ply
@@ -145,7 +145,7 @@ DQ,Wolfgang Zimmermann,1968,Germany,108.45,-307,307,315,315,-217,-217,-220,,,,,,
 2,Jari Martikainen,1975,Finland,147.2,385,405,-415,405,260,-267.5,-267.5,260,310,330,340,340,1005,125+,Open,SBD,M,Single-ply
 3,Johnny Wahlqvist,1973,Sweden,174.6,380,390,400,400,-307.5,312.5,-330,312.5,280,-290,-290,280,992.5,125+,Open,SBD,M,Single-ply
 4,Olaf Dahl,1977,Norway,142.3,350,360,370,370,245,252.5,257.5,257.5,345,355,-365,355,982.5,125+,Open,SBD,M,Single-ply
-5,Fredrik Svensson,1979,Sweden,145.7,330,345,352.5,352.5,-320,320,-341,320,300,-320,-320,300,972.5,125+,Open,SBD,M,Single-ply
+5,Fredrik Svensson #1,1979,Sweden,145.7,330,345,352.5,352.5,-320,320,-341,320,300,-320,-320,300,972.5,125+,Open,SBD,M,Single-ply
 6,James Blanchflower,1966,UK,167.1,357.5,375,382.5,382.5,260,280,285,285,285,-300,300,300,967.5,125+,Open,SBD,M,Single-ply
 7,Milan Špingl,1980,Czechia,138.4,365,-380,380,380,255,262.5,-272.5,262.5,305,315,-325,315,957.5,125+,Open,SBD,M,Single-ply
 8,Andy-Elvis Dörner,1976,Germany,132.1,375,-400,405,405,232.5,237.5,-242.5,237.5,295,305,310,310,952.5,125+,Open,SBD,M,Single-ply

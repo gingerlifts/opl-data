@@ -5,10 +5,10 @@ Place,Name,CyrillicName,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,TotalKg,
 1,Olga Fetisova,Ольга Фетісова,Ukraine,55.6,-35,35,-37.5,35,56,Pro Open,B,Raw,35,1974,F
 1,Marina Fastova,Марина Фастова,Ukraine,57.9,35,37.5,-40,37.5,60,Pro Open,B,Raw,37.5,1983,F
 2,Olga Morozova,Ольга Морозова,Ukraine,59.5,35,-40,-40,35,60,Pro Open,B,Raw,35,1976,F
-1,Ivan Andryushchenko,Іван Андрющенко,Ukraine,47.3,55,60,67.5,67.5,48,Pro Open,B,Raw,67.5,1998,M
-1,Ivan Naumov,Иван Наумов,Ukraine,51.4,55,60,-65,60,52,Pro Open,B,Raw,60,1997,M
+1,Ivan Andryushchenko #1,Іван Андрющенко,Ukraine,47.3,55,60,67.5,67.5,52,Pro Open,B,Raw,67.5,1998,M
+1,Ivan Naumov #1,Іван Наумов,Ukraine,51.4,55,60,-65,60,52,Pro Open,B,Raw,60,1997,M
 1,Vladislav Chervoniy,Владислав Червоний,Ukraine,59.4,90,-95,-95,90,60,Pro Open,B,Raw,90,1996,M
-2,Ivan Lutsenko,Іван Луценко,Ukraine,57.7,80,85,-90,85,60,Pro Open,B,Raw,85,1995,M
+2,Ivan Lutsenko #2,Іван Луценко,Ukraine,57.7,80,85,-90,85,60,Pro Open,B,Raw,85,1995,M
 3,Georgiy Yuldashev,Георгій Юлдашев,Ukraine,57.2,67.5,70,-75,70,60,Pro Open,B,Raw,70,1998,M
 1,Mikita Lichaniy,Микита Личаний,Ukraine,64.7,100,110,-117.5,110,67.5,Pro Open,B,Raw,110,1993,M
 2,Vladislav Mamalyuk,Владислав Мамалюк,Ukraine,66.5,95,100,105,105,67.5,Pro Open,B,Raw,105,1996,M
@@ -26,7 +26,7 @@ Place,Name,CyrillicName,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,TotalKg,
 1,Dmitro Domnu,Дмитро Домну,Ukraine,74.9,132.5,137.5,140,140,75,Pro Open,B,Raw,140,1983,M
 2,Sergiy Kutoviy,Сергій Кутовий,Ukraine,73.9,120,132.5,-135,132.5,75,Pro Open,B,Raw,132.5,1983,M
 3,Evgen Elekberov,Євген Елекберов,Ukraine,74.3,120,130,-137.5,130,75,Pro Open,B,Raw,130,1990,M
-4,Yuriy Fedotov,Юрій Федотов,Ukraine,,95,-110,-110,95,75,Pro Open,B,Raw,95,1988,M
+4,Yuriy Fedotov #1,Юрій Федотов,Ukraine,,95,-110,-110,95,75,Pro Open,B,Raw,95,1988,M
 5,Oleksandr Shchetkovskiy,Олександр Щетковський,Ukraine,74.8,80,85,-95,85,75,Pro Open,B,Raw,85,1986,M
 1,Dmitro Markov,Дмитро Марков,Ukraine,79.6,145,155,162.5,162.5,82.5,Pro Open,B,Raw,162.5,1984,M
 2,Roman Odnovol,Роман Одновол,Ukraine,79.7,140,-150,152.5,152.5,82.5,Pro Open,B,Raw,152.5,1977,M
@@ -57,7 +57,7 @@ DQ,Andriy Akinin,Андрій Акінін,Ukraine,89.1,-110,-115,,,90,Pro Open,
 1,Oleksandr Striga,Олександр Стрига,Ukraine,119.1,200,212.5,-220,212.5,125,Pro Open,B,Raw,212.5,1967,M
 1,Svitlana Fofanova,Світлана Фофанова,Ukraine,52,-60,62.5,-65,62.5,52,Pro Open,B,Multi-ply,62.5,1988,F
 1,Anton Fedorenko,Антон Федоренко,Ukraine,79,-165,165,-180,165,82.5,Pro Open,B,Multi-ply,165,1985,M
-1,Igor Markin,Ігор Маркін,Ukraine,90.4,225,-232.5,-240,225,100,Pro Open,B,Multi-ply,225,1988,M
+1,Igor Markin #2,Ігор Маркін,Ukraine,90.4,225,-232.5,-240,225,100,Pro Open,B,Multi-ply,225,1988,M
 2,Artem Mishustin,Артем Мішустін,Ukraine,94.9,170,180,-187.5,180,100,Pro Open,B,Multi-ply,180,1989,M
 1,Konstyantin Martinenko,Констянтин Мартиненко,Ukraine,103.6,190,-200,,190,110,Pro Open,B,Multi-ply,190,1984,M
 1,Volodimir Samusev,Володимир Самусев,Ukraine,112,190,-200,-205,190,125,Pro Open,B,Multi-ply,190,1976,M

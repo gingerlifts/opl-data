@@ -17,23 +17,23 @@ A. Mandel,75,Teen 2,M,B,Single-ply,,145.15,,,145.15,1
 J. Kowalsky,75,Submasters,M,B,Single-ply,,163.29,167.83,,163.29,1
 Kelving Green,82.5,Pure,M,B,Single-ply,,181.44,,,181.44,1
 E. Moldauer,82.5,Pure,M,B,Single-ply,,170.1,,,170.1,2
-D. Hein #1,82.5,Pure,M,B,Single-ply,,156.49,,,156.49,3
+D. Hein,82.5,Pure,M,B,Single-ply,,156.49,,,156.49,3
 M. Menzel,82.5,Pure,M,B,Single-ply,,136.08,,,136.08,4
 Kelving Green,82.5,Natural,M,B,Single-ply,,181.44,,,181.44,1
 E. Moldauer,82.5,Natural,M,B,Single-ply,,170.1,,,170.1,2
 Larry Mattei,82.5,Masters 2,M,B,Single-ply,,74.84,,,74.84,1
 J. Richards,90,Pure Novice,M,B,Single-ply,,136.08,,,136.08,1
 J. Richards,90,Pure,M,B,Single-ply,,136.08,,,136.08,1
-T. Matchick,90,Pure,M,B,Single-ply,,,,,,DQ
+Todd Matchick,90,Pure,M,B,Single-ply,,,,,,DQ
 R. Zurich,90,Natural,M,B,Single-ply,,215.46,,,215.46,1
 Bill Burlew,90,Natural,M,B,Single-ply,,174.63,,,174.63,2
 Bill Burlew,90,Masters 1,M,B,Single-ply,,174.63,,,174.63,1
 J. Burton,90,Masters 1,M,B,Single-ply,,142.88,,,142.88,2
 Kwaitkowski,100,Pure Novice,M,B,Single-ply,,161.03,,,161.03,1
 A. Heteny,100,Pure Novice,M,B,Single-ply,,140.61,,,140.61,2
-B. Haskins,100,Pure,M,B,Single-ply,,199.58,,,199.58,1
+B. Haskins #1,100,Pure,M,B,Single-ply,,199.58,,,199.58,1
 Kwaitkowski,100,Pure,M,B,Single-ply,,161.03,,,161.03,2
-B. Haskins,100,Natural,M,B,Single-ply,,199.58,,,199.58,1
+B. Haskins #1,100,Natural,M,B,Single-ply,,199.58,,,199.58,1
 Brian Katz,100,Teen 2,M,B,Single-ply,,185.97,,,185.97,1
 Kwaitkowski,100,Submasters,M,B,Single-ply,,161.03,,,161.03,1
 Frank Suarez Sr,100,Masters 2,M,B,Single-ply,,136.08,,,136.08,1
@@ -53,7 +53,7 @@ Tim Hubler,125,Masters 1,M,B,Single-ply,,174.63,,,174.63,1
 M. Goldberg,125,Masters 2,M,B,Single-ply,,151.95,,,151.95,1
 J. Tahmoosh,125+,Pure,M,B,Single-ply,,258.55,,,258.55,1
 J. Tahmoosh,125+,Natural,M,B,Single-ply,,258.55,,,258.55,1
-M. Bott,48,Masters 1,F,SBD,Single-ply,113.4,49.9,,102.06,265.35,1
+Maria Bott,48,Masters 1,F,SBD,Single-ply,113.4,49.9,,102.06,265.35,1
 B. Fuller,52,Teen 1,M,SBD,Single-ply,86.18,58.97,,117.93,263.08,1
 B. Muscarella,60,Pure,M,SBD,Single-ply,195.04,111.13,,172.37,478.54,1
 K. Raso,60,Pure,F,SBD,Single-ply,99.79,68.04,,136.08,303.91,1
@@ -93,6 +93,6 @@ Henri Skiba,125,Pure,M,SBD,Single-ply,317.52,176.9,,267.62,762.04,1
 Tim Hubler,125,Natural,M,SBD,Single-ply,249.48,181.44,,226.8,657.71,1
 Henri Skiba,125,Submasters,M,SBD,Single-ply,317.52,176.9,,267.62,762.04,1
 Tim Hubler,125,Masters 1,M,SBD,Single-ply,249.48,181.44,,226.8,657.71,1
-J. Novo,125+,Pure,M,SBD,Single-ply,136.08,185.97,,215.46,537.51,1
+Joe Novo,125+,Pure,M,SBD,Single-ply,136.08,185.97,,215.46,537.51,1
 Jim Sullivan,125+,Submasters,M,SBD,Single-ply,235.87,172.37,,204.12,612.35,1
-J. Novo,125+,Masters 1,M,SBD,Single-ply,136.08,185.97,,215.46,537.51,1
+Joe Novo,125+,Masters 1,M,SBD,Single-ply,136.08,185.97,,215.46,537.51,1

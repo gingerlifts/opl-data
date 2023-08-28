@@ -32,7 +32,7 @@ Nick Hutson,54.95,56,M,22,MR-Jr,127.5,-132.5,-132.5,127.5,127.5,MD,B,Raw,1
 Brian Siddons,55.75,56,M,31,M-O,97.5,-105,-105,97.5,97.5,IN,B,Single-ply,1
 Jay Hadden,55.7,56,M,37,MR-O,95,-107.5,-107.5,95,95,CA,B,Raw,1
 Bleda Elibal,53.25,56,M,51,M-M2a,75,80,-85,80,80,FL,B,Single-ply,1
-Chet Mangra,59.95,60,M,52,M-O,97.5,100,-112.5,100,100,NY,B,Single-ply,1
+Chetram Mangra,59.95,60,M,52,M-O,97.5,100,-112.5,100,100,NY,B,Single-ply,1
 John Olver,59.95,60,M,19,MR-T3,-70,70,72.5,72.5,72.5,PA,B,Raw,1
 Joe Smith,67,67.5,M,33,M-O,-207.5,207.5,-215,207.5,207.5,OH,B,Single-ply,1
 Jeffrey Hadad,66.75,67.5,M,44,M-M1a,160,167.5,172.5,172.5,172.5,NH,B,Single-ply,1
@@ -66,11 +66,11 @@ Joe DeMatteo,82.2,82.5,M,41,M-O,215,225,227.5,227.5,227.5,NJ,B,Single-ply,2
 Mike Ciupinski,82.4,82.5,M,31,M-O,225,-232.5,-245,225,225,NJ,B,Single-ply,3
 Charlie Conner,80.75,82.5,M,20,M-C,187.5,-195,-195,187.5,187.5,TN,B,Single-ply,1
 Jeff Blindauer,82.25,82.5,M,40,M-M1a,182.5,-187.5,187.5,187.5,187.5,IL,B,Single-ply,2
-Tom Cencich,82.35,82.5,M,49,M-M2a,-180,180,185,185,185,CO,B,Single-ply,1
+Thomas Cencich,82.35,82.5,M,49,M-M2a,-180,180,185,185,185,CO,B,Single-ply,1
 Travis Pardue,82.05,82.5,M,39,M-LT,-180,180,-185,180,180,NC,B,Single-ply,1
 Charlie Conner,80.75,82.5,M,20,M-Jr,187.5,-195,-195,187.5,187.5,TN,B,Single-ply,1
 Jeff Blindauer,82.25,82.5,M,40,M-O,182.5,-187.5,187.5,187.5,187.5,IL,B,Single-ply,4
-Tom Cencich,82.35,82.5,M,49,M-O,-180,180,185,185,185,CO,B,Single-ply,5
+Thomas Cencich,82.35,82.5,M,49,M-O,-180,180,185,185,185,CO,B,Single-ply,5
 Travis Pardue,82.05,82.5,M,39,M-O,-180,180,-185,180,180,NC,B,Single-ply,6
 Andrew Halko,82.1,82.5,M,32,MR-O,150,-170,-170,150,150,NJ,B,Raw,1
 James Bardsley III,79.95,82.5,M,22,MR-Jr,127.5,132.5,-135,132.5,132.5,MD,B,Raw,1
@@ -129,7 +129,7 @@ Troy Lehrer,99.85,100,M,40,M-M1a,-235,-235,-247.5,,,NJ,B,Single-ply,DQ
 Kevin Mayer,109.3,110,M,43,M-M1a,-285,285,290,290,290,OH,B,Single-ply,1
 Troy Lehrer,99.85,100,M,40,M-O,-235,-235,-247.5,,,NJ,B,Single-ply,DQ
 Kevin Mayer,109.3,110,M,43,M-O,-285,285,290,290,290,OH,B,Single-ply,1
-Brady Stewart,109.4,110,M,28,M-O,270,-280,287.5,287.5,287.5,IL,B,Single-ply,2
+Brady Stewart #1,109.4,110,M,28,M-O,270,-280,287.5,287.5,287.5,IL,B,Single-ply,2
 Chris Asbury,102.5,110,M,39,M-M1a,280,-290,-290,280,280,WV,B,Single-ply,2
 Pat Cannon,106.2,110,M,54,M-M2a,222.5,230,235,235,235,OH,B,Single-ply,1
 Tim Durrett,106,110,M,36,M-O,220,-227.5,-227.5,220,220,VA,B,Single-ply,3
@@ -159,7 +159,7 @@ Skip Regan,123.8,125,M,58,M-M2b,200,210,-227.5,210,210,FL,B,Single-ply,2
 Michael Porter #4,118.8,125,M,50,M-MO,190,200,-202.5,200,200,MO,B,Single-ply,1
 Michael Porter #4,118.8,125,M,50,M-M2a,190,200,-202.5,200,200,MO,B,Single-ply,3
 Kevin Hutchinson,122.9,125,M,55,MR-M2b,192.5,-200,-200,192.5,192.5,IN,B,Raw,1
-Josh Hunt,123.6,125,M,28,M-O,182.5,192.5,-202.5,192.5,192.5,IL,B,Single-ply,5
+Josh Hunt #1,123.6,125,M,28,M-O,182.5,192.5,-202.5,192.5,192.5,IL,B,Single-ply,5
 Greg Mendoza,113.6,125,M,48,MR-M1b,152.5,160,-165,160,160,VA,B,Raw,1
 Eric Pauli,115,125,M,51,M-M2a,160,-182.5,-182.5,160,160,FL,B,Single-ply,4
 Chris Felix,117.5,125,M,45,MR-M1b,160,-170,-170,160,160,MD,B,Raw,2
@@ -168,7 +168,7 @@ Bill Eaton,124.7,125,M,54,M-M2a,152.5,-177.5,-177.5,152.5,152.5,TX,B,Single-ply,
 Jona Leo,144.2,125+,M,33,M-O,290,300,-330,300,300,SD,B,Single-ply,1
 Daniel Gaudreau,159.8,125+,M,49,M-M2a,-292.5,292.5,-302.5,292.5,292.5,CO,B,Single-ply,1
 Daniel Gaudreau,159.8,125+,M,49,M-O,-292.5,292.5,-302.5,292.5,292.5,CO,B,Single-ply,2
-Kevin Johnson,136.3,125+,M,55,M-M2b,-257.5,257.5,-272.5,257.5,257.5,NY,B,Single-ply,1
+Kevin Johnson #1,136.3,125+,M,55,M-M2b,-257.5,257.5,-272.5,257.5,257.5,NY,B,Single-ply,1
 Michael Neal,169.5,125+,M,41,M-O,242.5,-320,-320,242.5,242.5,NC,B,Single-ply,3
 Alvin Belfield,135.7,125+,M,47,M-LT,-230,230,-240,230,230,VA,B,Single-ply,1
 Alvin Belfield,135.7,125+,M,47,M-M1b,-230,230,-240,230,230,VA,B,Single-ply,1
@@ -180,11 +180,11 @@ Kevin Coughlin,222.5,125+,M,49,MR-M1b,180,185,-187.5,185,185,PA,B,Raw,1
 Kevin Coughlin,222.5,125+,M,49,MR-O,180,185,-187.5,185,185,PA,B,Raw,1
 Michael Ricker,144.4,125+,M,45,MR-M1b,170,180,-185,180,180,FL,B,Raw,1
 Shane Hopkins,149.6,125+,M,31,MR-O,165,180,-187.5,180,180,IL,B,Raw,2
-Ron Beuch,129,125+,M,60,M-M3a,-220,-220,-220,,,VA,B,Single-ply,DQ
+Ronald Beuch,129,125+,M,60,M-M3a,-220,-220,-220,,,VA,B,Single-ply,DQ
 Armando Gonzalez,132.1,125+,M,46,M-M1b,-255,-255,-257.5,,,NJ,B,Single-ply,DQ
 Paul Hilliard,135.1,125+,M,43,M-M1a,-262.5,-262.5,-262.5,,,PA,B,Single-ply,DQ
 Paul Hilliard,135.1,125+,M,43,M-O,-262.5,-262.5,-262.5,,,PA,B,Single-ply,DQ
-Niko Hulslander,143.4,125+,M,38,M-O,-302.5,-307.5,-307.5,,,PA,B,Single-ply,DQ
+Dennis Hulslander,143.4,125+,M,38,M-O,-302.5,-307.5,-307.5,,,PA,B,Single-ply,DQ
 Bill Gillespie,143.7,125+,M,50,M-M2a,-312.5,-312.5,-327.5,,,VA,B,Single-ply,DQ
 Bill Gillespie,143.7,125+,M,50,M-LT,-312.5,-312.5,-327.5,,,VA,B,Single-ply,DQ
 Bill Gillespie,143.7,125+,M,50,M-O,-312.5,-312.5,-327.5,,,VA,B,Single-ply,DQ

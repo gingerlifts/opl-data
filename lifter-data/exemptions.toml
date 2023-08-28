@@ -1,0 +1,17 @@
+# Exempts lifters from consistency checks.
+
+[sex]
+usernames = [
+	"ardelthomas",
+	"jaxsonwearing",
+	"alexandrawatt",
+	"angelflores1",
+	"adamhenson2",
+	"carolinewright",
+	"oscarhood",
+	"michaelnguyen",
+]
+
+[bodyweight]
+usernames = [
+]

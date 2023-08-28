@@ -24,7 +24,7 @@ Boys,59.87,4,Benito Flores,San Antonio Southside,59.51,158.76,92.99,156.49,408.2
 Boys,59.87,5,Elvis Benitez,San Antonio East Central,58.06,147.42,104.33,154.22,405.97,Single-ply,SBD,M
 Boys,67.13,6,Allan Patty,San Antonio East Central,59.92,142.88,65.77,136.08,344.73,Single-ply,SBD,M
 Boys,59.87,7,Mark Salinas,Castroville Medina Valley,59.42,115.67,61.23,133.81,310.71,Single-ply,SBD,M
-Boys,59.87,8,Jose Flores,San Antonio Kennedy,57.15,102.06,72.57,133.81,308.44,Single-ply,SBD,M
+Boys,59.87,8,Jose Flores #3,San Antonio Kennedy,57.15,102.06,72.57,133.81,308.44,Single-ply,SBD,M
 Boys,59.87,DQ,Michael Davis #1,San Antonio East Central,59.87,,,,,Single-ply,SBD,M
 Boys,59.87,DQ,Victor Chinton,Pearsall,59.87,,,,,Single-ply,SBD,M
 Boys,67.13,1,Ozzy Varela,Somerset,66.5,208.65,108.86,204.12,521.63,Single-ply,SBD,M
@@ -50,7 +50,7 @@ Boys,74.84,7,Mario Munoz,Center Point,74.39,206.38,106.59,174.63,487.61,Single-p
 Boys,74.84,8,Jose Guzman,Bloomington,74.21,161.03,102.06,199.58,462.66,Single-ply,SBD,M
 Boys,74.84,9,Jon Ventura,Pearsall,73.21,154.22,115.67,188.24,458.13,Single-ply,SBD,M
 Boys,74.84,10,Omar Guadarrama,San Antonio Southside,74.03,170.1,102.06,165.56,437.72,Single-ply,SBD,M
-Boys,82.1,11,Daniel Ramirez,San Antonio Kennedy,74.93,151.95,99.79,158.76,410.5,Single-ply,SBD,M
+Boys,82.1,11,Daniel Ramirez #6,San Antonio Kennedy,74.93,151.95,99.79,158.76,410.5,Single-ply,SBD,M
 Boys,74.84,12,Isaac Douglas,San Antonio Kennedy,69.4,145.15,77.11,142.88,365.14,Single-ply,SBD,M
 Boys,74.84,13,Mark Gonzalez,San Antonio Memorial,72.94,136.08,65.77,161.03,362.87,Single-ply,SBD,M
 Boys,74.84,14,Christopher Vinton,Pearsall,72.21,133.81,81.65,145.15,360.61,Single-ply,SBD,M
@@ -61,7 +61,7 @@ Boys,82.1,1,Dillion Brunet,Center Point,79.47,222.26,120.2,208.65,551.11,Single-
 Boys,82.1,2,Rueben Hinojosa,Lytle,81.28,204.12,108.86,233.6,546.58,Single-ply,SBD,M
 Boys,82.1,3,Justin Quesada,Somerset,80.83,206.38,131.54,181.44,519.36,Single-ply,SBD,M
 Boys,82.1,4,Jacob Gonzales,San Antonio East Central,77.02,213.19,106.59,181.44,501.22,Single-ply,SBD,M
-Boys,82.1,5,Miguel Pérez,Lytle,82.01,183.7,106.59,195.04,485.34,Single-ply,SBD,M
+Boys,82.1,5,Miguel Pérez #4,Lytle,82.01,183.7,106.59,195.04,485.34,Single-ply,SBD,M
 Boys,82.1,6,Hector Martinez,San Antonio Kennedy,79.74,151.95,95.25,163.29,410.5,Single-ply,SBD,M
 Boys,89.81,7,Joey Mendez,San Antonio Memorial,82.19,170.1,65.77,158.76,394.63,Single-ply,SBD,M
 Boys,82.1,8,Devon Pinon,Bloomington,78.11,170.1,92.99,124.74,387.82,Single-ply,SBD,M
@@ -95,7 +95,7 @@ Boys,99.79,2,Chris McCumber,San Antonio East Central,98.66,258.55,140.61,222.26,
 Boys,99.79,3,Zane Sanchez,Devine,98.43,240.4,145.15,226.8,612.35,Single-ply,SBD,M
 Boys,109.77,4,MacNeal Price,San Antonio East Central,100.02,249.48,127.01,226.8,603.28,Single-ply,SBD,M
 Boys,99.79,5,Juan DeLeon,San Antonio Southside,99.16,233.6,124.74,233.6,591.94,Single-ply,SBD,M
-Boys,99.79,6,Joe Hernandez,San Antonio East Central,92.71,240.4,133.81,199.58,573.79,Single-ply,SBD,M
+Boys,99.79,6,Joe Hernandez #1,San Antonio East Central,92.71,240.4,133.81,199.58,573.79,Single-ply,SBD,M
 Boys,99.79,7,Jeremy Chamberlain,San Antonio East Central,95.57,208.65,113.4,188.24,510.29,Single-ply,SBD,M
 Boys,99.79,8,Jesus Hernandez #2,San Antonio Memorial,97.43,213.19,108.86,163.29,485.34,Single-ply,SBD,M
 Boys,99.79,9,Juan Landa,Castroville Medina Valley,93.89,172.37,99.79,158.76,430.91,Single-ply,SBD,M
@@ -140,7 +140,7 @@ Boys,124.74+,2,Mark Alarcon,San Antonio East Central,132.9,278.96,156.49,235.87,
 Boys,124.74+,3,Joel Corona,Lytle,145.88,242.67,113.4,258.55,614.62,Single-ply,SBD,M
 Boys,124.74+,4,Guy LaRue,San Antonio Kennedy,156.04,247.21,124.74,242.67,614.62,Single-ply,SBD,M
 Boys,124.74+,5,Joe Aguero,Somerset,129.73,263.08,127.01,188.24,578.33,Single-ply,SBD,M
-Boys,124.74+,6,Jacob Smith,Comal Canyon,127.01,229.06,133.81,192.78,555.65,Single-ply,SBD,M
+Boys,124.74+,6,Jacob Smith #8,Comal Canyon,127.01,229.06,133.81,192.78,555.65,Single-ply,SBD,M
 Boys,124.74+,7,Trent Rhodes,Center Point,127.55,233.6,131.54,190.51,555.65,Single-ply,SBD,M
 Boys,124.74+,8,Nick O'Bryant,Castroville Medina Valley,126.19,217.72,122.47,190.51,530.7,Single-ply,SBD,M
 Boys,124.74+,9,Jonathan Saldana,Floresville,141.07,310.71,163.29,,474,Single-ply,SB,M

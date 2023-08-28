@@ -57,7 +57,7 @@ DQ,100,Howard Blackmon,CO,99.9,,,,,m4,M,B,Single-ply
 1,140,Takota Fahey,CO,127.64,,117.5,207.5,325,teen,M,BD,Raw
 1,100,Richard Byars,CO,94.85,,205,237.5,442.5,m2,M,BD,Single-ply
 1,110,Peter Jackson,KS,109.63,,192.5,280,472.5,m2,M,BD,Single-ply
-1,60,Robert Trujillo,CO,59.28,,97.5,185,282.5,m4,M,BD,Single-ply
+1,60,Robert Trujillo #1,CO,59.28,,97.5,185,282.5,m4,M,BD,Single-ply
 1,75,Ken Kaiser,CO,71.26,,105,,105,mp,M,B,Raw
 1,82.5,Dennis Peterson,CO,78.74,,92.5,,92.5,open,M,B,Raw
 1,100,Christopher Semiramis,CO,99.65,,127.5,,127.5,p+f,M,B,Raw
@@ -80,9 +80,9 @@ DQ,67.5,Phil Spittler,CO,66.9,,,,,bpnov,M,B,Raw
 1,67.5,Matt Rutledge,CO,66.32,157.5,117.5,185,460,open,M,SBD,Wraps
 1,67.5,Trevor Graham,CO,66.09,157.5,92.5,205,455,jr,M,SBD,Wraps
 1,125,Charlie Redmond,CO,119.84,210,145,235,590,m2,M,SBD,Wraps
-1,67.5,Mark Jones,CO,66.63,152.5,97.5,180,430,m1,M,SBD,Wraps
-1,67.5,Mark Jones,CO,66.63,152.5,97.5,180,430,mp,M,SBD,Wraps
-1,67.5,Mark Jones,CO,66.63,152.5,97.5,180,430,p+f,M,SBD,Wraps
+1,67.5,Mark Jones #5,CO,66.63,152.5,97.5,180,430,m1,M,SBD,Wraps
+1,67.5,Mark Jones #5,CO,66.63,152.5,97.5,180,430,mp,M,SBD,Wraps
+1,67.5,Mark Jones #5,CO,66.63,152.5,97.5,180,430,p+f,M,SBD,Wraps
 1,75,Tharin Wilson,CO,74.48,167.5,107.5,165,440,int,M,SBD,Wraps
 1,75,Tharin Wilson,CO,74.48,167.5,107.5,165,440,nov,M,SBD,Wraps
 1,100,Tim Gregory,CO,92.62,172.5,132.5,182.5,487.5,nov,M,SBD,Wraps

@@ -88,14 +88,14 @@ WeightClassKg,Place,Name,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Dea
 82.5,6,David Tucker,UK,81,205,105,220,530,SBD,Single-ply,Masters 2,M,,50-999
 82.5,7,Jacinto Molina,Spain,82,125,90,180,395,SBD,Single-ply,Masters 2,M,,50-999
 82.5,DQ,Pierre Gimbert,France,78.8,225,145,,,SBD,Single-ply,Masters 2,M,,50-999
-90,1,Leon Louchart,France,88.3,240,150,280,670,SBD,Single-ply,Masters 2,M,,50-999
+90,1,Leon Louchard,France,88.3,240,150,280,670,SBD,Single-ply,Masters 2,M,,50-999
 90,2,Boris Zherebtzov,Ukraine,89.7,240,147.5,255,642.5,SBD,Single-ply,Masters 2,M,,50-999
 90,3,Veli Kumpuniemi,Finland,88.5,210,140,270,620,SBD,Single-ply,Masters 2,M,,50-999
 90,4,Andy McKinley,UK,86.8,220,147.5,240,607.5,SBD,Single-ply,Masters 2,M,,50-999
 90,5,Klause Zander,France,89,220,150,235,605,SBD,Single-ply,Masters 2,M,,50-999
-90,6,Gavin Walker,UK,88.9,225,117.5,225,567.5,SBD,Single-ply,Masters 2,M,,50-999
+90,6,John Gavin Walker,UK,88.9,225,117.5,225,567.5,SBD,Single-ply,Masters 2,M,,50-999
 90,7,Bertil Hagby,Sweden,87.4,235,100,230,565,SBD,Single-ply,Masters 2,M,,50-999
-100,1,Willi Müller,Germany,99.7,270,157.5,307.5,735,SBD,Single-ply,Masters 2,M,,50-999
+100,1,Willi Müller #1,Germany,99.7,270,157.5,307.5,735,SBD,Single-ply,Masters 2,M,,50-999
 100,2,Karl Hei Grabosch,Germany,97.3,250,140,260,650,SBD,Single-ply,Masters 2,M,,50-999
 100,3,Jean-Pierre Amet,France,97.2,235,140,260,635,SBD,Single-ply,Masters 2,M,,50-999
 100,4,Matti Aunula,Finland,99.3,250,142.5,235,627.5,SBD,Single-ply,Masters 2,M,,50-999
@@ -104,7 +104,7 @@ WeightClassKg,Place,Name,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Dea
 110,DQ,Jan Monstad,Norway,101.6,200,,,,SBD,Single-ply,Masters 2,M,,50-999
 125,1,Heinz Pollmann,Austria,110.5,250,191,255,696,SBD,Single-ply,Masters 2,M,,50-999
 125,2,Päiviö Säätelä,Finland,114.1,227.5,172.5,270,670,SBD,Single-ply,Masters 2,M,,50-999
-125,3,Josef Steer,Hungary,114.5,260,140,260,660,SBD,Single-ply,Masters 2,M,,50-999
+125,3,Jozsef Steer,Hungary,114.5,260,140,260,660,SBD,Single-ply,Masters 2,M,,50-999
 125,4,Olavi Erola,Finland,113.1,232.5,145,225,602.5,SBD,Single-ply,Masters 2,M,,50-999
 125+,1,Seppo Laaksonen,Finland,130,220,120,262.5,602.5,SBD,Single-ply,Masters 2,M,,50-999
 125+,2,Richard Heiden,Germany,128.9,210,175,215,600,SBD,Single-ply,Masters 2,M,,50-999

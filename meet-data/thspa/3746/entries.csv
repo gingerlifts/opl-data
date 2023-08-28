@@ -40,7 +40,7 @@ Boys,67.13,10,Jose Cervantes,North Mesquite,67.13,108.86,72.57,142.88,324.32,Sin
 Boys,67.13,11,Connor Wilson,North Forney,66.59,106.59,74.84,120.2,301.64,Single-ply,SBD,M
 Boys,74.84,1,Gabriel Dexter,Forney,74.8,231.33,140.61,213.19,585.13,Single-ply,SBD,M
 Boys,74.84,2,Anthony Perez,North Forney,74.66,199.58,113.4,206.38,519.36,Single-ply,SBD,M
-Boys,74.84,3,Omar Villegas,Melissa,67.59,199.58,108.86,190.51,498.95,Single-ply,SBD,M
+Boys,74.84,3,Omar Villegas #2,Melissa,67.59,199.58,108.86,190.51,498.95,Single-ply,SBD,M
 Boys,74.84,4,Diego Cortez,Everman,74.57,195.04,99.79,192.78,487.61,Single-ply,SBD,M
 Boys,74.84,5,Daniel Dlegado,South Garland,73.57,183.7,111.13,190.51,485.34,Single-ply,SBD,M
 Boys,74.84,6,Jack Parker,Melissa,74.21,204.12,97.52,183.7,485.34,Single-ply,SBD,M
@@ -83,7 +83,7 @@ Boys,82.1,20,Fabian Castanada,Everman,78.38,113.4,86.18,90.72,290.3,Single-ply,S
 Boys,82.1,DQ,Blake Wilson,Mabank,77.38,149.69,,,,Single-ply,SBD,M
 Boys,89.81,1,Edgar Guzman,Everman,88.09,244.94,117.93,238.14,601.01,Single-ply,SBD,M
 Boys,89.81,2,Aidan Murrey,Royse City,85.55,226.8,140.61,219.99,587.4,Single-ply,SBD,M
-Boys,89.81,3,Garrett Smith,Royse City,89.27,242.67,122.47,204.12,569.26,Single-ply,SBD,M
+Boys,89.81,3,Garrett Smith #7,Royse City,89.27,242.67,122.47,204.12,569.26,Single-ply,SBD,M
 Boys,89.81,4,Caden Hayes,Melissa,84.37,226.8,117.93,210.92,555.65,Single-ply,SBD,M
 Boys,89.81,5,Aaron Watson,Red Oak,86.64,210.92,111.13,226.8,548.85,Single-ply,SBD,M
 Boys,89.81,6,Blake Holloway,Mesquite Poteet,86.82,192.78,129.27,226.8,548.85,Single-ply,SBD,M
@@ -110,10 +110,10 @@ Boys,99.79,8,Diego Liendo,Mesquite Poteet,98.79,195.04,111.13,206.38,512.56,Sing
 Boys,99.79,9,Grady Brewer,Rockwall-Heath,94.53,192.78,124.74,192.78,510.29,Single-ply,SBD,M
 Boys,99.79,10,Alex Harder,Canton,94.8,199.58,124.74,183.7,508.02,Single-ply,SBD,M
 Boys,99.79,11,Ethan Monaco,North Forney,98.16,183.7,106.59,188.24,478.54,Single-ply,SBD,M
-Boys,99.79,12,Jose Garcia,Everman,97.16,181.44,111.13,183.7,476.27,Single-ply,SBD,M
+Boys,99.79,12,Jose Garcia #7,Everman,97.16,181.44,111.13,183.7,476.27,Single-ply,SBD,M
 Boys,99.79,13,Nuasa Grant,North Mesquite,94.62,190.51,102.06,181.44,474,Single-ply,SBD,M
 Boys,99.79,14,Gunner Boswell,Canton,98.16,204.12,90.72,170.1,464.93,Single-ply,SBD,M
-Boys,99.79,15,Cody Wilson,Kaufman,92.35,151.95,120.2,181.44,453.59,Single-ply,SBD,M
+Boys,99.79,15,Cody Wilson #5,Kaufman,92.35,151.95,120.2,181.44,453.59,Single-ply,SBD,M
 Boys,99.79,16,Amari Davis,South Garland,94.53,165.56,111.13,176.9,453.59,Single-ply,SBD,M
 Boys,99.79,17,Spencer Uwakwe,North Forney,99.16,170.1,113.4,165.56,449.06,Single-ply,SBD,M
 Boys,99.79,18,Angel Villa,Scurry-Rosser,92.26,158.76,122.47,158.76,439.98,Single-ply,SBD,M
@@ -150,7 +150,7 @@ Boys,124.74,7,Alex Spera,Sunnyvale,116.21,231.33,133.81,197.31,562.45,Single-ply
 Boys,124.74,8,Nathan Johnson,Kaufman,117.93,229.06,111.13,192.78,532.97,Single-ply,SBD,M
 Boys,124.74,9,Kevon Ivy,Duncanville,119.2,192.78,117.93,204.12,514.83,Single-ply,SBD,M
 Boys,124.74,10,Seth Martin,Everman,111.22,192.78,106.59,208.65,508.02,Single-ply,SBD,M
-Boys,124.74,11,Matthew Martinez,Mesquite Poteet,121.29,176.9,120.2,195.04,492.15,Single-ply,SBD,M
+Boys,124.74,11,Matthew Martinez #7,Mesquite Poteet,121.29,176.9,120.2,195.04,492.15,Single-ply,SBD,M
 Boys,124.74,12,Dylan Case,Mabank,115.48,179.17,102.06,188.24,469.47,Single-ply,SBD,M
 Boys,124.74,13,Alec Mullins,Kemp,115.67,142.88,108.86,204.12,455.86,Single-ply,SBD,M
 Boys,124.74,14,Adroan Anderson,Everman,110.95,183.7,106.59,158.76,449.06,Single-ply,SBD,M
@@ -173,7 +173,7 @@ Boys,124.74+,9,D'Marrya Searcy,Everman,141.79,265.35,142.88,204.12,612.35,Single
 Boys,124.74+,10,Oscar Jaure,Everman,142.34,260.82,122.47,219.99,603.28,Single-ply,SBD,M
 Boys,124.74+,11,Josh Hicks,Argyle,125.92,251.74,138.35,208.65,598.74,Single-ply,SBD,M
 Boys,124.74+,12,Payton McClain,Red Oak,138.62,226.8,140.61,204.12,571.53,Single-ply,SBD,M
-Boys,124.74+,13,Clayton Johnson,Scurry-Rosser,130.27,244.94,120.2,204.12,569.26,Single-ply,SBD,M
+Boys,124.74+,13,Clayton Johnson #3,Scurry-Rosser,130.27,244.94,120.2,204.12,569.26,Single-ply,SBD,M
 Boys,124.74+,14,Garrett Bowen,Melissa,125.46,240.4,127.01,188.24,555.65,Single-ply,SBD,M
 Boys,124.74+,15,Josh Anderson,North Forney,138.62,210.92,131.54,204.12,546.58,Single-ply,SBD,M
 Boys,124.74+,16,Sam Bartis,Sunnyvale,126.64,219.99,113.4,195.04,528.44,Single-ply,SBD,M
@@ -183,7 +183,7 @@ Boys,124.74+,19,Colton McClain,Red Oak,144.15,204.12,133.81,183.7,521.63,Single-
 Boys,124.74+,20,Isaac Allen,Mesquite Horn,129.55,199.58,115.67,199.58,514.83,Single-ply,SBD,M
 Boys,124.74+,21,Lee Shaw,Mesquite Poteet,153.77,199.58,113.4,158.76,471.74,Single-ply,SBD,M
 Boys,124.74+,22,Riley Tracy,North Forney,143.06,188.24,90.72,190.51,469.47,Single-ply,SBD,M
-Boys,124.74+,23,Josh Lambert,Canton,126.78,183.7,92.99,176.9,453.59,Single-ply,SBD,M
+Boys,124.74+,23,Josh Lambert #5,Canton,126.78,183.7,92.99,176.9,453.59,Single-ply,SBD,M
 Boys,124.74+,DQ,Stephan Dixon,Duncanville,137.89,,,,,Single-ply,SBD,M
 Boys,124.74+,DQ,Bill Overton,Denton,136.26,,,,,Single-ply,SBD,M
 Boys,124.74+,DQ,Jobin Chirayil,Sunnyvale,142.16,244.94,163.29,,,Single-ply,SBD,M

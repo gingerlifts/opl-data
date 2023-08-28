@@ -17,9 +17,8 @@ except ImportError:
     import oplprobe
 
 
-URLS = ["http://styrkeloft.no/stevner/?page=protokoller",
-        "http://styrkeloft.no/stevner/?page=protokoller&aar=2015"]
-BASEURL = "http://styrkeloft.no/"
+URLS = ["https://styrkeloft.no/stevner/?page=protokoller"]
+BASEURL = "https://styrkeloft.no/"
 FEDDIR = os.path.dirname(os.path.realpath(__file__))
 
 

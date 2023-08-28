@@ -15,7 +15,7 @@ WeightClassKg,Event,Equipment,Sex,Name,BodyweightKg,Best3SquatKg,Bench1Kg,Bench2
 100,B,Raw,M,Edward Bergman,96.16,,,,,172.37,,172.37,Open,2
 ,B,Multi-ply,M,Jim Phraner,108.41,,342.46,353.8,-362.87,353.8,,353.8,Open,1
 ,B,Multi-ply,M,Tim Hensley,90.63,,306.17,317.51,324.32,324.32,,324.32,Open,3
-,B,Multi-ply,M,Mike Bingham,81.56,,285.76,290.3,294.84,294.84,,294.84,Open,6
+,B,Multi-ply,M,Michael Bingham,81.56,,285.76,290.3,294.84,294.84,,294.84,Open,6
 ,B,Multi-ply,M,Tim Gale #1,122.02,,340.19,353.8,-362.87,353.8,,353.8,Open,2
 ,B,Multi-ply,M,Eric DeCaires,103.51,,-294.84,294.84,308.44,308.44,,308.44,Open,5
 ,B,Multi-ply,M,Anthony King,121.56,,292.57,301.64,312.98,312.98,,312.98,Open,4
@@ -27,11 +27,11 @@ WeightClassKg,Event,Equipment,Sex,Name,BodyweightKg,Best3SquatKg,Bench1Kg,Bench2
 82.5,SBD,Wraps,F,Tarra Oravec,82.19,170.1,,,,124.74,226.8,521.63,Open,4
 67.5,SBD,Wraps,F,Danielle Szocik,67.49,147.42,,,,102.06,183.7,433.18,Open,1
 60,SBD,Wraps,F,Savannah Minnici,58.88,129.27,,,,68.04,165.56,362.87,Open,1
-75,SBD,Wraps,F,Katrina Karwoski,70.13,147.42,,,,95.25,165.56,408.23,Open,1
+75,SBD,Wraps,F,Katrina Bielomyza,70.13,147.42,,,,95.25,165.56,408.23,Open,1
 56,SBD,Wraps,F,Karolin Mantilla-Benjamin,54.61,113.4,,,,65.77,136.08,315.25,Open,1
-56,SBD,Wraps,F,Courtney Miller,55.52,115.67,,,,56.7,136.08,308.44,Open,2
+56,SBD,Wraps,F,Courtney Miller #3,55.52,115.67,,,,56.7,136.08,308.44,Open,2
 67.5,SBD,Multi-ply,F,Tammy B. Howard,65.95,,,,,,,,Open,DQ
-82.5,SBD,Multi-ply,M,Marcus Morris,81.47,387.82,,,,274.42,290.3,952.54,Open,1
+82.5,SBD,Multi-ply,M,Marcus Morris #1,81.47,387.82,,,,274.42,290.3,952.54,Open,1
 75,SBD,Multi-ply,M,Sandy Tepper,74.48,324.32,,,,226.8,288.03,839.15,Open,1
 100,SBD,Multi-ply,M,Jonathan Ross,99.88,367.41,,,,288.03,317.51,972.96,Open,1
 100,SBD,Multi-ply,M,Chris Bartl,97.07,337.93,,,,263.08,303.91,904.92,Open,2
@@ -42,7 +42,7 @@ WeightClassKg,Event,Equipment,Sex,Name,BodyweightKg,Best3SquatKg,Bench1Kg,Bench2
 90,SBD,Multi-ply,M,Mark VanAlstyne,87.45,322.05,,,,,,,Open,DQ
 67.5,SBD,Wraps,M,Brian Galloway,62.87,260.82,,,,167.83,201.85,630.49,Open,1
 140,SBD,Wraps,M,Denis Feise,132.72,381.02,,,,244.94,308.44,934.4,Open,1
-125,SBD,Wraps,M,Kevin Smith #3,120.47,351.53,,,,219.99,335.66,907.18,Open,1
+125,SBD,Wraps,M,Kevin Smith #1,120.47,351.53,,,,219.99,335.66,907.18,Open,1
 125,SBD,Wraps,M,Rich Justice,122.29,369.68,,,,222.26,315.25,907.18,Open,2
 140,SBD,Wraps,M,Robert Rivera Jr,130.54,362.87,,,,215.46,335.66,913.99,Open,2
 100,SBD,Wraps,M,Bob Merkh,99.88,351.53,,,,206.38,288.03,845.95,Open,1
@@ -57,7 +57,7 @@ WeightClassKg,Event,Equipment,Sex,Name,BodyweightKg,Best3SquatKg,Bench1Kg,Bench2
 90,SBD,Wraps,M,Fernando Marcano-Suarez,87.91,274.42,,,,192.78,249.48,716.68,Open,2
 67.5,SBD,Wraps,M,Anthony Celozzi,66.5,219.99,,,,136.08,217.72,573.79,Open,3
 90,SBD,Wraps,M,James Lauer,89.9,272.16,,,,158.76,281.23,712.14,Open,3
-125,SBD,Wraps,M,Magic Mike Monaghan,121.11,292.57,,,,188.24,308.44,789.25,Open,5
+125,SBD,Wraps,M,Mike Monaghan,121.11,292.57,,,,188.24,308.44,789.25,Open,5
 110,SBD,Wraps,M,Skyler Woolard,110,308.44,,,,176.9,274.42,759.77,Open,2
 125,SBD,Wraps,M,Ian MacIntyre,122.92,317.51,,,,188.24,265.35,771.11,Open,6
 82.5,SBD,Wraps,M,Brandon Densmore,81.74,240.4,,,,149.69,249.48,639.57,Open,2

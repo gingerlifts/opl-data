@@ -1,9 +1,9 @@
 Name,Sex,Age,Division,BodyweightKg,WeightClassKg,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Place,Event
 Maariyah Tahir,F,,FOpe-Ra,63.7,67.5,Raw,85,92.5,-100,,92.5,45,52.5,-55,,52.5,125,135,140,,140,285,1,SBD
 Chris Priestman,M,,MOpe-Ra,67.5,67.5,Raw,130,-140,140,,140,75,-85,-85,,75,160,-171,-171,,160,375,1,SBD
-Nicola Twinning,F,,FOpe-Ra,81.8,82.5,Raw,135,140,145,,145,65,70,-75,,70,150,160,162.5,,162.5,377.5,1,SBD
+Nicola Twining,F,,FOpe-Ra,81.8,82.5,Raw,135,140,145,,145,65,70,-75,,70,150,160,162.5,,162.5,377.5,1,SBD
 Andy McKee,M,,MM-7-Ra,88.7,90,Raw,100,110,120,,120,90,100,-105,,100,120,130,140,,140,360,1,SBD
-Amardeep Singh,M,,MJun-Ra,88.2,90,Raw,200,210,220,225,220,135,145,-150,,145,230,240,250,,250,615,1,SBD
+Amardeep Singh #2,M,,MJun-Ra,88.2,90,Raw,200,210,220,225,220,135,145,-150,,145,230,240,250,,250,615,1,SBD
 Aleem Majid,M,,MJun-Ra,86,90,Raw,185,210,217.5,,217.5,115,-122.5,-122.5,,115,230,250,-270,,250,582.5,2,SBD
 Sue Davies,F,,FM-2-SP,80.3,82.5,Single-ply,140,150,160,,160,100,110,120,,120,160,175,-185,,175,455,1,SBD
 David Bray,M,,MM-2-SP,80.4,82.5,Single-ply,170,-180,-188,,170,130,132.5,-140,,132.5,180,192.5,200,-210,200,502.5,1,SBD
@@ -22,12 +22,12 @@ Marcus Griffiths,M,,MM-1-Ra,119.9,125,Raw,300,325,-345,,325,200,212.5,225,,225,3
 Anthony Spalding,M,,MJun-Ra,111.4,125,Raw,205,215,220,,220,125,130,-135,,130,245,255,262.5,,262.5,612.5,1,SBD
 Mark Eager,M,,MM-1-SP,114.6,125,Single-ply,230,260,280,,280,170,,,,170,260,280,305,,305,755,1,SBD
 Luke Morley,M,,MJun-Ra,51.5,52,Raw,,,,,,40,42.5,-50,,42.5,,,,,,42.5,1,B
-Max Forde,M,,MJun-Ra,75,75,Raw,,,,,,100,110,120,,120,,,,,,120,1,B
-Darran Stansby,M,,MM-2-Ra,81.2,82.5,Raw,,,,,,80,110,125,,125,,,,,,125,1,B
+Max Foord,M,,MJun-Ra,75,75,Raw,,,,,,100,110,120,,120,,,,,,120,1,B
+Darran Winfield-Stanesby,M,,MM-2-Ra,81.2,82.5,Raw,,,,,,80,110,125,,125,,,,,,125,1,B
 Craig Guest,M,,MM-1-Ra,99.9,100,Raw,,,,,,140,145,152,,152,,,,,,152,1,B
 John Hinton,M,,MM-1-Ra,109.5,110,Raw,,,,,,-165,165,170,175,170,,,,,,170,1,B
 Ray Allison #1,M,,MM-4-Ra,119.9,125,Raw,,,,,,150,162.5,,,162.5,,,,,,162.5,1,B
-Kaz Makowski,M,,MOpe-Ra,89.1,90,Raw,,,,,,170,180,-185,,180,,,,,,180,1,B
+Kaz Mackowski,M,,MOpe-Ra,89.1,90,Raw,,,,,,170,180,-185,,180,,,,,,180,1,B
 Johnny Gray,M,,MOpe-Ra,97.8,100,Raw,,,,,,-170,170,180,-185,180,,,,,,180,1,B
 Anthony Morley,M,,MOpe-Ra,108.3,110,Raw,,,,,,170,180,185,,185,,,,,,185,1,B
 Jason Fletcher,M,,MM-1-Ra,122.3,125,Raw,,,,,,170,180,190,,190,,,,,,190,1,B
@@ -35,7 +35,7 @@ Phil Beniston,M,,MM-3-SP,95.4,100,Single-ply,,,,,,182.5,192.5,200,,200,,,,,,200,
 Dean Allison,M,,MOpe-SP,109.8,110,Single-ply,,,,,,170,180,190,,190,,,,,,190,1,B
 James Godber,M,,MOpe-SP,123.8,125,Single-ply,,,,,,227.5,-237.5,-242,,227.5,,,,,,227.5,1,B
 Paul Edmonds,M,,MM-3-SP,122.3,125,Single-ply,,,,,,240,251,-260,,251,,,,,,251,1,B
-Bella Whittam,F,13,FT-1-Ra,52.9,56,Raw,,,,,,,,,,,75,85,92.5,-100,92.5,92.5,1,D
+Bella Whitlam,F,13,FT-1-Ra,52.9,56,Raw,,,,,,,,,,,75,85,92.5,-100,92.5,92.5,1,D
 Luke Morley,M,,MJun-Ra,51.5,52,Raw,,,,,,,,,,,-100,100,120,,120,120,1,D
 Jack Macdonnell,M,,MJun-Ra,106.6,110,Raw,,,,,,,,,,,240,250,260,,260,260,1,D
 Nikki Heaton,F,,FOpe-Ra,65.2,67.5,Raw,,,,,,,,,,,95,-115,-115,,95,95,1,D
@@ -45,9 +45,8 @@ Dean Allison,M,,MOpe-SP,109.8,110,Single-ply,,,,,,,,,,,240,260,272.5,,272.5,272.
 Kevin Savours,M,,MM-3-Ra,96.3,100,Raw,,,,,,,,,,,200,210,-215,,210,210,1,D
 Jonny Brown,M,,MM-2-Ra,90.4,100,Raw,,,,,,,,,,,190,205,220,,220,220,1,D
 Phil Beniston,M,,MM-3-Ra,95.4,100,Raw,,,,,,,,,,,235,245,,,245,245,1,D
-Samantha Cooper,F,,FM-1-Ra,102.1,90+,Raw,,,,,,,,,,,175,180,185,,185,185,1,D
+Samantha Cooper #3,F,,FM-1-Ra,102.1,90+,Raw,,,,,,,,,,,175,180,185,,185,185,1,D
 Andrew Sullivan,M,,MM-2-Ra,106.7,110,Raw,,,,,,,,,,,210,230,-240,,230,230,1,D
-Colin Robinson,M,,MM-5-Ra,121.6,125,Raw,,,,,,,,,,,65,,,,65,65,1,D
+Colin Robinson #1,M,,MM-5-Ra,121.6,125,Raw,,,,,,,,,,,65,,,,65,65,1,D
 Andrew Ward #2,M,,MM-3-Ra,124,125,Raw,,,,,,,,,,,65,,,,65,65,1,D
-Marcus Griffiths,M,,MM-1-Ra,119.9,125,Raw,,,,,,,,,,,325,-350,375,,375,375,1,D
 Tony Power,M,,MM-1-Ra,119.9,125,Raw,,,,,,,,,,,180,-200,-200,,180,180,2,D

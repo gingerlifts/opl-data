@@ -1,11 +1,12 @@
 //! Checks for entries.csv files.
 
-use coefficients::{glossbrenner, wilks};
 use opltypes::states::*;
 use opltypes::*;
+use smartstring::alias::CompactString;
 use strum::IntoEnumIterator;
 use unicode_normalization::UnicodeNormalization;
 
+use std::borrow::Cow;
 use std::error::Error;
 use std::io;
 use std::path::PathBuf;
@@ -16,11 +17,7 @@ use crate::checklib::meet::Meet;
 use crate::{EntryIndex, Report};
 
 /// List of all plausible weightclasses, for non-configured federations.
-const DEFAULT_WEIGHTCLASSES: [WeightClassKg; 52] = [
-    // FIXME: Temporary classes while USPA is unconfigured.
-    WeightClassKg::UnderOrEqual(WeightKg::from_raw(90_72)),
-    WeightClassKg::Over(WeightKg::from_raw(90_72)),
-    WeightClassKg::Over(WeightKg::from_raw(82_50)),
+const DEFAULT_WEIGHTCLASSES: [WeightClassKg; 51] = [
     // IPF Men.
     WeightClassKg::UnderOrEqual(WeightKg::from_i32(53)),
     WeightClassKg::UnderOrEqual(WeightKg::from_i32(59)),
@@ -37,7 +34,9 @@ const DEFAULT_WEIGHTCLASSES: [WeightClassKg; 52] = [
     WeightClassKg::UnderOrEqual(WeightKg::from_i32(52)),
     WeightClassKg::UnderOrEqual(WeightKg::from_i32(57)),
     WeightClassKg::UnderOrEqual(WeightKg::from_i32(63)),
+    WeightClassKg::UnderOrEqual(WeightKg::from_i32(69)),
     WeightClassKg::UnderOrEqual(WeightKg::from_i32(72)),
+    WeightClassKg::UnderOrEqual(WeightKg::from_i32(76)),
     WeightClassKg::UnderOrEqual(WeightKg::from_i32(84)),
     WeightClassKg::Over(WeightKg::from_i32(84)),
     // Traditional and extra classes.
@@ -92,7 +91,7 @@ pub struct EntriesCheckResult {
     pub entries: Option<Vec<Entry>>,
 }
 
-/// Returns s as a String in Unicode NFKC form.
+/// Returns s as a string in Unicode NFKC form.
 ///
 /// Unicode decompositions take 2 forms, canonical equivalence and
 /// compatibility.
@@ -109,8 +108,12 @@ pub struct EntriesCheckResult {
 /// canonical equivalence. We want NFKC form as half-width characters should
 /// display the same as full width characters on the site, as should font
 /// variants.
-fn canonicalize_name_utf8(s: &str) -> String {
-    s.nfkc().collect::<String>()
+fn canonicalize_name_utf8(s: &str) -> Cow<'_, str> {
+    // Fast-path: the majority of names are ASCII.
+    if s.is_ascii() {
+        return Cow::Borrowed(s);
+    }
+    Cow::from(s.nfkc().collect::<String>())
 }
 
 /// Stores parsed data for a single row.
@@ -119,23 +122,29 @@ fn canonicalize_name_utf8(s: &str) -> String {
 /// which further processing can use the standard datatype.
 #[derive(Default)]
 pub struct Entry {
-    pub name: String,
-    pub username: String,
+    /// A measurement shows that 99.27% of names benefit from `CompactString`.
+    pub name: CompactString,
+    pub username: Username,
+
+    // These should not be made `CompactString`: that massively *increases* memory.
+    pub chinesename: Option<String>,
     pub cyrillicname: Option<String>,
+    pub greekname: Option<String>,
     pub japanesename: Option<String>,
     pub koreanname: Option<String>,
-    pub greekname: Option<String>,
+
     pub sex: Sex,
     pub place: Place,
     pub event: Event,
-    pub division: String,
+    pub division: CompactString,
     pub equipment: Equipment,
     pub squat_equipment: Option<Equipment>,
     pub bench_equipment: Option<Equipment>,
     pub deadlift_equipment: Option<Equipment>,
 
-    // Optional age information.
+    /// The recorded age of the lifter at the time of competition.
     pub age: Age,
+
     /// May be explicitly specified, or inferred by other age information.
     /// Division age ranges are carried here (possibly after further narrowing).
     pub agerange: AgeRange,
@@ -144,6 +153,7 @@ pub struct Entry {
     // do not have the ability to look up the meet date.
     pub birthyearclass: BirthYearClass,
     pub birthdate: Option<Date>,
+    pub entrydate: Date,
 
     pub weightclasskg: WeightClassKg,
     pub bodyweightkg: WeightKg,
@@ -166,17 +176,11 @@ pub struct Entry {
     pub deadlift3kg: WeightKg,
     pub deadlift4kg: WeightKg,
 
+    /// Whether the entry counts as tested. Does not imply testing actually occurred.
     pub tested: bool,
+
     pub country: Option<Country>,
     pub state: Option<State>,
-
-    // Points are always recalculated, never taken from the data.
-    //
-    // McCulloch points are not calculated here, because they are Age-dependent.
-    // Because the Age may be inferred by the compiler from surrounding data,
-    // McCulloch calculation is left to a later phase.
-    pub wilks: Points,
-    pub glossbrenner: Points,
 
     /// The index of this `Entry` in the `AllMeetData`.
     ///
@@ -245,10 +249,10 @@ impl Entry {
 #[derive(Copy, Clone, Debug, Display, EnumIter, Eq, PartialEq, EnumString)]
 enum Header {
     Name,
+    ChineseName,
     CyrillicName,
     JapaneseName,
     KoreanName,
-    ChineseName,
     GreekName,
     Sex,
     Age,
@@ -306,9 +310,7 @@ fn check_headers(
     // Build a map of (Header -> index).
     let known_header_count = Header::iter().count();
     let mut header_index_vec: Vec<Option<usize>> = Vec::with_capacity(known_header_count);
-    for _ in 0..known_header_count {
-        header_index_vec.push(None);
-    }
+    header_index_vec.resize(known_header_count, None);
 
     // There must be headers.
     if headers.is_empty() {
@@ -326,11 +328,11 @@ fn check_headers(
             Ok(known) => {
                 // Error on duplicate headers.
                 if header_index_vec[known as usize].is_some() {
-                    report.error(format!("Duplicate header '{}'", header));
+                    report.error(format!("Duplicate header '{header}'"));
                 }
                 header_index_vec[known as usize] = Some(i)
             }
-            Err(_) => report.error(format!("Unknown header '{}'", header)),
+            Err(_) => report.error(format!("Unknown header '{header}'")),
         }
 
         has_squat = has_squat || header.contains("Squat");
@@ -351,27 +353,18 @@ fn check_headers(
         report.error("Deadlift data requires a 'Best3DeadliftKg' column");
     }
 
-    // Test for mandatory columns.
-    if !header_map.has(Header::Name) {
-        report.error("There must be a 'Name' column");
-    }
-    if !header_map.has(Header::WeightClassKg) && !header_map.has(Header::BodyweightKg) {
-        report.error("There must be a 'BodyweightKg' or 'WeightClassKg' column");
-    }
-    if !header_map.has(Header::Sex) {
-        report.error("There must be a 'Sex' column");
-    }
-    if !header_map.has(Header::Equipment) {
-        report.error("There must be an 'Equipment' column");
-    }
-    if !header_map.has(Header::TotalKg) {
-        report.error("There must be a 'TotalKg' column");
-    }
-    if !header_map.has(Header::Place) {
-        report.error("There must be a 'Place' column");
-    }
-    if !header_map.has(Header::Event) {
-        report.error("There must be an 'Event' column");
+    // Require mandatory columns.
+    {
+        use Header::*;
+        const MANDATORY_COLUMNS: [Header; 6] = [Name, Sex, Equipment, TotalKg, Place, Event];
+        for column in &MANDATORY_COLUMNS {
+            if !header_map.has(*column) {
+                report.error(format!("There must be a '{column}' column"));
+            }
+        }
+        if !header_map.has(Header::WeightClassKg) && !header_map.has(Header::BodyweightKg) {
+            report.error("There must be a 'BodyweightKg' or 'WeightClassKg' column");
+        }
     }
 
     // Configured federations must have standardized divisions,
@@ -398,7 +391,7 @@ fn check_headers(
     header_map
 }
 
-fn check_column_name(name: &str, line: u64, report: &mut Report) -> String {
+fn check_column_name(name: &str, line: u64, report: &mut Report) -> CompactString {
     // Allow discarding disambiguation (everything after optional '#').
     let mut s = name;
 
@@ -407,22 +400,19 @@ fn check_column_name(name: &str, line: u64, report: &mut Report) -> String {
     if let Some(i) = s.find('#') {
         // The '#' must be preceded by a space.
         if i > 0 && s.get(i - 1..i) != Some(" ") {
-            report.error_on(line, format!("Name '{}' must have a space before '#'", s));
+            report.error_on(line, format!("Name '{s}' must have a space before '#'"));
         }
 
         // Everything after the '#' must be an integer.
         if let Some(number) = s.get(i + 1..) {
             for c in number.chars() {
                 if !c.is_ascii_digit() {
-                    report.error_on(
-                        line,
-                        format!("Name '{}' can only have numbers after '#'", s),
-                    );
+                    report.error_on(line, format!("Name '{s}' can only have numbers after '#'"));
                     break;
                 }
             }
         } else {
-            report.error_on(line, format!("Name '{}' must have a number after '#'", s));
+            report.error_on(line, format!("Name '{s}' must have a number after '#'"));
         }
 
         // For the purposes of the checks below, ignore the disambiguation.
@@ -431,13 +421,13 @@ fn check_column_name(name: &str, line: u64, report: &mut Report) -> String {
 
     // Standardize on suffices without periods. Also just in general.
     if s.ends_with('.') {
-        report.error_on(line, format!("Name '{}' cannot end with a period", name));
+        report.error_on(line, format!("Name '{name}' cannot end with a period"));
     }
 
     // All characters must be alphabetical or one of some few exceptions.
     for c in s.chars() {
         if !c.is_alphabetic() && c != ' ' && c != '\'' && c != '.' && c != '-' {
-            report.error_on(line, format!("Name '{}' contains illegal characters", name));
+            report.error_on(line, format!("Name '{name}' contains illegal characters"));
             break;
         }
     }
@@ -448,15 +438,16 @@ fn check_column_name(name: &str, line: u64, report: &mut Report) -> String {
         if word_index != 0 {
             match word {
                 // Common short words that mostly translate to "the".
-                "bin" | "da" | "de" | "do" | "del" | "den" | "der" | "des" | "di"
-                | "dos" | "du" | "e" | "el" | "in't" | "la" | "le" | "los" | "'t"
-                | "ten" | "v" | "v." | "v.d." | "van" | "von" | "zur" => {
+                "bin" | "da" | "de" | "do" | "del" | "den" | "der" | "des" | "di" | "dos"
+                | "du" | "e" | "el" | "in't" | "la" | "le" | "los" | "op" | "of" | "'t" | "te"
+                | "ten" | "ter" | "und" | "v" | "v." | "v.d." | "van" | "von" | "zur" | "y"
+                | "zu" => {
                     continue;
                 }
 
                 // Standardize Dutch names on "v.d.".
                 "vd" | "v.d" | "vd." | "V.D." => {
-                    report.error_on(line, format!("Name '{}' should use 'v.d.'", name));
+                    report.error_on(line, format!("Name '{name}' should use 'v.d.'"));
                     continue;
                 }
                 _ => (),
@@ -472,13 +463,13 @@ fn check_column_name(name: &str, line: u64, report: &mut Report) -> String {
         // Disallow nicknames. They're usually written as "Tom 'Tommy' Thompson".
         // Allow 't, the abbreviation for the dutch word het.
         if word.starts_with('\'') {
-            report.error_on(line, format!("Name '{}' cannot contain nicknames", name));
+            report.error_on(line, format!("Name '{name}' cannot contain nicknames"));
             continue;
         }
 
         // Punctuation should never be a separate word.
         if word == "-" || word == "." || word == "'" {
-            report.error_on(line, format!("Name '{}' has separable punctuation", name));
+            report.error_on(line, format!("Name '{name}' has separable punctuation"));
             continue;
         }
 
@@ -487,7 +478,7 @@ fn check_column_name(name: &str, line: u64, report: &mut Report) -> String {
             if !c.is_uppercase() {
                 report.error_on(
                     line,
-                    format!("Name '{}' must have '{}' capitalized", name, word),
+                    format!("Name '{name}' must have '{word}' capitalized"),
                 );
             }
         }
@@ -495,102 +486,104 @@ fn check_column_name(name: &str, line: u64, report: &mut Report) -> String {
 
     // Complain about meet data that got left over.
     if s.ends_with("DT") || s.ends_with("SP") || s.ends_with("MP") {
-        report.error_on(
-            line,
-            format!("Name '{}' contains lifting information", name),
-        );
+        report.error_on(line, format!("Name '{name}' contains lifting information"));
     }
 
     // Complain about Junior/Senior at the start of the name. USAPL does this.
     if s.starts_with("Jr ") || s.starts_with("Sr ") {
-        report.error_on(line, format!("Name '{}' needs Jr/Sr moved to end", name));
+        report.error_on(line, format!("Name '{name}' needs Jr/Sr moved to end"));
     }
 
     // Suffices that must be fully-capitalized.
     if s.ends_with("Ii") || s.ends_with("Iii") {
         report.error_on(
             line,
-            format!("Name '{}' must have suffix fully-capitalized", name),
+            format!("Name '{name}' must have suffix fully-capitalized"),
         );
     }
 
-    canonicalize_name_utf8(name)
+    canonicalize_name_utf8(name).into()
+}
+
+fn check_column_chinesename(s: &str, line: u64, report: &mut Report) -> Option<String> {
+    if s.is_empty() {
+        return None;
+    }
+
+    for c in s.chars() {
+        if writing_system(c) != WritingSystem::CJK && c != ' ' && c != '·' {
+            let msg = format!("ChineseName '{s}' contains non-CJK character '{c}'");
+            report.error_on(line, msg);
+            return None;
+        }
+    }
+    Some(canonicalize_name_utf8(s).into())
 }
 
 fn check_column_cyrillicname(s: &str, line: u64, report: &mut Report) -> Option<String> {
     if s.is_empty() {
-        None
-    } else {
-        for c in s.chars() {
-            if usernames::get_writing_system(c) != usernames::WritingSystem::Cyrillic
-                && !"-' .".contains(c)
-            {
-                let msg = format!(
-                    "CyrillicName '{}' contains non-Cyrillic character '{}'",
-                    s, c
-                );
-                report.error_on(line, msg);
-                return None;
-            }
-        }
-        Some(canonicalize_name_utf8(s))
+        return None;
     }
+
+    for c in s.chars() {
+        if writing_system(c) != WritingSystem::Cyrillic && !"-' .".contains(c) {
+            let msg = format!("CyrillicName '{s}' contains non-Cyrillic character '{c}'");
+            report.error_on(line, msg);
+            return None;
+        }
+    }
+    Some(canonicalize_name_utf8(s).into())
 }
 
 fn check_column_japanesename(s: &str, line: u64, report: &mut Report) -> Option<String> {
     if s.is_empty() {
-        None
-    } else {
-        for c in s.chars() {
-            if usernames::get_writing_system(c) != usernames::WritingSystem::Japanese
-                && c != ' '
-            {
-                let msg = format!(
-                    "JapaneseName '{}' contains non-Japanese character '{}'",
-                    s, c
-                );
-                report.error_on(line, msg);
-                return None;
-            }
-        }
-        Some(canonicalize_name_utf8(s))
+        return None;
     }
+
+    for c in s.chars() {
+        if writing_system(c) != WritingSystem::Japanese
+            && writing_system(c) != WritingSystem::CJK
+            && c != ' '
+        {
+            let msg = format!("JapaneseName '{s}' contains non-Japanese character '{c}'");
+            report.error_on(line, msg);
+            return None;
+        }
+    }
+    Some(canonicalize_name_utf8(s).into())
 }
 
 fn check_column_greekname(s: &str, line: u64, report: &mut Report) -> Option<String> {
     if s.is_empty() {
-        None
-    } else {
-        for c in s.chars() {
-            if usernames::get_writing_system(c) != usernames::WritingSystem::Greek
-                && !"-' .".contains(c)
-            {
-                let msg =
-                    format!("GreekName '{}' contains non-Greek character '{}'", s, c);
-                report.error_on(line, msg);
-                return None;
-            }
-        }
-        Some(canonicalize_name_utf8(s))
+        return None;
     }
+
+    for c in s.chars() {
+        if writing_system(c) != WritingSystem::Greek && !"-' .".contains(c) {
+            let msg = format!("GreekName '{s}' contains non-Greek character '{c}'");
+            report.error_on(line, msg);
+            return None;
+        }
+    }
+    Some(canonicalize_name_utf8(s).into())
 }
 
 fn check_column_koreanname(s: &str, line: u64, report: &mut Report) -> Option<String> {
     if s.is_empty() {
-        None
-    } else {
-        for c in s.chars() {
-            if usernames::get_writing_system(c) != usernames::WritingSystem::Korean
-                && !"-' .".contains(c)
-            {
-                let msg =
-                    format!("KoreanName '{}' contains non-Korean character '{}'", s, c);
-                report.error_on(line, msg);
-                return None;
-            }
-        }
-        Some(canonicalize_name_utf8(s))
+        return None;
     }
+
+    for c in s.chars() {
+        if writing_system(c) != WritingSystem::Korean
+            && writing_system(c) != WritingSystem::Japanese
+            && !"-' .".contains(c)
+        {
+            let msg = format!("KoreanName '{s}' contains non-Korean character '{c}'");
+            report.error_on(line, msg);
+            return None;
+        }
+    }
+    Some(canonicalize_name_utf8(s).into())
 }
 
 fn check_column_birthyear(
@@ -603,30 +596,28 @@ fn check_column_birthyear(
         return None;
     }
 
-    match s.parse::<u32>() {
-        Ok(year) => {
-            if year < 1000 || year > 9999 {
-                report.error_on(line, format!("BirthYear '{}' must have 4 digits", year));
-            }
-
-            // Compare the BirthYear to the meet date for some basic sanity checks.
-            if let Some(m) = meet {
-                if year > m.date.year() - 4 || m.date.year() - year > 98 {
-                    report.error_on(
-                        line,
-                        format!("BirthYear '{}' looks implausible", year),
-                    );
-                    return None;
-                }
-            }
-
-            Some(year)
-        }
+    let year = match s.parse::<u32>() {
+        Ok(year) => year,
         Err(_) => {
-            report.error_on(line, format!("BirthYear '{}' must be a number", s));
-            None
+            report.error_on(line, format!("BirthYear '{s}' must be a number"));
+            return None;
+        }
+    };
+
+    // A year must have four digits.
+    if !(1000..=9999).contains(&year) {
+        report.error_on(line, format!("BirthYear '{year}' must have 4 digits"));
+        return None;
+    }
+
+    // Compare the BirthYear to the meet date for some basic sanity checks.
+    if let Some(m) = meet {
+        if year > m.date.year().saturating_sub(4) || m.date.year().saturating_sub(year) > 98 {
+            report.error_on(line, format!("BirthYear '{year}' looks implausible"));
+            return None;
         }
     }
+    Some(year)
 }
 
 fn check_column_birthdate(
@@ -644,27 +635,26 @@ fn check_column_birthdate(
             // Compare the BirthDate to the meet date for some basic sanity checks.
             if let Some(m) = meet {
                 if bd.year() >= m.date.year() - 4 || m.date.year() - bd.year() > 98 {
-                    report.error_on(line, format!("BirthDate '{}' looks implausible", s));
+                    report.error_on(line, format!("BirthDate '{s}' looks implausible"));
                     return None;
                 }
 
                 if let Err(e) = bd.age_on(m.date) {
-                    report.error_on(line, format!("BirthDate '{}' error: {}", s, e));
+                    report.error_on(line, format!("BirthDate '{s}' error: {e}"));
                     return None;
                 }
             }
 
             // Ensure that the BirthDate exists in the Gregorian calendar.
             if !bd.is_valid() {
-                let msg =
-                    format!("BirthDate '{}' does not exist in the Gregorian calendar", s);
+                let msg = format!("BirthDate '{s}' does not exist in the Gregorian calendar");
                 report.error_on(line, msg);
             }
 
             Some(bd)
         }
         Err(e) => {
-            report.error_on(line, format!("Invalid BirthDate '{}': '{}'", s, e));
+            report.error_on(line, format!("Invalid BirthDate '{s}': '{e}'"));
             None
         }
     }
@@ -674,7 +664,7 @@ fn check_column_sex(s: &str, line: u64, report: &mut Report) -> Sex {
     match s.parse::<Sex>() {
         Ok(s) => s,
         Err(_) => {
-            report.error_on(line, format!("Invalid Sex '{}'", s));
+            report.error_on(line, format!("Invalid Sex '{s}'"));
             Sex::default()
         }
     }
@@ -684,17 +674,13 @@ fn check_column_equipment(s: &str, line: u64, report: &mut Report) -> Equipment 
     match s.parse::<Equipment>() {
         Ok(eq) => eq,
         Err(_) => {
-            report.error_on(line, format!("Invalid Equipment '{}'", s));
+            report.error_on(line, format!("Invalid Equipment '{s}'"));
             Equipment::Multi
         }
     }
 }
 
-fn check_column_squatequipment(
-    s: &str,
-    line: u64,
-    report: &mut Report,
-) -> Option<Equipment> {
+fn check_column_squatequipment(s: &str, line: u64, report: &mut Report) -> Option<Equipment> {
     if s.is_empty() {
         return None;
     }
@@ -706,41 +692,31 @@ fn check_column_squatequipment(
             Some(eq)
         }
         Err(_) => {
-            report.error_on(line, format!("Invalid SquatEquipment '{}'", s));
+            report.error_on(line, format!("Invalid SquatEquipment '{s}'"));
             None
         }
     }
 }
 
-fn check_column_benchequipment(
-    s: &str,
-    line: u64,
-    report: &mut Report,
-) -> Option<Equipment> {
+fn check_column_benchequipment(s: &str, line: u64, report: &mut Report) -> Option<Equipment> {
     if s.is_empty() {
         return None;
     }
     match s.parse::<Equipment>() {
         Ok(eq) => {
-            if eq == Equipment::Wraps {
-                report.error_on(line, "BenchEquipment can't be 'Wraps'");
-            } else if eq == Equipment::Straps {
-                report.error_on(line, "BenchEquipment can't be 'Straps'");
+            if eq == Equipment::Wraps || eq == Equipment::Straps {
+                report.error_on(line, "BenchEquipment can't be '{s}'");
             }
             Some(eq)
         }
         Err(_) => {
-            report.error_on(line, format!("Invalid BenchEquipment '{}'", s));
+            report.error_on(line, format!("Invalid BenchEquipment '{s}'"));
             None
         }
     }
 }
 
-fn check_column_deadliftequipment(
-    s: &str,
-    line: u64,
-    report: &mut Report,
-) -> Option<Equipment> {
+fn check_column_deadliftequipment(s: &str, line: u64, report: &mut Report) -> Option<Equipment> {
     if s.is_empty() {
         return None;
     }
@@ -753,7 +729,7 @@ fn check_column_deadliftequipment(
             Some(eq)
         }
         Err(_) => {
-            report.error_on(line, format!("Invalid DeadliftEquipment '{}'", s));
+            report.error_on(line, format!("Invalid DeadliftEquipment '{s}'"));
             None
         }
     }
@@ -766,7 +742,7 @@ fn check_column_place(s: &str, line: u64, report: &mut Report) -> Place {
             if s.is_empty() {
                 report.error_on(line, "Invalid Place '': should it be 'DQ'?");
             } else {
-                report.error_on(line, format!("Invalid Place '{}'", s));
+                report.error_on(line, format!("Invalid Place '{s}'"));
             }
             Place::default()
         }
@@ -784,16 +760,15 @@ fn check_column_age(s: &str, exempt_age: bool, line: u64, report: &mut Report) -
                 };
 
                 if num < 5 {
-                    report.error_on(line, format!("Age '{}' unexpectedly low", s));
+                    report.error_on(line, format!("Age '{s}' unexpectedly low"));
                 } else if num > 100 {
-                    report.error_on(line, format!("Age '{}' unexpectedly high", s));
+                    report.error_on(line, format!("Age '{s}' unexpectedly high"));
                 }
             }
-
             age
         }
         Err(_) => {
-            report.error_on(line, format!("Invalid Age '{}'", s));
+            report.error_on(line, format!("Invalid Age '{s}'"));
             Age::default()
         }
     }
@@ -811,10 +786,7 @@ fn check_column_agerange(
 
     // Ensure that there is a dash, or the split below can panic.
     if s.chars().filter(|c| *c == '-').count() != 1 {
-        report.error_on(
-            line,
-            format!("AgeRange '{}' must be a range of two Ages", s),
-        );
+        report.error_on(line, format!("AgeRange '{s}' must be a range of two Ages"));
         return inferred_agerange;
     }
 
@@ -826,16 +798,10 @@ fn check_column_agerange(
     let lower: Age = left.parse::<Age>().unwrap_or(Age::None);
     let upper: Age = right.parse::<Age>().unwrap_or(Age::None);
     if lower.is_none() {
-        report.error_on(
-            line,
-            format!("Lower bound of AgeRange '{}' looks invalid", s),
-        );
+        report.error_on(line, format!("Lower bound of AgeRange '{s}' looks invalid"));
     }
     if upper.is_none() {
-        report.error_on(
-            line,
-            format!("Upper bound of AgeRange '{}' looks invalid", s),
-        );
+        report.error_on(line, format!("Upper bound of AgeRange '{s}' looks invalid"));
     }
     let explicit_agerange = AgeRange::from((lower, upper));
 
@@ -850,7 +816,7 @@ fn check_column_agerange(
             if intersection.is_none() {
                 report.error_on(
                     line,
-                    format!("AgeRange value '{}' doesn't agree with AgeRange '{}' inferred from other age data", explicit_agerange, inferred_agerange)
+                    format!("AgeRange value '{explicit_agerange}' doesn't agree with AgeRange '{inferred_agerange}' inferred from other age data")
                 );
             }
             intersection
@@ -858,12 +824,7 @@ fn check_column_agerange(
     }
 }
 
-fn check_column_event(
-    s: &str,
-    line: u64,
-    headers: &HeaderIndexMap,
-    report: &mut Report,
-) -> Event {
+fn check_column_event(s: &str, line: u64, headers: &HeaderIndexMap, report: &mut Report) -> Event {
     match s.parse::<Event>() {
         Ok(event) => {
             if event.has_squat() && !headers.has(Header::Best3SquatKg) {
@@ -878,7 +839,7 @@ fn check_column_event(
             event
         }
         Err(e) => {
-            report.error_on(line, format!("Invalid Event '{}': {}", s, e.to_string()));
+            report.error_on(line, format!("Invalid Event '{s}': {e}"));
             Event::default()
         }
     }
@@ -888,50 +849,45 @@ fn check_column_event(
 fn check_weight(s: &str, line: u64, header: Header, report: &mut Report) -> WeightKg {
     // Disallow zeros.
     if s == "0" {
-        report.error_on(line, format!("{} cannot be zero", header));
+        report.error_on(line, format!("{header} cannot be zero"));
     } else if s.starts_with('0') {
-        report.error_on(line, format!("{} cannot start with 0 in '{}'", header, s));
+        report.error_on(line, format!("{header} cannot start with 0 in '{s}'"));
     }
 
     match s.parse::<WeightKg>() {
         Ok(w) => {
             // Check for weights that are far beyond what's ever been lifted.
-            const MAX_KG: i32 = 605;
+            const MAX_KG: i32 = 650;
             if header != Header::TotalKg
                 && (w > WeightKg::from_i32(MAX_KG) || w < WeightKg::from_i32(-MAX_KG))
             {
                 report.error_on(
                     line,
-                    format!("{} '{}' exceeds maximum expected weight", header, s),
+                    format!("{header} '{s}' exceeds maximum expected weight"),
                 )
             }
             w
         }
         Err(_) => {
-            report.error_on(line, format!("Invalid {} '{}'", header, s));
+            report.error_on(line, format!("Invalid {header} '{s}'"));
             WeightKg::default()
         }
     }
 }
 
-fn check_nonnegative_weight(
-    s: &str,
-    line: u64,
-    header: Header,
-    report: &mut Report,
-) -> WeightKg {
+fn check_nonnegative_weight(s: &str, line: u64, header: Header, report: &mut Report) -> WeightKg {
     if s.starts_with('-') {
-        report.error_on(line, format!("{} '{}' cannot be negative", header, s))
+        report.error_on(line, format!("{header} '{s}' cannot be negative"))
     }
     check_weight(s, line, header, report)
 }
 
 fn check_column_bodyweightkg(s: &str, line: u64, report: &mut Report) -> WeightKg {
     let weight = check_nonnegative_weight(s, line, Header::BodyweightKg, report);
-    if weight != WeightKg::from_i32(0) {
-        if weight < WeightKg::from_i32(15) || weight > WeightKg::from_i32(300) {
-            report.error_on(line, format!("Implausible BodyweightKg '{}'", s));
-        }
+    if weight != WeightKg::from_i32(0)
+        && (weight < WeightKg::from_i32(15) || weight > WeightKg::from_i32(300))
+    {
+        report.error_on(line, format!("Implausible BodyweightKg '{s}'"));
     }
     weight
 }
@@ -941,16 +897,13 @@ fn check_column_weightclasskg(s: &str, line: u64, report: &mut Report) -> Weight
     if s == "0" {
         report.error_on(line, "WeightClassKg cannot be zero");
     } else if s.starts_with('0') && s != "0+" {
-        report.error_on(
-            line,
-            format!("WeightClassKg cannot start with 0 in '{}'", s),
-        );
+        report.error_on(line, format!("WeightClassKg cannot start with 0 in '{s}'"));
     }
 
     match s.parse::<WeightClassKg>() {
         Ok(w) => w,
         Err(e) => {
-            report.error_on(line, format!("Invalid WeightClassKg '{}': {}", s, e));
+            report.error_on(line, format!("Invalid WeightClassKg '{s}': {e}"));
             WeightClassKg::default()
         }
     }
@@ -962,7 +915,7 @@ fn check_column_tested(s: &str, line: u64, report: &mut Report) -> Option<bool> 
         "No" => Some(false),
         "" => None,
         _ => {
-            report.error_on(line, format!("Unknown Tested value '{}'", s));
+            report.error_on(line, format!("Unknown Tested value '{s}'"));
             None
         }
     }
@@ -981,9 +934,7 @@ fn check_column_division(
 
     let config = match config {
         Some(config) => config,
-        None => {
-            return;
-        }
+        None => return,
     };
 
     // Configuration files covering directories with results from
@@ -995,7 +946,7 @@ fn check_column_division(
 
     // The division must appear in the configuration file.
     if !config.divisions.iter().any(|d| d.name == s) {
-        report.error_on(line, format!("Unknown division '{}'", s));
+        report.error_on(line, format!("Unknown division '{s}'"));
     }
 }
 
@@ -1007,7 +958,7 @@ fn check_column_country(s: &str, line: u64, report: &mut Report) -> Option<Count
     match s.parse::<Country>() {
         Ok(c) => Some(c),
         Err(_) => {
-            report.error_on(line, format!("Unknown Country '{}'", s));
+            report.error_on(line, format!("Unknown Country '{s}'"));
             None
         }
     }
@@ -1021,7 +972,7 @@ fn check_column_entrydate(s: &str, line: u64, report: &mut Report) -> Option<Dat
     match s.parse::<Date>() {
         Ok(d) => Some(d),
         Err(_) => {
-            report.error_on(line, format!("Invalid EntryDate '{}'", s));
+            report.error_on(line, format!("Invalid EntryDate '{s}'"));
             None
         }
     }
@@ -1043,21 +994,20 @@ fn check_column_state(
     }
 
     // Get the country either from the Country column or from the MeetCountry.
-    match lifter_country.or(meet.map(|m| m.country)) {
+    match lifter_country.or_else(|| meet.map(|m| m.country)) {
         Some(country) => {
             let state = State::from_str_and_country(s, country).ok();
             if state.is_none() {
                 let c = country.to_string();
-                let msg = format!("Unknown State '{}' for Country '{}'", s, c,);
+                let msg = format!("Unknown State '{s}' for Country '{c}'");
                 report.error_on(line, msg);
             }
             state
         }
         None => {
-            // At the least, make sure it's ASCII.
-            if !s.is_ascii() {
-                report.error_on(line, format!("State '{}' must be ASCII", s));
-            }
+            // This can only happen if the MeetCountry is missing.
+            let msg = format!("Unknown State '{s}': no available Country");
+            report.error_on(line, msg);
             None
         }
     }
@@ -1072,21 +1022,21 @@ fn check_event_and_total_consistency(entry: &Entry, line: u64, report: &mut Repo
 
     // Check that lift data isn't present outside of the specified Event.
     if has_squat_data && !event.has_squat() {
-        report.error_on(line, format!("Event '{}' cannot have squat data", event));
+        report.error_on(line, format!("Event '{event}' cannot have squat data"));
     }
     if has_bench_data && !event.has_bench() {
-        report.error_on(line, format!("Event '{}' cannot have bench data", event));
+        report.error_on(line, format!("Event '{event}' cannot have bench data"));
     }
     if has_deadlift_data && !event.has_deadlift() {
-        report.error_on(line, format!("Event '{}' cannot have deadlift data", event));
+        report.error_on(line, format!("Event '{event}' cannot have deadlift data"));
     }
 
     // Check that the Equipment makes sense for the given Event.
     if equipment == Equipment::Wraps && !event.has_squat() {
-        report.error_on(line, format!("Event '{}' doesn't use Wraps", event));
+        report.error_on(line, format!("Event '{event}' doesn't use Wraps"));
     }
     if equipment == Equipment::Straps && !event.has_deadlift() {
-        report.error_on(line, format!("Event '{}' doesn't use Straps", event));
+        report.error_on(line, format!("Event '{event}' doesn't use Straps"));
     }
 
     // Check that the SquatEquipment makes sense.
@@ -1095,9 +1045,8 @@ fn check_event_and_total_consistency(entry: &Entry, line: u64, report: &mut Repo
             report.error_on(
                 line,
                 format!(
-                    "SquatEquipment '{}' can't be more supportive \
-                     than the Equipment '{}'",
-                    squat_eq, equipment
+                    "SquatEquipment '{squat_eq}' can't be more supportive \
+                     than the Equipment '{equipment}'"
                 ),
             );
         }
@@ -1109,9 +1058,8 @@ fn check_event_and_total_consistency(entry: &Entry, line: u64, report: &mut Repo
             report.error_on(
                 line,
                 format!(
-                    "BenchEquipment '{}' can't be more supportive \
-                     than the Equipment '{}'",
-                    bench_eq, equipment
+                    "BenchEquipment '{bench_eq}' can't be more supportive \
+                     than the Equipment '{equipment}'"
                 ),
             );
         }
@@ -1123,9 +1071,8 @@ fn check_event_and_total_consistency(entry: &Entry, line: u64, report: &mut Repo
             report.error_on(
                 line,
                 format!(
-                    "DeadliftEquipment '{}' can't be more supportive \
-                     than the Equipment '{}'",
-                    deadlift_eq, equipment
+                    "DeadliftEquipment '{deadlift_eq}' can't be more supportive \
+                     than the Equipment '{equipment}'"
                 ),
             );
         }
@@ -1136,15 +1083,15 @@ fn check_event_and_total_consistency(entry: &Entry, line: u64, report: &mut Repo
         // Allow entries that only have a Total but no lift data.
         if has_squat_data || has_bench_data || has_deadlift_data {
             if !has_squat_data && event.has_squat() {
-                let s = format!("Non-DQ Event '{}' requires squat data", event);
+                let s = format!("Non-DQ Event '{event}' requires squat data");
                 report.error_on(line, s);
             }
             if !has_bench_data && event.has_bench() {
-                let s = format!("Non-DQ Event '{}' requires bench data", event);
+                let s = format!("Non-DQ Event '{event}' requires bench data");
                 report.error_on(line, s);
             }
             if !has_deadlift_data && event.has_deadlift() {
-                let s = format!("Non-DQ Event '{}' requires deadlift data", event);
+                let s = format!("Non-DQ Event '{event}' requires deadlift data");
                 report.error_on(line, s);
             }
         }
@@ -1184,8 +1131,8 @@ fn check_event_and_total_consistency(entry: &Entry, line: u64, report: &mut Repo
 
         if (calculated - entry.totalkg).abs() > WeightKg::from_f32(0.5) {
             let s = format!(
-                "Calculated TotalKg '{}', but meet recorded '{}'",
-                calculated, entry.totalkg
+                "Calculated TotalKg '{calculated}', but meet recorded '{}'",
+                entry.totalkg
             );
             report.error_on(line, s)
         }
@@ -1230,10 +1177,7 @@ fn process_attempt_pair(
     if !exempt_lift_order && attempt.abs() < maxweight.abs() {
         report.error_on(
             line,
-            format!(
-                "{}{}Kg '{}' lowered weight from '{}'",
-                lift, attempt_num, attempt, maxweight
-            ),
+            format!("{lift}{attempt_num}Kg '{attempt}' lowered weight from '{maxweight}'"),
         );
     }
 
@@ -1241,10 +1185,7 @@ fn process_attempt_pair(
     if !maxweight.is_failed() && attempt.abs() == maxweight {
         report.error_on(
             line,
-            format!(
-                "{}{}Kg '{}' repeated a successful attempt",
-                lift, attempt_num, attempt
-            ),
+            format!("{lift}{attempt_num}Kg '{attempt}' repeated a successful attempt"),
         );
     }
 
@@ -1255,6 +1196,7 @@ fn process_attempt_pair(
     }
 }
 
+#[allow(clippy::too_many_arguments)]
 fn check_attempt_consistency_helper(
     lift: &str,
     attempt1: WeightKg,
@@ -1268,15 +1210,8 @@ fn check_attempt_consistency_helper(
     report: &mut Report,
 ) {
     // Check that the bar weight is ascending over attempts.
-    let mut maxweight = process_attempt_pair(
-        lift,
-        2,
-        attempt1,
-        attempt2,
-        exempt_lift_order,
-        line,
-        report,
-    );
+    let mut maxweight =
+        process_attempt_pair(lift, 2, attempt1, attempt2, exempt_lift_order, line, report);
     maxweight = process_attempt_pair(
         lift,
         3,
@@ -1305,22 +1240,13 @@ fn check_attempt_consistency_helper(
     if best > WeightKg::from_i32(0) && best != best3lift {
         report.error_on(
             line,
-            format!(
-                "Best3{}Kg '{}' does not match best attempt '{}'",
-                lift, best3lift, best
-            ),
+            format!("Best3{lift}Kg '{best3lift}' does not match best attempt '{best}'"),
         );
     }
 
     // If the best attempt was a failure, the least failure can be in the Best3Lift.
-    if best < WeightKg::from_i32(0)
-        && best3lift != WeightKg::from_i32(0)
-        && best != best3lift
-    {
-        let s = format!(
-            "Best3{}Kg '{}' does not match least failed attempt '{}'",
-            lift, best3lift, best
-        );
+    if best < WeightKg::from_i32(0) && best3lift != WeightKg::from_i32(0) && best != best3lift {
+        let s = format!("Best3{lift}Kg '{best3lift}' does not match least failed attempt '{best}'");
         report.error_on(line, s);
     }
 }
@@ -1376,26 +1302,19 @@ fn check_attempt_consistency(
 }
 
 /// Checks that gear wasn't used prior to its date of invention.
-fn check_equipment_year(
-    entry: &Entry,
-    meet: Option<&Meet>,
-    line: u64,
-    report: &mut Report,
-) {
+fn check_equipment_year(entry: &Entry, meet: Option<&Meet>, line: u64, report: &mut Report) {
     // Helper function for checking equipped status.
     fn is_equipped(e: Option<Equipment>) -> bool {
         e.map_or(false, |eq| match eq {
             Equipment::Raw | Equipment::Wraps | Equipment::Straps => false,
-            Equipment::Single | Equipment::Multi => true,
+            Equipment::Single | Equipment::Multi | Equipment::Unlimited => true,
         })
     }
 
     // Inelegant unwrapping.
     let date = match meet.map(|m| &m.date) {
         Some(d) => d,
-        None => {
-            return;
-        }
+        None => return,
     };
     let event = entry.event;
 
@@ -1414,10 +1333,7 @@ fn check_equipment_year(
     {
         report.error_on(
             line,
-            format!(
-                "Squat equipment wasn't invented until {}",
-                squat_suit_invention_year
-            ),
+            format!("Squat equipment wasn't invented until {squat_suit_invention_year}"),
         );
     }
 
@@ -1425,16 +1341,11 @@ fn check_equipment_year(
     // TODO: This avoids conflation with the squat equipment.
     if date.year() < bench_shirt_invention_year
         && (is_equipped(entry.bench_equipment)
-            || (event.has_bench()
-                && !event.has_squat()
-                && is_equipped(Some(entry.equipment))))
+            || (event.has_bench() && !event.has_squat() && is_equipped(Some(entry.equipment))))
     {
         report.error_on(
             line,
-            format!(
-                "Bench shirts weren't invented until {}",
-                bench_shirt_invention_year
-            ),
+            format!("Bench shirts weren't invented until {bench_shirt_invention_year}"),
         );
     }
 
@@ -1442,16 +1353,11 @@ fn check_equipment_year(
     // TODO: This avoids conflation with the squat equipment.
     if date.year() < deadlift_suit_invention_year
         && (is_equipped(entry.deadlift_equipment)
-            || (event.has_deadlift()
-                && !event.has_squat()
-                && is_equipped(Some(entry.equipment))))
+            || (event.has_deadlift() && !event.has_squat() && is_equipped(Some(entry.equipment))))
     {
         report.error_on(
             line,
-            format!(
-                "Deadlift suits weren't invented until {}",
-                deadlift_suit_invention_year
-            ),
+            format!("Deadlift suits weren't invented until {deadlift_suit_invention_year}"),
         );
     }
 }
@@ -1576,10 +1482,13 @@ fn check_weightclass_consistency(
 
     // If no group matched, the config is in trouble.
     if matched_group.is_none() {
-        report.error_on(
-            line,
-            "Could not match to any weightclass group in the CONFIG.toml",
-        );
+        // Federations don't define Mx weightclasses at this point.
+        if entry.sex != Sex::Mx {
+            report.error_on(
+                line,
+                "Could not match to any weightclass group in the CONFIG.toml",
+            );
+        }
         return;
     }
 
@@ -1653,10 +1562,7 @@ fn check_weightclass_consistency(
                 line,
                 format!(
                     "BodyweightKg '{}' matches '{}', not '{}' in [weightclasses.{}]",
-                    entry.bodyweightkg,
-                    first_match,
-                    entry.weightclasskg,
-                    matched_group.name
+                    entry.bodyweightkg, first_match, entry.weightclasskg, matched_group.name
                 ),
             );
         }
@@ -1717,10 +1623,7 @@ fn check_division_age_consistency(
             if birthdate.year() != birthyear {
                 report.error_on(
                     line,
-                    format!(
-                        "BirthDate '{}' doesn't match BirthYear '{}'",
-                        birthdate, birthyear
-                    ),
+                    format!("BirthDate '{birthdate}' doesn't match BirthYear '{birthyear}'"),
                 );
             }
         }
@@ -1765,9 +1668,7 @@ fn check_division_age_consistency(
     // If no divisions are configured, there's nothing left to do.
     let config = match config {
         Some(config) => config,
-        None => {
-            return (Age::None, Age::None);
-        }
+        None => return (Age::None, Age::None),
     };
 
     // Configuration files covering directories with results from
@@ -1778,13 +1679,10 @@ fn check_division_age_consistency(
     }
 
     // Division string errors are already handled by check_column_division().
-    let (min_age, max_age) =
-        match config.divisions.iter().find(|d| d.name == entry.division) {
-            Some(div) => (div.min, div.max),
-            None => {
-                return (Age::None, Age::None);
-            }
-        };
+    let (min_age, max_age) = match config.divisions.iter().find(|d| d.name == entry.division) {
+        Some(div) => (div.min, div.max),
+        None => return (Age::None, Age::None),
+    };
 
     // Use the various age-related columns to calculate a representative Age value.
     let age = entry.age_on(meet_date);
@@ -1862,22 +1760,16 @@ fn check_division_sex_consistency(
 
     let config = match config {
         Some(c) => c,
-        None => {
-            return;
-        }
+        None => return,
     };
 
     // Get the configured sex for the division, or return if not specified.
     let sex = match config.divisions.iter().find(|d| d.name == entry.division) {
         Some(div) => match div.sex {
             Some(sex) => sex,
-            None => {
-                return;
-            }
+            None => return,
         },
-        None => {
-            return;
-        }
+        None => return,
     };
 
     if sex != entry.sex {
@@ -1904,22 +1796,16 @@ fn check_division_place_consistency(
 
     let config = match config {
         Some(c) => c,
-        None => {
-            return;
-        }
+        None => return,
     };
 
     // Get the configured place for the division, or return if not specified.
     let place = match config.divisions.iter().find(|d| d.name == entry.division) {
         Some(div) => match div.place {
             Some(place) => place,
-            None => {
-                return;
-            }
+            None => return,
         },
-        None => {
-            return;
-        }
+        None => return,
     };
 
     // Only perform checks if the entry was non-DQ'd.
@@ -1939,34 +1825,27 @@ fn check_division_place_consistency(
 fn check_division_equipment_consistency(
     entry: &Entry,
     config: Option<&Config>,
-    exempt_division: bool,
     line: u64,
     report: &mut Report,
 ) {
     // Allow exemptions from division-specific checks.
-    if exempt_division || entry.division.is_empty() {
+    if entry.division.is_empty() {
         return;
     }
 
     let equipment = entry.equipment;
     let config = match config {
         Some(c) => c,
-        None => {
-            return;
-        }
+        None => return,
     };
 
     // Get the configured sex for the division, or return if not specified.
     let eqlist = match config.divisions.iter().find(|d| d.name == entry.division) {
         Some(div) => match &div.equipment {
             Some(vec) => vec,
-            None => {
-                return;
-            }
+            None => return,
         },
-        None => {
-            return;
-        }
+        None => return,
     };
 
     if !eqlist.contains(&equipment) {
@@ -1981,7 +1860,7 @@ fn check_division_equipment_consistency(
 }
 
 /// Returns Testedness based on division configuration.
-fn get_tested_from_division_config(entry: &Entry, config: Option<&Config>) -> bool {
+fn tested_from_division_config(entry: &Entry, config: Option<&Config>) -> bool {
     let config = match config {
         Some(c) => c,
         None => {
@@ -2015,16 +1894,13 @@ fn should_ignore_config(meet: Option<&Meet>, config: Option<&Config>) -> bool {
 ///
 /// Extracting this out into a `Reader`-specific function is useful
 /// for creating tests that do not have a backing CSV file.
-pub fn do_check<R>(
+pub fn do_check<R: io::Read>(
     rdr: &mut csv::Reader<R>,
     meet: Option<&Meet>,
     config: Option<&Config>,
     lifterdata: Option<&LifterDataMap>,
     mut report: Report,
-) -> Result<EntriesCheckResult, Box<dyn Error>>
-where
-    R: io::Read,
-{
+) -> Result<EntriesCheckResult, Box<dyn Error>> {
     // If the federation is only partially configured and this meet doesn't fall in
     // the valid range, ignore the config by reassigning it.
     let config = if should_ignore_config(meet, config) {
@@ -2034,15 +1910,14 @@ where
     };
 
     // Should pending disambiguations be errors?
-    let report_disambiguations =
-        config.map_or(false, |c| c.does_require_manual_disambiguation());
+    let report_disambiguations = config.map_or(false, |c| c.does_require_manual_disambiguation());
 
     let fourths_may_lower: bool =
         meet.map_or(false, |m| m.ruleset.contains(Rule::FourthAttemptsMayLower));
 
     // Scan for check exemptions.
     let exemptions = {
-        let parent_folder = &report.get_parent_folder()?;
+        let parent_folder = &report.parent_folder()?;
         config.and_then(|c| c.exemptions_for(parent_folder))
     };
     let exempt_lift_order: bool = exemptions.map_or(false, |el| {
@@ -2058,14 +1933,14 @@ where
     let exempt_age: bool =
         exemptions.map_or(false, |el| el.iter().any(|&e| e == Exemption::ExemptAge));
 
-    let headers: HeaderIndexMap =
-        check_headers(rdr.headers()?, meet, config, &mut report);
+    let headers: HeaderIndexMap = check_headers(rdr.headers()?, meet, config, &mut report);
     if !report.messages.is_empty() {
         return Ok(EntriesCheckResult {
             report,
             entries: None,
         });
     }
+    let default_date = meet.map_or_else(Date::default, |m| m.date);
 
     let mut entries: Vec<Entry> = Vec::new();
 
@@ -2077,12 +1952,15 @@ where
         // Check each field for whitespace errors.
         for field in &record {
             if field.contains("  ") || field.starts_with(' ') || field.ends_with(' ') {
-                let msg = format!("Field '{}' contains extraneous spacing", field);
+                let msg = format!("Field '{field}' contains extraneous spacing");
                 report.error_on(line, msg);
             }
         }
 
-        let mut entry = Entry::default();
+        let mut entry = Entry {
+            entrydate: default_date, // Either a default, or sourced from the meet.csv.
+            ..Default::default()
+        };
 
         // Check mandatory fields.
         if let Some(idx) = headers.get(Header::Name) {
@@ -2095,12 +1973,10 @@ where
             entry.equipment = check_column_equipment(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::SquatEquipment) {
-            entry.squat_equipment =
-                check_column_squatequipment(&record[idx], line, &mut report);
+            entry.squat_equipment = check_column_squatequipment(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::BenchEquipment) {
-            entry.bench_equipment =
-                check_column_benchequipment(&record[idx], line, &mut report);
+            entry.bench_equipment = check_column_benchequipment(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::DeadliftEquipment) {
             entry.deadlift_equipment =
@@ -2119,20 +1995,16 @@ where
         // Check all the weight fields: they must contain non-zero values.
         // Squat.
         if let Some(idx) = headers.get(Header::Squat1Kg) {
-            entry.squat1kg =
-                check_weight(&record[idx], line, Header::Squat1Kg, &mut report);
+            entry.squat1kg = check_weight(&record[idx], line, Header::Squat1Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Squat2Kg) {
-            entry.squat2kg =
-                check_weight(&record[idx], line, Header::Squat2Kg, &mut report);
+            entry.squat2kg = check_weight(&record[idx], line, Header::Squat2Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Squat3Kg) {
-            entry.squat3kg =
-                check_weight(&record[idx], line, Header::Squat3Kg, &mut report);
+            entry.squat3kg = check_weight(&record[idx], line, Header::Squat3Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Squat4Kg) {
-            entry.squat4kg =
-                check_weight(&record[idx], line, Header::Squat4Kg, &mut report);
+            entry.squat4kg = check_weight(&record[idx], line, Header::Squat4Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Best3SquatKg) {
             entry.best3squatkg =
@@ -2141,20 +2013,16 @@ where
 
         // Bench.
         if let Some(idx) = headers.get(Header::Bench1Kg) {
-            entry.bench1kg =
-                check_weight(&record[idx], line, Header::Bench1Kg, &mut report);
+            entry.bench1kg = check_weight(&record[idx], line, Header::Bench1Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Bench2Kg) {
-            entry.bench2kg =
-                check_weight(&record[idx], line, Header::Bench2Kg, &mut report);
+            entry.bench2kg = check_weight(&record[idx], line, Header::Bench2Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Bench3Kg) {
-            entry.bench3kg =
-                check_weight(&record[idx], line, Header::Bench3Kg, &mut report);
+            entry.bench3kg = check_weight(&record[idx], line, Header::Bench3Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Bench4Kg) {
-            entry.bench4kg =
-                check_weight(&record[idx], line, Header::Bench4Kg, &mut report);
+            entry.bench4kg = check_weight(&record[idx], line, Header::Bench4Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Best3BenchKg) {
             entry.best3benchkg =
@@ -2163,20 +2031,16 @@ where
 
         // Deadlift.
         if let Some(idx) = headers.get(Header::Deadlift1Kg) {
-            entry.deadlift1kg =
-                check_weight(&record[idx], line, Header::Deadlift1Kg, &mut report);
+            entry.deadlift1kg = check_weight(&record[idx], line, Header::Deadlift1Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Deadlift2Kg) {
-            entry.deadlift2kg =
-                check_weight(&record[idx], line, Header::Deadlift2Kg, &mut report);
+            entry.deadlift2kg = check_weight(&record[idx], line, Header::Deadlift2Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Deadlift3Kg) {
-            entry.deadlift3kg =
-                check_weight(&record[idx], line, Header::Deadlift3Kg, &mut report);
+            entry.deadlift3kg = check_weight(&record[idx], line, Header::Deadlift3Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Deadlift4Kg) {
-            entry.deadlift4kg =
-                check_weight(&record[idx], line, Header::Deadlift4Kg, &mut report);
+            entry.deadlift4kg = check_weight(&record[idx], line, Header::Deadlift4Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Best3DeadliftKg) {
             entry.best3deadliftkg =
@@ -2185,21 +2049,15 @@ where
 
         // TotalKg is a positive weight if present or 0 if missing.
         if let Some(idx) = headers.get(Header::TotalKg) {
-            entry.totalkg = check_nonnegative_weight(
-                &record[idx],
-                line,
-                Header::TotalKg,
-                &mut report,
-            );
+            entry.totalkg =
+                check_nonnegative_weight(&record[idx], line, Header::TotalKg, &mut report);
         }
 
         if let Some(idx) = headers.get(Header::BodyweightKg) {
-            entry.bodyweightkg =
-                check_column_bodyweightkg(&record[idx], line, &mut report);
+            entry.bodyweightkg = check_column_bodyweightkg(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::WeightClassKg) {
-            entry.weightclasskg =
-                check_column_weightclasskg(&record[idx], line, &mut report);
+            entry.weightclasskg = check_column_weightclasskg(&record[idx], line, &mut report);
         }
 
         // If no bodyweight is given but there is a bounded weightclass,
@@ -2218,25 +2076,21 @@ where
 
         // Check optional fields.
         if let Some(idx) = headers.get(Header::Division) {
-            check_column_division(
-                &record[idx],
-                config,
-                exempt_division,
-                line,
-                &mut report,
-            );
-            entry.division = record[idx].to_string();
+            check_column_division(&record[idx], config, exempt_division, line, &mut report);
+            entry.division = CompactString::from(&record[idx]);
         }
 
         // Assign the Tested column if it's configured for the Division.
-        entry.tested = get_tested_from_division_config(&entry, config);
+        entry.tested = tested_from_division_config(&entry, config);
 
         // Check the Country and State information.
         if let Some(idx) = headers.get(Header::Country) {
             entry.country = check_column_country(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::EntryDate) {
-            check_column_entrydate(&record[idx], line, &mut report);
+            if let Some(date) = check_column_entrydate(&record[idx], line, &mut report) {
+                entry.entrydate = date;
+            }
         }
         if let Some(idx) = headers.get(Header::State) {
             let c = entry.country;
@@ -2255,13 +2109,14 @@ where
                 entry.tested = tested;
             }
         }
+        if let Some(idx) = headers.get(Header::ChineseName) {
+            entry.chinesename = check_column_chinesename(&record[idx], line, &mut report);
+        }
         if let Some(idx) = headers.get(Header::CyrillicName) {
-            entry.cyrillicname =
-                check_column_cyrillicname(&record[idx], line, &mut report);
+            entry.cyrillicname = check_column_cyrillicname(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::JapaneseName) {
-            entry.japanesename =
-                check_column_japanesename(&record[idx], line, &mut report);
+            entry.japanesename = check_column_japanesename(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::GreekName) {
             entry.greekname = check_column_greekname(&record[idx], line, &mut report);
@@ -2270,14 +2125,12 @@ where
             entry.koreanname = check_column_koreanname(&record[idx], line, &mut report);
         }
         if let Some(idx) = headers.get(Header::BirthYear) {
-            if let Some(y) = check_column_birthyear(&record[idx], meet, line, &mut report)
-            {
+            if let Some(y) = check_column_birthyear(&record[idx], meet, line, &mut report) {
                 entry.birthyearrange = BirthYearRange::from_birthyear(y);
             }
         }
         if let Some(idx) = headers.get(Header::BirthDate) {
-            entry.birthdate =
-                check_column_birthdate(&record[idx], meet, line, &mut report);
+            entry.birthdate = check_column_birthdate(&record[idx], meet, line, &mut report);
         }
 
         // Check consistency across fields.
@@ -2308,15 +2161,11 @@ where
             &mut report,
         );
 
-        check_division_sex_consistency(&entry, config, line, &mut report);
-        check_division_place_consistency(&entry, config, line, &mut report);
-        check_division_equipment_consistency(
-            &entry,
-            config,
-            exempt_division,
-            line,
-            &mut report,
-        );
+        if !exempt_division {
+            check_division_sex_consistency(&entry, config, line, &mut report);
+            check_division_place_consistency(&entry, config, line, &mut report);
+            check_division_equipment_consistency(&entry, config, line, &mut report);
+        }
 
         // If the Age wasn't assigned yet, infer it from any surrounding information.
         if let Some(meet) = meet {
@@ -2354,17 +2203,18 @@ where
             entry.birthyearrange = BirthYearRange::from_birthyear(birthdate.year());
         } else if let Some(meet) = meet {
             // Try using the AgeRange.
-            entry.birthyearrange =
-                entry.birthyearrange.intersect(BirthYearRange::from_range(
-                    entry.agerange.min,
-                    entry.agerange.max,
-                    meet.date,
-                ));
+            entry.birthyearrange = entry.birthyearrange.intersect(BirthYearRange::from_range(
+                entry.agerange.min,
+                entry.agerange.max,
+                meet.date,
+            ));
 
             // Try using division information.
-            entry.birthyearrange = entry.birthyearrange.intersect(
-                BirthYearRange::from_range(division_age_min, division_age_max, meet.date),
-            );
+            entry.birthyearrange = entry.birthyearrange.intersect(BirthYearRange::from_range(
+                division_age_min,
+                division_age_max,
+                meet.date,
+            ));
         }
 
         // Infer the BirthYearClass.
@@ -2373,51 +2223,38 @@ where
                 BirthYearClass::from_range(entry.birthyearrange, meet.date.year());
         }
 
-        // Calculate points (except for McCulloch, which is Age-dependent).
-        let bw = entry.bodyweightkg;
-        entry.wilks = wilks(entry.sex, bw, entry.totalkg);
-        entry.glossbrenner = glossbrenner(entry.sex, bw, entry.totalkg);
-
         // If the Name isn't provided, but there is an international name,
         // just use the international name.
         if entry.name.is_empty() {
             if let Some(idx) = headers.get(Header::JapaneseName) {
-                entry.name = record[idx].to_string();
+                entry.name = record[idx].into();
             }
         }
         if entry.name.is_empty() {
             if let Some(idx) = headers.get(Header::ChineseName) {
-                entry.name = record[idx].to_string();
+                entry.name = record[idx].into();
             }
         }
         if entry.name.is_empty() {
             if let Some(idx) = headers.get(Header::KoreanName) {
-                entry.name = record[idx].to_string();
+                entry.name = record[idx].into();
             }
         }
 
         // Create the username if applicable.
         if !entry.name.is_empty() {
-            match usernames::make_username(&entry.name) {
+            match Username::from_name(&entry.name) {
                 Ok(username) => entry.username = username,
-                Err(msg) => report.error_on(line, format!("Username error: {}", msg)),
+                Err(msg) => report.error_on(line, format!("Username error: {msg}")),
             }
         }
 
         // If requested, report if the username requires disambiguation.
-        if report_disambiguations && !entry.username.is_empty() {
-            if let Some(datamap) = lifterdata {
-                if let Some(lifterdata) = datamap.get(&entry.username) {
-                    if lifterdata.disambiguation_count > 0 {
-                        let url = format!(
-                            "https://www.openpowerlifting.org/u/{}",
-                            entry.username
-                        );
-                        report.error_on(
-                            line,
-                            format!("Disambiguate {} ({})", entry.name, url),
-                        );
-                    }
+        if report_disambiguations && !entry.username.as_str().is_empty() {
+            if let Some(data) = lifterdata.and_then(|map| map.get(&entry.username)) {
+                if data.disambiguation_count > 0 {
+                    let url = format!("https://www.openpowerlifting.org/u/{}", entry.username);
+                    report.error_on(line, format!("Disambiguate {} ({})", entry.name, url));
                 }
             }
         }
@@ -2437,21 +2274,18 @@ where
 
 /// Checks a single entries.csv string, used by the server.
 pub fn check_entries_from_string(
+    reader: &csv::ReaderBuilder,
     entries_csv: &str,
     meet: Option<&Meet>,
 ) -> Result<EntriesCheckResult, Box<dyn Error>> {
     let report = Report::new(PathBuf::from("uploaded/content"));
-
-    let mut rdr = csv::ReaderBuilder::new()
-        .quoting(false)
-        .terminator(csv::Terminator::Any(b'\n'))
-        .from_reader(entries_csv.as_bytes());
-
-    Ok(do_check(&mut rdr, meet, None, None, report)?)
+    let mut rdr = reader.from_reader(entries_csv.as_bytes());
+    do_check(&mut rdr, meet, None, None, report)
 }
 
 /// Checks a single entries.csv file by path.
 pub fn check_entries(
+    reader: &csv::ReaderBuilder,
     entries_csv: PathBuf,
     meet: Option<&Meet>,
     config: Option<&Config>,
@@ -2469,10 +2303,6 @@ pub fn check_entries(
         });
     }
 
-    let mut rdr = csv::ReaderBuilder::new()
-        .quoting(false)
-        .terminator(csv::Terminator::Any(b'\n'))
-        .from_path(&report.path)?;
-
-    Ok(do_check(&mut rdr, meet, config, lifterdata, report)?)
+    let mut rdr = reader.from_path(&report.path)?;
+    do_check(&mut rdr, meet, config, lifterdata, report)
 }

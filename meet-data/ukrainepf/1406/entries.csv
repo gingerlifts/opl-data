@@ -44,7 +44,7 @@ DQ,Artur Kish,72.5,180,110,-210,,74,M,Артур Кіш,1997,Sub-Juniors,SBD,Raw
 2,Yurii Monastyrskyi,104.75,190,145,220,555,105,M,Юрій Монастирський,1996,Sub-Juniors,SBD,Raw
 3,Mikita Bilan,104.1,165,117.5,225,507.5,105,M,Микита Білан,1996,Sub-Juniors,SBD,Raw
 4,Oleksandr Korotkiy,96,192.5,107.5,200,500,105,M,Олександр Короткий,1998,Sub-Juniors,SBD,Raw
-5,Viktor Holinei,102.4,125,100,140,365,105,M,Віктор Голіней,2000,Sub-Juniors,SBD,Raw
+5,Viktor Golinei,102.4,125,100,140,365,105,M,Віктор Голіней,2000,Sub-Juniors,SBD,Raw
 1,Mikhaylo Parfenyuk,111.9,187.5,115,210,512.5,120,M,Михайло Парфенюк,1997,Sub-Juniors,SBD,Raw
 1,Oleksandr Rodchenko,131.2,170,150,200,520,120+,M,Олександр Родченко,1997,Sub-Juniors,SBD,Raw
 1,Vladyslav Yermishin,58.3,140,107.5,182.5,430,59,M,Владислав Єрмішин,1994,Juniors,SBD,Raw
@@ -58,7 +58,7 @@ DQ,Artur Kish,72.5,180,110,-210,,74,M,Артур Кіш,1997,Sub-Juniors,SBD,Raw
 4,Roman Shchabel',65.5,145,115,220,480,66,M,Роман Щабель,1993,Juniors,SBD,Raw
 5,Volodimir Makarenko,65.7,157.5,117.5,200,475,66,M,Володимир Макаренко,1993,Juniors,SBD,Raw
 6,Taras Stetsyak,63.15,165,100,180,445,66,M,Тарас Стецяк,1992,Juniors,SBD,Raw
-1,Vitaliy Bilozir,71.6,187.5,120,242.5,550,74,M,Віталій Білозір,1992,Juniors,SBD,Raw
+1,Vitalii Bilozir,71.6,187.5,120,242.5,550,74,M,Віталій Білозір,1992,Juniors,SBD,Raw
 2,Roman Nimchuk,73.25,195,130,225,550,74,M,Роман Німчук,1995,Juniors,SBD,Raw
 3,Rostyslav Kudybyn,70.35,170,150,180,500,74,M,Ростислав Кудибин,1991,Juniors,SBD,Raw
 4,Vladislav Shvetsov,73.55,170,100,205,475,74,M,Владислав Швецов,1995,Juniors,SBD,Raw
@@ -66,7 +66,7 @@ DQ,Bogdan Bon,72.8,167.5,-142.5,,,74,M,Богдан Бонь,1995,Juniors,SBD,Ra
 1,Maxym Shostak,80.25,195,162.5,250,607.5,83,M,Максим Шостак,1993,Juniors,SBD,Raw
 2,Andriy Korotun,81.95,200,140,265,605,83,M,Андрій Коротун,1991,Juniors,SBD,Raw
 3,Igor Bogachevskyy,82.15,230,137.5,237.5,605,83,M,Ігор Богачевський,1991,Juniors,SBD,Raw
-4,Igor Klimov,82.5,210,127.5,262.5,600,83,M,Ігор Клімов,1994,Juniors,SBD,Raw
+4,Igor Klimov #1,82.5,210,127.5,262.5,600,83,M,Ігор Клімов,1994,Juniors,SBD,Raw
 5,Nazariy Lemkivskiy,79.85,185,132.5,245,562.5,83,M,Назарій Лемківський,1995,Juniors,SBD,Raw
 6,Oleksandr Pelikhanov,81.4,185,137.5,240,562.5,83,M,Олександр Пеліханов,1993,Juniors,SBD,Raw
 7,Sergiy Poltavets,77.25,175,135,235,545,83,M,Сергій Полтавець,1993,Juniors,SBD,Raw
@@ -83,7 +83,7 @@ DQ,Vasil Turchin,79.6,185,155,-237.5,,83,M,Василь Турчин,1992,Junior
 5,Vadym Bilyk,87,210,135,220,565,93,M,Вадим Білик,1994,Juniors,SBD,Raw
 DQ,Boris Scherbak,90.85,190,-160,,,93,M,Борис Щербак,1991,Juniors,SBD,Raw
 DQ,Markiyan Bomk,92.65,200,-135,,,93,M,Маркіян Бомк,1994,Juniors,SBD,Raw
-1,Viktor Chernysh,102.35,212.5,157.5,225,595,105,M,Виктор Черныш,1992,Juniors,SBD,Raw
+1,Viktor Chernysh #3,102.35,212.5,157.5,225,595,105,M,Віктор Черниш,1992,Juniors,SBD,Raw
 2,Oleksiy Povetkin,102,222.5,145,207.5,575,105,M,Олексій Повєткін,1993,Juniors,SBD,Raw
 3,Vadim Naydenko,93.35,202.5,140,222.5,565,105,M,Вадим Найденко,1992,Juniors,SBD,Raw
 4,Danilo Orlov,101.05,182.5,130,222.5,535,105,M,Данило Орлов,1993,Juniors,SBD,Raw
@@ -156,7 +156,7 @@ DQ,Evgen Pozdnyakov,92.35,-170,,,,93,M,Євген Поздняков,1989,Open,S
 2,Stanislav Alistratov,120.75,255,142.5,275,672.5,120+,M,Станіслав Алістратов,1989,Open,SBD,Raw
 3,Oleksiy Samosevich,132.9,237.5,145,255,637.5,120+,M,Олексій Самосевич,1980,Open,SBD,Raw
 4,Roman Korsak,123.75,240,137.5,257.5,635,120+,M,Роман Корсак,1980,Open,SBD,Raw
-1,Tetyana Shlopko,42.9,65,52.5,90,207.5,43,F,Тетяна Шлопко,1996,Sub-Juniors,SBD,Raw
+1,Tetiana Bila,42.9,65,52.5,90,207.5,43,F,Тетяна Шлопко,1996,Sub-Juniors,SBD,Raw
 2,Mariya Petrusha,41.75,52.5,30,75,157.5,43,F,Марія Петруша,2001,Sub-Juniors,SBD,Raw
 3,Ivanna Ivanyuk,38,45,30,60,135,43,F,Іванна Іванюк,1999,Sub-Juniors,SBD,Raw
 4,Valeriya Rashoyants,42.2,45,32.5,55,132.5,43,F,Валерія Рашоянц,2002,Sub-Juniors,SBD,Raw
@@ -165,7 +165,7 @@ DQ,Evgen Pozdnyakov,92.35,-170,,,,93,M,Євген Поздняков,1989,Open,S
 2,Oleksandra Yakubova,50.15,70,42.5,100,212.5,52,F,Олександра Якубова,1998,Sub-Juniors,SBD,Raw
 1,Oleksandra Meleshko,53.9,87.5,45,110,242.5,57,F,Олександра Мелешко,1996,Sub-Juniors,SBD,Raw
 2,Nina Gerich,53.3,72.5,47.5,97.5,217.5,57,F,Ніна Герич,1999,Sub-Juniors,SBD,Raw
-1,Anastasiya Kravchenko,62.15,137.5,80,120,337.5,63,F,Анастасія Кравченко,1998,Sub-Juniors,SBD,Raw
+1,Anastasiya Kravchenko #1,62.15,137.5,80,120,337.5,63,F,Анастасія Кравченко,1998,Sub-Juniors,SBD,Raw
 2,Yuliya Mashevska,61.4,62.5,42.5,92.5,197.5,63,F,Юлія Машевська,2000,Sub-Juniors,SBD,Raw
 3,Nadiya Vasilchenko,59.95,67.5,47.5,80,195,63,F,Надія Васильченко,1997,Sub-Juniors,SBD,Raw
 1,Alona Borschevska,71.75,100,52.5,135,287.5,72,F,Альона Борщевська,1999,Sub-Juniors,SBD,Raw
@@ -197,7 +197,7 @@ DQ,Olena Vorontsova,62.7,-105,,,,63,F,Олена Воронцова,1993,Juniors
 2,Iryna Baburova,51.6,120,65,135,320,52,F,Ірина Бабурова,1986,Open,SBD,Raw
 3,Mariya Dushenenkova,,95,62.5,142.5,300,52,F,Марія Душененкова,1988,Open,SBD,Raw
 4,Olena Danilyuk,51.95,97.5,65,110,272.5,52,F,Олена Данилюк,1978,Open,SBD,Raw
-5,Olena Shevlyakova,43.2,75,52.5,102.5,230,52,F,Альона Шевлякова,1987,Open,SBD,Raw
+5,Olena Shevlyakova,43.2,75,52.5,102.5,230,47,F,Альона Шевлякова,1987,Open,SBD,Raw
 6,Anna Savon,51.3,80,57.5,90,227.5,52,F,Анна Савон,1986,Open,SBD,Raw
 DQ,Olena Roy,53.9,-75,,,,57,F,Олена Рой,1983,Open,SBD,Raw
 DQ,Darya Garnaga,51.55,-95,,,,52,F,Дарья Гарнага,1983,Open,SBD,Raw
@@ -206,7 +206,7 @@ DQ,Darya Garnaga,51.55,-95,,,,52,F,Дарья Гарнага,1983,Open,SBD,Raw
 3,Natalya Didyuk,55.15,102.5,75,122.5,300,57,F,Наталя Дідюк,1973,Open,SBD,Raw
 4,Nadiya Boremska,55.45,75,60,105,240,57,F,Надія Боремська,1986,Open,SBD,Raw
 5,Inna Voytovich,55.65,75,55,85,215,57,F,Інна Войтович,1987,Open,SBD,Raw
-1,Kseniya Prokhorova,,120.5,80,138,338.5,63,F,Ксенія Прохорова,1983,Open,SBD,Raw
+1,Kseniya Prokhorova #1,,120.5,80,138,338.5,63,F,Ксенія Прохорова,1983,Open,SBD,Raw
 2,Lyubov Derkach,,110,70,120,300,63,F,Любов Деркач,1985,Open,SBD,Raw
 3,Irina Pavlik,62.3,72.5,45,85,202.5,63,F,Ірина Павлик,1987,Open,SBD,Raw
 4,Yuliya Elizarenko,61.4,75,45,80,200,63,F,Юлія Єлізаренко,1988,Open,SBD,Raw

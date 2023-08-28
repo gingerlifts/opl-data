@@ -1,7 +1,7 @@
 Name,WeightClassKg,Division,Sex,Best3BenchKg,TotalKg,Event,Equipment,Place
 Dan Chin,52,Open,M,113.4,113.4,B,Single-ply,1
 Renee Braucher,52,Open,F,29.48,29.48,B,Single-ply,2
-Chris Arnold,56,Open,M,36.29,36.29,B,Single-ply,1
+Chris Arnold #7,56,Open,M,36.29,36.29,B,Single-ply,1
 Terry Lynch,60,Open,M,124.74,124.74,B,Single-ply,1
 Scott Steele,60,Open,M,124.74,124.74,B,Single-ply,2
 H. Friedman,60,Open,M,106.59,106.59,B,Single-ply,3
@@ -19,14 +19,14 @@ Susan Summers,67.5,Open,F,63.5,63.5,B,Single-ply,2
 Jim Momany,75,Open,M,165.56,165.56,B,Single-ply,1
 Clayton Mack,75,Open,M,161.03,161.03,B,Single-ply,2
 Jeff Broughton,75,Open,M,158.76,158.76,B,Single-ply,3
-Tom Jenkins,75,Open,M,156.49,156.49,B,Single-ply,4
+Tom Jenkins #3,75,Open,M,156.49,156.49,B,Single-ply,4
 Ron Miller,75,Open,M,156.49,156.49,B,Single-ply,5
 Rich Batesole,75,Open,M,154.22,154.22,B,Single-ply,6
 Cary Poth,75,Open,M,147.42,147.42,B,Single-ply,7
 Robert Specht,75,Open,M,142.88,142.88,B,Single-ply,8
 Floyd Jenkins,75,Open,M,140.61,140.61,B,Single-ply,9
 Jerry Tincher,75,Open,M,136.08,136.08,B,Single-ply,10
-Dale Jones,75,Open,M,108.86,108.86,B,Single-ply,11
+Dale Jones #1,75,Open,M,108.86,108.86,B,Single-ply,11
 Laura Dodd #1,75,Open,F,97.52,97.52,B,Single-ply,12
 Mick Marr,82.5,Open,M,195.04,195.04,B,Single-ply,1
 Chuck Zimmerman,82.5,Open,M,188.24,188.24,B,Raw,2
@@ -46,7 +46,7 @@ Jerry Cox,90,Open,M,170.1,170.1,B,Single-ply,6
 Jeff Carroll,90,Open,M,163.29,163.29,B,Single-ply,7
 Dan Messner,90,Open,M,161.03,161.03,B,Single-ply,8
 B. Hennebert,90,Open,M,145.15,145.15,B,Single-ply,9
-Mark Lewis,90,Open,M,140.61,140.61,B,Single-ply,10
+Mark Lewis #3,90,Open,M,140.61,140.61,B,Single-ply,10
 Jim Maurer,90,Open,M,127.01,127.01,B,Single-ply,11
 William Stone,100,Open,M,213.19,213.19,B,Single-ply,1
 Mark Schmidt,100,Open,M,208.65,208.65,B,Single-ply,2
@@ -70,4 +70,4 @@ Vince White,,Masters,M,149.69,149.69,B,Single-ply,2
 James Rummell,,Masters,M,158.76,158.76,B,Single-ply,1
 William Wilson,,Masters,M,136.08,136.08,B,Single-ply,3
 Herb Haydon,,Masters,M,136.08,136.08,B,Single-ply,4
-Charles Lee,,Masters,M,120.2,120.2,B,Single-ply,5
+Charles Lee #1,,Masters,M,120.2,120.2,B,Single-ply,5

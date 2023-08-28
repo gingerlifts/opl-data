@@ -86,7 +86,7 @@ Boys,82.1,20,Brandon Pereyra,Plains,75.48,136.08,108.86,181.44,426.38,Single-ply
 Boys,82.1,21,Steven Ramirez,Midland Lee,76.48,158.76,102.06,158.76,419.57,Single-ply,SBD,M
 Boys,82.1,22,Tyler Curtis,Alpine,80.65,145.15,92.99,176.9,415.04,Single-ply,SBD,M
 Boys,82.1,23,Evan Gomez,Whiteface,78.93,163.29,95.25,147.42,405.97,Single-ply,SBD,M
-Boys,82.1,24,Nick Miller,Alpine,77.2,156.49,88.45,158.76,403.7,Single-ply,SBD,M
+Boys,82.1,24,Nick Miller #1,Alpine,77.2,156.49,88.45,158.76,403.7,Single-ply,SBD,M
 Boys,82.1,25,Dj Landreth,Odessa Permian,80.83,142.88,92.99,167.83,403.7,Single-ply,SBD,M
 Boys,82.1,26,Gabriel Baca,Seminole,81.19,154.22,90.72,145.15,390.09,Single-ply,SBD,M
 Boys,82.1,27,Cody Fuentes,Monahans,80.74,142.88,90.72,149.69,383.29,Single-ply,SBD,M
@@ -102,7 +102,7 @@ Boys,89.81,6,Nathan Tone,Monahans,87.36,192.78,111.13,172.37,476.27,Single-ply,S
 Boys,89.81,7,Tony Huynh,Midland Lee,89.45,174.63,111.13,183.7,469.47,Single-ply,SBD,M
 Boys,89.81,8,Greg Garcia,Odessa,87.82,142.88,115.67,183.7,442.25,Single-ply,SBD,M
 Boys,89.81,9,Arturo Hinojos,Midland,83.82,145.15,106.59,179.17,430.91,Single-ply,SBD,M
-Boys,89.81,10,Joe Hernandez,Odessa Permian,84.82,142.88,102.06,165.56,410.5,Single-ply,SBD,M
+Boys,89.81,10,Joe Hernandez #5,Odessa Permian,84.82,142.88,102.06,165.56,410.5,Single-ply,SBD,M
 Boys,89.81,11,Josh Caldwell,Monahans,85.64,167.83,81.65,149.69,399.16,Single-ply,SBD,M
 Boys,89.81,12,Chris Huitron,Midland,82.46,136.08,88.45,142.88,367.41,Single-ply,SBD,M
 Boys,89.81,13,Iniel Bustos,Denver City,88.27,136.08,83.91,136.08,356.07,Single-ply,SBD,M
@@ -121,7 +121,7 @@ Boys,99.79,10,Michael Coy,Odessa Permian,94.98,204.12,115.67,158.76,478.54,Singl
 Boys,99.79,11,Natanael Ramirez,Fort Stockton,95.89,181.44,92.99,192.78,467.2,Single-ply,SBD,M
 Boys,99.79,12,Ty Crabtree,Monahans,99.34,170.1,120.2,174.63,464.93,Single-ply,SBD,M
 Boys,99.79,13,Aaron Galindo,Odessa,90.45,174.63,104.33,183.7,462.66,Single-ply,SBD,M
-Boys,99.79,14,Isaiah Marquez,Kermit,96.43,172.37,102.06,181.44,455.86,Single-ply,SBD,M
+Boys,99.79,14,Isaiah Marquez #1,Kermit,96.43,172.37,102.06,181.44,455.86,Single-ply,SBD,M
 Boys,99.79,15,Jeramyah Paniagua,Odessa,96.62,174.63,113.4,147.42,435.45,Single-ply,SBD,M
 Boys,99.79,16,Sammy Villarreal,Alpine,92.17,124.74,92.99,170.1,387.82,Single-ply,SBD,M
 Boys,99.79,17,Matthew Leyva,Kermit,93.71,154.22,68.04,145.15,367.41,Single-ply,SBD,M
@@ -143,7 +143,7 @@ Boys,109.77,9,Byron Hutson,Odessa,101.79,192.78,120.2,188.24,501.22,Single-ply,S
 Boys,109.77,10,Edgar Contreras,Odessa,100.88,192.78,108.86,192.78,494.42,Single-ply,SBD,M
 Boys,109.77,11,Dahel Davila,Whiteface,103.96,172.37,108.86,181.44,462.66,Single-ply,SBD,M
 Boys,109.77,12,Ben Lujan,Fort Stockton,107.32,172.37,108.86,181.44,462.66,Single-ply,SBD,M
-Boys,109.77,13,James Phillips,Crane,101.6,170.1,122.47,158.76,451.32,Single-ply,SBD,M
+Boys,109.77,13,James Phillips #6,Crane,101.6,170.1,122.47,158.76,451.32,Single-ply,SBD,M
 Boys,109.77,14,Derek Leyva,Fort Stockton,109.32,165.56,102.06,181.44,449.06,Single-ply,SBD,M
 Boys,109.77,15,Bryson Calixto,Monahans,109.32,188.24,104.33,149.69,442.25,Single-ply,SBD,M
 Boys,109.77,16,Joshua Rubalcaba,Odessa Permian,108.23,185.97,106.59,147.42,439.98,Single-ply,SBD,M
@@ -163,7 +163,7 @@ Boys,124.74,10,McKenzie Lawson,Odessa Permian,118.93,174.63,102.06,192.78,469.47
 Boys,124.74,11,JJ Ramos,Kermit,119.84,163.29,113.4,188.24,464.93,Single-ply,SBD,M
 Boys,124.74,12,Alex Holguin,Monahans,115.94,185.97,104.33,167.83,458.13,Single-ply,SBD,M
 Boys,124.74,13,Seth Jaramillo,Andrews,119.2,165.56,99.79,154.22,419.57,Single-ply,SBD,M
-Boys,124.74+,1,Pablo Gutierrez,Odessa,133.08,249.48,133.81,233.6,616.89,Single-ply,SBD,M
+Boys,124.74+,1,Pablo Gutierrez #2,Odessa,133.08,249.48,133.81,233.6,616.89,Single-ply,SBD,M
 Boys,124.74+,2,O'Shay Scott,Midland,127.91,224.53,142.88,226.8,594.21,Single-ply,SBD,M
 Boys,124.74+,3,CJ Carrillo,Midland,142.34,195.04,151.95,206.38,553.38,Single-ply,SBD,M
 Boys,124.74+,4,Aaron Leyva,Odessa,125.1,233.6,108.86,185.97,528.44,Single-ply,SBD,M

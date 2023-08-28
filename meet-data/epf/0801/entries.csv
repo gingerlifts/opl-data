@@ -35,7 +35,7 @@ DQ,Carola Lindström,1982,Sweden,51.3,-165,-165,-165,,-75,-75,,,,,,,,52,Open,SBD
 DQ,Christin Toepler,1983,Germany,59.8,-155,-160,-160,,95,100,-105,100,155,160,165,165,,60,Open,SBD,F,Single-ply
 DD,Daiva Žarovienė,1965,Lithuania,59.6,-157.5,-160,160,160,110,-120,120,120,157.5,167.5,172.5,172.5,,60,Open,SBD,F,Single-ply
 1,Antonietta Orsini,1964,Italy,66.8,207.5,215,-222.5,215,125,130,135,135,200,207.5,-215,207.5,557.5,67.5,Open,SBD,F,Single-ply
-2,Zhanna Ivanova,1984,Ukraine,67.1,-210,215,-222.5,215,125,-132.5,135,135,190,202.5,-210,202.5,552.5,67.5,Open,SBD,F,Single-ply
+2,Zhanna Ivanova #1,1984,Ukraine,67.1,-210,215,-222.5,215,125,-132.5,135,135,190,202.5,-210,202.5,552.5,67.5,Open,SBD,F,Single-ply
 3,Synnøve Lund,1972,Norway,66.9,180,187.5,192.5,192.5,-105,-105,105,105,-165,172.5,177.5,177.5,475,67.5,Open,SBD,F,Single-ply
 4,Magdalena Jablonska,1985,Poland,67.2,175,185,192.5,192.5,80,87.5,-90,87.5,150,160,167.5,167.5,447.5,67.5,Open,SBD,F,Single-ply
 5,Kristina Kaas H,1981,Denmark,64.7,165,-175,-175,165,85,-90,-90,85,170,-177.5,-182.5,170,420,67.5,Open,SBD,F,Single-ply
@@ -95,7 +95,7 @@ DQ,Andriy Nanyev,1984,Ukraine,81.3,-315,-315,315,315,-190,-190,-190,,285,292.5,-
 1,Andriy Krymov,1985,Ukraine,89.4,300,-310,-310,300,270,280,-286,280,280,287.5,295,295,875,90,Open,SBD,M,Single-ply
 2,Zdravko Sarafimov,1984,Bulgaria,89.3,310,-330,-330,310,200,-210,-210,200,315,330,337.5,337.5,847.5,90,Open,SBD,M,Single-ply
 3,Dmytro Chumakov,1985,Ukraine,89.5,-325,340,-345,340,205,-212.5,-215,205,-300,-300,302.5,302.5,847.5,90,Open,SBD,M,Single-ply
-4,Andrew Ivanets,1984,Belarus,89.7,305,-317.5,-320,305,200,-205,-207.5,200,325,337.5,-345,337.5,842.5,90,Open,SBD,M,Single-ply
+4,Andrey Ivanets,1984,Belarus,89.7,305,-317.5,-320,305,200,-205,-207.5,200,325,337.5,-345,337.5,842.5,90,Open,SBD,M,Single-ply
 5,Margus Silbaum,1976,Estonia,89.8,-320,320,,320,-200,-200,200,200,310,-320,-325,310,830,90,Open,SBD,M,Single-ply
 6,Mathieu Pingeot,1982,France,88.2,280,290,300,300,200,205,-210,205,-285,285,295,295,800,90,Open,SBD,M,Single-ply
 7,Pavol Varchola,1978,Slovakia,89,290,-302.5,302.5,302.5,192.5,200,-210,200,290,-300,-300,290,792.5,90,Open,SBD,M,Single-ply
@@ -116,7 +116,7 @@ DQ,Pjotr van den Hoek,1972,Netherlands,89.9,-305,-305,-305,,,,,,,,,,,90,Open,SBD
 10,Matthias Simpig,1972,Germany,99.3,290,310,320,320,180,190,-205,190,260,-290,-295,260,770,100,Open,SBD,M,Single-ply
 11,Kim Dahl Hansen,1971,Denmark,98.6,-280,280,-292.5,280,185,-195,-195,185,280,300,-312.5,300,765,100,Open,SBD,M,Single-ply
 DQ,Jaroslav Mikulanda,1984,Czechia,97.3,280,-305,305,305,-210,-215,-215,,280,300,-315,300,,100,Open,SBD,M,Single-ply
-1,Valeriy Karpov,1984,Ukraine,109.3,360,375,385,385,240,-250,-250,240,320,335,340,340,965,110,Open,SBD,M,Single-ply
+1,Valeriy Karpov #1,1984,Ukraine,109.3,360,375,385,385,240,-250,-250,240,320,335,340,340,965,110,Open,SBD,M,Single-ply
 2,Tor-Herman Omland,1977,Norway,109.1,350,360,365,365,260,265,270,270,300,312.5,317.5,317.5,952.5,110,Open,SBD,M,Single-ply
 3,Tomáš Šárik,1975,Czechia,109.6,340,355,362.5,362.5,237.5,-245,-245,237.5,325,-340,340,340,940,110,Open,SBD,M,Single-ply
 4,Marian Czarkowski,1969,Poland,109,340,350,360,360,205,215,225,225,310,325,-335,325,910,110,Open,SBD,M,Single-ply
@@ -145,6 +145,6 @@ DQ,Stefan Huld,1966,Sweden,123.6,-330,-345,-345,,,250,-257.5,250,,,,,,125,Open,S
 2,Andy-Elvis Dörner,1976,Germany,132.6,390,410,422.5,422.5,222.5,237.5,-250,237.5,285,297.5,302.5,302.5,962.5,125+,Open,SBD,M,Single-ply
 3,Milan Špingl,1980,Czechia,133.7,360,375,382.5,382.5,245,255,260,260,300,-312.5,-312.5,300,942.5,125+,Open,SBD,M,Single-ply
 4,Vasyl Mezerya,1978,Ukraine,137.7,340,350,-360,350,255,-265,-265,255,320,-342.5,-342.5,320,925,125+,Open,SBD,M,Single-ply
-5,Gabor Pesszer,1984,Hungary,163,280,300,-305,300,200,207.5,,207.5,260,275,-282.5,275,782.5,125+,Open,SBD,M,Single-ply
+5,Gábor Pesszer,1984,Hungary,163,280,300,-305,300,200,207.5,,207.5,260,275,-282.5,275,782.5,125+,Open,SBD,M,Single-ply
 DQ,Zolt Herczeg,1986,Hungary,129.4,-270,270,285,285,-220,-220,-220,,220,230,240,240,,125+,Open,SBD,M,Single-ply
 DQ,Johnny Wahlqvist,1973,Sweden,169.9,380,-395,-395,380,-312.5,-312.5,-332.5,,,,,,,125+,Open,SBD,M,Single-ply

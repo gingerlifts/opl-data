@@ -1,13 +1,13 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Joe Seager,110,Masters 1,M,330,147.5,290,767.5,SBD,Single-ply,1
-R. Lewis,90,Masters 1,M,272.5,145,282.5,700,SBD,Single-ply,1
+Roselle Lewis,90,Masters 1,M,272.5,145,282.5,700,SBD,Single-ply,1
 D. Pittman,75,Masters 1,M,185,142.5,227.5,555,SBD,Single-ply,1
 Earl Leverett,82.5,Masters 1,M,217.5,152.5,205,575,SBD,Single-ply,1
 J. Sanders,90,Masters 2,M,190,95,207.5,492.5,SBD,Single-ply,2
 Dean Whitney,67.5,Masters 2,M,200,115,220,535,SBD,Single-ply,1
-S. Binkowski,110,Masters 2,M,245,182.5,252.5,680,SBD,Single-ply,1
+Steve Binkowski,110,Masters 2,M,245,182.5,252.5,680,SBD,Single-ply,1
 A. Byers,125,Masters 2,M,232.5,160,250,642.5,SBD,Single-ply,1
-D. Parsons,90,Masters 2,M,182.5,150,182.5,515,SBD,Single-ply,1
+David Parsons,90,Masters 2,M,182.5,150,182.5,515,SBD,Single-ply,1
 R. Barnes,82.5,Masters 2,M,170,115,170,455,SBD,Single-ply,1
 K. Hall,67.5,Novice,M,175,107.5,160,442.5,SBD,Single-ply,1
 T. Southwood,75,Novice,M,215,137.5,205,557.5,SBD,Single-ply,1
@@ -17,8 +17,8 @@ D. Williams,75,Novice,M,195,137.5,202.5,535,SBD,Single-ply,4
 O. Resseau,75,Novice,M,160,112.5,195,467.5,SBD,Single-ply,5
 T. Merrick,82.5,Novice,M,237.5,160,272.5,670,SBD,Single-ply,1
 C. Norris,82.5,Novice,M,175,125,200,500,SBD,Single-ply,2
-R. Lewis,90,Novice,M,272.5,145,282.5,700,SBD,Single-ply,1
-N. Hammer,90,Novice,M,250,162.5,272.5,685,SBD,Single-ply,2
+Roselle Lewis,90,Novice,M,272.5,145,282.5,700,SBD,Single-ply,1
+Nick Hammer,90,Novice,M,250,162.5,272.5,685,SBD,Single-ply,2
 G. Adams,90,Novice,M,237.5,182.5,240,660,SBD,Single-ply,3
 Bob Hayden,90,Novice,M,242.5,182.5,222.5,647.5,SBD,Single-ply,4
 J. Richerson,90,Novice,M,247.5,170,227.5,645,SBD,Single-ply,5
@@ -46,7 +46,7 @@ C. Simpson,125,Novice,M,212.5,135,230,577.5,SBD,Single-ply,1
 C. James,125+,Novice,M,282.5,190,272.5,745,SBD,Single-ply,1
 Z. Smith,125+,Novice,M,262.5,200,250,712.5,SBD,Single-ply,2
 Henry Garcia #1,56,Open,M,195,115,200,510,SBD,Single-ply,1
-Hennis Washington,60,Open,M,222.5,137.5,222.5,582.5,SBD,Single-ply,1
+Hennis Washington #1,60,Open,M,222.5,137.5,222.5,582.5,SBD,Single-ply,1
 C. Leverett,60,Open,M,,,,,SBD,Single-ply,DQ
 K. Davis,75,Open,M,242.5,152.5,250,645,SBD,Single-ply,1
 G. Jefferson,75,Open,M,230,152.5,232.5,615,SBD,Single-ply,2
@@ -90,9 +90,9 @@ Keith Southwood,100,Police & Fire,M,272.5,207.5,272.5,752.5,SBD,Single-ply,1
 C. James,100,Police & Fire,M,282.5,190,272.5,745,SBD,Single-ply,2
 T. Guy,75,Teen,M,205,130,217.5,552.5,SBD,Single-ply,1
 C. Norris,82.5,Teen,M,175,125,200,500,SBD,Single-ply,1
-N. Hammer,90,Teen,M,250,162.5,272.5,685,SBD,Single-ply,1
+Nick Hammer,90,Teen,M,250,162.5,272.5,685,SBD,Single-ply,1
 R. Grant,90,Teen,M,205,122.5,220,547.5,SBD,Single-ply,2
-J. Hobbs,56,Novice,F,102.5,62.5,115,280,SBD,Single-ply,1
+J. Hobbs #2,56,Novice,F,102.5,62.5,115,280,SBD,Single-ply,1
 Griselle Ufret,44,Open,F,100,60,130,290,SBD,Single-ply,1
 N. Baker,44,Open,F,95,57.5,130,282.5,SBD,Single-ply,2
 Ann Leverett,48,Open,F,142.5,80,145,367.5,SBD,Single-ply,1

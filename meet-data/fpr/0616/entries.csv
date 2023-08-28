@@ -14,7 +14,7 @@ Place,Name,CyrillicName,BirthYear,WeightClassKg,BodyweightKg,Best3SquatKg,Best3B
 DQ,Irina Tkachenko,Ирина Ткаченко,1979,52,51.7,105,,,,F,Open,SBD,Single-ply
 1,Irina Ryaskova,Ирина Ряскова,1984,56,55.05,170,80,177.5,427.5,F,Open,SBD,Single-ply
 2,Alina Rodicheva,Алина Родичева,1980,56,55.7,157.5,100,170,427.5,F,Open,SBD,Single-ply
-3,Natalya Kolesnikova,Наталия Колесникова,1971,56,55.95,157.5,85,160,402.5,F,Open,SBD,Single-ply
+3,Natalya Kolesnikova #1,Наталия Колесникова,1971,56,55.95,157.5,85,160,402.5,F,Open,SBD,Single-ply
 4,Svetlana Golunova,Светлана Голунова,1975,56,52.5,130,85,140,355,F,Open,SBD,Single-ply
 5,Elena Kopa,Елена Копа,1970,56,55.05,130,70,145,345,F,Open,SBD,Single-ply
 6,Elena Polyakova,Елена Полякова,1990,56,55.95,137.5,60,127.5,325,F,Open,SBD,Single-ply
@@ -42,7 +42,7 @@ DQ,Olga Pantina,Ольга Пантина,1979,67.5,64.35,,,,,F,Open,SBD,Single-
 1,Vladimir Druzhinin,Владимир Дружинин,1985,52,51.35,175,117.5,182.5,475,M,Open,SBD,Single-ply
 2,Aleksandr Pozhidaev,Александр Пожидаев,1986,52,51.6,130,80,140,350,M,Open,SBD,Single-ply
 3,Dmitriy Pankrushev,Дмитрий Панкрушев,1987,52,51.95,120,80,130,330,M,Open,SBD,Single-ply
-1,Nikolay Aksenov,Николай Аксёнов,1957,56,55.8,195,97.5,210,502.5,M,Open,SBD,Single-ply
+1,Nikolay Aksenov,Николай Аксенов,1957,56,55.8,195,97.5,210,502.5,M,Open,SBD,Single-ply
 2,Maksim Yudin,Максим Юдин,1980,56,55.4,175,90,167.5,432.5,M,Open,SBD,Single-ply
 3,Roman Chernyakov,Роман Черняков,1988,56,55.75,170,85,172.5,427.5,M,Open,SBD,Single-ply
 4,Viktor Kim,Виктор Ким,1988,56,54.95,170,105,150,425,M,Open,SBD,Single-ply
@@ -98,16 +98,16 @@ DQ,Artur Molozin,Артур Молозин,1988,75,74.8,,,,,M,Open,SBD,Single-pl
 19,Evgeniy Korotchenkov,Евгений Коротченков,1988,82.5,78,265,170,240,675,M,Open,SBD,Single-ply
 20,Vladimir Reshetov,Владимир Решетов,1975,82.5,80.3,262.5,170,242.5,675,M,Open,SBD,Single-ply
 21,Yuriy Kolentsov,Юрий Коленцов,1979,82.5,81.2,265,135,250,650,M,Open,SBD,Single-ply
-22,Evgeniy Nikolaev,Евгений Николаев,1985,82.5,81.05,260,150,235,645,M,Open,SBD,Single-ply
+22,Evgeniy Nikolaev #3,Евгений Николаев,1985,82.5,81.05,260,150,235,645,M,Open,SBD,Single-ply
 23,Aleksandr Demidovich,Александр Демидович,1979,82.5,81.65,205,145,220,570,M,Open,SBD,Single-ply
-24,Igor Kuznetsov,Игорь Кузнецов,1983,82.5,82.3,215,120,225,560,M,Open,SBD,Single-ply
+24,Igor Kuznetsov #2,Игорь Кузнецов,1983,82.5,82.3,215,120,225,560,M,Open,SBD,Single-ply
 25,Aleksandr Tyoplyy,Александр Тёплый,1976,82.5,81.45,200,135,215,550,M,Open,SBD,Single-ply
 1,Igor Perepelitsyn,Игорь Перепелицын,1977,90,89.6,335,210,300,845,M,Open,SBD,Single-ply
 2,Nikolay Bazanov,Николай Базанов,1981,90,89.5,330,212.5,292.5,835,M,Open,SBD,Single-ply
 3,Yuriy Seleznyov,Юрий Селезнёв,1979,90,89.9,320,220,270,810,M,Open,SBD,Single-ply
 4,Sergey Lygin,Сергей Лыгин,1979,90,89.9,300,205,290,795,M,Open,SBD,Single-ply
 5,Albert Sabadze,Альберт Сабадзе,1986,90,89.6,300,190,300,790,M,Open,SBD,Single-ply
-6,Sergey Matveev,Сергей Матвеев,1982,90,89.55,300,205,270,775,M,Open,SBD,Single-ply
+6,Sergey Matveev #5,Сергей Матвеев,1982,90,89.55,300,205,270,775,M,Open,SBD,Single-ply
 7,Evgeniy Belozorenko,Евгений Белозоренко,1985,90,89.55,290,205,270,765,M,Open,SBD,Single-ply
 8,Vadim Solovykh,Вадим Соловых,,90,89.4,315,175,270,760,M,Open,SBD,Single-ply
 9,Aleksey Reshetov,Алексей Решетов,1975,90,86.75,300,190,260,750,M,Open,SBD,Single-ply
@@ -136,7 +136,7 @@ NS,Aleksandr Glushakov,Александр Глушаков,1979,90,,,,,,M,Open,S
 1,Andrey Sorokin,Андрей Сорокин,1974,100,92.8,380,225,325,930,M,Open,SBD,Single-ply
 2,Aleksandr Kotenko,Александр Котенко,1981,100,99.9,380,190,300,870,M,Open,SBD,Single-ply
 3,Andrey Tikhonov,Андрей Тихонов,1983,100,97.15,325,220,305,850,M,Open,SBD,Single-ply
-4,Sergey Popov,Сергей Попов,1977,100,99,292.5,252.5,295,840,M,Open,SBD,Single-ply
+4,Sergey Popov #8,Сергей Попов,1977,100,99,292.5,252.5,295,840,M,Open,SBD,Single-ply
 5,Igor Marichev,Игорь Маричев,1976,100,98.75,310,202.5,320,832.5,M,Open,SBD,Single-ply
 6,Yakov Voropaev,Яков Воропаев,1983,100,99.1,330,190,295,815,M,Open,SBD,Single-ply
 7,Roman Anpilogov,Роман Анпилогов,1980,100,97.5,280,222.5,290,792.5,M,Open,SBD,Single-ply
@@ -154,7 +154,7 @@ NS,Aleksandr Glushakov,Александр Глушаков,1979,90,,,,,,M,Open,S
 19,Nikolay Sipratov,Николай Сипратов,1962,100,98.6,290,187.5,272.5,750,M,Open,SBD,Single-ply
 20,Irakliy Mchedlishvili,Ираклий Мчедлишвили,1981,100,98.9,285,200,265,750,M,Open,SBD,Single-ply
 21,Mikhail Kuminov,Михаил Куминов,1971,100,99.25,280,220,250,750,M,Open,SBD,Single-ply
-22,Igor Ivanov,Ігор Іванов,1977,100,99.5,282.5,192.5,275,750,M,Open,SBD,Single-ply
+22,Igor Ivanov #3,Игорь Иванов,1977,100,99.5,282.5,192.5,275,750,M,Open,SBD,Single-ply
 23,Ivan Bakhur,Иван Бахур,1983,100,96.75,285,180,275,740,M,Open,SBD,Single-ply
 24,Karlen Osipov,Карлен Осипов,1972,100,97.65,285,175,270,730,M,Open,SBD,Single-ply
 25,Roman Romanov,Роман Романов,1982,100,99,280,165,280,725,M,Open,SBD,Single-ply

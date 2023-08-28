@@ -27,7 +27,7 @@ Brett King,M,67.5,Open,,15,PA,66.68,100,47.5,142.5,290,,,,SBD,Raw,3
 Rich Smith,M,75,Open,,26,PA,74.96,167.5,117.5,230,515,,,,SBD,Raw,1
 Levi Lewis,M,75,Teen 18-19,,19,PA,72.23,177.5,87.5,190,455,,,,SBD,Raw,1
 Levi Lewis,M,75,Open,,19,PA,72.23,177.5,87.5,190,455,,,,SBD,Raw,2
-Jack Welch,M,75,Open,,74,PA,72.57,127.5,90,182.5,400,,,,SBD,Raw,3
+John Welch #1,M,75,Open,,74,PA,72.57,127.5,90,182.5,400,,,,SBD,Raw,3
 Russell Brown,M,75,Teen 16-17,,17,PA,71.67,132.5,77.5,160,370,,,,SBD,Raw,1
 Russell Brown,M,75,Open,,17,PA,71.67,132.5,77.5,160,370,,,,SBD,Raw,4
 James Lewis,M,82.5,Juniors 20-24,,21,PA,81.65,185,132.5,255,572.5,,,,SBD,Raw,1
@@ -35,8 +35,8 @@ James Lewis,M,82.5,Open,,21,PA,81.65,185,132.5,255,572.5,,,,SBD,Raw,1
 Don Swingle,M,82.5,Open,,73,NY,81.42,100,75,182.5,357.5,,,,SBD,Raw,2
 Michael Gralla,M,90,Open,,30,PA,86.64,215,165,290,670,,,,SBD,Raw,1
 Colton Garvin,M,90,Open,,28,PA,88.9,210,145,280,635,,,,SBD,Raw,2
-David Lewis,M,90,Juniors 20-24,,21,PA,89.36,190,142.5,235,567.5,,,,SBD,Raw,1
-David Lewis,M,90,Open,,21,PA,89.36,190,142.5,235,567.5,,,,SBD,Raw,3
+David Lewis #3,M,90,Juniors 20-24,,21,PA,89.36,190,142.5,235,567.5,,,,SBD,Raw,1
+David Lewis #3,M,90,Open,,21,PA,89.36,190,142.5,235,567.5,,,,SBD,Raw,3
 Kevin Kear,M,90,Open,,28,PA,85.28,170,142.5,230,542.5,,,,SBD,Raw,4
 Don Kuhns,M,90,Masters 65-69,,67,PA,89.13,200,112.5,222.5,535,,,,SBD,Raw,1
 Don Kuhns,M,90,Open,,67,PA,89.13,200,112.5,222.5,535,,,,SBD,Raw,5
@@ -45,7 +45,7 @@ Curtis Mignot,M,90,Juniors 20-24,,23,PA,88,162.5,110,217.5,490,,,,SBD,Raw,2
 Curtis Mignot,M,90,Open,,23,PA,88,162.5,110,217.5,490,,,,SBD,Raw,7
 Andrew Herbstritt,M,90,Submasters 35-39,,35,PA,87.43,177.5,112.5,195,485,,,,SBD,Raw,1
 Andrew Herbstritt,M,90,Open,,35,PA,87.43,177.5,112.5,195,485,,,,SBD,Raw,8
-Fr. Tommy Thompson,M,90,Open,,39,PA,88.45,152.5,117.5,200,470,,,,SBD,Raw,9
+Tommy Thompson,M,90,Open,,39,PA,88.45,152.5,117.5,200,470,,,,SBD,Raw,9
 Hunter Berkey,M,90,Open,,17,PA,85.5,120,82.5,167.5,370,,,,SBD,Raw,10
 Walter Heinl II,M,90,Submasters 35-39,,35,PA,87.09,155,127.5,-217.5,,,,,SBD,Raw,DQ
 Walter Heinl II,M,90,Open,,35,PA,87.09,155,127.5,-217.5,,,,,SBD,Raw,DQ
@@ -61,8 +61,8 @@ Bugs Bayer,M,100,Open,,74,PA,93.89,185,82.5,210,477.5,,,,SBD,Raw,6
 Brian Knarr,M,100,Masters 45-49,,48,PA,94.35,150,107.5,182.5,440,,,,SBD,Raw,2
 Brian Knarr,M,100,Open,,48,PA,94.35,150,107.5,182.5,440,,,,SBD,Raw,7
 Zach Santangelo,M,110,Open,,34,PA,108.86,237.5,157.5,272.5,667.5,,,,SBD,Raw,1
-Robert Ludwig,M,110,Masters 60-64,,60,PA,102.97,210,157.5,235,602.5,,,,SBD,Raw,1
-Robert Ludwig,M,110,Open,,60,PA,102.97,210,157.5,235,602.5,,,,SBD,Raw,2
+Robert Ludwig #2,M,110,Masters 60-64,,60,PA,102.97,210,157.5,235,602.5,,,,SBD,Raw,1
+Robert Ludwig #2,M,110,Open,,60,PA,102.97,210,157.5,235,602.5,,,,SBD,Raw,2
 Brant Givler,M,110,Masters 55-59,,58,PA,107.5,160,147.5,185,492.5,,,,SBD,Raw,1
 Brant Givler,M,110,Open,,58,PA,107.5,160,147.5,185,492.5,,,,SBD,Raw,3
 Brian Karakaedos,M,125,Open,,28,PA,111.58,230,145,267.5,642.5,,,,SBD,Raw,1

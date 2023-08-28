@@ -79,7 +79,10 @@ def getresults(soup, meetcsv):
         hasAbsoluteRankings = True
 
     descriptors = results_table.find_all('div', {'class': 'table-title'})
+
     for ii in range(0, len(subtables)):
+        if ii >= len(descriptors):
+            break
         curr_table = subtables[ii]
         curr_descriptor = descriptors[ii]
 
@@ -102,10 +105,12 @@ def getresults(soup, meetcsv):
                     csv.fieldnames += ['IGNORE']
                 elif h.lower() == 'jméno':
                     csv.fieldnames += ['Name']
-                elif h == 'Nar/St.č/TH':
+                elif h in ['Nar/St.č/TH', 'Nar/TH']:
                     csv.fieldnames += ['BirthYear', 'Lot', 'BodyweightKg']
                 elif h == 'Oddíl':
                     csv.fieldnames += ['Team']
+                elif h == 'Univerzita':
+                    csv.fieldnames += ["College/University"]
                 elif h == 'DŘ1':
                     csv.fieldnames += ['Squat1Kg']
                 elif h == 'DŘ2':
@@ -127,6 +132,12 @@ def getresults(soup, meetcsv):
                 elif h == 'MT2':
                     csv.fieldnames += ['Deadlift2Kg']
                 elif h == 'MT3':
+                    csv.fieldnames += ['Deadlift3Kg']
+                elif h == 'DL1':
+                    csv.fieldnames += ['Deadlift1Kg']
+                elif h == 'DL2':
+                    csv.fieldnames += ['Deadlift2Kg']
+                elif h == 'DL3':
                     csv.fieldnames += ['Deadlift3Kg']
                 elif h == 'MT':
                     csv.fieldnames += ['Best3DeadliftKg']
@@ -233,7 +244,8 @@ def getresults(soup, meetcsv):
                     text = text.replace('*', '')
                     text = text.replace('  ', ' ').replace(',', '.')
 
-                    if td.has_attr("class") and td['class'][1] == 'invalid':
+                    if (td.has_attr("class") and len(td['class']) > 1
+                            and td['class'][1] == 'invalid'):
                         text = '-'+text
                     if td.find('span', {'class': 'record-attempt'}):
                         text = text.replace('R', '')
@@ -431,6 +443,8 @@ def main(dirname, url):
         calc_best_lift(entriescsv, 'Best3DeadliftKg', [
                        'Deadlift1Kg', 'Deadlift2Kg', 'Deadlift3Kg'])
 
+    entriescsv.append_column('BirthDate')
+
     # Figure out event information.
     markevent(entriescsv)
     try:
@@ -454,4 +468,5 @@ def main(dirname, url):
 if __name__ == '__main__':
     if len(sys.argv) != 3:
         print("Usage: %s dirname url" % sys.argv[0])
+        sys.exit(1)
     main(sys.argv[1], sys.argv[2])

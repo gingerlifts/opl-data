@@ -1,11 +1,11 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Teresa Putchio,48,F_OEM_APF,F,,65,,65,B,Multi-ply,1
-Jackie Ebben,82.5,F_OEM_APF,F,,77.5,,77.5,B,Multi-ply,1
+Jacqueline Stone,82.5,F_OEM_APF,F,,77.5,,77.5,B,Multi-ply,1
 Kristina Grandick,90,F_OEM_APF,F,,102.5,,102.5,B,Multi-ply,1
 J. Pauls,67.5,F_JEM_APF,F,,62.5,,62.5,B,Multi-ply,1
 M. Lewis,67.5,M_OEM_APF,M,,182.5,,182.5,B,Multi-ply,1
 Brian Cox,82.5,M_OEM_APF,M,,147.5,,147.5,B,Multi-ply,1
-Mike Brown,90,M_OEM_APF,M,,220,,220,B,Multi-ply,1
+Mike Brown #23,90,M_OEM_APF,M,,220,,220,B,Multi-ply,1
 Brian Jones,90,M_OEM_APF,M,,142.5,,142.5,B,Multi-ply,2
 Nick Simon,90,M_OEM_APF,M,,,,,B,Multi-ply,DQ
 Stephen Webb,90,M_OEM_APF,M,,,,,B,Multi-ply,DQ
@@ -79,9 +79,9 @@ John Hilburn,110,M_MEM_1_APF,M,247.5,117.5,210,575,SBD,Multi-ply,1
 John Reese,75,M_LW_WPO,M,300,215,240,755,SBD,Multi-ply,1
 Brandon Cass,100,M_MW_WPO,M,385,240,340,965,SBD,Multi-ply,2
 Michael Cartinian,90,M_MW_WPO,M,382.5,272.5,280,935,SBD,Multi-ply,3
-Mike Roberts,100,M_MW_WPO,M,332.5,275,387.5,995,SBD,Multi-ply,1
+Mike Roberts #2,100,M_MW_WPO,M,332.5,275,387.5,995,SBD,Multi-ply,1
 Mike Luckett,100,M_MW_WPO,M,310,192.5,275,777.5,SBD,Multi-ply,4
-Jose Garcia,110,M_HW_WPO,M,447.5,257.5,362.5,1067.5,SBD,Multi-ply,1
+Jose Garcia #22,110,M_HW_WPO,M,447.5,257.5,362.5,1067.5,SBD,Multi-ply,1
 Jason Patrick,110,M_HW_WPO,M,440,290,335,1065,SBD,Multi-ply,2
 Brian Durham,110,M_HW_WPO,M,410,250,340,1000,SBD,Multi-ply,3
 Kevin Thomas,110,M_HW_WPO,M,332.5,245,320,897.5,SBD,Multi-ply,4

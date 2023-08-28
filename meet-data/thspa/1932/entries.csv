@@ -25,7 +25,7 @@ Boys,67.13,2,Miguel Espino,Perryton,60.01,158.76,95.25,190.51,444.52,Single-ply,
 Boys,59.87,3,Esdras Rodriguez,Friona,59.69,161.03,83.91,165.56,410.5,Single-ply,SBD,M
 Boys,59.87,4,Charles Sinclair,Childress,59.83,136.08,88.45,147.42,371.95,Single-ply,SBD,M
 Boys,59.87,5,Kenneth Neskorik,Childress,59.15,145.15,81.65,138.35,365.14,Single-ply,SBD,M
-Boys,59.87,6,Daniel Patterson,Sunray,59.15,129.27,74.84,149.69,353.8,Single-ply,SBD,M
+Boys,59.87,6,Daniel Patterson #1,Sunray,59.15,129.27,74.84,149.69,353.8,Single-ply,SBD,M
 Boys,59.87,7,Antonio Alvarado,Levelland,56.43,113.4,77.11,147.42,337.93,Single-ply,SBD,M
 Boys,59.87,8,Mark Marquez,Dimmitt,56.34,120.2,72.57,140.61,333.39,Single-ply,SBD,M
 Boys,59.87,9,Frank Arredondo,Levelland,59.51,117.93,68.04,145.15,331.12,Single-ply,SBD,M
@@ -48,7 +48,7 @@ Boys,67.13,DQ,Bernie De La Cruz,Bovina,64.32,,,,,Single-ply,SBD,M
 Boys,67.13,DQ,Isreal Espinoza,Bovina,63.23,,,,,Single-ply,SBD,M
 Boys,67.13,DQ,Aaron James,Childress,67.09,,,,,Single-ply,SBD,M
 Boys,67.13,DQ,Adrian Gonzales,Floydada,65.5,170.1,97.52,,,Single-ply,SBD,M
-Boys,82.1,1,Michael Garcia,Friona,74.98,204.12,131.54,195.04,530.7,Single-ply,SBD,M
+Boys,82.1,1,Michael Garcia #9,Friona,74.98,204.12,131.54,195.04,530.7,Single-ply,SBD,M
 Boys,74.84,2,Barry Johnson,Sudan,70.58,165.56,117.93,222.26,505.76,Single-ply,SBD,M
 Boys,74.84,3,Tyler Hastings,Levelland,72.39,185.97,104.33,181.44,471.74,Single-ply,SBD,M
 Boys,74.84,4,Ryan Shemwell,Panhandle,71.4,161.03,113.4,170.1,444.52,Single-ply,SBD,M
@@ -84,7 +84,7 @@ Boys,82.1,9,Blaine McGregor,Amarillo Highland Park,78.29,154.22,111.13,154.22,41
 Boys,82.1,10,Fernando Vazquez,Denver City,75.57,149.69,104.33,161.03,415.04,Single-ply,SBD,M
 Boys,82.1,11,Jorge Martinez,Muleshoe,77.75,136.08,88.45,172.37,396.89,Single-ply,SBD,M
 Boys,82.1,12,Issac Summerlin,Friona,77.02,136.08,65.77,161.03,362.87,Single-ply,SBD,M
-Boys,82.1,13,Christopher Chavez,Friona,77.56,142.88,68.04,142.88,353.8,Single-ply,SBD,M
+Boys,82.1,13,Christopher Chavez #3,Friona,77.56,142.88,68.04,142.88,353.8,Single-ply,SBD,M
 Boys,82.1,DQ,Jaime Cigarroa,Friona,81.47,170.1,86.18,,,Single-ply,SBD,M
 Boys,82.1,DQ,Carter Estes,White Deer,80.2,,,,,Single-ply,SBD,M
 Boys,82.1,DQ,Braxton Creagor,Slaton,77.29,,,,,Single-ply,SBD,M
@@ -120,7 +120,7 @@ Boys,99.79,6,Eric Vela,Canyon,94.17,145.15,102.06,163.29,410.5,Single-ply,SBD,M
 Boys,99.79,7,Austin Slayton,Canyon,99.34,151.95,102.06,145.15,399.16,Single-ply,SBD,M
 Boys,99.79,8,Jesus Sanchez,Bovina,92.62,140.61,74.84,145.15,360.61,Single-ply,SBD,M
 Boys,99.79,DQ,Obed Lujan,Dalhart,92.62,158.76,,,,Single-ply,SBD,M
-Boys,99.79,DQ,Carlos Martinez,Muleshoe,97.43,195.04,104.33,,,Single-ply,SBD,M
+Boys,99.79,DQ,Carlos Martinez #21,Muleshoe,97.43,195.04,104.33,,,Single-ply,SBD,M
 Boys,99.79,DQ,Alberto Castillo,Whiteface,97.34,,,,,Single-ply,SBD,M
 Boys,109.77,1,Abayomi Salinas,Friona,109.68,244.94,142.88,233.6,621.42,Single-ply,SBD,M
 Boys,109.77,2,Scott Martin,Dimmitt,106.05,224.53,122.47,231.33,578.33,Single-ply,SBD,M
@@ -137,7 +137,7 @@ Boys,109.77,12,Aaron Williams,Sunray,108.41,183.7,104.33,181.44,469.47,Single-pl
 Boys,109.77,13,Skylar Howery,Canyon Randall,107.5,145.15,102.06,154.22,401.43,Single-ply,SBD,M
 Boys,109.77,14,Mason Lafever,Canyon Randall,108.77,149.69,113.4,136.08,399.16,Single-ply,SBD,M
 Boys,109.77,15,Brady Cooke,Panhandle,103.24,124.74,65.77,124.74,315.25,Single-ply,SBD,M
-Boys,124.74,1,Chris Thomas,Slaton,116.75,244.94,140.61,222.26,607.81,Single-ply,SBD,M
+Boys,124.74,1,Chris Thomas #5,Slaton,116.75,244.94,140.61,222.26,607.81,Single-ply,SBD,M
 Boys,124.74,2,Mark Munoz,Childress,121.2,219.99,145.15,222.26,587.4,Single-ply,SBD,M
 Boys,124.74,3,David Rodriguez,Muleshoe,112.31,226.8,138.35,217.72,582.87,Single-ply,SBD,M
 Boys,124.74,4,Anthony Anzuldua,Dalhart,113.4,204.12,133.81,192.78,530.7,Single-ply,SBD,M

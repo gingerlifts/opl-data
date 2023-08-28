@@ -1,6 +1,6 @@
 Place,Division,Sex,Team,Name,Event,BodyweightKg,BirthDate,BirthYear,Age,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg
 1,Open,F,OSC STEPHANOIS,Mélodie Anthouard,S,57.18,,1988,31,Raw,130,137.5,-143,137.5,,,,,,,,,137.5
-1,Open,F,OSC STEPHANOIS,Charlotte Vedel,B,59.27,,1994,25,Raw,,,,,82.5,87.5,90,90,,,,,90
+1,Open,F,OSC STEPHANOIS,Charlotte Peyraud,B,59.27,,1994,25,Raw,,,,,82.5,87.5,90,90,,,,,90
 1,Open,F,OSC STEPHANOIS,Julia Dru,D,55.44,,1997,22,Raw,,,,,,,,,147.5,155,162.5,162.5,162.5
 2,Open,F,AS FOURCHAMBAULT,Stéphanie Legard,S,46.91,,1981,38,Raw,115,120,125,125,,,,,,,,,125
 2,Open,F,AS FOURCHAMBAULT,Marie-Christine Pracella,B,59.16,,1965,53,Raw,,,,,85,90,-92.5,90,,,,,90
@@ -26,11 +26,11 @@ Place,Division,Sex,Team,Name,Event,BodyweightKg,BirthDate,BirthYear,Age,Equipmen
 9,Open,F,CHC PONTOISE,Nancy Eichinger,S,57.8,,1993,25,Raw,100,105,110,110,,,,,,,,,110
 9,Open,F,CHC PONTOISE,Morgane Robillard,B,51.18,,2002,16,Raw,,,,,45,47.5,50,50,,,,,50
 9,Open,F,CHC PONTOISE,Marieke Froissart,D,54.53,,1990,28,Raw,,,,,,,,,100,107.5,-112.5,107.5,107.5
-10,Open,F,CESSON SEVIGNE FA,Julie Hellouet,S,70.33,,2002,17,Raw,90,92.5,97.5,97.5,,,,,,,,,97.5
+10,Open,F,CESSON SEVIGNE FA,Julie Helleouet,S,70.33,,2002,17,Raw,90,92.5,97.5,97.5,,,,,,,,,97.5
 10,Open,F,CESSON SEVIGNE FA,Auriane Payoux,B,59.84,,1996,22,Raw,,,,,40,-45,-45,40,,,,,40
 10,Open,F,CESSON SEVIGNE FA,Marie-Line Durand,D,55.37,,1964,54,Raw,,,,,,,,,120,125,130,130,130
 1,Open,M,US DU VELAY,Antoine Garcia,S,59.55,,1995,23,Raw,180,185,190,190,,,,,,,,,190
-1,Open,M,US DU VELAY,Mickael Lager,B,69.55,,1971,48,Raw,,,,,125,130,-135,130,,,,,130
+1,Open,M,US DU VELAY,Mickaël Lager,B,69.55,,1971,48,Raw,,,,,125,130,-135,130,,,,,130
 1,Open,M,US DU VELAY,Hassan El Belghiti,D,68.13,,1975,44,Raw,,,,,,,,,275,290,-300,290,290
 2,Open,M,OSC STEPHANOIS,Antoni Mastrolorenzo,S,75.47,,1982,37,Raw,212.5,220,225,225,,,,,,,,,225
 2,Open,M,OSC STEPHANOIS,Mathieu Noirbent,B,102.99,,1985,33,Raw,,,,,192.5,200,202.5,202.5,,,,,202.5

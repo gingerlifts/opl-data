@@ -5,7 +5,7 @@ Place,Name,BirthYear,WeightClassKg,BodyweightKg,Country,Bench1Kg,Bench2Kg,Bench3
 2,Eija Kettunen,1960,56,55.4,Finland,72.5,77.5,82.5,82.5,82.5,B,Single-ply,Masters 1,F
 3,Dina Nowka,1956,56,55,Germany,70,72.5,75,75,75,B,Single-ply,Masters 1,F
 1,Daniele Taret,1958,60,59.1,France,90,-97.5,-97.5,90,90,B,Single-ply,Masters 1,F
-2,Bett Eschelbacher,1959,60,59,Germany,82.5,-87.5,,82.5,82.5,B,Single-ply,Masters 1,F
+2,Bettina Eschelbacher,1959,60,59,Germany,82.5,-87.5,,82.5,82.5,B,Single-ply,Masters 1,F
 3,Susanne Cunat,1959,60,59.1,Austria,75,80,-85,80,80,B,Single-ply,Masters 1,F
 1,Ursula Häuser,1960,67.5,65.7,Germany,87.5,92.5,-97.5,92.5,92.5,B,Single-ply,Masters 1,F
 2,Helena Malassu,1958,67.5,63.5,Finland,60,67.5,-72.5,67.5,67.5,B,Single-ply,Masters 1,F
@@ -31,7 +31,7 @@ DQ,Eva Orenicová,1951,48,47.6,Slovakia,-60,-60,-65,,,B,Single-ply,Masters 2,F
 2,Erika Wimmer,1940,75,68.4,Germany,-60,60,62.5,62.5,62.5,B,Single-ply,Masters 2,F
 3,Anna Gruber,1948,75,72.3,Hungary,-55,-57.5,57.5,57.5,57.5,B,Single-ply,Masters 2,F
 4,Valentyna Chala,1949,75,70.7,Ukraine,45,-50,-50,45,45,B,Single-ply,Masters 2,F
-1,Roswit Pittermann,1946,90,83.6,Germany,105,110,-112.5,110,110,B,Single-ply,Masters 2,F
+1,Roswitha Pittermann,1946,90,83.6,Germany,105,110,-112.5,110,110,B,Single-ply,Masters 2,F
 2,Þórdís Garðarsdóttir,1944,90,83.1,Iceland,77.5,-85,-85,77.5,77.5,B,Single-ply,Masters 2,F
 DQ,Roswita Kendziora,1951,90+,93.1,Germany,-50,-50,-50,,,B,Single-ply,Masters 2,F
 1,Josef Fenzl,1960,52,51.5,Austria,55,60,-62.5,60,60,B,Single-ply,Masters 1,M
@@ -56,7 +56,7 @@ DQ,Roswita Kendziora,1951,90+,93.1,Germany,-50,-50,-50,,,B,Single-ply,Masters 2,
 9,Birger Sundstøl,1954,75,70.9,Norway,112.5,-122.5,-127.5,112.5,112.5,B,Single-ply,Masters 1,M
 DQ,Karl Weyringer,1951,75,74.2,Austria,-147.5,-147.5,-147.5,,,B,Single-ply,Masters 1,M
 1,Didier Compain,1959,82.5,81.3,France,-195.5,200,207.5,207.5,207.5,B,Single-ply,Masters 1,M
-2,Vladimir Volkov,1959,82.5,81.8,Russia,-195.5,195.5,-207.5,195.5,195.5,B,Single-ply,Masters 1,M
+2,Vladimir Volkov #1,1959,82.5,81.8,Russia,-195.5,195.5,-207.5,195.5,195.5,B,Single-ply,Masters 1,M
 3,Werner Fackler,1959,82.5,81.2,Germany,180,185,187.5,187.5,187.5,B,Single-ply,Masters 1,M
 4,Volodymy Synenkyy,1960,82.5,81.8,Ukraine,-175,177.5,-187.5,177.5,177.5,B,Single-ply,Masters 1,M
 1,Pascal Pares,1958,90,87.4,France,190,195,-197.5,195,195,B,Single-ply,Masters 1,M
@@ -138,7 +138,7 @@ DQ,Karl Weber,1950,125,111.8,Germany,-180,-180,-180,,,B,Single-ply,Masters 2,M
 3,Josef Wimmer,1936,82.5,79.2,Germany,110,115,117.5,117.5,117.5,B,Single-ply,Masters 3,M
 DQ,Peter Sosna,1939,82.5,77.5,Germany,-100,-100,-100,,,B,Single-ply,Masters 3,M
 1,Knut Kampe,1940,90,89,Norway,157.5,162.5,167.5,167.5,167.5,B,Single-ply,Masters 3,M
-2,Gunther Wittkowski,1940,90,88.8,Germany,150,-160,-162.5,150,150,B,Single-ply,Masters 3,M
+2,Günther Wittkowski,1940,90,88.8,Germany,150,-160,-162.5,150,150,B,Single-ply,Masters 3,M
 3,Jiri Hofirek,1941,90,89.7,Czechia,115,120,-130,120,120,B,Single-ply,Masters 3,M
 1,Roland Schubert,1940,100,98.1,Germany,190,195,-197.5,195,195,B,Single-ply,Masters 3,M
 2,Lauri Rantanen,1940,100,97.2,Finland,-150,-150,150,150,150,B,Single-ply,Masters 3,M

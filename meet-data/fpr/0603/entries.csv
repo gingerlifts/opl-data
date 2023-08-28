@@ -19,7 +19,7 @@ DQ,Olga Kurmilyova,Ольга Курмилёва,1977,F,52,52,120,,,,SBD,Single-
 4,Ekaterina Semko,Екатерина Семко,1974,F,60,59.75,145,80,150,375,SBD,Single-ply,Open
 5,Karina Alshevskaya,Карина Альшевская,1984,F,60,59,120,65,130,315,SBD,Single-ply,Open
 6,Evgeniya Voshchevoz,Евгения Вощевоз,1985,F,60,59.35,130,72.5,132.5,335,SBD,Single-ply,Open
-DQ,Elena Parfyonova,Елена Парфёнова,1966,F,60,58,,,,,SBD,Single-ply,Open
+DQ,Elena Parfenova,Елена Парфенова,1966,F,60,58,,,,,SBD,Single-ply,Open
 1,Evgeniya Goncharova,Евгения Гончарова,1981,F,67.5,67.25,235,132.5,227.5,595,SBD,Single-ply,Open
 2,Olga Pantina,Ольга Пантина,1979,F,67.5,66.75,220,115,180,515,SBD,Single-ply,Open
 3,Svetlana Shaburkina,Светлана Шабуркина,1977,F,67.5,66.25,180,102.5,192.5,475,SBD,Single-ply,Open
@@ -30,7 +30,7 @@ DQ,Elena Parfyonova,Елена Парфёнова,1966,F,60,58,,,,,SBD,Single-pl
 DQ,Ulyana Balova,Ульяна Балова,1981,F,75,69.8,,,,,SBD,Single-ply,Open
 1,Svetlana Bochko,Светлана Бочко,1963,F,82.5,81.6,215,122.5,232.5,570,SBD,Single-ply,Open
 2,Dinara Zinikova,Динара Зиникова,1991,F,82.5,81.1,190,80,150,420,SBD,Single-ply,Open
-DQ,Lyudmila Protchenko,Людмила Протченко,1986,F,82.5,82,,,,,SBD,Single-ply,Open
+DQ,Liudmila Protchenko,Людмила Протченко,1986,F,82.5,82,,,,,SBD,Single-ply,Open
 1,Irina Yaroshenko,Ирина Ярошенко,1986,F,90,87.7,227.5,115,205,547.5,SBD,Single-ply,Open
 1,Evgeniy Kolabin,Евгений Колабин,1986,M,52,52,135,90,190,415,SBD,Single-ply,Open
 1,Vasiliy Dunin,Василий Дунин,1984,M,56,55.3,210,105,205,520,SBD,Single-ply,Open
@@ -60,7 +60,7 @@ DQ,Pavel Moshonkin,Павел Мошонкин,1987,M,67.5,66.2,152.5,90,,,SBD,S
 3,Viktor Kolobov,Виктор Колобов,1985,M,75,75,285,170,275,730,SBD,Single-ply,Open
 4,Sergey Melekhin,Сергей Мелехин,1972,M,75,75,270,192.5,255,717.5,SBD,Single-ply,Open
 5,Sergey Shelyakin,Сергей Шелякин,1971,M,75,74.45,260,195,230,685,SBD,Single-ply,Open
-6,Aleksandr Dementev,Александр Дементьев,1984,M,75,74.45,262.5,160,252.5,675,SBD,Single-ply,Open
+6,Aleksandr Dementev #1,Александр Дементьев,1984,M,75,74.45,262.5,160,252.5,675,SBD,Single-ply,Open
 7,Vladimir Filippov,Владимир Филиппов,1986,M,75,74.6,270,165,240,675,SBD,Single-ply,Open
 8,Vasiliy Korzukhin,Василий Корзухин,1978,M,75,74.85,257.5,160,257.5,675,SBD,Single-ply,Open
 9,Dmitriy Ladygin,Дмитрий Ладыгин,1979,M,75,75,250,160,260,670,SBD,Single-ply,Open
@@ -152,14 +152,14 @@ DQ,Vladimir Goncharuk,Владимир Гончарук,1980,M,100,96.9,,,,,SBD,
 4,Igor Shevelev,Игорь Шевелев,1978,M,110,106.25,350,220,290,860,SBD,Single-ply,Open
 5,Mikhail Shutskiy,Михаил Шуцкий,1981,M,110,100.7,325,207.5,290,822.5,SBD,Single-ply,Open
 6,Arkadiy Semelev,Аркадий Семелев,1985,M,110,107.05,320,210,280,810,SBD,Single-ply,Open
-7,Ilya Fedorov,Илья Фёдоров,1984,M,110,105.1,262.5,210,245,717.5,SBD,Single-ply,Open
+7,Ilya Fedorov #1,Илья Федоров,1984,M,110,105.1,262.5,210,245,717.5,SBD,Single-ply,Open
 DQ,Sergey Chetvertakov,Сергей Четвертаков,1976,M,110,101.35,,,,,SBD,Single-ply,Open
 DQ,Andrey Smirnov,Андрей Смирнов,1978,M,110,109.65,,,,,SBD,Single-ply,Open
 1,Sergey Shubitidze,Сергей Шубитидзе,1980,M,125,116.05,310,232.5,285,827.5,SBD,Single-ply,Open
 2,Ivan Balakshin,Иван Балакшин,1970,M,125,114.65,300,200,300,800,SBD,Single-ply,Open
-3,Oleg Ivanov,Олег Іванов,1970,M,125,116.7,290,200,290,780,SBD,Single-ply,Open
+3,Oleg Ivanov #2,Олег Иванов,1970,M,125,116.7,290,200,290,780,SBD,Single-ply,Open
 DQ,Igor Prokhorov,Игорь Прохоров,1976,M,125,114.1,320,,,,SBD,Single-ply,Open
 DQ,Denis Kazanskiy,Денис Казанский,1980,M,125,112.4,360,,,,SBD,Single-ply,Open
 1,Mikhail Viasovskiy,Михаил Виасовский,1984,M,125+,128.5,350,222.5,330,902.5,SBD,Single-ply,Open
 2,Viktor Medvedev,Виктор Медведев,1967,M,125+,129.15,345,237.5,320,902.5,SBD,Single-ply,Open
-3,Dmitriy Kozlov,Дмитрий Козлов,1981,M,125+,125.2,345,220,312.5,877.5,SBD,Single-ply,Open
+3,Dmitriy Kozlov #1,Дмитрий Козлов,1981,M,125+,125.2,345,220,312.5,877.5,SBD,Single-ply,Open

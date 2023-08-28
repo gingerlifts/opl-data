@@ -5,11 +5,11 @@ SBD,F,Jasmine Starman,AB,85.9,84+,Sub-Juniors,125.0,62.5,145.0,332.5,Raw,1
 SBD,M,Max Grant,AB,77.2,83,Sub-Juniors,160.0,130.0,192.5,482.5,Raw,3
 SBD,M,Matthew Lewis Vena,BC,79.7,83,Sub-Juniors,220.0,115.0,240.0,575.0,Raw,1
 SBD,M,Brett McIvor,SK,78.9,83,Sub-Juniors,195.0,105.0,215.0,515.0,Raw,2
-SBD,M,Kyle Andersen,BC,71.3,74,Sub-Juniors,167.5,100.0,175.0,442.5,Raw,1
+SBD,M,Kyle Andersen #4,BC,71.3,74,Sub-Juniors,167.5,100.0,175.0,442.5,Raw,1
 SBD,M,Stephen Boutilier,SK,92.3,93,Open,205.0,112.5,220.0,537.5,Raw,8
 SBD,M,Sean Jagat,BC,91.1,93,Open,205.0,130.0,210.0,545.0,Raw,7
 SBD,M,Johnson Shen,BC,91.6,93,Open,182.5,145.0,225.0,552.5,Raw,6
-SBD,M,James Morgan,AB,91.6,93,Open,215.0,147.5,262.5,625.0,Raw,4
+SBD,M,James Morgan #3,AB,91.6,93,Open,215.0,147.5,262.5,625.0,Raw,4
 SBD,M,Devin Proulx,AB,92.5,93,Open,222.5,135.0,267.5,625.0,Raw,5
 SBD,M,Daniel Nikiforuk,AB,92.8,93,Open,220.0,167.5,272.5,660.0,Raw,3
 SBD,M,Cody Weeks,BC,87.6,93,Open,240.0,190.0,280.0,710.0,Raw,1
@@ -48,7 +48,7 @@ SBD,F,Charlotte Gifford,AB,50.0,52,Open,100.0,60.0,137.5,297.5,Raw,2
 SBD,F,Anjelica St. Pierre,BC,44.0,47,Open,72.5,45.0,117.5,235.0,Raw,1
 SBD,M,Tyler Harnett,SK,134.6,120+,Open,292.5,202.5,280.0,775.0,Raw,2
 SBD,M,Troy Martins,BC,160.7,120+,Open,272.5,195.0,292.5,760.0,Raw,4
-SBD,M,Steven Snell,AB,132.3,120+,Open,272.5,197.5,285.0,755.0,Raw,5
+SBD,M,Steve Snell #1,AB,132.3,120+,Open,272.5,197.5,285.0,755.0,Raw,5
 SBD,M,Joel Klassen,BC,142.8,120+,Open,285.0,202.5,333.0,820.5,Raw,1
 SBD,M,Curtis Demelo,AB,141.0,120+,Open,295.0,170.0,295.0,760.0,Raw,3
 SBD,M,Raymond Hickie,SK,115.7,120,Open,240.0,175.0,275.0,690.0,Raw,1
@@ -75,7 +75,7 @@ SBD,M,Quinton LaBorde,AB,87.0,93,Juniors,215.0,135.0,250.0,600.0,Raw,4
 SBD,M,Newton Ly,BC,92.7,93,Juniors,285.0,172.5,245.0,702.5,Raw,1
 SBD,M,Matthew Liao,BC,86.1,93,Juniors,185.0,120.0,222.5,527.5,Raw,8
 SBD,M,Kyle Cathers,AB,91.2,93,Juniors,230.0,132.5,217.5,580.0,Raw,7
-SBD,M,Jordan Lam,BC,87.2,93,Juniors,212.5,140.0,230.0,582.5,Raw,6
+SBD,M,Jordan Lam #3,BC,87.2,93,Juniors,212.5,140.0,230.0,582.5,Raw,6
 SBD,M,Dawson Kluss,BC,91.8,93,Juniors,245.0,137.5,252.5,635.0,Raw,3
 SBD,M,Brent Chapman,BC,91.7,93,Juniors,210.0,147.5,237.5,595.0,Raw,5
 SBD,M,Austen Zentner,SK,90.6,93,Juniors,175.0,117.5,185.0,477.5,Raw,10
@@ -83,7 +83,7 @@ SBD,M,An Dinh,BC,93.0,93,Juniors,210.0,175.0,282.5,667.5,Raw,2
 SBD,F,Olivia Lim,BC,83.0,84,Juniors,137.5,65.0,185.0,387.5,Raw,1
 SBD,F,Morgan Cahill,AB,83.4,84,Juniors,140.0,80.0,142.5,362.5,Raw,2
 SBD,F,Brianna Walz,SK,73.8,84,Juniors,105.0,52.6,135.0,292.5,Raw,3
-SBD,M,Justin Lee,BC,81.8,83,Juniors,195.0,125.0,190.0,510.0,Raw,1
+SBD,M,Justin Lee #3,BC,81.8,83,Juniors,195.0,125.0,190.0,510.0,Raw,1
 SBD,M,Donovan Petitclerc,BC,78.9,83,Juniors,165.0,92.5,200.0,457.5,Raw,2
 SBD,M,Logan Tarasoff,BC,73.2,74,Juniors,225.0,115.0,235.0,575.0,Raw,1
 SBD,M,Eric Melendez-Duke,SK,73.4,74,Juniors,190.0,110.0,215.0,515.0,Raw,4
@@ -100,7 +100,7 @@ SBD,F,Tanner Paulovich-Unger,AB,62.4,63,Juniors,110.0,72.5,127.5,310.0,Raw,3
 SBD,F,Jenna Sabino,BC,58.9,63,Juniors,127.5,65.0,140.0,332.5,Raw,2
 SBD,F,Elizabeth Hu,BC,62.6,63,Juniors,132.5,67.5,140.0,340.0,Raw,1
 SBD,F,Brooklyn Leverick,MB,61.3,63,Juniors,110.0,60.0,120.0,290.0,Raw,4
-SBD,F,Jesse Kelly,BC,56.7,57,Juniors,127.5,80.0,140.0,347.5,Raw,2
+SBD,F,Jesse Kelly #1,BC,56.7,57,Juniors,127.5,80.0,140.0,347.5,Raw,2
 SBD,F,Danielle Palmer,AB,56.0,57,Juniors,97.5,72.5,122.5,292.5,Raw,3
 SBD,F,Alison Kam,BC,56.9,57,Juniors,140.0,70.0,158.0,368.0,Raw,1
 SBD,M,Johnnel Naron,AB,110.5,120,Juniors,230.0,145.0,240.0,615.0,Raw,2

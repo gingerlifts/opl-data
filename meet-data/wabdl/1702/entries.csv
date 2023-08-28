@@ -56,12 +56,12 @@ B,M,Masters 40-46,100,Single-ply,215,,,,215,Steve Peña #1,2
 B,M,Masters 40-46,100,Single-ply,,,,,,Tony Blas,DQ
 B,M,Masters 40-46,100,Single-ply,,,,,,Coby Washburn,DQ
 B,M,Masters 40-46,100,Single-ply,222.5,,,,222.5,Jesse Avila,1
-B,M,Masters 40-46,100,Single-ply,140,,,,140,Daniel Miller,3
+B,M,Masters 40-46,100,Single-ply,140,,,,140,Daniel Miller #6,3
 B,M,Masters 40-46,110,Single-ply,265,,,,265,Chad Bertelmann,1
 B,M,Masters 40-46,110,Single-ply,200,,,,200,Michael Botticelli,2
 B,M,Masters 40-46,110,Single-ply,200,,,,200,Fateh Sihota,3
 B,M,Masters 40-46,117.5,Single-ply,207.5,,,,207.5,Allen Heisler,1
-B,M,Masters 40-46,125,Single-ply,,,,,,David Lewis,DQ
+B,M,Masters 40-46,125,Single-ply,,,,,,David Lewis #4,DQ
 B,M,Masters 40-46,140,Single-ply,340,,,,340,Dave Forstner,1
 B,M,Masters 40-46,140,Single-ply,,,,,,Robert Vick,DQ
 B,M,Masters 47-53,67.5,Single-ply,165,,,,165,Chris Balanga,1
@@ -96,7 +96,7 @@ B,M,Masters 54-60,140,Single-ply,297.5,,,,297.5,James Mersberg,1
 B,M,Masters 61-67,82.5,Single-ply,147.5,,,,147.5,Paul Janoff,1
 B,M,Masters 61-67,90,Single-ply,170,,,,170,Ernest Reyes,1
 B,M,Masters 61-67,100,Single-ply,157.5,,,,157.5,Nino Murray,1
-B,M,Masters 61-67,110,Single-ply,135,,,,135,Eddie Morgan,2
+B,M,Masters 61-67,110,Single-ply,135,,,,135,Eddie Morgan #1,2
 B,M,Masters 61-67,110,Single-ply,200,,,,200,Tom Gonnering,1
 B,M,Masters 61-67,117.5,Single-ply,,,,,,Willard Crossen Jr,DQ
 B,M,Masters 61-67,117.5,Single-ply,170,,,,170,John Towne,1
@@ -208,7 +208,7 @@ D,M,Masters 40-46,100,Single-ply,,,220,,220,Steve Peña #1,2
 D,M,Masters 40-46,110,Single-ply,,,252.5,,252.5,Fateh Sihota,1
 D,M,Masters 40-46,117.5,Single-ply,,,272.5,,272.5,Allen Heisler,2
 D,M,Masters 40-46,117.5,Single-ply,,,330,,330,Kari Pöntinen,1
-D,M,Masters 40-46,125,Single-ply,,,272.5,,272.5,David Lewis,1
+D,M,Masters 40-46,125,Single-ply,,,272.5,,272.5,David Lewis #4,1
 D,M,Masters 40-46,140,Single-ply,,,305,,305,Dave Forstner,2
 D,M,Masters 40-46,140,Single-ply,,,325,,325,Ricardo Nort,1
 D,M,Masters 47-53,67.5,Single-ply,,,227.5,,227.5,Chris Balanga,1
@@ -236,11 +236,11 @@ D,M,Masters 54-60,100,Single-ply,,,,,,Mike Frizzell,DQ
 D,M,Masters 54-60,100,Single-ply,,,227.5,,227.5,Reid Solar,1
 D,M,Masters 54-60,125,Single-ply,,,300,,300,Tom Pennella,1
 D,M,Masters 54-60,140,Single-ply,,,227.5,,227.5,James Mersberg,1
-D,M,Masters 61-67,75,Single-ply,,,207.5,,207.5,John Clay,1
+D,M,Masters 61-67,75,Single-ply,,,207.5,,207.5,John Clay #2,1
 D,M,Masters 61-67,75,Single-ply,,,205,,205,Richard Cirigliano,2
 D,M,Masters 61-67,82.5,Single-ply,,,192.5,,192.5,Stuart Coogan,1
 D,M,Masters 61-67,100,Single-ply,,,217.5,,217.5,Bob Hafner,1
-D,M,Masters 61-67,110,Single-ply,,,277.5,,277.5,Eddie Morgan,1
+D,M,Masters 61-67,110,Single-ply,,,277.5,,277.5,Eddie Morgan #1,1
 D,M,Masters 61-67,110,Single-ply,,,275,,275,Ron L'Huillier,2
 D,M,Masters 61-67,117.5,Single-ply,,,247.5,,247.5,Willard Crossen Jr,1
 D,M,Masters 68-74,75,Single-ply,,,175,,175,James Christian #1,1
@@ -251,7 +251,7 @@ D,M,Masters 80-84,82.5,Single-ply,,,165,,165,Ron Ringewold,1
 D,M,Masters 85-89,90,Single-ply,,,165,,165,William Leedy,1
 D,M,Masters 90,75,Single-ply,,,65,,65,Donald Dreyer,1
 D,M,Open,52,Single-ply,,,170,,170,Landon Sakai,1
-D,M,Open,75,Single-ply,,,207.5,,207.5,John Clay,1
+D,M,Open,75,Single-ply,,,207.5,,207.5,John Clay #2,1
 D,M,Open,75,Single-ply,,,155,,155,Jimi Kuutti,2
 D,M,Open,82.5,Single-ply,,,265,,265,Leamon Woodley,1
 D,M,Open,82.5,Single-ply,,,217.5,,217.5,Daniel Sisneros,2
@@ -329,7 +329,7 @@ BD,M,Masters 54-60,67.5,Single-ply,120,,200,,320,Dave Constantineau,1
 BD,M,Masters 54-60,82.5,Single-ply,147.5,,265,,412.5,Leamon Woodley,1
 BD,M,Masters 54-60,100,Single-ply,227.5,,,,,Mike Frizzell,DQ
 BD,M,Masters 54-60,140+,Single-ply,297.5,,227.5,,525,James Mersberg,1
-BD,M,Masters 61-67,110,Single-ply,135,,277.5,,412.5,Eddie Morgan,1
+BD,M,Masters 61-67,110,Single-ply,135,,277.5,,412.5,Eddie Morgan #1,1
 BD,M,Masters 61-67,117.5,Single-ply,,,247.5,,,Willard Crossen Jr,DQ
 BD,M,Masters 68-74,90,Single-ply,77.5,,160,,237.5,Frank Hammer,1
 BD,M,Masters 75-79,90,Single-ply,80,,182.5,,262.5,John Herbein,1
@@ -477,7 +477,7 @@ B,M,Juniors 20-25,75,Raw,125,,,,125,Ezequiel De Simone,1
 B,M,Juniors 20-25,82.5,Raw,140,,,,140,Patrick Keogh,1
 B,M,Juniors 20-25,82.5,Raw,117.5,,,,117.5,Steven Bassetti,2
 B,M,Juniors 20-25,82.5,Raw,110,,,,110,Brett Robinson,3
-B,M,Juniors 20-25,82.5,Raw,107.5,,,,107.5,James King,4
+B,M,Juniors 20-25,82.5,Raw,107.5,,,,107.5,James King #4,4
 B,M,Juniors 20-25,82.5,Raw,95,,,,95,Braden Jensen,5
 B,M,Juniors 20-25,90,Raw,170,,,,170,Kyle Francescatti,1
 B,M,Juniors 20-25,90,Raw,150,,,,150,Johnny De Leon,2
@@ -487,7 +487,7 @@ B,M,Juniors 20-25,110,Raw,140,,,,140,Mitch Bellon,1
 B,M,Juniors 20-25,125,Raw,172.5,,,,172.5,Oscar Rivero,1
 B,M,Juniors 20-25,140,Raw,220,,,,220,Walter Kupihe,1
 B,M,Juniors 20-25,140,Raw,145,,,,145,Donald Loew,2
-B,M,Law-Fire 40-47,90,Raw,165,,,,165,Jason Smith,1
+B,M,Law-Fire 40-47,90,Raw,165,,,,165,Jason Smith #1,1
 B,M,Law-Fire 40-47,100,Raw,147.5,,,,147.5,Nick Berriman,1
 B,M,Law-Fire 40-47,100,Raw,125,,,,125,David Chadwick,2
 B,M,Law-Fire 40-47,117.5,Raw,182.5,,,,182.5,Flip Silva Jr,1
@@ -497,7 +497,7 @@ B,M,Law-Fire 56-63,117.5,Raw,137.5,,,,137.5,Donald Bryant,1
 B,M,Law-Fire Open,117.5,Raw,182.5,,,,182.5,Flip Silva Jr,1
 B,M,Masters 40-46,75,Raw,150,,,,150,David R Smith,1
 B,M,Masters 40-46,82.5,Raw,170,,,,170,Chad Medina,1
-B,M,Masters 40-46,100,Raw,217.5,,,,217.5,James Kelly,1
+B,M,Masters 40-46,100,Raw,217.5,,,,217.5,James Kelly #4,1
 B,M,Masters 40-46,100,Raw,172.5,,,,172.5,Byron Fletcher,2
 B,M,Masters 40-46,100,Raw,165,,,,165,Chris Bohenek,3
 B,M,Masters 40-46,110,Raw,175,,,,175,Kim Päivöke,1
@@ -505,9 +505,9 @@ B,M,Masters 40-46,140,Raw,220,,,,220,Ricardo Nort,1
 B,M,Masters 47-53,60,Raw,52.5,,,,52.5,Gustavo Almada,1
 B,M,Masters 47-53,82.5,Raw,155,,,,155,Jon Cunningham,1
 B,M,Masters 47-53,90,Raw,182.5,,,,182.5,Louie Mansanas,1
-B,M,Masters 47-53,90,Raw,165,,,,165,Jason Smith,2
+B,M,Masters 47-53,90,Raw,165,,,,165,Jason Smith #1,2
 B,M,Masters 47-53,90,Raw,152.5,,,,152.5,Chris Hatley,3
-B,M,Masters 47-53,90,Raw,122.5,,,,122.5,Carlos Martinez,4
+B,M,Masters 47-53,90,Raw,122.5,,,,122.5,Carlos Martinez #6,4
 B,M,Masters 47-53,100,Raw,227.5,,,,227.5,James Hunter,1
 B,M,Masters 47-53,110,Raw,180,,,,180,Marcelo Schneider,1
 B,M,Masters 47-53,140,Raw,217.5,,,,217.5,DeWitt Martin Jr,1
@@ -544,13 +544,13 @@ B,M,Open,90,Raw,170,,,,170,Kyle Francescatti,4
 B,M,Open,90,Raw,160,,,,160,Charlen Luz,5
 B,M,Open,90,Raw,142.5,,,,142.5,Joshep Nacarro Faraud,6
 B,M,Open,100,Raw,227.5,,,,227.5,James Hunter,1
-B,M,Open,100,Raw,217.5,,,,217.5,James Kelly,2
+B,M,Open,100,Raw,217.5,,,,217.5,James Kelly #4,2
 B,M,Open,100,Raw,192.5,,,,192.5,Sami Harju,3
 B,M,Open,100,Raw,175,,,,175,Cephas McTizic,4
 B,M,Open,100,Raw,172.5,,,,172.5,Byron Fletcher,5
 B,M,Open,100,Raw,165,,,,165,Chris Bohenek,6
 B,M,Open,100,Raw,160,,,,160,Bill Corbin,7
-B,M,Open,100,Raw,140,,,,140,Daniel Miller,8
+B,M,Open,100,Raw,140,,,,140,Daniel Miller #6,8
 B,M,Open,110,Raw,215,,,,215,Scotty Clark,1
 B,M,Open,110,Raw,180,,,,180,Marcelo Schneider,2
 B,M,Open,110,Raw,175,,,,175,Kim Päivöke,3
@@ -619,7 +619,7 @@ D,M,Juniors 20-25,110,Raw,,,245,,245,Mitch Bellon,1
 D,M,Juniors 20-25,125,Raw,,,250,260,250,Oscar Rivero,1
 D,M,Juniors 20-25,140,Raw,,,285,,285,Walter Kupihe,1
 D,M,Juniors 20-25,140,Raw,,,,,,Donald Loew,DQ
-D,M,Law-Fire 40-47,90,Raw,,,265,,265,Jason Smith,1
+D,M,Law-Fire 40-47,90,Raw,,,265,,265,Jason Smith #1,1
 D,M,Law-Fire 40-47,100,Raw,,,182.5,,182.5,David Chadwick,2
 D,M,Law-Fire 40-47,100,Raw,,,210,,210,Nick Berriman,1
 D,M,Law-Fire 40-47,117.5,Raw,,,245,,245,Flip Silva Jr,1
@@ -637,8 +637,8 @@ D,M,Masters 47-53,82.5,Raw,,,197.5,,197.5,Jon Cunningham,2
 D,M,Masters 47-53,82.5,Raw,,,242.5,,242.5,Marchand Fleming,1
 D,M,Masters 47-53,90,Raw,,,147.5,,147.5,Nabeel Bahu,4
 D,M,Masters 47-53,90,Raw,,,192.5,,192.5,Chris Hatley,3
-D,M,Masters 47-53,90,Raw,,,227.5,,227.5,Carlos Martinez,2
-D,M,Masters 47-53,90,Raw,,,265,,265,Jason Smith,1
+D,M,Masters 47-53,90,Raw,,,227.5,,227.5,Carlos Martinez #6,2
+D,M,Masters 47-53,90,Raw,,,265,,265,Jason Smith #1,1
 D,M,Masters 47-53,110,Raw,,,260,,260,Marcelo Schneider,2
 D,M,Masters 47-53,110,Raw,,,260,,260,Matt Maini,1
 D,M,Masters 47-53,125,Raw,,,240,,240,Silvio Braga,1
@@ -725,7 +725,7 @@ BD,M,Juniors 20-25,90,Raw,170,,257.5,,427.5,Kyle Francescatti,1
 BD,M,Juniors 20-25,100,Raw,147.5,,217.5,,365,Joseph Karamatic,1
 BD,M,Juniors 20-25,110,Raw,140,,245,,385,Mitch Bellon,1
 BD,M,Juniors 20-25,140,Raw,220,,285,,505,Walter Kupihe,1
-BD,M,Law-Fire 40-47,90,Raw,165,,265,,430,Jason Smith,1
+BD,M,Law-Fire 40-47,90,Raw,165,,265,,430,Jason Smith #1,1
 BD,M,Law-Fire 40-47,100,Raw,125,,182.5,,307.5,David Chadwick,1
 BD,M,Masters 40-46,82.5,Raw,170,,237.5,,407.5,Chad Medina,1
 BD,M,Masters 40-46,100,Raw,165,,235,,400,Chris Bohenek,2
@@ -734,8 +734,8 @@ BD,M,Masters 40-46,110,Raw,175,,215,,390,Kim Päivöke,1
 BD,M,Masters 47-53,60,Raw,52.5,,120,,172.5,Gustavo Almada,1
 BD,M,Masters 47-53,82.5,Raw,155,,197.5,,352.5,Jon Cunningham,1
 BD,M,Masters 47-53,90,Raw,152.5,,192.5,,345,Chris Hatley,3
-BD,M,Masters 47-53,90,Raw,122.5,,227.5,,350,Carlos Martinez,2
-BD,M,Masters 47-53,90,Raw,165,,265,,430,Jason Smith,1
+BD,M,Masters 47-53,90,Raw,122.5,,227.5,,350,Carlos Martinez #6,2
+BD,M,Masters 47-53,90,Raw,165,,265,,430,Jason Smith #1,1
 BD,M,Masters 47-53,110,Raw,180,,260,,440,Marcelo Schneider,1
 BD,M,Masters 47-53,140+,Raw,217.5,,270,,487.5,DeWitt Martin Jr,1
 BD,M,Masters 54-60,100,Raw,102.5,,190,,292.5,Eugene Merrill,1
@@ -815,7 +815,7 @@ B,F,Open,100,Single-ply,95,,,,95,Makala Davis,1
 B,F,Open,100,Single-ply,60,,,,60,Trisha Puou,2
 B,F,Open,44,Single-ply,47.5,,,,47.5,Elizabeth Cabe,1
 B,F,Submasters 33-39,67.5,Single-ply,82.5,,,,82.5,Lynn Gilpin-Parks,1
-B,F,Submasters 33-39,82.5,Single-ply,80,,,,80,Jamie Farmer,1
+B,F,Submasters 33-39,82.5,Single-ply,80,,,,80,Jamie Farmer #1,1
 B,F,Teen 16-17,60,Single-ply,92.5,,,,92.5,Pamela Arce,1
 B,F,Teen 18-19,67.5,Single-ply,65,,,,65,Jessica Luna,1
 D,F,Class 1,48,Single-ply,,,117.5,,117.5,Jennifer Genato,1
@@ -869,7 +869,7 @@ D,F,Open,100,Single-ply,,,210,,210,Makala Davis,1
 D,F,Open,100,Single-ply,,,182.5,,182.5,Trisha Puou,2
 D,F,Open,44,Single-ply,,,147.5,,147.5,Elizabeth Cabe,1
 D,F,Submasters 33-39,67.5,Single-ply,,,192.5,,192.5,Rebekah Schmidt,1
-D,F,Submasters 33-39,82.5,Single-ply,,,147.5,,147.5,Jamie Farmer,2
+D,F,Submasters 33-39,82.5,Single-ply,,,147.5,,147.5,Jamie Farmer #1,2
 D,F,Submasters 33-39,82.5,Single-ply,,,160,,160,Jennifer Mosher,1
 D,F,Teen 16-17,90,Single-ply,,,157.5,,157.5,Jessica Luna,1
 D,F,Teen 18-19,60,Single-ply,,,145,,145,Yesenia Valdez,1
@@ -896,7 +896,7 @@ BD,F,Open,67.5,Single-ply,105,,167.5,,272.5,Beverly Anolin,1
 BD,F,Open,82.5,Single-ply,182.5,,190,,372.5,Karen Campbell,1
 BD,F,Open,44,Single-ply,47.5,,147.5,,195,Elizabeth Cabe,1
 BD,F,Open,100+,Single-ply,60,,182.5,,242.5,Trisha Puou,1
-BD,F,Submasters 33-39,82.5,Single-ply,80,,147.5,,227.5,Jamie Farmer,1
+BD,F,Submasters 33-39,82.5,Single-ply,80,,147.5,,227.5,Jamie Farmer #1,1
 BD,F,Teen 16-17,90,Single-ply,65,,157.5,,222.5,Jessica Luna,1
 B,F,Disabled 2 13-19,56,Multi-ply,47.5,,,,47.5,Delilah Burruel,1
 B,F,Juniors 20-25,90,Multi-ply,137.5,,,,137.5,Lauren Lugdon,1

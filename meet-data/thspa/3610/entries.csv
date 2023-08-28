@@ -13,7 +13,7 @@ Boys,55.79,4,Cade Dudley,Celina,54.98,106.59,83.91,117.93,308.44,Single-ply,SBD,
 Boys,55.79,5,Conner Jacobs,Whitesboro,54.88,113.4,61.23,124.74,299.37,Single-ply,SBD,M
 Boys,55.79,6,Xavier Bollin,Leonard,55.16,106.59,74.84,113.4,294.84,Single-ply,SBD,M
 Boys,55.79,7,Caleb Beal,Collinsville,52.98,104.33,54.43,117.93,276.69,Single-ply,SBD,M
-Boys,55.79,8,Daniel Ramirez,Sherman,53.98,74.84,65.77,122.47,263.08,Single-ply,SBD,M
+Boys,55.79,8,Daniel Ramirez #13,Sherman,53.98,74.84,65.77,122.47,263.08,Single-ply,SBD,M
 Boys,59.87,1,Joe Cullum,Kennedale,59.78,151.95,115.67,147.42,415.04,Single-ply,SBD,M
 Boys,59.87,2,Edwin Rodriguez,Pilot Point,58.42,147.42,81.65,170.1,399.16,Single-ply,SBD,M
 Boys,59.87,3,Josh Barlagna,Leonard,59.87,154.22,86.18,145.15,385.55,Single-ply,SBD,M
@@ -24,7 +24,7 @@ Boys,59.87,7,Victor Campusano,Krum,58.24,131.54,72.57,133.81,337.93,Single-ply,S
 Boys,59.87,8,James Duvall,Prosper,58.24,124.74,74.84,136.08,335.66,Single-ply,SBD,M
 Boys,59.87,9,Anthony Henry,Gainesville,58.33,131.54,61.23,138.35,331.12,Single-ply,SBD,M
 Boys,59.87,10,TJ Blankenship,Gainesville,58.6,120.2,56.7,145.15,322.05,Single-ply,SBD,M
-Boys,59.87,11,Hunter Smith,Lucas Lovejoy,58.79,115.67,63.5,129.27,308.44,Single-ply,SBD,M
+Boys,59.87,11,Hunter Smith #4,Lucas Lovejoy,58.79,115.67,63.5,129.27,308.44,Single-ply,SBD,M
 Boys,59.87,12,Ethan Earle,Kennedale,58.69,117.93,74.84,111.13,303.91,Single-ply,SBD,M
 Boys,59.87,13,Patrick Burleson,Lindsay,56.43,117.93,61.23,113.4,292.57,Single-ply,SBD,M
 Boys,59.87,14,Gharron Sheffield,Lucas Lovejoy,57.06,102.06,47.63,108.86,258.55,Single-ply,SBD,M
@@ -104,7 +104,7 @@ Boys,89.81,19,Alex Swartz,Krum,85.64,163.29,88.45,161.03,412.77,Single-ply,SBD,M
 Boys,89.81,20,Gabe Rivera,Bells,86,142.88,92.99,176.9,412.77,Single-ply,SBD,M
 Boys,89.81,21,William Worley,Krum,82.64,142.88,88.45,167.83,399.16,Single-ply,SBD,M
 Boys,89.81,22,Brady Knabe,Collinsville,83.64,158.76,86.18,149.69,394.63,Single-ply,SBD,M
-Boys,89.81,23,Billy Watson,Leonard,88.99,147.42,77.11,156.49,381.02,Single-ply,SBD,M
+Boys,89.81,23,Billy Watson #2,Leonard,88.99,147.42,77.11,156.49,381.02,Single-ply,SBD,M
 Boys,89.81,24,Josh Phillips,Bonham,89.54,147.42,95.25,136.08,378.75,Single-ply,SBD,M
 Boys,89.81,25,Hoaky DeAnda,Callisburg,87.45,113.4,65.77,133.81,312.98,Single-ply,SBD,M
 Boys,89.81,DQ,Tyler Howe,Callisburg,84.73,147.42,,,,Single-ply,SBD,M
@@ -113,7 +113,7 @@ Boys,89.81,DQ,Ethan Ellis,Denison,89.81,208.65,,,,Single-ply,SBD,M
 Boys,99.79,1,Malyk Newsome,Everman,98.88,272.16,142.88,260.82,675.85,Single-ply,SBD,M
 Boys,99.79,2,Yovanni Juarez,Gainesville,92.8,276.69,163.29,208.65,648.64,Single-ply,SBD,M
 Boys,99.79,3,Devin Miller,Gainesville,95.35,231.33,185.97,204.12,621.42,Single-ply,SBD,M
-Boys,99.79,4,Erik Gonzalez,Valley View,99.79,244.94,149.69,210.92,605.55,Single-ply,SBD,M
+Boys,99.79,4,Erik Gonzalez #2,Valley View,99.79,244.94,149.69,210.92,605.55,Single-ply,SBD,M
 Boys,99.79,5,Brandon Kiernan,Kennedale,89.9,213.19,142.88,201.85,557.92,Single-ply,SBD,M
 Boys,99.79,6,Brendon Kirk,Callisburg,97.52,217.72,124.74,210.92,553.38,Single-ply,SBD,M
 Boys,99.79,7,David Fielder,Kennedale,99.25,197.31,106.59,183.7,487.61,Single-ply,SBD,M
@@ -127,7 +127,7 @@ Boys,99.79,14,Brandon Fangman,Pilot Point,97.43,165.56,124.74,142.88,433.18,Sing
 Boys,99.79,15,Worth Lacey,Bonham,96.8,151.95,95.25,151.95,399.16,Single-ply,SBD,M
 Boys,99.79,DQ,Issac Copley,Krum,96.98,,,,,Single-ply,SBD,M
 Boys,99.79,DQ,Christian Renteria,Callisburg,99.79,,,,,Single-ply,SBD,M
-Boys,99.79,DQ,Jose Garcia,Everman,97.61,,,,,Single-ply,SBD,M
+Boys,99.79,DQ,Jose Garcia #7,Everman,97.61,,,,,Single-ply,SBD,M
 Boys,109.77,1,Cameron Hanna,Kennedale,101.6,276.69,131.54,247.21,655.44,Single-ply,SBD,M
 Boys,109.77,2,Drew Williams,Denison,108.95,265.35,161.03,217.72,644.1,Single-ply,SBD,M
 Boys,109.77,3,Izaiah Olalde,Everman,108.41,249.48,151.95,215.46,616.89,Single-ply,SBD,M
@@ -164,7 +164,7 @@ Boys,124.74+,1,Tekarius Walton,Sherman,141.79,244.94,158.76,244.94,648.64,Single
 Boys,124.74+,2,D'Marrya Searcy,Everman,144.42,242.67,138.35,226.8,607.81,Single-ply,SBD,M
 Boys,124.74+,3,Tyler Smith #2,Sherman,140.61,231.33,122.47,244.94,598.74,Single-ply,SBD,M
 Boys,124.74+,4,Jamal Marshall,Kennedale,140.16,238.14,151.95,204.12,594.21,Single-ply,SBD,M
-Boys,124.74+,5,Chris Wilson,Bonham,163.75,215.46,156.49,222.26,594.21,Single-ply,SBD,M
+Boys,124.74+,5,Chris Wilson #2,Bonham,163.75,215.46,156.49,222.26,594.21,Single-ply,SBD,M
 Boys,124.74+,6,Addison Crockett,Valley View,126.1,226.8,142.88,219.99,589.67,Single-ply,SBD,M
 Boys,124.74+,7,Aaron Prideaux,Prosper,142.61,238.14,149.69,185.97,573.79,Single-ply,SBD,M
 Boys,124.74+,8,Chris Tobar,Sherman,132.18,229.06,140.61,199.58,569.26,Single-ply,SBD,M

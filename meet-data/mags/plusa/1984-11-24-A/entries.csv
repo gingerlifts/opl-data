@@ -1,5 +1,5 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Event,Equipment
-Joe Robinson #1,52,Teen,M,145.15,68.04,142.88,356.07,1,SBD,Single-ply
+Joe Robinson #7,52,Teen,M,145.15,68.04,142.88,356.07,1,SBD,Single-ply
 Henry Garcia #1,52,Teen,M,102.06,61.24,136.08,299.37,2,SBD,Single-ply
 Kevin Sumner,60,Teen,M,136.08,90.72,188.24,415.04,1,SBD,Single-ply
 Lyn Lowman,67.5,Teen,M,163.29,102.06,188.24,453.59,1,SBD,Single-ply
@@ -18,7 +18,7 @@ Harvey Coney,67.5,Collegiate,M,217.72,108.86,226.8,553.38,3,SBD,Single-ply
 Randy Heller,90,Collegiate,M,249.48,149.69,254.01,653.17,4,SBD,Single-ply
 Jeff Gaskin,82.5,Collegiate,M,215.46,138.35,240.4,594.21,5,SBD,Single-ply
 Travis Hollaway,90,Collegiate,M,204.12,111.13,208.65,523.9,6,SBD,Single-ply
-John McDonald,90,Collegiate,M,65.77,90.72,158.76,315.25,7,SBD,Single-ply
+John McDonald #3,90,Collegiate,M,65.77,90.72,158.76,315.25,7,SBD,Single-ply
 Steve Colohan,90,Collegiate,M,215.46,,,,DQ,SBD,Single-ply
 Jim Davis,100,Collegiate,M,235.87,181.44,256.28,673.59,1,SBD,Single-ply
 Mike Detrino,90+,Collegiate,M,272.16,170.1,254.01,696.27,2,SBD,Single-ply
@@ -37,7 +37,7 @@ Ken Panzella,75,Open,M,,,,,DQ,B,Raw
 Sid Jonn,82.5,Open,M,,201.85,,201.85,1,B,Raw
 Alvin Yearby,82.5,Open,M,,183.71,,183.71,2,B,Raw
 Steve Odun,82.5,Open,M,,170.1,,170.1,3,B,Raw
-Keith Thompson,82.5,Open,M,,158.76,,158.76,4,B,Raw
+Keith Thompson #5,82.5,Open,M,,158.76,,158.76,4,B,Raw
 Paul Dicks,100,Open,M,,254.01,,254.01,1,B,Raw
 Steve Nimmons,100,Open,M,,233.6,,233.6,2,B,Raw
 John Holmes,100,Open,M,,199.58,,199.58,3,B,Raw
@@ -51,7 +51,7 @@ Shawn Decgan,110,Open,M,,192.78,,192.78,4,B,Raw
 Mike O'Bryan,125,Open,M,,217.72,,217.72,1,B,Raw
 William Forbes,125,Open,M,,181.44,,181.44,2,B,Raw
 Charles Lockard,52,Open,M,113.4,63.5,151.95,328.85,1,SBD,Single-ply
-Robert Allen,56,Open,M,136.08,120.2,176.9,433.18,1,SBD,Single-ply
+Robert Allen #1,56,Open,M,136.08,120.2,176.9,433.18,1,SBD,Single-ply
 R. McKnight,60,Open,M,104.33,92.99,163.29,360.61,1,SBD,Single-ply
 Harvey Coney,67.5,Open,M,217.72,108.86,226.8,553.38,1,SBD,Single-ply
 Dan Thompson #2,75,Open,M,254.01,167.83,254.01,675.85,1,SBD,Single-ply
@@ -60,7 +60,7 @@ Mike Bomar,75,Open,M,226.8,136.08,249.48,612.35,3,SBD,Single-ply
 Ken Panzella,75,Open,M,217.72,,,,DQ,SBD,Single-ply
 Alvin Yearby,82.5,Open,M,272.16,183.71,254.01,709.87,1,SBD,Single-ply
 Tee Meyers,82.5,Open,M,231.33,140.61,272.16,644.1,2,SBD,Single-ply
-Ritchie Ludy,82.5,Open,M,247.21,163.29,229.06,639.57,3,SBD,Single-ply
+Rich Ludy,82.5,Open,M,247.21,163.29,229.06,639.57,3,SBD,Single-ply
 Steve Odum,82.5,Open,M,210.92,170.1,222.26,603.28,4,SBD,Single-ply
 Sid Jones,82.5,Open,M,61.24,201.85,70.31,333.39,5,SBD,Single-ply
 Curtis Leslie,90,Open,M,303.91,188.24,294.84,786.98,1,SBD,Single-ply
@@ -79,7 +79,7 @@ Tom King,125,Open,M,312.98,195.04,285.76,793.79,2,SBD,Single-ply
 Jim Schulze,125,Open,M,294.84,201.85,290.3,786.98,3,SBD,Single-ply
 William Forbes,125,Open,M,283.5,181.44,283.5,748.43,4,SBD,Single-ply
 Mike O'Bryan,125,Open,M,,,,,DQ,SBD,Single-ply
-Joe Robinson #1,52,Class II,M,145.15,68.04,142.88,356.07,1,SBD,Single-ply
+Joe Robinson #7,52,Class II,M,145.15,68.04,142.88,356.07,1,SBD,Single-ply
 Henry Garcia #1,52,Class II,M,102.06,61.24,136.08,299.37,2,SBD,Single-ply
 Tater Hester,52,Class II,M,61.24,40.82,79.38,181.44,3,SBD,Single-ply
 R. McKnight,60,Class II,M,104.33,92.99,163.29,360.61,1,SBD,Single-ply
@@ -90,14 +90,14 @@ Jim Jordan,75,Class II,M,151.95,88.45,181.44,421.84,2,SBD,Single-ply
 Fred Revell,82.5,Class II,M,249.48,161.03,235.87,646.37,1,SBD,Single-ply
 Jeff Gaskins,82.5,Class II,M,215.46,138.35,240.4,594.21,2,SBD,Single-ply
 Phil Roper,82.5,Class II,M,244.94,117.93,226.8,589.67,3,SBD,Single-ply
-David Brown,82.5,Class II,M,204.12,102.06,263.08,569.26,4,SBD,Single-ply
+David Brown #21,82.5,Class II,M,204.12,102.06,263.08,569.26,4,SBD,Single-ply
 Chas Eddins,82.5,Class II,M,199.58,122.47,240.4,562.46,5,SBD,Single-ply
 Rick Bussey,82.5,Class II,M,183.71,133.81,231.33,548.85,6,SBD,Single-ply
 Don Campbell,82.5,Class II,M,176.9,122.47,185.97,485.34,7,SBD,Single-ply
 Dean Dorsey,82.5,Class II,M,172.37,115.67,188.24,476.27,8,SBD,Single-ply
 R. Thomas #8,90,Class II,M,238.14,165.56,290.3,694,1,SBD,Single-ply
 Tatum Coleman,90,Class II,M,272.16,174.63,235.87,682.66,2,SBD,Single-ply
-Ricard McClain,90,Class II,M,254.01,142.88,258.55,655.44,3,SBD,Single-ply
+Richard McClain,90,Class II,M,254.01,142.88,258.55,655.44,3,SBD,Single-ply
 John Dennis,90,Class II,M,238.14,145.15,272.16,655.44,4,SBD,Single-ply
 Stan Conway,90,Class II,M,258.55,163.29,217.72,639.57,5,SBD,Single-ply
 Jack Price,90,Class II,M,219.99,165.56,235.87,621.42,6,SBD,Single-ply

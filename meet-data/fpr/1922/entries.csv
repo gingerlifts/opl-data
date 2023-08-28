@@ -29,7 +29,7 @@ DQ,Ekaterina Lebedeva,Екатерина Лебедева,1994,52,Open,F,51.56,9
 1,Angelina Teslya,Ангелина Тесля,1996,84,Open,F,83.05,130,60,140,330,SBD,Raw
 2,Mariya Khristenko,Мария Христенко,1997,84,Open,F,72.3,117.5,85,102.5,305,SBD,Raw
 3,Kseniya Tsvetkova,Ксения Цветкова,1995,84,Open,F,78.5,100,57.5,115,272.5,SBD,Raw
-1,Lyudmila Protchenko,Людмила Протченко,1986,84+,Open,F,89.6,175,153,155,483,SBD,Raw
+1,Liudmila Protchenko,Людмила Протченко,1986,84+,Open,F,89.6,175,153,155,483,SBD,Raw
 2,Elena Fadeeva,Елена Фадеева,1976,84+,Open,F,108.55,125,72.5,132.5,330,SBD,Raw
 1,Vladislav Kireev,Владислав Киреев,1997,59,Open,M,59,175,115,180,470,SBD,Raw
 2,Maksim Borovoy,Максим Боровой,1997,59,Open,M,58.38,152.5,85,160,397.5,SBD,Raw
@@ -43,7 +43,7 @@ DQ,Ekaterina Lebedeva,Екатерина Лебедева,1994,52,Open,F,51.56,9
 1,Andrey Kostenko,Андрей Костенко,1988,74,Open,M,73.5,247.5,152.5,281,681,SBD,Raw
 2,Sergey Pivnik,Сергей Пивник,1988,74,Open,M,73.05,205,125,267.5,597.5,SBD,Raw
 3,Sergey Khon,Сергей Хон,1992,74,Open,M,73.55,200,150,220,570,SBD,Raw
-4,Aleksey Popov,Алексей Попов,1999,74,Open,M,72.25,200,127.5,232.5,560,SBD,Raw
+4,Aleksey Popov #8,Алексей Попов,1999,74,Open,M,72.25,200,127.5,232.5,560,SBD,Raw
 5,Maksim Dunichev,Максим Дуничев,1996,74,Open,M,73.65,190,155,215,560,SBD,Raw
 6,Mikhail Oporkov,Михаил Опорков,1985,74,Open,M,73.4,190,120,220,530,SBD,Raw
 7,Denis Zalozniy,Денис Залозний,1986,74,Open,M,70.3,190,115,215,520,SBD,Raw
@@ -67,9 +67,9 @@ DQ,Pavel Udarov,Павел Ударов,1978,74,Open,M,73.6,170,90,-175,,SBD,Raw
 4,Nikita Bakuntsev,Никита Бакунцев,1996,83,Open,M,82.5,215,170,250,635,SBD,Raw
 5,Aleksey Lupulenko,Алексей Лупуленко,1987,83,Open,M,81.9,227.5,140,255,622.5,SBD,Raw
 6,Aleksey Drobikov,Алексей Дробиков,1987,83,Open,M,82.95,205,147.5,262.5,615,SBD,Raw
-7,Ivan Protsenko,Иван Проценко,1987,83,Open,M,78.95,215,172.5,222.5,610,SBD,Raw
+7,Ivan Protsenko #1,Иван Проценко,1987,83,Open,M,78.95,215,172.5,222.5,610,SBD,Raw
 8,Aleksey Pogodin,Алексей Погодин,1998,83,Open,M,83,220,155,235,610,SBD,Raw
-9,Artem Zaytsev,Артем Зайцев,1985,83,Open,M,80.45,215,130,260,605,SBD,Raw
+9,Artyom Zaytsev,Артём Зайцев,1985,83,Open,M,80.45,215,130,260,605,SBD,Raw
 10,Vladimir Yakovlev,Владимир Яковлев,1986,83,Open,M,80.6,200,150,250,600,SBD,Raw
 11,Igor Putilo,Игорь Путило,1986,83,Open,M,82.8,205,175,220,600,SBD,Raw
 12,Danil Alekseev,Данил Алексеев,1988,83,Open,M,81.75,210,165,220,595,SBD,Raw
@@ -124,7 +124,7 @@ DQ,Yuriy Tikhov,Юрий Тихов,1983,93,Open,M,92.35,227.5,167.5,-265,,SBD,R
 4,Dzhalil Eyvazov,Джалил Эйвазов,1993,105,Open,M,101.3,260,160,285,705,SBD,Raw
 5,Artur Bayron,Артур Байрон,1989,105,Open,M,104.55,235,170,272.5,677.5,SBD,Raw
 6,Roman Levchuk,Роман Левчук,1988,105,Open,M,103.5,240,150,270,660,SBD,Raw
-7,Oleg Ivanov,Олег Іванов,1981,105,Open,M,104.55,220,162.5,265,647.5,SBD,Raw
+7,Oleg Ivanov #8,Олег Иванов,1981,105,Open,M,104.55,220,162.5,265,647.5,SBD,Raw
 8,Mikhail Usov,Михаил Усов,1980,105,Open,M,103.7,240,165,240,645,SBD,Raw
 9,Denis Kallonen,Денис Каллонен,1979,105,Open,M,102.8,235,155,250,640,SBD,Raw
 10,Ivan Sazonov,Иван Сазонов,1989,105,Open,M,101.65,250,135,250,635,SBD,Raw
@@ -145,7 +145,7 @@ DQ,Igor Tugolukov,Игорь Туголуков,1989,105,Open,M,104.3,230,160,-2
 3,Aleksandr Tishov,Александр Тишов,1981,120,Open,M,107.35,260,190,300,750,SBD,Raw
 4,Aleksey Ushakov,Алексей Ушаков,1987,120,Open,M,117.85,255,185,280,720,SBD,Raw
 5,Andrey Smirnov,Андрей Смирнов,1993,120,Open,M,117.1,270,172.5,265,707.5,SBD,Raw
-6,Dmitriy Ivanov,Дмитрий Иванов,1992,120,Open,M,115.85,240,190,255,685,SBD,Raw
+6,Dmitriy Ivanov #14,Дмитрий Иванов,1992,120,Open,M,115.85,240,190,255,685,SBD,Raw
 7,Maksim Tsvetkov,Максим Цветков,1994,120,Open,M,110.95,232.5,180,270,682.5,SBD,Raw
 8,Nikita Efremov,Никита Ефремов,1993,120,Open,M,117.45,250,185,240,675,SBD,Raw
 9,Aleksandr Karpov,Александр Карпов,1982,120,Open,M,118.15,227.5,195,250,672.5,SBD,Raw
@@ -157,8 +157,8 @@ DQ,Dmitriy Osipov,Дмитрий Осипов,1990,120,Open,M,109.9,190,,,,SBD,R
 3,Sergey Doronin,Сергей Доронин,1986,120+,Open,M,140.6,245,195,250,690,SBD,Raw
 4,Maksim Bochkin,Максим Бочкин,1976,120+,Open,M,127.5,245,162.5,265,672.5,SBD,Raw
 5,Nikolay Plotnikov,Николай Плотников,1985,120+,Open,M,136.25,232.5,165,275,672.5,SBD,Raw
-6,Sergey Kuznetsov,Сергей Кузнецов,1985,120+,Open,M,123.6,225,180,260,665,SBD,Raw
-7,Dmitriy Kozlov,Дмитрий Козлов,1981,120+,Open,M,169.6,260,185,220,665,SBD,Raw
+6,Sergey Kuznetsov #5,Сергей Кузнецов,1985,120+,Open,M,123.6,225,180,260,665,SBD,Raw
+7,Dmitriy Kozlov #1,Дмитрий Козлов,1981,120+,Open,M,169.6,260,185,220,665,SBD,Raw
 1,Diana Petrova,Диана Петрова,2004,43,Sub-Juniors,F,42.54,55.5,35,80.5,171,SBD,Raw
 2,Olesya Vasileva,Олеся Васильева,2004,43,Sub-Juniors,F,42.72,47.5,37.5,55,140,SBD,Raw
 1,Ulyana Voytovich,Ульяна Войтович,2001,47,Sub-Juniors,F,46.1,80,45,92.5,217.5,SBD,Raw
@@ -208,7 +208,7 @@ DQ,Dmitriy Osipov,Дмитрий Осипов,1990,120,Open,M,109.9,190,,,,SBD,R
 1,Aleksey Naumov,Алексей Наумов,2005,53,Youth,M,52.48,65,50,100,215,SBD,Raw
 1,Egor Makaev,Егор Макаев,2004,59,Youth,M,58.22,80,55,110,245,SBD,Raw
 1,Anton Minichev,Антон Миничев,2003,66,Youth,M,63.75,105,90,122.5,317.5,SBD,Raw
-2,Vladimir Zakharov,Владимир Захаров,2004,66,Youth,M,60.95,97.5,67.5,145,310,SBD,Raw
+2,Vladimir Zakharov #2,Владимир Захаров,2004,66,Youth,M,60.95,97.5,67.5,145,310,SBD,Raw
 3,Daniil Danilov,Даниил Данилов,2005,66,Youth,M,64.15,105,72.5,130,307.5,SBD,Raw
 4,Timofey Arsenev,Тимофей Арсеньев,2003,66,Youth,M,65.6,95,85,127.5,307.5,SBD,Raw
 5,Nikita Panev,Никита Панев,2004,66,Youth,M,64.75,75,70,140,285,SBD,Raw
@@ -257,7 +257,7 @@ DQ,Borislav Babach,Борислав Бабач,2003,83,Youth,M,79.7,120,-80,,,SB
 2,Sergey Vertiev,Сергей Вертиев,2002,93,Sub-Juniors,M,91.5,140,95,170,405,SBD,Raw
 1,Demid Efimenko,Демид Ефименко,2001,105,Sub-Juniors,M,97.8,190,130,240,560,SBD,Raw
 2,Dzhabbar Gadzhiev,Джаббар Гаджиев,2001,105,Sub-Juniors,M,93.8,140,135,235,510,SBD,Raw
-3,Vladislav Vershinin,Владислав Вершинін,2001,105,Sub-Juniors,M,98.2,200,125,165,490,SBD,Raw
+3,Vladislav Vershinin #3,Владислав Вершинин,2001,105,Sub-Juniors,M,98.2,200,125,165,490,SBD,Raw
 1,Ilya Kondrashov,Илья Кондрашов,2001,120,Sub-Juniors,M,109.75,200,135,222.5,557.5,SBD,Raw
 2,Vladislav Brusov,Владислав Брусов,2002,120,Sub-Juniors,M,114.95,155,115,160,430,SBD,Raw
 1,Aleksandr Kolyadin,Александр Колядин,2002,120+,Sub-Juniors,M,157,170,110,195,475,SBD,Raw
@@ -281,7 +281,7 @@ DQ,Timofey Belous,Тимофей Белоус,2001,66,Juniors,M,65.8,-135,,,,SBD
 13,Aleksandr Demeshchenko,Александр Демещенко,1997,74,Juniors,M,69.6,135,92.5,160,387.5,SBD,Raw
 14,Mikhail Tsygankov,Михаил Цыганков,1996,74,Juniors,M,71.35,110,82.5,140,332.5,SBD,Raw
 DQ,Kirill Raldugin,Кирилл Ралдугин,1999,74,Juniors,M,73.05,140,-105,190,,SBD,Raw
-1,Aleksey Vasilev,Алексей Васильев,1997,83,Juniors,M,82.7,195,157.5,250,602.5,SBD,Raw
+1,Aleksey Vasilev #11,Алексей Васильев,1997,83,Juniors,M,82.7,195,157.5,250,602.5,SBD,Raw
 2,Nikita Markov,Никита Марков,1997,83,Juniors,M,79.85,195,160,245,600,SBD,Raw
 3,Vladislav Gaydar,Владислав Гайдар,1996,83,Juniors,M,82.3,190,132.5,205,527.5,SBD,Raw
 4,Mikhail Gredyakin,Михаил Гредякин,1997,83,Juniors,M,82.5,182.5,125,205,512.5,SBD,Raw
@@ -316,7 +316,7 @@ NS,Igor Fadeev,Игорь Фадеев,1996,120,Juniors,M,,,,,,SBD,Raw
 1,Aleksey Tsyrenshchikov,Алексей Цыренщиков,1996,120+,Juniors,M,133.5,310,225,270,805,SBD,Raw
 1,Sergey Rudenko,Сергей Руденко,1979,74,Masters 1,M,72,125,92.5,140,357.5,SBD,Raw
 1,Anton Spitsyn,Антон Спицын,1975,83,Masters 1,M,81.55,225,150,255,630,SBD,Raw
-2,Aleksandr Popov,Александр Попов,1978,83,Masters 1,M,81.2,130,100,170,400,SBD,Raw
+2,Aleksandr Popov #27,Александр Попов,1978,83,Masters 1,M,81.2,130,100,170,400,SBD,Raw
 1,Roman Kornev,Роман Корнев,1971,93,Masters 1,M,92.75,220,170,257.5,647.5,SBD,Raw
 2,Valeriy Mikhaylov,Валерий Михайлов,1978,93,Masters 1,M,92.95,230,160,230,620,SBD,Raw
 DQ,Dmitriy Zaychenko,Дмитрий Зайченко,1970,93,Masters 1,M,85.65,195,,,,SBD,Raw

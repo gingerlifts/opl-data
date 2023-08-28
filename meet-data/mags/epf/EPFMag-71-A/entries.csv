@@ -1,13 +1,13 @@
 WeightClassKg,Place,Name,BirthYear,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Division,Sex
 52,1,Serge Minquoy,1943,France,51.2,140,92.5,160,392.5,SBD,Single-ply,M-E-M1,M
-56,1,Robert Price,1947,UK,54.7,150,95,190,435,SBD,Single-ply,M-E-M1,M
+56,1,Robert Price #3,1947,UK,54.7,150,95,190,435,SBD,Single-ply,M-E-M1,M
 56,2,Paavo Peräsalo,1947,Finland,55.9,142.5,90,160,392.5,SBD,Single-ply,M-E-M1,M
 60,1,Kullervo Lampela,1944,Finland,59.7,190,112.5,227.5,530,SBD,Single-ply,M-E-M1,M
 60,2,Manfred Offergeld,1944,Germany,59.9,162.5,100,207.5,470,SBD,Single-ply,M-E-M1,M
 60,DQ,Tim Connere,1947,Ireland,60,,,,,SBD,Single-ply,M-E-M1,M
 67.5,1,Mats Johansson,1945,Sweden,66.9,225,130,250,605,SBD,Single-ply,M-E-M1,M
 67.5,2,Mauri Lappalainen,1941,Finland,67.3,235,110,257.5,602.5,SBD,Single-ply,M-E-M1,M
-67.5,3,Malcolm Brainbridge,1944,UK,67,215,122.5,245,582.5,SBD,Single-ply,M-E-M1,M
+67.5,3,Malcolm Bainbridge,1944,UK,67,215,122.5,245,582.5,SBD,Single-ply,M-E-M1,M
 67.5,4,Bjørn Andreas Holmsen,1943,Norway,67.2,217.5,87.5,265,570,SBD,Single-ply,M-E-M1,M
 67.5,5,Marcel Julien,1944,France,66.8,215,130,222.5,567.5,SBD,Single-ply,M-E-M1,M
 67.5,6,Daniel Reybrouck,1942,Belgium,67.4,190,120,190,500,SBD,Single-ply,M-E-M1,M
@@ -41,7 +41,7 @@ WeightClassKg,Place,Name,BirthYear,Country,BodyweightKg,Best3SquatKg,Best3BenchK
 90,9,Terry Flood,1943,Ireland,87.4,180,132.5,220,532.5,SBD,Single-ply,M-E-M1,M
 90,10,Sean Caniffe,1947,Ireland,84.7,200,100,220,520,SBD,Single-ply,M-E-M1,M
 100,1,Ralph Farquharson,1944,UK,99.8,290,192.5,307.5,790,SBD,Single-ply,M-E-M1,M
-100,2,Manfred Grossmann,1942,Germany,99.1,325,175,287.5,787.5,SBD,Single-ply,M-E-M1,M
+100,2,Manfred Grossman,1942,Germany,99.1,325,175,287.5,787.5,SBD,Single-ply,M-E-M1,M
 100,3,John Biddulph,1941,UK,97.2,275,167.5,322.5,765,SBD,Single-ply,M-E-M1,M
 100,4,Adolf Ditschmann,1945,Germany,98.9,290,165,307.5,762.5,SBD,Single-ply,M-E-M1,M
 100,5,Bernard Boyer,1946,France,99,255,152.5,307.5,715,SBD,Single-ply,M-E-M1,M
@@ -49,7 +49,7 @@ WeightClassKg,Place,Name,BirthYear,Country,BodyweightKg,Best3SquatKg,Best3BenchK
 100,7,Matti Aunula,1941,Finland,99.5,262.5,150,255,667.5,SBD,Single-ply,M-E-M1,M
 110,1,David Hancock,1945,UK,108.1,280,180,320,780,SBD,Single-ply,M-E-M1,M
 110,2,Ferry van der Meulen,1947,Netherlands,107.4,297.5,185,287.5,770,SBD,Single-ply,M-E-M1,M
-110,3,Manfred Buttner,1944,Germany,106.1,290,185,290,765,SBD,Single-ply,M-E-M1,M
+110,3,Manfred Büttner,1944,Germany,106.1,290,185,290,765,SBD,Single-ply,M-E-M1,M
 110,4,Gerd Herrmann,1943,Germany,109.5,285,160,285,730,SBD,Single-ply,M-E-M1,M
 110,5,Henk Keizer,1946,Netherlands,103,300,160,265,725,SBD,Single-ply,M-E-M1,M
 110,6,Aloysius Moonen,1947,Belgium,108.1,260,162.5,267.5,690,SBD,Single-ply,M-E-M1,M
@@ -67,7 +67,7 @@ WeightClassKg,Place,Name,BirthYear,Country,BodyweightKg,Best3SquatKg,Best3BenchK
 56,2,John McNiven,1935,UK,55.7,157.5,87.5,192.5,437.5,SBD,Single-ply,M-E-M2,M
 56,3,Martti Ruini,1938,Finland,55.2,150,82.5,180,412.5,SBD,Single-ply,M-E-M2,M
 56,4,Sulo Luiro,1935,Finland,55.4,125,85,170,380,SBD,Single-ply,M-E-M2,M
-60,1,Roger Powell,1936,UK,59.2,182.5,97.5,215,495,SBD,Single-ply,M-E-M2,M
+60,1,Roger Powell #1,1936,UK,59.2,182.5,97.5,215,495,SBD,Single-ply,M-E-M2,M
 60,2,Marcel Nivault,1933,France,59.5,162.5,62.5,195,420,SBD,Single-ply,M-E-M2,M
 60,3,Juho Valkjervi,1931,Finland,59.8,140,80,200,420,SBD,Single-ply,M-E-M2,M
 60,4,Harry Andersen,1917,Norway,59.7,120,60,160,340,SBD,Single-ply,M-E-M2,M
@@ -86,7 +86,7 @@ WeightClassKg,Place,Name,BirthYear,Country,BodyweightKg,Best3SquatKg,Best3BenchK
 82.5,1,Kjell Skybak,1929,Norway,79.1,220,127.5,255,602.5,SBD,Single-ply,M-E-M2,M
 82.5,2,Alfred Summers,1936,UK,82.5,220,132.5,237.5,590,SBD,Single-ply,M-E-M2,M
 82.5,3,Leevi Pehkoranta,1937,Finland,80.7,200,115,240,555,SBD,Single-ply,M-E-M2,M
-82.5,4,David Jones,1933,UK,81.5,180,92.5,260,532.5,SBD,Single-ply,M-E-M2,M
+82.5,4,David Jones #4,1933,UK,81.5,180,92.5,260,532.5,SBD,Single-ply,M-E-M2,M
 82.5,5,Karlhei Sebastian,1936,UK,80.8,180,130,190,500,SBD,Single-ply,M-E-M2,M
 82.5,6,Paul Mack,1927,Germany,78.3,185,85,215,485,SBD,Single-ply,M-E-M2,M
 82.5,7,Ricardo Cross,1930,Spain,80.6,160,110,190,460,SBD,Single-ply,M-E-M2,M
@@ -94,7 +94,7 @@ WeightClassKg,Place,Name,BirthYear,Country,BodyweightKg,Best3SquatKg,Best3BenchK
 82.5,DQ,François Chazelle,1938,France,81.8,195,,,,SBD,Single-ply,M-E-M2,M
 90,1,Veli Kumpuniemi,1934,Finland,89.1,232.5,152.5,270,655,SBD,Single-ply,M-E-M2,M
 90,2,Thomas Fertl,1936,Germany,88.3,215,155,250,620,SBD,Single-ply,M-E-M2,M
-90,3,Keith Clark,1931,UK,88.4,225,137.5,240,602.5,SBD,Single-ply,M-E-M2,M
+90,3,Keith Clark #3,1931,UK,88.4,225,137.5,240,602.5,SBD,Single-ply,M-E-M2,M
 90,4,Harry van Loon,1932,Netherlands,87.3,230,120,240,590,SBD,Single-ply,M-E-M2,M
 90,5,Edward Cooper,1937,UK,89.7,220,125,237.5,582.5,SBD,Single-ply,M-E-M2,M
 90,6,Klaus Zander,1935,France,88.8,205,155,220,580,SBD,Single-ply,M-E-M2,M

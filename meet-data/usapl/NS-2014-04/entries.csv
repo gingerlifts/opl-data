@@ -34,7 +34,7 @@ DQ,F,Sumer Khachab,SBD,FR-O,72,Raw,65.8,,,,,
 1,M,Kurt Flor,D,MR-O,74,Raw,73.9,,,252.5,252.5,1983
 2,M,John Burke,D,MR-O,74,Raw,67.4,,,197.5,197.5,1987
 1,M,Phillip Wilkerson III,D,MR-O,83,Raw,81.8,,,252.5,252.5,
-2,M,Michael Shaffer,D,MR-O,83,Raw,80.2,,,227.5,227.5,1989
+2,M,Mike Shaffer,D,MR-O,83,Raw,80.2,,,227.5,227.5,1989
 1,M,Mike Hedlesky,D,MR-O,120,Raw,112.8,,,340,340,
 1,M,Michael Bennett,D,M-M2a,105,Single-ply,101.5,,,292.5,292.5,1961
 1,M,David Cooper #3,D,MR-M1b,120,Raw,118.5,,,330,330,1969
@@ -63,7 +63,7 @@ DQ,F,Sumer Khachab,SBD,FR-O,72,Raw,65.8,,,,,
 1,M,Gabriel Maglaqui,SBD,MR-Y,59,Raw,58.2,95,50,95,240,2001
 1,M,Samuel Gerstner,SBD,MR-Y,66,Raw,65,132.5,77.5,140,350,2002
 1,M,Andrew Jiang,SBD,MR-Y,74,Raw,67.2,95,60,115,270,2001
-1,M,Brandon Gardner,SBD,MR-Jr,66,Raw,64.3,160,100,182.5,442.5,1989
+1,M,Brandon Gardner #4,SBD,MR-Jr,66,Raw,64.3,160,100,182.5,442.5,1989
 2,M,Jeffrey Eng,SBD,MR-Jr,66,Raw,63.9,152.5,102.5,165,420,1991
 3,M,Da Ha,SBD,MR-Jr,66,Raw,65.9,150,80,150,380,1994
 1,M,Ethan Hetzler,SBD,MR-Jr,74,Raw,73.2,185,125,225,535,1992
@@ -79,13 +79,13 @@ DQ,F,Sumer Khachab,SBD,FR-O,72,Raw,65.8,,,,,
 7,M,Andrew Billek,SBD,MR-Jr,83,Raw,78.7,132.5,97.5,192.5,422.5,1993
 1,M,Gregory Phelps,SBD,MR-Jr,93,Raw,86.9,222.5,137.5,275,635,1993
 2,M,Nat Margolis,SBD,MR-Jr,93,Raw,88,192.5,132.5,237.5,562.5,
-3,M,Andrew Brown,SBD,MR-Jr,93,Raw,85.5,182.5,147.5,227.5,557.5,1986
+3,M,Andrew Brown #14,SBD,MR-Jr,93,Raw,85.5,182.5,147.5,227.5,557.5,1986
 4,M,Sean Kelley,SBD,MR-Jr,93,Raw,87.4,192.5,120,240,552.5,1994
 5,M,AJ Swedick,SBD,MR-Jr,93,Raw,88.8,210,130,210,550,1991
 6,M,Brian Crahan,SBD,MR-Jr,93,Raw,87.4,160,115,185,460,1992
 7,M,JV Kirkland,SBD,MR-Jr,93,Raw,85.8,140,92.5,167.5,400,
 1,M,Joe Hardy,SBD,MR-Jr,105,Raw,97.8,295,215,320,830,1991
-2,M,Michael Taylor,SBD,MR-Jr,105,Raw,98.4,242.5,150,262.5,655,1988
+2,M,Michael Taylor #11,SBD,MR-Jr,105,Raw,98.4,242.5,150,262.5,655,1988
 3,M,Ryan Connolly,SBD,MR-Jr,105,Raw,98.6,205,130,272.5,607.5,1992
 4,M,Sam Caivano,SBD,MR-Jr,105,Raw,99.7,205,152.5,182.5,540,1993
 1,M,Sean O'Brien,SBD,MR-Jr,120,Raw,107.8,242.5,177.5,265,685,1991
@@ -115,7 +115,7 @@ DQ,F,Sumer Khachab,SBD,FR-O,72,Raw,65.8,,,,,
 10,M,Maxim Brown,SBD,MR-O,83,Raw,74.6,170,117.5,220,507.5,1985
 11,M,Sean Collins,SBD,MR-O,83,Raw,77.4,190,112.5,192.5,495,1987
 12,M,Travis Alanskas,SBD,MR-O,83,Raw,74.2,175,112.5,200,487.5,1987
-13,M,Ryan Wood,SBD,MR-O,83,Raw,81.1,177.5,127.5,172.5,477.5,1993
+13,M,Ryan Wood #1,SBD,MR-O,83,Raw,81.1,177.5,127.5,172.5,477.5,1987
 14,M,Hrvoto Landeka,SBD,MR-O,83,Raw,75.9,142.5,120,197.5,460,
 15,M,Nikhil Thomas,SBD,MR-O,83,Raw,74.5,152.5,95,185,432.5,1990
 1,M,Anthony Parrella,SBD,MR-O,93,Raw,92.8,255,175,297.5,727.5,
@@ -199,7 +199,7 @@ DQ,F,Sumer Khachab,SBD,FR-O,72,Raw,65.8,,,,,
 1,M,James Bridgeman,SBD,M-M1b,105,Single-ply,98.5,200,167.5,245,612.5,1966
 1,M,Wilson Martinez,SBD,M-M1b,120,Single-ply,106.3,290,187.5,272.5,750,1965
 1,M,Ron Falcone,SBD,M-M2a,105,Single-ply,94.7,222.5,117.5,185,525,
-1,M,John Dalessio,SBD,MR-M1b,83,Raw,82.3,215,157.5,227.5,600,1968
+1,M,John D'Alessio,SBD,MR-M1b,83,Raw,82.3,215,157.5,227.5,600,1968
 2,M,Robert Israel,SBD,MR-M1b,83,Raw,81.3,195,112.5,205,512.5,1966
 3,M,Anthony Tobias,SBD,MR-M1b,83,Raw,82.2,137.5,102.5,180,420,
 1,M,Chad Rexrode,SBD,MR-M1b,93,Raw,89,232.5,167.5,255,655,1968
@@ -249,7 +249,7 @@ DQ,F,Shelley Zhao,SBD,FR-T3,63,Raw,59.9,67.5,40,-117.5,,1995
 4,F,Mona Min,SBD,FR-O,63,Raw,60,95,70,140,305,1980
 5,F,Kathleen McLeod,SBD,FR-O,63,Raw,59.3,110,57.5,130,297.5,1985
 6,F,Katlyn Comstock,SBD,FR-O,63,Raw,59.2,97.5,65,125,287.5,
-7,F,Ayngelia Ara,SBD,FR-O,63,Raw,59.8,75,52.5,150,277.5,1981
+7,F,Ayngelia Star Ara,SBD,FR-O,63,Raw,59.8,75,52.5,150,277.5,1981
 8,F,Jennifer Fetterly,SBD,FR-O,63,Raw,58.8,105,52.5,107.5,265,1989
 1,F,Barbara Lee #1,SBD,FR-O,72,Raw,65,132.5,67.5,152.5,352.5,1982
 2,F,Isha Tohill,SBD,FR-O,72,Raw,70.9,117.5,67.5,142.5,327.5,1986
@@ -303,7 +303,7 @@ DQ,F,Shelley Zhao,SBD,FR-T3,63,Raw,59.9,67.5,40,-117.5,,1995
 1,M,Ross Bowman,BD,MR-Jr,93,Raw,85.7,,115,205,320,1991
 1,M,Michael M. James Sr,BD,M-O,120+,Single-ply,125.7,,190,265,455,
 1,M,Michael Tanzer,BD,MR-O,83,Raw,80.7,,165,240,405,1988
-2,M,Michael Shaffer,BD,MR-O,83,Raw,80.2,,137.5,227.5,365,1989
+2,M,Mike Shaffer,BD,MR-O,83,Raw,80.2,,137.5,227.5,365,1989
 1,M,Mike Hedlesky,BD,MR-O,120,Raw,112.8,,182.5,340,522.5,
 1,M,Christopher Jackson,BD,M-M1a,120,Single-ply,108.4,,150,255,405,1971
 1,M,Patrick McMillan,BD,MR-M1a,120+,Raw,121.5,,195,295,490,1973

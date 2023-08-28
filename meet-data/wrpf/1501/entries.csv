@@ -104,7 +104,7 @@ DQ,Ivan Serzhantov,Amateur Sub-Juniors 17-19,Yes,19,M,124.8,125,Russia,-300,-300
 1,Irina Morozova,Amateur Open,Yes,28,F,54.6,56,Russia,,,,,,75,-77.5,-77.5,75,,,,,,,75,Raw,B
 2,Yuliya Golovkina,Amateur Open,Yes,38,F,55.6,56,Ukraine,,,,,,70,72.5,-77.5,72.5,,,,,,,72.5,Raw,B
 1,Lyudmila Naumenko,Amateur Masters 50-59,Yes,50,F,53.4,56,Russia,,,,,,52.5,57.5,62.5,62.5,,,,,,,62.5,Raw,B
-1,Svetlana Morozova,Amateur Teen 14-16,Yes,16,F,59.3,60,Russia,,,,,,77.5,-85,-85,77.5,,,,,,,77.5,Raw,B
+1,Svetlana Morozova #1,Amateur Teen 14-16,Yes,16,F,59.3,60,Russia,,,,,,77.5,-85,-85,77.5,,,,,,,77.5,Raw,B
 1,Yekaterina Dudareva,Amateur Juniors 20-23,Yes,22,F,58.6,60,Russia,,,,,,72.5,-77.5,-77.5,72.5,,,,,,,72.5,Raw,B
 1,Alla Lomako,Amateur Open,Yes,35,F,58.2,60,Belarus,,,,,,85,90,-95,90,,,,,,,90,Raw,B
 1,Anastasiya Daniel,Amateur Teen 14-16,Yes,16,F,64.6,67.5,Belarus,,,,,,67.5,-72.5,-75,67.5,,,,,,,67.5,Raw,B
@@ -196,13 +196,13 @@ DQ,Valentin Nor,Amateur Juniors 20-23,Yes,21,M,99.4,100,Russia,,,,,,-175,-185,-1
 9,Vladislav Takhtarov,Amateur Open,Yes,29,M,94.5,100,Ukraine,,,,,,135,145,150,150,,,,,,,150,Raw,B
 1,Viktor Andris,Amateur Masters 40-49,Yes,41,M,96.7,100,Russia,,,,,,170,175,180,180,,,,,,,180,Raw,B
 2,Aleksandr Bit-Yukhan,Amateur Masters 40-49,Yes,46,M,98,100,Russia,,,,,,150,160,167.5,167.5,,,,,,,167.5,Raw,B
-1,Natig Aliyev,Amateur Masters 50-59,Yes,51,M,99.5,100,Russia,,,,,,180,185,190,190,,,,,,,190,Raw,B
+1,Natig Aliev,Amateur Masters 50-59,Yes,51,M,99.5,100,Russia,,,,,,180,185,190,190,,,,,,,190,Raw,B
 2,Ivan Yevdokimov,Amateur Masters 50-59,Yes,51,M,98.3,100,Russia,,,,,,165,170,,170,,,,,,,170,Raw,B
 3,Vladimir Alekseyev,Amateur Masters 50-59,Yes,52,M,98.9,100,Russia,,,,,,152.5,162.5,165,165,,,,,,,165,Raw,B
 4,Murat Dzhaytabarov,Amateur Masters 50-59,Yes,52,M,98.7,100,Kazakhstan,,,,,,135,140,-150,140,,,,,,,140,Raw,B
 1,Sergey Lokis,Amateur Juniors 20-23,Yes,23,M,102.2,110,Russia,,,,,,190,200,-205,200,,,,,,,200,Raw,B
 2,Yevgeniy Miroshkin,Amateur Juniors 20-23,Yes,22,M,103.4,110,Russia,,,,,,-167.5,167.5,-180,167.5,,,,,,,167.5,Raw,B
-3,Aleksandr Kondratyev,Amateur Juniors 20-23,Yes,21,M,101,110,Russia,,,,,,-160,-160,160,160,,,,,,,160,Raw,B
+3,Aleksandr Kondratyev #5,Amateur Juniors 20-23,Yes,21,M,101,110,Russia,,,,,,-160,-160,160,160,,,,,,,160,Raw,B
 1,Yevgeniy Butenko,Amateur Open,Yes,33,M,109,110,Russia,,,,,,190,200,212.5,212.5,,,,,,,212.5,Raw,B
 2,Ergash Khaziyev,Amateur Open,Yes,24,M,106.5,110,Russia,,,,,,190,200,-207.5,200,,,,,,,200,Raw,B
 3,Vasiliy Reznikov,Amateur Open,Yes,31,M,107.7,110,Russia,,,,,,170,175,-177.5,175,,,,,,,175,Raw,B
@@ -346,7 +346,7 @@ DQ,Stanislav Pyalinok,Amateur Open,No,26,M,88,90,Russia,-220,-220,-220,,,,,,,,,,
 6,Aleksey Podvolokin,Amateur Juniors 20-23,No,23,M,96.9,100,Russia,-265,265,-275,265,,145,-150,-150,145,,250,-265,-265,250,,660,Wraps,SBD
 7,Aleksey Andriyanov,Amateur Juniors 20-23,No,21,M,99.6,100,Russia,-235,235,-240,235,,155,,,155,,220,-245,,220,,610,Wraps,SBD
 1,Nikolay Gnatyuk,Amateur Open,No,28,M,99,100,Russia,-310,315,327.5,327.5,,190,195,-200,195,,290,300,310,310,,832.5,Wraps,SBD
-2,Valeriy Kuznetsov,Amateur Open,No,32,M,98,100,Russia,300,320,-330,320,,190,200,205,205,,280,290,-300,290,,815,Wraps,SBD
+2,Valeriy Kuznetsov #3,Amateur Open,No,32,M,98,100,Russia,300,320,-330,320,,190,200,205,205,,280,290,-300,290,,815,Wraps,SBD
 3,Anton Anikanov,Amateur Open,No,30,M,92.9,100,Russia,-270,275,287.5,287.5,,190,200,205,205,,280,290,-300,290,,782.5,Wraps,SBD
 4,Leontiy Miroshnik,Amateur Open,No,26,M,97.9,100,Ukraine,300,305,-315,305,,150,-160,-160,150,,300,-310,-310,300,,755,Wraps,SBD
 5,Ivan Poryadin,Amateur Open,No,33,M,97.5,100,Russia,-250,250,260,260,,150,165,-170,165,,260,280,-290,280,,705,Wraps,SBD
@@ -413,7 +413,7 @@ DQ,Ilya Nidilko,Amateur Juniors 20-23,No,20,M,81.5,82.5,Russia,,,,,,-150,,,,,,,,
 7,Oleg Tikhonovskiy,Amateur Open,No,37,M,81.9,82.5,Russia,,,,,,157.5,-165,-165,157.5,,,,,,,157.5,Raw,B
 8,Christian Clampariu,Amateur Open,No,29,M,78,82.5,Austria,,,,,,150,155,-160,155,,,,,,,155,Raw,B
 9,Dmitriy Trofimov,Amateur Masters 40-49,No,43,M,82.2,82.5,Russia,,,,,,175,185,-190,185,,,,,,,185,Raw,B
-10,Sergey Fedorov,Amateur Masters 50-59,No,53,M,81.2,82.5,Russia,,,,,,160,-170,170,170,,,,,,,170,Raw,B
+10,Sergey Fedorov #1,Amateur Masters 50-59,No,53,M,81.2,82.5,Russia,,,,,,160,-170,170,170,,,,,,,170,Raw,B
 1,Aleksey Zhavoronkov,Amateur Sub-Juniors 17-19,No,19,M,87.8,90,Russia,,,,,,200,207.5,210,210,,,,,,,210,Raw,B
 2,Vladislav Shust,Amateur Sub-Juniors 17-19,No,17,M,89.2,90,Belarus,,,,,,145,-152.5,-152.5,145,,,,,,,145,Raw,B
 1,Vladimir Aliyev,Amateur Juniors 20-23,No,23,M,87.4,90,Russia,,,,,,175,185,190,190,,,,,,,190,Raw,B
@@ -429,7 +429,7 @@ DQ,Ilya Nidilko,Amateur Juniors 20-23,No,20,M,81.5,82.5,Russia,,,,,,-150,,,,,,,,
 6,Vladislav Verigin,Amateur Open,No,26,M,86.8,90,Russia,,,,,,180,-185,185,185,,,,,,,185,Raw,B
 7,Maksim Domanskikh,Amateur Open,No,32,M,89.6,90,Russia,,,,,,167.5,-180,-180,167.5,,,,,,,167.5,Raw,B
 8,Shamil Askerov,Amateur Open,No,26,M,82.6,90,Russia,,,,,,140,150,155,155,,,,,,,155,Raw,B
-9,Sergey Popov,Amateur Masters 40-49,No,41,M,89.4,90,Russia,,,,,,185,190,-197.5,190,,,,,,,190,Raw,B
+9,Sergey Popov #7,Amateur Masters 40-49,No,41,M,89.4,90,Russia,,,,,,185,190,-197.5,190,,,,,,,190,Raw,B
 10,Andrey Logvin,Amateur Masters 40-49,No,46,M,88.3,90,Russia,,,,,,170,180,-190,180,,,,,,,180,Raw,B
 11,Sergey Goncharov,Amateur Masters 60-69,No,63,M,84,90,Russia,,,,,,115,117.5,120,120,,,,,,,120,Raw,B
 1,Daniil Fedyukov,Amateur Sub-Juniors 17-19,No,18,M,97.8,100,Russia,,,,,,130,145,-165,145,,,,,,,145,Raw,B
@@ -443,13 +443,13 @@ DQ,Aleksandr Glushnev,Amateur Juniors 20-23,No,23,M,99.2,100,Russia,,,,,,-235,-2
 5,David Dzugkoyev,Amateur Open,No,30,M,99,100,Russia,,,,,,210,220,,220,,,,,,,220,Raw,B
 6,Rodion Dubenko,Amateur Open,No,26,M,99.9,100,Russia,,,,,,220,-230,-230,220,,,,,,,220,Raw,B
 7,Kirill Artemov,Amateur Open,No,33,M,94.6,100,Russia,,,,,,190,195,-197.5,195,,,,,,,195,Raw,B
-8,Martín Muñoz,Amateur Open,No,24,M,97.1,100,Argentina,,,,,,185,195,-200,195,,,,,,,195,Raw,B
+8,Martín Muñoz #1,Amateur Open,No,24,M,97.1,100,Argentina,,,,,,185,195,-200,195,,,,,,,195,Raw,B
 9,Dmitriy Serdyukov,Amateur Open,No,24,M,99.6,100,Russia,,,,,,175,190,-200,190,,,,,,,190,Raw,B
 10,Akhmed Musayev,Amateur Open,No,35,M,98,100,Russia,,,,,,170,180,-190,180,,,,,,,180,Raw,B
 11,Sergey Filipenya,Amateur Open,No,36,M,98.2,100,Belarus,,,,,,170,180,-190,180,,,,,,,180,Raw,B
 12,Pavel Bochkarev,Amateur Open,No,28,M,98.7,100,Russia,,,,,,180,-200,-200,180,,,,,,,180,Raw,B
 13,Oleg Mayorov,Amateur Open,No,28,M,99.7,100,Russia,,,,,,-180,180,-190,180,,,,,,,180,Raw,B
-14,Aleksey Vasilyev,Amateur Open,No,36,M,99.8,100,Russia,,,,,,-170,170,180,180,,,,,,,180,Raw,B
+14,Aleksey Vasilev #6,Amateur Open,No,36,M,99.8,100,Russia,,,,,,-170,170,180,180,,,,,,,180,Raw,B
 15,Aleksey Barminov,Amateur Open,No,34,M,98.2,100,Russia,,,,,,175,-190,-190,175,,,,,,,175,Raw,B
 DQ,Aleksandr Zhachenkov,Amateur Open,No,34,M,98.5,100,Russia,,,,,,-222.5,-222.5,-222.5,,,,,,,,,Raw,B
 1,Roman Knishchuk,Amateur Masters 40-49,No,40,M,99.2,100,Russia,,,,,,220,230,235,235,,,,,,,235,Raw,B
@@ -469,7 +469,7 @@ DQ,Aleksandr Zhachenkov,Amateur Open,No,34,M,98.5,100,Russia,,,,,,-222.5,-222.5,
 8,Vitaliy Lomonosov,Amateur Open,No,28,M,105.9,110,Russia,,,,,,-185,195,205,205,,,,,,,205,Raw,B
 9,Aleksandr Fedorov,Amateur Open,No,29,M,101,110,Russia,,,,,,190,197.5,-205,197.5,,,,,,,197.5,Raw,B
 10,Vladimir Kudryashov,Amateur Open,No,30,M,107.8,110,Russia,,,,,,190,-200,-200,190,,,,,,,190,Raw,B
-11,Anton Lysenko,Amateur Open,No,34,M,106.7,110,Russia,,,,,,167.5,-172.5,-177.5,167.5,,,,,,,167.5,Raw,B
+11,Anton Lysenko #1,Amateur Open,No,34,M,106.7,110,Russia,,,,,,167.5,-172.5,-177.5,167.5,,,,,,,167.5,Raw,B
 12,Vladimir Stepanov,Amateur Open,No,35,M,102.8,110,Russia,,,,,,145,155,160,160,,,,,,,160,Raw,B
 1,Sergey Polutin,Amateur Masters 40-49,No,40,M,102.2,110,Russia,,,,,,215,217.5,220,220,,,,,,,220,Raw,B
 2,Aleksandr Galakhov,Amateur Masters 40-49,No,44,M,106.2,110,Russia,,,,,,190,197.5,-200,197.5,,,,,,,197.5,Raw,B
@@ -543,7 +543,7 @@ DQ,Yuriy Vartabedyan,Amateur Open,No,24,M,121.6,125,Russia,,,,,,-232.5,-235,-235
 1,Akim Vakhtin,Amateur Open,No,32,M,104.4,110,Russia,,,,,,,,,,,330,,,330,,330,Raw,D
 2,Sergey Razudalov,Amateur Open,No,25,M,105.3,110,Russia,,,,,,,,,,,300,330,-360,330,,330,Raw,D
 3,Aleksandr Tarakin,Amateur Open,No,29,M,101.3,110,Russia,,,,,,,,,,,300,-312.5,312.5,312.5,,312.5,Raw,D
-4,Jurgen Wilflingseder,Amateur Open,No,34,M,104.8,110,Austria,,,,,,,,,,,270,280,,280,,280,Raw,D
+4,Jürgen Wilflingseder,Amateur Open,No,34,M,104.8,110,Austria,,,,,,,,,,,270,280,,280,,280,Raw,D
 5,Alexander Siljestromer,Amateur Open,No,31,M,103.4,110,Sweden,,,,,,,,,,,270,-300,-300,270,,270,Raw,D
 1,Valeriy Yevdokimov,Amateur Juniors 20-23,No,23,M,122.3,125,Latvia,,,,,,,,,,,300,315,-322.5,315,,315,Raw,D
 1,Kirill Afanasyev,Amateur Open,No,33,M,114.6,125,Latvia,,,,,,,,,,,310,330,340,340,,340,Raw,D
@@ -557,7 +557,7 @@ DQ,Yuriy Vartabedyan,Amateur Open,No,24,M,121.6,125,Russia,,,,,,-232.5,-235,-235
 1,Svetlana Burnashova,Pro Open,No,38,F,51.7,52,Russia,,,,,,,,,,,162.5,167.5,172.5,172.5,-175,172.5,Raw,D
 1,Marianna Gasparyan,Pro Open,No,26,F,59,60,Kazakhstan,,,,,,,,,,,180,200,-210,200,,200,Raw,D
 1,Irina Petrovich,Pro Open,No,31,F,66,67.5,Belarus,,,,,,,,,,,180,205,212.5,212.5,-215,212.5,Raw,D
-1,Yulia Medvedeva,Pro Open,No,36,F,74.5,75,Russia,,,,,,,,,,,202.5,215,220,220,-225,220,Raw,D
+1,Yuliya Medvedeva #1,Pro Open,No,36,F,74.5,75,Russia,,,,,,,,,,,202.5,215,220,220,-225,220,Raw,D
 1,Maria Helgesson,Pro Open,No,27,F,81.3,82.5,Sweden,,,,,,,,,,,180,-205,207.5,207.5,215,207.5,Raw,D
 1,Stuart Jamieson,Pro Open,No,26,M,59.7,60,Ireland,,,,,,,,,,,250,270,-286,270,,270,Raw,D
 1,Dmitry Nasonov,Pro Open,No,23,M,75,75,Russia,,,,,,,,,,,-320,320,332.5,332.5,345,332.5,Raw,D
@@ -567,7 +567,7 @@ DQ,Yuriy Vartabedyan,Amateur Open,No,24,M,121.6,125,Russia,,,,,,-232.5,-235,-235
 3,Yury Belkin,Pro Open,No,24,M,103.1,110,Russia,,,,,,,,,,,-370,370,-387.5,370,-387.5,370,Raw,D
 1,Stoyan Andreev,Pro Open,No,37,M,114,125,Bulgaria,,,,,,,,,,,385,400,405,405,-411.5,405,Raw,D
 2,Vladislav Krivokonev,Pro Open,No,27,M,121,125,Ukraine,,,,,,,,,,,340,360,-380,360,-380,360,Raw,D
-3,Rufat Agayev,Pro Open,No,40,M,123.9,125,Azerbaijan,,,,,,,,,,,360,-375,-375,360,-375,360,Raw,D
+3,Rufat Agaev,Pro Open,No,40,M,123.9,125,Azerbaijan,,,,,,,,,,,360,-375,-375,360,-375,360,Raw,D
 1,Mikhail Shivlyakov,Pro Open,No,35,M,137.5,140,Russia,,,,,,,,,,,382.5,400,-410,400,-410,400,Raw,D
 2,Alexander Klyushev,Pro Open,No,31,M,135.9,140,Russia,,,,,,,,,,,380,-400,,380,,380,Raw,D
 3,Konstantīn Konstantīnovs,Pro Open,No,37,M,138.2,140,Latvia,,,,,,,,,,,340,380,-402.5,380,,380,Raw,D
@@ -578,14 +578,14 @@ DQ,Yuriy Vartabedyan,Amateur Open,No,24,M,121.6,125,Russia,,,,,,-232.5,-235,-235
 2,Marianna Gasparyan,Pro Open,No,26,F,59,60,Kazakhstan,,,,,,110,120,,120,,,,,,,120,Raw,B
 3,Yuliya Tatyanina,Pro Open,No,26,F,59.8,60,Russia,,,,,,100,110,112.5,112.5,-115,,,,,,112.5,Raw,B
 1,Irina Petrovich,Pro Open,No,31,F,66,67.5,Belarus,,,,,,110,,,110,,,,,,,110,Raw,B
-1,Yulia Medvedeva,Pro Open,No,36,F,74.5,75,Russia,,,,,,145,150,152.5,152.5,,,,,,,152.5,Raw,B
+1,Yuliya Medvedeva #1,Pro Open,No,36,F,74.5,75,Russia,,,,,,145,150,152.5,152.5,,,,,,,152.5,Raw,B
 1,Svetlana Sinacheva,Pro Open,No,48,F,75.1,82.5,Russia,,,,,,110,112.5,-115,112.5,-115,,,,,,112.5,Raw,B
 1,Roman Eremashvili,Pro Open,No,34,M,67.5,67.5,Belarus,,,,,,210,222.5,228,228,-230,,,,,,228,Raw,B
 1,Stanislav Milostnoy,Pro Open,No,36,M,81,82.5,Russia,,,,,,-240,240,245,245,-247.5,,,,,,245,Raw,B
 1,Vadim Kakhuta,Pro Open,No,34,M,99.9,100,Russia,,,,,,257.5,-269.5,269.5,269.5,-274,,,,,,269.5,Raw,B
 2,Oleg Bazilevich,Pro Open,No,33,M,98.8,100,Ukraine,,,,,,250,260,-270,260,-270,,,,,,260,Raw,B
 1,Evgeniy Zheltenko,Pro Open,No,33,M,107.1,110,Russia,,,,,,-260,260,-270,260,,,,,,,260,Raw,B
-2,Aleksey Solovyev,Pro Open,No,40,M,105.6,110,Ukraine,,,,,,220,-230,-230,220,,,,,,,220,Raw,B
+2,Aleksey Solovyev #7,Pro Open,No,40,M,105.6,110,Ukraine,,,,,,220,-230,-230,220,,,,,,,220,Raw,B
 1,Murad Alibegov,Pro Open,No,38,M,122.5,125,Russia,,,,,,255,282.5,,282.5,-285,,,,,,282.5,Raw,B
 DQ,Georgi Beroshvili,Pro Open,No,31,M,119.5,125,Georgia,,,,,,-290,-290,-290,,-290,,,,,,,Raw,B
 1,Pavel Kolokhin,Pro Open,No,31,M,129.2,140,Russia,,,,,,275,285,290,290,292.5,,,,,,290,Raw,B
@@ -601,14 +601,14 @@ DQ,Georgi Beroshvili,Pro Open,No,31,M,119.5,125,Georgia,,,,,,-290,-290,-290,,-29
 1,Marianna Gasparyan,Pro Open,No,26,F,59,60,Kazakhstan,180,-200,200,200,-225,110,120,,120,,180,200,-210,200,,520,Raw,SBD
 1,Yulia Shenkarenko,Pro Open,No,28,F,67.5,67.5,Ukraine,170,180,190,190,-200,110,120,125,125,127.5,180,200,-210,200,210,515,Wraps,SBD
 2,Irina Petrovich,Pro Open,No,31,F,66,67.5,Belarus,170,185,190,190,192.5,110,120,-125,120,-125,180,205,212.5,212.5,-215,522.5,Wraps,SBD
-1,Anna Khudayarov,Pro Open,No,27,F,82.8,90,Finland,-215,220,-240,220,-240,115,127.5,-135,127.5,-135,210,227.7,-232.5,227.7,-232.5,575.2,Wraps,SBD
+1,Anna Karrila,Pro Open,No,27,F,82.8,90,Finland,-215,220,-240,220,-240,115,127.5,-135,127.5,-135,210,227.7,-232.5,227.7,-232.5,575.2,Wraps,SBD
 1,Irina Yaroshenko,Pro Open,No,29,F,99.8,90+,Russia,205,225,-237.5,225,,100,107.5,110,110,,200,220,-225,220,-225,555,Wraps,SBD
 1,Alexander Karpenko,Pro Open,No,23,M,75,75,Russia,-270,270,-285,270,-285,150,155,160,160,-165,260,-275,,260,,690,Wraps,SBD
-1,Aleksey Nikulin,Pro Open,No,33,M,82.1,82.5,Russia,330,345,-355,345,,170,-177.5,-177.5,170,,-290,290,-300,290,,805,Wraps,SBD
+1,Aleksey Nikulin #1,Pro Open,No,33,M,82.1,82.5,Russia,330,345,-355,345,,170,-177.5,-177.5,170,,-290,290,-300,290,,805,Wraps,SBD
 1,Mauro Spinardi,Pro Open,No,33,M,108.2,110,Argentina,365,-380,-380,365,,200,210,-217.5,210,,320,340,-355,340,,915,Wraps,SBD
 1,Stanislav Shvetsov,Pro Open,No,27,M,116.8,125,Russia,380,395,405,405,-415,230,240,250,250,,320,335,345,345,-350,1000,Wraps,SBD
 2,Witold Wolnowski,Pro Open,No,35,M,124.8,125,Poland,-330,330,-350,330,-350,220,230,-235,230,,320,340,360,360,-370,920,Wraps,SBD
-3,Vitaliy Alekseyev,Pro Open,No,27,M,116.8,125,Ukraine,320,335,350,350,-360,200,-210,,200,,320,340,-355,340,-355,890,Wraps,SBD
+3,Vitaliy Alekseev #1,Pro Open,No,27,M,116.8,125,Ukraine,320,335,350,350,-360,200,-210,,200,,320,340,-355,340,-355,890,Wraps,SBD
 DQ,Wayne Howlett,Pro Open,No,35,M,122.8,125,Australia,350,-370,,350,,,,,,,,,,,,,Wraps,SBD
 DQ,Vusal Aliyev,Pro Open,No,37,M,131.4,140,Azerbaijan,-390,-390,,,,,,,,,,,,,,,Wraps,SBD
 DQ,Eric Lilliebridge,Pro Open,No,25,M,135.5,140,USA,430,-450,,430,,,,,,,,,,,,,Wraps,SBD

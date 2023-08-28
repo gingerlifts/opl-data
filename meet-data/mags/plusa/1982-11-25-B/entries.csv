@@ -22,7 +22,7 @@ Douglas Waldron,67.5,Novice,M,215.46,149.69,204.12,569.26,SBD,Single-ply,1
 M. Franklin,67.5,Novice,M,183.71,115.67,192.78,492.15,SBD,Single-ply,2
 Mark Matvey,67.5,Novice,M,174.63,102.06,188.24,464.93,SBD,Single-ply,3
 Howard Krell,67.5,Novice,M,151.95,90.72,197.31,439.99,SBD,Single-ply,4
-R. Abrams,67.5,Novice,M,147.42,86.18,192.78,426.38,SBD,Single-ply,5
+Rick Abrams,67.5,Novice,M,147.42,86.18,192.78,426.38,SBD,Single-ply,5
 J. Slomsky,67.5,Novice,M,104.33,124.74,192.78,421.84,SBD,Single-ply,6
 J. Forsyth,67.5,Novice,M,136.08,106.59,167.83,410.5,SBD,Single-ply,7
 James Finch,67.5,Open,M,285.76,158.76,274.42,718.94,SBD,Single-ply,1
@@ -34,8 +34,8 @@ M. Siefert,75,Novice,M,238.14,131.54,229.06,598.74,SBD,Single-ply,1
 Steve Nervo,75,Novice,M,226.8,151.95,217.72,596.47,SBD,Single-ply,2
 Dave Sheffield,75,Novice,M,224.53,120.2,231.33,576.06,SBD,Single-ply,3
 M. Roth,75,Novice,M,158.76,136.08,206.38,501.22,SBD,Single-ply,4
-L. Newman,75,Novice,M,183.71,117.93,185.97,487.61,SBD,Single-ply,5
-T. Gilmore,75,Novice,M,131.54,122.47,185.97,439.99,SBD,Single-ply,6
+Len Newman,75,Novice,M,183.71,117.93,185.97,487.61,SBD,Single-ply,5
+Tim Gilmore,75,Novice,M,131.54,122.47,185.97,439.99,SBD,Single-ply,6
 G. Pawley,75,Novice,M,142.88,90.72,195.04,428.65,SBD,Single-ply,7
 Mark McNeill,75,Open,M,244.94,154.22,235.87,635.03,SBD,Single-ply,1
 Jim DeMaske,75,Open,M,231.33,138.35,242.67,612.35,SBD,Single-ply,2
@@ -43,18 +43,18 @@ Steve Nervo,75,Open,M,226.8,151.95,217.72,596.47,SBD,Single-ply,3
 John Heaton,75,Open,M,226.8,124.74,238.14,589.67,SBD,Single-ply,4
 Dave Sheffield,75,Open,M,224.53,120.2,231.33,576.06,SBD,Single-ply,5
 Jeff Jalovec,75,Open,M,,179.17,267.62,,SBD,Single-ply,DQ
-Michael Miller,82.5,Novice,M,244.94,172.37,215.46,632.76,SBD,Single-ply,1
+Michael Miller #9,82.5,Novice,M,244.94,172.37,215.46,632.76,SBD,Single-ply,1
 Maron Cury,82.5,Novice,M,204.12,136.08,238.14,578.33,SBD,Single-ply,2
 C. Sanders,82.5,Novice,M,217.72,131.54,206.38,555.65,SBD,Single-ply,3
 R. Wolford,82.5,Novice,M,197.31,136.08,208.65,542.04,SBD,Single-ply,4
 C. Noll,82.5,Novice,M,174.63,115.67,204.12,494.42,SBD,Single-ply,5
 Gordon Wolfe,82.5,Open,M,283.5,147.42,274.42,705.34,SBD,Single-ply,1
 Cliff Bullock,82.5,Open,M,260.82,154.22,272.16,687.19,SBD,Single-ply,2
-Michael Miller,82.5,Open,M,244.94,172.37,215.46,632.76,SBD,Single-ply,3
-M. Hostetler,90,Novice,M,192.78,149.69,240.4,582.87,SBD,Single-ply,1
+Michael Miller #9,82.5,Open,M,244.94,172.37,215.46,632.76,SBD,Single-ply,3
+Mike Hostetler,90,Novice,M,192.78,149.69,240.4,582.87,SBD,Single-ply,1
 D. Smith,90,Novice,M,176.9,120.2,204.12,501.22,SBD,Single-ply,2
 B. Varda,90,Novice,M,,154.22,,,SBD,Single-ply,DQ
-M. Hostetler,90,Open,M,192.78,149.69,240.4,582.87,SBD,Single-ply,1
+Mike Hostetler,90,Open,M,192.78,149.69,240.4,582.87,SBD,Single-ply,1
 D. Smith,90,Open,M,176.9,120.2,204.12,501.22,SBD,Single-ply,2
 Steve Martter,90,Open,M,,,,,SBD,Single-ply,DQ
 A. Muttillo,100,Novice,M,249.48,172.37,244.94,666.78,SBD,Single-ply,1
@@ -66,7 +66,7 @@ S. Stewart,100,Novice,M,263.08,145.15,,,SBD,Single-ply,DQ
 Bruce Graser,100,Open,M,283.5,167.83,306.18,757.5,SBD,Single-ply,1
 A. Muttillo,100,Open,M,249.48,172.37,244.94,666.78,SBD,Single-ply,2
 Mike Altomare,110,Novice,M,272.16,147.42,290.3,709.87,SBD,Single-ply,1
-S. Vick,110,Novice,M,256.28,163.29,260.82,680.39,SBD,Single-ply,2
+Shelton Vick,110,Novice,M,256.28,163.29,260.82,680.39,SBD,Single-ply,2
 S. Clark,110,Novice,M,229.06,147.42,226.8,603.28,SBD,Single-ply,3
 J. Walczak,110,Novice,M,192.78,131.54,213.19,537.51,SBD,Single-ply,4
 R. Rutherford,110,Novice,M,,,,,SBD,Single-ply,DQ
@@ -74,9 +74,9 @@ Jon Green #1,110,Open,M,312.98,174.63,303.91,791.52,SBD,Single-ply,1
 Craig Gilliam,110,Open,M,285.76,201.85,301.64,789.25,SBD,Single-ply,2
 Jeff King,110,Open,M,274.42,158.76,308.44,741.62,SBD,Single-ply,3
 K. Nummi,110,Open,M,288.03,192.78,258.55,739.36,SBD,Single-ply,4
-V. Vandivier,110,Open,M,274.42,165.56,272.16,712.14,SBD,Single-ply,5
+Victor Vandivier,110,Open,M,274.42,165.56,272.16,712.14,SBD,Single-ply,5
 Mike Altomare,110,Open,M,272.16,147.42,290.3,709.87,SBD,Single-ply,6
-S. Vick,110,Open,M,256.28,163.29,260.82,680.39,SBD,Single-ply,7
+Shelton Vick,110,Open,M,256.28,163.29,260.82,680.39,SBD,Single-ply,7
 J. Walczak,110,Open,M,192.78,131.54,213.19,537.51,SBD,Single-ply,8
 R. Mucci,110,Open,M,,,,,SBD,Single-ply,DQ
 R. Shekels,125,Novice,M,199.58,161.03,256.28,616.89,SBD,Single-ply,1

@@ -4,7 +4,7 @@ Place,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Weight
 2,Anton Petrashov,55.6,127.5,75,125,327.5,56,M,Антон Петрашов,1989,Single-ply,SBD,Open
 3,Said Ibragimov,55.3,125,70,112.5,307.5,56,M,Саид Ибрагимов,1990,Single-ply,SBD,Open
 1,Semen Kopylov,59.35,130,67.5,145,342.5,60,M,Семен Копылов,1986,Single-ply,SBD,Open
-1,Aleksandr Sergeev,66.25,230,167.5,235,632.5,67.5,M,Александр Сергеев,1985,Single-ply,SBD,Open
+1,Aleksandr Sergeev #3,66.25,230,167.5,235,632.5,67.5,M,Александр Сергеев,1985,Single-ply,SBD,Open
 2,Vladimir Tarasov,67.35,265,147.5,220,632.5,67.5,M,Владимир Тарасов,1987,Single-ply,SBD,Open
 3,Dmitriy Gribolev,66.5,210,135,215,560,67.5,M,Дмитрий Гриболев,1987,Single-ply,SBD,Open
 4,Aleksandr Korolev,66.75,180,110,170,460,67.5,M,Александр Королев,1981,Single-ply,SBD,Open
@@ -19,7 +19,7 @@ Place,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Weight
 DQ,Viktor Zhidkov,72.3,160,,,,75,M,Виктор Жидков,1989,Single-ply,SBD,Open
 1,Maksim Vakhnovich,81.65,237.5,147.5,262.5,647.5,82.5,M,Максим Вахнович,1976,Single-ply,SBD,Open
 2,Maksim Novolottskiy,81.9,232.5,150,262.5,645,82.5,M,Максим Новолотцкий,1988,Single-ply,SBD,Open
-3,Ivan Makarov,80.3,210,125,190,525,82.5,M,Иван Макаров,1987,Single-ply,SBD,Open
+3,Ivan Makarov #1,80.3,210,125,190,525,82.5,M,Иван Макаров,1987,Single-ply,SBD,Open
 4,Denis Mayzel,78.3,160,105,170,435,82.5,M,Денис Майзель,1984,Single-ply,SBD,Open
 DQ,Dmitriy Pozdnyakov,81.5,185,125,,,82.5,M,Дмитрий Поздняков,1982,Single-ply,SBD,Open
 DQ,Danil Shapovalov,80.45,140,112.5,,,82.5,M,Данил Шаповалов,1986,Single-ply,SBD,Open

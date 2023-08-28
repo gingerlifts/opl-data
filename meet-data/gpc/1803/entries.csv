@@ -14,7 +14,7 @@ József Zsíros,M,28,O,B,Multi-ply,109,110,,,,,,260,275,290,290,,,,,,290,Hungary
 Krisztián Kovács,M,37,O,B,Multi-ply,114.7,125,,,,,,200,-210,210,210,,,,,,210,Hungary,1
 Richárd Buda,M,24,O,B,Multi-ply,131.6,140,,,,,,370,-402.5,-402.5,370,,,,,,370,Hungary,1
 Liliána Endrődy,F,15,T1,B,Raw,49.3,52,,,,,,37.5,42.5,45,45,,,,,,45,Hungary,1
-Krisztina Farkas,F,19,T3,B,Raw,63.1,67.5,,,,,,62.5,65,-68,65,,,,,,65,Hungary,1
+Krisztina Réka Farkas,F,19,T3,B,Raw,63.1,67.5,,,,,,62.5,65,-68,65,,,,,,65,Hungary,1
 Rózsa Sipeki,F,23,J,B,Raw,56,56,,,,,,50,55.5,,55.5,,,,,,55.5,Hungary,1
 Kamila Dominika Wyderska,F,21,J,B,Raw,65,67.5,,,,,,50,52.5,55,55,,,,,,55,Poland,1
 Rita Nagy,F,43,M1,B,Raw,66.3,67.5,,,,,,115,120,125,125,,,,,,125,Hungary,1
@@ -22,7 +22,7 @@ Mónika Bazsó,F,44,M1,B,Raw,70.5,75,,,,,,90,97.5,102.5,102.5,,,,,,102.5,Hungary
 Anna Szlávik,F,44,M1,B,Raw,80.3,82.5,,,,,,-72.5,-72.5,-72.5,,,,,,,,Hungary,DQ
 Ilona Egri,F,45,M2,B,Raw,57.3,60,,,,,,60,62.5,-65,62.5,,,,,,62.5,Hungary,1
 Éva Koczkás,F,46,M2,B,Raw,83.3,90,,,,,,100,105,110,110,,,,,,110,Hungary,1
-Dana Besková,F,63,M5,B,Raw,54.9,56,,,,,,30,35,37.5,37.5,,,,,,37.5,Czechia,1
+Dana Bešková,F,63,M5,B,Raw,54.9,56,,,,,,30,35,37.5,37.5,,,,,,37.5,Czechia,1
 Krisztina Majoros,F,24,O,B,Raw,55.9,56,,,,,,55,57.5,-60,57.5,,,,,,57.5,Hungary,1
 Alexandra Drtinová,F,36,O,B,Raw,59.2,60,,,,,,60,67.5,72.5,72.5,,,,,,72.5,Czechia,1
 Margit Fodorné Tóth,F,38,O,B,Raw,73.2,75,,,,,,37.5,42.5,45,45,,,,,,45,Hungary,2
@@ -54,7 +54,7 @@ Zoltán Megyeri,M,43,M1,B,Raw,85.2,90,,,,,,145,150,155,155,,,,,,155,Hungary,2
 István Szeifert,M,41,M1,B,Raw,89.3,90,,,,,,160,165,-170,165,,,,,,165,Hungary,1
 Andrzej Robert Juraszek,M,40,M1,B,Raw,93.1,100,,,,,,160,165,-170,165,,,,,,165,Poland,2
 György Berecz,M,42,M1,B,Raw,93.5,100,,,,,,160,-170,172.5,172.5,,,,,,172.5,Hungary,1
-Zamani Reza,M,41,M1,B,Raw,107.4,110,,,,,,150,160,170,170,,,,,,170,Iran,3
+Reza Zamani,M,41,M1,B,Raw,107.4,110,,,,,,150,160,170,170,,,,,,170,Iran,3
 Péter Belme,M,43,M1,B,Raw,106.1,110,,,,,,175,182.5,185,185,,,,,,185,Hungary,2
 Jindřich Dressler,M,40,M1,B,Raw,109.8,110,,,,,,210,220,-225,220,,,,,,220,Czechia,1
 Tibor Németh,M,44,M1,B,Raw,113.9,125,,,,,,-170,175,-185,175,,,,,,175,Hungary,3
@@ -64,7 +64,7 @@ Attila Pupos,M,40,M1,B,Raw,128.6,140,,,,,,160,170,-180,170,,,,,,170,Hungary,4
 Krzysztof Marek Halczyk,M,43,M1,B,Raw,132.3,140,,,,,,170,172.5,,172.5,,,,,,172.5,Poland,3
 Attila Dobos,M,42,M1,B,Raw,129.1,140,,,,,,180,185,-197.5,185,,,,,,185,Hungary,2
 András Sebők,M,40,M1,B,Raw,125.1,140,,,,,,190,195,197.5,197.5,,,,,,197.5,Hungary,1
-Stamenovski Boshko,M,47,M2,B,Raw,72.4,75,,,,,,120,125,-130,125,,,,,,125,Macedonia,1
+Stamenovski Boshko,M,47,M2,B,Raw,72.4,75,,,,,,120,125,-130,125,,,,,,125,North Macedonia,1
 Zsolt Karlik,M,45,M2,B,Raw,76.2,82.5,,,,,,145,155,160,160,,,,,,160,Hungary,2
 Dezső Korom Sr,M,47,M2,B,Raw,79.2,82.5,,,,,,150,160,165,165,,,,,,165,Hungary,1
 Zsolt Kovács,M,45,M2,B,Raw,89.2,90,,,,,,135,140,147.5,147.5,,,,,,147.5,Hungary,1
@@ -162,7 +162,7 @@ Henrik Horváth,M,19,T3,D,Raw,98.3,100,,,,,,,,,,180,210,-220,,210,210,Hungary,1
 Péter Bodolai,M,18,T3,D,Raw,107.9,110,,,,,,,,,,275,-290,-290,,275,275,Hungary,2
 Ukrinas Lukas,M,19,T3,D,Raw,108.8,110,,,,,,,,,,250,280,-292.5,,280,280,Lithuania,1
 Huba Hablicsek,M,20,J,D,Raw,58.6,60,,,,,,,,,,135,-145,150,,150,150,Hungary,1
-Jiří Balabán,M,23,J,D,Raw,74.3,75,,,,,,,,,,237.5,247.5,253,257.5,253,253,Czechia,1
+Jiří Balabán,M,22,J,D,Raw,74.3,75,,,,,,,,,,237.5,247.5,253,257.5,253,253,Czechia,1
 Jakub Navrátil,M,23,J,D,Raw,80,82.5,,,,,,,,,,230,240,247.5,,247.5,247.5,Czechia,3
 David Rajčányi,M,20,J,D,Raw,80.2,82.5,,,,,,,,,,230,250,262.5,,262.5,262.5,Czechia,2
 Gábor Bezzeg,M,20,J,D,Raw,81.3,82.5,,,,,,,,,,250,260,265,,265,265,Hungary,1
@@ -238,7 +238,7 @@ Csaba Bajczer,M,16,T2,SBD,Wraps,73,75,-155,165,180,,180,90,105,-115,105,180,200,
 Roman Fuksa,M,17,T2,SBD,Wraps,80.9,82.5,200,-220,-220,,200,100,110,-120,110,-241,241,250,,250,560,Czechia,1
 Lukáš Horáček,M,17,T2,SBD,Wraps,95.6,100,175,-185,185,,185,105,112.5,115,115,190,200,205,,205,505,Czechia,1
 Erik Méhes,M,16,T2,SBD,Wraps,152.3,140+,185,-195,200,,200,80,85,-90,85,195,205,-215,,205,490,Slovakia,1
-Máté Kiss,M,18,T3,SBD,Wraps,59.2,60,150,160,165,,165,75,80,85,85,160,175,-182.5,,175,425,Hungary,1
+Máté Kiss #1,M,18,T3,SBD,Wraps,59.2,60,150,160,165,,165,75,80,85,85,160,175,-182.5,,175,425,Hungary,1
 Adrián Untermayer,M,18,T3,SBD,Wraps,80.7,82.5,140,150,-160,,150,100,105,-110,105,190,205,-215,,205,460,Slovakia,2
 Márk Mészáros,M,19,T3,SBD,Wraps,80.1,82.5,165,175,-185,,175,105,110,115,115,210,220,-230,,220,510,Hungary,1
 Martin Kostelecký,M,19,T3,SBD,Wraps,88.6,90,200,210,-220,,210,110,120,125,125,260,270,-277.5,,270,605,Czechia,2
@@ -258,7 +258,7 @@ Balázs Hajdú,M,21,J,SBD,Wraps,87.6,90,225,240,252.5,,252.5,160,172.5,-180,172.
 Přemysl Skoták,M,21,J,SBD,Wraps,98.4,100,267.5,-282.5,-282.5,,267.5,162.5,172.5,180,180,267.5,282.5,290,,290,737.5,Czechia,1
 Alexandar Radivojevic,M,21,J,SBD,Wraps,108.1,110,-260,,260,,260,170,180,,180,280,300,310,,310,750,Serbia,1
 Zoltán Kapusi,M,21,J,SBD,Wraps,119,125,215,225,240,,240,125,135,145,145,245,265,280,,280,665,Hungary,3
-Piotr Sadowski,M,22,J,SBD,Wraps,111.1,125,-250,-250,250,,250,180,190,-195,190,-300,310,315,,315,755,Poland,2
+Piotr Sadowski #2,M,22,J,SBD,Wraps,111.1,125,-250,-250,250,,250,180,190,-195,190,-300,310,315,,315,755,Poland,2
 Zoltán Borbíró,M,22,J,SBD,Wraps,113.3,125,260,270,-285,,270,175,182.5,-187.5,182.5,300,320,340,,340,792.5,Hungary,1
 Marius Babkovič,M,23,J,SBD,Wraps,128.4,140,-245,-245,-245,,,-160,170,-185,170,,,,,,,Slovakia,DQ
 Zsolt Horváth,M,43,M1,SBD,Wraps,79.5,82.5,210,220,-230,,220,125,132.5,-135,132.5,220,230,240,,240,592.5,Hungary,1
@@ -333,7 +333,7 @@ Dóra Bubernik,F,26,O,S,Wraps,59.7,60,95,-107.5,-107.5,,95,,,,,,,,,,95,Hungary,1
 Zoltán Horváth #2,M,18,T3,S,Wraps,79.4,82.5,160,170,180,,180,,,,,,,,,,180,Hungary,1
 Henrik László Horváth,M,19,T3,S,Wraps,98.3,100,180,-210,210,215,210,,,,,,,,,,210,Hungary,1
 Péter Bodolai,M,18,T3,S,Wraps,107.9,110,255,270,-280,,270,,,,,,,,,,270,Hungary,1
-Jiří Balabán,M,23,J,S,Wraps,74.3,75,182.5,192.5,200,-205,200,,,,,,,,,,200,Czechia,1
+Jiří Balabán,M,22,J,S,Wraps,74.3,75,182.5,192.5,200,-205,200,,,,,,,,,,200,Czechia,1
 Jakub Navrátil,M,23,J,S,Wraps,80,82.5,170,-180,180,190,180,,,,,,,,,,180,Czechia,1
 Gergely Marton,M,22,J,S,Wraps,83.3,90,180,,,,180,,,,,,,,,,180,Hungary,1
 Alexandar Radivojevic,M,21,J,S,Wraps,108.1,110,250,270,286,,286,,,,,,,,,,286,Serbia,1

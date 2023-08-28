@@ -65,17 +65,26 @@ fn check_headers(headers: &csv::StringRecord, report: &mut Report) {
     let maxheaders = REQUIRED_HEADERS.len() + OPTIONAL_HEADERS.len();
 
     if headers.len() < minheaders {
-        report.error(format!("There must be at least {} columns", minheaders));
+        report.error(format!("There must be at least {minheaders} columns"));
         return;
     } else if headers.len() > maxheaders {
-        report.error(format!("There can be at most {} columns", maxheaders));
+        report.error(format!("There can be at most {maxheaders} columns"));
         return;
+    }
+
+    // Quickly check for Windows line endings, producing a more helpful error message.
+    if let Some(last_header) = headers.get(headers.len() - 1) {
+        // The CSV Reader already stripped the '\n' in "\r\n".
+        if last_header.ends_with('\r') {
+            report.error("Windows line endings detected: run `dos2unix` to convert");
+            return;
+        }
     }
 
     // Check required headers.
     for (i, header) in headers.iter().take(REQUIRED_HEADERS.len()).enumerate() {
         if header != REQUIRED_HEADERS[i] {
-            report.error(format!("Column {} must be '{}'", i, REQUIRED_HEADERS[i]));
+            report.error(format!("Column {i} must be '{}'", REQUIRED_HEADERS[i]));
         }
     }
 
@@ -116,9 +125,8 @@ pub fn check_federation(s: &str, report: &mut Report) -> Option<Federation> {
         Ok(f) => Some(f),
         Err(_) => {
             report.error(format!(
-                "Unknown federation '{}'. \
-                 Add to modules/opltypes/src/federation.rs?",
-                s
+                "Unknown federation '{s}'. \
+                 Add to crates/opltypes/src/federation.rs?",
             ));
             None
         }
@@ -129,31 +137,35 @@ pub fn check_federation(s: &str, report: &mut Report) -> Option<Federation> {
 pub fn check_date(s: &str, report: &mut Report) -> Option<Date> {
     let date = s.parse::<Date>();
     if date.is_err() {
-        report.error(format!("Invalid date '{}'. Must be YYYY-MM-DD", s));
+        report.error(format!("Invalid date '{s}'. Must be YYYY-MM-DD"));
         return None;
     }
     let date = date.unwrap();
 
     // The date should not be implausibly long ago.
     if date.year() < 1945 {
-        report.error(format!("Implausible year in '{}'", s));
+        report.error(format!("Implausible year in '{s}'"));
     }
 
     // This is sufficiently fast to call that caching is of no practical benefit.
-    let now = chrono::Local::now();
+    //
+    // Tomorrow's date is used as the "now" cutoff. This solves a timezone issue
+    // where contributors in Australia might add meets "in the future" relative
+    // to someone living in the USA.
+    let now = chrono::Local::now() + chrono::naive::Days::new(1);
 
     // The date should not be in the future.
-    let (y, m, d) = (now.year() as u32, now.month() as u32, now.day() as u32);
+    let (y, m, d) = (now.year() as u32, now.month(), now.day());
     if (date.year() > y)
         || (date.year() == y && date.month() > m)
         || (date.year() == y && date.month() == m && date.day() > d)
     {
-        report.error(format!("Meet occurs in the future in '{}'", s));
+        report.error(format!("Meet occurs in the future in '{s}'"));
     }
 
     // The date should exist in the Gregorian calendar.
     if !date.is_valid() {
-        let msg = format!("Date '{}' does not exist in the Gregorian calendar", s);
+        let msg = format!("Date '{s}' does not exist in the Gregorian calendar");
         report.error(msg);
     }
 
@@ -166,14 +178,13 @@ pub fn check_meetcountry(s: &str, report: &mut Report) -> Option<Country> {
         Ok(c) => Some(c),
         Err(_) => {
             report.error(format!(
-                "Unknown country '{}'. \
-                 Add to modules/opltypes/src/country.rs?",
-                s
+                "Unknown country '{s}'. \
+                 Add to crates/opltypes/src/country.rs?"
             ));
 
             // Emit some helpful warnings.
             if s.contains("Chin") {
-                report.warning(format!("Should '{}' be 'Taiwan'?", s));
+                report.warning(format!("Should '{s}' be 'Taiwan'?"));
             }
 
             None
@@ -182,29 +193,34 @@ pub fn check_meetcountry(s: &str, report: &mut Report) -> Option<Country> {
 }
 
 /// Checks the optional MeetState column.
-pub fn check_meetstate(
-    s: &str,
-    report: &mut Report,
-    country: Option<Country>,
-) -> Option<State> {
+pub fn check_meetstate(s: &str, report: &mut Report, country: Option<Country>) -> Option<State> {
     if s.is_empty() {
         return None;
     }
 
-    if country.is_none() {
-        report.warning(format!(
-            "Couldn't check MeetState '{}' due to invalid MeetCountry",
-            s
-        ));
-        return None;
-    }
-    let country = country.unwrap();
+    let country = match country {
+        Some(value) => value,
+        None => {
+            report.warning(format!(
+                "Couldn't check MeetState '{s}' due to invalid MeetCountry"
+            ));
+
+            return None;
+        }
+    };
 
     match State::from_str_and_country(s, country) {
         Ok(s) => Some(s),
         Err(_) => {
             let cstr = country.to_string();
-            report.error(format!("Unknown state '{}' for country '{}'", s, cstr));
+            let mut error = format!("Unknown state '{s}' for country '{cstr}'");
+
+            if let Some(available) = State::get_available_for_country(country) {
+                let concat = available.join(", ");
+                error += &format!(", available values: [{concat}]");
+            }
+
+            report.error(error);
             None
         }
     }
@@ -216,14 +232,14 @@ pub fn check_meettown(s: &str, report: &mut Report) -> Option<String> {
     for c in s.chars() {
         // Non-ASCII characters are allowed.
         if !c.is_alphabetic() && !" -.'".contains(c) {
-            report.error(format!("Illegal character in MeetTown '{}'", s));
+            report.error(format!("Illegal character in MeetTown '{s}'"));
             break;
         }
     }
 
     // Check for excessive spacing.
     if s.contains("  ") || s.starts_with(' ') || s.ends_with(' ') {
-        report.error(format!("Excessive whitespace in MeetTown '{}'", s));
+        report.error(format!("Excessive whitespace in MeetTown '{s}'"));
     }
 
     if s.is_empty() {
@@ -234,12 +250,7 @@ pub fn check_meettown(s: &str, report: &mut Report) -> Option<String> {
 }
 
 /// Checks the mandatory MeetName column.
-pub fn check_meetname(
-    s: &str,
-    report: &mut Report,
-    fedstr: &str,
-    datestr: &str,
-) -> Option<String> {
+pub fn check_meetname(s: &str, report: &mut Report, fedstr: &str, datestr: &str) -> Option<String> {
     if s.is_empty() {
         report.error("MeetName cannot be empty");
         return None;
@@ -247,27 +258,27 @@ pub fn check_meetname(
 
     for c in s.chars() {
         // Non-ASCII characters are allowed.
-        if !c.is_alphanumeric() && !" -&.'/°:".contains(c) {
-            report.error(format!("Illegal character in MeetName '{}'", s));
+        if !c.is_alphanumeric() && !" -&.'/°%:".contains(c) {
+            report.error(format!("Illegal character in MeetName '{s}'"));
             break;
         }
     }
 
     // Check for excessive spacing.
     if s.contains("  ") || s.starts_with(' ') || s.ends_with(' ') {
-        report.error(format!("Excessive whitespace in MeetName '{}'", s));
+        report.error(format!("Excessive whitespace in MeetName '{s}'"));
     }
 
     // The federation shouldn't be part of the name.
     if !fedstr.is_empty() && s.contains(fedstr) {
-        report.error(format!("MeetName '{}' must not contain the federation", s));
+        report.error(format!("MeetName '{s}' must not contain the federation"));
     }
 
     // The year shouldn't be part of the name.
     if let Some(idx) = datestr.find('-') {
         let year = &datestr[0..idx];
         if s.contains(year) {
-            report.error(format!("MeetName '{}' must not contain the year", s));
+            report.error(format!("MeetName '{s}' must not contain the year"));
         }
     }
 
@@ -275,7 +286,7 @@ pub fn check_meetname(
 }
 
 /// Gets the default RuleSet for this meet.
-fn get_configured_ruleset(config: Option<&Config>, date: Option<Date>) -> RuleSet {
+fn configured_ruleset(config: Option<&Config>, date: Option<Date>) -> RuleSet {
     // If there is incomplete specification, just use the defaults.
     if config.is_none() || date.is_none() {
         return RuleSet::default();
@@ -300,7 +311,7 @@ fn check_ruleset(s: &str, report: &mut Report) -> RuleSet {
     match s.parse::<RuleSet>() {
         Ok(ruleset) => ruleset,
         Err(_) => {
-            report.error(format!("Failed parsing RuleSet '{}'", s));
+            report.error(format!("Failed parsing RuleSet '{s}'"));
             RuleSet::default()
         }
     }
@@ -310,18 +321,15 @@ fn check_ruleset(s: &str, report: &mut Report) -> RuleSet {
 ///
 /// Extracting this out into a `Reader`-specific function is useful
 /// for creating tests that do not have a backing CSV file.
-pub fn do_check<R>(
+pub fn do_check<R: io::Read>(
     rdr: &mut csv::Reader<R>,
     config: Option<&Config>,
     mut report: Report,
     meetpath: String,
-) -> Result<MeetCheckResult, Box<dyn Error>>
-where
-    R: io::Read,
-{
+) -> Result<MeetCheckResult, Box<dyn Error>> {
     // Remember the number of errors at the start.
     // If the number increased during checking, don't return a parsed Meet struct.
-    let initial_errors = report.count_errors();
+    let initial_errors = report.count_messages().errors();
 
     // Verify column headers. Only continue if they're valid.
     check_headers(rdr.headers()?, &mut report);
@@ -337,24 +345,19 @@ where
     }
 
     // Check the required columns.
-    let federation = check_federation(record.get(0).unwrap(), &mut report);
-    let date = check_date(record.get(1).unwrap(), &mut report);
-    let country = check_meetcountry(record.get(2).unwrap(), &mut report);
-    let state = check_meetstate(record.get(3).unwrap(), &mut report, country);
-    let town = check_meettown(record.get(4).unwrap(), &mut report);
-    let name = check_meetname(
-        record.get(5).unwrap(),
-        &mut report,
-        record.get(0).unwrap(),
-        record.get(1).unwrap(),
-    );
+    let federation = check_federation(&record[0], &mut report);
+    let date = check_date(&record[1], &mut report);
+    let country = check_meetcountry(&record[2], &mut report);
+    let state = check_meetstate(&record[3], &mut report, country);
+    let town = check_meettown(&record[4], &mut report);
+    let name = check_meetname(&record[5], &mut report, &record[0], &record[1]);
 
     // Check the optional columns.
     // The RuleSet is set to the federation default, unless it's overridden.
     let ruleset = if record.len() > REQUIRED_HEADERS.len() {
         check_ruleset(record.get(REQUIRED_HEADERS.len()).unwrap(), &mut report)
     } else {
-        get_configured_ruleset(config, date)
+        configured_ruleset(config, date)
     };
 
     // Attempt to read another row -- but there shouldn't be one.
@@ -362,47 +365,42 @@ where
         report.error("Too many rows");
     }
 
-    // If all mandatory data is present, and there were no errors,
-    // forward a post-parsing Meet struct to the Entry-parsing phase.
-    if initial_errors == report.count_errors()
-        && federation.is_some()
-        && date.is_some()
-        && country.is_some()
-        && name.is_some()
-    {
-        let meet = Meet {
-            path: meetpath,
-            federation: federation.unwrap(),
-            date: date.unwrap(),
-            country: country.unwrap(),
-            state,
-            town,
-            name: name.unwrap(),
-            ruleset,
-        };
-        Ok(MeetCheckResult {
-            report,
-            meet: Some(meet),
-        })
-    } else {
-        Ok(MeetCheckResult { report, meet: None })
+    // If there were errors, return early.
+    if initial_errors != report.count_messages().errors() {
+        return Ok(MeetCheckResult { report, meet: None });
+    }
+
+    match (federation, date, country, name) {
+        (Some(federation), Some(date), Some(country), Some(name)) => {
+            let meet = Some(Meet {
+                path: meetpath,
+                federation,
+                date,
+                country,
+                state,
+                town,
+                name,
+                ruleset,
+            });
+            Ok(MeetCheckResult { report, meet })
+        }
+        _ => Ok(MeetCheckResult { report, meet: None }),
     }
 }
 
 /// Checks a single meet.csv string, used by the server.
-pub fn check_meet_from_string(meet_csv: &str) -> Result<MeetCheckResult, Box<dyn Error>> {
+pub fn check_meet_from_string(
+    reader: &csv::ReaderBuilder,
+    meet_csv: &str,
+) -> Result<MeetCheckResult, Box<dyn Error>> {
     let report = Report::new(PathBuf::from("uploaded/content"));
-
-    let mut rdr = csv::ReaderBuilder::new()
-        .quoting(false)
-        .terminator(csv::Terminator::Any(b'\n'))
-        .from_reader(meet_csv.as_bytes());
-
-    Ok(do_check(&mut rdr, None, report, "upload".to_string())?)
+    let mut rdr = reader.from_reader(meet_csv.as_bytes());
+    do_check(&mut rdr, None, report, "upload".to_string())
 }
 
 /// Checks a single meet.csv file by path.
 pub fn check_meet(
+    reader: &csv::ReaderBuilder,
     meet_csv: PathBuf,
     config: Option<&Config>,
 ) -> Result<MeetCheckResult, Box<dyn Error>> {
@@ -415,12 +413,8 @@ pub fn check_meet(
         return Ok(MeetCheckResult { report, meet: None });
     }
 
-    let meetpath = check_meetpath(&mut report).unwrap_or_else(String::new);
+    let meetpath = check_meetpath(&mut report).unwrap_or_default();
 
-    let mut rdr = csv::ReaderBuilder::new()
-        .quoting(false)
-        .terminator(csv::Terminator::Any(b'\n'))
-        .from_path(&report.path)?;
-
-    Ok(do_check(&mut rdr, config, report, meetpath)?)
+    let mut rdr = reader.from_path(&report.path)?;
+    do_check(&mut rdr, config, report, meetpath)
 }

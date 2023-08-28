@@ -19,7 +19,7 @@ Boys,55.79,9,Bryon Davidson,Corpus Christi Calallen,52.16,86.18,43.09,113.4,242.
 Boys,59.87,1,Given McClure,Corpus Christi Calallen,58.51,161.03,102.06,181.44,444.52,Single-ply,SBD,M
 Boys,59.87,2,Johnny Guerra,Orange Grove,59.6,147.42,79.38,158.76,385.55,Single-ply,SBD,M
 Boys,59.87,3,Aaron Gonzales,Mathis,56.52,142.88,81.65,158.76,383.29,Single-ply,SBD,M
-Boys,59.87,4,Richard Brown,Orange Grove,58.97,145.15,70.31,163.29,378.75,Single-ply,SBD,M
+Boys,59.87,4,Richard Brown #4,Orange Grove,58.97,145.15,70.31,163.29,378.75,Single-ply,SBD,M
 Boys,59.87,5,Gabriel Ramirez,Ben Bolt-Palito Blanco,58.79,136.08,86.18,154.22,376.48,Single-ply,SBD,M
 Boys,59.87,6,Rogelio Santiago,Corpus Christi Calallen,57.79,117.93,77.11,147.42,342.46,Single-ply,SBD,M
 Boys,59.87,7,Steven Garza,Crystal City,59.15,127.01,72.57,142.88,342.46,Single-ply,SBD,M
@@ -38,12 +38,12 @@ Boys,67.13,6,Arturo Cervantez,Crystal City,66.5,151.95,92.99,165.56,410.5,Single
 Boys,67.13,7,Jared Reilly,Corpus Christi Calallen,66.04,158.76,88.45,154.22,401.43,Single-ply,SBD,M
 Boys,67.13,8,Jay Trevino,Banquete,65.77,133.81,99.79,147.42,381.02,Single-ply,SBD,M
 Boys,67.13,9,Andrew Cavazos,Corpus Christi West Oso,65.86,129.27,70.31,145.15,344.73,Single-ply,SBD,M
-Boys,67.13,10,Michael Garcia,Alice,64.95,127.01,65.77,142.88,335.66,Single-ply,SBD,M
+Boys,67.13,10,Michael Garcia #13,Alice,64.95,127.01,65.77,142.88,335.66,Single-ply,SBD,M
 Boys,67.13,11,Julian Salas,Orange Grove,65.77,124.74,79.38,124.74,328.85,Single-ply,SBD,M
 Boys,67.13,12,Austin Castillo,Corpus Christi Calallen,65.86,117.93,74.84,136.08,328.85,Single-ply,SBD,M
 Boys,74.84,13,Mason Garcilazo,Aransas Pass,67.31,124.74,74.84,129.27,328.85,Single-ply,SBD,M
 Boys,67.13,14,Jesse Canales,Dilley,66.86,106.59,83.91,136.08,326.59,Single-ply,SBD,M
-Boys,67.13,15,Jacob Rodriguez,Crystal City,61.23,124.74,63.5,136.08,324.32,Single-ply,SBD,M
+Boys,67.13,15,Jacob Rodriguez #10,Crystal City,61.23,124.74,63.5,136.08,324.32,Single-ply,SBD,M
 Boys,67.13,16,Lorenzo Landin,Gregory-Portland,65.5,113.4,63.5,122.47,299.37,Single-ply,SBD,M
 Boys,67.13,17,Pedro Garcia,Corpus Christi Tuloso-Midway,66.68,97.52,68.04,106.59,272.16,Single-ply,SBD,M
 Boys,67.13,18,Cody Salinas,Riviera Kaufer,63.41,70.31,63.5,124.74,258.55,Single-ply,SBD,M
@@ -55,7 +55,7 @@ Boys,67.13,DQ,Lawrence Van Rumar,Odem,65.95,154.22,,,,Single-ply,S,M
 Boys,67.13,DQ,Phillip Garfield,Dilley,66.77,52.16,36.29,,,Single-ply,SB,M
 Boys,67.13,DQ,Vincent Valdez,Aransas Pass,65.86,83.91,,,,Single-ply,S,M
 Boys,67.13,DQ,Dillion Torres,Beeville Jones,64.05,131.54,,,,Single-ply,S,M
-Boys,67.13,DQ,Anthony Lee,Freer,64.86,,,,,Single-ply,S,M
+Boys,67.13,DQ,Anthony Lee #3,Freer,64.86,,,,,Single-ply,S,M
 Boys,67.13,DQ,Nicholas Adame,Freer,60.51,,,,,Single-ply,S,M
 Boys,67.13,DQ,Jeremy Sauceda,Corpus Christi Tuloso-Midway,66.86,,,,,Single-ply,S,M
 Boys,67.13,DQ,Antonio Camacho,Robstown,60.33,,,,,Single-ply,S,M
@@ -70,7 +70,7 @@ Boys,74.84,8,Adam Guerrero #1,George West,69.94,188.24,106.59,185.97,480.81,Sing
 Boys,74.84,9,Nick Fisher #2,Rockport-Fulton,71.58,174.63,86.18,192.78,453.59,Single-ply,SBD,M
 Boys,74.84,10,Thomas Garcia,Dilley,72.21,165.56,104.33,183.7,453.59,Single-ply,SBD,M
 Boys,74.84,11,Alex Medrano,Dilley,73.39,181.44,83.91,192.78,458.13,Single-ply,SBD,M
-Boys,74.84,12,Eddie Flores,Dilley,70.31,170.1,92.99,163.29,426.38,Single-ply,SBD,M
+Boys,74.84,12,Edison Flores,Dilley,70.31,170.1,92.99,163.29,426.38,Single-ply,SBD,M
 Boys,74.84,13,Phillip Alvarez,George West,70.4,142.88,97.52,181.44,421.84,Single-ply,SBD,M
 Boys,74.84,14,Christian Stiles,Corpus Christi Calallen,68.67,151.95,83.91,183.7,419.57,Single-ply,SBD,M
 Boys,74.84,15,Jordam Boone,Kingsville King,71.67,145.15,102.06,167.83,415.04,Single-ply,SBD,M
@@ -103,7 +103,7 @@ Boys,82.1,6,Kameron Handy,Corpus Christi Tuloso-Midway,80.29,188.24,113.4,192.78
 Boys,82.1,7,Andrew Benavides,Corpus Christi Tuloso-Midway,78.47,188.24,120.2,181.44,489.88,Single-ply,SBD,M
 Boys,82.1,8,Jacob Castillo,Alice,80.65,165.56,124.74,199.58,489.88,Single-ply,SBD,M
 Boys,82.1,9,Fabian Gonzales,Kingsville King,78.29,179.17,111.13,181.44,471.74,Single-ply,SBD,M
-Boys,89.81,10,James Sims,Rockport-Fulton,82.28,176.9,83.91,190.51,451.32,Single-ply,SBD,M
+Boys,89.81,10,James Sims #3,Rockport-Fulton,82.28,176.9,83.91,190.51,451.32,Single-ply,SBD,M
 Boys,82.1,11,Jacob Muniz,Three Rivers,77.84,170.1,95.25,183.7,449.06,Single-ply,SBD,M
 Boys,82.1,12,Kirk Salinas,Banquete,79.83,142.88,115.67,167.83,426.38,Single-ply,SBD,M
 Boys,82.1,13,Andrew Reyes,Rockport-Fulton,81.01,158.76,95.25,167.83,421.84,Single-ply,SBD,M
@@ -133,7 +133,7 @@ Boys,89.81,8,Luis Lopez #3,San Diego,87,199.58,113.4,190.51,503.49,Single-ply,SB
 Boys,89.81,9,Chris Castillo,Corpus Christi Tuloso-Midway,88.9,181.44,104.33,201.85,487.61,Single-ply,SBD,M
 Boys,89.81,10,Justin DeLeon,Mathis,89.36,183.7,88.45,185.97,458.13,Single-ply,SBD,M
 Boys,99.79,11,Abel Gonzalez,Dilley,89.99,183.7,92.99,176.9,453.59,Single-ply,SBD,M
-Boys,89.81,12,Carlos Hernandez,Corpus Christi West Oso,84.1,183.7,104.33,136.08,424.11,Single-ply,SBD,M
+Boys,89.81,12,Carlos Hernandez #12,Corpus Christi West Oso,84.1,183.7,104.33,136.08,424.11,Single-ply,SBD,M
 Boys,89.81,13,Zach Leal,Robstown,87.45,145.15,113.4,161.03,419.57,Single-ply,SBD,M
 Boys,89.81,14,Josh Chrisman,Rockport-Fulton,83.46,151.95,102.06,158.76,412.77,Single-ply,SBD,M
 Boys,89.81,15,Weston Carroll,Beeville Jones,84.37,151.95,102.06,147.42,401.43,Single-ply,SBD,M
@@ -141,7 +141,7 @@ Boys,89.81,16,Philip Barrientos,Bishop,84.1,142.88,92.99,142.88,378.75,Single-pl
 Boys,89.81,17,Jake Baker,Three Rivers,84.37,129.27,83.91,161.03,374.21,Single-ply,SBD,M
 Boys,89.81,18,Adan Serda,Odem,84.55,129.27,102.06,142.88,374.21,Single-ply,SBD,M
 Boys,99.79,19,Rene Luna,Robstown,89.9,102.06,92.99,161.03,356.07,Single-ply,SBD,M
-Boys,89.81,20,Joe Castillo,Corpus Christi West Oso,83.46,154.22,65.77,102.06,322.05,Single-ply,SBD,M
+Boys,89.81,20,Joe Castillo #1,Corpus Christi West Oso,83.46,154.22,65.77,102.06,322.05,Single-ply,SBD,M
 Boys,89.81,21,Adrian Arredondo,Riviera Kaufer,87.63,90.72,104.33,127.01,322.05,Single-ply,SBD,M
 Boys,89.81,22,Mikael Carrion,Corpus Christi Tuloso-Midway,86.82,104.33,56.7,108.86,269.89,Single-ply,SBD,M
 Boys,89.81,DQ,Omar Espinosa,Dilley,86.82,163.29,,,,Single-ply,SBD,M
@@ -192,7 +192,7 @@ Boys,109.77,2,Cecilio Zarate,Corpus Christi West Oso,106.96,249.48,122.47,208.65
 Boys,109.77,3,Aaron Liserio,Mathis,109.23,249.48,108.86,215.46,573.79,Single-ply,SBD,M
 Boys,109.77,4,Jesus Benavides,Ben Bolt-Palito Blanco,103.06,204.12,156.49,204.12,564.72,Single-ply,SBD,M
 Boys,124.74,5,Chris Flores,Port Lavaca Calhoun,109.95,249.48,117.93,197.31,564.72,Single-ply,SBD,M
-Boys,109.77,6,Cody Morris,Corpus Christi Calallen,101.97,226.8,108.86,226.8,562.45,Single-ply,SBD,M
+Boys,109.77,6,Cody Morris #3,Corpus Christi Calallen,101.97,226.8,108.86,226.8,562.45,Single-ply,SBD,M
 Boys,109.77,7,Frank Trevino,San Diego,107.5,206.38,124.74,215.46,546.58,Single-ply,SBD,M
 Boys,109.77,8,Jacob Moreno,Mathis,103.24,204.12,97.52,215.46,517.1,Single-ply,SBD,M
 Boys,109.77,9,John Herrera,Banquete,106.68,165.56,133.81,204.12,503.49,Single-ply,SBD,M
@@ -218,7 +218,7 @@ Boys,124.74,4,Kaleb Tichkausky,Three Rivers,121.56,215.46,149.69,222.26,587.4,Si
 Boys,124.74,5,Daniel Gonzalez,Robstown,120.29,204.12,129.27,192.78,526.17,Single-ply,SBD,M
 Boys,124.74,6,Mario Alaniz,San Diego,117.93,192.78,108.86,217.72,519.36,Single-ply,SBD,M
 Boys,124.74,7,Joseph Solis,Rockport-Fulton,112.13,199.58,108.86,183.7,492.15,Single-ply,SBD,M
-Boys,124.74,8,Matt Watson #4,Corpus Christi Tuloso-Midway,114.76,147.42,117.93,163.29,428.64,Single-ply,SBD,M
+Boys,124.74,8,Matt Watson #2,Corpus Christi Tuloso-Midway,114.76,147.42,117.93,163.29,428.64,Single-ply,SBD,M
 Boys,124.74,9,Jeffery Garcia,Carrizo Springs,114.49,122.47,106.59,113.4,342.46,Single-ply,SBD,M
 Boys,124.74,DQ,Manuel Villalobos,Corpus Christi Calallen,119.2,208.65,138.35,,,Single-ply,SBD,M
 Boys,124.74,DQ,Antonio Galvan,Aransas Pass,112.58,206.38,106.59,,,Single-ply,SBD,M

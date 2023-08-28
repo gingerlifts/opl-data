@@ -17,12 +17,12 @@ DQ,52,F,Open,Mervi Sirkiä,1972,51.7,Finland,,,B,Single-ply
 4,56,F,Open,Tatjana Ushkova,1965,55.7,Russia,100,100,B,Single-ply
 5,56,F,Open,Dana Matejova,1975,55.6,Slovakia,97.5,97.5,B,Single-ply
 6,56,F,Open,Marion Braun,1972,52.6,Austria,95,95,B,Single-ply
-7,56,F,Open,Karin Von Riewel,1948,55.5,Germany,92.5,92.5,B,Single-ply
+7,56,F,Open,Karin von Riewel,1948,55.5,Germany,92.5,92.5,B,Single-ply
 8,56,F,Open,Alison Kavanagh,1968,53.8,UK,57.5,57.5,B,Single-ply
 DQ,56,F,Open,Shelley Radcliffe,1970,55.2,USA,,,B,Single-ply
 1,60,F,Open,Helena Heiniluoma,1962,58.3,Finland,120,120,B,Single-ply
 2,60,F,Open,Clara Kasbarian,1959,59.1,France,115,115,B,Single-ply
-3,60,F,Open,Amy Hughes,1968,57.3,USA,105,105,B,Single-ply
+3,60,F,Open,Amy Hughes #3,1968,57.3,USA,105,105,B,Single-ply
 4,60,F,Open,Elena Fomina,1969,58.4,Russia,105,105,B,Single-ply
 5,60,F,Open,Claudine Neumann,1963,59.9,Germany,105,105,B,Single-ply
 6,60,F,Open,Anita Danieluk,1959,58.7,Germany,97.5,97.5,B,Single-ply
@@ -60,7 +60,7 @@ DQ,56,M,Open,Kerwin Unten,,55.5,USA,,,B,Single-ply
 1,60,M,Open,Magnus Carlsson,1967,59,Sweden,190,190,B,Single-ply
 2,60,M,Open,Valeriy Bogdanov,1970,58.7,Russia,170,170,B,Single-ply
 3,60,M,Open,Alphons Cucucella,1966,59.5,France,155,155,B,Single-ply
-4,60,M,Open,James Lawrence,1959,59.2,USA,152.5,152.5,B,Single-ply
+4,60,M,Open,Jim Lawrence,1959,59.2,USA,152.5,152.5,B,Single-ply
 5,60,M,Open,Yung-Chang Lee,1960,59.6,Taiwan,147.5,147.5,B,Single-ply
 6,60,M,Open,Andreas Röhr,1969,59.8,Germany,147.5,147.5,B,Single-ply
 7,60,M,Open,Valery Godunov,1974,60,Belarus,140,140,B,Single-ply
@@ -102,7 +102,7 @@ DQ,75,M,Open,Espen Kirkhaug,1971,74.7,Norway,,,B,Single-ply
 6,82.5,M,Open,Michael Wegerer,1970,80.3,Austria,212.5,212.5,B,Single-ply
 7,82.5,M,Open,Yashuhiro Takei,1958,80.4,Japan,210,210,B,Single-ply
 8,82.5,M,Open,Rene Imesch,1963,80.8,Switzerland,210,210,B,Single-ply
-9,82.5,M,Open,Marek Markwart,1952,82.1,Poland,200,200,B,Single-ply
+9,82.5,M,Open,Marek Markwat,1952,82.1,Poland,200,200,B,Single-ply
 10,82.5,M,Open,Alexander Sladkov,1966,82.2,Russia,200,200,B,Single-ply
 11,82.5,M,Open,Petr Theuser,1961,82.2,Czechia,190,190,B,Single-ply
 12,82.5,M,Open,Ingvar Axelsson,1972,81.7,Sweden,185,185,B,Single-ply

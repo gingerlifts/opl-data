@@ -4,7 +4,7 @@ Place,Name,Division,BirthYear,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Be
 1,Mariya Davydenko,O,1975,Ukraine,53.6,-35,35,-37.5,35,,56,F,Марія Давиденко,Multi-ply,B,35
 1,Tetyana Kalugina,O,1980,Ukraine,58,80,87.5,-95,87.5,,60,F,Тетяна Калугіна,Multi-ply,B,87.5
 2,Natalya Permyakova,O,1976,Ukraine,60,65,72.5,75,75,,60,F,Наталья Пермякова,Multi-ply,B,75
-3,Katerina Simonova,O,1981,Ukraine,60,35,40,-42.5,40,,60,F,Катерина Сімонова,Multi-ply,B,40
+3,Kateřina Šimonová,O,1981,Ukraine,60,35,40,-42.5,40,,60,F,Катерина Сімонова,Multi-ply,B,40
 1,Viktoriya Ataeva,M1,1965,Ukraine,60,72.5,82.5,-90,82.5,,60,F,Вікторія Атаєва,Multi-ply,B,82.5
 1,Maryna Khristoforova,M1,1966,Ukraine,64.3,90,92.5,95,95,-97.5,67.5,F,Марина Христофорова,Multi-ply,B,95
 1,Inna Yudina,O,1978,Ukraine,72.2,50,55,57.5,57.5,60,75,F,Інна Юдіна,Multi-ply,B,57.5
@@ -12,7 +12,7 @@ Place,Name,Division,BirthYear,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Be
 1,Oleg Gorbunov,T3,1990,Ukraine,50.3,100,-112.5,-112.5,100,,52,M,Олег Горбунов,Multi-ply,B,100
 1,Olexiy Gornyy,T2,1992,Ukraine,54.4,75,80,82.5,82.5,,56,M,Олексій Горний,Multi-ply,B,82.5
 1,Andriy Kirkush,T1,1994,Ukraine,59.6,55,60,-65,60,,60,M,Андрій Кіркуш,Multi-ply,B,60
-1,Daniil Fomin,T2,1992,Ukraine,58.9,77.5,82.5,85,85,,60,M,Даніїл Фомін,Multi-ply,B,85
+1,Daniil Fomin #1,T2,1992,Ukraine,58.9,77.5,82.5,85,85,,60,M,Даніїл Фомін,Multi-ply,B,85
 1,Sergiy Redka,T3,1990,Ukraine,60,130,135,137.5,137.5,,60,M,Сергій Редька,Multi-ply,B,137.5
 2,Eduard Chernat,T3,1989,Moldova,60,120,-130,-130,120,,60,M,,Multi-ply,B,120
 1,Anton Leschik,J,1988,Ukraine,58.3,100,107.5,110,110,,60,M,Антон Лещик,Multi-ply,B,110
@@ -23,14 +23,14 @@ Place,Name,Division,BirthYear,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Be
 1,Mikhail Ozhog,O,1977,Moldova,65.4,130,140,-150,140,,67.5,M,,Multi-ply,B,140
 2,Yevgen Yaroslavskyy,O,1983,Ukraine,65.8,-100,-105,105,105,,67.5,M,Євген Ярославський,Multi-ply,B,105
 1,Sergiy Schur,T3,1989,Ukraine,72,115,125,-130,125,,75,M,Сергій Щур,Multi-ply,B,125
-1,Igor Ivanov,J,1985,Ukraine,74.4,130,137.5,142.5,142.5,,75,M,Ігор Іванов,Multi-ply,B,142.5
+1,Igor Ivanov #2,J,1985,Ukraine,74.4,130,137.5,142.5,142.5,,75,M,Ігор Іванов,Multi-ply,B,142.5
 2,Denys Vostrikov,J,1988,Ukraine,72.1,125,135.5,-140,135.5,,75,M,Денис Востріков,Multi-ply,B,135.5
 3,Nazar Zozulyak,J,1988,Ukraine,74.3,75,80,-85,80,,75,M,Назар Зозуляк,Multi-ply,B,80
 1,Roman Zuzuk,O,1971,Ukraine,73.6,175,-191,,175,,75,M,Роман Зузук,Multi-ply,B,175
 2,Andriy Kudryavtsev,O,1974,,71.2,155,162.5,167.5,167.5,,75,M,Андрій Кудрявцев,Multi-ply,B,167.5
 3,Oleksiy Slyuschenko,O,1984,Ukraine,73.2,130,140,-145,140,,75,M,Олексій Слющенко,Multi-ply,B,140
 4,Mykola Vlasyuk,O,1981,Ukraine,73.2,135,140,-145,140,,75,M,Микола Власюк,Multi-ply,B,140
-5,Igor Povazhnyuk,O,1974,Ukraine,70.7,125,-135,-135,125,,75,M,Игорь Поважнюк,Multi-ply,B,125
+5,Igor Povazhnyuk,O,1974,Ukraine,70.7,125,-135,-135,125,,75,M,Ігор Поважнюк,Multi-ply,B,125
 1,Sergiy Pundik,M2,1964,Ukraine,68.2,95,100,105,105,,75,M,Сергій Пундік,Multi-ply,B,105
 1,Peter Kravtsov,M5,1946,Ukraine,70.85,105,110,112.5,112.5,115,75,M,,Single-ply,B,112.5
 1,Volodymyr Manchuk,M6,1940,Ukraine,75,95,100,105,105,107.5,75,M,Володимир Манчук,Multi-ply,B,105
@@ -55,7 +55,7 @@ Place,Name,Division,BirthYear,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Be
 2,Sergiy Polutin,O,1975,Ukraine,100,220,-230.5,-230.5,220,,100,M,Сергій Полутін,Multi-ply,B,220
 3,Volodymyr Schuka,O,1976,Ukraine,97.75,-155,-165,165,165,,100,M,Володимир Щука,Multi-ply,B,165
 DQ,Yuriy Prymych,O,1984,Ukraine,93.4,-50,-70,,,,100,M,Юрій Примич,Multi-ply,B,
-1,Vyacheslav Gorbunov,M1,1967,Ukraine,90.2,140,150,152.5,152.5,,100,M,Вячеслав Горбунов,Multi-ply,B,152.5
+1,Vyacheslav Gorbunov #1,M1,1967,Ukraine,90.2,140,150,152.5,152.5,,100,M,В'ячеслав Горбунов,Multi-ply,B,152.5
 2,Sergiy Zhukotskyy,M1,1966,Ukraine,91.7,145,150,152.5,152.5,,100,M,Сергій Жукоцький,Multi-ply,B,152.5
 3,Igor Shubin,M1,1964,Ukraine,90.2,140,145,-150,145,,100,M,Ігор Шубін,Multi-ply,B,145
 1,Aleksey Khromenkov,M3,1957,Ukraine,92.4,105,112.5,115,115,,100,M,Алексей Хроменков,Multi-ply,B,115
@@ -74,7 +74,7 @@ DQ,Yuriy Prymych,O,1984,Ukraine,93.4,-50,-70,,,,100,M,Юрій Примич,Mult
 1,Oleksiy Bufalov,O,1979,Ukraine,134.7,180,185,-190,185,,140,M,Олексій Буфалов,Multi-ply,B,185
 2,Oleg Kasyanenko,O,1971,Ukraine,136,170,180,-190,180,,140,M,Олег Кась'яненко,Multi-ply,B,180
 1,Andriy Grin,M1,1968,,125.4,225,235,242.5,242.5,,140,M,Андрій Гринь,Multi-ply,B,242.5
-1,Aleksey Lisogor,J,1986,Ukraine,146.5,190,202.5,212.5,212.5,220,140+,M,Алексей Лисогор,Multi-ply,B,212.5
+1,Oleksiy Lisogor,J,1986,Ukraine,146.5,190,202.5,212.5,212.5,220,140+,M,Олексій Лісогор,Multi-ply,B,212.5
 1,Sergiy Veselovskiy,M1,1967,Ukraine,140.3,200,210,217.5,217.5,,140+,M,Сергій Веселовський,Multi-ply,B,217.5
 1,Kostyantyn Golubev,M2,1962,Ukraine,140.8,170,185,192.5,192.5,,140+,M,Костянтин Голубєв,Multi-ply,B,192.5
 1,Yevgeniya Stefanova,T2,1991,Ukraine,43.5,30,35,-37.5,35,,44,F,Євгенія Стефанова,Multi-ply,B,35
@@ -132,5 +132,5 @@ DQ,Vitaliy Chorniy,O,1984,Ukraine,118.65,-310,-310,-310,,,125,M,Віталій �
 1,Vitaliy Soldatenko,M1,1967,Ukraine,124.7,280,300,-305,300,,125,M,Віталій Солдатенко,Multi-ply,B,300
 2,Vladyslav Fesun,M1,1967,Ukraine,115.4,190,200,-210,200,,125,M,Владислав Фесун,Multi-ply,B,200
 1,Oleksandr Gonchar,O,1978,Ukraine,130.1,-320,320,,320,,140,M,Олександр Гончар,Multi-ply,B,320
-1,Aleksey Lisogor,J,1986,Ukraine,147.6,240,250,270,270,,140+,M,Алексей Лисогор,Multi-ply,B,270
+1,Oleksiy Lisogor,J,1986,Ukraine,147.6,240,250,270,270,,140+,M,Олексій Лісогор,Multi-ply,B,270
 1,Kostyantyn Golubev,M2,1962,Ukraine,140.8,230,240,250,250,,140+,M,Костянтин Голубєв,Multi-ply,B,250

@@ -2,7 +2,7 @@ Name,Division,WeightClassKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Pl
 Mike Gardiner,Masters 1,66,235,140,230,605,1,Single-ply,SBD,M
 Brian Choi,Juniors,66,187.5,125,206,518.5,2,Single-ply,SBD,M
 Bruce Park,Masters 4,66,135,80,187.5,402.5,3,Single-ply,SBD,M
-Ryan Stewart,Special Olympics,66,55,62.5,95,212.5,4,Single-ply,SBD,M
+Ryan Stewart #1,Special Olympics,66,55,62.5,95,212.5,4,Single-ply,SBD,M
 John Strachan,Open,74,240,163.5,232.5,636,1,Single-ply,SBD,M
 Steve Barnes,Masters 2,74,222.5,160,240,622.5,2,Single-ply,SBD,M
 Stephen Pickens,Masters 2,74,190,122.5,200,512.5,3,Single-ply,SBD,M
@@ -16,7 +16,7 @@ Brett Gibbs,Juniors,83,280,212.5,272.5,765,1,Single-ply,SBD,M
 Ben Wood,Open,83,240,200,240,680,2,Single-ply,SBD,M
 Leon Jones,Open,83,230,160,235,625,3,Single-ply,SBD,M
 Matt Gardyne,Open,83,215,155,250,620,4,Single-ply,SBD,M
-Stephen King,Masters 1,83,255,130,227.5,612.5,5,Single-ply,SBD,M
+Stephen King #1,Masters 2,83,255,130,227.5,612.5,5,Single-ply,SBD,M
 Hayden Pritchard,Open,83,220,125,262.5,607.5,6,Single-ply,SBD,M
 Sam Fowler #5,Open,83,225,137.5,232.5,595,7,Single-ply,SBD,M
 Jamie Kett,Masters 2,83,190,135,202.5,527.5,8,Single-ply,SBD,M
@@ -37,7 +37,7 @@ Julian Perry,Masters 1,93,215,140,240,595,7,Single-ply,SBD,M
 Sam Matthews,Juniors,93,235,127.5,212.5,575,8,Single-ply,SBD,M
 Trevor Bills,Masters 2,93,195,172.5,205,572.5,9,Single-ply,SBD,M
 Andrew de Vine,Juniors,93,205,142.5,220,567.5,10,Single-ply,SBD,M
-Hayden Lee,Sub-Juniors,93,200,105,220,525,11,Single-ply,SBD,M
+Hayden Lee #1,Sub-Juniors,93,200,105,220,525,11,Single-ply,SBD,M
 John Rippon,Masters 3,93,160,135,218,513,12,Single-ply,SBD,M
 Toso Ieti,Masters 4,93,145,150,190,485,13,Single-ply,SBD,M
 John Gyenge,Masters 2,93,155,120,170,445,14,Single-ply,SBD,M
@@ -52,7 +52,7 @@ Edward Anderson,Masters 2,105,260,170,242.5,672.5,7,Single-ply,SBD,M
 Troy Marshall,Open,105,245,165,245,655,8,Single-ply,SBD,M
 William Quinn,Masters 2,105,250,110,260,620,9,Single-ply,SBD,M
 Robert Quigley-McBride,Juniors,105,242.5,152.5,217.5,612.5,10,Single-ply,SBD,M
-Tyler Simpson,Open,105,205,145,257.5,607.5,11,Single-ply,SBD,M
+Tyler Simpson #1,Open,105,205,145,257.5,607.5,11,Single-ply,SBD,M
 Jacob Parry,Open,105,210,135,255,600,12,Single-ply,SBD,M
 Warren Trent,Masters 3,105,235,132.5,220,587.5,13,Single-ply,SBD,M
 Tony Oliver,Masters 1,105,230,120,225,575,14,Single-ply,SBD,M
@@ -70,7 +70,7 @@ Tim Hintz,Open,120,290,170,240,700,6,Single-ply,SBD,M
 Warren Russell,Masters 1,120,237.5,185,205,627.5,7,Single-ply,SBD,M
 Geoffrey Holmes,Masters 2,120,200,110,200,510,8,Single-ply,SBD,M
 Constantinos Alexopoulos,Open,120+,300,210,290,800,1,Single-ply,SBD,M
-Trevor Walker #2,Masters 1,120+,272.5,175,232.5,680,2,Single-ply,SBD,M
+Trevor Walker,Masters 1,120+,272.5,175,232.5,680,2,Single-ply,SBD,M
 Celia McMillan,Open,52,132.5,92.5,140,365,1,Single-ply,SBD,F
 Tania Pitt-Guthrie,Masters 1,52,124,75,120,319,2,Single-ply,SBD,F
 Ali Gascoine,Masters 1,52,85,60,140,285,3,Single-ply,SBD,F

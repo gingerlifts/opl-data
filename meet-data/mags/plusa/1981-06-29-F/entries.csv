@@ -1,6 +1,6 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 S. Pickard,,Open,F,95.25,43.09,117.93,256.28,SBD,Single-ply,2
-T. Wood,,Open,F,88.45,43.09,102.06,233.6,SBD,Single-ply,3
+Tami Wood,,Open,F,88.45,43.09,102.06,233.6,SBD,Single-ply,3
 Reba Seybold,,Open,F,106.59,70.31,136.08,312.98,SBD,Single-ply,1
 M. Smith #28,,Open,F,77.11,38.56,99.79,215.46,SBD,Single-ply,4
 Jim Smith #2,52,Open,M,149.69,61.24,165.56,376.48,SBD,Single-ply,1
@@ -13,7 +13,7 @@ R. Smallfoot,56,Open,M,108.86,79.38,170.1,358.34,SBD,Single-ply,5
 G. Walker,60,Open,M,149.69,104.33,181.44,435.45,SBD,Single-ply,1
 R. Heckens,60,Open,M,154.22,86.18,176.9,417.31,SBD,Single-ply,2
 L. Cline,60,Open,M,147.42,74.84,192.78,415.04,SBD,Single-ply,3
-R. Schmidt,60,Open,M,170.1,77.11,158.76,405.97,SBD,Single-ply,4
+Rick Schmidt,60,Open,M,170.1,77.11,158.76,405.97,SBD,Single-ply,4
 K. Russell,60,Open,M,136.08,83.91,172.37,392.36,SBD,Single-ply,5
 J. Brown,60,Open,M,99.79,83.91,151.95,335.66,SBD,Single-ply,6
 T. Reiss,60,Open,M,113.4,65.77,151.95,331.12,SBD,Single-ply,7
@@ -48,17 +48,17 @@ R. Maret,82.5,Open,M,201.85,142.88,199.58,544.31,SBD,Single-ply,6
 Rusin van Dyke,82.5,Open,M,172.37,124.74,192.78,489.88,SBD,Single-ply,8
 B. Weskamp,82.5,Open,M,185.97,122.47,226.8,535.24,SBD,Single-ply,7
 R. Lee,82.5,Open,M,149.69,131.54,199.58,480.81,SBD,Single-ply,9
-R. Wacker,82.5,Open,M,147.42,108.86,215.46,471.74,SBD,Single-ply,10
+Richard Wacker,82.5,Open,M,147.42,108.86,215.46,471.74,SBD,Single-ply,10
 S. Rouse,82.5,Open,M,158.76,106.59,183.71,449.06,SBD,Single-ply,11
 Dave Hazelwood,82.5,Open,M,,,,,SBD,Single-ply,DQ
 Ed Nellor,82.5,Open,M,,,,,SBD,Single-ply,DQ
-J. Failla,82.5,Open,M,217.72,179.17,,,SBD,Single-ply,DQ
+Joe Failla,82.5,Open,M,217.72,179.17,,,SBD,Single-ply,DQ
 C. Sweatt,90,Open,M,233.6,179.17,290.3,703.07,SBD,Single-ply,1
 Sonny Beisner,90,Open,M,238.14,163.29,299.37,700.8,SBD,Single-ply,2
 Gary Tarrence,90,Open,M,256.28,142.88,290.3,689.46,SBD,Single-ply,3
-M. Trobaugh,90,Open,M,249.48,174.63,263.08,687.19,SBD,Single-ply,4
+Matt Trobaugh,90,Open,M,249.48,174.63,263.08,687.19,SBD,Single-ply,4
 D. Severa,90,Open,M,249.48,151.95,238.14,639.57,SBD,Single-ply,5
-M. Varwig,90,Open,M,217.72,136.08,249.48,603.28,SBD,Single-ply,6
+Mick Varwig,90,Open,M,217.72,136.08,249.48,603.28,SBD,Single-ply,6
 D. Brazda,90,Open,M,233.6,138.35,226.8,598.74,SBD,Single-ply,7
 M. Bleyhl,90,Open,M,204.12,108.86,258.55,571.53,SBD,Single-ply,8
 J. Pulte,90,Open,M,208.65,127.01,226.8,562.46,SBD,Single-ply,9

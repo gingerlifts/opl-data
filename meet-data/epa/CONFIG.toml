@@ -66,6 +66,7 @@
     mru18 = {name ="MR-Sj",min=14,max=17.5,equipment="Raw"}
     mu18 = {name ="M-Sj",min=14,max=17.5,equipment="Single-ply"}
     mrm1 = {name ="MR-M1",min=39.5,max=48.5,equipment="Raw"}
+	mwm1 = {name ="MW-M1",min=0,max=999,equipment="Wraps"}
     mm1 = {name ="M-M1",min=39.5,max=48.5,equipment="Single-ply"}
     mrm2 = {name ="MR-M2",min=49.5,max=58.5,equipment="Raw"}
     mm2 = {name ="M-M2",min=49.5,max=58.5,equipment="Single-ply"}
@@ -105,9 +106,14 @@
     date_range=["2011-01-01","9999-01-01"]
     sex = "M"
 
+[weightclasses.new_F]
+    classes = ["47","52","57","63","69","76","84","84+"]
+    date_range=["2021-01-01","9999-12-31"]
+    sex = "F"
+
 [weightclasses.default_F]
     classes = ["47","52","57","63","72","84","84+"]
-    date_range=["2011-01-01","9999-01-01"]
+    date_range=["2011-01-01","2020-12-31"]
     sex = "F"
 
 [weightclasses.junior_M]
@@ -116,9 +122,15 @@
     sex = "M"
     divisions = ["M-C-U23","M-E-U23","M-C-U20","M-E-U20","M-C-U18","M-E-U18","M-C-U16","M-E-U16","MR-Jr","MR-Sj","M-Jr","M-Sj"]
 
+[weightclasses.juniornew_F]
+    classes = ["43","47","52","57","63","69","76","84","84+"]
+    date_range=["2021-01-01","9999-01-01"]
+    sex = "F"
+    divisions = ["F-C-U23","F-E-U23","F-C-U20","F-E-U20","F-C-U18","F-E-U18","F-C-U16","F-E-U16","FR-Jr","FR-Sj","F-Jr","F-Sj"]
+
 [weightclasses.junior_F]
     classes = ["43","47","52","57","63","72","84","84+"]
-    date_range=["2011-01-01","9999-01-01"]
+    date_range=["2011-01-01","2020-12-31"]
     sex = "F"
     divisions = ["F-C-U23","F-E-U23","F-C-U20","F-E-U20","F-C-U18","F-E-U18","F-C-U16","F-E-U16","FR-Jr","FR-Sj","F-Jr","F-Sj"]
 
@@ -133,11 +145,24 @@
     sex = "F"
 
 [exemptions]
+    0201 = ["ExemptWeightClassConsistency"]
     0604 = ["ExemptDivision"]
     0605 = ["ExemptDivision"]
     0606 = ["ExemptDivision"]
+    0808 = ["ExemptWeightClassConsistency"]
+    0935 = ["ExemptWeightClassConsistency"]
+    0936 = ["ExemptWeightClassConsistency"]
+    1025 = ["ExemptWeightClassConsistency"]
+    1026 = ["ExemptWeightClassConsistency"]
+    1119 = ["ExemptWeightClassConsistency"]
+    1120 = ["ExemptWeightClassConsistency"]
+    1121 = ["ExemptWeightClassConsistency"]
+    1024 = ["ExemptWeightClassConsistency"]
+    1118 = ["ExemptWeightClassConsistency"]
+    1216 = ["ExemptWeightClassConsistency"]
     1215 = ["ExemptDivision"]
     1753 = ["ExemptDivision"] # One joker wore sleeves in the Equipped division.
     1930 = ["ExemptWeightClassConsistency"] #53Kg in open
     1958 = ["ExemptDivision"] # Lifters in equipped divisions competed raw.
-	1966 = ["ExemptDivision"] # 24 year old in Juniors.
+    1966 = ["ExemptDivision"] # 24 year old in Juniors.
+    2221 = ["ExemptDivision"] # novice divisions

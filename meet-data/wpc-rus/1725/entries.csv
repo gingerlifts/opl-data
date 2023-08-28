@@ -45,7 +45,7 @@ Anastasiya Kondratyuk,Анастасия Кондратюк,F,67.2,,,,,,75,67.5,
 Kirill Shaposhnikov,Кирилл Шапошников,M,50.4,,,,,,100,52,B,Raw,Yes,95,100,-102.5,100,,,,,,,Amateur Teen 18-19,18,1
 Aleksey Kolisnichenko,Алексей Колисниченко,M,49.5,,,,,,,52,B,Raw,Yes,-92.5,-92.5,-95,,,,,,,,Amateur Juniors 20-23,22,DQ
 Aleksey Verkhoturov,Алексей Верхотуров,M,58.2,,,,,,57.5,60,B,Raw,Yes,47.5,55,57.5,57.5,,,,,,,Amateur Teen 13-15,14,1
-Ivan Demchenko,Іван Демченко,M,57,,,,,,105,60,B,Raw,Yes,97.5,105,-110,105,,,,,,,Amateur Teen 18-19,19,1
+Ivan Demchenko #1,Иван Демченко,M,57,,,,,,105,60,B,Raw,Yes,97.5,105,-110,105,,,,,,,Amateur Teen 18-19,19,1
 Ilya Sokol,Илья Сокол,M,61.8,,,,,,85,67.5,B,Raw,Yes,82.5,85,-87.5,85,,,,,,,Amateur Teen 13-15,15,1
 Sergey Sitosan,Сергей Ситосан,M,66.8,,,,,,110,67.5,B,Raw,Yes,107.5,110,-112.5,110,,,,,,,Amateur Open,30,1
 Vladimir Khan,Владимир Хан,M,67.4,,,,,,125,67.5,B,Raw,Yes,120,125,,125,,,,,,,Amateur Masters 55-59,55,1
@@ -97,7 +97,7 @@ Vitaliy Dolgov,Виталий Долгов,M,87.5,,,,,,210,90,B,Single-ply,No,18
 Aleksandr Kichigin,Александр Кичигин,M,89.9,,,,,,,90,B,Single-ply,No,-235,-235,,,,,,,,,Pro Open,27,DQ
 Aleksey Rukavishnikov,Алексей Рукавишников,M,99.6,,,,,,220,100,B,Single-ply,No,205,215,220,220,,,,,,,Pro Open,37,1
 Dmitriy Savitskiy,Дмитрий Савицкий,M,98,,,,,,205,100,B,Single-ply,No,-205,205,-220,205,,,,,,,Pro Open,30,2
-Evgeniy Ivanov,Евгений Иванов,M,114.8,,,,,,270,125,B,Single-ply,No,270,-282.5,-290,270,,,,,,,Pro Open,35,1
+Evgeniy Ivanov #5,Евгений Иванов,M,114.8,,,,,,270,125,B,Single-ply,No,270,-282.5,-290,270,,,,,,,Pro Open,35,1
 Ilya Nosyrev,Илья Носырев,M,136,,,,,,240,140,B,Single-ply,No,220,235,240,240,,,,,,,Pro Open,25,1
 Galina Kligunova,Галина Клигунова,F,55.2,,,,,,45,56,B,Raw,No,40,45,-50,45,,,,,,,Pro Open,31,1
 Olga Soboleva,Ольга Соболева,F,59.8,,,,,,62.5,60,B,Raw,No,62.5,-67.5,-67.5,62.5,,,,,,,Pro Open,35,1
@@ -131,12 +131,12 @@ Mikhail Grechukha,Михаил Гречуха,M,102.2,,,,,,215,110,B,Raw,No,205,
 German Veledeev,Герман Веледеев,M,109,,,,,,200,110,B,Raw,No,185,200,-205,200,,,,,,,Pro Masters 45-49,48,2
 Maksim Migunov,Максим Мигунов,M,119.75,,,,,,235,125,B,Raw,No,210,225,235,235,,,,,,,Pro Juniors 20-23,22,1
 Maksim Migunov,Максим Мигунов,M,119.8,,,,,,235,125,B,Raw,No,210,225,235,235,,,,,,,Pro Open,22,1
-Artem Zaytsev,Артем Зайцев,M,113.3,,,,,,227.5,125,B,Raw,No,207.5,217.5,227.5,227.5,,,,,,,Pro Open,29,2
+Artem Zaytsev #1,Артем Зайцев,M,113.3,,,,,,227.5,125,B,Raw,No,207.5,217.5,227.5,227.5,,,,,,,Pro Open,29,2
 Sergey Danilov,Сергей Данилов,M,114.2,,,,,,190,125,B,Raw,No,190,-200,-207.5,190,,,,,,,Pro Open,35,3
 Andrey Komov,Андрей Комов,M,114.2,,,,,,,125,B,Raw,No,-205,-205,,,,,,,,,Pro Open,27,DQ
 Oleg Dergausov,Олег Дергаусов,M,113.4,,,,,,190,125,B,Raw,No,175,190,-202.5,190,,,,,,,Pro Masters 50-54,54,1
 Vadim Mikhaylov,Вадим Михайлов,M,74.3,240,-255,-277.5,240,,675,75,SBD,Single-ply,No,175,-192.5,-192.5,175,,240,-260,260,260,,Pro Open,28,1
-Ilya Romanov,Илья Романов,M,82.1,220,235,250,250,,695,82.5,SBD,Single-ply,No,160,172.5,180,180,,250,265,-272.5,265,,Pro Open,34,1
+Ilya Romanov #2,Илья Романов,M,82.1,220,235,250,250,,695,82.5,SBD,Single-ply,No,160,172.5,180,180,,250,265,-272.5,265,,Pro Open,34,1
 Gennadiy Chernobrovkin,Геннадий Чернобровкин,M,99.7,220,240,260,260,,767.5,100,SBD,Single-ply,No,-210,220,227.5,227.5,,260,280,-300,280,,Pro Open,36,1
 Aleksey Savishchenko,Алексей Савищенко,M,99,250,270,-285,270,,757.5,100,SBD,Single-ply,No,205,-212.5,-215,205,,262.5,272.5,282.5,282.5,,Pro Open,33,2
 Mikhail Shirokov,Михаил Широков,M,108.5,300,-307.5,-307.5,300,,827.5,110,SBD,Single-ply,No,207.5,215,220,220,,300,307.5,-312.5,307.5,,Pro Teen 16-17,17,1

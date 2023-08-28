@@ -1,6 +1,6 @@
 Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Division,Equipment,Event,Tested
 1,Brianne Richardson,VA,75,69.6,21,125,62.5,140,327.5,F,Juniors 20-23,Raw,SBD,Yes
-1,Ayngelia Ara,VA,60,59,34,110,70,145,325,F,Open,Raw,SBD,Yes
+1,Ayngelia Star Ara,VA,60,59,34,110,70,145,325,F,Open,Raw,SBD,Yes
 1,Courtney Baldwin,MD,67.5,62.9,26,92.5,45,120,257.5,F,Open,Raw,SBD,Yes
 1,Kasia Dinkeloo,VA,75,69.6,25,132.5,72.5,162.5,367.5,F,Open,Raw,SBD,Yes
 2,Sylwia Surowiec,MD,75,74.2,27,105,57.5,127.5,290,F,Open,Raw,SBD,Yes
@@ -33,11 +33,11 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 1,Lindsay Lichtsinn,VA,67.5,65.9,34,122.5,75,147.5,345,F,Open,Wraps,SBD,Yes
 1,Ahmad Salous,VA,110,108.7,19,255,170,295,720,M,Juniors 18-19,Wraps,SBD,Yes
 DQ,Jason Ogden,VA,75,70.2,26,115,-92.5,,,M,Open,Wraps,SBD,Yes
-1,Ryan Wood,VA,82.5,82.4,29,195,135,192.5,522.5,M,Open,Wraps,SBD,Yes
-1,Josh Depasquale,VA,100,98,28,217.5,147.5,260,625,M,Open,Wraps,SBD,Yes
+1,Ryan Wood #1,VA,82.5,82.4,29,195,135,192.5,522.5,M,Open,Wraps,SBD,Yes
+1,Josh DePasquale,VA,100,98,28,217.5,147.5,260,625,M,Open,Wraps,SBD,Yes
 1,Scott Beitzell,VA,110,107.3,28,315,215,285,815,M,Open,Wraps,SBD,Yes
 1,Alex Brown,VA,140,137,26,272.5,162.5,240,675,M,Open,Wraps,SBD,Yes
-1,Nick Cook,VA,140+,193.7,26,365,242.5,382.5,990,M,Open,Wraps,SBD,Yes
+1,Nick Cook #3,VA,140+,193.7,26,365,242.5,382.5,990,M,Open,Wraps,SBD,Yes
 1,Melvin Cloud,VA,90,89.3,50,127.5,107.5,197.5,432.5,M,Masters 50-54,Wraps,SBD,Yes
 1,Robby Lunsford,VA,110,108,32,252.5,182.5,250,685,M,Open,Single-ply,SBD,Yes
 1,Gloria Neeld,VA,52,49.9,34,,65,,65,F,Open,Raw,B,Yes

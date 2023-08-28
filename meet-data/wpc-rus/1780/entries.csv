@@ -1,0 +1,75 @@
+Place,Name,CyrillicName,Sex,WeightClassKg,Division,BirthYear,Age,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Event,Equipment
+1,Ekaterina Kriventsova,Екатерина Кривенцова,F,56,Amateur Juniors 20-23,1994,23,53.6,100,105,-110,,105,-45,-47.5,47.5,,47.5,-105,107.5,-110,,107.5,260,SBD,Raw
+1,Dmitriy Kabakov,Дмитрий Кабаков,M,67.5,Amateur Teen 13-15,2002,14,65.2,150,155,-160,,155,80,85,-92.5,,85,150,160,-170,,160,400,SBD,Raw
+1,Sergey Shemelin,Сергей Шемелин,M,67.5,Amateur Masters 60-64,1953,64,65.3,75,80,-90,,80,65,70,-72.5,,70,110,120,125,,125,275,SBD,Raw
+DQ,Pavel Askerov,Павел Аскеров,M,82.5,Amateur Teen 16-17,2000,17,79.9,-110,,,,,,,,,,,,,,,,SBD,Raw
+DQ,Vladislav Sanin,Владислав Санин,M,125,Amateur Open,1992,25,112.6,-260,-260,-260,,,,,,,,,,,,,,SBD,Raw
+1,Vyacheslav Nemolyakin,Вячеслав Немолякин,M,56,Amateur Teen 13-15,2003,13,55.6,60,-70,70,,70,40,-50,-50,,40,-80,80,95,,95,205,SBD,Wraps
+1,Aleksey Komarov,Алексей Комаров,M,67.5,Amateur Teen 18-19,1998,19,62.85,165,-180,190,,190,85,-95,-95,,85,-150,150,-160,,150,425,SBD,Wraps
+1,Kirill Akushevich,Кирилл Акушевич,M,82.5,Amateur Teen 16-17,2000,16,77.3,120,130,140,,140,85,90,-92.5,,90,-110,140,-150,,140,370,SBD,Wraps
+1,Nikita Kubasov,Никита Кубасов,M,82.5,Amateur Open,1995,22,81.4,180,195,205,,205,140,-150,-150,,140,215,230,237.5,,237.5,582.5,SBD,Wraps
+1,Elena Paneva,Елена Панева,F,52,Amateur Open,1992,25,51.1,95,100,-105,,100,47.5,52.5,-55,,52.5,95,-105,-105,,95,247.5,SBD,Single-ply
+1,Ekaterina Cherdantseva,Екатерина Черданцева,F,56,Amateur Teen 16-17,2000,17,55.4,-120,120,130,,130,-55,60,-70,,60,110,120,125,,125,315,SBD,Single-ply
+1,Lyubov Pugach,Любовь Пугач,F,67.5,Amateur Open,1987,30,66.5,-70,70,-80,,70,-40,-40,40,,40,-80,80,-90,,80,190,SBD,Single-ply
+DQ,Aleksandr Busov,Александр Бусов,M,75,Amateur Open,1985,32,75,-220,225,235,,235,140,147.5,-155,,147.5,-220,-227.5,-227.5,,,,SBD,Single-ply
+1,Grigoriy Ovchinnikov,Григорий Овчинников,M,82.5,Amateur Open,1982,35,80.7,220,-230,230,,230,150,160,-170,,160,220,-225,-227.5,,220,610,SBD,Single-ply
+DQ,Viktoriya Yakushevich,Виктория Якушевич,F,75,Amateur Open,1986,31,71.6,,,,,,-100,-100,-100,,,,,,,,,B,Single-ply
+1,Denis Kuznetsov,Денис Кузнецов,M,82.5,Amateur Open,1989,28,81.2,,,,,,130,140,-147.5,,140,,,,,,140,B,Single-ply
+1,Aleksandra Kovalenko,Александра Коваленко,F,48,Amateur Open,1981,36,46.2,,,,,,47.5,50,-52.5,,50,,,,,,50,B,Raw
+1,Mariya Novikova,Мария Новикова,F,52,Amateur Open,1989,27,51.6,,,,,,40,45,-50,,45,,,,,,45,B,Raw
+1,Galina Kligunova,Галина Клигунова,F,56,Amateur Open,1986,31,54.2,,,,,,47.5,52.5,-55,,52.5,,,,,,52.5,B,Raw
+1,Anastasia Pavlova,Анастасия Павлова,F,60,Amateur Open,1985,32,58.9,,,,,,47.5,52.5,55,,55,,,,,,55,B,Raw
+2,Ekaterina Semenikhina,Екатерина Семенихина,F,60,Amateur Open,1987,29,58,,,,,,47.5,50,-52.5,,50,,,,,,50,B,Raw
+DQ,Aleksandra Perelygina,Александра Перелыгина,F,60,Amateur Open,1988,29,59,,,,,,-45,-47.5,-47.5,,,,,,,,,B,Raw
+1,Nadezhda Starynina,Надежда Старынина,F,60,Amateur Masters 40-44,1977,40,59.9,,,,,,35,37.5,-40,,37.5,,,,,,37.5,B,Raw
+1,Elvira Mukina,Эльвира Мукина,F,67.5,Amateur Juniors 20-23,1994,23,67,,,,,,55,-62.5,-62.5,,55,,,,,,55,B,Raw
+1,Polina Boyarovo,Полина Боярово,F,67.5,Amateur Open,1991,26,67,,,,,,67.5,70,-75,,70,,,,,,70,B,Raw
+1,Kirill Shaposhnikov,Кирилл Шапошников,M,52,Amateur Teen 18-19,1998,19,51,,,,,,95,102.5,-105,,102.5,,,,,,102.5,B,Raw
+1,Ivan Demchenko #1,Иван Демченко,M,56,Amateur Teen 18-19,1998,19,55,,,,,,100,107.5,-112.5,,107.5,,,,,,107.5,B,Raw
+1,Viktor Mironenko,Виктор Мироненко,M,67.5,Amateur Open,1990,26,65.4,,,,,,115,125,-130,,125,,,,,,125,B,Raw
+1,Aleksandr Kotlyarskiy,Александр Котлярский,M,75,Amateur Teen 13-15,2001,15,72.5,,,,,,140,150,155,-160,155,,,,,,155,B,Raw
+2,Mikhail Vyunov,Михаил Вьюнов,M,75,Amateur Teen 13-15,2002,15,73.3,,,,,,80,87.5,92.5,,92.5,,,,,,92.5,B,Raw
+1,Aleksandr Kosenko,Александр Косенко,M,75,Amateur Open,1987,30,73.3,,,,,,130,135,140,,140,,,,,,140,B,Raw
+2,Valentin Gruzdev,Валентин Груздев,M,75,Amateur Open,1990,27,74.1,,,,,,127.5,-130,-130,,127.5,,,,,,127.5,B,Raw
+DQ,Eduard Orudzhaliev,Эдуард Оруджалиев,M,75,Amateur Open,1987,30,72.3,,,,,,-130,-130,,,,,,,,,,B,Raw
+1,Aleksandr Kovganov,Александр Ковганов,M,82.5,Amateur Juniors 20-23,1994,22,78.8,,,,,,130,-132.5,132.5,,132.5,,,,,,132.5,B,Raw
+1,Denis Loparev,Денис Лопарев,M,82.5,Amateur Open,1986,31,80.2,,,,,,147.5,-150,-150,,147.5,,,,,,147.5,B,Raw
+2,Ilya Kovalenko,Илья Коваленко,M,82.5,Amateur Open,1991,26,81.9,,,,,,135,145,-150,,145,,,,,,145,B,Raw
+1,Andrey Elenskiy,Андрей Еленский,M,82.5,Amateur Masters 40-44,1972,44,82.4,,,,,,105,110,115,,115,,,,,,115,B,Raw
+1,Yuriy Sharipov,Юрий Шарипов,M,90,Amateur Open,1992,25,86.3,,,,,,140,152.5,160,,160,,,,,,160,B,Raw
+2,Aleksey Shanin,Алексей Шанин,M,90,Amateur Open,1974,42,90,,,,,,135,140,-145,,140,,,,,,140,B,Raw
+1,Rafik Ogannisyan,Рафик Оганнисян,M,100,Amateur Open,1980,36,99.8,,,,,,185,192.5,-195,,192.5,,,,,,192.5,B,Raw
+2,Aleksandr Spiridonov,Александр Спиридонов,M,100,Amateur Open,1989,28,94.7,,,,,,170,180,-185,,180,,,,,,180,B,Raw
+3,Nikita Morozov,Никита Морозов,M,100,Amateur Open,1988,29,99.7,,,,,,150,-162.5,-162.5,,150,,,,,,150,B,Raw
+1,Ivan Klimenko,Иван Клименко,M,110,Amateur Open,1980,36,100.9,,,,,,150,160,170,,170,,,,,,170,B,Raw
+2,Sergey Donilov,Сергей Донилов,M,110,Amateur Open,1982,35,108.3,,,,,,160,167.5,-170,,167.5,,,,,,167.5,B,Raw
+3,Vyacheslav Kirgizov,Вячеслав Киргизов,M,110,Amateur Open,1989,28,108.8,,,,,,157.5,167.5,-172.5,,167.5,,,,,,167.5,B,Raw
+4,Aleksey Khlon,Алексей Хлонь,M,110,Amateur Open,1976,41,105.4,,,,,,150,160,165,,165,,,,,,165,B,Raw
+5,Denis Migal,Денис Мигаль,M,110,Amateur Open,1986,31,108.2,,,,,,100,-117.5,-117.5,,100,,,,,,100,B,Raw
+1,Aleksey Khlon,Алексей Хлонь,M,110,Amateur Masters 40-44,1976,41,105.4,,,,,,150,160,165,,165,,,,,,165,B,Raw
+DQ,Stanislav Sidorenko,Станислав Сидоренко,M,140,Amateur Open,1986,31,131.2,,,,,,-160,,,,,,,,,,,B,Raw
+1,Sergey Shishkov,Сергей Шишков,M,140,Amateur Masters 60-64,1956,61,125.7,,,,,,-100,100,110,,110,,,,,,110,B,Raw
+1,Yuliya Koval,Юлия Коваль,F,48,Amateur Open,1990,26,46.2,,,,,,,,,,,100,107.5,112.5,,112.5,112.5,D,Raw
+2,Svetlana Pelikh,Светлана Пелих,F,48,Amateur Open,1990,27,45.2,,,,,,,,,,,82.5,87.5,92.5,,92.5,92.5,D,Raw
+1,Irina Gegelskaya,Ирина Гегельская,F,56,Amateur Open,1983,34,55.9,,,,,,,,,,,115,122.5,125,,125,125,D,Raw
+1,Ekaterina Semenikhina,Екатерина Семенихина,F,60,Amateur Open,1987,29,58,,,,,,,,,,,100,110,-117.5,,110,110,D,Raw
+1,Ekaterina Rybalchenko,Екатерина Рыбальченко,F,67.5,Amateur Juniors 20-23,1994,23,65.2,,,,,,,,,,,100,105,-115,,105,105,D,Raw
+1,Aleksandr Busov,Александр Бусов,M,75,Amateur Open,1985,32,75,,,,,,,,,,,190,200,217.5,,217.5,217.5,D,Raw
+2,Aleksey Kotov,Алексей Котов,M,75,Amateur Open,1987,30,73.5,,,,,,,,,,,205,210,215,,215,215,D,Raw
+3,Valentin Gruzdev,Валентин Груздев,M,75,Amateur Open,1990,27,74.1,,,,,,,,,,,-195,197.5,202.5,,202.5,202.5,D,Raw
+1,Leonid Bukhanov,Леонид Буханов,M,82.5,Amateur Open,1985,32,79.5,,,,,,,,,,,225,235,245,,245,245,D,Raw
+2,Sergey Lebedev,Сергей Лебедев,M,82.5,Amateur Open,1990,27,81.2,,,,,,,,,,,-220,-230,230,,230,230,D,Raw
+3,Denis Loparev,Денис Лопарев,M,82.5,Amateur Open,1986,31,80.2,,,,,,,,,,,165,175,185,,185,185,D,Raw
+4,Maksim Son,Максим Сон,M,82.5,Amateur Open,1988,29,80.9,,,,,,,,,,,175,-185,-190,,175,175,D,Raw
+1,Konstantin Kamelin,Константин Камелин,M,90,Amateur Open,1986,31,89.6,,,,,,,,,,,265,280,-295,,280,280,D,Raw
+2,Pavel Kravtsov,Павел Кравцов,M,90,Amateur Open,1991,26,87.9,,,,,,,,,,,165,175,-195,,175,175,D,Raw
+DQ,Vadim Rukavishnikov,Вадим Рукавишников,M,90,Amateur Open,1983,34,88,,,,,,,,,,,-170,-195,-195,,,,D,Raw
+1,Roman Minchenkov,Роман Минченков,M,100,Amateur Open,1986,31,97.6,,,,,,,,,,,280,-290,-302.5,,280,280,D,Raw
+2,Aleksey Polyakov,Алексей Поляков,M,100,Amateur Open,1979,38,95.3,,,,,,,,,,,-230,230,-240,,230,230,D,Raw
+1,Yan Kandaurov,Ян Кандауров,M,110,Amateur Teen 16-17,2001,16,104.2,,,,,,,,,,,150,167.5,175,,175,175,D,Raw
+1,Dmitriy Nechesov,Дмитрий Нечесов,M,110,Amateur Open,1989,28,104.1,,,,,,,,,,,240,260,-275,,260,260,D,Raw
+2,Rafik Ogannisyan,Рафик Оганнисян,M,110,Amateur Open,1980,36,103,,,,,,,,,,,230,240,-250,,240,240,D,Raw
+3,Sergey Danilov,Сергей Данилов,M,110,Amateur Open,1982,35,108.3,,,,,,,,,,,220,240,,,240,240,D,Raw
+1,Andrey Denish,Андрей Дениш,M,110,Amateur Masters 40-44,1977,40,105.4,,,,,,,,,,,190,-207.5,207.5,,207.5,207.5,D,Raw
+1,Vladislav Sanin,Владислав Санин,M,125,Amateur Open,1992,25,112.6,,,,,,,,,,,300,-310,-310,,300,300,D,Raw
+1,Denis Kuznetsov,Денис Кузнецов,M,82.5,Amateur Open,1989,28,81.2,,,,,,,,,,,180,195,210,,210,210,D,Single-ply

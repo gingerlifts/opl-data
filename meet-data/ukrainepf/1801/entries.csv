@@ -13,7 +13,7 @@ WeightClassKg,Sex,Division,Place,Name,CyrillicName,BirthDate,BodyweightKg,Best3S
 66,M,Open,6,Sergiy Shtapura,Сергій Штапура,1998-05-17,65.98,140,122.5,175,437.5,SBD,Raw
 66,M,Open,NS,Oleksiy Gorniy,Олексій Горний,1992-09-03,,,,,,SBD,Raw
 74,M,Open,1,Ruslan Rubay,Руслан Рубай,1990-07-09,73.12,222.5,165,240,627.5,SBD,Raw
-74,M,Open,2,Vitaliy Bilozir,Віталій Білозір,1992-08-14,72.94,217.5,142.5,265,625,SBD,Raw
+74,M,Open,2,Vitalii Bilozir,Віталій Білозір,1992-08-14,72.94,217.5,142.5,265,625,SBD,Raw
 74,M,Open,3,Volodimir Makarenko,Володимир Макаренко,1993-08-20,71.82,205,157.5,242.5,605,SBD,Raw
 74,M,Open,4,Anton Umanskiy,Антон Уманський,1994-08-04,73.33,237.5,132.5,235,605,SBD,Raw
 74,M,Open,5,Maksim Saenko,Максим Саєнко,1992-08-15,73.96,200,115,275,590,SBD,Raw
@@ -26,10 +26,10 @@ WeightClassKg,Sex,Division,Place,Name,CyrillicName,BirthDate,BodyweightKg,Best3S
 74,M,Open,DQ,Roman Luchin,Роман Лучин,1985-11-20,72.06,-190,,,,SBD,Raw
 74,M,Open,DQ,Vitaliy Kulish,Віталій Куліш,1987-06-13,73.09,185,117.5,-245,,SBD,Raw
 83,M,Open,1,Stanislav Zdrobylko,Станіслав Здробилко,1995-10-03,82.87,265,185,260,710,SBD,Raw
-83,M,Open,2,Oleksiy Titov,Олексій Тітов,1994-09-02,80.56,245,160,250,655,SBD,Raw
+83,M,Open,2,Oleksii Titov,Олексій Тітов,1994-09-02,80.56,245,160,250,655,SBD,Raw
 83,M,Open,3,Maksim Gorkin,Максим Горкін,1985-08-30,81.21,212.5,147.5,285,645,SBD,Raw
 83,M,Open,4,Sergiy Shustur,Сергій Шустур,1989-10-30,81.7,227.5,145,272.5,645,SBD,Raw
-83,M,Open,5,Igor Parshin,Игорь Паршин,1983-02-11,82.4,232.5,142.5,260,635,SBD,Raw
+83,M,Open,5,Igor Parshin #1,Игорь Паршин,1983-02-11,82.4,232.5,142.5,260,635,SBD,Raw
 83,M,Open,6,Andriy Nos,Андрій Нос,1993-06-04,82.75,230,160,235,625,SBD,Raw
 83,M,Open,7,Vladislav Antonenko,Владислав Антоненко,1982-06-23,82.1,215,140,260,615,SBD,Raw
 83,M,Open,8,Artem Fusar,Артем Фусарь,1994-09-05,81.57,215,147.5,240,602.5,SBD,Raw
@@ -60,7 +60,7 @@ WeightClassKg,Sex,Division,Place,Name,CyrillicName,BirthDate,BodyweightKg,Best3S
 93,M,Open,12,Taras Mikolayovich,Тарас Миколайович,1981-07-04,92.6,240,155,260,655,SBD,Raw
 93,M,Open,13,Sergiy Katerinchuk,Сергій Катеринчук,1989-02-23,92.72,232.5,147.5,275,655,SBD,Raw
 93,M,Open,14,Vladislav Savchuk,Владислав Савчук,1987-06-10,89.1,240,167.5,235,642.5,SBD,Raw
-93,M,Open,15,Yuriy Chernyavskiy,Юрій Чернявський,1972-03-02,91.29,227.5,162.5,250,640,SBD,Raw
+93,M,Open,15,Yuriy Chernyavskiy #1,Юрій Чернявський,1972-03-02,91.29,227.5,162.5,250,640,SBD,Raw
 93,M,Open,16,Sergiy Deynega,Сергій Дейнега,1988-05-24,92.26,217.5,155,250,622.5,SBD,Raw
 93,M,Open,17,Viktor Cherkasheninov,Віктор Черкашенінов,1977-06-21,92.53,230,160,225,615,SBD,Raw
 93,M,Open,18,Vadim Cherkaskiy,Вадим Черкаський,1984-02-17,92.71,210,155,245,610,SBD,Raw
@@ -70,7 +70,7 @@ WeightClassKg,Sex,Division,Place,Name,CyrillicName,BirthDate,BodyweightKg,Best3S
 93,M,Open,DQ,Volodimir Tyushka,Володимир Тюшка,1983-04-20,90.29,-227.5,,,,SBD,Raw
 105,M,Open,1,Maksim Skobelev,Максим Скобелєв,1984-06-07,102.55,300,182.5,317.5,800,SBD,Raw
 105,M,Open,2,Igor Makovetskiy,Ігор Маковецький,1972-04-08,101.28,305,185,295,785,SBD,Raw
-105,M,Open,3,Kostyantin Ezik,Костянтин Єзик,1991-11-13,103.93,270,207.5,300,777.5,SBD,Raw
+105,M,Open,3,Kostiantyn Yezyk,Костянтин Єзик,1991-11-13,103.93,270,207.5,300,777.5,SBD,Raw
 105,M,Open,4,Ivan Noga,Іван Нога,1991-10-21,104.14,275,180,305,760,SBD,Raw
 105,M,Open,5,Oleksandr Dubovoy,Олександр Дубовой,1980-07-11,104.34,285,210,265,760,SBD,Raw
 105,M,Open,6,Pavlo Krikunov,Павло Крикунов,1979-04-20,101.76,277.5,185,290,752.5,SBD,Raw
@@ -85,7 +85,7 @@ WeightClassKg,Sex,Division,Place,Name,CyrillicName,BirthDate,BodyweightKg,Best3S
 105,M,Open,15,Vadim Kuzmenko,Вадим Кузьменко,1985-08-19,104.03,250,187.5,252.5,690,SBD,Raw
 105,M,Open,16,Roman Dubina,Роман Дубіна,1990-10-17,104.06,260,150,280,690,SBD,Raw
 105,M,Open,17,Dmitro Lavrenko,Дмитро Лавренко,1988-11-22,103.94,225,170,280,675,SBD,Raw
-105,M,Open,18,Yuriy Vasilev,Юрій Васильєв,1987-05-17,104.57,240,170,265,675,SBD,Raw
+105,M,Open,18,Yuriy Vasilev #2,Юрій Васильєв,1987-05-17,104.57,240,170,265,675,SBD,Raw
 105,M,Open,19,Pavlo Gorchak,Павло Горчак,1992-07-12,100.98,227.5,195,250,672.5,SBD,Raw
 105,M,Open,20,Vyacheslav Ryabko,Вячеслав Рябко,1982-11-26,104.71,250,160,255,665,SBD,Raw
 105,M,Open,21,Ivan Smolyak,Іван Смоляк,1988-05-26,104.1,230,160,240,630,SBD,Raw
@@ -101,7 +101,7 @@ WeightClassKg,Sex,Division,Place,Name,CyrillicName,BirthDate,BodyweightKg,Best3S
 120,M,Open,6,Andriy Burdenyuk,Андрій Бурденюк,1994-03-18,111.24,257.5,170,310,737.5,SBD,Raw
 120,M,Open,7,Artem Kravtsov,Артем Кравцов,1990-07-21,116.38,265,185,285,735,SBD,Raw
 120,M,Open,8,Pavlo Mishchuk,Павло Міщук,1988-01-04,118.53,260,195,270,725,SBD,Raw
-120,M,Open,9,Stanislav Maksimov,Станислав Максимов,1972-10-01,118.18,257.5,170,272.5,700,SBD,Raw
+120,M,Open,9,Stanislav Maksimov #2,Станислав Максимов,1972-10-01,118.18,257.5,170,272.5,700,SBD,Raw
 120+,M,Open,1,Pavlo Nakonechnyy,Павло Наконечний,1997-07-12,166.75,350,235,377.5,962.5,SBD,Raw
 120+,M,Open,2,Igor Lotnik,Ігор Лотнік,1990-07-19,153.39,280,215,290,785,SBD,Raw
 120+,M,Open,3,Oleksiy Litvinchuk,Олексій Литвинчук,1986-04-21,147.17,310,195,272.5,777.5,SBD,Raw
@@ -138,11 +138,11 @@ WeightClassKg,Sex,Division,Place,Name,CyrillicName,BirthDate,BodyweightKg,Best3S
 72,F,Open,2,Valeriya Timofieva,Валерія Тимофієва,1989-08-24,70.94,152.5,82.5,183,418,SBD,Raw
 72,F,Open,3,Elizaveta Skorikh,Єлизавета Скорих,1993-11-10,67.89,127.5,65,137.5,330,SBD,Raw
 72,F,Open,4,Oksana Korablova,Оксана Корабльова,1986-12-20,70.86,120,55,145,320,SBD,Raw
-72,F,Open,5,Irina Kolesnikova,Ирина Колесникова,1986-10-29,71.54,115,57.5,130,302.5,SBD,Raw
+72,F,Open,5,Irina Kolesnikova #2,Ірина Колеснікова,1986-10-29,71.54,115,57.5,130,302.5,SBD,Raw
 84,F,Open,1,Yuliya Marinenko,Юлія Мариненко,1995-09-01,83.28,157.5,75,178.5,411,SBD,Raw
 84,F,Open,2,Alina Kiprenko,Аліна Кіпренко,1998-05-14,83.85,135,80,150,365,SBD,Raw
 84,F,Open,3,Inna Yudina,Інна Юдіна,1978-06-07,83.25,130,82.5,135,347.5,SBD,Raw
-84,F,Open,4,Anastasiya Pasichnik,Анастасія Пасічник,1992-10-07,74.32,92.5,47.5,102.5,242.5,SBD,Raw
+84,F,Open,4,Anastasiya Pasichnik #2,Анастасія Пасічник,1992-10-07,74.32,92.5,47.5,102.5,242.5,SBD,Raw
 84+,F,Open,1,Tetyana Litvinyuk,Тетяна Литвинюк,1986-11-17,96.59,160,105,175,440,SBD,Raw
 84+,F,Open,2,Viktoriya Polischuk,Вікторія Поліщук,1985-10-06,99.11,155,102.5,170,427.5,SBD,Raw
 84+,F,Open,3,Alona Chumakova,Альона Чумакова,1982-10-16,107.52,185,80,155,420,SBD,Raw
@@ -160,7 +160,7 @@ WeightClassKg,Sex,Division,Place,Name,CyrillicName,BirthDate,BodyweightKg,Best3S
 74,M,Juniors,1,Mikiїa Sukhorutchenko,Микиїа Сухорутченко,1995-05-17,74,230,170.5,247.5,648,SBD,Raw
 74,M,Juniors,2,Vadim Yarzhemskiy,Вадим Яржемський,1999-03-20,73.75,212.5,171,240,623.5,SBD,Raw
 74,M,Juniors,3,Svyatoslav Tatarin,Святослав Татарин,1997-03-19,73.47,210,145,250,605,SBD,Raw
-74,M,Juniors,4,Ivan Naumov,Иван Наумов,1997-12-22,73.79,202.5,137.5,258,598,SBD,Raw
+74,M,Juniors,4,Ivan Naumov #1,Іван Наумов,1997-12-22,73.79,202.5,137.5,258,598,SBD,Raw
 74,M,Juniors,5,Stepan Savchuk,Степан Савчук,1996-04-18,72.35,205,150,240,595,SBD,Raw
 74,M,Juniors,6,Nazar Ilchishin,Назар Ільчишин,1998-07-01,74,197.5,130,242.5,570,SBD,Raw
 74,M,Juniors,7,Maksim Ovchar,Максим Овчар,1996-05-26,72.84,182.5,150,220,552.5,SBD,Raw
@@ -204,7 +204,7 @@ WeightClassKg,Sex,Division,Place,Name,CyrillicName,BirthDate,BodyweightKg,Best3S
 120+,M,Juniors,1,Svyatoslav Trofimenko,Святослав Трофименко,1997-06-01,137.77,305,205,280,790,SBD,Raw
 120+,M,Juniors,2,Artem Tsesarskiy,Артем Цесарський,1998-12-22,120.65,245,185,250,680,SBD,Raw
 120+,M,Juniors,3,Vladislav Delik,Владислав Делик,1999-01-08,134.33,247.5,165,230,642.5,SBD,Raw
-43,F,Juniors,1,Dariya Brazhnik,Дарія Бражник,1997-04-28,42.67,88,55.5,100,243.5,SBD,Raw
+43,F,Juniors,1,Dariia Brazhnyk,Дарія Бражник,1997-04-28,42.67,88,55.5,100,243.5,SBD,Raw
 43,F,Juniors,2,Viktorivna Kapkovo,Вікторівна Капково,1996-01-05,42.91,67.5,45,77.5,190,SBD,Raw
 47,F,Juniors,1,Rsnsolacha Mazepa,Рснсолача Мазепа,1995-02-02,46.27,85,45,112.5,242.5,SBD,Raw
 47,F,Juniors,2,Kristinl Agesal,Крістінл Агесал,1997-06-12,46.7,75,47.5,92.5,215,SBD,Raw
@@ -219,7 +219,7 @@ WeightClassKg,Sex,Division,Place,Name,CyrillicName,BirthDate,BodyweightKg,Best3S
 57,F,Juniors,5,Khristina Tarasova,Христина Тарасова,1995-05-24,55,102.5,47.5,135,285,SBD,Raw
 57,F,Juniors,6,Viktoriya Kordik,Вікторія Кордик,1997-08-06,56.47,80,40,107.5,227.5,SBD,Raw
 63,F,Juniors,1,Sofiya Rud,Софія Рудь,1997-01-24,62.43,145.5,87.5,183,416,SBD,Raw
-63,F,Juniors,2,Irina Melnik,Ірина Мельник,1995-05-10,62.3,132.5,85,140,357.5,SBD,Raw
+63,F,Juniors,2,Irina Melnik #2,Ірина Мельник,1995-05-10,62.3,132.5,85,140,357.5,SBD,Raw
 63,F,Juniors,3,Alona Borshchevska,Альона Борщевська,1999-07-28,63,125,75,142.5,342.5,SBD,Raw
 63,F,Juniors,4,Kristina Narishkina,Крістіна Наришкіна,1999-03-13,62.58,120,75,120,315,SBD,Raw
 63,F,Juniors,5,Sana Tanzi,Сана Танзі,1999-06-05,58.32,97.5,57.5,120,275,SBD,Raw
@@ -250,7 +250,7 @@ WeightClassKg,Sex,Division,Place,Name,CyrillicName,BirthDate,BodyweightKg,Best3S
 59,M,Sub-Juniors,7,Denis Skiba,Денис Скиба,2004-04-26,57.41,100,60,130,290,SBD,Raw
 59,M,Sub-Juniors,NS,Bogdan Pogromskiy,Богдан Погромський,2003-09-15,,,,,,SBD,Raw
 59,M,Sub-Juniors,DQ,Vladislav Bayda,Владислав байда,2003-03-21,58.22,-125,90,155,,SBD,Raw
-66,M,Sub-Juniors,1,Yurii Revuka,Юрій Ревуна,2000-02-19,65.4,195,122.5,210,527.5,SBD,Raw
+66,M,Sub-Juniors,1,Yuriy Revuka,Юрій Ревука,2000-02-19,65.4,195,122.5,210,527.5,SBD,Raw
 66,M,Sub-Juniors,2,Dmitro Kovbasyuk,Дмитро Ковбасюк,2000-11-10,65.55,177.5,120,222.5,520,SBD,Raw
 66,M,Sub-Juniors,3,Mikhaylo Kogut,Михайло Когут,2002-02-03,65.41,185,122.5,180,487.5,SBD,Raw
 66,M,Sub-Juniors,4,Illya Koval,Ілля Коваль,2000-05-13,65.7,150,97.5,190,437.5,SBD,Raw
@@ -357,7 +357,7 @@ WeightClassKg,Sex,Division,Place,Name,CyrillicName,BirthDate,BodyweightKg,Best3S
 93,M,Student,1,Oleksandr Posenko,Олександр Посенко,2001-10-15,90.4,190,137.5,207.5,535,SBD,Raw
 93,M,Student,2,Maksim Zhabko,Максим Жабко,1999-04-14,84.93,170,120,200,490,SBD,Raw
 105,M,Student,1,Denis Gangur,Денис Гангур,1996-11-02,102.98,150,100,150,400,SBD,Raw
-47,F,Student,1,Dariya Brazhnik,Дарія Бражник,1997-04-28,43.2,80,47.5,97.5,225,SBD,Raw
+47,F,Student,1,Dariia Brazhnyk,Дарія Бражник,1997-04-28,43.2,80,47.5,97.5,225,SBD,Raw
 47,F,Student,2,Anastasiya Ovchar,Анастасія Овчар,2001-09-12,45.7,70,37.5,100,207.5,SBD,Raw
 47,F,Student,3,Anna Fakas,Анна Факас,1996-02-18,46.28,65,35,72.5,172.5,SBD,Raw
 52,F,Student,1,Viktoriya Gurak,Вікторія Гурак,1998-07-28,51.7,105,67.5,120,292.5,SBD,Raw

@@ -6,13 +6,13 @@ Olga Stoyanova,Ольга Стоянова,2002,42.75,55,60,62.5,62.5,43,B,Singl
 Natalya Stoyanova,Наталья Стоянова,2000,42.55,52.5,-57.5,57.5,57.5,43,B,Single-ply,Sub-Juniors,F,57.5,,7
 Anastasiya Serebrennikova,Анастасия Серебренникова,1999,42.75,47.5,52.5,-55,52.5,43,B,Single-ply,Sub-Juniors,F,52.5,,9
 Yuliya Korobovskaya,Юлия Коробовская,1998,46.4,60,62.5,-70,62.5,47,B,Single-ply,Sub-Juniors,F,62.5,,4
-Yuliya Smirnova,Юлия Смирнова,1998,46.5,-52.5,52.5,60,60,47,B,Single-ply,Sub-Juniors,F,60,,5
+Yuliya Smirnova #1,Юлия Смирнова,1998,46.5,-52.5,52.5,60,60,47,B,Single-ply,Sub-Juniors,F,60,,5
 Alesya Fedorinova,Алеся Федоринова,1997,51.8,77.5,82.5,85,85,52,B,Single-ply,Sub-Juniors,F,85,,3
 Viktoriya Shteynke,Виктория Штейнке,1998,51.9,85,-90,-90,85,52,B,Single-ply,Sub-Juniors,F,85,,4
 Anastasiya Kaneva,Анастасия Канева,1998,50.95,70,75,-77.5,75,52,B,Single-ply,Sub-Juniors,F,75,,7
 Yuliya Lapukhina,Юлия Лапухина,1997,51.95,70,72.5,-77.5,72.5,52,B,Single-ply,Sub-Juniors,F,72.5,,8
 Vladlena Chursina,Владлена Чурсина,1998,51,-60,-60,-60,,52,B,Single-ply,Sub-Juniors,F,,,DQ
-Daniela Kolesnik,Даниэла Колесник,1999,54.35,102.5,110,115,115,57,B,Single-ply,Sub-Juniors,F,115,,2
+Daniela Kolesnik,Даниела Колесник,1999,54.35,102.5,110,115,115,57,B,Single-ply,Sub-Juniors,F,115,,2
 Vita Safonova,Вита Сафонова,1999,54.4,72.5,77.5,-80,77.5,57,B,Single-ply,Sub-Juniors,F,77.5,,5
 Anna Shevchenko,Анна Шевченко,1997,56.55,70,75,-77.5,75,57,B,Single-ply,Sub-Juniors,F,75,,6
 Yuliya Slepukhina,Юлия Слепухина,1997,57,-72.5,72.5,-80,72.5,57,B,Single-ply,Sub-Juniors,F,72.5,,7
@@ -42,7 +42,7 @@ Viktor Vazhesov,Виктор Важесов,2001,47.4,-87.5,-87.5,-87.5,,48,B,Si
 Sergey Sergienko,Сергей Сергиенко,1997,52.25,117.5,122.5,126.5,126.5,53,B,Single-ply,Sub-Juniors,M,126.5,,3
 Kurban Saidov,Курбан Саидов,1999,52.55,100,105,107.5,107.5,53,B,Single-ply,Sub-Juniors,M,107.5,,4
 Ernest Ibragimov,Эрнест Ибрагимов,1998,52.5,95,100,105,105,53,B,Single-ply,Sub-Juniors,M,105,,5
-Sergey Popov,Сергей Попов,2000,52.4,-110,-110,-110,,53,B,Single-ply,Sub-Juniors,M,,,DQ
+Sergey Popov #4,Сергей Попов,2000,52.4,-110,-110,-110,,53,B,Single-ply,Sub-Juniors,M,,,DQ
 Kirill Stepanenko,Кирилл Степаненко,2000,52.6,-90,-97.5,-102.5,,53,B,Single-ply,Sub-Juniors,M,,,DQ
 Aleksey Rikhter,Алексей Рихтер,1999,57.75,117.5,-122.5,127.5,127.5,59,B,Single-ply,Sub-Juniors,M,127.5,,5
 Nikolay Lushchik,Николай Лущик,1998,58.75,100,107.5,-120,107.5,59,B,Single-ply,Sub-Juniors,M,107.5,,6
@@ -103,7 +103,7 @@ Viktor Panteleev,Виктор Пантелеев,1996,66,155,-162.5,-170,155,66,
 Andrey Medvedev,Андрей Медведев,1993,64.6,-165,-170,-175,,66,B,Single-ply,Juniors,M,,,DQ
 Pavel Dolgov,Павел Долгов,1993,72.6,200,-207.5,210,210,74,B,Single-ply,Juniors,M,210,,1
 Vitaliy Leontev,Виталий Леонтьев,1992,72.4,192.5,200,207.5,207.5,74,B,Single-ply,Juniors,M,207.5,,2
-Igor Kuznetsov,Игорь Кузнецов,1993,73.35,-200,200,207.5,207.5,74,B,Single-ply,Juniors,M,207.5,,3
+Igor Kuznetsov #4,Игорь Кузнецов,1993,73.35,-200,200,207.5,207.5,74,B,Single-ply,Juniors,M,207.5,,3
 Roman Churbakov,Роман Чурбаков,1992,71.1,187.5,197.5,205,205,74,B,Single-ply,Juniors,M,205,,4
 Rafael Sadykov,Рафаэль Садыков,1994,70.5,195,202.5,-207.5,202.5,74,B,Single-ply,Juniors,M,202.5,,5
 Aleksandr Shestakov,Александр Шестаков,1992,72.65,192.5,-197.5,-207.5,192.5,74,B,Single-ply,Juniors,M,192.5,,6
@@ -128,7 +128,7 @@ Egor Savelev,Егор Савельев,1994,119.2,305,320,-325,320,120,B,Single-
 Anton Nabiullin,Антон Набиуллин,1996,118.35,190,197.5,202.5,202.5,120,B,Single-ply,Juniors,M,202.5,,5
 Oleg Evreev,Олег Евреев,1995,117.55,185,195,-200,195,120,B,Single-ply,Juniors,M,195,,6
 Vasiliy Malashkin,Василий Малашкин,1992,141,265,272.5,286,286,120+,B,Single-ply,Juniors,M,286,,1
-Vyacheslav Yakovlev,Вячеслав Яковлев,1995,166,245,,,245,120+,B,Single-ply,Juniors,M,245,,2
+Vyacheslav Yakovlev #1,Вячеслав Яковлев,1995,166,245,,,245,120+,B,Single-ply,Juniors,M,245,,2
 Vladislav Nemov,Владислав Немов,1996,123.9,220,225,230,230,120+,B,Single-ply,Juniors,M,230,,3
 Anton Seryogin,Антон Серёгин,1996,135.6,-220,220,230,230,120+,B,Single-ply,Juniors,M,230,,4
 Andrey Salagaev,Андрей Салагаев,1996,162.2,205,215,227.5,227.5,120+,B,Single-ply,Juniors,M,227.5,,5

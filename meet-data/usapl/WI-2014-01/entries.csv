@@ -20,7 +20,7 @@ DD,M,Heath Thiel,SBD,M-M1a,125+,Single-ply,148.8,,61.2,322.1,,
 1,M,Christian Herwig,SBD,M-T1,90,Single-ply,88.2,152,97.5,197.3,446.8,
 1,M,James Lampshire,SBD,M-T3,82.5,Single-ply,81.7,213.2,131.5,226.8,571.5,
 1,M,Anthony Wolf,SBD,M-T3,90,Single-ply,88.3,249.5,149.7,254,653.2,1995
-2,M,Nathan King,SBD,M-T3,90,Single-ply,88.4,215.5,108.9,224.5,548.9,1995
+2,M,Nathan King #1,SBD,M-T3,90,Single-ply,88.4,215.5,108.9,224.5,548.9,1995
 1,M,Vong Xiong,SD,M-T3,100,Single-ply,96.5,317.5,,265.4,582.9,1994
 1,M,Brandon Mikulecky,SBD,M-Jr,90,Single-ply,85.6,213.2,170.1,215.5,598.8,1991
 1,M,Quintin Meyer,SBD,M-Jr,110,Single-ply,104.8,333.4,206.4,317.5,857.3,1991
@@ -33,7 +33,7 @@ DD,M,Heath Thiel,SBD,M-M1a,125+,Single-ply,148.8,,61.2,322.1,,
 3,M,Nicholas Viegut,SBD,MR-Jr,100,Raw,93.4,204.1,124.7,215.5,544.3,1992
 4,M,Chad Heyer,SBD,MR-Jr,100,Raw,96.4,183.7,122.5,226.8,533,1992
 1,M,Alexander Duley,SBD,MR-Jr,110,Raw,108.2,238.1,133.8,249.5,621.4,1993
-2,M,Matthew Sharafinski,SBD,MR-Jr,110,Raw,104.8,226.8,115.7,249.5,592,1993
+2,M,Matt Sharafinski,SBD,MR-Jr,110,Raw,104.8,226.8,115.7,249.5,592,1993
 1,M,Ian Barge,SBD,MR-Jr,125,Raw,123.8,265.4,158.8,288,712.2,1993
 1,M,Aaron Phillips #2,SBD,M-O,67.5,Single-ply,67.3,272.2,147.4,235.9,655.5,1985
 1,M,Pete Nees,SBD,M-O,110,Single-ply,105.5,301.6,210.9,283.5,796,1984
@@ -57,7 +57,7 @@ DD,M,Heath Thiel,SBD,M-M1a,125+,Single-ply,148.8,,61.2,322.1,,
 1,M,Joseph Miller,SBD,MR-O,125+,Raw,171.9,229.1,138.3,251.7,619.1,1986
 2,M,Gage Abrahams,SBD,MR-O,125+,Raw,148.7,215.5,124.7,276.7,616.9,1976
 1,M,Ron Burmeister,SBD,M-M1a,90,Single-ply,88.3,208.7,147.4,229.1,585.2,1971
-1,M,Jason Johnson,SBD,M-M1a,110,Single-ply,103.6,263.1,224.5,272.2,759.8,1971
+1,M,Jason Johnson #1,SBD,M-M1a,110,Single-ply,103.6,263.1,224.5,272.2,759.8,1971
 1,M,Alfred Gruenwald,SBD,MR-M1a,67.5,Raw,66.8,124.7,81.6,183.7,390,1972
 1,M,Kevin Mittelsteadt,SBD,MR-M1a,100,Raw,98.9,210.9,181.4,242.7,635,1970
 1,M,Dennis Smits,SBD,M-M2a,90,Single-ply,89.5,263.1,145.2,235.9,644.2,1959

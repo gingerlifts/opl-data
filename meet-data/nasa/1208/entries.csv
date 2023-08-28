@@ -7,7 +7,7 @@ Place,Event,Equipment,WeightClassKg,Name,State,BodyweightKg,Division,Best3SquatK
 1,B,Raw,82.5,Eddie Ortiz,NE,79.38,bpmp,,125,,125,M
 1,B,Raw,90,Darryl Hoag,NE,88.45,bppure,,125,,125,M
 1,B,Raw,100,Phillip Poppino,IA,97.3,bpm4,,120,,120,M
-2,B,Raw,100,Jim Ites,IA,93.44,bpm4,,110,,110,M
+2,B,Raw,100,James Ites,IA,93.44,bpm4,,110,,110,M
 1,BD,Raw,90,Joe Logan,IA,89.9,m1,,157.5,262.5,420,M
 1,BD,Raw,75,Matt Fehl,MO,74.93,sm2,,147.5,197.5,345,M
 1,BD,Raw,67.5,Denny Lawrence,IA,66.77,m2,,110,210,320,M
@@ -65,8 +65,8 @@ Place,Event,Equipment,WeightClassKg,Name,State,BodyweightKg,Division,Best3SquatK
 1,SBD,Wraps,67.5,Nathan Poage,IA,66.22,jr,192.5,92.5,230,515,M
 1,SBD,Wraps,90,Joe Logan,IA,89.9,m1,175,157.5,262.5,595,M
 1,SBD,Wraps,110,Nate Craft,IA,107.82,pure,222.5,152.5,272.5,647.5,M
-1,SBD,Wraps,90,Chris Anderson,IA,88.45,open,215,107.5,235,557.5,M
-1,SBD,Wraps,90,Chris Anderson,IA,88.45,teen,215,107.5,235,557.5,M
+1,SBD,Wraps,90,Chris Anderson #1,IA,88.45,open,215,107.5,235,557.5,M
+1,SBD,Wraps,90,Chris Anderson #1,IA,88.45,teen,215,107.5,235,557.5,M
 1,SBD,Wraps,125,Justin Dreesen,NE,120.43,int,227.5,165,237.5,630,M
 2,SBD,Wraps,125,Bill Bowen,IA,121.56,int,247.5,140,242.5,630,M
 2,SBD,Wraps,90,Chris Bohlmann,IA,88.54,open,182.5,112.5,232.5,527.5,M
@@ -107,4 +107,4 @@ DQ,SBD,Wraps,90,Isaac Pilcher,IA,88.9,open,212.5,-130,257.5,,M
 1,BD,Raw,90,Darryl Hoag,NE,88.45,pure,,125,182.5,307.5,M
 1,BD,Raw,90,Paul Brooke,IA,89.9,m1,,25,265,290,M
 DQ,BD,Raw,100,Joe Meyers,IA,92.76,mp,,127.5,,,M
-DQ,BD,Raw,100,Jim Ites,IA,93.44,m4,,110,,,M
+DQ,BD,Raw,100,James Ites,IA,93.44,m4,,110,,,M

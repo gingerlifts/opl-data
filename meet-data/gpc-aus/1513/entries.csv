@@ -1,6 +1,6 @@
 Name,Age,Sex,Division,Event,Equipment,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place
 Meg Schneck,25,F,F-OR,B,Raw,55.2,56,,,,,65,70,-72.5,70,,,,,,DQ
-Marg Cummins,37,F,F-OR,B,Raw,131.5,90+,,,,,80,-90,90,90,,,,,,DQ
+Margie Cummins,37,F,F-OR,B,Raw,131.5,90+,,,,,80,-90,90,90,,,,,,DQ
 Paula Vico,35,F,F-OR,B,Raw,128.4,90+,,,,,70,82.5,87.5,87.5,,,,,,DQ
 Alana Sinatra,30,F,F-OR,B,Raw,56.9,60,,,,,55,,,55,,,,,,DQ
 Rebecca Waring,24,F,F-OR,B,Raw,72.9,75,,,,,60,-70,-70,60,,,,,,DQ
@@ -17,7 +17,7 @@ Greg Hardy,17,M,M-OR,B,Raw,95.1,100,,,,,120,130,-136,130,,,,,,DQ
 Jason Pagan,31,M,M-OR,B,Raw,98.6,100,,,,,-120,130,-140,130,,,,,,DQ
 Travis van den Berg,31,M,M-OR,B,Raw,81.1,82.5,,,,,100,105,110,110,,,,,,DQ
 Jamie Christensen,26,M,M-OR,B,Raw,71.8,75,,,,,100,,,100,,,,,,DQ
-Charlie Evans,15,M,M-OR,B,Raw,155.4,140+,,,,,85,95,105,105,,,,,,DQ
+Charlie Evans #2,15,M,M-OR,B,Raw,155.4,140+,,,,,85,95,105,105,,,,,,DQ
 Cassie Morgan,22,F,F-OR,SBD,Wraps,60.6,67.5,105,112.5,117.5,117.5,65,70,-75,70,130,140,150,150,337.5,2
 Jiville Latu,21,F,F-OR,SBD,Wraps,65,67.5,125,135,-140,135,60,67.5,-72.5,67.5,135,150,-160,150,352.5,1
 Merryn Armstrong,27,F,F-OR,SBD,Wraps,71.9,75,100,120,130,130,55,-62.5,65,65,120,135,145,145,340,1
@@ -32,7 +32,7 @@ Katie Walbank,21,F,F-OR,SBD,Wraps,71.7,75,85,95,-102.5,95,-40,40,50,50,100,110,1
 Megan Andrew,28,F,F-OR,SBD,Wraps,79.8,82.5,-80,80,92.5,92.5,55,62.5,65,65,105,115,125,125,282.5,1
 Victoria Hoskin,35,F,F-OR,SBD,Wraps,77.7,82.5,65,80,-95,80,50,57.5,-62.5,57.5,100,115,125,125,262.5,2
 Lauren Adams,23,F,F-OR,SBD,Wraps,66.6,67.5,70,80,-90,80,35,-42.5,42.5,42.5,90,102.5,112.5,112.5,235,4
-Anna Bailey,27,F,F-OR,SBD,Wraps,58.65,60,55,65,-70,65,30,35,-37.5,35,90,100,110,110,210,4
+Anna Bailey #1,27,F,F-OR,SBD,Wraps,58.65,60,55,65,-70,65,30,35,-37.5,35,90,100,110,110,210,4
 Carmen Morrow,33,F,F-OR,SBD,Wraps,69.3,75,-70,70,,70,30,-40,-40,30,110,120,130,130,230,4
 Josh Vale,26,M,M-OE,SBD,Multi-ply,82.05,82.5,180,195,205,205,90,100,-110,100,180,190,200,200,505,1
 Billy Chan,29,M,M-OR,SBD,Wraps,89.95,90,245,260,270,270,180,200,210,210,260,280,,280,760,1
@@ -52,7 +52,7 @@ Junior Lauano,31,M,M-OR,SBD,Wraps,121.6,125,180,190,200,200,100,,,100,200,225,,2
 Ben Hussel,26,M,M-OR,SBD,Wraps,97,100,165,185,,185,110,120,-130,120,160,180,-200,180,485,4
 Kai Robertson,20,M,M-OR,SBD,Wraps,97,100,160,,,160,140,,,140,180,,,180,480,5
 Beau Hines,22,M,M-OR,SBD,Wraps,87.4,90,100,-150,160,160,65,80,87.5,87.5,100,165,190,190,437.5,3
-Nathan McArthur,28,M,M-OR,SBD,Wraps,93.3,100,150,160,-170,160,100,110,-120,110,160,170,180,180,450,8
+Rocky McArthur,28,M,M-OR,SBD,Wraps,93.3,100,150,160,-170,160,100,110,-120,110,160,170,180,180,450,8
 David Parmiter,32,M,M-OR,SBD,Wraps,99.5,100,75,,,75,45,,,45,305,342.5,,342.5,462.5,6
 Jeremy Lopez,16,M,M-OR,SBD,Wraps,97.4,100,-130,130,140,140,100,-110,112.5,112.5,150,170,200,200,452.5,7
 Kevin Huang,19,M,M-OR,SBD,Wraps,88.5,90,150,-165,165,165,75,82.5,-87.5,82.5,165,180,-200,180,427.5,4

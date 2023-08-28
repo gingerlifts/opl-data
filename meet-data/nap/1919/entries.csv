@@ -8,7 +8,7 @@ Place,Sex,Name,CyrillicName,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg
 1,F,Elena Chukina,Елена Чукина,58.4,,,,,,95,102.5,-112.5,102.5,,102.5,60,D,Raw,Yes,,,,,,Amateur Teen 16-17,17,2001-11-08
 1,F,Valentina Gosteva,Валентина Гостева,57,,,,,,100,105,112.5,112.5,,112.5,60,D,Raw,Yes,,,,,,Amateur Masters 60-64,64,1955-08-07
 1,M,Andrey Maksimov,Андрей Максимов,59.35,,,,,,190,202.5,205,205,,205,60,D,Raw,Yes,,,,,,Amateur Open,28,1991-10-24
-1,M,Aleksey Nikulin,Алексей Никулин,66.65,,,,,,190,200,205,205,,205,67.5,D,Raw,Yes,,,,,,Amateur Open,29,1990-09-23
+1,M,Aleksey Nikulin #6,Алексей Никулин,66.65,,,,,,190,200,205,205,,205,67.5,D,Raw,Yes,,,,,,Amateur Open,29,1990-09-23
 2,M,Sergey Varaev,Сергей Вараев,66.25,,,,,,155,-167.5,-167.5,155,,155,67.5,D,Raw,Yes,,,,,,Amateur Open,37,1982-01-30
 1,M,Dmitriy Khvashchinskiy,Дмитрий Хващинский,73.7,,,,,,162.5,-180,-180,162.5,,162.5,75,D,Raw,Yes,,,,,,Amateur Teen 18-19,19,2000-10-01
 1,M,Sergey Shakhov,Сергей Шахов,81.25,,,,,,255,-265,-265,255,,255,82.5,D,Raw,Yes,,,,,,Amateur Open,32,1987-06-13
@@ -22,7 +22,7 @@ Place,Sex,Name,CyrillicName,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg
 1,M,Aleksandr Gusev,Александр Гусев,97.25,,,,,,225,235,-247.5,235,,235,100,D,Raw,Yes,,,,,,Amateur Masters 45-49,46,1973-08-08
 1,M,Andrey Tikhonov,Андрей Тихонов,108,,,,,,310,-325,,310,,310,110,D,Raw,Yes,,,,,,Amateur Open,38,1980-11-08
 1,M,Evgeniy Dushevin,Евгений Душевин,81.95,185,195,-205,195,,,,,,,195,82.5,B,Multi-ply,No,,,,,,Pro Open,24,1995-08-20
-1,M,Vitaliy Atmeneev,Виталий Атменеев,105.6,255,-275,-275,255,,,,,,,255,110,B,Multi-ply,No,,,,,,Pro Open,32,1986-11-06
+1,M,Vitaliy Atmeneev,Виталий Атминеев,105.6,255,-275,-275,255,,,,,,,255,110,B,Multi-ply,No,,,,,,Pro Open,32,1986-11-06
 1,M,Roman Shuteev,Роман Шутеев,101.7,170,177.5,182.5,182.5,,,,,,,182.5,110,B,Raw,No,,,,,,Pro Open,34,1985-08-13
 1,F,Marina Rudneva,Марина Руднева,51.6,40,45,-47.5,45,,,,,,,45,52,B,Raw,Yes,,,,,,Amateur Open,29,1990-07-26
 1,F,Ilona Besedina,Илона Беседина,55.3,52.5,57.5,-60,57.5,,,,,,,57.5,56,B,Raw,Yes,,,,,,Amateur Open,33,1986-09-18
@@ -34,7 +34,7 @@ Place,Sex,Name,CyrillicName,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg
 DQ,M,Ilya Paramonov,Илья Парамонов,74.3,-110,-115,-115,,,,,,,,,75,B,Raw,Yes,,,,,,Amateur Open,24,1995-09-20
 1,M,Mikhail Akatov,Михаил Акатов,82.45,137.5,147.5,-155,147.5,,,,,,,147.5,82.5,B,Raw,Yes,,,,,,Amateur Juniors 20-23,22,1996-11-08
 1,M,Vadim Ryumshin,Вадим Рюмшин,88.55,150,157.5,162.5,162.5,,,,,,,162.5,90,B,Raw,Yes,,,,,,Amateur Juniors 20-23,22,1997-04-03
-1,M,Igor Obukhov,Игорь Обухов,88.15,160,165,170,170,,,,,,,170,90,B,Raw,Yes,,,,,,Amateur Open,28,1990-11-07
+1,M,Igor Obukhov #1,Игорь Обухов,88.15,160,165,170,170,,,,,,,170,90,B,Raw,Yes,,,,,,Amateur Open,28,1990-11-07
 2,M,Boris Pankov,Борис Панков,90,155,162.5,-170,162.5,,,,,,,162.5,90,B,Raw,Yes,,,,,,Amateur Open,26,1993-04-26
 DQ,M,Aleksandr Alyabev,Александр Алябьев,89.05,-125,-125,-125,,,,,,,,,90,B,Raw,Yes,,,,,,Amateur Open,27,1992-06-23
 DQ,M,Artem Ukolov,Артем Уколов,89.15,-155,-155,-155,,,,,,,,,90,B,Raw,Yes,,,,,,Amateur Open,28,1990-12-11
@@ -50,7 +50,7 @@ DQ,M,Artem Ukolov,Артем Уколов,89.15,-155,-155,-155,,,,,,,,,90,B,Raw,
 1,F,Kristina Vardanyan,Кристина Варданян,59.9,40,42.5,-45,42.5,,77.5,-80,80,80,,205,60,SBD,Wraps,Yes,70,77.5,82.5,82.5,,Amateur Open,33,1986-06-23
 1,F,Anastasiya Dudakova,Анастасия Дудакова,66.35,60,-62.5,62.5,62.5,,105,-112.5,-112.5,105,,262.5,67.5,SBD,Wraps,Yes,-95,95,-97.5,95,,Amateur Juniors 20-23,23,1995-12-27
 1,F,Tatyana Altunina,Татьяна Алтунина,87.5,40,45,-50,45,,130,-142.5,-142.5,130,,275,90,SBD,Wraps,Yes,-85,90,100,100,,Amateur Open,27,1992-05-28
-1,M,Aleksey Nikulin,Алексей Никулин,66.65,90,-95,-95,90,,190,200,205,205,,445,67.5,SBD,Wraps,Yes,-150,150,-155,150,,Amateur Open,29,1990-09-23
+1,M,Aleksey Nikulin #6,Алексей Никулин,66.65,90,-95,-95,90,,190,200,205,205,,445,67.5,SBD,Wraps,Yes,-150,150,-155,150,,Amateur Open,29,1990-09-23
 1,M,Artur Mirzoyan,Артур Мирзоян,78.25,75,77.5,80,80,,140,155,162.5,162.5,,345,82.5,SBD,Wraps,Yes,90,97.5,102.5,102.5,,Amateur Teen 14-15,14,2004-11-25
 1,M,Denis Pavlikov,Денис Павликов,88.9,60,70,80,80,,115,125,130,130,,320,90,SBD,Wraps,Yes,95,100,110,110,,Amateur Teen 18-19,18,2001-05-24
 1,M,Evgeniy Dudnikov,Евгений Дудников,86.5,70,-80,-80,70,,140,-150,-150,140,,337.5,90,SBD,Wraps,Yes,115,120,127.5,127.5,,Amateur Open,30,1989-07-17

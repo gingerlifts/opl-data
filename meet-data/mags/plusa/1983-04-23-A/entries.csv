@@ -1,21 +1,21 @@
 Name,WeightClassKg,Sex,Division,AgeRange,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
-Tanya Talton,48,F,Open,,92.5,35,117.5,245,SBD,Single-ply,1
-M. Simmons,48,F,Open,,85,37.5,115,237.5,SBD,Single-ply,2
-J. Guillory,48,F,Open,,82.5,35,92.5,210,SBD,Single-ply,3
-B. Taylor,48,F,Open,,,,,,SBD,Single-ply,DQ
-R. Williams,52,F,Open,,62.5,47.5,87.5,197.5,SBD,Single-ply,1
-Luanne Thornton,56,F,Open,,120,70,135,325,SBD,Single-ply,1
-Debbie Leonard,56,F,Open,,117.5,57.5,122.5,297.5,SBD,Single-ply,2
-T. Thompson,56,F,Open,,102.5,65,115,282.5,SBD,Single-ply,3
-E. Gerkin,56,F,Open,,80,42.5,87.5,210,SBD,Single-ply,4
-Debora Avery,56,F,Open,,,,,,SBD,Single-ply,DQ
-K. Fontenot,56,F,Open,,77.5,,,,SBD,Single-ply,DQ
-Lindy Champion,60,F,Open,,117.5,65,147.5,330,SBD,Single-ply,1
-L. Schneider,67.5,F,Open,,90,47.5,140,277.5,SBD,Single-ply,2
-Pam Austin,67.5,F,Open,,105,60,117.5,282.5,SBD,Single-ply,1
-E. Stringfield,67.5,F,Open,,82.5,42.5,102.5,227.5,SBD,Single-ply,3
-S. Schwenke,67.5,F,Open,,70,40,107.5,217.5,SBD,Single-ply,4
-E. Boyd,67.5,F,Open,,,,,,SBD,Single-ply,DQ
+Tanya Talton,48,F,Women,,92.5,35,117.5,245,SBD,Single-ply,1
+M. Simmons,48,F,Women,,85,37.5,115,237.5,SBD,Single-ply,2
+J. Guillory,48,F,Women,,82.5,35,92.5,210,SBD,Single-ply,3
+Beth Taylor #3,48,F,Women,,,,,,SBD,Single-ply,DQ
+R. Williams,52,F,Women,,62.5,47.5,87.5,197.5,SBD,Single-ply,1
+Luanne Thornton,56,F,Women,,120,70,135,325,SBD,Single-ply,1
+Debbie Leonard,56,F,Women,,117.5,57.5,122.5,297.5,SBD,Single-ply,2
+T. Thompson,56,F,Women,,102.5,65,115,282.5,SBD,Single-ply,3
+E. Gerkin,56,F,Women,,80,42.5,87.5,210,SBD,Single-ply,4
+Debora Avery,56,F,Women,,,,,,SBD,Single-ply,DQ
+K. Fontenot,56,F,Women,,77.5,,,,SBD,Single-ply,DQ
+Lindy Champion,60,F,Women,,117.5,65,147.5,330,SBD,Single-ply,1
+L. Schneider,67.5,F,Women,,90,47.5,140,277.5,SBD,Single-ply,2
+Pam Austin,67.5,F,Women,,105,60,117.5,282.5,SBD,Single-ply,1
+E. Stringfield,67.5,F,Women,,82.5,42.5,102.5,227.5,SBD,Single-ply,3
+S. Schwenke,67.5,F,Women,,70,40,107.5,217.5,SBD,Single-ply,4
+E. Boyd,67.5,F,Women,,,,,,SBD,Single-ply,DQ
 Henry Pitard,90,M,Masters 40-49,40-49,275,162.5,275,712.5,SBD,Single-ply,1
 Floyd Lyon,82.5,M,Masters 40-49,40-49,255,147.5,262.5,665,SBD,Single-ply,1
 J. Adams,,M,Masters 40-49,40-49,270,162.5,237.5,670,SBD,Single-ply,1
@@ -27,7 +27,6 @@ Don Martin,125+,M,Masters 40-49,40-49,,,,,SBD,Single-ply,DQ
 Charles Kuehn,,M,Masters 50-59,50-59,182.5,117.5,200,500,SBD,Single-ply,1
 George Stevens,,M,Masters 60+,60-999,45,40,100,185,SBD,Single-ply,1
 Kevin Jones #12,52,M,Open,,145,90,135,370,SBD,Single-ply,1
-B. Taylor,52,M,Open,,,,,,SBD,Single-ply,DQ
 Chris Warnick,56,M,Open,,157.5,102.5,192.5,452.5,SBD,Single-ply,1
 Tim Smith #1,56,M,Open,,142.5,95,167.5,405,SBD,Single-ply,2
 T. Thompson,56,M,Open,,102.5,65,115,282.5,SBD,Single-ply,3
@@ -54,7 +53,7 @@ Brian Grim,75,M,Open,,227.5,130,232.5,590,SBD,Single-ply,5
 Tim Hill,75,M,Open,,220,130,235,585,SBD,Single-ply,6
 D. Baker,75,M,Open,,227.5,117.5,227.5,572.5,SBD,Single-ply,7
 A. Kirschner,75,M,Open,,,,,,SBD,Single-ply,DQ
-Mark Fowler,75,M,Open,,,,,,SBD,Single-ply,DQ
+Arthur Mark Fowler Jr #2,75,M,Open,,,,,,SBD,Single-ply,DQ
 Dennis Wright #1,82.5,M,Open,,340,220,287.5,847.5,SBD,Single-ply,1
 Steve Baldwin,82.5,M,Open,,285,182.5,272.5,740,SBD,Single-ply,2
 Dan Canales,82.5,M,Open,,265,155,272.5,692.5,SBD,Single-ply,3
@@ -76,7 +75,7 @@ S. Kmiecik,82.5,M,Open,,,,,,SBD,Single-ply,DQ
 Larry Mistric,90,M,Open,,312.5,192.5,317.5,822.5,SBD,Single-ply,1
 Joe Joyner,90,M,Open,,300,177.5,297.5,775,SBD,Single-ply,3
 Duane Burrell,90,M,Open,,285,177.5,297.5,760,SBD,Single-ply,4
-Chris Garcia,90,M,Open,,300,210,272.5,782.5,SBD,Single-ply,2
+Chris Garcia #3,90,M,Open,,300,210,272.5,782.5,SBD,Single-ply,2
 P. Beckham,90,M,Open,,300,137.5,287.5,725,SBD,Single-ply,5
 Mike Reed,90,M,Open,,260,160,295,715,SBD,Single-ply,6
 Henry Pitard,90,M,Open,,275,162.5,275,712.5,SBD,Single-ply,7
@@ -91,7 +90,7 @@ J. Mason,90,M,Open,,230,112.5,247.5,590,SBD,Single-ply,15
 L. Ingerson,90,M,Open,,197.5,135,242.5,575,SBD,Single-ply,17
 D. Cummings,90,M,Open,,200,140,230,570,SBD,Single-ply,18
 Greg Evans #2,90,M,Open,,200,152.5,217.5,570,SBD,Single-ply,19
-C. Sturgis,90,M,Open,,215,110,230,555,SBD,Single-ply,20
+Clay Sturgis,90,M,Open,,215,110,230,555,SBD,Single-ply,20
 S. Robinson,90,M,Open,,165,140,285,590,SBD,Single-ply,16
 Robert Keller #1,90,M,Open,,182.5,,,,SBD,Single-ply,DQ
 Gil Thompson,100,M,Open,,332.5,237.5,307.5,877.5,SBD,Single-ply,1
@@ -100,7 +99,7 @@ Charlie Perkins,100,M,Open,,300,187.5,320,807.5,SBD,Single-ply,3
 Phil Elmore,100,M,Open,,290,197.5,310,797.5,SBD,Single-ply,4
 J. Schmidt,100,M,Open,,250,182.5,260,692.5,SBD,Single-ply,5
 Gary Edwards,100,M,Open,,242.5,147.5,242.5,632.5,SBD,Single-ply,6
-M. Echols,100,M,Open,,230,160,212.5,602.5,SBD,Single-ply,7
+Marty Echols,100,M,Open,,230,160,212.5,602.5,SBD,Single-ply,7
 K. Walker,100,M,Open,,232.5,155,215,602.5,SBD,Single-ply,8
 Casey Sanders,110,M,Open,,315,227.5,305,847.5,SBD,Single-ply,1
 Mike Bandera,110,M,Open,,322.5,190,322.5,835,SBD,Single-ply,2
@@ -113,7 +112,7 @@ R. Roy,110,M,Open,,227.5,155,255,637.5,SBD,Single-ply,8
 Bob Frost,110,M,Open,,200,145,230,575,SBD,Single-ply,9
 B. D'Angelo,110,M,Open,,192.5,110,227.5,530,SBD,Single-ply,10
 Bob Bates,110,M,Open,,192.5,120,210,522.5,SBD,Single-ply,11
-E. Polk,110,M,Open,,242.5,172.5,,,SBD,Single-ply,DQ
+Eddie Polk,110,M,Open,,242.5,172.5,,,SBD,Single-ply,DQ
 Chris Maley,110,M,Open,,,,,,SBD,Single-ply,DQ
 Doug Matthews,110,M,Open,,,,,,SBD,Single-ply,DQ
 Clay Patterson #1,125,M,Open,,350,165,330,845,SBD,Single-ply,1
@@ -123,8 +122,8 @@ Bill Lobins,125,M,Open,,,,,,SBD,Single-ply,DQ
 S. Bryan,125,M,Open,,,,,,SBD,Single-ply,DQ
 W. Miller,125,M,Open,,,,,,SBD,Single-ply,DQ
 D. Patterson,125,M,Open,,,,,,SBD,Single-ply,DQ
-O. Guiton,125+,M,Open,,295,205,262.5,762.5,SBD,Single-ply,1
-E. Lane,125+,M,Open,,,,,,SBD,Single-ply,DQ
+Oscar Guiton,125+,M,Open,,295,205,262.5,762.5,SBD,Single-ply,1
+Ernie Lane,125+,M,Open,,,,,,SBD,Single-ply,DQ
 Don Martin,125+,M,Open,,,,,,SBD,Single-ply,DQ
 B. Young,125+,M,Open,,,,,,SBD,Single-ply,DQ
 Todd Daley,,M,Teen 14-15,14-15,182.5,90,187.5,460,SBD,Single-ply,1
@@ -147,8 +146,8 @@ D. Kern,,M,Teen 18-19,18-19,165,105,182.5,452.5,SBD,Single-ply,5
 David Silmon,,M,Teen 18-19,18-19,160,107.5,182.5,450,SBD,Single-ply,6
 H. Morphis,,M,Teen 18-19,18-19,205,160,215,580,SBD,Single-ply,3
 H. Willard,,M,Teen 18-19,18-19,182.5,110,222.5,515,SBD,Single-ply,4
-J. Russell,,M,Teen 18-19,18-19,142.5,107.5,167.5,417.5,SBD,Single-ply,7
+John Russell,,M,Teen 18-19,18-19,142.5,107.5,167.5,417.5,SBD,Single-ply,7
 L. Hargrove,,M,Teen 18-19,18-19,137.5,100,162.5,400,SBD,Single-ply,8
 T. Allen,,M,Teen 18-19,18-19,,,,,SBD,Single-ply,DQ
 J. Canerday,,M,Teen 18-19,18-19,,,,,SBD,Single-ply,DQ
-J. Elmore,,M,Teen 18-19,18-19,,,,,SBD,Single-ply,DQ
+Jody Elmore,,M,Teen 18-19,18-19,,,,,SBD,Single-ply,DQ

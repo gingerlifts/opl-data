@@ -26,7 +26,7 @@ Boys,67.13,5,Austin Bailey,Lucas Lovejoy,63.73,165.56,92.99,183.7,442.25,Single-
 Boys,67.13,6,Jelani Howell,Sherman,67.13,142.88,97.52,174.63,415.04,Single-ply,SBD,M
 Boys,67.13,7,Brock Figart,Lake Dallas,64.75,147.42,86.18,142.88,376.48,Single-ply,SBD,M
 Boys,67.13,8,Andrew Smith #12,Anna,66.9,131.54,77.11,154.22,362.87,Single-ply,SBD,M
-Boys,67.13,9,Brian Reynolds,Farmersville,67.13,131.54,83.91,147.42,362.87,Single-ply,SBD,M
+Boys,67.13,9,Brian Reynolds #4,Farmersville,67.13,131.54,83.91,147.42,362.87,Single-ply,SBD,M
 Boys,67.13,10,Tyler Rains,Van Alstyne,66.22,122.47,90.72,127.01,340.19,Single-ply,SBD,M
 Boys,67.13,11,Ryan Hughes #5,Ponder,62.03,136.08,65.77,127.01,328.85,Single-ply,SBD,M
 Boys,67.13,12,Brantley Smith,Paradise,63.62,115.67,70.31,120.2,306.17,Single-ply,SBD,M
@@ -38,7 +38,7 @@ Boys,74.84,2,Marcus Vera,Howe,72.35,224.53,97.52,197.31,519.36,Single-ply,SBD,M
 Boys,74.84,3,Reggie Robinson,Leonard,74.62,199.58,104.33,190.51,494.42,Single-ply,SBD,M
 Boys,74.84,4,Robert Maples,Pilot Point,73.48,181.44,102.06,195.04,478.54,Single-ply,SBD,M
 Boys,74.84,5,Dru Hull,Sadler S & S Cons,74.62,181.44,111.13,172.37,464.93,Single-ply,SBD,M
-Boys,74.84,6,Tyler Bailey,Lucas Lovejoy,69.4,181.44,92.99,181.44,455.86,Single-ply,SBD,M
+Boys,74.84,6,Tyler Bailey #2,Lucas Lovejoy,69.4,181.44,92.99,181.44,455.86,Single-ply,SBD,M
 Boys,74.84,7,Dustin Williams,Anna,74.62,174.63,106.59,167.83,449.06,Single-ply,SBD,M
 Boys,74.84,8,Logan Marchman,Ponder,71.55,170.1,102.06,174.63,446.79,Single-ply,SBD,M
 Boys,74.84,9,Cameron Nichols,Little Elm,74.39,181.44,106.59,149.69,437.72,Single-ply,SBD,M
@@ -66,7 +66,7 @@ Boys,82.1,7,John Norrell,Anna,78.36,190.51,99.79,167.83,458.13,Single-ply,SBD,M
 Boys,82.1,8,Matthew Weaver,Leonard,78.47,154.22,92.99,181.44,428.64,Single-ply,SBD,M
 Boys,82.1,9,Mason LaTour,Lucas Lovejoy,81.53,158.76,90.72,176.9,426.38,Single-ply,SBD,M
 Boys,82.1,10,Kristov George,Melissa,78.7,151.95,95.25,158.76,405.97,Single-ply,SBD,M
-Boys,82.1,11,Brad Williams,Melissa,79.83,138.35,95.25,147.42,381.02,Single-ply,SBD,M
+Boys,82.1,11,Brad Williams #3,Melissa,79.83,138.35,95.25,147.42,381.02,Single-ply,SBD,M
 Boys,82.1,12,Jordan Carter,Paradise,81.65,151.95,83.91,142.88,378.75,Single-ply,SBD,M
 Boys,82.1,13,Blaine Eberts,Pilot Point,77.79,129.27,81.65,136.08,347,Single-ply,SBD,M
 Boys,82.1,DQ,Chance Bratcher,Sadler S & S Cons,79.61,179.17,,,,Single-ply,SBD,M
@@ -85,7 +85,7 @@ Boys,99.79,1,Eduardo Webber,Howe,94.12,272.16,145.15,215.46,632.76,Single-ply,SB
 Boys,99.79,2,Robert Gay,Sherman,99.34,222.26,120.2,224.53,566.99,Single-ply,SBD,M
 Boys,99.79,3,Drew Hamilton,Lake Dallas,95.25,217.72,142.88,195.04,555.65,Single-ply,SBD,M
 Boys,99.79,4,Hiram Mohammad,Lucas Lovejoy,98.2,208.65,104.33,231.33,544.31,Single-ply,SBD,M
-Boys,99.79,5,Freddy Hernandez,Little Elm,90.38,208.65,122.47,206.38,537.51,Single-ply,SBD,M
+Boys,99.79,5,Freddy Hernandez #2,Little Elm,90.38,208.65,122.47,206.38,537.51,Single-ply,SBD,M
 Boys,99.79,6,Andrew Swindell,Sherman,92.76,204.12,99.79,204.12,508.02,Single-ply,SBD,M
 Boys,99.79,7,Harry Perdomo,Melissa,96.84,181.44,131.54,192.78,505.76,Single-ply,SBD,M
 Boys,99.79,8,Keith Jones,Pilot Point,99.11,199.58,124.74,174.63,498.95,Single-ply,SBD,M
@@ -98,7 +98,7 @@ Boys,109.77,14,Chrystian Molina,Lucas Lovejoy,100.02,181.44,97.52,192.78,471.74,
 Boys,99.79,15,Tory Ferryman,Ponder,91.06,206.38,97.52,156.49,460.4,Single-ply,SBD,M
 Boys,99.79,16,Nate Rainey,Lucas Lovejoy,99.11,165.56,81.65,158.76,405.97,Single-ply,SBD,M
 Boys,99.79,17,Blake Dehorney,Sherman,99.45,156.49,99.79,142.88,399.16,Single-ply,SBD,M
-Boys,99.79,18,Robert Miller,Anna,91.63,142.88,88.45,158.76,390.09,Single-ply,SBD,M
+Boys,99.79,18,Robert Miller #13,Anna,91.63,142.88,88.45,158.76,390.09,Single-ply,SBD,M
 Boys,99.79,DQ,Tod Jackson,Bowie,94.35,,,,,Single-ply,SBD,M
 Boys,109.77,1,Corgan Andrews,Paradise,101.15,272.16,170.1,249.48,691.73,Single-ply,SBD,M
 Boys,109.77,2,Matt Morrison,Gunter,106.71,242.67,147.42,276.69,666.78,Single-ply,SBD,M

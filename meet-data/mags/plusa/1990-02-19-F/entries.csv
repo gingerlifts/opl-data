@@ -1,7 +1,7 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Lee-Ann Adams,55.5,Open,F,150,62.5,157.5,370,SBD,Single-ply,1
 Bettina Altizer,58.5,Open,F,167.5,95,150,412.5,SBD,Single-ply,1
-J. Wiltshire,58.5,Open,F,120,87.5,152.5,360,SBD,Single-ply,2
+Jonna Wiltshire,58.5,Open,F,120,87.5,152.5,360,SBD,Single-ply,2
 Susan Charles,63,Open,F,125,102.5,160,387.5,SBD,Single-ply,1
 Y. Mosley,70,Open,F,127.5,65,157.5,350,SBD,Single-ply,1
 Susan Charles,63,Masters 35-44,F,125,102.5,160,387.5,SBD,Single-ply,1
@@ -28,7 +28,7 @@ P. Dole,82.5,Open,M,162.5,140,210,512.5,SBD,Single-ply,7
 Champian,90,Open,M,267.5,165,262.5,695,SBD,Single-ply,1
 Ellert,90,Open,M,182.5,135,202.5,520,SBD,Single-ply,2
 Greg Berteaux,90,Open,M,160,142.5,205,507.5,SBD,Single-ply,3
-Williams,100,Open,M,310,182.5,292.5,785,SBD,Single-ply,1
+Williams #21,100,Open,M,310,182.5,292.5,785,SBD,Single-ply,1
 R. Waak,100,Open,M,240,152.5,260,652.5,SBD,Single-ply,2
 D. Paul,100,Open,M,240,160,240,640,SBD,Single-ply,3
 Ray Birch,100,Open,M,232.5,142.5,245,620,SBD,Single-ply,4
@@ -48,4 +48,4 @@ Miyatira,82.5,Masters 50-54,M,220,130,190,540,SBD,Single-ply,1
 J. Benavidez,82.5,Masters 50-54,M,175,92.5,192.5,460,SBD,Single-ply,2
 Boyd,90,Masters 65-69,M,82.5,70,145,297.5,SBD,Single-ply,1
 Scholten,100,Masters 45-49,M,150,140,177.5,467.5,SBD,Single-ply,1
-Pardee,100,Masters 55-59,M,140,117.5,190,447.5,SBD,Single-ply,1
+Ken Pardee,100,Masters 55-59,M,140,117.5,190,447.5,SBD,Single-ply,1

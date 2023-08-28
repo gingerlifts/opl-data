@@ -44,25 +44,83 @@
     masters3 = {name = "Master III",min=59.5,max=68.5}
     masters4 = {name = "Master IV",min=69.5,max=999}
 
+
+	
+[weightclasses.new_F]
+    classes = ["52","57","63","69","76","76+"] # in LJTF there is no "47", "84","84+"
+    date_range=["2021-01-01","9999-12-31"]
+    sex = "F"
+
+[weightclasses.subjuniornew_F]
+    classes = ["52","57","63","63+"]
+    date_range=["2021-01-01","9999-12-31"]
+    sex = "F"
+    divisions = ["FR-Sj", "F-Sj", "Sub-Junior"]
+
+[weightclasses.masterI_new_F]
+    classes = ["63","63+"]
+    date_range=["2021-01-01","9999-12-31"]
+    sex = "F"
+    divisions = ["FR-M1", "F-M1", "Master I"]
+
+	
+	
 [weightclasses.default_M]
     classes = ["59","66","74","83","93","105","120","120+"]
     date_range=["2011-01-01","9999-01-01"]
-    sex = "M"
+    sex = "M"	
 
+[weightclasses.subjuniornew_M]
+    classes = ["53","59","66","74","83","93","105","105+"]
+    date_range=["2021-01-01","9999-12-31"]
+    sex = "M"
+    divisions = ["MR-Sj", "M-Sj", "Sub-Junior"]
+
+[weightclasses.juniornew_M]
+    classes = ["53","59","66","74","83","93","105","120","120+"]
+    date_range=["2021-01-01","9999-12-31"]
+    sex = "M"
+    divisions = ["MR-Jr", "M-Jr", "Junior"]
+	
+[weightclasses.masterI_new_M]
+    classes = ["74","83","93","105","120","120+"]
+    date_range=["2021-01-01","9999-12-31"]
+    sex = "M"
+    divisions = ["MR-M1", "M-M1", "Master I"]	
+	
+[weightclasses.masterII_new_M]
+    classes = ["74","83","93","105","105+"]
+    date_range=["2021-01-01","9999-12-31"]
+    sex = "M"
+    divisions = ["MR-M2", "M-M2", "Master II"]	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 [weightclasses.default_F]
     classes = ["47","52","57","63","72","84","84+"]
-    date_range=["2011-01-01","9999-01-01"]
+    date_range=["2011-01-01","2020-12-31"]
     sex = "F"
 
 [weightclasses.junior_M]
     classes = ["53","59","66","74","83","93","105","120","120+"]
-    date_range=["2011-01-01","9999-01-01"]
+    date_range=["2011-01-01","2021-12-31"]
     sex = "M"
     divisions = ["MR-Sj", "MR-Jr", "M-Sj", "M-Jr", "Junior", "Sub-Junior"]
 
+
+
 [weightclasses.junior_F]
     classes = ["43","47","52","57","63","72","84","84+"]
-    date_range=["2011-01-01","9999-01-01"]
+    date_range=["2011-01-01","2020-12-31"]
     sex = "F"
     divisions = ["FR-Sj", "FR-Jr", "F-Sj", "F-Jr", "Junior", "Sub-Junior"]
 
@@ -77,24 +135,52 @@
     sex = "F"
 
 [exemptions]
+    0401 = ["ExemptWeightClassConsistency"] # Mismatched male classes.
+    0402 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    0501 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    0601 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    0602 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    0701 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    0702 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    0801 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
     0901 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
     1001 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
     1002 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
+    1003 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
     1101 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
     1102 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
+    1201 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    1202 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
     1401 = ["ExemptWeightClassConsistency"] # Lower SHW classes for some divisions.
     1402 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
     1501 = ["ExemptWeightClassConsistency"] # Lower SHW classes for some divisions.
     1502 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    1503 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
     1601 = ["ExemptWeightClassConsistency"] # Lower SHW classes for some divisions.
     1602 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    1603 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
     1701 = ["ExemptWeightClassConsistency"] # Lower SHW classes for some divisions.
     1702 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
     1703 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    1704 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
     1801 = ["ExemptWeightClassConsistency"] # Lower SHW classes for some divisions.
     1802 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
     1803 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
 	1804 = ["ExemptWeightClassConsistency"] # Lower SHW classes for some divisions.
+	1805 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
     1901 = ["ExemptWeightClassConsistency"] # Lower SHW classes for some divisions.
     1902 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
     1903 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    1904 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
+    1905 = ["ExemptWeightClassConsistency"] # Mismatched female classes.
+    2005 = ["ExemptWeightClassConsistency"] # Mismatched male/female classes.
+    2101 = ["ExemptWeightClassConsistency"] # Reduced classes
+    2102 = ["ExemptWeightClassConsistency"] # Used old IPF classes, not new ones.
+    2103 = ["ExemptWeightClassConsistency"] # Reduced classes
+    2104 = ["ExemptWeightClassConsistency"] # Used old IPF classes, not new ones.
+    2105 = ["ExemptWeightClassConsistency"] # Used old IPF classes, not new ones.
+    2201 = ["ExemptWeightClassConsistency"] # Reduced classes
+    2202 = ["ExemptWeightClassConsistency"] # Reduced classes
+    2203 = ["ExemptWeightClassConsistency"] # Reduced classes
+    2204 = ["ExemptWeightClassConsistency"] # Reduced classes
+    2301 = ["ExemptWeightClassConsistency"] # Reduced classes

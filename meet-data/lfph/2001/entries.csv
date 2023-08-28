@@ -1,5 +1,5 @@
 Country,Event,Equipment,Name,Sex,Division,BodyweightKg,WeightClassKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,BirthDate,Place
-Belgium,SBD,Raw,Gregory Ostyn,M,Juniors,75.7,83,170,140,230,540,,1
+Belgium,SBD,Raw,Grégory Ostyn,M,Juniors,75.7,83,170,140,230,540,,1
 Belgium,SBD,Raw,Francis Mezzanotte,M,Masters 2,85.5,93,209,125,242.5,576.5,,1
 Belgium,SBD,Raw,Catherine Defraey,F,Open,60.5,63,116.5,65,135,316.5,,1
 Belgium,SBD,Raw,Remi Permentier,M,Juniors,99.9,105,250,152.5,250,652.5,,1
@@ -28,7 +28,7 @@ Belgium,SBD,Raw,Thomas Furnemont,M,Juniors,118,120,200,120,215,535,,1
 Belgium,SBD,Raw,Brandon Dewit,M,Open,78.2,83,127.5,87.5,197.5,412.5,,2
 Belgium,SBD,Raw,Julien Dufour,M,Open,97.6,105,230,157.5,215,602.5,,1
 Belgium,SBD,Raw,Gwendalm Simon,M,Juniors,100.7,105,185,150,205,540,,3
-Belgium,SBD,Raw,Celine Spina,F,Juniors,62.6,63,72.5,45,95,212.5,,1
+Belgium,SBD,Raw,Céline Spina,F,Juniors,62.6,63,72.5,45,95,212.5,,1
 France,SBD,Single-ply,Bertrand Couvercelle,M,Masters 1,79.8,83,240,125,225,590,,1
 Belgium,SBD,Single-ply,Renaud Colet,M,Open,103.6,105,200,135,215,550,,1
 Belgium,SBD,Single-ply,Michael Naessens,M,Open,66,66,110,70,112.5,292.5,,1

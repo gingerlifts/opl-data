@@ -30,14 +30,14 @@ WeightClassKg,Name,Sex,Equipment,Event,BodyweightKg,Team,Squat1Kg,Squat2Kg,Squat
 60,Krystal Harris,F,Single-ply,SBD,59.19,Nicholls St.,-92.5,92.5,100,100,42.5,-47.5,-47.5,42.5,105,112.5,-135,112.5,255,10,F-O
 60,Elisabeth Urso,F,Single-ply,SBD,56.7,Air Force,55,-62.5,62.5,62.5,-45,45,47.5,47.5,92.5,97.5,102.5,102.5,212.5,11,F-O
 60,Holly Adams,F,Single-ply,SBD,60,Air Force,,,,,,,,,,,,,,DQ,F-O
-67.5,Rebecca Roberts,F,Single-ply,SBD,67.36,La Tech,152.5,165,167.5,167.5,77.5,-85,85,85,175,185,-187.5,185,437.5,1,F-O
-67.5,Kim Callier,F,Single-ply,SBD,67.13,Texas A&M,130,145,157.5,157.5,62.5,72.5,-82.5,72.5,135,152.5,-160,152.5,382.5,2,F-O
+67.5,Rebecca Roberts #3,F,Single-ply,SBD,67.36,La Tech,152.5,165,167.5,167.5,77.5,-85,85,85,175,185,-187.5,185,437.5,1,F-O
+67.5,Kim Callier-Hooper,F,Single-ply,SBD,67.13,Texas A&M,130,145,157.5,157.5,62.5,72.5,-82.5,72.5,135,152.5,-160,152.5,382.5,2,F-O
 67.5,Rebecca Burrow,F,Single-ply,SBD,64.52,Texas A&M,-140,-140,140,140,65,72,-77.5,72,137.5,145,-152.5,145,357,3,F-O
 67.5,Kirsten Lara,F,Single-ply,SBD,65.66,U of Evansville,110,127.5,-137.5,127.5,77.5,87.5,-90,87.5,120,135,-145,135,350,4,F-O
 67.5,Sarah Barr,F,Single-ply,SBD,65.77,Penn State,100,112.5,-120,112.5,62.5,67.5,70,70,115,122.5,130,130,312.5,5,F-O
 67.5,Teresa LeBlanc,F,Single-ply,SBD,62.03,Texas A&M,125,-132.5,-132.5,125,42.5,47.5,-52.2,47.5,130,137.5,-147.5,137.5,310,6,F-O
 67.5,Christina Knutson,F,Single-ply,SBD,64.86,USNA,-122.5,122.5,-137.5,122.5,47.5,52.5,55,55,112.5,127.5,-137.5,127.5,305,7,F-O
-67.5,Laura Schaefer,F,Single-ply,SBD,63.84,U of Evansville,102.5,115,-122.5,115,52.5,57.5,-62.5,57.5,102.5,120,122.5,122.5,295,8,F-O
+67.5,Laura Beth Schaefer,F,Single-ply,SBD,63.84,U of Evansville,102.5,115,-122.5,115,52.5,57.5,-62.5,57.5,102.5,120,122.5,122.5,295,8,F-O
 67.5,Dawn Casady,F,Single-ply,SBD,67.13,USCGA,85,95,-105,95,62.5,67.5,70,70,112.5,122.5,127.5,127.5,292.5,9,F-O
 67.5,Bernadette Smith,F,Single-ply,SBD,62.14,U of Texas,100,107.5,-117.5,107.5,50,55,57.5,57.5,110,117.5,125,125,290,10,F-O
 67.5,Tiffany Williams,F,Single-ply,SBD,65.43,La Tech,87.5,105,117.5,117.5,42.5,47.5,-52.5,47.5,105,120,125,125,290,11,F-O
@@ -140,7 +140,7 @@ WeightClassKg,Name,Sex,Equipment,Event,BodyweightKg,Team,Squat1Kg,Squat2Kg,Squat
 90,Homer Espinoza,M,Single-ply,SBD,88.11,Kansas State,227.5,-240,240,240,142.5,152.5,-160,152.5,227.5,240,-245,240,632.5,5,M-O
 90,Bryan Frizzelle,M,Single-ply,SBD,88.79,USMA,210,-220,220,220,150,-157.5,157.5,157.5,240,255,-262.5,255,632.5,6,M-O
 90,Gleb Epelbaum,M,Single-ply,SBD,89.7,Penn State,-235,-235,235,235,137.5,147.5,-155,147.5,230,250,-252.5,250,632.5,7,M-O
-90,Jeffery M. Hillard Jr,M,Single-ply,SBD,89.36,U of Texas,-227.5,227.5,-260,227.5,125,-137.5,-137.5,125,237.5,255,-282.5,255,607.5,8,M-O
+90,Jeffery Hillard Jr,M,Single-ply,SBD,89.36,U of Texas,-227.5,227.5,-260,227.5,125,-137.5,-137.5,125,237.5,255,-282.5,255,607.5,8,M-O
 90,Jim Nicolosi,M,Single-ply,SBD,88.11,Rowan Univ.,232.5,-240,-240,232.5,137.5,-142.5,-142.5,137.5,225,-232.5,-232.5,225,595,9,M-O
 90,Travis Beck,M,Single-ply,SBD,85.62,Doane College,227.5,-245,-245,227.5,-107.5,112.5,-122.5,112.5,227.5,250,-255,250,590,10,M-O
 90,Nick Sawruk,M,Single-ply,SBD,89.24,Air Force,195,210,,210,-150,150,-160,150,227.5,-245,-245,227.5,587.5,11,M-O
@@ -167,7 +167,7 @@ WeightClassKg,Name,Sex,Equipment,Event,BodyweightKg,Team,Squat1Kg,Squat2Kg,Squat
 100,Kevin Grant,M,Single-ply,SBD,94.46,USMA,185,-195,-195,185,155,-160,-160,155,217.5,-227.5,-227.5,217.5,557.5,12,M-O
 100,Dan Kelinske,M,Single-ply,SBD,,U of Nor Texas,-227.5,-227.5,-227.5,,,,,,,,,,,DQ,M-O
 100,Cedrick Miller,M,Single-ply,SBD,,NWS-LA,-220,-220,-220,,,,,,,,,,,DQ,M-O
-100,Robert Graham,M,Single-ply,SBD,,U of Nor Texas,-215,-215,-215,,,,,,,,,,,DQ,M-O
+100,Robert Graham #2,M,Single-ply,SBD,,U of Nor Texas,-215,-215,-215,,,,,,,,,,,DQ,M-O
 110,Ryan Goldin,M,Single-ply,SBD,108.64,GSU,-292.5,292.5,310,310,222.5,232.5,235,235,265,-285,-285,265,810,1,M-O
 110,John King,M,Single-ply,SBD,108.3,Blinn Col.,272.5,-290,-290,272.5,175,-182.5,-182.5,175,265,272.5,280,280,727.5,2,M-O
 110,Jeremy Many,M,Single-ply,SBD,109.09,U of Louisiana,267.5,-280,280,280,165,175,182.5,182.5,235,247.5,-262.5,247.5,710,3,M-O
@@ -184,6 +184,6 @@ WeightClassKg,Name,Sex,Equipment,Event,BodyweightKg,Team,Squat1Kg,Squat2Kg,Squat
 125,David Onishi,M,Single-ply,SBD,123.72,Pacific Univ,235,-245,-250,235,145,-155,-155,145,235,-247.5,-250,235,615,7,M-O
 125+,Dmarquis Brown,M,Single-ply,SBD,141.97,La Tech,272.5,305,320,320,220,237.5,242.5,242.5,-320,327.5,342.5,342.5,905,1,M-O
 125+,Ernie Richards,M,Single-ply,SBD,155.92,La Tech,310,335,-355,335,175,185,-187.5,185,330,350,-387.5,350,870,2,M-O
-125+,Randall O. Harris,M,Single-ply,SBD,137.44,U of Nor Tex,310,-337.5,340,340,217.5,-230,-232.5,217.5,-295,305,-347.5,305,862.5,3,M-O
+125+,Randall Harris,M,Single-ply,SBD,137.44,U of Nor Tex,310,-337.5,340,340,217.5,-230,-232.5,217.5,-295,305,-347.5,305,862.5,3,M-O
 125+,John C. Janek,M,Single-ply,SBD,127.46,U of Wis - Mad,-227.5,227.5,295,295,182.5,200,-210,200,227.5,262.5,277.5,277.5,772.5,2,M-O
 125+,Denis Cody,M,Single-ply,SBD,181.44,La Tech,332.5,-362.5,,332.5,135,,,135,100,-300,-305,100,567.5,4,M-O

@@ -1,6 +1,6 @@
 Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Division,Equipment,Deadlift4Kg,Event,Tested
 1,Alessandra Molina,MD,60,59.8,19,112.5,60,145,317.5,F,Juniors 18-19,Raw,148,SBD,Yes
-1,Bailey Baggett,GA,60,57.2,21,120,60,122.5,302.5,F,Juniors 20-23,Raw,,SBD,Yes
+1,Bailey Stephens,GA,60,57.2,21,120,60,122.5,302.5,F,Juniors 20-23,Raw,,SBD,Yes
 1,Raechel Brooks,NC,67.5,67.5,23,172.5,72.5,195,440,F,Juniors 20-23,Raw,,SBD,Yes
 2,Kathryn Vollrath,NC,67.5,66.7,23,100,57.5,105,262.5,F,Juniors 20-23,Raw,,SBD,Yes
 1,Rachel Kirkland,VA,75,70.2,22,80,55,120,255,F,Juniors 20-23,Raw,,SBD,Yes
@@ -45,7 +45,7 @@ DQ,Kelly McCarthy,NC,75,73.6,29,142.5,,142.5,,F,Open,Raw,,SBD,Yes
 1,Michael Melvin,NC,110,105.7,17,227.5,122.5,230,580,M,Juniors 16-17,Raw,,SBD,Yes
 1,Thor Haskin,NC,110,103.9,22,300,162.5,277.5,740,M,Juniors 20-23,Raw,,SBD,Yes
 2,Alec Hughes,MD,110,107.1,23,210,120,265,595,M,Juniors 20-23,Raw,,SBD,Yes
-1,William Walker,NC,140,134.7,21,275,165,260,700,M,Juniors 20-23,Raw,,SBD,Yes
+1,William Walker #1,NC,140,134.7,21,275,165,260,700,M,Juniors 20-23,Raw,,SBD,Yes
 1,Chase Pernell,NC,67.5,65.9,24,217.5,122.5,265,605,M,Open,Raw,,SBD,Yes
 2,Ian Bailley,NC,67.5,64.4,30,155,95,182.5,432.5,M,Open,Raw,,SBD,Yes
 1,Phillip Bennett,NC,75,74,25,222.5,150,227.5,600,M,Open,Raw,,SBD,Yes
@@ -92,7 +92,7 @@ DQ,Kaleb Farley,NC,100,97.2,28,195,140,,,M,Open,Raw,,SBD,Yes
 1,William Assell,NC,100,97.8,37,200,145,205,550,M,Submasters 35-39,Raw,,SBD,Yes
 1,Isaac Pedrote,NC,110,109.7,35,277.5,177.5,272.5,727.5,M,Submasters 35-39,Raw,,SBD,Yes
 1,Chad Williams,NC,140,130,35,275,200,255,730,M,Submasters 35-39,Raw,,SBD,Yes
-1,Jeremy Taylor,NC,75,73.5,40,142.5,97.5,217.5,457.5,M,Masters 40-44,Raw,,SBD,Yes
+1,Jeremy Taylor #1,NC,75,73.5,40,142.5,97.5,217.5,457.5,M,Masters 40-44,Raw,,SBD,Yes
 1,Amanda Isley,NC,60,58.6,31,125,62.5,132.5,320,F,Open,Wraps,,SBD,Yes
 1,Christi Galloway,NC,67.5,63.5,31,107.5,57.5,125,290,F,Open,Wraps,,SBD,Yes
 1,Jennifer Broome,NC,75,74.7,37,137.5,70,147.5,355,F,Open,Wraps,,SBD,Yes

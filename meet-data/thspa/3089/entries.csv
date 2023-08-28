@@ -40,7 +40,7 @@ Div 2,59.87,11,Orlando Moreno,Bay City,58.06,174.63,95.25,167.83,437.72,Single-p
 Div 2,59.87,12,Dakota Cavazos,Lampasas,58.69,156.49,108.86,172.37,437.72,Single-ply,SBD,M
 Div 2,67.13,1,Isaiah Mesa,Taylor,65.05,274.42,140.61,231.33,646.37,Single-ply,SBD,M
 Div 2,67.13,2,Ismael Franco,Crystal City,66.13,231.33,138.35,224.53,594.21,Single-ply,SBD,M
-Div 2,67.13,3,Sean Williams,Lampasas,66.95,217.72,136.08,222.26,576.06,Single-ply,SBD,M
+Div 2,67.13,3,Sean Williams #4,Lampasas,66.95,217.72,136.08,222.26,576.06,Single-ply,SBD,M
 Div 2,67.13,4,Tyler Bush,Rio Hondo,65.23,226.8,138.35,208.65,573.79,Single-ply,SBD,M
 Div 2,67.13,5,Seth Barton,Midland Greenwood,65.77,204.12,127.01,219.99,551.11,Single-ply,SBD,M
 Div 2,67.13,6,Travius Bronner,Paris,67.04,233.6,115.67,192.78,542.04,Single-ply,SBD,M
@@ -63,7 +63,7 @@ Div 2,74.84,10,Dominic Ramos,Rio Hondo,72.21,215.46,156.49,204.12,576.06,Single-
 Div 2,74.84,11,Emanuel Silva,Venus,73.84,238.14,115.67,208.65,562.45,Single-ply,SBD,M
 Div 2,74.84,12,Sloan Hall,Liberty Hill,74.3,215.46,117.93,215.46,548.85,Single-ply,SBD,M
 Div 2,74.84,DQ,Dusty Burris,Princeton,72.48,204.12,,,,Single-ply,SBD,M
-Div 2,74.84,DQ,John Reyes,Pearsall,73.3,,,,,Single-ply,SBD,M
+Div 2,74.84,DQ,John Reyes #1,Pearsall,73.3,,,,,Single-ply,SBD,M
 Div 2,74.84,DQ,Lucas Byrd,Devine,74.39,,,,,Single-ply,SBD,M
 Div 2,74.84,DQ,Dre Gresham,Iowa Park,74.12,219.99,140.61,,,Single-ply,SBD,M
 Div 2,74.84,DQ,Patrick Prieto,Beeville Jones,73.12,226.8,,,,Single-ply,SBD,M
@@ -105,7 +105,7 @@ Div 2,99.79,2,Darrell Houff,Texarkana Liberty-Eylau,98.16,272.16,197.31,238.14,7
 Div 2,99.79,3,Ragan Wood,Stephenville,97.34,292.57,167.83,226.8,687.19,Single-ply,SBD,M
 Div 2,99.79,4,Franco Arce,Zapata,97.79,276.69,131.54,258.55,666.78,Single-ply,SBD,M
 Div 2,99.79,5,Jose Zaragoza,West Columbia,93.98,247.21,145.15,263.08,655.44,Single-ply,SBD,M
-Div 2,99.79,6,Ricardo Pena,Kennedale,97.7,265.35,151.95,229.06,646.37,Single-ply,SBD,M
+Div 2,99.79,6,Ricardo Pena #2,Kennedale,97.7,265.35,151.95,229.06,646.37,Single-ply,SBD,M
 Div 2,99.79,7,Noah Bush,Athens,96.25,242.67,163.29,238.14,644.1,Single-ply,SBD,M
 Div 2,99.79,8,Hunter Bagley,Iowa Park,98.16,244.94,142.88,249.48,637.3,Single-ply,SBD,M
 Div 2,99.79,9,Jaime Morales,Cleveland,93.35,249.48,131.54,247.21,628.23,Single-ply,SBD,M
@@ -128,9 +128,9 @@ Div 2,109.77,11,Marquell Hale,Silsbee,108.14,276.69,158.76,240.4,675.85,Single-p
 Div 2,109.77,12,Tristian Rodriguez,Raymondville,108.86,267.62,161.03,244.94,673.58,Single-ply,SBD,M
 Div 2,109.77,13,Kyle Huppee,Liberty Hill,104.33,238.14,163.29,249.48,650.91,Single-ply,SBD,M
 Div 2,109.77,14,Brandon Halliday,Paris North Lamar,107.23,226.8,176.9,217.72,621.42,Single-ply,SBD,M
-Div 2,109.77,15,Diego Garcia,Brownfield,105.32,233.6,149.69,235.87,619.15,Single-ply,SBD,M
+Div 2,109.77,15,Diego Garcia #6,Brownfield,105.32,233.6,149.69,235.87,619.15,Single-ply,SBD,M
 Div 2,109.77,DQ,Joey Rodriguez,Corpus Christi West Oso,108.41,,,,,Single-ply,SBD,M
-Div 2,109.77,DQ,Austen Flores,San Antonio Holy Cross,107.41,258.55,156.49,,,Single-ply,SBD,M
+Div 2,109.77,DQ,Austen Flores #1,San Antonio Holy Cross,107.41,258.55,156.49,,,Single-ply,SBD,M
 Div 2,124.74,1,Jerry Daniel,Nevada Community,123.2,337.93,240.4,274.42,852.75,Single-ply,SBD,M
 Div 2,124.74,2,Austin Soto,Devine,123.65,283.5,226.8,260.82,771.11,Single-ply,SBD,M
 Div 2,124.74,3,Austin Norton,Nevada Community,120.75,317.51,158.76,249.48,725.75,Single-ply,SBD,M
@@ -146,7 +146,7 @@ Div 2,124.74,DQ,Daniel Zarzoza,Diboll,123.2,,,,,Single-ply,SBD,M
 Div 2,124.74,DQ,Oscar Castillo,Pleasanton,124.47,,,,,Single-ply,SBD,M
 Div 2,124.74,DQ,Sean Humphrey,Snyder,123.83,290.3,190.51,,,Single-ply,SBD,M
 Div 2,124.74+,1,Joseph Peña #1,San Antonio Holy Cross,161.57,464.93,233.6,274.42,972.96,Single-ply,SBD,M
-Div 2,124.74+,2,David Garcia,Alvarado,149.87,319.78,256.28,256.28,832.34,Single-ply,SBD,M
+Div 2,124.74+,2,David Garcia #9,Alvarado,149.87,319.78,256.28,256.28,832.34,Single-ply,SBD,M
 Div 2,124.74+,3,Travis Shouse,Anna,146.69,331.12,210.92,265.35,807.39,Single-ply,SBD,M
 Div 2,124.74+,4,Kaleb Pogue,Rockport-Fulton,135.53,374.21,183.7,244.94,802.86,Single-ply,SBD,M
 Div 2,124.74+,5,Quinlan Beck,Shepherd,146.06,328.85,197.31,258.55,784.71,Single-ply,SBD,M

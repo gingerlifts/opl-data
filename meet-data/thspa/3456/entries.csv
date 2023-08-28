@@ -12,7 +12,7 @@ Boys,51.71,10,Chris Medina,Brownsville Hanna,51.07,142.88,79.38,163.29,385.55,Si
 Boys,51.71,11,Chase Chapa,Port Lavaca Calhoun,51.17,142.88,99.79,142.88,385.55,Single-ply,SBD,M
 Boys,51.71,12,Damian Gonzalez,Roma,51.26,142.88,83.91,158.76,385.55,Single-ply,SBD,M
 Boys,51.71,DQ,Jesus Puente,La Joya Palmview,50.98,142.88,77.11,142.88,,Single-ply,SBD,M
-Boys,55.79,1,Joel Sanchez,Brownsville Veterans Memorial,55.7,206.38,113.4,226.8,546.58,Single-ply,SBD,M
+Boys,55.79,1,Joel Sanchez #2,Brownsville Veterans Memorial,55.7,206.38,113.4,226.8,546.58,Single-ply,SBD,M
 Boys,55.79,2,Robert Saenz,Sharyland Pioneer,55.34,201.85,124.74,217.72,544.31,Single-ply,SBD,M
 Boys,55.79,3,Jeremiah Zelaya,Victoria East,55.61,195.04,106.59,188.24,489.88,Single-ply,SBD,M
 Boys,55.79,4,Justin Berner,Edinburg North,55.52,192.78,113.4,174.63,480.81,Single-ply,SBD,M
@@ -20,7 +20,7 @@ Boys,55.79,5,Marc Sedillo,San Benito,55.61,183.7,92.99,183.7,460.4,Single-ply,SB
 Boys,55.79,6,Kevin Trevino,McAllen Memorial,55.25,163.29,117.93,170.1,451.32,Single-ply,SBD,M
 Boys,55.79,7,Mark Ortega,Mercedes,55.79,165.56,102.06,179.17,446.79,Single-ply,SBD,M
 Boys,55.79,8,Michael Casillas,Victoria West,55.43,165.56,108.86,170.1,444.52,Single-ply,SBD,M
-Boys,55.79,9,Edgar Martinez,Edinburg Vela,55.79,161.03,102.06,179.17,442.25,Single-ply,SBD,M
+Boys,55.79,9,Edgar Martinez #3,Edinburg Vela,55.79,161.03,102.06,179.17,442.25,Single-ply,SBD,M
 Boys,55.79,10,AJ Trevino,Edinburg,54.98,174.63,111.13,149.69,435.45,Single-ply,SBD,M
 Boys,55.79,11,Tyrone Irizarry,Brownsville Lopez,53.98,156.49,95.25,179.17,430.91,Single-ply,SBD,M
 Boys,55.79,DQ,Eric Capistran,Brownsville Veterans Memorial,54.7,172.37,95.25,,,Single-ply,SBD,M
@@ -29,7 +29,7 @@ Boys,59.87,2,Hugo Gomez,Edinburg North,59.15,183.7,117.93,201.85,503.49,Single-p
 Boys,59.87,3,Fabian Bazan,Castroville Medina Valley,58.97,183.7,102.06,213.19,498.95,Single-ply,SBD,M
 Boys,59.87,4,Chris Rios,Rio Grande City,59.33,179.17,120.2,199.58,498.95,Single-ply,SBD,M
 Boys,59.87,5,Jose Alcorta,Laredo United South,59.87,195.04,108.86,195.04,498.95,Single-ply,SBD,M
-Boys,59.87,6,Fernando Martinez,Weslaco,59.78,185.97,106.59,190.51,483.08,Single-ply,SBD,M
+Boys,59.87,6,Fernando Martinez #2,Weslaco,59.78,185.97,106.59,190.51,483.08,Single-ply,SBD,M
 Boys,59.87,7,Josh Gonzalez,Weslaco East,59.42,179.17,90.72,204.12,474,Single-ply,SBD,M
 Boys,59.87,8,Matthew Hughes #1,Del Rio,59.6,172.37,117.93,183.7,474,Single-ply,SBD,M
 Boys,59.87,9,Jacob Amaro,PSJA Memorial,59.33,176.9,104.33,183.7,464.93,Single-ply,SBD,M
@@ -40,7 +40,7 @@ Boys,67.13,2,Jonathan Zelaya,Victoria East,66.32,272.16,142.88,240.4,655.44,Sing
 Boys,67.13,3,Ricky Ortiz #1,Edcouch-Elsa,66.32,265.35,145.15,242.67,653.17,Single-ply,SBD,M
 Boys,67.13,4,Felix Rizo,Brownsville Pace,65.23,231.33,149.69,226.8,607.81,Single-ply,SBD,M
 Boys,67.13,5,Cody Elizalde,Seguin,65.05,226.8,127.01,224.53,578.33,Single-ply,SBD,M
-Boys,67.13,6,Ricardo Pena,Rio Grande City,66.86,226.8,142.88,208.65,578.33,Single-ply,SBD,M
+Boys,67.13,6,Ricardo Pena #1,Rio Grande City,66.86,226.8,142.88,208.65,578.33,Single-ply,SBD,M
 Boys,67.13,7,Freddy Gonzalez #1,Weslaco East,66.86,217.72,147.42,206.38,571.53,Single-ply,SBD,M
 Boys,67.13,8,Frank Estrada,PSJA Memorial,65.23,224.53,129.27,199.58,553.38,Single-ply,SBD,M
 Boys,67.13,9,Cristian Alvarado,Corpus Christi Calallen,66.32,217.72,122.47,204.12,544.31,Single-ply,SBD,M
@@ -77,7 +77,7 @@ Boys,89.81,1,Obed Hernandez,Sharyland Pioneer,88.72,285.76,165.56,272.16,723.48,
 Boys,89.81,2,Fred Cardenas,Weslaco East,89.09,272.16,154.22,247.21,673.58,Single-ply,SBD,M
 Boys,89.81,3,Brandon Esteves,Brownsville Hanna,89.18,260.82,149.69,260.82,671.32,Single-ply,SBD,M
 Boys,89.81,4,Ernesto Preciado,Pharr Valley View,89.45,254.01,156.49,233.6,644.1,Single-ply,SBD,M
-Boys,89.81,5,Jaime Rios,Port Lavaca Calhoun,88.18,265.35,136.08,233.6,635.03,Single-ply,SBD,M
+Boys,89.81,5,Jaime Rios #1,Port Lavaca Calhoun,88.18,265.35,136.08,233.6,635.03,Single-ply,SBD,M
 Boys,89.81,6,Manny Arguijo,Del Rio,88.36,244.94,151.95,238.14,635.03,Single-ply,SBD,M
 Boys,89.81,7,Rey Salazar,Brownsville Veterans Memorial,89.18,249.48,142.88,242.67,635.03,Single-ply,SBD,M
 Boys,89.81,8,Gabriel Salinas,Donna,88.54,254.01,140.61,226.8,621.42,Single-ply,SBD,M
@@ -94,7 +94,7 @@ Boys,99.79,6,Nate Vallejo,Edcouch-Elsa,96.98,258.55,163.29,247.21,669.05,Single-
 Boys,99.79,7,Eddie Hernandez,La Joya Juarez-Lincoln,97.43,263.08,158.76,235.87,657.71,Single-ply,SBD,M
 Boys,99.79,8,Garrett Luensmann,Seguin,98.34,267.62,142.88,247.21,657.71,Single-ply,SBD,M
 Boys,99.79,9,Joey Castillo,PSJA Southwest,98.25,263.08,145.15,240.4,648.64,Single-ply,SBD,M
-Boys,99.79,10,Fernando Martinez,Brownsville Hanna,98.25,272.16,165.56,204.12,641.83,Single-ply,SBD,M
+Boys,99.79,10,Fernando Martinez #1,Brownsville Hanna,98.25,272.16,165.56,204.12,641.83,Single-ply,SBD,M
 Boys,99.79,DQ,Jair Ibarra,Brownsville Lopez,99.79,256.28,,,,Single-ply,SBD,M
 Boys,99.79,DQ,Sebastian Buitron,McAllen,98.7,265.35,,,,Single-ply,SBD,M
 Boys,99.79,DQ,Joel Garcia,Pharr Valley View,98.7,254.01,,,,Single-ply,SBD,M
@@ -106,7 +106,7 @@ Boys,109.77,5,Adrien Martinez,Brownsville Hanna,108.41,301.64,149.69,249.48,700.
 Boys,109.77,6,Oscar Juarez,Edinburg,107.77,278.96,197.31,213.19,689.46,Single-ply,SBD,M
 Boys,109.77,7,Juan Martinez,La Joya Juarez-Lincoln,107.41,267.62,156.49,260.82,684.92,Single-ply,SBD,M
 Boys,109.77,8,Keane Davis,Seguin,107.32,247.21,156.49,276.69,680.39,Single-ply,SBD,M
-Boys,109.77,9,Jose Mendoza,Del Rio,107.95,274.42,170.1,235.87,680.39,Single-ply,SBD,M
+Boys,109.77,9,Jose Mendoza #1,Del Rio,107.95,274.42,170.1,235.87,680.39,Single-ply,SBD,M
 Boys,109.77,10,Jorge Mortera,Corpus Christi Tuloso-Midway,107.77,265.35,165.56,238.14,669.05,Single-ply,SBD,M
 Boys,109.77,11,Bryan Mosqueda,PSJA Southwest,107.41,256.28,151.95,235.87,644.1,Single-ply,SBD,M
 Boys,109.77,DQ,Jonathan De Los Reyes,Brownsville Hanna,104.96,272.16,,,,Single-ply,SBD,M
@@ -131,7 +131,7 @@ Boys,124.74+,6,Leo Madera,Port Lavaca Calhoun,145.88,303.91,167.83,254.01,725.75
 Boys,124.74+,7,Alex Rodriguez #2,La Joya,153.04,306.17,183.7,235.87,725.75,Single-ply,SBD,M
 Boys,124.74+,8,Isaiah Allen,Corpus Christi Tuloso-Midway,129.46,299.37,151.95,256.28,707.6,Single-ply,SBD,M
 Boys,124.74+,9,Gerardo Lopez,McAllen,132.72,299.37,217.72,185.97,703.07,Single-ply,SBD,M
-Boys,124.74+,10,Joseph Rodriguez,Del Rio,162.48,249.48,174.63,258.55,682.66,Single-ply,SBD,M
+Boys,124.74+,10,Joseph Rodriguez #6,Del Rio,162.48,249.48,174.63,258.55,682.66,Single-ply,SBD,M
 Boys,124.74+,11,Sergio Reyna,McAllen Memorial,125.46,258.55,165.56,222.26,646.37,Single-ply,SBD,M
 Boys,124.74+,DQ,Jose Tovar,PSJA Memorial,134.63,,,,,Single-ply,SBD,M
 Boys,124.74+,DQ,Jorge Flores,San Antonio Memorial,153.04,,,,,Single-ply,SBD,M

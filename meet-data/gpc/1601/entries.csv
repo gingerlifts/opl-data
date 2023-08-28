@@ -17,7 +17,7 @@ WeightClassKg,Name,Sex,BirthYear,BodyweightKg,Country,Division,Squat1Kg,Squat2Kg
 60,Mellissa Hurley,F,1977,56.6,UK,O,90,102.5,-110,,102.5,55,57.5,60,,60,-120,127.5,135,,135,297.5,2,Wraps,SBD
 60,Regina Bohus,F,1999,56.7,Hungary,T2,100,110,-115,,110,50,60,-67.5,,60,100,111,120,,120,290,1,Wraps,SBD
 60,Danijela Jakovljević,F,1990,57,Serbia,O,70,-80,-87.5,,70,35,-40,40,,40,75,85,90,,90,200,3,Wraps,SBD
-60,Julie Davis,F,1976,58.1,UK,M1,105,112.5,120,,120,65,-70,70,,70,125,135,-140,,135,325,1,Wraps,SBD
+60,Julie Davis #1,F,1976,58.1,UK,M1,105,112.5,120,,120,65,-70,70,,70,125,135,-140,,135,325,1,Wraps,SBD
 60,Rehana Maniar,F,1974,59.2,Ireland,M1,100,-107.5,-107.5,,100,50,57.5,-60,,57.5,115,-125,-125,,115,272.5,2,Wraps,SBD
 60,Ellen Freeborn,F,1991,59.3,UK,O,110,120,127.5,,127.5,65,-67.5,-67.5,,65,125,132.5,140,,140,332.5,1,Wraps,SBD
 60,Lesley Jayne Thomas,F,1966,59.6,UK,M3,100,-110,110,,110,55,60,65,-67.5,65,125,132.5,140,,140,315,1,Wraps,SBD
@@ -28,7 +28,7 @@ WeightClassKg,Name,Sex,BirthYear,BodyweightKg,Country,Division,Squat1Kg,Squat2Kg
 67.5,Anita Simurina,F,1987,65.8,Montenegro,O,147.5,-155,155,-160,155,55,57.5,60,,60,120,127.5,132.5,,132.5,347.5,2,Wraps,SBD
 67.5,Karolína Děrglová,F,1998,66.5,Czechia,T3,120,130,140,145,140,50,60,65,67.5,65,-140,140,150,-153,150,355,1,Wraps,SBD
 67.5,Enikő Serfőző,F,1997,66.7,Hungary,T3,95,105,110,,110,60,67.5,-72.5,,67.5,105,112.5,117.5,,117.5,295,2,Wraps,SBD
-67.5,Katalin Schindelrne Kis,F,1970,66.9,Hungary,M2,135,-145,145,,145,85,90,95,-97.5,95,135,150,-160,,150,390,1,Wraps,SBD
+67.5,Katalin Schindlerné Kis,F,1970,66.9,Hungary,M2,135,-145,145,,145,85,90,95,-97.5,95,135,150,-160,,150,390,1,Wraps,SBD
 67.5,Anna Sokolov,F,1979,67.2,Israel,O,150,160,170,,170,60,65,67.5,,67.5,150,160,-162.5,,160,397.5,1,Wraps,SBD
 67.5,Jennifer Milliron-O'Neil,F,1975,67.5,Ireland,M1,-200,-200,-200,,,,,,,,,,,,,,DQ,Wraps,SBD
 75,Jelena Marinković,F,1983,68.5,Serbia,O,90,100,-110,,100,55,60,-62.5,,60,120,125,,,125,285,1,Wraps,SBD
@@ -62,7 +62,7 @@ WeightClassKg,Name,Sex,BirthYear,BodyweightKg,Country,Division,Squat1Kg,Squat2Kg
 67.5,Attila Márk Kiss,M,1996,66.8,Hungary,J,180,-190,-190,,180,112.5,120,122.5,,122.5,-190,200,205,,205,507.5,1,Wraps,SBD
 67.5,Gary Bobrowitz,M,1952,66.9,Canada,M5,50,,,,50,113,115,-117.5,,115,65,160,-165,,160,325,1,Wraps,SBD
 67.5,Nikola Stanković,M,2000,67.1,Serbia,T2,120,135,146,,146,80,-85,-85,,80,-150,150,160,,160,386,1,Wraps,SBD
-67.5,Ivan Ivanov,M,1994,67.4,Bulgaria,J,155,160,165,,165,105,110,-115,,110,210,-225,-230,,210,485,2,Wraps,SBD
+67.5,Ivan Ivanov #11,M,1994,67.4,Bulgaria,J,155,160,165,,165,105,110,-115,,110,210,-225,-230,,210,485,2,Wraps,SBD
 67.5,Nikola Milić,M,1991,67.5,Serbia,O,-150,150,160,,160,100,110,-115,,110,160,170,-172.5,,170,440,1,Wraps,SBD
 67.5,Aleksey Okunev,M,1975,67.5,Russia,M1,240,-260,,,240,140,150,-155,,150,240,-250,-250,,240,630,1,Wraps,SBD
 75,Dominik Minárik,M,1999,68.1,Slovakia,T2,160,172.5,-177.5,,172.5,65,72.5,75,,75,170,182.5,-190,,182.5,430,1,Wraps,SBD
@@ -142,7 +142,7 @@ WeightClassKg,Name,Sex,BirthYear,BodyweightKg,Country,Division,Squat1Kg,Squat2Kg
 100,Dušan Jovanović,M,1992,99.2,Serbia,J,-287.5,287.5,-300,,287.5,191,196,200,,200,-300,300,305,,305,792.5,1,Wraps,SBD
 100,Artem Dmytruk,M,1993,99.2,Ukraine,J,-252.5,252.5,-265,,252.5,180,187.5,-192.5,,187.5,270,290,,,290,730,3,Wraps,SBD
 100,Ilari Ventä,M,1993,99.7,Finland,J,200,220,-230,,220,115,122.5,-130,,122.5,190,210,-225,,210,552.5,6,Wraps,SBD
-100,Josua Wiseman,M,1984,99.8,Australia,O,305,-322.5,-330,,305,180,187.5,,,187.5,-300,300,310,,310,802.5,1,Wraps,SBD
+100,Joshua Wiseman,M,1984,99.8,Australia,O,305,-322.5,-330,,305,180,187.5,,,187.5,-300,300,310,,310,802.5,1,Wraps,SBD
 110,Artem Khrystin,M,1993,102.1,Ukraine,J,200,-220,-220,,200,140,150,-155,,150,200,-220,,,200,550,4,Wraps,SBD
 110,Aleksandar Kojić,M,1993,103.7,Bosnia and Herzegovina,J,220,-235,-235,,220,100,110,117.5,,117.5,230,240,-255,,240,577.5,3,Wraps,SBD
 110,Dmytro Hotlashov,M,1985,104.4,Ukraine,O,200,220,240,,240,140,150,155,,155,200,-230,-230,,200,595,3,Wraps,SBD
@@ -170,7 +170,7 @@ WeightClassKg,Name,Sex,BirthYear,BodyweightKg,Country,Division,Squat1Kg,Squat2Kg
 125,Gábor Bencze,M,1978,120.9,Hungary,O,280,290,300,,300,180,200,-207.5,,200,290,305,310,,310,810,3,Wraps,SBD
 125,Hamish Coulter,M,1982,121.4,New Zealand,O,-335,335,-365.5,-370.5,335,210,222.5,-227.5,,222.5,290,315,-335,,315,872.5,2,Wraps,SBD
 125,Ostojić Strahinja,M,1993,121.8,Serbia,J,-290,290,-311,,290,195,-203.5,203.5,,203.5,280,307.5,320,,320,813.5,1,Wraps,SBD
-125,Alexander Zaytsev,M,1980,122,Russia,O,320,350,-370,,350,210,230,,,230,290,-310,310,,310,890,1,Wraps,SBD
+125,Aleksandr Zaytsev,M,1980,122,Russia,O,320,350,-370,,350,210,230,,,230,290,-310,310,,310,890,1,Wraps,SBD
 125,Aleksei Tarasenko,M,1971,124.2,Russia,M2,280,-300,300,,300,210,220,227.5,,227.5,245,265,-285,,265,792.5,1,Wraps,SBD
 125,Bemes Gergö Mark,M,1998,125,Hungary,T3,295,310,321,,321,160,170,180,-191.5,180,285,300,310,,310,811,2,Wraps,SBD
 140,Slicherbyna Andrey,M,1982,125.7,Ukraine,O,260,280,,,280,150,-170,-170,,150,220,240,260,,260,690,4,Wraps,SBD
@@ -201,7 +201,7 @@ WeightClassKg,Name,Sex,BirthYear,BodyweightKg,Country,Division,Squat1Kg,Squat2Kg
 67.5,Sonja Vidojković,F,1997,64,Serbia,T3,,,,,,30,32.5,-35,,32.5,,,,,,32.5,1,Raw,B
 67.5,Monika Mikulová,F,1991,65.5,Slovakia,O,,,,,,82.5,90,-95,,90,,,,,,90,1,Raw,B
 67.5,Virág Horváth,F,1992,65.5,Hungary,J,,,,,,45,-50,-50,,45,,,,,,45,1,Raw,B
-67.5,Katalin Schindelrne Kis,F,1970,66.1,Hungary,M2,,,,,,85,90,92.5,,92.5,,,,,,92.5,1,Raw,B
+67.5,Katalin Schindlerné Kis,F,1970,66.1,Hungary,M2,,,,,,85,90,92.5,,92.5,,,,,,92.5,1,Raw,B
 75,Jelena Marinković,F,1983,69,Serbia,O,,,,,,55,60,-65,,60,,,,,,60,1,Raw,B
 75,Tereza Burkoňová,F,1978,70.8,Czechia,O,,,,,,55,60,-62.5,,60,,,,,,60,2,Raw,B
 75,Aida Agüero,F,1961,70.9,Argentina,M4,,,,,,120,130,135,,135,,,,,,135,1,Raw,B
@@ -218,14 +218,14 @@ WeightClassKg,Name,Sex,BirthYear,BodyweightKg,Country,Division,Squat1Kg,Squat2Kg
 67.5,Patryk Strzałek,M,2001,65.1,Poland,T1,,,,,,70,77.5,82.5,,82.5,,,,,,82.5,2,Raw,B
 67.5,György Fonyódi,M,1943,65.2,Hungary,M7,,,,,,75,80,-85,,80,,,,,,80,1,Raw,B
 67.5,Volodymyr Malyk,M,1987,65.2,Ukraine,O,,,,,,80,-90,-95,,80,,,,,,80,4,Raw,B
-67.5,Nebojsa Sazdovski,M,1987,65.2,Macedonia,O,,,,,,125,135,137.5,140,137.5,,,,,,137.5,1,Raw,B
+67.5,Nebojsa Sazdovski,M,1987,65.2,North Macedonia,O,,,,,,125,135,137.5,140,137.5,,,,,,137.5,1,Raw,B
 67.5,Tomislav Puhin,M,1975,65.8,Croatia,M1,,,,,,90,95,97.5,,97.5,,,,,,97.5,2,Raw,B
-67.5,Martin Kovačevski,M,1992,65.9,Macedonia,J,,,,,,125,135,-140,,135,,,,,,135,1,Raw,B
+67.5,Martin Kovačevski,M,1992,65.9,North Macedonia,J,,,,,,125,135,-140,,135,,,,,,135,1,Raw,B
 67.5,Istvan Gyuricska Jnr,M,2000,66.2,Hungary,T1,,,,,,90,-100,100,-112.5,100,,,,,,100,1,Raw,B
 67.5,Hristijan Strainović,M,1983,66.2,Serbia,O,,,,,,100,-112.5,-112.5,,100,,,,,,100,3,Raw,B
 67.5,Márton Munkácsi,M,2002,66.6,Hungary,T1,,,,,,55,60,-70,,60,,,,,,60,3,Raw,B
-67.5,Boshko Stamenkovski,M,1971,66.7,Macedonia,M2,,,,,,115,120,-125,-125,120,,,,,,120,1,Raw,B
-67.5,Alexey Okunev,M,1975,67.3,Russia,M1,,,,,,150,-155,-155,,150,,,,,,150,1,Raw,B
+67.5,Boshko Stamenkovski,M,1971,66.7,North Macedonia,M2,,,,,,115,120,-125,-125,120,,,,,,120,1,Raw,B
+67.5,Aleksey Okunev,M,1975,67.3,Russia,M1,,,,,,150,-155,-155,,150,,,,,,150,1,Raw,B
 75,Sergejs Isčenko,M,1992,71.5,Latvia,O,,,,,,127.5,135,-140,,135,,,,,,135,2,Raw,B
 75,Guylhem Feraud,M,1945,72.2,France,M7,,,,,,105,112.5,,,112.5,,,,,,112.5,1,Raw,B
 75,Emmanuel Poulain Morin,M,1979,72.5,France,O,,,,,,-130,130,-135,,130,,,,,,130,4,Raw,B
@@ -257,8 +257,8 @@ WeightClassKg,Name,Sex,BirthYear,BodyweightKg,Country,Division,Squat1Kg,Squat2Kg
 90,Djordje Pjanovic,M,1999,86.5,Serbia,T2,,,,,,130,136,145,-150,145,,,,,,145,1,Raw,B
 90,Ondřej Kohout,M,2000,87,Czechia,T2,,,,,,115,125,,,125,,,,,,125,2,Raw,B
 90,Attila Nyikos-Kiss,M,1970,87.2,Hungary,M2,,,,,,120,125,-132.5,,125,,,,,,125,2,Raw,B
-90,Stefan Popovski,M,1988,87.6,Macedonia,O,,,,,,195,-200,-200,,195,,,,,,195,2,Raw,B
-90,Denis Jean-Francois,M,1956,88,France,M5,,,,,,165,170,175,,175,,,,,,175,1,Raw,B
+90,Stefan Popovski,M,1988,87.6,North Macedonia,O,,,,,,195,-200,-200,,195,,,,,,195,2,Raw,B
+90,Jean-François Denis,M,1956,88,France,M5,,,,,,165,170,175,,175,,,,,,175,1,Raw,B
 90,Dražen Mladenović,M,1992,88,Bosnia and Herzegovina,O,,,,,,155,162.5,-170,,162.5,,,,,,162.5,6,Raw,B
 90,Ivan Schoblocher,M,1989,88.2,Croatia,O,,,,,,170,177.5,-180,,177.5,,,,,,177.5,5,Raw,B
 90,Mihály Gönczöl,M,1985,88.4,,O,,,,,,220,230,240,-245,240,,,,,,240,1,Raw,B
@@ -380,11 +380,11 @@ WeightClassKg,Name,Sex,BirthYear,BodyweightKg,Country,Division,Squat1Kg,Squat2Kg
 67.5,Hristijan Strainović,M,1983,66.2,Serbia,O,,,,,,,,,,,200,220,-222.5,,220,220,2,Raw,D
 67.5,Márton Munkácsi,M,2002,66.6,Hungary,T1,,,,,,,,,,,120,130,135,140,135,135,1,Raw,D
 67.5,Rastko Jovičić,M,1995,66.7,Croatia,J,,,,,,,,,,,150,160,170,,170,170,2,Raw,D
-67.5,Ivan Ivanov,M,1994,66.8,Bulgaria,J,,,,,,,,,,,170,180,190,,190,190,1,Raw,D
+67.5,Ivan Ivanov #11,M,1994,66.8,Bulgaria,J,,,,,,,,,,,170,180,190,,190,190,1,Raw,D
 67.5,Mishel Velichkov,M,1991,67.2,Bulgaria,O,,,,,,,,,,,210,237.5,245,,245,245,1,Raw,D
-67.5,Alexey Okunev,M,1975,67.3,Russia,M1,,,,,,,,,,,250,260,-270,,260,260,1,Raw,D
+67.5,Aleksey Okunev,M,1975,67.3,Russia,M1,,,,,,,,,,,250,260,-270,,260,260,1,Raw,D
 67.5,Nermin Hasanbegović,M,1987,67.5,Bosnia and Herzegovina,O,,,,,,,,,,,180,190,-200,,190,190,4,Raw,D
-75,Matthew Csiszar,M,2000,69.9,UK,T1,,,,,,,,,,,150,-170,175,,175,175,1,Raw,D
+75,Máté Csiszár,M,2000,69.9,UK,T1,,,,,,,,,,,150,-170,175,,175,175,1,Raw,D
 75,Guylhem Feraud,M,1945,72.2,France,M7,,,,,,,,,,,165,171,,,171,171,1,Raw,D
 75,Emmanuel Poulain Morin,M,1979,72.5,France,O,,,,,,,,,,,175,-185,185,,185,185,2,Raw,D
 75,Sejfo Šehović,M,1959,72.6,Bosnia and Herzegovina,M4,,,,,,,,,,,200,220,-231,,220,220,1,Raw,D
@@ -393,7 +393,7 @@ WeightClassKg,Name,Sex,BirthYear,BodyweightKg,Country,Division,Squat1Kg,Squat2Kg
 75,Sanel Čičić,M,1993,74.8,Serbia,J,,,,,,,,,,,170,185,,,185,185,1,Raw,D
 82.5,Ivan Jovanovic,M,2001,76.4,Serbia,T1,,,,,,,,,,,130,140,150,,150,150,1,Raw,D
 82.5,Danilo Andjelković,M,1997,76.4,Serbia,T3,,,,,,,,,,,205,220,-225,,220,220,1,Raw,D
-82.5,Laszlo Komaromi,M,2002,76.7,Hungary,T1,,,,,,,,,,,95,105,115,,115,115,2,Raw,D
+82.5,László Komáromi,M,2002,76.7,Hungary,T1,,,,,,,,,,,95,105,115,,115,115,2,Raw,D
 82.5,Tomislav Pope,M,1995,80.7,Croatia,J,,,,,,,,,,,-210,225,235,,235,235,2,Raw,D
 82.5,Bill Healy,M,1950,81,Ireland,M6,,,,,,,,,,,225,235,242.5,,242.5,242.5,1,Raw,D
 82.5,Marcelo Lobo,M,1968,81,Argentina,M2,,,,,,,,,,,230,240,250,,250,250,1,Raw,D
@@ -492,7 +492,7 @@ WeightClassKg,Name,Sex,BirthYear,BodyweightKg,Country,Division,Squat1Kg,Squat2Kg
 100,Franciszek Szabluk,M,1956,94.5,Poland,M5,,,,,,195,-215,-215,,195,,,,,,195,1,Multi-ply,B
 100,Amar Kalač,M,1990,95.4,Serbia,O,,,,,,-215,215,-222.5,,215,,,,,,215,3,Multi-ply,B
 100,Binyamin Abramov,M,1964,95.7,Israel,M3,,,,,,210,-220,220,,220,,,,,,220,1,Multi-ply,B
-100,Steve Hampton,M,1969,97.6,New Zealand,M2,,,,,,170,180,185,,185,,,,,,185,1,Multi-ply,B
+100,Steve Hampton,M,1969,97.6,New Zealand,M2,,,,,,170,180,185,,185,,,,,,185,1,Single-ply,B
 100,Aleksas Alekna,M,1971,98.7,Latvia,M1,,,,,,187.5,195,-202.5,,195,,,,,,195,1,Multi-ply,B
 100,Tomáš Kríž,M,1992,99,Slovakia,J,,,,,,265,-275,-275,,265,,,,,,265,1,Multi-ply,B
 100,Evgenii Gornostaev,M,1979,99.2,Russia,O,,,,,,205,220,225,,225,,,,,,225,1,Multi-ply,B
@@ -508,7 +508,7 @@ WeightClassKg,Name,Sex,BirthYear,BodyweightKg,Country,Division,Squat1Kg,Squat2Kg
 125,Saša Mašanović,M,1967,123.8,Montenegro,M2,,,,,,-210,210,222.5,,222.5,,,,,,222.5,1,Multi-ply,B
 125,Jani Toivo Kristian Ihalainen,M,1975,124.2,Finland,M1,,,,,,155,,,,155,,,,,,155,1,Multi-ply,B
 140,Oscars Zvarts,M,1978,131.5,Latvia,O,,,,,,245,255,265,,265,,,,,,265,1,Multi-ply,B
-140,Nikola Piruze,M,1994,136.7,Macedonia,J,,,,,,280,-290,-297.5,,280,,,,,,280,1,Multi-ply,B
+140,Nikola Piruze,M,1994,136.7,North Macedonia,J,,,,,,280,-290,-297.5,,280,,,,,,280,1,Multi-ply,B
 140+,Antti Jumisko,M,1980,156.3,Finland,O,,,,,,150,,,,150,,,,,,150,1,Multi-ply,B
 52,Danijela Jakovljević,F,1990,51.1,Serbia,O,,,,,,,,,,,80,85,100,,100,100,1,Multi-ply,D
 56,Dragana Gojković,F,1970,53.4,Serbia,M2,,,,,,,,,,,70,72.5,75,77.5,75,75,1,Multi-ply,D
@@ -538,7 +538,7 @@ WeightClassKg,Name,Sex,BirthYear,BodyweightKg,Country,Division,Squat1Kg,Squat2Kg
 90,Valery Tomilov,M,1965,89.9,Israel,M3,,,,,,,,,,,250,-270,-270,,250,250,1,Multi-ply,D
 100,Ernő Eck,M,1994,91.7,Hungary,J,,,,,,,,,,,225,240,-250,,240,240,1,Multi-ply,D
 100,Yuriy Ustinov,M,1975,98.3,Russia,M1,,,,,,,,,,,220,250,-260,,250,250,2,Multi-ply,D
-100,David Thomas,M,1951,98.4,UK,M6,,,,,,,,,,,145,160,170,,170,170,1,Multi-ply,D
+100,David Thomas #4,M,1951,98.4,UK,M6,,,,,,,,,,,145,160,170,,170,170,1,Multi-ply,D
 100,Tamás Molnár,M,1975,99,Hungary,M1,,,,,,,,,,,300,310,315,,315,315,1,Multi-ply,D
 100,Veselin Doychev,M,1985,99,Bulgaria,O,,,,,,,,,,,320,-342.5,-342.5,,320,320,1,Multi-ply,D
 110,Ondrej Kratochwil,M,1985,102.7,Czechia,O,,,,,,,,,,,-260,260,-290,,260,260,1,Multi-ply,D

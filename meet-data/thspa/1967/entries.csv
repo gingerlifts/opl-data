@@ -1,6 +1,6 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
 Boys,51.71,1,Tuti Garcia,Los Fresnos,51.48,174.63,92.99,188.24,455.86,Single-ply,SBD,M
-Boys,55.79,2,David Garcia,Pharr Valley View,51.89,158.76,99.79,188.24,446.79,Single-ply,SBD,M
+Boys,55.79,2,David Garcia #5,Pharr Valley View,51.89,158.76,99.79,188.24,446.79,Single-ply,SBD,M
 Boys,51.71,3,Randy Trevino,Gregory-Portland,50.89,165.56,88.45,181.44,435.45,Single-ply,SBD,M
 Boys,51.71,4,Hector Villegas,Roma,50.71,161.03,92.99,174.63,428.64,Single-ply,SBD,M
 Boys,55.79,5,Albert de la Rosa,San Benito,51.89,156.49,90.72,174.63,421.84,Single-ply,SBD,M
@@ -14,10 +14,10 @@ Boys,51.71,DQ,Victor Pedraza,PSJA Southwest,51.71,,,,,Single-ply,SBD,M
 Boys,55.79,1,John Ramirez,Victoria West,55.11,161.03,108.86,197.31,467.2,Single-ply,SBD,M
 Boys,55.79,2,Raul Mota,San Benito,55.38,163.29,108.86,195.04,467.2,Single-ply,SBD,M
 Boys,59.87,3,Juan Rivera,Los Fresnos,55.97,158.76,122.47,185.97,467.2,Single-ply,SBD,M
-Boys,55.79,4,Angel Flores,Weslaco East,55.07,163.29,95.25,188.24,446.79,Single-ply,SBD,M
+Boys,55.79,4,Angel Flores #2,Weslaco East,55.07,163.29,95.25,188.24,446.79,Single-ply,SBD,M
 Boys,59.87,5,Eliazar Duenes,Edcouch-Elsa,55.97,151.95,99.79,195.04,446.79,Single-ply,SBD,M
 Boys,55.79,6,Isaac Castillo,Laredo Cigarroa,54.84,181.44,83.91,167.83,433.18,Single-ply,SBD,M
-Boys,59.87,7,Aaron Martinez,Corpus Christi Calallen,55.84,145.15,99.79,167.83,412.77,Single-ply,SBD,M
+Boys,59.87,7,Aaron Martinez #7,Corpus Christi Calallen,55.84,145.15,99.79,167.83,412.77,Single-ply,SBD,M
 Boys,55.79,DQ,Cesar Esquivel,Laredo Cigarroa,55.43,,,,,Single-ply,SBD,M
 Boys,55.79,DQ,Eric Oliva,Laredo United South,55.61,,,,,Single-ply,SBD,M
 Boys,55.79,DQ,Elijah Gonzales,San Antonio East Central,54.39,,,,,Single-ply,SBD,M
@@ -54,7 +54,7 @@ Boys,74.84,DQ,Miguel Mariscal,Edcouch-Elsa,74.57,226.8,156.49,,,Single-ply,SBD,M
 Boys,82.1,1,Ben Navarrez,Edcouch-Elsa,82.1,278.96,158.76,285.76,723.48,Single-ply,SBD,M
 Boys,82.1,2,Raynard Taylor,Comal Canyon,81.01,258.55,163.29,254.01,675.85,Single-ply,SBD,M
 Boys,82.1,3,Javi Cruz,Los Fresnos,79.74,235.87,129.27,263.08,628.23,Single-ply,SBD,M
-Boys,82.1,4,Diego Garcia,Edcouch-Elsa,79.56,249.48,131.54,231.33,612.35,Single-ply,SBD,M
+Boys,82.1,4,Diego Garcia #9,Edcouch-Elsa,79.56,249.48,131.54,231.33,612.35,Single-ply,SBD,M
 Boys,82.1,5,Sergio Zuniga,San Antonio Southside,81.65,251.74,138.35,222.26,612.35,Single-ply,SBD,M
 Boys,82.1,6,Ram Mendoza,Weslaco East,79.74,233.6,142.88,213.19,589.67,Single-ply,SBD,M
 Boys,82.1,7,Miguel Herrera,Donna,79.79,244.94,145.15,195.04,585.13,Single-ply,SBD,M
@@ -77,7 +77,7 @@ Boys,99.79,3,Matthew Dickson,Corpus Christi Tuloso-Midway,93.35,258.55,165.56,26
 Boys,99.79,4,John Rivera,Alice,99.52,276.69,172.37,233.6,682.66,Single-ply,SBD,M
 Boys,99.79,5,Marco Banda,Laredo Nixon,95.3,265.35,176.9,238.14,680.39,Single-ply,SBD,M
 Boys,99.79,6,Trevor Luckemeyer,Comal Canyon,94.26,265.35,138.35,254.01,657.71,Single-ply,SBD,M
-Boys,99.79,7,Jose Flores,Laredo Cigarroa,97.84,249.48,161.03,247.21,657.71,Single-ply,SBD,M
+Boys,99.79,7,Jose Flores #2,Laredo Cigarroa,97.84,249.48,161.03,247.21,657.71,Single-ply,SBD,M
 Boys,99.79,8,Faustino Saldana,PSJA Southwest,97.34,281.23,147.42,215.46,644.1,Single-ply,SBD,M
 Boys,99.79,DQ,Joshua Garza,San Antonio East Central,97.43,231.33,185.97,,,Single-ply,SBD,M
 Boys,99.79,DQ,Angel Mercado,Donna,98.93,,,,,Single-ply,SBD,M

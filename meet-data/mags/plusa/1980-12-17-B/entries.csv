@@ -1,6 +1,6 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 B. Holts,52,Open,M,111.13,72.57,158.76,342.46,SBD,Single-ply,1
-J. Lewis,52,Open,M,108.86,72.57,140.61,322.05,SBD,Single-ply,2
+John Lewis,52,Open,M,108.86,72.57,140.61,322.05,SBD,Single-ply,2
 B. Decker,56,Open,M,127.01,83.91,151.95,362.87,SBD,Single-ply,1
 S. Martinek,56,Open,M,61.24,49.9,102.06,213.19,SBD,Single-ply,2
 R. Lasch,60,Open,M,151.95,104.33,215.46,471.74,SBD,Single-ply,1
@@ -10,7 +10,7 @@ J. Murphy,67.5,Open,M,174.63,108.86,172.37,455.86,SBD,Single-ply,3
 J. Weinbender,67.5,Open,M,138.35,104.33,192.78,435.45,SBD,Single-ply,4
 S. Urban,67.5,Open,M,154.22,92.99,167.83,415.04,SBD,Single-ply,5
 D. Malone,67.5,Open,M,129.27,108.86,170.1,408.23,SBD,Single-ply,6
-B. Jacobs,67.5,Open,M,133.81,90.72,172.37,396.89,SBD,Single-ply,7
+Brad Jacobs,67.5,Open,M,133.81,90.72,172.37,396.89,SBD,Single-ply,7
 T. Caldwell,67.5,Open,M,131.54,81.65,158.76,371.95,SBD,Single-ply,8
 Mike Feight,75,Open,M,204.12,136.08,260.82,601.01,SBD,Single-ply,1
 Gordon Maloney,75,Open,M,217.72,142.88,217.72,578.33,SBD,Single-ply,2
@@ -29,10 +29,10 @@ R. Arneson,82.5,Open,M,151.95,90.72,174.63,417.31,SBD,Single-ply,7
 F. Foster,82.5,Open,M,136.08,117.93,163.29,417.31,SBD,Single-ply,8
 T. Iwig,82.5,Open,M,,,,,SBD,Single-ply,DQ
 Harry Douglas,90,Open,M,263.08,158.76,294.84,716.68,SBD,Single-ply,1
-D. Brubaker,90,Open,M,235.87,163.29,254.01,653.17,SBD,Single-ply,2
+David Brubaker,90,Open,M,235.87,163.29,254.01,653.17,SBD,Single-ply,2
 G. Randolph,90,Open,M,208.65,127.01,285.76,621.42,SBD,Single-ply,3
 R. Peterson,90,Open,M,201.85,97.52,217.72,517.1,SBD,Single-ply,4
-D. Joiner,90,Open,M,163.29,149.69,181.44,494.42,SBD,Single-ply,5
+Don Joiner,90,Open,M,163.29,149.69,181.44,494.42,SBD,Single-ply,5
 James Cash,100,Open,M,299.37,172.37,347,818.74,SBD,Single-ply,1
 M. Castle,100,Open,M,235.87,181.44,240.4,657.71,SBD,Single-ply,2
 A. Devora,100,Open,M,226.8,163.29,249.48,639.57,SBD,Single-ply,3
@@ -40,7 +40,7 @@ M. Remboldt,100,Open,M,192.78,147.42,263.08,603.28,SBD,Single-ply,4
 Warren Vogel,100,Open,M,192.78,122.47,274.42,589.67,SBD,Single-ply,5
 R. Addy,100,Open,M,217.72,136.08,226.8,580.6,SBD,Single-ply,6
 J. Cooper #9,100,Open,M,192.78,133.81,208.65,535.24,SBD,Single-ply,7
-M. Farney,100,Open,M,170.1,111.13,208.65,489.88,SBD,Single-ply,8
+Mike Farney,100,Open,M,170.1,111.13,208.65,489.88,SBD,Single-ply,8
 J. Matz,100,Open,M,142.88,127.01,201.85,471.74,SBD,Single-ply,9
 J. Vera,100,Open,M,,,,,SBD,Single-ply,DQ
 T. Thompson,110,Open,M,288.03,197.31,281.23,766.57,SBD,Single-ply,1
@@ -60,5 +60,5 @@ Hilde Guenther,,LW,F,72.57,43.09,,,SBD,Single-ply,DQ
 Sherrie Elvin,,HW,F,92.99,52.16,129.27,274.42,SBD,Single-ply,1
 Brenda Finger,,HW,F,83.91,40.82,115.67,240.4,SBD,Single-ply,2
 G. Guenther,,HW,F,65.77,43.09,113.4,222.26,SBD,Single-ply,4
-T. Addy,,HW,F,83.91,47.63,90.72,222.26,SBD,Single-ply,5
+Terry Addy,,HW,F,83.91,47.63,90.72,222.26,SBD,Single-ply,5
 J. Thompson #11,,HW,F,92.99,49.9,92.99,235.87,SBD,Single-ply,3

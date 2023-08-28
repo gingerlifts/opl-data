@@ -42,7 +42,7 @@ Luigi Fagiani,1,Juniors 20-23,M,Raw,,NY,100,99.16,22,227.5,,190,,337.5,343,755,S
 Grigor Khoudikian,2,Juniors 20-23,M,Raw,,CA,100,97.79,21,272.5,,177.5,,290,,740,SBD
 Zach Wittusen,DQ,Juniors 20-23,M,Raw,,CA,100,99.52,21,-225,,182.5,,290,,,SBD
 Anthony Nocera,1,Juniors 18-19,M,Raw,,CA,110,106.41,19,210,,125,,240,,575,SBD
-Edward Wilson,1,Juniors 20-23,M,Raw,,NY,110,108.95,22,205,,190,,300,,695,SBD
+Edward Wilson #3,1,Juniors 20-23,M,Raw,,NY,110,108.95,22,205,,190,,300,,695,SBD
 Eric Asatryan,2,Juniors 20-23,M,Raw,,CA,110,101.7,21,235,,162.5,,282.5,,680,SBD
 Zachary Langdon,1,Juniors 20-23,M,Raw,,CA,125,123.1,23,247.5,,157.5,,272.5,,677.5,SBD
 Steven Maradona,1,Juniors 20-23,M,Raw,,CA,140+,151.95,20,247.5,,187.5,,265,,700,SBD
@@ -58,10 +58,10 @@ Tom Wadas,DQ,Open,M,Raw,,IL,67.5,67.45,23,-187.5,,,,,,,SBD
 Matthew Reep,1,Open,M,Raw,,CA,75,73.84,39,207.5,,173.5,177.5,252.5,,633.5,SBD
 Nick Cambero,2,Open,M,Raw,,CA,75,74.3,25,227.5,,147.5,,240,,615,SBD
 Corey Phillips,3,Open,M,Raw,,MO,75,73.66,22,160,,130,,220,,510,SBD
-Matthew Chapman,4,Open,M,Raw,,HI,75,74.12,45,152.5,,127.5,,162.5,,442.5,SBD
+Matthew Chapman #1,4,Open,M,Raw,,HI,75,74.12,45,152.5,,127.5,,162.5,,442.5,SBD
 Ben Polak,5,Open,M,Raw,,CA,75,74.48,16,160,,107.5,,160,,427.5,SBD
 Meng Vang,DQ,Open,M,Raw,,CA,75,74.3,18,-137.5,,107.5,,180,,,SBD
-Chris Garcia,1,Open,M,Raw,,CA,82.5,81.28,25,220,,150,,282.5,,652.5,SBD
+Chris Garcia #1,1,Open,M,Raw,,CA,82.5,81.28,25,220,,150,,282.5,,652.5,SBD
 Ryan Cordano,2,Open,M,Raw,,CA,82.5,82.01,21,205,,127.5,,247.5,,580,SBD
 Chas Leichner,3,Open,M,Raw,,AZ,82.5,80.2,22,180,,100,,215,,495,SBD
 Jorge Gonzalez #4,4,Open,M,Raw,,HI,82.5,82.42,37,132.5,,85,,152.5,,370,SBD
@@ -86,7 +86,7 @@ Jason Conway,7,Open,M,Raw,,CA,100,98.34,26,212.5,,137.5,,217.5,,567.5,SBD
 Nadeem Hamidy,8,Open,M,Raw,,CA,100,99.06,17,170,,135,,234,,539,SBD
 Michael Womelsdorf,9,Open,M,Raw,,CA,100,97.16,55,115,,112.5,,147.5,,375,SBD
 Zach Wittusen,DQ,Open,M,Raw,,CA,100,99.52,21,-225,,182.5,,290,,,SBD
-Edward Wilson,1,Open,M,Raw,,NY,110,108.95,22,205,,190,,300,,695,SBD
+Edward Wilson #3,1,Open,M,Raw,,NY,110,108.95,22,205,,190,,300,,695,SBD
 Eric Asatryan,2,Open,M,Raw,,CA,110,101.7,21,235,,162.5,,282.5,,680,SBD
 Logan Ketcher,3,Open,M,Raw,,NV,110,109.59,31,237.5,,165,,250,,652.5,SBD
 Wayne Jandoc,4,Open,M,Raw,,CA,110,108.59,55,210,,160,,243,,613,SBD
@@ -110,7 +110,7 @@ Matthew Reep,1,Submasters 35-39,M,Raw,,CA,75,73.84,39,207.5,,173.5,177.5,252.5,,
 Jorge Gonzalez #4,1,Submasters 35-39,M,Raw,,HI,82.5,82.42,37,132.5,,85,,152.5,,370,SBD
 Lars John,1,Submasters 35-39,M,Raw,,CA,90,87.82,36,187.5,,110,,235,,532.5,SBD
 Rick Simmons,1,Submasters 35-39,M,Raw,,CA,125,121.29,35,242.5,,182.5,,275,,700,SBD
-Matthew Chapman,1,Masters 45-49,M,Raw,,HI,75,74.12,45,152.5,,127.5,,162.5,,442.5,SBD
+Matthew Chapman #1,1,Masters 45-49,M,Raw,,HI,75,74.12,45,152.5,,127.5,,162.5,,442.5,SBD
 David Colvin,1,Masters 50-54,M,Raw,,NV,82.5,81.37,50,142.5,,100,,155,,397.5,SBD
 Al Morentin,1,Masters 45-49,M,Raw,,CA,90,88.63,47,135,,115,,187.5,,437.5,SBD
 David Contreras,1,Masters 50-54,M,Raw,,CA,90,88.68,51,177.5,,107.5,,182.5,,467.5,SBD
@@ -205,7 +205,7 @@ James Bell,3,Open,M,Single-ply,,MO,100,98.97,58,242.5,,145,,227.5,,615,SBD
 Jonathan Wiseman,DQ,Open,M,Single-ply,,AZ,100,97.79,48,285,,-185,,,,,SBD
 Joe Reyes,DQ,Open,M,Single-ply,,AZ,100,93.26,30,297.5,,-195,,,,,SBD
 Everett Cutburth,DQ,Open,M,Single-ply,,CA,100,98.16,65,152.5,,-105,,,,,SBD
-Joseph Bernazzani,DQ,Open,M,Single-ply,,CA,100,98.34,62,195,,-175,,,,,SBD
+Joe Bernazzani,DQ,Open,M,Single-ply,,CA,100,98.34,62,195,,-175,,,,,SBD
 Mike Giunta,1,Open,M,Single-ply,,MO,110,106.96,21,360,,237.5,,290,,887.5,SBD
 Dennis Reneau,2,Open,M,Single-ply,,CA,110,109.86,42,275,,315,,282.5,,872.5,SBD
 Delbert Shay,3,Open,M,Single-ply,,OR,110,108.68,51,210,,160,,220,,590,SBD
@@ -229,7 +229,7 @@ Bob Kinsey,2,Masters 70-74,M,Single-ply,,CA,90,88.36,71,142.5,,90,,137.5,,370,SB
 Asa Barnes,1,Masters 45-49,M,Single-ply,,AZ,100,99.43,49,332.5,,237.5,,257.5,,827.5,SBD
 Jonathan Wiseman,DQ,Masters 45-49,M,Single-ply,,AZ,100,97.79,48,285,,-185,,,,,SBD
 James Bell,1,Masters 55-59,M,Single-ply,,MO,100,98.97,58,242.5,,145,,227.5,,615,SBD
-Joseph Bernazzani,DQ,Masters 60-64,M,Single-ply,,CA,100,98.34,62,195,,-175,,,,,SBD
+Joe Bernazzani,DQ,Masters 60-64,M,Single-ply,,CA,100,98.34,62,195,,-175,,,,,SBD
 Everett Cutburth,DQ,Masters 65-69,M,Single-ply,,CA,100,98.16,65,152.5,,-105,,,,,SBD
 Dennis Reneau,1,Masters 40-44,M,Single-ply,,CA,110,109.86,42,275,,315,,282.5,,872.5,SBD
 Delbert Shay,1,Masters 50-54,M,Single-ply,,OR,110,108.68,51,210,,160,,220,,590,SBD
@@ -274,7 +274,7 @@ Jim Phraner,1,Open,M,Raw,,NY,110,108.14,28,,,230,,,,230,B
 Cory Dexter,2,Open,M,Raw,,NV,110,108.14,39,,,217.5,,,,217.5,B
 Scott Hoekstra,3,Open,M,Raw,,CA,110,109.41,46,,,205,,,,205,B
 Jeff Hunter,4,Open,M,Raw,,CA,110,105.87,52,,,192.5,,,,192.5,B
-Mark Johnson,5,Open,M,Raw,,MO,110,102.69,36,,,190,,,,190,B
+Mark Johnson #6,5,Open,M,Raw,,MO,110,102.69,36,,,190,,,,190,B
 Daniel Smith III,6,Open,M,Raw,,CA,110,105.96,70,,,160,,,,160,B
 Justin Shumway,7,Open,M,Raw,,OR,110,107.68,35,,,150,,,,150,B
 Ryan DeWitt,1,Open,M,Raw,,CA,125,124.19,38,,,272.5,,,,272.5,B
@@ -283,7 +283,7 @@ Rudolf Schaap,2,Open,M,Raw,,CA,140,128.19,53,,,185,,,,185,B
 Ed Stanley,3,Open,M,Raw,,CA,140,131.54,71,,,85,,,,85,B
 Jeremy Davis,1,Submasters 35-39,M,Raw,,CA,90,83.64,35,,,165,,,,165,B
 Cory Dexter,1,Submasters 35-39,M,Raw,,NV,110,108.14,39,,,217.5,,,,217.5,B
-Mark Johnson,2,Submasters 35-39,M,Raw,,MO,110,102.69,36,,,190,,,,190,B
+Mark Johnson #6,2,Submasters 35-39,M,Raw,,MO,110,102.69,36,,,190,,,,190,B
 Justin Shumway,3,Submasters 35-39,M,Raw,,OR,110,107.68,35,,,150,,,,150,B
 Ryan DeWitt,1,Submasters 35-39,M,Raw,,CA,125,124.19,38,,,272.5,,,,272.5,B
 Rick Gutman,1,Masters 55-59,M,Raw,,CA,75,71.67,59,,,103.5,,,,103.5,B
@@ -336,8 +336,8 @@ Herb Strange,1,Masters 80+,M,Single-ply,,CA,110,109.13,80,,,110,,,,110,B
 Dennis Reneau,1,Masters 40-44,M,Single-ply,,CA,125,110.86,41,,,300,,,,300,B
 Doug Knapp,1,Masters 65-69,M,Single-ply,,CA,125,122.83,66,,,172.5,,,,172.5,B
 Betsy Spann,1,Masters 55-59,F,Multi-ply,,CA,67.5,66.68,56,,,67.5,,,,67.5,B
-Mike Bingham,1,Open,M,Multi-ply,,PA,82.5,80.01,47,,,250,,,,250,B
-Mike Bingham,1,Masters 45-49,M,Multi-ply,,PA,82.5,80.01,47,,,250,,,,250,B
+Michael Bingham,1,Open,M,Multi-ply,,PA,82.5,80.01,47,,,250,,,,250,B
+Michael Bingham,1,Masters 45-49,M,Multi-ply,,PA,82.5,80.01,47,,,250,,,,250,B
 Alfred Franke,1,Masters 70-74,M,Multi-ply,,NV,90,89.9,71,,,120,,,,120,B
 Savannah Sparkes,1,Juniors 13-15,F,Raw,,AZ,44,43.45,13,,,,,72.5,,72.5,D
 Kate Gondales,1,Juniors 20-23,F,Raw,,AZ,48,45.45,21,,,,,112.5,,112.5,D

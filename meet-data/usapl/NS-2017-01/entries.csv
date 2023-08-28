@@ -61,7 +61,7 @@ DQ,F,Erika Peralta,SBD,F-C,52,Single-ply,1996,University of Texas at San Antonio
 2,F,Lydia Mele,SBD,F-C,72,Single-ply,1998,,GA,71.4,172.5,180,185,185,127.5,130,132.5,132.5,165,175,-180,175,492.5
 3,F,Hannah Ghindea,SBD,F-C,72,Single-ply,1992,Louisiana State University,LA,69.2,182.5,190,200,200,90,95,100,100,180,190,-200,190,490
 4,F,Kate Driscoll,SBD,F-C,72,Single-ply,1994,Northeastern University,MA,69.6,185,197.5,-202.5,197.5,107.5,112.5,-115,112.5,165,180,-192.5,180,490
-5,F,Gabby Martinez,SBD,F-C,72,Single-ply,1997,University of Texas at San Antonio,TX,71,185,197.5,210,210,100,-105,-105,100,170,180,-192.5,180,490
+5,F,Gabby Martinez #1,SBD,F-C,72,Single-ply,1997,University of Texas at San Antonio,TX,71,185,197.5,210,210,100,-105,-105,100,170,180,-192.5,180,490
 6,F,Dominique McGaha,SBD,F-C,72,Single-ply,1994,University of Texas at Austin,TX,70.8,182.5,-192.5,192.5,192.5,95,100,-105,100,195,-207.5,-207.5,195,487.5
 7,F,Skyler Briggs,SBD,F-C,72,Single-ply,1995,United States Naval Academy,MD,69.9,165,-172.5,172.5,172.5,-125,125,-130,125,175,185,-192.5,185,482.5
 8,F,Cheyenne Liles,SBD,F-C,72,Single-ply,1996,Texas A&M Kingsville,TX,71.7,172.5,185,195,195,100,110,115,115,170,-180,-182.5,170,480
@@ -107,7 +107,7 @@ DQ,F,Delaine Rodick,SBD,F-C,72,Single-ply,1997,Louisiana Tech,LA,70.9,-165,-165,
 17,F,Emily Fisher,SBD,F-C,84,Single-ply,1995,Louisiana State University,LA,75.3,140,-142.5,,140,80,85,92.5,92.5,-142.5,145,155,155,387.5
 18,F,Jasmen Perry,SBD,F-C,84,Single-ply,1998,University of Houston,TX,81.5,125,132.5,140,140,70,77.5,-92.5,77.5,170,-180,-180,170,387.5
 19,F,Elizabeth Sledzinski,SBD,F-C,84,Single-ply,1995,Pennsylvania State University,PA,80.6,155,162.5,-167.5,162.5,-90,97.5,-105,97.5,112.5,122.5,-135,122.5,382.5
-20,F,Hunter Soileau,SBD,F-C,84,Single-ply,1998,University of Louisiana At Lafayette,LA,82.5,130,140,155,155,55,-65,-65,55,110,120,130,130,340
+20,F,Hunter Soileau #1,SBD,F-C,84,Single-ply,1998,University of Louisiana At Lafayette,LA,82.5,130,140,155,155,55,-65,-65,55,110,120,130,130,340
 21,F,Emily St. Germaine,SBD,F-C,84,Single-ply,1998,University of Louisiana At Lafayette,LA,79.2,-115,115,125,125,62.5,77.5,-80,77.5,125,135,-137.5,135,337.5
 22,F,Amanda Montesano,SBD,F-C,84,Single-ply,1994,University of Louisiana At Lafayette,LA,79.6,-140,140,150,150,55,65,-80,65,-90,90,95,95,310
 DQ,F,Morgan Dynes,SBD,F-C,84,Single-ply,1997,Louisiana State University,LA,78.9,160,167.5,-175,167.5,-82.5,-85,-85,,162.5,170,182.5,182.5,
@@ -202,7 +202,7 @@ DQ,F,Sarah Holloway,SBD,FR-C,57,Raw,1995,University of North Texas,TX,55.9,-115,
 5,F,Veronica Viar,SBD,FR-C,72,Raw,1993,,CA,71.4,130,140,147.5,147.5,60,62.5,-67.5,62.5,145,155,-162.5,155,365
 6,F,Camille Chow,SBD,FR-C,72,Raw,1995,Rutgers University,NJ,68.4,122.5,130,-140,130,52.5,57.5,60,60,160,165,172.5,172.5,362.5
 7,F,Hope McAfee,SBD,FR-C,72,Raw,1995,University of North Texas,TX,66.9,122.5,130,140,140,57.5,60,-65,60,132.5,145,150,150,350
-8,F,Mary Catherine Innace,SBD,FR-C,72,Raw,1995,Rutgers University,NJ,69.6,110,115,117.5,117.5,87.5,-90,-90,87.5,130,137.5,142.5,142.5,347.5
+8,F,MaryCatherine Innace,SBD,FR-C,72,Raw,1995,Rutgers University,NJ,69.6,110,115,117.5,117.5,87.5,-90,-90,87.5,130,137.5,142.5,142.5,347.5
 9,F,Jazlyn Cruz,SBD,FR-C,72,Raw,1997,Rutgers University,NJ,70.7,115,120,125,125,72.5,75,-77.5,75,140,145,147.5,147.5,347.5
 10,F,Rosalie Hutson,SBD,FR-C,72,Raw,1995,Pennsylvania State University,PA,66.7,125,135,140,140,60,65,-67.5,65,140,-147.5,-147.5,140,345
 11,F,Nichole Weinsheimer,SBD,FR-C,72,Raw,1995,,NY,70.5,115,120,125,125,57.5,62.5,-65,62.5,127.5,137.5,147.5,147.5,335
@@ -355,7 +355,7 @@ DQ,M,Christopher Eason,SBD,M-C,83,Single-ply,1994,Texas A&M Kingsville,TX,82.4,-
 15,M,Benjamin Hogin,SBD,M-C,93,Single-ply,1996,United States Naval Academy,MD,91.6,-225,-232.5,232.5,232.5,152.5,167.5,180,180,230,245,-262.5,245,657.5
 16,M,Xiang-Ting Fu,SBD,M-C,93,Single-ply,1995,University of Texas at Austin,TX,88.4,230,247.5,-260,247.5,132.5,140,145,145,262.5,-277.5,-277.5,262.5,655
 17,M,Phillip Wilson,SBD,M-C,93,Single-ply,1998,,TX,87.2,237.5,-247.5,-252.5,237.5,160,-170,-170,160,217.5,230,235,235,632.5
-18,M,Daniel Fisher,SBD,M-C,93,Single-ply,1996,Northeastern University,NJ,84.3,240,-255,-255,240,145,152.5,160,160,200,215,227.5,227.5,627.5
+18,M,Daniel Fisher #2,SBD,M-C,93,Single-ply,1996,Northeastern University,NJ,84.3,240,-255,-255,240,145,152.5,160,160,200,215,227.5,227.5,627.5
 19,M,Morgan Menaker,SBD,M-C,93,Single-ply,1995,Virginia Military Institute,NC,90.1,225,240,-265,240,140,-150,-150,140,240,-260,-272.5,240,620
 20,M,Farhan Siddiqui,SBD,M-C,93,Single-ply,1993,Texas A&M Kingsville,TX,90.2,225,235,242.5,242.5,117.5,122.5,-127.5,122.5,235,250,-260,250,615
 21,M,Eric Kim,SBD,M-C,93,Single-ply,1994,Northeastern University,MA,85.1,-240,-240,240,240,150,160,-165,160,190,212.5,-230,212.5,612.5
@@ -380,7 +380,7 @@ DQ,M,Khalid Schuler,SBD,M-C,93,Single-ply,1996,University of Texas at San Antoni
 14,M,Alex Bruskin,SBD,M-C,105,Single-ply,1996,Northeastern University,MA,93.1,-255,255,-270,255,-140,-140,140,140,220,230,-250,230,625
 15,M,Armando Osorio,SBD,M-C,105,Single-ply,1994,Sam Houston State University,TX,100.2,-212.5,212.5,225,225,147.5,157.5,162.5,162.5,205,-215,215,215,602.5
 DQ,M,James Marcotte,SBD,M-C,105,Single-ply,1991,University of Rhode Island,MA,100.8,-295,-295,-295,,,,,,,,,,
-DQ,M,Kevin Cooksy,SBD,M-C,105,Single-ply,1995,Sam Houston State University,TX,104.4,-285,-285,,,,,,,,,,,
+DQ,M,Dakotta Cooksy,SBD,M-C,105,Single-ply,1995,Sam Houston State University,TX,104.4,-285,-285,,,,,,,,,,,
 1,M,Chandler McKane,SBD,M-C,120,Single-ply,1996,Louisiana Tech,LA,114.6,292.5,305,312.5,312.5,215,-225,225,225,280,287.5,-292.5,287.5,825
 2,M,Brandon Graham,SBD,M-C,120,Single-ply,1991,,PA,110.7,302.5,-310,310,310,185,192.5,-200,192.5,295,-302.5,305,305,807.5
 3,M,Joshua Brown,SBD,M-C,120,Single-ply,1998,Texas A&M Kingsville,TX,107.8,325,342.5,-347.5,342.5,-205,205,215,215,240,247.5,-252.5,247.5,805
@@ -413,10 +413,10 @@ DQ,M,Matthew Laferriere,SBD,MR-G,74,Raw,1998,University of Rhode Island,RI,70.6,
 G,M,Erik Kozina,SBD,MR-G,83,Raw,1993,University of Illinois at Chicago,IL,77.5,172.5,180,192.5,192.5,100,105,-117.5,105,-190,200,212.5,212.5,510
 G,M,Jeremy Galloway,SBD,MR-G,93,Raw,1996,University of Hartford,CT,84,147.5,152.5,162.5,162.5,130,135,-137.5,135,192.5,202.5,215,215,512.5
 G,M,Jeremy Oettinger,SBD,MR-G,120,Raw,1994,Pennsylvania State University,PA,117.9,227.5,250,-265,250,140,182.5,195,195,227.5,272.5,285,285,730
-G,M,David Lee,SBD,MR-G,120,Raw,1996,Rutgers University,NJ,113.8,225,235,245,245,145,155,162.5,162.5,227.5,237.5,242.5,242.5,650
+G,M,David Lee #3,SBD,MR-G,120,Raw,1996,Rutgers University,NJ,113.8,225,235,245,245,145,155,162.5,162.5,227.5,237.5,242.5,242.5,650
 1,M,Talon Romero,SBD,MR-C,53,Raw,1998,University of Texas at Austin,TX,51.9,107.5,117.5,125,125,85,92.5,-97.5,92.5,152.5,167.5,175,175,392.5
 2,M,Derrick Lien,SBD,MR-C,53,Raw,1996,,CA,51.1,-125,135,140.5,140.5,75,82.5,90,90,140,160,-165,160,390.5
-3,M,Eddie Taylor,SBD,MR-C,53,Raw,1997,Louisiana Tech,LA,52.1,115,-135,135,135,75,-85,-85,75,-145,145,147.5,147.5,357.5
+3,M,Edward Taylor #2,SBD,MR-C,53,Raw,1997,Louisiana Tech,LA,52.1,115,-135,135,135,75,-85,-85,75,-145,145,147.5,147.5,357.5
 4,M,Luis Gonzalez,SBD,MR-C,53,Raw,1998,Texas A&M Kingsville,TX,53,-117.5,117.5,125,125,70,75,-77.5,75,132.5,142.5,-160,142.5,342.5
 5,M,Patrick Cruz,SBD,MR-C,53,Raw,1995,,WA,52.7,92.5,105,-110,105,60,65,-67.5,65,127.5,142.5,-152.5,142.5,312.5
 1,M,Charlie Yeng,SBD,MR-C,59,Raw,1997,University of Texas at Austin,TX,58,162.5,172.5,180,180,105,110,115,115,205,215,-225,215,510
@@ -428,14 +428,14 @@ G,M,David Lee,SBD,MR-G,120,Raw,1996,Rutgers University,NJ,113.8,225,235,245,245,
 7,M,Justin Dowdy,SBD,MR-C,59,Raw,1997,University of North Texas,TX,56.5,150,157.5,162.5,162.5,102.5,107.5,112.5,112.5,175,182.5,-190,182.5,457.5
 8,M,Kevin Doheny,SBD,MR-C,59,Raw,1996,Florida State University,FL,57.4,145,157.5,-160,157.5,-95,95,-105,95,175,185,192.5,192.5,445
 9,M,Nick Gilmore,SBD,MR-C,59,Raw,1994,Miami University,OH,58.5,145,160,165,165,80,85,-90,85,162.5,172.5,182.5,182.5,432.5
-10,M,Ryan Ngo,SBD,MR-C,59,Raw,1998,,WA,58.8,135,-142.5,142.5,142.5,60,67.5,-70,67.5,150,165,-177.5,165,375
-11,M,Vincent Nguyen,SBD,MR-C,59,Raw,1997,,WA,58.6,110,117.5,125,125,-75,77.5,82.5,82.5,140,150,160,160,367.5
+10,M,Ryan Ngo #1,SBD,MR-C,59,Raw,1998,,WA,58.8,135,-142.5,142.5,142.5,60,67.5,-70,67.5,150,165,-177.5,165,375
+11,M,Vincent Nguyen #4,SBD,MR-C,59,Raw,1997,,WA,58.6,110,117.5,125,125,-75,77.5,82.5,82.5,140,150,160,160,367.5
 12,M,Timothy Sweeney,SBD,MR-C,59,Raw,1997,United States Military Academy,NY,58.1,107.5,115,120,120,82.5,87.5,-90,87.5,140,147.5,157.5,157.5,365
 13,M,Corey Lieb,SBD,MR-C,59,Raw,1995,,FL,58.2,95,102.5,115,115,92.5,95,-97.5,95,135,-140,,135,345
 DQ,M,Marcus Hernandez #1,SBD,MR-C,59,Raw,1995,,TX,58.9,150,165,172.5,172.5,85,95,97.5,97.5,-205,-205,,,
 1,M,Dallas Bey,SBD,MR-C,66,Raw,1995,Rutgers University,NJ,65.8,207.5,217.5,227.5,227.5,145,147.5,150,150,227.5,252.5,-260,252.5,630
 2,M,Thomas Soto,SBD,MR-C,66,Raw,1995,Texas A&M Kingsville,TX,65,197.5,-212.5,220,220,115,-130,-132.5,115,225,-247.5,-265,225,560
-3,M,Alexander Strahle,SBD,MR-C,66,Raw,1995,,IN,65.4,177.5,187.5,192.5,192.5,122.5,130,132.5,132.5,202.5,217.5,222.5,222.5,547.5
+3,M,Alex Strahle,SBD,MR-C,66,Raw,1995,,IN,65.4,177.5,187.5,192.5,192.5,122.5,130,132.5,132.5,202.5,217.5,222.5,222.5,547.5
 4,M,Noel Tuvera,SBD,MR-C,66,Raw,1996,Rutgers University,NJ,64,180,187.5,192.5,192.5,-135,135,-137.5,135,182.5,190,200,200,527.5
 5,M,William Ryder,SBD,MR-C,66,Raw,1995,Texas A&M Kingsville,TX,65.9,175,-182.5,-182.5,175,130,-135,-135,130,212.5,-217.5,-217.5,212.5,517.5
 6,M,Cody Hartman,SBD,MR-C,66,Raw,1998,,TX,65.7,185,190,-200,190,115,120,-125,120,200,-210,-210,200,510
@@ -556,7 +556,7 @@ DQ,M,Charles Auta,SBD,MR-C,74,Raw,1996,Northwestern University,IL,74,207.5,217.5
 25,M,Raymond Chow,SBD,MR-C,83,Raw,1993,University of Houston,FL,82.6,197.5,207.5,-220,207.5,-137.5,145,150,150,215,227.5,-232.5,227.5,585
 26,M,Brandon Morales,SBD,MR-C,83,Raw,1993,Sam Houston State University,TX,82.7,205,215,220,220,122.5,127.5,-130,127.5,237.5,-245,,237.5,585
 27,M,Patrick Yabut,SBD,MR-C,83,Raw,1994,,CA,81.3,180,190,-200,190,130,137.5,-145,137.5,230,242.5,255,255,582.5
-28,M,Pat Walsh,SBD,MR-C,83,Raw,1996,United States Military Academy,NY,82.7,192.5,200,210,210,130,137.5,-145,137.5,220,235,-252.5,235,582.5
+28,M,Pat Walsh #1,SBD,MR-C,83,Raw,1996,United States Military Academy,NY,82.7,192.5,200,210,210,130,137.5,-145,137.5,220,235,-252.5,235,582.5
 29,M,John Etherton,SBD,MR-C,83,Raw,1996,University of Maryland,VA,81.9,200,210,-217.5,210,-137.5,140,145,145,215,225,-230,225,580
 30,M,Nick Olson,SBD,MR-C,83,Raw,1994,,FL,82.1,185,205,-215,205,135,140,-142.5,140,225,-232.5,232.5,232.5,577.5
 31,M,Brendan Brown,SBD,MR-C,83,Raw,1998,United States Military Academy,NY,82.4,-192.5,192.5,215,215,122.5,130,-137.5,130,232.5,-240,-240,232.5,577.5
@@ -567,7 +567,7 @@ DQ,M,Charles Auta,SBD,MR-C,74,Raw,1996,Northwestern University,IL,74,207.5,217.5
 36,M,Aaron Duran,SBD,MR-C,83,Raw,1996,University of Texas at Austin,TX,82.4,187.5,200,-212.5,200,115,125,-127.5,125,225,235,-245,235,560
 37,M,Matthew LaButti,SBD,MR-C,83,Raw,1994,University of Rhode Island,RI,82.5,187.5,200,207.5,207.5,120,125,-130,125,212.5,227.5,-242.5,227.5,560
 38,M,Calvin Chen,SBD,MR-C,83,Raw,1995,University of Houston,TX,81.8,170,185,195,195,132.5,137.5,-142.5,137.5,210,225,-235,225,557.5
-39,M,David Garcia,SBD,MR-C,83,Raw,1992,University of North Texas,TX,82,185,192.5,200,200,110,117.5,127.5,127.5,220,227.5,230,230,557.5
+39,M,David Garcia #2,SBD,MR-C,83,Raw,1992,University of North Texas,TX,82,185,192.5,200,200,110,117.5,127.5,127.5,220,227.5,230,230,557.5
 40,M,Travis Hall,SBD,MR-C,83,Raw,1994,Texas State University,TX,81.2,185,192.5,-197.5,192.5,120,125,-127.5,125,215,227.5,232.5,232.5,550
 41,M,Devraj Roy,SBD,MR-C,83,Raw,1998,Rutgers University,NJ,82.1,182.5,190,197.5,197.5,120,127.5,135,135,202.5,210,217.5,217.5,550
 42,M,Andrew Koelln,SBD,MR-C,83,Raw,1996,Ohio State University,PA,79.4,167.5,177.5,182.5,182.5,115,122.5,-125,122.5,225,237.5,240,240,545
@@ -611,7 +611,7 @@ DQ,M,Matthew Merry,SBD,MR-C,83,Raw,1995,University of Texas at Austin,TX,80.3,-1
 DQ,M,Stephen Canovali,SBD,MR-C,83,Raw,1995,University of Pittsburgh,PA,82.5,227.5,242.5,-252.5,242.5,140,-142.5,-142.5,140,-272.5,-272.5,-272.5,,
 1,M,Caleb Harris,SBD,MR-C,93,Raw,1996,Oklahoma State University,OK,93,-252.5,255,257.5,257.5,145,152.5,-155,152.5,265,275,292.5,292.5,702.5
 2,M,Jordan Glenn,SBD,MR-C,93,Raw,1993,Sam Houston State University,TX,89.4,237.5,245,250,250,-155,155,162.5,162.5,275,285,287.5,287.5,700
-3,M,David Long,SBD,MR-C,93,Raw,1994,Oklahoma State University,OK,91.2,227.5,242.5,247.5,247.5,137.5,142.5,-145,142.5,272.5,287.5,295.5,295.5,685.5
+3,M,David Long #1,SBD,MR-C,93,Raw,1994,Oklahoma State University,OK,91.2,227.5,242.5,247.5,247.5,137.5,142.5,-145,142.5,272.5,287.5,295.5,295.5,685.5
 4,M,Alex Vignone,SBD,MR-C,93,Raw,1994,Pennsylvania State University,PA,91.6,225,235,247.5,247.5,137.5,145,150,150,247.5,265,280,280,677.5
 5,M,Joseph Best,SBD,MR-C,93,Raw,1994,University of Illinois at Chicago,IL,92.8,227.5,240,-247.5,240,147.5,-160,-160,147.5,275,290,-300,290,677.5
 6,M,Nicholas Taylor,SBD,MR-C,93,Raw,1998,Texas A&M Kingsville,TX,90.8,232.5,240,250,250,-157.5,162.5,167.5,167.5,237.5,252.5,-262.5,252.5,670
@@ -650,17 +650,17 @@ DQ,M,Stephen Canovali,SBD,MR-C,83,Raw,1995,University of Pittsburgh,PA,82.5,227.
 39,M,Jackson Jennings,SBD,MR-C,93,Raw,1995,McKendree University,IL,92.2,192.5,212.5,220,220,135,142.5,-152.5,142.5,187.5,200,-210,200,562.5
 40,M,Joe Stanek,SBD,MR-C,93,Raw,1994,,PA,92.3,-205,205,-207.5,205,-122.5,122.5,125,125,-220,230,-240,230,560
 41,M,Caleb Thomas,SBD,MR-C,93,Raw,1997,Texas A&M Kingsville,TX,91.7,185,192.5,197.5,197.5,120,130,-135,130,182.5,200,220,220,547.5
-42,M,Jay Allen,SBD,MR-C,93,Raw,1995,University of Texas at San Antonio,TX,90.4,-170,-175,175,175,120,127.5,-132.5,127.5,222.5,235,-242.5,235,537.5
+42,M,James Allen #1,SBD,MR-C,93,Raw,1995,University of Texas at San Antonio,TX,90.4,-170,-175,175,175,120,127.5,-132.5,127.5,222.5,235,-242.5,235,537.5
 43,M,Jonathan Plotz,SBD,MR-C,93,Raw,1996,,VA,88.5,165,175,182.5,182.5,112.5,117.5,-120,117.5,212.5,222.5,235,235,535
 44,M,Austin Michael,SBD,MR-C,93,Raw,1995,,VA,88.8,-182.5,182.5,-197.5,182.5,-120,-120,120,120,-227.5,227.5,-240,227.5,530
 45,M,Noah Suggs,SBD,MR-C,93,Raw,1996,Texas A&M Kingsville,TX,92.2,175,190,200,200,125,132.5,-137.5,132.5,185,187.5,195,195,527.5
 46,M,Zachary Moreno,SBD,MR-C,93,Raw,1997,Texas A&M Kingsville,TX,89,175,180,187.5,187.5,132.5,137.5,142.5,142.5,175,187.5,-197.5,187.5,517.5
-47,M,Sergio Sanchez,SBD,MR-C,93,Raw,1995,Oklahoma State University,OK,91.1,-172.5,172.5,177.5,177.5,102.5,112.5,-115,112.5,207.5,220,227.5,227.5,517.5
+47,M,Sergio Sanchez #2,SBD,MR-C,93,Raw,1995,Oklahoma State University,OK,91.1,-172.5,172.5,177.5,177.5,102.5,112.5,-115,112.5,207.5,220,227.5,227.5,517.5
 48,M,Eric Hembling,SBD,MR-C,93,Raw,1998,United States Air Force Academy,CO,91.8,175,-182.5,-182.5,175,105,-110,-110,105,-222.5,225,232.5,232.5,512.5
 49,M,Robert Perez,SBD,MR-C,93,Raw,1995,Texas A&M Kingsville,TX,88.5,172.5,-182.5,182.5,182.5,135,-142.5,-142.5,135,185,192.5,-205,192.5,510
 50,M,Terrance Woodard,SBD,MR-C,93,Raw,1994,Texas State University,TX,88.8,192.5,-202.5,202.5,202.5,102.5,105,-110,105,192.5,-202.5,-215,192.5,500
 51,M,Jorge Salazar,SBD,MR-C,93,Raw,1996,Texas A&M Kingsville,TX,91.9,175,185,190,190,117.5,132.5,-137.5,132.5,175,-187.5,-190,175,497.5
-52,M,Austin Cooper,SBD,MR-C,93,Raw,1996,University of Texas at Austin,MD,92.3,162.5,172.5,180,180,107.5,117.5,-125,117.5,195,-200,200,200,497.5
+52,M,Austin Cooper #2,SBD,MR-C,93,Raw,1996,University of Texas at Austin,MD,92.3,162.5,172.5,180,180,107.5,117.5,-125,117.5,195,-200,200,200,497.5
 53,M,Alan Wang,SBD,MR-C,93,Raw,1996,,TX,84.5,152.5,-165,170,170,-112.5,122.5,127.5,127.5,197.5,-212.5,-212.5,197.5,495
 54,M,Ehron Capps,SBD,MR-C,93,Raw,1997,University of Texas at Austin,TX,90.7,160,172.5,185,185,105,115,-127.5,115,177.5,187.5,195,195,495
 55,M,Youssef Helmi,SBD,MR-C,93,Raw,1997,Florida State University,FL,91.9,155,165,-167.5,165,110,115,-117.5,115,197.5,207.5,212.5,212.5,492.5
@@ -687,7 +687,7 @@ DQ,M,Shaun Magill,SBD,MR-C,93,Raw,1995,University of Illinois,IL,87.4,-207.5,222
 18,M,Justin Byers,SBD,MR-C,105,Raw,1996,United States Military Academy,NY,98.3,207.5,222.5,235,235,142.5,150,155,155,-227.5,242.5,247.5,247.5,637.5
 19,M,Jason Sickels,SBD,MR-C,105,Raw,1997,,FL,100.7,230,235,240,240,150,160,-167.5,160,225,-237.5,-242.5,225,625
 20,M,Max Grable,SBD,MR-C,105,Raw,1995,University of Maryland,MD,98,215,230,245,245,132.5,140,147.5,147.5,185,205,227.5,227.5,620
-21,M,Aaron Johnson,SBD,MR-C,105,Raw,1997,Tarleton State University,TX,103.7,205,230,240,240,130,140,150,150,195,210,222.5,222.5,612.5
+21,M,Aaron Johnson #2,SBD,MR-C,105,Raw,1997,Tarleton State University,TX,103.7,205,230,240,240,130,140,150,150,195,210,222.5,222.5,612.5
 22,M,Derick Juptner,SBD,MR-C,105,Raw,1998,Texas A&M Kingsville,TX,101.8,217.5,225,-230,225,142.5,147.5,152.5,152.5,210,217.5,225,225,602.5
 23,M,Ross Ackeifi,SBD,MR-C,105,Raw,1996,University of Hartford,CT,93.4,182.5,192.5,,192.5,140,145,147.5,147.5,245,250,-257.5,250,590
 24,M,David Verzwyvelt,SBD,MR-C,105,Raw,1996,Louisiana Tech,LA,102.3,192.5,200,207.5,207.5,125,127.5,132.5,132.5,227.5,240,250,250,590
@@ -726,7 +726,7 @@ DQ,M,Daniel Takacs,SBD,MR-C,105,Raw,1995,McKendree University,IL,100.8,212.5,-22
 23,M,Kevin Lesniak,SBD,MR-C,120,Raw,1994,Pennsylvania State University,PA,112.7,195,210,222.5,222.5,105,115,-125,115,200,215,-225,215,552.5
 24,M,Isaiah Regeon,SBD,MR-C,120,Raw,1996,Tarleton State University,TX,116.3,185,195,-205,195,127.5,-137.5,-137.5,127.5,-185,185,-205,185,507.5
 1,M,Haakon Borstad,SBD,MR-C,120+,Raw,1995,Ohio State University,OH,142.1,267.5,280,292.5,292.5,137.5,147.5,152.5,152.5,290,300,-305,300,745
-2,M,Joseph Lopez,SBD,MR-C,120+,Raw,1995,Midland University,NE,144.6,275,285,296,296,182.5,192.5,-200,192.5,235,250,-257.5,250,738.5
+2,M,Joseph Lopez #4,SBD,MR-C,120+,Raw,1995,Midland University,NE,144.6,275,285,296,296,182.5,192.5,-200,192.5,235,250,-257.5,250,738.5
 3,M,Armand Narvaez,SBD,MR-C,120+,Raw,1994,Texas A&M Kingsville,TX,123.4,235,245,252.5,252.5,167.5,177.5,-182.5,177.5,272.5,285,300,300,730
 4,M,Fernando Flores,SBD,MR-C,120+,Raw,1994,Texas A&M Kingsville,TX,120.04,242.5,255,-267.5,255,165,175,185,185,267.5,282.5,-290,282.5,722.5
 4,M,Jared Shields,SBD,MR-C,120+,Raw,1997,Tarleton State University,TX,125.8,245,265,272.5,272.5,150,160,-165,160,250,265,272.5,272.5,705

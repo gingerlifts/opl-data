@@ -6,7 +6,7 @@ Place,Name,BirthYear,WeightClassKg,BodyweightKg,Country,Squat1Kg,Squat2Kg,Squat3
 1,Irina Krylova,1978,48,47.6,Russia,140,150.5,155.5,155.5,100.5,-110,112.5,112.5,135,-142.5,142.5,142.5,410,F,Juniors,SBD,Single-ply
 2,Tatjana Eltsova,1978,48,47.4,Russia,-150,155,160,160,80,-85,85,85,140,150,-155,150,395,F,Juniors,SBD,Single-ply
 3,Oksana Polovinka,1978,48,48,Belarus,90,-102.5,102.5,102.5,65,72.5,-77.5,72.5,-95,95,120,120,295,F,Juniors,SBD,Single-ply
-DQ,Mart Kleszczynska,1979,48,47.9,Poland,-115,-115,-115,,,,,,,,,,,F,Juniors,SBD,Single-ply
+DQ,Marta Kleszczynska,1979,48,47.9,Poland,-115,-115,-115,,,,,,,,,,,F,Juniors,SBD,Single-ply
 1,Irina Tatarova,1975,52,51.4,Russia,-160,160,170,170,75,80,-82.5,80,150,160,-165,160,410,F,Juniors,SBD,Single-ply
 2,Larysa Vitsyevska,1978,52,51.7,Ukraine,130,140,-145,140,80,-87.5,-87.5,80,-155,155,-160,155,375,F,Juniors,SBD,Single-ply
 3,Ludmila Titova,1978,52,51.4,Ukraine,130,137.5,142.5,142.5,65,-70,70,70,135,145,-152.5,145,357.5,F,Juniors,SBD,Single-ply
@@ -19,7 +19,7 @@ DQ,Agnieszka Ligeza,1977,56,53.7,Poland,-110,-115,-115,,,,,,,,,,,F,Juniors,SBD,S
 DQ,Inna Maximova,1976,56,55.7,Russia,165,175,-185,175,-85,-85,-85,,,,,,,F,Juniors,SBD,Single-ply
 1,Oksana Belova,1975,60,56.5,Russia,165,180,-190,180,100,105,-110,105,175,190,-200.5,190,475,F,Juniors,SBD,Single-ply
 2,Oxana Sasko,1982,60,59.1,Ukraine,180,190,-197.5,190,80,-85,-85,80,170,-190,-190,170,440,F,Juniors,SBD,Single-ply
-3,Yulia Zhilskaij,1978,60,58.5,Belarus,135,-147.5,155,155,100,-110,110,110,145,155,160,160,425,F,Juniors,SBD,Single-ply
+3,Yuliya Zhylskaya,1978,60,58.5,Belarus,135,-147.5,155,155,100,-110,110,110,145,155,160,160,425,F,Juniors,SBD,Single-ply
 4,Anne Heikkilä,1978,60,57.6,Finland,145,-152.5,155,155,90,95,97.5,97.5,145,150,-152.5,150,402.5,F,Juniors,SBD,Single-ply
 5,Bente Arntsen,1976,60,59.4,Norway,145,-152.5,-152.5,145,-85,85,92.5,92.5,147.5,152.5,-155,152.5,390,F,Juniors,SBD,Single-ply
 6,Daniela Falck,1975,60,59,Germany,130,-137.5,-137.5,130,60,62.5,65,65,150,162.5,167.5,167.5,362.5,F,Juniors,SBD,Single-ply
@@ -42,15 +42,15 @@ DQ,Inna Maximova,1976,56,55.7,Russia,165,175,-185,175,-85,-85,-85,,,,,,,F,Junior
 1,Anna Ganenko,1975,90,89.5,Ukraine,170,200,210,210,110,125,-132.5,125,150,172.5,180,180,515,F,Juniors,SBD,Single-ply
 2,Sanna Rajahalme,1978,90,83.5,Finland,155,165,-172.5,165,80,85,-87.5,85,120,130,-140,130,380,F,Juniors,SBD,Single-ply
 1,Angela Torskaya,1977,90+,101.5,Ukraine,190,-200,200,200,-105,-105,105,105,170,195,200,200,505,F,Juniors,SBD,Single-ply
-1,Vyacheslav Gorbunov,1975,52,51.4,Russia,,,,200,,,,135,,,,235,570,M,Juniors,SBD,Single-ply
+1,Vyacheslav Gorbunov #2,1975,52,51.4,Russia,,,,200,,,,135,,,,235,570,M,Juniors,SBD,Single-ply
 2,Maik Tronke,1976,52,51.4,Germany,,,,205,,,,122.5,,,,150,477.5,M,Juniors,SBD,Single-ply
-3,Dariusz Wsola,1978,52,50.8,Poland,,,,195,,,,105,,,,172.5,472.5,M,Juniors,SBD,Single-ply
+3,Dariusz Wszoła,1978,52,50.8,Poland,,,,195,,,,105,,,,172.5,472.5,M,Juniors,SBD,Single-ply
 1,Vladimir Maliagov,1977,56,55.8,Russia,,,,215,,,,122.5,,,,195,532.5,M,Juniors,SBD,Single-ply
 2,Sławomir Śledź,1976,56,54.9,Poland,,,,195,,,,125,,,,180,500,M,Juniors,SBD,Single-ply
 3,Marko Kytölä,1977,56,55.3,Finland,,,,187.5,,,,100,,,,205,492.5,M,Juniors,SBD,Single-ply
 4,Zdenek Spisiak,1975,56,55.4,Germany,,,,190,,,,112.5,,,,187.5,490,M,Juniors,SBD,Single-ply
 DQ,Viache Slisarenko,1981,56,55.6,Ukraine,,,,195,,,,105,,,,,,M,Juniors,SBD,Single-ply
-1,Nikolai Sokolov,1979,60,59.4,Russia,,,,230,,,,147.5,,,,227.5,605,M,Juniors,SBD,Single-ply
+1,Nikolay Sokolov #1,1979,60,59.4,Russia,,,,230,,,,147.5,,,,227.5,605,M,Juniors,SBD,Single-ply
 2,Amit Selberg,1976,60,59.8,Sweden,,,,230,,,,165,,,,210,605,M,Juniors,SBD,Single-ply
 3,Jani Silta-Aho,1976,60,59.6,Finland,,,,210,,,,117.5,,,,215,542.5,M,Juniors,SBD,Single-ply
 4,Dariusz Drozdzik,1977,60,60,Poland,,,,165,,,,120,,,,170,455,M,Juniors,SBD,Single-ply

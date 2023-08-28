@@ -28,7 +28,7 @@ Place,Name,BirthYear,BodyweightKg,Best3BenchKg,WeightClassKg,Sex,CyrillicName,Di
 1,Valeriya Rashoyants,2002,41.95,32.5,43,F,Валерія Рашоянц,Sub-Juniors,Raw,B,32.5,,,
 1,Olga Vlasenko,1996,54.8,45,57,F,Ольга Власенко,Sub-Juniors,Raw,B,45,,,
 1,Nadiya Vasilchenko,1997,60.25,47.5,63,F,Надія Васильченко,Sub-Juniors,Raw,B,47.5,,,
-1,Anastasiya Kravchenko,1998,64.3,80,72,F,Анастасія Кравченко,Sub-Juniors,Raw,B,80,,,
+1,Anastasiya Kravchenko #1,1998,64.3,80,72,F,Анастасія Кравченко,Sub-Juniors,Raw,B,80,,,
 1,Yelizaveta Ryzhak,1990,45.8,67.5,47,F,Єлізавета Рижак,Open,Raw,B,67.5,,,
 2,Olena Yaskiv,1976,42.25,32.5,47,F,Олена Яськів,Open,Raw,B,32.5,,,
 1,Oksana Tenyukh,1980,49.1,70,52,F,Оксана Тенюх,Open,Raw,B,70,,,
@@ -42,7 +42,7 @@ Place,Name,BirthYear,BodyweightKg,Best3BenchKg,WeightClassKg,Sex,CyrillicName,Di
 1,Irina Vorobyeva,1980,61.15,99,63,F,Ірина Воробйова,Open,Raw,B,99,,,
 2,Lyubov Derkach,1985,60.45,70,63,F,Любов Деркач,Open,Raw,B,70,,,
 3,Oksana Dremlyuga,1985,60.35,52.5,63,F,Оксана Дремлюга,Open,Raw,B,52.5,,,
-4,Olga Pisareva,1956,61.55,45,63,F,Ольга Писарева,Open,Raw,B,45,,,
+4,Olga Pisareva,1956,61.55,45,63,F,Ольга Писарєва,Open,Raw,B,45,,,
 1,Tetyana Antonyuk,1982,71.1,75,72,F,Тетяна Антонюк,Open,Raw,B,75,,,
 2,Irina Chokan,1972,68.3,45,72,F,Ірина Чокан,Open,Raw,B,45,,,
 3,Mariya Semeryak,1964,65.7,35,72,F,Марія Семеряк,Open,Raw,B,35,,,
@@ -80,7 +80,7 @@ DQ,Viktor Khablyuk,1989,73,,74,M,Віктор Хаблюк,Open,Raw,B,,,,
 1,Dmitro Lovchiy,1988,103.15,205,105,M,Дмитро Ловчий,Open,Raw,B,205,,,
 2,Viktor Druzhininskyy,1985,102.2,202.5,105,M,Віктор Дружинінський,Open,Raw,B,202.5,,,
 3,Dmitro Kiselov,1984,95.6,200,105,M,Дмитро Кисельов,Open,Raw,B,200,,,
-4,Vyacheslav Petrov,1971,103.25,200,105,M,Вячеслав Петров,Open,Raw,B,200,,,
+4,Vyacheslav Petrov #1,1971,103.25,200,105,M,Вячеслав Петров,Open,Raw,B,200,,,
 5,Gennadiy Golembivskyy,1982,100.5,192.5,105,M,Геннадій Голембівський,Open,Raw,B,192.5,,,
 6,Pavlo Trygub,1973,105,192.5,105,M,Павло Тригуб,Open,Raw,B,192.5,,,
 7,Andriy Melnyk,1982,101.85,190,105,M,Андрій Мельник,Open,Raw,B,190,,,
@@ -112,14 +112,14 @@ DQ,Viktor Khablyuk,1989,73,,74,M,Віктор Хаблюк,Open,Raw,B,,,,
 4,Roman Kalinovskiy,1994,82.05,160,83,M,Роман Каліновський,Juniors,Raw,B,160,157.5,-160,160
 5,Vadim Bilousov,1994,80.5,152.5,83,M,Вадим Білоусов,Juniors,Raw,B,152.5,142.5,152.5,-160
 6,Sergiy Krasiy,1992,79.15,135,83,M,Сергій Красій,Juniors,Raw,B,135,135,-140,-140
-1,Nazar Dyachuk,1991,89.7,192.5,93,M,Назар Д'ячук,Juniors,Raw,B,192.5,192.5,-197.5,-200
+1,Nazariy Dyachuk,1991,89.7,192.5,93,M,Назарий Д'ячук,Juniors,Raw,B,192.5,192.5,-197.5,-200
 2,Vasyl' Chipornyuk,1991,90.25,187.5,93,M,Василь Чипорнюк,Juniors,Raw,B,187.5,187.5,-200,-200
 3,Sergiy Trofanyuk,1994,91.55,187.5,93,M,Сергій Трофанюк,Juniors,Raw,B,187.5,177.5,182.5,187.5
 4,Bogdan Shenderchuk,1993,90.25,170,93,M,Богдан Шендерчук,Juniors,Raw,B,170,-167.5,167.5,170
 5,Sergiy Lebid,1995,91.3,167.5,93,M,Сергій Лебідь,Juniors,Raw,B,167.5,157.5,-167.5,167.5
 6,Vladyslav Sheynin,1992,88.6,150,93,M,Владислав Шейнін,Juniors,Raw,B,150,142.5,150,-155
 DQ,Sergiy Gorbatovskiy,1991,91.45,,93,M,Сергій Горбатовський,Juniors,Raw,B,,,,
-1,Yevgen Vasilyev,1993,108.25,200,120,M,Євген Васильєв,Juniors,Raw,B,200,190,200,-210
+1,Yevgen Vasilyev #1,1993,108.25,200,120,M,Євген Васильєв,Juniors,Raw,B,200,190,200,-210
 1,Tetyana Bezhevets,1994,41.85,32.5,43,F,Тетяна Бежевець,Juniors,Raw,B,32.5,,,
 1,Marina Murzina,1995,51.5,62.5,52,F,Марина Мурзіна,Juniors,Raw,B,62.5,,,
 2,Mariya Pavlik,1991,51.45,52.5,52,F,Марія Павлик,Juniors,Raw,B,52.5,,,

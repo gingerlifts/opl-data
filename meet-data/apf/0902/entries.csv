@@ -14,7 +14,7 @@ Robert Scully,SBD,M,M_MEM_X_APF,No,,110,235,,,,147.5,237.5,620,Multi-ply,3
 Vincent Lysobey,SBD,M,M_OEM_APF,No,,82.5,330,,,,205,267.5,802.5,Multi-ply,1
 Sean Sharkey,SBD,M,M_OEM_APF,Yes,,82.5,205,,,,135,227.5,567.5,Multi-ply,2
 Ronnie Paras,SBD,M,M_OEM_APF,No,,90,355,,,,260,250,865,Multi-ply,1
-Jason Pritchard,SBD,M,M_OEM_APF,No,,90,320,,,,167.5,247.5,735,Multi-ply,2
+Jason Pritchard #1,SBD,M,M_OEM_APF,No,,90,320,,,,167.5,247.5,735,Multi-ply,2
 Tom Walyus,SBD,M,M_OEM_APF,No,,100,307.5,,,,195,282.5,785,Multi-ply,1
 Jason Lopez #2,SBD,M,M_OEM_APF,No,,100,265,,,,150,282.5,697.5,Multi-ply,2
 Kevin Mink,SBD,M,M_OEM_APF,No,,140,342.5,,,,227.5,295,865,Multi-ply,1
@@ -34,7 +34,7 @@ Lee Hosterman,SBD,M,M_OEM_APF,No,,90,250,,,,175,252.5,677.5,Multi-ply,1
 CJ Clearwater,SBD,M,M_OEM_APF,No,,90,295,,,,,,,Multi-ply,DQ
 Adam Driggers,SBD,M,M_OEM_APF,No,,90,372.5,,,,,,,Multi-ply,DQ
 Yury Chakur,SBD,M,M_OEM_APF,No,,100,392.5,,,,255,320,967.5,Multi-ply,1
-Clint Smith,SBD,M,M_OEM_APF,No,,110,410,,,,347.5,335,1092.5,Multi-ply,1
+Clint Smith #1,SBD,M,M_OEM_APF,No,,110,410,,,,347.5,335,1092.5,Multi-ply,1
 Dondell Blue,SBD,M,M_OEM_APF,No,,110,342.5,,,,237.5,320,900,Multi-ply,G
 David Belesi,SBD,M,M_OEM_APF,No,,125,275,,,,217.5,227.5,720,Multi-ply,1
 Lester Estevez,SBD,M,M_OEM_APF,No,,125,415,,,,,,,Multi-ply,DQ
@@ -43,7 +43,7 @@ Gary Catling,SBD,M,M_OEM_APF,No,,140,272.5,,,,255,275,802.5,Multi-ply,2
 Jeffrey Vaughn,SBD,M,M_OEM_APF,No,,140+,,,,,,,,Multi-ply,DQ
 Vincent Donofrio,B,M,M_MEM_X_APF,No,85.8,90,,152.5,-160,160,160,,160,Multi-ply,1
 David Nesmith,B,M,M_MEM_X_APF,No,107.6,110,,165,170,175,175,,175,Multi-ply,2
-Mike Allocco,B,M,M_OEM_APF,No,123.4,125,,292.5,-307.5,-307.5,292.5,,292.5,Multi-ply,1
+Michael Allocco,B,M,M_OEM_APF,No,123.4,125,,292.5,-307.5,-307.5,292.5,,292.5,Multi-ply,1
 Dave Sharkey,B,M,M_MEM_X_APF,No,109,110,,237.5,242.5,-250,242.5,,242.5,Multi-ply,1
 Keith Price,B,M,M_MEM_X_APF,No,107.4,110,,240,-262.5,-262.5,240,,240,Multi-ply,2
 Tim McCoy,B,M,M_OEM_APF,No,66.2,67.5,,165,-175,182.5,182.5,,182.5,Multi-ply,1

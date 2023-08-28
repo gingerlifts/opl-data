@@ -4,7 +4,7 @@ B,Class 1,M,Single-ply,,,82.5,Dustin Jameson,120,,,,120,USA,WA,2
 B,Class 1,M,Single-ply,,,90,Dennis Sugimoto,197.5,,,,197.5,USA,WA,1
 B,Class 1,M,Single-ply,,,90,Steve Urueta,175,,,,175,USA,OR,2
 B,Class 1,M,Single-ply,,,90,Dustin McFarland,145,,,,145,USA,OR,3
-B,Class 1,M,Single-ply,,,90,Daniel Harris,122.5,,,,122.5,USA,WA,4
+B,Class 1,M,Single-ply,,,90,Daniel Harris #5,122.5,,,,122.5,USA,WA,4
 B,Class 1,M,Single-ply,,,90,Bobby Burns,112.5,,,,112.5,USA,WA,5
 B,Class 1,M,Single-ply,,,100,Demian Beckner,,,,,,USA,WA,DQ
 B,Class 1,M,Single-ply,,,110,Tony Blas,225,,,,225,USA,OR,1
@@ -15,7 +15,7 @@ B,Class 1,M,Single-ply,,,140,Tracy Lundin,247.5,,,,247.5,USA,OR,1
 B,Class 1,M,Single-ply,,,140,Vincent Eldridge,192.5,,,,192.5,USA,WA,2
 B,Juniors 20-25,M,Single-ply,,,90,Zach Miller,180,,,,180,USA,WA,1
 B,Juniors 20-25,M,Single-ply,,,140,Jay Carlile,272.5,,,,272.5,USA,WA,1
-B,Law-Fire 40-47,M,Single-ply,,,100,Brian Reynolds,202.5,,,,202.5,USA,WA,1
+B,Law-Fire 40-47,M,Single-ply,,,100,Brian Reynolds #2,202.5,,,,202.5,USA,WA,1
 B,Law-Fire 48-55,M,Single-ply,,,90,Charles McFarland,140,148,,,140,USA,OR,1
 B,Law-Fire Open,M,Single-ply,,,140,Tracy Lundin,247.5,,,,247.5,USA,OR,1
 B,Masters 40-46,M,Single-ply,,,82.5,Jody Cranston,162.5,,,,162.5,Canada,,1
@@ -27,7 +27,7 @@ B,Masters 40-46,M,Single-ply,,,140,Vic Aleaga,300,,,,300,USA,WA,1
 B,Masters 40-46,M,Single-ply,,,140,Vincent Eldridge,192.5,,,,192.5,USA,WA,3
 B,Masters 47-53,M,Single-ply,,,90,Phil Fernandes,130,,,,130,USA,WA,1
 B,Masters 47-53,M,Single-ply,,,100,James Noblit,205,,,,205,USA,OR,1
-B,Masters 47-53,M,Single-ply,,,100,Brian Reynolds,202.5,,,,202.5,USA,WA,2
+B,Masters 47-53,M,Single-ply,,,100,Brian Reynolds #2,202.5,,,,202.5,USA,WA,2
 B,Masters 47-53,M,Single-ply,,,110,Ed Macauley,270,,,,270,USA,OR,1
 B,Masters 47-53,M,Single-ply,,,140,Joe Mickelson,,,,,,USA,WA,DQ
 B,Masters 54-60,M,Single-ply,,,67.5,Alfredo Evangelista,187.5,,,,187.5,USA,OR,1
@@ -38,7 +38,7 @@ B,Masters 54-60,M,Single-ply,,,110,Robert Hadman,72.5,,,,72.5,USA,WA,1
 B,Masters 54-60,M,Single-ply,,,117.5,Tom La Fors,150,,,,150,USA,WA,1
 B,Masters 54-60,M,Single-ply,,,117.5,Willard Crossen Jr,,,,,,USA,WA,DQ
 B,Masters 61-67,M,Single-ply,,,75,Mike Jameson,145.5,,,,145.5,USA,WA,1
-B,Masters 61-67,M,Single-ply,,,75,Ron White,107.5,,,,107.5,USA,WA,2
+B,Masters 61-67,M,Single-ply,,,75,Ron White #1,107.5,,,,107.5,USA,WA,2
 B,Masters 61-67,M,Single-ply,,,90,Godfrey Holzinger,152.5,,,,152.5,USA,WA,1
 B,Masters 61-67,M,Single-ply,,,100,Ken Scheuer,172.5,181.5,,,172.5,USA,WA,1
 B,Masters 61-67,M,Single-ply,,,100,Robert White,150,,,,150,USA,WA,2
@@ -91,7 +91,7 @@ B,Teen 16-17,F,Single-ply,,,75,Olivia Houseman,62.5,,,,62.5,USA,WA,1
 D,Class 1,M,Single-ply,,,75,Marcus Hysert,,,215,,215,USA,WA,1
 D,Class 1,M,Single-ply,,,75,Jordan Fernandez #2,,,170,,170,USA,OR,2
 D,Class 1,M,Single-ply,,,90,Dustin McFarland,,,237.5,,237.5,USA,OR,1
-D,Class 1,M,Single-ply,,,90,Daniel Harris,,,215,,215,USA,WA,2
+D,Class 1,M,Single-ply,,,90,Daniel Harris #5,,,215,,215,USA,WA,2
 D,Class 1,M,Single-ply,,,100,Demian Beckner,,,222.5,,222.5,USA,WA,1
 D,Class 1,M,Single-ply,,,110,Curtis Dodson,,,282.5,,282.5,USA,OR,1
 D,Class 1,M,Single-ply,,,110,Henry Higgins,,,260,,260,USA,WA,2
@@ -109,7 +109,7 @@ D,Masters 54-60,M,Single-ply,,,67.5,Alfredo Evangelista,,,222.5,,222.5,USA,OR,1
 D,Masters 54-60,M,Single-ply,,,67.5,David Higgins,,,200,,200,USA,WA,2
 D,Masters 54-60,M,Single-ply,,,90,Charles McFarland,,,230,246,230,USA,OR,1
 D,Masters 61-67,M,Single-ply,,,75,Mike Jameson,,,195,,195,USA,WA,1
-D,Masters 61-67,M,Single-ply,,,75,Ron White,,,125,,125,USA,WA,2
+D,Masters 61-67,M,Single-ply,,,75,Ron White #1,,,125,,125,USA,WA,2
 D,Masters 61-67,M,Single-ply,,,90,Godfrey Holzinger,,,207.5,,207.5,USA,WA,1
 D,Masters 68-74,M,Single-ply,,,100,Jim Huggins,,,195,,195,USA,WA,1
 D,Masters 40-46,F,Single-ply,,,82.5,Jennifer Taylor,,,197.5,208.5,197.5,USA,OR,1

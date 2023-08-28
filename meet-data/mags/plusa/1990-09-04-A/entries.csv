@@ -1,9 +1,9 @@
 Name,Country,WeightClassKg,Division,Sex,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Keith Borgue,USA,52,Open,M,,187.5,92.5,187.5,467.5,SBD,Single-ply,1
-Graham Price,UK,52,Open,M,,160,90,185,435,SBD,Single-ply,2
+Graham Price #1,UK,52,Open,M,,160,90,185,435,SBD,Single-ply,2
 Andy Giannino,USA,56,Open,M,,167.5,114,207.5,489,SBD,Single-ply,1
 Franck Brouillet,France,56,Open,M,,170,100,200,470,SBD,Single-ply,2
-Mo Kahn,UK,56,Open,M,,160,80,212.5,452.5,SBD,Single-ply,3
+Mohammed Khan,UK,56,Open,M,,160,80,212.5,452.5,SBD,Single-ply,3
 Ian Gould,Australia,56,Open,M,,130,97.5,150,377.5,SBD,Single-ply,4
 Todd Suttles,USA,60,Open,M,,212.5,137.5,242.5,592.5,SBD,Single-ply,1
 Laurent Ledroit,France,60,Open,M,,230,112.5,192.5,535,SBD,Single-ply,2
@@ -23,7 +23,7 @@ Devieze Hurgen,Belgium,75,Open,M,,180,92.5,190,462.5,SBD,Single-ply,6
 François Kalic,France,82.5,Open,M,,275,157.5,285,717.5,SBD,Single-ply,1
 David Vaughan #1,Australia,82.5,Open,M,,260,142.5,257.5,660,SBD,Single-ply,2
 Derek Ambler,UK,82.5,Open,M,,255,140,245,640,SBD,Single-ply,3
-Franck Momber,Belgium,82.5,Open,M,,230,120,250,600,SBD,Single-ply,4
+Frank Mombert,Belgium,82.5,Open,M,,230,120,250,600,SBD,Single-ply,4
 Daniel Robert,Belgium,82.5,Open,M,,175,95,200,470,SBD,Single-ply,5
 Vinson Keyhea,USA,90,Open,M,,305,152.5,337.5,795,SBD,Single-ply,1
 Christian Devaux,France,90,Open,M,,260,185,300,745,SBD,Single-ply,2
@@ -42,11 +42,11 @@ Richard Pridgen,USA,110,Open,M,,307.5,175,310,792.5,SBD,Single-ply,1
 Sylvain Picket,France,110,Open,M,,300,145,280,725,SBD,Single-ply,2
 John West,Ireland,110,Open,M,,260,140,260,660,SBD,Single-ply,3
 Bob Hoekzema,Australia,110,Open,M,,235,155,240,630,SBD,Single-ply,4
-C. Roblett,UK,110,Open,M,,280,,,,SBD,Single-ply,DQ
+Chris Roblett,UK,110,Open,M,,280,,,,SBD,Single-ply,DQ
 Andrew Stewart #2,USA,125,Open,M,,350,210,345,905,SBD,Single-ply,1
-Michael Leadbetter,UK,125,Open,M,,260,190,330,780,SBD,Single-ply,2
+Mike Leadbetter,UK,125,Open,M,,260,190,330,780,SBD,Single-ply,2
 Patrick Thoron,Belgium,125,Open,M,,180,120,240,540,SBD,Single-ply,3
-Mike Hall,USA,125+,Open,M,,365,240,250,855,SBD,Single-ply,1
+Mike Hall #1,USA,125+,Open,M,,365,240,250,855,SBD,Single-ply,1
 Steve Gardner #3,UK,125+,Open,M,,240,140,270,650,SBD,Single-ply,2
 Judy Gedney,USA,44,Open,F,,110,62.5,135,307.5,SBD,Single-ply,1
 Robin Jewett,USA,47.5,Open,F,,130,57.5,132.5,320,SBD,Single-ply,1

@@ -8,7 +8,7 @@ Place,WeightClassKg,Name,State,Sex,BodyweightKg,Squat4Kg,Best3SquatKg,Bench4Kg,B
 DQ,60,Larrin Ford,TX,F,58.92,,,,,160.00,157.5,,wdlsm1,BD,Raw
 1,67.5,Robbin Hedrick,TX,F,63.41,,,,47.5,,92.5,140,wmp,BD,Raw
 1,67.5,Emilia Mileva,CO,F,64.09,,,,55,,75,130,wm2,BD,Raw
-1,90+,Nicole Johnson #3,NM,F,106.14,,,,50,127.50,120,170,wsm2,BD,Raw
+1,90+,Nicole Johnson #2,NM,F,106.14,,,,50,127.50,120,170,wsm2,BD,Raw
 1,75,Sharon Prager,CO,F,68.86,,,,47.5,,70,117.5,wm2,BD,Raw
 1,67.5,Gloria Peters,OK,F,66.77,,,,42.5,,75,117.5,whs,BD,Raw
 1,67.5,Gloria Peters,OK,F,66.77,,,,42.5,,75,117.5,wjr,BD,Raw
@@ -30,7 +30,7 @@ DQ,82.5,Ashley Bassett,TX,F,79.29,,,,57.5,,,,wbpnov,BD,Raw
 1,67.5,Amy Box,OK,F,65,,125,,60,,145,330,wsm1,SBD,Wraps
 1,52,Mary Nichols,IN,F,50.62,,120,,47.5,106.00,105,272.5,wjr,SBD,Wraps
 1,75,Lauren Mintz,OK,F,74.84,,125,,72.5,,150,347.5,wnov,SBD,Wraps
-1,60,Becky Thompson,TX,F,57.2,,105,,57.5,,132.5,295,wsmp,SBD,Wraps
+1,60,Becky Rouse,TX,F,57.2,,105,,57.5,,132.5,295,wsmp,SBD,Wraps
 1,75,Vianney Franco,NM,F,74.57,,122.5,,52.5,,152.5,327.5,wopen,SBD,Wraps
 1,75,Teresa McDaniel,TX,F,71.08,,127.5,,57.5,,122.5,307.5,wsm1,SBD,Wraps
 1,90+,Sarah Stull,OK,F,91.22,,155,,62.5,,130,347.5,wjr,SBD,Wraps
@@ -101,7 +101,7 @@ DQ,82.5,Zach Jones,OK,M,81.74,,,,,,,,open,B,Single-ply
 1,75,Max Plotkin,NY,M,71.85,,,,85,,,85,bphs,B,Raw
 1,75,Max Plotkin,NY,M,71.85,,,,85,,,85,bpteen,B,Raw
 2,75,Danny Harris,OK,M,74.34,,,,50,,,50,bpm2,B,Raw
-1,75,Danny Harris,OK,M,74.34,,,,50,,,50,bpm5,B,Raw
+1,75,Danny Harris,OK,M,74.34,,,,50,,,50,bpmp,B,Raw
 1,125,Jamie Puente,OK,M,119.29,,,,62.5,,,62.5,bpso,B,Raw
 1,110,Tyson Meyers,TX,M,108.95,,345,,222.5,,321,888.5,open,SBD,Wraps
 1,110,Tyson Meyers,TX,M,108.95,,345,,222.5,,321,888.5,pure,SBD,Wraps
@@ -115,8 +115,8 @@ DQ,82.5,Zach Jones,OK,M,81.74,,,,,,,,open,B,Single-ply
 1,90,Reid Rodich,OK,M,89.86,,235,,175,,250,660,jr,SBD,Wraps
 1,67.5,Ryan Ballard,OK,M,62.64,,195,,125,,220,540,int,SBD,Wraps
 1,67.5,Ryan Ballard,OK,M,62.64,,195,,125,,220,540,open,SBD,Wraps
-1,75,Thomas Evans,MO,M,72.94,,190,-145.00,142.5,-255.00,252.5,585,open,SBD,Wraps
-1,75,Thomas Evans,MO,M,72.94,,190,-145.00,142.5,-255.00,252.5,585,sm2,SBD,Wraps
+1,75,Thomas Evans #3,MO,M,72.94,,190,-145.00,142.5,-255.00,252.5,585,open,SBD,Wraps
+1,75,Thomas Evans #3,MO,M,72.94,,190,-145.00,142.5,-255.00,252.5,585,sm2,SBD,Wraps
 1,90,Zachary Smith,OK,M,89.86,,215,,165,,272.5,652.5,int,SBD,Wraps
 1,75,Rahul Chauhan,OK,M,69.99,,220,-125.00,122.5,232.50,227.5,570,int,SBD,Wraps
 1,82.5,Daniel Cornish,OK,M,81.78,,190,,145,,282.5,617.5,retrojr,SBD,Raw

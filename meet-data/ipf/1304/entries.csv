@@ -10,7 +10,7 @@ DQ,Kazuma Arai,1995,Japan,51.18,-165,-165,-165,,95,-102.5,-102.5,95,165,-170,-17
 3,Thomas Soto,1995,USA,58.4,202.5,210,-217.5,210,102.5,112.5,120,120,200,217.5,-245,217.5,547.5,59,Sub-Juniors,SBD,M,Single-ply
 4,Yusuke Satake,1996,Japan,58.76,160,175,185,185,105,115,-120,115,190,200,207.5,207.5,507.5,59,Sub-Juniors,SBD,M,Single-ply
 1,Ilya Mishin,1995,Russia,65.18,240,250,255,255,140,145,147.5,147.5,242.5,-255,-255,242.5,645,66,Sub-Juniors,SBD,M,Single-ply
-2,Vitaliy Kasyanenko,1995,Ukraine,65.68,250,257.5,-260,257.5,125,130,135,135,252.5,-262.5,-262.5,252.5,645,66,Sub-Juniors,SBD,M,Single-ply
+2,Vitaliy Kasyanenko #1,1995,Ukraine,65.68,250,257.5,-260,257.5,125,130,135,135,252.5,-262.5,-262.5,252.5,645,66,Sub-Juniors,SBD,M,Single-ply
 3,Yosuke Kiuchi,1996,Japan,64.64,-180,180,192.5,192.5,115,122.5,125,125,210,215,217.5,217.5,535,66,Sub-Juniors,SBD,M,Single-ply
 4,Jorge Soria,1996,Ecuador,65.34,195,205,210,210,110,120,125,125,185,-192.5,-202.5,185,520,66,Sub-Juniors,SBD,M,Single-ply
 5,Takumi Hayashi,1996,Japan,65.2,150,170,180,180,115,120,125,125,185,200,-215,200,505,66,Sub-Juniors,SBD,M,Single-ply
@@ -35,11 +35,11 @@ DQ,Kazuma Arai,1995,Japan,51.18,-165,-165,-165,,95,-102.5,-102.5,95,165,-170,-17
 3,Hubert Dudziak,1995,Poland,118.74,300,-325,325,325,-180,180,,180,240,260,-267.5,260,765,120,Sub-Juniors,SBD,M,Single-ply
 1,Egor Rezepov,1995,Russia,145.86,310,330,-342.5,330,205,217.5,225,225,300,-317.5,317.5,317.5,872.5,120+,Sub-Juniors,SBD,M,Single-ply
 2,Matthew Harper,1995,USA,127.84,282.5,-310,310,310,197.5,-215,215,215,252.5,270,-277.5,270,795,120+,Sub-Juniors,SBD,M,Single-ply
-3,Viktor Ben,1996,Iceland,136.46,262.5,277.5,287.5,287.5,212.5,217.5,-220,217.5,265,275,-280,275,780,120+,Sub-Juniors,SBD,M,Single-ply
+3,Viktor Ben Gestsson,1996,Iceland,136.46,262.5,277.5,287.5,287.5,212.5,217.5,-220,217.5,265,275,-280,275,780,120+,Sub-Juniors,SBD,M,Single-ply
 1,Kirill Krut,1991,Russia,52.92,205,210,217.5,217.5,140,145,147.5,147.5,200,215,-227.5,215,580,53,Juniors,SBD,M,Single-ply
 2,Hironori Ishii,1991,Japan,52.78,190,202.5,210,210,-140,140,145,145,175,185,-195,185,540,53,Juniors,SBD,M,Single-ply
 3,Regie Ramirez,1993,Philippines,52.92,187.5,-205,-210,187.5,100,115,120,120,207.5,225,-235,225,532.5,53,Juniors,SBD,M,Single-ply
-4,Angel Chávez,1990,Ecuador,52.86,200,212.5,-220,212.5,100,107.5,110,110,195,205,-210,205,527.5,53,Juniors,SBD,M,Single-ply
+4,Angel Chávez #1,1990,Ecuador,52.86,200,212.5,-220,212.5,100,107.5,110,110,195,205,-210,205,527.5,53,Juniors,SBD,M,Single-ply
 5,Mario Leos,1992,USA,52.7,165,175,-180,175,115,-125,-125,115,175,187.5,-190,187.5,477.5,53,Juniors,SBD,M,Single-ply
 6,Aaron Burch,1993,USA,51.94,200,-217.5,217.5,217.5,127.5,140,145,145,110,-122.5,-122.5,110,472.5,53,Juniors,SBD,M,Single-ply
 1,Sergiy Antonyuk,1990,Ukraine,58.28,250,260,267.5,267.5,132.5,135,137.5,137.5,210,217.5,220,220,625,59,Juniors,SBD,M,Single-ply
@@ -53,19 +53,19 @@ DQ,Kazuma Arai,1995,Japan,51.18,-165,-165,-165,,95,-102.5,-102.5,95,165,-170,-17
 4,James Vang,1992,USA,65.96,237.5,250,260,260,155,167.5,-172.5,167.5,-237.5,240,247.5,247.5,675,66,Juniors,SBD,M,Single-ply
 5,Alex Ochoa #1,1990,Ecuador,65.56,-245,252.5,-260,252.5,150,160,-165,160,230,242.5,250,250,662.5,66,Juniors,SBD,M,Single-ply
 6,Yahya Al-Kiyumi,1991,Oman,63.76,215,-237.5,-240,215,155,165,170,170,225,-252.5,-252.5,225,610,66,Juniors,SBD,M,Single-ply
-7,Steven Price,1992,Canada,65.4,-235,235,247.5,247.5,117.5,122.5,127.5,127.5,215,225,-237.5,225,600,66,Juniors,SBD,M,Single-ply
+7,Stephen Price,1992,Canada,65.4,-235,235,247.5,247.5,117.5,122.5,127.5,127.5,215,225,-237.5,225,600,66,Juniors,SBD,M,Single-ply
 8,Max Hampel,1993,Germany,65.16,195,210,-215,210,125,130,-135,130,190,-200,,190,530,66,Juniors,SBD,M,Single-ply
 DQ,Omar Al Zakwani,1992,Oman,65.84,-205,-210,,,150,167.5,175,175,210,237.5,-255,237.5,,66,Juniors,SBD,M,Single-ply
 1,Jordan Dunn #1,1991,USA,73.8,310,320,-330,320,-217.5,217.5,-222.5,217.5,250,262.5,-270,262.5,800,74,Juniors,SBD,M,Single-ply
 2,Toru Ashihara,1990,Japan,73.38,295,300,305,305,-192.5,192.5,197.5,197.5,255,-262.5,-262.5,255,757.5,74,Juniors,SBD,M,Single-ply
-3,Daniel Nguyen,1994,France,71.3,-285,-285,285,285,180,190,-195,190,260,-280,-282.5,260,735,74,Juniors,SBD,M,Single-ply
+3,Daniel Nguyen #3,1994,France,71.3,-285,-285,285,285,180,190,-195,190,260,-280,-282.5,260,735,74,Juniors,SBD,M,Single-ply
 4,Alexander Eriksson,1994,Sweden,73.5,-262.5,-262.5,262.5,262.5,-172.5,-172.5,172.5,172.5,245,262.5,270,270,705,74,Juniors,SBD,M,Single-ply
 5,Tony Granville,1992,Canada,73.7,260,-272.5,-272.5,260,160,167.5,175,175,247.5,260,270,270,705,74,Juniors,SBD,M,Single-ply
 6,Cezar Suarez,1992,Ecuador,73.76,255,270,277.5,277.5,155,165,-170,165,240,250,-257.5,250,692.5,74,Juniors,SBD,M,Single-ply
 7,Yoshiki Suzuki,1993,Japan,73.78,245,260,-275,260,155,162.5,170,170,225,235,-245,235,665,74,Juniors,SBD,M,Single-ply
 8,Marius Milla,1993,Germany,73.3,220,237.5,250,250,142.5,152.5,-157.5,152.5,242.5,255,-262.5,255,657.5,74,Juniors,SBD,M,Single-ply
 9,Patrick Fuderer,1991,Austria,73.6,235,245,255,255,160,-165,165,165,-200,-200,200,200,620,74,Juniors,SBD,M,Single-ply
-1,Roman Martynenko,1990,Ukraine,82.02,-315,315,330,330,240,250,260,260,250,262.5,267.5,267.5,857.5,83,Juniors,SBD,M,Single-ply
+1,Roman Martynenko #1,1990,Ukraine,82.02,-315,315,330,330,240,250,260,260,250,262.5,267.5,267.5,857.5,83,Juniors,SBD,M,Single-ply
 2,Brett Gibbs,1991,New Zealand,82.14,-320,320,-337.5,320,215,225,230,230,280,-292.5,-292.5,280,830,83,Juniors,SBD,M,Single-ply
 3,Alexander Huber,1990,Austria,82.98,310,-320,-320,310,215,222.5,227.5,227.5,270,-280,-280,270,807.5,83,Juniors,SBD,M,Single-ply
 4,Adam Ramzy,1990,Canada,82.6,292.5,-307.5,-307.5,292.5,195,205,-217.5,205,250,270,282.5,282.5,780,83,Juniors,SBD,M,Single-ply
@@ -95,9 +95,9 @@ DQ,Toshihiro Hanada,1991,Japan,92.52,-295,-295,-295,,-190,190,-207.5,190,200,,,2
 7,Yosuke Horiguchi,1993,Japan,103.98,270,290,305,305,245,255,-262.5,255,220,255,-275,255,815,105,Juniors,SBD,M,Single-ply
 8,Tomáš Novák #1,1990,Czechia,103.6,280,295,305,305,197.5,205,210,210,290,-302.5,-302.5,290,805,105,Juniors,SBD,M,Single-ply
 9,Markus Glück,1990,Austria,102.74,285,-300,-300,285,-205,-205,205,205,285,-300,-300,285,775,105,Juniors,SBD,M,Single-ply
-1,Preston Turner,1992,USA,119,355,375,380,380,310,322.5,327.5,327.5,282.5,290,300,300,1007.5,120,Juniors,SBD,M,Single-ply
+1,Preston Turner #1,1992,USA,119,355,375,380,380,310,322.5,327.5,327.5,282.5,290,300,300,1007.5,120,Juniors,SBD,M,Single-ply
 2,Ivan Goryachev,1990,Russia,119.48,375,390,395,395,280,-290,290,290,307.5,-310,-325,307.5,992.5,120,Juniors,SBD,M,Single-ply
-3,Aleksei Fokin,1991,Russia,109.08,350,370,385,385,240,-250,-255,240,320,345,-367.5,345,970,120,Juniors,SBD,M,Single-ply
+3,Aleksey Fokin,1991,Russia,109.08,350,370,385,385,240,-250,-255,240,320,345,-367.5,345,970,120,Juniors,SBD,M,Single-ply
 4,Filip Sobotka,1993,Czechia,117.08,340,355,365,365,230,240,250,250,-280,280,-285,280,895,120,Juniors,SBD,M,Single-ply
 5,Jan Joskowski,1991,Poland,114.02,-315,315,-340,315,230,237.5,-242.5,237.5,315,330,-342.5,330,882.5,120,Juniors,SBD,M,Single-ply
 6,Scott Dobbins,1992,USA,116.9,315,330,337.5,337.5,245,-255,-255,245,277.5,-282.5,282.5,282.5,865,120,Juniors,SBD,M,Single-ply
@@ -138,12 +138,12 @@ DQ,Veronika Nikolenko,1997,Russia,55.18,-160,-162.5,-162.5,,65,72.5,-80,72.5,120
 1,Johannah Theisen,1995,USA,95.86,170,190,205,205,95,110,115,115,155,175,187.5,187.5,507.5,84+,Sub-Juniors,SBD,F,Single-ply
 1,Mariia Starostina,1991,Russia,42.76,112.5,122.5,127.5,127.5,60,65,-70,65,115,122.5,-130,122.5,315,43,Juniors,SBD,F,Single-ply
 2,Chiharu Aoki,1992,Japan,42.72,110,122.5,127.5,127.5,55,-60,-60,55,90,100,105,105,287.5,43,Juniors,SBD,F,Single-ply
-3,Andréa Durand,1994,France,42.72,-115,115,-125,115,60,-65,65,65,105,-112.5,-112.5,105,285,43,Juniors,SBD,F,Single-ply
+3,Andréa Zicaro,1994,France,42.72,-115,115,-125,115,60,-65,65,65,105,-112.5,-112.5,105,285,43,Juniors,SBD,F,Single-ply
 DQ,Kozue Nemoto,1992,Japan,42.54,110,-120,-122.5,110,-62.5,-62.5,-62.5,,120,132.5,-145,132.5,,43,Juniors,SBD,F,Single-ply
 1,Tamara Stienkova,1992,Ukraine,47,145,152.5,160,160,-82.5,-82.5,82.5,82.5,150,160,-167.5,160,402.5,47,Juniors,SBD,F,Single-ply
 2,Zinaida Evdokimova,1990,Russia,46.76,130,137.5,142.5,142.5,85,90,97.5,97.5,130,140,-145,140,380,47,Juniors,SBD,F,Single-ply
 3,Molly Zunker,1991,USA,46.54,132.5,-142.5,145,145,65,70,-72.5,70,140,145,150,150,365,47,Juniors,SBD,F,Single-ply
-4,Celine Grillet,1991,France,46.12,137.5,-145,-145,137.5,82.5,-87.5,-87.5,82.5,132.5,-135,-142.5,132.5,352.5,47,Juniors,SBD,F,Single-ply
+4,Céline Grillet,1991,France,46.12,137.5,-145,-145,137.5,82.5,-87.5,-87.5,82.5,132.5,-135,-142.5,132.5,352.5,47,Juniors,SBD,F,Single-ply
 5,Alexandra Churkina,1992,Russia,46.38,137.5,145,147.5,147.5,72.5,75,-77.5,75,115,-120,-125,115,337.5,47,Juniors,SBD,F,Single-ply
 1,Inna Filimonova #2,1994,Russia,50.92,165,175,-185.5,175,90,-102.5,102.5,102.5,145,150,160,160,437.5,52,Juniors,SBD,F,Single-ply
 2,Mareen Schmeelke,1991,Germany,51.86,152.5,157.5,162.5,162.5,80,85,87.5,87.5,142.5,-152.5,-152.5,142.5,392.5,52,Juniors,SBD,F,Single-ply
@@ -157,7 +157,7 @@ DQ,Velia Santos,1990,Mexico,51.22,-130,-130,-130,,60,-65,-65,60,-130,130,-135,13
 4,Michelle Van Dusen,1993,USA,54.66,172.5,-177.5,-177.5,172.5,70,80,85,85,165,-167.5,-180,165,422.5,57,Juniors,SBD,F,Single-ply
 5,Erin Stevenson,1993,USA,56.88,-162.5,-162.5,162.5,162.5,97.5,102.5,110,110,140,145,-152.5,145,417.5,57,Juniors,SBD,F,Single-ply
 6,Varvara Khrystova,1990,Ukraine,56.12,175,-185,-185,175,85,-90,-90,85,155,-165,-172.5,155,415,57,Juniors,SBD,F,Single-ply
-7,Betina Bordeos Ma,1990,Philippines,56.48,135,145,-147.5,145,-95,-95,95,95,157.5,167.5,175,175,415,57,Juniors,SBD,F,Single-ply
+7,Betina Bordeos,1990,Philippines,56.48,135,145,-147.5,145,-95,-95,95,95,157.5,167.5,175,175,415,57,Juniors,SBD,F,Single-ply
 8,Akari Teramoto,1992,Japan,53.04,120,-130,-140,120,60,65,70,70,120,125,132.5,132.5,322.5,57,Juniors,SBD,F,Single-ply
 9,Robyn Pearce,1992,Canada,56.32,117.5,-125,127.5,127.5,67.5,72.5,-75,72.5,115,122.5,-130,122.5,322.5,57,Juniors,SBD,F,Single-ply
 DQ,Marina Kainleinsberger,1990,Austria,54.64,-145,-145,-145,,97.5,-102.5,-102.5,97.5,,,,,,57,Juniors,SBD,F,Single-ply

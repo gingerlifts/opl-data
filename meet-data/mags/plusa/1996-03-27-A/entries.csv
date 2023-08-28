@@ -11,14 +11,14 @@ Fred Glass,60,Masters 55-59,55-59,152.5,65,165,382.5,SBD,Single-ply,M,1,
 Nori Kawasaki,60,Masters 65-69,65-69,137.5,100,155,392.5,SBD,Single-ply,M,1,67
 Richard Nolan,60,Masters 65-69,65-69,92.5,67.5,140,300,SBD,Single-ply,M,2,69
 Brandon Rohan,67.5,Masters 40-44,40-44,175,135,225,535,SBD,Single-ply,M,1,42
-John Martin,67.5,Masters 45-49,45-49,190,110,190,490,SBD,Single-ply,M,1,
+John Martin #9,67.5,Masters 45-49,45-49,190,110,190,490,SBD,Single-ply,M,1,
 Robert Charles,67.5,Masters 45-49,45-49,142.5,100,175,417.5,SBD,Single-ply,M,2,
 Geoff Harben,67.5,Masters 45-49,45-49,142.5,100,175,417.5,SBD,Single-ply,M,3,
 R. Scott,67.5,Masters 45-49,45-49,127.5,102.5,172.5,402.5,SBD,Single-ply,M,4,
-Robert Trujillo,67.5,Masters 50-54,50-54,197.5,117.5,205,520,SBD,Single-ply,M,1,
+Robert Trujillo #1,67.5,Masters 50-54,50-54,197.5,117.5,205,520,SBD,Single-ply,M,1,
 Jules Pellegino,67.5,Masters 50-54,50-54,175,140,175,490,SBD,Single-ply,M,2,
 Albert Gonzalez,67.5,Masters 50-54,50-54,155,92.5,162.5,410,SBD,Single-ply,M,3,
-Lee Balazs,67.5,Masters 60-64,60-64,152.5,85,182.5,420,SBD,Single-ply,M,1,
+Laszlo Balazs,67.5,Masters 60-64,60-64,152.5,85,182.5,420,SBD,Single-ply,M,1,
 Robert Cortes,67.5,Masters 65-69,65-69,185,122.5,222.5,530,SBD,Single-ply,M,1,65
 Richard Cirigliano,75,Masters 40-44,40-44,227.5,145,272.5,645,SBD,Single-ply,M,1,
 Francis Rudy Ruettiger,75,Masters 40-44,40-44,232.5,132.5,222.5,587.5,SBD,Single-ply,M,2,
@@ -27,7 +27,7 @@ Lonnie Coxsey,75,Masters 40-44,40-44,140,110,205,455,SBD,Single-ply,M,4,
 Melvin Waldrop,75,Masters 45-49,45-49,197.5,122.5,272.5,592.5,SBD,Single-ply,M,1,
 George Bartotti,75,Masters 45-49,45-49,175,127.5,205,507.5,SBD,Single-ply,M,2,
 Dennis Green,75,Masters 45-49,45-49,160,120,150,430,SBD,Single-ply,M,3,
-Jim Krueger,75,Masters 50-54,50-54,210,110,205,525,SBD,Single-ply,M,1,
+James Krueger,75,Masters 50-54,50-54,210,110,205,525,SBD,Single-ply,M,1,
 Richard Flores #1,75,Masters 55-59,55-59,240,132.5,250,622.5,SBD,Single-ply,M,1,57
 Rudy Lozano,75,Masters 55-59,55-59,175,137.5,222.5,535,SBD,Single-ply,M,2,
 Ron Ringewold,75,Masters 55-59,55-59,197.5,90,205,492.5,SBD,Single-ply,M,3,
@@ -82,13 +82,13 @@ Burt Rosenfield,90,Masters 60-64,60-64,190,140,207.5,537.5,SBD,Single-ply,M,2,64
 Bill Remley,90,Masters 65-69,65-69,220,147.5,227.5,595,SBD,Single-ply,M,1,65
 Fred Mullin,90,Masters 65-69,65-69,220,142.5,175,537.5,SBD,Single-ply,M,2,
 Don Frosland Sr,90,Masters 65-69,65-69,160,115,162.5,437.5,SBD,Single-ply,M,3,
-Charles Lee,90,Masters 75-79,75-79,150,115,182.5,447.5,SBD,Single-ply,M,1,75
+Charles Lee #1,90,Masters 75-79,75-79,150,115,182.5,447.5,SBD,Single-ply,M,1,75
 Michael Musio,100,Masters 40-44,40-44,292.5,190,282.5,765,SBD,Single-ply,M,1,
-Joel Bernstein,100,Masters 40-44,40-44,255,180,272.5,707.5,SBD,Single-ply,M,2,
+Joel Bernsten,100,Masters 40-44,40-44,255,180,272.5,707.5,SBD,Single-ply,M,2,
 Kurt Rabenold,100,Masters 40-44,40-44,95,127.5,65,287.5,SBD,Single-ply,M,3,
 Victor Elliott,100,Masters 45-49,45-49,297.5,180,280,757.5,SBD,Single-ply,M,1,
 Lanny Shepard,100,Masters 45-49,45-49,245,160,275,680,SBD,Single-ply,M,2,
-Del Worley,100,Masters 45-49,45-49,262.5,127.5,230,620,SBD,Single-ply,M,3,
+Delvan Worley,100,Masters 45-49,45-49,262.5,127.5,230,620,SBD,Single-ply,M,3,
 George Keller,100,Masters 45-49,45-49,210,147.5,260,617.5,SBD,Single-ply,M,4,
 Knud Hanson,100,Masters 50-54,50-54,262.5,182.5,240,685,SBD,Single-ply,M,1,
 Al King,100,Masters 50-54,50-54,235,140,272.5,647.5,SBD,Single-ply,M,2,52
@@ -123,7 +123,7 @@ Jack Robinson,125,Masters 55-59,55-59,240,130,185,555,SBD,Single-ply,M,1,58
 Ned Cramer,125,Masters 60-64,60-64,240,137.5,230,607.5,SBD,Single-ply,M,1,
 Jack Twet,125,Masters 60-64,60-64,150,132.5,210,492.5,SBD,Single-ply,M,2,
 Roger Davis #3,125,Masters 70-74,70-74,70,152.5,137.5,360,SBD,Single-ply,M,1,71
-Brent McCune,145,Masters 40-44,40-44,265,162.5,275,702.5,SBD,Single-ply,M,1,
+Brett McCune,145,Masters 40-44,40-44,265,162.5,275,702.5,SBD,Single-ply,M,1,
 Albert Glover,145,Masters 40-44,40-44,227.5,160,237.5,625,SBD,Single-ply,M,2,
 Tim Nugent,145,Masters 40-44,40-44,245,145,215,605,SBD,Single-ply,M,3,
 J. Lindsley,145,Masters 45-49,45-49,222.5,177.5,232.5,632.5,SBD,Single-ply,M,1,

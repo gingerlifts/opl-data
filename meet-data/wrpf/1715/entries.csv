@@ -31,7 +31,7 @@ Place,Name,CyrillicName,Sex,BodyweightKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Bes
 3,Maksim Gorunov,Максим Горунов,M,97.2,200,220,230,230,,230,100,D,Raw,,,,,,No,Amateur Open,30
 4,Aleksey Krylovskiy,Алексей Крыловский,M,90.1,-200,210,-225,210,,210,100,D,Raw,,,,,,No,Amateur Open,31
 1,Mustafa Kalafatov,Мустафа Калафатов,M,102.6,240,250,260,260,,260,110,D,Raw,,,,,,No,Amateur Juniors 20-23,23
-1,Dmitriy Verbitskiy,Дмитрий Вербицкий,M,101.3,250,270,-277.5,270,,270,110,D,Raw,,,,,,No,Amateur Open,30
+1,Dmitriy Verbitskiy #1,Дмитрий Вербицкий,M,101.3,250,270,-277.5,270,,270,110,D,Raw,,,,,,No,Amateur Open,30
 2,Dmitriy Senchenko,Дмитрий Сенченко,M,105.1,-200,220,242.5,242.5,,242.5,110,D,Raw,,,,,,No,Amateur Open,35
 1,Sergey Barabolya,Сергей Бараболя,M,124.3,270,-290,-290,270,,270,125,D,Raw,,,,,,No,Amateur Open,44
 1,Ramin Daych,Рамин Дайч,M,125.5,200,,,200,,200,140,D,Raw,,,,,,No,Amateur Juniors 20-23,22
@@ -80,21 +80,21 @@ DQ,Ivan Isakov,Иван Исаков,M,84.8,,,,,,,90,B,Raw,-90,-95,-105,,,No,Ama
 2,Valentin Nechaev,Валентин Нечаев,M,99.6,,,,,,202.5,100,B,Raw,190,202.5,-207.5,202.5,,No,Amateur Open,36
 3,Dmitriy Kiselev,Дмитрий Киселев,M,96.3,,,,,,175,100,B,Raw,165,170,175,175,,No,Amateur Open,32
 1,Vadim Parkhomenko,Вадим Пархоменко,M,108.3,,,,,,160,110,B,Raw,152.5,160,-167.5,160,,No,Amateur Juniors 20-23,23
-1,Ibragim Ilkhasan,Ибрагим Ильхасан,M,108.7,,,,,,240,110,B,Raw,220,235,240,240,,No,Amateur Open,27
+1,Ibragim Ilkhasan,Ібрагім Ільхасан,M,108.7,,,,,,240,110,B,Raw,220,235,240,240,,No,Amateur Open,27
 2,Sergey Polutin,Сергей Полутин,M,103.7,,,,,,190,110,B,Raw,180,190,-192.5,190,,No,Amateur Open,41
-3,Dmitriy Verbitskiy,Дмитрий Вербицкий,M,101.3,,,,,,175,110,B,Raw,170,175,-180,175,,No,Amateur Open,30
+3,Dmitriy Verbitskiy #1,Дмитрий Вербицкий,M,101.3,,,,,,175,110,B,Raw,170,175,-180,175,,No,Amateur Open,30
 4,Dmitriy Senchenko,Дмитрий Сенченко,M,105.1,,,,,,172.5,110,B,Raw,160,165,172.5,172.5,,No,Amateur Open,35
 5,Aleksandr Kalinichenko,Александр Калиниченко,M,105.9,,,,,,172.5,110,B,Raw,160,170,172.5,172.5,,No,Amateur Open,33
 6,Aleksandr Greydin,Александр Грейдин,M,108.7,,,,,,160,110,B,Raw,150,160,-170,160,,No,Amateur Open,29
 1,Sergey Polutin,Сергей Полутин,M,103.7,,,,,,190,110,B,Raw,180,190,-192.5,190,,No,Amateur Masters 40-49,41
 2,Oleg Sokolov,Олег Соколов,M,107.1,,,,,,160,110,B,Raw,150,160,-170,160,,No,Amateur Masters 40-49,44
-1,Valeriy Beginin,Валерий Бегинин,M,114.7,,,,,,230,125,B,Raw,-230,230,-245,230,,No,Amateur Open,38
+1,Valeriy Beginin,Валерій Бегінін,M,114.7,,,,,,230,125,B,Raw,-230,230,-245,230,,No,Amateur Open,38
 1,Alexander Chekachkov,Александр Чекачков,M,120.8,,,,,,150,125,B,Raw,140,150,,150,,No,Amateur Masters 40-49,46
 1,Ramin Daych,Рамин Дайч,M,125.5,,,,,,150,140,B,Raw,-142.5,142.5,150,150,,No,Amateur Juniors 20-23,22
 1,Evgeniy Kaminskiy,Евгений Каминский,M,127.9,,,,,,215,140,B,Raw,200,210,215,215,,No,Amateur Open,28
 2,Artur Mamedov,Артур Мамедов,M,133.9,,,,,,172.5,140,B,Raw,150,160,172.5,172.5,,No,Amateur Open,29
 3,Roman Motov,Роман Мотов,M,126.2,,,,,,167.5,140,B,Raw,162.5,167.5,-172.5,167.5,,No,Amateur Open,36
-1,Oleg Afanasev,Олег Афанасьев,M,146.3,,,,,,195,140+,B,Raw,180,190,195,195,,No,Amateur Open,39
+1,Oleg Afanasyev #1,Олег Афанась'єв,M,146.3,,,,,,195,140+,B,Raw,180,190,195,195,,No,Amateur Open,39
 1,Niyas Izmaylov,Ніяс Ізмайлов,M,62.4,,,,,,95,67.5,B,Raw,80,90,95,95,,No,Pro Open,30
 1,Dmitriy Pavlov,Дмитрий Павлов,M,84,,,,,,110,90,B,Raw,105,110,-112.5,110,,No,Pro Open,30
 1,Andrey Shibanov,Андрей Шибанов,M,88.4,,,,,,150,90,B,Raw,140,150,-157.5,150,,No,Pro Masters 40-49,41

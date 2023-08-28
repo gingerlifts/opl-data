@@ -3,10 +3,10 @@ Wes McCormick,M,SBD,60,Yes,Multi-ply,227.5,137.5,206,571,M_OEM_APF,1
 Dale Garlitz,M,B,67.5,Yes,Raw,,90,,90,M_OR_APF,1
 Robert Mattison,M,SBD,67.5,Yes,Raw,92.5,100,180,372.5,M_OR_APF,1
 Marc Tejero,M,SBD,67.5,Yes,Multi-ply,265,165,242.5,672.5,M_OEM_APF,1
-Mike Bingham,M,B,75,Yes,Raw,,210,,210,M_OR_APF,1
+Michael Bingham,M,B,75,Yes,Raw,,210,,210,M_OR_APF,1
 William Salas,M,SBD,75,Yes,Raw,185,142.5,250,577.5,M_OR_APF,1
 Josh Laskowski,M,B,75,Yes,Multi-ply,,175,,175,M_OEM_APF,3
-Mike Bingham,M,B,75,Yes,Multi-ply,,210,,210,M_OEM_APF,2
+Michael Bingham,M,B,75,Yes,Multi-ply,,210,,210,M_OEM_APF,2
 Jeff Haiduke,M,B,75,Yes,Multi-ply,,232.5,,232.5,M_OEM_APF,1
 Richard Flores #1,M,SBD,75,Yes,Multi-ply,192.5,87.5,205,485,M_OEM_APF,6
 Jacob Epling,M,SBD,75,Yes,Multi-ply,207.5,130,212.5,550,M_OEM_APF,5
@@ -16,10 +16,10 @@ Miguel Ruelan,M,SBD,75,Yes,Multi-ply,205,207.5,222.5,635,M_OEM_APF,2
 Arthur Little,M,SBD,75,Yes,Multi-ply,262.5,112.5,277.5,652.5,M_OEM_APF,1
 Eric Vojinov,M,B,82.5,Yes,Raw,,140,,140,M_OR_APF,1
 Justin Sepe,M,SBD,82.5,Yes,Raw,162.5,112.5,230,505,M_OR_APF,1
-Mike Brown,M,SBD,82.5,Yes,Multi-ply,290,102.5,220,612.5,M_OEM_APF,6
+Mike Brown #15,M,SBD,82.5,Yes,Multi-ply,290,102.5,220,612.5,M_OEM_APF,6
 Corey Cavvitt,M,SBD,82.5,Yes,Multi-ply,257.5,160,247.5,665,M_OEM_APF,5
 Francis Rudy Ruettiger,M,SBD,82.5,Yes,Multi-ply,272.5,175,227.5,675,M_OEM_APF,4
-Eric Stone,M,SBD,82.5,Yes,Multi-ply,277.5,205,250,732.5,M_OEM_APF,3
+Eric Stone #1,M,SBD,82.5,Yes,Multi-ply,277.5,205,250,732.5,M_OEM_APF,3
 Vincent Lysobey,M,SBD,82.5,Yes,Multi-ply,305,220,255,780,M_OEM_APF,2
 Devin Cagnolatti,M,SBD,82.5,Yes,Multi-ply,305,237.5,257.5,800,M_OEM_APF,1
 Lewis Hughes #3,M,B,90,No,Raw,,87.5,,87.5,M_OR_APF,4
@@ -38,10 +38,10 @@ Rudy Kadlub,M,SBD,90,Yes,Multi-ply,250,187.5,210,647.5,M_OEM_APF,7
 Mark Hibbing,M,SBD,90,Yes,Multi-ply,275,150,250,675,M_OEM_APF,6
 Tyler Howard,M,SBD,90,Yes,Multi-ply,285,177.5,237.5,700,M_OEM_APF,5
 Bob McCabe,M,SBD,90,Yes,Multi-ply,240,185,285,710,M_OEM_APF,4
-Jason Pritchard,M,SBD,90,Yes,Multi-ply,305,170,252.5,727.5,M_OEM_APF,3
+Jason Pritchard #1,M,SBD,90,Yes,Multi-ply,305,170,252.5,727.5,M_OEM_APF,3
 Taylor Jakubczak,M,SBD,90,Yes,Multi-ply,327.5,175,280,782.5,M_OEM_APF,2
 Mike Strom,M,SBD,90,Yes,Multi-ply,310,247.5,257.5,815,M_OEM_APF,1
-Joe Martin,M,B,100,No,Raw,,165,,165,M_OR_APF,2
+Joe Martin #6,M,B,100,No,Raw,,165,,165,M_OR_APF,2
 Bob Bassman,M,B,100,No,Raw,,167.5,,167.5,M_OR_APF,1
 William Murray #4,M,B,100,No,Raw,,215,,215,M_OR_APF,2
 Brian Robinson,M,SBD,100,Yes,Raw,217.5,125,227.5,570,M_OR_APF,1
@@ -82,7 +82,7 @@ Steve Grailer,M,B,125,Yes,Raw,,170,,170,M_OR_APF,1
 Cameron Dillard,M,SBD,125,Yes,Raw,160,117.5,205,482.5,M_OR_APF,4
 Randy Carins,M,SBD,125,Yes,Raw,227.5,155,227.5,610,M_OR_APF,3
 Brian Kipp,M,SBD,125,Yes,Raw,245,152.5,267.5,665,M_OR_APF,2
-Kevin Smith #3,M,SBD,125,Yes,Raw,272.5,175,267.5,715,M_OR_APF,1
+Kevin Smith #1,M,SBD,125,Yes,Raw,272.5,175,267.5,715,M_OR_APF,1
 Dale Szymanski,M,B,125,Yes,Multi-ply,,277.5,,277.5,M_OEM_APF,1
 Rob Johnson,M,SBD,125,Yes,Multi-ply,240,155,227.5,622.5,M_OEM_APF,4
 Jeff Brown,M,SBD,125,Yes,Multi-ply,307.5,207.5,230,745,M_OEM_APF,3

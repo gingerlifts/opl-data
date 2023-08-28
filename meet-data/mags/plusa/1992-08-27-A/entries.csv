@@ -15,8 +15,8 @@ Barrett,52,High School,13-19,F,65,35,77.5,177.5,SBD,Single-ply,6
 Edwards,56,High School,13-19,F,127.5,60,147.5,335,SBD,Single-ply,1
 Bowshier,56,High School,13-19,F,127.5,67.5,137.5,332.5,SBD,Single-ply,2
 Bell,56,High School,13-19,F,125,55,110,290,SBD,Single-ply,3
-Williams,56,High School,13-19,F,117.5,52.5,102.5,272.5,SBD,Single-ply,4
-Gonzales,56,High School,13-19,F,75,37.5,107.5,220,SBD,Single-ply,5
+Williams #14,56,High School,13-19,F,117.5,52.5,102.5,272.5,SBD,Single-ply,4
+Gonzales #5,56,High School,13-19,F,75,37.5,107.5,220,SBD,Single-ply,5
 Cheeks,56,High School,13-19,F,82.5,37.5,97.5,217.5,SBD,Single-ply,6
 Fields,56,High School,13-19,F,80,40,85,205,SBD,Single-ply,7
 Cowart,60,High School,13-19,F,122.5,47.5,130,300,SBD,Single-ply,1
@@ -72,7 +72,7 @@ Davis,67.5,Freshman-Sophomore,13-19,M,205,122.5,197.5,525,SBD,Single-ply,1
 Dillard,67.5,Freshman-Sophomore,13-19,M,185,105,192.5,482.5,SBD,Single-ply,2
 Smith,67.5,Freshman-Sophomore,13-19,M,187.5,87.5,207.5,482.5,SBD,Single-ply,3
 Miner,67.5,Freshman-Sophomore,13-19,M,175,82.5,182.5,440,SBD,Single-ply,4
-Williams,67.5,Freshman-Sophomore,13-19,M,127.5,90,172.5,390,SBD,Single-ply,5
+Williams #15,67.5,Freshman-Sophomore,13-19,M,127.5,90,172.5,390,SBD,Single-ply,5
 Johnson,67.5,Freshman-Sophomore,13-19,M,152.5,87.5,147.5,387.5,SBD,Single-ply,6
 Ballard,67.5,Freshman-Sophomore,13-19,M,145,75,160,380,SBD,Single-ply,7
 Keller #2,67.5,Freshman-Sophomore,13-19,M,127.5,90,140,357.5,SBD,Single-ply,8
@@ -103,7 +103,7 @@ Munoz,90,Freshman-Sophomore,13-19,M,227.5,92.5,212.5,532.5,SBD,Single-ply,6
 Rump,90,Freshman-Sophomore,13-19,M,185,97.5,180,462.5,SBD,Single-ply,8
 Thomas,90,Freshman-Sophomore,13-19,M,182.5,97.5,180,460,SBD,Single-ply,9
 Kercheval,90,Freshman-Sophomore,13-19,M,182.5,127.5,192.5,502.5,SBD,Single-ply,7
-Berry,90,Freshman-Sophomore,13-19,M,187.5,92.5,175,455,SBD,Single-ply,10
+Berry #4,90,Freshman-Sophomore,13-19,M,187.5,92.5,175,455,SBD,Single-ply,10
 Many,90,Freshman-Sophomore,13-19,M,167.5,90,182.5,440,SBD,Single-ply,11
 Spence #2,90,Freshman-Sophomore,13-19,M,137.5,70,157.5,365,SBD,Single-ply,12
 Hesson,100,Freshman-Sophomore,13-19,M,200,147.5,247.5,595,SBD,Single-ply,1
@@ -155,14 +155,14 @@ Scurlock,67.5,Junior-Senior,13-19,M,182.5,110,207.5,500,SBD,Single-ply,5
 Dillard,67.5,Junior-Senior,13-19,M,185,105,192.5,482.5,SBD,Single-ply,6
 Pierce,67.5,Junior-Senior,13-19,M,160,105,192.5,457.5,SBD,Single-ply,7
 Middleton,67.5,Junior-Senior,13-19,M,157.5,77.5,177.5,412.5,SBD,Single-ply,8
-Gonzales,67.5,Junior-Senior,13-19,M,142.5,105,150,397.5,SBD,Single-ply,9
+Gonzales #6,67.5,Junior-Senior,13-19,M,142.5,105,150,397.5,SBD,Single-ply,9
 Majors,75,Junior-Senior,13-19,M,245,160,265,670,SBD,Single-ply,1
 Smith,75,Junior-Senior,13-19,M,232.5,162.5,215,610,SBD,Single-ply,2
 Webb,75,Junior-Senior,13-19,M,252.5,115,217.5,585,SBD,Single-ply,3
 Maxwell,75,Junior-Senior,13-19,M,197.5,92.5,220,510,SBD,Single-ply,5
 M. Williams,75,Junior-Senior,13-19,M,207.5,110,202.5,520,SBD,Single-ply,4
 Miller,75,Junior-Senior,13-19,M,187.5,112.5,195,495,SBD,Single-ply,6
-Gray,75,Junior-Senior,13-19,M,210,115,167.5,492.5,SBD,Single-ply,7
+Gray #3,75,Junior-Senior,13-19,M,210,115,167.5,492.5,SBD,Single-ply,7
 Culley,75,Junior-Senior,13-19,M,190,77.5,210,477.5,SBD,Single-ply,9
 M. Williams,75,Junior-Senior,13-19,M,182.5,87.5,200,470,SBD,Single-ply,10
 Jensen,75,Junior-Senior,13-19,M,167.5,130,182.5,480,SBD,Single-ply,8
@@ -178,7 +178,7 @@ Chism,82.5,Junior-Senior,13-19,M,197.5,100,205,502.5,SBD,Single-ply,9
 Temple,82.5,Junior-Senior,13-19,M,190,117.5,205,512.5,SBD,Single-ply,8
 Sit,82.5,Junior-Senior,13-19,M,187.5,105,192.5,485,SBD,Single-ply,10
 White,82.5,Junior-Senior,13-19,M,170,85,217.5,472.5,SBD,Single-ply,11
-Williams,82.5,Junior-Senior,13-19,M,182.5,100,185,467.5,SBD,Single-ply,12
+Williams #17,82.5,Junior-Senior,13-19,M,182.5,100,185,467.5,SBD,Single-ply,12
 Batiste,82.5,Junior-Senior,13-19,M,147.5,102.5,205,455,SBD,Single-ply,13
 King,90,Junior-Senior,13-19,M,272.5,155,262.5,690,SBD,Single-ply,1
 James Cahill,90,Junior-Senior,13-19,M,255,137.5,255,647.5,SBD,Single-ply,2
@@ -208,7 +208,7 @@ Crowder,100,Junior-Senior,13-19,M,227.5,112.5,210,550,SBD,Single-ply,9
 M. Bilak,100,Junior-Senior,13-19,M,192.5,117.5,220,530,SBD,Single-ply,10
 Briggs #1,100,Junior-Senior,13-19,M,182.5,125,210,517.5,SBD,Single-ply,11
 Jewell,100,Junior-Senior,13-19,M,200,112.5,202.5,515,SBD,Single-ply,12
-A. Hayes,110,Junior-Senior,13-19,M,320,150,307.5,777.5,SBD,Single-ply,1
+A. Hayes #3,110,Junior-Senior,13-19,M,320,150,307.5,777.5,SBD,Single-ply,1
 Winard,110,Junior-Senior,13-19,M,290,192.5,255,737.5,SBD,Single-ply,2
 Munoz,110,Junior-Senior,13-19,M,295,170,257.5,722.5,SBD,Single-ply,3
 Whatley,110,Junior-Senior,13-19,M,277.5,182.5,257.5,717.5,SBD,Single-ply,4
@@ -227,7 +227,7 @@ Nickens,125,Junior-Senior,13-19,M,340,167.5,272.5,780,SBD,Single-ply,1
 Christain,125,Junior-Senior,13-19,M,310,170,285,765,SBD,Single-ply,2
 LeBlanc,125,Junior-Senior,13-19,M,282.5,165,237.5,685,SBD,Single-ply,3
 Cooley,125,Junior-Senior,13-19,M,270,157.5,250,677.5,SBD,Single-ply,4
-Haynes,125,Junior-Senior,13-19,M,267.5,125,265,657.5,SBD,Single-ply,5
+Haynes #1,125,Junior-Senior,13-19,M,267.5,125,265,657.5,SBD,Single-ply,5
 Walker,125,Junior-Senior,13-19,M,292.5,125,215,632.5,SBD,Single-ply,6
 Truman,125,Junior-Senior,13-19,M,272.5,132.5,185,590,SBD,Single-ply,7
 Badora,125,Junior-Senior,13-19,M,245,107.5,222.5,575,SBD,Single-ply,8
@@ -240,6 +240,6 @@ Wesley,125+,Junior-Senior,13-19,M,320,172.5,280,772.5,SBD,Single-ply,2
 Garmon,125+,Junior-Senior,13-19,M,292.5,167.5,277.5,737.5,SBD,Single-ply,3
 Sylvester,125+,Junior-Senior,13-19,M,245,155,265,665,SBD,Single-ply,4
 Castille,125+,Junior-Senior,13-19,M,240,157.5,250,647.5,SBD,Single-ply,5
-Williams,125+,Junior-Senior,13-19,M,205,170,227.5,602.5,SBD,Single-ply,6
+Williams #16,125+,Junior-Senior,13-19,M,205,170,227.5,602.5,SBD,Single-ply,6
 Michael,125+,Junior-Senior,13-19,M,245,110,240,595,SBD,Single-ply,7
 Randall,125+,Junior-Senior,13-19,M,272.5,127.5,180,580,SBD,Single-ply,8

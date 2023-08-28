@@ -51,7 +51,7 @@ Boys,74.84,7,Chandler Tolbert,Royse City,74.84,183.7,113.4,181.44,478.54,Single-
 Boys,74.84,8,Bryan Tucker,Wills Point,74.39,149.69,124.74,158.76,433.18,Single-ply,SBD,M
 Boys,74.84,9,Christian Darter,Emory Rains,74.84,167.83,97.52,154.22,419.57,Single-ply,SBD,M
 Boys,74.84,10,Daniel Broyles,Quinlan Boles,68.49,167.83,106.59,140.61,415.04,Single-ply,SBD,M
-Boys,74.84,11,James West,Quinlan Ford,68.04,140.61,90.72,151.95,383.29,Single-ply,SBD,M
+Boys,74.84,11,James West #7,Quinlan Ford,68.04,140.61,90.72,151.95,383.29,Single-ply,SBD,M
 Boys,74.84,12,Jonathan Pruden,Quitman,68.49,113.4,108.86,154.22,376.48,Single-ply,SBD,M
 Boys,74.84,13,Micah Brantley,Gladewater Union Grove,74.84,136.08,88.45,147.42,371.95,Single-ply,SBD,M
 Boys,74.84,14,Tristen Clayton,Cumby,73.94,151.95,72.57,142.88,367.41,Single-ply,SBD,M
@@ -63,7 +63,7 @@ Boys,82.1,3,Sumner Reece,Canton,79.83,204.12,113.4,208.65,526.17,Single-ply,SBD,
 Boys,82.1,4,Jake Shinn,Quinlan Boles,79.83,197.31,111.13,208.65,517.1,Single-ply,SBD,M
 Boys,82.1,5,Mike Jones #15,Emory Rains,78.47,156.49,106.59,219.99,483.08,Single-ply,SBD,M
 Boys,82.1,6,Grant Russell,Emory Rains,78.47,151.95,113.4,210.92,476.27,Single-ply,SBD,M
-Boys,82.1,7,Austin Cooper,Greenville,82.1,181.44,104.33,165.56,451.32,Single-ply,SBD,M
+Boys,82.1,7,Austin Cooper #4,Greenville,82.1,181.44,104.33,165.56,451.32,Single-ply,SBD,M
 Boys,82.1,8,Brice Evilsizer,Quinlan Ford,81.19,181.44,68.04,183.7,433.18,Single-ply,SBD,M
 Boys,82.1,9,Cody Anderson,Cumby,79.83,172.37,81.65,176.9,430.91,Single-ply,SBD,M
 Boys,82.1,10,Dylan Lister,Quinlan Ford,80.74,174.63,83.91,170.1,428.64,Single-ply,SBD,M
@@ -72,13 +72,13 @@ Boys,82.1,12,Travis Tidwell,Quinlan Boles,76.66,147.42,92.99,140.61,381.02,Singl
 Boys,82.1,13,David Hernadez,Quinlan Boles,81.19,149.69,88.45,138.35,376.48,Single-ply,SBD,M
 Boys,82.1,14,Jorge Ordonez,Greenville,78.93,124.74,74.84,147.42,347,Single-ply,SBD,M
 Boys,82.1,DQ,Eddie Rodriguez,Farmersville,82.1,,,,,Single-ply,SBD,M
-Boys,82.1,DQ,Jimmy Hill,Caddo Mills,76.66,188.24,,,,Single-ply,SBD,M
+Boys,82.1,DQ,Jimmy Hill #2,Caddo Mills,76.66,188.24,,,,Single-ply,SBD,M
 Boys,82.1,DQ,Sanford Bryce,Canton,79.83,240.4,129.27,,,Single-ply,SBD,M
 Boys,89.81,1,Jared Loftis,Royse City,88.45,199.58,115.67,210.92,526.17,Single-ply,SBD,M
 Boys,89.81,2,Brant Sims,Quinlan Boles,89.81,199.58,115.67,210.92,526.17,Single-ply,SBD,M
-Boys,89.81,3,Will Morgan,Wills Point,86.64,195.04,124.74,179.17,498.95,Single-ply,SBD,M
+Boys,89.81,3,Will Morgan #2,Wills Point,86.64,195.04,124.74,179.17,498.95,Single-ply,SBD,M
 Boys,89.81,4,Joel Dunn,Royse City,83.91,217.72,111.13,167.83,496.68,Single-ply,SBD,M
-Boys,89.81,5,Ryan Gregory,Quinlan Ford,89.81,190.51,113.4,190.51,494.42,Single-ply,SBD,M
+Boys,89.81,5,Ryan Gregory #2,Quinlan Ford,89.81,190.51,113.4,190.51,494.42,Single-ply,SBD,M
 Boys,89.81,6,Cipriano Gonzales,Greenville,89.81,192.78,124.74,170.1,487.61,Single-ply,SBD,M
 Boys,89.81,7,Braylon Champion,Greenville,89.81,185.97,99.79,195.04,480.81,Single-ply,SBD,M
 Boys,89.81,8,Cole Harwell,Hawkins,85.28,172.37,104.33,158.76,435.45,Single-ply,SBD,M
@@ -93,18 +93,18 @@ Boys,99.79,7,Devin Boswell,Wills Point,91.63,165.56,102.06,179.17,446.79,Single-
 Boys,99.79,8,Adrian Cruz #2,Hawkins,96.16,161.03,92.99,156.49,410.5,Single-ply,SBD,M
 Boys,99.79,9,Chase Williams,Hawkins,96.62,138.35,102.06,167.83,408.23,Single-ply,SBD,M
 Boys,109.77,1,Anthony Ringenberg,Cumby,104.78,249.48,136.08,226.8,612.35,Single-ply,SBD,M
-Boys,109.77,2,Bryce Hale,Quinlan Ford,100.7,226.8,127.01,229.06,582.87,Single-ply,SBD,M
+Boys,109.77,2,Bryce Hale #2,Quinlan Ford,100.7,226.8,127.01,229.06,582.87,Single-ply,SBD,M
 Boys,109.77,3,Tyran Wilson,Commerce,108.41,215.46,138.35,219.99,573.79,Single-ply,SBD,M
 Boys,109.77,4,Nelson Ke'Andric,Canton,106.59,226.8,124.74,217.72,569.26,Single-ply,SBD,M
 Boys,109.77,5,Justin Miller,Wills Point,103.42,217.72,115.67,181.44,514.83,Single-ply,SBD,M
 Boys,109.77,6,Dallas Millhaausen,Quinlan Ford,101.15,188.24,106.59,181.44,476.27,Single-ply,SBD,M
-Boys,109.77,7,Hunter Smith,Greenville,106.59,158.76,115.67,190.51,464.93,Single-ply,SBD,M
+Boys,109.77,7,Hunter Smith #1,Greenville,106.59,158.76,115.67,190.51,464.93,Single-ply,SBD,M
 Boys,109.77,8,Tommy Allen,Quinlan Boles,106.59,181.44,108.86,158.76,449.06,Single-ply,SBD,M
 Boys,109.77,9,Zach Sprugin,Greenville,102.06,170.1,108.86,147.42,426.38,Single-ply,SBD,M
 Boys,124.74,1,Cortez Crosby,Commerce,113.85,283.5,174.63,276.69,734.82,Single-ply,SBD,M
 Boys,124.74,2,Casey Hargrove,Emory Rains,115.21,219.99,133.81,238.14,591.94,Single-ply,SBD,M
 Boys,124.74,3,Joel Lopez,Farmersville,122.92,249.48,138.35,204.12,591.94,Single-ply,SBD,M
-Boys,124.74,4,David Allen,Quinlan Ford,112.49,222.26,111.13,224.53,557.92,Single-ply,SBD,M
+Boys,124.74,4,David Allen #6,Quinlan Ford,112.49,222.26,111.13,224.53,557.92,Single-ply,SBD,M
 Boys,124.74,5,John Brown #9,Wills Point,121.56,201.85,113.4,185.97,501.22,Single-ply,SBD,M
 Boys,124.74,6,Osvaldo Casteneda,Royse City,115.21,204.12,115.67,176.9,496.68,Single-ply,SBD,M
 Boys,124.74,7,Glen Goode,Cumby,120.2,188.24,122.47,179.17,489.88,Single-ply,SBD,M

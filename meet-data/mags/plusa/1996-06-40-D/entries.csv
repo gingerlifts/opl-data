@@ -49,7 +49,7 @@ Sandy Gomez-Leon,56,Open,,F,,82.5,,82.5,B,Single-ply,,1
 R. Maxwell,56,Open,,F,,70,,70,B,Single-ply,,2
 D. Nicholas,56,Open,,F,,50,,50,B,Single-ply,,3
 T. Klump,67.5,Open,,F,,85,,85,B,Single-ply,,1
-S. Allen,82.5,Open,,F,,87.5,,87.5,B,Single-ply,,1
+S. Allen #2,82.5,Open,,F,,87.5,,87.5,B,Single-ply,,1
 Thoung Ngyugen,52,Below Class I,,M,170,97.5,185,452.5,SBD,Single-ply,,1
 John Barfield,67.5,Below Class I,,M,172.5,137.5,227.5,537.5,SBD,Single-ply,,1
 T. Riffle,67.5,Below Class I,,M,185,117.5,200,502.5,SBD,Single-ply,,2
@@ -62,17 +62,17 @@ B. Shaw,82.5,Below Class I,,M,220,145,230,595,SBD,Single-ply,,2
 J. Etessom,82.5,Below Class I,,M,220,142.5,207.5,570,SBD,Single-ply,,3
 M. Davis,82.5,Below Class I,,M,175,137.5,190,502.5,SBD,Single-ply,,4
 T. Botting,82.5,Below Class I,,M,170,102.5,205,477.5,SBD,Single-ply,,5
-Steve Morgan,90,Below Class I,,M,245,142.5,267.5,655,SBD,Single-ply,,1
+Steve Morgan #1,90,Below Class I,,M,245,142.5,267.5,655,SBD,Single-ply,,1
 Kendall Slaughter,90,Below Class I,,M,237.5,172.5,245,655,SBD,Single-ply,,2
 A. Perea,90,Below Class I,,M,227.5,155,257.5,640,SBD,Single-ply,,3
 D. Borseman,90,Below Class I,,M,230,152.5,237.5,620,SBD,Single-ply,,4
 R. Garganta,90,Below Class I,,M,217.5,155,237.5,610,SBD,Single-ply,,5
 C. Pittman,90,Below Class I,,M,210,147.5,252.5,610,SBD,Single-ply,,6
 V. Torres,90,Below Class I,,M,212.5,160,225,597.5,SBD,Single-ply,,7
-B. Frazier,100,Below Class I,,M,255,165,270,690,SBD,Single-ply,,1
+Brian Frazier,100,Below Class I,,M,255,165,270,690,SBD,Single-ply,,1
 M. Flores,100,Below Class I,,M,265,150,270,685,SBD,Single-ply,,2
 A. Suarez,100,Below Class I,,M,232.5,190,247.5,670,SBD,Single-ply,,3
-L. Neef,100,Below Class I,,M,260,147.5,240,647.5,SBD,Single-ply,,4
+Lee Neef,100,Below Class I,,M,260,147.5,240,647.5,SBD,Single-ply,,4
 H. Cowey,100,Below Class I,,M,232.5,165,245,642.5,SBD,Single-ply,,5
 J. Fox,100,Below Class I,,M,217.5,150,237.5,605,SBD,Single-ply,,6
 Flip Silva Jr,100,Below Class I,,M,212.5,170,200,582.5,SBD,Single-ply,,7
@@ -84,7 +84,7 @@ Andy Kuehne,110,Below Class I,,M,247.5,165,262.5,675,SBD,Single-ply,,3
 Ray Lopez,110,Below Class I,,M,260,167.5,245,672.5,SBD,Single-ply,,4
 B. Hufnagle,110,Below Class I,,M,272.5,145,240,657.5,SBD,Single-ply,,5
 D. Johnson,110,Below Class I,,M,227.5,150,255,632.5,SBD,Single-ply,,6
-K. Reed,110,Below Class I,,M,212.5,137.5,227.5,577.5,SBD,Single-ply,,7
+Ken Reed,110,Below Class I,,M,212.5,137.5,227.5,577.5,SBD,Single-ply,,7
 R. Jackson,110,Below Class I,,M,227.5,155,150,532.5,SBD,Single-ply,,8
 Scott Bell,125,Below Class I,,M,250,227.5,285,762.5,SBD,Single-ply,,1
 R. Johnson,125,Below Class I,,M,255,155,275,685,SBD,Single-ply,,2
@@ -106,7 +106,7 @@ J. Lopez,110,Masters 40-49,40-49,M,240,137.5,265,642.5,SBD,Single-ply,,1
 S. Scott,110,Masters 40-49,40-49,M,210,152.5,240,602.5,SBD,Single-ply,,2
 J. Allen,110,Masters 40-49,40-49,M,190,145,220,555,SBD,Single-ply,,3
 Homer de la Rosa,125,Masters 40-49,40-49,M,272.5,175,275,722.5,SBD,Single-ply,,1
-B. Rodriguez,75,Masters 50+,50-999,M,170,117.5,205,492.5,SBD,Single-ply,,1
+Ben Rodriguez,75,Masters 50+,50-999,M,170,117.5,205,492.5,SBD,Single-ply,,1
 Victor Burke,100,Masters 50+,50-999,M,115,100,127.5,342.5,SBD,Single-ply,61,1
 R. MacDonald,110,Masters 50+,50-999,M,125,147.5,142.5,415,SBD,Single-ply,,1
 Hal Hudson,125,Masters 50+,50-999,M,210,137.5,245,592.5,SBD,Single-ply,,1
@@ -142,7 +142,7 @@ M. Davis,82.5,Submasters 35-39,35-39,M,175,137.5,190,502.5,SBD,Single-ply,,1
 R. Nesuda,90,Submasters 35-39,35-39,M,260,160,260,680,SBD,Single-ply,,1
 Dave Springer,90,Submasters 35-39,35-39,M,205,185,260,650,SBD,Single-ply,,2
 M. Hanlon,100,Submasters 35-39,35-39,M,282.5,175,275,732.5,SBD,Single-ply,,1
-C. Turco,100,Submasters 35-39,35-39,M,250,150,240,640,SBD,Single-ply,,2
+Charles Turco,100,Submasters 35-39,35-39,M,250,150,240,640,SBD,Single-ply,,2
 Cecil Ballard,100,Submasters 35-39,35-39,M,205,145,225,575,SBD,Single-ply,,3
 M. McDaniel,110,Submasters 35-39,35-39,M,262.5,175,265,702.5,SBD,Single-ply,,1
 Tim Bruner,125,Submasters 35-39,35-39,M,300,212.5,275,787.5,SBD,Single-ply,,1
@@ -154,7 +154,7 @@ R. Turner,82.5,Teen,13-19,M,177.5,100,195,472.5,SBD,Single-ply,,1
 J. Durham,82.5,Teen,13-19,M,132.5,75,182.5,390,SBD,Single-ply,,2
 C. Pittman,90,Teen,13-19,M,210,147.5,252.5,610,SBD,Single-ply,,1
 D. Sperry,90,Teen,13-19,M,140,95,170,405,SBD,Single-ply,,2
-B. Frazier,100,Teen,13-19,M,255,165,270,690,SBD,Single-ply,,1
+Brian Frazier,100,Teen,13-19,M,255,165,270,690,SBD,Single-ply,,1
 R. Davis,100,Teen,13-19,M,160,137.5,227.5,525,SBD,Single-ply,,2
 D. Vaughn,100,Teen,13-19,M,145,100,185,430,SBD,Single-ply,,3
 Tony Cardella,110,Teen,13-19,M,290,165,272.5,727.5,SBD,Single-ply,,1
@@ -170,7 +170,7 @@ S. Ballard,52,Open,,F,72.5,57.5,82.5,212.5,SBD,Single-ply,,2
 Toni Barse,56,Open,,F,115,72.5,115,302.5,SBD,Single-ply,,1
 R. Maxwell,56,Open,,F,107.5,70,122.5,300,SBD,Single-ply,,2
 Lee Denmon,60,Open,,F,155,80,165,400,SBD,Single-ply,,1
-J. Cowan,60,Open,,F,120,62.5,152.5,335,SBD,Single-ply,,2
+Jill Cowan,60,Open,,F,120,62.5,152.5,335,SBD,Single-ply,,2
 Millie Luna,60,Open,,F,102.5,50,112.5,265,SBD,Single-ply,,3
 L. Crawford,67.5,Open,,F,142.5,80,160,382.5,SBD,Single-ply,,1
 MJ Cobaugh,67.5,Open,,F,110,70,160,340,SBD,Single-ply,,2

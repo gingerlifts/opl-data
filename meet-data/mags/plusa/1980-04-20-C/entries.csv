@@ -1,5 +1,5 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
-D. Christman,52,Open,M,115.67,97.52,161.03,374.21,SBD,Single-ply,1
+Don Christman,52,Open,M,115.67,97.52,161.03,374.21,SBD,Single-ply,1
 S. Conroy,52,Open,M,108.86,90.72,154.22,353.8,SBD,Single-ply,2
 B. Kately,52,Open,M,127.01,77.11,142.88,347,SBD,Single-ply,3
 D. Bevilaqua,52,Open,M,79.38,47.63,102.06,229.06,SBD,Single-ply,6
@@ -19,11 +19,11 @@ J. Priebe,60,Open,M,92.99,49.9,115.67,258.55,SBD,Single-ply,5
 Leo Scaccia,67.5,Open,M,188.24,127.01,213.19,528.44,SBD,Single-ply,1
 Miguel Rodriguez,67.5,Open,M,176.9,108.86,204.12,489.88,SBD,Single-ply,2
 T. Porzio,67.5,Open,M,165.56,127.01,195.04,487.61,SBD,Single-ply,3
-B. Thompson,67.5,Open,M,156.49,104.33,201.85,462.66,SBD,Single-ply,5
+Brian Thompson,67.5,Open,M,156.49,104.33,201.85,462.66,SBD,Single-ply,5
 Seth Haubenstock,67.5,Open,M,151.95,97.52,206.38,455.86,SBD,Single-ply,6
 J. Walt,67.5,Open,M,149.69,113.4,192.78,455.86,SBD,Single-ply,7
 Matt Durst,67.5,Open,M,149.69,117.93,183.71,451.32,SBD,Single-ply,8
-A. Clark,67.5,Open,M,149.69,90.72,208.65,449.06,SBD,Single-ply,9
+A. Clark #8,67.5,Open,M,149.69,90.72,208.65,449.06,SBD,Single-ply,9
 L. Becker,67.5,Open,M,151.95,108.86,181.44,442.25,SBD,Single-ply,10
 J. Grammer,67.5,Open,M,140.61,83.91,199.58,424.11,SBD,Single-ply,11
 Doug Haines,67.5,Open,M,108.86,108.86,154.22,371.95,SBD,Single-ply,14
@@ -40,7 +40,7 @@ T. Serfass,75,Open,M,197.31,131.54,226.8,555.65,SBD,Single-ply,5
 Mike Mecchella,75,Open,M,188.24,129.27,231.33,548.85,SBD,Single-ply,6
 V. Circelli,75,Open,M,183.71,142.88,219.99,546.58,SBD,Single-ply,7
 B. Cappuccio,75,Open,M,172.37,136.08,215.46,523.9,SBD,Single-ply,8
-M. Taladay,75,Open,M,167.83,147.42,204.12,519.36,SBD,Single-ply,9
+Mat Taladay,75,Open,M,167.83,147.42,204.12,519.36,SBD,Single-ply,9
 M. Cody,75,Open,M,181.44,142.88,195.04,519.36,SBD,Single-ply,10
 C. Dalesandro,75,Open,M,163.29,131.54,195.04,489.88,SBD,Single-ply,12
 R. Soriano,75,Open,M,140.61,133.81,192.78,467.2,SBD,Single-ply,13
@@ -51,7 +51,7 @@ S. Bernardino,75,Open,M,136.08,133.81,174.63,444.52,SBD,Single-ply,17
 J. Kraynick,75,Open,M,154.22,102.06,181.44,437.72,SBD,Single-ply,18
 S. Straface,75,Open,M,140.61,113.4,170.1,424.11,SBD,Single-ply,19
 P. Matthian,75,Open,M,120.2,102.06,174.63,396.89,SBD,Single-ply,20
-J. Erb,75,Open,M,127.01,104.33,151.95,383.29,SBD,Single-ply,21
+Joe Erb,75,Open,M,127.01,104.33,151.95,383.29,SBD,Single-ply,21
 J. Tevanian,75,Open,M,181.44,115.67,,,SBD,Single-ply,DQ
 Brian Kline,75,Open,M,213.19,149.69,244.94,607.81,SBD,Single-ply,1
 C. Snyder,75,Open,M,179.17,115.67,197.31,492.15,SBD,Single-ply,11
@@ -72,7 +72,7 @@ John Gasparini,82.5,Open,M,136.08,104.33,181.44,421.84,SBD,Single-ply,18
 B. Schmidt,82.5,Open,M,61.24,170.1,61.24,292.57,SBD,Single-ply,19
 D. Headly,82.5,Open,M,136.08,129.27,,,SBD,Single-ply,DQ
 R. D'Ambrogi,82.5,Open,M,254.01,136.08,272.16,662.25,SBD,Single-ply,1
-S. Edminston,82.5,Open,M,181.44,136.08,210.92,528.44,SBD,Single-ply,9
+Scott Edmiston,82.5,Open,M,181.44,136.08,210.92,528.44,SBD,Single-ply,9
 T. Gottilleb,82.5,Open,M,161.03,127.01,213.19,501.22,SBD,Single-ply,12
 J. Sorenson,82.5,Open,M,167.83,122.47,197.31,487.61,SBD,Single-ply,15
 David Klein,90,Open,M,276.69,158.76,294.84,730.28,SBD,Single-ply,1
@@ -90,7 +90,7 @@ P. Daly,90,Open,M,172.37,117.93,197.31,487.61,SBD,Single-ply,13
 D. Dry,90,Open,M,145.15,120.2,197.31,462.66,SBD,Single-ply,17
 T. Morelli,90,Open,M,124.74,127.01,226.8,478.54,SBD,Single-ply,14
 B. Smith,90,Open,M,172.37,115.67,185.97,474,SBD,Single-ply,15
-J. Metz,90,Open,M,136.08,142.88,185.97,464.93,SBD,Single-ply,16
+Jeff Metz,90,Open,M,136.08,142.88,185.97,464.93,SBD,Single-ply,16
 H. Myers,90,Open,M,,,,,SBD,Single-ply,DQ
 J. Huss,90,Open,M,233.6,154.22,260.82,648.64,SBD,Single-ply,3
 Joe Yourgal,100,Open,M,244.94,149.69,299.37,694,SBD,Single-ply,1
@@ -104,12 +104,12 @@ J. Kostans,100,Open,M,215.46,161.03,244.94,621.42,SBD,Single-ply,8
 M. Sabatino,100,Open,M,235.87,136.08,244.94,616.89,SBD,Single-ply,9
 John Jefferson,100,Open,M,199.58,172.37,244.94,616.89,SBD,Single-ply,10
 J. Dahistrann,100,Open,M,204.12,183.71,226.8,614.62,SBD,Single-ply,11
-T. Daniels,100,Open,M,206.38,138.35,204.12,548.85,SBD,Single-ply,12
+T. Daniels #1,100,Open,M,206.38,138.35,204.12,548.85,SBD,Single-ply,12
 M. Decalsalec,100,Open,M,165.56,172.37,181.44,519.36,SBD,Single-ply,13
 S. Soriano,100,Open,M,170.1,124.74,181.44,476.27,SBD,Single-ply,14
 J. Boatright,100,Open,M,161.03,92.99,219.99,474,SBD,Single-ply,15
 T. Straka,100,Open,M,226.8,181.44,,,SBD,Single-ply,DQ
-Jim Bennett,110,Open,M,274.42,163.29,272.16,709.87,SBD,Single-ply,1
+Jim Bennett #4,110,Open,M,274.42,163.29,272.16,709.87,SBD,Single-ply,1
 T. Green,110,Open,M,231.33,165.56,260.82,657.71,SBD,Single-ply,2
 J. Jacono,110,Open,M,226.8,181.44,249.48,657.71,SBD,Single-ply,3
 Mike Ludwig,110,Open,M,251.74,167.83,235.87,655.44,SBD,Single-ply,4

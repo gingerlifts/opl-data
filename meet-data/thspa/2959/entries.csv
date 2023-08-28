@@ -1,6 +1,6 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
 Boys,51.71,1,James Ramsey,Pottsboro,51.17,136.08,61.23,127.01,324.32,Single-ply,SBD,M
-Boys,51.71,2,Avery Miller,Denison,49.53,102.06,68.04,140.61,310.71,Single-ply,SBD,M
+Boys,51.71,2,Avery Miller #2,Denison,49.53,102.06,68.04,140.61,310.71,Single-ply,SBD,M
 Boys,51.71,3,Braxton Barneck,Plano,48.26,102.06,65.77,127.01,294.84,Single-ply,SBD,M
 Boys,51.71,4,Antron Nixon,Everman,45,102.06,49.9,106.59,258.55,Single-ply,SBD,M
 Boys,51.71,5,Chasmon Davis,Everman,45.9,92.99,49.9,108.86,251.74,Single-ply,SBD,M
@@ -36,7 +36,7 @@ Boys,59.87,9,Josh Hathorn,Melissa,59.42,113.4,74.84,147.42,335.66,Single-ply,SBD
 Boys,59.87,10,Gage Ahrens,Prosper,58.88,102.06,54.43,129.27,285.76,Single-ply,SBD,M
 Boys,59.87,11,Dylan Shawver,Little Elm,59.38,99.79,70.31,113.4,283.5,Single-ply,SBD,M
 Boys,59.87,12,Colby Metzler,Lindsay,56.15,102.06,54.43,113.4,269.89,Single-ply,SBD,M
-Boys,59.87,DQ,Omar Villegas,Melissa,59.06,,,,,Single-ply,SBD,M
+Boys,59.87,DQ,Omar Villegas #2,Melissa,59.06,,,,,Single-ply,SBD,M
 Boys,59.87,DQ,Josh Chaires,Melissa,59.69,136.08,72.57,,,Single-ply,SBD,M
 Boys,59.87,DQ,Zach Pruitt,Callisburg,57.7,,,,,Single-ply,SBD,M
 Boys,67.13,1,Wilson Kirkbride,Denison,60.51,181.44,102.06,208.65,492.15,Single-ply,SBD,M
@@ -57,7 +57,7 @@ Boys,67.13,15,Alek Fisher,Farmersville,63.05,117.93,72.57,138.35,328.85,Single-p
 Boys,67.13,16,Kenny Campbell,Honey Grove,66.95,124.74,63.5,138.35,326.59,Single-ply,SBD,M
 Boys,67.13,17,Eli Mosby,Van Alstyne,60.24,113.4,68.04,142.88,324.32,Single-ply,SBD,M
 Boys,67.13,18,Thomas Arguello,Wolfe City,65.5,115.67,74.84,117.93,308.44,Single-ply,SBD,M
-Boys,67.13,DQ,Shaun Hudson,Callisburg,64.95,183.7,104.33,195.04,,Single-ply,SBD,M
+Boys,67.13,DQ,Shaun Hudson #2,Callisburg,64.95,183.7,104.33,195.04,,Single-ply,SBD,M
 Boys,74.84,1,Max Carlile,Plano,73.94,199.58,127.01,208.65,535.24,Single-ply,SBD,M
 Boys,74.84,2,Michael Wallace,Sherman,74.21,192.78,111.13,199.58,503.49,Single-ply,SBD,M
 Boys,74.84,3,DeVante Clayton,Sherman,74.48,188.24,115.67,195.04,498.95,Single-ply,SBD,M
@@ -72,7 +72,7 @@ Boys,74.84,11,Caden Hayes,Melissa,73.12,154.22,77.11,154.22,385.55,Single-ply,SB
 Boys,74.84,12,Hunter McCoy,Farmersville,68.95,145.15,79.38,158.76,383.29,Single-ply,SBD,M
 Boys,74.84,13,Bryce Jurca,Blue Ridge,71.21,142.88,83.91,156.49,383.29,Single-ply,SBD,M
 Boys,74.84,14,David Guillen,Wolfe City,71.12,142.88,83.91,133.81,360.61,Single-ply,SBD,M
-Boys,74.84,15,Connor Smith,Sadler S & S Cons,69.22,129.27,79.38,142.88,351.53,Single-ply,SBD,M
+Boys,74.84,15,Connor Smith #4,Sadler S & S Cons,69.22,129.27,79.38,142.88,351.53,Single-ply,SBD,M
 Boys,74.84,16,Coby Barnes,Wolfe City,73.62,142.88,77.11,129.27,349.27,Single-ply,SBD,M
 Boys,74.84,17,Christian Olowokere,Celina,69.31,117.93,74.84,142.88,335.66,Single-ply,SBD,M
 Boys,74.84,18,Tony Karleskint,Tom Bean,67.68,129.27,61.23,140.61,331.12,Single-ply,SBD,M
@@ -103,7 +103,7 @@ Boys,82.1,DQ,Bailey McCoy,Muenster,76.84,174.63,,,,Single-ply,SBD,M
 Boys,89.81,1,Roy Goins,Little Elm,86.55,226.8,122.47,226.8,576.06,Single-ply,SBD,M
 Boys,89.81,2,Diego Puga,Pilot Point,87.27,190.51,133.81,226.8,551.11,Single-ply,SBD,M
 Boys,89.81,3,Brandon Murphy,Whitesboro,86.55,217.72,127.01,192.78,537.51,Single-ply,SBD,M
-Boys,89.81,4,John Cooper,Whitewright,88.09,197.31,104.33,233.6,535.24,Single-ply,SBD,M
+Boys,89.81,4,John Cooper #6,Whitewright,88.09,197.31,104.33,233.6,535.24,Single-ply,SBD,M
 Boys,89.81,5,Travis Williams,Wolfe City,88.27,204.12,120.2,204.12,528.44,Single-ply,SBD,M
 Boys,89.81,6,Antonio Puga,Pilot Point,84.55,192.78,129.27,204.12,526.17,Single-ply,SBD,M
 Boys,89.81,7,Hunter Bigelow,Denison,88.81,195.04,120.2,204.12,519.36,Single-ply,SBD,M
@@ -195,7 +195,7 @@ Boys,124.74,14,Reese Greenwood,Pottsboro,114.67,195.04,102.06,190.51,487.61,Sing
 Boys,124.74,15,Adam Aldridge,Honey Grove,115.94,183.7,108.86,188.24,480.81,Single-ply,SBD,M
 Boys,124.74,16,Quinton Williams,Prosper,122.02,129.27,92.99,142.88,365.14,Single-ply,SBD,M
 Boys,124.74,DQ,Nick Vallencilla,Tom Bean,121.74,,,,,Single-ply,SBD,M
-Boys,124.74,DQ,Kevin Johnson,Plano,113.94,,,,,Single-ply,SBD,M
+Boys,124.74,DQ,Kevin Johnson #5,Plano,113.94,,,,,Single-ply,SBD,M
 Boys,124.74+,1,Josh Schnitker,Sherman,144.15,265.35,170.1,238.14,673.58,Single-ply,SBD,M
 Boys,124.74+,2,Damon Lippert,Sherman,140.8,249.48,170.1,215.46,635.03,Single-ply,SBD,M
 Boys,124.74+,3,Dominic Little,Whitewright,133.27,272.16,156.49,204.12,632.76,Single-ply,SBD,M

@@ -1,5 +1,5 @@
 Name,WeightClassKg,Age,BodyweightKg,Division,Sex,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
-Lori Kay,56,,,Open,F,115.67,,,,70.31,115.67,301.64,SBD,Single-ply,1
+Laurie Kay,56,,,Open,F,115.67,,,,70.31,115.67,301.64,SBD,Single-ply,1
 Rene Bartley,60,,,Open,F,154.22,,,,88.45,145.15,387.82,SBD,Single-ply,1
 Sandy Colwell,67.5,,,Open,F,108.86,,,,56.7,111.13,276.69,SBD,Single-ply,1
 Stephanie van de Weghe,75,,,Open,F,176.9,,,,99.79,185.97,462.66,SBD,Single-ply,1
@@ -25,7 +25,7 @@ Dave Karam,75,,,Open,M,249.48,,,,154.22,,,SBD,Single-ply,DQ
 Len Sellers,82.5,,,Open,M,299.37,,,,174.63,288.03,762.04,SBD,Single-ply,1
 Steve Preston,82.5,,,Open,M,272.16,,,,213.19,276.69,762.04,SBD,Single-ply,2
 Keith McNeish,82.5,,,Open,M,290.3,,,,151.95,283.5,725.75,SBD,Single-ply,3
-H. Perone,82.5,,,Open,M,288.03,,,,158.76,231.33,678.12,SBD,Single-ply,4
+Hugh Perone,82.5,,,Open,M,288.03,,,,158.76,231.33,678.12,SBD,Single-ply,4
 B. Figola,82.5,,,Open,M,258.55,,,,149.69,249.48,657.71,SBD,Single-ply,5
 S. Hoyt,82.5,,,Open,M,233.6,,,,154.22,251.74,639.57,SBD,Single-ply,6
 M. Cardamone,82.5,,,Open,M,247.21,,,,142.88,233.6,623.69,SBD,Single-ply,7
@@ -40,7 +40,7 @@ D. Bornstein,90,,,Open,M,294.84,,,,183.71,272.16,750.7,SBD,Single-ply,7
 R. Steil,90,,,Open,M,294.84,,,,145.15,317.52,757.5,SBD,Single-ply,6
 J. Argentieri,90,,,Open,M,272.16,,,,188.24,276.69,737.09,SBD,Single-ply,8
 C. Privitera,90,,,Open,M,310.71,,,,154.22,272.16,737.09,SBD,Single-ply,9
-G. Steil,90,,,Open,M,263.08,,,,154.22,299.37,716.68,SBD,Single-ply,12
+Greg Steil,90,,,Open,M,263.08,,,,154.22,299.37,716.68,SBD,Single-ply,12
 R. Coz,90,,,Open,M,285.76,,,,163.29,272.16,721.21,SBD,Single-ply,10
 J. Bott,90,,,Open,M,276.69,,,,165.56,276.69,718.94,SBD,Single-ply,11
 Larry Havelka,90,,,Open,M,272.16,,,,183.71,244.94,700.8,SBD,Single-ply,13
@@ -63,7 +63,7 @@ Kieran Kidder,125,,,Open,M,367.41,,,,222.26,290.3,879.97,SBD,Single-ply,3
 T. Nickerson,125,,,Open,M,331.12,,,,192.78,292.57,816.47,SBD,Single-ply,4
 Miles Wetzel,125,,,Open,M,308.44,,,,185.97,299.37,793.79,SBD,Single-ply,5
 S. Williams,125,,,Open,M,294.84,,,,192.78,278.96,766.57,SBD,Single-ply,6
-K. Malchow,125,,,Open,M,349.27,,,,238.14,,,SBD,Single-ply,DQ
+Kenny Malchow,125,,,Open,M,349.27,,,,238.14,,,SBD,Single-ply,DQ
 John Brick,125,,,Open,M,,,,,,,,SBD,Single-ply,DQ
 James Voronin,140,,,Open,M,349.27,,,,247.21,276.69,873.17,SBD,Single-ply,1
 Ted Arcidi,140,,136.08,Open,M,,-328.85,-328.85,-328.85,,,,B,Single-ply,DQ

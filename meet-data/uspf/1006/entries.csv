@@ -2,7 +2,7 @@ Place,Name,Event,Equipment,Division,Sex,WeightClassKg,BodyweightKg,Age,Best3Squa
 1,April Shumaker,SBD,Single-ply,Open,F,48,46.49,44,137.5,117.5,135,,390
 2,Suzanne Hedman,SBD,Single-ply,Open,F,56,55.47,50,147.5,102.5,160,,410
 3,Maura Shuttleworth,SBD,Single-ply,Open,F,52,51.07,34,137.5,105,127.5,,370
-4,Sabra Callahan,SBD,Single-ply,Open,F,56,55.79,55,110,90,115,,315
+4,Sabra Lucchesi-Callahan,SBD,Single-ply,Open,F,56,55.79,55,110,90,115,,315
 DQ,Becky Rich,SBD,Single-ply,Open,F,56,55.61,29,165,-125,160,,
 1,Lori Steele,SBD,Single-ply,Open,F,67.5,66.09,36,185,125,190,,500
 2,Ellen Stein,SBD,Single-ply,Open,F,60,58.33,57,165,77.5,177.5,,420
@@ -47,13 +47,13 @@ DQ,Jon Cunningham,B,Single-ply,Open,M,75,74.3,46,,-192.5,,,
 DQ,Nick Marinis,B,Single-ply,Open,M,82.5,82.19,48,,-220,,,
 1,Dennis Reneau,B,Single-ply,Open,M,110,107.86,39,,320.5,,,320.5
 2,Ben Brizendine,B,Single-ply,Open,M,100,96.07,38,,275,,,275
-3,Juan Laija,B,Single-ply,Open,M,110,105.41,41,,277.5,,,277.5
+3,Juan Laija #1,B,Single-ply,Open,M,110,105.41,41,,277.5,,,277.5
 4,Brian Burritt,B,Single-ply,Open,M,100,97.43,43,,260,,,260
 5,Jody Woods,B,Single-ply,Open,M,90,87.82,52,,227.5,,,227.5
 DQ,Josh Stottlemire,B,Single-ply,Open,M,100,97.89,29,,-292.5,,,
 DQ,Bryon Brubaker,B,Single-ply,Open,M,110,108.23,47,,-287.5,,,
 1,Allen Baria,B,Single-ply,Open,M,125,124.1,39,,337.5,,,337.5
-2,Matt Houser,B,Single-ply,Open,M,140,137.71,26,,327.5,,,327.5
+2,Matt Houser #1,B,Single-ply,Open,M,140,137.71,26,,327.5,,,327.5
 3,Jim Hoskinson,B,Single-ply,Open,M,140,132.54,45,,320,,,320
 4,Ricardo Costa,B,Single-ply,Open,M,125,122.92,34,,290,,,290
 DQ,Scott Hoekstra,B,Single-ply,Open,M,125,123.2,43,,-320,,,
@@ -65,7 +65,7 @@ DQ,Rich McDowell,B,Single-ply,Open,M,125,123.38,43,,-295,,,
 1,Maryanne Sutton,D,Single-ply,Open,F,60,56.61,24,,,127.5,,127.5
 2,Georgiann Puckett,D,Single-ply,Open,F,67.5,63.32,46,,,132.5,,132.5
 3,Natalya Carmichael,D,Single-ply,Open,F,67.5,60.96,29,,,125,,125
-4,Sabra Callahan,D,Single-ply,Open,F,60,58.51,55,,,117.5,,117.5
+4,Sabra Lucchesi-Callahan,D,Single-ply,Open,F,60,58.51,55,,,117.5,,117.5
 5,Regina Marinas,D,Single-ply,Open,F,67.5,66.04,26,,,125,,125
 6,Madison James,D,Single-ply,Open,F,67.5,66.41,15,,,120,,120
 DQ,Karen Parnow,D,Single-ply,Open,F,67.5,64.68,52,,,-112.5,,
@@ -90,4 +90,4 @@ DQ,Karen Parnow,D,Single-ply,Open,F,67.5,64.68,52,,,-112.5,,
 2,Brent Willis,D,Single-ply,Open,M,140,139.89,20,,,355,,355
 3,Eric Poiterien,D,Single-ply,Open,M,125,124.28,41,,,310,,310
 4,Rob Duran,D,Single-ply,Open,M,125,124.01,33,,,295,,295
-5,Joe Dentice,D,Single-ply,Open,M,125,115.58,52,,,280,,280
+5,Joe Dentice,D,Single-ply,Open,M,125,115.58,,,,280,,280

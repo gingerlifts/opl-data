@@ -2,12 +2,12 @@ Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 C. Hart,52,Open,M,115,65,155,335,SBD,Single-ply,1
 Kevin McGonigal,52,Open,M,122.5,97.5,85,305,SBD,Single-ply,2
 S. Edison,52,Open,M,85,57.5,122.5,265,SBD,Single-ply,3
-Miguel Castro,56,Open,M,157.5,102.5,220,480,SBD,Single-ply,1
+Miguel Castro #1,56,Open,M,157.5,102.5,220,480,SBD,Single-ply,1
 J. Medina,56,Open,M,130,85,165,380,SBD,Single-ply,2
 Michael Doss,56,Open,M,110,87.5,137.5,335,SBD,Single-ply,3
 R. Schiefelbein,56,Open,M,107.5,70,102.5,280,SBD,Single-ply,4
 Jim Hebbe,60,Open,M,170,107.5,212.5,490,SBD,Single-ply,1
-T. Dorn,60,Open,M,170,92.5,187.5,450,SBD,Single-ply,2
+Tom Dorn,60,Open,M,170,92.5,187.5,450,SBD,Single-ply,2
 Dan Carlson,60,Open,M,157.5,90,177.5,425,SBD,Single-ply,3
 K. Basinski,60,Open,M,137.5,107.5,175,420,SBD,Single-ply,4
 A. Rich,60,Open,M,115,70,155,340,SBD,Single-ply,5
@@ -17,7 +17,7 @@ B. Lorenz,67.5,Open,M,220,142.5,230,592.5,SBD,Single-ply,3
 Layne Froehlich,67.5,Open,M,190,127.5,215,532.5,SBD,Single-ply,4
 T. Funmaker,67.5,Open,M,157.5,142.5,220,520,SBD,Single-ply,5
 J. Morrison,67.5,Open,M,170,122.5,195,487.5,SBD,Single-ply,6
-D. Galetka,67.5,Open,M,175,110,190,475,SBD,Single-ply,7
+Dave Galetka,67.5,Open,M,175,110,190,475,SBD,Single-ply,7
 Lori Verhagen,67.5,Open,F,100,60,125,285,SBD,Single-ply,8
 W. Sonnen,67.5,Open,M,142.5,92.5,,,SBD,Single-ply,DQ
 Tim Close,75,Open,M,238.75,182.5,267.5,688.75,SBD,Single-ply,1

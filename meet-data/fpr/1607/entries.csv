@@ -8,11 +8,11 @@ Place,Name,Division,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,Total
 1,Nikolay Pankratov,Open,55.4,95,62.5,125,282.5,59,M,Николай Панкратов,1993,SBD,Raw
 1,Aleksandr Markov,Sub-Juniors,66,105,65,130,300,66,M,Александр Марков,2001,SBD,Raw
 1,Evgeniy Akhmadeev,Open,65.95,142.5,97.5,192.5,432.5,66,M,Евгений Ахмадеев,1987,SBD,Raw
-2,Aleksey Petukhov,Open,65.65,145,95,170,410,66,M,Алексей Петухов,1988,SBD,Raw
+2,Aleksey Petukhov #1,Open,65.65,145,95,170,410,66,M,Алексей Петухов,1988,SBD,Raw
 3,Aleksandr Klimov,Open,66,105,100,170,375,66,M,Александр Климов,1986,SBD,Raw
 1,Ivan Petrishin,Sub-Juniors,72.3,150,112.5,175,437.5,74,M,Иван Петришин,1998,SBD,Raw
 2,Mikhail Semenovykh,Sub-Juniors,68.4,125,95,175,395,74,M,Михаил Семеновых,1998,SBD,Raw
-3,Ivan Ivanov,Sub-Juniors,69.95,125,100,160,385,74,M,Іван Іванов,1998,SBD,Raw
+3,Ivan Ivanov #6,Sub-Juniors,69.95,125,100,160,385,74,M,Иван Иванов,1998,SBD,Raw
 4,Leonid Borodin,Sub-Juniors,68.05,110,65,140,315,74,M,Леонид Бородин,2001,SBD,Raw
 1,Aleksey Pavlov,Open,72.6,175,125,227.5,527.5,74,M,Алексей Павлов,1968,SBD,Raw
 2,Konstantin Almetov,Open,74,172.5,102.5,192.5,467.5,74,M,Константин Алметов,1987,SBD,Raw
@@ -26,7 +26,7 @@ Place,Name,Division,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,Total
 1,Vitaliy Nesterov,Sub-Juniors,79.85,157.5,112.5,202.5,472.5,83,M,Виталий Нестеров,1998,SBD,Raw
 2,Nikolay Lobanov,Sub-Juniors,81.1,115,65,142.5,322.5,83,M,Николай Лобанов,2000,SBD,Raw
 3,Aleksandr Panaev,Sub-Juniors,79.55,105,80,135,320,83,M,Александр Панаев,1998,SBD,Raw
-1,Artem Zaytsev,Open,81.25,200,155,230,585,83,M,Артем Зайцев,1994,SBD,Raw
+1,Artem Zaytsev #8,Open,81.25,200,155,230,585,83,M,Артём Зайцев,1994,SBD,Raw
 2,Nikolay Sorokin,Open,81.7,210,125,247.5,582.5,83,M,Николай Сорокин,1991,SBD,Raw
 3,Aleksey Rubtsov,Open,81.7,172.5,140,217.5,530,83,M,Алексей Рубцов,1981,SBD,Raw
 4,Andrey Zverev,Open,82.5,190,130,210,530,83,M,Андрей Зверев,1977,SBD,Raw
@@ -61,7 +61,7 @@ Place,Name,Division,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,Total
 2,Darya Ivanchikova,Open,51.3,80,45,107.5,232.5,52,F,Дарья Иванчикова,1995,SBD,Raw
 1,Olga Kuznetsova,Open,54.35,110,65,130,305,57,F,Ольга Кузнецова,1988,SBD,Raw
 2,Kseniya Belousova,Open,54.25,107.5,72.5,115,295,57,F,Ксения Белоусова,1990,SBD,Raw
-DQ,Anastasiya Semenova,Open,53.75,,,,,57,F,Анастасия Семенова,1999,SBD,Raw
+DQ,Anastasiya Semenova #4,Open,53.75,,,,,57,F,Анастасия Семенова,1999,SBD,Raw
 1,Elmira Gaysina,Open,58.65,82.5,47.5,110,240,63,F,Эльмира Гайсина,1989,SBD,Raw
 2,Snezhana Alekseeva,Open,62.6,70,45,85,200,63,F,Снежана Алексеева,1983,SBD,Raw
 1,Darya Svischeva,Open,70.8,75,50,125,250,72,F,Дарья Свищева,1990,SBD,Raw

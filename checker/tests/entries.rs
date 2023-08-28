@@ -16,7 +16,7 @@ fn check(csv: &str) -> usize {
         .quoting(false)
         .from_reader(csv.as_bytes());
     let checkresult = do_check(&mut rdr, None, None, None, report).unwrap();
-    checkresult.report.count_errors()
+    checkresult.report.count_messages().errors()
 }
 
 #[test]
@@ -165,7 +165,8 @@ fn test_column_equipment() {
     assert_eq!(check(data), 1);
 
     // Invalid Deadlift equipment
-    let data = "Name,WeightClassKg,Sex,Best3DeadliftKg,TotalKg,Equipment,DeadliftEquipment,Event,Place\n\
+    let data =
+        "Name,WeightClassKg,Sex,Best3DeadliftKg,TotalKg,Equipment,DeadliftEquipment,Event,Place\n\
                 Test User,90,M,100,100,Multi-ply,Wraps,D,1";
     assert_eq!(check(data), 1);
 
@@ -188,7 +189,7 @@ fn test_column_equipment() {
 #[test]
 fn regression_tests() {
     // Calculated total should be compared even if a lift is missing an attempt.
-    let data = "Place,Name,Sex,Event,Division,WeightClassKg,Equipment,BirthYear,State,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg\n\
+    let data = "Place,Name,Sex,Event,Division,WeightClassKg,Equipment,BirthYear,Team,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg\n\
                 1,Chad Cooper,M,SBD,R-O,93,Raw,1998,SC,88.4,170,180,,180,92.5,-97.5,-97.5,92.5,192.5,212.5,215,215,522.5";
     assert_eq!(check(data), 1);
 

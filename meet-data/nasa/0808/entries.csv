@@ -30,7 +30,7 @@ Place,WeightClassKg,Name,State,BodyweightKg,Division,Sex,Best3SquatKg,Best3Bench
 1,60,Paul Robinson,MO,59.51,open,M,,40,75,115,BD,Raw
 1,75,Bill Anderson,MO,72.62,open,M,,122.5,195,317.5,BD,Raw
 1,82.5,Rodney Stewart,MO,82.24,open,M,,112.5,205,317.5,BD,Raw
-1,125,Jason Smith,AR,110.45,open,M,,195,335,530,BD,Raw
+1,125,Jason Smith #6,AR,110.45,open,M,,195,335,530,BD,Raw
 1,67.5,Cole Anderson,MO,61.87,pure,M,,72.5,140,212.5,BD,Raw
 1,90,Tad Peters,OK,83.82,pure,M,,100,175,275,BD,Raw
 1,100,Mike Bruders,MO,97.2,pure,M,,115,195,310,BD,Raw
@@ -77,7 +77,7 @@ DQ,82.5,Lance Brown,AR,80.74,bphs,M,,,,,B,Raw
 1,90,Win Smith,MO,88.22,bpmp,M,,110,,110,B,Raw
 1,100,Earl Evatt,AZ,98.52,bpmp,M,,115,,115,B,Raw
 1,100,Kim Brownfield,OK,99.2,bpopen,M,,182.5,,182.5,B,Raw
-1,125,Jason Smith,AR,110.45,bpopen,M,,195,,195,B,Raw
+1,125,Jason Smith #6,AR,110.45,bpopen,M,,195,,195,B,Raw
 1,100,Earl Evatt,AZ,98.52,bppure,M,,115,,115,B,Raw
 1,125,JD Hays,TX,117.66,bppure,M,,170,,170,B,Raw
 1,67.5,Shanice Johnson,OK,62.91,bpyouth,M,,30,,30,B,Raw
@@ -96,7 +96,7 @@ DQ,82.5,Lance Brown,AR,80.74,bphs,M,,,,,B,Raw
 1,82.5,Scott Owen,OK,80.78,mp,M,145,105,187.5,437.5,SBD,Wraps
 1,100,Chris Truoccolo,OK,94.21,mp,M,227.5,160,227.5,615,SBD,Wraps
 1,67.5,Todd Eggers,KS,64.75,open,M,150,95,227.5,472.5,SBD,Wraps
-1,82.5,Charlie Harris,KS,80.33,open,M,205,147.5,245,597.5,SBD,Wraps
+1,82.5,Charlie Harris #1,KS,80.33,open,M,205,147.5,245,597.5,SBD,Wraps
 1,90,Chris Droegemeier,KS,87.09,open,M,227.5,145,200,572.5,SBD,Wraps
 1,67.5,Dominic Mancello,OK,66.59,pure,M,112.5,97.5,190,400,SBD,Wraps
 1,75,Ben Knotts,OK,74.07,pure,M,220,122.5,227.5,570,SBD,Wraps
@@ -105,7 +105,7 @@ DQ,82.5,Lance Brown,AR,80.74,bphs,M,,,,,B,Raw
 1,100,Kyle Nettleingham,OK,96.39,pure,M,217.5,152.5,252.5,622.5,SBD,Wraps
 1,110,Jeremy Weinstein,OK,105.37,pure,M,240,137.5,230,607.5,SBD,Wraps
 1,140+,Jacob Johnson,MO,151.18,pure,M,282.5,185,265,732.5,SBD,Wraps
-1,82.5,Charlie Harris,KS,80.33,sm1,M,205,147.5,245,597.5,SBD,Wraps
+1,82.5,Charlie Harris #1,KS,80.33,sm1,M,205,147.5,245,597.5,SBD,Wraps
 1,140,Chuck Cookson,KS,130.23,sm1,M,287.5,165,285,737.5,SBD,Wraps
 1,90,Chris Droegemeier,KS,87.09,sm2,M,227.5,145,200,572.5,SBD,Wraps
 1,140+,Jason Freeman,OK,167.24,sm2,M,255,202.5,232.5,690,SBD,Wraps

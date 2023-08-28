@@ -124,7 +124,7 @@ DQ,Sergey Vlasov,75.25,155,,,,83,M,Сергей Власов,2001,Raw,SBD,Open
 7,Sergey Klyauzov,92.15,250,145,285,680.0,93,M,Сергей Кляузов,1990,Raw,SBD,Open
 8,Ilya Nidilko,92.55,245,185,250,680.0,93,M,Илья Нидилько,1992,Raw,SBD,Open
 9,Sergey Karmazin,91.80,250,177.5,250,677.5,93,M,Сергей Кармазин,1993,Raw,SBD,Open
-10,Andrey Aksenov,92.50,240,197.5,240,677.5,93,M,Андрей Аксенов,1986,Raw,SBD,Open
+10,Andrey Aksenov #3,92.50,240,197.5,240,677.5,93,M,Андрей Аксенов,1986,Raw,SBD,Open
 11,Aleksandr Makarov,90.50,250,180,245,675.0,93,M,Александр Макаров,1983,Raw,SBD,Open
 12,Vitaliy Sazonov,91.75,240,175,260,675.0,93,M,Виталий Сазонов,1988,Raw,SBD,Open
 13,Romas Zhavoronkov,92.10,245,162.5,267.5,675.0,93,M,Ромас Жаворонков,1989,Raw,SBD,Open
@@ -149,7 +149,7 @@ DQ,Sergey Vlasov,75.25,155,,,,83,M,Сергей Власов,2001,Raw,SBD,Open
 32,Konstantin Logvinov,89.45,205,140,250,595.0,93,M,Константин Логвинов,1997,Raw,SBD,Open
 33,Maksim Sekhin,92.15,215,150,225,590.0,93,M,Максим Сехин,1991,Raw,SBD,Open
 34,Stanislav Sokolov,91.00,215,140,230,585.0,93,M,Станислав Соколов,1985,Raw,SBD,Open
-35,Anton Startsev,91.65,207.5,137.5,235,580.0,93,M,Антон Старцев,1959,Raw,SBD,Open
+35,Anton Startsev,91.65,207.5,137.5,235,580.0,93,M,Антон Старцев,1971,Raw,SBD,Open
 36,Dmitriy Antonov,90.50,190,140,235,565.0,93,M,Дмитрий Антонов,1993,Raw,SBD,Open
 37,Kirill Gorbachev,90.85,200,140,225,565.0,93,M,Кирилл Горбачев,1995,Raw,SBD,Open
 38,Roman Yakovlev,90.95,210,150,200,560.0,93,M,Роман Яковлев,1969,Raw,SBD,Open
@@ -165,13 +165,13 @@ DQ,Linur Musin,90.80,215,152.5,,,93,M,Линур Мусин,1995,Raw,SBD,Open
 DQ,Aleksey Gusev,91.70,202.5,,,,93,M,Алексей Гусев,1984,Raw,SBD,Open
 DQ,Evgeniy Chilingaridi,92.10,195,,,,93,M,Евгений Чилингариди,1992,Raw,SBD,Open
 DQ,Evgeniy Filatov,92.70,,,,,93,M,Евгений Филатов,1986,Raw,SBD,Open
-DQ,Denis Nikonov,91.65,,,,,93,M,Денис Никонов,1981,Raw,SBD,Open
+DQ,Denis Nikonov #2,91.65,,,,,93,M,Денис Никонов,1981,Raw,SBD,Open
 DQ,Vladislav Belger,91.65,,,,,93,M,Владислав Бельгер,1988,Raw,SBD,Open
 1,Ruslan Kvaratsikheliya,101.45,292.5,232.5,270,795.0,105,M,Руслан Кварацихелия,1982,Raw,SBD,Open
 2,Igor Makarov,104.30,272.5,202.5,290,765.0,105,M,Игорь Макаров,1993,Raw,SBD,Open
 3,Aleksandr Kolegov,98.60,280,180,297.5,757.5,105,M,Александр Колегов,1995,Raw,SBD,Open
 4,Nafal Dadashov,98.35,250,180,300,730.0,105,M,Нафал Дадашов,1982,Raw,SBD,Open
-5,Dmitriy Ivanov,102.95,260,180,285,725.0,105,M,Дмитрий Иванов,1978,Raw,SBD,Open
+5,Dmitriy Ivanov #7,102.95,260,180,285,725.0,105,M,Дмитрий Иванов,1978,Raw,SBD,Open
 6,Aleksandr Isaev,103.85,270,170,285,725.0,105,M,Александр Исаев,1990,Raw,SBD,Open
 7,Evgeniy Sporyshev,104.00,280,185,260,725.0,105,M,Евгений Спорышев,1991,Raw,SBD,Open
 8,Aleksey Sushkov,103.48,262.5,200,257.5,720.0,105,M,Алексей Сушков,1985,Raw,SBD,Open
@@ -187,7 +187,7 @@ DQ,Vladislav Belger,91.65,,,,,93,M,Владислав Бельгер,1988,Raw,SB
 18,Sergey Kachan,99.80,240,175,270,685.0,105,M,Сергей Качан,1992,Raw,SBD,Open
 19,Konstantin Lartsev,99.05,250,155,260,665.0,105,M,Константин Ларцев,1985,Raw,SBD,Open
 20,Maksim Chistyakov,103.65,230,170,265,665.0,105,M,Максим Чистяков,1992,Raw,SBD,Open
-21,Yuriy Kolesnikov,103.40,230,170,260,660.0,105,M,Юрий Колесников,1984,Raw,SBD,Open
+21,Yuriy Kolesnikov #2,103.40,230,170,260,660.0,105,M,Юрий Колесников,1984,Raw,SBD,Open
 22,Aleksey Apostolov,99.10,215,175,262.5,652.5,105,M,Алексей Апостолов,1986,Raw,SBD,Open
 23,Artem Klopov,103.55,240,175,235,650.0,105,M,Артем Клопов,1990,Raw,SBD,Open
 24,Tarik Rayan,101.95,250,162.5,230,642.5,105,M,Тарик Райан,1991,Raw,SBD,Open
@@ -234,7 +234,7 @@ DD,Vladimir Kolotvin,103.70,245,155,255,,105,M,Владимир Колотвин
 1,Mariia Zabelina,46.02,95,52.5,135.5,283.0,47,F,Мария Забелина,1997,Raw,SBD,Open
 2,Inna Babenko,45.36,95,57.5,130,282.5,47,F,Инна Бабенко,1975,Raw,SBD,Open
 3,Ulyana Aleksandrova,47.00,85,72.5,120,277.5,47,F,Ульяна Александрова,1991,Raw,SBD,Open
-4,Ralina Mukhammadieva,46.42,80,50,132.5,262.5,47,F,Ралина Мухаммадиева,1999,Raw,SBD,Open
+4,Ralina Muhammadeeva,46.42,80,50,132.5,262.5,47,F,Ралина Мухаммадиева,1999,Raw,SBD,Open
 5,Anna Volenko,45.66,72.5,55,122.5,250.0,47,F,Анна Воленко,1982,Raw,SBD,Open
 6,Galina Podlednova,46.52,90,52.5,95,237.5,47,F,Галина Подледнова,1999,Raw,SBD,Open
 7,Anna Kiryushina,46.56,75,50,95,220.0,47,F,Анна Кирюшина,1990,Raw,SBD,Open
@@ -246,7 +246,7 @@ DD,Vladimir Kolotvin,103.70,245,155,255,,105,M,Владимир Колотвин
 1,Samira Karaeva,51.74,130,77.5,140,347.5,52,F,Самира Караева,1996,Raw,SBD,Open
 2,Evgeniya Avdyuschenko,51.42,117.5,60,115,292.5,52,F,Евгения Авдющенко,2001,Raw,SBD,Open
 3,Anna Milyaeva,51.12,92.5,57.5,130,280.0,52,F,Анна Миляева,1995,Raw,SBD,Open
-4,Tatyana Ovchinnikova,51.40,102.5,60,117.5,280.0,52,F,Татьяна Овчинникова,1989,Raw,SBD,Open
+4,Tatyana Ovchinnikova #4,51.40,102.5,60,117.5,280.0,52,F,Татьяна Овчинникова,1989,Raw,SBD,Open
 5,Mariya Pavlova,50.92,92.5,60,120,272.5,52,F,Мария Павлова,1989,Raw,SBD,Open
 6,Svetlana Kaseva,51.06,102.5,50,120,272.5,52,F,Светлана Касева,1996,Raw,SBD,Open
 7,Vasilina Maslova,51.16,97.5,55,120,272.5,52,F,Василина Маслова,2000,Raw,SBD,Open
@@ -345,7 +345,7 @@ DQ,Dmitriy Kashitsyn,91.25,,,,,93,M,Дмитрий Кашицын,1989,Single-pl
 4,Vitaliy Chebotarev,105.00,300,227.5,275,802.5,105,M,Виталий Чеботарев,1993,Single-ply,SBD,Open
 5,Leonid Pozdnyakov,101.80,307.5,160,250,717.5,105,M,Леонид Поздняков,1981,Single-ply,SBD,Open
 6,Nikita Matko,96.95,260,200,240,700.0,105,M,Никита Матько,1984,Single-ply,SBD,Open
-7,Andrey Morozov,103.35,270,170,240,680.0,105,M,Андрей Морозов,1993,Single-ply,SBD,Open
+7,Andrey Morozov #10,103.35,270,170,240,680.0,105,M,Андрей Морозов,1993,Single-ply,SBD,Open
 8,Andrey Boyko,100.10,247.5,170,242.5,660.0,105,M,Андрей Бойко,1997,Single-ply,SBD,Open
 9,Viktor Suvernev,103.75,230,170,230,630.0,105,M,Виктор Сувернев,1977,Single-ply,SBD,Open
 10,Oleg Romanov,102.75,230,127.5,212.5,570.0,105,M,Олег Романов,1995,Single-ply,SBD,Open

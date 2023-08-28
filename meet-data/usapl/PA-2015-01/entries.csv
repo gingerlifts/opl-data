@@ -14,7 +14,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 2,M,Nick Desantis,SBD,M-Jr,66,Single-ply,65.4,192.5,97.5,190,480,
 3,M,Ryan Devine,SBD,M-Jr,66,Single-ply,65.7,167.5,127.5,180,475,1994
 4,M,Mitchell Gruver,SBD,M-Jr,66,Single-ply,65.6,162.5,102.5,172.5,437.5,1993
-1,M,Thomas Evans,SBD,M-Jr,74,Single-ply,72.6,272.5,150,277.5,700,1991
+1,M,Thomas Evans #3,SBD,M-Jr,74,Single-ply,72.6,272.5,150,277.5,700,1991
 2,M,Roy Apostle,SBD,M-Jr,74,Single-ply,72.8,232.5,117.5,235,585,1991
 3,M,Dominique Tan,SBD,M-Jr,74,Single-ply,72.3,175,117.5,207.5,500,1992
 4,M,Josh Sampsell,SBD,M-Jr,74,Single-ply,73.2,197.5,122.5,177.5,497.5,
@@ -42,9 +42,9 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 2,M,Lee Kantowski,SBD,M-Jr,120,Single-ply,109.6,245,150,250,645,1995
 3,M,Matt Stauch,SBD,M-Jr,120,Single-ply,108,205,130,160,495,1999
 4,M,David Still,SBD,M-Jr,120,Single-ply,117.5,202.5,92.5,180,475,1999
-1,M,Stephen King,SBD,M-Jr,120+,Single-ply,149.1,375,310,305,990,1992
+1,M,Stephen King #2,SBD,M-Jr,120+,Single-ply,149.1,375,310,305,990,1992
 2,M,Alexander Fletcher,SBD,M-Jr,120+,Single-ply,120.4,215,170,245,630,
-3,M,Doug Walker,SBD,M-Jr,120+,Single-ply,139,240,132.5,197.5,570,1996
+3,M,Doug Walker #3,SBD,M-Jr,120+,Single-ply,139,240,132.5,197.5,570,1996
 1,M,Jeff Book,SBD,MR-Jr,66,Raw,65,137.5,125,182.5,445,1994
 1,M,Colin Capparelle,SBD,MR-Jr,74,Raw,72.9,172.5,115,197.5,485,1994
 1,M,Javon Ryan,SBD,MR-Jr,83,Raw,80.1,165,112.5,212.5,490,1995
@@ -55,7 +55,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 5,M,Shane Vanesky,SBD,MR-Jr,93,Raw,92.3,185,125,247.5,557.5,
 6,M,Austin Hoffman,SBD,MR-Jr,93,Raw,93,185,122.5,230,537.5,1995
 7,M,Matt Brown #3,SBD,MR-Jr,93,Raw,90.8,182.5,112.5,192.5,487.5,
-1,M,Steve Mann,SBD,MR-O,120,Raw,118.4,265,205,287.5,757.5,1975
+1,M,Steve Mann #1,SBD,MR-O,120,Raw,118.4,265,205,287.5,757.5,1975
 1,F,Danielle Cafiero,SBD,FR-T3,63,Raw,61,107.5,52.5,120,280,1995
 1,F,Angelica Garcia,SBD,F-T3,57,Single-ply,55.8,92.5,57.5,110,260,1995
 1,F,Brittany Cafiero,SBD,F-T3,63,Single-ply,62.2,107.5,50,115,272.5,1995

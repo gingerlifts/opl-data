@@ -1,6 +1,6 @@
 Place,Name,Team,BirthDate,Sex,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Equipment
 2,Monja Schubert,AV Vorwärts 05 Groß-Zimmern,1995-06-13,F,Open,48.6,52,87.5,90,95,95,47.5,50,-52.5,50,117.5,122.5,127.5,127.5,272.5,SBD,Raw
-1,Sarah Klein,Aachener Kraftsport e.V.,1988-01-28,F,Open,50.12,52,95,100,107.5,107.5,57.5,-62.5,-62.5,57.5,115,120,125,125,290,SBD,Raw
+1,Sarah Klein #1,Aachener Kraftsport e.V.,1988-01-28,F,Open,50.12,52,95,100,107.5,107.5,57.5,-62.5,-62.5,57.5,115,120,125,125,290,SBD,Raw
 1,Ira Neitzel,Kraftsport Colonia,1981-06-30,F,Open,51.46,52,120,127.5,135,135,67.5,-72.5,72.5,72.5,105,115,125,125,332.5,SBD,Single-ply
 4,Sabrina Bajorat,ASV 1900 Griesheim e.V.,1988-12-26,F,Open,52.8,57,90,95,100,100,50,55,-57.5,55,105,115,125,125,280,SBD,Raw
 5,Romina Basting,Aachener Kraftsport e.V.,1993-05-07,F,Open,53.92,57,95,100,-102.5,100,50,52.5,-55,52.5,107.5,115,120,120,272.5,SBD,Raw
@@ -59,7 +59,7 @@ DQ,Pauline Leonie Scholzgart,Gütersloher Schwerathletik e.V.,1997-08-26,F,Junio
 1,Ayman Fakhar,Kraftsport Colonia,,M,Youth A,81.6,83,157.5,167.5,172.5,172.5,-95,95,-102.5,95,190,205,215,215,482.5,SBD,Raw
 1,Joseph Giscard Fokoua Tensso,Gütersloher Schwerathletik e.V.,1984-05-02,M,Open,81.66,83,205,-215,-215,205,122.5,127.5,-132.5,127.5,230,-242.5,-242.5,230,562.5,SBD,Raw
 2,Robin Schmeing,Kraftsport Colonia,1995-06-28,M,Open,81.76,83,192.5,202.5,212.5,212.5,122.5,130,-135,130,197.5,205,212.5,212.5,555,SBD,Raw
-1,Jan Andreas Smolczyk,Powerlifting Duisburg e.V.,,M,Masters 1,82.2,83,175,200,-210,200,130,152.5,157.5,157.5,225,242.5,250,250,607.5,SBD,Single-ply
+1,Jan Smolczyk,Powerlifting Duisburg e.V.,,M,Masters 1,82.2,83,175,200,-210,200,130,152.5,157.5,157.5,225,242.5,250,250,607.5,SBD,Single-ply
 1,Pijus Alisauskas,Kraftsport Colonia,,M,Juniors,82.68,83,207.5,217.5,225,225,157.5,-165,165,165,220,237.5,245,245,635,SBD,Raw
 2,Julia Roll,Aachener Kraftsport e.V.,1995-01-10,F,Open,82.82,84,137.5,145,150,150,-90,90,-97.5,90,152.5,160,-167.5,160,400,SBD,Raw
 1,Lydia Schneider-Reuter,Schwerathletik Hamburg e. V.,1996-07-11,F,Juniors,82.88,84,120,130,140,140,70,75,-80,75,130,140,152.5,152.5,367.5,SBD,Raw

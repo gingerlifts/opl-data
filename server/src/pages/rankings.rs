@@ -1,10 +1,10 @@
 //! Logic for the display of the rankings page.
 
+use langpack::Language;
 use opldb::query::direct::*;
 use opltypes::states::State;
 
-use crate::langpack::{self, Language};
-use crate::pages::api_rankings::get_slice;
+use crate::pages::api_rankings::query_slice;
 
 /// Flattened version of the RankingsQuery database object.
 ///
@@ -65,30 +65,30 @@ pub struct Context<'db, 'a> {
 impl<'db, 'a> Context<'db, 'a> {
     pub fn new(
         opldb: &'db opldb::OplDb,
-        locale: &'db langpack::Locale<'a>,
+        locale: &'db langpack::Locale,
         selection: &'a RankingsQuery,
         defaults: &'a RankingsQuery,
         use_ipf_equipment: bool,
     ) -> Option<Context<'db, 'a>> {
         // Inline the top 100 to avoid another round-trip.
-        let mut slice = get_slice(&opldb, &locale, &selection, &defaults, 0, 99);
+        let mut slice = query_slice(opldb, locale, selection, defaults, 0, 99);
 
         // If this is for the IPF, use different names for some equipment.
         if use_ipf_equipment {
             for row in &mut slice.rows {
                 if row.equipment == locale.strings.equipment.raw {
-                    row.equipment = &locale.strings.equipment.classic;
+                    row.equipment = locale.strings.equipment.classic;
                 }
                 if row.equipment == locale.strings.equipment.single {
-                    row.equipment = &locale.strings.equipment.equipped;
+                    row.equipment = locale.strings.equipment.equipped;
                 }
             }
         }
 
         Some(Context {
             urlprefix: "/",
-            page_title: &locale.strings.page_titles.rankings,
-            page_description: &locale.strings.html_header.description,
+            page_title: locale.strings.page_titles.rankings,
+            page_description: locale.strings.html_header.description,
             language: locale.language,
             strings: locale.strings,
             units: locale.units,

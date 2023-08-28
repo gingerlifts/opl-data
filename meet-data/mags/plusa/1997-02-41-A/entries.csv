@@ -69,10 +69,10 @@ K. Smith,125,Below Class I,,M,242.5,167.5,247.5,657.5,SBD,Single-ply,1
 B. Romalowski,125,Below Class I,,M,250,137.5,250,637.5,SBD,Single-ply,2
 Jeff Neal,125+,Below Class I,,M,345,227.5,307.5,880,SBD,Single-ply,1
 Jesse Soliz III,125+,Below Class I,,M,200,107.5,195,502.5,SBD,Single-ply,2
-A. Galant,56,Masters 40-49,40-49,M,145,90,165,400,SBD,Single-ply,1
+Alex Galant,56,Masters 40-49,40-49,M,145,90,165,400,SBD,Single-ply,1
 Art Menton,82.5,Masters 40-49,40-49,M,252.5,152.5,240.5,645.5,SBD,Single-ply,1
 S. Tighe,82.5,Masters 40-49,40-49,M,190,120,227.5,537.5,SBD,Single-ply,2
-P. Meheran,90,Masters 40-49,40-49,M,215,120,250,585,SBD,Single-ply,1
+Peter Meheran,90,Masters 40-49,40-49,M,215,120,250,585,SBD,Single-ply,1
 Rich Stradtman,100,Masters 40-49,40-49,M,215,155,250,620,SBD,Single-ply,1
 M. Villarreal,100,Masters 40-49,40-49,M,227.5,150,217.5,595,SBD,Single-ply,3
 R. MacDougall,100,Masters 40-49,40-49,M,217.5,157.5,227.5,602.5,SBD,Single-ply,2
@@ -84,8 +84,8 @@ M. McDaniel,125,Masters 40-49,40-49,M,287.5,185,272.5,745,SBD,Single-ply,1
 H. Bodden,100,Masters 50+,50-999,M,147.5,147.5,205,500,SBD,Single-ply,1
 T. Bright,100,Masters 50+,50-999,M,147.5,137.5,170,455,SBD,Single-ply,2
 C. Wahl,125,Masters 50+,50-999,M,122.5,82.5,142.5,347.5,SBD,Single-ply,1
-Thuong Nguyen,52,Open,,M,182.5,107.5,195,485,SBD,Single-ply,1
-A. Galant,56,Open,,M,145,90,165,400,SBD,Single-ply,1
+Thuong Nguyen #2,52,Open,,M,182.5,107.5,195,485,SBD,Single-ply,1
+Alex Galant,56,Open,,M,145,90,165,400,SBD,Single-ply,1
 C. Calderon,60,Open,,M,175,102.5,162.5,440,SBD,Single-ply,1
 Ralph McCarty,75,Open,,M,260,192.5,227.5,680,SBD,Single-ply,1
 Donald Madere,90,Open,,M,272.5,200,257.5,730,SBD,Single-ply,1
@@ -102,7 +102,7 @@ B. Hufnagle,100,Open,,M,245,150,225,620,SBD,Single-ply,5
 Rich Stradtman,100,Open,,M,215,155,250,620,SBD,Single-ply,6
 Tim Bruner,110,Open,,M,310,215,322.5,847.5,SBD,Single-ply,1
 M. Simmons,110,Open,,M,322.5,182.5,305,810,SBD,Single-ply,2
-Chris Garcia,110,Open,,M,332.5,137.5,282.5,752.5,SBD,Single-ply,3
+Chris Garcia #3,110,Open,,M,332.5,137.5,282.5,752.5,SBD,Single-ply,3
 Andy Meadows,110,Open,,M,300,185,255,740,SBD,Single-ply,4
 J. Holt,110,Open,,M,250,185,230,665,SBD,Single-ply,5
 Flip Silva Jr,110,Open,,M,227.5,175,227.5,630,SBD,Single-ply,6
@@ -128,7 +128,7 @@ Terry Gunn,100,Submasters,35-39,M,245,147.5,245,637.5,SBD,Single-ply,5
 K. Wilk,100,Submasters,35-39,M,227.5,150,237.5,615,SBD,Single-ply,6
 A. Sims,100,Submasters,35-39,M,212.5,145,227.5,585,SBD,Single-ply,7
 Tim Bruner,110,Submasters,35-39,M,310,215,322.5,847.5,SBD,Single-ply,1
-Chris Garcia,110,Submasters,35-39,M,332.5,137.5,282.5,752.5,SBD,Single-ply,2
+Chris Garcia #3,110,Submasters,35-39,M,332.5,137.5,282.5,752.5,SBD,Single-ply,2
 K. Reed,110,Submasters,35-39,M,227.5,150,295,672.5,SBD,Single-ply,3
 R. Truelove,75,Teen,13-19,M,185,107.5,192.5,485,SBD,Single-ply,1
 F. Hernandez,82.5,Teen,13-19,M,182.5,130,205,517.5,SBD,Single-ply,1
@@ -145,8 +145,8 @@ Valerie Luna,52,Open,,F,130,57.5,132.5,320,SBD,Single-ply,1
 S. Taylor,52,Open,,F,90,57.5,95,242.5,SBD,Single-ply,2
 M. Pair,56,Open,,F,90,40,115,245,SBD,Single-ply,1
 R. Abete,56,Open,,F,75,37.5,102.5,215,SBD,Single-ply,2
-J. Cowan,60,Open,,F,117.5,62.5,147.5,327.5,SBD,Single-ply,1
-C. Campbell,60,Open,,F,92.5,57.5,122.5,272.5,SBD,Single-ply,2
+Jill Cowan,60,Open,,F,117.5,62.5,147.5,327.5,SBD,Single-ply,1
+C. Campbell #4,60,Open,,F,92.5,57.5,122.5,272.5,SBD,Single-ply,2
 D. Cole,67.5,Open,,F,102.5,60,122.5,285,SBD,Single-ply,1
 L. Smith,75,Open,,F,125,70,170,365,SBD,Single-ply,1
 L. Berry,75,Open,,F,100,47.5,77.5,225,SBD,Single-ply,2
@@ -155,5 +155,5 @@ K. Ford,67.5,Open,,F,,65,,65,B,Single-ply,1
 D. Cole,67.5,Open,,F,,60,,60,B,Single-ply,2
 D. McColley,52,Masters,40-999,F,60,37.5,92.5,190,SBD,Single-ply,1
 D. Cole,67.5,Masters,40-999,F,102.5,60,122.5,285,SBD,Single-ply,1
-J. Cowan,60,Submasters,35-39,F,117.5,62.5,147.5,327.5,SBD,Single-ply,1
+Jill Cowan,60,Submasters,35-39,F,117.5,62.5,147.5,327.5,SBD,Single-ply,1
 K. Ford,67.5,Teen,13-19,F,117.5,65,122.5,305,SBD,Single-ply,1

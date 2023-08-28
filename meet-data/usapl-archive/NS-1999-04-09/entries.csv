@@ -37,13 +37,13 @@ WeightClassKg,Name,Sex,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 67.5,Heide Mertizig,F,F-V,102.5,60,125,287.5,SBD,Single-ply,7
 67.5,Megan Dahmen,F,F-V,102.5,50,92.5,245,SBD,Single-ply,8
 75,A. Mankeiwicz,F,F-V,150,62.5,145,357.5,SBD,Single-ply,1
-75,J. Haynes,F,F-V,145,57.5,140,342.5,SBD,Single-ply,2
+75,Jessica Haynes,F,F-V,145,57.5,140,342.5,SBD,Single-ply,2
 75,M. Genich,F,F-V,115,60,142.5,317.5,SBD,Single-ply,3
 75,S. Bockin,F,F-V,112.5,52.5,150,315,SBD,Single-ply,4
 75,K. Mc Pherson,F,F-V,62.5,52.5,92.5,207.5,SBD,Single-ply,5
 75,J. Wright,F,F-V,137.5,,,,SBD,Single-ply,DQ
 75,M. Pourciau,F,F-V,,,,,SBD,Single-ply,DQ
-82.5,S. Hoitink,F,F-V,157.5,77.5,165,400,SBD,Single-ply,1
+82.5,Sara Hoitink,F,F-V,157.5,77.5,165,400,SBD,Single-ply,1
 82.5,K. Ford,F,F-V,142,90,160,392,SBD,Single-ply,2
 82.5,B. Mc Sloy,F,F-V,130,62.5,165,357.5,SBD,Single-ply,3
 82.5,K. Smith,F,F-V,137,70,132.5,339.5,SBD,Single-ply,4
@@ -52,7 +52,7 @@ WeightClassKg,Name,Sex,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 90,R. Diaz,F,F-V,137.5,70,152.5,360,SBD,Single-ply,2
 90,J. Gooden,F,F-V,147.5,62.5,137.5,347.5,SBD,Single-ply,3
 90,J. Morales,F,F-V,102.5,47.5,137.5,287.5,SBD,Single-ply,4
-90+,S. Pledger,F,F-V,185,80,177.5,442.5,SBD,Single-ply,1
+90+,Sabrina Pledger,F,F-V,185,80,177.5,442.5,SBD,Single-ply,1
 90+,J. Rogue,F,F-V,182.5,90,135,407.5,SBD,Single-ply,2
 90+,A. Simmons,F,F-V,172.5,62.5,170,405,SBD,Single-ply,3
 90+,N. Gibson,F,F-V,147.5,75,167.5,390,SBD,Single-ply,4
@@ -154,7 +154,7 @@ WeightClassKg,Name,Sex,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 90,B. See,M,M-V,242.5,142.5,217.5,602.5,SBD,Single-ply,7
 90,J. Maccoux,M,M-V,220,137.5,235,592.5,SBD,Single-ply,8
 90,D. Bolton,M,M-V,230,120,227.5,577.5,SBD,Single-ply,9
-90,M. Thomas,M,M-V,207.5,112.5,235,555,SBD,Single-ply,10
+90,M. Thomas #4,M,M-V,207.5,112.5,235,555,SBD,Single-ply,10
 90,B. Deters,M,M-V,192.5,127.5,197.5,517.5,SBD,Single-ply,11
 90,C. Pusel,M,M-V,180,115,217.5,512.5,SBD,Single-ply,12
 90,J. Neumann,M,M-V,165,117.5,177.5,460,SBD,Single-ply,13
@@ -223,7 +223,7 @@ WeightClassKg,Name,Sex,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 60,J. Ouellette,M,M-JV,117.5,75,150,342.5,SBD,Single-ply,5
 60,S. Koghl,M,M-JV,112.5,70,147.5,330,SBD,Single-ply,6
 60,S. Dura,M,M-JV,120,80,117.5,317.5,SBD,Single-ply,7
-60,A. Degroot,M,M-JV,110,,,,SBD,Single-ply,DQ
+60,A. DeGroot,M,M-JV,110,,,,SBD,Single-ply,DQ
 67.5,B. Nash,M,M-JV,167.5,100,195,462.5,SBD,Single-ply,1
 67.5,J. Griffin #2,M,M-JV,165,85,185.5,435.5,SBD,Single-ply,2
 67.5,J. Nunly,M,M-JV,135,70,175,380,SBD,Single-ply,3
@@ -265,4 +265,4 @@ WeightClassKg,Name,Sex,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 110,S. Koghl,M,M-JV,112.5,70,147.5,330,SBD,Single-ply,11
 125,J. Majefskl,M,M-JV,205,140,182.5,527.5,SBD,Single-ply,1
 125,T. Snerly,M,M-JV,187.5,102.5,167.5,457.5,SBD,Single-ply,2
-125+,J. Hill,M,M-JV,180,90,150,420,SBD,Single-ply,1
+125+,Jason Hill,M,M-JV,180,90,150,420,SBD,Single-ply,1

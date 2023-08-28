@@ -34,7 +34,7 @@ DQ,Open,F,56,1960,Diane Siveny,56,USA,-80,-80,-82.5,,,,B,Single-ply
 5,Open,F,60,1955,Yoshiko Komi,59.6,Japan,117.5,-125,-127.5,117.5,117.5,,B,Single-ply
 6,Open,F,60,1982,Natalya Busarova,58.8,Russia,102.5,-105,-105,102.5,102.5,,B,Single-ply
 7,Open,F,60,1967,Ute Villwock,58.8,Germany,-92.5,92.5,-100,92.5,92.5,,B,Single-ply
-8,Open,F,60,1975,Jadwiga Radwanska,59.4,Poland,90,-97.5,-97.5,90,90,,B,Single-ply
+8,Open,F,60,1975,Jadwiga Radwańska',59.4,Poland,90,-97.5,-97.5,90,90,,B,Single-ply
 9,Open,F,60,1969,Kseniya Aloeva,59.6,Ukraine,-72.5,72.5,-77.5,72.5,72.5,,B,Single-ply
 10,Open,F,60,1968,Rita Moni Baruah,58,India,42.5,47.5,50,50,50,,B,Single-ply
 DQ,Open,F,60,1979,Elena Kuleshova,59.4,Russia,-122.5,-122.5,-122.5,,,,B,Single-ply
@@ -56,7 +56,7 @@ DQ,Open,F,60,1979,Elena Kuleshova,59.4,Russia,-122.5,-122.5,-122.5,,,,B,Single-p
 8,Open,F,75,1970,Eva-Maria Gall,70.8,Germany,107.5,115,-120,115,115,,B,Single-ply
 9,Open,F,75,1974,Edyta Bosak,71.55,Poland,105,-110,-110,105,105,,B,Single-ply
 10,Open,F,75,1972,Wendie Kirkland,70.9,UK,-80,80,87.5,87.5,87.5,,B,Single-ply
-1,Open,F,82.5,1971,Timea Zavodszki,82.3,Hungary,145,150,155,155,155,,B,Single-ply
+1,Open,F,82.5,1971,Timea Závodszky,82.3,Hungary,145,150,155,155,155,,B,Single-ply
 2,Open,F,82.5,1977,Elena Yurik,79.44,Russia,135,137.5,140,140,140,,B,Single-ply
 3,Open,F,82.5,1973,Ielja Strik,81.3,Netherlands,132.5,-140,-142.5,132.5,132.5,,B,Single-ply
 4,Open,F,82.5,1963,Birgit Witt,78.77,Germany,105,112.5,-120,112.5,112.5,,B,Single-ply
@@ -71,9 +71,9 @@ DQ,Open,F,60,1979,Elena Kuleshova,59.4,Russia,-122.5,-122.5,-122.5,,,,B,Single-p
 5,Open,F,90,1975,Katarin Kardosova,89.1,Slovakia,110,115,-120,115,115,,B,Single-ply
 6,Open,F,90,1978,Brenda van der Meulen,89.8,Netherlands,115,-120,-120,115,115,,B,Single-ply
 7,Open,F,90,1975,Monika Trum,84.7,Germany,-112.5,112.5,-117.5,112.5,112.5,,B,Single-ply
-1,Open,F,90+,1964,Deb Ferrel,117.8,USA,165,172.5,180,180,180,,B,Single-ply
+1,Open,F,90+,1964,Deborah Ferrell,117.8,USA,165,172.5,180,180,180,,B,Single-ply
 2,Open,F,90+,1971,Chen-Yeh Chao,115.3,Taiwan,175,-180,-180,175,175,,B,Single-ply
-3,Open,F,90+,1967,Larysa Piatrova,106.9,Belarus,-142.5,142.5,147.5,147.5,147.5,,B,Single-ply
+3,Open,F,90+,1967,Larisa Petrova,106.9,Belarus,-142.5,142.5,147.5,147.5,147.5,,B,Single-ply
 4,Open,F,90+,1967,Joanne Schaefer,101.33,Netherlands,130,-137.5,-142.5,130,130,,B,Single-ply
 5,Open,F,90+,1962,Susanne Formgren,98.22,Sweden,125,127.5,-135,127.5,127.5,,B,Single-ply
 6,Open,F,90+,1973,Katariina Nokua,92,Finland,-100,100,-107.5,100,100,,B,Single-ply
@@ -100,7 +100,7 @@ DQ,Open,F,60,1979,Elena Kuleshova,59.4,Russia,-122.5,-122.5,-122.5,,,,B,Single-p
 11,Open,M,60,1975,Ruis Pas Ferreira,59.66,Luxembourg,100,107.5,110,110,110,,B,Single-ply
 1,Open,M,67.5,1966,Alphonse Cucuzella,67,France,185,190,-192.5,190,190,,B,Single-ply
 2,Open,M,67.5,1973,Paweł Pracownik,67.4,Poland,187.5,-192.5,-195,187.5,187.5,,B,Single-ply
-3,Open,M,67.5,1963,Marku Stappenbeck,66.2,Germany,182.5,-187.5,-190,182.5,182.5,,B,Single-ply
+3,Open,M,67.5,1963,Markus Stappenbeck,66.2,Germany,182.5,-187.5,-190,182.5,182.5,,B,Single-ply
 4,Open,M,67.5,1962,Lance Slaughter,67.2,USA,182.5,-187.5,-192.5,182.5,182.5,,B,Single-ply
 5,Open,M,67.5,1971,Roman Zuzuk,67.33,Ukraine,177.5,182.5,-185,182.5,182.5,,B,Single-ply
 6,Open,M,67.5,1950,Claude Sitruk,61.9,France,150,157.5,165,165,165,,B,Single-ply
@@ -128,8 +128,8 @@ DQ,Open,M,75,1977,Volodym Narolskyy,75,Ukraine,-192.5,-202.5,-202.5,,,,B,Single-
 3,Open,M,82.5,1965,Jan Wegiera,82,Poland,215,222.5,-227.5,222.5,222.5,,B,Single-ply
 4,Open,M,82.5,1976,Gerhard Grossbeck,81.6,Austria,190,200,-210,200,200,,B,Single-ply
 5,Open,M,82.5,1959,Didier Compain,81.8,France,-200,-200,200,200,200,,B,Single-ply
-6,Open,M,82.5,1979,Gregory Thomas,82.3,France,195,-200,-200,195,195,,B,Single-ply
-7,Open,M,82.5,1973,Vladimír Urban,82.4,Slovakia,185,190,-197.5,190,190,,B,Single-ply
+6,Open,M,82.5,1979,Grégory Thomas,82.3,France,195,-200,-200,195,195,,B,Single-ply
+7,Open,M,82.5,1973,Vladimír Urban #1,82.4,Slovakia,185,190,-197.5,190,190,,B,Single-ply
 8,Open,M,82.5,1969,Soltani Farshid,81.41,Iran,-162.5,162.5,177.5,177.5,177.5,,B,Single-ply
 9,Open,M,82.5,1976,Thierry Juncker,80.7,Luxembourg,157.5,165,170,170,170,,B,Single-ply
 10,Open,M,82.5,1974,Naraya Niripendra,82.5,India,-145,145,-150,145,145,,B,Single-ply
@@ -164,13 +164,13 @@ DQ,Open,M,90,1963,Kimmo Pakarinen,89.44,Finland,-215,-215,-222.5,,,,B,Single-ply
 11,Open,M,100,1967,István Hegedüs,98.3,Hungary,-227.5,227.5,-235,227.5,227.5,,B,Single-ply
 12,Open,M,100,1975,Simon Weaver,99.5,New Zealand,190,-197.5,-197.5,190,190,,B,Single-ply
 13,Open,M,100,1967,Fabrice Pacini,95.4,Luxembourg,180,187.5,-192.5,187.5,187.5,,B,Single-ply
-14,Open,M,100,1970,Eser Turgut,98.1,Belgium,172.5,-175,,172.5,172.5,,B,Single-ply
+14,Open,M,100,1970,Turgut Eser,98.1,Belgium,172.5,-175,,172.5,172.5,,B,Single-ply
 15,Open,M,100,1966,Greg Xenoporus,99.33,South Africa,172.5,-185,-185,172.5,172.5,,B,Single-ply
 DQ,Open,M,100,1976,Richard Twycross-Lewis,97.6,UK,-227.5,-227.5,-227.5,,,,B,Single-ply
 DQ,Open,M,100,1976,Matthias Marten,98.4,Germany,-222.5,-222.5,-230,,,,B,Single-ply
 1,Open,M,110,1968,László Mészáros,109.8,Hungary,285.5,290,295,295,295,,B,Single-ply
 2,Open,M,110,1976,Pat Wilson,103.2,USA,262.5,272.5,-275,272.5,272.5,,B,Single-ply
-3,Open,M,110,1964,Dave Doan,108.3,USA,-260,260,-267.5,260,260,,B,Single-ply
+3,Open,M,110,1964,David Doan,108.3,USA,-260,260,-267.5,260,260,,B,Single-ply
 4,Open,M,110,1970,Yuriy Khuazhev,108.7,Russia,240,250,-262.5,250,250,,B,Single-ply
 5,Open,M,110,1966,Marcus Hoen,109,Germany,225,232.5,240,240,240,,B,Single-ply
 6,Open,M,110,1967,Uģis Vācietis,107.8,Latvia,230,-235,-235,230,230,,B,Single-ply
@@ -180,7 +180,7 @@ DQ,Open,M,100,1976,Matthias Marten,98.4,Germany,-222.5,-222.5,-230,,,,B,Single-p
 DQ,Open,M,110,1968,Masashi Saito,108.4,Japan,-267.5,-267.5,-275,,,,B,Single-ply
 1,Open,M,125,1973,Eduard Isakov,119.6,Russia,-282.5,282.5,-290,282.5,282.5,,B,Single-ply
 2,Open,M,125,1977,Dariusz Mirowski,113.9,Poland,260,270,275,275,275,,B,Single-ply
-3,Open,M,125,1966,Vladimir Maksimov,123.2,Russia,260,267.5,-275,267.5,267.5,,B,Single-ply
+3,Open,M,125,1966,Vladimir Maksimov #1,123.2,Russia,260,267.5,-275,267.5,267.5,,B,Single-ply
 4,Open,M,125,1964,John Battye,116.7,UK,255,265,-272.5,265,265,,B,Single-ply
 5,Open,M,125,1955,Oleg Gusev,122.66,Belarus,265,-275,-275,265,265,,B,Single-ply
 6,Open,M,125,1972,Ove Lehto,124,Finland,257.5,265,-270,265,265,,B,Single-ply

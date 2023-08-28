@@ -10,8 +10,8 @@ Place,WeightClassKg,Name,State,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3Deadl
 1,67.5,Rebecca Turner,TX,67.36,,105,115,220,wopen,F,BD,Raw
 1,40,Grace Solleder,TX,35.83,,,52.5,52.5,wyouth,F,D,Raw
 1,90+,Tori Scott,TX,136.08,145,55,142.5,342.5,whs,F,SBD,Wraps
-DQ,60,Danielle Armstrong,TX,57.42,85,60,,,wpure,F,SBD,Wraps
-DQ,60,Danielle Armstrong,TX,57.42,85,60,,,wsm1,F,SBD,Wraps
+DQ,60,Danielle Armstrong #3,TX,57.42,85,60,,,wpure,F,SBD,Wraps
+DQ,60,Danielle Armstrong #3,TX,57.42,85,60,,,wsm1,F,SBD,Wraps
 1,52,Stephanie Washington,TX,49.85,92.5,50,105,247.5,wint,F,SBD,Wraps
 1,52,Jennifer Holley,TX,50.76,75,42.5,80,197.5,wm1,F,SBD,Wraps
 1,67.5,Anna Drake,TX,66.27,47.5,40,82.5,170,wm2,F,SBD,Wraps
@@ -68,7 +68,7 @@ DQ,60,Danielle Armstrong,TX,57.42,85,60,,,wsm1,F,SBD,Wraps
 1,82.5,Peter Pegram,TX,80.47,,137.5,205,342.5,smp,M,BD,Raw
 1,90,Jeremiah Roberts,TX,87.18,,125,210,335,sm1,M,BD,Raw
 1,82.5,Larry Marker,NM,81.65,,117.5,182.5,300,m2,M,BD,Raw
-2,82.5,Chris Dean,TX,81.87,,155,142.5,297.5,sm1,M,BD,Raw
+2,82.5,Chris Dean #2,TX,81.87,,155,142.5,297.5,sm1,M,BD,Raw
 1,100,Jesse Cleaver,TX,95.57,,90,212.5,302.5,nov,M,BD,Raw
 1,90,Javier Tierrablanca,TX,86.64,,132.5,137.5,270,nov,M,BD,Raw
 1,100,Mike Haynes,TX,94.8,,110,142.5,252.5,sm2,M,BD,Raw
@@ -86,7 +86,7 @@ DQ,60,Danielle Armstrong,TX,57.42,85,60,,,wsm1,F,SBD,Wraps
 1,100,Garth Wotkyns,TX,93.44,212.5,167.5,227.5,607.5,m1,M,SBD,Wraps
 1,100,Garth Wotkyns,TX,93.44,212.5,167.5,227.5,607.5,open,M,SBD,Wraps
 1,82.5,Trevor Sellers,TX,80.47,185,140,222.5,547.5,hs,M,SBD,Wraps
-1,90,Chance Mitchell,TX,88.41,207.5,125,240,572.5,teen,M,SBD,Wraps
+1,90,Chance Mitchell #1,TX,88.41,207.5,125,240,572.5,teen,M,SBD,Wraps
 4,90,Nathan Nix,TX,84.1,182.5,137.5,227.5,547.5,open,M,SBD,Wraps
 1,100,Nathan Lunde,TX,99.25,227.5,132.5,232.5,592.5,pure,M,SBD,Wraps
 1,110,David Torres #2,TX,101.74,207.5,147.5,242.5,597.5,smp,M,SBD,Wraps
@@ -112,7 +112,7 @@ DQ,60,Danielle Armstrong,TX,57.42,85,60,,,wsm1,F,SBD,Wraps
 2,82.5,Preston Wilkes,LA,79.02,142.5,87.5,160,390,hs,M,SBD,Wraps
 1,56,Xitij Shah,TX,55.38,112.5,77.5,125,315,int,M,SBD,Wraps
 1,125,Lyndon LaPlante,TX,110.95,95,80,162.5,337.5,so,M,SBD,Wraps
-2,56,Jacob Green,TX,54.02,70,47.5,92.5,210,hs,M,SBD,Wraps
+2,56,Jacob Green #4,TX,54.02,70,47.5,92.5,210,hs,M,SBD,Wraps
 DQ,100,Robert Ramsey #2,TX,99.16,250,,,,pure,M,SBD,Wraps
 1,90,Kirk Juliano,TX,88.09,,190,,190,smp,M,B,Raw
 1,125,Alex Hamblin,TX,124.74,,160,,160,p+f,M,B,Raw

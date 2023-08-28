@@ -10,7 +10,7 @@ Place,Name,BirthYear,BodyweightKg,Best3BenchKg,WeightClassKg,Sex,CyrillicName,Di
 3,Yuriy Povetkin,1939,65.65,145,67.5,M,Юрий Поветкин,Open,B,Single-ply,145
 4,Fedor Balakov,1981,67,120,67.5,M,Федор Балаков,Open,B,Single-ply,120
 1,Aleksey Zhukov,1980,70.55,192.5,75,M,Алексей Жуков,Open,B,Single-ply,192.5
-2,Vladimir Zakharov,1969,69,190,75,M,Владимир Захаров,Open,B,Single-ply,190
+2,Vladimir Zakharov #6,1969,69,190,75,M,Владимир Захаров,Open,B,Single-ply,190
 3,Mikhail Stebletsov,1980,75,170,75,M,Михаил Стеблецов,Open,B,Single-ply,170
 4,Igor Priemyshev,1982,74.9,165,75,M,Игорь Приемышев,Open,B,Single-ply,165
 5,Aleksandr Tatarkin,1955,73.05,160,75,M,Александр Татаркин,Open,B,Single-ply,160
@@ -32,7 +32,7 @@ DQ,Ernest Gazaryan,1979,77.4,,82.5,M,Эрнест Газарян,Open,B,Single-p
 1,Aleksey Ryzhov,1974,89.15,242.5,90,M,Алексей Рыжов,Open,B,Single-ply,242.5
 2,Dmitriy Orel,1970,88.8,232.5,90,M,Дмитрий Орел,Open,B,Single-ply,232.5
 3,Ilya Gorchakov,1981,87.75,220,90,M,Илья Горчаков,Open,B,Single-ply,220
-4,Vladimir Volkov,1959,89.3,220,90,M,Владимир Волков,Open,B,Single-ply,220
+4,Vladimir Volkov #1,1959,89.3,220,90,M,Владимир Волков,Open,B,Single-ply,220
 5,Sergey Kurochkin,1975,87.8,210,90,M,Сергей Курочкин,Open,B,Single-ply,210
 6,Mikhail Pivovarov,1975,87.5,200,90,M,Михаил Пивоваров,Open,B,Single-ply,200
 7,Sergey Speranskiy,1975,87.2,190,90,M,Сергей Сперанский,Open,B,Single-ply,190
@@ -58,12 +58,12 @@ DQ,Ernest Gazaryan,1979,77.4,,82.5,M,Эрнест Газарян,Open,B,Single-p
 6,Grigoriy Sakharov,1977,108.25,180,110,M,Григорий Сахаров,Open,B,Single-ply,180
 1,Pavel Badyrov,1964,113.7,257.5,125,M,Павел Бадыров,Open,B,Single-ply,257.5
 2,Alexey Samsonov,1974,114.35,250,125,M,Алексей Самсонов,Open,B,Single-ply,250
-3,Aleksandr Sergeev,1971,115.5,240,125,M,Александр Сергеев,Open,B,Single-ply,240
+3,Aleksandr Sergeev #2,1971,115.5,240,125,M,Александр Сергеев,Open,B,Single-ply,240
 4,Oleg Livshits,1973,111.55,220,125,M,Олег Лившиц,Open,B,Single-ply,220
 5,Vitaliy Kuznetsov,1973,118.4,220,125,M,Виталий Кузнецов,Open,B,Single-ply,220
 6,Lev Liberant,1970,111.35,215,125,M,Лев Либерант,Open,B,Single-ply,215
 7,Aleksandr Skorokhodov,1973,115.25,200,125,M,Александр Скороходов,Open,B,Single-ply,200
-8,Yuriy Panteleev,1975,119.15,200,125,M,Юрий Пантелеев,Open,B,Single-ply,200
+8,Yuriy Panteleev #1,1975,119.15,200,125,M,Юрий Пантелеев,Open,B,Single-ply,200
 9,Oleg Sonchik,1974,111,195,125,M,Олег Сончик,Open,B,Single-ply,195
 10,Evgeniy Dmitriev,1940,116.2,160,125,M,Евгений Дмитриев,Open,B,Single-ply,160
 1,Vladimir Kravtsov,1972,126.5,285,125+,M,Владимир Кравцов,Open,B,Single-ply,285

@@ -1,7 +1,7 @@
 Name,Sex,Event,Equipment,Division,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Place
 Amy Dickson,F,B,Raw,F-C-Open,57,57,65,70,75,75,75,1
 Laura Swandel,F,B,Raw,F-C-Open,53.3,57,45,47.5,-50,47.5,47.5,2
-Claire Conway,F,B,Raw,F-C-M1,61.6,63,55,60,-62.5,60,60,1
+Clare Conway,F,B,Raw,F-C-M1,61.6,63,55,60,-62.5,60,60,1
 Geraldine Goligher,F,B,Raw,F-C-M1,62.8,63,55,-60,60,60,60,2
 Dana Suitor,F,B,Raw,F-C-U23,68.2,72,62.5,67.5,70,70,70,1
 Aileen Muldoon,F,B,Raw,F-C-M1,68.9,72,67.5,-70,-70,67.5,67.5,1
@@ -23,9 +23,9 @@ David Wilkes,M,B,Raw,M-C-Open,81.7,83,125,130,-135,130,130,2
 Michael Reid,M,B,Raw,M-C-Open,79.3,83,105,-107.5,112.5,112.5,112.5,3
 Jonathan Hanna,M,B,Raw,M-C-U23,80.8,83,72.5,-80,-80,72.5,72.5,1
 Stephen McKenna,M,B,Raw,M-C-Open,89.4,93,-145,145,150,150,150,1
-Sean Curran,M,B,Raw,M-C-M2,90.7,93,130,135,140,140,140,1
-Chris Mills,M,B,Raw,M-C-Open,83.2,93,110,-117.5,117.5,117.5,117.5,2
-Michael Gibson,M,B,Single-ply,M-E-Open,101.5,105,215,-225,227.5,227.5,227.5,1
+Sean Curran #4,M,B,Raw,M-C-M2,90.7,93,130,135,140,140,140,1
+Chris Mills #1,M,B,Raw,M-C-Open,83.2,93,110,-117.5,117.5,117.5,117.5,2
+Michael Gibson #2,M,B,Single-ply,M-E-Open,101.5,105,215,-225,227.5,227.5,227.5,1
 Anthony McLeggan,M,B,Raw,M-C-Open,101.2,105,180,190,192.5,192.5,192.5,1
 Paul Millar,M,B,Raw,M-C-Open,104.3,105,170,-180,-180,170,170,2
 Ciarán Conroy,M,B,Raw,M-C-Open,103,105,157.5,-162.5,-162.5,157.5,157.5,3

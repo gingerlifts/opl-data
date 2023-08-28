@@ -36,7 +36,7 @@ DQ,Sergiy Bragin,Сергій Брагін,68.9,-155,-155,-155,,75,Pro Juniors 2
 1,Dmitro Cherkay,Дмитро Черкай,69.2,-125,125,-135,125,75,Pro Open,M,B,Raw,125,1985
 DQ,Sergiy Bragin,Сергій Брагін,68.9,-155,-155,-155,,75,Pro Open,M,B,Raw,,1991
 DQ,Anton Gaydaenko,Антон Гайдаєнко,72.6,,,,,75,Pro Open,M,B,Raw,,1986
-1,Maksim Boyarskiy,Максим Боярський,81,-105,110,115,115,82.5,Pro Open,M,B,Raw,115,1984
+1,Maksim Boyarskiy #1,Максим Боярський,81,-105,110,115,115,82.5,Pro Open,M,B,Raw,115,1984
 2,Mikola Semikin,Микола Семікін,77,105,-110,110,110,82.5,Pro Open,M,B,Raw,110,1986
 1,Oleksandr Shcherbakov,Олександр Щербаков,90,202.5,212.5,220,220,90,Pro Open,M,B,Raw,220,1966
 2,Konstyantin Grabovskiy,Констянтин Грабовський,89,185,-190,-190,185,90,Pro Open,M,B,Raw,185,1976
@@ -47,7 +47,7 @@ DQ,Anton Gaydaenko,Антон Гайдаєнко,72.6,,,,,75,Pro Open,M,B,Raw,,1
 5,Leonid Matyukhin,Леонід Матюхін,96.6,155,-162.5,-162.5,155,100,Pro Open,M,B,Raw,155,1977
 1,Volodimir Sosnov,Володимир Соснов,103,160,-170,-170,160,110,Pro Open,M,B,Raw,160,1982
 2,Sergiy Shumskiy,Сергій Шумський,101,135,140,152.5,152.5,110,Pro Open,M,B,Raw,152.5,1985
-3,Vitaliy Savelev,Віталій Савельєв,101.8,135,145,-150,145,110,Pro Open,M,B,Raw,145,1979
+3,Vitaliy Savelev #1,Віталій Савельєв,101.8,135,145,-150,145,110,Pro Open,M,B,Raw,145,1979
 4,Oleksiy Gurtoviy,Олексій Гуртовий,104.4,125,130,-132.5,130,110,Pro Open,M,B,Raw,130,1984
 1,Vitaliy Chorniy,Віталій Чорний,124.9,200,210,215,215,125,Pro Open,M,B,Raw,215,1984
 2,Pavlo Trigub,Павло Тригуб,116,180,190,-200,190,125,Pro Open,M,B,Raw,190,1973
@@ -63,21 +63,21 @@ DQ,Dmitro Zhvaviy,Дмитро Жвавий,116.6,-200,-200,-200,,125,Pro Open,M
 1,Volodimir Nagalyuk,Володимир Нагалюк,85.8,80,85,90,90,90,Pro Masters 55-59,M,B,Raw,90,1951
 1,Yuriy Kislitsya,Юрій Кислиця,89,50,57.5,-65,57.5,90,Pro Masters 70-74,M,B,Raw,57.5,1938
 1,Pavlo Isakov,Павел Исаков,58.1,85,90,,90,60,Pro Teen 18-19,M,B,Multi-ply,90,1991
-1,Oleksandr Chorniy,Олександр Чорний,110,-195,195,207.5,207.5,110,Pro Juniors,M,B,Multi-ply,207.5,1988
+1,Oleksandr Chorniy,Олександр Чорний,110,-195,195,207.5,207.5,110,Pro Juniors 20-23,M,B,Multi-ply,207.5,1988
 1,Anton Gaydaenko,Антон Гайдаєнко,72.6,185,200,-210,200,75,Pro Open,M,B,Multi-ply,200,1986
 1,Konstyantin Sapunkov,Констянтин Сапунков,82.45,185,-190,-190,185,82.5,Pro Open,M,B,Multi-ply,185,1981
 2,Sergiy Sokolovskiy,Сергій Соколовський,81.95,145,152.5,-157.5,152.5,82.5,Pro Open,M,B,Multi-ply,152.5,1976
 1,Volodimir Migas,Володимир Мигас,86,-225,-225,225,225,90,Pro Open,M,B,Multi-ply,225,1975
 2,Efim Stepatskiy,Єфим Степацький,90,-190,190,-195,190,90,Pro Open,M,B,Multi-ply,190,1987
 1,Maksim Kaydan,Максим Кайдан,97.95,210,220,225,225,100,Pro Open,M,B,Multi-ply,225,1985
-2,Viktor Druzhininskiy,Віктор Дружининський,95.9,205,210,215,215,100,Pro Open,M,B,Multi-ply,215,1985
+2,Viktor Druzhininskiy #2,Віктор Дружининський,95.9,205,210,215,215,100,Pro Open,M,B,Multi-ply,215,1985
 1,Andriy Lomnitskiy,Андрій Ломницький,109.2,220,-230,-230,220,110,Pro Open,M,B,Multi-ply,220,1980
 2,Volodimir Zhelankovskiy,Володимир Желанковський,106,200,210,-215,210,110,Pro Open,M,B,Multi-ply,210,1973
 3,Oleksandr Chorniy,Олександр Чорний,110,-195,195,207.5,207.5,110,Pro Open,M,B,Multi-ply,207.5,1988
 1,Oleksandr Shvab,Олександр Шваб,126.9,-200,205,212.5,212.5,140,Pro Open,M,B,Multi-ply,212.5,1976
-1,Arseniy Moskalenko,Арсеній Москаленко,86.65,55,65,-71,65,100,Pro Open,M,B,Multi-ply,65,1994
-2,Sergiy Sokolovskiy,Сергій Соколовський,81.95,45,52.5,55,55,100,Pro Open,M,B,Multi-ply,55,1976
-1,Mikhaylo Kozelchuk,Михайло Козельчук,100.35,50,60,65,65,125,Pro Open,M,B,Multi-ply,65,1988
-2,Vitaliy Savelev,Віталій Савельєв,101.8,50,55,-60,55,125,Pro Open,M,B,Multi-ply,55,1979
+1,Arseniy Moskalenko,Арсеній Москаленко,86.65,55,65,-71,65,90,Pro Open,M,B,Multi-ply,65,1994
+2,Sergiy Sokolovskiy,Сергій Соколовський,81.95,45,52.5,55,55,82.5,Pro Open,M,B,Multi-ply,55,1976
+1,Mikhaylo Kozelchuk,Михайло Козельчук,100.35,50,60,65,65,110,Pro Open,M,B,Multi-ply,65,1988
+2,Vitaliy Savelev #1,Віталій Савельєв,101.8,50,55,-60,55,110,Pro Open,M,B,Multi-ply,55,1979
 1,Dmitro Lomeyko,Дмитро Ломейко,91.2,90,100,105,105,100,Pro Open,M,B,Multi-ply,105,1983
-2,Vitaliy Savelev,Віталій Савельєв,101.8,-90,100,-102.5,100,110,Pro Open,M,B,Multi-ply,100,1979
+2,Vitaliy Savelev #1,Віталій Савельєв,101.8,-90,100,-102.5,100,110,Pro Open,M,B,Multi-ply,100,1979

@@ -71,6 +71,7 @@ def parse_sheetname(s):
         '_', ' ').replace('(', ' ').replace(')', ' ').replace('-', '')
     s = s.replace(' & ', '&')
     s = s.replace('д к', 'дк')  # Drug tested
+    s = s.replace('многопетельнаядк', 'многопетельная дк')
 
     for word in s.split():
         # Federations
@@ -113,17 +114,19 @@ def parse_sheetname(s):
             if equipment == 'Wraps':
                 equipment = 'Raw'
 
+        elif word in ['софт', 'slinghot', 'slingshot', 'soft',
+                      'однопетельная', 'многопетельная'] and event == 'B':
+            equipment = 'Unlimited'
         # Equipment
         elif word in ['однослой', 'однослое', 'односл', 's ply', 'однослойной',
                       '1ой', '1ply', 'однослойная', 'однослойный', 'однолойной',
-                      '1сл', 'односл', 'однопетельная']:
+                      '1сл', 'односл']:
             equipment = 'Single-ply'
         elif word in ['экипировке', 'm ply', 'eq', 'многослой', 'экипировка',
                       'мн', 'эипировке']:
             if equipment == '':  # Otherwise we might accidently mark single as multi
                 equipment = 'Multi-ply'
-        elif word in ['slinghot', 'slingshot', 'soft', 'СПР', 'софт',
-                      'облегченная', 'облегченной', 'слинг']:
+        elif word in ['СПР', 'облегченная', 'облегченной', 'слинг']:
             equipment = 'Multi-ply'
             event = 'B'
         elif 'бинт' in word or word == 'wraps':
@@ -197,6 +200,8 @@ def parse_sheetname(s):
         elif word == 'женщины':  # Women
             pass
         elif word in ['сотрудники', 'сотрудн', 'клиенты']:  # Employees/Members
+            pass
+        elif word in ['шоу']:  # Show
             pass
         else:
             die('Fix parse_sheetname(): Unknown word "%s" in "%s"' % (word, s))
@@ -305,7 +310,7 @@ def parse_fieldnames(sheet):
             fieldnames.append('IGNORE')
         elif text == 'команда' or text == 'coach':  # Coach
             fieldnames.append('IGNORE')
-        elif text in ['сountry/city/state', 'страна/город/область']:
+        elif text in ['сountry/city/state', 'страна/город/область', 'страна/город']:
             fieldnames.append('Country/City/State')
         elif text in ['country/town', 'город/страна']:
             fieldnames.append('Country/City/State')
@@ -422,8 +427,8 @@ def parse_sheet(sheet):
         return csv
     elif 'рулетка' in title:  # From the Russian Roulette division haha
         return csv
-    elif any(x in title for x in ['много', 'фжд', 'военный', '1 вес', 'жд любители',
-                                  'армейский', 'тяговое', 'военный', 'двоеборье',
+    elif any(x in title for x in ['фжд', 'военный', '1 вес', 'жд любители',
+                                  'армейский', 'тяговое', 'военный',
                                   '1_2 веса', 'многоповтор', 'жд']):  # Bench reps
         return csv
     elif 'богатырский' in title:  # Heroic Press ?? Some kind of overhead press maybe
@@ -564,7 +569,8 @@ def standardize_division_age(csv):
         elif 'открытая 24-39' in row[idx]:
             division = 'Open'
         elif ('юниорки 20-23' in row[idx] or 'juniors 20-23' in row[idx] or
-                'юниор 20-23' in row[idx] or 'юниоры 20-23' in row[idx]):
+                'юниор 20-23' in row[idx] or 'юниоры 20-23' in row[idx] or
+                'юнирки 20-23' in row[idx]):
             division = 'Juniors 20-23'
         elif 'девушки 14-16' in row[idx]:
             division = 'Teen 14-16'
@@ -639,7 +645,8 @@ def standardize_division_age(csv):
             division = 'Teen'
         elif 'мастера' in row[idx] or 'master' in row[idx]:
             division = 'Masters'
-        elif any(div in row[idx] for div in ['открытая', 'open', 'открыая', 'откртыая']):
+        elif any(div in row[idx] for div in ['открытая', 'open', 'открыая', 'откртыая',
+                                             'отрытая', 'открытый']):
             division = 'Open'
         elif 'юниор' in row[idx] or 'junior' in row[idx] or 'j' in row[idx]:
             division = 'Juniors 20-23'

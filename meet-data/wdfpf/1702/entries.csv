@@ -23,14 +23,14 @@ WeightClassKg,Name,Country,Age,Sex,Division,BodyweightKg,Best3SquatKg,Best3Bench
 70,Mollie Wagstaff,UK,28,F,F-O,63.3,125,67.5,147.5,340,SBD,Raw,3
 70,Sarah Mentzen,Switzerland,34,F,F-O,68.8,100,67.5,135,302.5,SBD,Raw,4
 70,Katrin Dreyer Gibney,Ireland,56,F,F-M4,66.9,95,45,136.5,276.5,SBD,Raw,1
-70,Elizabeth Dingley,UK,56,F,F-M4,66.5,82.5,57.5,130,270,SBD,Raw,2
+70,Liz Dingley,UK,56,F,F-M4,66.5,82.5,57.5,130,270,SBD,Raw,2
 70,Esther Duncan,USA,15,F,F-T1,67.8,105.5,52.5,117.5,275,SBD,Raw,1
-70,Monika Kohler-Wiesll,Switzerland,58,F,F-M4,67.9,90,52.5,107.5,250,SBD,Raw,3
+70,Monika Kohler-Wiesli,Switzerland,58,F,F-M4,67.9,90,52.5,107.5,250,SBD,Raw,3
 80,Natalie Marsh,UK,22,F,F-JR,77.4,147.5,95,175,417.5,SBD,Raw,1
 80,Kimberley Brown,UK,21,F,F-JR,77.6,120,65,145,330,SBD,Raw,2
 80,Carol Burr,USA,59,F,F-M4,71.2,80,70,140,290,SBD,Raw,1
 90,Bernadette Cuninghame,UK,38,F,F-O,87.4,145,107.5,185,437.5,SBD,Raw,1
-90,Rachel Brown,USA,60,F,F-M5,87.4,92.5,63,135,290.5,SBD,Raw,1
+90,Rachel Brown #1,USA,60,F,F-M5,87.4,92.5,63,135,290.5,SBD,Raw,1
 90+,Y'Deidre Greene,USA,27,F,F-O,91.3,181,117.5,207.5,506,SBD,Raw,1
 90+,Sara Ringbauer,USA,46,F,F-M2,108.8,130,67.5,172.5,370,SBD,Raw,1
 90+,Sharri Margraves,USA,55,F,F-M4,98.8,128,80.5,165,373.5,SBD,Raw,1
@@ -93,7 +93,7 @@ WeightClassKg,Name,Country,Age,Sex,Division,BodyweightKg,Best3SquatKg,Best3Bench
 110,James Benson,UK,24,M,M-O,107.7,240,190,272.5,702.5,SBD,Raw,4
 110,Mike Gallante,USA,43,M,M-M1,108.6,242.5,165,282.5,690,SBD,Raw,1
 110,Michael Goodwin,UK,29,M,M-O,102.4,240,170,277.5,687.5,SBD,Raw,5
-110,Chris Scott,USA,23,M,M-JR,106.5,237.5,152.5,265,655,SBD,Raw,1
+110,Chris Scott #10,USA,23,M,M-JR,106.5,237.5,152.5,265,655,SBD,Raw,1
 110,Steve Welch,USA,43,M,M-M1,109.9,250,142.5,252.5,645,SBD,Raw,2
 110,François Kalic,France,52,M,M-M3,100.2,207.5,155,235,597.5,SBD,Raw,1
 110,Greg Tilley,USA,49,M,M-M2,106.1,180,140,227.5,547.5,SBD,Raw,1

@@ -1,6 +1,6 @@
 Name,WeightClassKg,Division,Sex,Best3BenchKg,TotalKg,Event,Equipment,Place
 L. Detty,,Open,F,68.04,68.04,B,Single-ply,1
-R. Bates,,Open,F,81.65,81.65,B,Single-ply,2
+R. Bates #4,,Open,F,81.65,81.65,B,Single-ply,2
 T. Cosby,,Open,F,58.97,58.97,B,Single-ply,3
 S. Percy,,Open,F,45.36,45.36,B,Single-ply,4
 L. Leeson,,Teen,M,104.33,104.33,B,Single-ply,5
@@ -19,8 +19,8 @@ Fred Park,,Masters 40-49,M,199.58,199.58,B,Single-ply,1
 J. Vest,,Masters 40-49,M,167.83,167.83,B,Single-ply,2
 R. Wayman,,Masters 40-49,M,158.76,158.76,B,Single-ply,3
 Larry Browning,,Masters 40-49,M,167.83,167.83,B,Single-ply,4
-M. Varwig,,Masters 40-49,M,136.08,136.08,B,Single-ply,5
-J. Portman,,Masters 40-49,M,117.93,117.93,B,Single-ply,6
+Mick Varwig,,Masters 40-49,M,136.08,136.08,B,Single-ply,5
+Joe Portman,,Masters 40-49,M,117.93,117.93,B,Single-ply,6
 T. Hendrikson,,Masters 40-49,M,129.27,129.27,B,Single-ply,7
 G. Keesy,,Masters 40-49,M,124.74,124.74,B,Single-ply,8
 M. Park,,Masters 40-49,M,129.27,129.27,B,Single-ply,9
@@ -28,18 +28,18 @@ Bob Coyer,,Masters 40-49,M,149.69,149.69,B,Single-ply,10
 T. Storms,,Masters 50+,M,174.63,174.63,B,Single-ply,1
 T. Waller,,Masters 50+,M,136.08,136.08,B,Single-ply,2
 H. Austin,,Masters 50+,M,131.54,131.54,B,Single-ply,3
-C. Workman,,Masters 50+,M,129.27,129.27,B,Single-ply,4
+Charles Workman,,Masters 50+,M,129.27,129.27,B,Single-ply,4
 T. Pancher,,Masters 50+,M,115.67,115.67,B,Single-ply,5
 L. Leeson,56,Open,M,104.33,104.33,B,Single-ply,1
-Mike Feldhaus,67.5,Open,M,226.8,226.8,B,Single-ply,1
+Michael Feldhaus,67.5,Open,M,181.44,181.44,B,Single-ply,1
 R. Thompson,67.5,Open,M,147.42,147.42,B,Single-ply,2
 J. Wackery,67.5,Open,M,131.54,131.54,B,Single-ply,3
-S. Steele,67.5,Open,M,129.27,129.27,B,Single-ply,4
+S. Steele #2,67.5,Open,M,129.27,129.27,B,Single-ply,4
 J. Lennon,67.5,Open,M,120.2,120.2,B,Single-ply,5
 F. Degenhard,67.5,Open,M,111.13,111.13,B,Single-ply,6
 G. Stiltner,67.5,Open,M,111.13,111.13,B,Single-ply,7
 Arnold Randolph,75,Open,M,181.44,181.44,B,Single-ply,1
-M. Monroe,75,Open,M,161.03,161.03,B,Single-ply,2
+Mark Monroe,75,Open,M,161.03,161.03,B,Single-ply,2
 D. Winans,75,Open,M,149.69,149.69,B,Single-ply,3
 C. Jenkins,75,Open,M,145.15,145.15,B,Single-ply,4
 M. Mays,75,Open,M,145.15,145.15,B,Single-ply,5
@@ -79,7 +79,7 @@ R. Proehl,90,Open,M,151.95,151.95,B,Single-ply,15
 C. Meyers,90,Open,M,140.61,140.61,B,Single-ply,16
 R. Aretz,100,Open,M,222.26,222.26,B,Single-ply,1
 Todd Monroe,100,Open,M,206.38,206.38,B,Single-ply,2
-D. Ogan,100,Open,M,197.31,197.31,B,Single-ply,3
+Dave Ogan,100,Open,M,197.31,197.31,B,Single-ply,3
 J. Keeling,100,Open,M,188.24,188.24,B,Single-ply,4
 J. Jones,100,Open,M,174.63,174.63,B,Single-ply,5
 J. Andrews,100,Open,M,165.56,165.56,B,Single-ply,6

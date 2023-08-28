@@ -1,7 +1,7 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 D. Krauss,60,Open,M,131.54,95.25,136.08,362.87,SBD,Single-ply,1
 D. Brown,60,Open,M,99.79,106.59,151.95,358.34,SBD,Single-ply,2
-L. Erdogan,60,Open,M,,88.45,154.22,,SBD,Single-ply,DQ
+Levant Erdogan,60,Open,M,,88.45,154.22,,SBD,Single-ply,DQ
 Paul Sacco,67.5,Open,M,195.04,133.81,222.26,551.12,SBD,Single-ply,1
 W. Wiener,67.5,Open,M,195.04,127.01,217.72,539.78,SBD,Single-ply,2
 S. Forline,67.5,Open,M,149.69,95.25,174.63,419.57,SBD,Single-ply,3
@@ -32,7 +32,7 @@ A. DeGeorge,82.5,Open,M,163.29,,,,SBD,Single-ply,DQ
 N. DiMarino,82.5,Open,M,,111.13,,,SBD,Single-ply,DQ
 M. Orr,90,Open,M,219.99,170.1,260.82,650.91,SBD,Single-ply,1
 R. Visconti,90,Open,M,231.33,117.93,254.01,603.28,SBD,Single-ply,2
-D. Smyth,90,Open,M,215.46,108.86,263.08,587.4,SBD,Single-ply,3
+Dan Smyth,90,Open,M,215.46,108.86,263.08,587.4,SBD,Single-ply,3
 Joe Jackman,90,Open,M,235.87,124.74,226.8,587.4,SBD,Single-ply,4
 W. Conway,90,Open,M,208.65,151.95,206.38,566.99,SBD,Single-ply,5
 V. Carlucci,90,Open,M,181.44,131.54,215.46,528.44,SBD,Single-ply,6
@@ -45,6 +45,6 @@ Bob Feeney,110,Open,M,142.88,172.37,272.16,587.4,SBD,Single-ply,1
 D. Henry,110,Open,M,,127.01,215.46,,SBD,Single-ply,DQ
 Tom McGovern,110,Open,M,,167.83,197.31,,SBD,Single-ply,DQ
 Ed Riley #1,125,Open,M,317.52,226.8,290.3,834.61,SBD,Single-ply,1
-L. Quarles,125,Open,M,192.78,192.78,238.14,623.69,SBD,Single-ply,2
+Leroy Quarles,125,Open,M,192.78,192.78,238.14,623.69,SBD,Single-ply,2
 N. Prestipino,125+,Open,M,208.65,131.54,215.46,555.65,SBD,Single-ply,1
-B. Brown,125+,Open,M,136.08,136.08,213.19,485.34,SBD,Single-ply,2
+Bill Brown #2,125+,Open,M,136.08,136.08,213.19,485.34,SBD,Single-ply,2

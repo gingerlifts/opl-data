@@ -15,9 +15,9 @@ Place,Name,Division,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,Total
 4,Vladislav Leontyev,Open,73.15,302.5,192.5,262.5,757.5,74,M,Владислав Леонтьев,1994,SBD,Single-ply
 5,Pavel Belevantsev,Open,73.45,290,227.5,240,757.5,74,M,Павел Белеванцев,1983,SBD,Single-ply
 6,Ilya Mishin,Open,73.9,275,195,275,745,74,M,Илья Мишин,1995,SBD,Single-ply
-7,Sergey Tarasov,Open,70.2,260,165,250,675,74,M,Сергей Тарасов,1994,SBD,Single-ply
+7,Sergey Tarasov #1,Open,70.2,260,165,250,675,74,M,Сергей Тарасов,1994,SBD,Single-ply
 8,Maksim Kutovoy,Open,73.6,242.5,172.5,207.5,622.5,74,M,Максим Кутовой,1989,SBD,Single-ply
-DQ,Nikolay Sokolov,Open,73.75,,,,,74,M,Николай Соколов,1979,SBD,Single-ply
+DQ,Nikolay Sokolov #1,Open,73.75,,,,,74,M,Николай Соколов,1979,SBD,Single-ply
 1,Evgeniy Vasyukov,Open,83,330,288,282.5,900.5,83,M,Евгений Васюков,1985,SBD,Single-ply
 2,Vladislav Shaibekov,Open,82.95,335,260,295,890,83,M,Владислав Шайбеков,1995,SBD,Single-ply
 3,Georgiy Bunkov,Open,83,335,242.5,297.5,875,83,M,Георгий Буньков,1989,SBD,Single-ply
@@ -93,14 +93,14 @@ DQ,Sergey Drogalev,Juniors,104.85,,,,,105,M,Сергей Дрогалев,2000,S
 2,Vladislav Nemov,Juniors,128.3,350,250,315,915,120+,M,Владислав Немов,1996,SBD,Single-ply
 3,Semen Dukshanin,Juniors,120.95,340,220,280,840,120+,M,Семен Дукшанин,2000,SBD,Single-ply
 4,Pavel Tikhonov,Juniors,120.1,325,225,280,830,120+,M,Павел Тихонов,1997,SBD,Single-ply
-1,Georgiy Rykov,Sub-Juniors,52.34,170,115,152.5,437.5,53,M,Георгий Рыков,2001,SBD,Single-ply
+1,Georgii Rykov,Sub-Juniors,52.34,170,115,152.5,437.5,53,M,Георгий Рыков,2001,SBD,Single-ply
 2,Egor Nosach,Sub-Juniors,51.8,140,92.5,142.5,375,53,M,Егор Носач,2002,SBD,Single-ply
 3,Ivan Tolochin,Sub-Juniors,51.98,145,72.5,147.5,365,53,M,Иван Толочин,2002,SBD,Single-ply
 4,Aleksandr Repin,Sub-Juniors,52.36,110,70,100,280,53,M,Александр Репин,2003,SBD,Single-ply
-DQ,Nikita Dyakov,Sub-Juniors,52.82,,,,,53,M,Никита Дьяков,2001,SBD,Single-ply
+DQ,Nikita Dyakov #4,Sub-Juniors,52.82,,,,,53,M,Никита Дьяков,2001,SBD,Single-ply
 1,Ilya Marichev,Sub-Juniors,58.54,220,159,230,609,59,M,Илья Маричев,2001,SBD,Single-ply
 2,Vladislav Yuschenko,Sub-Juniors,58.52,205,127.5,200,532.5,59,M,Владислав Ющенко,2002,SBD,Single-ply
-3,Sergey Popov,Sub-Juniors,58.16,210,97.5,222.5,530,59,M,Сергей Попов,2002,SBD,Single-ply
+3,Sergey Popov #3,Sub-Juniors,58.16,210,97.5,222.5,530,59,M,Сергей Попов,2002,SBD,Single-ply
 4,Maksim Aksaev,Sub-Juniors,58.86,200,117.5,212.5,530,59,M,Максим Аксаев,2001,SBD,Single-ply
 5,Yaroslav Elfimov,Sub-Juniors,57.52,200,117.5,180,497.5,59,M,Ярослав Елфимов,2002,SBD,Single-ply
 6,Mikhail Antsiferov,Sub-Juniors,57.9,135,70,145,350,59,M,Михаил Анциферов,2003,SBD,Single-ply
@@ -114,7 +114,7 @@ DQ,Oleg Klochko,Sub-Juniors,58.96,,,,,59,M,Олег Клочко,2001,SBD,Single
 6,Vadim Avilkin,Sub-Juniors,66,147.5,95,185,427.5,66,M,Вадим Авилкин,2001,SBD,Single-ply
 1,Dmitriy Zaytsev,Sub-Juniors,72.2,270,200.5,260,730.5,74,M,Дмитрий Зайцев,2001,SBD,Single-ply
 2,Nikita Grebenkin,Sub-Juniors,73.65,252.5,182.5,235,670,74,M,Никита Гребенкин,2001,SBD,Single-ply
-3,Evgeniy Stepanov,Sub-Juniors,72.75,245,175,235,655,74,M,Евгений Степанов,2001,SBD,Single-ply
+3,Evgeniy Stepanov #2,Sub-Juniors,72.75,245,175,235,655,74,M,Евгений Степанов,2001,SBD,Single-ply
 4,Pavel Nekrasov,Sub-Juniors,72.05,245,140,225,610,74,M,Павел Некрасов,2001,SBD,Single-ply
 5,Ivan Bondarev,Sub-Juniors,73.55,225,140,222.5,587.5,74,M,Иван Бондарев,2002,SBD,Single-ply
 6,Maksim Veretennikov,Sub-Juniors,72.85,200,150,225,575,74,M,Максим Веретенников,2003,SBD,Single-ply
@@ -133,7 +133,7 @@ DQ,Ruslan Potolov,Sub-Juniors,81.5,,,,,83,M,Руслан Потолов,2001,SBD
 1,Vyacheslav Markelov,Sub-Juniors,86.85,290,175,275,740,93,M,Вячеслав Маркелов,2001,SBD,Single-ply
 2,Arseniy Konkov,Sub-Juniors,92.3,265,175,285,725,93,M,Арсений Коньков,2001,SBD,Single-ply
 3,Mikhail Volbenko,Sub-Juniors,91.45,270,190,262.5,722.5,93,M,Михаил Волбенко,2001,SBD,Single-ply
-4,Maksim Korotkov,Sub-Juniors,87.3,227.5,130,225,582.5,93,M,Максим Коротков,2002,SBD,Single-ply
+4,Maksim Korotkov #2,Sub-Juniors,87.3,227.5,130,225,582.5,93,M,Максим Коротков,2002,SBD,Single-ply
 1,Nikita Morozov,Sub-Juniors,99.55,265,165,250,680,105,M,Никита Морозов,2002,SBD,Single-ply
 2,Aleksey Kolevatov,Sub-Juniors,102.25,240,175,220,635,105,M,Алексей Колеватов,2001,SBD,Single-ply
 3,Konstantin Obraztsov,Sub-Juniors,93.15,240,150,220,610,105,M,Константин Образцов,2001,SBD,Single-ply
@@ -182,7 +182,7 @@ DQ,Valentin Frolov,Sub-Juniors,100.5,270,,,,105,M,Валентин Фролов,
 2,Mariya Lebedeva,Juniors,71.65,197.5,120,172.5,490,72,F,Мария Лебедева,1996,SBD,Single-ply
 3,Anastasiya Okhorzina,Juniors,71.85,160,125,180,465,72,F,Анастасия Охорзина,1997,SBD,Single-ply
 4,Lyudmila Stepynina,Juniors,70.1,195,110,150,455,72,F,Людмила Степынина,1996,SBD,Single-ply
-5,Anastasiya Melnikova,Juniors,71.65,190,95,165,450,72,F,Анастасія Мельникова,1996,SBD,Single-ply
+5,Anastasiya Melnikova #1,Juniors,71.65,190,95,165,450,72,F,Анастасия Мельникова,1996,SBD,Single-ply
 6,Dinara Matyakubova,Juniors,71.95,170,100,170,440,72,F,Динара Матякубова,1999,SBD,Single-ply
 1,Anastasiya Minaeva,Juniors,83.65,210,135,180,525,84,F,Анастасия Минаева,1998,SBD,Single-ply
 2,Anastasiya Nazareva,Juniors,83.15,190,125,165,480,84,F,Анастасия Назарёва,1998,SBD,Single-ply
@@ -193,7 +193,7 @@ DQ,Valentin Frolov,Sub-Juniors,100.5,270,,,,105,M,Валентин Фролов,
 1,Olga Savchenko,Juniors,103.25,150,92.5,145,387.5,84+,F,Ольга Савченко,1998,SBD,Single-ply
 2,Evgeniya Ruzaeva,Juniors,93.85,140,82.5,120,342.5,84+,F,Евгения Рузаева,2000,SBD,Single-ply
 3,Alina Shustrova,Juniors,88.25,72.5,52.5,75,200,84+,F,Алина Шустрова,2000,SBD,Single-ply
-1,Irina Ivanova,Open,46.98,160,117.5,142.5,420,47,F,Ирина Иванова,1996,SBD,Single-ply
+1,Irina Ivanova #1,Open,46.98,160,117.5,142.5,420,47,F,Ирина Иванова,1996,SBD,Single-ply
 2,Svetlana Saydasheva,Open,46.78,157.5,85,160,402.5,47,F,Светлана Сайдашева,1988,SBD,Single-ply
 3,Kristina Moskaleva,Open,46.62,165,85,142.5,392.5,47,F,Кристина Москалева,1990,SBD,Single-ply
 4,Nadezhda Kozhevnikova,Open,47,135,100,135,370,47,F,Надежда Кожевникова,1993,SBD,Single-ply
@@ -208,7 +208,7 @@ DQ,Evgeniya Chistik,Open,46.34,,90,160,,47,F,Евгения Чистик,1984,SB
 7,Olga Pasechnaya,Open,51.64,160,95,150,405,52,F,Ольга Пасечная,1981,SBD,Single-ply
 8,Olga Bychkova,Open,51.14,137.5,80,157.5,375,52,F,Ольга Бычкова,1966,SBD,Single-ply
 DQ,Elena Shatun,Open,51.8,147.5,,145,,52,F,Елена Шатун,1989,SBD,Single-ply
-1,Daniela Kolesnik,Open,56.56,200,157.5,190,547.5,57,F,Даниэла Колесник,1999,SBD,Single-ply
+1,Daniela Kolesnik,Open,56.56,200,157.5,190,547.5,57,F,Даниела Колесник,1999,SBD,Single-ply
 2,Anastasia Lorents,Open,56.48,180,150,187.5,517.5,57,F,Анастасия Лоренц,1985,SBD,Single-ply
 3,Victoria Karlysheva,Open,56.46,200,125,190,515,57,F,Виктория Карлышева,1993,SBD,Single-ply
 4,Elena Borisova,Open,56.9,182.5,127.5,195,505,57,F,Елена Борисова,1994,SBD,Single-ply
@@ -241,8 +241,8 @@ DQ,Elena Shatun,Open,51.8,147.5,,145,,52,F,Елена Шатун,1989,SBD,Single
 2,Mariya Romanova,Sub-Juniors,43,112.5,42.5,107.5,262.5,43,F,Мария Романова,2002,SBD,Single-ply
 3,Anzhelika Oboturova,Sub-Juniors,42.62,95,55,100,250,43,F,Анжелика Оботурова,2003,SBD,Single-ply
 4,Anastasiya Filatova,Sub-Juniors,41.22,92.5,55,97.5,245,43,F,Анастасия Филатова,2004,SBD,Single-ply
-5,Anastasiya Polyakova,Sub-Juniors,42.88,85,47.5,100,232.5,43,F,Анастасия Полякова,2004,SBD,Single-ply
-6,Anna Trofimova,Sub-Juniors,42.98,75,65,87.5,227.5,43,F,Анна Трофимова,2004,SBD,Single-ply
+5,Anastasiya Polyakova #1,Sub-Juniors,42.88,85,47.5,100,232.5,43,F,Анастасия Полякова,2004,SBD,Single-ply
+6,Anna Trofimova #1,Sub-Juniors,42.98,75,65,87.5,227.5,43,F,Анна Трофимова,2004,SBD,Single-ply
 7,Polina Litvinova,Sub-Juniors,42.32,77.5,57.5,85,220,43,F,Полина Литвинова,2002,SBD,Single-ply
 1,Anastasiya Leontyeva,Sub-Juniors,46.42,132.5,72.5,140,345,47,F,Анастасия Леонтьева,2001,SBD,Single-ply
 2,Yuliya Ksenzova,Sub-Juniors,46.14,142.5,77.5,122.5,342.5,47,F,Юлия Ксензова,2001,SBD,Single-ply

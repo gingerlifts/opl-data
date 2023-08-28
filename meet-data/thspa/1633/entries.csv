@@ -27,7 +27,7 @@ Boys,59.87,5,Landon Camacho,Pleasanton,59.42,161.03,102.06,136.08,399.16,Single-
 Boys,59.87,6,Anthony Holguin,San Marcos,58.79,149.69,88.45,158.76,396.89,Single-ply,SBD,M
 Boys,59.87,7,Rene Rodriguez,Pearsall,59.06,136.08,88.45,161.03,385.55,Single-ply,SBD,M
 Boys,67.13,8,Joaquin Munoz,Stockdale,59.96,122.47,86.18,165.56,374.21,Single-ply,SBD,M
-Boys,59.87,9,Eddie Torres,Blanco,57.61,129.27,95.25,145.15,369.68,Single-ply,SBD,M
+Boys,59.87,9,Eddie Torres #1,Blanco,57.61,129.27,95.25,145.15,369.68,Single-ply,SBD,M
 Boys,59.87,10,Isaac Lopez,Jourdanton,59.24,142.88,88.45,133.81,365.14,Single-ply,SBD,M
 Boys,59.87,11,Brandon Herrera,San Antonio Southside,58.79,136.08,90.72,136.08,362.87,Single-ply,SBD,M
 Boys,59.87,12,Leonard Barrientes,San Antonio Kennedy,59.15,131.54,81.65,136.08,349.27,Single-ply,SBD,M
@@ -35,7 +35,7 @@ Boys,59.87,13,Robert Tappan,Comfort,58.42,108.86,74.84,127.01,310.71,Single-ply,
 Boys,67.13,14,Alex Gill,Universal City Randolph,59.96,102.06,68.04,122.47,292.57,Single-ply,SBD,M
 Boys,67.13,1,Darion McMahan,Stockdale,66.04,238.14,156.49,217.72,612.35,Single-ply,SBD,M
 Boys,67.13,2,Matt Valadez,Stockdale,66.13,201.85,127.01,219.99,548.85,Single-ply,SBD,M
-Boys,67.13,3,Jose Flores,San Antonio Kennedy,63.68,165.56,99.79,183.7,449.06,Single-ply,SBD,M
+Boys,67.13,3,Jose Flores #3,San Antonio Kennedy,63.68,165.56,99.79,183.7,449.06,Single-ply,SBD,M
 Boys,67.13,4,Tyler Gould,Pleasanton,66.68,183.7,97.52,163.29,444.52,Single-ply,SBD,M
 Boys,67.13,5,Collin Anderson,San Marcos,66.68,154.22,95.25,176.9,426.38,Single-ply,SBD,M
 Boys,67.13,6,Jj Aguinaga,Lytle,65.95,156.49,72.57,167.83,396.89,Single-ply,SBD,M
@@ -47,7 +47,7 @@ Boys,67.13,11,Justin Alexander,Universal City Randolph,65.05,120.2,92.99,142.88,
 Boys,67.13,12,Joey Jimenez,Del Rio,66.13,136.08,74.84,140.61,351.53,Single-ply,SBD,M
 Boys,67.13,13,Albian Leyva,San Marcos,62.96,133.81,65.77,138.35,337.93,Single-ply,SBD,M
 Boys,67.13,14,Hunter Rust,Comfort,61.87,90.72,65.77,104.33,260.82,Single-ply,SBD,M
-Boys,67.13,DQ,Jacob Hernandez,Comfort,66.68,,,,,Single-ply,SBD,M
+Boys,67.13,DQ,Jacob Hernandez #13,Comfort,66.68,,,,,Single-ply,SBD,M
 Boys,67.13,DQ,Nathan Medrano,Lytle,66.41,,,,,Single-ply,SBD,M
 Boys,67.13,DQ,Ryan Clark #7,Universal City Randolph,61.23,106.59,65.77,,,Single-ply,SBD,M
 Boys,82.1,1,Taylor Raynard,Comal Canyon,75.02,226.8,133.81,226.8,587.4,Single-ply,SBD,M
@@ -87,12 +87,12 @@ Boys,82.1,12,Christian Hinkley,Comfort,79.92,165.56,92.99,185.97,444.52,Single-p
 Boys,82.1,13,Justin Faulkner,Comfort,76.29,158.76,106.59,170.1,435.45,Single-ply,SBD,M
 Boys,82.1,14,Jake Breeding,Blanco,79.11,156.49,97.52,172.37,426.38,Single-ply,SBD,M
 Boys,82.1,15,Isiah Garcia,Del Rio,77.11,163.29,90.72,138.35,392.36,Single-ply,SBD,M
-Boys,89.81,DQ,Juan Perez,Lytle,82.33,172.37,,,,Single-ply,SBD,M
+Boys,89.81,DQ,Juan Perez #13,Lytle,82.33,172.37,,,,Single-ply,SBD,M
 Boys,82.1,DQ,Alex Aguero,Jourdanton,80.65,204.12,92.99,,,Single-ply,SBD,M
 Boys,89.81,1,David Garza,Cotulla,88.27,254.01,136.08,244.94,635.03,Single-ply,SBD,M
 Boys,89.81,2,Jordan Garcia #6,Cotulla,88.9,231.33,142.88,249.48,623.69,Single-ply,SBD,M
 Boys,89.81,3,Silverio Trejo,Pearsall,84.37,208.65,120.2,213.19,542.04,Single-ply,SBD,M
-Boys,89.81,4,Daniel Ramirez,San Antonio Kennedy,83.1,195.04,129.27,195.04,519.36,Single-ply,SBD,M
+Boys,89.81,4,Daniel Ramirez #6,San Antonio Kennedy,83.1,195.04,129.27,195.04,519.36,Single-ply,SBD,M
 Boys,89.81,5,Jessie Ruiz,Blanco,86.82,206.38,117.93,190.51,514.83,Single-ply,SBD,M
 Boys,89.81,6,Garrett Pressler,Comfort,84.73,167.83,106.59,199.58,474,Single-ply,SBD,M
 Boys,89.81,7,Vincent Faust,Universal City Randolph,85.73,181.44,106.59,181.44,469.47,Single-ply,SBD,M
@@ -141,7 +141,7 @@ Boys,124.74,5,Hunter Goodman,Blanco,121.02,249.48,111.13,217.72,578.33,Single-pl
 Boys,124.74,6,JohnPaul Lugo,Jourdanton,117.48,213.19,127.01,201.85,542.04,Single-ply,SBD,M
 Boys,124.74,7,Noah Ramirez,Comfort,122.56,208.65,106.59,204.12,519.36,Single-ply,SBD,M
 Boys,124.74,8,Brady Melde,Comal Canyon,121.56,199.58,124.74,185.97,510.29,Single-ply,SBD,M
-Boys,124.74,9,Brandon Williams,Del Rio,119.2,188.24,104.33,176.9,469.47,Single-ply,SBD,M
+Boys,124.74,9,Brandon Williams #1,Del Rio,119.2,188.24,104.33,176.9,469.47,Single-ply,SBD,M
 Boys,124.74,10,Damian Cantu,San Antonio Kennedy,114.67,176.9,117.93,172.37,467.2,Single-ply,SBD,M
 Boys,124.74,11,Joseph Garcia,Del Rio,122.11,142.88,108.86,181.44,433.18,Single-ply,SBD,M
 Boys,124.74,12,Hernan Veloz,Del Rio,113.67,161.03,88.45,142.88,392.36,Single-ply,SBD,M
@@ -154,5 +154,5 @@ Boys,124.74+,4,Izaiha Ramirez,Comal Canyon,158.39,272.16,181.44,215.46,669.05,Si
 Boys,124.74+,5,Cody Krampitz,Comal Canyon,138.98,272.16,158.76,226.8,657.71,Single-ply,SBD,M
 Boys,124.74+,6,Trent Enriquez,Karnes City,127.1,233.6,136.08,208.65,578.33,Single-ply,SBD,M
 Boys,124.74+,7,Ronnie Lucio,Poteet,127.28,244.94,129.27,195.04,569.26,Single-ply,SBD,M
-Boys,124.74+,8,Zach Moore,Comfort,135.71,204.12,86.18,188.24,478.54,Single-ply,SBD,M
+Boys,124.74+,8,Zach Moore #3,Comfort,135.71,204.12,86.18,188.24,478.54,Single-ply,SBD,M
 Boys,124.74+,9,Tyler Moore,Comfort,129.27,176.9,102.06,181.44,460.4,Single-ply,SBD,M

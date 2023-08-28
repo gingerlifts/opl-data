@@ -10,7 +10,7 @@ Freshmen,67.13,1,Jorge Silva,Laredo Nixon,64.59,129.27,74.84,158.76,362.87,Singl
 Freshmen,67.13,2,Levon Ramirez,Devine,65.32,131.54,81.65,136.08,349.27,Single-ply,SBD,M
 Freshmen,67.13,3,Peter Canazos,Laredo Nixon,66.41,129.27,63.5,149.69,342.46,Single-ply,SBD,M
 Freshmen,67.13,4,Zenon Sanchez,Three Rivers,67.13,138.35,65.77,136.08,340.19,Single-ply,SBD,M
-Freshmen,67.13,5,Dylan Johnson,La Vernia,62.23,90.72,77.11,124.74,292.57,Single-ply,SBD,M
+Freshmen,67.13,5,Dylan Johnson #4,La Vernia,62.23,90.72,77.11,124.74,292.57,Single-ply,SBD,M
 Freshmen,67.13,6,Mark Garcia,Devine,66.13,111.13,61.23,117.93,290.3,Single-ply,SBD,M
 Freshmen,67.13,7,Patrick Jarratt,Three Rivers,63.59,92.99,47.63,136.08,276.69,Single-ply,SBD,M
 Freshmen,74.84,1,Armando Delarosa,Somerset,71.85,140.61,95.25,145.15,381.02,Single-ply,SBD,M
@@ -32,14 +32,14 @@ Freshmen,99.79,3,Jonathan Mendoza,Northside Holmes,96.16,165.56,88.45,154.22,408
 Freshmen,99.79,4,Mark Cerda,Somerset,91.17,158.76,74.84,170.1,403.7,Single-ply,SBD,M
 Freshmen,99.79,5,Mateo Villarreal,Laredo Nixon,96.52,142.88,72.57,181.44,396.89,Single-ply,SBD,M
 Freshmen,99.79,6,Jose Lopez,Boerne Champion,99.52,145.15,92.99,147.42,385.55,Single-ply,SBD,M
-Freshmen,99.79,7,David Lopez,Northside Holmes,92.9,129.27,74.84,154.22,358.34,Single-ply,SBD,M
+Freshmen,99.79,7,David Lopez #8,Northside Holmes,92.9,129.27,74.84,154.22,358.34,Single-ply,SBD,M
 Freshmen,99.79,8,Steven Sartuche,Devine,92.71,117.93,88.45,145.15,351.53,Single-ply,SBD,M
 Freshmen,99.79,9,Nathan Perez,La Vernia,90.26,122.47,81.65,140.61,344.73,Single-ply,SBD,M
 Freshmen,99.79,DQ,Francisco Zumudo,Somerset,95.25,,,,,Single-ply,SBD,M
 Freshmen,109.77,1,Adrian Contreras,Poteet,104.33,147.42,88.45,181.44,417.3,Single-ply,SBD,M
 Freshmen,109.77,2,Xavier Rangel,Laredo Nixon,101.51,124.74,77.11,140.61,342.46,Single-ply,SBD,M
 Freshmen,109.77,3,Travis Spielman,Devine,105.23,117.93,68.04,136.08,322.05,Single-ply,SBD,M
-Freshmen,124.74,1,Gabriel Garza,Somerset,113.4,140.61,83.91,145.15,369.68,Single-ply,SBD,M
+Freshmen,124.74,1,Gabriel Garza #1,Somerset,113.4,140.61,83.91,145.15,369.68,Single-ply,SBD,M
 Freshmen,124.74,2,Luis Rangel,La Vernia,114.67,142.88,79.38,142.88,365.14,Single-ply,SBD,M
 Freshmen,124.74+,1,Eric Falcon,Northside Holmes,140.89,174.63,86.18,165.56,426.38,Single-ply,SBD,M
 Varsity,51.71,1,Robert Barajas,Laredo Martin,51.07,163.29,79.38,185.97,428.64,Single-ply,SBD,M
@@ -107,7 +107,7 @@ Varsity,82.1,15,Josh Valderama,Boerne Champion,78.93,68.04,68.04,106.59,242.67,S
 Varsity,82.1,DQ,Joey Gauna,Floresville,77.2,192.78,102.06,,,Single-ply,SBD,M
 Varsity,82.1,DQ,Dekota Nolte,Seguin,79.92,,,,,Single-ply,SBD,M
 Varsity,82.1,DQ,Jacob Fernandez,Natalia,82.1,183.7,,,,Single-ply,SBD,M
-Varsity,99.79,1,Paul Perez,Natalia,89.99,210.92,142.88,226.8,580.6,Single-ply,SBD,M
+Varsity,99.79,1,Paul Perez #4,Natalia,89.99,210.92,142.88,226.8,580.6,Single-ply,SBD,M
 Varsity,89.81,2,Rudy Farias,Somerset,88.45,222.26,106.59,217.72,546.58,Single-ply,SBD,M
 Varsity,89.81,3,Casey Benavides,Somerset,87.72,204.12,108.86,226.8,539.77,Single-ply,SBD,M
 Varsity,99.79,4,Juan Rios,Crystal City,89.99,183.7,83.91,170.1,437.72,Single-ply,SBD,M
@@ -139,11 +139,11 @@ Varsity,109.77,6,Domenic Willhem,Del Rio,101.7,206.38,133.81,199.58,539.77,Singl
 Varsity,109.77,7,Skylar Richter,Boerne Champion,104.05,217.72,115.67,204.12,537.51,Single-ply,SBD,M
 Varsity,109.77,8,Luke Briscoe,Devine,106.23,188.24,124.74,195.04,508.02,Single-ply,SBD,M
 Varsity,109.77,9,Rob Davis,Boerne Champion,108.05,183.7,104.33,156.49,444.52,Single-ply,SBD,M
-Varsity,109.77,10,Alex Salazar,Center Point,106.14,165.56,106.59,142.88,415.04,Single-ply,SBD,M
+Varsity,109.77,10,Alex Salazar #2,Center Point,106.14,165.56,106.59,142.88,415.04,Single-ply,SBD,M
 Varsity,109.77,11,Christian DeLores,Johnson City,104.42,158.76,106.59,147.42,412.77,Single-ply,SBD,M
 Varsity,109.77,12,Efrain Rodriguez,Comfort,107.05,156.49,83.91,158.76,399.16,Single-ply,SBD,M
 Varsity,109.77,DQ,Andrew Salazar,Devine,106.41,206.38,115.67,195.04,,Single-ply,SBD,M
-Varsity,124.74,1,Brandon Rodriguez,Somerset,116.85,294.84,161.03,231.33,687.19,Single-ply,SBD,M
+Varsity,124.74,1,Brandon Rodriguez #4,Somerset,116.85,294.84,161.03,231.33,687.19,Single-ply,SBD,M
 Varsity,124.74,2,Vincent Lee,Northside Holmes,120.47,272.16,151.95,229.06,653.17,Single-ply,SBD,M
 Varsity,124.74,3,Joey Guzman,Del Rio,120.38,238.14,149.69,231.33,619.15,Single-ply,SBD,M
 Varsity,124.74,4,Javier Paredes,Natalia,113.49,238.14,122.47,238.14,598.74,Single-ply,SBD,M
@@ -172,7 +172,7 @@ Junior Varsity,59.87,1,Michael Casarez,Three Rivers,56.7,158.76,70.31,172.37,401
 Junior Varsity,59.87,2,Arthur Briones,Laredo Nixon,57.88,88.45,58.97,113.4,260.82,Single-ply,SBD,M
 Junior Varsity,67.13,1,Randall Masters,Somerset,65.32,147.42,74.84,154.22,376.48,Single-ply,SBD,M
 Junior Varsity,67.13,2,Rogelio Fuentes,Somerset,64.86,117.93,83.91,142.88,344.73,Single-ply,SBD,M
-Junior Varsity,67.13,3,José Castillo #9,Laredo Nixon,64.64,102.06,65.77,136.08,303.91,Single-ply,SBD,M
+Junior Varsity,67.13,3,Jose Castillo #9,Laredo Nixon,64.64,102.06,65.77,136.08,303.91,Single-ply,SBD,M
 Junior Varsity,67.13,DQ,Tyler Riesinger,Seguin,65.86,90.72,,102.06,,Single-ply,SBD,M
 Junior Varsity,82.1,1,Jacob Muniz,Three Rivers,79.56,192.78,104.33,197.31,494.42,Single-ply,SBD,M
 Junior Varsity,82.1,2,Jj Elias,Somerset,77.56,192.78,97.52,192.78,483.08,Single-ply,SBD,M

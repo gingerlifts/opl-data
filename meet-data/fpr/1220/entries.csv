@@ -7,7 +7,7 @@ Place,Name,CyrillicName,BirthYear,WeightClassKg,BodyweightKg,Bench1Kg,Bench2Kg,B
 2,Yuliya Muravyova,Юлия Муравьёва,1993,57,55,55,60,-65,60,60,F,Open,B,Raw
 3,Stefani Lebedeva,Стефани Лебедева,1993,57,55.25,55,57.5,-62.5,57.5,57.5,F,Open,B,Raw
 1,Evgeniya Romasheva,Евгения Ромашева,1992,63,62.9,35,40,45,45,45,F,Open,B,Raw
-1,Elena Parfyonova,Елена Парфёнова,1966,72,67.35,100,107.5,112.5,112.5,112.5,F,Open,B,Raw
+1,Elena Parfenova,Елена Парфенова,1966,72,67.35,100,107.5,112.5,112.5,112.5,F,Open,B,Raw
 2,Tatyana Yakovleva,Татьяна Яковлева,1969,72,71.9,95,105,112.5,112.5,112.5,F,Open,B,Raw
 3,Mariya Podgagulina,Мария Подгагулина,1995,72,69.95,20,25,-30,25,25,F,Open,B,Raw
 1,Yuliya Yakovleva,Юлия Яковлева,1979,84,76.5,100,110,115,115,115,F,Open,B,Raw
@@ -58,13 +58,13 @@ NS,Aleksey Pustovalov,Алексей Пустовалов,1982,83,,,,,,,M,Open,B
 14,Aleksey Grushin,Алексей Грушин,1981,93,88.5,130,137.5,-145,137.5,137.5,M,Open,B,Raw
 15,Kirill Drozdyuk,Кирилл Дроздюк,1989,93,92.05,125,135,-145,135,135,M,Open,B,Raw
 16,Ilya Bolshakov,Илья Большаков,1992,93,87.45,110,115,-117.5,115,115,M,Open,B,Raw
-1,Sergey Popov,Сергей Попов,1977,105,104.8,210,217.5,230,230,230,M,Open,B,Raw
+1,Sergey Popov #8,Сергей Попов,1977,105,104.8,210,217.5,230,230,230,M,Open,B,Raw
 2,Aleksandr Shibalov,Александр Шибалов,1974,105,99.05,195,200,-205,200,200,M,Open,B,Raw
 3,Anton Belyaev,Антон Беляев,1982,105,104.5,185,195,-202.5,195,195,M,Open,B,Raw
 4,Aleksey Fokin,Алексей Фокин,1980,105,105,170,180,187.5,187.5,187.5,M,Open,B,Raw
 5,Andrey Sugorovskiy,Андрей Сугоровский,1969,105,105,175,185,-190,185,185,M,Open,B,Raw
 6,Aleksandr Konstantinov,Александр Константинов,1989,105,98.5,160,170,-175,170,170,M,Open,B,Raw
-7,Sergey Kuznetsov,Сергей Кузнецов,1977,105,103.85,160,170,-175,170,170,M,Open,B,Raw
+7,Sergey Kuznetsov #31,Сергей Кузнецов,1977,105,103.85,160,170,-175,170,170,M,Open,B,Raw
 8,Ivan Guryanov,Иван Гурьянов,1986,105,104.5,162.5,-175,-175,162.5,162.5,M,Open,B,Raw
 9,Andrey Maryandyshev,Андрей Марьяндышев,1973,105,96.6,145,152.5,-157.5,152.5,152.5,M,Open,B,Raw
 1,Maksim Tarasenko,Максим Тарасенко,1975,120,113.95,210,215,-225,215,215,M,Open,B,Raw
@@ -75,7 +75,7 @@ NS,Aleksey Pustovalov,Алексей Пустовалов,1982,83,,,,,,,M,Open,B
 6,Vitaliy Baranov,Виталий Баранов,1990,120,113.8,165,175,185,185,185,M,Open,B,Raw
 7,Vladimir Kazantsev,Владимир Казанцев,1992,120,105.6,120,-127.5,-135,120,120,M,Open,B,Raw
 NS,Anton Titov,Антон Титов,1996,120,,,,,,,M,Open,B,Raw
-NS,Artem Vorontsov,Артём Воронцов,1976,120,,,,,,,M,Open,B,Raw
+NS,Artem Vorontsov,Артем Воронцов,1976,120,,,,,,,M,Open,B,Raw
 1,Denis Chernov #4,Денис Чернов,1980,120+,146.25,250,275,,275,275,M,Open,B,Raw
 2,Mikhail Korostin,Михаил Коростин,1984,120+,132.6,212.5,217.5,225,225,225,M,Open,B,Raw
 3,Vladimir Gusev,Владимир Гусев,1968,120+,132.85,200,-210,212.5,212.5,212.5,M,Open,B,Raw

@@ -24,7 +24,7 @@ DQ,Yuriy Mokrov,Юрий Мокров,1942,93,83.01,,,,,,M,Masters 4,B,Single-pl
 1,Pyotr Redkin,Пётр Редькин,1945,120,109.45,80,,,80,80,M,Masters 4,B,Single-ply
 NS,Vladimir Savostyanov,Владимир Савостьянов,1950,66,,,,,,,M,Masters 3,B,Single-ply
 NS,Evgeniy Agoltsev,Евгений Агольцев,1950,66,,,,,,,M,Masters 3,B,Single-ply
-1,Sergey Kuznetsov,Сергей Кузнецов,1956,74,73.4,137.5,142.5,147.5,147.5,147.5,M,Masters 3,B,Single-ply
+1,Sergey Kuznetsov #2,Сергей Кузнецов,1956,74,73.4,137.5,142.5,147.5,147.5,147.5,M,Masters 3,B,Single-ply
 1,Ralit Mukhamatyanov,Ралит Мухаматьянов,1956,83,82,-170,180,-185,180,180,M,Masters 3,B,Single-ply
 2,Nikolay Nikiforov,Николай Никифоров,1955,83,75.55,145,157.5,-180,157.5,157.5,M,Masters 3,B,Single-ply
 1,Nikolay Peremitin,Николай Перемитин,1952,93,91.05,147.5,152.5,157.5,157.5,157.5,M,Masters 3,B,Single-ply
@@ -39,7 +39,7 @@ NS,Evgeniy Agoltsev,Евгений Агольцев,1950,66,,,,,,,M,Masters 3,B,
 1,Iosif Paskhover,Иосиф Пасховер,1948,120+,120.3,140,145,-150,145,145,M,Masters 3,B,Single-ply
 1,Saveliy Pavlov,Савелий Павлов,1957,59,58.55,120,130.5,,130.5,130.5,M,Masters 2,B,Single-ply
 NS,Konstantin Kopeykin,Константин Копейкин,1966,74,,,,,,,M,Masters 2,B,Single-ply
-1,Vasiliy Motovilnik,Василий Мотовильник,1957,74,73.25,-185,187.5,197.5,197.5,197.5,M,Masters 2,B,Single-ply
+1,Vasilii Motovilnik,Василий Мотовильник,1957,74,73.25,-185,187.5,197.5,197.5,197.5,M,Masters 2,B,Single-ply
 2,Konstantin Kopeykin,Константин Копейкин,1966,74,73.6,185,192.5,-200,192.5,192.5,M,Masters 2,B,Single-ply
 3,Aleksandr Usikov,Александр Усиков,1964,74,73.35,145,155,-160,155,155,M,Masters 2,B,Single-ply
 1,Sergey Osipov,Сергей Осипов,1965,83,81.95,-170,175,180,180,180,M,Masters 2,B,Single-ply
@@ -69,7 +69,7 @@ NS,Oleg Bokarev,Олег Бокарев,1965,120,,,,,,,M,Masters 2,B,Single-ply
 3,Radik Tukhbatullin,Радик Тухбатуллин,1958,120+,120.4,150,160,165,165,165,M,Masters 2,B,Single-ply
 1,Igor Sadovin,Игорь Садовин,1967,59,58.8,122.5,127.5,,127.5,127.5,M,Masters 1,B,Single-ply
 1,Nikolay Goroshko,Николай Горошко,1975,66,64.25,92.5,105,110,110,110,M,Masters 1,B,Single-ply
-2,Evgeniy Ivanov,Евгений Иванов,1968,66,64.5,95,-102.5,-102.5,95,95,M,Masters 1,B,Single-ply
+2,Evgeniy Ivanov #13,Евгений Иванов,1968,66,64.5,95,-102.5,-102.5,95,95,M,Masters 1,B,Single-ply
 1,Vladimir Slabnin,Владимир Слабнин,1971,74,73.3,165,170,,170,170,M,Masters 1,B,Single-ply
 2,Dmitriy Promyshlennikov,Дмитрий Промышленников,1974,74,71.5,132.5,137.5,145,145,145,M,Masters 1,B,Single-ply
 3,Dmitriy Zhukov,Дмитрий Жуков,1973,74,69.55,125,132.5,-140,132.5,132.5,M,Masters 1,B,Single-ply
@@ -119,7 +119,7 @@ NS,Yuriy Mokrov,Юрий Мокров,1942,93,,,,,,,M,Masters 4,B,Raw
 1,Pyotr Redkin,Пётр Редькин,1945,120,109.65,80,90,,90,90,M,Masters 4,B,Raw
 NS,Vladimir Savostyanov,Владимир Савостьянов,1950,66,,,,,,,M,Masters 3,B,Raw
 NS,Evgeniy Agoltsev,Евгений Агольцев,1950,66,,,,,,,M,Masters 3,B,Raw
-1,Sergey Kuznetsov,Сергей Кузнецов,1956,74,72.8,120,125,130,130,130,M,Masters 3,B,Raw
+1,Sergey Kuznetsov #2,Сергей Кузнецов,1956,74,72.8,120,125,130,130,130,M,Masters 3,B,Raw
 1,Ralit Mukhamatyanov,Ралит Мухаматьянов,1956,83,82.4,140,150,160,160,160,M,Masters 3,B,Raw
 2,Nikolay Nikiforov,Николай Никифоров,1955,83,76.15,125,140,-150,140,140,M,Masters 3,B,Raw
 1,Aleksandr Bazhenov,Александр Баженов,1952,93,91.35,125,130,137.5,137.5,137.5,M,Masters 3,B,Raw
@@ -135,10 +135,10 @@ NS,Evgeniy Agoltsev,Евгений Агольцев,1950,66,,,,,,,M,Masters 3,B,
 1,Iosif Paskhover,Иосиф Пасховер,1948,120+,120.1,115,120,125,125,125,M,Masters 3,B,Raw
 DQ,Aleksandr Vtorykh,Александр Вторых,1955,59,57.5,,,,,,M,Masters 3,B,Raw
 1,Saveliy Pavlov,Савелий Павлов,1957,59,58.3,95,108,,108,108,M,Masters 2,B,Raw
-1,Vasiliy Motovilnik,Василий Мотовильник,1957,74,72.95,135,142.5,-148,142.5,142.5,M,Masters 2,B,Raw
+1,Vasilii Motovilnik,Василий Мотовильник,1957,74,72.95,135,142.5,-148,142.5,142.5,M,Masters 2,B,Raw
 2,Oleg Maltsev,Олег Мальцев,1964,74,73.25,115,120,125,125,125,M,Masters 2,B,Raw
 3,Igor Likhuta,Игорь Лихута,1966,74,73.95,90,100,105,105,105,M,Masters 2,B,Raw
-DQ,Sergey Kuznetsov,Сергей Кузнецов,1956,83,80.25,,,,,,M,Masters 3,B,Raw
+DQ,Sergey Kuznetsov #2,Сергей Кузнецов,1956,83,80.25,,,,,,M,Masters 3,B,Raw
 1,Sergey Pozynenko,Сергей Позыненко,1961,83,77.35,127.5,135,140,140,140,M,Masters 2,B,Raw
 2,Igor Omelchuk,Игорь Омельчук,1960,83,81.2,130,135,-142.5,135,135,M,Masters 2,B,Raw
 3,Sergey Buzmakov,Сергей Бузмаков,1959,83,81.6,125,135,-142.5,135,135,M,Masters 2,B,Raw

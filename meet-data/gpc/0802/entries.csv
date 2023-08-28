@@ -14,14 +14,14 @@ DQ,Rena Aliyeva,O,Azerbaijan,55.25,-150,150,-160,150,,70,80,-90,80,,-130,-130,-1
 2,Anne Leinonen,SM,Finland,63.15,-190,190,210,210,,-82.5,-82.5,82.5,82.5,,175,-182.5,-192.5,175,,467.5,67.5,F,Multi-ply,SBD
 1,Evangeline Keresey,M6,USA,61.45,100,117.5,130,130,,30,50,62.5,62.5,,120,,,120,,312.5,67.5,F,Multi-ply,SBD
 1,Tara McKay,O,UK,78.8,100,-110,-110,100,,45,55,-60,55,,90,105,112.5,112.5,,267.5,82.5,F,Multi-ply,SBD
-1,Kimberly Packer,M2,USA,80.45,192.5,205,-222.5,205,-222.5,102.5,110,-115,110,,172.5,182.5,-185,182.5,,497.5,82.5,F,Multi-ply,SBD
+1,Kimberly Pfeiffer-Packer,M2,USA,80.45,192.5,205,-222.5,205,-222.5,102.5,110,-115,110,,172.5,182.5,-185,182.5,,497.5,82.5,F,Multi-ply,SBD
 1,Joachim De Rudder,T3,Belgium,66.35,200,215,230,230,-248,130,-140,-140,130,,200,215,-230,215,,575,67.5,M,Multi-ply,SBD
 1,Barry Keehan,J,Ireland,67.1,195,205,-245,205,,125,130,132.5,132.5,,205,220,-230,220,,557.5,67.5,M,Multi-ply,SBD
 1,Rustam Musaev,O,Azerbaijan,67.3,230,250,265,265,,140,155,162.5,162.5,,220,-235,-240,220,,647.5,67.5,M,Multi-ply,SBD
 1,Jānis Šteinbergs,M3,Latvia,66.9,200,212.5,217.5,217.5,,135,140,142.5,142.5,,190,205,210,210,,570,67.5,M,Multi-ply,SBD
 1,Brieuc De Rudder,J,Belgium,72.4,190,195,-205,195,,102.5,105,107.5,107.5,,180,190,-200,190,,492.5,75,M,Multi-ply,SBD
-1,Andy Csiszar,O,Hungary,73.6,270,280,290,290,,165,175,180,180,,250,270,280,280,,750,75,M,Multi-ply,SBD
-1,Andy Csiszar,SM,Hungary,73.6,270,280,290,290,,165,175,180,180,,250,270,280,280,,750,75,M,Multi-ply,SBD
+1,András Csiszár,O,Hungary,73.6,270,280,290,290,,165,175,180,180,,250,270,280,280,,750,75,M,Multi-ply,SBD
+1,András Csiszár,SM,Hungary,73.6,270,280,290,290,,165,175,180,180,,250,270,280,280,,750,75,M,Multi-ply,SBD
 2,Yalcin Baghirov,O,Azerbaijan,74.7,235,250,-270,250,,140,147.5,-155,147.5,,235,255,270,270,,667.5,75,M,Multi-ply,SBD
 1,Gerard McNamara #1,M2,Ireland,74.6,330,360,,360,,170,180,-185,180,,232.5,-245,-245,232.5,,772.5,75,M,Multi-ply,SBD
 1,Ján Matej,J,Slovakia,82,300,320,-330,320,,190,200,210,210,,240,252.5,-260,252.5,,782.5,82.5,M,Multi-ply,SBD
@@ -63,8 +63,8 @@ DQ,Tatu Avola,SM,Finland,98.65,-360,-360,360,360,,230,,-245,230,,-320,-320,,,,,1
 1,Sami Kaipio,M1,Finland,99.5,380,400.5,,400.5,,100,190,-202.5,190,,280,300,-312.5,300,,890.5,100,M,Multi-ply,SBD
 2,Michal Berezňák,M1,Slovakia,99,300,315,325,325,,-170,170,182.5,182.5,,275,292.5,305,305,,812.5,100,M,Multi-ply,SBD
 3,Steve Hunter,M1,UK,97,250,270,280,280,,190,205,-240,205,,260,275,-285,275,,760,100,M,Multi-ply,SBD
-1,Sam Graham,M2,UK,99.6,290,320,,320,,175,190,-200,190,,250,280,-300,280,,790,100,M,Multi-ply,SBD
-1,George McAfee,M3,UK,98.3,-340,340,-377.5,340,,180,192.5,-197.5,192.5,,250,300,-325,300,,832.5,100,M,Multi-ply,SBD
+1,Sam Graham #1,M2,Ireland,99.6,290,320,,320,,175,190,-200,190,,250,280,-300,280,,790,100,M,Multi-ply,SBD
+1,Gerry McAfee,M3,Ireland,98.3,-340,340,-377.5,340,,180,192.5,-197.5,192.5,,250,300,-325,300,,832.5,100,M,Multi-ply,SBD
 1,Martin Košnar,O,Czechia,108.75,390,400,410,410,,270,280,285,285,,300,-320,-320,300,,995,110,M,Multi-ply,SBD
 2,Bakhtiyar Guliyev,O,Azerbaijan,108.1,330,350,365,365,,220,232.5,240,240,,360,-380,-390.5,360,,965,110,M,Multi-ply,SBD
 3,Sergey Starodubskiy,O,Russia,109.1,-370,370,390,390,,270,-290,290,290,,280,-320,-320,280,,960,110,M,Multi-ply,SBD
@@ -86,8 +86,8 @@ DQ,Delroy McQueen,SM,UK,108.35,-420,-420,-420,,,,,,,,,,,,,,110,M,Multi-ply,SBD
 1,James Godber,J,UK,115.85,230,-260,260,260,,155,165,170,170,,220,250,-260,250,,680,125,M,Multi-ply,SBD
 1,Rufat Agaev,O,Azerbaijan,122.2,402.5,-420,430,430,,242.5,250,255,255,,320,330,-335,330,,1015,125,M,Multi-ply,SBD
 1,Rufat Agaev,SM,Azerbaijan,122.2,402.5,-420,430,430,,242.5,250,255,255,,320,330,-335,330,,1015,125,M,Multi-ply,SBD
-2,Reiko Kruse,O,Germany,121.6,400,425,435,435,,235,245,250,250,,315,-330,-330,315,,1000,125,M,Multi-ply,SBD
-2,Reiko Kruse,SM,Germany,121.6,400,425,435,435,,235,245,250,250,,315,-330,-330,315,,1000,125,M,Multi-ply,SBD
+2,Reikö Kruse,O,Germany,121.6,400,425,435,435,,235,245,250,250,,315,-330,-330,315,,1000,125,M,Multi-ply,SBD
+2,Reikö Kruse,SM,Germany,121.6,400,425,435,435,,235,245,250,250,,315,-330,-330,315,,1000,125,M,Multi-ply,SBD
 3,Daniel Dvořák,O,Czechia,119.5,-370,380,400,400,,-257.5,257.5,-270,257.5,,300,-315,317.5,317.5,,975,125,M,Multi-ply,SBD
 3,Daniel Dvořák,SM,Czechia,119.5,-370,380,400,400,,-257.5,257.5,-270,257.5,,300,-315,317.5,317.5,,975,125,M,Multi-ply,SBD
 4,Matti Lehto,O,Finland,124.9,370,-390,390,390,,260,-272.5,-272.5,260,,302.5,325,-327.5,325,,975,125,M,Multi-ply,SBD
@@ -96,7 +96,7 @@ DQ,Delroy McQueen,SM,UK,108.35,-420,-420,-420,,,,,,,,,,,,,,110,M,Multi-ply,SBD
 4,Lee Price,SM,UK,115.7,280,-310,320,320,,200,215,-222.5,215,,250,-275,275,275,,810,125,M,Multi-ply,SBD
 7,Adam Kitchener,O,UK,115.75,-205,300,,300,,190,205,-210,205,,270,-295,295,295,,800,125,M,Multi-ply,SBD
 8,Marek Kerekes,O,Slovakia,114.85,280,300,310,310,,190,200,207.5,207.5,,252.5,-272.5,-272.5,252.5,,770,125,M,Multi-ply,SBD
-DQ,Carl Rogers,O,UK,123.65,-315,-315,-315,,,,,,,,,,,,,,125,M,Multi-ply,SBD
+DQ,Carl Rogers #1,O,UK,123.65,-315,-315,-315,,,,,,,,,,,,,,125,M,Multi-ply,SBD
 1,Tom Kelly,M1,Ireland,123.8,380,420,440,440,,250,280,-300,280,,320,-350,-350,320,,1040,125,M,Multi-ply,SBD
 2,Gary Boulton,M1,UK,122.65,325,345,365,365,,160,175,190,190,,270,-290,290,290,,845,125,M,Multi-ply,SBD
 1,Lee Marshall,M2,UK,120.25,400,-430,430,430,-440,200,210,220,220,,300,-330,330,330,,980,125,M,Multi-ply,SBD
@@ -104,7 +104,7 @@ DQ,Carl Rogers,O,UK,123.65,-315,-315,-315,,,,,,,,,,,,,,125,M,Multi-ply,SBD
 2,Radovan Kaděra,O,Czechia,125.9,275,295,315,315,,220,230,240,240,,265,295,300,300,,855,140,M,Multi-ply,SBD
 DQ,Jani Toivo Kristian Ihalainen,O,Finland,126.8,75,,,75,,-305,-305,-317.5,,,,,,,,,140,M,Multi-ply,SBD
 DQ,Jani Toivo Kristian Ihalainen,SM,Finland,126.8,75,,,75,,-305,-305,-317.5,,,,,,,,,140,M,Multi-ply,SBD
-3,Ian Mitchell,M1,UK,132.85,285,315,330,330,,165,-227.5,-232.5,165,,220,255,285,285,,780,140,M,Multi-ply,SBD
+3,Ian Mitchell #2,M1,UK,132.85,285,315,330,330,,165,-227.5,-232.5,165,,220,255,285,285,,780,140,M,Multi-ply,SBD
 1,Kari Markku Kalliola,O,Finland,162.65,-430,430,,430,,365,-375,-375,365,,250,277.5,-287.5,277.5,,1072.5,140+,M,Multi-ply,SBD
 2,Philippe Crets,O,Belgium,142.3,360,380,-390,380,,235,250,-260,250,,300,340,-370,340,,970,140+,M,Multi-ply,SBD
 3,Gunnar De Vadder,O,Belgium,141.55,310,340,350,350,,230,255,265,265,,220,250,270,270,,885,140+,M,Multi-ply,SBD
@@ -123,7 +123,7 @@ DQ,Jani Toivo Kristian Ihalainen,SM,Finland,126.8,75,,,75,,-305,-305,-317.5,,,,,
 1,Mustapha Redouani,O,France,61.5,,,,,,145,152.5,-160,152.5,,,,,,,152.5,67.5,M,Multi-ply,B
 2,Rustam Musaev,O,Azerbaijan,67.4,,,,,,140,152.5,-160,152.5,,,,,,,152.5,67.5,M,Multi-ply,B
 1,Zia Mirza,M3,UK,65.6,,,,,,120,130,-135,130,,,,,,,130,67.5,M,Multi-ply,B
-1,Peter Collins Allan,M4,UK,64.85,,,,,,120,-136,-136,120,,,,,,,120,67.5,M,Multi-ply,B
+1,Alan Collins,M4,UK,64.85,,,,,,120,-136,-136,120,,,,,,,120,67.5,M,Multi-ply,B
 1,Dieter Schweitzer,M7,Germany,66.55,,,,,,-60,60,65,65,,,,,,,65,67.5,M,Multi-ply,B
 1,Ramin Rzayev,O,Azerbaijan,74.3,,,,,,-192.5,192.5,197.5,197.5,,,,,,,197.5,75,M,Multi-ply,B
 2,Bayram Aliev,O,Azerbaijan,74.8,,,,,,180,190,197.5,197.5,,,,,,,197.5,75,M,Multi-ply,B
@@ -131,7 +131,7 @@ DQ,Jani Toivo Kristian Ihalainen,SM,Finland,126.8,75,,,75,,-305,-305,-317.5,,,,,
 1,Edward Dudley-Robey,SM,USA,74.9,,,,,,185,-200,-200,185,,,,,,,185,75,M,Multi-ply,B
 4,Svyatoslav Ogrenchuk,O,Ukraine,73.25,,,,,,-150,-150,150,150,-155,,,,,,150,75,M,Multi-ply,B
 DQ,Cédric Martin,O,France,73.4,,,,,,-190,-192.5,-192.5,,,,,,,,,75,M,Multi-ply,B
-1,Paul Heartwell,M3,UK,74.75,,,,,,140,150,-155,150,,,,,,,150,75,M,Multi-ply,B
+1,Paul Hartwell,M3,UK,74.75,,,,,,140,150,-155,150,,,,,,,150,75,M,Multi-ply,B
 1,Gerd Müller,M4,Germany,74.55,,,,,,125,130,137.5,137.5,,,,,,,137.5,75,M,Multi-ply,B
 2,Burkhard Steffen,M4,Germany,68.3,,,,,,100,-110,-110,100,,,,,,,100,75,M,Multi-ply,B
 1,Miloud Lazreg,M5,France,74.8,,,,,,110,125,130,130,,,,,,,130,75,M,Multi-ply,B
@@ -141,8 +141,8 @@ DQ,Cédric Martin,O,France,73.4,,,,,,-190,-192.5,-192.5,,,,,,,,,75,M,Multi-ply,B
 1,Samad Berrichi Abdel,O,France,81,,,,,,160,175,-182.5,175,,,,,,,175,82.5,M,Multi-ply,B
 2,Steve Read,O,UK,77.15,,,,,,130,-140,-140,130,,,,,,,130,82.5,M,Multi-ply,B
 1,Steve Read,SM,UK,77.15,,,,,,130,-140,-140,130,,,,,,,130,82.5,M,Multi-ply,B
-3,Robert Trusscott,O,UK,82,,,,,,120,130,-145,130,,,,,,,130,82.5,M,Multi-ply,B
-2,Robert Trusscott,SM,UK,82,,,,,,120,130,-145,130,,,,,,,130,82.5,M,Multi-ply,B
+3,Robert Truscott,O,UK,82,,,,,,120,130,-145,130,,,,,,,130,82.5,M,Multi-ply,B
+2,Robert Truscott,SM,UK,82,,,,,,120,130,-145,130,,,,,,,130,82.5,M,Multi-ply,B
 DQ,Vagif Jafarov Namig,O,Azerbaijan,82.4,,,,,,-200,-210,-210,,,,,,,,,82.5,M,Multi-ply,B
 DQ,Vagif Jafarov Namig,SM,Azerbaijan,82.4,,,,,,-200,-210,-210,,,,,,,,,82.5,M,Multi-ply,B
 1,Andris Greberis,M1,Latvia,82.4,,,,,,-195,195,-205,195,,,,,,,195,82.5,M,Multi-ply,B
@@ -152,7 +152,7 @@ DQ,Vagif Jafarov Namig,SM,Azerbaijan,82.4,,,,,,-200,-210,-210,,,,,,,,,82.5,M,Mul
 1,Jean-Marie Kubick,M6,France,82.4,,,,,,145,150,-152.5,150,,,,,,,150,82.5,M,Multi-ply,B
 1,Paul Kunz,T2,Germany,82.65,,,,,,100,-105,-105,100,,,,,,,100,90,M,Multi-ply,B
 1,Zdenk Bakus,T3,Czechia,88.9,,,,,,160,170,-182.5,170,,,,,,,170,90,M,Multi-ply,B
-1,Sahib Ahmadov Mustafa,O,Azerbaijan,89.9,,,,,,240,-250,255,255,,,,,,,255,90,M,Multi-ply,B
+1,Mustafa Ahmadov,O,Azerbaijan,89.9,,,,,,240,-250,255,255,,,,,,,255,90,M,Multi-ply,B
 2,Laurent Gonzalez,O,France,88.15,,,,,,215,220,-240,220,,,,,,,220,90,M,Multi-ply,B
 1,Laurent Gonzalez,SM,France,88.15,,,,,,215,220,-240,220,,,,,,,220,90,M,Multi-ply,B
 3,David Velička,O,Czechia,89.85,,,,,,195,205,,205,,,,,,,205,90,M,Multi-ply,B
@@ -160,7 +160,7 @@ DQ,Vagif Jafarov Namig,SM,Azerbaijan,82.4,,,,,,-200,-210,-210,,,,,,,,,82.5,M,Mul
 2,Petri Salmela,SM,Finland,89.3,,,,,,200,-207.5,-207.5,200,,,,,,,200,90,M,Multi-ply,B
 5,Pavlo Zinko,O,Ukraine,84.25,,,,,,130,135,140,140,,,,,,,140,90,M,Multi-ply,B
 3,Pavlo Zinko,SM,Ukraine,84.25,,,,,,130,135,140,140,,,,,,,140,90,M,Multi-ply,B
-1,Darren Winfield-Stanesby,M1,UK,89.4,,,,,,120,130,-145,130,,,,,,,130,90,M,Multi-ply,B
+1,Darran Winfield-Stanesby,M1,UK,89.4,,,,,,120,130,-145,130,,,,,,,130,90,M,Multi-ply,B
 1,Christian Klicki,M2,France,89.25,,,,,,215,220,240,240,-253,,,,,,240,90,M,Multi-ply,B
 2,Phil Beniston,M2,UK,90,,,,,,180,190,200,200,,,,,,,200,90,M,Multi-ply,B
 1,Brett Hardy,M3,UK,87.15,,,,,,190,200,-210,200,,,,,,,200,90,M,Multi-ply,B
@@ -201,7 +201,7 @@ DQ,Jari Rosendahl,O,Finland,116,,,,,,-270,-275,-275,,,,,,,,,125,M,Multi-ply,B
 1,Udo Krumbholz,M2,Germany,111.2,,,,,,215,225,235,235,,,,,,,235,125,M,Multi-ply,B
 1,Andreas Richter,M3,Germany,115.4,,,,,,220,230,-240,230,,,,,,,230,125,M,Multi-ply,B
 2,Julian Massey,M3,UK,115.5,,,,,,175,180,185,185,,,,,,,185,125,M,Multi-ply,B
-1,Michael King,M4,UK,122,,,,,,250,-260,260,260,,,,,,,260,125,M,Multi-ply,B
+1,Mick King,M4,UK,122,,,,,,250,-260,260,260,,,,,,,260,125,M,Multi-ply,B
 1,Joachim Eulenstein,M5,Germany,113.2,,,,,,155,165,175,175,,,,,,,175,125,M,Multi-ply,B
 1,Jonas Rantanen,O,Finland,130.8,,,,,,-340,-350,350,350,,,,,,,350,140,M,Multi-ply,B
 2,Karel Koldovský,O,Czechia,127,,,,,,230,237.5,-245,237.5,,,,,,,237.5,140,M,Multi-ply,B

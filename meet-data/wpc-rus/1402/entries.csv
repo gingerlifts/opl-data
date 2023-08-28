@@ -13,7 +13,7 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 3,Marufzhan Sabirov,Amateur Open,Russia,80.6,155,160,165,165,-115,115,-120,115,195,205,215,215,,495,82.5,M,Маруфжан Сабиров,1982,Yes,Wraps,SBD
 1,Sergey Kholyapin,Amateur Open,Russia,93.1,140,160,-170,160,115,120,125,125,200,205,215,215,,500,100,M,Сергей Холяпин,1975,Yes,Wraps,SBD
 1,Zhakhongir Dadaboev,Amateur Juniors 20-23,Russia,107.9,180,190,-200,190,160,-170,-170,160,-240,240,-245,240,,590,110,M,Жахонгир Дадабоев,1992,Yes,Wraps,SBD
-1,Leontiy Miroshnik,Amateur Open,Ukraine,100.2,230,240,250,250,130,140,145,145,250,260,272.5,272.5,,667.5,110,M,Леонтий Мирошник,1989,Yes,Wraps,SBD
+1,Leontiy Miroshnik,Amateur Open,Ukraine,100.2,230,240,250,250,130,140,145,145,250,260,272.5,272.5,,667.5,110,M,Леонтій Мірошник,1989,Yes,Wraps,SBD
 2,Dmitriy Dubkov,Amateur Open,Russia,103,170,180,-200,180,100,115,-130,115,200,215,-225,215,,510,110,M,Дмитрий Дубков,1980,Yes,Wraps,SBD
 1,Aleksandr Smirnov,Amateur Masters 40-44,Russia,122.8,170,180,190,190,115,125,-130,125,-210,220,230,230,,545,125,M,Александр Смирнов,1972,Yes,Wraps,SBD
 1,Elena Yanushkovskaya,Pro Juniors 20-23,Russia,53.4,75,80,-85,80,47.5,50,55,55,105,110,-112.5,110,,245,56,F,Елена Янушковская,1992,No,Wraps,SBD
@@ -28,7 +28,7 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Aleksandr Mikhaylov,Pro Masters 55-59,Russia,81.7,110,120,-130,120,80,85,87.5,87.5,155,165,172.5,172.5,,380,82.5,M,Александр Михайлов,1958,No,Wraps,SBD
 1,Aleksandr Filatov,Pro Juniors 20-23,Russia,88,205,-212.5,-212.5,205,120,125,130,130,-225,-235,247.5,247.5,,582.5,90,M,Александр Филатов,1993,No,Wraps,SBD
 1,Artur Beltsov,Pro Open,Russia,89.4,210,225,235,235,160,170,180,180,240,260,-280,260,,675,90,M,Артур Бельцов,1982,No,Wraps,SBD
-2,Sergey Novikov,Pro Open,Russia,89.3,170,180,187.5,187.5,-120,120,-125,120,210,222.5,227.5,227.5,,535,90,M,Сергей Новиков,1987,No,Wraps,SBD
+2,Sergey Novikov #3,Pro Open,Russia,89.3,170,180,187.5,187.5,-120,120,-125,120,210,222.5,227.5,227.5,,535,90,M,Сергей Новиков,1987,No,Wraps,SBD
 1,Pavel Bezuglov,Pro Open,Russia,99.2,230,250,270,270,-170,170,-180,170,260,280,-290,280,,720,100,M,Павел Безуглов,1987,No,Wraps,SBD
 2,Aleksey Krylov,Pro Open,Russia,100,180,-190,-190,180,120,-125,-125,120,235,247.5,255,255,,555,100,M,Алексей Крылов,1988,No,Wraps,SBD
 1,Denis Deryagin,Pro Open,Russia,108.5,250,265,270,270,185,192.5,197.5,197.5,240,252.5,272.5,272.5,,740,110,M,Денис Дерягин,1980,No,Wraps,SBD
@@ -39,7 +39,7 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Sergey Smirnov,Amateur Teen 16-17,Russia,90.7,180,200,-220,200,130,140,150,150,160,170,-180,170,,520,100,M,Сергей Смирнов,1996,Yes,Single-ply,SBD
 1,Dmitriy Patyupin,Amateur Juniors 20-23,Russia,95.8,270,290,300,300,190,200,210,210,250,260,-270,260,,770,100,M,Дмитрий Патюпин,1991,Yes,Single-ply,SBD
 1,Aleksandr Chayka,Amateur Open,Russia,113.9,-200,200,210,210,-120,120,122.5,122.5,160,-170,-175,160,,492.5,125,M,Александр Чайка,1986,Yes,Single-ply,SBD
-1,Světlana Veselova,Pro Open,Russia,58.3,120,130,140,140,75,-82.5,-82.5,75,130,-137.5,-137.5,130,,345,60,F,Светлана Веселова,1987,No,Multi-ply,SBD
+1,Svetlana Veselova,Pro Open,Russia,58.3,120,130,140,140,75,-82.5,-82.5,75,130,-137.5,-137.5,130,,345,60,F,Светлана Веселова,1987,No,Multi-ply,SBD
 1,Ilya Arkhipov,Pro Open,Russia,75,140,150,-160,150,105,-115,-115,105,150,160,170,170,,425,75,M,Илья Архипов,1984,No,Multi-ply,SBD
 1,Alexander Krovikov,Pro Masters 50-54,Russia,100,225,235,245,245,175,-190,190,190,250,275,290,290,,725,100,M,Александр Кровиков,1961,No,Multi-ply,SBD
 1,Aleksey Yagunov,Pro Open,Russia,89.5,215,230,,230,170,175,180,180,217.5,225,232.5,232.5,,642.5,90,M,Алексей Ягунов,1968,No,Single-ply,SBD
@@ -125,7 +125,7 @@ DQ,Andrey Rusakov,Amateur Masters 40-44,Russia,109.2,,,,,-180,-180,-180,,,,,,,,1
 1,Lidiya Charkova,Pro Masters 45-49,Russia,86.1,,,,,85,-92.5,-92.5,85,,,,,,85,90,F,Лидия Чаркова,1968,No,Raw,B
 1,Dmitriy Vladimirov,Pro Open,Russia,66.8,,,,,140,147.5,-150,147.5,,,,,,147.5,67.5,M,Дмитрий Владимиров,1986,No,Raw,B
 1,Ruslan Feygin,Pro Open,Russia,73.2,,,,,125,130,-132.5,130,,,,,,130,75,M,Руслан Фейгин,1987,No,Raw,B
-1,Ivan Ivanov,Pro Teen 16-17,Russia,80.9,,,,,135,140,-147.5,140,,,,,,140,82.5,M,Іван Іванов,1997,No,Raw,B
+1,Ivan Ivanov #13,Pro Teen 16-17,Russia,80.9,,,,,135,140,-147.5,140,,,,,,140,82.5,M,Иван Иванов,1997,No,Raw,B
 1,Andrey Platonov,Pro Teen 18-19,Russia,78.3,,,,,110,120,125,125,,,,,,125,82.5,M,Андрей Платонов,1995,No,Raw,B
 1,Vladislav Dolgopolov,Pro Juniors 20-23,Russia,80.9,,,,,-132.5,132.5,-137.5,132.5,,,,,,132.5,82.5,M,Владислав Долгополов,1991,No,Raw,B
 1,Vitaliy Vikhrov,Pro Open,Russia,81.7,,,,,180,190,-200,190,,,,,,190,82.5,M,Виталий Вихров,1987,No,Raw,B
@@ -139,13 +139,13 @@ DQ,Khasylzhan Dadakhanov,Pro Open,Russia,87,,,,,-180,-180,-180,,,,,,,,90,M,Ха�
 1,Aleksandr Pankratyev,Pro Open,Russia,96.3,,,,,202.5,212.5,-220,212.5,,,,,,212.5,100,M,Александр Панкратьев,1987,No,Raw,B
 2,Ivan Solntsev,Pro Open,Russia,96.5,,,,,190,200,-205,200,,,,,,200,100,M,Иван Солнцев,1974,No,Raw,B
 3,Vasiliy Kolybelin,Pro Open,Russia,99.7,,,,,195,-200,-200,195,,,,,,195,100,M,Василий Колыбелин,1976,No,Raw,B
-4,Aleksey Vasilyev,Pro Open,Russia,98.2,,,,,180,190,-192.5,190,,,,,,190,100,M,Алексей Васильев,1979,No,Raw,B
+4,Aleksey Vasilev #2,Pro Open,Russia,98.2,,,,,180,190,-192.5,190,,,,,,190,100,M,Алексей Васильев,1979,No,Raw,B
 1,Ivan Solntsev,Pro Masters 40-44,Russia,96.5,,,,,190,200,-205,200,,,,,,200,100,M,Иван Солнцев,1974,No,Raw,B
 1,Boris Kozhin,Pro Masters 50-54,Russia,98.7,,,,,120,130,-140,130,,,,,,130,100,M,Борис Кожин,1960,No,Raw,B
 1,Igor Kushin,Pro Open,Russia,108.1,,,,,220,235,240,240,,,,,,240,110,M,Игорь Кушин,1966,No,Raw,B
 2,Aleksandr Nikitinskiy,Pro Open,Russia,108.4,,,,,-165,175,185,185,,,,,,185,110,M,Александр Никитинский,1978,No,Raw,B
 3,Ivan Anikanov,Pro Open,Russia,110,,,,,160,172.5,-180,172.5,,,,,,172.5,110,M,Иван Аниканов,1982,No,Raw,B
-1,Aleksey Vasilyev,Pro Masters 40-44,Russia,109.6,,,,,140,150,-155,150,,,,,,150,110,M,Алексей Васильев,1971,No,Raw,B
+1,Aleksey Vasilev #1,Pro Masters 40-44,Russia,109.6,,,,,140,150,-155,150,,,,,,150,110,M,Алексей Васильев,1971,No,Raw,B
 1,Igor Kushin,Pro Masters 45-49,Russia,108.1,,,,,220,235,240,240,,,,,,240,110,M,Игорь Кушин,1966,No,Raw,B
 1,Aleksandr Brodovyy,Pro Open,Russia,117.7,,,,,210,220,225,225,,,,,,225,125,M,Александр Бродовый,1980,No,Raw,B
 2,Sergey Golovin,Pro Open,Russia,124.9,,,,,200,207.5,212.5,212.5,,,,,,212.5,125,M,Сергей Головин,1978,No,Raw,B
@@ -202,7 +202,7 @@ DQ,Oleg Martynenko,Amateur Masters 40-44,Russia,79.4,,,,,-205,-205,-205,,,,,,,,8
 DQ,Dmitriy Kalinin,Amateur Open,Russia,94.2,,,,,,,,,-255,-255,-255,,,,100,M,Дмитрий Калинин,1970,Yes,Raw,D
 DQ,Dmitriy Kalinin,Amateur Masters 40-44,Russia,94.2,,,,,,,,,-255,-255,-255,,,,100,M,Дмитрий Калинин,1970,Yes,Raw,D
 1,Stanislav Sadulaev,Amateur Teen 18-19,Russia,105.6,,,,,,,,,202.5,210,217.5,217.5,,217.5,110,M,Станислав Садулаев,1996,Yes,Raw,D
-1,Leontiy Miroshnik,Amateur Open,Ukraine,100.2,,,,,,,,,250,262.5,265,265,,265,110,M,Леонтий Мирошник,1989,Yes,Raw,D
+1,Leontiy Miroshnik,Amateur Open,Ukraine,100.2,,,,,,,,,250,262.5,265,265,,265,110,M,Леонтій Мірошник,1989,Yes,Raw,D
 2,Sergey Bannov,Amateur Open,Russia,100.9,,,,,,,,,240,252.5,-262.5,252.5,,252.5,110,M,Сергей Баннов,1980,Yes,Raw,D
 3,Aleksandr Evsyutkin,Amateur Open,Russia,100.4,,,,,,,,,215,-220,-220,215,,215,110,M,Александр Евсюткин,1988,Yes,Raw,D
 1,Andrey Rusakov,Amateur Masters 40-44,Russia,109.2,,,,,,,,,230,245,260,260,,260,110,M,Андрей Русаков,1973,Yes,Raw,D
@@ -218,10 +218,10 @@ DQ,Dmitriy Kalinin,Amateur Masters 40-44,Russia,94.2,,,,,,,,,-255,-255,-255,,,,1
 1,Mikhail Skvortsov,Pro Teen 13-15,Russia,85.8,,,,,,,,,80,90,95,95,,95,90,M,Михаил Скворцов,2000,No,Raw,D
 1,Antonio De,Pro Juniors 20-23,Italy,88.9,,,,,,,,,160,170,180,180,,180,90,M,,1991,No,Raw,D
 1,Artur Beltsov,Pro Open,Russia,89.4,,,,,,,,,260,280,-292.5,280,,280,90,M,Артур Бельцов,1982,No,Raw,D
-2,Sergey Novikov,Pro Open,Russia,89.3,,,,,,,,,210,222.5,230,230,,230,90,M,Сергей Новиков,1987,No,Raw,D
+2,Sergey Novikov #3,Pro Open,Russia,89.3,,,,,,,,,210,222.5,230,230,,230,90,M,Сергей Новиков,1987,No,Raw,D
 1,Artem Kretsu,Pro Juniors 20-23,Russia,95.6,,,,,,,,,215,225,-235,225,,225,100,M,Артем Крецу,1992,No,Raw,D
 1,Aleksey Krylov,Pro Open,Russia,100,,,,,,,,,235,247.5,252.5,252.5,,252.5,100,M,Алексей Крылов,1988,No,Raw,D
 1,Mikhail Verbitskiy,Pro Masters 60-64,Belarus,95,,,,,,,,,250,280,290,290,,290,100,M,,1951,No,Raw,D
-1,Aleksey Vasilyev,Pro Open,Russia,100.8,,,,,,,,,230,250,-260,250,,250,110,M,Алексей Васильев,1979,No,Raw,D
+1,Aleksey Vasilev #2,Pro Open,Russia,100.8,,,,,,,,,230,250,-260,250,,250,110,M,Алексей Васильев,1979,No,Raw,D
 1,Aleksey Molkov,Amateur Open,Russia,82.5,,,,,,,,,240,250,-260,250,,250,82.5,M,Алексей Мольков,1989,Yes,Multi-ply,D
 1,Aleksandr Verbitskiy,Pro Open,Russia,87.5,,,,,,,,,220,235,245,245,,245,90,M,Александр Вербицкий,1989,No,Multi-ply,D

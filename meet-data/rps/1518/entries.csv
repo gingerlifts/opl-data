@@ -2,7 +2,7 @@ Sex,Equipment,Division,WeightClassKg,Name,Age,BodyweightKg,Best3SquatKg,Best3Ben
 F,Raw,Amateur Youth,44,Layla Merkh,10,41.73,45.36,24.95,63.5,133.81,SBD,1
 F,Wraps,Amateur Masters 40-44,52,Nicole M Sandomenico,,51.62,81.65,52.16,127.01,260.82,SBD,1
 F,Wraps,Amateur Open,52,Nicole M Sandomenico,,51.62,81.65,52.16,127.01,260.82,SBD,1
-F,Raw,Amateur Open,56,Courtney Miller,,55.34,102.06,56.7,140.61,299.37,SBD,1
+F,Raw,Amateur Open,56,Courtney Miller #3,,55.34,102.06,56.7,140.61,299.37,SBD,1
 F,Raw,Amateur Open,56,Michelle Chen,,52.16,102.06,52.16,124.74,278.96,SBD,2
 F,Wraps,Pro Juniors 20-23,60,Amanda Meyer,,59.06,149.69,74.84,163.29,387.82,SBD,1
 F,Single-ply,Amateur Teen 14-15,60,Gianna Garman,,60,120.2,81.65,115.67,317.51,SBD,1
@@ -72,7 +72,7 @@ M,Raw,Amateur Open,82.5,Matthew Siemaszkiewicz,,79.65,158.76,104.33,226.8,489.88
 M,Raw,Amateur Open,82.5,Kenneth Gruhl,,78.47,149.69,102.06,204.12,455.86,SBD,4
 M,Raw,Amateur Open,82.5,James Bradley,,80.47,102.06,136.08,183.7,421.84,SBD,5
 M,Raw,Amateur Open,82.5,Brandon Densmore,,81.19,219.99,,,,SBD,DQ
-M,Wraps,Amateur Juniors 20-23,82.5,Johnson Thai,,82.28,208.65,138.35,208.65,555.65,SBD,2
+M,Raw,Amateur Juniors 20-23,82.5,Johnson Thai,,82.28,208.65,138.35,208.65,555.65,SBD,2
 M,Wraps,Amateur Open,82.5,James Colleary,,81.65,226.8,165.56,249.48,641.83,SBD,1
 M,Wraps,Amateur Open,82.5,Chick Finnegan,,81.65,226.8,140.61,238.14,605.55,SBD,2
 M,Wraps,Amateur Open,82.5,Michael Kelderman,,80.74,204.12,124.74,260.82,589.67,SBD,4
@@ -189,7 +189,7 @@ M,Raw,Amateur Open,90,Mahmoud Ahmed,,89.81,210.92,158.76,226.8,596.47,SBD,2
 M,Wraps,Amateur Juniors 20-23,90,Dalton Mottillo,,89.99,192.78,140.61,238.14,571.53,SBD,1
 M,Wraps,Police/Fire/Military Pro Open,90,Christopher Ortega,,89.45,240.4,161.03,267.62,669.05,SBD,1
 M,Wraps,Pro Open,90,Christopher Ortega,,89.45,240.4,161.03,267.62,669.05,SBD,3
-M,Wraps,Amateur Teen 18-19,90,Rob Thomas,,89.27,235.87,167.83,240.4,644.1,SBD,1
+M,Wraps,Amateur Teen 18-19,90,Rob Thomas #2,,89.27,235.87,167.83,240.4,644.1,SBD,1
 M,Raw,Amateur Juniors 20-23,100,Issac Kim,,98.88,215.46,142.88,249.48,607.81,SBD,1
 M,Raw,Amateur Open,100,Travis Poulsen,,98.79,217.72,142.88,265.35,625.96,SBD,1
 M,Raw,Amateur Open,100,Michael Owdij,,95.8,138.35,111.13,204.12,453.59,SBD,5

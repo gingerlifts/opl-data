@@ -5,16 +5,16 @@ Boys,51.71,3,Sergio Huertas,Georgetown,47.99,124.74,63.5,122.47,310.71,Single-pl
 Boys,51.71,4,Andres Guerra,Manor,51.07,111.13,65.77,129.27,306.17,Single-ply,SBD,M
 Boys,51.71,5,Will Solomon,Bastrop Cedar Creek,49.17,117.93,68.04,117.93,303.91,Single-ply,SBD,M
 Boys,51.71,6,Max Castelli,Belton,51.07,106.59,63.5,129.27,299.37,Single-ply,SBD,M
-Boys,51.71,7,Josh Lambert,Burleson Centennial,50.62,111.13,56.7,108.86,276.69,Single-ply,SBD,M
+Boys,51.71,7,Josh Lambert #3,Burleson Centennial,50.62,111.13,56.7,108.86,276.69,Single-ply,SBD,M
 Boys,51.71,DQ,Nick Sanchez,Georgetown,49.44,138.35,,,,Single-ply,SBD,M
-Boys,55.79,1,Jason Jones,Burleson,55.7,181.44,99.79,204.12,485.34,Single-ply,SBD,M
+Boys,55.79,1,Jason Jones #8,Burleson,55.7,181.44,99.79,204.12,485.34,Single-ply,SBD,M
 Boys,55.79,2,Rushi Patel,College Station,54.98,170.1,88.45,172.37,430.91,Single-ply,SBD,M
 Boys,55.79,3,Michael Guerrero,Georgetown East View,54.16,165.56,92.99,154.22,412.77,Single-ply,SBD,M
-Boys,55.79,4,Juan Sanchez,Waco,53.98,151.95,83.91,174.63,410.5,Single-ply,SBD,M
+Boys,55.79,4,Juan Sanchez #4,Waco,53.98,151.95,83.91,174.63,410.5,Single-ply,SBD,M
 Boys,55.79,5,Therrance Soto,San Marcos,55.43,145.15,79.38,176.9,401.43,Single-ply,SBD,M
 Boys,55.79,6,Jacob Hanson,College Station A&M; Cons,54.98,154.22,92.99,151.95,399.16,Single-ply,SBD,M
 Boys,55.79,7,Ethan Ford,Burleson Centennial,55.61,122.47,70.31,181.44,374.21,Single-ply,SBD,M
-Boys,55.79,8,Avery Rodriguez,Temple,55.07,136.08,77.11,156.49,369.68,Single-ply,SBD,M
+Boys,55.79,8,Avery Rodriguez #3,Temple,55.07,136.08,77.11,156.49,369.68,Single-ply,SBD,M
 Boys,55.79,9,Xavier McCarter,Copperas Cove,54.16,138.35,81.65,140.61,360.61,Single-ply,SBD,M
 Boys,55.79,10,Dylan Quintero,Burleson Centennial,53.98,111.13,58.97,156.49,326.59,Single-ply,SBD,M
 Boys,55.79,11,Faison Stroop,Waco University,54.98,113.4,70.31,142.88,326.59,Single-ply,SBD,M
@@ -45,7 +45,7 @@ Boys,67.13,DQ,Jeremiah Manley,Bryan Rudder,65.23,,,,,Single-ply,SBD,M
 Boys,67.13,DQ,Frank Williams,College Station A&M; Cons,65.5,,,,,Single-ply,SBD,M
 Boys,74.84,1,Braden Tschirhart,College Station,73.66,233.6,151.95,208.65,594.21,Single-ply,SBD,M
 Boys,74.84,2,Issac Johnson,Elgin,72.21,226.8,113.4,238.14,578.33,Single-ply,SBD,M
-Boys,74.84,3,Joseph Lopez,Kyle Lehman,74.03,206.38,122.47,233.6,562.45,Single-ply,SBD,M
+Boys,74.84,3,Joseph Lopez #5,Kyle Lehman,74.03,206.38,122.47,233.6,562.45,Single-ply,SBD,M
 Boys,74.84,4,Kevin Cervantes,Elgin,74.3,201.85,138.35,215.46,555.65,Single-ply,SBD,M
 Boys,74.84,5,Dequarius White,Bryan Rudder,72.67,192.78,127.01,217.72,537.51,Single-ply,SBD,M
 Boys,74.84,6,Zaye Petit,Copperas Cove,69.13,197.31,113.4,213.19,523.9,Single-ply,SBD,M
@@ -73,7 +73,7 @@ Boys,89.81,3,Prudy Calderon,San Marcos,84.46,235.87,131.54,267.62,635.03,Single-
 Boys,89.81,4,Garrett Parkhill,Burleson Centennial,88.36,254.01,140.61,240.4,635.03,Single-ply,SBD,M
 Boys,89.81,5,Dwain Richie,Waco,88.99,240.4,131.54,240.4,612.35,Single-ply,SBD,M
 Boys,89.81,6,Ben Wolz,College Station,88.27,240.4,131.54,226.8,598.74,Single-ply,SBD,M
-Boys,89.81,7,Mark Wagner,College Station,88.63,226.8,131.54,226.8,585.13,Single-ply,SBD,M
+Boys,89.81,7,Mark Wagner #4,College Station,88.63,226.8,131.54,226.8,585.13,Single-ply,SBD,M
 Boys,89.81,8,Gelico Green,Waco,88,215.46,124.74,229.06,569.26,Single-ply,SBD,M
 Boys,89.81,9,Rene Velasquez,San Marcos,85.82,215.46,138.35,188.24,542.04,Single-ply,SBD,M
 Boys,89.81,10,Sukhman Singh,Granbury,89.27,210.92,111.13,192.78,514.83,Single-ply,SBD,M
@@ -114,7 +114,7 @@ Boys,124.74,6,Richard Cuellar,Cleburne,124.74,306.17,163.29,206.38,675.85,Single
 Boys,124.74,7,Kevondre Black,Waco,118.39,285.76,151.95,217.72,655.44,Single-ply,SBD,M
 Boys,124.74,8,Tyrese Beasley,Waco,118.66,260.82,158.76,226.8,646.37,Single-ply,SBD,M
 Boys,124.74,9,Dylan Sillero,San Marcos,114.94,274.42,136.08,229.06,639.57,Single-ply,SBD,M
-Boys,124.74,10,Ethan Garcia,Kyle Lehman,115.12,254.01,140.61,226.8,621.42,Single-ply,SBD,M
+Boys,124.74,10,Ethan Garcia #2,Kyle Lehman,115.12,254.01,140.61,226.8,621.42,Single-ply,SBD,M
 Boys,124.74,DQ,Curtavis Norman,Waco,113.04,242.67,,,,Single-ply,SBD,M
 Boys,124.74,DQ,Eliel Salazar,Elgin,115.58,,,,,Single-ply,SBD,M
 Boys,124.74+,1,Dominic Pastucci,Pflugerville Hendrickson,136.53,276.69,192.78,269.89,739.36,Single-ply,SBD,M

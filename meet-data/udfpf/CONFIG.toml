@@ -1,5 +1,6 @@
 [divisions]
     o = {name="O", min=14, max=999}
+    y = {name="Y", min=5, max=13}
     t1 = {name="T1", min=14, max=15}
     t2 = {name="T2", min=16, max=17}
     t3 = {name="T3", min=18, max=19}
@@ -18,6 +19,8 @@
     m12 = {name="M12", min=95, max=99}
 
     pfm = {name="PFM", min=14, max=999}
+    t = {name="T", min=14, max=19}
+    m = {name="M", min=40, max=999}
 
 [weightclasses.default_M]
     classes = ["52","56","60","67.5","75","82.5","90","100","110","125","145","145+"]

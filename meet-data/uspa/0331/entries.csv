@@ -56,7 +56,7 @@ Daniel Camacho,1,Juniors 20-23,M,Raw,CA,82.5,81.83,20,215,,165,,212.5,,592.5,SBD
 Andrew Knapik,1,Juniors 16-17,M,Raw,NV,90,89.13,16,140,145,95,97.5,187.5,192.5,422.5,SBD
 Charlie Shin,1,Juniors 18-19,M,Raw,CA,90,89.49,18,217.5,,135,,245,,597.5,SBD
 Kevin Estrada,2,Juniors 18-19,M,Raw,CA,90,86.91,19,197.5,,130,,247.5,,575,SBD
-Joel Sanchez,1,Juniors 20-23,M,Raw,CA,100,90.36,22,190,,130,,190,,510,SBD
+Joel Sanchez #4,1,Juniors 20-23,M,Raw,CA,100,90.36,22,190,,130,,190,,510,SBD
 Jorge Gutierrez,2,Juniors 20-23,M,Raw,CA,100,91.63,23,155,,107.5,,217.5,,480,SBD
 Corey Bean,3,Juniors 20-23,M,Raw,NV,100,96.12,20,130,,87.5,,170,,387.5,SBD
 Tyler Sage,DQ,Juniors 20-23,M,Raw,CA,100,99.74,21,255,,185,,-242.5,,,SBD
@@ -80,7 +80,7 @@ Akira Kobayashi,6,Open,M,Raw,CA,75,73.8,26,155,,122.5,,200,,477.5,SBD
 Omar Ashraf,7,Open,M,Raw,CA,75,74.34,19,175,,100,,195,,470,SBD
 Thomas Caliboso,8,Open,M,Raw,CA,75,72.71,29,147.5,,112.5,,190,,450,SBD
 Rick Martinez,9,Open,M,Raw,CA,75,74.8,23,120,,100,,192.5,,412.5,SBD
-Ricky Nguyen,10,Open,M,Raw,CA,75,71.44,24,142.5,,97.5,,165,,405,SBD
+Ricky Nguyen #1,10,Open,M,Raw,CA,75,71.44,24,142.5,,97.5,,165,,405,SBD
 Troy Rodriguez,11,Open,M,Raw,CA,75,68.13,20,125,,102.5,,150,,377.5,SBD
 Terry Hudson,12,Open,M,Raw,CA,75,74.71,51,115,,103,,150,,368,SBD
 Gerardo Rivera,1,Open,M,Raw,CA,82.5,79.33,25,197.5,,147.5,,260,,605,SBD
@@ -97,8 +97,8 @@ Andrew Knapik,7,Open,M,Raw,NV,90,89.13,16,140,,95,,187.5,,422.5,SBD
 Jason Clauson,8,Open,M,Raw,CA,90,89.36,36,137.5,,82.5,,192.5,,412.5,SBD
 Grigor Khoudikian,1,Open,M,Raw,CA,100,98.79,22,277.5,,192.5,,320,,790,SBD
 Sean Flanagan,2,Open,M,Raw,CA,100,99.29,32,220,,205,,265,,690,SBD
-John Lee,3,Open,M,Raw,CA,100,98.16,39,227.5,,157.5,,265,,650,SBD
-Joel Sanchez,4,Open,M,Raw,CA,100,90.36,22,190,,130,,190,,510,SBD
+John Lee #7,3,Open,M,Raw,CA,100,98.16,39,227.5,,157.5,,265,,650,SBD
+Joel Sanchez #4,4,Open,M,Raw,CA,100,90.36,22,190,,130,,190,,510,SBD
 Jorge Gutierrez,5,Open,M,Raw,CA,100,91.63,23,155,,107.5,,217.5,,480,SBD
 Corey Bean,6,Open,M,Raw,NV,100,96.12,20,130,,87.5,,170,,387.5,SBD
 Tyler Sage,DQ,Open,M,Raw,CA,100,99.74,21,255,,185,,-242.5,,,SBD
@@ -119,7 +119,7 @@ Joseph Llamas,3,Open,M,Raw,CA,140,134.22,31,202.5,,165,,235,,602.5,SBD
 Jake Johns,1,Open,M,Raw,CA,140+,148.42,27,295,,205,,335,,835,SBD
 Veselin Dimitrov,1,Open,M,Raw,NV,90,88.22,34,195,,155,,232.5,,582.5,SBD
 Jason Clauson,2,Submasters 35-39,M,Raw,CA,90,89.36,36,137.5,,82.5,,192.5,,412.5,SBD
-John Lee,1,Submasters 35-39,M,Raw,CA,100,98.16,39,227.5,,157.5,,265,,650,SBD
+John Lee #7,1,Submasters 35-39,M,Raw,CA,100,98.16,39,227.5,,157.5,,265,,650,SBD
 Mike Campbell,1,Masters 55-59,M,Raw,CA,67.5,66.68,55,137.5,,92.5,,150,,380,SBD
 Terry Hudson,1,Masters 50-54,M,Raw,CA,75,74.71,51,115,,103,,150,,368,SBD
 Isaac Akuna,1,Masters 55-59,M,Raw,HI,90,89.9,59,195,,115,,265,,575,SBD
@@ -157,7 +157,7 @@ Cole Townsend,3,Open,M,Wraps,AZ,100,94.57,24,230,,102.5,,265,,597.5,SBD
 Scott Blake,4,Open,M,Wraps,IN,100,98.66,42,192.5,,160,,227.5,,580,SBD
 Julian Gutierrez,5,Open,M,Wraps,CA,100,95.16,27,182.5,,125,,220,,527.5,SBD
 Kevin Scott,6,Open,M,Wraps,CA,100,99.2,47,190,,117.5,,205,,512.5,SBD
-Michael Pennington,7,Open,M,Wraps,CA,100,98.25,50,160,,117.5,,232.5,,510,SBD
+Michael Pennington #1,7,Open,M,Wraps,CA,100,98.25,50,160,,117.5,,232.5,,510,SBD
 Michael Womelsdorf,8,Open,M,Wraps,CA,100,97.75,56,142.5,,115,,165,,422.5,SBD
 Nathan Gomez,9,Open,M,Wraps,CA,100,99.56,17,145,,90,,145,,380,SBD
 Ryan Barr,1,Open,M,Wraps,CA,110,106.19,45,215,,147.5,,227.5,,590,SBD
@@ -168,7 +168,7 @@ Josh Dubon,2,Open,M,Wraps,CA,125,123.92,22,237.5,,147.5,,220,,605,SBD
 Marco Cadava,1,Masters 45-49,M,Wraps,CA,90,87.86,49,185,,107.5,,142.5,,435,SBD
 Scott Blake,1,Masters 40-44,M,Wraps,IN,100,98.66,42,192.5,,160,,227.5,,580,SBD
 Kevin Scott,1,Masters 45-49,M,Wraps,CA,100,99.2,47,190,,117.5,,205,,512.5,SBD
-Michael Pennington,1,Masters 50-54,M,Wraps,CA,100,98.25,50,160,,117.5,,232.5,,510,SBD
+Michael Pennington #1,1,Masters 50-54,M,Wraps,CA,100,98.25,50,160,,117.5,,232.5,,510,SBD
 Michael Womelsdorf,1,Masters 55-59,M,Wraps,CA,100,97.75,56,142.5,,115,,165,,422.5,SBD
 Adam Herrera,1,Masters 40-44,M,Wraps,CA,110,107.59,41,180,,92.5,,210,,482.5,SBD
 Ryan Barr,1,Masters 45-49,M,Wraps,CA,110,106.19,45,215,,147.5,,227.5,,590,SBD
@@ -204,7 +204,7 @@ Rick Gutman,1,Masters 60-64,M,Raw,CA,75,74.07,60,,,115,,,,115,B
 Jess Santos,1,Masters 40-44,M,Raw,CA,90,88.5,41,,,195.5,,,,195.5,B
 Kevin Scott,1,Masters 45-49,M,Raw,CA,100,99.2,47,,,117.5,,,,117.5,B
 Barry Moores,1,Masters 65-69,M,Raw,CA,100,90.54,68,,,137.5,,,,137.5,B
-Rudy Schaap Jr,1,Masters 50-54,M,Raw,CA,140,138.44,53,,,195,,,,195,B
+Rudolph Schaap,1,Masters 50-54,M,Raw,CA,140,138.44,53,,,195,,,,195,B
 Ron Moormeister,1,Masters 65-69,M,Raw,CA,125,115.67,67,,,142.5,,,,142.5,B
 Travis Heck,1,Masters 40-44,M,Raw,CA,140+,169.24,43,,,185,190,,,185,B
 Karen Trim,1,Masters 50-54,F,Single-ply,CA,67.5,64.64,52,,,88,,,,88,B
@@ -229,7 +229,7 @@ Vladimir Tsatsulin,3,Open,M,Raw,CA,90,89.72,77,,,,,187.5,,187.5,D
 Collin Curtiss,1,Open,M,Raw,NV,110,109.63,21,,,,,247.5,,247.5,D
 Adam Herrera,2,Open,M,Raw,CA,110,107.59,41,,,,,210,,210,D
 Marcos Rivera,DQ,Masters 40-44,M,Raw,CA,82.5,80.78,42,,,,,-275,,,D
-Michael Pennington,1,Masters 50-54,M,Raw,CA,100,98.25,50,,,,,232.5,,232.5,D
+Michael Pennington #1,1,Masters 50-54,M,Raw,CA,100,98.25,50,,,,,232.5,,232.5,D
 Isaac Akuna,1,Masters 55-59,M,Raw,HI,90,89.9,59,,,,,265,,265,D
 Vladimir Tsatsulin,1,Masters 75-79,M,Raw,CA,90,89.72,77,,,,,187.5,,187.5,D
 Kevin Scott,1,Masters 45-49,M,Raw,CA,100,99.2,47,,,,,205,,205,D

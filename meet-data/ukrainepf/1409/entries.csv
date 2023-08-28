@@ -1,11 +1,11 @@
 Place,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,WeightClassKg,Sex,CyrillicName,BirthYear,Event,Equipment,Division
 1,Lenur Muratov,53,120,90,140,350,53,M,Ленур Муратов,1994,SBD,Single-ply,Juniors
 1,Oleksiy Tarasenko,58.8,240,130,215,585,59,M,Олексій Тарасенко,1994,SBD,Single-ply,Juniors
-2,Anton Tovstyga,58,210,115,205,530,59,M,Антон Товстыга,1995,SBD,Single-ply,Juniors
+2,Anton Tovstyga,58,210,115,205,530,59,M,Антон Товстига,1995,SBD,Single-ply,Juniors
 3,Volodymyr Gumenyuk,58.75,205,115,200,520,59,M,Володимир Гуменюк,1992,SBD,Single-ply,Juniors
 4,Vladyslav Malikov,58.65,202.5,110,200,512.5,59,M,Владислав Маліков,1995,SBD,Single-ply,Juniors
 5,Volodymyr Galkin,58.65,195,97.5,200,492.5,59,M,Володимир Галкін,1995,SBD,Single-ply,Juniors
-1,Vitaliy Kasyanenko,65.75,262.5,130,262.5,655,66,M,Віталій Кась'яненко,1995,SBD,Single-ply,Juniors
+1,Vitaliy Kasyanenko #1,65.75,262.5,130,262.5,655,66,M,Віталій Касьяненко,1995,SBD,Single-ply,Juniors
 2,Taras Misko,65.15,230,130,200,560,66,M,Тарас Місько,1993,SBD,Single-ply,Juniors
 3,Roman Nimchuk,65,212.5,130,205,547.5,66,M,Роман Німчук,1995,SBD,Single-ply,Juniors
 4,Artem Mereshko,64.6,180,112.5,182.5,475,66,M,Артем Мерешко,1995,SBD,Single-ply,Juniors
@@ -31,7 +31,7 @@ DQ,Oleksandr Borodatyy,68.65,,,,,74,M,Олександр Бородатий,1994
 3,Yuriy Grytsan,93,340,217.5,290,847.5,93,M,Юрій Грицан,1991,SBD,Single-ply,Juniors
 4,Andriy Datsko,93,290,200,267.5,757.5,93,M,Андрій Дацко,1994,SBD,Single-ply,Juniors
 5,Denis Shepita,92.55,275,160,300,735,93,M,Денис Шепіта,1994,SBD,Single-ply,Juniors
-DQ,Gennadiy Semenov,92.35,330,,,,93,M,Геннадий Семенов,1992,SBD,Single-ply,Juniors
+DQ,Gennadiy Semenov #1,92.35,330,,,,93,M,Геннадій Семенов,1992,SBD,Single-ply,Juniors
 1,Eduard Frolov,95.7,340,180,305,825,105,M,Едуард Фролов,1995,SBD,Single-ply,Juniors
 2,Bogdan Nizhnik,101.8,310,220,285,815,105,M,Богдан Нижник,1992,SBD,Single-ply,Juniors
 3,Igor Adamchuk,104.1,310,195,285,790,105,M,Ігор Адамчук,1993,SBD,Single-ply,Juniors

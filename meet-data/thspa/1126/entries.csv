@@ -12,7 +12,7 @@ Junior Varsity,59.87,2,Mario Cano,Pleasanton,59.33,131.54,74.84,151.95,358.34,Si
 Junior Varsity,67.13,3,Tristan Ruiz,Corpus Christi Calallen,59.96,131.54,77.11,149.69,358.34,Single-ply,SBD,M
 Junior Varsity,67.13,4,John French,Skidmore-Tynan,60.06,117.93,77.11,161.03,356.07,Single-ply,SBD,M
 Junior Varsity,59.87,5,David Gutierrez,Alice,59.6,136.08,70.31,147.42,353.8,Single-ply,SBD,M
-Junior Varsity,59.87,6,Brandon Clark,Ingleside,56.79,131.54,70.31,127.01,328.85,Single-ply,SBD,M
+Junior Varsity,59.87,6,Brandon Clark #5,Ingleside,56.79,131.54,70.31,127.01,328.85,Single-ply,SBD,M
 Junior Varsity,59.87,7,Alex Rodriguez #3,Corpus Christi Calallen,59.51,113.4,61.23,129.27,303.91,Single-ply,SBD,M
 Junior Varsity,74.84,1,Randall Saenz,Three Rivers,67.22,181.44,95.25,183.7,460.4,Single-ply,SBD,M
 Junior Varsity,67.13,2,Colton Hughes,Corpus Christi Tuloso-Midway,65.95,145.15,86.18,181.44,412.77,Single-ply,SBD,M
@@ -36,7 +36,7 @@ Junior Varsity,74.84,2,Justin Sobczak,Corpus Christi Tuloso-Midway,70.85,154.22,
 Junior Varsity,74.84,3,Tristan Favor,Corpus Christi Calallen,71.3,154.22,81.65,158.76,394.63,Single-ply,SBD,M
 Junior Varsity,82.1,4,Marco Hernandez,Three Rivers,75.02,147.42,83.91,161.03,392.36,Single-ply,SBD,M
 Junior Varsity,74.84,5,Byron Davidson,Corpus Christi Calallen,68.58,136.08,79.38,158.76,374.21,Single-ply,SBD,M
-Junior Varsity,74.84,6,Aaron Martinez,Corpus Christi Calallen,69.67,145.15,83.91,142.88,371.95,Single-ply,SBD,M
+Junior Varsity,74.84,6,Aaron Martinez #4,Corpus Christi Calallen,69.67,145.15,83.91,142.88,371.95,Single-ply,SBD,M
 Junior Varsity,74.84,7,Joe Ryan Rea,Alice,67.86,113.4,81.65,174.63,369.68,Single-ply,SBD,M
 Junior Varsity,74.84,8,Armando Sanchez,Alice,68.49,113.4,102.06,149.69,365.14,Single-ply,SBD,M
 Junior Varsity,74.84,9,Noe Gomez,Alice,70.31,124.74,88.45,136.08,349.27,Single-ply,SBD,M
@@ -59,7 +59,7 @@ Junior Varsity,82.1,9,Albert Guerrero,Gregory-Portland,78.47,108.86,70.31,129.27
 Junior Varsity,89.81,1,Riley Richardson,Gregory-Portland,89.54,181.44,115.67,192.78,489.88,Single-ply,SBD,M
 Junior Varsity,89.81,2,Thomas Trevino,Pleasanton,84.55,192.78,104.33,185.97,483.08,Single-ply,SBD,M
 Junior Varsity,89.81,3,Matthew Dickson,Corpus Christi Tuloso-Midway,87.09,170.1,115.67,192.78,478.54,Single-ply,SBD,M
-Junior Varsity,89.81,4,Mateo Lopez,Alice,89.36,165.56,120.2,192.78,478.54,Single-ply,SBD,M
+Junior Varsity,89.81,4,Mateo Lopez #2,Alice,89.36,165.56,120.2,192.78,478.54,Single-ply,SBD,M
 Junior Varsity,89.81,5,Billy Vance,Ingleside,88.81,174.63,120.2,136.08,430.91,Single-ply,SBD,M
 Junior Varsity,89.81,6,Adriel A,Port Lavaca Calhoun,86.82,156.49,95.25,158.76,410.5,Single-ply,SBD,M
 Junior Varsity,89.81,7,Harold Rios,Runge,85.37,145.15,65.77,170.1,381.02,Single-ply,SBD,M
@@ -82,7 +82,7 @@ Junior Varsity,124.74+,3,Robby Gutierrez,Kenedy,128.09,142.88,79.38,149.69,371.9
 Varsity,51.71,1,Thomas Soto,Corpus Christi Calallen,51.62,181.44,88.45,204.12,474,Single-ply,SBD,M
 Varsity,51.71,2,Max Obregon,Dilley,51.53,158.76,81.65,149.69,390.09,Single-ply,SBD,M
 Varsity,51.71,3,Bobby Bourlon,Banquete,51.71,136.08,77.11,122.47,335.66,Single-ply,SBD,M
-Varsity,51.71,4,Joe Castillo,Gregory-Portland,51.53,129.27,65.77,131.54,326.59,Single-ply,SBD,M
+Varsity,51.71,4,Joe Castillo #4,Gregory-Portland,51.53,129.27,65.77,131.54,326.59,Single-ply,SBD,M
 Varsity,55.79,5,Chris Lopez,Three Rivers,51.89,113.4,52.16,136.08,301.64,Single-ply,SBD,M
 Varsity,51.71,6,Patrick Ayala,Banquete,50.26,90.72,61.23,131.54,283.5,Single-ply,SBD,M
 Varsity,55.79,1,Michael Casarez,Three Rivers,55.43,172.37,92.99,190.51,455.86,Single-ply,SBD,M
@@ -124,7 +124,7 @@ Varsity,74.84,6,Eddie Garza,San Diego,74.39,181.44,102.06,183.7,467.2,Single-ply
 Varsity,74.84,7,Jose Gonzales,Alice,74.3,176.9,88.45,199.58,464.93,Single-ply,SBD,M
 Varsity,74.84,8,Joe Caldera,Port Lavaca Calhoun,73.03,167.83,113.4,181.44,462.66,Single-ply,SBD,M
 Varsity,74.84,9,Austin Castillo,Corpus Christi Calallen,74.03,163.29,97.52,192.78,453.59,Single-ply,SBD,M
-Varsity,74.84,10,Michael Garcia,Alice,71.3,165.56,90.72,192.78,449.06,Single-ply,SBD,M
+Varsity,74.84,10,Michael Garcia #13,Alice,71.3,165.56,90.72,192.78,449.06,Single-ply,SBD,M
 Varsity,74.84,11,Antonio Washington,Skidmore-Tynan,74.75,136.08,97.52,179.17,412.77,Single-ply,SBD,M
 Varsity,74.84,12,Miguel Cano,Pleasanton,72.48,149.69,90.72,158.76,399.16,Single-ply,SBD,M
 Varsity,74.84,13,Dominic Cruz,Jourdanton,73.94,136.08,77.11,154.22,367.41,Single-ply,SBD,M
@@ -136,7 +136,7 @@ Varsity,89.81,4,Jacob Flores,Beeville Jones,82.28,210.92,113.4,204.12,528.44,Sin
 Varsity,82.1,5,Chris Hernandez,Gregory-Portland,80.47,188.24,113.4,195.04,496.68,Single-ply,SBD,M
 Varsity,82.1,6,Drew Ortiz,Port Lavaca Calhoun,79.02,185.97,108.86,195.04,489.88,Single-ply,SBD,M
 Varsity,82.1,7,Michael McGlaun,Ingleside,81.19,179.17,111.13,197.31,487.61,Single-ply,SBD,M
-Varsity,82.1,8,Joe Hernandez,Alice,81.56,183.7,113.4,183.7,480.81,Single-ply,SBD,M
+Varsity,82.1,8,Joe Hernandez #4,Alice,81.56,183.7,113.4,183.7,480.81,Single-ply,SBD,M
 Varsity,82.1,9,Lawrence Carrasco,Karnes City,80.2,149.69,120.2,206.38,476.27,Single-ply,SBD,M
 Varsity,82.1,10,Nick Quintanilla,Karnes City,79.83,158.76,97.52,181.44,437.72,Single-ply,SBD,M
 Varsity,82.1,11,Diego Leal,Banquete,82.1,163.29,102.06,167.83,433.18,Single-ply,SBD,M
@@ -168,7 +168,7 @@ Varsity,99.79,9,Austin Block,Karnes City,91.99,210.92,117.93,192.78,521.63,Singl
 Varsity,99.79,10,Jacob Longoria,Riviera Kaufer,91.81,181.44,117.93,195.04,494.42,Single-ply,SBD,M
 Varsity,99.79,11,Jody Stratman,Port Lavaca Calhoun,97.43,183.7,113.4,181.44,478.54,Single-ply,SBD,M
 Varsity,99.79,12,Jason Van Epps,Pleasanton,99.7,190.51,92.99,174.63,458.13,Single-ply,SBD,M
-Varsity,99.79,13,David Garcia,Riviera Kaufer,96.71,172.37,99.79,172.37,444.52,Single-ply,SBD,M
+Varsity,99.79,13,David Garcia #15,Riviera Kaufer,96.71,172.37,99.79,172.37,444.52,Single-ply,SBD,M
 Varsity,99.79,14,Trey Mann,Agua Dulce,94.26,167.83,113.4,158.76,439.98,Single-ply,SBD,M
 Varsity,99.79,15,Aaron Lopez,Karnes City,95.35,151.95,92.99,158.76,403.7,Single-ply,SBD,M
 Varsity,99.79,16,Joseph Perez,Refugio,99.34,113.4,92.99,145.15,351.53,Single-ply,SBD,M
@@ -182,7 +182,7 @@ Varsity,109.77,7,Sylver Carrizales,Corpus Christi Tuloso-Midway,108.41,188.24,10
 Varsity,109.77,8,Santana Aguilar,Dilley,105.69,197.31,90.72,158.76,446.79,Single-ply,SBD,M
 Varsity,109.77,9,Nick Guzman,Karnes City,105.23,156.49,108.86,174.63,439.98,Single-ply,SBD,M
 Varsity,124.74,1,Harley Vickers,Alice,112.67,276.69,172.37,231.33,680.39,Single-ply,SBD,M
-Varsity,124.74,2,John Mendoza,Karnes City,112.4,240.4,142.88,249.48,632.76,Single-ply,SBD,M
+Varsity,124.74,2,John Mendoza #3,Karnes City,112.4,240.4,142.88,249.48,632.76,Single-ply,SBD,M
 Varsity,124.74,3,Branden Michaels,Gregory-Portland,122.02,240.4,111.13,215.46,566.99,Single-ply,SBD,M
 Varsity,124.74,4,Warren Oats,Alice,111.31,201.85,136.08,224.53,562.45,Single-ply,SBD,M
 Varsity,124.74,5,Cameron Ellerbee,Beeville Jones,122.2,215.46,122.47,224.53,562.45,Single-ply,SBD,M

@@ -1,7 +1,7 @@
 Place,WeightClassKg,Sex,Division,Name,BirthYear,BodyweightKg,Country,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment
 1,52,M,Open,Andrzej Stanaszek,1971,51.1,Poland,270,172.5,137.5,580,SBD,Raw
 2,52,M,Open,Hideaki Inaba,1944,51.4,Japan,230,97.5,227.5,555,SBD,Single-ply
-3,52,M,Open,Sergey Zhuravlev,1960,52,Russia,220,117.5,202.5,540,SBD,Single-ply
+3,52,M,Open,Sergey Zhuravlev #1,1960,52,Russia,220,117.5,202.5,540,SBD,Single-ply
 4,52,M,Open,Shih-Wu Lu,1975,51.6,Taiwan,205,95,222.5,522.5,SBD,Single-ply
 5,52,M,Open,Christian Klein,1970,51.7,Germany,190,130,192.5,512.5,SBD,Single-ply
 6,52,M,Open,Chih-Chang Hsu,1979,51.25,Taiwan,182.5,97.5,192.5,472.5,SBD,Single-ply
@@ -62,7 +62,7 @@ DQ,67.5,M,Open,Rodney Hypolite,1969,67.2,UK,245,165,,,SBD,Single-ply
 15,75,M,Open,Benny Verbeke,1965,74.5,Belgium,252.5,127.5,270,650,SBD,Single-ply
 16,75,M,Open,Mike Nikolaizig,1965,72.9,Germany,237.5,180,230,647.5,SBD,Single-ply
 17,75,M,Open,Vlstimil Peterka,1975,74,Czechia,237.5,152.5,255,645,SBD,Single-ply
-18,75,M,Open,John White,1966,74.5,USA,227.5,150,262.5,640,SBD,Single-ply
+18,75,M,Open,John White #3,1966,74.5,USA,227.5,150,262.5,640,SBD,Single-ply
 19,75,M,Open,Shawn Condon,1970,74.3,Australia,242.5,135,260,637.5,SBD,Single-ply
 20,75,M,Open,Pavol Slíž,1973,74.4,Slovakia,240,130,250,620,SBD,Single-ply
 21,75,M,Open,Liam Beville,1965,75,Ireland,215,140,,355,SB,Single-ply
@@ -91,7 +91,7 @@ DQ,75,M,Open,Viktor Furazhkin,1969,74.3,Russia,297.5,180,,,SBD,Single-ply
 DQ,82.5,M,Open,G. Elangovan,1966,75.4,India,,,,,SBD,Single-ply
 DD,82.5,M,Open,Andrey Kazakov,1959,81,Kazakhstan,285,185,290,,SBD,Single-ply
 DQ,82.5,M,Open,Vasiliy Kurtiak,1961,81.1,Ukraine,287.5,,,,SBD,Single-ply
-DQ,82.5,M,Open,Tamas Ficzere,1970,81.1,Hungary,,,,,SBD,Single-ply
+DQ,82.5,M,Open,Tamás Ficzere,1970,81.1,Hungary,,,,,SBD,Single-ply
 DQ,82.5,M,Open,Daniele Ghirardi,1969,81.7,Italy,290,,,,SBD,Single-ply
 DQ,82.5,M,Open,Robert Wagner,1964,81.7,USA,335,,,,SBD,Single-ply
 DQ,82.5,M,Open,Markku Vierikko,1962,82.1,Finland,270,,,,SBD,Single-ply
@@ -135,7 +135,7 @@ DQ,90,M,Open,Sergey Romanenko,1972,89.8,Ukraine,,,,,SBD,Single-ply
 DQ,100,M,Open,Ernő Eck,1972,93.6,Hungary,,,,,SBD,Single-ply
 DQ,100,M,Open,Steve Lousich,1965,99.2,New Zealand,275,200,,,SBD,Single-ply
 DQ,100,M,Open,Anthony Harris #1,1964,99.5,USA,342.5,,,,SBD,Single-ply
-DQ,100,M,Open,Vladimi Markovsky,1969,99.5,Russia,,,,,SBD,Single-ply
+DQ,100,M,Open,Vladimir Markovsky,1969,99.5,Russia,,,,,SBD,Single-ply
 1,110,M,Open,Derek Pomana,1966,109.7,New Zealand,382.5,245,340,967.5,SBD,Single-ply
 2,110,M,Open,Vladimir Ivanenko,1955,109.2,Ukraine,370,222.5,330,922.5,SBD,Single-ply
 3,110,M,Open,Mikhail Starov,1973,109.5,Ukraine,350,207.5,325,882.5,SBD,Single-ply
@@ -144,7 +144,7 @@ DQ,100,M,Open,Vladimi Markovsky,1969,99.5,Russia,,,,,SBD,Single-ply
 6,110,M,Open,Remi Pronier,1964,106.1,France,315,190,332.5,837.5,SBD,Single-ply
 7,110,M,Open,Gorg Borisov,1960,103.2,Kazakhstan,330,200,300,830,SBD,Single-ply
 8,110,M,Open,Jörg Schmid,1967,108.6,Germany,320,182.5,320,822.5,SBD,Single-ply
-9,110,M,Open,Allan Ferguson,1946,108.1,South Africa,315,190,310,815,SBD,Single-ply
+9,110,M,Open,Alan Ferguson,1946,108.1,South Africa,315,190,310,815,SBD,Single-ply
 10,110,M,Open,Bogus Kwiatkowski,1965,100.6,Poland,280,225,270,775,SBD,Single-ply
 11,110,M,Open,Nikolajs Pavilovskis,1955,103.4,Latvia,270,180,322.5,772.5,SBD,Single-ply
 12,110,M,Open,Jaswinder Singh Cheema,1955,107.7,India,300,170,275,745,SBD,Single-ply
@@ -163,7 +163,7 @@ DQ,110,M,Open,Andrew Logan,1966,109.1,Australia,,,,,SBD,Single-ply
 9,125,M,Open,Mike Anderson,1972,123.8,USA,335,192.5,292.5,820,SBD,Single-ply
 10,125,M,Open,Oliver Knyrim,1966,117.2,Germany,315,197.5,302.5,815,SBD,Single-ply
 11,125,M,Open,Che-Yi Liao,1968,111,Taiwan,290,160,290,740,SBD,Single-ply
-12,125,M,Open,Julio Conrado,1965,112.5,Brazil,280,170,240,690,SBD,Single-ply
+12,125,M,Open,Júlio César Conrado,1965,112.5,Brazil,280,170,240,690,SBD,Single-ply
 DD,125,M,Open,Igor Antipenko,1968,117.7,Ukraine,365,212.5,320,,SBD,Single-ply
 DD,125,M,Open,Maxim Gurianov,1975,124.7,Russia,390,237.5,365,,SBD,Single-ply
 1,125+,M,Open,Viktor Naleykin,1953,130.8,Ukraine,400,230,365,995,SBD,Single-ply

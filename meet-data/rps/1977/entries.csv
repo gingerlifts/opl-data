@@ -22,11 +22,11 @@ M,Wraps,Amateur Juniors 20-23,82.5,Kyle Bartalone,,80.51,235,117.5,240,592.5,SBD
 M,Wraps,Amateur Masters,82.5,Mitchel Strain,,80.74,177.5,132.5,230,540,SBD,1
 M,Wraps,Amateur Open,82.5,Parker Wilken,,80.06,215,102.5,227.5,545,SBD,2
 M,Wraps,Amateur Open,82.5,John Bright,,81.65,212.5,140,247.5,600,SBD,1
-M,Wraps,Amateur Teen 16-17,82.5,Nick Calloway,,79.15,155,132.5,235,522.5,SBD,1
+M,Wraps,Amateur Teen 16-17,82.5,Nicholas Calloway,,79.15,155,132.5,235,522.5,SBD,1
 M,Wraps,Pro Open,82.5,Nick Schodowsky,,80.74,235,175,295,705,SBD,1
 M,Single-ply,Amateur Masters,82.5,Mike Evans,,81.19,182.5,90,175,447.5,SBD,1
 M,Single-ply,Amateur Teen 16-17,82.5,John Sampson,,81.87,115,82.5,160,357.5,SBD,1
-M,Multi-ply,Pro Juniors 20-23,90,John Berry,,89.58,345,185,320,850,SBD,1
+M,Multi-ply,Pro Juniors 20-23,90,John Berry #1,,89.58,345,185,320,850,SBD,1
 M,Raw,Amateur Juniors 20-23,90,Piyi Bun,,88.68,210,157.5,227.5,595,SBD,1
 M,Raw,Amateur Open,90,Kevin Knepp,,84.37,145,107.5,215,467.5,SBD,1
 M,Raw,Amateur Teen 16-17,90,Jacob Finn,,86.41,195,102.5,227.5,525,SBD,1
@@ -36,7 +36,7 @@ M,Wraps,Amateur Juniors 20-23,90,Austin VanBuskirk,,89.36,140,107.5,200,447.5,SB
 M,Wraps,Amateur Masters,90,Todd Dunkle,,88.45,240,150,230,620,SBD,1
 M,Wraps,Amateur Open,90,Théo Bourget,,86.41,175,117.5,210,502.5,SBD,2
 M,Wraps,Amateur Open,90,Zach Matheny,,87.09,247.5,135,267.5,650,SBD,1
-M,Wraps,Pro Open,90,Michael Baker,,89.45,250,152.5,307.5,710,SBD,1
+M,Wraps,Pro Open,90,Mike Baker #1,,89.45,250,152.5,307.5,710,SBD,1
 M,Raw,Amateur Juniors 20-23,100,Chase Fickell,,99.34,167.5,125,217.5,510,SBD,1
 M,Raw,Amateur Open,100,RJ Hughes,,95.25,182.5,102.5,215,500,SBD,1
 M,Wraps,Amateur Juniors 20-23,100,Levi Kline,,93.44,187.5,120,242.5,550,SBD,1
@@ -46,9 +46,9 @@ M,Wraps,Pro Masters,100,Brian Fitzharris,,99.79,237.5,160,260,657.5,SBD,1
 M,Wraps,Pro Open,100,Alex Tschiegg,,96.62,282.5,190,282.5,755,SBD,1
 M,Single-ply,Amateur Open,100,Daniel Smith,,95.25,205,112.5,182.5,500,SBD,1
 M,Raw,Amateur Teen 18-19,110,Riley Whitaker,,104.33,157.5,115,192.5,465,SBD,1
-M,Wraps,Pro Juniors 20-23,110,Nick Cook,,107.05,327.5,240,312.5,880,SBD,1
+M,Wraps,Pro Juniors 20-23,110,Nick Cook #2,,107.05,327.5,240,312.5,880,SBD,1
 M,Wraps,Amateur Open,110,John Bagby,,106.82,157.5,120,185,462.5,SBD,1
-M,Wraps,Pro Open,110,Nick Cook,,107.05,327.5,240,312.5,880,SBD,1
+M,Wraps,Pro Open,110,Nick Cook #2,,107.05,327.5,240,312.5,880,SBD,1
 M,Single-ply,Amateur Masters,110,Tim Martin #5,,107.95,245,120,235,600,SBD,1
 M,Multi-ply,Pro Open,125,Devan Smith,,123.15,295,195,260,750,SBD,1
 M,Raw,Amateur Teen 16-17,125,Kaiden Keim,,122.02,185,120,227.5,532.5,SBD,1

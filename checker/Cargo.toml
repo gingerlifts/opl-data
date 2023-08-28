@@ -3,22 +3,33 @@ name = "checker"
 version = "0.1.0"
 authors = ["Sean Stangl <sean.stangl@gmail.com>"]
 description = "The OpenPowerlifting data format checker."
-edition = "2018"
+edition = "2021"
 license = "AGPL-3.0-or-later"
 
+[features]
+default = []
+
+# Uses jemalloc as the global allocator instead of the system allocator.
+jemalloc = ["jemallocator", "jemalloc-ctl"]
+
 [dependencies]
-coefficients = { version = "0.1", path = "../modules/coefficients/" }
-opltypes = { version = "0.1", path = "../modules/opltypes/" }
-usernames = { version = "0.1", path = "../modules/usernames/" }
+coefficients = { path = "../crates/coefficients/" }
+opltypes = { path = "../crates/opltypes/" }
 chrono = "0.4"
-colored = "1.8"
+colored = "2.0"
 csv = "1.1"
-pico-args = "0.3.0"
+fxhash = "0.2"
+itertools = "0.11"
+itertools-num = "0.1"
+jemallocator = { version = "0.5", optional = true }
+jemalloc-ctl = { version = "0.5", optional = true }
+pico-args = "0.5"
 rayon = "1.0"
 serde = "1.0"
 serde_derive = "1.0"
-strum = "0.18"
-strum_macros = "0.18"
-toml = "0.5"
-walkdir = "2"
+smartstring = "1.0"
+strum = "0.25"
+strum_macros = "0.25"
+toml = "0.7"
 unicode-normalization = "0.1.11"
+walkdir = "2"

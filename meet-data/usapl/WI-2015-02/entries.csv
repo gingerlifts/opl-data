@@ -10,7 +10,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 7,M,Dylan Donato,SBD,M-T1,59,Single-ply,55.8,106.6,52.2,127,285.8,1999
 1,M,Carson Laridaen,SBD,M-T1,66,Single-ply,59.6,129.3,72.6,149.7,351.6,1999
 2,M,George Friberg,SD,M-T1,66,Single-ply,59.2,142.9,,167.8,310.7,1999
-1,M,Ryan Sanders,SBD,M-T1,74,Single-ply,74,192.8,108.9,210.9,512.6,1999
+1,M,Ryan Sanders #1,SBD,M-T1,74,Single-ply,74,192.8,108.9,210.9,512.6,1999
 2,M,Zaven Ouzounian,SBD,M-T1,74,Single-ply,73.3,199.6,95.3,204.1,499,1999
 3,M,Brady Burckhardt,SBD,M-T1,74,Single-ply,67.3,174.6,72.6,192.8,440,1999
 4,M,Brandon Johnson,SBD,M-T1,74,Single-ply,67.4,170.1,74.8,183.7,428.6,1997
@@ -21,7 +21,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 2,M,Bryce Londerville,SBD,M-T2,53,Single-ply,51.9,133.8,63.5,154.2,351.5,1998
 3,M,Steve Nguyen,SBD,M-T2,53,Single-ply,51.3,136.1,74.8,138.3,349.2,1992
 4,M,Kyle Thyssen,SBD,M-T2,53,Single-ply,51.7,136.1,54.4,149.7,340.2,1998
-5,M,Kyle Horton,SBD,M-T2,53,Single-ply,52.3,113.4,63.5,136.1,313,1997
+5,M,Kyle Horton #2,SBD,M-T2,53,Single-ply,52.3,113.4,63.5,136.1,313,1997
 1,M,Joseph Mui,SBD,M-T2,59,Single-ply,58.7,172.4,88.5,176.9,437.8,1998
 2,M,Jamie Gunderson,SBD,M-T2,59,Single-ply,58.6,161,83.9,174.6,419.5,1998
 3,M,Dylan Lanke,SBD,M-T2,59,Single-ply,55.4,163.3,68,158.8,390.1,1997
@@ -49,7 +49,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 4,M,Charlie Quentin,SBD,M-T2,74,Single-ply,73.7,167.8,104.3,220,492.1,
 5,M,Humberto Hernandez,SBD,M-T2,74,Single-ply,67,192.8,93,204.1,489.9,1997
 6,M,Kyle Petrick,SBD,M-T2,74,Single-ply,73.4,181.4,108.9,192.8,483.1,1997
-7,M,Kevin Reynolds,SBD,M-T2,74,Single-ply,67,163.3,106.6,183.7,453.6,1997
+7,M,Kevin Reynolds #3,SBD,M-T2,74,Single-ply,67,163.3,106.6,183.7,453.6,1997
 8,M,Tyler Sahm,SBD,M-T2,74,Single-ply,67,165.6,86.2,190.5,442.3,1999
 1,M,Jason Hanson,SBD,M-T2,83,Single-ply,77.9,231.3,145.2,244.9,621.4,1997
 2,M,Nate Windsor,SBD,M-T2,83,Single-ply,81.5,215.5,127,238.1,580.6,1997

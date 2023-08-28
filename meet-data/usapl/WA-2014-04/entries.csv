@@ -7,7 +7,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3BenchKg,
 1,M,Rod Brown,B,MR-M3a,90,Raw,87.5,130,,130,1953
 1,M,Gary Schelbrack,B,MR-M3a,125,Raw,116.6,162.5,,162.5,1953
 1,M,Dennis Barstow,B,MR-M4b,90,Raw,89.2,116,,116,1938
-1,F,Heidi Brown,B,FR-Jr,56,Raw,55.9,42.5,,42.5,1994
+1,F,Heidi Brown #2,B,FR-Jr,56,Raw,55.9,42.5,,42.5,1994
 1,F,Mary Hammelev,B,FR-M3b,67.5,Raw,63.9,40,,40,1948
 1,F,Carolyn Cavalier,B,FR-M4a,67.5,Raw,63,30,,30,1943
 1,F,Winifred Pristell,B,FR-M4b,90,Raw,88.5,71.5,,71.5,1938
@@ -33,7 +33,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3BenchKg,
 1,M,Blair Wagner,BD,MR-O,90,Raw,87.4,132.5,222.5,355,1984
 2,M,Daniel Colon,BD,MR-O,90,Raw,87.9,122.5,215,337.5,1990
 3,M,Justin LeBaron,BD,MR-O,90,Raw,89.2,95,175,270,1989
-1,M,John Forsythe,BD,MR-O,110,Raw,107.3,165,232.5,397.5,1985
+1,M,John Forsythe #1,BD,MR-O,110,Raw,107.3,165,232.5,397.5,1985
 2,M,Sean Gilliland,BD,MR-O,110,Raw,109.1,150,160,310,1977
 1,M,Luis Zapata,BD,MR-M1a,110,Raw,102.4,115,215,330,1972
 1,M,Rose Pristell,BD,MR-M2b,67.5,Raw,67.3,110,201,311,

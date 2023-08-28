@@ -23,7 +23,7 @@ Place,Name,CyrillicName,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg
 1,Taras Konovalov,Тарас Коновалов,Ukraine,95,135,145,-150,,145,100,Pro Juniors 20-23,M,B,Raw,145,1993
 2,Ruslan Rosiyskiy,Руслан Російський,Ukraine,98.9,110,125,135,,135,100,Pro Juniors 20-23,M,B,Raw,135,1996
 1,Artem Cheberyak,Артем Чеберяк,Ukraine,107.2,110,-117.5,120,,120,110,Pro Juniors 20-23,M,B,Raw,120,1994
-1,Igor Pak,Ігор Пак,Ukraine,63.2,-110,110,-117.5,,110,67.5,Pro Open,M,B,Raw,110,1989
+1,Igor Pak #1,Ігор Пак,Ukraine,63.2,-110,110,-117.5,,110,67.5,Pro Open,M,B,Raw,110,1989
 2,Vyacheslav Batyuk,Вячеслав Батюк,Ukraine,63.6,-100,100,110,,110,67.5,Pro Open,M,B,Raw,110,1984
 3,Vadim Zarudnitskiy,Вадим Зарудницький,Ukraine,64,45,-50,50,,50,67.5,Pro Open,M,B,Raw,50,2003
 1,Ivan Kapelyukh,Іван Капелюх,Ukraine,73.5,130,135,140,,140,75,Pro Open,M,B,Raw,140,1985
@@ -39,7 +39,7 @@ DQ,Oleksandr Snigurskiy,Олександр Снігурський,Ukraine,74,-12
 DQ,Petro Chumak,Петро Чумак,Ukraine,80.6,-127.5,-135,-135,,,82.5,Pro Open,M,B,Raw,,1980
 DQ,Oleksiy Biliy,Олексій Білий,Ukraine,82.4,-140,-140,-140,,,82.5,Pro Open,M,B,Raw,,1988
 1,Leonid Andrievskiy,Леонід Андрієвський,Ukraine,88.2,172.5,180,182.5,,182.5,90,Pro Open,M,B,Raw,182.5,1989
-2,Yuriy Kondrat'Ev,Юрій Кондрать'Єв,Ukraine,89.2,170,175,-182.5,,175,90,Pro Open,M,B,Raw,175,1981
+2,Yuriy Kondrat'ev,Юрій Кондрат'єв,Ukraine,89.2,170,175,-182.5,,175,90,Pro Open,M,B,Raw,175,1981
 3,Andriy Kostyuk,Андрій Костюк,Ukraine,89.5,140,-150,150,,150,90,Pro Open,M,B,Raw,150,1985
 4,Mikhaylo Kondratev,Михайло Кондратєв,Ukraine,85.3,130,135,137.5,,137.5,90,Pro Open,M,B,Raw,137.5,1953
 5,Dmitro Bogomaz,Дмитро Богомаз,Ukraine,87,120,130,137.5,,137.5,90,Pro Open,M,B,Raw,137.5,1990
@@ -54,7 +54,7 @@ DQ,Andriy Regak,Андрій Регак,Ukraine,89.2,-140,-140,-142.5,,,90,Pro O
 6,Maksim Shreyber,Максим Шрейбер,Ukraine,99.7,135,145,-150,,145,100,Pro Open,M,B,Raw,145,1984
 7,Andriy Bidashku,Андрій Бідашку,Ukraine,91.8,120,130,-142.5,,130,100,Pro Open,M,B,Raw,130,1992
 DQ,Volodimir Kozin,Володимир Козін,Ukraine,95.8,-110,-110,-110,,,100,Pro Open,M,B,Raw,,1985
-1,Viktor Kuznetsov,Виктор Кузнецов,Ukraine,107.3,205,215,-225,,215,110,Pro Open,M,B,Raw,215,1988
+1,Viktor Kuznetsov #4,Віктор Кузнєцов,Ukraine,107.3,205,215,-225,,215,110,Pro Open,M,B,Raw,215,1988
 2,Andriy Kramarenko,Андрій Крамаренко,Ukraine,106.9,185,192.5,-200,,192.5,110,Pro Open,M,B,Raw,192.5,1988
 3,Oleksandr Kuleshov,Олександр Кулешов,Ukraine,108.9,160,170,-175,,170,110,Pro Open,M,B,Raw,170,1978
 4,Dmitro Golubenko,Дмитро Голубенко,Ukraine,107,155,-165,167.5,,167.5,110,Pro Open,M,B,Raw,167.5,1985

@@ -1,12 +1,12 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 T. Bell,52,Open,M,90.72,38.56,90.72,219.99,SBD,Single-ply,1
-J. Guerrero,52,Open,M,77.11,31.75,104.33,213.19,SBD,Single-ply,2
+Jeanna Guerrero,52,Open,F,77.11,31.75,104.33,213.19,SBD,Single-ply,2
 Becky Sikkema,56,Open,F,81.65,45.36,99.79,226.8,SBD,Single-ply,1
 F. Wendler,60,Open,M,147.42,88.45,154.22,390.09,SBD,Single-ply,1
 H. Meadows,60,Open,M,117.93,83.91,165.56,367.41,SBD,Single-ply,2
 C. Baltazar,60,Open,M,138.35,,,,SBD,Single-ply,DQ
 N. Hampton,67.5,Open,M,154.22,113.4,201.85,469.47,SBD,Single-ply,1
-J. Scheffler,67.5,Open,M,181.44,90.72,185.97,458.13,SBD,Single-ply,2
+Joe Scheffler,67.5,Open,M,181.44,90.72,185.97,458.13,SBD,Single-ply,2
 S. Pokryvka,67.5,Open,M,158.76,115.67,176.9,451.32,SBD,Single-ply,3
 Tom Denton,67.5,Open,M,165.56,95.25,174.63,435.45,SBD,Single-ply,4
 Ed Hicks,67.5,Open,M,142.88,102.06,183.71,428.65,SBD,Single-ply,5
@@ -16,14 +16,14 @@ W. Warner,67.5,Open,M,142.88,83.91,167.83,394.63,SBD,Single-ply,8
 Gary Mekuly,67.5,Open,M,136.08,88.45,140.61,365.14,SBD,Single-ply,9
 B. Francher,67.5,Open,M,113.4,95.25,154.22,362.87,SBD,Single-ply,10
 G. Tobias,67.5,Open,M,,,,,SBD,Single-ply,DQ
-H. Seyl,75,Open,M,204.12,124.74,215.46,544.31,SBD,Single-ply,1
+Herb Seyl,75,Open,M,204.12,124.74,215.46,544.31,SBD,Single-ply,1
 E. Cross,75,Open,M,192.78,129.27,219.99,542.04,SBD,Single-ply,2
 R. Shields Jr,75,Open,M,172.37,124.74,215.46,512.56,SBD,Single-ply,3
 R. Rohrich,75,Open,M,181.44,117.93,210.92,510.29,SBD,Single-ply,4
 L. Trammer,75,Open,M,176.9,131.54,190.51,498.95,SBD,Single-ply,5
 B. Glidden,75,Open,M,176.9,97.52,217.72,492.15,SBD,Single-ply,6
 C. Jackson,75,Open,M,176.9,145.15,167.83,489.88,SBD,Single-ply,7
-M. Forni,75,Open,M,158.76,115.67,206.38,480.81,SBD,Single-ply,8
+Mike Forni,75,Open,M,158.76,115.67,206.38,480.81,SBD,Single-ply,8
 D. Zonneyville,75,Open,M,147.42,113.4,201.85,462.66,SBD,Single-ply,9
 B. Winegarner,75,Open,M,151.95,106.59,195.04,453.59,SBD,Single-ply,10
 V. Pinelli,75,Open,M,133.81,147.42,170.1,451.32,SBD,Single-ply,11
@@ -46,9 +46,9 @@ Robert Belcastro,82.5,Open,M,68.04,204.12,68.04,340.19,SBD,Single-ply,13
 M. Smokinski,90,Open,M,215.46,149.69,244.94,610.08,SBD,Single-ply,1
 Denny Taylor,90,Open,M,204.12,154.22,215.46,573.8,SBD,Single-ply,2
 T. Deters,90,Open,M,195.04,136.08,238.14,569.26,SBD,Single-ply,3
-J. O'Brien,90,Open,M,190.51,140.61,226.8,557.92,SBD,Single-ply,4
+J. O'Brien #8,90,Open,M,190.51,140.61,226.8,557.92,SBD,Single-ply,4
 D. DeReska,90,Open,M,192.78,122.47,215.46,530.7,SBD,Single-ply,5
-J. Swanson,90,Open,M,195.04,124.74,185.97,505.76,SBD,Single-ply,6
+Jim Swanson,90,Open,M,195.04,124.74,185.97,505.76,SBD,Single-ply,6
 J. Kinney,90,Open,M,172.37,113.4,201.85,487.61,SBD,Single-ply,7
 S. Ostojic,90,Open,M,151.95,120.2,181.44,453.59,SBD,Single-ply,8
 F. Lindsey,90,Open,M,163.29,133.81,,,SBD,Single-ply,DQ

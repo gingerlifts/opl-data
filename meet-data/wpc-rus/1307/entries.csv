@@ -10,7 +10,7 @@ DQ,M,Sergey Polyakov,Сергей Поляков,Amateur Masters 40-44,1972-02-1
 1,M,Vasiliy Voropaev,Василий Воропаев,Amateur Masters 55-59,1956-11-19,110,Multi-ply,Yes,SBD,101.8,-200,200,-210,,200,100,110,,,110,190,210,225,,225,535
 1,F,Polina Andreeva,Полина Андреева,Amateur Open,1987-06-03,52,Single-ply,Yes,SBD,51.6,-107.5,-110,110,,110,65,70,72.5,,72.5,100,105,112.5,,112.5,295
 1,F,Natalya Blinkova,Наталья Блинкова,Amateur Open,1991-03-20,56,Single-ply,Yes,SBD,54,-130,130,-135,,130,80,85,87.5,-90,87.5,140,150,-155,,150,367.5
-1,F,Světlana Veselova,Светлана Веселова,Amateur Open,1987-09-19,60,Single-ply,Yes,SBD,59.5,-110,110,120,,120,70,-80,85,,85,120,130,135,,135,340
+1,F,Svetlana Veselova,Светлана Веселова,Amateur Open,1987-09-19,60,Single-ply,Yes,SBD,59.5,-110,110,120,,120,70,-80,85,,85,120,130,135,,135,340
 DQ,M,Yaroslav Skvortsov,Ярослав Скворцов,Amateur Teen 16-17,1995-12-22,60,Single-ply,Yes,SBD,60,165,-175,-175,,165,-82.5,-82.5,-82.5,,,,,,,,
 1,M,Yaroslav Medvedev,Ярослав Медведев,Amateur Juniors 20-23,1993-01-01,75,Single-ply,Yes,SBD,75,-240,240,-250,,240,180,185,-190,,185,220,232.5,237.5,,237.5,662.5
 2,M,Aleksandr Petrenko,Александр Петренко,Amateur Juniors 20-23,1991-09-03,75,Single-ply,Yes,SBD,74,230,240,-250,,240,140,150,165,,165,-230,-230,230,,230,635
@@ -81,7 +81,7 @@ DQ,M,Maksim Sadovskiy,Максим Садовский,Amateur Juniors 20-23,1990
 5,M,Dmitriy Nikolin,Дмитрий Николин,Amateur Open,1991-01-10,67.5,Raw,Yes,SBD,64.2,-115,120,127.5,,127.5,-70,-75,75,,75,140,145,152.5,,152.5,355
 6,M,Andrey Kaptilnyy,Андрей Каптильный,Amateur Open,1987-10-05,67.5,Raw,Yes,SBD,67.2,110,,,,110,75,,,,75,115,,,,115,300
 DQ,M,Ilya Kopranov,Илья Копранов,Amateur Open,1989-12-19,67.5,Raw,Yes,SBD,64,-140,-145,-145,,,,,,,,,,,,,
-1,M,Dmitriy Kovalenko,Дмитрий Коваленко,Amateur Masters 40-44,1972-12-17,67.5,Raw,Yes,SBD,64,-70,70,75,,75,65,70,-72.5,,70,100,110,,,110,255
+1,M,Dmitriy Kovalenko #1,Дмитрий Коваленко,Amateur Masters 40-44,1972-12-17,67.5,Raw,Yes,SBD,64,-70,70,75,,75,65,70,-72.5,,70,100,110,,,110,255
 1,M,Georgiy Dubrovin,Георгий Дубровин,Amateur Teen 13-15,1997-11-12,75,Raw,Yes,SBD,72.9,145,155,-160,,155,115,121,122.5,-125,122.5,200,205,210,,210,487.5
 1,M,Mikhail Elistratov,Михаил Елистратов,Amateur Teen 16-17,1996-10-03,75,Raw,Yes,SBD,70,-110,-120,120,,120,85,-92.5,-92.5,,85,170,175,,,175,380
 DQ,M,Vladimir Koltsov,Владимир Кольцов,Amateur Teen 16-17,1996-07-08,75,Raw,Yes,SBD,74,-130,-140,-145,,,,,,,,,,,,,
@@ -97,9 +97,9 @@ DQ,M,Aleksandr Krasutskiy,Александр Красуцкий,Amateur Juniors 
 3,M,Mikhail Yakovenko,Михаил Яковенко,Amateur Open,1988-07-08,75,Raw,Yes,SBD,71.3,150,160,165,,165,95,100,102.5,,102.5,220,232.5,242.5,,242.5,510
 4,M,Yuriy Bonachev,Юрий Боначев,Amateur Open,1986-11-24,75,Raw,Yes,SBD,74.5,-120,135,150,,150,-90,97.5,102.5,,102.5,160,180,-200,,180,432.5
 5,M,Vyacheslav Kholnov,Вячеслав Хольнов,Amateur Open,1987-06-18,75,Raw,Yes,SBD,73.1,-110,-120,120,,120,60,70,-75,,70,150,165,180,,180,370
-DQ,M,Aleksey Solovev,Алексей Соловьев,Amateur Open,1988-07-17,75,Raw,Yes,SBD,71.4,-180,-180,-180,,,,,,,,,,,,,
+DQ,M,Aleksey Solovyev #2,Алексей Соловьев,Amateur Open,1988-07-17,75,Raw,Yes,SBD,71.4,-180,-180,-180,,,,,,,,,,,,,
 DQ,M,Vladimir Ermokhin,Владимир Ермохин,Amateur Masters 50-54,1961-02-06,75,Raw,Yes,SBD,72.9,-110,-110,-110,,,,,,,,,,,,,
-1,M,Viktor Popov,Виктор Попов,Amateur Masters 60-64,1952-07-15,75,Raw,Yes,SBD,74.7,120,132.5,145,,145,75,85,-92.5,,85,180,195,200,,200,430
+1,M,Viktor Popov #3,Виктор Попов,Amateur Masters 60-64,1952-07-15,75,Raw,Yes,SBD,74.7,120,132.5,145,,145,75,85,-92.5,,85,180,195,200,,200,430
 1,M,German Barabanov,Герман Барабанов,Amateur Masters 70-74,1940-01-28,75,Raw,Yes,SBD,73,-125,125,-127.5,,125,110,115,-117.5,,115,155,165,170,,170,410
 1,M,Aleksey Kryukov,Алексей Крюков,Amateur Teen 16-17,1996-05-30,82.5,Raw,Yes,SBD,78,110,125,137.5,,137.5,85,90,92.5,,92.5,145,155,160,,160,390
 2,M,Aleksandr Voronov,Александр Воронов,Amateur Teen 16-17,1995-07-27,82.5,Raw,Yes,SBD,78.7,-110,110,-125,,110,85,90,-92.5,,90,160,-180,-180,,160,360
@@ -226,7 +226,7 @@ DQ,M,Sergey Nikishin,Сергей Никишин,Amateur Masters 40-44,1971-07-0
 4,M,Vyacheslav Eskov,Вячеслав Еськов,Amateur Open,1977-07-23,140,Raw,Yes,SBD,132.4,275,290,-300,,290,165,172.5,-180,,172.5,-270,270,-280,,270,732.5
 DQ,F,Svetlana Mikhaylova,Светлана Михайлова,Amateur Juniors 20-23,1990-02-25,48,Multi-ply,Yes,B,46,,,,,,-40,,,,,,,,,,
 1,F,Lyudmila Zaeskova,Людмила Заескова,Amateur Open,1988-05-06,56,Multi-ply,Yes,B,55.6,,,,,,-100,100,-105.5,,100,,,,,,100
-1,F,Natalya Zagrebina,Наталья Загребина,Amateur Open,1977-10-29,60,Multi-ply,Yes,B,58.9,,,,,,75,-92.5,-92.5,,75,,,,,,75
+1,F,Nataliya Zagrebina,Наталия Загребина,Amateur Open,1977-10-29,60,Multi-ply,Yes,B,58.9,,,,,,75,-92.5,-92.5,,75,,,,,,75
 1,F,Irina Borisova,Ирина Борисова,Amateur Open,1987-09-01,82.5,Multi-ply,Yes,B,82,,,,,,80,-87.5,-87.5,,80,,,,,,80
 1,M,Roman Krasnoshchekov,Роман Краснощеков,Amateur Teen 16-17,1996-07-07,60,Multi-ply,Yes,B,59.8,,,,,,105,110,115,,115,,,,,,115
 1,M,Aleksey Shchipanov,Алексей Щипанов,Amateur Open,1980-07-04,67.5,Multi-ply,Yes,B,67,,,,,,130,137.5,-140,,137.5,,,,,,137.5
@@ -240,7 +240,7 @@ DQ,M,Yuriy Shcherenko,Юрий Щеренко,Amateur Open,1985-02-17,75,Multi-p
 1,M,Ruslan Kulebyakin,Руслан Кулебякин,Amateur Juniors 20-23,1991-02-26,110,Multi-ply,Yes,B,105.3,,,,,,210,220,-230,,220,,,,,,220
 1,M,Valeriy Kurochkin,Валерий Курочкин,Amateur Open,1978-11-09,110,Multi-ply,Yes,B,103.4,,,,,,255,265,270,-282.5,270,,,,,,270
 2,M,Roman Shulenin,Роман Шуленин,Amateur Open,1975-03-28,110,Multi-ply,Yes,B,106,,,,,,210,-225,-225,,210,,,,,,210
-1,M,Denis Semenov,Денис Семенов,Amateur Open,1974-04-27,125,Multi-ply,Yes,B,119,,,,,,-270,-270,270,,270,,,,,,270
+1,M,Denis Semenov #3,Денис Семенов,Amateur Open,1974-04-27,125,Multi-ply,Yes,B,119,,,,,,-270,-270,270,,270,,,,,,270
 2,M,Aleksey Ventsov,Алексей Венцов,Amateur Open,1981-04-22,125,Multi-ply,Yes,B,113.8,,,,,,225,235,242.5,,242.5,,,,,,242.5
 DQ,M,Artem Sedov,Артем Седов,Amateur Open,1979-03-18,125,Multi-ply,Yes,B,117.6,,,,,,-265,-275,-275,,,,,,,,
 1,M,Igor Simanovskiy,Игорь Симановский,Amateur Masters 45-49,1965-03-28,125,Multi-ply,Yes,B,115.1,,,,,,-270,270,-275,,270,,,,,,270
@@ -282,10 +282,10 @@ DQ,M,Vladimir Yaroshetskiy,Владимир Ярошецкий,Amateur Open,1982
 1,M,Vadim Guberskiy,Вадим Губерский,Amateur Juniors 20-23,1991-10-18,100,Single-ply,Yes,B,95.9,,,,,,180,190,200,,200,,,,,,200
 1,M,Aleksey Kashirin,Алексей Каширин,Amateur Open,1973-10-09,100,Single-ply,Yes,B,99.8,,,,,,-250,250,265,,265,,,,,,265
 2,M,Aleksandr Klochikhin,Александр Клочихин,Amateur Open,1977-01-13,100,Single-ply,Yes,B,97.5,,,,,,-215,215,-230,,215,,,,,,215
-3,M,Aleksandr Terentev,Александр Терентьев,Amateur Open,1969-02-15,100,Single-ply,Yes,B,99,,,,,,215,,,,215,,,,,,215
+3,M,Aleksandr Terentyev,Александр Терентьев,Amateur Open,1969-02-15,100,Single-ply,Yes,B,99,,,,,,215,,,,215,,,,,,215
 4,M,Bagdasar Agamalyan,Багдасар Агамалян,Amateur Open,1985-01-03,100,Single-ply,Yes,B,98.9,,,,,,210,-220,-220,,210,,,,,,210
 DQ,M,Viktor Chekhirkin,Виктор Чехиркин,Amateur Open,1982-05-02,100,Single-ply,Yes,B,99,,,,,,-215,-215,-215,,,,,,,,
-1,M,Aleksandr Terentev,Александр Терентьев,Amateur Masters 40-44,1969-02-15,100,Single-ply,Yes,B,99,,,,,,-215,215,-220,,215,,,,,,215
+1,M,Aleksandr Terentyev,Александр Терентьев,Amateur Masters 40-44,1969-02-15,100,Single-ply,Yes,B,99,,,,,,-215,215,-220,,215,,,,,,215
 2,M,Oleg Mironov,Олег Миронов,Amateur Masters 40-44,1973-01-12,100,Single-ply,Yes,B,97.9,,,,,,150,160,-165,,160,,,,,,160
 1,M,Sergey Kosarev,Сергей Косарев,Amateur Masters 45-49,1968-01-18,100,Single-ply,Yes,B,93.8,,,,,,190,-200,200,,200,,,,,,200
 1,M,Vyacheslav Frank,Вячеслав Франк,Amateur Masters 50-54,1962-03-03,100,Single-ply,Yes,B,99.6,,,,,,160,-165,,,160,,,,,,160
@@ -319,7 +319,7 @@ DQ,M,Aleksey Isaev,Алексей Исаев,Amateur Open,1975-06-20,110,Single-
 1,F,Polina Biryukova,Полина Бирюкова,Amateur Teen 16-17,1996-08-29,60,Raw,Yes,B,59.3,,,,,,-50,55,57.5,,57.5,,,,,,57.5
 1,F,Yuliya Vizgina,Юлия Визгина,Amateur Juniors 20-23,1992-02-03,60,Raw,Yes,B,58,,,,,,47.5,52.5,55,,55,,,,,,55
 1,F,Larisa Smal,Лариса Смаль,Amateur Open,1987-07-08,60,Raw,Yes,B,57.1,,,,,,65,70,72.5,,72.5,,,,,,72.5
-2,F,Natalya Zagrebina,Наталья Загребина,Amateur Open,1977-10-29,60,Raw,Yes,B,58.9,,,,,,65,-67.5,-67.5,,65,,,,,,65
+2,F,Nataliya Zagrebina,Наталия Загребина,Amateur Open,1977-10-29,60,Raw,Yes,B,58.9,,,,,,65,-67.5,-67.5,,65,,,,,,65
 3,F,Yuliya Vizgina,Юлия Визгина,Amateur Open,1992-02-03,60,Raw,Yes,B,58.2,,,,,,47.5,52.5,55,,55,,,,,,55
 1,F,Svetlana Sotnikova,Светлана Сотникова,Amateur Open,1983-01-30,67.5,Raw,Yes,B,67,,,,,,70,75,-77.5,,75,,,,,,75
 2,F,Anna Sepyagina,Анна Сепягина,Amateur Open,1988-08-22,67.5,Raw,Yes,B,65,,,,,,52.5,57.5,60,,60,,,,,,60
@@ -332,7 +332,7 @@ DQ,F,Irina Krasnova,Ирина Краснова,Amateur Open,1984-02-06,75,Raw,Y
 1,F,Tatyana Sivkovich,Татьяна Сивкович,Amateur Masters 45-49,1965-12-03,90+,Raw,Yes,B,98,,,,,,55,-60,60,,60,,,,,,60
 1,M,Dmitriy Kukushkin,Дмитрий Кукушкин,Amateur Teen 16-17,1996-08-12,52,Raw,Yes,B,50,,,,,,65,70,-77.5,,70,,,,,,70
 1,M,Andrey Malyshev,Андрей Малышев,Amateur Teen 18-19,1994-11-28,56,Raw,Yes,B,54.6,,,,,,110,115,120,-121,120,,,,,,120
-1,M,Dmitriy Frolov,Дмитрий Фролов,Amateur Juniors 20-23,1990-10-21,56,Raw,Yes,B,53.6,,,,,,72.5,80,-82.5,,80,,,,,,80
+1,M,Dmitriy Frolov #3,Дмитрий Фролов,Amateur Juniors 20-23,1990-10-21,56,Raw,Yes,B,53.6,,,,,,72.5,80,-82.5,,80,,,,,,80
 1,M,Rail Aliyakbyarov,Раиль Алиякбяров,Amateur Teen 16-17,1995-11-10,60,Raw,Yes,B,58.4,,,,,,-90,90,-97.5,,90,,,,,,90
 1,M,Dias Dzhelilov,Диас Джелилов,Amateur Juniors 20-23,1993-05-26,60,Raw,Yes,B,59.4,,,,,,117.5,127.5,130,,130,,,,,,130
 2,M,Anton Kiryanov,Антон Кирьянов,Amateur Juniors 20-23,1989-09-20,60,Raw,Yes,B,58,,,,,,90,97.5,105,,105,,,,,,105
@@ -340,7 +340,7 @@ DQ,F,Irina Krasnova,Ирина Краснова,Amateur Open,1984-02-06,75,Raw,Y
 1,M,Egor Popov,Егор Попов,Amateur Teen 13-15,1997-10-17,67.5,Raw,Yes,B,67.5,,,,,,72.5,77.5,-82.5,,77.5,,,,,,77.5
 1,M,Vladimir Tonkoglaz,Владимир Тонкоглаз,Amateur Teen 16-17,1996-01-22,67.5,Raw,Yes,B,67,,,,,,-127.5,127.5,,,127.5,,,,,,127.5
 2,M,Dmitriy Zagrebin,Дмитрий Загребин,Amateur Teen 16-17,1996-07-28,67.5,Raw,Yes,B,67.2,,,,,,95,-107.5,-107.5,,95,,,,,,95
-1,M,Aleksandr Kuznetsov,Александр Кузнецов,Amateur Teen 18-19,1993-12-16,67.5,Raw,Yes,B,64.1,,,,,,110,120,130,,130,,,,,,130
+1,M,Aleksandr Kuznetsov #9,Александр Кузнецов,Amateur Teen 18-19,1993-12-16,67.5,Raw,Yes,B,64.1,,,,,,110,120,130,,130,,,,,,130
 1,M,Andrey Dezhin,Андрей Дежин,Amateur Juniors 20-23,1992-07-30,67.5,Raw,Yes,B,66,,,,,,110,115,-120,,115,,,,,,115
 DQ,M,Aleksey Mamakov,Алексей Мамаков,Amateur Juniors 20-23,1993-03-17,67.5,Raw,Yes,B,65.9,,,,,,-115,-115,-115,,,,,,,,
 DQ,M,Maksim Nikolin,Максим Николин,Amateur Juniors 20-23,1990-01-08,67.5,Raw,Yes,B,66.2,,,,,,-105,-105,-105,,,,,,,,
@@ -379,7 +379,7 @@ DQ,M,Pavel Podkovyrov,Павел Подковыров,Amateur Teen 18-19,1994-07
 5,M,Roman Esman,Роман Есман,Amateur Juniors 20-23,1990-06-25,75,Raw,Yes,B,71,,,,,,120,130,135,,135,,,,,,135
 6,M,Andrey Poltavets,Андрей Полтавец,Amateur Juniors 20-23,1990-10-22,75,Raw,Yes,B,73.8,,,,,,120,135,-140,,135,,,,,,135
 7,M,Ivan Galichevskiy,Иван Галичевский,Amateur Juniors 20-23,1989-11-21,75,Raw,Yes,B,73,,,,,,125,-130,-130,,125,,,,,,125
-8,M,Igor Kozlov,Ігор Козлов,Amateur Juniors 20-23,1990-08-24,75,Raw,Yes,B,71.2,,,,,,105,112.5,117.5,,117.5,,,,,,117.5
+8,M,Igor Kozlov #2,Игорь Козлов,Amateur Juniors 20-23,1990-08-24,75,Raw,Yes,B,71.2,,,,,,105,112.5,117.5,,117.5,,,,,,117.5
 9,M,Igor Pivovarov,Игорь Пивоваров,Amateur Juniors 20-23,1990-03-16,75,Raw,Yes,B,73,,,,,,-117.5,117.5,-135,,117.5,,,,,,117.5
 10,M,Ruslan Larin,Руслан Ларин,Amateur Juniors 20-23,1991-06-25,75,Raw,Yes,B,74.3,,,,,,-117.5,117.5,-135,,117.5,,,,,,117.5
 11,M,Evgeniy Alimov,Евгений Алимов,Amateur Juniors 20-23,1989-06-23,75,Raw,Yes,B,73,,,,,,112.5,-115,-117.5,,112.5,,,,,,112.5
@@ -399,7 +399,7 @@ DQ,M,Aleksandr Khokhlov,Александр Хохлов,Amateur Juniors 20-23,19
 10,M,Pavel Zaburuev,Павел Забуруев,Amateur Open,1984-06-03,75,Raw,Yes,B,74.2,,,,,,127.5,135,140,,140,,,,,,140
 11,M,Rudolf Kornilov,Рудольф Корнилов,Amateur Open,1985-11-12,75,Raw,Yes,B,71.5,,,,,,130,135,-140,,135,,,,,,135
 12,M,Dmitriy Shvetsov,Дмитрий Швецов,Amateur Open,1988-12-14,75,Raw,Yes,B,74,,,,,,135,-140,-140,,135,,,,,,135
-13,M,Vladimir Bondarenko,Владимир Бондаренко,Amateur Open,1976-08-09,75,Raw,Yes,B,75,,,,,,135,-140,-140,,135,,,,,,135
+13,M,Vladimir Bondarenko #2,Владимир Бондаренко,Amateur Open,1976-08-09,75,Raw,Yes,B,75,,,,,,135,-140,-140,,135,,,,,,135
 14,M,Dmitriy Borobov,Дмитрий Боробов,Amateur Open,1986-09-06,75,Raw,Yes,B,71,,,,,,125,130,-135,,130,,,,,,130
 15,M,Aleksandr Mochalov,Александр Мочалов,Amateur Open,1986-08-12,75,Raw,Yes,B,74,,,,,,125,130,-135,,130,,,,,,130
 16,M,Vladimir Pospelov,Владимир Поспелов,Amateur Open,1988-08-22,75,Raw,Yes,B,74.7,,,,,,-117.5,117.5,127.5,,127.5,,,,,,127.5
@@ -458,7 +458,7 @@ DQ,M,Vladimir Vorobev,Владимир Воробьев,Amateur Open,1985-03-09,
 11,M,Evgeniy Rodin,Евгений Родин,Amateur Open,1975-10-16,82.5,Raw,Yes,B,76.8,,,,,,125,-135,135,,135,,,,,,135
 12,M,Timur Ashirov,Тимур Аширов,Amateur Open,1986-11-04,82.5,Raw,Yes,B,81,,,,,,127.5,135,-145,,135,,,,,,135
 13,M,Vladimir Belikov,Владимир Беликов,Amateur Open,1984-09-13,82.5,Raw,Yes,B,81,,,,,,135,-145,-145,,135,,,,,,135
-14,M,Aleksandr Kuznetsov,Александр Кузнецов,Amateur Open,1985-10-09,82.5,Raw,Yes,B,78,,,,,,120,-130,130,,130,,,,,,130
+14,M,Aleksandr Kuznetsov #23,Александр Кузнецов,Amateur Open,1985-10-09,82.5,Raw,Yes,B,78,,,,,,120,-130,130,,130,,,,,,130
 15,M,Vitaliy Petrenko,Виталий Петренко,Amateur Open,1986-10-07,82.5,Raw,Yes,B,78.5,,,,,,130,-140,-140,,130,,,,,,130
 16,M,Sergey Sosnovskiy,Сергей Сосновский,Amateur Open,1988-12-17,82.5,Raw,Yes,B,76.5,,,,,,112.5,127.5,-130,,127.5,,,,,,127.5
 17,M,Aleksey Belashov,Алексей Белашов,Amateur Open,1985-10-16,82.5,Raw,Yes,B,78,,,,,,115,-127.5,127.5,,127.5,,,,,,127.5
@@ -472,7 +472,7 @@ DQ,M,Evgeniy Egorov,Евгений Егоров,Amateur Open,1992-08-21,82.5,Raw
 1,M,Vladimir Shchegolkov,Владимир Щегольков,Amateur Masters 40-44,1973-01-22,82.5,Raw,Yes,B,81.1,,,,,,170,177.5,-182.5,,177.5,,,,,,177.5
 2,M,Dmitriy Khoroshun,Дмитрий Хорошун,Amateur Masters 40-44,1972-05-17,82.5,Raw,Yes,B,81.6,,,,,,130,-145,-145,,130,,,,,,130
 1,M,Aleksandr Vorobev,Александр Воробьев,Amateur Masters 45-49,1967-02-18,82.5,Raw,Yes,B,82,,,,,,140,145,150,,150,,,,,,150
-1,M,Igor Kovalev,Игорь Ковалев,Amateur Masters 55-59,1957-04-08,82.5,Raw,Yes,B,79.7,,,,,,140,147.5,152.5,,152.5,,,,,,152.5
+1,M,Igor Kovalev #1,Игорь Ковалев,Amateur Masters 55-59,1957-04-08,82.5,Raw,Yes,B,79.7,,,,,,140,147.5,152.5,,152.5,,,,,,152.5
 2,M,Vasiliy Mosin,Василий Мосин,Amateur Masters 55-59,1956-06-09,82.5,Raw,Yes,B,80,,,,,,137.5,-145,-145,,137.5,,,,,,137.5
 3,M,Viktor Skokin,Виктор Скокин,Amateur Masters 55-59,1957-07-20,82.5,Raw,Yes,B,81.1,,,,,,102.5,107.5,110,,110,,,,,,110
 4,M,Vladimir Kulakov,Владимир Кулаков,Amateur Masters 55-59,1955-12-24,82.5,Raw,Yes,B,77.2,,,,,,85,92.5,,,92.5,,,,,,92.5
@@ -513,7 +513,7 @@ DQ,M,Vadim Drozd,Вадим Дрозд,Amateur Juniors 20-23,1991-03-17,90,Raw,Y
 18,M,Maksim Khramtsov,Максим Храмцов,Amateur Open,1986-01-09,90,Raw,Yes,B,88,,,,,,145,-152.5,-152.5,,145,,,,,,145
 19,M,Aleksey Silantev,Алексей Силантьев,Amateur Open,1984-07-05,90,Raw,Yes,B,87.2,,,,,,135,142.5,-145,,142.5,,,,,,142.5
 20,M,Boris Apanasevich,Борис Апанасевич,Amateur Open,1982-07-07,90,Raw,Yes,B,88,,,,,,140,-152.5,-152.5,,140,,,,,,140
-21,M,Aleksey Popov,Алексей Попов,Amateur Open,1982-01-11,90,Raw,Yes,B,88,,,,,,140,-152.5,-152.5,,140,,,,,,140
+21,M,Aleksey Popov #14,Алексей Попов,Amateur Open,1982-01-11,90,Raw,Yes,B,88,,,,,,140,-152.5,-152.5,,140,,,,,,140
 22,M,Evgeniy Lazarev,Евгений Лазарев,Amateur Open,1983-09-20,90,Raw,Yes,B,89.5,,,,,,132.5,140,-147.5,,140,,,,,,140
 23,M,Oleg Varvarin,Олег Варварин,Amateur Open,1986-04-02,90,Raw,Yes,B,87.4,,,,,,132.5,137.5,-142.5,,137.5,,,,,,137.5
 24,M,Ilya Androsov,Илья Андросов,Amateur Open,1986-10-31,90,Raw,Yes,B,87,,,,,,132.5,-140,-140,,132.5,,,,,,132.5
@@ -549,7 +549,7 @@ DQ,M,Igor Lebedev,Игорь Лебедев,Amateur Masters 50-54,1962-08-03,90,
 1,M,Oleg Borodin,Олег Бородин,Amateur Juniors 20-23,1990-04-21,100,Raw,Yes,B,100,,,,,,155,162.5,165,,165,,,,,,165
 2,M,Aleksandr Savitskiy,Александр Савицкий,Amateur Juniors 20-23,1990-11-09,100,Raw,Yes,B,92.6,,,,,,150,157.5,-165,,157.5,,,,,,157.5
 3,M,Oleg Sinchugov,Олег Синчугов,Amateur Juniors 20-23,1989-08-25,100,Raw,Yes,B,97.9,,,,,,130,-140,140,,140,,,,,,140
-4,M,Aleksey Kolenko,Алексей Коленько,Amateur Juniors 20-23,1990-12-13,100,Raw,Yes,B,98.1,,,,,,-135,140,-147.5,,140,,,,,,140
+4,M,Aleksey Kolenko #1,Алексей Коленько,Amateur Juniors 20-23,1990-12-13,100,Raw,Yes,B,98.1,,,,,,-135,140,-147.5,,140,,,,,,140
 1,M,Andrey Kukhnevskiy,Андрей Кухневский,Amateur Open,1981-11-30,100,Raw,Yes,B,95.5,,,,,,210,-220,-220,,210,,,,,,210
 2,M,Aleksandr Plaksin,Александр Плаксин,Amateur Open,1987-02-14,100,Raw,Yes,B,98,,,,,,195,200,207.5,,207.5,,,,,,207.5
 3,M,Pavel Milovanov,Павел Милованов,Amateur Open,1977-10-05,100,Raw,Yes,B,100,,,,,,195,200,205,,205,,,,,,205
@@ -574,8 +574,8 @@ DQ,M,Igor Lebedev,Игорь Лебедев,Amateur Masters 50-54,1962-08-03,90,
 DQ,M,Semen Borkin,Семен Борькин,Amateur Open,1981-11-12,100,Raw,Yes,B,97,,,,,,-170,-170,-170,,,,,,,,
 DQ,M,Evgeniy Legerov,Евгений Легеров,Amateur Open,1979-06-12,100,Raw,Yes,B,99,,,,,,-125,,,,,,,,,,
 1,M,Ismail Shakhbanov,Исмаил Шахбанов,Amateur Masters 40-44,1971-11-26,100,Raw,Yes,B,97.5,,,,,,170,175,-180,,175,,,,,,175
-2,M,Sergey Matveev,Сергей Матвеев,Amateur Masters 40-44,1973-04-29,100,Raw,Yes,B,97.7,,,,,,162.5,167.5,-172.5,,167.5,,,,,,167.5
-3,M,Ivan Ivanov,Іван Іванов,Amateur Masters 40-44,1969-01-01,100,Raw,Yes,B,99.1,,,,,,-165,165,167.5,,167.5,,,,,,167.5
+2,M,Sergey Matveev #2,Сергей Матвеев,Amateur Masters 40-44,1973-04-29,100,Raw,Yes,B,97.7,,,,,,162.5,167.5,-172.5,,167.5,,,,,,167.5
+3,M,Ivan Ivanov #16,Иван Иванов,Amateur Masters 40-44,1969-01-01,100,Raw,Yes,B,99.1,,,,,,-165,165,167.5,,167.5,,,,,,167.5
 4,M,Dmitriy Voronin,Дмитрий Воронин,Amateur Masters 40-44,1969-05-01,100,Raw,Yes,B,92.7,,,,,,150,157.5,-162.5,,157.5,,,,,,157.5
 5,M,Yuriy Lyubach,Юрий Любач,Amateur Masters 40-44,1968-10-23,100,Raw,Yes,B,92,,,,,,140,-145,-145,,140,,,,,,140
 6,M,Andrey Drennov,Андрей Дреннов,Amateur Masters 40-44,1971-01-23,100,Raw,Yes,B,99,,,,,,140,-150,-150,,140,,,,,,140
@@ -594,7 +594,7 @@ DQ,M,Igor Kaverin,Игорь Каверин,Amateur Masters 40-44,1971-02-27,100
 2,M,Nikita Khatalakh,Никита Хаталах,Amateur Teen 18-19,1994-02-05,110,Raw,Yes,B,102.4,,,,,,130,135,140,,140,,,,,,140
 3,M,Daniil Lazarev,Даниил Лазарев,Amateur Teen 18-19,1995-02-11,110,Raw,Yes,B,104.9,,,,,,100,-132.5,-132.5,,100,,,,,,100
 1,M,Dmitriy Tenetko,Дмитрий Тенетко,Amateur Open,1975-08-11,110,Raw,Yes,B,110,,,,,,215,230,-232.5,,230,,,,,,230
-2,M,Aleksandr Kuznetsov,Александр Кузнецов,Amateur Open,1985-10-09,110,Raw,Yes,B,109.4,,,,,,-200,207.5,-212.5,,207.5,,,,,,207.5
+2,M,Aleksandr Kuznetsov #1,Александр Кузнецов,Amateur Open,,110,Raw,Yes,B,109.4,,,,,,-200,207.5,-212.5,,207.5,,,,,,207.5
 3,M,Aleksey Rudko,Алексей Рудько,Amateur Open,1973-10-27,110,Raw,Yes,B,108.3,,,,,,195,205,-212.5,,205,,,,,,205
 4,M,Vasiliy Sidorov,Василий Сидоров,Amateur Open,1977-10-12,110,Raw,Yes,B,109,,,,,,195,200,,,200,,,,,,200
 5,M,Aleksandr Grekhnev,Александр Грехнев,Amateur Open,1980-03-27,110,Raw,Yes,B,108.6,,,,,,185,-195,-195,,185,,,,,,185
@@ -638,7 +638,7 @@ DQ,M,Oleg Kuligin,Олег Кулигин,Amateur Open,1980-08-30,125,Raw,Yes,B,
 2,M,Dmitriy Skachkov,Дмитрий Скачков,Amateur Open,1977-02-22,140,Raw,Yes,B,131.5,,,,,,165,182.5,190,,190,,,,,,190
 3,M,Roman Khivrin,Роман Хиврин,Amateur Open,1978-04-08,140,Raw,Yes,B,134.1,,,,,,180,-190,-190,,180,,,,,,180
 1,M,Roman Marachev,Роман Марачев,Amateur Open,1978-05-16,140+,Raw,Yes,B,143,,,,,,205,210,212.5,,212.5,,,,,,212.5
-2,M,Yuriy Panteleev,Юрий Пантелеев,Amateur Open,1975-09-23,140+,Raw,Yes,B,149.4,,,,,,200,207.5,212.5,,212.5,,,,,,212.5
+2,M,Yuriy Panteleev #1,Юрий Пантелеев,Amateur Open,1975-09-23,140+,Raw,Yes,B,149.4,,,,,,200,207.5,212.5,,212.5,,,,,,212.5
 3,M,Stanislav Karpov,Станислав Карпов,Amateur Open,1971-04-07,140+,Raw,Yes,B,153.2,,,,,,190,-200,-200,,190,,,,,,190
 1,M,Stanislav Karpov,Станислав Карпов,Amateur Masters 40-44,1971-04-07,140+,Raw,Yes,B,153,,,,,,190,-200,-200,,190,,,,,,190
 1,F,Tatyana Lazukova,Татьяна Лазукова,Amateur Masters 45-49,1963-08-13,52,Single-ply,Yes,D,51.5,,,,,,,,,,,100,110,115,,115,115
@@ -694,7 +694,7 @@ DQ,M,Vladimir Kulakov,Владимир Кулаков,Amateur Masters 55-59,1955
 8,M,Aleksey Petrov,Алексей Петров,Amateur Open,1978-02-28,75,Raw,Yes,D,73.6,,,,,,,,,,,160,180,-190,,180,180
 9,M,Sergey Belyanin,Сергей Белянин,Amateur Open,1985-07-05,75,Raw,Yes,D,71.3,,,,,,,,,,,160,-170,170,,170,170
 1,M,Vladimir Ermokhin,Владимир Ермохин,Amateur Masters 50-54,1961-02-06,75,Raw,Yes,D,75,,,,,,,,,,,-130,-130,140,,140,140
-1,M,Viktor Popov,Виктор Попов,Amateur Masters 60-64,1952-07-15,75,Raw,Yes,D,74.6,,,,,,,,,,,190,202.5,-207.5,,202.5,202.5
+1,M,Viktor Popov #3,Виктор Попов,Amateur Masters 60-64,1952-07-15,75,Raw,Yes,D,74.6,,,,,,,,,,,190,202.5,-207.5,,202.5,202.5
 1,M,Vladislav Makhmutov,Владислав Махмутов,Amateur Juniors 20-23,1992-11-28,82.5,Raw,Yes,D,80,,,,,,,,,,,200,215,245,,245,245
 2,M,Ilya Chernov,Илья Чернов,Amateur Juniors 20-23,1992-07-11,82.5,Raw,Yes,D,82.5,,,,,,,,,,,205,-215,215,,215,215
 1,M,Ivan Beskaravaynyy,Иван Бескаравайный,Amateur Open,1981-08-30,82.5,Raw,Yes,D,81.6,,,,,,,,,,,215,230,-245,,230,230
@@ -724,7 +724,7 @@ DQ,M,Vasiliy Kopev,Василий Копьев,Amateur Juniors 20-23,1991-02-08,
 1,M,Aleksey Faraponov,Алексей Фарапонов,Amateur Teen 18-19,1993-08-13,100,Raw,Yes,D,98,,,,,,,,,,,202.5,210,-215,,210,210
 2,M,Andrey Brynza,Андрей Брынза,Amateur Teen 18-19,1994-07-21,100,Raw,Yes,D,96.2,,,,,,,,,,,195,-202.5,-202.5,,195,195
 1,M,Sergey Materinskiy,Сергей Материнский,Amateur Juniors 20-23,1992-08-13,100,Raw,Yes,D,99.4,,,,,,,,,,,220,242.5,252.5,,252.5,252.5
-2,M,Aleksey Kolenko,Алексей Коленько,Amateur Juniors 20-23,1990-12-13,100,Raw,Yes,D,96.5,,,,,,,,,,,200,210,215,,215,215
+2,M,Aleksey Kolenko #1,Алексей Коленько,Amateur Juniors 20-23,1990-12-13,100,Raw,Yes,D,96.5,,,,,,,,,,,200,210,215,,215,215
 1,M,Dmitriy Semenin,Дмитрий Семенин,Amateur Open,1983-12-09,100,Raw,Yes,D,98,,,,,,,,,,,267.5,285,-295,,285,285
 2,M,Mikhail Dubrovin,Михаил Дубровин,Amateur Open,1977-07-29,100,Raw,Yes,D,98.6,,,,,,,,,,,270,280,-285,,280,280
 3,M,Sergey Shukelovich,Сергей Шукелович,Amateur Open,1984-02-07,100,Raw,Yes,D,93.7,,,,,,,,,,,220,232.5,-240,,232.5,232.5
@@ -734,7 +734,7 @@ DQ,M,Vasiliy Kopev,Василий Копьев,Amateur Juniors 20-23,1991-02-08,
 7,M,Mikhail Rubtsov,Михаил Рубцов,Amateur Open,1974-08-15,100,Raw,Yes,D,99,,,,,,,,,,,195,200,202.5,,202.5,202.5
 8,M,Aleksandr Smirnov,Александр Смирнов,Amateur Open,1974-04-21,100,Raw,Yes,D,100,,,,,,,,,,,195,202.5,-210,,202.5,202.5
 1,M,Sergey Lysenok,Сергей Лысенок,Amateur Masters 40-44,1971-07-13,100,Raw,Yes,D,91.4,,,,,,,,,,,230,240,250,,250,250
-2,M,Aleksey Popov,Алексей Попов,Amateur Masters 40-44,1968-12-13,100,Raw,Yes,D,97.85,,,,,,,,,,,207.5,-232.5,-232.5,,207.5,207.5
+2,M,Aleksey Popov #12,Алексей Попов,Amateur Masters 40-44,1968-12-13,100,Raw,Yes,D,97.85,,,,,,,,,,,207.5,-232.5,-232.5,,207.5,207.5
 3,M,Oleg Mironov,Олег Миронов,Amateur Masters 40-44,1973-01-12,100,Raw,Yes,D,98.2,,,,,,,,,,,150,160,170,,170,170
 1,M,Eduard Tarasov,Эдуард Тарасов,Amateur Masters 50-54,1962-08-12,100,Raw,Yes,D,91,,,,,,,,,,,160,170,180,,180,180
 1,M,Mikhail Aleksakov,Михаил Алексаков,Amateur Masters 55-59,1954-12-04,100,Raw,Yes,D,92.3,,,,,,,,,,,170,180,-187.5,,180,180
@@ -773,7 +773,7 @@ DQ,M,Evgeniy Naumov,Евгений Наумов,Pro Juniors 20-23,1992-03-01,100
 1,M,Sergey Mavrenkov,Сергей Мавренков,Pro Masters 45-49,1966-11-05,110,Multi-ply,No,SBD,102.6,-260,260,-275,,260,-200,-200,205,215,205,220,235,245,,245,710
 1,M,Aleksandr Rek,Александр Рек,Pro Open,1987-07-13,67.5,Single-ply,No,SBD,67,-220,-225,230.5,240,230.5,120,127.5,132.5,,132.5,192.5,207.5,-215,,207.5,570
 2,M,Vladimir Akatev,Владимир Акатьев,Pro Open,1985-02-19,67.5,Single-ply,No,SBD,60.8,150,170,180,,180,100,107.5,115,,115,140,160,175,,175,470
-1,M,Nikolay Sokolov,Николай Соколов,Pro Open,1979-07-14,75,Single-ply,No,SBD,73,-225,255,,,255,190,215,,,215,230,-265,265,,265,735
+1,M,Nikolay Sokolov #1,Николай Соколов,Pro Open,1979-07-14,75,Single-ply,No,SBD,73,-225,255,,,255,190,215,,,215,230,-265,265,,265,735
 2,M,Nikolay Altunin,Николай Алтунин,Pro Open,1977-07-24,75,Single-ply,No,SBD,71.9,220,230,-240,,230,140,-145,-150,,140,210,-230,-230,,210,580
 3,M,Andrey Matveev,Андрей Матвеев,Pro Open,1986-05-09,75,Single-ply,No,SBD,75,200,-210,-215,,200,145,155,,,155,215,-225,225,,225,580
 1,M,Roman Kiselyov,Роман Киселёв,Pro Teen 16-17,1995-11-12,82.5,Single-ply,No,SBD,82.4,-260,275,285,,285,140,150,155,,155,205,222.5,235,,235,675
@@ -793,7 +793,7 @@ DQ,M,Vyacheslav Svyatkin,Вячеслав Святкин,Pro Open,1989-05-19,90,
 1,M,Oleg Pastukhov,Олег Пастухов,Pro Masters 40-44,1970-08-07,100,Single-ply,No,SBD,98.1,265,285,300,,300,180,190,,,190,265,285,300,,300,790
 1,M,Vitaliy Bobrov,Виталий Бобров,Pro Open,1981-07-30,110,Single-ply,No,SBD,104,375,-400,-415,,375,-255,260,-267.5,,260,310,330,-345,,330,965
 2,M,Semen Alaev,Семен Алаев,Pro Open,1987-08-13,110,Single-ply,No,SBD,109.4,-280,-280,280,,280,195,202.5,-207.5,,202.5,-265,265,-282.5,,265,747.5
-3,M,Igor Ivanov,Ігор Іванов,Pro Open,1989-02-17,110,Single-ply,No,SBD,109.7,260,270,-280,,270,155,165,-175,,165,270,280,-290,,280,715
+3,M,Igor Ivanov #11,Игорь Иванов,Pro Open,1989-02-17,110,Single-ply,No,SBD,109.7,260,270,-280,,270,155,165,-175,,165,270,280,-290,,280,715
 4,M,Yaroslav Popov,Ярослав Попов,Pro Open,1988-04-19,110,Single-ply,No,SBD,107.4,250,265,-275,,265,180,-190,-190,,180,-230,230,245,,245,690
 DQ,M,Oleg Falkovskiy,Олег Фальковский,Pro Open,1989-02-16,110,Single-ply,No,SBD,107.2,-260,-260,-260,,,,,,,,,,,,,
 1,M,Aleksey Kuchma,Алексей Кучма,Pro Open,1979-01-04,125,Single-ply,No,SBD,113,330,340,,,340,230,240,-250,,240,280,-300,-300,,280,860
@@ -818,7 +818,7 @@ DQ,F,Olga Mikhaylova,Ольга Михайлова,Pro Masters 40-44,1971-12-14,
 DQ,M,Sergey Dobrynin,Сергей Добрынин,Pro Teen 18-19,1993-08-01,75,Raw,No,SBD,74.7,-195,,,,,,,,,,,,,,,
 1,M,Pavel Fedorov,Павел Федоров,Pro Juniors 20-23,1990-12-15,75,Raw,No,SBD,74.6,-165,165,175,,175,140,147.5,155,,155,180,200,-210,,200,530
 2,M,Pavel Fabrikantov,Павел Фабрикантов,Pro Juniors 20-23,1990-09-25,75,Raw,No,SBD,73.1,115,125,132.5,,132.5,80,87.5,92.5,,92.5,127.5,137.5,142.5,,142.5,367.5
-1,M,Nikolay Sokolov,Николай Соколов,Pro Open,1979-07-14,75,Raw,No,SBD,73,180,200,210,,210,145,155,-165,,155,225,245,,,245,610
+1,M,Nikolay Sokolov #1,Николай Соколов,Pro Open,1979-07-14,75,Raw,No,SBD,73,180,200,210,,210,145,155,-165,,155,225,245,,,245,610
 2,M,Sergey Dobrynin,Сергей Добрынин,Pro Open,1993-08-01,75,Raw,No,SBD,75,195,202.5,205,,205,-145,145,150,,150,215,-222.5,222.5,,222.5,577.5
 3,M,Aleksandr Yakovlev,Александр Яковлев,Pro Open,1982-12-14,75,Raw,No,SBD,75,-160,165,172.5,,172.5,130,135,-140,,135,210,217.5,225,,225,532.5
 4,M,Sergey Yasnetsov,Сергей Яснецов,Pro Open,1981-10-07,75,Raw,No,SBD,72,180,190,-195,,190,125,-135,-135,,125,205,-210,-210,,205,520
@@ -873,7 +873,7 @@ DQ,M,Roman Artamonov,Роман Артамонов,Pro Open,1974-07-01,100,Raw,N
 1,M,Renad Akhmetov,Ренад Ахметов,Pro Masters 50-54,1961-05-20,110,Raw,No,SBD,108.5,-240,240,250,,250,170,-180,-180,,170,300,320,330,,330,750
 1,M,Andrey Gerasimov,Андрей Герасимов,Pro Teen 16-17,1996-11-15,125,Raw,No,SBD,116,180,-195,195,,195,90,102.5,-115,,102.5,205,225,-235,,225,522.5
 1,M,Artem Kobanov,Артем Кобанов,Pro Juniors 20-23,1992-01-10,125,Raw,No,SBD,110.5,277.5,285,292.5,300,292.5,207.5,212.5,217.5,222.5,217.5,-300,300,310,,310,820
-2,M,Andrey Aksenov,Андрей Аксенов,Pro Juniors 20-23,1992-05-28,125,Raw,No,SBD,118,212.5,-225,230,,230,160,170,180,,180,245,257.5,267.5,,267.5,677.5
+2,M,Andrey Aksenov #1,Андрей Аксенов,Pro Juniors 20-23,1992-05-28,125,Raw,No,SBD,118,212.5,-225,230,,230,160,170,180,,180,245,257.5,267.5,,267.5,677.5
 1,M,Konstantin Askhabov,Константин Асхабов,Pro Open,1975-01-31,125,Raw,No,SBD,123.9,280,-295,-300,,280,175,185,190,,190,302.5,330,-350,,330,800
 2,M,Aleksandr Volkov,Александр Волков,Pro Open,1975-02-17,125,Raw,No,SBD,124,285,-300,-300,,285,185,-200,-200,,185,290,300,305,,305,775
 3,M,Nikita Voronov,Никита Воронов,Pro Open,1987-02-05,125,Raw,No,SBD,114.8,230,240,250,,250,175,185,192.5,,192.5,265,275,287.5,,287.5,730
@@ -892,7 +892,7 @@ DQ,M,Viktor Gusev,Виктор Гусев,Pro Open,1985-12-15,90,Multi-ply,No,B,
 1,M,Roman Anpilogov,Роман Анпилогов,Pro Open,1980-07-14,100,Multi-ply,No,B,99.9,,,,,,270,285,-300,,285,,,,,,285
 2,M,Mikhail Royanov,Михаил Роянов,Pro Open,1977-03-04,100,Multi-ply,No,B,99.9,,,,,,232.5,242.5,-252.5,,242.5,,,,,,242.5
 1,M,Anton Begalko,Антон Бегалко,Pro Open,1986-11-06,110,Multi-ply,No,B,109,,,,,,330,340,-350,,340,,,,,,340
-1,M,Stanislav Maksimov,Станислав Максимов,Pro Masters 40-44,1968-08-04,110,Multi-ply,No,B,109.3,,,,,,-260,270,285,,285,,,,,,285
+1,M,Stanislav Maksimov #1,Станислав Максимов,Pro Masters 40-44,1968-08-04,110,Multi-ply,No,B,109.3,,,,,,-260,270,285,,285,,,,,,285
 2,M,Vladimir Omelkov,Владимир Омельков,Pro Masters 40-44,1970-05-10,110,Multi-ply,No,B,105,,,,,,240,247.5,-255,,247.5,,,,,,247.5
 1,M,Viktor Fursov,Виктор Фурсов,Pro Open,1974-05-09,125,Multi-ply,No,B,112.3,,,,,,275,-290,-290,,275,,,,,,275
 1,M,Georgiy Lopatskiy,Георгий Лопацкий,Pro Open,1962-05-16,140,Multi-ply,No,B,130.8,,,,,,280,300,,,300,,,,,,300
@@ -902,7 +902,7 @@ DQ,M,Viktor Gusev,Виктор Гусев,Pro Open,1985-12-15,90,Multi-ply,No,B,
 1,M,Nikita Vasilev,Никита Васильев,Pro Teen 13-15,1998-07-13,75,Single-ply,No,B,73.6,,,,,,-65,65,-75,,65,,,,,,65
 1,M,Yuriy Churin,Юрий Чурин,Pro Open,1971-06-09,75,Single-ply,No,B,74.2,,,,,,180,190,202.5,,202.5,,,,,,202.5
 1,M,Yuriy Churin,Юрий Чурин,Pro Masters 40-44,1971-06-09,75,Single-ply,No,B,74.2,,,,,,180,190,202.5,,202.5,,,,,,202.5
-1,M,Aleksey Nikulin,Алексей Никулин,Pro Open,1982-11-01,82.5,Single-ply,No,B,81,,,,,,242.5,-252.5,252.5,262.5,252.5,,,,,,252.5
+1,M,Aleksey Nikulin #1,Алексей Никулин,Pro Open,1982-11-01,82.5,Single-ply,No,B,81,,,,,,242.5,-252.5,252.5,262.5,252.5,,,,,,252.5
 2,M,Armen Khachaturyan,Армен Хачатурян,Pro Open,1978-07-18,82.5,Single-ply,No,B,82,,,,,,200,210,-220,,210,,,,,,210
 3,M,Maksim Tatarinov,Максим Татаринов,Pro Open,1987-12-29,82.5,Single-ply,No,B,80,,,,,,180,192.5,200,,200,,,,,,200
 1,M,Nikolay Krasnov,Николай Краснов,Pro Masters 50-54,1960-07-22,82.5,Single-ply,No,B,80.1,,,,,,182.5,190,200,,200,,,,,,200
@@ -941,7 +941,7 @@ DQ,M,Nikolay Alyshev,Николай Алышев,Pro Open,1985-10-14,110,Single-
 3,M,Vakha Khadziev,Ваха Хадзиев,Pro Teen 18-19,1994-09-26,67.5,Raw,No,B,67.5,,,,,,-145,-145,145,,145,,,,,,145
 1,M,Vladimir Ivanov,Владимир Иванов,Pro Open,1982-10-19,67.5,Raw,No,B,63.6,,,,,,130,-160,-160,,130,,,,,,130
 2,M,Andrey Zhilin,Андрей Жилин,Pro Open,1980-04-05,67.5,Raw,No,B,67,,,,,,120,-125,-125,,120,,,,,,120
-1,M,Akhmed-khan Batyrov,Ахмед-хан Батыров,Pro Teen 18-19,1994-07-29,75,Raw,No,B,75,,,,,,165,175,180,,180,,,,,,180
+1,M,Akhmed-Khan Batyrov,Ахмед-Хан Батыров,Pro Teen 18-19,1994-07-29,75,Raw,No,B,75,,,,,,165,175,180,,180,,,,,,180
 1,M,Dmitriy Kazakov,Дмитрий Казаков,Pro Juniors 20-23,1990-09-12,75,Raw,No,B,75,,,,,,152.5,160,-165,,160,,,,,,160
 2,M,Sergey Parshikov,Сергей Паршиков,Pro Juniors 20-23,1990-10-03,75,Raw,No,B,75,,,,,,120,122.5,-127.5,,122.5,,,,,,122.5
 3,M,Maksim Rudakov,Максим Рудаков,Pro Juniors 20-23,1991-03-12,75,Raw,No,B,69.9,,,,,,-120,120,-127.5,,120,,,,,,120
@@ -963,7 +963,7 @@ DQ,M,Nikolay Petrokovich,Николай Петрокович,Pro Open,1979-08-17
 1,M,Aleksey Sokoltsev,Алексей Сокольцев,Pro Teen 18-19,1993-06-23,90,Raw,No,B,88.1,,,,,,140,-150,-150,,140,,,,,,140
 2,M,Mikhail Yashin,Михаил Яшин,Pro Teen 18-19,1994-11-05,90,Raw,No,B,85,,,,,,125,132.5,-140,,132.5,,,,,,132.5
 1,M,Mikhail Yakimenko,Михаил Якименко,Pro Juniors 20-23,1989-11-23,90,Raw,No,B,89,,,,,,130,135,-140,,135,,,,,,135
-1,M,Sergey Popov,Сергей Попов,Pro Open,1974-05-31,90,Raw,No,B,90,,,,,,192.5,197.5,200,,200,,,,,,200
+1,M,Sergey Popov #7,Сергей Попов,Pro Open,1974-05-31,90,Raw,No,B,90,,,,,,192.5,197.5,200,,200,,,,,,200
 2,M,Aleksandr Belskikh,Александр Бельских,Pro Open,1987-12-13,90,Raw,No,B,87.8,,,,,,185,195,197.5,,197.5,,,,,,197.5
 3,M,Aleksey Blintsov,Алексей Блинцов,Pro Open,1980-03-12,90,Raw,No,B,88,,,,,,-192.5,197.5,-200,,197.5,,,,,,197.5
 4,M,Sergey Timchenko,Сергей Тимченко,Pro Open,1979-12-23,90,Raw,No,B,86.7,,,,,,192.5,-207.5,-207.5,,192.5,,,,,,192.5
@@ -1007,9 +1007,9 @@ DQ,M,Aleksandr Dunaev,Александр Дунаев,Pro Open,1970-04-17,100,Ra
 1,M,Sergey Verzhanovskiy,Сергей Вержановский,Pro Masters 45-49,1967-07-02,100,Raw,No,B,95.3,,,,,,180,-185,-185,,180,,,,,,180
 2,M,Evgeniy Uskov,Евгений Усков,Pro Masters 45-49,1964-01-18,100,Raw,No,B,94.6,,,,,,145,150,-152.5,,150,,,,,,150
 1,M,Andrey Baev,Андрей Баев,Pro Teen 18-19,1994-02-03,110,Raw,No,B,108.1,,,,,,175,182.5,187.5,,187.5,,,,,,187.5
-1,M,Denis Petrov,Денис Петров,Pro Juniors 20-23,1992-09-29,110,Raw,No,B,106.2,,,,,,190,197.5,-202.5,,197.5,,,,,,197.5
+1,M,Denis Petrov,Денис Пєтров,Pro Juniors 20-23,1992-09-29,110,Raw,No,B,106.2,,,,,,190,197.5,-202.5,,197.5,,,,,,197.5
 2,M,Daniil Savik,Даниил Савик,Pro Juniors 20-23,1992-12-18,110,Raw,No,B,109.2,,,,,,190,197.5,-202.5,,197.5,,,,,,197.5
-1,M,Sergey Popov,Сергей Попов,Pro Open,1977-01-05,110,Raw,No,B,108,,,,,,225,235,-245,,235,,,,,,235
+1,M,Sergey Popov #8,Сергей Попов,Pro Open,1977-01-05,110,Raw,No,B,108,,,,,,225,235,-245,,235,,,,,,235
 2,M,Sergey Ponomarev,Сергей Пономарев,Pro Open,1982-03-05,110,Raw,No,B,108.1,,,,,,230,235,-242.5,,235,,,,,,235
 3,M,Ivan Trunov,Иван Трунов,Pro Open,1980-10-10,110,Raw,No,B,103.3,,,,,,200,210,227.5,,227.5,,,,,,227.5
 4,M,Dmitriy Rogatin,Дмитрий Рогатин,Pro Open,1984-12-09,110,Raw,No,B,105.4,,,,,,210,220,227.5,,227.5,,,,,,227.5
@@ -1066,9 +1066,9 @@ DQ,M,Viktor Kozlov,Виктор Козлов,Pro Masters 50-54,1963-03-23,140,Ra
 2,F,Marina Sinotova,Марина Синотова,Pro Open,1988-12-31,67.5,Raw,No,D,66,,,,,,,,,,,110,-115,-120,,110,110
 1,M,Nikolay Kochetkov,Николай Кочетков,Pro Juniors 20-23,1992-06-24,75,Raw,No,D,72,,,,,,,,,,,170,-175,-175,,170,170
 1,M,Aleksandr Sadovnikov,Александр Садовников,Pro Open,1983-01-25,75,Raw,No,D,74.8,,,,,,,,,,,240,260,-277.5,,260,260
-1,M,Aleksey Nikulin,Алексей Никулин,Pro Open,1982-11-01,82.5,Raw,No,D,81,,,,,,,,,,,300,315,-330,,315,315
+1,M,Aleksey Nikulin #1,Алексей Никулин,Pro Open,1982-11-01,82.5,Raw,No,D,81,,,,,,,,,,,300,315,-330,,315,315
 2,M,Aleksey Ovchinnikov,Алексей Овчинников,Pro Open,1986-08-29,82.5,Raw,No,D,82.3,,,,,,,,,,,-255,255,265,,265,265
-3,M,Yuriy Ivanov,Юрий Иванов,Pro Open,1986-03-01,82.5,Raw,No,D,79,,,,,,,,,,,222.5,232.5,237.5,,237.5,237.5
+3,M,Yuriy Ivanov #6,Юрий Иванов,Pro Open,1986-03-01,82.5,Raw,No,D,79,,,,,,,,,,,222.5,232.5,237.5,,237.5,237.5
 4,M,Mikhail Charov,Михаил Чаров,Pro Open,1989-02-01,82.5,Raw,No,D,79.75,,,,,,,,,,,220,230,235,,235,235
 5,M,Aleksandr Potapov,Александр Потапов,Pro Open,1985-12-27,82.5,Raw,No,D,81.25,,,,,,,,,,,230,-240,-240,,230,230
 6,M,Maksim Luzin,Максим Лузин,Pro Open,1987-06-19,82.5,Raw,No,D,78.2,,,,,,,,,,,210,222.5,-230,,222.5,222.5

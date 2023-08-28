@@ -88,7 +88,7 @@ DQ,75,M,Masters 1,Kurt Rooch,1957,74.7,Germany,-175,-175,-182.5,,,B,Single-ply
 2,82.5,M,Masters 1,Didier Compain,1959,81.9,France,200,-205,205,205,205,B,Single-ply
 3,82.5,M,Masters 1,Christ Petrischor,1959,81.5,Austria,190,195,-205,195,195,B,Single-ply
 4,82.5,M,Masters 1,Frank Heinrich,1958,81.7,Germany,192.5,-200,-200,192.5,192.5,B,Single-ply
-5,82.5,M,Masters 1,Paul Smith,1956,80.9,Netherlands,185,190,-195,190,190,B,Single-ply
+5,82.5,M,Masters 1,Paul Smith #10,1956,80.9,Netherlands,185,190,-195,190,190,B,Single-ply
 6,82.5,M,Masters 1,Michal Sekot,1961,82.2,Czechia,167.5,175,180,180,180,B,Single-ply
 7,82.5,M,Masters 1,Alain Rivière,1960,80.5,France,165,170,-175,170,170,B,Single-ply
 8,82.5,M,Masters 1,Stanislav Hoza,1956,82.4,Czechia,165,170,-175,170,170,B,Single-ply
@@ -106,7 +106,7 @@ DQ,82.5,M,Masters 1,Jan Gracyk,1959,81.8,Poland,-190,-195,-197.5,,,B,Single-ply
 9,90,M,Masters 1,Milan Svoboda,1960,88.9,Czechia,-180,180,-187.5,180,180,B,Single-ply
 1,100,M,Masters 1,Ralph Young,1963,97.5,USA,240,-245.5,-250,240,240,B,Single-ply
 2,100,M,Masters 1,István Ágoston,1962,100,Hungary,215,225,-230,225,225,B,Single-ply
-3,100,M,Masters 1,Vladimir Volkov,1959,93.8,Russia,215,-225,-230,215,215,B,Single-ply
+3,100,M,Masters 1,Vladimir Volkov #1,1959,93.8,Russia,215,-225,-230,215,215,B,Single-ply
 4,100,M,Masters 1,Jean-Pierre Aymon,1954,99.2,Austria,200,-210,-210,200,200,B,Single-ply
 5,100,M,Masters 1,Gerhard Schranz,1955,98.4,Austria,180,187.5,190,190,190,B,Single-ply
 6,100,M,Masters 1,John Brooks,1955,95.7,UK,187.5,-197.5,-200,187.5,187.5,B,Single-ply
@@ -124,7 +124,7 @@ DQ,82.5,M,Masters 1,Jan Gracyk,1959,81.8,Poland,-190,-195,-197.5,,,B,Single-ply
 10,110,M,Masters 1,Julian Massey,1956,110,UK,165,175,182.5,182.5,182.5,B,Single-ply
 11,110,M,Masters 1,Anthony Rodney,1960,109.8,South Africa,180,-195,-195,180,180,B,Single-ply
 DQ,110,M,Masters 1,Richard Ludlum,1961,108.2,USA,-227.5,-227.5,-227.5,,,B,Single-ply
-DQ,110,M,Masters 1,Vladimir Shibaev,1960,109.8,Russia,215,222.5,227.5,227.5,,B,Single-ply
+DD,110,M,Masters 1,Vladimir Shibaev,1960,109.8,Russia,215,222.5,227.5,227.5,,B,Single-ply
 1,125,M,Masters 1,Brad Klinger,1956,121.4,USA,250,257.5,-265.5,257.5,257.5,B,Single-ply
 2,125,M,Masters 1,Kevin Hutchinson,1954,119.7,USA,232.5,240,-242.5,240,240,B,Single-ply
 3,125,M,Masters 1,Rainer Volkmann,1961,115.6,Germany,225,232.5,-240,232.5,232.5,B,Single-ply
@@ -142,7 +142,7 @@ DQ,125,M,Masters 1,Pavol Tselyurik,1963,124.2,Ukraine,-230,-230,-230,,,B,Single-
 5,125+,M,Masters 1,Piotr Pawlik,1955,129.1,Poland,220,230,235,235,235,B,Single-ply
 6,125+,M,Masters 1,Raimo Mäkelä,1961,136.4,Sweden,-225,225,-255,225,225,B,Single-ply
 7,125+,M,Masters 1,Veli-P Kaunismäki,1960,137.6,Finland,210,225,-232.5,225,225,B,Single-ply
-8,125+,M,Masters 1,Wies Sobiechowski,1962,136,Poland,190,195,-200,195,195,B,Single-ply
+8,125+,M,Masters 1,Wiesław Sobiechowski,1962,136,Poland,190,195,-200,195,195,B,Single-ply
 1,56,M,Masters 2,Pierre Gallard,1944,55.6,France,115,125,-130,125,125,B,Single-ply
 1,60,M,Masters 2,Burkhard Steffen,1950,59.5,Germany,107.5,112.5,-115,112.5,112.5,B,Single-ply
 2,60,M,Masters 2,Joachim Lietzau,1950,59.4,Germany,105,-110,-112.5,105,105,B,Single-ply

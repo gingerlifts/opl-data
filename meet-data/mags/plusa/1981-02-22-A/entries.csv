@@ -2,7 +2,7 @@ Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 Ann Tuite,52,Open,F,85,47.5,117.5,250,SBD,Single-ply,1
 Michael Doss,56,Open,M,142.5,90,165,397.5,SBD,Single-ply,1
 D. Clausman,56,Open,M,110,92.5,172.5,375,SBD,Single-ply,2
-Eileen Todaro,56,Open,F,132.5,77.5,157.5,367.5,SBD,Single-ply,3
+Eileen Wadie,56,Open,F,132.5,77.5,157.5,367.5,SBD,Single-ply,3
 B. Lucas,56,Open,M,122.5,85,152.5,360,SBD,Single-ply,4
 Francis Rudy Ruettiger,60,Open,M,200,135,232.5,567.5,SBD,Single-ply,1
 P. Kacamb,60,Open,M,207.5,117.5,202.5,527.5,SBD,Single-ply,2
@@ -34,7 +34,7 @@ T. Phia,75,Open,M,187.5,117.5,197.5,502.5,SBD,Single-ply,9
 G. Eudaly,75,Open,M,162.5,105,210,477.5,SBD,Single-ply,10
 T. Crumb,75,Open,M,157.5,102.5,205,465,SBD,Single-ply,11
 Pam Trout,75,Open,F,112.5,50,147.5,310,SBD,Single-ply,12
-B. Masuoka,75,Open,M,,,,,SBD,Single-ply,DQ
+Brett Masuoka,75,Open,M,,,,,SBD,Single-ply,DQ
 D. Horner,75,Open,M,,,,,SBD,Single-ply,DQ
 Jerry Moylan,82.5,Open,M,250,160,265,675,SBD,Single-ply,1
 Paul Wolf,82.5,Open,M,215,152.5,215,582.5,SBD,Single-ply,2
@@ -45,7 +45,7 @@ Maris Sternberg,82.5,Open,F,115,65,112.5,292.5,SBD,Single-ply,6
 Larry Traub,90,Open,M,252.5,160,290,702.5,SBD,Single-ply,1
 M. Orr,90,Open,M,262.5,160,275,697.5,SBD,Single-ply,2
 M. Stahl,90,Open,M,215,152.5,227.5,595,SBD,Single-ply,3
-V. Vandivier,90,Open,M,197.5,140,240,577.5,SBD,Single-ply,4
+Victor Vandivier,90,Open,M,197.5,140,240,577.5,SBD,Single-ply,4
 E. Merriweather,90,Open,M,205,95,205,505,SBD,Single-ply,5
 Bob Zimmerman,100,Open,M,305,205,280,790,SBD,Single-ply,1
 Ron Everett,100,Open,M,285,205,290,780,SBD,Single-ply,2
@@ -59,10 +59,10 @@ Dennis Reed,110,Open,M,362.5,200,345,907.5,SBD,Single-ply,1
 Andy Jackson #1,110,Open,M,365,210,312.5,887.5,SBD,Single-ply,2
 M. Mitchell,110,Open,M,265,177.5,265,707.5,SBD,Single-ply,3
 O. Kirk,110,Open,M,262.5,152.5,255,670,SBD,Single-ply,4
-M. Ferguson,110,Open,M,172.5,127.5,205,505,SBD,Single-ply,5
+M. Ferguson #5,110,Open,M,172.5,127.5,205,505,SBD,Single-ply,5
 Phil Contreras,125,Open,M,340,232.5,317.5,890,SBD,Single-ply,1
-John Magee,125,Open,M,262.5,205,300,767.5,SBD,Single-ply,2
-K. Yohnka,125+,Open,M,205,102.5,240,547.5,SBD,Single-ply,1
+John Magee #1,125,Open,M,262.5,205,300,767.5,SBD,Single-ply,2
+Kevin Yohnka,125+,Open,M,205,102.5,240,547.5,SBD,Single-ply,1
 Ann Tuite,52,Collegiate,F,85,47.5,117.5,250,SBD,Single-ply,1
 T. Kenney,52,Collegiate,F,67.5,42.5,100,210,SBD,Single-ply,2
 D. Clausman,56,Collegiate,M,110,92.5,172.5,375,SBD,Single-ply,1
@@ -74,7 +74,7 @@ M. Verhulst,67.5,Collegiate,M,197.5,117.5,210,525,SBD,Single-ply,1
 John Hare,67.5,Collegiate,M,170,120,200,490,SBD,Single-ply,2
 D. Keiser,67.5,Collegiate,M,155,92.5,200,447.5,SBD,Single-ply,3
 R. Privoznik,67.5,Collegiate,M,145,97.5,190,432.5,SBD,Single-ply,4
-M. Feaster,67.5,Collegiate,M,130,137.5,160,427.5,SBD,Single-ply,5
+Mickey Feaster,67.5,Collegiate,M,130,137.5,160,427.5,SBD,Single-ply,5
 Jeff Mumaw,67.5,Collegiate,M,150,87.5,180,417.5,SBD,Single-ply,6
 S. Hirshblond,67.5,Collegiate,M,147.5,87.5,177.5,412.5,SBD,Single-ply,7
 A. Baldwin,67.5,Collegiate,M,137.5,107.5,165,410,SBD,Single-ply,8
@@ -86,15 +86,15 @@ G. Eudaly,75,Collegiate,M,162.5,105,210,477.5,SBD,Single-ply,3
 T. Crumb,75,Collegiate,M,157.5,102.5,205,465,SBD,Single-ply,4
 D. Wallace,75,Collegiate,M,147.5,97.5,155,400,SBD,Single-ply,5
 Pam Trout,75,Collegiate,F,112.5,50,147.5,310,SBD,Single-ply,6
-B. Masuoka,75,Collegiate,M,,,,,SBD,Single-ply,DQ
-Robert Craft,82.5,Collegiate,M,235,145,257.5,637.5,SBD,Single-ply,1
+Brett Masuoka,75,Collegiate,M,,,,,SBD,Single-ply,DQ
+Robert Craft #1,82.5,Collegiate,M,235,145,257.5,637.5,SBD,Single-ply,1
 Paul Wolf,82.5,Collegiate,M,215,152.5,215,582.5,SBD,Single-ply,2
 E. Kopkowski,82.5,Collegiate,M,210,107.5,217.5,535,SBD,Single-ply,3
 D. Holman,82.5,Collegiate,M,140,75,182.5,397.5,SBD,Single-ply,4
 J. Lahaie,90,Collegiate,M,190,175,240,605,SBD,Single-ply,1
 E. Merriweather,90,Collegiate,M,205,95,205,505,SBD,Single-ply,2
-B. Bleadon,100,Collegiate,M,282.5,177.5,282.5,742.5,SBD,Single-ply,1
-William Nichols,100,Collegiate,M,245,165,250,660,SBD,Single-ply,2
+Ben Bleadon,100,Collegiate,M,282.5,177.5,282.5,742.5,SBD,Single-ply,1
+William Nichols #1,100,Collegiate,M,245,165,250,660,SBD,Single-ply,2
 Carl Lamb,100,Collegiate,M,217.5,197.5,237.5,652.5,SBD,Single-ply,3
 K. Wald,110,Collegiate,M,260,160,262.5,682.5,SBD,Single-ply,1
-K. Yohnka,125+,Collegiate,M,205,102.5,240,547.5,SBD,Single-ply,1
+Kevin Yohnka,125+,Collegiate,M,205,102.5,240,547.5,SBD,Single-ply,1

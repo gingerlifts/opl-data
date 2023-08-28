@@ -1,6 +1,6 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
 Boys,51.71,1,Mikey Gomez,Kyle Lehman,51.3,117.93,70.31,140.61,328.85,Single-ply,SBD,M
-Boys,51.71,2,Jose Ramirez,Kyle Lehman,51.71,104.33,56.7,113.4,274.42,Single-ply,SBD,M
+Boys,51.71,2,Jose Ramirez #5,Kyle Lehman,51.71,104.33,56.7,113.4,274.42,Single-ply,SBD,M
 Boys,51.71,3,Michael Ortiz,Somerset,49.8,58.97,49.9,106.59,215.46,Single-ply,SBD,M
 Boys,55.79,1,Raul Garcia,Cotulla,55.38,142.88,92.99,149.69,385.55,Single-ply,SBD,M
 Boys,55.79,2,Sebastian Estrada,Somerset,55.79,90.72,68.04,136.08,294.84,Single-ply,SBD,M
@@ -9,7 +9,7 @@ Boys,59.87,2,Jayden Martinez,Kyle Lehman,58.56,117.93,88.45,154.22,360.61,Single
 Boys,67.13,3,Jacob Acosta,San Marcos,59.92,120.2,74.84,131.54,326.59,Single-ply,SBD,M
 Boys,67.13,4,Jesse Zimmell,Bandera,60.1,113.4,70.31,131.54,315.25,Single-ply,SBD,M
 Boys,59.87,5,Luis Galaviz,San Antonio Kennedy,57.29,102.06,68.04,142.88,312.98,Single-ply,SBD,M
-Boys,67.13,1,Jose Flores,San Antonio Kennedy,66.09,167.83,111.13,204.12,483.08,Single-ply,SBD,M
+Boys,67.13,1,Jose Flores #3,San Antonio Kennedy,66.09,167.83,111.13,204.12,483.08,Single-ply,SBD,M
 Boys,67.13,2,Calvin Starnes,Bandera,66.95,179.17,99.79,188.24,467.2,Single-ply,SBD,M
 Boys,74.84,3,Juan Medina,Floresville,67.36,185.97,111.13,170.1,467.2,Single-ply,SBD,M
 Boys,67.13,4,Andre Garza,Cotulla,66.9,158.76,92.99,165.56,417.3,Single-ply,SBD,M
@@ -31,7 +31,7 @@ Boys,74.84,5,Stefen Villanueva,Floresville,74.34,170.1,102.06,199.58,471.74,Sing
 Boys,82.1,6,Paul Almendarez,Three Rivers,74.89,174.63,86.18,195.04,455.86,Single-ply,SBD,M
 Boys,74.84,7,Aaron Davalos,San Antonio Kennedy,69.94,122.47,104.33,181.44,408.23,Single-ply,SBD,M
 Boys,74.84,8,Tim Mendoza,San Marcos,72.48,106.59,65.77,127.01,299.37,Single-ply,SBD,M
-Boys,74.84,9,Jose Garcia,Comfort,69.9,113.4,,,113.4,Single-ply,S,M
+Boys,74.84,9,Jose Garcia #15,Comfort,69.9,113.4,,,113.4,Single-ply,S,M
 Boys,74.84,DQ,Andy Joslin,Floresville,70.26,,,,,Single-ply,S,M
 Boys,74.84,DQ,Scott Gonzales,Floresville,70.58,195.04,115.67,,,Single-ply,SB,M
 Boys,82.1,1,Cj Felux,Floresville,78.97,201.85,117.93,235.87,555.65,Single-ply,SBD,M
@@ -49,7 +49,7 @@ Boys,89.81,3,John Valdez,Somerset,82.87,204.12,136.08,183.7,523.9,Single-ply,SBD
 Boys,89.81,4,Rudy Pena,San Antonio Kennedy,84.55,192.78,104.33,224.53,521.63,Single-ply,SBD,M
 Boys,89.81,5,Joshia Ramirez,Floresville,87.54,170.1,113.4,183.7,467.2,Single-ply,SBD,M
 Boys,89.81,6,George Bruce,Del Rio,85.05,161.03,111.13,172.37,444.52,Single-ply,SBD,M
-Boys,89.81,7,Jesse Ramirez,Floresville,84.14,172.37,83.91,183.7,439.98,Single-ply,SBD,M
+Boys,89.81,7,Jesse Ramirez #3,Floresville,84.14,172.37,83.91,183.7,439.98,Single-ply,SBD,M
 Boys,89.81,8,Dejohn Reeves,Kyle Lehman,87.77,124.74,83.91,192.78,401.43,Single-ply,SBD,M
 Boys,99.79,9,Ramsey Tijerina,San Marcos,89.95,142.88,83.91,163.29,390.09,Single-ply,SBD,M
 Boys,89.81,10,Jose Hernandez #5,San Marcos,87.54,149.69,90.72,147.42,387.82,Single-ply,SBD,M
@@ -73,7 +73,7 @@ Boys,124.74,3,Joseph Garcia,Del Rio,123.29,190.51,122.47,224.53,537.51,Single-pl
 Boys,124.74,4,AJ Bosquez,San Marcos,120.52,147.42,79.38,149.69,376.48,Single-ply,SBD,M
 Boys,124.74,DQ,Bj Frieda,Somerset,116.94,,,,,Single-ply,SBD,M
 Boys,124.74,DQ,Manuel Macias,Floresville,112.22,256.28,,,,Single-ply,SBD,M
-Boys,124.74,DQ,Brandon Williams,Del Rio,119.11,185.97,,,,Single-ply,SBD,M
+Boys,124.74,DQ,Brandon Williams #1,Del Rio,119.11,185.97,,,,Single-ply,SBD,M
 Boys,124.74,DQ,Jacob Ybarra,Somerset,110.72,,,,,Single-ply,SBD,M
 Boys,124.74+,1,Ben Hartman,Del Rio,134.54,233.6,167.83,272.16,673.58,Single-ply,SBD,M
 Boys,124.74+,2,Andrew Bachman,Bandera,132.9,219.99,156.49,199.58,576.06,Single-ply,SBD,M
@@ -86,4 +86,4 @@ Boys,124.74+,8,Jonathan Turner,Three Rivers,140.93,136.08,72.57,147.42,356.07,Si
 Boys,124.74+,DQ,Joe Reschmann,Somerset,129.46,,,,,Single-ply,SBD,M
 Boys,124.74+,DQ,Chris Frank,Del Rio,148.28,,,,,Single-ply,SBD,M
 Boys,124.74+,DQ,Julian Silguero,Kyle Lehman,139.8,249.48,151.95,,,Single-ply,SBD,M
-Boys,124.74+,DQ,Daniel Ramirez,Somerset,129.95,238.14,,,,Single-ply,SBD,M
+Boys,124.74+,DQ,Daniel Ramirez #7,Somerset,129.95,238.14,,,,Single-ply,SBD,M

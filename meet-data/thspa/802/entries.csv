@@ -1,10 +1,10 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
 Boys,55.79,1,Rigo Pena,Pharr Valley View,51.94,151.95,97.52,165.56,415.04,Single-ply,SBD,M
-Boys,51.71,2,Pablo Gutierrez,Weslaco East,51.53,117.93,77.11,138.35,333.39,Single-ply,SBD,M
+Boys,51.71,2,Pablo Gutierrez #3,Weslaco East,51.53,117.93,77.11,138.35,333.39,Single-ply,SBD,M
 Boys,55.79,1,Alex Solis,Weslaco East,55.61,204.12,122.47,188.24,514.83,Single-ply,SBD,M
 Boys,55.79,2,Rudy Garay,Los Fresnos,52.62,215.46,113.4,183.7,512.56,Single-ply,SBD,M
 Boys,59.87,3,Robert de la Cerda,Mercedes,55.97,147.42,90.72,156.49,394.63,Single-ply,SBD,M
-Boys,55.79,4,Juan Torres,San Benito,54.25,131.54,79.38,145.15,356.07,Single-ply,SBD,M
+Boys,55.79,4,Juan Torres #1,San Benito,54.25,131.54,79.38,145.15,356.07,Single-ply,SBD,M
 Boys,59.87,5,Julio Rodriguez,Raymondville,55.97,115.67,72.57,131.54,319.78,Single-ply,SBD,M
 Boys,55.79,6,Christian Gonzalez,Weslaco,54.25,106.59,63.5,108.86,278.96,Single-ply,SBD,M
 Boys,59.87,1,Gilbert Flores,Pharr Valley View,59.56,183.7,102.06,188.24,474,Single-ply,SBD,M
@@ -21,7 +21,7 @@ Boys,67.13,4,Esteban Flores,Pharr Valley View,66.86,174.63,99.79,226.8,501.22,Si
 Boys,67.13,5,Justin Gonzalez,Weslaco,64.14,192.78,99.79,183.7,476.27,Single-ply,SBD,M
 Boys,74.84,6,Daniel Melendez,Pharr Valley View,67.36,176.9,102.06,192.78,471.74,Single-ply,SBD,M
 Boys,67.13,7,Carlos Castillo,Los Fresnos,61.23,181.44,102.06,183.7,467.2,Single-ply,SBD,M
-Boys,67.13,8,Julian Morales,Weslaco,64.86,192.78,83.91,185.97,462.66,Single-ply,SBD,M
+Boys,67.13,8,Julián Morales,Weslaco,64.86,192.78,83.91,185.97,462.66,Single-ply,SBD,M
 Boys,67.13,9,Martin Rodriguez #4,Hidalgo Early College,65.14,158.76,92.99,181.44,433.18,Single-ply,SBD,M
 Boys,67.13,10,Daniel Valdez,Mission Sharyland,66.68,158.76,106.59,167.83,433.18,Single-ply,SBD,M
 Boys,67.13,11,Hernan Guerrero,Rio Hondo,61.33,158.76,88.45,158.76,405.97,Single-ply,SBD,M
@@ -40,7 +40,7 @@ Boys,74.84,10,Erick Flores,Mission,67.95,142.88,88.45,172.37,403.7,Single-ply,SB
 Boys,74.84,11,Lenny Villanueva,Mercedes,71.12,147.42,83.91,167.83,399.16,Single-ply,SBD,M
 Boys,74.84,12,Joey Estrada,PSJA North,73.84,170.1,90.72,124.74,385.55,Single-ply,SBD,M
 Boys,74.84,13,Mario Breck,PSJA North,71.58,145.15,92.99,129.27,367.41,Single-ply,SBD,M
-Boys,74.84,14,Juan Garcia,La Feria,69.22,136.08,63.5,163.29,362.87,Single-ply,SBD,M
+Boys,74.84,14,Juan Garcia #16,La Feria,69.22,136.08,63.5,163.29,362.87,Single-ply,SBD,M
 Boys,82.1,1,Chris Belmares,Weslaco East,81.83,242.67,136.08,244.94,623.69,Single-ply,SBD,M
 Boys,82.1,2,Eliseo Garza,Los Fresnos,80.47,224.53,122.47,235.87,582.87,Single-ply,SBD,M
 Boys,82.1,3,Luis Munoz #4,Hidalgo Early College,81.74,226.8,131.54,215.46,573.79,Single-ply,SBD,M
@@ -66,7 +66,7 @@ Boys,89.81,6,Sylvano Cruces,Los Fresnos,87.09,217.72,140.61,219.99,578.33,Single
 Boys,89.81,7,Gilbert Garcia,Mission Sharyland,86.82,235.87,124.74,215.46,576.06,Single-ply,SBD,M
 Boys,89.81,8,Ernesto Tafolla,Weslaco,83.46,217.72,108.86,219.99,546.58,Single-ply,SBD,M
 Boys,89.81,9,Francisco Valle,Hidalgo Early College,86.36,210.92,115.67,176.9,503.49,Single-ply,SBD,M
-Boys,89.81,10,Juan Sanchez,Rio Hondo,84.91,197.31,115.67,183.7,496.68,Single-ply,SBD,M
+Boys,89.81,10,Juan Sanchez #1,Rio Hondo,84.91,197.31,115.67,183.7,496.68,Single-ply,SBD,M
 Boys,89.81,11,Edward Alaniz,PSJA North,83.1,174.63,111.13,192.78,478.54,Single-ply,SBD,M
 Boys,89.81,12,Michael Saldana,Hidalgo Early College,84.64,174.63,113.4,183.7,471.74,Single-ply,SBD,M
 Boys,89.81,13,Sabino Botello,Pharr Valley View,87.54,183.7,97.52,174.63,455.86,Single-ply,SBD,M
@@ -76,7 +76,7 @@ Boys,99.79,1,Xaviel Hinojosa,Weslaco East,98.16,303.91,174.63,238.14,716.68,Sing
 Boys,99.79,2,Mark Cavazos,Raymondville,96.62,265.35,183.7,210.92,659.98,Single-ply,SBD,M
 Boys,99.79,3,Jesus Morales #3,Weslaco East,99.79,254.01,163.29,213.19,630.49,Single-ply,SBD,M
 Boys,99.79,4,Lawrence Caldwell,Rio Hondo,94.35,224.53,142.88,238.14,605.55,Single-ply,SBD,M
-Boys,99.79,5,Victor Aguilar,Mercedes,99.52,235.87,136.08,204.12,576.06,Single-ply,SBD,M
+Boys,99.79,5,Victor Aguilar #2,Mercedes,99.52,235.87,136.08,204.12,576.06,Single-ply,SBD,M
 Boys,99.79,6,Julio Rivas,San Benito,98.79,210.92,131.54,226.8,569.26,Single-ply,SBD,M
 Boys,99.79,7,Danny Mora,Mission Sharyland,96.62,215.46,120.2,213.19,548.85,Single-ply,SBD,M
 Boys,99.79,8,Jamie Huerta,San Benito,98.97,201.85,127.01,197.31,526.17,Single-ply,SBD,M

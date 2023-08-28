@@ -27,9 +27,9 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 1,Justin Villegas,TX,82.5,79.8,21,210,147.5,235,592.5,M,Juniors 20-23,Raw,,,SBD
 2,Juan Santos,TX,82.5,81.1,22,170,125,200,495,M,Juniors 20-23,Raw,,,SBD
 DQ,Dennis Levine,TX,82.5,81.8,23,-240,145,285,,M,Juniors 20-23,Raw,,,SBD
-1,James Martinez,TX,125,118.5,22,272.5,182.5,287.5,742.5,M,Juniors 20-23,Raw,,,SBD
+1,James Martinez #2,TX,125,118.5,22,272.5,182.5,287.5,742.5,M,Juniors 20-23,Raw,,,SBD
 1,Sean Peace,TX,100,94.3,21,185,125,227.5,537.5,M,Juniors 20-23,Raw,,,SBD
-1,Andrew Tang,TX,56,54.8,22,145,70,157.5,372.5,M,Open,Raw,,,SBD
+1,Andrew Tang #2,TX,56,54.8,22,145,70,157.5,372.5,M,Open,Raw,,,SBD
 1,Benny Le,TX,67.5,67.4,24,205,140,222.5,567.5,M,Open,Raw,,,SBD
 2,Nathan Olvera,TX,67.5,66.2,18,177.5,112.5,197.5,487.5,M,Open,Raw,,,SBD
 3,Barak Bez,TX,67.5,64.6,22,160,105,182.5,447.5,M,Open,Raw,,,SBD
@@ -52,11 +52,11 @@ DQ,Dennis Levine,TX,82.5,81.8,23,-240,145,285,,M,Open,Raw,,,SBD
 2,Jacob Pruett,TX,110,108.2,24,160,92.5,227.5,480,M,Open,Raw,,,SBD
 1,Armando Alaniz,TX,125,122,34,300,177.5,280,757.5,M,Open,Raw,,,SBD
 2,Kevin Portillo,TX,125,119.8,26,230,150,230,610,M,Open,Raw,,,SBD
-1,James Strickland,TX,140,131.9,36,272.5,280,272.5,825,M,Open,Raw,,287.5,SBD
+1,James Strickland #1,TX,140,131.9,36,272.5,280,272.5,825,M,Open,Raw,,287.5,SBD
 1,Jeff Mestayer,TX,90,86.4,36,237.5,180,242.5,660,M,Submasters 35-39,Raw,240,,SBD
 1,Rene Maldonado,TX,110,103.8,38,242.5,185,265,692.5,M,Submasters 35-39,Raw,,,SBD
 2,Jacob Zabala,TX,110,109,36,175,112.5,207.5,495,M,Submasters 35-39,Raw,,,SBD
-1,James Strickland,TX,140,131.9,36,272.5,280,272.5,825,M,Submasters 35-39,Raw,,287.5,SBD
+1,James Strickland #1,TX,140,131.9,36,272.5,280,272.5,825,M,Submasters 35-39,Raw,,287.5,SBD
 1,Mike Reid,TX,82.5,79.8,50,177.5,117.5,205,500,M,Masters 50-54,Raw,,,SBD
 1,Corey Joyal,TX,100,97.9,40,247.5,162.5,272.5,682.5,M,Masters 40-44,Raw,,,SBD
 2,Blake Johnson,TX,100,95.8,43,215,155,250,620,M,Masters 40-44,Raw,,,SBD
@@ -93,11 +93,11 @@ DQ,Corey Tune,TX,125,113.6,38,220,-187.5,282.5,,M,Submasters 35-39,Wraps,,,SBD
 1,Rudy Rios,TX,100,91.7,46,207.5,135,247.5,590,M,Masters 45-49,Wraps,,,SBD
 1,Tim Searles,TX,110,106.5,47,222.5,147.5,255,625,M,Masters 45-49,Wraps,,,SBD
 DQ,James Neuman,TX,140,135.2,42,162.5,-140,180,,M,Masters 40-44,Wraps,,,SBD
-1,Connor Murphy,TX,140+,143.4,18,205,137.5,227.5,570,M,Juniors 18-19,Single-ply,,,SBD
+1,Connor Murphy #2,TX,140+,143.4,18,205,137.5,227.5,570,M,Juniors 18-19,Single-ply,,,SBD
 DQ,Jerry Saldana,TX,90,88.8,36,247.5,-227.5,,,M,Open,Single-ply,,,SBD
 1,Erick Baker #2,TX,110,108.5,38,327.5,217.5,310,855,M,Open,Single-ply,,,SBD
 2,Bryan Gaston,TX,110,104.4,35,277.5,200,295,772.5,M,Open,Single-ply,,,SBD
-1,Connor Murphy,TX,140+,143.4,18,205,137.5,227.5,570,M,Open,Single-ply,,,SBD
+1,Connor Murphy #2,TX,140+,143.4,18,205,137.5,227.5,570,M,Open,Single-ply,,,SBD
 1,Erick Baker #2,TX,110,108.5,38,327.5,217.5,310,855,M,Submasters 35-39,Single-ply,,,SBD
 1,Christopher Morales,TX,75,72.4,21,,137.5,195,332.5,M,Juniors 20-23,Raw,,,BD
 2,Gage Hinojosa,TX,75,68.9,20,,112.5,200,312.5,M,Juniors 20-23,Raw,,,BD
@@ -118,9 +118,9 @@ DQ,Sam Webber,TX,140,129.7,30,,227.5,-300,,M,Open,Raw,,,BD
 2,Derrington Wright,TX,100,94.4,26,,200,,200,M,Open,Raw,,,B
 1,Rowdy Caskey,TX,110,100.2,33,,210,,210,M,Open,Raw,,,B
 1,Rene Garganta,TX,125,116.5,48,,235,,235,M,Open,Raw,,,B
-1,James Strickland,TX,140,131.9,36,,280,,280,M,Open,Raw,,287.5,B
+1,James Strickland #1,TX,140,131.9,36,,280,,280,M,Open,Raw,,287.5,B
 1,Adrian Copeland,TX,125,123.3,38,,215,,215,M,Submasters 35-39,Raw,,,B
-1,James Strickland,TX,140,131.9,36,,280,,280,M,Submasters 35-39,Raw,,287.5,B
+1,James Strickland #1,TX,140,131.9,36,,280,,280,M,Submasters 35-39,Raw,,287.5,B
 1,Rene Garganta,TX,125,116.5,48,,235,,235,M,Masters 45-49,Raw,,,B
 1,Jonathan Marshall,AZ,100,99,43,,220,,220,M,Open,Single-ply,,,B
 1,Douglass Haycraft,TX,100,99.1,55,,217.5,,217.5,M,Masters 55-59,Single-ply,,,B

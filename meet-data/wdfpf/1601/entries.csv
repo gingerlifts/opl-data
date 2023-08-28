@@ -22,9 +22,9 @@ Place,WeightClassKg,Sex,Name,Country,Age,Division,BodyweightKg,Best3SquatKg,Best
 1,55.5,F,Nadia Re,Italy,42,F-M1,53.1,85,45,95,225,SBD,Raw
 1,55.5,F,Diana Caţap,Moldova,18,F-T3,54.7,85,35,102.5,222.5,SBD,Raw
 1,58.5,F,Graziella Chiara Levato,Italy,33,F-O,56.2,80,60,112.5,252.5,SBD,Raw
-2,58.5,F,Helen Catherine Walter,UK,70,F-O,57.1,95,35,100,230,SBD,Raw
+2,58.5,F,Helen-Catherine Walter,UK,70,F-O,57.1,95,35,100,230,SBD,Raw
 3,58.5,F,Milena Cozzetto,Italy,16,F-O,56.8,80,50,87.5,217.5,SBD,Raw
-1,58.5,F,Helen Catherine Walter,UK,70,F-M7,57.1,95,35,100,230,SBD,Raw
+1,58.5,F,Helen-Catherine Walter,UK,70,F-M7,57.1,95,35,100,230,SBD,Raw
 1,58.5,F,Milena Cozzetto,Italy,16,F-T2,56.8,80,50,87.5,217.5,SBD,Raw
 1,63,F,Habee Folami,UK,26,F-O,59.4,137.5,65,182.5,385,SBD,Raw
 2,63,F,Eugenia Orlando,Italy,27,F-O,63,117.5,80,140,337.5,SBD,Raw
@@ -35,17 +35,17 @@ Place,WeightClassKg,Sex,Name,Country,Age,Division,BodyweightKg,Best3SquatKg,Best
 7,63,F,Francesca Rickwood,UK,19,F-O,61,116,60,132.5,308.5,SBD,Raw
 1,63,F,Francesca Rickwood,UK,19,F-T3,61,116,60,132.5,308.5,SBD,Raw
 8,63,F,Linda Morgenthaler,Switzerland,33,F-O,61.1,105,55,140,300,SBD,Raw
-9,63,F,Joanna Montagu,UK,44,F-O,62.5,92.5,50,127.5,270,SBD,Raw
+9,63,F,Jo Montagu,UK,44,F-O,62.5,92.5,50,127.5,270,SBD,Raw
 10,63,F,Charleen Corsi,Italy,18,F-O,61.5,82.5,52.5,130,265,SBD,Raw
 11,63,F,Jessica Corcoran,Ireland,22,F-O,59.5,90,40,125,255,SBD,Raw
 12,63,F,Angelica Toia,Italy,22,F-O,60.5,90,55,105,250,SBD,Raw
-1,70,F,Eleanor Mawson,UK,19,F-O,68.1,101,57.5,150,308.5,SBD,Raw
+1,70,F,Eleanor Mawson #2,UK,19,F-O,68.1,101,57.5,150,308.5,SBD,Raw
 2,70,F,Aurora Russo,Italy,17,F-O,66.3,91,65,120,276,SBD,Raw
-1,63,F,Joanna Montagu,UK,44,F-M1,62.5,92.5,50,127.5,270,SBD,Raw
+1,63,F,Jo Montagu,UK,44,F-M1,62.5,92.5,50,127.5,270,SBD,Raw
 2,63,F,Charleen Corsi,Italy,18,F-T3,61.5,82.5,52.5,130,265,SBD,Raw
 1,63,F,Jessica Corcoran,Ireland,22,F-JR,59.5,90,40,125,255,SBD,Raw
 2,63,F,Angelica Toia,Italy,22,F-JR,60.5,90,55,105,250,SBD,Raw
-1,70,F,Eleanor Mawson,UK,19,F-T3,68.1,101,57.5,150,308.5,SBD,Raw
+1,70,F,Eleanor Mawson #2,UK,19,F-T3,68.1,101,57.5,150,308.5,SBD,Raw
 1,70,F,Aurora Russo,Italy,17,F-T2,66.3,91,65,120,276,SBD,Raw
 1,70,F,Amy Atkinson,UK,29,F-O,66.9,150,92.5,165,407.5,SBD,Raw
 2,70,F,Joanne Stanger,UK,32,F-O,68.9,130,75,181,386,SBD,Raw
@@ -64,11 +64,11 @@ Place,WeightClassKg,Sex,Name,Country,Age,Division,BodyweightKg,Best3SquatKg,Best
 10,70,F,Marchi Deborah,Italy,25,F-O,67.4,110,57.5,127.5,295,SBD,Raw
 11,70,F,Sara De Santis,Italy,44,F-O,68.1,92.5,50,117.5,260,SBD,Raw
 1,70,F,Susana Perrone,Italy,52,F-O,69.8,100,75,127.5,302.5,SBD,Raw
-2,70,F,Gabrielle Coia,UK,50,F-O,67.6,100,60,120,280,SBD,Raw
+2,70,F,Gaby Coia,UK,50,F-O,67.6,100,60,120,280,SBD,Raw
 1,80,F,Mary Anderson,UK,49,F-O,77.4,142.5,88,185.5,416,SBD,Raw
 3,70,F,Sara De Santis,Italy,44,F-M1,68.1,92.5,50,117.5,260,SBD,Raw
 1,70,F,Susana Perrone,Italy,52,F-M3,69.8,100,75,127.5,302.5,SBD,Raw
-2,70,F,Gabrielle Coia,UK,50,F-M3,67.6,100,60,120,280,SBD,Raw
+2,70,F,Gaby Coia,UK,50,F-M3,67.6,100,60,120,280,SBD,Raw
 1,80,F,Mary Anderson,UK,49,F-M2,77.4,142.5,88,185.5,416,SBD,Raw
 2,80,F,Anastasija Satere,Italy,32,F-O,72.4,147.5,65,140,352.5,SBD,Raw
 3,80,F,Siobhan Jacob,Ireland,41,F-O,72.5,112.5,57.5,145,315,SBD,Raw
@@ -172,7 +172,7 @@ DQ,82.5,M,Romeo Cojocaru,Italy,34,M-O,79.8,,,,,SBD,Raw
 DQ,82.5,M,Michele Natale,Italy,33,M-O,80,140,,,,SBD,Raw
 DQ,82.5,M,Marco Zanotti,Italy,27,M-O,78.9,,,,,SBD,Raw
 1,90,M,Vladimir Gruia,Moldova,27,M-O,89.4,225,170,272.5,667.5,SBD,Raw
-2,90,M,Mark Jackson,UK,26,M-O,88.6,240,150,270,660,SBD,Raw
+2,90,M,Mark Jackson #1,UK,26,M-O,88.6,240,150,270,660,SBD,Raw
 3,90,M,Ewald Geschel,Germany,21,M-O,89.2,195,132.5,275,602.5,SBD,Raw
 1,90,M,Ewald Geschel,Germany,21,M-JR,89.2,195,132.5,275,602.5,SBD,Raw
 4,90,M,Federico Sipione,Italy,36,M-O,85.4,207.5,137.5,245,590,SBD,Raw
@@ -192,7 +192,7 @@ DQ,82.5,M,Marco Zanotti,Italy,27,M-O,78.9,,,,,SBD,Raw
 2,90,M,Giuseppe Caria,Italy,59,M-M4,87.6,135,95,200,430,SBD,Raw
 2,90,M,Samuele Spada,Italy,19,M-T3,89.7,137.5,127.5,165,430,SBD,Raw
 G,90,M,Vittorio Balsamo,Italy,39,M-O,89.1,170,92.5,195,457.5,SBD,Raw
-DQ,90,M,Kurt Oguzhan,Germany,23,M-JR,86.4,227.5,,,,SBD,Raw
+DD,90,M,Kurt Oguzhan,Germany,23,M-JR,86.4,227.5,,,,SBD,Raw
 1,100,M,Alexandr Șatalenco,Moldova,27,M-O,96.9,270,165,285,720,SBD,Raw
 2,100,M,Ramon Gysin,Switzerland,33,M-O,99.2,265,162.5,282.5,710,SBD,Raw
 3,100,M,Austin Hickey,Ireland,36,M-O,100,250,185,270,705,SBD,Raw
@@ -263,8 +263,8 @@ G,60,M,Guido Marangoni,Italy,48,M-M2,59.5,130,67.5,175,372.5,SBD,Single-ply
 1,90,M,Sergio Bianchi,Italy,56,M-M4,86.2,230,105,195,530,SBD,Single-ply
 1,100,M,Oleksandr Skrypilov,Ukraine,24,M-O,98.7,265,160,260,685,SBD,Single-ply
 1,110,M,Francesco Baldini,Italy,35,M-O,109.4,300,200,270,770,SBD,Single-ply
-2,110,M,Joel Godon,France,59,M-O,108.6,212.5,152.5,252.5,617.5,SBD,Single-ply
-1,110,M,Joel Godon,France,59,M-M4,108.6,212.5,152.5,252.5,617.5,SBD,Single-ply
+2,110,M,Joël Godon,France,59,M-O,108.6,212.5,152.5,252.5,617.5,SBD,Single-ply
+1,110,M,Joël Godon,France,59,M-M4,108.6,212.5,152.5,252.5,617.5,SBD,Single-ply
 DQ,110,M,Salvatore Putrino,Italy,60,M-M5,102.6,,,,,SBD,Single-ply
 1,125,M,Francesco Pellizzoni,Italy,39,M-O,123.7,320,210,300,830,SBD,Single-ply
 DQ,125,M,William Ricketts,UK,58,M-M4,112.7,140,,,,SBD,Single-ply

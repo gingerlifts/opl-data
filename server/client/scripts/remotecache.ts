@@ -28,21 +28,21 @@
 declare const urlprefix: string;
 
 // Column mapping for the server rankings JSON.
-// This should match with the serialization of the JsEntryRow
-// in the Rust server source.
+//
+// This must match the serialization of the JsEntryRow in the Rust server source.
 export const enum Column {
     SortedIndex,
     Rank,
     Name,
     Username,
     Instagram,
-    Vkontakte,
     Color,
-    Flair,
+    LifterCountry,
+    LifterState,
     Federation,
     Date,
-    Country,
-    State,
+    MeetCountry,
+    MeetState,
     Path,
     Sex,
     Equipment,
@@ -228,7 +228,7 @@ export function RemoteCache(
         // Ensure that an AJAX request will be made.
         pendingItem = item;
         if (activeTimeout === null) {
-            activeTimeout = setTimeout(makeAjaxRequest, AJAX_TIMEOUT);
+            activeTimeout = window.setTimeout(makeAjaxRequest, AJAX_TIMEOUT);
         }
     }
 

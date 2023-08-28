@@ -10,7 +10,7 @@ Ned Baudo,56,Teen,14-19,M,,115.67,127.01,140.61,383.29,SBD,Single-ply,2
 Raymond Clifton,56,Teen,14-19,M,,113.4,79.38,154.22,347,SBD,Single-ply,3
 Tim Becht,56,Teen,14-19,M,,108.86,74.84,149.69,333.39,SBD,Single-ply,4
 N. Mastrocovo,56,Teen,14-19,M,,104.33,58.97,127.01,290.3,SBD,Single-ply,5
-M. Gregoire,56,Teen,14-19,M,,68.04,68.04,111.13,247.21,SBD,Single-ply,6
+Matt Gregoire,56,Teen,14-19,M,,68.04,68.04,111.13,247.21,SBD,Single-ply,6
 M. Cappy,60,Teen,14-19,M,,181.44,90.72,190.51,462.66,SBD,Single-ply,1
 D. Thomas,60,Teen,14-19,M,,136.08,102.06,195.04,433.18,SBD,Single-ply,2
 Leroy Horne,60,Teen,14-19,M,,147.42,104.33,176.9,428.65,SBD,Single-ply,3
@@ -22,7 +22,7 @@ T. Rakofsky,60,Teen,14-19,M,,115.67,88.45,149.69,353.8,SBD,Single-ply,8
 J. Orcutt,60,Teen,14-19,M,,81.65,92.99,117.93,292.57,SBD,Single-ply,9
 Sissy Ceravolo,60,Teen,14-19,F,,108.86,61.24,117.93,288.03,SBD,Single-ply,10
 J. Leo,60,Teen,14-19,M,,83.91,65.77,113.4,263.08,SBD,Single-ply,11
-Kevin Jackson,67.5,Teen,14-19,M,16,190.51,124.74,238.14,553.38,SBD,Single-ply,1
+Kevin Jackson #1,67.5,Teen,14-19,M,16,190.51,124.74,238.14,553.38,SBD,Single-ply,1
 J. Constantine,67.5,Teen,14-19,M,,179.17,102.06,195.04,476.27,SBD,Single-ply,2
 J. Pecoraro,67.5,Teen,14-19,M,,163.29,97.52,199.58,460.4,SBD,Single-ply,3
 J. Tomasello,67.5,Teen,14-19,M,,145.15,106.59,197.31,449.06,SBD,Single-ply,4
@@ -44,7 +44,7 @@ S. Phelan,75,Teen,14-19,M,,142.88,117.93,192.78,453.59,SBD,Single-ply,7
 D. Hill,75,Teen,14-19,M,,136.08,115.67,181.44,433.18,SBD,Single-ply,8
 R. Chudzinski,75,Teen,14-19,M,,145.15,106.59,170.1,421.84,SBD,Single-ply,9
 S. Ford,75,Teen,14-19,M,,108.86,108.86,185.97,403.7,SBD,Single-ply,10
-D. Leonard,75,Teen,14-19,M,,136.08,90.72,170.1,396.89,SBD,Single-ply,11
+Dino Leonard,75,Teen,14-19,M,,136.08,90.72,170.1,396.89,SBD,Single-ply,11
 J. Zogaria,75,Teen,14-19,M,,124.74,111.13,154.22,390.09,SBD,Single-ply,12
 K. McGill,75,Teen,14-19,M,,117.93,108.86,163.29,390.09,SBD,Single-ply,13
 S. DiPalma,75,Teen,14-19,M,,117.93,102.06,158.76,378.75,SBD,Single-ply,14
@@ -68,7 +68,7 @@ M. Caruso,90,Teen,14-19,M,,176.9,133.81,235.87,546.58,SBD,Single-ply,4
 A. Bello,90,Teen,14-19,M,,176.9,142.88,213.19,532.97,SBD,Single-ply,5
 Bert Gambini,90,Teen,14-19,M,,185.97,140.61,190.51,517.1,SBD,Single-ply,6
 K. Sharpe,90,Teen,14-19,M,,136.08,129.27,181.44,446.79,SBD,Single-ply,7
-R. Stahl,90,Teen,14-19,M,,158.76,113.4,170.1,442.25,SBD,Single-ply,8
+Ron Stahl,90,Teen,14-19,M,,158.76,113.4,170.1,442.25,SBD,Single-ply,8
 J. Cox,90,Teen,14-19,M,,145.15,95.25,190.51,430.91,SBD,Single-ply,9
 J. Zwawa,90,Teen,14-19,M,,113.4,90.72,117.93,322.05,SBD,Single-ply,10
 H. Bacon,100,Teen,14-19,M,,163.29,140.61,204.12,508.02,SBD,Single-ply,1

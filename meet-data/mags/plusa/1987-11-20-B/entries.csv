@@ -1,5 +1,5 @@
 Place,Name,Country,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,WeightClassKg,Sex,Event,Equipment
-1,John Clay,UK,50.8,175,102.5,190,467.5,52,M,SBD,Single-ply
+1,John Clay #3,UK,50.8,175,102.5,190,467.5,52,M,SBD,Single-ply
 2,Fabio Ambrosini,Italy,51.6,175,87.5,190,452.5,52,M,SBD,Single-ply
 3,Magnus Carlsson,Sweden,51.8,197.5,120,110,427.5,52,M,SBD,Single-ply
 1,Francis Carpi,France,55.7,182.5,105,212.5,500,56,M,SBD,Single-ply
@@ -35,7 +35,7 @@ DQ,Antonio Prattilo,Switzerland,66.7,,,,,67.5,M,SBD,Single-ply
 4,Vincent Encinas,France,81.4,230,175,240,645,82.5,M,SBD,Single-ply
 5,Nikolaj Holsting,Denmark,80,252.5,125,265,642.5,82.5,M,SBD,Single-ply
 6,Tor-Kjeld Jevne,Norway,82.4,235,152.5,245,632.5,82.5,M,SBD,Single-ply
-7,Janus Seghers,Belgium,81.6,210,142.5,270,622.5,82.5,M,SBD,Single-ply
+7,Jan Seghers,Belgium,81.6,210,142.5,270,622.5,82.5,M,SBD,Single-ply
 8,Werner Hampl,Austria,81.1,200,125,250,575,82.5,M,SBD,Single-ply
 9,Frank Engel,Luxembourg,81.2,200,100,220,520,82.5,M,SBD,Single-ply
 1,Juha Hyttinen,Finland,89.8,300,187.5,312.5,800,90,M,SBD,Single-ply

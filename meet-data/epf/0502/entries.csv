@@ -9,7 +9,7 @@ DD,Sergey Fedosienko,1982,Russia,Open,M,52,51.88,230,235,260,260,150,162.5,170,1
 2,Etienne Lited,1979,France,Open,M,60,57.58,200,215,-225,215,120,-125,125,125,,225,-235,235,235,,575,SBD,Single-ply
 3,Dominik Golak,1982,Poland,Open,M,60,59.73,200,210,220,220,125,135,140,140,,200,-215,-215,200,,560,SBD,Single-ply
 1,Jarosław Olech,1974,Poland,Open,M,67.5,66.91,300,320,-340.5,320,175,185,,185,,285,300,-310,300,,805,SBD,Single-ply
-2,Nikolay Sokolov,1979,Russia,Open,M,67.5,67.05,280,-295,295,295,180,-187.5,187.5,187.5,,250,265,275,275,,757.5,SBD,Single-ply
+2,Nikolay Sokolov #1,1979,Russia,Open,M,67.5,67.05,280,-295,295,295,180,-187.5,187.5,187.5,,250,265,275,275,,757.5,SBD,Single-ply
 3,Hassan El Belghiti,1975,France,Open,M,67.5,67.21,245,260,-265,260,-145,145,150,150,,270,290,302.5,302.5,,712.5,SBD,Single-ply
 4,Phil Richard,1971,UK,Open,M,67.5,67.46,270,280,285,285,175,180,185,185,,235,-242.5,242.5,242.5,,712.5,SBD,Single-ply
 5,Amit Selberg,1976,Sweden,Open,M,67.5,67.14,265,-277.5,-277.5,265,185,190,195,195,-200.5,230,-242.5,-252.5,230,,690,SBD,Single-ply
@@ -42,9 +42,9 @@ DD,Aleksander Nikolov,1979,Bulgaria,Open,M,90,89.15,292.5,-305,305,305,200,210,2
 6,Alexander Kirketeig,1979,Norway,Open,M,90,89.33,-310,310,-315,310,-200,200,-212.5,200,,270,-280,-280,270,,780,SBD,Single-ply
 7,Markus Hinz,1973,Germany,Open,M,90,89,285,300,305,305,185,-192.5,192.5,192.5,,265,275,-280,275,,772.5,SBD,Single-ply
 8,Fredrik Green,1974,Sweden,Open,M,90,89.5,290,-305,-305,290,185,-190,-190,185,,270,290,-315,290,,765,SBD,Single-ply
-9,Geoffry Servotte,1980,Belgium,Open,M,90,89.43,290,-310,-310,290,-175,-175,175,175,,220,235,245,245,,710,SBD,Single-ply
+9,Geoffroy Servotte,1980,Belgium,Open,M,90,89.43,290,-310,-310,290,-175,-175,175,175,,220,235,245,245,,710,SBD,Single-ply
 10,Michael Jensen,1980,Denmark,Open,M,90,89.5,250,275,-290,275,140,-155,160,160,,250,270,-277.5,270,,705,SBD,Single-ply
-DQ,Mohamed Siabdallah,1966,France,Open,M,90,89.32,-280,280,290,290,-180,-180,-180,,,,,,,,,SBD,Single-ply
+DQ,Mohamed Si Abdallah,1966,France,Open,M,90,89.32,-280,280,290,290,-180,-180,-180,,,,,,,,,SBD,Single-ply
 DQ,Michał Wilk,1981,Poland,Open,M,90,89.44,-350,-350,-350,,,,,,,,,,,,,SBD,Single-ply
 DQ,Daniele Ghirardi,1969,Italy,Open,M,90,89.8,-310,330,-335,330,-205,-215,-215,,,,,,,,,SBD,Single-ply
 DD,Maxim Barkhatov,1981,Russia,Open,M,100,99.82,350,370,-390,370,250,265,272.5,272.5,,340,362.5,-372.5,362.5,,,SBD,Single-ply
@@ -85,12 +85,12 @@ DQ,Yike Vaassen,1972,Netherlands,Open,M,110,109.9,305,320,-327.5,320,-190,-190,-
 7,Marco Oliva,1977,Luxembourg,Open,M,125,113.55,250,-260,-260,250,140,145,-150,145,,260,272.5,-280,272.5,,667.5,SBD,Single-ply
 DQ,Dean Bowring,1974,UK,Open,M,125,124.15,-335,355,-360,355,-260,-265,-270,,,,,,,,,SBD,Single-ply
 DQ,Stefan Huldén,1966,Sweden,Open,M,125,121.23,-335,-335,-335,,,,,,,,,,,,,SBD,Single-ply
-1,Vladimir Bondarenko,1978,Russia,Open,M,125+,153.27,400,415,-422.5,415,260,275,287.5,287.5,,370,385,400,400,,1102.5,SBD,Single-ply
+1,Vladimir Bondarenko #1,1978,Russia,Open,M,125+,153.27,400,415,-422.5,415,260,275,287.5,287.5,,370,385,400,400,,1102.5,SBD,Single-ply
 2,Jörgen Ljungberg,1967,Sweden,Open,M,125+,129.6,390,-415,-415,390,260,270,275,275,,340,355,-365,355,,1020,SBD,Single-ply
 3,Jari Martikainen,1975,Finland,Open,M,125+,143.61,-375,375,390,390,250,257.5,,257.5,,340,352.5,357.5,357.5,,1005,SBD,Single-ply
 4,Kenneth Sandvik,1975,Finland,Open,M,125+,148.05,370,380,390,390,-305,310,-315,310,,285,300,305,305,,1005,SBD,Single-ply
 5,Andrew Thompson #1,1976,UK,Open,M,125+,161.44,-365,365,-380,365,265,277.5,-282.5,277.5,,320,340,-360,340,,982.5,SBD,Single-ply
 6,Vasyl' Orobets,1966,Ukraine,Open,M,125+,173.5,-405,412.5,-420,412.5,210,-220,-220,210,,270,310,350,350,,972.5,SBD,Single-ply
-7,Fredrik Svensson,1979,Sweden,Open,M,125+,148.63,325,337.5,345,345,-307.5,-307.5,307.5,307.5,,310,317.5,-322.5,317.5,,970,SBD,Single-ply
+7,Fredrik Svensson #1,1979,Sweden,Open,M,125+,148.63,325,337.5,345,345,-307.5,-307.5,307.5,307.5,,310,317.5,-322.5,317.5,,970,SBD,Single-ply
 8,Frode Rui,1969,Norway,Open,M,125+,126.39,360,-375,-375,360,-250,-250,250,250,,345,355,-357.5,355,,965,SBD,Single-ply
 9,Kay Haasler,1971,Germany,Open,M,125+,136.33,300,-315,-325,300,225,232.5,-240,232.5,,280,300,312.5,312.5,,845,SBD,Single-ply

@@ -43,7 +43,7 @@ Place,Name,BirthYear,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatK
 12,Karl Anton Löve,1997,Iceland,92.35,315,325,335,335,-220,-220,220,220,265,275,-282.5,275,830,93,Open,SBD,M,Single-ply
 DQ,Anthony Cusano,1994,Italy,92.68,325,335,-342.5,335,-230,-235,-237.5,,240,260,-280,260,,93,Open,SBD,M,Single-ply
 1,Sergii Bilyi,1990,Ukraine,103.7,395,407.5,417.5,417.5,305,315,-325,315,350,360,,360,1092.5,105,Open,SBD,M,Single-ply
-2,Danylo Kovalov,1996,Ukraine,104.67,-400,400,-412.5,400,285,300,307.5,307.5,315,-322.5,322.5,322.5,1030,105,Open,SBD,M,Single-ply
+2,Danylo Kovalyov,1996,Ukraine,104.67,-400,400,-412.5,400,285,300,307.5,307.5,315,-322.5,322.5,322.5,1030,105,Open,SBD,M,Single-ply
 3,Allan Grenier,1990,France,104.93,-360,360,372.5,372.5,305,315,-324.5,315,290,300,312.5,312.5,1000,105,Open,SBD,M,Single-ply
 4,Erik Gunhamn,1992,Sweden,101.11,345,357.5,370,370,232.5,240,-245,240,340,360,372.5,372.5,982.5,105,Open,SBD,M,Single-ply
 5,Stian Walgermo,1988,Norway,104.42,365,-375,,365,280,285,290,290,312.5,-322.5,-345,312.5,967.5,105,Open,SBD,M,Single-ply
@@ -89,7 +89,7 @@ DQ,Dominik Pahl,1992,Germany,118.1,,,,,,,,,,,,,,120,Open,SBD,M,Single-ply
 2,Bartosz Bebło,2002,Poland,65.48,190,200,-210,200,92.5,100,107.5,107.5,180,190,-200,190,497.5,66,Sub-Juniors,SBD,M,Single-ply
 3,Ben Hartley,2001,UK,64.46,175,187.5,-197.5,187.5,100,110,115,115,160,172.5,-182.5,172.5,475,66,Sub-Juniors,SBD,M,Single-ply
 4,Milan Vojačik,2001,Slovakia,64.34,160,165,-170,165,-110,110,115,115,155,-167.5,-167.5,155,435,66,Sub-Juniors,SBD,M,Single-ply
-1,Evgeniy Stepanov,2001,Russia,73.55,235,250,260,260,170,175,180,180,230,240,245,245,685,74,Sub-Juniors,SBD,M,Single-ply
+1,Evgeniy Stepanov #2,2001,Russia,73.55,235,250,260,260,170,175,180,180,230,240,245,245,685,74,Sub-Juniors,SBD,M,Single-ply
 2,Rokas Burba,2001,Lithuania,73.88,-220,220,230,230,-170,-175,175,175,210,220,225,225,630,74,Sub-Juniors,SBD,M,Single-ply
 3,Wojciech Magiera,2001,Poland,73.03,212.5,220,225,225,152.5,157.5,162.5,162.5,212.5,220,-242.5,220,607.5,74,Sub-Juniors,SBD,M,Single-ply
 4,Heorhii Tunyk,2002,Ukraine,73.4,242.5,-255,-260,242.5,135,-145,-145,135,200,-212.5,-212.5,200,577.5,74,Sub-Juniors,SBD,M,Single-ply
@@ -97,7 +97,7 @@ DQ,Dominik Pahl,1992,Germany,118.1,,,,,,,,,,,,,,120,Open,SBD,M,Single-ply
 1,Vyacheslav Kazak,2001,Russia,82.57,235,250,255,255,155,165,172.5,172.5,215,225,230,230,657.5,83,Sub-Juniors,SBD,M,Single-ply
 2,Filip Jakubec Kristian,2001,Slovakia,82.12,230,237.5,245,245,135,-142.5,142.5,142.5,235,-247.5,-247.5,235,622.5,83,Sub-Juniors,SBD,M,Single-ply
 3,Filip Rybár,2001,Czechia,81.7,210,-225,225,225,150,160,165,165,195,210,217.5,217.5,607.5,83,Sub-Juniors,SBD,M,Single-ply
-DQ,Karel Rada,2001,Czechia,82.25,-235,235,245,245,-170,-170,-170,,245,255,-260,255,,83,Sub-Juniors,SBD,M,Single-ply
+DQ,Karel Rada #2,2001,Czechia,82.25,-235,235,245,245,-170,-170,-170,,245,255,-260,255,,83,Sub-Juniors,SBD,M,Single-ply
 1,Arsenii Konkov,2001,Russia,92.35,260,270,280,280,175,185,190,190,270,280,290,290,760,93,Sub-Juniors,SBD,M,Single-ply
 2,Mikhail Volbenko,2001,Russia,91.06,-265,265,280,280,175,185,195,195,240,255,-275,255,730,93,Sub-Juniors,SBD,M,Single-ply
 3,Ondřej Šíp,2002,Czechia,91.34,260,270,280,280,145,152.5,160,160,235,245,252.5,252.5,692.5,93,Sub-Juniors,SBD,M,Single-ply
@@ -133,7 +133,7 @@ DQ,Ruslan Ruzimuradov,1998,Ukraine,73.47,265,-272.5,272.5,272.5,-217.5,-217.5,-2
 6,Kevin Schmid,2000,Austria,80.26,237.5,-245,245,245,195,-200,-200,195,235,242.5,-250,242.5,682.5,83,Juniors,SBD,M,Single-ply
 7,Mariusz Tworkowski,1998,Poland,81.9,260,-270,-270,260,155,165,-172.5,165,230,-242.5,245,245,670,83,Juniors,SBD,M,Single-ply
 8,Maurice Koopmanschap,1997,Netherlands,82.77,232.5,245,250,250,162.5,170,172.5,172.5,237.5,247.5,-252.5,247.5,670,83,Juniors,SBD,M,Single-ply
-9,Thomas Morgan,1996,UK,80.95,-235,235,-242.5,235,-160,160,-170,160,205,220,230,230,625,83,Juniors,SBD,M,Single-ply
+9,Thomas Morgan #1,1996,UK,80.95,-235,235,-242.5,235,-160,160,-170,160,205,220,230,230,625,83,Juniors,SBD,M,Single-ply
 1,Aleksei Agafoshin,1997,Russia,91.99,310,325,-332.5,325,205,230,235,235,275,-290,300,300,860,93,Juniors,SBD,M,Single-ply
 2,Henrik Hagen,1998,Norway,92.45,310,317.5,327.5,327.5,225,232.5,237.5,237.5,275,285,295,295,860,93,Juniors,SBD,M,Single-ply
 3,Klaudijus Malevskis,1996,Lithuania,92.67,290,-300,300,300,235,245,252.5,252.5,240,250,255,255,807.5,93,Juniors,SBD,M,Single-ply
@@ -159,18 +159,18 @@ DQ,Jaroslav Halač,2000,Slovakia,104.54,-295,-295,-295,,190,-202.5,-202.5,190,28
 5,Alexandru Cazacu,1997,Romania,115.62,-300,-307.5,312.5,312.5,185,-200,-222.5,185,210,-240,-247.5,210,707.5,120,Juniors,SBD,M,Single-ply
 6,Roman Štěpánek,1998,Czechia,116.2,250,260,265,265,130,137.5,145,145,235,247.5,257.5,257.5,667.5,120,Juniors,SBD,M,Single-ply
 DQ,Ivan Kulikovskii,1999,Russia,113.1,,,,,,,,,,,,,,120,Juniors,SBD,M,Single-ply
-1,Viktor Holinei,2000,Ukraine,137.9,375,395,405,405,265,275,285,285,310,330,-340,330,1020,120+,Juniors,SBD,M,Single-ply
-2,Guðni Sigurjónsson,1997,Iceland,149.02,-365,375,-390,375,275,-290,-290,275,280,302.5,-310,302.5,952.5,120+,Juniors,SBD,M,Single-ply
+1,Viktor Golinei,2000,Ukraine,137.9,375,395,405,405,265,275,285,285,310,330,-340,330,1020,120+,Juniors,SBD,M,Single-ply
+2,Guðfinnur Snær Magnússon,1997,Iceland,149.02,-365,375,-390,375,275,-290,-290,275,280,302.5,-310,302.5,952.5,120+,Juniors,SBD,M,Single-ply
 3,Vladislav Nemov,1996,Russia,131.06,340,355,-362.5,355,250,-260,260,260,300,315,-337.5,315,930,120+,Juniors,SBD,M,Single-ply
 1,Svetlana Saydasheva,1988,Russia,46.86,152.5,157.5,-160,157.5,77.5,82.5,87.5,87.5,157.5,162.5,167.5,167.5,412.5,47,Open,SBD,F,Single-ply
 2,Stéphanie Legard,1981,France,46.46,160,-170,-175,160,-90,90,95,95,145,150,-155,150,405,47,Open,SBD,F,Single-ply
-3,Irina Ivanova,1996,Russia,46.65,-150,150,-155,150,97.5,105,112.5,112.5,132.5,-142.5,-145,132.5,395,47,Open,SBD,F,Single-ply
+3,Irina Ivanova #1,1996,Russia,46.65,-150,150,-155,150,97.5,105,112.5,112.5,132.5,-142.5,-145,132.5,395,47,Open,SBD,F,Single-ply
 4,Malin Carlsson,1994,Sweden,46.57,125,130,-135,130,85,87.5,-92.5,87.5,127.5,132.5,-142.5,132.5,350,47,Open,SBD,F,Single-ply
-1,Anastasiya Derevyanko,1987,Ukraine,50.36,180,-190,190,190,110,115,-120,115,172.5,182.5,-193,182.5,487.5,52,Open,SBD,F,Single-ply
+1,Anastasiya Derevyanko #1,1987,Ukraine,50.36,180,-190,190,190,110,115,-120,115,172.5,182.5,-193,182.5,487.5,52,Open,SBD,F,Single-ply
 2,Trine Øgaard Bagger,1986,Denmark,51.78,-155,160,170,170,97.5,102.5,105,105,172.5,182.5,190,190,465,52,Open,SBD,F,Single-ply
 3,Emma Goodwin,1987,UK,51.69,155,165,-170,165,80,-85,-85,80,170,180,-185,180,425,52,Open,SBD,F,Single-ply
 4,Sandrine Quignaudon,1991,Sweden,51.29,150,-157.5,-160,150,85,90,95,95,135,142.5,150,150,395,52,Open,SBD,F,Single-ply
-DQ,Tetyana Shlopko,1996,Ukraine,51.05,-190,-190,-190,,110,120,-125,120,155,-165,,155,,52,Open,SBD,F,Single-ply
+DQ,Tetiana Bila,1996,Ukraine,51.05,-190,-190,-190,,110,120,-125,120,155,-165,,155,,52,Open,SBD,F,Single-ply
 1,Victoria Karlysheva,1993,Russia,56.64,200,210,217.5,217.5,117.5,-122.5,122.5,122.5,182.5,190,-195,190,530,57,Open,SBD,F,Single-ply
 2,Anastasia Lorents,1985,Russia,56.37,172.5,180,187.5,187.5,145,-150,-150,145,-175,180,187.5,187.5,520,57,Open,SBD,F,Single-ply
 3,Ellie Steel,1991,UK,56.84,-190,190,200,200,132.5,140,145,145,165,175,-177.5,175,520,57,Open,SBD,F,Single-ply
@@ -218,12 +218,12 @@ DQ,Kate Sweatman,1985,UK,121.8,-210,-210,-220,,140,-150,-150,140,175,185,190,190
 1,Mariia Romanova,2002,Russia,42.68,100,110,115,115,37.5,-42.5,42.5,42.5,95,105,110,110,267.5,43,Sub-Juniors,SBD,F,Single-ply
 1,Mariia Polianska,2003,Ukraine,46.11,-132.5,135,-142.5,135,65,70,-75,70,130,-140,145,145,350,47,Sub-Juniors,SBD,F,Single-ply
 2,Yuliya Ksenzova,2001,Russia,46.17,127.5,135,-140,135,67.5,72.5,77.5,77.5,120,125,-135,125,337.5,47,Sub-Juniors,SBD,F,Single-ply
-1,Valeriia Yavorska,2003,Ukraine,51.06,130,140,-145,140,72.5,-77.5,77.5,77.5,115,122.5,-132.5,122.5,340,52,Sub-Juniors,SBD,F,Single-ply
+1,Valeriya Yavorska,2003,Ukraine,51.06,130,140,-145,140,72.5,-77.5,77.5,77.5,115,122.5,-132.5,122.5,340,52,Sub-Juniors,SBD,F,Single-ply
 2,Tatiana Belskaia,2002,Russia,51.21,125,132.5,137.5,137.5,75,80,-85,80,105,115,-125,115,332.5,52,Sub-Juniors,SBD,F,Single-ply
 3,Denisa Turková,2003,Czechia,51.29,110,120,125,125,-60,62.5,-65,62.5,100,110,-117.5,110,297.5,52,Sub-Juniors,SBD,F,Single-ply
 4,Lenka Stískalová,2002,Slovakia,51.89,-95,95,112.5,112.5,60,67.5,-70,67.5,90,100,-105,100,280,52,Sub-Juniors,SBD,F,Single-ply
 5,Sofiia Bzdyr,2003,Ukraine,51.56,100,107.5,-115,107.5,55,-60,-60,55,102.5,112.5,-117.5,112.5,275,52,Sub-Juniors,SBD,F,Single-ply
-1,Anastasiia Antoniuk,2002,Ukraine,56.95,165,175,-180,175,95,102.5,107.5,107.5,150,157.5,160,160,442.5,57,Sub-Juniors,SBD,F,Single-ply
+1,Anastasiya Antonyuk,2002,Ukraine,56.95,165,175,-180,175,95,102.5,107.5,107.5,150,157.5,160,160,442.5,57,Sub-Juniors,SBD,F,Single-ply
 2,Karina Chebunina,2003,Russia,56.15,147.5,155,160,160,65,70,-75,70,147.5,152.5,157.5,157.5,387.5,57,Sub-Juniors,SBD,F,Single-ply
 3,Anita Kolesnyk,2003,Ukraine,56.54,130,-140,145,145,57.5,62.5,67.5,67.5,132.5,142.5,-157.5,142.5,355,57,Sub-Juniors,SBD,F,Single-ply
 4,Olívia Lapšanská,2003,Slovakia,56.55,110,120,-125,120,50,-55,-60,50,110,120,125,125,295,57,Sub-Juniors,SBD,F,Single-ply

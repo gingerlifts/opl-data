@@ -1,6 +1,6 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
 Boys,51.71,1,Al Gardner,Sealy,51.48,156.49,72.57,156.49,385.55,Single-ply,SBD,M
-Boys,51.71,2,Joe Castillo,Altair Rice,51.26,131.54,58.97,136.08,326.59,Single-ply,SBD,M
+Boys,51.71,2,Joe Castillo #3,Altair Rice,51.26,131.54,58.97,136.08,326.59,Single-ply,SBD,M
 Boys,51.71,3,Richie Garza,West Columbia,49.49,124.74,63.5,131.54,319.78,Single-ply,SBD,M
 Boys,51.71,4,Kaden Henry,El Maton Tidehaven,46.36,77.11,43.09,90.72,210.92,Single-ply,SBD,M
 Boys,55.79,1,Ivan Rosales,Columbus,53.57,161.03,95.25,183.7,439.98,Single-ply,SBD,M
@@ -8,9 +8,9 @@ Boys,55.79,2,Dedrick Querner,Altair Rice,54.43,122.47,65.77,142.88,331.12,Single
 Boys,55.79,3,Dalton Opperman,Columbus,55.11,120.2,81.65,127.01,328.85,Single-ply,SBD,M
 Boys,55.79,4,Marc Walters,El Maton Tidehaven,55.29,106.59,47.63,158.76,312.98,Single-ply,SBD,M
 Boys,55.79,5,Hunter Kohleffel,Columbus,55.11,120.2,63.5,127.01,310.71,Single-ply,SBD,M
-Boys,59.87,1,Zach Baker,Hallettsville,58.56,172.37,77.11,165.56,415.04,Single-ply,SBD,M
+Boys,59.87,1,Zach Baker #2,Hallettsville,58.56,172.37,77.11,165.56,415.04,Single-ply,SBD,M
 Boys,59.87,2,Isaac Garza,Ganado,59.19,142.88,88.45,163.29,394.63,Single-ply,SBD,M
-Boys,59.87,3,Cameron Bates,Ganado,58.65,131.54,70.31,158.76,360.61,Single-ply,SBD,M
+Boys,59.87,3,Cameron Bates #2,Ganado,58.65,131.54,70.31,158.76,360.61,Single-ply,SBD,M
 Boys,59.87,4,Eric Gutierrez,Altair Rice,59.42,136.08,79.38,142.88,358.34,Single-ply,SBD,M
 Boys,59.87,5,Sutton Lindsley,Bastrop,59.6,122.47,99.79,129.27,351.53,Single-ply,SBD,M
 Boys,59.87,6,Jonathon Segura,Altair Rice,59.42,120.2,70.31,156.49,347,Single-ply,SBD,M
@@ -51,7 +51,7 @@ Boys,74.84,DQ,Will Priest,Brookshire Royal,70.62,122.47,,,,Single-ply,SBD,M
 Boys,82.1,1,Isaiah Herring,Hallettsville,76.7,238.14,138.35,244.94,621.42,Single-ply,SBD,M
 Boys,82.1,2,Jack Russel,West Columbia,78.93,197.31,122.47,208.65,528.44,Single-ply,SBD,M
 Boys,82.1,3,Drake Bustamante,Bellville,81.69,190.51,111.13,183.7,485.34,Single-ply,SBD,M
-Boys,82.1,4,John Jackson,Hempstead,80.24,174.63,108.86,188.24,471.74,Single-ply,SBD,M
+Boys,82.1,4,John Jackson #1,Hempstead,80.24,174.63,108.86,188.24,471.74,Single-ply,SBD,M
 Boys,82.1,5,Camryn Higgns,Bastrop,75.66,181.44,104.33,183.7,469.47,Single-ply,SBD,M
 Boys,82.1,6,Liam Porr,Victoria St. Joseph,80.29,176.9,106.59,183.7,467.2,Single-ply,SBD,M
 Boys,82.1,7,Alex Toriz,Altair Rice,78.02,149.69,102.06,145.15,396.89,Single-ply,SBD,M
@@ -89,7 +89,7 @@ Boys,109.77,5,Nick Searcy,Cuero,104.6,204.12,117.93,210.92,532.97,Single-ply,SBD
 Boys,109.77,6,Kyle Nelson,Bellville,102.56,219.99,104.33,204.12,528.44,Single-ply,SBD,M
 Boys,109.77,7,Wade Smith,Giddings,103.37,197.31,120.2,188.24,505.76,Single-ply,SBD,M
 Boys,109.77,8,Trent Wilkerson,Gonzales,107.86,204.12,102.06,190.51,496.68,Single-ply,SBD,M
-Boys,109.77,9,Cameron Anderson,Bellville,105.96,210.92,120.2,156.49,487.61,Single-ply,SBD,M
+Boys,109.77,9,Cameron Anderson #4,Bellville,105.96,210.92,120.2,156.49,487.61,Single-ply,SBD,M
 Boys,109.77,10,Miguel Hernandez,Ganado,106.78,183.7,95.25,158.76,437.72,Single-ply,SBD,M
 Boys,109.77,11,Jordian Martin,Brookshire Royal,101.11,154.22,90.72,174.63,419.57,Single-ply,SBD,M
 Boys,109.77,12,Alex Campuzano,Ganado,101.42,151.95,72.57,163.29,387.82,Single-ply,SBD,M

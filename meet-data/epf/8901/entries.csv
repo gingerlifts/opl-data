@@ -7,7 +7,7 @@ Place,Name,BirthYear,WeightClassKg,BodyweightKg,Country,Squat1Kg,Squat2Kg,Squat3
 1,Gary Simes,1963,56,55.8,UK,205,212.5,-217.5,212.5,105,112.5,117.5,117.5,200,212.5,217.5,217.5,547.5,M,Open,SBD,Single-ply
 2,Bernard Vincent,1957,56,55.4,France,182.5,192.5,-197.5,192.5,105,112.5,115,115,-215,-215,215,215,522.5,M,Open,SBD,Single-ply
 3,Kai Vähäluopus,1960,56,55.9,Finland,170,-177.5,-177.5,170,122.5,127.5,-130,127.5,205,210,-227.5,210,507.5,M,Open,SBD,Single-ply
-4,Klemen Jaschinski,1963,56,55.1,Germany,150,170,180,180,110,115,120,120,180,190,197.5,197.5,497.5,M,Open,SBD,Single-ply
+4,Klemens Jaschinski,1963,56,55.1,Germany,150,170,180,180,110,115,120,120,180,190,197.5,197.5,497.5,M,Open,SBD,Single-ply
 5,Magnus Carlsson,1967,56,55.8,Sweden,230,-243.5,-243.5,230,135,147.5,-150,147.5,112.5,117.5,-120,117.5,495,M,Open,SBD,Single-ply
 6,Joachim Mödl,1966,56,52.6,Germany,150,160,165,165,85,90,92.5,92.5,180,190,-200,190,447.5,M,Open,SBD,Single-ply
 1,Gerard Tromp,1959,60,59.6,Netherlands,222.5,235,240,240,135,140,142.5,142.5,210,217.5,220,220,602.5,M,Open,SBD,Single-ply
@@ -20,7 +20,7 @@ Place,Name,BirthYear,WeightClassKg,BodyweightKg,Country,Squat1Kg,Squat2Kg,Squat3
 8,Lars Flyborg,1951,60,59.7,Sweden,190,-205,205,205,110,117.5,120,120,195,210,-220,210,535,M,Open,SBD,Single-ply
 9,Brian O'Connel,1963,60,59.6,Ireland,-205,205,217.5,217.5,107.5,-112.5,-112.5,107.5,190,200,-205,200,525,M,Open,SBD,Single-ply
 1,Eddy Pengelly,1949,67.5,67.5,UK,232.5,240,247.5,247.5,140,145,150,150,260,270,-280,270,667.5,M,Open,SBD,Single-ply
-2,David Mannering,1960,67.5,67,UK,240,247.5,252.5,252.5,-150,150,152.5,152.5,250,-260,-265,250,655,M,Open,SBD,Single-ply
+2,David Mannering #1,1960,67.5,67,UK,240,247.5,252.5,252.5,-150,150,152.5,152.5,250,-260,-265,250,655,M,Open,SBD,Single-ply
 3,Tuomo Kesälahti,1952,67.5,67.3,Finland,-220,-220,220,220,150,155,157.5,157.5,250,-260,-267.5,250,627.5,M,Open,SBD,Single-ply
 4,Kader Baali,1968,67.5,66.8,France,210,222.5,232.5,232.5,145,-150,-150,145,245,-257.5,-260,245,622.5,M,Open,SBD,Single-ply
 5,Josef Trnka,1959,67.5,67,Czechia,230,250,-257.5,250,-125,125,132.5,132.5,240,-265,-265,240,622.5,M,Open,SBD,Single-ply
@@ -54,7 +54,7 @@ DQ,Hannu Malinen,1955,82.5,82,Finland,-265,,,,,,,,,,,,,M,Open,SBD,Single-ply
 8,Anders Hansson,1963,90,89.7,Sweden,-260,260,-280,260,150,155,-160,155,290,-307.5,-317.5,290,705,M,Open,SBD,Single-ply
 1,Tony Stevens #1,1949,100,99.2,UK,-330,330,340,340,200,-207.5,207.5,207.5,320,330,337.5,337.5,885,M,Open,SBD,Single-ply
 2,Juha Hyttinen,1964,100,99,Finland,-320,-330,330,330,190,197.5,202.5,202.5,300,330,-355,330,862.5,M,Open,SBD,Single-ply
-3,Jonny Melander,1953,100,99.9,Sweden,300,-325,325,325,190,200,207.5,207.5,300,330,-355,330,862.5,M,Open,SBD,Single-ply
+3,Johnny Melander,1953,100,99.9,Sweden,300,-325,325,325,190,200,207.5,207.5,300,330,-355,330,862.5,M,Open,SBD,Single-ply
 4,Börge Örebö,1960,100,98.5,Norway,275,-285,295,295,190,200,,200,280,-300,300,300,795,M,Open,SBD,Single-ply
 5,Salvatore Putrino,1956,100,97.3,Italy,280,-300,-305,280,170,180,-185,180,300,-315,315,315,775,M,Open,SBD,Single-ply
 6,Josef Muss,1964,100,97.6,Austria,260,-275,280,280,170,175,180,180,-300,-310,310,310,770,M,Open,SBD,Single-ply

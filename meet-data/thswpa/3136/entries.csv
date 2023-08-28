@@ -1,7 +1,7 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
 Girls,44.23,1,Ashley Martinez,Edinburg Idea College Prep,43.91,124.74,54.43,138.35,317.51,Single-ply,SBD,F
 Girls,44.23,2,Lexus Gutierrez,Mathis,43.27,117.93,58.97,129.27,306.17,Single-ply,SBD,F
-Girls,44.23,3,Samantha Sanchez,Natalia,43.82,120.2,56.7,122.47,299.37,Single-ply,SBD,F
+Girls,44.23,3,Samantha Sanchez #2,Natalia,43.82,120.2,56.7,122.47,299.37,Single-ply,SBD,F
 Girls,44.23,4,Gabby Zarate,San Diego,43.64,111.13,52.16,122.47,285.76,Single-ply,SBD,F
 Girls,44.23,5,Jaylin Haughie,Center Point,43.54,113.4,61.23,108.86,283.5,Single-ply,SBD,F
 Girls,44.23,6,Adriana Villafuerte,Edinburg Idea College Prep,43.82,113.4,45.36,120.2,278.96,Single-ply,SBD,F
@@ -13,13 +13,13 @@ Girls,44.23,11,Kristal Rodriguez,Dilley,43.54,83.91,54.43,113.4,251.74,Single-pl
 Girls,44.23,12,Lesette Munoz,Mathis,43.64,97.52,52.16,102.06,251.74,Single-ply,SBD,F
 Girls,44.23,13,Valery Cano,Edinburg Idea College Prep,42.37,102.06,36.29,111.13,249.48,Single-ply,SBD,F
 Girls,44.23,14,Savannah Sandoval,Santa Gertrudis Academy,43.18,92.99,45.36,111.13,249.48,Single-ply,SBD,F
-Girls,44.23,15,Jessica Garcia,Yorktown,44,97.52,47.63,104.33,249.48,Single-ply,SBD,F
+Girls,44.23,15,Jessica Garcia #3,Yorktown,44,97.52,47.63,104.33,249.48,Single-ply,SBD,F
 Girls,44.23,16,Aliya Bustamante,Cotulla,41.55,88.45,40.82,104.33,233.6,Single-ply,SBD,F
 Girls,44.23,17,Amber Fuentes,Odem,43,92.99,45.36,95.25,233.6,Single-ply,SBD,F
 Girls,44.23,18,Calysta Reyes,Dilley,40.1,79.38,38.56,106.59,224.53,Single-ply,SBD,F
 Girls,47.85,1,Alexia Dy,San Antonio Cole,46.54,124.74,49.9,138.35,312.98,Single-ply,SBD,F
 Girls,47.85,2,Mariah Alaniz,Freer,47.08,131.54,56.7,124.74,312.98,Single-ply,SBD,F
-Girls,47.85,3,Bryanna Perez,Natalia,47.45,129.27,63.5,117.93,310.71,Single-ply,SBD,F
+Girls,47.85,3,Bryanna Perez #1,Natalia,47.45,129.27,63.5,117.93,310.71,Single-ply,SBD,F
 Girls,47.85,4,Vanessa Vega,Skidmore-Tynan,46.99,129.27,61.23,111.13,301.64,Single-ply,SBD,F
 Girls,47.85,5,Anastasia Rodriguez,Natalia,47.72,113.4,74.84,113.4,301.64,Single-ply,SBD,F
 Girls,47.85,6,Reina de la Paz,Santa Gertrudis Academy,46.81,120.2,58.97,120.2,299.37,Single-ply,SBD,F
@@ -48,7 +48,7 @@ Girls,56.02,4,Carolina Flores,Hebbronville,54.43,131.54,68.04,142.88,342.46,Sing
 Girls,56.02,5,Marissa Olvera,Center Point,55.34,136.08,77.11,129.27,342.46,Single-ply,SBD,F
 Girls,56.02,6,Jazmin Estrada,San Antonio Brooks Academy,54.07,129.27,70.31,131.54,331.12,Single-ply,SBD,F
 Girls,56.02,7,Masison Salinas,Hebbronville,55.52,138.35,58.97,133.81,331.12,Single-ply,SBD,F
-Girls,56.02,8,Destinie Small,San Antonio Cole,53.16,133.81,56.7,138.35,328.85,Single-ply,SBD,F
+Girls,56.02,8,Destinie' Small,San Antonio Cole,53.16,133.81,56.7,138.35,328.85,Single-ply,SBD,F
 Girls,56.02,9,Yesenia Rocha,San Antonio Cole,53.8,122.47,61.23,145.15,328.85,Single-ply,SBD,F
 Girls,56.02,10,Stephanie Benavides,Cotulla,54.88,133.81,56.7,138.35,328.85,Single-ply,SBD,F
 Girls,56.02,11,Makayla Salaiz,San Diego,55.88,131.54,61.23,136.08,328.85,Single-ply,SBD,F
@@ -125,7 +125,7 @@ Girls,100.02,3,Amberodia Aleman,Kenedy,92.8,188.24,86.18,156.49,430.91,Single-pl
 Girls,100.02,4,Sierra Caro,Falfurrias,98.07,181.44,95.25,151.95,428.64,Single-ply,SBD,F
 Girls,100.02,5,Priscilla Tovar,Lyford,92.44,167.83,77.11,172.37,417.3,Single-ply,SBD,F
 Girls,100.02,6,Marissza Mendoza,Taft,90.17,151.95,68.04,142.88,362.87,Single-ply,SBD,F
-Girls,100.02,7,Jackie Salazar,Ben Bolt-Palito Blanco,99.34,163.29,61.23,127.01,351.53,Single-ply,SBD,F
+Girls,100.02,7,Jackie Salazar #1,Ben Bolt-Palito Blanco,99.34,163.29,61.23,127.01,351.53,Single-ply,SBD,F
 Girls,100.02,8,Emily Casillas,Center Point,96.34,142.88,70.31,136.08,349.27,Single-ply,SBD,F
 Girls,100.02,9,Abigail Vela,Bishop,95.16,140.61,72.57,129.27,342.46,Single-ply,SBD,F
 Girls,100.02,10,DeAnna Wood,San Antonio Brooks Academy,91.26,111.13,102.06,120.2,333.39,Single-ply,SBD,F

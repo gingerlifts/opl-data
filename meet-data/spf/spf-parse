@@ -140,8 +140,8 @@ def fixequipment(csv):
             row[eqidx] = "Multi-ply"
         elif eq == "Single-Ply":
             row[eqidx] = "Single-ply"
-        elif eq == "Slingshot":
-            row[eqidx] = "Slingshot"
+        elif eq in ["Slingshot", "Unlimited"]:
+            row[eqidx] = "Unlimited"
         elif eq == "Straps":
             row[eqidx] = "Straps"
         elif eq == '':
@@ -170,6 +170,8 @@ def main(url):
     fixevent(csv)
     fixequipment(csv)
     fixdivision(csv)
+
+    csv.append_column('BirthDate')
 
     with open('entries.csv', 'w') as fd:
         csv.write(fd)

@@ -53,12 +53,12 @@ DQ,M,Masters 1,67.5,Ichiro Kawabe,Japan,1961,67.15,,,,,SBD,Single-ply
 4,M,Masters 1,75,Karnail Singh,UK,1957,72.25,220,147.5,230,597.5,SBD,Single-ply
 5,M,Masters 1,75,Harnek Rai,Canada,1957,72.5,200,150,195,545,SBD,Single-ply
 DQ,M,Masters 1,75,Koichi Taniguchi,Japan,1960,73.25,,,,,SBD,Single-ply
-DD,M,Masters 1,75,Jan Wilcynski,Poland,1955,74.55,277.5,150,287.5,,SBD,Single-ply
+DD,M,Masters 1,75,Jan Wilczyński,Poland,1955,74.55,277.5,150,287.5,,SBD,Single-ply
 1,M,Masters 1,82.5,Bill Scully,USA,1958,81.3,272.5,182.5,265,720,SBD,Single-ply
 2,M,Masters 1,82.5,Vasiliy Glinin,Russia,1955,80.45,262.5,165,285,712.5,SBD,Single-ply
 3,M,Masters 1,82.5,Sergey Rykov,Russia,1958,82.05,262.5,177.5,267.5,707.5,SBD,Single-ply
 4,M,Masters 1,82.5,Jerry Marentette,Canada,1956,81.15,240,172.5,267.5,680,SBD,Single-ply
-5,M,Masters 1,82.5,Stephen King,New Zealand,1962,80.9,255,145,255,655,SBD,Single-ply
+5,M,Masters 1,82.5,Stephen King #1,New Zealand,1962,80.9,255,145,255,655,SBD,Single-ply
 6,M,Masters 1,82.5,John Fraser,Canada,1956,81.05,225,175,250,650,SBD,Single-ply
 7,M,Masters 1,82.5,Seiji Harada,Japan,1961,80.85,220,175,252.5,647.5,SBD,Single-ply
 8,M,Masters 1,82.5,Michal Sekot,Czechia,1961,82,235,172.5,235,642.5,SBD,Single-ply
@@ -107,7 +107,7 @@ DQ,M,Masters 1,90,TK Vikas,India,1962,82.95,,,,,SBD,Single-ply
 2,M,Masters 2,60,Vladimir Shishkin,Russia,1950,59.35,170,110,180,460,SBD,Single-ply
 1,M,Masters 2,67.5,Alain Cuvelier,France,1953,67.5,220,125,210,555,SBD,Single-ply
 2,M,Masters 2,67.5,Michael James,UK,1949,66.85,200,150,200,550,SBD,Single-ply
-3,M,Masters 2,67.5,Alexander Ponedelin,Russia,1950,66.05,210,95,220,525,SBD,Single-ply
+3,M,Masters 2,67.5,Aleksandr Ponedelin,Russia,1950,66.05,210,95,220,525,SBD,Single-ply
 4,M,Masters 2,67.5,Mehta Shyam Babu,India,1952,67.4,180,100,192.5,472.5,SBD,Single-ply
 5,M,Masters 2,67.5,Vyas Mukul,India,,64.55,165,115,160,440,SBD,Single-ply
 1,M,Masters 2,75,Claude Couturier,France,1952,73.3,215,135,230,580,SBD,Single-ply
@@ -164,4 +164,4 @@ DQ,M,Masters 3,90,Yury Isagulov,Russia,1944,87.35,,,,,SBD,Single-ply
 1,M,Masters 3,110,Bill Helmich,USA,1942,102.25,210,162.5,220,592.5,SBD,Single-ply
 2,M,Masters 3,110,Babu Jayant,USA,1942,102.25,120,90,140,350,SBD,Single-ply
 1,M,Masters 3,125,Will Morris,USA,1944,117.5,242.5,195.5,235,672.5,SBD,Single-ply
-2,M,Masters 3,125,Robb Grisham,USA,1939,115.05,182.5,122.5,192.5,497.5,SBD,Single-ply
+2,M,Masters 3,125,Robert Grisham,USA,1939,115.05,182.5,122.5,192.5,497.5,SBD,Single-ply

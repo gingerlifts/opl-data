@@ -14,8 +14,8 @@ B. Cormack,Teen 13-15,109.43,,115.67,,115.67,110,M,Single-ply,B,Yes,1
 B. Gandy,Open,78.13,226.8,145.15,231.33,603.28,82.5,M,Single-ply,SBD,,4
 B. Hagstrom,Open,85.28,,79.38,,79.38,90,M,Single-ply,B,,8
 B. Higdon,Masters 55-59,97.07,,192.78,,192.78,100,M,Raw,B,,1
-B. Kelley,Open,100.24,,213.19,,213.19,110,M,Single-ply,B,Yes,3
-B. Kelley,Open,100.24,,213.19,,213.19,110,M,Single-ply,B,,4
+Brad Kelley,Open,100.24,,213.19,,213.19,110,M,Single-ply,B,Yes,3
+Brad Kelley,Open,100.24,,213.19,,213.19,110,M,Single-ply,B,,4
 B. Stewart #2,Open,114.31,,233.6,,233.6,125,M,Single-ply,B,,2
 Bill Baldwin,Submasters 33-39,86.18,,129.27,,129.27,90,M,Single-ply,B,Yes,1
 Bill Carpenter,Open,96.62,,249.48,,249.48,100,M,Single-ply,B,,1
@@ -45,7 +45,7 @@ D. Hess,Submasters 33-39,99.79,,149.69,,149.69,100,M,Single-ply,B,Yes,3
 D. Horton,Open,66.68,,,213.19,213.19,67.5,M,Single-ply,D,Yes,1
 D. Horton,Open,66.68,,,213.19,213.19,67.5,M,Single-ply,D,,2
 D. Huell,Masters 45-49,97.52,210.92,136.08,215.46,562.45,100,M,Single-ply,SBD,Yes,1
-D. Jones,Open,,263.08,172.37,235.87,671.32,100,M,Single-ply,SBD,,10
+David Jones #5,Open,,263.08,172.37,235.87,671.32,100,M,Single-ply,SBD,,10
 Douglas Scarborough,Open,,167.83,140.61,215.46,523.9,82.5,M,Single-ply,SBD,,7
 Douglas Scarborough,Open,,167.83,140.61,215.46,523.9,82.5,M,Single-ply,SBD,,8
 D. Tassin,Teen 18-19,97.07,272.16,149.69,249.48,671.32,100,M,Single-ply,SBD,,1
@@ -80,8 +80,8 @@ Ivan Lambert,Open,97.52,276.69,170.1,242.67,689.46,100,M,Single-ply,SBD,Yes,9
 Ivan Lambert,Open,97.52,,,242.67,242.67,100,M,Single-ply,D,Yes,3
 JR. Logsdon,Teen 16-17,70.87,,74.84,,74.84,75,M,Single-ply,B,Yes,1
 JR. Logsdon,Teen 16-17,70.87,,,149.69,149.69,75,M,Single-ply,D,Yes,1
-J. Brown,Open,96.62,288.03,170.1,278.96,737.09,100,M,Single-ply,SBD,,6
-J. Brown,Submasters 33-39,96.62,288.03,170.1,278.96,737.09,100,M,Single-ply,SBD,,1
+John Brown #14,Open,96.62,288.03,170.1,278.96,737.09,100,M,Single-ply,SBD,,6
+John Brown #14,Submasters 33-39,96.62,288.03,170.1,278.96,737.09,100,M,Single-ply,SBD,,1
 J. Robertson,Open,134.26,310.71,199.58,290.3,800.59,140,M,Single-ply,SBD,Yes,1
 Jim Davis,Submasters 33-39,140.16,265.35,206.38,274.42,746.16,140+,M,Single-ply,SBD,Yes,1
 Jim Davis,Open,140.16,265.35,206.38,274.42,746.16,140+,M,Single-ply,SBD,Yes,1
@@ -106,7 +106,7 @@ JR. Logsdon,Teen 16-17,70.76,138.35,74.84,149.69,362.87,75,M,Single-ply,SBD,Yes,
 J. Robertson,Masters 45-49,134.26,310.71,199.58,290.3,800.59,140,M,Single-ply,SBD,Yes,1
 J. Rogers,Open,108.41,,181.44,,181.44,110,M,Single-ply,B,Yes,12
 J. Rogers,Open,108.41,,181.44,,181.44,110,M,Single-ply,B,,13
-J. Wallace,Juniors 20-23,81.42,,165.56,,165.56,82.5,M,Single-ply,B,Yes,1
+John Wallace,Juniors 20-23,81.42,,165.56,,165.56,82.5,M,Single-ply,B,Yes,1
 James Kagrice,Open,,258.55,145.15,249.48,653.17,90,M,Single-ply,SBD,,3
 James McElveen,Open,72.12,,136.08,,136.08,75,M,Single-ply,B,Yes,2
 James McElveen,Open,72.12,,,158.76,158.76,75,M,Single-ply,D,Yes,4
@@ -130,7 +130,7 @@ Jerry Vest,Masters 40-44,109.77,,,,,110,M,Single-ply,B,,DQ
 Joe DeVerville,Open,102.51,274.42,197.31,249.48,721.21,110,M,Single-ply,SBD,Yes,4
 Joe DeVerville,Masters 45-49,102.51,274.42,197.31,249.48,721.21,110,M,Single-ply,SBD,Yes,2
 Jon Mouzon,Open,71.67,,170.1,,170.1,75,M,Single-ply,B,Yes,1
-K. Allen,Open,84.94,,158.76,,158.76,90,F,Single-ply,B,,1
+Kim Allen,Open,84.94,,158.76,,158.76,90,F,Single-ply,B,,1
 K. Martin,Submasters 33-39,74.84,,176.9,,176.9,75,M,Single-ply,B,Yes,1
 K. Reynolds,Open,121.11,272.16,181.44,274.42,728.02,125,M,Single-ply,SBD,,3
 Kate Taillon,Submasters 33-39,54.66,83.91,43.09,97.52,224.53,60,F,Single-ply,SBD,Yes,1
@@ -145,7 +145,7 @@ Kramer Bergman,Open,135.51,,,331.12,331.12,140,M,Single-ply,D,,1
 Kramer Bergman,Submasters 33-39,135.51,,,331.12,331.12,140,M,Single-ply,D,,1
 L. Mondic,Open,99.34,272.16,181.44,274.42,728.02,100,M,Single-ply,SBD,,7
 L. Samuels,Open,82.55,,,138.35,138.35,90,M,Single-ply,D,,6
-L. Tseramis,Open,120.66,,,,,125,M,Single-ply,B,,DQ
+Louie Tseramis,Open,120.66,,,,,125,M,Single-ply,B,,DQ
 Larry Bizzell,Masters 45-49,115.21,226.8,156.49,226.8,610.08,125,M,Single-ply,SBD,Yes,1
 Larry Bizzell,Masters 45-49,115.21,,,226.8,226.8,125,M,Single-ply,D,Yes,1
 Les Hasler,Open,100.36,310.71,204.12,310.71,825.54,110,M,Single-ply,SBD,,1
@@ -153,14 +153,14 @@ Les Hasler,Masters 50-54,100.36,310.71,204.12,310.71,825.54,110,M,Single-ply,SBD
 M. Brady,Masters 45-49,,199.58,145.15,208.65,553.38,82.5,M,Single-ply,SBD,Yes,1
 Mike Ferrantelli,Open,97.98,317.51,240.4,276.69,834.61,100,M,Single-ply,SBD,,1
 Mike Ferrantelli,Open,97.98,,240.4,,240.4,100,M,Single-ply,B,Yes,2
-M. Gibson,Masters 40-44,99.79,,,317.51,317.51,100,M,Single-ply,D,Yes,1
-M. Gipson,Open,99.79,290.3,179.17,317.51,786.98,100,M,Single-ply,SBD,Yes,5
-M. Gipson,Masters 40-44,99.79,290.3,179.17,317.51,786.98,100,M,Single-ply,SBD,Yes,1
+Mack Gipson,Masters 40-44,99.79,,,317.51,317.51,100,M,Single-ply,D,Yes,1
+Mack Gipson,Open,99.79,290.3,179.17,317.51,786.98,100,M,Single-ply,SBD,Yes,5
+Mack Gipson,Masters 40-44,99.79,290.3,179.17,317.51,786.98,100,M,Single-ply,SBD,Yes,1
 M. Hilson,Masters 40-44,,158.76,127.01,249.48,535.24,100,M,Single-ply,SBD,Yes,2
 M. Puckett,Open,73.82,208.65,149.69,229.06,587.4,75,M,Single-ply,SBD,Yes,2
 M. Rubinowsky,Masters 55-59,70.31,117.93,63.5,151.95,333.39,75,F,Single-ply,SBD,Yes,1
 M. Rubinowsky,Masters 55-59,70.31,,,151.95,151.95,75,F,Single-ply,D,Yes,1
-M. Waters,Open,86.18,,179.17,,179.17,90,M,Single-ply,B,Yes,2
+Matt Waters #1,Open,86.18,,179.17,,179.17,90,M,Single-ply,B,Yes,2
 M. Williams,Open,78.47,,,249.48,249.48,82.5,M,Single-ply,D,Yes,1
 Marcel St. Laurent,Masters 55-59,73.03,,154.22,,154.22,75,M,Single-ply,B,,1
 Marcel St. Laurent,Masters 55-59,73.03,244.94,154.22,254.01,653.17,75,M,Single-ply,SBD,,1
@@ -174,10 +174,10 @@ Marty Sechrest,Submasters 33-39,89.47,294.84,190.51,299.37,784.71,90,M,Single-pl
 Marty Sechrest,Open,89.47,294.84,190.51,299.37,784.71,90,M,Single-ply,SBD,,2
 Marty Sechrest,Open,89.47,,,299.37,299.37,90,M,Single-ply,D,,1
 Marty Sechrest,Submasters 33-39,89.47,,,299.37,299.37,90,M,Single-ply,D,,1
-Matt Gibson,Open,99.79,,,317.51,317.51,100,M,Single-ply,D,Yes,1
-Matt Waters,Open,86.18,,179.17,,179.17,90,M,Single-ply,B,,3
-Matt Waters,Open,86.18,,,181.44,181.44,90,M,Single-ply,D,,2
-Matt Waters,Open,86.18,,,181.44,181.44,90,M,Single-ply,D,Yes,3
+Matt Gibson #4,Open,99.79,,,317.51,317.51,100,M,Single-ply,D,Yes,1
+Matt Waters #1,Open,86.18,,179.17,,179.17,90,M,Single-ply,B,,3
+Matt Waters #1,Open,86.18,,,181.44,181.44,90,M,Single-ply,D,,2
+Matt Waters #1,Open,86.18,,,181.44,181.44,90,M,Single-ply,D,Yes,3
 Maurice Washington,Juniors 20-23,116.12,,204.12,,204.12,125,M,Single-ply,B,Yes,1
 Maurice Washington,Juniors 20-23,116.12,,,235.87,235.87,125,M,Single-ply,D,Yes,1
 Michael Puckett,Open,72.91,,,229.06,229.06,75,M,Single-ply,D,Yes,1
@@ -186,7 +186,7 @@ Michelle Galante,Teen 18-19,67.13,108.86,65.77,136.08,310.71,67.5,F,Single-ply,S
 Mike Ferrantelli,Open,97.98,317.51,240.4,276.69,834.61,100,M,Single-ply,SBD,Yes,2
 Mike Ferrantelli,Open,97.98,317.51,240.4,276.69,834.61,100,M,Single-ply,SBD,,3
 Mike Ferrantelli,Open,97.98,,240.4,,240.4,100,M,Single-ply,B,,3
-N. Bramlett,Open,111.58,306.17,226.8,272.16,805.13,125,M,Single-ply,SBD,,2
+Nathan Bramlett,Open,111.58,306.17,226.8,272.16,805.13,125,M,Single-ply,SBD,,2
 Nathan Looper,Youth 8-12,114.76,,65.77,,65.77,125,M,Single-ply,B,Yes,1
 Nathan Looper,Special Olympics,114.76,,65.77,,65.77,125,M,Single-ply,B,Yes,1
 O. Chevinski,Open,67.59,,,156.49,156.49,75,M,Single-ply,D,,5
@@ -201,13 +201,13 @@ P. Torrez,Open,102.06,,183.7,,183.7,110,M,Single-ply,B,,10
 Paul Sacco,Masters 40-44,74.84,260.82,158.76,217.72,637.3,75,M,Single-ply,SBD,Yes,1
 Phil Farmer,Open,118.39,,260.82,,260.82,125,M,Single-ply,B,,1
 R. Adamski,Open,74.62,,86.18,,86.18,75,M,Single-ply,B,,5
-R. Allen,Open,59.31,,147.42,,147.42,60,M,Single-ply,B,,1
+Robert Allen #1,Open,59.31,,147.42,,147.42,60,M,Single-ply,B,,1
 R. Eaddy,Open,70.76,263.08,163.29,254.01,680.39,75,M,Single-ply,SBD,Yes,1
-R. Finley,Submasters 33-39,104.33,,174.63,,174.63,110,M,Single-ply,B,,3
+Roger Finley,Submasters 33-39,104.33,,174.63,,174.63,110,M,Single-ply,B,,3
 R. Godin,Open,66.22,,124.74,,124.74,67.5,M,Single-ply,B,,4
 R. Harrison,Open,80.74,,181.44,,181.44,82.5,M,Single-ply,B,,1
 R. Mearite,Open,67.25,,149.69,,149.69,67.5,M,Single-ply,B,Yes,1
-R. Sams,Open,66.68,149.69,58.97,181.44,390.09,67.5,F,Single-ply,SBD,Yes,2
+Rhonda Sams,Open,66.68,149.69,58.97,181.44,390.09,67.5,F,Single-ply,SBD,Yes,2
 R. Sanchez,Open,108.18,,192.78,,192.78,110,M,Single-ply,B,,8
 R. Shaw,Open,,185.97,136.08,226.8,548.85,82.5,M,Single-ply,SBD,Yes,6
 R. Walker,Open,80.74,,181.44,,181.44,82.5,M,Single-ply,B,Yes,2
@@ -221,7 +221,7 @@ Russel Williford,Juniors 20-23,116.57,306.17,242.67,306.17,855.02,125,M,Single-p
 S. Bellomo,Open,62.6,,131.54,,131.54,67.5,M,Single-ply,B,,2
 S. Ellison,Open,74.84,,88.45,,88.45,75,M,Single-ply,B,,4
 Shaun Miller,Open,109.88,,206.38,,206.38,110,M,Single-ply,B,,5
-S. Morrison,Open,75.3,,,,,82.5,M,Single-ply,B,Yes,DQ
+Stanley Morrison,Open,75.3,,,,,82.5,M,Single-ply,B,Yes,DQ
 S. Radzeiki,Open,72.57,,,161.03,161.03,75,M,Single-ply,D,,2
 S. Smith #39,Open,91.63,,,235.87,235.87,100,M,Single-ply,D,Yes,4
 S. Smith #39,Open,91.63,,,235.87,235.87,100,M,Single-ply,D,,5

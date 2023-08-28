@@ -48,7 +48,7 @@ DQ,Tatyana Eltsova,Татьяна Ельцова,1978,60,59.5,-135,-135,-135,,,F
 2,Vadim Tsvetkov,Вадим Цветков,1991,52,52,70,75,80,80,80,M,Open,B,Single-ply
 1,Dmitriy Nizhnik,Дмитрий Нижник,1991,56,55.95,100,105,107.5,107.5,107.5,M,Open,B,Single-ply
 2,Anton Shevelilo,Антон Шевелило,1986,56,55.6,90,100,-105,100,100,M,Open,B,Single-ply
-3,Dmitriy Kozlov,Дмитрий Козлов,1990,56,55.7,90,-92.5,92.5,92.5,92.5,M,Open,B,Single-ply
+3,Dmitriy Kozlov #2,Дмитрий Козлов,1990,56,55.7,90,-92.5,92.5,92.5,92.5,M,Open,B,Single-ply
 4,Dmitriy Yakushev,Дмитрий Якушев,1992,56,54.1,67.5,72.5,-75,72.5,72.5,M,Open,B,Single-ply
 1,Konstantin Pavlov,Константин Павлов,1973,60,58.8,185,195,202.5,202.5,202.5,M,Open,B,Single-ply
 2,Nikolay Pochinkin,Николай Починкин,1985,60,59.8,150,157.5,165,165,165,M,Open,B,Single-ply
@@ -75,10 +75,10 @@ DQ,Tatyana Eltsova,Татьяна Ельцова,1978,60,59.5,-135,-135,-135,,,F
 1,Sergey Bogdanov,Сергей Богданов,1985,90,84.95,250,260,267.5,267.5,267.5,M,Open,B,Single-ply
 2,Pavel Ozerov,Павел Озеров,1980,90,84.35,220,230,240,240,240,M,Open,B,Single-ply
 3,Sergey Potapenko,Сергей Потапенко,1969,90,85.6,215,225,-232.5,225,225,M,Open,B,Single-ply
-4,Denis Arkhipov,Денис Архіпов,1985,90,88.45,-220,220,-227.5,220,220,M,Open,B,Single-ply
+4,Denis Arkhipov #4,Денис Архипов,,90,88.45,-220,220,-227.5,220,220,M,Open,B,Single-ply
 5,Aleksandr Evseev,Александр Евсеев,1976,90,87.9,200,210,215,215,215,M,Open,B,Single-ply
 6,Anton Akhlamchenko,Антон Ахламченко,1986,90,89.45,185,-200,200,200,200,M,Open,B,Single-ply
-1,Aleksey Pavlovskiy,Алексей Павловский,1974,100,96.75,250,260,262.5,262.5,262.5,M,Open,B,Single-ply
+1,Aleksey Pavlovskiy #1,Алексей Павловский,1974,100,96.75,250,260,262.5,262.5,262.5,M,Open,B,Single-ply
 2,Dmitriy Batrakov,Дмитрий Батраков,1976,100,99.95,240,250,262.5,262.5,262.5,M,Open,B,Single-ply
 3,Artem Nechaev,Артем Нечаев,1985,100,98.95,210,217.5,227.5,227.5,227.5,M,Open,B,Single-ply
 4,Aleksandr Luchnikov,Александр Лучников,1985,100,99.7,200,215,225,225,225,M,Open,B,Single-ply
@@ -96,6 +96,6 @@ DQ,Aleksey Voronin,Алексей Воронин,1982,110,109.9,-255,-255,-255,,
 4,Mikhail Shivlyakov,Михаил Шивляков,1980,125,119.95,245,-252.5,-257.5,245,245,M,Open,B,Single-ply
 1,Mikhail Lebedenko,Михаил Лебеденко,1976,125+,128.5,265,280,290,290,290,M,Open,B,Single-ply
 2,Oleg Gagin,Олег Гагин,1975,125+,156.55,270,290,,290,290,M,Open,B,Single-ply
-3,Aleksandr Berezin,Александр Березин,1974,125+,132.1,270,-285,-290,270,270,M,Open,B,Single-ply
+3,Aleksandr Berezin #1,Александр Березин,1974,125+,132.1,270,-285,-290,270,270,M,Open,B,Single-ply
 4,Yuriy Bobyrev,Юрий Бобырев,1982,125+,143.5,235,250,255,255,255,M,Open,B,Single-ply
 5,Maksim Yakimenko,Максим Якименко,1984,125+,136,220,-230,-230,220,220,M,Open,B,Single-ply

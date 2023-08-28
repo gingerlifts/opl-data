@@ -35,11 +35,11 @@ WeightClassKg,Name,Sex,Division,Equipment,Event,BodyweightKg,Best3SquatKg,Best3B
 100,Shane Brodie,M,Open,Multi-ply,SBD,96.48,365.14,215.46,,,290.3,870.9,7
 110,Craig Coombes,M,Open,Multi-ply,SBD,109.77,453.59,328.85,,,319.78,1102.23,1
 110,Pat Helber,M,Open,Multi-ply,SBD,109.81,412.77,281.23,,,303.91,997.9,2
-110,Magic Mike,M,Open,Multi-ply,SBD,109.77,394.63,260.82,,,322.05,977.49,3
+110,Mike Monaghan,M,Open,Multi-ply,SBD,109.77,394.63,260.82,,,322.05,977.49,3
 110,Marcus Wild,M,Open,Multi-ply,SBD,109.77,369.68,278.96,,,324.32,972.96,4
 110,Adam Pickles,M,Open,Multi-ply,SBD,109.77,383.29,249.48,,,337.93,970.69,5
 110,Chris Bartl,M,Open,Multi-ply,SBD,109.5,365.14,256.28,,,312.98,934.4,6
-110,Clint Smith,M,Open,Multi-ply,SBD,109.32,390.09,,,,,,DQ
+110,Clint Smith #1,M,Open,Multi-ply,SBD,109.32,390.09,,,,,,DQ
 110,Chris Della Fave,M,Open,Multi-ply,SBD,109.77,,,,,,,DQ
 125,Tory Pelzer,M,Open,Multi-ply,SBD,124.74,455.86,365.14,,,362.87,1183.88,1
 125,Justin Winder,M,Open,Multi-ply,SBD,122.15,453.59,362.87,,,326.59,1143.05,2
@@ -50,7 +50,7 @@ WeightClassKg,Name,Sex,Division,Equipment,Event,BodyweightKg,Best3SquatKg,Best3B
 125,Brian Carroll,M,Open,Multi-ply,SBD,123.22,485.34,374.21,,,65.77,925.33,7
 125,Artem Stepanenko,M,Open,Multi-ply,SBD,124.28,369.68,249.48,,,290.3,909.45,8
 125,Shawn Knowles,M,Open,Multi-ply,SBD,121.88,344.73,208.65,,,283.5,836.88,9
-125,Ben Williams,M,Open,Multi-ply,SBD,124.96,,,,,,,DQ
+125,Ben Williams #4,M,Open,Multi-ply,SBD,124.96,,,,,,,DQ
 140,Chris Janek,M,Open,Multi-ply,SBD,139.71,498.95,356.07,,,381.02,1236.04,1
 140,Allan Mehan,M,Open,Multi-ply,SBD,138.57,474,349.27,,,349.27,1172.54,2
 140,Derek Wade,M,Open,Multi-ply,SBD,136.53,453.59,326.59,,,335.66,1115.84,3
@@ -67,7 +67,7 @@ WeightClassKg,Name,Sex,Division,Equipment,Event,BodyweightKg,Best3SquatKg,Best3B
 140+,Andy Bolton,M,Open,Multi-ply,BD,152.41,,310.71,362.87,419.57,419.57,730.28,G
 ,Jimmy Kolb,M,HW,Multi-ply,B,106.59,,430.91,,,,430.91,1
 ,Jake Prazak,M,HW,Multi-ply,B,,,419.57,,,,419.57,2
-,Matt Houser,M,HW,Multi-ply,B,,,412.77,,,,412.77,3
+,Matt Houser #1,M,HW,Multi-ply,B,,,412.77,,,,412.77,3
 ,Mike Womack #1,M,HW,Multi-ply,B,,,390.09,,,,390.09,4
 ,Allen Baria,M,HW,Multi-ply,B,,,362.87,,,,362.87,5
 ,Tiny Meeker,M,HW,Multi-ply,B,,,,,,,,DQ
@@ -76,4 +76,4 @@ WeightClassKg,Name,Sex,Division,Equipment,Event,BodyweightKg,Best3SquatKg,Best3B
 ,Greg Powell,M,LW,Multi-ply,B,,,328.85,,,,328.85,3
 ,Tim Hensley,M,LW,Multi-ply,B,,,317.51,,,,317.51,4
 ,Tom Wladrep,M,LW,Multi-ply,B,,,317.51,,,,317.51,5
-,Maryana Naumova,F,Guest,Multi-ply,B,,,129.27,,,,129.27,G
+,Maryana Naumova,F,LW,Multi-ply,B,,,129.27,,,,129.27,G

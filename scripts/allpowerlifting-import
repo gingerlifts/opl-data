@@ -43,17 +43,20 @@ def getmeetinfo(soup):
                       'MeetState', 'MeetTown', 'MeetName']
 
     # Get the info table.
-    infotable = soup.find('table', {'class': 'stdtable'})
+    infotable = soup.find('div', {'class': 'col-lg-6'})
+
     if infotable == []:
         error("Couldn't find the info table.")
 
     # Get the fed.
-    fedrow = infotable.find_all('tr')[0]
-    fed = fedrow.find_all('td')[1].text
+    info = infotable.find_all('dd')
+
+    fed = info[0].text
     fed = fed[fed.find("(")+1:fed.find(")")]
 
     # Correct fed names to the form that we use
-    if fed in ['RPF', 'SPPF', 'MPF', 'FPVO', 'FPIO', 'FPYNAO']:
+    if fed in ['RPF', 'SPPF', 'MPF', 'FPVO', 'FPIO', 'FPYNAO', 'FPKK', 'FPVrn', 'PFMr',
+               'TPF', 'FPRME']:
         fed = 'FPR'
     elif fed in ['UPF']:
         fed = 'UkrainePF'
@@ -62,7 +65,7 @@ def getmeetinfo(soup):
 
     # A list of Russian cities and their states as a timesaver
 
-    state_dict = {'Izhevsk': 'UD', 'St. Petersburg,': 'LEN', 'Khanty-Mansiysk': 'KHM',
+    state_dict = {'Izhevsk': 'UD', 'St. Petersburg': 'LEN', 'Khanty-Mansiysk': 'KHM',
                   'Sochi': 'KDA', 'Blagoveshchensk': 'AMU', 'Moscow': 'MOW',
                   'Belogorsk': 'AMU', 'Cherepovets ': 'VLG', 'Perm': 'PER',
                   'Kostroma': 'KOS', 'Samara': 'SAM', 'Zelenogorsk': 'LEN',
@@ -73,17 +76,49 @@ def getmeetinfo(soup):
                   'Oryol': 'ORL', 'Yekaterinburg': 'SVE', 'Ukhta': 'KO',
                   'Yoshkar-Ola': 'ME', 'Yaroslavl': 'YAR', 'Voskresensk': 'MOW',
                   'Novgorod': 'NOV', 'Surgut': 'KHM', 'Myski': 'KEM',
-                  'Volgograd': 'VGG', 'Vladimir': 'VLA', 'Stavropol': 'STA'}
+                  'Volgograd': 'VGG', 'Vladimir': 'VLA', 'Stavropol': 'STA',
+                  'Kungur': 'PER', 'Kursk': 'KRS', 'Voronezh': 'VOR',
+                  'Arsenyev': 'PRI', 'Vladikavkaz': 'SE', 'Saratov': 'SAR',
+                  'Belgorod': 'BEL', 'Nakhodka': 'PRI', 'Krasnodar': 'KDA',
+                  'Krymsk': 'KDA', 'Vladivostok': 'PRI', 'Novorossiysk': 'KDA',
+                  'Novosibirsk': 'NVS', 'Barnaul': 'ALT', 'Rostov-on-Don': 'ROS',
+                  'Kazan': 'TA', 'Nizhny Novgorod': 'NIZ', 'Kavalerovo': 'PRI',
+                  'Suzdal': 'VLA', 'Taganrog': 'ROS', 'Khabarovsk': 'KHA',
+                  'Beryozovsky': 'SVE', 'Togliatti': 'SAM', 'Engels': 'SAR',
+                  'Rzhev': 'TVE', 'Omsk': 'OMS', 'Anapa': 'KDA', 'Gurievsk': 'KGD',
+                  'Tomsk': 'TOM', 'Lipetsk': 'LIP', 'Tyumen': 'TYU', 'Gulkevichi': 'KDA',
+                  'Penza': 'PNZ', 'Zabaykalsk': 'ZAB', 'Tambov': 'TAM', 'Nalchik': 'KB',
+                  'Murmansk': 'MUR'}
 
     town_aliases = {'Hanti-Mansiysk': 'Khanty-Mansiysk',
                     'Saint Petersburg': 'St. Petersburg',
                     'Leninsk-Kuznetskiy': 'Leninsk-Kuznetsky',
                     'Ruzaevka': 'Ruzayevka',
-                    'Yekaterinbourg': 'Yekaterinburg', 'Uhkta': 'Ukhta'}
+                    'Yekaterinbourg': 'Yekaterinburg', 'Uhkta': 'Ukhta',
+                    'Челябинск': 'Chelyabinsk', 'Пермь': 'Perm', 'Курск': 'Kursk',
+                    'Екатеринбург': 'Yekaterinburg', 'Вологда': 'Vologda',
+                    'Краснодар': 'Krasnodar', 'Crymsk': 'Krymsk',
+                    'Санкт-Петербург': ' St. Petersburg', 'Саратов': 'Saratov',
+                    'Владивосток': 'Vladivostok', 'Крымск': 'Krymsk',
+                    'Ставрополь': 'Stavropol', 'Новороссийск': 'Novorossiysk',
+                    'Rostov-na-Donu': 'Rostov-on-Don',
+                    'Nizhniy Novgorod': 'Nizhny Novgorod', 'Калуга': 'Kaluga',
+                    'пгт Кавалерово': 'Kavalerovo', 'Суздаль': 'Suzdal',
+                    'Благовещенск': 'Blagoveshchensk', 'Москва': 'Moscow',
+                    'Воронеж': 'Voronezh', 'Казань': 'Kazan',
+                    'Ростов-на-Дону': 'Rostov-on-Don', 'Тольятти': 'Togliatti',
+                    'Череповец': 'Cherepovets', 'Белгород': 'Belgorod',
+                    'Нижний Новгород': 'Nizhny Novgorod', 'Волгоград': 'Volgograd',
+                    'Новосибирск': 'Novosibirsk', 'Togliatty': 'Togliatti',
+                    'Blagoveschensk': 'Blagoveshchensk', 'Мурманск': 'Murmansk'}
+
+    country_aliases = {'Россия': 'Russia', 'Slovak Republic': 'Slovakia',
+                       'Czech Republic': 'Czechia', 'Tadjikistan': 'Tajikistan',
+                       'Австрия': 'Austria', 'Польша': 'Poland', 'Украина': 'Ukraine'}
 
     # Get the location.
-    venuerow = fedrow.find_next_sibling()
-    venue = venuerow.find_all('td')[1].text
+    venuerow = info[2]
+    venue = venuerow.a['title']
     if venue[-2:] == ', ':
         venue = venue[:-2]
 
@@ -95,6 +130,9 @@ def getmeetinfo(soup):
         country = venue
         town = ''
 
+    if country in country_aliases:
+        country = country_aliases[country]
+
     if town in town_aliases:
         town = town_aliases[town]
 
@@ -103,14 +141,17 @@ def getmeetinfo(soup):
         state = state_dict[town]
 
     # Get the date.
-    daterow = venuerow.find_next_sibling()
-    longdate = daterow.find_all('td')[1].text
-    if ',' in longdate:
-        [daymonth, year] = longdate.split(',')
+    daterow = venuerow.find_next_sibling().find_next_sibling()
+
+    longdate = daterow.text
+    longdate = longdate.replace(" - ", "-")
+
+    if ' ' in longdate and longdate.strip().count(' ') == 2:
+        [day, month, year] = longdate.strip().split(' ')
         year = year.strip()
 
-        month = daymonth.split(' ')[0]
-        day = daymonth.split(' ')[1]
+        if "-" in day:
+            day = day.split("-")[0]
 
         for month_key in month_dict.keys():
             if month.lower() in month_key:
@@ -124,10 +165,10 @@ def getmeetinfo(soup):
         date = ''
 
     # Get the competition name.
-    h1 = soup.find('h1')
-    if len(h1) != 1:
+    h2 = soup.find('h2')
+    if len(h2) != 1:
         error("Couldn't find the competition name.")
-    name = h1.text.replace(';', '').replace(',', '')
+    name = h2.text.replace(';', '').replace(',', '')
 
     row = [fed, date, country, state, town, name]
     for i, r in enumerate(row):
@@ -139,25 +180,60 @@ def getmeetinfo(soup):
 def getresults(soup, url):
     csv = Csv()
 
-    if '?all_attempts=1' not in url:
-        url = url + '?all_attempts=1'
+    subpages = soup.find('ul', {'class': 'nav-tabs'})
 
-    subpage_html = gethtml(url)
-    subpage_html = re.sub('<sup.*?sup>', '', subpage_html)
+    if subpages:
+        csv.append_column('SheetName')
+        links = subpages.find_all('a')
 
-    subpage_html = subpage_html.replace('<span class="result-value-fail">',
-                                        '<span class="result-value-fail">-')
+        div_names = subpages.find_all('li')
+        ii = 0
 
-    subpage_soup = BeautifulSoup(subpage_html, 'html.parser')
-    csv = getpagedata(subpage_soup)
+        for ii in range(len(links)):
 
-    # For some reason BirthYear sometimes vanishes when we show all attempts,
-    # so grab it with the Russian names
-    url = url.replace('?all_attempts=1', '')
+            link = links[ii]
+            subpage_ext = link['href'].split('/')[:-1][-1]
 
-    # The english site is currently broken
-    if 'en.' in url:
-        [russian_names, birthyears] = get_cyrillic_names_and_birthyears(url)
+            subpage_url = url + subpage_ext
+            subpage_html = gethtml(subpage_url)
+            subpage_html = subpage_html.replace('<del>', '<del>-')
+
+            div_name = re.sub(r'\d', '', div_names[ii].text).strip()
+
+            subpage_soup = BeautifulSoup(subpage_html, 'html.parser')
+            subpage_csv = getpagedata(subpage_soup)
+
+            if 'Name' in subpage_csv.fieldnames:
+                [russian_names, birthyears] = get_cyrillic_names_and_birthyears(
+                    subpage_url)
+
+                subpage_csv.append_column('CyrillicName')
+                cyrnameidx = subpage_csv.index('CyrillicName')
+                nameidx = subpage_csv.index('Name')
+
+                if 'BirthYear' not in subpage_csv.fieldnames:
+                    subpage_csv.append_column('BirthYear')
+                byidx = subpage_csv.index('BirthYear')
+
+                for ii in range(len(subpage_csv.rows)):
+                    if subpage_csv.rows[ii][nameidx] != russian_names[ii]:
+                        subpage_csv.rows[ii][cyrnameidx] = russian_names[ii]
+
+                    if birthyears[ii] != '':
+                        subpage_csv.rows[ii][byidx] = birthyears[ii]
+
+            subpage_csv.append_column('SheetName')
+            for row in subpage_csv.rows:
+                row[-1] = div_name.lower()
+
+            csv.cat(subpage_csv)
+
+    else:
+        # The english site is currently broken
+        if 'en.' in url:
+            [russian_names, birthyears] = get_cyrillic_names_and_birthyears(
+                url)
+
         csv.append_column('CyrillicName')
         cyrnameidx = csv.index('CyrillicName')
         nameidx = csv.index('Name')
@@ -172,80 +248,32 @@ def getresults(soup, url):
 
             csv.rows[ii][byidx] = birthyears[ii]
 
-    subpages = soup.find('ul', id='pldb-table-subs')
-
-    if subpages:
-        div_name = re.sub(r'\(.*?\)', '', subpages.find('li').text).strip()
-        csv.append_column('SheetName')
-        for row in csv.rows:
-            row[-1] = div_name.lower()
-
-        links = subpages.find_all('a')
-
-        for link in links:
-            div_name = re.sub(r'\(.*?\)', '', link.text).strip()
-            subpage_ext = link['href'].split('/')[:-1][-1]
-
-            subpage_url = url + subpage_ext + '/?all_attempts=1'
-            subpage_html = gethtml(subpage_url)
-            subpage_html = subpage_html.replace(
-                '<span class="result-value-fail">', '<span class="result-value-fail">-')
-            # Remove record text
-            subpage_html = re.sub('<sup.*?sup>', '', subpage_html)
-            subpage_soup = BeautifulSoup(subpage_html, 'html.parser')
-            subpage_csv = getpagedata(subpage_soup)
-
-            if 'Name' in subpage_csv.fieldnames:
-                [russian_names, birthyears] = get_cyrillic_names_and_birthyears(
-                    subpage_url.replace('?all_attempts=1', ''))
-
-                subpage_csv.append_column('CyrillicName')
-                cyrnameidx = subpage_csv.index('CyrillicName')
-                nameidx = subpage_csv.index('Name')
-
-                if 'BirthYear' not in subpage_csv.fieldnames:
-                    subpage_csv.append_column('BirthYear')
-                byidx = subpage_csv.index('BirthYear')
-
-                for ii in range(len(subpage_csv.rows)):
-                    if subpage_csv.rows[ii][nameidx] != russian_names[ii]:
-                        subpage_csv.rows[ii][cyrnameidx] = russian_names[ii]
-
-                    subpage_csv.rows[ii][byidx] = birthyears[ii]
-
-            subpage_csv.append_column('SheetName')
-            for row in subpage_csv.rows:
-                row[-1] = div_name.lower()
-
-            csv.cat(subpage_csv)
-
     return csv
 
 
 # Returns just the Russian names and BirthYears for lifters
 def get_cyrillic_names_and_birthyears(url):
     # Get the html for the Russian site
-    html = gethtml(url.replace('http://en.', 'http://'))
+    html = gethtml(url.replace('http://en.', 'http://')
+                      .replace('https://en.', 'https://'))
 
     soup = BeautifulSoup(html, 'html.parser')
-
     names = []
     birthyears = []
 
 
 # Get the results table.
-    table = soup.find('table', {'class': 'pldb-table2'})
+    table = soup.find('table', {'class': 'table-xs'})
     if table == []:
         error("Couldn't find the results table.")
-
     trs = table.find_all('tr')
 
     # Get column information.
-    headers = [x.text for x in trs[0].find_all('th')]
+    headers = [x.text for x in trs[1].find_all('th')]
     nameidx = None
     byidx = None
     for ii in range(len(headers)):
-        if headers[ii] == 'Спортсмен':
+        if headers[ii] in ['Спортсмен', 'Имя', 'Name']:
             nameidx = ii
         elif headers[ii] == 'ГР':
             byidx = ii
@@ -260,12 +288,13 @@ def get_cyrillic_names_and_birthyears(url):
 
         if len(row) > 1:
             tds = tr.find_all('td')
-            name = tds[nameidx].text
+            name = ' '.join(tds[nameidx].text.split())
 
             names.append(name)
 
             if byidx:
-                by = tds[byidx].text.replace('—', '')
+                by = ' '.join(tds[byidx].text.replace(
+                    '—', '').replace('-', '').split())
             else:
                 by = ''
 
@@ -278,67 +307,71 @@ def getpagedata(soup):
     csv = Csv()
 
     # Get the results table.
-    table = soup.find('table', {'class': 'pldb-table2'})
+    table = soup.find('table', {'class': 'table-xs'})
     if table == []:
         error("Couldn't find the results table.")
 
     trs = table.find_all('tr')
 
     # Get column information.
-    headers = [x.text for x in trs[0].find_all('th')]
+    headers = [x.text for x in trs[1].find_all('th')]
     csv.fieldnames = []
     for h in headers:
-        if h in [' ', '\xa0']:
+        # Allpowerlifting is annoying and have removed the place header
+        # on their new site, it's the second column (always?)
+        if len(csv.fieldnames) == 1:
+            csv.fieldnames += ['Place']
+        elif h in [' ', '\xa0', '\n']:
             csv.fieldnames += ['IGNORE']
         elif h in ['Pl', 'М']:
             csv.fieldnames += ['Place']
-        elif h == 'Lifter':
+        elif h in ['Lifter', 'Name']:
             csv.fieldnames += ['Name']
-        elif h == 'Спортсмен':
+        elif h in ['Спортсмен', 'Имя']:
             csv.fieldnames += ['CyrillicName']
-        elif h in ['Age cls', 'Возр']:
+        elif h in ['Age cls', 'Возр', 'Age']:
             csv.fieldnames += ['Division']
-        elif h in ['BY', 'ГР']:
+        elif h in ['BY', 'ГР', 'YOB']:
             csv.fieldnames += ['BirthYear']
         elif h == 'From':
             csv.fieldnames += ['IGNORE']
-        elif h in ['Body wt', 'Вес']:
+        elif h in ['Body wt', 'Вес', 'Weight']:
             csv.fieldnames += ['BodyweightKg']
-        elif h in ['SQ1', 'П1']:
+        elif h in ['SQ1', 'П1', 'S1']:
             csv.fieldnames += ['Squat1Kg']
-        elif h in ['SQ2', 'П2']:
+        elif h in ['SQ2', 'П2', 'S2']:
             csv.fieldnames += ['Squat2Kg']
-        elif h in ['SQ3', 'П3']:
+        elif h in ['SQ3', 'П3', 'S3']:
             csv.fieldnames += ['Squat3Kg']
-        elif h in ['SQ', 'П']:
+        elif h in ['SQ', 'П', 'S']:
             csv.fieldnames += ['Best3SquatKg']
-        elif h in ['BP1', 'Ж1']:
+        elif h in ['BP1', 'Ж1', 'B1']:
             csv.fieldnames += ['Bench1Kg']
-        elif h in ['BP2', 'Ж2']:
+        elif h in ['BP2', 'Ж2', 'B2']:
             csv.fieldnames += ['Bench2Kg']
-        elif h in ['BP3', 'Ж3']:
+        elif h in ['BP3', 'Ж3', 'B3']:
             csv.fieldnames += ['Bench3Kg']
-        elif h in ['BP', 'Ж']:
+        elif h in ['BP', 'Ж', 'B']:
             csv.fieldnames += ['Best3BenchKg']
-        elif h in ['DL1', 'Т1']:
+        elif h in ['DL1', 'Т1', 'D1']:
             csv.fieldnames += ['Deadlift1Kg']
-        elif h in ['DL2', 'Т2']:
+        elif h in ['DL2', 'Т2', 'D2']:
             csv.fieldnames += ['Deadlift2Kg']
-        elif h in ['DL3', 'Т3']:
+        elif h in ['DL3', 'Т3', 'D3']:
             csv.fieldnames += ['Deadlift3Kg']
-        elif h in ['DL', 'Т']:
+        elif h in ['DL', 'Т', 'D']:
             csv.fieldnames += ['Best3DeadliftKg']
         elif h in ['Total', 'Сумма']:
             csv.fieldnames += ['TotalKg']
-        elif h in ['Nat', 'Откуда', 'Стр']:
+        elif h in ['Nat', 'Откуда', 'Стр', 'Location']:
             csv.fieldnames += ['Country']
         elif h == 'G':
             csv.fieldnames += ['IGNORE']
-        elif h in ['R', 'W', 'S/M', 'S', 'G']:  # Resh, Wilks, Schwartz/Malone
+        elif h in ['R', 'W', 'S/M', 'S', 'G', 'Points']:  # Resh, Wilks, Schwartz/Malone
             csv.fieldnames += ['IGNORE']
         elif h == 'Team':
             csv.fieldnames += ['IGNORE']
-        elif h in ['Coach', 'Тренер']:
+        elif h in ['Coach', 'Тренер', 'Trainer']:
             csv.fieldnames += ['IGNORE']
         else:
             error("Unknown column name: \"%s\"" % h)
@@ -351,8 +384,8 @@ def getpagedata(soup):
     # If unspecified assume male and fix later
     sexstate = 'M'
 
-    for tr in trs[1:]:
-        row = [x.text for x in tr.find_all('td')]
+    for tr in trs[0:]:
+        row = [x.text for x in tr.find_all(['td', 'th'])]
 
         # Rows of length >1 are actual results, of length 1 are categories.
         if len(row) == 1:
@@ -363,24 +396,63 @@ def getpagedata(soup):
             elif 'men' in text or 'мужчины' in text:
                 sexstate = 'M'
             elif 'category' in text:
-                wcstate = text.replace('category ', '').replace(' kg', '')
+                wcstate = ' '.join(text.replace(
+                    'category ', '').replace(' kg', '').split())
                 if '+' in wcstate:
                     wcstate = wcstate.replace('+', '')+'+'
-        else:
 
+        elif tr.find_all('th') == []:  # Otherwise it's a header
             row = []
+
             for td in tr.find_all('td'):
+
+                if td.has_attr('class') and td.attrs['class'] == ['font-weight-bold',
+                                                                  'general',
+                                                                  'border-right',
+                                                                  'text-right']:
+                    continue
+
                 text = td.text
 
                 # Get the country data
-                if (td.has_attr('id') and 'LocationID' in td['id'] and td.a):
-                    text = td.a['title']
+                if td.find('i'):
+                    text = td.i['class'][0]
+                    text = text.replace('flag-icon-', '')
+                    country_codes = {'ru': 'Russia', 'kz': 'Kazakhstan',
+                                     'az': 'Azerbaijan', 'ua': 'Ukraine',
+                                     'by': 'Belarus', 'tj': 'Tajikistan',
+                                     'ie': 'Ireland', 'lv': 'Latvia',
+                                     'kg': 'Kyrgyzstan', 'md': 'Moldova',
+                                     'mn': 'Mongolia', 'us': 'USA',
+                                     'at': 'Austria', 'hu': 'Hungary',
+                                     'cz': 'Czechia', 'de': 'Germany',
+                                     'pl': 'Poland', 'sk': 'Slovakia',
+                                     'it': 'Italy', 'se': 'Sweden',
+                                     'fr': 'France', 'ch': 'Switzerland',
+                                     'sr': 'Serbia', 'am': 'Armenia',
+                                     'ir': 'Iran', 'ee': 'Estonia',
+                                     'gb': 'UK', 'mt': 'Malta',
+                                     'za': 'South Africa', 'au': 'Australia',
+                                     'ro': 'Romania', 'be': 'Belgium',
+                                     'mx': 'Mexico', 'nl': 'Netherlands',
+                                     'in': 'India', 'lu': 'Luxembourg',
+                                     'is': 'Iceland', 'uz': 'Uzbekistan',
+                                     'ga': 'Georgia', 'cm': 'Cameroon',
+                                     'jp': 'Japan', 'hk': 'Hong Kong',
+                                     'tm': 'Turkmenistan', 'af': 'Afghanistan',
+                                     'lb': 'Lebanon', 'om': 'Oman', 'ae': 'UAE',
+                                     'lt': 'Lithuania', 'ng': 'Nigeria', 'ge': 'Georgia',
+                                     'cu': 'Cuba', 'lk': 'Sri Lanka', 'il': 'Israel',
+                                     'iq': 'Iraq', 'dk': 'Denmark', 'no': 'Norway'}
+                    if text in country_codes:
+                        text = country_codes[text]
 
                 if text is None:
                     text = ''
 
-                row.append(text.strip().replace(
-                    '  ', ' ').replace(',', ' ').replace('—', ''))
+                text = ' '.join(text.split())
+                text = text.replace('- ', '-')
+                row.append(text.strip().replace(',', ' ').replace('—', ''))
 
             row = row + [wcstate, sexstate]
             csv.rows += [row]
@@ -392,14 +464,14 @@ def expand_fourths(csv, bestlift, lift4):
     bestidx = csv.index(bestlift)
 
     for row in csv.rows:
-        if '(' in row[bestidx]:
+        if ' ' in row[bestidx].strip():
             if lift4 not in csv.fieldnames:
                 csv.insert_column(bestidx+1, lift4)
             lift4idx = csv.index(lift4)
 
-            [row[bestidx], row[lift4idx]] = row[bestidx].split('(')
+            [row[bestidx], row[lift4idx]] = row[bestidx].strip().split(' ')
             row[bestidx] = row[bestidx].strip()
-            row[lift4idx] = row[lift4idx].replace(')', '').strip()
+            row[lift4idx] = row[lift4idx].strip()
 
 
 def fix_place(csv):
@@ -407,7 +479,7 @@ def fix_place(csv):
     totalidx = csv.index('TotalKg')
     for row in csv.rows:
         row[placeidx] = row[placeidx].replace('.', '')
-        if row[placeidx] == '':
+        if row[placeidx] in ['', '-', 'нк', 'н']:
             row[placeidx] = 'DQ'
             row[totalidx] = ''  # Instead of a zero.
         elif row[placeidx] == 'DQ':  # Allpowerlifting marks doping disquals as DQ
@@ -435,6 +507,36 @@ def fix_totals(csv):
             total += float(row[csv.index('Best3DeadliftKg')])
 
         row[totalidx] = str(total)
+
+
+def remove_records(csv):
+    def getevtindices(csv, fieldl):
+        indexlist = []
+        for f in fieldl:
+            try:
+                indexlist.append(csv.index(f))
+            except ValueError:
+                pass
+        return indexlist
+
+    squatidxl = getevtindices(
+        csv, ['Squat1Kg', 'Squat2Kg', 'Squat3Kg', 'Squat4Kg', 'Best3SquatKg'])
+    benchidxl = getevtindices(
+        csv, ['Bench1Kg', 'Bench2Kg', 'Bench3Kg', 'Bench4Kg', 'Best3BenchKg'])
+    deadliftidxl = getevtindices(
+        csv, ['Deadlift1Kg', 'Deadlift2Kg', 'Deadlift3Kg', 'Deadlift4Kg',
+              'Best3DeadliftKg'])
+
+    attempt_idcs = squatidxl + benchidxl + deadliftidxl
+    if 'TotalKg' in csv.fieldnames:
+        attempt_idcs = attempt_idcs + [csv.index('TotalKg')]
+
+    for row in csv.rows:
+        for col in attempt_idcs:
+            row[col] = row[col].replace('  ', ' ').lstrip().strip()
+            splitentry = row[col].split(' ')
+            row[col] = ' '.join([s for s in splitentry if s.replace(
+                '.', '', 1).replace('-', '', 1).isdigit()])
 
 
 def unreverse_names(csv):
@@ -593,18 +695,20 @@ def parse_sheetname(csv):
             elif 'dl' in row[sn_idx]:
                 row[event_idx] = 'D'
                 row[sn_idx] = row[sn_idx].replace('dl', '')
-            elif 'pp' in row[sn_idx]:
+            elif 'PP' in row[sn_idx]:
                 row[event_idx] = 'BD'
                 row[sn_idx] = row[sn_idx].replace('pp', '')
-            row[sn_idx] = row[sn_idx].strip().replace('  ', ' ')
+            row[sn_idx] = ' '.join(
+                row[sn_idx].strip().replace('  ', ' ').split())
     return csv
 
 
 def standardise_division(fed, csv):
     if 'Division' in csv.fieldnames:
+        div_idx = csv.index('Division')
+
         # IPF Feds that we are likely to use this script for
-        if fed in ['FPR', 'KPF', 'UkrainePF']:
-            div_idx = csv.index('Division')
+        if fed in ['FPR', 'KPF', 'UkrainePF', 'CPF', 'BelPF']:
             for row in csv.rows:
                 if row[div_idx] == 'T':
                     row[div_idx] = 'Sub-Juniors'
@@ -620,6 +724,80 @@ def standardise_division(fed, csv):
                     row[div_idx] = 'Masters 3'
                 elif row[div_idx] == 'M4':
                     row[div_idx] = 'Masters 4'
+        elif fed in ['WPC-RUS', 'FPMO-WPC', 'FPTO', 'POKK-WPC-W', 'WPA-RUS', 'NPA',
+                     'NPA-CRI', 'UPC']:
+            for row in csv.rows:
+                if row[div_idx] == 'T':
+                    row[div_idx] = 'Teen'
+                elif row[div_idx] == 'T1':
+                    row[div_idx] = 'Teen 13-15'
+                elif row[div_idx] == 'T2':
+                    row[div_idx] = 'Teen 16-17'
+                elif row[div_idx] == 'T3':
+                    row[div_idx] = 'Teen 18-19'
+                elif row[div_idx] == 'J':
+                    row[div_idx] = 'Juniors 20-23'
+                elif row[div_idx] == 'O':
+                    row[div_idx] = 'Open'
+                elif row[div_idx] == 'MS':
+                    row[div_idx] = 'Submasters 33-39'
+                elif row[div_idx] == 'M1':
+                    row[div_idx] = 'Masters 40-44'
+                elif row[div_idx] == 'M2':
+                    row[div_idx] = 'Masters 45-49'
+                elif row[div_idx] == 'M3':
+                    row[div_idx] = 'Masters 50-54'
+                elif row[div_idx] == 'M4':
+                    row[div_idx] = 'Masters 55-59'
+                elif row[div_idx] == 'M5':
+                    row[div_idx] = 'Masters 60-64'
+                elif row[div_idx] == 'M6':
+                    row[div_idx] = 'Masters 65-69'
+                elif row[div_idx] == 'M7':
+                    row[div_idx] = 'Masters 70-74'
+                elif row[div_idx] == 'M8':
+                    row[div_idx] = 'Masters 75-79'
+                elif row[div_idx] == 'M9':
+                    row[div_idx] = 'Masters 80-84'
+                elif row[div_idx] == 'M':
+                    row[div_idx] = 'Masters'
+        elif fed in ['WUAP']:
+            for row in csv.rows:
+                if row[div_idx] == 'T':
+                    row[div_idx] = 'Teen'
+                elif row[div_idx] == 'T1':
+                    row[div_idx] = 'T 13-15'
+                elif row[div_idx] == 'T2':
+                    row[div_idx] = 'T 16-17'
+                elif row[div_idx] == 'T3':
+                    row[div_idx] = 'T 18-19'
+                elif row[div_idx] == 'J':
+                    row[div_idx] = 'Juniors'
+                elif row[div_idx] == 'O':
+                    row[div_idx] = 'Open'
+                elif row[div_idx] == 'MS':
+                    row[div_idx] = 'Submasters'
+                elif row[div_idx] == 'M1':
+                    row[div_idx] = 'M 40-44'
+                elif row[div_idx] == 'M2':
+                    row[div_idx] = 'M 45-49'
+                elif row[div_idx] == 'M3':
+                    row[div_idx] = 'M 50-54'
+                elif row[div_idx] == 'M4':
+                    row[div_idx] = 'M 55-59'
+                elif row[div_idx] == 'M5':
+                    row[div_idx] = 'M 60-64'
+                elif row[div_idx] == 'M6':
+                    row[div_idx] = 'M 65-69'
+                elif row[div_idx] == 'M7':
+                    row[div_idx] = 'M 70-74'
+                elif row[div_idx] == 'M8':
+                    row[div_idx] = 'M 75-79'
+                elif row[div_idx] == 'M9':
+                    row[div_idx] = 'M 80+'
+                elif row[div_idx] == 'M':
+                    row[div_idx] = 'Masters'
+
     return csv
 
 
@@ -633,6 +811,8 @@ def main(url):
 
     if len(entriescsv.rows) == 0:
         error("No rows found!")
+
+    remove_records(entriescsv)
 
     if 'Best3SquatKg' in entriescsv.fieldnames:
         expand_fourths(entriescsv, 'Best3SquatKg', 'Squat4Kg')
@@ -652,8 +832,6 @@ def main(url):
     entriescsv = parse_sheetname(entriescsv)
     entriescsv = standardise_division(meetcsv.rows[0][0], entriescsv)
 
-    remove_empty_cols_ignore_fieldname(entriescsv)
-
     # Wilks will be automatically calculated later.
     # Feds get it wrong all the time.
     if 'Wilks' in entriescsv.fieldnames:
@@ -667,6 +845,8 @@ def main(url):
     # Remove all the columns named 'IGNORE'
     while 'IGNORE' in entriescsv.fieldnames:
         entriescsv.remove_column_by_name('IGNORE')
+
+    remove_empty_cols_ignore_fieldname(entriescsv)
 
     try:
         os.makedirs(dirname)

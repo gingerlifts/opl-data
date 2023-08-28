@@ -17,7 +17,7 @@ DQ,Phillip Nicaud,2000,USA,65.55,-200,-200,-200,,125,132.5,-142.5,132.5,192.5,-2
 4,Goki Arai,2000,Japan,71.9,-185,192.5,-200,192.5,135,-142.5,142.5,142.5,170,-180,180,180,515,74,Sub-Juniors,SBD,M,Single-ply
 5,Mpho Hlanyane,,South Africa,70.7,-165,165,167.5,167.5,105,110,-115,110,200,212.5,-217.5,212.5,490,74,Sub-Juniors,SBD,M,Single-ply
 6,Lutho Tom,2001,South Africa,73.9,150,160,170,170,90,100,-112.5,100,170,185,200,200,470,74,Sub-Juniors,SBD,M,Single-ply
-1,Noah Johnson,2000,USA,81.8,270,280,287.5,287.5,-150,150,-155,150,270,282.5,-297.5,282.5,720,83,Sub-Juniors,SBD,M,Single-ply
+1,Noah Johnson #1,2000,USA,81.8,270,280,287.5,287.5,-150,150,-155,150,270,282.5,-297.5,282.5,720,83,Sub-Juniors,SBD,M,Single-ply
 2,Andrii Hnatiuk,2000,Ukraine,82.8,217.5,240,-272.5,240,130,-150,150,150,220,240,260,260,650,83,Sub-Juniors,SBD,M,Single-ply
 3,Itsuki Serikawa,2000,Japan,81.6,200,215,225,225,120,127.5,137.5,137.5,160,175,185,185,547.5,83,Sub-Juniors,SBD,M,Single-ply
 4,Ryuta Yanagigawa,2000,Japan,82.05,175,-190,-190,175,120,130,-137.5,130,165,177.5,-187.5,177.5,482.5,83,Sub-Juniors,SBD,M,Single-ply
@@ -82,7 +82,7 @@ DQ,Blake Lehew,1995,USA,73.9,-295,295,305,305,-210,-210,-210,,,,,,,74,Juniors,SB
 10,Adrian Smith,1995,South Africa,91.4,-250,260,-275,260,185,-200,-200,185,240,255,-270,255,700,93,Juniors,SBD,M,Single-ply
 11,Arun Sai Kumar,1995,India,88.95,225,-237.5,-237.5,225,130,137.5,-142.5,137.5,265,-285,-285,265,627.5,93,Juniors,SBD,M,Single-ply
 1,Oleksandr Rubets,1996,Ukraine,101.9,410,-433.5,,410,-280,280,301,301,330,350,360,360,1071,105,Juniors,SBD,M,Single-ply
-2,Danylo Kovalov,1996,Ukraine,104.1,380,-400,-400,380,290,300.5,301.5,301.5,305,315,322.5,322.5,1004,105,Juniors,SBD,M,Single-ply
+2,Danylo Kovalyov,1996,Ukraine,104.1,380,-400,-400,380,290,300.5,301.5,301.5,305,315,322.5,322.5,1004,105,Juniors,SBD,M,Single-ply
 3,Yaroslav Dikun,1995,Russia,104.3,300,320,330,330,225,240,250,250,245,265,280,280,860,105,Juniors,SBD,M,Single-ply
 4,Tuomas Puhakka,1995,Finland,104.35,270,-285,285,285,197.5,-207.5,207.5,207.5,270,290,300,300,792.5,105,Juniors,SBD,M,Single-ply
 5,Martin Prokop,1999,Czechia,104,275,285,-295,285,-190,-190,190,190,235,245,-252.5,245,720,105,Juniors,SBD,M,Single-ply
@@ -102,7 +102,7 @@ DQ,Oleksandr Tytarenko,1995,Ukraine,119.85,380,395,400,400,-265,-265,-265,,,,,,,
 2,Quamecca Stafford,2003,USA,49.45,125,135,-140,135,-75,-75,75,75,145,-160.5,-160.5,145,355,52,Sub-Juniors,SBD,F,Single-ply
 3,Angelina Battige,2004,USA,51.25,130,-135,-135,130,70,77.5,-82.5,77.5,135,142.5,-145,142.5,350,52,Sub-Juniors,SBD,F,Single-ply
 4,Karina Chebunina,2003,Russia,51.15,137.5,142.5,-145,142.5,57.5,62.5,-65,62.5,130,140,-145,140,345,52,Sub-Juniors,SBD,F,Single-ply
-1,Anastasiia Antoniuk,2002,Ukraine,56.65,170,-180,-180,170,90,95,100,100,150,-160,-160,150,420,57,Sub-Juniors,SBD,F,Single-ply
+1,Anastasiya Antonyuk,2002,Ukraine,56.65,170,-180,-180,170,90,95,100,100,150,-160,-160,150,420,57,Sub-Juniors,SBD,F,Single-ply
 2,Alina Domashina,2001,Russia,56.95,145,-155,-155,145,80,-85,-85,80,145,152.5,-155,152.5,377.5,57,Sub-Juniors,SBD,F,Single-ply
 3,Anastasia Ivacheva,2000,Russia,56.65,147.5,152.5,-157.5,152.5,70,75,-77.5,75,135,140,145,145,372.5,57,Sub-Juniors,SBD,F,Single-ply
 4,Yu-Yu Huang,2002,Taiwan,56.9,140,150,-155,150,60,65,-70,65,135,-145,-145,135,350,57,Sub-Juniors,SBD,F,Single-ply
@@ -130,8 +130,8 @@ DQ,Oleksandr Tytarenko,1995,Ukraine,119.85,380,395,400,400,-265,-265,-265,,,,,,,
 2,Miyabi Kikuchi,1998,Japan,46.35,130,-137.5,-137.5,130,85,92.5,97.5,97.5,125,132.5,-137.5,132.5,360,47,Juniors,SBD,F,Single-ply
 3,Kyra Rodriguez,1997,USA,46.8,135,142.5,-150,142.5,60,-65,-65,60,140,152.5,157.5,157.5,360,47,Juniors,SBD,F,Single-ply
 4,Kamali Kaliyappan,1996,India,46.54,135,-145,-145,135,65,-70,70,70,140,147.5,152.5,152.5,357.5,47,Juniors,SBD,F,Single-ply
-DQ,Irina Ivanova,1996,Russia,46.95,140,147.5,-150,147.5,-107.5,-107.5,-107.5,,130,-135,-135,130,,47,Juniors,SBD,F,Single-ply
-1,Tetyana Shlopko,1996,Ukraine,51.4,180,187.5,192.5,192.5,105,115,120,120,-155,155,162.5,162.5,475,52,Juniors,SBD,F,Single-ply
+DQ,Irina Ivanova #1,1996,Russia,46.95,140,147.5,-150,147.5,-107.5,-107.5,-107.5,,130,-135,-135,130,,47,Juniors,SBD,F,Single-ply
+1,Tetiana Bila,1996,Ukraine,51.4,180,187.5,192.5,192.5,105,115,120,120,-155,155,162.5,162.5,475,52,Juniors,SBD,F,Single-ply
 2,Margarita Vasileva,1995,Russia,51.85,-177.5,177.5,-182.5,177.5,-100,100,-110,100,147.5,155,160,160,437.5,52,Juniors,SBD,F,Single-ply
 3,Tatiana Smolekho,1996,Russia,51.85,160,-167.5,167.5,167.5,110,117.5,120,120,135,142.5,147.5,147.5,435,52,Juniors,SBD,F,Single-ply
 4,Alyson Galanga,1997,USA,51.05,-142.5,147.5,155,155,72.5,80,-85,80,172.5,185,190.5,190.5,425.5,52,Juniors,SBD,F,Single-ply

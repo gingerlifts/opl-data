@@ -9,7 +9,7 @@ Chelsea Nkwodimmah,67.5,26,,NJ,Raw,O,145.15,70.31,170.1,385.55,1,SBD,F
 Lauren Castiglia,67.5,32,,NJ,Raw,O,92.99,61.23,111.13,265.35,2,SBD,F
 Kathi Sottosanti,67.5,52,,NJ,Raw,50-54,99.79,54.43,142.88,297.1,1,SBD,F
 Jackie Thompson,75,26,,NJ,Raw,O,133.81,70.31,158.76,362.87,1,SBD,F
-Lisa Perry,75,,,NJ,Raw,45-49,88.45,61.23,120.2,269.89,1,SBD,F
+Lisa Perry #1,75,,,NJ,Raw,45-49,88.45,61.23,120.2,269.89,1,SBD,F
 Lisa Burke,82.5,44,,NJ,Wraps,40-44,140.61,79.38,170.1,390.09,1,SBD,F
 Dyan Zbikowski,82.5,37,,NJ,Raw,SM,129.27,65.77,163.29,358.34,1,SBD,F
 Dyan Zbikowski,82.5,37,,NJ,Raw,O,129.27,65.77,163.29,358.34,1,SBD,F
@@ -80,7 +80,7 @@ George Anderson #2,140,39,,NJ,Wraps,O,306.17,124.74,294.84,725.75,1,SBD,M
 Lamar Boyd,140,35,,NJ,Raw,SM,265.35,158.76,256.28,680.39,1,SBD,M
 Lamar Boyd,140,35,,NJ,Raw,P/F/M,265.35,158.76,256.28,680.39,1,SBD,M
 Brian Bonder,140+,48,,NJ,Wraps,45-49,226.8,138.35,197.31,562.45,1,SBD,M
-John Jackson,140+,44,,PA,Raw,40-44,240.4,210.92,265.35,716.68,1,SBD,M
+John Jackson #4,140+,44,,PA,Raw,40-44,240.4,210.92,265.35,716.68,1,SBD,M
 Tiny Richardson,140+,34,,NJ,Wraps,O,240.4,210.92,274.42,725.75,1,SBD,M
 Tiny Richardson,140+,34,,NJ,Wraps,P/F/M,240.4,210.92,274.42,725.75,1,SBD,M
 Colin McDonald,67.5,18,,MD,Raw,17-19,,113.4,,113.4,1,B,M
@@ -88,7 +88,7 @@ Momodu Sankoh,75,27,,NJ,Raw,O,,145.15,,145.15,1,B,M
 Bob Legg,75,64,,PA,Raw,60-64,,90.72,,90.72,1,B,M
 Anthony Marino,75,19,,,Raw,17-19,,111.13,,111.13,1,B,M
 Ron Erhardt,90,57,,NJ,Raw,55-59,,170.1,,170.1,1,B,M
-Kevin Jackson,90,45,,NJ,Raw,45-49,,124.74,,124.74,1,B,M
+Kevin Jackson #2,90,45,,NJ,Raw,45-49,,124.74,,124.74,1,B,M
 Emery Longan,90,22,,,Raw,JR,,131.54,,131.54,1,B,M
 Flávio Danna,90,,Brazil,,Raw,O,,136.08,,136.08,1,B,M
 Joe Martorina,100,47,,NJ,Raw,45-49,,151.95,,151.95,2,B,M
@@ -126,7 +126,7 @@ Bob Legg,75,64,,PA,Raw,60-64,,,138.35,138.35,1,D,M
 Abner Nazario,82.5,23,,NJ,Raw,O,,,308.44,308.44,1,D,M
 Abner Nazario,82.5,23,,NJ,Raw,JR,,,308.44,308.44,1,D,M
 Alex Green,82.5,20,,NY,Raw,JR,,,195.04,195.04,2,D,M
-Kevin Jackson,90,45,,NJ,Raw,45-49,,,195.04,195.04,1,D,M
+Kevin Jackson #2,90,45,,NJ,Raw,45-49,,,195.04,195.04,1,D,M
 Emery Longan,90,22,,,Raw,JR,,,247.21,247.21,1,D,M
 Ray Lopez,90,57,,CT,Raw,55-59,,,260.82,260.82,1,D,M
 Joe Martorina,100,47,,NJ,Raw,45-49,,,206.38,206.38,2,D,M
@@ -136,8 +136,8 @@ Mike Krasowski,100,58,,OH,Raw,55-59,,,254.01,254.01,1,D,M
 Eugene Nash,100,62,,AL,Raw,60-64,,,176.9,176.9,1,D,M
 Alex Hernandez #2,110,55,,CT,Raw,55-59,,,215.46,215.46,1,D,M
 Jerry Moynihan,110,56,,NY,Raw,55-59,,,204.12,204.12,2,D,M
-Evandro Casagrande,110,,Brazil,,Single-ply,O,,,317.51,317.51,1,D,M
-Evandro Casagrande,110,,Brazil,,Single-ply,40-44,,,317.51,317.51,1,D,M
+Evandro Casa Grande,110,,Brazil,,Single-ply,O,,,317.51,317.51,1,D,M
+Evandro Casa Grande,110,,Brazil,,Single-ply,45-49,,,317.51,317.51,1,D,M
 Dan Caffrey,110,51,,NJ,Raw,O,,,185.97,185.97,1,D,M
 Carl Calhoun,110,67,,OH,Raw,65-69,,,165.56,165.56,1,D,M
 Dennis Rolon,125,51,,NY,Raw,50-54,,,258.55,258.55,1,D,M

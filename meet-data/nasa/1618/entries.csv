@@ -17,7 +17,7 @@ Place,WeightClassKg,Name,State,Sex,BodyweightKg,Squat4Kg,Best3SquatKg,Bench4Kg,B
 1,75,Teresa McDaniel,TX,F,71.44,,110,,47.5,,117.5,275,wsm1,SBD,Wraps
 1,90+,Amber Winters,IL,F,107.91,,125,,60,,130,315,wsm1,SBD,Wraps
 1,67.5,Carmen Villanneva,TX,F,65.32,,87.5,,45,,100,232.5,wnov,SBD,Wraps
-2,67.5,Jodie Duncan,TX,F,65.18,,62.5,,42.5,,97.5,202.5,wnov,SBD,Wraps
+2,67.5,Jodie Duncan,TX,F,65.18,,62.5,,42.5,,97.5,202.5,wnov,SBD,Raw
 1,90+,Nima Weatherly,OK,F,95.25,,,90.00,87.5,197.50,192.5,280,wm1,BD,Raw
 1,90+,Nima Weatherly,OK,F,95.25,,,90.00,87.5,197.50,192.5,280,wmp,BD,Raw
 1,67.5,Dawn Wermuth,TX,F,63,,,,67.5,,135,202.5,wm1,BD,Raw
@@ -82,11 +82,11 @@ DQ,125,Bradley Bechel,IL,M,122.02,,272.5,,215,,,,open,SBD,Wraps
 1,60,Braedon DeVos,TX,M,57.15,,67.5,,47.5,,112.5,227.5,retrohs,SBD,Raw
 1,100,Jacob Wilson,TX,M,97.3,,157.5,,97.5,,205,460,retrohs,SBD,Raw
 1,140,Christian Strybel,TX,M,132.54,,250,,217.5,,252.5,720,retrosm1,SBD,Raw
-1,100,Mark Lewis,TX,M,96.62,,240,,172.5,,242.5,655,sm2,SBD,Wraps
+1,100,Mark Lewis #1,TX,M,96.62,,240,,172.5,,242.5,655,sm2,SBD,Wraps
 1,140,Alan Gilbreath,TX,M,138.03,-285.00,275,200.00,192.5,,265,732.5,sm2,SBD,Wraps
 1,52,Jacob Laborde,TX,M,49.99,,77.5,,45,105.00,102.5,225,teen,SBD,Wraps
 1,100,Todd LaCoursiere,TX,M,94.39,,197.5,,102.5,,217.5,517.5,m1,SBD,Wraps
-1,100,David Lee,TX,M,97.61,,,,107.5,,,107.5,bpm3,B,Raw
+1,100,David Lee #7,TX,M,97.61,,,,107.5,,,107.5,bpm3,B,Raw
 1,60,Denton Foster,OK,M,57.02,,,-117.50,112.5,160.00,155,267.5,jr,BD,Raw
 1,110,Ernest James,TX,M,107.55,,,,137.5,-222.50,272.5,410,m1,BD,Raw
 1,110,Tim Radford,TX,M,108.23,,,,125,,172.5,297.5,m3,BD,Raw
@@ -108,7 +108,7 @@ DQ,125,Bradley Bechel,IL,M,122.02,,272.5,,215,,,,open,SBD,Wraps
 1,90,Robert Ramsey #2,TX,M,89.86,,,,172.5,,227.5,400,smp,BD,Raw
 1,100,Ben Brock,TX,M,98.43,,,,150,,220,370,smp,BD,Raw
 1,60,Austin Cooley,TX,M,58.24,,160,,77.5,,150,387.5,hs,SBD,Single-ply
-1,67.5,Sam Roberts,TX,M,63.23,,100,,70,,142.5,312.5,hs,SBD,Single-ply
+1,67.5,Sam Roberts #1,TX,M,63.23,,100,,70,,142.5,312.5,hs,SBD,Single-ply
 1,52,Grayson Costlow,TX,M,50.21,,62.5,,35,,97.5,195,hs,SBD,Single-ply
 1,110,Ruben Sanchez,TX,M,107.55,,300,-262.50,255,-307.50,300,855,jr,SBD,Single-ply
 1,100,Dustin Shilling,TX,M,97.48,,182.5,,125,,217.5,525,jr,SBD,Single-ply

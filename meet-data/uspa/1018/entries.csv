@@ -17,7 +17,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 1,Michelle Maier,TX,82.5,79,31,152.5,92.5,190,435,F,Open,Raw,,SBD
 2,Lisa Alaniz,TX,82.5,80.2,33,150,92.5,160,402.5,F,Open,Raw,,SBD
 3,Amanda White,TX,82.5,75.5,32,87.5,50,97.5,235,F,Open,Raw,,SBD
-1,Jennifer Garcia,TX,90,87,30,140,57.5,147.5,345,F,Open,Raw,,SBD
+1,Jennifer Mitchell #1,TX,90,87,30,140,57.5,147.5,345,F,Open,Raw,,SBD
 2,Frances Arias,TX,90,85.4,32,107.5,60,137.5,305,F,Open,Raw,,SBD
 1,Tamara Stromberg,TX,52,51.6,39,112.5,57.5,137.5,307.5,F,Submasters 35-39,Raw,,SBD
 1,Leslie Carrillo,TX,56,55.2,36,90,57.5,120,267.5,F,Submasters 35-39,Raw,,SBD
@@ -31,7 +31,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 2,Fatima Patterson,TX,90,85,43,92.5,72.5,127.5,292.5,F,Masters 40-44,Raw,,SBD
 1,Sarah Antenora,TX,90+,92.7,54,55,47.5,110,212.5,F,Masters 50-54,Raw,,SBD
 1,JJ Ortiz,TX,60,59.3,20,167.5,117.5,207.5,492.5,M,Juniors 20-23,Raw,,SBD
-1,Andrew Tang,TX,67.5,63.7,23,177.5,85,175,437.5,M,Juniors 20-23,Raw,,SBD
+1,Andrew Tang #2,TX,67.5,63.7,23,177.5,85,175,437.5,M,Juniors 20-23,Raw,,SBD
 1,Michael Maldonado,TX,75,71.6,13,112.5,50,115,277.5,M,Juniors 13-15,Raw,,SBD
 1,Kaleb Hairston,TX,82.5,80.2,18,235,150,272.5,657.5,M,Juniors 18-19,Raw,,SBD
 2,Marcus Ortega,TX,82.5,76.8,18,192.5,100,207.5,500,M,Juniors 18-19,Raw,,SBD
@@ -76,9 +76,9 @@ DQ,Steve Malcik,TX,100,98.77,37,195,137.5,,,M,Open,Raw,,SBD
 6,Joshua Miller,TX,110,108.2,25,225,97.5,247.5,570,M,Open,Raw,,SBD
 7,Jacob Pruett,TX,110,106.2,25,192.5,102.5,235,530,M,Open,Raw,,SBD
 1,Carlos Cristan,TX,125,115.2,43,290,220,295,805,M,Open,Raw,,SBD
-2,James Martinez,TX,125,124.1,23,290,177.5,310,777.5,M,Open,Raw,,SBD
+2,James Martinez #2,TX,125,124.1,23,290,177.5,310,777.5,M,Open,Raw,,SBD
 DQ,Justin LaTouf,TX,140,126.5,33,167.5,115,,,M,Open,Raw,,SBD
-1,Juan Perez,TX,140+,177.2,24,245,165,235,645,M,Open,Raw,,SBD
+1,Juan Perez #2,TX,140+,177.2,24,245,165,235,645,M,Open,Raw,,SBD
 1,David Ruiz,TX,100,96,31,185,155,227.5,567.5,M,Open,Raw,,SBD
 1,Adam Parker,TX,110,108.4,37,257.5,217.5,272.5,747.5,M,Submasters 35-39,Raw,,SBD
 1,Carlos Flores,TX,90,89,43,200,165,195,560,M,Masters 40-44,Raw,,SBD

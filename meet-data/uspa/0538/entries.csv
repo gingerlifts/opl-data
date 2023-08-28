@@ -13,7 +13,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3BenchKg,Best3DeadliftKg,Tot
 1,Tyler Herman,WA,75,74.20,21,95.00,160.00,255.00,M,Juniors 20-23,Raw,BD
 1,Hart Kitsondhi,WA,82.5,79.50,18,112.50,182.50,295.00,M,Juniors 18-19,Raw,BD
 1,John Schroeder,WA,90,87.20,18,112.50,220.00,332.50,M,Juniors 18-19,Raw,BD
-1,Tyler Nguyen,WA,100,92.80,18,147.50,197.50,345.00,M,Juniors 18-19,Raw,BD
+1,Tyler Nguyen #3,WA,100,92.80,18,147.50,197.50,345.00,M,Juniors 18-19,Raw,BD
 1,Chris Grundy,WA,100,92.40,23,115.00,187.50,302.50,M,Juniors 20-23,Raw,BD
 1,Joseph Song,WA,110,104.10,18,137.50,247.50,385.00,M,Juniors 18-19,Raw,BD
 1,Joseph Swart,WA,125,118.00,18,165.00,240.00,405.00,M,Juniors 18-19,Raw,BD
@@ -29,7 +29,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3BenchKg,Best3DeadliftKg,Tot
 5,Blake Walker,WA,90,87.70,29,105.00,185.00,290.00,M,Open,Raw,BD
 6,Richard McFadden,WA,90,86.60,32,95.00,180.00,275.00,M,Open,Raw,BD
 1,John Erickson,WA,100,98.00,27,127.50,187.50,315.00,M,Open,Raw,BD
-2,Jose Garcia,WA,100,98.00,28,110.00,202.50,312.50,M,Open,Raw,BD
+2,Jose Garcia #20,WA,100,98.00,28,110.00,202.50,312.50,M,Open,Raw,BD
 1,Nathan Rapstad,KS,110,108.90,27,215.00,335.00,550.00,M,Open,Raw,BD
 2,Joel Raymond,WA,110,107.10,30,210.00,305.00,515.00,M,Open,Raw,BD
 3,Luv St. Andre,WA,110,107.60,24,185.00,275.00,460.00,M,Open,Raw,BD
@@ -42,7 +42,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3BenchKg,Best3DeadliftKg,Tot
 1,Neil Bailey,WA,110,109.10,35,140.00,252.50,392.50,M,Submasters 35-39,Raw,BD
 2,Jason Schaefer,WA,110,105.90,38,110.00,212.50,322.50,M,Submasters 35-39,Raw,BD
 1,Steven Cheadle,OR,140,126.00,37,152.50,265.00,417.50,M,Submasters 35-39,Raw,BD
-1,Ronald White,WA,82.5,80.50,73,82.50,90.00,172.50,M,Masters 70-74,Raw,BD
+1,Ron White #1,WA,82.5,80.50,73,82.50,90.00,172.50,M,Masters 70-74,Raw,BD
 1,Roger Sargent,WA,100,93.80,62,102.50,227.50,330.00,M,Masters 60-64,Raw,BD
 1,Jody Holton,OR,75,74.40,39,127.50,230.00,357.50,M,Open,Single-ply,BD
 1,Alexis Fortini,WA,75,70.60,19,120.00,,120.00,M,Juniors 18-19,Raw,B

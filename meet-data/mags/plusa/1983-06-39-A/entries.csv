@@ -1,6 +1,6 @@
 Name,WeightClassKg,Division,AgeRange,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Aaron Hatkoff,52,Open,,M,70.31,72.57,127.01,269.89,SBD,Single-ply,1
-A. Stine,52,Open,,F,68.04,45.36,106.59,219.99,SBD,Single-ply,2
+Abigail Stine,52,Open,,F,68.04,45.36,106.59,219.99,SBD,Single-ply,2
 R. Butzek,56,Open,,M,151.95,102.06,154.22,408.23,SBD,Single-ply,1
 Joanne Suomi,56,Open,,F,113.4,54.43,149.69,317.52,SBD,Single-ply,2
 M. Plucinski,56,Open,,F,102.06,56.7,120.2,278.96,SBD,Single-ply,3
@@ -9,17 +9,17 @@ T. Byron,60,Open,,M,149.69,88.45,170.1,408.23,SBD,Single-ply,1
 Larry Chernoff,60,Open,,M,104.33,129.27,170.1,403.7,SBD,Single-ply,2
 J. Lang,60,Open,,M,136.08,99.79,158.76,394.63,SBD,Single-ply,3
 M. Mangini,60,Open,,M,124.74,88.45,170.1,383.29,SBD,Single-ply,4
-R. Rowe,60,Open,,M,129.27,102.06,136.08,367.41,SBD,Single-ply,5
+R. Rowe #2,60,Open,,M,129.27,102.06,136.08,367.41,SBD,Single-ply,5
 L. Dorazio,60,Open,,F,104.33,52.16,136.08,292.57,SBD,Single-ply,6
 Cindy Latham,60,Open,,F,83.91,61.24,90.72,235.87,SBD,Single-ply,7
 W. Huro,67.5,Open,,M,217.72,106.59,235.87,560.19,SBD,Single-ply,1
-W. Parente,67.5,Open,,M,195.04,147.42,199.58,542.04,SBD,Single-ply,2
+Bill Parente,67.5,Open,,M,195.04,147.42,199.58,542.04,SBD,Single-ply,2
 Jim Micik,67.5,Open,,M,204.12,131.54,192.78,528.44,SBD,Single-ply,3
 J. Millet,67.5,Open,,M,190.51,117.93,199.58,508.02,SBD,Single-ply,4
 Skip Shaffer,67.5,Open,,M,147.42,129.27,199.58,476.27,SBD,Single-ply,6
-F. Zevallos,67.5,Open,,M,165.56,117.93,213.19,496.68,SBD,Single-ply,5
+Frank Zevallos,67.5,Open,,M,165.56,117.93,213.19,496.68,SBD,Single-ply,5
 Marisa Zuniga,67.5,Open,,F,102.06,47.63,123.38,273.06,SBD,Single-ply,7
-L. Murray,75,Open,,M,244.94,145.15,265.35,655.44,SBD,Single-ply,1
+Leonard Murray,75,Open,,M,244.94,145.15,265.35,655.44,SBD,Single-ply,1
 Gary Chinigo,75,Open,,M,235.87,145.15,244.94,625.96,SBD,Single-ply,2
 John Consoli #1,75,Open,,M,233.6,145.15,215.46,594.21,SBD,Single-ply,3
 Bob Benedix,75,Open,,M,206.38,149.69,222.26,578.33,SBD,Single-ply,4
@@ -31,9 +31,9 @@ Vin Cupo,75,Open,,M,197.31,104.33,222.26,523.9,SBD,Single-ply,9
 G. Slupecki,75,Open,,M,170.1,122.47,208.65,501.22,SBD,Single-ply,10
 D. Ionno,75,Open,,M,158.76,124.74,204.12,487.61,SBD,Single-ply,11
 K. Janazzo,75,Open,,M,147.42,102.06,204.12,453.59,SBD,Single-ply,12
-M. Grande,75,Open,,M,149.69,106.59,190.51,446.79,SBD,Single-ply,13
+Mark Grande,75,Open,,M,149.69,106.59,190.51,446.79,SBD,Single-ply,13
 K. Mugovero,75,Open,,F,104.33,38.56,108.86,251.74,SBD,Single-ply,14
-T. Dighello,82.5,Open,,M,254.01,149.69,292.57,696.27,SBD,Single-ply,1
+T. DiGhello,82.5,Open,,M,254.01,149.69,292.57,696.27,SBD,Single-ply,1
 Frank Palmer,82.5,Open,,M,263.08,172.37,260.82,696.27,SBD,Single-ply,2
 George Bornn,82.5,Open,,M,249.48,154.22,217.72,621.42,SBD,Single-ply,3
 M. Brisebois,82.5,Open,,M,192.78,145.15,235.87,573.8,SBD,Single-ply,4
@@ -57,7 +57,7 @@ Mark Hogan,100,Open,,M,199.58,149.69,219.99,569.26,SBD,Single-ply,4
 D. Seretny,100,Open,,M,231.33,90.72,233.6,555.65,SBD,Single-ply,5
 A. Delcarmine,100,Open,,M,147.42,127.01,181.44,455.86,SBD,Single-ply,6
 Dan Territo,110,Open,,M,303.91,183.71,303.91,791.52,SBD,Single-ply,1
-P. Bardone,110,Open,,M,294.84,190.51,263.08,748.43,SBD,Single-ply,2
+Paul Barilone,110,Open,,M,294.84,190.51,263.08,748.43,SBD,Single-ply,2
 Jim DeBridgeta,110,Open,,M,256.28,179.17,231.33,666.78,SBD,Single-ply,3
 Joseph Mugovero,110,Open,,M,244.94,161.03,249.48,655.44,SBD,Single-ply,4
 Robert Pratt,110,Open,,M,238.14,136.08,233.6,607.81,SBD,Single-ply,5

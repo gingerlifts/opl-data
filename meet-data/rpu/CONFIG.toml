@@ -1,3 +1,6 @@
+[options]
+    require_manual_disambiguation = true
+
 [divisions]
     open = {name = "Open", min = 0, max = 999}
     youth = {name = "Youth", min = 5, max = 12}
@@ -84,3 +87,5 @@
     17991 = ["ExemptWeightClassConsistency"] # Missing weightclasses
     1988 = ["ExemptWeightClassConsistency"] # Missing weightclasses
     1994 = ["ExemptWeightClassConsistency"] # Missing weightclasses
+    2022 = ["ExemptWeightClassConsistency"] # Non standard weightclasses
+    2034 = ["ExemptWeightClassConsistency"] # Non standard weightclasses

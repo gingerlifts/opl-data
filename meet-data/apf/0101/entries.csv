@@ -12,7 +12,7 @@ Place,Name,BirthDate,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Bench1K
 1,Eva Kusau,,F_MEM_6_WPC,Germany,64.8,85,,,,,55,,110,250,67.5,F,,1934,Multi-ply,SBD
 1,Rina Viljoen,,F_TEM_2_WPC,South Africa,75,110,,,,,50,,130,290,75,F,,,Multi-ply,SBD
 1,Kristina Grandick,,F_OEM_WPC,USA,73.95,177.5,,,,,92.5,,182.5,452.5,75,F,,,Multi-ply,SBD
-1,Kim Pheifter,,F_SEM_WPC,USA,74,172.5,,,,,67.5,,155,395,75,F,,,Multi-ply,SBD
+1,Kimberly Pfeiffer-Packer,,F_MEM_1_WPC,USA,74,172.5,,,,,67.5,,155,395,75,F,,,Multi-ply,SBD
 1,Evelyn Schutte,,F_MEM_4_WPC,South Africa,74.6,155,,,,,90,,65,310,75,F,,,Multi-ply,SBD
 1,Krista Ford,,F_OEM_WPC,USA,82.5,227.5,,,,,132.5,,230,590,82.5,F,,1966,Multi-ply,SBD
 1,Betty White,,F_MEM_1_WPC,USA,79,130,,,,,65,,140,335,82.5,F,,,Multi-ply,SBD
@@ -41,10 +41,10 @@ Place,Name,BirthDate,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Bench1K
 2,Juha Jaakkola,,M_JEM_WPC,Finland,72,205,,,,,160,,230,595,75,M,,1979,Multi-ply,SBD
 3,Peter Smith,,M_JEM_WPC,South Africa,73.1,225,,,,,110,,225,560,75,M,,,Multi-ply,SBD
 1,Gianfranco Manca,,M_OEM_WPC,South Africa,74.2,320,,,,,167.5,,287.5,775,75,M,,1967,Multi-ply,SBD
-2,David Mannering,,M_OEM_WPC,UK,75,275,,,,,190,,255,720,75,M,,1960,Multi-ply,SBD
+2,David Mannering #1,,M_OEM_WPC,UK,75,275,,,,,190,,255,720,75,M,,1960,Multi-ply,SBD
 3,Lee Cutler,,M_OEM_WPC,UK,74,235,,,,,137.5,,245,617.5,75,M,,1977,Multi-ply,SBD
 4,Tinus Joubert,,M_OEM_WPC,South Africa,74.7,185,,,,,112.5,,175,472.5,75,M,,,Multi-ply,SBD
-1,David Mannering,,M_MEM_1_WPC,UK,75,245,,,,,170,,220,635,75,M,,1960,Multi-ply,SBD
+1,David Mannering #1,,M_MEM_1_WPC,UK,75,245,,,,,170,,220,635,75,M,,1960,Multi-ply,SBD
 2,Hennie Niemand,,M_MEM_1_WPC,South Africa,73.75,245,,,,,147.5,,215,607.5,75,M,,,Multi-ply,SBD
 3,Steven Lumpe,,M_MEM_1_WPC,USA,74.4,217.5,,,,,140,,217.5,575,75,M,,1960,Multi-ply,SBD
 4,Gerhard Van Niekerk,,M_MEM_1_WPC,South Africa,74.8,225,,,,,140,,200,565,75,M,,,Multi-ply,SBD
@@ -89,7 +89,7 @@ Place,Name,BirthDate,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Bench1K
 2,Mark Xhanthides,,M_SEM_WPC,South Africa,88.65,300,,,,,172.5,,267.5,740,90,M,,,Multi-ply,SBD
 3,Louis Botha,,M_SEM_WPC,South Africa,89.6,250,,,,,150,,260,660,90,M,,,Multi-ply,SBD
 1,John Atkinson,,M_MEM_4_WPC,USA,88.85,292.5,,,,,185.5,,260,738,90,M,,1945,Multi-ply,SBD
-2,Robert Jordan,,M_MEM_4_WPC,UK,88.85,260,,,,,120,,200,580,90,M,,1946,Multi-ply,SBD
+2,Robert Jordan #2,,M_MEM_4_WPC,UK,88.85,260,,,,,120,,200,580,90,M,,1946,Multi-ply,SBD
 1,James Rouse,,M_MEM_5_WPC,USA,90,227.5,,,,,200,,232.5,660,90,M,,1941,Multi-ply,SBD
 1,Jimnay Kearns,,M_MEM_6_WPC,South Africa,89.1,145,,,,,120,,202,467,90,M,,,Multi-ply,SBD
 1,Carl van Heerden,,M_TEM_2_WPC,South Africa,95.2,250,,,,,150,,265,665,100,M,,,Multi-ply,SBD
@@ -129,8 +129,8 @@ Place,Name,BirthDate,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Bench1K
 1,Tony Correia,,M_JEM_WPC,South Africa,109.95,330,,,,,225,,290,845,110,M,,1978,Multi-ply,SBD
 2,Duane Matthys,,M_JEM_WPC,South Africa,107.4,315,,,,,200,,310,825,110,M,,1978,Multi-ply,SBD
 3,Roland Prager,,M_JEM_WPC,Australia,107.3,270,,,,,182.5,,305,757.5,110,M,,1979,Multi-ply,SBD
-4,Carl Rogers,,M_JEM_WPC,UK,107.15,290,,,,,150,,260,700,110,M,,1980,Multi-ply,SBD
-1,Chris Miller,,M_OEM_WPC,South Africa,109.9,370,,,,,260,,330,960,110,M,,,Multi-ply,SBD
+4,Carl Rogers #1,,M_JEM_WPC,UK,107.15,290,,,,,150,,260,700,110,M,,1980,Multi-ply,SBD
+1,Chris Miller #12,,M_OEM_WPC,South Africa,109.9,370,,,,,260,,330,960,110,M,,,Multi-ply,SBD
 2,Jani Toivo Kristian Ihalainen,,M_OEM_WPC,Finland,109.5,360,,,,,215,,325,900,110,M,,1975,Multi-ply,SBD
 3,Jim Gorrell,,M_OEM_WPC,USA,105.6,367.5,,,,,207.5,,282.5,857.5,110,M,,1971,Multi-ply,SBD
 4,Joe Avigliano,,M_OEM_WPC,USA,107.85,337.5,,,,,197.5,,287.5,822.5,110,M,,1959,Multi-ply,SBD
@@ -154,12 +154,12 @@ Place,Name,BirthDate,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Bench1K
 1,Michael Schrott,,M_OEM_WPC,Germany,116.95,335,,,,,230,,320,885,125,M,,1972,Multi-ply,SBD
 2,Lee Marshall,,M_OEM_WPC,UK,116.9,360,,,,,190,,317.5,867.5,125,M,,1959,Multi-ply,SBD
 3,Quintin Kannemeyer,,M_OEM_WPC,South Africa,122.4,315,,,,,215,,305,835,125,M,,1974,Multi-ply,SBD
-4,William Smith,,M_OEM_WPC,South Africa,124.5,280,,,,,240,,260,780,125,M,,,Multi-ply,SBD
+4,William Smith #15,,M_OEM_WPC,South Africa,124.5,280,,,,,240,,260,780,125,M,,,Multi-ply,SBD
 5,Sonnyboy Simelane,,M_OEM_WPC,South Africa,122,280,,,,,160,,270,710,125,M,,,Multi-ply,SBD
 1,Marius Pottas,,M_MEM_1_WPC,South Africa,123.3,285,,,,,222.5,,290,797.5,125,M,,,Multi-ply,SBD
 1,Ian Visser,,M_MEM_2_WPC,South Africa,121.85,300,,,,,170,,252.5,722.5,125,M,,1953,Multi-ply,SBD
 2,Nick Pretorius,,M_MEM_2_WPC,South Africa,118.8,120,,,,,150,,120,390,125,M,,,Multi-ply,SBD
-1,Rex Thomas,,M_MEM_3_WPC,UK,121.1,180,,,,,100,,180,460,125,M,,1951,Multi-ply,SBD
+1,David Thomas #4,,M_MEM_3_WPC,UK,121.1,180,,,,,100,,180,460,125,M,,1951,Multi-ply,SBD
 1,Johan Rheeder,,M_SEM_WPC,South Africa,124.55,340,,,,,230,,330,900,125,M,,,Multi-ply,SBD
 2,Vyacheslav Karkh,,M_SEM_WPC,Russia,119.85,335,,,,,245,,300,880,125,M,Вячеслав Карх,1967,Multi-ply,SBD
 1,Jep Ras,,M_JEM_WPC,South Africa,128,220,,,,,122.5,,255,597.5,140,M,,,Multi-ply,SBD
@@ -207,16 +207,16 @@ Place,Name,BirthDate,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Bench1K
 1,Phillip Crusius,,M_MEM_5_WPC,Germany,80.05,,,140,,,140,,,140,82.5,M,,1937,Multi-ply,B
 1,Sadig Heydarov,,M_TEM_3_WPC,Azerbaijan,87.6,,,,,,170,,,170,90,M,,1982,Multi-ply,B
 1,Mika Nikula,,M_JEM_WPC,Finland,88.75,,,,,,200.5,,,200.5,90,M,,1978,Multi-ply,B
-1,Arthur Hirner,,M_OEM_WPC,Germany,89.75,,,220,235,-245,235,,,235,90,M,,1958,Multi-ply,B
+1,Arthur Hirner,,M_OEM_WPC,Germany,89.75,,,220,235,-245,235,,,235,90,M,,,Multi-ply,B
 2,Lars Nyblin,,M_OEM_WPC,Finland,88.7,,,,,,225,,,225,90,M,,1967,Multi-ply,B
 3,Conrad Nagel,,M_OEM_WPC,South Africa,89.4,,,,,,190,,,190,90,M,,,Multi-ply,B
 4,Thomas Stadler,,M_OEM_WPC,Austria,84.25,,,,,,160,,,160,90,M,,1969,Multi-ply,B
-1,Arthur Hirner,,M_MEM_1_WPC,Germany,89.75,,,,,,245,,,245,90,M,,1958,Multi-ply,B
+1,Arthur Hirner,,M_MEM_1_WPC,Germany,89.75,,,,,,245,,,245,90,M,,,Multi-ply,B
 1,Klaus Krüger,,M_MEM_2_WPC,Germany,87.2,,,182.5,187.5,,187.5,,,187.5,90,M,,1952,Multi-ply,B
 1,Scott Velliquette,,M_MEM_3_WPC,USA,87.25,,,155,160,-162.5,160,,,160,90,M,,,Multi-ply,B
 2,Vivian Schuurman,,M_MEM_3_WPC,South Africa,86,,,150,,160,160,,,160,90,M,,,Multi-ply,B
 1,Lutz Gayek,,M_SEM_WPC,Germany,88.5,,,,,,240,,,240,90,M,,1967,Multi-ply,B
-2,George Matham,,M_SEM_WPC,South Africa,89.95,,,,,,175,,,175,90,M,,,Multi-ply,B
+2,George Mathom,,M_SEM_WPC,South Africa,89.95,,,,,,175,,,175,90,M,,,Multi-ply,B
 1,Franz Krivanek,,M_MEM_5_WPC,Austria,89.35,,,,,,60,,,60,90,M,,1940,Multi-ply,B
 1,Vesa Kulmala,,M_OEM_WPC,Finland,98.85,,,,,,237.5,,,237.5,100,M,,1968,Multi-ply,B
 2,Riaan Van der Berg,,M_OEM_WPC,South Africa,98.45,,,,,,212.5,,,212.5,100,M,,,Multi-ply,B
@@ -233,7 +233,7 @@ Place,Name,BirthDate,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Bench1K
 2,Valeriy Nugumanov,,M_MEM_5_WPC,Russia,90.7,,,140,150,155,155,,,155,100,M,Валерий Нугуманов,1939,Multi-ply,B
 3,Bob Bassman,,M_MEM_5_WPC,USA,92.7,,,,,,155,,,155,100,M,,1938,Multi-ply,B
 1,Raif Suleymanov,,M_TEM_3_WPC,Azerbaijan,109.05,,,,,,175,,,175,110,M,,,Multi-ply,B
-1,Chris Miller,,M_OEM_WPC,South Africa,109.6,,,,,,260,,,260,110,M,,,Multi-ply,B
+1,Chris Miller #12,,M_OEM_WPC,South Africa,109.6,,,,,,260,,,260,110,M,,,Multi-ply,B
 2,Johan Loubser,,M_OEM_WPC,South Africa,109.7,,,,,,230,,,230,110,M,,,Multi-ply,B
 3,Andreas Mrosek,,M_OEM_WPC,Germany,109.95,,,,,,210,,,210,110,M,,1958,Multi-ply,B
 4,Alois Strobl,,M_OEM_WPC,Austria,105.1,,,,,,170,,,170,110,M,,1970,Multi-ply,B
@@ -245,19 +245,19 @@ Place,Name,BirthDate,Division,Country,BodyweightKg,Best3SquatKg,Squat4Kg,Bench1K
 1,Franz Dytkiewicz,,M_MEM_4_WPC,Germany,108.85,,,,,,220,,,220,110,M,,1946,Multi-ply,B
 1,Tomi Rantanen,,M_JEM_WPC,Finland,122.65,,,,,,260,,,260,125,M,,1980,Multi-ply,B
 2,Ibrahim Ibrahimov,,M_JEM_WPC,Azerbaijan,114,,,,,,195,,,195,125,M,,1981,Multi-ply,B
-1,William Smith,,M_OEM_WPC,South Africa,122.05,,,,,,230,,,230,125,M,,,Multi-ply,B
+1,William Smith #15,,M_OEM_WPC,South Africa,122.05,,,,,,230,,,230,125,M,,,Multi-ply,B
 2,Michael Schrott,,M_OEM_WPC,Germany,117.4,,,,,,222.5,,,222.5,125,M,,1972,Multi-ply,B
 3,Werner Brits,,M_OEM_WPC,South Africa,122.15,,,,,,220,,,220,125,M,,,Multi-ply,B
 4,Nick Pretorius,,M_OEM_WPC,South Africa,118,,,,,,150,,,150,125,M,,,Multi-ply,B
 1,Pekka Tamminen,,M_MEM_1_WPC,Finland,114.35,,,220,230,,230,,,230,125,M,,1958,Multi-ply,B
-1,Doug Williams,,M_MEM_2_WPC,UK,115.3,,,180,192.5,-200,192.5,,,192.5,125,M,,1954,Multi-ply,B
+1,Doug Williams #2,,M_MEM_2_WPC,UK,115.3,,,180,192.5,-200,192.5,,,192.5,125,M,,1954,Multi-ply,B
 1,Josef Nussbaumer,,M_MEM_3_WPC,Austria,118.85,,,205,215.5,,215.5,,,215.5,125,M,,1951,Multi-ply,B
 1,Jean-Marc Chenin,,M_SEM_WPC,France,111.7,,,,,,245,,,245,125,M,,1964,Multi-ply,B
 2,Vyacheslav Karkh,,M_SEM_WPC,Russia,121.35,,,,,,240,,,240,125,M,Вячеслав Карх,1967,Multi-ply,B
 1,Tom Holzapfel Sr,,M_OEM_WPC,USA,118.7,,,192.5,200.5,205,205,,,205,125,M,,1964,Multi-ply,B
 1,Scot Mendelson,,M_OEM_WPC,USA,133.6,,,320,335,,335,,,335,140,M,,1969,Multi-ply,B
 2,Holger Kuttroff,,M_OEM_WPC,Germany,141.2,,,,,,265,,,265,140+,M,,1969,Multi-ply,B
-1,Jurgen Pietz,,M_MEM_1_WPC,Germany,125.9,,,220,230,,230,,,230,140,M,,1957,Multi-ply,B
+1,Jürgen Pietz,,M_MEM_1_WPC,Germany,125.9,,,220,230,,230,,,230,140,M,,1957,Multi-ply,B
 1,Meinhardt Schroeder,,M_MEM_3_WPC,Germany,128,,,200,225,,225,,,225,140,M,,1951,Multi-ply,B
 1,Mike Robertson,,M_SEM_WPC,South Africa,130.7,,,,,,230,,,230,140,M,,1965,Multi-ply,B
 1,Mario Böttcher,,M_MEM_1_WPC,Germany,143.7,,,180,200,220,220,,,220,140+,M,,1960,Multi-ply,B

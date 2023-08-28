@@ -1,9 +1,9 @@
 Name,WeightClassKg,Division,Sex,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 T. Speerman,52,Open,M,,117.5,85,132.5,335,SBD,Single-ply,1
 C. Catoe,52,Open,M,,107.5,57.5,130,295,SBD,Single-ply,2
-K. Thomas,52,Open,M,,75,42.5,90,207.5,SBD,Single-ply,3
+K. Thomas #9,52,Open,M,,75,42.5,90,207.5,SBD,Single-ply,3
 Charles Bunch,56,Open,M,16,167.5,72.5,195,435,SBD,Single-ply,1
-S. Covington,56,Open,M,,130,95,155,380,SBD,Single-ply,2
+Sandy Covington,56,Open,M,,130,95,155,380,SBD,Single-ply,2
 T. Thompson,56,Open,M,,115,65,120,300,SBD,Single-ply,3
 D. Abramovitch,56,Open,M,,,,,,SBD,Single-ply,DQ
 B. Denny,56,Open,M,,,,,,SBD,Single-ply,DQ
@@ -25,8 +25,8 @@ Lee Mew,75,Open,M,,190,97.5,182.5,470,SBD,Single-ply,5
 R. Sosebee,75,Open,M,,162.5,122.5,185,470,SBD,Single-ply,6
 Keith Wike,75,Open,M,,140,87.5,192.5,420,SBD,Single-ply,7
 H. Hinson,75,Open,M,,187.5,,,,SBD,Single-ply,DQ
-R. Glinski,75,Open,M,,,,,,SBD,Single-ply,DQ
-D. Rhodes,75,Open,M,,,,,,SBD,Single-ply,DQ
+Ray Glinski,75,Open,M,,,,,,SBD,Single-ply,DQ
+David Rhodes,75,Open,M,,,,,,SBD,Single-ply,DQ
 R. Thompson,75,Open,M,,,,,,SBD,Single-ply,DQ
 Clealan Watts,82.5,Open,M,,255,157.5,285,697.5,SBD,Single-ply,1
 Fred Graham,82.5,Open,M,,247.5,147.5,300,695,SBD,Single-ply,2
@@ -34,7 +34,7 @@ Charles Thompson,82.5,Open,M,,237.5,162.5,277.5,677.5,SBD,Single-ply,3
 Sam Pardue,82.5,Open,M,,245,170,237.5,652.5,SBD,Single-ply,4
 J. Hammond,82.5,Open,M,,227.5,155,257.5,640,SBD,Single-ply,5
 Roger Pardue,82.5,Open,M,,267.5,140,220,627.5,SBD,Single-ply,6
-B. Glymph,82.5,Open,M,,182.5,190,210,582.5,SBD,Single-ply,7
+Barry Glymph,82.5,Open,M,,182.5,190,210,582.5,SBD,Single-ply,7
 B. Monroe,82.5,Open,M,,210,127.5,227.5,565,SBD,Single-ply,8
 M. Walpole,82.5,Open,M,,217.5,122.5,220,560,SBD,Single-ply,9
 T. Craig,82.5,Open,M,,165,102.5,187.5,455,SBD,Single-ply,10
@@ -56,8 +56,8 @@ Ken Newman,100,Open,M,,295,175,302.5,772.5,SBD,Single-ply,1
 Jerry Beckham,100,Open,M,,295,195,280,770,SBD,Single-ply,2
 Bobo Eason,100,Open,M,,310,150,310,770,SBD,Single-ply,3
 Rock Silon,100,Open,M,,305,167.5,287.5,760,SBD,Single-ply,4
-G. Jones,100,Open,M,,272.5,170,260,702.5,SBD,Single-ply,5
-David Samuel,100,Open,M,,232.5,177.5,287.5,697.5,SBD,Single-ply,6
+G. Jones #14,100,Open,M,,272.5,170,260,702.5,SBD,Single-ply,5
+David Samuel #2,100,Open,M,,232.5,177.5,287.5,697.5,SBD,Single-ply,6
 H. Brown,100,Open,M,,237.5,160,250,647.5,SBD,Single-ply,7
 C. Watson,100,Open,M,,215,132.5,240,587.5,SBD,Single-ply,8
 A. Wilbanks,100,Open,M,,205,137.5,240,582.5,SBD,Single-ply,9
@@ -68,13 +68,13 @@ Kevin Bray,110,Open,M,,265,180,282.5,727.5,SBD,Single-ply,2
 Jimmy Payne,110,Open,M,,275,165,277.5,717.5,SBD,Single-ply,3
 D. Goff,110,Open,M,,285,160,265,710,SBD,Single-ply,4
 Donnie Anderson,110,Open,M,,262.5,160,272.5,695,SBD,Single-ply,5
-J. Batson,110,Open,M,,272.5,162.5,260,695,SBD,Single-ply,6
+Joe Batson,110,Open,M,,272.5,162.5,260,695,SBD,Single-ply,6
 G. Scroggs,110,Open,M,,237.5,155,245,637.5,SBD,Single-ply,7
-D. Brunot,110,Open,M,,257.5,180,,,SBD,Single-ply,DQ
+Dean Brunot,110,Open,M,,257.5,180,,,SBD,Single-ply,DQ
 Doug Ricafrente,125,Open,M,,330,210,295,835,SBD,Single-ply,1
-D. Clark,125,Open,M,,277.5,187.5,275,740,SBD,Single-ply,3
+David Clark,125,Open,M,,277.5,187.5,275,740,SBD,Single-ply,3
 J. Shaw,125,Open,M,,310,182.5,287.5,780,SBD,Single-ply,2
-J. Brown,125,Open,M,,242.5,162.5,275,680,SBD,Single-ply,4
+James Brown,125,Open,M,,242.5,162.5,275,680,SBD,Single-ply,4
 N. Ervin,125,Open,M,,192.5,110,185,487.5,SBD,Single-ply,5
 R. Ferguson,125,Open,M,,185,80,167.5,432.5,SBD,Single-ply,6
 Bill McElveen,125+,Open,M,,285,200,290,775,SBD,Single-ply,1

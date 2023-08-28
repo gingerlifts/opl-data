@@ -17,7 +17,7 @@ Boys,59.87,2,Rey Castro,Waco Reicher Catholic,59.51,142.88,83.91,154.22,381.02,S
 Boys,59.87,3,Michael Kohl #1,Rosebud-Lott,58.97,142.88,83.91,145.15,371.95,Single-ply,SBD,M
 Boys,67.13,4,Rene Rivas,Venus,60.06,136.08,81.65,145.15,362.87,Single-ply,SBD,M
 Boys,59.87,5,Lorenzo Lizardo,Granger,59.69,136.08,90.72,124.74,351.53,Single-ply,SBD,M
-Boys,59.87,6,Carlos Ortiz,Salado,58.51,136.08,79.38,133.81,349.27,Single-ply,SBD,M
+Boys,59.87,6,Carlos Ortiz #2,Salado,58.51,136.08,79.38,133.81,349.27,Single-ply,SBD,M
 Boys,59.87,7,Marcus Mendoza,Salado,57.97,129.27,74.84,124.74,328.85,Single-ply,SBD,M
 Boys,59.87,8,Isaac Gonzales,Waco Reicher Catholic,58.79,131.54,61.23,136.08,328.85,Single-ply,SBD,M
 Boys,59.87,9,Richard Moran,Jarrell,56.88,102.06,61.23,113.4,276.69,Single-ply,SBD,M
@@ -31,7 +31,7 @@ Boys,67.13,4,Daniel Beltran,Jarrell,62.41,142.88,92.99,161.03,396.89,Single-ply,
 Boys,67.13,5,Victor Moya,Jarrell,66.5,140.61,95.25,151.95,387.82,Single-ply,SBD,M
 Boys,67.13,6,Wesley Smith,Lago Vista,64.68,136.08,83.91,158.76,378.75,Single-ply,SBD,M
 Boys,67.13,7,Josh Robinson,Salado,62.96,124.74,92.99,154.22,371.95,Single-ply,SBD,M
-Boys,67.13,8,Zach Robinson,Salado,67.13,140.61,83.91,145.15,369.68,Single-ply,SBD,M
+Boys,67.13,8,Zach Robinson #2,Salado,67.13,140.61,83.91,145.15,369.68,Single-ply,SBD,M
 Boys,67.13,9,Pedro Juarez,Granger,63.14,127.01,79.38,145.15,351.53,Single-ply,SBD,M
 Boys,67.13,10,Zach Robles,Burnet,64.68,117.93,72.57,154.22,344.73,Single-ply,SBD,M
 Boys,67.13,11,Alex Kelso,Lago Vista,63.87,131.54,58.97,140.61,331.12,Single-ply,SBD,M
@@ -65,7 +65,7 @@ Boys,74.84,12,Marcos Cardenas,Jarrell,69.4,142.88,83.91,145.15,371.95,Single-ply
 Boys,74.84,13,Matthew Kingsbury,Lago Vista,73.21,122.47,72.57,149.69,344.73,Single-ply,SBD,M
 Boys,74.84,14,Kelly Jimenez,Salado,68.76,131.54,86.18,117.93,335.66,Single-ply,SBD,M
 Boys,74.84,15,Eston Garrestson,Crawford,74.39,113.4,74.84,131.54,319.78,Single-ply,SBD,M
-Boys,74.84,16,Ryan Martin,Clifton,72.12,136.08,,172.37,308.44,Single-ply,SD,M
+Boys,74.84,16,Ryan Martin #5,Clifton,72.12,136.08,,172.37,308.44,Single-ply,SD,M
 Boys,74.84,17,Patrick Wright,Waco Reicher Catholic,71.49,108.86,70.31,124.74,303.91,Single-ply,SBD,M
 Boys,74.84,18,Javier Ruiz,Rosebud-Lott,69.67,124.74,,156.49,281.23,Single-ply,SD,M
 Boys,74.84,19,Todd Bailey,Salado,68.49,92.99,,104.33,197.31,Single-ply,SD,M
@@ -74,7 +74,7 @@ Boys,74.84,DQ,Kody Kittrell,Venus,74.84,,,,,Single-ply,SB,M
 Boys,74.84,DQ,Julio Rodriguez,Venus,74.84,,,,,Single-ply,SB,M
 Boys,74.84,DQ,Greg Hoy,Crawford,70.13,,,,,Single-ply,SB,M
 Boys,74.84,DQ,Thaivan Simmons,Jarrell,74.84,,,,,Single-ply,SB,M
-Boys,74.84,DQ,Andrew Davis,Lago Vista,74.84,,,,,Single-ply,SB,M
+Boys,74.84,DQ,Andrew Davis #6,Lago Vista,74.84,,,,,Single-ply,SB,M
 Boys,74.84,DQ,Daniel Aaron,Lago Vista,74.84,,,,,Single-ply,SB,M
 Boys,74.84,DQ,Josh Dews,Granger,70.13,142.88,74.84,,,Single-ply,SB,M
 Boys,74.84,DQ,Canyon Murrah,Granger,69.67,,,,,Single-ply,SB,M
@@ -114,7 +114,7 @@ Boys,99.79,5,Jacob Gonzales,Granger,94.17,170.1,106.59,199.58,476.27,Single-ply,
 Boys,99.79,6,Billy Golding,Salado,96.62,172.37,115.67,181.44,469.47,Single-ply,SBD,M
 Boys,99.79,7,Kenny DeLeon,Venus,95.62,165.56,79.38,158.76,403.7,Single-ply,SBD,M
 Boys,99.79,8,Tom Kyle,Salado,90.9,138.35,81.65,117.93,337.93,Single-ply,SBD,M
-Boys,109.77,1,Alex Wallace,Burnet,106.96,272.16,129.27,254.01,655.44,Single-ply,SBD,M
+Boys,109.77,1,Alex Wallace #2,Burnet,106.96,272.16,129.27,254.01,655.44,Single-ply,SBD,M
 Boys,109.77,2,Caleb Hayslip,Salado,109.77,226.8,151.95,242.67,621.42,Single-ply,SBD,M
 Boys,109.77,3,Travis Applequist,Florence,108.68,231.33,129.27,231.33,591.94,Single-ply,SBD,M
 Boys,109.77,4,Matthew Andrews,Jarrell,103.33,204.12,131.54,195.04,530.7,Single-ply,SBD,M

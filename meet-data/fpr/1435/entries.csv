@@ -22,7 +22,7 @@ Kristina Borovikova,Кристина Боровикова,1999,58.75,40,42.5,45,
 Anastasiya Kiyan,Анастасия Киян,1997,61.6,37.5,40,42.5,42.5,63,B,Raw,Sub-Juniors,F,42.5,,6
 Aleksandra Pyankova,Александра Пьянкова,1999,59.55,37.5,40,-42.5,40,63,B,Raw,Sub-Juniors,F,40,,7
 Darya Oryol,Дарья Орёл,1997,66.65,67.5,73,73.5,73.5,72,B,Raw,Sub-Juniors,F,73.5,,1
-Anastasiya Derevyanko,Анастасия Деревянко,1998,64.15,57.5,62.5,-67.5,62.5,72,B,Raw,Sub-Juniors,F,62.5,,2
+Anastasiya Derevyanko #2,Анастасия Деревянко,1998,64.15,57.5,62.5,-67.5,62.5,72,B,Raw,Sub-Juniors,F,62.5,,2
 Tatyana Bateeva,Татьяна Батеева,1999,70.2,47.5,52.5,55,55,72,B,Raw,Sub-Juniors,F,55,,3
 Vlada Shpenyova,Влада Шпенёва,1996,68.8,50,52.5,-55,52.5,72,B,Raw,Sub-Juniors,F,52.5,,4
 Anna Salogub,Анна Салогуб,1997,68.75,37.5,42.5,-45,42.5,72,B,Raw,Sub-Juniors,F,42.5,,5
@@ -32,7 +32,7 @@ Angelina Lamzina,Ангелина Ламзина,1998,92.35,37.5,42.5,45,45,84+,
 Artur Mansurov,Артур Мансуров,2001,32.15,42.5,45,48,48,43,B,Raw,Sub-Juniors,M,48,,1
 Sergey Artykula,Сергей Артыкула,2001,42.15,42.5,-45,-45,42.5,43,B,Raw,Sub-Juniors,M,42.5,,3
 Andrey Dronov,Андрей Дронов,2000,40.55,40,-42.5,-42.5,40,43,B,Raw,Sub-Juniors,M,40,,4
-Aleksey Malyshev,Алексей Малышев,1997,47.4,67.5,72.5,77.5,77.5,48,B,Raw,Sub-Juniors,M,77.5,,1
+Aleksey Malyshev #2,Алексей Малышев,1997,47.4,67.5,72.5,77.5,77.5,48,B,Raw,Sub-Juniors,M,77.5,,1
 Andrey Tychinkin,Андрей Тычинкин,1998,47.9,62.5,65,67.5,67.5,48,B,Raw,Sub-Juniors,M,67.5,,2
 Aleksandr Tokarchuk,Александр Токарчук,2000,47.65,55,57.5,60,60,48,B,Raw,Sub-Juniors,M,60,,3
 Aleksandr Novikov,Александр Новиков,1999,47.6,47.5,52.5,-57.5,52.5,48,B,Raw,Sub-Juniors,M,52.5,,4
@@ -59,7 +59,7 @@ Dmitriy Kiryukhin,Дмитрий Кирюхин,1996,62.9,87.5,95,97.5,97.5,66,B
 Dmitriy Ilyasov,Дмитрий Илясов,1999,64,80,-85,85,85,66,B,Raw,Sub-Juniors,M,85,,6
 Timur Chekin,Тимур Чекин,1996,70.7,145,152.5,-160,152.5,74,B,Raw,Sub-Juniors,M,152.5,,1
 Aleksey Rendorenko,Алексей Рендоренко,1996,72.8,145,-150,150,150,74,B,Raw,Sub-Juniors,M,150,,2
-Igor Melnik,Ігор Мельник,1996,72.3,130,135,145,145,74,B,Raw,Sub-Juniors,M,145,,3
+Igor Melnik #2,Игорь Мельник,1996,72.3,130,135,145,145,74,B,Raw,Sub-Juniors,M,145,,3
 Nikita Kozhevnikov,Никита Кожевников,1996,72.6,120,130,-132.5,130,74,B,Raw,Sub-Juniors,M,130,,4
 Andrey Kononov,Андрей Кононов,1997,71.1,120,125,-130,125,74,B,Raw,Sub-Juniors,M,125,,5
 Antoniy Shults,Антоний Шульц,1996,71.3,117.5,125,-132.5,125,74,B,Raw,Sub-Juniors,M,125,,6
@@ -102,7 +102,7 @@ Margarita Branchukova,Маргарита Бранчукова,1994,73.1,52.5,57.
 Yuliya Proskurina,Юлия Проскурина,1991,81.85,-47.5,47.5,52.5,52.5,84,B,Raw,Juniors,F,52.5,,3
 Karolina Zimina,Каролина Зимина,1994,93.9,90,95,-100,95,84+,B,Raw,Juniors,F,95,,1
 Rashad Mamedov,Рашад Мамедов,1993,52.8,92.5,97.5,-108,97.5,53,B,Raw,Juniors,M,97.5,,1
-Sergey Novikov,Сергей Новиков,1993,52.8,85,90,92.5,92.5,53,B,Raw,Juniors,M,92.5,,2
+Sergey Novikov #1,Сергей Новиков,1993,52.8,85,90,92.5,92.5,53,B,Raw,Juniors,M,92.5,,2
 Andrey Reyn,Андрей Рейн,1991,53,82.5,87.5,90,90,53,B,Raw,Juniors,M,90,,3
 Vladimir Sokolov,Владимир Соколов,1991,52.15,-80,85,-90,85,53,B,Raw,Juniors,M,85,,4
 Andrey Shishkin,Андрей Шишкин,1991,58.45,107.5,110,112.5,112.5,59,B,Raw,Juniors,M,112.5,,1
@@ -114,13 +114,13 @@ Vakha Khadziev,Ваха Хадзиев,1994,64.95,130,-137.5,-137.5,130,66,B,Raw
 Mikhail Gireev,Михаил Гиреев,1994,65.8,110,-117.5,117.5,117.5,66,B,Raw,Juniors,M,117.5,,4
 Viktor Chebykin,Виктор Чебыкин,1993,63.7,110,115,-120,115,66,B,Raw,Juniors,M,115,,5
 Pavel Dolgov,Павел Долгов,1993,73.85,150,157.5,162.5,162.5,74,B,Raw,Juniors,M,162.5,,1
-Igor Kuznetsov,Игорь Кузнецов,1993,73.65,135,142.5,147.5,147.5,74,B,Raw,Juniors,M,147.5,,2
+Igor Kuznetsov #4,Игорь Кузнецов,1993,73.65,135,142.5,147.5,147.5,74,B,Raw,Juniors,M,147.5,,2
 Almaz Mansurov,Алмаз Мансуров,1993,72.65,130,140,145,145,74,B,Raw,Juniors,M,145,,3
 Anton Boltinskiy,Антон Болтинский,1993,81.85,162.5,167.5,172.5,172.5,83,B,Raw,Juniors,M,172.5,,1
 Maksim Makarev,Максим Макарьев,1993,80.75,155,162.5,-170,162.5,83,B,Raw,Juniors,M,162.5,,2
 Ilya Golubev,Илья Голубев,1994,82.4,157.5,162.5,-165,162.5,83,B,Raw,Juniors,M,162.5,,3
 Vadim Kazak,Вадим Казак,1994,79.6,150,160,-165,160,83,B,Raw,Juniors,M,160,,4
-Evgeniy Eliseev,Евгений Елисеев,1995,81.7,140,150,-160,150,83,B,Raw,Juniors,M,150,,5
+Evgeniy Eliseev #1,Евгений Елисеев,1995,81.7,140,150,-160,150,83,B,Raw,Juniors,M,150,,5
 Semyon Rogozha,Семён Рогожа,1991,82.45,110,125,-152.5,125,83,B,Raw,Juniors,M,125,,6
 Damir Latypov,Дамир Латыпов,1992,,,,,,83,B,Raw,Juniors,M,,,DQ
 Stanislav Gavrish,Станислав Гавриш,1993,89.1,200,210,220,220,93,B,Raw,Juniors,M,220,,1
@@ -135,5 +135,5 @@ Sergey Usov,Сергей Усов,1993,116,195,205,-220.5,205,120,B,Raw,Juniors,
 Maksim Maksimov,Максим Максимов,1991,113.4,180,192.5,-200,192.5,120,B,Raw,Juniors,M,192.5,,2
 Aleksandr Savin,Александр Савин,1995,118.35,180,190,-200,190,120,B,Raw,Juniors,M,190,,3
 Nikita Vavilov,Никита Вавилов,1994,109.15,180,-190,-190,180,120,B,Raw,Juniors,M,180,,4
-Vyacheslav Yakovlev,Вячеслав Яковлев,1995,164.7,130,155,162.5,162.5,120+,B,Raw,Juniors,M,162.5,,1
+Vyacheslav Yakovlev #1,Вячеслав Яковлев,1995,164.7,130,155,162.5,162.5,120+,B,Raw,Juniors,M,162.5,,1
 Aleksey Podgorbunskiy,Алексей Подгорбунский,1992,135.4,150,160,-170,160,120+,B,Raw,Juniors,M,160,,2

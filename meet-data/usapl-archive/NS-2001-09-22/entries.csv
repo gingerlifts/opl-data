@@ -46,7 +46,7 @@ F-O,Andrea Sortwell,80.7,82.5,42,110,116,-120,116,116,,F,B,Single-ply,1
 F-O,Maggen Millin,81.9,82.5,17,85,95,101,101,101,,F,B,Single-ply,2
 F-O,Sara Tomechko,77.2,82.5,23,77.5,82.5,-90,82.5,82.5,,F,B,Single-ply,3
 F-O,Linda Knittel-Kauk,85,90,35,82.5,-87.5,87.5,87.5,87.5,,F,B,Single-ply,1
-F-O,Debbie Ferrell,120.6,90+,37,152.5,160,170,170,170,,F,B,Single-ply,1
+F-O,Deborah Ferrell,120.6,90+,37,152.5,160,170,170,170,,F,B,Single-ply,1
 F-O,Sue Hallen,106.5,90+,44,-110,125,-132.5,125,125,,F,B,Single-ply,2
 F-O,Lori Loughney,95.3,90+,41,92.5,-100,-100,92.5,92.5,,F,B,Single-ply,3
 F-T2,Maggen Millin,81.9,82.5,17,85,95,101,101,101,,F,B,Single-ply,1
@@ -85,7 +85,7 @@ M-LT,Joe DeFranco,98.3,100,26,185,-197.5,-200,185,185,,M,B,Single-ply,3
 M-LT,G. William Sweeney,99.4,100,76,87.5,100,-107.5,100,100,,M,B,Single-ply,4
 M-LT,Raoul Donati,107.6,110,37,247.5,-255,-262.5,247.5,247.5,,M,B,Single-ply,1
 M-LT,Kevin Mayer,107,110,34,235,-245,-245,235,235,,M,B,Single-ply,2
-M-LT,Dane Robinson,104.8,110,38,227.5,-232.5,232.5,232.5,232.5,,M,B,Single-ply,3
+M-LT,Dane Robinson #1,104.8,110,38,227.5,-232.5,232.5,232.5,232.5,,M,B,Single-ply,3
 M-LT,Byron Nichols,109.2,110,35,210,-220,220,220,220,,M,B,Single-ply,4
 M-LT,James McGuire III,107,110,63,120,130,142.5,142.5,142.5,,M,B,Single-ply,6
 M-LT,Joseph Yanovitch,106.8,110,68,130,137.5,142.5,142.5,142.5,,M,B,Single-ply,5
@@ -101,7 +101,7 @@ M-M1a,Dana Rosenzweig,81.8,82.5,44,170,177.5,180,180,180,,M,B,Single-ply,2
 M-M1a,James Peretick,81.6,82.5,43,-162.5,167.5,172.5,172.5,172.5,,M,B,Single-ply,3
 M-M1a,Patrick Carroll,80.9,82.5,44,150,-155,-155,150,150,,M,B,Single-ply,4
 M-M1a,Fred Stokes,82.1,82.5,40,145,-147.5,-147.5,145,145,,M,B,Single-ply,5
-M-M1a,Andrew Wilson,109.5,110,43,-190,195,-207.5,195,195,,M,B,Single-ply,2
+M-M1a,Andrew Wilson #7,109.5,110,43,-190,195,-207.5,195,195,,M,B,Single-ply,2
 M-M1a,Tom Babcock,107.4,110,40,195,-202.5,-202.5,195,195,,M,B,Single-ply,1
 M-M1a,Brad Klinger,121.9,125,44,230,237.5,240,240,240,,M,B,Single-ply,1
 M-M1a,Brian Martin,118.4,125,41,225,-235,-237.5,225,225,,M,B,Single-ply,2
@@ -111,14 +111,14 @@ M-M1a,Daniel Gaudreau,165.3,125+,40,257.5,-262.5,-262.5,257.5,257.5,,M,B,Single-
 M-M1a,Bruce Edwards,135.9,125+,43,237.5,247.5,-257.5,247.5,247.5,,M,B,Single-ply,2
 M-M1b,Mike Anderson,66.9,67.5,46,135.5,-140,140,140,140,,M,B,Single-ply,1
 M-M1b,Larry Miller,74.5,75,47,210,220,226,226,226,-227.5,M,B,Single-ply,1
-M-M1b,David Miller,73.8,75,49,137.5,145,-155,145,145,,M,B,Single-ply,2
+M-M1b,David Miller #8,73.8,75,49,137.5,145,-155,145,145,,M,B,Single-ply,2
 M-M1b,Gary Reale,75.3,82.5,48,-130,130,-135,130,130,,M,B,Single-ply,3
 M-M1b,Steve Harms,82.2,82.5,48,102.5,112.5,-127.5,112.5,112.5,,M,B,Single-ply,1
 M-M1b,Phillip Accordino,89,90,49,142.5,155,-167.5,155,155,,M,B,Single-ply,1
 M-M1b,Tony Horvath,97.6,100,47,147.5,150,-155,150,150,,M,B,Single-ply,1
 M-M1b,Daniel Dougherty,98,100,49,130,-142.5,142.5,142.5,142.5,,M,B,Single-ply,2
 M-M1b,Greg Chrun,108.2,110,49,207.5,217.5,-222.5,217.5,217.5,,M,B,Single-ply,1
-M-M1b,Kevin Johnson,123.9,125,46,-230,-230,-230,,,,M,B,Single-ply,DQ
+M-M1b,Kevin Johnson #1,123.9,125,46,-230,-230,-230,,,,M,B,Single-ply,DQ
 M-M2a,Andrew Bates,57.8,60,52,95,102.5,-110,102.5,102.5,,M,B,Single-ply,1
 M-M2a,Ted Feight,64.7,67.5,54,82.5,-87.5,-92.5,82.5,82.5,,M,B,Single-ply,1
 M-M2a,Jay Haines,74.5,75,50,-150,-150,150,150,150,,M,B,Single-ply,1
@@ -161,12 +161,12 @@ M-M3b,Ray Klocek,96.6,100,67,125,132.5,-142.5,132.5,132.5,,M,B,Single-ply,1
 M-M3b,Joseph Yanovitch,106.8,110,68,130,137.5,142.5,142.5,142.5,,M,B,Single-ply,1
 M-M4a,Calvin Everett,81.3,82.5,74,102.5,-107.5,-107.5,102.5,102.5,,M,B,Single-ply,1
 M-M4a,Bob Dunihue,80.2,82.5,74,75,77.5,-80,77.5,77.5,,M,B,Single-ply,2
-M-M4a,Tom Scott,87.8,90,70,125,137.5,140,140,140,,M,B,Single-ply,1
+M-M4a,Tom Scott #1,87.8,90,70,125,137.5,140,140,140,,M,B,Single-ply,1
 M-M4a,Bill Remley,90.5,100,71,127.5,135,137.5,137.5,137.5,,M,B,Single-ply,1
 M-M4a,Joseph Waddill,95.4,100,74,65,72.5,-82.5,72.5,72.5,,M,B,Single-ply,2
 M-M4a,Sheldon Levy,105.3,110,70,105,107.5,110,110,110,,M,B,Single-ply,1
 M-M4b,G. William Sweeney,99.4,100,76,87.5,100,-107.5,100,100,,M,B,Single-ply,1
-M-M5a,Charles Lee,87.8,90,81,102.5,-107.5,,102.5,102.5,,M,B,Single-ply,1
+M-M5a,Charles Lee #1,87.8,90,81,102.5,-107.5,,102.5,102.5,,M,B,Single-ply,1
 M-M5a,Anton Reel,93.6,100,81,62.5,67.5,70,70,70,,M,B,Single-ply,1
 M-O,Ted Feight,64.7,67.5,54,82.5,-87.5,-92.5,82.5,82.5,,M,B,Single-ply,1
 M-MO,Ennis White,99.5,100,37,205,-220,220,220,220,,M,B,Single-ply,1
@@ -201,9 +201,9 @@ M-O,David Geistlinger,80.7,82.5,22,-157.5,-165,-165,,,,M,B,Single-ply,DQ
 M-O,Joseph McAuliffe,89.1,90,36,232.5,240,245,245,245,-248,M,B,Single-ply,1
 M-O,Dennis Cieri,89.8,90,32,232.5,242.5,-247.5,242.5,242.5,,M,B,Single-ply,2
 M-O,Steve Spinelli,89.1,90,30,-212.5,-220,222.5,222.5,222.5,,M,B,Single-ply,3
-M-O,Patrick Hall,89.1,90,35,195,205,-215,205,205,,M,B,Single-ply,5
+M-O,Pat Hall #1,89.1,90,35,195,205,-215,205,205,,M,B,Single-ply,5
 M-O,Isaias Jackson,87.8,90,37,205,-222.5,-222.5,205,205,,M,B,Single-ply,4
-M-O,Mark Williams,88.4,90,30,-185,192.5,-200,192.5,192.5,,M,B,Single-ply,6
+M-O,Mark Williams #7,88.4,90,30,-185,192.5,-200,192.5,192.5,,M,B,Single-ply,6
 M-O,Kevin Farley,88.7,90,35,-187.5,187.5,-195,187.5,187.5,,M,B,Single-ply,7
 M-O,Steve Krebs,89,90,23,-185,185,-195,185,185,,M,B,Single-ply,8
 M-O,Brian Moore,88.5,90,33,-182.5,182.5,-192.5,182.5,182.5,,M,B,Single-ply,9
@@ -221,10 +221,10 @@ M-O,Kenneth Levatino,96.9,100,38,-185,195,-202.5,195,195,,M,B,Single-ply,9
 M-O,Joe DeFranco,98.3,100,26,185,-197.5,-200,185,185,,M,B,Single-ply,10
 M-O,Frank Schuetz,97.9,100,26,165,-175,182.5,182.5,182.5,,M,B,Single-ply,11
 M-O,Pat Wilson,103.5,110,25,245,260,-272.5,260,260,,M,B,Single-ply,1
-M-O,Dave Doan,109.2,110,37,242.5,250,-265,250,250,,M,B,Single-ply,2
+M-O,David Doan,109.2,110,37,242.5,250,-265,250,250,,M,B,Single-ply,2
 M-O,Raoul Donati,107.6,110,37,247.5,-255,-262.5,247.5,247.5,,M,B,Single-ply,3
 M-O,Kevin Mayer,107,110,34,235,-245,-245,235,235,,M,B,Single-ply,4
-M-O,Dane Robinson,104.8,110,38,227.5,-232.5,232.5,232.5,232.5,,M,B,Single-ply,5
+M-O,Dane Robinson #1,104.8,110,38,227.5,-232.5,232.5,232.5,232.5,,M,B,Single-ply,5
 M-O,Byron Nichols,109.2,110,35,210,-220,220,220,220,,M,B,Single-ply,6
 M-O,Patrick Johnson,109.3,110,30,-227.5,-227.5,-227.5,,,,M,B,Single-ply,DQ
 M-O,Scott Lade,123.7,125,32,-240,250,257.5,257.5,257.5,,M,B,Single-ply,1
@@ -238,7 +238,7 @@ M-O,Jon DuFoor,119.6,125,30,217.5,-230,230,230,230,,M,B,Single-ply,8
 M-O,Fred Dini,124.9,125,51,227.5,-232.5,-232.5,227.5,227.5,,M,B,Single-ply,9
 M-O,Nectar Kirkiris,113.5,125,31,-175,-180,180,180,180,,M,B,Single-ply,10
 M-O,Dave Martin,122.9,125,33,-257.5,-257.5,-270,,,,M,B,Single-ply,DQ
-M-O,Kevin Johnson,123.9,125,46,-230,-230,-230,,,,M,B,Single-ply,DQ
+M-O,Kevin Johnson #1,123.9,125,46,-230,-230,-230,,,,M,B,Single-ply,DQ
 M-O,Arnold Barnette,117.8,125,,-215,-225,-225,,,,M,B,Single-ply,DQ
 M-O,Mike Hodge,163.3,125+,31,260,275,-282.5,275,275,,M,B,Single-ply,1
 M-O,Andy Shields,141.1,125+,27,260,-272.5,-272.5,260,260,,M,B,Single-ply,2
@@ -252,7 +252,7 @@ M-PF,Ben Scherer,76.9,82.5,40,140,-152.5,-152.5,140,140,,M,B,Single-ply,1
 M-PF,Tim Anderson,97.6,100,28,215,-230,230,230,230,,M,B,Single-ply,1
 M-PF,Larry Malcomson,97.7,100,36,217.5,230,-232.5,230,230,,M,B,Single-ply,2
 M-PF,Kenneth Levatino,96.9,100,38,-185,195,-202.5,195,195,,M,B,Single-ply,3
-M-PF,Dave Doan,109.2,110,37,242.5,250,-265,250,250,,M,B,Single-ply,1
+M-PF,David Doan,109.2,110,37,242.5,250,-265,250,250,,M,B,Single-ply,1
 M-PF,Dwayne Meeks,117.8,125,36,-250,250,-265,250,250,,M,B,Single-ply,1
 M-PF,Denny Day,121.8,125,47,147.5,162.5,-170,162.5,162.5,,M,B,Single-ply,2
 M-PF,Tom Lamb,144.7,125+,37,200,215,227.5,227.5,227.5,,M,B,Single-ply,1
@@ -272,7 +272,7 @@ MR-O,Adrian Griffin,80.3,82.5,26,-137.5,142.5,-157.5,142.5,142.5,,M,B,Raw,5
 MR-O,Wally Strosnider,87.2,90,50,147.5,-155,155,155,155,,M,B,Raw,1
 MR-O,Sidney Green,95.3,100,32,187.5,195,200,200,200,,M,B,Raw,1
 MR-O,Joe Melchiors,92.9,100,32,150,157.5,-162.5,157.5,157.5,,M,B,Raw,2
-MR-O,Andrew Wilson,109.5,110,43,-190,195,-207.5,195,195,,M,B,Raw,1
+MR-O,Andrew Wilson #7,109.5,110,43,-190,195,-207.5,195,195,,M,B,Raw,1
 MR-O,John Ciurciu,105.8,110,25,170,182.5,-192.5,182.5,182.5,,M,B,Raw,2
 MR-O,Vince Tarantino,109.5,110,35,157.5,162.5,-167.5,162.5,162.5,,M,B,Raw,3
 MR-O,Chris Calvano,110.1,125,32,167.5,195,-227.5,195,195,,M,B,Raw,1

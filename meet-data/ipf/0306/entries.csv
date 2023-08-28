@@ -11,7 +11,7 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,BodyweightKg,Country,Best3SquatK
 3,60,F,Open,Nigar Mekhtieva,1984,59,Ukraine,160,85,150,395,SBD,Single-ply
 1,67.5,F,Open,Marina Michailova,1981,66.9,Russia,205,105,182.5,492.5,SBD,Single-ply
 2,67.5,F,Open,Marina Nikolaeva,1983,67,Russia,170,97.5,170,437.5,SBD,Single-ply
-1,75,F,Open,Mariia Panferova,1977,73.8,Russia,200,115,170,485,SBD,Single-ply
+1,75,F,Open,Mariya Panferova,1977,73.8,Russia,200,115,170,485,SBD,Single-ply
 2,75,F,Open,Alina Petrosova,1983,73.9,Ukraine,160,82.5,140,382.5,SBD,Single-ply
 1,82.5,F,Open,Ganna Lytvyn,1983,81.9,Ukraine,210,125,190,525,SBD,Single-ply
 2,82.5,F,Open,Anna Kravchenko,1984,81.4,Ukraine,170,110,180,460,SBD,Single-ply
@@ -28,7 +28,7 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,BodyweightKg,Country,Best3SquatK
 2,67.5,M,Open,Alexey Nefedov,1980,67.5,Russia,260,147.5,247.5,655,SBD,Single-ply
 3,67.5,M,Open,Alex Romankov,1982,66.9,Belarus,250,140,215,605,SBD,Single-ply
 4,67.5,M,Open,Mykola Golik,1981,66.4,Ukraine,215,122.5,217.5,555,SBD,Single-ply
-1,75,M,Open,Alexandr Posheluk,1979,74.4,Belarus,272.5,197.5,295,765,SBD,Single-ply
+1,75,M,Open,Alexander Poshelyuk,1979,74.4,Belarus,272.5,197.5,295,765,SBD,Single-ply
 2,75,M,Open,Dmitriy Dvornikov,1982,73.5,Russia,295,172.5,262.5,730,SBD,Single-ply
 3,75,M,Open,Anton Kuznetsov,1983,74.2,Ukraine,260,170,210,640,SBD,Single-ply
 4,75,M,Open,Viktor Gutzenko,1981,73.8,Ukraine,200,140,240,580,SBD,Single-ply
@@ -38,7 +38,7 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,BodyweightKg,Country,Best3SquatK
 DQ,82.5,M,Open,Aleksey Zvarikin,1979,82.5,Russia,,,,,SBD,Single-ply
 1,90,M,Open,Sergey Mor,1962,89.8,Russia,315,227.5,320,862.5,SBD,Single-ply
 2,90,M,Open,Mykha Artsymovich,1982,88.8,Ukraine,320,180,290,790,SBD,Single-ply
-3,90,M,Open,Andrei Ivanets,1984,88,Belarus,300,172.5,310,782.5,SBD,Single-ply
+3,90,M,Open,Andrey Ivanets,1984,88,Belarus,300,172.5,310,782.5,SBD,Single-ply
 1,100,M,Open,Oleksandr Bashkatov,1982,98.9,Ukraine,322.5,202.5,315,840,SBD,Single-ply
 2,100,M,Open,Aleksey Baluev,1978,96.6,Russia,330,212.5,295,837.5,SBD,Single-ply
 3,100,M,Open,Gurgen Pogosjan,1978,95,Armenia,305,172.5,270,747.5,SBD,Single-ply
@@ -47,6 +47,6 @@ DQ,82.5,M,Open,Aleksey Zvarikin,1979,82.5,Russia,,,,,SBD,Single-ply
 2,110,M,Open,Arsen Baikov,1981,109.2,Russia,340,232.5,315,887.5,SBD,Single-ply
 1,125,M,Open,Aleksand Kluschev,1983,113.4,Russia,362.5,210,360.5,932.5,SBD,Single-ply
 2,125,M,Open,Robert Keller #1,1962,119.5,USA,290,197.5,275,762.5,SBD,Single-ply
-1,125+,M,Open,Viktor Yurchenko,1980,125.2,Ukraine,350,227.5,310,887.5,SBD,Single-ply
+1,125+,M,Open,Viktor Yurchenko #1,1980,125.2,Ukraine,350,227.5,310,887.5,SBD,Single-ply
 2,125+,M,Open,Vyacjesl Aksianov,1981,132.6,Russia,325,207.5,312.5,845,SBD,Single-ply
 3,125+,M,Open,Yuriy Koleshnikov,1984,168,Ukraine,337.5,217.5,265,820,SBD,Single-ply

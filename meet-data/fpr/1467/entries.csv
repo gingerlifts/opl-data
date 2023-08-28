@@ -1,0 +1,74 @@
+Name,CyrillicName,BirthYear,BodyweightKg,Team,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,WeightClassKg,Event,Equipment,Division,Sex,BirthDate,Place
+Olga Stoyanova,Ольга Стоянова,2002,39.33,ДЮСШ,50,40,80,170,40,SBD,Raw,Sub-Juniors,F,,1
+Tatyana Demidova,Татьяна Демидова,2000,31.6,МБОУ ЦО Альянс,40,25,60,125,40,SBD,Raw,Sub-Juniors,F,,2
+Galina Strelenko,Галина Стреленко,2002,36.9,МБОУ ЦО Альянс,35,25,45,105,40,SBD,Raw,Sub-Juniors,F,,3
+Natalya Stoyanova,Наталья Стоянова,2000,41.85,ДЮСШ,45,37.5,77.5,160,43,SBD,Raw,Sub-Juniors,F,,1
+Irina Sergienko,Ирина Сергиенко,1998,42.5,ДЮСШ,65,35,52.5,152.5,43,SBD,Raw,Sub-Juniors,F,,2
+Diana Armanova,Диана Арманова,2002,42.15,МБОУ ЦО Альянс,45,25,60,130,43,SBD,Raw,Sub-Juniors,F,,3
+Sofya Sobolevskaya,Софья Соболевская,1998,46.35,ДЮСШ,87.5,45,105,237.5,47,SBD,Raw,Sub-Juniors,F,,1
+Yuliya Bastanzhieva,Юлия Бастанжиева,1999,46.3,ДЮСШ,65,32.5,90,187.5,47,SBD,Raw,Sub-Juniors,F,,2
+Alina Bityukova,Алина Битюкова,2000,43.65,МБОУ ЦО Альянс,45,30,80,155,47,SBD,Raw,Sub-Juniors,F,,3
+Anastasiya Zalomaeva,Анастасия Заломаева,1999,50.3,ДЮСШ,70,35,97.5,202.5,52,SBD,Raw,Sub-Juniors,F,,1
+Tatyana Knyazkova,Татьяна Князькова,2002,48.2,МБОУ ЦО Альянс,75,35,90,200,52,SBD,Raw,Sub-Juniors,F,,2
+Aleksandra Polamarchuk,Александра Поламарчук,1999,52,ДЮСШ,60,37.5,102.5,200,52,SBD,Raw,Sub-Juniors,F,,3
+Tatyana Filatova,Татьяна Филатова,1998,55.65,ДЮСШ,100,57.5,130,287.5,57,SBD,Raw,Sub-Juniors,F,,1
+Nina Bondarchuk,Нина Бондарчук,1998,54.75,МБОУ ЦО Альянс,70,37.5,105,212.5,57,SBD,Raw,Sub-Juniors,F,,2
+Antonina Voronova,Антонина Воронова,1999,56.4,ДЮСШ,70,35,92.5,197.5,57,SBD,Raw,Sub-Juniors,F,,3
+Alina Kravchenko,Алина Кравченко,1999,57.5,Спарта,90,45,107.5,242.5,63,SBD,Raw,Sub-Juniors,F,,1
+Polina Ustselyomova,Полина Усцелёмова,1998,57.15,ДЮСШ,60,37.5,110,207.5,63,SBD,Raw,Sub-Juniors,F,,2
+Marina Ivanova,Марина Иванова,1999,61.05,ДЮСШ,70,40,95,205,63,SBD,Raw,Sub-Juniors,F,,3
+Vera Razuvaeva,Вера Разуваева,1998,69.8,ДЮСШ,80,50,105,235,63+,SBD,Raw,Sub-Juniors,F,,1
+Nina Chernenko,Нина Черненко,2000,66.2,Медведь,80,35,90,205,63+,SBD,Raw,Sub-Juniors,F,,2
+Vladimir Prokopchik,Владимир Прокопчик,2000,39.55,ДЮСШ,75,37.5,92.5,205,40,SBD,Raw,Sub-Juniors,M,,1
+Aleksey Beskishkin,Алексей Бескишкин,2000,38.75,ДЮСШ,57.5,37.5,102.5,197.5,40,SBD,Raw,Sub-Juniors,M,,2
+Vadim Malyshev,Вадим Малышев,2002,40,ДЮСШ,60,42.5,90,192.5,40,SBD,Raw,Sub-Juniors,M,,3
+Daniil Prelovskiy,Даниил Преловский,2001,38.15,ДЮСШ,60,40,72.5,172.5,40,SBD,Raw,Sub-Juniors,M,,4
+Igor Muntyan,Игорь Мунтян,2002,34,ДЮСШ,45,32.5,70,147.5,40,SBD,Raw,Sub-Juniors,M,,5
+Aleksey Kireev,Алексей Киреев,2000,37.7,ДЮСШ,35,25,65,125,40,SBD,Raw,Sub-Juniors,M,,6
+Aleksandr Avtushko,Александр Автушко,1999,41.9,ДЮСШ,77.5,42.5,97.5,217.5,43,SBD,Raw,Sub-Juniors,M,,1
+Semen Chernousov,Семен Черноусов,2000,41.9,ДЮСШ,65,40,102.5,207.5,43,SBD,Raw,Sub-Juniors,M,,2
+Vladimir Vasilev,Владимир Васильев,1998,42.9,ДЮСШ,65,42.5,100,207.5,43,SBD,Raw,Sub-Juniors,M,,3
+Ivan Zarubin,Иван Зарубин,2001,41.8,ДЮСШ,60,42.5,92.5,195,43,SBD,Raw,Sub-Juniors,M,,4
+Viktor Muksinov,Виктор Муксинов,1999,47.95,ДЮСШ,105,60,150,315,48,SBD,Raw,Sub-Juniors,M,,1
+Stepan Kolmachevskiy,Степан Колмачевский,1999,47.35,ДЮСШ,87.5,67.5,145,300,48,SBD,Raw,Sub-Juniors,M,,2
+Andrey Poddubnyak,Андрей Поддубняк,1999,45.8,Рекорд,105,60,120,285,48,SBD,Raw,Sub-Juniors,M,,3
+Sergey Abramov,Сергей Абрамов,2001,47.35,ДЮСШ,90,45,105,240,48,SBD,Raw,Sub-Juniors,M,,4
+Aleksandr Glavinskiy,Александр Главинский,2001,47.4,ДЮСШ,80,50,100,230,48,SBD,Raw,Sub-Juniors,M,,5
+Kirill Suvorov,Кирилл Суворов,2000,45.8,ДЮСШ,62.5,35,90,187.5,48,SBD,Raw,Sub-Juniors,M,,6
+Aleksandr Sizov,Александр Сизов,2001,52.4,ДЮСШ,110,70,140,320,53,SBD,Raw,Sub-Juniors,M,,1
+Pavel Matveev,Павел Матвеев,1998,52.6,ДЮСШ,92.5,60,120,272.5,53,SBD,Raw,Sub-Juniors,M,,2
+Roman Yurasov,Роман Юрасов,1999,52,ДЮСШ,95,62.5,110,267.5,53,SBD,Raw,Sub-Juniors,M,,3
+Leonid Antipov,Леонид Антипов,2000,52,ДЮСШ,90,50,112.5,252.5,53,SBD,Raw,Sub-Juniors,M,,4
+Sergey Lylov,Сергей Лылов,1999,51.65,ДЮСШ,77.5,52.5,120,250,53,SBD,Raw,Sub-Juniors,M,,5
+Roman Gorbunov,Роман Горбунов,2002,51.7,ДЮСШ,55,45,75,175,53,SBD,Raw,Sub-Juniors,M,,6
+Denis Olefir,Денис Олефир,1999,58.6,ДЮСШ,155,95,165,415,59,SBD,Raw,Sub-Juniors,M,,1
+Artyom Negmatov,Артём Негматов,1999,59,Рекорд,135,70,172.5,377.5,59,SBD,Raw,Sub-Juniors,M,,2
+Nikita Ermolenko,Никита Ермоленко,1998,58.4,ДЮСШ,140,80,150,370,59,SBD,Raw,Sub-Juniors,M,,3
+Vyacheslav Bragin,Вячеслав Брагин,2000,58.4,ДЮСШ,120,70,140,330,59,SBD,Raw,Sub-Juniors,M,,4
+Fyodor Rudykh,Фёдор Рудых,1998,57.8,ДЮСШ,92.5,80,135,307.5,59,SBD,Raw,Sub-Juniors,M,,5
+Anatoliy Gindyuk,Анатолий Гиндюк,1998,57.65,ДЮСШ,90,62.5,140,292.5,59,SBD,Raw,Sub-Juniors,M,,6
+Aleksandr Turkov,Александр Турков,2000,57.7,ДЮСШ,95,60,130,285,59,SBD,Raw,Sub-Juniors,M,,7
+Aleksey Lo-Ven-Yu,Алексей Ло-Вень-Ю,2000,57.8,ДЮСШ,105,55,115,275,59,SBD,Raw,Sub-Juniors,M,,8
+Vadim Andropov,Вадим Андропов,1999,65.5,ДЮСШ,152.5,85,170,407.5,66,SBD,Raw,Sub-Juniors,M,,1
+Aleksandr Gora,Александр Гора,1998,65.9,ДЮСШ,137.5,87.5,170,395,66,SBD,Raw,Sub-Juniors,M,,2
+Yuriy Tsatsulin,Юрий Цацулин,1998,64.4,ДЮСШ,110,65,170,345,66,SBD,Raw,Sub-Juniors,M,,3
+Gennadiy Slavkin,Геннадий Славкин,1998,60.7,ДЮСШ,100,62.5,130,292.5,66,SBD,Raw,Sub-Juniors,M,,4
+Artem Kireev,Артем Киреев,1998,66,СОЦ Зенит,100,65,125,290,66,SBD,Raw,Sub-Juniors,M,,5
+Vladislav Krashchuk,Владислав Кращук,1998,64.9,СОЦ Зенит,100,67.5,120,287.5,66,SBD,Raw,Sub-Juniors,M,,6
+Evgeniy Kuznetsov,Евгений Кузнецов,1998,62.2,СОЦ Зенит,100,55,127.5,282.5,66,SBD,Raw,Sub-Juniors,M,,7
+Dmitriy Lebedev,Дмитрий Лебедев,1998,59.9,Рекорд,105,55,115,275,66,SBD,Raw,Sub-Juniors,M,,8
+Sergey Molokov,Сергей Молоков,1998,63.6,ДЮСШ,85,62.5,120,267.5,66,SBD,Raw,Sub-Juniors,M,,9
+Kirill Zakharov,Кирилл Захаров,1999,65.2,ДЮСШ,92.5,60,110,262.5,66,SBD,Raw,Sub-Juniors,M,,10
+Lev Melnichenko,Лев Мельниченко,1998,72.3,ДЮСШ,205,122.5,200,527.5,74,SBD,Raw,Sub-Juniors,M,,1
+Igor Grishnev,Игорь Гришнев,1998,73,ДЮСШ,147.5,87.5,190,425,74,SBD,Raw,Sub-Juniors,M,,2
+Sergey Kazak,Сергей Казак,1998,73.45,Рекорд,145,85,175,405,74,SBD,Raw,Sub-Juniors,M,,3
+Oleg Kuimov,Олег Куимов,1999,71.85,Рекорд,115,70,135,320,74,SBD,Raw,Sub-Juniors,M,,4
+Nikita Leskovets,Никита Лесковец,1999,81.85,ДЮСШ,157.5,102.5,185,445,83,SBD,Raw,Sub-Juniors,M,,1
+Vladimir Kononenko,Владимир Кононенко,1999,82.3,Спарта,160,105,170,435,83,SBD,Raw,Sub-Juniors,M,,2
+Nikita Ageev,Никита Агеев,1998,74.6,ДЮСШ,120,80,177.5,377.5,83,SBD,Raw,Sub-Juniors,M,,3
+Leonid Rudykh,Леонид Рудых,1997,80.2,ДЮСШ,160,115,207.5,,83,SBD,Raw,Sub-Juniors,M,,DQ
+Fyodor Medvedev,Фёдор Медведев,1998,90.65,ДЮСШ,145,115,195,455,93,SBD,Raw,Sub-Juniors,M,,1
+Renat Khayrullin,Ренат Хайруллин,2000,84.4,ДЮСШ,110,85,150,345,93,SBD,Raw,Sub-Juniors,M,,2
+Ilya Sviridov,Илья Свиридов,1999,93.2,ДЮСШ,135,87.5,175,397.5,93+,SBD,Raw,Sub-Juniors,M,,1
+Ilya Sazhnev,Илья Сажнев,1998,93.5,ДЮСШ,125,87.5,145,357.5,93+,SBD,Raw,Sub-Juniors,M,,2
+Sergey Bekker,Сергей Беккер,1998,101.35,Рекорд,110,65,120,295,93+,SBD,Raw,Sub-Juniors,M,,3

@@ -1,12 +1,12 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 S. Thompson,52,Open,F,86.18,56.7,,,136.08,278.96,SBD,Single-ply,1
-M. Shuttleworth,56,Open,F,43.09,54.43,,,61.24,158.76,SBD,Single-ply,1
+Maura Shuttleworth,56,Open,F,43.09,54.43,,,61.24,158.76,SBD,Single-ply,1
 M. Tuele,60,Open,F,111.13,61.24,,,138.35,310.71,SBD,Single-ply,1
 A. Bally,60,Open,F,120.2,63.5,,,111.13,294.84,SBD,Single-ply,2
 C. Hulse,60,Open,F,106.59,61.24,,,122.47,290.3,SBD,Single-ply,3
 P. Trombo,67.5,Open,F,88.45,54.43,,,111.13,254.01,SBD,Single-ply,1
 C. Anderson,75,Open,F,136.08,68.04,,,156.49,360.61,SBD,Single-ply,1
-A. Silkey,67.5,Open,M,192.78,131.54,,,192.78,517.1,SBD,Single-ply,1
+Ari Silkey,67.5,Open,M,192.78,131.54,,,192.78,517.1,SBD,Single-ply,1
 Mark Schultenover,75,Open,M,244.94,156.49,,,242.67,644.1,SBD,Single-ply,1
 Mike Hulse,75,Open,M,235.87,138.35,,,215.46,589.67,SBD,Single-ply,2
 M. Murphy,75,Open,M,170.1,145.15,,,204.12,519.36,SBD,Single-ply,3
@@ -17,8 +17,8 @@ Blake Hanson,82.5,Open,M,226.8,136.08,,,238.14,601.01,SBD,Single-ply,3
 S. Ried,82.5,Open,M,206.38,124.74,,,238.14,569.26,SBD,Single-ply,4
 D. Flitter,82.5,Open,M,199.58,117.93,,,208.65,526.17,SBD,Single-ply,5
 M. Johnson #22,82.5,Open,M,147.42,68.04,,,188.24,403.7,SBD,Single-ply,6
-M. Rodacker,90,Open,M,263.08,161.03,,,272.16,696.27,SBD,Single-ply,1
-T. Teragawa,90,Open,M,219.99,190.51,,,265.35,675.85,SBD,Single-ply,2
+Mark Rodacker,90,Open,M,263.08,161.03,,,272.16,696.27,SBD,Single-ply,1
+Tim Teragawa,90,Open,M,219.99,190.51,,,265.35,675.85,SBD,Single-ply,2
 C. Kummer,90,Open,M,249.48,161.03,,,249.48,659.98,SBD,Single-ply,3
 M. Burns,90,Open,M,226.8,179.17,,,244.94,650.91,SBD,Single-ply,4
 S. Timonen,90,Open,M,226.8,147.42,,,260.82,635.03,SBD,Single-ply,5
@@ -43,6 +43,6 @@ M. Brower,110,Open,M,206.38,149.69,,,249.48,605.55,SBD,Single-ply,6
 G. Wagner,125,Open,M,322.05,213.19,,,281.23,816.47,SBD,Single-ply,1
 R. Stanius,125,Open,M,244.94,190.51,,,254.01,689.46,SBD,Single-ply,2
 M. Bradford,125,Open,M,247.21,172.37,,,256.28,675.85,SBD,Single-ply,3
-C Moeckly,125,Open,M,226.8,154.22,,,226.8,607.81,SBD,Single-ply,4
+C. Moeckly,125,Open,M,226.8,154.22,,,226.8,607.81,SBD,Single-ply,4
 Brad Gillingham,125+,Open,M,272.16,258.55,376.48,381.02,381.02,911.72,SBD,Single-ply,1
 B. Madvig,125+,Open,M,317.52,204.12,,,283.5,805.13,SBD,Single-ply,2

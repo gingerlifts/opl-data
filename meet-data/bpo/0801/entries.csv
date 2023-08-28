@@ -1,7 +1,7 @@
 Name,Age,Sex,Division,Equipment,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Place
 Deborah Hickman,47,F,M45+,Single-ply,53,56,90,100,,100,45,50,,50,100,110,122.5,122.5,272.5,SBD,1
 Adam Willis,44,M,M40+,Single-ply,62,67.5,,,190,190,115,120,,120,180,190,200,200,510,SBD,1
-Barry Evans,71,M,M70+,Single-ply,67.4,67.5,,,,,,,,,,,,,,SBD,DQ
+Barry Evans #1,71,M,M70+,Single-ply,67.4,67.5,,,,,,,,,,,,,,SBD,DQ
 Louise Price,22,F,Junior,Single-ply,73.4,75,100,110,120,120,70,77,80.5,80.5,130,140,147.5,147.5,348,SBD,1
 Matthew Wild,16,M,T15-19,Single-ply,72.2,75,110,125,135,135,85,92.5,,92.5,135,145,,145,372.5,SBD,1
 Arwyn Brain,20,M,Junior,Single-ply,74.1,75,175,185,192.5,192.5,127.5,132.5,137.5,137.5,175,190,200,200,530,SBD,1
@@ -30,18 +30,18 @@ David Belcher,48,M,M45+,Single-ply,119.8,125,220,240,,240,130,140,,140,230,250,,
 David Gladwell,31,M,Open,Single-ply,132.6,140,,,310,310,200,,,200,250,260,270,270,780,SBD,1
 Duncan Tanner,36,M,Open,Single-ply,140.2,140+,245,265,,265,225,235,,235,250,280,290,290,790,SBD,1
 Richard Fricker,47,M,M45+,Single-ply,160,140+,200,230,250,250,130,140,155,155,150,210,235,235,640,SBD,1
-Stephen Davies,35,M,Open,Single-ply,66.6,67.5,,,,,90,97.5,102.5,102.5,,,,,102.5,B,1
+Stephen Davies #2,35,M,Open,Single-ply,66.6,67.5,,,,,90,97.5,102.5,102.5,,,,,102.5,B,1
 Arram Eghoyan,24,M,Open,Single-ply,80.7,82.5,,,,,160,170,177.5,177.5,,,,,177.5,B,1
 Andy Knight,36,M,Open,Single-ply,80.7,82.5,,,,,155,,165,165,,,,,165,B,2
 Rob Preston,39,M,Open,Single-ply,85.5,90,,,,,,200,,200,,,,,200,B,1
 Phil Beniston,44,M,M40+,Single-ply,89.1,90,,,,,185,,200,200,,,,,200,B,1
 Bohdan Zahayko,28,M,Open,Single-ply,94.2,100,,,,,100,,,100,,,,,100,B,G
 Chris Drew,21,M,Junior,Single-ply,111.8,125,,,,,185,195,200,200,,,,,200,B,1
-Tony Brown,45,M,M45+,Single-ply,103.8,110,,,,,237.5,,,237.5,,,,,237.5,B,1
+Tony Brown #1,45,M,M45+,Single-ply,103.8,110,,,,,237.5,,,237.5,,,,,237.5,B,1
 Duncan Tanner,36,M,Open,Single-ply,140.2,140+,,,,,225,235,,235,,,,,235,B,1
 Mick King,57,M,M55+,Single-ply,130,140,,,,,200,220,230,230,,,,,230,B,1
 Richard Fricker,47,M,M45+,Single-ply,160,140+,,,,,130,140,155,155,,,,,155,B,1
-Stephen Davies,35,M,Open,Single-ply,66.6,67.5,,,,,,,,,130,140,150,150,150,D,1
+Stephen Davies #2,35,M,Open,Single-ply,66.6,67.5,,,,,,,,,130,140,150,150,150,D,1
 Arram Eghoyan,24,M,Open,Single-ply,80.7,82.5,,,,,,,,,210,230,235,235,235,D,1
 James Godbar,22,M,Junior,Single-ply,113.3,125,,,,,,,,,225,252.5,260,260,260,D,1
 Andrew Ward #2,44,M,M40+,Single-ply,112.5,125,,,,,,,,,280,290,,290,290,D,1

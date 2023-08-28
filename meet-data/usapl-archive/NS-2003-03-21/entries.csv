@@ -66,7 +66,7 @@ DQ,Vincent Abrego,Freshman/Sophomore,M,SBD,Single-ply,90,Notre Dame HS,IL,88.2,-
 1,Alex Neukirch,Freshman/Sophomore,M,SBD,Single-ply,110,Yutan HS,NE,107.5,175,195,210,210,97.5,105,110,110,182.5,197.5,205,205,525
 2,Zach Webber,Freshman/Sophomore,M,SBD,Single-ply,110,Necedah,WI,108,215,-217.5,-220,215,72.5,80,85,85,182.5,195,-225,195,495
 3,Andy Komperud,Freshman/Sophomore,M,SBD,Single-ply,110,GET,WI,108.3,142.5,167.5,-182.5,167.5,-77.5,80,-92.5,80,142.5,170,-177.5,170,417.5
-1,Chris Anderson,Freshman/Sophomore,M,SBD,Single-ply,125,GET,WI,122.6,142.5,-200,207.5,207.5,100,110,-112,110,142.5,185,197.5,197.5,515
+1,Chris Anderson #4,Freshman/Sophomore,M,SBD,Single-ply,125,GET,WI,122.6,142.5,-200,207.5,207.5,100,110,-112,110,142.5,185,197.5,197.5,515
 DQ,Jeff Wollen,Freshman/Sophomore,M,SBD,Single-ply,125+,Yutan HS,NE,137.5,-227.5,-227.5,-227.5,,,,,,,,,,
 1,Dayna Sifuentez,Varsity,F,SBD,Single-ply,44,Del Valle,TX,43.3,82.5,90,95,95,45,47.5,50,50,97.5,105,110,110,255
 2,Courtney Young,Varsity,F,SBD,Single-ply,44,East Ascension HS,LA,43.4,65,80,85,85,30,35,37.5,37.5,87.5,102.5,-110,102.5,225
@@ -115,7 +115,7 @@ DQ,Nicole Lindsay,Varsity,F,SBD,Single-ply,52,Northlake Christian,LA,50.65,-87.5
 DQ,Lindsay Bennett,Varsity,F,SBD,Single-ply,56,Bishop Sullivan,LA,55.05,75,-80,-80,75,-40,-40,-40,,,,,,
 DQ,Kim Fischer,Varsity,F,SBD,Single-ply,56,Garden County HS,NE,55.05,-87.5,-87.5,-87.5,,-40,,,,,,,,
 1,Molly Dennany,Varsity,F,SBD,Single-ply,60,Plainwell,MI,59.35,135,-145,145,145,75,82.5,-90,82.5,130,147.5,152.5,152.5,380
-2,A. Angelle Matt,Varsity,F,SBD,Single-ply,60,Holy Savior Menard Central,LA,58.9,130,140,147.5,147.5,67.5,-72.5,75,75,145,155,-160,155,377.5
+2,Angelle Matt,Varsity,F,SBD,Single-ply,60,Holy Savior Menard Central,LA,58.9,130,140,147.5,147.5,67.5,-72.5,75,75,145,155,-160,155,377.5
 3,Lindsay Vlachakis,Varsity,F,SBD,Single-ply,60,Neenah HS,WI,58.2,-125,125,-135,125,52.5,57.5,62.5,62.5,135,147.5,-150,147.5,335
 4,Lisa DeSalvo,Varsity,F,SBD,Single-ply,60,Northlake Christian,LA,59.8,-105,105,117.5,117.5,57.5,62.5,-65,62.5,122.5,137.5,-142.5,137.5,317.5
 5,Stefanie Jacobson,Varsity,F,SBD,Single-ply,60,Neenah HS,WI,58.8,97.5,-107.5,110,110,55,-60,-60,55,115,125,-135,125,290
@@ -243,8 +243,8 @@ DQ,Jay Gould,Varsity,M,SBD,Single-ply,67.5,Valley,NE,65.7,-137.5,137.5,-145,137.
 DQ,Nicholas Hobbins,Varsity,M,SBD,Single-ply,90,Lapeer West HS,MI,89.75,172.5,192.5,-205,192.5,150,-177.5,,150,,,,,
 1,Garet Koxlien,Varsity,M,SBD,Single-ply,100,GET,WI,99.6,215,237.5,247.5,247.5,110,117.5,-125,117.5,215,237.5,255,255,620
 2,Andres Pettis,Varsity,M,SBD,Single-ply,100,Marquette Univ HS,WI,95.1,222.5,240,-247.5,240,137.5,-150,-150,137.5,227.5,240,-242.5,240,617.5
-3,Richard Roberts,Varsity,M,SBD,Single-ply,100,Mauston,WI,96.65,200,217.5,-227.5,217.5,120,-130,130,130,215,227.5,-235,227.5,575
-4,Brandon Clark,Varsity,M,SBD,Single-ply,100,Plainwell,MI,97,182.5,205,210,210,137.5,152.5,160,160,170,187.5,197.5,197.5,567.5
+3,Richard Roberts #3,Varsity,M,SBD,Single-ply,100,Mauston,WI,96.65,200,217.5,-227.5,217.5,120,-130,130,130,215,227.5,-235,227.5,575
+4,Brandon Clark #7,Varsity,M,SBD,Single-ply,100,Plainwell,MI,97,182.5,205,210,210,137.5,152.5,160,160,170,187.5,197.5,197.5,567.5
 5,Joe Anderson,Varsity,M,SBD,Single-ply,100,Plainwell,MI,99.9,180,-200,-200,180,117.5,127.5,132.5,132.5,197.5,220,227.5,227.5,540
 6,Chad Hayden,Varsity,M,SBD,Single-ply,100,Valley,NE,97.2,190,-210,-210,190,117.5,127.5,-140,127.5,205,-220,-227.5,205,522.5
 7,AJ Bolen,Varsity,M,SBD,Single-ply,100,Alexandria SH,LA,99.05,170,180,-190,180,-90,90,97.5,97.5,207.5,220,-227.5,220,497.5

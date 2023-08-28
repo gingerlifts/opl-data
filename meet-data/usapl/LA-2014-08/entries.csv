@@ -18,7 +18,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 2,M,Mitchell Fountain,SBD,M-T3,110,Single-ply,103.5,226.8,142.9,220,589.7,1995
 1,M,Benjamin Anderson,SBD,M-T3,125,Single-ply,114.5,251.7,142.9,192.8,587.4,1995
 1,M,Jibrail Abdul-Aziz,SBD,M-T3,125,Single-ply,123.8,188.2,120.2,244.9,553.3,
-1,M,Derek Ward,SBD,M-Jr,60,Single-ply,58.7,145.2,93,158.8,397,1992
+1,M,Derek Ward #1,SBD,M-Jr,60,Single-ply,58.7,145.2,93,158.8,397,1992
 1,M,Blake Ricalde,SBD,M-Jr,67.5,Single-ply,65.2,217.7,145.2,226.8,589.7,1994
 1,M,Jamie Reiss,SBD,M-Jr,75,Single-ply,73.3,217.7,133.8,197.3,548.8,1992
 2,M,Andreas Duran,SBD,M-Jr,75,Single-ply,72.6,179.2,117.9,201.9,499,1994
@@ -30,13 +30,13 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 DQ,M,Daniel Daubendiek,SBD,M-Jr,75,Single-ply,71.2,-152,93,192.8,,1994
 1,M,Dale Guillory,SBD,M-Jr,82.5,Single-ply,82.3,226.8,217.7,229.1,673.6,
 2,M,Andrew Reiss,SBD,M-Jr,82.5,Single-ply,82.1,215.5,206.4,226.8,648.7,1994
-3,M,Conor Sullivan,SBD,M-Jr,82.5,Single-ply,82.2,197.3,136.1,242.7,576.1,1993
+3,M,Conor Sullivan #1,SBD,M-Jr,82.5,Single-ply,82.2,197.3,136.1,242.7,576.1,1993
 4,M,Connor Allemen,SBD,M-Jr,82.5,Single-ply,81,174.6,102.1,224.5,501.2,
-5,M,Ryan Johnson,SBD,M-Jr,82.5,Single-ply,78.7,158.8,106.6,226.8,492.2,2001
+5,M,Ryan Johnson #8,SBD,M-Jr,82.5,Single-ply,78.7,158.8,106.6,226.8,492.2,2001
 3,M,Landon Chastant,SBD,M-Jr,90,Single-ply,89.9,242.7,158.8,247.2,648.7,1991
 5,M,Paul Guidry,SBD,M-Jr,90,Single-ply,84.5,197.3,154.2,235.9,587.4,1992
 1,M,Brennan Riche,SBD,M-Jr,100,Single-ply,92.7,272.2,204.1,274.4,750.7,1992
-2,M,Tyler Martinez,SBD,M-Jr,100,Single-ply,91.8,247.2,190.5,249.5,687.2,1992
+2,M,Tyler Martinez #1,SBD,M-Jr,100,Single-ply,91.8,247.2,190.5,249.5,687.2,1992
 2,M,Patrick Robichaux,SBD,M-Jr,100,Single-ply,97.7,249.5,154.2,272.2,675.9,1993
 4,M,DaMikal Crow,SBD,M-Jr,100,Single-ply,92.6,238.1,131.5,274.4,644,1994
 6,M,Bohao Cheng,SBD,M-Jr,100,Single-ply,92.6,224.5,140.6,192.8,557.9,1994

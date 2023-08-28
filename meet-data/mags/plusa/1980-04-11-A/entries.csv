@@ -1,6 +1,6 @@
 WeightClassKg,AgeRange,BodyweightKg,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Event,Equipment,Division,Place
 52,,,Curtis Harwell,125,85,167.5,377.5,M,SBD,Single-ply,Open,1
-52,,,C. Tucker,125,82.5,152.5,360,M,SBD,Single-ply,Open,2
+52,,,C. Tucker #1,125,82.5,152.5,360,M,SBD,Single-ply,Open,2
 52,,,Tim Donze,112.5,60,120,292.5,M,SBD,Single-ply,Open,3
 52,,,C. Pirani,72.5,67.5,97.5,237.5,M,SBD,Single-ply,Open,4
 52,,,E. Foy,75,57.5,102.5,235,M,SBD,Single-ply,Open,5
@@ -12,7 +12,7 @@ WeightClassKg,AgeRange,BodyweightKg,Name,Best3SquatKg,Best3BenchKg,Best3Deadlift
 56,,,J. Santi,95,75,137.5,307.5,M,SBD,Single-ply,Open,5
 56,,,Kathy Leonard,105,55,135,295,F,SBD,Single-ply,Open,6
 56,,,H. Dixon,92.5,62.5,125,280,M,SBD,Single-ply,Open,7
-56,,,J. Hill,90,52.5,120,262.5,M,SBD,Single-ply,Open,8
+56,,,J. Hill #12,90,52.5,120,262.5,M,SBD,Single-ply,Open,8
 56,,,C. Sanderfer,70,40,82.5,192.5,M,SBD,Single-ply,Open,9
 60,,,Jim Privitor,200,105,202.5,507.5,M,SBD,Single-ply,Open,1
 60,18-19,,John Ronza III,147.5,127.5,165,440,M,SBD,Single-ply,Open,2
@@ -32,7 +32,7 @@ WeightClassKg,AgeRange,BodyweightKg,Name,Best3SquatKg,Best3BenchKg,Best3Deadlift
 67.5,,,P. Hobbs,142.5,92.5,170,405,M,SBD,Single-ply,Open,11
 67.5,,,R. Privozuik,130,97.5,177.5,405,M,SBD,Single-ply,Open,12
 67.5,,,P. Cooper,142.5,80,175,397.5,M,SBD,Single-ply,Open,13
-67.5,,,David Lewis,122.5,87.5,160,370,M,SBD,Single-ply,Open,14
+67.5,,,D. Lewis #10,122.5,87.5,160,370,M,SBD,Single-ply,Open,14
 67.5,,,P. Foster,112.5,82.5,172.5,367.5,M,SBD,Single-ply,Open,15
 67.5,,,B. Leonard,125,80,155,360,M,SBD,Single-ply,Open,16
 67.5,,,W. Wooten,102.5,67.5,140,310,M,SBD,Single-ply,Open,17
@@ -46,7 +46,7 @@ WeightClassKg,AgeRange,BodyweightKg,Name,Best3SquatKg,Best3BenchKg,Best3Deadlift
 75,,,G. Endelay,162.5,112.5,202.5,477.5,M,SBD,Single-ply,Open,7
 75,,,D. Macy,142.5,110,215,467.5,M,SBD,Single-ply,Open,9
 75,,,Brian Callahan,150,110,202.5,462.5,M,SBD,Single-ply,Open,10
-75,,,T. McNeil,182.5,90,190,462.5,M,SBD,Single-ply,Open,11
+75,,,Tom McNeil,182.5,90,190,462.5,M,SBD,Single-ply,Open,11
 75,,,L. Gordon,150,102.5,202.5,455,M,SBD,Single-ply,Open,12
 75,,,B. Snipes,150,100,200,450,M,SBD,Single-ply,Open,14
 75,,,T. Cochran,160,102.5,192.5,455,M,SBD,Single-ply,Open,13
@@ -66,7 +66,7 @@ WeightClassKg,AgeRange,BodyweightKg,Name,Best3SquatKg,Best3BenchKg,Best3Deadlift
 82.5,,,Billy Matthews,190,170,207.5,567.5,M,SBD,Single-ply,Open,5
 82.5,,,B. Forest,217.5,117.5,220,555,M,SBD,Single-ply,Open,6
 82.5,,,Robert Santi,187.5,140,212.5,540,M,SBD,Single-ply,Open,7
-82.5,,,James Clark,185,120,205,510,M,SBD,Single-ply,Open,9
+82.5,,,James Clark #11,185,120,205,510,M,SBD,Single-ply,Open,9
 82.5,,,Dwight Lovelace,162.5,150,222.5,535,M,SBD,Single-ply,Open,8
 82.5,,,D. Darnell,175,125,200,500,M,SBD,Single-ply,Open,10
 82.5,,,K. Overcast,172.5,110,197.5,480,M,SBD,Single-ply,Open,11

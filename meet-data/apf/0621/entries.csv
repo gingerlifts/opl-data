@@ -1,5 +1,5 @@
 Name,Sex,Division,Equipment,WeightClassKg,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Tested,Event
-Tony Ramos,M,M_OEM_APF,Multi-ply,90,82.92,303.91,251.74,260.82,816.47,1,,SBD
+Tony Ramos #1,M,M_OEM_APF,Multi-ply,90,82.92,303.91,251.74,260.82,816.47,1,,SBD
 Jim O'Brian,M,M_OEM_APF,Multi-ply,90,88.72,226.8,181.44,190.51,598.74,2,,SBD
 Adam Hicks,M,M_OEM_APF,Multi-ply,125,123.2,263.08,276.69,263.08,802.86,1,,SBD
 Tim Harold,M,M_OEM_APF,Multi-ply,140+,179.71,455.86,317.51,387.82,1161.2,1,,SBD
@@ -20,13 +20,13 @@ Jim Harbourne,M,M_MEM_1_APF,Multi-ply,125,119.66,294.84,238.14,242.67,775.64,1,,
 Martin Hardy,M,M_OEM_AAPF,Multi-ply,82.5,75.02,249.48,183.7,226.8,659.98,1,Yes,SBD
 Mike Szudarek,M,M_OEM_AAPF,Multi-ply,100,99.43,365.14,188.24,285.76,839.15,1,Yes,SBD
 Anthony Galczak,M,M_TEM_3_AAPF,Multi-ply,125,118.66,231.33,181.44,238.14,650.91,1,Yes,SBD
-Laura Phelps-Sweatt,F,F_OEM_APF,Multi-ply,82.5,79.83,328.85,65.77,65.77,460.4,1,,SBD
+Laura Phelps-Stackhouse,F,F_OEM_APF,Multi-ply,82.5,79.83,328.85,65.77,65.77,460.4,1,,SBD
 Kim Czerwiek,F,F_TEM_3_AAPF,Multi-ply,67.5,67.22,92.99,54.43,136.08,283.5,1,Yes,SBD
-Seth Boardman,M,M_OEM_APF,Multi-ply,100,97.61,,254.01,,254.01,1,,B
+Seyth Boardman,M,M_OEM_APF,Multi-ply,100,97.61,,254.01,,254.01,1,,B
 Scott Schaeffer,M,M_OEM_APF,Multi-ply,110,107.41,,263.08,,263.08,1,,B
 Shawn Nutter,M,M_OEM_APF,Multi-ply,110,109.32,,258.55,,258.55,2,,B
 Mike Chenos,M,M_OEM_APF,Multi-ply,110,108.77,,242.67,,242.67,3,,B
-Dave Hoff,M,M_OEM_APF,Multi-ply,110,106.41,,226.8,,226.8,4,,B
+Dave Hoff #1,M,M_OEM_APF,Multi-ply,110,106.41,,226.8,,226.8,4,,B
 JJ Trusty,M,M_OEM_APF,Multi-ply,125,112.76,,244.94,,244.94,1,,B
 Drex Welsch,M,M_OEM_APF,Multi-ply,140,134.72,,317.51,,317.51,1,,B
 Matt Wenning,M,M_OEM_APF,Multi-ply,140,125.87,,294.84,,294.84,2,,B

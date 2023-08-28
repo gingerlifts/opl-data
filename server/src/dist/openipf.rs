@@ -4,22 +4,22 @@
 //! The openipf.org site works by using the same server as openpowerlifting.org,
 //! with Nginx rewriting URLs based on domain.
 
+use langpack::{Language, Locale};
 use opldb::{self, Entry, MetaFederation};
 use opltypes::*;
 
-use rocket::http::Cookies;
-use rocket::request::Form;
+use rocket::http::CookieJar;
 use rocket::response::Redirect;
 use rocket::State;
-use rocket_contrib::templates::Template;
+use rocket_dyn_templates::Template;
 
-use server::langpack::{Language, Locale};
 use server::pages;
-use server::FromUrlPath;
+use server::referring_path::ReferringPath;
 
 use std::path::PathBuf;
 
 use crate::common::*;
+use crate::CsvFile;
 
 /// URL prefix used when accessing OpenIPF through OpenPowerlifting.org or
 /// localhost.
@@ -32,7 +32,7 @@ pub const LOCAL_PREFIX: &str = "/dist/openipf/";
 ///
 /// If served from elsewhere (localhost or openpowerlifting.org), we want
 /// to prepend /dist/openipf/ to allow it to use the same common server.
-fn get_local_prefix(host: &Host) -> &'static str {
+fn local_prefix(host: &Host) -> &'static str {
     if host.served_from_openipf_org() {
         "/"
     } else {
@@ -64,19 +64,17 @@ fn default_openipf_rankings_query() -> opldb::query::direct::RankingsQuery {
 /// IPF.
 #[get("/?<lang>")]
 pub fn index(
-    lang: Option<String>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<ManagedLangInfo>,
+    lang: Option<&str>,
+    opldb: &State<ManagedOplDb>,
     languages: AcceptLanguage,
     host: Host,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Template> {
-    let locale = make_locale(&langinfo, lang, languages, &cookies);
+    let locale = make_locale(lang, languages, cookies);
     let default = default_openipf_rankings_query();
-    let mut cx =
-        pages::rankings::Context::new(&opldb, &locale, &default, &default, true)?;
-    cx.urlprefix = get_local_prefix(&host);
+    let mut cx = pages::rankings::Context::new(opldb, &locale, &default, &default, true)?;
+    cx.urlprefix = local_prefix(&host);
 
     Some(match device {
         Device::Desktop => Template::render("openipf/desktop/rankings", &cx),
@@ -92,21 +90,19 @@ pub fn index(
 #[get("/rankings/<selections..>?<lang>")]
 pub fn rankings(
     selections: PathBuf,
-    lang: Option<String>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<ManagedLangInfo>,
+    lang: Option<&str>,
+    opldb: &State<ManagedOplDb>,
     languages: AcceptLanguage,
     host: Host,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Template> {
     let default = default_openipf_rankings_query();
     let selection =
         opldb::query::direct::RankingsQuery::from_url_path(&selections, &default).ok()?;
-    let locale = make_locale(&langinfo, lang, languages, &cookies);
-    let mut cx =
-        pages::rankings::Context::new(&opldb, &locale, &selection, &default, true)?;
-    cx.urlprefix = get_local_prefix(&host);
+    let locale = make_locale(lang, languages, cookies);
+    let mut cx = pages::rankings::Context::new(opldb, &locale, &selection, &default, true)?;
+    cx.urlprefix = local_prefix(&host);
 
     Some(match device {
         Device::Desktop => Template::render("openipf/desktop/rankings", &cx),
@@ -118,24 +114,21 @@ pub fn rankings(
 #[get("/api/rankings/<selections..>?<query..>")]
 pub fn rankings_api(
     selections: Option<PathBuf>,
-    query: Form<RankingsApiQuery>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<ManagedLangInfo>,
+    query: RankingsApiQuery,
+    opldb: &State<ManagedOplDb>,
 ) -> Option<JsonString> {
     let default = default_openipf_rankings_query();
     let selection = match selections {
         None => default,
-        Some(path) => {
-            opldb::query::direct::RankingsQuery::from_url_path(&path, &default).ok()?
-        }
+        Some(path) => opldb::query::direct::RankingsQuery::from_url_path(&path, &default).ok()?,
     };
 
     let language = query.lang.parse::<Language>().ok()?;
     let units = query.units.parse::<WeightUnits>().ok()?;
-    let locale = Locale::new(&langinfo, language, units);
+    let locale = Locale::new(language, units);
 
-    let mut slice = pages::api_rankings::get_slice(
-        &opldb,
+    let mut slice = pages::api_rankings::query_slice(
+        opldb,
         &locale,
         &selection,
         &default,
@@ -145,10 +138,10 @@ pub fn rankings_api(
 
     for row in &mut slice.rows {
         if row.equipment == locale.strings.equipment.raw {
-            row.equipment = &locale.strings.equipment.classic;
+            row.equipment = locale.strings.equipment.classic;
         }
         if row.equipment == locale.strings.equipment.single {
-            row.equipment = &locale.strings.equipment.equipped;
+            row.equipment = locale.strings.equipment.equipped;
         }
     }
 
@@ -159,38 +152,34 @@ pub fn rankings_api(
 
 #[get("/api/rankings?<query..>")]
 pub fn default_rankings_api(
-    query: Form<RankingsApiQuery>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<ManagedLangInfo>,
+    query: RankingsApiQuery,
+    opldb: &State<ManagedOplDb>,
 ) -> Option<JsonString> {
-    rankings_api(None, query, opldb, langinfo)
+    rankings_api(None, query, opldb)
 }
 
 /// API endpoint for rankings search.
 #[get("/api/search/rankings/<selections..>?<query..>")]
 pub fn search_rankings_api(
     selections: Option<PathBuf>,
-    query: Form<SearchRankingsApiQuery>,
-    opldb: State<ManagedOplDb>,
+    query: SearchRankingsApiQuery,
+    opldb: &State<ManagedOplDb>,
 ) -> Option<JsonString> {
     let default = default_openipf_rankings_query();
     let selection = match selections {
         None => default,
-        Some(path) => {
-            opldb::query::direct::RankingsQuery::from_url_path(&path, &default).ok()?
-        }
+        Some(path) => opldb::query::direct::RankingsQuery::from_url_path(&path, &default).ok()?,
     };
 
-    let result =
-        pages::api_search::search_rankings(&opldb, &selection, query.start, &query.q);
+    let result = pages::api_search::search_rankings(opldb, &selection, query.start, &query.q);
 
     Some(JsonString(serde_json::to_string(&result).ok()?))
 }
 
 #[get("/api/search/rankings?<query..>")]
 pub fn default_search_rankings_api(
-    query: Form<SearchRankingsApiQuery>,
-    opldb: State<ManagedOplDb>,
+    query: SearchRankingsApiQuery,
+    opldb: &State<ManagedOplDb>,
 ) -> Option<JsonString> {
     search_rankings_api(None, query, opldb)
 }
@@ -198,13 +187,12 @@ pub fn default_search_rankings_api(
 #[get("/records/<selections..>?<lang>")]
 pub fn records(
     selections: Option<PathBuf>,
-    lang: Option<String>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<ManagedLangInfo>,
+    lang: Option<&str>,
+    opldb: &State<ManagedOplDb>,
     languages: AcceptLanguage,
     host: Host,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Template> {
     let default_rankings = default_openipf_rankings_query();
     let default = pages::records::RecordsQuery {
@@ -222,14 +210,14 @@ pub fn records(
     } else {
         default
     };
-    let locale = make_locale(&langinfo, lang, languages, &cookies);
+    let locale = make_locale(lang, languages, cookies);
     let mut cx = pages::records::Context::new(
-        &opldb,
+        opldb,
         &locale,
         &selection,
         &default_openipf_rankings_query(),
     );
-    cx.urlprefix = get_local_prefix(&host);
+    cx.urlprefix = local_prefix(&host);
 
     Some(match device {
         Device::Desktop => Template::render("openipf/desktop/records", &cx),
@@ -239,37 +227,33 @@ pub fn records(
 
 #[get("/records?<lang>")]
 pub fn records_default(
-    lang: Option<String>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<ManagedLangInfo>,
+    lang: Option<&str>,
+    opldb: &State<ManagedOplDb>,
     languages: AcceptLanguage,
     host: Host,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Template> {
-    records(
-        None, lang, opldb, langinfo, languages, host, device, cookies,
-    )
+    records(None, lang, opldb, languages, host, device, cookies)
 }
 
 /// Used to show only IPF-sanctioned meets.
 fn ipf_only_filter(opldb: &opldb::OplDb, e: &Entry) -> bool {
-    let meet = opldb.get_meet(e.meet_id);
+    let meet = opldb.meet(e.meet_id);
     meet.federation.sanctioning_body(meet.date) == Some(Federation::IPF)
 }
 
 #[get("/u/<username>?<lang>")]
 pub fn lifter(
-    username: String,
-    lang: Option<String>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<ManagedLangInfo>,
+    username: &str,
+    lang: Option<&str>,
+    opldb: &State<ManagedOplDb>,
     languages: AcceptLanguage,
     host: Host,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Result<Template, Redirect>> {
-    let locale = make_locale(&langinfo, lang, languages, &cookies);
+    let locale = make_locale(lang, languages, cookies);
 
     // Disambiguations end with a digit.
     // Some lifters may have failed to be merged with their disambiguated username.
@@ -281,49 +265,49 @@ pub fn lifter(
         .map_or(false, |c| c.is_ascii_digit());
 
     let lifter_ids: Vec<u32> = if is_definitely_disambiguation {
-        if let Some(id) = opldb.get_lifter_id(&username) {
+        if let Some(id) = opldb.lifter_id(username) {
             vec![id]
         } else {
             vec![]
         }
     } else {
-        opldb.get_lifters_under_username(&username)
+        opldb.lifters_under_username(username)
     };
 
     match lifter_ids.len() {
         // If no LifterID was found, maybe the name just needs to be lowercased.
         0 => {
             let lowercase = username.to_ascii_lowercase();
-            let _guard = opldb.get_lifter_id(&lowercase)?;
-            Some(Err(Redirect::permanent(format!("/u/{}", lowercase))))
+            let _guard = opldb.lifter_id(&lowercase)?;
+            Some(Err(Redirect::permanent(format!("/u/{lowercase}"))))
         }
 
         // If a specific lifter was referenced, return the lifter's unique page.
         1 => {
             let mut cx = pages::lifter::Context::new(
-                &opldb,
+                opldb,
                 &locale,
                 lifter_ids[0],
                 PointsSystem::from(default_openipf_rankings_query().order_by),
                 Some(ipf_only_filter),
             );
-            cx.urlprefix = get_local_prefix(&host);
+            cx.urlprefix = local_prefix(&host);
 
             // Change the equipment terminology to be IPF-specific.
             for best in &mut cx.bests {
                 if best.equipment == locale.strings.equipment.raw {
-                    best.equipment = &locale.strings.equipment.classic;
+                    best.equipment = locale.strings.equipment.classic;
                 }
                 if best.equipment == locale.strings.equipment.single {
-                    best.equipment = &locale.strings.equipment.equipped;
+                    best.equipment = locale.strings.equipment.equipped;
                 }
             }
             for result in &mut cx.meet_results {
                 if result.equipment == locale.strings.equipment.raw {
-                    result.equipment = &locale.strings.equipment.classic;
+                    result.equipment = locale.strings.equipment.classic;
                 }
                 if result.equipment == locale.strings.equipment.single {
-                    result.equipment = &locale.strings.equipment.equipped;
+                    result.equipment = locale.strings.equipment.equipped;
                 }
             }
 
@@ -336,13 +320,13 @@ pub fn lifter(
         // If multiple lifters were referenced, return a disambiguation page.
         _ => {
             let mut cx = pages::disambiguation::Context::new(
-                &opldb,
+                opldb,
                 &locale,
                 PointsSystem::from(default_openipf_rankings_query().order_by),
-                &username,
+                username,
                 &lifter_ids,
             );
-            cx.urlprefix = get_local_prefix(&host);
+            cx.urlprefix = local_prefix(&host);
 
             Some(Ok(match device {
                 Device::Desktop => Template::render("openipf/desktop/disambiguation", cx),
@@ -352,22 +336,33 @@ pub fn lifter(
     }
 }
 
-#[get("/u/<username>/csv")]
-pub fn lifter_csv(username: String, opldb: State<ManagedOplDb>) -> Option<String> {
-    let lifter_id = opldb.get_lifter_id(&username)?;
-    pages::lifter_csv::export_csv(&opldb, lifter_id, Some(ipf_only_filter)).ok()
+#[get("/api/liftercsv/<username>")]
+pub fn lifter_csv(username: &str, opldb: &State<ManagedOplDb>) -> Option<CsvFile> {
+    let lifter_id = opldb.lifter_id(username)?;
+    let content = pages::api_liftercsv::export_csv(opldb, lifter_id, Some(ipf_only_filter)).ok()?;
+    let filename = format!("{username}.csv");
+    Some(CsvFile { filename, content })
+}
+
+/// Exports single-meet data as a CSV file.
+#[get("/api/meetcsv/<meetpath..>")]
+pub fn meet_csv(meetpath: PathBuf, opldb: &State<ManagedOplDb>) -> Option<CsvFile> {
+    let meet_path_str = meetpath.to_str()?;
+    let meet_id = opldb.meet_id(meet_path_str)?;
+    let content = pages::api_meetcsv::export_csv(opldb, meet_id, Some(ipf_only_filter)).ok()?;
+    let filename = format!("{meet_path_str}.csv");
+    Some(CsvFile { filename, content })
 }
 
 #[get("/mlist/<mselections..>?<lang>")]
 pub fn meetlist(
     mselections: Option<PathBuf>,
-    lang: Option<String>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<ManagedLangInfo>,
+    lang: Option<&str>,
+    opldb: &State<ManagedOplDb>,
     languages: AcceptLanguage,
     host: Host,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Template> {
     let openipf_defaults = default_openipf_rankings_query();
     let defaults = pages::meetlist::MeetListQuery {
@@ -379,9 +374,9 @@ pub fn meetlist(
         None => defaults,
         Some(p) => pages::meetlist::MeetListQuery::from_path(&p, defaults).ok()?,
     };
-    let locale = make_locale(&langinfo, lang, languages, &cookies);
-    let mut cx = pages::meetlist::Context::new(&opldb, &locale, &mselection);
-    cx.urlprefix = get_local_prefix(&host);
+    let locale = make_locale(lang, languages, cookies);
+    let mut cx = pages::meetlist::Context::new(opldb, &locale, &mselection);
+    cx.urlprefix = local_prefix(&host);
 
     Some(match device {
         Device::Desktop => Template::render("openipf/desktop/meetlist", &cx),
@@ -391,32 +386,30 @@ pub fn meetlist(
 
 #[get("/mlist?<lang>")]
 pub fn meetlist_default(
-    lang: Option<String>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<ManagedLangInfo>,
+    lang: Option<&str>,
+    opldb: &State<ManagedOplDb>,
     languages: AcceptLanguage,
     host: Host,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Template> {
-    meetlist(
-        None, lang, opldb, langinfo, languages, host, device, cookies,
-    )
+    meetlist(None, lang, opldb, languages, host, device, cookies)
 }
 
 #[get("/m/<meetpath..>?<lang>")]
 pub fn meet(
     meetpath: PathBuf,
-    lang: Option<String>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<ManagedLangInfo>,
+    lang: Option<&str>,
+    referring_path: Option<ReferringPath>,
+    opldb: &State<ManagedOplDb>,
     languages: AcceptLanguage,
     host: Host,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Template> {
     let mut meetpath_str: &str = meetpath.to_str()?;
-    let mut sort = pages::meet::MeetSortSelection::ByFederationDefault;
+    let default_sort = pages::meet::MeetSortSelection::ByDivision;
+    let mut sort = default_sort;
 
     // The meetpath may contain an optional sorting directive.
     // If present, detect and remove that component from the path.
@@ -426,19 +419,31 @@ pub fn meet(
         meetpath_str = meetpath.as_path().parent()?.to_str()?;
     }
 
-    let meet_id = opldb.get_meet_id(meetpath_str)?;
-    let locale = make_locale(&langinfo, lang, languages, &cookies);
-    let mut cx = pages::meet::Context::new(&opldb, &locale, meet_id, sort);
-    cx.urlprefix = get_local_prefix(&host);
+    let referring_username =
+        referring_path.and_then(|s| s.strip_prefix("/u/").map(ToString::to_string));
+
+    let meet_id = opldb.meet_id(meetpath_str)?;
+    let locale = make_locale(lang, languages, cookies);
+    let use_ipf_equipment = true;
+    let mut cx = pages::meet::Context::new(
+        opldb,
+        &locale,
+        meet_id,
+        sort,
+        default_sort,
+        use_ipf_equipment,
+        referring_username,
+    );
+    cx.urlprefix = local_prefix(&host);
 
     // Change the equipment terminology to be IPF-specific.
     for table in &mut cx.tables {
         for row in &mut table.rows {
             if row.equipment == locale.strings.equipment.raw {
-                row.equipment = &locale.strings.equipment.classic;
+                row.equipment = locale.strings.equipment.classic;
             }
             if row.equipment == locale.strings.equipment.single {
-                row.equipment = &locale.strings.equipment.equipped;
+                row.equipment = locale.strings.equipment.equipped;
             }
         }
     }
@@ -459,17 +464,16 @@ fn ipf_fed_filter(fed: Federation) -> bool {
 
 #[get("/status?<lang>")]
 pub fn status(
-    lang: Option<String>,
-    opldb: State<ManagedOplDb>,
-    langinfo: State<ManagedLangInfo>,
+    lang: Option<&str>,
+    opldb: &State<ManagedOplDb>,
     languages: AcceptLanguage,
     host: Host,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Template> {
-    let locale = make_locale(&langinfo, lang, languages, &cookies);
-    let mut cx = pages::status::Context::new(&opldb, &locale, Some(ipf_fed_filter));
-    cx.urlprefix = get_local_prefix(&host);
+    let locale = make_locale(lang, languages, cookies);
+    let mut cx = pages::status::Context::new(opldb, &locale, Some(ipf_fed_filter));
+    cx.urlprefix = local_prefix(&host);
 
     Some(match device {
         Device::Desktop => Template::render("openipf/desktop/status", &cx),
@@ -477,37 +481,17 @@ pub fn status(
     })
 }
 
-#[get("/data?<lang>")]
-pub fn data(
-    lang: Option<String>,
-    langinfo: State<ManagedLangInfo>,
-    languages: AcceptLanguage,
-    host: Host,
-    device: Device,
-    cookies: Cookies,
-) -> Option<Template> {
-    let locale = make_locale(&langinfo, lang, languages, &cookies);
-    let mut cx = pages::data::Context::new(&locale);
-    cx.urlprefix = get_local_prefix(&host);
-
-    Some(match device {
-        Device::Desktop => Template::render("openipf/desktop/data", &cx),
-        Device::Mobile => Template::render("openipf/mobile/data", &cx),
-    })
-}
-
 #[get("/faq?<lang>")]
 pub fn faq(
-    lang: Option<String>,
-    langinfo: State<ManagedLangInfo>,
+    lang: Option<&str>,
     languages: AcceptLanguage,
     host: Host,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Template> {
-    let locale = make_locale(&langinfo, lang, languages, &cookies);
+    let locale = make_locale(lang, languages, cookies);
     let mut cx = pages::faq::Context::new(&locale);
-    cx.urlprefix = get_local_prefix(&host);
+    cx.urlprefix = local_prefix(&host);
 
     Some(match device {
         Device::Desktop => Template::render("openipf/desktop/faq", &cx),
@@ -517,16 +501,22 @@ pub fn faq(
 
 #[get("/contact?<lang>")]
 pub fn contact(
-    lang: Option<String>,
-    langinfo: State<ManagedLangInfo>,
+    lang: Option<&str>,
     languages: AcceptLanguage,
     host: Host,
     device: Device,
-    cookies: Cookies,
+    cookies: &CookieJar<'_>,
 ) -> Option<Template> {
-    let locale = make_locale(&langinfo, lang, languages, &cookies);
-    let mut cx = pages::contact::Context::new(&locale);
-    cx.urlprefix = get_local_prefix(&host);
+    let locale = make_locale(lang, languages, cookies);
+    let instagram_dob_email_template = get_instagram_dob_email_template();
+    let name_correction_email_template = get_name_correction_email_template();
+
+    let mut cx = pages::contact::Context::new(
+        &locale,
+        instagram_dob_email_template,
+        name_correction_email_template,
+    );
+    cx.urlprefix = local_prefix(&host);
 
     Some(match device {
         Device::Desktop => Template::render("openipf/desktop/contact", &cx),

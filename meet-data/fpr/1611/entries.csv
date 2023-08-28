@@ -1,11 +1,11 @@
 Place,Name,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,WeightClassKg,Sex,CyrillicName,Equipment,Division,Event,TotalKg
 1,Vladimir Balynets,1985,50.4,150,160,171.5,171.5,59,M,Владимир Балынец,Raw,Open,B,171.5
-2,Oleg Smirnov,1990,57.6,125,-130,130,130,59,M,Олег Смирнов,Raw,Open,B,130
+2,Oleg Smirnov #1,1990,57.6,125,-130,130,130,59,M,Олег Смирнов,Raw,Open,B,130
 1,Albert Khabibulin,1989,65.2,170,177.5,-185,177.5,66,M,Альберт Хабибулин,Raw,Open,B,177.5
 2,Artem Tavastsherna,1985,65.95,140,-152.5,152.5,152.5,66,M,Артем Тавастшерна,Raw,Open,B,152.5
 3,Andrey Lukoshko,1987,65.65,140,145,147.5,147.5,66,M,Андрей Лукошко,Raw,Open,B,147.5
 4,Aleksandr Zyukin,1996,65,-127.5,135,137.5,137.5,66,M,Александр Зюкин,Raw,Open,B,137.5
-5,Sergey Sokolov,1983,65,130,135,-140,135,66,M,Сергей Соколов,Raw,Open,B,135
+5,Sergey Sokolov #8,1983,65,130,135,-140,135,66,M,Сергей Соколов,Raw,Open,B,135
 6,Sergey Katyshev,1981,65.4,120,127.5,-135,127.5,66,M,Сергей Катышев,Raw,Open,B,127.5
 1,Stanislav Volskiy,1992,73.9,175,182.5,188,188,74,M,Станислав Вольский,Raw,Open,B,188
 2,Valeriy Bogdanov,1970,72.7,165,175,-182.5,175,74,M,Валерий Богданов,Raw,Open,B,175
@@ -26,7 +26,7 @@ Place,Name,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Weight
 4,Ilya Epikhov,1990,87.75,135,142.5,-147.5,142.5,93,M,Илья Епихов,Raw,Open,B,142.5
 5,Vadim Korotyaev,1989,91.75,120,-132.5,-132.5,120,93,M,Вадим Коротяев,Raw,Open,B,120
 1,Kirill Mogilnikov,1990,97.25,235,245,-248,245,105,M,Кирилл Могильников,Raw,Open,B,245
-2,Aleksey Solovyev,1990,102.45,232.5,240,-248,240,105,M,Алексей Соловьев,Raw,Open,B,240
+2,Aleksey Solovyev #1,1990,102.45,232.5,240,-248,240,105,M,Алексей Соловьев,Raw,Open,B,240
 3,Aleksandr Basenko,1991,103.75,215,222.5,-225,222.5,105,M,Александр Басенко,Raw,Open,B,222.5
 4,Aleksandr Chebotarev,1988,100.85,215,220,-225,220,105,M,Александр Чеботарев,Raw,Open,B,220
 5,Alexei Kudryavtsev,1988,103.05,-210,210,-222.5,210,105,M,Алексей Кудрявцев,Raw,Open,B,210

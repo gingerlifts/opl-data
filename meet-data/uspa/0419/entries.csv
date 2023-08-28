@@ -137,7 +137,7 @@ DQ,Luis Ortuno,CA,75,73.57,18,232.5,132.5,-240,,M,Juniors 18-19,Raw,,,,SBD
 DQ,Paulo Gato,CA,110,102.51,18,192.5,142.5,-230,,M,Juniors 18-19,Raw,,,,SBD
 1,Robert Rodriguez,CA,110,102.24,22,227.5,137.5,277.5,642.5,M,Juniors 20-23,Raw,,,,SBD
 2,Edward Alvarado,CA,110,108.36,21,227.5,142.5,222.5,592.5,M,Juniors 20-23,Raw,,,,SBD
-3,Joel Sanchez,CA,110,107.5,23,225,137.5,207.5,570,M,Juniors 20-23,Raw,,,,SBD
+3,Joel Sanchez #4,CA,110,107.5,23,225,137.5,207.5,570,M,Juniors 20-23,Raw,,,,SBD
 1,Gerald Omictin,CA,125,123.51,21,225,160,250,635,M,Juniors 20-23,Raw,,,,SBD
 2,Joshua Toloza,CA,125,113.53,23,182.5,125,157.5,465,M,Juniors 20-23,Raw,,,,SBD
 DQ,Ryan Ortiz,CA,125,113.31,23,300,172.5,-287.5,,M,Juniors 20-23,Raw,,,,SBD
@@ -221,7 +221,7 @@ DQ,Luis Ortuno,CA,75,73.57,18,232.5,132.5,-240,,M,Open,Raw,,,,SBD
 18,Shaun Malinao,CA,82.5,77.34,24,167.5,120,190,477.5,M,Open,Raw,,,,SBD
 19,Martarnol Colobong,CA,82.5,78.02,19,157.5,112.5,207.5,477.5,M,Open,Raw,,,,SBD
 20,Matthew Ramirez,CA,82.5,81.92,34,167.5,100,190,457.5,M,Open,Raw,,,,SBD
-1,Chris Garcia,CA,90,83.55,27,272.5,190,287.5,750,M,Open,Raw,,,,SBD
+1,Chris Garcia #1,CA,90,83.55,27,272.5,190,287.5,750,M,Open,Raw,,,,SBD
 2,Justin Tinsman,CA,90,89.77,19,247.5,152.5,262.5,662.5,M,Open,Raw,,,,SBD
 3,Daniel Mahan,CA,90,89.63,48,230,142.5,265,637.5,M,Open,Raw,,,,SBD
 4,Matthew Mendoza,CA,90,87.36,19,242.5,142.5,245,630,M,Open,Raw,,,,SBD
@@ -275,7 +275,7 @@ DQ,Joseph Barlog,CA,100,90.45,35,-237.5,,,,M,Open,Raw,,,,SBD
 6,Gerald Phillips,CA,110,106.59,25,227.5,135,235,597.5,M,Open,Raw,,,,SBD
 7,Edward Alvarado,CA,110,108.36,21,227.5,142.5,222.5,592.5,M,Open,Raw,,,,SBD
 8,Sean Lugo,CA,110,104.64,28,205,142.5,235,582.5,M,Open,Raw,,,,SBD
-9,Joel Sanchez,CA,110,107.5,23,225,137.5,207.5,570,M,Open,Raw,,,,SBD
+9,Joel Sanchez #4,CA,110,107.5,23,225,137.5,207.5,570,M,Open,Raw,,,,SBD
 10,Maxwell Geissel,CA,110,107.91,27,205,142.5,222.5,570,M,Open,Raw,,,,SBD
 11,Nathan Wu,CA,110,108.32,16,210,127.5,200,537.5,M,Open,Raw,,,,SBD
 12,Jesus Mora,CA,110,106.5,25,170,150,200,520,M,Open,Raw,,,,SBD
@@ -359,7 +359,7 @@ DQ,Gerardo Rubio,CA,140+,143.24,17,-187.5,,,,M,Juniors 16-17,Wraps,,,,SBD
 1,Shawn Murphy #1,CA,90,87.5,19,225,127.5,252.5,605,M,Open,Wraps,,,,SBD
 2,Christian Garcilazo,CA,90,84.73,22,185,132.5,225,542.5,M,Open,Wraps,,,,SBD
 DQ,Eric Avila,AZ,90,89.27,22,240,-125,,,M,Open,Wraps,,,,SBD
-1,Josh Nichols,CA,100,98.7,28,287.5,170,315,772.5,M,Open,Wraps,,,,SBD
+1,Josh Nichols #2,CA,100,98.7,28,287.5,170,315,772.5,M,Open,Wraps,,,,SBD
 2,Garret Rowland,CA,100,98.38,24,237.5,125,250,612.5,M,Open,Wraps,,,,SBD
 3,Greg Baxter,CA,100,96.84,60,227.5,125,250,602.5,M,Open,Wraps,,,,SBD
 4,Alexander Acosta,CA,100,97.79,21,205,140,230,575,M,Open,Wraps,,,,SBD
@@ -423,13 +423,13 @@ DQ,Teresa Gonzales Ortega,CA,67.5,64.5,22,,-42.5,,,F,Juniors 20-23,Raw,,,,B
 3,Mike Campbell,CA,67.5,67.49,56,,95,,95,M,Open,Raw,,,,B
 1,Arnold Jose Orozco,CA,75,72.76,24,,100,,100,M,Open,Raw,,,,B
 1,Faraz Esnaashari,CA,82.5,80.88,28,,162.5,,162.5,M,Open,Raw,,,,B
-1,Chris Garcia,CA,90,83.55,27,,190,,190,M,Open,Raw,,,,B
+1,Chris Garcia #1,CA,90,83.55,27,,190,,190,M,Open,Raw,,,,B
 2,Ryan Eichenberger,CA,90,89.22,35,,182.5,,182.5,M,Open,Raw,,,,B
 3,David Taylor,CA,90,88.22,54,,153,,153,M,Open,Raw,,,,B
 1,Chris Flores,CA,100,94.44,44,,195,,195,M,Open,Raw,,,,B
 2,Herman Dean,CA,100,98.29,34,,190,,190,M,Open,Raw,,,,B
 3,Mike Portillo,CA,100,98.29,40,,187.5,,187.5,M,Open,Raw,,,,B
-4,Josh Nichols,CA,100,98.7,28,,170,,170,M,Open,Raw,,,,B
+4,Josh Nichols #2,CA,100,98.7,28,,170,,170,M,Open,Raw,,,,B
 5,Roche McCoy,CA,100,96.34,19,,157.5,,157.5,M,Open,Raw,,,,B
 6,Jonathan Cordova,CA,100,99.11,23,,112.5,,112.5,M,Open,Raw,,,,B
 1,Henry Andrade,CA,125,122.52,22,,217.5,,217.5,M,Open,Raw,,,,B
@@ -471,12 +471,12 @@ DQ,Teresa Gonzales Ortega,CA,67.5,64.5,22,,-42.5,,,F,Juniors 20-23,Raw,,,,B
 1,Jason Vicente,CA,67.5,66.09,30,,,200,200,M,Open,Raw,,,,D
 1,Arnold Jose Orozco,CA,75,72.76,24,,,160,160,M,Open,Raw,,,,D
 1,Tom Lujan,CA,82.5,82.05,52,,,160,160,M,Open,Raw,,,,D
-1,Chris Garcia,CA,90,83.55,27,,,287.5,287.5,M,Open,Raw,,,,D
+1,Chris Garcia #1,CA,90,83.55,27,,,287.5,287.5,M,Open,Raw,,,,D
 2,Ryan Eichenberger,CA,90,89.22,35,,,272.5,272.5,M,Open,Raw,,,,D
 3,Raymond Cavileer,CA,90,87.04,61,,,227.5,227.5,M,Open,Raw,,,,D
 4,Raymond Fowler,CA,90,85.96,16,,,182.5,182.5,M,Open,Raw,,,,D
 5,David Thornton,CA,90,89.13,16,,,180,180,M,Open,Raw,,,,D
-1,Josh Nichols,CA,100,98.7,28,,,315,315,M,Open,Raw,,,,D
+1,Josh Nichols #2,CA,100,98.7,28,,,315,315,M,Open,Raw,,,,D
 2,Daniel Ishii,CA,100,98.57,27,,,287.5,287.5,M,Open,Raw,,,,D
 3,Roche McCoy,CA,100,96.34,19,,,255,255,M,Open,Raw,,,,D
 4,Jonathan Cordova,CA,100,99.11,23,,,225,225,M,Open,Raw,,,,D

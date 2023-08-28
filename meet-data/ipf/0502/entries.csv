@@ -37,9 +37,9 @@ DQ,Andreas Zeilinger,1968,Austria,74.8,-210,-210,,,,75,Open,B,M,Single-ply
 1,Jan Wegiera,1965,Poland,82.3,252.5,257.5,260,260,260,82.5,Open,B,M,Single-ply
 2,Yuji Watanabe,1980,Japan,81.9,-255,-255,257.5,257.5,257.5,82.5,Open,B,M,Single-ply
 3,Alexey Vorobyev,1969,Russia,82.45,247.5,-255,-260,247.5,247.5,82.5,Open,B,M,Single-ply
-4,Vladimír Urban,1973,Slovakia,81.7,220,227.5,232.5,232.5,232.5,82.5,Open,B,M,Single-ply
+4,Vladimír Urban #1,1973,Slovakia,81.7,220,227.5,232.5,232.5,232.5,82.5,Open,B,M,Single-ply
 5,Joe DeMatteo,1971,USA,80.75,-210,210,-227.5,210,210,82.5,Open,B,M,Single-ply
-6,Bar Yuval,1973,Australia,81.55,205,-212.5,-212.5,205,205,82.5,Open,B,M,Single-ply
+6,Yuval Bar,1973,Australia,81.55,205,-212.5,-212.5,205,205,82.5,Open,B,M,Single-ply
 7,Sverre Diesen,1970,Norway,81.4,195,-200,-200,195,195,82.5,Open,B,M,Single-ply
 8,Allan Riis,1971,Denmark,82.2,187.5,-195,-200,187.5,187.5,82.5,Open,B,M,Single-ply
 DQ,Riad Shabana Ashraf,1962,Egypt,80.9,-200,-200,-200,,,82.5,Open,B,M,Single-ply
@@ -56,7 +56,7 @@ DQ,Péter Piszák,1977,Hungary,82,-220,-220,-220,,,82.5,Open,B,M,Single-ply
 10,Salby Madsen Kim,1961,Denmark,89.6,190,-202.5,202.5,202.5,202.5,90,Open,B,M,Single-ply
 DQ,Stefan Westerholm,1980,Finland,89.5,-250,-250,-260,,,90,Open,B,M,Single-ply
 DQ,Petri Hietamäki,1977,Finland,89.55,-255,-255,-260,,,90,Open,B,M,Single-ply
-1,Vladimir Volkov,1959,Russia,99.7,-270,270,-275,270,270,100,Open,B,M,Single-ply
+1,Vladimir Volkov #1,1959,Russia,99.7,-270,270,-275,270,270,100,Open,B,M,Single-ply
 2,Tomasz Lenarciak,1980,Poland,99.6,-255,-260,262.5,262.5,262.5,100,Open,B,M,Single-ply
 3,Hans Dahlström,1966,Sweden,98.45,250,257.5,-262.5,257.5,257.5,100,Open,B,M,Single-ply
 4,Michael Landino,1967,USA,98,-252.5,252.5,-257.5,252.5,252.5,100,Open,B,M,Single-ply
@@ -89,7 +89,7 @@ DQ,Mykhailo Paller,1980,Ukraine,109.3,-270,-275,-275,,,110,Open,B,M,Single-ply
 DQ,Per Nilsson,1974,Sweden,109.35,-272.5,-277.5,-277.5,,,110,Open,B,M,Single-ply
 DQ,Tollef Taksdal,1975,Norway,109.8,-250,-250,-250,,,110,Open,B,M,Single-ply
 DQ,Kaido Leesmann,1969,Estonia,109.8,-232.5,-232.5,-232.5,,,110,Open,B,M,Single-ply
-1,Vladimir Maksimov,1966,Russia,124.15,295,-300,-300,295,295,125,Open,B,M,Single-ply
+1,Vladimir Maksimov #1,1966,Russia,124.15,295,-300,-300,295,295,125,Open,B,M,Single-ply
 2,Marcus Hirvonen,1976,Sweden,124.3,-292.5,292.5,-297.5,292.5,292.5,125,Open,B,M,Single-ply
 3,Radik Gayanov,1973,Kazakhstan,120.35,260,267.5,280,280,280,125,Open,B,M,Single-ply
 4,Fredrik Smulter,1983,Finland,124.55,-277.5,-277.5,280,280,280,125,Open,B,M,Single-ply
@@ -103,12 +103,12 @@ DQ,Kaido Leesmann,1969,Estonia,109.8,-232.5,-232.5,-232.5,,,110,Open,B,M,Single-
 DQ,Kjell Furesund,1966,Norway,124.3,-275,-275,-282.5,,,125,Open,B,M,Single-ply
 DQ,Marcin Lenarciak,1978,Poland,124.8,280,-285,285,285,,125,Open,B,M,Single-ply
 1,Kenneth Sandvik,1975,Finland,148.6,-330,332.5,-340,332.5,332.5,125+,Open,B,M,Single-ply
-2,Fredrik Svensson,1979,Sweden,152.2,325,332.5,-340,332.5,332.5,125+,Open,B,M,Single-ply
+2,Fredrik Svensson #1,1979,Sweden,152.2,325,332.5,-340,332.5,332.5,125+,Open,B,M,Single-ply
 3,Ove Lehto,1972,Finland,141.9,315,322.5,330,330,330,125+,Open,B,M,Single-ply
 4,Bill Gillespie,1959,USA,144.75,330,-345.5,-345.5,330,330,125+,Open,B,M,Single-ply
 5,Viktor Shabanov,1976,Russia,140.35,320,-330,-332.5,320,320,125+,Open,B,M,Single-ply
 6,Johnny Wahlqvist,1973,Sweden,173.2,-310,310,-335,310,310,125+,Open,B,M,Single-ply
-7,George Lealiifano Kennwach,1969,Samoa,139.25,300,-320,-320,300,300,125+,Open,B,M,Single-ply
+7,George Lealiifano,1969,Samoa,139.25,300,-320,-320,300,300,125+,Open,B,M,Single-ply
 8,Bjørn Grønvold,1967,Norway,131.7,-230,230,242.5,242.5,242.5,125+,Open,B,M,Single-ply
 DQ,Daisuke Midote,1972,Japan,135,-335,-335,-337.5,,,125+,Open,B,M,Single-ply
 DQ,Trond Fjøren,1966,Norway,137.75,-275,-275,-275,,,125+,Open,B,M,Single-ply
@@ -135,7 +135,7 @@ DQ,Virva-Tuul Arpala,1969,Finland,51.85,-102.5,-102.5,-102.5,,,52,Open,B,F,Singl
 1,Jill Darling,1977,USA,54,-110,110,122.5,122.5,122.5,56,Open,B,F,Single-ply
 2,Anna-Maria Nöglegaard,1968,Sweden,52.1,107.5,112.5,120,120,120,56,Open,B,F,Single-ply
 3,Hanna Rantala,1982,Finland,54.55,112.5,115,-122.5,115,115,56,Open,B,F,Single-ply
-4,Kriszina Nagypal,1985,Hungary,54.8,102.5,107.5,-115,107.5,107.5,56,Open,B,F,Single-ply
+4,Krisztina Nagypal,1985,Hungary,54.8,102.5,107.5,-115,107.5,107.5,56,Open,B,F,Single-ply
 5,Marie-Christine Pracella,1965,France,54.9,-107.5,-107.5,107.5,107.5,107.5,56,Open,B,F,Single-ply
 6,Jenni Hollier,1980,USA,53.9,102.5,-110,-110,102.5,102.5,56,Open,B,F,Single-ply
 7,Asami Fujimoto,1974,Japan,54.9,97.5,100,-105,100,100,56,Open,B,F,Single-ply

@@ -8,15 +8,15 @@
 \set ON_ERROR_STOP true
 
 -- All data goes into an "opldb" schema.
--- This allows dropping everything related to OpenPowerlifting at once:
+-- This allows dropping all types related to OpenPowerlifting at once:
 --   DROP SCHEMA opldb CASCADE;
 CREATE SCHEMA opldb;
 
 -- Define types. Enums save space by using a u32 internally.
-CREATE TYPE opldb.equipment AS ENUM ('Raw', 'Wraps', 'Single-ply', 'Multi-ply', 'Straps');
+CREATE TYPE opldb.equipment AS ENUM ('Raw', 'Wraps', 'Single-ply', 'Multi-ply', 'Unlimited', 'Straps');
 
 -- Structure of meets.csv.
-CREATE TABLE opldb.meets (
+CREATE TABLE opldb.opl_meets (
 	id INTEGER PRIMARY KEY NOT NULL,
 	path VARCHAR NOT NULL,
 	federation VARCHAR NOT NULL,
@@ -27,26 +27,25 @@ CREATE TABLE opldb.meets (
 	name VARCHAR NOT NULL,
 	ruleset VARCHAR
 );
-\copy opldb.meets FROM 'build/meets.csv' DELIMITER ',' CSV HEADER
+\copy opldb.opl_meets FROM 'build/meets.csv' DELIMITER ',' CSV HEADER
 
-CREATE TABLE opldb.lifters (
+CREATE TABLE opldb.opl_lifters (
 	id INTEGER PRIMARY KEY NOT NULL,
 	name VARCHAR NOT NULL,
 	cyrillic_name VARCHAR,
+	chinese_name VARCHAR,
 	greek_name VARCHAR,
 	japanese_name VARCHAR,
 	korean_name VARCHAR,
 	username VARCHAR NOT NULL,
 	instagram VARCHAR,
-	vkontakte VARCHAR,
-	color VARCHAR,
-	flair VARCHAR
+	color VARCHAR
 );
-\copy opldb.lifters FROM 'build/lifters.csv' DELIMITER ',' CSV HEADER
+\copy opldb.opl_lifters FROM 'build/lifters.csv' DELIMITER ',' CSV HEADER
 
-CREATE TABLE opldb.entries (
-	meet_id INTEGER REFERENCES opldb.meets(id) ON DELETE CASCADE,
-	lifter_id INTEGER REFERENCES opldb.lifters(id) ON DELETE CASCADE,
+CREATE TABLE opldb.opl_entries (
+	meet_id INTEGER REFERENCES opldb.opl_meets(id) ON DELETE CASCADE,
+	lifter_id INTEGER REFERENCES opldb.opl_lifters(id) ON DELETE CASCADE,
 	sex CHAR(2) NOT NULL,
 	event CHAR(3) NOT NULL,
 	equipment opldb.equipment NOT NULL,
@@ -83,4 +82,4 @@ CREATE TABLE opldb.entries (
 	lifter_country VARCHAR,
 	lifter_state VARCHAR
 );
-\copy opldb.entries FROM 'build/entries.csv' DELIMITER ',' CSV HEADER
+\copy opldb.opl_entries FROM 'build/entries.csv' DELIMITER ',' CSV HEADER

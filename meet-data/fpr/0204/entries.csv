@@ -73,7 +73,7 @@ DQ,Viktoriya Pisarenko,Виктория Писаренко,Juniors,F,67.5,1979,6
 6,Svetlana Zolotova,Светлана Золотова,Juniors,F,75,1980,73.5,190,95,190,475,SBD,Single-ply
 7,Alina Polyanskaya,Алина Полянская,Juniors,F,75,1984,74.7,200,92.5,180,472.5,SBD,Single-ply
 DQ,Olga Salyukova,Ольга Салюкова,Juniors,F,75,1983,72.9,197.5,,,,SBD,Single-ply
-1,Valeria Shcheglova,Валерия Щеглова,Juniors,F,82.5,1983,82.3,230,132.5,200,562.5,SBD,Single-ply
+1,Valeriya Kholodova,Валерия Холодова,Juniors,F,82.5,1983,82.3,230,132.5,200,562.5,SBD,Single-ply
 2,Mariya Kazakova,Мария Казакова,Juniors,F,82.5,1982,75.75,180,110,170,460,SBD,Single-ply
 3,Yuliya Svinova,Юлия Свинова,Juniors,F,82.5,1980,76.5,195,72.5,175,442.5,SBD,Single-ply
 1,Alexandra Murashova,Александра Мурашова,Juniors,F,90,1983,82.7,187.5,95,170,452.5,SBD,Single-ply
@@ -114,10 +114,10 @@ DQ,Rustam Nuriev,Рустам Нуриев,Juniors,M,56,1985,55.7,177.5,,,,SBD,S
 12,Sergey Lazarev,Сергей Лазарев,Juniors,M,60,1983,59.95,205,125,190,520,SBD,Single-ply
 13,Aleksandr Filatov,Александр Филатов,Juniors,M,60,1980,60,200,102.5,200,502.5,SBD,Single-ply
 14,Sergey Mogilevtsev,Сергей Могилевцев,Juniors,M,60,1981,59.55,190,117.5,190,497.5,SBD,Single-ply
-15,Aleksey Popov,Алексей Попов,Juniors,M,60,1985,59,160,95,175,430,SBD,Single-ply
+15,Aleksey Popov #4,Алексей Попов,Juniors,M,60,1985,59,160,95,175,430,SBD,Single-ply
 DQ,Vladimir Sundikov,Владимир Сундиков,Juniors,M,60,1984,59.7,220,,,,SBD,Single-ply
 1,Pavel Kulkov,Павел Кульков,Juniors,M,67.5,1980,66.9,250,155,290,695,SBD,Single-ply
-2,Nikolay Sokolov,Николай Соколов,Juniors,M,67.5,1979,64.85,270,167.5,252.5,690,SBD,Single-ply
+2,Nikolay Sokolov #1,Николай Соколов,Juniors,M,67.5,1979,64.85,270,167.5,252.5,690,SBD,Single-ply
 3,Dmitriy Ivanenko,Дмитрий Иваненко,Juniors,M,67.5,1981,67.35,275,155,260,690,SBD,Single-ply
 4,Alexey Merkulov,Алексей Меркулов,Juniors,M,67.5,1983,67.2,272.5,175,225,672.5,SBD,Single-ply
 5,Yuriy Karasov,Юрий Карасов,Juniors,M,67.5,1981,67,257.5,142.5,267.5,667.5,SBD,Single-ply
@@ -161,7 +161,7 @@ DQ,Aleksey Malygin,Алексей Малыгин,Juniors,M,75,1983,74.75,,,,,SBD
 5,Dmitriy Pervukhin,Дмитрий Первухин,Juniors,M,82.5,1979,81.15,282.5,170,265,717.5,SBD,Single-ply
 6,Evgeniy Kirichenko,Евгений Кириченко,Juniors,M,82.5,1981,81.55,285,140,285,710,SBD,Single-ply
 7,Oleg Maltsev,Олег Мальцев,Juniors,M,82.5,1980,82.1,265,177.5,265,707.5,SBD,Single-ply
-8,Evgeniy Ivanov,Евгений Иванов,Juniors,M,82.5,1981,81.65,275,177.5,250,702.5,SBD,Single-ply
+8,Evgeniy Ivanov #3,Евгений Иванов,Juniors,M,82.5,1981,81.65,275,177.5,250,702.5,SBD,Single-ply
 9,Andrey Yakovlev,Андрей Яковлев,Juniors,M,82.5,1979,78.9,270,165,260,695,SBD,Single-ply
 10,Evgeniy Podyablonskiy,Евгений Подъяблонский,Juniors,M,82.5,1982,82.45,275,175,245,695,SBD,Single-ply
 11,Aleksandr Bobykin,Александр Бобыкин,Juniors,M,82.5,1985,80.3,270,155,250,675,SBD,Single-ply
@@ -198,14 +198,14 @@ DQ,Vadim Zamornikov,Вадим Заморников,Juniors,M,82.5,1982,81.75,28
 10,Ildar Gilfanov,Ильдар Гильфанов,Juniors,M,100,1982,96.85,310,170,280,760,SBD,Single-ply
 11,Vyacheslav Panyushkin,Вячеслав Панюшкин,Juniors,M,100,1981,99.4,267.5,200,282.5,750,SBD,Single-ply
 12,Aleksandr Musokhranov,Александр Мусохранов,Juniors,M,100,1980,95,270,160,240,670,SBD,Single-ply
-13,Stas Mordvinov,Стас Мордвинов,Juniors,M,100,1983,99.25,250,150,250,650,SBD,Single-ply
-14,Sergey Sokolov,Сергей Соколов,Juniors,M,100,1983,98.75,225,140,230,595,SBD,Single-ply
+13,Stanislav Mordvinov,Станислав Мордвинов,Juniors,M,100,1983,99.25,250,150,250,650,SBD,Single-ply
+14,Sergey Sokolov #18,Сергей Соколов,Juniors,M,100,1983,98.75,225,140,230,595,SBD,Single-ply
 DQ,Mikhail Chukhontsev,Михаил Чухонцев,Juniors,M,100,1979,98.55,,,,,SBD,Single-ply
 1,Nikolay Suslov,Николай Суслов,Juniors,M,110,1979,101.35,370,235,350,955,SBD,Single-ply
 2,Igor Medvedev,Игорь Медведев,Juniors,M,110,1980,109.25,340,240,332.5,912.5,SBD,Single-ply
 3,Aleksey Chistyakov,Алексей Чистяков,Juniors,M,110,1980,105.6,340,210,305,855,SBD,Single-ply
-4,Evgeniy Vlasov,Евгений Власов,Juniors,M,110,1979,107,305,182.5,345,832.5,SBD,Single-ply
-5,Stanislav Mikhaylov,Станіслав Михайлов,Juniors,M,110,1980,104.6,335,195,300,830,SBD,Single-ply
+4,Evgeniy Vlasov #5,Евгений Власов,Juniors,M,110,1979,107,305,182.5,345,832.5,SBD,Single-ply
+5,Stanislav Mikhaylov #1,Станислав Михайлов,Juniors,M,110,1980,104.6,335,195,300,830,SBD,Single-ply
 6,Aleksey Khudyakov,Алексей Худяков,Juniors,M,110,1979,100.15,305,160,320,785,SBD,Single-ply
 7,Mikhail Shpak,Михаил Шпак,Juniors,M,110,1980,108.55,280,170,280,730,SBD,Single-ply
 8,Konstantin Lopukhov,Константин Лопухов,Juniors,M,110,1979,109.45,290,170,270,730,SBD,Single-ply

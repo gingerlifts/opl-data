@@ -1,7 +1,7 @@
 Place,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,WeightClassKg,Sex,CyrillicName,BirthYear,Equipment,Event,Division
 1,Dmitriy Alekseev,59.3,235,127.5,215,577.5,60,M,Дмитрий Алексеев,1983,Single-ply,SBD,Open
 2,Sergey Chikin,60,175,117.5,190,482.5,60,M,Сергей Чикин,1979,Single-ply,SBD,Open
-1,Nikolay Sokolov,67.25,312.5,180,250,742.5,67.5,M,Николай Соколов,1979,Single-ply,SBD,Open
+1,Nikolay Sokolov #1,67.25,312.5,180,250,742.5,67.5,M,Николай Соколов,1979,Single-ply,SBD,Open
 2,Vadim Floryan,67.1,245,150,222.5,617.5,67.5,M,Вадим Флорян,1983,Single-ply,SBD,Open
 1,Oleg Ryabinnikov,74,280,157.5,277.5,715,75,M,Олег Рябинников,1978,Single-ply,SBD,Open
 2,Anatoliy Proskurin,69.25,277.5,175,245,697.5,75,M,Анатолий Проскурин,1972,Single-ply,SBD,Open
@@ -67,13 +67,13 @@ DQ,Aleksey Milovanov,100,260,150,,,100,M,Алексей Милованов,1976,
 8,Vasiliy Razmadze,107.25,300,210,260,770,110,M,Василий Размадзе,1978,Single-ply,SBD,Open
 9,Pavel Emelyanov,105.75,290,190,290,770,110,M,Павел Емельянов,1977,Single-ply,SBD,Open
 10,Pavel Kucherov,107.6,290,212.5,267.5,770,110,M,Павел Кучеров,1969,Single-ply,SBD,Open
-11,Andrey Pavlov,108.75,307.5,192.5,255,755,110,M,Андрій Павлов,1971,Single-ply,SBD,Open
+11,Andrey Pavlov #1,108.75,307.5,192.5,255,755,110,M,Андрей Павлов,1971,Single-ply,SBD,Open
 1,Sergey Krasev,121.9,350,262.5,340,952.5,125,M,Сергей Красев,1974,Single-ply,SBD,Open
 2,Vitaliy Kuznetsov,119.25,355,262.5,320,937.5,125,M,Виталий Кузнецов,1973,Single-ply,SBD,Open
 3,Dmitriy Sorokin,116.1,300,250,290,840,125,M,Дмитрий Сорокин,1974,Single-ply,SBD,Open
 4,Dmitriy Palatkin,120.75,290,220,290,800,125,M,Дмитрий Палаткин,1978,Single-ply,SBD,Open
 DQ,Roman Demichev,118.5,,,,,125,M,Роман Демичев,1969,Single-ply,SBD,Open
-1,Dmitriy Shabalin,136.55,315,235,290,840,125+,M,Дмитрий Шабалин,1969,Single-ply,SBD,Open
+1,Dmitriy Shabalin #1,136.55,315,235,290,840,125+,M,Дмитрий Шабалин,1969,Single-ply,SBD,Open
 1,Vera Kuzmina,43.8,107.5,47.5,105,260,44,F,Вера Кузьмина,1978,Single-ply,SBD,Open
 1,Marina Poduzova,47.05,142.5,67.5,145,355,48,F,Марина Подузова,1985,Single-ply,SBD,Open
 2,Natalya Smirnova,46.95,100,55,120,275,48,F,Наталья Смирнова,1988,Single-ply,SBD,Open
@@ -83,7 +83,7 @@ DQ,Roman Demichev,118.5,,,,,125,M,Роман Демичев,1969,Single-ply,SBD,
 1,Olga Zagubera,60,155,70,170,395,60,F,Ольга Загубера,1980,Single-ply,SBD,Open
 2,Galina Teterina,59.65,127.5,65,142.5,335,60,F,Галина Тетерина,1981,Single-ply,SBD,Open
 DQ,Mariya Epishina,59.6,,,,,60,F,Мария Епишина,1982,Single-ply,SBD,Open
-1,Mariia Panferova,67.5,190,110,180,480,67.5,F,Мария Панферова,1977,Single-ply,SBD,Open
+1,Mariya Panferova,67.5,190,110,180,480,67.5,F,Мария Панферова,1977,Single-ply,SBD,Open
 2,Anastasia Pavlova,65.35,160,107.5,140,407.5,67.5,F,Анастасия Павлова,1971,Single-ply,SBD,Open
 3,Valentina Kharina,65.75,150,100,155,405,67.5,F,Валентина Харина,1977,Single-ply,SBD,Open
 4,Olga Okhapkina,65.6,160,80,150,390,67.5,F,Ольга Охапкина,1980,Single-ply,SBD,Open

@@ -28,14 +28,14 @@ DQ,Lukáš Kamenský,27,Czechia,M_OCR_WPC,99.8,100,SBD,Wraps,M,180,190,-200,,190
 2,Sergey Starodubskiy,33,Russia,M_OCR_WPC,109.1,110,SBD,Wraps,M,300,312.5,-322.5,,312.5,220,-232.5,-232.5,,220,300,-320,,,300,832.5
 3,Petr Folprecht,25,Czechia,M_OCR_WPC,106.5,110,SBD,Wraps,M,250,262.5,270,,270,150,-160,160,,160,-290,300,315,-345.5,315,745
 4,Aleksandar Kyurchev Nikolov,32,Bulgaria,M_OCR_WPC,102.3,110,SBD,Wraps,M,250,-262.5,,,250,190,202.5,,,202.5,260,-280,282.5,,282.5,735
-1,Sergiy Karnaukhov,32,Ukraine,M_OCR_WPC,124.8,125,SBD,Wraps,M,-320,320,-361,,320,200,-210,-210,,200,290,300,320,,320,840
+1,Sergiy Karnaukhov #1,32,Ukraine,M_OCR_WPC,124.8,125,SBD,Wraps,M,-320,320,-361,,320,200,-210,-210,,200,290,300,320,,320,840
 2,Yuriy Kovalenko,34,Ukraine,M_OCR_WPC,111.5,125,SBD,Wraps,M,270,280,-290,,280,200,210,-215,,210,250,270,-280,,270,760
 3,Tino Czeranowski,40,Germany,M_OCR_WPC,123.8,125,SBD,Wraps,M,270,285,-300,,285,160,180,-190,,180,270,-290,-290,,270,735
 DQ,František Tesařík,37,Czechia,M_OCR_WPC,115.1,125,SBD,Wraps,M,-250,-250,-250,,,,,,,,,,,,,
 1,Gregor Jankovič,34,Slovenia,M_OCR_WPC,137.4,140,SBD,Wraps,M,-280,290,310,-321,310,210,-225,225,,225,230,-255,260,,260,795
 2,Jan Vojtěchovský,39,Czechia,M_OCR_WPC,126.1,140,SBD,Wraps,M,260,-270,270,,270,160,170,-180,,170,270,290,-300,,290,730
 3,Adam Švehla,30,Czechia,M_OCR_WPC,129.6,140,SBD,Wraps,M,205,215,-222.5,,215,190,200,-205,,200,250,270,-285,,270,685
-1,Gennady Bogdanov,42,Russia,M_MCR_1_WPC,82.5,82.5,SBD,Wraps,M,190,210,-222.5,,210,130,150,170,,170,100,,,,100,480
+1,Gennadiy Bogdanov,42,Russia,M_MCR_1_WPC,82.5,82.5,SBD,Wraps,M,190,210,-222.5,,210,130,150,170,,170,100,,,,100,480
 1,Vladimir Minin,43,Russia,M_MCR_1_WPC,99.9,100,SBD,Wraps,M,-280,280,290,,290,150,160,167.5,,167.5,280,290,-300,,290,747.5
 1,Elmar Wasmer,44,Switzerland,M_MCR_1_WPC,112,125,SBD,Wraps,M,230,240,-250,,240,150,160,-167.5,,160,-240,-250,250,,250,650
 1,Vladimir Pryazhentsev,45,Russia,M_MCR_2_WPC,73.5,75,SBD,Wraps,M,175,180,185,,185,110,-122.5,122.5,,122.5,190,213,225,227.5,225,532.5
@@ -48,7 +48,7 @@ DQ,František Tesařík,37,Czechia,M_OCR_WPC,115.1,125,SBD,Wraps,M,-250,-250,-25
 1,Dainis Polis,51,Latvia,M_MCR_3_WPC,116.2,125,SBD,Wraps,M,-190,190,200,,200,-150,155,160,170,160,200,220,230,240,230,590
 2,Alexander Burlakov,52,Russia,M_MCR_3_WPC,124.9,125,SBD,Wraps,M,185,195,200,,200,150,157.5,-162.5,,157.5,190,200,220.5,,220.5,578
 1,Vladimir Sviderskiy,60,Russia,M_MCR_5_WPC,60.2,67.5,SBD,Wraps,M,110,115,-120,,115,77.5,-82.5,82.5,,82.5,115,125,132.5,135.5,132.5,330
-1,Alexander Ponedelin,61,Russia,M_MCR_5_WPC,74,75,SBD,Wraps,M,180,190,-205,,190,80,-87.5,-87.5,,80,192.5,205,212.5,,212.5,482.5
+1,Aleksandr Ponedelin,61,Russia,M_MCR_5_WPC,74,75,SBD,Wraps,M,180,190,-205,,190,80,-87.5,-87.5,,80,192.5,205,212.5,,212.5,482.5
 1,Valentin Savelyev,60,Russia,M_MCR_5_WPC,96.9,100,SBD,Wraps,M,-140,140,160,,160,110,-130,130,,130,180,200,220,,220,510
 1,Yuriy Chepets,68,Russia,M_MCR_6_WPC,81.3,82.5,SBD,Wraps,M,200,210,215,217.5,215,140,151,-155,,151,190,200,205,,205,571
 DQ,Ernest Ruzin,,Israel,M_MCR_7_WPC,64,67.5,SBD,Wraps,M,-120,-120,-120,,,,,,,,,,,,,
@@ -57,8 +57,8 @@ DQ,Ernest Ruzin,,Israel,M_MCR_7_WPC,64,67.5,SBD,Wraps,M,-120,-120,-120,,,,,,,,,,
 1,Pavel Laptenok,58,Russia,M_MCR_4_WPC,109.7,110,SBD,Wraps,M,201,210,-215,,210,145,152.5,157.5,,157.5,215,225,232.5,,232.5,600
 6,Valeriy Bystrov,70,Russia,M_OR_WPC,96.4,100,SBD,Raw,M,150,-165,170,,170,100,-110,110,,110,180,190,192.5,,192.5,472.5
 1,Valeriy Bystrov,70,Russia,M_MR_7_WPC,96.4,100,SBD,Raw,M,150,-165,170,,170,100,-110,110,,110,180,190,192.5,,192.5,472.5
-DQ,Violetta Varga,18,Hungary,F_TEM_3_WPC,65.8,67.5,SBD,Multi-ply,F,-200,-200,-200,,,,,,,,,,,,,
-1,Yulia Medvedeva,31,Russia,F_OEM_WPC,74.5,75,SBD,Multi-ply,F,240,260,,,260,170,-183.5,-183.5,,170,210,-230,-230,,210,640
+DQ,Eva Varga Violetta,18,Hungary,F_TEM_3_WPC,65.8,67.5,SBD,Multi-ply,F,-200,-200,-200,,,,,,,,,,,,,
+1,Yuliya Medvedeva #1,31,Russia,F_OEM_WPC,74.5,75,SBD,Multi-ply,F,240,260,,,260,170,-183.5,-183.5,,170,210,-230,-230,,210,640
 1,Chantal Rostagnat,44,France,F_MEM_1_WPC,68.2,75,SBD,Multi-ply,F,120,130,-135,,130,-65,65,-72.5,,65,130,142.5,-150,,142.5,337.5
 1,Tomass Rihards Chiapas,10,Latvia,M_YEM_WPC,61.3,67.5,SBD,Multi-ply,M,-90,90,95,,95,40,-45,50,,50,90,95,100,,100,245
 1,Aigars Vilners,17,Latvia,M_TEM_2_WPC,89.1,90,SBD,Multi-ply,M,200,-220,-230,,200,100,140,145,,145,210,230,250,,250,595
@@ -116,7 +116,7 @@ DQ,Libor Bock,47,Czechia,M_MEM_2_WPC,101.5,110,SBD,Multi-ply,M,220,240,-252.5,,2
 DQ,Risto Kolehmainen,56,Finland,M_MEM_4_WPC,98.1,100,SBD,Multi-ply,M,-250,260,-270,,260,-170,-170,-170,,,,,,,,
 1,Pavel Laptenok,58,Russia,M_MEM_4_WPC,109,110,SBD,Multi-ply,M,220,-230,232.5,,232.5,165,175,-185,,175,-220,220,242.5,,242.5,650
 2,Libor Hurdálek,56,Czechia,M_MEM_4_WPC,100.2,110,SBD,Multi-ply,M,-230,230,250,,250,140,160,-170,,160,210,220,237.5,,237.5,647.5
-1,Alexander Ponedelin,61,Russia,M_MEM_5_WPC,75,75,SBD,Multi-ply,M,-230,-230,230,,230,85,90,95,,95,220,-235,235,,235,560
+1,Aleksandr Ponedelin,61,Russia,M_MEM_5_WPC,75,75,SBD,Multi-ply,M,-230,-230,230,,230,85,90,95,,95,220,-235,235,,235,560
 1,Evgeniy Khudoleev,64,Russia,M_MEM_5_WPC,88.3,90,SBD,Multi-ply,M,200,220,230,,230,160,170,-180,,170,170,,,,170,570
 1,Ernest Ruzin,,Israel,M_MEM_7_WPC,64.9,67.5,SBD,Multi-ply,M,100,-120,120,,120,70,80,85,,85,-120,120,140,,140,345
 1,Katalin Mezei,32,Hungary,F_OR_WPC,45.9,48,B,Raw,F,,,,,,50,52.5,-55,,52.5,,,,,,52.5
@@ -126,7 +126,7 @@ DQ,Risto Kolehmainen,56,Finland,M_MEM_4_WPC,98.1,100,SBD,Multi-ply,M,-250,260,-2
 1,Lyudmyla Bobchenko,31,Ukraine,F_OR_WPC,59.5,60,B,Raw,F,,,,,,85,95,-100,,95,,,,,,95
 1,Christel Schubert,66,Germany,F_MR_6_WPC,59.3,60,B,Raw,F,,,,,,35.5,-37.5,-37.5,,35.5,,,,,,35.5
 1,Tetyana Balashova,35,Ukraine,F_OR_WPC,67.1,67.5,B,Raw,F,,,,,,42.5,47.5,-52.5,,47.5,,,,,,47.5
-1,Yulia Medvedeva,31,Russia,F_OR_WPC,74.6,75,B,Raw,F,,,,,,130,-135.5,-135.5,,130,,,,,,130
+1,Yuliya Medvedeva #1,31,Russia,F_OR_WPC,74.6,75,B,Raw,F,,,,,,130,-135.5,-135.5,,130,,,,,,130
 2,Anna Kurkurina,44,Ukraine,F_OR_WPC,70.6,75,B,Raw,F,,,,,,117.5,-125,-125,,117.5,,,,,,117.5
 1,Anna Turaeva,32,Russia,F_OR_WPC,81.9,82.5,B,Raw,F,,,,,,115,122.5,132.5,133,132.5,,,,,,132.5
 2,Svetlana Sinacheva,44,Russia,F_OR_WPC,75.4,82.5,B,Raw,F,,,,,,97.5,105,107.5,,107.5,,,,,,107.5
@@ -163,7 +163,7 @@ DQ,Maxim Kutuzov,30,Germany,M_OR_WPC,82.4,82.5,B,Raw,M,,,,,,-170,-170,-170,,,,,,
 4,Viesturs Eidemanis,31,Latvia,M_OR_WPC,89.8,90,B,Raw,M,,,,,,190,197.5,-200,,197.5,,,,,,197.5
 5,Christoph Scheel,26,Germany,M_OR_WPC,89.6,90,B,Raw,M,,,,,,185,-195,-197.5,,185,,,,,,185
 6,Vladimir Konchakov,38,Russia,M_OR_WPC,88.3,90,B,Raw,M,,,,,,170,180,-185,,180,,,,,,180
-1,Oleg Bazylevich,29,Ukraine,M_OR_WPC,95.8,100,B,Raw,M,,,,,,230,240,253,,253,,,,,,253
+1,Oleg Bazilevich,29,Ukraine,M_OR_WPC,95.8,100,B,Raw,M,,,,,,230,240,253,,253,,,,,,253
 2,Andrzej Kocyła,30,Poland,M_OR_WPC,99.7,100,B,Raw,M,,,,,,210,-217.5,217.5,,217.5,,,,,,217.5
 3,Oleg Osipov,37,Russia,M_OR_WPC,98.6,100,B,Raw,M,,,,,,-195,195,-205,,195,,,,,,195
 4,Vladimir Schukin,31,Russia,M_OR_WPC,98.1,100,B,Raw,M,,,,,,180,-195,-195,,180,,,,,,180
@@ -187,7 +187,7 @@ DQ,Alexey Zyuzin,29,Russia,M_OR_WPC,95.4,100,B,Raw,M,,,,,,-225,-225,,,,,,,,,
 1,Roman Polyakov,35,Russia,M_OR_WPC,160.5,140+,B,Raw,M,,,,,,260,270,-280,,270,,,,,,270
 2,Uldis Lūks,35,Latvia,M_OR_WPC,146.9,140+,B,Raw,M,,,,,,230,-235,,,230,,,,,,230
 3,János Szabó Ozor,38,Hungary,M_OR_WPC,161.5,140+,B,Raw,M,,,,,,210,215,220,,220,,,,,,220
-1,Konstantsin Dremiankou,44,Belarus,M_MR_1_WPC,82.4,82.5,B,Raw,M,,,,,,150,160,-165,,160,,,,,,160
+1,Konstantin Dremenkov,44,Belarus,M_MR_1_WPC,82.4,82.5,B,Raw,M,,,,,,150,160,-165,,160,,,,,,160
 2,Tám Nguyen #1,40,Slovakia,M_MR_1_WPC,82,82.5,B,Raw,M,,,,,,130,140,-150,,140,,,,,,140
 1,Andreas Freudenberg,41,Germany,M_MR_1_WPC,89.3,90,B,Raw,M,,,,,,150,155,-157.5,,155,,,,,,155
 1,Yuriy Shmelev,42,Russia,M_MR_1_WPC,99.2,100,B,Raw,M,,,,,,160,165,170,,170,,,,,,170
@@ -225,7 +225,7 @@ DQ,Alexey Zyuzin,29,Russia,M_OR_WPC,95.4,100,B,Raw,M,,,,,,-225,-225,,,,,,,,,
 1,Peter Schwarz,71,Germany,M_MR_7_WPC,117.9,125,B,Raw,M,,,,,,90,-100,-135,,90,,,,,,90
 1,Marya Berezenko,22,Russia,F_JEM_WPC,59.9,60,B,Multi-ply,F,,,,,,85,90,-95,,90,,,,,,90
 1,Chantal Rostagnat,44,France,F_OEM_WPC,67.4,67.5,B,Multi-ply,F,,,,,,65,-72.5,-72.5,,65,,,,,,65
-1,Yulia Medvedeva,31,Russia,F_OEM_WPC,74.6,75,B,Multi-ply,F,,,,,,170,180,183.5,-190,183.5,,,,,,183.5
+1,Yuliya Medvedeva #1,31,Russia,F_OEM_WPC,74.6,75,B,Multi-ply,F,,,,,,170,180,183.5,-190,183.5,,,,,,183.5
 DQ,Zsuzsa Tarjányi,32,Hungary,F_OEM_WPC,72,75,B,Multi-ply,F,,,,,,-110,-110,-110,,,,,,,,
 1,Viktoriya Sheludko,37,Russia,F_OES_WPC,82.2,82.5,B,Single-ply,F,,,,,,180,190,-200,,190,,,,,,190
 2,Inna Yudina,33,Ukraine,F_OEM_WPC,77.2,82.5,B,Multi-ply,F,,,,,,80,90,-95,,90,,,,,,90
@@ -256,7 +256,7 @@ DQ,Jevgenijs Artenjens,23,Latvia,M_JEM_WPC,97.2,100,B,Multi-ply,M,,,,,,-270,-270
 1,Anatoly Nefëdov,48,Russia,M_OEM_WPC,67.5,67.5,B,Multi-ply,M,,,,,,160,170,-175,,170,,,,,,170
 2,Sandro Kreller,30,Germany,M_OEM_WPC,67.3,67.5,B,Multi-ply,M,,,,,,157.5,162.5,-167.5,,162.5,,,,,,162.5
 1,Vincent Eldin,39,France,M_OEM_WPC,73.9,75,B,Multi-ply,M,,,,,,160,-170,175,,175,,,,,,175
-1,Sergiy Naleikin,30,Ukraine,M_OEM_WPC,81.7,82.5,B,Multi-ply,M,,,,,,-270,270,-300,,270,,,,,,270
+1,Sergiy Naleykin,30,Ukraine,M_OEM_WPC,81.7,82.5,B,Multi-ply,M,,,,,,-270,270,-300,,270,,,,,,270
 2,Dmitriy Khovanskiy,25,Russia,M_OEM_WPC,82,82.5,B,Multi-ply,M,,,,,,-240,240,-250,,240,,,,,,240
 3,Andriy Dyatlov,26,Ukraine,M_OEM_WPC,81.6,82.5,B,Multi-ply,M,,,,,,200,215,222.5,,222.5,,,,,,222.5
 4,Maxim Kutuzov,30,Germany,M_OEM_WPC,82.1,82.5,B,Multi-ply,M,,,,,,200,-220,220,,220,,,,,,220
@@ -295,7 +295,7 @@ DQ,Petr Hron,34,Czechia,M_OEM_WPC,101.9,110,B,Multi-ply,M,,,,,,-210,,,,,,,,,,
 4,Thomas Gabriel,39,Germany,M_OEM_WPC,127.2,140,B,Multi-ply,M,,,,,,-210,210,-220,,210,,,,,,210
 1,Otto Selin,19,Finland,M_OEM_WPC,144.2,140+,B,Multi-ply,M,,,,,,350,365,-400,,365,,,,,,365
 DQ,Roman Polyakov,35,Russia,M_OEM_WPC,159.4,140+,B,Multi-ply,M,,,,,,-320,-330,-335,,,,,,,,
-1,Konstantsin Dremiankou,44,Belarus,M_MEM_1_WPC,82.4,82.5,B,Multi-ply,M,,,,,,190,200,207.5,,207.5,,,,,,207.5
+1,Konstantin Dremenkov,44,Belarus,M_MEM_1_WPC,82.4,82.5,B,Multi-ply,M,,,,,,190,200,207.5,,207.5,,,,,,207.5
 1,Vladimir Omelkov,41,Russia,M_MEM_1_WPC,107.4,110,B,Multi-ply,M,,,,,,240,-255,255,,255,,,,,,255
 1,Ferenc Balázs,41,Hungary,M_MEM_1_WPC,113,125,B,Multi-ply,M,,,,,,-280,280,-300,,280,,,,,,280
 2,Béla Kling,44,Hungary,M_MEM_1_WPC,113.9,125,B,Multi-ply,M,,,,,,210,-215,-215,,210,,,,,,210

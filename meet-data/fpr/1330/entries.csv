@@ -45,9 +45,9 @@ Place,Name,CyrillicName,BirthYear,WeightClassKg,BodyweightKg,Best3SquatKg,Best3B
 11,Dmitriy Malyutin,Дмитрий Малютин,2000,53,52.85,72.5,47.5,80,200,M,Sub-Juniors,SBD,Raw
 DQ,Nikita Mukharkin,Никита Мухаркин,1997,53,52.05,110,62.5,-122.5,,M,Sub-Juniors,SBD,Raw
 1,Ruslan Balabanov,Руслан Балабанов,1996,59,58.55,137.5,110,191,438.5,M,Sub-Juniors,SBD,Raw
-2,Sergey Malkov,Сергей Мальков,1997,59,58.35,120,95,160,375,M,Sub-Juniors,SBD,Raw
+2,Sergey Malkov #3,Сергей Малков,1997,59,58.35,120,95,160,375,M,Sub-Juniors,SBD,Raw
 3,Ivan Yarmolyuk #2,Иван Ярмолюк,1996,59,58.4,122.5,80,155,357.5,M,Sub-Juniors,SBD,Raw
-4,Anton Petukhov,Антон Пєтухов,1997,59,56.95,110,80,140,330,M,Sub-Juniors,SBD,Raw
+4,Anton Petukhov #2,Антон Петухов,1997,59,56.95,110,80,140,330,M,Sub-Juniors,SBD,Raw
 5,Maksim Fomin,Максим Фомин,1996,59,58.5,105,75,150,330,M,Sub-Juniors,SBD,Raw
 6,Artur Bakhtigareev,Артур Бахтигареев,1996,59,58.2,85,65,150,300,M,Sub-Juniors,SBD,Raw
 7,Mikhail Podelko,Михаил Поделко,1999,59,56.95,100,67.5,112.5,280,M,Sub-Juniors,SBD,Raw
@@ -79,7 +79,7 @@ DQ,Denis Borodikhin,Денис Бородихин,1999,59,58.25,115,75,,,M,Sub-J
 13,Aleksandr Korolyov,Александр Королёв,1998,74,69.4,115,85,145,345,M,Sub-Juniors,SBD,Raw
 1,Nikita Lakeev,Никита Лакеев,1996,83,82.9,205,125,260,590,M,Sub-Juniors,SBD,Raw
 2,Oleg Statsenko,Олег Стаценко,1996,83,81.45,170,120,220,510,M,Sub-Juniors,SBD,Raw
-3,Egor Ivanov,Егор Иванов,1996,83,79.15,172.5,112.5,220,505,M,Sub-Juniors,SBD,Raw
+3,Egor Ivanov #1,Егор Иванов,1996,83,79.15,172.5,112.5,220,505,M,Sub-Juniors,SBD,Raw
 4,Mikhail Tyagunov,Михаил Тягунов,1996,83,82.2,172.5,102.5,225,500,M,Sub-Juniors,SBD,Raw
 5,Andrey Moiseev,Андрей Моисеев,1998,83,82.05,170,120,192.5,482.5,M,Sub-Juniors,SBD,Raw
 6,Denis Vitalyov,Денис Виталёв,1997,83,82.4,150,107.5,177.5,435,M,Sub-Juniors,SBD,Raw
@@ -113,10 +113,10 @@ DQ,Denis Borodikhin,Денис Бородихин,1999,59,58.25,115,75,,,M,Sub-J
 5,Ilya Ryabov,Илья Рябов,1995,66,62.7,135,95,177.5,407.5,M,Juniors,SBD,Raw
 6,Timur Pereverzin,Тимур Переверзин,1993,66,65.2,140,107.5,160,407.5,M,Juniors,SBD,Raw
 7,Vladislav Poleshchuk,Владислав Полещук,1995,66,62.2,100,85,120,305,M,Juniors,SBD,Raw
-NS,Denis Voronin,Денис Воронин,1992,66,,,,,,M,Juniors,SBD,Raw
+NS,Denis Voronin #1,Денис Воронин,1992,66,,,,,,M,Juniors,SBD,Raw
 1,Artyom Gerasimov,Артём Герасимов,1992,74,67.9,195,142.5,227.5,565,M,Juniors,SBD,Raw
 2,Efim Tsebenko,Ефим Цебенко,1995,74,72.85,185,140,230,555,M,Juniors,SBD,Raw
-3,Igor Orlov,Игорь Орлов,1992,74,73.35,155,140,220,515,M,Juniors,SBD,Raw
+3,Igor Orlov #1,Игорь Орлов,1992,74,73.35,155,140,220,515,M,Juniors,SBD,Raw
 4,Evgeniy Vasin,Евгений Васин,1993,74,73.15,177.5,130,197.5,505,M,Juniors,SBD,Raw
 5,Kamaldin Amangulov,Камалдин Амангулов,1993,74,73.85,165,151,185,501,M,Juniors,SBD,Raw
 6,Ivan Egorov,Иван Егоров,1992,74,72.05,160,120,180,460,M,Juniors,SBD,Raw
@@ -143,14 +143,14 @@ NS,Roman Smirnov,Роман Смирнов,1993,83,,,,,,M,Juniors,SBD,Raw
 6,Taras Torlopov,Тарас Торлопов,1995,93,91.45,185,135,205,525,M,Juniors,SBD,Raw
 7,Bogdan Ivanov #2,Богдан Иванов,1992,93,91.4,137.5,90,187.5,415,M,Juniors,SBD,Raw
 1,Dmitriy Timofeev,Дмитрий Тимофеев,1992,105,96,235,170,270.5,675.5,M,Juniors,SBD,Raw
-2,Sergey Popov,Сергей Попов,1994,105,103.55,260,150,265.5,675.5,M,Juniors,SBD,Raw
+2,Sergey Popov #17,Сергей Попов,1994,105,103.55,260,150,265.5,675.5,M,Juniors,SBD,Raw
 3,Sergey Teryokhin,Сергей Терёхин,1992,105,102.05,195,165,245,605,M,Juniors,SBD,Raw
 4,Yaroslav Danilyuk,Ярослав Данилюк,1995,105,97.5,215,155,230,600,M,Juniors,SBD,Raw
 5,Dmitriy Ostoyach,Дмитрий Остояч,1993,105,103.95,205,132.5,235,572.5,M,Juniors,SBD,Raw
 1,Ilya Sudorgin,Илья Судоргин,1995,120,105.9,210,120,230,560,M,Juniors,SBD,Raw
 2,Aleksey Panteleev,Алексей Пантелеев,1995,120,105.25,160,180,182.5,522.5,M,Juniors,SBD,Raw
 3,Artyom Ereskin,Артём Ерескин,1993,120,108.55,185,130,197.5,512.5,M,Juniors,SBD,Raw
-1,Vyacheslav Yakovlev,Вячеслав Яковлев,1995,120+,161.35,200,120,200,520,M,Juniors,SBD,Raw
+1,Vyacheslav Yakovlev #1,Вячеслав Яковлев,1995,120+,161.35,200,120,200,520,M,Juniors,SBD,Raw
 2,Pavel Bakhtiarov,Павел Бахтиаров,1992,120+,146.2,150,95,190,435,M,Juniors,SBD,Raw
 1,Snezhana Kulbertinova,Снежана Кульбертинова,1994,43,38.8,55,40,72.5,167.5,F,Juniors,SBD,Raw
 1,Zoya Ruban,Зоя Рубан,1995,52,49.45,75,35,100,210,F,Juniors,SBD,Raw

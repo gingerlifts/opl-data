@@ -1,5 +1,5 @@
 Place,WeightClassKg,Name,State,Sex,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Division,Event,Equipment
-1,90+,Sara Smith,OH,F,107.23,102.5,62.5,97.5,262.5,retrowteen,SBD,Raw
+1,90+,Sara Smith #4,OH,F,107.23,102.5,62.5,97.5,262.5,retrowteen,SBD,Raw
 1,82.5,Lily Rockwell,OH,F,76.2,40,40,105,185,retrowteen,SBD,Raw
 2,82.5,Alexandra Smith,OH,F,76.43,35,25,87.5,147.5,retrowteen,SBD,Raw
 3,82.5,Zoe Pierce,OH,F,82.1,30,30,82.5,142.5,retrowteen,SBD,Raw
@@ -34,7 +34,7 @@ DQ,67.5,Racheal Pennington,OH,F,64.05,70,35,,,wteen,SBD,Single-ply
 1,82.5,Heather Moore,OH,F,76.48,,42.5,102.5,145,wnov,BD,Raw
 1,75,Bonnie Brown,OH,F,71.76,,42.5,95,137.5,wm1,BD,Raw
 1,90,Toni Layne,OH,F,83.37,,45,102.5,147.5,wnov,BD,Raw
-1,75,Samantha Davis,OH,F,72.26,,42.5,92.5,135,wteen,BD,Raw
+1,75,Samantha Davis #1,OH,F,72.26,,42.5,92.5,135,wteen,BD,Raw
 1,90+,Sarah Warnock,OH,F,127.14,,57.5,112.5,170,wint,BD,Raw
 1,56,Gloria Stir,OH,F,52.16,,30,65,95,wm2,BD,Raw
 1,90+,Robin Akers,OH,F,109.09,,40,95,135,wm3,BD,Raw
@@ -48,7 +48,7 @@ DQ,67.5,Racheal Pennington,OH,F,64.05,70,35,,,wteen,SBD,Single-ply
 1,110,Jim Moody,TX,M,109.45,,130,,130,bpmp,B,Raw
 2,90,Tim Williams,OH,M,83.01,,102.5,,102.5,bpm1,B,Raw
 2,90,Tim Williams,OH,M,83.01,,102.5,,102.5,bpnov,B,Raw
-1,82.5,Herb Yakel,OH,M,78.93,,72.5,,72.5,bpm5,B,Raw
+1,82.5,Herb Yakel,OH,M,78.93,,72.5,,72.5,bpmp,B,Raw
 1,90,Scott Stengel,OH,M,87.09,167.5,127.5,215,510,retroopen,SBD,Raw
 1,90,Scott Stengel,OH,M,87.09,167.5,127.5,215,510,retroint,SBD,Raw
 1,52,Mason Birech,OH,M,39.46,60,27.5,70,157.5,retroteen,SBD,Raw
@@ -99,10 +99,10 @@ DQ,90,Forest Riley,IL,M,89.81,,,147.5,,jr,BD,Raw
 1,75,Joshua Esinoza,OH,M,73.71,150,115,197.5,462.5,sm2,SBD,Wraps
 1,67.5,Eric Masters,IL,M,65.32,147.5,102.5,182.5,432.5,nov,SBD,Wraps
 1,90,William Carver,KY,M,88.45,185,112.5,207.5,505,teen,SBD,Wraps
-1,90,Allen Dubois,OH,M,87.54,195,90,197.5,482.5,m1,SBD,Wraps
+1,90,Allen DuBois,OH,M,87.54,195,90,197.5,482.5,m1,SBD,Wraps
 4,75,Tim Artz,OH,M,71.21,165,82.5,182.5,430,teen,SBD,Wraps
 1,125,Jeffrey Wippel,OH,M,120.66,182.5,137.5,222.5,542.5,nov,SBD,Wraps
-1,140,John Adkins,WV,M,130.63,205,127.5,227.5,560,int,SBD,Wraps
+1,140,John Adkins #1,WV,M,130.63,205,127.5,227.5,560,int,SBD,Wraps
 1,140+,Eugene Eugus,OH,M,182.34,260,150,265,675,open,SBD,Wraps
 1,100,Aaron Allard,IN,M,98.43,150,92.5,197.5,440,pure,SBD,Wraps
 2,90,Shawn Whisman,OH,M,83.46,127.5,90,165,382.5,nov,SBD,Wraps
@@ -113,7 +113,7 @@ DQ,90,Forest Riley,IL,M,89.81,,,147.5,,jr,BD,Raw
 1,75,Jerett Brooks,OH,M,73.71,85,85,165,335,int,SBD,Wraps
 2,75,Jonah Wolf,OH,M,68.95,110,67.5,142.5,320,nov,SBD,Wraps
 1,52,Magnus Violet,OH,M,41.28,60,35,75,170,hs,SBD,Wraps
-1,52,Noah Jones #4,OH,M,36.29,40,30,70,140,hs,SBD,Wraps
+1,52,Noah Jones #5,OH,M,36.29,40,30,70,140,hs,SBD,Wraps
 1,44,William Sites,OH,M,42.18,45,25,67.5,137.5,youth,SBD,Wraps
 1,40,Maximus Violet,OH,M,29.94,27.5,20,45,92.5,youth,SBD,Wraps
 DQ,82.5,Abriel Poston,OH,M,80.97,,,,,int,SBD,Wraps

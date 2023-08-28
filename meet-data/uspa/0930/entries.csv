@@ -5,7 +5,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 1,Kara Morison,CA,56,55.5,25,90,52.5,97.5,240,F,Open,Raw,SBD
 1,Lorene Berryman,CA,67.5,66.4,30,127.5,70,160,357.5,F,Open,Raw,SBD
 2,Alejandra Camarena,CA,67.5,64.65,28,122.5,77.5,155,355,F,Open,Raw,SBD
-3,Monica Benavides,CA,67.5,64.25,24,92.5,47.5,92.5,232.5,F,Open,Raw,SBD
+3,Monica Benavides #2,CA,67.5,64.25,24,92.5,47.5,92.5,232.5,F,Open,Raw,SBD
 1,Stephanie Morrow,CA,82.5,76,31,105,57.5,122.5,285,F,Open,Raw,SBD
 1,Tiana Reola,CA,90+,114.2,29,95,55,130,280,F,Open,Raw,SBD
 1,Caprice Flores,CA,75,74,35,132.5,62.5,157.5,352.5,F,Submasters 35-39,Raw,SBD
@@ -23,7 +23,7 @@ DQ,Angel Figueroa,CA,100,99.7,20,227.5,125,-237.5,,M,Juniors 20-23,Raw,SBD
 1,Newton Cheng,CA,60,59.4,38,175,105,217.5,497.5,M,Open,Raw,SBD
 2,Austin Finningan,CA,60,57.5,22,145,102.5,190,437.5,M,Open,Raw,SBD
 1,William Liao,CA,67.5,66.95,24,120,75,150,345,M,Open,Raw,SBD
-1,Alexander Nguyen,CA,75,74.6,25,215,142.5,265,622.5,M,Open,Raw,SBD
+1,Alexander Nguyen #4,CA,75,74.6,25,215,142.5,265,622.5,M,Open,Raw,SBD
 2,Marcos Cruz,CA,75,74.1,28,205,117.5,237.5,560,M,Open,Raw,SBD
 3,Chris Pardini,CA,75,74.1,25,160,112.5,187.5,460,M,Open,Raw,SBD
 1,Shawn Taylor,CA,82.5,81.4,24,215,130,250,595,M,Open,Raw,SBD
@@ -39,7 +39,7 @@ DQ,Angel Figueroa,CA,100,99.7,20,227.5,125,-237.5,,M,Juniors 20-23,Raw,SBD
 4,Hani Yosif,CA,100,91.75,28,167.5,122.5,205,495,M,Open,Raw,SBD
 5,Allen Paisansiri,CA,100,99.6,26,190,82.5,197.5,470,M,Open,Raw,SBD
 1,Francisco Gils,CA,110,107.5,31,237.5,155,275,667.5,M,Open,Raw,SBD
-2,Nick Russo,CA,110,107.7,32,185,165,260,610,M,Open,Raw,SBD
+2,Nick Russo #1,CA,110,107.7,32,185,165,260,610,M,Open,Raw,SBD
 3,Ricardo Perez,CA,110,109.1,31,212.5,135,230,577.5,M,Open,Raw,SBD
 1,Christian Simsuangco,CA,125,116.2,31,250,172.5,305,727.5,M,Open,Raw,SBD
 2,Rey Hernandez,CA,125,111.3,26,187.5,132.5,227.5,547.5,M,Open,Raw,SBD
@@ -52,8 +52,8 @@ DQ,JD Whitelow,CA,110,104.7,52,227.5,167.5,-272.5,,M,Masters 50-54,Wraps,SBD
 1,James Small,CA,140+,150.7,45,227.5,120,190,537.5,M,Masters 45-49,Wraps,SBD
 1,Alejandra Camarena,CA,67.5,64.65,28,,77.5,,77.5,F,Open,Raw,B
 1,Erick Mejia,CA,75,74.45,21,,117.5,,117.5,M,Juniors 20-23,Raw,B
-1,Alexander Nguyen,CA,75,74.6,25,,142.5,,142.5,M,Open,Raw,B
+1,Alexander Nguyen #4,CA,75,74.6,25,,142.5,,142.5,M,Open,Raw,B
 1,Steven O'Brien,CA,90,86.45,68,,130,,130,M,Masters 65-69,Raw,B
 1,Kevin Canant,CA,100,97.75,45,,190,,190,M,Masters 45-49,Raw,B
 1,Takumi Mitchell,CA,75,69.9,17,,,155,155,M,Juniors 16-17,Raw,D
-1,Alexander Nguyen,CA,75,74.6,25,,,265,265,M,Open,Raw,D
+1,Alexander Nguyen #4,CA,75,74.6,25,,,265,265,M,Open,Raw,D

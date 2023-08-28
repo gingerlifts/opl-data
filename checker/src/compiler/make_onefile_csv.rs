@@ -2,7 +2,7 @@
 //! offered on the website's Data page. Unlike the other CSV files, which are
 //! intended for use by the server, this variant is intended for use by humans.
 
-use coefficients::{dots, goodlift};
+use coefficients::{dots, glossbrenner, goodlift, wilks};
 use csv::{QuoteStyle, Terminator, WriterBuilder};
 use opltypes::*;
 
@@ -41,8 +41,8 @@ fn make_export_row<'a>(entry: &'a Entry, meet: &'a Meet) -> ExportRow<'a> {
         totalkg: entry.totalkg,
         place: entry.place,
         dots: dots(entry.sex, entry.bodyweightkg, entry.totalkg),
-        wilks: entry.wilks,
-        glossbrenner: entry.glossbrenner,
+        wilks: wilks(entry.sex, entry.bodyweightkg, entry.totalkg),
+        glossbrenner: glossbrenner(entry.sex, entry.bodyweightkg, entry.totalkg),
         goodlift: goodlift(
             entry.sex,
             entry.equipment,
@@ -52,6 +52,7 @@ fn make_export_row<'a>(entry: &'a Entry, meet: &'a Meet) -> ExportRow<'a> {
         ),
         tested: if entry.tested { "Yes" } else { "" },
         country: entry.country,
+        state: entry.state.map(opltypes::states::State::to_state_string),
         federation: meet.federation,
         parent_federation: meet.federation.sanctioning_body(meet.date),
         date: meet.date,
@@ -62,18 +63,15 @@ fn make_export_row<'a>(entry: &'a Entry, meet: &'a Meet) -> ExportRow<'a> {
     }
 }
 
-pub fn make_onefile_csv(
-    meetdata: &AllMeetData,
-    buildpath: &Path,
-) -> Result<(), csv::Error> {
+pub fn make_onefile_csv(meetdata: &AllMeetData, buildpath: &Path) -> Result<(), csv::Error> {
     let mut csv = WriterBuilder::new()
         .quote_style(QuoteStyle::Never)
         .terminator(Terminator::Any(b'\n'))
-        .from_path(&buildpath.join("openpowerlifting.csv"))?;
+        .from_path(buildpath.join("openpowerlifting.csv"))?;
 
-    for SingleMeetData { meet, entries } in meetdata.get_meets() {
+    for SingleMeetData { meet, entries } in meetdata.meets() {
         for entry in entries {
-            csv.serialize(make_export_row(&entry, &meet))?;
+            csv.serialize(make_export_row(entry, meet))?;
         }
     }
 

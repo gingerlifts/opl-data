@@ -52,7 +52,7 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 餅野 法善,,1941,M,65.4,66,50,-55,-60,50,50,スマイルクラブ,Masters 4,B,Single-ply,4
 九野 毅,,1968,M,65.95,66,-185,-185,-185,,,ＰＥＡＣＥ ＧＹＭ,Masters 2,B,Single-ply,DQ
 児玉 大紀,Daiki Kodama,1979,M,72.55,74,255,272.5,277.5,277.5,277.5,Ｋ'ｓ ＧＹＭ,Open,B,Single-ply,1
-菊池 洋介,Yosuke Kikuchi,1995,M,73.3,74,250,-270,275,275,275,Ｋ'ｓ ＧＹＭ横浜,Juniors,B,Single-ply,1
+菊地 洋介,Yosuke Kikuchi,1995,M,73.3,74,250,-270,275,275,275,Ｋ'ｓ ＧＹＭ横浜,Juniors,B,Single-ply,1
 大谷 憲弘,Norihiro Otani,1980,M,73.45,74,230,-245,-252.5,230,230,ＥＳＱＵＡＴＩＲ,Open,B,Single-ply,2
 濱田 展行,Nobuyuki Hamada,1969,M,73.3,74,215,225,-230,225,225,Ｋ'ｓ ＧＹＭ,Masters 1,B,Single-ply,1
 三島 忠,Tadashi Mishima,1962,M,74,74,-215,-215,223,223,223,Ｋ'ｓ ＧＹＭ,Masters 2,B,Single-ply,1
@@ -98,7 +98,7 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 高橋 秀輔,,1977,M,81.9,83,-185,185,-190,185,185,パワーハウス,Masters 1,B,Single-ply,3
 石本 直樹,,1962,M,82.15,83,-180,180,-202.5,180,180,岩崎ＢＣ津山,Masters 2,B,Single-ply,4
 小倉 正樹,,1966,M,81.15,83,170,175,-180,175,175,ストロングライン,Masters 2,B,Single-ply,5
-山下 卓也,,1968,M,82,83,175,-190,-190,175,175,Ｋ'ｓ ＧＹＭ,Masters 2,B,Single-ply,6
+山下 卓也,Takuya Yamashita,1968,M,82,83,175,-190,-190,175,175,Ｋ'ｓ ＧＹＭ,Masters 2,B,Single-ply,6
 荻久保 大輝,,1998,M,81.9,83,160,170,172.5,172.5,172.5,日本体育大学,Juniors,B,Single-ply,2
 後藤 優誠,Yusei Goto,2002,M,78.65,83,140,145,150,150,150,瀬野川トレーニングクラブ,Sub-Juniors,B,Single-ply,1
 酒井 知隆,,1957,M,82.5,83,140,150,-155,150,150,ノーリミッツ,Masters 3,B,Single-ply,2
@@ -221,7 +221,7 @@ JapaneseName,Name,BirthYear,Sex,BodyweightKg,WeightClassKg,Bench1Kg,Bench2Kg,Ben
 溝口 久美,Kumi Mizoguchi,1988,F,72,72,145,150,-179,150,150,スーパーパワーアサマトレーニングクラブ,Open,B,Single-ply,1
 照屋 利恵,Rie Teruya,1975,F,69.3,72,122.5,130,135,135,135,ＰＯＷＥＲ ＳＰＯＲＴ,Masters 1,B,Single-ply,1
 櫻井 美幸,Miyuki Sakurai,1969,F,71.4,72,120,125,-132.5,125,125,ＢＩＧ ＧＵＮＳ,Masters 1,B,Single-ply,2
-古味 良子,,1955,F,66.95,72,100,105,-110,105,105,Ｔ－ＲＥＸ,Masters 3,B,Single-ply,1
+古味 良子,Yoshiko Komi,1955,F,66.95,72,100,105,-110,105,105,Ｔ－ＲＥＸ,Masters 3,B,Single-ply,1
 池田 光咲,,1999,F,67.25,72,-90,-90,90,90,90,神奈川大学,Juniors,B,Single-ply,1
 鍋倉 由美子,,1962,F,65.05,72,70,-75,-75,70,70,スーパーパワーアサマトレーニングクラブ,Masters 2,B,Single-ply,1
 田島 瞳,Hitomi Tajima,1982,F,82.4,84,150,161,165,165,165,ＢＩＧ ＦＩＶＥ,Open,B,Single-ply,1

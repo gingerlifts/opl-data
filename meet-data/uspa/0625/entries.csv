@@ -1,10 +1,10 @@
 Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Division,Equipment,Deadlift4Kg,Event
-1,Stacia-Al Mahoe,HI,44,44,19,112.5,72.5,165,350,F,Juniors 18-19,Raw,,SBD
+1,Stacia Cambra,HI,44,44,19,112.5,72.5,165,350,F,Juniors 18-19,Raw,,SBD
 1,Janette Toldeo,CA,60,59.3,23,92.5,55,127.5,275,F,Juniors 20-23,Raw,,SBD
 1,Irene Rodriguez,CA,67.5,66.95,20,70,60,130,260,F,Juniors 20-23,Raw,,SBD
 1,Marlene Alarcon,CA,75,72.5,20,105,50,115,270,F,Juniors 20-23,Raw,,SBD
 1,Karina Mosqueda,CA,82.5,82.2,20,160,80,157.5,397.5,F,Juniors 20-23,Raw,,SBD
-1,Stacia-Al Mahoe,HI,44,44,19,112.5,72.5,165,350,F,Open,Raw,,SBD
+1,Stacia Cambra,HI,44,44,19,112.5,72.5,165,350,F,Open,Raw,,SBD
 2,Tiffany Leung,CA,44,43.65,25,120,57.5,140,317.5,F,Open,Raw,,SBD
 3,Angela Gonzales,CA,44,43.85,24,62.5,32.5,80,175,F,Open,Raw,,SBD
 1,Soupy Manivanh,FL,48,47.8,25,97.5,47.5,125,270,F,Open,Raw,,SBD
@@ -55,7 +55,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 5,Daniel Chung,CA,82.5,78.25,26,160,107.5,185,452.5,M,Open,Raw,,SBD
 6,William Diaz,CA,82.5,81.5,27,120,87.5,165,372.5,M,Open,Raw,,SBD
 1,John Demery,CA,90,89.75,25,215,150,272.5,637.5,M,Open,Raw,,SBD
-2,Adam Campbell,CA,90,88.6,32,210,137.5,230,577.5,M,Open,Raw,,SBD
+2,Adam Campbell #2,CA,90,88.6,32,210,137.5,230,577.5,M,Open,Raw,,SBD
 3,George Bodossian,CA,90,85.65,28,167.5,150,212.5,530,M,Open,Raw,,SBD
 4,Albert Alvarado,MO,90,89,32,185,127.5,207.5,520,M,Open,Raw,,SBD
 5,Connor Skific,CA,90,89.15,25,185,107.5,227.5,520,M,Open,Raw,,SBD
@@ -67,7 +67,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 6,Ivan Enriquez,CA,100,92.25,24,102.5,125,227.5,455,M,Open,Raw,,SBD
 7,Zachary Drummond,CA,100,96.75,32,132.5,80,160,372.5,M,Open,Raw,,SBD
 1,Donald M Cervantes,CA,110,109.95,30,305,202.5,327.5,835,M,Open,Raw,,SBD
-2,Joe Torres,CA,110,107.15,27,215,157.5,230,602.5,M,Open,Raw,,SBD
+2,Joe Torres #1,CA,110,107.15,27,215,157.5,230,602.5,M,Open,Raw,,SBD
 3,Max Harmer,CA,110,105.75,24,187.5,122.5,227.5,537.5,M,Open,Raw,,SBD
 1,Tee Popoola,CA,125,117.4,32,357.5,240,332.5,930,M,Open,Raw,,SBD
 1,Mike Gajga,CA,82.5,80.5,38,157.5,117.5,222.5,497.5,M,Submasters 35-39,Raw,,SBD

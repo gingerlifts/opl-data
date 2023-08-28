@@ -2,7 +2,7 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Nicola Twining,O,UK,80.4,120,130,135,135,55,60,-62.5,60,140,145,150,150,345,82.5,F,,1988,Wraps,SBD
 1,Aspek Dzhaparov,J,Ireland,60,180,-190,200,200,102.5,107.5,112.5,112.5,170,182.5,-187.5,182.5,495,60,M,,1992,Wraps,SBD
 1,Roland Schneider,M1,Germany,73.7,160,170,180,180,100,-105,,100,180,190,-200,190,470,75,M,,1972,Wraps,SBD
-1,John Vincent,M2,UK,71,170,180,190,190,105,117.5,-125,117.5,210,-230,-230,210,517.5,75,M,,1964,Wraps,SBD
+1,John Vincent #1,M2,UK,71,170,180,190,190,105,117.5,-125,117.5,210,-230,-230,210,517.5,75,M,,1964,Wraps,SBD
 1,Aleem Majid,J,UK,79.8,160,180,200,200,80,100,-120,100,200,220,240,240,540,82.5,M,,1992,Wraps,SBD
 1,Cornelis Hoppenbrouwers,M4,Netherlands,81.4,140,160,175,175,100,110,122.5,122.5,175,200,210,210,507.5,82.5,M,,1958,Wraps,SBD
 2,Henk Nijstad,M4,Netherlands,80.7,125,135,140,140,110,-115,-115,110,140,150,160,160,410,82.5,M,,1958,Wraps,SBD
@@ -32,7 +32,7 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Maudelene De Jong,T,Netherlands,61.4,72.5,77.5,82.5,82.5,42.5,45,-50,45,72.5,80,85,85,212.5,67.5,F,,1999,Wraps,SBD
 1,Seán Cregan,M2,Ireland,78.9,200,-240,-260,200,-130,130,-137.5,130,200,220,230,230,560,82.5,M,,1965,Multi-ply,SBD
 1,Graeme Quirke,O,Ireland,89.2,-280,280,-300,280,185,195,200,200,230,-265,-270,230,710,90,M,,1979,Multi-ply,SBD
-DQ,Shane Brodie,M1,Ireland,98.5,-355,-365,-365,,,,,,,,,,,100,M,,1973,Multi-ply,SBD
+DQ,Shane Brodie,M1,Ireland,98.5,-355,-365,-365,,,,,,,,,,,100,M,,,Multi-ply,SBD
 1,Lee Fagan,O,Ireland,118.6,-220,260,-300,260,170,185,-190,185,280,290,300,300,745,125,M,,1986,Multi-ply,SBD
 1,Tristan Cianni,T,Germany,72.1,-180,180,-188,180,-110,110,113,113,140,160,188,188,481,75,M,,1997,Single-ply,SBD
 1,Eray Cingi,J,Netherlands,71.4,220,237.5,250,250,145,150,-160,150,235,-255,-260,235,635,75,M,,1993,Single-ply,SBD
@@ -101,7 +101,7 @@ DQ,Andrey Bogatkov,O,Russia,81.7,,,,,-185,-185,-185,,,,,,,82.5,M,Андрей Б
 1,Thomas Elfner,M1,Germany,99.6,,,,,195,-202.5,202.5,202.5,,,,,202.5,100,M,,1970,Single-ply,B
 1,Juan Moles,M5,Spain,98.1,,,,,140,150,160,160,,,,,160,100,M,,1948,Single-ply,B
 1,Aleksas Alekna,M1,Ireland,104,,,,,167.5,175,-180,175,,,,,175,110,M,,1971,Single-ply,B
-1,Alfonso-Garcia Pulido,O,Spain,113.9,,,,,-230,250,-260,250,,,,,250,125,M,,1975,Single-ply,B
+1,Alfonso Garcia Pulido,O,Spain,113.9,,,,,-230,250,-260,250,,,,,250,125,M,,1975,Single-ply,B
 1,Paul Edmonds,M3,UK,123.7,,,,,230,-240,-240,230,,,,,230,125,M,,1960,Single-ply,B
 1,Sirko Petermann,O,Germany,127.8,,,,,200,210,215,215,,,,,215,140,M,,1977,Single-ply,B
 1,Jaap Fahner,M3,Netherlands,126.4,,,,,225,-235,-235,225,,,,,225,140,M,,1961,Single-ply,B
@@ -119,12 +119,12 @@ DQ,Andrey Bogatkov,O,Russia,81.7,,,,,-185,-185,-185,,,,,,,82.5,M,Андрей Б
 2,Johannes Kraft,O,Germany,101.2,,,,,,,,,200,217.5,225,225,225,110,M,,1979,Raw,D
 1,Mukesh Singh #1,O,India,112.8,,,,,,,,,230,245,250,250,250,125,M,,1978,Raw,D
 1,Carlos García,M3,Spain,114.5,,,,,,,,,260,280,,280,280,125,M,,1959,Raw,D
-1,Colin Robinson,M4,UK,122,,,,,,,,,300,320,330,330,330,125,M,,1957,Raw,D
+1,Colin Robinson #1,M4,UK,122,,,,,,,,,300,320,330,330,330,125,M,,1957,Raw,D
 1,Jaap Fahner,M3,Netherlands,126.4,,,,,,,,,280,300,,300,300,140,M,,1961,Raw,D
 1,Fiona Dowling,O,Ireland,58.2,,,,,,,,,107.5,115,120,120,120,60,F,,1985,Raw,D
 1,Bettina Lechmann,M4,Germany,67.3,,,,,,,,,75,87.5,-90,87.5,87.5,67.5,F,,1957,Raw,D
 1,Linda Scully,O,Ireland,71.4,,,,,,,,,100,110,121,121,121,75,F,,1979,Raw,D
-1,Samantha Copeer,M1,UK,97.6,,,,,,,,,165,170,175,175,175,90+,F,,1971,Raw,D
+1,Samantha Cooper #3,M1,UK,97.6,,,,,,,,,165,170,175,175,175,90+,F,,1971,Raw,D
 2,Kirsten Schwade,M4,Germany,92.2,,,,,,,,,90,107.5,117.5,117.5,117.5,90+,F,,1954,Raw,D
 1,Juan Hernandez #3,M4,Spain,98.8,,,,,,,,,225,240,-250,240,240,100,M,,1957,Multi-ply,D
 1,Paul Murphy #1,M2,UK,86.9,,,,,,,,,250,265,275,275,275,90,M,,1968,Single-ply,D

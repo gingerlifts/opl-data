@@ -1,6 +1,6 @@
 Place,Sex,Division,WeightClassKg,Name,BirthYear,BodyweightKg,Country,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Bench4Kg,Event,Equipment
 1,F,Masters 1,44,Irmeli Vaulakorpi,1962,43.8,Finland,40,50,-60,50,50,,B,Single-ply
-1,F,Masters 1,48,Ann Leverett,1956,47.8,USA,72.5,77.5,82.5,82.5,82.5,,B,Single-ply
+1,F,Masters 1,48,Ann Leverett,,47.8,USA,72.5,77.5,82.5,82.5,82.5,,B,Single-ply
 2,F,Masters 1,48,Trish Muldrock,1960,48,New Zealand,65,-70,70,70,70,,B,Single-ply
 1,F,Masters 1,52,Sachiko Ogata,1961,49.8,Japan,-80,80,-85,80,80,,B,Single-ply
 2,F,Masters 1,52,Vuokko Viitasaari,1954,50.3,Finland,67.5,,75,75,75,,B,Single-ply
@@ -41,7 +41,7 @@ Place,Sex,Division,WeightClassKg,Name,BirthYear,BodyweightKg,Country,Bench1Kg,Be
 2,F,Masters 2,75,Regina Hackney,1941,68.9,USA,62.5,-67.5,-67.5,62.5,62.5,,B,Single-ply
 1,F,Masters 2,82.5,Rosemarie Beer,1945,78.8,Austria,97.5,102.5,107.5,107.5,107.5,,B,Single-ply
 2,F,Masters 2,82.5,Denise Quellet,1943,75.5,Canada,57.5,62.5,-67.5,62.5,62.5,,B,Single-ply
-DQ,F,Masters 2,90,Roswit Pittermann,1946,83.4,Germany,-112.5,-112.5,112.5,112.5,,,B,Single-ply
+DQ,F,Masters 2,90,Roswitha Pittermann,1946,83.4,Germany,-112.5,-112.5,112.5,112.5,,,B,Single-ply
 1,F,Masters 2,90+,Harriet Hall,,106.2,USA,125,137.5,142.5,142.5,142.5,,B,Single-ply
 1,M,Masters 1,52,Yutaka Yamashita,1959,51.4,Japan,110,-122.5,-122.5,110,110,,B,Single-ply
 1,M,Masters 1,56,Hiroyuki Ishiwatari,1959,53.6,Japan,-140,140,150,150,150,,B,Single-ply
@@ -62,7 +62,7 @@ DQ,M,Masters 1,67.5,Koshi Miki,1957,66.2,Japan,-162.5,-162.5,-162.5,,,,B,Single-
 7,M,Masters 1,75,Birger Sunstol,1957,71.3,Norway,115,127.5,-132.5,127.5,127.5,,B,Single-ply
 1,M,Masters 1,82.5,Frank Heinrich,1958,82.1,Germany,-195,195,200,200,200,,B,Single-ply
 2,M,Masters 1,82.5,Didier Compain,1959,80.5,France,195,-197.5,-197.5,195,195,,B,Single-ply
-3,M,Masters 1,82.5,Paul Smith,1961,81.2,Netherlands,190,195,-200,195,195,,B,Single-ply
+3,M,Masters 1,82.5,Paul Smith #10,1961,81.2,Netherlands,190,195,-200,195,195,,B,Single-ply
 4,M,Masters 1,82.5,Greg Zangl,1960,79.6,USA,185,192.5,-197.5,192.5,192.5,,B,Single-ply
 5,M,Masters 1,82.5,Keisuke Shiraishi,1958,81.6,Japan,180,190,-200,190,190,,B,Single-ply
 6,M,Masters 1,82.5,Dana Rosenzweig,1957,82.1,USA,175,182.5,-185,182.5,182.5,,B,Single-ply
@@ -74,7 +74,7 @@ DQ,M,Masters 1,67.5,Koshi Miki,1957,66.2,Japan,-162.5,-162.5,-162.5,,,,B,Single-
 4,M,Masters 1,90,Antti Koskela,1961,89.3,Finland,170,185,195,195,195,,B,Single-ply
 5,M,Masters 1,90,Pascal Pares,1958,87,France,185,190,-200,190,190,,B,Single-ply
 6,M,Masters 1,90,R. Jaffe,1956,89.4,South Africa,150,160,-165,160,160,,B,Single-ply
-1,M,Masters 1,100,Vladimir Volkov,1959,90.5,Russia,215,222.5,-235,222.5,222.5,,B,Single-ply
+1,M,Masters 1,100,Vladimir Volkov #1,1959,90.5,Russia,215,222.5,-235,222.5,222.5,,B,Single-ply
 2,M,Masters 1,100,Freddy Jabol,1959,99.5,France,200,-210,-210,200,200,,B,Single-ply
 3,M,Masters 1,100,John Brooks,1955,97,UK,182.5,192.5,-200,192.5,192.5,,B,Single-ply
 4,M,Masters 1,100,Harri Hagfors,1961,93,Finland,175,-185,-192.5,175,175,,B,Single-ply
@@ -96,7 +96,7 @@ DQ,M,Masters 1,100,Jean-Pierre Aymon,1954,98.8,Switzerland,-212.5,-215,-215,,,,B
 6,M,Masters 1,125,Anton Speth,1955,121.4,Germany,200,,-207.5,200,200,,B,Single-ply
 7,M,Masters 1,125,Arto Hannolin,1956,121,Finland,190,197.5,-200,197.5,197.5,,B,Single-ply
 8,M,Masters 1,125,Igor Davidoff,1960,121.6,France,195,-205,-207.5,195,195,,B,Single-ply
-1,M,Masters 1,125+,Daniel Gaudreau,1961,164.2,USA,250,-257.5,257.5,257.5,257.5,,B,Single-ply
+1,M,Masters 1,125+,Daniel Gaudreau,,164.2,USA,250,-257.5,257.5,257.5,257.5,,B,Single-ply
 2,M,Masters 1,125+,Ichiro Ujiie,1957,151,Japan,235,-245,-250,235,235,,B,Single-ply
 3,M,Masters 1,125+,Bruce Edwards,1959,133.6,USA,-205,205,207.5,207.5,207.5,,B,Single-ply
 4,M,Masters 1,125+,Piotr Pawlik,1955,132.3,Poland,205,-210,,205,205,,B,Single-ply

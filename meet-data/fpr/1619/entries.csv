@@ -1,6 +1,6 @@
 Name,CyrillicName,BirthDate,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,WeightClassKg,Event,Equipment,Division,Sex
 Veronika Serebryakova,Вероника Серебрякова,1992-08-10,СибГУФК,45.95,95,50,115,260,1,47,SBD,Raw,Open,F
-Yuliya Smirnova,Юлия Смирнова,1998-01-09,КемГУ,46.7,90,45,112.5,247.5,2,47,SBD,Raw,Open,F
+Yuliya Smirnova #1,Юлия Смирнова,1998-01-09,КемГУ,46.7,90,45,112.5,247.5,2,47,SBD,Raw,Open,F
 Anzhela Nemkovskaya,Анжела Немковская,1995-07-12,КГПУ,46.3,60,42.5,92.5,195,3,47,SBD,Raw,Open,F
 Mariya Moskalenko,Мария Москаленко,1997-10-01,СФУ,46.8,62.5,37.5,67.5,167.5,4,47,SBD,Raw,Open,F
 Anna Sadovaya,Анна Садовая,1997-12-18,СибГАУ,46.85,50,32.5,60,142.5,5,47,SBD,Raw,Open,F
@@ -88,7 +88,7 @@ Tagir Kilmamatov,Тагир Кильмаматов,1996-11-22,УГАТУ,104.5,2
 Andrey Zykov,Андрей Зыков,1995-01-18,КГПУ,101.45,170,150,180,500,6,105,SBD,Raw,Open,M
 Egor Shumatov,Егор Шуматов,1993-10-19,КузГТУ,112.9,270,180,300,750,1,120,SBD,Raw,Open,M
 Nikolay Belyaev,Николай Беляев,1997-02-27,СФУ,106.1,237.5,160,250,647.5,2,120,SBD,Raw,Open,M
-Sergey Kolesnichenko,Сергей Колесниченко,1996-03-13,КузГТУ,116,210,150,242.5,602.5,3,120,SBD,Raw,Open,M
+Sergey Kolesnichenko #2,Сергей Колесниченко,1996-03-13,КузГТУ,116,210,150,242.5,602.5,3,120,SBD,Raw,Open,M
 Ilya Vasilenko,Илья Василенко,1995-09-04,ХТИ-фСФУ,115.35,215,130,220,565,4,120,SBD,Raw,Open,M
 Ivan Kulikov,Иван Куликов,1997-01-08,КГПУ,109.1,170,137.5,205,512.5,5,120,SBD,Raw,Open,M
 Pavel Kotlubaev,Павел Котлубаев,1992-01-16,СФУ,122.25,250,210,275,735,1,120+,SBD,Raw,Open,M

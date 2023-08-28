@@ -11,9 +11,9 @@ Ivan Lambert,90,Senior,M,88.9,,262.5,147.5,235,645,SBD,Single-ply,3
 M. Trupo,90,Senior,M,,,227.5,152.5,230,610,SBD,Single-ply,4
 B. Taylor,100,Senior,M,,,227.5,205,292.5,725,SBD,Single-ply,1
 Jack Mayhew,100,Senior,M,98.88,,267.5,195,247.5,710,SBD,Single-ply,2
-J. Chambers,100,Senior,M,,,227.5,175,250,652.5,SBD,Single-ply,3
+Jeff Chambers,100,Senior,M,,,227.5,175,250,652.5,SBD,Single-ply,3
 Don Hall,100,Senior,M,,,250,145,237.5,632.5,SBD,Single-ply,4
-R. Roach,100,Senior,M,,,25,172.5,25,222.5,SBD,Single-ply,5
+Rocky Roach,100,Senior,M,,,25,172.5,25,222.5,SBD,Single-ply,5
 John Messinger,110,Senior,M,,,290,100,100,490,SBD,Single-ply,1
 Mark Hrko,125,Senior,M,,,272.5,170,277.5,720,SBD,Single-ply,1
 Brett Russell,125,Senior,M,,,25,25,322.5,372.5,SBD,Single-ply,2
@@ -22,7 +22,7 @@ Carl Harvey,52,Junior,M,48.53,14,107.5,67.5,137.5,312.5,SBD,Single-ply,1
 Dave Burchett,52,Junior,M,,,102.5,67.5,127.5,297.5,SBD,Single-ply,2
 Joe Vukovich,56,Junior,M,52.16,,122.5,102.5,160,385,SBD,Single-ply,1
 Bob Kelley,60,Junior,M,,,112.5,102.5,165,380,SBD,Single-ply,1
-James Turner,67.5,Junior,M,,,185,110,212.5,507.5,SBD,Single-ply,1
+James Turner #5,67.5,Junior,M,,,185,110,212.5,507.5,SBD,Single-ply,1
 Eddie Walsh,67.5,Junior,M,,,182.5,130,192.5,505,SBD,Single-ply,2
 Dennis Pratt,67.5,Junior,M,,,152.5,110,185,447.5,SBD,Single-ply,3
 Wayne Pauley,67.5,Junior,M,,,102.5,92.5,162.5,357.5,SBD,Single-ply,4
@@ -34,14 +34,14 @@ J. Donahue #2,82.5,Junior,M,,,200,120,227.5,547.5,SBD,Single-ply,3
 E. Eskew,82.5,Junior,M,,,167.5,130,210,507.5,SBD,Single-ply,4
 R. Busey,82.5,Junior,M,,,175,115,207.5,497.5,SBD,Single-ply,5
 Rob Graham,90,Junior,M,,,227.5,160,242.5,630,SBD,Single-ply,1
-R. Ramirez,90,Junior,M,,,210,145,190,545,SBD,Single-ply,2
+R. Ramirez #2,90,Junior,M,,,210,145,190,545,SBD,Single-ply,2
 G. Day,90,Junior,M,87.54,,175,115,207.5,497.5,SBD,Single-ply,3
 D. Harden,90,Junior,M,,,140,115,177.5,432.5,SBD,Single-ply,4
 Ronnie Harbert,100,Junior,M,99.79,,230,207.5,240,677.5,SBD,Single-ply,1
 Keith Rippeto,100,Junior,M,,,250,147.5,267.5,665,SBD,Single-ply,2
 Tony Marcum,100,Junior,M,,,255,165,237.5,657.5,SBD,Single-ply,3
 Paul Gentry,100,Junior,M,,,242.5,130,285,657.5,SBD,Single-ply,4
-B. Simpson,100,Junior,M,,,227.5,160,255,642.5,SBD,Single-ply,5
+B. Simpson #2,100,Junior,M,,,227.5,160,255,642.5,SBD,Single-ply,5
 Joe Berry,110,Junior,M,,,240,147.5,250,637.5,SBD,Single-ply,1
 Troy McCormick,110,Junior,M,,,102.5,200,102.5,405,SBD,Single-ply,2
 Marion Tenant,125,Junior,M,,,242.5,175,275,692.5,SBD,Single-ply,1
@@ -49,7 +49,7 @@ Carl Herald,125,Junior,M,,,235,182.5,245,662.5,SBD,Single-ply,2
 Mike Powers,125,Junior,M,,,210,135,245,590,SBD,Single-ply,3
 Kevin Graley,125,Junior,M,,,160,120,220,500,SBD,Single-ply,4
 Dennis Pratt,67.5,Masters,M,,,152.5,110,185,447.5,SBD,Single-ply,1
-Robert Hill,90,Masters,M,,,190,120,235,545,SBD,Single-ply,1
+Robert Hill #6,90,Masters,M,,,190,120,235,545,SBD,Single-ply,1
 Don Hall,100,Masters,M,,,250,145,237.5,632.5,SBD,Single-ply,1
 Kathy Campbell,52,Open,F,,,92.5,52.5,115,260,SBD,Single-ply,1
 Cynthia Dixon,56,Open,F,,,112.5,57.5,120,290,SBD,Single-ply,1
@@ -75,10 +75,10 @@ Sam Hrko,125,Teen,M,,,270,170,272.5,712.5,SBD,Single-ply,1
 B. Hager,125,Teen,M,,,227.5,130,235,592.5,SBD,Single-ply,2
 M. Powers,125,Teen,M,,,210,135,245,590,SBD,Single-ply,3
 Joe Utt,125+,Teen,M,,,240,160,237.5,637.5,SBD,Single-ply,1
-M. Ross,125+,Teen,M,,,217.5,142.5,227.5,587.5,SBD,Single-ply,2
+Mike Ross,125+,Teen,M,,,217.5,142.5,227.5,587.5,SBD,Single-ply,2
 Eric Green,82.5,Collegiate,M,78.47,,235,172.5,227.5,635,SBD,Single-ply,1
 Joe Vukovich,82.5,Collegiate,M,52.16,,122.5,102.5,160,385,SBD,Single-ply,3
-B. Lewis,82.5,Collegiate,M,79.83,,175,115,192.5,482.5,SBD,Single-ply,2
+Bob Lewis,82.5,Collegiate,M,79.83,,175,115,192.5,482.5,SBD,Single-ply,2
 Jack Mayhew,82.5+,Collegiate,M,98.88,,267.5,195,247.5,710,SBD,Single-ply,1
 Ivan Lambert,82.5+,Collegiate,M,88.9,,262.5,147.5,235,645,SBD,Single-ply,4
 R. Harbert,82.5+,Collegiate,M,99.79,,230,207.5,240,677.5,SBD,Single-ply,3

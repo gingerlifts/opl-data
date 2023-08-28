@@ -23,14 +23,14 @@ Place,Name,Equipment,BirthDate,BirthYear,BodyweightKg,Best3BenchKg,WeightClassKg
 3,Oleg Polischuk,Single-ply,,1991,82.55,182.5,83,M,Олег Поліщук,Juniors,B,182.5
 4,Vitaliy Nomerovskiy,Single-ply,,1992,81.25,150,83,M,Віталій Номеровський,Juniors,B,150
 1,Vasil Gaydar,Single-ply,,1992,88.55,260,93,M,Василь Гайдар,Juniors,B,260
-2,Nazar Dyachuk,Single-ply,,1991,92.65,252.5,93,M,Назар Д'ячук,Juniors,B,252.5
+2,Nazariy Dyachuk,Single-ply,,1991,92.65,252.5,93,M,Назарий Д'ячук,Juniors,B,252.5
 3,Taras Karnaukh,Single-ply,,1992,91.05,230,93,M,Тарас Карнаух,Juniors,B,230
 4,Vladyslav Sheynin,Single-ply,,1992,89.8,207.5,93,M,Владислав Шейнін,Juniors,B,207.5
 DQ,Dmitro Kuzmenko,Single-ply,,1994,91.25,,93,M,Дмитро Кузьменко,Juniors,B,
 DQ,Igor Dudin,Single-ply,,1991,92.6,,93,M,Ігор Дудін,Juniors,B,
 DQ,Maxym Veretennikov,Single-ply,,1993,92.95,,93,M,Максим Веретенніков,Juniors,B,
 1,Dmitro Pavlenko,Single-ply,,1992,104.6,230,105,M,Дмитро Павленко,Juniors,B,230
-2,Yevgen Vasilyev,Single-ply,,1993,104.75,230,105,M,Євген Васильєв,Juniors,B,230
+2,Yevgen Vasilyev #1,Single-ply,,1993,104.75,230,105,M,Євген Васильєв,Juniors,B,230
 3,Bogdan Vlasov,Single-ply,,1992,103,212.5,105,M,Богдан Власов,Juniors,B,212.5
 4,Andriy Novak,Single-ply,,1991,94.7,150,105,M,Андрій Новак,Juniors,B,150
 1,Oleksiy Brezhnev,Single-ply,,1993,112.95,260,120,M,Олексій Брежнєв,Juniors,B,260
@@ -81,11 +81,11 @@ DQ,Andriy Klimets,Single-ply,,1990,91.6,,93,M,Андрій Клімець,Open,B
 5,Maxym Oseledchenko,Single-ply,,1981,104.95,247.5,105,M,Максим Оселедченко,Open,B,247.5
 6,Igor Petorin,Single-ply,,1976,104,237.5,105,M,Ігор Петьорін,Open,B,237.5
 7,Oleksandr Dudchenko,Single-ply,,1990,101.85,220,105,M,Олександр Дудченко,Open,B,220
-8,Sergiy Kharchenko,Single-ply,,1988,104.1,220,105,M,Сергей Харченко,Open,B,220
+8,Sergiy Kharchenko #1,Single-ply,,1988,104.1,220,105,M,Сергій Харченко,Open,B,220
 9,Andriy Semenkov,Single-ply,,1989,104.05,215,105,M,Андрій Семенков,Open,B,215
 10,Taras Fedorchak,Single-ply,,1981,103.15,205,105,M,Тарас Федорчак,Open,B,205
 1,Yuriy Kovalchuk,Single-ply,,1979,119.65,300.5,120,M,Юрій Ковальчук,Open,B,300.5
-2,Valeriy Beginin,Single-ply,,1979,117.55,290,120,M,Валерий Бегинин,Open,B,290
+2,Valeriy Beginin,Single-ply,,1979,117.55,290,120,M,Валерій Бегінін,Open,B,290
 3,Andriy Krasilov,Single-ply,,1979,114,287.5,120,M,Андрій Красілов,Open,B,287.5
 4,Mykola Koltakov,Single-ply,1983-05-13,1983,119.15,287.5,120,M,Микола Колтаков,Open,B,287.5
 5,Oleksandr Teteruk,Single-ply,,1983,118.65,275,120,M,Олександр Тетерук,Open,B,275

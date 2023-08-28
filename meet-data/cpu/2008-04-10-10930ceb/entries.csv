@@ -51,7 +51,7 @@ SBD,M,Alex Mardell,,AB,124.5,125,Open,327.5,287.5,290,905,Single-ply,1
 SBD,M,Tim Ekert,,ON,108.5,110,Open,235,192.5,230,657.5,Single-ply,12
 SBD,M,Steven Halladay,,SK,109.4,110,Open,280,210,260,750,Single-ply,6
 SBD,M,Stephen McKenzie,,ON,105.2,110,Open,327.5,227.5,320,875,Single-ply,2
-SBD,M,Mike Johnson,,NS,107,110,Open,297.5,210,320,827.5,Single-ply,4
+SBD,M,Mike Johnson #7,,NS,107,110,Open,297.5,210,320,827.5,Single-ply,4
 SBD,M,Luke Skaarup,,ON,108.7,110,Open,270,195,255,720,Single-ply,8
 SBD,M,Luke Pike,,NL,108.4,110,Open,277.5,165,275,717.5,Single-ply,9
 SBD,M,John MacDonald #1,,PE,109.5,110,Open,325,225,300,850,Single-ply,3
@@ -59,7 +59,7 @@ SBD,M,Jamie Emberley,,ON,109.8,110,Open,340,245,322.5,907.5,Single-ply,1
 SBD,M,François Gagné,,QC,108.7,110,Open,260,200,240,700,Single-ply,10
 SBD,M,Brian George,,NL,108.3,110,Open,295,205,275,775,Single-ply,5
 SBD,M,Brandon Ward,,ON,106.8,110,Open,255,215,270,740,Single-ply,7
-SBD,M,Alex McNeil #1,,AB,108.5,110,Open,255,177.5,265,697.5,Single-ply,11
+SBD,M,Alex McNeil,,AB,108.5,110,Open,255,177.5,265,697.5,Single-ply,11
 SBD,M,Steve Powell,,MB,97.2,100,Open,295,215,310,820,Single-ply,3
 SBD,M,Pete Vickery,,NS,99.9,100,Open,245,177.5,262.5,685,Single-ply,5
 SBD,M,Joe Oliveira,,BC,97.4,100,Open,285,187.5,270,742.5,Single-ply,4
@@ -100,12 +100,12 @@ SBD,M,Jeff Becker,,ON,88.8,90,Masters 1,315,202.5,300,817.5,Single-ply,1
 SBD,M,Greg Platsko,,ON,89.8,90,Masters 1,182.5,150,230,562.5,Single-ply,5
 SBD,M,Eric Gagnon,,ON,89.8,90,Masters 1,320,190,290,800,Single-ply,2
 SBD,M,David Pigozzo,,ON,89.6,90,Masters 1,230,152.5,257.5,640,Single-ply,3
-SBD,M,Chris Arnold,,SK,87.7,90,Masters 1,215,145,255,615,Single-ply,4
+SBD,M,Chris Arnold #3,,SK,87.7,90,Masters 1,215,145,255,615,Single-ply,4
 SBD,M,Van Downey,,NL,82.4,82.5,Masters 1,255,180,267,702,Single-ply,3
 SBD,M,Rémi Fortier,,QC,79.9,82.5,Masters 1,272.5,190,260,722.5,Single-ply,1
 SBD,M,Claude Dallaire,,QC,81.6,82.5,Masters 1,250,155,312.5,717.5,Single-ply,2
 SBD,M,Andrew Bryant,,BC,79.2,82.5,Masters 1,225,155,210,590,Single-ply,4
-SBD,M,Richard Marshall,,BC,74.9,75,Masters 1,235,170,245,650,Single-ply,1
+SBD,M,Rick Marshall #1,,BC,74.9,75,Masters 1,235,170,245,650,Single-ply,1
 SBD,F,Karen Allison,,ON,73.4,75,Masters 1,120,75,130,325,Single-ply,1
 SBD,F,Jackie Pritchard,,ON,67.5,67.5,Masters 1,137.5,80,155,372.5,Single-ply,1
 SBD,M,Bryan Brothers,,BC,67.5,67.5,Masters 1,200,102.5,217.5,520,Single-ply,1

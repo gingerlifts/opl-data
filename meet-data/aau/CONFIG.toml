@@ -1,5 +1,8 @@
 # Configuration for the AAU.
 
+[options]
+    require_manual_disambiguation = true
+
 [divisions]
     open = {name ="Open",min=0,max=999}
     y = {name ="Y",min=5,max=12}
@@ -13,6 +16,7 @@
     t14_15 = {name ="T 14-15",min=14,max=15}
     t16_17 = {name ="T 16-17",min=16,max=17}
     t18_19 = {name ="T 18-19",min=18,max=19}
+    t13_19 = {name ="T 13-19",min=13,max=19}
     hs14_15 = {name ="HS 14-15",min=14,max=15}
     hs16_17 = {name ="HS 16-17",min=16,max=17}
     hs18_19 = {name ="HS 18-19",min=18,max=19}
@@ -30,6 +34,12 @@
     m8589 = {name ="M 85-89",min=85,max=89}
     m9094 = {name ="M 90-94",min=90,max=94}
     m9599 = {name ="M 95-99",min=95,max=99}
+    coll = {name ="Coll",min=0,max=999} # Collegiate
+    m40p = {name ="M 40+",min=40,max=999}
+    m4049 = {name ="M 40-49",min=40,max=49}
+    m5059 = {name ="M 50-59",min=50,max=59}
+    m6069 = {name ="M 60-69",min=60,max=69}
+    m7079 = {name ="M 70-79",min=70,max=79}
 
     #Raw
     ropen = {name ="R Open",min=0,max=999,equipment="Raw"}
@@ -46,6 +56,7 @@
     rhs14_15 = {name ="RHS 14-15",min=14,max=15,equipment="Raw"}
     rhs16_17 = {name ="RHS 16-17",min=16,max=17,equipment="Raw"}
     rhs18_19 = {name ="RHS 18-19",min=18,max=19,equipment="Raw"}
+    rt13_19 = {name ="RT 13-19",min=13,max=19,equipment="Raw"}
     rjr = {name ="R JR",min=20,max=23,equipment="Raw"}
     rsub = {name ="R Sub",min=35,max=39,equipment="Raw"}
     rm4044 = {name ="RM 40-44",min=40,max=44,equipment="Raw"}
@@ -60,8 +71,11 @@
     rm8589 = {name ="RM 85-89",min=85,max=89,equipment="Raw"}
     rm9094 = {name ="RM 90-94",min=90,max=94,equipment="Raw"}
     rm9599 = {name ="RM 95-99",min=95,max=99,equipment="Raw"}
+    rcoll = {name ="R Coll",min=0,max=999,equipment="Raw"} # Collegiate
+
 
     #Lifetime
+    ljr = {name ="L JR",min=20,max=23}
     lsub = {name ="L Sub",min=35,max=39}
     lm4044 = {name ="LM 40-44",min=40,max=44}
     lm4549 = {name ="LM 45-49",min=45,max=49}
@@ -77,7 +91,8 @@
     lm9599 = {name ="LM 95-99",min=95,max=99}
 
     #Raw Lifetime
-    rlsub = {name ="RL Sub",min=35,max=39}
+    rljr = {name ="RL JR",min=20,max=23,equipment="Raw"}
+    rlsub = {name ="RL Sub",min=35,max=39,equipment="Raw"}
     rlm4044 = {name ="RLM 40-44",min=40,max=44,equipment="Raw"}
     rlm4549 = {name ="RLM 45-49",min=45,max=49,equipment="Raw"}
     rlm5054 = {name ="RLM 50-54",min=50,max=54,equipment="Raw"}
@@ -93,6 +108,7 @@
 
     # Law/Mil
     law_mil = {name ="Law/Mil",min=0,max=999}
+    law_mil_jr = {name ="Law/Mil JR",min=20,max=23}
     law_mil_sub = {name ="Law/Mil Sub",min=35,max=39}
     law_mil4044 = {name ="Law/Mil 40-44",min=40,max=44}
     law_mil4549 = {name ="Law/Mil 45-49",min=45,max=49}
@@ -109,6 +125,7 @@
 
     # Raw Law/Mil
     rlaw_mil = {name ="R Law/Mil",min=0,max=999,equipment="Raw"}
+    rlaw_mil_jr = {name ="R Law/Mil JR",min=20,max=23,equipment="Raw"}
     rlaw_mil_sub = {name ="R Law/Mil Sub",min=35,max=39,equipment="Raw"}
     rlaw_mil4044 = {name ="R Law/Mil 40-44",min=40,max=44,equipment="Raw"}
     rlaw_mil4549 = {name ="R Law/Mil 45-49",min=45,max=49,equipment="Raw"}
@@ -123,20 +140,55 @@
     rlaw_mil9094 = {name ="R Law/Mil 90-94",min=90,max=94,equipment="Raw"}
     rlaw_mil9599 = {name ="R Law/Mil 95-99",min=95,max=99,equipment="Raw"}
 
+    # Law/Fire
+    law_fire = {name ="Law/Fire",min=0,max=999}
+    law_fire4044 = {name ="Law/Fire 40-44",min=40,max=44}
+    law_fire4549 = {name ="Law/Fire 45-49",min=45,max=49}
+    law_fire5559 = {name ="Law/Fire 55-59",min=55,max=59}
+
+    rlaw_fire = {name ="R Law/Fire",min=0,max=999,equipment="Raw"}
+    rlaw_fire4044 = {name ="R Law/Fire 40-44",min=40,max=44,equipment="Raw"}
+    rlaw_fire6064 = {name ="R Law/Fire 60-64",min=60,max=64,equipment="Raw"}
+
+
+    # Law/Fire/Mil
+    law_fire_mil = {name ="Law/Fire/Mil",min=0,max=999}
+    law_fire_mil_jr = {name ="Law/Fire/Mil JR",min=20,max=23}
+    law_fire_mil_sub = {name ="Law/Fire/Mil Sub",min=35,max=39}
+    law_fire_mil_4044 = {name ="Law/Fire/Mil 40-44",min=40,max=44}
+    law_fire_mil_4549 = {name ="Law/Fire/Mil 45-49",min=45,max=49}
+    law_fire_mil_5054 = {name ="Law/Fire/Mil 50-54",min=50,max=54}
+    law_fire_mil_5559 = {name ="Law/Fire/Mil 55-59",min=55,max=59}
+
+
+    rlaw_fire_mil = {name ="R Law/Fire/Mil",min=0,max=999,equipment="Raw"}
+    rlaw_fire_mil_jr = {name ="R Law/Fire/Mil JR",min=20,max=23,equipment="Raw"}
+    rlaw_fire_mil_sub = {name ="R Law/Fire/Mil Sub",min=35,max=39,equipment="Raw"}
+    rlaw_fire_mil_4044 = {name ="R Law/Fire/Mil 40-44",min=40,max=44,equipment="Raw"}
+    rlaw_fire_mil_4549 = {name ="R Law/Fire/Mil 45-49",min=45,max=49,equipment="Raw"}
+    rlaw_fire_mil_5054 = {name ="R Law/Fire/Mil 50-54",min=50,max=54,equipment="Raw"}
+    rlaw_fire_mil_5559 = {name ="R Law/Fire/Mil 55-59",min=55,max=59,equipment="Raw"}
+
     # Special Olympics
+    so = {name ="SO",min=0,max=999}
     rso = {name ="RSO",min=0,max=999,equipment="Raw"}
     rso_jr = {name ="RSO Jr",min=20,max=23,equipment="Raw"}
     rso_sub = {name ="RSO Sub",min=35,max=39,equipment="Raw"}
     rso_4044 = {name ="RSO 40-44",min=40,max=44,equipment="Raw"}
     rso_4549 = {name ="RSO 45-49",min=45,max=49,equipment="Raw"}
+    rso_5054 = {name ="RSO 50-54",min=50,max=54,equipment="Raw"}
 
     # Disabled
     rdisabled = {name ="R Disabled",min=0,max=999,equipment="Raw"}
     rdisabled_18_19 = {name ="R Disabled 18-19",min=18,max=19,equipment="Raw"}
     rdisabled_sub = {name ="R Disabled Sub",min=35,max=39,equipment="Raw"}
+    rdisabled_40_44 = {name ="R Disabled 40-44",min=40,max=44,equipment="Raw"}
+    rdisabled_50_54 = {name ="R Disabled 50-54",min=50,max=54,equipment="Raw"}
+
 
     llaw_mil = {name ="L Law/Mil",min=0,max=999}
     life = {name ="Life",min=0,max=999}
+    life_sub = {name ="Life Sub",min=35,max=39}
     rlife = {name ="R Life",min=0,max=999,equipment="Raw"}
     disabled = {name ="Disabled",min=0,max=999}
 
@@ -144,9 +196,25 @@
     rnovice = {name ="R Novice",min=0,max=999,equipment="Raw"}
     blind = {name ="Blind",min=0,max=999}
 
+    # Not cool AAU.
+    ry4_5 = {name ="RY 4-5",min=4,max=5,equipment="Raw"}
+
+    ry9_10 = {name ="RY 9-10",min=9,max=10,equipment="Raw"}
+
+
+    # Adaptive, I think this is just their disabled divisions renamed
+    adaptive = {name ="Adaptive Open",min=0,max=999,equipment="Raw"}
+    adaptive_14_15 = {name ="Adaptive 14-15",min=14,max=15,equipment="Raw"}
+    adaptive_16_17 = {name ="Adaptive 16-17",min=16,max=17,equipment="Raw"}
+    adaptive_18_19 = {name ="Adaptive 18-19",min=18,max=19,equipment="Raw"}
+    adaptive_JR = {name ="Adaptive JR",min=20,max=23,equipment="Raw"}
+    adaptive_sub = {name ="Adaptive Sub",min=35,max=39,equipment="Raw"}
+    adaptive_40_44 = {name ="Adaptive 40-44",min=40,max=44,equipment="Raw"}
+    adaptive_50_54 = {name ="Adaptive 50-54",min=50,max=54,equipment="Raw"}
+
 [weightclasses.default_M]
     classes = ["52","56","60","67.5","75","82.5","90","100","110","125","140","140+"]
-    date_range = ["2007-01-01","9999-01-01"]
+    date_range = ["2005-01-01","9999-01-01"]
     sex = "M"
 
 [weightclasses.default_F]
@@ -157,7 +225,7 @@
 #Don't know when the weightclasses were changed, but it was before 2009
 [weightclasses.old_M]
     classes = ["52","56","60","67.5","75","82.5","90","100","110","125","145","145+"]
-    date_range = ["0000-01-01","2006-12-31"]
+    date_range = ["0000-01-01","2004-12-31"]
     sex = "M"
 
 [weightclasses.old_F]
@@ -166,21 +234,55 @@
     sex = "F"
 
 [weightclasses.youth_M]
-    classes = ["30","35","40","44","48","52","56","60","67.5","75","82.5","90","100","110","125","140","145","140+","145+"]
-    date_range = ["0000-01-01","9999-01-01"]
+    classes = ["30","35","40","44","48","52","56","60","67.5","75","82.5","90","100","110","125","140","140+"]
+    date_range = ["2005-01-01","9999-01-01"]
     sex = "M"
     divisions = ["Y","RY","Y 5","RY 5","Y 6-7","RY 6-7","Y 7-8","Y 8-9","Y 9-10","RY 8-9","Y 10-11","RY 10-11","T 12-13", "RT 12-13", "T 14-15", "RT 14-15", "T 16-17", "RT 16-17", "T 18-19","RT 18-19"]
+
+[weightclasses.old_youth_M]
+    classes = ["30","35","40","44","48","52","56","60","67.5","75","82.5","90","100","110","125","145","145+"]
+    date_range = ["0000-01-01","2004-12-31"]
+    sex = "M"
+    divisions = ["Y","RY","Y 5","RY 5","Y 6-7","RY 6-7","Y 7-8","Y 8-9","Y 9-10","RY 8-9","Y 10-11","RY 10-11","T 12-13", "RT 12-13", "T 14-15", "RT 14-15", "T 16-17", "RT 16-17", "T 18-19","RT 18-19","RY 4-5"]
+
 
 [weightclasses.youth_F]
     classes = ["30","35","40","44","48","52","56","60","67.5","75","82.5","90","100","90+","100+"]
     date_range = ["0000-01-01","9999-01-01"]
     sex = "F"
-    divisions = ["Y","RY","Y 5","RY 5","Y 6-7","RY 6-7","Y 7-8","Y 8-9","RY 8-9","Y 9-10","Y 10-11","RY 10-11","T 12-13", "RT 12-13", "T 14-15", "RT 14-15", "T 16-17", "RT 16-17", "T 18-19","RT 18-19"]
+    divisions = ["Y","RY","Y 5","RY 5","Y 6-7","RY 6-7","Y 7-8","Y 8-9","RY 8-9","Y 9-10","Y 10-11","RY 10-11","T 12-13", "RT 12-13", "T 14-15", "RT 14-15", "T 16-17", "RT 16-17", "T 18-19","RT 18-19", "RY 9-10"]
 
 [exemptions]
     6401 = ["ExemptWeightClassConsistency"]
+    7801 = ["ExemptWeightClassConsistency"] # Old weight classes
+    7802 = ["ExemptWeightClassConsistency"] # Old weight classes
+    8201 = ["ExemptWeightClassConsistency"] # No weight classes, just Schwartz formula.
     0001 = ["ExemptWeightClassConsistency"]
+    0206 = ["ExemptWeightClassConsistency"] # T 14-15 in 44 class
+    0207 = ["ExemptWeightClassConsistency"] # Junior Olympics
+    0304 = ["ExemptWeightClassConsistency"] # Women in 110
+    0307 = ["ExemptAge"] # They decided to let a 4 year old compete...
+    0311 = ["ExemptWeightClassConsistency"] # Guests missing weight classes
+    0312 = ["ExemptWeightClassConsistency"] # Youth missing weight class
+    0313 = ["ExemptWeightClassConsistency"] # 140+ class
     0402 = ["ExemptWeightClassConsistency"]
+    0406 = ["ExemptWeightClassConsistency"] # 140+ class
+    0407 = ["ExemptWeightClassConsistency"] # 140+ class
+    0408 = ["ExemptWeightClassConsistency"] # 140+ class
+    0409 = ["ExemptWeightClassConsistency"] # 140+ class
+    0410 = ["ExemptWeightClassConsistency"] # 140+ class
+    0412 = ["ExemptWeightClassConsistency"] # 125+ class
+    0413 = ["ExemptWeightClassConsistency"] # 140+ class
+    0417 = ["ExemptWeightClassConsistency"] # 140+ class
+    0418 = ["ExemptWeightClassConsistency"] # 140+ class
+    0419 = ["ExemptWeightClassConsistency"] # 140+ class
+    0420 = ["ExemptWeightClassConsistency"] # 140+ class
+    0421 = ["ExemptWeightClassConsistency"] # 140+ class
+    0423 = ["ExemptWeightClassConsistency"] # 140+ class
+    0707 = ["ExemptWeightClassConsistency"] # 90+ Class
+    0709 = ["ExemptWeightClassConsistency"] # 90+ Class
+    0701 = ["ExemptWeightClassConsistency"] # Uses 90+
+    0710 = ["ExemptWeightClassConsistency"] # Uses 90+
+    0804 = ["ExemptWeightClassConsistency"] # Uses 90+
     1705 = ["ExemptWeightClassConsistency"]
     1901 = ["ExemptWeightClassConsistency"] # One lifter is missing weight info.
-    0701 = ["ExemptWeightClassConsistency"] # Uses 90+

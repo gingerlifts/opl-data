@@ -2,7 +2,7 @@ Place,Name,Division,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,Total
 1,Nikolay Pankratov,Open,54.15,107.5,70,137.5,315,59,M,Николай Панкратов,1993,SBD,Raw
 2,Aleksey Dmitriev,Open,58.75,82.5,75,120,277.5,59,M,Алексей Дмитриев,1988,SBD,Raw
 1,Vitaliy Golovin,Open,65.8,165,117.5,175,457.5,66,M,Виталий Головин,1981,SBD,Raw
-2,Yuriy Alekseev,Open,65.2,132.5,100,180,412.5,66,M,Юрий Алексеев,1995,SBD,Raw
+2,Yuriy Alekseev #2,Open,65.2,132.5,100,180,412.5,66,M,Юрий Алексеев,1995,SBD,Raw
 3,Evgeniy Akhmadeev,Open,65.3,140,92.5,180,412.5,66,M,Евгений Ахмадеев,1987,SBD,Raw
 4,Andrey Mushkin,Open,64.95,145,85,150,380,66,M,Андрей Мушкин,1990,SBD,Raw
 5,Andrey Pertsev,Open,62.85,122.5,100,145,367.5,66,M,Андрей Перцев,1984,SBD,Raw
@@ -17,7 +17,7 @@ DQ,Dmitriy Belyaev,Open,69.45,,,,,74,M,Дмитрий Беляев,1983,SBD,Raw
 3,Ivan Volkov,Open,79.7,165,137.5,202,504.5,83,M,Иван Волков,1987,SBD,Raw
 4,Andrey Okhotnikov,Open,81.75,170,135,200,505,83,M,Андрей Охотников,1986,SBD,Raw
 1,Eduard Korotkov,Open,91.7,235,177.5,272.5,685,93,M,Эдуард Коротков,1978,SBD,Raw
-2,Denis Nikonov,Open,90.95,205,155,250,610,93,M,Денис Никонов,1981,SBD,Raw
+2,Denis Nikonov #2,Open,90.95,205,155,250,610,93,M,Денис Никонов,1981,SBD,Raw
 3,Aleksey Rubtsov,Open,86.15,195,150,230,575,93,M,Алексей Рубцов,1981,SBD,Raw
 4,Evgeniy Kasyanov,Open,92.2,172.5,142.5,210,525,93,M,Евгений Касьянов,1982,SBD,Raw
 5,Denis Gerasimov,Open,85.85,165,125,217.5,507.5,93,M,Денис Герасимов,1983,SBD,Raw
@@ -42,7 +42,7 @@ DQ,Dmitriy Belyaev,Open,69.45,,,,,74,M,Дмитрий Беляев,1983,SBD,Raw
 1,Ilya Chepakov,Sub-Juniors,66,185,115,200,500,66,M,Илья Чепаков,2001,SBD,Single-ply
 2,Nikita Selyunin,Sub-Juniors,60.2,75,40,85,200,66,M,Никита Селюнин,2002,SBD,Single-ply
 1,Evgeniy Gerasimov,Open,63.75,220,160,200,580,66,M,Евгений Герасимов,1992,SBD,Single-ply
-2,Aleksey Petukhov,Open,65.05,190,95,195,480,66,M,Алексей Петухов,1988,SBD,Single-ply
+2,Aleksey Petukhov #1,Open,65.05,190,95,195,480,66,M,Алексей Петухов,1988,SBD,Single-ply
 3,Aleksey Silin,Open,64.7,155,85,175,415,66,M,Алексей Силин,1989,SBD,Single-ply
 1,Leonid Borodin,Sub-Juniors,72.3,155,75,155,385,74,M,Леонид Бородин,2001,SBD,Single-ply
 2,Dmitriy Sorokin,Sub-Juniors,70.1,105,82.5,150,337.5,74,M,Дмитрий Сорокин,2000,SBD,Single-ply
@@ -94,7 +94,7 @@ DQ,Ilya Andreev,Sub-Juniors,85.45,,,,,93,M,Илья Андреев,2000,SBD,Sing
 3,Olga Antonova,Open,55.9,70,40,90,200,57,F,Ольга Антонова,1994,SBD,Single-ply
 4,Darya Kuznetsova,Open,55.3,70,40,80,190,57,F,Дарья Кузнецова,2000,SBD,Single-ply
 5,Lyubov Suevalova,Open,55.2,70,35,75,180,57,F,Любовь Суевалова,1982,SBD,Single-ply
-6,Anastasiya Semenova,Open,54.25,57.5,40,60,157.5,57,F,Анастасия Семенова,1999,SBD,Single-ply
+6,Anastasiya Semenova #4,Open,54.25,57.5,40,60,157.5,57,F,Анастасия Семенова,1999,SBD,Single-ply
 1,Anna Nechaeva,Open,61.3,87.5,57.5,112.5,257.5,63,F,Анна Нечаева,1996,SBD,Single-ply
 2,Snezhana Alekseeva,Open,61.2,87.5,55,110,252.5,63,F,Снежана Алексеева,1983,SBD,Single-ply
 3,Tatyana Antonova,Open,59.25,85,47.5,80,212.5,63,F,Татьяна Антонова,1991,SBD,Single-ply

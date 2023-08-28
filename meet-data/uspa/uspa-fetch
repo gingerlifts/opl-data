@@ -150,6 +150,11 @@ def getknownmeets():
     for name in os.listdir(os.getcwd()):
         if name.isdigit():
             meets.append(name)
+
+    # Also check out the IGNORE file.
+    for line in open("IGNORE").readlines():
+        meets.append(line.strip())
+
     return meets
 
 
@@ -274,8 +279,8 @@ def main():
     remote = getunknownmeets(meets, known)
 
     for meet in remote:
-        print(' Fetching %s' % meet.num)
-        downloadpdf(meet)
+        print(' Fetching %s: %s' % (meet.num, meet.name))
+        # downloadpdf(meet)
         writemeetcsv(meet)
 
     if len(remote) == 0:

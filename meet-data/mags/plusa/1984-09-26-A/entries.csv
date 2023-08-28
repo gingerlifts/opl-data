@@ -20,7 +20,7 @@ Michael Brown #1,90,Open,M,237.5,152.5,257.5,647.5,SBD,Single-ply,3
 Chuck Denny,90,Open,M,195,137.5,275,607.5,SBD,Single-ply,4
 Aaron Seeds,90,Open,M,220,152.5,207.5,580,SBD,Single-ply,5
 Chris Taylor #12,90,Open,M,190,137.5,227.5,555,SBD,Single-ply,6
-John Black,100,Open,M,330,195,325,850,SBD,Single-ply,1
+John Black #1,100,Open,M,330,195,325,850,SBD,Single-ply,1
 Louie Simmons,100,Open,M,310,205,250,765,SBD,Single-ply,2
 Earl Snider,100,Open,M,260,177.5,320,757.5,SBD,Single-ply,3
 John Silvey,100,Open,M,272.5,187.5,262.5,722.5,SBD,Single-ply,4
@@ -59,7 +59,7 @@ Bill Keefover,82.5,Below Class II,M,250,137.5,220,607.5,SBD,Single-ply,1
 Tom Waggoner,82.5,Below Class II,M,197.5,142.5,227.5,567.5,SBD,Single-ply,2
 Dave Skinner,82.5,Below Class II,M,215,137.5,210,562.5,SBD,Single-ply,3
 Curt Joseph,82.5,Below Class II,M,192.5,130,217.5,540,SBD,Single-ply,4
-Jim Bennett,82.5,Below Class II,M,182.5,102.5,227.5,512.5,SBD,Single-ply,5
+Jim Bennett #3,82.5,Below Class II,M,182.5,102.5,227.5,512.5,SBD,Single-ply,5
 Steve Schiefer,82.5,Below Class II,M,160,110,212.5,482.5,SBD,Single-ply,6
 Rocky Roach,82.5,Below Class II,M,170,115,195,480,SBD,Single-ply,7
 Jim Miller,82.5,Below Class II,M,172.5,120,185,477.5,SBD,Single-ply,8
@@ -77,7 +77,7 @@ Paul Rowand,100,Below Class II,M,272.5,187.5,255,715,SBD,Single-ply,2
 Jim Lash,100,Below Class II,M,272.5,157.5,260,690,SBD,Single-ply,3
 Greg Estepp,100,Below Class II,M,205,135,272.5,612.5,SBD,Single-ply,4
 Stacy Barber,100,Below Class II,M,162.5,145,200,507.5,SBD,Single-ply,5
-Joseph Watts,100,Below Class II,M,145,80,160,385,SBD,Single-ply,6
+Joseph Watts #2,100,Below Class II,M,145,80,160,385,SBD,Single-ply,6
 Thomas Jones,110,Below Class II,M,277.5,145,277.5,700,SBD,Single-ply,1
 Paul Durham,110,Below Class II,M,237.5,145,227.5,610,SBD,Single-ply,2
 William Jones #7,110,Below Class II,M,235,142.5,,,SBD,Single-ply,DQ
@@ -91,5 +91,5 @@ Tina Taylor,,Open,F,125,65,145,335,SBD,Single-ply,2
 Beverly Wallace,56,Open,F,105,47.5,130,282.5,SBD,Single-ply,3
 Opal Yost,52,Open,F,92.5,52.5,102.5,247.5,SBD,Single-ply,4
 Dawn Kelly,52,Open,F,85,47.5,100,232.5,SBD,Single-ply,5
-Sharon Ward,56,Open,F,82.5,52.5,105,240,SBD,Single-ply,6
+Sharon Ward #2,56,Open,F,82.5,52.5,105,240,SBD,Single-ply,6
 Terri Holstein,56,Open,F,75,37.5,107.5,220,SBD,Single-ply,7

@@ -62,7 +62,7 @@ DQ,Igor Finogin,1977,82.4,-190,-190,-190,,,82.5,M,Игорь Финогин,B,,S
 4,Sergei Maximov,1961,98.85,-222.5,222.5,-230,222.5,,100,M,Сергей Максимов,B,222.5,Single-ply,Open
 5,Aleksey Ryzhov,1974,93.8,-220,220,-230,220,,100,M,Алексей Рыжов,B,220,Single-ply,Open
 6,Pavel Badyrov,1964,98.8,-210,210,220,220,,100,M,Павел Бадыров,B,220,Single-ply,Open
-4,Valeriy Kuznetsov,1952,94.5,205,215,-220,215,,100,M,Валерій Кузнєцов,B,215,Single-ply,Open
+4,Valeriy Kuznetsov #4,1952,94.5,205,215,-220,215,,100,M,Валерий Кузнецов,B,215,Single-ply,Open
 8,Dmitriy Likharev,1972,95.5,210,215,-220,215,,100,M,Дмитрий Лихарев,B,215,Single-ply,Open
 9,Dmitriy Grachev,1972,98.5,205,212.5,-217.5,212.5,,100,M,Дмитрий Грачев,B,212.5,Single-ply,Open
 10,Igor Khakimov,1968,98.95,200,210,-220,210,,100,M,Игорь Хакимов,B,210,Single-ply,Open
@@ -87,7 +87,7 @@ DQ,Aleksey Norkin,1966,100,-185,-185,-185,,,100,M,Алексей Норкин,B,
 3,Andrey Galtsov,1965,121.2,220,230,-235,230,,125,M,Андрей Гальцов,B,230,Single-ply,Open
 4,Evgeniy Arkhipov,1972,123.6,210,220,222.5,222.5,,125,M,Евгений Архипов,B,222.5,Single-ply,Open
 5,Denis Lvov,1978,116.5,200,215,-220,215,,125,M,Денис Львов,B,215,Single-ply,Open
-6,Yury Ivanov,1964,117,202.5,,-212.5,202.5,,125,M,Юрий Иванов,B,202.5,Single-ply,Open
+6,Yuriy Ivanov #1,1964,117,202.5,,-212.5,202.5,,125,M,Юрий Иванов,B,202.5,Single-ply,Open
 7,Aleksey Krivosheya,1975,116,187.5,197.5,-202.5,197.5,,125,M,Алексей Кривошея,B,197.5,Single-ply,Open
 8,Vyacheslav Lebedev,1972,120.3,195,-200,-200,195,,125,M,Вячеслав Лебедев,B,195,Single-ply,Open
 9,Mikhail Kuzmin,1962,121.5,180,195,-205,195,,125,M,Михаил Кузьмин,B,195,Single-ply,Open
@@ -131,9 +131,9 @@ DQ,Evgeniy Timofeev,1971,138.8,-240,-240,-240,,,125+,M,Евгений Тимоф
 3,Marina Perfilova,1977,68.1,85,90,-95,90,,75,F,Марина Перфилова,B,90,Single-ply,Open
 4,Yuliya Gravit,1974,73.25,70,-77.5,-77.5,70,,75,F,Юлия Гравит,B,70,Single-ply,Open
 1,Svetlana Paltseva,1969,82.4,112.5,120,-125,120,,82.5,F,Светлана Пальцева,B,120,Single-ply,Open
-2,Yuliya Matveeva,1981,75.8,60,65,-67.5,65,,82.5,F,Юлия Матвеева,B,65,Single-ply,Open
+2,Yuliya Matveeva #1,1981,75.8,60,65,-67.5,65,,82.5,F,Юлия Матвеева,B,65,Single-ply,Open
 3,Elena Shirokova,1975,82,37.5,42.5,-45,42.5,,82.5,F,Елена Широкова,B,42.5,Single-ply,Open
 1,Natalya Zotova-Payusova,1975,86.5,145,155,160,160,,90,F,Наталья Зотова-Паюсова,B,160,Single-ply,Open
-2,Inna Smirnova,1955,88.25,100,107.5,115,115,,90,F,Инна Смирнова,B,115,Single-ply,Open
+2,Inna Smirnova #1,1955,88.25,100,107.5,115,115,,90,F,Инна Смирнова,B,115,Single-ply,Open
 1,Elena Kashirina,1962,91,95,102.5,107.5,107.5,,90+,F,Елена Каширина,B,107.5,Single-ply,Open
 2,Natalya Kuznetsova,1978,100.1,80,85,-90,85,,90+,F,Наталья Кузнецова,B,85,Single-ply,Open

@@ -1,8 +1,8 @@
 Name,WeightClassKg,Division,Sex,BodyweightKg,Best3BenchKg,TotalKg,Event,Equipment,Place
 Larry Howe,52,Open,M,,90.72,90.72,B,Raw,1
 D. Timm,52,Open,M,,88.45,88.45,B,Raw,2
-C. Hamilton,52,Open,M,,68.04,68.04,B,Raw,3
-Kelly Wilson,52,Open,F,49.49,52.16,52.16,B,Raw,4
+Chris Hamilton #1,52,Open,M,,68.04,68.04,B,Raw,3
+Kelly Wilson #3,52,Open,F,49.49,52.16,52.16,B,Raw,4
 M. Marinelli,52,Open,F,51.11,49.9,49.9,B,Raw,5
 C. White,52,Open,F,51.23,47.63,47.63,B,Raw,6
 M. Haneishi,52,Open,M,,,,B,Raw,DQ
@@ -26,7 +26,7 @@ M. Ward,75,Open,M,,156.49,156.49,B,Raw,4
 Steve LaMont,75,Open,M,,145.15,145.15,B,Raw,5
 W. Ludwick,75,Open,M,,49.9,49.9,B,Raw,10
 Greg Guthrie,75,Open,M,,140.61,140.61,B,Raw,6
-D. Rotheleau,75,Open,M,,136.08,136.08,B,Raw,7
+Don Rocheleau,75,Open,M,,136.08,136.08,B,Raw,7
 F. Hamilton,75,Open,M,,133.81,133.81,B,Raw,8
 James Wasson,75,Open,M,,108.86,108.86,B,Raw,9
 Fabian Wambsgans,75,Open,M,,,,B,Raw,DQ
@@ -68,15 +68,15 @@ Joe Krusinski,110,Open,M,,213.19,213.19,B,Raw,3
 Jim Kegle,110,Open,M,99.9,204.12,204.12,B,Raw,4
 Dick Bowers,110,Open,M,100.7,199.58,199.58,B,Raw,5
 Ralph Galvin,125,Open,M,118.39,242.67,242.67,B,Raw,1
-John Patterson,125,Open,M,,201.85,201.85,B,Raw,2
+John Patterson #1,125,Open,M,,201.85,201.85,B,Raw,2
 Samuel Shivers,125,Open,M,,170.1,170.1,B,Raw,3
 Stan Hathaway,125,Open,M,,170.1,170.1,B,Raw,4
 William Hoop,125,Open,M,,161.03,161.03,B,Raw,5
-G. Loosvell,125,Open,M,,151.95,151.95,B,Raw,6
+George Loosvelt,125,Open,M,,151.95,151.95,B,Raw,6
 Francho Drake,125,Open,M,,145.15,145.15,B,Raw,7
 Mike Baty,125+,Open,M,,192.78,192.78,B,Raw,1
-H. Walters,125+,Open,M,,188.24,188.24,B,Raw,2
+H. Walters #2,125+,Open,M,,188.24,188.24,B,Raw,2
 B. Dustman,125+,Open,M,,172.37,172.37,B,Raw,3
 G. Gudzinski,125+,Open,M,,167.83,167.83,B,Raw,4
-C. Copland,125+,Open,M,,167.83,167.83,B,Raw,5
+Chas Copland,125+,Open,M,,167.83,167.83,B,Raw,5
 J. Copland,125+,Open,M,,133.81,133.81,B,Raw,6

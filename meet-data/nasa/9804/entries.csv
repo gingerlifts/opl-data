@@ -54,7 +54,7 @@ WeightClassKg,Division,Sex,Place,Name,State,BodyweightKg,Best3SquatKg,Best3Bench
 93,mp,M,2,Ernest Rodriguez,TN,91.85,245,147.5,237.5,630,SBD,Single-ply
 93,mp,M,3,Don Anthony,KS,91.9,227.5,110,237.5,575,SBD,Single-ply
 93,mp,M,4,Steve Westrich,TN,91.94,182.5,127.5,200,510,SBD,Single-ply
-103,mp,M,1,Stephen Johnson,TX,102.29,200,172.5,242.5,615,SBD,Single-ply
+103,mp,M,1,Stephen Johnson #5,TX,102.29,200,172.5,242.5,615,SBD,Single-ply
 103,mp,M,2,James Wilde,KS,102.69,202.5,112.5,245,560,SBD,Single-ply
 113.5,mp,M,1,Greg Barnett,KS,110.4,245,157.5,227.5,630,SBD,Single-ply
 113.5,mp,M,2,John Rodriguez,AZ,109.13,227.5,127.5,227.5,582.5,SBD,Single-ply
@@ -89,7 +89,7 @@ WeightClassKg,Division,Sex,Place,Name,State,BodyweightKg,Best3SquatKg,Best3Bench
 103,pure,M,1,Joseph Robinson,WY,100.83,217.5,172.5,250,640,SBD,Single-ply
 103,pure,M,2,Cecil Ballard,TX,99.88,215,167.5,252.5,635,SBD,Single-ply
 103,pure,M,3,Tom Spall,TN,101.11,185,142.5,215,542.5,SBD,Single-ply
-103,pure,M,DQ,James Perry #4,MI,94.57,240,-145,,,SBD,Single-ply
+103,pure,M,DQ,James Perry II,MI,94.57,240,-145,,,SBD,Single-ply
 113.5,pure,M,1,Shay Fanning,TX,113.35,312.5,217.5,265,795,SBD,Single-ply
 113.5,pure,M,2,Travis Dunlap,TN,111.72,290,167.5,302.5,760,SBD,Single-ply
 113.5,pure,M,3,Karl Deutsch,AZ,109.86,250,185,272.5,707.5,SBD,Single-ply
@@ -122,7 +122,7 @@ WeightClassKg,Division,Sex,Place,Name,State,BodyweightKg,Best3SquatKg,Best3Bench
 93,sm1,M,2,Greg Titus,CA,91.76,285,195,270,750,SBD,Single-ply
 103,sm1,M,1,Peter Jackson,KS,102.87,285,195,312.5,792.5,SBD,Single-ply
 103,sm1,M,2,David Baldwin,IN,96.52,242.5,155,240,637.5,SBD,Single-ply
-103,sm1,M,DQ,James Perry #4,MI,94.57,240,-145,,,SBD,Single-ply
+103,sm1,M,DQ,James Perry II,MI,94.57,240,-145,,,SBD,Single-ply
 127,sm1,M,1,Mike Scheffler,TX,121.7,262.5,165,277.5,705,SBD,Single-ply
 143,sm1,M,1,Bubba Melton,TN,129.18,250,185,255,690,SBD,Single-ply
 143,sm1,M,2,Thomas Guiney,OK,141.38,235,155,272.5,662.5,SBD,Single-ply
@@ -156,7 +156,7 @@ WeightClassKg,Division,Sex,Place,Name,State,BodyweightKg,Best3SquatKg,Best3Bench
 46,whs,F,DQ,Mandy Upton,IL,45.77,87.5,-40,110,,SBD,Single-ply
 85,whs,F,1,Josalyn Whitehead,IL,83.42,77.5,37.5,100,215,SBD,Single-ply
 70,wint,F,DQ,Larina Jacobs,AZ,69.22,127.5,75,,,SBD,Single-ply
-50,wjr,F,1,Erin Maxwell,IL,49.4,87.5,47.5,125,260,SBD,Single-ply
+50,wjr,F,1,Erin Maxwell #1,IL,49.4,87.5,47.5,125,260,SBD,Single-ply
 70,wjr,F,1,Kassi Bandy,IL,69.85,95,42.5,120,257.5,SBD,Single-ply
 54,wm1,F,1,Deborah McNulty,AZ,52.16,132.5,70,142.5,345,SBD,Single-ply
 70,wm1,F,1,Sabrina Bagby,MO,65.86,127.5,65,127.5,320,SBD,Single-ply

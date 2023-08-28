@@ -25,7 +25,7 @@ DQ,Takayo Okamoto,1960,Japan,54.1,110,120,-125,120,65,70,-75,70,-117.5,-122.5,-1
 1,Jackie Blasbery,1963,UK,74.4,150,160,165,165,95,102.5,-105,102.5,170,182.5,190,190,457.5,75,Masters 1,SBD,F,Single-ply
 2,Laura Styrlund,1964,USA,73.6,142.5,152.5,160,160,107.5,110,115,115,170,-182.5,-182.5,170,445,75,Masters 1,SBD,F,Single-ply
 3,Susanne Steidle,1964,Germany,73.1,147.5,160,-170,160,95,100,102.5,102.5,160,170,175,175,437.5,75,Masters 1,SBD,F,Single-ply
-4,Donna Bryant,1959,USA,73,155,-167.5,167.5,167.5,82.5,87.5,-92.5,87.5,162.5,-172.5,-182.5,162.5,417.5,75,Masters 1,SBD,F,Single-ply
+4,Donna Bryant #1,1959,USA,73,155,-167.5,167.5,167.5,82.5,87.5,-92.5,87.5,162.5,-172.5,-182.5,162.5,417.5,75,Masters 1,SBD,F,Single-ply
 5,Ulrike Hofmann,1961,Germany,72.6,102.5,110,115,115,65,-70,72.5,72.5,110,120,130,130,317.5,75,Masters 1,SBD,F,Single-ply
 1,Malinda Baum,1963,USA,81,170,180,-185,180,100,-105,105,105,175,182.5,-187.5,182.5,467.5,82.5,Masters 1,SBD,F,Single-ply
 2,Rhonda Clark,1965,USA,75.1,152.5,162.5,170,170,85,-92.5,92.5,92.5,187.5,200,-205,200,462.5,82.5,Masters 1,SBD,F,Single-ply
@@ -96,7 +96,7 @@ DQ,Masahiro Irie,1964,Japan,59.6,170,180,185,185,-120,-120,-120,,170,180,185,185
 6,Pieriorgio Criscione,1961,Italy,82.3,232.5,-240,240,240,132.5,137.5,-142.5,137.5,252.5,265,-270,265,642.5,82.5,Masters 1,SBD,M,Single-ply
 7,Makoto Yamaguchi,1963,Japan,79.9,240,-250,-250,240,145,-150,-150,145,230,250,-252.5,250,635,82.5,Masters 1,SBD,M,Single-ply
 8,Seiji Harada,1961,Japan,81,205,210,215,215,160,-165,-172.5,160,240,250,-262.5,250,625,82.5,Masters 1,SBD,M,Single-ply
-9,Stephen King,1962,New Zealand,81.6,225,242.5,252.5,252.5,115,125,130,130,210,230,235,235,617.5,82.5,Masters 1,SBD,M,Single-ply
+9,Stephen King #1,1962,New Zealand,81.6,225,242.5,252.5,252.5,115,125,130,130,210,230,235,235,617.5,82.5,Masters 1,SBD,M,Single-ply
 10,Andrew Bryant,1966,Canada,80,210,220,230,230,-150,152.5,157.5,157.5,195,210,-220,210,597.5,82.5,Masters 1,SBD,M,Single-ply
 11,Petteri Hakkarainen,1967,Finland,82,200,-212.5,-212.5,200,145,152.5,-157.5,152.5,220,230,237.5,237.5,590,82.5,Masters 1,SBD,M,Single-ply
 12,Libor Novák,1966,Czechia,81.2,200,210,-215,210,145,150,155,155,215,222.5,-227.5,222.5,587.5,82.5,Masters 1,SBD,M,Single-ply
@@ -163,7 +163,7 @@ DQ,Daniel Gaudreau,1960,USA,157.4,-355,-355,-355,,-312.5,-312.5,-312.5,,-295,,,,
 1,Alexander Moiseev,1954,Belarus,59.2,-170,175,185,185,105,110,112.5,112.5,-182.5,182.5,205,205,502.5,60,Masters 2,SBD,M,Single-ply
 2,Masami Yoshida,1957,Japan,58.4,155,170,175,175,120,130,,130,180,190,195,195,500,60,Masters 2,SBD,M,Single-ply
 1,Adam Jasiński,1951,Poland,67.2,215,225,-235,225,120,127.5,-132.5,127.5,210,220,-225,220,572.5,67.5,Masters 2,SBD,M,Single-ply
-2,Miguel Castro Sr,1957,USA,66.1,155,182.5,-190,182.5,107.5,-122.5,-122.5,107.5,252.5,272.5,-282.5,272.5,562.5,67.5,Masters 2,SBD,M,Single-ply
+2,Miguel Castro #1,1957,USA,66.1,155,182.5,-190,182.5,107.5,-122.5,-122.5,107.5,252.5,272.5,-282.5,272.5,562.5,67.5,Masters 2,SBD,M,Single-ply
 3,John Myers,1956,Australia,67.4,195,-210,-210,195,117.5,122.5,125,125,240,-255,-255,240,560,67.5,Masters 2,SBD,M,Single-ply
 4,Alain Cuvelier,1953,France,66.6,-200,-200,200,200,115,-120,120,120,200,210,-222.5,210,530,67.5,Masters 2,SBD,M,Single-ply
 1,Jan Wilczyński,1955,Poland,74.7,250,-260,260,260,140,145,150,150,260,-275,282.5,282.5,692.5,75,Masters 2,SBD,M,Single-ply
@@ -220,7 +220,7 @@ DQ,Roger Hendrix,1955,USA,123.8,295,317.5,-320,317.5,197.5,-205,-205,197.5,-295,
 4,Shintaro Uchiyama,1947,Japan,66.6,170,-180,-180,170,-120,120,125,125,185,-195,-205,185,480,67.5,Masters 3,SBD,M,Single-ply
 5,Toru Magome,1943,Japan,67.5,-135,135,145,145,160,168.5,-172.5,168.5,125,135,145,145,458.5,67.5,Masters 3,SBD,M,Single-ply
 6,Jacques Beauverger,1946,France,66.4,147.5,-152.5,-152.5,147.5,87.5,-90,-90,87.5,187.5,-195,195,195,430,67.5,Masters 3,SBD,M,Single-ply
-7,Roger Powell,1936,UK,66.3,-120,120,130,130,60,70,80,80,155,165,180,180,390,67.5,Masters 3,SBD,M,Single-ply
+7,Roger Powell #1,1936,UK,66.3,-120,120,130,130,60,70,80,80,155,165,180,180,390,67.5,Masters 3,SBD,M,Single-ply
 8,Ulrich Mielich,1939,Germany,67.3,75,85,90,90,60,65,-67.5,65,120,130,135,135,290,67.5,Masters 3,SBD,M,Single-ply
 1,Toshihiko Sato,1940,Japan,75,215,232.5,240,240,135,-140,-140,135,220,235,-242.5,235,610,75,Masters 3,SBD,M,Single-ply
 2,Jacques Cisnal,1945,France,74.5,190,200,207.5,207.5,100,107.5,112.5,112.5,185,195,-200,195,515,75,Masters 3,SBD,M,Single-ply
@@ -248,7 +248,7 @@ DQ,Jan Pajak,1947,Poland,82.5,-180,190,-200,190,-130,-130,-130,,190,200,-205,200
 4,Kari Mattila,1945,Sweden,89.8,200,-215,215,215,130,-140,-140,130,245,-250,-257.5,245,590,90,Masters 3,SBD,M,Single-ply
 5,François Chazelle,1938,France,89,200,-220,-220,200,100,105,-110,105,230,245,250,250,555,90,Masters 3,SBD,M,Single-ply
 6,Felix Esterbauer,1936,New Zealand,89.5,145,160,165,165,95,-102.5,-102.5,95,200,-226,-226,200,460,90,Masters 3,SBD,M,Single-ply
-DQ,Ted Cooper,1937,UK,86.6,-180,-180,-180,,-125,-125,125,125,190,-210,-210,190,,90,Masters 3,SBD,M,Single-ply
+DQ,Ted Cooper #1,1937,UK,86.6,-180,-180,-180,,-125,-125,125,125,190,-210,-210,190,,90,Masters 3,SBD,M,Single-ply
 DQ,Steen Wissing,1945,Denmark,89.5,-210,-210,-210,,125,130,135,135,190,,,190,,90,Masters 3,SBD,M,Single-ply
 1,Christian Buchs,1947,France,97.1,270,290,,290,130,140,150,150,220,240,-250,240,680,100,Masters 3,SBD,M,Single-ply
 2,Hans Leeuwenhaag,1946,Netherlands,98.8,200,215,220,220,150,155,160,160,230,245,-252.5,245,625,100,Masters 3,SBD,M,Single-ply

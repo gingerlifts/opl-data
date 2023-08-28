@@ -1,7 +1,7 @@
 Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Division,Equipment,Bench4Kg,Event
 1,Dinh Ngo,CA,52,51.40,23,112.50,45.00,117.50,275.00,F,Juniors 20-23,Raw,,SBD
 2,Tiffani Tom,CA,52,51.40,22,112.50,45.00,115.00,272.50,F,Juniors 20-23,Raw,,SBD
-3,Tiffany Tran,CA,52,52.00,20,110.00,42.50,117.50,270.00,F,Juniors 20-23,Raw,,SBD
+3,Tiffany Tran #2,CA,52,52.00,20,110.00,42.50,117.50,270.00,F,Juniors 20-23,Raw,,SBD
 4,JasmineSolder,CA,52,51.20,22,75.00,37.50,105.00,217.50,F,Juniors 20-23,Raw,,SBD
 1,Jessy Howard,CA,67.5,65.60,20,120.00,65.00,150.00,335.00,F,Juniors 20-23,Raw,,SBD
 2,Aubrey Yip,CA,67.5,63.40,21,107.50,55.00,125.00,287.50,F,Juniors 20-23,Raw,,SBD
@@ -26,7 +26,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 2,Karl Kangleon,CA,67.5,64.60,23,177.50,115.00,217.50,510.00,M,Juniors 20-23,Raw,,SBD
 3,Mark Cambaliza,CA,67.5,65.30,23,150.00,107.50,215.00,472.50,M,Juniors 20-23,Raw,,SBD
 1,Zachary Yamamoto,CA,75,75.00,19,215.00,152.50,250.00,617.50,M,Juniors 18-19,Raw,,SBD
-2,Anthony Tran,CA,75,73.40,19,185.00,105.00,215.00,505.00,M,Juniors 18-19,Raw,,SBD
+2,Anthony Tran #3,CA,75,73.40,19,185.00,105.00,215.00,505.00,M,Juniors 18-19,Raw,,SBD
 1,Alex Nguyen,CA,75,73.90,22,200.00,132.50,237.50,570.00,M,Juniors 20-23,Raw,,SBD
 2,Allan Eslao,CA,75,71.30,22,202.50,107.50,217.50,527.50,M,Juniors 20-23,Raw,,SBD
 3,Belino Sunga,CA,75,73.40,23,150.00,105.00,220.00,475.00,M,Juniors 20-23,Raw,,SBD
@@ -101,7 +101,7 @@ DQ,Aaron Arruda,CA,110,107.50,28,-227.50,,,,M,Open,Wraps,,SBD
 1,Josiah Price,OR,56,55.00,51,125.00,97.50,150.00,372.50,M,Masters 50-54,Wraps,,SBD
 1,Antonio Jimenez,CA,90,84.30,41,215.50,60.00,205.00,480.50,M,Masters 40-44,Wraps,,SBD
 1,Shawn Buckley,CA,100,98.80,32,345.50,220.00,320.00,885.50,M,Open,Single-ply,,SBD
-DQ,Michael Gray,CA,140,134.70,32,215.00,-177.50,227.50,,M,Open,Single-ply,,SBD
+DQ,Michael Gray #2,CA,140,134.70,32,215.00,-177.50,227.50,,M,Open,Single-ply,,SBD
 1,Ravi Sharma,CA,52,50.70,19,,82.50,,82.50,M,Juniors 18-19,Raw,,B
 1,Daly Khay,CA,82.5,77.10,19,,127.50,,127.50,M,Juniors 18-19,Raw,130,B
 1,Gary Beerbower,CA,100,97.20,23,,177.50,,177.50,M,Juniors 20-23,Raw,,B

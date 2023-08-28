@@ -2,9 +2,9 @@ Name,Age,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,To
 Chris Penotti,,,Light,F,107.5,45,122.5,275,SBD,Single-ply,1
 S. Batiste,,,Heavy,F,117.5,65,150,332.5,SBD,Single-ply,1
 A. Combs,,,Heavy,F,77.5,50,90,217.5,SBD,Single-ply,2
-S. Shimko,,52,Open,M,112.5,87.5,142.5,342.5,SBD,Single-ply,1
-F. King,,56,Open,M,155,97.5,175,427.5,SBD,Single-ply,1
-J. Vernon,,60,Open,M,182.5,110,195,487.5,SBD,Single-ply,1
+Scott Shimko,,52,Open,M,112.5,87.5,142.5,342.5,SBD,Single-ply,1
+Fred King Jr,,56,Open,M,155,97.5,175,427.5,SBD,Single-ply,1
+Jerome Vernon,,60,Open,M,182.5,110,195,487.5,SBD,Single-ply,1
 Robert Rexroth,,60,Open,M,205,87.5,190,482.5,SBD,Single-ply,2
 I. Bengur,,60,Open,M,170,107.5,177.5,455,SBD,Single-ply,3
 D. Bragumier,,60,Open,M,142.5,97.5,157.5,397.5,SBD,Single-ply,4
@@ -21,7 +21,7 @@ D. Bragunier,,75,Open,M,192.5,130,172.5,495,SBD,Single-ply,7
 A. Pappas,,82.5,Open,M,220,145,215,580,SBD,Single-ply,1
 R. Gates,,82.5,Open,M,165,90,182.5,437.5,SBD,Single-ply,2
 G. Tazman,,90,Open,M,282.5,192.5,237.5,712.5,SBD,Single-ply,1
-M. Chapman,,90,Open,M,237.5,160,255,652.5,SBD,Single-ply,2
+M. Chapman #3,,90,Open,M,237.5,160,255,652.5,SBD,Single-ply,2
 Lee Anderson,,90,Open,M,217.5,135,265,617.5,SBD,Single-ply,3
 S. Tibbs,,90,Open,M,185,195,235,615,SBD,Single-ply,4
 M. Keshishiam,,90,Open,M,215,172.5,215,602.5,SBD,Single-ply,5
@@ -44,13 +44,13 @@ K. Kessel,,110,Open,M,250,180,250,680,SBD,Single-ply,6
 Fred Clary,19,125,Open,M,335,200,352.5,887.5,SBD,Single-ply,1
 C. Shiesser,,125,Open,M,322.5,215,275,812.5,SBD,Single-ply,2
 Larry Garro,,125,Open,M,310,200,302.5,812.5,SBD,Single-ply,3
-P. Brooks,,125,Open,M,327.5,210,272.5,810,SBD,Single-ply,4
+Pat Brooks #1,,125,Open,M,327.5,210,272.5,810,SBD,Single-ply,4
 Frank Baja,,125,Open,M,285,177.5,290,752.5,SBD,Single-ply,5
-J. Young,,125,Open,M,260,175,245,680,SBD,Single-ply,6
+John Young #2,,125,Open,M,260,175,245,680,SBD,Single-ply,6
 Victor Kennedy,,125+,Open,M,377.5,205,285,867.5,SBD,Single-ply,1
-F. Wrightson,,125+,Open,M,327.5,215,295,837.5,SBD,Single-ply,2
+Fred Wrightson,,125+,Open,M,327.5,215,295,837.5,SBD,Single-ply,2
 J. Czawlytko,,125+,Open,M,285,255,295,835,SBD,Single-ply,3
-K. Green,,125+,Open,M,282.5,152.5,245,680,SBD,Single-ply,4
+K. Green #2,,125+,Open,M,282.5,152.5,245,680,SBD,Single-ply,4
 Robert Rexroth,,60,Masters Light,M,205,87.5,190,482.5,SBD,Single-ply,1
 J. Bengers,,,Masters Light,M,170,107.5,177.5,455,SBD,Single-ply,2
 Robert Greenwald,,75,Masters Light,M,220,110,192.5,522.5,SBD,Single-ply,3

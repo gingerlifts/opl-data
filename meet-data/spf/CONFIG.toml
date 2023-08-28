@@ -1,5 +1,8 @@
 # Configuration for the SPF.
 
+[options]
+    require_manual_disambiguation = true
+
 [rulesets.default]
     ruleset = ["CombineRawAndWraps"]
     date_range = ["0000-01-01", "9999-01-01"]
@@ -23,6 +26,25 @@
     masters_75_79 = {name = "Masters 75-79", min = 75, max = 79}
     grandmaster   = {name = "Grand-Masters", min = 80, max = 999}
 
+    # OpenLifter-style.
+    t13_15 = {name = "T13-15", min=13, max=15}
+    t16_17 = {name = "T16-17", min=16, max=17}
+    t18_19 = {name = "T18-19", min=18, max=19}
+    j20_23 = {name = "J20-23", min=20, max=23}
+    s33_39 = {name = "S33-39", min=33, max=39}
+    m40_44 = {name = "M40-44", min=40, max=44}
+    m45_49 = {name = "M45-49", min=45, max=49}
+    m50_54 = {name = "M50-54", min=50, max=54}
+    m55_59 = {name = "M55-59", min=55, max=59}
+    m60_64 = {name = "M60-64", min=60, max=64}
+    m65_69 = {name = "M65-69", min=65, max=69}
+    m70_74 = {name = "M70-74", min=70, max=74}
+    m75_79 = {name = "M75-79", min=75, max=79}
+    m80_84 = {name = "M80-84", min=80, max=84}
+    m80p = {name = "M80+", min=80, max=999}
+    fpm = {name = "FPM", min=0, max=999} # Fire Police Military
+
+	adaptive = {name="Adaptive", min=0, max=999}
     police_fire = {name = "Police and Fire", min = 0, max = 999}
     special_olympics = {name = "Special Olympics", min = 0, max = 999}
     crossfit = {name = "Crossfit", min = 0, max = 999}
@@ -42,3 +64,4 @@
     1752 = ["ExemptWeightClassConsistency"]  # Reebok Record Breakers.
     1846 = ["ExemptWeightClassConsistency"]  # Slingshot Record Breakers.
     1946 = ["ExemptWeightClassConsistency"]  # Slingshot Record Breakers.
+    2135= ["ExemptWeightClassConsistency"]  # Missing bodyweight/weightclass data for some lifters.

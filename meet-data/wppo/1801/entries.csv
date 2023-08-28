@@ -9,7 +9,7 @@ Place,Country,Name,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg
 8,Japan,Kazuki Okuyama,48.62,103,-109,109,,109,M,49,Group A,B,Raw,109
 9,Saudi Arabia,Maysar Olaymi,45.53,104,-111,-111,,104,M,49,Group A,B,Raw,104
 DQ,Philippines,Romeo Tayawa,48.7,-115,-115,-115,,,M,49,Group A,B,Raw,
-NS,Vietnam,Van Cong Le,47.96,,,,,,M,49,Group A,B,Raw,
+NS,Vietnam,Lê Văn Công,47.96,,,,,,M,49,Group A,B,Raw,
 1,China,Jinyun Li,40.19,80,84,94,,94,F,41,Group A,B,Raw,94
 2,China,Zhe Cui,39.44,93,-100,-100,,93,F,41,Group A,B,Raw,93
 3,India,Kaur Manpreet Kaur Manpreet,40.16,70,-73,73,,73,F,41,Group A,B,Raw,73
@@ -48,7 +48,7 @@ DQ,Japan,Miwa Naruke,40.62,-48,-48,-48,,,F,41,Group A,B,Raw,
 6,South Korea,Yunki Shin,48.11,65,70,-76,,70,F,50,Group A,B,Raw,70
 1,China,Yongkai Qi,57.85,181,184,188,-192.5,188,M,59,Group A,B,Raw,188
 2,Iran,Seyed Yousef Yousefi Pashaki,58.89,182,-185,-185,,182,M,59,Group A,B,Raw,182
-3,Chile,Juan Carlos Garrido,58.79,176,-180,-182,,176,M,59,Group A,B,Raw,176
+3,Chile,Juan Carlos Garrido Acevedo,58.79,176,-180,-182,,176,M,59,Group A,B,Raw,176
 4,China,Jinglang Yang,58.79,175,-182,-185,,175,M,59,Group A,B,Raw,175
 5,Vietnam,Van Phuc Nguyen,56.93,150,155,-159,,155,M,59,Group A,B,Raw,155
 6,Thailand,Choochat Sukjarern,57.87,151,-156,-156,,151,M,59,Group A,B,Raw,151
@@ -64,7 +64,7 @@ DQ,Japan,Miwa Naruke,40.62,-48,-48,-48,,,F,41,Group A,B,Raw,
 7,South Korea,Sook Ja Choe,53.94,52,-57,-57,,52,F,55,Group A,B,Raw,52
 DQ,Thailand,Wandi Kongmuang,53.79,-85,-86,-86,,,F,55,Group A,B,Raw,
 DQ,Japan,Eri Macdonald,53.85,-53,-54,-54,,,F,55,Group A,B,Raw,
-1,Chile,Jorge Carinao,59.42,167,-172,-172,,167,M,65,Group B,B,Raw,167
+1,Chile,Jorge Eduardo Carinao Cardenas,59.42,167,-172,-172,,167,M,65,Group B,B,Raw,167
 2,Vietnam,Thanh Xuan Nguyen,60.53,160,165,-170,,165,M,65,Group B,B,Raw,165
 3,Iraq,Hasan Al-Tameemi,64.99,-163,-163,163,,163,M,65,Group B,B,Raw,163
 4,Japan,Yoshiki Sano,64.31,120,126,130,,130,M,65,Group B,B,Raw,130
@@ -94,7 +94,7 @@ DQ,Iran,Samad Abbasi,64.67,-182,-182,-186,,,M,65,Group A,B,Raw,
 5,Japan,Kentaro Higuchi,70.97,150,160,165,,165,M,72,Group A,B,Raw,165
 6,India,Rajinder Singh Rahelu,71.29,155,162,-165,,162,M,72,Group A,B,Raw,162
 7,Italy,Donato Telesca,71.33,153,161,-163,,161,M,72,Group A,B,Raw,161
-8,UAE,Saif Zaabi,66.08,142,148,-150,,148,M,72,Group A,B,Raw,148
+8,UAE,Saif Mohamed Zaabi,66.08,142,148,-150,,148,M,72,Group A,B,Raw,148
 1,Mexico,Amalia Pérez Vazquez,59.49,123,128,131,,131,F,61,Group A,B,Raw,131
 2,China,Jianjin Cui,60.95,112,118,-121,,118,F,61,Group A,B,Raw,118
 3,Indonesia,Yuliana Lili,59.61,85,90,93,,93,F,61,Group A,B,Raw,93
@@ -198,4 +198,4 @@ DQ,Iraq,Osmanee Gharam Al,70.21,-93,-93,-93,,,F,73,Group A,B,Raw,
 3,Iraq,Faris Saadoon Abed Al-Ageeli,121.56,230,240,-241,,240,M,107+,Group A,B,Raw,240
 4,China,Mao Li,125.79,211,-222,222,,222,M,107+,Group A,B,Raw,222
 5,Saudi Arabia,Najim Khalid Al,155.57,206,210,212,,212,M,107+,Group A,B,Raw,212
-DQ,Jordan,Jamil Elshebli,125.14,-231,-234,-241,,,M,107+,Group A,B,Raw,
+DQ,Jordan,Jamil Saleh Elshebli,125.14,-231,-234,-241,,,M,107+,Group A,B,Raw,

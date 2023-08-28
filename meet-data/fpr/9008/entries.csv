@@ -1,13 +1,13 @@
 Place,Name,Country,BodyweightKg,Squat1Kg,Squat2Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,WeightClassKg,Sex,CyrillicName,BirthYear,Event,Equipment,Division
 1,Andrey Podpalny,USSR,49.05,200,-215,200,-120,120,120,105,112.5,112.5,,432.5,52,M,Андрей Подпальный,1968,SBD,Single-ply,Open
 2,Sergey Starodumov,USSR,51.4,-135,135,135,102.5,,102.5,162.5,180,180,,417.5,52,M,Сергей Стародумов,1953,SBD,Single-ply,Open
-DQ,Sergey Zhuravlev,USSR,51.65,190,,190,-102.5,-107.5,,,,,,,52,M,Сергей Журавлёв,1960,SBD,Single-ply,Open
+DQ,Sergey Zhuravlev #1,USSR,51.65,190,,190,-102.5,-107.5,,,,,,,52,M,Сергей Журавлев,1960,SBD,Single-ply,Open
 DQ,Sergey Kamennyy,USSR,51.3,-135,135,135,-100,-100,,,,,,,52,M,Сергей Каменный,1957,SBD,Single-ply,Open
 DQ,Andrey Kalinin,USSR,52,135,140,140,-100,-100,,,,,,,52,M,Андрей Калинин,1962,SBD,Single-ply,Open
 1,Vladimir Morozov,USSR,56,152.5,157.5,157.5,100,-102.5,100,177.5,-182.5,177.5,,435,56,M,Владимир Морозов,1957,SBD,Single-ply,Open
 DQ,Vladimir Melnik,USSR,55.5,140,145,145,100,-105,100,-185,-185,,,,56,M,Владимир Мельник,1960,SBD,Single-ply,Open
 DQ,Vladimir Shayakov,USSR,55.9,160,170,170,-100,-100,,,,,,,56,M,Владимир Шаяков,1955,SBD,Single-ply,Open
-DQ,Nikolay Emelyanov,USSR,55.4,140,145,145,-100,-100,,,,,,,56,M,Николай Емельянов,1963,SBD,Single-ply,Open
+DQ,Nikolay Emelyanov #2,USSR,55.4,140,145,145,-100,-100,,,,,,,56,M,Николай Емельянов,1963,SBD,Single-ply,Open
 DQ,Viktor Ershov,USSR,55.5,-140,-142.5,,,,,,,,,,56,M,Виктор Ершов,1960,SBD,Single-ply,Open
 1,Sergey Kim,USSR,59.95,200,-205,200,135,-140,135,215,-230,215,,550,60,M,Сергей Ким,1957,SBD,Single-ply,Open
 2,Ravil Khalikov,USSR,60,180,-185,180,135,-140,135,210,-215,210,,525,60,M,Равиль Халиков,1958,SBD,Single-ply,Open
@@ -19,7 +19,7 @@ DQ,Viktor Ershov,USSR,55.5,-140,-142.5,,,,,,,,,,56,M,Виктор Ершов,196
 DQ,Vladimir Ryazanov,USSR,59.9,205,-212.5,205,-132.5,132.5,132.5,-210,-210,,,,60,M,Владимир Рязанов,1962,SBD,Single-ply,Open
 DQ,Andrey Kostin,USSR,59.8,-170,-170,,-115,-115,,,,,,,60,M,Андрей Костин,1971,SBD,Single-ply,Open
 DQ,Gennadiy Sayapin,USSR,59.45,180,-185,180,-125,-125,,,,,,,60,M,Геннадий Саяпин,1952,SBD,Single-ply,Open
-DQ,Ivan Rudenko,USSR,59.9,170,-175,170,,,,,,,,,60,M,Иван Руденко,1958,SBD,Single-ply,Open
+DQ,Ivan Rudenko #1,USSR,59.9,170,-175,170,,,,,,,,,60,M,Иван Руденко,1958,SBD,Single-ply,Open
 DQ,Valery Krioni,USSR,59.85,-170,-170,,,,,,,,,,60,M,Валерий Криони,1964,SBD,Single-ply,Open
 1,Oleg Akhmedov,USSR,67.5,210,220,220,145,150,150,225,,225,,595,67.5,M,Олег Ахмедов,1965,SBD,Single-ply,Open
 2,Igor Kuimov,USSR,67,220,227.5,227.5,142.5,-145,142.5,220,-232.5,220,,590,67.5,M,Игорь Куимов,1962,SBD,Single-ply,Open
@@ -72,7 +72,7 @@ DQ,Sergey Cheshuk,USSR,75,-235,-235,,,,,,,,,,75,M,Сергей Чешук,1965,S
 5,Anatoliy Baranov #2,USSR,81.4,220,230,230,170,175,175,255,275,275,,680,82.5,M,Анатолий Баранов,1951,SBD,Single-ply,Open
 6,Aleksey Kudryashov,USSR,82.5,250,262.5,262.5,150,155,155,242.5,262.5,262.5,,680,82.5,M,Алексей Кудряшов,1964,SBD,Single-ply,Open
 7,Vadim Zaytsev,USSR,82.3,240,245,245,155,-160,155,260,270,270,,670,82.5,M,Вадим Зайцев,1960,SBD,Single-ply,Open
-8,Viktor Kuznetsov,USSR,82.2,245,-255,245,150,-155,150,265,272.5,272.5,,667.5,82.5,M,Виктор Кузнецов,1958,SBD,Single-ply,Open
+8,Viktor Kuznetsov #1,USSR,82.2,245,-255,245,150,-155,150,265,272.5,272.5,,667.5,82.5,M,Виктор Кузнецов,1958,SBD,Single-ply,Open
 9,Valeriy Glazunov,USSR,80.15,250,260,260,170,180,180,220,,220,,660,82.5,M,Валерий Глазунов,1948,SBD,Single-ply,Open
 10,Vladislav Leontev,USSR,80.8,260,-275,260,150,-155,150,250,-275,250,,660,82.5,M,Владислав Леонтьев,1969,SBD,Single-ply,Open
 11,Sergey Kozlov,USSR,81.15,242.5,247.5,247.5,157.5,160,160,252.5,-262.5,252.5,,660,82.5,M,Сергей Козлов,1957,SBD,Single-ply,Open
@@ -109,13 +109,13 @@ DQ,Anatoliy Melnik,USSR,82.15,220,-230,220,157.5,-165,157.5,-262.5,-262.5,,,,82.
 7,Mikhail Ryzhikov,USSR,90,240,245,245,165,170,170,275,-280,275,,690,90,M,Михаил Рыжиков,1960,SBD,Single-ply,Open
 9,Vladimir Babin,USSR,89.95,240,245,245,160,,160,285,-295,285,,690,90,M,,1961,SBD,Single-ply,Open
 8,Sergey Makarov,USSR,89.25,240,250,250,-175,175,175,250,-275,250,,675,90,M,Сергей Макаров,1956,SBD,Single-ply,Open
-10,Aleksandr Malkov,USSR,89.15,232.5,-240,232.5,162.5,-165,162.5,240,250,250,,645,90,M,Александр Мальков,1967,SBD,Single-ply,Open
+10,Aleksandr Malkov #1,USSR,89.15,232.5,-240,232.5,162.5,-165,162.5,240,250,250,,645,90,M,Александр Мальков,1967,SBD,Single-ply,Open
 DQ,Vladimir Sitnikov,USSR,89.5,230,240,240,-160,-160,,,,,,,90,M,Владимир Ситников,1960,SBD,Single-ply,Open
 DQ,Evgeniy Khokhlov,USSR,88.3,275,-285,275,-157.5,-157.5,,,,,,,90,M,Евгений Хохлов,1941,SBD,Single-ply,Open
 DQ,Andrey Repin,USSR,88.45,250,260,260,-180,-180,,,,,,,90,M,Андрей Репин,1964,SBD,Single-ply,Open
 DQ,Oleg Kvich,USSR,89.8,240,252.5,252.5,-170,-170,,,,,,,90,M,Олег Квич,1963,SBD,Single-ply,Open
 DQ,Boris Ryazanov,USSR,90,-240,-240,,,,,,,,,,90,M,Борис Рязанов,1954,SBD,Single-ply,Open
-DQ,Viktor Chernysh,USSR,87.85,240,250,250,-157.5,-157.5,,,,,,,90,M,Виктор Черныш,1964,SBD,Single-ply,Open
+DQ,Viktor Chernysh #1,USSR,87.85,240,250,250,-157.5,-157.5,,,,,,,90,M,Виктор Черныш,1964,SBD,Single-ply,Open
 DQ,Andrey Malyshev,USSR,88.2,210,-220,210,-165,-165,,,,,,,90,M,Андрей Малышев,1964,SBD,Single-ply,Open
 DQ,Victor Kotelnikov,USSR,86.25,-237.5,-237.5,,,,,,,,,,90,M,Виктор Котельников,1956,SBD,Single-ply,Open
 DQ,Aleksandr Kuzmin,USSR,87.05,-247.5,-247.5,,,,,,,,,,90,M,Александр Кузьмин,,SBD,Single-ply,Open
@@ -159,7 +159,7 @@ DQ,Alexander Aladyev,USSR,98.2,-300,-300,,,,,,,,,,100,M,Александр Ал�
 6,Nikolay Sizentsev,USSR,107.9,270,275,275,200,-205,200,275,285,285,,760,110,M,Николай Сизенцев,1956,SBD,Single-ply,Open
 7,Z Khaberialov,USSR,109.65,290,,290,175,-185,175,290,,290,,755,110,M,,1958,SBD,Single-ply,Open
 8,Sergey Vislotskiy,USSR,100.25,270,290,290,180,200,200,260,-275,260,,750,110,M,Сергей Вислоцкий,1956,SBD,Single-ply,Open
-9,Sergey Kuznetsov,USSR,106.65,280,-300,280,180,-195,180,290,-300,290,,750,110,M,Сергей Кузнецов,1970,SBD,Single-ply,Open
+9,Sergey Kuznetsov #6,USSR,106.65,280,-300,280,180,-195,180,290,-300,290,,750,110,M,Сергей Кузнецов,1970,SBD,Single-ply,Open
 10,Aleksandr Khlamkov,USSR,109.25,260,272.5,272.5,190,202.5,202.5,260,275,275,,750,110,M,Александр Хламков,1955,SBD,Single-ply,Open
 11,Evgeniy Galakhov,USSR,103.65,270,280,280,-180,180,180,290,,290,,750,110,M,Евгений Галахов,1961,SBD,Single-ply,Open
 12,A Skotnikov,USSR,109.25,250,255,255,190,-195,190,305,,305,,750,110,M,А Скотников,1962,SBD,Single-ply,Open
@@ -168,7 +168,7 @@ DQ,Alexander Aladyev,USSR,98.2,-300,-300,,,,,,,,,,100,M,Александр Ал�
 15,Yuriy Bespalov,USSR,106.5,260,-280,260,170,-175,170,250,262.5,262.5,,692.5,110,M,Юрий Беспалов,1956,SBD,Single-ply,Open
 DQ,Alexander Kochetov,USSR,109.2,280,-300,280,-170,-175,,,,,,,110,M,Александр Кочетов,1957,SBD,Single-ply,Open
 1,Vladimir Markov,USSR,120.1,280,290,290,220,230,230,290,305,305,,825,125,M,Владимир Марков,1959,SBD,Single-ply,Open
-2,Sergey Sokolov,USSR,121.7,275,285,285,190,195,195,305,315,315,,795,125,M,Сергей Соколов,1963,SBD,Single-ply,Open
+2,Sergey Sokolov #19,USSR,121.7,275,285,285,190,195,195,305,315,315,,795,125,M,Сергей Соколов,1963,SBD,Single-ply,Open
 3,Anatoliy Sunyaev,USSR,118.3,310,-320,310,190,200,200,260,280,280,,790,125,M,Анатолий Суняев,1951,SBD,Single-ply,Open
 4,Sergey Makarov,USSR,116.45,270,282.5,282.5,190,-202.5,190,292.5,310,310,,782.5,125,M,Сергей Макаров,1965,SBD,Single-ply,Open
 5,Vasiliy Volov,USSR,115.5,290,295,295,185,192.5,192.5,280,290,290,,777.5,125,M,Василий Волов,1960,SBD,Single-ply,Open

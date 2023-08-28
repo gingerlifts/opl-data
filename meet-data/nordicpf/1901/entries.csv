@@ -8,7 +8,7 @@ Place,Name,BirthYear,Team,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench
 2,Lars Merring-Mikkelsen,1996,Denmark,260,267.5,,267.5,185,192.5,-197.5,192.5,270,285,-302.5,285,745,Juniors,M,93,Single-ply,91.31,SBD
 3,Hermann Moen,1999,,265,275,-282.5,275,197.5,-205,205,205,-235,235,-240,235,715,Juniors,M,93,Single-ply,90.02,SBD
 1,Lasse Justesen,2000,Denmark,250,260,,260,140,145,-150,145,240,255,-260,255,660,Juniors,M,105,Single-ply,102.97,SBD
-1,Selma K. M. Ramberg,2001,,112.5,120,125,125,81,87,90,90,120,132.5,140.5,140.5,355.5,Sub-Juniors,F,52,Raw,51.84,SBD
+1,Selma Karoline Matilde Ramberg,2001,,112.5,120,125,125,81,87,90,90,120,132.5,140.5,140.5,355.5,Sub-Juniors,F,52,Raw,51.84,SBD
 1,Alba Boström,2001,,130,136,-140.5,136,77.5,82.5,-84,82.5,155,162,-171,162,380.5,Sub-Juniors,F,63,Raw,62.35,SBD
 2,Juliane Slettnes,2001,,127.5,135,140,140,72.5,77.5,-80,77.5,137.5,147.5,152.5,152.5,370,Sub-Juniors,F,63,Raw,62.28,SBD
 1,Yasmina Havnen,2003,,117.5,125,-127.5,125,62.5,65,67.5,67.5,132.5,140,150,150,342.5,Sub-Juniors,F,72,Raw,66.14,SBD
@@ -17,7 +17,7 @@ Place,Name,BirthYear,Team,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench
 2,Isabel Rebsdorff Nielsen,1999,Denmark,115,-120,-120,115,65,-67.5,-67.5,65,130,137.5,-140,137.5,317.5,Juniors,F,52,Raw,51.78,SBD
 3,Irina Melkild,1997,,102.5,107.5,110,110,72.5,75,77.5,77.5,112.5,117.5,122.5,122.5,310,Juniors,F,52,Raw,50.55,SBD
 4,Camilla Vik Nygård,1999,,105,110,-115,110,65,67.5,70,70,115,122.5,-132.5,122.5,302.5,Juniors,F,52,Raw,51.42,SBD
-1,Mia M. R. Storstad,1999,,110,117.5,-120,117.5,75,80,82.5,82.5,115,120,125,125,325,Juniors,F,57,Raw,54.06,SBD
+1,Mia Margrethe Ramberg Storstad,1999,,110,117.5,-120,117.5,75,80,82.5,82.5,115,120,125,125,325,Juniors,F,57,Raw,54.06,SBD
 1,Ronja Andersson,1997,,137.5,-145,-145,137.5,80,85,-90,85,120,147.5,-172.5,147.5,370,Juniors,F,63,Raw,62.53,SBD
 1,Agnes Rudin,2000,,147.5,155,160,160,100,105,-107.5,105,165,-175,175,175,440,Juniors,F,72,Raw,71.57,SBD
 2,Rebekka Rømer Andersen,1996,Denmark,125,132.5,-137.5,132.5,-92.5,92.5,95,95,155,167.5,-175,167.5,395,Juniors,F,72,Raw,71.89,SBD
@@ -47,7 +47,7 @@ Place,Name,BirthYear,Team,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench
 2,Joakim Bilyk,1999,Denmark,185,195,205,205,122.5,127.5,-132.5,127.5,217.5,227.5,237.5,237.5,570,Juniors,M,74,Raw,73.72,SBD
 3,Lassi Immonen,1998,,200,205,210,210,110,115,-117.5,115,210,217.5,222.5,222.5,547.5,Juniors,M,74,Raw,73.09,SBD
 4,Muggur Ólafsson,1996,,180,190,-192.5,190,125,-132.5,-132.5,125,210,-222.5,-232.5,210,525,Juniors,M,74,Raw,72.69,SBD
-1,Yulong Li,2000,,250,-260,260,260,160,165,-170,165,275,-282.5,-282.5,275,700,Juniors,M,83,Raw,82.57,SBD
+1,Yulong Li #1,2000,,250,-260,260,260,160,165,-170,165,275,-282.5,-282.5,275,700,Juniors,M,83,Raw,82.57,SBD
 2,Johannes Kristensen,1997,,235,245,-255,245,150,-155,155,155,260,-275,275,275,675,Juniors,M,83,Raw,82.47,SBD
 3,Thomas Lillefjord,1998,,190,-202.5,-202.5,190,145,155,160,160,225,235,250,250,600,Juniors,M,83,Raw,82.63,SBD
 4,Elias Pedersen,2000,Denmark,165,172.5,-180,172.5,82.5,90,92.5,92.5,175,182.5,205,205,470,Juniors,M,83,Raw,78.92,SBD

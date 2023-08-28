@@ -1,6 +1,16 @@
-# The Nightly version of Rust is required, for the moment, due to server dependencies.
-# The Rocket framework we use requires Nightly features.
-image: rustlang/rust:nightly
+# Skip CI if the commit message contains "WIP:", "[nobuild]", or "[noci]".
+# Disable CI on main for the moment, but allow in MRs: we're running out of minutes.
+workflow:
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      when: never
+    - if: $CI_COMMIT_MESSAGE =~ /(WIP:|\[nobuild\]|\[noci\])/
+      when: never
+    - if: $CI_MERGE_REQUEST_TITLE =~ /(WIP:|\[nobuild\]|\[noci\])/
+      when: never
+    - when: always
+
+image: rust:slim-buster
 
 # Test the integrity of the data.
 meet-data:
@@ -8,32 +18,42 @@ meet-data:
     - apt-get update -qq && apt-get install -y python3-pip
     - pip3 install flake8
   script:
-    - make check
+    - make check-all
 
 # Build the data file and run server tests with the current data.
-server:
-  cache:
-    paths:
-      - target
-      - server/client/node_modules
-  before_script:
-    - curl -sL https://deb.nodesource.com/setup_10.x | bash -
-    - apt-get update -qq && apt-get install -y nodejs python3-pip
-    - pip3 install toml
-  script:
-    - make csv
-    - make -C server checkprerequisites
-    - cargo test
+# Disabled in CI as of 2022-11-01: trying to cut down on minutes.
+#server:
+#  cache:
+#    paths:
+#      - target
+#      - server/client/node_modules
+#  before_script:
+#    - apt-get update -qq && apt-get install -y curl
+#    - curl -sL https://deb.nodesource.com/setup_14.x | bash -
+#    - apt-get install -y nodejs python3-pip
+#    - pip3 install toml
+#  script:
+#    - make csv
+#    - make -C server checkprerequisites
+#    - cargo test --workspace --locked
 
-# On success, update project documentation on GitLab Pages.
+# On success, publish the latest version of the Book to GitLab Pages.
 pages:
   stage: deploy
+  image: rust:latest
+  variables:
+    CARGO_HOME: $CI_PROJECT_DIR/cargo
+  cache:
+    key: mdbook-cache-key
+    paths:
+      - $CARGO_HOME/bin
+  before_script:
+    - export PATH="$PATH:$CARGO_HOME/bin"
+    - mdbook --version || cargo install mdbook
   script:
-    - cargo doc --no-deps  # Builds into target/doc.
-    - mv docs public  # GitLab Pages always deploys from a folder named "public".
-    - mv target/doc public/rust  # Rust documentation.
+    - mdbook build --dest-dir ../public book  # Build book/ into public/.
   artifacts:
     paths:
       - public
   only:
-    - master
+    - main

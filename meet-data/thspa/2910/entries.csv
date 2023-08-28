@@ -2,7 +2,7 @@ Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Be
 Boys,51.71,1,Ethan Stack,Scurry-Rosser,51.35,129.27,86.18,147.42,362.87,Single-ply,SBD,M
 Boys,51.71,2,Junior Chavez,Waxahachie,50.17,99.79,65.77,127.01,292.57,Single-ply,SBD,M
 Boys,51.71,3,Jose Gonzalez #2,Hillsboro,49.26,106.59,61.23,113.4,281.23,Single-ply,SBD,M
-Boys,51.71,4,Chris Charles,Ennis,48.72,90.72,56.7,106.59,254.01,Single-ply,SBD,M
+Boys,51.71,4,Chris Charles #2,Ennis,48.72,90.72,56.7,106.59,254.01,Single-ply,SBD,M
 Boys,51.71,5,Collin Stephens,Buffalo,49.8,92.99,52.16,106.59,251.74,Single-ply,SBD,M
 Boys,51.71,6,Kace Cotton,Waxahachie,48.81,81.65,45.36,113.4,240.4,Single-ply,SBD,M
 Boys,51.71,7,Jason Botkin,Corsicana,48.17,77.11,43.09,102.06,222.26,Single-ply,SBD,M
@@ -37,7 +37,7 @@ Boys,67.13,1,Alex Reynoso,West,62.96,170.1,99.79,190.51,460.4,Single-ply,SBD,M
 Boys,67.13,2,Nick Henderson,Waxahachie,63.78,176.9,92.99,190.51,460.4,Single-ply,SBD,M
 Boys,67.13,3,DeMarcus McQurter,Hubbard,65.86,174.63,90.72,185.97,451.32,Single-ply,SBD,M
 Boys,67.13,4,Ulices Guerrero,Buffalo,67.13,170.1,99.79,174.63,444.52,Single-ply,SBD,M
-Boys,67.13,5,Darius Jones,Dallas Life Oak Cliff,62.41,158.76,88.45,181.44,428.64,Single-ply,SBD,M
+Boys,67.13,5,Darius Jones #1,Dallas Life Oak Cliff,62.41,158.76,88.45,181.44,428.64,Single-ply,SBD,M
 Boys,67.13,6,Chris Soria,Buffalo,63.14,147.42,99.79,147.42,394.63,Single-ply,SBD,M
 Boys,67.13,7,Diego Gutierrez,Scurry-Rosser,61.78,149.69,90.72,145.15,385.55,Single-ply,SBD,M
 Boys,67.13,8,Jose Silva,Palmer,65.05,133.81,83.91,165.56,383.29,Single-ply,SBD,M
@@ -45,10 +45,10 @@ Boys,67.13,9,Micah Thompson,Teague,63.5,154.22,77.11,149.69,381.02,Single-ply,SB
 Boys,67.13,10,Zack Horner,Corsicana Mildred,65.5,133.81,81.65,149.69,365.14,Single-ply,SBD,M
 Boys,67.13,11,Javier Trejo,Hillsboro,62.14,124.74,68.04,154.22,347,Single-ply,SBD,M
 Boys,67.13,12,Trey Atkeisson,Corsicana Mildred,63.59,115.67,74.84,122.47,312.98,Single-ply,SBD,M
-Boys,67.13,13,David Lopez,West,66,120.2,65.77,117.93,303.91,Single-ply,SBD,M
+Boys,67.13,13,David Lopez #4,West,66,120.2,65.77,117.93,303.91,Single-ply,SBD,M
 Boys,67.13,14,Mason Vick,Jewett Leon,62.87,99.79,79.38,117.93,297.1,Single-ply,SBD,M
 Boys,67.13,15,Cameron Berryhill,Jewett Leon,60.33,111.13,58.97,115.67,285.76,Single-ply,SBD,M
-Boys,67.13,16,Juan Perez,Rice,64.86,167.83,,,167.83,Single-ply,S,M
+Boys,67.13,16,Juan Perez #10,Rice,64.86,167.83,,,167.83,Single-ply,S,M
 Boys,67.13,17,Joshua Hughes,Eustace,66.95,142.88,,,142.88,Single-ply,S,M
 Boys,67.13,18,Jason Oliver,Hubbard,65.41,115.67,,,115.67,Single-ply,S,M
 Boys,67.13,DQ,Osvaldo Atunez,Hillsboro,67.13,,,,,Single-ply,SBD,M
@@ -65,7 +65,7 @@ Boys,74.84,8,Callghan Sherrod,Jewett Leon,71.94,138.35,74.84,174.63,387.82,Singl
 Boys,74.84,9,Anthony Ray,Ennis,71.21,131.54,92.99,133.81,358.34,Single-ply,SBD,M
 Boys,74.84,10,Mark Zagala,Palmer,71.49,122.47,79.38,149.69,351.53,Single-ply,SBD,M
 Boys,74.84,11,Jeremy Flake,Jewett Leon,71.12,117.93,86.18,145.15,349.27,Single-ply,SBD,M
-Boys,74.84,12,David Thomas,Fairfield,74.84,129.27,83.91,131.54,344.73,Single-ply,SBD,M
+Boys,74.84,12,David Thomas #8,Fairfield,74.84,129.27,83.91,131.54,344.73,Single-ply,SBD,M
 Boys,74.84,13,Trent Barnes,Scurry-Rosser,69.58,117.93,81.65,142.88,342.46,Single-ply,SBD,M
 Boys,74.84,14,Derek Smith,Scurry-Rosser,74.03,122.47,68.04,142.88,333.39,Single-ply,SBD,M
 Boys,74.84,15,Marcus Terry,Dallas Life Oak Cliff,72.21,120.2,72.57,136.08,328.85,Single-ply,SBD,M
@@ -77,7 +77,7 @@ Boys,74.84,DQ,Justin Ewing,Corsicana Mildred,74.84,,,,,Single-ply,SBD,M
 Boys,74.84,DQ,Truman Garza,Buffalo,68.31,170.1,79.38,,,Single-ply,SBD,M
 Boys,74.84,DQ,Michael McCarter,Blooming Grove,70.76,,,,,Single-ply,SBD,M
 Boys,74.84,DQ,Zane Anderson,Fairfield,69.4,174.63,88.45,,,Single-ply,SBD,M
-Boys,74.84,DQ,Jason Williams,Dallas Life Oak Cliff,74.39,,,,,Single-ply,SBD,M
+Boys,74.84,DQ,Jason Williams #4,Dallas Life Oak Cliff,74.39,,,,,Single-ply,SBD,M
 Boys,74.84,DQ,Terry Richardson,Eustace,74.12,,,,,Single-ply,SBD,M
 Boys,74.84,DQ,Cameron Aldridge,Jewett Leon,74.84,117.93,,,,Single-ply,SBD,M
 Boys,82.1,1,Hector Dominguez,Buffalo,81.37,249.48,127.01,226.8,603.28,Single-ply,SBD,M
@@ -131,7 +131,7 @@ Boys,99.79,DQ,Zion Barnes,Hubbard,90.99,,,,,Single-ply,SBD,M
 Boys,99.79,DQ,John Montano,Buffalo,92.8,145.15,,,,Single-ply,SBD,M
 Boys,99.79,DQ,Daniel Briones,Rice,97.89,215.46,142.88,,,Single-ply,SBD,M
 Boys,99.79,DQ,Francisco Gomez,Eustace,94.35,,,,,Single-ply,SBD,M
-Boys,109.77,1,Marcus Williams,Teague,107.32,263.08,156.49,260.82,680.39,Single-ply,SBD,M
+Boys,109.77,1,Marcus Williams #2,Teague,107.32,263.08,156.49,260.82,680.39,Single-ply,SBD,M
 Boys,109.77,2,Anthony Perez,Waxahachie,107.68,240.4,190.51,249.48,680.39,Single-ply,SBD,M
 Boys,109.77,3,Ramiro Reyes,Hillsboro,104.78,238.14,124.74,226.8,589.67,Single-ply,SBD,M
 Boys,109.77,4,Seth White,Corsicana,104.96,229.06,120.2,185.97,535.24,Single-ply,SBD,M

@@ -1,7 +1,7 @@
 Name,Country,State,WeightClassKg,BodyweightKg,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Sex,Place
 Dean Wellington,,QLD,52,49.45,Sub-Juniors,90,60,100,250,SBD,Single-ply,M,1
 Cu Phan,,QLD,60,57.2,Juniors,160,105,195,460,SBD,Single-ply,M,2
-M Andersen,,QLD,60,60,Juniors,170,115,200,485,SBD,Single-ply,M,1
+M. Andersen,,QLD,60,60,Juniors,170,115,200,485,SBD,Single-ply,M,1
 Max Bristow,,NSW,67.5,66.8,Masters 2,175,110,235,520,SBD,Single-ply,M,1
 Tony Feltham,,NSW,67.5,65.8,Masters 3,70,90.5,90,250,SBD,Single-ply,M,1
 Theo Lagis,,QLD,67.5,67.3,Juniors,185,110,225,520,SBD,Single-ply,M,1
@@ -19,7 +19,7 @@ Franz Bartels,,QLD,82.5,81.4,Open,220,130,287.5,637.5,SBD,Single-ply,M,3
 David Cheung,,NSW,82.5,80.7,Open,215,122.5,217.5,555,SBD,Single-ply,M,4
 David Costello,,QLD,82.5,82.35,Open,222.5,157.5,280,660,SBD,Single-ply,M,1
 Achilles Kelepouris,,VIC,82.5,82.4,Open,270,137.5,252.5,660,SBD,Single-ply,M,2
-Tom MacDonald,,NSW,82.5,82,Masters 2,230,107.5,242.5,580,SBD,Single-ply,M,1
+Tom MacDonald #1,,NSW,82.5,82,Masters 2,230,107.5,242.5,580,SBD,Single-ply,M,1
 John Rutherford,,VIC,82.5,81.6,Masters 3,157.5,85,177.5,420,SBD,Single-ply,M,1
 Leigh Donnellon,,VIC,90,89.8,Open,197.5,142.5,225,565,SBD,Single-ply,M,3
 Aaron Ernst,,QLD,90,89.85,Juniors,212.5,135,237.5,585,SBD,Single-ply,M,2

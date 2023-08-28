@@ -1,7 +1,7 @@
 Name,WeightClassKg,Division,Sex,Age,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 J. Fertado,52,Open,M,,,77.5,72.5,132.5,282.5,SBD,Single-ply,1
 E. Wallace,52,Open,M,,,82.5,50,95,227.5,SBD,Single-ply,2
-J. O'Brien,52,Open,M,,,75,45,82.5,202.5,SBD,Single-ply,3
+J. O'Brien #7,52,Open,M,,,75,45,82.5,202.5,SBD,Single-ply,3
 Rich Ceraolo,56,Open,M,,,102.5,82.5,165,350,SBD,Single-ply,1
 Michelle Silva,56,Open,F,,,127.5,70,130,327.5,SBD,Single-ply,2
 N. Dixon,56,Open,F,,,70,40,117.5,227.5,SBD,Single-ply,3
@@ -22,7 +22,7 @@ C. Drake,67.5,Open,M,,,160,77.5,170,,SBD,Single-ply,DQ
 B. Blachly,75,Open,M,,,165,137.5,190,492.5,SBD,Single-ply,1
 A. Martinez,75,Open,M,,,160,142.5,185,487.5,SBD,Single-ply,2
 F. Kennedy,75,Open,M,,,160,140,187.5,487.5,SBD,Single-ply,3
-E. Albert,75,Open,M,,,172.5,120,190,482.5,SBD,Single-ply,4
+Emilio Albert,75,Open,M,,,172.5,120,190,482.5,SBD,Single-ply,4
 L. Johnston,75,Open,M,,,142.5,105,185,432.5,SBD,Single-ply,5
 Art Halgren,75,Open,M,,,,,,,SBD,Single-ply,DQ
 T. Silva,75,Open,M,,,157.5,90,,,SBD,Single-ply,DQ
@@ -31,7 +31,7 @@ Larry Neves,82.5,Open,M,,,205,145,235,585,SBD,Single-ply,1
 W. Roberts,82.5,Open,M,,,215,140,230,585,SBD,Single-ply,2
 R. Anderson,82.5,Open,M,,,192.5,147.5,215,555,SBD,Single-ply,3
 J. Allison,82.5,Open,M,,,187.5,137.5,222.5,547.5,SBD,Single-ply,4
-C. Mosher,82.5,Open,M,,,197.5,122.5,200,520,SBD,Single-ply,5
+Calvin Mosher,82.5,Open,M,,,197.5,122.5,200,520,SBD,Single-ply,5
 Perry Kwock,82.5,Open,M,,,167.5,142.5,200,510,SBD,Single-ply,6
 Wayne Prodger,82.5,Open,M,,,160,122.5,205,487.5,SBD,Single-ply,7
 C. Harvey,82.5,Open,M,,,160,140,185,485,SBD,Single-ply,8
@@ -43,11 +43,11 @@ R. Zamora,90,Open,M,,,172.5,100,195,467.5,SBD,Single-ply,5
 Marc Galanter,100,Open,M,,,260,155,245,660,SBD,Single-ply,1
 Chuck Prokop,100,Open,M,,,232.5,137.5,247.5,617.5,SBD,Single-ply,2
 K. Lockwood,100,Open,M,,,227.5,130,252.5,610,SBD,Single-ply,3
-John DuMont,100,Open,M,,,235,132.5,230,597.5,SBD,Single-ply,4
+John DuMont #1,100,Open,M,,,235,132.5,230,597.5,SBD,Single-ply,4
 K. Taylor,100,Open,M,,,220,145,230,595,SBD,Single-ply,5
 C. Tanner,100,Open,M,,,227.5,110,250,587.5,SBD,Single-ply,6
-D. Yancey,100,Open,M,,,215,135,237.5,587.5,SBD,Single-ply,7
-D. Fitzhugh,100,Open,M,,,205,137.5,197.5,540,SBD,Single-ply,8
+Dave Yancey,100,Open,M,,,215,135,237.5,587.5,SBD,Single-ply,7
+Dave Fitzhugh,100,Open,M,,,205,137.5,197.5,540,SBD,Single-ply,8
 P. Piland,100,Open,M,,,165,,,,SBD,Single-ply,DQ
 Vince Freese,110,Open,M,,,205,150,227.5,582.5,SBD,Single-ply,1
 R. Tuider,110,Open,M,,,182.5,102.5,240,525,SBD,Single-ply,2

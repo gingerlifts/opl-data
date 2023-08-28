@@ -4,7 +4,7 @@ Place,WeightClassKg,Division,Equipment,Event,Name,Country,BirthYear,Sex,Bodyweig
 1,100,Open,Raw,B,Luisa Peters,Cook Islands,1993,F,98.1,,,,,55,60,-65,60,,,,,60
 1,84+,Sub-Juniors,Raw,B,Maxine Edwards,Niue,2001,F,129.6,,,,,40,55,65,65,,,,,65
 2,84+,Sub-Juniors,Raw,B,Averil Togiavalu,Niue,2003,F,97.7,,,,,30,40,-50,40,,,,,40
-1,84,Masters 40-44,Raw,B,Nicole Burns,Australia,1977,F,83.3,,,,,62.5,67.5,-70,67.5,,,,,67.5
+1,84,Masters 40-44,Raw,B,Nicky Burns,Australia,1977,F,83.3,,,,,62.5,67.5,-70,67.5,,,,,67.5
 1,100,Masters 40-44,Raw,B,Letha Herman,Nauru,1977,F,90.7,,,,,60,70,-80,70,,,,,70
 1,84,Masters 45-49,Raw,B,Joanne Paine,Australia,1970,F,78.9,,,,,80,82.5,85,85,,,,,85
 1,72,Masters 50-54,Raw,B,Serena Perry,New Zealand,1965,F,70.8,,,,,62.5,67.5,72.5,72.5,,,,,72.5
@@ -17,16 +17,16 @@ Place,WeightClassKg,Division,Equipment,Event,Name,Country,BirthYear,Sex,Bodyweig
 1,85,Open,Raw,B,Taggart Duburiya,Nauru,1992,M,83.3,,,,,172.5,182.5,-187.5,182.5,,,,,182.5
 1,94,Open,Raw,B,Matthew McKay,Australia,1991,M,93.3,,,,,170,175,-177.5,175,,,,,175
 2,94,Open,Raw,B,Gurbakhshsis Singh,Australia,1984,M,91,,,,,105,115,122.5,122.5,,,,,122.5
-1,105,Open,Raw,B,Langer Wharton,Nauru,1992,M,104.4,,,,,200,210,-215,210,,,,,210
+1,105,Open,Raw,B,Langer Olsson Wharton,Nauru,1992,M,104.4,,,,,200,210,-215,210,,,,,210
 2,105,Open,Raw,B,Taylor Davis #2,Australia,1983,M,100.6,,,,,190,200,-210,200,,,,,200
 3,105,Open,Raw,B,Nathan Isles,Australia,1994,M,104.6,,,,,167.5,175,180,180,,,,,180
 1,120,Masters 40-44,Raw,B,Elvin Brechtefeld,Nauru,1978,M,119,,,,,210,-216,-216,210,,,,,210
-1,85,Masters 45-49,Raw,B,Richard Haureliuk,Nauru,1973,M,83.3,,,,,80,85,90,90,,,,,90
+1,85,Masters 45-49,Raw,B,Richard Haureliuk,,1973,M,83.3,,,,,80,85,90,90,,,,,90
 1,120,Masters 45-49,Raw,B,Mark Haureliuk,Australia,1971,M,118.5,,,,,140,150,155,155,,,,,155
 2,120,Masters 45-49,Raw,B,Dave Keong,Australia,1973,M,114.2,,,,,135,142.5,152.5,152.5,,,,,152.5
 3,120,Masters 45-49,Raw,B,Jason Wharton,Nauru,1970,M,109.4,,,,,140,145,150,150,,,,,150
 4,120,Masters 50-54,Raw,B,Mauro Soto,Australia,1965,M,118.2,,,,,120,125,127.5,127.5,,,,,127.5
-1,105,Masters 60-64,Raw,B,Alan Puleosi,Niue,1957,M,95,,,,,75,85,-100,85,,,,,85
+1,105,Masters 60-64,Raw,B,Alan Tano Puleosi,Niue,1957,M,95,,,,,75,85,-100,85,,,,,85
 1,94,Masters 60-64,Single-ply,B,John Rivers,New Zealand,,M,93.7,,,,,115,120,125,125,,,,,125
 DQ,120,Open,Single-ply,B,Sane Faatoe,Australia,1987,M,116,,,,,-237.5,-237.5,-237.5,,,,,,
 1,53,Open,Raw,SBD,Elizabeth Craven,Australia,1975,F,52.8,145,152.5,-158,152.5,77.5,82.5,85,85,170,182.5,-190,182.5,420
@@ -36,7 +36,7 @@ DQ,120,Open,Single-ply,B,Sane Faatoe,Australia,1987,M,116,,,,,-237.5,-237.5,-237
 2,64,Open,Raw,SBD,Fern Malcolm,Australia,1989,F,63,127.5,135,137.5,137.5,82.5,85,-87.5,85,142.5,147.5,152.5,152.5,375
 1,72,Open,Raw,SBD,Isabella Thomson,Australia,1989,F,71.5,162.5,167.5,-170,167.5,80,-85,85,85,175,182.5,187.5,187.5,440
 2,72,Open,Raw,SBD,Megan Reed,Australia,1993,F,67.8,150,-157.5,-157.5,150,85,90,-92.5,90,167.5,175,182.5,182.5,422.5
-1,84,Open,Raw,SBD,Einasleigh Doughty,Australia,1991,F,83.4,170,175,180,180,85,90,-92.5,90,170,180,182.5,182.5,452.5
+1,84,Open,Raw,SBD,Einasleigh Happer,Australia,1991,F,83.4,170,175,180,180,85,90,-92.5,90,170,180,182.5,182.5,452.5
 2,84,Open,Raw,SBD,Natalie Chu,Australia,1989,F,83.6,175,-180,-180,175,77.5,-82.5,82.5,82.5,180,-195,-197.5,180,437.5
 1,100,Open,Raw,SBD,Luisa Peters,Cook Islands,1993,F,98.5,175,185,190,190,60,65,-67.5,65,160,175,182.5,182.5,437.5
 1,72,Sub-Juniors,Raw,SBD,Neave Muller,Australia,2000,F,72,105,110,-115,110,55,-57.5,57.5,57.5,130,142.5,-147.5,142.5,310
@@ -49,7 +49,7 @@ DQ,120,Open,Single-ply,B,Sane Faatoe,Australia,1987,M,116,,,,,-237.5,-237.5,-237
 1,84,Juniors,Raw,SBD,Jewel Tasi,Samoa,1998,F,83.2,165,177.5,-185,177.5,80,85,-90,85,180,195,-210,195,457.5
 1,58,Masters 40-44,Raw,SBD,Jenelle Schultz,Australia,1977,F,56.7,107.5,112.5,117.5,117.5,65,70,-72.5,70,135,142.5,-150,142.5,330
 1,72,Masters 40-44,Raw,SBD,Sarah Wheal,Australia,1977,F,71.2,122.5,127.5,132.5,132.5,72.5,77.5,-80,77.5,140,-150,152.5,152.5,362.5
-1,84,Masters 40-44,Raw,SBD,Nicole Burns,Australia,1977,F,83.3,102.5,107.5,112.5,112.5,62.5,67.5,-70,67.5,-115,115,122.5,122.5,302.5
+1,84,Masters 40-44,Raw,SBD,Nicky Burns,Australia,1977,F,83.3,102.5,107.5,112.5,112.5,62.5,67.5,-70,67.5,-115,115,122.5,122.5,302.5
 1,100,Masters 40-44,Raw,SBD,Pandora Togiaso,New Zealand,1978,F,91.1,125,140,155,155,50,60,75,75,150,175,-195,175,405
 1,84,Masters 45-49,Raw,SBD,Joanne Paine,Australia,1970,F,78.5,122.5,130,135,135,80,85,87.5,87.5,127.5,135,140,140,362.5
 1,58,Masters 55-59,Raw,SBD,Cristina Ciraudo,Australia,1961,F,57.2,92.5,100,104,104,55,-60,60,60,120,130,137.5,137.5,301.5
@@ -71,7 +71,7 @@ DQ,120,Open,Single-ply,B,Sane Faatoe,Australia,1987,M,116,,,,,-237.5,-237.5,-237
 1,120+,Open,Raw,SBD,Joseph Whittaker,New Zealand,1985,M,139.6,342.5,360,375,375,205,217.5,227.5,227.5,315,327.5,-332.5,327.5,930
 2,120+,Open,Raw,SBD,Tony Reinmuth,Australia,1989,M,160.2,350,372.5,-380,372.5,215,225,232.5,232.5,300,317.5,-330,317.5,922.5
 1,62,Juniors,Raw,SBD,Brendon Do,Australia,1996,M,61.5,135,147.5,152.5,152.5,95,100,102.5,102.5,167.5,-182.5,-182.5,167.5,422.5
-1,69,Juniors,Raw,SBD,Wesley Foo,Australia,1996,M,68.3,165,177.5,185,185,100,102.5,105,105,-200,200,215,215,505
+1,69,Juniors,Raw,SBD,Wesley Foo Shih Chin,Australia,1996,M,68.3,165,177.5,185,185,100,102.5,105,105,-200,200,215,215,505
 1,77,Juniors,Raw,SBD,Christophe Ang,Australia,1995,M,76.6,210,220,225,225,157.5,163.5,167.5,167.5,-255,270,280,280,672.5
 2,77,Juniors,Raw,SBD,Jason Stoupas,Australia,1996,M,77,192.5,205,210,210,120,127.5,130,130,265,283.5,-290,283.5,623.5
 3,77,Juniors,Raw,SBD,Caleb Wong,Australia,1996,M,76.4,182.5,-190,-190,182.5,122.5,-127.5,-127.5,122.5,222.5,-230,-230,222.5,527.5
@@ -86,8 +86,8 @@ DQ,120,Open,Single-ply,B,Sane Faatoe,Australia,1987,M,116,,,,,-237.5,-237.5,-237
 2,120,Masters 45-49,Raw,SBD,Jason Wharton,Nauru,1970,M,110.5,215,225,-230,225,142.5,150,-152.5,150,240,250,255,255,630
 1,105,Masters 50-54,Raw,SBD,Eric Dumas,Australia,1964,M,99.9,255,267.5,-270,267.5,142.5,147.5,150,150,272.5,282.5,287.5,287.5,705
 2,105,Masters 50-54,Raw,SBD,Gavin Turrell,Australia,1967,M,104.4,160,165,-170,165,140,152.5,-158.5,152.5,270,-287.5,-287.5,270,587.5
-3,105,Masters 50-54,Raw,SBD,Iven Notte,Nauru,1968,M,103.5,175,185,195,195,95,105,-110,105,190,-200,-200,190,490
+3,105,Masters 50-54,Raw,SBD,Ivan Notte,Nauru,1968,M,103.5,175,185,195,195,95,105,-110,105,190,-200,-200,190,490
 1,120,Masters 50-54,Raw,SBD,Mauro Soto,Australia,1965,M,117.7,195,205,-217.5,205,120,125,130,130,195,205,210,210,545
 1,120+,Masters 50-54,Raw,SBD,Steve Lousich,New Zealand,1965,M,126.4,250,265,280,280,170,185,-201,185,215,225,-240,225,690
-1,105,Masters 60-64,Raw,SBD,Alan Puleosi,Niue,1957,M,94.5,90,-100,-100,90,80,90,-100,90,140,160,-170,160,340
+1,105,Masters 60-64,Raw,SBD,Alan Tano Puleosi,Niue,1957,M,94.5,90,-100,-100,90,80,90,-100,90,140,160,-170,160,340
 1,94,Masters 60-64,Single-ply,SBD,John Rivers,New Zealand,1954,M,93.5,150,165,175,175,115,120,-122.5,120,170,190,-200,190,485

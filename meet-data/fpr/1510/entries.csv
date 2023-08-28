@@ -44,7 +44,7 @@ DQ,Aleksandr Chernov,Open,1982,103.4,-140,-140,-140,,105,M,Александр Ч
 3,Ramil Sharafutdinov,Open,1990,117.5,140,150,155,155,120,M,Рамиль Шарафутдинов,Raw,B,155
 4,Vladimir Efremov,Open,1971,106,135,140,145,145,120,M,Владимир Ефремов,Raw,B,145
 5,Aleksey Erenkov,Open,,113.65,120,125,130,130,120,M,Алексей Еренков,Raw,B,130
-1,Dmitriy Ivanov,Open,1984,187.3,215,225,232.5,232.5,120+,M,Дмитрий Иванов,Raw,B,232.5
+1,Dmitriy Ivanov #1,Open,1984,187.3,215,225,232.5,232.5,120+,M,Дмитрий Иванов,Raw,B,232.5
 1,Lyudmila Berezina,Open,1978,42.75,35,40,42.5,42.5,47,F,Людмила Березина,Single-ply,B,42.5
 1,Natalya Meteleva,Open,1973,51.4,60,70,-75,70,52,F,Наталья Метелева,Single-ply,B,70
 2,Viktoriya Semennikova,Open,1988,51.35,40,42.5,-45,42.5,52,F,Виктория Семенникова,Single-ply,B,42.5
@@ -56,15 +56,15 @@ DQ,Aleksandr Chernov,Open,1982,103.4,-140,-140,-140,,105,M,Александр Ч
 1,Elena Ivanova,Open,1992,83.2,90,95,100,100,84,F,Елена Иванова,Single-ply,B,100
 2,Tatyana Magomedsaidova,Open,1993,73.35,50,55,60,60,84,F,Татьяна Магомедсаидова,Single-ply,B,60
 1,Maksim Kazakov,Teen,1999,46.35,55,57.5,-60,57.5,48,M,Максим Казаков,Single-ply,B,57.5
-2,Oleg Smirnov,Teen,2001,45.65,42.5,47.5,52.5,52.5,48,M,Олег Смирнов,Single-ply,B,52.5
+2,Oleg Smirnov #5,Teen,2001,45.65,42.5,47.5,52.5,52.5,48,M,Олег Смирнов,Single-ply,B,52.5
 1,Georgiy Zhdanov,Teen,1997,48.7,80,85,-90,85,53,M,Георгий Жданов,Single-ply,B,85
-2,Evgeniy Zakharov,Teen,1998,53,50,55,-60,55,53,M,Евгений Захаров,Single-ply,B,55
+2,Evgeniy Zakharov #5,Teen,1998,53,50,55,-60,55,53,M,Евгений Захаров,Single-ply,B,55
 3,Dmitriy Rogachev,Teen,2000,49.65,45,50,-55,50,53,M,Дмитрий Рогачев,Single-ply,B,50
 1,Ruslan Tunbusov,Teen,1997,58.1,75,80,85,85,59,M,Руслан Тунбусов,Single-ply,B,85
 2,Sergey Zaytsev,Teen,1997,58.8,70,77.5,-82.5,77.5,59,M,Сергей Зайцев,Single-ply,B,77.5
 3,Ilya Chepakov,Teen,2001,58.35,70,75,-80,75,59,M,Илья Чепаков,Single-ply,B,75
 4,Sergey Trufanov,Teen,1999,55.2,50,55,60,60,59,M,Сергей Труфанов,Single-ply,B,60
-1,Ivan Ivanov,Teen,1998,65.8,100,105,-110,105,66,M,Іван Іванов,Single-ply,B,105
+1,Ivan Ivanov #6,Teen,1998,65.8,100,105,-110,105,66,M,Иван Иванов,Single-ply,B,105
 2,Dinar Salikhov,Teen,1997,64.8,80,85,90,90,66,M,Динар Салихов,Single-ply,B,90
 3,Roman Kuznetsov #3,Teen,1995,63.35,50,55,60,60,66,M,Роман Кузнецов,Single-ply,B,60
 1,Artem Korkin,Open,1991,62.7,120,130,135,135,66,M,Артем Коркин,Single-ply,B,135
@@ -80,7 +80,7 @@ DQ,Aleksandr Chernov,Open,1982,103.4,-140,-140,-140,,105,M,Александр Ч
 1,Nikolay Mitrofanov,Sub-Juniors,1997,76.9,70,75,80,80,83,M,Николай Митрофанов,Single-ply,B,80
 1,Abubakir Mamin,Open,1992,82.25,180,185,192.5,192.5,83,M,Абубакир Мамин,Single-ply,B,192.5
 2,Sergey Sizov,Open,1982,78.9,155,160,165,165,83,M,Сергей Сизов,Single-ply,B,165
-3,Artem Zaytsev,Open,1994,78.35,150,157.5,162.5,162.5,83,M,Артем Зайцев,Single-ply,B,162.5
+3,Artem Zaytsev #8,Open,1994,78.35,150,157.5,162.5,162.5,83,M,Артём Зайцев,Single-ply,B,162.5
 4,Damir Sharafutdinov,Open,1993,81.9,120,130,135,135,83,M,Дамир Шарафутдинов,Single-ply,B,135
 DQ,Ilya Suslikov,Open,1982,76.15,-165,-165,-165,,83,M,Илья Сусликов,Single-ply,B,
 2,Aleksey Gorodchikov,Sub-Juniors,1999,85.95,90,95,-100,95,93,M,Алексей Городчиков,Single-ply,B,95
@@ -95,4 +95,4 @@ DQ,Ilya Suslikov,Open,1982,76.15,-165,-165,-165,,83,M,Илья Сусликов,
 3,Konstantin Poduzov,Open,1979,108.85,210,222.5,-230,222.5,120,M,Константин Подузов,Single-ply,B,222.5
 4,Anton Kovenkov,Open,1985,116.8,160,165,170,170,120,M,Антон Ковенков,Single-ply,B,170
 5,Mikhail Pavlov,Open,1974,107.45,150,155,160,160,120,M,Михаил Павлов,Single-ply,B,160
-1,Dmitriy Ivanov,Open,1984,187.3,-327.5,-327.5,327.5,327.5,120+,M,Дмитрий Иванов,Single-ply,B,327.5
+1,Dmitriy Ivanov #1,Open,1984,187.3,-327.5,-327.5,327.5,327.5,120+,M,Дмитрий Иванов,Single-ply,B,327.5

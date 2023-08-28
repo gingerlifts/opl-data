@@ -10,7 +10,7 @@ Criselda Fajardo,1,Juniors 20-23,F,Raw,CA,56,55.79,21,122.50,,62.50,,150.00,155,
 Shawna Chan,2,Juniors 20-23,F,Raw,CA,56,55.38,22,122.50,,55.00,,145.00,,322.50,SBD
 Carolina Millan,3,Juniors 20-23,F,Raw,CA,56,54.93,22,97.50,,47.50,,105.00,,250.00,SBD
 Kimberly Martinez,1,Juniors 18-19,F,Raw,CA,60,58.83,19,95.00,,40.00,,120.00,,255.00,SBD
-Caitlin Martinez,1,Juniors 20-23,F,Raw,CA,60,58.97,20,112.50,118,75.00,,150.00,155,337.50,SBD
+Caitlin Martinez #1,1,Juniors 20-23,F,Raw,CA,60,58.97,20,112.50,118,75.00,,150.00,155,337.50,SBD
 Jenny Tu,2,Juniors 20-23,F,Raw,CA,60,58.33,23,130.00,,72.50,77.5,132.50,,335.00,SBD
 Bianca Mendoza,3,Juniors 20-23,F,Raw,CA,60,59.69,20,92.50,,60.00,,125.00,,277.50,SBD
 Danielle Alvarez,DQ,Juniors 20-23,F,Raw,CA,60,59.87,23,102.50,,-52.50,,130.00,,,SBD
@@ -71,12 +71,12 @@ Tyler Yasuda,1,Juniors 20-23,M,Raw,CA,82.5,79.29,20,220.00,,140.00,,275.00,,635.
 Faris Jamil,2,Juniors 20-23,M,Raw,CA,82.5,81.51,21,217.50,,140.00,,275.00,278,632.50,SBD
 William Valle,3,Juniors 20-23,M,Raw,CA,82.5,81.28,21,237.50,,142.50,,247.50,,627.50,SBD
 Daniel Camacho,4,Juniors 20-23,M,Raw,CA,82.5,81.65,20,222.50,,157.50,,227.50,,607.50,SBD
-David Kim,5,Juniors 20-23,M,Raw,CA,82.5,79.88,23,197.50,,130.00,,255.00,,582.50,SBD
+David Kim #5,5,Juniors 20-23,M,Raw,CA,82.5,79.88,23,197.50,,130.00,,255.00,,582.50,SBD
 Jimmy Tu,6,Juniors 20-23,M,Raw,CA,82.5,77.07,20,205.00,,115.00,,245.00,,565.00,SBD
 Ed Kim,7,Juniors 20-23,M,Raw,CA,82.5,81.10,21,182.50,,110.00,,272.50,,565.00,SBD
 Mateo Diaz,8,Juniors 20-23,M,Raw,CA,82.5,80.47,23,190.00,,132.50,,232.50,,555.00,SBD
 Jonathan Liang,9,Juniors 20-23,M,Raw,CA,82.5,81.65,20,192.50,,140.00,,215.00,,547.50,SBD
-Jose Rodriguez,10,Juniors 20-23,M,Raw,CA,82.5,79.11,22,177.50,,135.00,,232.50,,545.00,SBD
+Jose Rodriguez #26,10,Juniors 20-23,M,Raw,CA,82.5,79.11,22,177.50,,135.00,,232.50,,545.00,SBD
 Ayron McKay,11,Juniors 20-23,M,Raw,CA,82.5,80.20,21,170.00,,107.50,,237.50,,515.00,SBD
 Brian Guzman,12,Juniors 20-23,M,Raw,CA,82.5,80.06,20,150.00,,115.00,,202.50,,467.50,SBD
 Andrew GenKuong,13,Juniors 20-23,M,Raw,CA,82.5,79.88,21,182.50,,90.00,,177.50,,450.00,SBD
@@ -84,12 +84,12 @@ Troy Rodriguez,14,Juniors 20-23,M,Raw,CA,82.5,75.07,20,142.50,,107.50,,152.50,,4
 David Avila,DQ,Juniors 20-23,M,Raw,CA,82.5,82.19,20,205.00,,-152.50,,235.00,,,SBD
 Cameron Hansen,1,Juniors 16-17,M,Raw,CA,90,88.99,16,145.00,,92.50,,195.00,,432.50,SBD
 Roche McCoy,1,Juniors 18-19,M,Raw,CA,90,87.41,19,175.00,,152.50,157.5,237.50,,565.00,SBD
-Jose Garcia,1,Juniors 20-23,M,Raw,CA,90,87.59,21,265.00,,187.50,,287.50,,740.00,SBD
+Jose Garcia #16,1,Juniors 20-23,M,Raw,CA,90,87.59,21,265.00,,187.50,,287.50,,740.00,SBD
 Timothy Ellis,2,Juniors 20-23,M,Raw,CA,90,86.09,22,242.50,,157.50,,245.00,,645.00,SBD
 Phillip Vu,3,Juniors 20-23,M,Raw,CA,90,88.27,21,237.50,,120.00,,250.00,,607.50,SBD
 Dong Kim,4,Juniors 20-23,M,Raw,CA,90,87.72,21,205.00,,105.00,,240.00,,550.00,SBD
 Frank Torres,5,Juniors 20-23,M,Raw,CA,90,89.86,21,192.50,,142.50,,210.00,,545.00,SBD
-Phuc Nguyen,6,Juniors 20-23,M,Raw,CA,90,86.86,22,167.50,,95.00,,200.00,,462.50,SBD
+Phuc Nguyen #4,6,Juniors 20-23,M,Raw,CA,90,86.86,22,167.50,,95.00,,200.00,,462.50,SBD
 Angus Nguyen,7,Juniors 20-23,M,Raw,CA,90,83.91,21,160.50,,85.00,,185.00,,430.50,SBD
 Michael Kendrick,DQ,Juniors 20-23,M,Raw,CA,90,88.59,20,190.00,,-110.00,,227.50,,,SBD
 Mitchell Evans,DQ,Juniors 20-23,M,Raw,CA,90,89.13,22,-170.00,,-125.00,,215.00,,,SBD
@@ -121,7 +121,7 @@ Jeremy Klein,DQ,Open,M,Raw,CA,82.5,78.02,24,-140.00,,,,,,,SBD
 Joseph Bollman,DQ,Open,M,Raw,CA,82.5,80.97,24,195.00,,-132.50,,,,,SBD
 Nate Suangpo,1,Open,M,Raw,CA,90,87.95,32,245.00,,167.50,,282.50,,695.00,SBD
 David Lomeli,2,Open,M,Raw,CA,90,88.99,29,227.50,,207.50,,230.00,,665.00,SBD
-John Lee,3,Open,M,Raw,CA,90,89.99,39,230.00,,155.00,,265.00,,650.00,SBD
+John Lee #7,3,Open,M,Raw,CA,90,89.99,39,230.00,,155.00,,265.00,,650.00,SBD
 Jon Hodges,4,Open,M,Raw,NV,90,87.59,33,192.50,,157.50,,232.50,,582.50,SBD
 John Demery,5,Open,M,Raw,CA,90,85.87,24,195.00,,137.50,,240.00,,572.50,SBD
 Greg Moss,6,Open,M,Raw,CA,90,87.86,26,185.00,,137.50,,250.00,,572.50,SBD
@@ -147,7 +147,7 @@ Matthew Saner,1,Open,M,Raw,CA,125,121.65,28,237.50,,175.00,,272.50,,685.00,SBD
 Raf Dancel,2,Open,M,Raw,CA,125,124.06,29,205.00,,120.00,,242.50,,567.50,SBD
 Justin Suh,1,Open,M,Raw,CA,140,130.68,24,162.50,,115.00,,195.00,,472.50,SBD
 O'Neil Roussell,1,Open,M,Raw,CA,140+,162.75,28,275.00,,200.00,,275.00,,750.00,SBD
-John Lee,1,Submasters 35-39,M,Raw,CA,90,89.99,39,230.00,,155.00,,265.00,,650.00,SBD
+John Lee #7,1,Submasters 35-39,M,Raw,CA,90,89.99,39,230.00,,155.00,,265.00,,650.00,SBD
 Mike Campbell,DQ,Masters 55-59,M,Raw,CA,67.5,66.50,56,-132.50,,,,,,,SBD
 Nathan Charrissesin,DQ,Masters 40-44,M,Raw,CA,82.5,79.51,42,-145.00,,,,,,,SBD
 Lewis Jennings,1,Masters 40-44,M,Raw,CA,90,88.18,40,182.50,,140.00,,252.50,,575.00,SBD
@@ -186,7 +186,7 @@ Mike Wallace,1,Masters 60-64,M,Wraps,CA,82.5,81.10,61,110.00,,77.50,,155.00,,342
 Chris Durham,1,Masters 40-44,M,Wraps,CA,90,87.63,40,162.50,,117.50,,185.00,,465.00,SBD
 Omar Pacheco,1,Masters 40-44,M,Wraps,CA,100,96.80,40,190.00,,130.00,,182.50,,502.50,SBD
 Tim Copeland,1,Masters 45-49,M,Wraps,CA,100,98.02,47,207.50,,145.00,,227.50,,580.00,SBD
-Michael Pennington,1,Masters 50-54,M,Wraps,CA,100,95.84,51,165.00,167.5,120.00,,227.50,,512.50,SBD
+Michael Pennington #1,1,Masters 50-54,M,Wraps,CA,100,95.84,51,165.00,167.5,120.00,,227.50,,512.50,SBD
 Bruce MacKenzie,1,Masters 65-69,M,Wraps,CA,100,92.49,67,137.50,,97.50,,187.50,,422.50,SBD
 Ryan Barr,1,Masters 45-49,M,Wraps,CA,110,108.77,45,227.50,,142.50,,260.00,,630.00,SBD
 Chris Grace,1,Masters 40-44,M,Wraps,CA,125,114.12,42,240.00,,192.50,,260.00,,692.50,SBD
@@ -224,7 +224,7 @@ Tyler Van Loon,1,Juniors 20-23,M,Raw,CA,110,106.05,21,,,,,132.50,,132.50,D
 Vincent Craig,1,Juniors 20-23,M,Raw,CA,125,116.71,23,,,,,265.00,,265.00,D
 Tyler Van Loon,1,Open,M,Raw,CA,110,106.05,21,,,,,132.50,,132.50,D
 Brent Irek,1,Submasters 35-39,M,Raw,CA,110,103.56,39,,,,,235.00,,235.00,D
-Michael Pennington,1,Masters 50-54,M,Raw,CA,100,95.84,51,,,,,227.50,,227.50,D
+Michael Pennington #1,1,Masters 50-54,M,Raw,CA,100,95.84,51,,,,,227.50,,227.50,D
 Gerry Torres,1,Masters 55-59,M,Raw,CA,125,121.88,57,,,,,185.00,,185.00,D
 Kyle Planeaux,1,Open,M,Single-ply,CA,90,86.23,24,,,,,255.00,,255.00,D
 Ryan Davis,1,Submasters 35-39,M,Single-ply,CA,100,98.20,35,,,,,252.50,,252.50,D

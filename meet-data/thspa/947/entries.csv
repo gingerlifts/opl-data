@@ -30,7 +30,7 @@ Boys,55.79,9,Alex Sharp,Dickinson,55.7,190.51,102.06,179.17,471.74,Single-ply,SB
 Boys,59.87,10,Andrew Brooks,Houston Madison,55.88,192.78,97.52,181.44,471.74,Single-ply,SBD,M
 Boys,59.87,11,Marcus Manley,Del Valle,55.97,199.58,90.72,172.37,462.66,Single-ply,SBD,M
 Boys,55.79,12,Carlos Bravo,Lewisville The Colony,54.52,181.44,92.99,174.63,449.06,Single-ply,SBD,M
-Boys,59.87,13,Josh Hill,Montgomery,55.97,181.44,95.25,167.83,444.52,Single-ply,SBD,M
+Boys,59.87,13,Josh Hill #1,Montgomery,55.97,181.44,95.25,167.83,444.52,Single-ply,SBD,M
 Boys,55.79,14,Mario Leos,Seguin,55.61,154.22,97.52,181.44,433.18,Single-ply,SBD,M
 Boys,55.79,15,Blake Mirowitz,Red Oak,55.7,163.29,90.72,174.63,428.64,Single-ply,SBD,M
 Boys,55.79,16,Brandon Alford,Kyle Lehman,55.34,154.22,86.18,185.97,426.38,Single-ply,SBD,M
@@ -44,7 +44,7 @@ Boys,59.87,3,Richard Hernandez,Lewisville The Colony,59.42,219.99,122.47,192.78,
 Boys,59.87,4,Rodney Bigham,Channelview,59.6,192.78,129.27,210.92,532.97,Single-ply,SBD,M
 Boys,59.87,5,Aj Dovalina,Laredo Alexander,59.33,201.85,104.33,219.99,526.17,Single-ply,SBD,M
 Boys,59.87,6,Sonny Khokar,Frisco Wakeland,58.88,192.78,117.93,208.65,519.36,Single-ply,SBD,M
-Boys,67.13,7,Edgar Martinez,Laredo Cigarroa,60,206.38,95.25,197.31,498.95,Single-ply,SBD,M
+Boys,67.13,7,Edgar Martinez #4,Laredo Cigarroa,60,206.38,95.25,197.31,498.95,Single-ply,SBD,M
 Boys,59.87,8,Larkin Alexander,Waxahachie,59.15,183.7,113.4,195.04,492.15,Single-ply,SBD,M
 Boys,59.87,9,Jealious Ordinallo,Pflugerville Connally,59.6,179.17,102.06,204.12,485.34,Single-ply,SBD,M
 Boys,59.87,10,Rolando Salazar,Belton,59.69,181.44,95.25,199.58,476.27,Single-ply,SBD,M
@@ -121,7 +121,7 @@ Boys,89.81,13,Andrew Kindred,Waxahachie,88.63,260.82,117.93,254.01,632.76,Single
 Boys,89.81,14,Kristian Blaylock,Clute Brazoswood,85.64,244.94,142.88,240.4,628.23,Single-ply,SBD,M
 Boys,89.81,15,Dallas Glass,Elgin,88.36,238.14,156.49,233.6,628.23,Single-ply,SBD,M
 Boys,89.81,16,Lazaro Smith,Beeville Jones,88.81,254.01,133.81,233.6,621.42,Single-ply,SBD,M
-Boys,89.81,DQ,Josh Jones,Abilene,86.45,,,,,Single-ply,SBD,M
+Boys,89.81,DQ,Josh Jones #6,Abilene,86.45,,,,,Single-ply,SBD,M
 Boys,89.81,DQ,Chris Cesar,College Station A&M; Cons,86.55,242.67,,,,Single-ply,SBD,M
 Boys,89.81,DQ,Demeon Timmons,Marshall,86.73,,,,,Single-ply,SBD,M
 Boys,89.81,DQ,Abner Godoy,Midland,89.09,238.14,,,,Single-ply,SBD,M
@@ -150,7 +150,7 @@ Boys,99.79,DQ,Derrick Anderson,Big Spring,96.89,,,,,Single-ply,SBD,M
 Boys,99.79,DQ,Josh Gutierrez,Magnolia West,98.34,254.01,,,,Single-ply,SBD,M
 Boys,99.79,DQ,Jesse Hernandez,Granbury,98.16,,,,,Single-ply,SBD,M
 Boys,99.79,DQ,Jerry Nino,Laredo Martin,99.16,,,,,Single-ply,SBD,M
-Boys,109.77,1,Preston Turner,Victoria Memorial,108.86,333.39,249.48,260.82,843.68,Single-ply,SBD,M
+Boys,109.77,1,Preston Turner #3,Victoria Memorial,108.86,333.39,249.48,260.82,843.68,Single-ply,SBD,M
 Boys,109.77,2,Aaron Ripkowski,Dayton,108.41,272.16,204.12,285.76,762.04,Single-ply,SBD,M
 Boys,109.77,3,Josh Morrison,Lewisville The Colony,107.32,315.25,181.44,249.48,746.16,Single-ply,SBD,M
 Boys,109.77,4,Freddy Chavarria,Laredo Martin,103.15,283.5,185.97,249.48,718.94,Single-ply,SBD,M
@@ -182,7 +182,7 @@ Boys,124.74,DQ,Jacob Alford,Lindale,121.11,324.32,161.03,,,Single-ply,SBD,M
 Boys,124.74,DQ,Ray Gentry,Santa Fe,123.2,,,,,Single-ply,SBD,M
 Boys,124.74+,1,Josh Burkham,Lewisville The Colony,140.43,319.78,197.31,272.16,789.25,Single-ply,SBD,M
 Boys,124.74+,2,Rafael Gallo,Katy Mayde Creek,128.46,333.39,170.1,265.35,768.84,Single-ply,SBD,M
-Boys,124.74+,3,Dominique Smith,Everman,140.52,317.51,190.51,260.82,768.84,Single-ply,SBD,M
+Boys,124.74+,3,Dominique Smith #2,Everman,140.52,317.51,190.51,260.82,768.84,Single-ply,SBD,M
 Boys,124.74+,4,Ethan Perkins,Nacogdoches,132.09,294.84,188.24,267.62,750.7,Single-ply,SBD,M
 Boys,124.74+,5,Xavier Johnson #1,Burleson,140.52,283.5,170.1,283.5,737.09,Single-ply,SBD,M
 Boys,124.74+,6,Miguel Estrada,Rockport-Fulton,132.54,294.84,167.83,272.16,734.82,Single-ply,SBD,M

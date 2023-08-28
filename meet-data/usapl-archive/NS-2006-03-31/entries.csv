@@ -6,7 +6,7 @@ Zach Mach,Necedah High,51.6,52,112.5,117.5,122.5,122.5,-52.5,55,-57.5,55,120,127
 Luke Harris,Ridgeview High,49.4,52,102.5,115,-122.5,115,-52.5,52.5,-60,52.5,115,137.5,-147.5,137.5,305,M,M-JV,SBD,Single-ply,5
 Riley Dohr,Neenah High,51.2,52,105,112.5,120,120,-52.5,55,60,60,105,110,117.5,117.5,297.5,M,M-JV,SBD,Single-ply,6
 Brian Haley,Washington-Marion High,50.1,52,92.5,100,-107.5,100,55,62.5,-70,62.5,105,117.5,127.5,127.5,290,M,M-JV,SBD,Single-ply,7
-William Wright,Southeast Guilford High,49,52,102.5,-112.5,-112.5,102.5,52.5,55,-62.5,55,107.5,122.5,-140,122.5,280,M,M-JV,SBD,Single-ply,8
+William Wright #3,Southeast Guilford High,49,52,102.5,-112.5,-112.5,102.5,52.5,55,-62.5,55,107.5,122.5,-140,122.5,280,M,M-JV,SBD,Single-ply,8
 Jason Hinkel,Utica High,39.6,52,-105,105,120,120,67.5,75,-83,75,60,-67.5,70,70,265,M,M-JV,SBD,Single-ply,9
 Giovanni Marquez-Vega,Woodward Academy,54.1,56,115,130,-135,130,82.5,92.5,-97.5,92.5,-115,125,-130,125,347.5,M,M-JV,SBD,Single-ply,1
 Bobby Salm,Neenah High,55.4,56,117.5,127.5,-132.5,127.5,57.5,-60,60,60,137.5,147.5,152.5,152.5,340,M,M-JV,SBD,Single-ply,2
@@ -102,7 +102,7 @@ Donald Jr Cooper,Natchitoches Central,73.2,75,207.5,222.5,-242.5,222.5,120,125,1
 Kelvin Gary,Glen Mills High,72.3,75,-205,205,242.5,242.5,107.5,117.5,-125,117.5,192.5,207.5,225,225,585,M,M-V,SBD,Single-ply,3
 Joshua Vyverman,Plainwell High,73.8,75,190,202.5,210,210,120,135,-140,135,-205,217.5,-242.5,217.5,562.5,M,M-V,SBD,Single-ply,4
 Bryan Hawkins,Harrison High,73.7,75,210,227.5,235,235,105,120,127.5,127.5,165,-190,190,190,552.5,M,M-V,SBD,Single-ply,5
-Andrew Hall,Galatia High,74,75,197.5,-210,-210,197.5,107.5,117.5,-122.5,117.5,190,205,210,210,525,M,M-V,SBD,Single-ply,6
+Andrew Hall #8,Galatia High,74,75,197.5,-210,-210,197.5,107.5,117.5,-122.5,117.5,190,205,210,210,525,M,M-V,SBD,Single-ply,6
 Jawahn Perkins,Glen Mills High,73.8,75,170,192.5,-202.5,192.5,97.5,112.5,115,115,195,215,-230,215,522.5,M,M-V,SBD,Single-ply,7
 Shamarr Ellison,Glen Mills High,74.8,75,167.5,-190,197.5,197.5,112.5,120,130,130,170,192.5,-212.5,192.5,520,M,M-V,SBD,Single-ply,8
 Jacob Maffett,Ridgeview High,74.9,75,182.5,197.5,-210,197.5,87.5,95,-100,95,182.5,205,-215,205,497.5,M,M-V,SBD,Single-ply,9
@@ -126,7 +126,7 @@ Brian Mikulecky,J.I. Case High,80.8,82.5,190,202.5,-212.5,202.5,-100,100,110,110
 Stephen Fuller,Bellevue East,80.1,82.5,200,212.5,-217.5,212.5,130,137.5,-142.5,137.5,182.5,-192.5,-192.5,182.5,532.5,M,M-V,SBD,Single-ply,8
 Tom Zintsmaster,Powers High,80.7,82.5,172.5,180,-182.5,180,132.5,-140,142.5,142.5,210,-217.5,,210,532.5,M,M-V,SBD,Single-ply,9
 Trevor Stokes,Boone Central High,82.5,82.5,172.5,185,197.5,197.5,100,110,117.5,117.5,-190,215,-227.5,215,530,M,M-V,SBD,Single-ply,10
-Robert Miller,Powers High,80.3,82.5,200,207,-217.5,207,95,97.5,-102.5,97.5,197.5,202.5,-215,202.5,507,M,M-V,SBD,Single-ply,11
+Robert Miller #3,Powers High,80.3,82.5,200,207,-217.5,207,95,97.5,-102.5,97.5,197.5,202.5,-215,202.5,507,M,M-V,SBD,Single-ply,11
 Justin Farrell,Appleton East,80,82.5,-175,180,187.5,187.5,115,-125,-125,115,175,190,197.5,197.5,500,M,M-V,SBD,Single-ply,12
 Robert Daniels,Mt. Home High,82.4,82.5,172.5,192.5,-197.5,192.5,102.5,112.5,-115,112.5,-192.5,-192.5,192.5,192.5,497.5,M,M-V,SBD,Single-ply,13
 Adam Frederiksen,J.I. Case High,82,82.5,165,175,185,185,-92.5,92.5,97.5,97.5,182.5,200,-210,200,482.5,M,M-V,SBD,Single-ply,14
@@ -144,7 +144,7 @@ Darryl McAllister,Bellevue East,87.1,90,-182.5,-182.5,182.5,182.5,125,130,135,13
 Tom Dowers,Skyview High,87.5,90,200,-210,210,210,-122.5,125,-135,125,190,205,-215,205,540,M,M-V,SBD,Single-ply,10
 Jacob Holmberg,Pearl River High,89.2,90,180,-195,-197.5,180,125,130,-142.5,130,185,197.5,200,200,510,M,M-V,SBD,Single-ply,11
 Georgio Sutton,Mt. Home High,84.7,90,-167.5,167.5,182.5,182.5,117.5,-130,-137.5,117.5,187.5,195,-205,195,495,M,M-V,SBD,Single-ply,12
-Kyle Clark,Mt. Home High,88.9,90,185,-192.5,192.5,192.5,85,-92.5,-95,85,190,212.5,-227.5,212.5,490,M,M-V,SBD,Single-ply,13
+Kyle Clark #2,Mt. Home High,88.9,90,185,-192.5,192.5,192.5,85,-92.5,-95,85,190,212.5,-227.5,212.5,490,M,M-V,SBD,Single-ply,13
 Brandon Fiebiger,Plainwell High,98.5,100,240,252.5,265,265,132.5,140,147.5,147.5,277.5,290,300,300,712.5,M,M-V,SBD,Single-ply,1
 Dustin Charbonnet,St. Amant High,99.7,100,-250,250,260,260,155,167.5,180,180,207.5,217.5,232.5,232.5,672.5,M,M-V,SBD,Single-ply,2
 Cody Hoeferer,York High,100,100,225,237.5,250,250,155,167.5,175,175,225,235,-245,235,660,M,M-V,SBD,Single-ply,3
@@ -202,7 +202,7 @@ Renee Dutscheck,Necedah High,55.8,56,110,117.5,-120,117.5,-45,45,50,50,112.5,117
 Victoria Rini,Alexandria High,55.7,56,-80,80,-87.5,80,40,45,-47.5,45,95,102.5,-107.5,102.5,227.5,F,F-JV,SBD,Single-ply,3
 Lauren Harrison,Ridgeview High,53.1,56,60,70,80,80,32.5,-40,40,40,75,102.5,-105,102.5,222.5,F,F-JV,SBD,Single-ply,4
 Katie Flaherty,G-E-T High,58.9,60,-117.5,-125,125,125,55,60,65,65,110,117.5,130,130,320,F,F-JV,SBD,Single-ply,1
-Ashley Taylor,Sioux Falls,59.3,60,95,105,112.5,112.5,70,-77.5,-77.5,70,110,120,-132.5,120,302.5,F,F-JV,SBD,Single-ply,2
+Ashley Taylor #1,Sioux Falls,59.3,60,95,105,112.5,112.5,70,-77.5,-77.5,70,110,120,-132.5,120,302.5,F,F-JV,SBD,Single-ply,2
 Cista Arecenaux,Washington-Marion High,57,60,90,97.5,-105,97.5,40,45,-47.5,45,110,120,-132.5,120,262.5,F,F-JV,SBD,Single-ply,3
 Emily VanMeveren,Stanton,58.3,60,82.5,-92.5,-95,82.5,40,-45,45,45,92.5,102.5,-112.5,102.5,230,F,F-JV,SBD,Single-ply,4
 Erin Ludlow,Plattsmouth High,64.7,67.5,137.5,150,-160,150,65,72.5,-75,72.5,137.5,145,-150,145,367.5,F,F-JV,SBD,Single-ply,1
@@ -309,7 +309,7 @@ Jennifer Fusak,Phillips High,70.3,75,102.5,112.5,117.5,117.5,55,-60,60,60,122.5,
 Chelsi Mundy,Mt. View High,74.2,75,107.5,-112.5,-112.5,107.5,-52.5,52.5,-55,52.5,117.5,127.5,-137.5,127.5,287.5,F,F-V,SBD,Single-ply,7
 Danielle Halverson,G-E-T High,71.8,75,100,-105,107.5,107.5,47.5,55,-60,55,-102.5,107.5,-112.5,107.5,270,F,F-V,SBD,Single-ply,8
 Ashley Kueffer,Bellevue East,82,82.5,160,175,-183,175,97.5,105,115,115,132.5,145,-157.5,145,435,F,F-V,SBD,Single-ply,1
-Kristen Smith,Alexandria High,81.9,82.5,140,147.5,150,150,57.5,60,65,65,147.5,160,162.5,162.5,377.5,F,F-V,SBD,Single-ply,2
+Kristen Smith #5,Alexandria High,81.9,82.5,140,147.5,150,150,57.5,60,65,65,147.5,160,162.5,162.5,377.5,F,F-V,SBD,Single-ply,2
 Jordan Stupecky,Neenah High,75.3,82.5,132.5,142.5,150,150,72.5,-77.5,-80,72.5,132.5,142.5,152.5,152.5,375,F,F-V,SBD,Single-ply,3
 Maren Kennedy,SENC-Stella High,78.8,82.5,100,107.5,112.5,112.5,57.5,62.5,-67.5,62.5,140,147.5,-150,147.5,322.5,F,F-V,SBD,Single-ply,4
 Christal Cobb,Alexandria High,77.5,82.5,100,112.5,-125,112.5,52.5,57.5,-62.5,57.5,127.5,137.5,142.5,142.5,312.5,F,F-V,SBD,Single-ply,5

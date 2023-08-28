@@ -1,6 +1,6 @@
 Name,Division,BirthYear,BirthDate,WeightClassKg,BodyweightKg,Country,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Sex,Place
 Andrzej Stanaszek,Open,1971,,52,51.5,Poland,270,170,140,580,SBD,Raw,M,1
-Sergey Zhuravlev,Open,1960,,52,51.9,Russia,222.5,112.5,215,550,SBD,Single-ply,M,2
+Sergey Zhuravlev #1,Open,1960,,52,51.9,Russia,222.5,112.5,215,550,SBD,Single-ply,M,2
 Hideaki Inaba,Open,1944,1944-01-13,52,51.6,Japan,225,90,220,535,SBD,Single-ply,M,3
 Ervin Gainer Sr,Open,1966,,52,51.5,USA,190,125,217.5,532.5,SBD,Single-ply,M,4
 Chih-Chiang Hsu,Open,1979,,52,51.4,Taiwan,192.5,110,220,522.5,SBD,Single-ply,M,5
@@ -52,7 +52,7 @@ Sigve Valentinsen,Open,1960,,82.5,81.6,Norway,290,180,275,745,SBD,Single-ply,M,5
 Ab Bruggink,Open,1961,,82.5,81.9,Netherlands,272.5,180,282.5,735,SBD,Single-ply,M,6
 Wataru Kobayakawa,Open,1975,,82.5,82,Japan,280,180,275,735,SBD,Single-ply,M,7
 I-Ching Hsieh,Open,1971,,82.5,79,Taiwan,260,140,280,680,SBD,Single-ply,M,8
-Stephen King,Open,1962,,82.5,82.2,New Zealand,245,140,260,645,SBD,Single-ply,M,9
+Stephen King #1,Open,1962,,82.5,82.2,New Zealand,245,140,260,645,SBD,Single-ply,M,9
 Hoi Leung,Open,1969,,82.5,82,Canada,230,145,265,640,SBD,Single-ply,M,10
 Achilles Kelepouris,Open,1975,,82.5,82.4,Australia,252.5,132.5,240,625,SBD,Single-ply,M,11
 Saul Balderrama,Open,1971,,82.5,80.2,Mexico,205,135,220,560,SBD,Single-ply,M,12
@@ -82,13 +82,13 @@ Stephen McKenzie,Open,1969,,100,99.8,Canada,285,167.5,300,752.5,SBD,Single-ply,M
 Simon Weaver,Open,1975,,100,98.6,New Zealand,285,182.5,282.5,750,SBD,Single-ply,M,8
 Fiore Inglese,Open,1962,,100,99.8,Australia,300,160,285,745,SBD,Single-ply,M,9
 Sen-Shan Lin,Open,1977,,100,98.2,Taiwan,295,195,250,740,SBD,Single-ply,M,10
-Rashed AlEmiry,Open,1970,,100,92.4,UAE,250,220,260,730,SBD,Single-ply,M,11
+Rashed Al Omari,Open,1970,,100,92.4,UAE,250,220,260,730,SBD,Single-ply,M,11
 Jeusu Armendariz,Open,1968,,100,99,Mexico,275,150,285,710,SBD,Single-ply,M,12
 Alan Mihaljevich,Open,1975,,100,100,Australia,267.5,157.5,275,700,SBD,Single-ply,M,13
 Tzvetalin Papazov,Open,1968,,100,97.4,Bulgaria,245,180,270,695,SBD,Single-ply,M,14
 Muhammad Idr Budd,Open,1962,,100,92,Pakistan,190,130,200,520,SBD,Single-ply,M,15
 Anthony Harris #1,Open,1964,,100,99.2,USA,355,205,,,SBD,Single-ply,M,DQ
-Eddie Torres,Open,1968,,100,99.6,Philippines,150,100,,,SBD,Single-ply,M,DQ
+Eddie Torres #2,Open,1968,,100,99.6,Philippines,150,100,,,SBD,Single-ply,M,DQ
 Sławomir Ceglarek,Open,1974,,100,99.8,Poland,,,,,SBD,Single-ply,M,DQ
 Serhiy Romanenko,Open,1972,,100,99.8,Ukraine,380,210,315,,SBD,Single-ply,M,DD
 Vladimir Ivanenko,Open,1956,,110,109.6,Ukraine,417.5,217.5,332.5,967.5,SBD,Single-ply,M,1
@@ -119,7 +119,7 @@ Francisco Gomez,Open,1963,,125,111.2,Mexico,180,110,180,470,SBD,Single-ply,M,8
 Auðunn Jónsson,Open,1972,,125,121.3,Iceland,375,,,,SBD,Single-ply,M,DQ
 Leszek Stawowy,Open,1964,,125,121.5,Poland,345,220,,,SBD,Single-ply,M,DQ
 Ramzan Yussupov,Open,1975,,125,124.3,Kazakhstan,,,,,SBD,Single-ply,M,DQ
-Julio Conrado,Open,1965,,125,116.1,Brazil,325,175,255,,SBD,Single-ply,M,DD
+Júlio César Conrado,Open,1965,,125,116.1,Brazil,325,175,255,,SBD,Single-ply,M,DD
 Brad Gillingham,Open,,,125+,144.2,USA,370,272.5,380,1022.5,SBD,Single-ply,M,1
 Žydrūnas Savickas,Open,1975,,125+,153.7,Lithuania,410,250,360,1020,SBD,Single-ply,M,2
 Maxim Gurianov,Open,1975,,125+,135.4,Russia,375,260,365,1000,SBD,Single-ply,M,3
@@ -127,7 +127,7 @@ Zdeněk Sedmík,Open,1974,,125+,134.1,Czechia,360,245,330,935,SBD,Single-ply,M,4
 Sean Culnan,Open,1967,,125+,151.6,USA,335,245,335,915,SBD,Single-ply,M,5
 Per Kyneb,Open,1964,,125+,133.3,Denmark,350,215,342.5,907.5,SBD,Single-ply,M,6
 Michael Kossen,Open,1969,,125+,154.1,Netherlands,345,237.5,320,902.5,SBD,Single-ply,M,7
-Jamie Reeves,Open,1962,,125+,145.6,UK,320,247.5,330,897.5,SBD,Single-ply,M,8
+Jamie Reeves #2,Open,1962,,125+,145.6,UK,320,247.5,330,897.5,SBD,Single-ply,M,8
 Francois Naude,Open,1966,,125+,147.8,South Africa,360,210,300,870,SBD,Single-ply,M,9
 Han-Wei Hsieh,Open,1982,,125+,135.5,Taiwan,290,140,290,720,SBD,Single-ply,M,10
 Michael Abdullah,Open,1964,,125+,134.9,Australia,75,,,,SBD,Single-ply,M,DQ

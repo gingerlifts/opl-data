@@ -2,7 +2,7 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,BodyweightKg,Country,Best3SquatK
 1,52,M,Open,Chun-Hsiung Hu,1974,51.9,Taiwan,225,107.5,245,577.5,,SBD,Single-ply
 2,52,M,Open,Ervin Gainer Sr,1966,51.5,USA,195,130,227.5,552.5,,SBD,Single-ply
 3,52,M,Open,Andrzej Stanaszek,1971,50.8,Poland,260,160,130,550,,SBD,Raw
-4,52,M,Open,Sergey Zhuravlev,1960,51.9,Russia,212.5,117.5,210,540,,SBD,Single-ply
+4,52,M,Open,Sergey Zhuravlev #1,1960,51.9,Russia,212.5,117.5,210,540,,SBD,Single-ply
 5,52,M,Open,Dariusz Wszoła,1978,52,Poland,215,130,190,535,,SBD,Single-ply
 6,52,M,Open,Yakan Nabe,1970,51.6,Japan,185,140,200,525,,SBD,Single-ply
 7,52,M,Open,Andris Rūdulis,1977,51.7,Latvia,190,162.5,147.5,500,,SBD,Single-ply
@@ -16,7 +16,7 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,BodyweightKg,Country,Best3SquatK
 3,60,M,Open,Mikhail Andryukhin,1970,59.6,Russia,250,142.5,250,642.5,,SBD,Single-ply
 4,60,M,Open,Hiroyuki Isagawa,1953,59.7,Japan,222.5,187.5,232.5,642.5,192.5,SBD,Single-ply
 5,60,M,Open,Tim Taylor #1,1966,59.4,USA,217.5,145,260,622.5,,SBD,Single-ply
-6,60,M,Open,V.R. Srikumar,1968,59.7,India,225,140,240,605,,SBD,Single-ply
+6,60,M,Open,V. R. Srikumar,1968,59.7,India,225,140,240,605,,SBD,Single-ply
 7,60,M,Open,Mariusz Olech,1974,59.8,Poland,215,130,245,590,,SBD,Single-ply
 8,60,M,Open,Ingo Richter,1974,59.7,Germany,220,122.5,200,542.5,,SBD,Single-ply
 9,60,M,Open,Eduardo Stacchini,1977,59.2,Brazil,160,102.5,170,432.5,,SBD,Single-ply
@@ -63,7 +63,7 @@ DQ,75,M,Open,Hans Andersson,1977,74.6,Sweden,,,,,,SBD,Single-ply
 13,82.5,M,Open,Ray Benemerito,1967,81,USA,252.5,180,262.5,695,,SBD,Single-ply
 14,82.5,M,Open,Chia-Tsun Chang,1979,82.2,Taiwan,260,175,255,690,,SBD,Single-ply
 15,82.5,M,Open,David Costello,1975,82.2,Australia,232.5,157.5,280,670,,SBD,Single-ply
-16,82.5,M,Open,Stephen King,1962,81.9,New Zealand,255,140,260,655,,SBD,Single-ply
+16,82.5,M,Open,Stephen King #1,1962,81.9,New Zealand,255,140,260,655,,SBD,Single-ply
 17,82.5,M,Open,Brandon Summers,1977,78.1,Canada,225,165,260,650,,SBD,Single-ply
 DQ,82.5,M,Open,Vituli Karatejevs,1970,81.7,Latvia,,,,,,SBD,Single-ply
 DQ,82.5,M,Open,Ab Bruggink,1961,81.9,Netherlands,250,,,,,SBD,Single-ply
@@ -85,9 +85,9 @@ DQ,82.5,M,Open,Hannu Malinen,1955,82.3,Finland,,,,,,SBD,Single-ply
 15,90,M,Open,S.Anil Kumar,1968,88.7,India,270,145,285,700,,SBD,Single-ply
 DQ,90,M,Open,Daniele Ghirardi,1969,88.6,Italy,,,,,,SBD,Single-ply
 DQ,90,M,Open,Stefano Bettati,1970,89.2,Italy,,,,,,SBD,Single-ply
-1,100,M,Open,Oleksiy Vyshnytskyy,1979,98.4,Ukraine,370,207.5,375,952.5,,SBD,Single-ply
+1,100,M,Open,Oleksiy Vyshnytskyy,,98.4,Ukraine,370,207.5,375,952.5,,SBD,Single-ply
 2,100,M,Open,Yuriy Fedorenko,1973,99.7,Russia,360,220,350,930,,SBD,Single-ply
-3,100,M,Open,Krzystof Welna,1971,97.1,Poland,350,220,335,905,,SBD,Single-ply
+3,100,M,Open,Krzysztof Welna,1971,97.1,Poland,350,220,335,905,,SBD,Single-ply
 4,100,M,Open,Erik Stiklestad,1970,98.6,Norway,352.5,205,340,897.5,,SBD,Single-ply
 5,100,M,Open,Sergey Makrushyn,1975,98.5,Ukraine,330,235,330,895,,SBD,Single-ply
 6,100,M,Open,Ray Benemerito,1967,97.7,USA,335,217.5,322.5,875,,SBD,Single-ply
@@ -120,10 +120,10 @@ DQ,100,M,Open,Yuji Hiragushi,1967,99.5,Japan,,,,,,SBD,Single-ply
 14,110,M,Open,Steve Lousich,1965,109.8,New Zealand,310,220,262.5,792.5,,SBD,Single-ply
 15,110,M,Open,Yoshikazu Kondoh,1957,102.6,Japan,300,200,260,760,,SBD,Single-ply
 16,110,M,Open,Peter Bongers,1965,103.2,Netherlands,285,167.5,295,747.5,,SBD,Single-ply
-17,110,M,Open,Karu Rain,1976,104.3,Estonia,270,180,285,735,,SBD,Single-ply
+17,110,M,Open,Rain Karu,1976,104.3,Estonia,270,180,285,735,,SBD,Single-ply
 18,110,M,Open,Bupinder Singh,1972,106,India,280,180,270,730,,SBD,Single-ply
 19,110,M,Open,Rahu Kumar-Shukla,1983,104.9,India,200,80,220,500,,SBD,Single-ply
-DQ,110,M,Open,Andy Fogarty,1963,110,Ireland,270,160,,,,SBD,Single-ply
+DQ,110,M,Open,Andrew Fogarty,1963,110,Ireland,270,160,,,,SBD,Single-ply
 DQ,110,M,Open,Tomasz Sabady,1974,108.1,Poland,340,230,320,,,SBD,Single-ply
 1,125,M,Open,Vitaliy Papazov,1980,124.2,Ukraine,425,270,352.5,1047.5,,SBD,Single-ply
 2,125,M,Open,Andrey Malanichev,1977,123.5,Russia,407.5,247.5,362.5,1017.5,,SBD,Single-ply

@@ -6,7 +6,7 @@ DQ,60,Colter Bowers,,NE,58.33,122.5,,,,hs,M,SBD,Single-ply
 DQ,140,Bob Brunner,,ND,129.73,,,,,int,M,SBD,Single-ply
 1,60,Nick Lenhart,,UT,59.69,140,142.5,220,502.5,jr,M,SBD,Single-ply
 1,82.5,Hasan Cheema,,WI,80.33,142.5,105,200,447.5,jr,M,SBD,Single-ply
-DQ,90,Michael Israetel,,MI,89.86,250,,,,jr,M,SBD,Single-ply
+DQ,90,Mike Israetel,,MI,89.86,250,,,,jr,M,SBD,Single-ply
 1,125,Jay Carlile,,AZ,122.38,341,200,260,801,jr,M,SBD,Single-ply
 1,67.5,Faren Stroh,,CO,67.04,225,137.5,227.5,590,m1,M,SBD,Single-ply
 1,75,Mark Woodworth,,OH,73.66,255,157.5,237.5,650,m1,M,SBD,Single-ply
@@ -101,10 +101,10 @@ DQ,67.5,Diane Siveny,,ND,62.69,,,,,wm1,F,B,Single-ply
 1,52,Heena Patel,,CO,50.08,,102.5,,102.5,wsmp,F,B,Single-ply
 1,110,Regal Summers,,OH,106.59,,147.5,,147.5,m1,M,B,Single-ply
 1,140,Chris Spirrison,,TX,136.08,,192.5,,192.5,m1,M,B,Single-ply
-1,90,Tony Scott,,CO,87.36,,135,,135,nov,M,B,Single-ply
+1,90,Tony Scott #2,,CO,87.36,,135,,135,nov,M,B,Single-ply
 1,67.5,Justin Deifel,,CO,67.13,,120,,120,open,M,B,Single-ply
 1,140,Chris Spirrison,,TX,136.08,,192.5,,192.5,open,M,B,Single-ply
-1,90,Tony Scott,,CO,87.36,,135,,135,smp,M,B,Single-ply
+1,90,Tony Scott #2,,CO,87.36,,135,,135,smp,M,B,Single-ply
 1,110,Cyrus Ford,,CO,101.33,,205,,205,smp,M,B,Single-ply
 1,90,Gary Clock,,ND,89.09,,,228.5,228.5,m2,M,D,Single-ply
 1,125,David Riethmann,,CO,124.87,,,195,195,m3,M,D,Single-ply
@@ -118,7 +118,7 @@ DQ,67.5,Diane Siveny,,ND,62.69,,,,,wm1,F,B,Single-ply
 1,90,Thomas Boles,,OH,83.64,,120,220,340,jr,M,BD,Single-ply
 1,110,Jim Drane,,NV,107.23,,145,232.5,377.5,m1,M,BD,Single-ply
 1,110,Randall Lacey,,GA,107.95,,170,250,420,m2,M,BD,Single-ply
-1,90,Jerry Homer,,AZ,87.86,,141,165,306,m3,M,BD,Single-ply
+1,90,Jerry Homer Sr,,AZ,87.86,,141,165,306,m3,M,BD,Single-ply
 1,125,David Riethmann,,CO,124.87,,115,195,310,m3,M,BD,Single-ply
 1,110,Ed Lytle,,IN,106.91,,95,137.5,232.5,mp,M,BD,Single-ply
 1,90,Dan Wagman,,CO,86.73,,192.5,260,452.5,open,M,BD,Single-ply
@@ -138,7 +138,7 @@ DQ,60,Colter Bowers,,NE,58.33,,,,,teen,M,BD,Single-ply
 1,40,Samson Hou-Seye,,WI,29.57,,21,41,62,youth,M,BD,Single-ply
 1,52,Kelsey Ishimatsu,,AZ,50.8,,25,72.5,97.5,wyouth,F,BD,Single-ply
 1,52,Kelsey Ishimatsu,,AZ,50.8,,25,72.5,97.5,wyouth,F,BD,Single-ply
-1,60,Jose Garcia,,NV,59.06,,87.5,,87.5,jr,M,B,Raw
+1,60,Jose Garcia #24,,NV,59.06,,87.5,,87.5,jr,M,B,Raw
 1,67.5,Justin Deifel,,CO,67.13,,120,,120,jr,M,B,Raw
 1,75,Ben Wallace #2,,OH,74.57,,132.5,,132.5,jr,M,B,Raw
 1,82.5,Jorge Gonzalez #2,,NV,81.42,,132.5,,132.5,jr,M,B,Raw
@@ -149,7 +149,7 @@ DQ,60,Colter Bowers,,NE,58.33,,,,,teen,M,BD,Single-ply
 1,82.5,Ken Van Buren,,AZ,79.7,,150,,150,m2,M,B,Raw
 2,82.5,Walt Sword,,AZ,81.87,,125,,125,m2,M,B,Raw
 1,110,Ken Tawzer,,CA,103.24,,137.5,,137.5,m2,M,B,Raw
-1,90,Jerry Homer,,AZ,87.86,,141,,141,m3,M,B,Raw
+1,90,Jerry Homer Sr,,AZ,87.86,,141,,141,m3,M,B,Raw
 DQ,110,Glenn Wilkerson,,TX,107.5,,,,,m3,M,B,Raw
 1,100,Charlei Doggett,,CO,98.7,,131,,131,m4,M,B,Raw
 1,75,Lyman Watson,,AZ,73.98,,147.5,,147.5,mp,M,B,Raw
@@ -163,7 +163,7 @@ DQ,110,Glenn Wilkerson,,TX,107.5,,,,,m3,M,B,Raw
 1,90,Jamie McDougal,,AR,83.32,,192.5,,192.5,pure,M,B,Raw
 1,110,Ken Tawzer,,CA,103.24,,137.5,,137.5,pure,M,B,Raw
 1,140+,Clay Tawzer,,CA,162.39,,147.5,,147.5,pure,M,B,Raw
-1,60,Jose Garcia,,NV,59.06,,87.5,,87.5,teen,M,B,Raw
+1,60,Jose Garcia #24,,NV,59.06,,87.5,,87.5,teen,M,B,Raw
 1,82.5,Jorge Gonzalez #2,,NV,81.42,,132.5,,132.5,teen,M,B,Raw
 1,60,Tina Rogers,,WI,59.96,,47.5,,47.5,wpure,F,B,Raw
 DQ,60,Colter Bowers,,NE,58.33,122.5,,,,hs,M,SBD,Raw

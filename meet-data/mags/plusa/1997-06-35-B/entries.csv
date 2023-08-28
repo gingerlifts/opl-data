@@ -33,7 +33,7 @@ Kim,100,Class II,,M,,,,160,,160,B,Multi-ply,1
 Thomas,110,Class II,,M,,,,187.5,,187.5,B,Multi-ply,1
 Domijan,67.5,F_OEM_APF,,F,,,,60,,60,B,Multi-ply,1
 Johnson,90,F_OEM_APF,,F,,,,105,,105,B,Multi-ply,1
-Duy,67.5,F_JEM_APF,20-23,F,,,,57.5,,57.5,B,Multi-ply,1
+Duy #1,67.5,F_JEM_APF,20-23,F,,,,57.5,,57.5,B,Multi-ply,1
 S. Vesely,67.5,F_OEM_APF,,F,,,142.5,100,160,402.5,SBD,Multi-ply,1
 R. Chalmers,82.5,F_OEM_APF,,F,,,130,92.5,142.5,365,SBD,Multi-ply,1
 Thomas,90+,F_OEM_APF,,F,,,152.5,105,147.5,405,SBD,Multi-ply,1
@@ -44,7 +44,7 @@ Dave Bornstein,90,M_OEM_APF,,M,,,295,200,305,800,SBD,Multi-ply,1
 Mark Placek,90,M_OEM_APF,,M,,,302.5,172.5,305,780,SBD,Multi-ply,2
 Michael Damiani,90,M_OEM_APF,,M,,,252.5,167.5,230,650,SBD,Multi-ply,3
 Klosus,90,M_OEM_APF,,M,,,247.5,152.5,247.5,647.5,SBD,Multi-ply,4
-Paul Urchik,100,M_OEM_APF,,M,387.5,-417.5,387.5,210,345,942.5,SBD,Multi-ply,1
+Paul Urchick,100,M_OEM_APF,,M,387.5,-417.5,387.5,210,345,942.5,SBD,Multi-ply,1
 J. Sportsman,100,M_OEM_APF,,M,,,322.5,185,285,792.5,SBD,Multi-ply,2
 Ed Clark,100,M_OEM_APF,,M,,,290,217.5,282.5,790,SBD,Multi-ply,3
 Phil Czarnec,110,M_OEM_APF,,M,,,335,197.5,287.5,820,SBD,Multi-ply,1
@@ -56,12 +56,12 @@ Rob Kolberer,140,M_OEM_APF,,M,,,410,242.5,287.5,940,SBD,Multi-ply,1
 Jan van de Weghe,140,M_OEM_APF,,M,,,342.5,222.5,312.5,877.5,SBD,Multi-ply,2
 Brent Uhlig,140+,M_OEM_APF,,M,,,365,235,290,890,SBD,Multi-ply,1
 Tim Greyer,100,Class II,,M,,,322.5,132.5,272.5,727.5,SBD,Multi-ply,1
-Marascher,100,Class II,,M,,,272.5,165,262.5,700,SBD,Multi-ply,2
+Eric Maroscher,100,Class II,,M,,,272.5,165,262.5,700,SBD,Multi-ply,2
 Joe Holtschlag,75,M_TEM_X_APF,13-19,M,,,125,75,130,330,SBD,Multi-ply,1
 J. Fitzgerald,82.5,M_TEM_X_APF,13-19,M,,,210,137.5,240,587.5,SBD,Multi-ply,1
 Mike Caltagirone,82.5,M_TEM_X_APF,13-19,M,,,180,130,202.5,512.5,SBD,Multi-ply,2
 M. Hayden,90,M_OEM_APF,,M,,,237.5,160,202.5,600,SBD,Multi-ply,5
-Jose Garcia,100,M_TEM_X_APF,13-19,M,,,337.5,187.5,292.5,817.5,SBD,Multi-ply,1
+Jose Garcia #22,100,M_TEM_X_APF,13-19,M,,,337.5,187.5,292.5,817.5,SBD,Multi-ply,1
 Michael Moore #1,110,M_TEM_X_APF,13-19,M,,,195,135,212.5,542.5,SBD,Multi-ply,1
 Schneider,75,M_JEM_APF,20-23,M,,,245,117.5,235,597.5,SBD,Multi-ply,1
 John Lamboley,75,M_MEM_4_APF,55-59,M,,,202.5,150,175,527.5,SBD,Multi-ply,1

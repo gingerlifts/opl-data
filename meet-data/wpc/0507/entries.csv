@@ -2,7 +2,7 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Sylvia Clark,F_MEM_6_WPC,USA,54.8,65,75,82.5,82.5,40,45,-47.5,45,77.5,87.5,-95,87.5,215,56,F,1937,SBD,Multi-ply
 1,Lidiya Bagina,F_OEM_WPC,Russia,58.8,180,200,205,205,90,95,100,100,140,155,162.5,162.5,467.5,60,F,1978,SBD,Multi-ply
 2,Marina Bemova,F_OEM_WPC,Russia,59.9,165,175,-180,175,85,95,97.5,97.5,160,170,-175,170,442.5,60,F,1981,SBD,Multi-ply
-1,Zhanna Ivanova,F_OEM_WPC,Ukraine,66.1,225,240,250,250,127.5,137.5,145,145,207.5,217.5,225,225,620,67.5,F,1984,SBD,Multi-ply
+1,Zhanna Ivanova #1,F_OEM_WPC,Ukraine,66.1,225,240,250,250,127.5,137.5,145,145,207.5,217.5,225,225,620,67.5,F,1984,SBD,Multi-ply
 1,Sue Clark,F_MEM_6_WPC,USA,64.5,82.5,95,102.5,102.5,50,57.5,62.5,62.5,112.5,125,137.5,137.5,302.5,67.5,F,1938,SBD,Multi-ply
 1,Erin Fitzpatrick,F_TEM_3_WPC,USA,71.2,115,122.5,-140,122.5,52.5,57.5,-62.5,57.5,110,117.5,-130,117.5,297.5,75,F,1987,SBD,Multi-ply
 1,Tarja Rantanen,F_OEM_WPC,Finland,88.5,-160,-160,170,170,160,175,,175,160,180,190,190,535,90,F,1957,SBD,Multi-ply
@@ -14,7 +14,7 @@ DQ,Otis Brown,M_TEM_3_WPC,USA,58,135,145,147.5,147.5,-100,-100,-100,,,,,,,60,M,1
 1,Gary Bobrovitz,M_MEM_3_WPC,Canada,60,140,-195,-195,140,115,125,-138,125,150,,,150,415,60,M,1952,SBD,Multi-ply
 1,Ilya Kokorev,M_OEM_WPC,Russia,67,-300,300,-310,300,200,205,210.5,210.5,270,-285,-285,270,780.5,67.5,M,1973,SBD,Multi-ply
 2,Charles Morse,M_OEM_WPC,USA,66.9,-212.5,212.5,-222.5,212.5,125,-140,-145,125,185,197.5,205,205,542.5,67.5,M,1966,SBD,Multi-ply
-1,Yves Garcia,M_MEM_5_WPC,France,66.8,165,175,-180,175,100,110.5,115,115,160,180,-190.5,180,470,67.5,M,1942,SBD,Multi-ply
+1,Yves Garcia #1,M_MEM_5_WPC,France,66.8,165,175,-180,175,100,110.5,115,115,160,180,-190.5,180,470,67.5,M,1942,SBD,Multi-ply
 1,Vadym Mysak,M_TEM_3_WPC,Ukraine,75,215,225,230,230,140,150,-157.5,150,215,225,,225,605,75,M,1987,SBD,Multi-ply
 1,Roman Sadikov,M_JEM_WPC,Estonia,75,280,-300,,280,140,-170,-170,140,250,280,-290,280,700,75,M,1982,SBD,Multi-ply
 2,Konstantin Konstantinov,M_JEM_WPC,Russia,74.1,215,230,240,240,150,167.5,-175,167.5,200,220,-230,220,627.5,75,M,1981,SBD,Multi-ply
@@ -58,7 +58,7 @@ DQ,Bob Benedix,M_MEM_2_WPC,USA,82.1,-305,-305,-327.5,,,,,,,,,,,82.5,M,1960,SBD,M
 3,Simon Benzler,M_OEM_WPC,Germany,100,350,-370,370,370,-180,180,,180,265,300,-312.5,300,850,100,M,1973,SBD,Multi-ply
 4,Harald Ecker,M_JEM_WPC,,99.3,300,-320,-320,300,242.5,252.5,-260,252.5,265,285,-300,285,837.5,100,M,1983,SBD,Multi-ply
 DQ,Andrei Rumjantsev,M_JEM_WPC,Estonia,96.8,-280,-280,-315,,,,,,,,,,,100,M,,SBD,Multi-ply
-1,Alexander Grachev,M_OEM_WPC,Russia,98.7,340,360,380,380,205,-245,-245,205,320,330,357.5,357.5,942.5,100,M,1977,SBD,Multi-ply
+1,Aleksandr Grachev,M_OEM_WPC,Russia,98.7,340,360,380,380,205,-245,-245,205,320,330,357.5,357.5,942.5,100,M,1977,SBD,Multi-ply
 2,Juha Someroja,M_OEM_WPC,Finland,98.2,320,350,,350,-270,270,280,280,280,310,-315,310,940,100,M,1975,SBD,Multi-ply
 3,Evgeniy Vdovkin,M_OEM_WPC,Russia,100,340,355,-370,355,210,-220,220,220,310,340,-350,340,915,100,M,1976,SBD,Multi-ply
 4,Frank Schoele,M_OEM_WPC,Germany,99.2,310,325,-340,325,215,225,230,230,280,292.5,-300,292.5,847.5,100,M,1968,SBD,Multi-ply
@@ -134,7 +134,7 @@ DQ,Timo Niemi,M_OEM_WPC,Finland,143.7,325,-340,-340,325,-250,-250,-250,,,,,,,140
 1,Oleg Artemyev,M_OEM_WPC,Russia,58.3,,,,,140,147.5,152.5,152.5,,,,,152.5,60,M,1971,B,Multi-ply
 2,Eini Virkki,F_OEM_WPC,Finland,57.4,,,,,-102.5,102.5,-107.5,102.5,,,,,102.5,60,F,,B,Multi-ply
 1,Sergejs Ivaņušins,M_TEM_1_WPC,Latvia,67.1,,,,,130,143,145,145,,,,,145,67.5,M,1990,B,Multi-ply
-1,Ivan Ivanov,M_TEM_1_WPC,Russia,66.9,,,,,160,170,-175,170,,,,,170,67.5,M,1992,B,Multi-ply
+1,Ivan Ivanov #15,M_TEM_1_WPC,Russia,66.9,,,,,160,170,-175,170,,,,,170,67.5,M,1992,B,Multi-ply
 1,Anastasiya Rakheeva,F_OEM_WPC,Russia,67.1,,,,,135,142.5,145,145,,,,,145,67.5,F,,B,Multi-ply
 1,Gary Bobrovitz,M_MEM_3_WPC,Canada,63.8,,,,,110,120,125,125,,,,,125,67.5,M,1952,B,Multi-ply
 1,Evgeniy Vyborov,M_MEM_6_WPC,Russia,66.7,,,,,85,90,-95,90,,,,,90,67.5,M,1939,B,Multi-ply
@@ -190,7 +190,7 @@ DQ,Juha Pylkkänen,M_OEM_WPC,Finland,88.5,,,,,-180,,,,,,,,,90,M,1978,B,Multi-ply
 6,Henry Hynynen,M_OEM_WPC,Finland,99.2,,,,,-210,215,-225,215,,,,,215,100,M,,B,Multi-ply
 7,Eric Platel,M_OEM_WPC,France,94.1,,,,,170,180,-200,180,,,,,180,100,M,1971,B,Multi-ply
 DQ,Jari Rintala,M_OEM_WPC,Finland,98,,,,,-240,-240,-250,,,,,,,100,M,1966,B,Multi-ply
-1,Joe Martin,M_MEM_1_WPC,USA,100,,,,,230,-242.5,-242.5,230,,,,,230,100,M,1961,B,Multi-ply
+1,Joe Martin #6,M_MEM_1_WPC,USA,100,,,,,230,-242.5,-242.5,230,,,,,230,100,M,1961,B,Multi-ply
 2,Gregory Hayes,M_MEM_1_WPC,USA,99.1,,,,,215,227.5,-237.5,227.5,,,,,227.5,100,M,1961,B,Multi-ply
 3,Arturas Virbickas,M_MEM_1_WPC,Lithuania,97.7,,,,,205,215,-230,215,,,,,215,100,M,1964,B,Multi-ply
 1,Valeri Matvejev,M_MEM_2_WPC,Estonia,97,,,,,230,-235,237.5,237.5,,,,,237.5,100,M,1960,B,Multi-ply

@@ -1,5 +1,5 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
-Boys,51.71,1,Josue Gonzalez,Cleveland,51.35,70.31,63.5,102.06,235.87,Single-ply,SBD,M
+Boys,51.71,1,Josue Gonzalez #2,Cleveland,51.35,70.31,63.5,102.06,235.87,Single-ply,SBD,M
 Boys,51.71,2,Jaime Caltzonzin,Victoria West,51.53,83.91,49.9,90.72,224.53,Single-ply,SBD,M
 Boys,,NS,Adan Hernandez,Victoria West,,,,,,Single-ply,SBD,M
 Boys,,NS,Aaron Mata,Ganado,,,,,,Single-ply,SBD,M
@@ -20,7 +20,7 @@ Boys,67.13,5,Gaven Cameron,Danbury,60.24,129.27,88.45,136.08,353.8,Single-ply,SB
 Boys,67.13,6,Seth Birmingham,Victoria West,63.23,131.54,74.84,124.74,331.12,Single-ply,SBD,M
 Boys,67.13,7,Dominic Diaz,Victoria West,67.04,124.74,68.04,136.08,328.85,Single-ply,SBD,M
 Boys,67.13,8,Ian Martin,Danbury,62.69,106.59,56.7,106.59,269.89,Single-ply,SBD,M
-Boys,67.13,DQ,Clayton Johnson,Danbury,66.32,92.99,,,,Single-ply,SBD,M
+Boys,67.13,DQ,Clayton Johnson #2,Danbury,66.32,92.99,,,,Single-ply,SBD,M
 Boys,67.13,DQ,Reece Knebel,El Maton Tidehaven,66.04,,,,,Single-ply,SBD,M
 Boys,74.84,1,Lane Labuave,Danbury,72.39,181.44,106.59,181.44,469.47,Single-ply,SBD,M
 Boys,74.84,2,Carlos Rubio,El Maton Tidehaven,70.31,158.76,95.25,165.56,419.57,Single-ply,SBD,M
@@ -38,7 +38,7 @@ Boys,82.1,4,Derek Hodges,Cleveland,77.2,156.49,88.45,170.1,415.04,Single-ply,SBD
 Boys,82.1,5,Aaron Gomez,Louise,80.29,129.27,79.38,136.08,344.73,Single-ply,SBD,M
 Boys,82.1,6,Aaron Pounds,Danbury,81.65,106.59,70.31,131.54,308.44,Single-ply,SBD,M
 Boys,82.1,DQ,Derek Luna,Louise,82.1,161.03,,,,Single-ply,SBD,M
-Boys,89.81,1,Aaron Sims,Cleveland,87,226.8,113.4,204.12,544.31,Single-ply,SBD,M
+Boys,89.81,1,Aaron Sims #2,Cleveland,87,226.8,113.4,204.12,544.31,Single-ply,SBD,M
 Boys,89.81,2,Danny Williams,Louise,89.27,167.83,97.52,190.51,455.86,Single-ply,SBD,M
 Boys,89.81,3,Orlando Moreno,Victoria West,83.01,156.49,92.99,149.69,399.16,Single-ply,SBD,M
 Boys,89.81,4,Leo Torres,Louise,84.28,138.35,83.91,161.03,383.29,Single-ply,SBD,M
@@ -47,13 +47,13 @@ Boys,,NS,Tim Mendez,Victoria West,,,,,,Single-ply,SBD,M
 Boys,,NS,Stephen Kelly,Ganado,,,,,,Single-ply,SBD,M
 Boys,99.79,1,Jonathan Oliedo,Victoria East,97.79,294.84,190.51,213.19,698.53,Single-ply,SBD,M
 Boys,99.79,2,Darean Sauceda,Victoria East,97.7,215.46,147.42,210.92,573.79,Single-ply,SBD,M
-Boys,99.79,3,Caleb Smith,Victoria West,95.44,215.46,115.67,163.29,494.42,Single-ply,SBD,M
+Boys,99.79,3,Caleb Smith #10,Victoria West,95.44,215.46,115.67,163.29,494.42,Single-ply,SBD,M
 Boys,99.79,4,Tyler Baladez,Victoria West,95.53,192.78,113.4,176.9,483.08,Single-ply,SBD,M
 Boys,99.79,5,Ray Buckner,Victoria West,98.16,174.63,104.33,188.24,467.2,Single-ply,SBD,M
 Boys,99.79,6,Josh Figueroa,Van Vleck,96.43,183.7,106.59,170.1,460.4,Single-ply,SBD,M
 Boys,99.79,7,Micah Coleman,El Maton Tidehaven,97.52,158.76,111.13,174.63,444.52,Single-ply,SBD,M
 Boys,99.79,8,Dd Gaona,Louise,97.43,163.29,117.93,149.69,430.91,Single-ply,SBD,M
-Boys,99.79,9,Nick Rodriguez,El Maton Tidehaven,96.25,124.74,90.72,151.95,367.41,Single-ply,SBD,M
+Boys,99.79,9,Nick Rodriguez #7,El Maton Tidehaven,96.25,124.74,90.72,151.95,367.41,Single-ply,SBD,M
 Boys,99.79,10,Marcelino Martinez,Van Vleck,94.44,124.74,70.31,124.74,319.78,Single-ply,SBD,M
 Boys,99.79,DQ,Bradley Flores,Bloomington,91.26,,,,,Single-ply,SBD,M
 Boys,109.77,1,Aaron Vasquez,Victoria East,108.68,281.23,172.37,206.38,659.98,Single-ply,SBD,M
@@ -84,5 +84,5 @@ Boys,124.74+,3,Patrick Perkins,Van Vleck,163.93,145.15,149.69,174.63,469.47,Sing
 Boys,,NS,Luis Briones,Ganado,,,,,,Single-ply,SBD,M
 Boys,,NS,Gabriel Watts,Victoria East,,,,,,Single-ply,SBD,M
 Boys,,NS,Adam McDonald,Van Vleck,,,,,,Single-ply,SBD,M
-Boys,,NS,Austin Hill,Van Vleck,,,,,,Single-ply,SBD,M
-Boys,,NS,Jose Martinez,El Maton Tidehaven,,,,,,Single-ply,SBD,M
+Boys,,NS,Austin Hill #3,Van Vleck,,,,,,Single-ply,SBD,M
+Boys,,NS,Jose Martinez #3,El Maton Tidehaven,,,,,,Single-ply,SBD,M

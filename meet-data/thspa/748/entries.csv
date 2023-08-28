@@ -16,7 +16,7 @@ Boys,55.79,7,Rolando Moreno,Weimar,53.98,81.65,65.77,111.13,258.55,Single-ply,SB
 Boys,59.87,8,Jordan Pesl,Schulenburg,56.02,95.25,52.16,108.86,256.28,Single-ply,SBD,M
 Boys,55.79,9,Marco Zamora,Palacios,53.98,81.65,49.9,115.67,247.21,Single-ply,SBD,M
 Boys,55.79,10,Kristoff Jones,Jarrell,55.79,79.38,52.16,92.99,224.53,Single-ply,SBD,M
-Boys,59.87,1,Victor Aguilar,Caldwell,57.15,199.58,129.27,174.63,503.49,Single-ply,SBD,M
+Boys,59.87,1,Victor Aguilar #1,Caldwell,57.15,199.58,129.27,174.63,503.49,Single-ply,SBD,M
 Boys,59.87,2,Brandon Corn,Liberty Hill,59.19,190.51,111.13,185.97,487.61,Single-ply,SBD,M
 Boys,59.87,3,Ubaldo Guzman,Weimar,59.65,163.29,106.59,185.97,455.86,Single-ply,SBD,M
 Boys,59.87,4,Willie Ihlenfeldt,Caldwell,57.61,142.88,92.99,131.54,367.41,Single-ply,SBD,M
@@ -34,7 +34,7 @@ Boys,67.13,3,Leo Alfaro,Hempstead,65.54,176.9,95.25,215.46,487.61,Single-ply,SBD
 Boys,67.13,4,Victor Moya,Jarrell,67.13,172.37,122.47,190.51,485.34,Single-ply,SBD,M
 Boys,67.13,5,Zach Konieczny,Sealy,66.68,170.1,104.33,183.7,458.13,Single-ply,SBD,M
 Boys,67.13,6,Tomas Moreno,Weimar,61.92,165.56,90.72,188.24,444.52,Single-ply,SBD,M
-Boys,67.13,7,Jose Jimenez,Palacios,64.86,163.29,102.06,174.63,439.98,Single-ply,SBD,M
+Boys,67.13,7,Jose Jimenez #11,Palacios,64.86,163.29,102.06,174.63,439.98,Single-ply,SBD,M
 Boys,67.13,8,Lance Howard,Altair Rice,65.09,170.1,99.79,170.1,439.98,Single-ply,SBD,M
 Boys,67.13,9,Blake McCracken,Yoakum,62.6,172.37,72.57,172.37,417.3,Single-ply,SBD,M
 Boys,67.13,10,Mareck Garcia,Austin Bowie,63.5,154.22,86.18,167.83,408.23,Single-ply,SBD,M
@@ -87,7 +87,7 @@ Boys,82.1,9,David Cortes,Jarrell,76.43,174.63,115.67,190.51,480.81,Single-ply,SB
 Boys,82.1,10,Andy Trejo,Bellville,79.83,183.7,102.06,195.04,480.81,Single-ply,SBD,M
 Boys,82.1,11,Chance Pack,Milano,78.93,188.24,108.86,174.63,471.74,Single-ply,SBD,M
 Boys,82.1,12,Brandon Lincoln,Smithville,76.2,181.44,104.33,181.44,467.2,Single-ply,SBD,M
-Boys,82.1,13,Aaron Bishop,Jarrell,80.29,154.22,131.54,167.83,453.59,Single-ply,SBD,M
+Boys,82.1,13,Aaron Bishop #2,Jarrell,80.29,154.22,131.54,167.83,453.59,Single-ply,SBD,M
 Boys,82.1,14,Cedric Bradshaw,La Grange,78.93,167.83,102.06,181.44,451.32,Single-ply,SBD,M
 Boys,82.1,15,Jonah Pearson,Liberty Hill,77.11,170.1,104.33,170.1,444.52,Single-ply,SBD,M
 Boys,82.1,16,Thomas Aguilar,Wallis Brazos,82.1,163.29,108.86,172.37,444.52,Single-ply,SBD,M
@@ -115,7 +115,7 @@ Boys,89.81,8,Juan Lopez,Palacios,86.18,154.22,102.06,208.65,464.93,Single-ply,SB
 Boys,89.81,9,Sky Sgovio,La Grange,84.37,172.37,113.4,170.1,455.86,Single-ply,SBD,M
 Boys,89.81,10,Sean Torres,Altair Rice,87.77,167.83,95.25,181.44,444.52,Single-ply,SBD,M
 Boys,89.81,11,David Hubbard,Liberty Hill,87.09,145.15,83.91,181.44,410.5,Single-ply,SBD,M
-Boys,89.81,12,Will Smith,Liberty Hill,86.18,149.69,95.25,156.49,401.43,Single-ply,SBD,M
+Boys,89.81,12,Will Smith #2,Liberty Hill,86.18,149.69,95.25,156.49,401.43,Single-ply,SBD,M
 Boys,89.81,13,George Villagomez,Sealy,88,154.22,83.91,154.22,392.36,Single-ply,SBD,M
 Boys,89.81,14,Evan Cantrell,Schulenburg,83.91,149.69,72.57,151.95,374.21,Single-ply,SBD,M
 Boys,89.81,15,Jacob Garbs,Wallis Brazos,83.23,136.08,70.31,136.08,342.46,Single-ply,SBD,M
@@ -147,7 +147,7 @@ Boys,99.79,DQ,Nick Cardenas,Austin Bowie,99.34,,,,,Single-ply,SBD,M
 Boys,99.79,DQ,Vincent Hernandez,Liberty Hill,96.84,192.78,,,,Single-ply,SBD,M
 Boys,109.77,1,Adam Aucoin,Palacios,102.51,276.69,156.49,226.8,659.98,Single-ply,SBD,M
 Boys,109.77,2,Scott Richter,Yoakum,109.77,242.67,163.29,213.19,619.15,Single-ply,SBD,M
-Boys,109.77,3,Michael Garcia,Palacios,105.69,226.8,138.35,231.33,596.47,Single-ply,SBD,M
+Boys,109.77,3,Michael Garcia #11,Palacios,105.69,226.8,138.35,231.33,596.47,Single-ply,SBD,M
 Boys,109.77,4,Chris Price,Yoakum,109.32,226.8,142.88,226.8,596.47,Single-ply,SBD,M
 Boys,109.77,5,Matt Guerrero,Luling,103.87,213.19,131.54,192.78,537.51,Single-ply,SBD,M
 Boys,109.77,6,Orlando Ordonez,Luling,103.42,192.78,136.08,183.7,512.56,Single-ply,SBD,M
@@ -155,7 +155,7 @@ Boys,109.77,7,Emanuel Salinas,Bellville,107.95,199.58,129.27,181.44,510.29,Singl
 Boys,109.77,8,Jared Kaster,Altair Rice,108.41,188.24,113.4,208.65,510.29,Single-ply,SBD,M
 Boys,109.77,9,Brice Helmcamp,Smithville,106.14,204.12,117.93,181.44,503.49,Single-ply,SBD,M
 Boys,109.77,10,Michael Elston,Milano,100.24,156.49,111.13,181.44,449.06,Single-ply,SBD,M
-Boys,109.77,11,Carlos Martinez,Schulenburg,104.33,165.56,111.13,167.83,444.52,Single-ply,SBD,M
+Boys,109.77,11,Carlos Martinez #20,Schulenburg,104.33,165.56,111.13,167.83,444.52,Single-ply,SBD,M
 Boys,109.77,12,Anthony Rivera,Bastrop,108.41,158.76,81.65,172.37,412.77,Single-ply,SBD,M
 Boys,109.77,13,Josh Cortinas,Austin Bowie,101.15,149.69,92.99,167.83,410.5,Single-ply,SBD,M
 Boys,109.77,DQ,Gabriel Sierra,Jarrell,106.59,183.7,,,,Single-ply,SBD,M
@@ -170,7 +170,7 @@ Boys,124.74,7,Devin Roberts,Brookshire Royal,119.29,167.83,124.74,181.44,474,Sin
 Boys,124.74+,1,Willie Hights,Yoakum,147.87,281.23,136.08,226.8,644.1,Single-ply,SBD,M
 Boys,124.74+,2,Shiloh Shorten,Liberty Hill,133.81,231.33,136.08,226.8,594.21,Single-ply,SBD,M
 Boys,124.74+,3,Timmy Varela,Bellville,133.13,222.26,151.95,195.04,569.26,Single-ply,SBD,M
-Boys,124.74+,4,Chad Davis,Altair Rice,132.9,224.53,131.54,190.51,546.58,Single-ply,SBD,M
+Boys,124.74+,4,Chad Davis #3,Altair Rice,132.9,224.53,131.54,190.51,546.58,Single-ply,SBD,M
 Boys,124.74+,5,Luis Medina,Sealy,126.55,229.06,129.27,176.9,535.24,Single-ply,SBD,M
 Boys,124.74+,6,Jody Lilley,Sealy,126.1,179.17,147.42,174.63,501.22,Single-ply,SBD,M
 Boys,124.74+,7,Austin Shed,Smithville,125.65,142.88,115.67,129.27,387.82,Single-ply,SBD,M
@@ -190,7 +190,7 @@ Boys,,NS,Thavian Simmons,Jarrell,,,,,,Single-ply,SBD,M
 Boys,,NS,Brandon Dorsett,Liberty Hill,,,,,,Single-ply,SBD,M
 Boys,,NS,Matthew Dlouhy,Caldwell,,,,,,Single-ply,SBD,M
 Boys,,NS,Gene Wiznewski,Caldwell,,,,,,Single-ply,SBD,M
-Boys,,NS,Josh Martin,Bellville,,,,,,Single-ply,SBD,M
+Boys,,NS,Josh Martin #5,Bellville,,,,,,Single-ply,SBD,M
 Boys,,NS,Kamm Coker,Bellville,,,,,,Single-ply,SBD,M
 Boys,,NS,Angel Rodríguez #12,Bellville,,,,,,Single-ply,SBD,M
 Boys,,NS,Vincent Martinez,Austin Bowie,,,,,,Single-ply,SBD,M

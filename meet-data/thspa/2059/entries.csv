@@ -1,6 +1,6 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
 Boys,51.71,1,Jose Mancia,Greenville,47.17,92.99,52.16,115.67,260.82,Single-ply,SBD,M
-Boys,51.71,2,Pablo Gutierrez,Mount Pleasant,47.63,88.45,49.9,113.4,251.74,Single-ply,SBD,M
+Boys,51.71,2,Pablo Gutierrez #1,Mount Pleasant,47.63,88.45,49.9,113.4,251.74,Single-ply,SBD,M
 Boys,55.79,1,Miguel Hernandez,Emory Rains,55.79,165.56,99.79,165.56,430.91,Single-ply,SBD,M
 Boys,59.87,2,Jonathan Alvarez,Sulphur Springs,56.02,149.69,65.77,154.22,369.68,Single-ply,SBD,M
 Boys,55.79,3,Josh Bolton,Paris North Lamar,54.88,142.88,72.57,142.88,358.34,Single-ply,SBD,M
@@ -101,7 +101,7 @@ Boys,89.81,12,Darron Mitchell,Paris,84.37,102.06,56.7,131.54,290.3,Single-ply,SB
 Boys,89.81,DQ,Nicky Goen,Ore City,85.28,140.61,,,,Single-ply,SBD,M
 Boys,89.81,DQ,Andrew Turner,Mount Pleasant,83.46,,,,,Single-ply,SBD,M
 Boys,99.79,1,Zack McGuire,Ore City,98.88,233.6,142.88,226.8,603.28,Single-ply,SBD,M
-Boys,99.79,2,Austin Cooper,Greenville,99.11,238.14,136.08,219.99,594.21,Single-ply,SBD,M
+Boys,99.79,2,Austin Cooper #4,Greenville,99.11,238.14,136.08,219.99,594.21,Single-ply,SBD,M
 Boys,99.79,3,Kerrian Goree,Greenville,97.07,233.6,145.15,208.65,587.4,Single-ply,SBD,M
 Boys,99.79,4,Eli Britt,Emory Rains,92.99,244.94,117.93,208.65,571.53,Single-ply,SBD,M
 Boys,99.79,5,Alex Gamez,Sulphur Springs,94.8,226.8,115.67,208.65,551.11,Single-ply,SBD,M
@@ -141,7 +141,7 @@ Boys,109.77,18,Seth Shaffer,Ore City,100.7,122.47,68.04,147.42,337.93,Single-ply
 Boys,109.77,19,Jorge Gutierrez,Mount Vernon,109.77,136.08,77.11,124.74,337.93,Single-ply,SBD,M
 Boys,109.77,20,Kyle Carmichael,Ore City,105.23,131.54,83.91,113.4,328.85,Single-ply,SBD,M
 Boys,124.74,1,Will Brown,Texarkana Texas,120.43,215.46,140.61,222.26,578.33,Single-ply,SBD,M
-Boys,124.74,2,Matthew Davis,Texarkana Texas,124.74,215.46,124.74,204.12,544.31,Single-ply,SBD,M
+Boys,124.74,2,Matthew Davis #1,Texarkana Texas,124.74,215.46,124.74,204.12,544.31,Single-ply,SBD,M
 Boys,124.74,3,Trey Potter,Ore City,112.04,215.46,127.01,192.78,535.24,Single-ply,SBD,M
 Boys,124.74,4,Nick Runnels,Texarkana Texas,115.44,204.12,117.93,192.78,514.83,Single-ply,SBD,M
 Boys,124.74,5,Ernesto Lopez,Greenville,117.93,215.46,115.67,174.63,505.76,Single-ply,SBD,M
@@ -165,7 +165,7 @@ Boys,124.74+,2,Keenan Ivory,Canton,147.64,265.35,117.93,222.26,605.55,Single-ply
 Boys,124.74+,3,Zack Watson,Ore City,154.22,272.16,122.47,204.12,598.74,Single-ply,SBD,M
 Boys,124.74+,4,Qurdale Huff,Paris,167.83,231.33,142.88,219.99,594.21,Single-ply,SBD,M
 Boys,124.74+,5,Bailey Booker,Bogata Rivercrest,156.49,235.87,149.69,183.7,569.26,Single-ply,SBD,M
-Boys,124.74+,6,Jalen Brown,Mount Pleasant,142.88,147.42,142.88,185.97,476.27,Single-ply,SBD,M
+Boys,124.74+,6,Jalen Brown #1,Mount Pleasant,142.88,147.42,142.88,185.97,476.27,Single-ply,SBD,M
 Boys,124.74+,7,Thomas Spann,Mount Pleasant,136.08,188.24,120.2,165.56,474,Single-ply,SBD,M
 Boys,124.74+,8,Treaen Dores,New Boston,136.08,158.76,106.59,156.49,421.84,Single-ply,SBD,M
 Boys,124.74+,9,Norris English,Sulphur Springs,135.17,163.29,88.45,147.42,399.16,Single-ply,SBD,M

@@ -66,7 +66,7 @@ Place,WeightClassKg,Sex,Event,Equipment,Name,CyrillicName,Division,BirthYear,Bir
 1,110,M,B,Raw,Evgeniy Matasov,Евгений Матасов,Pro Open,,1971-07-27,106.8,230,240,250,260,250,250
 2,110,M,B,Raw,Evgeniy Illarionov,Евгений Илларионов,Pro Open,,1982-05-28,104.2,185,195,205,,205,205
 3,110,M,B,Raw,Yakov Berman,Яков Берман,Pro Open,,1972-06-22,103.7,190,200,-202.5,,200,200
-4,110,M,B,Raw,Yuriy Romanov,Юрій Романов,Pro Open,,1984-01-24,106.9,180,-190,-190,,180,180
+4,110,M,B,Raw,Yuriy Romanov #1,Юрий Романов,Pro Open,,1984-01-24,106.9,180,-190,-190,,180,180
 5,110,M,B,Raw,Vladimir Ozhegov,Владимир Ожегов,Pro Open,,1977-05-12,101.1,150,155,160,,160,160
 6,110,M,B,Raw,Ivan Bekker,Иван Беккер,Pro Open,,1982-02-15,100.7,120,130,-135,,130,130
 1,125,M,B,Raw,Albert Fakhretdinov,Альберт Фахретдинов,Pro Juniors 20-23,,1987-06-23,116.1,170,180,-185,,180,180
@@ -76,7 +76,7 @@ Place,WeightClassKg,Sex,Event,Equipment,Name,CyrillicName,Division,BirthYear,Bir
 1,140,M,B,Raw,Nikolay Shchukin,Николай Щукин,Pro Open,,1974-08-25,129.6,160,170,-175,,170,170
 DQ,140,M,B,Raw,Dmitriy Belyy,Дмитрий Белый,Pro Open,,1972-04-12,134.5,-207.5,-207.5,,,,
 1,140+,M,B,Raw,Aleksey Kozachkov,Алексей Козачков,Pro Open,,1970-08-07,148.7,-185,-185,185,,185,185
-1,75,F,B,Multi-ply,Yulia Medvedeva,Юлия Медведева,Pro Open,,1979-07-08,74,155,165,-175,,165,165
+1,75,F,B,Multi-ply,Yuliya Medvedeva #1,Юлия Медведева,Pro Open,,1979-07-08,74,155,165,-175,,165,165
 1,52,M,B,Multi-ply,Boris Anfyorov,Борис Анфёров,Pro Open,,1983-07-19,51.8,105,-110,-115,,105,105
 1,56,M,B,Multi-ply,Danil Bulgakov,Данил Булгаков,Pro Juniors 20-23,,1989-11-24,55.7,115,120,125,130,125,125
 1,60,M,B,Multi-ply,Vladimir Kondratev,Владимир Кондратьев,Pro Teen 13-15,,1994-05-23,60,90,100,107.5,,107.5,107.5
@@ -84,7 +84,7 @@ DQ,140,M,B,Raw,Dmitriy Belyy,Дмитрий Белый,Pro Open,,1972-04-12,134.
 1,67.5,M,B,Multi-ply,Maksim Popov #4,Максим Попов,Pro Open,,1979-09-18,67.2,130,137.5,-145,,137.5,137.5
 2,67.5,M,B,Multi-ply,Andrey Kudryavtsev,Андрей Кудрявцев,Pro Open,,1983-09-14,67.2,-125,125,-135,,125,125
 1,67.5,M,B,Multi-ply,Semen Filyakin,Семён Филякин,Pro Teen 18-19,,1991-06-04,66.8,155,165,,,165,165
-1,75,F,B,Multi-ply,Yulia Medvedeva,Юлия Медведева,Pro Open,,1979-07-08,74,155,165,-175,,165,165
+1,75,F,B,Multi-ply,Yuliya Medvedeva #1,Юлия Медведева,Pro Open,,1979-07-08,74,155,165,-175,,165,165
 1,75,M,B,Multi-ply,Ilya Obolenskiy,Илья Оболенский,Pro Open,,1982-05-08,73.6,135,142.5,150,,150,150
 2,75,M,B,Multi-ply,Ruslan Zharzhanov,Руслан Жаржанов,Pro Open,,1985-06-18,73,140,-145,147.5,,147.5,147.5
 1,82.5,M,B,Multi-ply,Evgeniy Kuchin,Евгений Кучин,Pro Juniors 20-23,,1987-02-20,82.1,-180,192.5,200,,200,200
@@ -92,7 +92,7 @@ DQ,140,M,B,Raw,Dmitriy Belyy,Дмитрий Белый,Pro Open,,1972-04-12,134.
 1,90,M,B,Multi-ply,Eduard Isakov,Эдуард Исаков,Pro Masters 40-44,,1966-07-18,85.9,140,150,160,,160,160
 1,90,M,B,Multi-ply,Boris Zhernovnikov,Борис Жерновников,Pro Masters 45-49,,1965-03-16,88.4,-200,-200,200,,200,200
 1,90,M,B,Multi-ply,Evgeniy Basov,Евгений Басов,Pro Masters 55-59,,1955-02-24,86,130,140,-150,,140,140
-3,90,M,B,Multi-ply,Aleksandr Kuznetsov,Александр Кузнецов,Pro Open,,1981-12-09,89.9,-170,170,180,,180,180
+3,90,M,B,Multi-ply,Aleksandr Kuznetsov #3,Александр Кузнецов,Pro Open,,1981-12-09,89.9,-170,170,180,,180,180
 2,90,M,B,Multi-ply,Konstantin Tolkachev,Константин Толкачев,Pro Open,,1981-09-29,90,190,202.5,-207.5,,202.5,202.5
 1,90,M,B,Multi-ply,Rinad Nizamov,Ринад Низамов,Pro Open,,1973-09-18,90,-200,-202.5,205,,205,205
 2,90,M,B,Multi-ply,Gleb Tutynin,Глеб Тутынин,Pro Teen 16-17,,1992-10-04,86.8,140,150,-155,,150,150
@@ -107,12 +107,12 @@ DQ,140,M,B,Raw,Dmitriy Belyy,Дмитрий Белый,Pro Open,,1972-04-12,134.
 6,100,M,B,Multi-ply,Dmitriy Tsymbalistyy,Дмитрий Цымбалистый,Pro Open,,1978-11-01,97.8,195,-205,-205,,195,195
 1,100,M,B,Multi-ply,Dmitriy Devyatkin,Дмитрий Девяткин,Pro Teen 18-19,,1991-09-29,94,-170,175,-180,,175,175
 1,110,M,B,Multi-ply,Aleksandr Ponomarev,Александр Пономарев,Pro Masters 40-44,,1967-02-27,108.5,225,232.5,237.5,,237.5,237.5
-2,110,M,B,Multi-ply,Aleksey Kozlov,Алексей Козлов,Pro Masters 40-44,,1970-05-19,103,222.5,232.5,-242.5,,232.5,232.5
+2,110,M,B,Multi-ply,Aleksey Kozlov #1,Алексей Козлов,Pro Masters 40-44,,1970-05-19,103,222.5,232.5,-242.5,,232.5,232.5
 1,110,M,B,Multi-ply,Andrey Zapylikhin,Андрей Запылихин,Pro Masters 45-49,,1960-09-07,110,-190,-190,190,,190,190
 1,110,M,B,Multi-ply,Nikolay Mozharovskiy,Николай Можаровский,Pro Open,,1973-07-02,106.7,205,-215,-215,,205,205
 2,110,M,B,Multi-ply,Vadim Dostovalov,Вадим Достовалов,Pro Open,,1978-08-10,101.6,180,-185,-190,,180,180
 DQ,110,M,B,Multi-ply,Dmitriy Khanykov,Дмитрий Ханыков,Pro Open,,1983-12-02,107.8,-265,-265,-265,,,
 1,125,M,B,Multi-ply,Rinat Kabirov,Ринат Кабиров,Pro Open,,1979-11-30,118.7,275,285,-292.5,,285,285
 1,140,M,B,Multi-ply,Mikhail Nekrasov,Михаил Некрасов,Pro Masters 40-44,,1969-11-19,137.1,220,-232.5,235,,235,235
-DQ,140,M,B,Multi-ply,Vladimir Maksimov,Владимир Максимов,Pro Masters 40-44,1966,,130,-390,-390,-390,,,
-DQ,140,M,B,Multi-ply,Vladimir Maksimov,Владимир Максимов,Pro Open,1966,,130,-390,-390,-390,,,
+DQ,140,M,B,Multi-ply,Vladimir Maksimov #1,Владимир Максимов,Pro Masters 40-44,1966,,130,-390,-390,-390,,,
+DQ,140,M,B,Multi-ply,Vladimir Maksimov #1,Владимир Максимов,Pro Open,1966,,130,-390,-390,-390,,,

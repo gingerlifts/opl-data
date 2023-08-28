@@ -31,7 +31,7 @@ Place,WeightClassKg,Division,Sex,Name,State,Best3SquatKg,Best3BenchKg,Best3Deadl
 5,82.5,M-O,M,Donald Kaminski,IL,197.5,137.5,232.5,567.5,SBD,Single-ply
 1,82.5,M-T3,M,Aaron Rodriguez,IL,185,162.5,147.5,495,SBD,Single-ply
 1,82.5,M-M1,M,David Wiley #1,IL,275,177.5,257.5,710,SBD,Single-ply
-2,82.5,M-M1,M,Curtis Wright,IL,215,127.5,275,617.5,SBD,Single-ply
+2,82.5,M-M1,M,Curtis Wright #1,IL,215,127.5,275,617.5,SBD,Single-ply
 1,90,M-O,M,Jim Prusha,IL,275,165,247.5,687.5,SBD,Single-ply
 2,90,M-O,M,Keith Schutt,IL,220,170,270,660,SBD,Single-ply
 3,90,M-O,M,Scott Kuderick,MI,245,165,250,660,SBD,Single-ply
@@ -62,7 +62,7 @@ DQ,100,M-O,M,Jeffrey Archer,,175,,,,SBD,Single-ply
 1,110,M-Jr,M,Ahmad Atif,IL,227.5,160,240,627.5,SBD,Single-ply
 1,110,M-M1,M,Pat Tyring,IN,262.5,160,272.5,695,SBD,Single-ply
 1,125,M-O,M,Scott Lade,WI,310,245,275,830,SBD,Single-ply
-2,125,M-O,M,Robert Weber,IA,295,182.5,277.5,755,SBD,Single-ply
+2,125,M-O,M,Rob Weber,IA,295,182.5,277.5,755,SBD,Single-ply
 3,125,M-O,M,Brian Fuller,IN,297.5,175,262.5,735,SBD,Single-ply
 4,125,M-O,M,Richard Haas,,257.5,200,237.5,695,SBD,Single-ply
 5,125,M-O,M,Robert Keyes,WI,250,160,285,695,SBD,Single-ply
@@ -70,8 +70,8 @@ DQ,100,M-O,M,Jeffrey Archer,,175,,,,SBD,Single-ply
 1,125,M-M1,M,Robert Keyes,WI,250,160,285,695,SBD,Single-ply
 2,125,M-M1,M,Patrick Diggins,IL,230,145,237.5,612.5,SBD,Single-ply
 1,125+,M-O,M,Lance Karabel,IL,320,240,295,855,SBD,Single-ply
-2,125+,M-O,M,John Magee,IN,317.5,200,260,777.5,SBD,Single-ply
+2,125+,M-O,M,John Magee #1,IN,317.5,200,260,777.5,SBD,Single-ply
 3,125+,M-O,M,Tim Slaughter,MI,245,170,280,695,SBD,Single-ply
 4,125+,M-O,M,Matthew Taylor,IN,272.5,152.5,255,680,SBD,Single-ply
 1,125+,M-Jr,M,Jason Cristus,WI,285,205,272.5,762.5,SBD,Single-ply
-1,125+,M-M2,M,John Magee,IN,317.5,200,260,777.5,SBD,Single-ply
+1,125+,M-M2,M,John Magee #1,IN,317.5,200,260,777.5,SBD,Single-ply

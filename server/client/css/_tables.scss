@@ -95,6 +95,7 @@ tbody tr:hover {
 
 td.divheader {
   color: $primary-color;
+  font-weight: bold;
 }
 
 td {
@@ -115,6 +116,17 @@ td.meetdivisiontext {
 
 td a {
   color: $default-color;
+}
+
+tr.highlighted {
+  background-color: $row-highlight-background-color;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -50vh;
+  visibility: hidden;
 }
 
 .table-divider {
@@ -141,4 +153,18 @@ td a {
 .loading-indicator label {
   padding-left: 20px;
   // background: url('../images/ajax-loader-small.gif') no-repeat center left;
+}
+
+// Accent colors.
+.squat {
+  color: $squat-color;
+  font-weight: $accent-font-weight;
+}
+.bench {
+  color: $bench-color;
+  font-weight: $accent-font-weight;
+}
+.deadlift {
+  color: $deadlift-color;
+  font-weight: $accent-font-weight;
 }

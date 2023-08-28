@@ -9,7 +9,7 @@ Place,Name,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Bench4
 4,Oleksandr Sitnikov,1987,55.1,,,,100,,56,M,Олександр Ситніков,B,Single-ply,Open,100
 5,Sergiy Boryuk,1985,54.35,,,,90,,56,M,Сергій Борюк,B,Single-ply,Open,90
 1,Andriy Babinchuk,1983,59.45,,,,137.5,,60,M,Андрій Бабинчук,B,Single-ply,Open,137.5
-2,Viktor Piskunov,1981,60,,,,135,,60,M,Виктор Пискунов,B,Single-ply,Open,135
+2,Viktor Piskunov #1,1981,60,,,,135,,60,M,Віктор Піскунов,B,Single-ply,Open,135
 3,Oleksiy Sashenkov,1983,59.35,,,,132.5,,60,M,Олексій Сашенков,B,Single-ply,Open,132.5
 4,Ivan Chuprinko,1986,59.85,,,,132.5,,60,M,Іван Чупринко,B,Single-ply,Open,132.5
 5,Dmytro Vasylenko,1985,59.25,,,,127.5,,60,M,Дмитро Василенко,B,Single-ply,Open,127.5
@@ -29,7 +29,7 @@ DQ,Andriy Basistyy,1984,60,-105,-105,-105,,,60,M,Андрій Басистий,B
 2,Yevgen Bokiy,1976,73.7,,,,195,,75,M,Євген Бокій,B,Single-ply,Open,195
 3,Igor Gevko,1972,74.65,,,,192.5,,75,M,Ігор Гевко,B,Single-ply,Open,192.5
 4,Roman Akhlestin,1979,73.85,,,,180,,75,M,Роман Ахлестін,B,Single-ply,Open,180
-5,Yuriy Dudnik,1980,73.95,,,,175,,75,M,Юрій Дудник,B,Single-ply,Open,175
+5,Yuriy Dudnik #1,1980,73.95,,,,175,,75,M,Юрій Дудник,B,Single-ply,Open,175
 6,Andriy Ivzhenko,1977,74.5,,,,170,,75,M,Андрій Івженко,B,Single-ply,Open,170
 7,Oleksandr Martynyuk,1985,72.35,,,,155,,75,M,Олександр Мартинюк,B,Single-ply,Open,155
 8,Sergey Pavlyuchenko,1982,74.45,,,,155,,75,M,Сергей Павлюченко,B,Single-ply,Open,155
@@ -84,7 +84,7 @@ DQ,Aleksandr Sizov,1983,109.6,-217.5,-217.5,-217.5,,,110,M,Александр С
 3,Pavlo Mogylnykov,1964,114,,,245.5,245.5,,125,M,Павло Могильников,B,Single-ply,Open,245.5
 4,Valeriy Kotlyar,1973,120.9,,,,240,,125,M,Валерій Котляр,B,Single-ply,Open,240
 5,Mykola Mekh,1950,118.75,,,,225,,125,M,Микола Мех,B,Single-ply,Open,225
-6,Viktor Yurchenko,1980,115.35,,,,210,,125,M,Віктор Юрченко,B,Single-ply,Open,210
+6,Viktor Yurchenko #1,1980,115.35,,,,210,,125,M,Віктор Юрченко,B,Single-ply,Open,210
 7,Vitaliy Bobchenko,1979,112.9,,,,200,,125,M,Віталій Бобченко,B,Single-ply,Open,200
 1,Maxym Glinchevskyy,1983,134.3,,,,245,,125+,M,Максим Глінчевський,B,Single-ply,Open,245
 2,Vasyl Mezerya,1978,126.6,,,,220,,125+,M,Василь Мезеря,B,Single-ply,Open,220

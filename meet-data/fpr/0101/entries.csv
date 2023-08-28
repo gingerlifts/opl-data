@@ -1,5 +1,5 @@
 Place,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,WeightClassKg,Sex,CyrillicName,BirthYear,Event,Equipment,Division
-1,Sergey Zhuravlev,52,225,112.5,,,210,547.5,52,M,Сергей Журавлёв,1960,SBD,Single-ply,Open
+1,Sergey Zhuravlev #1,52,225,112.5,,,210,547.5,52,M,Сергей Журавлев,1960,SBD,Single-ply,Open
 2,Alexey Romanov,51.6,215,107.5,,,172.5,495,52,M,Алексей Романов,1981,SBD,Single-ply,Open
 3,Aleksey Svistunov,51.88,185,107.5,,,182.5,475,52,M,Алексей Свистунов,1969,SBD,Single-ply,Open
 4,Igor Artemyev,51.9,165,120,,,180,465,52,M,Игорь Артемьев,1971,SBD,Single-ply,Open
@@ -27,8 +27,8 @@ DQ,Oleg Artemyev,56,,,,,,,56,M,Олег Артемьев,1971,SBD,Single-ply,Ope
 2,Igor Muler,66.85,277.5,140,,,270,687.5,67.5,M,Игорь Мулер,1969,SBD,Single-ply,Open
 3,Ruslan Araslanov,67.5,240,175,,,262.5,677.5,67.5,M,Руслан Арасланов,1976,SBD,Single-ply,Open
 4,Anatoly Zvyagintsev,67.45,247.5,180,,,237.5,665,67.5,M,Анатолий Звягинцев,1978,SBD,Single-ply,Open
-5,Oleg Vasilyev,67.1,250,150,,,240,640,67.5,M,Олег Васильєв,1974,SBD,Single-ply,Open
-6,Gregory Simmons,67.5,230,147.5,,,250,627.5,67.5,M,,1965,SBD,Single-ply,Open
+5,Oleg Vasilyev #1,67.1,250,150,,,240,640,67.5,M,Олег Васильев,1974,SBD,Single-ply,Open
+6,Greg Simmons #2,67.5,230,147.5,,,250,627.5,67.5,M,,1965,SBD,Single-ply,Open
 7,Anatoliy Glazunov,66.55,240,160,,,220,620,67.5,M,Анатолий Глазунов,1974,SBD,Single-ply,Open
 8,Brandon Green,66.2,227.5,120,,,262.5,610,67.5,M,,1972,SBD,Single-ply,Open
 DQ,Alexey Sidorov,67.3,,,,,,,67.5,M,Алексей Сидоров,1974,SBD,Single-ply,Open
@@ -85,7 +85,7 @@ DQ,Sergey Zalozhkov,90,300,187.5,,,,,90,M,Сергей Заложков,1974,SBD
 9,Sergei Maximov,98.45,305,215,,,332.5,852.5,100,M,Сергей Максимов,1961,SBD,Single-ply,Open
 10,Dmitriy Silyuntsev,100,345,192.5,,,307.5,845,100,M,Дмитрий Силюнцев,1974,SBD,Single-ply,Open
 11,Dmitriy Ryskalenko,95.85,300,215,,,290,805,100,M,Дмитрий Рыскаленко,1974,SBD,Single-ply,Open
-12,Aleksey Kozlov,97.35,300,205,,,300,805,100,M,Алексей Козлов,1970,SBD,Single-ply,Open
+12,Aleksey Kozlov #1,97.35,300,205,,,300,805,100,M,Алексей Козлов,1970,SBD,Single-ply,Open
 13,Vladimir Vargin,99.4,310,212.5,,,265,787.5,100,M,Владимир Варгин,1963,SBD,Single-ply,Open
 14,Vyacheslav Zelenov,99.85,315,195,,,270,780,100,M,Вячеслав Зеленов,1965,SBD,Single-ply,Open
 15,Vyacheslav Korchin,99.1,295,200,,,270,765,100,M,Вячеслав Корчин,1976,SBD,Single-ply,Open
@@ -111,7 +111,7 @@ DQ,Anton Khomyakov,109.55,,,,,,,110,M,Антон Хомяков,1977,SBD,Single-
 1,Andrey Malanichev,124,400,240,,,360,1000,125,M,Андрей Маланичев,1977,SBD,Single-ply,Open
 2,Igor Gagin,110.5,360,240,,,310,910,125,M,Игорь Гагин,1969,SBD,Single-ply,Open
 3,Sergey Burmistrov,110.6,350,235,,,312.5,897.5,125,M,Сергей Бурмистров,1969,SBD,Single-ply,Open
-4,Vladimir Maksimov,120.3,320,250,,,290,860,125,M,Владимир Максимов,1966,SBD,Single-ply,Open
+4,Vladimir Maksimov #1,120.3,320,250,,,290,860,125,M,Владимир Максимов,1966,SBD,Single-ply,Open
 5,Sergey Sidenko,116.9,330,235,,,285,850,125,M,Сергей Сиденко,1961,SBD,Single-ply,Open
 6,Nikolay Kolodko,116.9,325,192.5,,,325,842.5,125,M,Николай Колодко,1967,SBD,Single-ply,Open
 7,Mikhail Bulychev,123.2,325,222.5,,,290,837.5,125,M,Михаил Булычев,1973,SBD,Single-ply,Open
@@ -124,7 +124,7 @@ DQ,Andrey Schukin,122.4,,,,,,,125,M,Андрей Щукин,1966,SBD,Single-ply,
 5,Vyacheslav Aksenov,125.3,282.5,180,,,312.5,775,125+,M,Вячеслав Аксенов,1981,SBD,Single-ply,Open
 6,Aleksandr Dvoynikov,130.9,270,190,,,280,740,125+,M,Александр Двойников,1964,SBD,Single-ply,Open
 1,Natalya Krikunova,44,120,60,,,130,310,44,F,Наталья Крикунова,1981,SBD,Single-ply,Open
-2,Natalya Kolesnikova,43.9,125,62.5,,,120,307.5,44,F,Наталия Колесникова,1975,SBD,Single-ply,Open
+2,Natalya Kolesnikova #1,43.9,125,62.5,,,120,307.5,44,F,Наталия Колесникова,1975,SBD,Single-ply,Open
 3,Olga Golubeva,44,112.5,60,,,117.5,290,44,F,Ольга Голубева,1970,SBD,Single-ply,Open
 1,Natalya Shapovalova,46.8,150,80,,,160,390,48,F,Наталья Шаповалова,1983,SBD,Single-ply,Open
 2,Olga Legotkina,47.05,140,67.5,,,152.5,360,48,F,Ольга Леготкина,1976,SBD,Single-ply,Open
@@ -182,7 +182,7 @@ DQ,Andrey Schukin,122.4,,,,,,,125,M,Андрей Щукин,1966,SBD,Single-ply,
 11,Olga Salyukova,67.3,170,80,,,160,410,67.5,F,Ольга Салюкова,1983,SBD,Single-ply,Open
 12,Oksana Prokofeva,65.3,160,90,,,150,400,67.5,F,Оксана Прокофьева,1979,SBD,Single-ply,Open
 13,Jill Darling,62.65,145,110,,,132.5,387.5,67.5,F,,1977,SBD,Single-ply,Open
-14,Yuliya Matveeva,67.2,137.5,75,,,135,347.5,67.5,F,Юлия Матвеева,1981,SBD,Single-ply,Open
+14,Yuliya Matveeva #1,67.2,137.5,75,,,135,347.5,67.5,F,Юлия Матвеева,1981,SBD,Single-ply,Open
 1,Marina Kudinova,69.9,260,147.5,,,230.5,638,75,F,Марина Кудинова,1977,SBD,Single-ply,Open
 2,Svetlana Dedyulya,74.7,240,155,,,212.5,607.5,75,F,Светлана Дедюля,1975,SBD,Single-ply,Open
 3,Tatyana Mescheryakova,74.95,242.5,135,,,222.5,600,75,F,Татьяна Мещерякова,1974,SBD,Single-ply,Open

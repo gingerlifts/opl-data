@@ -23,7 +23,7 @@ Place,Name,CyrillicName,BirthYear,WeightClassKg,BodyweightKg,Bench1Kg,Bench2Kg,B
 2,Vadim Tsvetkov,Вадим Цветков,1991,52,52,75,-82.5,90,90,90,M,Open,B,Single-ply
 3,Aleksandr Molin,Александр Молин,1992,52,50.65,80,87.5,-92.5,87.5,87.5,M,Open,B,Single-ply
 1,Ivan Moskalev,Иван Москалев,1984,56,55.85,105,115,125,125,125,M,Open,B,Single-ply
-2,Yuriy Vasilev,Юрій Васильєв,1987,56,52.25,85,90,-95,90,90,M,Open,B,Single-ply
+2,Yuriy Vasilev #1,Юрий Васильев,1987,56,52.25,85,90,-95,90,90,M,Open,B,Single-ply
 1,Nikolay Pochinkin,Николай Починкин,1985,60,59.75,145,150,155,155,155,M,Open,B,Single-ply
 2,Igor Sadovin,Игорь Садовин,1967,60,59.85,135,145,152.5,152.5,152.5,M,Open,B,Single-ply
 3,Aleksandr Koval,Александр Коваль,1988,60,60,135,-145,-147.5,135,135,M,Open,B,Single-ply
@@ -54,7 +54,7 @@ DQ,Amiran Basov,Амиран Басов,1987,100,95.7,-200,-205,,,,M,Open,B,Sing
 3,Anatoliy Shapovalov,Анатолий Шаповалов,1947,110,107.9,150,,,150,150,M,Open,B,Single-ply
 DQ,Sergey Konyakhin,Сергей Коняхин,1984,110,100.4,-130,-130,-130,,,M,Open,B,Single-ply
 1,Sergey Semakin,Сергей Семакин,1978,125,116.9,245,255,265,265,265,M,Open,B,Single-ply
-1,Aleksandr Berezin,Александр Березин,1974,125+,138.4,270,290,305,305,305,M,Open,B,Single-ply
+1,Aleksandr Berezin #1,Александр Березин,1974,125+,138.4,270,290,305,305,305,M,Open,B,Single-ply
 2,Sergey Surov,Сергей Суров,1974,125+,132.35,275,290,-305,290,290,M,Open,B,Single-ply
 3,Zurab Kiknavelidze,Зураб Кикнавелидзе,1968,125+,150.55,-150,155,,155,155,M,Open,B,Single-ply
 DQ,Vyacheslav Kireev,Вячеслав Киреев,1969,125+,131,,,,,,M,Open,B,Single-ply

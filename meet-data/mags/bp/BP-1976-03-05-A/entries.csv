@@ -1,13 +1,13 @@
 Name,BodyweightKg,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 D. McClure,49.5,52,M-E-Open,M,90,55,117.5,262.5,SBD,Wraps,1
 R. Liddell,50,52,M-E-Open,M,55,42.5,90,187.5,SBD,Wraps,2
-John O'Brien,55.5,60,M-E-Open,M,115,82.5,177.5,375,SBD,Wraps,1
-J. Craig,60,60,M-E-Open,M,170,110,190,470,SBD,Wraps,1
+John O'Brien #1,55.5,60,M-E-Open,M,115,82.5,177.5,375,SBD,Wraps,1
+J. Craig #5,60,60,M-E-Open,M,170,110,190,470,SBD,Wraps,1
 A. Sillers,60.5,67.5,M-E-Open,M,150,77.5,182.5,410,SBD,Wraps,2
 M. Clark #2,67.5,67.5,M-E-Open,M,170,90,207.5,467.5,SBD,Wraps,1
 J. Docherty,67,67.5,M-E-Open,M,150,112.5,197.5,460,SBD,Wraps,2
-A. Small #1,67,67.5,M-E-Open,M,155,102.5,195,452.5,SBD,Wraps,3
-M. O'Brien,65,67.5,M-E-Open,M,145,95,190,430,SBD,Wraps,4
+Alex Small,67,67.5,M-E-Open,M,155,102.5,195,452.5,SBD,Wraps,3
+Matt O'Brien,65,67.5,M-E-Open,M,145,95,190,430,SBD,Wraps,4
 M. Weppenaar,63.5,67.5,M-E-Open,M,150,90,180,420,SBD,Wraps,5
 R. Johnson,65.5,67.5,M-E-Open,M,137.5,85,175,397.5,SBD,Wraps,6
 R. Brownlee,62,67.5,M-E-Open,M,127.5,80,160,367.5,SBD,Wraps,7
@@ -16,7 +16,7 @@ A. Wilson #6,66,67.5,M-E-Open,M,100,65,142.5,307.5,SBD,Wraps,9
 F. Brown,74.5,75,M-E-Open,M,215,137.5,220,572.5,SBD,Wraps,1
 F. Garrity,74,75,M-E-Open,M,162.5,107.5,212.5,482.5,SBD,Wraps,2
 J. Doyle #2,75,75,M-E-Open,M,167.5,112.5,200,480,SBD,Wraps,3
-Ron Conley,82,82.5,M-E-Open,M,300,197.5,275,772.5,SBD,Wraps,1
+Ron Conley #1,82,82.5,M-E-Open,M,300,197.5,275,772.5,SBD,Wraps,1
 E. Ramsden,80.5,82.5,M-E-Open,M,200,162.5,227.5,590,SBD,Wraps,2
 C. Ostroznic,79,82.5,M-E-Open,M,182.5,107.5,260,550,SBD,Wraps,3
 C. Maitland,80,82.5,M-E-Open,M,155,122.5,202.5,480,SBD,Wraps,4

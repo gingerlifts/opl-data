@@ -45,14 +45,14 @@ T. Stephens,82.5,Open,,M,,200,125,205,530,SBD,Single-ply,4
 D. Perkins,82.5,Open,,M,,195,107.5,205,507.5,SBD,Single-ply,5
 Greg Bryant,90,Open,,M,,357.5,170,325,852.5,SBD,Single-ply,1
 Shane Fraser,90,Open,,M,,312.5,192.5,282.5,787.5,SBD,Single-ply,2
-Chris Garcia,90,Open,,M,,310,177.5,280,767.5,SBD,Single-ply,3
+Chris Garcia #3,90,Open,,M,,310,177.5,280,767.5,SBD,Single-ply,3
 Clifford King,90,Open,,M,,297.5,185,282.5,765,SBD,Single-ply,4
 P. Linton,90,Open,,M,,332.5,167.5,255,755,SBD,Single-ply,5
 Bruce Jasperson,90,Open,,M,,295,175,270,740,SBD,Single-ply,6
 Tim Bruner,90,Open,,M,,287.5,165,275,727.5,SBD,Single-ply,7
 L. Clark,90,Open,,M,,255,162.5,272.5,690,SBD,Single-ply,8
-J. Blanton,90,Open,,M,,272.5,150,267.5,690,SBD,Single-ply,9
-D. Dyson,90,Open,,M,,247.5,155,265,667.5,SBD,Single-ply,10
+James Blanton,90,Open,,M,,272.5,150,267.5,690,SBD,Single-ply,9
+Donny Dyson,90,Open,,M,,247.5,155,265,667.5,SBD,Single-ply,10
 Steve Goggins,100,Open,,M,,387.5,215,352.5,955,SBD,Single-ply,1
 Larry Mistric,100,Open,,M,,357.5,220,332.5,910,SBD,Single-ply,2
 John Hoffmann,100,Open,,M,,345,225,322.5,892.5,SBD,Single-ply,3
@@ -74,14 +74,14 @@ Janie Lara,56,Open,,F,,142.5,75,150,367.5,SBD,Single-ply,3
 B. Bartine,56,Open,,F,,130,70,145,345,SBD,Single-ply,4
 C. Freeman,56,Open,,F,,67.5,37.5,92.5,197.5,SBD,Single-ply,5
 Lindy Champion,60,Open,,F,,165,90,165,420,SBD,Single-ply,1
-A. Raider,60,Open,,F,,137.5,97.5,152.5,387.5,SBD,Single-ply,2
+Andrea Raider,60,Open,,F,,137.5,97.5,152.5,387.5,SBD,Single-ply,2
 Sandra Flores-Alamo,60,Open,,F,,137.5,85,137.5,360,SBD,Single-ply,3
 C. Lamonaco,60,Open,,F,,100,50,125,275,SBD,Single-ply,4
 Hillary Hoffman,67.5,Open,,F,,172.5,110,205,487.5,SBD,Single-ply,1
 Crystal Konst,67.5,Open,,F,,205,100,165,470,SBD,Single-ply,2
 D. Ruthardt,67.5,Open,,F,,142.5,77.5,162.5,382.5,SBD,Single-ply,3
-B. A. Stringham,67.5,Open,,F,,122.5,65,130,317.5,SBD,Single-ply,4
-Kani L. Thomas,75,Open,,F,,165,100,152.5,417.5,SBD,Single-ply,1
+Beth Stringham,67.5,Open,,F,,122.5,65,130,317.5,SBD,Single-ply,4
+Kandi L. Thomas,75,Open,,F,,165,100,152.5,417.5,SBD,Single-ply,1
 R. Stutzman,75,Open,,F,,147.5,65,137.5,350,SBD,Single-ply,2
 D. Eaton,75,Open,,F,,110,55,130,295,SBD,Single-ply,3
 Teri McKenzie,82.5,Open,,F,,222.5,105,195,522.5,SBD,Single-ply,1
@@ -94,7 +94,7 @@ R. Torres,56,Teen,13-19,M,,122.5,80,142.5,345,SBD,Single-ply,1
 Art Lona,60,Teen,13-19,M,,170,100,202.5,472.5,SBD,Single-ply,1
 S. Owens,60,Teen,13-19,M,,167.5,102.5,175,445,SBD,Single-ply,2
 J. Miller #10,60,Teen,13-19,M,,122.5,90,140,352.5,SBD,Single-ply,3
-S. Thomas,60,Teen,13-19,M,,77.5,57.5,125,260,SBD,Single-ply,4
+S. Thomas #5,60,Teen,13-19,M,,77.5,57.5,125,260,SBD,Single-ply,4
 Brad Johnson #2,67.5,Teen,13-19,M,,212.5,112.5,200,525,SBD,Single-ply,1
 B. Johnson,67.5,Teen,13-19,M,,162.5,92.5,175,430,SBD,Single-ply,2
 J. Hamilton,67.5,Teen,13-19,M,,157.5,100,162.5,420,SBD,Single-ply,3
@@ -113,7 +113,7 @@ J. Perry,100,Teen,13-19,M,,237.5,140,235,612.5,SBD,Single-ply,1
 Clint Oliver,100,Teen,13-19,M,,175,115,197.5,487.5,SBD,Single-ply,2
 J. Cowan,100,Teen,13-19,M,,92.5,115,152.5,360,SBD,Single-ply,3
 Eric Mettes,110,Teen,13-19,M,,185,122.5,197.5,505,SBD,Single-ply,1
-R. Samarron,125+,Teen,13-19,M,,320,175,285,780,SBD,Single-ply,1
+Richard Samarron,125+,Teen,13-19,M,,320,175,285,780,SBD,Single-ply,1
 C. Moss,125+,Teen,13-19,M,,165,92.5,160,417.5,SBD,Single-ply,2
 D. Stephens,52,Masters,40-999,M,40,70,40,110,220,SBD,Single-ply,1
 Kenneth Crouse,67.5,Masters,40-999,M,41,157.5,112.5,170,440,SBD,Single-ply,1

@@ -15,7 +15,7 @@ Place,Name,CyrillicName,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg
 1,Alim Lyumanov,Алім Люманов,Ukraine,56,90,95,-102.5,,95,56,Amateur Juniors 20-23,M,B,Raw,95.0,1990
 1,Evgen Tverdokhlib,Євген Твердохліб,Ukraine,66,-102.5,102.5,107.5,-110,107.5,67.5,Amateur Juniors 20-23,M,B,Raw,107.5,1992
 DQ,Oleksandr Petrov,Олександр Петров,Ukraine,66.8,-145,-145,-145,,,67.5,Amateur Juniors 20-23,M,B,Raw,,1992
-1,Dmitro Miroshnichenko,Дмитро Мірошніченко,Ukraine,74.6,132.5,137.5,-142.5,,137.5,75,Amateur Juniors 20-23,M,B,Raw,137.5,1992
+1,Dmytro Miroshnichenko,Дмитро Мірошніченко,Ukraine,74.6,132.5,137.5,-142.5,,137.5,75,Amateur Juniors 20-23,M,B,Raw,137.5,1992
 2,Sergiy Chaliy,Сергій Чалий,Ukraine,74.4,90,-95,95,,95,75,Amateur Juniors 20-23,M,B,Raw,95.0,1993
 1,Vitaliy Barikin,Віталій Барикін,Ukraine,80.1,-135,135,140,-142.5,140,82.5,Amateur Juniors 20-23,M,B,Raw,140.0,1993
 1,Mikola Budzish,Микола Будзіш,Ukraine,88.6,145,-152.5,-152.5,,145,90,Amateur Juniors 20-23,M,B,Raw,145.0,1991
@@ -55,10 +55,10 @@ DQ,Boris Midlik,Борис Мидлик,Ukraine,,,,,,,75,Pro Teen 18-19,M,B,Raw,
 2,Eldar Efimenko,Ельдар Єфименко,Ukraine,86.6,120,-125,-127.5,,120,90,Pro Juniors 20-23,M,B,Raw,120.0,1992
 DQ,Volodimir Nazarko,Володимир Назарко,Ukraine,,,,,,,90,Pro Juniors 20-23,M,B,Raw,,1993
 1,Evgen Moiseev,Євген Моісєєв,Ukraine,100,180,-187.5,187.5,,187.5,100,Pro Juniors 20-23,M,B,Raw,187.5,1991
-1,Oleksandr Tyurnikov,Олександр Тюрников,Ukraine,70.1,-110,110,115,117.5,115,75,Pro Open,M,B,Raw,115.0,1983
+1,Oleksandr Tyurnikov,Олександр Тюрніков,Ukraine,70.1,-110,110,115,117.5,115,75,Pro Open,M,B,Raw,115.0,1983
 DQ,Yuriy Bezhinets,Юрій Бежинець,Ukraine,,,,,,,75,Pro Open,M,B,Raw,,1974
 DQ,Yuriy Telichko,Юрій Теличко,Ukraine,,,,,,,82.5,Pro Open,M,B,Raw,,1988
-DQ,Igor Savin,Ігор Савін,Ukraine,,,,,,,82.5,Pro Open,M,B,Raw,,1987
+DQ,Igor Savin #1,Ігор Савін,Ukraine,,,,,,,82.5,Pro Open,M,B,Raw,,1987
 1,Konstyantin Grabovskiy,Констянтин Грабовський,Ukraine,88.9,190,200,205,-210,205,90,Pro Open,M,B,Raw,205.0,1976
 2,Andriy Kravets,Андрій Кравець,Ukraine,88.5,-175,175,-180,,175,90,Pro Open,M,B,Raw,175.0,1983
 3,Roman Kravchenko,Роман Кравченко,Ukraine,88.1,-155,165,-175,,165,90,Pro Open,M,B,Raw,165.0,1983
@@ -97,4 +97,4 @@ DQ,Yaroslav Timoshenko,Ярослав Тимошенко,Ukraine,,,,,,,100,Pro O
 DQ,Volodimir Starchenko,Володимир Старченко,Ukraine,,,,,,,100,Pro Open,M,B,Multi-ply,,1975
 1,Andriy Lomnitskiy,Андрій Ломницький,Ukraine,117.6,-260,260,-275,-275,260,125,Pro Open,M,B,Multi-ply,260.0,1980
 DQ,Volodimir Starchenko,Володимир Старченко,Ukraine,,,,,,,100,Pro Submasters 33-39,M,B,Multi-ply,,1975
-DQ,Evgen Pavlov,Євгеній Павлов,Ukraine,,,,,,,125,Pro Submasters 33-39,M,B,Multi-ply,,1976
+DQ,Yevgen Pavlov,Євген Павлов,Ukraine,,,,,,,125,Pro Submasters 33-39,M,B,Multi-ply,,1976

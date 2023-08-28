@@ -1,5 +1,5 @@
 Place,Name,CyrillicName,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,TotalKg,WeightClassKg,Division,Sex,Event,Equipment,Best3BenchKg,BirthYear
-1,Alan Kvyatkovskiy,Алан Квятковський,Ukraine,47.9,32.5,35,37.50,,37.5,48,Amateur Children 10,M,B,Raw,37.5,2005
+1,Alan Kvyatkovskiy,Алан Квятковський,Ukraine,47.9,32.5,35,37.50,,37.5,48,Amateur Youth 10,M,B,Raw,37.5,2005
 1,Lyubomir Zabramniy,Любомир Забрамний,Ukraine,72.4,140,-145,-145,,140,75,Amateur Teen 16-17,M,B,Raw,140.0,1998
 1,Lyubomir Roka-Padron,Любомир Рока-Падрон,Ukraine,92.1,135,-140,140,,140,100,Amateur Teen 18-19,M,B,Raw,140.0,1997
 1,Stanislav Grimalyuk,Станіслав Грималюк,Ukraine,65,-110,117.5,-120,,117.5,67.5,Amateur Juniors 20-23,M,B,Raw,117.5,1994
@@ -39,7 +39,7 @@ DQ,Oleksandr Shestatskiy,Олександр Шестацький,Ukraine,104.4,-
 1,Sergiy Baybula,Сергій Байбула,Ukraine,75,140,145,150,,150,75,Amateur Masters 40-44,M,B,Raw,150.0,1974
 1,Valentin Slutskiy,Валентин Слуцький,Ukraine,98.5,160,-167.5,-167.5,,160,100,Amateur Masters 40-44,M,B,Raw,160.0,1973
 DQ,Oleksandr Slutskiy,Олександр Слуцький,Ukraine,123.1,-200,-200,-200,,,125,Amateur Masters 40-44,M,B,Raw,,1975
-1,Igor Zubarev,Ігор Зубарєв,Ukraine,74.9,35,40,-45,,40,75,Amateur Masters 70-74,M,B,Raw,40.0,1941
+1,Igor Zubarev #1,Ігор Зубарєв,Ukraine,74.9,35,40,-45,,40,75,Amateur Masters 70-74,M,B,Raw,40.0,1941
 1,Yuriy Korovayniy,Юрій Коровайний,Ukraine,81.1,120,132.5,-140,,132.5,82.5,Amateur Military/Fire/Police,M,B,Raw,132.5,1993
 2,Ruslan Markiv,Руслан Марків,Ukraine,80.7,-115,120,-132.5,,120,82.5,Amateur Military/Fire/Police,M,B,Raw,120.0,1986
 1,Svyatoslav Pavlyuk,Святослав Павлюк,Ukraine,90,120,130,140,,140,90,Amateur Military/Fire/Police,M,B,Raw,140.0,1987
@@ -64,10 +64,10 @@ DQ,Oleksandr Slutskiy,Олександр Слуцький,Ukraine,123.1,-200,-20
 1,Oleksandr Popovich,Олександр Попович,Ukraine,74.9,120,127.5,137.5,,137.5,75,Pro Masters 40-44,M,B,Raw,137.5,1972
 1,Volodimir Timkovich,Володимир Тимкович,Ukraine,100,180,195,-210,,195,100,Pro Masters 40-44,M,B,Raw,195.0,1974
 1,Mikhaylo Burkov,Михайло Бурков,Ukraine,78.8,105,110,115,,115,82.5,Pro Masters 50-54,M,B,Raw,115.0,1963
-1,Valeriy Melnik,Валерій Мельник,Ukraine,106.9,140,145,150,,150,110,Pro Masters 55-59,M,B,Raw,150.0,1958
+1,Valeriy Melnik #1,Валерій Мельник,Ukraine,106.9,140,145,150,,150,110,Pro Masters 55-59,M,B,Raw,150.0,1958
 1,Oleksandr Popovich,Олександр Попович,Ukraine,74.9,120,127.5,137.5,,137.5,75,Pro Military/Fire/Police,M,B,Raw,137.5,1972
 1,Mikhaylo Burkov,Михайло Бурков,Ukraine,78.8,105,110,115,,115,82.5,Pro Military/Fire/Police,M,B,Raw,115.0,1963
-1,Valeriy Melnik,Валерій Мельник,Ukraine,106.9,140,145,150,,150,110,Pro Military/Fire/Police,M,B,Raw,150.0,1958
+1,Valeriy Melnik #1,Валерій Мельник,Ukraine,106.9,140,145,150,,150,110,Pro Military/Fire/Police,M,B,Raw,150.0,1958
 1,Pavlo Kozak,Павло Козак,Ukraine,57,120,130,-140,,130,60,Pro Paralympian,M,B,Raw,130.0,1983
 1,Olena Shcherbinina,Олена Щербініна,Ukraine,58.7,60,-65,-65,,60,60,Pro Open,F,B,Raw,60.0,1982
 1,Olena Shcherbinina,Олена Щербініна,Ukraine,58.7,60,-65,-65,,60,60,Pro Submasters 33-39,F,B,Raw,60.0,1982

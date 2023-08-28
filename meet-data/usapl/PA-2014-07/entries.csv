@@ -8,7 +8,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 1,M,Nick Vinciguerra,B,MR-T3,75,Raw,69.2,,132.5,,132.5,1996
 1,M,Ryan Coffey,B,MR-T3,75,Raw,74.1,,132.5,,132.5,1996
 2,M,Bruce Yankeltis,B,MR-T3,82.5,Raw,80.2,,102.5,,102.5,
-1,M,Ryan Morgan,B,MR-T3,90,Raw,86.6,,100,,100,1995
+1,M,Ryan Morgan #3,B,MR-T3,90,Raw,86.6,,100,,100,1995
 1,M,Jeremy Oettinger,B,MR-T3,100,Raw,98.1,,152.5,,152.5,1994
 1,M,Nick Roman,B,MR-T3,125,Raw,123.2,,145,,145,1995
 1,M,Bodie LaCoe,B,MR-Y,52,Raw,32.2,,40,,40,2003
@@ -44,7 +44,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 3,M,Dave Lutz,B,MR-O,110,Raw,102.9,,142.5,,142.5,
 2,M,Joshua Corby,B,MR-O,110,Raw,105.6,,120,,120,1990
 DQ,M,Dennis Anness,B,MR-O,110,Raw,106.4,,-115,,,1976
-1,M,Samuel Whitney,B,MR-O,125,Raw,118.8,,160,,160,
+1,M,Sam Whitney,B,MR-O,125,Raw,118.8,,160,,160,
 1,M,Thomas Murray,B,MR-O,125+,Raw,175.5,,252.5,,252.5,1988
 1,M,Ron Zsido,B,MR-M1a,100,Raw,91.6,,160,,160,1974
 2,M,Russ Smith #3,B,MR-M1a,100,Raw,91.6,,160,,160,
@@ -55,7 +55,7 @@ DQ,M,Dennis Anness,B,MR-O,110,Raw,106.4,,-115,,,1976
 1,M,David L. Johns,B,MR-M1b,110,Raw,107.5,,140,,140,
 1,M,James Mckenna,B,M-M3a,100,Single-ply,99.8,,142.5,,142.5,
 1,M,Korben Kane,B,M-M3a,125,Single-ply,124,,232.5,,232.5,
-2,M,Kevin Johnson,B,M-M3a,125,Single-ply,124,,232.5,,232.5,
+2,M,Kevin Johnson #1,B,M-M3a,125,Single-ply,124,,232.5,,232.5,
 1,M,Wally Schlegel,B,MR-M2,82.5,Raw,80.1,,125,,125,1962
 2,M,Mark Salandra,B,MR-M2a,125+,Raw,,,107.5,,107.5,1962
 1,M,Fred Lokuta,B,MR-M2a,75,Raw,72.7,,137.5,,137.5,1960
@@ -108,7 +108,7 @@ DQ,M,Dennis Anness,B,MR-O,110,Raw,106.4,,-115,,,1976
 1,M,Ryan Coffey,D,MR-T3,75,Raw,74.1,,,220,220,1996
 1,M,Nick Vinciguerra,D,MR-T3,75,Raw,69.2,,,190,190,1996
 2,M,Bruce Yankeltis,D,MR-T3,82.5,Raw,80.2,,,182.5,182.5,
-1,M,Ryan Morgan,D,MR-T3,90,Raw,86.6,,,190,190,1995
+1,M,Ryan Morgan #3,D,MR-T3,90,Raw,86.6,,,190,190,1995
 1,M,Jeremy Oettinger,D,MR-T3,100,Raw,98.1,,,252.5,252.5,1994
 1,M,Nick Roman,D,MR-T3,125,Raw,123.2,,,265,265,1995
 1,M,Bodie LaCoe,D,MR-Y,52,Raw,32.2,,,85,85,2003
@@ -144,7 +144,7 @@ DQ,M,Dennis Anness,B,MR-O,110,Raw,106.4,,-115,,,1976
 2,M,David Kapitula,D,MR-O,110,Raw,107.5,,,227.5,227.5,1971
 3,M,Joshua Corby,D,MR-O,110,Raw,105.6,,,187.5,187.5,1990
 4,M,Dennis Anness,D,MR-O,110,Raw,106.4,,,162.5,162.5,1976
-1,M,Samuel Whitney,D,MR-O,125,Raw,118.8,,,277.5,277.5,
+1,M,Sam Whitney,D,MR-O,125,Raw,118.8,,,277.5,277.5,
 1,M,Bradley Cummings,D,MR-M1a,100,Raw,91.7,,,230,230,1971
 1,M,Frank Petricek,D,MR-M1a,100,Raw,97.2,,,222.5,222.5,1974
 2,M,Ron Zsido,D,MR-M1a,100,Raw,91.6,,,210,210,1974
@@ -194,7 +194,7 @@ DQ,M,Dennis Anness,B,MR-O,110,Raw,106.4,,-115,,,1976
 1,M,Ryan Coffey,SBD,MR-T3,75,Raw,74.1,192.5,132.5,220,545,1996
 1,M,Nick Vinciguerra,SBD,MR-T3,75,Raw,69.2,172.5,132.5,190,495,1996
 2,M,Bruce Yankeltis,SBD,MR-T3,82.5,Raw,80.2,112.5,102.5,182.5,397.5,
-1,M,Ryan Morgan,SBD,MR-T3,90,Raw,86.6,155,100,190,445,1995
+1,M,Ryan Morgan #3,SBD,MR-T3,90,Raw,86.6,155,100,190,445,1995
 1,M,Jeremy Oettinger,SBD,MR-T3,100,Raw,98.1,232.5,152.5,252.5,637.5,1994
 1,M,Nick Roman,SBD,MR-T3,125,Raw,123.2,205,145,265,615,1995
 1,M,Bodie LaCoe,SBD,MR-Y,52,Raw,32.2,90,40,85,215,2003
@@ -229,7 +229,7 @@ DQ,M,Dennis Anness,B,MR-O,110,Raw,106.4,,-115,,,1976
 6,M,Bradley Kull,SBD,MR-O,100,Raw,98.3,157.5,100,170,427.5,1990
 3,M,Dave Lutz,SBD,MR-O,110,Raw,102.9,217.5,142.5,235,595,
 2,M,Joshua Corby,SBD,MR-O,110,Raw,105.6,182.5,120,187.5,490,1990
-1,M,Samuel Whitney,SBD,MR-O,125,Raw,118.8,232.5,160,277.5,670,
+1,M,Sam Whitney,SBD,MR-O,125,Raw,118.8,232.5,160,277.5,670,
 1,M,Ron Zsido,SBD,MR-M1a,100,Raw,91.6,192.5,160,210,562.5,1974
 2,M,Russ Smith #3,SBD,MR-M1a,100,Raw,91.6,192.5,160,210,562.5,
 3,M,Bradley Cummings,SBD,MR-M1a,100,Raw,91.7,180,117.5,230,527.5,1971

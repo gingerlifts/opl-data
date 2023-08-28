@@ -24,10 +24,10 @@ DQ,F,44,42.85,Rika Miura,1982,Japan,115,-125,-125,115,-85,-85,-88,,,,,,,SBD,Sing
 9,F,56,53.2,Natalya Yakovleva,1982,Kazakhstan,110,120,125,125,75,82.5,87.5,87.5,100,110,-115,110,322.5,SBD,Single-ply,Juniors
 1,F,60,60,Natalya Barybina,1983,Russia,180,190,195,195,105,112.5,115,115,185,195,200,200,510,SBD,Single-ply,Juniors
 2,F,60,60,Aigul Gaifullina,1980,Kazakhstan,170,175,180,180,-97.5,102.5,107.5,107.5,200,207.5,210.5,210.5,497.5,SBD,Single-ply,Juniors
-3,F,60,58.75,Niederkorn Robin,1982,USA,-142.5,142.5,155,155,90,-95,-95,90,142.5,152.5,157.5,157.5,402.5,SBD,Single-ply,Juniors
+3,F,60,58.75,Robyn Niederkorn,1982,USA,-142.5,142.5,155,155,90,-95,-95,90,142.5,152.5,157.5,157.5,402.5,SBD,Single-ply,Juniors
 4,F,60,56.65,Agnes Fehér,1984,Hungary,-85,85,-90,85,40,-45,45,45,95,100,,100,230,SBD,Single-ply,Juniors
 DQ,F,60,59.55,Anastasia Sukhacheva,1980,Russia,185,190,195,195,95,-100,-100,95,-195,-195,-195,,,SBD,Single-ply,Juniors
-1,F,67.5,65.8,Zhanna Ivanova,1984,Ukraine,215,225,232.5,232.5,-120,120,-125,120,190,202.5,210,210,562.5,SBD,Single-ply,Juniors
+1,F,67.5,65.8,Zhanna Ivanova #1,1984,Ukraine,215,225,232.5,232.5,-120,120,-125,120,190,202.5,210,210,562.5,SBD,Single-ply,Juniors
 2,F,67.5,63.3,Mandeep Kaur,1981,India,170,177.5,-180,177.5,75,82.5,85,85,170,180,182.5,182.5,445,SBD,Single-ply,Juniors
 3,F,67.5,62.7,Gundula Fiona Sommer von Bachhaus,1981,Germany,145,155,162.5,162.5,95,102.5,-105,102.5,155,165,177.5,177.5,442.5,SBD,Single-ply,Juniors
 4,F,67.5,64.55,Jan Morello,1983,USA,145,162.5,170,170,72.5,80,-87.5,80,157.5,167.5,172.5,172.5,422.5,SBD,Single-ply,Juniors
@@ -55,10 +55,10 @@ DQ,F,67.5,67.05,Lesya Guminska,1980,Ukraine,220,230,-235,230,-120,-125,-125,,,,,
 4,F,90,89.05,Yuliya Stesenko,1984,Uzbekistan,170,-195,197.5,197.5,100,115,122.5,122.5,160,187.5,-195,187.5,507.5,SBD,Single-ply,Juniors
 5,F,90,85.25,T. Narayan Amma,1984,India,160,-170,-195,160,55,60,-62.5,60,150,160,170,170,390,SBD,Single-ply,Juniors
 6,F,90,89.55,Danielle Miller,1983,USA,-150,-150,150,150,97.5,-100,-100,97.5,137.5,142.5,-147.5,142.5,390,SBD,Single-ply,Juniors
-1,F,90+,92.55,Valeria Shcheglova,1983,Russia,250,262.5,-267.5,262.5,150,157.5,162.5,162.5,215,222.5,227.5,227.5,652.5,SBD,Single-ply,Juniors
+1,F,90+,92.55,Valeriya Kholodova,1983,Russia,250,262.5,-267.5,262.5,150,157.5,162.5,162.5,215,222.5,227.5,227.5,652.5,SBD,Single-ply,Juniors
 2,F,90+,114,Viktoriya Olenytsya,1984,Ukraine,230,240,250,250,145,152.5,-160,152.5,220,-240,-252.5,220,622.5,SBD,Single-ply,Juniors
 3,F,90+,109.15,Hildeborg Juvet Hugdal,1983,Norway,215,225,230,230,115,120,125,125,175,180,185,185,540,SBD,Single-ply,Juniors
-4,F,90+,90.1,Lidia Makowska,1981,Poland,140,160,-170,160,80,87.5,-90,87.5,140,150,-160,150,397.5,SBD,Single-ply,Juniors
+4,F,90+,90.1,Lidia Kamila Makowska,1981,Poland,140,160,-170,160,80,87.5,-90,87.5,140,150,-160,150,397.5,SBD,Single-ply,Juniors
 1,M,52,51.8,Sergey Fedosienko,1982,Russia,220,235,-245,235,130,140,147.5,147.5,200,220,235,235,617.5,SBD,Single-ply,Juniors
 2,M,52,52,Jeremy Scruggs,1983,USA,172.5,182.5,-190,182.5,105,112.5,-115,112.5,212.5,222.5,-227.5,222.5,517.5,SBD,Single-ply,Juniors
 3,M,52,51.5,Ilhomiddin Buriyev,1982,Uzbekistan,160,180,-187.5,180,100,-112.5,112.5,112.5,160,170,182.5,182.5,475,SBD,Single-ply,Juniors
@@ -67,7 +67,7 @@ DQ,M,52,50,Akira Takeichi,1980,Japan,-120,-120,-120,,,,,,,,,,,SBD,Single-ply,Jun
 1,M,56,55.9,Damarrio Holloway,1980,USA,200,-215,215,215,112.5,122.5,-127.5,122.5,235,247.5,-257.5,247.5,585,SBD,Single-ply,Juniors
 2,M,56,55.45,Mitsunori Koga,1981,Japan,190,-200,200,200,120,-127.5,127.5,127.5,200,-210,-210,200,527.5,SBD,Single-ply,Juniors
 3,M,56,54.7,Kuat Sarbalayev,1983,Kazakhstan,180,-190,-190,180,125,-130,130,130,192.5,205,-210,205,515,SBD,Single-ply,Juniors
-4,M,56,55.65,Viktor Piskunov,1981,Ukraine,190,-200,-200,190,117.5,-122.5,122.5,122.5,192.5,-205,-205,192.5,505,SBD,Single-ply,Juniors
+4,M,56,55.65,Viktor Piskunov #1,1981,Ukraine,190,-200,-200,190,117.5,-122.5,122.5,122.5,192.5,-205,-205,192.5,505,SBD,Single-ply,Juniors
 5,M,56,55.2,Tadashi Shiraishi,1980,Japan,180,-187.5,-187.5,180,-122.5,122.5,-127.5,122.5,185,195,-200,195,497.5,SBD,Single-ply,Juniors
 1,M,60,59.95,Aleksandr Zolov,1980,Russia,240,255,260.5,260.5,-170.5,170.5,180,180,230,250,-255,250,690,SBD,Single-ply,Juniors
 2,M,60,59.8,Ryun P. Laniec,1982,Canada,185,-195,-197.5,185,125,132.5,-137.5,132.5,177.5,195,207.5,207.5,525,SBD,Single-ply,Juniors
@@ -81,7 +81,7 @@ DQ,M,52,50,Akira Takeichi,1980,Japan,-120,-120,-120,,,,,,,,,,,SBD,Single-ply,Jun
 3,M,67.5,67.3,Rodriguez Emmanuel,1984,Venezuela,-260,260,-265,260,140,145,-147.5,145,245,255,-270,255,660,SBD,Single-ply,Juniors
 4,M,67.5,67.35,Alexandr Romankov,1982,Belarus,245,255,262.5,262.5,145,152.5,157.5,157.5,210,217.5,-225,217.5,637.5,SBD,Single-ply,Juniors
 5,M,67.5,66.2,Emin Zeynalov,1983,Ukraine,240,-250,-255,240,130,140,-145,140,220,235,-245,235,615,SBD,Single-ply,Juniors
-6,M,67.5,65.8,Olivier Szikora,1984,Hungary,220,-230,230,230,137.5,145,150,150,210,220,-230,220,600,SBD,Single-ply,Juniors
+6,M,67.5,65.8,Oliver Szikora,1984,Hungary,220,-230,230,230,137.5,145,150,150,210,220,-230,220,600,SBD,Single-ply,Juniors
 7,M,67.5,67.1,Tomasz Jarosiewicz,1982,Poland,220,-230,-230,220,132.5,140,-150,140,230,-240,240,240,600,SBD,Single-ply,Juniors
 8,M,67.5,67.15,Bartłomiej Szymkowiak,1984,Poland,230,240,245,245,110,115,-117.5,115,230,240,-242.5,240,600,SBD,Single-ply,Juniors
 9,M,67.5,66.1,Antoni Mastrolorenzo,1982,France,220,227.5,-235,227.5,120,132.5,-142.5,132.5,220,230,-242.5,230,590,SBD,Single-ply,Juniors
@@ -117,7 +117,7 @@ DQ,M,82.5,81.8,Ron Hernan,1981,Venezuela,-330,-330,-335,,,,,,,,,,,SBD,Single-ply
 1,M,90,87.35,Ivan Shlyakhta,1982,Ukraine,335,350,357.5,357.5,-210,-210,210,210,335,-350,-350,335,902.5,SBD,Single-ply,Juniors
 2,M,90,89.4,Michał Wilk,1981,Poland,340,-350.5,350.5,350.5,215,220,-225,220,290,302.5,-307.5,302.5,872.5,SBD,Single-ply,Juniors
 3,M,90,88.5,Karol Kopienka,1980,Poland,320,-330,-330,320,185,-195,-200,185,320,330,340,340,845,SBD,Single-ply,Juniors
-4,M,90,89.35,Andrei Ivanets,1984,Belarus,-290,290,310,310,180,-187.5,187.5,187.5,315,330,340,340,837.5,SBD,Single-ply,Juniors
+4,M,90,89.35,Andrey Ivanets,1984,Belarus,-290,290,310,310,180,-187.5,187.5,187.5,315,330,340,340,837.5,SBD,Single-ply,Juniors
 5,M,90,89.5,Matt Goldin,1980,USA,270,290,-300,290,-172.5,-172.5,172.5,172.5,270,290,-302.5,290,752.5,SBD,Single-ply,Juniors
 6,M,90,89.85,Stefan Jamroz,1980,Sweden,255,265,275,275,190,-197.5,200,200,260,270,-277.5,270,745,SBD,Single-ply,Juniors
 7,M,90,89.75,Francesco Virzi,1983,Germany,270,-280,280,280,175,-185,-187.5,175,270,-280,-280,270,725,SBD,Single-ply,Juniors
@@ -158,7 +158,7 @@ DQ,M,110,109.4,Hubert Sztorc,1980,Poland,120,,,120,-220,-220,-220,,,,,,,SBD,Sing
 1,M,125+,125.6,Alexey Pankov,1983,Russia,320,335,340,340,200,215,222.5,222.5,330,340,350,350,912.5,SBD,Single-ply,Juniors
 2,M,125+,133.65,Jewgenij Kondraschow,1983,Germany,305,315,337.5,337.5,210,225,230,230,-302.5,302.5,332.5,332.5,900,SBD,Single-ply,Juniors
 3,M,125+,131.6,Oleg Bilichenko,1980,Ukraine,340,347.5,352.5,352.5,205,-212.5,-212.5,205,320,327.5,-332.5,327.5,885,SBD,Single-ply,Juniors
-4,M,125+,125.2,Viktor Yurchenko,1980,Ukraine,325,340,-350,340,210,220,227.5,227.5,295,310,-317.5,310,877.5,SBD,Single-ply,Juniors
+4,M,125+,125.2,Viktor Yurchenko #1,1980,Ukraine,325,340,-350,340,210,220,227.5,227.5,295,310,-317.5,310,877.5,SBD,Single-ply,Juniors
 5,M,125+,130.5,Emilio Saldierna,1980,USA,315,350,-370,350,212.5,227.5,237.5,237.5,262.5,285,-292.5,285,872.5,SBD,Single-ply,Juniors
 6,M,125+,127.35,Josh Chovanec,1983,USA,287.5,315,-325,315,212.5,-222.5,222.5,222.5,260,282.5,-290,282.5,820,SBD,Single-ply,Juniors
 7,M,125+,138.05,Antti Mourujärvi,1981,Finland,300,325,-335,325,190,200,205,205,290,-300,-300,290,820,SBD,Single-ply,Juniors

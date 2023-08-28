@@ -1,7 +1,7 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
 Girls,44.23,1,Ana Herrera,Edinburg,42.18,99.79,47.63,92.99,240.4,Single-ply,SBD,F
 Girls,44.23,2,Devany Morales,PSJA Memorial,44.13,99.79,40.82,99.79,240.4,Single-ply,SBD,F
-Girls,44.23,3,Maria Gutierrez,Edinburg,43.64,95.25,54.43,79.38,229.06,Single-ply,SBD,F
+Girls,44.23,3,Maria Gutierrez #2,Edinburg,43.64,95.25,54.43,79.38,229.06,Single-ply,SBD,F
 Girls,44.23,4,Lauren Salinas,Edinburg Vela,41.46,74.84,31.75,79.38,185.97,Single-ply,SBD,F
 Girls,47.85,1,Iliana Gamez,Edinburg Vela,45.09,129.27,61.23,120.2,310.71,Single-ply,SBD,F
 Girls,47.85,2,Nadia Rodriguez,Hidalgo Early College,46.72,108.86,68.04,115.67,292.57,Single-ply,SBD,F
@@ -26,11 +26,11 @@ Girls,51.94,11,Irali Cerda,Donna North,50.53,81.65,49.9,120.2,251.74,Single-ply,
 Girls,51.94,12,Jacqueline Trevino,Edinburg Economedes,51.71,88.45,49.9,113.4,251.74,Single-ply,SBD,F
 Girls,51.94,13,Lilly Serrano,Edcouch-Elsa,48.26,90.72,36.29,111.13,238.14,Single-ply,SBD,F
 Girls,51.94,14,Onaitza Morales,Edinburg Vela,49.71,79.38,43.09,95.25,217.72,Single-ply,SBD,F
-Girls,51.94,15,Clarissa Rivera,La Feria,48.17,72.57,34.02,83.91,190.51,Single-ply,SBD,F
+Girls,51.94,15,Clarissa Rivera #1,La Feria,48.17,72.57,34.02,83.91,190.51,Single-ply,SBD,F
 Girls,56.02,1,Kimberly Galarza,Edcouch-Elsa,54.16,115.67,52.16,127.01,294.84,Single-ply,SBD,F
 Girls,56.02,2,Jayden Barrientes,PSJA Memorial,55.93,120.2,63.5,102.06,285.76,Single-ply,SBD,F
 Girls,56.02,3,Keila Castellanos,Pharr Valley View,55.97,108.86,58.97,117.93,285.76,Single-ply,SBD,F
-Girls,56.02,4,Carla Perez,Edinburg Economedes,55.79,106.59,56.7,113.4,276.69,Single-ply,SBD,F
+Girls,56.02,4,Carla Perez #2,Edinburg Economedes,55.79,106.59,56.7,113.4,276.69,Single-ply,SBD,F
 Girls,56.02,5,Bryanna Marroquin,Edinburg North,54.98,97.52,65.77,104.33,267.62,Single-ply,SBD,F
 Girls,56.02,6,Fernanda Garza,Donna North,55.16,97.52,43.09,113.4,254.01,Single-ply,SBD,F
 Girls,56.02,7,Bebe Quiroz,Edinburg Vela,53.89,74.84,81.65,95.25,251.74,Single-ply,SBD,F
@@ -39,7 +39,7 @@ Girls,56.02,9,Brianna Perez,Donna North,55.57,90.72,47.63,99.79,238.14,Single-pl
 Girls,56.02,10,Kayla de la Fuente,La Feria,55.34,90.72,47.63,90.72,229.06,Single-ply,SBD,F
 Girls,56.02,11,Leslie Losoya,La Feria,55.16,83.91,36.29,83.91,204.12,Single-ply,SBD,F
 Girls,56.02,12,Nataly Navarrete,PSJA,52.44,77.11,36.29,83.91,197.31,Single-ply,SBD,F
-Girls,56.02,DQ,Brianna Rodriguez,PSJA,54.79,,,,,Single-ply,SBD,F
+Girls,56.02,DQ,Brianna Rodriguez #2,PSJA,54.79,,,,,Single-ply,SBD,F
 Girls,60.1,1,Laura Gomez,PSJA Memorial,59.15,163.29,88.45,158.76,410.5,Single-ply,SBD,F
 Girls,60.1,2,Amme Alcorchas,PSJA Memorial,59.6,138.35,81.65,136.08,356.07,Single-ply,SBD,F
 Girls,60.1,3,Marisol Sauceda,Edinburg Economedes,59.42,122.47,81.65,131.54,335.66,Single-ply,SBD,F
@@ -86,7 +86,7 @@ Girls,82.33,1,Cecilia Serna,Edinburg Economedes,80.83,165.56,92.99,147.42,405.97
 Girls,82.33,2,Virginia Watkins,Edinburg Vela,79.83,154.22,70.31,161.03,385.55,Single-ply,SBD,F
 Girls,82.33,3,Sabrena Rosales,Edinburg Economedes,79.02,136.08,88.45,136.08,360.61,Single-ply,SBD,F
 Girls,82.33,4,Sophia Coronado,Edinburg,80.74,151.95,70.31,131.54,353.8,Single-ply,SBD,F
-Girls,82.33,5,Destiny Perez,Edinburg,79.83,151.95,81.65,117.93,351.53,Single-ply,SBD,F
+Girls,82.33,5,Destiny Perez #4,Edinburg,79.83,151.95,81.65,117.93,351.53,Single-ply,SBD,F
 Girls,82.33,6,Dehilia Cantu,Edinburg Vela,75.57,156.49,61.23,129.27,347,Single-ply,SBD,F
 Girls,82.33,7,Kayla Cox,Edinburg North,80.38,138.35,72.57,129.27,340.19,Single-ply,SBD,F
 Girls,82.33,8,Trinity Guzman,Edinburg North,79.38,113.4,63.5,120.2,297.1,Single-ply,SBD,F

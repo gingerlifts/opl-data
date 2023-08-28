@@ -1,0 +1,28 @@
+Name,Sex,WeightClassKg,Division,AgeRange,Equipment,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Place
+M. Holt,M,100,Open,,Single-ply,,165,,165,B,1
+D. Hamilton,M,125,Open,,Single-ply,,,,,B,DQ
+R. Chavez,M,75,Masters 40-44,40-44,Single-ply,,117.5,,117.5,B,1
+J. Allen,M,82.5,Masters 55-59,55-59,Single-ply,,127.5,,127.5,B,1
+W. Sands,M,90,Masters 55-59,55-59,Single-ply,,115,,115,B,1
+M. Holt,M,100,Open,,Single-ply,,,160,160,D,1
+T. Brown,M,82.5,Submasters 33-39,33-39,Single-ply,,,200,200,D,1
+J. Honeycutt,M,90,Submasters 33-39,33-39,Single-ply,,,197.5,197.5,D,1
+W. Sands,M,90,Masters 55-59,55-59,Single-ply,,,185,185,D,1
+J. Hancock,F,67.5,High School,,Single-ply,85,57.5,100,242.5,SBD,1
+M. Cluff,F,67.5,High School,,Single-ply,60,47.5,80,187.5,SBD,2
+S. Hancock,F,82.5,High School,,Single-ply,80,45,147.5,272.5,SBD,1
+C. Pierce,M,90,High School,,Single-ply,195,137.5,195,527.5,SBD,1
+D. Hawkins,M,90,High School,,Single-ply,155,117.5,185,457.5,SBD,2
+T. Brown,M,82.5,Top Gun,,Single-ply,167.5,147.5,200,515,SBD,1
+D. Carter #10,M,82.5,Top Gun,,Single-ply,145,105,167.5,417.5,SBD,2
+C. Pierce,M,90,Top Gun,,Single-ply,195,137.5,195,527.5,SBD,1
+M. Snodgrass,M,100,Top Gun,,Single-ply,205,167.5,237.5,610,SBD,1
+D. Perez,M,125,Top Gun,,Single-ply,200,132.5,240,572.5,SBD,1
+S. Cox,M,82.5,Teen 13-15,13-15,Single-ply,47.5,40,87.5,175,SBD,1
+C. Pierce,M,90,Teen 16-17,16-17,Single-ply,195,137.5,195,527.5,SBD,1
+M. Snodgrass,M,100,Juniors 20-23,20-23,Single-ply,205,167.5,237.5,610,SBD,1
+D. Perez,M,125,Juniors 20-23,20-23,Single-ply,200,132.5,240,572.5,SBD,2
+T. Brown,M,82.5,Submasters 33-39,33-39,Single-ply,167.5,147.5,200,515,SBD,1
+R. Chavez,M,75,Masters 40-44,40-44,Single-ply,,,,,SBD,DQ
+W. Sands,M,90,Masters 55-59,55-59,Single-ply,165,115,185,465,SBD,1
+D. Judd,M,75,Masters 70-74,70-74,Single-ply,,,,,SBD,DQ

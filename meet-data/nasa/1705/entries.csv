@@ -25,13 +25,13 @@ Place,WeightClassKg,Name,State,BodyweightKg,Squat4Kg,Best3SquatKg,Bench4Kg,Best3
 2,82.5,J.R. Faigin,TX,82.01,,75,,55,,130,260,wm1,F,SBD,Wraps
 2,67.5,Heatherly Whaley,TX,65.68,,85,,42.5,,95,222.5,wnov,F,SBD,Wraps
 1,90+,Shonda Manes,TX,102.01,,100,,57.5,,110,267.5,wnov,F,SBD,Wraps
-1,60,Jodie Duncan,TX,59.24,,65,,20,,110,195,wm1,F,SBD,Wraps
-1,60,Jodie Duncan,TX,59.24,,65,,20,,110,195,wnov,F,SBD,Wraps
+1,60,Jodie Duncan,TX,59.24,,65,,20,,110,195,wm1,F,SBD,Raw
+1,60,Jodie Duncan,TX,59.24,,65,,20,,110,195,wnov,F,SBD,Raw
 2,90+,Sarah Mendoza,TX,105.1,,70,,57.5,,87.5,215,wnov,F,SBD,Wraps
 1,90+,Echo Johnson,TX,103.33,,60,,40,,95,195,wm1,F,SBD,Wraps
 1,125,Lee Elliff,TX,118.3,,,,230,,,230,m2,M,B,Single-ply
 1,110,Ruben Sanchez,TX,106.91,,305,,240,,285,830,jr,M,SBD,Single-ply
-1,110,John Martin,TX,109.5,,267.5,,165,,310,742.5,open,M,SBD,Single-ply
+1,110,John Martin #1,TX,109.5,,267.5,,165,,310,742.5,open,M,SBD,Single-ply
 1,75,Daniel Medina,TX,74.75,,197.5,,175,,202.5,575,sm1,M,SBD,Single-ply
 1,90,Joe Sowards,TX,89.63,,245,,157.5,,227.5,630,m1,M,SBD,Single-ply
 1,140+,Jake Johnson #2,TX,146.69,,,,160,,,160,sm2,M,B,Raw
@@ -61,7 +61,7 @@ Place,WeightClassKg,Name,State,BodyweightKg,Squat4Kg,Best3SquatKg,Bench4Kg,Best3
 1,110,James Novak,TX,108.18,,232.5,,147.5,,265,645,sm1,M,SBD,Wraps
 1,82.5,Taylor Zamora,TX,81.01,,195,,130,,230,555,nov,M,SBD,Wraps
 1,75,Jesus Perez,TX,72.57,,210,,95,,210,515,hs,M,SBD,Wraps
-1,75,Daniel Ramirez,TX,73.3,,200,,125,,190,515,open,M,SBD,Wraps
+1,75,Daniel Ramirez #2,TX,73.3,,200,,125,,190,515,open,M,SBD,Wraps
 1,90,Codey Williams,OK,87,,185,,147.5,,220,552.5,nov,M,SBD,Wraps
 2,82.5,Matt Talesco,TX,80.65,,172.5,,127.5,,227.5,527.5,nov,M,SBD,Wraps
 1,100,Matthew Burrows,LA,98.07,,210,,150,,215,575,open,M,SBD,Wraps

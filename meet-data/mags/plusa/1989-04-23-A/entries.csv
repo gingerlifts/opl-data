@@ -6,7 +6,7 @@ Greg Kinsman,56,Collegiate,,M,,,135,102.5,170,407.5,SBD,Single-ply,2
 Antoine Patton,56,Collegiate,,M,,,142.5,80,152.5,375,SBD,Single-ply,3
 Phuc Le,60,Collegiate,,M,,,202.5,117.5,197.5,517.5,SBD,Single-ply,1
 Arthur Herbert,60,Collegiate,,M,,,192.5,112.5,185,490,SBD,Single-ply,2
-Marcus Woods,60,Collegiate,,M,,,175,120,152.5,447.5,SBD,Single-ply,3
+Marcus Woods #2,60,Collegiate,,M,,,175,120,152.5,447.5,SBD,Single-ply,3
 L. Richard,60,Collegiate,,M,,,160,92.5,185,437.5,SBD,Single-ply,4
 Bubba Wolford,67.5,Collegiate,,M,,,272.5,172.5,235,680,SBD,Single-ply,1
 Alphonse Ambeau,67.5,Collegiate,,M,,,215,110,200,525,SBD,Single-ply,2
@@ -54,7 +54,7 @@ Eddie Mooney,82.5,Open,,M,,,310,207.5,327.5,845,SBD,Single-ply,1
 Steve Auld,82.5,Open,,M,,,302.5,150,280,732.5,SBD,Single-ply,2
 R. Williams,82.5,Open,,M,,,260,172.5,265,697.5,SBD,Single-ply,3
 Jonathan Wiseman,82.5,Open,,M,,,250,137.5,237.5,625,SBD,Single-ply,4
-C. Sandau,82.5,Open,,M,,,232.5,157.5,235,625,SBD,Single-ply,5
+Clark Sandau,82.5,Open,,M,,,232.5,157.5,235,625,SBD,Single-ply,5
 Rick Osburn,100,Open,,M,,,340,192.5,322.5,855,SBD,Single-ply,1
 Michael Hanlon,100,Open,,M,,,340,200,310,850,SBD,Single-ply,2
 David Mills Jr,100,Open,,M,,,322.5,190,305,817.5,SBD,Single-ply,3
@@ -66,7 +66,7 @@ Robert Windsor,110,Open,,M,,,370,252.5,330,952.5,SBD,Single-ply,2
 Steve Rodenberg,110,Open,,M,,,342.5,215,327.5,885,SBD,Single-ply,3
 Clayton Shults,110,Open,,M,,,285,175,282.5,742.5,SBD,Single-ply,4
 Joe Dalton,110,Open,,M,49,,287.5,165,242.5,695,SBD,Single-ply,5
-N. Cuccerre,110,Open,,M,,,275,155,255,685,SBD,Single-ply,6
+Nick Cuccerre,110,Open,,M,,,275,155,255,685,SBD,Single-ply,6
 R. Bueche,110,Open,,M,,,245,182.5,240,667.5,SBD,Single-ply,7
 Lance Ross,125,Open,,M,,,377.5,237.5,365,980,SBD,Single-ply,1
 Ray Pearce,125,Open,,M,,,365,270,345,980,SBD,Single-ply,2
@@ -85,8 +85,8 @@ Albert Pringle,67.5,Class II,,M,,,205,125,220,550,SBD,Single-ply,1
 A. Campo,67.5,Class II,,M,,,192.5,102.5,185,480,SBD,Single-ply,2
 J. Fedderson,67.5,Class II,,M,,,132.5,92.5,172.5,397.5,SBD,Single-ply,3
 Randy Adams,75,Class II,,M,,,222.5,132.5,192.5,547.5,SBD,Single-ply,1
-A. Arredondo,75,Class II,,M,,,217.5,120,195,532.5,SBD,Single-ply,2
-C. Sandau,82.5,Class II,,M,,,232.5,157.5,235,625,SBD,Single-ply,1
+Al Arredondo,75,Class II,,M,,,217.5,120,195,532.5,SBD,Single-ply,2
+Clark Sandau,82.5,Class II,,M,,,232.5,157.5,235,625,SBD,Single-ply,1
 Lou Angers,82.5,Class II,,M,,,237.5,115,255,607.5,SBD,Single-ply,2
 Tito Mata,82.5,Class II,,M,,,237.5,150,217.5,605,SBD,Single-ply,3
 G. Charlton,82.5,Class II,,M,,,205,152.5,237.5,595,SBD,Single-ply,4
@@ -107,7 +107,7 @@ J. Toland,100,Class II,,M,,,215,140,225,580,SBD,Single-ply,7
 David Bourland,100,Class II,,M,60,,200,120,180,500,SBD,Single-ply,8
 Elvin Smith,110,Class II,,M,40,,307.5,182.5,275,765,SBD,Single-ply,1
 David Liggitt,110,Class II,,M,,,292.5,190,255,737.5,SBD,Single-ply,2
-M. Paradise,110,Class II,,M,,,247.5,167.5,280,695,SBD,Single-ply,3
+Mike Paradise,110,Class II,,M,,,247.5,167.5,280,695,SBD,Single-ply,3
 M. Holland,110,Class II,,M,,,290,152.5,250,692.5,SBD,Single-ply,4
 L. Bryant,110,Class II,,M,,,250,175,265,690,SBD,Single-ply,5
 R. Neel,110,Class II,,M,,,265,165,257.5,687.5,SBD,Single-ply,6
@@ -129,7 +129,7 @@ L. Talent,67.5,Teen,13-19,M,,,137.5,80,155,372.5,SBD,Single-ply,3
 Stephen Jones,75,Teen,13-19,M,,,272.5,145,232.5,650,SBD,Single-ply,1
 S. Sabella,75,Teen,13-19,M,,,195,105,217.5,517.5,SBD,Single-ply,2
 A. Cormier,75,Teen,13-19,M,,,160,92.5,187.5,440,SBD,Single-ply,3
-Scott A. Smith,82.5,Teen,13-19,M,,,292.5,160,260,712.5,SBD,Single-ply,1
+Scott Smith #1,82.5,Teen,13-19,M,,,292.5,160,260,712.5,SBD,Single-ply,1
 C. Rosen,82.5,Teen,13-19,M,,,205,135,227.5,567.5,SBD,Single-ply,2
 J. Stevens,82.5,Teen,13-19,M,,,205,117.5,215,537.5,SBD,Single-ply,3
 Carlos Machuca,90,Teen,13-19,M,,,232.5,137.5,222.5,592.5,SBD,Single-ply,1
@@ -166,7 +166,7 @@ Phillip Manicchia,67.5,State Open,,M,,,250,187.5,250,687.5,SBD,Single-ply,1
 Ken Tyler,56,State Open,,M,,,215,140,202.5,557.5,SBD,Single-ply,1
 David Contreras,75,State Open,,M,,,277.5,192.5,237.5,707.5,SBD,Single-ply,1
 Jonathan Wiseman,82.5,State Open,,M,,,250,137.5,237.5,625,SBD,Single-ply,1
-Dan Gay #1,90,State Open,,M,,,332.5,215,320,867.5,SBD,Single-ply,1
+Dan Gay,90,State Open,,M,,,332.5,215,320,867.5,SBD,Single-ply,1
 Jeff Schmidt,90,State Open,,M,,,275,195,292.5,762.5,SBD,Single-ply,2
 Douglas Nostrant,90,State Open,,M,,,227.5,157.5,227.5,612.5,SBD,Single-ply,3
 T. Ross,100,State Open,,M,,,282.5,172.5,242.5,697.5,SBD,Single-ply,1
@@ -177,9 +177,9 @@ G. DeLeon,75,State Class II,,M,,,180,110,182.5,472.5,SBD,Single-ply,3
 T. Schepper,90,State Class II,,M,,,220,157.5,227.5,605,SBD,Single-ply,1
 T. Ross,100,State Class II,,M,,,282.5,172.5,242.5,697.5,SBD,Single-ply,1
 Ronnie Ray Jr,100,State Class II,,M,,,260,167.5,225,652.5,SBD,Single-ply,2
-W. McKinney,100,State Class II,,M,,,197.5,142.5,227.5,567.5,SBD,Single-ply,3
+Will McKinney #1,100,State Class II,,M,,,197.5,142.5,227.5,567.5,SBD,Single-ply,3
 David Bourland,100,State Class II,,M,60,,200,120,180,500,SBD,Single-ply,4
 Robert Springer,110,State Class II,,M,,,242.5,210,282.5,735,SBD,Single-ply,1
 S. Harrell,110,State Class II,,M,,,265,155,250,670,SBD,Single-ply,2
 Tommy Harveston,125,State Class II,,M,,,300,190,255,745,SBD,Single-ply,1
-N. Prieto,125+,State Class II,,M,,,282.5,155,237.5,675,SBD,Single-ply,1
+Nobel Prieto,125+,State Class II,,M,,,282.5,155,237.5,675,SBD,Single-ply,1

@@ -2,7 +2,7 @@ Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Bench4Kg,Best3Deadlift
 T. Silengo,52,Open,M,108.86,81.65,,136.08,326.59,SBD,Single-ply,1
 J. Baldwin,52,Open,M,102.06,65.77,,108.86,276.69,SBD,Single-ply,2
 Tom Koveleskie,56,Open,M,138.35,106.59,,188.24,433.18,SBD,Single-ply,1
-Robert Trujillo,56,Open,M,120.2,83.91,,185.97,390.09,SBD,Single-ply,2
+Reuben Trujillo,56,Open,M,120.2,83.91,,185.97,390.09,SBD,Single-ply,2
 S. Eitzel,56,Open,M,117.93,81.65,,151.95,351.53,SBD,Single-ply,3
 R. Roman,60,Open,M,170.1,104.33,,170.1,444.52,SBD,Single-ply,1
 Dennis James,60,Open,M,142.88,92.99,,176.9,412.77,SBD,Single-ply,2
@@ -16,7 +16,7 @@ Eric Montoya,67.5,Open,M,181.44,124.74,,238.14,544.31,SBD,Single-ply,3
 M. James,67.5,Open,M,206.38,102.06,,197.31,505.76,SBD,Single-ply,7
 G. Sandoval,67.5,Open,M,183.71,140.61,,195.04,519.36,SBD,Single-ply,5
 H. Health,67.5,Open,M,190.51,117.93,,199.58,508.02,SBD,Single-ply,6
-R. Trujillo,67.5,Open,M,181.44,90.72,,195.04,467.2,SBD,Single-ply,8
+Robert Trujillo #2,67.5,Open,M,181.44,90.72,,195.04,467.2,SBD,Single-ply,8
 B. Allen,67.5,Open,M,158.76,106.59,,190.51,455.86,SBD,Single-ply,9
 R. DeHerrera,67.5,Open,M,131.54,97.52,,161.03,390.09,SBD,Single-ply,10
 S. Garcia,67.5,Open,M,142.88,88.45,,158.76,390.09,SBD,Single-ply,11
@@ -42,7 +42,7 @@ T. Moore,82.5,Open,M,185.97,174.63,,242.67,603.28,SBD,Single-ply,5
 R. Rosenthal,82.5,Open,M,210.92,165.56,,204.12,580.6,SBD,Single-ply,6
 R. Parker,82.5,Open,M,204.12,127.01,,204.12,535.24,SBD,Single-ply,7
 P. Sisnroy,82.5,Open,M,190.51,133.81,,195.04,519.36,SBD,Single-ply,8
-M. Uglijesa,82.5,Open,M,181.44,124.74,,210.92,517.1,SBD,Single-ply,9
+Mike Ugljesa,82.5,Open,M,181.44,124.74,,210.92,517.1,SBD,Single-ply,9
 J. Parke,82.5,Open,M,,,,,,SBD,Single-ply,DQ
 K. Savie,82.5,Open,M,,,,,,SBD,Single-ply,DQ
 Jim Ponzi,90,Open,M,256.28,181.44,,290.3,728.02,SBD,Single-ply,1
@@ -59,7 +59,7 @@ Mike Carter,100,Open,M,219.99,197.31,,288.03,705.34,SBD,Single-ply,2
 Phil Brady,100,Open,M,233.6,163.29,,276.69,673.59,SBD,Single-ply,4
 T. Kovanda,100,Open,M,229.06,163.29,,254.01,646.37,SBD,Single-ply,5
 M. Hen,100,Open,M,219.99,113.4,,254.01,587.4,SBD,Single-ply,6
-R. Jordan,100,Open,M,181.44,136.08,,204.12,521.63,SBD,Single-ply,7
+R. Jordan #3,100,Open,M,181.44,136.08,,204.12,521.63,SBD,Single-ply,7
 K. Krisinger,100,Open,M,181.44,117.93,,199.58,498.95,SBD,Single-ply,8
 R. Rio,100,Open,M,278.96,,,,,SBD,Single-ply,DQ
 T. Neitenbach,100,Open,M,226.8,,,,,SBD,Single-ply,DQ
@@ -67,7 +67,7 @@ S. Linds,110,Open,M,292.57,199.58,,317.52,809.66,SBD,Single-ply,1
 T. Volkar,110,Open,M,272.16,179.17,,317.52,768.84,SBD,Single-ply,2
 R. Carlson,110,Open,M,263.08,181.44,,299.37,743.89,SBD,Single-ply,3
 Cokie Hunter,110,Open,M,285.76,149.69,,294.84,730.28,SBD,Single-ply,4
-J. Welch,110,Open,M,222.26,176.9,,260.82,659.98,SBD,Single-ply,5
+J. Welch #4,110,Open,M,222.26,176.9,,260.82,659.98,SBD,Single-ply,5
 R. Dodds,110,Open,M,272.16,,,,,SBD,Single-ply,DQ
 Gary Dorn,110,Open,M,215.46,,,,,SBD,Single-ply,DQ
 E. O'Malloy,110,Open,M,,,,,,SBD,Single-ply,DQ
@@ -90,12 +90,12 @@ Helen Nunez,52,Open,F,88.45,38.56,,124.74,251.74,SBD,Single-ply,1
 MaryAnn Castro,56,Open,F,102.06,56.7,58.97,115.67,274.42,SBD,Single-ply,1
 J. Endres,56,Open,F,92.99,56.7,,120.2,269.89,SBD,Single-ply,2
 C. Johnson,56,Open,F,83.91,49.9,,115.67,249.48,SBD,Single-ply,3
-P. Lowe,56,Open,F,88.45,45.36,,108.86,242.67,SBD,Single-ply,4
+Paula Lowe,56,Open,F,88.45,45.36,,108.86,242.67,SBD,Single-ply,4
 Christine Brady,60,Open,F,124.74,56.7,,140.61,322.05,SBD,Single-ply,1
 J. Kay,60,Open,F,79.38,63.5,,124.74,267.62,SBD,Single-ply,2
 C. Skadeland,60,Open,F,74.84,49.9,,104.33,229.06,SBD,Single-ply,3
 V. Carpenter,60,Open,F,,,,,,SBD,Single-ply,DQ
-L. Davis,67.5,Open,F,113.4,49.9,,140.61,303.91,SBD,Single-ply,1
+Linda Davis,67.5,Open,F,113.4,49.9,,140.61,303.91,SBD,Single-ply,1
 S. Paser,67.5,Open,F,92.99,49.9,,122.47,265.35,SBD,Single-ply,2
 D. Richard,67.5,Open,F,81.65,52.16,,120.2,254.01,SBD,Single-ply,3
 E. Webb,75,Open,F,61.24,43.09,,102.06,206.38,SBD,Single-ply,1

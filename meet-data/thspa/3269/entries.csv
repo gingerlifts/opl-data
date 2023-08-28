@@ -15,7 +15,7 @@ Boys,59.87,6,Javi Zamora,Palestine,58.42,129.27,70.31,129.27,328.85,Single-ply,S
 Boys,59.87,7,Braiden Miller,Whitehouse,59.51,127.01,,111.13,238.14,Single-ply,SD,M
 Boys,59.87,8,Cagen Clark,Palestine,57.24,92.99,43.09,83.91,219.99,Single-ply,SBD,M
 Boys,67.13,1,Damion Brown,Bullard,66.5,183.7,115.67,174.63,474,Single-ply,SBD,M
-Boys,67.13,2,Caleb Smith,Troup,66.86,201.85,99.79,163.29,464.93,Single-ply,SBD,M
+Boys,67.13,2,Caleb Smith #8,Troup,66.86,201.85,99.79,163.29,464.93,Single-ply,SBD,M
 Boys,67.13,3,Chadd Cole,Troup,66.13,176.9,97.52,179.17,453.59,Single-ply,SBD,M
 Boys,67.13,4,JD Prince,Beckville,65.68,158.76,95.25,158.76,412.77,Single-ply,SBD,M
 Boys,67.13,5,Michael Rosales,Rusk,65.23,151.95,86.18,158.76,396.89,Single-ply,SBD,M
@@ -30,17 +30,17 @@ Boys,67.13,13,Ahren Turner,Hemphill,64.5,145.15,,165.56,310.71,Single-ply,SD,M
 Boys,67.13,14,Max Gomez,Beckville,61.51,111.13,54.43,124.74,290.3,Single-ply,SBD,M
 Boys,67.13,15,Carter Grash,Cayuga,65.59,124.74,70.31,,195.04,Single-ply,SB,M
 Boys,74.84,1,Chris Galvan #1,Jacksonville,73.03,213.19,127.01,219.99,560.19,Single-ply,SBD,M
-Boys,74.84,2,Michael Zuniga,Troup,73.66,199.58,115.67,185.97,501.22,Single-ply,SBD,M
+Boys,74.84,2,Michael Zuniga #1,Troup,73.66,199.58,115.67,185.97,501.22,Single-ply,SBD,M
 Boys,74.84,3,Bryce Attaway,Troup,73.3,192.78,113.4,188.24,494.42,Single-ply,SBD,M
 Boys,74.84,4,Zach Morrow #3,Palestine Westwood,67.77,192.78,113.4,185.97,492.15,Single-ply,SBD,M
 Boys,74.84,5,Chaez Spurlock,Whitehouse,73.66,188.24,106.59,197.31,492.15,Single-ply,SBD,M
 Boys,74.84,6,Jose Bueno,Center,73.94,201.85,97.52,176.9,476.27,Single-ply,SBD,M
 Boys,74.84,7,Jacobi Jackson,Shelbyville,70.49,190.51,99.79,181.44,471.74,Single-ply,SBD,M
 Boys,74.84,8,Israel Enriquez,Rusk,72.94,181.44,95.25,181.44,458.13,Single-ply,SBD,M
-Boys,74.84,9,Jp Hucklebridge,Palestine Westwood,74.84,158.76,83.91,172.37,415.04,Single-ply,SBD,M
+Boys,74.84,9,JP Hucklebridge,Palestine Westwood,74.84,158.76,83.91,172.37,415.04,Single-ply,SBD,M
 Boys,74.84,10,Robert Buckley,Cayuga,71.94,158.76,90.72,158.76,408.23,Single-ply,SBD,M
 Boys,74.84,11,Dekedryn Butler,Palestine,73.75,154.22,70.31,172.37,396.89,Single-ply,SBD,M
-Boys,74.84,12,Dawson Windham,Shelbyville,70.08,145.15,68.04,147.42,360.61,Single-ply,SBD,M
+Boys,74.84,12,Dawson Windham #2,Shelbyville,70.08,145.15,68.04,147.42,360.61,Single-ply,SBD,M
 Boys,74.84,13,Gerardo Ramirez,Jacksonville,68.76,138.35,86.18,133.81,358.34,Single-ply,SBD,M
 Boys,74.84,14,Jay Shepherd,Grapeland,71.58,147.42,70.31,136.08,353.8,Single-ply,SBD,M
 Boys,74.84,15,Bryan Perez,Grapeland,73.21,131.54,68.04,154.22,353.8,Single-ply,SBD,M
@@ -79,7 +79,7 @@ Boys,89.81,9,Tryston Holland,Beckville,87,170.1,,192.78,362.87,Single-ply,SD,M
 Boys,89.81,10,Camron Spurlock,Palestine,83.37,174.63,88.45,,263.08,Single-ply,SB,M
 Boys,99.79,1,Katavious Evans,Center,94.26,251.74,120.2,222.26,594.21,Single-ply,SBD,M
 Boys,99.79,2,Cerdarian Davis,Grapeland,94.62,204.12,97.52,226.8,528.44,Single-ply,SBD,M
-Boys,99.79,3,Aaron Davis,Grapeland,93.71,226.8,92.99,204.12,523.9,Single-ply,SBD,M
+Boys,99.79,3,Aaron Davis #5,Grapeland,93.71,226.8,92.99,204.12,523.9,Single-ply,SBD,M
 Boys,99.79,4,Ashton Henry,Grapeland,93.44,204.12,102.06,208.65,514.83,Single-ply,SBD,M
 Boys,99.79,5,Jeremy Singleton,Jacksonville,96.89,167.83,108.86,154.22,430.91,Single-ply,SBD,M
 Boys,99.79,6,Hunter Casey #1,Shelbyville,95.16,163.29,95.25,158.76,417.3,Single-ply,SBD,M
@@ -114,9 +114,9 @@ Boys,109.77,14,Lance Deal,Whitehouse,101.79,161.03,99.79,174.63,435.45,Single-pl
 Boys,109.77,15,Billy Davis,Hemphill,104.24,158.76,102.06,154.22,415.04,Single-ply,SBD,M
 Boys,109.77,16,Augustin Jaimes,Troup,107.68,151.95,90.72,145.15,387.82,Single-ply,SBD,M
 Boys,109.77,17,Logan Vickers,Hemphill,106.23,181.44,,204.12,385.55,Single-ply,SD,M
-Boys,109.77,18,James Burns,Jacksonville,104.78,138.35,88.45,142.88,369.68,Single-ply,SBD,M
+Boys,109.77,18,James Burns #1,Jacksonville,104.78,138.35,88.45,142.88,369.68,Single-ply,SBD,M
 Boys,109.77,19,Hunter Lambright,Beckville,103.06,124.74,68.04,136.08,328.85,Single-ply,SBD,M
-Boys,109.77,20,Lance Collins,Hemphill,104.69,140.61,,154.22,294.84,Single-ply,SD,M
+Boys,109.77,20,Lance Collins #2,Hemphill,104.69,140.61,,154.22,294.84,Single-ply,SD,M
 Boys,124.74,1,Kawon McCowin,Shelbyville,122.2,272.16,181.44,249.48,703.07,Single-ply,SBD,M
 Boys,124.74,2,Jermaine Lewis,Rusk,117.57,274.42,136.08,256.28,666.78,Single-ply,SBD,M
 Boys,124.74,3,Keevon Jackson,Palestine Westwood,115.67,240.4,113.4,192.78,546.58,Single-ply,SBD,M
@@ -133,5 +133,5 @@ Boys,124.74+,6,Garrett Blaylock,Rusk,132.54,199.58,120.2,229.06,548.85,Single-pl
 Boys,124.74+,7,Tradarion Sadler,Palestine,154.31,206.38,113.4,206.38,526.17,Single-ply,SBD,M
 Boys,124.74+,8,Jashon Adams,Beckville,131.63,167.83,136.08,167.83,471.74,Single-ply,SBD,M
 Boys,124.74+,9,Josh Leach,Palestine,125.83,183.7,83.91,170.1,437.72,Single-ply,SBD,M
-Boys,124.74+,10,Samuel Turner,Whitehouse,128.46,158.76,79.38,170.1,408.23,Single-ply,SBD,M
+Boys,124.74+,10,Samuel Turner #2,Whitehouse,128.46,158.76,79.38,170.1,408.23,Single-ply,SBD,M
 Boys,124.74+,11,Tanner Hathaway,Bullard,128.09,163.29,72.57,142.88,378.75,Single-ply,SBD,M

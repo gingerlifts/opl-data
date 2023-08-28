@@ -21,7 +21,7 @@ Open,82.5,M,82.5,Marcelo Carrizo,B,Raw,Performance,,,,,,127.5,132.5,-137.5,,132.
 Open,78.2,M,82.5,Leonardo Casale,B,Raw,Soria,,,,,,130,140,145,,145,,,,,,145,2
 SubM,82.5,M,82.5,Fabian Rossi,B,Raw,Extremo Gym,,,,,,130,140,147.5,-150,147.5,,,,,,147.5,1
 SubM,81.2,M,82.5,Daniel Fernandez,B,Raw,Extremo Gym,,,,,,100,102.5,112.5,,112.5,,,,,,112.5,2
-M 40-44,75,M,75,Nestor Gonzalez,B,Raw,Extremo Gym,,,,,,110,120,127.5,-130,127.5,,,,,,127.5,1
+M 40-44,75,M,75,Nestor Gonzalez #1,B,Raw,Extremo Gym,,,,,,110,120,127.5,-130,127.5,,,,,,127.5,1
 M 40-44,80.4,M,82.5,Sergio Tomasoni,B,Raw,Vulcano,,,,,,130,140,-150,,140,,,,,,140,1
 M 45-49,71.9,M,75,Hector Sanhueza,B,Raw,Vulcano,,,,,,125,135,142.5,145,142.5,,,,,,142.5,1
 M 50-54,78.5,M,82.5,Jorge Duran,B,Raw,Atenas,,,,,,85,95,105,-110,105,,,,,,105,1
@@ -29,8 +29,8 @@ Tn 18-19,86.3,M,90,Ricardo Neman,B,Raw,RAM,,,,,,125,132.5,137.5,140,137.5,,,,,,1
 Jun,87.25,M,90,Omar Bernier,B,Raw,RAM,,,,,,-120,-120,120,-132.5,120,,,,,,120,2
 Jun,89.3,M,90,Juan Manqueo,B,Raw,NeoGym,,,,,,120,125,130,,130,,,,,,130,1
 ParaOl,88,M,90,Lucas Basualdo,B,Raw,Soria,,,,,,107.5,110,115,,115,,,,,,115,1
-Open,88.3,M,90,Andres Manrique,B,Raw,RAM,,,,,,182.5,190,-197.5,,190,,,,,,190,1
-SubM,88.3,M,90,Andres Manrique,B,Raw,RAM,,,,,,182.5,190,-197.5,,190,,,,,,190,1
+Open,88.3,M,90,Andres Manrrique,B,Raw,RAM,,,,,,182.5,190,-197.5,,190,,,,,,190,1
+SubM,88.3,M,90,Andres Manrrique,B,Raw,RAM,,,,,,182.5,190,-197.5,,190,,,,,,190,1
 Jun,98.7,M,100,Fernando Godoy,B,Raw,Soria,,,,,,115,-125,-130,,115,,,,,,115,2
 Open,92.6,M,100,Emiliano Barrionuevo,B,Raw,Vulcano,,,,,,160,170,175,-177.5,175,,,,,,175,1
 Jun,92.6,M,100,Emiliano Barrionuevo,B,Raw,Vulcano,,,,,,160,170,175,-177.5,175,,,,,,175,1
@@ -55,9 +55,9 @@ M 50-54,110.1,M,125,Carlos Cura,B,Raw,Vulcano,,,,,,85,95,105,,105,,,,,,105,1
 Jun,67,F,67.5,Daysi Prieto Gomez,SBD,Wraps,Def de Glew,-70,70,-80,,70,45,-55,55,,55,-80,80,90,100,90,215,1
 Jun,96.5,F,90+,Veronica Hugo,SBD,Wraps,Indoor Gym,135,-150,160,165,160,45,65,75,,75,145,160,167.5,,167.5,402.5,1
 Open,46.5,F,48,Fernanda Vaccaro,SBD,Wraps,Soria,87.5,95,-105,,95,42.5,50,-55,,50,92,102.5,107.5,112.5,107.5,252.5,1
-Open,52.7,F,56,Veronica Garcia,SBD,Wraps,La Bestia,85,100,107,-112.5,107,60,67.5,70,,70,110,-115,115,,115,292,2
+Open,52.7,F,56,Veronica Garcia #2,SBD,Wraps,La Bestia,85,100,107,-112.5,107,60,67.5,70,,70,110,-115,115,,115,292,2
 Open,55.8,F,56,Rosana Crestia,SBD,Wraps,Indiana,120,130,137.5,,137.5,75,80,85,,85,130,140,150,,150,372.5,1
-SubM,52.7,F,56,Veronica Garcia,SBD,Wraps,La Bestia,85,100,107,-112.5,107,60,67.5,70,,70,110,-115,115,,115,292,1
+SubM,52.7,F,56,Veronica Garcia #2,SBD,Wraps,La Bestia,85,100,107,-112.5,107,60,67.5,70,,70,110,-115,115,,115,292,1
 M 40-44,55.8,F,56,Rosana Crestia,SBD,Wraps,Indiana,120,130,137.5,,137.5,75,80,85,,85,130,140,150,,150,372.5,1
 Open,57,F,60,Rocio Mosquera,SBD,Wraps,La Bestia,60,72.5,85,,85,37.5,42.5,-47.5,,42.5,115,120,130,,130,257.5,2
 Open,60,F,60,María Izetta,SBD,Wraps,Atenas,100,107,115,,115,40,47.5,50,,50,130,140,145,,145,310,1
@@ -71,7 +71,7 @@ Open,76.1,F,82.5,Carina Cares,SBD,Wraps,Region Nº 6,110,115,120,,120,-55,-55,55
 Open,81.2,F,82.5,Flavia Torres,SBD,Wraps,Big Gym,115,125,132.5,140,132.5,47.5,52.5,55,57.5,55,125,135,141,,141,328.5,1
 Jun,81.2,F,82.5,Flavia Torres,SBD,Wraps,Big Gym,115,125,132.5,140,132.5,47.5,52.5,55,57.5,55,125,135,141,,141,328.5,1
 Open,113.5,F,90+,Marina Izetta,SBD,Wraps,Atenas,120,135,145,152.5,145,57.5,62.5,67.5,,67.5,150,157.5,165,172.5,165,377.5,1
-Tn 13-15,66.6,M,67.5,Juan Garcia,SBD,Wraps,Esparta,140,145,150,-152.5,150,40,80,82.5,-87.5,82.5,140,150,160,162.5,160,392.5,1
+Tn 13-15,66.6,M,67.5,Juan Garcia #21,SBD,Wraps,Esparta,140,145,150,-152.5,150,40,80,82.5,-87.5,82.5,140,150,160,162.5,160,392.5,1
 Open,60,M,60,Nicandro Zapata,SBD,Wraps,Region N°6,115,125,-130,,125,77.5,82.5,-87.5,,82.5,140,150,,,150,357.5,1
 Open,66.1,M,67.5,Ezequiel Mosquera,SBD,Wraps,La Bestia,-160,170,-180,,170,80,90,-92.5,,90,170,180,190,192.5,190,450,1
 Tn 16-17,66.1,M,67.5,Ezequiel Mosquera,SBD,Wraps,La Bestia,-160,170,-180,,170,80,90,-92.5,,90,170,180,190,192.5,190,450,1
@@ -98,7 +98,7 @@ M 45-49,70,M,75,Raul Amil,SBD,Wraps,Spinardi Team,155,-165,165,,165,100,105,-107
 Tn 18-19,81,M,82.5,Erik Mateyka,SBD,Wraps,Indiana,200,217.5,225,,225,132.5,140,-145,,140,220,230,-240,,230,595,1
 M 65-69,80,M,82.5,Juan Carlos Gonzalez,SBD,Wraps,Soria,80,90,100,,100,80,90,95,,95,110,125,140,,140,335,1
 Open,74,M,75,Augusto Monti,SBD,Wraps,Spinardi Team,160,170,180,,180,100,110,-117.5,,110,135,160,-175,,160,450,4
-Open,71.4,M,75,Miguel Pérez,SBD,Wraps,La Bestia,140,155,165,,165,100,-107.5,107.5,,107.5,180,190,200,,200,472.5,2
+Open,71.4,M,75,Miguel Pérez #3,SBD,Wraps,La Bestia,140,155,165,,165,100,-107.5,107.5,,107.5,180,190,200,,200,472.5,2
 Open,74.5,M,75,Sergio Barrientos,SBD,Wraps,Pringles,180,192.5,-202.5,,192.5,137.5,142.5,145,,145,170,180,-187.5,,180,517.5,1
 Open,73.5,M,75,Mauro Flores Liccioni,SBD,Wraps,Sparta Gym,-160,-160,160,,160,90,100,-110,,100,180,190,200,,200,460,3
 SubM,77,M,82.5,Sandro Sayas,SBD,Wraps,Def de Glew,170,-180,-180,,170,110,120,125,,125,200,210,-215,,210,505,2
@@ -117,7 +117,7 @@ M 45-49,89.9,M,90,Sergio Cousau,SBD,Wraps,Vulcano,160,170,180,,180,110,120,,,120
 M 60-64,91,M,100,Júlio Chavez #1,SBD,Wraps,Chavez,-130,140,,,140,80,85,90,,90,200,220,,,220,450,1
 Jun,99.5,M,100,Jonathan Giordano,SBD,Wraps,Vulcano,200,215,225.5,235.5,225.5,125,132.5,140,,140,180,210,-230,,210,575.5,1
 Open,95.7,M,100,Ramiro Mosquera,SBD,Wraps,La Bestia,230,250,260,,260,-140,145,160,,160,230,260,-280,,260,680,3
-Open,99.1,M,100,Andres Hugo,SBD,Wraps,Indoor Gym,260,282.5,-300,,282.5,155,165,-175,,165,220,250,270,,270,717.5,1
+Open,99.1,M,100,Andrés Hugo,SBD,Wraps,Indoor Gym,260,282.5,-300,,282.5,155,165,-175,,165,220,250,270,,270,717.5,1
 Open,97,M,100,Marcos Bravo,SBD,Wraps,Indoor Gym,180,190,210,,210,130,-140,-140,,130,180,200,215,,215,555,5
 Open,97.6,M,100,Mario Reyna,SBD,Wraps,L y M,215,225,240,,240,145,155,-165,,155,240,250,262.5,,262.5,657.5,4
 Open,98.8,M,100,Javier Villaverde,SBD,Wraps,Indiana,230,240,250,,250,152.5,160,165,,165,255,267.5,-275.5,,267.5,682.5,2
@@ -138,7 +138,7 @@ M 45-49,100,M,100,Daniel Matamala,SBD,Wraps,Fund Cristian,200,220,225,,225,-100,
 M 70-74,109.5,M,110,Jose Leandro Fernandez,SBD,Wraps,Soria,65,85,-100,,85,80,95,100,,100,140,160,-180,,160,345,1
 Open,111,M,125,Facundo Soria,SBD,Wraps,Soria,255,265,275,,275,165,175,185,,185,260,272.5,280,,280,740,1
 Jun,111,M,125,Facundo Soria,SBD,Wraps,Soria,255,265,275,,275,165,175,185,,185,260,272.5,280,,280,740,1
-Open,117.3,M,125,Adrian Lopez,SBD,Wraps,Vulcano,230,255,270,,270,150,165,-175,,165,255,270,-300,,270,705,2
+Open,117.3,M,125,Adrian Lopez #3,SBD,Wraps,Vulcano,230,255,270,,270,150,165,-175,,165,255,270,-300,,270,705,2
 SubM,119.3,M,125,Claudio Maidana,SBD,Wraps,Soria,270,287.5,300.5,,300.5,145,155,160,,160,240,250,260,,260,720.5,1
 Open,141.5,M,140+,Leonardo Cavaglia,SBD,Wraps,Soria,290,310,325,,325,175,185,195,,195,260,280,300,,300,820,1
 Open,148,M,140+,Emanuel Montes de Oca,SBD,Wraps,Neogym,-210,210,230,,230,180,-200,-200,,180,260,282.5,290,-302.5,290,700,2

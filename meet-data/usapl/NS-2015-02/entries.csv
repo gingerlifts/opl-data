@@ -23,7 +23,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Bench1Kg,Benc
 3,M,Brad Wolfe,B,MR-Jr,93,Raw,92.5,162.5,167.5,-170,167.5,167.5,1994
 1,M,Thomas Davis #1,B,MR-Jr,120+,Raw,197.4,265,-275,-280,265,265,1992
 1,M,Mike Ferrantelli,B,M-M,105,Single-ply,104.6,-255,255,277.5,277.5,277.5,1966
-1,M,Josh Hunt,B,M-M,120,Single-ply,119.1,220,232.5,-240,232.5,232.5,1982
+1,M,Josh Hunt #1,B,M-M,120,Single-ply,119.1,220,232.5,-240,232.5,232.5,1982
 1,M,Shane Hopkins,B,M-M,120+,Single-ply,156.4,227.5,247.5,255,255,255,1979
 1,M,William Garcia,B,M-O,59,Single-ply,57.5,-167.5,167.5,-182.5,167.5,167.5,1990
 2,M,Xaviar Clark,B,M-O,59,Single-ply,58.9,120,-127.5,-127.5,120,120,1989
@@ -43,11 +43,11 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Bench1Kg,Benc
 1,M,Mike Ferrantelli,B,M-O,105,Single-ply,104.6,-255,255,277.5,277.5,277.5,1966
 2,M,Tim Stroshine,B,M-O,105,Single-ply,96.4,275,-282.5,-282.5,275,275,1978
 3,M,Kevin Farley,B,M-O,105,Single-ply,102.6,210,220,-230,220,220,1966
-1,M,Brady Stewart,B,M-O,120,Single-ply,119,325,333,340.5,340.5,340.5,1982
+1,M,Brady Stewart #1,B,M-O,120,Single-ply,119,325,333,340.5,340.5,340.5,1982
 2,M,David Doan,B,M-O,120,Single-ply,119.2,287.5,-295,-295,287.5,287.5,1964
 3,M,Ryan Gill,B,M-O,120,Single-ply,118,262.5,-272.5,-272.5,262.5,262.5,1976
 4,M,Jake Hegler,B,M-O,120,Single-ply,118.7,245,252.5,-265,252.5,252.5,1979
-5,M,Josh Hunt,B,M-O,120,Single-ply,119.1,220,232.5,-240,232.5,232.5,1982
+5,M,Josh Hunt #1,B,M-O,120,Single-ply,119.1,220,232.5,-240,232.5,232.5,1982
 DQ,M,Morgan Mann,B,M-O,120,Single-ply,118.8,-265,-265,-265,,,1983
 DQ,M,Jeremy Auerbach,B,M-O,120,Single-ply,118.9,-307.5,-307.5,-333.5,,,1987
 1,M,Jonathan Leo,B,M-O,120+,Single-ply,157.6,380,-392.5,-408.5,380,380,1977
@@ -62,7 +62,7 @@ DQ,M,Phil Brinks,B,M-O,120+,Single-ply,163.4,-312.5,-317.5,-317.5,,,1981
 2,M,Ben Friel,B,MR-O,59,Raw,58.6,67.5,-72.5,-75,67.5,67.5,2000
 1,M,Jeff Cohen #1,B,MR-O,66,Raw,64.6,147.5,155.5,157.5,157.5,157.5,1984
 1,M,Mykhailo Zabrodin,B,MR-O,74,Raw,73.8,185,190,-195,190,190,
-2,M,John Dalessio,B,MR-O,74,Raw,73.8,135,-142.5,-147.5,135,135,1968
+2,M,John D'Alessio,B,MR-O,74,Raw,73.8,135,-142.5,-147.5,135,135,1968
 3,M,Derrick Chance,B,MR-O,74,Raw,72.4,115,122.5,127.5,127.5,127.5,1989
 1,M,Chris Walter,B,MR-O,83,Raw,81.7,185,187.5,-190,187.5,187.5,1971
 2,M,David Boutsomsy,B,MR-O,83,Raw,82,175,180,-185,180,180,1981
@@ -120,21 +120,21 @@ DQ,M,Joe Dibert,B,M-M1b,120+,Single-ply,141,-342.5,-342.5,-342.5,,,1969
 2,M,Craig Barroll,B,M-M2a,93,Single-ply,91.6,-145,145,150,150,150,1962
 1,M,David Doan,B,M-M2a,120,Single-ply,119.2,287.5,-295,-295,287.5,287.5,1964
 1,M,Steve Petrencak,B,MR-M1b,66,Raw,65.5,132.5,-142.5,-142.5,132.5,132.5,1968
-1,M,John Dalessio,B,MR-M1b,74,Raw,73.8,135,-142.5,-147.5,135,135,1968
+1,M,John D'Alessio,B,MR-M1b,74,Raw,73.8,135,-142.5,-147.5,135,135,1968
 1,M,Mike Burns,B,MR-M1b,105,Raw,94.9,157.5,162.5,167.5,167.5,167.5,1966
 2,M,Ron Doiron,B,MR-M1b,105,Raw,101.8,155,160,-165,160,160,1967
 1,M,Christopher Hamilton,B,MR-M1b,120,Raw,117,165,170,-175,170,170,1968
 2,M,Mike Lloyd,B,MR-M1b,120,Raw,117.6,155,165,-170,165,165,
 3,M,Greg Coupe,B,MR-M1b,120,Raw,118.8,145,152.5,160,160,160,1969
 1,M,Daniel Sides,B,M-M2b,74,Single-ply,73,145,152.5,157.5,157.5,157.5,1956
-1,M,Tom Cencich,B,M-M2b,83,Single-ply,82.2,-197.5,197.5,215,215,215,1960
+1,M,Thomas Cencich,B,M-M2b,83,Single-ply,82.2,-197.5,197.5,215,215,215,1960
 1,M,Dana Rosenzweig,B,M-M2b,93,Single-ply,92,175,190,200,200,200,1957
 1,M,Charles Turco,B,M-M2b,105,Single-ply,103.8,215,-227.5,-227.5,215,215,1956
 1,M,Bill Eaton,B,M-M2b,120,Single-ply,117.9,165,-182.5,-182.5,165,165,1956
 DQ,M,Brad Klinger,B,M-M2b,120,Single-ply,119.6,-292.5,-292.5,-292.5,,,1956
 1,M,Bill Gillespie,B,M-M2b,120+,Single-ply,139.1,182.5,-310,-322.5,182.5,182.5,1959
 1,M,Sam Felts,B,M-M3a,59,Single-ply,58.6,125,-135,135,135,135,1952
-1,M,Kevin Johnson,B,M-M3a,120,Single-ply,119.5,210,-227.5,-227.5,210,210,1954
+1,M,Kevin Johnson #1,B,M-M3a,120,Single-ply,119.5,210,-227.5,-227.5,210,210,1954
 1,M,Robert Crawford #1,B,M-M3a,120+,Single-ply,144.4,175,-200,-200,175,175,1951
 1,M,Brian Kline,B,M-M3b,93,Single-ply,91.4,165,-172.5,-172.5,165,165,1950
 1,M,Robert Evans #1,B,M-M3b,105,Single-ply,103.9,160,165,170,170,170,1946

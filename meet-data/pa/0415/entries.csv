@@ -7,7 +7,7 @@ WeightClassKg,Sex,Division,Name,BodyweightKg,Best3BenchKg,TotalKg,State,Event,Eq
 125,M,Open,Kevin Boatwood,118,185.5,185.5,VIC,B,Single-ply,2
 125,M,Open,Greg Marini,113.5,175,175,SA,B,Single-ply,3
 125,M,Open,Brandon Carr,123.85,105,105,VIC,B,Single-ply,4
-125,M,Open,Steve Little,119.15,,,SA,B,Single-ply,DQ
+125,M,Open,Steve Little #1,119.15,,,SA,B,Single-ply,DQ
 110,M,Open,Andrew Logan,108.65,205,205,QLD,B,Single-ply,1
 110,M,Open,Ian Sullivan,105.9,170,170,WA,B,Single-ply,2
 110,M,Open,Neville Shoesmith,107.2,160,160,QLD,B,Single-ply,3
@@ -17,7 +17,7 @@ WeightClassKg,Sex,Division,Name,BodyweightKg,Best3BenchKg,TotalKg,State,Event,Eq
 110,M,Open,James Phyland,101,92.5,92.5,VIC,B,Single-ply,7
 100,M,Open,Shannon Florissen,94.6,180,180,TAS,B,Single-ply,1
 100,M,Open,Kevin Schaffer,93.1,150,150,WA,B,Single-ply,2
-100,M,Open,Trevor Morris,99,145,145,SA,B,Single-ply,3
+100,M,Open,Trevor Morris #4,99,145,145,SA,B,Single-ply,3
 100,M,Open,Scott Street,97.95,142.5,142.5,QLD,B,Single-ply,4
 90,M,Open,Ziad Jnied,88.9,200,200,WA,B,Single-ply,1
 90,M,Open,Brett Smartt,89.85,155,155,VIC,B,Single-ply,2
@@ -51,7 +51,7 @@ WeightClassKg,Sex,Division,Name,BodyweightKg,Best3BenchKg,TotalKg,State,Event,Eq
 67.5,M,Open,Max Bristow,66.3,105.5,105.5,NSW,B,Single-ply,4
 67.5,M,Open,Dale Smythe,62.7,102.5,102.5,VIC,B,Single-ply,5
 67.5,M,Open,William Wong,66.95,100,100,QLD,B,Single-ply,6
-67.5,M,Open,Andrew Hay,63,70,70,TAS,B,Single-ply,7
+67.5,M,Open,Andrew Hay #3,63,70,70,TAS,B,Single-ply,7
 60,M,Open,Matt Lang,59.85,75,75,VIC,B,Single-ply,1
 56,M,Open,Daniel Wray,53.2,130.5,130.5,NSW,B,Single-ply,1
 56,M,Open,Tane Robson-Web,55.3,120,120,QLD,B,Single-ply,2
@@ -82,7 +82,7 @@ WeightClassKg,Sex,Division,Name,BodyweightKg,Best3BenchKg,TotalKg,State,Event,Eq
 125+,M,Masters 1,Strase Stojanoski,139,233,233,NSW,B,Single-ply,1
 125,M,Masters 1,Steve Giffin,114.65,200.5,200.5,VIC,B,Single-ply,1
 125,M,Masters 1,Greg Marini,113.5,175,175,SA,B,Single-ply,2
-125,M,Masters 1,Steve Little,119.15,,,SA,B,Single-ply,DQ
+125,M,Masters 1,Steve Little #1,119.15,,,SA,B,Single-ply,DQ
 110,M,Masters 1,Ian Sullivan,105.9,170,170,WA,B,Single-ply,1
 100,M,Masters 1,Kevin Schaffer,93.1,150,150,WA,B,Single-ply,1
 90,M,Masters 1,Brett Smartt,89.85,155,155,VIC,B,Single-ply,1

@@ -3,11 +3,11 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Larisa Gvozdeva,Open,Russia,59.1,120,135,-145,135,,95,100,-102.5,100,,-155,155,-165,155,,390,60,F,Wraps,SBD
 1,Csilla Sipos,T 16-17,Hungary,62.5,70,80,90,90,-95,37.5,40,42.5,42.5,45,100,110,120,120,,252.5,67.5,F,Wraps,SBD
 1,Caroline Garhammer-Vogt,Open,Switzerland,62.4,100,110,115,115,,60,70,-72.5,70,,160,170,180,180,,365,67.5,F,Wraps,SBD
-1,Kiss Katalin Schindlerné,M 40-44,Hungary,66,95,110,-115,110,,72.5,80,85,85,,125,135,-145,135,,330,67.5,F,Wraps,SBD
+1,Katalin Schindlerné Kis,M 40-44,Hungary,66,95,110,-115,110,,72.5,80,85,85,,125,135,-145,135,,330,67.5,F,Wraps,SBD
 1,Tímea Szuromi,Open,Hungary,81.6,155,165,172.5,172.5,,95,102.5,107.5,107.5,,160,175,182.5,182.5,,462.5,82.5,F,Wraps,SBD
 1,Jona Wessiak,T 18-19,Austria,62.3,110,120,130,130,,70,80,85,85,,140,160,-170,160,,375,67.5,M,Wraps,SBD
 1,James Greaves,T 16-17,USA,74.9,110,127.5,-137.5,127.5,,-97.5,97.5,-115,97.5,,-180,180,-200,180,,405,75,M,Wraps,SBD
-2,Matthew Webb,T 16-17,USA,69.8,-110,110,-127.5,110,,75,-80,-80,75,,172.5,182.5,,182.5,,367.5,75,M,Wraps,SBD
+2,Matthew Webb #2,T 16-17,USA,69.8,-110,110,-127.5,110,,75,-80,-80,75,,172.5,182.5,,182.5,,367.5,75,M,Wraps,SBD
 1,Wladimir Litvinenko,T 18-19,Germany,73.5,140,147.5,152.5,152.5,,110,-115,-115,110,,190,205,215,215,-220,477.5,75,M,Wraps,SBD
 1,Artur Giczan,Open,Poland,74.8,190,205,215,215,-220,120,127.5,135,135,,220,240,-255,240,255,590,75,M,Wraps,SBD
 1,Josef Gabrhel,M 55-59,Slovakia,74,125,132.5,137.5,137.5,,95,102.5,105,105,,155,165,170,170,,412.5,75,M,Wraps,SBD
@@ -20,7 +20,7 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Piotr Sulima,Open,Poland,88.4,220,-240,250,250,,145,165,-175,165,,240,260,280,280,,695,90,M,Wraps,SBD
 1,Dave Rade,M 40-44,Switzerland,87.8,180,190,205,205,,137.5,142.5,147.5,147.5,,260,270,277.5,277.5,,630,90,M,Wraps,SBD
 1,Sergio Bianchi,M 50-54,Italy,87.5,150,170,180,180,,70,80,,80,,180,190,202.5,202.5,,462.5,90,M,Wraps,SBD
-1,Frank Thomas Kutzsch,M 55-59,Germany,88.5,160,175,185,185,192.5,150,157.5,160,160,,210,230,241,241,,586,90,M,Wraps,SBD
+1,Frank Kutzsch,M 55-59,Germany,88.5,160,175,185,185,192.5,150,157.5,160,160,,210,230,241,241,,586,90,M,Wraps,SBD
 1,József Sztanke,M 60-64,Hungary,89.4,-180,180,-210,180,,150,160,170,170,-172.5,200,230,-237.5,230,,580,90,M,Wraps,SBD
 1,Stefan Sochaňski,M 65-69,Poland,88.2,-140,140,160,160,,100,-110,110,110,,140,170,,170,,440,90,M,Wraps,SBD
 1,Bartłomiej Zaik,Open,Poland,95.2,240,255,-265,255,,160,165,-170,165,,270,285,300,300,-310,720,100,M,Wraps,SBD
@@ -28,7 +28,7 @@ Place,Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 3,András Gadó,Open,Hungary,100,230,-240,-240,230,,160,165,170,170,,255,260,265,265,,665,100,M,Wraps,SBD
 4,Szabolcs Balázs,Open,Hungary,96,200,210,215,215,,140,155,-162.5,155,,270,280,287.5,287.5,,657.5,100,M,Wraps,SBD
 1,Lothar Pritzl,M 55-59,Germany,90.2,145,160,170,170,-180,100,115,130,130,,180,200,,200,,500,100,M,Wraps,SBD
-1,Patyi Szilard,Juniors,Hungary,108.3,220,235,245,245,,165,-175,175,175,180,270,280,-287.5,280,-290,700,110,M,Wraps,SBD
+1,Szilárd Patyi,Juniors,Hungary,108.3,220,235,245,245,,165,-175,175,175,180,270,280,-287.5,280,-290,700,110,M,Wraps,SBD
 2,Stefan Larch,Juniors,Austria,109.4,235,250,-265,250,,145,152.5,157.5,157.5,,245,265,275,275,,682.5,110,M,Wraps,SBD
 1,Tamás Bocz,Open,Hungary,108,230,245,255,255,,200,215,222.5,222.5,,-285,285,295,295,-305,772.5,110,M,Wraps,SBD
 2,Klaus Steinbock,Open,Austria,106.4,220,-230,230,230,,160,-167.5,170,170,,-275,280,290,290,-300,690,110,M,Wraps,SBD
@@ -136,7 +136,7 @@ DQ,Hella Schulster,M 80+,Germany,67.5,,,,,,-40,-50,-50,,,,,,,,,67.5,F,Raw,B
 2,Mathias Steiner,Open,Switzerland,85,,,,,,165,170,-175,170,,,,,,,170,90,M,Raw,B
 1,Bernard Utoyo,M 40-44,Italy,90,,,,,,130,140,-150,140,,,,,,,140,90,M,Raw,B
 1,Helmut Silberbauer,M 45-49,Austria,86.7,,,,,,130,140,-145,140,,,,,,,140,90,M,Raw,B
-1,Frank Thomas Kutzsch,M 55-59,Germany,88.7,,,,,,150,160,165,165,,,,,,,165,90,M,Raw,B
+1,Frank Kutzsch,M 55-59,Germany,88.7,,,,,,150,160,165,165,,,,,,,165,90,M,Raw,B
 1,Ivan Palyuk,M 60-64,Ukraine,89.5,,,,,,140,150,-155,150,,,,,,,150,90,M,Raw,B
 1,Dragomir Dimič,M 65-69,Serbia,89.8,,,,,,125,130,137.5,137.5,-138.5,,,,,,137.5,90,M,Raw,B
 2,Joachim Eulenstein,M 65-69,Germany,88.9,,,,,,125,130,137.5,137.5,140,,,,,,137.5,90,M,Raw,B
@@ -234,7 +234,7 @@ DQ,Arkadiusz Herold,M 40-44,Poland,97.3,,,,,,-250,-250,-260,,,,,,,,,100,M,Multi-
 1,Armin Bunzel,M 60-64,Germany,98.3,,,,,,-150,-150,150,150,,,,,,,150,100,M,Multi-ply,B
 1,Joachim Eulenstein,M 65-69,Germany,92.6,,,,,,120,130,,130,,,,,,,130,100,M,Multi-ply,B
 1,David Velička,Submasters,Czechia,92.6,,,,,,240,250,255,255,,,,,,,255,100,M,Multi-ply,B
-1,Richárd Budai,Juniors,Hungary,107.3,,,,,,-300,300,315,315,-330.5,,,,,,315,110,M,Multi-ply,B
+1,Richárd Buda,Juniors,Hungary,107.3,,,,,,-300,300,315,315,-330.5,,,,,,315,110,M,Multi-ply,B
 2,Matthias Rensi,Juniors,Austria,108.6,,,,,,152.5,157.5,162.5,162.5,,,,,,,162.5,110,M,Multi-ply,B
 1,Grzegorz Wałga,Open,Poland,108.4,,,,,,300,310,-315,310,,,,,,,310,110,M,Single-ply,B
 2,Petr Bolf,Open,Czechia,110,,,,,,-305,310,-315,310,,,,,,,310,110,M,Multi-ply,B

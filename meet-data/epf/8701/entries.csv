@@ -1,6 +1,6 @@
 Name,BirthYear,WeightClassKg,BodyweightKg,Country,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Division,Event,Equipment,Place
 Kari Ojalehto,1948,52,51.6,Finland,197.5,107.5,185,490,M,Open,SBD,Single-ply,1
-John Clay,1964,52,50.5,UK,170,102.5,190,462.5,M,Open,SBD,Single-ply,2
+John Clay #3,1964,52,50.5,UK,170,102.5,190,462.5,M,Open,SBD,Single-ply,2
 John Maxwell,1964,52,50.5,UK,170,82.5,195,447.5,M,Open,SBD,Single-ply,3
 Johann Mandl,1949,52,51.9,Austria,147.5,72.5,175,395,M,Open,SBD,Single-ply,4
 Joachim Mödl,1966,52,51.5,Germany,150,77.5,165,392.5,M,Open,SBD,Single-ply,5
@@ -32,7 +32,7 @@ Norwin Martina,1953,75,74.6,Netherlands,250,152.5,265,667.5,M,Open,SBD,Single-pl
 Frédéric Buttigieg,1964,75,74.5,France,250,150,265,665,M,Open,SBD,Single-ply,8
 Harrie van den Brand,1946,75,74.2,Netherlands,245,140,270,655,M,Open,SBD,Single-ply,9
 Eduard Ziaja,1958,75,74.4,Germany,262.5,135,255,652.5,M,Open,SBD,Single-ply,10
-Franci Mezzanotte,1963,75,70.3,Belgium,245,127.5,275,647.5,M,Open,SBD,Single-ply,11
+Francis Mezzanotte,1963,75,70.3,Belgium,245,127.5,275,647.5,M,Open,SBD,Single-ply,11
 Tormod Andersen,1956,75,74.9,Norway,250,145,250,645,M,Open,SBD,Single-ply,12
 Desmond Scott,1941,75,74.9,Ireland,200,100,240,540,M,Open,SBD,Single-ply,13
 Antonio Glez,1957,75,73.5,Spain,200,,,,M,Open,SBD,Single-ply,DQ
@@ -43,7 +43,7 @@ Ove Hansen,1959,82.5,81.1,Norway,260,190,280,730,M,Open,SBD,Single-ply,3
 Janus Schneider,1951,82.5,82.3,Netherlands,255,197.5,270,722.5,M,Open,SBD,Single-ply,4
 Sven Eric Person,1963,82.5,82.3,Sweden,270,150,270,690,M,Open,SBD,Single-ply,5
 Ad Schenkels,1954,82.5,81.5,Netherlands,250,150,275,675,M,Open,SBD,Single-ply,6
-Gay Devrient,1962,82.5,81.3,Belgium,260,140,260,660,M,Open,SBD,Single-ply,7
+Guy De Vriendt,1962,82.5,81.3,Belgium,260,140,260,660,M,Open,SBD,Single-ply,7
 Malachy McClelland,,82.5,81.7,Ireland,240,120,260,620,M,Open,SBD,Single-ply,8
 Lucio D Recas,1962,82.5,81,Spain,215,135,250,600,M,Open,SBD,Single-ply,9
 Gianni Pacchioli,1962,82.5,81.9,Luxembourg,,,,,M,Open,SBD,Single-ply,DQ
@@ -54,9 +54,9 @@ Zlatko Radojkovic,1960,90,89.7,Sweden,290,177.5,280,747.5,M,Open,SBD,Single-ply,
 Frans van Puffelen,1942,90,89.2,Netherlands,295,120,275,690,M,Open,SBD,Single-ply,5
 Jari Taetinen,1953,90,88.7,Finland,287.5,,,,M,Open,SBD,Single-ply,DQ
 Flavio Domenici,1954,90,89.1,Italy,,,,,M,Open,SBD,Single-ply,DQ
-George McAfee,1955,90,89.5,Ireland,240,,,,M,Open,SBD,Single-ply,DQ
+Gerry McAfee,1955,90,89.5,Ireland,240,,,,M,Open,SBD,Single-ply,DQ
 Tony Stevens #1,1949,100,99.9,UK,350,215,345,910,M,Open,SBD,Single-ply,1
-Jonny Melander,1953,100,99.9,Sweden,335,195,340,870,M,Open,SBD,Single-ply,2
+Johnny Melander,1953,100,99.9,Sweden,335,195,340,870,M,Open,SBD,Single-ply,2
 Hugo de Grauwe,1954,100,99.6,Belgium,320,190,320,830,M,Open,SBD,Single-ply,3
 Guy Deleu,1953,100,98.3,Belgium,300,200,300,800,M,Open,SBD,Single-ply,4
 Max Losan,1958,100,98.8,France,300,195,295,790,M,Open,SBD,Single-ply,5
@@ -74,12 +74,12 @@ Thierry Zemis,1961,110,106.1,France,320,195,285,800,M,Open,SBD,Single-ply,5
 Rauno Rinne,1952,110,100.4,Finland,,,,,M,Open,SBD,Single-ply,DQ
 Lars Norén,1961,125,124.4,Sweden,360,225,387.5,972.5,M,Open,SBD,Single-ply,1
 Sean Spillane,1959,125,119.5,UK,355,220,330,905,M,Open,SBD,Single-ply,2
-Soeren Oldenborg,1955,125,113.7,Denmark,332.5,230,327.5,890,M,Open,SBD,Single-ply,3
+Søren Oldenborg,1955,125,113.7,Denmark,332.5,230,327.5,890,M,Open,SBD,Single-ply,3
 Reidar Steen,1944,125,110.3,Norway,290,207.5,297.5,795,M,Open,SBD,Single-ply,4
 Robert van der Tak,1956,125,114.2,Netherlands,300,200,292.5,792.5,M,Open,SBD,Single-ply,5
 Yngve Gustafsson,1959,125+,137.2,Sweden,335,230,322.5,887.5,M,Open,SBD,Single-ply,1
 Kyosti Vilm,1960,125+,125.4,Finland,350,220,315,885,M,Open,SBD,Single-ply,2
 Gerard du Prie,1937,125+,131.4,Netherlands,335,217.5,315,867.5,M,Open,SBD,Single-ply,3
-Tomy Olsen,1958,125+,133.7,Norway,300,220,295,815,M,Open,SBD,Single-ply,4
+Tommy Olsen,1958,125+,133.7,Norway,300,220,295,815,M,Open,SBD,Single-ply,4
 Manfred Poschenrieder,1956,125+,125.1,Germany,300,165,330,795,M,Open,SBD,Single-ply,5
 Enrique Soriano-Mora,1956,125+,138.8,Spain,260,170,287.5,717.5,M,Open,SBD,Single-ply,6

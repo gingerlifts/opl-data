@@ -1,8 +1,8 @@
 Place,Division,Sex,Event,Equipment,WeightClassKg,Name,CyrillicName,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg
 1,Sub-Juniors,F,B,Single-ply,40,Natalya Stoyanova,Наталья Стоянова,2000,37.05,37.5,-42.5,42.5,42.5,42.5
-1,Sub-Juniors,F,B,Single-ply,43,Daniela Kolesnik,Даниэла Колесник,1999,42.3,62.5,67.5,-72.5,67.5,67.5
+1,Sub-Juniors,F,B,Single-ply,43,Daniela Kolesnik,Даниела Колесник,1999,42.3,62.5,67.5,-72.5,67.5,67.5
 2,Sub-Juniors,F,B,Single-ply,43,Oksana Butorina,Оксана Буторина,1998,40.5,60,65,-67.5,65,65
-3,Sub-Juniors,F,B,Single-ply,43,Yuliya Smirnova,Юлия Смирнова,1998,43,-40,40,42.5,42.5,42.5
+3,Sub-Juniors,F,B,Single-ply,43,Yuliya Smirnova #1,Юлия Смирнова,1998,43,-40,40,42.5,42.5,42.5
 1,Sub-Juniors,F,B,Single-ply,47,Anastasiya Kaneva,Анастасия Канева,1998,46.95,50,55,-57.5,55,55
 2,Sub-Juniors,F,B,Single-ply,47,Anastasiya Chavkina,Анастасия Чавкина,1998,45.95,50,-55,-55,50,50
 3,Sub-Juniors,F,B,Single-ply,47,Anastasiya Davydenko,Анастасия Давыденко,1996,46.95,47.5,-50,-50,47.5,47.5
@@ -27,14 +27,14 @@ NS,Sub-Juniors,F,B,Single-ply,52,Kristina Odnokozova,Кристина Однок
 2,Sub-Juniors,F,B,Single-ply,84,Anzhelika Koade,Анжелика Коадэ,1995,79.3,-87.5,87.5,90,90,90
 3,Sub-Juniors,F,B,Single-ply,84,Darya Alimova,Дарья Алимова,1997,77.6,47.5,50,-55,50,50
 1,Sub-Juniors,F,B,Single-ply,84+,Yuliya Radchenko,Юлия Радченко,1996,93.75,100,-110,110,110,110
-2,Sub-Juniors,F,B,Single-ply,84+,Alina Gordeeva,Алина Гордеева,1997,113.2,55,-62.5,62.5,62.5,62.5
+2,Sub-Juniors,F,B,Single-ply,84+,Alina Gordeeva #1,Алина Гордеева,1997,113.2,55,-62.5,62.5,62.5,62.5
 1,Sub-Juniors,M,B,Single-ply,43,Ildar Gafarov,Ильдар Гафаров,2000,40.9,45,47.5,50,50,50
 2,Sub-Juniors,M,B,Single-ply,43,Aleksandr Dyachenko,Александр Дьяченко,1999,36.5,40,45,47.5,47.5,47.5
 3,Sub-Juniors,M,B,Single-ply,43,Andrey Taraskin,Андрей Тараскин,1999,42.3,40,42.5,-45,42.5,42.5
 4,Sub-Juniors,M,B,Single-ply,43,Anton Kasatkin,Антон Касаткин,1999,39.35,35,40,-42.5,40,40
 1,Sub-Juniors,M,B,Single-ply,48,Egor Klimenko,Егор Клименко,1996,45.85,80,87.5,92.5,92.5,92.5
 2,Sub-Juniors,M,B,Single-ply,48,Dmitriy Maryanov,Дмитрий Марянов,1996,47.8,75,80,-88,80,80
-3,Sub-Juniors,M,B,Single-ply,48,Aleksey Malyshev,Алексей Малышев,1997,46.05,75,-77.5,77.5,77.5,77.5
+3,Sub-Juniors,M,B,Single-ply,48,Aleksey Malyshev #2,Алексей Малышев,1997,46.05,75,-77.5,77.5,77.5,77.5
 NS,Sub-Juniors,M,B,Single-ply,48,Danil Dolgulev,Данил Долгулев,1998,,,,,,
 1,Sub-Juniors,M,B,Single-ply,53,Nikolay Semenov,Николай Семенов,1995,51,115,122.5,-127.5,122.5,122.5
 2,Sub-Juniors,M,B,Single-ply,53,Vitaliy Mukhin,Виталий Мухин,1995,52.6,105,107.5,-110,107.5,107.5
@@ -56,7 +56,7 @@ NS,Sub-Juniors,M,B,Single-ply,48,Danil Dolgulev,Данил Долгулев,1998
 2,Sub-Juniors,M,B,Single-ply,74,Shodibek Ikromov,Шодибек Икромов,1995,73.8,147.5,152.5,-165,152.5,152.5
 3,Sub-Juniors,M,B,Single-ply,74,Konstantin Berdnikov,Константин Бердников,1995,72.4,140,-150,-152,140,140
 4,Sub-Juniors,M,B,Single-ply,74,Elchin Khalilov,Эльчин Халилов,1996,71.75,100,107.5,112.5,112.5,112.5
-1,Sub-Juniors,M,B,Single-ply,83,Sergey Biryukov #3,Сергей Бирюков,,80.35,150,160,-165,160,160
+1,Juniors,M,B,Single-ply,83,Sergey Biryukov #3,Сергей Бирюков,1993,80.35,150,160,-165,160,160
 2,Sub-Juniors,M,B,Single-ply,83,Bakhruz Tagiev,Бахруз Тагиев,1995,79.45,150,157.5,-160,157.5,157.5
 3,Sub-Juniors,M,B,Single-ply,83,Ramil Makaev,Рамиль Макаев,1995,82.6,150,157.5,-165,157.5,157.5
 4,Sub-Juniors,M,B,Single-ply,83,Petr Orishchin,Петр Орищин,1995,80.1,152.5,-160,-160,152.5,152.5
@@ -75,7 +75,7 @@ DQ,Sub-Juniors,M,B,Single-ply,93,Dmitriy Ezhov,Дмитрий Ежов,1995,90.6
 DQ,Sub-Juniors,M,B,Single-ply,105,Nikita Turlakov,Никита Турлаков,1995,98.35,-155,-155,-155,,
 1,Sub-Juniors,M,B,Single-ply,120,Evgeniy Osadchiy,Евгений Осадчий,1997,107.5,165,170,177.5,177.5,177.5
 2,Sub-Juniors,M,B,Single-ply,120,Sergey Yazykov,Сергей Языков,1995,113.85,165,-172.5,175,175,175
-3,Sub-Juniors,M,B,Single-ply,120,Sergey Fedorov,Сергей Федоров,1995,119.5,162.5,167.5,172.5,172.5,172.5
+3,Sub-Juniors,M,B,Single-ply,120,Sergey Fedorov #11,Сергей Федоров,1995,119.5,162.5,167.5,172.5,172.5,172.5
 4,Sub-Juniors,M,B,Single-ply,120,Vadim Shchukin,Вадим Щукин,1996,107.85,160,-170,170,170,170
 5,Sub-Juniors,M,B,Single-ply,120,Aleksandr Zaytsev,Александр Зайцев,1995,106.45,162.5,-167.5,-172.5,162.5,162.5
 DQ,Sub-Juniors,M,B,Single-ply,120,Roman Galyaminskikh,Роман Галяминских,1996,118.25,-152.5,-155,-155,,
@@ -112,7 +112,7 @@ NS,Juniors,F,B,Single-ply,84+,Tatyana Matskevich,Татьяна Мацкевич
 3,Juniors,M,B,Single-ply,53,Kaplan Skhalyakho,Каплан Схаляхо,1990,52.1,112.5,-115,-115,112.5,112.5
 4,Juniors,M,B,Single-ply,53,Andrey Reyn,Андрей Рейн,1991,52.8,100,105,-115,105,105
 5,Juniors,M,B,Single-ply,53,Mikhail Kostylev,Михаил Костылев,1992,52.7,90,100,-105,100,100
-1,Juniors,M,B,Single-ply,59,Oleg Smirnov,Олег Смирнов,1990,57.35,170,-175,175,175,175
+1,Juniors,M,B,Single-ply,59,Oleg Smirnov #1,Олег Смирнов,1990,57.35,170,-175,175,175,175
 2,Juniors,M,B,Single-ply,59,Roman Sayfutdinov,Роман Сайфутдинов,1993,57.75,150,160,-172.5,160,160
 3,Juniors,M,B,Single-ply,59,Ilya Morogov,Илья Морогов,1993,55.2,-130,130,140,140,140
 1,Juniors,M,B,Single-ply,66,Aleksandr Molin,Александр Молин,1992,65.95,175,180,185,185,185

@@ -1,10 +1,10 @@
 //! Types for raw data interchange from Rust to JS.
 
+use langpack::{localized_name, Locale, LocalizeNumber};
 use opldb::{Entry, OplDb};
+use opltypes::states::State;
 use opltypes::*;
 use serde::ser::{Serialize, SerializeSeq, Serializer};
-
-use crate::langpack::{self, get_localized_name, Locale, LocalizeNumber};
 
 /// Represents one row of JS data.
 ///
@@ -16,21 +16,22 @@ pub struct JsEntryRow<'db> {
 
     pub name: &'db str,
     pub username: &'db str,
-    pub instagram: &'db Option<String>,
-    pub vkontakte: &'db Option<String>,
-    pub color: &'db Option<String>,
-    pub flair: &'db Option<String>,
+    pub instagram: Option<&'db str>,
+    pub color: Option<&'db str>,
+
+    pub lifter_country: Option<&'db str>,
+    pub lifter_state: Option<State>,
 
     pub federation: Federation,
     pub date: String,
-    pub country: &'db str,
-    pub state: &'db Option<String>,
+    pub meet_country: &'db str,
+    pub meet_state: Option<&'db str>,
     pub path: &'db str,
 
     pub sex: &'db str,
     pub equipment: &'db str,
     pub age: PrettyAge,
-    pub division: &'db Option<String>,
+    pub division: Option<&'db str>,
     pub bodyweight: langpack::LocalizedWeightAny,
     pub weightclass: langpack::LocalizedWeightClassAny,
     pub squat: langpack::LocalizedWeightAny,
@@ -46,10 +47,7 @@ pub struct JsEntryRow<'db> {
 /// Serialize to a compact but definitely less-helpful format
 /// for JS interchange.
 impl<'db> Serialize for JsEntryRow<'db> {
-    fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
-    where
-        S: Serializer,
-    {
+    fn serialize<S: Serializer>(&self, serializer: S) -> Result<S::Ok, S::Error> {
         let mut seq = serializer.serialize_seq(None)?;
 
         seq.serialize_element(&self.sorted_index)?;
@@ -58,14 +56,15 @@ impl<'db> Serialize for JsEntryRow<'db> {
         seq.serialize_element(&self.name)?;
         seq.serialize_element(&self.username)?;
         seq.serialize_element(&self.instagram)?;
-        seq.serialize_element(&self.vkontakte)?;
         seq.serialize_element(&self.color)?;
-        seq.serialize_element(&self.flair)?;
+
+        seq.serialize_element(&self.lifter_country)?;
+        seq.serialize_element(&self.lifter_state)?;
 
         seq.serialize_element(&self.federation)?;
         seq.serialize_element(&self.date)?;
-        seq.serialize_element(&self.country)?;
-        seq.serialize_element(&self.state)?;
+        seq.serialize_element(&self.meet_country)?;
+        seq.serialize_element(&self.meet_state)?;
         seq.serialize_element(&self.path)?;
 
         seq.serialize_element(&self.sex)?;
@@ -92,8 +91,8 @@ impl<'db> JsEntryRow<'db> {
         sorted_index: u32,
         points_system: PointsSystem,
     ) -> JsEntryRow<'db> {
-        let meet = opldb.get_meet(entry.meet_id);
-        let lifter = opldb.get_lifter(entry.lifter_id);
+        let meet = opldb.meet(entry.meet_id);
+        let lifter = opldb.lifter(entry.lifter_id);
 
         let strings = locale.strings;
         let number_format = locale.number_format;
@@ -104,23 +103,24 @@ impl<'db> JsEntryRow<'db> {
 
             rank: locale.ordinal(sorted_index + 1, entry.sex),
 
-            name: get_localized_name(lifter, locale.language),
-            username: &lifter.username,
-            instagram: &lifter.instagram,
-            vkontakte: &lifter.vkontakte,
-            color: &lifter.color,
-            flair: &lifter.flair,
+            name: localized_name(lifter, locale.language),
+            username: lifter.username.as_str(),
+            instagram: lifter.instagram.as_deref(),
+            color: lifter.color.as_deref(),
+
+            lifter_country: entry.lifter_country.map(|c| strings.translate_country(c)),
+            lifter_state: entry.lifter_state,
 
             federation: meet.federation,
             date: format!("{}", meet.date),
-            country: strings.translate_country(meet.country),
-            state: &meet.state,
+            meet_country: strings.translate_country(meet.country),
+            meet_state: meet.state.as_deref(),
             path: &meet.path,
 
             sex: strings.translate_sex(entry.sex),
             equipment: strings.translate_equipment(entry.equipment),
             age: PrettyAge::from(entry.age),
-            division: &entry.division,
+            division: entry.division.as_deref(),
             bodyweight: entry.bodyweightkg.as_type(units).in_format(number_format),
             weightclass: entry.weightclasskg.as_type(units).in_format(number_format),
             squat: entry

@@ -1,11 +1,11 @@
 Place,Name,CyrillicName,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,TotalKg,WeightClassKg,Division,Sex,Event,Equipment,Best3BenchKg,BirthYear
-1,Kim Tarverdiev,Кім Тарвердієв,Ukraine,43.4,20,25,30,,30,44,Amateur Children 9,M,B,Raw,30,2008
+1,Kim Tarverdiev,Кім Тарвердієв,Ukraine,43.4,20,25,30,,30,44,Amateur Youth 9,M,B,Raw,30,2008
 1,Nikita Gavrilenko,Нікіта Гавриленко,Ukraine,47.7,60,67.5,72.5,,72.5,48,Amateur Teen 13-15,M,B,Raw,72.5,2002
 1,Mikola Trimbach,Микола Тримбач,Ukraine,67.5,92.5,97.5,102.5,,102.5,67.5,Amateur Teen 16-17,M,B,Raw,102.5,2000
 1,Oleksandr Ovcharenko,Олександр Овчаренко,Ukraine,82.5,107.5,115,120,,120,82.5,Amateur Teen 16-17,M,B,Raw,120,2001
 1,Stepan Dolgopoliy,Степан Долгополий,Ukraine,75,95,100,105,,105,75,Amateur Juniors 20-23,M,B,Raw,105,1993
 1,Ruslan Rosiyskiy,Руслан Російський,Ukraine,99.1,145,152.5,-157.5,,152.5,100,Amateur Juniors 20-23,M,B,Raw,152.5,1996
-1,Kim Tarverdiev,Кім Тарвердієв,Ukraine,43.4,20,25,30,,30,44,Amateur Open,M,B,Raw,30,2008
+1,Kim Tarverdiev,Кім Тарвердієв,Ukraine,43.4,20,25,30,,30,52,Amateur Open,M,B,Raw,30,2008
 1,Ivan Kril,Іван Криль,Ukraine,67.5,95,100,105,,105,67.5,Amateur Open,M,B,Raw,105,1991
 1,Stepan Dolgopoliy,Степан Долгополий,Ukraine,75,95,100,105,,105,75,Amateur Open,M,B,Raw,105,1993
 1,Sergiy Poberezhnyuk,Сергій Побережнюк,Ukraine,82.5,132.5,140,-150,,140,82.5,Amateur Open,M,B,Raw,140,1986
@@ -36,15 +36,15 @@ Place,Name,CyrillicName,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg
 1,Dmitro Manzyuk,Дмитро Манзюк,Ukraine,79.3,110,120,132.5,,132.5,82.5,Pro Juniors 20-23,M,B,Raw,132.5,1994
 1,Artem Cheberyak,Артем Чеберяк,Ukraine,105.5,120,130,135,,135,110,Pro Juniors 20-23,M,B,Raw,135,1994
 1,Ivan Kapelyukh,Іван Капелюх,Ukraine,75,135,140,145,,145,75,Pro Open,M,B,Raw,145,1985
-2,Oleksandr Tyurnikov,Олександр Тюрников,Ukraine,74,127.5,132.5,137.5,,137.5,75,Pro Open,M,B,Raw,137.5,1983
-3,Denis Arkhipov,Денис Архіпов,Ukraine,68.7,70,75,82.5,,82.5,75,Pro Open,M,B,Raw,82.5,1984
+2,Oleksandr Tyurnikov,Олександр Тюрніков,Ukraine,74,127.5,132.5,137.5,,137.5,75,Pro Open,M,B,Raw,137.5,1983
+3,Denis Arkhipov #2,Денис Архіпов,Ukraine,68.7,70,75,82.5,,82.5,75,Pro Open,M,B,Raw,82.5,1984
 1,Dmitro Bogomaz,Дмитро Богомаз,Ukraine,90,135,-142.5,147.5,,147.5,90,Pro Open,M,B,Raw,147.5,1990
 1,Viktor Rublyov,Віктор Рубльов,Ukraine,100,175,-182.5,-182.5,,175,100,Pro Open,M,B,Raw,175,1975
 2,Volodimir Kozin,Володимир Козін,Ukraine,100,140,147.5,-152.5,,147.5,100,Pro Open,M,B,Raw,147.5,1985
 1,Oleg Borisov,Олег Борисов,Ukraine,106.7,180,185,190,,190,110,Pro Open,M,B,Raw,190,1971
 1,Oleksandr Varenya,Олександр Вареня,Ukraine,113.7,160,165,170,,170,125,Pro Open,M,B,Raw,170,1990
 2,Artur Maslovets,Артур Масловець,Ukraine,121.5,140,147.5,155,,155,125,Pro Open,M,B,Raw,155,1988
-1,Denis Arkhipov,Денис Архіпов,Ukraine,68.7,70,75,82.5,,82.5,75,Pro Submasters 33-39,M,B,Raw,82.5,1984
+1,Denis Arkhipov #2,Денис Архіпов,Ukraine,68.7,70,75,82.5,,82.5,75,Pro Submasters 33-39,M,B,Raw,82.5,1984
 1,Viktor Rublyov,Віктор Рубльов,Ukraine,100,175,-182.5,-182.5,,175,100,Pro Masters 40-44,M,B,Raw,175,1975
 1,Oleg Borisov,Олег Борисов,Ukraine,106.7,180,185,190,,190,110,Pro Masters 45-49,M,B,Raw,190,1971
 1,Viktoriya Kurchin,Вікторія Курчин,Ukraine,58,62.5,65,67.5,,67.5,60,Pro Open,F,B,Raw,67.5,1985
@@ -52,5 +52,5 @@ Place,Name,CyrillicName,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg
 1,Vitaliy Menchuk,Віталій Менчук,Ukraine,89,220,-232.5,-232.5,,220,90,Pro Teen 18-19,M,B,Multi-ply,220,1998
 1,Andriy Petrushko,Андрій Петрушко,Ukraine,121,235,245,-255,,245,125,Pro Open,M,B,Multi-ply,245,1984
 2,Volodimir Starchenko,Володимир Старченко,Ukraine,90,170,177.5,185,,185,90,Pro Open,M,B,Multi-ply,185,1975
-1,Denis Kovalov,Денис Ковальов,Ukraine,95.3,200,220,235,,235,110,Pro Open,M,B,Multi-ply,235,1978
+1,Denis Kovalov,Денис Ковальов,Ukraine,95.3,200,220,235,,235,100,Pro Open,M,B,Multi-ply,235,1978
 1,Andriy Lomnitskiy,Андрій Ломницький,Ukraine,118,250,265,270,,270,125,Pro Open,M,B,Multi-ply,270,1980

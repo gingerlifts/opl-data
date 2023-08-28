@@ -1,13 +1,13 @@
 Name,WeightClassKg,Division,Sex,AgeRange,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
-John Nugyen,52,Open,M,,,122.47,86.18,142.88,351.53,SBD,Single-ply,1
+John Nguyen,52,Open,M,,,122.47,86.18,142.88,351.53,SBD,Single-ply,1
 Dan O'Dell,52,Open,M,,,95.25,52.16,117.93,265.35,SBD,Single-ply,2
 Alice Flora,52,Open,F,,,83.91,54.43,113.4,251.74,SBD,Single-ply,3
 Mary Kafura,52,Open,F,,,79.38,47.63,115.67,242.67,SBD,Single-ply,4
 Alisa Arkfeld,52,Open,F,,,88.45,45.36,108.86,242.67,SBD,Single-ply,5
 Frank Henshaw,52,Open,M,,,77.11,43.09,102.06,222.26,SBD,Single-ply,6
-Ken Eisenhower,52,Open,M,,,61.24,34.02,92.99,188.24,SBD,Single-ply,7
+Ken Eisenhower Jr,52,Open,M,,,61.24,34.02,92.99,188.24,SBD,Single-ply,7
 Robert Denne,52,Open,M,,,61.24,38.56,83.91,183.71,SBD,Single-ply,8
-Charle Biele,56,Open,M,,,136.08,92.99,179.17,408.23,SBD,Single-ply,1
+Charlie Biele,56,Open,M,,,136.08,92.99,179.17,408.23,SBD,Single-ply,1
 John Shifflett,56,Open,M,,,133.81,97.52,176.9,408.23,SBD,Single-ply,2
 Mary Bingham,56,Open,F,,,140.61,58.97,167.83,367.41,SBD,Single-ply,3
 John Theimer,56,Open,M,,,106.59,83.91,147.42,337.93,SBD,Single-ply,4
@@ -31,7 +31,7 @@ Tom Harrman,60,Open,M,,,142.88,,,,SBD,Single-ply,DQ
 Duane Barker,67.5,Open,M,,,179.17,120.2,219.99,519.36,SBD,Single-ply,1
 Mike Thompson #1,67.5,Open,M,,,192.78,104.33,219.99,517.1,SBD,Single-ply,2
 Howard Sobel,67.5,Open,M,,,154.22,108.86,192.78,455.86,SBD,Single-ply,3
-Tom Wright,67.5,Open,M,,,147.42,90.72,204.12,442.25,SBD,Single-ply,4
+Tom Wright #1,67.5,Open,M,,,147.42,90.72,204.12,442.25,SBD,Single-ply,4
 Ray Rolle,67.5,Open,M,,,136.08,106.59,174.63,417.31,SBD,Single-ply,5
 Dicky Wolfrey,67.5,Open,M,,,149.69,79.38,188.24,417.31,SBD,Single-ply,6
 Jeff Monroe,67.5,Open,M,,,154.22,68.04,181.44,403.7,SBD,Single-ply,7
@@ -63,13 +63,13 @@ Diane Wad,75,Open,M,,,104.33,45.36,136.08,285.76,SBD,Single-ply,19
 Larry Cardon,75,Open,M,,,61.24,161.03,61.24,283.5,SBD,Single-ply,20
 John Themides,82.5,Open,M,,,249.48,192.78,258.55,700.8,SBD,Single-ply,1
 Larry Gold,82.5,Open,M,,,240.4,163.29,251.74,655.44,SBD,Single-ply,2
-D. Lloyd,82.5,Open,M,,,249.48,154.22,244.94,648.64,SBD,Single-ply,3
+D. Lloyd #1,82.5,Open,M,,,249.48,154.22,244.94,648.64,SBD,Single-ply,3
 Dave Bullock,82.5,Open,M,,,238.14,142.88,254.01,635.03,SBD,Single-ply,4
 Marty Jacoby,82.5,Open,M,,,215.46,142.88,235.87,594.21,SBD,Single-ply,5
 Robert Burton,82.5,Open,M,,,213.19,129.27,244.94,587.4,SBD,Single-ply,6
 Samuel Faz,82.5,Open,M,,,226.8,111.13,244.94,582.87,SBD,Single-ply,7
 Richard Brooks,82.5,Open,M,,,185.97,124.74,260.82,571.53,SBD,Single-ply,8
-Mike Cannon,82.5,Open,M,,,206.38,113.4,240.4,560.19,SBD,Single-ply,9
+Mike Cannon #3,82.5,Open,M,,,206.38,113.4,240.4,560.19,SBD,Single-ply,9
 David Smith,82.5,Open,M,,,206.38,113.4,240.4,560.19,SBD,Single-ply,10
 Paul Ehrhardt,82.5,Open,M,,,204.12,122.47,226.8,553.38,SBD,Single-ply,11
 Glen Yorkdale,82.5,Open,M,,,199.58,129.27,222.26,551.12,SBD,Single-ply,12
@@ -82,11 +82,11 @@ Dan Harrington,82.5,Open,M,,,163.29,138.35,208.65,510.29,SBD,Single-ply,18
 David Dodero,82.5,Open,M,,,183.71,129.27,185.97,498.95,SBD,Single-ply,19
 Ed Norris,82.5,Open,M,,,181.44,122.47,192.78,496.68,SBD,Single-ply,20
 Steve Orange,82.5,Open,M,,,192.78,102.06,190.51,485.34,SBD,Single-ply,21
-B. Nicholson,82.5,Open,M,,,158.76,113.4,190.51,462.66,SBD,Single-ply,22
+Byron Nicholson,82.5,Open,M,,,158.76,113.4,190.51,462.66,SBD,Single-ply,22
 Don Becraft,82.5,Open,M,,,206.38,,,,SBD,Single-ply,DQ
 Bruce Graser,90,Open,M,,,297.1,176.9,324.32,798.32,SBD,Single-ply,G
 Steve Murdock,90,Open,M,,,312.98,158.76,292.57,764.3,SBD,Single-ply,1
-C. Simmons #1,90,Open,M,,,283.5,213.19,265.35,762.04,SBD,Single-ply,2
+Charlie Simmons,90,Open,M,,,283.5,213.19,265.35,762.04,SBD,Single-ply,2
 Richard Moody,90,Open,M,,,272.16,172.37,263.08,707.6,SBD,Single-ply,3
 Don Ackerman,90,Open,M,,,254.01,158.76,285.76,698.53,SBD,Single-ply,4
 Steve Setliff,90,Open,M,,,249.48,170.1,272.16,691.73,SBD,Single-ply,5
@@ -94,7 +94,7 @@ Gary Ferstler,90,Open,M,,,263.08,129.27,288.03,680.39,SBD,Single-ply,6
 Eugene Lorenzo,90,Open,M,,,254.01,172.37,242.67,669.05,SBD,Single-ply,7
 Jerom Delrich,90,Open,M,,,249.48,138.35,272.16,659.98,SBD,Single-ply,8
 Jose Sautori,90,Open,M,,,240.4,170.1,235.87,646.37,SBD,Single-ply,9
-H. Campbell,90,Open,M,,,238.14,140.61,267.62,646.37,SBD,Single-ply,10
+H. Campbell #2,90,Open,M,,,238.14,140.61,267.62,646.37,SBD,Single-ply,10
 Rick Kelly,90,Open,M,,,231.33,140.61,272.16,644.1,SBD,Single-ply,11
 Mario Janakiev,90,Open,M,,,244.94,158.76,231.33,635.03,SBD,Single-ply,12
 Tony Copper,90,Open,M,,,226.8,147.42,254.01,628.23,SBD,Single-ply,13
@@ -128,7 +128,7 @@ Terry Polly,100,Open,M,,,283.5,181.44,283.5,748.43,SBD,Single-ply,4
 Barry Smith #3,100,Open,M,,,249.48,154.22,297.1,700.8,SBD,Single-ply,7
 Russel Keith,100,Open,M,,,265.35,174.63,281.23,721.21,SBD,Single-ply,5
 William Link,100,Open,M,,,283.5,154.22,278.96,716.68,SBD,Single-ply,6
-R. Fratarcangelo,100,Open,M,,,272.16,142.88,272.16,687.19,SBD,Single-ply,8
+Ray Fratarcangelo,100,Open,M,,,272.16,142.88,272.16,687.19,SBD,Single-ply,8
 Tom Suld,100,Open,M,,,240.4,185.97,256.28,682.66,SBD,Single-ply,9
 Sid Price,100,Open,M,,,231.33,185.97,265.35,682.66,SBD,Single-ply,10
 J. Sheckler,100,Open,M,,,233.6,167.83,267.62,669.05,SBD,Single-ply,11
@@ -166,11 +166,11 @@ Jim Burton,125+,Open,M,,,285.76,195.04,292.57,773.38,SBD,Single-ply,2
 John Stewart,125+,Open,M,,,276.69,172.37,276.69,725.75,SBD,Single-ply,3
 David Oyler,125+,Open,M,,,256.28,136.08,249.48,641.83,SBD,Single-ply,4
 Glenn Crockett,75,Masters,M,40-49,,249.48,133.81,254.01,637.3,SBD,Single-ply,1
-Tom Wright,75,Masters,M,40-49,,147.42,90.72,204.12,442.25,SBD,Single-ply,2
+Tom Wright #1,75,Masters,M,40-49,,147.42,90.72,204.12,442.25,SBD,Single-ply,2
 John Sutch,75,Masters,M,40-49,,142.88,79.38,176.9,399.16,SBD,Single-ply,3
 Walker Breeden,75,Masters,M,40-49,,127.01,81.65,165.56,374.21,SBD,Single-ply,4
 Beth Bonner,75,Masters,F,40-49,,113.4,63.5,165.56,342.46,SBD,Single-ply,5
-Mike Cannon,90,Masters,M,40-49,,206.38,113.4,240.4,560.19,SBD,Single-ply,2
+Mike Cannon #3,90,Masters,M,40-49,,206.38,113.4,240.4,560.19,SBD,Single-ply,2
 Richard Heinrich,90,Masters,M,40-49,,213.19,124.74,206.38,544.31,SBD,Single-ply,3
 Stu Kerxton,90,Masters,M,40-49,,222.26,151.95,199.58,573.8,SBD,Single-ply,1
 Ed Norris,90,Masters,M,40-49,,181.44,122.47,192.78,496.68,SBD,Single-ply,4
@@ -182,7 +182,7 @@ John DeBey,90+,Masters,M,40-49,,249.48,145.15,229.06,623.69,SBD,Single-ply,4
 Jim Hickam,90+,Masters,M,40-49,,222.26,124.74,213.19,560.19,SBD,Single-ply,5
 Darrell Devor,75,Teen,M,14-19,,183.71,99.79,181.44,464.93,SBD,Single-ply,2
 Mike Thompson #1,75,Teen,M,14-19,,192.78,104.33,219.99,517.1,SBD,Single-ply,1
-Russ Adkins,75,Teen,M,14-19,,170.1,102.06,149.69,421.84,SBD,Single-ply,3
+Russ Adkins,60,Teen,M,14-19,,170.1,102.06,149.69,421.84,SBD,Single-ply,3
 Danny Akers,75,Teen,M,14-19,,108.86,92.99,167.83,369.68,SBD,Single-ply,5
 Dicky Wolfrey,75,Teen,M,14-19,,149.69,79.38,188.24,417.31,SBD,Single-ply,4
 Greg Bryant,90,Teen,M,14-19,,229.06,129.27,231.33,589.67,SBD,Single-ply,3

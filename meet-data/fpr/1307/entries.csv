@@ -11,7 +11,7 @@ Place,Name,CyrillicName,WeightClassKg,Equipment,Event,Sex,BirthYear,Division,Bod
 2,Kseniya Shabrukova,Ксения Шабрукова,57,Raw,SBD,F,1992,Open,53.75,65.0,35.0,80.0,180.0,ФОК Политехник
 1,Mariya Guseva,Мария Гусева,63,Raw,SBD,F,1984,Open,61.70,92.5,65.0,132.5,290.0,СК Фитнес Лайн
 1,Aleksandr Skvortsov,Александр Скворцов,59,Raw,SBD,M,1993,Open,58.70,120.0,70.0,132.5,322.5,ФОК Политехник
-2,Aleksey Petukhov,Алексей Петухов,59,Raw,SBD,M,1988,Open,58.60,90.0,72.5,125.0,287.5,ФОК Политехник
+2,Aleksey Petukhov #1,Алексей Петухов,59,Raw,SBD,M,1988,Open,58.60,90.0,72.5,125.0,287.5,ФОК Политехник
 1,Maksim Smolnikov,Максим Смольников,66,Raw,SBD,M,1990,Open,63.70,125.0,120.0,170.0,415.0,ФОК Политехник
 1,Vladimir Semenov,Владимир Семенов,74,Raw,SBD,M,1994,Open,69.55,180.0,125.0,215.0,520.0,СК Атлант
 2,Anas Nasyrov,Анас Насыров,74,Raw,SBD,M,1996,Open,73.95,160.0,105.0,240.0,505.0,
@@ -27,14 +27,14 @@ Place,Name,CyrillicName,WeightClassKg,Equipment,Event,Sex,BirthYear,Division,Bod
 3,Marat Akhmetov,Марат Ахметов,93,Raw,SBD,M,1994,Open,88.60,177.5,135.0,220.0,532.5,СК Флекс
 4,Vasiliy Repin,Василий Репин,93,Raw,SBD,M,1974,Open,89.05,185.0,110.0,230.0,525.0,СК Молодость
 5,Evgeniy Kasyanov,Евгений Касьянов,93,Raw,SBD,M,1982,Open,88.80,160.0,140.0,200.0,500.0,СК Фитнес Лайн
-1,Dmitriy Shabalin,Дмитрий Шабалин,105,Raw,SBD,M,1991,Open,95.55,200.0,152.5,280.0,632.5,МарГТУ
+1,Dmitriy Shabalin #3,Дмитрий Шабалин,105,Raw,SBD,M,1991,Open,95.55,200.0,152.5,280.0,632.5,МарГТУ
 1,Ramil Sharafutdinov,Рамиль Шарафутдинов,120,Raw,SBD,M,1990,Open,112.50,225.0,142.5,280.0,647.5,СК Атлант
-1,Maksim Stepanov,Максим Степанов,59,Single-ply,SBD,M,1996,Sub-Juniors,55.80,105.0,60.0,115.0,280.0,СК Молодость
+1,Maksim Stepanov #1,Максим Степанов,59,Single-ply,SBD,M,1996,Sub-Juniors,55.80,105.0,60.0,115.0,280.0,СК Молодость
 2,Georgiy Zhdanov,Георгий Жданов,59,Single-ply,SBD,M,1997,Sub-Juniors,46.00,95.0,60.0,100.0,255.0,СК Атлант
 1,Aleksandr Zubarev,Александр Зубарев,66,Single-ply,SBD,M,1996,Sub-Juniors,64.70,180.0,125.0,190.0,495.0,СК Молодость
 2,Dmitriy Aristov,Дмитрий Аристов,66,Single-ply,SBD,M,1995,Sub-Juniors,59.75,137.5,80.0,162.5,380.0,
 3,Nikita Aleksandrov,Никита Александров,66,Single-ply,SBD,M,1995,Sub-Juniors,59.50,145.0,75.0,150.0,370.0,СК Молодость
-4,Ivan Ivanov,Іван Іванов,66,Single-ply,SBD,M,1998,Sub-Juniors,60.40,115.0,80.0,150.0,345.0,СК Жемчужина
+4,Ivan Ivanov #6,Иван Иванов,66,Single-ply,SBD,M,1998,Sub-Juniors,60.40,115.0,80.0,150.0,345.0,СК Жемчужина
 1,Sergey Shirenin,Сергей Ширенин,66,Single-ply,SBD,M,1994,Open,65.30,192.5,102.5,190.0,485.0,
 2,Georgiy Kornilov,Георгий Корнилов,66,Single-ply,SBD,M,1991,Open,63.90,160.0,90.0,182.5,432.5,СК Молодость
 3,Pavel Vasyankin,Павел Васянкин,66,Single-ply,SBD,M,1994,Open,61.95,170.0,77.5,155.0,402.5,ПГТУ

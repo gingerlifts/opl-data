@@ -18,7 +18,7 @@ Boys,67.13,4,Kendrick Sonnier,Port Arthur Memorial,61.14,179.17,83.91,192.78,455
 Boys,67.13,5,Trent Taylor,Shepherd,63.96,174.63,92.99,183.7,451.32,Single-ply,SBD,M
 Boys,67.13,6,Arnaldo Garcia,Port Arthur Memorial,65.32,136.08,102.06,181.44,419.57,Single-ply,SBD,M
 Boys,67.13,7,Dariun Hunter,Port Arthur Memorial,60.87,145.15,81.65,170.1,396.89,Single-ply,SBD,M
-Boys,74.84,8,Daniel García,New Caney,67.22,176.9,68.04,145.15,390.09,Single-ply,SBD,M
+Boys,74.84,8,Daniel Garcia #19,New Caney,67.22,176.9,68.04,145.15,390.09,Single-ply,SBD,M
 Boys,67.13,9,Wyatt Tumlinson,Shepherd,64.86,147.42,74.84,154.22,376.48,Single-ply,SBD,M
 Boys,67.13,10,Eduardo Gonzalez,Conroe Woodlands College Park,63.68,129.27,92.99,151.95,374.21,Single-ply,SBD,M
 Boys,67.13,11,Josh Cota,Trinity,61.6,133.81,83.91,142.88,360.61,Single-ply,SBD,M
@@ -40,7 +40,7 @@ Boys,74.84,12,Zach Bass,Willis,71.35,151.95,70.31,142.88,365.14,Single-ply,SBD,M
 Boys,74.84,13,Clayton Bailey,Willis,72.08,104.33,61.23,142.88,308.44,Single-ply,SBD,M
 Boys,82.1,14,Garrett King,Trinity,75.02,97.52,61.23,115.67,274.42,Single-ply,SBD,M
 Boys,89.81,1,Antonio Moye,Shepherd,82.19,183.7,133.81,183.7,501.22,Single-ply,SBD,M
-Boys,82.1,2,Jason Campbell,Conroe Woodlands College Park,77.93,181.44,102.06,210.92,494.42,Single-ply,SBD,M
+Boys,82.1,2,Jason Campbell #6,Conroe Woodlands College Park,77.93,181.44,102.06,210.92,494.42,Single-ply,SBD,M
 Boys,82.1,3,Armando Cuevas,New Caney Porter,75.93,158.76,115.67,181.44,455.86,Single-ply,SBD,M
 Boys,89.81,4,Kreg Williams,Willis,82.28,183.7,92.99,179.17,455.86,Single-ply,SBD,M
 Boys,82.1,5,Christian Campbell,New Caney Porter,79.38,172.37,117.93,163.29,453.59,Single-ply,SBD,M
@@ -74,7 +74,7 @@ Boys,99.79,12,Taylor Grice,New Caney Porter,96.16,163.29,108.86,167.83,439.98,Si
 Boys,99.79,13,Chance Hodgkinson,New Caney Porter,91.17,172.37,108.86,154.22,435.45,Single-ply,SBD,M
 Boys,99.79,DQ,Wayne Manis,Trinity,99.06,142.88,,,,Single-ply,SBD,M
 Boys,99.79,DQ,Scott Erkel,Willis,91.35,,,,,Single-ply,SBD,M
-Boys,109.77,1,Rick Marshall,Huntsville,108.41,247.21,161.03,244.94,653.17,Single-ply,SBD,M
+Boys,109.77,1,Rick Marshall #2,Huntsville,108.41,247.21,161.03,244.94,653.17,Single-ply,SBD,M
 Boys,109.77,2,Kainen Collins,Port Arthur Memorial,108.86,222.26,120.2,231.33,573.79,Single-ply,SBD,M
 Boys,109.77,3,Dustin Nicholas,Huntsville,102.51,217.72,113.4,238.14,569.26,Single-ply,SBD,M
 Boys,109.77,4,Casey Williams #2,Port Arthur Memorial,106.41,208.65,133.81,226.8,569.26,Single-ply,SBD,M
@@ -87,7 +87,7 @@ Boys,109.77,10,Brody Roberts,Bryan Rudder,107.59,192.78,115.67,170.1,478.54,Sing
 Boys,109.77,11,Charles Umeugokwe,New Caney,103.15,183.7,108.86,183.7,476.27,Single-ply,SBD,M
 Boys,124.74,1,Parker Blount,Huntsville,113.94,308.44,185.97,265.35,759.77,Single-ply,SBD,M
 Boys,124.74,2,Chase Kellar,Conroe Caney Creek,122.38,265.35,156.49,249.48,671.32,Single-ply,SBD,M
-Boys,124.74,3,Brandon Jackson,Port Arthur Memorial,119.75,254.01,158.76,256.28,669.05,Single-ply,SBD,M
+Boys,124.74,3,Brandon Jackson #10,Port Arthur Memorial,119.75,254.01,158.76,256.28,669.05,Single-ply,SBD,M
 Boys,124.74,4,Dillon Poindexter,New Caney,117.39,217.72,145.15,201.85,564.72,Single-ply,SBD,M
 Boys,124.74,5,Shaquan Warren,Bryan Rudder,119.48,181.44,140.61,199.58,521.63,Single-ply,SBD,M
 Boys,124.74,6,Joseph Sylvester,Shepherd,123.65,199.58,124.74,183.7,508.02,Single-ply,SBD,M
@@ -97,7 +97,7 @@ Boys,124.74,9,Jason Vargas,Willis,118.84,181.44,97.52,183.7,462.66,Single-ply,SB
 Boys,124.74,10,Chance Price,New Caney Porter,116.85,154.22,86.18,154.22,394.63,Single-ply,SBD,M
 Boys,124.74,11,Roberto Bocanegra,Huntsville,112.76,136.08,83.91,131.54,351.53,Single-ply,SBD,M
 Boys,124.74,DQ,Casey Vasquez,New Caney Porter,111.4,167.83,129.27,,,Single-ply,SBD,M
-Boys,124.74+,1,Charles Owens,Bryan Rudder,127.37,294.84,165.56,265.35,725.75,Single-ply,SBD,M
+Boys,124.74+,1,Charles Owens #2,Bryan Rudder,127.37,294.84,165.56,265.35,725.75,Single-ply,SBD,M
 Boys,124.74+,2,Jimmy White,Willis,132.59,272.16,165.56,219.99,657.71,Single-ply,SBD,M
 Boys,124.74+,3,Kevin Hurtado,Conroe Woodlands College Park,155.31,278.96,142.88,208.65,630.49,Single-ply,SBD,M
 Boys,124.74+,4,Brandon Artis,Port Arthur Memorial,132.09,224.53,142.88,254.01,621.42,Single-ply,SBD,M

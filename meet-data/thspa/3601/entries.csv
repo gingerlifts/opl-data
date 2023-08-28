@@ -1,6 +1,6 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
 Boys,51.71,1,Damian Gonzalez,Roma,51.62,165.56,95.25,176.9,437.72,Single-ply,SBD,M
-Boys,51.71,2,Juan Sanchez,Laredo Cigarroa,51.71,127.01,77.11,124.74,328.85,Single-ply,SBD,M
+Boys,51.71,2,Juan Sanchez #7,Laredo Cigarroa,51.71,127.01,77.11,124.74,328.85,Single-ply,SBD,M
 Boys,51.71,3,Alex Garcia #2,Cotulla,49.9,108.86,70.31,124.74,303.91,Single-ply,SBD,M
 Boys,55.79,1,Everardo Garcia,Roma,54.25,190.51,97.52,185.97,474,Single-ply,SBD,M
 Boys,55.79,2,Eduardo Macias,Laredo Nixon,53.34,147.42,90.72,145.15,383.29,Single-ply,SBD,M
@@ -79,7 +79,7 @@ Boys,109.77,13,Miguel Gutierrez,Laredo United South,106.14,149.69,88.45,158.76,3
 Boys,109.77,DQ,Khalid Santiago,Laredo United South,108.18,226.8,,,,Single-ply,SBD,M
 Boys,124.74,1,Baldomero Ortega,Cotulla,123.38,254.01,131.54,272.16,657.71,Single-ply,SBD,M
 Boys,124.74,2,Claudio Padilla,Laredo Johnson,124.28,260.82,127.01,244.94,632.76,Single-ply,SBD,M
-Boys,124.74,3,Jorge Garcia,Laredo United South,122.11,272.16,142.88,208.65,623.69,Single-ply,SBD,M
+Boys,124.74,3,Jorge Garcia #5,Laredo United South,122.11,272.16,142.88,208.65,623.69,Single-ply,SBD,M
 Boys,124.74,4,Martin Navarro,Zapata,117.93,240.4,147.42,219.99,607.81,Single-ply,SBD,M
 Boys,124.74,5,Marcus Vara,Laredo Martin,116.57,181.44,97.52,161.03,439.98,Single-ply,SBD,M
 Boys,124.74,6,Arturo Alvarez,Laredo Cigarroa,117.93,192.78,117.93,111.13,421.84,Single-ply,SBD,M
@@ -141,7 +141,7 @@ Freshmen,99.79,1,Joey Riojas,Laredo United South,93.44,170.1,102.06,174.63,446.7
 Freshmen,99.79,2,Levi Gallegos,Laredo United South,92.99,142.88,102.06,136.08,381.02,Single-ply,SBD,M
 Freshmen,99.79,3,Trooper Meza,Laredo Alexander,98.88,120.2,74.84,181.44,376.48,Single-ply,SBD,M
 Freshmen,99.79,4,Aiden Hinojosa,Laredo Alexander,98.43,145.15,77.11,142.88,365.14,Single-ply,SBD,M
-Freshmen,99.79,5,Juan Villarreal,Laredo United,92.99,131.54,68.04,163.29,362.87,Single-ply,SBD,M
+Freshmen,99.79,5,Juan Villarreal #7,Laredo United,92.99,131.54,68.04,163.29,362.87,Single-ply,SBD,M
 Freshmen,99.79,6,Santiago Valdivia,Laredo Nixon,92.08,124.74,63.5,142.88,331.12,Single-ply,SBD,M
 Freshmen,99.79,7,Luis Jimenez,Laredo United South,97.52,111.13,83.91,136.08,331.12,Single-ply,SBD,M
 Freshmen,99.79,8,Orlando Maciel,Laredo Martin,99.79,108.86,61.23,124.74,294.84,Single-ply,SBD,M

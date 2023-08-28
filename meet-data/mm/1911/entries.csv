@@ -17,8 +17,8 @@ Chris Della Fave,M,Pro Open,,125,124.74,Multi-ply,,,394.63,394.63,D,1
 Magnus McVicker,M,Amateur Teen 18-19,19,75,74.84,Wraps,136.08,108.86,158.76,403.7,SBD,1
 Mike Fournier,M,Pro Masters 55-59,56,125,114.31,Multi-ply,,208.65,226.8,435.45,BD,1
 Robert Cushman,M,Amateur Masters 55-59,55,125,112.67,Multi-ply,,249.48,208.65,458.13,BD,1
-Bobbejo Kohler,F,Amateur Masters 40-44,42,90,88.77,Multi-ply,183.7,124.74,167.83,476.27,SBD,1
-Bobbejo Kohler,F,Amateur Open,42,90,88.77,Multi-ply,183.7,124.74,167.83,476.27,SBD,1
+Bobbejo Kohler,F,Amateur Masters 40-44,42,90,88.77,Unlimited,183.7,124.74,167.83,476.27,SBD,1
+Bobbejo Kohler,F,Amateur Open,42,90,88.77,Unlimited,183.7,124.74,167.83,476.27,SBD,1
 Yael Nelson,F,Amateur Open,34,82.5,77.93,Wraps,185.97,104.33,190.51,480.81,SBD,1
 James Wilson #10,M,Amateur Masters 50-54,51,110,108.5,Wraps,181.44,102.06,197.31,480.81,SBD,1
 Kenna Smoak,F,Pro Open,30,82.5,79.38,Wraps,183.7,108.86,201.85,494.42,SBD,1
@@ -27,8 +27,8 @@ Beckett Scannelli,M,Pro Juniors 20-23,23,67.5,65,Multi-ply,235.87,140.61,201.85,
 Karen Johnson,F,Amateur Open,31,75,69.4,Multi-ply,258.55,122.47,197.31,578.33,SBD,1
 Louis Imperatrice,M,Pro Open,32,75,73.39,Multi-ply,210.92,192.78,204.12,607.81,SBD,1
 Bob Merkh,M,Pro Open,35,140,128.37,Multi-ply,526.17,20.41,61.23,607.81,SBD,3
-Keith O'Dell,M,Pro Open,37,100,99.79,Multi-ply,,385.55,226.8,612.35,BD,1
-Keith O'Dell,M,Pro Submasters 35-39,37,100,99.79,Multi-ply,,385.55,226.8,612.35,BD,1
+Keith O'Dell,M,Pro Open,37,100,99.79,Unlimited,,385.55,226.8,612.35,BD,1
+Keith O'Dell,M,Pro Submasters 35-39,37,100,99.79,Unlimited,,385.55,226.8,612.35,BD,1
 Shyam Singh Rana #2,M,Amateur Open,32,82.5,78.2,Wraps,217.72,149.69,249.48,616.89,SBD,1
 James Donaldson,M,Pro Juniors 20-23,21,90,88,Wraps,249.48,145.15,235.87,630.49,SBD,1
 Andrew Rush,M,Pro Open,24,100,94.8,Wraps,235.87,170.1,233.6,639.57,SBD,1
@@ -41,16 +41,17 @@ Michael Newton #1,M,Pro Submasters 35-39,38,125,124.28,Wraps,249.48,206.38,272.1
 James Porter,M,Pro Open,29,125,118.93,Wraps,294.84,170.1,285.76,750.7,SBD,1
 Ken Foreman,M,Pro Masters 45-49,45,100,97.2,Multi-ply,333.39,249.48,249.48,832.34,SBD,1
 Steven Rizzo,M,Pro Open,29,100,99.11,Multi-ply,367.41,235.87,240.4,843.68,SBD,1
-Paul Nicholson,M,Pro Open,34,90,89.36,Multi-ply,347,229.06,278.96,855.02,SBD,1
+Paul Nicholson #1,M,Pro Open,34,90,89.36,Multi-ply,347,229.06,278.96,855.02,SBD,1
 Brian Cullinan,M,Pro Open,32,140,125.65,Multi-ply,340.19,235.87,285.76,861.83,SBD,2
 John Gaglione,M,Pro Open,32,110,106.87,Multi-ply,378.75,195.04,294.84,868.63,SBD,2
 Randy Owen,M,Pro Open,33,140,125.46,Multi-ply,335.66,258.55,299.37,893.58,SBD,1
 Joshua Luis,M,Pro Open,35,140,138.8,Wraps,367.41,231.33,308.44,907.18,SBD,1
 Jesse Leitzel,M,Pro Masters 45-49,47,140+,152.95,Multi-ply,328.85,340.19,249.48,918.52,SBD,1
 Richard Sibya,M,Pro Open,29,140+,150.96,Multi-ply,365.14,281.23,303.91,950.28,SBD,1
-Nicholas Benerakis,M,Pro Open,28,125,116.94,Multi-ply,362.87,353.8,244.94,961.62,SBD,3
-Nicholas Benerakis,M,Pro Open,28,125,116.94,Multi-ply,362.87,353.8,244.94,961.62,SBD,4
+Nick Benerakis,M,Pro Open,28,125,116.94,Multi-ply,362.87,353.8,244.94,961.62,SBD,3
+Nick Benerakis,M,Pro Open,28,125,116.94,Multi-ply,362.87,353.8,244.94,961.62,SBD,4
 Ethan Dreiblatt,M,Pro Juniors 20-23,23,110,108.18,Multi-ply,424.11,229.06,322.05,975.22,SBD,1
 Ethan Dreiblatt,M,Pro Open,23,110,108.18,Multi-ply,424.11,229.06,322.05,975.22,SBD,1
 Andrew Pfefferle,M,Pro Open,25,125,124.74,Multi-ply,430.91,274.42,281.23,986.56,SBD,2
 Mike Skiba,M,Pro Open,31,125,114.31,Multi-ply,421.84,272.16,317.51,1011.51,SBD,1
+Terri Korba,F,Amateur Masters 50-54,54,90+,94.08,Raw,,72.57,,72.57,B,1

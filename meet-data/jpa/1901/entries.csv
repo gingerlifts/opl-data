@@ -235,7 +235,7 @@ JapaneseName,Name,WeightClassKg,Sex,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best
 浦野 雄一,,83,M,81.95,170,180,185,185,185,1987,ハマ スポーツジム,Open,B,Raw,5
 三輪 景吾,,83,M,82.7,185,-195,-195,185,185,1981,東名アスレチック,Open,B,Raw,6
 高橋 真一郎,,83,M,82.1,180,-187.5,-187.5,180,180,1979,個人,Masters 1,B,Raw,2
-菊地 洋介,,83,M,82.15,170,180,-185,180,180,1995,K's GYM 横浜,Open,B,Raw,8
+菊地 洋介,Yosuke Kikuchi,83,M,82.15,170,180,-185,180,180,1995,K's GYM 横浜,Open,B,Raw,8
 山田 賢,,83,M,82.4,155,162.5,170,170,170,1992,B.A.D.,Open,B,Raw,10
 林 克也,,83,M,82.9,170,-175,-182.5,170,170,1987,K's GYM,Open,B,Raw,11
 亀田 孝典,,83,M,82.7,160,162.5,-170,162.5,162.5,1987,K's GYM 横浜,Open,B,Raw,13
@@ -281,7 +281,7 @@ JapaneseName,Name,WeightClassKg,Sex,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best
 飯塚 隼弘,,83,M,80.9,115,120,-127.5,120,120,1978,TXP,Masters 1,B,Raw,19
 根本 裕徳,,83,M,,,,,,,1971,ストロングライン,Masters 1,B,Raw,DQ
 坂本 勝典,Katsunori Sakamoto,83,M,80.75,170,176,-182.5,176,176,1968,MPC,Masters 2,B,Raw,1
-山下 卓也,,83,M,81.55,150,160,165,165,165,1968,K's GYM,Masters 2,B,Raw,2
+山下 卓也,Takuya Yamashita,83,M,81.55,150,160,165,165,165,1968,K's GYM,Masters 2,B,Raw,2
 秋本 博則,,83,M,82.15,155,160,165,165,165,1969,広島県 個人,Masters 2,B,Raw,3
 小島 勝信,,83,M,82.4,160,-165,-165,160,160,1966,THE CHAMPIONS Masters 2,Open,B,Raw,14
 飯干 信二,,83,M,79.6,142.5,150,-155,150,150,1964,B.P.S,Masters 2,B,Raw,4
@@ -419,7 +419,7 @@ JapaneseName,Name,WeightClassKg,Sex,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best
 山森 智行,Tomoyuki Yamamori,120,M,110,175,-182.5,-185,175,175,1972,K's GYM,Masters 1,B,Raw,6
 安井 篤史,,120,M,118.55,160,167.5,172.5,172.5,172.5,1972,シロクマパワージム,Masters 1,B,Raw,8
 岡本 康央,,120,M,106.05,165,-175,-175,165,165,1972,タケイパワージム,Masters 1,B,Raw,9
-湯浅 正信,,120,M,112.9,200,205,-210,205,205,1962,THE CHAMPIONS,Masters 2,B,Raw,2
+湯浅 正信,Masanobu Yuasa,120,M,112.9,200,205,-210,205,205,1962,THE CHAMPIONS,Masters 2,B,Raw,2
 井上 俊二,,120,M,112.4,-170,170,-175,170,170,1961,MPC,Masters 2,B,Raw,3
 渡辺 明彦,Akihiro Watanabe,120,M,107.7,160,170,-180,170,170,1958,新日鐵住金君津ボディビル同好会,Masters 3,B,Raw,1
 永田 聡,Satoshi Narata,120+,M,142.3,225,-245,-245,225,225,1972,THE CHAMPIONS,Open,B,Raw,1

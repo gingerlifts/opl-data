@@ -6,7 +6,7 @@ Place,Name,CyrillicName,Sex,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Ruslan Bandurovskiy,Руслан Бандуровский,M,108.3,215,230,240,240,,132.5,142.5,150,150,,230,237.5,242.5,242.5,,632.5,110,SBD,Wraps,Yes,Pro Open,34
 1,Anton Klyuka,Антон Клюка,M,150.2,-250,270,285,285,,150,155,-160,155,,280,300,-315,300,,740,140+,SBD,Wraps,Yes,Pro Open,33
 1,Lyudmila Khromenkova,Людмила Хроменкова,F,54.2,105,-110,115,115,,55,60,-65,60,,127.5,142.5,150,150,,325,56,SBD,Wraps,No,Pro Masters 50-59,55
-1,Yuliya Antonova,Юлія Антонова,F,59.2,130,135,140,140,,75,-77.5,-77.5,75,,145,152.5,155,155,,370,60,SBD,Wraps,No,Pro Open,37
+1,Yuliya Antonova #1,Юлія Антонова,F,59.2,130,135,140,140,,75,-77.5,-77.5,75,,145,152.5,155,155,,370,60,SBD,Wraps,No,Pro Open,37
 2,Anastasiya Loyko,Анастасия Лойко,F,59.3,90,95,-100,95,,42.5,-47.5,47.5,47.5,,-100,100,,100,,242.5,60,SBD,Wraps,No,Pro Open,31
 1,Yuliya Yanchkovskaya,Юлия Янчковская,F,61.1,80,90,-100,90,,35,40,-45,40,,80,90,100,100,,230,67.5,SBD,Wraps,No,Pro Open,25
 1,Natalya Gurinenko,Наталья Гуриненко,F,101.3,130,145,152.5,152.5,,-55,55,-65,55,,130,142.5,152.5,152.5,,360,90+,SBD,Wraps,No,Pro Open,38
@@ -21,10 +21,10 @@ Place,Name,CyrillicName,Sex,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Igor Eremenko,Игорь Еременко,M,95.5,230,250,260,260,,170,180,190,190,,260,280,-300,280,,730,100,SBD,Wraps,No,Pro Open,22
 2,Eduard Annenkov,Эдуард Анненков,M,90.9,240,255,-260,255,,175,182.5,185,185,,250,262.5,265,265,,705,100,SBD,Wraps,No,Pro Open,29
 1,Aleksandr Verkholamov,Александр Верхоламов,M,104.3,250,260,-270,260,,180,-190,-190,180,,250,260,-270,260,,700,110,SBD,Wraps,No,Pro Juniors 20-23,21
-1,Dmitriy Verbitskiy,Дмитрий Вербицкий,M,107.5,250,-260,-260,250,,180,190,-195,190,,270,-290,-290,270,,710,110,SBD,Wraps,No,Pro Open,31
+1,Dmitriy Verbitskiy #1,Дмитрий Вербицкий,M,107.5,250,-260,-260,250,,180,190,-195,190,,270,-290,-290,270,,710,110,SBD,Wraps,No,Pro Open,31
 2,Dmitriy Senchenko,Дмитрий Сенченко,M,106.2,220,230,240,240,,170,175,-180,175,,240,252.5,257.5,257.5,,672.5,110,SBD,Wraps,No,Pro Open,36
 1,Lyudmila Khromenkova,Людмила Хроменкова,F,54.2,,,,,,,,,,,150,,,150,,150,56,D,Raw,No,Pro Open,55
-1,Yuliya Antonova,Юлія Антонова,F,59.2,,,,,,,,,,,155,,,155,,155,60,D,Raw,No,Pro Open,37
+1,Yuliya Antonova #1,Юлія Антонова,F,59.2,,,,,,,,,,,155,,,155,,155,60,D,Raw,No,Pro Open,37
 2,Anastasiya Loyko,Анастасия Лойко,F,59.3,,,,,,,,,,,100,,,100,,100,60,D,Raw,No,Pro Open,31
 1,Anna Masnukhina,Анна Маснухина,F,65.1,,,,,,,,,,,135,-140,-140,135,,135,67.5,D,Raw,No,Pro Open,27
 1,Elena Konyushenko,Елена Конюшенко,F,70,,,,,,,,,,,145,147.5,150,150,,150,75,D,Raw,No,Pro Open,32
@@ -51,7 +51,7 @@ Place,Name,CyrillicName,Sex,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Dmitriy Chkana,Дмитрий Чкана,M,98.4,,,,,,165,175,-185,175,,,,,,,175,100,B,Raw,Yes,Pro Open,28
 2,Pavel Chudik,Павел Чудик,M,97.8,,,,,,130,-140,-145,130,,,,,,,130,100,B,Raw,Yes,Pro Open,30
 1,Ilya Lapotko,Илья Лапотько,M,113.3,,,,,,162.5,167.5,-172.5,167.5,,,,,,,167.5,125,B,Raw,Yes,Pro Masters 40-49,43
-1,Yuliya Antonova,Юлія Антонова,F,59.2,,,,,,75,,,75,,,,,,,75,60,B,Raw,No,Pro Open,37
+1,Yuliya Antonova #1,Юлія Антонова,F,59.2,,,,,,75,,,75,,,,,,,75,60,B,Raw,No,Pro Open,37
 1,Diana Poplavskaya,Диана Поплавская,F,61.4,,,,,,-52.5,-52.5,52.5,52.5,,,,,,,52.5,67.5,B,Raw,No,Pro Juniors 20-23,20
 1,Elena Yunina,Елена Юнина,F,67.5,,,,,,-65,67.5,-70,67.5,,,,,,,67.5,67.5,B,Raw,No,Pro Open,39
 2,Anna Masnukhina,Анна Маснухина,F,65.1,,,,,,55,57.5,60,60,,,,,,,60,67.5,B,Raw,No,Pro Open,27
@@ -77,10 +77,10 @@ Place,Name,CyrillicName,Sex,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg
 1,Aleksandr Lyashenko,Александр Ляшенко,M,95.9,,,,,,170,180,185,185,,,,,,,185,100,B,Raw,No,Pro Masters 40-49,40
 1,Aleksey Khromenkov,Алексей Хроменков,M,97.2,,,,,,110,-120,130,130,,,,,,,130,100,B,Raw,No,Pro Masters 50-59,59
 1,Timur Seyt-Arifov,Тимур Сейт-Арифов,M,100.4,,,,,,130,135,140,140,,,,,,,140,110,B,Raw,No,Pro Juniors 20-23,20
-1,Ibragim Ilkhasan,Ибрагим Ильхасан,M,108.8,,,,,,245,262.5,,262.5,,,,,,,262.5,110,B,Raw,No,Pro Open,27
+1,Ibragim Ilkhasan,Ібрагім Ільхасан,M,108.8,,,,,,245,262.5,,262.5,,,,,,,262.5,110,B,Raw,No,Pro Open,27
 2,Vitaliy Datsyuk,Виталий Дацюк,M,107,,,,,,-150,-150,150,150,,,,,,,150,110,B,Raw,No,Pro Open,36
 1,Andrey Matsiychuk,Андрей Мацийчук,M,112.9,,,,,,170,182.2,190,190,,,,,,,190,125,B,Raw,No,Pro Open,31
-1,Evgeniy Pavlov,Євгеній Павлов,M,119.6,,,,,,-100,-105,105,105,,,,,,,105,125,B,Raw,No,Pro Masters 60-69,69
+1,Evgeniy Pavlov #4,Євгеній Павлов,M,119.6,,,,,,-100,-105,105,105,,,,,,,105,125,B,Raw,No,Pro Masters 60-69,69
 DQ,Elena Shapovalova,Елена Шаповалова,F,104.8,100,110,115,115,,-50,,,,,-110,,,,,,90+,SBD,Single-ply,Yes,Pro Open,27
 DQ,Tair Faykov,Таир Файков,M,57.7,-180,-180,-180,,,,,,,,,,,,,,60,SBD,Single-ply,Yes,Pro Open,29
 DQ,Ivan Rishko,Иван Ришко,M,87.9,210,225,-232.5,225,,-160,-160,-160,,,-220,,,,,,90,SBD,Single-ply,Yes,Pro Juniors 20-23,20
@@ -89,17 +89,17 @@ DQ,Ivan Rishko,Иван Ришко,M,87.9,210,225,-232.5,225,,-160,-160,-160,,,-
 1,Aleksey Kaunov,Алексей Каунов,M,67,-205,-205,215,215,,140,150,,150,,210,220,-230,220,,585,67.5,SBD,Single-ply,No,Pro Open,30
 1,Kirill Bogdanov,Кирилл Богданов,M,80.1,250,260,270,270,,180,190,-195,190,,220,235,250,250,,710,82.5,SBD,Single-ply,No,Pro Open,32
 1,Roman Stepanov,Роман Степанов,M,89.9,-265,275,-285,275,,-200,205,-212.5,205,,260,275,-285,275,,755,90,SBD,Single-ply,No,Pro Juniors 20-23,23
-DQ,Viktor Andrianov,Виктор Андрианов,M,122.5,-370,-370,-370,,,-230,,,,,-300,,,,,,125,SBD,Single-ply,No,Pro Open,36
+DQ,Viktor Andrianov,Віктор Андріанов,M,122.5,-370,-370,-370,,,-230,,,,,-300,,,,,,125,SBD,Single-ply,No,Pro Open,36
 1,Artur Mamedov,Артур Мамедов,M,129.7,300,-330,-350,300,,180,190,-210,190,,250,270,-280,270,,760,140,SBD,Single-ply,No,Pro Open,29
 1,Tair Faykov,Таир Файков,M,57.7,,,,,,,,,,,160,170,180,180,,180,60,D,Multi-ply,Yes,Pro Open,29
 1,Ivan Rishko,Иван Ришко,M,87.9,,,,,,,,,,,210,220,-230,220,,220,90,D,Multi-ply,Yes,Pro Juniors 20-23,20
 1,Roman Stepanov,Роман Степанов,M,89.9,,,,,,,,,,,260,275,-285,275,,275,90,D,Multi-ply,No,Pro Juniors 20-23,23
-1,Viktor Andrianov,Виктор Андрианов,M,122.5,,,,,,,,,,,300,-310,,300,,300,125,D,Multi-ply,No,Pro Open,36
+1,Viktor Andrianov,Віктор Андріанов,M,122.5,,,,,,,,,,,300,-310,,300,,300,125,D,Multi-ply,No,Pro Open,36
 1,Andrey Shibanov,Андрей Шибанов,M,88.3,,,,,,150,160,172.5,172.5,,,,,,,172.5,90,B,Raw,No,Pro Masters 40-49,41
 1,Yuriy Tishkov,Юрий Тишков,M,103.7,,,,,,120,130,-140,130,,,,,,,130,110,B,Raw,No,Pro Masters 40-49,41
 1,Roman Stepanov,Роман Степанов,M,89.9,,,,,,-200,205,-212.5,205,,,,,,,205,90,B,Single-ply,No,Pro Juniors 20-23,23
-1,Viktor Andrianov,Виктор Андрианов,M,122.5,,,,,,230,,,230,,,,,,,230,125,B,Single-ply,No,Pro Open,36
-1,Ulyana Semenenko,Ульяна Семененко,M,54.7,,,,,,50,-60,-60,50,,,,,,,50,56,B,Multi-ply,Yes,Pro Sub-Juniors 17-19,19
+1,Viktor Andrianov,Віктор Андріанов,M,122.5,,,,,,230,,,230,,,,,,,230,125,B,Single-ply,No,Pro Open,36
+1,Ulyana Semenenko,Ульяна Семененко,F,54.7,,,,,,50,-60,-60,50,,,,,,,50,56,B,Multi-ply,Yes,Pro Sub-Juniors 17-19,19
 1,Mustafa Seytnebiev,Мустафа Сейтнебиев,M,81.4,,,,,,172.5,-190,200,200,,,,,,,200,82.5,B,Multi-ply,Yes,Pro Juniors 20-23,20
 1,Mustafa Seytnebiev,Мустафа Сейтнебиев,M,81.4,,,,,,172.5,-190,200,200,,,,,,,200,82.5,B,Multi-ply,Yes,Pro Open,20
 2,Eskender Seit-Abdulov,Эскендер Сеит-Абдулов,M,81.1,,,,,,-150,-160,160,160,,,,,,,160,82.5,B,Multi-ply,Yes,Pro Open,24

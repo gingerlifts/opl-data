@@ -1,5 +1,5 @@
 Place,WeightClassKg,BodyweightKg,Name,BirthYear,Country,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Sex,Event,Equipment,Division
-1,63,62.32,Laura Lisett Lepp,1993,Estonia,112.5,117.5,-120,117.5,82.5,87.5,-90,87.5,132.5,-137.5,137.5,137.5,342.5,F,SBD,Raw,Open
+1,63,62.32,Laura-Lisett Lepp,1993,Estonia,112.5,117.5,-120,117.5,82.5,87.5,-90,87.5,132.5,-137.5,137.5,137.5,342.5,F,SBD,Raw,Open
 2,63,61.53,Miia Ylikopsa,1994,Finland,107.5,112.5,117.5,117.5,65,70,-72.5,70,130,137.5,142.5,142.5,330,F,SBD,Raw,Open
 3,63,62.7,Julia Ruohonen,1992,Finland,120,-125,-125,120,65,67.5,-70,67.5,120,122.5,127.5,127.5,315,F,SBD,Raw,Open
 4,63,61.72,Ave Tüür,1996,Estonia,-102.5,102.5,107.5,107.5,62.5,65,-67.5,65,110,117.5,-120,117.5,290,F,SBD,Raw,Open
@@ -31,7 +31,7 @@ Place,WeightClassKg,BodyweightKg,Name,BirthYear,Country,Squat1Kg,Squat2Kg,Squat3
 9,93,90.85,Juho Kangasniemi,1988,Finland,185,195,202.5,202.5,130,135,-137.5,135,220,232.5,-237.5,232.5,570,M,SBD,Raw,Open
 10,93,92.09,Ivan Dolgov,1983,Finland,190,200,-210,200,130,137.5,142.5,142.5,200,217.5,-230,217.5,560,M,SBD,Raw,Open
 11,93,90.79,Martins Markovs,1991,Latvia,187.5,202.5,-207.5,202.5,132.5,137.5,-140,137.5,200,215,-222.5,215,555,M,SBD,Raw,Open
-12,93,90.66,Domantas Marcinkevicius,1993,Lithuania,175,185,192.5,192.5,130,137.5,-142.5,137.5,200,210,215,215,545,M,SBD,Raw,Open
+12,93,90.66,Domantas Marcinkevičius,1993,Lithuania,175,185,192.5,192.5,130,137.5,-142.5,137.5,200,210,215,215,545,M,SBD,Raw,Open
 13,93,85.98,Aivaras Žilys,1993,Lithuania,175,-185,-185,175,125,135,140,140,190,-205,,190,505,M,SBD,Raw,Open
 1,105,104.09,Gilbertas Tamulevičius,1996,Lithuania,250,260,-270,260,160,172.5,-177.5,172.5,250,262.5,267.5,267.5,700,M,SBD,Raw,Open
 2,105,104.42,Isto Turunen,1992,Finland,240,250,260,260,157.5,162.5,167.5,167.5,260,-272.5,-275,260,687.5,M,SBD,Raw,Open
@@ -40,4 +40,4 @@ Place,WeightClassKg,BodyweightKg,Name,BirthYear,Country,Squat1Kg,Squat2Kg,Squat3
 5,105,96.25,Valdas Grubas,1992,Lithuania,190,200,-207.5,200,140,-150,150,150,210,220,230,230,580,M,SBD,Raw,Open
 6,105,102.82,Jarkko Bärholm,1994,Finland,190,210,215,215,150,-160,-160,150,210,-222.5,,210,575,M,SBD,Raw,Open
 7,105,102.28,Juho Räsänen,1990,Finland,180,190,202.5,202.5,120,125,127.5,127.5,220,235,-245,235,565,M,SBD,Raw,Open
-1,120,117.75,Marek Vahi,1977,Estonia,275,285,-290,285,195,202.5,-205,202.5,302.5,-312.5,-312.5,302.5,790,M,SBD,Raw,Open
+1,120,117.75,Marek Vähi,1977,Estonia,275,285,-290,285,195,202.5,-205,202.5,302.5,-312.5,-312.5,302.5,790,M,SBD,Raw,Open

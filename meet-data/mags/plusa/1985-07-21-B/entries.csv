@@ -17,7 +17,7 @@ Jim Henderson,67.5,Open,,M,163.29,106.59,204.12,474,SBD,Single-ply,3
 Keith Donaldson,67.5,Open,,M,167.83,99.79,176.9,444.52,SBD,Single-ply,4
 Richard Hoop,67.5,Open,,M,174.63,72.57,149.69,396.89,SBD,Single-ply,5
 Gary Allor,75,Open,,M,267.62,208.65,265.35,741.62,SBD,Single-ply,1
-Mark Evans,75,Open,,M,226.8,170.1,219.99,616.89,SBD,Single-ply,2
+Mark Evans #1,75,Open,,M,226.8,170.1,219.99,616.89,SBD,Single-ply,2
 Bob Fowlkes,75,Open,,M,217.72,122.47,258.55,598.74,SBD,Single-ply,3
 Greg Guthrie,75,Open,,M,206.38,142.88,247.21,596.47,SBD,Single-ply,4
 Keith Rhodes,75,Open,,M,254.01,138.35,190.51,582.87,SBD,Single-ply,5
@@ -44,8 +44,8 @@ Mike Carruthers,100,Open,,M,303.91,204.12,312.98,821,SBD,Single-ply,1
 Mitch Mitchell,100,Open,,M,317.52,197.31,301.64,816.47,SBD,Single-ply,2
 Paul Urchick,100,Open,,M,308.44,206.38,299.37,814.2,SBD,Single-ply,3
 Dave Love,100,Open,,M,290.3,208.65,297.1,796.06,SBD,Single-ply,4
-Joe Mata,100,Open,,M,274.42,167.83,290.3,732.55,SBD,Single-ply,5
-David Ferguson,100,Open,,M,206.38,147.42,260.82,614.62,SBD,Single-ply,8
+Joe Mata #1,100,Open,,M,274.42,167.83,290.3,732.55,SBD,Single-ply,5
+David Ferguson #2,100,Open,,M,206.38,147.42,260.82,614.62,SBD,Single-ply,8
 Randy Lasow,100,Open,,M,263.08,147.42,260.82,671.32,SBD,Single-ply,6
 Steve Kehrer,100,Open,,M,222.26,167.83,240.4,630.49,SBD,Single-ply,7
 Marc Wagenborg,100,Open,,M,195.04,165.56,204.12,564.72,SBD,Single-ply,9
@@ -56,7 +56,7 @@ Steve Cyranoski,110,Open,,M,258.55,192.78,254.01,705.34,SBD,Single-ply,4
 Don Yezbick,110,Open,,M,249.48,158.76,249.48,657.71,SBD,Single-ply,5
 Rick Galimberti,110,Open,,M,249.48,149.69,249.48,648.64,SBD,Single-ply,6
 Mike Notario,125,Open,,M,365.14,219.99,312.98,898.11,SBD,Single-ply,1
-John Patterson,125,Open,,M,331.12,222.26,308.44,861.83,SBD,Single-ply,2
+John Patterson #1,125,Open,,M,331.12,222.26,308.44,861.83,SBD,Single-ply,2
 Robert Stanton,125,Open,,M,272.16,170.1,331.12,773.38,SBD,Single-ply,3
 D. Frankhouse,125,Open,,M,294.84,204.12,272.16,771.11,SBD,Single-ply,4
 Martin Struhar,125,Open,,M,306.18,174.63,272.16,752.96,SBD,Single-ply,5
@@ -66,13 +66,13 @@ William Hoop,125+,Open,,M,322.05,213.19,263.08,798.32,SBD,Single-ply,3
 Norman Smith,125+,Open,,M,306.18,192.78,294.84,793.79,SBD,Single-ply,4
 Gerald Seager,125+,Open,,M,294.84,181.44,272.16,748.43,SBD,Single-ply,5
 Walter Ailles,125+,Open,,M,192.78,120.2,217.72,530.7,SBD,Single-ply,6
-Bob Emens,125+,Open,,M,163.29,77.11,208.65,449.06,SBD,Single-ply,7
+Robert Emens,125+,Open,,M,163.29,77.11,208.65,449.06,SBD,Single-ply,7
 Mitch Mitchell,100,Masters,40-999,M,317.52,197.31,301.64,816.47,SBD,Single-ply,1
 Don Yezbick,110,Masters,40-999,M,249.48,158.76,249.48,657.71,SBD,Single-ply,1
 Don Larkin,82.5,Masters,40-999,M,206.38,136.08,267.62,610.08,SBD,Single-ply,1
 William Burr,52,Masters,40-999,M,122.47,74.84,158.76,356.07,SBD,Single-ply,1
 Jas Sapala,90,Masters,40-999,M,181.44,149.69,176.9,508.02,SBD,Single-ply,1
-Bob Emens,125+,Masters,40-999,M,163.29,77.11,208.65,449.06,SBD,Single-ply,1
+Robert Emens,125+,Masters,40-999,M,163.29,77.11,208.65,449.06,SBD,Single-ply,1
 Julie Parry,56,Open,,F,122.47,47.63,149.69,319.78,SBD,Single-ply,2
 Lynne Boshoven,75,Open,,F,149.69,92.99,176.9,419.57,SBD,Single-ply,1
 Jane Boettner,56,Open,,F,122.47,65.77,136.08,324.32,SBD,Single-ply,1

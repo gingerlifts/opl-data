@@ -28,7 +28,7 @@ DQ,Róbert Nemes,1986,Hungary,73.51,-200,-200,-200,,,74,Open,B,M,Single-ply
 2,Sergey Knyazev,1976,Russia,81.19,260,270,-282.5,270,270,83,Open,B,M,Single-ply
 3,Markus Schick,1976,Germany,82,267.5,-272.5,-285,267.5,267.5,83,Open,B,M,Single-ply
 4,Askar Shokhanov,1983,Kazakhstan,81.67,255,262.5,-272.5,262.5,262.5,83,Open,B,M,Single-ply
-5,Daniel Miller,1988,Poland,81.99,-250,250,-270,250,250,83,Open,B,M,Single-ply
+5,Daniel Miller #5,1988,Poland,81.99,-250,250,-270,250,250,83,Open,B,M,Single-ply
 6,Volodymyr Narolskiy,1977,USA,82.59,250,-265,-272.5,250,250,83,Open,B,M,Single-ply
 7,Cyril Pinguet,1972,France,81.74,230,-240,-247.5,230,230,83,Open,B,M,Single-ply
 8,Jens Pedersen,1985,Denmark,82.57,-222.5,222.5,230,230,230,83,Open,B,M,Single-ply
@@ -63,7 +63,7 @@ DQ,Mike Ciupinski,1979,USA,82.72,-240,-240,-240,,,83,Open,B,M,Single-ply
 13,Pinda Singh,1980,UK,104.94,240,-260,-260,240,240,105,Open,B,M,Single-ply
 DQ,Andrey Sazonov,1980,Kazakhstan,100.74,-295,-295,-295,,,105,Open,B,M,Single-ply
 DQ,Aliaksei Stasevich,1986,Belarus,102.39,-287.5,-287.5,-297.5,,,105,Open,B,M,Single-ply
-DQ,Andre Mo Dag,1979,Norway,103.09,-270,-275,-282.5,,,105,Open,B,M,Single-ply
+DQ,Dag Andre Mo,1979,Norway,103.09,-270,-275,-282.5,,,105,Open,B,M,Single-ply
 DQ,Sami Heino,1975,Finland,103.97,-275,-275,,,,105,Open,B,M,Single-ply
 DQ,Kornél Schauer,1977,Hungary,104.13,-275,-275,-275,,,105,Open,B,M,Single-ply
 DQ,Tamás Sebestyén,1980,Hungary,104.27,-277.5,-300,-300,,,105,Open,B,M,Single-ply
@@ -77,15 +77,15 @@ DQ,Nikolaj Esipov,1980,Germany,104.61,-280,-280,-280,,,105,Open,B,M,Single-ply
 4,Zbyněk Krejča,1974,Czechia,117.86,270,285,-295,285,285,120,Open,B,M,Single-ply
 5,Fridrich Matejík,1983,Slovakia,119.95,270,285,-295,285,285,120,Open,B,M,Single-ply
 6,Stanislav Janes,1974,Slovakia,116.66,-280,280,-302.5,280,280,120,Open,B,M,Single-ply
-7,Lorand Berke,1979,Hungary,112.26,270,275,-285,275,275,120,Open,B,M,Single-ply
+7,Lóránd Berke,1979,Hungary,112.26,270,275,-285,275,275,120,Open,B,M,Single-ply
 8,Markus Karner,1970,Austria,118.3,275,-292.5,-292.5,275,275,120,Open,B,M,Single-ply
 9,Pavol Demčák,1977,Czechia,116.68,270,-282.5,-285,270,270,120,Open,B,M,Single-ply
 10,Avi Silverberg,1987,Canada,110.29,-245,255,-260,255,255,120,Open,B,M,Single-ply
 11,Andre Cloete,1979,South Africa,110.78,-220,220,-235,220,220,120,Open,B,M,Single-ply
 DQ,Rustam Yulchiev,1977,Kazakhstan,114.71,-320,-325.5,-326,,,120,Open,B,M,Single-ply
 DQ,Francky Nogues,1980,France,116.2,-290,-290,-290,,,120,Open,B,M,Single-ply
-DQ,Michael Pennington,1988,UK,117.79,-270,-270,-290,,,120,Open,B,M,Single-ply
-DQ,Karol Koltonski,1983,Poland,117.97,-320,-325.5,-325.5,,,120,Open,B,M,Single-ply
+DQ,Michael Pennington #2,1988,UK,117.79,-270,-270,-290,,,120,Open,B,M,Single-ply
+DQ,Karol Kołtoński,1983,Poland,117.97,-320,-325.5,-325.5,,,120,Open,B,M,Single-ply
 DQ,Marcus Hirvonen,1976,Sweden,119.59,-322.5,-326,-326.5,,,120,Open,B,M,Single-ply
 DQ,Jeffrey Snyder,1971,USA,119.81,-295,-295,-305,,,120,Open,B,M,Single-ply
 1,Fredrik Smulter,1983,Finland,142.7,332.5,340,345,345,345,120+,Open,B,M,Single-ply
@@ -98,7 +98,7 @@ DQ,Jeffrey Snyder,1971,USA,119.81,-295,-295,-305,,,120,Open,B,M,Single-ply
 8,Jonathan Leo,1977,USA,143.39,305,320,-337.5,320,320,120+,Open,B,M,Single-ply
 9,Milan Špingl,1980,Czechia,148.3,295,307.5,317.5,317.5,317.5,120+,Open,B,M,Single-ply
 10,Alastair McColl,1981,Norway,136.73,305,315,-325,315,315,120+,Open,B,M,Single-ply
-11,Kevin Koch,1979,Germany,162.95,300,310,-320,310,310,120+,Open,B,M,Single-ply
+11,Kevin Koch #1,1979,Germany,162.95,300,310,-320,310,310,120+,Open,B,M,Single-ply
 12,Nathan Baxter,1977,Australia,167.71,290,300,-320,300,300,120+,Open,B,M,Single-ply
 13,Jaroslav Šoukal,1972,Czechia,146.12,275,285,295,295,295,120+,Open,B,M,Single-ply
 14,Marco Regensberger,1979,Austria,128.36,-275,275,280,280,280,120+,Open,B,M,Single-ply
@@ -150,7 +150,7 @@ DQ,Juuso Korhonen,1994,Finland,104.33,-177.5,-182.5,-182.5,,,105,Sub-Juniors,B,M
 3,Evgeniy Komarov,1994,Russia,124.25,200,212.5,220,220,220,120+,Sub-Juniors,B,M,Single-ply
 4,Keno Szopinski,1996,Germany,151.89,170,180,-190,180,180,120+,Sub-Juniors,B,M,Single-ply
 DQ,Stanislav Markov,1994,Kazakhstan,134.71,-210,-210,-222.5,,,120+,Sub-Juniors,B,M,Single-ply
-1,Oleg Smirnov,1990,Russia,58.38,167.5,172.5,177.5,177.5,177.5,59,Juniors,B,M,Single-ply
+1,Oleg Smirnov #1,1990,Russia,58.38,167.5,172.5,177.5,177.5,177.5,59,Juniors,B,M,Single-ply
 2,Danis Amirov,1993,Kazakhstan,58.94,155,-165,-175,155,155,59,Juniors,B,M,Single-ply
 3,Aleksander Petrov,1990,Bulgaria,58.4,-135,135,142.5,142.5,142.5,59,Juniors,B,M,Single-ply
 1,Yan Urusov,1989,Russia,65.56,195,202.5,207.5,207.5,207.5,66,Juniors,B,M,Single-ply
@@ -176,7 +176,7 @@ DQ,Stanislav Markov,1994,Kazakhstan,134.71,-210,-210,-222.5,,,120+,Sub-Juniors,B
 1,Bogdan Grinevych,1990,Ukraine,91.53,255,260,265,265,265,93,Juniors,B,M,Single-ply
 2,Pavel Kornev,1989,Russia,91.9,240,247.5,262.5,262.5,262.5,93,Juniors,B,M,Single-ply
 3,Igor Trifonov,1989,Kazakhstan,91.07,-255,-255,255,255,255,93,Juniors,B,M,Single-ply
-4,Nazar Dyachuk,1991,Ukraine,91.2,230,240,-247.5,240,240,93,Juniors,B,M,Single-ply
+4,Nazariy Dyachuk,1991,Ukraine,91.2,230,240,-247.5,240,240,93,Juniors,B,M,Single-ply
 5,Roger Navarsete,1989,Norway,91.15,217.5,-222.5,222.5,222.5,222.5,93,Juniors,B,M,Single-ply
 6,Borislav Borisov,1989,Bulgaria,88.53,-215,215,220,220,220,93,Juniors,B,M,Single-ply
 7,Jiří Prášek,1989,Czechia,87.82,200,210,215,215,215,93,Juniors,B,M,Single-ply
@@ -196,7 +196,7 @@ DQ,Markus Ahonen,1990,Finland,103.13,-260,-260,-272.5,,,105,Juniors,B,M,Single-p
 1,Ivan Goryachev,1990,Russia,118.42,265,275,-285,275,275,120,Juniors,B,M,Single-ply
 2,Eduard Kabdeshev,1989,Kazakhstan,110.53,-245,252.5,262.5,262.5,262.5,120,Juniors,B,M,Single-ply
 3,Per Marius Hole,1990,Norway,118.69,245,252.5,262.5,262.5,262.5,120,Juniors,B,M,Single-ply
-4,Grzegorz Piwonski,1990,Poland,119.46,242.5,252.5,260,260,260,120,Juniors,B,M,Single-ply
+4,Grzegorz Piwoński,1990,Poland,119.46,242.5,252.5,260,260,260,120,Juniors,B,M,Single-ply
 5,Petr Toman,1990,Czechia,117.44,-237.5,237.5,-252.5,237.5,237.5,120,Juniors,B,M,Single-ply
 6,Toshihiro Hanada,1991,Japan,107.1,212.5,222.5,-237.5,222.5,222.5,120,Juniors,B,M,Single-ply
 7,Tomáš Novák #1,1990,Czechia,105.99,192.5,197.5,202.5,202.5,202.5,120,Juniors,B,M,Single-ply
@@ -224,7 +224,7 @@ DQ,Marco Hahn,1990,Germany,119.65,-210,-210,-225,,,120,Juniors,B,M,Single-ply
 1,Gundula Fiona Sommer von Bachhaus,1981,Germany,61.98,-155,155,157.5,157.5,157.5,63,Open,B,F,Single-ply
 2,Irina Poletaeva,1982,Russia,62.6,157.5,-162.5,-162.5,157.5,157.5,63,Open,B,F,Single-ply
 3,Valida Iskandarova,1974,Kazakhstan,62.66,-137.5,-140,140,140,140,63,Open,B,F,Single-ply
-4,Jadwiga Radwanska,1975,Poland,60.31,-110,115,117.5,117.5,117.5,63,Open,B,F,Single-ply
+4,Jadwiga Radwańska',1975,Poland,60.31,-110,115,117.5,117.5,117.5,63,Open,B,F,Single-ply
 5,Josephine Werngren,1976,Sweden,62.58,112.5,-117.5,117.5,117.5,117.5,63,Open,B,F,Single-ply
 6,Tarja Uppala,1965,Finland,62.45,107.5,115,-117.5,115,115,63,Open,B,F,Single-ply
 7,Zsanett Palágyi,1986,Hungary,60.75,-95,95,97.5,97.5,97.5,63,Open,B,F,Single-ply
@@ -240,7 +240,7 @@ DQ,Galina Potselueva,1980,Russia,66.09,-170,-170,-170,,,72,Open,B,F,Single-ply
 1,Ielja Strik,1973,Netherlands,83.75,165,170,-177.5,170,170,84,Open,B,F,Single-ply
 2,Tatyana Kudryavtseva,1982,Kazakhstan,80.4,160,167.5,-175,167.5,167.5,84,Open,B,F,Single-ply
 3,Maria Johansson,1984,Sweden,83.84,157.5,162.5,165,165,165,84,Open,B,F,Single-ply
-4,Lyudmila Protchenko,1986,Russia,77.29,155,-162.5,162.5,162.5,162.5,84,Open,B,F,Single-ply
+4,Liudmila Protchenko,1986,Russia,77.29,155,-162.5,162.5,162.5,162.5,84,Open,B,F,Single-ply
 5,Anna Balajzy,1982,Poland,79.35,150,-160,-162.5,150,150,84,Open,B,F,Single-ply
 6,Hana Takáčová,1954,Czechia,83.68,135,145,-152.5,145,145,84,Open,B,F,Single-ply
 7,Alena Krčmářová,1975,Czechia,74.15,80,87.5,-92.5,87.5,87.5,84,Open,B,F,Single-ply
@@ -304,7 +304,7 @@ DQ,Leila Duhem,1963,France,98.77,-155,-165,-165,,,84+,Open,B,F,Single-ply
 1,Ekaterina Tsigankova,1992,Russia,80.6,132.5,-137.5,-140,132.5,132.5,84,Juniors,B,F,Single-ply
 2,Tünde Olajos,1989,Hungary,82.41,110,-115,117.5,117.5,117.5,84,Juniors,B,F,Single-ply
 3,Alexandra Tichy,1990,Austria,82.58,-110,110,-120,110,110,84,Juniors,B,F,Single-ply
-4,Aleksandra Zielinska,1992,Poland,82.35,105,-115,-115,105,105,84,Juniors,B,F,Single-ply
+4,Aleksandra Zielińska,1992,Poland,82.35,105,-115,-115,105,105,84,Juniors,B,F,Single-ply
 5,Edina Magyar,1990,Hungary,72.48,77.5,82.5,-87.5,82.5,82.5,84,Juniors,B,F,Single-ply
 1,Magdalena Bialek,1991,Poland,84.24,105,112.5,-117.5,112.5,112.5,84+,Juniors,B,F,Single-ply
 DQ,Maria Koteles,1992,Hungary,125.37,-150,-150,-150,,,84+,Juniors,B,F,Single-ply

@@ -10,7 +10,7 @@ WeightClassKg,Name,Sex,Event,Equipment,Country,Division,Best3SquatKg,Bench1Kg,Be
 75,Jodi Van Deursen,F,SBD,Multi-ply,USA,O,160,,,,,107.5,142.5,410,1
 52,Margaret Kirkland,F,SBD,Multi-ply,USA,M1,177.5,,,,,77.5,157.5,412.5,1
 56,Lora Greco,F,SBD,Multi-ply,Canada,M2,,,,,,,,,DQ
-67.5,Marie-J Burrick,F,SBD,Multi-ply,Belgium,M2,117.5,,,,,62.5,127.5,307.5,1
+67.5,Marie-Jacques Burrick,F,SBD,Multi-ply,Belgium,M2,117.5,,,,,62.5,127.5,307.5,1
 48,Ann Leverett,F,SBD,Multi-ply,USA,M3,132.5,,,,,72.5,147.5,352.5,1
 48,Wanda Burnett,F,SBD,Multi-ply,USA,M3,,,,,,,,,DQ
 60,Kathy Middleton,F,SBD,Multi-ply,USA,M3,62.5,,,,,57.5,105,225,1
@@ -20,7 +20,7 @@ WeightClassKg,Name,Sex,Event,Equipment,Country,Division,Best3SquatKg,Bench1Kg,Be
 67.5,Pieter Calus,M,SBD,Multi-ply,Belgium,J,230,,,,,147.5,222.5,600,1
 75,Benna Bartsch,M,SBD,Multi-ply,Germany,J,210,,,,,137.5,215,562.5,1
 75,Keiran James,M,SBD,Multi-ply,UK,J,200,,,,,110,195,505,2
-125,Ben Williams,M,SBD,Multi-ply,UK,J,282.5,,,,,185,275,742.5,1
+125,Ben Williams #5,M,SBD,Multi-ply,UK,J,282.5,,,,,185,275,742.5,1
 67.5,Michael Romanello,M,SBD,Multi-ply,USA,O,205,,,,,167.5,200,572.5,1
 82.5,Shane Brodie,M,SBD,Multi-ply,Ireland,O,280,,,,,172.5,270,722.5,1
 82.5,Adam Brooks,M,SBD,Multi-ply,UK,O,267.5,,,,,162.5,245,675,2
@@ -34,7 +34,7 @@ WeightClassKg,Name,Sex,Event,Equipment,Country,Division,Best3SquatKg,Bench1Kg,Be
 90,Andy Fisher,M,SBD,Multi-ply,Canada,O,200,,,,,135,230,565,8
 100,Steven Radford,M,SBD,Multi-ply,USA,O,335,,,,,240,285,860,1
 100,Tim Ironside,M,SBD,Multi-ply,Canada,O,310,,,,,232.5,275,817.5,2
-100,Robert Graham,M,SBD,Multi-ply,UK,O,270,,,,,155,250,675,3
+100,Robert Graham #1,M,SBD,Multi-ply,UK,O,270,,,,,155,250,675,3
 110,Rufat Agaev,M,SBD,Multi-ply,Azerbaijan,O,375,,,,,207.5,327.5,910,1
 110,Steven Middleton-Lowes,M,SBD,Multi-ply,UK,O,372.5,,,,,227.5,305,905,2
 110,Stephen Parkhurst,M,SBD,Multi-ply,USA,O,320,,,,,230,305,855,3
@@ -43,7 +43,7 @@ WeightClassKg,Name,Sex,Event,Equipment,Country,Division,Best3SquatKg,Bench1Kg,Be
 125,Charles Bailey,M,SBD,Multi-ply,USA,O,455,,,,,265,275,995,2
 125,Jani Toivo Kristian Ihalainen,M,SBD,Multi-ply,Finland,O,360,,,,,260,315,935,3
 125,Roland Prager,M,SBD,Multi-ply,Austria,O,380,,,,,230,325,935,4
-125,Lee Thomas,M,SBD,Multi-ply,UK,O,315,,,,,180,295,790,7
+125,Lee Thomas #1,M,SBD,Multi-ply,UK,O,315,,,,,180,295,790,7
 125,Ian Rutherford,M,SBD,Multi-ply,UK,O,305,,,,,210,312.5,827.5,5
 125,Jeff Green,M,SBD,Multi-ply,USA,O,327.5,,,,,170,295,792.5,6
 140,Jeffrey Vaughn,M,SBD,Multi-ply,USA,O,387.5,,,,,235,320,942.5,1
@@ -56,12 +56,12 @@ WeightClassKg,Name,Sex,Event,Equipment,Country,Division,Best3SquatKg,Bench1Kg,Be
 82.5,JJ Dunne,M,SBD,Multi-ply,Ireland,M1,255,,,,,147.5,270,672.5,1
 82.5,Eric Hoffmeyer,M,SBD,Multi-ply,South Africa,M1,180,,,,,125,220,525,2
 90,James Slyk,M,SBD,Multi-ply,Canada,M1,135,,,,,85,157.5,377.5,1
-100,Sam Graham,M,SBD,Multi-ply,Ireland,M1,310,,,,,185,320,815,1
+100,Sam Graham #1,M,SBD,Multi-ply,Ireland,M1,310,,,,,185,320,815,1
 125,Gary Boulton,M,SBD,Multi-ply,UK,M1,295,,,,,195,260,750,1
 125,Thomas Edward Wright,M,SBD,Multi-ply,USA,M1,255,,,,,115,220,590,2
 82.5,Bernard Morgan,M,SBD,Multi-ply,Ireland,M2,255,,,,,152.5,237.5,645,1
 90,Ronnie Baker,M,SBD,Multi-ply,USA,M2,,,,,,,,,DQ
-110,Thomas Bowman,M,SBD,Multi-ply,USA,M2,295,,,,,212.5,290,797.5,1
+110,Thomas Bowman #1,M,SBD,Multi-ply,USA,M2,295,,,,,212.5,290,797.5,1
 110,Alan Gilbert,M,SBD,Multi-ply,UK,M2,220,,,,,160,250,630,2
 110,Krystian Slosarek,M,SBD,Multi-ply,Germany,M2,315,,,,,,,,DQ
 125,Lee Marshall,M,SBD,Multi-ply,UK,M2,370,,,,,207.5,340,917.5,1
@@ -83,15 +83,15 @@ WeightClassKg,Name,Sex,Event,Equipment,Country,Division,Best3SquatKg,Bench1Kg,Be
 67.5,Virpi Pukkila,F,B,Multi-ply,Finland,O,,105,110,-115,,110,,110,1
 67.5,Wendy Michiels,F,B,Multi-ply,Belgium,O,,-90,90,105,,105,,105,2
 82.5,Michael Gacek,M,B,Multi-ply,USA,T1,,-85,-100,-100,,,,,DQ
-82.5,David Lee,M,B,Multi-ply,USA,T3,,125,-130,-130,,125,,125,1
+82.5,David Lee #9,M,B,Multi-ply,USA,T3,,125,-130,-130,,125,,125,1
 90,Steven Faulkner,M,B,Multi-ply,USA,T3,,192.5,205,215,,215,,215,1
 100,Jean Botha,M,B,Multi-ply,South Africa,T3,,150,160,170,,170,,170,1
-75,Richard Brown,M,B,Multi-ply,UK,J,,-130,130,140,,140,,140,1
+75,Richard Brown #6,M,B,Multi-ply,UK,J,,-130,130,140,,140,,140,1
 75,Keiran James,M,B,Multi-ply,UK,J,,100,115,-125,,115,,115,2
 125,André Conrad,M,B,Multi-ply,Germany,J,,230,250,262.5,,262.5,,262.5,1
 67.5,Kevin Harman,M,B,Multi-ply,USA,O,,175,-182.5,-185,,175,,175,1
 82.5,Shane Brodie,M,B,Multi-ply,Ireland,O,,150,160,,,160,,160,1
-100,Chris Scott,M,B,Multi-ply,USA,O,,205,-217.5,217.5,,217.5,,217.5,1
+100,Chris Scott #6,M,B,Multi-ply,USA,O,,205,-217.5,217.5,,217.5,,217.5,1
 100,Jody Freeman,M,B,Multi-ply,USA,O,,192.5,207.5,-217.5,,207.5,,207.5,2
 110,Jason Jackson #7,M,B,Multi-ply,USA,O,,320,-337.5,-340,,320,,320,1
 110,Jeremy Zimmerman,M,B,Multi-ply,Canada,O,,-267.5,282.5,300,,300,,300,2
@@ -121,7 +121,7 @@ WeightClassKg,Name,Sex,Event,Equipment,Country,Division,Best3SquatKg,Bench1Kg,Be
 60,Gary Bobrovitz,M,B,Multi-ply,Canada,M3,,60,113,120,125,120,,120,1
 75,Darrel Hamby,M,B,Multi-ply,USA,M3,,117.5,-180,180,-182.5,180,,180,1
 82.5,Omar Pittman,M,B,Multi-ply,USA,M3,,160,-170,-180,,160,,160,1
-90,Klaus Gerhard Kruger,M,B,Multi-ply,Germany,M3,,200,210,215,,215,,215,1
+90,Klaus-Gerhard Krüger,M,B,Multi-ply,Germany,M3,,200,210,215,,215,,215,1
 90,Garry Glenn R,M,B,Multi-ply,USA,M3,,140,150,160,,160,,160,2
 100,Yan Howah,M,B,Multi-ply,USA,M3,,210,225,-230,,225,,225,1
 110,Didier Douet,M,B,Multi-ply,France,M3,,145,152.5,-157.5,,152.5,,152.5,1

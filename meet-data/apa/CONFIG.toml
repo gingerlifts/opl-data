@@ -10,19 +10,20 @@
 
 [divisions]
     open = {name ="Open",min=0,max=999}
+    open_nt = {name ="Open NT",min=0,max=999,tested="No"}
     military = {name ="Military",min=0,max=999}
     veterans = {name ="Veterans",min=0,max=999}
     handicapped = {name ="Handicapped",min=0,max=999}
     paralympics = {name ="Paralympics",min=0,max=999}
     policefire = {name ="Police/Fire",min=0,max=999}
     specialolympics = {name ="Special Olympics",min=0,max=999}
-    veteran = {name="Veteran", min=0, max=999}
     youth = {name = "Youth",min=0,max=12}
     youth810 = {name = "Youth 8-10",min=8,max=10}
     youth1011 = {name = "Youth 10-11",min=10,max=11}
     youth89 = {name = "Youth 8-9",min=8,max=9}
     youth910 = {name = "Youth 9-10",min=9,max=10}
     youth1112 = {name = "Youth 11-12",min=11,max=12}
+    exhibition = {name ="Exhibition",min=0,max=999}
 
     #APA has two ways of numbering masters: 40,45,50,... or 40,50,60,...
     masters40 = {name ="Masters 40+",min=40,max=999} #Masters 1
@@ -52,7 +53,14 @@
     teen1819 = {name ="Teen 18-19",min=18,max=19} #Teen 3
     juniors2023 = {name ="Juniors 20-23",min=19.5,max=23}
     novice = {name ="Novice",min=0,max=999}
+    paralympic = {name ="Paralympic",min=0,max=999}
     masters = {name ="Masters",min=40,max=999}
+
+    # OpenLifter-style divisions, for WPA-Uganda.
+    j20_23 = {name="J20-23", min=20, max=23}
+    s35-39 = {name="S35-39", min=35, max=39}
+    paralymic_j20_23 = {name="Paralympic J20-23", min=20, max=23}
+    paralympic_m40p = {name="Paralympic M40+", min=40, max=999}
 
     # Disabled divisions (specifically noted as "amputee or no use of legs".
     # Used by WPA-Africa.
@@ -80,8 +88,11 @@
     8902 = ["ExemptWeightClassConsistency"]  # Unreported.
     8904 = ["ExemptWeightClassConsistency"]  # Unreported.
     8905 = ["ExemptWeightClassConsistency"]  # Unreported.
+    0202 = ["ExemptWeightClassConsistency"]  # Non open lifters don't have weightclasses
+    0203 = ["ExemptWeightClassConsistency"]  # Non open lifters don't have weightclasses
+    0601 = ["ExemptDivision"]  
+    0805 = ["ExemptDivision"]  
     0902 = ["ExemptDivision"]
-    1616 = ["ExemptWeightClassConsistency"]
     0905 = ["ExemptWeightClassConsistency"]
-    0601 = ["ExemptDivision"]
-    0805 = ["ExemptDivision"]
+    1306 = ["ExemptWeightClassConsistency","ExemptDivision"] # Reduced divisions, Masters/Teen
+    1616 = ["ExemptWeightClassConsistency"]

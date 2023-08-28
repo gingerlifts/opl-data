@@ -1,6 +1,6 @@
 Name,WeightClassKg,Division,Sex,Best3BenchKg,TotalKg,Event,Equipment,Place
 D. Dill,52,Open,M,49.9,49.9,B,Single-ply,1
-Hennis Washington,56,Open,M,108.86,108.86,B,Single-ply,1
+Hennis Washington #1,56,Open,M,108.86,108.86,B,Single-ply,1
 Ken Snell,56,Open,M,104.33,104.33,B,Single-ply,2
 P. Richardson,60,Open,M,113.4,113.4,B,Single-ply,1
 Tony Conyers,67.5,Open,M,185.97,185.97,B,Single-ply,1
@@ -10,7 +10,7 @@ F. Lindberg,67.5,Open,M,145.15,145.15,B,Single-ply,4
 J. Reece,67.5,Open,M,142.88,142.88,B,Single-ply,5
 S. Kelley,67.5,Open,M,113.4,113.4,B,Single-ply,6
 A. Murray,67.5,Open,M,95.25,95.25,B,Single-ply,7
-J. Hill,75,Open,M,165.56,165.56,B,Single-ply,1
+J. Hill #5,75,Open,M,165.56,165.56,B,Single-ply,1
 P. Diez,75,Open,M,138.35,138.35,B,Single-ply,2
 R. Mamual,75,Open,M,138.35,138.35,B,Single-ply,3
 C. Splitgaber,75,Open,M,131.54,131.54,B,Single-ply,4
@@ -56,7 +56,7 @@ E. Lopez,52,High School,M,61.24,61.24,B,Single-ply,2
 N. Burley,60,High School,M,79.38,79.38,B,Single-ply,1
 Jarrod Frasier,67.5,High School,M,113.4,113.4,B,Single-ply,1
 D. Hicks,67.5,High School,M,90.72,90.72,B,Single-ply,2
-H. Rhoton,75,High School,M,117.93,117.93,B,Single-ply,1
+Hoss Rhoton,75,High School,M,117.93,117.93,B,Single-ply,1
 D. Hogan,82.5,High School,M,127.01,127.01,B,Single-ply,1
 D. Lawrence,82.5,High School,M,104.33,104.33,B,Single-ply,2
 C. Boner,90,High School,M,136.08,136.08,B,Single-ply,1

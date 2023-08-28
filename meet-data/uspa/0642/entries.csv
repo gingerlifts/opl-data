@@ -1,5 +1,5 @@
 Place,Name,Division,Equipment,Sex,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Squat4Kg,Best3BenchKg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Event
-1,Stacia-Al Mahoe,Juniors 18-19,Raw,F,HI,48,46.6,19,100,,75,160,,335,SBD
+1,Stacia Cambra,Juniors 18-19,Raw,F,HI,48,46.6,19,100,,75,160,,335,SBD
 1,Vipa Pukasamsombut,Juniors 20-23,Raw,F,CA,48,47.55,23,110,,47.5,137.5,,295,SBD
 1,Tiffani Tom,Juniors 20-23,Raw,F,CA,52,50.9,23,127.5,,45,132.5,,305,SBD
 1,Megan Garcia,Juniors 18-19,Raw,F,CA,56,53.3,18,77.5,,42.5,90,,210,SBD
@@ -16,7 +16,7 @@ DQ,Shelby Simmons,Juniors 18-19,Raw,F,PA,75,71.55,18,,,57.5,,,,SBD
 2,Cierra Laxton,Juniors 20-23,Raw,F,TX,82.5,79.3,22,130,,87.5,192.5,,410,SBD
 1,Tessa Urbank,Juniors 20-23,Raw,F,FL,90,87.4,22,200,,95,227.5,,522.5,SBD
 2,Amira Juma,Juniors 20-23,Raw,F,VA,90,89.4,23,135,,57.5,180,,372.5,SBD
-1,Stacia-Al Mahoe,Open,Raw,F,HI,48,46.6,19,100,,75,160,,335,SBD
+1,Stacia Cambra,Open,Raw,F,HI,48,46.6,19,100,,75,160,,335,SBD
 2,Vipa Pukasamsombut,Open,Raw,F,CA,48,47.55,23,110,,47.5,137.5,,295,SBD
 3,Leda Emmons,Open,Raw,F,TX,48,47.9,29,92.5,,47.5,115,,255,SBD
 1,Kelli Hoopes,Open,Raw,F,WY,52,52,38,112.5,,50,150,,312.5,SBD
@@ -90,7 +90,7 @@ DQ,Shelby Heath,Open,Raw,F,CA,60,57.9,29,,,,,,,SBD
 1,Melissa Garza #1,Masters 40-44,Raw,F,TX,75,72.9,40,120,,70,140,,330,SBD
 DQ,Katherine Hristou,Masters 55-59,Raw,F,UT,75,71.7,55,,,57.5,,,,SBD
 1,Valerie Muller,Masters 40-44,Raw,F,CA,82.5,80.05,41,120,,77.5,172.5,,370,SBD
-1,Tina Collins,Masters 45-49,Raw,F,TX,82.5,79.25,47,125,,82.5,157.5,,365,SBD
+1,Tina Collins #1,Masters 45-49,Raw,F,TX,82.5,79.25,47,125,,82.5,157.5,,365,SBD
 1,Maia Burchell,Masters 40-44,Raw,F,AL,90,89.3,44,152.5,,75,170,,397.5,SBD
 1,Lori Yates,Masters 50-54,Raw,F,WA,90+,123.7,52,155,,77.5,190,,422.5,SBD
 2,Lynette Ritchie,Masters 50-54,Raw,F,IL,90+,110.35,51,147.5,,92.5,167.5,,407.5,SBD
@@ -108,7 +108,7 @@ DQ,Katherine Hristou,Masters 55-59,Raw,F,UT,75,71.7,55,,,57.5,,,,SBD
 3,Xavier Counce,Juniors 20-23,Raw,M,NV,75,74.91,20,195,,117.5,265,,577.5,SBD
 4,Nick Bustos,Juniors 20-23,Raw,M,CA,75,73.05,20,185,,122.5,235,,542.5,SBD
 5,Kevin Meneray,Juniors 20-23,Raw,M,CA,75,73.4,20,172.5,,105,217.5,,495,SBD
-1,Avtar Singh,Juniors 16-17,Raw,M,WA,82.5,80.65,17,175,,87.5,207.5,,470,SBD
+1,Avtar Singh #2,Juniors 16-17,Raw,M,WA,82.5,80.65,17,175,,87.5,207.5,,470,SBD
 1,Ben Hardy,Juniors 18-19,Raw,M,UT,82.5,78.15,18,195,,107.5,220,,522.5,SBD
 1,Adam Osmoe,Juniors 20-23,Raw,M,IL,82.5,82,23,262.5,,167.5,250,,680,SBD
 2,Joe Parks,Juniors 20-23,Raw,M,TX,82.5,76.05,22,192.5,,132.5,265,,590,SBD
@@ -196,7 +196,7 @@ DQ,Tyler Lyness,Open,Raw,M,CA,100,96.45,23,182.5,,,242.5,,,SBD
 1,John Rivas,Open,Raw,M,VA,110,109.2,26,337.5,,232.5,377.5,,947.5,SBD
 2,Dustin Sixkiller,Open,Raw,M,VA,110,109.9,31,265,,182.5,305,,752.5,SBD
 3,Bradly Bechel,Open,Raw,M,IL,110,109.35,30,260,,227.5,260,,747.5,SBD
-4,Travis Parker,Open,Raw,M,SD,110,107.3,49,277.5,,180,287.5,,745,SBD
+4,Travis Parker #2,Open,Raw,M,SD,110,107.3,49,277.5,,180,287.5,,745,SBD
 5,Carlos Castro,Open,Raw,M,NV,110,109.95,26,295,,162.5,285,,742.5,SBD
 6,Qua Scott,Open,Raw,M,NV,110,109.55,28,255,,187.5,260,,702.5,SBD
 7,Robert Baker,Open,Raw,M,TX,110,107.4,30,250,,160,280,,690,SBD
@@ -208,7 +208,7 @@ DQ,Tyler Lyness,Open,Raw,M,CA,100,96.45,23,182.5,,,242.5,,,SBD
 2,Mason Cervantes,Open,Raw,M,CA,125,117.65,30,315,,210,337.5,,862.5,SBD
 3,John Mazza,Open,Raw,M,UT,125,123.7,35,295,,227.5,327.5,,850,SBD
 4,Lance Keys,Open,Raw,M,CA,125,122.6,32,272.5,,215,320,,807.5,SBD
-5,James Strickland,Open,Raw,M,TX,125,121.75,35,250,,257.5,287.5,,795,SBD
+5,James Strickland #1,Open,Raw,M,TX,125,121.75,35,250,,257.5,287.5,,795,SBD
 6,Cole Hale,Open,Raw,M,CA,125,122,24,287.5,,185,300,,772.5,SBD
 7,Collin Curtiss,Open,Raw,M,NV,125,115.9,23,250,,202.5,275,,727.5,SBD
 8,Sinjin Howerton,Open,Raw,M,NV,125,122.8,24,222.5,,195,300,,717.5,SBD
@@ -250,7 +250,7 @@ DQ,Brandon Allen #1,Open,Raw,M,NV,140+,156.8,27,,,,,,,SBD
 1,Doug Carroll,Masters 55-59,Raw,M,CA,100,99.55,55,195,,127.5,272.5,,595,SBD
 2,Thomas Demer,Masters 55-59,Raw,M,TX,100,96.9,58,172.5,,107.5,217.5,,497.5,SBD
 3,Steve Covington,Masters 55-59,Raw,M,CA,100,97.7,55,167.5,,130,192.5,,490,SBD
-1,Travis Parker,Masters 45-49,Raw,M,SD,110,107.3,49,277.5,,180,287.5,,745,SBD
+1,Travis Parker #2,Masters 45-49,Raw,M,SD,110,107.3,49,277.5,,180,287.5,,745,SBD
 DQ,Albert Tamayo,Masters 55-59,Raw,M,FL,110,106.1,55,,,,,,,SBD
 1,David Bialski,Masters 40-44,Raw,M,FL,125,123.4,42,250,,145,295,,690,SBD
 1,John Dignan #2,Masters 45-49,Raw,M,NV,125,117.6,48,260,,157.5,267.5,,685,SBD

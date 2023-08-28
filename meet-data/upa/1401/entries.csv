@@ -42,7 +42,7 @@ Mike Randall,29,M,Multi-ply,MO,SBD,89.9,90,276.69,272.16,,254.01,802.86,,,1
 Jay Ashman,40,M,Raw,MM1R,D,121.74,125,,,,272.16,272.16,,,1
 Gage Abrahams,38,M,Wraps,MSR-AD,SBD,154.58,140+,226.8,136.08,,278.96,641.83,,Yes,1
 Tim Hensley,34,M,Multi-ply,MO-AD,SBD,88.72,90,317.51,306.17,,292.57,916.26,,Yes,1
-Nick Tsournouis,33,M,Multi-ply,MO,SBD,108.86,110,392.36,294.84,,283.5,970.69,,,2
+Nick Tsourounis,33,M,Multi-ply,MO,SBD,108.86,110,392.36,294.84,,283.5,970.69,,,2
 Corey Miceli,42,M,Multi-ply,MO,SBD,138.98,140,460.4,272.16,,371.95,1104.5,,,2
 Bert Underwood,39,M,Multi-ply,MO,SBD,135.35,140,371.95,272.16,,308.44,952.54,,,4
 Martin Arters,36,M,Multi-ply,MO,SBD,89.72,90,317.51,,,,,,,DQ
@@ -61,7 +61,7 @@ Weston Riddle,27,M,Wraps,MOR,SBD,106.5,110,317.51,195.04,,308.44,821,,,2
 Daniel Dalenberg,25,M,Wraps,MOR,SBD,109.5,110,362.87,222.26,,322.05,907.18,,,1
 Paul Carter,39,M,Wraps,MOR,SBD,123.92,125,285.76,199.58,,317.51,802.86,,,3
 Dan Maki,34,M,Wraps,MOR,SBD,138.62,140,367.41,215.46,,324.32,907.18,,,1
-Kevin Smith #3,36,M,Wraps,MOR,SBD,123.2,125,324.32,217.72,,328.85,870.9,,,1
+Kevin Smith #1,36,M,Wraps,MOR,SBD,123.2,125,324.32,217.72,,328.85,870.9,,,1
 Andy Grimm,37,M,Wraps,MOR,SBD,115.76,125,317.51,219.99,,312.98,850.49,,,2
 Cory Schutter,24,M,Multi-ply,MO-AD,SBD,119.39,125,272.16,213.19,,217.72,703.07,,Yes,2
 Chris Olson,37,M,Multi-ply,MO-AD,SBD,154.86,140+,351.53,301.64,,226.8,879.97,,Yes,1
@@ -85,9 +85,9 @@ Mindy Underwood,34,F,Multi-ply,FO,SBD,89.99,90,226.8,115.67,,204.12,546.58,,,1
 Jake Whately,23,M,Multi-ply,MJ-AD,SBD,89.09,90,297.1,195.04,,256.28,748.43,,Yes,1
 Wes McCormick,24,M,Multi-ply,MO,SBD,74.39,75,317.51,226.8,,308.44,852.75,,,1
 Pete Sengos,48,M,Multi-ply,MM2-AD,SBD,99.34,100,353.8,244.94,,283.5,882.24,,Yes,1
-Tony Ramos,44,M,Multi-ply,MM1,SBD,86.73,90,349.27,258.55,,272.16,879.97,,,1
+Tony Ramos #1,44,M,Multi-ply,MM1,SBD,86.73,90,349.27,258.55,,272.16,879.97,,,1
 John Zemmin,45,M,Multi-ply,MM2,B,114.12,125,,326.59,,,326.59,,,1
-Rob Luyando,43,M,Multi-ply,MM1,B,127.46,140,,,,,,,,DQ
+Rob Luyando,,M,Multi-ply,MM1,B,127.46,140,,,,,,,,DQ
 Zachary Jaakkola,7,M,Raw,MYR-AD,D,27.67,52,,,,45.36,45.36,,Yes,1
 Owen Berneman,10,M,Raw,MYR-AD,D,64.32,67.5,,,,86.18,86.18,,Yes,1
 Hunter Luyando,9,M,Raw,MYR-AD,D,49.71,52,,,,88.45,88.45,,Yes,1
@@ -102,7 +102,7 @@ Krystal Maki,30,F,Wraps,FOR-AD,SBD,67.4,67.5,136.08,61.23,,163.29,360.61,,Yes,2
 Becca-Anderson Abrahams,36,F,Wraps,FOR-AD,SBD,76.84,82.5,161.03,90.72,,161.03,412.77,,Yes,2
 Hunter Grasso,15,M,Wraps,MT1R-AD,SBD,66.41,67.5,161.03,90.72,,165.56,417.3,,Yes,1
 Nicki Crapotta,28,F,Wraps,FOR-AD,SBD,60.42,67.5,127.01,77.11,,172.37,376.48,,Yes,1
-Pam Bosko,41,F,Wraps,FM1R,SBD,67.22,67.5,154.22,86.18,,176.9,417.3,,,1
+Pamela Bosko,41,F,Wraps,FM1R,SBD,67.22,67.5,154.22,86.18,,176.9,417.3,,,1
 Mikey Mitchell,15,M,Wraps,MT1R-AD,SBD,71.85,75,154.22,90.72,,181.44,426.38,,Yes,1
 Jen Payne,42,F,Wraps,FM1R,SBD,76.66,82.5,199.58,102.06,,197.31,498.95,,,1
 Kayla Heal,24,F,Wraps,FOR-AD,SBD,76.02,82.5,172.37,88.45,,199.58,460.4,,Yes,1
@@ -111,7 +111,7 @@ Candie Yon,42,F,Raw,FM1R-AD,BD,82.28,82.5,,58.97,,113.4,172.37,,Yes,1
 Jessica Ball,33,F,Raw,FOR,BD,73.12,75,,56.7,,142.88,199.58,,,1
 Pete Knudson,40,M,Raw,MM1R-AD,BD,124.38,125,,249.48,,199.58,449.06,,Yes,1
 Kirill Sheynerman,30,M,Raw,MOR-AD,BD,74.75,75,,133.81,,249.48,383.29,,Yes,1
-Rob Luyando,43,M,Raw,MM1R,BD,127.46,140,,226.8,,294.84,521.63,,,1
+Rob Luyando,,M,Raw,MM1R,BD,127.46,140,,226.8,,294.84,521.63,,,1
 Brian Patrick,33,M,Raw,MOR,BD,98.61,100,,204.12,,308.44,512.56,,,1
 Therese Foy,40,F,Raw,FM1R,B,79.92,82.5,,88.45,,,88.45,,,1
 Nick Tomski,21,M,Raw,MJR-AD,B,81.74,82.5,,117.93,,,117.93,,Yes,1

@@ -1,11 +1,11 @@
 //! Transforms `AllMeetData` into the final CSV files.
 
-use coefficients::{dots, goodlift, ipf, mcculloch};
+use coefficients::{dots, glossbrenner, goodlift, mcculloch, wilks, wilks2020};
 use csv::{QuoteStyle, Terminator, WriterBuilder};
+use fxhash::{FxBuildHasher, FxHashMap};
 use opltypes::states::*;
 use opltypes::*;
 
-use std::collections::HashMap;
 use std::path::Path;
 
 use crate::checklib::{Entry, LifterData, LifterDataMap, Meet};
@@ -118,8 +118,8 @@ struct EntriesRow<'d> {
     glossbrenner: Points,
     #[serde(rename = "Goodlift")]
     goodlift: Points,
-    #[serde(rename = "IPFPoints")]
-    ipfpoints: Points,
+    #[serde(rename = "Wilks2020")]
+    wilks2020: Points,
     #[serde(rename = "Dots")]
     dots: Points,
     #[serde(rename = "Tested")]
@@ -179,9 +179,9 @@ impl<'d> EntriesRow<'d> {
             best3deadliftkg: entry.best3deadliftkg,
             totalkg: entry.totalkg,
             place: entry.place,
-            wilks: entry.wilks,
+            wilks: wilks(entry.sex, entry.bodyweightkg, entry.totalkg),
             mcculloch,
-            glossbrenner: entry.glossbrenner,
+            glossbrenner: glossbrenner(entry.sex, entry.bodyweightkg, entry.totalkg),
             goodlift: goodlift(
                 entry.sex,
                 entry.equipment,
@@ -189,13 +189,7 @@ impl<'d> EntriesRow<'d> {
                 entry.bodyweightkg,
                 entry.totalkg,
             ),
-            ipfpoints: ipf(
-                entry.sex,
-                entry.equipment,
-                entry.event,
-                entry.bodyweightkg,
-                entry.totalkg,
-            ),
+            wilks2020: wilks2020(entry.sex, entry.bodyweightkg, entry.totalkg),
             dots: dots(entry.sex, entry.bodyweightkg, entry.totalkg),
             tested: if entry.tested { "Yes" } else { "" },
             country: entry.country,
@@ -216,6 +210,8 @@ struct LiftersRow<'md, 'ld> {
     name: &'md str,
     #[serde(rename = "CyrillicName")]
     cyrillicname: Option<&'md str>,
+    #[serde(rename = "ChineseName")]
+    chinesename: Option<&'md str>,
     #[serde(rename = "GreekName")]
     greekname: Option<&'md str>,
     #[serde(rename = "JapaneseName")]
@@ -226,31 +222,23 @@ struct LiftersRow<'md, 'ld> {
     username: &'md str,
     #[serde(rename = "Instagram")]
     instagram: Option<&'ld str>,
-    #[serde(rename = "VKontakte")]
-    vkontakte: Option<&'ld str>,
     #[serde(rename = "Color")]
     color: Option<&'ld str>,
-    #[serde(rename = "Flair")]
-    flair: Option<&'ld str>,
 }
 
 impl<'md, 'ld> LiftersRow<'md, 'ld> {
-    fn from(
-        entrydata: &'md EntryLifterData,
-        lifterdata: &'ld LifterData,
-    ) -> LiftersRow<'md, 'ld> {
+    fn from(entrydata: &'md EntryLifterData, lifterdata: &'ld LifterData) -> LiftersRow<'md, 'ld> {
         LiftersRow {
             id: entrydata.id,
             name: entrydata.name,
             cyrillicname: entrydata.cyrillicname,
+            chinesename: entrydata.chinesename,
             greekname: entrydata.greekname,
             japanesename: entrydata.japanesename,
             koreanname: entrydata.koreanname,
             username: entrydata.username,
             instagram: lifterdata.instagram.as_deref(),
-            vkontakte: lifterdata.vkontakte.as_deref(),
             color: lifterdata.color.as_deref(),
-            flair: lifterdata.flair.as_deref(),
         }
     }
 }
@@ -261,6 +249,7 @@ struct EntryLifterData<'md> {
     name: &'md str,
     username: &'md str, // Stored again for simplicity of iteration.
     cyrillicname: Option<&'md str>,
+    chinesename: Option<&'md str>,
     greekname: Option<&'md str>,
     japanesename: Option<&'md str>,
     koreanname: Option<&'md str>,
@@ -271,8 +260,9 @@ impl<'md> EntryLifterData<'md> {
         EntryLifterData {
             id: lifter_id,
             name: &entry.name,
-            username: &entry.username,
+            username: entry.username.as_str(),
             cyrillicname: entry.cyrillicname.as_deref(),
+            chinesename: entry.chinesename.as_deref(),
             greekname: entry.greekname.as_deref(),
             japanesename: entry.japanesename.as_deref(),
             koreanname: entry.koreanname.as_deref(),
@@ -287,6 +277,7 @@ impl<'md> EntryLifterData<'md> {
             name: "Sean Stangl",
             username: "seanstangl",
             cyrillicname: Some("Шон Стангл"),
+            chinesename: Some("肖恩·斯坦格尔"),
             greekname: Some("Σόν Στένγλ"),
             japanesename: Some("ショーン・スタングル"),
             koreanname: Some("숀 스탄글"),
@@ -295,7 +286,7 @@ impl<'md> EntryLifterData<'md> {
 }
 
 /// Map from Username to EntryLifterData.
-type EntryLifterDataMap<'md> = HashMap<&'md str, EntryLifterData<'md>>;
+type EntryLifterDataMap<'md> = FxHashMap<&'md str, EntryLifterData<'md>>;
 
 pub fn make_csv(
     meetdata: &AllMeetData,
@@ -306,31 +297,27 @@ pub fn make_csv(
     let mut entries_wtr = WriterBuilder::new()
         .quote_style(QuoteStyle::Never)
         .terminator(Terminator::Any(b'\n'))
-        .from_path(&buildpath.join("entries.csv"))?;
+        .from_path(buildpath.join("entries.csv"))?;
     let mut lifters_wtr = WriterBuilder::new()
         .quote_style(QuoteStyle::Never)
         .terminator(Terminator::Any(b'\n'))
-        .from_path(&buildpath.join("lifters.csv"))?;
+        .from_path(buildpath.join("lifters.csv"))?;
     let mut meets_wtr = WriterBuilder::new()
         .quote_style(QuoteStyle::Never)
         .terminator(Terminator::Any(b'\n'))
-        .from_path(&buildpath.join("meets.csv"))?;
+        .from_path(buildpath.join("meets.csv"))?;
 
     // For remembering consistent lifter information across multiple Entries.
-    let mut lifter_hash = EntryLifterDataMap::new();
+    let mut lifter_hash = EntryLifterDataMap::with_hasher(FxBuildHasher::default());
     lifter_hash.insert("seanstangl", EntryLifterData::seanstangl());
 
     // Data structures for assigning globally-unique IDs.
-    let mut next_meet_id: u32 = 0;
     let mut next_lifter_id: u32 = 1; // 0 is for "seanstangl", needed by server tests.
 
-    for SingleMeetData { meet, entries } in meetdata.get_meets() {
-        // Unique ID for this meet.
-        let meet_id = next_meet_id;
-        next_meet_id += 1;
-
+    for (meet_id, SingleMeetData { meet, entries }) in meetdata.meets().iter().enumerate() {
         // Write out the line for this meet.
-        meets_wtr.serialize(MeetsRow::from(&meet, meet_id))?;
+        let meet_id = meet_id as u32;
+        meets_wtr.serialize(MeetsRow::from(meet, meet_id))?;
 
         // Write a line for each entry.
         for entry in entries {
@@ -343,6 +330,9 @@ pub fn make_csv(
                     // has more information that could be attributed.
                     if data.cyrillicname.is_none() && entry.cyrillicname.is_some() {
                         data.cyrillicname = entry.cyrillicname.as_deref();
+                    }
+                    if data.chinesename.is_none() && entry.chinesename.is_some() {
+                        data.chinesename = entry.chinesename.as_deref();
                     }
                     if data.greekname.is_none() && entry.greekname.is_some() {
                         data.greekname = entry.greekname.as_deref();
@@ -358,14 +348,14 @@ pub fn make_csv(
                 None => {
                     let lifter_id = next_lifter_id;
                     next_lifter_id += 1;
-                    let data = EntryLifterData::from(&entry, lifter_id);
-                    lifter_hash.insert(&entry.username, data);
+                    let data = EntryLifterData::from(entry, lifter_id);
+                    lifter_hash.insert(entry.username.as_str(), data);
                     lifter_id
                 }
             };
 
             // Write out to entries.csv.
-            entries_wtr.serialize(EntriesRow::from(&entry, meet_id, lifter_id))?;
+            entries_wtr.serialize(EntriesRow::from(entry, meet_id, lifter_id))?;
         }
     }
 
@@ -375,8 +365,10 @@ pub fn make_csv(
 
     for lifter in lifters {
         let default = LifterData::default();
-        let data = lifterdata.get(lifter.username).unwrap_or(&default);
-        lifters_wtr.serialize(LiftersRow::from(&lifter, &data))?;
+        let data = lifterdata
+            .get(&Username::from_name(lifter.username).unwrap())
+            .unwrap_or(&default);
+        lifters_wtr.serialize(LiftersRow::from(lifter, data))?;
     }
 
     Ok(())

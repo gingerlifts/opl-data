@@ -2,7 +2,7 @@ Name,CyrillicName,Sex,Division,Age,WeightClassKg,BodyweightKg,Country,Squat1Kg,S
 Marianna Gasparyan,Марианна Гаспарян,F,Open,27,56,55.7,Kazakhstan,200,-220,-220,,200,100,110,-115,115,110,180,185,-190,,185,495,SBD,Wraps,1
 Yulia Shenkarenko,Юлія Шенкаренко,F,Open,29,67.5,66.7,Ukraine,190,200,-210,210,200,125,130,-132.5,,130,190,206,212.5,217.5,212.5,542.5,SBD,Wraps,1
 Galina Abramova,Галина Абрамова,F,Open,27,67.5,67.3,Russia,-195,195,-205,-205,195,90,100,-105,-105,100,210,230,240.5,250,240.5,535.5,SBD,Wraps,2
-Mariia Panferova,Мария Панферова,F,Open,39,75,75,Russia,-220,220,230,240,230,120,127.5,-135,135,127.5,170,182.5,192.5,205.5,192.5,550,SBD,Wraps,1
+Mariya Panferova,Мария Панферова,F,Open,39,75,75,Russia,-220,220,230,240,230,120,127.5,-135,135,127.5,170,182.5,192.5,205.5,192.5,550,SBD,Wraps,1
 Oksana Lomova,Оксана Ломова,F,Open,33,82.5,76.1,Russia,170,180,187.5,192.5,187.5,92.5,-97.5,-97.5,,92.5,170,180,-190,-190,180,460,SBD,Wraps,1
 Irina Yaroshenko,Ирина Ярошенко,F,Open,29,90+,104.2,Russia,222.5,232.5,242.5,,242.5,107.5,115,,,115,222.5,240,245,252.5,245,602.5,SBD,Wraps,1
 Oleksii Melnyk,Олексій Мельник,M,Open,26,90,88.7,Ukraine,320,-340,-340,-340,320,180,190,-195,195,190,290,305,-310,,305,815,SBD,Wraps,1
@@ -25,9 +25,9 @@ Vladislava Dluzhnevskaya,Владислава Длужневская,F,Open,16,6
 Rita Nagy,,F,Open,42,67.5,66.3,Hungary,,,,,,120,-130,130,-132.5,130,,,,,,130,B,Raw,1
 Yulia Shenkarenko,Юлія Шенкаренко,F,Open,29,67.5,66.7,Ukraine,,,,,,130,,,,130,,,,,,130,B,Raw,2
 Lina Zubritskaya,Лина Зубрицкая,F,Open,28,67.5,61.4,Moldova,,,,,,120,-125,,,120,,,,,,120,B,Raw,3
-Yulia Medvedeva,Юлия Медведева,F,Open,37,75,74.3,Russia,,,,,,150,-152.5,152.5,-155,152.5,,,,,,152.5,B,Raw,1
+Yuliya Medvedeva #1,Юлия Медведева,F,Open,37,75,74.3,Russia,,,,,,150,-152.5,152.5,-155,152.5,,,,,,152.5,B,Raw,1
 Aleksandra Antipova,Александра Антипова,F,Open,23,75,73.5,Russia,,,,,,130,135,-140,,135,,,,,,135,B,Raw,2
-Mariia Panferova,Мария Панферова,F,Open,39,75,75,Russia,,,,,,135,,,,135,,,,,,135,B,Raw,3
+Mariya Panferova,Мария Панферова,F,Open,39,75,75,Russia,,,,,,135,,,,135,,,,,,135,B,Raw,3
 Viktoriya Knysh,Виктория Кныш,F,Open,33,90,86.5,Russia,,,,,,-150,150,-155,,150,,,,,,150,B,Raw,1
 Irina Yaroshenko,Ирина Ярошенко,F,Open,29,90+,104.2,Russia,,,,,,115,,,,115,,,,,,115,B,Raw,1
 Roman Eremashvili,Роман Еремашвили,M,Open,35,75,70.7,Belarus,,,,,,215,225,-230,-230,225,,,,,,225,B,Raw,1
@@ -39,10 +39,10 @@ Ruslan Greev,Руслан Греев,M,Open,30,90,88,Kazakhstan,,,,,,-240,-240,,
 Oleg Perepechenov,Олег Перепеченов,M,Open,41,90,89.6,Russia,,,,,,-250,,,,,,,,,,,B,Raw,DQ
 Vadim Kakhuta,Вадим Кахута,M,Open,35,100,98.6,Russia,,,,,,260,271,,,271,,,,,,271,B,Raw,1
 Stanislav Schastnyy,Станислав Счастный,M,Open,23,110,108.5,Belarus,,,,,,245,255,262.5,-269,262.5,,,,,,262.5,B,Raw,1
-Ibragim Ilkhasan,Ибрагим Ильхасан,M,Open,27,110,109.5,Russia,,,,,,250,-260,260,-265,260,,,,,,260,B,Raw,2
+Ibragim Ilkhasan,Ібрагім Ільхасан,M,Open,27,110,109.5,Russia,,,,,,250,-260,260,-265,260,,,,,,260,B,Raw,2
 Dan Green,,M,Open,33,110,108.5,USA,,,,,,225,235,-245,-245,235,,,,,,235,B,Raw,3
 Andrzej Kocyła,,M,Open,40,110,101,Poland,,,,,,220,,,,220,,,,,,220,B,Raw,4
-Aleksey Solovyev,Алексей Соловьев,M,Open,41,110,104.9,Ukraine,,,,,,220,-230,-230,-235,220,,,,,,220,B,Raw,5
+Aleksey Solovyev #7,Алексей Соловьев,M,Open,41,110,104.9,Ukraine,,,,,,220,-230,-230,-235,220,,,,,,220,B,Raw,5
 Murad Alibegov,Мурад Алибегов,M,Open,39,125,124.2,Russia,,,,,,260,-287.5,,,260,,,,,,260,B,Raw,1
 László Mészáros,,M,Open,47,140,137.6,Hungary,,,,,,272.5,282.5,290,-300,290,,,,,,290,B,Raw,1
 Peteris Isājevs,,M,Open,32,140,139.9,Latvia,,,,,,270,282.5,290,-292.5,290,,,,,,290,B,Raw,2
@@ -59,7 +59,7 @@ Galina Abramova,Галина Абрамова,F,Open,27,67.5,67.3,Russia,,,,,,,,
 Yulia Shenkarenko,Юлія Шенкаренко,F,Open,29,67.5,66.7,Ukraine,,,,,,,,,,,217.5,,,,217.5,217.5,D,Raw,2
 Irina Petrovich,Ирина Петрович,F,Open,32,67.5,67.3,Belarus,,,,,,,,,,,180,202.5,-210,,202.5,202.5,D,Raw,3
 Victoria Ablaeva,Виктория Аблаева,F,Open,33,67.5,66,Russia,,,,,,,,,,,-190,190,200,-210,200,200,D,Raw,4
-Yulia Medvedeva,Юлия Медведева,F,Open,37,75,74.3,Russia,,,,,,,,,,,220,230,-237.5,-237.5,230,230,D,Raw,1
+Yuliya Medvedeva #1,Юлия Медведева,F,Open,37,75,74.3,Russia,,,,,,,,,,,220,230,-237.5,-237.5,230,230,D,Raw,1
 Viktoriya Knysh,Виктория Кныш,F,Open,33,90,86.5,Russia,,,,,,,,,,,200,215,-225,-225,215,215,D,Raw,1
 Irina Yaroshenko,Ирина Ярошенко,F,Open,29,90+,104.2,Russia,,,,,,,,,,,252.5,,,,252.5,252.5,D,Raw,1
 Stuart Jamieson,,M,Open,27,60,60,Scotland,,,,,,,,,,,265,-287.5,-287.5,,265,265,D,Raw,1
@@ -71,7 +71,7 @@ Stoyan Andreev,Стоян Андреев,M,Open,38,125,114.9,Bulgaria,,,,,,,,,,,
 Ivan Bodyagin,Иван Бодягин,M,Open,29,125,116.6,Russia,,,,,,,,,,,370,380,-390,-390,380,380,D,Raw,2
 Aleksey Moskvichyov,Алексей Москвичёв,M,Open,34,125,112.7,Russia,,,,,,,,,,,360,375,-390,-400,375,375,D,Raw,3
 Aleksey Vishnitskiy,Алексей Вишницкий,M,Open,35,125,111.2,Ukraine,,,,,,,,,,,-370,370,-400,,370,370,D,Raw,4
-Ivan Makarov,Иван Макаров,M,Open,25,140,130.1,Georgia,,,,,,,,,,,350,380,400,-405,400,400,D,Raw,1
+Ivan Makarov #3,Иван Макаров,M,Open,25,140,130.1,Georgia,,,,,,,,,,,350,380,400,-405,400,400,D,Raw,1
 Mikhail Shivlyakov,Михаил Шивляков,M,Open,36,140,138.8,Russia,,,,,,,,,,,395,-420,-420,-420,395,395,D,Raw,2
 Vladislav Krivokonev,Владислав Кривоконєв,M,Open,28,140,130.6,Ukraine,,,,,,,,,,,360,-380,-380,,360,360,D,Raw,3
 Ivan Tsigelnik,Иван Цигельник,M,Open,26,140+,143.8,Russia,,,,,,,,,,,380,400,-405,,400,400,D,Raw,1

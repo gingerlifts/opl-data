@@ -1,9 +1,9 @@
 Name,Age,WeightClassKg,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Tested,Division,Sex,Event,Place
 Erica DeLisi,37,67.5,60.6,85,67.5,102.5,255,Raw,Yes,F_SR_AAPF,F,SBD,1
 Kayla Heal,26,82.5,82.3,192.5,95,70,357.5,Wraps,Yes,F_OCR_AAPF,F,SBD,2
-Lisa Johnson,49,67.5,66.4,70,67.5,107.5,245,Raw,Yes,F_OR_AAPF,F,SBD,1
+Lisa Fahy,49,67.5,66.4,70,67.5,107.5,245,Raw,Yes,F_OR_AAPF,F,SBD,1
 Kristy Kinney,24,90,85.5,95,42.5,110,247.5,Raw,Yes,F_OR_AAPF,F,SBD,1
-Lisa Johnson,49,67.5,66.4,70,67.5,107.5,245,Raw,Yes,F_MR_2_AAPF,F,SBD,1
+Lisa Fahy,49,67.5,66.4,70,67.5,107.5,245,Raw,Yes,F_MR_2_AAPF,F,SBD,1
 Laura Hatzenbuhler,50,75,72.2,,47.5,102.5,150,Raw,Yes,F_MR_3_AAPF,F,BD,1
 Jenesis Fonder,18,60,58.4,95,62.5,117.5,275,Raw,Yes,F_TR_3_AAPF,F,SBD,1
 Barb Welp,45,75,74.9,95,57.5,120,272.5,Raw,Yes,F_MR_2_AAPF,F,SBD,1
@@ -48,8 +48,8 @@ Andrew Moreland,30,140,135.4,212.5,155,247.5,615,Raw,,M_OR_APF,M,SBD,1
 Blaise Frenzel,29,125,121.3,287.5,205,255,747.5,Multi-ply,,M_OEM_APF,M,SBD,2
 Eddie Lone Eagle,33,90,85.0,322.5,182.5,265,770,Multi-ply,Yes,M_OEM_AAPF,M,SBD,1
 Andrew Koenig,24,110,107.6,250,170,265,685,Wraps,,M_OCR_APF,M,SBD,1
-Christian Fite,33,90,89.4,305,137.5,280,722.5,Multi-ply,Yes,M_OEM_AAPF,M,SBD,2
-Eloy J Avalos,29,125,121.2,332.5,247.5,275,855,Multi-ply,,M_OEM_APF,M,SBD,1
+Christian Fite #1,33,90,89.4,305,137.5,280,722.5,Multi-ply,Yes,M_OEM_AAPF,M,SBD,2
+Eloy Avalos,29,125,121.2,332.5,247.5,275,855,Multi-ply,,M_OEM_APF,M,SBD,1
 Casey Saunders,23,110,109.8,275,167.5,287.5,730,Wraps,,M_JCR_APF,M,SBD,1
 Tom Fahy,51,110,108.1,310,215,295,820,Multi-ply,,M_MEM_3_APF,M,SBD,1
 Jose Quintana,33,140,133.6,295,190,315,800,Wraps,,M_OCR_APF,M,SBD,1

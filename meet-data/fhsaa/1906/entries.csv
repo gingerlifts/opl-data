@@ -49,7 +49,7 @@ WeightClassKg,Division,Name,Team,BodyweightKg,Best3BenchKg,TotalKg,Place,Event,E
 58.51,Class 1A,Austin Dainels,Lake Wales,58.15,97.52,97.52,8,B,Raw,M
 58.51,Class 1A,Isaac Henry,Suwannee,58.24,95.25,95.25,9,B,Raw,M
 58.51,Class 1A,Caleb Cooper,Lemon Bay,56.52,92.99,92.99,10,B,Raw,M
-58.51,Class 1A,Justin Clark,Zephyrhills,57.33,88.45,88.45,11,B,Raw,M
+58.51,Class 1A,Justin Clark #1,Zephyrhills,57.33,88.45,88.45,11,B,Raw,M
 58.51,Class 1A,Jacob Alejo,Taylor,58.33,102.06,102.06,12,B,Raw,M
 58.51,Class 1A,Alex Breviaro,Citrus,58.51,95.25,95.25,13,B,Raw,M
 58.51,Class 1A,Hunter Miner,South Sumter,58.51,88.45,88.45,14,B,Raw,M
@@ -88,13 +88,13 @@ WeightClassKg,Division,Name,Team,BodyweightKg,Best3BenchKg,TotalKg,Place,Event,E
 63.05,Class 1A,Ralando Grey,Ridgeview,61.96,108.86,108.86,7,B,Raw,M
 63.05,Class 1A,Myles Higby,Arnold,61.51,102.06,102.06,8,B,Raw,M
 63.05,Class 1A,David Brownlee,Bozeman,62.41,102.06,102.06,9,B,Raw,M
-63.05,Class 1A,Charlie Nichols,Graceville,61.05,97.52,97.52,10,B,Raw,M
+63.05,Class 1A,Charlie Nichols #2,Graceville,61.05,97.52,97.52,10,B,Raw,M
 63.05,Class 1A,Dylan Behrens,Suwannee,62.6,99.79,99.79,11,B,Raw,M
 63.05,Class 1A,Ulysses Freed,Keystone Heights,61.96,97.52,97.52,12,B,Raw,M
 63.05,Class 1A,Logan Drew,Citrus,62.32,99.79,99.79,13,B,Raw,M
 63.05,Class 1A,Cade Johns,Hilliard,62.6,95.25,95.25,14,B,Raw,M
 63.05,Class 1A,Alex Gross,Tavares,62.51,95.25,95.25,15,B,Raw,M
-63.05,Class 1A,Henry Johnson,Umatilla,62.96,102.06,,DQ,B,Raw,M
+63.05,Class 1A,Henry Johnson #2,Umatilla,62.96,102.06,,DQ,B,Raw,M
 63.05,Class 1A,Jesse Donohue,Keystone Heights,62.23,97.52,,DQ,B,Raw,M
 63.05,Class 1A,Travis Henry Jr,Lake Wales,62.6,92.99,,DQ,B,Raw,M
 63.05,Class 1A,Daveon Eason,North Marion,,,,NS,B,Raw,M
@@ -111,7 +111,7 @@ WeightClassKg,Division,Name,Team,BodyweightKg,Best3BenchKg,TotalKg,Place,Event,E
 63.05,Class 2A,Colton Weismore,St. Cloud,61.51,99.79,99.79,10,B,Raw,M
 63.05,Class 2A,Robert Wyatt,Winter Springs,62.78,113.4,113.4,11,B,Raw,M
 63.05,Class 2A,Joseph Governara,Bartram Trail,63.05,106.59,106.59,12,B,Raw,M
-63.05,Class 2A,Alex Hall,Sunlake,62.87,115.67,115.67,13,B,Raw,M
+63.05,Class 2A,Alex Hall #2,Sunlake,62.87,115.67,115.67,13,B,Raw,M
 63.05,Class 2A,Kevin Vannice,Tate,62.23,120.2,120.2,14,B,Raw,M
 63.05,Class 2A,Gabriel Davis,Fort Walton Beach,62.51,92.99,92.99,15,B,Raw,M
 63.05,Class 2A,Will Stephens,Fleming Island,63.05,92.99,92.99,16,B,Raw,M
@@ -204,7 +204,7 @@ WeightClassKg,Division,Name,Team,BodyweightKg,Best3BenchKg,TotalKg,Place,Event,E
 83.01,Class 1A,Logan Fulford,Citrus,81.83,133.81,133.81,3,B,Raw,M
 83.01,Class 1A,James Eddings,Jay,81.92,147.42,147.42,4,B,Raw,M
 83.01,Class 1A,Wesley Morris,Ridgeview,83.01,140.61,140.61,5,B,Raw,M
-83.01,Class 1A,Cade Johnson,Taylor County,82.37,124.74,124.74,6,B,Raw,M
+83.01,Class 1A,Cade Johnson #5,Taylor County,82.37,124.74,124.74,6,B,Raw,M
 83.01,Class 1A,Mason Manning,Fort White,81.01,151.95,151.95,7,B,Raw,M
 83.01,Class 1A,Andrew Todenhagen,Tavares,82.19,142.88,142.88,8,B,Raw,M
 83.01,Class 1A,Tim Maxwell,Eastside,82.46,147.42,147.42,9,B,Raw,M
@@ -236,7 +236,7 @@ WeightClassKg,Division,Name,Team,BodyweightKg,Best3BenchKg,TotalKg,Place,Event,E
 83.01,Class 2A,Azzie Ramirez,Fleming Island,77.47,131.54,131.54,15,B,Raw,M
 83.01,Class 2A,Joe Davis,South Lake,81.47,136.08,136.08,16,B,Raw,M
 83.01,Class 2A,Joe Slattery,Washington (Pensacola),80.65,113.4,113.4,17,B,Raw,M
-83.01,Class 2A,Hunter Smith,Auburndale,80.65,122.47,122.47,18,B,Raw,M
+83.01,Class 2A,Hunter Smith #13,Auburndale,80.65,122.47,122.47,18,B,Raw,M
 83.01,Class 2A,Tim Ascencio,Lakeland,82.83,136.08,,DQ,B,Raw,M
 83.01,Class 2A,Jalen Taylor,Jones,,,,NS,B,Raw,M
 90.26,Class 1A,David Araujo,Orange Park,88.18,156.49,156.49,1,B,Raw,M

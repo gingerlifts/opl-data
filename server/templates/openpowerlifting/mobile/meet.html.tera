@@ -10,7 +10,7 @@
 
 {% block includes %}
   <script type="text/javascript">
-    const PAGE_KIND = "meet";
+    const PAGE_KIND = "MEET";
     const path_if_by_ah = "{{urlprefix | safe}}{{path_if_by_ah | safe}}";
     const path_if_by_division = "{{urlprefix | safe}}{{path_if_by_division | safe}}";
     const path_if_by_dots = "{{urlprefix | safe}}{{path_if_by_dots | safe}}";
@@ -44,12 +44,13 @@
         <option value="by-nasa" {% if sortselection == "ByNASA" %}selected{% endif %}>{{strings.selectors.sort.by_nasa}}</option>
         <option value="by-reshel" {% if sortselection == "ByReshel" %}selected{% endif %}>{{strings.selectors.sort.by_reshel}}</option>
         <option value="by-schwartz-malone" {% if sortselection == "BySchwartzMalone" %}selected{% endif %}>{{strings.selectors.sort.by_schwartzmalone}}</option>
-        <option value="by-wilks2020" {% if sortselection == "ByWilks" %}selected{% endif %}>{{strings.selectors.sort.by_wilks2020}}</option>
+        <option value="by-wilks" {% if sortselection == "ByWilks" %}selected{% endif %}>{{strings.selectors.sort.by_wilks}}</option>
+        <option value="by-wilks2020" {% if sortselection == "ByWilks2020" %}selected{% endif %}>{{strings.selectors.sort.by_wilks2020}}</option>
       </optgroup>
     </select>
   </div>
   <div id="controls-edit-meet-button-container">
-    <button onclick="location.href='https://gitlab.com/openpowerlifting/opl-data/tree/master/meet-data/{{meet.path}}'" type="button">Edit Meet</button>
+    <button onclick="location.href='https://gitlab.com/openpowerlifting/opl-data/tree/main/meet-data/{{meet.path}}'" type="button">Edit Meet</button>
   </div>
 {% endblock controls %}
 
@@ -92,7 +93,7 @@
             <td>{{this.rank}}</td>
           {% endif %}
           <td class="meet-list-name">
-            <a class="{{this.lifter.color}}" href="{{urlprefix | safe}}u/{{this.lifter.username}}">{{this.localized_name}}</a>{% if this.lifter.instagram %}<a href="https://www.instagram.com/{{this.lifter.instagram}}" class="instagram" rel="noopener" target="_blank"><i class="iglogo"></i></a>{% endif %}{% if this.lifter.vkontakte %}<a href="https://vk.com/{{this.lifter.vkontakte}}" class="instagram" rel="noopener" target="_blank"><i class="vklogo"></i></a>{% endif %}
+            <a class="{{this.lifter.color}}" href="{{urlprefix | safe}}u/{{this.lifter.username}}">{{this.localized_name}}</a>{% if this.lifter.instagram %}<a href="https://www.instagram.com/{{this.lifter.instagram}}/" class="instagram" rel="noopener" target="_blank"><i class="iglogo"></i></a>{% endif %}
           </td>
           <td>{{this.total}}</td>
           <td>{{this.points}}</td>
@@ -103,9 +104,9 @@
           {% endif %}
           <td>{{this.weightclass}}</td>
           <td>{{this.bodyweight}}</td>
-          <td>{{this.squat}}</td>
-          <td>{{this.bench}}</td>
-          <td>{{this.deadlift}}</td>
+          <td class="squat">{{this.squat}}</td>
+          <td class="bench">{{this.bench}}</td>
+          <td class="deadlift">{{this.deadlift}}</td>
         </tr>
       {% endfor %}
       {% endfor %}

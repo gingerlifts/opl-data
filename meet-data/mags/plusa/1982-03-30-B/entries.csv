@@ -5,7 +5,7 @@ S. Bunn,48,Open,F,68.04,31.75,104.33,204.12,SBD,Single-ply,3
 Becky Sikkema,52,Open,F,113.4,49.9,129.27,292.57,SBD,Single-ply,1
 Jack Bunn,52,Open,M,97.52,49.9,133.81,281.23,SBD,Single-ply,2
 K. Gibbs,52,Open,F,77.11,31.75,81.65,190.51,SBD,Single-ply,3
-Francis Wilson,52,Open,M,24.95,95.25,61.24,181.44,SBD,Raw,4
+Francis Wilson #2,52,Open,M,24.95,95.25,61.24,181.44,SBD,Raw,4
 Tim Rieger,60,Open,M,108.86,122.47,149.69,381.02,SBD,Single-ply,1
 T. Lang,60,Open,M,122.47,77.11,147.42,347,SBD,Single-ply,2
 J. Grimes,60,Open,M,97.52,88.45,120.2,306.18,SBD,Single-ply,3
@@ -14,7 +14,7 @@ S. Bargo,60,Open,F,79.38,43.09,108.86,231.33,SBD,Single-ply,5
 Brent Hines,67.5,Open,M,188.24,136.08,231.33,555.65,SBD,Single-ply,1
 Tim Weikert,67.5,Open,M,170.1,108.86,192.78,471.74,SBD,Single-ply,2
 S. Diveney,67.5,Open,M,163.29,90.72,206.38,460.4,SBD,Single-ply,3
-J. Tryon,67.5,Open,M,149.69,120.2,185.97,455.86,SBD,Single-ply,4
+Jeffrey Tryon,67.5,Open,M,149.69,120.2,185.97,455.86,SBD,Single-ply,4
 Keith Maiden,67.5,Open,M,154.22,95.25,188.24,437.72,SBD,Single-ply,5
 T. Steffensen,67.5,Open,M,142.88,95.25,195.04,433.18,SBD,Single-ply,6
 J. Gadow,67.5,Open,M,151.95,102.06,176.9,430.91,SBD,Single-ply,7
@@ -22,8 +22,8 @@ D. Gibbs,67.5,Open,M,138.35,83.91,181.44,403.7,SBD,Single-ply,8
 R. Reinard,67.5,Open,M,131.54,77.11,183.71,392.36,SBD,Single-ply,9
 Roger Broeg,67.5,Open,M,113.4,90.72,172.37,376.48,SBD,Single-ply,10
 L. Levins Jr,67.5,Open,M,131.54,92.99,151.95,376.48,SBD,Single-ply,11
-C. Stein Jr,67.5,Open,M,108.86,95.25,167.83,371.95,SBD,Single-ply,12
-J. Clos,67.5,Open,M,204.12,156.49,,,SBD,Single-ply,DQ
+Chuck Stein,67.5,Open,M,108.86,95.25,167.83,371.95,SBD,Single-ply,12
+Jim Clos,67.5,Open,M,204.12,156.49,,,SBD,Single-ply,DQ
 C. Corshie,67.5,Open,M,127.01,99.79,131.54,358.34,SBD,Single-ply,13
 Doug Petersen,75,Open,M,249.48,136.08,251.74,637.3,SBD,Single-ply,1
 Wally Henry,75,Open,M,226.8,142.88,224.53,594.21,SBD,Single-ply,2
@@ -35,7 +35,7 @@ D. Tryon,75,Open,M,167.83,129.27,181.44,478.54,SBD,Single-ply,8
 K. Sieger,75,Open,M,181.44,122.47,206.38,510.29,SBD,Single-ply,7
 D. Meyer,75,Open,M,154.22,111.13,188.24,453.59,SBD,Single-ply,9
 Randy Majava,75,Open,M,138.35,142.88,163.29,444.52,SBD,Single-ply,10
-S. Fitchhorn,75,Open,M,149.69,95.25,190.51,435.45,SBD,Single-ply,11
+Sam Fitchhorn,75,Open,M,149.69,95.25,190.51,435.45,SBD,Single-ply,11
 T. Lyons,75,Open,M,149.69,83.91,174.63,408.23,SBD,Single-ply,12
 J. Stephans,82.5,Open,M,226.8,140.61,247.21,614.62,SBD,Single-ply,1
 N. Winston,82.5,Open,M,167.83,127.01,213.19,508.02,SBD,Single-ply,2
@@ -45,12 +45,12 @@ D. Haynes,82.5,Open,M,174.63,95.25,195.04,464.93,SBD,Single-ply,5
 C. Koepsel,82.5,Open,F,106.59,40.82,138.35,285.76,SBD,Single-ply,6
 Jim Thacker,90,Open,M,244.94,170.1,235.87,650.91,SBD,Single-ply,1
 Max Duvall,90,Open,M,201.85,131.54,238.14,571.53,SBD,Single-ply,2
-L. Soderberg,90,Open,M,181.44,147.42,215.46,544.31,SBD,Single-ply,3
+Lary Soderberg,90,Open,M,181.44,147.42,215.46,544.31,SBD,Single-ply,3
 J. Siemens,90,Open,M,136.08,136.08,192.78,464.93,SBD,Single-ply,4
 M. McCallum,90,Open,M,122.47,124.74,172.37,419.57,SBD,Single-ply,5
 C. Crider,100,Open,M,290.3,167.83,260.82,718.94,SBD,Single-ply,1
 K. Schneck,100,Open,M,276.69,151.95,267.62,696.27,SBD,Single-ply,2
-R. Pettengill,100,Open,M,147.42,163.29,192.78,503.49,SBD,Single-ply,3
+Ray Pettengill,100,Open,M,147.42,163.29,192.78,503.49,SBD,Single-ply,3
 T. Bargo,100,Open,M,181.44,90.72,192.78,464.93,SBD,Single-ply,4
 J. Argotsinger,110,Open,M,238.14,154.22,247.21,639.57,SBD,Single-ply,1
 Lance Stewart,110,Open,M,226.8,142.88,247.21,616.89,SBD,Single-ply,2

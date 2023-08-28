@@ -1,5 +1,5 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
-Boys,51.71,1,David Garcia,Pharr Valley View,51.53,181.44,99.79,195.04,476.27,Single-ply,SBD,M
+Boys,51.71,1,David Garcia #5,Pharr Valley View,51.53,181.44,99.79,195.04,476.27,Single-ply,SBD,M
 Boys,51.71,2,Tuti Garcia,Los Fresnos,50.62,174.63,95.25,185.97,455.86,Single-ply,SBD,M
 Boys,51.71,3,Rodney Barnes,Everman,51.17,181.44,95.25,163.29,439.98,Single-ply,SBD,M
 Boys,51.71,4,Randy Trevino,Gregory-Portland,50.44,170.1,86.18,181.44,437.72,Single-ply,SBD,M
@@ -23,7 +23,7 @@ Boys,55.79,4,Brandon Thomas,McKinney North,54.98,181.44,83.91,199.58,464.93,Sing
 Boys,55.79,5,Devon Harris,North Forney,55.16,170.1,108.86,185.97,464.93,Single-ply,SBD,M
 Boys,55.79,6,Eliazar Duenes,Edcouch-Elsa,54.43,145.15,108.86,195.04,449.06,Single-ply,SBD,M
 Boys,55.79,7,Isaac Castillo,Laredo Cigarroa,54.79,181.44,83.91,181.44,446.79,Single-ply,SBD,M
-Boys,55.79,8,Angel Flores,Weslaco East,55.07,170.1,86.18,190.51,446.79,Single-ply,SBD,M
+Boys,55.79,8,Angel Flores #2,Weslaco East,55.07,170.1,86.18,190.51,446.79,Single-ply,SBD,M
 Boys,59.87,9,Gerald Van Ess,McKinney North,55.97,181.44,99.79,165.56,446.79,Single-ply,SBD,M
 Boys,55.79,10,Jesse Ortiz,Sulphur Springs,54.16,172.37,92.99,172.37,437.72,Single-ply,SBD,M
 Boys,59.87,11,Josh Bedolla,Elgin,55.88,158.76,102.06,174.63,435.45,Single-ply,SBD,M
@@ -40,7 +40,7 @@ Boys,59.87,5,Grayson Brown,Conroe The Woodlands,59.6,215.46,104.33,188.24,508.02
 Boys,59.87,6,Michael Robason,Frisco Wakeland,59.24,213.19,102.06,190.51,505.76,Single-ply,SBD,M
 Boys,59.87,7,Juan Chapa,San Antonio Southside,58.15,190.51,124.74,172.37,487.61,Single-ply,SBD,M
 Boys,59.87,8,Victor Acosta,Pharr Valley View,59.87,188.24,115.67,181.44,485.34,Single-ply,SBD,M
-Boys,59.87,9,Luis Gamez,Sulphur Springs,58.97,181.44,108.86,183.7,474,Single-ply,SBD,M
+Boys,59.87,9,Luis Gamez #1,Sulphur Springs,58.97,181.44,108.86,183.7,474,Single-ply,SBD,M
 Boys,59.87,10,Issac Montemayor,Ennis,59.15,176.9,97.52,195.04,469.47,Single-ply,SBD,M
 Boys,59.87,11,Donovan Lee,Katy Mayde Creek,59.69,165.56,99.79,204.12,469.47,Single-ply,SBD,M
 Boys,59.87,12,Shang Bou,Fort Worth Paschal,57.79,174.63,92.99,197.31,464.93,Single-ply,SBD,M
@@ -95,7 +95,7 @@ Boys,82.1,6,Vernon Allen,Crosby,80.38,260.82,138.35,238.14,637.3,Single-ply,SBD,
 Boys,82.1,7,Sergio Zuniga,San Antonio Southside,80.65,260.82,145.15,224.53,630.49,Single-ply,SBD,M
 Boys,82.1,8,Travis Anderson,Crosby,81.37,249.48,145.15,233.6,628.23,Single-ply,SBD,M
 Boys,82.1,9,Rhil Dougherty,Dripping Springs,79.92,226.8,142.88,249.48,619.15,Single-ply,SBD,M
-Boys,82.1,10,Diego Garcia,Edcouch-Elsa,80.83,244.94,142.88,231.33,619.15,Single-ply,SBD,M
+Boys,82.1,10,Diego Garcia #9,Edcouch-Elsa,80.83,244.94,142.88,231.33,619.15,Single-ply,SBD,M
 Boys,82.1,11,Jacob Palmares,Buda Hays,80.65,226.8,127.01,258.55,612.35,Single-ply,SBD,M
 Boys,82.1,12,Clay Layman,Longview,79.65,244.94,117.93,244.94,607.81,Single-ply,SBD,M
 Boys,89.81,13,Cory Flanagan,Longview,82.28,226.8,120.2,247.21,594.21,Single-ply,SBD,M
@@ -132,7 +132,7 @@ Boys,99.79,10,Chase Wingo,Midlothian,94.98,260.82,167.83,260.82,689.46,Single-pl
 Boys,99.79,11,Dustin Hoeffler,New Caney Porter,96.71,272.16,161.03,256.28,689.46,Single-ply,SBD,M
 Boys,99.79,12,Marco Banda,Laredo Nixon,94.89,267.62,179.17,240.4,687.19,Single-ply,SBD,M
 Boys,99.79,13,Matthew Dickson,Corpus Christi Tuloso-Midway,95.07,263.08,158.76,263.08,684.92,Single-ply,SBD,M
-Boys,99.79,14,Jose Flores,Laredo Cigarroa,97.52,265.35,161.03,258.55,684.92,Single-ply,SBD,M
+Boys,99.79,14,Jose Flores #2,Laredo Cigarroa,97.52,265.35,161.03,258.55,684.92,Single-ply,SBD,M
 Boys,99.79,15,Jason Paul,Conroe Woodlands College Park,95.07,288.03,145.15,226.8,659.98,Single-ply,SBD,M
 Boys,99.79,16,Christian Hernandez,Everman,98.52,249.48,151.95,242.67,644.1,Single-ply,SBD,M
 Boys,109.77,17,Hosbaldo Ruiz,Cleburne,99.97,244.94,154.22,238.14,637.3,Single-ply,SBD,M
@@ -163,7 +163,7 @@ Boys,124.74,3,Michael Cadena,Bryan,123.2,335.66,208.65,281.23,825.54,Single-ply,
 Boys,124.74,4,Josue Garzoria,Los Fresnos,122.92,299.37,192.78,267.62,759.77,Single-ply,SBD,M
 Boys,124.74,5,Gabriel Rodriguez,Edcouch-Elsa,120.29,324.32,188.24,242.67,755.23,Single-ply,SBD,M
 Boys,124.74,6,Jesse Benevides Munoz,San Marcos,123.38,312.98,174.63,265.35,752.96,Single-ply,SBD,M
-Boys,124.74,7,Dominic Hill,Fort Worth Boswell,123.47,294.84,183.7,265.35,743.89,Single-ply,SBD,M
+Boys,124.74,7,Dominic Hill #2,Fort Worth Boswell,123.47,294.84,183.7,265.35,743.89,Single-ply,SBD,M
 Boys,124.74,8,Joe Gonzales,Justin Northwest,119.11,319.78,167.83,249.48,737.09,Single-ply,SBD,M
 Boys,124.74,9,Colton Hostetler,Burleson Centennial,118.21,278.96,179.17,272.16,730.28,Single-ply,SBD,M
 Boys,124.74,10,Josh Opiela,Crosby,121.83,312.98,165.56,249.48,728.02,Single-ply,SBD,M
@@ -177,7 +177,7 @@ Boys,124.74,17,Hayden Mahone,Ennis,115.58,281.23,136.08,231.33,648.64,Single-ply
 Boys,124.74,18,William Mitchell,Longview Pine Tree,116.03,272.16,170.1,199.58,641.83,Single-ply,SBD,M
 Boys,124.74+,1,Rudy Flores,Laredo United South,145.78,381.02,240.4,301.64,923.06,Single-ply,SBD,M
 Boys,124.74+,2,Davonte Moore,Temple,151.14,362.87,204.12,272.16,839.15,Single-ply,SBD,M
-Boys,124.74+,3,William Simpson,Houston Madison,149.32,362.87,217.72,249.48,830.07,Single-ply,SBD,M
+Boys,124.74+,3,William Simpson #1,Houston Madison,149.32,362.87,217.72,249.48,830.07,Single-ply,SBD,M
 Boys,124.74+,4,Jose Limon,Los Fresnos,156.49,362.87,172.37,272.16,807.39,Single-ply,SBD,M
 Boys,124.74+,5,Tyler Preson,Georgetown,129,317.51,195.04,278.96,791.52,Single-ply,SBD,M
 Boys,124.74+,6,Charest Inman,Castroville Medina Valley,152.23,294.84,204.12,274.42,773.37,Single-ply,SBD,M

@@ -1,0 +1,32 @@
+# Configuration for RawPower.
+
+[options]
+    require_manual_disambiguation = true
+
+[divisions]
+    open = {name="Open", min=0, max=999, equipment="Raw"}
+
+[weightclasses.default_M]
+    classes = ["80","95","110","110+"]
+    date_range = ["2004-01-01","9999-01-01"]
+    sex = "M"
+
+[weightclasses.early_M]
+    classes = ["82.5","105","105+"]
+    date_range = ["2002-01-01","2003-12-31"]
+    sex = "M"
+
+[exemptions]
+    0201 = ["ExemptWeightClassConsistency"] # No weightclasses
+    0301 = ["ExemptWeightClassConsistency"] # No women's weightclasses
+    0302 = ["ExemptWeightClassConsistency"] # No women's weightclasses
+    0304 = ["ExemptWeightClassConsistency"] # No women's weightclasses
+    0401 = ["ExemptWeightClassConsistency"] # No women's weightclasses
+    0402 = ["ExemptWeightClassConsistency"] # 82.5 & 105 classes
+    0403 = ["ExemptWeightClassConsistency"] # 82.5 & 105 classes
+    0501 = ["ExemptWeightClassConsistency"] # 125 Class
+    0502 = ["ExemptWeightClassConsistency"] # 125 Class
+    0503 = ["ExemptWeightClassConsistency"] # 125 Class
+    0504 = ["ExemptWeightClassConsistency"] # 125 Class
+    1001 = ["ExemptWeightClassConsistency"] # No women's weightclasses
+    1101 = ["ExemptWeightClassConsistency"] # No women's weightclasses

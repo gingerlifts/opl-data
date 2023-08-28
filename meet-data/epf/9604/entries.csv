@@ -7,7 +7,7 @@ Place,Name,BirthYear,WeightClassKg,BodyweightKg,Country,Squat1Kg,Squat2Kg,Squat3
 2,Beatrice Godard,1955,67.5,64.3,France,140,-150,155,155,-75,75,-77.5,75,150,-160,-160,150,380,F,Masters 1,SBD,Single-ply
 3,Natalia Kashirina,1954,67.5,59.2,Russia,-130,-135,135,135,77.5,82.5,-85.5,82.5,-160,160,-172.5,160,377.5,F,Masters 1,SBD,Single-ply
 4,Mieke Vivijs,1954,67.5,54.9,Belgium,130,140,-147.5,140,62.5,-67.5,67.5,67.5,150,157.5,-160,157.5,365,F,Masters 1,SBD,Single-ply
-5,Hanna Takacova,1954,67.5,59.2,Czechia,-135,135,145,145,75,77.5,-80,77.5,-140,140,-150,140,362.5,F,Masters 1,SBD,Single-ply
+5,Hana Takáčová,1954,67.5,59.2,Czechia,-135,135,145,145,75,77.5,-80,77.5,-140,140,-150,140,362.5,F,Masters 1,SBD,Single-ply
 6,Lucienne Vives,1955,67.5,54.8,France,120,127.5,-135,127.5,72.5,-77.5,-77.5,72.5,-145,145,150,150,350,F,Masters 1,SBD,Single-ply
 7,Anita Thimm,1950,67.5,55.2,Germany,105,115,122.5,122.5,-70,-70,70,70,145,155,-162.5,155,347.5,F,Masters 1,SBD,Single-ply
 8,Tatjana Fomina,1946,67.5,63.6,Russia,-135,135,145,145,-55,55,57.5,57.5,130,137.5,-140,137.5,340,F,Masters 1,SBD,Single-ply
@@ -25,7 +25,7 @@ DQ,Marina Serova,1951,67.5+,85,Russia,-130,-130,-130,,,,,,,,,,,F,Masters 1,SBD,S
 1,Franco Giummarra,1950,56,54.7,Italy,160,170,175,175,80,85,87.5,87.5,190,200,205,205,467.5,M,Masters 1,SBD,Single-ply
 2,Miroslav Stepan,1954,56,55.1,Slovenia,135,150,160,160,75,-85,85,85,175,190,-200,190,435,M,Masters 1,SBD,Single-ply
 3,Yuri Kaplia,1951,56,54.9,Russia,140,147.5,157.5,157.5,90,97.5,-100,97.5,142.5,155,-162.5,155,410,M,Masters 1,SBD,Single-ply
-4,Czeskas Kedziora,1951,56,55.6,Poland,120,125,-130,125,-102.5,-102.5,102.5,102.5,160,-172.5,-185,160,387.5,M,Masters 1,SBD,Single-ply
+4,Czeslaw Kedziora,1951,56,55.6,Poland,120,125,-130,125,-102.5,-102.5,102.5,102.5,160,-172.5,-185,160,387.5,M,Masters 1,SBD,Single-ply
 1,Anat Botchkovskiy,1954,60,58.9,Ukraine,180,190,-200,190,105,115,-120,115,230,240,250,250,555,M,Masters 1,SBD,Single-ply
 2,Paul Vernimmen,1955,60,58.5,Belgium,150,170,-177.5,170,90,-97.5,97.5,97.5,-192.5,192.5,195,195,462.5,M,Masters 1,SBD,Single-ply
 3,Burkhard Steffen,1950,60,59.9,Germany,170,-175,-175,170,-122.5,122.5,-125,122.5,165,170,-172.5,170,462.5,M,Masters 1,SBD,Single-ply
@@ -41,7 +41,7 @@ DQ,Mikha Chereppanov,1948,60,59.3,Russia,-130,-132.5,-132.5,,,,,,,,,,,M,Masters 
 7,Martin Heindl,1955,67.5,65.7,Austria,145,155,-162.5,155,100,105,-112.5,105,207.5,220,-230,220,480,M,Masters 1,SBD,Single-ply
 DQ,Istvan Kapas,1949,67.5,66.1,Hungary,-187.5,-187.5,-187.5,,,,,,,,,,,M,Masters 1,SBD,Single-ply
 1,Noriano Coppari,1951,75,74.6,Italy,210,220,-225,220,135,-140,140,140,230,240,247.5,247.5,607.5,M,Masters 1,SBD,Single-ply
-2,John Russel,1946,75,74.6,UK,215,-227.5,232.5,232.5,122.5,127.5,-132.5,127.5,220,235,245,245,605,M,Masters 1,SBD,Single-ply
+2,John Russell,1946,75,74.6,UK,215,-227.5,232.5,232.5,122.5,127.5,-132.5,127.5,220,235,245,245,605,M,Masters 1,SBD,Single-ply
 3,Wolfgang Köster,1950,75,74.1,Germany,175,180,185,185,130,135,-137.5,135,205,215,-220,215,535,M,Masters 1,SBD,Single-ply
 4,Friedric Kulhanek,1947,75,73.4,Austria,160,-175,-180,160,-150,-150,150,150,165,182.5,-190,182.5,492.5,M,Masters 1,SBD,Single-ply
 DQ,Mohammed Didanov,1950,75,72.9,Ukraine,,,,,,,,,,,,,,M,Masters 1,SBD,Single-ply
@@ -131,7 +131,7 @@ DQ,Louis Loncke,1940,82.5,81.8,Belgium,-232.5,-232.5,-232.5,,,,,,,,,,,M,Masters 
 5,Volodymyr Burlakov,1927,90,88.1,Ukraine,170,-180,-180,170,-130,-140,140,140,210,230,240,240,550,M,Masters 2,SBD,Single-ply
 6,Günther Schwarz,1941,90,88.6,Germany,-185,185,200,200,-135,135,-145,135,190,205,-210,205,540,M,Masters 2,SBD,Single-ply
 7,Wolfgang Kolditz,1940,90,87.3,Germany,140,-145,150,150,90,97.5,-105,97.5,150,160,-170,160,407.5,M,Masters 2,SBD,Single-ply
-1,Willi Müller,1939,100,99.5,Germany,,,,267.5,,,155,155,,,297.5,297.5,720,M,Masters 2,SBD,Single-ply
+1,Willi Müller #1,1939,100,99.5,Germany,,,,267.5,,,155,155,,,297.5,297.5,720,M,Masters 2,SBD,Single-ply
 2,Tomo Barkovic,1946,100,99.1,Sweden,,,,265,,,182.5,182.5,,,270,270,717.5,M,Masters 2,SBD,Single-ply
 3,Tony Baker,1942,100,95.4,UK,,,,235,,,175,175,,,240,240,650,M,Masters 2,SBD,Single-ply
 4,Viatches Tsyganok,1938,100,99,Ukraine,,,,240,,,155,155,,,240,240,635,M,Masters 2,SBD,Single-ply
@@ -146,7 +146,7 @@ DQ,Louis Loncke,1940,82.5,81.8,Belgium,-232.5,-232.5,-232.5,,,,,,,,,,,M,Masters 
 7,Wolfgang Zimmermann,1941,110,100.3,Czechia,190,210,222.5,222.5,130,137.5,-142.5,137.5,220,240,-250,240,600,M,Masters 2,SBD,Single-ply
 8,John Halfacre,1945,110,107.2,UK,205,220,-227.5,220,135,145,150,150,210,220,230,230,600,M,Masters 2,SBD,Single-ply
 9,Antonio Serna,1946,110,101.2,Spain,210,-220,220,220,120,130,-135,130,230,-240,-240,230,580,M,Masters 2,SBD,Single-ply
-1,Joszef Steer,1934,125,112.6,Hungary,-250,250,280,280,130,137.5,-142.5,137.5,250,-275,,250,667.5,M,Masters 2,SBD,Single-ply
+1,Jozsef Steer,1934,125,112.6,Hungary,-250,250,280,280,130,137.5,-142.5,137.5,250,-275,,250,667.5,M,Masters 2,SBD,Single-ply
 2,Peter Rumbler,1939,125,112,Germany,210,230,240,240,-170,-170,170,170,200,217.5,230,230,640,M,Masters 2,SBD,Single-ply
 3,Zdenek Srska,1935,125,112,Czechia,-210,210,225,225,150,-157.5,-157.5,150,-220,220,-230,220,595,M,Masters 2,SBD,Single-ply
 4,George Moran,1941,125,110.6,UK,210,-225,225,225,120,,,120,210,225,,225,570,M,Masters 2,SBD,Single-ply

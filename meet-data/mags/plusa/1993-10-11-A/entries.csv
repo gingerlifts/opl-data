@@ -2,7 +2,7 @@ Name,Age,WeightClassKg,Division,AgeRange,Sex,Best3DeadliftKg,TotalKg,Event,Equip
 Chris Jabon,,44,Teen 2,16-17,F,100,100,D,Single-ply,1
 Debbie Hastings,,44,Masters 1,40-44,F,87.5,87.5,D,Single-ply,1
 Melinda Stewart,,50.5,Teen 2,16-17,F,137.5,137.5,D,Single-ply,1
-Jamie Gordon,,50.5,Teen 2,16-17,F,92.5,92.5,D,Single-ply,2
+Jamie Gordon #1,,50.5,Teen 2,16-17,F,92.5,92.5,D,Single-ply,2
 Michelle Giampietro,,50.5,Open,,F,125,125,D,Single-ply,1
 Michelle Giampietro,,50.5,Lifetime,,F,125,125,D,Single-ply,1
 Abigail Stine,,50.5,Masters 1,40-44,F,130,130,D,Single-ply,1
@@ -69,7 +69,7 @@ L. Manganiello,,67.5,Open,,M,175,175,D,Single-ply,6
 Lloyd Weinstein,,67.5,Lifetime,,M,247.5,247.5,D,Single-ply,1
 Todd Franklin,,67.5,Lifetime,,M,217.5,217.5,D,Single-ply,2
 J. Greenslein,,67.5,Lifetime,,M,195,195,D,Single-ply,3
-Richard Vininski,,67.5,Lifetime,,M,195,195,D,Single-ply,4
+Rich Vininski,,67.5,Lifetime,,M,195,195,D,Single-ply,4
 L. Thompson,,67.5,Lifetime,,M,190,190,D,Single-ply,5
 L. Manganiello,,67.5,Lifetime,,M,175,175,D,Single-ply,6
 James DePew,,67.5,Special Olympics,,M,115,115,D,Single-ply,1
@@ -88,7 +88,7 @@ Jeff Jacobs,,67.5,Masters 2,45-49,M,230,230,D,Single-ply,1
 Italo Bonacci,,67.5,Masters 2,45-49,M,175,175,D,Single-ply,2
 Richard Vininiski,,67.5,Masters 3,50-54,M,195,195,D,Single-ply,1
 Vincent Lanza,,75,Open,,M,255,255,D,Single-ply,1
-Pasquala DiPaola,,75,Open,,M,227.5,227.5,D,Single-ply,2
+Pasquale DiPaola,,75,Open,,M,227.5,227.5,D,Single-ply,2
 Bob Legg,,75,Open,,M,182.5,182.5,D,Single-ply,3
 Brian Mabrey,,75,Open,,M,160,160,D,Single-ply,4
 Vincent Lanza,,75,Lifetime,,M,255,255,D,Single-ply,1
@@ -128,7 +128,7 @@ Douglas Lynch,,82.5,Open,,M,205,205,D,Single-ply,4
 Keith Mason,,82.5,Lifetime,,M,312.5,312.5,D,Single-ply,1
 Tom O'Brien,,82.5,Lifetime,,M,255,255,D,Single-ply,2
 Jack Kaplan,,82.5,Lifetime,,M,245,245,D,Single-ply,3
-Tony Moore,,82.5,Lifetime,,M,230,230,D,Single-ply,4
+Tony Moore #2,,82.5,Lifetime,,M,230,230,D,Single-ply,4
 Stephen Colson,,82.5,Lifetime,,M,220,220,D,Single-ply,5
 Mike Rachmiel,,82.5,Lifetime,,M,220,220,D,Single-ply,6
 J. Longenotti,,82.5,Lifetime,,M,207.5,207.5,D,Single-ply,7
@@ -140,7 +140,7 @@ Eric Strack,,82.5,Collegiate,,M,210,210,D,Single-ply,1
 Michael Marsala,,82.5,Collegiate,,M,192.5,192.5,D,Single-ply,2
 Nick Galotti,,82.5,Collegiate,,M,145,145,D,Single-ply,3
 William Manekas,,82.5,Teen 1,13-15,M,137.5,137.5,D,Single-ply,1
-W. Ethier,,82.5,Teen 1,13-15,M,137.5,137.5,D,Single-ply,2
+Bill Ethier,,82.5,Teen 1,13-15,M,137.5,137.5,D,Single-ply,2
 J. Hatziner,,82.5,Teen 1,13-15,M,112.5,112.5,D,Single-ply,3
 Robbie Goodman,,82.5,Teen 2,16-17,M,197.5,197.5,D,Single-ply,1
 T. Burns,,82.5,Teen 2,16-17,M,180,180,D,Single-ply,2
@@ -222,7 +222,7 @@ John Grabiec,,110,Lifetime,,M,250,250,D,Single-ply,2
 Robert Landman,,110,Lifetime,,M,230,230,D,Single-ply,3
 Pat Regan,,110,Police & Fire,,M,255,255,D,Single-ply,1
 Robert Gonzalez,,110,Armed Forces,,M,187.5,187.5,D,Single-ply,1
-S. Reddington,,110,Collegiate,,M,250,250,D,Single-ply,1
+Steve Reddington,,110,Collegiate,,M,250,250,D,Single-ply,1
 H. Holborn,,110,Submasters,35-39,M,262.5,262.5,D,Single-ply,1
 Kevin Barone,,110,Teen 2,16-17,M,215,215,D,Single-ply,1
 E. Rexford,,110,Teen 3,18-19,M,217.5,217.5,D,Single-ply,1
@@ -245,7 +245,7 @@ Terry Love,,125,Teen 3,18-19,M,202.5,202.5,D,Single-ply,2
 Bob Hamscher,,125,Submasters,35-39,M,285,285,D,Single-ply,1
 John Callahan,,125,Submasters,35-39,M,232.5,232.5,D,Single-ply,2
 Gregory Sodaro,,125,Submasters,35-39,M,222.5,222.5,D,Single-ply,3
-George Walker,,125,Masters 1,40-44,M,260,260,D,Single-ply,1
+George Walker,,125,Masters 2,45-49,M,260,260,D,Single-ply,1
 Frank Dias,,125,Masters 3,50-54,M,262.5,262.5,D,Single-ply,1
 Al Siegel,,125,Masters 4,55-59,M,250,250,D,Single-ply,1
 Aaron Lawrence,,125+,Open,,M,280,280,D,Single-ply,1

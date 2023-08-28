@@ -11,7 +11,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 1,M,Andrew Elkhouly,SBD,MR-T3,82.5,Raw,81.4,192.5,137.5,235,565,1995
 DQ,M,Jeffrey Eng,SBD,MR-Jr,67.5,Raw,65.1,,,,,1991
 1,M,Jake Roswell,SBD,MR-Jr,75,Raw,74,142.5,100,195,437.5,
-1,M,Alex Lau,SBD,MR-Jr,82.5,Raw,79.6,202.5,120,230,552.5,1992
+1,M,Alex Lau #1,SBD,MR-Jr,82.5,Raw,79.6,202.5,120,230,552.5,1992
 2,M,Salvatore Rinchiera,SBD,MR-Jr,82.5,Raw,80.6,150,95,202.5,447.5,1992
 3,M,Kyungchun Kim,SBD,MR-Jr,82.5,Raw,81,125,110,170,405,1993
 4,M,Justin Cree,SBD,MR-Jr,82.5,Raw,79.7,145,97.5,150,392.5,1990
@@ -34,7 +34,7 @@ DQ,M,Jeffrey Eng,SBD,MR-Jr,67.5,Raw,65.1,,,,,1991
 2,M,Levi Grosswald,SBD,MR-O,75,Raw,74.3,132.5,102.5,170,405,1982
 2,M,Matthew Ehlinger,BD,MR-O,75,Raw,72.8,,92.5,190,282.5,1980
 1,M,Maillard Howell,SBD,MR-O,82.5,Raw,79.9,170,140,215,525,1979
-3,M,David Love,SBD,MR-O,82.5,Raw,79.2,140,92.5,170,402.5,1985
+3,M,Dave Love,SBD,MR-O,82.5,Raw,79.2,140,92.5,170,402.5,1985
 4,M,Bucky Schwarz,SBD,MR-O,82.5,Raw,77,140,85,167.5,392.5,1983
 1,M,Thomas Tabano,SBD,MR-O,90,Raw,88.2,195,155,285,635,1986
 2,M,Todd Whelan,SBD,MR-O,90,Raw,89.8,182.5,147.5,215,545,1985
@@ -61,7 +61,7 @@ DQ,M,Jeffrey Eng,SBD,MR-Jr,67.5,Raw,65.1,,,,,1991
 2,M,Tom Shadood,SBD,MR-O,125,Raw,124.3,227.5,137.5,275,640,1983
 1,M,George Lee,SBD,MR-M1a,100,Raw,97.2,167.5,137.5,210,515,1973
 1,M,Curtis Hendricks,SBD,MR-M1a,125,Raw,112.6,185,130,230,545,1974
-1,M,John Dalessio,SBD,MR-M1b,82.5,Raw,82.1,205,150,222.5,577.5,1968
+1,M,John D'Alessio,SBD,MR-M1b,82.5,Raw,82.1,205,150,222.5,577.5,1968
 1,M,Michael Parrella,SBD,MR-M3a,82.5,Raw,75.8,120,67.5,150,337.5,
 1,F,Kathy Lin,SBD,FR-T3,67.5,Raw,63.4,95,45,110,250,1995
 1,F,Julia Dalosis,SBD,FR-Jr,52,Raw,52,85,45,92.5,222.5,1992

@@ -1,10 +1,10 @@
 Division,WeightClassKg,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Event,Equipment,Place
 F-Jr,44,Stefanie McMillian,125,57.5,140,322.5,F,SBD,Single-ply,1
 F-O,44,Stefanie McMillian,125,57.5,140,322.5,F,SBD,Single-ply,1
-F-O,44,Cathy Solan,125,50,127.5,302.5,F,SBD,Single-ply,2
+F-O,44,Catherine Solan,125,50,127.5,302.5,F,SBD,Single-ply,2
 F-O,44,Vanessa Talbott,90,55,117.5,262.5,F,SBD,Single-ply,3
 F-O,44,Zindy Coss,,,,,F,SBD,Single-ply,DQ
-F-M1a,44,Cathy Solan,125,50,127.5,302.5,F,SBD,Single-ply,1
+F-M1a,44,Catherine Solan,125,50,127.5,302.5,F,SBD,Single-ply,1
 F-M1b,44,Donna Aliminosa,85,40,100,225,F,SBD,Single-ply,1
 F-T1,48,Jennifer Maile,135,75,137.5,347.5,F,SBD,Single-ply,1
 F-T1,48,Josie Olivarez,75,32.5,97.5,205,F,SBD,Single-ply,2
@@ -18,7 +18,7 @@ F-O,48,Carmela Baqui,100,42.5,137.5,280,F,SBD,Single-ply,3
 F-O,48,Joanna Ocampo,85,60,125,270,F,SBD,Single-ply,4
 F-O,48,Cheng-Er Mehmedbasich,60,55,90,205,F,SBD,Single-ply,5
 F-M1a,48,Cheng-Er Mehmedbasich,60,55,90,205,F,SBD,Single-ply,1
-F-M2b,48,Judy Gedney,107.5,62.5,127.5,297.5,F,SBD,Single-ply,1
+F-M3a,48,Judy Gedney,107.5,62.5,127.5,297.5,F,SBD,Single-ply,1
 F-T1,52,Marissa Jimenez,92.5,50,92.5,235,F,SBD,Single-ply,1
 F-T3,52,Andrea Cullum,132.5,75,132.5,340,F,SBD,Single-ply,1
 F-T3,52,Mia Fanguy,85,55,95,235,F,SBD,Single-ply,2
@@ -66,13 +66,13 @@ F-T2,67.5,Gretchen Nosbisch,130,72.5,140,342.5,F,SBD,Single-ply,1
 F-T3,67.5,Teresa LeBlanc,122.5,42.5,127.5,292.5,F,SBD,Single-ply,1
 F-T3,67.5,Tiffany Williams,97.5,50,110,257.5,F,SBD,Single-ply,2
 F-T3,67.5,Becky Ashcraft,,,,,F,SBD,Single-ply,DQ
-F-Jr,67.5,Rebecca Roberts,162.5,77.5,170,410,F,SBD,Single-ply,1
-F-Jr,67.5,Kim Callier,137.5,62.5,150,350,F,SBD,Single-ply,2
+F-Jr,67.5,Rebecca Roberts #3,162.5,77.5,170,410,F,SBD,Single-ply,1
+F-Jr,67.5,Kim Callier-Hooper,137.5,62.5,150,350,F,SBD,Single-ply,2
 F-Jr,67.5,Tiffany George,102.5,55,120,277.5,F,SBD,Single-ply,3
 F-O,67.5,Donna Covington,157.5,82.5,180,420,F,SBD,Single-ply,1
 F-O,67.5,Rhonda Clark,140,70,202.5,412.5,F,SBD,Single-ply,2
 F-O,67.5,Kim Beckwith,142.5,95,172.5,410,F,SBD,Single-ply,3
-F-O,67.5,Rebecca Roberts,162.5,77.5,170,410,F,SBD,Single-ply,4
+F-O,67.5,Rebecca Roberts #3,162.5,77.5,170,410,F,SBD,Single-ply,4
 F-O,67.5,Kathy Miller,125,77.5,152.5,355,F,SBD,Single-ply,5
 F-O,67.5,Gretchen Nosbisch,130,72.5,140,342.5,F,SBD,Single-ply,6
 F-M1a,67.5,Donna Covington,157.5,82.5,180,420,F,SBD,Single-ply,1
@@ -108,7 +108,7 @@ F-Jr,90,Ashante Trufant,142.5,70,142.5,355,F,SBD,Single-ply,1
 F-O,90,Harriet Hall,170,120,190,480,F,SBD,Single-ply,1
 F-O,90,Geneva Williams,175,97.5,190,462.5,F,SBD,Single-ply,2
 F-O,90,Liane Blyn,167.5,107.5,172.5,447.5,F,SBD,Single-ply,3
-F-O,90,Linda Schaefer,130,75,195,400,F,SBD,Single-ply,4
+F-O,90,Linda Schaefer-Hanley,130,75,195,400,F,SBD,Single-ply,4
 F-M1a,90,Paulette Calhoun,125,102.5,142.5,370,F,SBD,Single-ply,1
 F-M2a,90,Harriet Hall,170,120,190,480,F,SBD,Single-ply,1
 F-T2,90+,Sarah Greenup,205,90,192.5,487.5,F,SBD,Single-ply,1

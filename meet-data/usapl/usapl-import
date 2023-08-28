@@ -106,12 +106,22 @@ states = {
 
     'Nationals': '',  # No information provided.
     'Regionals': '',  # No information provided.
+
 }
+
+countries = [
+    'Australia',
+    'South Korea',
+    'Hong Kong',
+    'China'
+]
 
 
 # Returns a (division, equipment) tuple of strings.
 def parsedivision(div):
-    if 'Raw' in div or div.startswith('R-') or 'MR-' in div or 'FR-' in div:
+    if 'Wraps' in div:
+        eq = 'Wraps'  # As of 2021, USAPL has Wraps!
+    elif 'Raw' in div or div.startswith('R-') or 'MR-' in div or 'FR-' in div:
         eq = 'Raw'
     else:
         eq = 'Single-ply'
@@ -120,9 +130,11 @@ def parsedivision(div):
     # Sometimes the divisions are just "M1", when they really mean
     # "both M1a and M1b", and it's impossible to distinguish the two.
     s = div
+    s = s.replace('Raw with Wraps ', 'W-')  # As in "Raw with Wraps Junior"
     s = s.replace('Raw ', 'R-')  # As in "Raw Master 1a"
     s = s.replace('Teen and Junior', 'TJ')
-    s = s.replace('Master', 'M')  # As in "Master 1a"
+    s = s.replace('Master ', 'M')  # As in "Master 1a"
+    s = s.replace('Master', 'M')  # As in "Master1a"
     s = s.replace('Teen', 'T')  # As in "Teen 1"
     s = s.replace('High School', 'HS')
     s = s.replace('Collegiate', 'C')
@@ -134,18 +146,19 @@ def parsedivision(div):
     s = s.replace('Police and Fire', 'PF')
     s = s.replace('Military Open', 'MO')
     s = s.replace('Military', 'ML')
-    s = s.replace(' ', '')
     s = s.replace('Female-', 'F-')
+    s = s.replace('Female - ', 'F-')
     s = s.replace('Male-', 'M-')
+    s = s.replace('Male - ', 'M-')
     s = s.replace('GuestLifter', 'G')
     s = s.replace('Varsity', 'V')
 
     # Fix Some common mistakes that crop up.
     s = s.replace('SJr', 'SJ')
     s = s.replace('-R', 'R')
+    s = s.replace('-W', 'W')
+    s = s.replace(' ', '')
 
-    if len(s) > 6:
-        error("Not sure how to parse division: '%s'. Got '%s'." % (div, s))
     return (s, eq)
 
 
@@ -210,7 +223,7 @@ def makeentriescsv(soup):
                 elif 'Male' in s:
                     state_sex = 'M'
 
-        elif k == 21:
+        elif k == 22:
             # This is a results row.
             assert state_event is not None
             assert state_division is not None
@@ -443,13 +456,20 @@ def makemeetcsv(soup):
     date = k[2] + '-' + k[0] + '-' + k[1]
 
     # State is given in long form.
+    # For meets outside the United States, the state field shows the country.
     state = ''
+    country = ''
     trs = table.find_all('tr')
     if len(trs) >= 3:
         state = table.find_all('tr')[2].find('td').text.strip()
-        if state not in states:
+        if state in countries:
+            country = state
+            state = ''
+        elif state in states:
+            country = 'USA'
+            state = states[state]
+        else:
             error("State not in the abbreviation lookup table: %s" % state)
-        state = states[state]
 
     csv = Csv()
     csv.append_column('Federation')
@@ -459,7 +479,7 @@ def makemeetcsv(soup):
     csv.append_column('MeetTown')
     csv.append_column('MeetName')
 
-    row = ['USAPL', date, 'USA', state, '', meetname]
+    row = ['USAPL', date, country, state, '', meetname]
     csv.rows.append(row)
     return csv
 
@@ -484,7 +504,7 @@ def getdirname(soup):
 def main(url, importdir):
     html = gethtml(url)
 
-    soup = BeautifulSoup(html, 'html.parser')
+    soup = BeautifulSoup(html, 'lxml')
 
     entriescsv = makeentriescsv(soup)
     removeemptycolumns(entriescsv)
@@ -516,11 +536,12 @@ def main(url, importdir):
         else:
             error("Directory '%s' already exists." % dirname)
 
-    with open(dirname + os.sep + 'entries.csv', 'w') as fd:
+    with open(dirname + os.sep + 'entries.csv', 'w', newline='\n',
+              encoding='utf-8') as fd:
         entriescsv.write(fd)
-    with open(dirname + os.sep + 'meet.csv', 'w') as fd:
+    with open(dirname + os.sep + 'meet.csv', 'w', newline='\n') as fd:
         meetcsv.write(fd)
-    with open(dirname + os.sep + 'URL', 'w') as fd:
+    with open(dirname + os.sep + 'URL', 'w', newline='\n') as fd:
         fd.write(url + "\n")
 
     print("Imported into %s." % dirname)

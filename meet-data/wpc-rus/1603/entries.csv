@@ -19,7 +19,7 @@ DQ,Nadezhda Ponomareva,56,F,Yes,Raw,SBD,1987-02-07,Amateur Open,56,-115,-115,-11
 2,Mariya Eliseeva,60,F,Yes,Raw,SBD,1994-06-05,Amateur Juniors 20-23,59.4,80,-90,-90,,80,40,45,-50,,45,90,100,-110,,100,225
 1,Elizaveta Shinkareva,60,F,Yes,Raw,SBD,1998-06-24,Amateur Open,60,100,107.5,112.5,,112.5,70,75,-77.5,,75,115,122.5,127.5,,127.5,315
 2,Evgeniya Yarema,60,F,Yes,Raw,SBD,1990-11-23,Amateur Open,57.8,-100,-105,105,,105,50,52.5,-55,,52.5,100,115,120,,120,277.5
-3,Natalya Kolesnikova,60,F,Yes,Raw,SBD,1982-03-18,Amateur Open,59.6,87.5,-95,95,,95,47.5,-52.5,-52.5,,47.5,105,110,-115,,110,252.5
+3,Natalya Kolesnikova #2,60,F,Yes,Raw,SBD,1982-03-18,Amateur Open,59.6,87.5,-95,95,,95,47.5,-52.5,-52.5,,47.5,105,110,-115,,110,252.5
 1,Mariya Zhuravleva,67.5,F,Yes,Raw,SBD,1993-09-01,Amateur Juniors 20-23,65.2,110,-120,-120,,110,65,70,-75,,70,110,125,-152.5,,125,305
 1,Zarina Pazylova,67.5,F,Yes,Raw,SBD,1990-12-09,Amateur Open,67,100,115,120,,120,45,57.5,-60,,57.5,-110,120,135,,135,312.5
 2,Oksana Chudnaya,67.5,F,Yes,Raw,SBD,1977-05-30,Amateur Open,67,110,-115,-115,,110,60,65,-67.5,,65,-120,-120,125,,125,300
@@ -82,7 +82,7 @@ DQ,Evgeniy Kotukhov,90,M,Yes,Single-ply,SBD,1989-09-24,Amateur Open,88.8,-240,24
 1,Vladimir Khorev,75,M,No,Raw,SBD,1991-04-18,Pro Open,74.6,155,165,-172.5,,165,115,-120,120,,120,170,180,-190,,180,465
 1,Ramil Samigullin,75,M,No,Raw,SBD,1961-02-24,Pro Masters 55-59,72.6,-160,160,-165,,160,100,105,110,,110,165,-170,-170,,165,435
 1,Maksim Shvarts,82.5,M,No,Raw,SBD,1989-11-29,Pro Open,79.8,210,220,230,,230,140,150,152.5,,152.5,250,265,272.5,,272.5,655
-2,Denis Makeev,82.5,M,No,Raw,SBD,1986-04-12,Pro Open,82.4,210,215,-220,,215,160,170,175,,175,220,235,-250,,235,625
+2,Denis Makeev #2,82.5,M,No,Raw,SBD,1986-04-12,Pro Open,82.4,210,215,-220,,215,160,170,175,,175,220,235,-250,,235,625
 3,Aleksey Kolesnikov,82.5,M,No,Raw,SBD,1986-08-29,Pro Open,82.2,200,210,215,,215,140,150,-155,,150,235,245,250,,250,615
 4,Vyacheslav Dobchinskiy,82.5,M,No,Raw,SBD,1988-03-10,Pro Open,81.5,200,210,220,,220,145,-150,-150,,145,225,-232.5,-232.5,,225,590
 5,Aleksandr Kostrubov,82.5,M,No,Raw,SBD,1987-06-07,Pro Open,82.3,-170,-170,170,,170,-120,-120,120,,120,170,185,195,,195,485
@@ -231,11 +231,11 @@ DQ,Andrey Lakisov,100,M,Yes,Raw,B,1971-09-23,Amateur Masters 40-44,95.7,,,,,,-14
 1,Rodion Kornev,100,M,Yes,Raw,B,1955-04-03,Amateur Masters 60-64,92,,,,,,-105,105,-110,,105,,,,,,105
 1,Vitaliy Bibikov,110,M,Yes,Raw,B,1985-02-05,Amateur Open,106.3,,,,,,205,215,225,-233,225,,,,,,225
 1,Aleksandr Gryaznov,110,M,Yes,Raw,B,1975-06-08,Amateur Masters 40-44,104.2,,,,,,145,152.5,157.5,,157.5,,,,,,157.5
-2,Sergey Tarasov,110,M,Yes,Raw,B,1974-06-04,Amateur Masters 40-44,107.4,,,,,,140,150,-155,,150,,,,,,150
+2,Sergey Tarasov #10,110,M,Yes,Raw,B,1974-06-04,Amateur Masters 40-44,107.4,,,,,,140,150,-155,,150,,,,,,150
 3,Georgiy Dyachenko,110,M,Yes,Raw,B,1971-08-08,Amateur Masters 40-44,108.5,,,,,,120,130,140,,140,,,,,,140
 4,Nikolay Mazepa,110,M,Yes,Raw,B,1974-12-08,Amateur Masters 40-44,108,,,,,,-127.5,127.5,135,,135,,,,,,135
 1,Eduard Sapozhnikov,110,M,Yes,Raw,B,1967-11-22,Amateur Masters 45-49,109.3,,,,,,175,180,-187.5,,180,,,,,,180
-2,Igor Andreev,110,M,Yes,Raw,B,1971-04-26,Amateur Masters 45-49,100.8,,,,,,120,140,150,,150,,,,,,150
+2,Igor Andreev #1,110,M,Yes,Raw,B,1971-04-26,Amateur Masters 45-49,100.8,,,,,,120,140,150,,150,,,,,,150
 1,Igor Karapuzov,110,M,Yes,Raw,B,1962-07-29,Amateur Masters 50-54,103.1,,,,,,155,162.5,167.5,,167.5,,,,,,167.5
 2,Andrey Mazepa,110,M,Yes,Raw,B,1964-04-09,Amateur Masters 50-54,106.8,,,,,,100,105,-110,,105,,,,,,105
 1,Evgeniy Rusakov,110,M,Yes,Raw,B,1959-10-14,Amateur Masters 55-59,110,,,,,,-137.5,137.5,-147.5,,137.5,,,,,,137.5

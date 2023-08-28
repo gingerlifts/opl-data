@@ -19,7 +19,7 @@ Place,Name,BirthDate,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3Benc
 7,Kelsie Davis,,FL,56,54.6,25,90,55,112.5,257.5,F,Open,Raw,SBD
 1,Brigette Zacharczenko,,CT,60,58.4,30,142.5,80,192.5,415,F,Open,Raw,SBD
 2,Lily Burkhead,,FL,60,57.9,18,135,62.5,155,352.5,F,Open,Raw,SBD
-3,Samantha Lombardo,,CT,60,59.9,31,117.5,67.5,152.5,337.5,F,Open,Raw,SBD
+3,Samantha Reyes #1,,CT,60,59.9,31,117.5,67.5,152.5,337.5,F,Open,Raw,SBD
 4,Alexandra Konstantinou,,FL,60,58.3,25,122.5,60,130,312.5,F,Open,Raw,SBD
 5,Ashley Oberting,,FL,60,59.9,29,95,52.5,122.5,270,F,Open,Raw,SBD
 1,Ashley Robel,,FL,67.5,66.1,31,150,97.5,175,422.5,F,Open,Raw,SBD
@@ -30,16 +30,16 @@ Place,Name,BirthDate,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3Benc
 6,Vanessa Fernandez,,FL,67.5,66.1,35,130,60,137.5,327.5,F,Open,Raw,SBD
 7,Avina Duong,,FL,67.5,67.2,25,125,57.5,130,312.5,F,Open,Raw,SBD
 8,Thandazani Ndhlovu,,FL,67.5,66.9,30,97.5,57.5,140,295,F,Open,Raw,SBD
-9,Victoria Miller,,FL,67.5,63.9,27,92.5,55,117.5,265,F,Open,Raw,SBD
+9,Victoria Miller #1,,FL,67.5,63.9,27,92.5,55,117.5,265,F,Open,Raw,SBD
 DQ,Whitney Baxley,,FL,67.5,66.8,30,157.5,,227.5,,F,Open,Raw,SBD
-1,Alexis Sicherman,,FL,75,71.2,26,162.5,90,182.5,435,F,Open,Raw,SBD
+1,Alexis Wells,,FL,75,71.2,26,162.5,90,182.5,435,F,Open,Raw,SBD
 2,Andrea King,,FL,75,72,33,167.5,72.5,185,425,F,Open,Raw,SBD
-3,Chentee Tyler,,FL,75,68.3,30,147.5,77.5,190,415,F,Open,Raw,SBD
+3,Chentee' Tyler,,FL,75,68.3,30,147.5,77.5,190,415,F,Open,Raw,SBD
 4,Leah Becker,,FL,75,70.8,27,142.5,82.5,187.5,412.5,F,Open,Raw,SBD
 5,Megan Vaughn,,FL,75,72.8,25,157.5,75,167.5,400,F,Open,Raw,SBD
 6,Samantha Norman,,FL,75,72,25,135,75,172.5,382.5,F,Open,Raw,SBD
 7,Melissa Baranowski,,FL,75,68.2,32,137.5,80,162.5,380,F,Open,Raw,SBD
-8,Sarah Smith,,FL,75,73.2,26,140,87.5,150,377.5,F,Open,Raw,SBD
+8,Sarah Smith #4,,FL,75,73.2,26,140,87.5,150,377.5,F,Open,Raw,SBD
 9,Emilce Ogando,,FL,75,69.5,27,95,57.5,125,277.5,F,Open,Raw,SBD
 10,Samantha Kempink,,FL,75,75,27,92.5,55,125,272.5,F,Open,Raw,SBD
 11,Christina Callahan,,FL,75,72.1,41,72.5,37.5,90,200,F,Open,Raw,SBD
@@ -146,17 +146,17 @@ DQ,Richard Arroyo,,FL,75,74.3,29,,,,,M,Open,Raw,SBD
 15,Chidozie Acey,,FL,90,84.2,31,155,115,195,465,M,Open,Raw,SBD
 16,Logan Peterson,,FL,90,90,24,135,112.5,180,427.5,M,Open,Raw,SBD
 17,Patrick Ehas,,FL,90,85.2,31,150,90,170,410,M,Open,Raw,SBD
-1,Corey Clark,,FL,100,98.6,31,287.5,222.5,307.5,817.5,M,Open,Raw,SBD
+1,Corey Clark #1,,FL,100,98.6,31,287.5,222.5,307.5,817.5,M,Open,Raw,SBD
 2,Kylle Edwards,,FL,100,99.5,21,272.5,182.5,287.5,742.5,M,Open,Raw,SBD
 3,Josh Resnik,,FL,100,97.5,36,255,175,275,705,M,Open,Raw,SBD
 4,Phil Daru,,FL,100,98.2,30,267.5,172.5,252.5,692.5,M,Open,Raw,SBD
 5,Kyle Dawkins,,FL,100,95.5,27,232.5,167.5,255,655,M,Open,Raw,SBD
-6,Tyler Courtney,,FL,100,96,29,230,170,250,650,M,Open,Raw,SBD
+6,Tyler Courtney #1,,FL,100,96,29,230,170,250,650,M,Open,Raw,SBD
 7,Andrew Penick,,FL,100,99.2,28,227.5,172.5,237.5,637.5,M,Open,Raw,SBD
 8,Kenny Wayne Jenkins,,FL,100,99.9,22,225,192.5,217.5,635,M,Open,Raw,SBD
 9,Mathew Truman,,FL,100,98.8,31,220,140,245,605,M,Open,Raw,SBD
 10,Doug Daugherty,,FL,100,98.7,28,195,135,227.5,557.5,M,Open,Raw,SBD
-DQ,Ben Williams,,FL,100,97.7,27,212.5,182.5,,,M,Open,Raw,SBD
+DQ,Ben Williams #2,,FL,100,97.7,27,212.5,182.5,,,M,Open,Raw,SBD
 1,Dillon Anderson #1,,CT,110,108.7,26,307.5,195,322.5,825,M,Open,Raw,SBD
 2,Jordan Faria,,FL,110,106.8,24,295,215,292.5,802.5,M,Open,Raw,SBD
 3,Paul Milano,,CT,110,109.1,28,277.5,197.5,287.5,762.5,M,Open,Raw,SBD
@@ -197,14 +197,14 @@ DQ,Carlos Reyes #1,,CT,110,107.4,26,347.5,225,,,M,Open,Raw,SBD
 DQ,Blanca Villoch,,FL,67.5,65.5,35,,110,220,,F,Open,Wraps,SBD
 1,Giselle Mejia,,FL,75,75,34,182.5,93,205,480.5,F,Open,Wraps,SBD
 2,Alyssa Allbritten,,FL,75,69.9,29,117.5,57.5,147.5,322.5,F,Open,Wraps,SBD
-3,Sara Smith,,FL,75,70,36,120,50,150,320,F,Open,Wraps,SBD
+3,Sara Smith #1,,FL,75,70,36,120,50,150,320,F,Open,Wraps,SBD
 1,Lindsey Burke,,FL,90,88.5,31,137.5,87.5,160,385,F,Open,Wraps,SBD
 1,Krystal Schankowitz,,FL,67.5,60.5,35,137.5,65,140,342.5,F,Submasters 35-39,Wraps,SBD
 DQ,Blanca Villoch,,FL,67.5,65.5,35,,110,220,,F,Submasters 35-39,Wraps,SBD
-1,Sara Smith,,FL,75,70,36,120,50,150,320,F,Submasters 35-39,Wraps,SBD
+1,Sara Smith #1,,FL,75,70,36,120,50,150,320,F,Submasters 35-39,Wraps,SBD
 2,Sanchesca Brown,,FL,75,72.7,35,115,50,145,310,F,Submasters 35-39,Wraps,SBD
 1,Jenn Rotsinger,,FL,52,51.3,40,190,100.5,202.5,493,F,Masters 40-44,Wraps,SBD
-1,Felecia Almy,,FL,75,73.1,60,77.5,52.5,112.5,242.5,F,Masters 60-64,Wraps,SBD
+1,Felicia Johnson-Almy,,FL,75,73.1,60,77.5,52.5,112.5,242.5,F,Masters 60-64,Wraps,SBD
 1,Dhruv Patel,,FL,82.5,81.6,20,195,100,215,510,M,Juniors 20-23,Wraps,SBD
 1,Shelby Lickliter,,FL,90,87,23,247.5,125,235,607.5,M,Juniors 20-23,Wraps,SBD
 1,Neil Ypil,,IL,75,71.5,25,207.5,130,215,552.5,M,Open,Wraps,SBD
@@ -220,7 +220,7 @@ DQ,Channing Doyle,,FL,90,89.3,31,275,,,,M,Open,Wraps,SBD
 1,Andrew Shahbazian,,FL,100,98.6,28,285,150,312.5,747.5,M,Open,Wraps,SBD
 2,Matt Levine,,FL,100,99,31,265,160,260,685,M,Open,Wraps,SBD
 3,Chris Beyers,,FL,100,95.3,24,212.5,142.5,232.5,587.5,M,Open,Wraps,SBD
-DQ,James Fowler,,FL,100,93.3,28,,192.5,290,,M,Open,Wraps,SBD
+DQ,James Fowler #1,,FL,100,93.3,28,,192.5,290,,M,Open,Wraps,SBD
 DQ,Derek Harshman,,FL,100,98.6,32,,175,272.5,,M,Open,Wraps,SBD
 1,Jordan Wong,,FL,110,110,27,347.5,215,320,882.5,M,Open,Wraps,SBD
 2,Leo Smith,,FL,110,108,30,300,207.5,305,812.5,M,Open,Wraps,SBD

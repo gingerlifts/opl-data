@@ -7,7 +7,7 @@ Jacco Daniel,1,Open,83,1983,Nauru,82,155,160,165,165,165,B,Raw,M
 Matt Gordon,2,Open,83,1990,New Zealand,81,150,157.5,-160,157.5,157.5,B,Raw,M
 Simon Bergner,3,Open,83,1987,Australia,82.7,135,142.5,147.5,147.5,147.5,B,Raw,M
 Cam Billing,4,Open,83,1982,New Zealand,83,-100,100,-110,100,100,B,Raw,M
-Jesse Roland,1,Open,93,1991,Nauru,92.3,180,190,198,198,198,B,Raw,M
+Jesse Roland,1,Open,93,,Nauru,92.3,180,190,198,198,198,B,Raw,M
 Munehisa Takeda,2,Open,93,1978,Japan,92.15,180,185,-190,185,185,B,Raw,M
 Chris Bennett,3,Open,93,1984,New Zealand,92.45,160,167.5,-172.5,167.5,167.5,B,Raw,M
 Denis Rybka,1,Open,105,1985,Kazakhstan,103.35,200,210,-221,210,210,B,Raw,M
@@ -24,7 +24,7 @@ Harrison Harris,1,Juniors,74,1995,Nauru,73.6,100,112.5,-115,112.5,112.5,B,Raw,M
 Ibn-Battuta Deireragea,2,Juniors,74,1996,Nauru,71.5,100,110,-112.5,110,110,B,Raw,M
 Yuki Daibo,1,Juniors,83,1994,Japan,82.05,155,162.5,-170,162.5,162.5,B,Raw,M
 Dean Chen,2,Juniors,83,1995,Australia,82.6,152.5,-157.5,-165,152.5,152.5,B,Raw,M
-Rojay Weibeya,3,Juniors,83,1997,Nauru,82.25,102.5,110,-115,110,110,B,Raw,M
+Ro-Jaye Wabeiya,3,Juniors,83,1997,Nauru,82.25,102.5,110,-115,110,110,B,Raw,M
 Jester Duburiya,1,Juniors,93,1995,Nauru,91.8,165,172.5,181.5,181.5,181.5,B,Raw,M
 Angin Gadabu,2,Juniors,93,1995,Nauru,89.15,165,175,-181.5,175,175,B,Raw,M
 Rory Lynch,3,Juniors,93,1994,New Zealand,89.95,142.5,147.5,-152.5,147.5,147.5,B,Raw,M
@@ -37,7 +37,7 @@ Adrian Brogan,3,Masters 1,83,1973,Australia,81.25,125,130,-135,130,130,B,Raw,M
 Paul Gattsche,1,Masters 1,105,1968,New Zealand,104.95,180,190,195,195,195,B,Raw,M
 Toshio Nakamura,2,Masters 1,105,1970,Japan,103.3,145,-165,-165,145,145,B,Raw,M
 Jason Wharton,1,Masters 1,120,1970,Nauru,116.3,145,152.5,-155,152.5,152.5,B,Raw,M
-Sean Smith,1,Masters 1,120+,1972,Australia,134.6,147.5,155,160,160,160,B,Raw,M
+Sean Smith #3,1,Masters 1,120+,1972,Australia,134.6,147.5,155,160,160,160,B,Raw,M
 Yuji Takada,1,Masters 2,59,1965,Japan,58.45,117.5,122.5,-130,122.5,122.5,B,Raw,M
 Tsukasa Kameda,2,Masters 2,59,1961,Japan,58.9,107.5,-112.5,112.5,112.5,112.5,B,Raw,M
 Brian Froggatt,1,Masters 2,74,1958,New Zealand,73.77,130,-137.5,137.5,137.5,137.5,B,Raw,M
@@ -46,7 +46,7 @@ Rennie Soffe,1,Masters 2,93,1959,New Zealand,89.1,160,167.5,170,170,170,B,Raw,M
 Ben Jamieson,2,Masters 2,93,1965,New Zealand,91.35,155,165,-172.5,165,165,B,Raw,M
 Osamu Sano,3,Masters 2,93,1963,Japan,90.85,145,150,155,155,155,B,Raw,M
 Yukihiko Oguro,4,Masters 2,93,1960,Japan,89.4,135,145,-152.5,145,145,B,Raw,M
-Alan Puleosi,1,Masters 2,105,1957,Niue,93.45,80,100,-105,100,100,B,Raw,M
+Alan Tano Puleosi,1,Masters 2,105,1957,Niue,93.45,80,100,-105,100,100,B,Raw,M
 Steve Lousich,1,Masters 2,120+,1965,New Zealand,128.45,180,190,198,198,198,B,Raw,M
 Brett Kirchner,2,Masters 2,120+,1963,Australia,124.9,145,152.5,-157.5,152.5,152.5,B,Raw,M
 Takeshi Shirakawa,1,Masters 3,59,1948,Japan,57.25,110,120,122.5,122.5,122.5,B,Raw,M

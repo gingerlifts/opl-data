@@ -4,7 +4,7 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,BodyweightKg,Country,Bench1Kg,Be
 3,44,F,Open,Raija Koskinen-Jurkko,1963,43.9,Finland,75,-77.5,77.5,,77.5,77.5,B,Single-ply
 4,44,F,Open,Marion Friedrich,1965,42.7,Germany,75,-77.2,-77.5,,75,75,B,Single-ply
 5,44,F,Open,Eva Svjanteková,1973,43.7,Slovakia,70,75,-80,,75,75,B,Single-ply
-6,44,F,Open,Elzb Kleszczynska,1981,43.4,Poland,-60,60,65,,65,65,B,Single-ply
+6,44,F,Open,Elzbieta Kleszczynska,1981,43.4,Poland,-60,60,65,,65,65,B,Single-ply
 7,44,F,Open,Akiko Iwasaki,1962,43.5,Japan,65,-70,-72.5,,65,65,B,Single-ply
 8,44,F,Open,Margit Wanko,1973,42.7,Austria,62.5,-67.5,-67.5,,62.5,62.5,B,Single-ply
 9,44,F,Open,Lee-Ann Dalling,1962,43.4,Canada,60,-62.5,62.5,,62.5,62.5,B,Single-ply
@@ -17,7 +17,7 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,BodyweightKg,Country,Bench1Kg,Be
 7,48,F,Open,Erika Salamon,1973,47.2,Hungary,77.5,-82.5,-85,,77.5,77.5,B,Single-ply
 8,48,F,Open,Dagmar Wang,1948,47.7,Austria,72.5,77.5,-80,,77.5,77.5,B,Single-ply
 9,48,F,Open,Vuokko Viitasaari,1954,47.3,Finland,75,-80,-80,,75,75,B,Single-ply
-10,48,F,Open,Mart Kleszczynska,1979,48,Poland,75,-82.5,-87.5,,75,75,B,Single-ply
+10,48,F,Open,Marta Kleszczynska,1979,48,Poland,75,-82.5,-87.5,,75,75,B,Single-ply
 1,52,F,Open,Sylvie Mingot,1969,51.1,France,102.5,108,-110,,108,108,B,Single-ply
 2,52,F,Open,Tamara Podpalnaya,1972,51,Russia,95,105,-107.5,,105,105,B,Single-ply
 3,52,F,Open,Marion Braun,1970,51.4,Austria,90,-95,100,,100,100,B,Single-ply
@@ -78,7 +78,7 @@ DQ,82.5,F,Open,Marlies Lahaye,1969,79.8,Netherlands,-110,-115,-115,,,,B,Single-p
 6,90,F,Open,Helena Koponen,1954,87.2,Finland,107.5,117.5,-120,,117.5,117.5,B,Single-ply
 7,90,F,Open,Zuzan Antoniewicz,1977,83.1,Poland,87.5,-97.5,-97.5,,87.5,87.5,B,Single-ply
 1,90+,F,Open,Chen-Yeh Chao,1971,111.2,Taiwan,170,177.5,,,177.5,177.5,B,Single-ply
-2,90+,F,Open,Debra Ferrell,1964,115,USA,120,-132.5,137.5,,137.5,137.5,B,Single-ply
+2,90+,F,Open,Deborah Ferrell,1964,115,USA,120,-132.5,137.5,,137.5,137.5,B,Single-ply
 3,90+,F,Open,Elena Kurbakova,1976,103.1,Russia,115,-120,-120,,115,115,B,Single-ply
 4,90+,F,Open,Julia Gorecka,1981,90.3,Poland,90,97.5,100,,100,100,B,Single-ply
 DQ,90+,F,Open,Inge Preikszas,1955,104.3,Germany,-115,-115,,,,,B,Single-ply
@@ -106,7 +106,7 @@ DQ,90+,F,Open,Inge Preikszas,1955,104.3,Germany,-115,-115,,,,,B,Single-ply
 5,60,M,Open,Alexand Radzevich,1963,59.9,Latvia,155,162.5,-170,,162.5,162.5,B,Single-ply
 6,60,M,Open,Claude Sitruk,1950,58.8,France,145,-155,155,,155,155,B,Single-ply
 7,60,M,Open,Jonas Celin,1970,58.3,Sweden,135,140,145,,145,145,B,Single-ply
-8,60,M,Open,Robert Allen,1961,58.6,USA,137.5,-145,145,,145,145,B,Single-ply
+8,60,M,Open,Robert Allen #1,1961,58.6,USA,137.5,-145,145,,145,145,B,Single-ply
 9,60,M,Open,Jari Airio,1974,59.44,Finland,142.5,-150,-150,,142.5,142.5,B,Single-ply
 10,60,M,Open,Gerard Tromp,1959,60,Netherlands,-137.5,-140,142.5,,142.5,142.5,B,Single-ply
 11,60,M,Open,Manoj Gupta,1977,59.3,India,130,140,-145,,140,140,B,Single-ply
@@ -154,7 +154,7 @@ DQ,75,M,Open,Rami Bakhshaliyev,1971,73.6,Turkmenistan,-140,,-140,,,,B,Single-ply
 10,82.5,M,Open,Uwe Haase,1964,82.3,Germany,190,-197.5,-200,,190,190,B,Single-ply
 11,82.5,M,Open,Christ Petrischor,1959,81.2,Austria,182.5,187.5,-190,,187.5,187.5,B,Single-ply
 12,82.5,M,Open,Manfred Sabathy,1961,81.6,Austria,170,177.5,-182.5,,177.5,177.5,B,Single-ply
-13,82.5,M,Open,Paul Smith,1956,81.8,Netherlands,-170,-175,175,,175,175,B,Single-ply
+13,82.5,M,Open,Paul Smith #10,1956,81.8,Netherlands,-170,-175,175,,175,175,B,Single-ply
 14,82.5,M,Open,Edijsd Kleinbergs,1978,82.1,Latvia,160,170,172.5,,172.5,172.5,B,Single-ply
 15,82.5,M,Open,Inderjit Singh,1954,78.7,India,152.5,160,-167.5,,160,160,B,Single-ply
 16,82.5,M,Open,Terry Pierson,1959,82.2,New Zealand,145,-155,-155,,145,145,B,Single-ply
@@ -175,7 +175,7 @@ DQ,82.5,M,Open,Mikhail Solomin,1971,81.2,Ukraine,-212.5,-212.5,-215,,,,B,Single-
 13,90,M,Open,Rinalds Dimiņš,1975,89.5,Latvia,-200,-200,200,,200,200,B,Single-ply
 14,90,M,Open,Richard Singer,1963,86.7,Austria,-185,185,190,,190,190,B,Single-ply
 15,90,M,Open,Kim Madsen,1961,89.5,Denmark,170,180,185,,185,185,B,Single-ply
-DQ,90,M,Open,Arthur Hirner,1958,87.8,Germany,-222.5,-222.5,-225,,,,B,Single-ply
+DQ,90,M,Open,Arthur Hirner,,87.8,Germany,-222.5,-222.5,-225,,,,B,Single-ply
 1,100,M,Open,Gabor Kovacs,1974,99,Hungary,240,-247.5,250,260,250,250,B,Single-ply
 2,100,M,Open,Tamás Pfeifenróth,1973,97,Hungary,232.5,240,-247.5,,240,240,B,Single-ply
 3,100,M,Open,Kenneth Mattsson,1954,99,Sweden,230,-237.5,237.5,,237.5,237.5,B,Single-ply

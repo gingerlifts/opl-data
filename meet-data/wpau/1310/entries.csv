@@ -1,5 +1,5 @@
 Place,Name,CyrillicName,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,TotalKg,WeightClassKg,Division,Sex,Event,Equipment,Best3BenchKg,BirthYear
-1,Igor Starchenko,Ігор Старченко,60,50,55,-60,,55,60,Pro Children 11-12,M,B,Raw,55,2001
+1,Igor Starchenko,Ігор Старченко,60,50,55,-60,,55,60,Pro Sub-Teen 11-12,M,B,Raw,55,2001
 1,Yaroslav Prokopenko,Ярослав Прокопенко,51.6,60,70,-72.5,,70,52,Pro Teen 13-15,M,B,Raw,70,1998
 2,Karen Ovakimyan,Карен Овакімян,51,52.5,-60,-60,,52.5,52,Pro Teen 13-15,M,B,Raw,52.5,1998
 DQ,Yuriy Panko,Юрій Панько,,,,,,,52,Pro Teen 13-15,M,B,Raw,,1998
@@ -43,14 +43,14 @@ DQ,Stanislav Shakhov,Станіслав Шахов,,,,,,,90,Pro Teen 18-19,M,B,R
 1,Roman Veremeev,Роман Веремєєв,74.5,125,135,140,,140,75,Pro Juniors 20-23,M,B,Raw,140,1993
 2,Anton Vasilev,Антон Васильєв,73.3,130,135,-140,,135,75,Pro Juniors 20-23,M,B,Raw,135,1992
 3,Sergiy Barishev,Сергій Баришев,72,105,-110,110,,110,75,Pro Juniors 20-23,M,B,Raw,110,1993
-1,Oleksandr Klimenko,Олександр Кліменко,76.7,140,145,-147.5,,145,82.5,Pro Juniors 20-23,M,B,Raw,145,1990
+1,Oleksandr Klimenko #1,Олександр Кліменко,76.7,140,145,-147.5,,145,82.5,Pro Juniors 20-23,M,B,Raw,145,1990
 2,Eldar Gasanov,Ельдар Гасанов,80.9,140,145,-150,,145,82.5,Pro Juniors 20-23,M,B,Raw,145,1993
 3,Igor Kashinskiy,Ігор Кашинський,82.5,125,135,140,,140,82.5,Pro Juniors 20-23,M,B,Raw,140,1993
 4,Sergiy Marushkin,Сергій Марушкін,81.5,115,122.5,127.5,,127.5,82.5,Pro Juniors 20-23,M,B,Raw,127.5,1992
 5,David Zakhri,Давид Захрі,80,110,-120,125,,125,82.5,Pro Juniors 20-23,M,B,Raw,125,1991
 6,Eldar Efimenko,Ельдар Єфименко,81,110,115,-120,,115,82.5,Pro Juniors 20-23,M,B,Raw,115,1992
 1,Pavlo Vedmid,Павло Ведмідь,83.9,145,155,-160,,155,90,Pro Juniors 20-23,M,B,Raw,155,1990
-2,Igor Terentev,Ігор Терентьєв,88.7,145,150,152.5,,152.5,90,Pro Juniors 20-23,M,B,Raw,152.5,1991
+2,Igor Terentev #1,Ігор Терентьєв,88.7,145,150,152.5,,152.5,90,Pro Juniors 20-23,M,B,Raw,152.5,1991
 3,Oleksandr Sokur,Олександр Сокур,88,140,145,-150,,145,90,Pro Juniors 20-23,M,B,Raw,145,1994
 4,Anton Chorniy,Антон Чорний,88.5,140,145,-147.5,,145,90,Pro Juniors 20-23,M,B,Raw,145,1990
 5,Dmitro Koval,Дмитро Коваль,88.9,135,142.5,-147.5,,142.5,90,Pro Juniors 20-23,M,B,Raw,142.5,1991
@@ -119,11 +119,11 @@ DQ,Oleg Gubenko,Олег Губенко,,,,,,,100,Pro Submasters 33-39,M,B,Raw,,
 2,Dmitro Barkov,Дмитро Барков,73,90,100,-112.5,,100,75,Pro Masters 40-44,M,B,Raw,100,1969
 DQ,Dmitro Lutsenko,Дмитро Луценко,82.1,-87.5,-87.5,-87.5,,,82.5,Pro Masters 40-44,M,B,Raw,,1971
 1,Oleg Volkov,Олег Волков,96.3,170,180,-190,,180,100,Pro Masters 40-44,M,B,Raw,180,1973
-2,Yuriy Chernyavskiy,Юрій Чернявський,98.5,155,170,-175,,170,100,Pro Masters 40-44,M,B,Raw,170,1972
+2,Yuriy Chernyavskiy #1,Юрій Чернявський,98.5,155,170,-175,,170,100,Pro Masters 40-44,M,B,Raw,170,1972
 1,Igor Nekhaev,,69.8,105,-110,110,,110,75,Pro Masters 45-49,M,B,Raw,110,1965
 DQ,Viktor Chornomaz,Віктор Чорномаз,,,,,,,75,Pro Masters 45-49,M,B,Raw,,1966
 1,Roman Perevyazko,Роман Перевязко,94.2,-120,120,130,,130,100,Pro Masters 45-49,M,B,Raw,130,1968
-1,Igor Martens,Ігор Мартенс,108.1,130,140,142.5,,142.5,110,Pro Masters 45-49,M,B,Raw,142.5,1967
+1,Igor Martens #1,Ігор Мартенс,108.1,130,140,142.5,,142.5,110,Pro Masters 45-49,M,B,Raw,142.5,1967
 1,Grigoriy Gershenbeyn,Григорій Гершенбейн,81,70,77.5,80,,80,82.5,Pro Masters 50-54,M,B,Raw,80,1960
 1,Sergiy Firsov,Сергій Фірсов,86.7,100,105,-107.5,,105,90,Pro Masters 50-54,M,B,Raw,105,1961
 1,Yuriy Khanov,Юрій Ханов,99.2,110,120,-125,,120,100,Pro Masters 50-54,M,B,Raw,120,1962
@@ -148,7 +148,7 @@ DQ,Anton Kravchina,Антон Кравчина,82.4,-100,-100,-100,,,82.5,Pro Mi
 2,Oleksandr Mityagin,Олександр Мітягін,88.3,-150,150,-160,,150,90,Pro Military/Fire/Police,M,B,Raw,150,1979
 3,Valeriy Zhakovskiy,Валерій Жаковський,85.9,90,100,110,,110,90,Pro Military/Fire/Police,M,B,Raw,110,1993
 DQ,Kostyantin Grabovskiy,Костянтин Грабовський,87.9,-201,-201,,,,90,Pro Military/Fire/Police,M,B,Raw,,1976
-1,Yuriy Chernyavskiy,Юрій Чернявський,98.5,155,170,-175,,170,100,Pro Military/Fire/Police,M,B,Raw,170,1972
+1,Yuriy Chernyavskiy #1,Юрій Чернявський,98.5,155,170,-175,,170,100,Pro Military/Fire/Police,M,B,Raw,170,1972
 2,Illya Korobov,Ілля Коробов,91,-145,145,150,,150,100,Pro Military/Fire/Police,M,B,Raw,150,1993
 3,Oleksiy Khromenkov,Олексій Хроменков,99.4,115,125,130,,130,100,Pro Military/Fire/Police,M,B,Raw,130,1957
 DQ,Aleksey Melnikov,,,,,,,,100,Pro Military/Fire/Police,M,B,Raw,,1987
@@ -175,7 +175,7 @@ DQ,Olena Kolyada,Олена Коляда,,,,,,,48,Pro Open,F,B,Raw,,1982
 2,Yana Gurchenko,Яна Гурченко,55.8,50,55,-60,,55,56,Pro Open,F,B,Raw,55,1986
 3,Nataliya Prishedko,Наталія Пришедько,53.4,50,52.5,-55,,52.5,56,Pro Open,F,B,Raw,52.5,1993
 1,Nataliya Mavdrik,Наталія Мавдрик,59.4,65,67.5,70,,70,60,Pro Open,F,B,Raw,70,1984
-2,Viktoriya Gubanova,Вікторія Губанова,58.8,47.5,-52.5,-52.5,,47.5,60,Pro Open,F,B,Raw,47.5,1977
+2,Viktoriya Gubanova,Виктория Губанова,58.8,47.5,-52.5,-52.5,,47.5,60,Pro Open,F,B,Raw,47.5,1977
 DQ,Olga Grabovska,Ольга Грабовська,,,,,,,60,Pro Open,F,B,Raw,,1976
 1,Yuliya P'Yatnitsya,Юлія П'Ятниця,63.4,-80,85,-92.5,,85,67.5,Pro Open,F,B,Raw,85,1986
 2,Anna Lugovska,Анна Луговська,62.4,40,45,47.5,,47.5,67.5,Pro Open,F,B,Raw,47.5,1986
@@ -185,7 +185,7 @@ DQ,Olga Grabovska,Ольга Грабовська,,,,,,,60,Pro Open,F,B,Raw,,197
 2,Nataliya Penkova,Наталія Пенькова,69.5,40,-45,-45,,40,75,Pro Open,F,B,Raw,40,1965
 1,Marina Bilousova,Марина Білоусова,77.8,65,67.5,70,,70,82.5,Pro Open,F,B,Raw,70,1989
 1,Lyudmila Gaiduchenko,Людмила Гайдученко,94.8,150,160,,,160,100,Pro Open,F,B,Raw,160,1966
-1,Viktoriya Gubanova,Вікторія Губанова,58.8,47.5,-52.5,-52.5,,47.5,60,Pro Submasters 33-39,F,B,Raw,47.5,1977
+1,Viktoriya Gubanova,Виктория Губанова,58.8,47.5,-52.5,-52.5,,47.5,60,Pro Submasters 33-39,F,B,Raw,47.5,1977
 1,Olena Korzhanovska,Олена Коржановська,59.9,35,-37.5,-37.5,,35,60,Pro Masters 40-44,F,B,Raw,35,1972
 1,Svitlana Klochkova,Світлана Клочкова,51.6,-40,-40,40,,40,52,Pro Masters 45-49,F,B,Raw,40,1968
 1,Nataliya Penkova,Наталія Пенькова,69.5,40,-45,-45,,40,75,Pro Masters 45-49,F,B,Raw,40,1965

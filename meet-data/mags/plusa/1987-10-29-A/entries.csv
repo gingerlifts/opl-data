@@ -5,7 +5,7 @@ Delcy Palk,48,Collegiate,F,107.5,55,115,277.5,SBD,Single-ply,1
 T. Berthelol,48,Collegiate,F,97.5,52.5,102.5,252.5,SBD,Single-ply,2
 K. Schaffer,48,Collegiate,F,102.5,40,107.5,250,SBD,Single-ply,3
 C. Coetzee,48,Collegiate,F,87.5,40,92.5,220,SBD,Single-ply,4
-B. Lee,52,Collegiate,F,92.5,50,132.5,275,SBD,Single-ply,1
+Belinda Lee,52,Collegiate,F,92.5,50,132.5,275,SBD,Single-ply,1
 C. Harris,52,Collegiate,F,105,47.5,122.5,275,SBD,Single-ply,2
 L. Sikes,52,Collegiate,F,92.5,55,115,262.5,SBD,Single-ply,3
 M. Heard,52,Collegiate,F,85,50,115,250,SBD,Single-ply,4
@@ -20,12 +20,12 @@ Sean Broze,56,Collegiate,F,95,52.5,125,272.5,SBD,Single-ply,7
 Janis Rosenthal,56,Collegiate,F,90,47.5,120,257.5,SBD,Single-ply,8
 S. Bardfield,60,Collegiate,F,122.5,55,125,302.5,SBD,Single-ply,1
 D. Wellington,60,Collegiate,F,112.5,55,130,297.5,SBD,Single-ply,2
-K. Bentley,60,Collegiate,F,115,50,127.5,292.5,SBD,Single-ply,3
+Kelly Bentley,60,Collegiate,F,115,50,127.5,292.5,SBD,Single-ply,3
 Kathy McVay,60,Collegiate,F,110,55,120,285,SBD,Single-ply,4
 T. Sommer,60,Collegiate,F,110,55,120,285,SBD,Single-ply,5
 L. Thompson,60,Collegiate,F,92.5,50,100,242.5,SBD,Single-ply,6
-M. Raines,67.5,Collegiate,F,145,67.5,172.5,385,SBD,Single-ply,1
-S. Smith #11,67.5,Collegiate,F,137.5,72.5,172.5,382.5,SBD,Single-ply,2
+Mischelle Raines,67.5,Collegiate,F,145,67.5,172.5,385,SBD,Single-ply,1
+Sharon Smith,67.5,Collegiate,F,137.5,72.5,172.5,382.5,SBD,Single-ply,2
 J. Melsha,67.5,Collegiate,F,120,67.5,140,327.5,SBD,Single-ply,3
 Josie Kozicki,67.5,Collegiate,F,115,60,60,235,SBD,Single-ply,4
 M. Yarbrough,75,Collegiate,F,152.5,75,152.5,380,SBD,Single-ply,1
@@ -57,7 +57,7 @@ Arthur Herbert,60,Collegiate,M,177.5,110,165,452.5,SBD,Single-ply,6
 Ty Stapleton,67.5,Collegiate,M,257.5,177.5,242.5,677.5,SBD,Single-ply,1
 Donnie Jackson,67.5,Collegiate,M,250,142.5,242.5,635,SBD,Single-ply,2
 Eric Hammer,67.5,Collegiate,M,230,142.5,217.5,590,SBD,Single-ply,3
-S. Spaeder,67.5,Collegiate,M,225,147.5,215,587.5,SBD,Single-ply,4
+Steve Spaeder,67.5,Collegiate,M,225,147.5,215,587.5,SBD,Single-ply,4
 G. Blevins,67.5,Collegiate,M,217.5,105,240,562.5,SBD,Single-ply,5
 Jay Welu,67.5,Collegiate,M,205,147.5,197.5,550,SBD,Single-ply,6
 R. Williams,67.5,Collegiate,M,200,117.5,222.5,540,SBD,Single-ply,7
@@ -102,7 +102,7 @@ T. Holder,110,Collegiate,M,300,190,260,750,SBD,Single-ply,2
 J. Sellers,110,Collegiate,M,272.5,167.5,272.5,712.5,SBD,Single-ply,3
 Boyd Stromsdorfer,110,Collegiate,M,250,167.5,292.5,710,SBD,Single-ply,4
 G. Madden,110,Collegiate,M,275,187.5,245,707.5,SBD,Single-ply,5
-C. Shults,110,Collegiate,M,250,157.5,250,657.5,SBD,Single-ply,6
+Clayton Shults,110,Collegiate,M,250,157.5,250,657.5,SBD,Single-ply,6
 P. Anatasia,125,Collegiate,M,322.5,232.5,312.5,867.5,SBD,Single-ply,1
 J. Johnson,125,Collegiate,M,272.5,170,260,702.5,SBD,Single-ply,2
 Kevin Fertic,125,Collegiate,M,255,182.5,245,682.5,SBD,Single-ply,3

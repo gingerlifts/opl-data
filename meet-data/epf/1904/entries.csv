@@ -32,7 +32,7 @@ DQ,105,Cristian Oproiu,SBD,Single-ply,M,Masters 1,1978,101.89,Romania,-285,-285,
 5,120,Thorsten Thenhart,SBD,Single-ply,M,Masters 1,1975,112.11,Germany,275,285,295,295,190,200,207.5,207.5,220,240,-255,240,742.5
 6,120,Kaj Mattila,SBD,Single-ply,M,Masters 1,1970,114.55,Finland,260,275,-285,275,210,217.5,222.5,222.5,220,230,-240,230,727.5
 7,120,Janne Hakala,SBD,Single-ply,M,Masters 1,1979,116.37,Finland,200,210,220,220,165,175,-200,175,240,255,257.5,257.5,652.5
-DQ,120,Gunter Koovit,SBD,Single-ply,M,Masters 1,1976,119.57,Estonia,-270,-270,-270,,-205,-205,-207.5,,,,,,
+DQ,120,Günter Koovit,SBD,Single-ply,M,Masters 1,1976,119.57,Estonia,-270,-270,-270,,-205,-205,-207.5,,,,,,
 1,120+,Jaroslav Šoukal,SBD,Single-ply,M,Masters 1,1972,168.54,Czechia,325,345,365,365,-310,310,,310,265,295,,295,970
 2,120+,Jan Pinc,SBD,Single-ply,M,Masters 1,1973,129.67,Czechia,320,-335,-335,320,265,-285,285,285,270,282.5,-295,282.5,887.5
 3,120+,James Brincat-Smith,SBD,Single-ply,M,Masters 1,1975,205.05,UK,345,-355,355,355,220,232.5,-237.5,232.5,230,250,-272.5,250,837.5
@@ -54,7 +54,7 @@ DQ,74,Allen Ottolangui,SBD,Single-ply,M,Masters 2,1960,73.75,UK,-205,-205,-205,,
 1,83,Fabrice Bertin,SBD,Single-ply,M,Masters 2,1967,82.88,France,225,237.5,247.5,247.5,212.5,-217.5,221.5,221.5,200,-210,-212.5,200,669
 2,83,George Millar,SBD,Single-ply,M,Masters 2,1968,81.68,UK,190,200,210,210,140,145,-150,145,205,215,225,225,580
 DQ,83,Tomas Ring,SBD,Single-ply,M,Masters 2,1960,81.65,Sweden,190,202.5,-207.5,202.5,-205,-205,-205,,,,,,
-DQ,83,Douglas D'Gama,SBD,Single-ply,M,Masters 2,1962,81.8,UK,195,205,215,215,-142.5,-142.5,-142.5,,215,225,227.5,227.5,
+DQ,83,Doug D'Gama,SBD,Single-ply,M,Masters 2,1962,81.8,UK,195,205,215,215,-142.5,-142.5,-142.5,,215,225,227.5,227.5,
 DQ,83,Stéphane Barataud,SBD,Single-ply,M,Masters 2,1969,82.1,France,-245,-245,-245,,145,150,152.5,152.5,,,,,
 1,93,Mario Schnurr,SBD,Single-ply,M,Masters 2,1966,92.75,Germany,-267.5,-277.5,277.5,277.5,165,175,185,185,272.5,285,-301.5,285,747.5
 2,93,Lars Höglander,SBD,Single-ply,M,Masters 2,1964,92.55,Sweden,245,-255,-255,245,180,187.5,-192.5,187.5,220,242.5,255,255,687.5
@@ -104,7 +104,7 @@ DQ,105,Rüdiger Hopp,SBD,Single-ply,M,Masters 3,1955,96.06,Sweden,-250,-260,-275
 2,74,Heino Maiste,SBD,Single-ply,M,Masters 4,1949,73.18,Estonia,140,150,,150,72.5,80,82.5,82.5,175,187.5,200,200,432.5
 3,74,Jacques Beauverger,SBD,Single-ply,M,Masters 4,1946,71.49,France,105,115,125,125,82.5,87.5,90,90,170,-180,180,180,395
 1,83,Janos Fabri,SBD,Single-ply,M,Masters 4,1945,81,Hungary,165,172.5,-180,172.5,90,100,105,105,230,240,-247.5,240,517.5
-2,83,Michael Amey,SBD,Single-ply,M,Masters 4,1949,80.19,UK,185,-195,-195,185,-100,100,105,105,200,222.5,-232.5,222.5,512.5
+2,83,Mick Amey,SBD,Single-ply,M,Masters 4,1949,80.19,UK,185,-195,-195,185,-100,100,105,105,200,222.5,-232.5,222.5,512.5
 1,93,Mick Ellender,SBD,Single-ply,M,Masters 4,1945,91.72,UK,120,130,140,140,120,-130,130,130,-195,205,210,210,480
 2,93,Steen Wissing,SBD,Single-ply,M,Masters 4,1945,92.07,Denmark,-170,175,-185,175,110,115,-120,115,170,177.5,-187.5,177.5,467.5
 1,105,Tapio Kähäri,SBD,Single-ply,M,Masters 4,1946,95.83,Finland,175,-185,192.5,192.5,115,120,-125,120,170,-180,-180,170,482.5
@@ -121,12 +121,12 @@ DQ,105,Mihkel Laurits,SBD,Single-ply,M,Masters 4,1944,102.97,Estonia,150,-160,,1
 3,63,Annelie Izindre,SBD,Single-ply,F,Masters 1,1972,60.56,Sweden,150,-160,-160,150,-102.5,102.5,-105,102.5,140,-147.5,-152.5,140,392.5
 1,72,Nicole Börsch,SBD,Single-ply,F,Masters 1,1976,69.7,Germany,155,165,170,170,-140,-140,140,140,160,175,-185,175,485
 2,72,Ulrika Johansson,SBD,Single-ply,F,Masters 1,1972,68,Sweden,160,170,180,180,107.5,-112.5,-117.5,107.5,140,150,157.5,157.5,445
-3,72,Joanne Barnes #1,SBD,Single-ply,F,Masters 1,1971,71.4,UK,150,157.5,-160,157.5,92.5,97.5,100,100,140,150,-160,150,407.5
+3,72,Joanne Frost,SBD,Single-ply,F,Masters 1,1971,71.4,UK,150,157.5,-160,157.5,92.5,97.5,100,100,140,150,-160,150,407.5
 4,72,Catherine Gordon,SBD,Single-ply,F,Masters 1,1973,69.33,UK,-140,-140,140,140,82.5,-90,90,90,150,157.5,165,165,395
 5,72,Päivi Ristolainen,SBD,Single-ply,F,Masters 1,1970,71.44,Finland,125,-137.5,-137.5,125,70,-75,-75,70,135,142.5,152.5,152.5,347.5
 1,84,Jennifer Keane,SBD,Single-ply,F,Masters 1,1977,81.91,UK,180,195,207.5,207.5,100,107.5,-112.5,107.5,170,180,-190,180,495
 2,84,Tanja Rasmussen,SBD,Single-ply,F,Masters 1,1972,76.8,Denmark,-105,-105,105,105,77.5,-82.5,82.5,82.5,110,117.5,127.5,127.5,315
-1,84+,Michelle Brand,SBD,Single-ply,F,Masters 1,1973,89.6,UK,150,160,-167.5,160,112.5,115,-120,115,125,135,145,145,420
+1,84+,Michelle Brand #1,SBD,Single-ply,F,Masters 1,1973,89.6,UK,150,160,-167.5,160,112.5,115,-120,115,125,135,145,145,420
 DQ,84+,Runi Hammeroe Sparby,SBD,Single-ply,F,Masters 1,1977,92.4,Norway,205,212.5,-220,212.5,-110,-110,-110,,182.5,190,-195,190,
 1,47,Nathalie Feraud,SBD,Single-ply,F,Masters 2,1967,46.82,France,115,-132.5,-132.5,115,82.5,-87.5,-87.5,82.5,130,-142.5,-150.5,130,327.5
 1,52,Manuela Stucchi,SBD,Single-ply,F,Masters 2,1966,50.55,Italy,135,140,142.5,142.5,70,75,77.5,77.5,145,155,160,160,380

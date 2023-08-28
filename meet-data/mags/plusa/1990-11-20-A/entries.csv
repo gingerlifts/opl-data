@@ -31,7 +31,7 @@ C. Culver,82.5,Masters,40-999,M,41,215,137.5,182.5,535,SBD,Single-ply,2
 Dave Spadafora,90,Masters,40-999,M,43,305,147.5,260,712.5,SBD,Single-ply,1
 J. McCue,90,Masters,40-999,M,48,197.5,122.5,212.5,532.5,SBD,Single-ply,2
 L. Shoals,100,Masters,40-999,M,40,295,170,227.5,692.5,SBD,Single-ply,1
-H. Holly,100,Masters,40-999,M,56,250,152.5,255,657.5,SBD,Single-ply,2
+Harrell Holly,100,Masters,40-999,M,56,250,152.5,255,657.5,SBD,Single-ply,2
 L. Gibson,100,Masters,40-999,M,53,230,145,215,590,SBD,Single-ply,3
 D. Dubreuil,100,Masters,40-999,M,46,190,145,200,535,SBD,Single-ply,4
 B. Jackson,110,Masters,40-999,M,49,272.5,195,272.5,740,SBD,Single-ply,1
@@ -65,7 +65,7 @@ S. Cook #1,82.5,Class II,,M,,185,125,240,550,SBD,Single-ply,8
 C. McCuiston,82.5,Class II,,M,,160,92.5,202.5,455,SBD,Single-ply,9
 F. Ramirez,82.5,Class II,,M,,182.5,,,,SBD,Single-ply,DQ
 Don Hill,82.5,Class II,,M,,220,,,,SBD,Single-ply,DQ
-Dan Gay #1,90,Class II,,M,,277.5,147.5,295,720,SBD,Single-ply,1
+Dan Gay,90,Class II,,M,,277.5,147.5,295,720,SBD,Single-ply,1
 T. An #1,90,Class II,,M,,272.5,170,255,697.5,SBD,Single-ply,2
 John Knorre,90,Class II,,M,,272.5,152.5,255,680,SBD,Single-ply,3
 Michael Mounce,90,Class II,,M,,245,165,250,660,SBD,Single-ply,4
@@ -84,7 +84,7 @@ Paul Johnson #5,100,Class II,,M,,245,137.5,245,627.5,SBD,Single-ply,2
 M. Easterling,100,Class II,,M,,245,147.5,220,612.5,SBD,Single-ply,3
 A. Takach,100,Class II,,M,,220,120,227.5,567.5,SBD,Single-ply,4
 James Kaiser,110,Class II,,M,,260,145,305,710,SBD,Single-ply,1
-M. Paradise,110,Class II,,M,,255,167.5,277.5,700,SBD,Single-ply,2
+Mike Paradise,110,Class II,,M,,255,167.5,277.5,700,SBD,Single-ply,2
 R. Womack,110,Class II,,M,,240,172.5,235,647.5,SBD,Single-ply,3
 D. Anderson,110,Class II,,M,,207.5,137.5,192.5,537.5,SBD,Single-ply,4
 Marty Mote,125,Class II,,M,,315,165,330,810,SBD,Single-ply,1
@@ -94,7 +94,7 @@ D. Cox,125+,Class II,,M,,242.5,137.5,242.5,622.5,SBD,Single-ply,3
 S. Reyna,125+,Class II,,M,,,,,,SBD,Single-ply,DQ
 Eric Fernandez,56,Open,,M,18,162.5,115,192.5,470,SBD,Single-ply,1
 Farley Styles,60,Open,,M,,222.5,112.5,210,545,SBD,Single-ply,1
-J. Walker,60,Open,,M,,177.5,137.5,177.5,492.5,SBD,Single-ply,2
+J. Walker #6,60,Open,,M,,177.5,137.5,177.5,492.5,SBD,Single-ply,2
 K. O'Gilvie,60,Open,,M,,135,,,,SBD,Single-ply,DQ
 Kenneth Tyler,67.5,Open,,M,,205,122.5,,,SBD,Single-ply,DQ
 Gary Kaiser,75,Open,,M,,227.5,137.5,255,620,SBD,Single-ply,1
@@ -116,7 +116,7 @@ Dave Spadafora,90,Open,,M,43,305,147.5,260,712.5,SBD,Single-ply,4
 J. Hirt,90,Open,,M,,255,170,287.5,712.5,SBD,Single-ply,5
 T. An #1,90,Open,,M,,272.5,170,255,697.5,SBD,Single-ply,6
 C. Dimicelli,90,Open,,M,,215,125,212.5,552.5,SBD,Single-ply,7
-Chris Garcia,100,Open,,M,,315,167.5,272.5,755,SBD,Single-ply,1
+Chris Garcia #3,100,Open,,M,,315,167.5,272.5,755,SBD,Single-ply,1
 W. Cooper,100,Open,,M,,247.5,152.5,305,705,SBD,Single-ply,2
 B. Fujimoto,100,Open,,M,,240,202.5,245,687.5,SBD,Single-ply,3
 Gil Thompson,110,Open,,M,,347.5,262.5,297.5,907.5,SBD,Single-ply,1
@@ -130,10 +130,10 @@ Deryl Mallard,125,Open,,M,,327.5,235,260,822.5,SBD,Single-ply,2
 Willie Dorsey,125,Open,,M,,302.5,197.5,320,820,SBD,Single-ply,3
 Bruce Koch #1,125,Open,,M,,292.5,170,267.5,730,SBD,Single-ply,4
 Rick Neil,125,Open,,M,,272.5,162.5,272.5,707.5,SBD,Single-ply,5
-I. Bright,125,Open,,M,,,,,,SBD,Single-ply,DQ
+Ivan Bright,125,Open,,M,,,,,,SBD,Single-ply,DQ
 David McCaskill,125+,Open,,M,,320,205,292.5,817.5,SBD,Single-ply,1
 B. Anderson,125+,Open,,M,,297.5,217.5,287.5,802.5,SBD,Single-ply,2
-J. Voronin,125+,Open,,M,,327.5,217.5,252.5,797.5,SBD,Single-ply,3
+James Voronin,125+,Open,,M,,327.5,217.5,252.5,797.5,SBD,Single-ply,3
 Kim Ingram,125+,Open,,M,,332.5,165,252.5,750,SBD,Single-ply,4
 Bill Holland,125+,Open,,M,,290,145,220,655,SBD,Single-ply,5
 T. Anderson,125+,Open,,M,,202.5,130,207.5,540,SBD,Single-ply,6
@@ -164,7 +164,7 @@ C. Knapp,100,Open,,M,,,192.5,,192.5,B,Single-ply,5
 Gil Thompson,110,Open,,M,,,262.5,,262.5,B,Single-ply,7
 David Mills Jr,110,Open,,M,,,217.5,,217.5,B,Single-ply,8
 B. McDaniel,110,Open,,M,,,217.5,,217.5,B,Single-ply,9
-M. Hanlon,110,Open,,M,,,217.5,,217.5,B,Single-ply,10
+Michael Hanlon,110,Open,,M,,,217.5,,217.5,B,Single-ply,10
 M. Hall,110,Open,,M,,,200,,200,B,Single-ply,11
 R. Womack,110,Open,,M,,,172.5,,172.5,B,Single-ply,12
 B. Fincher,110,Open,,M,,,,,,B,Single-ply,DQ
@@ -172,10 +172,10 @@ Willie Tolbert,125,Open,,M,,,250,,250,B,Single-ply,6
 Paul Springer,125,Open,,M,,,242.5,,242.5,B,Single-ply,7
 J. Young,125,Open,,M,,,235,,235,B,Single-ply,8
 Mitch Walls,125,Open,,M,,,197.5,,197.5,B,Single-ply,9
-I. Bright,125,Open,,M,,,185,,185,B,Single-ply,10
-J. Voronin,125+,Open,,M,,,217.5,,217.5,B,Single-ply,7
+Ivan Bright,125,Open,,M,,,185,,185,B,Single-ply,10
+James Voronin,125+,Open,,M,,,217.5,,217.5,B,Single-ply,7
 Steve Peyton,125+,Open,,M,,,162.5,,162.5,B,Single-ply,8
-B. Morgan,56,Teen,13-19,M,,,,,,B,Single-ply,DQ
+Bobby Morgan #1,56,Teen,13-19,M,,,,,,B,Single-ply,DQ
 Eryk Bui,67.5,Teen,13-19,M,,,125,,125,B,Single-ply,4
 D. Dixon,82.5,Teen,13-19,M,,,145,,145,B,Single-ply,4
 M. Lopez,82.5,Teen,13-19,M,,,132.5,,132.5,B,Single-ply,5

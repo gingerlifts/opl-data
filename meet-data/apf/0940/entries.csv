@@ -6,7 +6,7 @@ Floyd Kucharski,68,M_MEM_6_AAPF,Multi-ply,Yes,99.3,100,,,,,100,107.5,115,115,,,,
 Ron Cuny,62,M_MEM_5_AAPF,Multi-ply,Yes,79.9,82.5,,,,,102.5,107.5,112.5,112.5,,,,,112.5,B,1,M
 Clay Barnett,59,M_MEM_4_AAPF,Multi-ply,Yes,123.4,125,,,,,185,195,-200,195,,,,,195,B,1,M
 Al Kennedy,50,M_MEM_3_AAPF,Multi-ply,Yes,97.7,100,,,,,142.5,-185,-185,142.5,,,,,142.5,B,1,M
-John Lucas,51,M_MEM_3_AAPF,Multi-ply,Yes,120.3,125,,,,,230,-242.5,242.5,242.5,,,,,242.5,B,1,M
+John Lucas #2,51,M_MEM_3_AAPF,Multi-ply,Yes,120.3,125,,,,,230,-242.5,242.5,242.5,,,,,242.5,B,1,M
 Dave Murphy #1,54,M_MEM_3_AAPF,Multi-ply,Yes,114.6,125,,,,,147.5,160,-182.5,160,,,,,160,B,2,M
 Keith Earley,53,M_MEM_3_AAPF,Multi-ply,Yes,139,140,,,,,-180,-180,-180,,,,,,,B,DQ,M
 Joe Somma,45,M_MEM_2_AAPF,Multi-ply,Yes,82.5,82.5,,,,,172.5,182.5,187.5,187.5,,,,,187.5,B,1,M
@@ -32,16 +32,16 @@ Chuck Morse,42,M_OEM_APF,Multi-ply,,68.7,75,,,,,125,-150,-150,125,,,,,125,B,1,M
 Dennis Gonzalez,33,M_OEM_APF,Multi-ply,,98.9,100,,,,,212.5,222.5,-227.5,222.5,,,,,222.5,B,1,M
 Eric Maroscher,42,M_OEM_APF,Multi-ply,,100.8,110,,,,,182.5,-195,,182.5,,,,,182.5,B,1,M
 Zak Kroeger,32,M_OEM_APF,Multi-ply,,116.6,125,,,,,247.5,265,-272.5,265,,,,,265,B,1,M
-Ernie Lilliebridge Sr,37,M_OEM_APF,Multi-ply,,136.8,140,,,,,215,-227.5,,215,,,,,215,B,1,M
+Ernie Lilliebridge Sr,37,M_OR_APF,Raw,,136.8,140,,,,,215,-227.5,,215,,,,,215,B,1,M
 Mario DeBenedetti,43,M_OEM_APF,Multi-ply,,,140,,,,,,,,,,,,,,B,DQ,M
 Mario DeBenedetti,43,M_MEM_1_APF,Multi-ply,,,140,,,,,,,,,,,,,,B,DQ,M
 Robert Vick,35,M_OEM_AAPF,Multi-ply,Yes,,140+,,,,,,,,,,,,,,B,DQ,M
-Jarrett Kelley,17,F_TEM_2_AAPF,Multi-ply,Yes,98.7,90+,-205,-205,-205,,-125,125,-142.5,125,-185,185,215,215,,SBD,DQ,F
+Jarrett Kelley,17,M_TEM_2_AAPF,Multi-ply,Yes,98.7,100,-205,-205,-205,,-125,125,-142.5,125,-185,185,215,215,,SBD,DQ,M
 Thomas Grimm,60,M_MEM_5_AAPF,Multi-ply,Yes,103.9,110,112.5,130,140,140,92.5,100,112.5,112.5,105,122.5,142.5,142.5,395,SBD,1,M
 Robert Falcioni,52,M_MEM_3_AAPF,Multi-ply,Yes,109.1,110,265,287.5,-300,287.5,157.5,167.5,-175,167.5,230,250,-260,250,705,SBD,1,M
 Arthur Avalos,47,M_MEM_2_AAPF,Multi-ply,Yes,111,125,107.5,120,-137.5,120,122.5,137.5,-147.5,137.5,117.5,135,152.5,152.5,410,SBD,1,M
 Tim Wilke,35,M_SEM_AAPF,Multi-ply,Yes,107.2,110,-302.5,-302.5,302.5,302.5,62.5,,,62.5,272.5,,,272.5,637.5,SBD,1,M
-Carlos Martinez,37,M_SEM_AAPF,Multi-ply,Yes,123.6,125,272.5,-292.5,-292.5,272.5,-130,130,-160,130,182.5,210,227.5,227.5,630,SBD,1,M
+Carlos Martinez #2,37,M_SEM_AAPF,Multi-ply,Yes,123.6,125,272.5,-292.5,-292.5,272.5,-130,130,-160,130,182.5,210,227.5,227.5,630,SBD,1,M
 Harold Barnwell,33,M_SEM_AAPF,Multi-ply,Yes,126.6,140,282.5,-337.5,-337.5,282.5,200,220,227.5,227.5,-265,265,-282.5,265,775,SBD,1,M
 Kyle Laya,18,M_TEM_3_AAPF,Multi-ply,Yes,119.7,125,235,-250,-262.5,235,150,167.5,-175,167.5,215,240,252.5,252.5,655,SBD,1,M
 Tyler Gannon,17,M_TEM_2_AAPF,Multi-ply,Yes,108.9,110,272.5,317.5,,317.5,-182.5,182.5,-207.5,182.5,225,250,,250,750,SBD,1,M
@@ -66,7 +66,7 @@ Jim Prusha,39,M_OEM_APF,Multi-ply,,107,110,285,305,320,320,210,220,227.5,227.5,2
 Byron Hicks,31,M_OEM_APF,Multi-ply,,109.4,110,227.5,-250,260,260,165,190,205,205,240,255,270,270,735,SBD,2,M
 Brent Fiedler,27,M_OEM_APF,Multi-ply,,103,110,175,200,210,210,130,152.5,160,160,180,205,215,215,585,SBD,3,M
 Mike Szudarek,36,M_OEM_APF,Multi-ply,,108,110,-365,-385,,,,,,,,,,,,SBD,DQ,M
-Jose Garcia,31,M_OEM_APF,Multi-ply,,123.4,125,-465,465,-500,465,285,-300,-300,285,360,-375,-375,360,1110,SBD,1,M
+Jose Garcia #22,31,M_OEM_APF,Multi-ply,,123.4,125,-465,465,-500,465,285,-300,-300,285,360,-375,-375,360,1110,SBD,1,M
 Noel Levario,35,M_OEM_APF,Multi-ply,,118.8,125,377.5,387.5,400,400,307.5,-317.5,-317.5,307.5,260,272.5,-285,272.5,980,SBD,2,M
 Chris Haigh,29,M_OEM_APF,Multi-ply,,114.3,125,320,342.5,-365,342.5,-280,300,320,320,280,300,312.5,312.5,975,SBD,3,M
 Pete Arroyo,29,M_OEM_APF,Multi-ply,,124,125,355,-375,375,375,275,287.5,-292.5,287.5,280,292.5,300,300,962.5,SBD,4,M
@@ -77,7 +77,7 @@ Keegan Groth,17,M_OEM_APF,Multi-ply,,158.9,140+,-227.5,227.5,-250,227.5,125,-142
 Jayson McNett,28,M_OEM_APF,Multi-ply,,152,140+,-390,-390,-390,,-282.5,-285,-285,,,,,,,SBD,DQ,M
 Pete Andrich,38,M_OEM_AAPF,Multi-ply,Yes,,140+,,,,,,,,,,,,,,SBD,DQ,M
 Mary Grimm,56,F_MEM_4_AAPF,Multi-ply,Yes,58.7,60,30,32.5,35,35,15,20,-25,20,47.5,52.5,60,60,115,SBD,1,F
-Suzanne Gray,52,F_MEM_3_AAPF,Multi-ply,Yes,50.3,52,40,47.5,-52.5,47.5,25,30,-35,30,50,60,70,70,147.5,SBD,1,F
+Suzanne Gray #1,52,F_MEM_3_AAPF,Multi-ply,Yes,50.3,52,40,47.5,-52.5,47.5,25,30,-35,30,50,60,70,70,147.5,SBD,1,F
 Maria Dowle,53,F_MEM_3_AAPF,Multi-ply,Yes,78.8,82.5,115,125,137.5,137.5,45,50,-55,50,85,95,102.5,102.5,290,SBD,1,F
 Becky Singel,44,F_MEM_1_AAPF,Multi-ply,Yes,66,67.5,52.5,55,62.5,62.5,50,55,-57.5,55,105,107.5,110,110,227.5,SBD,1,F
 Victoria Hornback,38,F_SEM_AAPF,Multi-ply,Yes,64.2,67.5,-80,80,95,95,45,-65,-65,45,75,95,105,105,245,SBD,1,F

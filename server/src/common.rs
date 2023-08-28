@@ -1,25 +1,18 @@
 //! Shared Rocket code between main.rs and dist/.
 
-use rocket::http::{Cookies, Status};
+use rocket::http::{CookieJar, Status};
+use rocket::outcome::Outcome;
 use rocket::request::{self, FromRequest, Request};
 use rocket::response::{self, content, Responder};
-use rocket::Outcome;
 
+use langpack::{Language, Locale};
 use opltypes::WeightUnits;
-
-use server::langpack::{self, LangInfo, Language, Locale};
 
 // Use a single static database when testing.
 #[cfg(not(test))]
 pub type ManagedOplDb = opldb::OplDb;
 #[cfg(test)]
 pub type ManagedOplDb = &'static opldb::OplDb;
-
-// Use a single static langpack when testing.
-#[cfg(not(test))]
-pub type ManagedLangInfo = langpack::LangInfo;
-#[cfg(test)]
-pub type ManagedLangInfo = &'static langpack::LangInfo;
 
 /// Request guard for reading the "Host" HTTP header.
 pub struct Host(pub Option<String>);
@@ -33,10 +26,11 @@ impl Host {
     }
 }
 
-impl<'a, 'r> FromRequest<'a, 'r> for Host {
+#[rocket::async_trait]
+impl<'r> FromRequest<'r> for Host {
     type Error = ();
 
-    fn from_request(request: &'a Request<'r>) -> request::Outcome<Host, ()> {
+    async fn from_request(request: &'r Request<'_>) -> request::Outcome<Self, Self::Error> {
         let keys: Vec<_> = request.headers().get("Host").collect();
         match keys.len() {
             0 => Outcome::Success(Host(None)),
@@ -58,10 +52,11 @@ impl AcceptEncoding {
     }
 }
 
-impl<'a, 'r> FromRequest<'a, 'r> for AcceptEncoding {
+#[rocket::async_trait]
+impl<'r> FromRequest<'r> for AcceptEncoding {
     type Error = ();
 
-    fn from_request(request: &'a Request<'r>) -> request::Outcome<AcceptEncoding, ()> {
+    async fn from_request(request: &'r Request<'_>) -> request::Outcome<Self, Self::Error> {
         let keys: Vec<_> = request.headers().get("Accept-Encoding").collect();
         match keys.len() {
             0 => Outcome::Success(AcceptEncoding(None)),
@@ -81,10 +76,11 @@ pub enum Device {
     Mobile,
 }
 
-impl<'a, 'r> FromRequest<'a, 'r> for Device {
+#[rocket::async_trait]
+impl<'r> FromRequest<'r> for Device {
     type Error = ();
 
-    fn from_request(request: &'a Request<'r>) -> request::Outcome<Device, ()> {
+    async fn from_request(request: &'r Request<'_>) -> request::Outcome<Self, Self::Error> {
         let keys: Vec<_> = request.headers().get("User-Agent").collect();
         match keys.len() {
             1 => {
@@ -102,10 +98,22 @@ impl<'a, 'r> FromRequest<'a, 'r> for Device {
 /// Request guard for reading the "Accept-Language" HTTP header.
 pub struct AcceptLanguage(pub Option<String>);
 
-impl<'a, 'r> FromRequest<'a, 'r> for AcceptLanguage {
+#[rocket::async_trait]
+impl<'r> FromRequest<'r> for AcceptLanguage {
     type Error = ();
 
-    fn from_request(request: &'a Request<'r>) -> request::Outcome<AcceptLanguage, ()> {
+    async fn from_request(request: &'r Request<'_>) -> request::Outcome<Self, Self::Error> {
+        // Allow an "X-Default-Language" header to override Accept-Language.
+        // This allows the "ru" subdomain to always begin serving in Russian.
+        let keys: Vec<_> = request
+            .headers()
+            .get("X-Default-Language")
+            .take(1)
+            .collect();
+        if keys.len() == 1 {
+            return Outcome::Success(AcceptLanguage(Some(keys[0].to_string())));
+        }
+
         let keys: Vec<_> = request.headers().get("Accept-Language").collect();
         match keys.len() {
             0 => Outcome::Success(AcceptLanguage(None)),
@@ -115,11 +123,8 @@ impl<'a, 'r> FromRequest<'a, 'r> for AcceptLanguage {
     }
 }
 
-pub fn select_display_language(
-    languages: &AcceptLanguage,
-    cookies: &Cookies,
-) -> Language {
-    let default = Language::en;
+pub fn select_display_language(languages: &AcceptLanguage, cookies: &CookieJar<'_>) -> Language {
+    const DEFAULT_LANGUAGE: Language = Language::en;
 
     // The user may explicitly override the language choice by using
     // a cookie named "lang".
@@ -132,27 +137,18 @@ pub fn select_display_language(
     // If a language was not explicitly selected, the Accept-Language HTTP
     // header is consulted, defaulting to English.
     match &languages.0 {
-        Some(s) => {
-            // TODO: It would be better if this vector was static.
-            let known_languages: Vec<String> = Language::string_list();
-            let borrowed: Vec<&str> =
-                known_languages.iter().map(|s| s.as_ref()).collect();
-            let valid_languages = accept_language::intersection(&s, borrowed);
-
-            if valid_languages.is_empty() {
-                default
-            } else {
-                valid_languages[0].parse::<Language>().unwrap_or(default)
-            }
-        }
-        None => default,
+        Some(userlist) => accept_language::intersection(userlist, &Language::string_list())
+            .first()
+            .and_then(|lang| lang.parse::<Language>().ok())
+            .unwrap_or(DEFAULT_LANGUAGE),
+        None => DEFAULT_LANGUAGE,
     }
 }
 
 pub fn select_weight_units(
     languages: &AcceptLanguage,
     language: Language,
-    cookies: &Cookies,
+    cookies: &CookieJar<'_>,
 ) -> WeightUnits {
     // The user may explicitly override the weight unit choice by using
     // a cookie named "units".
@@ -177,30 +173,29 @@ pub fn select_weight_units(
     language.default_units()
 }
 
-pub fn make_locale<'db>(
-    langinfo: &'db LangInfo,
-    lang: Option<String>,
+pub fn make_locale(
+    lang: Option<&str>,
     languages: AcceptLanguage,
-    cookies: &Cookies,
-) -> Locale<'db> {
+    cookies: &CookieJar<'_>,
+) -> Locale {
     let language = match lang.and_then(|s| s.parse::<Language>().ok()) {
-        // Allow an explicit "lang" GET parameter the "lang" cookie.
+        // Allow an explicit "lang" GET parameter.
         Some(lang) => lang,
         // Otherwise, consult the cookies or defaults.
-        None => select_display_language(&languages, &cookies),
+        None => select_display_language(&languages, cookies),
     };
 
-    let units = select_weight_units(&languages, language, &cookies);
-    Locale::new(&langinfo, language, units)
+    let units = select_weight_units(&languages, language, cookies);
+    Locale::new(language, units)
 }
 
 /// Return type for pre-rendered Json strings.
 #[derive(Debug)]
 pub struct JsonString(pub String);
 
-impl Responder<'static> for JsonString {
-    fn respond_to(self, req: &Request) -> response::Result<'static> {
-        content::Json(self.0).respond_to(req)
+impl<'r> Responder<'r, 'static> for JsonString {
+    fn respond_to(self, req: &'r Request) -> response::Result<'static> {
+        content::RawJson(self.0).respond_to(req)
     }
 }
 
@@ -217,4 +212,41 @@ pub struct RankingsApiQuery {
 pub struct SearchRankingsApiQuery {
     pub q: String,
     pub start: usize,
+}
+
+/// Generates a templated email link for Instagram / birth date queries.
+pub fn get_instagram_dob_email_template() -> String {
+    let subject = "Instagram or Date of Birth update";
+
+    let lines = [
+        "Hi OpenPowerlifting team,",
+        "",
+        "Could you make these changes for me please?",
+        "OpenPowerlifting profile link: ",
+        "Instagram handle: ",
+        "Date of birth (optional, YYYY-MM-DD): ",
+        "",
+        "Thanks, ",
+    ];
+
+    generate_email_template_link(subject, &lines)
+}
+
+/// Generates a templated email link for name correction queries.
+pub fn get_name_correction_email_template() -> String {
+    let subject = "Name correction";
+    let lines = ["OpenPowerlifting profile link: ", "Corrected name: "];
+
+    generate_email_template_link(subject, &lines)
+}
+
+/// Generates a templated email link from a given subject and lines that should be in the body.
+fn generate_email_template_link<const N: usize>(subject: &str, body_lines: &[&str; N]) -> String {
+    let address = "issues@openpowerlifting.org";
+    let subject = urlencoding::encode(subject);
+
+    let body = body_lines.join("\n");
+    let body = urlencoding::encode(&body);
+
+    format!("mailto:{address}?subject={subject}&body={body}")
 }

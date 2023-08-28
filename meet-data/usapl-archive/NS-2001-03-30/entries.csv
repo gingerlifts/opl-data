@@ -79,7 +79,7 @@ L. Lanoux,60,F-V,56.9,125,50,130,305,F,SBD,Single-ply,4
 C. Balcer,60,F-V,58.3,110,77.5,127.5,315,F,SBD,Single-ply,3
 G. Cruz,60,F-V,58.5,112.5,55,135,302.5,F,SBD,Single-ply,5
 S. DenCausse,60,F-V,59.6,107.5,52.5,142.5,302.5,F,SBD,Single-ply,6
-J. Morello,60,F-V,57.5,117.5,50,132.5,300,F,SBD,Single-ply,7
+Jan Morello,60,F-V,57.5,117.5,50,132.5,300,F,SBD,Single-ply,7
 L. Molbert,60,F-V,59.6,107.5,55,127.5,290,F,SBD,Single-ply,8
 A. Ford,60,F-V,59.7,115,55,117.5,287.5,F,SBD,Single-ply,9
 K. Bord,60,F-V,58.5,105,52.5,120,277.5,F,SBD,Single-ply,10
@@ -99,8 +99,8 @@ M. Martin,67.5,F-JV,66.6,90,47.5,110,247.5,F,SBD,Single-ply,7
 A. Bordeaux,67.5,F-JV,62.7,90,45,110,245,F,SBD,Single-ply,8
 G. Mertzig,67.5,F-JV,66.4,90,45,107.5,242.5,F,SBD,Single-ply,9
 M. Wilcoxson,67.5,F-JV,64.4,82.5,52.5,90,225,F,SBD,Single-ply,12
-R. Niedrkorn,67.5,F-V,62.3,160,87.5,162.5,410,F,SBD,Single-ply,1
-A. Sanders,67.5,F-V,66.6,142.5,62.5,155,360,F,SBD,Single-ply,2
+Robyn Niederkorn,67.5,F-V,62.3,160,87.5,162.5,410,F,SBD,Single-ply,1
+Ashley Sanders #1,67.5,F-V,66.6,142.5,62.5,155,360,F,SBD,Single-ply,2
 H. Sterrick,67.5,F-V,64.2,150,62.5,142.5,355,F,SBD,Single-ply,3
 A. Munkiewicz,67.5,F-V,63.6,137.5,60,147.5,345,F,SBD,Single-ply,4
 T. Miles,67.5,F-V,65.3,130,62.5,145,337.5,F,SBD,Single-ply,5
@@ -114,7 +114,7 @@ K. Michiefs,67.5,F-V,66.7,120,57.5,125,302.5,F,SBD,Single-ply,12
 J. Raehl,67.5,F-V,64.4,100,50,137.5,287.5,F,SBD,Single-ply,13
 L. Keller,67.5,F-V,66.4,100,55,132.5,287.5,F,SBD,Single-ply,14
 L. Fayerwether,67.5,F-V,64.7,102.5,57.5,122.5,282.5,F,SBD,Single-ply,15
-P. White,67.5,F-V,65.6,122.5,55,102.5,280,F,SBD,Single-ply,16
+P. White #3,67.5,F-V,65.6,122.5,55,102.5,280,F,SBD,Single-ply,16
 A. Haiderson,67.5,F-V,65.8,95,57.5,115,267.5,F,SBD,Single-ply,17
 C. Hawkins,67.5,F-V,63.5,95,52.5,112.5,260,F,SBD,Single-ply,18
 J. Johnson,67.5,F-V,64.8,97.5,42.5,102.5,242.5,F,SBD,Single-ply,19
@@ -135,7 +135,7 @@ G. Rhiannon,75,F-V,70.7,115,62.5,137.5,315,F,SBD,Single-ply,6
 A. Ecker,75,F-V,70.8,120,47.5,137.5,305,F,SBD,Single-ply,7
 A. Hampton,75,F-V,74.1,127.5,42.5,127.5,297.5,F,SBD,Single-ply,8
 A. Schmidt,75,F-V,72,105,60,127.5,292.5,F,SBD,Single-ply,9
-M. Dean,75,F-V,72.4,115,47.5,130,292.5,F,SBD,Single-ply,10
+M. Dean #1,75,F-V,72.4,115,47.5,130,292.5,F,SBD,Single-ply,10
 K. Smoot,75,F-V,70.7,97.5,52.5,140,290,F,SBD,Single-ply,11
 C. Clark,75,F-V,72.6,100,52.5,127.5,280,F,SBD,Single-ply,12
 M. Severson,75,F-V,70.2,102.5,55,117.5,275,F,SBD,Single-ply,13
@@ -143,9 +143,9 @@ C. Martin,75,F-V,73,,,,,F,SBD,Single-ply,DQ
 A. Kummel,82.5,F-JV,80.1,125,65,142.5,332.5,F,SBD,Single-ply,1
 S. Lind,82.5,F-JV,76.1,112.5,55,122.5,290,F,SBD,Single-ply,2
 E. Rolfe,82.5,F-JV,76.6,90,55,90,235,F,SBD,Single-ply,3
-J. Haynes,82.5,F-V,75.1,155,70,172.5,397.5,F,SBD,Single-ply,1
+Jessica Haynes,82.5,F-V,75.1,155,70,172.5,397.5,F,SBD,Single-ply,1
 K. Baker,82.5,F-V,81.3,147.5,75,165,387.5,F,SBD,Single-ply,2
-T. Sommers,82.5,F-V,76.9,155,57.5,165,377.5,F,SBD,Single-ply,3
+Tiffany Sommers,82.5,F-V,76.9,155,57.5,165,377.5,F,SBD,Single-ply,3
 K. McCoy,82.5,F-V,79.3,142.5,80,147.5,370,F,SBD,Single-ply,4
 M. Enxing,82.5,F-V,79.6,140,62.5,137.5,340,F,SBD,Single-ply,5
 J. Klein,82.5,F-V,80.8,105,57.5,127.5,290,F,SBD,Single-ply,6
@@ -221,13 +221,13 @@ J. Devine,60,M-V,59,135,80,160,375,M,SBD,Single-ply,11
 Eric Komperud,60,M-V,59.7,135,80,167.5,382.5,M,SBD,Single-ply,10
 J. Klopp,60,M-V,59.9,155,65,142.5,362.5,M,SBD,Single-ply,12
 D. Maurer,60,M-V,58.8,115,70,167.5,352.5,M,SBD,Single-ply,13
-P. White,60,M-V,58.6,130,72.5,137.5,340,M,SBD,Single-ply,14
+P. White #2,60,M-V,58.6,130,72.5,137.5,340,M,SBD,Single-ply,14
 J. Montrovadi,60,M-V,58,105,70,152.5,327.5,M,SBD,Single-ply,15
 J. Tomei,60,M-V,59.4,107.5,55,137.5,300,M,SBD,Single-ply,16
 M. Sorg,60,M-V,59.1,160,,,,M,SBD,Single-ply,DQ
 N. Pinkerman,67.5,M-JV,65.8,172.5,120,200,492.5,M,SBD,Single-ply,1
 W. LittleJohn,67.5,M-JV,66.8,180,100,187.5,467.5,M,SBD,Single-ply,2
-C. Bryant,67.5,M-JV,65.9,175,87.5,200,462.5,M,SBD,Single-ply,3
+C. Bryant #2,67.5,M-JV,65.9,175,87.5,200,462.5,M,SBD,Single-ply,3
 J. Jacobs,67.5,M-JV,64.9,152.5,85,170,407.5,M,SBD,Single-ply,4
 M. Cosgrove,67.5,M-JV,67,142.5,92.5,170,405,M,SBD,Single-ply,5
 M. Komperud,67.5,M-JV,67.1,145,90,165,400,M,SBD,Single-ply,6
@@ -394,14 +394,14 @@ D. Lysaker,125,M-JV,116.4,190,110,192.5,492.5,M,SBD,Single-ply,3
 B. Gallimore,125,M-JV,112.4,147.5,95,162.5,405,M,SBD,Single-ply,4
 K. Hunt,125,M-V,124.5,320,192.5,285,797.5,M,SBD,Single-ply,1
 G. Theriot,125,M-V,117.5,280,145,265,690,M,SBD,Single-ply,2
-D. Sharon,125,M-V,122.5,272.5,172.5,215,660,M,SBD,Single-ply,3
+David Sharon,125,M-V,122.5,272.5,172.5,215,660,M,SBD,Single-ply,3
 C. Madden #1,125,M-V,116,232.5,145,227.5,605,M,SBD,Single-ply,4
 V. Santana,125,M-V,122,192,150,245,587,M,SBD,Single-ply,5
 P. Osborn,125,M-V,111.9,235,140,210,585,M,SBD,Single-ply,6
 J. Smith #9,125,M-V,111.2,217.5,122.5,215,555,M,SBD,Single-ply,7
 N. Bagley,125,M-V,110.6,205,120,190,515,M,SBD,Single-ply,8
 R. McKone,125,M-V,123.2,200,112.5,192.5,505,M,SBD,Single-ply,9
-J. Craig,125,M-V,110.2,185,125,180,490,M,SBD,Single-ply,10
+J. Craig #2,125,M-V,110.2,185,125,180,490,M,SBD,Single-ply,10
 B. Tew,125,M-V,113.1,175,127.5,187.5,490,M,SBD,Single-ply,11
 B. Johnson,125,M-V,121.7,180,92.5,200,472.5,M,SBD,Single-ply,12
 T. Wallace,125,M-V,112.5,160,107.5,190,457.5,M,SBD,Single-ply,13
@@ -419,5 +419,5 @@ N. Tofferi,125+,M-V,137.2,250,187.5,220,657.5,M,SBD,Single-ply,7
 K. Settles,125+,M-V,126.3,282.5,117.5,245,645,M,SBD,Single-ply,8
 C. Martin,125+,M-V,125.4,260,155,227.5,642.5,M,SBD,Single-ply,9
 R. Waldron,125+,M-V,128.7,227.5,147.5,217.5,592.5,M,SBD,Single-ply,10
-D. Jones,125+,M-V,141,212.5,137.5,227.5,577.5,M,SBD,Single-ply,11
+D. Jones #7,125+,M-V,141,212.5,137.5,227.5,577.5,M,SBD,Single-ply,11
 J. Bilskemper,125+,M-V,144.7,,,,,M,SBD,Single-ply,DQ

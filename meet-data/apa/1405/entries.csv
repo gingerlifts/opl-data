@@ -1,7 +1,7 @@
 Name,BodyweightKg,WeightClassKg,Equipment,Division,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Event,Sex
 Ross Well,58.97,60,Wraps,Open,120,125,-130,125,-80,-80,-80,,142.5,152.5,-160,152.5,,DQ,SBD,M
-Christopher Balance,74.39,75,Wraps,Open,210,220,-230,220,137.5,142.5,,142.5,247.5,260,-267.5,260,622.5,1,SBD,M
-Christopher Balance,74.39,75,Wraps,Police/Fire,210,220,-230,220,137.5,142.5,,142.5,247.5,260,-267.5,260,622.5,1,SBD,M
+Chris Ballance,74.39,75,Wraps,Open,210,220,-230,220,137.5,142.5,,142.5,247.5,260,-267.5,260,622.5,1,SBD,M
+Chris Ballance,74.39,75,Wraps,Police/Fire,210,220,-230,220,137.5,142.5,,142.5,247.5,260,-267.5,260,622.5,1,SBD,M
 Josh Frantz,72.89,75,Wraps,Juniors 20-23,175,192.5,-202.5,192.5,-102.5,102.5,-115,102.5,182.5,195,-205,195,490,1,SBD,M
 Andy Hingsbergen,72.71,75,Wraps,Juniors 20-23,140,147.5,-157.5,147.5,92.5,-102.5,-102.5,92.5,185,200,205,205,445,2,SBD,M
 Sam Comshaw-Arnold,70.44,75,Wraps,Teen 16-17,122.5,132.5,142.5,142.5,87.5,97.5,-107.5,97.5,155,175,190,190,430,1,SBD,M
@@ -57,8 +57,8 @@ Melissa Stevens,55.02,56,Wraps,Open,85,95,110,110,-57.5,57.5,-62.5,57.5,132.5,-1
 Mary Schmidt,54.2,56,Wraps,Open,77.5,-95,95,95,45,-52.5,-52.5,45,105,122.5,132.5,132.5,272.5,2,SBD,F
 Mary Schmidt,54.2,56,Wraps,Juniors 20-23,77.5,-95,95,95,45,-52.5,-52.5,45,105,122.5,132.5,132.5,272.5,1,SBD,F
 Maria Blazek,55.16,56,Wraps,Juniors 20-23,85,92.5,-100,92.5,52.5,57.5,-60,57.5,102.5,107.5,-112.5,107.5,257.5,2,SBD,F
-Delores Lissfelt,55.2,56,Wraps,Open,80,87.5,92.5,92.5,50,-55,-55,50,97.5,105,107.5,107.5,250,2,SBD,F
-Delores Lissfelt,55.2,56,Wraps,Masters 45-49,80,87.5,92.5,92.5,50,-55,-55,50,97.5,105,107.5,107.5,250,1,SBD,F
+Mary Lissfelt,55.2,56,Wraps,Open,80,87.5,92.5,92.5,50,-55,-55,50,97.5,105,107.5,107.5,250,2,SBD,F
+Mary Lissfelt,55.2,56,Wraps,Masters 45-49,80,87.5,92.5,92.5,50,-55,-55,50,97.5,105,107.5,107.5,250,1,SBD,F
 Janine Schuette,54.02,56,Wraps,Juniors 20-23,55,62.5,-67.5,62.5,30,35,-37.5,35,80,92.5,97.5,97.5,195,3,SBD,F
 Lily Starobin,58.51,60,Wraps,Open,65,82.5,87.5,87.5,52.5,60,-65,60,112.5,127.5,137.5,137.5,285,1,SBD,F
 Maggie Kuhn,58.2,60,Wraps,Masters 50-54,75,80,-85,80,50,55,-57.5,55,85,92.5,-102.5,92.5,227.5,1,SBD,F

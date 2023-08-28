@@ -17,7 +17,7 @@ Freshmen,67.13,6,Tyler Scott,Goliad,62.6,68.04,61.23,102.06,231.33,Single-ply,SB
 Freshmen,74.84,1,Rene Perez,San Diego,73.57,161.03,83.91,147.42,392.36,Single-ply,SBD,M
 Freshmen,74.84,2,Taylor Shearer,Pleasanton,68.49,136.08,70.31,149.69,356.07,Single-ply,SBD,M
 Freshmen,74.84,3,Ricky de la Paz,San Diego,72.12,102.06,72.57,124.74,299.37,Single-ply,SBD,M
-Freshmen,82.1,1,Joe Castillo,Corpus Christi West Oso,80.38,161.03,72.57,142.88,376.48,Single-ply,SBD,M
+Freshmen,82.1,1,Joe Castillo #1,Corpus Christi West Oso,80.38,161.03,72.57,142.88,376.48,Single-ply,SBD,M
 Freshmen,82.1,2,Marco Soliz,Orange Grove,80.83,149.69,72.57,142.88,365.14,Single-ply,SBD,M
 Freshmen,89.81,3,Garrett Holliss,Pleasanton,82.28,124.74,74.84,147.42,347,Single-ply,SBD,M
 Freshmen,82.1,4,Austin Block,Karnes City,81.83,127.01,68.04,124.74,319.78,Single-ply,SBD,M
@@ -51,12 +51,12 @@ Varsity,59.87,3,Cole Jackson,San Antonio Southside,56.02,138.35,74.84,145.15,358
 Varsity,55.79,4,Donovan Wilson,Aransas Pass,53.61,136.08,70.31,120.2,326.59,Single-ply,SBD,M
 Varsity,59.87,1,Caleb Gale,Somerset,58.79,154.22,79.38,181.44,415.04,Single-ply,SBD,M
 Varsity,59.87,2,Marquis Barrolle,Ingleside,57.88,147.42,102.06,161.03,410.5,Single-ply,SBD,M
-Varsity,59.87,3,Richard Brown,Orange Grove,59.33,149.69,79.38,165.56,394.63,Single-ply,SBD,M
+Varsity,59.87,3,Richard Brown #4,Orange Grove,59.33,149.69,79.38,165.56,394.63,Single-ply,SBD,M
 Varsity,67.13,4,Ray Valdez,Orange Grove,59.96,142.88,77.11,165.56,385.55,Single-ply,SBD,M
 Varsity,59.87,5,Dean Boniface,Goliad,59.33,131.54,83.91,167.83,383.29,Single-ply,SBD,M
 Varsity,59.87,6,Joe Boone,Goliad,59.06,120.2,72.57,149.69,342.46,Single-ply,SBD,M
 Varsity,59.87,7,Myles Parker,Goliad,59.33,97.52,74.84,133.81,306.17,Single-ply,SBD,M
-Varsity,67.13,1,Andrew Harris,San Antonio Southside,66.86,204.12,90.72,197.31,492.15,Single-ply,SBD,M
+Varsity,67.13,1,Andrew Harris #5,San Antonio Southside,66.86,204.12,90.72,197.31,492.15,Single-ply,SBD,M
 Varsity,74.84,2,Ozzie Verela,Somerset,67.31,188.24,97.52,185.97,471.74,Single-ply,SBD,M
 Varsity,67.13,3,Jonathan Ibarra,Somerset,61.14,165.56,83.91,181.44,430.91,Single-ply,SBD,M
 Varsity,67.13,4,Aaron Lopez,Jourdanton,64.86,158.76,90.72,163.29,412.77,Single-ply,SBD,M
@@ -69,11 +69,11 @@ Varsity,74.84,2,Nocky Garza,Bishop,73.94,219.99,129.27,195.04,544.31,Single-ply,
 Varsity,74.84,3,Del Ryan Alvarez,Somerset,72.76,204.12,113.4,195.04,512.56,Single-ply,SBD,M
 Varsity,74.84,4,Thomas Garcia,Dilley,72.94,172.37,111.13,199.58,483.08,Single-ply,SBD,M
 Varsity,74.84,5,Andrew Martinez,Somerset,70.08,149.69,113.4,183.7,446.79,Single-ply,SBD,M
-Varsity,74.84,6,Eddie Flores,Dilley,70.49,170.1,99.79,165.56,435.45,Single-ply,SBD,M
+Varsity,74.84,6,Edison Flores,Dilley,70.49,170.1,99.79,165.56,435.45,Single-ply,SBD,M
 Varsity,74.84,7,Levi House,Jourdanton,71.76,174.63,88.45,172.37,435.45,Single-ply,SBD,M
 Varsity,74.84,8,Jp Escobar,Bishop,71.49,154.22,106.59,167.83,428.64,Single-ply,SBD,M
 Varsity,74.84,9,Tyler Wright,Orange Grove,70.58,149.69,83.91,188.24,421.84,Single-ply,SBD,M
-Varsity,74.84,10,David Perez,Bishop,72.85,142.88,92.99,147.42,383.29,Single-ply,SBD,M
+Varsity,74.84,10,David Perez #3,Bishop,72.85,142.88,92.99,147.42,383.29,Single-ply,SBD,M
 Varsity,74.84,11,Robert Moctezuma,San Diego,73.12,151.95,77.11,151.95,381.02,Single-ply,SBD,M
 Varsity,74.84,12,Mason Garcilazo,Aransas Pass,67.86,133.81,70.31,129.27,333.39,Single-ply,SBD,M
 Varsity,82.1,1,Raydell Perez,Ingleside,80.29,215.46,167.83,242.67,625.96,Single-ply,SBD,M
@@ -123,11 +123,11 @@ Varsity,109.77,10,Clark Pustka,Goliad,109.77,183.7,129.27,176.9,489.88,Single-pl
 Varsity,109.77,11,Justin Ibarra,Corpus Christi West Oso,108.59,204.12,99.79,179.17,483.08,Single-ply,SBD,M
 Varsity,109.77,12,Larry Vidales,Somerset,108.41,181.44,90.72,190.51,462.66,Single-ply,SBD,M
 Varsity,109.77,13,Daniel Casarez,Somerset,108.77,158.76,113.4,183.7,455.86,Single-ply,SBD,M
-Varsity,124.74,1,Brandon Rodriguez,Somerset,120.38,319.78,124.74,231.33,675.85,Single-ply,SBD,M
-Varsity,124.74,2,Albert Mata,San Antonio Southside,114.67,249.48,156.49,229.06,635.03,Single-ply,SBD,M
+Varsity,124.74,1,Brandon Rodriguez #4,Somerset,120.38,319.78,124.74,231.33,675.85,Single-ply,SBD,M
+Varsity,124.74,2,Albert Mata #3,San Antonio Southside,114.67,249.48,156.49,229.06,635.03,Single-ply,SBD,M
 Varsity,124.74,3,Alfred Godines,Somerset,112.85,226.8,165.56,204.12,596.47,Single-ply,SBD,M
 Varsity,124.74,4,Jose Alvarado #4,Somerset,113.76,226.8,113.4,192.78,532.97,Single-ply,SBD,M
-Varsity,124.74,5,John Mendoza,Karnes City,120.11,206.38,124.74,201.85,532.97,Single-ply,SBD,M
+Varsity,124.74,5,John Mendoza #3,Karnes City,120.11,206.38,124.74,201.85,532.97,Single-ply,SBD,M
 Varsity,124.74,6,Tyler Verette,Jourdanton,121.56,195.04,133.81,190.51,519.36,Single-ply,SBD,M
 Varsity,124.74,7,Manuel Tijerina,Jourdanton,123.65,176.9,111.13,204.12,492.15,Single-ply,SBD,M
 Varsity,124.74,8,Aaron Kuecker,Goliad,122.92,165.56,120.2,170.1,455.86,Single-ply,SBD,M

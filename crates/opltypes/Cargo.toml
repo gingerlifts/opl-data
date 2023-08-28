@@ -1,0 +1,23 @@
+[package]
+name = "opltypes"
+version = "0.2.0"
+authors = ["Sean Stangl <sean.stangl@gmail.com>", "Matt Pearce <matt@openpowerlifting.org>"]
+description = "Datatypes for the OpenPowerlifting database format."
+license = "AGPL-3.0-or-later"
+edition = "2021"
+
+[dependencies]
+arrayvec = "0.7"
+ascii = "1.0"
+serde = "1.0"
+serde_derive = "1.0"
+strum = "0.25"
+strum_macros = "0.25"
+
+[dev-dependencies]
+criterion = { version = "0.5", features = ["html_reports"] }
+serde_json = "1.0"
+
+[[bench]]
+name = "username"
+harness = false

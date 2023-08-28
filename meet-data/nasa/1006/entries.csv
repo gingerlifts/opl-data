@@ -27,7 +27,7 @@ Place,WeightClassKg,Name,State,BodyweightKg,Division,Sex,Best3SquatKg,Best3Bench
 2,75,Scott Phillips,WV,74.48,bpm2,M,,105,,105,B,Raw
 1,110,Robert Bernecke,FL,104.33,bpm2,M,,160,,160,B,Raw
 1,82.5,Larry Donahue,OH,80.78,bpm3,M,,107.5,,107.5,B,Raw
-1,90,Greg Martin,OH,88.18,bpm5,M,,137.5,,137.5,B,Raw
+1,90,Greg Martin,OH,88.18,bpmp,M,,137.5,,137.5,B,Raw
 1,100,John Brooks,KY,97.25,bpmp,M,,207.5,,207.5,B,Raw
 1,140,Joseph Behari,OH,129.32,bpmp,M,,207.5,,207.5,B,Raw
 1,67.5,Robert Fox,MI,67.45,bpopen,M,,140,,140,B,Raw
@@ -42,7 +42,7 @@ Place,WeightClassKg,Name,State,BodyweightKg,Division,Sex,Best3SquatKg,Best3Bench
 1,75,Jeremy Woods,OH,74.53,bpsm2,M,,152.5,,152.5,B,Raw
 1,125,Chris Spencer,OH,111.08,bpsm2,M,,145,,145,B,Raw
 DQ,110,Kyle Abney,OH,107.09,bpteen,M,,-152.5,,,B,Raw
-1,67.5,Marc Anthony van der Molen,OH,63.91,hs,M,155,75,172.5,402.5,SBD,Wraps
+1,67.5,Marcanthony Vandermolen,OH,63.91,hs,M,155,75,172.5,402.5,SBD,Wraps
 1,82.5,Chase McDaniel,KY,82.42,hs,M,215,120,190,525,SBD,Wraps
 2,82.5,Ryan Lackey,OH,79.38,hs,M,155,77.5,182.5,415,SBD,Wraps
 1,140,Andrew King,KY,137.71,hs,M,227.5,170,217.5,615,SBD,Wraps
@@ -53,7 +53,7 @@ DQ,125,Alex Hamblin,OH,111.13,int,M,190,-135,,,SBD,Wraps
 1,60,Orlando Ruiz,OH,57.65,jr,M,90,60,145,295,SBD,Wraps
 1,75,Tyler Franz,OH,73.84,jr,M,205,112.5,222.5,540,SBD,Wraps
 1,67.5,Robert Fox,MI,67.45,m1,M,160,140,185,485,SBD,Wraps
-1,90,Allen Dubois,OH,88.27,m1,M,165,100,197.5,462.5,SBD,Wraps
+1,90,Allen DuBois,OH,88.27,m1,M,165,100,197.5,462.5,SBD,Wraps
 1,100,John Brooks,KY,97.25,m1,M,277.5,207.5,245,730,SBD,Wraps
 2,100,Ron Nichols,IN,93.49,m1,M,220,147.5,272.5,640,SBD,Wraps
 1,75,Scott Phillips,WV,74.48,m2,M,137.5,105,167.5,410,SBD,Wraps
@@ -104,8 +104,8 @@ DQ,125,Alex Hamblin,OH,111.13,pure,M,190,-135,,,SBD,Wraps
 1,140,Andrew King,KY,137.71,hs,M,,170,217.5,387.5,BD,Single-ply
 1,82.5,Russell Hutchins,NC,80.24,jr,M,,112.5,170,282.5,BD,Single-ply
 1,82.5,Pete Miller,VA,79.83,m3,M,,85,170,255,BD,Single-ply
-1,140+,Daniel Gonzales,OK,162.98,pure,M,,200,260,460,BD,Single-ply
+1,140+,Daniel Gonzales #5,OK,162.98,pure,M,,200,260,460,BD,Single-ply
 1,140,Chuck Williams,IN,126.19,sm1,M,,170,257.5,427.5,BD,Single-ply
 1,140,Chuck Williams,IN,126.19,smp,M,,170,257.5,427.5,BD,Single-ply
-1,82.5,Ryan Stewart,OH,78.02,teen,M,,122.5,182.5,305,BD,Single-ply
+1,82.5,Ryan Stewart #5,OH,78.02,teen,M,,122.5,182.5,305,BD,Single-ply
 1,56,Heather Core,OH,54.57,wteen,F,,45,120,165,BD,Single-ply

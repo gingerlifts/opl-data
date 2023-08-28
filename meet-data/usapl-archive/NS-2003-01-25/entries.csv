@@ -1,7 +1,7 @@
 WeightClassKg,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Division,Event,Equipment,Sex,Place
 44,Ann Leverett,120,72.5,147.5,340,F-O,SBD,Single-ply,F,1
 44,Ashley Robbins,125,70,122.5,317.5,F-O,SBD,Single-ply,F,2
-44,Cathy Solan,112.5,55,130,297.5,F-O,SBD,Single-ply,F,3
+44,Catherine Solan,112.5,55,130,297.5,F-O,SBD,Single-ply,F,3
 44,Erin Dickey,95,60,130,285,F-O,SBD,Single-ply,F,4
 44,Donna Aliminosa,82.5,45,115,242.5,F-O,SBD,Single-ply,F,5
 44,Barb Sieps,,,,,F-O,SBD,Single-ply,F,DQ
@@ -22,10 +22,10 @@ WeightClassKg,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Division,Ev
 60,Veronica Aguila,147.5,87.5,147.5,382.5,F-O,SBD,Single-ply,F,6
 60,Jessica Kratz,122.5,72.5,137.5,332.5,F-O,SBD,Single-ply,F,7
 60,Michelle James,120,47.5,150,317.5,F-O,SBD,Single-ply,F,8
-60,Judy Drenth,,,,,F-O,SBD,Single-ply,F,DQ
+60,Judith Drenth,,,,,F-O,SBD,Single-ply,F,DQ
 60,Angie Overdeer,,,,,F-O,SBD,Single-ply,F,DQ
 67.5,Priscilla Ribic,215,125,202.5,542.5,F-O,SBD,Single-ply,F,1
-67.5,Rebecca Phelps,180,95,192.5,467.5,F-O,SBD,Single-ply,F,2
+67.5,Rebecca Roberts #1,180,95,192.5,467.5,F-O,SBD,Single-ply,F,2
 67.5,Christy Newman,152.5,122.5,172.5,447.5,F-O,SBD,Single-ply,F,3
 67.5,Theresa Kunsman,155,100,172.5,427.5,F-O,SBD,Single-ply,F,4
 67.5,Laura Styrlund,145,92.5,167.5,405,F-O,SBD,Single-ply,F,5
@@ -42,14 +42,14 @@ WeightClassKg,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Division,Ev
 82.5,Jessica Watkins,227.5,127.5,215,570,F-O,SBD,Single-ply,F,1
 82.5,Cathy Martin,160,97.5,165,422.5,F-O,SBD,Single-ply,F,2
 82.5,Malinda Baum,137.5,85,165,387.5,F-O,SBD,Single-ply,F,3
-90,Linda Schaefer,140,85,192.5,417.5,F-O,SBD,Single-ply,F,1
+90,Linda Schaefer-Hanley,140,85,192.5,417.5,F-O,SBD,Single-ply,F,1
 90,Disa Hatfield,,,,,F-O,SBD,Single-ply,F,DQ
 90+,Liz Willett,277.5,175,210,662.5,F-O,SBD,Single-ply,F,1
 90+,Harriet Hall,213,140,205,558,F-O,SBD,Single-ply,F,2
 90+,Sue Hallen,167.5,110,150,427.5,F-O,SBD,Single-ply,F,3
 90+,Domonique Calhoun,142.5,97.5,175,415,F-O,SBD,Single-ply,F,4
 90+,Iilani Taylor,147.5,77.5,162.5,387.5,F-O,SBD,Single-ply,F,5
-90+,Debbie Ferrell,,,,,F-O,SBD,Single-ply,F,DQ
+90+,Deborah Ferrell,,,,,F-O,SBD,Single-ply,F,DQ
 44,Megan Bruischart,95,42.5,77.5,215,F-T1,SBD,Single-ply,F,1
 60,Kala McCauley,142.5,62.5,155,360,F-T1,SBD,Single-ply,F,1
 67.5,Molly Dennany,147.5,85,155,387.5,F-T1,SBD,Single-ply,F,1
@@ -93,7 +93,7 @@ WeightClassKg,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Division,Ev
 75,Sirena Lundsford,107.5,75,120,302.5,F-Jr,SBD,Single-ply,F,2
 82.5,Jessica Watkins,227.5,127.5,215,570,F-Jr,SBD,Single-ply,F,1
 82.5,Lacy Picou,155,62.5,162.5,380,F-Jr,SBD,Single-ply,F,2
-44,Cathy Solan,112.5,55,130,297.5,F-M1a,SBD,Single-ply,F,1
+44,Catherine Solan,112.5,55,130,297.5,F-M1a,SBD,Single-ply,F,1
 52,Dana Deutsh,105.5,60,125,290.5,F-M1a,SBD,Single-ply,F,1
 52,Vera Nelson,97.5,50,115,262.5,F-M1a,SBD,Single-ply,F,2
 56,Gina Stepleton,82.5,45,110,237.5,F-M1a,SBD,Single-ply,F,1
@@ -102,10 +102,10 @@ WeightClassKg,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Division,Ev
 56,Lanette Lopez,,,,,F-M1a,SBD,Single-ply,F,DQ
 60,Bettina Altizer,187.5,127.5,167.5,482.5,F-M1a,SBD,Single-ply,F,1
 60,Angela Simons,127.5,100,142.5,370,F-M1a,SBD,Single-ply,F,2
-60,Judy Drenth,,,,,F-M1a,SBD,Single-ply,F,DQ
+60,Judith Drenth,,,,,F-M1a,SBD,Single-ply,F,DQ
 75,Deanna Chaney,157.5,115,192.5,465,F-M1a,SBD,Single-ply,F,1
 82.5,Malinda Baum,137.5,85,165,387.5,F-M1a,SBD,Single-ply,F,1
-90,Linda Schaefer,140,85,192.5,417.5,F-M1a,SBD,Single-ply,F,1
+90,Linda Schaefer-Hanley,140,85,192.5,417.5,F-M1a,SBD,Single-ply,F,1
 90,Paulette Calhoun,127.5,107.5,125,360,F-M1a,SBD,Single-ply,F,2
 90,Holly Oxford,,,,,F-M1a,SBD,Single-ply,F,DQ
 90+,Iilani Taylor,147.5,77.5,152.5,377.5,F-M1a,SBD,Single-ply,F,1

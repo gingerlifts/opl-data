@@ -1,7 +1,8 @@
 //! Defines MeetData, the owner of all meet-related data produced by the
 //! Checker.
 
-use std::collections::HashMap;
+use fxhash::{FxBuildHasher, FxHashMap};
+use opltypes::Username;
 
 use crate::checklib::{Entry, Meet};
 
@@ -61,7 +62,7 @@ impl EntryIndex {
 ///
 /// Note that because internal self-references are disallowed, this map
 /// must maintain a copy of the String and EntryIndex.
-pub type LifterMap = HashMap<String, Vec<EntryIndex>>;
+pub type LifterMap = FxHashMap<Username, Vec<EntryIndex>>;
 
 impl From<Vec<SingleMeetData>> for AllMeetData {
     fn from(v: Vec<SingleMeetData>) -> AllMeetData {
@@ -71,17 +72,17 @@ impl From<Vec<SingleMeetData>> for AllMeetData {
 
 impl AllMeetData {
     /// Borrows the meet data immutably.
-    pub fn get_meets(&self) -> &[SingleMeetData] {
+    pub fn meets(&self) -> &[SingleMeetData] {
         self.meets.as_slice()
     }
 
     /// Borrows the meet data mutably. The underlying vector remains immutable.
-    pub fn get_meets_mut(&mut self) -> &mut [SingleMeetData] {
+    pub fn meets_mut(&mut self) -> &mut [SingleMeetData] {
         self.meets.as_mut_slice()
     }
 
     /// Borrows a `Meet` by `EntryIndex`.
-    pub fn get_meet(&self, index: EntryIndex) -> &Meet {
+    pub fn meet(&self, index: EntryIndex) -> &Meet {
         &self.meets[index.meetdata_index as usize].meet
     }
 
@@ -90,13 +91,13 @@ impl AllMeetData {
     /// Note that because the lifetime of each Entry is equal to the lifetime
     /// of the AllMeetData, it is only possible to refer to a single Entry
     /// at a time.
-    pub fn get_entry(&self, index: EntryIndex) -> &Entry {
+    pub fn entry(&self, index: EntryIndex) -> &Entry {
         &self.meets[index.meetdata_index as usize].entries[index.entry_index as usize]
     }
 
     /// Shorthand for use in tests: constructs an EntryIndex inline.
     #[cfg(test)]
-    pub fn get_entry_at(&self, meetdata_index: usize, entry_index: usize) -> &Entry {
+    pub fn entry_at(&self, meetdata_index: usize, entry_index: usize) -> &Entry {
         &self.meets[meetdata_index].entries[entry_index]
     }
 
@@ -105,7 +106,7 @@ impl AllMeetData {
     /// Note that because the lifetime of each Entry is equal to the lifetime
     /// of the AllMeetData, it is only possible to refer to a single Entry
     /// at a time.
-    pub fn get_entry_mut(&mut self, index: EntryIndex) -> &mut Entry {
+    pub fn entry_mut(&mut self, index: EntryIndex) -> &mut Entry {
         &mut self.meets[index.meetdata_index as usize].entries[index.entry_index as usize]
     }
 
@@ -115,7 +116,7 @@ impl AllMeetData {
     /// so that the Entry can know its `SingleMeetData` context.
     pub fn create_liftermap(&mut self) -> LifterMap {
         // Initialize the LifterMap to be fairly large to avoid reallocation.
-        let mut map = LifterMap::with_capacity(400_000);
+        let mut map = LifterMap::with_capacity_and_hasher(1_000_000, FxBuildHasher::default());
 
         for (meet_index, singlemeet) in self.meets.iter_mut().enumerate() {
             for (entry_index, entry) in singlemeet.entries.iter_mut().enumerate() {
@@ -133,6 +134,14 @@ impl AllMeetData {
                     let username = entry.username.clone();
                     map.insert(username, vec![index]);
                 }
+            }
+        }
+
+        // Sort EntryIndex vectors by EntryDate.
+        // Consistency-enforcing code depends on this ordering.
+        for (_key, indices) in map.iter_mut() {
+            if indices.len() >= 2 {
+                indices.sort_unstable_by_key(|ei| self.entry(*ei).entrydate);
             }
         }
 

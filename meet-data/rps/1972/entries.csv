@@ -1,6 +1,6 @@
 Sex,Equipment,Division,WeightClassKg,Name,BirthDate,BodyweightKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Place
 F,Raw,Amateur Masters 50-54,67.5,Sue Hudson,,66.09,68.04,158.76,226.8,BD,1
-F,Raw,Police Amateur Open,67.5,Lauren Pettinelli,,67.18,70.31,133.81,204.12,BD,1
+F,Raw,Police Amateur Open,67.5,Lauren Pettinelli,1989-06-24,67.18,70.31,133.81,204.12,BD,1
 F,Raw,Amateur Masters 40-44,82.5,Shannon McPheron,,79.33,65.77,147.42,213.19,BD,1
 F,Raw,Amateur Open,82.5,Jenna Soper,,81.74,79.38,192.78,272.16,BD,1
 F,Raw,Amateur Open,110+,Kara Kiehn,,112.99,65.77,163.29,229.06,BD,1
@@ -27,7 +27,7 @@ M,Raw,Pro Open,110,Zach Mauro,,108.27,174.63,306.17,480.81,BD,1
 M,Raw,Amateur Open,125,Mike Penkin,,120.07,170.1,251.74,421.84,BD,1
 M,Raw,Amateur Open,125,Justin Leffingwell,,122.97,167.83,247.21,415.04,BD,2
 M,Raw,Amateur Open,125,Tommy Brown,,123.92,113.4,206.38,319.78,BD,3
-M,Raw,Amateur Open,125,Phil Eanniello,,122.7,124.74,181.44,306.17,BD,4
+M,Raw,Amateur Open,125,Philip Eanniello,,122.7,124.74,181.44,306.17,BD,4
 M,Raw,Pro Masters 40-44,125,Mario Jellencich,,124.74,161.03,235.87,396.89,BD,1
 M,Raw,Pro Open,125,Anthony Gifune,,124.78,174.63,278.96,453.59,BD,2
 M,Raw,Pro Open,125,Ted Damiano,,112.17,195.04,276.69,471.74,BD,1
@@ -47,6 +47,6 @@ M,Raw,Pro Masters 40-44,125,Mark Chieco,,118.02,233.6,,233.6,B,1
 M,Raw,Amateur Masters 40-44,100,Phil Davis,,98.16,,188.24,188.24,D,1
 M,Raw,Pro Submasters 33-39,100,Mike Stephens,,99.74,,294.84,294.84,D,1
 M,Raw,Amateur Masters 50-54,125,Al Velasquez,,112.26,,206.38,206.38,D,1
-M,Raw,Amateur Masters 55-59,125,Mike Brown,,123.97,,244.94,244.94,D,1
+M,Raw,Amateur Masters 55-59,125,Mike Brown #2,,123.97,,244.94,244.94,D,1
 M,Raw,Pro Masters 50-54,125,Hank Sargent,,114.53,,310.71,310.71,D,1
 M,Raw,Amateur Open,140,Toni Balijagic,,129.82,,326.59,326.59,D,1

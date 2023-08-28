@@ -2,7 +2,7 @@ Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,Best3B
 M,Mitchell Gruver,SBD,M-O,67.5,Single-ply,65.9,172.5,102.5,170,445,1993,1
 M,Nick Phillips,SBD,M-O,75,Single-ply,73.5,202.5,157.5,192.5,552.5,1992,1
 M,Anthony Joseph,SBD,M-O,82.5,Single-ply,82,255,165,257.5,677.5,1970,1
-M,John Dalessio,SBD,M-O,82.5,Single-ply,82.1,255,140,235,630,1968,2
+M,John D'Alessio,SBD,M-O,82.5,Single-ply,82.1,255,140,235,630,1968,2
 M,Edju Gasinowski,SBD,M-O,82.5,Single-ply,81.7,235,142.5,232.5,610,1972,3
 M,Tanner Stengel,SBD,M-O,82.5,Single-ply,82.2,205,120,227.5,552.5,1993,4
 M,Ian Gardocki,SBD,M-O,82.5,Single-ply,79.9,205,135,197.5,537.5,1992,5
@@ -50,10 +50,10 @@ M,Ty Wagerle,SBD,MR-O,100,Raw,94,207.5,140,245,592.5,1976,3
 M,Chris DeGeorge,SBD,MR-O,100,Raw,97.9,212.5,145,232.5,590,,4
 M,Joe Hartigan,SBD,MR-O,100,Raw,98.3,192.5,145,235,572.5,1986,5
 M,Peter Hubbard #2,SBD,MR-O,100,Raw,98.6,200,135,210,545,1994,6
-M,Phillip Rosenstern,SBD,MR-O,100,Raw,95.4,170,107.5,250,527.5,1954,7
+M,Phil Rosenstern,SBD,MR-O,100,Raw,95.4,170,107.5,250,527.5,1954,7
 M,Connor Fultz,SBD,MR-O,100,Raw,92.8,185,142.5,197.5,525,1993,8
 M,Matthew Berger,SBD,MR-O,100,Raw,95.1,185,137.5,190,512.5,1977,9
-M,Daniel Miller,SBD,MR-O,100,Raw,97.5,160,122.5,227.5,510,1992,10
+M,Daniel Miller #7,SBD,MR-O,100,Raw,97.5,160,122.5,227.5,510,1992,10
 M,Drew Krause,SBD,MR-O,100,Raw,94.1,177.5,100,200,477.5,1987,11
 M,Qadir Scudder,SBD,MR-O,100,Raw,99.2,137.5,95,220,452.5,1996,12
 M,Anthony Contino,SBD,MR-O,100,Raw,94.3,115,102.5,205,422.5,1946,13
@@ -72,7 +72,7 @@ M,Harry Derr III,SBD,MR-O,110,Raw,108.3,222.5,142.5,225,590,1976,7
 M,Steve Halliday,SBD,MR-O,110,Raw,108.8,197.5,160,230,587.5,,8
 M,Jeffrey Van Dyke,SBD,MR-O,110,Raw,103.1,182.5,112.5,227.5,522.5,,10
 M,Gerald Burke,SBD,MR-O,110,Raw,104.4,160,145,160,465,1944,11
-M,Peter King,SBD,MR-O,125,Raw,111.6,220,172.5,215,607.5,1991,1
+M,Peter King #2,SBD,MR-O,125,Raw,111.6,220,172.5,215,607.5,1991,1
 M,Shay Mento,SBD,MR-O,125,Raw,123,197.5,145,240,582.5,1995,2
 M,Daravann Lok,SBD,MR-O,125,Raw,120.6,137.5,82.5,165,385,1995,3
 M,Domenick Fonio,SBD,MR-O,125,Raw,122.8,62.5,62.5,62.5,187.5,1962,4
@@ -113,8 +113,8 @@ F,Rebecca McPeak,SBD,FR-O,67.5,Raw,62.8,67.5,52.5,92.5,212.5,1979,3
 F,Lynne Renshaw,SBD,FR-O,75,Raw,68,95,72.5,137.5,305,1956,1
 F,Heather Uhlin,SBD,FR-O,75,Raw,73.2,87.5,57.5,127.5,272.5,1969,2
 F,Brandi Eberly,SBD,FR-O,75,Raw,73.8,80,50,97.5,227.5,1976,3
-F,Chris Cummings,SBD,FR-O,75,Raw,71.5,80,45,100,225,,4
-F,Jessica Williams,SBD,FR-O,90+,Raw,112.3,125,65,157.5,347.5,1996,1
+F,Chris Cummings #1,SBD,FR-O,75,Raw,71.5,80,45,100,225,,4
+F,Jessica Williams #4,SBD,FR-O,90+,Raw,112.3,125,65,157.5,347.5,1996,1
 F,Amy Scholl,SBD,FR-O,90+,Raw,113.1,92.5,77.5,147.5,317.5,,2
 F,Jamie Wilcox,SBD,FR-O,90+,Raw,135.3,72.5,45,175,292.5,1991,3
 F,Sherry Weaver,SBD,FR-O,90+,Raw,108,70,65,102.5,237.5,1964,4

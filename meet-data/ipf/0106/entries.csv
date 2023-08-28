@@ -1,6 +1,6 @@
 Place,WeightClassKg,Sex,Division,Name,BirthYear,BodyweightKg,Country,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment
 1,44,F,Masters 1,Sylviane Bechar,1959,43.4,France,112.5,72.5,125,310,SBD,Single-ply
-2,44,F,Masters 1,Cathy Solan,1958,43.5,USA,115,57.5,120,292.5,SBD,Single-ply
+2,44,F,Masters 1,Catherine Solan,1958,43.5,USA,115,57.5,120,292.5,SBD,Single-ply
 1,48,F,Masters 1,Vuokko Viitasaari,1954,47.4,Finland,135,75,160,370,SBD,Single-ply
 2,48,F,Masters 1,Trish Muldrock,1954,47.9,New Zealand,105,70,130,305,SBD,Single-ply
 3,48,F,Masters 1,Monika Bruder,1954,47.1,Germany,115,55,122.5,292.5,SBD,Single-ply
@@ -32,7 +32,7 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,BodyweightKg,Country,Best3SquatK
 2,82.5,F,Masters 1,Andrea Sortwell,1959,82.3,USA,165,112.5,172.5,450,SBD,Single-ply
 3,82.5,F,Masters 1,Sirpa Kokkonen,1958,75.9,Finland,100,70,130,300,SBD,Single-ply
 DQ,82.5,F,Masters 1,Allison Rain,1959,80.9,Canada,,,,,SBD,Single-ply
-1,90,F,Masters 1,Linda Schaefer,1960,89.3,USA,125,75,185,385,SBD,Single-ply
+1,90,F,Masters 1,Linda Schaefer-Hanley,1960,89.3,USA,125,75,185,385,SBD,Single-ply
 2,90,F,Masters 1,Mary Greenidge,1959,84.6,Canada,100,60,115,275,SBD,Single-ply
 1,90+,F,Masters 1,Sue Hallen,1956,106.4,USA,155,125,165,445,SBD,Single-ply
 2,90+,F,Masters 1,Jacqueline Pepper,1960,103.1,UK,147.5,77.5,167.5,392.5,SBD,Single-ply
@@ -46,7 +46,7 @@ DQ,82.5,F,Masters 1,Allison Rain,1959,80.9,Canada,,,,,SBD,Single-ply
 2,60,F,Masters 2,Marie Šourková,1944,58.6,Czechia,85,65,135,285,SBD,Single-ply
 1,67.5,F,Masters 2,Terue Segawa,1951,66.8,Japan,145,100,150,395,SBD,Single-ply
 2,67.5,F,Masters 2,Anita Thimm,1950,62.3,Germany,130,82.5,167.5,380,SBD,Single-ply
-1,75,F,Masters 2,Helen Richardson,1950,71,UK,105,62.5,137.5,305,SBD,Single-ply
+1,75,F,Masters 2,Helen Richards,1950,71,UK,105,62.5,137.5,305,SBD,Single-ply
 2,75,F,Masters 2,Regina Hackney,1939,68.2,USA,105,60,137.5,302.5,SBD,Single-ply
 3,75,F,Masters 2,Susan Haywood,1949,75,Canada,115,60,110,285,SBD,Single-ply
 1,82.5,F,Masters 2,Rosemarie Beer,1945,77.3,Austria,170,100,180,450,SBD,Single-ply
@@ -90,7 +90,7 @@ DQ,82.5,M,Masters 1,Giorgio Criscione,1961,82.3,Italy,,,,,SBD,Single-ply
 10,90,M,Masters 1,Paul Barnbrook,1954,89.9,UK,240,145,270,655,SBD,Single-ply
 11,90,M,Masters 1,Brett Smartt,1959,90,Australia,230,155,240,625,SBD,Single-ply
 DQ,90,M,Masters 1,Goran Lundeberg,1954,88.2,Sweden,,,,,SBD,Single-ply
-1,100,M,Masters 1,Aldagi Sicoli,1960,98.9,France,310,180,300,790,SBD,Single-ply
+1,100,M,Masters 1,Adalgiso Sicoli,1960,98.9,France,310,180,300,790,SBD,Single-ply
 2,100,M,Masters 1,Scott Roberts,1958,99.6,USA,317.5,182.5,280,780,SBD,Single-ply
 3,100,M,Masters 1,Vladimir Tsukanov,1959,99.9,Russia,312.5,195,270,777.5,SBD,Single-ply
 4,100,M,Masters 1,Reinhard Melzig,1955,98.1,Germany,275,162.5,292.5,730,SBD,Single-ply
@@ -146,14 +146,14 @@ DQ,67.5,M,Masters 2,Katsuji Okiura,1945,66.5,Japan,,,,,SBD,Single-ply
 9,82.5,M,Masters 2,Joachim Lehmann,1949,81.2,Germany,175,117.5,197.5,490,SBD,Single-ply
 2,90,M,Masters 2,Tadashi Tachibana,1949,89,Japan,267.5,200,225,692.5,SBD,Single-ply
 3,90,M,Masters 2,Peter Cihla,1950,86.2,Germany,245,135,245,625,SBD,Single-ply
-4,90,M,Masters 2,Dave Battison,1948,89.4,UK,215,150,255,620,SBD,Single-ply
+4,90,M,Masters 2,David Battisson,1948,89.4,UK,215,150,255,620,SBD,Single-ply
 5,90,M,Masters 2,Boucif Mokadem,1951,88.3,France,235.03,167.5,200,602.5,SBD,Single-ply
 6,90,M,Masters 2,Andrew Christo,1947,86.3,USA,182.5,125,245.03,552.5,SBD,Single-ply
 7,90,M,Masters 2,Laurie Greenidge,1948,85.5,Canada,195,140,200,535,SBD,Single-ply
 8,90,M,Masters 2,Jim Yakubovsky,1947,87.9,USA,190,132.5,205,527.5,SBD,Single-ply
 9,90,M,Masters 2,Frank Williams,1950,89,Canada,177.5,117.5,212.5,507.5,SBD,Single-ply
 DQ,90,M,Masters 2,Mikai Vereschagin,1950,89.4,Russia,275,165,,,SBD,Single-ply
-DQ,90,M,Masters 2,Piero Andreatta,1950,85.9,Italy,277.5,145,272.5,,SBD,Single-ply
+DQ,90,M,Masters 2,Pietro Andreatta,1950,85.9,Italy,277.5,145,272.5,,SBD,Single-ply
 1,100,M,Masters 2,Vladimir Korolev,1949,95.1,Russia,312.5,152.5,297.5,762.5,SBD,Single-ply
 2,100,M,Masters 2,David Clark,1948,97.6,USA,250,147.5,295,692.5,SBD,Single-ply
 3,100,M,Masters 2,Christian Buchs,1947,94.9,France,270,172.5,245,687.5,SBD,Single-ply
@@ -170,7 +170,7 @@ DQ,90,M,Masters 2,Piero Andreatta,1950,85.9,Italy,277.5,145,272.5,,SBD,Single-pl
 5,110,M,Masters 2,Bill Sindlear,1951,108.1,USA,237.5,160,250,647.5,SBD,Single-ply
 6,110,M,Masters 2,Helmuth Platzer,1951,104.6,Germany,235,145,260,640,SBD,Single-ply
 7,110,M,Masters 2,Norberto Carrizo,1948,108.5,Argentina,250,137.5,235,622.5,SBD,Single-ply
-8,110,M,Masters 2,Del Worley,1949,109,USA,257.5,122.5,237.5,617.5,SBD,Single-ply
+8,110,M,Masters 2,Delvan Worley,1949,109,USA,257.5,122.5,237.5,617.5,SBD,Single-ply
 9,110,M,Masters 2,Reijo Jaakkola,1948,102.6,Finland,100,170,235,505,SBD,Single-ply
 DQ,110,M,Masters 2,Gerard McNamara #2,1950,103.1,Ireland,265,165,275,,SBD,Single-ply
 1,125,M,Masters 2,Alexa Maximushkin,1950,114.1,Russia,302.5,205,280,787.5,SBD,Single-ply
@@ -204,5 +204,5 @@ DQ,100,M,Masters 3,Stan Chatis,1937,96.8,USA,185,,,,SBD,Single-ply
 2,110,M,Masters 3,Robert Grisham,1939,106.6,USA,230,125,205,560,SBD,Single-ply
 DQ,110,M,Masters 3,Robert Rood Sr,1940,103.8,USA,,,,,SBD,Single-ply
 1,125,M,Masters 3,Karl-Heinz Grabosch,1937,111.4,Germany,250,160,250,660,SBD,Single-ply
-2,125,M,Masters 3,David Ritter,1940,113.1,USA,150,115,215,480,SBD,Single-ply
+2,125,M,Masters 3,David Ritter #3,1940,113.1,USA,150,115,215,480,SBD,Single-ply
 1,125+,M,Masters 3,Peter Kochetov,1940,135.4,Russia,270,190,270,730,SBD,Single-ply

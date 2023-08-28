@@ -11,7 +11,7 @@ Place,Division,Sex,Name,WeightClassKg,Best3BenchKg,TotalKg,Team,State,Event,Equi
 2,Under 16,F,Lisa Taglierini,60,37.5,37.5,Merbein Secondary College,VIC,B,Raw
 3,Under 16,F,Vanessa Brown,60,30,30,Merbein Secondary College,VIC,B,Raw
 4,Under 16,F,Sarah Priest,60,27.5,27.5,Merbein Secondary College,VIC,B,Raw
-1,Under 16,F,Jessica Williams,67.5,42.5,42.5,Merbein Secondary College,VIC,B,Raw
+1,Under 16,F,Jessica Williams #6,67.5,42.5,42.5,Merbein Secondary College,VIC,B,Raw
 2,Under 16,F,Katie Giddings,67.5,37.5,37.5,Merbein Secondary College,VIC,B,Raw
 3,Under 16,F,Rebecca Chamberlain,67.5,37.5,37.5,Merbein Secondary College,VIC,B,Raw
 4,Under 16,F,Jo-Anne Nelson,67.5,35,35,Merbein Secondary College,VIC,B,Raw
@@ -47,18 +47,18 @@ Place,Division,Sex,Name,WeightClassKg,Best3BenchKg,TotalKg,Team,State,Event,Equi
 1,Under 13,M,Luke Powell,56,40,40,Colac College,VIC,B,Raw
 2,Under 13,M,Alex Mengel,56,25,25,Nudgee College,QLD,B,Raw
 3,Under 13,M,D Male,56,20,20,Nudgee College,QLD,B,Raw
-1,Under 13,M,Michael Murray,60,25,25,Nudgee College,QLD,B,Raw
+1,Under 13,M,Michael Murray #2,60,25,25,Nudgee College,QLD,B,Raw
 1,Under 13,M,N Winkler,67.5,50,50,Nudgee College,QLD,B,Raw
 2,Under 13,M,Adrian Howard,67.5,35,35,Colac College,VIC,B,Raw
 3,Under 13,M,Nick Flannigan,67.5,35,35,Colac College,VIC,B,Raw
 4,Under 13,M,Nicholas Ibrahim,67.5,25,25,Nudgee College,QLD,B,Raw
 1,Under 13,M,M Baillie-Smollen,75,20,20,Nudgee College,QLD,B,Raw
 1,Under 13,M,Levi Dare,82.5,45,45,Colac College,VIC,B,Raw
-1,Under 14,M,M Atkinson,52,50,50,Nudgee College,QLD,B,Raw
+1,Under 14,M,Mark Atkinson #2,52,50,50,Nudgee College,QLD,B,Raw
 2,Under 14,M,L. Cook,52,50,50,Nudgee College,QLD,B,Raw
 3,Under 14,M,S Le Rossignol,52,45,45,Nudgee College,QLD,B,Raw
 4,Under 14,M,Darren McKellar,52,45,45,Nudgee College,QLD,B,Raw
-5,Under 14,M,J Fogarty,52,40,40,Nudgee College,QLD,B,Raw
+5,Under 14,M,J. Fogarty,52,40,40,Nudgee College,QLD,B,Raw
 6,Under 14,M,D Cail,52,40,40,Nudgee College,QLD,B,Raw
 7,Under 14,M,S Fayle,52,40,40,Nudgee College,QLD,B,Raw
 8,Under 14,M,D. Fulton,52,40,40,Nudgee College,QLD,B,Raw
@@ -106,14 +106,14 @@ Place,Division,Sex,Name,WeightClassKg,Best3BenchKg,TotalKg,Team,State,Event,Equi
 50,Under 14,M,W Mackay,52,25,25,Nudgee College,QLD,B,Raw
 51,Under 14,M,Mathew Yu,52,25,25,Nudgee College,QLD,B,Raw
 52,Under 14,M,L. Anderson,52,20,20,Nudgee College,QLD,B,Raw
-53,Under 14,M,Andrew Brown,52,20,20,Nudgee College,QLD,B,Raw
-54,Under 14,M,Ken Adams,52,20,20,Nudgee College,QLD,B,Raw
+53,Under 14,M,Andrew Brown #9,52,20,20,Nudgee College,QLD,B,Raw
+54,Under 14,M,Ken Adams #2,52,20,20,Nudgee College,QLD,B,Raw
 55,Under 14,M,J De Pasquale,52,15,15,Nudgee College,QLD,B,Raw
 56,Under 14,M,B Donaldson,52,15,15,Nudgee College,QLD,B,Raw
 1,Under 14,M,Wade Stewart,56,50,50,Nudgee College,QLD,B,Raw
 2,Under 14,M,Wade Stewart,56,45,45,Nudgee College,QLD,B,Raw
 3,Under 14,M,L Humphris,56,40,40,Nudgee College,QLD,B,Raw
-4,Under 14,M,Joseph Bell,56,35,35,Nudgee College,QLD,B,Raw
+4,Under 14,M,Joseph Bell #4,56,35,35,Nudgee College,QLD,B,Raw
 5,Under 14,M,R. O'Connor,56,30,30,Nudgee College,QLD,B,Raw
 6,Under 14,M,Tyson Cash,56,30,30,Nudgee College,QLD,B,Raw
 7,Under 14,M,Ben Rumble,56,30,30,Nudgee College,QLD,B,Raw
@@ -154,7 +154,7 @@ Place,Division,Sex,Name,WeightClassKg,Best3BenchKg,TotalKg,Team,State,Event,Equi
 1,Under 15,M,W Comiskey,52,45,45,Nudgee College,QLD,B,Raw
 2,Under 15,M,Tes Green,52,40,40,Nudgee College,QLD,B,Raw
 3,Under 15,M,Sean Allen,52,35,35,Ryan Catholic College,QLD,B,Raw
-4,Under 15,M,Peter Young,52,30,30,Heatherwood School,VIC,B,Raw
+4,Under 15,M,Peter Young #2,52,30,30,Heatherwood School,VIC,B,Raw
 5,Under 15,M,Chris Webber #3,52,30,30,Nudgee College,QLD,B,Raw
 6,Under 15,M,Jasien Glore,52,25,25,Nudgee College,QLD,B,Raw
 1,Under 15,M,Gavin Dysylva,56,40,40,Nudgee College,QLD,B,Raw
@@ -210,12 +210,12 @@ Place,Division,Sex,Name,WeightClassKg,Best3BenchKg,TotalKg,Team,State,Event,Equi
 14,Under 16,M,Matt Grace,60,40,40,Nudgee College,QLD,B,Raw
 1,Under 16,M,Brett Davies,67.5,80,80,Kirwan State High School,QLD,B,Raw
 2,Under 16,M,Daniel Janho,67.5,75,75,Nudgee College,QLD,B,Raw
-3,Under 16,M,Michael Lewis,67.5,70,70,Ayr State High School,QLD,B,Raw
+3,Under 16,M,Michael Lewis #7,67.5,70,70,Ayr State High School,QLD,B,Raw
 4,Under 16,M,Alfred Randolph,67.5,70,70,Nudgee College,QLD,B,Raw
 5,Under 16,M,Drew Clark,67.5,60,60,Nudgee College,QLD,B,Raw
 6,Under 16,M,Aaron McIntosh,67.5,60,60,Ayr State High School,QLD,B,Raw
 7,Under 16,M,D. Davies,67.5,55,55,Nudgee College,QLD,B,Raw
-8,Under 16,M,James Harrison,67.5,52.5,52.5,Merbein Secondary College,VIC,B,Raw
+8,Under 16,M,James Harrison #6,67.5,52.5,52.5,Merbein Secondary College,VIC,B,Raw
 9,Under 16,M,Michael Glover,67.5,50,50,Nudgee College,QLD,B,Raw
 10,Under 16,M,Brad Congress,67.5,50,50,Merbein Secondary College,VIC,B,Raw
 11,Under 16,M,Andrew Shaw #2,67.5,50,50,Nudgee College,QLD,B,Raw
@@ -233,7 +233,7 @@ Place,Division,Sex,Name,WeightClassKg,Best3BenchKg,TotalKg,Team,State,Event,Equi
 5,Under 16,M,Michael Stokes,75,55,55,Nudgee College,QLD,B,Raw
 6,Under 16,M,S. Ryan,75,50,50,Nudgee College,QLD,B,Raw
 7,Under 16,M,Ben Ryan,75,50,50,Nudgee College,QLD,B,Raw
-8,Under 16,M,Brendan King,75,45,45,Heatherwood School,VIC,B,Raw
+8,Under 16,M,Brendan King #2,75,45,45,Heatherwood School,VIC,B,Raw
 9,Under 16,M,Andrew Baldock,75,45,45,Heatherwood School,VIC,B,Raw
 10,Under 16,M,Richard Maguire,75,40,40,Nudgee College,QLD,B,Raw
 1,Under 16,M,Kaydon Philips,82.5,85,85,Kirwan State High School,QLD,B,Raw
@@ -264,7 +264,7 @@ Place,Division,Sex,Name,WeightClassKg,Best3BenchKg,TotalKg,Team,State,Event,Equi
 5,Under 17,M,Brendan Rowse,52,40,40,Merbein Secondary College,VIC,B,Raw
 6,Under 17,M,Scott Turvey,52,40,40,Nudgee College,QLD,B,Raw
 1,Under 17,M,Luke Richardson #2,56,47.5,47.5,Merbein Secondary College,VIC,B,Raw
-2,Under 17,M,Josh Hudson,56,45,45,Merbein Secondary College,VIC,B,Raw
+2,Under 17,M,Josh Hudson #3,56,45,45,Merbein Secondary College,VIC,B,Raw
 1,Under 17,M,Jonathon Howe,60,40,40,Nudgee College,QLD,B,Raw
 1,Under 17,M,M Moynihan,67.5,100,100,Nudgee College,QLD,B,Raw
 2,Under 17,M,S Dorante,67.5,80,80,Nudgee College,QLD,B,Raw
@@ -300,8 +300,8 @@ Place,Division,Sex,Name,WeightClassKg,Best3BenchKg,TotalKg,Team,State,Event,Equi
 7,Under 17,M,Brett Pedler,82.5,70,70,The Hills Grammar School,NSW,B,Raw
 8,Under 17,M,Anthony Barnett,82.5,70,70,Kempsey High school,NSW,B,Raw
 9,Under 17,M,M Mcfillan,82.5,65,65,Nudgee College,QLD,B,Raw
-10,Under 17,M,Travis Webster,82.5,52.5,52.5,Merbein Secondary College,VIC,B,Raw
-11,Under 17,M,Ryan McClure,82.5,50,50,Merbein Secondary College,VIC,B,Raw
+10,Under 17,M,Travis Webster #2,82.5,52.5,52.5,Merbein Secondary College,VIC,B,Raw
+11,Under 17,M,Ryan McClure #1,82.5,50,50,Merbein Secondary College,VIC,B,Raw
 12,Under 17,M,James Harvey,82.5,40,40,Nudgee College,QLD,B,Raw
 13,Under 17,M,Tajhon Mailata,82.5,40,40,Nudgee College,QLD,B,Raw
 1,Under 17,M,James Baliakis,90,135,135,Scotch College,VIC,B,Raw

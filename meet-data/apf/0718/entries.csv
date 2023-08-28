@@ -1,5 +1,5 @@
 Name,Tested,Sex,Event,WeightClassKg,BodyweightKg,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,Equipment
-Natalie Carr,Yes,F,SBD,60,58.9,F_JEM_AAPF,120,75,120,315,1,Multi-ply
+Natalie Carr #1,Yes,F,SBD,60,58.9,F_JEM_AAPF,120,75,120,315,1,Multi-ply
 Nora Langdon,,F,SBD,90,87.7,F_MEM_5_APF,137.5,60,137.5,335,1,Multi-ply
 Brandon Hensley,Yes,M,B,75,73.6,M_JEM_AAPF,,142.5,,142.5,1,Multi-ply
 Joe Smolinski,Yes,M,B,125,116.2,M_MEM_3_AAPF,,272.5,,272.5,1,Multi-ply
@@ -30,19 +30,19 @@ Matt Modawell,Yes,M,SBD,75,74.8,M_TEM_X_AAPF,162.5,92.5,195,450,1,Multi-ply
 Zyke Bailey,Yes,M,SBD,82.5,78.7,M_TEM_X_AAPF,105,52.5,125,282.5,2,Multi-ply
 Alex Newman,Yes,M,SBD,82.5,79.4,M_TEM_X_AAPF,142.5,95,140,377.5,1,Multi-ply
 Justin Johnson,Yes,M,SBD,125,115.5,M_TEM_X_AAPF,195,132.5,240,567.5,1,Multi-ply
-Joe Martin,,M,B,110,109.3,M_MEM_1_APF,,250,,250,1,Multi-ply
+Joe Martin #6,,M,B,110,109.3,M_MEM_1_APF,,250,,250,1,Multi-ply
 Marvin Coleman,,M,B,90,89.3,M_OEM_APF,,252.5,,252.5,1,Multi-ply
 Jeff Johnston #1,,M,B,100,95.6,M_OEM_APF,,235,,235,1,Multi-ply
 Ryan Harris,,M,B,140,129.6,M_OEM_APF,,192.5,,192.5,1,Multi-ply
 Carl Zeiler,,M,SBD,110,107.9,M_MEM_1_APF,260,205,272.5,737.5,1,Multi-ply
 Jim Harbourne,,M,SBD,125,123.6,M_MEM_1_APF,300,245,272.5,817.5,1,Multi-ply
-Mike Brown,,M,SBD,82.5,82.3,M_MEM_2_APF,230,147.5,212.5,590,1,Multi-ply
+Mike Brown #20,,M,SBD,82.5,82.3,M_MEM_2_APF,230,147.5,212.5,590,1,Multi-ply
 Ken Richardson,,M,SBD,100,97.9,M_MEM_2_APF,330,220,302.5,852.5,1,Multi-ply
 Arthur Little,,M,SBD,82.5,76.4,M_MEM_3_APF,282.5,132.5,290,705,1,Multi-ply
 Fabian Wambsans,,M,SBD,82.5,82.3,M_MEM_5_APF,290,132.5,235,657.5,1,Multi-ply
 Taylor Jakubczak,,M,SBD,82.5,81.76,M_OEM_APF,197.5,115,215,527.5,2,Multi-ply
 Fabian Wambsans,,M,SBD,82.5,82.3,M_OEM_APF,290,132.5,235,657.5,1,Multi-ply
-Jon Brown,,M,SBD,90,90,M_OEM_APF,327.5,260,227.5,815,2,Multi-ply
+Jon Brown #1,,M,SBD,90,90,M_OEM_APF,327.5,260,227.5,815,2,Multi-ply
 Mike Maxwell,,M,SBD,90,89.1,M_OEM_APF,370,220,282.5,872.5,1,Multi-ply
 Tommy Westhoff,,M,SBD,90,89.4,M_OEM_APF,272.5,,,,DQ,Multi-ply
 Josh Murphy,,M,SBD,100,99.4,M_OEM_APF,327.5,232.5,275,835,2,Multi-ply

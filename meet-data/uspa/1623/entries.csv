@@ -11,7 +11,7 @@ Place,Name,Country,State,WeightClassKg,BodyweightKg,Age,Squat1Kg,Squat2Kg,Squat3
 2,Elaine Corbett,Ireland,,48,46.2,36,-90,95,100,100,45,50,52.5,52.5,117.5,127.5,135,135,287.5,,,,SBD,Raw,F,Open,Yes
 1,Celina Flores,USA,KY,52,49.75,33,92.5,102.5,105,105,60,65,-70,65,117.5,125,-127.5,125,295,,,,SBD,Raw,F,Open,Yes
 2,Emma Clark,USA,WA,52,50.6,15,75,92.5,-102.5,92.5,42.5,-52.5,52.5,52.5,95,102.5,105,105,250,,,,SBD,Raw,F,Open,Yes
-1,Cassandra Palermo,USA,CA,56,54.7,24,105,110,115,115,62.5,-67.5,-67.5,62.5,170,177.5,-185,177.5,355,,,,SBD,Raw,F,Open,Yes
+1,Cassandra Palermo,Canada,,56,54.7,24,105,110,115,115,62.5,-67.5,-67.5,62.5,170,177.5,-185,177.5,355,,,,SBD,Raw,F,Open,Yes
 2,Maria Pinto,USA,FL,56,55.4,32,97.5,105,-110,105,65,-70,-70,65,115,130,-137.5,130,300,,,,SBD,Raw,F,Open,Yes
 3,Alysan Casey,USA,MT,56,52.64,22,100,107.5,-110,107.5,52.5,55,-57.5,55,120,130,-140,130,292.5,,,,SBD,Raw,F,Open,Yes
 1,Elizabeth West,USA,WA,60,59.1,23,140,150,157.5,157.5,72.5,82.5,87.5,87.5,170,183,187.5,187.5,432.5,,,192.5,SBD,Raw,F,Open,Yes
@@ -57,25 +57,25 @@ DQ,Leila Galloway,USA,TX,75,71.9,40,-135,-135,135,135,-82.5,-82.5,-82.5,,-170,,,
 1,Amber Pauley,USA,WV,90+,114.3,41,182.5,197.5,-205,197.5,90,97.5,100,100,175,182.5,197.5,197.5,495,,,,SBD,Raw,F,Masters 40-44,Yes
 2,Nicola Crawley,Ireland,,90+,144.5,40,140,150,160,160,70,-77.5,77.5,77.5,150,162.5,-175,162.5,400,,,,SBD,Raw,F,Masters 40-44,Yes
 3,Jennie McMasters,Canada,,90+,136.3,41,125,142.5,-147.5,142.5,87.5,92.5,-93.5,92.5,152.5,162.5,-170.5,162.5,397.5,,,,SBD,Raw,F,Masters 40-44,Yes
-1,Joshua King,USA,CA,60,59.5,18,115,120,125,125,70,75,80,80,180,-195,-195,180,385,,,,SBD,Raw,M,Juniors 15-19,Yes
+1,Joshua King #5,USA,CA,60,59.5,18,115,120,125,125,70,75,80,80,180,-195,-195,180,385,,,,SBD,Raw,M,Juniors 15-19,Yes
 1,Daniel Mogilevsky,USA,OH,67.5,67.2,17,125,135,142.5,142.5,105,-110,110,110,170,185,200,200,452.5,,,,SBD,Raw,M,Juniors 15-19,Yes
 2,Ezra Newell,USA,NM,67.5,65.9,18,142.5,150,157.5,157.5,92.5,97.5,-100,97.5,187.5,195,-202.5,195,450,,,,SBD,Raw,M,Juniors 15-19,Yes
 DQ,Karl Brough,Ireland,,67.5,67.5,19,-145,-145,-145,,-92.5,92.5,-95,92.5,170,185,190,190,,,,,SBD,Raw,M,Juniors 15-19,Yes
 1,Joshua Lipp,USA,CA,67.5,66.2,22,165,172.5,175,175,115,120,122.5,122.5,235,250,-252.5,250,547.5,,,,SBD,Raw,M,Juniors 20-23,Yes
 2,Justin Dixon,USA,FL,67.5,64.5,22,-132.5,-140,140,140,85,92.5,97.5,97.5,180,192.5,202.5,202.5,440,,,,SBD,Raw,M,Juniors 20-23,Yes
-1,James Norman,Australia,,75,74,17,-155,160,175,175,95,-107.5,-107.5,95,175,200,215,215,485,,,,SBD,Raw,M,Juniors 15-19,Yes
+1,James Norman #1,Australia,,75,74,17,-155,160,175,175,95,-107.5,-107.5,95,175,200,215,215,485,,,,SBD,Raw,M,Juniors 15-19,Yes
 2,Jordan Holland,Ireland,,75,74.2,18,185,190,195,195,95,100,-105,100,170,180,190,190,485,205.5,,,SBD,Raw,M,Juniors 15-19,Yes
 1,Brandon McLean,Canada,,90,88.8,19,-177.5,177.5,182.5,182.5,132.5,-142.5,-142.5,132.5,222.5,252.5,255,255,570,,,,SBD,Raw,M,Juniors 15-19,Yes
 1,Jared Brenden,USA,MT,90,85.3,20,205,210,-220,210,135,142.5,147.5,147.5,247.5,252.5,265,265,622.5,,,,SBD,Raw,M,Juniors 20-23,Yes
 1,Aaron Ryan,Ireland,,100,96.2,17,170,180,-200,180,90,100,110,110,200,220,240,240,530,,,,SBD,Raw,M,Juniors 15-19,Yes
 1,Norman Black Jr,USA,CA,100,98.2,23,222.5,235,240,240,-162.5,162.5,-177.5,162.5,232.5,267.5,285,285,687.5,,,,SBD,Raw,M,Juniors 20-23,Yes
-DQ,Charles Richards,USA,GA,100,96.9,21,-230,-250,,,135,-142.5,,135,150,200,260,260,,,,270,SBD,Raw,M,Juniors 20-23,Yes
+DQ,Charles Richards #1,USA,GA,100,96.9,21,-230,-250,,,135,-142.5,,135,150,200,260,260,,,,270,SBD,Raw,M,Juniors 20-23,Yes
 1,Michael Melvin,USA,NC,110,101,18,202.5,215,-230,215,122.5,130,-132.5,130,212.5,227.5,-237.5,227.5,572.5,,,,SBD,Raw,M,Juniors 15-19,Yes
 1,Alfred Resngit,USA,CA,67.5,67.2,33,165,172.5,177.5,177.5,120,-130,-130,120,280,-287.5,-287.5,280,577.5,,,,SBD,Raw,M,Open,Yes
 2,Joshua Lipp,USA,CA,67.5,66.2,22,165,172.5,175,175,115,120,122.5,122.5,235,250,-252.5,250,547.5,,,,SBD,Raw,M,Open,Yes
 3,Daniel Mogilevsky,USA,OH,67.5,67.2,17,125,135,142.5,142.5,105,-110,110,110,170,185,200,200,452.5,,,,SBD,Raw,M,Open,Yes
 DQ,Vincent Yacuzzi Jr,USA,FL,67.5,66.5,31,190,202.5,207.5,207.5,-122.5,-122.5,-122.5,,232.5,-245,,232.5,,,,,SBD,Raw,M,Open,Yes
-1,David Gibson,USA,GA,75,73.6,41,157.5,160,165,165,102.5,110,-112.5,110,215,227.5,243,243,518,,,,SBD,Raw,M,Open,Yes
+1,David Gibson #3,USA,GA,75,73.6,41,157.5,160,165,165,102.5,110,-112.5,110,215,227.5,243,243,518,,,,SBD,Raw,M,Open,Yes
 1,Brian Crosby,USA,OH,82.5,82.5,28,210,217.5,222.5,222.5,170,175,-180,175,235,247.5,257.5,257.5,655,,,,SBD,Raw,M,Open,Yes
 2,Daniel Austin #2,USA,TN,82.5,75.6,36,185,190,-192.5,190,-127.5,132.5,-137.5,132.5,212.5,225,230,230,552.5,,,,SBD,Raw,M,Open,Yes
 3,Shawn Shafai,USA,CA,82.5,81.8,49,180,185,-190,185,115,120,-122.5,120,232.5,242.5,-250,242.5,547.5,,,,SBD,Raw,M,Open,Yes
@@ -87,7 +87,7 @@ DQ,Vincent Yacuzzi Jr,USA,FL,67.5,66.5,31,190,202.5,207.5,207.5,-122.5,-122.5,-1
 5,Jacob Hall,USA,CA,90,88.6,27,192.5,202.5,-207.5,202.5,130,-137.5,-137.5,130,235,-245,-245,235,567.5,,,,SBD,Raw,M,Open,Yes
 1,Norman Black Jr,USA,CA,100,98.2,23,222.5,235,240,240,-162.5,162.5,-177.5,162.5,232.5,267.5,285,285,687.5,,,,SBD,Raw,M,Open,Yes
 2,Eric Levy,USA,GA,100,99,47,205,-220,-220,205,120,127.5,-130,127.5,255,265,-271,265,597.5,,,,SBD,Raw,M,Open,Yes
-DQ,Charles Richards,USA,GA,100,96.9,21,-230,-250,,,135,-142.5,,135,150,200,260,260,,,,270,SBD,Raw,M,Open,Yes
+DQ,Charles Richards #1,USA,GA,100,96.9,21,-230,-250,,,135,-142.5,,135,150,200,260,260,,,,270,SBD,Raw,M,Open,Yes
 1,Nick Squires,USA,CA,110,104.8,33,242.5,-257.5,257.5,257.5,150,167.5,-175,167.5,275,290,302.5,302.5,727.5,,,,SBD,Raw,M,Open,Yes
 2,Ben Turner,Ireland,,110,108.1,26,210,222.5,-227.5,222.5,160,-167.5,-167.5,160,270,285,292.5,292.5,675,,,,SBD,Raw,M,Open,Yes
 1,Marc Masishin,USA,PA,125,122.3,31,227.5,242.5,252.5,252.5,175,190,-195,190,265,287.5,297.5,297.5,740,,,,SBD,Raw,M,Open,Yes
@@ -95,10 +95,10 @@ DQ,Charles Richards,USA,GA,100,96.9,21,-230,-250,,,135,-142.5,,135,150,200,260,2
 1,Sean Hayes #1,Canada,,140,138.9,29,275,290,300,300,170,177.5,-182.5,177.5,320,-345.5,-345.5,320,797.5,,,,SBD,Raw,M,Open,Yes
 DQ,Anthony Jacobson,USA,IA,140,133.3,33,-277.5,-277.5,-277.5,,142.5,147.5,152.5,152.5,277.5,300,310,310,,,,,SBD,Raw,M,Open,Yes
 1,Richard Castillo,USA,NV,140+,144.5,27,285,300,-320,300,200,215,-220.5,215,290,305,320,320,835,,,,SBD,Raw,M,Open,Yes
-1,David Gibson,USA,GA,75,73.6,41,157.5,160,165,165,102.5,110,-112.5,110,215,227.5,243,243,518,,,,SBD,Raw,M,Masters 40-44,Yes
-1,Matthew Chapman,USA,HI,75,74.2,51,147.5,157.5,160,160,115,122.5,125,125,160,170,175,175,460,,,,SBD,Raw,M,Masters 50-54,Yes
+1,David Gibson #3,USA,GA,75,73.6,41,157.5,160,165,165,102.5,110,-112.5,110,215,227.5,243,243,518,,,,SBD,Raw,M,Masters 40-44,Yes
+1,Matthew Chapman #1,USA,HI,75,74.2,51,147.5,157.5,160,160,115,122.5,125,125,160,170,175,175,460,,,,SBD,Raw,M,Masters 50-54,Yes
 1,Shawn Shafai,USA,CA,82.5,81.8,49,180,185,-190,185,115,120,-122.5,120,232.5,242.5,-250,242.5,547.5,,,,SBD,Raw,M,Masters 45-49,Yes
-1,Jason Roberts,USA,HI,82.5,81.8,50,152.5,160,-165,160,120,130,140,140,75,120,,120,420,,,,SBD,Raw,M,Masters 50-54,Yes
+1,Jason Roberts #2,USA,HI,82.5,81.8,50,152.5,160,-165,160,120,130,140,140,75,120,,120,420,,,,SBD,Raw,M,Masters 50-54,Yes
 1,Larry Soderberg,USA,IA,90,86.2,69,140,152.5,,152.5,137.5,145,147.5,147.5,180,-190,,180,480,,,,SBD,Raw,M,Masters 65-69,Yes
 1,Eric Levy,USA,GA,100,99,47,205,-220,-220,205,120,127.5,-130,127.5,255,265,-271,265,597.5,,,,SBD,Raw,M,Masters 45-49,Yes
 1,Rup Karki,USA,VA,100,98.7,50,205,-215,220,220,145,155,162.5,162.5,210,220,225,225,607.5,,,230,SBD,Raw,M,Masters 50-54,Yes
@@ -106,14 +106,14 @@ DQ,Anthony Jacobson,USA,IA,140,133.3,33,-277.5,-277.5,-277.5,,142.5,147.5,152.5,
 1,Eugene Ring,USA,NY,110,102.8,56,235,250,-272.5,250,145,152.5,-160,152.5,255,275,-285,275,677.5,,,,SBD,Raw,M,Masters 55-59,Yes
 1,Robert McCullagh,USA,CA,125,119.7,72,165,185,-190,185,122.5,130,132.5,132.5,185,190,-197.5,190,507.5,,,,SBD,Raw,M,Masters 70-74,Yes
 1,Ray Hixon,USA,AZ,140,127.2,56,220,225,230,230,150,-160,-160,150,250,260,-275,260,640,,,,SBD,Raw,M,Masters 55-59,Yes
-1,Madeleine Pluss,USA,CO,56,56,27,125,-137.5,137.5,137.5,57.5,-60,-60,57.5,137.5,152.5,-165,152.5,347.5,,,,SBD,Wraps,F,Open,Yes
-1,Dr Leslie Gurr,Canada,,60,58.7,51,112.5,-115.5,115.5,115.5,-67.5,67.5,-72.5,67.5,150,157.5,163,163,346,,,,SBD,Wraps,F,Open,Yes
+1,Madi Pluss,USA,CO,56,56,27,125,-137.5,137.5,137.5,57.5,-60,-60,57.5,137.5,152.5,-165,152.5,347.5,,,,SBD,Wraps,F,Open,Yes
+1,Leslie Gurr,Canada,,60,58.7,51,112.5,-115.5,115.5,115.5,-67.5,67.5,-72.5,67.5,150,157.5,163,163,346,,,,SBD,Wraps,F,Open,Yes
 1,Megan Casey,USA,CO,67.5,66.15,35,157.5,165,-172.5,165,90,-92.5,-92.5,90,150,170,-182.5,170,425,,,,SBD,Wraps,F,Open,Yes
 1,Charlie Cheryl Ritchie,USA,OR,75,74.5,48,125,137.5,147.5,147.5,90,97.5,100,100,142.5,160,170.5,170.5,418,,,,SBD,Wraps,F,Open,Yes
 1,Danielle Massingill,USA,CO,82.5,79.8,27,185,200,-207.5,200,97.5,-107.5,-107.5,97.5,187.5,195,200,200,497.5,,,,SBD,Wraps,F,Open,Yes
 2,Bernice Fuss,Canada,,82.5,76.1,62,72.5,92.5,102.5,102.5,63,72.5,77.5,77.5,120.5,140,145,145,325,107.5,80,,SBD,Wraps,F,Open,Yes
 1,Juanita Calvert,Canada,,48,47.6,45,87.5,100,-107.5,100,47.5,50,-55,50,107.5,117.5,122.5,122.5,272.5,,,,SBD,Wraps,F,Masters 45-49,Yes
-1,Dr Leslie Gurr,Canada,,60,58.7,51,112.5,-115.5,115.5,115.5,-67.5,67.5,-72.5,67.5,150,157.5,163,163,346,,,,SBD,Wraps,F,Masters 50-54,Yes
+1,Leslie Gurr,Canada,,60,58.7,51,112.5,-115.5,115.5,115.5,-67.5,67.5,-72.5,67.5,150,157.5,163,163,346,,,,SBD,Wraps,F,Masters 50-54,Yes
 1,Tricia Waddell,Canada,,60,58.3,65,57.5,-65,65,65,-40,45.5,-47.5,45.5,80,87.5,95,95,205.5,70,,100,SBD,Wraps,F,Masters 65-69,Yes
 1,Charlie Cheryl Ritchie,USA,OR,75,74.5,48,125,137.5,147.5,147.5,90,97.5,100,100,142.5,160,170.5,170.5,418,,,,SBD,Wraps,F,Masters 45-49,Yes
 1,Bernice Fuss,Canada,,82.5,76.1,62,72.5,92.5,102.5,102.5,63,72.5,77.5,77.5,120.5,140,145,145,325,107.5,80,,SBD,Wraps,F,Masters 60-64,Yes
@@ -128,7 +128,7 @@ DQ,Jacinta Smith,Ireland,,90+,118.8,46,-140,-140,-140,,75,77.5,-80,77.5,145,147.
 1,Gurnaik Birring,UK,,60,59.6,28,160,170,-180,170,115,125,-127.5,125,180,190,200,200,495,,,,SBD,Wraps,M,Open,Yes
 2,Barry Smith #1,Ireland,,60,59.2,32,165,175,-180,175,100,105,-110,105,170,190,-205,190,470,,,,SBD,Wraps,M,Open,Yes
 1,Vincent Falzetta,USA,MI,75,73.5,22,-245,245,-262.5,245,137.5,145,150,150,272.5,287.5,-295,287.5,682.5,,,,SBD,Wraps,M,Open,Yes
-DQ,David Thompson,USA,ID,75,74.4,35,-210,210,220,220,-130,-137.5,-137.5,,227.5,240,250,250,,,,,SBD,Wraps,M,Open,Yes
+DQ,David Thompson #1,USA,ID,75,74.4,35,-210,210,220,220,-130,-137.5,-137.5,,227.5,240,250,250,,,,,SBD,Wraps,M,Open,Yes
 1,Wyatt Trevithick,USA,SC,82.5,78.8,24,265,272.5,277.5,277.5,-155,165,-170,165,265,-277.5,,265,707.5,,,,SBD,Wraps,M,Open,Yes
 1,Marquis Station,USA,AL,90,88.8,25,235,240,-250,240,155,162.5,-167.5,162.5,255,265,280,280,682.5,,,,SBD,Wraps,M,Open,Yes
 2,Dave Fitzpatrick,Ireland,,90,85.8,31,215,227.5,232.5,232.5,125,135,-142.5,135,220,235,250,250,617.5,,,,SBD,Wraps,M,Open,Yes
@@ -147,7 +147,7 @@ DQ,Seán Cregan,Ireland,,75,74.7,54,-190,-190,-190,,-100,,,,185,200,215,215,,,,,
 1,John Hare,USA,TX,90,88.8,58,200,220,232.5,232.5,150,165,-176,165,225,247.5,257.5,257.5,655,,,,SBD,Wraps,M,Masters 55-59,Yes
 1,Gary Martin,USA,KY,90,85.7,62,147.5,162.5,172.5,172.5,60,65,67.5,67.5,192.5,210,215,215,455,,,220,SBD,Wraps,M,Masters 60-64,Yes
 1,Rudy Kadlub,USA,OR,90,89.2,70,185,-195,195,195,120,132.5,-137.5,132.5,205,220,230,230,557.5,,,,SBD,Wraps,M,Masters 70-74,Yes
-1,Tom Crego,USA,PA,100,98.3,54,205,-225,-227.5,205,150,155,-157.5,155,225,235,-240,235,595,,,,SBD,Wraps,M,Masters 50-54,Yes
+1,Tom Crego Jr,USA,PA,100,98.3,54,205,-225,-227.5,205,150,155,-157.5,155,225,235,-240,235,595,,,,SBD,Wraps,M,Masters 50-54,Yes
 1,Dave Murphy #2,USA,CA,110,107.8,45,237.5,-257.5,-257.5,237.5,162.5,-180,-180,162.5,225,243,255,255,655,,,,SBD,Wraps,M,Masters 45-49,Yes
 1,Joe Dentice,USA,NV,110,103.3,61,170,190,195,195,122.5,-132.5,,122.5,215,230,-235,230,547.5,,,,SBD,Wraps,M,Masters 60-64,Yes
 1,David Wolf,USA,WY,110,104.3,65,145,152.5,-160,152.5,105,-110,110,110,180,190,200,200,462.5,,115,,SBD,Wraps,M,Masters 65-69,Yes
@@ -164,20 +164,20 @@ DQ,Brook Anderson,USA,CO,67.5,67.3,43,150,160,-162.5,160,-105.5,-105.5,-105.5,,1
 1,CJ McFarland,USA,TX,125,119.3,27,242.5,260,267.5,267.5,205,220,-227.5,220,250,272.5,285,285,772.5,,,,SBD,Single-ply,M,Open,Yes
 1,Jim Bell,USA,MO,110,107.7,64,-205,205,220,220,-120,120,-132.5,120,177.5,195,212.5,212.5,552.5,227.5,,,SBD,Single-ply,M,Masters 60-64,Yes
 1,Celina Flores,USA,KY,52,49.75,33,,,,,60,65,-70,65,,,,,65,,,,B,Raw,F,Open,Yes
-1,Dr Leslie Gurr,Canada,,60,58.7,51,,,,,-67.5,67.5,-72.5,67.5,,,,,67.5,,,,B,Raw,F,Open,Yes
+1,Leslie Gurr,Canada,,60,58.7,51,,,,,-67.5,67.5,-72.5,67.5,,,,,67.5,,,,B,Raw,F,Open,Yes
 1,Charlie Cheryl Ritchie,USA,OR,75,74.5,48,,,,,90,97.5,100,100,,,,,100,,,,B,Raw,F,Open,Yes
 1,Julia Tomascheski,USA,UT,90,89.9,28,,,,,75,82.5,-85,82.5,,,,,82.5,,,,B,Raw,F,Open,Yes
-1,Dr Leslie Gurr,Canada,,60,58.7,51,,,,,-67.5,67.5,-72.5,67.5,,,,,67.5,,,,B,Raw,F,Masters 50-54,Yes
+1,Leslie Gurr,Canada,,60,58.7,51,,,,,-67.5,67.5,-72.5,67.5,,,,,67.5,,,,B,Raw,F,Masters 50-54,Yes
 1,Charlie Cheryl Ritchie,USA,OR,75,74.5,48,,,,,90,97.5,100,100,,,,,100,,,,B,Raw,F,Masters 45-49,Yes
 DQ,Lynn Bassett,USA,UT,90+,111.8,54,,,,,-90,-90,-90,,,,,,,,,,B,Raw,F,Masters 50-54,Yes
 1,Daniel Mogilevsky,USA,OH,67.5,67.2,17,,,,,105,-110,110,110,,,,,110,,,,B,Raw,M,Juniors 15-19,Yes
-1,Charles Richards,USA,GA,100,96.9,21,,,,,135,-142.5,,135,,,,,135,,,,B,Raw,M,Juniors 20-23,Yes
+1,Charles Richards #1,USA,GA,100,96.9,21,,,,,135,-142.5,,135,,,,,135,,,,B,Raw,M,Juniors 20-23,Yes
 1,Brendan Armstrong,USA,NY,125,120.6,22,,,,,-175,175,180,180,,,,,180,,,,B,Raw,M,Juniors 20-23,Yes
 1,Rich Willis,UK,,52,50.5,50,,,,,-115,115,120,120,,,,,120,,,,B,Raw,M,Open,Yes
 1,Daniel Mogilevsky,USA,OH,67.5,67.2,17,,,,,105,-110,110,110,,,,,110,,,,B,Raw,M,Open,Yes
 1,Gerald Smith #2,USA,FL,82.5,79.6,64,,,,,115,120,125,125,,,,,125,,,,B,Raw,M,Open,Yes
 1,Shane O'Connell,Ireland,,100,99.3,32,,,,,172.5,180,-187.5,180,,,,,180,,,,B,Raw,M,Open,Yes
-2,Charles Richards,USA,GA,100,96.9,21,,,,,135,-142.5,,135,,,,,135,,,,B,Raw,M,Open,Yes
+2,Charles Richards #1,USA,GA,100,96.9,21,,,,,135,-142.5,,135,,,,,135,,,,B,Raw,M,Open,Yes
 3,Igor Usachev,Russia,,100,94.4,54,,,,,130,-140,-140,130,,,,,130,,,,B,Raw,M,Open,Yes
 1,James Shannon,USA,CA,110,108.5,46,,,,,170,-177.5,180,180,,,,,180,,,,B,Raw,M,Open,Yes
 1,Tromaras Konstantinos,Greece,,125,122.1,29,,,,,205,212.5,-221,212.5,,,,,212.5,,,,B,Raw,M,Open,Yes
@@ -185,8 +185,8 @@ DQ,Lynn Bassett,USA,UT,90+,111.8,54,,,,,-90,-90,-90,,,,,,,,,,B,Raw,F,Masters 50-
 1,Davoren Leung,Ireland,,140+,147,28,,,,,192.5,202.5,-207.5,202.5,,,,,202.5,,,,B,Raw,M,Open,Yes
 2,Eric Brust,Canada,,140+,170.8,32,,,,,180,190,197.5,197.5,,,,,197.5,,,,B,Raw,M,Open,Yes
 1,Rich Willis,UK,,52,50.5,50,,,,,-115,115,120,120,,,,,120,,,,B,Raw,M,Masters 50-54,Yes
-1,Matthew Chapman,USA,HI,75,74.2,51,,,,,115,122.5,125,125,,,,,125,,,,B,Raw,M,Masters 50-54,Yes
-1,Jason Roberts,USA,HI,82.5,81.8,50,,,,,120,130,140,140,,,,,140,,,,B,Raw,M,Masters 50-54,Yes
+1,Matthew Chapman #1,USA,HI,75,74.2,51,,,,,115,122.5,125,125,,,,,125,,,,B,Raw,M,Masters 50-54,Yes
+1,Jason Roberts #2,USA,HI,82.5,81.8,50,,,,,120,130,140,140,,,,,140,,,,B,Raw,M,Masters 50-54,Yes
 1,Gerald Smith #2,USA,FL,82.5,79.6,64,,,,,115,120,125,125,,,,,125,,,,B,Raw,M,Masters 60-64,Yes
 1,George Davis,USA,CA,82.5,80,68,,,,,80,87.5,-92.5,87.5,,,,,87.5,,,,B,Raw,M,Masters 65-69,Yes
 1,Larry Soderberg,USA,IA,90,86.2,69,,,,,137.5,145,147.5,147.5,,,,,147.5,,,,B,Raw,M,Masters 65-69,Yes
@@ -215,11 +215,11 @@ DQ,Lynn Bassett,USA,UT,90+,111.8,54,,,,,-90,-90,-90,,,,,,,,,,B,Raw,F,Masters 50-
 1,Andre Du Plessis,Ireland,,140+,152.1,54,,,,,200,-210,,200,,,,,200,,,,B,Single-ply,M,Masters 50-54,Yes
 1,John Covert,USA,DE,110,108.3,60,,,,,162.5,170,-183,170,,,,,170,,,,B,Multi-ply,M,Masters 60-64,Yes
 1,Celina Flores,USA,KY,52,49.75,33,,,,,,,,,117.5,125,-127.5,125,125,,,,D,Raw,F,Open,Yes
-1,Cassandra Palermo,USA,CA,56,54.7,24,,,,,,,,,170,177.5,-185,177.5,177.5,,,,D,Raw,F,Open,Yes
+1,Cassandra Palermo,Canada,,56,54.7,24,,,,,,,,,170,177.5,-185,177.5,177.5,,,,D,Raw,F,Open,Yes
 2,Stephanie Martin,USA,PA,56,55.9,31,,,,,,,,,157.5,165,-172.5,165,165,,,,D,Raw,F,Open,Yes
 3,Maria McShane,Ireland,,56,55.2,31,,,,,,,,,150,157.5,-162.5,157.5,157.5,,,,D,Raw,F,Open,Yes
 1,Caroline Dolan,Ireland,,60,57.5,28,,,,,,,,,160,167.5,-178,167.5,167.5,,,,D,Raw,F,Open,Yes
-2,Dr Leslie Gurr,Canada,,60,58.7,51,,,,,,,,,150,157.5,163,163,163,,,,D,Raw,F,Open,Yes
+2,Leslie Gurr,Canada,,60,58.7,51,,,,,,,,,150,157.5,163,163,163,,,,D,Raw,F,Open,Yes
 3,Veronica Lee,USA,CA,60,59.5,27,,,,,,,,,112.5,125,-137.5,125,125,,,,D,Raw,F,Open,Yes
 1,Edyta Piechowics,Ireland,,67.5,63.5,33,,,,,,,,,150,160,165,165,165,,,,D,Raw,F,Open,Yes
 2,Cliodhna McAteer,Ireland,,67.5,65.2,26,,,,,,,,,117.5,130,-135,130,130,,,,D,Raw,F,Open,Yes
@@ -229,7 +229,7 @@ DQ,Lynn Bassett,USA,UT,90+,111.8,54,,,,,-90,-90,-90,,,,,,,,,,B,Raw,F,Masters 50-
 1,Nichole Holzum,USA,MO,90,89.7,31,,,,,,,,,190,202.5,-210,202.5,202.5,,,,D,Raw,F,Open,Yes
 2,Julia Tomascheski,USA,UT,90,89.9,28,,,,,,,,,160,-170,-170,160,160,,,,D,Raw,F,Open,Yes
 1,Jennie McMasters,Canada,,90+,136.3,41,,,,,,,,,152.5,162.5,-170.5,162.5,162.5,,,,D,Raw,F,Open,Yes
-1,Dr Leslie Gurr,Canada,,60,58.7,51,,,,,,,,,150,157.5,163,163,163,,,,D,Raw,F,Masters 50-54,Yes
+1,Leslie Gurr,Canada,,60,58.7,51,,,,,,,,,150,157.5,163,163,163,,,,D,Raw,F,Masters 50-54,Yes
 1,Angeline Driver,Ireland,,67.5,61.8,59,,,,,,,,,90,100,-110,100,100,,,,D,Raw,F,Masters 55-59,Yes
 1,Marybeth Chow,USA,OR,67.5,66.3,69,,,,,,,,,90,-90.5,,90,90,,,,D,Raw,F,Masters 65-69,Yes
 1,Charlie Cheryl Ritchie,USA,OR,75,74.5,48,,,,,,,,,142.5,160,170.5,170.5,170.5,,,,D,Raw,F,Masters 45-49,Yes
@@ -242,12 +242,12 @@ DQ,Lynn Bassett,USA,UT,90+,111.8,54,,,,,-90,-90,-90,,,,,,,,,,B,Raw,F,Masters 50-
 1,Justin Dixon,USA,FL,67.5,64.5,22,,,,,,,,,180,192.5,202.5,202.5,202.5,,,,D,Raw,M,Juniors 20-23,Yes
 1,Luke McHale,Ireland,,82.5,80.5,19,,,,,,,,,155,170,-180,170,170,,,,D,Raw,M,Juniors 15-19,Yes
 1,Jared Brenden,USA,MT,90,85.3,20,,,,,,,,,247.5,252.5,265,265,265,,,,D,Raw,M,Juniors 20-23,Yes
-1,Charles Richards,USA,GA,100,96.9,21,,,,,,,,,150,200,260,260,260,,,270,D,Raw,M,Juniors 20-23,Yes
+1,Charles Richards #1,USA,GA,100,96.9,21,,,,,,,,,150,200,260,260,260,,,270,D,Raw,M,Juniors 20-23,Yes
 1,Cillian O'Connell,Ireland,,110,100.25,21,,,,,,,,,225,240,-250,240,240,,,,D,Raw,M,Juniors 20-23,Yes
 1,Mirko Calisai,Italy,,60,58.8,39,,,,,,,,,200,215,-221,215,215,,,,D,Raw,M,Open,Yes
 1,Alfred Resngit,USA,CA,67.5,67.2,33,,,,,,,,,280,-287.5,-287.5,280,280,,,,D,Raw,M,Open,Yes
 2,Daniel Mogilevsky,USA,OH,67.5,67.2,17,,,,,,,,,170,185,200,200,200,,,,D,Raw,M,Open,Yes
-1,David Gibson,USA,GA,75,73.6,41,,,,,,,,,215,227.5,243,243,243,,,,D,Raw,M,Open,Yes
+1,David Gibson #3,USA,GA,75,73.6,41,,,,,,,,,215,227.5,243,243,243,,,,D,Raw,M,Open,Yes
 1,Abner Nazario,USA,NJ,82.5,82.2,26,,,,,,,,,280,300,310,310,310,,,,D,Raw,M,Open,Yes
 2,Francesco LoPorto,Italy,,82.5,80,38,,,,,,,,,260,-270,270,270,270,,,,D,Raw,M,Open,Yes
 3,Shawn Shafai,USA,CA,82.5,81.8,49,,,,,,,,,232.5,242.5,-250,242.5,242.5,,,,D,Raw,M,Open,Yes
@@ -257,16 +257,16 @@ DQ,Lynn Bassett,USA,UT,90+,111.8,54,,,,,-90,-90,-90,,,,,,,,,,B,Raw,F,Masters 50-
 3,Kieran Mc Nukty,Ireland,,90,89.7,31,,,,,,,,,235,245,252.5,252.5,252.5,,,,D,Raw,M,Open,Yes
 1,Shane O'Connell,Ireland,,100,99.3,32,,,,,,,,,260,272.5,280,280,280,,,,D,Raw,M,Open,Yes
 2,Eric Levy,USA,GA,100,99,47,,,,,,,,,255,265,-271,265,265,,,,D,Raw,M,Open,Yes
-3,Charles Richards,USA,GA,100,96.9,21,,,,,,,,,150,200,260,260,260,,,270,D,Raw,M,Open,Yes
+3,Charles Richards #1,USA,GA,100,96.9,21,,,,,,,,,150,200,260,260,260,,,270,D,Raw,M,Open,Yes
 4,Igor Usachev,Russia,,100,94.4,54,,,,,,,,,205,215,223,223,223,,,,D,Raw,M,Open,Yes
 1,Tromaras Konstantinos,Greece,,125,122.1,29,,,,,,,,,260,270,,270,270,,,,D,Raw,M,Open,Yes
 1,Sean Hayes #1,Canada,,140,138.9,29,,,,,,,,,320,-345.5,-345.5,320,320,,,,D,Raw,M,Open,Yes
 2,Stephen Oatley,USA,FL,140,131.3,35,,,,,,,,,267.5,-285,285,285,285,,,,D,Raw,M,Open,Yes
 1,Eric Brust,Canada,,140+,170.8,32,,,,,,,,,260,275,287.5,287.5,287.5,,,,D,Raw,M,Open,Yes
-1,David Gibson,USA,GA,75,73.6,41,,,,,,,,,215,227.5,243,243,243,,,,D,Raw,M,Masters 40-44,Yes
+1,David Gibson #3,USA,GA,75,73.6,41,,,,,,,,,215,227.5,243,243,243,,,,D,Raw,M,Masters 40-44,Yes
 1,Seán Cregan,Ireland,,75,74.7,54,,,,,,,,,185,200,215,215,215,,,,D,Raw,M,Masters 50-54,Yes
 1,Shawn Shafai,USA,CA,82.5,81.8,49,,,,,,,,,232.5,242.5,-250,242.5,242.5,,,,D,Raw,M,Masters 45-49,Yes
-1,Jason Roberts,USA,HI,82.5,81.8,50,,,,,,,,,75,120,,120,120,,,,D,Raw,M,Masters 50-54,Yes
+1,Jason Roberts #2,USA,HI,82.5,81.8,50,,,,,,,,,75,120,,120,120,,,,D,Raw,M,Masters 50-54,Yes
 1,George Davis,USA,CA,82.5,80,68,,,,,,,,,135,150,157.5,157.5,157.5,,,,D,Raw,M,Masters 65-69,Yes
 1,Brendan O'Rourke,Ireland,,90,90,43,,,,,,,,,232.5,242.5,250,250,250,,,,D,Raw,M,Masters 40-44,Yes
 1,Tom Smith #3,USA,VA,90,89.4,73,,,,,,,,,182.5,195,-205,195,195,,,,D,Raw,M,Masters 70-74,Yes
@@ -283,11 +283,11 @@ DQ,Lynn Bassett,USA,UT,90+,111.8,54,,,,,-90,-90,-90,,,,,,,,,,B,Raw,F,Masters 50-
 1,Edyta Piechowicz,Ireland,,67.5,63.5,33,,,,,,,,,160,170.5,180,180,180,,,,D,Single-ply,F,Open,Yes
 1,Barry Smith #1,Ireland,,60,59.2,32,,,,,,,,,200,215,221.5,221.5,221.5,,,,D,Single-ply,M,Open,Yes
 2,Mirko Calisai,Italy,,60,58.8,39,,,,,,,,,202.5,215,221,221,221,,,225,D,Single-ply,M,Open,Yes
-1,Phil Watkins,UK,,90,89.7,50,,,,,,,,,290,-310,310,310,310,,,,D,Single-ply,M,Open,Yes
+1,Philip Watkins,UK,,90,89.7,50,,,,,,,,,290,-310,310,310,310,,,,D,Single-ply,M,Open,Yes
 2,Kenneth Taaffe,Ireland,,90,89.1,45,,,,,,,,,275,290,-295,290,290,,,,D,Single-ply,M,Open,Yes
 1,CJ McFarland,USA,TX,125,119.3,27,,,,,,,,,250,272.5,285,285,285,,,,D,Single-ply,M,Open,Yes
 1,Andre Du Plessis,Ireland,,140+,152.1,54,,,,,,,,,270,-290,,270,270,,,,D,Single-ply,M,Open,Yes
 1,Kenneth Taaffe,Ireland,,90,89.1,45,,,,,,,,,275,290,-295,290,290,,,,D,Single-ply,M,Masters 45-49,Yes
-1,Phil Watkins,UK,,90,89.7,50,,,,,,,,,290,-310,310,310,310,,,,D,Single-ply,M,Masters 50-54,Yes
+1,Philip Watkins,UK,,90,89.7,50,,,,,,,,,290,-310,310,310,310,,,,D,Single-ply,M,Masters 50-54,Yes
 1,Jim Bell,USA,MO,110,107.7,64,,,,,,,,,177.5,195,212.5,212.5,212.5,,,,D,Single-ply,M,Masters 60-64,Yes
 1,Andre Du Plessis,Ireland,,140+,152.1,54,,,,,,,,,270,-290,,270,270,,,,D,Single-ply,M,Masters 50-54,Yes

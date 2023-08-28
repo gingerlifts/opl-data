@@ -1,5 +1,5 @@
 Place,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,WeightClassKg,Sex,CyrillicName,BirthYear,Event,Division,Equipment
-1,Nikolay Aksenov,51.80,175,85,190,450.0,52,M,Николай Аксёнов,1957,SBD,Open,Single-ply
+1,Nikolay Aksenov,51.80,175,85,190,450.0,52,M,Николай Аксенов,1957,SBD,Open,Single-ply
 2,Aleksandr Gostev,51.70,140,117.5,180,437.5,52,M,Александр Гостев,1981,SBD,Open,Single-ply
 3,David Vartanov,50.90,150,87.5,150,387.5,52,M,Давид Вартанов,1986,SBD,Open,Single-ply
 4,Georgiy Vartanov,51.40,122.5,77.5,155,355.0,52,M,Георгий Вартанов,1985,SBD,Open,Single-ply
@@ -25,7 +25,7 @@ DQ,Sergey Isachenko,55.30,,,,,56,M,Сергей Исаченко,1984,SBD,Open,S
 7,Roman Kudryavtsev,66.50,195,100,170,465.0,67.5,M,Роман Кудрявцев,1985,SBD,Open,Single-ply
 8,Vladimir Dudarev,62.85,140,105,180,425.0,67.5,M,Владимир Дударев,1985,SBD,Open,Single-ply
 1,Sergey Koshkin,75.00,270,200,250,720.0,75,M,Сергей Кошкин,1971,SBD,Open,Single-ply
-2,Taras Tarasenko,73.85,280,160,265,705.0,75,M,Тарас Тарасенко,1980,SBD,Open,Single-ply
+2,Taras Tarasenko #2,73.85,280,160,265,705.0,75,M,Тарас Тарасенко,1980,SBD,Open,Single-ply
 3,Yuriy Kolentsov,75.00,272.5,147.5,260,680.0,75,M,Юрий Коленцов,1979,SBD,Open,Single-ply
 4,Deniya Maryshev,75.00,240,100,270,610.0,75,M,Дения Марышев,1976,SBD,Open,Single-ply
 5,Yuriy Chepets,74.00,205,162.5,210,577.5,75,M,Юрий Чепец,1943,SBD,Open,Single-ply
@@ -44,7 +44,7 @@ DQ,Vitaliy Pastarnakov,74.90,220,,,,75,M,Виталий Пастарнаков,1
 7,Mikhail Bukhtiyarov,81.25,225,120,185,530.0,82.5,M,Михаил Бухтияров,1982,SBD,Open,Single-ply
 DQ,Konstantin Khalyavkin,81.60,250,150,,,82.5,M,Константин Халявкин,1979,SB,Open,Single-ply
 DQ,Nikolay Ponomarev,81.40,250,140,,,82.5,M,Николай Пономарев,1981,SB,Open,Single-ply
-DQ,Sergey Matveev,81.40,270,,,,82.5,M,Сергей Матвеев,1980,S,Open,Single-ply
+DQ,Sergey Matveev #4,81.40,270,,,,82.5,M,Сергей Матвеев,1980,S,Open,Single-ply
 DQ,Aleksey Prikhodko,81.80,265,,,,82.5,M,Алексей Приходько,1984,S,Open,Single-ply
 1,Roman Kovalenko,89.85,320,157.5,330,807.5,90,M,Роман Коваленко,1980,SBD,Open,Single-ply
 2,Aleksey Onofrienko,87.90,315,180,310,805.0,90,M,Алексей Онофриенко,1974,SBD,Open,Single-ply
@@ -122,7 +122,7 @@ DQ,Irina Krasnoperova,55.15,,,,,56,F,Ирина Красноперова,1986,SB
 1,Ludmila Roschina,67.50,230,117.5,212.5,560.0,67.5,F,Людмила Рощина,1983,SBD,Open,Single-ply
 2,Galina Lyubeznaya,66.20,225,132.5,200,557.5,67.5,F,Галина Любезная,1980,SBD,Open,Single-ply
 3,Natalya Bogatova,66.50,180,102.5,175,457.5,67.5,F,Наталья Богатова,1965,SBD,Open,Single-ply
-4,Yuliya Matveeva,66.10,182.5,102.5,170,455.0,67.5,F,Юлия Матвеева,1981,SBD,Open,Single-ply
+4,Yuliya Matveeva #1,66.10,182.5,102.5,170,455.0,67.5,F,Юлия Матвеева,1981,SBD,Open,Single-ply
 5,Olga Pantina,63.30,165,82.5,135,382.5,67.5,F,Ольга Пантина,1979,SBD,Open,Single-ply
 6,Olga Soboleva,67.50,132.5,77.5,150,360.0,67.5,F,Ольга Соболева,1976,SBD,Open,Single-ply
 7,Anastasiya Ivanova,64.50,125,55,130,310.0,67.5,F,Анастасия Иванова,1986,SBD,Open,Single-ply

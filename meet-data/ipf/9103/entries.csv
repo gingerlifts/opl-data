@@ -15,7 +15,7 @@ Place,WeightClassKg,Sex,Division,Name,BirthYear,Country,BodyweightKg,Squat1Kg,Sq
 DQ,48,F,Open,Ya-Ling Chen,1962,Taiwan,47.3,-132.5,-132.5,-132.5,,,,,,,,,,,,SBD,Single-ply
 1,52,F,Open,Sisi Dolman,1946,Netherlands,51.5,155,165,170,170,65,-67.5,-67.5,65,165,172.5,180,180,415,,SBD,Single-ply
 2,52,F,Open,Liisa Jurkko,1959,Finland,51.6,145,155,160,160,65,70,72.5,72.5,150,157.5,-160,157.5,390,,SBD,Single-ply
-3,52,F,Open,Grete Gagnæs,1962,Norway,51.8,147.5,155,-160,155,80,85,-87.5,85,145,-150,-150,145,385,,SBD,Single-ply
+3,52,F,Open,Grete Gangnæs,1962,Norway,51.8,147.5,155,-160,155,80,85,-87.5,85,145,-150,-150,145,385,,SBD,Single-ply
 4,52,F,Open,Rekha Mal,1967,India,50,142.5,-145,150,150,62.5,-70,70,70,145,157.5,-165,157.5,377.5,,SBD,Single-ply
 5,52,F,Open,Ursula Eschenasy,1957,Germany,51.8,120,130,-137.5,130,62.5,65,-67.5,65,130,140,145,145,340,,SBD,Single-ply
 6,52,F,Open,Asha Pandey,1966,India,50.5,120,-127.5,-127.5,120,52.5,57.5,60,60,142.5,152.5,-157.5,152.5,332.5,,SBD,Single-ply
@@ -38,10 +38,10 @@ DQ,56,F,Open,Dipali Nandy,1962,India,55.5,-120,-120,-120,,,,,,,,,,,,SBD,Single-p
 5,60,F,Open,Svetlana Fishchenko,1962,USSR,59.7,-147.5,147.5,-157.5,147.5,72.5,77.5,82.5,82.5,-147.5,157.5,165,165,395,,SBD,Single-ply
 6,60,F,Open,Chiu-Chiung Chen,1971,Taiwan,59,157.5,165,-170,165,70,-75,-75,70,155,-165,-170,155,390,,SBD,Single-ply
 7,60,F,Open,Madumati Katke,1965,India,59.1,145,152.5,-160,152.5,72.5,77.5,-80,77.5,150,-157.5,-157.5,150,380,,SBD,Single-ply
-8,60,F,Open,Nataliya Ivanova,1964,USSR,58.5,110,120,130,130,67.5,72.5,75,75,127.5,147.5,-160,147.5,352.5,,SBD,Single-ply
+8,60,F,Open,Nataliya Ivanova #1,1964,USSR,58.5,110,120,130,130,67.5,72.5,75,75,127.5,147.5,-160,147.5,352.5,,SBD,Single-ply
 9,60,F,Open,Ruth Walker,1969,USA,59.1,127.5,132.5,-142.5,132.5,-70,-70,70,70,132.5,-142.5,142.5,142.5,345,,SBD,Single-ply
 1,67.5,F,Open,Yekaterina Tanakova,1964,USSR,66.6,180,190,200,200,90,95,100,100,180,190,-200,190,490,,SBD,Single-ply
-2,67.5,F,Open,Irmgar Wohlhöfler,1962,Germany,62.9,155,165,-170,165,100,-105,105,105,180,185,-190,185,455,,SBD,Single-ply
+2,67.5,F,Open,Irmgard Wohlhöfler,1962,Germany,62.9,155,165,-170,165,100,-105,105,105,180,185,-190,185,455,,SBD,Single-ply
 3,67.5,F,Open,Sarala Shetty,1963,India,66.9,167.5,172.5,-175,172.5,82.5,-87.5,87.5,87.5,167.5,172.5,-177.5,172.5,432.5,,SBD,Single-ply
 4,67.5,F,Open,Yoriko Yamazaki,1959,Japan,65.4,160,170,-180,170,95,-100,100,100,160,-170,-170,160,430,,SBD,Single-ply
 5,67.5,F,Open,Myriam Busselot,1952,Belgium,65.1,160,-170,-170,160,75,80,-82.5,80,177.5,187.5,-192.5,187.5,427.5,,SBD,Single-ply

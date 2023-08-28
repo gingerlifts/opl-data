@@ -32,8 +32,8 @@ Fernanda de Lima,GPA,F,1995-02-01,49.7,22,Juniors 20-23,52,Brazil,120,135,-140,1
 Darleys Hernadez,GPA,F,1993-12-10,50.9,23,Open,52,Colombia,95,102.5,107.5,107.5,,37.5,42.5,-50,42.5,,95,-100,-100,95,,245,SBD,Wraps,4
 Darleys Hernadez,GPA,F,1993-12-10,50.9,23,Juniors 20-23,52,Colombia,95,102.5,107.5,107.5,,37.5,42.5,-50,42.5,,95,-100,-100,95,,245,SBD,Wraps,2
 Carolina Ramos #1,GPA,F,1991-11-25,49.8,25,Open,52,Argentina,137.5,145,147.5,147.5,,70,72.5,-75,72.5,,150,165,-170,165,,385,SBD,Wraps,1
-Veronica Garcia,GPA,F,1976-08-31,51.5,41,Open,52,Argentina,115,125,134,134,-137.5,70,75,80.5,80.5,81,105,115,120,120,,334.5,SBD,Wraps,2
-Veronica Garcia,GPA,F,1976-08-31,51.5,41,Masters 40-44,52,Argentina,115,125,134,134,-137.5,70,75,80.5,80.5,81,105,115,120,120,,334.5,SBD,Wraps,1
+Veronica Garcia #2,GPA,F,1976-08-31,51.5,41,Open,52,Argentina,115,125,134,134,-137.5,70,75,80.5,80.5,81,105,115,120,120,,334.5,SBD,Wraps,2
+Veronica Garcia #2,GPA,F,1976-08-31,51.5,41,Masters 40-44,52,Argentina,115,125,134,134,-137.5,70,75,80.5,80.5,81,105,115,120,120,,334.5,SBD,Wraps,1
 Liliana Mina,GPA,F,1970-12-12,47.7,46,Open,48,Peru,80,-85,-85,80,,50,52.5,-55,52.5,,80,82.5,85,85,,217.5,SBD,Wraps,4
 Liliana Mina,GPA,F,1970-12-12,47.7,46,Masters 45-49,48,Peru,80,-85,-85,80,,50,52.5,-55,52.5,,80,82.5,85,85,,217.5,SBD,Wraps,1
 Eliana Marcillo,GPA,F,1995-03-29,58.8,22,Open,60,Colombia,137.5,147.5,157.5,157.5,160,75,82.5,87.5,87.5,-90,125,137.5,148,148,150,393,SBD,Wraps,2
@@ -87,7 +87,7 @@ Esteban Ballesteros,GPA,M,1994-11-14,74.8,23,Juniors 20-23,75,Argentina,200,225,
 Santiago Ruiz,GPA,M,1996-02-28,73,21,Open,75,Colombia,225,235,245,245,,150,155,-162.5,155,,225,235,-240,235,,635,SBD,Wraps,1
 Santiago Ruiz,GPA,M,1996-02-28,73,21,Juniors 20-23,75,Colombia,225,235,245,245,,150,155,-162.5,155,,225,235,-240,235,,635,SBD,Wraps,1
 Darlyn Nima,GPA,M,1984-10-05,73.5,33,Open,75,Peru,195,-210,-210,195,,135,145,-152.5,145,,210,215,220,220,,560,SBD,Wraps,4
-Marcos Salinas Castro,GPA,M,1992-05-23,74.1,25,Open,75,Bolivia,160,180,190,190,,110,120,130,130,,200,220,-225,220,,540,SBD,Wraps,5
+Marco Salinas Castro,GPA,M,1992-05-23,74.1,25,Open,75,Bolivia,160,180,190,190,,110,120,130,130,,200,220,-225,220,,540,SBD,Wraps,5
 Bryan Sagredo,GPA,M,1993-06-16,73.3,24,Open,75,Chile,180,192.5,205,205,,112.5,120,-125,120,,185,-197.5,200,200,,525,SBD,Wraps,7
 Leandro Albornoz,GPA,M,1992-09-15,73.6,25,Open,75,Argentina,210,225,-235,225,,120,-130,130,130,,220,240,-245,240,,595,SBD,Wraps,2
 Diego Carrasco,GPA,M,2000-06-08,79.4,17,Open,82.5,Chile,170,190,205,205,,-95,97.5,102.5,102.5,,205,225,227.5,227.5,,535,SBD,Wraps,9
@@ -103,7 +103,7 @@ Roberto Guzman,GPA,M,1996-02-16,81.1,21,Open,82.5,Bolivia,220,-230,235,235,,-120
 Roberto Guzman,GPA,M,1996-02-16,81.1,21,Juniors 20-23,82.5,Bolivia,220,-230,235,235,,-120,127.5,135,135,,225,235,247.5,247.5,,617.5,SBD,Wraps,1
 Felipe Rodriguez,GPA,M,1997-09-18,81.5,20,Open,82.5,Colombia,175,185,200,200,,145,152.5,160,160,,200,220,-225,220,,580,SBD,Wraps,5
 Felipe Rodriguez,GPA,M,1997-09-18,81.5,20,Juniors 20-23,82.5,Colombia,175,185,200,200,,145,152.5,160,160,,200,220,-225,220,,580,SBD,Wraps,2
-Jose Egües,GPA,M,1985-07-19,82.5,32,Open,82.5,Argentina,-290,290,-300,290,,130,140,-145,140,,-260,260,-277.5,260,,690,SBD,Wraps,1
+José Egües,GPA,M,1985-07-19,82.5,32,Open,82.5,Argentina,-290,290,-300,290,,130,140,-145,140,,-260,260,-277.5,260,,690,SBD,Wraps,1
 Mauricio Rodríguez Cid,GPA,M,1988-07-06,79.9,29,Open,82.5,Chile,210,220,-232.5,220,,112.5,120,-125,120,,230,-250,,230,,570,SBD,Wraps,6
 Jose Sepulveda,GPA,M,1985-04-24,79.2,32,Open,82.5,Colombia,240,245,255,255,,130,142.5,-150,142.5,,260,270,280,280,,677.5,SBD,Wraps,2
 Mariano Stamatti,GPA,M,1977-08-08,80.6,40,Open,82.5,Argentina,-200,205,220,220,,105,115,-125,115,,210,215,-225,215,,550,SBD,Wraps,8
@@ -134,24 +134,24 @@ Franco Elizaran,GPA,M,1996-10-07,94.65,21,Open,100,Argentina,225,240,250,250,,12
 Franco Elizaran,GPA,M,1996-10-07,94.65,21,Juniors 20-23,100,Argentina,225,240,250,250,,122.5,132.5,-142.5,132.5,,220,235,-245,235,,617.5,SBD,Wraps,2
 Israel Hernandez Laguna,GPA,M,1996-05-07,98.3,21,Open,100,,272.5,-282.5,285,285,,150,155,157.5,157.5,,280,292.5,-300,292.5,,735,SBD,Wraps,4
 Israel Hernandez Laguna,GPA,M,1996-05-07,98.3,21,Juniors 20-23,100,,272.5,-282.5,285,285,,150,155,157.5,157.5,,280,292.5,-300,292.5,,735,SBD,Wraps,1
-Yonathan Rondon,GPA,M,1989-08-04,98.1,28,Open,100,Argentina,290,310,325,325,,175,185,195,195,,290,305,-315,305,,825,SBD,Wraps,1
+Jonathan Rondon,GPA,M,1989-08-04,98.1,28,Open,100,Argentina,290,310,325,325,,175,185,195,195,,290,305,-315,305,,825,SBD,Wraps,1
 Eduardo Kramm,GPA,M,1981-09-16,98.25,36,Open,100,Brazil,280,305,310,310,,165,,,165,,275,,,275,,750,SBD,Wraps,3
 Marcelo De la Quintana,GPA,M,1980-04-24,97.9,37,Open,100,Bolivia,220,250,-270,250,,130,,,130,,240,,,240,,620,SBD,Wraps,6
 Marcelo De la Quintana,GPA,M,1980-04-24,97.9,37,Open,100,Bolivia,220,250,-270,250,,130,140,,140,,240,-260,-260,240,,630,SBD,Wraps,5
 Eduardo Kramm,GPA,M,1981-09-16,98.25,36,Open,100,Brazil,280,305,325,325,,165,-180,-180,165,,275,-290,,275,,765,SBD,Wraps,2
-José Fernández,GPA,M,1939-03-10,99.9,78,Open,100,Argentina,60,80,100,100,,-50,65,-80,65,,150,166,170,170,,335,SBD,Wraps,9
-José Fernández,GPA,M,1939-03-10,99.9,78,Masters 75-79,100,Argentina,60,80,100,100,,-50,65,-80,65,,150,166,170,170,,335,SBD,Wraps,1
+José Fernández #2,GPA,M,1939-03-10,99.9,78,Open,100,Argentina,60,80,100,100,,-50,65,-80,65,,150,166,170,170,,335,SBD,Wraps,9
+José Fernández #2,GPA,M,1939-03-10,99.9,78,Masters 75-79,100,Argentina,60,80,100,100,,-50,65,-80,65,,150,166,170,170,,335,SBD,Wraps,1
 Leonardo Tejada,GPA,M,1997-12-25,108.1,19,Open,110,Argentina,250,260,-275,260,,150,160,-175,160,,240,255,-260,255,,675,SBD,Wraps,6
 Leonardo Tejada,GPA,M,1997-12-25,108.1,19,Teen 18-19,110,Argentina,250,260,-275,260,,150,160,-175,160,,240,255,-260,255,,675,SBD,Wraps,1
-Andres Hugo,GPA,M,1979-12-29,108.2,37,Open,110,Argentina,325,-340,-340,325,,175,180,185,185,,295,305,315,315,,825,SBD,Wraps,2
+Andrés Hugo,GPA,M,1979-12-29,108.2,37,Open,110,Argentina,325,-340,-340,325,,175,180,185,185,,295,305,315,315,,825,SBD,Wraps,2
 Matías Iturra Vega,GPA,M,1991-08-08,107.75,26,Open,110,Chile,290,-300,-300,290,,170,180,190,190,,280,300,,300,,780,SBD,Wraps,3
 Giovani Santos,GPA,M,1990-09-15,106.4,27,Open,110,Brazil,270,300,-305,300,,155,172.5,180,180,,230,250,270,270,,750,SBD,Wraps,4
 Clodove Romero Cespedes,GPA,M,1989-11-23,108.3,,Open,110,Bolivia,265,-275,277.5,277.5,,170,180,182.5,182.5,,230,240,245,245,,705,SBD,Wraps,5
 Mauro Spinardi,GPA,M,1980-02-28,109.2,37,Open,110,Argentina,320,335,350,350,,200,-205,,200,,300,-320,,300,,850,SBD,Wraps,1
 Enrique Barrionuevo,GPA,M,1968-11-01,107.5,49,Open,110,Argentina,200,220,240,240,,150,170,,170,,180,220,,220,,630,SBD,Wraps,7
 Enrique Barrionuevo,GPA,M,1968-11-01,107.5,49,Masters 45-49,110,Argentina,200,220,240,240,,150,170,,170,,180,220,,220,,630,SBD,Wraps,1
-Serafin Rocha,GPA,M,1948-04-27,109.5,69,Open,110,Brazil,80,100,120,120,,105,110,-115,110,,120,140,,140,,370,SBD,Wraps,8
-Serafin Rocha,GPA,M,1948-04-27,109.5,69,Masters 65-69,110,Brazil,80,100,120,120,,105,110,-115,110,,120,140,,140,,370,SBD,Wraps,1
+Serafim Rocha,GPA,M,1948-04-27,109.5,69,Open,110,Brazil,80,100,120,120,,105,110,-115,110,,120,140,,140,,370,SBD,Wraps,8
+Serafim Rocha,GPA,M,1948-04-27,109.5,69,Masters 65-69,110,Brazil,80,100,120,120,,105,110,-115,110,,120,140,,140,,370,SBD,Wraps,1
 Leandro Correa,GPA,M,1998-05-12,123.5,19,Open,125,Argentina,240,260,272.5,272.5,,120,130,-140,130,,230,250,,250,,652.5,SBD,Wraps,5
 Leandro Correa,GPA,M,1998-05-12,123.5,19,Teen 18-19,125,Argentina,240,260,272.5,272.5,,120,130,-140,130,,230,250,,250,,652.5,SBD,Wraps,1
 Alejandro Acuña González,GPA,M,1985-03-13,119.8,32,Open,125,Chile,270,290,305,305,,150,165,-175,165,,280,-300,-300,280,,750,SBD,Wraps,2
@@ -162,7 +162,7 @@ Abel Baltuano,GPA,M,1974-10-26,115.3,43,Masters 40-44,125,Peru,220,240,255,255,,
 Ricardo Lucas,GPA,M,1971-04-16,120.9,46,Open,125,Brazil,250,-285,285,285,,170,190,200,200,,230,250,-270,250,,735,SBD,Wraps,3
 Ricardo Lucas,GPA,M,1971-04-16,120.9,46,Masters 45-49,125,Brazil,250,-285,285,285,,170,190,200,200,,230,250,-270,250,,735,SBD,Wraps,1
 Sergio Mardones Meza,GPA,M,1989-05-10,138.4,28,Open,140,Chile,350,380,-405,380,,205,222.5,230,230,,292.5,320,-350,320,,930,SBD,Wraps,1
-Adrian Lopez,GPA,M,1986-08-07,127.3,31,Open,140,Argentina,255,270,282.5,282.5,,160,170,-177.5,170,,270,285,,285,,737.5,SBD,Wraps,2
+Adrian Lopez #3,GPA,M,1986-08-07,127.3,31,Open,140,Argentina,255,270,282.5,282.5,,160,170,-177.5,170,,270,285,,285,,737.5,SBD,Wraps,2
 Rodrigo Martinez Quiroga,GPA,M,1982-07-15,141.1,35,Open,140+,Argentina,330,350,-370,350,,200,210,-215,210,,300,320,335,335,,895,SBD,Wraps,2
 Edgardo Leal Contreras,GPA,M,1973-04-19,160,44,Open,140+,Chile,320,340,,340,,-200,-200,200,200,,-260,260,-280,260,,800,SBD,Wraps,3
 Edgardo Leal Contreras,GPA,M,1973-04-19,160,44,Masters 40-44,140+,Chile,320,340,,340,,-200,-200,200,200,,-260,260,-280,260,,800,SBD,Wraps,1
@@ -187,8 +187,8 @@ Sebastian Borja,GPA,M,1994-12-21,67.3,22,Juniors 20-23,67.5,Bolivia,,,,,,112.5,1
 Patricio Poblete,GPA,M,1994-01-26,74.8,23,Open,75,Chile,,,,,,122.5,130,137.5,137.5,,190,202.5,-212.5,202.5,,340,BD,Raw,2
 Patricio Poblete,GPA,M,1994-01-26,74.8,23,Juniors 20-23,75,Chile,,,,,,122.5,130,137.5,137.5,,190,202.5,-212.5,202.5,,340,BD,Raw,1
 José Rivas #1,GPA,M,1988-06-11,74.3,29,Open,75,Chile,,,,,,125,130,-140,130,,200,205,210,210,,340,BD,Raw,1
-Clotário Portugal,GPA,M,1953-02-11,74.8,64,Open,75,Brazil,,,,,,95,100,107.5,107.5,,125,130,,130,,237.5,BD,Raw,3
-Clotário Portugal,GPA,M,1953-02-11,74.8,64,Masters 60-64,75,Brazil,,,,,,95,100,107.5,107.5,,125,130,,130,,237.5,BD,Raw,1
+Clotário Portugal Neto,GPA,M,1953-02-11,74.8,64,Open,75,Brazil,,,,,,95,100,107.5,107.5,,125,130,,130,,237.5,BD,Raw,3
+Clotário Portugal Neto,GPA,M,1953-02-11,74.8,64,Masters 60-64,75,Brazil,,,,,,95,100,107.5,107.5,,125,130,,130,,237.5,BD,Raw,1
 Diego Alvarado,GPA,M,1992-08-15,81.8,25,Open,82.5,Chile,,,,,,117.5,127.5,132.5,132.5,,-225,225,-237.5,225,,357.5,BD,Raw,2
 Marcos Villagra,GPA,M,1985-10-12,77.6,32,Open,82.5,Argentina,,,,,,127.5,135,-140,135,,220,230,-235,230,,365,BD,Raw,1
 Elias Urrutia,GPA,M,1999-03-15,84.5,18,Open,90,Chile,,,,,,110,-115,-115,110,,-205,-210,210,210,,320,BD,Raw,3
@@ -211,8 +211,8 @@ Aldo Cornejo,GPA,M,1971-01-05,140.6,46,Open,140+,Chile,,,,,,160,170,-180,170,,29
 Aldo Cornejo,GPA,M,1971-01-05,140.6,46,Masters 45-49,140+,Chile,,,,,,160,170,-180,170,,291,305,-310,305,,475,BD,Raw,1
 Alejandro Luna,GPA,M,1982-01-27,134.3,35,Open,140,Argentina,,,,,,140,150,-160,150,,190,210,-225,210,,360,BD,Raw,2
 Cesar Casarotto,GPA,M,1983-02-24,129,34,Open,140,Brazil,,,,,,180,-200,-200,180,,300,-310,310,310,,490,BD,Raw,1
-Clotário Portugal,IPO,M,1953-02-11,71,64,Open,75,Brazil,,,,,,138,-140,-145,138,,,,,,,138,B,Multi-ply,1
-Clotário Portugal,IPO,M,1953-02-11,71,64,Masters 60-64,75,Brazil,,,,,,138,-140,-145,138,,,,,,,138,B,Multi-ply,1
+Clotário Portugal Neto,IPO,M,1953-02-11,71,64,Open,75,Brazil,,,,,,138,-140,-145,138,,,,,,,138,B,Multi-ply,1
+Clotário Portugal Neto,IPO,M,1953-02-11,71,64,Masters 60-64,75,Brazil,,,,,,138,-140,-145,138,,,,,,,138,B,Multi-ply,1
 Ruben Reynoso,IPO,M,1997-12-06,76.4,19,Open,82.5,Argentina,,,,,,130,-145,-145,130,,,,,,,130,B,Multi-ply,1
 Ruben Reynoso,IPO,M,1997-12-06,76.4,19,Teen 18-19,82.5,Argentina,,,,,,130,-145,-145,130,,,,,,,130,B,Multi-ply,1
 Mario Garcia,IPO,M,1992-10-20,88,25,Open,90,Argentina,,,,,,170,-190,-200,170,,,,,,,170,B,Multi-ply,2
@@ -267,10 +267,10 @@ Pablo Aurellio,GPA,M,1978-12-22,104.9,38,Open,110,Argentina,,,,,,175,182.5,192.5
 Marcelo Schneider,GPA,M,1967-02-25,106.7,50,Open,110,Brazil,,,,,,170,-180,-180,170,,,,,,,170,B,Raw,3
 Marcelo Schneider,GPA,M,1967-02-25,106.7,50,Masters 50-54,110,Brazil,,,,,,170,-180,-180,170,,,,,,,170,B,Raw,1
 Nicolas Pato,GPA,M,1984-04-16,110.4,33,Open,125,Argentina,,,,,,180,210,-220,210,,,,,,,210,B,Raw,1
-Nestor Gonzalez,GPA,M,1970-03-06,123,47,Open,125,Argentina,,,,,,150,165,-172.5,165,,,,,,,165,B,Raw,2
-Nestor Gonzalez,GPA,M,1970-03-06,123,47,Masters 45-49,125,Argentina,,,,,,150,165,-172.5,165,,,,,,,165,B,Raw,1
-Gabriel Lopez,GPA,M,1977-03-06,126,40,Open,140,Argentina,,,,,,155,170,180,180,,,,,,,180,B,Raw,1
-Gabriel Lopez,GPA,M,1977-03-06,126,40,Masters 40-44,140,Argentina,,,,,,155,170,180,180,,,,,,,180,B,Raw,1
+Nestor Gonzalez #1,GPA,M,1970-03-06,123,47,Open,125,Argentina,,,,,,150,165,-172.5,165,,,,,,,165,B,Raw,2
+Nestor Gonzalez #1,GPA,M,1970-03-06,123,47,Masters 45-49,125,Argentina,,,,,,150,165,-172.5,165,,,,,,,165,B,Raw,1
+Gabriel Lopez #1,GPA,M,1977-03-06,126,40,Open,140,Argentina,,,,,,155,170,180,180,,,,,,,180,B,Raw,1
+Gabriel Lopez #1,GPA,M,1977-03-06,126,40,Masters 40-44,140,Argentina,,,,,,155,170,180,180,,,,,,,180,B,Raw,1
 Edgardo Leal Contreras,GPA,M,1973-04-19,160,44,Open,140+,Chile,,,,,,200,-210,,200,,,,,,,200,B,Raw,1
 Edgardo Leal Contreras,GPA,M,1973-04-19,160,44,Masters 40-44,140+,Chile,,,,,,200,-210,,200,,,,,,,200,B,Raw,1
 Jose Soto,IPO,M,1988-02-14,80.3,29,Open,82.5,Ecuador,,,,,,,,,,,160,180,-220,180,,180,D,Multi-ply,1

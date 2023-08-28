@@ -1,7 +1,7 @@
 Sex,Equipment,Division,WeightClassKg,Name,BodyweightKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Age,Event,Place
 M,Raw,Amateur Open,75,Jake Ferwerda,74.3,124.74,,124.74,,B,1
 M,Raw,Amateur Open,100,Steven Pickard,93.8,156.49,,156.49,,B,1
-M,Raw,Amateur Open,110,Trevor Thorpe,,161.03,,161.03,,B,1
+M,Raw,Amateur Open,110,Trev Thorpe,,161.03,,161.03,,B,1
 F,Raw,Amateur Teen 18-19,75,Erin Quindley,72.76,,102.06,102.06,,D,1
 F,Raw,Amateur Open,75,Mo Waxwood,67.77,,104.33,104.33,,D,1
 M,Raw,Amateur Masters 60-64,100,Philip Friden,98.97,,181.44,181.44,,D,1
@@ -26,7 +26,7 @@ F,Raw,Amateur Masters 45-49,82.5,Lori Becker,82.37,70.31,133.81,204.12,,BD,1
 F,Raw,Amateur Open,90,Beth Hughes,87.18,52.16,108.86,161.03,,BD,1
 F,Raw,Amateur Juniors 20-23,100,Kim Isnor,94.26,74.84,188.24,263.08,,BD,1
 F,Raw,Amateur Masters 40-44,100,Liza Lucas,97.43,83.91,154.22,238.14,,BD,1
-F,Raw,Amateur Juniors 20-23,110+,Amanda Martin,121.83,63.5,163.29,226.8,,BD,1
+F,Raw,Amateur Juniors 20-23,110+,Amanda Martin #1,121.83,63.5,163.29,226.8,,BD,1
 F,Raw,Amateur Open,110+,Jessica Vega,110.86,96.39,195.04,291.43,,BD,1
 M,Raw,Amateur Youth,52,Dylan Berio,26.94,,20.41,20.41,9,D,1
 M,Raw,Amateur Teen 16-17,52,Max Shaiova-Perlov,51.44,72.57,124.74,197.31,,BD,1
@@ -56,7 +56,7 @@ M,Raw,Amateur Open,100,Josh Dunton,94.44,165.56,272.16,437.72,,BD,1
 M,Raw,Amateur Open,100,Ryan Angus,96.16,124.74,183.7,308.44,,BD,2
 M,Raw,Amateur Submasters 33-39,110,Thomas Belloli,104.87,129.27,272.16,401.43,,BD,1
 M,Raw,Amateur Submasters 33-39,100,Matthew Show,98.34,138.35,170.1,308.44,,BD,2
-M,Raw,Amateur Masters 45-49,110,Trevor Thorpe,104.51,161.03,208.65,369.68,,BD,1
+M,Raw,Amateur Masters 45-49,110,Trev Thorpe,104.51,161.03,208.65,369.68,,BD,1
 M,Raw,Amateur Open,110,Thomas Belloli,104.87,129.27,272.16,401.43,,BD,2
 M,Raw,Amateur Open,110,Dan Grozier,104.24,161.03,244.94,405.97,,BD,1
 M,Raw,Amateur Open,110,Jarrod Pooler,109.23,122.47,188.24,310.71,,BD,3

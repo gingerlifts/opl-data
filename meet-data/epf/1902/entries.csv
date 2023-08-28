@@ -3,8 +3,8 @@ Place,WeightClassKg,Sex,Event,Equipment,Name,BirthYear,BodyweightKg,Country,Squa
 1,66,M,B,Raw,Rafal Wit,1995,65.22,Poland,,,,,130,140,-145,140,,,,,140,Open
 2,66,M,B,Raw,Armen Martirosyan,1992,64.01,Armenia,,,,,105,110,-115,110,,,,,110,Open
 3,66,M,B,Raw,Radosław Dębicki,2001,62.46,Poland,,,,,95,102.5,-110,102.5,,,,,102.5,Open
-1,74,M,B,Raw,Dmitrii Luchkin,1986,72.68,Russia,,,,,185,190,-195,190,,,,,190,Open
-2,74,M,B,Raw,Alexey Nazarenko,1989,72.99,Russia,,,,,175,180,185,185,,,,,185,Open
+1,74,M,B,Raw,Dmitriy Luchkin,1986,72.68,Russia,,,,,185,190,-195,190,,,,,190,Open
+2,74,M,B,Raw,Aleksey Nazarenko,1989,72.99,Russia,,,,,175,180,185,185,,,,,185,Open
 3,74,M,B,Raw,Albertas Motiečius,1994,72.69,Lithuania,,,,,160,170,175,175,,,,,175,Open
 4,74,M,B,Raw,Ara Hovanessyan,1992,73.95,Armenia,,,,,130,137.5,-142.5,137.5,,,,,137.5,Open
 1,83,M,B,Raw,Maksim Beloborodov,1983,82.25,Russia,,,,,190,200,-207.5,200,,,,,200,Open
@@ -17,7 +17,7 @@ Place,WeightClassKg,Sex,Event,Equipment,Name,BirthYear,BodyweightKg,Country,Squa
 2,105,M,B,Raw,Paulius Morkvėnas,1992,102.38,Lithuania,,,,,195,205,-220,205,,,,,205,Open
 3,105,M,B,Raw,Harut Avanesyan,1990,101.94,Armenia,,,,,140,-150,-160,140,,,,,140,Open
 1,120,M,B,Raw,Aliaksandr Dziamyanau,1986,111.33,Belarus,,,,,-225,-225,225,225,,,,,225,Open
-2,120,M,B,Raw,Michal Nowalinski,1988,116.16,Poland,,,,,200,-205,-205,200,,,,,200,Open
+2,120,M,B,Raw,Michał Nowaliński,1988,116.16,Poland,,,,,200,-205,-205,200,,,,,200,Open
 3,120,M,B,Raw,Arkadia Zakarian,1972,110.3,Armenia,,,,,155,165,-172.5,165,,,,,165,Open
 1,120+,M,B,Raw,Vitaliy Morozevich,1966,200,Russia,,,,,180,205,-225,205,,,,,205,Open
 2,120+,M,B,Raw,Oleg Razzhivin,1972,125.78,Russia,,,,,130,135,140,140,,,,,140,Open
@@ -31,7 +31,7 @@ Place,WeightClassKg,Sex,Event,Equipment,Name,BirthYear,BodyweightKg,Country,Squa
 2,83,M,SBD,Raw,Tatul Harutyunyan,1987,81.97,Armenia,160,170,180,180,145,-150,-150,145,200,210,220,220,545,Open
 1,93,M,SBD,Raw,Aliaksei Sheikin,1988,92.17,Belarus,230,240,242.5,242.5,175,180,-185,180,270,280,-285,280,702.5,Open
 2,93,M,SBD,Raw,Mikalai Khomich,1974,92.25,Belarus,225,240,-255,240,155,162.5,-170,162.5,255,275,-302.5,275,677.5,Open
-3,93,M,SBD,Raw,Balint P. Nagy,1994,92.33,Hungary,220,230,-235,230,145,155,165,165,245,255,-265,255,650,Open
+3,93,M,SBD,Raw,Bálint P. Nagy,1994,92.33,Hungary,220,230,-235,230,145,155,165,165,245,255,-265,255,650,Open
 4,93,M,SBD,Raw,Arayik Arakelyan,1973,92.95,Armenia,190,205,220,220,115,125,-135,125,200,210,-220,210,555,Open
 1,105,M,SBD,Raw,Dzmitry Mankevich,1997,102.61,Belarus,270,280,285,285,170,180,-185,180,305,315,-317.5,315,780,Open
 2,105,M,SBD,Raw,Sergii Kovalenko,1994,102.32,Ukraine,-265,-270,270,270,170,180,-185,180,280,300,-315,300,750,Open
@@ -48,7 +48,7 @@ Place,WeightClassKg,Sex,Event,Equipment,Name,BirthYear,BodyweightKg,Country,Squa
 2,63,F,B,Raw,Nadezhda Churilova,1996,61.76,Russia,,,,,80,-85,85,85,,,,,85,Open
 3,63,F,B,Raw,Glafira Anikina,2001,62.33,Russia,,,,,55,60,62.5,62.5,,,,,62.5,Open
 1,72,F,B,Raw,Viktoryia Bardouskaya,1995,68.62,Belarus,,,,,90,95,97.5,97.5,,,,,97.5,Open
-2,72,F,B,Raw,Kinga Moczydlowska,1983,70.48,Poland,,,,,-90,90,-92.5,90,,,,,90,Open
+2,72,F,B,Raw,Kinga Moczydłowska,1983,70.48,Poland,,,,,-90,90,-92.5,90,,,,,90,Open
 1,84,F,B,Raw,Aneta Szot,1984,72.85,Poland,,,,,95,-100,100,100,,,,,100,Open
 1,47,F,SBD,Raw,Mariia Zabelina,1997,46.81,Russia,105,110,-112.5,110,55,60,62.5,62.5,132.5,140,145,145,317.5,Open
 2,47,F,SBD,Raw,Zuzanna Kula,1999,46.23,Poland,105,110,112.5,112.5,65,-70,-70,65,125,132.5,137.5,137.5,315,Open

@@ -10,7 +10,7 @@ Place,Name,Sex,BirthDate,Equipment,Division,Tested,BodyweightKg,WeightClassKg,Sq
 1,Svetlana Pyatygina,F,1986-02-25,Raw,F_OR_AWPC,Yes,67.1,67.5,115,120,125,,125,-65,70,-75,,70,120,137.5,-140,,137.5,332.5,SBD
 1,Svetlana Schekotova,F,1978-09-02,Raw,F_MR_1_AWPC,Yes,63.2,67.5,-90,100,110,,110,55,60,-65,,60,130,140,150,,150,320,SBD
 1,Oksana Khrabrovskaya,F,1974-11-08,Raw,F_MR_1_AWPC,Yes,74.5,75,130,140,145,,145,62.5,70,72.5,,72.5,130,142.5,150,,150,367.5,SBD
-1,Evgeniy Maksimov,M,2006-06-08,Raw,M_YR_AWPC,Yes,41.6,52,-50,50,60,,60,35,40,-42.5,,40,80,90,92.5,,92.5,192.5,SBD
+1,Evgeniy Maksimov #1,M,2006-06-08,Raw,M_YR_AWPC,Yes,41.6,52,-50,50,60,,60,35,40,-42.5,,40,80,90,92.5,,92.5,192.5,SBD
 1,Nikita Kulichenko,M,2002-05-08,Raw,M_TR_2_AWPC,Yes,66.9,67.5,150,160,167.5,,167.5,92.5,102.5,107.5,,107.5,210.5,215,220,,220,495,SBD
 1,Alexander Bashkaykin,M,1993-08-27,Raw,M_OR_AWPC,Yes,73.3,75,190,200,205,,205,130,135,-140,,135,220,232.5,-240,,232.5,572.5,SBD
 1,Daniil Pakhuchiy,M,2001-09-12,Raw,M_TR_2_AWPC,Yes,74.6,75,160,175,180,,180,100,112.5,120,,120,175,195,210,,210,510,SBD
@@ -43,7 +43,7 @@ Place,Name,Sex,BirthDate,Equipment,Division,Tested,BodyweightKg,WeightClassKg,Sq
 1,Evgeniy Shelestyuk,M,1999-08-02,Wraps,M_TCR_3_AWPC,Yes,98.5,100,-220,-220,235,-250,235,110,117.5,-121,,117.5,240,260,-267.5,,260,612.5,SBD
 1,Andrey Reznikov,M,1997-05-30,Wraps,M_JCR_AWPC,Yes,99.5,100,-195,205,-215,,205,130,135,140,,140,195,205,215,,215,560,SBD
 DQ,Valeriy Tatarenko,M,1966-12-11,Wraps,M_MCR_3_AWPC,Yes,98.9,100,-185,-185,-185,,,,,,,,,,,,,,SBD
-DQ,Viktor Popov,M,1987-12-18,Wraps,M_OCR_AWPC,Yes,115.8,125,-220,-230,-230,,,,,,,,,,,,,,SBD
+DQ,Viktor Popov #5,M,1987-12-18,Wraps,M_OCR_AWPC,Yes,115.8,125,-220,-230,-230,,,,,,,,,,,,,,SBD
 1,Konstantin Lyadusov,M,1988-03-02,Wraps,M_OCR_AWPC,Yes,139.2,140,-300,-310,310,,310,185,195,-202.5,,195,290,310,320,,320,825,SBD
 1,Tatyana Bondarenko,F,1991-09-12,Single-ply,F_OES_AWPC,Yes,52,52,140,-147.5,147.5,,147.5,77.5,-85,-85,,77.5,120,130,137.5,,137.5,362.5,SBD
 DQ,Konstantin Nazarov,M,1998-01-28,Single-ply,M_JES_AWPC,Yes,71.7,75,-160,-160,-160,,,,,,,,,,,,,,SBD
@@ -61,11 +61,11 @@ DQ,Konstantin Nazarov,M,1998-01-28,Single-ply,M_JES_AWPC,Yes,71.7,75,-160,-160,-
 3,Alexey Alpatov,M,1982-12-25,Wraps,M_OCR_WPC,,82.1,82.5,150,160,-170,,160,90,-100,-100,,90,170,-182.5,182.5,,182.5,432.5,SBD
 1,Denis Storozhko,M,2002-12-14,Wraps,M_TCR_2_WPC,,77.9,82.5,145,150,152.5,,152.5,95,97.5,100,,100,147.5,-150,150,,150,402.5,SBD
 1,Ruslan Klimov,M,1997-07-05,Wraps,M_OCR_WPC,,87.8,90,-315,320,330,,330,-200,200,210,,210,290,307.5,-322.5,,307.5,847.5,SBD
-2,Sergey Sokolov,M,1992-09-04,Wraps,M_OCR_WPC,,87.3,90,250,265,275,,275,145,155,-165,,155,235,-245,245,,245,675,SBD
+2,Sergey Sokolov #5,M,1992-09-04,Wraps,M_OCR_WPC,,87.3,90,250,265,275,,275,145,155,-165,,155,235,-245,245,,245,675,SBD
 3,Eduard Chubaryan,M,1986-10-09,Wraps,M_OCR_WPC,,85.5,90,195,-210,220,,220,120,127.5,132.5,,132.5,-210,-210,210,,210,562.5,SBD
 1,Anatoliy Fedin,M,2000-11-28,Wraps,M_OCR_WPC,,97.4,100,-270,285,295,,295,165,175,-180,,175,270,280,,,280,750,SBD
 2,Andrey Pyatygin,M,1986-04-14,Wraps,M_OCR_WPC,,100,100,245,260,275,,275,160,167.5,-172.5,,167.5,270,290,-310,,290,732.5,SBD
-3,Igor Kozlov,M,1979-02-12,Wraps,M_OCR_WPC,,99.3,100,240,-255,-255,,240,175,-180,-180,,175,275,282.5,,,282.5,697.5,SBD
+3,Igor Kozlov #5,M,1979-02-12,Wraps,M_OCR_WPC,,99.3,100,240,-255,-255,,240,175,-180,-180,,175,275,282.5,,,282.5,697.5,SBD
 4,Nikolay Klimov,M,1992-09-01,Wraps,M_OCR_WPC,,91.2,100,250,260,-270,,260,135,145,-150,,145,-280,280,-302.5,,280,685,SBD
 1,Vladimir Davydenko,M,1998-07-07,Wraps,M_JCR_WPC,,99.5,100,220,240,250,,250,145,152.5,-160,,152.5,240,250,255,,255,657.5,SBD
 1,Alexander Pakhuchiy,M,1978-04-24,Wraps,M_OCR_WPC,,108.9,110,300,-320,-320,,300,190,210,-220,,210,300,320,-325,,320,830,SBD
@@ -135,7 +135,7 @@ DQ,Evgeniy Sivenko,M,1987-10-10,Raw,M_OR_AWPC,Yes,81.5,82.5,,,,,,-155,-155,-155,
 2,Andrey Chemeriskiy,M,1979-04-13,Raw,M_SR_AWPC,Yes,88.6,90,,,,,,137.5,-142.5,-142.5,,137.5,,,,,,137.5,B
 1,Mikhail Pushkarev,M,1970-02-16,Raw,M_MR_2_AWPC,Yes,89.2,90,,,,,,120,-132.5,-132.5,,120,,,,,,120,B
 1,Vasiliy Shmoylov,M,1960-04-28,Raw,M_MR_4_AWPC,Yes,85.7,90,,,,,,-110,115,-122.5,,115,,,,,,115,B
-1,Ivan Ivanov,M,1990-09-03,Raw,M_OR_AWPC,Yes,98,100,,,,,,170,175,177.5,,177.5,,,,,,177.5,B
+1,Ivan Ivanov #9,M,1990-09-03,Raw,M_OR_AWPC,Yes,98,100,,,,,,170,175,177.5,,177.5,,,,,,177.5,B
 2,Alexandr Slepchenko,M,1994-05-21,Raw,M_OR_AWPC,Yes,92.2,100,,,,,,175,-177.5,-177.5,,175,,,,,,175,B
 DQ,Varsham Shakhnazaryan,M,1999-07-05,Raw,M_TR_3_AWPC,Yes,91.6,100,,,,,,-132.5,-132.5,-132.5,,,,,,,,,B
 1,Azamat Kulumbegov,M,1998-06-04,Raw,M_JR_AWPC,Yes,93.2,100,,,,,,100,105,110,,110,,,,,,110,B
@@ -143,7 +143,7 @@ DQ,Varsham Shakhnazaryan,M,1999-07-05,Raw,M_TR_3_AWPC,Yes,91.6,100,,,,,,-132.5,-
 DQ,Alexandr Matveev,M,1980-03-18,Raw,M_OR_AWPC,Yes,105.2,110,,,,,,-175,-175,,,,,,,,,,B
 DQ,Khamid Madatov,M,1993-04-13,Raw,M_OR_AWPC,Yes,104.9,110,,,,,,-135,-135,-135,,,,,,,,,B
 1,Vitaliy Sukhin,M,1976-07-01,Raw,M_MR_1_AWPC,Yes,106.1,110,,,,,,-140,140,-150,,140,,,,,,140,B
-1,Sergey Sokolov,M,1969-11-06,Raw,M_MR_2_AWPC,Yes,104.5,110,,,,,,175,185,192.5,,192.5,,,,,,192.5,B
+1,Sergey Sokolov #5,M,1969-11-06,Raw,M_MR_2_AWPC,Yes,104.5,110,,,,,,175,185,192.5,,192.5,,,,,,192.5,B
 1,Artem Grazhdankin,M,1991-02-20,Raw,M_OR_AWPC,Yes,119.1,125,,,,,,145,152.5,-155,,152.5,,,,,,152.5,B
 1,Vladimir Voloshin,M,1974-10-08,Raw,M_MR_1_AWPC,Yes,114.4,125,,,,,,160,-177.5,-177.5,,160,,,,,,160,B
 1,Gennadiy Khoroshaev,M,1963-03-07,Raw,M_MR_4_AWPC,Yes,117.7,125,,,,,,140,150,-152.5,,150,,,,,,150,B
@@ -153,7 +153,7 @@ DQ,Khamid Madatov,M,1993-04-13,Raw,M_OR_AWPC,Yes,104.9,110,,,,,,-135,-135,-135,,
 1,Igor Khutorov,M,1963-11-05,Raw,M_MR_4_AWPC,Yes,130.8,140,,,,,,185,190,195,,195,,,,,,195,B
 1,Boris Trofimov,M,1972-03-21,Raw,M_MR_2_AWPC,Yes,155.3,140+,,,,,,230,-237.5,,,230,,,,,,230,B
 1,Tatyana Bondarenko,F,1991-09-12,Single-ply,F_OES_AWPC,Yes,52,52,,,,,,77.5,-85,-85,,77.5,,,,,,77.5,B
-1,Taisiya Semenova,M,1993-08-03,Raw,M_OR_WPC,,60,60,,,,,,72.5,75,77.5,,77.5,,,,,,77.5,B
+1,Taisiya Semenova,F,1993-08-03,Raw,F_OR_WPC,,60,60,,,,,,72.5,75,77.5,,77.5,,,,,,77.5,B
 1,Aram Markosyan,M,1988-09-23,Raw,M_OR_WPC,,74.7,75,,,,,,170,172.5,175,,175,,,,,,175,B
 1,Vladimir Sokolov,M,2006-07-20,Raw,M_YR_WPC,,78.6,82.5,,,,,,55,60,65,,65,,,,,,65,B
 1,Alexey Goncharenko,M,1981-03-24,Raw,M_OR_WPC,,80.9,82.5,,,,,,180,185,190,,190,,,,,,190,B
@@ -199,15 +199,15 @@ DQ,Konstantin Nezhid,M,1991-11-04,Raw,M_OR_WPC,,97.1,100,,,,,,-140,-155,-165,,,,
 1,Aleksander Vasenin,M,1987-10-31,Raw,M_OR_AWPC,Yes,88.7,90,,,,,,,,,,,240,250,255,,255,255,D
 1,Dmitriy Yushenko,M,2001-02-25,Raw,M_TR_3_AWPC,Yes,89.1,90,,,,,,,,,,,175,185,195,,195,195,D
 1,Dmitriy Belokon,M,1992-12-22,Raw,M_OR_AWPC,Yes,96.3,100,,,,,,,,,,,270,282.5,-290,,282.5,282.5,D
-2,Ivan Ivanov,M,1990-09-03,Raw,M_OR_AWPC,Yes,98,100,,,,,,,,,,,270,275,280,,280,280,D
+2,Ivan Ivanov #9,M,1990-09-03,Raw,M_OR_AWPC,Yes,98,100,,,,,,,,,,,270,275,280,,280,280,D
 3,Evgeniy Shelestyuk,M,1999-08-02,Raw,M_OR_AWPC,Yes,98.5,100,,,,,,,,,,,240,260,-267.5,,260,260,D
 4,Vitaliy Makhnychev,M,1982-01-31,Raw,M_OR_AWPC,Yes,99.2,100,,,,,,,,,,,230,250,-267.5,,250,250,D
 5,Dmitriy Almasyan,M,1991-05-16,Raw,M_OR_AWPC,Yes,95,100,,,,,,,,,,,-195,202.5,210,,210,210,D
 6,Mikhail Panchenko,M,1991-08-24,Raw,M_OR_AWPC,Yes,99.8,100,,,,,,,,,,,185,202.5,207.5,,207.5,207.5,D
 1,Andrey Reznikov,M,1997-05-30,Raw,M_JR_AWPC,Yes,99.5,100,,,,,,,,,,,195,205,215,,215,215,D
 1,Vladimir Gonchar,M,1991-09-28,Raw,M_OR_AWPC,Yes,108.9,110,,,,,,,,,,,280,302.5,-312.5,,302.5,302.5,D
-2,Sergey Sokolov,M,1969-11-06,Raw,M_OR_AWPC,Yes,104.5,110,,,,,,,,,,,-280,290,-300,,290,290,D
-1,Sergey Sokolov,M,1969-11-06,Raw,M_MR_2_AWPC,Yes,104.5,110,,,,,,,,,,,-280,290,,,290,290,D
+2,Sergey Sokolov #5,M,1969-11-06,Raw,M_OR_AWPC,Yes,104.5,110,,,,,,,,,,,-280,290,-300,,290,290,D
+1,Sergey Sokolov #5,M,1969-11-06,Raw,M_MR_2_AWPC,Yes,104.5,110,,,,,,,,,,,-280,290,,,290,290,D
 1,Alexander Nazarov,M,1985-03-29,Raw,M_OR_AWPC,Yes,120.7,125,,,,,,,,,,,220,240,247.5,,247.5,247.5,D
 2,Tagir Asaev,M,1990-02-09,Raw,M_OR_AWPC,Yes,123.5,125,,,,,,,,,,,190,200,215,,215,215,D
 1,Oleg Teperik,M,1976-02-14,Raw,M_MR_1_AWPC,Yes,129.4,140,,,,,,,,,,,-190,190,-210,,190,190,D
@@ -219,7 +219,7 @@ DQ,Konstantin Nezhid,M,1991-11-04,Raw,M_OR_WPC,,97.1,100,,,,,,-140,-155,-165,,,,
 DQ,Alexander Ilyutkin,M,1993-02-03,Raw,M_OR_WPC,,99.5,100,,,,,,,,,,,-305,-305,-305,,,,D
 1,Daniil Monastyrskiy,M,1995-08-31,Raw,M_JR_WPC,,96.4,100,,,,,,,,,,,250,280,,,280,280,D
 1,Alexander Bochkov,M,1992-08-13,Raw,M_OR_WPC,,123.7,125,,,,,,,,,,,270,280,285,,285,285,D
-1,Denis Makeev,M,1983-04-22,Raw,M_OR_WPC,,129.9,140,,,,,,,,,,,275,287.5,,,287.5,287.5,D
+1,Denis Makeev #1,M,1983-04-22,Raw,M_OR_WPC,,129.9,140,,,,,,,,,,,275,287.5,,,287.5,287.5,D
 1,Roman Goryainov,M,1979-02-14,Raw,M_MR_1_WPC,,148.4,140+,,,,,,,,,,,-270,270,-280,,270,270,D
 1,Elizaveta Bochkova,F,1994-12-21,Single-ply,F_OES_WPC,,69.8,75,,,,,,,,,,,160,170,-175,,170,170,D
 1,Roman Khaustov,M,1983-08-24,Single-ply,M_OES_WPC,,88.8,90,,,,,,,,,,,270,285,-300,,285,285,D

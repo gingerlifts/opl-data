@@ -96,24 +96,15 @@ def getmeetinfo(soup):
     place = ''
     dotdate = ''
 
-    curr_line = 0
-    # If the first row is blank or just a date start from the second
-    if trs[0].find('td').text.strip() == '' or trs[0].find('td').text.count('.') == 2:
-        curr_line = 1
+    date_line = 0
 
-    # Name is sometimes split across two lines, with first line club name
-    # this is a somewhat hacky way of finding the date-line
-    if ((trs[curr_line+1].find('td').text.count('.') > 0 or
-         trs[curr_line+1].find('td').text.count('/') > 0)
-            and len([True for c in trs[curr_line+1].text if c.isdigit()]) > 2):
-        name = trs[curr_line].find('td').text
-        # Get the place & date.
-        place_date = trs[curr_line+1].find('td').text.strip()
-        curr_line += 2
-    else:
-        name = trs[curr_line+1].find('td').text
-        place_date = trs[curr_line+2].find('td').text.strip()
-        curr_line += 3
+    for ii in range(2, len(trs)):
+        if trs[ii].text.replace('.-', '-').count('.') == 2:
+            date_line = ii
+            break
+
+    name = trs[date_line-1].find('td').text
+    place_date = trs[date_line].find('td').text.strip()
 
     # Strip out time if it's given
     place_date = re.sub(
@@ -148,11 +139,11 @@ def getmeetinfo(soup):
 
     # Old meets have the place below the date
     if place == '':
-        [div, _] = get_division(trs[curr_line].find('td').text)
+        [div, _] = get_division(trs[date_line-1].find('td').text)
         if div == '':  # Then this is probably a place
-            place = trs[curr_line].find('td').text
+            place = trs[date_line-1].find('td').text
             # Set it blank so the script doesn't get confused later
-            trs[curr_line].string = ''
+            trs[date_line-1].string = ''
 
     # The date is formatted as dd.-dd.mm.yyyy.
     assert '.' in dotdate
@@ -172,6 +163,7 @@ def getmeetinfo(soup):
     name = name.replace('\xa0', ' ')
     name = name.replace('  ', ' ')
     name = name.replace('  ', ' ')
+    name = name.replace(' – ', ' - ')
     name = name.strip()
 
     # Clean up the place
@@ -272,12 +264,10 @@ def getresults(soup, meet_name, url):
 
     # Find where the preamble ends
     start_data = 0
-    for tr in trs:
-        if (tr.find('td') and (tr.find('td').text.count('.') > 0 or
-                               tr.find('td').text.count('/') > 0) and
-                len([True for c in tr.find('td').text if c.isdigit()]) > 2):
+    for ii in range(2, len(trs)):
+        if trs[ii].text.replace('.-', '-').count('.') == 2:
+            start_data = ii
             break
-        start_data += 1
 
     start_data += 1
 
@@ -285,6 +275,10 @@ def getresults(soup, meet_name, url):
     append_sex = False
 
     meet_data = combine_header(trs[start_data:])
+
+    sexstate = ''
+    divstate = ''
+    eqpstate = ''
 
     if 'miehet' in meet_name.lower() or 'miesten' in meet_name.lower():
         sexstate = 'M'
@@ -319,9 +313,9 @@ def getresults(soup, meet_name, url):
             continue
 
         # Records are after data
-        if (any(break_str in text[0] for break_str in
-                ['ätykset', 'Records', 'Joukkuekilpailu', 'Norbergs Kraftsportförening',
-                 'Rekord:', 'Domare:', 'Tuomarit:'])):
+        if (any(break_str in text[0].strip().lower() for break_str in
+                ['ätykset', 'records', 'joukkuekilpailu', 'norbergs kraftsportförening',
+                 'rekord:', 'domare:', 'tuomarit:', 'se:t'])):
             break
 
         # Skip record lines, this loses a small amount of division information
@@ -339,9 +333,9 @@ def getresults(soup, meet_name, url):
             # Get column information.
             for ii in iterable:
                 h = text[ii].lower().replace('.', '')
-                if h == 'sij' or h == 'pl' or h == 'place':
+                if h in ['sij', 'pl', 'place', 'paikka']:
                     csv.fieldnames += ['Place']
-                elif h == 'm/w' or h == 'm/n' or h == 'nro':
+                elif h in ['m/w', 'm/n', 'nro', 'm/n *', 'n/n']:
                     csv.fieldnames += ['Sex']
                 elif h == 'sarja' or h == 'cls' or h == 'class':
                     csv.fieldnames += ['WeightClassKg']
@@ -381,7 +375,8 @@ def getresults(soup, meet_name, url):
                            'yht tulos', 'yhteis- tulos', 'yt / kg']:
                     csv.fieldnames += ['TotalKg']
                 elif h in ['wilks', 'wpist', 'pist', 'wpts', 'wilks pist', 'wilks pts',
-                           'ipf pist', 'ipf pts']:
+                           'ipf pist', 'ipf pts', 'ipf glp', 'ipf gl pist', 'gl pist',
+                           'ipf gl pts', 'ipfgl', 'gl pts']:
                     csv.fieldnames += ['Wilks']
                 elif h == 'jpist' or h == 'j pist':
                     csv.fieldnames += ['Points']
@@ -429,7 +424,7 @@ def getresults(soup, meet_name, url):
 
         elif len(text) == 1:  # Division
             # Extract sex information.
-            div_text = text[0].replace('-', '').lower()
+            div_text = ''.join(text).strip().replace('-', '').lower()
             div_text = div_text.replace('kilpasarja', '')  # Powerlifting
             div_text = div_text.strip()
 
@@ -444,12 +439,23 @@ def getresults(soup, meet_name, url):
                     div_text = div_text.replace(
                         'miehet', '').replace('men', '').strip()
                     divstate = 'Open'
-                elif div_text[0] == 'n':
+                elif div_text == 'n':
                     sexstate = 'F'
                     div_text = div_text[1:]
-                elif div_text[0] == 'm':
+                elif div_text == 'm':
                     sexstate = 'M'
                     div_text = div_text[1:]
+                elif div_text in ['klassinen', 'klassiskt']:
+                    eqpstate = 'Raw'
+                    div_text = div_text.replace('klassinen', '')
+                    div_text = div_text.replace('klassiskt', '')
+                elif div_text in ['varuste', 'varustevoimanosto', 'utrustat',
+                                  'utrustning']:
+                    eqpstate = 'Single-ply'
+                    div_text = div_text.replace(
+                        'varustevoimanosto', '').replace('varuste', '')
+                    div_text = div_text.replace('utrustat', '')
+                    div_text = div_text.replace('utrustning', '')
 
                 if div_text.strip() != '':
                     # Extract division information.
@@ -460,7 +466,6 @@ def getresults(soup, meet_name, url):
 
         elif (len(text) > 3 and 'Joukkueen tulos' not in text
                 and 'Joukk. tulos' not in text):  # Lifter data
-            assert (sexstate or 'Sex' in csv.fieldnames)
 
             # Accumulate the row, but we need to look at the class of each td
             # to figure out whether lifts were good or bad.
@@ -481,11 +486,17 @@ def getresults(soup, meet_name, url):
                 col_text = col_text.replace('\t', '')
 
                 col_text = col_text.replace('*', '')
+                col_text = col_text.replace('—–', '')
 
                 # Failed lift.
                 if ((td.s or td.strike or (td.has_attr('style') and
-                                           'background-color: red' in td['style']))
+                                           'background-color: red' in td['style']
+                                           ))
                         and col_text.strip() != ''):
+                    col_text = '-' + col_text.strip()
+                    col_text = col_text.replace('--', '-')
+                elif (td.find('span') and td.span.has_attr('style') and
+                      'text-decoration: line-through' in td.span['style']):
                     col_text = '-' + col_text.strip()
                     col_text = col_text.replace('--', '-')
 
@@ -515,7 +526,8 @@ def getresults(soup, meet_name, url):
                 lifter_data = lifter_data + [sexstate]
 
             if append_eqp:
-                lifter_data = lifter_data + ['']
+                lifter_data = lifter_data + [eqpstate]
+
             csv.rows += [lifter_data]
 
     if append_sex:
@@ -543,10 +555,11 @@ def fixplace(csv):
             elif 'näyt' in row[placeidx].lower():
                 row[placeidx] = 'G'
 
-# All Finnish meets are one equipment type
-
 
 def fixequipment(csv, meetcsv):
+    if 'Equipment' not in csv.fieldnames:
+        return
+
     meet_name = meetcsv.rows[0][5]
 
     raw_meet = False
@@ -557,24 +570,38 @@ def fixequipment(csv, meetcsv):
     eqidx = csv.index('Equipment')
 
     for row in csv.rows:
-        if raw_meet:
-            row[eqidx] = 'Raw'
-        else:
-            if 'x' in row[eqidx]:
+        if row[eqidx] == '':
+            if raw_meet:
                 row[eqidx] = 'Raw'
-            elif row[eqidx] == '':
-                row[eqidx] = 'Single-ply'
             else:
-                error("Unknown equipment: \"%s\"" % row[eqidx])
+                if 'x' in row[eqidx]:
+                    row[eqidx] = 'Raw'
+                elif row[eqidx] == '':
+                    row[eqidx] = 'Single-ply'
+                else:
+                    error("Unknown equipment: \"%s\"" % row[eqidx])
 
 # Change M/N  and M/W to M/F
 
 
 def fixsex(csv):
     sexidx = csv.index('Sex')
+    eqpidx = csv.index('Equipment')
     for row in csv.rows:
         if row[sexidx] == 'N' or row[sexidx] == 'W':
             row[sexidx] = 'F'
+        elif row[sexidx] in ['NKP', 'NKV', 'WCB']:
+            row[sexidx] = 'F'
+            row[eqpidx] = 'Raw'
+        elif row[sexidx] in ['MKP', 'MKV', 'MCB']:
+            row[sexidx] = 'M'
+            row[eqpidx] = 'Raw'
+        elif row[sexidx] in ['NVP', 'NVV']:
+            row[sexidx] = 'F'
+            row[eqpidx] = 'Single-ply'
+        elif row[sexidx] in ['MVP', 'MVV', 'MEB']:
+            row[sexidx] = 'M'
+            row[eqpidx] = 'Single-ply'
 
 
 def add_birthyear(csv):
@@ -704,6 +731,7 @@ def get_division(div_text):
 def add_division(csv):
     if 'WeightClassKg' in csv.fieldnames:
         wcidx = csv.index('WeightClassKg')
+
         dividx = csv.index('Division')
         placeidx = csv.index('Place')
         sexidx = csv.index('Sex')
@@ -845,6 +873,16 @@ def markevent(csv):
         row[evtidx] = evt
 
 
+def is_sex_empty(csv):
+    byidx = csv.index('Sex')
+    for row in csv.rows:
+        if row[byidx]:
+            return False
+        else:
+            print('Sex column is empty')
+            return True
+
+
 def remove_empty_and_ignore_cols(csv):
     def iscolempty(csv, i):
         for row in csv.rows:
@@ -869,21 +907,35 @@ def remove_empty_and_ignore_cols(csv):
         csv.remove_column_by_index(idx)
 
 
-def main(url):
+def sex_from_weightclass(csv):
+    female_classes = ['52', '57', '63', '69', '76', '84', '84+']
+    male_classes = ['59', '66', '74', '83', '93', '105', '120', '120+']
+    sexidx = csv.index('Sex')
+    weightclassidx = csv.index('WeightClassKg')
+    for row in csv.rows:
+        if row[weightclassidx] in female_classes:
+            row[sexidx] = 'F'
+        elif row[weightclassidx] in male_classes:
+            row[sexidx] = 'M'
+        else:
+            pass
+            # Probably shouldn't get here unless rules change
+
+
+def main(dirname, url):
 
     # Get the results page from the page linked in the lists
-    results_url = getresultsurl(url)
+    # results_url = getresultsurl(url)
 
-    if 'arvokilpailut' in url:
-        error("Script can't handle international meets")
-    elif 'kansalliset-kilpailut' not in url and 'sm-kilpailu' not in url:
-        error('Script expects urls from the results list, not the results themselves')
-    html = gethtml(results_url)
+    # if 'arvokilpailut' in url:
+    #     error("Script can't handle international meets")
+    # elif 'kansalliset-kilpailut' not in url and 'sm-kilpailu' not in url:
+    #     error('Script expects urls from the results list, not the results themselves')
+    html = gethtml(url)
 
     soup = BeautifulSoup(html, 'html.parser')
 
     meetcsv = getmeetinfo(soup)
-    dirname = getdirname(url)
     entriescsv = getresults(
         soup, meetcsv.rows[0][meetcsv.index('MeetName')], url)
     if len(entriescsv.rows) == 0:
@@ -894,7 +946,10 @@ def main(url):
     add_division(entriescsv)
     fixsex(entriescsv)
 
+    if is_sex_empty(entriescsv):
+        sex_from_weightclass(entriescsv)
     remove_empty_and_ignore_cols(entriescsv)
+    entriescsv.append_column('BirthDate')
 
     # Wilks will be automatically calculated later.
     # Feds get it wrong all the time.
@@ -952,6 +1007,6 @@ def main(url):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) != 2:
-        print("Usage: %s url" % sys.argv[0])
-    main(sys.argv[1])
+    if len(sys.argv) != 3:
+        print("Usage: %s dirname url" % sys.argv[0])
+    main(sys.argv[1], sys.argv[2])

@@ -1,5 +1,5 @@
 Event,Sex,Name,State,BodyweightKg,WeightClassKg,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Place
-SBD,M,Ryan Johnson,ON,125.4,120+,Sub-Juniors,285,210,265,760,Single-ply,1
+SBD,M,Ryan Johnson #6,ON,125.4,120+,Sub-Juniors,285,210,265,760,Single-ply,1
 SBD,M,Jensen MacDonald,ON,73.5,74,Juniors,237.5,135,227.5,600,Single-ply,1
 SBD,M,Rilley Bullett,ON,56.3,59,Juniors,167.5,107.5,200.5,475.5,Single-ply,1
 SBD,M,Cameron McDermid,ON,130.5,120+,Juniors,312.5,195,225,732.5,Single-ply,1
@@ -7,7 +7,7 @@ SBD,M,Thomas Papolis,ON,91,93,Sub-Juniors,202.5,130,212.5,545,Raw,1
 SBD,F,Erica Frost,ON,73.8,84,Sub-Juniors,110,47.5,125,282.5,Raw,1
 SBD,M,Noah Lasante,ON,80.8,83,Sub-Juniors,215,125,215,555,Raw,2
 SBD,M,Jeret Jordan,ON,81,83,Sub-Juniors,182.5,120,192.5,495,Raw,4
-SBD,M,Brock Allen,ON,77.8,83,Sub-Juniors,185,115,195,495,Raw,3
+SBD,M,Brock Allen #1,ON,77.8,83,Sub-Juniors,185,115,195,495,Raw,3
 SBD,M,Adam Jansson,ON,80.2,83,Sub-Juniors,222.5,150.5,230,603,Raw,1
 SBD,M,Noah Ukrainetz,ON,72.8,74,Sub-Juniors,229,145.5,240,614.5,Raw,1
 SBD,M,David Zhao,ON,73.8,74,Sub-Juniors,152.5,87.5,172.5,412.5,Raw,2
@@ -68,9 +68,9 @@ SBD,M,Frankie Pu,ON,72.6,74,Juniors,205,135,242.5,582.5,Raw,3
 SBD,M,Dylan Thomas,ON,70.8,74,Juniors,145,110,190,445,Raw,14
 SBD,M,David Wizman,ON,73,74,Juniors,185,117.5,185,487.5,Raw,11
 SBD,M,Christopher Dang,ON,73.8,74,Juniors,217.5,147.5,280.5,645.5,Raw,1
-SBD,M,Bradley Smith,ON,74,74,Juniors,160,92.5,190,442.5,Raw,15
+SBD,M,Bradley Smith #3,ON,74,74,Juniors,160,92.5,190,442.5,Raw,15
 SBD,M,Asif Munir,ON,70.1,74,Juniors,200,107.5,227.5,535,Raw,7
-SBD,M,Andrew Brown,ON,73.9,74,Juniors,170,112.5,222.5,505,Raw,9
+SBD,M,Andrew Brown #2,ON,73.9,74,Juniors,170,112.5,222.5,505,Raw,9
 SBD,M,Alexandre Beaudry,ON,71.2,74,Juniors,192.5,120,145,457.5,Raw,13
 SBD,F,Tori Goulart,ON,66.5,72,Juniors,150,85,162.5,397.5,Raw,1
 SBD,F,Rachel Jonkman,ON,71.7,72,Juniors,107.5,70,137.5,315,Raw,8

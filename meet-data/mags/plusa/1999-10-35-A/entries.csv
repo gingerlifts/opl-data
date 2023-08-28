@@ -29,12 +29,12 @@ M. Quarto,82.5,Open,,M,,,,113.4,,113.4,B,Multi-ply,2
 C. Bentzoni,90,Open,,M,,,,172.37,,172.37,B,Multi-ply,1
 T. Moyer,90,Open,,M,,,,156.49,,156.49,B,Multi-ply,2
 B. Trice,90,Open,,M,,,,142.88,,142.88,B,Multi-ply,3
-C. Race,100,Open,,M,,,,192.78,,192.78,B,Multi-ply,1
+Chuck Race,100,Open,,M,,,,192.78,,192.78,B,Multi-ply,1
 Mike Reis,125,Open,,M,,116.57,,260.82,,260.82,B,Multi-ply,1
 J. Becker,125,Open,,M,,,,183.71,,183.71,B,Multi-ply,2
 Gene Rychlak,125+,Open,,M,,,,265.35,,265.35,B,Multi-ply,1
 J. Sarro,125+,Open,,M,,,,183.71,,183.71,B,Multi-ply,2
-C. Eckroth,125+,Open,,M,,,,174.63,,174.63,B,Multi-ply,3
+Curt Eckroth,125+,Open,,M,,,,174.63,,174.63,B,Multi-ply,3
 J. Weidaw,125+,Open,,M,,,,151.95,,151.95,B,Multi-ply,4
 C. Young,125+,Open,,M,,,,133.81,,133.81,B,Multi-ply,5
 L. Griffin,,Submasters 35-39,35-39,M,,,,163.29,,163.29,B,Multi-ply,1
@@ -43,10 +43,10 @@ T. English,,Submasters 35-39,35-39,M,,,,161.03,,161.03,B,Multi-ply,2
 T. Evangelista,,Submasters 35-39,35-39,M,,,,129.27,,129.27,B,Multi-ply,4
 R. Glunta,,Submasters 35-39,35-39,M,,,,,,,B,Multi-ply,DQ
 P. Schwenk,,Masters 40-44,40-44,M,,,,217.72,,217.72,B,Multi-ply,1
-B. Nagle,,Masters 40-44,40-44,M,,,,185.97,,185.97,B,Multi-ply,2
-J. Knoll,,Masters 40-44,40-44,M,,,,174.63,,174.63,B,Multi-ply,3
+Bob Nagle,,Masters 40-44,40-44,M,,,,185.97,,185.97,B,Multi-ply,2
+Jeff Knoll,,Masters 40-44,40-44,M,,,,174.63,,174.63,B,Multi-ply,3
 B. Weidaw,,Masters 40-44,40-44,M,,,,149.69,,149.69,B,Multi-ply,4
-P. Yoder,,Masters 40-44,40-44,M,,,,122.47,,122.47,B,Multi-ply,5
+Phil Yoder,,Masters 40-44,40-44,M,,,,122.47,,122.47,B,Multi-ply,5
 R. Cavanna,,Masters 40-44,40-44,M,,,,122.47,,122.47,B,Multi-ply,6
 A. Rossi,,Masters 45-49,45-49,M,,,,151.95,,151.95,B,Multi-ply,1
 D. Ohler,,Masters 50-54,50-54,M,,,,138.35,,138.35,B,Multi-ply,2
@@ -58,18 +58,18 @@ B. Mason,,Masters 70+,70-999,M,,,,86.18,,86.18,B,Multi-ply,1
 L. Fert,,Masters 70+,70-999,M,,,,65.77,,65.77,B,Multi-ply,2
 T. Singer,82.5,Open,,M,,,,,226.8,226.8,D,Multi-ply,1
 M. Quarto,82.5,Open,,M,,,,,158.76,158.76,D,Multi-ply,2
-J. McDowell,90,Open,,M,,,,,263.08,263.08,D,Multi-ply,1
+Jim McDowell,90,Open,,M,,,,,263.08,263.08,D,Multi-ply,1
 R. Harris,90,Open,,M,,,,,247.21,247.21,D,Multi-ply,2
 J. Mink,100,Open,,M,,,,,256.28,256.28,D,Multi-ply,1
-C. Race,100,Open,,M,,,,,235.87,235.87,D,Multi-ply,2
+Chuck Race,100,Open,,M,,,,,235.87,235.87,D,Multi-ply,2
 J. Weber,100,Open,,M,,,,,208.65,208.65,D,Multi-ply,3
 S. Brandt,110,Open,,M,,,,,272.16,272.16,D,Multi-ply,1
 S. Weber,125,Open,,M,,,,,249.48,249.48,D,Multi-ply,1
 Gene Rychlak,125+,Open,,M,,,,,308.44,308.44,D,Multi-ply,1
-C. Eckroth,125+,Open,,M,,,,,283.5,283.5,D,Multi-ply,2
-B. Nagle,,Masters 40-44,40-44,M,,,,,235.87,235.87,D,Multi-ply,1
+Curt Eckroth,125+,Open,,M,,,,,283.5,283.5,D,Multi-ply,2
+Bob Nagle,,Masters 40-44,40-44,M,,,,,235.87,235.87,D,Multi-ply,1
 B. Weidaw,,Masters 40-44,40-44,M,,,,,226.8,226.8,D,Multi-ply,2
-P. Yoder,,Masters 40-44,40-44,M,,,,,185.97,185.97,D,Multi-ply,3
+Phil Yoder,,Masters 40-44,40-44,M,,,,,185.97,185.97,D,Multi-ply,3
 Paul Eberhardinger,,Masters 70+,70-999,M,78,,,,97.52,97.52,D,Multi-ply,1
 J. Mink,,Law & Fire,,M,,,,,256.28,256.28,D,Multi-ply,1
 J. Weber,,Law & Fire,,M,,,,,208.65,208.65,D,Multi-ply,2
@@ -111,7 +111,7 @@ R. Harris,82.5,Open,,M,,,213.19,147.42,247.21,607.81,SBD,Multi-ply,2
 Blaine Rundle,82.5,Open,,M,,,183.71,129.27,226.8,539.78,SBD,Multi-ply,3
 T. Singer,82.5,Open,,M,,,170.1,117.93,226.8,514.83,SBD,Multi-ply,4
 M. Hopstetter,90,Open,,M,,,249.48,183.71,281.23,714.41,SBD,Multi-ply,1
-G. Brady,90,Open,,M,,,217.72,124.74,254.01,596.47,SBD,Multi-ply,2
+Garry Brady,90,Open,,M,,,217.72,124.74,254.01,596.47,SBD,Multi-ply,2
 J. Snyder,90,Open,,M,,,217.72,138.35,235.87,591.94,SBD,Multi-ply,3
 C. Bentzoni,90,Open,,M,,,183.71,172.37,226.8,582.87,SBD,Multi-ply,4
 J. Jackson,90,Open,,M,,,199.58,149.69,215.46,564.72,SBD,Multi-ply,5
@@ -127,18 +127,18 @@ J. Klein,110,Open,,M,,,263.08,204.12,283.5,750.7,SBD,Multi-ply,1
 J. Parrish #6,110,Open,,M,,,267.62,176.9,258.55,703.07,SBD,Multi-ply,2
 T. Lakey,110,Open,,M,,,204.12,163.29,233.6,601.01,SBD,Multi-ply,3
 Tony Gianotti,125,Open,,M,,,229.06,136.08,229.06,594.21,SBD,Multi-ply,1
-C. Eckroth,125+,Open,,M,,,272.16,174.63,283.5,730.28,SBD,Multi-ply,1
+Curt Eckroth,125+,Open,,M,,,272.16,174.63,283.5,730.28,SBD,Multi-ply,1
 J. Klein,,Submasters 35-39,35-39,M,,,263.08,204.12,283.5,750.7,SBD,Multi-ply,1
 J. Roth,,Submasters 35-39,35-39,M,,,204.12,156.49,213.19,573.8,SBD,Multi-ply,2
 R. Fernandez,,Submasters 35-39,35-39,M,,,199.58,104.33,204.12,508.02,SBD,Multi-ply,3
 B. Delorme,,Submasters 35-39,35-39,M,,,147.42,142.88,195.04,485.34,SBD,Multi-ply,4
-J. Mattis,,Submasters 35-39,35-39,M,,,158.76,117.93,197.31,474,SBD,Multi-ply,5
-J. McDowell,,Masters 40-44,40-44,M,,,254.01,154.22,263.08,671.32,SBD,Multi-ply,1
+Jerry Mattis,,Submasters 35-39,35-39,M,,,158.76,117.93,197.31,474,SBD,Multi-ply,5
+Jim McDowell,,Masters 40-44,40-44,M,,,254.01,154.22,263.08,671.32,SBD,Multi-ply,1
 P. Brago,,Masters 40-44,40-44,M,,,254.01,170.1,217.72,641.83,SBD,Multi-ply,2
-B. Nagle,,Masters 40-44,40-44,M,,,183.71,185.97,235.87,605.55,SBD,Multi-ply,3
+Bob Nagle,,Masters 40-44,40-44,M,,,183.71,185.97,235.87,605.55,SBD,Multi-ply,3
 M. Harrison,,Masters 40-44,40-44,M,,,210.92,138.35,199.58,548.85,SBD,Multi-ply,4
 B. Hill,,Masters 45-49,45-49,M,,,288.03,181.44,256.28,725.75,SBD,Multi-ply,2
-R. Ceriani,,Masters 45-49,45-49,M,,,272.16,213.19,254.01,739.36,SBD,Multi-ply,1
+Ray Ceriani,,Masters 45-49,45-49,M,,,272.16,213.19,254.01,739.36,SBD,Multi-ply,1
 R. Klenk,,Masters 45-49,45-49,M,,,172.37,106.59,188.24,467.2,SBD,Multi-ply,3
 J. Holbert,,Law & Fire,,M,,,242.67,192.78,242.67,678.12,SBD,Multi-ply,2
 J. Parrish #6,,Law & Fire,,M,,,267.62,176.9,258.55,703.07,SBD,Multi-ply,1

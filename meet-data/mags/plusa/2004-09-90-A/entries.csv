@@ -5,11 +5,11 @@ Kelsey Ott,56,Open,,F,,,54.43,36.29,,86.18,,176.9,SBD,Raw,2
 Sherry Elchynski,67.5,Open,,F,,,106.59,63.5,,145.15,,315.25,SBD,Raw,1
 Ashley Buck,67.5,Open,,F,15,,90.72,52.16,,127.01,,269.89,SBD,Raw,2
 Molly Dougan,75,Open,,F,,,54.43,40.82,,49.9,,145.15,SBD,Raw,1
-Val Muscato,90+,Open,,F,,,106.59,63.5,,140.61,,310.71,SBD,Raw,1
+Valanti Muscato,90+,Open,,F,,,106.59,63.5,,140.61,,310.71,SBD,Raw,1
 Kelsey Ott,56,Teen 12-13,12-13,F,,,54.43,36.29,,86.18,,176.9,SBD,Raw,1
 Ashley Buck,67.5,Teen 14-15,14-15,F,15,,90.72,52.16,,127.01,,269.89,SBD,Raw,1
 Molly Dougan,75,Teen 16-17,16-17,F,,,54.43,40.82,,49.9,,145.15,SBD,Raw,1
-Val Muscato,90+,Juniors 20-23,20-23,F,,,106.59,63.5,,140.61,,310.71,SBD,Raw,1
+Valanti Muscato,90+,Juniors 20-23,20-23,F,,,106.59,63.5,,140.61,,310.71,SBD,Raw,1
 Benita Steffan,52,Masters 40-44,40-44,F,,,77.11,40.82,,120.2,,238.14,SBD,Raw,1
 Sherry Elchynski,67.5,Masters 45-49,45-49,F,,,106.59,63.5,,145.15,,315.25,SBD,Raw,1
 Carol Koch,56,Masters 55-59,55-59,F,,,72.57,45.36,,86.18,,204.12,SBD,Raw,1
@@ -24,7 +24,7 @@ Doug Perhacs,60,Open,,M,,,108.86,74.84,,147.42,,331.12,SBD,Raw,2
 Jason Stazer,67.5,Open,,M,,,167.83,102.06,,222.26,,492.15,SBD,Raw,1
 Joe Martucci,67.5,Open,,M,,,156.49,111.13,,199.58,,467.2,SBD,Raw,2
 Deshawn Crosby,67.5,Open,,M,,,145.15,104.33,,190.51,,439.99,SBD,Raw,3
-M. Lamparter,67.5,Open,,M,,,149.69,102.06,,167.83,,419.57,SBD,Raw,4
+Matt Lamparter,67.5,Open,,M,,,149.69,102.06,,167.83,,419.57,SBD,Raw,4
 Barry Pensyl,67.5,Open,,M,,,158.76,86.18,,170.1,,415.04,SBD,Raw,5
 Bobby Edwards,67.5,Open,,M,,,102.06,70.31,,142.88,,315.25,SBD,Raw,6
 A. Reed #1,67.5,Open,,M,,,136.08,65.77,,,,,SBD,Raw,DQ
@@ -51,7 +51,7 @@ Mario Henry,90,Open,,M,,,210.92,120.2,,265.35,,596.47,SBD,Raw,2
 P. Nies,90,Open,,M,,,188.24,117.93,,226.8,,532.97,SBD,Raw,3
 Rick Fornelli,90,Open,,M,,,172.37,104.33,,208.65,,485.34,SBD,Raw,4
 Al Mangini,90,Open,,M,,,161.03,102.06,,213.19,,476.27,SBD,Raw,5
-M. Hertner,90,Open,,M,,,172.37,104.33,,190.51,,467.2,SBD,Raw,6
+Mike Hertner,90,Open,,M,,,172.37,104.33,,190.51,,467.2,SBD,Raw,6
 L. Spearman,90,Open,,M,,,158.76,113.4,,190.51,,462.66,SBD,Raw,7
 T. Dawley,90,Open,,M,,,158.76,106.59,,195.04,,460.4,SBD,Raw,8
 Kevin Kluczynski,90,Open,,M,,,140.61,106.59,,206.38,,453.59,SBD,Raw,9
@@ -68,10 +68,10 @@ Vince Graham,100,Open,,M,,,192.78,113.4,,217.72,,523.9,SBD,Raw,3
 M. Dietz,100,Open,,M,,,140.61,90.72,,158.76,,390.09,SBD,Raw,4
 Gary Lewis,110,Open,,M,,,213.19,167.83,,256.28,,637.3,SBD,Raw,1
 Robert Eckhart,110,Open,,M,,,181.44,174.63,,254.01,,610.08,SBD,Raw,2
-Jon Stewart,110,Open,,M,,,208.65,149.69,,229.06,,587.4,SBD,Raw,3
+Jon Stewart #4,110,Open,,M,,,208.65,149.69,,229.06,,587.4,SBD,Raw,3
 Chuck Crider,110,Open,,M,,,210.92,156.49,,215.46,,582.87,SBD,Raw,4
 Derek Selby,110,Open,,M,,,195.04,147.42,,240.4,,582.87,SBD,Raw,5
-P. Huntley,110,Open,,M,,,201.85,142.88,,229.06,,573.8,SBD,Raw,6
+Pat Huntley,110,Open,,M,,,201.85,142.88,,229.06,,573.8,SBD,Raw,6
 Ben Ott,110,Open,,M,,,185.97,138.35,,231.33,,555.65,SBD,Raw,7
 B. Gaines,110,Open,,M,,,197.31,127.01,,226.8,,551.12,SBD,Raw,8
 Rob Mostoller,125,Open,,M,,,226.8,181.44,,254.01,,662.25,SBD,Raw,1
@@ -119,7 +119,7 @@ Kevin Kluczynski,90,Teen 18-19,18-19,M,,,140.61,106.59,,206.38,,453.59,SBD,Raw,1
 B. Boyd,90,Teen 18-19,18-19,M,,,113.4,97.52,,204.12,,415.04,SBD,Raw,2
 B McClaurin,90,Teen 18-19,18-19,M,,,161.03,,,,,,SBD,Raw,DQ
 Phil Kluczynski,100,Teen 18-19,18-19,M,,,174.63,124.74,,229.06,,528.44,SBD,Raw,1
-Jon Stewart,110,Teen 18-19,18-19,M,,,208.65,149.69,,229.06,,587.4,SBD,Raw,1
+Jon Stewart #4,110,Teen 18-19,18-19,M,,,208.65,149.69,,229.06,,587.4,SBD,Raw,1
 Jason Stazer,67.5,Juniors 20-23,20-23,M,,,167.83,102.06,,222.26,,492.15,SBD,Raw,1
 Adam Hersperger,82.5,Juniors 20-23,20-23,M,,,206.38,149.69,,256.28,,612.35,SBD,Raw,1
 Rick Fornelli,90,Submasters 35-39,35-39,M,,,172.37,104.33,,208.65,,485.34,SBD,Raw,1

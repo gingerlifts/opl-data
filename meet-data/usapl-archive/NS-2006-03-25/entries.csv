@@ -24,9 +24,9 @@ Kelli Carlsson,68.54,75,27,F,F-O,85,-92.5,-92.5,85,85,B,Single-ply,2
 Barbara Bovlana,74.25,75,42,F,F-M1a,72.5,-77.5,-80,72.5,72.5,B,Single-ply,1
 Cindy York,73.3,75,47,F,FR-M1b,-70,70,-82.5,70,70,B,Raw,1
 Michelle Sora,81.69,82.5,49,F,F-M2a,-82.5,82.5,90,90,90,B,Single-ply,1
-Deborah L. Ferrell,121.02,90+,42,F,F-M1a,165,175,-182.5,175,175,B,Single-ply,1
+Deborah Ferrell,121.02,90+,42,F,F-M1a,165,175,-182.5,175,175,B,Single-ply,1
 Michelle Sora,81.69,82.5,49,F,F-O,-82.5,82.5,90,90,90,B,Single-ply,1
-Deborah L. Ferrell,121.02,90+,42,F,F-O,165,175,-182.5,175,175,B,Single-ply,1
+Deborah Ferrell,121.02,90+,42,F,F-O,165,175,-182.5,175,175,B,Single-ply,1
 Paulette Calhoun,93.62,90+,48,F,F-PFM,90,97.5,-102.5,97.5,97.5,B,Single-ply,1
 Jessica Mcinish,97.61,90+,27,F,F-PFM,82.5,-105,-110,82.5,82.5,B,Single-ply,2
 Paulette Calhoun,93.62,90+,48,F,F-M1b,90,97.5,-102.5,97.5,97.5,B,Single-ply,1
@@ -34,7 +34,7 @@ Jessica Mcinish,97.61,90+,27,F,F-O,82.5,-105,-110,82.5,82.5,B,Single-ply,2
 Joey Rein,52.93,56,15,M,M-T1,77.5,80,-82.5,80,80,B,Single-ply,1
 Steve Petrencak,59.69,60,37,M,M-LT,150,155,-170,155,155,B,Single-ply,1
 Steve Petrencak,59.69,60,37,M,M-O,150,155,-170,155,155,B,Single-ply,1
-John Vincent,59.24,60,48,M,M-M1b,110,-115,115,115,115,B,Single-ply,1
+John Vincent #2,59.24,60,48,M,M-M1b,110,-115,115,115,115,B,Single-ply,1
 Jay Helms,59.28,60,41,M,M-M1a,-115,115,-125,115,115,B,Single-ply,1
 Josh Rein,59.56,60,20,M,M-Jr,82.5,92.5,95,95,95,B,Single-ply,1
 Lalo Pruneda,59.78,60,16,M,M-T2,75,77.5,80,80,80,B,Single-ply,1
@@ -61,9 +61,9 @@ Jon Mouzon,72.8,75,33,M,M-O,-192.5,-192.5,-192.5,,,B,Single-ply,DQ
 Bill Hanselman,81.1,82.5,31,M,M-O,217.5,-222.5,-222.5,217.5,217.5,B,Single-ply,1
 Daniel Thurman,81.96,82.5,,M,M-O,217.5,-227.5,-227.5,217.5,217.5,B,Single-ply,2
 Mike Ciupinski,80.88,82.5,26,M,M-LT,192.5,-202.5,-202.5,192.5,192.5,B,Single-ply,1
-Tom Cencich,80.92,82.5,45,M,M-M1b,-165,-165,190,190,190,B,Single-ply,1
+Thomas Cencich,80.92,82.5,45,M,M-M1b,-165,-165,190,190,190,B,Single-ply,1
 Mike Ciupinski,80.88,82.5,26,M,M-O,192.5,-202.5,-202.5,192.5,192.5,B,Single-ply,3
-Tom Cencich,80.92,82.5,45,M,M-O,-165,-165,190,190,190,B,Single-ply,4
+Thomas Cencich,80.92,82.5,45,M,M-O,-165,-165,190,190,190,B,Single-ply,4
 Jim Klostergaard,82.42,82.5,57,M,M-M2b,185,-195,,185,185,B,Single-ply,1
 Ron Garofalo,81.6,82.5,45,M,M-M1b,177.5,-185,-192.5,177.5,177.5,B,Single-ply,2
 Johnnie Martinez,81.6,82.5,37,M,M-LT,175,-185,-185,175,175,B,Single-ply,2
@@ -83,8 +83,8 @@ Anton Reel,77.38,82.5,86,M,M-M5b,40,45,47.5,47.5,47.5,B,Single-ply,1
 Lance Kirchner,82.05,82.5,31,M,M-LT,-240,-240,-240,,,B,Single-ply,DQ
 Lance Kirchner,82.05,82.5,31,M,M-O,-240,-240,-240,,,B,Single-ply,DQ
 Jeff Zick,81.96,82.5,22,M,M-Jr,-182.5,-182.5,-182.5,,,B,Single-ply,DQ
-Dennis Cieri,89.81,90,37,M,MR-LT,227.5,255,267.5,267.5,267.5,B,Raw,1
-Dennis Cieri,89.81,90,37,M,MR-O,227.5,255,267.5,267.5,267.5,B,Raw,1
+Dennis Cieri,89.81,90,37,M,M-LT,227.5,255,267.5,267.5,267.5,B,Single-ply,1
+Dennis Cieri,89.81,90,37,M,M-O,227.5,255,267.5,267.5,267.5,B,Single-ply,1
 Tim Stroshine,89.49,90,27,M,M-O,222.5,-230,-237.5,222.5,222.5,B,Single-ply,1
 Bill Shalkowski,89.27,90,42,M,M-M1a,215,-230,-230,215,215,B,Single-ply,1
 Bill Shalkowski,89.27,90,42,M,M-O,215,-230,-230,215,215,B,Single-ply,2

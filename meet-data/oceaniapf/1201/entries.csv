@@ -15,7 +15,7 @@ Renae Denning,Australia,F,Sub-Juniors,59.7,63,90,95,98,98,50,-55,-55,50,127.5,13
 Kathy Mawby,Australia,F,Masters 1,62.1,63,97.5,105,-110,105,60,-62.5,62.5,62.5,137.5,140,-145,140,307.5,SBD,Raw,1
 Alice Xu,Australia,F,Open,62.6,63,97.5,-105,-105,97.5,50,55,-57.5,55,132.5,-145,-145,132.5,285,SBD,Raw,2
 Marion Falla,Australia,F,Open,62.8,63,95,102.5,-105,102.5,47.5,50,-52.5,50,135,-142.5,-142.5,135,287.5,SBD,Raw,1
-Melanie Flett,Australia,F,Open,71.9,72,95,102.5,-107.5,102.5,72.5,-77.5,-77.5,72.5,-135,-135,135,135,310,SBD,Raw,1
+Mel Flett,Australia,F,Open,71.9,72,95,102.5,-107.5,102.5,72.5,-77.5,-77.5,72.5,-135,-135,135,135,310,SBD,Raw,1
 Catherine Greene,Australia,F,Open,76.8,84,125,132.5,140,140,70,-75,-75,70,160,167.5,-172.5,167.5,377.5,SBD,Raw,1
 Fila Fuamatu,Samoa,F,Open,78.3,84,130,137.5,142.5,142.5,60,-65,-65,60,162.5,170,-177.5,170,372.5,SBD,Raw,2
 Ana Garnett,Fiji,F,Sub-Juniors,78.8,84,100,115,-125,115,45,-55,-55,45,110,130,140,140,300,SBD,Raw,1
@@ -40,7 +40,7 @@ Ethan Gray,Australia,M,Juniors,65.8,66,145,157.5,170,170,77.5,85,90,90,195,207.5
 Nghiep Luu,Australia,M,Open,65.9,66,170,180,185,185,92.5,97.5,-100,97.5,255,271,-275,271,553.5,SBD,Raw,1
 Xavier Macken,Australia,M,Sub-Juniors,71.6,74,150,160,165,165,90,95,-100,95,190,200,-210.5,200,460,SBD,Raw,1
 Mikaele Pasuo,Samoa,M,Open,72.1,74,180,-185,-185,180,110,120,125,125,190,200,205,205,510,SBD,Raw,2
-Bronco Derranru,Nauru,M,Juniors,72.8,74,225,-233,233,233,115,122,130,130,237.5,260,,260,623,SBD,Raw,1
+Bronco Deiranauw,Nauru,M,Juniors,72.8,74,225,-233,233,233,115,122,130,130,237.5,260,,260,623,SBD,Raw,1
 Hendrik Basson,Australia,M,Masters 2,73.2,74,-145,150,-160,150,90,-95,95,95,175,177.5,190,190,435,SBD,Raw,2
 Neville Harris,Australia,M,Open,73.4,74,202.5,-210,-210,202.5,137.5,-142.5,142.5,142.5,-235,235,-247.5,235,580,SBD,Raw,1
 John Myers,Australia,M,Masters 2,73.6,74,150,162.5,-165,162.5,90,95,97.5,97.5,195,210.5,-220.5,210.5,470.5,SBD,Raw,1
@@ -52,10 +52,10 @@ Jean-Claude Duburiya,Nauru,M,Sub-Juniors,75.2,83,-155,165,-175,165,85,97.5,-102.
 Frederick Warsidi,New Caledonia,M,Open,79.9,83,140,-155,155,155,125,130,,130,180,200,210,210,495,SBD,Raw,3
 Rex Parsons,Australia,M,Sub-Juniors,81,83,155,165,175,175,120,130,-132.5,130,200,215,222.5,222.5,527.5,SBD,Raw,1
 Clarry Parsons,New Zealand,M,Masters 4,81.4,83,130,140,150,150,80,85,-90,85,160,170,180,180,415,SBD,Raw,1
-Tom McDonald,Australia,M,Masters 3,81.8,83,170,190,-200,190,80,90,-95,90,200,220,-240,220,500,SBD,Raw,1
+Tom MacDonald #1,Australia,M,Masters 3,81.8,83,170,190,-200,190,80,90,-95,90,200,220,-240,220,500,SBD,Raw,1
 Newman Soloman,Nauru,M,Juniors,81.8,83,185,200,-210,200,140,152.5,160,160,230,-240,240,240,600,SBD,Raw,1
 John Rivers,New Zealand,M,Masters 2,81.9,83,-160,160,-170,160,92.5,100,-105,100,170,-185,-190,170,430,SBD,Raw,3
-Stephen King,New Zealand,M,Masters 2,82,83,180,200,-212.5,200,95,105,110,110,200,220,-232.5,220,530,SBD,Raw,1
+Stephen King #1,New Zealand,M,Masters 2,82,83,180,200,-212.5,200,95,105,110,110,200,220,-232.5,220,530,SBD,Raw,1
 Alex Mansbridge,Australia,M,Juniors,82,83,210,-215,-215,210,130,137.5,-142.5,137.5,-240,-240,-240,,,SBD,Raw,DQ
 Jamie Kett,New Zealand,M,Masters 2,82.1,83,160,170,-180,170,130,135,-140,135,185,195,202.5,202.5,507.5,SBD,Raw,2
 Amir Fazeli,Australia,M,Open,82.2,83,210,220,-222.5,220,135,-142.5,-142.5,135,270,-280,-280,270,625,SBD,Raw,2
@@ -89,11 +89,11 @@ Jonathan Parsons,New Zealand,M,Juniors,115.2,120,262.5,272.5,277.5,277.5,160,165
 Jeziel Jeremiah,Nauru,M,Masters 1,115.7,120,250,270,,270,150,160,-170,160,200,-230,-230,200,630,SBD,Raw,2
 Gabriel Akua,Nauru,M,Open,116,120,240,260,-280,260,180,190,,190,250,-265,-265,250,700,SBD,Raw,3
 Isaiah Elder,Fiji,M,Sub-Juniors,116.1,120,190,215,222.5,222.5,115,-122.5,122.5,122.5,215,225,237.5,237.5,582.5,SBD,Raw,1
-Jim Brechtfield,Nauru,M,Juniors,116.5,120,280,295,300,300,205,210,-215,210,240,250,-260,250,760,SBD,Raw,1
+Jim Kalinsky Brechtefeld,Nauru,M,Juniors,116.5,120,280,295,300,300,205,210,-215,210,240,250,-260,250,760,SBD,Raw,1
 Raymond Siakia,Niue,M,Open,118.3,120,-235,-235,-235,,-175,-175,-175,,270,-277.5,-277.5,270,,SBD,Raw,DQ
 Steve Lousich,New Zealand,M,Masters 1,120,120,235,255,270,270,187.5,195.5,-202.5,195.5,215,225,232.5,232.5,698,SBD,Raw,1
 Jelson Uepa,Nauru,M,Juniors,121.2,120+,220,245,250,250,120,140,145,145,215,-235,-235,215,610,SBD,Raw,1
-Mourie Makanive,Niue,M,Juniors,129.5,120+,150,165,-175,165,-120,125,145,145,180,200,-240,200,510,SBD,Raw,2
+Mourie Makaniue,Niue,M,Juniors,129.5,120+,150,165,-175,165,-120,125,145,145,180,200,-240,200,510,SBD,Raw,2
 Joel de Battista,Australia,M,Open,130.3,120+,230,240,250,250,157.5,162.5,-167.5,162.5,235,245,-255,245,657.5,SBD,Raw,7
 Stephen Pritchard,Australia,M,Open,136.5,120+,310,325,-335.5,325,205,215,220,220,300,317.5,-325,317.5,862.5,SBD,Raw,2
 Ropati Mualia,Samoa,M,Open,143.1,120+,330.5,-335,-337.5,330.5,170,175,180,180,260,-270,-270,260,770.5,SBD,Raw,6

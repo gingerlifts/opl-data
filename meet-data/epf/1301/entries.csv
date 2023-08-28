@@ -38,7 +38,7 @@ DQ,Lars Höglander,1964,Sweden,92.93,250,270,280,280,-180,-180,-180,,240,-257.5,
 10,Christophe Devos,1971,Belgium,102.83,190,205,-212.5,205,165,-170,-170,165,200,210,217.5,217.5,587.5,105,Masters 1,SBD,M,Single-ply
 DD,Richard Kobr,1969,Czechia,103.21,-250,-270,-290,,-280,-290,-300,,-240,-250,-260,,,105,Masters 1,SBD,M,Single-ply
 1,Sorin Cazacu,1973,Romania,119.15,-350,350,362.5,362.5,245,255,-262.5,255,265,275,-282.5,275,892.5,120,Masters 1,SBD,M,Single-ply
-2,Ove Sjol Per,1971,Norway,117.85,305,317.5,325,325,225,232.5,237.5,237.5,290,302.5,-312.5,302.5,865,120,Masters 1,SBD,M,Single-ply
+2,Per Ove Sjøl,1971,Norway,117.85,305,317.5,325,325,225,232.5,237.5,237.5,290,302.5,-312.5,302.5,865,120,Masters 1,SBD,M,Single-ply
 3,Michael Kalter,1972,Netherlands,112.44,-300,300,-320,300,190,197.5,-205,197.5,280,295,310,310,807.5,120,Masters 1,SBD,M,Single-ply
 4,Mikael Folkesson,1971,Sweden,118.16,280,300,-310,300,200,-210,-210,200,260,280,-310,280,780,120,Masters 1,SBD,M,Single-ply
 5,Kaj Mattila,1970,Finland,116.32,250,265,280,280,190,200,225,225,240,255,-260,255,760,120,Masters 1,SBD,M,Single-ply
@@ -75,7 +75,7 @@ DQ,Jan Sahlgren,1960,Denmark,73.88,-210,-210,-210,,140,-147.5,-147.5,140,200,-21
 7,Ovidiu Negulici,1957,Romania,82.12,-210,210,215,215,-150,150,-157.5,150,190,195,200,200,565,83,Masters 2,SBD,M,Single-ply
 8,Antero Juntunen,1954,Finland,82.76,200,210,,210,-105,105,,105,230,245,-265,245,560,83,Masters 2,SBD,M,Single-ply
 9,Jaroslav Hodík,1958,Czechia,82.75,180,185,-190,185,125,-130,-130,125,200,220,-225,220,530,83,Masters 2,SBD,M,Single-ply
-DQ,Douglas D'Gama,1962,UK,82.06,-215,-215,-215,,,,,,,,,,,83,Masters 2,SBD,M,Single-ply
+DQ,Doug D'Gama,1962,UK,82.06,-215,-215,-215,,,,,,,,,,,83,Masters 2,SBD,M,Single-ply
 DQ,Halldór Eyþórsson,1959,Iceland,82.28,-250,-250,-257.5,,,,,,,,,,,83,Masters 2,SBD,M,Single-ply
 DQ,Jos van Kersbergen,1957,Netherlands,82.62,205,-215,-215,205,165,-170,170,170,-205,-220,,,,83,Masters 2,SBD,M,Single-ply
 1,Piet van Haaren,1963,Netherlands,92.09,295,315,325,325,155,165,167.5,167.5,300,-317.5,-317.5,300,792.5,93,Masters 2,SBD,M,Single-ply
@@ -145,7 +145,7 @@ DQ,Christer Trygg,1949,Sweden,145.25,-160,-160,-180,,-160,-160,160,160,180,-210,
 1,Magdolna Petróczki,1968,Hungary,51.15,130,140,145,145,80,-85,85,85,140,150,160,160,390,52,Masters 1,SBD,F,Single-ply
 2,Bruna Corsi,1964,Italy,50.29,-100,102.5,-110,102.5,55,57.5,-60,57.5,120,127.5,130,130,290,52,Masters 1,SBD,F,Single-ply
 1,Eva Buxbom,1969,Denmark,56.64,-160,-160,160,160,85,-90,-90,85,170,-185,-185,170,415,57,Masters 1,SBD,F,Single-ply
-2,Iwona Mazur-Zmuda,1973,Poland,54.83,110,-122.5,122.5,122.5,-52.5,52.5,-60,52.5,115,125,132.5,132.5,307.5,57,Masters 1,SBD,F,Single-ply
+2,Iwona Mazur-Żmuda,1973,Poland,54.83,110,-122.5,122.5,122.5,-52.5,52.5,-60,52.5,115,125,132.5,132.5,307.5,57,Masters 1,SBD,F,Single-ply
 3,Layla Bjerga,1972,Norway,55.98,-115,-115,115,115,-50,-50,50,50,125,137.5,-145,137.5,302.5,57,Masters 1,SBD,F,Single-ply
 1,Ulrika Johansson,1972,Sweden,61.47,170,177.5,182.5,182.5,87.5,92.5,95,95,145,152.5,157.5,157.5,435,63,Masters 1,SBD,F,Single-ply
 2,Barbara Galimberti,1970,Italy,61.54,145,155,-165,155,85,90,-95,90,155,165,167.5,167.5,412.5,63,Masters 1,SBD,F,Single-ply
@@ -160,7 +160,7 @@ DQ,Christer Trygg,1949,Sweden,145.25,-160,-160,-180,,-160,-160,160,160,180,-210,
 6,Camile Duquesne,1969,France,65.65,120,130,-137.5,130,75,80,82.5,82.5,135,145,150,150,362.5,72,Masters 1,SBD,F,Single-ply
 1,Virve Ilves,1970,Finland,79.62,140,145,152.5,152.5,70,75,-80,75,135,-145,-145,135,362.5,84,Masters 1,SBD,F,Single-ply
 2,Galina Tcukanova,1964,Russia,77.38,105,120,130,130,72.5,75,80,80,125,135,150,150,360,84,Masters 1,SBD,F,Single-ply
-3,Michelle Brand,1973,UK,81.35,140,-150,-150,140,70,75,80,80,125,132.5,140,140,360,84,Masters 1,SBD,F,Single-ply
+3,Michelle Brand #1,1973,UK,81.35,140,-150,-150,140,70,75,80,80,125,132.5,140,140,360,84,Masters 1,SBD,F,Single-ply
 DQ,Susanne Steidle,1964,Germany,76.7,-160,-160,-160,,85,92.5,-100,92.5,162.5,170,175,175,,84,Masters 1,SBD,F,Single-ply
 1,Katariina Nokua,1973,Finland,102.21,-220,-220,220,220,-140,140,-147.5,140,180,192.5,-215,192.5,552.5,84+,Masters 1,SBD,F,Single-ply
 1,Marina Cornwall,1954,UK,45.06,67.5,72.5,-77.5,72.5,45,47.5,50,50,105,115,120,120,242.5,47,Masters 2,SBD,F,Single-ply

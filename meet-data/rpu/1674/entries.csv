@@ -15,7 +15,7 @@ WeightClassKg,Event,Equipment,Division,Sex,Place,Name,CyrillicName,BodyweightKg,
 82.5,B,Raw,Juniors 20-23,M,1,Maksim Subbota,Максим Суббота,81,110,118,123,123,,,,,123
 82.5,B,Raw,Juniors 20-23,M,2,Shading Abdulaev,Шадинг Абдулаев,76,105,110,115,115,,,,,115
 110,B,Raw,Juniors 20-23,M,1,Vladislav Kolmyagin,Владислав Кольмягин,105,170,175,-180,175,,,,,175
-67.5,B,Raw,Open,M,1,Denis Mishin,Денис Мишин,66.45,130,133,-135,133,,,,,133
+67.5,B,Raw,Open,M,1,Denis Mishin #1,Денис Мишин,66.45,130,133,-135,133,,,,,133
 67.5,B,Raw,Open,M,2,Aleksandr Starovit,Александр Старовит,66.4,100,-105,-105,100,,,,,100
 75,B,Raw,Open,M,1,Konstantin Morev,Константин Морев,74.5,85,-90,95,95,,,,,95
 82.5,B,Raw,Open,M,1,Denis Loparev,Денис Лопарев,79.6,140,145,150,150,,,,,150
@@ -36,7 +36,7 @@ WeightClassKg,Event,Equipment,Division,Sex,Place,Name,CyrillicName,BodyweightKg,
 52,D,Raw,Juniors 20-23,F,2,Natalya Atroshchenko,Наталья Атрощенко,50.3,,,,,65,72.5,80,80,80
 56,D,Raw,Juniors 20-23,F,1,Polina Chistyakova,Полина Чистякова,55.65,,,,,120,130,-140,130,130
 67.5,D,Raw,Juniors 20-23,F,1,Natalya Simontseva,Наталья Симонцева,62.7,,,,,90,97.5,-103,97.5,97.5
-75,D,Raw,Juniors 20-23,F,1,Irina Ivanova,Ирина Иванова,73.9,,,,,125,135,145,145,145
+75,D,Raw,Juniors 20-23,F,1,Irina Ivanova #3,Ирина Иванова,73.9,,,,,125,135,145,145,145
 82.5,D,Raw,Juniors 20-23,F,1,Karina Palamarchuk,Карина Паламарчук,76.3,,,,,75,80,82.5,82.5,82.5
 56,D,Raw,Open,F,1,Irina Starchenko,Ирина Старченко,55.25,,,,,95,105,110,110,110
 60,D,Raw,Open,F,1,Anna Lysenko,Анна Лысенко,56.85,,,,,95,105,115,115,115

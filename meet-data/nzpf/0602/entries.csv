@@ -26,7 +26,7 @@ WeightClassKg,BodyweightKg,Name,Sex,Division,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg
 75,72.65,Glenn Wright,M,Masters 1,-175,177.5,-190,,177.5,-125,-127.5,-127.5,,,-170,-170,170,170,,,Single-ply,SBD,DQ
 100,99.45,Warren Mackrell,M,Masters 1,-260,-260,260,,260,167.5,172.5,175,,175,240,250,255,255,,690,Single-ply,SBD,1
 100,99.7,Ted Anderson,M,Masters 1,-265,265,-272.5,,265,165,175,180,,180,230,240,245,245,,690,Single-ply,SBD,2
-82.5,81.45,Stephen King,M,Masters 1,232.5,250,262.5,,262.5,130,137.5,-142.5,,137.5,220,242.5,-250,242.5,,642.5,Single-ply,SBD,1
+82.5,81.45,Stephen King #1,M,Masters 1,232.5,250,262.5,,262.5,130,137.5,-142.5,,137.5,220,242.5,-250,242.5,,642.5,Single-ply,SBD,1
 90,87.65,Ian Pilkinton,M,Masters 1,150,180,-190,,180,120,155,160,,160,140,160,-180,160,,500,Single-ply,SBD,1
 100,96.45,Joe Tafua,M,Masters 1,230,-245,-252.5,,230,160,-170,-170,,160,250,-265,-265,250,,640,Single-ply,SBD,4
 75,74.6,Paul Bonthron,M,Masters 1,170,175,-180,,175,130,135,-140,,135,180,190,-200,190,,500,Single-ply,SBD,2
@@ -56,7 +56,7 @@ WeightClassKg,BodyweightKg,Name,Sex,Division,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg
 67.5,66.5,Mike Gardiner,M,Open,220,230,,,230,130,140,-147.5,,140,230,250,-265.5,250,,620,Single-ply,SBD,1
 82.5,79.8,Tipene Mead,M,Open,180,200,-210,,200,140,-150,-150,,140,220,230,-240,230,,570,Single-ply,SBD,3
 82.5,81.3,Evandro Taperelo,M,Open,200,-215,-215,,200,-130,-130,130,,130,210,220,-230,220,,550,Single-ply,SBD,4
-100,99.1,Nicholas Hansen,M,Open,240,260,262.5,,262.5,150,160,-170,,160,290,315,-320,315,,737.5,Single-ply,SBD,1
+100,99.1,Nicholas Hansen #1,M,Open,240,260,262.5,,262.5,150,160,-170,,160,290,315,-320,315,,737.5,Single-ply,SBD,1
 100,98.9,Nathan Williams,M,Open,-260,260,-275,,260,-170,170,-180,,170,230,-245,245,245,,675,Single-ply,SBD,2
 100,91.45,Morgan Holtom,M,Open,225,235,245,,245,160,167.5,-172.5,,167.5,230,245,-262.5,245,,657.5,Single-ply,SBD,3
 100,95,Colin Wright #2,M,Open,-230,-240,240,,240,140,150,-160,,150,230,242.5,-250,242.5,,632.5,Single-ply,SBD,4

@@ -1,7 +1,7 @@
 Name,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place,BodyweightKg,WeightClassKg
 Teresa Sawyer,F-E-M1,F,150,90,147.5,387.5,SBD,Single-ply,1,52.3,56
 Jenny Hunter,F-E-M1,F,142.5,90,165,397.5,SBD,Single-ply,1,57,60
-Gaby Lesling,F-E-M1,F,122.5,80,132.5,335,SBD,Single-ply,2,58.8,60
+Gaby Lesting,F-E-M1,F,122.5,80,132.5,335,SBD,Single-ply,2,58.8,60
 Allison Hough,F-E-M1,F,125,70,130,325,SBD,Single-ply,3,57.8,60
 Joanna Banks,F-E-M1,F,135,55,137.5,327.5,SBD,Single-ply,1,66.7,67.5
 Jackie Blasbery,F-E-M1,F,160,105,185,450,SBD,Single-ply,1,70,75
@@ -34,10 +34,10 @@ Andy Hawkins,M-E-M1,M,310,230,260,800,SBD,Single-ply,1,122.1,125
 John Hall,M-E-M1,M,270,177.5,282.5,730,SBD,Single-ply,2,118.1,125
 James Blanchflower,M-E-M1,M,390,,,,SBD,Single-ply,DQ,165.2,125+
 Michael James,M-E-M2,M,200,135,215,550,SBD,Single-ply,1,67.5,67.5
-Steve Walker,M-E-M2,M,247,175,250,672,SBD,Single-ply,1,75,75
+Steve Walker #1,M-E-M2,M,247,175,250,672,SBD,Single-ply,1,75,75
 Hari Singh Cheema,M-E-M2,M,225,140,220,585,SBD,Single-ply,2,75,75
 Stan Macrow,M-E-M2,M,200,145,205,550,SBD,Single-ply,3,73.3,75
-Miguel Flores,M-E-M2,M,230,110,200,540,SBD,Single-ply,4,73.8,75
+Miguel Flores #2,M-E-M2,M,230,110,200,540,SBD,Single-ply,4,73.8,75
 Mick Amey,M-E-M2,M,200,115,200,515,SBD,Single-ply,1,80.1,82.5
 Balvinder Singh,M-E-M2,M,290,155,260,705,SBD,Single-ply,1,86.6,90
 Kevin Jane,M-E-M2,M,250,162.5,290,702.5,SBD,Single-ply,1,93,100
@@ -47,14 +47,14 @@ Arthur White,M-E-M2,M,250,140,310,700,SBD,Single-ply,1,108.3,110
 Malcolm Bainbridge,M-E-M3,M,170,100,200,470,SBD,Single-ply,1,67.5,67.5
 John Russell,M-E-M3,M,230,130,220,580,SBD,Single-ply,1,74.3,75
 Amrik Singh,M-E-M3,M,180,117.5,202.5,500,SBD,Single-ply,2,73.3,75
-Alex Lee,M-E-M3,M,160,155,155,470,SBD,Single-ply,3,74.2,75
+Alex Lee #1,M-E-M3,M,160,155,155,470,SBD,Single-ply,3,74.2,75
 Jim Higgins,M-E-M3,M,190,130,195,515,SBD,Single-ply,1,82,82.5
-Ted Cooper,M-E-M3,M,170,105,195,470,SBD,Single-ply,2,52.5,82.5
+Ted Cooper #1,M-E-M3,M,170,105,195,470,SBD,Single-ply,2,52.5,82.5
 Mick Ellender,M-E-M3,M,160,140,240,540,SBD,Single-ply,1,87.1,90
-Dave Battisson,M-E-M3,M,215,165,252.5,632.5,SBD,Single-ply,1,95.5,100
+David Battisson,M-E-M3,M,215,165,252.5,632.5,SBD,Single-ply,1,95.5,100
 John Gavin Walker,M-E-M3,M,220,120,232.5,572.5,SBD,Single-ply,2,97,100
 Andy Kerr,M-E-M3,M,255,200,300,755,SBD,Single-ply,1,143.4,125+
-Roger Powell,M-E-M1,M,140,80,175,395,SBD,Single-ply,1,67.1,67.5
+Roger Powell #1,M-E-M1,M,140,80,175,395,SBD,Single-ply,1,67.1,67.5
 George Leggett,M-E-M1,M,180,105,195,480,SBD,Single-ply,1,74,75
 Brian Tuffnell,M-E-M1,M,140,105,197.5,442.5,SBD,Single-ply,1,80.5,82.5
 Dennis Unitt,M-E-M1,M,150,95,165,410,SBD,Single-ply,1,85.4,90

@@ -1,7 +1,7 @@
 Name,WeightClassKg,Division,Sex,Team,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
-A. Clark,52,Interservice,M,Army,140,105,160,405,SBD,Single-ply,1
+A. Clark #4,52,Interservice,M,Army,140,105,160,405,SBD,Single-ply,1
 R. Reagio,52,Interservice,M,Air Force,137.5,102.5,150,390,SBD,Single-ply,2
-J. Robinson,56,Interservice,M,Army,155,117.5,200,472.5,SBD,Single-ply,1
+Joe Robinson #1,56,Interservice,M,Army,155,117.5,200,472.5,SBD,Single-ply,1
 R. Salonga,56,Interservice,M,Marines,170,92.5,177.5,440,SBD,Single-ply,2
 Mike Curtin,56,Interservice,M,Air Force,,,,,SBD,Single-ply,DQ
 Charles Lawson,60,Interservice,M,Marines,205,110,227.5,542.5,SBD,Single-ply,1
@@ -17,14 +17,14 @@ Gene Bell,75,Interservice,M,Air Force,272.5,175,282.5,730,SBD,Single-ply,1
 Sylvester Anderson,75,Interservice,M,Marines,227.5,147.5,262.5,637.5,SBD,Single-ply,2
 Mike Barber,75,Interservice,M,Air Force,250,132.5,250,632.5,SBD,Single-ply,3
 Dennis Coholan,75,Interservice,M,Navy,232.5,142.5,245,620,SBD,Single-ply,4
-D. Lloyd,75,Interservice,M,Navy,215,132.5,222.5,570,SBD,Single-ply,5
+D. Lloyd #2,75,Interservice,M,Navy,215,132.5,222.5,570,SBD,Single-ply,5
 T. Bostick,75,Interservice,M,Army,210,122.5,227.5,560,SBD,Single-ply,6
 Bruce Takala,82.5,Interservice,M,Army,295,192.5,250,737.5,SBD,Single-ply,1
 Ray Long,82.5,Interservice,M,Air Force,255,155,270,680,SBD,Single-ply,2
 David Fleming,82.5,Interservice,M,Marines,267.5,150,262.5,680,SBD,Single-ply,3
 L. Savage,82.5,Interservice,M,Navy,205,155,230,590,SBD,Single-ply,4
 Joe Walden,90,Interservice,M,Army,292.5,197.5,287.5,777.5,SBD,Single-ply,1
-Carl Jones,90,Interservice,M,Marines,287.5,175,302.5,765,SBD,Single-ply,2
+Carl Jones #2,90,Interservice,M,Marines,287.5,175,302.5,765,SBD,Single-ply,2
 Mozell Hicks,90,Interservice,M,Army,260,152.5,302.5,715,SBD,Single-ply,3
 Steve Murdock,90,Interservice,M,Navy,,,,,SBD,Single-ply,DQ
 K. LeClere,90,Interservice,M,Navy,,,,,SBD,Single-ply,DQ
@@ -36,12 +36,12 @@ Sean Scully,110,Interservice,M,Air Force,290,210,312.5,812.5,SBD,Single-ply,1
 Gary Ward,110,Interservice,M,Marines,297.5,185,295,777.5,SBD,Single-ply,2
 J. Morin,110,Interservice,M,Marines,270,197.5,272.5,740,SBD,Single-ply,3
 K. Carter,110,Interservice,M,Navy,265,162.5,272.5,700,SBD,Single-ply,4
-T. Richards,110,Interservice,M,Navy,267.5,162.5,250,680,SBD,Single-ply,5
+Tom Richards,110,Interservice,M,Navy,267.5,162.5,250,680,SBD,Single-ply,5
 T. Haynes,110,Interservice,M,Army,247.5,205,227.5,680,SBD,Single-ply,6
 Kevin Farber,125,Interservice,M,Navy,292.5,212.5,312.5,817.5,SBD,Single-ply,1
 William Forbes,125,Interservice,M,Marines,290,192.5,292.5,775,SBD,Single-ply,2
 Perry Parker,125,Interservice,M,Air Force,292.5,190,272.5,755,SBD,Single-ply,3
-M. Wyley,125,Interservice,M,Army,272.5,162.5,295,730,SBD,Single-ply,4
+Michael Wyley,125,Interservice,M,Army,272.5,162.5,295,730,SBD,Single-ply,4
 Jerry Teague,125+,Interservice,M,Army,265,155,,,SBD,Single-ply,DQ
 L. Rangel,52,Marines,M,,80,80,140,300,SBD,Single-ply,1
 R. Salonga,56,Marines,M,,170,92.5,177.5,440,SBD,Single-ply,1
@@ -55,8 +55,8 @@ Abe Roman,67.5,Marines,M,,190,127.5,200,517.5,SBD,Single-ply,3
 H. Holguin,67.5,Marines,M,,180,130,197.5,507.5,SBD,Single-ply,4
 Sin Tunstall,67.5,Marines,M,,177.5,115,210,502.5,SBD,Single-ply,5
 N. Short,67.5,Marines,M,,165,117.5,205,487.5,SBD,Single-ply,6
-N. Johnson,67.5,Marines,M,,182.5,112.5,185,480,SBD,Single-ply,7
-S. Ward,67.5,Marines,M,,185,110,175,470,SBD,Single-ply,8
+Ned Johnson,67.5,Marines,M,,182.5,112.5,185,480,SBD,Single-ply,7
+Steve Ward,67.5,Marines,M,,185,110,175,470,SBD,Single-ply,8
 C. Davis,67.5,Marines,M,,155,117.5,,,SBD,Single-ply,DQ
 R. Groner,67.5,Marines,M,,,,,,SBD,Single-ply,DQ
 Sylvester Anderson,75,Marines,M,,227.5,147.5,262.5,637.5,SBD,Single-ply,1
@@ -70,11 +70,11 @@ M. McCurdy,82.5,Marines,M,,222.5,175,275,672.5,SBD,Single-ply,2
 Gerold Whitehead,82.5,Marines,M,,232.5,137.5,292.5,662.5,SBD,Single-ply,3
 D. Dobias,82.5,Marines,M,,237.5,172.5,245,655,SBD,Single-ply,4
 C. Robinson,82.5,Marines,M,,267.5,137.5,245,650,SBD,Single-ply,5
-D. Carrillo,82.5,Marines,M,,247.5,137.5,260,645,SBD,Single-ply,6
+Dan Carrillo,82.5,Marines,M,,247.5,137.5,260,645,SBD,Single-ply,6
 P. Vivlemore,82.5,Marines,M,,235,135,225,595,SBD,Single-ply,7
 T. Williams,82.5,Marines,M,,175,130,237.5,542.5,SBD,Single-ply,8
 R. Harris,82.5,Marines,M,,,,,,SBD,Single-ply,DQ
-Carl Jones,90,Marines,M,,287.5,175,302.5,765,SBD,Single-ply,1
+Carl Jones #2,90,Marines,M,,287.5,175,302.5,765,SBD,Single-ply,1
 R. Mota,90,Marines,M,,285,205,272.5,762.5,SBD,Single-ply,2
 Vince Suetos,90,Marines,M,,292.5,170,262.5,725,SBD,Single-ply,3
 R. Spelll,90,Marines,M,,260,165,250,675,SBD,Single-ply,4
@@ -92,7 +92,7 @@ Jeff Thill,110,Marines,M,,290,187.5,305,782.5,SBD,Single-ply,1
 Gary Ward,110,Marines,M,,297.5,185,295,777.5,SBD,Single-ply,2
 J. Morin,110,Marines,M,,270,197.5,272.5,740,SBD,Single-ply,3
 Steve Brodie,110,Marines,M,,262.5,142.5,282.5,687.5,SBD,Single-ply,4
-R. Wilkins,110,Marines,M,,212.5,180,290,682.5,SBD,Single-ply,5
+Robert Wilkins,110,Marines,M,,212.5,180,290,682.5,SBD,Single-ply,5
 William Forbes,125,Marines,M,,290,192.5,292.5,775,SBD,Single-ply,1
-S. Alberts,125,Marines,M,,267.5,175,290,732.5,SBD,Single-ply,2
+Steve Alberts,125,Marines,M,,267.5,175,290,732.5,SBD,Single-ply,2
 Joe Coates,125,Marines,M,,192.5,160,220,572.5,SBD,Single-ply,3

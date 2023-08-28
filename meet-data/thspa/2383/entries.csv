@@ -20,7 +20,7 @@ Boys,59.87,8,Abraham Hernandez,La Joya Palmview,58.24,161.03,79.38,170.1,410.5,S
 Boys,59.87,9,John Gonzalez,Edcouch-Elsa,59.87,163.29,97.52,149.69,410.5,Single-ply,SBD,M
 Boys,59.87,10,Esai Marez,Mission Sharyland,59.87,140.61,83.91,167.83,392.36,Single-ply,SBD,M
 Boys,59.87,11,Austin Weise,McAllen Rowe,59.06,113.4,95.25,161.03,369.68,Single-ply,SBD,M
-Boys,59.87,12,Brian Tejada,Edinburg,56.88,104.33,70.31,108.86,283.5,Single-ply,SBD,M
+Boys,59.87,12,Brian Tejada #1,Edinburg,56.88,104.33,70.31,108.86,283.5,Single-ply,SBD,M
 Boys,59.87,13,Abel Marquez,Mission Veterans Memorial,57.52,70.31,56.7,106.59,233.6,Single-ply,SBD,M
 Boys,67.13,1,Juan Rivera,Los Fresnos,59.96,195.04,136.08,233.6,564.72,Single-ply,SBD,M
 Boys,67.13,2,Heliseo Guerrero,Rio Hondo,65.23,215.46,129.27,233.6,578.33,Single-ply,SBD,M
@@ -70,11 +70,11 @@ Boys,82.1,8,Javier Elizondo,Mission Sharyland,80.74,183.7,147.42,201.85,532.97,S
 Boys,82.1,9,Andrew Cantu,Mission Sharyland,81.28,199.58,111.13,201.85,512.56,Single-ply,SBD,M
 Boys,82.1,10,Michael Gonzalez,Weslaco,81.74,195.04,120.2,188.24,503.49,Single-ply,SBD,M
 Boys,82.1,11,Bryan Leal,Weslaco,82.01,192.78,127.01,183.7,503.49,Single-ply,SBD,M
-Boys,82.1,12,Brandon Perez,La Feria,75.39,167.83,113.4,190.51,471.74,Single-ply,SBD,M
+Boys,82.1,12,Brandon Perez #5,La Feria,75.39,167.83,113.4,190.51,471.74,Single-ply,SBD,M
 Boys,82.1,13,Javier Bernal,La Joya,75.98,197.31,102.06,149.69,449.06,Single-ply,SBD,M
 Boys,82.1,14,Norberto Vasquez,La Joya,80.92,142.88,124.74,170.1,437.72,Single-ply,SBD,M
 Boys,82.1,15,James Champion,Edinburg,75.48,163.29,102.06,149.69,415.04,Single-ply,SBD,M
-Boys,82.1,16,Jesse Garza,Edcouch-Elsa,82.1,158.76,99.79,149.69,408.23,Single-ply,SBD,M
+Boys,82.1,16,Jesse Garza #4,Edcouch-Elsa,82.1,158.76,99.79,149.69,408.23,Single-ply,SBD,M
 Boys,82.1,17,Ismael Gonzalez,Sharyland Pioneer,75.66,149.69,90.72,165.56,405.97,Single-ply,SBD,M
 Boys,82.1,18,Mauro Arrieta,Edinburg,77.75,124.74,86.18,156.49,367.41,Single-ply,SBD,M
 Boys,82.1,19,Andrew Lozano,Edinburg Quest College Prep,77.2,136.08,68.04,161.03,365.14,Single-ply,SBD,M
@@ -132,7 +132,7 @@ Boys,99.79,21,Anthony Rodriguez,Edinburg,97.52,142.88,108.86,149.69,401.43,Singl
 Boys,99.79,22,Mike Cavasos,Mission Veterans Memorial,91.17,142.88,83.91,158.76,385.55,Single-ply,SBD,M
 Boys,99.79,DQ,Joel Moreno,Mission Sharyland,92.71,195.04,120.2,,,Single-ply,SBD,M
 Boys,99.79,DQ,Angel Gutierrez,Pharr Valley View,91.63,145.15,,,,Single-ply,SBD,M
-Boys,99.79,DQ,Jacob Martinez,Rio Hondo,97.98,,,,,Single-ply,SBD,M
+Boys,99.79,DQ,Jacob Martinez #6,Rio Hondo,97.98,,,,,Single-ply,SBD,M
 Boys,99.79,DQ,Jason Munoz,Edcouch-Elsa,99.79,201.85,,,,Single-ply,SBD,M
 Boys,99.79,DQ,Frank Fernandez,Edinburg Idea College Prep,96.71,136.08,,,,Single-ply,SBD,M
 Boys,99.79,DQ,Said Aleman,Hidalgo Early College,94.44,,,,,Single-ply,SBD,M
@@ -151,7 +151,7 @@ Boys,109.77,10,Aliver Chapa,La Joya Juarez-Lincoln,106.5,195.04,133.81,188.24,51
 Boys,109.77,11,Albert Canales,La Joya,106.14,183.7,122.47,176.9,483.08,Single-ply,SBD,M
 Boys,109.77,12,Hiram Chavez,McAllen Rowe,102.6,136.08,106.59,149.69,392.36,Single-ply,SBD,M
 Boys,109.77,12,Elizar Rodriguez,Weslaco,99.88,210.92,131.54,188.24,530.7,Single-ply,SBD,M
-Boys,109.77,13,Axel Hernandez,Mission Veterans Memorial,100.43,142.88,79.38,149.69,371.95,Single-ply,SBD,M
+Boys,109.77,13,Axel Hernandez #2,Mission Veterans Memorial,100.43,142.88,79.38,149.69,371.95,Single-ply,SBD,M
 Boys,109.77,14,Adrian Meza,Mission Veterans Memorial,106.32,147.42,74.84,133.81,356.07,Single-ply,SBD,M
 Boys,109.77,DQ,Ty Ryner,Rio Hondo,102.06,183.7,,,,Single-ply,SBD,M
 Boys,109.77,DQ,Sam Rodriguez,La Joya,106.23,256.28,151.95,,,Single-ply,SBD,M
@@ -171,5 +171,5 @@ Boys,124.74+,1,Michael Vega,McAllen Rowe,129.73,251.74,165.56,204.12,621.42,Sing
 Boys,124.74+,2,Andres Hernandez,La Joya Palmview,124.92,256.28,167.83,226.8,650.91,Single-ply,SBD,M
 Boys,124.74+,2,Gabriel Cardona,Weslaco,126.78,217.72,154.22,208.65,580.6,Single-ply,SBD,M
 Boys,124.74+,3,Jamie Morin,Rio Grande City,127.1,226.8,138.35,197.31,562.45,Single-ply,SBD,M
-Boys,124.74+,4,Brandon Perez,Weslaco,157.94,272.16,156.49,,428.64,Single-ply,SB,M
+Boys,124.74+,4,Brandon Perez #2,Weslaco,157.94,272.16,156.49,,428.64,Single-ply,SB,M
 Boys,124.74+,DQ,Daniel Melendez,Mercedes,133.17,,,,,Single-ply,SBD,M

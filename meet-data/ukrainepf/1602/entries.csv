@@ -12,12 +12,12 @@ Place,Name,BirthYear,BodyweightKg,Best3BenchKg,WeightClassKg,Sex,CyrillicName,Di
 1,Viktor Gladkyi,1998,77.8,150,83,M,Віктор Гладкий,Sub-Juniors,Single-ply,B,150
 2,Oleksiy Nikulin,1999,81.1,125,83,M,Олексій Нікулін,Sub-Juniors,Single-ply,B,125
 3,Oleksandr Posenko,2001,78.2,102.5,83,M,Олександр Посенко,Sub-Juniors,Single-ply,B,102.5
-1,Viktor Holinei,2000,111.2,170,120,M,Віктор Голіней,Sub-Juniors,Single-ply,B,170
+1,Viktor Golinei,2000,111.2,170,120,M,Віктор Голіней,Sub-Juniors,Single-ply,B,170
 2,Roman Medvid,1999,112.8,155,120,M,Роман Медьвідь,Sub-Juniors,Single-ply,B,155
 1,Igor Lelet,1997,52.58,100,53,M,Ігор Лелет,Juniors,Single-ply,B,100
 1,Edgar Dolgiy,1996,59,125,59,M,Едгар Долгий,Juniors,Single-ply,B,125
 1,Mikhaylo Romanyuk,1996,65.6,120,66,M,Михайло Романюк,Juniors,Single-ply,B,120
-1,Volodimir Tsaturyan,1995,72.55,190,74,M,Володимир Цатурян,Juniors,Single-ply,B,190
+1,Volodymyr Tsaturian,1995,72.55,190,74,M,Володимир Цатурян,Juniors,Single-ply,B,190
 2,Andriy Dakh,1996,73.2,180,74,M,Андрій Дах,Juniors,Single-ply,B,180
 3,Georgiy Nesteruk,1995,71.75,147.5,74,M,Георгій Нестерук,Juniors,Single-ply,B,147.5
 DQ,Oleksiy Sinitsin,1997,73.75,,74,M,Олексій Сініцин,Juniors,Single-ply,B,
@@ -33,7 +33,7 @@ DQ,Oleksiy Sinitsin,1997,73.75,,74,M,Олексій Сініцин,Juniors,Singl
 2,Igor Adamchuk,1993,105,202.5,105,M,Ігор Адамчук,Juniors,Single-ply,B,202.5
 3,Yuriy Kovalchuk,1995,98.8,190,105,M,Юрій Ковальчук,Juniors,Single-ply,B,190
 4,Oleksiy Revak,1996,103.35,190,105,M,Олексій Ревак,Juniors,Single-ply,B,190
-1,Yevgen Vasilyev,1993,112.7,250,120,M,Євген Васильєв,Juniors,Single-ply,B,250
+1,Yevgen Vasilyev #1,1993,112.7,250,120,M,Євген Васильєв,Juniors,Single-ply,B,250
 2,Yurii Monastyrskyi,1996,114.9,230,120,M,Юрій Монастирський,Juniors,Single-ply,B,230
 1,Vasyl' Dius,1996,120.7,200,120+,M,Василь Діус,Juniors,Single-ply,B,200
 2,Nestor Cheredarik,1996,120.3,170,120+,M,Нестор Чередарик,Juniors,Single-ply,B,170

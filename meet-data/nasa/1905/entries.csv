@@ -11,8 +11,8 @@ Place,WeightClassKg,Name,BirthDate,State,BodyweightKg,Best3SquatKg,Best3BenchKg,
 1,75,Sonja Schofield,,NM,74.21,120,72.5,156,348.5,wmp,F,SBD,Wraps
 1,75,Kat Reinier,,NM,74.93,122.5,77.5,150,350,retrowpure,F,SBD,Raw
 2,75,Teresa Espindola,,NM,68.49,97.5,70,155,322.5,wmp,F,SBD,Wraps
-1,56,Becky Thompson,,TX,55.52,102.5,55,120,277.5,wpure,F,SBD,Wraps
-1,56,Becky Thompson,,TX,55.52,102.5,55,120,277.5,wsmp,F,SBD,Wraps
+1,56,Becky Rouse,,TX,55.52,102.5,55,120,277.5,wpure,F,SBD,Wraps
+1,56,Becky Rouse,,TX,55.52,102.5,55,120,277.5,wsmp,F,SBD,Wraps
 1,60,Kari Johnson,,OK,59.42,110,45,127.5,282.5,wnov,F,SBD,Wraps
 1,60,Kari Johnson,,OK,59.42,110,45,127.5,282.5,wsmp,F,SBD,Wraps
 1,90+,Latricia Major,,OK,112.13,132.5,75,182.5,390,wm1,F,SBD,Wraps
@@ -45,7 +45,7 @@ DQ,75,Teresa Espindola,,NM,68.49,,70,,,wmp,F,BD,Raw
 1,75,Danny Harris,,OK,72.21,,52.5,107.5,160,m2,M,BD,Raw
 1,75,Scott Vorhees,,MO,73.84,,165,,165,bpm1,M,B,Raw
 1,67.5,Peter Hankovsky,,CO,67.13,,92.5,,92.5,bpm2,M,B,Raw
-1,67.5,Ken Goad,,MO,65.05,,50,,50,bpm5,M,B,Raw
+1,67.5,Ken Goad,,MO,65.05,,50,,50,bpmp,M,B,Raw
 2,82.5,Rahul Chauhan,,TX,78.02,233.5,140,245,618.5,sm1,M,SBD,Wraps
 1,82.5,Ben Sherwood,,TX,80.74,237.5,147.5,237.5,622.5,sm1,M,SBD,Wraps
 1,82.5,Bronson Bradley,,TN,82.19,227.5,155,235,617.5,sm2,M,SBD,Wraps
@@ -86,7 +86,7 @@ DQ,75,Teresa Espindola,,NM,68.49,,70,,,wmp,F,BD,Raw
 1,100,Jerome Williams,,OK,98.7,,147.5,230,377.5,m1,M,BD,Raw
 1,110,Jon Hallengren,,IA,109.36,,147.5,235,382.5,mp,M,BD,Raw
 1,90,Marty Becker,,WI,88.04,,120,220,340,m2,M,BD,Raw
-1,110,Mike Miller,,MO,107.23,,127.5,200,327.5,m1,M,BD,Raw
+1,110,Mike Miller #1,,MO,107.23,,127.5,200,327.5,m1,M,BD,Raw
 1,100,Eric Termuhlen,,TN,93.89,,110,162.5,272.5,m4,M,BD,Raw
 2,100,Eric Termuhlen,,TN,93.89,,110,162.5,272.5,pure,M,BD,Raw
 1,125,Jim Moody,,TX,110.95,,130,115,245,m3,M,BD,Raw
@@ -133,7 +133,7 @@ DQ,75,Teresa Espindola,,NM,68.49,,70,,,wmp,F,BD,Raw
 2,110,Reggie Neal,,OK,103.78,170,125,197.5,492.5,mp,M,SBD,Wraps
 4,100,Prashant Patel,,OK,90.9,150,107.5,205,462.5,jr,M,SBD,Wraps
 1,100,Marco Hinojosa,,OK,94.07,140,137.5,185,462.5,m2,M,SBD,Wraps
-2,110,Mike Miller,,MO,107.23,160,127.5,200,487.5,m1,M,SBD,Wraps
+2,110,Mike Miller #1,,MO,107.23,160,127.5,200,487.5,m1,M,SBD,Wraps
 1,52,Connor Ford,,TX,49.26,37.5,25,70,132.5,youth,M,SBD,Wraps
 1,90,Robby Adcock,,OK,89.54,,152.5,245,397.5,sm2,M,BD,Raw
 1,90,Robby Adcock,,OK,89.54,,152.5,245,397.5,nov,M,BD,Raw

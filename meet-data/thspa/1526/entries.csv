@@ -33,7 +33,7 @@ Boys,67.13,3,Carlos Grimaldo,Brownsville Hanna,67.04,147.42,106.59,165.56,419.57
 Boys,67.13,4,Marco Arista,Port Isabel,66.04,161.03,90.72,165.56,417.3,Single-ply,SBD,M
 Boys,67.13,5,Alex Garcia #8,Brownsville Lopez,65.32,138.35,81.65,170.1,390.09,Single-ply,SBD,M
 Boys,74.84,6,Andres Vasquez,Brownsville Rivera,67.22,124.74,102.06,156.49,383.29,Single-ply,SBD,M
-Boys,67.13,7,David Garcia,Brownsville Veterans Memorial,63.87,129.27,90.72,158.76,378.75,Single-ply,SBD,M
+Boys,67.13,7,David Garcia #12,Brownsville Veterans Memorial,63.87,129.27,90.72,158.76,378.75,Single-ply,SBD,M
 Boys,67.13,8,Oscar Gonzalez,Brownsville Porter,66.32,136.08,79.38,161.03,376.48,Single-ply,SBD,M
 Boys,67.13,9,Horacio Salinas,Brownsville Lopez,65.95,138.35,92.99,142.88,374.21,Single-ply,SBD,M
 Boys,67.13,10,Jesse Ibanez,San Benito,65.59,136.08,88.45,136.08,360.61,Single-ply,SBD,M
@@ -50,18 +50,18 @@ Boys,67.13,DQ,Aaron Estevanes,Weslaco,60.42,,,,,Single-ply,SBD,M
 Boys,67.13,DQ,Juan Guerrero,Weslaco,65.05,,,,,Single-ply,SBD,M
 Boys,67.13,DQ,Emilio Martinez,Rio Hondo,66.54,,,,,Single-ply,SBD,M
 Boys,74.84,1,Jerry Alaniz,La Feria,74.12,226.8,142.88,229.06,598.74,Single-ply,SBD,M
-Boys,74.84,2,Joe Torres,Los Fresnos,74.84,219.99,142.88,217.72,580.6,Single-ply,SBD,M
+Boys,74.84,2,Joe Torres #5,Los Fresnos,74.84,219.99,142.88,217.72,580.6,Single-ply,SBD,M
 Boys,74.84,3,Abel Rangel,La Feria,73.48,213.19,111.13,213.19,537.51,Single-ply,SBD,M
 Boys,74.84,4,Nathan Mireles,San Benito,73.03,192.78,127.01,197.31,517.1,Single-ply,SBD,M
 Boys,74.84,5,Marco Garate,Rio Hondo,69.58,183.7,108.86,195.04,487.61,Single-ply,SBD,M
 Boys,74.84,6,Miguel Mariscal,Edcouch-Elsa,72.03,161.03,127.01,179.17,467.2,Single-ply,SBD,M
-Boys,74.84,7,José Fernández,Brownsville Rivera,69.76,151.95,106.59,176.9,435.45,Single-ply,SBD,M
+Boys,74.84,7,Jose Fernandez #9,Brownsville Rivera,69.76,151.95,106.59,176.9,435.45,Single-ply,SBD,M
 Boys,82.1,8,Daniel Campos,Edcouch-Elsa,74.93,156.49,97.52,174.63,428.64,Single-ply,SBD,M
 Boys,74.84,9,Daniel Flores,Rio Hondo,74.12,174.63,92.99,156.49,424.11,Single-ply,SBD,M
 Boys,74.84,10,Ricardo Carlos,Brownsville Veterans Memorial,74.57,158.76,83.91,147.42,390.09,Single-ply,SBD,M
 Boys,74.84,11,Oscar Flores,Brownsville Pace,71.58,151.95,88.45,136.08,376.48,Single-ply,SBD,M
 Boys,74.84,12,David Yanes,Port Isabel,68.04,142.88,79.38,151.95,374.21,Single-ply,SBD,M
-Boys,74.84,13,Jose Martinez,Brownsville Pace,70.67,102.06,79.38,102.06,283.5,Single-ply,SBD,M
+Boys,74.84,13,Jose Martinez #16,Brownsville Pace,70.67,102.06,79.38,102.06,283.5,Single-ply,SBD,M
 Boys,74.84,DQ,Chris Salinas,La Feria,68.13,131.54,,,,Single-ply,SBD,M
 Boys,82.1,1,Ben Nevarez,Edcouch-Elsa,81.74,226.8,147.42,272.16,646.37,Single-ply,SBD,M
 Boys,82.1,2,Ramon Sauceda,La Feria,80.65,226.8,158.76,235.87,621.42,Single-ply,SBD,M
@@ -69,7 +69,7 @@ Boys,82.1,3,Rene Aguilar,Brownsville Lopez,77.75,183.7,127.01,208.65,519.36,Sing
 Boys,82.1,4,Max Gonzalez,Weslaco,82.1,201.85,120.2,197.31,519.36,Single-ply,SBD,M
 Boys,82.1,5,Juan Garza,Brownsville Rivera,81.28,192.78,113.4,206.38,512.56,Single-ply,SBD,M
 Boys,82.1,6,Armando Garza,La Feria,78.65,188.24,120.2,188.24,496.68,Single-ply,SBD,M
-Boys,82.1,7,Diego Garcia,Edcouch-Elsa,77.02,192.78,111.13,179.17,483.08,Single-ply,SBD,M
+Boys,82.1,7,Diego Garcia #9,Edcouch-Elsa,77.02,192.78,111.13,179.17,483.08,Single-ply,SBD,M
 Boys,82.1,8,Andres Lucio,Brownsville Rivera,81.28,165.56,111.13,192.78,469.47,Single-ply,SBD,M
 Boys,82.1,9,Cordero Castro,Lyford,77.66,188.24,102.06,176.9,467.2,Single-ply,SBD,M
 Boys,82.1,10,Eduardo Estrada,La Feria,80.65,163.29,131.54,167.83,462.66,Single-ply,SBD,M
@@ -123,7 +123,7 @@ Boys,124.74,4,Jesse Guzman,Brownsville Veterans Memorial,110.95,197.31,106.59,18
 Boys,124.74,5,Rene Perez,Weslaco,118.3,179.17,124.74,181.44,485.34,Single-ply,SBD,M
 Boys,124.74+,1,Josue Garzoria,Los Fresnos,141.07,249.48,183.7,258.55,691.73,Single-ply,SBD,M
 Boys,124.74+,2,Jose Limon,Los Fresnos,139.62,249.48,136.08,249.48,635.03,Single-ply,SBD,M
-Boys,124.74+,3,John Reyes,Rio Hondo,137.08,249.48,156.49,197.31,603.28,Single-ply,SBD,M
+Boys,124.74+,3,John Reyes #2,Rio Hondo,137.08,249.48,156.49,197.31,603.28,Single-ply,SBD,M
 Boys,124.74+,4,Armondo Castillo,Brownsville Lopez,125.37,167.83,113.4,192.78,474,Single-ply,SBD,M
 Boys,124.74+,5,Gage Rivas,Brownsville Veterans Memorial,128.73,181.44,120.2,172.37,474,Single-ply,SBD,M
 Boys,124.74+,6,Manny Pena,Brownsville Hanna,179.89,183.7,115.67,174.63,474,Single-ply,SBD,M

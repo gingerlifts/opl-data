@@ -78,7 +78,7 @@ Boys,74.84,5,Braden Bessire,Muleshoe,70.76,174.63,88.45,181.44,444.52,Single-ply
 Boys,74.84,6,Jake Samaneigo,Lamesa,71.53,165.56,106.59,170.1,442.25,Single-ply,SBD,M
 Boys,74.84,7,Fabian Honesto,Whiteface,71.8,174.63,77.11,181.44,433.18,Single-ply,SBD,M
 Boys,74.84,8,Logan Gersbach,Seminole,69.72,136.08,108.86,181.44,426.38,Single-ply,SBD,M
-Boys,74.84,9,Paul Perez,Levelland,73.21,174.63,97.52,154.22,426.38,Single-ply,SBD,M
+Boys,74.84,9,Paul Perez #3,Levelland,73.21,174.63,97.52,154.22,426.38,Single-ply,SBD,M
 Boys,74.84,10,Justin Goodwin,Childress,74.12,165.56,102.06,158.76,426.38,Single-ply,SBD,M
 Boys,74.84,11,Dylan Davidson,Childress,69.08,151.95,86.18,170.1,408.23,Single-ply,SBD,M
 Boys,74.84,12,Manuel Grado,Friona,74.84,140.61,90.72,145.15,376.48,Single-ply,SBD,M
@@ -97,7 +97,7 @@ Boys,82.1,DQ,Joe Macias,Andrews,74.98,167.83,,,,Single-ply,SBD,M
 Boys,74.84,DQ,Joaquein Ramirez,Seminole,70.72,,,,,Single-ply,SBD,M
 Boys,74.84,DQ,Aaron Hunt,Shamrock,70.49,133.81,,,,Single-ply,SBD,M
 Boys,89.81,1,Federico Carmona,Floydada,82.33,217.72,133.81,229.06,580.6,Single-ply,SBD,M
-Boys,82.1,2,Michael Garcia,Friona,80.1,210.92,127.01,188.24,526.17,Single-ply,SBD,M
+Boys,82.1,2,Michael Garcia #9,Friona,80.1,210.92,127.01,188.24,526.17,Single-ply,SBD,M
 Boys,82.1,3,Richard Valenzuela,Andrews,76.38,176.9,122.47,185.97,485.34,Single-ply,SBD,M
 Boys,82.1,4,Alexander Guerrero,Childress,79.42,172.37,108.86,199.58,480.81,Single-ply,SBD,M
 Boys,82.1,5,Jose Cornejo,Andrews,77.25,181.44,104.33,192.78,478.54,Single-ply,SBD,M
@@ -112,7 +112,7 @@ Boys,82.1,13,Jaime Cigarroa,Friona,79.38,154.22,79.38,138.35,371.95,Single-ply,S
 Boys,82.1,14,Fernando Vasquez,Denver City,76.57,113.4,90.72,154.22,358.34,Single-ply,SBD,M
 Boys,82.1,15,Brandon Pereyra,Plains,76.75,122.47,83.91,145.15,351.53,Single-ply,SBD,M
 Boys,82.1,16,Carson Turner,Floydada,80.88,131.54,86.18,133.81,351.53,Single-ply,SBD,M
-Boys,82.1,17,Christopher Chavez,Friona,78.06,136.08,65.77,133.81,335.66,Single-ply,SBD,M
+Boys,82.1,17,Christopher Chavez #3,Friona,78.06,136.08,65.77,133.81,335.66,Single-ply,SBD,M
 Boys,89.81,18,Coleman Lott,Childress,82.15,106.59,95.25,113.4,315.25,Single-ply,SBD,M
 Boys,82.1,DQ,Rene Rodriguez,Friona,75.57,151.95,,,,Single-ply,SBD,M
 Boys,82.1,DQ,Cole Gatzki,Plains,77.66,,,,,Single-ply,SBD,M
@@ -133,8 +133,8 @@ Boys,99.79,2,Roy Abananu,Plainview,94.89,192.78,113.4,197.31,503.49,Single-ply,S
 Boys,109.77,3,Israel Rosalez,Seagraves,100.02,192.78,133.81,172.37,498.95,Single-ply,SBD,M
 Boys,99.79,4,Micah Melton,Andrews,98.11,181.44,102.06,190.51,474,Single-ply,SBD,M
 Boys,99.79,5,Tristan Hernandez,Dimmitt,94.08,172.37,106.59,185.97,464.93,Single-ply,SBD,M
-Boys,99.79,6,Carlos Martinez,Muleshoe,98.38,185.97,92.99,185.97,464.93,Single-ply,SBD,M
-Boys,99.79,7,Christian Rodriguez,Wolfforth Frenship,93.17,165.56,92.99,183.7,442.25,Single-ply,SBD,M
+Boys,99.79,6,Carlos Martinez #21,Muleshoe,98.38,185.97,92.99,185.97,464.93,Single-ply,SBD,M
+Boys,99.79,7,Christian Rodriguez #8,Wolfforth Frenship,93.17,165.56,92.99,183.7,442.25,Single-ply,SBD,M
 Boys,99.79,8,Duston Vargas,Andrews,92.71,142.88,102.06,174.63,419.57,Single-ply,SBD,M
 Boys,99.79,9,Jacob Piel,Wolfforth Frenship,96.03,136.08,83.91,158.76,378.75,Single-ply,SBD,M
 Boys,99.79,10,Alberto Castillo,Whiteface,95.35,136.08,72.57,147.42,356.07,Single-ply,SBD,M
@@ -161,7 +161,7 @@ Boys,124.74,4,Marquise Nelson,Wolfforth Frenship,123.06,217.72,111.13,208.65,537
 Boys,124.74,5,Jordan Russell,Muleshoe,118.34,163.29,99.79,190.51,453.59,Single-ply,SBD,M
 Boys,124.74,6,Arturo Ortega,Denver City,114.94,156.49,102.06,192.78,451.32,Single-ply,SBD,M
 Boys,124.74,7,Jacob Pace,Shamrock,115.76,170.1,88.45,138.35,396.89,Single-ply,SBD,M
-Boys,124.74,8,Colton Smith,Post,114.49,111.13,102.06,158.76,371.95,Single-ply,SBD,M
+Boys,124.74,8,Colton Smith #6,Post,114.49,111.13,102.06,158.76,371.95,Single-ply,SBD,M
 Boys,124.74+,1,Edgar Guerrero,Friona,131.13,328.85,170.1,299.37,798.32,Single-ply,SBD,M
 Boys,124.74+,2,Vincent Mendoza,Wolfforth Frenship,125.69,235.87,111.13,226.8,573.79,Single-ply,SBD,M
 Boys,124.74+,3,Santos Jackson,Dimmitt,145.47,199.58,117.93,204.12,521.63,Single-ply,SBD,M

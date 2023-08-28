@@ -93,9 +93,9 @@ Rostislav Petkov,1,Open,M,Raw,,NV,75,73.3,25,245,250,190,,285,,720,SBD
 Steven Lopez,2,Open,M,Raw,,CA,75,74.34,22,235,,142.5,,257.5,,635,SBD
 Thomas Stover,3,Open,M,Raw,,NV,75,74.39,30,205,,155,,245,,605,SBD
 Cody Garner,4,Open,M,Raw,,CA,75,73.66,24,192.5,,130,,265,,587.5,SBD
-William Lawson,5,Open,M,Raw,,CA,75,74.8,29,187.5,,122.5,,210,,520,SBD
+William Lawson #2,5,Open,M,Raw,,CA,75,74.8,29,187.5,,122.5,,210,,520,SBD
 Ryan Rork,6,Open,M,Raw,,CA,75,74.98,23,185,,132.5,,195,,512.5,SBD
-Chris Garcia,1,Open,M,Raw,,CA,82.5,82.1,26,262.5,,182.5,,300,,745,SBD
+Chris Garcia #1,1,Open,M,Raw,,CA,82.5,82.1,26,262.5,,182.5,,300,,745,SBD
 Daniel Velasquez,2,Open,M,Raw,,MO,82.5,79.7,28,200,,115,,240,,555,SBD
 Bradley McDonald,3,Open,M,Raw,,MO,82.5,79.38,32,182.5,,142.5,,227.5,,552.5,SBD
 Randall Pattee,4,Open,M,Raw,,OR,82.5,81.65,30,205,,117.5,,227.5,,550,SBD
@@ -143,7 +143,7 @@ Jared Robinson,DQ,Submasters 35-39,M,Raw,,CA,100,94.76,36,192.5,,-162.5,,245,,,S
 Cadet Bryant,1,Masters 40-44,M,Raw,,TX,60,59.19,40,155,,107.5,,192.5,,455,SBD
 Scott Layman,1,Masters 40-44,M,Raw,,CA,67.5,65.86,43,215,,142.5,,225,,582.5,SBD
 Dale Garlitz,1,Masters 60-64,M,Raw,,MT,67.5,66.86,64,127.5,,97.5,,147.5,,372.5,SBD
-Matthew Chapman,1,Masters 45-49,M,Raw,,HI,75,73.8,46,152.5,,122.5,,165,,440,SBD
+Matthew Chapman #1,1,Masters 45-49,M,Raw,,HI,75,73.8,46,152.5,,122.5,,165,,440,SBD
 Terry Hudson,1,Masters 50-54,M,Raw,,CA,75,74.8,51,132.5,,102.5,,157.5,,392.5,SBD
 David Colvin,1,Masters 50-54,M,Raw,,NV,82.5,80.78,51,155,,90,,152.5,,397.5,SBD
 Alan Levine,1,Masters 65-69,M,Raw,,OR,82.5,77.2,65,140,,92.5,,190,,422.5,SBD
@@ -198,7 +198,7 @@ Andres Cuadros,1,Juniors 20-23,M,Wraps,,CA,90,89.18,20,205,,120,,225,,550,SBD
 Abraham Bevel,1,Juniors 20-23,M,Wraps,,CA,100,94.76,22,245,,152.5,,277.5,,675,SBD
 Tyler Carpenter,DQ,Juniors 20-23,M,Wraps,,OR,100,99.56,20,255,,-147.5,,287.5,,,SBD
 Hunter Rossman,1,Juniors 18-19,M,Wraps,,NV,110,106.41,18,235,,140,,280,,655,SBD
-Ken Jones,1,Juniors 20-23,M,Wraps,,MO,110,106.14,23,212.5,,140,,245,,597.5,SBD
+Ken Jones #2,1,Juniors 20-23,M,Wraps,,MO,110,106.14,23,212.5,,140,,245,,597.5,SBD
 Josh Sanderson,1,Juniors 20-23,M,Wraps,,AZ,125,119.98,21,295,,152.5,,290,,737.5,SBD
 Joshua Battersby,1,Juniors 18-19,M,Wraps,,CA,140+,151.73,19,302.5,,177.5,,272.5,,752.5,SBD
 Devan Richter,1,Open,M,Wraps,,MO,60,59.19,18,162.5,,105,,185,,452.5,SBD
@@ -241,7 +241,7 @@ Ron Scott,1,Masters 65-69,M,Wraps,,CA,75,70.99,68,140,,57.5,,165,,362.5,SBD
 Gary Slater,1,Masters 40-44,M,Wraps,,CA,82.5,81.74,43,272.5,,172.5,,232.5,,677.5,SBD
 Roy Taylor,1,Masters 70-74,M,Wraps,,CA,82.5,79.83,74,112.5,,62.5,,167.5,,342.5,SBD
 Victor Calia,1,Masters 50-54,M,Wraps,,NV,90,88.27,50,245,,162.5,,275,,682.5,SBD
-Joe Martin,2,Masters 50-54,M,Wraps,,CA,90,88.31,53,185,,145,,207.5,,537.5,SBD
+Joe Martin #2,2,Masters 50-54,M,Wraps,,CA,90,88.31,53,185,,145,,207.5,,537.5,SBD
 Alexander Morentin,1,Masters 45-49,M,Wraps,,CA,100,95.07,48,182.5,,137.5,,212.5,,532.5,SBD
 Greg Baxter,1,Masters 55-59,M,Wraps,,CA,100,98.97,59,232.5,,127.5,,240,,600,SBD
 Michael Womelsdorf,2,Masters 55-59,M,Wraps,,CA,100,97.66,56,140,,115,,155,,410,SBD
@@ -323,7 +323,7 @@ Jonathan Strobele,1,Masters 40-44,M,Raw,,VA,125,120.7,43,,,137.5,,,,137.5,B
 John Skelton,1,Masters 45-49,M,Raw,,NM,125,121.56,47,,,155,,,,155,B
 Alan Aerts,1,Masters 55-59,M,Raw,,NV,125,123.47,58,,,175,,,,175,B
 Ron Moormeister,1,Masters 65-69,M,Raw,,CA,125,116.21,67,,,145,,,,145,B
-Rudolf Schaap Jr,1,Masters 50-54,M,Raw,,CA,140,136.71,54,,,190,,,,190,B
+Rudolf Schaap,1,Masters 50-54,M,Raw,,CA,140,136.71,54,,,190,,,,190,B
 Aramiq Amirchian,DQ,Open,M,Single-ply,,AZ,82.5,81.92,30,,,-187.5,,,,,B
 Joe Bernazzani,1,Masters 60-64,M,Single-ply,,CA,100,99.7,63,,,182.5,,,,182.5,B
 Wayne Jandoc,1,Masters 55-59,M,Single-ply,,CA,110,106.23,56,,,200,,,,200,B

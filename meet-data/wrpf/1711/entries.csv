@@ -3,8 +3,8 @@ Place,Name,Sex,Event,Equipment,Division,Age,WeightClassKg,BodyweightKg,Country,S
 1,Marianna Gasparyan,F,SBD,Wraps,Open,28,60,59.4,Kazakhstan,200,-220,-220,200,-220,110,120,125,125,-127.5,180,190,195,195,,520
 2,Caterine González,F,SBD,Wraps,Open,20,60,59.2,Colombia,170,180,190,190,-195,95,100,-102.5,100,-102.5,195,205,-215,205,-215,495
 1,Erbol Nauanov,M,SBD,Wraps,Open,27,82.5,82.5,Kazakhstan,-305,-305,305,305,-315,205,-215,215,215,-225,285,300,312.5,312.5,320,832.5
-DQ,Aleksey Nikulin,M,SBD,Wraps,Open,34,82.5,80.6,Russia,-360,-360,-360,,-360,,,,,,,,,,,
-1,Oleksandr Denisov,M,SBD,Wraps,Open,25,100,94.2,Ukraine,-350,350,370,370,,190,200,210,210,,-320,330,-350,330,,910
+DQ,Aleksey Nikulin #1,M,SBD,Wraps,Open,34,82.5,80.6,Russia,-360,-360,-360,,-360,,,,,,,,,,,
+1,Oleksandr Denisov #1,M,SBD,Wraps,Open,25,100,94.2,Ukraine,-350,350,370,370,,190,200,210,210,,-320,330,-350,330,,910
 2,Mikhaylo Zhelyazkov,M,SBD,Wraps,Open,37,100,98.8,Ukraine,320,340,-350,340,350,180,185,-190,185,,320,330,335,335,-340,860
 3,János Fazekas,M,SBD,Wraps,Open,30,100,98.7,Hungary,300,315,-330,315,335,185,192.5,200,200,-205,300,320,-330,320,-335,835
 1,Yury Belkin,M,SBD,Wraps,Open,26,110,103,Russia,-370,-370,370,370,390,215,-225,225,225,,425,440,,440,-461,1035
@@ -22,9 +22,9 @@ DQ,Roman Abidzhba,M,SBD,Wraps,Open,29,140+,145.1,Russia,-350,,,,,,,,,,,,,,,
 1,Natalya Samarina,F,B,Raw,Open,33,67.5,63.3,Russia,,,,,,125,130,135,135,-138,,,,,,135
 2,Lina Zubritskaya,F,B,Raw,Open,29,67.5,61.1,Moldova,,,,,,120,125,-130,125,-130,,,,,,125
 3,Nadezhda Vlasova,F,B,Raw,Open,35,67.5,66,Russia,,,,,,120,125,-127.5,125,,,,,,,125
-1,Yulia Medvedeva,F,B,Raw,Open,38,75,75,Russia,,,,,,147.5,150,-152.5,150,-155,,,,,,150
+1,Yuliya Medvedeva #1,F,B,Raw,Open,38,75,75,Russia,,,,,,147.5,150,-152.5,150,-155,,,,,,150
 2,Yulia Shenkarenko,F,B,Raw,Open,30,75,68.6,Ukraine,,,,,,120,125,-130,125,130,,,,,,125
-3,Anna Khudayarov,F,B,Raw,Open,29,75,74.8,Finland,,,,,,120,130,-137.5,130,-137.5,,,,,,130
+3,Anna Karrila,F,B,Raw,Open,29,75,74.8,Finland,,,,,,120,130,-137.5,130,-137.5,,,,,,130
 1,Vera Bogdanovich,F,B,Raw,Open,28,82.5,77.4,Belarus,,,,,,120,125,130,130,-135,,,,,,130
 1,Roman Eremashvili,M,B,Raw,Open,36,75,72.5,Belarus,,,,,,220,227.5,233,233,,,,,,,233
 2,Tsothe Bezhashvili,M,B,Raw,Open,32,75,72.4,Georgia,,,,,,212.5,215,-220,215,-220,,,,,,215
@@ -46,7 +46,7 @@ DQ,Stanislav Milostnoy,M,B,Raw,Open,38,82.5,80.9,Russia,,,,,,-240,-242.5,-242.5,
 1,Murad Alibegov,M,B,Raw,Open,40,140,131.5,Russia,,,,,,250,270,290,290,295,,,,,,290
 2,László Mészáros,M,B,Raw,Open,48,140,135.2,Hungary,,,,,,260,272.5,290,290,292.5,,,,,,290
 3,Aleksandr Fotin,M,B,Raw,Open,26,140,128.8,Russia,,,,,,250,257.5,262.5,262.5,,,,,,,262.5
-4,Cristoph Rieser,M,B,Raw,Open,32,140,137.3,Austria,,,,,,240,252.5,-257.5,252.5,-257.5,,,,,,252.5
+4,Christoph Rieser,M,B,Raw,Open,32,140,137.3,Austria,,,,,,240,252.5,-257.5,252.5,-257.5,,,,,,252.5
 1,Michał Rudziński,M,B,Raw,Open,38,140+,158.8,Poland,,,,,,270,280,290,290,-300,,,,,,290
 2,Pavel Klimov,M,B,Raw,Open,26,140+,140.3,Russia,,,,,,265,275,-280,275,280,,,,,,275
 1,Caterine González,F,D,Raw,Open,20,60,59.2,Colombia,,,,,,,,,,,195,205,-215,205,-215,205
@@ -62,7 +62,7 @@ DQ,Vladimir Babin,M,D,Raw,Open,25,90,88,Russia,,,,,,,,,,,-350,-350,-350,,-360,
 2,Stoyan Andreev,M,D,Raw,Open,39,125,115.3,Bulgaria,,,,,,,,,,,375,390,-405,390,-405,390
 3,Konstantin Morozov #1,M,D,Raw,Open,33,125,121.1,Russia,,,,,,,,,,,-390,-390,390,390,-411,390
 4,Aleksey Moskvichyov,M,D,Raw,Open,35,125,116.8,Russia,,,,,,,,,,,-370,370,-385,370,-385,370
-1,Ivan Makarov,M,D,Raw,Open,26,140,137.6,Georgia,,,,,,,,,,,390,405,-412.5,405,-412.5,405
+1,Ivan Makarov #3,M,D,Raw,Open,26,140,137.6,Georgia,,,,,,,,,,,390,405,-412.5,405,-412.5,405
 2,Oleg Livshits,M,D,Raw,Open,44,140,138.2,Russia,,,,,,,,,,,350,370,-380,370,,370
 1,Vladimir Babin,M,D,Straps,Open,25,90,88,Russia,,,,,,,,,,,-340,350,-365,350,-370,350
 1,Sergey Gushchin,M,D,Straps,Open,42,100,97.6,Russia,,,,,,,,,,,-380,380,-400,380,,380

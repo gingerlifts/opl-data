@@ -6,14 +6,14 @@ Boys,55.79,4,Cade Logan,Magnolia West,51.75,99.79,58.97,120.2,278.96,Single-ply,
 Boys,51.71,5,Ryan Kerr,Conroe Woodlands College Park,50.71,99.79,63.5,113.4,276.69,Single-ply,SBD,M
 Boys,51.71,6,Tristan McDaniel,Navasota,48.81,90.72,49.9,106.59,247.21,Single-ply,SBD,M
 Boys,51.71,7,Dylan Mikus,Magnolia West,44.45,83.91,56.7,99.79,240.4,Single-ply,SBD,M
-Boys,59.87,1,Joseph Herrera,Navasota,55.97,149.69,90.72,149.69,390.09,Single-ply,SBD,M
+Boys,59.87,1,Joseph Herrera #2,Navasota,55.97,149.69,90.72,149.69,390.09,Single-ply,SBD,M
 Boys,55.79,2,Gavin Webster,Conroe The Woodlands,55.34,140.61,83.91,158.76,383.29,Single-ply,SBD,M
 Boys,55.79,3,Arthur Maya,Navasota,55.79,140.61,90.72,145.15,376.48,Single-ply,SBD,M
 Boys,55.79,4,Timarcus Davis,College Station,55.25,151.95,63.5,124.74,340.19,Single-ply,SBD,M
 Boys,55.79,5,Corey Colon,Conroe Woodlands College Park,55.43,124.74,61.23,138.35,324.32,Single-ply,SBD,M
 Boys,55.79,6,Jakobe McGinty,Navasota,55.79,115.67,58.97,102.06,276.69,Single-ply,SBD,M
 Boys,55.79,7,Rodrigo Hernandez,Caldwell,55.11,104.33,63.5,106.59,274.42,Single-ply,SBD,M
-Boys,55.79,DQ,Carlos Aguilar,Bryan,55.79,,,,,Single-ply,SBD,M
+Boys,55.79,DQ,Carlos Aguilar #5,Bryan,55.79,,,,,Single-ply,SBD,M
 Boys,59.87,DQ,Trey Creeks,Navasota,55.88,,,,,Single-ply,SBD,M
 Boys,55.79,DQ,Cooper Houston,Montgomery,54.88,154.22,86.18,,,Single-ply,SBD,M
 Boys,59.87,1,Braden Tschirhart,College Station,59.19,174.63,97.52,165.56,437.72,Single-ply,SBD,M
@@ -23,7 +23,7 @@ Boys,59.87,DQ,Sebastien Garcia,Conroe The Woodlands,59.87,,,,,Single-ply,SBD,M
 Boys,67.13,1,Garrett Shantz,Montgomery,64.41,204.12,117.93,219.99,542.04,Single-ply,SBD,M
 Boys,74.84,2,Noah Steptoe,Navasota,67.31,213.19,111.13,192.78,517.1,Single-ply,SBD,M
 Boys,67.13,3,Travis Stone,Rogers,66.9,188.24,97.52,190.51,476.27,Single-ply,SBD,M
-Boys,67.13,4,Cameron Gray,Navasota,63.41,176.9,97.52,197.31,471.74,Single-ply,SBD,M
+Boys,67.13,4,Cameron Gray #2,Navasota,63.41,176.9,97.52,197.31,471.74,Single-ply,SBD,M
 Boys,67.13,5,Kyle Stafford,Navasota,63.28,195.04,102.06,172.37,469.47,Single-ply,SBD,M
 Boys,67.13,6,Josh Oldag,Sealy,62.37,174.63,97.52,170.1,442.25,Single-ply,SBD,M
 Boys,67.13,7,Zach Hawkins,Conroe The Woodlands,65.54,136.08,111.13,165.56,412.77,Single-ply,SBD,M
@@ -43,8 +43,8 @@ Boys,74.84,9,Christain Horstman,Brookshire Royal,68.99,165.56,68.04,142.88,376.4
 Boys,74.84,DQ,Jackson Waggner,Bryan,74.84,,,,,Single-ply,SBD,M
 Boys,74.84,DQ,Noah Fletcher,Conroe Woodlands College Park,71.89,163.29,,,,Single-ply,SBD,M
 Boys,82.1,1,Austin Cude,Navasota,82.1,224.53,149.69,222.26,596.47,Single-ply,SBD,M
-Boys,82.1,2,Dave Harris,Navasota,80.51,201.85,102.06,188.24,492.15,Single-ply,SBD,M
-Boys,82.1,3,Will Smith,Navasota,81.65,204.12,106.59,176.9,487.61,Single-ply,SBD,M
+Boys,82.1,2,Dave Harris #2,Navasota,80.51,201.85,102.06,188.24,492.15,Single-ply,SBD,M
+Boys,82.1,3,Will Smith #3,Navasota,81.65,204.12,106.59,176.9,487.61,Single-ply,SBD,M
 Boys,82.1,4,Taylor Soto,Navasota,81.74,170.1,104.33,185.97,460.4,Single-ply,SBD,M
 Boys,82.1,5,Lenard Abke,Navasota,77.2,192.78,90.72,163.29,446.79,Single-ply,SBD,M
 Boys,82.1,6,Kyle Brennan,Conroe The Woodlands,77.11,170.1,99.79,174.63,444.52,Single-ply,SBD,M
@@ -96,7 +96,7 @@ Boys,124.74,1,Michael Cadena,Bryan,122.7,326.59,197.31,281.23,805.13,Single-ply,
 Boys,124.74,2,Gustavo Bonilla,Robinson,118.84,244.94,158.76,258.55,662.24,Single-ply,SBD,M
 Boys,124.74,3,Jose Guevara,Magnolia West,117.93,249.48,163.29,247.21,659.98,Single-ply,SBD,M
 Boys,124.74,4,James Hayes,College Station,117.48,260.82,142.88,244.94,648.64,Single-ply,SBD,M
-Boys,124.74,5,Charles Owens,Bryan Rudder,119.75,267.62,136.08,231.33,635.03,Single-ply,SBD,M
+Boys,124.74,5,Charles Owens #2,Bryan Rudder,119.75,267.62,136.08,231.33,635.03,Single-ply,SBD,M
 Boys,124.74,6,Roberto Requena,Caldwell,110.68,242.67,129.27,247.21,619.15,Single-ply,SBD,M
 Boys,124.74,7,Christian Jones,Navasota,117.75,254.01,145.15,217.72,616.89,Single-ply,SBD,M
 Boys,124.74,8,Tyler Thompson,Rogers,114.85,235.87,131.54,206.38,573.79,Single-ply,SBD,M

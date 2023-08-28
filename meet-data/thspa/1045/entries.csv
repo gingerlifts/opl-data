@@ -26,7 +26,7 @@ Boys,67.13,8,Oscar Orozco,Castleberry,65.32,127.01,81.65,145.15,353.8,Single-ply
 Boys,74.84,9,Jose Alvarez,Lake Worth,67.22,129.27,88.45,131.54,349.27,Single-ply,SBD,M
 Boys,67.13,10,York Doby,Peaster,65.23,124.74,70.31,124.74,319.78,Single-ply,SBD,M
 Boys,67.13,11,Josh Rackstraw,Wichita Falls City View,62.6,113.4,72.57,124.74,310.71,Single-ply,SBD,M
-Boys,67.13,12,Chase Thompson,Jacksboro,66.59,117.93,70.31,122.47,310.71,Single-ply,SBD,M
+Boys,67.13,12,Chase Thompson #2,Jacksboro,66.59,117.93,70.31,122.47,310.71,Single-ply,SBD,M
 Boys,67.13,13,Bryan Ortiz,Castleberry,64.05,115.67,65.77,117.93,299.37,Single-ply,SBD,M
 Boys,67.13,14,Chase Coffman,Gordon,62.78,74.84,74.84,124.74,274.42,Single-ply,SBD,M
 Boys,67.13,15,Ethan Raber,Wichita Falls City View,62.05,92.99,61.23,113.4,267.62,Single-ply,SBD,M
@@ -47,7 +47,7 @@ Boys,74.84,8,Brick Martin,Peaster,70.03,149.69,122.47,149.69,421.84,Single-ply,S
 Boys,74.84,9,Ross Mullins,Olney,74.84,142.88,97.52,170.1,410.5,Single-ply,SBD,M
 Boys,82.1,10,Billy Forrester,Jacksboro,74.93,156.49,88.45,147.42,392.36,Single-ply,SBD,M
 Boys,74.84,11,Ricardo Carillo,Wichita Falls City View,72.12,124.74,97.52,158.76,381.02,Single-ply,SBD,M
-Boys,74.84,12,Jon Thomas,Strawn,74.84,149.69,70.31,145.15,365.14,Single-ply,SBD,M
+Boys,74.84,12,Jon Thomas #1,Strawn,74.84,149.69,70.31,145.15,365.14,Single-ply,SBD,M
 Boys,74.84,13,Allen Breaux,Santo,71.12,131.54,68.04,149.69,349.27,Single-ply,SBD,M
 Boys,74.84,14,Josam Contreras,Mineral Wells,72.39,124.74,83.91,129.27,337.93,Single-ply,SBD,M
 Boys,74.84,15,Austin Hogan,Paradise,69.76,124.74,83.91,124.74,333.39,Single-ply,SBD,M
@@ -56,7 +56,7 @@ Boys,74.84,17,Austin Collins,Chico,71.03,90.72,68.04,120.2,278.96,Single-ply,SBD
 Boys,82.1,1,Norman James,Wichita Falls City View,79.2,226.8,149.69,192.78,569.26,Single-ply,SBD,M
 Boys,82.1,2,Ramon Salazar,Jacksboro,80.83,215.46,117.93,195.04,528.44,Single-ply,SBD,M
 Boys,82.1,3,Josh McDowell,Paradise,75.39,201.85,115.67,183.7,501.22,Single-ply,SBD,M
-Boys,89.81,4,Kyle Young,Chico,82.19,181.44,104.33,190.51,476.27,Single-ply,SBD,M
+Boys,89.81,4,Kyle Young #3,Chico,82.19,181.44,104.33,190.51,476.27,Single-ply,SBD,M
 Boys,82.1,5,Travis Mallory,Mineral Wells,76.84,183.7,102.06,185.97,471.74,Single-ply,SBD,M
 Boys,82.1,6,Maverick Chitty,Lake Worth,80.1,167.83,95.25,183.7,446.79,Single-ply,SBD,M
 Boys,82.1,7,Jackie Polk,Mineral Wells,80.2,151.95,115.67,163.29,430.91,Single-ply,SBD,M
@@ -68,7 +68,7 @@ Boys,82.1,12,Cameron Schulte,Boyd,79.11,145.15,81.65,151.95,378.75,Single-ply,SB
 Boys,82.1,13,Chris Delk,Castleberry,81.65,149.69,92.99,136.08,378.75,Single-ply,SBD,M
 Boys,82.1,14,Brock Reaves,Decatur,77.93,122.47,63.5,158.76,344.73,Single-ply,SBD,M
 Boys,82.1,15,Tristen Garmon,Gordon,76.75,111.13,74.84,138.35,324.32,Single-ply,SBD,M
-Boys,89.81,1,Ivan Garcia,Peaster,89.63,254.01,149.69,208.65,612.35,Single-ply,SBD,M
+Boys,89.81,1,Ivan Garcia #2,Peaster,89.63,254.01,149.69,208.65,612.35,Single-ply,SBD,M
 Boys,89.81,2,OShae Nolan,Wichita Falls City View,83.82,229.06,124.74,235.87,589.67,Single-ply,SBD,M
 Boys,89.81,3,Luke Bowling,Santo,84.73,192.78,113.4,226.8,532.97,Single-ply,SBD,M
 Boys,89.81,4,Robert Munoz,Lake Worth,86.18,215.46,122.47,174.63,512.56,Single-ply,SBD,M
@@ -79,7 +79,7 @@ Boys,89.81,8,Payton Wynn,Lake Worth,85.73,163.29,106.59,204.12,474,Single-ply,SB
 Boys,89.81,9,Chris Luna,Castleberry,88.54,181.44,97.52,172.37,451.32,Single-ply,SBD,M
 Boys,89.81,10,Dylan Cole,Decatur,88.36,167.83,124.74,156.49,449.06,Single-ply,SBD,M
 Boys,89.81,11,Nate Dawson,Chico,86.09,158.76,104.33,181.44,444.52,Single-ply,SBD,M
-Boys,89.81,12,Victor Hernandez,Strawn,87.54,154.22,90.72,163.29,408.23,Single-ply,SBD,M
+Boys,89.81,12,Victor Hernandez #8,Strawn,87.54,154.22,90.72,163.29,408.23,Single-ply,SBD,M
 Boys,89.81,13,Chase Dodson,Millsap,87.27,138.35,90.72,136.08,365.14,Single-ply,SBD,M
 Boys,89.81,14,Dub Little,Strawn,83.28,136.08,72.57,149.69,358.34,Single-ply,SBD,M
 Boys,89.81,15,Zach Wood,Paradise,85,120.2,70.31,140.61,331.12,Single-ply,SBD,M
@@ -116,4 +116,4 @@ Boys,124.74+,2,Jt McGuire,Olney,141.43,231.33,113.4,204.12,548.85,Single-ply,SBD
 Boys,124.74+,3,Payton Vanderveer,Millsap,143.79,219.99,120.2,163.29,503.49,Single-ply,SBD,M
 Boys,124.74+,4,Dempsey Dorris,Strawn,138.25,181.44,92.99,163.29,437.72,Single-ply,SBD,M
 Boys,124.74+,5,Anthony Flores,Wichita Falls City View,140.52,161.03,79.38,151.95,392.36,Single-ply,SBD,M
-Boys,124.74+,6,Luke Miller,Paradise,139.43,133.81,86.18,142.88,362.87,Single-ply,SBD,M
+Boys,124.74+,6,Luke Miller #5,Paradise,139.43,133.81,86.18,142.88,362.87,Single-ply,SBD,M

@@ -42,7 +42,7 @@ G,Ivan Nikolchenko,73.7,280,170,262.5,712.5,74,M,Іван Нікольченко
 3,Bogdan Mygovk,102.45,340,205,300,845,105,M,Богдан Миговк,1989,Open,SBD,Single-ply
 4,Bogdan Felchin,104.7,295,180,280,755,105,M,Богдан Фельчин,1992,Open,SBD,Single-ply
 DQ,Oleksandr Rubets,97.45,-405,250,327.5,,105,M,Олександр Рубець,1996,Open,SBD,Single-ply
-DQ,Sergiy Kharchenko,104.2,290,-210,265,,105,M,Сергей Харченко,1988,Open,SBD,Single-ply
+DQ,Sergiy Kharchenko #1,104.2,290,-210,265,,105,M,Сергій Харченко,1988,Open,SBD,Single-ply
 1,Dmitro Pavlenko,113.9,400,262.5,290,952.5,120,M,Дмитро Павленко,1992,Open,SBD,Single-ply
 2,Oleksandr Plis,111.3,310,212.5,300,822.5,120,M,Олександр Пліс,1983,Open,SBD,Single-ply
 3,Vladyslav Kulakovskyy,115.6,300,200,260,760,120,M,Владислав Кулаковський,1989,Open,SBD,Single-ply
@@ -67,13 +67,13 @@ DQ,Anastasiya Nakonechna,55.6,-147.5,77.5,150,,57,F,Анастасія Нако�
 3,Diana Lozinska,76.05,100,65,152.5,317.5,84,F,Діана Лозінська,1999,Open,SBD,Single-ply
 1,Inna Orobets,104,210,165,195,570,84+,F,Інна Оробець,1971,Open,SBD,Single-ply
 2,Tetyana Litvinyuk,96.45,200,120,160,480,84+,F,Тетяна Литвинюк,1996,Open,SBD,Single-ply
-3,Viktoriya Kazakova,84.25,165,80,160,405,84+,F,Виктория Казакова,1988,Open,SBD,Single-ply
+3,Viktoriya Kazakova #1,84.25,165,80,160,405,84+,F,Вікторія Казакова,1988,Open,SBD,Single-ply
 1,Edgar Dolgiy,59,185,122.5,190,497.5,59,M,Едгар Долгий,1996,Juniors,SBD,Single-ply
 2,Mikhaylo Skop,58.28,175,102.5,180,457.5,59,M,Михайло Скоп,1997,Juniors,SBD,Single-ply
 1,Volodymyr Galkin,65.35,240,135,240,615,66,M,Володимир Галкін,1995,Juniors,SBD,Single-ply
 2,Vasil Oliynik,64.3,225,120,205,550,66,M,Василь Олійник,1994,Juniors,SBD,Single-ply
 3,Roman Shchabel',63.85,180,117.5,215,512.5,66,M,Роман Щабель,1993,Juniors,SBD,Single-ply
-1,Vitaliy Kasyanenko,74,290,155,262.5,707.5,74,M,Віталій Кась'яненко,1995,Juniors,SBD,Single-ply
+1,Vitaliy Kasyanenko #1,74,290,155,262.5,707.5,74,M,Віталій Касьяненко,1995,Juniors,SBD,Single-ply
 2,Vladislav Chornyi,73.9,275,150,250,675,74,M,Владислав Чорний,1997,Juniors,SBD,Single-ply
 3,Roman Dorokhin,72.35,255,145,255,655,74,M,Роман Дорохін,1995,Juniors,SBD,Single-ply
 4,Denis Lukasishen,71.7,240,130,220,590,74,M,Денис Лукасишен,1996,Juniors,SBD,Single-ply
@@ -100,10 +100,10 @@ DQ,Bogdan Semko,108.55,-350,,,,120,M,Богдан Семко,1993,Juniors,SBD,Si
 1,Andrii Shevchenko,123,340,260,275,875,120+,M,Андрій Шевченко,1995,Juniors,SBD,Single-ply
 2,Mikhaylo Parfenyuk,120.8,285,190,245,720,120+,M,Михайло Парфенюк,1997,Juniors,SBD,Single-ply
 3,Volodimir Kravets,121.5,275,165,225,665,120+,M,Володимир Кравець,1996,Juniors,SBD,Single-ply
-1,Dariya Brazhnik,42.42,95,42.5,95,232.5,43,F,Дарія Бражник,1997,Juniors,SBD,Single-ply
+1,Dariia Brazhnyk,42.42,95,42.5,95,232.5,43,F,Дарія Бражник,1997,Juniors,SBD,Single-ply
 1,Zina Demyan,46.88,120,70,100,290,47,F,Зіна Демян,1997,Juniors,SBD,Single-ply
 2,Katerina Osipova,45.94,87.5,37.5,100,225,47,F,Катерина Осіпова,1994,Juniors,SBD,Single-ply
-DQ,Tetyana Shlopko,46.88,145,-77.5,,,47,F,Тетяна Шлопко,1996,Juniors,SBD,Single-ply
+DQ,Tetiana Bila,46.88,145,-77.5,,,47,F,Тетяна Шлопко,1996,Juniors,SBD,Single-ply
 1,Ganna Bezhevets,51.98,130,70,140,340,52,F,Ганна Бежевець,1995,Juniors,SBD,Single-ply
 1,Ganna Gonchar,56.72,165,133,140,438,57,F,Ганна Гончар,1993,Juniors,SBD,Single-ply
 2,Anastasiya Nakonechna,55.16,145,80,125,350,57,F,Анастасія Наконечна,1995,Juniors,SBD,Single-ply
@@ -142,7 +142,7 @@ DQ,Rostislav Kinischuk,52.3,-140,-105.5,-162.5,,53,M,Ростислав Кіні
 DQ,Vladislav Dryuchko,92.4,235,-155,-225,,93,M,Владислав Дрючко,1998,Sub-Juniors,SBD,Single-ply
 1,Oleksandr Korotkiy,93.8,242.5,130,240,612.5,105,M,Олександр Короткий,1998,Sub-Juniors,SBD,Single-ply
 2,Ivan Romanishin,96.8,150,90,190,430,105,M,Іван Романишин,2000,Sub-Juniors,SBD,Single-ply
-1,Viktor Holinei,108.9,225,165,210,600,120,M,Віктор Голіней,2000,Sub-Juniors,SBD,Single-ply
+1,Viktor Golinei,108.9,225,165,210,600,120,M,Віктор Голіней,2000,Sub-Juniors,SBD,Single-ply
 2,Vitaliy Mikhaylov,109.65,200,140,200,540,120,M,Віталій Михайлов,1998,Sub-Juniors,SBD,Single-ply
 1,Khristina Kovtalo,39.36,65,32.5,87.5,185,43,F,Христина Ковтало,2003,Sub-Juniors,SBD,Single-ply
 DQ,Sofiya Bzdir,40.64,-65,,,,43,F,Софія Бздир,2003,Sub-Juniors,SBD,Single-ply

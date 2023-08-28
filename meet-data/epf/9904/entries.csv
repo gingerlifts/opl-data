@@ -10,7 +10,7 @@ Place,Name,BirthYear,WeightClassKg,BodyweightKg,Country,Best3SquatKg,Best3BenchK
 1,Sandra Locatelli,1957,56,55.9,Italy,162.5,80,187.5,430,Masters 1,F,SBD,Single-ply
 2,Mieke Vivijs,1954,56,55.7,Belgium,135,75,160,370,Masters 1,F,SBD,Single-ply
 3,Klothilde Herrmann,1956,56,55.6,Germany,125,77.5,142.5,345,Masters 1,F,SBD,Single-ply
-4,Marie-Franc Baron,1951,56,55.5,France,120,65,147.5,332.5,Masters 1,F,SBD,Single-ply
+4,Marie-France Baron,1951,56,55.5,France,120,65,147.5,332.5,Masters 1,F,SBD,Single-ply
 1,Aly Keizer,1951,60,60,Netherlands,152.5,85,160,397.5,Masters 1,F,SBD,Single-ply
 2,Lucienne Daumas,1955,60,56.2,France,135,75,157.5,367.5,Masters 1,F,SBD,Single-ply
 3,Anita Thimm,1950,60,59.5,Germany,135,77.5,155,367.5,Masters 1,F,SBD,Single-ply
@@ -41,12 +41,12 @@ Place,Name,BirthYear,WeightClassKg,BodyweightKg,Country,Best3SquatKg,Best3BenchK
 1,Ronnie Kerr,1955,67.5,67.3,UK,205,137.5,250,592.5,Masters 1,M,SBD,Single-ply
 2,Francisco Molina,1955,67.5,65.8,Spain,225,135,205,565,Masters 1,M,SBD,Single-ply
 3,Alain Cuvelier,1953,67.5,67.3,France,210,130,220,560,Masters 1,M,SBD,Single-ply
-4,Miguel Flores,1955,67.5,67.5,UK,222.5,122.5,210,555,Masters 1,M,SBD,Single-ply
+4,Miguel Flores #2,1955,67.5,67.5,UK,222.5,122.5,210,555,Masters 1,M,SBD,Single-ply
 5,Errico Jacomini,1949,67.5,66.7,Germany,180,140,205,525,Masters 1,M,SBD,Single-ply
 6,Oliver Forde,1956,67.5,66.5,Ireland,192.5,95,212.5,500,Masters 1,M,SBD,Single-ply
 1,Arrigo Niccolini,1956,75,74.5,Italy,262.5,150,260,672.5,Masters 1,M,SBD,Single-ply
 2,Marc Duh,1954,75,74.3,France,257.5,165,247.5,670,Masters 1,M,SBD,Single-ply
-3,Steve Walker,1956,75,74.7,UK,240,170,255,665,Masters 1,M,SBD,Single-ply
+3,Steve Walker #1,1956,75,74.7,UK,240,170,255,665,Masters 1,M,SBD,Single-ply
 4,Elie Lelouche,1958,75,74.6,France,255,157.5,245,657.5,Masters 1,M,SBD,Single-ply
 5,Noriano Coppari,1951,75,74.4,Italy,220,140,250,610,Masters 1,M,SBD,Single-ply
 6,Coert Hoppenbrouwers,1958,75,73.6,Netherlands,200,145,255,600,Masters 1,M,SBD,Single-ply
@@ -64,8 +64,8 @@ DQ,Josef Gabrhel,1955,75,74.5,Slovakia,200,,,,Masters 1,M,SBD,Single-ply
 8,Mario Fonseca,1957,82.5,75.6,Portugal,240,165,225,630,Masters 1,M,SBD,Single-ply
 9,Michael Herfort,1957,82.5,82,Germany,210,157.5,255,622.5,Masters 1,M,SBD,Single-ply
 10,An Szczepankowski,1958,82.5,81.4,Poland,230,137.5,240,607.5,Masters 1,M,SBD,Single-ply
-11,Ser VanderStraten,1952,82.5,81.7,Belgium,210,152.5,230,592.5,Masters 1,M,SBD,Single-ply
-12,Helmut Schaller,1949,82.5,81.6,Germany,217.5,135,232.5,585,Masters 1,M,SBD,Single-ply
+11,Serge Van der Straeten,1952,82.5,81.7,Belgium,210,152.5,230,592.5,Masters 1,M,SBD,Single-ply
+12,Helmut Schaller Sr,1949,82.5,81.6,Germany,217.5,135,232.5,585,Masters 1,M,SBD,Single-ply
 DQ,Pietro Andreatta,1950,82.5,82.2,Italy,,,,,Masters 1,M,SBD,Single-ply
 1,Viktor Kotelnikov,1956,90,89,Russia,275,187.5,300,762.5,Masters 1,M,SBD,Single-ply
 2,Eric Mauchosse,1958,90,88.3,France,290,190,275,755,Masters 1,M,SBD,Single-ply
@@ -100,7 +100,7 @@ DQ,Ola Wermelin,1955,100,99.1,Sweden,270,,,,Masters 1,M,SBD,Single-ply
 9,Jan-Leif Lande,1953,110,102.9,Norway,270,160,250,680,Masters 1,M,SBD,Single-ply
 10,Ronald Braak,1956,110,102.5,Netherlands,240,145,220,605,Masters 1,M,SBD,Single-ply
 DQ,Enrico Bianchi,1957,110,109.6,Italy,,,,,Masters 1,M,SBD,Single-ply
-1,Valeriy Melnik,1958,125,112.8,Ukraine,310,215,300,825,Masters 1,M,SBD,Single-ply
+1,Valeriy Melnik #1,1958,125,112.8,Ukraine,310,215,300,825,Masters 1,M,SBD,Single-ply
 2,Rudolf Küster,1955,125,115.7,Germany,320,120,307.5,747.5,Masters 1,M,SBD,Single-ply
 3,John Blackburn,1955,125,123.1,UK,295,162.5,290,747.5,Masters 1,M,SBD,Single-ply
 4,Conny Olsson,1954,125,111.5,Sweden,250,147.5,267.5,665,Masters 1,M,SBD,Single-ply
@@ -138,7 +138,7 @@ DQ,Ernst Güntert,1948,75,74,Germany,,,,,Masters 2,M,SBD,Single-ply
 7,Fred Marienfeldt,1948,82.5,82.1,Germany,205,145,215,565,Masters 2,M,SBD,Single-ply
 8,Giorgio Zanetti,1945,82.5,80.2,Italy,200,122.5,200,522.5,Masters 2,M,SBD,Single-ply
 9,Freddy Veranneman,1949,82.5,82,Belgium,155,102.5,245,502.5,Masters 2,M,SBD,Single-ply
-DQ,Adam Borzecki,1945,82.5,81.7,Poland,180,115,,,Masters 2,M,SBD,Single-ply
+DQ,Adam Borzęcki,1945,82.5,81.7,Poland,180,115,,,Masters 2,M,SBD,Single-ply
 DD,Harrie van den Brand,1945,82.5,81,Netherlands,250,167.5,255,,Masters 2,M,SBD,Single-ply
 1,Stefan Sochaňski,1948,90,89.1,Poland,242.5,152.5,257.5,652.5,Masters 2,M,SBD,Single-ply
 2,Terje Brovold,1945,90,87.9,Norway,240,175,235,650,Masters 2,M,SBD,Single-ply
@@ -147,12 +147,12 @@ DD,Harrie van den Brand,1945,82.5,81,Netherlands,250,167.5,255,,Masters 2,M,SBD,
 5,Jean Salaun,1948,90,87.1,France,215,145,240,600,Masters 2,M,SBD,Single-ply
 6,Erwin Breitenbach,1944,90,89.2,Germany,212.5,110,242.5,565,Masters 2,M,SBD,Single-ply
 7,Guenther Schwarz,1941,90,89.3,Germany,190,150,215,555,Masters 2,M,SBD,Single-ply
-8,Dave Tucker,1935,90,87.3,UK,210,110,230,550,Masters 2,M,SBD,Single-ply
+8,David Tucker,1935,90,87.3,UK,210,110,230,550,Masters 2,M,SBD,Single-ply
 9,Vincent Palazzo,1940,90,89,Belgium,165,135,195,495,Masters 2,M,SBD,Single-ply
 1,Ferry van der Meulen,1947,100,99,Netherlands,280,185,282.5,747.5,Masters 2,M,SBD,Single-ply
 2,Henk Keizer,1946,100,99.4,Netherlands,280,175,272.5,727.5,Masters 2,M,SBD,Single-ply
 3,Roberto Cialdini,1944,100,96.2,Italy,215,142.5,275,632.5,Masters 2,M,SBD,Single-ply
-4,Yvan DeWitte,1946,100,93.5,Belgium,200,140,227.5,567.5,Masters 2,M,SBD,Single-ply
+4,Ivan Dewitte,1946,100,93.5,Belgium,200,140,227.5,567.5,Masters 2,M,SBD,Single-ply
 5,Viachesl Tsyganok,1938,100,97,Ukraine,210,145,210,565,Masters 2,M,SBD,Single-ply
 6,Leif Waldeck,1939,100,99.2,Sweden,160,145,225,530,Masters 2,M,SBD,Single-ply
 1,György Lovasz,1947,110,106.3,Hungary,300,207.5,320,827.5,Masters 2,M,SBD,Single-ply

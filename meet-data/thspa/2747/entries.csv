@@ -10,7 +10,7 @@ Boys,55.79,1,Kyle Bailey,Karnes City,55.43,151.95,92.99,154.22,399.16,Single-ply
 Boys,55.79,2,Natanael Salinas,Bloomington,55.52,149.69,52.16,151.95,353.8,Single-ply,SBD,M
 Boys,55.79,3,Austin Castillo,Sinton,54.88,115.67,72.57,151.95,340.19,Single-ply,SBD,M
 Boys,55.79,4,Brendon Batteau,Rockport-Fulton,53.61,115.67,70.31,131.54,317.51,Single-ply,SBD,M
-Boys,55.79,5,Juan Vasquez,Corpus Christi Calallen,53.71,122.47,58.97,127.01,308.44,Single-ply,SBD,M
+Boys,55.79,5,Juan Vasquez #1,Corpus Christi Calallen,53.71,122.47,58.97,127.01,308.44,Single-ply,SBD,M
 Boys,55.79,6,Eloy Ybarra,Corpus Christi West Oso,54.52,88.45,56.7,120.2,265.35,Single-ply,SBD,M
 Boys,55.79,DQ,Tino Reyes,Goliad,55.07,,,,,Single-ply,SBD,M
 Boys,55.79,DQ,Marcus Schuessler,Freer,55.43,,,,,Single-ply,SBD,M
@@ -18,7 +18,7 @@ Boys,59.87,1,Andres Ramos,Ingleside,58.51,204.12,108.86,197.31,510.29,Single-ply
 Boys,59.87,2,Anthony Perez,Ben Bolt-Palito Blanco,58.06,174.63,115.67,185.97,476.27,Single-ply,SBD,M
 Boys,59.87,3,Samuel Moczygemba,Poth,58.97,149.69,97.52,158.76,405.97,Single-ply,SBD,M
 Boys,59.87,4,Noe Herrera,Kingsville King,58.79,140.61,83.91,161.03,385.55,Single-ply,SBD,M
-Boys,59.87,5,Chris Anderson,Ingleside,57.33,136.08,79.38,161.03,376.48,Single-ply,SBD,M
+Boys,59.87,5,Chris Anderson #11,Ingleside,57.33,136.08,79.38,161.03,376.48,Single-ply,SBD,M
 Boys,59.87,6,Tyler Harris,Skidmore-Tynan,58.97,142.88,72.57,158.76,374.21,Single-ply,SBD,M
 Boys,59.87,7,Devin Cowen,Rockport-Fulton,58.97,129.27,72.57,170.1,371.95,Single-ply,SBD,M
 Boys,59.87,8,Josue Tortu,Corpus Christi West Oso,58.06,140.61,74.84,142.88,358.34,Single-ply,SBD,M
@@ -57,7 +57,7 @@ Boys,74.84,6,Kaden Crouch,Stockdale,72.48,158.76,102.06,154.22,415.04,Single-ply
 Boys,74.84,7,Trevor Moczygemba,Poth,74.84,154.22,92.99,158.76,405.97,Single-ply,SBD,M
 Boys,74.84,8,Diego Martinez,Stockdale,69.22,151.95,95.25,156.49,403.7,Single-ply,SBD,M
 Boys,74.84,9,Tyler Talley,Stockdale,74.66,136.08,106.59,158.76,401.43,Single-ply,SBD,M
-Boys,74.84,10,Ryan Garcia,Skidmore-Tynan,70.31,136.08,90.72,158.76,385.55,Single-ply,SBD,M
+Boys,74.84,10,Ryan Garcia #7,Skidmore-Tynan,70.31,136.08,90.72,158.76,385.55,Single-ply,SBD,M
 Boys,74.84,11,Nolan Perry,Rockport-Fulton,72.12,129.27,83.91,156.49,369.68,Single-ply,SBD,M
 Boys,74.84,12,Jaron Denson,Karnes City,69.22,136.08,83.91,145.15,365.14,Single-ply,SBD,M
 Boys,74.84,13,Ethan Almendarez,Three Rivers,73.12,145.15,74.84,145.15,365.14,Single-ply,SBD,M
@@ -135,7 +135,7 @@ Boys,99.79,DQ,Samual Martinez,Pettus,95.44,136.08,,,,Single-ply,SBD,M
 Boys,109.77,1,Joey Rodriguez,Corpus Christi West Oso,107.95,281.23,151.95,251.74,684.92,Single-ply,SBD,M
 Boys,109.77,2,Adam Gonzalez,Kingsville King,108.95,201.85,133.81,215.46,551.11,Single-ply,SBD,M
 Boys,109.77,3,Marcus Avitia,Ingleside,107.5,188.24,124.74,174.63,487.61,Single-ply,SBD,M
-Boys,109.77,4,Jacob Hernandez,Stockdale,108.86,181.44,124.74,181.44,487.61,Single-ply,SBD,M
+Boys,109.77,4,Jacob Hernandez #8,Stockdale,108.86,181.44,124.74,181.44,487.61,Single-ply,SBD,M
 Boys,109.77,5,Michael Moralez,Aransas Pass,105.41,190.51,111.13,172.37,474,Single-ply,SBD,M
 Boys,109.77,6,Shayne Shusta,Ingleside,105.6,170.1,111.13,174.63,455.86,Single-ply,SBD,M
 Boys,109.77,7,Julian Beltran,Corpus Christi Calallen,109.59,163.29,115.67,172.37,451.32,Single-ply,SBD,M
@@ -147,7 +147,7 @@ Boys,124.74,1,Trace Mascorro,Refugio,118.02,226.8,181.44,226.8,635.03,Single-ply
 Boys,124.74,2,Luis Sanchez,Three Rivers,123.83,233.6,140.61,222.26,596.47,Single-ply,SBD,M
 Boys,124.74,3,David Mendez,Taft,122.74,208.65,124.74,199.58,532.97,Single-ply,SBD,M
 Boys,124.74,4,Ezekiel Palacios,Goliad,124.47,208.65,122.47,188.24,519.36,Single-ply,SBD,M
-Boys,124.74,5,Luis Garcia,Odem,118.57,183.7,142.88,188.24,514.83,Single-ply,SBD,M
+Boys,124.74,5,Luis Garcia #5,Odem,118.57,183.7,142.88,188.24,514.83,Single-ply,SBD,M
 Boys,124.74,6,Kyle Zaiontz,Poth,123.01,210.92,106.59,192.78,510.29,Single-ply,SBD,M
 Boys,124.74,7,Jace Gonzales,Karnes City,114.31,188.24,102.06,170.1,460.4,Single-ply,SBD,M
 Boys,124.74,8,Ethan Dreyer,Rockport-Fulton,113.4,165.56,92.99,170.1,428.64,Single-ply,SBD,M

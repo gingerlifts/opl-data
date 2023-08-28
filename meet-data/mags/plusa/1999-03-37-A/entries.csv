@@ -38,11 +38,11 @@ Roy Burns,51,90,Masters,40-999,M,Single-ply,,145,,145,B,1
 Robert Sands,,90,Masters,40-999,M,Single-ply,,122.5,,122.5,B,2
 Todd Campo,,90,Masters,40-999,M,Raw,,155,,155,B,1
 P. Herman,59,90,Masters,40-999,M,Raw,,,,,B,DQ
-M. Stewart,57,90,Masters,40-999,M,Raw,,137.5,,137.5,B,2
-Jim Weiss,70,90,Masters,40-999,M,Raw,,85,,85,B,3
+Melvin Stewart,57,90,Masters,40-999,M,Raw,,137.5,,137.5,B,2
+James Weiss,70,90,Masters,40-999,M,Raw,,85,,85,B,3
 Todd Campo,,90,Natural,,M,Raw,,155,,155,B,1
 Dino Thurber,,90,Open,,M,Raw,,160,,160,B,1
-Rudy Schaap,,100,Law,,M,Single-ply,,170,,170,B,1
+Rudolf Schaap,,100,Law,,M,Single-ply,,170,,170,B,1
 Derrin Centeno,,100,Lifetime,,M,Single-ply,,157.5,,157.5,B,1
 Tracey Sanders,,100,Open,,M,Single-ply,,150,,150,B,2
 Sunday Simms,,100,Open,,M,Single-ply,,200,,200,B,1
@@ -50,7 +50,7 @@ David Neville,58,100,Masters,40-999,M,Raw,,92.5,,92.5,B,2
 Daniel Smith III,55,100,Masters,40-999,M,Raw,,187.5,,187.5,B,1
 Dan Yourg,,100,Natural,,M,Raw,,137.5,,137.5,B,1
 Sunday Simms,,100,Open,,M,Raw,,200,,200,B,1
-Rudy Schaap,,100,Submasters,35-39,M,Raw,,170,,170,B,1
+Rudolf Schaap,,100,Submasters,35-39,M,Raw,,170,,170,B,1
 Art Thompson,38,110,Natural,,M,Single-ply,,227.5,,227.5,B,1
 Thomas Sorbie,,110,Natural,,M,Single-ply,,205,,205,B,2
 Art Thompson,38,110,Open,,M,Single-ply,,227.5,,227.5,B,1
@@ -70,7 +70,7 @@ Tom Manno,40,145,Open,,M,Single-ply,,240,,240,B,1
 Obbie Hampton,49,145,Masters,40-999,M,Raw,,185,,185,B,1
 Obbie Hampton,49,145,Open,,M,Raw,,185,,185,B,1
 Anthony Carrera,,110,Teen,13-19,M,Raw,,155,,155,B,1
-Gerry Fontaine,66,110,Masters,40-999,M,Raw,,120,,120,B,2
+Gerald Fontaine,66,110,Masters,40-999,M,Raw,,120,,120,B,2
 Helen Balmania,21,44,Juniors,20-23,F,Raw,70,35,85,190,SBD,1
 Helen Balmania,,44,Open,,F,Raw,70,35,85,190,SBD,1
 Tania Akina,11,44,Youth,0-12,F,Raw,35,25,72.5,132.5,SBD,1
@@ -107,7 +107,7 @@ Boyse Francis,35,75,Military,,M,Raw,125,130,172.5,427.5,SBD,1
 Robert Taylor,,75,Open,,M,Raw,137.5,117.5,182.5,437.5,SBD,2
 Ralph Castaneda,,75,Open,,M,Raw,182.5,137.5,192.5,512.5,SBD,1
 Nicholas Smith-Pete,14,75,Teen,13-19,M,Raw,120,65,150,335,SBD,1
-M. Colley,17,75,Teen,13-19,M,Raw,,,,,SBD,DQ
+Michael Colley,17,75,Teen,13-19,M,Raw,,,,,SBD,DQ
 Steve Manly,21,82.5,Juniors,20-23,M,Single-ply,242.5,137.5,275,655,SBD,1
 Martin Drake,47,82.5,Lifetime,,M,Single-ply,155,132.5,200,487.5,SBD,1
 Richard Kemblowski,,82.5,Law,,M,Single-ply,115,130,205,450,SBD,1
@@ -122,7 +122,7 @@ Chris Meier,,82.5,Open,,M,Single-ply,230,175,275,680,SBD,1
 L. Cunningham,,82.5,Juniors,20-23,M,Raw,,,,,SBD,DQ
 J. Tiani,,82.5,Juniors,20-23,M,Raw,,,,,SBD,DQ
 Martin Drake,47,82.5,Masters,40-999,M,Raw,155,132.5,200,487.5,SBD,1
-Charlie McDonald,51,82.5,Masters,40-999,M,Raw,130,117.5,185,432.5,SBD,2
+Charles McDonald,51,82.5,Masters,40-999,M,Raw,130,117.5,185,432.5,SBD,2
 David Pierce,,82.5,Military,,M,Raw,,,,,SBD,DQ
 Robert Sands,,82.5,Military,,M,Raw,,,,,SBD,DQ
 James Franklin,,82.5,Military,,M,Raw,155,,,155,S,1
@@ -137,7 +137,7 @@ Patrick Beck,,90,Open,,M,Single-ply,215,115,267.5,597.5,SBD,1
 Les Oeri,46,90,Masters,40-999,M,Raw,160,155,235,550,SBD,2
 P. Herman,59,90,Masters,40-999,M,Raw,,,,,SBD,DQ
 Bob Strange,61,90,Masters,40-999,M,Raw,200,145,230,575,SBD,1
-Jim Weiss,70,90,Masters,40-999,M,Raw,80,85,105,270,SBD,3
+James Weiss,70,90,Masters,40-999,M,Raw,80,85,105,270,SBD,3
 Keith Goins,,90,Military,,M,Raw,,,,,SBD,DQ
 Abraham Papaleo,,90,Military,,M,Raw,95,130,157.5,382.5,SBD,1
 Greg Nelson,,90,Natural,,M,Raw,172.5,127.5,227.5,527.5,SBD,1
@@ -153,13 +153,13 @@ Dana Daykin,51,100,Military,,M,Raw,142.5,142.5,200,485,SBD,1
 David Neville,58,100,Military,,M,Raw,127.5,92.5,160,380,SBD,3
 Flarry Maranglo,69,100,Military,,M,Raw,125,85,165,375,SBD,4
 Tom Pete,,100,Open,,M,Raw,247.5,185,260,692.5,SBD,2
-Jason Burnell,,100,Open,,M,Raw,272.5,170,275,717.5,SBD,1
+Jason Burnell #1,,100,Open,,M,Raw,272.5,170,275,717.5,SBD,1
 S. Short,37,100,Submasters,35-39,M,Raw,205,,,205,S,1
 Bill Stiles,38,100,Submasters,35-39,M,Raw,150,112.5,215,477.5,SBD,1
 Andrew Remlinger,20,110,Juniors,20-23,M,Single-ply,200,167.5,245,612.5,SBD,1
 Brian Sloat,,110,Law,,M,Single-ply,,,,,SBD,DQ
 Tom Hennessy,51,110,Masters,40-999,M,Single-ply,205,160,200,565,SBD,2
-John DuMont,54,110,Masters,40-999,M,Single-ply,245,142.5,235,622.5,SBD,1
+John DuMont #1,54,110,Masters,40-999,M,Single-ply,245,142.5,235,622.5,SBD,1
 Brian Sloat,,110,Natural,,M,Single-ply,,,,,SBD,DQ
 Oscar Orengo,,110,Natural,,M,Single-ply,227.5,145,227.5,600,SBD,1
 Terrence Gauthier,,110,Open,,M,Single-ply,295,190,265,750,SBD,1
@@ -174,7 +174,7 @@ Dave Dreyer,47,125,Masters,40-999,M,Single-ply,275,160,250,685,SBD,1
 Steve Denison,,125,Open,,M,Single-ply,307.5,217.5,307.5,832.5,SBD,1
 Mel Smith #2,45,125,Masters,40-999,M,Raw,205,150,205,560,SBD,1
 Lewis Thomason,65,125,Masters,40-999,M,Raw,160,137.5,195,492.5,SBD,2
-D. Parsons,,125,Submasters,35-39,M,Raw,,,,,SBD,DQ
+Doug Parsons,,125,Submasters,35-39,M,Raw,,,,,SBD,DQ
 John Ford #1,41,145,Masters,40-999,M,Single-ply,287.5,162.7,275,725.2,SBD,1
 D. Lamar,51,145,Masters,40-999,M,Single-ply,200,145,,345,SB,2
 Armanci Irizary,,145,Open,,M,Single-ply,340,250,250,840,SBD,1

@@ -53,7 +53,7 @@ Open,Kulkarni Deepali,F,India,1979,90,87.55,140,150,155,155,60,65,-70,65,140,147
 Open,Yuliya Stesenko,F,Uzbekistan,1984,90+,90.2,150,165,,165,80,-110,110,110,150,165,,165,440,SBD,Single-ply,1
 Sub-Juniors,Chun-Lin Wang,M,Taiwan,1990,52,51.45,165,172.5,188.5,188.5,90,100,-106,100,170,-185,195,195,483.5,SBD,Single-ply,1
 Sub-Juniors,Artur Kazaryan,M,Uzbekistan,1990,52,51.3,130,-135,-135,130,55,62.5,70,70,130,142.5,-150,142.5,342.5,SBD,Single-ply,2
-Sub-Juniors,Yuriy Antonov,M,Uzbekistan,1991,52,51.75,110,120,125,125,70,77.5,-85,77.5,110,120,-125,120,322.5,SBD,Single-ply,3
+Sub-Juniors,Yuriy Antonov #1,M,Uzbekistan,1991,52,51.75,110,120,125,125,70,77.5,-85,77.5,110,120,-125,120,322.5,SBD,Single-ply,3
 Sub-Juniors,Zafar Ahmedov,M,Uzbekistan,1990,56,55.8,165,180,185,185,102.5,110,-115,110,155,167.5,-172.5,167.5,462.5,SBD,Single-ply,1
 Sub-Juniors,Chao-Sheng Yang,M,Taiwan,1991,56,55.85,145,157.5,-165,157.5,95,100,102.5,102.5,185,-205,-205,185,445,SBD,Single-ply,2
 Sub-Juniors,Darkhan Mukhametzhanov,M,Kazakhstan,1990,56,55.4,-160,-160,-160,,90,95,-97.5,95,165,175,,175,,SBD,Single-ply,DQ
@@ -61,7 +61,7 @@ Juniors,Bayrammurad Amanmuradov,M,Turkmenistan,1985,56,55.85,160,175,185,185,120
 Juniors,Vashudv Sarswat,M,India,1986,56,56,130,140,145,145,80,90,95,95,165,185,-192.5,185,425,SBD,Single-ply,2
 Juniors,Jamal Nasser Turki,M,Oman,1990,56,55.85,170,-180,180,180,50,60,,60,-160,160,-185,160,400,SBD,Single-ply,3
 Juniors,Umid Eshtaylakov,M,Uzbekistan,1987,56,53.7,110,130,-145,130,75,85,-95,85,120,135,145,145,360,SBD,Single-ply,4
-Masters 2,Taguibao Antonio,M,Philippines,1958,56,55.3,175,,,175,82.5,,,82.5,100,172.5,,172.5,430,SBD,Single-ply,1
+Masters 2,Antonio Taguibao,M,Philippines,1958,56,55.3,175,,,175,82.5,,,82.5,100,172.5,,172.5,430,SBD,Single-ply,1
 Masters 3,Viktor Ronzhin,M,Kazakhstan,1947,56,55.2,90,110,-117.5,110,60,67.5,-72.5,67.5,-100,100,120,120,297.5,SBD,Single-ply,1
 Masters 3,Mazdestan M. Ebrhim,M,Uzbekistan,1946,56,53.75,55,70,80,80,45,55,57.5,57.5,80,100,102.5,102.5,240,SBD,Single-ply,2
 Open,Tan Paul,M,Philippines,1983,56,55.45,-160,160,170,170,130,135,142.5,142.5,185,192.5,205,205,517.5,SBD,Single-ply,1
@@ -184,7 +184,7 @@ Juniors,Darvishpoor Faragheh Alireza,M,Iran,1985,100,97.35,290,300,310,310,150,1
 Juniors,Ervin Gafarov,M,Uzbekistan,1989,100,90.05,200,-220,220,220,130,142.5,-145,142.5,200,210,-212.5,210,572.5,SBD,Single-ply,4
 Juniors,Arun,M,India,1988,100,95,-160,160,165,165,90,-92.5,92.5,92.5,140,150,160,160,417.5,SBD,Single-ply,5
 Juniors,Andin Denis,M,Kyrgyzstan,1987,100,98.95,-275,-275,-280,,-160,-215,-215,,270,-292.5,,270,,SBD,Single-ply,DQ
-Juniors,Alexander Kim,M,Kazakhstan,1985,100,98.9,255,272.5,280,280,-130,130,-145,130,-265,-265,-265,,,SBD,Single-ply,DQ
+Juniors,Alexander Kim #4,M,Kazakhstan,1985,100,98.9,255,272.5,280,280,-130,130,-145,130,-265,-265,-265,,,SBD,Single-ply,DQ
 Masters 1,Mirshekari Hooshang,M,Iran,1965,100,98.45,80,120,-160,120,70,90,110,110,100,140,170,170,400,SBD,Single-ply,1
 Masters 2,Alexander Luzanov,M,Uzbekistan,1952,100,91.45,200,220,250,250,150,170,180,180,200,240,280,280,710,SBD,Single-ply,1
 Masters 2,Singh Kadyan Puran,M,India,1951,100,93,130,145,155,155,90,102.5,110,110,150,170,-180,170,435,SBD,Single-ply,2
@@ -194,7 +194,7 @@ Open,Edward Torres Peter,M,Philippines,1965,100,98.3,307.5,325,330,330,170,180,-
 Open,Pavel Bryndin,M,Uzbekistan,1981,100,92.95,270,310,325,325,185,200,-212.5,200,270,290,295,295,820,SBD,Single-ply,2
 Open,Golionko Aleksei,M,Kyrgyzstan,1979,100,97.85,310,-330,-340,310,-230,-230,230,230,-265,265,-280,265,805,SBD,Single-ply,3
 Open,Artur Kasparov,M,Turkmenistan,1982,100,95.15,270,290,-300,290,187.5,192.5,-195,192.5,260,270,-297.5,270,752.5,SBD,Single-ply,4
-Open,Alomari Rashed,M,UAE,1970,100,99.55,270,-290,-300,270,210,-235,235,235,220,240,,240,745,SBD,Single-ply,5
+Open,Rashed Al Omari,M,UAE,1970,100,99.55,270,-290,-300,270,210,-235,235,235,220,240,,240,745,SBD,Single-ply,5
 Open,Hamza Primov,M,Uzbekistan,1978,100,97.9,-250,250,280,280,170,190,-210,190,250,270,-292.5,270,740,SBD,Single-ply,6
 Open,Salim Al-Hasni Ahmed,M,Oman,1984,100,99.15,220,240,250,250,125,135,-140,135,220,235,-240,235,620,SBD,Single-ply,7
 Open,Davronzhon Nabiev,M,Tajikistan,,100,95.2,120,,,120,135,142.5,,142.5,125,,,125,387.5,SBD,Single-ply,8

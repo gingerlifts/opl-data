@@ -11,7 +11,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 1,Shannon Dempsey,TX,90,87.5,28,130,65,147.5,342.5,F,Open,Raw,SBD
 1,Lauren Quiroz,TX,90+,97.8,29,152.5,60,160,372.5,F,Open,Raw,SBD
 1,Rosario Maranon,TX,52,51.3,35,77.5,35,105,217.5,F,Submasters 35-39,Raw,SBD
-1,Tricia Garrett,TX,60,59,38,97.5,70,150,317.5,F,Submasters 35-39,Raw,SBD
+1,Tricia Dublin,TX,60,59,38,97.5,70,150,317.5,F,Submasters 35-39,Raw,SBD
 1,Sally Guerrero,TX,75,71.7,35,112.5,62.5,150,325,F,Submasters 35-39,Raw,SBD
 2,Denise Corona,TX,75,71.9,35,127.5,60,132.5,320,F,Submasters 35-39,Raw,SBD
 1,Kristen Brooks,TX,82.5,78.8,35,102.5,47.5,150,300,F,Submasters 35-39,Raw,SBD
@@ -43,15 +43,15 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 3,Stephen Heinmiller,TX,100,98.6,29,240,175,262.5,677.5,M,Open,Raw,SBD
 4,Clay Williams,TX,100,90.8,35,227.5,147.5,250,625,M,Open,Raw,SBD
 5,Elvin Mujcin,TX,100,97.2,29,227.5,137.5,235,600,M,Open,Raw,SBD
-6,Caleb Mcintire,TX,100,96.6,35,190,145,227.5,562.5,M,Open,Raw,SBD
+6,Caleb McIntire,TX,100,96.6,35,190,145,227.5,562.5,M,Open,Raw,SBD
 7,Michael Rich,TX,100,93.1,28,152.5,137.5,190,480,M,Open,Raw,SBD
 1,Kyle Due,TX,110,109,26,295,197.5,337.5,830,M,Open,Raw,SBD
 2,Brandon Daniel,TX,110,108,29,235,145,300,680,M,Open,Raw,SBD
-3,Mark Johnson,TX,110,103.9,23,225,165,245,635,M,Open,Raw,SBD
+3,Mark Johnson #4,TX,110,103.9,23,225,165,245,635,M,Open,Raw,SBD
 1,James Dunbar,TX,125,122.2,32,282.5,172.5,317.5,772.5,M,Open,Raw,SBD
 2,Duane Manyweather,TX,125,120.2,33,285,62.5,330,677.5,M,Open,Raw,SBD
 DQ,Brandon Larsson,TX,125,118.8,26,195,155,,,M,Open,Raw,SBD
-1,William Dixon,TX,140,135.6,36,260,165,317.5,742.5,M,Open,Raw,SBD
+1,William Dixon #1,TX,140,135.6,36,260,165,317.5,742.5,M,Open,Raw,SBD
 1,Garrett Denham,TX,140+,166.2,34,380,220,317.5,917.5,M,Open,Raw,SBD
 2,Nicholas Cangelosi,TX,140+,206,30,272.5,190,267.5,730,M,Open,Raw,SBD
 3,Robert Johnson,TX,140+,163.1,30,252.5,147.5,212.5,612.5,M,Open,Raw,SBD
@@ -75,12 +75,12 @@ DQ,Geramy Alexander,TX,82.5,81.6,28,,182.5,320,,M,Open,Wraps,SBD
 3,Jared Jones,TX,140,139.2,30,300,182.5,272.5,755,M,Open,Wraps,SBD
 1,Dae'Shaun Thomas,TX,140+,195,27,337.5,217.5,267.5,822.5,M,Open,Wraps,SBD
 1,Trinton Golden,TX,110,109.8,33,342.5,272.5,300,915,M,Open,Single-ply,SBD
-1,Matt Parker,TX,110,107.2,41,,213.5,,213.5,M,Open,Raw,B
+1,Matt Parker #1,TX,110,107.2,41,,213.5,,213.5,M,Open,Raw,B
 2,Chance Dean,TX,110,105.1,40,,160,,160,M,Open,Raw,B
 1,Ted Jessup,TX,82.5,82.2,68,,132.5,,132.5,M,Masters 65-69,Raw,B
 1,David Summers,TX,90,88.7,57,,145,,145,M,Masters 55-59,Raw,B
 1,Randy George,TX,100,93.6,58,,175,,175,M,Masters 55-59,Raw,B
-1,Matt Parker,TX,110,107.2,41,,213.5,,213.5,M,Masters 40-44,Raw,B
+1,Matt Parker #1,TX,110,107.2,41,,213.5,,213.5,M,Masters 40-44,Raw,B
 2,Chance Dean,TX,110,105.1,40,,160,,160,M,Masters 40-44,Raw,B
 1,Traci Knickman,TX,82.5,80.8,50,,,165,165,F,Open,Raw,D
 1,Lauren Quiroz,TX,90+,97.8,29,,,160,160,F,Open,Raw,D

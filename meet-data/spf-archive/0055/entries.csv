@@ -36,10 +36,10 @@ Mark Patrick,M,Single-ply,SBD,Masters 45-49,110,GA,226.8,226.8,238.14,691.74,,,1
 Timothy Greene,M,Single-ply,SBD,Masters 50-54,75,GA,174.63,136.08,222.26,532.97,,,1
 Jim Elmore,M,Single-ply,SBD,Masters 60-64,90,TN,149.69,86.18,190.51,426.38,,,1
 Natalie Harrington,F,Multi-ply,SBD,Open,56,OH,206.38,111.13,156.49,474,,,1
-Laura Phelps-Sweatt,F,Multi-ply,SBD,Open,82.5,OH,337.93,226.8,238.14,802.87,,,1
+Laura Phelps-Stackhouse,F,Multi-ply,SBD,Open,82.5,OH,337.93,226.8,238.14,802.87,,,1
 Dana Shealey,F,Multi-ply,SD,Open,100,NJ,165.56,,142.88,308.44,,,1
 Joey Billiot,M,Multi-ply,SBD,Open,82.5,LA,322.05,229.06,240.4,791.51,,,1
-Tony Ramos,M,Multi-ply,SBD,Open,82.5,OH,,,,,,,DQ
+Tony Ramos #1,M,Multi-ply,SBD,Open,82.5,OH,,,,,,,DQ
 Andy Haus,M,Multi-ply,SBD,Open,90,OH,331.12,226.8,276.69,834.61,,,1
 Mike Maxwell,M,Multi-ply,SBD,Open,90,OH,328.85,222.26,258.55,809.66,,,2
 Mike Hill,M,Multi-ply,SBD,Open,100,WV,369.68,235.87,278.96,884.51,,,1
@@ -53,7 +53,7 @@ James Williams #4,M,Multi-ply,SBD,Open,140+,TN,439.98,317.51,285.76,1043.25,,,1
 Ryan Rigdon,M,Multi-ply,SBD,Submasters,125,IN,351.53,303.91,249.48,904.92,,,1
 Ed Clark,M,Multi-ply,SBD,Masters 40-44,110,IL,331.12,206.38,65.77,603.27,,,1
 Chris Young,M,Multi-ply,SBD,Masters 40-44,125,WV,362.87,276.69,312.98,952.54,,,1
-Frank Phillips,M,Multi-ply,SBD,Masters 40-44,125,TN,328.85,238.14,274.42,841.41,,,2
+Frank Phillips #1,M,Multi-ply,SBD,Masters 40-44,125,TN,328.85,238.14,274.42,841.41,,,2
 Bryan Claiborne,M,Multi-ply,SBD,Masters 45-49,125,TN,272.16,181.44,204.12,657.72,,,1
 Riley Burrows,M,Raw,BD,Teenage 13-15,75,AL,,108.86,208.65,317.51,,,1
 Seth Maddoni,M,Raw,BD,Teenage 16-17,110,TN,,99.79,192.78,292.57,,,1
@@ -81,7 +81,7 @@ Dan Martin,M,Raw,B,Open,110,AR,,197.31,,197.31,,,1
 Chris Whitt,M,Raw,B,Open,125,SC,,156.49,,156.49,,,1
 David Shirley,M,Raw,B,Submasters,90,AR,,176.9,,176.9,,,1
 Dedrick Henry,M,Raw,B,Submasters,90,GA,,174.63,,174.63,,,2
-Roy Brown,M,Raw,B,Submasters,110,TX,,183.7,,183.7,,,1
+Roy Brown #1,M,Raw,B,Submasters,110,TX,,183.7,,183.7,,,1
 CJ Potete,M,Raw,B,Submasters,140+,TN,,229.06,,229.06,,,1
 Lee Morris,M,Raw,B,Masters 40-44,90,AL,,181.44,,181.44,,,1
 Lee Morris,M,Raw,B,Masters 40-44,100,AL,,181.44,,181.44,,,1
@@ -97,7 +97,7 @@ Pegi Pepin,F,Single-ply,B,Masters 60-64,67.5,GA,,45.36,,45.36,,,1
 Pat Davidson,F,Single-ply,B,Masters 60-64,90,GA,,45.36,,45.36,,,1
 Brian Albert,M,Single-ply,B,Submasters,67.5,GA,,181.44,,181.44,,,1
 Chris Neal,M,Single-ply,B,Submasters,75,MS,,206.38,,206.38,,,1
-Ken Smith,M,Single-ply,B,Submasters,110,GA,,,,,,,DQ
+Ken Smith #1,M,Single-ply,B,Submasters,110,GA,,,,,,,DQ
 Joey Murphy,M,Single-ply,B,Submasters,118,GA,,,,,,,DQ
 Peter Lindstrom,M,Single-ply,B,Masters 40-44,100,GA,,124.74,,124.74,,,1
 Allen Zimmerman,M,Single-ply,B,Masters 50-54,82.5,IN,,133.81,,133.81,,,1
@@ -110,7 +110,7 @@ Jason Lawson,M,Multi-ply,B,Open,125,TN,,283.5,,283.5,,,1
 Paul Geryman,M,Multi-ply,B,Open,140,IN,,247.21,,247.21,,,1
 Derek Minor,M,Multi-ply,B,Submasters,110,IN,,265.35,,265.35,,,2
 Jason Lason,M,Multi-ply,B,Submasters,110,TN,,283.5,,283.5,,,1
-Joey Smith,M,Multi-ply,B,Submasters,140,NC,,342.46,,342.46,,,1
+Joey Smith #1,M,Multi-ply,B,Submasters,140,NC,,342.46,,342.46,,,1
 Jeff Weaver,M,Multi-ply,B,Masters 40-44,118,TN,,288.03,,288.03,,,1
 Ronnie Holden,M,Multi-ply,B,Masters 45-49,125,TN,,122.47,,122.47,,,1
 Dan Goble,M,Multi-ply,B,Masters 50-54,110,IN,,238.14,,238.14,,,1
@@ -123,7 +123,7 @@ Alex Spilce,M,Raw,D,Juniors,75,TN,,,208.65,208.65,,,1
 David Jacobo,M,Raw,D,Juniors,90,AR,,,244.94,244.94,,,1
 Terry Tucker,M,Raw,D,Open,100,AR,,,306.17,306.17,,310.71,1
 Albert Gavaldon,M,Raw,D,Masters 45-49,110,TN,,,181.44,181.44,,,1
-Ken Smith,M,Single-ply,D,Submasters,110,GA,,,229.06,229.06,,,1
+Ken Smith #1,M,Single-ply,D,Submasters,110,GA,,,229.06,229.06,,,1
 Chris Stinson,M,Single-ply,D,Submasters,140,TN,,,249.48,249.48,,,1
 Dana Shealy,F,Multi-ply,D,Open,100,NJ,,,142.88,142.88,,,1
 Joe Ladnier,M,Multi-ply,D,Open,100,MS,,,319.78,319.78,,,1

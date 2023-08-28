@@ -20,7 +20,7 @@ WeightClassKg,Name,Country,Age,Sex,Division,BodyweightKg,Squat1Kg,Squat2Kg,Squat
 63,Aimee Westwood,UK,25,F,F-O,61.1,95,-100,100,100,,,,,,,,,,,,100,S,Raw,2
 63,Francesca Rickwood,UK,20,F,F-JR,60.4,85,90,-96,90,,,,,,,,,,,,90,S,Raw,1
 70,Emma Robinson,UK,26,F,F-O,66.4,-120,127.5,-132.5,127.5,,,,,,,,,,,,127.5,S,Raw,1
-70,Cheryl Williams,UK,42,F,F-M1,70,100,110,117.5,117.5,,,,,,,,,,,,117.5,S,Raw,1
+70,Cheryl Williams #1,UK,42,F,F-M1,70,100,110,117.5,117.5,,,,,,,,,,,,117.5,S,Raw,1
 70,Kat Court,UK,34,F,F-O,64.1,110,-120,-120,110,,,,,,,,,,,,110,S,Raw,2
 70,Manon Bradley,UK,51,F,F-M3,68.8,95,101,105,105,,,,,,,,,,,,105,S,Raw,1
 70,Grace Howse,UK,17,F,F-T2,63.6,90,-95,95,95,-97.5,,,,,,,,,,,95,S,Raw,2
@@ -29,15 +29,15 @@ WeightClassKg,Name,Country,Age,Sex,Division,BodyweightKg,Squat1Kg,Squat2Kg,Squat
 80,Mary Anderson,UK,50,F,F-M3,77.6,120,130,140,140,-145,,,,,,,,,,,140,S,Raw,2
 80,Amelia Allen,UK,47,F,F-M2,73.6,110,117.5,122.5,122.5,,,,,,,,,,,,122.5,S,Raw,1
 80,Paige Funnell,UK,17,F,F-T2,77.9,110,-120,120,120,-138,,,,,,,,,,,120,S,Raw,1
-80,Alicia Bell,UK,14,F,F-T1,71.9,80,85,90,90,,,,,,,,,,,,90,S,Raw,1
+80,Alicia Bell #1,UK,14,F,F-T1,71.9,80,85,90,90,,,,,,,,,,,,90,S,Raw,1
 80,Ann Williamson,UK,53,F,F-M3,77.4,85,90,-95,90,,,,,,,,,,,,90,S,Raw,1
 90,Stephanie Ann Jones,UK,33,F,F-O,88.3,125,132.5,-140,132.5,,,,,,,,,,,,132.5,S,Raw,1
-90,Megan Robertson,UK,42,F,F-M1,82.8,-105,105,-112.5,105,,,,,,,,,,,,105,S,Raw,1
+90,Megan Robertson #1,UK,42,F,F-M1,82.8,-105,105,-112.5,105,,,,,,,,,,,,105,S,Raw,1
 90+,Ruth Gardner,UK,43,F,F-M1,101.6,130,137.5,-142.5,137.5,,,,,,,,,,,,137.5,S,Raw,1
 60,Ben Hampson,UK,28,M,M-O,59.9,155,165,170,170,172.5,,,,,,,,,,,170,S,Raw,1
 75,Jaimie Evans,UK,23,M,M-JR,69.4,-185,185,190.5,190.5,,,,,,,,,,,,190.5,S,Raw,1
 75,Soman Gurung,UK,25,M,M-O,74.3,170,182.5,-187.5,182.5,,,,,,,,,,,,182.5,S,Raw,1
-75,Jonathan Clarke,UK,26,M,M-O,74.2,167.5,177.5,,177.5,,,,,,,,,,,,177.5,S,Raw,2
+75,Jonathan Clarke #2,UK,26,M,M-O,74.2,167.5,177.5,,177.5,,,,,,,,,,,,177.5,S,Raw,2
 75,Jack Beverley,UK,21,M,M-JR,73,160,170,175,175,,,,,,,,,,,,175,S,Raw,2
 75,Alex Davies #3,UK,29,M,M-O,74.4,175,-185,-185,175,,,,,,,,,,,,175,S,Raw,3
 75,Thomas Meredith,UK,61,M,M-M5,71.2,160,170,-175,170,,,,,,,,,,,,170,S,Raw,1
@@ -49,7 +49,7 @@ WeightClassKg,Name,Country,Age,Sex,Division,BodyweightKg,Squat1Kg,Squat2Kg,Squat
 82.5,Lucas Meachem,UK,26,M,M-O,78.8,175,180,-185,180,,,,,,,,,,,,180,S,Raw,2
 82.5,Stephen Charters,UK,55,M,M-M4,80.1,170,180,-185,180,,,,,,,,,,,,180,S,Raw,2
 82.5,Mark Edwards,UK,57,M,M-M4,81.9,150,-160,-160,150,,,,,,,,,,,,150,S,Raw,1
-90,Mark Jackson,UK,28,M,M-O,87.8,215,230,235,235,,,,,,,,,,,,235,S,Raw,1
+90,Mark Jackson #1,UK,28,M,M-O,87.8,215,230,235,235,,,,,,,,,,,,235,S,Raw,1
 90,Paul Perry,UK,28,M,M-O,87.9,180,187.5,195,195,,,,,,,,,,,,195,S,Raw,2
 90,Lee Hyne,UK,51,M,M-M3,86.5,160,170,182.5,182.5,,,,,,,,,,,,182.5,S,Raw,1
 90,David Hearn,UK,77,M,M-M8,86.8,105,,,105,,,,,,,,,,,,105,S,Raw,1
@@ -78,25 +78,25 @@ WeightClassKg,Name,Country,Age,Sex,Division,BodyweightKg,Squat1Kg,Squat2Kg,Squat
 58.5,Ligia Rodrigues,UK,26,F,F-O,58,,,,,,75,-77.5,-77.5,75,,,,,,,75,B,Raw,2
 58.5,Josephine Drew,UK,21,F,F-JR,58,,,,,,60,63,-65,63,,,,,,,63,B,Raw,1
 58.5,Katie Dent,UK,24,F,F-O,57.1,,,,,,-52.5,52.5,-57.5,52.5,,,,,,,52.5,B,Raw,3
-58.5,Sally Trueman,UK,51,F,F-M3,56.8,,,,,,47.5,-52.5,-52.5,47.5,,,,,,,47.5,B,Raw,1
+58.5,Sally Alberici-Trueman,UK,51,F,F-M3,56.8,,,,,,47.5,-52.5,-52.5,47.5,,,,,,,47.5,B,Raw,1
 58.5,Lauren Ratcliffe,UK,17,F,F-T2,56.5,,,,,,32.5,37.5,40,40,41,,,,,,40,B,Raw,1
 58.5,Freya Hunter,UK,15,F,F-T1,58,,,,,,30,35,-40.5,35,,,,,,,35,B,Raw,1
 63,Sonia Perez,UK,37,F,F-O,61.5,,,,,,60,65,-67.5,65,,,,,,,65,B,Raw,1
 63,Laura Howlett,UK,35,F,F-O,60,,,,,,50,-55,-55,50,,,,,,,50,B,Raw,2
 63,Judith McGauley,UK,70,F,F-M7,60.8,,,,,,32.5,35,37.5,37.5,,,,,,,37.5,B,Raw,1
-70,Kathryn Holley,UK,36,F,F-O,67.9,,,,,,85,90,-91,90,,,,,,,90,B,Raw,1
+70,Kathryn Holley #2,UK,36,F,F-O,67.9,,,,,,85,90,-91,90,,,,,,,90,B,Raw,1
 70,Sheridan Lucas,UK,31,F,F-O,66.4,,,,,,75,80,-85,80,,,,,,,80,B,Raw,2
 70,Manon Bradley,UK,51,F,F-M3,68.8,,,,,,-78,78,80,80,-85,,,,,,80,B,Raw,1
 70,Angela Taylor #1,UK,45,F,F-M2,68.7,,,,,,70,75,-80,75,,,,,,,75,B,Raw,1
 70,Kat Court,UK,34,F,F-O,64.1,,,,,,65,70,-72.5,70,,,,,,,70,B,Raw,3
 70,Grace Howse,UK,17,F,F-T2,63.6,,,,,,62.5,65,67.5,67.5,68,,,,,,67.5,B,Raw,1
-70,Cheryl Williams,UK,42,F,F-M1,70,,,,,,60,62.5,65,65,,,,,,,65,B,Raw,1
+70,Cheryl Williams #1,UK,42,F,F-M1,70,,,,,,60,62.5,65,65,,,,,,,65,B,Raw,1
 70,Elizabeth Merrick,UK,55,F,F-M4,68.8,,,,,,42.5,45,47.5,47.5,,,,,,,47.5,B,Raw,1
 80,Natalie Marsh,UK,22,F,F-JR,78.1,,,,,,90,-95.5,-95.5,90,,,,,,,90,B,Raw,1
 80,Mary Anderson,UK,50,F,F-M3,77.6,,,,,,80,85,-90,85,,,,,,,85,B,Raw,1
 80,Amelia Allen,UK,47,F,F-M2,73.6,,,,,,70,75,77.5,77.5,,,,,,,77.5,B,Raw,1
 80,Paige Funnell,UK,17,F,F-T2,77.9,,,,,,60,65,-67.5,65,,,,,,,65,B,Raw,1
-80,Alicia Bell,UK,14,F,F-T1,71.9,,,,,,45,52.5,-60.5,52.5,,,,,,,52.5,B,Raw,1
+80,Alicia Bell #1,UK,14,F,F-T1,71.9,,,,,,45,52.5,-60.5,52.5,,,,,,,52.5,B,Raw,1
 90,Danielle Ellington,UK,17,F,F-T2,83.6,,,,,,75,-80,80,80,-82.5,,,,,,80,B,Raw,1
 52,Ryan Anderson,UK,19,M,M-T3,50.7,,,,,,70,75,77.5,77.5,-80,,,,,,77.5,B,Raw,1
 60,Mark Anderson,UK,51,M,M-M3,59,,,,,,105,112.5,-115,112.5,,,,,,,112.5,B,Raw,1
@@ -167,7 +167,7 @@ WeightClassKg,Name,Country,Age,Sex,Division,BodyweightKg,Squat1Kg,Squat2Kg,Squat
 55.5,Deborah MacDonald,UK,46,F,F-M2,53.2,,,,,,,,,,,110,120,130,130,,130,D,Raw,1
 55.5,Wendy Evans,UK,50,F,F-M3,55.3,,,,,,,,,,,110,122.5,-130,122.5,,122.5,D,Raw,1
 58.5,Alice Gibbons,UK,27,F,F-O,57,,,,,,,,,,,142.5,150,155,155,,155,D,Raw,1
-58.5,Sally Trueman,UK,51,F,F-M3,56.8,,,,,,,,,,,137.5,142.5,147.5,147.5,,147.5,D,Raw,1
+58.5,Sally Alberici-Trueman,UK,51,F,F-M3,56.8,,,,,,,,,,,137.5,142.5,147.5,147.5,,147.5,D,Raw,1
 58.5,Ligia Rodrigues,UK,26,F,F-O,58,,,,,,,,,,,135,145,-150,145,,145,D,Raw,2
 58.5,Katie Dent,UK,24,F,F-O,57.1,,,,,,,,,,,135,-145,-145,135,,135,D,Raw,3
 58.5,Josephine Drew,UK,21,F,F-JR,58,,,,,,,,,,,125,131,135,135,140,135,D,Raw,1
@@ -182,24 +182,24 @@ WeightClassKg,Name,Country,Age,Sex,Division,BodyweightKg,Squat1Kg,Squat2Kg,Squat
 63,Sara Prestamo-Lopez,UK,29,F,F-O,60.9,,,,,,,,,,,100,110,-115,110,,110,D,Raw,5
 63,Jackie Holmes,UK,49,F,F-M2,59.1,,,,,,,,,,,-100,100,105,105,,105,D,Raw,1
 63,Judith McGauley,UK,70,F,F-M7,60.8,,,,,,,,,,,60,62.5,65,65,,65,D,Raw,1
-70,Hannah Howell,UK,27,F,F-O,68.7,,,,,,,,,,,145,152.5,160,160,166,160,D,Raw,1
+70,Hannah Howell #1,UK,27,F,F-O,68.7,,,,,,,,,,,145,152.5,160,160,166,160,D,Raw,1
 70,Kat Court,UK,34,F,F-O,64.1,,,,,,,,,,,140,145,155,155,,155,D,Raw,2
 70,Sheridan Lucas,UK,31,F,F-O,66.4,,,,,,,,,,,145,150,-155,150,,150,D,Raw,3
 70,Emma Robinson,UK,26,F,F-O,66.4,,,,,,,,,,,130,140,145,145,,145,D,Raw,4
 70,Grace Howse,UK,17,F,F-T2,63.6,,,,,,,,,,,-125,125,130,130,-140.5,130,D,Raw,1
-70,Cheryl Williams,UK,42,F,F-M1,70,,,,,,,,,,,110,120,130,130,,130,D,Raw,1
+70,Cheryl Williams #1,UK,42,F,F-M1,70,,,,,,,,,,,110,120,130,130,,130,D,Raw,1
 70,Angela Taylor #1,UK,45,F,F-M2,68.7,,,,,,,,,,,110,115,-120,115,,115,D,Raw,1
 70,Joanne Hind,UK,45,F,F-M2,66.3,,,,,,,,,,,-100,100,-105,100,,100,D,Raw,2
 70,Amber Matthews,UK,16,F,F-T2,69.2,,,,,,,,,,,100,-107.5,-107.5,100,,100,D,Raw,2
 80,Mary Anderson,UK,50,F,F-M3,77.6,,,,,,,,,,,160,170,-180,170,,170,D,Raw,1
 80,Emma Whiteman,UK,37,F,F-O,76,,,,,,,,,,,142.5,152.5,160,160,,160,D,Raw,1
-80,Paige Funnel,UK,17,F,F-T2,77.9,,,,,,,,,,,140,150,160,160,,160,D,Raw,1
+80,Paige Funnell,UK,17,F,F-T2,77.9,,,,,,,,,,,140,150,160,160,,160,D,Raw,1
 80,Linda Thorne,UK,58,F,F-M4,71.8,,,,,,,,,,,143,147.5,150,150,,150,D,Raw,1
 80,Amelia Allen,UK,47,F,F-M2,73.6,,,,,,,,,,,135,145,-155,145,,145,D,Raw,1
-80,Alicia Bell,UK,14,F,F-T1,71.9,,,,,,,,,,,90,100,-110,100,,100,D,Raw,1
+80,Alicia Bell #1,UK,14,F,F-T1,71.9,,,,,,,,,,,90,100,-110,100,,100,D,Raw,1
 90,Danielle Ellington,UK,17,F,F-T2,83.6,,,,,,,,,,,180,190,203,203,-210,203,D,Raw,1
 90,Stephanie Ann Jones,UK,,F,F-O,,,,,,,,,,,,,,,,,,D,Raw,NS
-90,Megan Robertson,UK,42,F,F-M1,82.8,,,,,,,,,,,120,130,140,140,,140,D,Raw,1
+90,Megan Robertson #1,UK,42,F,F-M1,82.8,,,,,,,,,,,120,130,140,140,,140,D,Raw,1
 90,Catherine West,UK,49,F,F-M2,89.2,,,,,,,,,,,120,122.5,125,125,-133,125,D,Raw,1
 90+,Ruth Gardner,UK,43,F,F-M1,101.6,,,,,,,,,,,150,162.5,170,170,,170,D,Raw,1
 90+,Joanne Buscombe,UK,44,F,F-M1,110.2,,,,,,,,,,,132.5,135,-140,135,,135,D,Raw,2
@@ -207,7 +207,7 @@ WeightClassKg,Name,Country,Age,Sex,Division,BodyweightKg,Squat1Kg,Squat2Kg,Squat
 60,Saul Fielden,UK,16,M,M-T2,59.4,,,,,,,,,,,100,105,107.5,107.5,,107.5,D,Raw,1
 67.5,Patrick Harvey,UK,81,M,M-M9,62.5,,,,,,,,,,,120,125,130,130,135,130,D,Raw,1
 75,Daniel Petrine,UK,18,M,M-T3,73.5,,,,,,,,,,,220,230,235,235,-240.5,235,D,Raw,1
-75,Jonathan Clarke,UK,26,M,M-O,74.2,,,,,,,,,,,205,217.5,227.5,227.5,,227.5,D,Raw,1
+75,Jonathan Clarke #2,UK,26,M,M-O,74.2,,,,,,,,,,,205,217.5,227.5,227.5,,227.5,D,Raw,1
 75,Jaimie Evans,UK,23,M,M-JR,69.4,,,,,,,,,,,210,220,225,225,,225,D,Raw,1
 75,Andy McKenzie,UK,32,M,M-O,71.6,,,,,,,,,,,200,225,-230,225,,225,D,Raw,2
 75,Alex Davies #3,UK,29,M,M-O,74.4,,,,,,,,,,,225,-235,-237.5,225,,225,D,Raw,3
@@ -251,7 +251,7 @@ WeightClassKg,Name,Country,Age,Sex,Division,BodyweightKg,Squat1Kg,Squat2Kg,Squat
 110,Jermaine Major,UK,31,M,M-O,102.7,,,,,,,,,,,235,250,267.5,267.5,,267.5,D,Raw,2
 110,Michael Belvins,UK,37,M,M-O,106.4,,,,,,,,,,,245,255,-265,255,,255,D,Raw,3
 110,Ronald Burden,UK,71,M,M-M7,102.4,,,,,,,,,,,180,210,220,220,,220,D,Raw,1
-125,Mark Williams,UK,28,M,M-O,122.7,,,,,,,,,,,280,300,318,318,,318,D,Raw,1
-125,Jeff Wilkes,UK,37,M,M-O,110.1,,,,,,,,,,,245,-252.5,,245,,245,D,Raw,2
+125,Mark Williams #4,UK,28,M,M-O,122.7,,,,,,,,,,,280,300,318,318,,318,D,Raw,1
+125,Jeff Wilkes #1,UK,37,M,M-O,110.1,,,,,,,,,,,245,-252.5,,245,,245,D,Raw,2
 125,Trevor John Walker,UK,71,M,M-M7,116.2,,,,,,,,,,,180,186,190,190,,190,D,Raw,1
 145,Morgan Evans,UK,18,M,M-T3,137.9,,,,,,,,,,,200,210,-217.5,210,,210,D,Raw,1

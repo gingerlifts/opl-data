@@ -1,5 +1,5 @@
 Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,BirthYear
-1,M,Kyle Coogan,SBD,MR-T3,75,Raw,70,145,107.5,210,462.5,1994
+1,M,Kyle Coogan #2,SBD,MR-T3,75,Raw,70,145,107.5,210,462.5,1994
 2,M,Alexander Sinni,B,MR-T3,75,Raw,67.6,,97.5,,97.5,1995
 1,M,Tom Buckles,SBD,MR-T3,90,Raw,86.4,200,130,250,580,1994
 2,M,Guhan Krishnan,SD,MR-T3,90,Raw,87.2,110,,157.5,267.5,1994
@@ -22,7 +22,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 2,M,Aaron Lamb,SBD,M-O,82.5,Single-ply,76.6,75,125,225,425,1988
 1,M,Rick Kamienski,BD,M-O,90,Single-ply,83,,150,232.5,382.5,
 2,M,Greg Hein,SD,M-O,90,Single-ply,83.8,162.5,,202.5,365,1988
-1,M,Anthony Tran,SBD,MR-O,67.5,Raw,66,145,115,195,455,1987
+1,M,Anthony Tran #4,SBD,MR-O,67.5,Raw,66,145,115,195,455,1987
 1,M,Benjamin Hagstrom,SBD,MR-O,90,Raw,88.4,147.5,122.5,240,510,1988
 1,M,Jason Price,SBD,MR-O,125,Raw,114,157.5,115,210,482.5,1975
 1,M,Frank Juszynski,SBD,MR-M1a,100,Raw,93.2,200,130,230,560,1970

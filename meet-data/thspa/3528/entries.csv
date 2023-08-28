@@ -28,7 +28,7 @@ Boys,67.13,10,Hector Hernadnez,Splendora,64.86,120.2,70.31,140.61,331.12,Single-
 Boys,67.13,11,Matthew Wilburn,Santa Fe,60.96,115.67,72.57,124.74,312.98,Single-ply,SBD,M
 Boys,74.84,1,Julian Wetzel,Huffman Hargrave,72.85,181.44,122.47,197.31,501.22,Single-ply,SBD,M
 Boys,74.84,2,Caleb Evans-Pickens,New Caney Porter,74.3,190.51,111.13,190.51,492.15,Single-ply,SBD,M
-Boys,74.84,3,Andrew Hernandez,Splendora,74.84,181.44,108.86,192.78,483.08,Single-ply,SBD,M
+Boys,74.84,3,Andrew Hernandez #2,Splendora,74.84,181.44,108.86,192.78,483.08,Single-ply,SBD,M
 Boys,74.84,4,Pierre Bynum,Port Arthur Memorial,67.31,174.63,102.06,181.44,458.13,Single-ply,SBD,M
 Boys,74.84,5,Spencer Holleman,New Caney Porter,72.67,183.7,106.59,151.95,442.25,Single-ply,SBD,M
 Boys,74.84,6,Chase Dudley,Santa Fe,68.31,138.35,92.99,165.56,396.89,Single-ply,SBD,M
@@ -36,7 +36,7 @@ Boys,74.84,7,Avery Garza,Santa Fe,69.13,120.2,102.06,165.56,387.82,Single-ply,SB
 Boys,74.84,8,Elijah Wyatt,Shepherd,70.58,140.61,70.31,174.63,385.55,Single-ply,SBD,M
 Boys,74.84,9,Jahron Jones,Conroe Oak Ridge,74.84,136.08,77.11,136.08,349.27,Single-ply,SBD,M
 Boys,82.1,1,Lawrence Vaughn,Port Neches-Groves,76.57,183.7,115.67,201.85,501.22,Single-ply,SBD,M
-Boys,82.1,2,Jacob Smith,Port Neches-Groves,79.38,179.17,140.61,181.44,501.22,Single-ply,SBD,M
+Boys,82.1,2,Jacob Smith #9,Port Neches-Groves,79.38,179.17,140.61,181.44,501.22,Single-ply,SBD,M
 Boys,82.1,3,Zane Obregon,Splendora,79.83,174.63,124.74,199.58,498.95,Single-ply,SBD,M
 Boys,82.1,4,Deryk Villarreal,Huffman Hargrave,81.92,190.51,122.47,183.7,496.68,Single-ply,SBD,M
 Boys,82.1,5,Justin McAlpin,New Caney,82.1,154.22,102.06,176.9,433.18,Single-ply,SBD,M
@@ -77,7 +77,7 @@ Boys,109.77,2,Jordan Thomas #3,Port Arthur Memorial,109.04,215.46,142.88,249.48,
 Boys,109.77,3,Donaven Jackson,Port Arthur Memorial,104.51,233.6,124.74,226.8,585.13,Single-ply,SBD,M
 Boys,109.77,4,Zyhon Bell,New Caney Porter,102.51,229.06,142.88,165.56,537.51,Single-ply,SBD,M
 Boys,109.77,5,Brandon Haltom,Cleveland Tarkington,101.33,192.78,113.4,204.12,510.29,Single-ply,SBD,M
-Boys,109.77,6,Hunter Smith,Trinity,101.6,165.56,99.79,165.56,430.91,Single-ply,SBD,M
+Boys,109.77,6,Hunter Smith #5,Trinity,101.6,165.56,99.79,165.56,430.91,Single-ply,SBD,M
 Boys,109.77,7,Braden e Wright,Crosby,103.42,190.51,97.52,142.88,430.91,Single-ply,SBD,M
 Boys,109.77,8,Logan Lofton,New Caney,107.05,158.76,106.59,142.88,408.23,Single-ply,SBD,M
 Boys,109.77,DQ,Eagan Oliver,Santa Fe,108.14,,,,,Single-ply,SBD,M
@@ -97,12 +97,12 @@ Boys,124.74,12,Roberto Medina,Crosby,117.48,158.76,97.52,174.63,430.91,Single-pl
 Boys,124.74,13,Elis Caceres,Trinity,110.13,151.95,68.04,174.63,394.63,Single-ply,SBD,M
 Boys,124.74,14,Xavier Lopez,New Caney,113.4,151.95,81.65,154.22,387.82,Single-ply,SBD,M
 Boys,124.74,15,Billy McGilberry,Santa Fe,116.39,147.42,83.91,147.42,378.75,Single-ply,SBD,M
-Boys,124.74,16,Colton Smith,Trinity,119.48,111.13,74.84,142.88,328.85,Single-ply,SBD,M
+Boys,124.74,16,Colton Smith #2,Trinity,119.48,111.13,74.84,142.88,328.85,Single-ply,SBD,M
 Boys,124.74,17,Patrick Mulka,Splendora,111.4,142.88,,,142.88,Single-ply,S,M
-Boys,124.74+,1,Zach Taylor,Shepherd,141.16,328.85,165.56,249.48,743.89,Single-ply,SBD,M
+Boys,124.74+,1,Zach Taylor #3,Shepherd,141.16,328.85,165.56,249.48,743.89,Single-ply,SBD,M
 Boys,124.74+,2,Tyler Talavera,New Caney Porter,132.63,244.94,149.69,190.51,585.13,Single-ply,SBD,M
 Boys,124.74+,3,Paula Vaipulu,Channelview,135.9,249.48,124.74,204.12,578.33,Single-ply,SBD,M
-Boys,124.74+,4,Daniel Morris,Crosby,135.53,249.48,127.01,197.31,573.79,Single-ply,SBD,M
+Boys,124.74+,4,Daniel Morris #2,Crosby,135.53,249.48,127.01,197.31,573.79,Single-ply,SBD,M
 Boys,124.74+,5,Dale Martin,Splendora,147.69,215.46,113.4,181.44,510.29,Single-ply,SBD,M
 Boys,124.74+,DQ,Alex O'Dell,Cleveland Tarkington,125.01,226.8,,,,Single-ply,SBD,M
 Boys,,NS,Abraham Reyes,Port Neches-Groves,,,,,,Single-ply,SBD,M

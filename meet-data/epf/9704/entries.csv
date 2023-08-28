@@ -2,13 +2,13 @@ Place,Name,BirthYear,WeightClassKg,BodyweightKg,Country,Squat1Kg,Squat2Kg,Squat3
 1,Nadejda Uvachan,1944,52,51.3,Russia,,,,125,,,,67.5,,,,137.5,330,F,Masters 1,SBD,Single-ply
 1,Toni Hollis,1954,67.5,55.7,UK,,,,160,,,,92.5,,,,157.5,410,F,Masters 1,SBD,Single-ply
 2,Lucienne Daumas,1955,67.5,54.9,France,,,,137.5,,,,80,,,,160,377.5,F,Masters 1,SBD,Single-ply
-3,Mieke Vievies,1953,67.5,55.3,Belgium,,,,142.5,,,,67.5,,,,167.5,377.5,F,Masters 1,SBD,Single-ply
+3,Mieke Vivijs,1953,67.5,55.3,Belgium,,,,142.5,,,,67.5,,,,167.5,377.5,F,Masters 1,SBD,Single-ply
 4,Klothilde Herrmann,1956,67.5,56.1,Germany,,,,140,,,,80,,,,140,360,F,Masters 1,SBD,Single-ply
 5,Anita Thimm,1950,67.5,58.3,Germany,,,,125,,,,72.5,,,,165,362.5,F,Masters 1,SBD,Single-ply
 6,Tatyana Fomina,1946,67.5,63.2,Russia,,,,155,,,,55,,,,150,360,F,Masters 1,SBD,Single-ply
 7,Doreen Dowsett,1951,67.5,62.1,UK,,,,115,,,,52.5,,,,145,312.5,F,Masters 1,SBD,Single-ply
 1,Hildegard Utecht,1946,67.5+,68.3,Germany,,,,140,,,,85,,,,140,365,F,Masters 1,SBD,Single-ply
-2,Inna Smirnova,1956,67.5+,79.7,Russia,,,,140,,,,100,,,,160,400,F,Masters 1,SBD,Single-ply
+2,Inna Smirnova #1,1956,67.5+,79.7,Russia,,,,140,,,,100,,,,160,400,F,Masters 1,SBD,Single-ply
 3,Eva Paulig,1954,67.5+,76.7,Germany,,,,120,,,,100,,,,145,365,F,Masters 1,SBD,Single-ply
 4,Maria Serova,1951,67.5+,79.1,Russia,,,,120,,,,70,,,,125,315,F,Masters 1,SBD,Single-ply
 1,Alexander Yartsev,1954,56,55.4,Russia,170,185,200,200,90,110,115,115,170,190,205,205,520,M,Masters 1,SBD,Single-ply
@@ -20,11 +20,11 @@ Place,Name,BirthYear,WeightClassKg,BodyweightKg,Country,Squat1Kg,Squat2Kg,Squat3
 2,Ronnie Kerr,1955,67.5,66.8,UK,,,,215,,,,122.5,,,,237.5,575,M,Masters 1,SBD,Single-ply
 3,Alain Cuvelier,1953,67.5,67.2,France,,,,205,,,,137.5,,,,205,547.5,M,Masters 1,SBD,Single-ply
 4,Eugeniu Ananjevas,1954,67.5,66,Lithuania,,,,170,,,,102.5,,,,200,472.5,M,Masters 1,SBD,Single-ply
-1,Steve Walker,1956,75,74.7,UK,225,235,-240,235,165,175,180,180,240,255,-260,255,670,M,Masters 1,SBD,Single-ply
+1,Steve Walker #1,1956,75,74.7,UK,225,235,-240,235,165,175,180,180,240,255,-260,255,670,M,Masters 1,SBD,Single-ply
 2,Leonid Lokhov,1948,75,74.5,Russia,-230,230,245,245,135,145,-150,145,265,-280,-280,265,655,M,Masters 1,SBD,Single-ply
 3,Erwin Langenberger,1956,75,75,Germany,-207.5,207.5,-217.5,207.5,132.5,137.5,,137.5,220,232.5,240,240,585,M,Masters 1,SBD,Single-ply
 4,Mukhamed Didanov,1950,75,73.6,Ukraine,160,180,190,190,-110,110,125,125,160,180,,180,495,M,Masters 1,SBD,Single-ply
-DQ,Viktor TsivilJov,1951,75,71.5,Estonia,-160,170,-185,170,-110,-110,,,,,,,,M,Masters 1,SBD,Single-ply
+DQ,Viktor Tsiviljov,1951,75,71.5,Estonia,-160,170,-185,170,-110,-110,,,,,,,,M,Masters 1,SBD,Single-ply
 1,Serg Klimashevsky,1956,82.5,81.8,Russia,,,,267.5,,,,165,,,,240,672.5,M,Masters 1,SBD,Single-ply
 2,Vasily Glinin,1955,82.5,80.6,Russia,,,,250,,,,170,,,,235,655,M,Masters 1,SBD,Single-ply
 3,Johann Mandlmeier,1951,82.5,81.9,Germany,,,,230,,,,180,,,,245,655,M,Masters 1,SBD,Single-ply

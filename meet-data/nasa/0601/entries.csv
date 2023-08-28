@@ -6,7 +6,7 @@ Place,WeightClassKg,Name,State,BodyweightKg,Division,Event,Sex,Equipment,Best3Sq
 1,90,Terry Prati,IA,89.18,smp,BD,M,Single-ply,,172.5,230,402.5
 2,90,Job Hou-Seye,WI,89.9,smp,BD,M,Single-ply,,125,156,281
 1,100,Terry Tucker,AR,94.12,sm2,BD,M,Single-ply,,157.5,295,452.5
-2,100,Richard Baker,IA,99.34,sm2,BD,M,Single-ply,,102.5,227.5,330
+2,100,Richard Baker #1,IA,99.34,sm2,BD,M,Single-ply,,102.5,227.5,330
 1,140,Adrian Wright,IA,134.13,sm1,BD,M,Single-ply,,230,257.5,487.5
 1,125,Marcus Austin,OK,122.61,sm1,BD,M,Single-ply,,182.5,230,412.5
 1,90,Jamie McDougal,AR,84.87,sm,BD,M,Single-ply,,182.5,250,432.5
@@ -22,7 +22,7 @@ Place,WeightClassKg,Name,State,BodyweightKg,Division,Event,Sex,Equipment,Best3Sq
 1,100,Brad Triplett,KS,91.26,p+f,BD,M,Single-ply,,120,222.5,342.5
 2,125,Josh McMillian,AR,119.11,p+f,BD,M,Single-ply,,120,227.5,347.5
 1,82.5,Jayme Smith,AR,78.2,open,BD,M,Single-ply,,155,220,375
-1,125,Patrick Thomas,IA,110.77,open,BD,M,Single-ply,,187.5,275,462.5
+1,125,Patrick Thomas #2,IA,110.77,open,BD,M,Single-ply,,187.5,275,462.5
 1,52,Zachary Clarke,WI,51.39,open,BD,M,Single-ply,,32.5,78.5,111
 DQ,90,Matthew Jarrett,CO,88.36,open,BD,M,Single-ply,,145,-235,
 1,125,Mike Thomason,IA,111.58,nov,BD,M,Single-ply,,165,272.5,437.5
@@ -55,9 +55,9 @@ DQ,90,Matthew Jarrett,CO,88.36,jr,BD,M,Single-ply,,145,-235,
 2,75,Zach Prater,AR,72.89,hs,BD,M,Single-ply,,85,177.5,262.5
 1,56,Cole Anderson,MO,55.88,hs,BD,M,Single-ply,,60,115,175
 1,90,Roman Davidson,KS,86.27,dlteen,D,M,Single-ply,,,155,155
-1,100,Richard Baker,IA,99.34,dlsmp,D,M,Single-ply,,,227.5,227.5
+1,100,Richard Baker #1,IA,99.34,dlsmp,D,M,Single-ply,,,227.5,227.5
 1,110,Rick Storment,AR,105.87,dlsmp,D,M,Single-ply,,,227.5,227.5
-1,100,Richard Baker,IA,99.34,dlsm2,D,M,Single-ply,,,227.5,227.5
+1,100,Richard Baker #1,IA,99.34,dlsm2,D,M,Single-ply,,,227.5,227.5
 1,90,Peter Hollinger,VA,87.59,dlmp,D,M,Single-ply,,,227.5,227.5
 1,140,Jack Gossard,KS,136.53,dlmp,D,M,Single-ply,,,195,195
 1,67.5,George McGuire,OK,66.9,dlm3,D,M,Single-ply,,,142.5,142.5
@@ -100,7 +100,7 @@ DQ,110,Dave Baize,WY,104.01,bpm1,B,M,Single-ply,,-185,,
 1,52,Heena Patel,CO,51.21,wpure,SBD,F,Single-ply,115,92.5,152.5,360
 1,52,Heena Patel,CO,51.21,wopen,SBD,F,Single-ply,115,92.5,152.5,360
 1,75,Deborah James,TX,72.03,wint,SBD,F,Single-ply,137.5,62.5,145,345
-1,100,Chris Anderson,NM,96.57,teen,SBD,M,Single-ply,270,190,265,725
+1,100,Chris Anderson #6,NM,96.57,teen,SBD,M,Single-ply,270,190,265,725
 1,90,Austin McKay,OK,83.82,teen,SBD,M,Single-ply,205,120,202.5,527.5
 1,125,Donnie Hamblin,AZ,110.22,sm2,SBD,M,Single-ply,227.5,190,235,652.5
 1,140+,Jason Freeman,OK,165.33,sm1,SBD,M,Single-ply,255,250,255,760
@@ -114,7 +114,7 @@ DQ,140+,Robin James,TX,148.23,p+f,SBD,M,Single-ply,,,,
 1,52,Dustin Chichon,OK,51.03,open,SBD,M,Single-ply,172.5,137.5,110,420
 2,52,Zachary Clarke,WI,51.39,open,SBD,M,Single-ply,32.5,32.5,78.5,143.5
 DQ,125,Justin Ransbottom,OK,121.25,open,SBD,M,Single-ply,-342.5,,,
-1,100,David Brown,NE,98.34,mp,SBD,M,Single-ply,255,162.5,220,637.5
+1,100,David Brown #18,NE,98.34,mp,SBD,M,Single-ply,255,162.5,220,637.5
 1,125,James Hodges,AR,114.67,m3,SBD,M,Single-ply,257.5,145,342.5,745
 1,56,Robert Pope,SC,53.98,m3,SBD,M,Single-ply,105,67.5,125,297.5
 1,110,Bill Helmich,NM,103.19,m3,SBD,M,Single-ply,60,60,275,395

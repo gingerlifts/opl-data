@@ -44,7 +44,7 @@ Rita Nagy,F,Open,60,Hungary,1974,58.7,102.5,107.5,-117.5,107.5,107.5,3,B,Single-
 Ute Villwock,F,Open,60,Germany,1967,58.2,100,-105,-107.5,100,100,4,B,Single-ply
 Anne Dörner,F,Open,60,Germany,1980,59.5,100,-105,-105,100,100,5,B,Single-ply
 Colette Pendry,F,Open,60,UK,1968,59.3,82.5,90,97.5,97.5,97.5,6,B,Single-ply
-Jadwiga Radwanska,F,Open,60,Poland,1975,58.8,95,-102.5,-105,95,95,7,B,Single-ply
+Jadwiga Radwańska',F,Open,60,Poland,1975,58.8,95,-102.5,-105,95,95,7,B,Single-ply
 Jana Došlíková,F,Open,60,Czechia,1968,59.5,-85,85,92.5,92.5,92.5,8,B,Single-ply
 Zsanett Palágyi,F,Open,60,Hungary,1983,59.2,77.5,-85,-85,77.5,77.5,9,B,Single-ply
 Yuliya Zhylskaya,F,Open,67.5,Belarus,1978,64.5,135,140,145,145,145,1,B,Single-ply
@@ -78,7 +78,7 @@ Natalya Rumyantseva,F,Open,90,Russia,1970,88.2,155,165,172.5,172.5,172.5,2,B,Sin
 Irina Naskripnyak,F,Open,90,Russia,1969,88.3,145,152.5,-157.5,152.5,152.5,3,B,Single-ply
 Leila Duhem,F,Open,90,France,1963,86.4,130,-137.5,-137.5,130,130,5,B,Single-ply
 Katarina Kardosová,F,Open,90,Slovakia,1973,89.2,125,132.5,-137.5,132.5,132.5,4,B,Single-ply
-Deb Ferrel,F,Open,90+,USA,1964,119.1,-165,165,-175,165,165,1,B,Single-ply
+Deborah Ferrell,F,Open,90+,USA,1964,119.1,-165,165,-175,165,165,1,B,Single-ply
 Svetlana Paltseva,F,Open,90+,Russia,1969,99.3,147.5,155,-165,155,155,2,B,Single-ply
 Ganna Ganenko,F,Open,90+,Ukraine,1975,100.6,-147.5,147.5,-155,147.5,147.5,4,B,Single-ply
 Sandra Lönn,F,Open,90+,Sweden,1974,94.1,-140,140,152.5,152.5,152.5,3,B,Single-ply
@@ -135,7 +135,7 @@ Radim Šrámek,M,Open,82.5,Czechia,1975,81.9,220,230,232.5,232.5,232.5,2,B,Singl
 Tibor Kustán,M,Open,82.5,Hungary,1970,82,-220,227.5,232.5,232.5,232.5,3,B,Single-ply
 Yuji Watanabe,M,Open,82.5,Japan,1980,81.2,-225,225,-230,225,225,4,B,Single-ply
 Genädijs Zubriks,M,Open,82.5,Latvia,1965,82.3,225,-237.5,-237.5,225,225,5,B,Single-ply
-Vladimír Urban,M,Open,82.5,Slovakia,1973,81.3,195,202.5,210,210,210,6,B,Single-ply
+Vladimír Urban #1,M,Open,82.5,Slovakia,1973,81.3,195,202.5,210,210,210,6,B,Single-ply
 Gerhard Grossbeck,M,Open,82.5,Austria,1976,82.3,200,210,-215,210,210,7,B,Single-ply
 Pavel Pavliska,M,Open,82.5,Czechia,1975,81.7,200,-207.5,-207.5,200,200,8,B,Single-ply
 Naoki Ishimoto,M,Open,82.5,Japan,1962,81.8,-200,200,-210,200,200,9,B,Single-ply
@@ -169,7 +169,7 @@ Pardeep Tandon,M,Open,100,India,,96.8,180,195,-200,195,195,11,B,Single-ply
 Sushil Tagra,M,Open,100,India,,93.5,150,157.5,160,160,160,12,B,Single-ply
 Klaus Semskij,M,Open,100,Germany,1965,99.3,-242.5,-245,-255,,,DQ,B,Single-ply
 Sergey Makrushyn,M,Open,110,Ukraine,1975,109.2,260,-270,270,270,270,1,B,Single-ply
-Dave Doan,M,Open,110,USA,1964,108.6,-267.5,-267.5,267.5,267.5,267.5,2,B,Single-ply
+David Doan,M,Open,110,USA,1964,108.6,-267.5,-267.5,267.5,267.5,267.5,2,B,Single-ply
 István Hegedüs,M,Open,110,Hungary,1968,102.9,250,257.5,262.5,262.5,262.5,3,B,Single-ply
 Sebastian Wajncetel,M,Open,110,Poland,1975,108.3,245,252.5,-260,252.5,252.5,4,B,Single-ply
 Mika Haavisto,M,Open,110,Finland,1971,103.6,-250,250,-262.5,250,250,5,B,Single-ply
@@ -187,12 +187,12 @@ Jason Talbot,M,Open,110,UK,1969,107,190,202.5,210,210,210,16,B,Single-ply
 Ivo Vite,M,Open,110,Latvia,1975,105.6,-170,-180,180,180,180,17,B,Single-ply
 Sandeep Gosain,M,Open,110,India,,100.1,100,110,120,120,120,18,B,Single-ply
 John R. Battye,M,Open,110,UK,1964,109.4,-277.5,,,,,DQ,B,Single-ply
-Surinder Singh,M,Open,110,India,,107.3,200,210,217.5,217.5,,DQ,B,Single-ply
-Vladzimir Bardziyan,M,Open,110,Belarus,1966,109.4,272.5,280,290,290,,DQ,B,Single-ply
+Surinder Singh,M,Open,110,India,,107.3,200,210,217.5,217.5,,DD,B,Single-ply
+Vladzimir Bardziyan,M,Open,110,Belarus,1966,109.4,272.5,280,290,290,,DD,B,Single-ply
 László Mészáros,M,Open,125,Hungary,1968,115.1,300,307.5,317.5,317.5,317.5,1,B,Single-ply
 Horace Lane,M,Open,125,USA,1964,124.2,297.5,307.5,-320,307.5,307.5,2,B,Single-ply
 Dariusz Mirowski,M,Open,125,Poland,1977,123.6,295,305,-315,305,305,3,B,Single-ply
-Vladimir Maksimov,M,Open,125,Russia,1966,122.6,280,290,-292.5,290,290,4,B,Single-ply
+Vladimir Maksimov #1,M,Open,125,Russia,1966,122.6,280,290,-292.5,290,290,4,B,Single-ply
 Ove Lehto,M,Open,125,Finland,1972,123.9,275,282.5,290,290,290,5,B,Single-ply
 Scott Lade,M,Open,125,USA,1968,124.7,290,-300,-307.5,290,290,6,B,Single-ply
 Oleg Gusev,M,Open,125,Belarus,1959,124.3,280,287.5,-300,287.5,287.5,7,B,Single-ply

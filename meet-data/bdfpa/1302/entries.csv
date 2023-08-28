@@ -1,19 +1,19 @@
 Place,Equipment,WeightClassKg,Name,Sex,Country,Age,Division,BodyweightKg,Best3SquatKg,Squat4Kg,Best3BenchKg,Bench4Kg,Best3DeadliftKg,TotalKg,Event
 1,Raw,70,Angela Taylor #1,F,England,41,F-MPF,69.9,92.5,,77.5,,117.5,287.5,SBD
-1,Raw,60,Neil Cook,M,England,31,M-MPF,59.6,140,,100,,185,425,SBD
+1,Raw,60,Neil Cook #1,M,England,31,M-MPF,59.6,140,,100,,185,425,SBD
 1,Raw,82.5,Sam Dew,M,Wales,27,M-MPF,81.9,240,,150,,250,640,SBD
 2,Raw,82.5,Reece Meakin,M,England,23,M-MPF,81.3,212.5,,157.5,,257.5,627.5,SBD
 1,Raw,90,Kevin Kavanagh,M,England,43,M-MPF,88.3,185,,130,,220,535,SBD
 1,Raw,125,Jay Hollingsworth,M,England,28,M-MPF,122.5,272.5,,200,,320,792.5,SBD
 1,Single-ply,82.5,Eddie White,M,USA,64,M-MPF,80,182.5,,125,,272.5,580,SBD
 1,Raw,70,Angela Taylor #1,F,England,41,F-M1,69.9,92.5,,77.5,,117.5,287.5,SBD
-1,Raw,60,Neil Cook,M,England,31,M-O,59.6,140,,100,,185,425,SBD
+1,Raw,60,Neil Cook #1,M,England,31,M-O,59.6,140,,100,,185,425,SBD
 1,Raw,82.5,Sam Dew,M,Wales,27,M-O,81.9,240,,150,,250,640,SBD
 2,Raw,82.5,Reece Meakin,M,England,23,M-JR,81.3,212.5,,157.5,,257.5,627.5,SBD
 1,Raw,90,Kevin Kavanagh,M,England,43,M-M1,88.3,185,,130,,220,535,SBD
 1,Raw,125,Jay Hollingsworth,M,England,28,M-O,122.5,272.5,,200,,320,792.5,SBD
 1,Single-ply,82.5,Eddie White,M,USA,64,M-M5,80,182.5,,125,,272.5,580,SBD
-1,Single-ply,63,Stephanie Lagrange,F,France,37,F-O,60.7,135,,100,,137.5,372.5,SBD
+1,Single-ply,63,Stéphanie Lagrange,F,France,37,F-O,60.7,135,,100,,137.5,372.5,SBD
 1,Single-ply,67.5,Paul Rutherford,M,Scotland,43,M-M1,67.2,192.5,,120,,200,512.5,SBD
 2,Single-ply,67.5,Ryan Rutherford,M,Scotland,16,M-T2,66.1,142.5,,82.5,,162.5,387.5,SBD
 3,Single-ply,67.5,Aaron Whoriskey,M,Ireland,28,M-O,63.7,170,,110,,170,450,SBD
@@ -34,7 +34,7 @@ DQ,Single-ply,100,Russel Martin,M,England,31,M-O,95.8,227.5,,,,,,SBD
 2,Single-ply,110,Bogdan Krumov,M,Switzerland,32,M-O,101.1,60,,60,,207.5,327.5,SBD
 1,Single-ply,125,Neil Elliott,M,Scotland,42,M-M1,122.5,280,,240,,302.5,822.5,SBD
 2,Single-ply,125,Leslie Pilling,M,England,58,M-M4,118.8,250,,120,,250,620,SBD
-3,Single-ply,125,Thomas Cuddihy,M,Ireland,43,M-M1,118.5,225,,150,,247.5,622.5,SBD
+3,Single-ply,125,Tomas Cuddihy,M,Ireland,43,M-M1,118.5,225,,150,,247.5,622.5,SBD
 4,Single-ply,125,Francesco Natalizi,M,Italy,34,M-O,123.2,230,,100,,210,540,SBD
 5,Single-ply,125,Paul Wrenn,M,USA,66,M-M6,110.8,182.5,,87.5,,185,455,SBD
 1,Single-ply,145,Adam Sauberlich,M,Scotland,34,M-O,125.1,260,,185,,230,675,SBD
@@ -44,7 +44,7 @@ DQ,Single-ply,145,Maxim Tikhonov,M,Russia,45,M-M2,130.1,340,,,,,,SBD
 1,Raw,53,Bobbie Butters,F,England,18,F-T3,52.3,120,,65,,140,325,SBD
 2,Raw,53,Clare Connolly,F,Ireland,36,F-O,51.9,75,,47.5,,105,227.5,SBD
 3,Raw,53,Cliona McParland,F,Ireland,29,F-O,52.6,70,,40,,110,220,SBD
-1,Raw,55.5,Linh Nguyen,F,Ireland,30,F-O,55.1,115.5,,52.5,,120,287.5,SBD
+1,Raw,55.5,Linh Nguyen #1,F,Ireland,30,F-O,55.1,115.5,,52.5,,120,287.5,SBD
 2,Raw,55.5,Siobhan Hynes #1,F,Ireland,36,F-O,55,80,,55,,105,240,SBD
 3,Raw,55.5,Lesley Laver,F,England,29,F-O,55.4,70,,45,,122.5,237.5,SBD
 1,Raw,58.5,Pelin Baykal,F,England,40,F-M1,58.1,102.5,,62.5,,145,310,SBD
@@ -54,11 +54,11 @@ DQ,Single-ply,145,Maxim Tikhonov,M,Russia,45,M-M2,130.1,340,,,,,,SBD
 5,Raw,58.5,Emer O'Driscoll,F,Ireland,42,F-M1,56.4,75,,50,,107.5,232.5,SBD
 DQ,Raw,58.5,Helen Walter,F,England,67,F-M6,57.6,,,,,,,SBD
 1,Raw,63,Rebecca Penco,F,Ireland,24,F-O,63,110,,60,,147.5,317.5,SBD
-2,Raw,63,Veronique Bourdon,F,France,55,F-M4,62.2,100,,70.5,,140,310,SBD
+2,Raw,63,Véronique Bourdon,F,France,55,F-M4,62.2,100,,70.5,,140,310,SBD
 3,Raw,63,Fionnula McHale,F,Ireland,26,F-O,60.9,100,,57.5,,150,307.5,SBD
 4,Raw,63,Emma Scott,F,Ireland,22,F-JR,60.1,92.5,,50,,135,277.5,SBD
 5,Raw,63,Abigail Cronin,F,Ireland,19,F-T3,61.9,90,,55,,122.5,267.5,SBD
-6,Raw,63,Alexandra Williams,F,England,17,F-T2,59.4,80,,47.5,,115,242.5,SBD
+6,Raw,63,Alex Williams #8,F,England,17,F-T2,59.4,80,,47.5,,115,242.5,SBD
 1,Raw,70,Jo Gaskin,F,Scotland,43,F-M1,66.9,118,,65,,155.5,338.5,SBD
 2,Raw,70,Angela Taylor #1,F,England,41,F-MPF,69.9,92.5,,77.5,,117.5,287.5,SBD
 2,Raw,70,Angela Taylor #1,F,England,41,F-M1,69.9,92.5,,77.5,,117.5,287.5,SBD
@@ -68,8 +68,8 @@ DQ,Raw,58.5,Helen Walter,F,England,67,F-M6,57.6,,,,,,,SBD
 1,Raw,90+,Arlette Bomahou,F,Ireland,36,F-O,103.1,102.5,,62.5,,160,325,SBD
 1,Raw,56,Johnathon Wrenn,M,USA,21,M-JR,52.5,160,,90,,170,420,SBD
 2,Raw,56,Jacob Stagg,M,USA,15,M-T1,54.7,110,,65,,155,330,SBD
-1,Raw,60,Neil Cook,M,England,31,M-MPF,59.6,140,,100,,185,425,SBD
-1,Raw,60,Neil Cook,M,England,31,M-O,59.6,140,,100,,185,425,SBD
+1,Raw,60,Neil Cook #1,M,England,31,M-MPF,59.6,140,,100,,185,425,SBD
+1,Raw,60,Neil Cook #1,M,England,31,M-O,59.6,140,,100,,185,425,SBD
 2,Raw,60,Ted Brown,M,England,83,M-M9,58.7,90,,78,,130,297.5,SBD
 1,Raw,67.5,David Gray,M,England,49,M-M2,66.1,196,,137.5,,250,583.5,SBD
 2,Raw,67.5,Kris Boyce,M,UK,29,M-O,65.4,170,,122.5,,215,507.5,SBD
@@ -98,7 +98,7 @@ DQ,Raw,58.5,Helen Walter,F,England,67,F-M6,57.6,,,,,,,SBD
 2,Raw,82.5,Rory Girvan,M,UK,28,M-O,79.4,225,,140,,265,630,SBD
 3,Raw,82.5,Reece Meakin,M,England,23,M-MPF,81.3,212.5,,157.5,,257.5,627.5,SBD
 3,Raw,82.5,Reece Meakin,M,England,23,M-JR,81.3,212.5,,157.5,,257.5,627.5,SBD
-4,Raw,82.5,John Ryan,M,Ireland,40,M-M1,82.3,230,237.5,130,,260,620,SBD
+4,Raw,82.5,John Ryan #4,M,Ireland,40,M-M1,82.3,230,237.5,130,,260,620,SBD
 5,Raw,82.5,Barry Pigott,M,Ireland,21,M-JR,81.5,202.5,,155,,250,607.5,SBD
 6,Raw,82.5,David Crombie,M,Scotland,41,M-M1,80.9,202.5,,145,,250,597.5,SBD
 7,Raw,82.5,Dario Dorizzi,M,Switzerland,22,M-JR,80.5,195,,137.5,,245,577.5,SBD
@@ -132,7 +132,7 @@ DQ,Raw,90,Cillian Hurley,M,Ireland,27,M-O,89.7,,,,,,,SBD
 1,Raw,100,Ramon Gysin,M,Switzerland,30,M-O,99.1,273.5,,160,,270,703.5,SBD
 2,Raw,100,Matthew Gibson,M,England,24,M-O,97.6,252.5,,165,,262.5,680,SBD
 3,Raw,100,Aaron Donaghy,M,Ireland,31,M-O,98.4,210,,167.5,,272.5,650,SBD
-4,Raw,100,Thomas McGovern,M,Scotland,28,M-O,98.3,225,,135,,272.5,632.5,SBD
+4,Raw,100,Thomas McGovern #2,M,Scotland,28,M-O,98.3,225,,135,,272.5,632.5,SBD
 5,Raw,100,Ed Baker,M,England,31,M-O,97.2,207.5,,120,,250,577.5,SBD
 6,Raw,100,Serge Bustreel,M,France,67,M-M6,93.4,195,,120,,245,560,SBD
 7,Raw,100,Phil Jones,M,England,45,M-M2,98.9,195,,120,,225,540,SBD
@@ -162,7 +162,7 @@ DQ,Raw,100,Bogdan Krumov,M,Switzerland,32,M-O,99.2,175,,,,,,SBD
 2,Raw,125,Jay Hollingsworth,M,England,28,M-O,122.5,272.5,,200,,320,792.5,SBD
 3,Raw,125,James Hickey,M,Ireland,39,M-O,117.3,260,,190,,335,785,SBD
 4,Raw,125,Tom Faherty,M,Ireland,33,M-O,124.2,250,,152.5,,300,702.5,SBD
-5,Raw,125,Thomas Cuddihy,M,Ireland,43,M-M1,119.3,230,,150,,250,630,SBD
+5,Raw,125,Tomas Cuddihy,M,Ireland,43,M-M1,119.3,230,,150,,250,630,SBD
 6,Raw,125,Craig Cameron,M,Scotland,31,M-O,119.5,232.5,,130,,250,612.5,SBD
 7,Raw,125,Leslie Pilling,M,England,58,M-M4,117.5,241.5,,120,,240,601.5,SBD
 8,Raw,125,Eoin O'Leary,M,Ireland,21,M-JR,119.5,195,,127.5,,240,562.5,SBD

@@ -18,7 +18,7 @@ Place,Name,CyrillicName,Sex,BodyweightKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Bes
 1,Nikolay Efanov,Николай Ефанов,M,82.3,182.5,-202.5,-202.5,182.5,,182.5,82.5,D,Raw,Yes,,,,,,,,,,,Masters 55-59,57
 1,Aleksandr Kyubbar,Александр Кюббар,M,88.8,190,-200,,190,,190,90,D,Raw,Yes,,,,,,,,,,,Masters 55-59,55
 1,Sergey Litvinenko,Сергей Литвиненко,M,95.3,150,180,,180,,180,100,D,Raw,Yes,,,,,,,,,,,Open,35
-1,Yulia Medvedeva,Юлия Медведева,F,75,205,-220,-220,205,,205,75,D,Raw,No,,,,,,,,,,,Open,36
+1,Yuliya Medvedeva #1,Юлия Медведева,F,75,205,-220,-220,205,,205,75,D,Raw,No,,,,,,,,,,,Open,36
 1,Repin Dmitriy,Репин Дмитрий,M,65.6,140,150,155,155,,155,67.5,D,Raw,No,,,,,,,,,,,Teen 16-17,17
 1,Anton Biryukov,Антон Бирюков,M,89.6,315,325,330,330,,330,90,D,Raw,No,,,,,,,,,,,Open,23
 1,Evgeniy Shadrov,Евгений Шадров,M,109,300,-322.5,322.5,322.5,,322.5,110,D,Raw,No,,,,,,,,,,,Juniors 20-23,22
@@ -26,7 +26,7 @@ Place,Name,CyrillicName,Sex,BodyweightKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Bes
 1,Vitaliy Chulkov,Виталий Чулков,M,121,310,-330,-330,310,,310,125,D,Raw,No,,,,,,,,,,,Juniors 20-23,21
 1,Sergey Semakin,Сергей Семакин,M,117,300,330,-360,330,,330,125,D,Raw,No,,,,,,,,,,,Open,37
 1,Evgeniya Chistik,Евгения Чистик,F,43.8,,,,,,67.5,44,B,Single-ply,Yes,60,-67.5,67.5,67.5,-70,,,,,,Open,30
-1,Artem Bykhovets,Артём Быховец,M,82,,,,,,215,82.5,B,Single-ply,Yes,205,215,-225,215,,,,,,,Open,32
+1,Artem Bykhovets,Артем Быховец,M,82,,,,,,215,82.5,B,Single-ply,Yes,205,215,-225,215,,,,,,,Open,32
 1,Artem Lukyanov,Артем Лукьянов,M,90,,,,,,180,90,B,Single-ply,Yes,-175,180,-200,180,,,,,,,Open,32
 1,Viktor Shmatkov,Виктор Шматков,M,79.7,,,,,,155,82.5,B,Single-ply,No,-155,155,-162.5,155,,,,,,,Open,32
 1,Ivan Kokorin,Иван Кокорин,M,100,,,,,,200,100,B,Single-ply,No,200,-210,-210,200,,,,,,,Open,36
@@ -47,7 +47,7 @@ DD,Ilya Borovitskiy,Илья Боровицкий,M,66.7,,,,,,,67.5,B,Raw,Yes,75
 1,Sergey Khabibullin,Сергей Хабибуллин,M,74.5,,,,,,150,75,B,Raw,Yes,147.5,150,-152.5,150,,,,,,,Open,30
 2,Anton Voronin,Антон Воронин,M,72.6,,,,,,110,75,B,Raw,Yes,110,-115,-115,110,,,,,,,Open,31
 3,Pavel Elpashev,Павел Елпашев,M,72.6,,,,,,105,75,B,Raw,Yes,95,100,105,105,,,,,,,Open,28
-1,Nikita Smirnov,Никита Смирнов,M,79.1,,,,,,140,82.5,B,Raw,Yes,130,140,-145,140,,,,,,,Teen 18-19,19
+1,Nikita Smirnov #1,Никита Смирнов,M,79.1,,,,,,140,82.5,B,Raw,Yes,130,140,-145,140,,,,,,,Teen 18-19,19
 1,Semyon Golovachuk,Семён Головачук,M,81.5,,,,,,160,82.5,B,Raw,Yes,152.5,160,-167.5,160,,,,,,,Juniors 20-23,23
 2,Fedor Matsura,Федор Мацура,M,81.3,,,,,,120,82.5,B,Raw,Yes,120,-127.5,-127.5,120,,,,,,,Juniors 20-23,20
 3,Vyacheslav Lobanov,Вячеслав Лобанов,M,82.2,,,,,,120,82.5,B,Raw,Yes,110,120,-130,120,,,,,,,Juniors 20-23,22

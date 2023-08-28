@@ -53,7 +53,7 @@ Place,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Weight
 2,Rustam Minas,80.5,95,102.5,150,347.5,83,M,Рустам Мінас,2000,Youth 10-15,SBD,Single-ply
 1,Oleksandr Fedorov,83.3,100,80,115,295,93,M,Олександр Федоров,1999,Youth 10-15,SBD,Single-ply
 2,Dmitro Goliney,86.65,97.5,60,120,277.5,93,M,Дмитро Голіней,2001,Youth 10-15,SBD,Single-ply
-1,Viktor Holinei,102.7,140,105,150,395,105,M,Віктор Голіней,2000,Youth 10-15,SBD,Single-ply
+1,Viktor Golinei,102.7,140,105,150,395,105,M,Віктор Голіней,2000,Youth 10-15,SBD,Single-ply
 2,Bogdan Pogoriliy,95.35,120,95,160,375,105,M,Богдан Погорілий,2000,Youth 10-15,SBD,Single-ply
 3,Oleksandr Katolik,94.8,82.5,45,120,247.5,105,M,Олександр Католик,2001,Youth 10-15,SBD,Single-ply
 1,Vladislav Delik,115.75,202.5,102.5,195,500,120,M,Владислав Делик,1999,Youth 10-15,SBD,Single-ply
@@ -66,7 +66,7 @@ Place,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Weight
 3,Evelina Kushnir,49.45,80,47.5,92.5,220,52,F,Евеліна Кушнір,1997,Teen 16-18,SBD,Single-ply
 1,Oleksandra Meleshko,55.6,90,47.5,110.5,248,57,F,Олександра Мелешко,1996,Teen 16-18,SBD,Single-ply
 2,Zina Demyan,52.1,40,45,70,155,57,F,Зіна Демян,1997,Teen 16-18,SBD,Single-ply
-1,Anastasiya Kravchenko,61.9,130,70,125,325,63,F,Анастасія Кравченко,1998,Teen 16-18,SBD,Single-ply
+1,Anastasiya Kravchenko #1,61.9,130,70,125,325,63,F,Анастасія Кравченко,1998,Teen 16-18,SBD,Single-ply
 2,Liliya Moskalyuk,60.65,55,27.5,65,147.5,63,F,Лілія Москалюк,1996,Teen 16-18,SBD,Single-ply
 1,Dariya Shashkova,68.75,122.5,67.5,130,320,72,F,Дарія Шашкова,1997,Teen 16-18,SBD,Single-ply
 2,Irina Turska,66.7,100,60,115,275,72,F,Ірина Турська,1998,Teen 16-18,SBD,Single-ply
@@ -164,7 +164,7 @@ DQ,Igor Bogachevskyy,83,-245,,,,83,M,Ігор Богачевський,1991,Juni
 4,Pavlo Medvid,90.7,195,155,252.5,602.5,93,M,Павло Медвідь,1995,Juniors,SBD,Single-ply
 5,Dmitro Khaynus,90.85,195,140,197.5,532.5,93,M,Дмитро Хайнус,1993,Juniors,SBD,Single-ply
 1,Denis Skripnik,104,255,150,247.5,652.5,105,M,Денис Скрипник,1993,Juniors,SBD,Single-ply
-2,Igor Ponomarenko,103.25,230,155,240,625,105,M,Игорь Пономаренко,1995,Juniors,SBD,Single-ply
+2,Igor Ponomarenko #2,103.25,230,155,240,625,105,M,Ігор Пономаренко,1995,Juniors,SBD,Single-ply
 3,Oleksiy Povetkin,100.25,210,142.5,200,552.5,105,M,Олексій Повєткін,1993,Juniors,SBD,Single-ply
 4,Mikhaylo Aloev,94.8,177.5,122.5,232.5,532.5,105,M,Михайло Алоєв,1994,Juniors,SBD,Single-ply
 5,Dmitro Babinskiy,98.9,170,120,200,490,105,M,Дмитро Бабинський,1995,Juniors,SBD,Single-ply

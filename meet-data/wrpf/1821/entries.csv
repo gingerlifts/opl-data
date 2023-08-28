@@ -51,7 +51,7 @@ DQ,Andrey Kobashov,75,M,Sub-Juniors 17-19,2001,17,73.1,Russia,-125,-125,-125,,,,
 2,Dmitriy Litovkin,82.5,M,Open,1987,30,81.6,Belarus,200,210,215,,215,135,140,,,140,235,245,-250,,245,600,Yes,SBD,Raw
 1,Furkat Shafiyev,82.5,M,Masters 40-49,1973,44,80.6,Kazakhstan,110,120,130,,130,97.5,-105,-105,,97.5,110,140,150,,150,377.5,Yes,SBD,Raw
 1,Vadim Karpachev,90,M,Teen 14-16,2001,16,89,Russia,150,165,175,,175,100,110,120,,120,170,185,200,,200,495,Yes,SBD,Raw
-1,Ivan Kopytin,90,M,Sub-Juniors 17-19,1999,18,89.3,Ukraine,210,220,-230,,220,135,140,-145,,140,240,262.5,-270,,262.5,622.5,Yes,SBD,Raw
+1,Ivan Kopytin #1,90,M,Sub-Juniors 17-19,1999,18,89.3,Ukraine,210,220,-230,,220,135,140,-145,,140,240,262.5,-270,,262.5,622.5,Yes,SBD,Raw
 2,Ivan Orlov,90,M,Sub-Juniors 17-19,2000,18,86.2,Russia,-167.5,167.5,175,,175,120,127.5,135,,135,180,190,-205,,190,500,Yes,SBD,Raw
 3,Yegor Ogorodnikov,90,M,Sub-Juniors 17-19,1999,18,87.9,Russia,140,150,160,,160,100,107.5,-112.5,,107.5,170,180,190,,190,457.5,Yes,SBD,Raw
 1,Aleksey Sheykin,90,M,Open,1988,30,90,Belarus,240,-250,-250,,240,180,-185,-185,,180,-270,270,-320,,270,690,Yes,SBD,Raw
@@ -223,7 +223,7 @@ DQ,Andrey Nikolayev,100,M,Masters 40-49,1977,41,95.4,Russia,-175,-175,-175,,,,,,
 1,Valentina Kharina,67.5,F,Masters 40-49,1977,40,65,Russia,130,140,150,,150,100,-107.5,107.5,,107.5,135,150,-160,,150,407.5,No,SBD,Wraps
 1,Marina Morozova,75,F,Open,1978,39,74.5,Russia,200,215,-220,,215,100,105,-110,,105,190,200,210,-215,210,530,No,SBD,Wraps
 2,Anastasiya Onishchenko,75,F,Open,1986,31,71.4,Kazakhstan,140,150,-160,,150,70,75,,,75,180,192.5,-200,,192.5,417.5,No,SBD,Wraps
-DQ,Andrey Kim,67.5,M,Open,1986,31,66.1,Kazakhstan,-260,-260,-260,,,,,,,,,,,,,,No,SBD,Wraps
+DQ,Andrey Kim #1,67.5,M,Open,1986,31,66.1,Kazakhstan,-260,-260,-260,,,,,,,,,,,,,,No,SBD,Wraps
 1,Denis Shishkin,75,M,Open,1983,35,74.2,Russia,225,240,-250,,240,155,162.5,-167.5,,162.5,260,280,-295,,280,682.5,No,SBD,Wraps
 2,Makhmadsiddik Khamidzoda,75,M,Open,1990,27,74.3,Tajikistan,190,200,-207.5,,200,160,170,-177.5,,170,190,200,,,200,570,No,SBD,Wraps
 DQ,Dmitry Nasonov,75,M,Open,1992,26,75,Russia,-270,-280,280,,280,140,150,-155,,150,-340,-340,,,,,No,SBD,Wraps
@@ -257,7 +257,7 @@ DQ,Mikhail Prikhodko,90,M,Open,1992,26,88.9,Russia,-210,-225,-225,,,,,,,,,,,,,,N
 1,Andrey Ulashchik,100,M,Open,1983,34,94.3,Belarus,280,-300,-310,,280,185,190,-195,,190,325,335,345,,345,815,No,SBD,Wraps
 2,Aleksey Zinurov,100,M,Open,1988,29,97.6,Russia,280,300,-310,,300,190,200,205,,205,290,300,310,,310,815,No,SBD,Wraps
 3,Vilgem Nakhatakyan,100,M,Open,1992,25,99.4,Russia,250,-270,270,,270,180,190,200,,200,315,330,-340,,330,800,No,SBD,Wraps
-4,Ivan Dmitriyev,100,M,Open,1970,47,98.8,Russia,250,270,280,,280,150,160,165,,165,300,322.5,,,322.5,767.5,No,SBD,Wraps
+4,Ivan Dmitriev,100,M,Open,1970,47,98.8,Russia,250,270,280,,280,150,160,165,,165,300,322.5,,,322.5,767.5,No,SBD,Wraps
 5,Roman Semenov,100,M,Open,1979,38,92.8,Russia,265,275,,,275,195,202.5,207.5,,207.5,250,-265,,,250,732.5,No,SBD,Wraps
 6,David Ikbolov,100,M,Open,1984,33,99.8,Russia,230,240,250,,250,160,-167.5,167.5,,167.5,270,285,300,,300,717.5,No,SBD,Wraps
 7,Ilya Prmanov,100,M,Open,1989,29,97.1,Russia,220,240,260,,260,170,180,185,,185,-240,240,255,,255,700,No,SBD,Wraps
@@ -266,7 +266,7 @@ DQ,Mikhail Prikhodko,90,M,Open,1992,26,88.9,Russia,-210,-225,-225,,,,,,,,,,,,,,N
 DQ,Marat Guketlov,100,M,Open,1990,27,92.2,Russia,-275,-275,-275,,,,,,,,,,,,,,No,SBD,Wraps
 DQ,Artem Nesgovorov,100,M,Open,1990,27,93.7,Russia,-215,-220,-220,,,,,,,,,,,,,,No,SBD,Wraps
 DQ,Nikolay Dikalov,100,M,Open,1990,27,94.3,Russia,200,-210,210,,210,165,-172.5,172.5,,172.5,-247.5,-247.5,-247.5,,,,No,SBD,Wraps
-1,Ivan Dmitriyev,100,M,Masters 40-49,1970,47,98.8,Russia,250,270,280,,280,150,160,165,,165,300,322.5,,,322.5,767.5,No,SBD,Wraps
+1,Ivan Dmitriev,100,M,Masters 40-49,1970,47,98.8,Russia,250,270,280,,280,150,160,165,,165,300,322.5,,,322.5,767.5,No,SBD,Wraps
 2,Andrey Latushkin,100,M,Masters 40-49,1976,41,94.5,Russia,-210,215,225,,225,140,150,-155,,150,-250,250,260,,260,635,No,SBD,Wraps
 1,Nikita Romov,110,M,Sub-Juniors 17-19,2000,17,109.9,Estonia,260,270,282.5,,282.5,-160,165,170,,170,270,280,285,-300,285,737.5,No,SBD,Wraps
 1,Aleksey Nazarchuk,110,M,Juniors 20-23,1994,23,108.6,Ukraine,-285,-285,285,,285,180,195,205,,205,280,295,-310,,295,785,No,SBD,Wraps
@@ -477,7 +477,7 @@ DQ,Emin Abasov,82.5,M,Masters 40-49,1975,42,80.5,Russia,,,,,,-110,-110,-110,,,,,
 1,Yegor Kuznetsov,90,M,Youth,2004,13,88.2,Russia,,,,,,100,105,-110,,105,,,,,,105,Yes,B,Raw
 1,Mukhammad-Ali Mirzoyev,90,M,Sub-Juniors 17-19,1999,18,88.6,Tajikistan,,,,,,160,170,-175,,170,,,,,,170,Yes,B,Raw
 2,Aleksey Khramtsov,90,M,Sub-Juniors 17-19,1998,19,86.8,Russia,,,,,,-135,135,142.5,,142.5,,,,,,142.5,Yes,B,Raw
-3,Ivan Kopytin,90,M,Sub-Juniors 17-19,1999,18,89.3,Ukraine,,,,,,135,140,-145,,140,,,,,,140,Yes,B,Raw
+3,Ivan Kopytin #1,90,M,Sub-Juniors 17-19,1999,18,89.3,Ukraine,,,,,,135,140,-145,,140,,,,,,140,Yes,B,Raw
 1,Ilya Serkin,90,M,Juniors 20-23,1995,22,89.1,Russia,,,,,,160,165,-170,,165,,,,,,165,Yes,B,Raw
 2,Mohammad Norouzi,90,M,Juniors 20-23,1997,20,84.5,Iran,,,,,,140,147.5,-150,,147.5,,,,,,147.5,Yes,B,Raw
 3,Aleksandr Chernomorets,90,M,Juniors 20-23,1996,22,88,Russia,,,,,,135,-140,-140,,135,,,,,,135,Yes,B,Raw
@@ -516,7 +516,7 @@ DQ,Vladimir Sevastyanov,90,M,Open,1986,32,88.3,Russia,,,,,,-145,-152.5,-152.5,,,
 1,Artem Pshonkin,100,M,Juniors 20-23,1996,22,98.8,Russia,,,,,,-145,155,-160,,155,,,,,,155,Yes,B,Raw
 2,Roman Legchayev,100,M,Juniors 20-23,1995,22,96.5,Russia,,,,,,145,-150,152.5,,152.5,,,,,,152.5,Yes,B,Raw
 3,Semen Sorokin,100,M,Juniors 20-23,1997,21,96.3,Russia,,,,,,-145,145,150,,150,,,,,,150,Yes,B,Raw
-1,Dmitriy Ivanov,100,M,Open,1993,24,98,Russia,,,,,,200,-205,-205,,200,,,,,,200,Yes,B,Raw
+1,Dmitriy Ivanov #18,100,M,Open,1993,24,98,Russia,,,,,,200,-205,-205,,200,,,,,,200,Yes,B,Raw
 2,Beglar Gadzhikurbanov,100,M,Open,1981,37,92.3,Russia,,,,,,180,190,-195,,190,,,,,,190,Yes,B,Raw
 3,Sergey Ukhanov,100,M,Open,1974,43,97.6,Russia,,,,,,190,-195,-195,,190,,,,,,190,Yes,B,Raw
 4,Mikhail Zhiganov,100,M,Open,1981,36,93.4,Russia,,,,,,162.5,170,177.5,,177.5,,,,,,177.5,Yes,B,Raw
@@ -543,7 +543,7 @@ DQ,Vladimir Sevastyanov,90,M,Open,1986,32,88.3,Russia,,,,,,-145,-152.5,-152.5,,,
 3,Aleksey Kovalskiy,100,M,Masters 40-49,1975,42,97.8,Russia,,,,,,160,165,-167.5,,165,,,,,,165,Yes,B,Raw
 1,Guseyn Guseynov,100,M,Masters 50-59,1966,52,99.2,Russia,,,,,,160,170,,,170,,,,,,170,Yes,B,Raw
 DQ,Andrey Yezhkov,100,M,Masters 50-59,1967,50,97.7,Russia,,,,,,-130,-135,-135,,,,,,,,,Yes,B,Raw
-1,Valeriy Vasilyev,100,M,Masters 70-79,1947,70,96.1,Russia,,,,,,135,140,142.5,,142.5,,,,,,142.5,Yes,B,Raw
+1,Valeriy Vasilev,100,M,Masters 70-79,1947,70,96.1,Russia,,,,,,135,140,142.5,,142.5,,,,,,142.5,Yes,B,Raw
 1,Vyacheslav Klimovich,110,M,Sub-Juniors 17-19,1998,19,103.4,Russia,,,,,,140,155,-167.5,,155,,,,,,155,Yes,B,Raw
 1,Robert Khudinyan,110,M,Juniors 20-23,1995,23,107.5,Russia,,,,,,185,-200,-200,,185,,,,,,185,Yes,B,Raw
 2,Sergey Ivanov,110,M,Juniors 20-23,1996,21,102.5,Russia,,,,,,175,177.5,180,,180,,,,,,180,Yes,B,Raw
@@ -580,11 +580,11 @@ DQ,Dmitriy Kireyev,110,M,Masters 40-49,1969,48,106.1,Russia,,,,,,-160,-160,-160,
 3,Igor Zaychuk,125,M,Open,1989,28,114.5,Ukraine,,,,,,195,-205,205,,205,,,,,,205,Yes,B,Raw
 4,Nikolay Bauer,125,M,Open,1978,40,114.2,Belarus,,,,,,192.5,202.5,-205,,202.5,,,,,,202.5,Yes,B,Raw
 5,Konstantin Usynin,125,M,Open,1988,29,117.2,Russia,,,,,,185,192.5,-202.5,,192.5,,,,,,192.5,Yes,B,Raw
-6,Dmitriy Gosman,125,M,Open,1993,24,122.3,Ukraine,,,,,,185,-195,-202.5,,185,,,,,,185,Yes,B,Raw
+6,Dmytro Gosman,125,M,Open,1993,24,122.3,Ukraine,,,,,,185,-195,-202.5,,185,,,,,,185,Yes,B,Raw
 7,Konstantin Smirnov,125,M,Open,1989,28,116.5,Russia,,,,,,-170,-177.5,177.5,,177.5,,,,,,177.5,Yes,B,Raw
 1,Nikolay Bauer,125,M,Masters 40-49,1978,40,114.2,Belarus,,,,,,192.5,202.5,-205,,202.5,,,,,,202.5,Yes,B,Raw
 2,Yuriy Gordyakov,125,M,Masters 40-49,1976,42,121.8,Russia,,,,,,-190,190,202.5,,202.5,,,,,,202.5,Yes,B,Raw
-3,Sergey Zakharov,125,M,Masters 40-49,1974,43,121.5,Russia,,,,,,180,190,-197.5,,190,,,,,,190,Yes,B,Raw
+3,Sergey Zakharov #9,125,M,Masters 40-49,1974,43,121.5,Russia,,,,,,180,190,-197.5,,190,,,,,,190,Yes,B,Raw
 1,Aleksey Zherelov,140,M,Open,1990,27,136.5,Russia,,,,,,225,235,-240,,235,,,,,,235,Yes,B,Raw
 2,Grigoriy Barannik,140,M,Open,1990,27,139,Ukraine,,,,,,160,170,-175,,170,,,,,,170,Yes,B,Raw
 DQ,Sergey Svetov,140,M,Open,1990,28,125.7,Russia,,,,,,-170,-180,-180,,,,,,,,,Yes,B,Raw
@@ -606,7 +606,7 @@ DQ,Sergey Svetov,140,M,Open,1990,28,125.7,Russia,,,,,,-170,-180,-180,,,,,,,,,Yes
 DQ,Nikita Voronin,56,M,Teen 14-16,2001,16,54.9,Russia,,,,,,-80,-80,-87.5,,,,,,,,,No,B,Raw
 1,Denis Morozov,67.5,M,Juniors 20-23,1998,20,67.4,Russia,,,,,,122.5,125,127.5,,127.5,,,,,,127.5,No,B,Raw
 2,Igor Yurlov,67.5,M,Juniors 20-23,1996,21,63.9,Russia,,,,,,110,112.5,-115,,112.5,,,,,,112.5,No,B,Raw
-1,Andrey Kim,67.5,M,Open,1986,31,66.1,Kazakhstan,,,,,,150,160,165,,165,,,,,,165,No,B,Raw
+1,Andrey Kim #1,67.5,M,Open,1986,31,66.1,Kazakhstan,,,,,,150,160,165,,165,,,,,,165,No,B,Raw
 2,Nikita Lychanyy,67.5,M,Open,1993,24,66.5,Russia,,,,,,120,127.5,-130,,127.5,,,,,,127.5,No,B,Raw
 1,Sergey Alyapkin,75,M,Juniors 20-23,1995,23,73.7,Russia,,,,,,-140,140,-145,,140,,,,,,140,No,B,Raw
 2,Maksim Skogorev,75,M,Juniors 20-23,1994,23,71.7,Russia,,,,,,105,110,115,,115,,,,,,115,No,B,Raw
@@ -628,7 +628,7 @@ DQ,Nikita Voronin,56,M,Teen 14-16,2001,16,54.9,Russia,,,,,,-80,-80,-87.5,,,,,,,,
 10,Yuriy Aleksandrov,82.5,M,Open,1990,27,80.5,Russia,,,,,,142.5,-155,-155,,142.5,,,,,,142.5,No,B,Raw
 11,Anton Aksyutin,82.5,M,Open,1989,29,80.3,Russia,,,,,,115,125,130,,130,,,,,,130,No,B,Raw
 1,Aleksey Shchetkin,82.5,M,Masters 40-49,1975,42,79.6,Belarus,,,,,,142.5,145,-150,,145,,,,,,145,No,B,Raw
-1,Igor Kovalev,82.5,M,Masters 60-69,1957,61,79.5,Russia,,,,,,132.5,-137.5,-140,,132.5,,,,,,132.5,No,B,Raw
+1,Igor Kovalev #1,82.5,M,Masters 60-69,1957,61,79.5,Russia,,,,,,132.5,-137.5,-140,,132.5,,,,,,132.5,No,B,Raw
 DQ,Ilya Novikov,90,M,Sub-Juniors 17-19,1999,19,90,Russia,,,,,,-170,-170,-170,,,,,,,,,No,B,Raw
 1,Ruslan Klimov,90,M,Juniors 20-23,1997,20,85.5,Russia,,,,,,200,-210.5,-210.5,,200,,,,,,200,No,B,Raw
 2,Andrey Murashkin,90,M,Juniors 20-23,1994,23,90,Russia,,,,,,175,185,-202.5,,185,,,,,,185,No,B,Raw
@@ -680,7 +680,7 @@ DQ,Sergey Slobodenyuk,100,M,Masters 40-49,1970,47,95.8,Russia,,,,,,-190,-195,-19
 2,Valeriy Fedyayev,100,M,Masters 60-69,1951,66,96.5,Russia,,,,,,115,-120,-120,,115,,,,,,115,No,B,Raw
 1,Vitaliy Pinchuk,110,M,Open,1989,28,108.3,Russia,,,,,,250,255,-260,,255,,,,,,255,No,B,Raw
 2,Evgeniy Filatov,110,M,Open,1981,36,107.4,Russia,,,,,,240,250,-255,,250,,,,,,250,No,B,Raw
-3,Aleksey Solovyev,110,M,Open,1990,27,104.1,Russia,,,,,,245,-252.5,-252.5,,245,,,,,,245,No,B,Raw
+3,Aleksey Solovyev #1,110,M,Open,1990,27,104.1,Russia,,,,,,245,-252.5,-252.5,,245,,,,,,245,No,B,Raw
 4,Sergey Lir,110,M,Open,1991,26,108.6,Russia,,,,,,245,-250,-252.5,,245,,,,,,245,No,B,Raw
 5,Valeriy Mukhametdinov,110,M,Open,1990,27,107.9,Russia,,,,,,210,222.5,230,,230,,,,,,230,No,B,Raw
 6,Edgars Ratkiyens,110,M,Open,1987,31,105.6,Latvia,,,,,,210,-217.5,217.5,,217.5,,,,,,217.5,No,B,Raw
@@ -710,7 +710,7 @@ DQ,Vadim Zaytsev,110,M,Masters 40-49,1977,40,107.7,Russia,,,,,,-192.5,-192.5,-19
 2,Gasan Mirzoyev,110,M,Masters 50-59,1964,54,101.1,Russia,,,,,,70,90,,,90,,,,,,90,No,B,Raw
 1,Ivan Zaytsev,125,M,Juniors 20-23,1997,20,123.8,Russia,,,,,,205,-210,210,,210,,,,,,210,No,B,Raw
 2,Yevgeniy Zuykov,125,M,Juniors 20-23,1994,23,122.4,Russia,,,,,,190,-195,-195,,190,,,,,,190,No,B,Raw
-DQ,Danil Lebedev,125,M,Juniors 20-23,1997,20,117.3,Russia,,,,,,-175,-185,-185,,,,,,,,,No,B,Raw
+DQ,Danil Lebedev #1,125,M,Juniors 20-23,1997,20,117.3,Russia,,,,,,-175,-185,-185,,,,,,,,,No,B,Raw
 1,Stanislav Bakhtin,125,M,Open,1989,28,116.7,Russia,,,,,,235,245,-255,,245,,,,,,245,No,B,Raw
 2,Oleg Rastorguyev,125,M,Open,1973,44,120.8,Russia,,,,,,215,225,230,,230,,,,,,230,No,B,Raw
 3,Roman Zavrazhin,125,M,Open,1991,27,122.7,Russia,,,,,,220,230,-235,,230,,,,,,230,No,B,Raw
@@ -811,13 +811,13 @@ DQ,Sergey Akatov,75,M,Juniors 20-23,1995,22,73.1,Russia,,,,,,,,,,,-200,-205,-205
 8,Adambek Baymatov,75,M,Open,1986,31,70,Kyrgyzstan,,,,,,,,,,,-120,120,127,,127,127,Yes,D,Raw
 1,Zarch Eghbali,75,M,Masters 40-49,1969,48,74.5,Iran,,,,,,,,,,,-100,100,130,,130,130,Yes,D,Raw
 1,Roman Yasychenko,82.5,M,Sub-Juniors 17-19,1998,19,80.5,Russia,,,,,,,,,,,200,212.5,-222.5,,212.5,212.5,Yes,D,Raw
-DQ,Aleksandr Plotnikov,82.5,M,Sub-Juniors 17-19,1998,19,80.5,Russia,,,,,,,,,,,-170,-170,-170,,,,Yes,D,Raw
+DQ,Aleksandr Plotnikov #1,82.5,M,Sub-Juniors 17-19,1998,19,80.5,Russia,,,,,,,,,,,-170,-170,-170,,,,Yes,D,Raw
 1,Beslan Zakaunov,82.5,M,Juniors 20-23,1997,20,77,Russia,,,,,,,,,,,190,200,220,,220,220,Yes,D,Raw
 2,Sergey Alekseyev,82.5,M,Juniors 20-23,1994,23,80.6,Russia,,,,,,,,,,,205,215,220,,220,220,Yes,D,Raw
 3,Kim Danilov,82.5,M,Juniors 20-23,1995,22,79.4,Russia,,,,,,,,,,,200,-205,-205,,200,200,Yes,D,Raw
 1,Dmitriy Litovkin,82.5,M,Open,1987,30,81.6,Belarus,,,,,,,,,,,235,245,-250,,245,245,Yes,D,Raw
 1,Vadim Karpachev,90,M,Teen 14-16,2001,16,89.1,Russia,,,,,,,,,,,-190,200,205.5,210,205.5,205,Yes,D,Raw
-1,Ivan Kopytin,90,M,Sub-Juniors 17-19,1999,18,89.3,Ukraine,,,,,,,,,,,240,262.5,-270,,262.5,262.5,Yes,D,Raw
+1,Ivan Kopytin #1,90,M,Sub-Juniors 17-19,1999,18,89.3,Ukraine,,,,,,,,,,,240,262.5,-270,,262.5,262.5,Yes,D,Raw
 2,Nikolay Nikitukhin,90,M,Sub-Juniors 17-19,1998,19,90,Russia,,,,,,,,,,,205,220,-230,,220,220,Yes,D,Raw
 1,Petr Kireyev,90,M,Juniors 20-23,1996,22,88.6,Russia,,,,,,,,,,,255,265,-270,,265,265,Yes,D,Raw
 1,Aleksey Boyarintsev,90,M,Open,1989,29,90,Russia,,,,,,,,,,,272.5,-285,285,,285,285,Yes,D,Raw
@@ -837,7 +837,7 @@ DQ,Aleksandr Plotnikov,82.5,M,Sub-Juniors 17-19,1998,19,80.5,Russia,,,,,,,,,,,-1
 3,Ruslan Timurziyev,100,M,Open,1985,32,99.6,Russia,,,,,,,,,,,245,275,-280,,275,275,Yes,D,Raw
 4,Sergey Durandin,100,M,Open,1974,43,98.2,Russia,,,,,,,,,,,250,260,-270,,260,260,Yes,D,Raw
 5,Beglar Gadzhikurbanov,100,M,Open,1981,37,92.3,Russia,,,,,,,,,,,230,250,-267.5,,250,250,Yes,D,Raw
-6,Aleksandr Kuznetsov,100,M,Open,1993,25,97.8,Russia,,,,,,,,,,,210,225,-240,,225,225,Yes,D,Raw
+6,Aleksandr Kuznetsov #15,100,M,Open,1993,25,97.8,Russia,,,,,,,,,,,210,225,-240,,225,225,Yes,D,Raw
 7,Siamak Shojaeevafa,100,M,Open,1990,27,96.4,Iran,,,,,,,,,,,190,210,-240,,210,210,Yes,D,Raw
 8,Iraj Agahiatashgan,100,M,Open,1986,31,99.3,Iran,,,,,,,,,,,-190,190,-210,,190,190,Yes,D,Raw
 9,Mouri Ghaemi,100,M,Open,1993,25,95.8,Iran,,,,,,,,,,,170,180,-200,,180,180,Yes,D,Raw
@@ -868,7 +868,7 @@ DQ,Eduard Marchenko,100,M,Open,1992,26,92.1,Ukraine,,,,,,,,,,,-290,-300,-310,,,,
 1,Liliya Vovk,52,F,Open,1990,28,50.8,Russia,,,,,,,,,,,85,95,100,,100,100,No,D,Raw
 1,Anastasiya Osipova,56,F,Sub-Juniors 17-19,1998,19,55.9,Russia,,,,,,,,,,,-125,125,142.5,,142.5,142.5,No,D,Raw
 1,Mariya Nikitochkina,56,F,Open,1989,28,55.9,Russia,,,,,,,,,,,85,,,,85,85,No,D,Raw
-1,Natalya De-Simon,67.5,F,Open,1990,28,62.4,Russia,,,,,,,,,,,115,125,135,,135,135,No,D,Raw
+1,Natalya De Simon,67.5,F,Open,1990,28,62.4,Russia,,,,,,,,,,,115,125,135,,135,135,No,D,Raw
 1,Natalya Knyazeva,67.5,F,Masters 40-49,1970,47,63.5,Russia,,,,,,,,,,,110,120,130,,130,130,No,D,Raw
 1,Anastasiya Onishchenko,75,F,Open,1986,31,71.4,Kazakhstan,,,,,,,,,,,180,192.5,-200,,192.5,192.5,No,D,Raw
 2,Angelina Karpova,75,F,Open,1997,20,72.8,Russia,,,,,,,,,,,175,-185,-192.5,,175,175,No,D,Raw
@@ -877,7 +877,7 @@ DQ,Eduard Marchenko,100,M,Open,1992,26,92.1,Ukraine,,,,,,,,,,,-290,-300,-310,,,,
 1,Anastasiya Frank,82.5,F,Juniors 20-23,1994,23,80.6,Russia,,,,,,,,,,,140,-150,-155,,140,140,No,D,Raw
 1,Irina Kruglova,90,F,Open,1989,29,86.1,Russia,,,,,,,,,,,140,-150,150,,150,150,No,D,Raw
 1,Aleksey Zernov,60,M,Open,1981,36,59,Russia,,,,,,,,,,,140,150,-155,,150,150,No,D,Raw
-DQ,Igor Kuznetsov,67.5,M,Open,1989,28,66.9,Russia,,,,,,,,,,,-285,-285,-285,,,,No,D,Raw
+DQ,Igor Kuznetsov #1,67.5,M,Open,1989,28,66.9,Russia,,,,,,,,,,,-285,-285,-285,,,,No,D,Raw
 1,Maksim Sukhobok,67.5,M,Masters 50-59,1965,53,66.7,Russia,,,,,,,,,,,215,225,-240,,225,225,No,D,Raw
 1,Denis Shishkin,75,M,Open,1983,35,74.2,Russia,,,,,,,,,,,260,280,-295,,280,280,No,D,Raw
 2,Vladimir Ubeyvolk,75,M,Open,1992,25,68,Russia,,,,,,,,,,,260,-275,-275,,260,260,No,D,Raw
@@ -895,7 +895,7 @@ DQ,Vladimir Nedolugiy,82.5,M,Open,1990,28,82.4,Russia,,,,,,,,,,,-230,-230,-230,,
 2,Maksim Yarlykov,90,M,Open,1984,33,89,Russia,,,,,,,,,,,235,260,-272.5,,260,260,No,D,Raw
 3,Artem Averyanov,90,M,Open,1986,31,88.4,Russia,,,,,,,,,,,-240,240,-280,,240,240,No,D,Raw
 4,Nikolay Gulyayev,90,M,Open,1989,28,88.6,Russia,,,,,,,,,,,215,-225,-225,,215,215,No,D,Raw
-DQ,Ilya Fedorov,90,M,Open,1992,25,89,Russia,,,,,,,,,,,-340,-365,-370,,,,No,D,Raw
+DQ,Ilya Fedorov #3,90,M,Open,1992,25,89,Russia,,,,,,,,,,,-340,-365,-370,,,,No,D,Raw
 1,Vyacheslav Bondarev,90,M,Masters 40-49,1968,49,89.1,Kazakhstan,,,,,,,,,,,230,-245,255,,255,255,No,D,Raw
 1,Konstantin Dremenkov,90,M,Masters 50-59,1966,51,88.2,Belarus,,,,,,,,,,,265,-285,-290,,265,265,No,D,Raw
 1,Pavel Chikov,100,M,Sub-Juniors 17-19,1999,18,100,Russia,,,,,,,,,,,290,305,-310,,305,305,No,D,Raw
@@ -930,8 +930,8 @@ DQ,Anton Zakharov,110,M,Open,1991,26,107.5,Russia,,,,,,,,,,,-252.5,-252.5,-252.5
 4,Aleksandr Puzakov,125,M,Open,1987,30,123.3,Russia,,,,,,,,,,,270,290,-312.5,,290,290,No,D,Raw
 1,Aleksandr Alekseev,140,M,Open,1980,37,127.8,Latvia,,,,,,,,,,,340,370,-380,,370,370,No,D,Raw
 2,Oleg Livshits,140,M,Open,1973,44,135.6,Russia,,,,,,,,,,,350,-365,,,350,350,No,D,Raw
-3,Yevgeniy Ivanov,140,M,Open,1973,44,135,Russia,,,,,,,,,,,-295,295,-305,,295,295,No,D,Raw
-1,Yevgeniy Ivanov,140,M,Masters 40-49,1973,44,135,Russia,,,,,,,,,,,-295,295,-305,,295,295,No,D,Raw
+3,Evgeniy Ivanov #9,140,M,Open,1973,44,135,Russia,,,,,,,,,,,-295,295,-305,,295,295,No,D,Raw
+1,Evgeniy Ivanov #9,140,M,Masters 40-49,1973,44,135,Russia,,,,,,,,,,,-295,295,-305,,295,295,No,D,Raw
 1,Vasiliy Terziyskiy,60,M,Teen 14-16,2002,16,59.5,Russia,160,175,-185,,175,70,80,87.5,,87.5,140,-150,-150,,140,402.5,Yes,SBD,Single-ply
 1,Igor Dvoryaninov,67.5,M,Sub-Juniors 17-19,1999,18,67,Russia,140,150,-160,,150,-90,90,-100,,90,140,160,-175,,160,400,Yes,SBD,Single-ply
 1,Yulian Strochenkov,75,M,Sub-Juniors 17-19,1999,18,73.7,Russia,240,260,-280,,260,-140,140,155,,155,-240,240,-242.5,,240,655,Yes,SBD,Single-ply
@@ -961,69 +961,69 @@ DQ,Denis Kopyttsev,82.5,M,Open,1990,27,77.8,Russia,,,,,,-180,-180,-180,,,,,,,,,Y
 DQ,Eduard Abdyushev,110,M,Masters 60-69,1955,63,108.1,Russia,,,,,,-235,-235,-235,,,,,,,,,Yes,B,Single-ply
 1,Aleksandr Lugovoy,140,M,Juniors 20-23,1995,22,133.5,Russia,,,,,,280,295,305,315,305,,,,,,305,Yes,B,Single-ply
 1,Anatoliy Prodan,125,M,Masters 50-59,1961,56,117.9,Russia,270,285,-300,,285,190,205,-212.5,,205,250,-270,275,,275,765,No,SBD,Multi-ply
-1,Svetlana Maletskaya,67.5,F,Open,1983,34,67.5,Russia,,,,,,120,125,-130.5,,125,,,,,,125,Yes,B,Multi-ply
-2,Elvira Makkhaund,67.5,F,Open,1987,30,64.8,Russia,,,,,,82.5,-90,90,,90,,,,,,90,Yes,B,Multi-ply
-1,Aleksandr Parfenov,75,M,Open,1988,29,74,Russia,,,,,,150,-160,160,,160,,,,,,160,Yes,B,Multi-ply
-DQ,Ridvan Medzhitov,75,M,Open,1989,29,75,Russia,,,,,,-212.5,-212.5,-212.5,,,,,,,,,Yes,B,Multi-ply
-1,Mikhail Lebedev,82.5,M,Juniors 20-23,1996,22,80.6,Russia,,,,,,167.5,-172.5,-172.5,,167.5,,,,,,167.5,Yes,B,Multi-ply
-1,Mustafa Seytnebiyev,82.5,M,Open,1996,21,81.4,Russia,,,,,,-230,230,-235,,230,,,,,,230,Yes,B,Multi-ply
-1,Aleksandr Semenov,82.5,M,Masters 40-49,1977,41,79.9,Russia,,,,,,140,150,160,,160,,,,,,160,Yes,B,Multi-ply
-1,Aleksey Sheykin,90,M,Open,1988,30,90,Belarus,,,,,,240,255,-265,,255,,,,,,255,Yes,B,Multi-ply
-1,Sabeghi Rashid,90,M,Masters 40-49,1973,44,88.9,Iran,,,,,,-190,200,-210,,200,,,,,,200,Yes,B,Multi-ply
-2,Furkat Shafiyev,90,M,Masters 40-49,1973,44,83.3,Kazakhstan,,,,,,120,135,-150,,135,,,,,,135,Yes,B,Multi-ply
-DQ,Vasiliy Leonenko,90,M,Masters 50-59,1967,51,89.5,Russia,,,,,,-200,-200,-200,,,,,,,,,Yes,B,Multi-ply
-1,Andrey Ignatov,100,M,Open,1992,26,99,Russia,,,,,,-290,300,315,,315,,,,,,315,Yes,B,Multi-ply
-2,Oleg Falkovskiy,100,M,Open,1989,29,98.9,Russia,,,,,,-230,230,-240,,230,,,,,,230,Yes,B,Multi-ply
-3,Stanislav Shcheslavskiy,100,M,Open,1981,37,96.4,Russia,,,,,,-200,200,-210,,200,,,,,,200,Yes,B,Multi-ply
-1,Magomedamin Israpilov,110,M,Open,1975,42,108.5,Russia,,,,,,-120,232.5,255,267.5,255,,,,,,255,Yes,B,Multi-ply
-2,Mikhail Yarlykov,110,M,Open,1989,29,101.4,Russia,,,,,,190,-202.5,-212.5,,190,,,,,,190,Yes,B,Multi-ply
-1,Oleg Saydentsal,110,M,Masters 40-49,1975,43,105.3,Russia,,,,,,305,-320,-320,,305,,,,,,305,Yes,B,Multi-ply
-2,Magomedamin Israpilov,110,M,Masters 40-49,1975,42,108.5,Russia,,,,,,-120,232.5,255,267.5,255,,,,,,255,Yes,B,Multi-ply
-1,Igor Kurotchenko,110,M,Masters 50-59,1962,56,109,Russia,,,,,,230,-250,-250,,230,,,,,,230,Yes,B,Multi-ply
-1,Vladimir Cheredin,125,M,Masters 40-49,1971,47,118.4,Belarus,,,,,,250,-277.5,280,,280,,,,,,280,Yes,B,Multi-ply
-1,Roman Marachev,140,M,Open,1978,39,136.5,Russia,,,,,,285,-302.5,-302.5,,285,,,,,,285,Yes,B,Multi-ply
-1,Yelena Prokopova,67.5,F,Open,1966,52,67.2,Russia,,,,,,125,130,-135,,130,,,,,,130,No,B,Multi-ply
-1,Natalya Knyazeva,67.5,F,Masters 40-49,1970,47,63.5,Russia,,,,,,85,92.5,97.5,105,97.5,,,,,,97.5,No,B,Multi-ply
-1,Yelena Prokopova,67.5,F,Masters 50-59,1966,52,67.2,Russia,,,,,,125,130,-135,,130,,,,,,130,No,B,Multi-ply
-2,Nadezhda Talikova,67.5,F,Masters 50-59,1960,58,66.6,Russia,,,,,,95,105,-112.5,,105,,,,,,105,No,B,Multi-ply
-1,Ruslan Rukavishnikov,82.5,M,Juniors 20-23,1994,23,80.8,Russia,,,,,,190,205,,,205,,,,,,205,No,B,Multi-ply
-1,Sergey Kandaurov,82.5,M,Open,1974,43,80.4,Russia,,,,,,215,220,-235,,220,,,,,,220,No,B,Multi-ply
-2,Yegor Filatov,82.5,M,Open,1993,25,80.3,Russia,,,,,,190,-205,205,,205,,,,,,205,No,B,Multi-ply
-1,Sergey Kandaurov,82.5,M,Masters 40-49,1974,43,80.4,Russia,,,,,,215,220,-235,,220,,,,,,220,No,B,Multi-ply
-DQ,Lenur Katayev,90,M,Juniors 20-23,1994,23,88.8,Russia,,,,,,-292.5,-292.5,-292.5,,,,,,,,,No,B,Multi-ply
-1,Ruslan Ilyushin,90,M,Open,1991,27,89.3,Russia,,,,,,272.5,285,-295,,285,,,,,,285,No,B,Multi-ply
-2,Mikhail Smorodin,90,M,Open,1980,37,89,Russia,,,,,,-250,260,275,,275,,,,,,275,No,B,Multi-ply
-3,Pavel Silushin,90,M,Open,1989,28,84.6,Russia,,,,,,260,270,-280,,270,,,,,,270,No,B,Multi-ply
-4,Aleksey Karavayev,90,M,Open,1987,30,89.2,Russia,,,,,,180,-195,195,,195,,,,,,195,No,B,Multi-ply
-5,Yegor Zyabkin,90,M,Open,1980,37,87.2,Russia,,,,,,180,-190,190,,190,,,,,,190,No,B,Multi-ply
-DQ,Lenur Katayev,90,M,Open,1994,23,88.8,Russia,,,,,,-292.5,-292.5,-292.5,,,,,,,,,No,B,Multi-ply
-1,Vladislav Dumchev,100,M,Juniors 20-23,1996,21,94.8,Russia,,,,,,225,235,245,,245,,,,,,245,No,B,Multi-ply
-2,Viktor Garanin,100,M,Juniors 20-23,1994,23,98.5,Russia,,,,,,225,237.5,-247.5,,237.5,,,,,,237.5,No,B,Multi-ply
-1,Sergey Lir,110,M,Open,1991,26,108.6,Russia,,,,,,330,345,352.5,,352.5,,,,,,352.5,No,B,Multi-ply
-2,Evgeniy Filatov,110,M,Open,1981,36,107.4,Russia,,,,,,320,332.5,335,,335,,,,,,335,No,B,Multi-ply
-3,Yevgeniy Kozhemyako,110,M,Open,1986,32,107.4,Russia,,,,,,320,-332.5,332.5,,332.5,,,,,,332.5,No,B,Multi-ply
-4,Oleg Saydentsal,110,M,Open,1975,43,105.3,Russia,,,,,,305,-320,-320,,305,,,,,,305,No,B,Multi-ply
-5,Aleksandr Zhukov,110,M,Open,1983,35,101.7,Russia,,,,,,275,-290,-300,,275,,,,,,275,No,B,Multi-ply
-6,Magomedamin Israpilov,110,M,Open,1975,42,108.5,Russia,,,,,,-120,232.5,255,267.5,255,,,,,,255,No,B,Multi-ply
-DQ,Aleksandr Piskarev,110,M,Open,1985,32,103.5,Russia,,,,,,-300,-300,-320,,,,,,,,,No,B,Multi-ply
-1,Oleg Saydentsal,110,M,Masters 40-49,1975,43,105.3,Russia,,,,,,305,-320,-320,,305,,,,,,305,No,B,Multi-ply
-2,Magomedamin Israpilov,110,M,Masters 40-49,1975,42,108.5,Russia,,,,,,-120,232.5,255,267.5,255,,,,,,255,No,B,Multi-ply
-1,Igor Kurotchenko,110,M,Masters 50-59,1962,56,109,Russia,,,,,,230,-250,-250,,230,,,,,,230,No,B,Multi-ply
-DQ,Yegor Golubkin,125,M,Open,1992,25,116.1,Russia,,,,,,-305,-305,-305,,,,,,,,,No,B,Multi-ply
-1,Sharof Azimov,125,M,Masters 40-49,1972,45,123.8,Russia,,,,,,-280,280,-305,,280,,,,,,280,No,B,Multi-ply
-1,Aleksandr Serichenko,90,M,Open,1989,28,88.2,Russia,,,,,,230,-250,-250,,230,,,,,,230,Yes,B,Multi-ply
-1,Yuriy Kolesnikov,75,M,Open,1981,37,73.5,Russia,,,,,,180,-190,-190,,180,,,,,,180,No,B,Multi-ply
-1,Denis Piklyayev,90,M,Open,1981,36,89.8,Russia,,,,,,300,-310,-310,,300,,,,,,300,No,B,Multi-ply
-1,Vyacheslav Tunkin,100,M,Open,1980,37,99.9,Kazakhstan,,,,,,340,355,370,,370,,,,,,370,No,B,Multi-ply
-DQ,Aleksandr Novinskiy,100,M,Open,1983,34,97.7,Russia,,,,,,-350,-350,-360,,,,,,,,,No,B,Multi-ply
-DQ,Yegor Koykov,110,M,Open,1985,33,102.7,Russia,,,,,,-370,-370,-370,,,,,,,,,No,B,Multi-ply
-1,Nikolay Emelyanov,125,M,Open,1979,38,117.6,Russia,,,,,,350,370,380,,380,,,,,,380,No,B,Multi-ply
-1,Roman Abidzhba,140+,M,Open,1988,30,152,Russia,,,,,,400,412.5,420,-445,420,,,,,,420,No,B,Multi-ply
-1,Mokhammad Safazada,75,M,Sub-Juniors 17-19,1999,19,72.7,Russia,,,,,,170,190,-207.5,,190,,,,,,190,Yes,B,Multi-ply
-1,Artur Plaksin,75,M,Open,1989,28,75,Russia,,,,,,205,215,220,,220,,,,,,220,Yes,B,Multi-ply
-2,Yuriy Pogozhev,75,M,Open,1990,27,70.4,Russia,,,,,,215,-232.5,,,215,,,,,,215,Yes,B,Multi-ply
-1,Sergey Gorbunov,90,M,Open,1991,26,87.7,Russia,,,,,,245,255,-265,,255,,,,,,255,Yes,B,Multi-ply
-1,Anastasiya Ovchinikova,67.5,F,Open,1990,28,64.8,Russia,,,,,,85,90,-95,,90,,,,,,90,No,B,Multi-ply
-1,Anton Doronin,75,M,Open,1991,26,73.6,Russia,,,,,,175,185,190,,190,,,,,,190,No,B,Multi-ply
-1,Valeriy Bezborodov,125,M,Masters 40-49,1976,42,117.5,Russia,,,,,,265,280,-290,,280,,,,,,280,No,B,Multi-ply
-2,Mati Raudsepp,110,M,Masters 40-49,1970,47,103.9,,,,,,,-69,69,-71.5,,69,,,,,,69,No,B,Multi-ply
+1,Svetlana Maletskaya,67.5,F,Open,1983,34,67.5,Russia,,,,,,120,125,-130.5,,125,,,,,,125,Yes,B,Unlimited
+2,Elvira Makkhaund,67.5,F,Open,1987,30,64.8,Russia,,,,,,82.5,-90,90,,90,,,,,,90,Yes,B,Unlimited
+1,Aleksandr Parfenov,75,M,Open,1988,29,74,Russia,,,,,,150,-160,160,,160,,,,,,160,Yes,B,Unlimited
+DQ,Ridvan Medzhitov,75,M,Open,1989,29,75,Russia,,,,,,-212.5,-212.5,-212.5,,,,,,,,,Yes,B,Unlimited
+1,Mikhail Lebedev,82.5,M,Juniors 20-23,1996,22,80.6,Russia,,,,,,167.5,-172.5,-172.5,,167.5,,,,,,167.5,Yes,B,Unlimited
+1,Mustafa Seytnebiyev,82.5,M,Open,1996,21,81.4,Russia,,,,,,-230,230,-235,,230,,,,,,230,Yes,B,Unlimited
+1,Aleksandr Semenov,82.5,M,Masters 40-49,1977,41,79.9,Russia,,,,,,140,150,160,,160,,,,,,160,Yes,B,Unlimited
+1,Aleksey Sheykin,90,M,Open,1988,30,90,Belarus,,,,,,240,255,-265,,255,,,,,,255,Yes,B,Unlimited
+1,Sabeghi Rashid,90,M,Masters 40-49,1973,44,88.9,Iran,,,,,,-190,200,-210,,200,,,,,,200,Yes,B,Unlimited
+2,Furkat Shafiyev,90,M,Masters 40-49,1973,44,83.3,Kazakhstan,,,,,,120,135,-150,,135,,,,,,135,Yes,B,Unlimited
+DQ,Vasiliy Leonenko,90,M,Masters 50-59,1967,51,89.5,Russia,,,,,,-200,-200,-200,,,,,,,,,Yes,B,Unlimited
+1,Andrey Ignatov,100,M,Open,1992,26,99,Russia,,,,,,-290,300,315,,315,,,,,,315,Yes,B,Unlimited
+2,Oleg Falkovskiy,100,M,Open,1989,29,98.9,Russia,,,,,,-230,230,-240,,230,,,,,,230,Yes,B,Unlimited
+3,Stanislav Shcheslavskiy,100,M,Open,1981,37,96.4,Russia,,,,,,-200,200,-210,,200,,,,,,200,Yes,B,Unlimited
+1,Magomedamin Israpilov,110,M,Open,1975,42,108.5,Russia,,,,,,-120,232.5,255,267.5,255,,,,,,255,Yes,B,Unlimited
+2,Mikhail Yarlykov,110,M,Open,1989,29,101.4,Russia,,,,,,190,-202.5,-212.5,,190,,,,,,190,Yes,B,Unlimited
+1,Oleg Saydentsal,110,M,Masters 40-49,1975,43,105.3,Russia,,,,,,305,-320,-320,,305,,,,,,305,Yes,B,Unlimited
+2,Magomedamin Israpilov,110,M,Masters 40-49,1975,42,108.5,Russia,,,,,,-120,232.5,255,267.5,255,,,,,,255,Yes,B,Unlimited
+1,Igor Kurotchenko,110,M,Masters 50-59,1962,56,109,Russia,,,,,,230,-250,-250,,230,,,,,,230,Yes,B,Unlimited
+1,Vladimir Cheredin,125,M,Masters 40-49,1971,47,118.4,Belarus,,,,,,250,-277.5,280,,280,,,,,,280,Yes,B,Unlimited
+1,Roman Marachev,140,M,Open,1978,39,136.5,Russia,,,,,,285,-302.5,-302.5,,285,,,,,,285,Yes,B,Unlimited
+1,Yelena Prokopova,67.5,F,Open,1966,52,67.2,Russia,,,,,,125,130,-135,,130,,,,,,130,No,B,Unlimited
+1,Natalya Knyazeva,67.5,F,Masters 40-49,1970,47,63.5,Russia,,,,,,85,92.5,97.5,105,97.5,,,,,,97.5,No,B,Unlimited
+1,Yelena Prokopova,67.5,F,Masters 50-59,1966,52,67.2,Russia,,,,,,125,130,-135,,130,,,,,,130,No,B,Unlimited
+2,Nadezhda Talikova,67.5,F,Masters 50-59,1960,58,66.6,Russia,,,,,,95,105,-112.5,,105,,,,,,105,No,B,Unlimited
+1,Ruslan Rukavishnikov,82.5,M,Juniors 20-23,1994,23,80.8,Russia,,,,,,190,205,,,205,,,,,,205,No,B,Unlimited
+1,Sergey Kandaurov,82.5,M,Open,1974,43,80.4,Russia,,,,,,215,220,-235,,220,,,,,,220,No,B,Unlimited
+2,Yegor Filatov,82.5,M,Open,1993,25,80.3,Russia,,,,,,190,-205,205,,205,,,,,,205,No,B,Unlimited
+1,Sergey Kandaurov,82.5,M,Masters 40-49,1974,43,80.4,Russia,,,,,,215,220,-235,,220,,,,,,220,No,B,Unlimited
+DQ,Lenur Katayev,90,M,Juniors 20-23,1994,23,88.8,Russia,,,,,,-292.5,-292.5,-292.5,,,,,,,,,No,B,Unlimited
+1,Ruslan Ilyushin,90,M,Open,1991,27,89.3,Russia,,,,,,272.5,285,-295,,285,,,,,,285,No,B,Unlimited
+2,Mikhail Smorodin,90,M,Open,1980,37,89,Russia,,,,,,-250,260,275,,275,,,,,,275,No,B,Unlimited
+3,Pavel Silushin,90,M,Open,1989,28,84.6,Russia,,,,,,260,270,-280,,270,,,,,,270,No,B,Unlimited
+4,Aleksey Karavayev,90,M,Open,1987,30,89.2,Russia,,,,,,180,-195,195,,195,,,,,,195,No,B,Unlimited
+5,Yegor Zyabkin,90,M,Open,1980,37,87.2,Russia,,,,,,180,-190,190,,190,,,,,,190,No,B,Unlimited
+DQ,Lenur Katayev,90,M,Open,1994,23,88.8,Russia,,,,,,-292.5,-292.5,-292.5,,,,,,,,,No,B,Unlimited
+1,Vladislav Dumchev,100,M,Juniors 20-23,1996,21,94.8,Russia,,,,,,225,235,245,,245,,,,,,245,No,B,Unlimited
+2,Viktor Garanin,100,M,Juniors 20-23,1994,23,98.5,Russia,,,,,,225,237.5,-247.5,,237.5,,,,,,237.5,No,B,Unlimited
+1,Sergey Lir,110,M,Open,1991,26,108.6,Russia,,,,,,330,345,352.5,,352.5,,,,,,352.5,No,B,Unlimited
+2,Evgeniy Filatov,110,M,Open,1981,36,107.4,Russia,,,,,,320,332.5,335,,335,,,,,,335,No,B,Unlimited
+3,Yevgeniy Kozhemyako,110,M,Open,1986,32,107.4,Russia,,,,,,320,-332.5,332.5,,332.5,,,,,,332.5,No,B,Unlimited
+4,Oleg Saydentsal,110,M,Open,1975,43,105.3,Russia,,,,,,305,-320,-320,,305,,,,,,305,No,B,Unlimited
+5,Aleksandr Zhukov,110,M,Open,1983,35,101.7,Russia,,,,,,275,-290,-300,,275,,,,,,275,No,B,Unlimited
+6,Magomedamin Israpilov,110,M,Open,1975,42,108.5,Russia,,,,,,-120,232.5,255,267.5,255,,,,,,255,No,B,Unlimited
+DQ,Aleksandr Piskarev,110,M,Open,1985,32,103.5,Russia,,,,,,-300,-300,-320,,,,,,,,,No,B,Unlimited
+1,Oleg Saydentsal,110,M,Masters 40-49,1975,43,105.3,Russia,,,,,,305,-320,-320,,305,,,,,,305,No,B,Unlimited
+2,Magomedamin Israpilov,110,M,Masters 40-49,1975,42,108.5,Russia,,,,,,-120,232.5,255,267.5,255,,,,,,255,No,B,Unlimited
+1,Igor Kurotchenko,110,M,Masters 50-59,1962,56,109,Russia,,,,,,230,-250,-250,,230,,,,,,230,No,B,Unlimited
+DQ,Yegor Golubkin,125,M,Open,1992,25,116.1,Russia,,,,,,-305,-305,-305,,,,,,,,,No,B,Unlimited
+1,Sharof Azimov,125,M,Masters 40-49,1972,45,123.8,Russia,,,,,,-280,280,-305,,280,,,,,,280,No,B,Unlimited
+1,Aleksandr Serichenko,90,M,Open,1989,28,88.2,Russia,,,,,,230,-250,-250,,230,,,,,,230,Yes,B,Unlimited
+1,Yuriy Kolesnikov #1,75,M,Open,1981,37,73.5,Russia,,,,,,180,-190,-190,,180,,,,,,180,No,B,Unlimited
+1,Denis Piklyayev,90,M,Open,1981,36,89.8,Russia,,,,,,300,-310,-310,,300,,,,,,300,No,B,Unlimited
+1,Vyacheslav Tunkin,100,M,Open,1980,37,99.9,Kazakhstan,,,,,,340,355,370,,370,,,,,,370,No,B,Unlimited
+DQ,Aleksandr Novinskiy,100,M,Open,1983,34,97.7,Russia,,,,,,-350,-350,-360,,,,,,,,,No,B,Unlimited
+DQ,Yegor Koykov,110,M,Open,1985,33,102.7,Russia,,,,,,-370,-370,-370,,,,,,,,,No,B,Unlimited
+1,Nikolay Emelyanov #1,125,M,Open,1979,38,117.6,Russia,,,,,,350,370,380,,380,,,,,,380,No,B,Unlimited
+1,Roman Abidzhba,140+,M,Open,1988,30,152,Russia,,,,,,400,412.5,420,-445,420,,,,,,420,No,B,Unlimited
+1,Mokhammad Safazada,75,M,Sub-Juniors 17-19,1999,19,72.7,Russia,,,,,,,,,,,170,190,-207.5,,190,190,Yes,D,Multi-ply
+1,Artur Plaksin,75,M,Open,1989,28,75,Russia,,,,,,,,,,,205,215,220,,220,220,Yes,D,Multi-ply
+2,Yuriy Pogozhev,75,M,Open,1990,27,70.4,Russia,,,,,,,,,,,215,-232.5,,,215,215,Yes,D,Multi-ply
+1,Sergey Gorbunov,90,M,Open,1991,26,87.7,Russia,,,,,,,,,,,245,255,-265,,255,255,Yes,D,Multi-ply
+1,Anastasiya Ovchinikova,67.5,F,Open,1990,28,64.8,Russia,,,,,,,,,,,85,90,-95,,90,90,No,D,Multi-ply
+1,Anton Doronin,75,M,Open,1991,26,73.6,Russia,,,,,,,,,,,175,185,190,,190,190,No,D,Multi-ply
+1,Valeriy Bezborodov,125,M,Masters 40-49,1976,42,117.5,Russia,,,,,,,,,,,265,280,-290,,280,280,No,D,Multi-ply
+2,Mati Raudsepp,110,M,Masters 40-49,1970,47,103.9,,,,,,,,,,,,-69,69,-71.5,,69,69,No,D,Multi-ply

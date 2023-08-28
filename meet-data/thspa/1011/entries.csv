@@ -1,7 +1,7 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
-Boys,51.71,1,Pablo Gutierrez,Weslaco East,51.53,120.2,95.25,174.63,390.09,Single-ply,SBD,M
+Boys,51.71,1,Pablo Gutierrez #3,Weslaco East,51.53,120.2,95.25,174.63,390.09,Single-ply,SBD,M
 Boys,51.71,2,Brandon Sauceda,PSJA Memorial,49.53,127.01,65.77,124.74,317.51,Single-ply,SBD,M
-Boys,51.71,3,David Garcia,Pharr Valley View,49.35,113.4,65.77,127.01,306.17,Single-ply,SBD,M
+Boys,51.71,3,David Garcia #5,Pharr Valley View,49.35,113.4,65.77,127.01,306.17,Single-ply,SBD,M
 Boys,51.71,4,Leo Tanguma,Rio Grande City Grulla,51.07,97.52,58.97,104.33,260.82,Single-ply,SBD,M
 Boys,51.71,DQ,Orlando Garcia,Rio Grande City,51.71,113.4,,,,Single-ply,SBD,M
 Boys,55.79,1,Omar Puente,Los Fresnos,55.07,167.83,117.93,195.04,480.81,Single-ply,SBD,M
@@ -21,10 +21,10 @@ Boys,59.87,12,John Flores,Rio Grande City,59.87,102.06,68.04,117.93,288.03,Singl
 Boys,59.87,DQ,Jorge Cantu,PSJA Southwest,56.43,142.88,,,,Single-ply,SBD,M
 Boys,67.13,1,Chris Galarza,Los Fresnos,65.05,231.33,124.74,199.58,555.65,Single-ply,SBD,M
 Boys,67.13,2,Ernie Sandell,San Benito,66.86,183.7,129.27,208.65,521.63,Single-ply,SBD,M
-Boys,67.13,3,Joe Torres,Los Fresnos,66.13,188.24,124.74,195.04,508.02,Single-ply,SBD,M
+Boys,67.13,3,Joe Torres #5,Los Fresnos,66.13,188.24,124.74,195.04,508.02,Single-ply,SBD,M
 Boys,67.13,4,Edward Palomin,Weslaco,65.95,181.44,117.93,199.58,498.95,Single-ply,SBD,M
 Boys,67.13,5,Carlos Castillo,Los Fresnos,66.95,195.04,102.06,192.78,489.88,Single-ply,SBD,M
-Boys,67.13,6,Julian Morales,Weslaco,66.68,192.78,92.99,197.31,483.08,Single-ply,SBD,M
+Boys,67.13,6,Julián Morales,Weslaco,66.68,192.78,92.99,197.31,483.08,Single-ply,SBD,M
 Boys,67.13,7,Isacc Diaz,PSJA,60.78,181.44,108.86,163.29,453.59,Single-ply,SBD,M
 Boys,67.13,8,Aaron Robles,San Benito,61.69,156.49,95.25,181.44,433.18,Single-ply,SBD,M
 Boys,67.13,9,David Martinez #12,Weslaco East,62.6,133.81,102.06,161.03,396.89,Single-ply,SBD,M
@@ -59,7 +59,7 @@ Boys,82.1,7,Andrew Benavidez,PSJA North,80.29,192.78,108.86,197.31,498.95,Single
 Boys,82.1,8,Bryan Sanchez,Weslaco East,77.79,176.9,115.67,185.97,478.54,Single-ply,SBD,M
 Boys,89.81,9,Sabas Garcia,Mission,82.28,170.1,120.2,176.9,467.2,Single-ply,SBD,M
 Boys,82.1,10,Alex Melendez,Pharr Valley View,82.01,167.83,99.79,192.78,460.4,Single-ply,SBD,M
-Boys,82.1,11,Jorge Garcia,PSJA,76.38,161.03,102.06,170.1,433.18,Single-ply,SBD,M
+Boys,82.1,11,Jorge Garcia #7,PSJA,76.38,161.03,102.06,170.1,433.18,Single-ply,SBD,M
 Boys,82.1,12,Jesse Coronado,Weslaco,81.65,158.76,95.25,156.49,410.5,Single-ply,SBD,M
 Boys,82.1,13,Isai Perez,Rio Grande City Grulla,82.1,158.76,95.25,154.22,408.23,Single-ply,SBD,M
 Boys,82.1,14,Carlos Portales,PSJA Southwest,77.11,158.76,83.91,156.49,399.16,Single-ply,SBD,M
@@ -112,7 +112,7 @@ Boys,124.74,4,Andrew Cruz,PSJA North,116.57,249.48,163.29,222.26,635.03,Single-p
 Boys,124.74,5,Christian Guajardo,Pharr Valley View,124.1,240.4,158.76,233.6,632.76,Single-ply,SBD,M
 Boys,124.74,6,Josh Cavazos,Mission Sharyland,116.12,238.14,138.35,229.06,605.55,Single-ply,SBD,M
 Boys,124.74,7,Patrick Longoria,Weslaco,117.48,238.14,122.47,195.04,555.65,Single-ply,SBD,M
-Boys,124.74,8,Juan Garcia,Los Fresnos,113.04,217.72,117.93,197.31,532.97,Single-ply,SBD,M
+Boys,124.74,8,Juan Garcia #2,Los Fresnos,113.04,217.72,117.93,197.31,532.97,Single-ply,SBD,M
 Boys,124.74,9,Richard Cervantes,Mission Sharyland,123.92,183.7,111.13,238.14,532.97,Single-ply,SBD,M
 Boys,124.74,10,Andrew Pratt,Rio Grande City,124.74,206.38,104.33,208.65,519.36,Single-ply,SBD,M
 Boys,124.74,11,Jessie Martinez,Weslaco East,110.68,170.1,115.67,206.38,492.15,Single-ply,SBD,M
@@ -127,4 +127,4 @@ Boys,124.74+,2,Adrian Alcantar,PSJA Memorial,130.63,244.94,154.22,204.12,603.28,
 Boys,124.74+,3,Abel Cruces,Los Fresnos,129,199.58,172.37,208.65,580.6,Single-ply,SBD,M
 Boys,124.74+,4,Randy Fernandez,PSJA North,128.64,181.44,122.47,154.22,458.13,Single-ply,SBD,M
 Boys,124.74+,DQ,Miguel Martinez,PSJA,150.77,,,,,Single-ply,SBD,M
-Boys,124.74+,DQ,Luis Garcia,Mission Sharyland,131.18,215.46,,,,Single-ply,SBD,M
+Boys,124.74+,DQ,Luis Garcia #1,Mission Sharyland,131.18,215.46,,,,Single-ply,SBD,M

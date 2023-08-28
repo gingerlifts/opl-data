@@ -1,6 +1,6 @@
 Name,Place,Division,Sex,Equipment,Country,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Squat4Kg,Best3BenchKg,Bench4Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Event
 Tiffany Leung,1,Juniors 20-23,F,Raw,USA,CA,44,42.37,23,97.5,,50,,140,,287.5,SBD
-Stacia-Al Mahoe,1,Juniors 15-19,F,Raw,USA,HI,48,47.63,,95,,65,,132.5,137.5,292.5,SBD
+Stacia Cambra,1,Juniors 15-19,F,Raw,USA,HI,48,47.63,,95,,65,,132.5,137.5,292.5,SBD
 Lauren Goebel,1,Juniors 20-23,F,Raw,USA,OH,48,47.81,22,85,,57.5,58.5,145,,287.5,SBD
 Annie Diu,2,Juniors 20-23,F,Raw,USA,TX,48,47.4,23,100,106,55,,130,,285,SBD
 Ngoc Morales,1,Juniors 20-23,F,Raw,USA,TX,52,50.8,23,105,,37.5,,107.5,,250,SBD
@@ -13,7 +13,7 @@ Jennifer Combs,1,Juniors 20-23,F,Raw,USA,WA,67.5,66.86,21,162.5,,92.5,,172.5,,42
 Andrea Corder,DQ,Juniors 20-23,F,Raw,USA,CA,67.5,67.36,23,107.5,,67.5,,-142.5,,,SBD
 Brianna Harris,1,Juniors 20-23,F,Raw,USA,OK,75,70.9,22,150,,80,,160,,390,SBD
 Corina Scott,1,Juniors 20-23,F,Raw,USA,CA,82.5,82.01,21,157.5,,82.5,,170,,410,SBD
-Stacia-Al Mahoe,1,Open,F,Raw,USA,HI,48,47.63,,95,,65,,132.5,137.5,292.5,SBD
+Stacia Cambra,1,Open,F,Raw,USA,HI,48,47.63,,95,,65,,132.5,137.5,292.5,SBD
 Annie Diu,2,Open,F,Raw,USA,TX,48,47.4,23,100,106,55,,130,,285,SBD
 Michelle Orgeta,3,Open,F,Raw,USA,CA,48,47.63,24,90,,40,,125,,255,SBD
 Tina Daneshmand,1,Open,F,Raw,USA,CA,52,51.39,27,122.5,,72.5,,172.5,,367.5,SBD
@@ -61,7 +61,7 @@ Brandon Cordero,5,Juniors 20-23,M,Raw,USA,TX,75,74.89,20,190,,117.5,,210,,517.5,
 Barry He,6,Juniors 20-23,M,Raw,USA,CA,75,74.21,21,172.5,,107.5,,235,,515,SBD
 Nicholas Ramsey,7,Juniors 20-23,M,Raw,USA,CA,75,74.89,23,182.5,,115,,210,,507.5,SBD
 Trevor Sellers,1,Juniors 15-19,M,Raw,USA,TX,82.5,81.87,18,217.5,,145,,192.5,,555,SBD
-Chance Mitchell,1,Juniors 20-23,M,Raw,USA,TX,82.5,81.24,20,227.5,,122.5,,272.5,,622.5,SBD
+Chance Mitchell #1,1,Juniors 20-23,M,Raw,USA,TX,82.5,81.24,20,227.5,,122.5,,272.5,,622.5,SBD
 Joseph Manno,2,Juniors 20-23,M,Raw,USA,CA,82.5,82.24,23,192.5,,145,,247.5,,585,SBD
 Serro Park,3,Juniors 20-23,M,Raw,USA,CA,82.5,80.74,22,185,,130,,205,,520,SBD
 Charlie Shin,1,Juniors 15-19,M,Raw,USA,IN,90,88.81,19,225,,135,,265,,625,SBD
@@ -91,8 +91,8 @@ Bruce Randall,4,Open,M,Raw,USA,NV,75,74.39,26,227.5,,165,,252.5,,645,SBD
 Richard Kang,5,Open,M,Raw,USA,CA,75,73.16,24,190,,125,,220,,535,SBD
 Barry He,6,Open,M,Raw,USA,CA,75,74.21,21,172.5,,107.5,,235,,515,SBD
 Alex Cho,DQ,Open,M,Raw,USA,CA,75,74.66,26,-200,,,,,,,SBD
-Chris Garcia,1,Open,M,Raw,USA,CA,82.5,80.6,27,265,,187.5,,305,,757.5,SBD
-Chance Mitchell,2,Open,M,Raw,USA,TX,82.5,81.24,20,227.5,,122.5,,272.5,,622.5,SBD
+Chris Garcia #1,1,Open,M,Raw,USA,CA,82.5,80.6,27,265,,187.5,,305,,757.5,SBD
+Chance Mitchell #1,2,Open,M,Raw,USA,TX,82.5,81.24,20,227.5,,122.5,,272.5,,622.5,SBD
 Bryce Bashant,3,Open,M,Raw,USA,OK,82.5,80.78,24,227.5,,145,,232.5,,605,SBD
 Bart Kwan,DQ,Open,M,Raw,USA,CA,82.5,81.56,29,192.5,,-147.5,,,,,SBD
 Chris Bartley #1,1,Open,M,Raw,USA,CO,90,88.63,40,255,,170,,300,,725,SBD
@@ -115,7 +115,7 @@ Andrew Corlett,3,Open,M,Raw,USA,CA,100,99.11,33,272.5,,170,,295,,737.5,SBD
 Joseph Franzo,4,Open,M,Raw,USA,CA,100,99.38,24,262.5,,185,,280,,727.5,SBD
 Joseph Adamo,5,Open,M,Raw,USA,CA,100,97.89,28,250,,175,,272.5,,697.5,SBD
 Tony McCreary,6,Open,M,Raw,USA,CA,100,97.79,28,205,,150,,305,,660,SBD
-Mike Cannon,1,Open,M,Raw,USA,UT,110,109.77,40,317.5,,200,,300,,817.5,SBD
+Mike Cannon #1,1,Open,M,Raw,USA,UT,110,109.77,40,317.5,,200,,300,,817.5,SBD
 Chad Wilson,2,Open,M,Raw,USA,CA,110,107.37,43,282.5,,197.5,,285,,765,SBD
 John Mazza,3,Open,M,Raw,USA,UT,110,109.63,33,267.5,,192.5,,302.5,,762.5,SBD
 Dave Breker,4,Open,M,Raw,Canada,,110,104.6,33,275,,220,,265,,760,SBD
@@ -142,7 +142,7 @@ Harvey Pendleton,1,Masters 65-69,M,Raw,USA,TX,90,86.32,67,100,,80,,187.5,,367.5,
 Rich Tsutsui,2,Masters 65-69,M,Raw,USA,CA,90,84.46,68,132.5,,85,,140,,357.5,SBD
 Johnny Layne,1,Masters 40-44,M,Raw,USA,WV,100,92.49,42,205,,167.5,,258,,630.5,SBD
 Howard Myers,1,Masters 65-69,M,Raw,USA,CA,100,92.76,69,185,,80,,272.5,,537.5,SBD
-Mike Cannon,1,Masters 40-44,M,Raw,USA,UT,110,109.77,40,317.5,,200,,300,,817.5,SBD
+Mike Cannon #1,1,Masters 40-44,M,Raw,USA,UT,110,109.77,40,317.5,,200,,300,,817.5,SBD
 Chad Wilson,2,Masters 40-44,M,Raw,USA,CA,110,107.37,43,282.5,,197.5,,285,,765,SBD
 Tom Fahy,1,Masters 45-49,M,Raw,USA,MN,110,107.82,49,225,,165,,260,,650,SBD
 Thomas Matlock,1,Masters 60-64,M,Raw,USA,AZ,110,108.05,63,190.5,,110,,205,,505.5,SBD
@@ -343,7 +343,7 @@ Doug Clayton,1,Masters 55-59,M,Raw,USA,WY,82.5,81.56,57,,,135,,,,135,B
 Chris Williams #1,2,Masters 55-59,M,Raw,USA,UT,82.5,81.74,55,,,125,,,,125,B
 David Bultman,1,Masters 65-69,M,Raw,USA,CA,82.5,81.28,69,,,127.5,132.5,,,127.5,B
 Stanley Hobbs,1,Masters 40-44,M,Raw,USA,AR,90,88.95,44,,,185,,,,185,B
-Jason Smith,2,Masters 40-44,M,Raw,USA,OK,90,89.77,44,,,150,,,,150,B
+Jason Smith #1,2,Masters 40-44,M,Raw,USA,OK,90,89.77,44,,,150,,,,150,B
 Phil Beniston,1,Masters 50-54,M,Raw,UK,,90,89.13,51,,,167.5,,,,167.5,B
 Bob Rudge,1,Masters 70-74,M,Raw,USA,CA,90,86.73,72,,,152.5,,,,152.5,B
 Stacy Dedrick,1,Masters 45-49,M,Raw,USA,CA,100,97.61,49,,,200,,,,200,B
@@ -405,7 +405,7 @@ Lance Ross,1,Open,M,Raw,USA,TX,140,134.22,51,,,,,357.5,,357.5,D
 Gordon Santee,1,Masters 65-69,M,Raw,USA,CA,60,59.69,68,,,,,117.5,,117.5,D
 Martin Montgomery,1,Masters 70-74,M,Raw,USA,IN,75,74.89,71,,,,,195,,195,D
 Doug Clayton,1,Masters 55-59,M,Raw,USA,WY,82.5,81.56,57,,,,,205,,205,D
-Jason Smith,1,Masters 40-44,M,Raw,USA,OK,90,89.77,44,,,,,278,,278,D
+Jason Smith #1,1,Masters 40-44,M,Raw,USA,OK,90,89.77,44,,,,,278,,278,D
 Phil Beniston,1,Masters 50-54,M,Raw,UK,,90,89.13,51,,,,,260,,260,D
 Bill Starbuck,1,Masters 65-69,M,Raw,USA,CA,90,89.9,66,,,,,165,,165,D
 Karl Davenport,1,Masters 45-49,M,Raw,USA,CA,110,109.81,49,,,,,212.5,,212.5,D

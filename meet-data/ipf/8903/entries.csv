@@ -9,14 +9,14 @@ Place,WeightClassKg,Sex,Division,Name,Country,Best3SquatKg,Best3BenchKg,Bench4Kg
 2,60,M,Masters 1,Manfred Offergeld,France,155,100,,205,460,SBD,Single-ply
 3,60,M,Masters 1,Antero Eskelinen,Finland,140,112.5,,185,437.5,SBD,Single-ply
 1,67.5,M,Masters 1,Herman Nurse,UK,230,132.5,,237.5,600,SBD,Single-ply
-2,67.5,M,Masters 1,P. Nicholson,UK,227.5,115,,247.5,590,SBD,Single-ply
+2,67.5,M,Masters 1,Peter Nicholson,UK,227.5,115,,247.5,590,SBD,Single-ply
 3,67.5,M,Masters 1,Mauri Lappalainen,Finland,230,100,,252.5,582.5,SBD,Single-ply
 4,67.5,M,Masters 1,Daniel Reybrouck,Belgium,185,125,,190,500,SBD,Single-ply
 DQ,67.5,M,Masters 1,Bjørn Andreas Holmsen,Norway,,,,,,SBD,Single-ply
 1,75,M,Masters 1,Harrie van den Brand,Netherlands,245,140,,250,635,SBD,Single-ply
 2,75,M,Masters 1,John Hibbert,UK,220,162.5,,240,622.5,SBD,Single-ply
 3,75,M,Masters 1,Paul Thill,Luxembourg,217.5,142.5,,235,595,SBD,Single-ply
-4,75,M,Masters 1,Michael Hunnum,UK,210,135,,230,575,SBD,Single-ply
+4,75,M,Masters 1,Mick Hunnam,UK,210,135,,230,575,SBD,Single-ply
 5,75,M,Masters 1,Burgueno Julio Lezama,Uruguay,200,117.5,,255,572.5,SBD,Single-ply
 6,75,M,Masters 1,Terje Brovold,Norway,200,137.5,,220,557.5,SBD,Single-ply
 7,75,M,Masters 1,Masayuki Suzuki,Japan,200,145,,200,545,SBD,Single-ply
@@ -46,7 +46,7 @@ DQ,90,M,Masters 1,Matti Lahti #1,Finland,,,,,,SBD,Single-ply
 5,100,M,Masters 1,Antero Rinne,Finland,255,165,,270,690,SBD,Single-ply
 6,100,M,Masters 1,Václav Primus,Czechia,242.5,155,,267.5,665,SBD,Single-ply
 7,100,M,Masters 1,Werner Platzer,Austria,230,140,,240,610,SBD,Single-ply
-8,100,M,Masters 1,M. Leonard,Belgium,210,127.5,,230,567.5,SBD,Single-ply
+8,100,M,Masters 1,Michel Leonard,Belgium,210,127.5,,230,567.5,SBD,Single-ply
 9,100,M,Masters 1,Ole Hägglund,Finland,180,165,,215,560,SBD,Single-ply
 DQ,100,M,Masters 1,Antonio Serna,Spain,,,,,,SBD,Single-ply
 1,110,M,Masters 1,Juhani Y. Äijö,Finland,275,182.5,,335,792.5,SBD,Single-ply
@@ -74,11 +74,11 @@ DQ,125+,M,Masters 1,Walter Kaiser,Austria,,,,,,SBD,Single-ply
 1,52,M,Masters 2,Inao Nakamura,Japan,92.5,80,,120,292.5,SBD,Single-ply
 2,52,M,Masters 2,Heikki Mähönen,Finland,60,45,,110,215,SBD,Single-ply
 1,56,M,Masters 2,John McNiven,UK,160,90,,200,450,SBD,Single-ply
-2,56,M,Masters 2,Eduard Brown,UK,155,107.5,,175,437.5,SBD,Single-ply
+2,56,M,Masters 2,Ted Brown,UK,155,107.5,,175,437.5,SBD,Single-ply
 3,56,M,Masters 2,Martti Ruini,Finland,145,80,,182.5,407.5,SBD,Single-ply
 4,56,M,Masters 2,Paul Trujillo,USA,140,92.5,,175,407.5,SBD,Single-ply
 5,56,M,Masters 2,Sulo Luiro,Finland,125,77.5,,170,372.5,SBD,Single-ply
-1,60,M,Masters 2,Roger Powell,UK,185,100,,217.5,502.5,SBD,Single-ply
+1,60,M,Masters 2,Roger Powell #1,UK,185,100,,217.5,502.5,SBD,Single-ply
 2,60,M,Masters 2,Carlos Tantog,USA,157.5,115,,177.5,450,SBD,Single-ply
 3,60,M,Masters 2,Marcel Nivault,France,170,65,,200,435,SBD,Single-ply
 4,60,M,Masters 2,Friedel Funke,West Germany,162.5,75,,195,432.5,SBD,Single-ply
@@ -116,7 +116,7 @@ DQ,75,M,Masters 2,Bill Ramsrud,USA,,,,,,SBD,Single-ply
 6,90,M,Masters 2,Klaus Zander,France,200,157.5,,242.5,600,SBD,Single-ply
 7,90,M,Masters 2,Thomas Fertl,West Germany,210,155,,230,595,SBD,Single-ply
 8,90,M,Masters 2,Bob Strange,USA,182.5,142.5,,252.5,577.5,SBD,Single-ply
-1,100,M,Masters 2,Willi Müller,West Germany,270,155,,305,730,SBD,Single-ply
+1,100,M,Masters 2,Willi Müller #1,West Germany,270,155,,305,730,SBD,Single-ply
 2,100,M,Masters 2,Jerry Engelbert,USA,250,155,,310,715,SBD,Single-ply
 3,100,M,Masters 2,Deri Lewis,UK,210,130,,265,605,SBD,Single-ply
 4,100,M,Masters 2,Pentti Kurkela,Finland,195,160,,242.5,597.5,SBD,Single-ply
@@ -129,4 +129,4 @@ DQ,75,M,Masters 2,Bill Ramsrud,USA,,,,,,SBD,Single-ply
 2,125,M,Masters 2,Päiviö Säätelä,Finland,227.5,150,,250,627.5,SBD,Single-ply
 DQ,125,M,Masters 2,Richard Heiden,West Germany,235,,,,,SBD,Single-ply
 1,125+,M,Masters 2,Horst Volke,West Germany,285,200,,250,735,SBD,Single-ply
-2,125+,M,Masters 2,Bruce Miller,USA,205,142.5,,217.5,565,SBD,Single-ply
+2,125+,M,Masters 2,Bruce Miller #3,USA,205,142.5,,217.5,565,SBD,Single-ply

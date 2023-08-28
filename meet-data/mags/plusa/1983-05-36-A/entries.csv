@@ -1,20 +1,20 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
-L. Sherman,48,Open,F,,,,,SBD,Single-ply,DQ
+Lynn Sherman,48,Open,F,,,,,SBD,Single-ply,DQ
 Irene Ramos,52,Open,F,112.5,47.5,112.5,272.5,SBD,Single-ply,1
 C. Charles,56,Open,F,75,47.5,117,239.5,SBD,Single-ply,1
 Jeanine Ireland,60,Open,F,92.5,52.5,117,262,SBD,Single-ply,1
 J. Bonner,56,Open,M,,,,,SBD,Single-ply,DQ
 Kevin Meskew,56,Open,M,140,100,177.5,417.5,SBD,Single-ply,G
 J. Muhammadi,60,Open,M,172.5,100,177.5,450,SBD,Single-ply,1
-E. Viola,67.5,Open,M,170,117.5,212.5,500,SBD,Single-ply,1
+Gene Viola,67.5,Open,M,170,117.5,212.5,500,SBD,Single-ply,1
 B. Thompson,67.5,Open,M,155,160,170,485,SBD,Single-ply,2
-N. Johnson,67.5,Open,M,170,115,175,460,SBD,Single-ply,3
+Ned Johnson,67.5,Open,M,170,115,175,460,SBD,Single-ply,3
 D. Montano,67.5,Open,M,137.5,122.5,182.5,442.5,SBD,Single-ply,4
 R. Scott,67.5,Open,M,155,82.5,192.5,430,SBD,Single-ply,5
 Alex Hale,67.5,Open,M,105,100,157.5,362.5,SBD,Single-ply,6
 F. Fleet,67.5,Open,M,,,,,SBD,Single-ply,DQ
 Mike Lawrence #4,67.5,Open,M,,,,,SBD,Single-ply,DQ
-C. Jeong,75,Open,M,200,145,230,575,SBD,Single-ply,1
+Clif Jeong,75,Open,M,200,145,230,575,SBD,Single-ply,1
 R. Bettencourt,75,Open,M,195,147.5,217.5,560,SBD,Single-ply,3
 Chris Powers,75,Open,M,192.5,137.5,225,555,SBD,Single-ply,5
 T. Sandgren,75,Open,M,202.5,137.5,225,565,SBD,Single-ply,2
@@ -26,9 +26,9 @@ R. Heeley,75,Open,M,200,92.5,220,512.5,SBD,Single-ply,10
 B. Blackly,75,Open,M,175,142.5,202.5,520,SBD,Single-ply,9
 J. Richmond,75,Open,M,160,130,210,500,SBD,Single-ply,11
 Mark Villeneuve,75,Open,M,155,112.5,180,447.5,SBD,Single-ply,12
-R. Spates,75,Open,M,137.5,122.5,182.5,442.5,SBD,Single-ply,13
+Russ Spates,75,Open,M,137.5,122.5,182.5,442.5,SBD,Single-ply,13
 J. Vogel,75,Open,M,,,,,SBD,Single-ply,DQ
-M. Cites,75,Open,M,,,,,SBD,Single-ply,DQ
+Mark Cites,75,Open,M,,,,,SBD,Single-ply,DQ
 Greg Geary,82.5,Open,M,225,180,247.5,652.5,SBD,Single-ply,1
 Tom Lewelling,82.5,Open,M,205,190,245,640,SBD,Single-ply,2
 Barry Kraemer,82.5,Open,M,205,142.5,200,547.5,SBD,Single-ply,6
@@ -41,12 +41,12 @@ R. Becker,82.5,Open,M,,,,,SBD,Single-ply,DQ
 Larry Neves,90,Open,M,235,155,260,650,SBD,Single-ply,1
 W. Bostard,90,Open,M,217.5,155,275,647.5,SBD,Single-ply,2
 Frank Arena,90,Open,M,227.5,160,252.5,640,SBD,Single-ply,3
-T. DeLong,90,Open,M,240,155,235,630,SBD,Single-ply,4
+Tom DeLong,90,Open,M,240,155,235,630,SBD,Single-ply,4
 C. Price,90,Open,M,192.5,160,272.5,625,SBD,Single-ply,5
-John DuMont,90,Open,M,227.5,135,250,612.5,SBD,Single-ply,6
+John DuMont #1,90,Open,M,227.5,135,250,612.5,SBD,Single-ply,6
 H. Coughlin,90,Open,M,230,132.5,250,612.5,SBD,Single-ply,7
 M. Willis,90,Open,M,197.5,177.5,230,605,SBD,Single-ply,8
-W. Weaver,90,Open,M,185,155,227.5,567.5,SBD,Single-ply,9
+William Weaver,90,Open,M,185,155,227.5,567.5,SBD,Single-ply,9
 W. Prennon,90,Open,M,180,125,205,510,SBD,Single-ply,10
 Mike Cormier,90,Open,M,182.5,130,192.5,505,SBD,Single-ply,11
 Gary Bechtold,90,Open,M,225,145,,,SBD,Single-ply,DQ
@@ -62,9 +62,9 @@ D. Feverhahn,100,Open,M,257.5,160,270,687.5,SBD,Single-ply,3
 Greg Kohler,100,Open,M,255,177.5,252.5,685,SBD,Single-ply,4
 Jim Gees,100,Open,M,227.5,147.5,282.5,657.5,SBD,Single-ply,5
 Jeff Nelson,100,Open,M,230,145,262.5,637.5,SBD,Single-ply,6
-T. Harris,100,Open,M,235,145,250,630,SBD,Single-ply,7
+Tommy Harris,100,Open,M,235,145,250,630,SBD,Single-ply,7
 John Mazmanian,100,Open,M,212.5,160,237.5,610,SBD,Single-ply,8
-E. Wainer,100,Open,M,205,137.5,232.5,575,SBD,Single-ply,9
+Elliot Wainer,100,Open,M,205,137.5,232.5,575,SBD,Single-ply,9
 M. Bryant,100,Open,M,152.5,125,200,477.5,SBD,Single-ply,10
 J. MacFarlane,100,Open,M,,,,,SBD,Single-ply,DQ
 J. Moriega,100,Open,M,,,,,SBD,Single-ply,DQ
@@ -77,9 +77,9 @@ L. Castello,110,Open,M,200,172.5,275,647.5,SBD,Single-ply,6
 R. Twist,110,Open,M,205,165,215,585,SBD,Single-ply,7
 Miguel Reza,125,Open,M,270,192.5,300,762.5,SBD,Single-ply,1
 J. Williams,125,Open,M,237.5,210,262.5,710,SBD,Single-ply,2
-P. Galle,125,Open,M,250,142.5,240,632.5,SBD,Single-ply,3
+Peter Galle,125,Open,M,250,142.5,240,632.5,SBD,Single-ply,3
 Bob Mosher,125,Open,M,195,137.5,252.5,585,SBD,Single-ply,4
 Jim McNeil,125,Open,M,200,165,215,580,SBD,Single-ply,5
 Jeff Dockweiler,125+,Open,M,282.5,182.5,295,760,SBD,Single-ply,1
-G. Gipson,125+,Open,M,247.5,197.5,285,730,SBD,Single-ply,2
+George Gipson,125+,Open,M,247.5,197.5,285,730,SBD,Single-ply,2
 M. Jones,125+,Open,M,,,,,SBD,Single-ply,DQ

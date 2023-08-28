@@ -45,7 +45,7 @@ Place,Name,Country,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchK
 1,Thomas Biddle,,KY,100,99.2,23,272.5,150,285,707.5,M,Juniors 20-23,Raw,,Yes,SBD
 1,Dylan Hunter,,KS,110,108.1,23,255,162.5,265,682.5,M,Juniors 20-23,Raw,,Yes,SBD
 1,Noah Duncan,,MO,140,135.9,18,195,122.5,215,532.5,M,Juniors 18-19,Raw,,Yes,SBD
-1,Adam Burke,,MD,140,140,20,230,182.5,290,702.5,M,Juniors 20-23,Raw,,Yes,SBD
+1,Adam Burke #1,,MD,140,140,20,230,182.5,290,702.5,M,Juniors 20-23,Raw,,Yes,SBD
 1,Joe Morrow,,MS,67.5,61.6,33,215,137.5,250,602.5,M,Open,Raw,,Yes,SBD
 2,Michael Vargas,,NC,67.5,67.1,20,197.5,125,237.5,560,M,Open,Raw,,Yes,SBD
 3,Eddie Mussi,,MI,67.5,65.9,22,182.5,112.5,227.5,522.5,M,Open,Raw,,Yes,SBD
@@ -119,7 +119,7 @@ DQ,Brendan Wulf,,NE,100,98.3,20,227.5,-125,260,,M,Juniors 20-23,Wraps,,Yes,SBD
 DQ,Brendan Wulf,,NE,100,98.3,20,227.5,-125,260,,M,Open,Wraps,,Yes,SBD
 1,Hifon Smith,,MD,110,109.8,45,362.5,195,350,907.5,M,Open,Wraps,,Yes,SBD
 2,Jamarius Whiteside,,SC,110,107.6,26,245,160,307.5,712.5,M,Open,Wraps,,Yes,SBD
-3,Ken Jones,,MO,110,108.4,25,237.5,160,265,662.5,M,Open,Wraps,,Yes,SBD
+3,Ken Jones #2,,MO,110,108.4,25,237.5,160,265,662.5,M,Open,Wraps,,Yes,SBD
 4,Ben Ellsesser,,OH,110,108.3,26,222.5,162.5,227.5,612.5,M,Open,Wraps,,Yes,SBD
 5,Karl Davenport,,CA,110,109.4,51,205,132.5,190,527.5,M,Open,Wraps,,Yes,SBD
 1,Marc Masishin,,PA,125,121.1,28,252.5,170,275,697.5,M,Open,Wraps,,Yes,SBD

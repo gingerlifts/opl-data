@@ -17,7 +17,7 @@ WeightClassKg,Sex,Division,Name,Age,BodyweightKg,State,Best3SquatKg,Best3BenchKg
 82.5,M,Open,Ernesto Fernandez,25,80.29,FL,256.28,142.88,235.87,635.03,SBD,Wraps,1
 90,M,Open,Jeff Sanchez,28,89.36,FL,238.14,133.81,247.21,619.15,SBD,Wraps,1
 100,M,Open,Jesse Shelton,28,99.16,FL,208.65,154.22,208.65,571.53,SBD,Wraps,1
-110,M,Open,Shane Tumminello,27,107.23,FL,210.92,154.22,229.06,594.21,SBD,Wraps,1
+110,M,Open,Shane Tumminello,27,107.23,FL,210.92,154.22,229.06,594.21,SBD,Raw,1
 125,M,Open,Joe Coursey,24,124.74,GA,272.16,206.38,306.17,784.71,SBD,Wraps,1
 140,M,Open,Nick Arbia,28,126.37,FL,272.16,181.44,290.3,743.89,SBD,Wraps,1
 100,M,Masters 45-49,Rocky Malphurs,46,99.16,FL,174.63,129.27,206.38,510.29,SBD,Wraps,1
@@ -31,7 +31,7 @@ WeightClassKg,Sex,Division,Name,Age,BodyweightKg,State,Best3SquatKg,Best3BenchKg
 110,M,Open,Todd Cutler,37,109.41,FL,,190.51,,190.51,B,Raw,1
 125,M,Open,TJ Pomerleau,26,119.11,FL,,165.56,,165.56,B,Raw,1
 140,M,Open,Allen Gibson,29,131.18,FL,,210.92,,210.92,B,Raw,1
-140,M,Submasters,Bryan Williams,39,135.17,FL,,238.14,,238.14,B,Raw,1
+140,M,Submasters,Bryan Williams #2,39,135.17,FL,,238.14,,238.14,B,Raw,1
 67.5,F,Open,Katie Toot,26,64.5,FL,,49.9,,49.9,B,Raw,1
 110,M,Masters 40-44,Don DeCicco,41,109.23,FL,,142.88,,142.88,B,Raw,1
 90,M,Open,Jahleed Tate,28,89.63,LA,,156.49,,156.49,B,Raw,1

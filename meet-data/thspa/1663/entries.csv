@@ -11,7 +11,7 @@ Boys,51.71,DQ,Jeffery Porter,Alvarado,50.89,138.35,74.84,,,Single-ply,SBD,M
 Boys,55.79,DQ,Bryan Martinez,Taylor,51.89,,,,,Single-ply,SBD,M
 Boys,59.87,1,Willie Ihlenfeldt,Caldwell,55.97,156.49,99.79,167.83,424.11,Single-ply,SBD,M
 Boys,55.79,2,Grady Rhoden,Alvarado,54.88,149.69,72.57,163.29,385.55,Single-ply,SBD,M
-Boys,55.79,3,Joseph Herrera,Navasota,53.61,149.69,83.91,136.08,369.68,Single-ply,SBD,M
+Boys,55.79,3,Joseph Herrera #2,Navasota,53.61,149.69,83.91,136.08,369.68,Single-ply,SBD,M
 Boys,55.79,4,Chris Ramirez,Lampasas,55.34,138.35,72.57,154.22,365.14,Single-ply,SBD,M
 Boys,55.79,5,Nick Young,Rockdale,55.34,129.27,77.11,154.22,360.61,Single-ply,SBD,M
 Boys,55.79,6,Lorenzo Sanchez,Taylor,53.71,136.08,92.99,129.27,358.34,Single-ply,SBD,M
@@ -19,7 +19,7 @@ Boys,59.87,7,Jesus Tonche,Waco Connally,55.88,122.47,77.11,151.95,351.53,Single-
 Boys,55.79,8,Lazaro Garcia,Navasota,55.16,124.74,72.57,136.08,333.39,Single-ply,SBD,M
 Boys,55.79,9,Blaine Wootan,College Station,54.88,129.27,65.77,122.47,317.51,Single-ply,SBD,M
 Boys,55.79,DQ,Gerardo Barrera,Venus,53.71,129.27,83.91,,,Single-ply,SBD,M
-Boys,59.87,1,Victor Aguilar,Caldwell,57.42,249.48,129.27,213.19,591.94,Single-ply,SBD,M
+Boys,59.87,1,Victor Aguilar #1,Caldwell,57.42,249.48,129.27,213.19,591.94,Single-ply,SBD,M
 Boys,67.13,2,Darius Mallard,Navasota,60.06,163.29,102.06,206.38,471.74,Single-ply,SBD,M
 Boys,59.87,3,Chris Hernandez,Venus,58.69,176.9,90.72,185.97,453.59,Single-ply,SBD,M
 Boys,59.87,4,Cory Sauer,Robinson,58.79,156.49,111.13,154.22,421.84,Single-ply,SBD,M
@@ -51,7 +51,7 @@ Boys,74.84,9,Juan Villa,Robinson,74.03,192.78,127.01,192.78,512.56,Single-ply,SB
 Boys,74.84,10,Hunter Redmond,Glen Rose,73.3,183.7,106.59,199.58,489.88,Single-ply,SBD,M
 Boys,82.1,1,Martin Balderas,Groesbeck,80.2,242.67,142.88,267.62,653.17,Single-ply,SBD,M
 Boys,82.1,2,Thomas Ewing,Giddings,81.37,235.87,122.47,238.14,596.47,Single-ply,SBD,M
-Boys,82.1,3,Eddie Morgan,Venus,76.75,217.72,115.67,244.94,578.33,Single-ply,SBD,M
+Boys,82.1,3,Eddie Morgan #2,Venus,76.75,217.72,115.67,244.94,578.33,Single-ply,SBD,M
 Boys,82.1,4,Nick Gonzales,Rockdale,78.56,201.85,156.49,217.72,576.06,Single-ply,SBD,M
 Boys,82.1,5,Manuel Murillo,Venus,80.74,217.72,127.01,210.92,555.65,Single-ply,SBD,M
 Boys,82.1,6,Everado Araujo,Taylor,77.84,226.8,120.2,206.38,553.38,Single-ply,SBD,M
@@ -67,7 +67,7 @@ Boys,89.81,5,Joseph Mendoza,Giddings,84.28,249.48,129.27,249.48,628.23,Single-pl
 Boys,89.81,6,Desmond Calhoun,Navasota,89.81,213.19,124.74,278.96,616.89,Single-ply,SBD,M
 Boys,89.81,7,Andrew Jenkins,Rockdale,87.82,210.92,161.03,235.87,607.81,Single-ply,SBD,M
 Boys,89.81,8,Eric Martinez,Venus,89.09,226.8,133.81,238.14,598.74,Single-ply,SBD,M
-Boys,89.81,9,Ricky Thompson,Robinson,86.18,213.19,113.4,242.67,569.26,Single-ply,SBD,M
+Boys,89.81,9,Ricky Thompson #1,Robinson,86.18,213.19,113.4,242.67,569.26,Single-ply,SBD,M
 Boys,89.81,10,Darian Robinson,Waco Connally,87.45,206.38,129.27,233.6,569.26,Single-ply,SBD,M
 Boys,89.81,11,Zach Koening,China Spring,89.45,224.53,131.54,206.38,562.45,Single-ply,SBD,M
 Boys,99.79,1,Chris Robinson #5,Waco Connally,99.25,272.16,149.69,249.48,671.32,Single-ply,SBD,M
@@ -84,7 +84,7 @@ Boys,109.77,1,Seth White,Alvarado,106.87,281.23,154.22,240.4,675.85,Single-ply,S
 Boys,109.77,2,Erik Zavala,Hillsboro,108.5,249.48,115.67,256.28,621.42,Single-ply,SBD,M
 Boys,109.77,3,Matt Gerik,West,106.68,272.16,117.93,226.8,616.89,Single-ply,SBD,M
 Boys,109.77,4,Jaylin Minor,Navasota,100.33,235.87,131.54,240.4,607.81,Single-ply,SBD,M
-Boys,109.77,5,Will Smith,Liberty Hill,103.96,247.21,140.61,210.92,598.74,Single-ply,SBD,M
+Boys,109.77,5,Will Smith #2,Liberty Hill,103.96,247.21,140.61,210.92,598.74,Single-ply,SBD,M
 Boys,124.74,6,Andy Gamez,Lampasas,109.95,238.14,124.74,229.06,591.94,Single-ply,SBD,M
 Boys,109.77,7,Cortlund Rice,Mexia,107.05,226.8,133.81,204.12,564.72,Single-ply,SBD,M
 Boys,109.77,DQ,David Cockrell,Lampasas,108.95,226.8,,,,Single-ply,SBD,M

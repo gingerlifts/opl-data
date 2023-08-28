@@ -13,9 +13,9 @@ WeightClassKg,BodyweightKg,Name,Sex,Age,Country,Division,Equipment,Squat1Kg,Squa
 75,74.2,Gerard Smith,M,23,Ireland,Juniors 20-23,Single-ply,245,-262.5,262.5,262.5,152.5,162.5,167.5,167.5,250,270,-280,270,700,1,SBD
 75,72.4,Sam Whittall,M,23,UK,Juniors 20-23,Single-ply,-215,-215,-215,,,,,,,,,,,DQ,SBD
 75,74.8,Meelis Susi,M,34,Ireland,Open,Single-ply,-185,-185,-185,,,,,,,,,,,DQ,SBD
-75,74.5,David Thomas,M,25,UK,Open,Single-ply,210,217.5,-222.5,217.5,-120,122.5,-130,122.5,220,232.5,-240,232.5,572.5,1,SBD
+75,74.5,David Thomas #10,M,25,UK,Open,Single-ply,210,217.5,-222.5,217.5,-120,122.5,-130,122.5,220,232.5,-240,232.5,572.5,1,SBD
 75,73.5,Desmond Drury,M,40,UK,Masters 40-44,Single-ply,-180,180,-195,180,110,115,120,120,-180,180,-185,180,480,2,SBD
-75,71.8,Mike King,M,41,UK,Masters 40-44,Single-ply,180,190,-200,190,115,122.5,125,125,180,192.5,202.5,202.5,517.5,1,SBD
+75,71.8,Mike King #4,M,41,UK,Masters 40-44,Single-ply,180,190,-200,190,115,122.5,125,125,180,192.5,202.5,202.5,517.5,1,SBD
 75,73.9,David Webb #2,M,51,UK,Masters 50-54,Single-ply,150,165,175,175,-120,125,-132.5,125,180,200,210,210,510,1,SBD
 75,73.8,Kári Elíson,M,57,Iceland,Masters 55-59,Single-ply,195,210,220,220,142.5,152.5,157.5,157.5,245,260,,260,637.5,1,SBD
 82.5,79.6,William Kid,M,55,Ireland,Masters 55-59,Single-ply,-150,150,170,170,-70,70,90,90,160,180,200,200,460,1,SBD
@@ -36,7 +36,7 @@ WeightClassKg,BodyweightKg,Name,Sex,Age,Country,Division,Equipment,Squat1Kg,Squa
 90,89,Victor Gomez,M,50,Mexico,Masters 50-54,Single-ply,260,270,-275,270,160,-175,-180,160,225,250,-275,250,680,1,SBD
 90,89.4,Ben Hartigan,M,54,Ireland,Masters 50-54,Single-ply,225,-245,-245,225,100,-110,110,110,190,-210,,190,525,2,SBD
 90,88.9,Harry Whale,M,55,UK,Masters 55-59,Single-ply,180,-202.5,202.5,202.5,160,170,180,180,180,202.5,222.5,222.5,605,1,SBD
-90,88.5,Roy Brown,M,63,UK,Masters 60-64,Single-ply,155,-165,165,165,85,90,95,95,170,185,195,195,455,1,SBD
+90,88.5,Roy Brown #2,M,63,UK,Masters 60-64,Single-ply,155,-165,165,165,85,90,95,95,170,185,195,195,455,1,SBD
 90,89.2,David Clements,M,67,UK,Masters 65-69,Single-ply,160,170,-180,170,120,126,-130,126,-170,185,200,200,496,1,SBD
 100,99.4,Marc Braker,M,30,Netherlands,Open,Single-ply,240,265,275,275,180,190,-195,190,230,240,-245,240,705,6,SBD
 100,96.9,Shane Brodie,M,36,Ireland,Open,Single-ply,330,350,-360,350,190,200,-205,200,280,-295,-295,280,830,3,SBD
@@ -80,7 +80,7 @@ WeightClassKg,BodyweightKg,Name,Sex,Age,Country,Division,Equipment,Squat1Kg,Squa
 140,128.9,Duncan Tanner,M,39,UK,Open,Single-ply,272.5,292.5,-315,292.5,232.5,-245,-245,232.5,245,265,-276,265,790,2,SBD
 140,132.2,Dave Evans,M,39,UK,Open,Single-ply,280,300,307.5,307.5,185,-202.5,-202.5,185,270,290,,290,782.5,3,SBD
 140+,162.1,Richard Fricker,M,49,UK,Open,Single-ply,260,300,-337.5,300,160,177.5,-190,177.5,100,,,100,577.5,1,SBD
-75,72.7,Stephen Davies,M,37,UK,Open,Single-ply,,,,,100,-105,105,105,,,,,105,4,B
+75,72.7,Stephen Davies #2,M,37,UK,Open,Single-ply,,,,,100,-105,105,105,,,,,105,4,B
 75,74.8,Lucas Gijsbertsen,M,29,Netherlands,Open,Single-ply,,,,,180,195,200,200,,,,,200,2,B
 75,70.7,Ruben Perez,M,26,Spain,Open,Single-ply,,,,,160,165,-170,165,,,,,165,3,B
 75,72.4,Robert Truscott,M,37,UK,Open,Single-ply,,,,,-212.5,-212.5,212.5,212.5,,,,,212.5,1,B
@@ -100,7 +100,7 @@ WeightClassKg,BodyweightKg,Name,Sex,Age,Country,Division,Equipment,Squat1Kg,Squa
 100,96.7,Mario Purkarthofer,M,25,Austria,Open,Single-ply,,,,,145,155,160,160,,,,,160,4,B
 100,99.1,Jorg Weinmann,M,38,Germany,Open,Single-ply,,,,,210,-222.5,-222.5,210,,,,,210,2,B
 100,93.7,Thomas Elfner,M,40,Germany,Masters 40-44,Single-ply,,,,,150,185,192.5,192.5,,,,,192.5,1,B
-100,99.8,Tony Brown,M,47,UK,Masters 45-49,Single-ply,,,,,-240,240,245,245,,,,,245,1,B
+100,99.8,Tony Brown #1,M,47,UK,Masters 45-49,Single-ply,,,,,-240,240,245,245,,,,,245,1,B
 100,99.3,Marco Capitani,M,47,Luxembourg,Masters 45-49,Single-ply,,,,,150,157.5,162.5,162.5,,,,,162.5,4,B
 100,97.3,Stacy Dedrick,M,45,USA,Masters 45-49,Single-ply,,,,,230,240,242.5,242.5,,,,,242.5,2,B
 100,97.7,Terry Smith #6,M,47,UK,Masters 45-49,Single-ply,,,,,195,202.5,210,210,,,,,210,3,B
@@ -124,7 +124,7 @@ WeightClassKg,BodyweightKg,Name,Sex,Age,Country,Division,Equipment,Squat1Kg,Squa
 67.5,62.9,Mgbddon Chidi,M,30,Nigeria,Open,Single-ply,,,,,,,,,120,140,150,150,150,1,D
 67.5,67.4,Martin Heindl,M,55,Austria,Masters 55-59,Single-ply,,,,,,,,,185,205,-215,205,205,1,D
 75,73.6,Chris Phelps,M,23,UK,Juniors 20-23,Single-ply,,,,,,,,,210,220.5,-225,220.5,220.5,1,D
-75,72.7,Stephen Davies,M,37,UK,Open,Single-ply,,,,,,,,,135,145,150,150,150,1,D
+75,72.7,Stephen Davies #2,M,37,UK,Open,Single-ply,,,,,,,,,135,145,150,150,150,1,D
 75,74.9,Kári Elíson,M,57,Iceland,Masters 55-59,Single-ply,,,,,,,,,225,245,260.5,260.5,260.5,1,D
 82.5,82,Dayle Longford,M,22,UK,Juniors 20-23,Single-ply,,,,,,,,,285,-300,300,300,300,1,D
 82.5,81.1,Arram Egoyhan,M,26,UK,Open,Single-ply,,,,,,,,,230,250,-260,250,250,1,D
@@ -155,7 +155,7 @@ WeightClassKg,BodyweightKg,Name,Sex,Age,Country,Division,Equipment,Squat1Kg,Squa
 125,110.7,Bjarki Þór Sigurðsson,M,37,Iceland,Open,Single-ply,,,,,,,,,270,290,300,300,300,3,D
 125,118.5,Andrew Ward #2,M,47,UK,Masters 45-49,Single-ply,,,,,,,,,100,,,100,100,1,D
 125,114.8,Joe Dentice,M,52,USA,Masters 50-54,Single-ply,,,,,,,,,-255,262.5,-282.5,262.5,262.5,2,D
-125,117.2,Juan Garcia,M,51,Spain,Masters 50-54,Single-ply,,,,,,,,,-240,,,,,DQ,D
+125,117.2,Juan Garcia #22,M,51,Spain,Masters 50-54,Single-ply,,,,,,,,,-240,,,,,DQ,D
 125,120.6,Gerhard Holleitner,M,51,Austria,Masters 50-54,Single-ply,,,,,,,,,280,292.5,-305,292.5,292.5,1,D
 140,129.1,Benedikt Magnuson,M,42,Iceland,Masters 40-44,Single-ply,,,,,,,,,305,323,-330,323,323,1,D
 140,125.8,Birgir Porteinsson,M,44,Iceland,Masters 40-44,Single-ply,,,,,,,,,260,280,-300,280,280,2,D

@@ -1,12 +1,12 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
 Boys,51.71,1,Fernando Gonzalez,McAllen Memorial,50.17,122.47,86.18,149.69,358.34,Single-ply,SBD,M
 Boys,51.71,2,Enoch Solis,Edinburg Economedes,48.81,136.08,74.84,136.08,347,Single-ply,SBD,M
-Boys,51.71,3,Juan Villarreal,Edinburg North,51.35,92.99,74.84,117.93,285.76,Single-ply,SBD,M
+Boys,51.71,3,Juan Villarreal #5,Edinburg North,51.35,92.99,74.84,117.93,285.76,Single-ply,SBD,M
 Boys,55.79,1,Kevin Trevino,McAllen Memorial,55.61,154.22,113.4,176.9,444.52,Single-ply,SBD,M
 Boys,55.79,2,Samuel Garcia,Weslaco,55.52,117.93,72.57,127.01,317.51,Single-ply,SBD,M
 Boys,55.79,DQ,Edgar No Last Name,Edinburg Vela,55.61,165.56,99.79,,,Single-ply,SBD,M
 Boys,59.87,1,Hugo Gomez,Edinburg North,59.78,174.63,108.86,181.44,464.93,Single-ply,SBD,M
-Boys,59.87,2,Fernando Martinez,Weslaco,59.01,161.03,95.25,181.44,437.72,Single-ply,SBD,M
+Boys,59.87,2,Fernando Martinez #2,Weslaco,59.01,161.03,95.25,181.44,437.72,Single-ply,SBD,M
 Boys,59.87,3,Stanley Davis,McAllen Memorial,59.33,136.08,92.99,145.15,374.21,Single-ply,SBD,M
 Boys,59.87,4,Ruben D Saenz III,McAllen Rowe,59.78,136.08,74.84,136.08,347,Single-ply,SBD,M
 Boys,59.87,5,Diego Esquivel,La Feria,57.79,129.27,70.31,138.35,337.93,Single-ply,SBD,M
@@ -66,7 +66,7 @@ Boys,99.79,1,Arturo Alvarado,La Feria,99.16,260.82,161.03,226.8,648.64,Single-pl
 Boys,99.79,2,Lorenzo Villarreal,Los Fresnos,99.52,235.87,151.95,247.21,635.03,Single-ply,SBD,M
 Boys,99.79,3,Mario Reyna,Edinburg Economedes,99.79,240.4,154.22,235.87,630.49,Single-ply,SBD,M
 Boys,99.79,4,Dylan Earhart,McAllen Memorial,97.52,263.08,142.88,215.46,621.42,Single-ply,SBD,M
-Boys,99.79,5,Axel Hernandez,McAllen Memorial,93.62,226.8,131.54,235.87,594.21,Single-ply,SBD,M
+Boys,99.79,5,Axel Hernandez #1,McAllen Memorial,93.62,226.8,131.54,235.87,594.21,Single-ply,SBD,M
 Boys,99.79,6,Danny Vasquez,La Joya Palmview,92.17,240.4,129.27,204.12,573.79,Single-ply,SBD,M
 Boys,99.79,7,Freddy Lozano,La Feria,93.53,226.8,142.88,204.12,573.79,Single-ply,SBD,M
 Boys,99.79,8,Justin Torres,McAllen Rowe,99.43,204.12,113.4,229.06,546.58,Single-ply,SBD,M
@@ -90,7 +90,7 @@ Boys,109.77,9,Jermemiah Nino,Weslaco,108.91,102.06,68.04,115.67,285.76,Single-pl
 Boys,124.74,1,Austin Cardenas,Weslaco,122.47,263.08,161.03,217.72,641.83,Single-ply,SBD,M
 Boys,124.74,2,Javy Soriano,Los Fresnos,112.4,238.14,149.69,226.8,614.62,Single-ply,SBD,M
 Boys,124.74,3,Raul Martinez,Weslaco,123.42,231.33,129.27,199.58,560.19,Single-ply,SBD,M
-Boys,124.74,4,Jesse Garza,McAllen Rowe,114.03,185.97,127.01,192.78,505.76,Single-ply,SBD,M
+Boys,124.74,4,Jesse Garza #5,McAllen Rowe,114.03,185.97,127.01,192.78,505.76,Single-ply,SBD,M
 Boys,124.74,5,Carlos Torres,La Feria,115.94,192.78,83.91,183.7,460.4,Single-ply,SBD,M
 Boys,124.74,6,Aalok Zimmerman,McAllen Rowe,122.56,185.97,102.06,161.03,449.06,Single-ply,SBD,M
 Boys,124.74+,1,Sam Perez,Weslaco,128.05,281.23,163.29,226.8,671.32,Single-ply,SBD,M

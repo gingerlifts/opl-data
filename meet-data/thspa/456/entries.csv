@@ -2,7 +2,7 @@ Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Be
 Boys,51.71,1,Sawyer Yandell,Devine,51.35,111.13,54.43,108.86,274.42,Single-ply,SBD,M
 Boys,51.71,2,Michael Davis #1,San Antonio East Central,51.35,92.99,49.9,83.91,226.8,Single-ply,SBD,M
 Boys,51.71,3,Garrett Bradley,San Antonio East Central,46.27,61.23,,,61.23,Single-ply,S,M
-Boys,59.87,1,Austin Johnson,Bandera,55.93,142.88,102.06,145.15,390.09,Single-ply,SBD,M
+Boys,59.87,1,Austin Johnson #6,Bandera,55.93,142.88,102.06,145.15,390.09,Single-ply,SBD,M
 Boys,55.79,2,Jon Guillen,Lytle,54.16,124.74,88.45,142.88,356.07,Single-ply,SBD,M
 Boys,55.79,3,Christian Sanchez,Cotulla,54.52,104.33,74.84,142.88,322.05,Single-ply,SBD,M
 Boys,55.79,4,Ronald Sanchez,Poteet,55.7,117.93,72.57,131.54,322.05,Single-ply,SBD,M
@@ -43,7 +43,7 @@ Boys,67.13,20,Sean Santillanes,Uvalde,64.5,99.79,58.97,90.72,249.48,Single-ply,S
 Boys,67.13,DQ,Jacob Escobar,San Antonio East Central,66.95,,,,,Single-ply,SBD,M
 Boys,67.13,DQ,Mark Ruiz,Cotulla,67.13,,,,,Single-ply,SBD,M
 Boys,67.13,DQ,Josh Young,Bandera,67.13,,,,,Single-ply,SBD,M
-Boys,67.13,DQ,Jacob Rodriguez,Crystal City,61.42,,,,,Single-ply,SBD,M
+Boys,67.13,DQ,Jacob Rodriguez #10,Crystal City,61.42,,,,,Single-ply,SBD,M
 Boys,67.13,DQ,Danny Zavala,Crystal City,63.23,,,,,Single-ply,SBD,M
 Boys,74.84,1,Roy Arispe,Devine,73.12,204.12,104.33,206.38,514.83,Single-ply,SBD,M
 Boys,74.84,2,Darrell DuBose,Devine,68.22,172.37,99.79,195.04,467.2,Single-ply,SBD,M
@@ -85,7 +85,7 @@ Boys,89.81,3,Chris Hearn,Cotulla,87.91,192.78,111.13,240.4,544.31,Single-ply,SBD
 Boys,89.81,4,Garrett Perez,Center Point,84.1,165.56,115.67,176.9,458.13,Single-ply,SBD,M
 Boys,89.81,5,Adrian Guardiola,Lytle,87.27,172.37,104.33,179.17,455.86,Single-ply,SBD,M
 Boys,89.81,6,Michael Dobson,Bandera,88,192.78,97.52,161.03,451.32,Single-ply,SBD,M
-Boys,89.81,7,Joe Hernandez,San Antonio East Central,88.9,176.9,104.33,163.29,444.52,Single-ply,SBD,M
+Boys,89.81,7,Joe Hernandez #1,San Antonio East Central,88.9,176.9,104.33,163.29,444.52,Single-ply,SBD,M
 Boys,89.81,8,Santos Dominguez,San Antonio East Central,84.1,158.76,92.99,170.1,421.84,Single-ply,SBD,M
 Boys,89.81,9,Henry Vasquez,San Antonio East Central,84.1,179.17,88.45,151.95,419.57,Single-ply,SBD,M
 Boys,89.81,10,Estaban Ferdin,Lytle,86,117.93,86.18,156.49,360.61,Single-ply,SBD,M
@@ -102,7 +102,7 @@ Boys,99.79,4,Johnny Sanders,Del Rio,97.16,204.12,129.27,188.24,521.63,Single-ply
 Boys,99.79,5,Zane Sanchez,Devine,92.99,195.04,117.93,190.51,503.49,Single-ply,SBD,M
 Boys,99.79,6,Abe Sanchez,San Antonio East Central,97.43,190.51,108.86,192.78,492.15,Single-ply,SBD,M
 Boys,99.79,7,Hector Castillo,San Antonio Memorial,95.53,185.97,102.06,165.56,453.59,Single-ply,SBD,M
-Boys,99.79,8,Omar Martinez,Lytle,96.43,170.1,99.79,181.44,451.32,Single-ply,SBD,M
+Boys,99.79,8,Omar Martinez #4,Lytle,96.43,170.1,99.79,181.44,451.32,Single-ply,SBD,M
 Boys,99.79,9,Juan Rios,Crystal City,90.08,188.24,83.91,172.37,444.52,Single-ply,SBD,M
 Boys,99.79,10,MacNeal Price,San Antonio East Central,97.07,156.49,92.99,183.7,433.18,Single-ply,SBD,M
 Boys,99.79,11,Jacob Jaquez,San Antonio Memorial,90.72,138.35,102.06,147.42,387.82,Single-ply,SBD,M
@@ -127,7 +127,7 @@ Boys,109.77,10,Vicente Aguirre,Carrizo Springs,104.78,108.86,65.77,102.06,276.69
 Boys,109.77,11,Russell Lualemaga,Uvalde,104.87,217.72,,,217.72,Single-ply,S,M
 Boys,109.77,DQ,Cooper Sparks,Medina,109.77,,,,,Single-ply,S,M
 Boys,109.77,DQ,Jeremy Cantu,San Antonio East Central,107.14,,,,,Single-ply,S,M
-Boys,109.77,DQ,Alex Salazar,Center Point,105.78,,,,,Single-ply,S,M
+Boys,109.77,DQ,Alex Salazar #2,Center Point,105.78,,,,,Single-ply,S,M
 Boys,124.74,1,Joey Guzman,Del Rio,122.11,219.99,154.22,215.46,589.67,Single-ply,SBD,M
 Boys,124.74,2,Danny Alvarez,San Antonio East Central,119.2,204.12,136.08,192.78,532.97,Single-ply,SBD,M
 Boys,124.74,3,Gus Zavala,Del Rio,120.56,181.44,142.88,190.51,514.83,Single-ply,SBD,M
@@ -138,7 +138,7 @@ Boys,124.74,7,Alex Hernandez #19,Lytle,120.47,142.88,102.06,149.69,394.63,Single
 Boys,124.74,8,Jeffery Garcia,Carrizo Springs,117.03,136.08,113.4,95.25,344.73,Single-ply,SBD,M
 Boys,124.74,9,Gabriel Gonzales,Devine,116.48,108.86,68.04,108.86,285.76,Single-ply,SBD,M
 Boys,124.74,DQ,Jason Hernandez,Lytle,116.85,,,,,Single-ply,SBD,M
-Boys,124.74,DQ,Tyler Hall,Bandera,115.21,,,,,Single-ply,SBD,M
+Boys,124.74,DQ,Tyler Hall #6,Bandera,115.21,,,,,Single-ply,SBD,M
 Boys,124.74,DQ,Robert Gregory,Center Point,124.74,,,,,Single-ply,SBD,M
 Boys,124.74+,1,Henry Zamora,Uvalde,128,278.96,140.61,229.06,648.64,Single-ply,SBD,M
 Boys,124.74+,2,Darryel Senney,Del Rio,134.54,190.51,138.35,172.37,501.22,Single-ply,SBD,M

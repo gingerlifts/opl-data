@@ -1,15 +1,15 @@
 //! Tests for the Rocket code in main.rs.
 
+use langpack::Language;
+use opldb::OplDb;
+use rocket::http::{Cookie, Header, Status};
+use rocket::local::blocking::Client;
+
+use std::path::Path;
+use std::sync::Once;
+
 use super::rocket;
 use super::Device;
-
-use opldb::OplDb;
-use server::langpack::{LangInfo, Language};
-
-use rocket::http::{Cookie, Header, Status};
-use rocket::local::Client;
-
-use std::sync::Once;
 
 static mut OPLDB_GLOBAL: Option<OplDb> = None;
 static OPLDB_INIT: Once = Once::new();
@@ -24,36 +24,25 @@ fn db() -> &'static OplDb {
             // This isn't really the place for it, but preload the environment.
             dotenv::from_filename("server.env").unwrap();
 
-            OPLDB_GLOBAL =
-                Some(OplDb::from_csv(LIFTERS_CSV, MEETS_CSV, ENTRIES_CSV).unwrap());
+            OPLDB_GLOBAL = Some(
+                OplDb::from_csv(
+                    Path::new(LIFTERS_CSV),
+                    Path::new(MEETS_CSV),
+                    Path::new(ENTRIES_CSV),
+                )
+                .unwrap(),
+            );
         });
 
         OPLDB_GLOBAL.as_ref().unwrap()
     }
 }
 
-static mut LANGINFO_GLOBAL: Option<LangInfo> = None;
-static LANGINFO_INIT: Once = Once::new();
-
-fn langinfo() -> &'static LangInfo {
-    unsafe {
-        LANGINFO_INIT.call_once(|| {
-            LANGINFO_GLOBAL = Some(super::load_langinfo().unwrap());
-        });
-        LANGINFO_GLOBAL.as_ref().unwrap()
-    }
-}
-
 /// Returns a client's view into the Rocket server, suitable for making
 /// requests.
 fn client() -> Client {
-    Client::new(rocket(db(), langinfo())).expect("valid rocket instance")
-}
-
-#[test]
-fn test_db_loads() {
-    db();
-    langinfo();
+    // Untracked here means that cookie changes from the server need not be remembered.
+    Client::untracked(rocket(db())).expect("valid rocket instance")
 }
 
 /// Simulates a GET request to a url from a specific device.
@@ -74,7 +63,7 @@ fn test_pages_load() {
 
     // Ensure that pages load on every kind of supported device.
     // Internally, these share contexts, but have different templates.
-    for device in vec![Device::Desktop, Device::Mobile] {
+    for &device in &[Device::Desktop, Device::Mobile] {
         assert_eq!(get(&client, device, "/"), Status::Ok);
         assert_eq!(get(&client, device, "/rankings/uspa"), Status::Ok);
         assert_eq!(get(&client, device, "/records"), Status::Ok);
@@ -84,7 +73,6 @@ fn test_pages_load() {
         assert_eq!(get(&client, device, "/m/uspa/0485"), Status::Ok);
         assert_eq!(get(&client, device, "/m/gpc-aus/1827"), Status::Ok);
         assert_eq!(get(&client, device, "/status"), Status::Ok);
-        assert_eq!(get(&client, device, "/data"), Status::Ok);
         assert_eq!(get(&client, device, "/faq"), Status::Ok);
         assert_eq!(get(&client, device, "/contact"), Status::Ok);
 
@@ -102,7 +90,7 @@ fn test_pages_load_for_openipf() {
 
     // Ensure that pages load on every kind of supported device.
     // Internally, these share contexts, but have different templates.
-    for device in vec![Device::Desktop, Device::Mobile] {
+    for &device in &[Device::Desktop, Device::Mobile] {
         assert_eq!(get(&client, device, "/dist/openipf/"), Status::Ok);
         assert_eq!(
             get(&client, device, "/dist/openipf/rankings/uspa"),
@@ -123,7 +111,6 @@ fn test_pages_load_for_openipf() {
             Status::Ok
         );
         assert_eq!(get(&client, device, "/dist/openipf/status"), Status::Ok);
-        assert_eq!(get(&client, device, "/dist/openipf/data"), Status::Ok);
         assert_eq!(get(&client, device, "/dist/openipf/faq"), Status::Ok);
         assert_eq!(get(&client, device, "/dist/openipf/contact"), Status::Ok);
 
@@ -149,21 +136,24 @@ fn test_small_rankings_pages() {
 #[test]
 fn test_meet_pages_with_explicit_sorts() {
     let client = client();
-    assert_eq!(get(&client, Device::Desktop, "/m/wrpf/bob4"), Status::Ok);
     assert_eq!(
-        get(&client, Device::Desktop, "/m/wrpf/bob4/by-glossbrenner"),
+        get(&client, Device::Desktop, "/m/wrpf-usa/bob4"),
         Status::Ok
     );
     assert_eq!(
-        get(&client, Device::Desktop, "/m/wrpf/bob4/by-ipf-points"),
+        get(&client, Device::Desktop, "/m/wrpf-usa/bob4/by-glossbrenner"),
         Status::Ok
     );
     assert_eq!(
-        get(&client, Device::Desktop, "/m/wrpf/bob4/by-division"),
+        get(&client, Device::Desktop, "/m/wrpf-usa/bob4/by-ipf-points"),
         Status::Ok
     );
     assert_eq!(
-        get(&client, Device::Desktop, "/m/wrpf/bob4/by-total"),
+        get(&client, Device::Desktop, "/m/wrpf-usa/bob4/by-division"),
+        Status::Ok
+    );
+    assert_eq!(
+        get(&client, Device::Desktop, "/m/wrpf-usa/bob4/by-total"),
         Status::Ok
     );
 }
@@ -200,13 +190,7 @@ fn test_old_redirects() {
         "/m/rps/1617"
     );
 
-    let response = client.get("/?fed=USPA").dispatch();
-    assert_eq!(response.status(), Status::PermanentRedirect);
-    assert_eq!(
-        response.headers().get_one("location").unwrap(),
-        "/rankings/uspa"
-    );
-
+    // 365Strong is the last federation using this link style.
     let response = client.get("/?fed=365Strong").dispatch();
     assert_eq!(response.status(), Status::PermanentRedirect);
     assert_eq!(
@@ -221,10 +205,6 @@ fn test_old_redirects() {
     let response = client.get("/meetlist.html").dispatch();
     assert_eq!(response.status(), Status::PermanentRedirect);
     assert_eq!(response.headers().get_one("location").unwrap(), "/mlist");
-
-    let response = client.get("/data.html").dispatch();
-    assert_eq!(response.status(), Status::PermanentRedirect);
-    assert_eq!(response.headers().get_one("location").unwrap(), "/data");
 
     let response = client.get("/faq.html").dispatch();
     assert_eq!(response.status(), Status::PermanentRedirect);
@@ -263,23 +243,23 @@ fn test_accept_language_header() {
     for language in Language::string_list() {
         let content = format!("<html lang=\"{}\"", &language);
         let client = client();
-        let mut res = client
+        let res = client
             .get("/")
             .header(Header::new("Accept-Language", language))
             .dispatch();
         assert_eq!(res.status(), Status::Ok);
-        assert!(res.body_string().unwrap().contains(&content));
+        assert!(res.into_string().unwrap().contains(&content));
     }
 
     // The "lang" cookie should override Accept-Language.
     let client = client();
-    let mut res = client
+    let res = client
         .get("/")
         .header(Header::new("Accept-Language", "ru"))
         .cookie(Cookie::new("lang", "eo"))
         .dispatch();
     assert_eq!(res.status(), Status::Ok);
-    assert!(res.body_string().unwrap().contains("<html lang=\"eo\""));
+    assert!(res.into_string().unwrap().contains("<html lang=\"eo\""));
 }
 
 /// Setting the "lang" cookie should change the text language,
@@ -288,9 +268,9 @@ fn test_accept_language_header() {
 fn test_language_cookie() {
     let client = client();
     let lang_cookie = Cookie::new("lang", "ru");
-    let mut res = client.get("/").cookie(lang_cookie).dispatch();
+    let res = client.get("/").cookie(lang_cookie).dispatch();
     assert_eq!(res.status(), Status::Ok);
-    assert!(res.body_string().unwrap().contains("<html lang=\"ru\""));
+    assert!(res.into_string().unwrap().contains("<html lang=\"ru\""));
 }
 
 /// A nonsense "lang" cookie value should still render OK (with the English
@@ -299,9 +279,9 @@ fn test_language_cookie() {
 fn test_language_cookie_nonsense() {
     let client = client();
     let lang_cookie = Cookie::new("lang", "fgsfds");
-    let mut res = client.get("/").cookie(lang_cookie).dispatch();
+    let res = client.get("/").cookie(lang_cookie).dispatch();
     assert_eq!(res.status(), Status::Ok);
-    assert!(res.body_string().unwrap().contains("<html lang=\"en\""));
+    assert!(res.into_string().unwrap().contains("<html lang=\"en\""));
 }
 
 /// Passing the "?lang=" GET parameter should override the "lang" cookie.
@@ -309,9 +289,9 @@ fn test_language_cookie_nonsense() {
 fn test_language_getparam_override() {
     let client = client();
     let lang_cookie = Cookie::new("lang", "ru");
-    let mut res = client.get("/?lang=de").cookie(lang_cookie).dispatch();
+    let res = client.get("/?lang=de").cookie(lang_cookie).dispatch();
     assert_eq!(res.status(), Status::Ok);
-    assert!(res.body_string().unwrap().contains("<html lang=\"de\""));
+    assert!(res.into_string().unwrap().contains("<html lang=\"de\""));
 }
 
 /// Passing nonsense to the "?lang=" GET parameter should still use the cookie.
@@ -319,9 +299,9 @@ fn test_language_getparam_override() {
 fn test_language_getparam_nonsense() {
     let client = client();
     let lang_cookie = Cookie::new("lang", "ru");
-    let mut res = client.get("/?lang=fgsfds").cookie(lang_cookie).dispatch();
+    let res = client.get("/?lang=fgsfds").cookie(lang_cookie).dispatch();
     assert_eq!(res.status(), Status::Ok);
-    assert!(res.body_string().unwrap().contains("<html lang=\"ru\""));
+    assert!(res.into_string().unwrap().contains("<html lang=\"ru\""));
 }
 
 /// Test that some nonsensical rankings options don't crash the server.

@@ -46,7 +46,7 @@ WeightClassKg,Event,Equipment,Sex,Tested,Name,CyrillicName,BirthDate,Division,Bo
 75,B,Raw,M,Yes,Ivan Karpov,Иван Карпов,1988-08-10,Amateur Open,73.5,,,,,,162.5,170,175,,175,,,,,,175,1
 75,B,Raw,M,Yes,Vladimir Malyavkin,Владимир Малявкин,1986-03-26,Amateur Open,75,,,,,,145,150,152.5,,152.5,,,,,,152.5,2
 75,B,Raw,M,Yes,Daniil Lamanov,Даниил Ламанов,1987-08-17,Amateur Open,72.45,,,,,,140,150,-155,,150,,,,,,150,3
-75,B,Raw,M,Yes,Evgeniy Zuev,Евгений Зуев,1985-07-11,Amateur Open,72.85,,,,,,-150,150,-152.5,,150,,,,,,150,4
+75,B,Raw,M,Yes,Evgeniy Zuev #5,Евгений Зуев,1985-07-11,Amateur Open,72.85,,,,,,-150,150,-152.5,,150,,,,,,150,4
 75,B,Raw,M,Yes,Khuseyn Ishmatov,Хусейн Ишматов,1978-01-08,Amateur Open,74,,,,,,130,135,142.5,,142.5,,,,,,142.5,5
 75,B,Raw,M,Yes,Vitaliy Tsarev,Виталий Царев,1975-05-31,Amateur Open,74.4,,,,,,130,137.5,-140,,137.5,,,,,,137.5,6
 75,B,Raw,M,Yes,Aleksandr Fomin,Александр Фомин,1985-03-26,Amateur Open,74,,,,,,130,135,-140,,135,,,,,,135,7
@@ -54,7 +54,7 @@ WeightClassKg,Event,Equipment,Sex,Tested,Name,CyrillicName,BirthDate,Division,Bo
 75,B,Raw,M,Yes,Vladimir Ovcharov,Владимир Овчаров,1972-05-30,Amateur Open,73.8,,,,,,125,132.5,-140,,132.5,,,,,,132.5,9
 75,B,Raw,M,Yes,Valeriy Matyunin,Валерий Матюнин,1983-06-22,Amateur Open,74.1,,,,,,115,120,-125,,120,,,,,,120,10
 75,B,Raw,M,Yes,Aleksey Shatilov,Алексей Шатилов,1989-01-12,Amateur Open,73.8,,,,,,110,115,-125,,115,,,,,,115,11
-75,B,Raw,M,Yes,Anton Alekseev,Антон Алексеев,1988-11-25,Amateur Open,73.05,,,,,,-90,90,-95,,90,,,,,,90,12
+75,B,Raw,M,Yes,Anton Alekseev #2,Антон Алексеев,1988-11-25,Amateur Open,73.05,,,,,,-90,90,-95,,90,,,,,,90,12
 82.5,B,Raw,M,Yes,Vitaliy Dubrovin,Виталий Дубровин,1982-08-06,Amateur Open,81.7,,,,,,180,-187.5,187.5,,187.5,,,,,,187.5,1
 82.5,B,Raw,M,Yes,Aleksey Rodik-Knyazev,Алексей Родик-Князев,1981-02-01,Amateur Open,79.2,,,,,,150,160,172.5,,172.5,,,,,,172.5,2
 82.5,B,Raw,M,Yes,Aleksandr Shchelkov,Александр Щелков,1989-11-05,Amateur Open,79.1,,,,,,150,155,-160,,155,,,,,,155,4
@@ -162,7 +162,7 @@ WeightClassKg,Event,Equipment,Sex,Tested,Name,CyrillicName,BirthDate,Division,Bo
 82.5,B,Multi-ply,M,Yes,Konstantin Smirnov,Константин Смирнов,1962-07-15,Amateur Masters 50-54,79.7,,,,,,140,-151,-151,,140,,,,,,140,1
 90,B,Multi-ply,M,Yes,Nikolay Kuznetsov,Николай Кузнецов,1960-12-28,Amateur Masters 50-54,89.75,,,,,,-150,-150,-150,,,,,,,,,DQ
 56,B,Multi-ply,M,Yes,Sergey Bogun,Сергей Богун,1999-04-03,Amateur Open,55.9,,,,,,-135,-135,-135,,,,,,,,,DQ
-75,B,Multi-ply,M,Yes,Evgeniy Zuev,Евгений Зуев,1985-07-11,Amateur Open,72.85,,,,,,195,-205,-205,,195,,,,,,195,1
+75,B,Multi-ply,M,Yes,Evgeniy Zuev #5,Евгений Зуев,1985-07-11,Amateur Open,72.85,,,,,,195,-205,-205,,195,,,,,,195,1
 75,B,Multi-ply,M,Yes,Yuriy Mikhaylov,Юрий Михайлов,1987-07-22,Amateur Open,74.6,,,,,,150,157.5,162.5,,162.5,,,,,,162.5,2
 75,B,Multi-ply,M,Yes,Aleksandr Moiseev,Александр Моисеев,1980-05-06,Amateur Open,73.8,,,,,,150,-157.5,-157.5,,150,,,,,,150,3
 75,B,Multi-ply,M,Yes,Sergey Zhuganenko,Сергей Жуганенко,1987-02-11,Amateur Open,73.9,,,,,,-150,-150,-150,,,,,,,,,DQ
@@ -259,7 +259,7 @@ WeightClassKg,Event,Equipment,Sex,Tested,Name,CyrillicName,BirthDate,Division,Bo
 67.5,SBD,Wraps,M,Yes,Sergey Velts,Сергей Вельц,1996-04-07,Amateur Teen 17-19,65.45,120,130,-140,,130,90,-95,95,,95,-160,170,-175,,170,395,2
 75,SBD,Wraps,M,Yes,Ilya Vakulin,Илья Вакулин,1994-01-19,Amateur Teen 17-19,74.15,150,-162.5,162.5,,162.5,120,127.5,132.5,,132.5,180,200,-207.5,,200,495,1
 75,SBD,Wraps,M,Yes,Vladislav Popov,Владислав Попов,1994-10-02,Amateur Teen 17-19,69.3,140,150,155,,155,95,-105,-105,,95,205,-215,-215,,205,455,2
-75,SBD,Wraps,M,Yes,Evgeniy Zakharov,Евгений Захаров,1996-08-08,Amateur Teen 17-19,72.2,-130,130,-140,,130,100,-107.5,112.5,,112.5,160,175,-190,,175,417.5,3
+75,SBD,Wraps,M,Yes,Evgeniy Zakharov #4,Евгений Захаров,1996-08-08,Amateur Teen 17-19,72.2,-130,130,-140,,130,100,-107.5,112.5,,112.5,160,175,-190,,175,417.5,3
 75,SBD,Wraps,M,Yes,Yaroslav Gusev,Ярослав Гусев,1995-11-25,Amateur Teen 17-19,71.15,-125,125,135,,135,85,95,-102.5,,95,165,-175,-175,,165,395,4
 75,SBD,Wraps,M,Yes,Aleksandr Plutakhin,Александр Плутахин,1996-11-17,Amateur Teen 17-19,74.95,100,110,115,,115,90,95,-97.5,,95,130,-140,140,,140,350,5
 75,SBD,Wraps,M,Yes,Vladislav Pechenkin,Владислав Печенкин,1994-08-17,Amateur Teen 17-19,70.9,72.5,80,90,,90,50,60,-62.5,,60,100,115,125,,125,275,6
@@ -301,7 +301,7 @@ WeightClassKg,Event,Equipment,Sex,Tested,Name,CyrillicName,BirthDate,Division,Bo
 56,SBD,Wraps,F,Yes,Evgeniya Rapikova,Евгения Рапикова,1988-08-07,Amateur Open,54.85,80,92.5,100,,100,30,-35,-35,,30,95,-107.5,-107.5,,95,225,7
 56,SBD,Wraps,F,Yes,Nadezhda Ponomareva,Надежда Пономарева,1987-02-07,Amateur Open,55,70,-80,80,,80,45,-50,-50,,45,-100,100,-110,,100,225,8
 56,SBD,Wraps,F,Yes,Tatyana Slepokurova,Татьяна Слепокурова,1969-01-07,Amateur Open,55.65,60,65,-70,,65,35,40,-42.5,,40,80,95,-100,,95,200,9
-60,SBD,Wraps,F,Yes,Darya Litvinova,Дарья Литвинова,1988-12-14,Amateur Open,60,62.5,70,-77.5,,70,35,-40,-40,,35,80,90,-95,,90,195,3
+60,SBD,Wraps,F,Yes,Darya Litvinova #2,Дарья Литвинова,1988-12-14,Amateur Open,60,62.5,70,-77.5,,70,35,-40,-40,,35,80,90,-95,,90,195,3
 67.5,SBD,Wraps,F,Yes,Natalya Leonteva,Наталья Леонтьева,1989-06-10,Amateur Open,67.5,107.5,115,-117.5,,115,55,62.5,65,,65,122.5,130,137.5,,137.5,317.5,2
 67.5,SBD,Wraps,F,Yes,Yuliya Dubrovina,Юлия Дубровина,1983-07-14,Amateur Open,66.2,95,-100,-100,,95,52.5,55,57.5,,57.5,120,130,-137.5,,130,282.5,4
 67.5,SBD,Wraps,F,Yes,Oksana Chudnaya,Оксана Чудная,1977-05-30,Amateur Open,66.7,100,105,110,,110,50,55,-60,,55,115,-120,,,115,280,5
@@ -324,7 +324,7 @@ WeightClassKg,Event,Equipment,Sex,Tested,Name,CyrillicName,BirthDate,Division,Bo
 67.5,SBD,Multi-ply,M,Yes,Arsentiy Shishkin,Арсентий Шишкин,1939-05-02,Amateur Masters 70-74,67.5,175,185,195,,195,60,70,85,,85,160,-185,185,,185,465,1
 75,SBD,Multi-ply,M,Yes,Evgeniy Bykov,Евгений Быков,1984-08-02,Amateur Open,73.85,225,-235,-235,,225,145,-152.5,-152.5,,145,200,220,240,,240,610,1
 75,SBD,Multi-ply,M,Yes,Konstantin Polyakov,Константин Поляков,1976-04-21,Amateur Open,71.95,160,175,190,,190,110,115,,,115,170,185,200,,200,505,2
-90,SBD,Multi-ply,M,Yes,Artem Bykhovets,Артём Быховец,1983-07-19,Amateur Open,89.1,250,280,-310,,280,190,-210,-210,,190,220,240,260,-281,260,730,2
+90,SBD,Multi-ply,M,Yes,Artem Bykhovets,Артем Быховец,1983-07-19,Amateur Open,89.1,250,280,-310,,280,190,-210,-210,,190,220,240,260,-281,260,730,2
 100,SBD,Multi-ply,M,Yes,Sergey Gerber,Сергей Гербер,1977-07-15,Amateur Open,95.95,210,220,-225,,220,-150,150,155,,155,215,225,-235,,225,600,1
 90,B,Raw,M,No,Vladimir Kryttsev,Владимир Крытцев,1990-11-19,Pro Juniors 20-23,88.5,,,,,,135,145,-150,,145,,,,,,145,4
 90,B,Raw,M,No,Mikhail Kovalev,Михаил Ковалев,1990-04-04,Pro Juniors 20-23,90,,,,,,130,135,-140,,135,,,,,,135,5
@@ -445,7 +445,7 @@ WeightClassKg,Event,Equipment,Sex,Tested,Name,CyrillicName,BirthDate,Division,Bo
 140,SBD,Wraps,M,No,Ivan Tsimbal,Иван Цимбал,1996-07-25,Pro Teen 17-19,139.25,245,260,270,,270,125,140,-150,,140,225,245,-255,,245,655,1
 52,SBD,Wraps,F,No,Anna Galkina,Анна Галкина,1991-11-11,Pro Open,51.5,70,80,87.5,,87.5,52.5,57.5,60,,60,80,-90,-90,,80,227.5,2
 56,SBD,Wraps,F,No,Svetlana Stelmashenko,Светлана Стельмашенко,1985-06-16,Pro Open,55.6,-82.5,82.5,87.5,,87.5,62.5,67.5,-72.5,,67.5,130,140,145,,145,300,1
-60,SBD,Wraps,F,No,Galina Tukal,Галина Тукаль,1989-06-19,Pro Open,59,110,120,122.5,,122.5,52.5,57.5,-60,,57.5,145,155,162.5,,162.5,342.5,1
+60,SBD,Wraps,F,No,Galina Abramova,Галина Абрамова,1989-06-19,Pro Open,59,110,120,122.5,,122.5,52.5,57.5,-60,,57.5,145,155,162.5,,162.5,342.5,1
 60,SBD,Wraps,F,No,Veronika Kozhevnikova,Вероника Кожевникова,1987-09-11,Pro Open,59,70,77.5,-82.5,,77.5,35,40,-45,,40,75,85,90,,90,207.5,2
 67.5,SBD,Wraps,F,No,Irina Denisova,Ирина Денисова,1990-02-10,Pro Open,66.55,120,125,-127.5,,125,60,65,-67.5,,65,145,157.5,162.5,,162.5,352.5,1
 67.5,SBD,Wraps,F,No,Kseniya Baskakova,Ксения Баскакова,1992-02-23,Pro Open,64.8,95,105,-112.5,,105,65,70,77.5,,77.5,110,120,132.5,,132.5,315,3

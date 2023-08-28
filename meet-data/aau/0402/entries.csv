@@ -105,7 +105,7 @@ M,Ray Lopez,CA,USA,B,68,75,Raw,LM 65-69,,,127.5,130,,,127.5,1
 M,James Mathews,CA,USA,B,70,75,Raw,LM 70-74,,,92.5,,,,92.5,1
 M,Mark Mathews Jr,CA,USA,B,14,75,Raw,T 14-15,,,130,,,,130,1
 M,Shawn Wingert,MO,USA,B,36,75,Single-ply,Sub,,,140,,,,140,1
-M,Mike Bingham,PA,USA,B,39,82.5,Single-ply,Law/Mil,,,170,,,,170,1
+M,Michael Bingham,PA,USA,B,39,82.5,Single-ply,Law/Mil,,,170,,,,170,1
 M,David Torrez,NM,USA,B,27,82.5,Single-ply,Life,,,,,,,,DQ
 M,Rich Branch,CA,USA,B,48,82.5,Single-ply,LM 45-49,,,152.5,,,,152.5,1
 M,Martin Drake,CA,USA,B,53,82.5,Single-ply,LM 50-54,,,155.5,,,,155.5,1
@@ -119,25 +119,25 @@ M,Greg Clover,CA,USA,B,55,82.5,Single-ply,M 55-59,,,147.5,,,,147.5,1
 M,Les Cramer,FL,USA,B,62,82.5,Single-ply,M 60-64,,,60,,,,60,1
 M,Rudy Lozano,CA,USA,B,65,82.5,Single-ply,M 65-69,,,160,,,,160,1
 M,Richard Simon,CA,USA,B,73,82.5,Single-ply,M 70-74,,,110,,,,110,1
-M,Mike Bingham,PA,USA,B,39,82.5,Single-ply,Open,,,170,,,,170,1
+M,Michael Bingham,PA,USA,B,39,82.5,Single-ply,Open,,,170,,,,170,1
 M,Saul Baldaramo,,Mexico,B,32,82.5,Single-ply,Open,,,165,,,,165,2
 M,Kevin Nunez,CA,USA,B,34,82.5,Raw,Life,,,137.5,,,,137.5,1
 M,Kevin Nunez,CA,USA,B,34,82.5,Raw,Open,,,137.5,,,,137.5,1
 M,Thomas Hendron,NV,USA,B,47,82.5,Raw,LM 45-49,,,105,,,,105,1
 M,Greg Clover,CA,USA,B,55,82.5,Raw,LM 55-59,,,147.5,,,,147.5,1
-M,Yogi Sumner,NC,USA,B,55,82.5,Raw,LM 55-59,,,115,120.5,,,115,2
+M,Frank Sumner,NC,USA,B,55,82.5,Raw,LM 55-59,,,115,120.5,,,115,2
 M,Thomas Hendron,NV,USA,B,47,82.5,Raw,M 45-49,,,105,,,,105,1
 M,Martin Drake,CA,USA,B,53,82.5,Raw,M 50-54,,,140,141,,,140,1
 M,Greg Clover,CA,USA,B,55,82.5,Raw,M 55-59,,,147.5,,,,147.5,1
 M,Matt Clark,CA,USA,B,16,82.5,Raw,T 16-17,,,110,,,,110,1
-M,Mike Bingham,PA,USA,B,39,82.5,Single-ply,Sub,,,170,,,,170,1
+M,Michael Bingham,PA,USA,B,39,82.5,Single-ply,Sub,,,170,,,,170,1
 M,Jose Cabrera,,Puerto Rico,B,41,90,Single-ply,Life,,,172.5,,,,172.5,1
 M,Aurelio Velazquez,CA,USA,B,40,90,Single-ply,Life,,,142.5,,,,142.5,2
 M,Les Hilger,CA,USA,B,61,90,Single-ply,LM 60-64,,,142.5,146,,,142.5,1
 M,Fred Collingwood,CA,USA,B,60,90,Single-ply,LM 60-64,,,141,143,,,141,2
 M,Kurt Matison,AR,USA,B,40,90,Single-ply,M 40-44,,,,,,,,DQ
 M,Bill Weiss,CA,USA,B,45,90,Single-ply,M 45-49,,,,,,,,DQ
-M,Ronald Matheson,AZ,USA,B,61,90,Single-ply,M 60-64,,,167.5,,,,167.5,1
+M,Ron Matheson,AZ,USA,B,61,90,Single-ply,M 60-64,,,167.5,,,,167.5,1
 M,Troy Stuart,KS,USA,B,30,90,Single-ply,Open,,,220,,,,220,1
 M,Sean DeMarinis,CA,USA,B,18,90,Single-ply,Open,,,,,,,,DQ
 M,Sam Arase,CA,USA,B,46,90,Raw,Law/Mil,,,175,,,,175,1
@@ -160,7 +160,7 @@ M,Mike Romero,,USA,B,36,100,Single-ply,Open,,,257.5,,,,257.5,1
 M,Joe Thompson,IA,USA,B,31,100,Single-ply,Open,,,232.5,240,,,232.5,2
 M,Michael Carrol,,UK,B,34,100,Raw,Open,,,,,,,,DQ
 M,Leo Cicheli,NY,USA,B,44,100,Raw,LM 40-44,,,202.5,,,,202.5,1
-M,Mark Mathews,CA,USA,B,41,100,Raw,LM 40-44,,,175,,,,175,2
+M,Mark Mathews Sr,CA,USA,B,41,100,Raw,LM 40-44,,,175,,,,175,2
 M,John Kuhar,OH,USA,B,57,100,Raw,LM 55-59,,,172.5,,,,172.5,1
 M,Earl Evatt,AZ,USA,B,70,100,Raw,LM 70-74,,,130,132.5,,,130,1
 M,John Kuhar,OH,USA,B,57,100,Raw,M 55-59,,,172.5,,,,172.5,1
@@ -205,15 +205,15 @@ M,Steve Freides,NJ,USA,D,49,67.5,Raw,LM 45-49,,,,,157.5,,157.5,1
 M,Steve Freides,NJ,USA,D,49,67.5,Raw,M 45-49,,,,,157.5,,157.5,1
 M,Joseph Moon,CA,USA,D,13,67.5,Raw,T 12-13,,,,,156,,156,1
 M,Martin Montgomery,IN,USA,D,62,75,Single-ply,LM 60-64,,,,,,,,DQ
-M,Jim Warner,OH,USA,D,48,75,Single-ply,M 45-49,,,,,,,,DQ
+M,Jim Warner #1,OH,USA,D,48,75,Single-ply,M 45-49,,,,,,,,DQ
 M,Martin Montgomery,IN,USA,D,62,75,Single-ply,M 60-64,,,,,,,,DQ
-M,Jim Warner,OH,USA,D,48,75,Single-ply,Open,,,,,,,,DQ
+M,Jim Warner #1,OH,USA,D,48,75,Single-ply,Open,,,,,,,,DQ
 M,James Mathews,CA,USA,D,70,75,Raw,LM 70-74,,,,,180,,180,1
 M,Rich Branch,CA,USA,D,48,82.5,Single-ply,LM 45-49,,,,,227.5,228,227.5,1
 M,Brad Weber,ND,USA,D,52,82.5,Single-ply,LM 50-54,,,,,232.5,,232.5,1
 M,Stephen Montrose,FL,USA,D,87,82.5,Single-ply,LM 85-89,,,,,,,,DQ
 M,Brad Weber,ND,USA,D,52,82.5,Single-ply,M 50-54,,,,,232.5,,232.5,1
-M,Yogi Sumner,NC,USA,D,55,82.5,Raw,LM 55-59,,,,,150,,150,1
+M,Frank Sumner,NC,USA,D,55,82.5,Raw,LM 55-59,,,,,150,,150,1
 M,Bill Ennis,CA,USA,D,57,82.5,Raw,M 55-59,,,,,,,,DQ
 M,Carlos Acosta #1,CA,USA,D,65,82.5,Raw,M 65-69,,,,,175,182.5,175,1
 M,Jose Cabrera,,Puerto Rico,D,41,90,Single-ply,Life,,,,,250,,250,1
@@ -225,16 +225,16 @@ M,Tommy Williams,MD,USA,D,43,90,Raw,M 40-44,,,,,290,,290,1
 M,Herb Heald,TX,USA,D,54,90,Raw,M 50-54,,,,,172.5,,172.5,1
 M,Bernabe De La Rosa,CA,USA,D,17,90,Raw,T 16-17,,,,,225,,225,1
 M,Oscar Orengo,,Puerto Rico,D,33,100,Single-ply,Life,,,,,250,,250,1
-M,Oswaldo Aguire,,Mexico,B,28,100,Single-ply,Open,,,205,,,,205,3
-M,Oswaldo Aguire,,Mexico,BD,,100,Raw,Open,,,205,,300,,505,1
+M,Oswaldo Aguirre,,Mexico,B,28,100,Single-ply,Open,,,205,,,,205,3
+M,Oswaldo Aguirre,,Mexico,BD,,100,Raw,Open,,,205,,300,,505,1
 M,Martin Vogt,AZ,USA,D,60,100,Raw,LM 60-64,,,,,155,,155,1
-M,John DuMont,CA,USA,D,60,110,Single-ply,M 60-64,,,,,245,,245,1
+M,John DuMont #1,CA,USA,D,60,110,Single-ply,M 60-64,,,,,245,,245,1
 M,Luis Mendivil,,Mexico,BD,25,110,Single-ply,Open,,,190,,265,,455,1
 M,Luis Mendivil,,Mexico,BD,25,110,Raw,Open,,,165,,260,,425,1
 M,Steve Landry,CA,USA,D,,110,Single-ply,Sub,,,,,300,,300,1
 M,Alan Nicol,,UK,D,57,125,Single-ply,Life,,,,,260,,260,1
 M,Alan Nicol,,UK,D,57,125,Single-ply,LM 55-59,,,,,260,,260,1
-M,Ryan Stewart,CA,USA,D,25,125,Raw,Open,,,,,257.5,,257.5,1
+M,Ryan Stewart #2,CA,USA,D,25,125,Raw,Open,,,,,257.5,,257.5,1
 M,Alan Nicol,,UK,D,57,125,Raw,LM 55-59,,,,,260,,260,1
 M,John Heldt,NV,USA,D,34,140,Raw,Open,,,,,250,,250,1
 M,Chase Akina,HI,USA,SBD,9,35,Raw,Y 8-9,,,,,,,,DQ
@@ -307,7 +307,7 @@ M,Charles Stocking,CA,USA,SBD,24,82.5,Raw,Open,212.5,,130,,237.5,,580,1
 M,Wille Wong,,Canada,SBD,43,82.5,Raw,LM 40-44,,,,,,,,DQ
 M,Joe Formato,VA,USA,SBD,47,82.5,Raw,LM 45-49,162.5,,122.5,,207.5,,492.5,1
 M,Martin Drake,CA,USA,SBD,53,82.5,Raw,LM 50-54,65,,140,141,65,,270,1
-M,Yogi Sumner,NC,USA,SBD,55,82.5,Raw,LM 55-59,105,,115,120.5,150,,370,1
+M,Frank Sumner,NC,USA,SBD,55,82.5,Raw,LM 55-59,105,,115,120.5,150,,370,1
 M,Wille Wong,,Canada,SBD,43,82.5,Raw,M 40-44,,,,,,,,DQ
 M,Ted Hoffman,VA,USA,SBD,44,82.5,Raw,M 40-44,,,,,,,,DQ
 M,Joe Formato,VA,USA,SBD,47,82.5,Raw,M 45-49,162.5,,122.5,,207.5,,492.5,1
@@ -340,7 +340,7 @@ M,Edwin Lewis,CA,USA,SBD,55,90,Raw,M 55-59,180,,100,,195,,475,1
 M,Bernabe De La Rosa,CA,USA,SBD,17,90,Raw,T 16-17,182.5,,132.5,,225,,540,1
 M,Job Hou-Sey,WI,USA,SBD,37,90,Single-ply,Sub,197.5,,147.5,,195,,540,1
 M,Jon Weisman,AZ,USA,SBD,40,100,Single-ply,Law/Mil,277.5,,192.5,,275,,745,1
-M,Dave Muro,CA,USA,SBD,34,100,Single-ply,Life,272.5,,177.5,,300,,750,1
+M,David Muro,CA,USA,SBD,34,100,Single-ply,Life,272.5,,177.5,,300,,750,1
 M,Norm Judd,ND,USA,SBD,47,100,Single-ply,Life,255,,192.5,,255,,702.5,2
 M,Oscar Orengo,,Puerto Rico,SBD,33,100,Single-ply,Life,265,,180,,250,,695,3
 M,Norm Judd,ND,USA,SBD,47,100,Single-ply,LM 45-49,255,,192.5,,255,,702.5,1
@@ -348,40 +348,40 @@ M,Jon Weisman,AZ,USA,SBD,40,100,Single-ply,M 40-44,277.5,,192.5,,275,,745,1
 M,Bob Evans #3,CA,USA,SBD,58,100,Single-ply,M 55-59,222.5,,182.5,,170,,575,1
 M,William Leedy,CA,USA,SBD,74,100,Single-ply,M 70-74,170,,117.5,,215,,502.5,1
 M,Joe Thompson,IA,USA,SBD,31,100,Single-ply,Open,305,,232.5,240,290,,827.5,1
-M,Dave Muro,CA,USA,SBD,34,100,Single-ply,Open,271,,177.5,,300,,748.5,2
+M,David Muro,CA,USA,SBD,34,100,Single-ply,Open,271,,177.5,,300,,748.5,2
 M,Oscar Orengo,,Puerto Rico,SBD,33,100,Single-ply,Open,265,,180,,250,,695,3
 M,Cololo Ramirez,,Mexico,SBD,,100,Single-ply,Open,,,,,,,,DQ
 M,Craig Hoffman,MA,USA,SBD,,100,Raw,JR,200,,160,,245,,605,1
 M,Ray DiBartolomeo,CA,USA,SBD,27,100,Raw,Life,248,,175,,260,,683,1
 M,Ray DiBartolomeo,CA,USA,SBD,27,100,Raw,Open,248,,175,,260,,683,1
-M,Wes Allen,CA,USA,SBD,31,100,Raw,Open,185,,120,,197.5,,502.5,2
+M,Wesley Allen,CA,USA,SBD,31,100,Raw,Open,185,,120,,197.5,,502.5,2
 M,Keith Mannies,CA,USA,SBD,31,100,Raw,Open,,,,,,,,DQ
 M,Randy Cheatam,AZ,USA,B,43,100,Raw,LM 40-44,,,145,,,,145,3
 M,Ed Berteaux,CA,USA,SBD,50,100,Raw,LM 50-54,190.5,,167.5,170,227.5,,585.5,1
 M,Keith Hobman,,Canada,SBD,46,100,Raw,M 45-49,240,,162.5,,272.5,,675,1
-M,Jack Rhoten,NC,USA,SBD,57,100,Raw,M 55-59,240,,150,,265,,655,1
-M,Richard Digregorio,CA,USA,SBD,17,100,Raw,T 16-17,152.5,,105,,167.5,,425,1
+M,Jack Roten,NC,USA,SBD,57,100,Raw,M 55-59,240,,150,,265,,655,1
+M,Richard DiGregorio,CA,USA,SBD,17,100,Raw,T 16-17,152.5,,105,,167.5,,425,1
 M,Marco Garcia,CA,USA,SBD,16,100,Raw,T 16-17,142.5,,107.5,,160,,410,2
 M,Shawn Ahoamana,CA,USA,SBD,17,100,Raw,T 16-17,,,,,,,,DQ
 M,Andres Topchi,CA,USA,SBD,19,100,Raw,T 18-19,195,,192.5,,227.5,,615,1
-M,Chris Anderson,NM,USA,SBD,17,100,Single-ply,T 16-17,227.5,240,187.5,,247.5,255,662.5,1
+M,Chris Anderson #3,NM,USA,SBD,17,100,Single-ply,T 16-17,227.5,240,187.5,,247.5,255,662.5,1
 M,Kirk Karwoski,MD,USA,SBD,38,110,Raw,Open,375,,210,,350,,935,G
 M,Al Fritz,HI,USA,SBD,36,110,Single-ply,Law/Mil,320,,230,,287.5,,837.5,1
 M,Jeff Blaine,IA,USA,SBD,28,110,Single-ply,Law/Mil,290,,175,,285,,750,2
-M,Bobby Wilson,NC,USA,SBD,45,110,Single-ply,Life,302.5,,220,,300,,822.5,1
+M,Bobby Wilson #1,NC,USA,SBD,45,110,Single-ply,Life,302.5,,220,,300,,822.5,1
 M,Rick Chavez,FL,USA,SBD,48,110,Single-ply,Life,320.5,,180,,257.5,,758,2
 M,Mark Wilcox,MA,USA,SBD,41,110,Single-ply,Life,257.5,,172.5,,255,,685,3
 M,Tracy Larson,ND,USA,SBD,38,110,Single-ply,Life,262.5,,172.5,,230,,665,4
 M,Neil Eddins,TX,USA,SBD,41,110,Single-ply,LM 40-44,257.5,,210,,295,,762.5,1
 M,Mark Wilcox,MA,USA,SBD,41,110,Single-ply,LM 40-44,257.5,,172.5,,255,,685,2
-M,Bobby Wilson,NC,USA,SBD,45,110,Single-ply,LM 45-49,302.5,,220,,300,,822.5,1
+M,Bobby Wilson #1,NC,USA,SBD,45,110,Single-ply,LM 45-49,302.5,,220,,300,,822.5,1
 M,Rick Chavez,FL,USA,SBD,48,110,Single-ply,LM 45-49,320.5,,180,,257.5,,758,2
 M,Gary Clock,ND,USA,SBD,55,110,Single-ply,LM 55-59,247.5,,185,,250,,682.5,1
-M,Bobby Wilson,NC,USA,SBD,45,110,Single-ply,M 45-49,302.5,,220,,300,,822.5,1
+M,Bobby Wilson #1,NC,USA,SBD,45,110,Single-ply,M 45-49,302.5,,220,,300,,822.5,1
 M,Rick Chavez,FL,USA,SBD,48,110,Single-ply,M 45-49,320.5,,180,,257.5,,758,2
 M,Gary Clock,ND,USA,SBD,55,110,Single-ply,M 55-59,247.5,,185,,250,,682.5,1
 M,Bill Helmich,NM,USA,SBD,62,110,Single-ply,M 60-64,220,,170,,252.5,,642.5,1
-M,John DuMont,CA,USA,SBD,60,110,Single-ply,M 60-64,230,,60,,245,,535,2
+M,John DuMont #1,CA,USA,SBD,60,110,Single-ply,M 60-64,230,,60,,245,,535,2
 M,Al Fritz,HI,USA,SBD,36,110,Single-ply,Open,320,,230,,287.5,,837.5,1
 M,Rick Chavez,FL,USA,SBD,48,110,Single-ply,Open,320.5,,180,,257.5,,758,2
 M,David Roman,CA,USA,SBD,49,110,Raw,Law/Mil,202.5,,160,,215,,577.5,1
@@ -389,7 +389,7 @@ M,Matt Rhoten,NC,USA,SBD,24,110,Raw,Life,252.5,,253,,,,,DQ
 M,Mark Emerald,MA,USA,SBD,42,110,Raw,Open,192.5,,165,,217.5,,575,1
 M,Matt Rhoten,NC,USA,SBD,24,110,Raw,Open,252.5,,253,,,,,DQ
 M,Mark Emerald,MA,USA,SBD,42,110,Raw,LM 40-44,192.5,,165,,217.5,,575,1
-M,Jack Rhoten,NC,USA,SBD,57,110,Raw,LM 55-59,240,,150,,265,,655,1
+M,Jack Roten,NC,USA,SBD,57,110,Raw,LM 55-59,240,,150,,265,,655,1
 M,Mark Emerald,MA,USA,SBD,42,110,Raw,M 40-44,192.5,,165,,217.5,,575,1
 M,Scott Hamilton,CA,USA,SBD,40,110,Raw,M 40-44,182.5,,165,,195,,542.5,2
 M,David Roman,CA,USA,SBD,49,110,Raw,M 45-49,202.5,,160,,215,,577.5,1
@@ -397,7 +397,7 @@ M,Mark Bowne,PA,USA,SBD,15,110,Raw,T 14-15,102.5,,167.5,,200,205,470,1
 M,Al Fritz,HI,USA,SBD,36,110,Single-ply,Sub,320,,230,,287.5,,837.5,1
 M,Bob Brunner,ND,USA,SBD,22,125,Single-ply,JR,232.5,,175,,275,,682.5,1
 M,Bob Brunner,ND,USA,SBD,22,125,Single-ply,Life,232.5,,175,,275,,682.5,1
-M,Sam Pektol,OR,USA,SBD,50,125,Single-ply,M 50-54,272.5,,217.5,,272.5,,762.5,1
+M,Sam Pecktol,OR,USA,SBD,50,125,Single-ply,M 50-54,272.5,,217.5,,272.5,,762.5,1
 M,Dan Herrera,CA,USA,SBD,67,125,Single-ply,M 65-69,227.5,,182.5,,220,,630,1
 M,Robert Speno,CA,USA,SBD,35,125,Single-ply,Open,,,,,,,,DQ
 M,Justin Ransbottom,OK,USA,SBD,,125,Single-ply,Open,325,,245,,322.5,,892.5,1
@@ -437,12 +437,12 @@ M,Steve Kylis,CA,USA,BD,52,82.5,Single-ply,LM 50-54,,,,,,,,DQ
 M,Steve Kylis,CA,USA,BD,52,82.5,Single-ply,LM 50-54,,,,,,,,DQ
 M,Stephen Montrose,FL,USA,BD,87,82.5,Single-ply,LM 85-89,,,,,,,,DQ
 M,Saul Baldaramo,,Mexico,BD,32,82.5,Single-ply,Open,,,165,,225,,390,1
-M,Yogi Sumner,NC,USA,BD,55,82.5,Raw,LM 55-59,,,115,120.5,150,,265,1
-M,Jerry Homer,AZ,USA,BD,64,82.5,Raw,LM 60-64,,,117.5,120,150,,267.5,1
+M,Frank Sumner,NC,USA,BD,55,82.5,Raw,LM 55-59,,,115,120.5,150,,265,1
+M,Jerry Homer Sr,AZ,USA,BD,64,82.5,Raw,LM 60-64,,,117.5,120,150,,267.5,1
 M,Jim Naftel,CA,USA,BD,60,82.5,Raw,LM 60-64,,,80,,147.5,,227.5,2
 M,Jim Naftel,CA,USA,BD,60,82.5,Raw,M 60-64,,,80,,147.5,,227.5,1
 M,Carlos Acosta #1,CA,USA,BD,65,82.5,Raw,M 65-69,,,100,,175,182.5,275,1
-M,Ryan Sanders,CA,USA,BD,18,82.5,Raw,T 18-19,,,110,,160,,270,1
+M,Ryan Sanders #3,CA,USA,BD,18,82.5,Raw,T 18-19,,,110,,160,,270,1
 M,Tommy Williams,MD,USA,BD,43,90,Raw,Open,,,142.5,,290,,432.5,1
 M,Wayne Pennell,NC,USA,BD,35,90,Raw,Sub,,,167.5,,265,,432.5,1
 M,Herb Heald,TX,USA,BD,54,90,Raw,LM 50-54,,,110,,172.5,,282.5,1
@@ -451,10 +451,10 @@ M,Herb Heald,TX,USA,BD,54,90,Raw,M 50-54,,,110,,172.5,,282.5,1
 M,Luis Hernandez,CA,USA,BD,15,90,Raw,T 14-15,,,105,,150,,255,1
 M,Norm Lambert,,Canada,BD,53,100,Single-ply,LM 50-54,,,,,155,,,DQ
 M,Norm Lambert,,Canada,BD,53,100,Single-ply,M 50-54,,,,,155,,,DQ
-M,Jim Weiss,CA,USA,BD,77,100,Single-ply,M 75-79,,,80,,122.5,,202.5,1
-M,Oswaldo Aguire,,Mexico,BD,28,100,Single-ply,Open,,,205,,300,,505,1
-M,Oswaldo Aguire,,Mexico,BD,28,100,Single-ply,Open,,,205,,300,,505,2
-M,Mark Mathews,CA,USA,BD,41,100,Raw,LM 40-44,,,175,,192.5,,367.5,1
+M,James Weiss,CA,USA,BD,77,100,Single-ply,M 75-79,,,80,,122.5,,202.5,1
+M,Oswaldo Aguirre,,Mexico,BD,28,100,Single-ply,Open,,,205,,300,,505,1
+M,Oswaldo Aguirre,,Mexico,BD,28,100,Single-ply,Open,,,205,,300,,505,2
+M,Mark Mathews Sr,CA,USA,BD,41,100,Raw,LM 40-44,,,175,,192.5,,367.5,1
 M,Randy Cheatam,AZ,USA,BD,43,100,Raw,LM 40-44,,,145,,170,,315,2
 M,Martin Vogt,AZ,USA,BD,60,100,Raw,LM 60-64,,,97.5,,155,,252.5,1
 M,Neil Eddins,TX,USA,BD,41,110,Single-ply,LM 40-44,,,210,,295,,505,1

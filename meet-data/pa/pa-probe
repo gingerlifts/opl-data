@@ -42,7 +42,7 @@ def getmeetlist(html):
             continue
 
         # All PA results are in /wp-content/uploads/results/.
-        if '/wp-content/uploads/results/' not in url:
+        if 'wp-content' not in url or 'results' not in url:
             continue
 
         if 'http' not in url:
@@ -50,6 +50,23 @@ def getmeetlist(html):
         if url not in urls:
             urls.append(url)
 
+    return urls
+
+
+def getenteredurls(feddir):
+    """Reimplementation because PA renamed their .htm files to .html"""
+
+    urls = set()
+    for dirname, subdirs, files in os.walk(feddir):
+        if 'URL' in files:
+            with open(dirname + os.sep + 'URL', 'r') as fd:
+                for k in fd.readlines():
+                    url = k.strip()
+                    urls.add(url)
+
+                    # Also add a version with ".html"
+                    if url.endswith("htm"):
+                        urls.add(url + "l")
     return urls
 
 
@@ -63,7 +80,7 @@ def main():
         for k in fd.readlines():
             meetlist.append(k.strip())
 
-    entered = oplprobe.getenteredurls(FEDDIR)
+    entered = getenteredurls(FEDDIR)
     unentered = oplprobe.getunenteredurls(meetlist, entered)
 
     oplprobe.print_meets(color('[PA]'), unentered)

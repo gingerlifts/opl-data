@@ -76,7 +76,7 @@ DQ,Mar'yan Filyanets,80,117.5,80,-150,,83,M,Мар'ян Филянець,2000,Te
 1,Oleksandr Popelnukha,103.5,160,115,180,455,105,M,Олександр Попелнуха,2000,Teen 14-15,SBD,Raw
 2,Ivan Romanishin,94.9,110,87.5,170,367.5,105,M,Іван Романишин,2000,Teen 14-15,SBD,Raw
 3,Vladislav Mikhasyuk,97.75,70,80,120,270,105,M,Владислав Михасюк,2000,Teen 14-15,SBD,Raw
-1,Viktor Holinei,109.1,170,130,190,490,120,M,Віктор Голіней,2000,Teen 14-15,SBD,Raw
+1,Viktor Golinei,109.1,170,130,190,490,120,M,Віктор Голіней,2000,Teen 14-15,SBD,Raw
 2,Igor Orobets,119.5,120,102.5,122.5,345,120,M,Ігор Оробець,2000,Teen 14-15,SBD,Raw
 1,Yuliya Prudius,42.6,75,25,77.5,177.5,43,F,Юлія Прудіус,1999,Teen 16-18,SBD,Raw
 2,Katerina Korneeva,42.5,55,40,77.5,172.5,43,F,Катерина Корнєєва,1999,Teen 16-18,SBD,Raw
@@ -136,7 +136,7 @@ DQ,Vladislav Boykiv,65.4,-150,,,,66,M,Владислав Бойків,1998,Teen 
 1,Vadim Mikhaylichenko,73,180,152.5,245,577.5,74,M,Вадим Михайличенко,1997,Teen 16-18,SBD,Raw
 2,Vladislav Chornyi,73.8,207.5,117.5,242.5,567.5,74,M,Владислав Чорний,1997,Teen 16-18,SBD,Raw
 3,Andriy Manastirskiy,70.9,182.5,127.5,210,520,74,M,Андрій Манастирський,1998,Teen 16-18,SBD,Raw
-4,Vladislav Moiseev,71.75,195,135,190,520,74,M,Владислав Моїсеєв,1997,Teen 16-18,SBD,Raw
+4,Vladislav Moiseev #1,71.75,195,135,190,520,74,M,Владислав Моїсеєв,1997,Teen 16-18,SBD,Raw
 5,Artur Kish,73.35,175,120,210,505,74,M,Артур Кіш,1997,Teen 16-18,SBD,Raw
 6,Rostislav Kaminichenko,73.85,190,110,187.5,487.5,74,M,Ростислав Камініченко,1998,Teen 16-18,SBD,Raw
 7,Karen Akopov,71.95,180,122.5,182.5,485,74,M,Карен Акопов,1998,Teen 16-18,SBD,Raw
@@ -174,7 +174,7 @@ DQ,Pavlo Venger,73.85,172.5,-105,,,74,M,Павло Венгер,1997,Teen 16-18,
 5,Nikita Kostinskiy,93.45,150,115,167.5,432.5,105,M,Нікіта Костинський,1998,Teen 16-18,SBD,Raw
 G,Vladislav Denisyuk,103.65,210,135,255,600,105,M,Владислав Денисюк,1999,Teen 16-18,SBD,Raw
 1,Mikhaylo Parfenyuk,114.1,230,137.5,238,605.5,120,M,Михайло Парфенюк,1997,Teen 16-18,SBD,Raw
-2,Dmitro Kozak,106.65,190,155,237.5,582.5,120,M,Дмитро Козак,1998,Teen 16-18,SBD,Raw
+2,Dmitro Kozak #2,106.65,190,155,237.5,582.5,120,M,Дмитро Козак,1998,Teen 16-18,SBD,Raw
 3,Ivan Ozhegov,105.95,222.5,117.5,222.5,562.5,120,M,Іван Ожегов,1998,Teen 16-18,SBD,Raw
 4,Andriy Oliynik,114.35,230,115,217.5,562.5,120,M,Андрій Олійник,1999,Teen 16-18,SBD,Raw
 5,Artem Tsesarskiy,116.6,200,132.5,200,532.5,120,M,Артем Цесарський,1998,Teen 16-18,SBD,Raw
@@ -218,7 +218,7 @@ G,Sergiy Okhrimenko,65.7,130,110,145,385,66,M,Сергій Охріменко,19
 3,Ivan Lesyuk,82.15,197.5,127.5,220,545,83,M,Іван Лесюк,1996,Juniors,SBD,Raw
 4,Vitaliy Nezveschuk,82.6,182.5,127.5,220,530,83,M,Віталій Незвищук,1996,Juniors,SBD,Raw
 5,Andriy Ivanko,82.85,162.5,122.5,190,475,83,M,Андрій Іванко,1995,Juniors,SBD,Raw
-G,Dmitro Bondarev,81.85,140,110,165,415,83,M,Дмитро Бондарев,1995,Juniors,SBD,Raw
+G,Dmitro Bondarev #1,81.85,140,110,165,415,83,M,Дмитро Бондарев,1995,Juniors,SBD,Raw
 1,Igor Kovtko,88.05,215,165,240,620,93,M,Ігор Ковтко,1993,Juniors,SBD,Raw
 2,Dmitro Mazurov,92.2,240,145,225,610,93,M,Дмитро Мазуров,1995,Juniors,SBD,Raw
 3,Mikhaylo Moskovchuk,91.95,180,177.5,190,547.5,93,M,Михайло Московчук,1993,Juniors,SBD,Raw

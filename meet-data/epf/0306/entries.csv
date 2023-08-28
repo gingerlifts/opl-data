@@ -1,7 +1,7 @@
 Place,Name,WeightClassKg,BirthYear,BodyweightKg,Country,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Event,Equipment,Sex,Division
 1,Sabine Guillaume,48,1963,47.5,France,140,72.5,155,,367.5,SBD,Single-ply,F,Open
 1,Teresa Sawyer,52,1963,51.5,UK,153,90.5,145,,388.5,SBD,Single-ply,F,Open
-2,Stephanie Lagrange,52,1976,51.65,France,130,87.5,132.5,,350,SBD,Single-ply,F,Open
+2,Stéphanie Lagrange,52,1976,51.65,France,130,87.5,132.5,,350,SBD,Single-ply,F,Open
 3,Anne Monjaret,52,1962,51.75,France,120,62.5,135,,317.5,SBD,Single-ply,F,Open
 1,Laura Locatelli,56,1957,55.95,Italy,165,87.5,195,,447.5,SBD,Single-ply,F,Open
 2,Elodie Farque,56,1979,52.55,France,140,70,152.5,,362.5,SBD,Single-ply,F,Open
@@ -17,7 +17,7 @@ DQ,Linda Kristensen,67.5,1977,66.9,Norway,177.5,,,,,SBD,Single-ply,F,Open
 3,Anna Gimeno,82.5,1984,77.7,Spain,130,67.5,105,,302.5,SBD,Single-ply,F,Open
 1,Leila Duhem,90,1963,88.9,France,172.5,130,190,200.5,492.5,SBD,Single-ply,F,Open
 1,Adriano DaCosta,67.5,1963,67.3,France,222.5,167.5,212.5,,602.5,SBD,Single-ply,M,Open
-1,Steve Walker,75,1956,74.6,UK,230,172.5,240,,642.5,SBD,Single-ply,M,Open
+1,Steve Walker #1,75,1956,74.6,UK,230,172.5,240,,642.5,SBD,Single-ply,M,Open
 1,Pjotr van den Hoek,82.5,1972,82.3,Netherlands,270,182.5,295,,747.5,SBD,Single-ply,M,Open
 2,Alexandre Kirketeig,82.5,1979,81.65,Norway,280,175,280,,735,SBD,Single-ply,M,Open
 3,Richard Loricourt,82.5,1979,82.4,France,280,152.5,282.5,,715,SBD,Single-ply,M,Open
@@ -42,7 +42,7 @@ DQ,Gianluca Bellandi,100,1976,98.7,Italy,,,,,,SBD,Single-ply,M,Open
 4,Remy Delval,110,1972,105.9,France,282.5,180,310,,772.5,SBD,Single-ply,M,Open
 5,Marco Oliva,110,1977,108.8,Luxembourg,262.5,130,270,,662.5,SBD,Single-ply,M,Open
 1,Henry Ole Larsen,125,1973,118.9,Norway,335,215,300,,850,SBD,Single-ply,M,Open
-2,Mick Ashurst,125,1975,123.5,UK,330,177.5,300,,807.5,SBD,Single-ply,M,Open
+2,Michael Ashurst,125,1975,123.5,UK,330,177.5,300,,807.5,SBD,Single-ply,M,Open
 3,Rudolf Küster,125,1955,110.1,Germany,290,115,295,,700,SBD,Single-ply,M,Open
 1,James Blanchflower,125+,1966,165,UK,380,245,280,,905,SBD,Single-ply,M,Open
 2,Freddy Nicolas,125+,1971,139.2,France,350,215,285,,850,SBD,Single-ply,M,Open

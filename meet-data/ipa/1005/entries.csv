@@ -2,8 +2,8 @@ Name,WeightClassKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Sex,D
 Rheta West,67.5,,142.88,,142.88,B,F,Pro Open,Multi-ply,1
 F. Bongiono,56,,90.72,,90.72,B,M,Amateur Masters 50-54,Multi-ply,1
 R. Satta,110,,145.15,,145.15,B,M,Amateur Masters 50-54,Multi-ply,1
-M. Becht,90,,167.83,,167.83,B,M,Amateur Masters 45-49,Multi-ply,1
-D. Sterling,100,,181.44,,181.44,B,M,Amateur Masters 45-49,Multi-ply,1
+Mark Becht,90,,167.83,,167.83,B,M,Amateur Masters 45-49,Multi-ply,1
+Darrell Sterling,100,,181.44,,181.44,B,M,Amateur Masters 45-49,Multi-ply,1
 Andrei Oudovikine,100,,199.58,,199.58,B,M,Amateur Open,Multi-ply,1
 Andrei Oudovikine,100,,199.58,,199.58,B,M,Amateur Submasters 33-39,Multi-ply,1
 D. Epolito,100,,256.28,,256.28,B,M,Pro Open,Multi-ply,1
@@ -22,7 +22,7 @@ Brooke Fineis,75,242.67,161.03,201.85,605.55,SBD,F,Elite Amateur Open,Multi-ply,
 K. Asenato,44,61.23,47.63,108.86,217.72,SBD,F,Amateur Open,Wraps,1
 A. Williams,90,92.99,52.16,113.4,258.55,SBD,F,Amateur Open,Wraps,1
 J. Johnson,75,249.48,165.56,201.85,616.89,SBD,M,Amateur Teen 16-17,Multi-ply,1
-A. Deinhardt,82.5,192.78,127.01,231.33,551.11,SBD,M,Amateur Open,Multi-ply,1
+Aaron Deinhardt,82.5,192.78,127.01,231.33,551.11,SBD,M,Amateur Open,Multi-ply,1
 R. Heft,90,213.19,201.85,204.12,619.16,SBD,M,Amateur Masters 45-49,Multi-ply,1
 K. Dean,100,324.32,201.85,256.28,782.45,SBD,M,Amateur Submasters 33-39,Multi-ply,1
 Mark VanAlstyne,82.5,326.59,240.4,272.16,839.15,SBD,M,Pro Masters 40-44,Multi-ply,1
@@ -36,7 +36,7 @@ Nate Harvey,140,385.55,317.51,322.05,1025.12,SBD,M,Pro Open,Multi-ply,1
 Ed Jaskulski,140+,362.87,288.03,301.64,952.54,SBD,M,Pro Open,Multi-ply,1
 C. Merckle,60,61.23,52.16,149.69,263.08,SBD,M,Amateur Teen 16-17,Wraps,1
 B. Morrison,67.5,86.18,68.04,124.74,278.96,SBD,M,Amateur Teen 14-15,Wraps,1
-A. Hollenbeck,75,233.6,147.42,288.03,669.05,SBD,M,Amateur Open,Wraps,1
+Andrew Hollenbeck,75,233.6,147.42,288.03,669.05,SBD,M,Amateur Open,Wraps,1
 Kevin Suffoletto,82.5,142.88,104.33,188.24,435.45,SBD,M,Amateur Juniors 20-23,Wraps,1
 Nicholas Sereni,90,158.76,113.4,204.12,476.27,SBD,M,Amateur Juniors 20-23,Wraps,1
 P. Sawicki,100,195.04,138.35,233.6,566.99,SBD,M,Amateur Juniors 20-23,Wraps,1
@@ -50,5 +50,5 @@ S. Spinosa,82.5,151.95,127.01,201.85,480.81,SBD,M,Amateur Open,Wraps,3
 A. Rosario,82.5,192.78,156.49,260.82,610.08,SBD,M,Amateur Submasters 33-39,Wraps,1
 J. Held,140,195.04,156.49,215.46,566.99,SBD,M,Amateur Submasters 33-39,Wraps,1
 J. DiMezza,82.5,195.04,136.08,238.14,569.26,SBD,M,Amateur Teen 18-19,Wraps,1
-P. Ray,100,181.44,170.1,226.8,578.33,SBD,M,Pro Police,Wraps,1
+Patrick Ray,100,181.44,170.1,226.8,578.33,SBD,M,Pro Police,Wraps,1
 M. Scala,125,204.12,165.56,249.48,619.15,SBD,M,Pro Police,Wraps,1

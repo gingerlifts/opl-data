@@ -51,7 +51,7 @@ M,Sam Arase,,45,B,90,Raw,M 45-49,,,182.5,,,,182.5,1
 M,Fred Collingwood,,59,B,90,Raw,LM 55-59,,,140,141,,,140,1
 M,Bill Weiss,,43,B,90,Raw,M 40-44,,,125,,,,125,1
 M,Fred Collingwood,,59,B,90,Raw,M 55-59,,,140,,,,140,1
-M,Mark Mathews,,14,B,90,Raw,T 14-15,,,137.5,140,,,137.5,1
+M,Mark Mathews Jr,,14,B,90,Raw,T 14-15,,,137.5,140,,,137.5,1
 M,Brandon Promenchenkel,,17,B,90,Raw,T 16-17,,,105,,,,105,1
 M,Mo Rau,,65,B,100,Single-ply,LM 65-69,,,117.5,,,,117.5,1
 M,Mo Rau,,65,B,100,Single-ply,M 65-69,,,117.5,,,,117.5,1
@@ -67,7 +67,7 @@ M,Ryan DeWitt,,29,B,125,Raw,Open,,,265,,,,265,1
 M,Jeff Fahrenbruch,,51,B,125,Raw,Open,,,182.5,,,,182.5,2
 M,Mark Heikkila,,52,B,125,Raw,LM 50-54,,,137.5,,,,137.5,2
 M,Jeff Fahrenbruch,,51,B,125,Raw,M 50-54,,,182.5,,,,182.5,1
-M,James Wagner,,51,B,125,Raw,M 50-54,,,160,,,,160,2
+M,Jim Wagner,,51,B,125,Raw,M 50-54,,,160,,,,160,2
 M,Keith Ward,,48,B,145+,Raw,Open,,,162.5,,,,162.5,1
 M,Keith Ward,,48,B,145+,Raw,LM 45-49,,,162.5,,,,162.5,1
 M,Keith Ward,,48,B,145+,Raw,M 45-49,,,162.5,,,,162.5,1
@@ -78,7 +78,7 @@ M,Joe Morales,,17,D,75,Raw,HS 16-17,,,,,177.5,,177.5,1
 M,Gordon Santee,,57,D,75,Raw,M 55-59,,,,,220.5,227.5,220.5,1
 M,Bill Ennis,,58,D,82.5,Raw,M 55-59,,,,,207.5,,207.5,1
 M,Carlos Acosta #1,,65,D,82.5,Raw,M 65-69,,,,,165,170,165,1
-M,Jacob Smith,,15,D,82.5,Raw,T 14-15,,,,,182.5,,182.5,1
+M,Jacob Smith #29,,15,D,82.5,Raw,T 14-15,,,,,182.5,,182.5,1
 M,Bernabe De La Rosa,,17,D,90,Raw,T 16-17,,,,,222.5,,222.5,1
 M,Greg Babst,,26,D,110,Single-ply,Law/Mil,,,,,282.5,,282.5,1
 M,Charles Milligan,,52,D,125,Single-ply,M 50-54,,,,,227.5,,227.5,1
@@ -126,7 +126,7 @@ M,Charles Milligan,,52,SBD,125,Single-ply,M 50-54,230,,150,,227.5,,607.5,1
 M,Michael Sørensen,,57,SBD,125,Single-ply,M 55-59,45,,45,,65,,155,1
 M,Dan Herrera,,,SBD,125,Single-ply,Open,65,,65,,65,,195,1
 M,Emilio Paez,,24,SD,125,Raw,Open,237.5,,,,250,,487.5,1
-M,James Wagner,,51,B,125,Raw,LM 50-54,,,160,,,,160,1
+M,Jim Wagner,,51,B,125,Raw,LM 50-54,,,160,,,,160,1
 M,Harry Bodkin,,17,SBD,125,Single-ply,T 16-17,227.5,,132.5,,227.5,,587.5,1
 M,Harry Bodkin,,17,SBD,125,Single-ply,HS 16-17,227.5,,132.5,,227.5,,587.5,1
 M,Kenyatta Ealey,,15,BD,52,Raw,HS 14-15,,,67.5,,97.5,,165,1
@@ -137,7 +137,7 @@ M,Aaron Horning,,15,BD,67.5,Raw,HS 14-15,,,65,,137.5,,202.5,1
 M,Luis Menera,,16,BD,75,Raw,HS 16-17,,,95,,177.5,,272.5,1
 M,Jonathan Bailey,,16,BD,75,Raw,HS 16-17,,,95,,172.5,,267.5,2
 M,Rich Branch,,48,BD,82.5,Single-ply,LM 45-49,,,157.5,,220,227.5,377.5,1
-M,Jacob Smith,,15,BD,82.5,Raw,HS 14-15,,,97.5,,182.5,,280,1
+M,Jacob Smith #29,,15,BD,82.5,Raw,HS 14-15,,,97.5,,182.5,,280,1
 M,Jim Naftel,,61,BD,82.5,Raw,LM 60-64,,,77.5,,142.5,145,220,1
 M,James Mathews,,70,BD,82.5,Raw,LM 70-74,,,102.5,,170,175,272.5,1
 M,Jim Naftel,,61,BD,82.5,Raw,M 60-64,,,77.5,,142.5,145,220,1
@@ -156,5 +156,5 @@ M,David Roman,,48,BD,110,Raw,Law/Mil,,,157.5,,210,,367.5,2
 M,Marco Garcia,,15,BD,110,Raw,HS 14-15,,,97.5,,155,,252.5,1
 M,David Roman,,48,BD,110,Raw,M 45-49,,,157.5,,210,,367.5,1
 M,Scott Hamilton,,39,BD,110,Single-ply,Sub,,,160,,197.5,,357.5,1
-M,Steve Dennison,,,BD,125,Single-ply,M 40-44,,,215,,297.5,,512.5,1
+M,Steve Denison,,,BD,125,Single-ply,M 40-44,,,215,,297.5,,512.5,1
 M,Michael Sørensen,,57,BD,125,Single-ply,M 55-59,,,45,,65,,110,1

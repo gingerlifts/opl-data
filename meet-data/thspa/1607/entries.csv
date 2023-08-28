@@ -2,14 +2,14 @@ Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Be
 Boys,51.71,1,Chris Vivero,Bryan,51.48,124.74,65.77,136.08,326.59,Single-ply,SBD,M
 Boys,51.71,2,Cody Tunning,Montgomery,51.62,117.93,70.31,122.47,310.71,Single-ply,SBD,M
 Boys,51.71,3,Grayson Danner,Conroe The Woodlands,50.98,97.52,61.23,117.93,276.69,Single-ply,SBD,M
-Boys,51.71,4,Logan Green,Conroe Oak Ridge,51.17,102.06,49.9,117.93,269.89,Single-ply,SBD,M
+Boys,51.71,4,Logan Green #1,Conroe Oak Ridge,51.17,102.06,49.9,117.93,269.89,Single-ply,SBD,M
 Boys,55.79,5,David Lauderbaugh,Conroe The Woodlands,51.94,83.91,56.7,122.47,263.08,Single-ply,SBD,M
 Boys,51.71,6,Ricardo Villafana,Splendora,49.44,88.45,63.5,106.59,258.55,Single-ply,SBD,M
 Boys,51.71,7,Dylan Jenkins,Conroe The Woodlands,51.71,86.18,52.16,117.93,256.28,Single-ply,SBD,M
 Boys,51.71,8,Ryan Kerr,Conroe Woodlands College Park,51.35,92.99,54.43,97.52,244.94,Single-ply,SBD,M
 Boys,51.71,9,Axel Morfin,Conroe Woodlands College Park,42.91,56.7,43.09,81.65,181.44,Single-ply,SBD,M
 Boys,59.87,1,JC Hooper,Montgomery,55.97,131.54,79.38,161.03,371.95,Single-ply,SBD,M
-Boys,55.79,2,Joseph Herrera,Navasota,53.8,142.88,79.38,136.08,358.34,Single-ply,SBD,M
+Boys,55.79,2,Joseph Herrera #2,Navasota,53.8,142.88,79.38,136.08,358.34,Single-ply,SBD,M
 Boys,55.79,3,Garrett Kelso,Splendora,53.52,133.81,74.84,147.42,356.07,Single-ply,SBD,M
 Boys,55.79,4,Cooper Houston,Montgomery,54.88,140.61,77.11,131.54,349.27,Single-ply,SBD,M
 Boys,55.79,5,Lazaro Garcia,Navasota,55.66,115.67,79.38,133.81,328.85,Single-ply,SBD,M
@@ -37,7 +37,7 @@ Boys,67.13,8,Dylan Heaton,Montgomery,64.23,142.88,106.59,158.76,408.23,Single-pl
 Boys,74.84,9,Brad Bentley,Conroe The Woodlands,67.22,149.69,92.99,165.56,408.23,Single-ply,SBD,M
 Boys,67.13,10,Hector Larios,Houston Cypress Woods,66.54,161.03,90.72,151.95,403.7,Single-ply,SBD,M
 Boys,67.13,11,Peter Garza,Houston Cypress Woods,64.05,158.76,83.91,151.95,394.63,Single-ply,SBD,M
-Boys,67.13,12,Cameron Gray,Navasota,61.87,136.08,77.11,176.9,390.09,Single-ply,SBD,M
+Boys,67.13,12,Cameron Gray #2,Navasota,61.87,136.08,77.11,176.9,390.09,Single-ply,SBD,M
 Boys,67.13,13,Caleb Hall,Montgomery,61.87,149.69,74.84,147.42,371.95,Single-ply,SBD,M
 Boys,74.84,14,Edward Yao,Conroe The Woodlands,67.36,131.54,79.38,138.35,349.27,Single-ply,SBD,M
 Boys,67.13,15,Zach Hawkins,Conroe The Woodlands,64.14,117.93,92.99,127.01,337.93,Single-ply,SBD,M
@@ -112,7 +112,7 @@ Boys,109.77,7,Joshua Miller,Montgomery,105.05,181.44,120.2,197.31,498.95,Single-
 Boys,109.77,8,Brandon Brock,Montgomery,103.96,174.63,127.01,188.24,489.88,Single-ply,SBD,M
 Boys,109.77,9,Miguel Fabela,Conroe,101.7,174.63,117.93,188.24,480.81,Single-ply,SBD,M
 Boys,109.77,10,Cole Kennedy,Conroe The Woodlands,103.42,158.76,106.59,158.76,424.11,Single-ply,SBD,M
-Boys,109.77,11,Chris Martin,Splendora,104.33,102.06,74.84,86.18,263.08,Single-ply,SBD,M
+Boys,109.77,11,Chris Martin #2,Splendora,104.33,102.06,74.84,86.18,263.08,Single-ply,SBD,M
 Boys,124.74,DQ,Michael Cadena,Bryan,121.38,,,,,Single-ply,SBD,M
 Boys,124.74,2,Marquise White,Houston Cypress Woods,118.93,260.82,147.42,238.14,646.37,Single-ply,SBD,M
 Boys,124.74,DQ,Blake Teasdale,Montgomery,119.29,,,,,Single-ply,SBD,M
@@ -129,6 +129,6 @@ Boys,124.74+,4,Tyler Rapp,Conroe The Woodlands,125.33,206.38,154.22,215.46,576.0
 Boys,124.74+,5,Trevin Pomier,Navasota,179.62,226.8,127.01,208.65,562.45,Single-ply,SBD,M
 Boys,124.74+,6,Darius Celestine,Conroe Oak Ridge,129.05,204.12,140.61,215.46,560.19,Single-ply,SBD,M
 Boys,124.74+,7,Stephen Jaurez,Dayton,130,201.85,147.42,199.58,548.85,Single-ply,SBD,M
-Boys,124.74+,8,Brandon Jones,Montgomery,145.6,210.92,106.59,190.51,508.02,Single-ply,SBD,M
+Boys,124.74+,8,Brandon Jones #5,Montgomery,145.6,210.92,106.59,190.51,508.02,Single-ply,SBD,M
 Boys,124.74+,9,Edward Cook,Montgomery,129.91,190.51,127.01,188.24,505.76,Single-ply,SBD,M
 Boys,124.74+,10,Michael DeJournett,Conroe Woodlands College Park,128,192.78,113.4,183.7,489.88,Single-ply,SBD,M

@@ -31,7 +31,7 @@ DQ,Thorsten Ritter,Masters 1,1964,Germany,91.8,-155,-155,-155,,95,M,,,,,,,,,,B,,
 1,František Esser,Masters 3,1946,Czechia,94.5,110,120,-125,120,95,M,,,,,,,,,,B,120,Raw
 2,Květoslav Štora,Masters 4,1940,Czechia,93.6,95,-100,100,100,95,M,,,,,,,,,,B,100,Raw
 1,Felix Natzschka,Juniors,1990,Germany,110.9,227.5,250,,250,115,M,,,,,,,,,,B,250,Raw
-2,Vladislav Lanik,Juniors,1989,Czechia,107.3,190,200,-202.5,200,115,M,,,,,,,,,,B,200,Raw
+2,Vladislav Láník,Juniors,1989,Czechia,107.3,190,200,-202.5,200,115,M,,,,,,,,,,B,200,Raw
 3,Robert Škop,Juniors,1994,Czechia,101.8,170,180,185,185,115,M,,,,,,,,,,B,185,Raw
 4,Ondrej Uhlig,Juniors,1990,Germany,106.1,170,-180,-180,170,115,M,,,,,,,,,,B,170,Raw
 5,Christopher Eibl,Juniors,1990,Austria,111.4,165,172.5,-177.5,172.5,115,M,,,,,,,,,,B,172.5,Raw
@@ -56,7 +56,7 @@ DQ,Thorsten Ritter,Masters 1,1964,Germany,91.8,-155,-155,-155,,95,M,,,,,,,,,,B,,
 1,Przemyslaw Wierzbicki,Juniors,1991,Poland,118.3,170,180,-190,180,115+,M,,,,,,,,,,B,180,Raw
 2,Jiři Kamenický,Juniors,1997,Czechia,125.1,120,-130,130,130,115+,M,,,,,,,,,,B,130,Raw
 2,Jan Žvak,Open,1978,Czechia,122.7,200,210,215,215,115+,M,,,,,,,,,,B,215,Raw
-4,Yevgen Pavlov,Open,1976,Ukraine,115.7,205,-210,-210,205,115+,M,Євгеній Павлов,,,,,,,,,B,205,Raw
+4,Yevgen Pavlov,Open,1976,Ukraine,115.7,205,-210,-210,205,115+,M,Євген Павлов,,,,,,,,,B,205,Raw
 5,Michael Becherer,Open,1977,Germany,116.7,170,175,-180,175,115+,M,,,,,,,,,,B,175,Raw
 6,Mathias Große,Open,1978,Germany,116.8,160,-170,170,170,115+,M,,,,,,,,,,B,170,Raw
 1,Peter Diethalm,Open,1974,Switzerland,125,222.5,-232.5,,222.5,115+,M,,,,,,,,,,B,222.5,Raw
@@ -79,13 +79,13 @@ DQ,Matthias Schröter,Open,1981,Germany,84.5,,,,,95,M,,175,190,-205,190,,,,,S,,R
 1,Reinhold Blüml,Masters 1,1971,Germany,95,,,,,95,M,,240,250,-262.5,250,,,,,S,250,Raw
 2,František Vincourek,Masters 1,1966,Czechia,85.7,,,,,95,M,,200,210,220,220,,,,,S,220,Raw
 1,Karel Schoř,Masters 2,1955,Czechia,85.5,,,,,95,M,,180,192.5,200,200,,,,,S,200,Raw
-1,Vladislav Lanik,Juniors,1989,Czechia,107.3,,,,,115,M,,240,250,260,260,,,,,S,260,Raw
+1,Vladislav Láník,Juniors,1989,Czechia,107.3,,,,,115,M,,240,250,260,260,,,,,S,260,Raw
 2,Ondrej Uhlig,Juniors,1990,Germany,106.1,,,,,115,M,,220,-230,230,230,,,,,S,230,Raw
 3,Lan Nikel,Juniors,1994,Czechia,101.2,,,,,115,M,,-210,210,-225,210,,,,,S,210,Raw
 1,Petr Folprecht,Open,1985,Czechia,104.1,,,,,115,M,,260,270,-275,270,,,,,S,270,Raw
 2,Stanislav Gebel,Open,1978,Germany,112.3,,,,,115,M,,230,240,,240,,,,,S,240,Raw
 3,Christoph Seefeld Frank,Open,1980,Germany,108.9,,,,,115,M,,200,220,230,230,,,,,S,230,Raw
-1,Rene Trage,Masters 1,1967,Germany,99.6,,,,,115,M,,210,220,-225,220,,,,,S,220,Raw
+1,René Trage,Masters 1,1967,Germany,99.6,,,,,115,M,,210,220,-225,220,,,,,S,220,Raw
 2,Václav Mareš,Masters 1,1968,Czechia,108,,,,,115,M,,180,200,-220,200,,,,,S,200,Raw
 DQ,René Falk,Masters 1,1970,Germany,108.2,,,,,115,M,,-230,-230,-235,,,,,,S,,Raw
 1,Foltas Gottfried,Masters 2,1957,Germany,99.2,,,,,115,M,,145,155,165,165,,,,,S,165,Raw
@@ -100,7 +100,7 @@ DQ,René Falk,Masters 1,1970,Germany,108.2,,,,,115,M,,-230,-230,-235,,,,,,S,,Raw
 3,Thalia Velez,Open,1983,Switzerland,62.6,,,,,,F,,,,,,125,-140,140,140,D,140,Raw
 4,Heidi Baumann,Open,1976,Germany,67.7,,,,,,F,,,,,,115,127.5,142.5,142.5,D,142.5,Raw
 5,Eva Vyhlídalová,Open,1988,Czechia,63.4,,,,,,F,,,,,,115,127.5,-132.5,127.5,D,127.5,Raw
-6,Veronika Strolena,Open,1985,Czechia,57.6,,,,,,F,,,,,,105,110,-120,110,D,110,Raw
+6,Veronika Strolená,Open,1985,Czechia,57.6,,,,,,F,,,,,,105,110,-120,110,D,110,Raw
 1,Nicole Geißler,Open,1978,Germany,75.6,,,,,,F,,,,,,-180,180,197.5,197.5,D,197.5,Raw
 1,Elbisa Zenethofer,Masters 1,1973,Austria,51.4,,,,,,F,,,,,,127.5,132.5,135,135,D,135,Raw
 2,Kamila Tillack,Masters 1,1969,Germany,66.6,,,,,,F,,,,,,125,135,-145,135,D,135,Raw
@@ -122,13 +122,13 @@ DQ,René Falk,Masters 1,1970,Germany,108.2,,,,,115,M,,-230,-230,-235,,,,,,S,,Raw
 2,Andriy Ivzhenko,Open,1977,Ukraine,83.3,,,,,95,M,Андрій Івженко,,,,,210,225,232.5,232.5,D,232.5,Raw
 3,Matthias Schröter,Open,1981,Germany,84.5,,,,,95,M,,,,,,215,225,230,230,D,230,Raw
 3,František Vincourek,Masters 1,1966,Czechia,85.7,,,,,95,M,,,,,,220,235,245,245,D,245,Raw
-1,Rade Dave,Masters 1,1969,Switzerland,92.8,,,,,95,M,,,,,,260,-270,-270,260,D,260,Raw
+1,Dave Rade,Masters 1,1969,Switzerland,92.8,,,,,95,M,,,,,,260,-270,-270,260,D,260,Raw
 2,Reinhold Blüml,Masters 1,1971,Germany,95,,,,,95,M,,,,,,-250,250,-275,250,D,250,Raw
 1,Karel Schoř,Masters 2,1955,Czechia,85.5,,,,,95,M,,,,,,230,245,252.5,252.5,D,252.5,Raw
 2,Jurgen Slanik,Masters 2,1961,Germany,95,,,,,95,M,,,,,,240,-247.5,-255,240,D,240,Raw
 3,Erwin Loritsch,Masters 2,1961,Austria,86.2,,,,,95,M,,,,,,215,220,-225,220,D,220,Raw
 1,Jiří Tkadlčík,Juniors,1990,Czechia,101.8,,,,,115,M,,,,,,305,325,-332.5,325,D,325,Raw
-2,Vladislav Lanik,Juniors,1989,Czechia,107.3,,,,,115,M,,,,,,300,-310,-310,300,D,300,Raw
+2,Vladislav Láník,Juniors,1989,Czechia,107.3,,,,,115,M,,,,,,300,-310,-310,300,D,300,Raw
 3,Ondrej Uhlig,Juniors,1990,Germany,106.1,,,,,115,M,,,,,,280,-290,,280,D,280,Raw
 4,Jan Nikel,Juniors,1994,Czechia,101.2,,,,,115,M,,,,,,240,250,-260,250,D,250,Raw
 5,Ondřej Kiml,Juniors,1990,Czechia,107.4,,,,,115,M,,,,,,240,250,-260,250,D,250,Raw
@@ -137,11 +137,11 @@ DQ,René Falk,Masters 1,1970,Germany,108.2,,,,,115,M,,-230,-230,-235,,,,,,S,,Raw
 3,Stanislav Gebel,Open,1978,Germany,112.3,,,,,115,M,,,,,,280,295,-300,295,D,295,Raw
 2,Mikhaylo Anisimov,Open,1985,Ukraine,106.2,,,,,115,M,Михайло Анісімов,,,,,290,-300,-300,290,D,290,Raw
 4,Klaus Steinbock,Open,1980,Austria,106.2,,,,,115,M,,,,,,270,285,-295,285,D,285,Raw
-5,Michael Bauer,Open,1983,Germany,101.7,,,,,115,M,,,,,,270,-285,-285,270,D,270,Raw
+5,Michael Bauer #1,Open,1983,Germany,101.7,,,,,115,M,,,,,,270,-285,-285,270,D,270,Raw
 6,Christoph Seefeld Frank,Open,1980,Germany,108.9,,,,,115,M,,,,,,225,235,-245,235,D,235,Raw
 1,René Falk,Masters 1,1970,Germany,108.2,,,,,115,M,,,,,,-285,-285,285,285,D,285,Raw
 2,Václav Mareš,Masters 1,1968,Czechia,108,,,,,115,M,,,,,,240,-260,-260,240,D,240,Raw
-3,Rene Trage,Masters 1,1967,Germany,99.6,,,,,115,M,,,,,,220,230,-235,230,D,230,Raw
+3,René Trage,Masters 1,1967,Germany,99.6,,,,,115,M,,,,,,220,230,-235,230,D,230,Raw
 4,Martin Wubbena,Masters 1,1971,Germany,103.9,,,,,115,M,,,,,,190,-200,-200,190,D,190,Raw
 1,František Esser,Masters 3,1946,Czechia,95.5,,,,,115,M,,,,,,171,185,,185,D,185,Raw
 1,Jiři Kamenický,Juniors,1997,Czechia,125.1,,,,,115+,M,,,,,,190,200,-215,200,D,200,Raw

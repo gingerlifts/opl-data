@@ -22,7 +22,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 3,Daniel Allen,TX,67.5,65.4,33,127.5,117.5,125,370,M,Open,Raw,SBD
 1,Ricardo Moncibais,TX,75,74.5,35,187.5,125,197.5,510,M,Open,Raw,SBD
 1,Josh Reyes,TX,82.5,75.2,29,190,137.5,227.5,555,M,Open,Raw,SBD
-2,David Butler,TX,82.5,81.3,37,172.5,112.5,205,490,M,Open,Raw,SBD
+2,David Butler #4,TX,82.5,81.3,37,172.5,112.5,205,490,M,Open,Raw,SBD
 3,William Robb,TX,82.5,81.1,26,175,100,200,475,M,Open,Raw,SBD
 DQ,Eric Fernandes,TX,82.5,80.8,28,,,,,M,Open,Raw,SBD
 1,Cole Barton #1,TX,90,88.8,26,272.5,205,297.5,775,M,Open,Raw,SBD
@@ -30,7 +30,7 @@ DQ,Eric Fernandes,TX,82.5,80.8,28,,,,,M,Open,Raw,SBD
 3,Adam Moncibais,TX,90,87,26,217.5,147.5,215,580,M,Open,Raw,SBD
 4,Matthew Scipione,TX,90,87.1,24,185,130,260,575,M,Open,Raw,SBD
 1,Armando Melendez,TX,100,96.3,36,245,175,280,700,M,Open,Raw,SBD
-2,Jacob Young,TX,100,98.3,24,202.5,122.5,250,575,M,Open,Raw,SBD
+2,Jacob Young #4,TX,100,98.3,24,202.5,122.5,250,575,M,Open,Raw,SBD
 1,Kevin McGarry,TX,110,107.3,28,227.5,167.5,305,700,M,Open,Raw,SBD
 2,Austen Horton,TX,110,109.2,42,255.5,127.5,296,679,M,Open,Raw,SBD
 3,Carlos Valdez,TX,110,109,29,215,145,250,610,M,Open,Raw,SBD
@@ -38,11 +38,11 @@ DQ,Eric Fernandes,TX,82.5,80.8,28,,,,,M,Open,Raw,SBD
 2,Shae Jones,TX,125,118.1,40,275,185,275,735,M,Open,Raw,SBD
 3,Steve Chappa,TX,125,119.1,34,250,195,275,720,M,Open,Raw,SBD
 4,Kyle Slagle,TX,125,110.8,31,200,125,220,545,M,Open,Raw,SBD
-1,James Martinez,TX,140,133.4,25,325,190,312.5,827.5,M,Open,Raw,SBD
+1,James Martinez #2,TX,140,133.4,25,325,190,312.5,827.5,M,Open,Raw,SBD
 2,Marshall Burson,TX,140,135.2,28,245,130,262.5,637.5,M,Open,Raw,SBD
 3,Ryan DelBosque,TX,140,135.4,26,232.5,147.5,220,600,M,Open,Raw,SBD
 1,Adam Apodaca,NM,140+,143.4,27,230,147.5,260,637.5,M,Open,Raw,SBD
-1,David Butler,TX,82.5,81.3,37,172.5,112.5,205,490,M,Submasters 35-39,Raw,SBD
+1,David Butler #4,TX,82.5,81.3,37,172.5,112.5,205,490,M,Submasters 35-39,Raw,SBD
 1,Jorge Carrillo,TX,125,122.2,37,282.5,212.5,295,790,M,Submasters 35-39,Raw,SBD
 1,Austen Horton,TX,110,109.2,42,255.5,127.5,296,679,M,Masters 40-44,Raw,SBD
 1,Shae Jones,TX,125,118.1,40,275,185,275,735,M,Masters 40-44,Raw,SBD

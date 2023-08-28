@@ -10,8 +10,8 @@ Place,Event,Equipment,WeightClassKg,Name,State,BodyweightKg,Division,Best3SquatK
 1,B,Single-ply,140+,Scott Bromeisel,WI,164.52,m1,,255,,255,M
 1,B,Single-ply,110,Robert Brodt,WI,107.68,m3,,147.5,,147.5,M
 1,B,Single-ply,140+,Leonard Willison,IA,162.39,p+f,,285,,285,M
-1,D,Raw,110,Mike Miller,IA,107.27,dlm1,,,230,230,M
-1,D,Raw,110,Richard Baker,IA,102.78,dlopen,,,222.5,222.5,M
+1,D,Raw,110,Mike Miller #1,IA,107.27,dlm1,,,230,230,M
+1,D,Raw,110,Richard Baker #1,IA,102.78,dlopen,,,222.5,222.5,M
 1,BD,Raw,67.5,Clayton Willison,IA,64.41,hs,,80,75,155,M
 1,BD,Raw,82.5,Cody VandeWeerd,KS,80.92,int,,147.5,197.5,345,M
 1,BD,Raw,125,Thomas Dugan,IA,121.34,int,,125,220,345,M
@@ -74,10 +74,10 @@ DQ,B,Raw,110,Ron Sampson,IA,106.78,bpm2,,,,,M
 1,SBD,Wraps,90,Joe Symonds,IA,88.45,sm1,140,130,210,480,M
 1,SBD,Wraps,125,Jeff Blaine,IA,119.93,sm1,227.5,145,265,637.5,M
 1,SBD,Wraps,90,Brian Rossie,IA,88.63,sm2,227.5,172.5,267.5,667.5,M
-1,SBD,Wraps,90,Bradley Kuznacic,WI,88.63,smp,177.5,105,230,512.5,M
+1,SBD,Wraps,90,Brad Kuznacic,WI,88.63,smp,177.5,105,230,512.5,M
 1,SBD,Wraps,67.5,Jesse Ortiz,NE,66.09,teen,125,115,182.5,422.5,M
 1,SBD,Wraps,82.5,Blake Conner,MO,78.56,teen,182.5,140,222.5,545,M
-1,SBD,Wraps,90,Chris Anderson,IA,87.5,teen,202.5,120,227.5,550,M
+1,SBD,Wraps,90,Chris Anderson #1,IA,87.5,teen,202.5,120,227.5,550,M
 1,SBD,Wraps,125,Jacob Adams,IA,121.11,teen,242.5,152.5,265,660,M
 1,SBD,Wraps,67.5,Nicole Bielecki,WI,63.46,wjr,100,55,82.5,237.5,F
 1,SBD,Wraps,60,Kelly Barkela,IA,58.47,wopen,97.5,57.5,107.5,262.5,F

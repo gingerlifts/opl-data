@@ -1,5 +1,5 @@
 Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,WeightClassKg,Sex,Division
-1,John Clay,yne,55.2,212.5,112.5,212.5,537.5,SBD,Single-ply,56,M,Open
+1,John Clay #3,yne,55.2,212.5,112.5,212.5,537.5,SBD,Single-ply,56,M,Open
 2,Alastair Fleming,sco,55.6,200,110,220,530,SBD,Single-ply,56,M,Open
 1,Richard Batchelor,se,66.9,240,135,265,640,SBD,Single-ply,67.5,M,Open
 2,Phil Richard,wal,60.6,240,152.5,230,622.5,SBD,Single-ply,67.5,M,Open
@@ -7,7 +7,7 @@ Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,E
 4,Manoj Chahal,wm,67.5,200,140,230,570,SBD,Single-ply,67.5,M,Open
 5,Darren Loy,wm,67.5,207.5,130,215,552.5,SBD,Single-ply,67.5,M,Open
 6,Richard Peach,wal,65.2,190,145,210,545,SBD,Single-ply,67.5,M,Open
-1,Steve Walker,em,74.7,240,180,270,690,SBD,Single-ply,75,M,Open
+1,Steve Walker #1,em,74.7,240,180,270,690,SBD,Single-ply,75,M,Open
 2,Ian Marshall #1,nw,74.8,240,167.5,250,657.5,SBD,Single-ply,75,M,Open
 3,Glen Blacklock,yne,74.9,230,127.5,265,622.5,SBD,Single-ply,75,M,Open
 4,Garry Bowman,yne,74.4,220,140,242.5,602.5,SBD,Single-ply,75,M,Open
@@ -27,7 +27,7 @@ Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,E
 6,Kevin Jane,em,89.1,280,162.5,300,742.5,SBD,Single-ply,90,M,Open
 7,N. Brown,gl,89.8,270,142.5,330,742.5,SBD,Single-ply,90,M,Open
 8,Derek Roast,se,89.3,235,167.5,272.5,675,SBD,Single-ply,90,M,Open
-1,Brian Reynolds,yne,100,325,235,363,922.5,SBD,Single-ply,100,M,Open
+1,Brian Reynolds #5,yne,100,325,235,363,922.5,SBD,Single-ply,100,M,Open
 2,Andrew Rodney,gl,99.8,322.5,170,315,807.5,SBD,Single-ply,100,M,Open
 1,Sam Watt,yne,107.1,375,225,342.5,942.5,SBD,Single-ply,110,M,Open
 2,Clive Henry,wm,109.6,355,215,330,900,SBD,Single-ply,110,M,Open
@@ -39,7 +39,7 @@ Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,E
 3,Terry O'Neill,em,120.8,315,160,315,790,SBD,Single-ply,125,M,Open
 4,Chris Woodhead,yne,121.8,305,175,270,750,SBD,Single-ply,125,M,Open
 1,Anthony Thompson #4,yne,154.5,345,212.5,317.5,875,SBD,Single-ply,125+,M,Open
-2,G. Garmston,wm,135.5,355,170,330,855,SBD,Single-ply,125+,M,Open
+2,George Garmston,wm,135.5,355,170,330,855,SBD,Single-ply,125+,M,Open
 3,Dave Wheeler #2,gl,143.7,320,155,310,785,SBD,Single-ply,125+,M,Open
 DQ,John Glover,wm,137.1,347.5,,,,SBD,Single-ply,125+,M,Open
-DQ,Jamie Reeves,yne,147.7,,,,,SBD,Single-ply,125+,M,Open
+DQ,Jamie Reeves #2,yne,147.7,,,,,SBD,Single-ply,125+,M,Open

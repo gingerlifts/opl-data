@@ -1,5 +1,7 @@
 # Configuration for the SSF.
-
+[options]
+    require_manual_disambiguation = true
+    
 [divisions]
     open = {name ="Open",min=0,max=999}
     juniors = {name = "Juniors",min=0,max=22.5}
@@ -18,6 +20,7 @@
     # Absolutely no idea what this is.
     # Google Translate suggests that it means "Poor Boy".
     knatte = {name="Knatte pojke", min=0, max=999}
+    specialolympics = {name="Special Olympics", min=0, max=999}
 
 [weightclasses.default_M]
     classes = ["59","66","74","83","93","105","120","120+"]
@@ -25,8 +28,13 @@
     sex = "M"
 
 [weightclasses.default_F]
+    classes = ["47","52","57","63","69","76","84","84+"]
+    date_range=["2021-01-01","9999-01-01"]
+    sex = "F"
+
+[weightclasses.year2020_F]
     classes = ["47","52","57","63","72","84","84+"]
-    date_range=["2011-01-01","9999-01-01"]
+    date_range=["2011-01-01","2020-12-31"]
     sex = "F"
 
 [weightclasses.junior_M]
@@ -36,8 +44,14 @@
     divisions = ["Juniors","Sub-Juniors"]
 
 [weightclasses.junior_F]
+    classes = ["43","47","52","57","63","69","76","84","84+"]
+    date_range=["2021-01-01","9999-01-01"]
+    sex = "F"
+    divisions = ["Juniors","Sub-Juniors"]
+
+[weightclasses.year2020_junior_F]
     classes = ["43","47","52","57","63","72","84","84+"]
-    date_range=["2011-01-01","9999-01-01"]
+    date_range=["2011-01-01","2020-12-31"]
     sex = "F"
     divisions = ["Juniors","Sub-Juniors"]
 

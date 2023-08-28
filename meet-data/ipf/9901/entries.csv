@@ -27,7 +27,7 @@ DQ,M,Open,56,Merda Nursakhatov,1976,55.5,Turkmenistan,,,,,SBD,Single-ply
 5,M,Open,60,Tim Taylor #1,1966,59.4,USA,210,150,245,605,SBD,Single-ply
 6,M,Open,60,Krishna Sahu,1967,59.7,India,212.5,130,257.5,600,SBD,Single-ply
 7,M,Open,60,Amit Selberg,1976,59.8,Sweden,235,150,215,600,SBD,Single-ply
-8,M,Open,60,V.R. Srikumar,1968,59.6,India,222.5,132.5,232.5,587.5,SBD,Single-ply
+8,M,Open,60,V. R. Srikumar,1968,59.6,India,222.5,132.5,232.5,587.5,SBD,Single-ply
 9,M,Open,60,Gerard Tromp,1959,59.9,Netherlands,220,150,195,565,SBD,Single-ply
 10,M,Open,60,Chien Ming Chan,1976,59.9,Taiwan,205,105,230,540,SBD,Single-ply
 11,M,Open,60,Giampiero Cuccu,1970,58.5,Italy,200,110,215,525,SBD,Single-ply
@@ -87,7 +87,7 @@ DQ,M,Open,75,Ismo Antero Lappi,1973,74.5,Finland,245,,,,SBD,Single-ply
 17,M,Open,82.5,Luca Toso,1972,78.5,Italy,260,157.5,285,702.5,SBD,Single-ply
 18,M,Open,82.5,Antonio DiMarco,1975,77.9,Germany,260,180,250,690,SBD,Single-ply
 19,M,Open,82.5,Vitaly Karatajevs,1970,81.3,Latvia,280,150,250,680,SBD,Single-ply
-20,M,Open,82.5,Stephen King,1962,81.3,New Zealand,257.5,140,267.5,665,SBD,Single-ply
+20,M,Open,82.5,Stephen King #1,1962,81.3,New Zealand,257.5,140,267.5,665,SBD,Single-ply
 21,M,Open,82.5,Hans-Juerg Kaelin,1969,82.4,Switzerland,220,150,270,640,SBD,Single-ply
 22,M,Open,82.5,Tang-Chih Hung,1976,81.3,Taiwan,210,130,260,600,SBD,Single-ply
 DQ,M,Open,82.5,Ramis Bakhshaliev,1971,77.7,Turkmenistan,,,,,SBD,Single-ply
@@ -109,7 +109,7 @@ DD,M,Open,82.5,Christ Petrischor,1959,82.2,Austria,270,192.5,260,,SBD,Single-ply
 11,M,Open,90,Jarmo Sohlman,1969,89.8,Finland,300,205,305,810,SBD,Single-ply
 12,M,Open,90,Andrius Gecas,1974,87.6,Lithuania,320,195,290,805,SBD,Single-ply
 13,M,Open,90,Paolo Vincenti,1969,89.6,Italy,322.5,175,307.5,805,SBD,Single-ply
-14,M,Open,90,Krysztof Welna,1971,90,Poland,305,190,310,805,SBD,Single-ply
+14,M,Open,90,Krzysztof Welna,1971,90,Poland,305,190,310,805,SBD,Single-ply
 15,M,Open,90,Frank Hausburg,1971,89.6,Germany,312.5,177.5,310,800,SBD,Single-ply
 16,M,Open,90,Alexander Beligov,1971,89.4,Kazakhstan,310,175,285,770,SBD,Single-ply
 17,M,Open,90,François Kalic,1965,89.4,France,292.5,182.5,295,770,SBD,Single-ply
@@ -120,12 +120,12 @@ DD,M,Open,82.5,Christ Petrischor,1959,82.2,Austria,270,192.5,260,,SBD,Single-ply
 22,M,Open,90,Richard Singer,1963,82.9,Austria,245,195,270,710,SBD,Single-ply
 23,M,Open,90,Victor Gomez,1960,88.2,Mexico,250,155,300,705,SBD,Single-ply
 24,M,Open,90,Lawrence Miranda,1970,89.3,Brazil,235,170,300,705,SBD,Single-ply
-25,M,Open,90,Carlos Hernandez,1965,86.9,Venezuela,280,180,240,700,SBD,Single-ply
+25,M,Open,90,Carlos Hernandez #2,1965,86.9,Venezuela,280,180,240,700,SBD,Single-ply
 26,M,Open,90,Stephen Nas,1963,88.3,Australia,252.5,165,265,682.5,SBD,Single-ply
 27,M,Open,90,Saul Edua Salazar,1968,88.4,Colombia,245,160,270,675,SBD,Single-ply
 28,M,Open,90,José Teixeira,1970,85,Portugal,232.5,150,267.5,650,SBD,Single-ply
 DQ,M,Open,90,Adrien Shnier,1964,85.6,Australia,,,,,SBD,Single-ply
-DQ,M,Open,90,Rashed AlEmiry,1970,88.8,UAE,270,,,,SBD,Single-ply
+DQ,M,Open,90,Rashed Al Omari,1970,88.8,UAE,270,,,,SBD,Single-ply
 1,M,Open,100,Nikolay Suslov,1979,99.2,Russia,380,230,342.5,952.5,SBD,Single-ply
 2,M,Open,100,Oleksiy Solovyov,1975,99.8,Ukraine,377.5,240,335,952.5,SBD,Single-ply
 3,M,Open,100,Anthony Harris #1,1964,99.6,USA,352.5,215,350,917.5,SBD,Single-ply
@@ -192,7 +192,7 @@ DQ,M,Open,110,Parveen Khanna,1967,102.8,India,250,,,,SBD,Single-ply
 15,M,Open,125,Tiri Rangihuna,1972,120.2,New Zealand,320,190,300,810,SBD,Single-ply
 16,M,Open,125,Arsen Djanklych,1976,121.3,Uzbekistan,310,180,310,800,SBD,Single-ply
 17,M,Open,125,Gary Roberts,1966,123,Australia,310,180,265,755,SBD,Single-ply
-18,M,Open,125,Julio Cae Conrado,1965,116,Brazil,290,187.5,250,727.5,SBD,Single-ply
+18,M,Open,125,Júlio César Conrado,1965,116,Brazil,290,187.5,250,727.5,SBD,Single-ply
 19,M,Open,125,Mark Neele,1975,110.4,Netherlands,280,170,260,710,SBD,Single-ply
 DQ,M,Open,125,Boris Novak,1973,121.4,Slovenia,,,,,SBD,Single-ply
 DQ,M,Open,125,Daisuke Midote,1972,124.1,Japan,390,,,,SBD,Single-ply

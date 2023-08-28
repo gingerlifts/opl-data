@@ -1,7 +1,7 @@
 Name,Age,Sex,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Place,Equipment,Event,Tested,Team
 Aissa Galang,35,F,F_OR_AAPF,94.6,90+,-97.523,97.523,102.06,102.06,61.236,65.772,-70.308,65.77,117.94,-129.28,-129.28,117.94,285.77,1,Raw,SBD,Yes,F3 Fitness
 Aissa Galang,35,F,F_SR_AAPF,94.6,90+,-97.523,97.523,102.06,102.06,61.236,65.772,-70.308,65.77,117.94,-129.28,-129.28,117.94,285.77,1,Raw,SBD,Yes,F3 Fitness
-Andrew Brown,25,M,M_OR_APF,108,110,224.53,-238.14,-260.82,224.53,142.88,-149.69,149.69,149.69,229.07,247.21,265.35,265.35,639.57,1,Raw,SBD,,Flint Barbell Club
+Andrew Brown #8,25,M,M_OR_APF,108,110,224.53,-238.14,-260.82,224.53,142.88,-149.69,149.69,149.69,229.07,247.21,265.35,265.35,639.57,1,Raw,SBD,,Flint Barbell Club
 Andrew Willard,34,M,M_OEM_AAPF,109,110,-340.2,-340.2,-340.2,,,,,,,,,,,DQ,Multi-ply,SBD,Yes,Spartan Barbell
 Andrew Willard,34,M,M_OEM_APF,109,110,-340.2,-340.2,-340.2,,,,,,,,,,,DQ,Multi-ply,SBD,,Spartan Barbell
 Bob Fabiano,56,M,M_OEM_AAPF,82.4,82.5,-272.16,-272.16,-272.16,,,,,,,,,,,DQ,Multi-ply,SBD,Yes,Spartan Barbell
@@ -61,6 +61,6 @@ Miguel Ruelan,43,M,M_OEM_APF,80.7,82.5,,,,,215.46,226.8,-233.6,226.8,,,,,226.8,1
 Ron Smith,48,M,M_MR_2_APF,96.9,100,,,,,-174.63,-174.63,,,,,,,,DQ,Raw,B,,Paul Hunt Powerlifting
 Ross Arnold,66,M,M_MR_6_AAPF,102.2,110,,,,,124.74,133.81,138.35,138.35,,,,,138.35,1,Raw,B,Yes,Total Fitness Center - Howell
 Andy Kilbry,26,M,M_OR_APF,73.7,75,,,,,-92.987,-102.06,102.059,102.06,183.707,-197.31,201.851,201.85,303.91,1,Raw,BD,,
-David Thompson,16,M,M_TR_2_APF,108.4,110,,,,,102.059,111.131,-113.4,111.13,199.583,215.459,226.799,226.8,337.93,1,Raw,BD,,F3 Fitness
+David Thompson #8,16,M,M_TR_2_APF,108.4,110,,,,,102.059,111.131,-113.4,111.13,199.583,215.459,226.799,226.8,337.93,1,Raw,BD,,F3 Fitness
 Lisa Cook,37,F,F_OR_AAPF,72.3,75,,,,,-40.824,-40.824,-40.824,,61.2356,70.3075,83.9154,83.92,,DQ,Raw,BD,Yes,The Dungeon Gym/Performance Edge
 Lisa Cook,37,F,F_SR_AAPF,72.3,75,,,,,-40.824,-40.824,-40.824,,61.2356,70.3075,83.9154,83.92,,DQ,Raw,BD,Yes,The Dungeon Gym/Performance Edge

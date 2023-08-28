@@ -3,7 +3,7 @@ M,17+,110,110,Aaron Whelan,117,117,B,Raw,1
 M,17+,100,98.2,Jason Ferguson,122.5,122.5,B,Raw,1
 M,17+,90,85,Steven Pollock,70,70,B,Raw,1
 M,17+,82.5,82.5,Aaron Daniel,75,75,B,Raw,1
-M,17+,82.5,82,Ashley Fuller,70,70,B,Raw,2
+M,17+,82.5,82,Ashley Fuller #2,70,70,B,Raw,2
 M,17+,82.5,77,Max Mann,30,30,B,Raw,3
 M,17+,75,75,Lachlan Hardy,120,120,B,Raw,1
 M,17+,75,72,Sam Clarke,70,70,B,Raw,2
@@ -34,7 +34,7 @@ M,Under 17,75,75,Darren Pfeiffer,65,65,B,Raw,4
 M,Under 17,75,75,Robert Mudge,62.5,62.5,B,Raw,5
 M,Under 17,75,70,Chris Irvin,57.5,57.5,B,Raw,6
 M,Under 17,75,75,Lance Kent,57.5,57.5,B,Raw,7
-M,Under 17,75,71,Peter King,55,55,B,Raw,8
+M,Under 17,75,71,Peter King #3,55,55,B,Raw,8
 M,Under 17,75,75,Dean Kelly,55,55,B,Raw,9
 M,Under 17,67.5,67.5,Peter Johnson,72.5,72.5,B,Raw,1
 M,Under 17,67.5,64.5,Jason Makins,70,70,B,Raw,2
@@ -52,7 +52,7 @@ M,Under 17,60,60,Riley Milner,40,40,B,Raw,2
 M,Under 17,60,57,Christopher Heaysman,35,35,B,Raw,3
 M,Under 17,60,59,Josh Custance,30,30,B,Raw,4
 M,Under 17,56,52.5,Sean Whitewood,42.5,42.5,B,Raw,1
-M,Under 17,52,47,Dylan Cook,27.5,27.5,B,Raw,1
+M,Under 17,52,47,Dylan Cook #2,27.5,27.5,B,Raw,1
 M,Under 16,110+,116.4,Karl Soloman,100,100,B,Raw,1
 M,Under 16,110,105,Michael Moe,62.5,62.5,B,Raw,1
 M,Under 16,100,94.6,Simon Chiu,110,110,B,Raw,1
@@ -67,7 +67,7 @@ M,Under 16,82.5,80,Kallum McCully,60,60,B,Raw,4
 M,Under 16,82.5,82.5,James Van der Want,57.5,57.5,B,Raw,5
 M,Under 16,82.5,78,Aaron Jenkins,55,55,B,Raw,6
 M,Under 16,82.5,78,Trent Prior,50,50,B,Raw,7
-M,Under 16,82.5,78,Adam Burke,45,45,B,Raw,8
+M,Under 16,82.5,78,Adam Burke #3,45,45,B,Raw,8
 M,Under 16,82.5,82,Michael Halay,45,45,B,Raw,9
 M,Under 16,75,74.8,Ben Dodd,105,105,B,Raw,1
 M,Under 16,75,72.3,Guy Stevenson,85,85,B,Raw,2
@@ -140,7 +140,7 @@ M,Under 16,52,52,Chris Abraham,27.5,27.5,B,Raw,3
 M,Under 16,52,42,Philip Cornish,20,20,B,Raw,4
 M,Under 15,100,92.4,Darcy Loechel,65,65,B,Raw,1
 M,Under 15,90,83,Dylan Tremaine,62.5,62.5,B,Raw,1
-M,Under 15,90,85,Scott McKenzie,57.5,57.5,B,Raw,2
+M,Under 15,90,85,Scott McKenzie #1,57.5,57.5,B,Raw,2
 M,Under 15,90,83,Jack Keogh,50,50,B,Raw,3
 M,Under 15,90,83,Ben Whaley,50,50,B,Raw,4
 M,Under 15,90,87,Alistair Singh,47.5,47.5,B,Raw,5
@@ -195,7 +195,7 @@ M,Under 14,67.5,64,Harley Webb,42.5,42.5,B,Raw,7
 M,Under 14,67.5,67,Todd Hutchinson,32.5,32.5,B,Raw,8
 M,Under 14,60,58,Trent Miller,30,30,B,Raw,1
 M,Under 14,56,54,Daniel Caporrella,42.5,42.5,B,Raw,1
-M,Under 14,56,54,Jake Clarke,40,40,B,Raw,2
+M,Under 14,56,54,Jake Clarke #2,40,40,B,Raw,2
 M,Under 14,56,56,Chris Challis,32.5,32.5,B,Raw,3
 M,Under 14,52,40,Ben Meller,30,30,B,Raw,1
 M,Under 14,52,48,Luke Fitzner,30,30,B,Raw,2
@@ -209,7 +209,7 @@ M,Under 14,52,52,Bradley Jacob,20,20,B,Raw,9
 M,Under 13,67.5,63,Ben Kerber,32.5,32.5,B,Raw,1
 M,Under 13,60,60,Chris Zachopoulos,27.5,27.5,B,Raw,1
 M,Under 13,52,44,Ben Le Leu,20,20,B,Raw,1
-F,17+,56,53,Sarah Ellis,35,35,B,Raw,1
+F,17+,56,53,Sarah Ellis #1,35,35,B,Raw,1
 F,Under 17,75,70,Alana Schubert,37.5,37.5,B,Raw,1
 F,Under 17,75,68.4,Adelma Romano,25,25,B,Raw,2
 F,Under 17,67.5,62,Jessie Millgate,45,45,B,Raw,1
@@ -260,7 +260,7 @@ F,Under 14,67.5,66,Lauren Walter,35,35,B,Raw,2
 F,Under 14,67.5,65,Jessie Wheatley,25,25,B,Raw,3
 F,Under 14,67.5,64,Alex Hill,10,10,B,Raw,4
 F,Under 14,60,60,Anna BrinkFimmel,32.5,32.5,B,Raw,1
-F,Under 14,60,58,Emma Campbell,30,30,B,Raw,2
+F,Under 14,60,58,Emma Campbell #3,30,30,B,Raw,2
 F,Under 14,60,59,Janelle Gates,30,30,B,Raw,3
 F,Under 14,60,60,Hannie Kuhne,20,20,B,Raw,4
 F,Under 14,60,58,Aimee Peel,15,15,B,Raw,5
@@ -269,7 +269,7 @@ F,Under 14,56,54,Nicole McKenzie,35,35,B,Raw,2
 F,Under 14,56,55,Tara Hall,30,30,B,Raw,3
 F,Under 14,56,56,Bianca Hartley,30,30,B,Raw,4
 F,Under 14,56,54,Jess Morris,25,25,B,Raw,5
-F,Under 14,56,56,Sam Parker #3,25,25,B,Raw,6
+F,Under 14,56,56,Sam Parker #1,25,25,B,Raw,6
 F,Under 14,52,51,Abbey Edwards,42.5,42.5,B,Raw,1
 F,Under 14,52,50,Jess Cooke,40,40,B,Raw,2
 F,Under 14,52,50.2,Laura Dobson,37.5,37.5,B,Raw,3

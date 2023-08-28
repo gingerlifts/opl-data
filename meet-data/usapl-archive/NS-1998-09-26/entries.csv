@@ -36,7 +36,7 @@ WeightClassKg,Sex,Equipment,Division,Name,Best3BenchKg,Bench4Kg,Event,TotalKg,Pl
 52,M,Single-ply,M-LT,Hung Pham,125,,B,125,1
 56,M,Single-ply,M-O,Bleda Elibal,95,,B,95,1
 56,M,Single-ply,M-LT,Bleda Elibal,95,,B,95,1
-60,M,Single-ply,M-O,Robert Allen,142.5,,B,142.5,1
+60,M,Single-ply,M-O,Robert Allen #1,142.5,,B,142.5,1
 60,M,Single-ply,M-O,Robert Schmerbeck,122.5,,B,122.5,2
 60,M,Single-ply,M-O,Fred Marquinez,117.5,,B,117.5,3
 60,M,Single-ply,M-O,Steve Petiencak,112.5,,B,112.5,4
@@ -67,7 +67,7 @@ WeightClassKg,Sex,Equipment,Division,Name,Best3BenchKg,Bench4Kg,Event,TotalKg,Pl
 75,M,Single-ply,M-LT,Paul Fleming #2,165,,B,165,4
 75,M,Single-ply,M-LT,Gary Reale,122.5,,B,122.5,5
 75,M,Single-ply,M-LT,Drew Lindsey,115,,B,115,6
-75,M,Single-ply,M-PF,Nick Merorelli,167.5,,B,167.5,1
+75,M,Single-ply,M-PF,Nick Mercorelli,167.5,,B,167.5,1
 75,M,Single-ply,M-PF,Paul Fleming #2,165,,B,165,2
 75,M,Raw,MR-O,David Seman,130,,B,130,1
 75,M,Single-ply,M-Jr,Mike Didonato,170,,B,170,1
@@ -111,7 +111,7 @@ WeightClassKg,Sex,Equipment,Division,Name,Best3BenchKg,Bench4Kg,Event,TotalKg,Pl
 90,M,Single-ply,M-LT,Michael Landino,207.5,,B,207.5,1
 90,M,Single-ply,M-LT,Bill Shalkowski,195,,B,195,2
 90,M,Single-ply,M-LT,Frank Weir,160,,B,160,3
-90,M,Single-ply,M-LT,Charles Lee,105,,B,105,4
+90,M,Single-ply,M-LT,Charles Lee #1,105,,B,105,4
 90,M,Raw,MR-O,Wally Strosnider,165,,B,165,1
 90,M,Raw,MR-O,K. Dean Church,162.5,,B,162.5,2
 90,M,Raw,MR-O,Matt Sulzer,127.5,,B,127.5,3
@@ -193,14 +193,14 @@ WeightClassKg,Sex,Equipment,Division,Name,Best3BenchKg,Bench4Kg,Event,TotalKg,Pl
 75,M,Single-ply,M-T3,Chad Norris,125,,B,125,1
 75,M,Single-ply,M-T3,Jason Waterman,105,,B,105,2
 90,M,Single-ply,M-T2,Matt Sulzer,127.5,,B,127.5,1
-100,M,Single-ply,M-T1,Tom Golden,122.5,,B,122.5,1
+100,M,Single-ply,M-T1,Thomas Golden,122.5,,B,122.5,1
 100,M,Single-ply,M-T3,Greg Vanson,160,,B,160,1
 110,M,Single-ply,M-T3,Chris Manes,165,,B,165,1
 67.5,M,Single-ply,M-M1b,Russ Burnett,,,B,,DQ
 67.5,M,Single-ply,M-M2b,Cody Bartlett,102.5,,B,102.5,1
 67.5,M,Single-ply,M-M4a,James Kunkle,80,,B,80,1
 75,M,Single-ply,M-M1a,Larry Miller,210,,B,210,1
-75,M,Single-ply,M-M1b,David Miller,145,,B,145,1
+75,M,Single-ply,M-M1b,David Miller #8,145,,B,145,1
 75,M,Single-ply,M-M1b,Gary Reale,122.5,,B,122.5,2
 75,M,Single-ply,M-M2a,Bob Benzlee,157.5,,B,157.5,1
 75,M,Single-ply,M-M2a,Bob Roche,137.5,,B,137.5,2
@@ -252,7 +252,7 @@ WeightClassKg,Sex,Equipment,Division,Name,Best3BenchKg,Bench4Kg,Event,TotalKg,Pl
 125,M,Single-ply,M-M2a,CJ Batten,230,,B,230,1
 125,M,Single-ply,M-M2a,Robert Moore,185,,B,185,2
 125,M,Single-ply,M-M2a,Gary Krueger,182.5,,B,182.5,3
-125,M,Single-ply,M-M2b,Murry Marsh,182.5,,B,182.5,1
+125,M,Single-ply,M-M2b,Murray Marsh,182.5,,B,182.5,1
 125,M,Single-ply,M-M2b,Richard van Eck,175,,B,175,2
 125+,M,Single-ply,M-M1a,Tom Manno,255,,B,255,1
 125+,M,Single-ply,M-M1a,Kevin Payne #1,200,,B,200,2

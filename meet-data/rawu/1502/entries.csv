@@ -17,7 +17,7 @@ WeightClassKg,Name,Sex,Team,Best3SquatKg,Best3BenchKg,Bench4Kg,Best3DeadliftKg,T
 60,Mattie Shaw,F,GGS,77.11,43.09,,95.25,215.46,SBD,Raw,SNR,4
 60,Hannah Montgomery,F,GGS,83.91,34.02,,95.25,213.19,SBD,Raw,SNR,5
 60,Kelly Johnston,F,GGS,68.04,30.39,,88.45,186.88,SBD,Raw,SNR,6
-60,Megan Ward,F,GGS,45.36,23.59,,61.23,130.18,SBD,Raw,SNR,7
+60,Megan Ward #2,F,GGS,45.36,23.59,,61.23,130.18,SBD,Raw,SNR,7
 67.5,Nancy Swanson,F,WG,131.54,81.65,,151.95,365.14,SBD,Raw,SNR,1
 67.5,Paris Harady,F,WG,90.72,63.5,,136.08,290.3,SBD,Raw,SNR,2
 67.5,Enza Denino,F,TG,79.38,45.36,,113.4,238.14,SBD,Raw,SNR,3
@@ -43,7 +43,7 @@ WeightClassKg,Name,Sex,Team,Best3SquatKg,Best3BenchKg,Bench4Kg,Best3DeadliftKg,T
 90+,Taeghan O'Neill,F,GGS,63.5,34.02,,83.91,181.44,SBD,Raw,SNR,3
 52,Ryan Feldbush,M,SLTF,54.43,23.59,,68.04,146.06,SBD,Raw,SNR,1
 56,Jacob Kent,M,SLTF,99.79,48.53,,114.31,262.63,SBD,Raw,SNR,1
-56,Chris Johnson,M,SLTF,70.31,41.73,,104.33,216.36,SBD,Raw,SNR,2
+56,Chris Johnson #7,M,SLTF,70.31,41.73,,104.33,216.36,SBD,Raw,SNR,2
 60,Andrew Kearney,M,SLTF,90.72,54.43,,115.67,260.82,SBD,Raw,SNR,1
 60,Joey D'Agati,M,LSC,70.31,47.63,,102.06,219.99,SBD,Raw,SNR,2
 60,Ben Johnson #5,M,SLTF,63.5,41.73,,102.06,207.29,SBD,Raw,SNR,3
@@ -111,5 +111,5 @@ WeightClassKg,Name,Sex,Team,Best3SquatKg,Best3BenchKg,Bench4Kg,Best3DeadliftKg,T
 125,Jordan Halgopian,M,LSC,226.8,142.88,,238.14,607.81,SBD,Raw,SNR,5
 125,Brian Dolan,M,TG,199.58,158.76,,242.67,601.01,SBD,Raw,SNR,6
 125,Dour Orr,M,,183.7,131.54,,226.8,542.04,SBD,Raw,SNR,7
-125,Anthony Martinez,M,SLTF,,142.88,,226.8,,SBD,Raw,SNR,DQ
+125,Anthony Martinez #1,M,SLTF,,142.88,,226.8,,SBD,Raw,SNR,DQ
 140,Ken Morris,M,LSC,306.17,210.92,,328.85,845.95,SBD,Raw,SNR,1

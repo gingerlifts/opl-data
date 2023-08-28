@@ -1,6 +1,6 @@
 Name,WeightClassKg,Division,Sex,Age,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Dixie Guyote,52,Open,M,,,90,42.5,112.5,245,SBD,Single-ply,1
-T. Kahrs,52,Open,M,,,75,37.5,100,212.5,SBD,Single-ply,2
+Tammy Kahrs,52,Open,F,,,75,37.5,100,212.5,SBD,Single-ply,2
 J. Mercado,56,Open,M,,,90,60,135,285,SBD,Single-ply,1
 Molly Jackson,56,Open,F,,,120,,,,SBD,Single-ply,DQ
 A. LaCombe,60,Open,M,,,167.5,102.5,160,430,SBD,Single-ply,1
@@ -14,19 +14,19 @@ C. Young,75,Open,M,,,,,,,SBD,Single-ply,DQ
 Michael Vinson,82.5,Open,M,,,205,160,227.5,592.5,SBD,Single-ply,1
 K. Balcirak,82.5,Open,M,,,190,145,182.5,517.5,SBD,Single-ply,2
 A. Acquarelli,82.5,Open,M,,,147.5,147.5,190,485,SBD,Single-ply,3
-B. Sharp,82.5,Open,M,,,162.5,112.5,182.5,457.5,SBD,Single-ply,4
+Butch Sharp,82.5,Open,M,,,162.5,112.5,182.5,457.5,SBD,Single-ply,4
 T. Ishenwood,82.5,Open,M,,,160,112.5,182.5,455,SBD,Single-ply,5
 Michael Barrett,90,Open,M,,,250,160,237.5,647.5,SBD,Single-ply,1
 Dan Kroesch,90,Open,M,,,240,137.5,227.5,605,SBD,Single-ply,2
 H. Ritter,90,Open,M,,,205,,,,SBD,Single-ply,DQ
 David Richardson,100,Open,M,,,282.5,170,282.5,735,SBD,Single-ply,1
-C. Sturgis,100,Open,M,,,265,132.5,275,672.5,SBD,Single-ply,2
+Clay Sturgis,100,Open,M,,,265,132.5,275,672.5,SBD,Single-ply,2
 S. Jenkins,100,Open,M,,,127.5,102.5,150,380,SBD,Single-ply,3
 T. Keller,100,Open,M,,,,,,,SBD,Single-ply,DQ
 R. Razor,100,Open,M,,,,,,,SBD,Single-ply,DQ
 J. Sanders,110,Open,M,,,115,145,182.5,442.5,SBD,Single-ply,1
 Rod Lewis,125,Open,M,,,160,150,217.5,527.5,SBD,Single-ply,1
-W. Lewis,125,Open,M,,,,,,,SBD,Single-ply,DQ
+W. Lewis #2,125,Open,M,,,,,,,SBD,Single-ply,DQ
 Jason Wisner,125+,Open,M,15,134.72,275,157.5,265,697.5,SBD,Wraps,1
 Nikki Robbins,,Open,F,,,105,47.5,120,272.5,SBD,Single-ply,1
 W. Reeves,,Open,F,,,85,40,110,235,SBD,Single-ply,2
@@ -34,7 +34,7 @@ Bridgette Savoie,,Open,F,,,90,42.5,112.5,245,SBD,Single-ply,3
 D. Holmes,,Open,F,,,67.5,52.5,90,210,SBD,Single-ply,4
 Molly Jackson,56,Open,F,,,120,,,,SBD,Single-ply,DQ
 Freeman King,,Masters,M,42,,210,112.5,197.5,520,SBD,Single-ply,1
-B. Sharp,82.5,Masters,M,50,,162.5,112.5,182.5,457.5,SBD,Single-ply,2
+Butch Sharp,82.5,Masters,M,50,,162.5,112.5,182.5,457.5,SBD,Single-ply,2
 Ron Jinkins,,Masters,M,44,,157.5,125,217.5,500,SBD,Single-ply,3
 L. Green,,Masters,M,46,,147.5,142.5,187.5,477.5,SBD,Single-ply,4
 J. Magee,60,Teen Light,M,,,152.5,97.5,155,405,SBD,Single-ply,1

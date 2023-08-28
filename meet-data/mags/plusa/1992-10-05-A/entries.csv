@@ -126,7 +126,7 @@ V. Cosenza,75,Lifetime,,M,192.5,192.5,D,Single-ply,6
 Bob Legg,75,Lifetime,,M,185,185,D,Single-ply,7
 A. Orlando,75,Lifetime,,M,182.5,182.5,D,Single-ply,8
 J. Gray #2,75,Teen 14-15,14-15,M,112.5,112.5,D,Single-ply,1
-P. Dipaola,75,Teen 16-17,16-17,M,242.5,242.5,D,Single-ply,1
+Pasquale DiPaola,75,Teen 16-17,16-17,M,242.5,242.5,D,Single-ply,1
 C. Dascanio,75,Teen 16-17,16-17,M,227.5,227.5,D,Single-ply,2
 R. Rouson,75,Teen 16-17,16-17,M,172.5,172.5,D,Single-ply,3
 Dan Waterman,75,Teen 18-19,18-19,M,190,190,D,Single-ply,1
@@ -184,7 +184,7 @@ Rob Fisher,82.5,Masters 40-44,40-44,M,250,250,D,Single-ply,1
 J. Flaherty,82.5,Masters 40-44,40-44,M,250,250,D,Single-ply,2
 Vic Scaranda,82.5,Masters 40-44,40-44,M,227.5,227.5,D,Single-ply,3
 S. Rotenberg,82.5,Masters 40-44,40-44,M,217.5,217.5,D,Single-ply,4
-T. Hauprich,82.5,Masters 40-44,40-44,M,210,210,D,Single-ply,5
+Tim Hauprich,82.5,Masters 40-44,40-44,M,210,210,D,Single-ply,5
 Ted Butler,82.5,Masters 45-49,45-49,M,245,245,D,Single-ply,1
 Er. Johnson,82.5,Masters 45-49,45-49,M,205,205,D,Single-ply,2
 Robert DeRisi Sr,82.5,Masters 50-54,50-54,M,205,205,D,Single-ply,1
@@ -192,7 +192,7 @@ Don Levesque,82.5,Masters 60-64,60-64,M,235,235,D,Single-ply,1
 David Ginenthal,82.5,Masters 60-64,60-64,M,192.5,192.5,D,Single-ply,2
 Ron Reuther,90,Open,,M,260,260,D,Single-ply,1
 N. Bryant,90,Open,,M,257.5,257.5,D,Single-ply,2
-S. Addison,90,Open,,M,257.5,257.5,D,Single-ply,3
+Sean Addison,90,Open,,M,257.5,257.5,D,Single-ply,3
 Kirk Bardos,90,Open,,M,250,250,D,Single-ply,4
 M. Curran,90,Open,,M,220,220,D,Single-ply,5
 J. Wilson,90,Open,,M,212.5,212.5,D,Single-ply,6
@@ -201,7 +201,7 @@ Steve Scialpi,90,Lifetime,,M,360,360,D,Single-ply,1
 M. Secchi,90,Lifetime,,M,280,280,D,Single-ply,2
 Craig Safran,90,Lifetime,,M,267.5,267.5,D,Single-ply,3
 D. McGuffin,90,Lifetime,,M,260,260,D,Single-ply,4
-S. Addison,90,Lifetime,,M,257.5,257.5,D,Single-ply,5
+Sean Addison,90,Lifetime,,M,257.5,257.5,D,Single-ply,5
 S. Taulane,90,Lifetime,,M,240,240,D,Single-ply,6
 M. Curran,90,Lifetime,,M,220,220,D,Single-ply,7
 Burt Rosenfield,90,Lifetime,,M,212.5,212.5,D,Single-ply,8
@@ -224,7 +224,7 @@ Roland Cote,90,Masters 45-49,45-49,M,250,250,D,Single-ply,3
 Kermit Fidler,90,Masters 45-49,45-49,M,205,205,D,Single-ply,4
 J. Berbein,90,Masters 50-54,50-54,M,230,230,D,Single-ply,1
 Burt Rosenfield,90,Masters 60-64,60-64,M,212.5,212.5,D,Single-ply,1
-D. Barnes,90,Special Olypmics,,M,227.5,227.5,D,Single-ply,1
+D. Barnes #2,90,Special Olypmics,,M,227.5,227.5,D,Single-ply,1
 A. Dickie,90,Special Olypmics,,M,137.5,137.5,D,Single-ply,2
 Ed Riley #2,100,Open,,M,337.5,337.5,D,Single-ply,1
 James Murphy,100,Open,,M,320,320,D,Single-ply,2
@@ -236,7 +236,7 @@ J. King,100,Open,,M,287.5,287.5,D,Single-ply,7
 C. Marshall,100,Open,,M,272.5,272.5,D,Single-ply,8
 Joe Polvinale,100,Open,,M,272.5,272.5,D,Single-ply,9
 Ray Birch,100,Open,,M,265,265,D,Single-ply,10
-G. Costello,100,Open,,M,260,260,D,Single-ply,11
+Gene Costello,100,Open,,M,260,260,D,Single-ply,11
 R. Roach,100,Open,,M,250,250,D,Single-ply,12
 J. Malandrino,100,Open,,M,245,245,D,Single-ply,13
 J. Perelli,100,Open,,M,205,205,D,Single-ply,14
@@ -245,16 +245,16 @@ Corey Farrell,100,Lifetime,,M,307.5,307.5,D,Single-ply,2
 M. Hartman #1,100,Lifetime,,M,287.5,287.5,D,Single-ply,3
 A. Gains,100,Lifetime,,M,277.5,277.5,D,Single-ply,4
 C. Marshall,100,Lifetime,,M,272.5,272.5,D,Single-ply,5
-G. Costello,100,Lifetime,,M,260,260,D,Single-ply,6
+Gene Costello,100,Lifetime,,M,260,260,D,Single-ply,6
 M. Dingee,100,Lifetime,,M,250,250,D,Single-ply,7
 J. Malandrino,100,Lifetime,,M,245,245,D,Single-ply,8
-R. Landman,100,Lifetime,,M,235,235,D,Single-ply,9
+Robert Landman,100,Lifetime,,M,235,235,D,Single-ply,9
 M. Bell,100,Teen 14-15,14-15,M,177.5,177.5,D,Single-ply,1
 E. Riley,100,Teen 16-17,16-17,M,202.5,202.5,D,Single-ply,1
 A. Osuchowski,100,Teen 16-17,16-17,M,195,195,D,Single-ply,2
 C. Bell,100,Teen 18-19,18-19,M,250,250,D,Single-ply,1
 B. Holmes,100,Teen 18-19,18-19,M,227.5,227.5,D,Single-ply,2
-G. Costello,100,Collegiate,,M,260,260,D,Single-ply,1
+Gene Costello,100,Collegiate,,M,260,260,D,Single-ply,1
 F. D'Ascani,100,Collegiate,,M,250,250,D,Single-ply,2
 C. Calvano,100,Collegiate,,M,195,195,D,Single-ply,3
 R. Constance,100,Police & Fire,,M,272.5,272.5,D,Single-ply,1
@@ -266,7 +266,7 @@ P. Berrio,100,Submasters,35-39,M,227.5,227.5,D,Single-ply,3
 C. Smith,100,Submasters,35-39,M,167.5,167.5,D,Single-ply,4
 J. King,100,Masters 40-44,40-44,M,287.5,287.5,D,Single-ply,1
 Larry Bucchioni,100,Masters 40-44,40-44,M,272.5,272.5,D,Single-ply,2
-F. Panaro,100,Masters 40-44,40-44,M,260,260,D,Single-ply,3
+Frank Panaro,100,Masters 40-44,40-44,M,260,260,D,Single-ply,3
 Joe Polvinale,100,Masters 45-49,45-49,M,272.5,272.5,D,Single-ply,1
 W. Lorette,100,Masters 45-49,45-49,M,180,180,D,Single-ply,2
 Charles Wuest,100,Masters 50-54,50-54,M,197.5,197.5,D,Single-ply,1
@@ -276,21 +276,21 @@ Rob Babbitt,110,Open,,M,292.5,292.5,D,Single-ply,2
 Tim Mooney,110,Open,,M,282.5,282.5,D,Single-ply,3
 Wardell Sewell,110,Open,,M,280,280,D,Single-ply,4
 Jody Tyring,110,Open,,M,277.5,277.5,D,Single-ply,5
-Rob Hamscher,110,Open,,M,272.5,272.5,D,Single-ply,6
+Bob Hamscher,110,Open,,M,272.5,272.5,D,Single-ply,6
 Rob Babbitt,110,Lifetime,,M,292.5,292.5,D,Single-ply,1
-Rob Hamscher,110,Lifetime,,M,272.5,272.5,D,Single-ply,2
+Bob Hamscher,110,Lifetime,,M,272.5,272.5,D,Single-ply,2
 D. Wood,110,Lifetime,,M,217.5,217.5,D,Single-ply,3
 Mastrangelo,110,Teen 18-19,18-19,M,272.5,272.5,D,Single-ply,1
 E. Rexford,110,Teen 18-19,18-19,M,220,220,D,Single-ply,2
 G. Stephens,110,Teen 18-19,18-19,M,202.5,202.5,D,Single-ply,3
-S. Reddington,110,Collegiate,,M,250,250,D,Single-ply,1
+Steve Reddington,110,Collegiate,,M,250,250,D,Single-ply,1
 M. Pisano,110,Collegiate,,M,217.5,217.5,D,Single-ply,2
 G. Stephens,110,Collegiate,,M,202.5,202.5,D,Single-ply,3
 D. Wood,110,Police & Fire,,M,217.5,217.5,D,Single-ply,1
 Rob Babbitt,110,Submasters,35-39,M,292.5,292.5,D,Single-ply,1
 Wardell Sewell,110,Submasters,35-39,M,280,280,D,Single-ply,2
 Jody Tyring,110,Submasters,35-39,M,277.5,277.5,D,Single-ply,3
-Rob Hamscher,110,Submasters,35-39,M,272.5,272.5,D,Single-ply,4
+Bob Hamscher,110,Submasters,35-39,M,272.5,272.5,D,Single-ply,4
 G. Sodaro,110,Submasters,35-39,M,237.5,237.5,D,Single-ply,5
 R. Robustelli,110,Masters 40-44,40-44,M,240,240,D,Single-ply,1
 D. Bloomfield,110,Masters 50-54,50-54,M,235,235,D,Single-ply,1
@@ -310,7 +310,7 @@ S. Bosaw,125,Teen 18-19,18-19,M,227.5,227.5,D,Single-ply,1
 S. Bosaw,125,Collegiate,,M,227.5,227.5,D,Single-ply,1
 S. McCog,125,Submasters,35-39,M,277.5,277.5,D,Single-ply,1
 John Callahan,125,Submasters,35-39,M,230,230,D,Single-ply,2
-George Walker,125,Masters 40-44,40-44,M,257.5,257.5,D,Single-ply,1
+George Walker,125,Masters 45-49,45-49,M,257.5,257.5,D,Single-ply,1
 Clyde Doll,125,Masters 55-59,55-59,M,200,200,D,Single-ply,1
 L. Corelli,125,Masters 60-64,60-64,M,240,240,D,Single-ply,1
 Bill Barnhart,125+,Open,,M,257.5,257.5,D,Single-ply,1

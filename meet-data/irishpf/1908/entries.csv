@@ -6,7 +6,7 @@ G,Mairead Murphy,F,,Ireland,Raw,F-G,52.2,57,90,97.5,-100,97.5,-52.5,-52.5,52.5,5
 2,Aoife McCarthy,F,,Ireland,Raw,F-O,50.8,52,105,110,-112.5,110,60,-65,-65,60,135,142.5,147.5,147.5,317.5,SBD,
 3,Gemma Davey,F,,Ireland,Raw,F-O,51.2,52,90,-95,-95,90,57.5,60,-62.5,60,120,130,-135,130,280,SBD,CityGym Limerick
 4,Anna Dean,F,,Ireland,Raw,F-O,50.6,52,87.5,95,97.5,97.5,50,52.5,-55,52.5,95,102.5,107.5,107.5,257.5,SBD,CityGym Limerick
-1,Jenny Wilson,F,,Ireland,Raw,F-O,56.2,57,87.5,97.5,102.5,102.5,52.5,57.5,60,60,140,150,160,160,322.5,SBD,Strength Militia
+1,Jenny Wilson #1,F,,Ireland,Raw,F-O,56.2,57,87.5,97.5,102.5,102.5,52.5,57.5,60,60,140,150,160,160,322.5,SBD,Strength Militia
 2,Karen Keatinge,F,,Ireland,Raw,F-O,56.4,57,92.5,100,105,105,57.5,62.5,65,65,122.5,130,135,135,305,SBD,Strength Militia
 3,Rachael Kirwan,F,,Ireland,Raw,F-O,55.8,57,72.5,77.5,80,80,55,-60,-60,55,105,112.5,117.5,117.5,252.5,SBD,A.B.S Powerlifting
 4,Lynda Daly,F,,Ireland,Raw,F-O,54.6,57,70,77.5,82.5,82.5,37.5,40,-42.5,40,117.5,125,-130,125,247.5,SBD,CityGym Limerick
@@ -38,8 +38,8 @@ G,Mairead Murphy,F,,Ireland,Raw,F-G,52.2,57,90,97.5,-100,97.5,-52.5,-52.5,52.5,5
 DQ,Mairead Fitzpatrick,F,,Ireland,Raw,F-O,69.2,72,97.5,-105,-105,97.5,,,,,,,,,,SBD,Sigma Nutrition
 DQ,Charleen Coen,F,,Ireland,Raw,F-O,69.4,72,102.5,110,112.5,112.5,42.5,45,-47.5,45,-140,-150,-150,,,SBD,
 1,Maeve Cummins,F,,Ireland,Raw,F-O,79.6,84,120,127.5,135,135,65,67.5,70,70,167.5,180,-190,180,385,SBD,Strength Militia
-2,Nicole Craig,F,,Ireland,Raw,F-O,83.6,84,115,125,-132.5,125,62.5,-67.5,67.5,67.5,160,172.5,180,180,372.5,SBD,KJ Powerlifting Club
-3,Margaret Carey,F,,Ireland,Raw,F-O,82.8,84,120,127.5,135,135,65,70,72.5,72.5,130,140,145,145,352.5,SBD,Kaos Gym
+2,Nicole Craig #1,F,,Ireland,Raw,F-O,83.6,84,115,125,-132.5,125,62.5,-67.5,67.5,67.5,160,172.5,180,180,372.5,SBD,KJ Powerlifting Club
+3,Margaret Carey #1,F,,Ireland,Raw,F-O,82.8,84,120,127.5,135,135,65,70,72.5,72.5,130,140,145,145,352.5,SBD,Kaos Gym
 4,Leigh Porter,F,,Ireland,Raw,F-O,72.4,84,130,-140,-140,130,-55,57.5,-62.5,57.5,140,147.5,150,150,337.5,SBD,
 5,Joanne Greene,F,,Ireland,Raw,F-O,81,84,120,125,127.5,127.5,60,65,70,70,125,132.5,137.5,137.5,335,SBD,CityGym Limerick
 DQ,Fidelma Gilligan,F,,Ireland,Raw,F-O,80,84,-105,-105,-105,,-60,-65,65,65,120,125,130,130,,SBD,Athlone Powerlifting Club
@@ -50,7 +50,7 @@ DQ,Fidelma Gilligan,F,,Ireland,Raw,F-O,80,84,-105,-105,-105,,-60,-65,65,65,120,1
 5,Niamh Doyle,F,,Ireland,Raw,F-O,97.2,84+,122.5,127.5,137.5,137.5,57.5,62.5,67.5,67.5,130,137.5,145,145,350,SBD,
 6,Cliona O'Driscoll,F,,Ireland,Raw,F-O,90.8,84+,137.5,-142.5,142.5,142.5,40,45,,45,140,147.5,150,150,337.5,SBD,Kaos Gym
 7,Sarah May Hamilton,F,,Ireland,Raw,F-O,117.2,84+,115,120,-125,120,65,70,72.5,72.5,125,132.5,135,135,327.5,SBD,Strength Militia
-G,Ben Harrison,M,,Ireland,Raw,M-G,123.4,120+,210,217.5,222.5,222.5,160,165,-167.5,165,220,230,237.5,237.5,625,SBD,Kaos Gym
+G,Ben Harrison #2,M,,Ireland,Raw,M-G,123.4,120+,210,217.5,222.5,222.5,160,165,-167.5,165,220,230,237.5,237.5,625,SBD,Kaos Gym
 NS,Billy Morton,M,,Ireland,Raw,M-O,,,,,,,,,,,,,,,,SBD,Cork City Powerlifting Club
 1,Darren Moloney,M,,Ireland,Raw,M-O,73.2,74,205,212.5,220,220,-105,112.5,117.5,117.5,240,250,260,260,597.5,SBD,
 2,Eesa Alshuaib,M,,Ireland,Raw,M-O,72.8,74,187.5,197.5,200,200,157.5,163,168,168,200,215,227.5,227.5,595.5,SBD,A.B.S Powerlifting
@@ -67,7 +67,7 @@ NS,Billy Morton,M,,Ireland,Raw,M-O,,,,,,,,,,,,,,,,SBD,Cork City Powerlifting Clu
 6,Patrick Jennings,M,,Ireland,Raw,M-O,81.6,83,185,-195,-195,185,120,125,-130,125,245,-255,-255,245,555,SBD,
 7,Adam Joy,M,1992-12-05,Ireland,Raw,M-O,80.8,83,185,195,200,200,115,122.5,127.5,127.5,205,215,-222.5,215,542.5,SBD,Kaos Gym
 8,Bobby Leask,M,,Ireland,Raw,M-O,78.2,83,162.5,175,190,190,100,107.5,-115,107.5,190,205,215,215,512.5,SBD,Galway Strength & Performance
-9,Andrew Ryan,M,,Ireland,Raw,M-O,80.2,83,170,185,-190,185,95,100,-105,100,190,202.5,-215,202.5,487.5,SBD,CityGym Limerick
+9,Andrew Ryan #2,M,,Ireland,Raw,M-O,80.2,83,170,185,-190,185,95,100,-105,100,190,202.5,-215,202.5,487.5,SBD,CityGym Limerick
 10,Kevin Croughan,M,,Ireland,Raw,M-O,81.8,83,137.5,147.5,160,160,100,107.5,115,115,165,175,200,200,475,SBD,
 11,Graham Jack,M,,Ireland,Raw,M-O,79.8,83,-150,160,170,170,97.5,-102.5,105,105,170,182.5,190,190,465,SBD,Sayers Strength
 12,James Fox,M,,Ireland,Raw,M-O,79.2,83,130,140,150,150,85,90,95,95,165,175,190,190,435,SBD,Strength Militia

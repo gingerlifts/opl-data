@@ -35,7 +35,7 @@ Place,Name,CyrillicName,BirthYear,WeightClassKg,BodyweightKg,Best3SquatKg,Best3B
 2,Andrey Svistunov,Андрей Свистунов,1977,56,55.9,220,117.5,220,557.5,M,Open,SBD,Single-ply
 3,Aleksandr Koval,Александр Коваль,1988,56,55.7,200,115,200,515,M,Open,SBD,Single-ply
 4,Ivan Moskalev,Иван Москалев,1984,56,55.9,200,120,160,480,M,Open,SBD,Single-ply
-5,Yuriy Vasilev,Юрій Васильєв,1987,56,55.4,185,115,175,475,M,Open,SBD,Single-ply
+5,Yuriy Vasilev #1,Юрий Васильев,1987,56,55.4,185,115,175,475,M,Open,SBD,Single-ply
 6,Sergey Rikhter,Сергей Рихтер,1989,56,55.9,160,87.5,190,437.5,M,Open,SBD,Single-ply
 DQ,Vitaliy Tikhonovskiy,Виталий Тихоновский,1984,56,55.4,,,,,M,Open,SBD,Single-ply
 1,Konstantin Pavlov,Константин Павлов,1973,60,59.9,250,180,210,640,M,Open,SBD,Single-ply
@@ -60,7 +60,7 @@ DQ,Vitaliy Tikhonovskiy,Виталий Тихоновский,1984,56,55.4,,,,,M
 13,Roman Ozhigov,Роман Ожигов,1988,75,75,250,170,200,620,M,Open,SBD,Single-ply
 14,Igor Bogachenko,Игорь Богаченко,1979,75,72.5,225,172.5,210,607.5,M,Open,SBD,Single-ply
 1,Vladimir Sholskiy,Владимир Шольский,1985,82.5,82.2,345,205,295,845,M,Open,SBD,Single-ply
-2,Denis Arkhipov,Денис Архіпов,1979,82.5,82.5,320,215,300,835,M,Open,SBD,Single-ply
+2,Denis Arkhipov #4,Денис Архипов,1979,82.5,82.5,320,215,300,835,M,Open,SBD,Single-ply
 3,Vitaliy Kireev,Виталий Киреев,1985,82.5,79.1,315,217.5,300,832.5,M,Open,SBD,Single-ply
 4,Sergey Potapenko,Сергей Потапенко,1969,82.5,81.6,312.5,217.5,300,830,M,Open,SBD,Single-ply
 5,Vasiliy Gusev,Василий Гусев,1977,82.5,82.3,290,205,260,755,M,Open,SBD,Single-ply
@@ -76,7 +76,7 @@ DQ,Vitaliy Tikhonovskiy,Виталий Тихоновский,1984,56,55.4,,,,,M
 NS,Pavel Ozerov,Павел Озеров,1980,82.5,,,,,,M,Open,SBD,Single-ply
 1,Igor Rudnev,Игорь Руднев,1983,90,90,335,227.5,317.5,880,M,Open,SBD,Single-ply
 2,Nikolay Kozlovskiy,Николай Козловский,1981,90,89.95,320,210,312.5,842.5,M,Open,SBD,Single-ply
-3,Aleksey Pavlovskiy,Алексей Павловский,1974,90,89.35,320,235,285,840,M,Open,SBD,Single-ply
+3,Aleksey Pavlovskiy #1,Алексей Павловский,1974,90,89.35,320,235,285,840,M,Open,SBD,Single-ply
 4,Yuriy Savenko,Юрий Савенко,1981,90,89.1,275,185,290,750,M,Open,SBD,Single-ply
 5,Oleg Novopashin,Олег Новопашин,1983,90,86.85,290,180,260,730,M,Open,SBD,Single-ply
 6,Fedor Opolev,Федор Ополев,1973,90,89.3,280,180,270,730,M,Open,SBD,Single-ply
@@ -104,4 +104,4 @@ DQ,Anatoliy Chirkin,Анатолий Чиркин,1968,110,107.55,340,,,,M,Open,
 4,Arkadiy Pechenin,Аркадий Печенин,1977,125,110.8,330,250,315,895,M,Open,SBD,Single-ply
 1,Viktor Shabanov,Виктор Шабанов,1976,125+,143.75,370,310,295,975,M,Open,SBD,Single-ply
 2,Aleksey Mikhalev,Алексей Михалев,1984,125+,127.65,330,217.5,290,837.5,M,Open,SBD,Single-ply
-DQ,Vitaliy Mikheev,Виталий Михеев,1977,125+,143.65,,,,,M,Open,SBD,Single-ply
+DQ,Vitaliy Mikheev #1,Виталий Михеев,1977,125+,143.65,,,,,M,Open,SBD,Single-ply

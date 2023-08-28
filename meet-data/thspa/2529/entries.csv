@@ -2,7 +2,7 @@ Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Be
 Boys,51.71,1,Therrance Soto,San Marcos,50.94,106.59,63.5,120.2,290.3,Single-ply,SBD,M
 Boys,51.71,2,Andres Guevera,Manor,48.99,63.5,52.16,102.06,217.72,Single-ply,SBD,M
 Boys,51.71,3,Joel Berrum,Austin Lake Travis,50.44,90.72,38.56,81.65,210.92,Single-ply,SBD,M
-Boys,51.71,DQ,Christian Lopez,Manor,49.8,,,,,Single-ply,SBD,M
+Boys,51.71,DQ,Christian Lopez #8,Manor,49.8,,,,,Single-ply,SBD,M
 Boys,55.79,1,Ulysses Solis,San Antonio East Central,55.61,138.35,72.57,167.83,378.75,Single-ply,SBD,M
 Boys,55.79,2,Adrian Yanez,Kyle Lehman,55.52,127.01,81.65,145.15,353.8,Single-ply,SBD,M
 Boys,55.79,3,Luke Merchant,San Marcos,55.11,129.27,79.38,142.88,351.53,Single-ply,SBD,M
@@ -42,7 +42,7 @@ Boys,74.84,10,Wesley Estrada-Lowe,Buda Hays,73.66,129.27,90.72,174.63,394.63,Sin
 Boys,74.84,11,Joel Dominguez,Kyle Lehman,74.3,136.08,83.91,165.56,385.55,Single-ply,SBD,M
 Boys,74.84,12,Sergio Torres #1,Gonzales,74.39,142.88,74.84,151.95,369.68,Single-ply,SBD,M
 Boys,74.84,13,Jared Cooper,Geronimo Navarro,68.13,124.74,83.91,158.76,367.41,Single-ply,SBD,M
-Boys,74.84,14,James Martinez,Gonzales,70.49,129.27,83.91,149.69,362.87,Single-ply,SBD,M
+Boys,74.84,14,James Martinez #5,Gonzales,70.49,129.27,83.91,149.69,362.87,Single-ply,SBD,M
 Boys,82.1,1,Prudencio Calderon,San Marcos,82.01,199.58,117.93,247.21,564.72,Single-ply,SBD,M
 Boys,82.1,2,Robert Llanas,San Antonio East Central,82.01,208.65,131.54,222.26,562.45,Single-ply,SBD,M
 Boys,82.1,3,Alex Rivas,Seguin,80.38,208.65,127.01,213.19,548.85,Single-ply,SBD,M
@@ -71,7 +71,7 @@ Boys,89.81,8,Victor Martinez,San Marcos,83.46,158.76,122.47,197.31,478.54,Single
 Boys,89.81,9,Marcus Ortiz,Del Valle,87.09,170.1,104.33,188.24,462.66,Single-ply,SBD,M
 Boys,89.81,10,Kyndal Johnson,Elgin,84.37,147.42,108.86,179.17,435.45,Single-ply,SBD,M
 Boys,89.81,11,Abel Hernandez,Del Rio,89.72,145.15,113.4,170.1,428.64,Single-ply,SBD,M
-Boys,89.81,12,Jose Rodriguez,Del Rio,88.54,149.69,86.18,151.95,387.82,Single-ply,SBD,M
+Boys,89.81,12,Jose Rodriguez #11,Del Rio,88.54,149.69,86.18,151.95,387.82,Single-ply,SBD,M
 Boys,89.81,13,Chase Whites,Austin Lake Travis,84.82,111.13,79.38,147.42,337.93,Single-ply,SBD,M
 Boys,89.81,DQ,Olisa Uzuegbunam,Manor,87,201.85,,,,Single-ply,SBD,M
 Boys,89.81,DQ,Joel Juarez,Lockhart,83.46,195.04,129.27,,,Single-ply,SBD,M
@@ -89,7 +89,7 @@ Boys,99.79,11,Gabino Barrera,Del Rio,92.53,161.03,111.13,156.49,428.64,Single-pl
 Boys,99.79,12,Jaydon Jasso,Del Rio,98.79,124.74,83.91,206.38,415.04,Single-ply,SBD,M
 Boys,99.79,13,Dizon Rodriguez,Del Rio,94.03,142.88,92.99,165.56,401.43,Single-ply,SBD,M
 Boys,99.79,14,Brian Ortiz,Del Valle,94.98,104.33,83.91,151.95,340.19,Single-ply,SBD,M
-Boys,99.79,DQ,Jose Mendoza,Del Rio,97.52,161.03,,,,Single-ply,SBD,M
+Boys,99.79,DQ,Jose Mendoza #1,Del Rio,97.52,161.03,,,,Single-ply,SBD,M
 Boys,99.79,DQ,Jeremy Fowler,Manor,99.43,,,,,Single-ply,SBD,M
 Boys,109.77,1,Jeremy Rodriguez #2,Geronimo Navarro,108.95,317.51,192.78,244.94,755.23,Single-ply,SBD,M
 Boys,109.77,2,Carlos Chester,Manor,108.32,272.16,181.44,281.23,734.82,Single-ply,SBD,M
@@ -113,7 +113,7 @@ Boys,124.74,9,Louis Salamanca,Seguin,114.31,190.51,131.54,172.37,494.42,Single-p
 Boys,124.74,10,Kadin Lawrence,Elgin,115.58,170.1,113.4,190.51,474,Single-ply,SBD,M
 Boys,124.74,11,Koy Spano,Austin Lake Travis,115.03,165.56,113.4,183.7,462.66,Single-ply,SBD,M
 Boys,124.74,12,Abe Hinojosa,Del Rio,118.75,151.95,86.18,170.1,408.23,Single-ply,SBD,M
-Boys,124.74,13,Jose Martinez,Del Rio,121.65,145.15,97.52,142.88,385.55,Single-ply,SBD,M
+Boys,124.74,13,Jose Martinez #12,Del Rio,121.65,145.15,97.52,142.88,385.55,Single-ply,SBD,M
 Boys,124.74,14,CJ Benavidez,Del Rio,115.76,136.08,88.45,158.76,383.29,Single-ply,SBD,M
 Boys,124.74,15,Josh Baggett,Lockhart,110.4,136.08,79.38,151.95,367.41,Single-ply,SBD,M
 Boys,124.74,16,Brenden Jaimes,Austin Lake Travis,111.31,154.22,122.47,,276.69,Single-ply,SB,M
@@ -125,7 +125,7 @@ Boys,124.74+,4,Imade Igeihon,Del Valle,146.69,210.92,122.47,215.46,548.85,Single
 Boys,124.74+,5,Joe Colurciello,Lockhart,130.36,201.85,117.93,208.65,528.44,Single-ply,SBD,M
 Boys,124.74+,6,Carlos Morales,Kyle Lehman,143.24,183.7,131.54,183.7,498.95,Single-ply,SBD,M
 Boys,124.74+,7,Chase Patterson #1,Austin Lake Travis,131.09,181.44,106.59,190.51,478.54,Single-ply,SBD,M
-Boys,124.74+,8,Joseph Rodriguez,Del Rio,145.06,170.1,102.06,185.97,458.13,Single-ply,SBD,M
+Boys,124.74+,8,Joseph Rodriguez #6,Del Rio,145.06,170.1,102.06,185.97,458.13,Single-ply,SBD,M
 Boys,124.74+,DQ,Wesley Curry,Elgin,138.62,215.46,102.06,,,Single-ply,SBD,M
 Boys,124.74+,DQ,Anthony Hill,Manor,163.29,219.99,120.2,,,Single-ply,SBD,M
 Boys,124.74+,DQ,Nick Dela Rosa,San Marcos,146.06,,,,,Single-ply,SBD,M

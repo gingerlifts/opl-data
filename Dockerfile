@@ -1,10 +1,10 @@
-# Start from a rust:nightly base image
-FROM rustlang/rust:nightly
+# Start from a stable Debian image
+FROM rust:slim-buster AS builder
 
 # Install our box dependencies in one, easily-cached layer image
-RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - && \
-    apt-get update -qq && \
-    apt-get install -y nodejs python3-pip && \
+RUN apt-get update -qq && apt-get install -y curl libjemalloc2 && \
+    #curl -sL https://deb.nodesource.com/setup_14.x | bash - && \
+    apt-get install -y git npm python3-pip uglifyjs && \
     pip3 install toml flake8
 
 # Move to our project directory
@@ -31,9 +31,11 @@ COPY Cargo.* ./
 COPY Makefile ./
 
 # project code
+COPY .git .git/
 COPY checker checker/
-COPY modules modules/
+COPY crates crates/
 COPY server server/
+COPY tests tests/
 
 # Build it
 RUN make
@@ -49,3 +51,11 @@ ENV ROCKET_ADDRESS=0.0.0.0
 
 # And we're ready to docker run
 CMD ["cargo", "run", "--release"]
+
+# Put server executable and data in a smaller image
+FROM debian:stable-slim
+WORKDIR /opt/openpowerlifting/
+COPY --from=builder /opt/openpowerlifting/server/build .
+EXPOSE 8000
+ENV ROCKET_ADDRESS=0.0.0.0
+CMD ["/opt/openpowerlifting/server", "--set-cwd", "data"]

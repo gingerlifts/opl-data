@@ -58,7 +58,7 @@ WeightClassKg,Name,Sex,Event,Equipment,Country,Division,Best3SquatKg,Bench1Kg,Be
 125,Juris Judko,M,B,Multi-ply,Latvia,M1,,250,-275,275,280,275,,275,1
 125,Domenico Seminatore,M,B,Multi-ply,France,M1,,230,240,250,-258,250,,250,2
 125,Roman Siwarski,M,B,Multi-ply,Poland,M1,,200,-210,,,200,,200,3
-125,Karol Repiský,M,B,Multi-ply,Slovakia,M1,,170,-180,-180,,170,,170,4
+125,Karol Kornel Repiský,M,B,Multi-ply,Slovakia,M1,,170,-180,-180,,170,,170,4
 75,Uwe Werner,M,B,Multi-ply,Germany,M2,,170,180,186,,186,,186,1
 90,Peter Rathke,M,B,Multi-ply,Germany,M2,,195,205,-215,,205,,205,1
 90,Frank Kutzsch,M,B,Multi-ply,Germany,M2,,165,172.5,-177.5,,172.5,,172.5,2
@@ -80,7 +80,7 @@ WeightClassKg,Name,Sex,Event,Equipment,Country,Division,Best3SquatKg,Bench1Kg,Be
 100,Igor Goldman,M,B,Multi-ply,Russia,M7,,135,147.5,150,-152.5,150,,150,1
 56,Lesley Jayne Thomas,F,SBD,Multi-ply,UK,O,200,,,,,95,165,460,1
 60,Wendy Michiels,F,SBD,Multi-ply,Belgium,O,201,,,,,102.5,190,493.5,1
-67.5,Natalia Erkhan,F,SBD,Multi-ply,Russia,O,175,,,,,90,165,430,1
+67.5,Natalya Erkhan,F,SBD,Multi-ply,Russia,O,175,,,,,90,165,430,1
 67.5,Marie-Jacques Burrick,F,SBD,Multi-ply,Belgium,M2,117.5,,,,,62.5,127.5,307.5,1
 75,Hildegard Utecht,F,SBD,Multi-ply,Germany,M3,140,,,,,90,140,370,1
 82.5,Jan Fujdiak,M,SBD,Multi-ply,Slovakia,T1,200,,,,,150.5,210,560.5,1
@@ -106,7 +106,7 @@ WeightClassKg,Name,Sex,Event,Equipment,Country,Division,Best3SquatKg,Bench1Kg,Be
 125,Waldemar Schurr,M,SBD,Multi-ply,Germany,J,335,,,,,200,300,835,1
 56,Reno Karkuschke,M,SBD,Multi-ply,Germany,O,187.5,,,,,120,177.5,485,1
 60,Rüja Didzis,M,SBD,Multi-ply,Latvia,O,125,,,,,130,110,365,1
-67.5,Ilja Kokorev,M,SBD,Multi-ply,Russia,O,290,,,,,190,275,755,1
+67.5,Ilya Kokorev,M,SBD,Multi-ply,Russia,O,290,,,,,190,275,755,1
 67.5,Eric Bacinsky,M,SBD,Multi-ply,Slovakia,O,220,,,,,150,215,585,2
 75,Oleksandr Kutcher,M,SBD,Multi-ply,Ukraine,O,340.5,,,,,235,340,915.5,1
 75,Sergey Ayvazov,M,SBD,Multi-ply,Russia,O,305,,,,,150,250,705,2
@@ -117,23 +117,23 @@ WeightClassKg,Name,Sex,Event,Equipment,Country,Division,Best3SquatKg,Bench1Kg,Be
 82.5,Roman Svidron,M,SBD,Multi-ply,Slovakia,O,160,,,,,,,,DQ
 90,Edgars Rekšņa,M,SBD,Multi-ply,Latvia,O,365,,,,,242.5,355,962.5,1
 90,Arkady Bukhtiychuk,M,SBD,Multi-ply,Ukraine,O,337.5,,,,,212.5,300,850,2
-90,Andrei Sizov,M,SBD,Multi-ply,Russia,O,290,,,,,175,315,780,3
+90,Andrey Sizov,M,SBD,Multi-ply,Russia,O,290,,,,,175,315,780,3
 100,Kyle Vauls,M,SBD,Multi-ply,Ireland,O,275,,,,,220,280,775,2
 100,Olegs Radchenko,M,SBD,Multi-ply,Latvia,O,280,,,,,180,260,720,3
-100,Alexander Grachev,M,SBD,Multi-ply,Russia,O,365,,,,,190,330,885,1
+100,Aleksandr Grachev,M,SBD,Multi-ply,Russia,O,365,,,,,190,330,885,1
 110,Cirulis Ivars,M,SBD,Multi-ply,Latvia,O,205,,,,,180,300,685,1
-125,Guliyev Bakhtiyar,M,SBD,Multi-ply,Azerbaijan,O,,,,,,,,,DQ
+125,Bakhtiyar Guliyev,M,SBD,Multi-ply,Azerbaijan,O,,,,,,,,,DQ
 140,Serhiy Oleolenko,M,SBD,Multi-ply,Ukraine,O,350,,,,,217.5,345,912.5,1
 140,Vugar Namazov,M,SBD,Multi-ply,Azerbaijan,O,,,,,,,,,DQ
 67.5,Gerard McNamara #1,M,SBD,Multi-ply,Ireland,M1,315,,,,,185,260,760,1
 82.5,Vick Vaclav,M,SBD,Multi-ply,Slovakia,M1,200,,,,,122.5,250,572.5,1
-100,Sam Graham,M,SBD,Multi-ply,Ireland,M1,300,,,,,175,310,785,1
+100,Sam Graham #1,M,SBD,Multi-ply,Ireland,M1,300,,,,,175,310,785,1
 110,Viktor Mahút,M,SBD,Multi-ply,Slovakia,M1,225,,,,,120,240,585,1
 125,Frank Hurraß,M,SBD,Multi-ply,Germany,M1,330,,,,,200,290,820,1
 125,Gary Boulton,M,SBD,Multi-ply,UK,M1,310,,,,,207.5,275,792.5,2
 75,Kurt Rooch,M,SBD,Multi-ply,Germany,M2,260,,,,,165,230,655,1
 82.5,Bernard Morgan,M,SBD,Multi-ply,Ireland,M2,275,,,,,160,247.5,682.5,1
-90,Frank Kutsch,M,SBD,Multi-ply,Germany,M2,260,,,,,175,252.5,687.5,1
+90,Frank Kutzsch,M,SBD,Multi-ply,Germany,M2,260,,,,,175,252.5,687.5,1
 110,Tanona Normunds,M,SBD,Multi-ply,Latvia,M2,270,,,,,170,260,700,1
 125,Lee Marshall,M,SBD,Multi-ply,UK,M2,360,,,,,200,350,910,1
 56,Pavel Spodniak,M,SBD,Multi-ply,Slovakia,M4,115,,,,,90,150,355,1

@@ -5,12 +5,12 @@ WeightClassKg,Age,BodyweightKg,Name,Division,Sex,Event,Equipment,Squat1Kg,Squat2
 90,33,89.22,Brian Ramsey,M_OEM_APF,M,B,Multi-ply,,,,,232.5,242.5,-252.5,242.5,,,,,242.5,3
 90,34,89.27,Kelly Ash,M_OEM_APF,M,B,Multi-ply,,,,,172.5,182.5,190,190,,,,,190,4
 100,32,99.84,Joe Guerra,M_OEM_APF,M,B,Multi-ply,,,,,257.5,-280,-280,257.5,,,,,257.5,1
-100,27,99.79,Ken Conner,M_OEM_APF,M,B,Multi-ply,,,,,170,185,197.5,197.5,,,,,197.5,2
+100,27,99.79,Ken Conner #1,M_OEM_APF,M,B,Multi-ply,,,,,170,185,197.5,197.5,,,,,197.5,2
 110,28,109.09,Chad Matthews,M_OEM_APF,M,B,Multi-ply,,,,,285,-290,-290,285,,,,,285,1
 110,33,108.86,Raymond Pierce,M_OEM_APF,M,B,Multi-ply,,,,,250,-272.5,-272.5,250,,,,,250,2
 110,42,105.91,Rodney Womack,M_OEM_APF,M,B,Multi-ply,,,,,192.5,-205,-205,192.5,,,,,192.5,3
 125,33,121.79,Greg Tillinghast,M_OEM_APF,M,B,Multi-ply,,,,,272.5,285,295,295,,,,,295,1
-125,44,112.45,Mike De Laval,M_OEM_APF,M,B,Multi-ply,,,,,-345,-345,-345,,,,,,,DQ
+125,44,112.45,Mike DeLaval,M_OEM_APF,M,B,Multi-ply,,,,,-345,-345,-345,,,,,,,DQ
 125,39,112.04,Patrick Parnell,M_OEM_APF,M,B,Multi-ply,,,,,-272.5,-272.5,-295,,,,,,,DQ
 125,28,115.48,Eric Wright,M_OEM_APF,M,B,Multi-ply,,,,,-300,-300,,,,,,,,DQ
 140,34,138.94,Tiny Meeker,M_OEM_APF,M,B,Multi-ply,,,,,-415,415,-440,415,,,,,415,1
@@ -78,7 +78,7 @@ WeightClassKg,Age,BodyweightKg,Name,Division,Sex,Event,Equipment,Squat1Kg,Squat2
 140,49,127.46,Mike McDaniel,M_OEM_APF,M,SBD,Multi-ply,382.5,-412.5,412.5,412.5,222.5,240,-250,240,272.5,-300,300,300,952.5,1
 140,35,128.82,Mike Askew,M_OEM_APF,M,SBD,Multi-ply,410,432.5,455,455,275,295,320,320,137.5,,,137.5,912.5,2
 140+,37,140.98,Fred Lopez,M_OEM_APF,M,SBD,Multi-ply,282.5,307.5,340,340,225,245,-255,245,272.5,295,-307.5,295,880,1
-60,16,58.01,Dustin San Miguel,M_TEM_2_APF,M,SBD,Multi-ply,125,150,-162.5,150,70,80,92.5,92.5,137.5,155,-170,155,397.5,1
+60,16,58.01,Dustin SanMiguel,M_TEM_2_APF,M,SBD,Multi-ply,125,150,-162.5,150,70,80,92.5,92.5,137.5,155,-170,155,397.5,1
 82.5,17,77.29,Brian Norris,M_TEM_2_APF,M,SBD,Multi-ply,122.5,155,-162.5,155,77.5,-92.5,-105,77.5,122.5,132.5,140,140,372.5,1
 90,17,88.9,Joe Sassie,M_TEM_2_APF,M,SBD,Multi-ply,222.5,240,-260,240,137.5,147.5,-167.5,147.5,205,215,-220,215,602.5,1
 110,16,104.01,Ross Condra,M_TEM_2_APF,M,SBD,Multi-ply,182.5,205,232.5,232.5,107.5,115,122.5,122.5,227.5,240,247.5,247.5,602.5,1
@@ -113,11 +113,11 @@ WeightClassKg,Age,BodyweightKg,Name,Division,Sex,Event,Equipment,Squat1Kg,Squat2
 125,57,122.88,David Brooks,M_MEM_4_APF,M,SBD,Multi-ply,-277.5,-300,300,300,160,172.5,182.5,182.5,230,245,,245,727.5,1
 125,62,120.25,Marvin Allen,M_MEM_5_APF,M,SBD,Multi-ply,142.5,-170,-185,142.5,102.5,-125,-125,102.5,147.5,182.5,-227.5,182.5,427.5,1
 67.5,,67.4,Brad Burttschell,Below Class I,M,SBD,Multi-ply,85,112.5,132.5,132.5,85,97.5,-107.5,97.5,110,137.5,152.5,152.5,382.5,1
-82.5,30,80.83,David Garcia,Below Class I,M,SBD,Multi-ply,175,185,-192.5,185,110,120,-125,120,175,187.5,-195,187.5,492.5,1
+82.5,30,80.83,David Garcia #8,Below Class I,M,SBD,Multi-ply,175,185,-192.5,185,110,120,-125,120,175,187.5,-195,187.5,492.5,1
 90,32,87.32,Erik Stark,Below Class I,M,SBD,Multi-ply,215,-230,230,230,147.5,160,-167.5,160,240,-260,-260,240,630,1
 90,34,89.27,Kelly Ash,Below Class I,M,SBD,Multi-ply,-242.5,-242.5,-242.5,,,,,,,,,,,DQ
 100,49,93.71,Christopher Suffredini,Below Class I,M,SBD,Multi-ply,162.5,177.5,192.5,192.5,135,145,-150,145,150,170,182.5,182.5,520,1
-125,26,110.86,David Ortiz,Below Class I,M,SBD,Multi-ply,280,295,317.5,317.5,92.5,182.5,,182.5,230,-240,,230,730,1
+125,26,110.86,David Ortiz #3,Below Class I,M,SBD,Multi-ply,280,295,317.5,317.5,92.5,182.5,,182.5,230,-240,,230,730,1
 140,35,138.89,Gregory Jones,Below Class I,M,SBD,Multi-ply,-255,272.5,,272.5,175,185,195,195,272.5,282.5,290,290,757.5,1
 140,29,131.72,Raul Gonzales,Below Class I,M,SBD,Multi-ply,-217.5,-217.5,217.5,217.5,157.5,167.5,172.5,172.5,207.5,235,-257.5,235,625,2
 82.5,14,77.7,Carlos Cuellar,M_OEM_APF,M,S,Multi-ply,-135,135,137.5,137.5,,,,,,,,,137.5,1
@@ -130,7 +130,7 @@ WeightClassKg,Age,BodyweightKg,Name,Division,Sex,Event,Equipment,Squat1Kg,Squat2
 48,29,47.54,Kelly LaCour,F_OEM_APF,F,SBD,Multi-ply,87.5,102.5,-105,102.5,-52.5,57.5,60,60,102.5,115,117.5,117.5,280,1
 52,46,51.75,Pat Metcalf,F_OEM_APF,F,SBD,Multi-ply,100,117.5,-137.5,117.5,62.5,-70,-70,62.5,100,122.5,-142.5,122.5,302.5,1
 90,32,85.28,Frankie Thompson,F_OEM_APF,F,SBD,Multi-ply,112.5,-142.5,142.5,142.5,42.5,62.5,82.5,82.5,110,162.5,-182.5,162.5,387.5,1
-44,15,43.91,Ashley Wilson,F_TEM_1_APF,F,SBD,Multi-ply,80,85,-90,85,32.5,35,40,40,77.5,80,-92.5,80,205,1
+44,15,43.91,Ashley Wilson #3,F_TEM_1_APF,F,SBD,Multi-ply,80,85,-90,85,32.5,35,40,40,77.5,80,-92.5,80,205,1
 52,14,49.58,Amanda Harris,F_TEM_1_APF,F,SBD,Multi-ply,100,-110,-110,100,60,67.5,70,70,92.5,105,115,115,285,1
 60,15,59.65,Ashley Barrera,F_TEM_1_APF,F,SBD,Multi-ply,137.5,145,150,150,60,67.5,75,75,147.5,160,162.5,162.5,387.5,1
 75,18,73.94,Erin Fitzpatrick,F_TEM_3_APF,F,SBD,Multi-ply,137.5,152.5,-157.5,152.5,57.5,62.5,-70,62.5,137.5,142.5,-147.5,142.5,357.5,1

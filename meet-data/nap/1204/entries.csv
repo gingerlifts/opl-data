@@ -108,7 +108,7 @@ WeightClassKg,Event,Equipment,Sex,Tested,Name,CyrillicName,BirthDate,Division,Bo
 82.5,B,Raw,F,Yes,Alena Simonova,Алена Симонова,1996-01-30,Amateur Teen 16-17,78,,,,,,42.5,45,-47.5,,45,,,,,,45,1
 52,B,Raw,F,Yes,Yana Lazunina,Яна Лазунина,1993-03-01,Amateur Teen 18-19,50.7,,,,,,32.5,-37.5,-37.5,,32.5,,,,,,32.5,1
 60,B,Raw,F,Yes,Elena Sushkina,Елена Сушкина,1994-09-19,Amateur Teen 18-19,57.6,,,,,,40,42.5,-45,,42.5,,,,,,42.5,1
-60,B,Raw,F,Yes,Galina Tukal,Галина Тукаль,1989-06-19,Amateur Juniors 20-23,59.6,,,,,,45,50,55,,55,,,,,,55,1
+60,B,Raw,F,Yes,Galina Abramova,Галина Абрамова,1989-06-19,Amateur Juniors 20-23,59.6,,,,,,45,50,55,,55,,,,,,55,1
 56,B,Raw,F,Yes,Anzhela Derbeneva,Анжела Дербенева,1992-09-05,Amateur Open,54.7,,,,,,72.5,-77.5,-77.5,,72.5,,,,,,72.5,2
 67.5,B,Raw,F,Yes,Mariya Prokonich,Мария Проконич,1988-09-25,Amateur Open,62.25,,,,,,40,45,-47.5,,45,,,,,,45,1
 75,B,Raw,F,Yes,Natalya Korenkova,Наталья Коренкова,1980-01-07,Amateur Open,68.7,,,,,,85,95,100,,100,,,,,,100,1
@@ -186,7 +186,7 @@ WeightClassKg,Event,Equipment,Sex,Tested,Name,CyrillicName,BirthDate,Division,Bo
 125,SBD,Wraps,M,No,Andrey Kudrin,Андрей Кудрин,1968-06-15,Pro Masters 40-44,125,280,300,-315,,300,200,215,225,,225,280,300,320,,320,845,1
 125,SBD,Wraps,M,No,Borislav Dzokhsorov,Борислав Дзохсоров,1972-07-19,Pro Masters 40-44,116.2,200,220,-240,,220,-150,150,160,,160,200,220,230,,230,610,2
 110,SBD,Wraps,M,No,Valeriy Gorbunov,Валерий Горбунов,1965-01-30,Pro Masters 45-49,108.95,250,-270,270,,270,150,160,-165,,160,240,255,-270,,255,685,1
-44,SBD,Wraps,F,No,Dinara Shpeyder,Динара Шпейдер,2002-10-08,Pro Teen 13,23.9,35,45,50,,50,20,-22.5,22.5,,22.5,-40,40,50,,50,122.5,1
+44,SBD,Wraps,F,No,Dinara Shpeyter,Динара Шпейтер,2002-10-08,Pro Teen 13,23.9,35,45,50,,50,20,-22.5,22.5,,22.5,-40,40,50,,50,122.5,1
 67.5,SBD,Wraps,F,No,Irina Denisova,Ирина Денисова,1990-02-10,Pro Juniors 20-23,64.3,80,90,-95,,90,40,45,50,,50,90,105,115,120.5,115,255,1
 67.5,SBD,Wraps,F,No,Alena Volferts,Алена Вольферц,1992-06-23,Pro Juniors 20-23,66.4,70,80,-87.5,,80,-35,35,-42.5,,35,90,105,-110,,105,220,2
 52,SBD,Wraps,F,No,Yuliya Sergeeva,Юлия Сергеева,1995-06-05,Pro Open,51.95,-100,100,-115,,100,55,60,-62.5,,60,135,142.5,-147.5,,142.5,302.5,1
@@ -229,14 +229,14 @@ WeightClassKg,Event,Equipment,Sex,Tested,Name,CyrillicName,BirthDate,Division,Bo
 82.5,B,Multi-ply,M,No,Aleksandr Abramov,Александр Абрамов,1987-09-20,Pro Open,79.1,,,,,,-230,-240,-240,,,,,,,,,DQ
 90,B,Multi-ply,M,No,Stepan Borovskiy,Степан Боровский,1986-01-22,Pro Open,86,,,,,,200,-210,210,,210,,,,,,210,1
 90,B,Multi-ply,M,No,Dmitriy Savchenko,Дмитрий Савченко,1981-08-03,Pro Open,82.8,,,,,,170,182.5,-200,,182.5,,,,,,182.5,2
-90,B,Multi-ply,M,No,Artem Bykhovets,Артём Быховец,1983-01-19,Pro Open,85,,,,,,-230,-230,-230,,,,,,,,,DQ
+90,B,Multi-ply,M,No,Artem Bykhovets,Артем Быховец,1983-01-19,Pro Open,85,,,,,,-230,-230,-230,,,,,,,,,DQ
 100,B,Multi-ply,M,No,Ivan Vasyunin,Иван Васюнин,1983-08-01,Pro Open,97.4,,,,,,275,287.5,300,,300,,,,,,300,1
 100,B,Multi-ply,M,No,Mikhail Ryzhkin,Михаил Рыжкин,1984-08-12,Pro Open,99.3,,,,,,220,232.5,-240,,232.5,,,,,,232.5,3
 100,B,Multi-ply,M,No,Mikhail Kuleshov,Михаил Кулешов,1990-11-25,Pro Open,98,,,,,,195,205,-212.5,,205,,,,,,205,4
-110,B,Multi-ply,M,No,Aleksey Pavlovskiy,Алексей Павловский,1974-04-29,Pro Open,104.3,,,,,,-290,290,310,,310,,,,,,310,1
+110,B,Multi-ply,M,No,Aleksey Pavlovskiy #1,Алексей Павловский,1974-04-29,Pro Open,104.3,,,,,,-290,290,310,,310,,,,,,310,1
 52,B,Raw,M,No,Aleksey Chanov,Алексей Чанов,1995-05-22,Pro Teen 16-17,51.7,,,,,,85,-90,-90,,85,,,,,,85,1
 67.5,B,Raw,M,No,Aleksey Savchenko,Алексей Савченко,1995-07-12,Pro Teen 16-17,65.75,,,,,,-90,-95,-95,,,,,,,,,DQ
-75,B,Raw,M,No,Vladislav Mavrin,Владислав Маврин,1995-10-17,Pro Teen 16-17,69.45,,,,,,77.5,-80,-80,,77.5,,,,,,77.5,1
+75,B,Raw,M,No,Vladislav Mavrin #1,Владислав Маврин,1995-10-17,Pro Teen 16-17,69.45,,,,,,77.5,-80,-80,,77.5,,,,,,77.5,1
 82.5,B,Raw,M,No,Aleksey Slobodchikov,Алексей Слободчиков,1995-01-14,Pro Teen 16-17,82.35,,,,,,75,85,90,,90,,,,,,90,2
 100,B,Raw,M,No,Matvey Mishulin,Матвей Мишулин,1995-08-24,Pro Teen 16-17,96.45,,,,,,155,160,172.5,,172.5,,,,,,172.5,1
 125,B,Raw,M,No,Ivan Tsimbal,Иван Цимбал,1996-07-25,Pro Teen 16-17,125,,,,,,90,102.5,110,,110,,,,,,110,1
@@ -275,7 +275,7 @@ WeightClassKg,Event,Equipment,Sex,Tested,Name,CyrillicName,BirthDate,Division,Bo
 140+,B,Raw,M,No,Sergey Kushchev,Сергей Кущев,1967-10-21,Pro Masters 45-49,150,,,,,,250,267.5,272.5,,272.5,,,,,,272.5,1
 110,B,Raw,M,No,Mikhail Ishchechkin,Михаил Ищечкин,1962-01-22,Pro Masters 50-54,107.35,,,,,,155,162.5,167.5,,167.5,,,,,,167.5,1
 67.5,B,Raw,F,No,Natalya Morozova,Наталья Морозова,1997-09-05,Pro Teen 14-15,65.3,,,,,,52.5,55,-57.5,,55,,,,,,55,1
-60,B,Raw,F,No,Galina Tukal,Галина Тукаль,1989-06-19,Pro Juniors 20-23,58.2,,,,,,50,-57.5,-57.5,,50,,,,,,50,2
+60,B,Raw,F,No,Galina Abramova,Галина Абрамова,1989-06-19,Pro Juniors 20-23,58.2,,,,,,50,-57.5,-57.5,,50,,,,,,50,2
 52,B,Raw,F,No,Natalya Konovalova,Наталья Коновалова,1988-09-14,Pro Open,50.9,,,,,,100,-106,106,-107.5,106,,,,,,106,1
 67.5,B,Raw,F,No,Natalya Kukushkina,Наталья Кукушкина,1982-09-17,Pro Open,61.55,,,,,,-40,-40,40,,40,,,,,,40,2
 82.5,B,Raw,F,No,Irina Nikulina,Ирина Никулина,1988-03-29,Pro Open,81.35,,,,,,102.5,112.5,-115,,112.5,,,,,,112.5,1

@@ -18,7 +18,7 @@ WeightClassKg,Name,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Se
 60,Cody Hynes,M-O,130,95,190,415,M,SBD,Single-ply,1
 60,Terry Ward,M-Jr,132.5,80,145,357.5,M,SBD,Single-ply,1
 67.5,Tobias Adams,M-O,190,130,265,585,M,SBD,Single-ply,1
-67.5,Eric Gonzalez,M-O,140,125,165,430,M,SBD,Single-ply,2
+67.5,Eric Gonzalez #8,M-O,140,125,165,430,M,SBD,Single-ply,2
 67.5,Richard Handziak,M-Jr,152.5,125,172.5,450,M,SBD,Single-ply,1
 67.5,Keith James,M-M,,,,,M,SBD,Single-ply,DQ
 75,Jim Bourgeault,M-O,217.5,145,245,607.5,M,SBD,Single-ply,1
@@ -34,7 +34,7 @@ WeightClassKg,Name,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Se
 82.5,Tony Hibbert,M-O,257.5,150,260,667.5,M,SBD,Single-ply,2
 82.5,Todd Nerlin,M-O,177.5,132.5,222.5,532.5,M,SBD,Single-ply,3
 82.5,James Burdette,M-O,170,157.5,200,527.5,M,SBD,Single-ply,4
-82.5,Juan Perez,M-O,162.5,127.5,217.5,507.5,M,SBD,Single-ply,5
+82.5,Juan Perez #18,M-O,162.5,127.5,217.5,507.5,M,SBD,Single-ply,5
 82.5,Jason Caros,M-O,167.5,115,145,427.5,M,SBD,Single-ply,6
 82.5,Anthony Hambric #2,M-M,215,162.5,265,642.5,M,SBD,Single-ply,2
 90,Mike Hayden,M-O,240,177.5,227.5,645,M,SBD,Single-ply,1
@@ -67,7 +67,7 @@ WeightClassKg,Name,Division,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Se
 60,Jennifer Fenti,F-O,,65,,65,F,B,Single-ply,1
 90,Paulette Calhoun,F-M,,97.5,,97.5,F,B,Single-ply,1
 60,Cody Hynes,M-O,,95,,95,M,B,Single-ply,1
-75,Joe Williams,M-O,,152.5,,152.5,M,B,Single-ply,1
+75,Joe Williams #3,M-O,,152.5,,152.5,M,B,Single-ply,1
 75,Phillip Taylor,M-O,,147.5,,147.5,M,B,Single-ply,2
 75,Tony Laszacs,M-O,,92.5,,92.5,M,B,Single-ply,3
 82.5,Johnnie Martinez,M-O,,177.5,,177.5,M,B,Single-ply,1

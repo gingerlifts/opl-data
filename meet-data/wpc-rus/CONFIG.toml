@@ -1,4 +1,7 @@
 # Configuration for WPC-RUS
+[options]
+    require_manual_disambiguation = true
+
 
 [divisions]
     am_open = {name = "Amateur Open", min = 0, max = 999,tested="Yes"}
@@ -16,10 +19,12 @@
     am_masters_65_69 = {name = "Amateur Masters 65-69", min = 65, max = 69,tested="Yes"}
     am_masters_70_74 = {name = "Amateur Masters 70-74", min = 70, max = 74,tested="Yes"}
     am_masters_75_79 = {name = "Amateur Masters 75-79", min = 75, max = 79,tested="Yes"}
+    am_masters_80_84 = {name = "Amateur Masters 80-84", min = 80, max = 84,tested="Yes"}
     am_masters_80p = {name = "Amateur Masters 80+", min = 80, max = 999,tested="Yes"}
 
     am_teen = {name = "Amateur Teen", min = 13, max = 19,tested="Yes"}
     am_masters = {name = "Amateur Masters", min = 40, max = 999,tested="Yes"}
+    am_disabled = {name = "Amateur Disabled", min = 0, max = 999,tested="Yes"}
 
 
     pro_open = {name = "Pro Open", min = 0, max = 999}
@@ -37,10 +42,12 @@
     pro_masters_65_69 = {name = "Pro Masters 65-69", min = 65, max = 69}
     pro_masters_70_74 = {name = "Pro Masters 70-74", min = 70, max = 74}
     pro_masters_75_79 = {name = "Pro Masters 75-79", min = 75, max = 79}
+    pro_masters_80_84 = {name = "Pro Masters 80-84", min = 80, max = 84}
     pro_masters_80p = {name = "Pro Masters 80+", min = 80, max = 999}
 
     pro_teen = {name = "Pro Teen", min = 13, max = 19}
     pro_masters = {name = "Pro Masters", min = 40, max = 999}
+    pro_disabled = {name = "Pro Disabled", min = 0, max = 999}
 
 
     dis_open = {name = "Disabled Open", min = 0, max = 999}
@@ -72,11 +79,62 @@
 
 [exemptions]
     0503 = ["ExemptWeightClassConsistency"]
+    0504 = ["ExemptWeightClassConsistency"] # Fewer weight classes.
+    0605 = ["ExemptWeightClassConsistency"] # Fewer weight classes.
+    0608 = ["ExemptWeightClassConsistency"] # Fewer weight classes.
     0701 = ["ExemptWeightClassConsistency"]
     0703 = ["ExemptWeightClassConsistency"]
+    0726 = ["ExemptWeightClassConsistency"] # Non standard weight classes
     0801 = ["ExemptWeightClassConsistency"]
+    0807 = ["ExemptWeightClassConsistency"] # No weight classes
+    0816 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    0822 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    0824 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    0829 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    0831 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    0832 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    0833 = ["ExemptWeightClassConsistency"] # Non standard weight classes
     0901 = ["ExemptWeightClassConsistency"]
+    0909 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    0910 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    0911 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    0912 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    0913 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    0920 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    0923 = ["ExemptWeightClassConsistency"] # Non standard weight classes
     1001 = ["ExemptWeightClassConsistency"]
+    1007 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1008 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1009 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1015 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1018 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1019 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1021 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Non standard weight classes, Special Olympics
+    1025 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1030 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1034 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1036 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1106 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1117 = ["ExemptWeightClassConsistency"] # Missing women's class
+    1123 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1124 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1127 = ["ExemptWeightClassConsistency"] # No weight classes
+    1131 = ["ExemptWeightClassConsistency"] # No weight classes
+    1133 = ["ExemptWeightClassConsistency"] # No weight classes
+    1229 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1231 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1317 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1326 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1331 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1341 = ["ExemptWeightClassConsistency"] # Missing weight classes
+    1349 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1350 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1352 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1411 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1416 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1441 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1552 = ["ExemptWeightClassConsistency"] # Non standard weight classes
+    1651 = ["ExemptWeightClassConsistency"] # Missing weight classes
     1720 = ["ExemptWeightClassConsistency"]
     1738 = ["ExemptWeightClassConsistency"]
     1774 = ["ExemptWeightClassConsistency"] # Youth weight classes.

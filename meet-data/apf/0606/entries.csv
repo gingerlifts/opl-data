@@ -1,13 +1,13 @@
 Name,Age,Event,Equipment,Sex,Division,WeightClassKg,BodyweightKg,Best3SquatKg,Squat4Kg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Bench4Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Place
 Charlie Morse,40,B,Multi-ply,M,M_MEM_1_AWPC,67.5,66.2,,,125,140,-147.5,140,,,,140,1
-Edward Taber,40,B,Multi-ply,M,M_MEM_1_AWPC,90,89,,,190,196,205,205,210,,,205,1
+Ed Taber,40,B,Multi-ply,M,M_MEM_1_AWPC,90,89,,,190,196,205,205,210,,,205,1
 Mark Fadke,50,B,Multi-ply,M,M_MEM_3_AWPC,90,85.7,,,130,142.5,-150,142.5,,,,142.5,1
 Joe Smolinski,51,B,Multi-ply,M,M_MEM_3_AWPC,110,109,,,-242.5,250,-260,250,,,,250,1
 Dave Murphy #1,51,B,Multi-ply,M,M_MEM_3_AWPC,110,106.2,,,205,-220,-220,205,,,,205,2
 Jim Hussey,62,B,Multi-ply,M,M_MEM_5_AWPC,90,89.9,,,165,-175,-175,165,,,,165,1
 Richard Gidcumb,69,B,Multi-ply,M,M_MEM_6_AWPC,67.5,65.4,,,97.5,,,97.5,,,,97.5,1
 Floyd Kucharski,66,B,Multi-ply,M,M_MEM_6_AWPC,100,97.7,,,102.5,120,127.5,127.5,-140,,,127.5,1
-Oleksandr Martymyuk,21,B,Multi-ply,M,M_JEM_AWPC,75,73.6,,,180,-190,-190,180,,,,180,1
+Oleksandr Martynuk,21,B,Multi-ply,M,M_JEM_AWPC,75,73.6,,,180,-190,-190,180,,,,180,1
 Jordan Dunn #1,15,B,Multi-ply,M,M_TEM_1_AWPC,60,59.7,,,110,,,110,,,,110,1
 Kim Carter,30,B,Multi-ply,F,F_OEM_AWPC,67.5,65,,,85,95,102.5,102.5,-105,,,102.5,1
 Lisa Miller #3,30,B,Multi-ply,F,F_OEM_AWPC,90+,117.8,,,172.5,187.5,-192.5,187.5,,,,187.5,1
@@ -33,7 +33,7 @@ Zach Zenzen,18,SBD,Multi-ply,M,M_TEM_3_AWPC,90,89.3,275,-282.5,,,,172.5,-183,257
 Jeffrey Sagor,18,SBD,Multi-ply,M,M_TEM_3_AWPC,90,88.3,190,,,,,100,,190,,480,2
 Anthony Galczak,18,SBD,Multi-ply,M,M_TEM_3_AWPC,125,120.9,260,,,,,187.5,,242.5,,690,1
 Matt Arman,19,SBD,Multi-ply,M,M_TEM_3_AWPC,140,136.3,327.5,,,,,247.5,,250,,825,1
-Darrell Garvey Jr,19,SBD,Multi-ply,M,M_TEM_3_AWPC,140+,155.1,,,,,,,,,,,DQ
+Darrell Garvey,19,SBD,Multi-ply,M,M_TEM_3_AWPC,140+,155.1,,,,,,,,,,,DQ
 Eric Lilliebridge,16,SBD,Wraps,M,M_TCR_2_AWPC,90,90,215,,,,,150,,272.5,,637.5,1
 Clayton Kinsey,17,SBD,Multi-ply,M,M_TEM_2_AWPC,110,107.4,245,,,,,182.5,,200,,627.5,1
 Misty Anderson,23,SBD,Multi-ply,F,F_JEM_AWPC,56,55.8,97.5,,,,,57.5,60,115,,270,1
@@ -76,7 +76,7 @@ JJ Thomas,25,SBD,Multi-ply,M,M_OEM_AWPC,100,92.5,335,,,,,215,,300,,850,1
 Evan Arntzen,33,SBD,Multi-ply,M,M_OEM_AWPC,100,99.8,340,,,,,222.5,,260,,822.5,2
 Joe Jordan,32,SBD,Multi-ply,M,M_OEM_AWPC,110,108.9,377.5,,,,,260,,275,,912.5,1
 Joe Atef,29,SBD,Multi-ply,M,M_OEM_AWPC,110,109.5,352.5,,,,,242.5,,285,,880,2
-Sergiy Karnaukhov,27,SBD,Multi-ply,M,M_OEM_AWPC,140,137.5,420,,,,,280,,350,,1050,1
+Sergiy Karnaukhov #1,27,SBD,Multi-ply,M,M_OEM_AWPC,140,137.5,420,,,,,280,,350,,1050,1
 Robert Bierschbach,38,SBD,Multi-ply,M,M_OEM_AWPC,140,136.3,350,,,,,242.5,,285,,877.5,2
 Robert Johnson,41,SBD,Multi-ply,M,M_MEM_1_AWPC,140,136.9,320,,,,,245,,255,,820,1
 Bruce McCord,45,SBD,Multi-ply,M,M_MEM_2_AWPC,100,99.75,250,,,,,152.5,,227.5,,630,1

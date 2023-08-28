@@ -10,7 +10,7 @@ Jared Seymour,82.5,M,Open,DQ,SBD,Wraps,82.1,36,,MS,,,,,,,,
 Frank Lund,82.5,M,Open,4,SBD,Wraps,80.29,47,,MS,170,,,,,110,205,485
 Ted Thornton,90,M,Open,3,SBD,Wraps,89.36,32,,FL,220,,,,,160,272.5,652.5
 Kyle Foley,90,M,Open,4,SBD,Wraps,85.96,19,,MS,232.5,,,,,140,265,637.5
-Garrett Griffin,90,M,Open,1,SBD,Wraps,88.9,32,,LA,257.5,,,,,217.5,292.5,767.5
+Garrett Griffin #2,90,M,Open,1,SBD,Wraps,88.9,32,,LA,257.5,,,,,217.5,292.5,767.5
 Mark Melancon,90,M,Open,2,SBD,Wraps,86.18,33,,FL,255,,,,,160,252.5,667.5
 Jared McKimey,90,M,Open,5,SBD,Wraps,86.86,20,,MS,232.5,,,,,130,197.5,560
 Ryan Kimball,100,M,Open,1,SBD,Wraps,99.56,24,,LA,280,,,,,177.5,295,752.5
@@ -47,7 +47,7 @@ Jason Dey,60,M,Teen 18-19,2,SBD,Wraps,59.65,18,,NY,160,,,,,112.5,205,477.5
 Sam Diogiovanni,82.5,M,Teen 16-17,3,SBD,Wraps,80.51,16,,MS,155,,,,,137.5,147.5,440
 Nathan Sorenson,90,M,Teen 18-19,1,SBD,Wraps,86.41,19,,,165,,,,,125,240,530
 Kyle Foley,90,M,Teen 18-19,2,SBD,Wraps,85.96,19,,MS,232.5,,,,,140,265,637.5
-Stephen Johnson,90,M,Teen 16-17,3,SBD,Wraps,83.46,17,,FL,182.5,,,,,102.5,227.5,512.5
+Stephen Johnson #2,90,M,Teen 16-17,3,SBD,Wraps,83.46,17,,FL,182.5,,,,,102.5,227.5,512.5
 Will Wright,110,M,Teen 18-19,1,SBD,Wraps,107.73,19,,AL,260,,,,,167.5,272.5,700
 Adam La Pinto,110,M,Teen 16-17,2,SBD,Wraps,102.97,16,,MS,137.5,,,,,92.5,147.5,377.5
 Marsha Long,56,F,Open,1,SBD,Wraps,55.34,52,,AL,125,,,,,85,130,340
@@ -61,8 +61,8 @@ Abby Gates,56,F,Teen 13-15,1,SBD,Wraps,55.11,15,,MS,52.5,,,,,32.5,92.5,177.5
 Taylor Ryan,75,M,Open,2,B,Raw,68.49,20,,AL,,,,,,122.5,,122.5
 Charlie Paige,75,M,Open,1,B,Raw,69.85,29,,GA,,,,,,160,,160
 Joseph Vogelsang,90,M,Open,2,B,Raw,87.77,23,,FL,,,,,,160,,160
-Garrett Griffin,90,M,Open,1,B,Raw,88.9,32,,LA,,,,,,217.5,,217.5
-Clint Smith,100,M,Open,3,B,Raw,97.75,24,,AL,,,,,,152.5,,152.5
+Garrett Griffin #2,90,M,Open,1,B,Raw,88.9,32,,LA,,,,,,217.5,,217.5
+Clint Smith #3,100,M,Open,3,B,Raw,97.75,24,,AL,,,,,,152.5,,152.5
 Elliot Jones,100,M,Open,2,B,Raw,96.16,20,,MS,,,,,,155,,155
 Jonathan Wise,100,M,Open,4,B,Raw,91.4,25,,MS,,,,,,150,,150
 Mike Rugal,100,M,Open,1,B,Raw,95.48,22,,FL,,,,,,220,,220
@@ -70,7 +70,7 @@ Derek Johnson,110,M,Open,2,B,Raw,107.27,33,,FL,,,,,,187.5,,187.5
 Jeremy Hoornstra,110,M,Open,1,B,Raw,109.32,31,,FL,,267.5,282.5,290,300,290,,290
 Phil Moranto,125,M,Open,1,B,Raw,111.58,28,,LA,,,,,,205,,205
 Richard Ficca,140,M,Open,1,B,Raw,139.71,37,,FL,,,,,,260,,260
-Robert Adams,140+,M,Open,2,B,Raw,161.48,28,,FL,,,,,,205,,205
+Robert Adams #5,140+,M,Open,2,B,Raw,161.48,28,,FL,,,,,,205,,205
 Curtis Dennis,140+,M,Open,1,B,Raw,141.07,32,,AL,,,,,,227.5,,227.5
 Chris Gent,140,M,Masters,NS,B,Raw,,,,FL,,,,,,,,
 John Hurt,140,M,Masters 40-44,1,B,Raw,133.81,40,,MS,,,,,,170,,170
@@ -83,7 +83,7 @@ Judy Gaillard,75,F,Masters 40-44,1,B,Raw,73.48,41,,MS,,,,,,120,,120
 Taylor Ryan,75,M,Open,1,D,Raw,68.49,20,,AL,,,,,,,172.5,172.5
 Tony Williams,82.5,M,Open,1,D,Raw,77.56,48,,WI,,,,,,,237.5,237.5
 Kyle Foley,90,M,Open,1,D,Raw,85.96,19,,MS,,,,,,,265,265
-Clint Smith,100,M,Open,1,D,Raw,97.75,24,,AL,,,,,,,247.5,247.5
+Clint Smith #3,100,M,Open,1,D,Raw,97.75,24,,AL,,,,,,,247.5,247.5
 Mark Brewer,110,M,Open,1,D,Raw,106.82,39,,FL,,,,,,,227.5,227.5
 Roosevelt Dial III,125,M,Open,1,D,Raw,120.66,24,,FL,,,,,,,342.5,342.5
 Curtis Dennis,140+,M,Open,1,D,Raw,141.07,32,,AL,,,,,,,350,350

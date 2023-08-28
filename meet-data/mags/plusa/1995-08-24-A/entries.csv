@@ -12,7 +12,7 @@ Trancoso,75,Submasters 30-34,30-34,M,B,,,182.5,,,182.5,Single-ply,1
 Greg Cox,100,Submasters 30-34,30-34,M,B,,,212.5,,,212.5,Single-ply,1
 Green,100,Submasters 30-34,30-34,M,B,,,195,,,195,Single-ply,2
 McIntire,100,Submasters 30-34,30-34,M,B,,,177.5,,,177.5,Single-ply,3
-Gray,100,Submasters 30-34,30-34,M,B,,,122.5,,,122.5,Single-ply,4
+Gray #1,100,Submasters 30-34,30-34,M,B,,,122.5,,,122.5,Single-ply,4
 O'Conner,110,Submasters 30-34,30-34,M,B,,,155,,,155,Single-ply,1
 Smith,125+,Submasters 30-34,30-34,M,B,,,115,,,115,Single-ply,1
 Wilson,67.5,Submasters 35-39,35-39,M,B,,,155,,,155,Single-ply,1
@@ -26,13 +26,13 @@ Schuster,90,Submasters 35-39,35-39,M,B,,,135,,,135,Single-ply,2
 Huffman,100,Submasters 35-39,35-39,M,B,,,200,,,200,Single-ply,1
 Cross #1,100,Submasters 35-39,35-39,M,B,,,190,,,190,Single-ply,2
 Larry Horton,110,Submasters 35-39,35-39,M,B,,,195,,,195,Single-ply,1
-Williams,125,Submasters 35-39,35-39,M,B,,,150,,,150,Single-ply,2
+Williams #6,125,Submasters 35-39,35-39,M,B,,,150,,,150,Single-ply,2
 Wooten,125,Submasters 35-39,35-39,M,B,,,172.5,,,172.5,Single-ply,1
 Dick Cordial,125+,Submasters 35-39,35-39,M,B,,,250,,,250,Single-ply,1
 G. Finocchio,125+,Submasters 35-39,35-39,M,B,,,185,,,185,Single-ply,2
 Jones,125+,Submasters 35-39,35-39,M,B,,,175,,,175,Single-ply,3
 Hubbard,125+,Submasters 35-39,35-39,M,B,,,65,,,65,Single-ply,4
-Robert Trujillo,60,Masters 40-44,40-44,M,B,,,82.5,,,82.5,Single-ply,1
+Trujillo,60,Masters 50-54,50-54,M,B,,,82.5,,,82.5,Single-ply,1
 Connelly,67.5,Masters 40-44,40-44,M,B,,,120,,,120,Single-ply,1
 Scott,67.5,Masters 40-44,40-44,M,B,,,95,,,95,Single-ply,2
 Koplin,82.5,Masters 40-44,40-44,M,B,,,150,,,150,Single-ply,1
@@ -52,7 +52,7 @@ Prince,125,Masters 40-44,40-44,M,B,,,190,,,190,Single-ply,2
 Milligan,125,Masters 40-44,40-44,M,B,,,150,,,150,Single-ply,3
 Owens,125+,Masters 40-44,40-44,M,B,,,205,,,205,Single-ply,1
 Stewart,67.5,Masters 45-49,45-49,M,B,,,152.5,,,152.5,Single-ply,1
-Atkinson,75,Masters 45-49,45-49,M,B,,,160,,,160,Single-ply,1
+Atkinson #2,75,Masters 45-49,45-49,M,B,,,160,,,160,Single-ply,1
 Ortiz,75,Masters 45-49,45-49,M,B,,,140,,,140,Single-ply,2
 Jim McDermott,75,Masters 45-49,45-49,M,B,,,,,,,Single-ply,DQ
 France,90,Masters 45-49,45-49,M,B,,,200,,,200,Single-ply,1
@@ -86,9 +86,9 @@ Kelly,100,Masters 55-59,55-59,M,B,,,,,,,Single-ply,DQ
 Stevens,110,Masters 55-59,55-59,M,B,,,185,,,185,Single-ply,1
 Stadler,110,Masters 55-59,55-59,M,B,,,152.5,,,152.5,Single-ply,2
 Hogan,125,Masters 55-59,55-59,M,B,,,205,,,205,Single-ply,1
-Evatt,90,Masters 60-64,60-64,M,B,,,130,,,130,Single-ply,1
+Earl Evatt,90,Masters 60-64,60-64,M,B,,,130,,,130,Single-ply,1
 Johnson,100,Masters 60-64,60-64,M,B,,,156,,,156,Single-ply,1
-Pardee,110,Masters 60-64,60-64,M,B,,,120,,,120,Single-ply,1
+Ken Pardee,110,Masters 60-64,60-64,M,B,,,120,,,120,Single-ply,1
 McIntyre,125,Masters 60-64,60-64,M,B,,,170,,,170,Single-ply,1
 Leavy,125,Masters 60-64,60-64,M,B,,,160,,,160,Single-ply,2
 Alvarez,75,Masters 65-69,65-69,M,B,,,,,,,Single-ply,DQ
@@ -98,7 +98,7 @@ Robin Heldman,56,Submasters 30-34,30-34,F,SBD,122.5,,72.5,,142.5,337.5,Single-pl
 R. McKinney,75,Submasters 30-34,30-34,F,SBD,162.5,,72.5,,172.5,407.5,Single-ply,1
 Savage,52,Submasters 35-39,35-39,F,SBD,92.5,,45,,103.5,241,Single-ply,1
 Martinez,67.5,Submasters 35-39,35-39,F,SBD,115,,72.5,,137.5,325,Single-ply,1
-Hill,67.5,Submasters 35-39,35-39,F,SBD,100,,57.5,,122.5,280,Single-ply,2
+Hill #2,67.5,Submasters 35-39,35-39,F,SBD,100,,57.5,,122.5,280,Single-ply,2
 Irena Ciesielski,82.5,Submasters 35-39,35-39,F,SBD,127.5,,72.5,,127.5,327.5,Single-ply,1
 Noland,90+,Submasters 35-39,35-39,F,SBD,142.5,,70,,127.5,340,Single-ply,1
 Scroggins,75,Masters 40-44,40-44,F,SBD,92.5,,68.5,,105,266,Single-ply,1
@@ -114,9 +114,9 @@ Frager,75,Submasters 30-34,30-34,M,SBD,177.5,,112.5,,222.5,512.5,Single-ply,1
 Hargett,82.5,Submasters 30-34,30-34,M,SBD,225,,120,,232.5,577.5,Single-ply,1
 Mike Barber,90,Submasters 30-34,30-34,M,SBD,327.5,,192.5,,305,825,Single-ply,1
 Matt Betts,90,Submasters 30-34,30-34,M,SBD,285,,172.5,,290,747.5,Single-ply,1
-Brooks,90,Submasters 30-34,30-34,M,SBD,275,,152.5,,272.5,700,Single-ply,1
+Brooks #2,90,Submasters 30-34,30-34,M,SBD,275,,152.5,,272.5,700,Single-ply,1
 Wheeler,90,Submasters 30-34,30-34,M,SBD,207.5,,117.5,,227.5,552.5,Single-ply,1
-Ward,100,Submasters 30-34,30-34,M,SBD,285,,172.5,,280,737.5,Single-ply,1
+Ward #4,100,Submasters 30-34,30-34,M,SBD,285,,172.5,,280,737.5,Single-ply,1
 Heldman,100,Submasters 30-34,30-34,M,SBD,290,,165,,230,685,Single-ply,1
 Dave Gonzales,110,Submasters 30-34,30-34,M,SBD,322.5,,217.5,,282.5,822.5,Single-ply,1
 Smith,125+,Submasters 30-34,30-34,M,SBD,190,,115,,200,505,Single-ply,1
@@ -144,12 +144,12 @@ Weber,110,Submasters 35-39,35-39,M,SBD,227.5,,152.5,,212.5,592.5,Single-ply,1
 Pierce,125,Submasters 35-39,35-39,M,SBD,265,,162.5,,272.5,700,Single-ply,1
 Wooten,125,Submasters 35-39,35-39,M,SBD,227.5,,172.5,,217.5,617.5,Single-ply,1
 Thompson,125,Submasters 35-39,35-39,M,SBD,,,,,,,Single-ply,DQ
-Williams,125,Submasters 35-39,35-39,M,SBD,,,,,,,Single-ply,DQ
+Williams #6,125,Submasters 35-39,35-39,M,SBD,,,,,,,Single-ply,DQ
 Dick Cordial,125+,Submasters 35-39,35-39,M,SBD,320,,250,,282.5,852.5,Single-ply,1
 Jones,125+,Submasters 35-39,35-39,M,SBD,295,,175,,232.5,702.5,Single-ply,1
 Hubbard,125+,Submasters 35-39,35-39,M,SBD,250,,65,,230,545,Single-ply,1
 Ken Westbrook,60,Masters 40-44,40-44,M,SBD,205,215,105,,215,525,Single-ply,1
-Kennedy,60,Masters 40-44,40-44,M,SBD,175,,100,,172.5,447.5,Single-ply,2
+Crusher Kennedy,60,Masters 40-44,40-44,M,SBD,175,,100,,172.5,447.5,Single-ply,2
 Gary Menaker,67.5,Masters 40-44,40-44,M,SBD,195,,110,,210,515,Single-ply,1
 Scott,67.5,Masters 40-44,40-44,M,SBD,160,,95,,160,415,Single-ply,2
 Mitch Owen,75,Masters 40-44,40-44,M,SBD,220,,165,,235,620,Single-ply,1
@@ -157,7 +157,7 @@ Edris,75,Masters 40-44,40-44,M,SBD,165,,120,,182.5,467.5,Single-ply,2
 Aaron Byas,82.5,Masters 40-44,40-44,M,SBD,245,,147.5,,272.5,665,Single-ply,1
 Jackson,82.5,Masters 40-44,40-44,M,SBD,215,,150,,237.5,602.5,Single-ply,2
 Koplin,82.5,Masters 40-44,40-44,M,SBD,195,,150,,210,555,Single-ply,3
-Leal,82.5,Masters 40-44,40-44,M,SBD,207.5,,115,,230,552.5,Single-ply,4
+George Leal,82.5,Masters 40-44,40-44,M,SBD,207.5,,115,,230,552.5,Single-ply,4
 Joe Scalzitti,82.5,Masters 40-44,40-44,M,SBD,195,,125,,212.5,532.5,Single-ply,5
 Jim Flora,90,Masters 40-44,40-44,M,SBD,272.5,,125,,290,687.5,Single-ply,1
 Paul Sutphin,90,Masters 40-44,40-44,M,SBD,262.5,,157.5,,265,685,Single-ply,2
@@ -172,7 +172,7 @@ Waters,100,Masters 40-44,40-44,M,SBD,262.5,,175,,267.5,705,Single-ply,3
 Riley,100,Masters 40-44,40-44,M,SBD,232.5,,155,,232.5,620,Single-ply,4
 Davis,100,Masters 40-44,40-44,M,SBD,205,,160,,252.5,617.5,Single-ply,5
 Snedeker,100,Masters 40-44,40-44,M,SBD,165,,120,,195,480,Single-ply,6
-Hill,110,Masters 40-44,40-44,M,SBD,265,,165,,247.5,677.5,Single-ply,1
+Hill #5,110,Masters 40-44,40-44,M,SBD,265,,165,,247.5,677.5,Single-ply,1
 Mike Ripple,110,Masters 40-44,40-44,M,SBD,240,,165,,247.5,652.5,Single-ply,2
 Black,110,Masters 40-44,40-44,M,SBD,220,,157.5,,210,587.5,Single-ply,3
 Apodaca,110,Masters 40-44,40-44,M,SBD,220,,160,,207.5,587.5,Single-ply,4
@@ -185,7 +185,7 @@ Coleman,67.5,Masters 45-49,45-49,M,SBD,150,,102.5,,147.5,400,Single-ply,1
 Scott,67.5,Masters 45-49,45-49,M,SBD,182.5,,98.5,,,,Single-ply,DQ
 Stevens,75,Masters 45-49,45-49,M,SBD,167.5,,107.5,,205,480,Single-ply,1
 Vansleave,82.5,Masters 45-49,45-49,M,SBD,267.5,,142.5,,255,665,Single-ply,1
-Atkinson,82.5,Masters 45-49,45-49,M,SBD,242.5,,160,,245,647.5,Single-ply,1
+Atkinson #2,82.5,Masters 45-49,45-49,M,SBD,242.5,,160,,245,647.5,Single-ply,1
 Johnson,82.5,Masters 45-49,45-49,M,SBD,135,,115,,215,465,Single-ply,1
 Jim McDermott,82.5,Masters 45-49,45-49,M,SBD,,,,,,,Single-ply,DQ
 Bergath,90,Masters 45-49,45-49,M,SBD,247.5,,150,,247.5,645,Single-ply,1
@@ -200,7 +200,7 @@ Frank Wooley,110,Masters 45-49,45-49,M,SBD,265,,132.5,,245,642.5,Single-ply,1
 Graham,110,Masters 45-49,45-49,M,SBD,240,,150,,205,595,Single-ply,1
 Gary Krueger,125,Masters 45-49,45-49,M,SBD,300,,195,,240,735,Single-ply,1
 Sawyer,125+,Masters 45-49,45-49,M,SBD,205,,147.5,,167.5,520,Single-ply,1
-Gonzales,67.5,Masters 50-54,50-54,M,SBD,150,,97.5,,157.5,405,Single-ply,1
+Gonzales #3,67.5,Masters 50-54,50-54,M,SBD,150,,97.5,,157.5,405,Single-ply,1
 Martin,90,Masters 50-54,50-54,M,SBD,222.5,,135,,232.5,590,Single-ply,1
 Martin Vogt,100,Masters 50-54,50-54,M,SBD,182.5,,117.5,,187.5,487.5,Single-ply,1
 Jim Duree,110,Masters 50-54,50-54,M,SBD,270,,137.5,,237.5,645,Single-ply,1
@@ -216,4 +216,4 @@ Davis,100,Masters 55-59,55-59,M,SBD,205,,137.5,,232.5,575,Single-ply,1
 Schwartz,67.5,Masters 60-64,60-64,M,SBD,165,,92.5,,212.5,470,Single-ply,1
 Ismael Rel,82.5,Masters 60-64,60-64,M,SBD,170,,100,,202.5,472.5,Single-ply,1
 Johnson,100,Masters 60-64,60-64,M,SBD,262.5,,156,,247.5,666,Single-ply,1
-Pardee,110,Masters 60-64,60-64,M,SBD,165,185,120,,205,490,Single-ply,1
+Ken Pardee,110,Masters 60-64,60-64,M,SBD,165,185,120,,205,490,Single-ply,1

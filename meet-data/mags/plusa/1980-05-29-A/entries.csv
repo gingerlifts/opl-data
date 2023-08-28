@@ -42,8 +42,8 @@ Mark Krautsack,75,Open,M,172.5,137.5,210,520,SBD,Single-ply,3
 Laggini,75,Open,M,170,117.5,210,497.5,SBD,Single-ply,4
 R. Soriano,75,Open,M,160,130,202.5,492.5,SBD,Single-ply,5
 Steiner,75,Open,M,162.5,125,200,487.5,SBD,Single-ply,6
-George Schneider,75,Open,M,155,115,212.5,482.5,SBD,Single-ply,7
-Esposito,75,Open,M,167.5,102.5,210,480,SBD,Single-ply,8
+George Schneider #1,75,Open,M,155,115,212.5,482.5,SBD,Single-ply,7
+A. Esposito,75,Open,M,167.5,102.5,210,480,SBD,Single-ply,8
 Paul Champion,75,Open,M,160,92.5,220,472.5,SBD,Single-ply,9
 Lipke,75,Open,M,165,92.5,197.5,455,SBD,Single-ply,10
 T. Avedisian,75,Open,M,142.5,117.5,195,455,SBD,Single-ply,11
@@ -53,7 +53,7 @@ Butkowski,75,Open,M,140,120,172.5,432.5,SBD,Single-ply,14
 Szucs,75,Open,M,142.5,110,177.5,430,SBD,Single-ply,15
 Pratt,75,Open,M,140,100,177.5,417.5,SBD,Single-ply,16
 McCann,75,Open,M,122.5,97.5,170,390,SBD,Single-ply,17
-Steve Circulnick,82.5,Open,M,227.5,145,260,632.5,SBD,Single-ply,1
+Steve Cirulnick,82.5,Open,M,227.5,145,260,632.5,SBD,Single-ply,1
 Impagliazzo,82.5,Open,M,205,135,255,595,SBD,Single-ply,2
 Rich Branch,82.5,Open,M,230,140,220,590,SBD,Single-ply,3
 Ranier,82.5,Open,M,180,150,232.5,562.5,SBD,Single-ply,4
@@ -78,7 +78,7 @@ Wes Horner,90,Open,M,232.5,157.5,245,635,SBD,Single-ply,2
 Bruce Baver,90,Open,M,227.5,160,242.5,630,SBD,Single-ply,3
 Mike Green,90,Open,M,205,172.5,245,622.5,SBD,Single-ply,4
 Bunn,90,Open,M,200,147.5,247.5,595,SBD,Single-ply,5
-Dick,90,Open,M,207.5,135,227.5,570,SBD,Single-ply,7
+Paul Dick,90,Open,M,207.5,135,227.5,570,SBD,Single-ply,7
 Garafolo,90,Open,M,185,152.5,250,587.5,SBD,Single-ply,6
 Lisher,90,Open,M,192.5,135,230,557.5,SBD,Single-ply,8
 Terry,90,Open,M,210,147.5,200,557.5,SBD,Single-ply,9
@@ -95,13 +95,13 @@ Andrews #5,100,Open,M,230,160,275,665,SBD,Single-ply,1
 M. Giles,100,Open,M,227.5,145,290,662.5,SBD,Single-ply,2
 Bernie Shalkowski,100,Open,M,222.5,155,260,637.5,SBD,Single-ply,3
 O'Connor,100,Open,M,202.5,157.5,272.5,632.5,SBD,Single-ply,4
-Williams,100,Open,M,205,145,240,590,SBD,Single-ply,5
+Williams #28,100,Open,M,205,145,240,590,SBD,Single-ply,5
 Anthony Daniele,100,Open,M,215,150,220,585,SBD,Single-ply,6
 Bruno,100,Open,M,192.5,152.5,227.5,572.5,SBD,Single-ply,7
 P. Krajewski,100,Open,M,192.5,135,235,562.5,SBD,Single-ply,8
 Burke,100,Open,M,180,130,217.5,527.5,SBD,Single-ply,10
 Kelly,100,Open,M,170,110,227.5,507.5,SBD,Single-ply,11
-Sparks #3,100,Open,M,170,137.5,195,502.5,SBD,Single-ply,12
+Sparks #2,100,Open,M,170,137.5,195,502.5,SBD,Single-ply,12
 Downer,100,Open,M,160,150,185,495,SBD,Single-ply,13
 Waxmonsky,100,Open,M,150,132.5,207.5,490,SBD,Single-ply,14
 Alexander,100,Open,M,167.5,117.5,182.5,467.5,SBD,Single-ply,15

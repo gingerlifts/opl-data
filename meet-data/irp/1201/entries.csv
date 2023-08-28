@@ -1,8 +1,8 @@
 Place,Name,Division,BirthYear,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,WeightClassKg,Sex,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,Event,TotalKg,Equipment
-1,Anna Khudayarov,Open,1988,Finland,79.3,105,115,120,120,,F,,,,,,,,,B,120,Raw
+1,Anna Karrila,Open,1988,Finland,79.3,105,115,120,120,,F,,,,,,,,,B,120,Raw
 2,Sylvana Bomholt,Open,,Germany,94.5,110,120,-125,120,,F,,,,,,,,,B,120,Raw
 3,Gabriela Stacher,Open,1980,Switzerland,56.4,75,80,85,85,,F,,,,,,,,,B,85,Raw
-5,Olga Verbova,Open,1984,Russia,70,77.5,82.5,-85,82.5,,F,,,,,,,,,B,82.5,Raw
+5,Olga Verbová,Open,1984,Russia,70,77.5,82.5,-85,82.5,,F,,,,,,,,,B,82.5,Raw
 4,Maryna Soltanova,Open,1985,Ukraine,63.7,75,80,-85,80,,F,,,,,,,,,B,80,Raw
 6,Claudia Liebscher,Open,,Germany,58.5,65,72.5,-80,72.5,,F,,,,,,,,,B,72.5,Raw
 1,Kamila Tillack,Masters 1,1969,Germany,65,65,70,72.5,72.5,,F,,,,,,,,,B,72.5,Raw
@@ -61,7 +61,7 @@ DQ,Barbaras Serdar Boran,Open,,Turkey,94.4,-180,-180,-187.5,,95,M,,,,,,,,,B,,Raw
 8,Pavel Reichel,Masters 1,1964,Czechia,94.4,125,130,135,135,95,M,,,,,,,,,B,135,Raw
 9,Günther Sauf,Masters 1,,Germany,77.2,90,95,100,100,95,M,,,,,,,,,B,100,Raw
 1,Joachim Flett,Masters 2,1958,Germany,94.6,180,190,197.5,197.5,95,M,,,,,,,,,B,197.5,Raw
-2,Frank Thomas Kutzsch,Masters 2,1956,Germany,92,155,162.5,167.5,167.5,95,M,,,,,,,,,B,167.5,Raw
+2,Frank Kutzsch,Masters 2,1956,Germany,92,155,162.5,167.5,167.5,95,M,,,,,,,,,B,167.5,Raw
 3,Jürgen Slawik,Masters 2,,Germany,91.7,155,160,165,165,95,M,,,,,,,,,B,165,Raw
 4,Fred Pommerenke,Masters 2,1962,Germany,81.3,135,142.5,147.5,147.5,95,M,,,,,,,,,B,147.5,Raw
 6,Georg Varich,Masters 2,1954,Germany,89.9,135,142.5,-150,142.5,95,M,,,,,,,,,B,142.5,Raw
@@ -97,7 +97,7 @@ DQ,Barbaras Serdar Boran,Open,,Turkey,94.4,-180,-180,-187.5,,95,M,,,,,,,,,B,,Raw
 2,Thorsten Maltzen,Masters 1,,Germany,100.8,170,175,180,180,115,M,,,,,,,,,B,180,Raw
 4,Václav Mareš,Masters 1,1968,Czechia,104.4,145,160,170,170,115,M,,,,,,,,,B,170,Raw
 5,Kristof Komorowski,Masters 1,,Germany,100.4,160,-165,-165,160,115,M,,,,,,,,,B,160,Raw
-6,Dmitro Grigorev,Masters 1,1971,Ukraine,96.6,150,-160,-160,150,115,M,,,,,,,,,B,150,Raw
+6,Dmitro Grigorev #1,Masters 1,1971,Ukraine,96.6,150,-160,-160,150,115,M,,,,,,,,,B,150,Raw
 1,Leszek Pasieka,Masters 2,1955,Poland,100,180,185,190,190,115,M,,,,,,,,,B,190,Raw
 2,Bernd Knappe,Masters 2,,Germany,112,175,185,190,190,115,M,,,,,,,,,B,190,Raw
 3,Frank Müller,Masters 2,,Germany,107,165,-175,175,175,115,M,,,,,,,,,B,175,Raw
@@ -117,7 +117,7 @@ DQ,Barbaras Serdar Boran,Open,,Turkey,94.4,-180,-180,-187.5,,95,M,,,,,,,,,B,,Raw
 8,Jörn Pistorius,Open,,Germany,118.2,192.5,200,-205,200,115+,M,,,,,,,,,B,200,Raw
 9,Swen Wetzel,Open,,Germany,120,180,190,200,200,115+,M,,,,,,,,,B,200,Raw
 10,Tom Lorenz,Open,1980,Germany,115.9,167.5,172.5,-180,172.5,115+,M,,,,,,,,,B,172.5,Raw
-2,Jurgen Steidl,Masters 1,,Germany,135,225,232.5,-235,232.5,115+,M,,,,,,,,,B,232.5,Raw
+2,Jürgen Steidl,Masters 1,,Germany,135,225,232.5,-235,232.5,115+,M,,,,,,,,,B,232.5,Raw
 1,Mario Jaedtke,Masters 1,1966,Germany,117,200,210,215,215,115+,M,,,,,,,,,B,215,Raw
 3,Ralf Kanthak,Masters 1,,Germany,121.5,180,195,-200,195,115+,M,,,,,,,,,B,195,Raw
 4,Martin Tetzlaff,Masters 1,1970,Germany,117.4,180,190,-200,190,115+,M,,,,,,,,,B,190,Raw
@@ -127,9 +127,9 @@ DQ,Barbaras Serdar Boran,Open,,Turkey,94.4,-180,-180,-187.5,,95,M,,,,,,,,,B,,Raw
 3,Mario Böttcher,Masters 2,1960,Germany,135,200,210,-215,210,115+,M,,,,,,,,,B,210,Raw
 2,Walter Kurda,Masters 2,1953,Germany,118.5,185,195,-200,195,115+,M,,,,,,,,,B,195,Raw
 4,Hans-Dieter Dorow,Masters 2,,Germany,124.5,180,190,-200,190,115+,M,,,,,,,,,B,190,Raw
-1,Anna Khudayarov,Open,1988,Finland,79.3,,,,,,F,145,165,170,170,,,,,S,170,Raw
+1,Anna Karrila,Open,1988,Finland,79.3,,,,,,F,145,165,170,170,,,,,S,170,Raw
 2,Sylvana Bomholt,Open,,Germany,94.5,,,,,,F,160,170,-180,170,,,,,S,170,Raw
-3,Olga Verbova,Open,1984,Russia,70,,,,,,F,117.5,125,130,130,,,,,S,130,Raw
+3,Olga Verbová,Open,1984,Russia,70,,,,,,F,117.5,125,130,130,,,,,S,130,Raw
 1,Kamila Tillack,Masters 1,1969,Germany,65,,,,,,F,75,80,85,85,,,,,S,85,Raw
 2,Sebastian Preine,Teen,1995,Germany,69.9,,,,,75,M,137.5,145,152.5,152.5,,,,,S,152.5,Raw
 1,Mihail Sahin,Teen,,Germany,65,,,,,75,M,-150,150,-152.5,150,,,,,S,150,Raw
@@ -152,10 +152,10 @@ DQ,Barbaras Serdar Boran,Open,,Turkey,94.4,-180,-180,-187.5,,95,M,,,,,,,,,B,,Raw
 3,Niko Andersson,Open,1987,Finland,93.6,,,,,95,M,190,215,-235,215,,,,,S,215,Raw
 4,Matthias Schröter,Open,1981,Germany,81.9,,,,,95,M,190,200,-210,200,,,,,S,200,Raw
 1,Reinhold Blüml,Masters 1,1971,Germany,93,,,,,95,M,235,245,260,260,,,,,S,260,Raw
-2,Rene Trage,Masters 1,1967,Germany,95,,,,,95,M,185,200,210,210,,,,,S,210,Raw
+2,René Trage,Masters 1,1967,Germany,95,,,,,95,M,185,200,210,210,,,,,S,210,Raw
 1,Detlef Riedel,Masters 2,1959,Germany,79.7,,,,,95,M,185,200,217.5,217.5,,,,,S,217.5,Raw
 2,Joachim Flett,Masters 2,1958,Germany,94.6,,,,,95,M,185,200,215,215,,,,,S,215,Raw
-3,Frank Thomas Kutzsch,Masters 2,1956,Germany,92,,,,,95,M,175,185,195,195,,,,,S,195,Raw
+3,Frank Kutzsch,Masters 2,1956,Germany,92,,,,,95,M,175,185,195,195,,,,,S,195,Raw
 4,Karel Schoř,Masters 2,1955,Czechia,83.7,,,,,95,M,170,180,185,185,,,,,S,185,Raw
 5,Gottfried Foltas,Masters 2,1957,Germany,90.7,,,,,95,M,140,150,160,160,,,,,S,160,Raw
 2,František Esser,Masters 3,1946,Czechia,94.6,,,,,95,M,110,125,140,140,,,,,S,140,Raw
@@ -173,9 +173,9 @@ DQ,Václav Mareš,Masters 1,1968,Czechia,104.4,,,,,115,M,-200,-200,-220,,,,,,S,,
 1,Hans-Dieter Dorow,Masters 2,,Germany,124.5,,,,,115+,M,220,240,-250,240,,,,,S,240,Raw
 1,Jasmin Rieck,Juniors,,Germany,53.5,,,,,,F,,,,,80,90,100,100,D,100,Raw
 1,Sylvana Bornholt,Open,,Germany,94.5,,,,,,F,,,,,180,190,200,200,D,200,Raw
-2,Anna Khudayarov,Open,1988,Finland,79.3,,,,,,F,,,,,160,180,185,185,D,185,Raw
+2,Anna Karrila,Open,1988,Finland,79.3,,,,,,F,,,,,160,180,185,185,D,185,Raw
 4,Ann-Christian Oberg,Open,,Sweden,89,,,,,,F,,,,,170,185,-200,185,D,185,Raw
-3,Olga Verbova,Open,1984,Russia,70,,,,,,F,,,,,155,160,165,165,D,165,Raw
+3,Olga Verbová,Open,1984,Russia,70,,,,,,F,,,,,155,160,165,165,D,165,Raw
 5,Maryna Soltanova,Open,1985,Ukraine,63.7,,,,,,F,,,,,140,-145,-150,140,D,140,Raw
 1,Kamila Tillack,Masters 1,1969,Germany,65,,,,,,F,,,,,130,140,145,145,D,145,Raw
 2,Ines Lidtke,Masters 1,,Germany,53.5,,,,,,F,,,,,80,90,100,100,D,100,Raw
@@ -212,7 +212,7 @@ DQ,Václav Mareš,Masters 1,1968,Czechia,104.4,,,,,115,M,-200,-200,-220,,,,,,S,,
 1,Reinhold Blüml,Masters 1,1971,Germany,93,,,,,95,M,,,,,255,275,287.5,287.5,D,287.5,Raw
 2,Pavel Reichel,Masters 1,1964,Czechia,94.4,,,,,95,M,,,,,185,195,200,200,D,200,Raw
 1,Jürgen Slawik,Masters 2,,Germany,91.7,,,,,95,M,,,,,240,-252.5,-252.5,240,D,240,Raw
-2,Frank Thomas Kutzsch,Masters 2,1956,Germany,92,,,,,95,M,,,,,210,227.5,235,235,D,235,Raw
+2,Frank Kutzsch,Masters 2,1956,Germany,92,,,,,95,M,,,,,210,227.5,235,235,D,235,Raw
 3,Karel Schoř,Masters 2,1955,Czechia,83.7,,,,,95,M,,,,,205,215,225,225,D,225,Raw
 4,Erwin Loritsch,Masters 2,1961,Austria,86.8,,,,,95,M,,,,,215,222.5,-227.5,222.5,D,222.5,Raw
 5,Dieter Schoch Horst,Masters 2,1953,Germany,94,,,,,95,M,,,,,200,215,-220,215,D,215,Raw

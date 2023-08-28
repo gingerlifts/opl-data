@@ -10,24 +10,24 @@ Place,Sex,Name,Division,Age,WeightClassKg,Event,Equipment,Country,BodyweightKg,S
 9,M,Jeff Madsen,Open,,52,SBD,Single-ply,New Zealand,51.6,,,,165,,,,,75,,,,,215,,455,No
 10,M,Len Skeen,Open,,52,SBD,Single-ply,Australia,51.8,,,,152.5,,,,,100,,,,,200,,452.5,No
 11,M,E. Massanet,Open,,52,SBD,Single-ply,Puerto Rico,52,,,,182.5,,,,,120,,,,,150,,452.5,No
-1,M,Precious McKenzie,Open,44,56,SBD,Single-ply,New Zealand,55.6,,,232.5,232.5,,,,,125,,,,,230,,587.5,No
+1,M,Precious McKenzie,Open,44,56,SBD,Raw,New Zealand,55.6,,,232.5,232.5,,,,,125,,,,,230,,587.5,No
 2,M,Juhani Niemi,Open,,56,SBD,Single-ply,Finland,55.8,,,,217.5,,,,,120,,,,,227.5,,565,No
 3,M,Hiroyuki Isagawa,Open,,56,SBD,Single-ply,Japan,55.8,190,,,190,,,,142.5,142.5,145.5,,,,220,,552.5,No
 4,M,Yrjö Haatanen,Open,,56,SBD,Single-ply,Finland,56,,,,190,,,,,122.5,,,,,215,,527.5,No
 5,M,Stefano Finateri,Open,,56,SBD,Single-ply,Canada,55.8,,,,212.5,,,,,105,,,,,210,,527.5,No
 6,M,Haruji Watanabe-Saikachi,Open,,56,SBD,Single-ply,Japan,55.6,,,,180,,,,,115,,,-235,-235,220,,515,No
 7,M,Dan James,Open,,56,SBD,Single-ply,Canada,55.4,,,,197.5,,,,,107.5,,,,,202.5,,507.5,No
-8,M,David Mannering,Open,,56,SBD,Single-ply,UK,55.6,,,,210,,,,,105,,,,,190,,505,No
+8,M,David Mannering #1,Open,,56,SBD,Single-ply,UK,55.6,,,,210,,,,,105,,,,,190,,505,No
 9,M,PJ Joseph,Open,,56,SBD,Single-ply,India,55.6,,,,182.5,,,,,100,,,,,217.5,,500,No
 10,M,Sudhakar Kamath,Open,,56,SBD,Single-ply,India,55,,,,175,,,,,110,,,,,180,,465,No
 11,M,Aimo Bennett,Open,,56,SBD,Single-ply,Australia,56,,,,157.5,,,,,92.5,,,,,200,,450,No
 1,M,Lamar Gant,Open,,60,SBD,Single-ply,USA,60,,,260,260,,,,160,160,,285,-310,,285,,705,No
 2,M,Kullervo Lampela,Open,,60,SBD,Single-ply,Finland,59.6,,,,212.5,,,,,112.5,,,,,265,,590,No
 3,M,Ray Verdonck,Open,,60,SBD,Single-ply,USA,59.8,,,,237.5,,,,,135,,,,217.5,217.5,,590,No
-4,M,Tony Galvez,Open,,60,SBD,Single-ply,UK,59.8,,,,235,,,,,122.5,,,,,225,,582.5,No
+4,M,Tony Galvez #2,Open,,60,SBD,Single-ply,UK,59.8,,,,235,,,,,122.5,,,,,225,,582.5,No
 5,M,Gordon Catterson,Open,,60,SBD,Single-ply,Canada,60,,,,220,,,,,132.5,,,,,222.5,,575,No
 6,M,Charles Coleiro,Open,,60,SBD,Single-ply,Australia,59.6,,,,200,,,,,112.5,,,,,220,,532.5,No
-7,M,Tony Collins,Open,,60,SBD,Single-ply,Ireland,59.4,,,,195,,,,,110,,,,,212.5,,517.5,No
+7,M,Anthony Collins #1,Open,,60,SBD,Single-ply,Ireland,59.4,,,,195,,,,,110,,,,,212.5,,517.5,No
 8,M,Fred McCarthy,Open,,60,SBD,Single-ply,Ireland,59.4,,,,205,,,,,92.5,,,,,212.5,,510,No
 9,M,M. Kumar,Open,,60,SBD,Single-ply,India,59,,,,185,,,,,122.5,,,,,195,,502.5,No
 10,M,P. Jayappa,Open,,60,SBD,Single-ply,India,59.8,,,,187.5,,,,,110,,,,,205,,502.5,No
@@ -88,7 +88,7 @@ G,M,Tony Carpino,Open,,82.5,SBD,Single-ply,USA,82.4,,315,-320,315,,,,,200,,,,,31
 10,M,William Monaghan,Open,,90,SBD,Single-ply,Ireland,83.8,,,,245,,,,,135,,,,,237.5,,617.5,No
 DQ,M,John Cappola,Open,,90,SBD,Single-ply,Australia,89.8,,,,320,,,,,180,,-310,-310,-310,,,,No
 DQ,M,Kenneth Mattsson,Open,,90,SBD,Single-ply,Sweden,89,-345,-345,-345,,,,,,,,,,,,,,No
-G,M,Fred Hatfield,Open,,90,SBD,Single-ply,USA,90,,,,375,,,,,195,,,307.5,-330,307.5,,877.5,No
+G,M,Fred Hatfield #1,Open,,90,SBD,Single-ply,USA,90,,,,375,,,,,195,,,307.5,-330,307.5,,877.5,No
 G,M,Ernie Frantz,Open,,90,SBD,Single-ply,USA,89.8,,,,320,,,,,205,,,,,330,,855,No
 1,M,Mark Dimiduk,Open,,100,SBD,Single-ply,USA,97.4,,357.5,-365,357.5,,,,,217.5,,,,,345,,920,No
 2,M,Tony Stevens #1,Open,,100,SBD,Single-ply,UK,98.4,,,,340,,,,,205,,,,,340,,885,No
@@ -117,7 +117,7 @@ G,M,Chip McCain,Open,,100,SBD,Single-ply,USA,99.6,,,,367.5,,,,,200,,-357.5,357.5
 11,M,Paramjit Singh,Open,,110,SBD,Single-ply,India,,,,,245,,,,,147.5,,,,,252.5,,645,No
 12,M,Loknoth Bolar,Open,,110,SBD,Single-ply,India,109.2,,,,245,,,,,155,,,,,242.5,,642.5,No
 DQ,M,Shoji Nakamura,Open,,110,SBD,Single-ply,Japan,110,,,,,,,,,,,,,,,,,No
-G,M,Steve Wilson,Open,,110,SBD,Single-ply,USA,109,350,-367.5,-367.5,350,,,,-262.5,252.5,,340,,,340,,942.5,No
+G,M,Steve Wilson #1,Open,,110,SBD,Single-ply,USA,109,350,-367.5,-367.5,350,,,,-262.5,252.5,,340,,,340,,942.5,No
 1,M,Doyle Kenady,Open,,110+,SBD,Single-ply,USA,136.8,372.5,-395,,372.5,,,245,,245,,382.5,-402.5,,382.5,,1000,No
 2,M,Andy Kerr,Open,,110+,SBD,Single-ply,UK,133.6,,,,340,,,,,232.5,,,,,350,,922.5,No
 3,M,Juhani Heinonen,Open,,110+,SBD,Single-ply,Finland,144.8,,,,340,,,,,210,,,,,332.5,,882.5,No

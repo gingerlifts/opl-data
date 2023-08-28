@@ -1,12 +1,12 @@
 Division,Equipment,WeightClassKg,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,BodyweightKg,Event,Sex,Place
 Pro Open,Multi-ply,67.5,Gracie Vanasse,213.19,129.27,217.72,560.19,66.59,SBD,F,1
 Pro Juniors 20-23,Multi-ply,82.5,Anna McCloskey,285.76,158.76,229.06,673.58,81.65,SBD,F,1
-Pro Open,Multi-ply,82.5,Marcus Morris,365.14,274.42,281.23,920.79,81.28,SBD,M,1
+Pro Open,Multi-ply,82.5,Marcus Morris #1,365.14,274.42,281.23,920.79,81.28,SBD,M,1
 Pro Open,Multi-ply,90,Kalle Räsänen,430.91,310.71,340.19,1081.82,89.9,SBD,M,1
 Pro Open,Multi-ply,90,Zach Henson,369.68,229.06,319.78,918.52,89.18,SBD,M,2
 Pro Open,Multi-ply,90,Dmitry Butakov,340.19,278.96,278.96,898.11,88.81,SBD,M,3
 Pro Open,Multi-ply,90,Joe Rother,347,238.14,281.23,866.36,87.54,SBD,M,4
-Pro Open,Multi-ply,90,Phil Harrington,349.27,102.06,290.3,741.62,89.63,SBD,M,5
+Pro Open,Multi-ply,90,Phil Harrington #1,349.27,102.06,290.3,741.62,89.63,SBD,M,5
 Pro Open,Multi-ply,100,Jimmie Pacifico,460.4,347,349.27,1156.66,99.34,SBD,M,1
 Pro Open,Multi-ply,100,Jason Coker,430.91,390.09,276.69,1097.69,99.52,SBD,M,2
 Pro Open,Multi-ply,100,Joe Jester,374.21,272.16,226.8,873.17,97.25,SBD,M,3
@@ -38,6 +38,6 @@ Amateur Masters 45-49,Wraps,82.5,Mike Gugino,231.33,158.76,231.33,621.42,82.01,S
 Amateur Police,Wraps,110,Lucas Holt,238.14,165.56,219.99,623.69,107.23,SBD,M,1
 Pro Open,Wraps,100,Fred Seewald,365.14,181.44,349.27,895.84,99.97,SBD,M,1
 Pro Open,Multi-ply,110,Patrick Warren,,308.44,,308.44,109.32,B,M,1
-Pro Open,Multi-ply,125,Travis Bell,,408.23,,408.23,120.2,B,M,1
+Pro Open,Multi-ply,125,Travis Bell #1,,408.23,,408.23,120.2,B,M,1
 Pro Open,Multi-ply,140+,Andy Bosnyak,,374.21,,374.21,149.69,B,M,1
 Pro Open,Multi-ply,140,Shane Hammock,,,390.09,390.09,126.1,D,M,1

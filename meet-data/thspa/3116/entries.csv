@@ -22,7 +22,7 @@ Boys,59.87,6,Adrian Gill,Plainview,58.69,122.47,65.77,136.08,324.32,Single-ply,S
 Boys,59.87,7,Juan Oltivero,Dimmitt,58.51,102.06,58.97,140.61,301.64,Single-ply,SBD,M
 Boys,59.87,8,Jacob Palomino,Lockney,58.33,113.4,52.16,127.01,292.57,Single-ply,SBD,M
 Boys,59.87,9,Kyle Brunington,Floydada,56.52,97.52,68.04,115.67,281.23,Single-ply,SBD,M
-Boys,59.87,10,Andrew Gonzales,Floydada,59.6,102.06,65.77,102.06,269.89,Single-ply,SBD,M
+Boys,59.87,10,Andrew Gonzales #2,Floydada,59.6,102.06,65.77,102.06,269.89,Single-ply,SBD,M
 Boys,67.13,1,Luis Uruchutu,Canyon Randall,65.23,176.9,111.13,192.78,480.81,Single-ply,SBD,M
 Boys,67.13,2,Brandon Sigala,Levelland,65.59,156.49,99.79,195.04,451.32,Single-ply,SBD,M
 Boys,67.13,3,Matthew Cano,Perryton,65.41,170.1,106.59,165.56,442.25,Single-ply,SBD,M
@@ -64,7 +64,7 @@ Boys,82.1,2,Nick Golden,Argyle,80.74,208.65,99.79,251.74,560.19,Single-ply,SBD,M
 Boys,82.1,3,Naton Edwards,Argyle,80.2,183.7,111.13,215.46,510.29,Single-ply,SBD,M
 Boys,82.1,4,Jacob Eugenis,Wolfforth Frenship,82.1,174.63,92.99,213.19,480.81,Single-ply,SBD,M
 Boys,82.1,5,Anthony Aguilar,Dalhart,81.92,174.63,95.25,181.44,451.32,Single-ply,SBD,M
-Boys,82.1,6,Carson Smith,Dalhart,80.65,170.1,97.52,170.1,437.72,Single-ply,SBD,M
+Boys,82.1,6,Carson Smith #2,Dalhart,80.65,170.1,97.52,170.1,437.72,Single-ply,SBD,M
 Boys,82.1,7,Chris Martinez,Dimmitt,82.01,181.44,90.72,165.56,437.72,Single-ply,SBD,M
 Boys,82.1,8,Logan Pipkin,Lubbock Cooper,81.56,163.29,99.79,172.37,435.45,Single-ply,SBD,M
 Boys,82.1,9,Hunter Graves,Post,77.56,167.83,95.25,165.56,428.64,Single-ply,SBD,M
@@ -98,7 +98,7 @@ Boys,89.81,9,Julian Flores,Wolfforth Frenship,86.18,156.49,120.2,151.95,428.64,S
 Boys,89.81,10,Troy Jewell,Lubbock Cooper,85.09,158.76,92.99,174.63,426.38,Single-ply,SBD,M
 Boys,89.81,11,Ryan Eller,Shallowater,82.74,149.69,90.72,154.22,394.63,Single-ply,SBD,M
 Boys,89.81,12,Logan Duncan,Lubbock Cooper,85.55,145.15,99.79,149.69,394.63,Single-ply,SBD,M
-Boys,89.81,13,Nathan Fletcher,Levelland,88.09,142.88,83.91,154.22,381.02,Single-ply,SBD,M
+Boys,89.81,13,Nathan Fletcher #3,Levelland,88.09,142.88,83.91,154.22,381.02,Single-ply,SBD,M
 Boys,89.81,14,Logan Abbott,Lubbock Cooper,85.28,140.61,99.79,133.81,374.21,Single-ply,SBD,M
 Boys,89.81,15,Alex Hernandez #5,Levelland,87.82,122.47,74.84,120.2,317.51,Single-ply,SBD,M
 Boys,89.81,DQ,Remington Saavedra,Dalhart,89.81,,,,,Single-ply,SBD,M
@@ -120,7 +120,7 @@ Boys,99.79,14,Luke Terrell,Bushland,94.08,147.42,102.06,161.03,410.5,Single-ply,
 Boys,99.79,15,Andrew Rodriguez,Bushland,97.07,142.88,115.67,151.95,410.5,Single-ply,SBD,M
 Boys,99.79,16,Andrew Cigarroa,Friona,91.44,147.42,77.11,142.88,367.41,Single-ply,SBD,M
 Boys,99.79,17,Jaden Diaz,Post,90.54,106.59,72.57,138.35,317.51,Single-ply,SBD,M
-Boys,99.79,18,Alex Montez,Friona,92.99,106.59,52.16,124.74,283.5,Single-ply,SBD,M
+Boys,99.79,18,Alex Montez #1,Friona,92.99,106.59,52.16,124.74,283.5,Single-ply,SBD,M
 Boys,99.79,DQ,Brenden Schmidt,Wolfforth Frenship,99.79,,,,,Single-ply,SBD,M
 Boys,99.79,DQ,Charlie Law,Canyon,92.08,142.88,,,,Single-ply,SBD,M
 Boys,109.77,1,Octavius Vera,Plainview,109.45,294.84,147.42,231.33,673.58,Single-ply,SBD,M
@@ -136,7 +136,7 @@ Boys,109.77,10,Brendon Eminger,Canyon,106.68,229.06,115.67,183.7,528.44,Single-p
 Boys,109.77,11,Ethan Saldana,Lubbock Cooper,104.24,192.78,122.47,199.58,514.83,Single-ply,SBD,M
 Boys,109.77,12,Matt Ramirez,Wolfforth Frenship,105.05,183.7,113.4,183.7,480.81,Single-ply,SBD,M
 Boys,109.77,13,Steven Bazan,Lockney,105.96,210.92,99.79,165.56,476.27,Single-ply,SBD,M
-Boys,109.77,14,Jacob Vasquez,Lubbock Cooper,102.6,174.63,122.47,165.56,462.66,Single-ply,SBD,M
+Boys,109.77,14,Jacob Vasquez #3,Lubbock Cooper,102.6,174.63,122.47,165.56,462.66,Single-ply,SBD,M
 Boys,109.77,15,Andrew Sanchez,Lockney,108.59,154.22,97.52,172.37,424.11,Single-ply,SBD,M
 Boys,109.77,16,Alan Mendoza,Seagraves,104.05,154.22,95.25,158.76,408.23,Single-ply,SBD,M
 Boys,109.77,17,Simon Hernandez,Floydada,106.87,136.08,92.99,158.76,387.82,Single-ply,SBD,M

@@ -10,12 +10,12 @@ Place,WeightClassKg,Name,State,Sex,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3D
 1,90,Gretchen Nosbisch,NM,F,87.77,145,87.5,155,387.5,wpure,SBD,Wraps
 1,90,Gretchen Nosbisch,NM,F,87.77,145,87.5,155,387.5,wsm1,SBD,Wraps
 1,90,Gretchen Nosbisch,NM,F,87.77,145,87.5,155,387.5,wsmp,SBD,Wraps
-1,75,Alyssa Brown,NM,F,71.67,127.5,65,145,337.5,wnov,SBD,Wraps
+1,75,Alyssa Brown #3,NM,F,71.67,127.5,65,145,337.5,wnov,SBD,Wraps
 1,82.5,Sonja Schofield,NM,F,78.93,112.5,72.5,147.5,332.5,wm1,SBD,Wraps
 1,67.5,Hailey Aragon,NM,F,65.09,110,60,125,295,wjr,SBD,Wraps
 1,56,Cheyenne Martin,NM,F,54.43,85,45,132.5,262.5,wjr,SBD,Wraps
 2,52,Laure Montes,NM,F,51.03,90,50,100,240,wnov,SBD,Wraps
-1,75,Emily Walker,NM,F,73.03,107.5,67.5,125,300,wjr,SBD,Wraps
+1,75,Emily Walker #1,NM,F,73.03,107.5,67.5,125,300,wjr,SBD,Wraps
 2,75,Samantha Trujillo,NM,F,74.84,100,52.5,140,292.5,wjr,SBD,Wraps
 2,75,Samantha Trujillo,NM,F,74.84,100,52.5,140,292.5,wnov,SBD,Wraps
 1,75,Cathy Arlowe,NM,F,71.21,97.5,57.5,120,275,wm1,SBD,Wraps
@@ -90,7 +90,7 @@ DQ,100,Manuel Martinez,NM,M,98.61,150,,177.5,,jr,SBD,Wraps
 1,140+,Cody Hanson #1,NM,M,142.88,195,135,205,535,pure,SBD,Wraps
 1,110,Christopher David,NM,M,107.05,172.5,112.5,187.5,472.5,sm2,SBD,Wraps
 1,100,Tim Folger,NM,M,92.76,142.5,102.5,190,435,m3,SBD,Wraps
-1,140,Joel Hernandez,NM,M,127.01,200,107.5,175,482.5,hs,SBD,Wraps
+1,140,Joel Hernandez #4,NM,M,127.01,200,107.5,175,482.5,hs,SBD,Wraps
 1,60,Xavier Archuleter,NM,M,57.15,97.5,77.5,125,300,hs,SBD,Wraps
 1,75,Albert Gonzales,NM,M,68.49,75,67.5,127.5,270,m4,SBD,Wraps
 1,40,Cody Hanson #2,NM,M,25.85,20,15,20,55,youth,SBD,Raw

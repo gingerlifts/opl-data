@@ -1,6 +1,6 @@
 Place,Name,BirthYear,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,WeightClassKg,Division,Event,Sex,Equipment
 1,Sharn Rowlands,1994,UK,40.5,85,95,-100,95,30,35,40,40,85,100,105,105,240,43,Sub-Juniors,SBD,F,Single-ply
-1,Andréa Durand,1994,France,46.85,110,132.5,-145,132.5,50,-60,-60,50,115,-122.5,122.5,122.5,305,47,Sub-Juniors,SBD,F,Single-ply
+1,Andréa Zicaro,1994,France,46.85,110,132.5,-145,132.5,50,-60,-60,50,115,-122.5,122.5,122.5,305,47,Sub-Juniors,SBD,F,Single-ply
 1,Polina Ananeva,1993,Russia,55.65,125,140,-145,140,72.5,77.5,-82.5,77.5,110,122.5,-127.5,122.5,340,57,Sub-Juniors,SBD,F,Single-ply
 1,Frida Leandersson,1995,Sweden,59.95,125,135,-140,135,62.5,67.5,-75,67.5,130,-140,140,140,342.5,63,Sub-Juniors,SBD,F,Single-ply
 1,Anna Slusarczyk,1995,Poland,66.25,130,-140,-140,130,52.5,57.5,60,60,110,117.5,-130,117.5,307.5,72,Sub-Juniors,SBD,F,Single-ply
@@ -21,7 +21,7 @@ Place,Name,BirthYear,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatK
 DQ,Kristine Almroth,1988,Sweden,55.5,-165,-165,-170,,80,-87.5,90,90,150,165,-170,165,,57,Juniors,SBD,F,Single-ply
 1,Tutta Kristine Hanssen,1989,Norway,60.8,187.5,192.5,195,195,137.5,140,145,145,175,180,-187.5,180,520,63,Juniors,SBD,F,Single-ply
 2,Olga Golovanova,1989,Russia,62.5,182.5,190,-195,190,107.5,115,120,120,165,177.5,-182.5,177.5,487.5,63,Juniors,SBD,F,Single-ply
-3,Hannah Stamas,1990,UK,61.85,-100,100,-110,100,50,55,57.5,57.5,110,117.5,-125,117.5,275,63,Juniors,SBD,F,Single-ply
+3,Hannah Stammas,1990,UK,61.85,-100,100,-110,100,50,55,57.5,57.5,110,117.5,-125,117.5,275,63,Juniors,SBD,F,Single-ply
 1,Anni Vuohijoki,1988,Finland,69.85,192.5,202.5,207.5,207.5,-120,-120,120,120,175,185,-200,185,512.5,72,Juniors,SBD,F,Single-ply
 2,Antonina Marochko,1989,Ukraine,68.9,200,-210,212.5,212.5,115,-120,120,120,160,170,-180,170,502.5,72,Juniors,SBD,F,Single-ply
 3,Marte Elverum,1990,Norway,70.1,180,187.5,-195,187.5,87.5,-92.5,92.5,92.5,170,177.5,182.5,182.5,462.5,72,Juniors,SBD,F,Single-ply
@@ -29,7 +29,7 @@ DQ,Kristine Almroth,1988,Sweden,55.5,-165,-165,-170,,80,-87.5,90,90,150,165,-170
 5,Elina Rönnqvist,1992,Sweden,71.4,170,182.5,187.5,187.5,-100,-100,100,100,155,-165,-165,155,442.5,72,Juniors,SBD,F,Single-ply
 6,Marthe Stavik Aas,1991,Norway,71.45,160,167.5,-172.5,167.5,95,100,102.5,102.5,-160,-160,160,160,430,72,Juniors,SBD,F,Single-ply
 7,Martina Koutňáková,1990,Czechia,71.15,145,160,-165,160,95,-107.5,-107.5,95,165,-170,,165,420,72,Juniors,SBD,F,Single-ply
-DQ,Marzena Piter,1989,Poland,70.3,-190,-195,-195,,90,95,97.5,97.5,187.5,195,-202.5,195,,72,Juniors,SBD,F,Single-ply
+DQ,Marzena Wierzbicka,1989,Poland,70.3,-190,-195,-195,,90,95,97.5,97.5,187.5,195,-202.5,195,,72,Juniors,SBD,F,Single-ply
 1,Inger-Johanne Ruud,1991,Norway,81.3,200,210,215,215,-110,112.5,117.5,117.5,165,170,-172.5,170,502.5,84,Juniors,SBD,F,Single-ply
 2,Magdalena Bialek,1991,Poland,81.35,180,195,-200,195,95,-100,100,100,160,185,190,190,485,84,Juniors,SBD,F,Single-ply
 3,Ekaterina Tsigankova,1992,Russia,81.95,180,192.5,-200,192.5,115,120,125,125,157.5,165,167.5,167.5,485,84,Juniors,SBD,F,Single-ply
@@ -39,7 +39,7 @@ DQ,Marzena Piter,1989,Poland,70.3,-190,-195,-195,,90,95,97.5,97.5,187.5,195,-202
 1,Vitaliy Voronetskiy,1996,Ukraine,52.95,125,140,-150,140,60,70,-75,70,125,140,145,145,355,53,Sub-Juniors,SBD,M,Single-ply
 1,Andrey Sergeev,1994,Russia,58.95,180,195,-202.5,195,92.5,100,110,110,180,195,205,205,510,59,Sub-Juniors,SBD,M,Single-ply
 1,Vichet Duong,1993,France,65.85,265,280,-295,280,-140,-140,140,140,240,255,-262.5,255,675,66,Sub-Juniors,SBD,M,Single-ply
-2,Daniel Nguyen,1994,France,65.15,230,-240,-240,230,140,147.5,150,150,220,230,237.5,237.5,617.5,66,Sub-Juniors,SBD,M,Single-ply
+2,Daniel Nguyen #3,1994,France,65.15,230,-240,-240,230,140,147.5,150,150,220,230,237.5,237.5,617.5,66,Sub-Juniors,SBD,M,Single-ply
 3,Alexander Dulepov,1993,Russia,65.95,-225,225,240,240,130,140,147.5,147.5,210,230,-235,230,617.5,66,Sub-Juniors,SBD,M,Single-ply
 4,Jonne Ylisirniö,1994,Finland,66,190,-205,210,210,105,-115,-115,105,170,182.5,-185,182.5,497.5,66,Sub-Juniors,SBD,M,Single-ply
 5,Andrew Conner,1995,UK,61.75,150,160,-170,160,80,87.5,92.5,92.5,170,180,185,185,437.5,66,Sub-Juniors,SBD,M,Single-ply
@@ -75,7 +75,7 @@ DQ,Marzena Piter,1989,Poland,70.3,-190,-195,-195,,90,95,97.5,97.5,187.5,195,-202
 2,Sergey Korneychuk,1988,Russia,72.45,285,300,-310,300,-185,185,190,190,255,270,-285,270,760,74,Juniors,SBD,M,Single-ply
 3,Adrien Poinson,1991,France,71.85,230,252.5,255,255,-190,190,210,210,232.5,245,-250,245,710,74,Juniors,SBD,M,Single-ply
 4,Jacob Beermann,1989,Denmark,73.7,260,275,-285,275,140,145,-150,145,260,272.5,-292.5,272.5,692.5,74,Juniors,SBD,M,Single-ply
-5,Piotr Galecki,1988,Poland,73.6,265,-275,-275,265,142.5,147.5,-157.5,147.5,250,260,-267.5,260,672.5,74,Juniors,SBD,M,Single-ply
+5,Piotr Gałecki,1988,Poland,73.6,265,-275,-275,265,142.5,147.5,-157.5,147.5,250,260,-267.5,260,672.5,74,Juniors,SBD,M,Single-ply
 6,Alistair Cannings,1991,UK,72.85,237.5,255,262.5,262.5,147.5,152.5,-155,152.5,220,232.5,237.5,237.5,652.5,74,Juniors,SBD,M,Single-ply
 7,Sunil Chahal,1992,UK,73.5,230,240,247.5,247.5,160,170,180,180,-225,-225,225,225,652.5,74,Juniors,SBD,M,Single-ply
 8,Tkadleclukas,1989,Czechia,73.6,-245,245,-265,245,155,-165,-165,155,230,-250,-255,230,630,74,Juniors,SBD,M,Single-ply
@@ -91,7 +91,7 @@ DQ,Marzena Piter,1989,Poland,70.3,-190,-195,-195,,90,95,97.5,97.5,187.5,195,-202
 9,James Duff,1992,UK,76.15,250,270,280,280,125,132.5,137.5,137.5,235,-245,-245,235,652.5,83,Juniors,SBD,M,Single-ply
 1,Eugeny Kuzmin,1988,Russia,89.35,350,370,380,380,220,230,240,240,280,290,302.5,302.5,922.5,93,Juniors,SBD,M,Single-ply
 2,Dmytro Smandych,1990,Ukraine,90.75,-335,-335,340,340,210,217.5,225,225,290,302.5,310,310,875,93,Juniors,SBD,M,Single-ply
-3,Michal Baran,1988,Poland,92.4,310,-330,330,330,230,237.5,242.5,242.5,270,285,290,290,862.5,93,Juniors,SBD,M,Single-ply
+3,Michał Baran,1988,Poland,92.4,310,-330,330,330,230,237.5,242.5,242.5,270,285,290,290,862.5,93,Juniors,SBD,M,Single-ply
 4,Stephen Manuel,1988,UK,91.05,290,310,315,315,-195,195,-205,195,290,315,-322.5,315,825,93,Juniors,SBD,M,Single-ply
 5,Pavel Eliseev,1988,Russia,92.65,320,330,340,340,175,180,-185,180,300,-310,-310,300,820,93,Juniors,SBD,M,Single-ply
 6,Bernhard Skoglund,1988,Sweden,89.75,-295,302.5,310,310,-205,207.5,-217.5,207.5,260,275,-282.5,275,792.5,93,Juniors,SBD,M,Single-ply

@@ -7,25 +7,26 @@ PLFILE := entries.csv
 MEETFILE := meets.csv
 MEETFILEJS := meets.js
 
-DATE := $(shell date --iso-8601)
-DATADIR := ${BUILDDIR}/openpowerlifting-${DATE}
+DATE := $(shell date '+%Y-%m-%d') # Updated to work on macOS.
+COMMIT := $(shell git rev-parse --short HEAD)
+DATADIR := ${BUILDDIR}/openpowerlifting-${DATE}-${COMMIT}
 
 all: csv server
 
 # Cram all the data into huge CSV files. New hotness.
 csv:
-	cargo run --bin checker -- --compile
+	tests/check --compile
 
 # Build the CSV file hosted on the Data page for use by humans.
 # The intention is to make it easy to use for people on Windows.
 data:
-	cargo run --bin checker -- --compile-onefile
+	tests/check --compile-onefile
 	mkdir -p "${DATADIR}"
-	mv "${BUILDDIR}/openpowerlifting.csv" "${DATADIR}/openpowerlifting-${DATE}.csv"
+	mv "${BUILDDIR}/openpowerlifting.csv" "${DATADIR}/openpowerlifting-${DATE}-${COMMIT}.csv"
 	cp LICENSE-DATA '${DATADIR}/LICENSE.txt'
 	cp docs/data-readme.md '${DATADIR}/README.txt'
 	rm -f "${BUILDDIR}/openpowerlifting-latest.zip"
-	cd "${BUILDDIR}" && zip -r "openpowerlifting-latest.zip" "openpowerlifting-${DATE}"
+	cd "${BUILDDIR}" && zip -r "openpowerlifting-latest.zip" "openpowerlifting-${DATE}-${COMMIT}"
 
 # Optionally build an SQLite3 version of the database.
 sqlite: csv
@@ -36,13 +37,12 @@ server: csv
 	$(MAKE) -C server
 
 # Make sure that all the fields in the CSV files are in expected formats.
-check-data:
-	cargo run --bin checker
-	tests/check-sex-consistency
+check:
+	tests/check --timing
 	tests/check-lifter-data
-	tests/check-duplicates
 
-check: check-data
+# Check all the CSV files, but additionally validate the Python scripts too
+check-all: check
 	tests/check-python-style
 
 # Run all probes in a quick mode that only shows a few pending meets.

@@ -25,7 +25,7 @@ SBD,M,Ryan Fowler,SK,134.1,120+,Open,330,180,287.5,797.5,Single-ply,3
 SBD,M,Jason Byrne #1,ON,130.6,120+,Open,365,250,330,945,Single-ply,1
 SBD,M,Marc Desjardins,QC,109.4,120,Open,295,190,290,775,Single-ply,2
 SBD,M,John MacDonald #1,PE,119.1,120,Open,360,270.5,295,925.5,Single-ply,1
-SBD,M,Andrew Wilson,ON,101.4,105,Open,255,177.5,260,692.5,Single-ply,1
+SBD,M,Andrew Wilson #5,ON,101.4,105,Open,255,177.5,260,692.5,Single-ply,1
 SBD,M,Jack Taylor #1,ON,90.9,93,Masters 4,185,115,185,485,Single-ply,1
 SBD,M,Lynton Lam,ON,82.5,83,Masters 4,137.5,92.5,196.5,426.5,Single-ply,1
 SBD,F,Linda Rousseau,ON,74.2,84,Masters 3,107.5,87.5,120,315,Single-ply,1
@@ -71,7 +71,7 @@ SBD,M,Matthew Jessome,NS,71.1,74,Sub-Juniors,175,95,215.5,485.5,Raw,1
 SBD,M,Danny Heintz,SK,72.3,74,Sub-Juniors,160,102.5,175,437.5,Raw,3
 SBD,F,Cara MacKenzie,PE,70.7,72,Sub-Juniors,95,45,145.5,285.5,Raw,1
 SBD,M,Spencer McCann,ON,62.3,66,Sub-Juniors,165,100,185,450,Raw,2
-SBD,M,Aaron Hopkins,NL,65.5,66,Sub-Juniors,173,110,205,488,Raw,1
+SBD,M,Aaron Hopkins #2,NL,65.5,66,Sub-Juniors,173,110,205,488,Raw,1
 SBD,M,André Albert,QC,57,59,Sub-Juniors,125,87.5,132.5,345,Raw,1
 SBD,F,Mikayla Lohse,SK,55.5,57,Sub-Juniors,115,52.5,125.5,293,Raw,1
 SBD,F,Kinsey Maxwell,ON,56.1,57,Sub-Juniors,95,45,97.5,237.5,Raw,2
@@ -81,14 +81,14 @@ SBD,M,Paul Travis,NS,92.6,93,Open,190,145,255,590,Raw,6
 SBD,M,Jonathan Simard,QC,91.9,93,Open,262.5,195,252.5,710,Raw,2
 SBD,M,Jeff Bilyk,SK,92.7,93,Open,242.5,155,252.5,650,Raw,3
 SBD,M,James Newton,ON,89.4,93,Open,215,132.5,232.5,580,Raw,7
-SBD,M,Daniel Schultz,ON,90.9,93,Open,240,150,255,645,Raw,5
+SBD,M,Daniel Schultz #2,ON,90.9,93,Open,240,150,255,645,Raw,5
 SBD,M,Andrew Lutzuk,QC,88.4,93,Open,232.5,150,262.5,645,Raw,4
 SBD,F,Katherine Duckworth,QC,106,84+,Open,132.5,87.5,172.5,392.5,Raw,2
 SBD,F,Jessie Buydens,SK,119.2,84+,Open,145,105.5,170,420.5,Raw,1
 SBD,M,Stathis Theofilopoulos,ON,82,83,Open,212.5,147.5,260,620,Raw,4
 SBD,M,Phillip Plato,ON,82.5,83,Open,227.5,132.5,257.5,617.5,Raw,5
 SBD,M,Nikkolas Trillo,ON,77.8,83,Open,230,137.5,270,637.5,Raw,3
-SBD,M,Michael Whiting,ON,81.5,83,Open,205,145,237.5,587.5,Raw,6
+SBD,M,Michael Whiting #2,ON,81.5,83,Open,205,145,237.5,587.5,Raw,6
 SBD,M,Mark Wasson,NB,81.3,83,Open,237.5,165,300,702.5,Raw,1
 SBD,M,Mark Boyle,ON,76.3,83,Open,170,122.5,222.5,515,Raw,7
 SBD,M,Connor Lutz,SK,81.4,83,Open,251,185,257.5,693.5,Raw,2
@@ -100,11 +100,11 @@ SBD,F,Sarah Clark,ON,70,72,Open,140,60,145,345,Raw,5
 SBD,F,Kelly Winter,ON,69.9,72,Open,120,72.5,157.5,350,Raw,2
 SBD,F,Dani Savoie,AB,71.7,72,Open,125,87.5,142.5,355,Raw,1
 SBD,F,Becky Lauridsen,BC,68.6,72,Open,120,65,162.5,347.5,Raw,4
-SBD,M,Tony Vuong,BC,63.5,66,Open,182.5,117.5,187.5,487.5,Raw,1
+SBD,M,Tony Vuong #2,BC,63.5,66,Open,182.5,117.5,187.5,487.5,Raw,1
 SBD,M,Kent Brown,SK,65.4,66,Open,157.5,132.5,190,480,Raw,2
 SBD,M,Andrew Carnovale,ON,64.5,66,Open,165,117.5,190,472.5,Raw,3
 SBD,F,Robyn Ripley,ON,58.7,63,Open,100,57.5,115,272.5,Raw,6
-SBD,F,Michelle Smith,NS,61.4,63,Open,125,60,155,340,Raw,2
+SBD,F,Michelle Smith #3,NS,61.4,63,Open,125,60,155,340,Raw,2
 SBD,F,Melissa Beals,ON,62.3,63,Open,107.5,50,130,287.5,Raw,5
 SBD,F,Kacey Baines,QC,62.5,63,Open,125,65,155,345,Raw,1
 SBD,F,Jasmine Clarke,QC,61.3,63,Open,115,65,125,305,Raw,4
@@ -119,7 +119,7 @@ SBD,F,Erin Ashbacher,AB,53.7,57,Open,95,65,125,285,Raw,7
 SBD,F,Amy Smith #3,SK,56,57,Open,115,70,127.5,312.5,Raw,4
 SBD,F,Joanna Rieber,ON,50.9,52,Open,90,72.5,130,292.5,Raw,1
 SBD,F,Alexandra Epp,ON,51.4,52,Open,105,55,127.5,287.5,Raw,2
-SBD,F,Steph Kean,NL,46.2,47,Open,118,58.5,150.5,327,Raw,1
+SBD,F,Stef Kean,NL,46.2,47,Open,118,58.5,150.5,327,Raw,1
 SBD,F,Jill MacFarlane,PE,46.5,47,Open,70,42.5,80,192.5,Raw,3
 SBD,F,Crystal Grimsen,AB,46.8,47,Open,70,52.5,110,232.5,Raw,2
 SBD,M,Phillippe Landry,ON,140,120+,Open,245,180,275,700,Raw,4

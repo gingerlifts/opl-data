@@ -1,7 +1,7 @@
 Place,Name,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Bench4Kg,WeightClassKg,Sex,CyrillicName,Event,TotalKg,Equipment,Division
 1,Andrey Podpalny,1968,51.9,135,140,-145,140,,52,M,Андрей Подпальный,B,140,Single-ply,Open
 2,Aleksey Svistunov,1969,51.55,100,-105,-105,100,,52,M,Алексей Свистунов,B,100,Single-ply,Open
-3,Vyacheslav Gorbunov,1975,51.7,-100,100,-105,100,,52,M,Вячеслав Горбунов,B,100,Single-ply,Open
+3,Vyacheslav Gorbunov #2,1975,51.7,-100,100,-105,100,,52,M,Вячеслав Горбунов,B,100,Single-ply,Open
 4,Yaroslav Chopovskiy,1962,51.8,90,-100,100,100,,52,M,Ярослав Чоповский,B,100,Single-ply,Open
 5,Aleksandr Bnatov,1966,51.8,85,90,95,95,,52,M,Александр Бнатов,B,95,Single-ply,Open
 1,Konstantin Pavlov,1973,55,130,137.5,142.5,142.5,,56,M,Константин Павлов,B,142.5,Single-ply,Open
@@ -24,7 +24,7 @@ DQ,Aleksandr Kodolov,1962,60,-150,-150,,,,60,M,Александр Кодолов
 4,Alexander Ukhanov,1975,67,-155,-160,160,160,,67.5,M,Александр Уханов,B,160,Single-ply,Open
 5,Viktor Tamochkin,1975,67.5,142.5,150,160,160,,67.5,M,Виктор Тамочкин,B,160,Single-ply,Open
 6,Vyacheslav Varichev,1970,66.3,150,155,-160,155,,67.5,M,Вячеслав Варичев,B,155,Single-ply,Open
-7,Vladimir Zakharov,1969,66.75,150,155,-160,155,,67.5,M,Владимир Захаров,B,155,Single-ply,Open
+7,Vladimir Zakharov #6,1969,66.75,150,155,-160,155,,67.5,M,Владимир Захаров,B,155,Single-ply,Open
 8,Sergey Ushakov,1974,67.15,150,-155,155,155,,67.5,M,Сергей Ушаков,B,155,Single-ply,Open
 9,Gennadiy Sayapin,1952,67.3,-145,145,-150,145,,67.5,M,Геннадий Саяпин,B,145,Single-ply,Open
 10,Andrey Mikhaylov,1974,67.5,125,137.5,-145,137.5,,67.5,M,Андрей Михайлов,B,137.5,Single-ply,Open
@@ -33,7 +33,7 @@ DQ,Aleksandr Kodolov,1962,60,-150,-150,,,,60,M,Александр Кодолов
 13,Dmitriy Galtsev,1976,67.05,110,120,125,125,,67.5,M,Дмитрий Гальцев,B,125,Single-ply,Open
 14,Viktor Furazhkin,1969,66.65,110,115,-120,115,,67.5,M,Виктор Фуражкин,B,115,Single-ply,Open
 15,Anatoliy Kozyrin,1941,65.6,95,-100,100,100,,67.5,M,Анатолий Козырин,B,100,Single-ply,Open
-16,Gennadiy Chuldenko,1948,67.45,90,95,,95,,67.5,M,Геннадий Чульденко,B,95,Single-ply,Open
+16,Gennadiy Chuldenko,1948,67.45,90,95,,95,,67.5,M,Геннадий Чулденко,B,95,Single-ply,Open
 1,Pavel Chernyshov,1961,74.75,180,-182.5,-182.5,180,,75,M,Павел Чернышов,B,180,Single-ply,Open
 2,Vladimir Chudakov,1972,74.4,170,177.5,-180,177.5,,75,M,Владимир Чудаков,B,177.5,Single-ply,Open
 3,Vladimir Larionov,1958,73.1,170,-177.5,-177.5,170,,75,M,Владимир Ларионов,B,170,Single-ply,Open
@@ -87,7 +87,7 @@ DQ,Yuriy Kopylov,1969,81.8,-150,-160,,,,82.5,M,Юрий Копылов,B,,Single
 5,Dmitriy Grachev,1972,89.95,192.5,-197.5,-197.5,192.5,,90,M,Дмитрий Грачев,B,192.5,Single-ply,Open
 6,Aleksey Kokovin,1972,89.6,180,187.5,190,190,,90,M,Алексей Коковин,B,190,Single-ply,Open
 7,Sergei Ivanov,1960,89.8,-190,190,-192.5,190,,90,M,Сергей Иванов,B,190,Single-ply,Open
-8,Viktor Chernysh,1964,89.9,180,185,190,190,,90,M,Виктор Черныш,B,190,Single-ply,Open
+8,Viktor Chernysh #1,1964,89.9,180,185,190,190,,90,M,Виктор Черныш,B,190,Single-ply,Open
 9,Yuriy Prudnikov,1970,90,170,180,190,190,,90,M,Юрий Прудников,B,190,Single-ply,Open
 10,Konstantin Drachev,1961,89.8,187.5,-192.5,-192.5,187.5,,90,M,Константин Драчев,B,187.5,Single-ply,Open
 11,Victor Kotelnikov,1956,89.45,-175,175,182.5,182.5,,90,M,Виктор Котельников,B,182.5,Single-ply,Open
@@ -107,7 +107,7 @@ DQ,Yuriy Kopylov,1969,81.8,-150,-160,,,,82.5,M,Юрий Копылов,B,,Single
 25,Sergey Sidorin,1964,89.5,150,160,165,165,,90,M,Сергей Сидорин,B,165,Single-ply,Open
 26,Dmitriy Malyshev,1973,90,-165,165,-167.5,165,,90,M,Дмитрий Малышев,B,165,Single-ply,Open
 27,Sergey Anatskiy,1966,88.4,152.5,-160,160,160,,90,M,Сергей Анацкий,B,160,Single-ply,Open
-28,Aleksandr Kuzmin,1987,87.5,145,152.5,-160,152.5,,90,M,Александр Кузьмин,B,152.5,Single-ply,Open
+28,Aleksandr Kuzmin,,87.5,145,152.5,-160,152.5,,90,M,Александр Кузьмин,B,152.5,Single-ply,Open
 29,Sergey Chugunov,1974,89.1,140,-145,145,145,,90,M,Сергей Чугунов,B,145,Single-ply,Open
 30,Andrey Semenov,1974,89,125,140,-150,140,,90,M,Андрей Семенов,B,140,Single-ply,Open
 31,Vladimir Sivtsov,1963,88.5,135,-140,-140,135,,90,M,Владимир Сивцов,B,135,Single-ply,Open
@@ -230,6 +230,6 @@ DQ,Lyubov Pavlova,1970,51.65,-60,,-60,,,52,F,Любовь Павлова,B,,Sing
 2,Elena Ignatenkova,1971,76.95,102.5,110,-112.5,110,,82.5,F,Елена Игнатенкова,B,110,Single-ply,Open
 3,Alla Korshunova,1968,82,90,92.5,95,95,,82.5,F,Алла Коршунова,B,95,Single-ply,Open
 4,Elena Kashirina,1962,78.5,67.5,75,80,80,,82.5,F,Елена Каширина,B,80,Single-ply,Open
-5,Inna Smirnova,1955,79.1,80,-85,-85,80,,82.5,F,Инна Смирнова,B,80,Single-ply,Open
+5,Inna Smirnova #1,1955,79.1,80,-85,-85,80,,82.5,F,Инна Смирнова,B,80,Single-ply,Open
 1,Svetlana Paltseva,1969,85,90,92.5,95,95,,90,F,Светлана Пальцева,B,95,Single-ply,Open
 1,Natalya Kuznetsova,1978,93.4,60,65,-70,65,,90+,F,Наталья Кузнецова,B,65,Single-ply,Open

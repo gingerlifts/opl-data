@@ -54,16 +54,16 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,Team,BodyweightKg,Bench1Kg
 1,M,Tim Anderson,B,M-O,105,Single-ply,Titan,104,295,-297.5,-318,295,295,1972
 2,M,Tim Stroshine,B,M-O,105,Single-ply,,97,282.5,-290,-295,282.5,282.5,1978
 1,M,Mike McHargh,B,M-O,105,Single-ply,,103,192.5,200,-220,200,200,1976
-3,M,John Clay,B,M-O,105,Single-ply,,103,182.5,190,192.5,192.5,192.5,1980
+3,M,John Clay #1,B,M-O,105,Single-ply,,103,182.5,190,192.5,192.5,192.5,1980
 2,M,Conway W. Waddy,B,M-O,105,Single-ply,,99,165,177.5,-185,177.5,177.5,
 1,M,Jeremy Auerbach,B,M-O,120,Single-ply,,118.2,297.5,-307.5,310,310,310,
-2,M,Brady Stewart,B,M-O,120,Single-ply,Titan,119.3,297.5,310,-312.5,310,310,1982
+2,M,Brady Stewart #1,B,M-O,120,Single-ply,Titan,119.3,297.5,310,-312.5,310,310,1982
 3,M,David Doan,B,M-O,120,Single-ply,,119.3,282.5,290,-300,290,290,1964
 4,M,Christopher Vickery,B,M-O,120,Single-ply,,117.4,285,-300,-300,285,285,1991
 5,M,Mike Ferrantelli,B,M-O,120,Single-ply,,107,250,260,-277.5,260,260,1966
 1,M,Chris Jones #2,B,M-O,120,Single-ply,,118.8,227.5,232.5,-237.5,232.5,232.5,1987
 6,M,Kevin Hutchinson,B,M-O,120,Single-ply,,111.4,200,-210,210,210,210,1954
-7,M,Josh Hunt,B,M-O,120,Single-ply,,114.7,200,210,-227.5,210,210,1982
+7,M,Josh Hunt #1,B,M-O,120,Single-ply,,114.7,200,210,-227.5,210,210,1982
 2,M,Clint Poore,B,M-O,120,Single-ply,,109,190,202.5,-210,202.5,202.5,1973
 3,M,Brian Kovach,B,M-O,120,Single-ply,,116.8,195,-210,-210,195,195,1983
 1,M,Blaine Sumner,B,M-O,120+,Single-ply,Titan,166.9,345,365,380.5,380.5,380.5,1987
@@ -99,7 +99,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,Team,BodyweightKg,Bench1Kg
 1,M,Duane Young,B,M-M2a,74,Single-ply,,74,92.5,100,-105,100,100,1960
 1,M,Wesley Kipp,B,M-M2a,83,Single-ply,,82,200,-212.5,-212.5,200,200,1962
 1,M,Bryon Brubaker,B,M-M2a,93,Single-ply,,93,202.5,207.5,-212.5,207.5,207.5,1963
-2,M,Tom Cencich,B,M-M2a,93,Single-ply,,84,175,185,-207.5,185,185,1960
+2,M,Thomas Cencich,B,M-M2a,93,Single-ply,,84,175,185,-207.5,185,185,1960
 1,M,Ennis White,B,M-M2a,105,Single-ply,,105,175,182.5,-187.5,182.5,182.5,1964
 1,M,David Doan,B,M-M2a,120,Single-ply,,119.3,282.5,290,-300,290,290,1964
 1,M,Kyde Eddleman,B,M-M2a,120,Single-ply,,110.2,150,160,167.5,167.5,167.5,1962
@@ -120,7 +120,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,Team,BodyweightKg,Bench1Kg
 1,M,Marvin Huber,B,M-M3a,66,Single-ply,,65,117.5,122.5,127.5,127.5,127.5,1953
 1,M,Larry Miller,B,M-M3a,74,Single-ply,,74,170,-182.5,-182.5,170,170,1954
 1,M,Rich Blaumuller,B,M-M3a,74,Single-ply,,68,60,65,70,70,70,1952
-1,M,Kline Brian,B,M-M3a,93,Single-ply,Titan,92,165,-172.5,172.5,172.5,172.5,1950
+1,M,Brian Kline,B,M-M3a,93,Single-ply,Titan,92,165,-172.5,172.5,172.5,172.5,1950
 1,M,Roul Wolfgang Chwalek,B,M-M3a,93,Single-ply,,92,125,132.5,137.5,137.5,137.5,
 1,M,Greg Chrun,B,M-M3a,120,Single-ply,,111.3,-237.5,237.5,-245,237.5,237.5,
 1,M,Robert Crawford #1,B,M-M3a,120+,Single-ply,,144.1,185,200,-210,200,200,1951
@@ -128,7 +128,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,Team,BodyweightKg,Bench1Kg
 1,M,Bob Evans #3,B,M-M3b,105,Single-ply,,103,170,-180,180,180,180,
 1,M,Ivan Zwick,B,M-M4a,66,Single-ply,,64,107.5,112.5,-115,112.5,112.5,1939
 1,M,Mike Settles,B,M-M4a,83,Single-ply,,82,122.5,130,-133.5,130,130,1944
-1,M,Negriff Larry,B,M-M4a,105,Single-ply,,104,182.5,195,-205,195,195,1941
+1,M,Larry Negriff,B,M-M4a,105,Single-ply,,104,182.5,195,-205,195,195,1941
 1,M,Richard C Kuriger III,B,M-M4a,105,Single-ply,,101,45,52.5,-55,52.5,52.5,1942
 1,M,Bill Helmich,B,M-M4a,120,Single-ply,,109,140,147.5,160,160,160,1942
 1,M,Iosif Plagov,B,M-M4b,66,Single-ply,,65,82.5,87.5,-92.5,87.5,87.5,1935

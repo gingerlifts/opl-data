@@ -1,14 +1,14 @@
 WeightClassKg,Sex,Name,Country,Team,Age,BirthDate,BodyweightKg,Division,Equipment,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Event,Place
 53,F,Gurdeep De-Meis,UK,EM,37,1972-12-27,52.55,F-O,Single-ply,95,102.5,110,110,50,-52.5,52.5,,52.5,120,132.5,-140,,132.5,295,SBD,1
 80,F,Mary Anderson,Scotland,SCO,42,1967-09-02,78.55,F-M1,Single-ply,170,-182.5,182.5,182.5,100,107.5,112.5,-117.5,112.5,190,205,215,,215,510,SBD,1
-90,F,Bernadette McKinley,Scotland,SCO,30,1979-05-02,82.55,F-O,Single-ply,170,-185,185,185,115,-120,120,,120,170,185,-200,,185,490,SBD,1
+90,F,Bernadette Cuninghame,Scotland,SCO,30,1979-05-02,82.55,F-O,Single-ply,170,-185,185,185,115,-120,120,,120,170,185,-200,,185,490,SBD,1
 60,M,Ted Brown,UK,EM,79,1930-07-27,59.7,M-M8,Single-ply,90,100,105,105,62.5,-70,70,,70,110,120,130,140,130,305,SBD,1
 60,M,Aaron Gideon,England,SE,30,1980-03-02,57.7,M-O,Single-ply,150,-160,160,160,140,-145.5,-145.5,,140,160,-172.5,-172.5,,160,460,SBD,1
 75,M,Dean Mikosz,England,SC,41,1968-07-04,74.5,M-M1,Single-ply,220,-235,-250,220,150,-165,-165,,150,205,215,-225,,215,585,SBD,1
 75,M,Mark Fleming,England,NE,26,1983-08-10,74.5,M-O,Single-ply,220,240,-250,240,160,177.5,-185.5,,177.5,230,250,,,250,667.5,SBD,1
 82.5,M,Russell Bain,England,NW,42,1968-03-24,80.4,M-M1,Single-ply,207.5,217.5,,217.5,135,142.5,147.5,,147.5,230,-242.5,-242.5,,230,595,SBD,1
 82.5,M,Rick Meldon,England,SE,45,1964-04-21,82,M-M2,Single-ply,255,280,,280,170,-195,-200,,170,240,-260,-260,,240,690,SBD,1
-82.5,M,Henry M.D. Clark,England,EM,70,1940-04-09,80.9,M-M7,Single-ply,140,152.5,-162.5,152.5,55,-65,65,70.5,65,-150,150,160,,160,377.5,SBD,1
+82.5,M,Henry Clark,England,EM,70,1940-04-09,80.9,M-M7,Single-ply,140,152.5,-162.5,152.5,55,-65,65,70.5,65,-150,150,160,,160,377.5,SBD,1
 82.5,M,Richard Crossland,England,NM,36,1974-03-23,80.7,M-O,Single-ply,215,-225,227.5,227.5,-155,-160,160,,160,230,240,250,,250,637.5,SBD,1
 90,M,Douglas H Williams,Wales,WAL,71,1939-01-29,85.9,M-M7,Single-ply,160,-165,165,165,-80,-80,80,,80,160,170,180,,180,425,SBD,1
 90,M,Edward Van Niekerk,England,SC,54,1955-12-01,89.9,M-M3,Single-ply,240,260,-280,260,135,-145,-145,,135,215,230,-240,,230,625,SBD,1

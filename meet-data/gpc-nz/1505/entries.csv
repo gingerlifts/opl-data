@@ -1,6 +1,6 @@
 Name,Age,Sex,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Meikura Arahunga,41,F,F-OR,69.9,75,20,40,-60,,40,35,37.5,-50,,37.5,80,-100,100,,100,177.5,SBD,Wraps,2
-Natalie Gibson,30,F,F-OR,51.4,52,40,50,60,,60,30,-40,-40,,30,60,70,-80,,70,160,SBD,Wraps,1
+Natalie Gibson #1,30,F,F-OR,51.4,52,40,50,60,,60,30,-40,-40,,30,60,70,-80,,70,160,SBD,Wraps,1
 Ashley Johns,20,F,F-OR,90.5,90+,40,50,60,,60,40,50,-55,,50,75,80,-100,,80,190,SBD,Wraps,3
 Emily Johns,24,F,F-OR,58.8,60,50,70,85,,85,30,40,47.5,,47.5,60,80,100,,100,232.5,SBD,Wraps,3
 Aporonia Arahunga,19,F,F-OR,61.4,67.5,50,60,-80,,60,30,35,-42.5,,35,65,75,82.5,,82.5,177.5,SBD,Wraps,7
@@ -23,5 +23,5 @@ Kris Lord,23,M,M-OR,106.4,110,200,220,230,,230,150,160,-170,,160,250,270,275,,27
 Hamish Haroki,29,M,M-OR,139.6,140,200,-250,-280,,200,-180,-210,-225,,,,,,,,,SBD,Wraps,DQ
 Jackson Hinch,22,M,M-OR,99.3,100,230,242.5,255,,255,155,-165,172.5,,172.5,250,265,280,,280,707.5,SBD,Wraps,1
 Matt McPhie,34,M,M-OR,106.9,110,-230,240,-255,,240,-130,,,,,,,,,,,SBD,Wraps,DQ
-Jamie Thompson,29,M,M-OR,106.9,110,240,280,-310,,280,160,180,195,,195,240,260,280,,280,755,SBD,Wraps,1
+Jamie Thompson #1,29,M,M-OR,106.9,110,240,280,-310,,280,160,180,195,,195,240,260,280,,280,755,SBD,Wraps,1
 Steve Varga,42,M,M-OR,121.3,125,280,300,315,,315,180,195,200,,200,260,280,300,,300,815,SBD,Wraps,1

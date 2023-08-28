@@ -6,7 +6,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 1,Bryana Washington,CA,82.5,79.8,17,125,75,140,340,F,Juniors 16-17,Raw,SBD
 1,Valarie Chavez,CA,56,53.8,31,62.5,37.5,107.5,207.5,F,Open,Raw,SBD
 1,Anne Escobedo,CA,60,57.4,28,125,62.5,160,347.5,F,Open,Raw,SBD
-1,Monica Benavides,CA,75,68.8,28,122.5,77.5,130,330,F,Open,Raw,SBD
+1,Monica Benavides #1,CA,75,68.8,28,122.5,77.5,130,330,F,Open,Raw,SBD
 1,Dana Narez,CA,82.5,78.8,25,160,102.5,155,417.5,F,Open,Raw,SBD
 2,Bryana Washington,CA,82.5,79.8,17,125,75,140,340,F,Open,Raw,SBD
 3,Stephanie Morrow,CA,82.5,77.6,31,122.5,62.5,137.5,322.5,F,Open,Raw,SBD
@@ -55,7 +55,7 @@ DQ,Kimberly Brown,CA,90,85,52,,75,155,,F,Masters 50-54,Wraps,SBD
 2,Eli Sokolow,HI,90,86,21,227.5,127.5,255,610,M,Open,Wraps,SBD
 3,Travis Raville,CA,90,86,33,227.5,142.5,235,605,M,Open,Wraps,SBD
 1,Dontae Woloshun,CA,100,93.2,23,267.5,152.5,320,740,M,Open,Wraps,SBD
-1,Anthony Martinez,CA,110,106.4,27,265,167.5,265,697.5,M,Open,Wraps,SBD
+1,Anthony Martinez #2,CA,110,106.4,27,265,167.5,265,697.5,M,Open,Wraps,SBD
 2,Louis Shawver,CA,110,109.6,27,170,112.5,212.5,495,M,Open,Wraps,SBD
 1,Jimmy Reyes,CA,140,128.6,30,257.5,170,272.5,700,M,Open,Wraps,SBD
 1,Jason Zecchini,ND,90,87.4,24,,177.5,,177.5,M,Open,Raw,B

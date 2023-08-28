@@ -8,7 +8,7 @@ git clone https://gitlab.com/openpowerlifting/opl-data.git
 ```
 
 ## Running the Makefile
-In the `openpowerlifting/` base directory, run
+In the `opl-data/` base directory, run
 
 ```make``` 
 
@@ -21,10 +21,7 @@ framework.  To install this subproject, see the following steps.
 
 ### Installing Rust and Cargo
 
-Visit [rustup](https://www.rustup.rs/) and download `rustup`, the Rust
-installer.
-Following the command line instructions, install the `nightly` version. The
-nightly version is required to build the `server/` subproject.
+Visit [rustup](https://www.rustup.rs/) and download/run `rustup`, the Rust installer.
 
 ### Building the server
 In the `server/` directory, run

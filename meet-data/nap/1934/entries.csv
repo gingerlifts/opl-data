@@ -7,7 +7,7 @@ Place,Sex,Name,CyrillicName,BodyweightKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Bes
 1,M,Sergey Fomenko,Сергей Фоменко,82.1,195,217.5,222.5,222.5,,222.5,82.5,D,Raw,Yes,,,,,,,,,,,Amateur Teen 18-19,19,2000-04-06
 1,M,Sergey Fomenko,Сергей Фоменко,82.1,195,217.5,222.5,222.5,,222.5,82.5,D,Raw,Yes,,,,,,,,,,,Amateur Open,19,2000-04-06
 2,M,Samer Alkhendi,Самер Алхенди,78.6,-185,190,200,200,,200,82.5,D,Raw,Yes,,,,,,,,,,,Amateur Open,26,1992-11-05
-1,M,Aleksandr Popov,Александр Попов,90,,,,,,200,90,B,Multi-ply,Yes,187.5,200,-217.5,200,,,,,,,Amateur Open,32,1987-05-07
+1,M,Aleksandr Popov #28,Александр Попов,90,,,,,,200,90,B,Multi-ply,Yes,187.5,200,-217.5,200,,,,,,,Amateur Open,32,1987-05-07
 1,M,Vitaliy Gorbanev,Виталий Горбанев,100,,,,,,190,100,B,Multi-ply,Yes,-190,190,-202.5,190,,,,,,,Amateur Open,31,1987-09-28
 1,F,Olga Lazurenko,Ольга Лазуренко,65.9,,,,,,120,67.5,B,Raw,No,112.5,115,120,120,,,,,,,Pro Open,47,1971-09-05
 1,M,Maksim Chursanov,Максим Чурсанов,63.3,,,,,,152.5,67.5,B,Raw,No,145,150,152.5,152.5,,,,,,,Pro Juniors 20-23,22,1997-02-18
@@ -18,7 +18,7 @@ Place,Sex,Name,CyrillicName,BodyweightKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Bes
 1,F,Anna Kretinina,Анна Кретинина,66.5,,,,,,62.5,67.5,B,Raw,Yes,57.5,62.5,-65,62.5,,,,,,,Amateur Open,29,1989-08-27
 1,M,Ali Sakhib,Али Сахиб,60,,,,,,115,60,B,Raw,Yes,100,115,-130,115,,,,,,,Amateur Juniors 20-23,22,1996-07-29
 1,M,Eduard Keveyan,Эдуард Кевеян,64.7,,,,,,97.5,67.5,B,Raw,Yes,90,95,97.5,97.5,,,,,,,Amateur Teen 14-15,15,2004-02-12
-1,M,Artem Ivanov,Артем Иванов,67.5,,,,,,127.5,67.5,B,Raw,Yes,120,127.5,-130,127.5,,,,,,,Amateur Open,27,1991-07-05
+1,M,Artem Ivanov #9,Артем Иванов,67.5,,,,,,127.5,67.5,B,Raw,Yes,120,127.5,-130,127.5,,,,,,,Amateur Open,27,1991-07-05
 1,M,Nikolay Dubyanskiy,Николай Дубянский,73.7,,,,,,120,75,B,Raw,Yes,117.5,-120,120,120,,,,,,,Amateur Juniors 20-23,21,1997-11-16
 1,M,Egor Manukovskiy,Егор Мануковский,81.4,,,,,,75,82.5,B,Raw,Yes,70,-75,75,75,,,,,,,Amateur Teen 14-15,14,2004-06-11
 1,M,Ivan Romadin,Иван Ромадин,87.4,,,,,,140,90,B,Raw,Yes,135,140,-150,140,,,,,,,Amateur Open,26,1992-06-18
@@ -27,7 +27,7 @@ Place,Sex,Name,CyrillicName,BodyweightKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Bes
 1,M,Vladimir Biliba,Владимир Билиба,89.9,,,,,,130,90,B,Raw,Yes,-125,-130,130,130,,,,,,,Amateur Masters 55-59,56,1962-09-09
 1,M,Ilya Bolshakov,Илья Большаков,93.8,,,,,,172.5,100,B,Raw,Yes,162.5,167.5,172.5,172.5,,,,,,,Amateur Open,32,1987-03-31
 2,M,Aleksandr Gorbachev,Александр Горбачев,98.4,,,,,,152.5,100,B,Raw,Yes,-152.5,152.5,-162.5,152.5,,,,,,,Amateur Open,31,1988-04-27
-3,M,Andrey Pankov,Андрей Паньков,98.1,,,,,,142.5,100,B,Raw,Yes,-142.5,142.5,-147.5,142.5,,,,,,,Amateur Open,29,1990-01-23
+3,M,Andrey Pankov #4,Андрей Паньков,98.1,,,,,,142.5,100,B,Raw,Yes,-142.5,142.5,-147.5,142.5,,,,,,,Amateur Open,29,1990-01-23
 1,M,Aleksandr Dorofeev,Александр Дорофеев,108.4,,,,,,167.5,110,B,Raw,Yes,-160,160,167.5,167.5,,,,,,,Amateur Open,29,1990-02-26
 2,M,Yuriy Gorbanev,Юрий Горбанев,104.6,,,,,,142.5,110,B,Raw,Yes,-142.5,142.5,-147.5,142.5,,,,,,,Amateur Open,37,1981-08-17
 1,M,Yuriy Beglov,Юрий Беглов,80,210,225,235,235,,550,82.5,SBD,Wraps,No,115,120,125,125,,167.5,182.5,190,190,,Pro Masters 50-54,54,1965-05-06

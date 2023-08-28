@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 #
 # Helper script that transforms countries in various non-standard forms
-# into the full names used by modules/opltypes/src/countries.rs.
+# into the full names used by crates/opltypes/src/countries.rs.
 #
 # When run as a script, it fixes the "Country" columns.
 #
@@ -165,7 +165,7 @@ COUNTRY_MAP = {
     'MEX': 'Mexico',
     'MGL': 'Mongolia',
     'MHL': 'Marshall Islands',
-    'MKD': 'Macedonia',
+    'MKD': 'North Macedonia',
     'MLI': 'Mali',
     'MLT': 'Malta',
     'MNE': 'Montenegro',

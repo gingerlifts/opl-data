@@ -1,5 +1,5 @@
 Name,Division,WeightClassKg,Best3SquatKg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Equipment,Sex,AgeRange,Age,BodyweightKg,Place
-Joe Williams,Novice,52,127.01,,,95.25,,,,147.42,369.68,SBD,Single-ply,M,,14,,1
+Joe Williams #1,Novice,52,127.01,,,95.25,,,,147.42,369.68,SBD,Single-ply,M,,14,,1
 Ron Hess,Novice,52,147.42,,,74.84,,,,129.27,351.53,SBD,Single-ply,M,,,,2
 Scott Siegel,Novice,56,161.03,,,97.52,,,,183.7,442.25,SBD,Single-ply,M,,,,1
 Mitchell Sirota,Novice,56,124.74,,,106.59,,,,165.56,396.89,SBD,Single-ply,M,,,,2
@@ -9,7 +9,7 @@ David Gant,Novice,60,188.24,,,102.06,,,,195.04,485.34,SBD,Single-ply,M,,,,1
 Elwood Minor,Novice,60,149.69,,,117.93,,,,183.7,451.32,SBD,Single-ply,M,,,,2
 Rich Bomar,Novice,60,140.61,,,136.08,,,,163.29,439.98,SBD,Single-ply,M,,,,3
 Tony Marsicano,Novice,60,124.74,,,83.91,,,,174.63,383.29,SBD,Single-ply,M,,,,4
-Ray Perez,Novice,67.5,226.8,,,147.42,,,,199.58,573.79,SBD,Single-ply,M,,,,1
+Ray Perez #3,Novice,67.5,226.8,,,147.42,,,,199.58,573.79,SBD,Single-ply,M,,,,1
 Dave Johnson,Novice,67.5,222.26,,,115.67,,,,213.19,551.11,SBD,Single-ply,M,,,,2
 Pedro Valiente,Novice,67.5,170.1,,,127.01,,,,208.65,505.76,SBD,Single-ply,M,,,,3
 Kevin Mills,Novice,67.5,188.64,,,113.4,,,,192.78,494.42,SBD,Single-ply,M,,,,4
@@ -76,7 +76,7 @@ Dan Macri,Open,110,306.17,,,201.85,,,,278.96,786.98,SBD,Single-ply,M,,,,2
 John Sykes,Open,110,283.5,,,192.78,,,,306.17,782.45,SBD,Single-ply,M,,,,3
 Nick Reeb,Open,125,281.23,,,226.8,,,,285.76,793.79,SBD,Single-ply,M,,,,1
 Ron Vitkun,Open,125,290.3,,,208.65,,,,281.23,780.18,SBD,Single-ply,M,,,,2
-Rick Chastang,Open,125+,24.95,,,65.77,,,,299.37,390.09,SBD,Raw,M,,,,1
-Jerry Smith,Open,125+,344.73,,,219.99,,,,317.52,882.24,SBD,Single-ply,M,40-999,,,1
+Richard Chastang,Open,125+,24.95,,,65.77,,,,299.37,390.09,SBD,Raw,M,,,,1
+Jerry Smith #1,Open,125+,344.73,,,219.99,,,,317.52,882.24,SBD,Single-ply,M,40-999,,,1
 Rick Failla,Open,125+,294.84,,,213.19,,,,294.84,802.86,SBD,Single-ply,M,,,,2
 Rusty Irby,Open,125+,115.67,251.74,-258.55,251.74,,,,115.67,483.08,SBD,Single-ply,M,,,,3

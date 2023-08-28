@@ -1,25 +1,26 @@
 //! Checks CSV data files for validity.
 
-extern crate checker; // The "src/lib.rs" module.
-extern crate colored; // Allows outputting pretty terminal colors.
-extern crate opltypes; // Used for determining MeetPath for CONFIG.toml files.
-extern crate rayon; // A work-stealing auto-parallelism library.
-extern crate walkdir; // Allows walking through a directory, looking at files.
-
-use checker::{compiler, AllMeetData, SingleMeetData};
+use checker::report_count::ReportCount;
+use checker::{compiler, disambiguator, AllMeetData, SingleMeetData};
 use colored::*;
+use opltypes::Username;
 use rayon::prelude::*;
 use walkdir::{DirEntry, WalkDir};
 
 use std::collections::BTreeMap;
 use std::env;
 use std::error::Error;
+use std::ffi::OsString;
 use std::fs;
 use std::io::{self, Write};
 use std::path::{Path, PathBuf};
 use std::process;
 use std::sync::atomic::{AtomicUsize, Ordering};
-use std::time;
+use std::time::Instant;
+
+#[cfg(feature = "jemalloc")]
+#[global_allocator]
+static GLOBAL: jemallocator::Jemalloc = jemallocator::Jemalloc;
 
 /// Stores user-specified arguments from the command line.
 struct Args {
@@ -28,6 +29,9 @@ struct Args {
 
     /// Prints debug info for a single lifter's Age.
     debug_age_username: Option<String>,
+
+    /// Prints age data for a username grouped by consistency
+    debug_age_group_username: Option<String>,
 
     /// Prints debug info for a single lifter's Country.
     debug_country_username: Option<String>,
@@ -42,20 +46,19 @@ struct Args {
     compile_onefile: bool,
 
     /// Any remaining unrecognized arguments.
-    free: Vec<String>,
+    free: Vec<OsString>,
 }
 
 // For purposes of testing, a meet directory is any directory containing
 // either of the files "entries.csv" or "meet.csv".
 fn is_meetdir(entry: &DirEntry) -> bool {
     entry.file_type().is_dir()
-        && (entry.path().join("entries.csv").exists()
-            || entry.path().join("meet.csv").exists())
+        && (entry.path().join("entries.csv").exists() || entry.path().join("meet.csv").exists())
 }
 
 /// Determines the project root from the binary path.
-fn get_project_root() -> Result<PathBuf, Box<dyn Error>> {
-    const ERR: &str = "get_project_root() ran out of parent directories";
+fn project_root() -> Result<PathBuf, Box<dyn Error>> {
+    const ERR: &str = "project_root() ran out of parent directories";
     Ok(env::current_exe()? // root/target/release/binary
         .parent()
         .ok_or(ERR)? // root/target/release
@@ -87,15 +90,16 @@ fn write_report(handle: &mut io::StdoutLock, report: checker::Report) {
 }
 
 /// Outputs a final summary line.
-fn print_summary(error_count: usize, warning_count: usize, search_root: &Path) {
+fn print_summary(report_count: ReportCount, search_root: &Path) {
+    let error_count = report_count.errors();
+    let warning_count = report_count.warnings();
+
     let error_str = format!(
-        "{} error{}",
-        error_count,
+        "{error_count} error{}",
         if error_count == 1 { "" } else { "s" }
     );
     let warning_str = format!(
-        "{} warning{}",
-        warning_count,
+        "{warning_count} warning{}",
         if warning_count == 1 { "" } else { "s" }
     );
 
@@ -120,7 +124,7 @@ fn print_summary(error_count: usize, warning_count: usize, search_root: &Path) {
         String::new()
     };
 
-    println!("Summary: {}, {}{}", error_str, warning_str, partial_str);
+    println!("Summary: {error_str}, {warning_str}{partial_str}");
 }
 
 /// Map of federation folder, e.g., "ipf", to Config.
@@ -130,11 +134,11 @@ type ConfigMap = BTreeMap<String, checker::Config>;
 ///
 /// Returns a map of (path -> Config) on success, or (errors, warnings) on
 /// failure.
-fn get_configurations(meet_data_root: &Path) -> Result<ConfigMap, (usize, usize)> {
+fn configurations(meet_data_root: &Path) -> Result<ConfigMap, ReportCount> {
     let mut configmap = ConfigMap::new();
 
     // Look at federation directories at depth 1, like "meet-data/usapl".
-    let fed_iter = WalkDir::new(&meet_data_root)
+    let fed_iter = WalkDir::new(meet_data_root)
         .min_depth(1)
         .max_depth(1)
         .into_iter();
@@ -142,7 +146,7 @@ fn get_configurations(meet_data_root: &Path) -> Result<ConfigMap, (usize, usize)
     // Look at meet-data/mags specially, allowing CONFIG.toml files in
     // subdirectories.
     let mags_data_root = meet_data_root.join("mags");
-    let mags_iter = WalkDir::new(&mags_data_root)
+    let mags_iter = WalkDir::new(mags_data_root)
         .min_depth(1)
         .max_depth(1)
         .into_iter();
@@ -163,8 +167,7 @@ fn get_configurations(meet_data_root: &Path) -> Result<ConfigMap, (usize, usize)
     let stdout = io::stdout();
     let mut handle = stdout.lock();
 
-    let mut error_count: usize = 0;
-    let mut warning_count: usize = 0;
+    let mut overall_report_count = ReportCount::default();
 
     // Parse each CONFIG.toml and file it in a hashmap.
     for configpath in configs {
@@ -174,10 +177,10 @@ fn get_configurations(meet_data_root: &Path) -> Result<ConfigMap, (usize, usize)
         match checker::check_config(configpath) {
             Ok(result) => {
                 // Tally up and output and errors and warnings.
-                let (errors, warnings) = result.report.count_messages();
-                if errors > 0 || warnings > 0 {
-                    error_count += errors;
-                    warning_count += warnings;
+                let report_count = result.report.count_messages();
+
+                if report_count.any() {
+                    overall_report_count += report_count;
                     write_report(&mut handle, result.report);
                 }
 
@@ -189,7 +192,13 @@ fn get_configurations(meet_data_root: &Path) -> Result<ConfigMap, (usize, usize)
                         }
                         Err(e) => {
                             println!(" Internal Error: {}", e.to_string().bold().red());
-                            return Err((error_count + 1, warning_count));
+
+                            let report_count = ReportCount::new(
+                                overall_report_count.errors() + 1,
+                                overall_report_count.warnings(),
+                            );
+
+                            return Err(report_count);
                         }
                     };
                 }
@@ -197,32 +206,38 @@ fn get_configurations(meet_data_root: &Path) -> Result<ConfigMap, (usize, usize)
             Err(e) => {
                 println!("{}", sourcefile.as_path().to_str().unwrap());
                 println!(" Internal Error: {}", e.to_string().bold().red());
-                return Err((error_count + 1, warning_count));
+
+                let report_count = ReportCount::new(
+                    overall_report_count.errors() + 1,
+                    overall_report_count.warnings(),
+                );
+
+                return Err(report_count);
             }
         }
     }
 
     // If there were errors, don't return anything.
-    if error_count > 0 {
-        Err((error_count, warning_count))
+    if overall_report_count.any() {
+        Err(overall_report_count)
     } else {
         Ok(configmap)
     }
 }
 
 /// If a boolean is true, gathers timing information.
-fn get_instant_if(b: bool) -> Option<time::Instant> {
-    if b {
-        Some(time::Instant::now())
-    } else {
-        None
-    }
+fn instant_if(b: bool) -> Option<Instant> {
+    b.then(Instant::now)
 }
 
 /// Prints the elapsed time with the given prefix, if available.
-fn maybe_print_elapsed_for(pass: &str, instant: Option<time::Instant>) {
+fn maybe_print_elapsed_for(pass: &str, instant: Option<Instant>) {
     if let Some(instant) = instant {
-        println!(" {}: {:?}", pass.bold().cyan(), instant.elapsed());
+        let pass = pass.bold().cyan();
+        let elapsed_millis = instant.elapsed().as_millis();
+        let whole_seconds = elapsed_millis / 1000;
+        let fractional_millis = elapsed_millis % 1000;
+        println!(" {pass}: {whole_seconds}.{fractional_millis:03}s");
     }
 }
 
@@ -243,6 +258,7 @@ FLAGS:
 
 OPTIONS:
         --age <username>        Prints age debug info for the given username
+        --age-group <username>  Prints disambugation age debug info for the given username
         --country <username>    Prints country debug info for the given username
         --timing                Prints timing information for compiler phases
 
@@ -261,11 +277,12 @@ fn main() -> Result<(), Box<dyn Error>> {
     let args = Args {
         help: args.contains(["-h", "--help"]),
         debug_age_username: args.opt_value_from_str("--age")?,
+        debug_age_group_username: args.opt_value_from_str("--age-group")?,
         debug_country_username: args.opt_value_from_str("--country")?,
         debug_timing: args.contains("--timing"),
         compile: args.contains(["-c", "--compile"]),
         compile_onefile: args.contains(["-1", "--compile-onefile"]),
-        free: args.free()?,
+        free: args.finish(),
     };
 
     // If the help message was requested, display it and exit immediately.
@@ -274,19 +291,14 @@ fn main() -> Result<(), Box<dyn Error>> {
         return Ok(());
     }
 
-    let program_start = get_instant_if(args.debug_timing);
+    let program_start = instant_if(args.debug_timing);
 
     // Get handles to various parts of the project.
-    let project_root = get_project_root()?;
+    let project_root = project_root()?;
     let meet_data_root = project_root.join("meet-data");
     if !meet_data_root.exists() {
         panic!("Path '{}' does not exist", meet_data_root.to_str().unwrap());
     }
-
-    // Validate arguments.
-    let is_compiling: bool = args.compile || args.compile_onefile;
-    let is_debugging: bool =
-        args.debug_age_username.is_some() || args.debug_country_username.is_some();
 
     // Any free argument is interpreted as a folder for limiting checking scope.
     let search_root = if args.free.is_empty() {
@@ -299,21 +311,28 @@ fn main() -> Result<(), Box<dyn Error>> {
             Ok(p) => p,
             Err(e) => {
                 let msg = full_path.to_str().unwrap();
-                println!("{}: {}", msg, e);
+                println!("{msg}: {e}");
                 process::exit(1);
             }
         }
     };
 
-    let timing = get_instant_if(args.debug_timing);
-    let configmap = match get_configurations(&meet_data_root) {
+    // Validate arguments.
+    let is_compiling: bool = args.compile || args.compile_onefile;
+    let is_debugging: bool = args.debug_age_username.is_some()
+        || args.debug_country_username.is_some()
+        || args.debug_age_group_username.is_some();
+    let is_partial: bool = !search_root.ends_with("meet-data");
+
+    let timing = instant_if(args.debug_timing);
+    let configmap = match configurations(&meet_data_root) {
         Ok(configmap) => configmap,
-        Err((errors, warnings)) => {
-            print_summary(errors, warnings, &search_root);
+        Err(report_count) => {
+            print_summary(report_count, &search_root);
             process::exit(1);
         }
     };
-    maybe_print_elapsed_for("get_configurations()", timing);
+    maybe_print_elapsed_for("Loaded configurations for federations", timing);
 
     let error_count = AtomicUsize::new(0);
     let warning_count = AtomicUsize::new(0);
@@ -321,14 +340,22 @@ fn main() -> Result<(), Box<dyn Error>> {
     // Unexpected errors that occurred while reading files.
     let internal_error_count = AtomicUsize::new(0);
 
+    // Compile the CSV parser early.
+    // Doing this just once significantly increases performance.
+    let reader: csv::ReaderBuilder = checker::checklib::compile_csv_reader();
+
     // Check the lifter-data/ files.
-    let timing = get_instant_if(args.debug_timing);
-    let result = checker::check_lifterdata(&project_root.join("lifter-data"));
+    let timing = instant_if(args.debug_timing);
+    let result = checker::check_lifterdata(&reader, &project_root.join("lifter-data"));
     for report in result.reports {
-        let (errors, warnings) = report.count_messages();
+        let report_count = report.count_messages();
+        let errors = report_count.errors();
+        let warnings = report_count.warnings();
+
         if errors > 0 {
             error_count.fetch_add(errors, Ordering::SeqCst);
         }
+
         if warnings > 0 {
             warning_count.fetch_add(warnings, Ordering::SeqCst);
         }
@@ -340,15 +367,15 @@ fn main() -> Result<(), Box<dyn Error>> {
             write_report(&mut handle, report);
         }
     }
-    let lifterdata = result.map;
-    maybe_print_elapsed_for("check_lifterdata()", timing);
+    let mut lifterdata = result.map;
+    maybe_print_elapsed_for("Validated the state of `lifter-data`", timing);
 
     // Build a list of every directory containing meet results.
-    let timing = get_instant_if(args.debug_timing);
+    let timing = instant_if(args.debug_timing);
     let meetdirs: Vec<DirEntry> = WalkDir::new(&search_root)
         .into_iter()
         .filter_map(Result::ok)
-        .filter(|entry| is_meetdir(entry))
+        .filter(is_meetdir)
         .collect();
 
     // Iterate in parallel over each meet directory and apply checks.
@@ -361,16 +388,16 @@ fn main() -> Result<(), Box<dyn Error>> {
             let config = configmap.get(&meetpath);
 
             // Check the meet.
-            match checker::check(dir.path(), config, Some(&lifterdata)) {
+            match checker::check(&reader, dir.path(), config, Some(&lifterdata)) {
                 Ok(checkresult) => {
                     let reports = checkresult.reports;
                     // Count how many new errors and warnings were generated.
                     let mut local_errors = 0;
                     let mut local_warnings = 0;
                     for report in &reports {
-                        let (errors, warnings) = report.count_messages();
-                        local_errors += errors;
-                        local_warnings += warnings;
+                        let report_count = report.count_messages();
+                        local_errors += report_count.errors();
+                        local_warnings += report_count.warnings();
                     }
 
                     // Update the global error and warning counts.
@@ -392,9 +419,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 
                     // Map to the SingleMeetData for collection.
                     match (checkresult.meet, checkresult.entries) {
-                        (Some(meet), Some(entries)) => {
-                            Some(SingleMeetData { meet, entries })
-                        }
+                        (Some(meet), Some(entries)) => Some(SingleMeetData { meet, entries }),
                         _ => None,
                     }
                 }
@@ -402,8 +427,7 @@ fn main() -> Result<(), Box<dyn Error>> {
                     internal_error_count.fetch_add(1, Ordering::SeqCst);
                     let stderr = io::stderr();
                     let mut handle = stderr.lock();
-                    let _ = handle
-                        .write_fmt(format_args!("{}\n", dir.path().to_str().unwrap()));
+                    let _ = handle.write_fmt(format_args!("{}\n", dir.path().to_str().unwrap()));
                     let _ = handle.write_fmt(format_args!(
                         " Internal Error: {}\n",
                         e.to_string().bold().red()
@@ -413,100 +437,47 @@ fn main() -> Result<(), Box<dyn Error>> {
             }
         })
         .collect();
-    maybe_print_elapsed_for("csv checking", timing);
+    maybe_print_elapsed_for("Validated all meet CSV files", timing);
 
     // Give ownership to the permanent data store.
     let mut meetdata = AllMeetData::from(singlemeets);
 
     // Move out of atomics.
-    let mut error_count = error_count.load(Ordering::SeqCst);
-    let warning_count = warning_count.load(Ordering::SeqCst);
+    let mut report_count = ReportCount::new(
+        error_count.load(Ordering::SeqCst),
+        warning_count.load(Ordering::SeqCst),
+    );
+
     let internal_error_count = internal_error_count.load(Ordering::SeqCst);
 
-    // Check for username errors.
-    // FIXME: This adds a whole second to the checker time.
-    // FIXME: Lifetimes are really making this harder than it should be.
-    // FIXME: Otherwise we could just do the checking in create_liftermap().
-    let timing = get_instant_if(args.debug_timing);
-    let liftermap = meetdata.create_liftermap();
-    for lifter_indices in liftermap.values() {
-        let name = &meetdata.get_entry(lifter_indices[0]).name;
+    // Group entries by lifter.
+    let timing = instant_if(args.debug_timing);
+    let mut liftermap = meetdata.create_liftermap();
+    maybe_print_elapsed_for("Created the map of lifters", timing);
 
-        // Check for sex errors.
-        //
-        // Skip over users with lastname-only or initial-plus-lastname.
-        if name.contains(' ')
-            && name.chars().skip(1).take(1).collect::<Vec<char>>() != ['.']
-        {
-            let expected_sex = meetdata.get_entry(lifter_indices[0]).sex;
-            for index in lifter_indices.iter().skip(1) {
-                let sex = meetdata.get_entry(*index).sex;
-                if sex != expected_sex {
-                    let mut suppress_error = false;
+    // Check for consistency errors for individual lifters.
+    let timing = instant_if(args.debug_timing);
+    for report in checker::consistency::check(&liftermap, &meetdata, &lifterdata, is_partial) {
+        report_count += report.count_messages();
 
-                    let username = &meetdata.get_entry(*index).username;
-                    if let Some(data) = lifterdata.get(username) {
-                        if data.exempt_sex {
-                            suppress_error = true;
-                        }
-                    }
-
-                    if !suppress_error {
-                        let url =
-                            format!("https://www.openpowerlifting.org/u/{}", username);
-                        let msg = format!("Sex conflict for '{}' - {}", name, url);
-                        println!(" {}", msg.bold().red());
-                        error_count += 1;
-                    }
-                    break;
-                }
-            }
-        }
-
-        let mut japanesename = &meetdata.get_entry(lifter_indices[0]).japanesename;
-
-        for index in lifter_indices.iter().skip(1) {
-            let entry = &meetdata.get_entry(*index);
-
-            // The Name field must exactly match for the same username.
-            if name != &entry.name {
-                let msg = format!(
-                    "Conflict for '{}': '{}' vs '{}'",
-                    entry.username, name, entry.name
-                );
-                println!(" {}", msg.bold().red());
-                error_count += 1;
-            }
-
-            // If this is the first time seeing a JapaneseName, remember it.
-            if japanesename.is_none() && entry.japanesename.is_some() {
-                japanesename = &entry.japanesename;
-            }
-
-            // Otherwise, they should match.
-            if let Some(jp_name) = japanesename {
-                if let Some(entry_jp_name) = &entry.japanesename {
-                    if jp_name != entry_jp_name {
-                        let msg = format!(
-                            "Conflict for {}: '{}' vs '{}'",
-                            entry.username, jp_name, entry_jp_name
-                        );
-                        println!(" {}", msg.bold().red());
-                        error_count += 1;
-                    }
-                }
-            }
+        if report.has_messages() {
+            let stdout = io::stdout();
+            let mut handle = stdout.lock();
+            write_report(&mut handle, report);
         }
     }
-    maybe_print_elapsed_for("liftermap", timing);
+    maybe_print_elapsed_for("Checked the data for consistency issues", timing);
 
     // The default mode without arguments just performs data checks.
     print_summary(
-        error_count + internal_error_count,
-        warning_count,
+        ReportCount::new(
+            report_count.errors() + internal_error_count,
+            report_count.warnings(),
+        ),
         &search_root,
     );
-    if error_count > 0 || internal_error_count > 0 {
+
+    if report_count.errors() > 0 || internal_error_count > 0 {
         process::exit(1);
     }
 
@@ -514,19 +485,29 @@ fn main() -> Result<(), Box<dyn Error>> {
     if is_compiling || is_debugging {
         // Perform country interpolation.
         if let Some(u) = args.debug_country_username {
+            let u = Username::from_name(&u).unwrap();
             compiler::interpolate_country_debug_for(&mut meetdata, &liftermap, &u);
             process::exit(0); // TODO: Complain if someone passes --compile.
         }
-        let timing = get_instant_if(args.debug_timing);
+        let timing = instant_if(args.debug_timing);
         compiler::interpolate_country(&mut meetdata, &liftermap);
         maybe_print_elapsed_for("interpolate_country", timing);
 
         // Perform age interpolation.
         if let Some(u) = args.debug_age_username {
+            let u = Username::from_name(&u).unwrap();
             compiler::interpolate_age_debug_for(&mut meetdata, &liftermap, &u);
             process::exit(0); // TODO: Complain if someone passes --compile.
         }
-        let timing = get_instant_if(args.debug_timing);
+
+        // Find age groupings.
+        if let Some(u) = args.debug_age_group_username {
+            let u = Username::from_name(&u).unwrap();
+            disambiguator::group_age_debug_for(&mut meetdata, &liftermap, &u);
+            process::exit(0); // TODO: Complain if someone passes --compile.
+        }
+
+        let timing = instant_if(args.debug_timing);
         compiler::interpolate_age(&mut meetdata, &liftermap);
         maybe_print_elapsed_for("interpolate_age", timing);
     }
@@ -538,18 +519,64 @@ fn main() -> Result<(), Box<dyn Error>> {
             fs::create_dir(&buildpath)?;
         }
 
+        // Right before compilation, perform privacy redaction.
+        compiler::redact(&mut meetdata, &mut liftermap, &mut lifterdata);
+
         if args.compile {
-            let timing = get_instant_if(args.debug_timing);
+            let timing = instant_if(args.debug_timing);
             compiler::make_csv(&meetdata, &lifterdata, &buildpath)?;
             maybe_print_elapsed_for("make_csv", timing);
         }
         if args.compile_onefile {
-            let timing = get_instant_if(args.debug_timing);
+            let timing = instant_if(args.debug_timing);
             compiler::make_onefile_csv(&meetdata, &buildpath)?;
             maybe_print_elapsed_for("make_onefile_csv", timing);
         }
     }
 
-    maybe_print_elapsed_for("total", program_start);
-    Ok(())
+    maybe_print_elapsed_for("Total time spent overall", program_start);
+
+    // Output a cheap memory profile on process exit if jemalloc is used.
+    #[cfg(feature = "jemalloc")]
+    if args.debug_timing {
+        /// Takes a reading of jemalloc's internal "active bytes" counter.
+        fn measure_bytes() -> usize {
+            let epoch_handle = jemalloc_ctl::epoch::mib().unwrap();
+            let active_handle = jemalloc_ctl::stats::active::mib().unwrap();
+
+            // Advancing the epoch updates statistics.
+            epoch_handle.advance().unwrap();
+            active_handle.read().unwrap()
+        }
+
+        /// Measures the memory footprint of a data structure without depending on
+        /// accurate internal accounting.
+        ///
+        /// This works by taking a measurement, dropping the data structure, and taking
+        /// a new measurement afterward. The delta between the two is the memory footprint
+        /// of that data structure.
+        fn measure_bytes_by_consuming<T: 'static>(t: T) -> usize {
+            let initial_bytes = measure_bytes();
+            drop(t);
+            initial_bytes - measure_bytes()
+        }
+
+        let initial_bytes = measure_bytes();
+        println!(" Allocations at exit: {}MiB", initial_bytes / 1024 / 1024);
+
+        let meetdata_bytes = measure_bytes_by_consuming(meetdata);
+        println!(" meetdata: {}MiB", meetdata_bytes / 1024 / 1024);
+
+        let lifterdata_bytes = measure_bytes_by_consuming(lifterdata);
+        println!(" lifterdata: {}MiB", lifterdata_bytes / 1024 / 1024);
+
+        let liftermap_bytes = measure_bytes_by_consuming(liftermap);
+        println!(" liftermap: {}MiB", liftermap_bytes / 1024 / 1024);
+
+        let unaccounted_bytes = measure_bytes();
+        println!(" unaccounted: {}MiB", unaccounted_bytes / 1024 / 1024);
+    }
+
+    // Skip dropping owned allocations: takes too long.
+    process::exit(0);
 }

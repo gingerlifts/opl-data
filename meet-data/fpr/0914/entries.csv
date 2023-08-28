@@ -21,13 +21,13 @@ Place,Name,CyrillicName,BirthYear,WeightClassKg,BodyweightKg,Bench1Kg,Bench2Kg,B
 1,Olga Kazankevich,Ольга Казанкевич,1974,67.5,66.2,80,-85,85,85,85,F,Paralympics,B,Raw
 2,Tamara Kartasheva,Тамара Карташева,1962,67.5,60.15,65,70,-72.5,70,70,F,Paralympics,B,Raw
 3,Valeriya Marukhno,Валерия Марухно,1993,67.5,60.4,37.5,42.5,-45,42.5,42.5,F,Paralympics,B,Raw
-1,Olga Kiseleva,Ольга Киселева,1966,75,74.7,97.5,-102.5,-102.5,97.5,97.5,F,Paralympics,B,Raw
+1,Olga Kiseleva,Ольга Киселёва,1966,75,74.7,97.5,-102.5,-102.5,97.5,97.5,F,Paralympics,B,Raw
 2,Olga Sergienko,Ольга Сергиенко,1971,75,73.55,80,87.5,-97.5,87.5,87.5,F,Paralympics,B,Raw
 3,Marina Galushko,Марина Галушко,1966,75,70.35,72.5,77.5,82.5,82.5,82.5,F,Paralympics,B,Raw
 4,Galina Sokolova,Галина Соколова,1962,75,68.35,65,67.5,-70,67.5,67.5,F,Paralympics,B,Raw
 5,Anastasiya Makarova #2,Анастасия Макарова,1980,75,71,52.5,55,-57.5,55,55,F,Paralympics,B,Raw
 1,Tatyana Smirnova,Татьяна Смирнова,1956,82.5,76.35,80,83.5,87.5,87.5,87.5,F,Paralympics,B,Raw
-2,Natalya Kirilova,Наталья Кирилова,1977,82.5,79.4,75,-80,-80,75,75,F,Paralympics,B,Raw
+2,Natalya Kirilova #1,Наталья Кирилова,1977,82.5,79.4,75,-80,-80,75,75,F,Paralympics,B,Raw
 3,Larisa Semyonova,Лариса Семёнова,1962,82.5,82.4,65,70,72.5,72.5,72.5,F,Paralympics,B,Raw
 1,Olga Bunina,Ольга Бунина,1971,82.5+,85.75,65,80,-85,80,80,F,Paralympics,B,Raw
 2,Anastasiya Sokolkova,Анастасия Соколкова,1981,82.5+,101.95,70,75,77.5,77.5,77.5,F,Paralympics,B,Raw
@@ -66,7 +66,7 @@ DQ,Sergey Kazantsev,Сергей Казанцев,1978,60,58.35,-95,-95,-95,,,M,
 7,Yuriy Urubkov,Юрий Урубков,1968,67.5,65.9,-95,95,-100,95,95,M,Paralympics,B,Raw
 8,Nikolay Lyakhanov,Николай Ляханов,1985,67.5,63.85,-45,45,-50,45,45,M,Paralympics,B,Raw
 DQ,Aleksandr Budylin,Александр Будылин,1984,67.5,60.05,,,,,,M,Paralympics,B,Raw
-1,Sergey Sychyov,Сергей Сычёв,1978,75,70.1,195,202.5,-207.5,202.5,202.5,M,Paralympics,B,Raw
+1,Sergey Sychev #1,Сергей Сычев,1978,75,70.1,195,202.5,-207.5,202.5,202.5,M,Paralympics,B,Raw
 2,Maksim Bogdanov,Максим Богданов,1980,75,72.25,150,160,162.5,162.5,162.5,M,Paralympics,B,Raw
 3,Fanis Mullakhmetov,Фанис Муллахметов,1956,75,73.2,-162.5,-162.5,162.5,162.5,162.5,M,Paralympics,B,Raw
 4,Evgeniy Bukreev,Евгений Букреев,1984,75,73.45,-140,-140,145,145,145,M,Paralympics,B,Raw
@@ -85,7 +85,7 @@ DQ,Aleksandr Apokatonidis,Александр Апокатонидис,1973,82.5,
 2,Konstantin Pesegov,Константин Песегов,1973,90,84.5,145,150,-152.5,150,150,M,Paralympics,B,Raw
 3,Sergey Shapovalov,Сергей Шаповалов,1972,90,84.3,120,-130,-135,120,120,M,Paralympics,B,Raw
 4,Aleksandr Zelentsov,Александр Зеленцов,1977,90,86.4,-120,-120,120,120,120,M,Paralympics,B,Raw
-5,Aleksandr Berezin,Александр Березин,1991,90,82.95,90,95,-100,95,95,M,Paralympics,B,Raw
+5,Aleksandr Berezin #2,Александр Березин,1991,90,82.95,90,95,-100,95,95,M,Paralympics,B,Raw
 6,Mikhail Makarov,Михаил Макаров,1963,90,83.6,90,-100,-100,90,90,M,Paralympics,B,Raw
 7,Vyacheslav Petrushin,Вячеслав Петрушин,1969,90,86.4,90,-100,-100,90,90,M,Paralympics,B,Raw
 DQ,Andrey Kotov,Андрей Котов,1973,90,86.8,-140,-140,-140,,,M,Paralympics,B,Raw
@@ -122,4 +122,4 @@ DQ,Sergey Rochev,Сергей Рочев,1971,100,90.01,,,,,,M,Paralympics,B,Raw
 3,Artyom Nikiforov,Артём Никифоров,1987,60,59.2,65,70,75,75,75,M,Paralympic Juniors,B,Raw
 1,Soslan Togoev,Сослан Тогоев,1986,75,73.2,110,115,-120,115,115,M,Paralympic Juniors,B,Raw
 2,Maksim Kozyrev,Максим Козырев,1987,75,68.4,95,100,105,105,105,M,Paralympic Juniors,B,Raw
-1,Aleksandr Berezin,Александр Березин,1991,90,82.95,90,95,-100,95,95,M,Paralympic Juniors,B,Raw
+1,Aleksandr Berezin #2,Александр Березин,1991,90,82.95,90,95,-100,95,95,M,Paralympic Juniors,B,Raw

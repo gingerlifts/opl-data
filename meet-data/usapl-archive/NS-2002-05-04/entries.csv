@@ -24,8 +24,8 @@ Joe Rizza,205,82.5,205,492.5,75,M-M2a,M,Single-ply,SBD,2
 Jeff Jacobs,200,132.5,217.5,550,75,M-M2b,M,Single-ply,SBD,1
 Jim Yates,192.5,112.5,230,535,75,M-M2b,M,Single-ply,SBD,2
 George Bartotti,137.5,122.5,192.5,452.5,75,M-M2b,M,Single-ply,SBD,3
-Jack Wolf,130,87.5,180,397.5,75,M-M3a,M,Single-ply,SBD,1
-James Lyons,147.5,87.5,157.5,392.5,75,M-M3a,M,Single-ply,SBD,2
+Jack Wolff #1,130,87.5,180,397.5,75,M-M3a,M,Single-ply,SBD,1
+Jim Lyons,147.5,87.5,157.5,392.5,75,M-M3a,M,Single-ply,SBD,2
 Hurley Meeks,42.5,115,60,217.5,75,M-M3b,M,Single-ply,SBD,1
 Daniel Goodwin #1,80,75,140,295,75,M-M4a,M,Single-ply,SBD,1
 Pat Beaumaster,275,185,250,710,82.5,M-M1a,M,Single-ply,SBD,1
@@ -48,7 +48,7 @@ Jim Wold,187.5,127.5,220,535,82.5,M-M2b,M,Single-ply,SBD,2
 Mike Scott #2,180,107.5,217.5,505,82.5,M-M2b,M,Single-ply,SBD,3
 Jim Kiser,175,70,152.5,397.5,82.5,M-M2b,M,Single-ply,SBD,4
 Ed Wettach,182.5,115,227.5,525,82.5,M-M3a,M,Single-ply,SBD,1
-Bill Player,185,,,185,82.5,M-M3a,M,Single-ply,S,1
+William Player,185,,,185,82.5,M-M3a,M,Single-ply,S,1
 Ron Ringewold,187.5,95,220,502.5,82.5,M-M3b,M,Single-ply,SBD,1
 Eugene McCulloch,145,90,155,390,82.5,M-M4a,M,Single-ply,SBD,1
 Ben Creech,95,52.5,117.5,265,82.5,M-M4a,M,Single-ply,SBD,2
@@ -93,8 +93,8 @@ Rich Coppins,175,125,247.5,547.5,100,M-M2a,M,Single-ply,SBD,1
 Robert Morton,177.5,120,202.5,500,100,M-M2a,M,Single-ply,SBD,2
 Knud Hansen,205,165,180,550,100,M-M2b,M,Single-ply,SBD,1
 Vince White,150,130,125,405,100,M-M2b,M,Single-ply,SBD,2
-Stan Chatis,200,140,230,570,100,M-M3a,M,Single-ply,SBD,1
-Shawn Cain,300,217.5,320,837.5,110,M-M1a,M,Single-ply,SBD,1
+Stan Chatis,200,140,230,570,100,M-M3b,M,Single-ply,SBD,1
+Shawn Cain,300,217.5,320,837.5,110,M-M1b,M,Single-ply,SBD,1
 Dave Gonzales,317.5,220,300,837.5,110,M-M1a,M,Single-ply,SBD,2
 Richard Davis,300,160,320,780,110,M-M1a,M,Single-ply,SBD,3
 Gary Pamplin,295,210,240,745,110,M-M1a,M,Single-ply,SBD,4
@@ -122,7 +122,7 @@ Darrell Bowie,275,155,275,705,125,M-M1a,M,Single-ply,SBD,5
 Brian Bajsert,227.5,182.5,295,705,125,M-M1a,M,Single-ply,SBD,6
 Steve Johnson #1,217.5,185,215,617.5,125,M-M1a,M,Single-ply,SBD,7
 Steve Howard,245,152.5,217.5,615,125,M-M1b,M,Single-ply,SBD,1
-Michael Berg,252.5,165,250,667.5,125,M-M2a,M,Single-ply,SBD,1
+Mike Berg,252.5,165,250,667.5,125,M-M2a,M,Single-ply,SBD,1
 Albert Wood,170,167.5,210,547.5,125,M-M2a,M,Single-ply,SBD,2
 Will Morris,275,200,252.5,727.5,125,M-M2b,M,Single-ply,SBD,1
 Joe Gourley,220,122.5,240,582.5,125,M-M2b,M,Single-ply,SBD,2
@@ -131,7 +131,7 @@ Robert Grisham,237.5,125,217.5,580,125,M-M3a,M,Single-ply,SBD,2
 Daniel Gaudreau,327.5,240,295,862.5,125+,M-M1a,M,Single-ply,SBD,1
 Carl Schmit,187.5,122.5,187.5,497.5,125+,M-M1a,M,Single-ply,SBD,2
 Kevin Anderson,285,195,262.5,742.5,125+,M-M1b,M,Single-ply,SBD,1
-Robert Smith,235,177.5,230,642.5,125+,M-M1b,M,Single-ply,SBD,2
+Robert Smith #3,235,177.5,230,642.5,125+,M-M1b,M,Single-ply,SBD,2
 Brent McCune,275,165,275,715,125+,M-M2b,M,Single-ply,SBD,1
 CJ Batten,212.5,180,192.5,585,125+,M-M2b,M,Single-ply,SBD,2
 Don Martin,177.5,115,227.5,520,125+,M-M3a,M,Single-ply,SBD,1

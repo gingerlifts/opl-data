@@ -22,7 +22,7 @@ Eliot Feldman,90,242.5,125,252.5,620,M,M-M1a,SBD,Single-ply,9
 Ted Longo,90,207.5,125,212.5,545,M,M-M1a,SBD,Single-ply,10
 Bill Hawkins,90,,,,,M,M-M1a,SBD,Single-ply,DQ
 Richard Wenner,100,275,210,285,770,M,M-M1a,SBD,Single-ply,1
-Jason Burnell,100,282.5,192.5,292.5,767.5,M,M-M1a,SBD,Single-ply,2
+Jason Burnell #1,100,282.5,192.5,292.5,767.5,M,M-M1a,SBD,Single-ply,2
 John Hanson,100,237.5,150,220,607.5,M,M-M1a,SBD,Single-ply,3
 Todd Ruppert,100,200,152.5,240,592.5,M,M-M1a,SBD,Single-ply,4
 Jerry Blanco,100,180,145,205,530,M,M-M1a,SBD,Single-ply,5
@@ -73,7 +73,7 @@ Floyd Frank,90,177.5,132.5,205,515,M,M-M1b,SBD,Single-ply,9
 Steve Heyl,90,200,,210,,M,M-M1b,SBD,Single-ply,DQ
 Scott Roberts,100,320,197.5,290,807.5,M,M-M1b,SBD,Single-ply,1
 Shawn Cain,100,282.5,190,275,747.5,M,M-M1b,SBD,Single-ply,2
-Mike Lohmann,100,295,175,272.5,742.5,M,M-M1b,SBD,Single-ply,3
+Mike Lohman,100,295,175,272.5,742.5,M,M-M1b,SBD,Single-ply,3
 David Bertier,100,190,130,250,570,M,M-M1b,SBD,Single-ply,4
 Michael Womelsdorf,100,162.5,100,182.5,445,M,M-M1b,SBD,Single-ply,5
 Mark Salansky,100,262.5,,,,M,M-M1b,SBD,Single-ply,DQ
@@ -88,7 +88,7 @@ Derell Bowie,125,280,172.5,272.5,725,M,M-M1b,SBD,Single-ply,2
 Michael Marcotte,125,227.5,160,227.5,615,M,M-M1b,SBD,Single-ply,3
 Samuel Schultz,125,,,,,M,M-M1b,SBD,Single-ply,DQ
 Richard Cech #2,125+,290,222.5,272.5,785,M,M-M1b,SBD,Single-ply,1
-Robert Smith,125+,250,185,245,680,M,M-M1b,SBD,Single-ply,2
+Robert Smith #3,125+,250,185,245,680,M,M-M1b,SBD,Single-ply,2
 Gary Gertner,125+,125,245,165,535,M,M-M1b,SBD,Single-ply,3
 Daniel Gaudreau,125+,362.5,,320,,M,M-M1b,SBD,Single-ply,DQ
 Chuck McGuire,125+,75,,,,M,M-M1b,SBD,Single-ply,DQ
@@ -100,7 +100,7 @@ Arthur Little,75,242.5,132.5,265,640,M,M-M2a,SBD,Single-ply,1
 George Wiltshire,75,250,130,227.5,607.5,M,M-M2a,SBD,Single-ply,2
 Richard Cirigliano,75,,130,,,M,M-M2a,SBD,Single-ply,DQ
 Aaron Byas,82.5,235,145,280,660,M,M-M2a,SBD,Single-ply,1
-Edgar Martinez,82.5,212.5,145,202.5,560,M,M-M2a,SBD,Single-ply,2
+Edgar Martinez #7,82.5,212.5,145,202.5,560,M,M-M2a,SBD,Single-ply,2
 David Barnes,82.5,165,135,182.5,482.5,M,M-M2a,SBD,Single-ply,3
 Gary Ferstler,90,277.5,142.5,292.5,712.5,M,M-M2a,SBD,Single-ply,1
 David Wiley #1,90,257.5,160,240,657.5,M,M-M2a,SBD,Single-ply,2
@@ -141,17 +141,17 @@ Bob Evans #3,100,160,182.5,160,502.5,M,M-M2b,SBD,Single-ply,3
 Crayton Taylor,110,250,172.5,257.5,680,M,M-M2b,SBD,Single-ply,1
 Lloyd Harrod,110,175,110,192.5,477.5,M,M-M2b,SBD,Single-ply,2
 Al Wood,125,200,170,217.5,587.5,M,M-M2b,SBD,Single-ply,1
-Robert Trujillo,60,160,92.5,180,432.5,M,M-M3a,SBD,Single-ply,1
+Robert Trujillo #1,60,160,92.5,180,432.5,M,M-M3a,SBD,Single-ply,1
 Iain Burgess,60,,,,,M,M-M3a,SBD,Single-ply,DQ
 James Yeats,75,200,107.5,245,552.5,M,M-M3a,SBD,Single-ply,1
 Bob Sainati,75,152.5,87.5,202.5,442.5,M,M-M3a,SBD,Single-ply,2
-C. Edward Wettach,82.5,160,127.5,227.5,515,M,M-M3a,SBD,Single-ply,1
+Ed Wettach,82.5,160,127.5,227.5,515,M,M-M3a,SBD,Single-ply,1
 Jim Waters,82.5,147.5,100,200,447.5,M,M-M3a,SBD,Single-ply,2
 Shane O'Neill,90,195,137.5,195,527.5,M,M-M3a,SBD,Single-ply,1
 Dennis Reamy,90,145,92.5,185,422.5,M,M-M3a,SBD,Single-ply,2
 Bill Helmich,100,215,157.5,230,602.5,M,M-M3a,SBD,Single-ply,1
 Jim Evans,110,100,150,200,450,M,M-M3a,SBD,Single-ply,1
-William Morris,125,245,197.5,215,657.5,M,M-M3a,SBD,Single-ply,1
+Will Morris,125,245,197.5,215,657.5,M,M-M3a,SBD,Single-ply,1
 Harry Heyman,125+,192.5,112.5,190,495,M,M-M3a,SBD,Single-ply,1
 Robert Mattison,75,,102.5,180,,M,M-M3b,SBD,Single-ply,DQ
 Jim Lyons,82.5,185,120,185,490,M,M-M3b,SBD,Single-ply,1
@@ -161,7 +161,7 @@ Larry Manly,90,132.5,125,125,382.5,M,M-M3b,SBD,Single-ply,1
 Robert Rood,100,195,152.5,197.5,545,M,M-M3b,SBD,Single-ply,1
 Ray Anselm,100,160,110,160,430,M,M-M3b,SBD,Single-ply,2
 Stan Chatis,110,192.5,137.5,232.5,562.5,M,M-M3b,SBD,Single-ply,1
-Robb Grisham,125,240,142.5,212.5,595,M,M-M3b,SBD,Single-ply,1
+Robert Grisham,125,240,142.5,212.5,595,M,M-M3b,SBD,Single-ply,1
 Dennis Smith #1,56,115,65,152.5,332.5,M,M-M4a,SBD,Single-ply,1
 Dan Goodwin,75,97.5,77.5,137.5,312.5,M,M-M4a,SBD,Single-ply,1
 Raymond Curtis,100,102.5,110,160,372.5,M,M-M4a,SBD,Single-ply,1

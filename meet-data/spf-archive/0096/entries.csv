@@ -1,8 +1,8 @@
 Name,WeightClassKg,BodyweightKg,State,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Sex,Division,Place
 Trish Evans,67.5,62.6,GA,113.4,61.23,147.42,322.05,SBD,Wraps,F,Open,1
 Jance Footit,100,97.52,GA,,,,,SBD,Wraps,M,Open,DQ
-Joey Smith,140,130.09,NC,317.51,206.38,272.16,796.05,SBD,Wraps,M,Open,1
-Joey Smith,140,130.09,NC,317.51,206.38,272.16,796.05,SBD,Wraps,M,Submasters,1
+Joey Smith #1,140,130.09,NC,317.51,206.38,272.16,796.05,SBD,Wraps,M,Open,1
+Joey Smith #1,140,130.09,NC,317.51,206.38,272.16,796.05,SBD,Wraps,M,Submasters,1
 Adam Wade,100,96.71,GA,278.96,136.08,249.48,664.51,SBD,Single-ply,M,Masters 45-49,1
 Nick Benefied,110,104.33,KY,,,,,SBD,Single-ply,M,Masters 45-49,DQ
 Cody Cox,90,89.9,GA,206.38,111.13,195.04,512.56,SBD,Multi-ply,M,Teenage 18-19,1
@@ -15,15 +15,15 @@ Glenn Baggett,100,99.97,TN,,,,,SBD,Multi-ply,M,Pro Open,DQ
 Joe Jester,100,96.52,OH,,,,,SBD,Multi-ply,M,Pro Open,DQ
 Nathan Awad,110,107.23,TN,340.19,206.38,317.51,864.09,SBD,Multi-ply,M,Pro Open,1
 Matthew Christie,110,107.59,GA,,,,,SBD,Multi-ply,M,Pro Open,DQ
-Dave Hoff,118,117.39,OH,467.2,385.55,365.14,1217.9,SBD,Multi-ply,M,Pro Open,1
+Dave Hoff #1,118,117.39,OH,467.2,385.55,365.14,1217.9,SBD,Multi-ply,M,Pro Open,1
 Shawn Breen,118,112.94,IL,,,,,SBD,Multi-ply,M,Pro Open,DQ
 Charles Bailey,125,120.56,FL,469.47,326.59,337.93,1133.98,SBD,Multi-ply,M,Pro Open,2
-Rick Lehoorcade,125,124.74,WA,430.91,299.37,335.66,1065.94,SBD,Multi-ply,M,Pro Open,3
+Ricky Lahourcade,125,124.74,WA,430.91,299.37,335.66,1065.94,SBD,Multi-ply,M,Pro Open,3
 Curt Porter,125,123.83,TN,371.95,235.87,328.85,936.67,SBD,Multi-ply,M,Pro Open,4
 Josh Robinson,125,123.83,TN,,,,,SBD,Multi-ply,M,Pro Open,DQ
 Melton Harrell,82.5,81.74,GA,,95.25,136.08,231.33,BD,Raw,M,Masters 70-74,1
 Matt Millsaps,75,74.84,GA,,147.42,,147.42,B,Raw,M,Open,1
-Chad Holmes,100,97.25,TN,,201.85,,201.85,B,Raw,M,Submasters,1
+Chad Holmes #1,100,97.25,TN,,201.85,,201.85,B,Raw,M,Submasters,1
 John Bible,140+,145.15,TN,,213.19,,213.19,B,Raw,M,Masters 50-54,1
 John Hoskins,140+,140.61,IN,,140.61,,140.61,B,Multi-ply,M,Open,2
 Jack Brown,82.5,82.1,TN,,,,,B,Multi-ply,M,Open,DQ
@@ -36,13 +36,13 @@ Alex Johnson #12,82.5,81.56,MS,,199.58,,199.58,B,Multi-ply,M,Pro Open,1
 Chris Neal,82.5,79.29,MS,,183.7,,183.7,B,Multi-ply,M,Pro Open,2
 Kenneth Millrany,100,99.79,TN,,292.57,,292.57,B,Multi-ply,M,Pro Open,1
 Sam Borrego,100,96.07,IL,,215.46,,215.46,B,Multi-ply,M,Pro Open,2
-Dave Hoff,118,117.39,OH,,385.55,,385.55,B,Multi-ply,M,Pro Open,1
+Dave Hoff #1,118,117.39,OH,,385.55,,385.55,B,Multi-ply,M,Pro Open,1
 JB Hill,125,120.2,TN,,340.19,,340.19,B,Multi-ply,M,Pro Open,2
 Atavis Campbell,125,123.38,TN,,222.26,,222.26,B,Multi-ply,M,Pro Open,4
 Dustin Minks,125,123.92,IN,,,,,B,Multi-ply,M,Pro Open,DQ
 Paul Key,140,136.35,TN,,,,,B,Multi-ply,M,Pro Open,DQ
 Brian Fisher,82.5,81.19,GA,,,188.24,188.24,D,Raw,M,Open,1
-Luke Edwards,125,120.2,OH,,,381.02,381.02,D,Multi-ply,M,Open,1
+Luke Edwards #1,125,120.2,OH,,,381.02,381.02,D,Multi-ply,M,Open,1
 Tin Fox,110,109.77,TN,,,278.96,278.96,D,Multi-ply,M,Police and Fire,1
 Jeffrey Chrissis,90,88.22,,,183.7,,183.7,B,Multi-ply,M,Masters,1
 Tom Boyer,100,97.52,,,158.76,,158.76,B,Raw,M,Open,1
@@ -50,4 +50,4 @@ Tyler Tucker #1,110,108.86,,,197.31,,197.31,B,Multi-ply,M,Open,3
 Nathan Bartell,118,115.67,,,181.44,,181.44,B,Multi-ply,M,Teenage 18-19,1
 Matt Steil,118,,,,217.72,,217.72,B,Multi-ply,M,Open,1
 Jon Shackelford,110,106.59,,,299.37,,299.37,B,Multi-ply,M,Open,1
-Travis Bell,118,116.35,,,335.66,,335.66,B,Multi-ply,M,Pro Open,3
+Travis Bell #1,118,116.35,,,335.66,,335.66,B,Multi-ply,M,Pro Open,3

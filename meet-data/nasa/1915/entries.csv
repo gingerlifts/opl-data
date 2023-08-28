@@ -92,7 +92,7 @@ Place,WeightClassKg,Name,State,Sex,BodyweightKg,Best3SquatKg,Bench4Kg,Best3Bench
 1,100,Randall Henderson,KS,M,93.26,,,160,,287.5,447.5,m2,BD,Raw
 1,110,Ruben Sanchez,TX,M,109.95,,,182.5,,280,462.5,open,BD,Raw
 2,100,Jermaine Lyles,OK,M,91.53,,,205,,192.5,397.5,sm2,BD,Raw
-1,125,Greg Vannatter,NM,M,121.43,,,195,-247.50,237.5,432.5,pure,BD,Raw
+1,125,Greg VanNatter,NM,M,121.43,,,195,-247.50,237.5,432.5,pure,BD,Raw
 1,100,James Newman,WI,M,99.43,,,162.5,,232.5,395,open,BD,Raw
 1,100,James Newman,WI,M,99.43,,,162.5,,232.5,395,sm1,BD,Raw
 1,125,Ronnie Snowton,TX,M,118.02,,,195,,225,420,m2,BD,Raw
@@ -106,14 +106,14 @@ Place,WeightClassKg,Name,State,Sex,BodyweightKg,Best3SquatKg,Bench4Kg,Best3Bench
 1,90,Jason Potts,NM,M,84.82,,,112.5,,195,307.5,sm2,BD,Raw
 1,90,Derek Rohrer,OH,M,88.18,,,140,,165,305,m1,BD,Raw
 1,140,Eddie McDonald Jr,KS,M,136.98,,,155,,182.5,337.5,m3,BD,Raw
-1,125,Richard Baker,IA,M,118.21,,,70,,190,260,m1,BD,Raw
+1,125,Richard Baker #1,IA,M,118.21,,,70,,190,260,m1,BD,Raw
 1,125,Ronnie Snowton,TX,M,118.02,,,195,,,195,bpm2,B,Raw
 1,90,Eric Coleman,KS,M,87.72,,,165,,,165,bpm1,B,Raw
 1,125,Douglas Brown,CO,M,115.44,,,187.5,,,187.5,bpm1,B,Raw
 1,100,Caleb Winey,IA,M,93.71,,,147.5,,,147.5,bpjr,B,Raw
 1,125,Matthew Smith #6,KS,M,110.59,,-156.00,155,,,155,bpsm1,B,Raw
 1,140+,Ben Hamel,MI,M,150.59,,,166,,,166,bpm3,B,Raw
-1,125,Herb Strange,KS,M,115.58,,,77.5,,,77.5,bpm5,B,Raw
+1,125,Herb Strange,KS,M,115.58,,,77.5,,,77.5,bpmp,B,Raw
 1,90,Mark Reynolds,TX,M,86.82,,,157.5,,297,454.5,pure,BD,Raw
 1,100,Nick Birdsong,KS,M,95.35,,,180,,277.5,457.5,sm2,BD,Raw
 1,125,Joseph Brooks,OK,M,113.67,,,165,,312.5,477.5,pure,BD,Raw
@@ -133,7 +133,7 @@ Place,WeightClassKg,Name,State,Sex,BodyweightKg,Best3SquatKg,Bench4Kg,Best3Bench
 1,110,Andrew Sithideth,TX,M,102.87,247.5,,175,,275,697.5,jr,SBD,Wraps
 1,90,Matthew Russell,TN,M,83.55,235,,140,,240,615,jr,SBD,Wraps
 1,110,William Bransford,NM,M,100.97,237.5,,155,,277.5,670,nov,SBD,Wraps
-2,100,J.D. Johnson,KS,M,93.08,192.5,,195,,255,642.5,open,SBD,Wraps
+2,100,JD Johnson,KS,M,93.08,192.5,,195,,255,642.5,open,SBD,Wraps
 2,125,Rupert Prout,NM,M,115.3,230,,150,,317.5,697.5,pure,SBD,Wraps
 1,100,James Newman,WI,M,99.43,250,,162.5,,232.5,645,open,SBD,Wraps
 1,100,James Newman,WI,M,99.43,250,,162.5,,232.5,645,sm1,SBD,Wraps

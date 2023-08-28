@@ -1,5 +1,5 @@
 Sex,Equipment,Name,Age,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,Best3DeadliftKg,TotalKg,Place,Event,Country
-M,Wraps,Aaron Moody,30,M_OCR_WPC,,,,,,,,,,,,,,,,,,,NS,SBD,UK
+M,Wraps,Aaron Moody #1,30,M_OCR_WPC,,,,,,,,,,,,,,,,,,,NS,SBD,UK
 M,Single-ply,Abdelrahman Gaber Sayed,32,M_OES_WPC,,,,,,,,,,,,,,,,,,,NS,SBD,Egypt
 M,Wraps,Abdelrahman Gaber Sayed,32,M_OCR_WPC,,,,,,,,,,,,,,,,,,,NS,SBD,Egypt
 M,Multi-ply,Adam Zevchik,24,M_OEM_WPC,74.4,75,280,-325,-325,,280,60,195,-212.5,,195,182.5,272.5,-282.5,,272.5,747.5,1,SBD,USA
@@ -37,7 +37,7 @@ M,Wraps,Andrzej Roszkowski,38,M_OCR_WPC,,,,,,,,,,,,,,,,,,,NS,SBD,UK
 M,Raw,Andy Richon,19,M_TR_3_WPC,109.1,110,,,,,,,,,,,300,315.5,,,315.5,315.5,1,D,France
 M,Wraps,Andy Richon,19,M_TCR_3_WPC,113,125,200,240,-260,,240,140,-155,-155,,140,-300,300,320.5,-325,320.5,700.5,1,SBD,France
 F,Wraps,Angelica Anastasiou,28,F_OCR_WPC,65.7,67.5,110,-120,130,,130,65,72.5,-77.5,,72.5,130,140,-150,,140,342.5,2,SBD,Finland
-F,Raw,Anna Khudayarov,31,F_OCR_WPC,90.1,90+,187.5,202.5,212.5,,212.5,125,135,142.5,,142.5,190,207.5,220,,220,575,1,SBD,Finland
+F,Raw,Anna Karrila,31,F_OCR_WPC,90.1,90+,187.5,202.5,212.5,,212.5,125,135,142.5,,142.5,190,207.5,220,,220,575,1,SBD,Finland
 F,Multi-ply,Anne Rajala,44,F_MEM_1_WPC,68.9,75,,,,,,110,-120,-122.5,,110,,,,,,110,1,B,Finland
 M,Wraps,Antti Kousa,45,M_MCR_2_WPC,108.9,110,220,235,250,,250,110,115,-120,,115,200,215,225,,225,590,2,SBD,Finland
 M,Multi-ply,Antti Kousa,,M_MEM_2_WPC,,,,,,,,,,,,,,,,,,,NS,D,Finland
@@ -66,7 +66,7 @@ M,Raw,Billy Haavisto,54,M_MR_3_WPC,105.1,110,190,210,220,,220,160,170,-180,,170,
 M,Raw,Billy Haavisto,54,M_MR_3_WPC,106,110,,,,,,160,170,-175,,170,,,,,,170,2,B,Finland
 F,Raw,Boel Hansson,51,F_MR_3_WPC,54.6,56,85,95,102.5,,102.5,50,-55,-55,,50,110,125,142.5,,142.5,295,1,SBD,Sweden
 M,Raw,Boris Laishin,69,M_MR_6_WPC,,,,,,,,,,,,,,,,,,,NS,B,Israel
-M,Raw,Bruno Alves,30,M_OR_WPC,115.4,125,,,,,,230,-235,,,230,,,,,,230,2,B,Portugal
+M,Raw,Bruno Ricardo Ruela Alves,30,M_OR_WPC,115.4,125,,,,,,230,-235,,,230,,,,,,230,2,B,Portugal
 M,Single-ply,Burkhard Steffen,69,M_MES_6_WPC,70.2,75,,,,,,,,,,,120,130,140,,140,140,1,D,Germany
 M,Multi-ply,Byrbotten Morten Andreassen,37,M_OEM_WPC,106.5,110,-375,-375,-375,,,,,,,,,,,,,,DQ,SBD,Norway
 M,Single-ply,Callum Rollo,37,M_OES_WPC,89.9,90,-290,-290,-290,,,,,,,,,,,,,,DQ,SBD,UK
@@ -90,10 +90,10 @@ M,Single-ply,David Campos,25,M_OES_WPC,81.9,82.5,-260,-260,260,,260,150,160,-170
 M,Raw,David Chevron,41,M_OR_WPC,124.8,125,,,,,,,,,,,325,330,-335,,330,330,2,D,France
 M,Wraps,David Chevron,41,M_MCR_1_WPC,124.8,125,240,250,260,,260,150,-160,,,150,300,-330,,,300,710,1,SBD,France
 M,Wraps,David Cross,39,M_OCR_WPC,123.7,125,290,-300,300,,300,165,175,-180,,175,270,285,-300,,285,760,4,SBD,South Africa
-M,Raw,David Gibson,53,M_MR_3_WPC_Disabled,83.2,90,,,,,,140,145,-150,,145,,,,,,145,1,B,UK
-M,Raw,David Gibson,53,M_MR_3_WPC,83.2,90,,,,,,140,145,-150,,145,,,,,,145,2,B,UK
-M,Single-ply,David Gibson,53,M_MES_3_WPC_Disabled,83.3,90,,,,,,155,165,-176.5,,165,,,,,,165,1,B,UK
-M,Single-ply,David Gibson,53,M_OES_WPC_Disabled,83.3,90,,,,,,155,165,-176.5,,165,,,,,,165,1,B,UK
+M,Raw,David Gibson #2,53,M_MR_3_WPC_Disabled,83.2,90,,,,,,140,145,-150,,145,,,,,,145,1,B,UK
+M,Raw,David Gibson #2,53,M_MR_3_WPC,83.2,90,,,,,,140,145,-150,,145,,,,,,145,2,B,UK
+M,Single-ply,David Gibson #2,53,M_MES_3_WPC_Disabled,83.3,90,,,,,,155,165,-176.5,,165,,,,,,165,1,B,UK
+M,Single-ply,David Gibson #2,53,M_OES_WPC_Disabled,83.3,90,,,,,,155,165,-176.5,,165,,,,,,165,1,B,UK
 M,Raw,David Morris #1,49,M_MR_2_WPC,164.3,140+,,,,,,190,215,-220,,215,,,,,,215,1,B,UK
 M,Raw,David Morris #1,49,M_MR_2_WPC,164.3,140+,,,,,,,,,,,285,-305,-315,,285,285,1,D,UK
 M,Wraps,David Summers,58,M_MCR_4_WPC,88.9,90,192.5,212.5,-222.5,,212.5,145,155,-162.5,,155,182.5,192.5,-197.5,,192.5,560,2,SBD,USA
@@ -147,7 +147,7 @@ F,Raw,Filipa Vicente,35,F_OR_WPC,50.9,52,100,102.5,-105,,102.5,65,-67.5,67.5,,67
 M,Wraps,Flávio Martins,27,M_OCR_WPC,115.3,125,260,275,-285,,275,185,195,200,,200,280,290,300,,300,775,3,SBD,Portugal
 M,Raw,Florent Romain,27,M_OR_WPC,81.3,82.5,-190,190,-200,,190,145,150,-152.5,,150,235,245,-255,,245,585,4,SBD,France
 M,Raw,Florent Romain,27,M_OR_WPC,82.4,82.5,,,,,,,,,,,230,-250,-250,,230,230,2,D,France
-M,Raw,Florindo Fiqueiredo,45,M_OR_WPC,96.8,100,,,,,,230,237.5,242.5,,242.5,,,,,,242.5,1,B,Portugal
+M,Raw,Florindo Figueiredo Pinheiro,45,M_OR_WPC,96.8,100,,,,,,230,237.5,242.5,,242.5,,,,,,242.5,1,B,Portugal
 M,Single-ply,Foroni Antonio,45,M_MES_2_WPC,109.2,110,,,,,,,,,,,305,320,333,,333,333,1,D,Italy
 F,Raw,Francesca Dennis,23,F_JR_WPC,81.6,82.5,,,,,,,,,,,150,-160,-167.5,,150,150,1,D,UK
 F,Raw,Francesca Dennis,23,F_JR_WPC,81.6,82.5,,,,,,,,,,,,,,,,,DQ,B,UK
@@ -161,8 +161,8 @@ M,Wraps,Gariq Johnson,23,M_OCR_WPC,122,125,-255,-255,-255,,,,,,,,,,,,,,DQ,SBD,UK
 M,Multi-ply,Garry Gameiro Barros,36,M_OEM_WPC,115.9,125,,,,,,-300,-300,-300,,,,,,,,,DQ,B,France
 F,Wraps,Gemma Marks,36,F_OCR_WPC,94.8,90+,205,-225,-225,,205,110,115,117.5,,117.5,190,-210,210,,210,532.5,2,SBD,UK
 M,Wraps,George Napper,46,M_MCR_2_WPC,118.3,125,180,,,,180,160,170,-182.5,,170,230,250,-260,,250,600,1,SBD,Australia
-M,Raw,Georgijs Stolerovs,49,M_MR_2_WPC,73.2,75,,,,,,135,142.5,-150,,142.5,,,,,,142.5,2,B,Latvia
-M,Raw,Georgijs Stolerovs,49,M_MR_2_WPC,,,,,,,,,,,,,,,,,,,NS,D,Latvia
+M,Raw,Georgijs Stoļerovs,49,M_MR_2_WPC,73.2,75,,,,,,135,142.5,-150,,142.5,,,,,,142.5,2,B,Latvia
+M,Raw,Georgijs Stoļerovs,49,M_MR_2_WPC,,,,,,,,,,,,,,,,,,,NS,D,Latvia
 M,Multi-ply,Gergő Vakarcs,24,M_OEM_WPC,104.5,110,,,,,,-280,-280,-300,,,,,,,,,DQ,B,Hungary
 M,Raw,Gergő Vakarcs,23,M_JR_WPC,102.6,110,,,,,,205,212.5,215,,215,,,,,,215,1,B,Hungary
 M,Single-ply,Graeme Quirke,40,M_MES_1_WPC,88.2,90,290,300,-307.5,,300,200,210,-215,,210,220,240,-242.5,,240,750,1,SBD,Ireland
@@ -194,7 +194,7 @@ F,Wraps,Jade Medhurst,17,F_TCR_2_WPC,67.9,75,100,105,-107.5,,105,60,65,-70,,65,1
 M,Wraps,James Matthews-Williams,28,M_OCR_WPC,96.9,100,290,-305,307.5,,307.5,175,180,185,,185,260,270,280,,280,772.5,4,SBD,UK
 M,Raw,Jan Lindqvist,49,M_MR_2_WPC,82.3,82.5,,,,,,150,160,165,,165,,,,,,165,1,B,Finland
 M,Wraps,Jan-Erik Maantila,34,M_OCR_WPC,115.5,125,275,295,305,,305,205,215,-220,,215,280,-300,,,280,800,2,SBD,Finland
-F,Raw,Janet Smith,50,F_MR_3_WPC,73.4,75,-135,135,-143,,135,87.5,-90.5,,,87.5,175,183,-195,,183,405.5,1,SBD,Australia
+F,Raw,Janet Smith #1,50,F_MR_3_WPC,73.4,75,-135,135,-143,,135,87.5,-90.5,,,87.5,175,183,-195,,183,405.5,1,SBD,Australia
 M,Wraps,Jani Antikainen,30,M_OCR_WPC,88,90,150,162.5,-175,,162.5,85,90,-92.5,,90,160,-172.5,175,,175,427.5,6,SBD,Finland
 M,Multi-ply,Jani Lantiainen,33,M_OEM_WPC,96.1,100,,,,,,,,,,,310,332.5,-352.5,,332.5,332.5,1,D,Finland
 M,Raw,Jani Vaskelainen,44,M_MR_1_WPC,74.7,75,,,,,,115,122.5,127.5,,127.5,,,,,,127.5,1,B,Finland
@@ -364,7 +364,7 @@ M,Wraps,Mohammed Said,24,M_OCR_WPC,89.3,90,-240,250,265,,265,130,-140,150,,150,2
 F,Wraps,Monica Hofvind,22,F_JCR_WPC,80.7,82.5,127.5,-135,-135,,127.5,62.5,-67.5,-67.5,,62.5,135,-145,-145,,135,325,1,SBD,UK
 M,Single-ply,Mostafa Hesham Mohamed,26,M_OES_WPC,,,,,,,,,,,,,,,,,,,NS,SBD,Egypt
 M,Wraps,Mostafa Hesham Mohamed,26,M_OCR_WPC,,,,,,,,,,,,,,,,,,,NS,SBD,Egypt
-F,Raw,Nadezda Vlasova,37,F_OR_WPC,71.5,75,,,,,,125,130,-135,,130,,,,,,130,1,B,Russia
+F,Raw,Nadezhda Vlasova,37,F_OR_WPC,71.5,75,,,,,,125,130,-135,,130,,,,,,130,1,B,Russia
 M,Raw,Natale Giancarlo,37,M_OR_WPC,95.9,100,,,,,,,,,,,-270,,,,,,DQ,D,Italy
 M,Raw,Natale Giancarlo,37,M_OR_WPC,95.9,100,,,,,,167.5,175,180,,180,,,,,,180,3,B,Italy
 M,Raw,Nico Viljakainen,16,M_TR_2_WPC,96.5,100,,,,,,,,,,,-185,-195,-202.5,,,,DQ,D,Finland
@@ -415,7 +415,7 @@ M,Raw,Perttu Nyberg,24,M_OR_WPC,72.9,75,,,,,,110,125,-135,,125,,,,,,125,1,B,Finl
 M,Single-ply,Perttu Nyberg,24,M_OES_WPC,72.1,75,,,,,,130,135,-140,,135,,,,,,135,1,B,Finland
 M,Raw,Peter Battakov,67,M_MR_6_WPC,97.2,100,,,,,,,,,,,170,205,-210,,205,205,1,D,Russia
 M,Raw,Peter Diethalm,45,M_MR_2_WPC,123.9,125,,,,,,182.5,200,-205,,200,,,,,,200,1,B,Switzerland
-M,Raw,Peter King,23,M_JR_WPC,80.6,82.5,180,190,200,,200,130,-140,,,130,240,255,-262.5,,255,585,2,SBD,UK
+M,Raw,Peter King #1,23,M_JR_WPC,80.6,82.5,180,190,200,,200,130,-140,,,130,240,255,-262.5,,255,585,2,SBD,UK
 M,Multi-ply,Péter Mihály,61,M_MEM_5_WPC,162.7,140+,,,,,,100,200,-300,,200,,,,,,200,1,B,Slovakia
 M,Multi-ply,Péter Mihály,61,M_OEM_WPC,162.7,140+,,,,,,100,200,-300,,200,,,,,,200,1,B,Slovakia
 M,Raw,Peter Oram,65,M_MR_6_WPC,87.3,90,95,110,120,,120,67.5,-77.5,-77.5,,67.5,175,195,205,,205,392.5,1,SBD,UK
@@ -430,8 +430,8 @@ M,Raw,Petteri Ahola,34,M_OR_WPC,99.1,100,250,272.5,280,,280,205,-215,-215,,205,3
 M,Raw,Petteri Hosio Henrik,40,M_MR_1_WPC,123.3,125,,,,,,210,220,-230,,220,,,,,,220,1,B,Finland
 M,Multi-ply,Petteri Hosio Henrik,40,M_MEM_1_WPC,125,125,,,,,,340,360,380,,380,,,,,,380,1,B,Finland
 M,Multi-ply,Petteri Hosio Henrik,40,M_OEM_WPC,125,125,,,,,,340,360,380,,380,,,,,,380,1,B,Finland
-M,Single-ply,Phil Watkins,51,M_MES_3_WPC,89.4,90,,,,,,,,,,,290,-312.5,-312.5,,290,290,1,D,UK
-M,Single-ply,Phil Watkins,51,M_OES_WPC,89.4,90,,,,,,,,,,,290,-312.5,-312.5,,290,290,1,D,UK
+M,Single-ply,Philip Watkins,51,M_MES_3_WPC,89.4,90,,,,,,,,,,,290,-312.5,-312.5,,290,290,1,D,UK
+M,Single-ply,Philip Watkins,51,M_OES_WPC,89.4,90,,,,,,,,,,,290,-312.5,-312.5,,290,290,1,D,UK
 M,Wraps,Phil Carleton,35,M_OCR_WPC,89.4,90,280,300,-307.5,,300,160,170,-175,,170,270,285,-295,,285,755,2,SBD,UK
 M,Wraps,Pierre Andrawes,23,M_OCR_WPC,,,,,,,,,,,,,,,,,,,NS,SBD,Egypt
 M,Single-ply,Pierre Barsoom Andrawes,23,M_OES_WPC,,,,,,,,,,,,,,,,,,,NS,SBD,Egypt
@@ -461,8 +461,8 @@ M,Multi-ply,Reza Golmohammadi,44,M_OEM_WPC,99.1,100,,,,,,-310,310,-320,,310,,,,,
 M,Wraps,Ricardo Monteiro,32,M_OCR_WPC,99,100,275,-287.5,-287.5,,275,160,170,-180,,170,280,-300,-300,,280,725,5,SBD,Portugal
 M,Raw,Rich Willis,50,M_MR_3_WPC_Disabled,50.4,52,,,,,,115,-120,120,,120,,,,,,120,1,B,UK
 M,Raw,Rich Willis,50,M_OR_WPC_Disabled,50.4,52,,,,,,115,-120,120,,120,,,,,,120,1,B,UK
-M,Raw,Richard Baker,50,M_MR_3_WPC,106.9,110,,,,,,130,140,-150,,140,,,,,,140,3,B,UK
-M,Raw,Richard Baker,50,M_MR_3_WPC,106.9,110,,,,,,,,,,,220,230,-240,,230,230,1,D,UK
+M,Raw,Richard Baker #2,50,M_MR_3_WPC,106.9,110,,,,,,130,140,-150,,140,,,,,,140,3,B,UK
+M,Raw,Richard Baker #2,50,M_MR_3_WPC,106.9,110,,,,,,,,,,,220,230,-240,,230,230,1,D,UK
 M,Single-ply,Richie Power,36,M_OES_WPC,81.6,82.5,280,-300,-300,,280,210,220,-230,,220,220,240,-250,,240,740,1,SBD,Ireland
 M,Raw,Rico Martinez,49,M_MR_2_WPC,93.6,100,,,,,,180,-190,-190,,180,,,,,,180,3,B,Germany
 M,Raw,Rik Davison,58,M_MR_4_WPC,99,100,,,,,,150,160,170,,170,,,,,,170,1,B,UK
@@ -514,8 +514,8 @@ M,Wraps,Sipione Federico,38,M_OCR_WPC,91.3,100,257.5,267.5,-275,,267.5,157.5,165
 M,Raw,Sodgerel Enkhbaatar,,M_OR_WPC,,,,,,,,,,,,,,,,,,,NS,SBD,Mongolia
 M,Raw,Sohail Rashid,,M_OR_WPC,,,,,,,,,,,,,,,,,,,NS,SBD,UK
 F,Wraps,Sowilah Aya,18,F_TCR_3_WPC,66.3,67.5,-145,145,-155,,145,65,72.5,77.5,-80,77.5,125,-135,135,-150.5,135,357.5,1,SBD,Egypt
-M,Multi-ply,Steeve Gameiro Barros,41,M_MEM_1_WPC,107.8,110,,,,,,336,,,,336,,,,,,336,1,B,France
-M,Multi-ply,Steeve Gameiro Barros,41,M_OEM_WPC,107.8,110,,,,,,336,-350,-350,,336,,,,,,336,1,B,France
+M,Multi-ply,Steeve Barros Gameiro,41,M_MEM_1_WPC,107.8,110,,,,,,336,,,,336,,,,,,336,1,B,France
+M,Multi-ply,Steeve Barros Gameiro,41,M_OEM_WPC,107.8,110,,,,,,336,-350,-350,,336,,,,,,336,1,B,France
 M,Raw,Stefan Stalstedt,,M_MR_3_WPC,,,,,,,,,,,,,,,,,,,NS,D,Finland
 M,Raw,Sten Haugas,29,M_OR_WPC,142,140+,,,,,,240,250,-260,,250,,,,,,250,2,B,Estonia
 M,Multi-ply,Stéphane Gurini,54,M_MEM_3_WPC,99.9,100,,,,,,220,-230,-230,,220,,,,,,220,1,B,France

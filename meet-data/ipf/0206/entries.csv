@@ -35,7 +35,7 @@ DQ,56,F,Juniors,Virpi Kehänen,1979,55.8,Finland,170,,,,SBD,Single-ply
 1,67.5,F,Juniors,Lesya Guminska,1980,67.4,Ukraine,232.5,125,215,572.5,SBD,Single-ply
 2,67.5,F,Juniors,Kuli Chepustanova,1980,67.1,Russia,217.5,127.5,200,545,SBD,Single-ply
 3,67.5,F,Juniors,Tatzana Jakovleva,1983,65.2,Russia,200,115,205,520,SBD,Single-ply
-4,67.5,F,Juniors,Kim Callier,1979,67.5,USA,160,77.5,157.5,395,SBD,Single-ply
+4,67.5,F,Juniors,Kim Callier-Hooper,1979,67.5,USA,160,77.5,157.5,395,SBD,Single-ply
 5,67.5,F,Juniors,Desteny Joyner,1983,67,USA,142.5,72.5,155,370,SBD,Single-ply
 DQ,67.5,F,Juniors,Mitou Takuma,1981,60.4,Japan,127.5,,,,SBD,Single-ply
 1,75,F,Juniors,Taty Kudryavtseva,1982,71.1,Kazakhstan,210,145,205,560,SBD,Single-ply
@@ -50,7 +50,7 @@ DQ,67.5,F,Juniors,Mitou Takuma,1981,60.4,Japan,127.5,,,,SBD,Single-ply
 1,90,F,Juniors,Yulia Kurina,1981,84.9,Russia,262.5,110,230,602.5,SBD,Single-ply
 2,90,F,Juniors,Ganna Lytvyn,1983,84.1,Ukraine,230,127.5,180,537.5,SBD,Single-ply
 DQ,90,F,Juniors,Jessica Watkins,1980,86.6,USA,,,,,SBD,Single-ply
-1,90+,F,Juniors,Valeria Shcheglova,1983,90.2,Russia,235,132.5,200,567.5,SBD,Single-ply
+1,90+,F,Juniors,Valeriya Kholodova,1983,90.2,Russia,235,132.5,200,567.5,SBD,Single-ply
 2,90+,F,Juniors,Sarah Greenup,1982,104.8,USA,240,117.5,200,557.5,SBD,Single-ply
 3,90+,F,Juniors,Kristi Kravchenko,1982,90.4,Russia,210,125,185,520,SBD,Single-ply
 4,90+,F,Juniors,Mary Alvarado,1983,111.9,Venezuela,247.5,100,165,512.5,SBD,Single-ply
@@ -62,7 +62,7 @@ DQ,90,F,Juniors,Jessica Watkins,1980,86.6,USA,,,,,SBD,Single-ply
 4,52,M,Juniors,Jeremy Scruggs,1983,51.9,USA,157.5,110,215,482.5,SBD,Single-ply
 5,52,M,Juniors,Jean-Pier Miranda,1980,51.5,Venezuela,182.5,100,195,477.5,SBD,Single-ply
 6,52,M,Juniors,Sanja Isroilov,1979,52,Uzbekistan,170,90,170,430,SBD,Single-ply
-7,52,M,Juniors,Viktor Piskunov,1981,52,Ukraine,150,95,150,395,SBD,Single-ply
+7,52,M,Juniors,Viktor Piskunov #1,1981,52,Ukraine,150,95,150,395,SBD,Single-ply
 1,56,M,Juniors,Ravil Kazakov,1982,54.7,Russia,250,155,195,600,SBD,Single-ply
 2,56,M,Juniors,Razvi Khan,1980,55.3,India,200,110,230,540,SBD,Single-ply
 3,56,M,Juniors,Naga Vara Prasad,1979,56,India,205,112.5,215,532.5,SBD,Single-ply
@@ -73,7 +73,7 @@ DQ,90,F,Juniors,Jessica Watkins,1980,86.6,USA,,,,,SBD,Single-ply
 8,56,M,Juniors,Tadashi Shiraishi,1980,55.5,Japan,187.5,95,185,467.5,SBD,Single-ply
 9,56,M,Juniors,Grzego Kepczynski,1981,55.6,Poland,175,100,192.5,467.5,SBD,Single-ply
 1,60,M,Juniors,Aleksandr Gromov,1981,59.8,Russia,260,170,215,645,SBD,Single-ply
-2,60,M,Juniors,Marcus Williams,1983,58.7,USA,227.5,112.5,250,590,SBD,Single-ply
+2,60,M,Juniors,Marcus Williams #1,1983,58.7,USA,227.5,112.5,250,590,SBD,Single-ply
 3,60,M,Juniors,Volodym Pogrebnyy,1982,59.5,Ukraine,235,155,200,590,SBD,Single-ply
 4,60,M,Juniors,Sergiy Dyachenko,1981,59.8,Ukraine,227.5,130,200,557.5,SBD,Single-ply
 5,60,M,Juniors,Ajinth,1980,59.1,India,195,100,257.5,552.5,SBD,Single-ply
@@ -84,10 +84,10 @@ DQ,90,F,Juniors,Jessica Watkins,1980,86.6,USA,,,,,SBD,Single-ply
 DQ,60,M,Juniors,Nikolay Mikhaelis,1983,60,Kazakhstan,215,115,,,SBD,Single-ply
 1,67.5,M,Juniors,Artyom Korotygin,1980,66.7,Russia,265,175,250,690,SBD,Single-ply
 2,67.5,M,Juniors,Faiyaz Ahmad,1982,66.4,India,257.5,162.5,252.5,672.5,SBD,Single-ply
-3,67.5,M,Juniors,Alexand Posheliuk,1979,66.8,Belarus,230,170,260,660,SBD,Single-ply
+3,67.5,M,Juniors,Alexander Poshelyuk,1979,66.8,Belarus,230,170,260,660,SBD,Single-ply
 4,67.5,M,Juniors,Oleksande Borysov,1980,67.1,Ukraine,247.5,162.5,250,660,SBD,Single-ply
 5,67.5,M,Juniors,Adeel Rana,1980,66.2,Pakistan,225,142.5,270,637.5,SBD,Single-ply
-6,67.5,M,Juniors,Anatoli Goryachok,1979,66.9,Ukraine,225,142.5,262.5,630,SBD,Single-ply
+6,67.5,M,Juniors,Anatolii Goriachok,1979,66.9,Ukraine,225,142.5,262.5,630,SBD,Single-ply
 7,67.5,M,Juniors,Karel Jiroušek,1979,66.55,Czechia,230,132.5,230,592.5,SBD,Single-ply
 8,67.5,M,Juniors,Tomas Jarosiewicy,1982,67.2,Poland,210,130,220,560,SBD,Single-ply
 9,67.5,M,Juniors,Sheras Butt,1979,60.4,Pakistan,190,135,205,530,SBD,Single-ply
@@ -146,7 +146,7 @@ DQ,100,M,Juniors,A.V. Vinayan,1980,100,India,,,,,SBD,Single-ply
 4,125,M,Juniors,Alex Mardell,1981,119.6,Canada,302.5,230,305,837.5,SBD,Single-ply
 5,125,M,Juniors,Alexander Hoffmann,1981,117.3,Germany,330,185,290,805,SBD,Single-ply
 6,125,M,Juniors,Emilio Saldierna,1980,123,USA,322.5,187.5,272.5,782.5,SBD,Single-ply
-1,125+,M,Juniors,Randal Harris,1979,137.8,USA,352.5,245,332.5,930,SBD,Single-ply
+1,125+,M,Juniors,Randall Harris,1979,137.8,USA,352.5,245,332.5,930,SBD,Single-ply
 2,125+,M,Juniors,Kenneth Tallqvist,1979,155,Finland,375,240,300,915,SBD,Single-ply
 3,125+,M,Juniors,Oleg Bilichenko,1980,130.8,Ukraine,340,205,310,855,SBD,Single-ply
 4,125+,M,Juniors,Satoshi Masuda,1981,128.4,Japan,270,200,240,710,SBD,Single-ply

@@ -13,7 +13,7 @@ Boys,51.71,11,David Lozano,Roma,50.62,127.01,65.77,136.08,328.85,Single-ply,SBD,
 Boys,51.71,12,Cody Acosta,PSJA,47.08,106.59,56.7,120.2,283.5,Single-ply,SBD,M
 Boys,51.71,DQ,Brooks Guzman,Weslaco East,51.53,172.37,,,,Single-ply,SBD,M
 Boys,55.79,1,Juan Rivera,Los Fresnos,55.16,165.56,117.93,206.38,489.88,Single-ply,SBD,M
-Boys,55.79,2,Angel Flores,Weslaco East,54.98,179.17,99.79,197.31,476.27,Single-ply,SBD,M
+Boys,55.79,2,Angel Flores #2,Weslaco East,54.98,179.17,99.79,197.31,476.27,Single-ply,SBD,M
 Boys,55.79,3,Alejandro Flores,Weslaco East,54.34,179.17,108.86,181.44,469.47,Single-ply,SBD,M
 Boys,55.79,4,Mauro Vargas,La Joya Juarez-Lincoln,55.16,154.22,106.59,174.63,435.45,Single-ply,SBD,M
 Boys,55.79,5,Mike Barajas,Hidalgo Early College,55.52,154.22,99.79,176.9,430.91,Single-ply,SBD,M
@@ -21,7 +21,7 @@ Boys,55.79,6,Kaleb Espinoza,Donna,55.52,163.29,86.18,174.63,424.11,Single-ply,SB
 Boys,59.87,7,Abraham Zermeno,Donna North,55.88,142.88,92.99,170.1,405.97,Single-ply,SBD,M
 Boys,59.87,8,Carlos Jaimez,Hidalgo Early College,55.97,145.15,86.18,172.37,403.7,Single-ply,SBD,M
 Boys,55.79,9,Juan Tamez,Weslaco East,54.88,156.49,86.18,158.76,401.43,Single-ply,SBD,M
-Boys,59.87,10,Angel Flores,Mercedes,55.97,140.61,95.25,154.22,390.09,Single-ply,SBD,M
+Boys,59.87,10,Angel Flores #2,Mercedes,55.97,140.61,95.25,154.22,390.09,Single-ply,SBD,M
 Boys,55.79,DQ,Alex Aguilar #4,Brownsville Pace,53.61,142.88,,,,Single-ply,SBD,M
 Boys,59.87,1,Raul Mota,San Benito,59.51,208.65,129.27,222.26,560.19,Single-ply,SBD,M
 Boys,59.87,2,Randy Medellin,San Benito,59.87,188.24,104.33,185.97,478.54,Single-ply,SBD,M
@@ -99,7 +99,7 @@ Boys,89.81,8,Tony Cerda,La Joya,87.36,213.19,129.27,208.65,551.11,Single-ply,SBD
 Boys,89.81,9,Pablo Garza,Brownsville Pace,86,192.78,131.54,217.72,542.04,Single-ply,SBD,M
 Boys,99.79,10,Johnathan Garcia,PSJA Memorial,90.04,172.37,124.74,188.24,485.34,Single-ply,SBD,M
 Boys,89.81,11,Lazaro Bernabe,Hidalgo Early College,89.81,183.7,97.52,197.31,478.54,Single-ply,SBD,M
-Boys,89.81,12,Carlos Martinez,PSJA,88.27,176.9,115.67,181.44,474,Single-ply,SBD,M
+Boys,89.81,12,Carlos Martinez #15,PSJA,88.27,176.9,115.67,181.44,474,Single-ply,SBD,M
 Boys,89.81,13,Quiten Martinez,Rio Grande City,88.54,176.9,97.52,188.24,462.66,Single-ply,SBD,M
 Boys,89.81,14,Joel Moreno,Mission Sharyland,88.81,142.88,106.59,188.24,437.72,Single-ply,SBD,M
 Boys,89.81,15,David Garza,PSJA North,85.64,167.83,83.91,165.56,417.3,Single-ply,SBD,M
@@ -122,7 +122,7 @@ Boys,99.79,12,Gilbert Guerrero,Donna,97.52,188.24,142.88,204.12,535.24,Single-pl
 Boys,99.79,13,David Cantu,Mission Sharyland,90.45,226.8,113.4,167.83,508.02,Single-ply,SBD,M
 Boys,99.79,14,Javier de la Torre #1,Rio Grande City,95.98,192.78,106.59,206.38,505.76,Single-ply,SBD,M
 Boys,99.79,15,Jaime Vera,Rio Grande City,95.25,181.44,111.13,204.12,496.68,Single-ply,SBD,M
-Boys,99.79,16,José Fernández,La Joya,99.79,170.1,102.06,188.24,460.4,Single-ply,SBD,M
+Boys,99.79,16,Jose Fernandez #6,La Joya,99.79,170.1,102.06,188.24,460.4,Single-ply,SBD,M
 Boys,99.79,17,Gilbert Romero,La Joya Juarez-Lincoln,92.26,192.78,102.06,156.49,451.32,Single-ply,SBD,M
 Boys,99.79,18,Adolfo Trevino,Mission Sharyland,96.98,188.24,113.4,140.61,442.25,Single-ply,SBD,M
 Boys,99.79,DQ,Jesus Costilla,Donna North,99.25,,,,,Single-ply,SBD,M
@@ -162,9 +162,9 @@ Boys,124.74+,2,Ruben Hinojosa,Roma,142.79,294.84,170.1,251.74,716.68,Single-ply,
 Boys,124.74+,3,Eli Olivo,Donna North,126.73,272.16,156.49,231.33,659.98,Single-ply,SBD,M
 Boys,124.74+,4,Bruce Castro,Los Fresnos,141.7,272.16,145.15,240.4,657.71,Single-ply,SBD,M
 Boys,124.74+,DQ,Josh Trevino,Brownsville Lopez,138.07,,,,,Single-ply,SBD,M
-Boys,124.74+,DQ,Jose Molina,Donna North,140.98,,,,,Single-ply,SBD,M
+Boys,124.74+,DQ,Jose Molina #1,Donna North,140.98,,,,,Single-ply,SBD,M
 Boys,124.74+,DQ,Adrian Montalvo,Rio Grande City Grulla,132.72,,,,,Single-ply,SBD,M
 Boys,124.74+,DQ,Zeke Garza,La Joya,147.78,,,,,Single-ply,SBD,M
 Boys,124.74+,DQ,Danny Melendez,Mercedes,146.15,247.21,,,,Single-ply,SBD,M
-Boys,124.74+,DQ,Brandon Perez,Weslaco,148.32,,,,,Single-ply,SBD,M
+Boys,124.74+,DQ,Brandon Perez #2,Weslaco,148.32,,,,,Single-ply,SBD,M
 Boys,124.74+,DQ,Manuel Mata,PSJA North,125.37,294.84,165.56,,,Single-ply,SBD,M

@@ -4,7 +4,7 @@ Boys,51.71,2,Rigo Pena,Pharr Valley View,51.62,145.15,97.52,165.56,408.23,Single
 Boys,51.71,3,Diego Pena,Roma,51.53,142.88,83.91,158.76,385.55,Single-ply,SBD,M
 Boys,51.71,4,Orlando Trigueros,Donna,50.44,142.88,72.57,147.42,362.87,Single-ply,SBD,M
 Boys,51.71,5,Homar Longoria,San Benito,51.71,136.08,68.04,158.76,362.87,Single-ply,SBD,M
-Boys,51.71,6,Juan Torres,San Benito,51.71,117.93,70.31,133.81,322.05,Single-ply,SBD,M
+Boys,51.71,6,Juan Torres #1,San Benito,51.71,117.93,70.31,133.81,322.05,Single-ply,SBD,M
 Boys,55.79,1,Anibal Martinez,Los Fresnos,55.16,226.8,113.4,235.87,576.06,Single-ply,SBD,M
 Boys,55.79,2,Eric Torres #1,Weslaco East,54.88,215.46,127.01,231.33,573.79,Single-ply,SBD,M
 Boys,55.79,3,Alex Solis,Weslaco East,55.52,181.44,111.13,185.97,478.54,Single-ply,SBD,M
@@ -38,10 +38,10 @@ Boys,67.13,7,William Valdez,Rio Grande City,65.95,156.49,131.54,185.97,474,Singl
 Boys,67.13,8,Isaac Garza,PSJA Memorial,64.86,167.83,102.06,188.24,458.13,Single-ply,SBD,M
 Boys,67.13,9,Noel Zuniga,PSJA,62.32,172.37,90.72,181.44,444.52,Single-ply,SBD,M
 Boys,67.13,10,Edward Fragoso,San Benito,62.6,136.08,72.57,158.76,367.41,Single-ply,SBD,M
-Boys,74.84,11,Joey Mendoza,Mission,67.22,133.81,90.72,138.35,362.87,Single-ply,SBD,M
+Boys,74.84,11,Joey Mendoza #2,Mission,67.22,133.81,90.72,138.35,362.87,Single-ply,SBD,M
 Boys,67.13,DQ,Daniel Valdez,Mission Sharyland,63.05,147.42,,,,Single-ply,SBD,M
 Boys,67.13,DQ,Justin Gonzalez,Weslaco,65.5,,,,,Single-ply,SBD,M
-Boys,67.13,DQ,David Perez,PSJA North,65.14,136.08,,,,Single-ply,SBD,M
+Boys,67.13,DQ,David Perez #6,PSJA North,65.14,136.08,,,,Single-ply,SBD,M
 Boys,74.84,1,Armando Hernandez,Los Fresnos,73.94,226.8,145.15,224.53,596.47,Single-ply,SBD,M
 Boys,74.84,2,Aaron Mungia,Weslaco East,74.39,210.92,136.08,226.8,573.79,Single-ply,SBD,M
 Boys,74.84,3,Art Medrano,Weslaco East,74.57,213.19,147.42,208.65,569.26,Single-ply,SBD,M
@@ -94,7 +94,7 @@ Boys,89.81,7,Gilbert Garcia,Mission Sharyland,88.09,244.94,122.47,213.19,580.6,S
 Boys,89.81,8,Aaron Barron,San Benito,89.27,208.65,127.01,226.8,562.45,Single-ply,SBD,M
 Boys,89.81,9,Luis Hernandez,Edcouch-Elsa,85.82,183.7,124.74,215.46,523.9,Single-ply,SBD,M
 Boys,89.81,10,Danny Salazar,PSJA Memorial,89.63,204.12,115.67,192.78,512.56,Single-ply,SBD,M
-Boys,99.79,11,Juan Villarreal,Edcouch-Elsa,89.99,192.78,106.59,213.19,512.56,Single-ply,SBD,M
+Boys,99.79,11,Juan Villarreal #4,Edcouch-Elsa,89.99,192.78,106.59,213.19,512.56,Single-ply,SBD,M
 Boys,89.81,12,Victorino Cantu III,Rio Grande City,85.64,172.37,122.47,204.12,498.95,Single-ply,SBD,M
 Boys,89.81,13,Luis Briales,PSJA North,86.91,204.12,99.79,190.51,494.42,Single-ply,SBD,M
 Boys,89.81,14,John Arevalo,Weslaco East,86.18,161.03,95.25,195.04,451.32,Single-ply,SBD,M
@@ -137,7 +137,7 @@ Boys,124.74,2,Abram Alvarez,Mission,115.58,244.94,158.76,204.12,607.81,Single-pl
 Boys,124.74,3,Juan Rodriguez,Edcouch-Elsa,122.65,229.06,131.54,215.46,576.06,Single-ply,SBD,M
 Boys,124.74,4,Jorge Alvarez,Edcouch-Elsa,117.57,226.8,142.88,197.31,566.99,Single-ply,SBD,M
 Boys,124.74,5,Julio Rivas,San Benito,118.75,213.19,129.27,222.26,564.72,Single-ply,SBD,M
-Boys,124.74,6,Joel Sanchez,Rio Grande City,124.65,226.8,133.81,199.58,560.19,Single-ply,SBD,M
+Boys,124.74,6,Joel Sanchez #3,Rio Grande City,124.65,226.8,133.81,199.58,560.19,Single-ply,SBD,M
 Boys,124.74,7,Art Camarillo,PSJA North,123.74,226.8,129.27,181.44,537.51,Single-ply,SBD,M
 Boys,124.74,8,Grant Garza,Mission Sharyland,116.12,204.12,113.4,192.78,510.29,Single-ply,SBD,M
 Boys,124.74,9,Arturo Velasquez,Roma,122.02,206.38,120.2,170.1,496.68,Single-ply,SBD,M

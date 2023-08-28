@@ -1,5 +1,5 @@
 Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Division,Equipment,Deadlift4Kg,Event
-1,Erin Kellar,LA,67.5,67.3,20,115,50,145,310,F,Juniors 20-23,Raw,,SBD
+1,Erin Schaefer,LA,67.5,67.3,20,115,50,145,310,F,Juniors 20-23,Raw,,SBD
 1,Carissa Cadmen,LA,56,52.3,36,110,62.5,115,287.5,F,Open,Raw,,SBD
 2,Kristen Thibodeax,LA,56,52.8,25,102.5,57.5,107.5,267.5,F,Open,Raw,,SBD
 3,Paige Chauvin,LA,56,55.7,26,70,47.5,107.5,225,F,Open,Raw,,SBD
@@ -22,16 +22,16 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 1,Trent Lott,LA,82.5,80.6,24,207.5,160,237.5,605,M,Open,Raw,,SBD
 2,Cade Burnette,LA,82.5,76.4,25,137.5,92.5,182.5,412.5,M,Open,Raw,,SBD
 1,Johnson Pham,LA,90,85.3,31,200,152.5,257.5,610,M,Open,Raw,,SBD
-2,Alexander Nguyen,LA,90,89.1,28,192.5,120,232.5,545,M,Open,Raw,,SBD
+2,Alexander Nguyen #3,LA,90,89.1,28,192.5,120,232.5,545,M,Open,Raw,,SBD
 1,Michael Doucet,LA,100,94,28,205,127.5,230,562.5,M,Open,Raw,,SBD
 2,Jeremy Boudreaux,LA,100,94.5,32,187.5,135,220,542.5,M,Open,Raw,,SBD
 3,Brandon Langlois,LA,100,99.8,31,200,122.5,220,542.5,M,Open,Raw,,SBD
 1,Daniel Hart,LA,110,107.3,32,237.5,155,250,642.5,M,Open,Raw,,SBD
 2,Chase Boyce,LA,110,105.6,27,192.5,182.5,257.5,632.5,M,Open,Raw,,SBD
-1,Tyler Brooks,LA,125,120,31,300,222.5,335,857.5,M,Open,Raw,,SBD
+1,Tyler Brooks #2,LA,125,120,31,300,222.5,335,857.5,M,Open,Raw,,SBD
 2,Justin Kirk,LA,125,124,27,275,205,325,805,M,Open,Raw,,SBD
 3,Christoper Stevens,LA,125,122.9,24,160,140,195,495,M,Open,Raw,,SBD
-1,Robert Adams,AR,140,138.7,28,310,217.5,335,862.5,M,Open,Raw,,SBD
+1,Robert Adams #1,AR,140,138.7,28,310,217.5,335,862.5,M,Open,Raw,,SBD
 2,Joshua Cleveland,LA,140,131.2,26,327.5,187.5,320,835,M,Open,Raw,,SBD
 3,Shane Henley,MS,140,133.5,35,227.5,217.5,250,695,M,Open,Raw,,SBD
 1,Joshua Masterson,LA,140+,168.3,23,240,160,262.5,662.5,M,Open,Raw,,SBD

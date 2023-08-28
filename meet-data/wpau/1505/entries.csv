@@ -1,12 +1,12 @@
 Place,Name,CyrillicName,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Squat4Kg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,TotalKg,WeightClassKg,Division,Sex,Event,Equipment,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,BirthYear
-1,Dmitro Zaets,Дмитро Заєць,Ukraine,47.5,95,102.5,105,,42.5,47.5,50,,110,117.5,-122.5,,272.5,48,Amateur Children 11-12,M,SBD,Wraps,105,50,117.5,2002
+1,Dmitro Zaets,Дмитро Заєць,Ukraine,47.5,95,102.5,105,,42.5,47.5,50,,110,117.5,-122.5,,272.5,48,Amateur Sub-Teen 11-12,M,SBD,Wraps,105,50,117.5,2002
 1,Oleksandr Ovcharenko,Олександр Овчаренко,Ukraine,60,95,-102.5,102.5,,60,-67.5,-67.5,,80,-95,,,242.5,60,Amateur Teen 13-15,M,SBD,Wraps,102.5,60,80,2001
 1,Mikita Grechko,Микита Гречко,Ukraine,75,130,-140,145,,75,82.5,87.5,,125,132.5,-140,,365,75,Amateur Teen 13-15,M,SBD,Wraps,145,87.5,132.5,2002
 1,Oleksandr Sokolenko,Олександр Соколенко,Ukraine,67.3,-120,120,-130,,80,85,-90,,130,-140,140,,345,67.5,Amateur Teen 16-17,M,SBD,Wraps,120,85,140,1998
 1,Vladislav Sklyarov,Владислав Скляров,Ukraine,77,170,-180,180,,102.5,112.5,-115,,180,190,-200,,482.5,82.5,Amateur Teen 16-17,M,SBD,Wraps,180,112.5,190,1998
 DQ,Evgeniy Golub,Євгеній Голуб,Ukraine,87.2,-190,-200,-200,,-95,,,,-190,,,,,90,Amateur Teen 18-19,M,SBD,Wraps,,,,1996
 1,Mikita Mitryukhin,Микита Мітрюхін,Ukraine,97.4,150,-170,170,,115,-120,-120,,175,-197.5,-197.5,,460,100,Amateur Teen 18-19,M,SBD,Wraps,170,115,175,1997
-1,Dmitro Grigorev,Дмитро Григорьєв,Ukraine,103.2,240,255,-260,,135,145,-150,,220,240,255,,655,110,Amateur Teen 18-19,M,SBD,Wraps,255,145,255,1997
+1,Dmitro Grigorev #1,Дмитро Григор'єв,Ukraine,103.2,240,255,-260,,135,145,-150,,220,240,255,,655,110,Amateur Open,M,SBD,Wraps,255,145,255,1997
 1,Maksim Shtikhno,Максим Штихно,Ukraine,67,150,160,170,,-115,115,120,,170,190,-200,,480,67.5,Amateur Juniors 20-23,M,SBD,Wraps,170,120,190,1992
 1,Oleksandr Golovatskiy,Олександр Головацький,Ukraine,74.5,145,155,165,,125,130,-135,,-190,190,200,,495,75,Amateur Juniors 20-23,M,SBD,Wraps,165,130,200,1993
 1,Evgen Litvinenko,Євген Литвиненко,Ukraine,82.5,210,220,230,,150,-155,-155,,220,240,250,,630,82.5,Amateur Juniors 20-23,M,SBD,Wraps,230,150,250,1992
@@ -15,7 +15,7 @@ DQ,Evgeniy Golub,Євгеній Голуб,Ukraine,87.2,-190,-200,-200,,-95,,,,-
 1,Taras Shevchenko,Тарас Шевченко,Ukraine,98.7,180,192.5,-200,,110,117.5,-122.5,,190,215,,,525,100,Amateur Juniors 20-23,M,SBD,Wraps,192.5,117.5,215,1995
 DQ,Petro Vodop'yan,Петро Водоп'ян,Ukraine,98.7,125,-135,-145,,-100,-110,-110,,-130,,,,,100,Amateur Juniors 20-23,M,SBD,Wraps,125,,,1994
 1,Danilo Udovik,Данило Удовик,Ukraine,110.5,-180,180,-195,,112.5,120,122.5,,180,200,-202.5,,502.5,125,Amateur Juniors 20-23,M,SBD,Wraps,180,122.5,200,1992
-1,Dmitro Zaets,Дмитро Заєць,Ukraine,47.5,95,102.5,105,,42.5,47.5,50,,110,117.5,-122.5,,272.5,48,Amateur Open,M,SBD,Wraps,105,50,117.5,2002
+1,Dmitro Zaets,Дмитро Заєць,Ukraine,47.5,95,102.5,105,,42.5,47.5,50,,110,117.5,-122.5,,272.5,52,Amateur Open,M,SBD,Wraps,105,50,117.5,2002
 1,Oleksandr Ovcharenko,Олександр Овчаренко,Ukraine,60,95,-102.5,102.5,,60,-67.5,-67.5,,80,-95,,,242.5,60,Amateur Open,M,SBD,Wraps,102.5,60,80,2001
 1,Ivan Blokha,Іван Блоха,Ukraine,61.2,150,157.5,-160,,95,100,,,160,167.5,-175,,425,67.5,Amateur Open,M,SBD,Wraps,157.5,100,167.5,1986
 2,Andriy Bikov,Андрій Биков,Ukraine,64.3,130,140,150,,110,120,-125,,140,-160,-160,,410,67.5,Amateur Open,M,SBD,Wraps,150,120,140,1982
@@ -31,7 +31,7 @@ DQ,Maksim Tokmakov,Максим Токмаков,Ukraine,74.7,-160,-160,-170,,-9
 4,Vladislav Sklyarov,Владислав Скляров,Ukraine,77,170,-180,180,,102.5,112.5,-115,,180,190,-200,,482.5,82.5,Amateur Open,M,SBD,Wraps,180,112.5,190,1998
 5,Oleksandr Bezay,Олександр Безай,Ukraine,82.5,150,160,170,,80,90,100,,180,190,200,,470,82.5,Amateur Open,M,SBD,Wraps,170,100,200,1988
 6,Denis Filaretov,Денис Філаретов,Ukraine,82.1,150,-160,-165,,135,-140,-140,,160,175,-185,,460,82.5,Amateur Open,M,SBD,Wraps,150,135,175,1990
-7,Denis Luk'Yanov,Денис Лук'Янов,Ukraine,80.2,-160,160,-170,,90,-95,-95,,150,160,-170,,410,82.5,Amateur Open,M,SBD,Wraps,160,90,160,1991
+7,Denis Lukyanov,Денис Лукьянов,Ukraine,80.2,-160,160,-170,,90,-95,-95,,150,160,-170,,410,82.5,Amateur Open,M,SBD,Wraps,160,90,160,1991
 DQ,Dmitro Bogomaz,Дмитро Богомаз,Ukraine,81,-160,160,-170,,-120,-120,-120,,-200,,,,,82.5,Amateur Open,M,SBD,Wraps,160,,,1990
 1,Boris Kovalenko,Борис Коваленко,Ukraine,89.9,185,-200,-200,,115,120,,,180,185,195,,500,90,Amateur Open,M,SBD,Wraps,185,120,195,1983
 2,Viktor Telyatnik,Віктор Телятник,Ukraine,90,170,180,-200,,110,120,-125,,180,192.5,-205,,492.5,90,Amateur Open,M,SBD,Wraps,180,120,192.5,1988
@@ -39,17 +39,17 @@ DQ,Dmitro Bogomaz,Дмитро Богомаз,Ukraine,81,-160,160,-170,,-120,-12
 1,Sergiy Bessel,Сергій Бессель,Ukraine,110,240,252.5,257.5,,172.5,185,-187.5,,235,255,265,,707.5,110,Amateur Open,M,SBD,Wraps,257.5,185,265,1984
 2,Mikhaylo Lavrenko,Михайло Лавренко,Ukraine,108.3,-220,230,-240,,140,-150,160,,280,302.5,310,,700,110,Amateur Open,M,SBD,Wraps,230,160,310,1980
 3,Roman Rudenko,Роман Руденко,Ukraine,110,200,210,225,,160,165,-175,,260,270,-285,,660,110,Amateur Open,M,SBD,Wraps,225,165,270,1990
-4,Evgeniy Goncharenko,Євгеній Гончаренко,Ukraine,102.7,200,230,250,,140,150,155,,220,250,-260,,655,110,Amateur Open,M,SBD,Wraps,250,155,250,1990
-5,Dmitro Grigorev,Дмитро Григорьєв,Ukraine,103.2,240,255,-260,,135,145,-150,,220,240,255,,655,110,Amateur Open,M,SBD,Wraps,255,145,255,1997
+4,Evgeniy Goncharenko #1,Євгеній Гончаренко,Ukraine,102.7,200,230,250,,140,150,155,,220,250,-260,,655,110,Amateur Open,M,SBD,Wraps,250,155,250,1990
+5,Dmitro Grigorev #1,Дмитро Григор'єв,Ukraine,103.2,240,255,-260,,135,145,-150,,220,240,255,,655,110,Amateur Open,M,SBD,Wraps,255,145,255,
 6,Vitaliy Kolinko,Віталій Колінько,Ukraine,108.3,170,190,200,,140,145,150,,190,205,215,,565,110,Amateur Open,M,SBD,Wraps,200,150,215,1990
 DQ,Volodimir Lebedev,Володимир Лебєдєв,Ukraine,108.8,225,240,250,,125,132.5,,,-225,,,,,110,Amateur Open,M,SBD,Wraps,250,132.5,,1961
 1,Vadim Tikhonov,Вадим Тихонов,Ukraine,116.2,230,250,260,,180,200,205,,240,260,280,,745,125,Amateur Open,M,SBD,Wraps,260,205,280,1985
 2,Danilo Udovik,Данило Удовик,Ukraine,110.5,-180,180,-195,,112.5,120,122.5,,180,200,-202.5,,502.5,125,Amateur Open,M,SBD,Wraps,180,122.5,200,1992
 1,Dmitro Znakhur,Дмитро Знахур,Ukraine,75,120,-130,-130,,70,75,-80,,-155,-155,155,,350,75,Amateur Submasters 33-39,M,SBD,Wraps,120,75,155,1981
-1,Ivan Timokhin,Іван Тимохін,Ukraine,90,-110,-110,130,,100,-115,-120,,160,175,-180,,405,90,Amateur Submasters 33-39,M,SBD,Wraps,130,100,175,1980
+1,Ivan Timokhin,Іван Тімохін,Ukraine,90,-110,-110,130,,100,-115,-120,,160,175,-180,,405,90,Amateur Submasters 33-39,M,SBD,Wraps,130,100,175,1980
 1,Evgen Gavrilin,Євген Гаврилін,Ukraine,145.5,210,220,230,,170,180,185,,230,255,260,,675,140+,Amateur Submasters 33-39,M,SBD,Wraps,230,185,260,1982
 1,Anton Kozlov,Антон Козлов,Ukraine,90,120,135,145,,-120,120,125,,140,160,170,,440,90,Amateur Masters 40-44,M,SBD,Wraps,145,125,170,1975
-2,Stanislav Afanasev,Станіслав Афанасьєв,Ukraine,86.5,70,85,100,,70,80,-90,,140,-150,150,,330,90,Amateur Masters 40-44,M,SBD,Wraps,100,80,150,1972
+2,Stanislav Afanasev #1,Станіслав Афанасьєв,Ukraine,86.5,70,85,100,,70,80,-90,,140,-150,150,,330,90,Amateur Masters 40-44,M,SBD,Wraps,100,80,150,1972
 1,Andriy Golodyuk,Андрій Голодюк,Ukraine,99.9,170,185,190,,150,155,-160,,180,-190,,,525,100,Amateur Masters 40-44,M,SBD,Wraps,190,155,180,1973
 1,Evgen Oprishko,Євген Опришко,Ukraine,112.1,170,180,185,,110,120,125,,210,220,225,,535,125,Amateur Masters 40-44,M,SBD,Wraps,185,125,225,1970
 2,Roman Bezbrazhniy,Роман Безбражний,Ukraine,123.4,-140,150,170,,120,130,140,,140,180,195,,505,125,Amateur Masters 40-44,M,SBD,Wraps,170,140,195,1974
@@ -96,7 +96,7 @@ DQ,Oksana Ustina,Оксана Устіна,Ukraine,67.3,90,100,-110,,-50,55,-57.
 1,Viktor Rublyov,Віктор Рубльов,Ukraine,99.5,210,230,-240,,160,165,170,,250,-260,-260,,650,100,Pro Submasters 33-39,M,SBD,Wraps,230,170,250,1975
 1,Andriy Tarnovskiy,Андрій Тарновський,Ukraine,87.5,-220,-220,220,,140,147.5,-150,,210,220,-245,,587.5,90,Pro Masters 40-44,M,SBD,Wraps,220,147.5,220,1973
 DQ,Oleg Volkov,Олег Волков,Ukraine,98,-230,-230,-230,,-160,,,,-230,,,,,100,Pro Masters 40-44,M,SBD,Wraps,,,,1973
-1,Vyacheslav Kravchenko,Вячеслав Кравченко,Ukraine,96.8,200,,,,110,,,,200,220,240,,550,100,Pro Masters 45-49,M,SBD,Wraps,200,110,240,1969
+1,V'yacheslav Kravchenko #1,Вячеслав Кравченко,Ukraine,96.8,200,,,,110,,,,200,220,240,,550,100,Pro Masters 45-49,M,SBD,Wraps,200,110,240,1969
 1,Oksana Prikhodko,Оксана Приходько,Ukraine,55.5,145,-150,150,,80,90,-95,,150,160,-170,,400,56,Pro Juniors 20-23,F,SBD,Wraps,150,90,160,1991
 1,Yulia Shenkarenko,Юлія Шенкаренко,Ukraine,67.5,165,170,180,,105,110,115,120,180,200,-205,,495,67.5,Pro Open,F,SBD,Wraps,180,115,200,1986
 DQ,Anton Popov,Антон Попов,Ukraine,73.5,-190,-190,-190,,-150,,,,-200,,,,,75,Amateur Open,M,SBD,Multi-ply,,,,1989
@@ -108,7 +108,7 @@ DQ,Anton Popov,Антон Попов,Ukraine,73.5,-190,-190,-190,,-150,,,,-200,,
 1,Andriy Voronovskiy,Андрій Вороновський,Ukraine,99.9,220,240,250,,180,-190,190,,200,225,240,,680,100,Pro Open,M,SBD,Multi-ply,250,190,240,1986
 1,Evgen Korotich,Євген Коротич,Ukraine,88.5,215,-225,225,,160,167.5,172.5,,222.5,230,,,627.5,90,Pro Submasters 33-39,M,SBD,Multi-ply,225,172.5,230,1977
 1,Yuriy Maligin,Юрій Малигін,Ukraine,102.2,120,160,180,,-100,100,150,,120,160,190,,520,110,Pro Masters 45-49,M,SBD,Multi-ply,180,150,190,1967
-1,Dmitro Zaets,Дмитро Заєць,Ukraine,47.5,,,,,42.5,47.5,50,,,,,,50,48,Amateur Children 11-12,M,B,Raw,,50,,2002
+1,Dmitro Zaets,Дмитро Заєць,Ukraine,47.5,,,,,42.5,47.5,50,,,,,,50,48,Amateur Sub-Teen 11-12,M,B,Raw,,50,,2002
 1,Oleksandr Ovcharenko,Олександр Овчаренко,Ukraine,60,,,,,60,-67.5,-67.5,,,,,,60,60,Amateur Teen 13-15,M,B,Raw,,60,,2001
 1,Mikita Grechko,Микита Гречко,Ukraine,75,,,,,75,82.5,-87.5,,,,,,82.5,75,Amateur Teen 13-15,M,B,Raw,,82.5,,2002
 1,Mikita Bublik,Микита Бублик,Ukraine,56.6,,,,,60,67.5,70,,,,,,70,60,Amateur Teen 16-17,M,B,Raw,,70,,1999
@@ -129,7 +129,7 @@ DQ,Anton Popov,Антон Попов,Ukraine,73.5,-190,-190,-190,,-150,,,,-200,,
 4,Vitaliy Goncharov,Віталій Гончаров,Ukraine,82.5,,,,,120,-125,132.5,,,,,,132.5,82.5,Amateur Juniors 20-23,M,B,Raw,,132.5,,1994
 1,Bogdan Redchenko,Богдан Редченко,Ukraine,89.7,,,,,145,152.5,-160,,,,,,152.5,90,Amateur Juniors 20-23,M,B,Raw,,152.5,,1992
 2,Oleksiy Matlay,Олексій Матлай,Ukraine,90,,,,,-100,120,130,,,,,,130,90,Amateur Juniors 20-23,M,B,Raw,,130,,1994
-1,Dmitro Zaets,Дмитро Заєць,Ukraine,47.5,,,,,42.5,47.5,50,,,,,,50,48,Amateur Open,M,B,Raw,,50,,2002
+1,Dmitro Zaets,Дмитро Заєць,Ukraine,47.5,,,,,42.5,47.5,50,,,,,,50,52,Amateur Open,M,B,Raw,,50,,2002
 1,Mikita Bublik,Микита Бублик,Ukraine,56.6,,,,,60,67.5,70,,,,,,70,60,Amateur Open,M,B,Raw,,70,,1999
 2,Oleksandr Ovcharenko,Олександр Овчаренко,Ukraine,60,,,,,60,-67.5,-67.5,,,,,,60,60,Amateur Open,M,B,Raw,,60,,2001
 1,Andriy Bikov,Андрій Биков,Ukraine,64.3,,,,,110,120,-125,,,,,,120,67.5,Amateur Open,M,B,Raw,,120,,1982
@@ -137,11 +137,11 @@ DQ,Anton Popov,Антон Попов,Ukraine,73.5,-190,-190,-190,,-150,,,,-200,,
 1,Sergiy Afanasev,Сергій Афанасьєв,Ukraine,71.7,,,,,140,147.5,150,,,,,,150,75,Amateur Open,M,B,Raw,,150,,1994
 2,Konstyantin Agranovich,Констянтин Агранович,Ukraine,74.9,,,,,125,-130,130,,,,,,130,75,Amateur Open,M,B,Raw,,130,,1984
 3,Vladislav Dotsenko,Владислав Доценко,Ukraine,75,,,,,-125,125,130,,,,,,130,75,Amateur Open,M,B,Raw,,130,,1987
-4,Oleksandr Tyurnikov,Олександр Тюрников,Ukraine,74.1,,,,,115,120,125,,,,,,125,75,Amateur Open,M,B,Raw,,125,,1983
+4,Oleksandr Tyurnikov,Олександр Тюрніков,Ukraine,74.1,,,,,115,120,125,,,,,,125,75,Amateur Open,M,B,Raw,,125,,1983
 5,Pavlo Pidtoptaniy,Павло Підтоптаний,Ukraine,71.3,,,,,117.5,122.5,-125,,,,,,122.5,75,Amateur Open,M,B,Raw,,122.5,,1997
 6,Mikita Grechko,Микита Гречко,Ukraine,75,,,,,75,82.5,-87.5,,,,,,82.5,75,Amateur Open,M,B,Raw,,82.5,,2002
 1,Vadim Marinich,Вадим Маринич,Ukraine,82.5,,,,,150,-160,-160,,,,,,150,82.5,Amateur Open,M,B,Raw,,150,,1981
-2,Oleksandr Klimenko,Олександр Кліменко,Ukraine,78,,,,,135,140,145,,,,,,145,82.5,Amateur Open,M,B,Raw,,145,,1990
+2,Oleksandr Klimenko #1,Олександр Кліменко,Ukraine,78,,,,,135,140,145,,,,,,145,82.5,Amateur Open,M,B,Raw,,145,,1990
 3,David Surkov,Давид Сурков,Ukraine,79.8,,,,,135,140,-145,,,,,,140,82.5,Amateur Open,M,B,Raw,,140,,1995
 4,Stanislav Kalashnikov,Станіслав Калашніков,Ukraine,78,,,,,132.5,137.5,-140,,,,,,137.5,82.5,Amateur Open,M,B,Raw,,137.5,,1986
 5,Denis Filaretov,Денис Філаретов,Ukraine,82.1,,,,,135,-140,-140,,,,,,135,82.5,Amateur Open,M,B,Raw,,135,,1990
@@ -154,7 +154,7 @@ DQ,Anton Popov,Антон Попов,Ukraine,73.5,-190,-190,-190,,-150,,,,-200,,
 6,Evgen Valyaev,Євген Валяєв,Ukraine,83.2,,,,,-127.5,132.5,,,,,,,132.5,90,Amateur Open,M,B,Raw,,132.5,,1990
 7,Dmitro Grunskiy,Дмитро Грунський,Ukraine,89.5,,,,,130,-140,-145,,,,,,130,90,Amateur Open,M,B,Raw,,130,,1988
 1,Dmitro Rudin,Дмитро Рудін,Ukraine,95.8,,,,,167.5,172.5,175,,,,,,175,100,Amateur Open,M,B,Raw,,175,,1985
-2,V'Yacheslav Telyura,В'ячеслав Телюра,Ukraine,99.6,,,,,167.5,172.5,175,,,,,,175,100,Amateur Open,M,B,Raw,,175,,1967
+2,V'yacheslav Telyura,В'ячеслав Телюра,Ukraine,99.6,,,,,167.5,172.5,175,,,,,,175,100,Amateur Open,M,B,Raw,,175,,1967
 3,Oleg Kolbasenko,Олег Колбасенко,Ukraine,94.1,,,,,157.5,-167.5,167.5,,,,,,167.5,100,Amateur Open,M,B,Raw,,167.5,,1985
 4,Mikola Miroshnik,Микола Мірошник,Ukraine,100,,,,,160,167.5,-170,,,,,,167.5,100,Amateur Open,M,B,Raw,,167.5,,1989
 5,Dmitro Katekhin,Дмитро Катехін,Ukraine,98.2,,,,,150,155,-160,,,,,,155,100,Amateur Open,M,B,Raw,,155,,1989
@@ -164,12 +164,12 @@ DQ,Anton Popov,Антон Попов,Ukraine,73.5,-190,-190,-190,,-150,,,,-200,,
 2,Oleksandr Lavrik,Олександр Лаврик,Ukraine,108.9,,,,,160,175,-182.5,,,,,,175,110,Amateur Open,M,B,Raw,,175,,1986
 3,Viktor Bozhukha,Віктор Божуха,Ukraine,105.1,,,,,165,170,-175,,,,,,170,110,Amateur Open,M,B,Raw,,170,,1978
 4,Roman Rudenko,Роман Руденко,Ukraine,110,,,,,160,165,-175,,,,,,165,110,Amateur Open,M,B,Raw,,165,,1990
-5,Evgeniy Goncharenko,Євгеній Гончаренко,Ukraine,102.7,,,,,140,150,155,,,,,,155,110,Amateur Open,M,B,Raw,,155,,1990
+5,Evgeniy Goncharenko #1,Євгеній Гончаренко,Ukraine,102.7,,,,,140,150,155,,,,,,155,110,Amateur Open,M,B,Raw,,155,,1990
 1,Vadim Tikhonov,Вадим Тихонов,Ukraine,116.2,,,,,180,200,205,,,,,,205,125,Amateur Open,M,B,Raw,,205,,1985
 2,Sergiy Shumskiy,Сергій Шумський,Ukraine,115,,,,,150,162.5,172.5,,,,,,172.5,125,Amateur Open,M,B,Raw,,172.5,,1985
 1,Andriy Tkachuk,Андрій Ткачук,Ukraine,128.2,,,,,185,192.5,195,,,,,,195,140,Amateur Open,M,B,Raw,,195,,1989
 2,Oleksandr Belobokov,Олександр Бєлобоков,Ukraine,134.2,,,,,180,190,-197.5,,,,,,190,140,Amateur Open,M,B,Raw,,190,,1986
-1,Ivan Timokhin,Іван Тимохін,Ukraine,90,,,,,100,-115,-120,,,,,,100,90,Amateur Submasters 33-39,M,B,Raw,,100,,1980
+1,Ivan Timokhin,Іван Тімохін,Ukraine,90,,,,,100,-115,-120,,,,,,100,90,Amateur Submasters 33-39,M,B,Raw,,100,,1980
 1,Vasil Buryak,Василь Буряк,Ukraine,95.1,,,,,160,167.5,170,,,,,,170,100,Amateur Submasters 33-39,M,B,Raw,,170,,1982
 2,Vitaliy Pokinchereda,Віталій Покиньчереда,Ukraine,95.9,,,,,160,170,-172.5,,,,,,170,100,Amateur Submasters 33-39,M,B,Raw,,170,,1976
 3,Grigoriy Danielyan,Григорій Даніелян,Ukraine,93.6,,,,,160,167.5,-170,,,,,,167.5,100,Amateur Submasters 33-39,M,B,Raw,,167.5,,1980
@@ -178,12 +178,12 @@ DQ,Anton Popov,Антон Попов,Ukraine,73.5,-190,-190,-190,,-150,,,,-200,,
 1,Ivan Ostashevskiy,Іван Осташевський,Ukraine,119.2,,,,,130,-140,-140,,,,,,130,125,Amateur Submasters 33-39,M,B,Raw,,130,,1982
 1,Igor Radets,Ігор Радець,Ukraine,81.6,,,,,120,125,-130,,,,,,125,82.5,Amateur Masters 40-44,M,B,Raw,,125,,1974
 1,Dmitro Lutsenko,Дмитро Луценко,Ukraine,88.7,,,,,85,-90,95,,,,,,95,90,Amateur Masters 40-44,M,B,Raw,,95,,1971
-2,Stanislav Afanasev,Станіслав Афанасьєв,Ukraine,86.5,,,,,70,80,-90,,,,,,80,90,Amateur Masters 40-44,M,B,Raw,,80,,1972
+2,Stanislav Afanasev #1,Станіслав Афанасьєв,Ukraine,86.5,,,,,70,80,-90,,,,,,80,90,Amateur Masters 40-44,M,B,Raw,,80,,1972
 1,Oleg Kovbasa,Олег Ковбаса,Ukraine,98.8,,,,,120,125,130,,,,,,130,100,Amateur Masters 40-44,M,B,Raw,,130,,1975
 DQ,Denis Romanenko,Денис Романенко,Ukraine,109.9,,,,,-135,-140,-140,,,,,,,110,Amateur Masters 40-44,M,B,Raw,,,,1974
 1,Roman Bezbrazhniy,Роман Безбражний,Ukraine,123.4,,,,,120,130,140,,,,,,140,125,Amateur Masters 40-44,M,B,Raw,,140,,1974
 1,Gennadiy Ivanchenko,Геннадій Іванченко,Ukraine,76.9,,,,,-80,85,90,,,,,,90,82.5,Amateur Masters 45-49,M,B,Raw,,90,,1966
-1,V'Yacheslav Telyura,В'ячеслав Телюра,Ukraine,99.6,,,,,167.5,172.5,175,,,,,,175,100,Amateur Masters 45-49,M,B,Raw,,175,,1967
+1,V'yacheslav Telyura,В'ячеслав Телюра,Ukraine,99.6,,,,,167.5,172.5,175,,,,,,175,100,Amateur Masters 45-49,M,B,Raw,,175,,1967
 1,Pavlo Kipnyak,Павло Кіпняк,Ukraine,109,,,,,140,150,160,,,,,,160,110,Amateur Masters 45-49,M,B,Raw,,160,,1969
 1,Oleg Brazhnik,Олег Бражник,Ukraine,158.6,,,,,115,120,-125,,,,,,120,140+,Amateur Masters 45-49,M,B,Raw,,120,,1970
 1,Oleksandr Kalkutin,Олександр Калкутін,Ukraine,125,,,,,100,-120,,,,,,,100,125,Amateur Masters 50-54,M,B,Raw,,100,,1965
@@ -210,8 +210,8 @@ DQ,Katerina Burlachenko,Катерина Бурлаченко,Ukraine,42.4,,,,,-
 3,Nataliya Kushvid,Наталія Кушвід,Ukraine,51,,,,,42.5,45,-47.5,,,,,,45,52,Amateur Open,F,B,Raw,,45,,1977
 DQ,Svitlana Baganets,Світлана Баганець,Ukraine,51.5,,,,,-47.5,-47.5,-47.5,,,,,,,52,Amateur Open,F,B,Raw,,,,1988
 1,Olga Dombrovska,Ольга Домбровська,Ukraine,54.6,,,,,-70,70,-75,,,,,,70,56,Amateur Open,F,B,Raw,,70,,1983
-2,Mariya Markovich,Марія Маркович,Ukraine,56,,,,,47.5,50,52.5,,,,,,52.5,56,Amateur Open,F,B,Raw,,52.5,,1985
-1,Viktoriya Kalashnikova,Вікторія Калашнікова,Ukraine,58.3,,,,,-50,57.5,-62.5,,,,,,57.5,60,Amateur Open,F,B,Raw,,57.5,,1985
+2,Mariya Markovich #1,Марія Маркович,Ukraine,56,,,,,47.5,50,52.5,,,,,,52.5,56,Amateur Open,F,B,Raw,,52.5,,1985
+1,Viktoriya Kalashnikova #1,Вікторія Калашнікова,Ukraine,58.3,,,,,-50,57.5,-62.5,,,,,,57.5,60,Amateur Open,F,B,Raw,,57.5,,1985
 1,Nataliya Mavdrik,Наталія Мавдрик,Ukraine,66.6,,,,,80,82.5,-85,,,,,,82.5,67.5,Amateur Open,F,B,Raw,,82.5,,1984
 2,Olga Khoroshko,Ольга Хорошко,Ukraine,64.7,,,,,65,70,-72.5,,,,,,70,67.5,Amateur Open,F,B,Raw,,70,,1984
 3,Katerina Bessel,Катерина Бессель,Ukraine,67.5,,,,,62.5,-70,70,,,,,,70,67.5,Amateur Open,F,B,Raw,,70,,1991
@@ -221,7 +221,7 @@ DQ,Svitlana Baganets,Світлана Баганець,Ukraine,51.5,,,,,-47.5,-4
 1,Viktoriya Solntseva,Вікторія Солнцева,Ukraine,89,,,,,77.5,-82.5,85,,,,,,85,90,Amateur Open,F,B,Raw,,85,,1991
 1,Olena Rublova,Олена Рубльова,Ukraine,61,,,,,40,-45,-45,,,,,,40,67.5,Amateur Submasters 33-39,F,B,Raw,,40,,1975
 1,Oksana Muzika,Оксана Музика,Ukraine,67.5,,,,,65,-70,-70,,,,,,65,67.5,Amateur Masters 45-49,F,B,Raw,,65,,1969
-1,Aleksandr Scherbakov,,Transnistria,50.1,,,,,45,50,-55,,,,,,50,52,Pro Children 11-12,M,B,Raw,,50,,2003
+1,Aleksandr Scherbakov,,Transnistria,50.1,,,,,45,50,-55,,,,,,50,52,Pro Sub-Teen 11-12,M,B,Raw,,50,,2003
 1,Anatoliy Starostenko,Анатолій Старостенко,Ukraine,59.5,,,,,80,85,-92.5,,,,,,85,60,Pro Teen 16-17,M,B,Raw,,85,,1999
 1,Bogdan Leontiev,Богдан Леонтієв,Ukraine,79.6,,,,,105,115,-120,,,,,,115,82.5,Pro Teen 16-17,M,B,Raw,,115,,1999
 1,Pavlo Dolgirev,Павло Долгірєв,Ukraine,98.5,,,,,105,110,-117.5,,,,,,110,100,Pro Teen 16-17,M,B,Raw,,110,,1998
@@ -252,7 +252,7 @@ DQ,Evgen Sergienko,Євген Сергієнко,Ukraine,112,,,,,190,,,,,,,,,125
 3,Timofiy Kravchenko,Тимофій Кравченко,Ukraine,99.8,,,,,145,152.5,160,,,,,,160,100,Pro Submasters 33-39,M,B,Raw,,160,,1982
 1,Oleg Volkov,Олег Волков,Ukraine,98,,,,,160,165,175,,,,,,175,100,Pro Masters 40-44,M,B,Raw,,175,,1973
 2,Oleksandr Ploskiy,Олександр Плоский,Ukraine,91.1,,,,,140,147.5,-152.5,,,,,,147.5,100,Pro Masters 40-44,M,B,Raw,,147.5,,1974
-1,Vyacheslav Mintyuk,Вячеслав Мінтюк,Ukraine,71.1,,,,,130,-135,135,,,,,,135,75,Pro Masters 45-49,M,B,Raw,,135,,1968
+1,Vyacheslav Mintyuk,В'ячеслав Мінтюк,Ukraine,71.1,,,,,130,-135,135,,,,,,135,75,Pro Masters 45-49,M,B,Raw,,135,,1968
 2,Dmitro Barkov,Дмитро Барков,Ukraine,73.8,,,,,110,120,-130,,,,,,120,75,Pro Masters 45-49,M,B,Raw,,120,,1969
 1,Aleksandr Scherbakov,,Transnistria,89.7,,,,,215,225,-235,,,,,,225,90,Pro Masters 45-49,M,B,Raw,,225,,1966
 2,Igor Repan,Ігор Репан,Ukraine,87.4,,,,,150,165,-175,,,,,,165,90,Pro Masters 45-49,M,B,Raw,,165,,1969
@@ -277,7 +277,7 @@ DQ,Evgen Sergienko,Євген Сергієнко,Ukraine,112,,,,,190,,,,,,,,,125
 1,Viktor Bozhukha,Віктор Божуха,Ukraine,105.1,,,,,180,185,-190,,,,,,185,110,Amateur Submasters 33-39,M,B,Multi-ply,,185,,1978
 2,Sergiy Meritsa,Сергій Мерица,Ukraine,101.7,,,,,110,-150,-165,,,,,,110,110,Amateur Submasters 33-39,M,B,Multi-ply,,110,,1976
 1,Volodimir Migas,Володимир Мигас,Ukraine,88.8,,,,,220,232.5,237.5,,,,,,237.5,90,Amateur Masters 40-44,M,B,Multi-ply,,237.5,,1975
-1,Sergiy Kolesnik,Сергей Колесник,Ukraine,98.5,,,,,150,160,170,,,,,,170,100,Amateur Masters 50-54,M,B,Multi-ply,,170,,1963
+1,Sergiy Kolesnik,Сергій Колесник,Ukraine,98.5,,,,,150,160,170,,,,,,170,100,Amateur Masters 50-54,M,B,Multi-ply,,170,,1963
 1,Evgeniya Moskalenko,Євгенія Москаленко,Ukraine,67.4,,,,,50,55,-57.5,,,,,,55,67.5,Amateur Open,F,B,Multi-ply,,55,,1982
 1,Stanislav Chigirinskiy,Станіслав Чигиринський,Ukraine,77.5,,,,,120,130,140.5,,,,,,140.5,82.5,Pro Juniors 20-23,M,B,Multi-ply,,140.5,,1994
 1,Stanislav Chigirinskiy,Станіслав Чигиринський,Ukraine,77.5,,,,,120,130,140.5,,,,,,140.5,82.5,Pro Open,M,B,Multi-ply,,140.5,,1994
@@ -288,7 +288,7 @@ DQ,Evgen Sergienko,Євген Сергієнко,Ukraine,112,,,,,190,,,,,,,,,125
 1,Evgen Korotich,Євген Коротич,Ukraine,88.5,,,,,160,167.5,172.5,,,,,,172.5,90,Pro Submasters 33-39,M,B,Multi-ply,,172.5,,1977
 1,Volodimir Chigirinskiy,Володимир Чигиринський,Ukraine,88.6,,,,,145,155,-173,,,,,,155,90,Pro Masters 50-54,M,B,Multi-ply,,155,,1962
 DQ,Vyacheslav Tsyganok,Вячеслав Цыганок,Ukraine,100.1,,,,,-140,,,,,,,,,110,Pro Masters 75-79,M,B,Multi-ply,,,,1938
-1,Dmitro Zaets,Дмитро Заєць,Ukraine,47.5,,,,,,,,,110,117.5,-122.5,,117.5,48,Amateur Children 11-12,M,D,Raw,,,117.5,2002
+1,Dmitro Zaets,Дмитро Заєць,Ukraine,47.5,,,,,,,,,110,117.5,-122.5,,117.5,48,Amateur Sub-Teen 11-12,M,D,Raw,,,117.5,2002
 1,Oleksandr Ovcharenko,Олександр Овчаренко,Ukraine,60,,,,,,,,,80,-95,,,80,60,Amateur Teen 13-15,M,D,Raw,,,80,2001
 1,Mikita Grechko,Микита Гречко,Ukraine,75,,,,,,,,,125,132.5,-140,,132.5,75,Amateur Teen 13-15,M,D,Raw,,,132.5,2002
 1,Vladislav Bondar,Владислав Бондар,Ukraine,67.5,,,,,,,,,180,200,205,,205,67.5,Amateur Teen 16-17,M,D,Raw,,,205,1998
@@ -309,11 +309,11 @@ DQ,Vyacheslav Tsyganok,Вячеслав Цыганок,Ukraine,100.1,,,,,-140,,,
 2,Oleksiy Matlay,Олексій Матлай,Ukraine,90,,,,,,,,,180,202.5,210,,210,90,Amateur Juniors 20-23,M,D,Raw,,,210,1994
 3,Evgen Nikolenko,Євген Ніколенко,Ukraine,84.9,,,,,,,,,-185,185,-210,,185,90,Amateur Juniors 20-23,M,D,Raw,,,185,1994
 1,Danilo Udovik,Данило Удовик,Ukraine,110.5,,,,,,,,,180,200,-202.5,,200,125,Amateur Juniors 20-23,M,D,Raw,,,200,1992
-1,Dmitro Zaets,Дмитро Заєць,Ukraine,47.5,,,,,,,,,110,117.5,-122.5,,117.5,48,Amateur Open,M,D,Raw,,,117.5,2002
+1,Dmitro Zaets,Дмитро Заєць,Ukraine,47.5,,,,,,,,,110,117.5,-122.5,,117.5,52,Amateur Open,M,D,Raw,,,117.5,2002
 1,Oleksandr Ovcharenko,Олександр Овчаренко,Ukraine,60,,,,,,,,,80,-95,,,80,60,Amateur Open,M,D,Raw,,,80,2001
 1,Ivan Blokha,Іван Блоха,Ukraine,61.2,,,,,,,,,160,167.5,-175,,167.5,67.5,Amateur Open,M,D,Raw,,,167.5,1986
 1,Sergiy Koblitskiy,Сергій Коблицький,Ukraine,74.3,,,,,,,,,230,255,270,,270,75,Amateur Open,M,D,Raw,,,270,1987
-2,Oleksandr Shevchenko,Александр Шевченко,Ukraine,71.2,,,,,,,,,-225,-225,225,,225,75,Amateur Open,M,D,Raw,,,225,1980
+2,Oleksandr Shevchenko #4,Александр Шевченко,Ukraine,71.2,,,,,,,,,-225,-225,225,,225,75,Amateur Open,M,D,Raw,,,225,1980
 3,Vladislav Dotsenko,Владислав Доценко,Ukraine,75,,,,,,,,,195,205,-210,,205,75,Amateur Open,M,D,Raw,,,205,1987
 4,Dmitro Kondratenko,Дмитро Кондратенко,Ukraine,69.9,,,,,,,,,180,190,200,,200,75,Amateur Open,M,D,Raw,,,200,1986
 5,Mikita Grechko,Микита Гречко,Ukraine,75,,,,,,,,,125,132.5,-140,,132.5,75,Amateur Open,M,D,Raw,,,132.5,2002
@@ -322,7 +322,7 @@ DQ,Vyacheslav Tsyganok,Вячеслав Цыганок,Ukraine,100.1,,,,,-140,,,
 3,Sergiy Barishev,Сергій Баришев,Ukraine,82.1,,,,,,,,,185,195,202.5,,202.5,82.5,Amateur Open,M,D,Raw,,,202.5,1993
 4,Dmitro Kuksov,Дмитро Куксов,Ukraine,81.5,,,,,,,,,165,177.5,185,,185,82.5,Amateur Open,M,D,Raw,,,185,1990
 5,Viktor Finchenko,Віктор Фінченко,Ukraine,79.9,,,,,,,,,180,-202.5,-202.5,,180,82.5,Amateur Open,M,D,Raw,,,180,1985
-6,Denis Luk'Yanov,Денис Лук'Янов,Ukraine,80.2,,,,,,,,,150,160,-170,,160,82.5,Amateur Open,M,D,Raw,,,160,1991
+6,Denis Lukyanov,Денис Лукьянов,Ukraine,80.2,,,,,,,,,150,160,-170,,160,82.5,Amateur Open,M,D,Raw,,,160,1991
 DQ,Dmitro Bogomaz,Дмитро Богомаз,Ukraine,81,,,,,,,,,-200,-200,,,,82.5,Amateur Open,M,D,Raw,,,,1990
 1,Oleksandr Avakumov,Олександр Авакумов,Ukraine,88.5,,,,,,,,,235,245,252.5,,252.5,90,Amateur Open,M,D,Raw,,,252.5,1983
 2,Viktor Mezhevikin,Віктор Межевікін,Ukraine,85.2,,,,,,,,,220,240,-250,,240,90,Amateur Open,M,D,Raw,,,240,1994
@@ -337,11 +337,11 @@ DQ,Dmitro Bogomaz,Дмитро Богомаз,Ukraine,81,,,,,,,,,-200,-200,,,,82
 1,Vadim Tikhonov,Вадим Тихонов,Ukraine,116.2,,,,,,,,,240,260,280,,280,125,Amateur Open,M,D,Raw,,,280,1985
 2,Danilo Udovik,Данило Удовик,Ukraine,110.5,,,,,,,,,180,200,-202.5,,200,125,Amateur Open,M,D,Raw,,,200,1992
 1,Oleksiy Kudrin,Олексій Кудрін,Ukraine,62,,,,,,,,,150,160,170,,170,67.5,Amateur Submasters 33-39,M,D,Raw,,,170,1981
-1,Oleksandr Shevchenko,Александр Шевченко,Ukraine,71.2,,,,,,,,,-225,-225,225,,225,75,Amateur Submasters 33-39,M,D,Raw,,,225,1980
+1,Oleksandr Shevchenko #4,Александр Шевченко,Ukraine,71.2,,,,,,,,,-225,-225,225,,225,75,Amateur Submasters 33-39,M,D,Raw,,,225,1980
 2,Dmitro Znakhur,Дмитро Знахур,Ukraine,75,,,,,,,,,-155,-155,155,,155,75,Amateur Submasters 33-39,M,D,Raw,,,155,1981
-1,Ivan Timokhin,Іван Тимохін,Ukraine,90,,,,,,,,,160,175,-180,,175,90,Amateur Submasters 33-39,M,D,Raw,,,175,1980
+1,Ivan Timokhin,Іван Тімохін,Ukraine,90,,,,,,,,,160,175,-180,,175,90,Amateur Submasters 33-39,M,D,Raw,,,175,1980
 1,Maksim Fedorovskiy,Максим Федоровський,Ukraine,105.6,,,,,,,,,200,-215,-215,,200,110,Amateur Submasters 33-39,M,D,Raw,,,200,1982
-1,Stanislav Afanasev,Станіслав Афанасьєв,Ukraine,86.5,,,,,,,,,140,-150,150,,150,90,Amateur Masters 40-44,M,D,Raw,,,150,1972
+1,Stanislav Afanasev #1,Станіслав Афанасьєв,Ukraine,86.5,,,,,,,,,140,-150,150,,150,90,Amateur Masters 40-44,M,D,Raw,,,150,1972
 1,Pavlo Kipnyak,Павло Кіпняк,Ukraine,109,,,,,,,,,-170,180,190,,190,110,Amateur Masters 45-49,M,D,Raw,,,190,1969
 1,Oleg Brazhnik,Олег Бражник,Ukraine,158.6,,,,,,,,,150,170,180,,180,140+,Amateur Masters 45-49,M,D,Raw,,,180,1970
 1,Oleksandr Kalkutin,Олександр Калкутін,Ukraine,125,,,,,,,,,180,200,,,200,125,Amateur Masters 50-54,M,D,Raw,,,200,1965
@@ -360,7 +360,7 @@ DQ,Dmitro Bogomaz,Дмитро Богомаз,Ukraine,81,,,,,,,,,-200,-200,,,,82
 2,Olga Guliy,Ольга Гулій,Ukraine,51.4,,,,,,,,,100,110,115,,115,52,Amateur Open,F,D,Raw,,,115,1980
 3,Nataliya Kushvid,Наталія Кушвід,Ukraine,51,,,,,,,,,100,105,110,,110,52,Amateur Open,F,D,Raw,,,110,1977
 1,Karina Chepurna,Каріна Чепурна,Ukraine,55.3,,,,,,,,,110,-115,-115,,110,56,Amateur Open,F,D,Raw,,,110,1998
-2,Mariya Markovich,Марія Маркович,Ukraine,56,,,,,,,,,100,110,-117.5,,110,56,Amateur Open,F,D,Raw,,,110,1985
+2,Mariya Markovich #1,Марія Маркович,Ukraine,56,,,,,,,,,100,110,-117.5,,110,56,Amateur Open,F,D,Raw,,,110,1985
 3,Yuliya Levankova,Юлія Леванькова,Ukraine,53.7,,,,,,,,,85,97.5,105,,105,56,Amateur Open,F,D,Raw,,,105,1988
 4,Valeriya Sukonkina,Валерія Суконкіна,Ukraine,53.8,,,,,,,,,100,-110,-117.5,,100,56,Amateur Open,F,D,Raw,,,100,1983
 5,Taya Ruban,Тая Рубан,Ukraine,52.2,,,,,,,,,65,72.5,-85,,72.5,56,Amateur Open,F,D,Raw,,,72.5,1988
@@ -397,7 +397,7 @@ DQ,Dmitro Bogomaz,Дмитро Богомаз,Ukraine,81,,,,,,,,,-200,-200,,,,82
 2,Ruslan Vinnik,Руслан Вінник,Ukraine,104.4,,,,,,,,,270,-280,,,270,110,Pro Submasters 33-39,M,D,Raw,,,270,1980
 1,Andriy Tarnovskiy,Андрій Тарновський,Ukraine,87.5,,,,,,,,,210,220,-245,,220,90,Pro Masters 40-44,M,D,Raw,,,220,1973
 1,Boris Bogudin,Борис Богудін,Ukraine,109.2,,,,,,,,,270,-290,,,270,110,Pro Masters 40-44,M,D,Raw,,,270,1973
-1,Vyacheslav Kravchenko,Вячеслав Кравченко,Ukraine,96.8,,,,,,,,,200,220,240,,240,100,Pro Masters 45-49,M,D,Raw,,,240,1969
+1,V'yacheslav Kravchenko #1,Вячеслав Кравченко,Ukraine,96.8,,,,,,,,,200,220,240,,240,100,Pro Masters 45-49,M,D,Raw,,,240,1969
 1,Oleksandr Artemiev,Олександр Артем'Єв,Ukraine,86.8,,,,,,,,,100,110,120,,120,90,Pro Masters 55-59,M,D,Raw,,,120,1958
 1,Elizaveta Borsuk,Єлизавета Борсук,Ukraine,49.6,,,,,,,,,55,60,65,,65,52,Pro Teen 16-17,F,D,Raw,,,65,1998
 1,Yuliya Mikhalevich,Юлія Міхалевич,Ukraine,48,,,,,,,,,55,60,70,,70,48,Pro Juniors 20-23,F,D,Raw,,,70,1994

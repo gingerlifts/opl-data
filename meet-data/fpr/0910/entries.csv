@@ -1,5 +1,5 @@
 Place,Name,CyrillicName,Sex,WeightClassKg,BirthYear,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Division
-1,Nikolay Aksenov,Николай Аксёнов,M,56,1957,55.8,190,95,200,485,SBD,Single-ply,Open
+1,Nikolay Aksenov,Николай Аксенов,M,56,1957,55.8,190,95,200,485,SBD,Single-ply,Open
 2,Oleg Lisin,Олег Лисин,M,56,1987,55.85,140,85,155,380,SBD,Single-ply,Open
 1,Ruslan Mashinskiy,Руслан Машинский,M,60,1991,59.25,220,135,200,555,SBD,Single-ply,Open
 2,Emin Galbarov,Эмин Галбаров,M,60,1989,58.9,170,115,150,435,SBD,Single-ply,Open
@@ -19,7 +19,7 @@ Place,Name,CyrillicName,Sex,WeightClassKg,BirthYear,BodyweightKg,Best3SquatKg,Be
 9,Anton Litvinov,Антон Литвинов,M,75,1987,74.3,260,165,240,665,SBD,Single-ply,Open
 10,Oleg Ryabinnikov,Олег Рябинников,M,75,1978,73.3,265,140,240,645,SBD,Single-ply,Open
 11,Sergey Egorov,Сергей Егоров,M,75,1990,72.95,270,140,230,640,SBD,Single-ply,Open
-12,Dmitriy Ivanov,Дмитрий Иванов,M,75,1989,74.45,250,140,250,640,SBD,Single-ply,Open
+12,Dmitriy Ivanov #2,Дмитрий Иванов,M,75,1989,74.45,250,140,250,640,SBD,Single-ply,Open
 13,Nikita Saltykovv,Никита Салтыковв,M,75,1989,74.25,250,150,230,630,SBD,Single-ply,Open
 14,Timur Bikbulatov,Тимур Бикбулатов,M,75,1986,74.25,245,147.5,230,622.5,SBD,Single-ply,Open
 15,Nikolay Kulikov,Николай Куликов,M,75,1991,74.4,235,145,215,595,SBD,Single-ply,Open
@@ -30,7 +30,7 @@ DQ,Ivan Trunov,Иван Трунов,M,75,1992,73.95,245,,,,SBD,Single-ply,Open
 DQ,Denis Kamanin,Денис Каманин,M,75,1987,73.8,,,,,SBD,Single-ply,Open
 1,Konstantin Dyashkin,Константин Дяшкин,M,82.5,1984,81.7,325,215,320,860,SBD,Single-ply,Open
 2,Maxim Sharikov,Максим Шариков,M,82.5,1988,79.5,350,235,270,855,SBD,Single-ply,Open
-3,Aleksey Nikulin,Алексей Никулин,M,82.5,1982,81.75,325,215,280,820,SBD,Single-ply,Open
+3,Aleksey Nikulin #1,Алексей Никулин,M,82.5,1982,81.75,325,215,280,820,SBD,Single-ply,Open
 4,Nikolay Savostikov,Николай Савостиков,M,82.5,1982,82.25,310,200,285,795,SBD,Single-ply,Open
 5,Konstantin Konstantinov,Константин Константинов,M,82.5,1981,80.1,302.5,200,280,782.5,SBD,Single-ply,Open
 6,Igor Baranovskiy,Игорь Барановский,M,82.5,1981,81.2,290,195,265,750,SBD,Single-ply,Open
@@ -108,9 +108,9 @@ DQ,Sergey Khromov,Сергей Хромов,M,100,1973,98.55,,,,,SBD,Single-ply,
 14,Roman Bazuev,Роман Базуев,M,110,1983,108.35,305,215,290,810,SBD,Single-ply,Open
 15,Andrey Belyaev #2,Андрей Беляев,M,110,1980,105.95,305,210,280,795,SBD,Single-ply,Open
 16,Aleksandr Fateev,Александр Фатеев,M,110,1983,106.7,310,210,275,795,SBD,Single-ply,Open
-17,Aleksandr Kuznetsov,Александр Кузнецов,M,110,1978,109.65,290,215,290,795,SBD,Single-ply,Open
+17,Aleksandr Kuznetsov #19,Александр Кузнецов,M,110,1978,109.65,290,215,290,795,SBD,Single-ply,Open
 18,Sergey Titkov,Сергей Титков,M,110,1985,108.15,295,165,280,740,SBD,Single-ply,Open
-1,Maksim Korotkov,Максим Коротков,M,125,1974,123.45,385,277.5,337.5,1000,SBD,Single-ply,Open
+1,Maksim Korotkov #1,Максим Коротков,M,125,1974,123.45,385,277.5,337.5,1000,SBD,Single-ply,Open
 2,Dmitriy Seregin,Дмитрий Серегин,M,125,1979,116.25,350,260,290,900,SBD,Single-ply,Open
 3,Vladimir Gavrin,Владимир Гаврин,M,125,1974,118.85,370,245,270,885,SBD,Single-ply,Open
 4,Ivan Beloglazov,Иван Белоглазов,M,125,1985,120.2,340,220,275,835,SBD,Single-ply,Open
@@ -119,7 +119,7 @@ DQ,Sergey Khromov,Сергей Хромов,M,100,1973,98.55,,,,,SBD,Single-ply,
 7,Artur Manukyan,Артур Манукян,M,125,1988,123.95,325,220,280,825,SBD,Single-ply,Open
 8,Ilya Danilenko,Илья Даниленко,M,125,1982,116.25,320,210,280,810,SBD,Single-ply,Open
 9,Sergey Stepanov,Сергей Степанов,M,125,1978,118.2,285,250,275,810,SBD,Single-ply,Open
-10,Andrey Pavlov,Андрій Павлов,M,125,1971,119.3,320,212.5,260,792.5,SBD,Single-ply,Open
+10,Andrey Pavlov #1,Андрей Павлов,M,125,1971,119.3,320,212.5,260,792.5,SBD,Single-ply,Open
 11,Aleksey Durov,Алексей Дуров,M,125,1989,114,300,210,265,775,SBD,Single-ply,Open
 12,Ilya Subochev,Илья Субочев,M,125,1985,119.55,310,175,280,765,SBD,Single-ply,Open
 13,Aleksandr Markovtsev,Александр Марковцев,M,125,1972,122.45,290,195,280,765,SBD,Single-ply,Open
@@ -149,7 +149,7 @@ DQ,Olga Rozhkova,Ольга Рожкова,F,48,1974,47.75,,,,,SBD,Single-ply,Op
 2,Natalya Sanina,Наталья Санина,F,60,1986,58.85,125,70,150,345,SBD,Single-ply,Open
 1,Narine Arushanova,Наринэ Арушанова,F,67.5,1991,65.2,160,90,165,415,SBD,Single-ply,Open
 2,Aleksandra Chizhikova,Александра Чижикова,F,67.5,1974,65.95,115,80,125,320,SBD,Single-ply,Open
-1,Mariia Panferova,Мария Панферова,F,75,1977,74.25,210,155,215,580,SBD,Single-ply,Open
+1,Mariya Panferova,Мария Панферова,F,75,1977,74.25,210,155,215,580,SBD,Single-ply,Open
 2,Lyudmila Chechulina,Людмила Чечулина,F,75,1984,70,167.5,97.5,172.5,437.5,SBD,Single-ply,Open
 3,Evgeniya Boldakova,Евгения Болдакова,F,75,1988,71.7,170,90,167.5,427.5,SBD,Single-ply,Open
 4,Natalya Kuzina,Наталья Кузина,F,75,1991,74.15,180,82.5,152.5,415,SBD,Single-ply,Open

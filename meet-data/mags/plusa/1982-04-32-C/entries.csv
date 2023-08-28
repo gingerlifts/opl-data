@@ -2,7 +2,7 @@ Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 M. Schuette,44,Open,F,90.72,36.29,108.86,235.87,SBD,Single-ply,1
 Pam Farver,48,Open,F,106.59,52.16,127.01,285.76,SBD,Single-ply,1
 T. Vallier,48,Open,F,70.31,36.29,99.79,206.38,SBD,Single-ply,2
-V. Mitchell,52,Open,F,90.72,40.82,117.93,249.48,SBD,Single-ply,1
+Vicki Mitchell,52,Open,F,90.72,40.82,117.93,249.48,SBD,Single-ply,1
 L. Rhoades,52,Open,F,83.91,45.36,117.93,247.21,SBD,Single-ply,2
 Minnie Roberts,52,Open,F,70.31,38.56,92.99,201.85,SBD,Single-ply,3
 Jan Moir,56,Open,F,99.79,49.9,133.81,283.5,SBD,Single-ply,1
@@ -12,7 +12,7 @@ L. Nagy,60,Open,F,99.79,45.36,117.93,263.08,SBD,Single-ply,1
 Marci Mitchell,67.5,Open,F,136.08,49.9,117.93,303.91,SBD,Single-ply,1
 V. Breon,67.5,Open,F,108.86,49.9,131.54,290.3,SBD,Single-ply,2
 B. McKay,67.5,Open,F,113.4,40.82,120.2,274.42,SBD,Single-ply,3
-V. Goss,67.5+,Open,F,120.2,56.7,140.61,317.52,SBD,Single-ply,1
+Vickey Goss,67.5+,Open,F,120.2,56.7,140.61,317.52,SBD,Single-ply,1
 Stacy Forsberg,67.5+,Open,F,108.86,58.97,133.81,301.64,SBD,Single-ply,2
 Sue Pickens,67.5+,Open,F,99.79,63.5,131.54,294.84,SBD,Single-ply,3
 Mary Trevithick,67.5+,Open,F,127.01,45.36,122.47,294.84,SBD,Single-ply,4
@@ -49,7 +49,7 @@ J. Whitty,82.5,Open,M,208.65,124.74,206.38,539.78,SBD,Single-ply,6
 P. Forsberg,82.5,Open,M,208.65,113.4,215.46,537.51,SBD,Single-ply,7
 Jay Drzewiecki,90,Open,M,274.42,222.26,288.03,784.72,SBD,Single-ply,1
 David Kenne,90,Open,M,290.3,161.03,274.42,725.75,SBD,Single-ply,2
-B. Batko,90,Open,M,231.33,124.74,272.16,628.23,SBD,Single-ply,3
+Bob Batko,90,Open,M,231.33,124.74,272.16,628.23,SBD,Single-ply,3
 Dennis Billock,90,Open,M,215.46,156.49,244.94,616.89,SBD,Single-ply,4
 Greg McMillan,90,Open,M,195.04,140.61,249.48,585.13,SBD,Single-ply,5
 J. Vallier,90,Open,M,149.69,122.47,199.58,471.74,SBD,Single-ply,6
@@ -58,7 +58,7 @@ R. Rhoades,90,Open,M,120.2,83.91,190.51,394.63,SBD,Single-ply,8
 Denny Harrison,100,Open,M,310.71,181.44,278.96,771.11,SBD,Single-ply,1
 T. Harmsworthy,100,Open,M,263.08,190.51,260.82,714.41,SBD,Single-ply,2
 Don Yezbick,100,Open,M,247.21,190.51,249.48,687.19,SBD,Single-ply,3
-G. Parry,100,Open,M,222.26,167.83,251.74,641.83,SBD,Single-ply,4
+Greg Parry,100,Open,M,222.26,167.83,251.74,641.83,SBD,Single-ply,4
 Gary Krueger,100,Open,M,226.8,156.49,244.94,628.23,SBD,Single-ply,5
 D. Newkirk,100,Open,M,231.33,140.61,247.21,619.15,SBD,Single-ply,6
 K. Clark,100,Open,M,222.26,158.76,235.87,616.89,SBD,Single-ply,7
@@ -74,7 +74,7 @@ Larry Rivard,110,Open,M,244.94,147.42,244.94,637.3,SBD,Single-ply,6
 Alan Frank,110,Open,M,226.8,145.15,226.8,598.74,SBD,Single-ply,7
 C. Smith,125,Open,M,260.82,181.44,290.3,732.55,SBD,Single-ply,1
 John Parr,125,Open,M,288.03,167.83,276.69,732.55,SBD,Single-ply,1
-John Patterson,125,Open,M,267.62,197.31,260.82,725.75,SBD,Single-ply,2
+John Patterson #1,125,Open,M,267.62,197.31,260.82,725.75,SBD,Single-ply,2
 T. Bushey,125,Open,M,249.48,154.22,281.23,684.93,SBD,Single-ply,3
 Jim Heft,125,Open,M,238.14,113.4,235.87,587.4,SBD,Single-ply,4
 J. Kreh,125+,Open,M,263.08,145.15,272.16,680.39,SBD,Single-ply,1

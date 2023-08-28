@@ -8,7 +8,7 @@ Div 2,51.71,6,Daniel Porras,Orange Grove,51.07,140.61,70.31,163.29,374.21,Single
 Div 2,51.71,7,Reese Turner,Tyler Chapel Hill,51.53,136.08,70.31,154.22,360.61,Single-ply,SBD,M
 Div 2,51.71,8,Zach Ramirez,Decatur,50.71,136.08,72.57,142.88,351.53,Single-ply,SBD,M
 Div 2,55.79,9,Dustin Richardson,Lake Worth,51.89,111.13,61.23,167.83,340.19,Single-ply,SBD,M
-Div 2,51.71,10,Jose Garcia,Brownfield,49.99,104.33,63.5,129.27,297.1,Single-ply,SBD,M
+Div 2,51.71,10,Jose Garcia #1,Brownfield,49.99,104.33,63.5,129.27,297.1,Single-ply,SBD,M
 Div 2,51.71,11,Daniel Valenzuela,Pecos,51.71,113.4,58.97,122.47,294.84,Single-ply,SBD,M
 Div 2,51.71,12,Regan Ficken,Orangefield,48.9,127.01,56.7,108.86,292.57,Single-ply,SBD,M
 Div 2,55.79,1,Dillan Brown,Decatur,54.79,195.04,99.79,188.24,483.08,Single-ply,SBD,M
@@ -24,7 +24,7 @@ Div 2,55.79,10,Zach Hernandez,Big Spring,54.79,154.22,79.38,161.03,394.63,Single
 Div 2,55.79,11,Brett Salas,Lubbock Cooper,54.61,149.69,74.84,167.83,392.36,Single-ply,SBD,M
 Div 2,55.79,DQ,Josh Courvelle,Shepherd,55.7,,,,,Single-ply,SBD,M
 Div 2,59.87,1,Brandan Corn,Liberty Hill,59.6,206.38,122.47,204.12,532.97,Single-ply,SBD,M
-Div 2,59.87,2,Victor Aguilar,Caldwell,57.06,204.12,124.74,179.17,508.02,Single-ply,SBD,M
+Div 2,59.87,2,Victor Aguilar #1,Caldwell,57.06,204.12,124.74,179.17,508.02,Single-ply,SBD,M
 Div 2,59.87,3,Alejandro Beltran,Decatur,59.06,188.24,108.86,185.97,483.08,Single-ply,SBD,M
 Div 2,59.87,4,Angel Guerrero,Levelland,59.51,204.12,79.38,190.51,474,Single-ply,SBD,M
 Div 2,67.13,5,Coe Kubicek,Seminole,59.96,183.7,102.06,183.7,469.47,Single-ply,SBD,M
@@ -59,7 +59,7 @@ Div 2,74.84,9,Dawson Hawthorne,Graham,72.67,195.04,122.47,206.38,523.9,Single-pl
 Div 2,74.84,10,Sam Nemir,Sweetwater,74.12,195.04,120.2,197.31,512.56,Single-ply,SBD,M
 Div 2,74.84,11,Ryan Linebaugh,Sweetwater,70.31,181.44,108.86,199.58,489.88,Single-ply,SBD,M
 Div 2,74.84,DQ,Pedro Molina,Somerset,74.48,204.12,,,,Single-ply,SBD,M
-Div 2,74.84,DQ,Jordan Taylor,Waco La Vega,69.85,213.19,,,,Single-ply,SBD,M
+Div 2,74.84,DQ,Jordan Taylor #1,Waco La Vega,69.85,213.19,,,,Single-ply,SBD,M
 Div 2,74.84,DQ,Johnny Kilgore,Kemp,74.66,222.26,127.01,,,Single-ply,SBD,M
 Div 2,89.81,1,D'Vonte Daniels,La Grange,82.28,258.55,172.37,249.48,680.39,Single-ply,SBD,M
 Div 2,82.1,2,Tyler McCoy,Giddings,78.29,244.94,156.49,233.6,635.03,Single-ply,SBD,M
@@ -86,7 +86,7 @@ Div 2,89.81,DQ,Tim Bergara,Brownfield,87.91,217.72,,,,Single-ply,SBD,M
 Div 2,89.81,DQ,Mitchell Bateman,Argyle,88.09,,,,,Single-ply,SBD,M
 Div 2,89.81,DQ,Nathan Brantner,Splendora,88.45,226.8,,,,Single-ply,SBD,M
 Div 2,89.81,DQ,Triston Leaks,Canton,89.45,226.8,151.95,,,Single-ply,SBD,M
-Div 2,99.79,1,Darren Stewart,Splendora,96.43,312.98,181.44,269.89,764.3,Single-ply,SBD,M
+Div 2,99.79,1,Darren Stewart #1,Splendora,96.43,312.98,181.44,269.89,764.3,Single-ply,SBD,M
 Div 2,99.79,2,Shane Stankus,Bridge City,99.61,283.5,165.56,297.1,746.16,Single-ply,SBD,M
 Div 2,99.79,3,Cameron Medford,Pilot Point,94.08,278.96,206.38,247.21,732.55,Single-ply,SBD,M
 Div 2,99.79,4,Rodney Brown,Navasota,96.62,267.62,176.9,272.16,716.68,Single-ply,SBD,M
@@ -131,7 +131,7 @@ Div 2,124.74+,3,Thomas Luce,Bridge City,125.46,326.59,190.51,254.01,771.11,Singl
 Div 2,124.74+,4,Willie Hights,Yoakum,151.77,340.19,170.1,251.74,762.04,Single-ply,SBD,M
 Div 2,124.74+,5,Miguel Estrada,Rockport-Fulton,146.87,306.17,181.44,269.89,757.5,Single-ply,SBD,M
 Div 2,124.74+,6,Ray Cortez,Decatur,136.8,269.89,176.9,274.42,721.21,Single-ply,SBD,M
-Div 2,124.74+,7,Nick Richardson,Athens,130.73,272.16,156.49,260.82,689.46,Single-ply,SBD,M
+Div 2,124.74+,7,Nick Richardson #3,Athens,130.73,272.16,156.49,260.82,689.46,Single-ply,SBD,M
 Div 2,124.74+,8,Sam Schomp,Lindale,141.79,272.16,161.03,240.4,673.58,Single-ply,SBD,M
 Div 2,124.74+,9,Al Valderas,Levelland,160.48,299.37,147.42,224.53,671.32,Single-ply,SBD,M
 Div 2,124.74+,10,Allen Hodge,Hillsboro,127.01,263.08,170.1,235.87,669.05,Single-ply,SBD,M

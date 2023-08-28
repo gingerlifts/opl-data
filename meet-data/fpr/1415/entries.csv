@@ -26,7 +26,7 @@ DQ,Irina Isaenko,Ирина Исаенко,57,F,1976,Open,56.25,-75,-75,-75,,,B,
 1,Alevtina Ivanova,Алевтина Иванова,72,F,1971,Open,63.25,-70,70,-80,70,70,B,Single-ply
 1,Anatoliy Mironov,Анатолий Миронов,59,M,1995,Open,58.15,95,100,105,105,105,B,Raw
 2,Eduard Ivanov,Эдуард Иванов,59,M,1995,Open,59,90,95,-102.5,95,95,B,Raw
-3,Aleksey Petukhov,Алексей Петухов,59,M,1988,Open,59,67.5,72.5,77.5,77.5,77.5,B,Raw
+3,Aleksey Petukhov #1,Алексей Петухов,59,M,1988,Open,59,67.5,72.5,77.5,77.5,77.5,B,Raw
 1,Aleksandr Isachkin,Александр Исачкин,66,M,1972,Open,62.3,100,107.5,112.5,112.5,112.5,B,Raw
 2,Evgeniy Ryzhov,Евгений Рыжов,66,M,1987,Open,64.15,90,95,97.5,97.5,97.5,B,Raw
 3,Evgeniy Aleksandrov,Евгений Александров,66,M,1998,Open,63.4,77.5,82.5,90,90,90,B,Raw
@@ -36,7 +36,7 @@ DQ,Irina Isaenko,Ирина Исаенко,57,F,1976,Open,56.25,-75,-75,-75,,,B,
 3,Nikolay Koltsov,Николай Кольцов,74,M,1999,Open,70.7,67.5,72.5,75,75,75,B,Raw
 1,Leonid Izratov,Леонид Изратов,83,M,1975,Open,81.85,152.5,157.5,162.5,162.5,162.5,B,Raw
 2,Vyacheslav Mikhaylov,Вячеслав Михайлов,83,M,1976,Open,80.4,145,152.5,-157.5,152.5,152.5,B,Raw
-3,Aleksey Vasilev,Алексей Васильев,83,M,1978,Open,78.05,145,150,-157.5,150,150,B,Raw
+3,Aleksey Vasilev #3,Алексей Васильев,83,M,1978,Open,78.05,145,150,-157.5,150,150,B,Raw
 4,Aleksey Ignatev,Алексей Игнатьев,83,M,1983,Open,82.5,145,-152.5,-152.5,145,145,B,Raw
 5,Aleksey Bobylev,Алексей Бобылев,83,M,1985,Open,77.05,135,142.5,-147.5,142.5,142.5,B,Raw
 6,Dmitriy Talantsev,Дмитрий Таланцев,83,M,1985,Open,82.2,135,142.5,-152.5,142.5,142.5,B,Raw
@@ -82,13 +82,13 @@ DQ,Andrey Kraynov,Андрей Крайнов,93,M,1981,Open,88.65,-180,-180,-18
 2,Aleksandr Rzhantsov,Александр Ржанцов,66,M,1996,Sub-Juniors,63.75,90,95,-100,95,95,B,Single-ply
 3,Aleksey Nikitin,Алексей Никитин,66,M,1996,Sub-Juniors,63.75,85,87.5,90,90,90,B,Single-ply
 4,Denis Isaenko,Денис Исаенко,66,M,1998,Sub-Juniors,64.75,90,-95,-97.5,90,90,B,Single-ply
-5,Ivan Ivanov,Іван Іванов,66,M,1998,Sub-Juniors,64.95,85,90,-95,90,90,B,Single-ply
+5,Ivan Ivanov #6,Иван Иванов,66,M,1998,Sub-Juniors,64.95,85,90,-95,90,90,B,Single-ply
 6,Aleksandr Ferapontov,Александр Ферапонтов,66,M,1997,Sub-Juniors,66,80,85,-90,85,85,B,Single-ply
 7,Dmitriy Nikolaev,Дмитрий Николаев,66,M,1999,Sub-Juniors,60.75,-75,75,-77.5,75,75,B,Single-ply
 8,Aleksandr Grigorev,Александр Григорьев,66,M,2000,Sub-Juniors,59.4,65,67.5,-70,67.5,67.5,B,Single-ply
 DQ,Evgeniy Glazov,Евгений Глазов,66,M,1998,Sub-Juniors,63.65,-95,-95,-95,,,B,Single-ply
 DQ,Aleksey Afanasev,Алексей Афанасьев,66,M,1998,Sub-Juniors,63,-90,-90,-90,,,B,Single-ply
-1,Sergey Tarasov,Сергей Тарасов,66,M,1994,Juniors,63.75,110,-117.5,120,120,120,B,Single-ply
+1,Sergey Tarasov #1,Сергей Тарасов,66,M,1994,Juniors,63.75,110,-117.5,120,120,120,B,Single-ply
 2,Dmitriy Gavrilov,Дмитрий Гаврилов,66,M,1993,Juniors,65.4,110,115,-120,115,115,B,Single-ply
 1,Aleksey Brovkin,Алексей Бровкин,74,M,1997,Sub-Juniors,72.05,130,137.5,-145,137.5,137.5,B,Single-ply
 2,Maksim Zaykov,Максим Зайков,74,M,1997,Sub-Juniors,72.75,115,122.5,-127.5,122.5,122.5,B,Single-ply
@@ -102,7 +102,7 @@ DQ,Aleksey Afanasev,Алексей Афанасьев,66,M,1998,Sub-Juniors,63,-
 1,Nikita Lipchenko,Никита Липченко,74,M,1991,Juniors,71.35,-125,125,-130,125,125,B,Single-ply
 2,Aleksey Evdokimov,Алексей Евдокимов,74,M,1993,Juniors,73.1,110,-115,115,115,115,B,Single-ply
 1,Maksim Lukov,Максим Луков,74,M,1987,Open,73.7,135,145,-147.5,145,145,B,Single-ply
-2,Dmitriy Solovev,Дмитрий Соловьёв,74,M,1989,Open,66.4,70,72.5,75,75,75,B,Single-ply
+2,Dmitriy Solovyev #6,Дмитрий Соловьёв,74,M,1989,Open,66.4,70,72.5,75,75,75,B,Single-ply
 1,Sergey Sizov,Сергей Сизов,83,M,1982,Open,79.9,-165,165,-170,165,165,B,Single-ply
 2,Valeriy Aleksandrov,Валерий Александров,83,M,1962,Open,80,155,-160,160,160,160,B,Single-ply
 3,Yuriy Migushov,Юрий Мигушов,83,M,1984,Open,80.25,130,-140,-140,130,130,B,Single-ply
@@ -113,14 +113,14 @@ DQ,Aleksey Afanasev,Алексей Афанасьев,66,M,1998,Sub-Juniors,63,-
 5,Maksim Avanskiy,Максим Аванский,83,M,1994,Juniors,77.1,90,-105,-105,90,90,B,Single-ply
 1,Stanislav Amasev,Станислав Амасев,83,M,1996,Sub-Juniors,77.4,140,150,155,155,155,B,Single-ply
 2,Kirill Kruglov,Кирилл Круглов,83,M,1996,Sub-Juniors,81.3,150,-155,-157.5,150,150,B,Single-ply
-3,Aleksandr Kuznetsov,Александр Кузнецов,83,M,1997,Sub-Juniors,81.85,120,130,-135,130,130,B,Single-ply
+3,Aleksandr Kuznetsov #12,Александр Кузнецов,83,M,1997,Sub-Juniors,81.85,120,130,-135,130,130,B,Single-ply
 1,Pavel Targanov,Павел Тарганов,93,M,1998,Sub-Juniors,83.95,85,90,92.5,92.5,92.5,B,Single-ply
 2,Maksim Moskalev,Максим Москалев,93,M,1998,Sub-Juniors,89.45,62.5,65,67.5,67.5,67.5,B,Single-ply
 DQ,Roman Gromkov,Роман Громков,93,M,1998,Sub-Juniors,86.6,-135,-135,-135,,,B,Single-ply
 1,Arkadiy Poklakov,Аркадий Поклаков,93,M,1991,Juniors,92.65,190,200,-210,200,200,B,Single-ply
 2,Danila Volkov,Данила Волков,93,M,1991,Juniors,84.4,-192.5,192.5,-200,192.5,192.5,B,Single-ply
 3,Maksim Porfirev,Максим Порфирьев,93,M,1994,Juniors,89.6,150,157.5,160,160,160,B,Single-ply
-4,Pavel Zakharov,Павел Захаров,93,M,1993,Juniors,93,150,-157.5,-160,150,150,B,Single-ply
+4,Pavel Zakharov #1,Павел Захаров,93,M,1993,Juniors,93,150,-157.5,-160,150,150,B,Single-ply
 DQ,Nikolay Ivanov,Николай Иванов,93,M,1995,Juniors,87.95,-115,-115,-115,,,B,Single-ply
 1,Aleksandr Dudin,Александр Дудин,93,M,1985,Open,92.55,235,242.5,-245,242.5,242.5,B,Single-ply
 2,Maksim Fedchenko,Максим Федченко,93,M,1987,Open,90.8,195,-205,-205,195,195,B,Single-ply
@@ -144,5 +144,5 @@ DQ,Vasiliy Semenov,Василий Семенов,105,M,1993,Juniors,100.95,-160,
 4,Sergey Karpov,Сергей Карпов,120,M,1976,Open,105.3,185,200,-207.5,200,200,B,Single-ply
 5,Ramil Sharafutdinov,Рамиль Шарафутдинов,120,M,1990,Open,113.75,185,-195,-202.5,185,185,B,Single-ply
 DQ,Mikhail Serov,Михаил Серов,120,M,1974,Open,111.9,-250,-250,-260,,,B,Single-ply
-1,Dmitriy Ivanov,Дмитрий Иванов,120+,M,1984,Open,188,-320,-320,320,320,320,B,Single-ply
+1,Dmitriy Ivanov #1,Дмитрий Иванов,120+,M,1984,Open,188,-320,-320,320,320,320,B,Single-ply
 DQ,Andrey Zakharov,Андрей Захаров,120+,M,1974,Open,123.6,-290,-290,,,,B,Single-ply

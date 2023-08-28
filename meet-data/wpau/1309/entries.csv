@@ -1,5 +1,5 @@
 Place,Name,CyrillicName,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Deadlift4Kg,TotalKg,WeightClassKg,Division,Sex,Event,Equipment,Best3BenchKg,Best3DeadliftKg,BirthYear
-1,Pavlo Parnak,Павло Парнак,Ukraine,48,65,-70,70,,100,110,120,,190,48,Pro Teen 16-17,M,BD,Raw,70,120,1996
+1,Pavlo Parnak,Павло Парнак,Ukraine,48,65,-70,70,,100,110,120,,190,52,Pro Teen 16-17,M,BD,Raw,70,120,1996
 1,Valentin Litvechenko,Валентин Літвеченко,Ukraine,53.7,45,55,-60,,80,90,95,,150,56,Pro Teen 16-17,M,BD,Raw,55,95,1996
 1,Maksim Karasov,Максим Карасьов,Ukraine,71,90,-100,-100,,160,170,180,,270,75,Pro Teen 16-17,M,BD,Raw,90,180,1997
 1,Denis Fesenko,Денис Фесенко,Ukraine,85.8,140,145,-147.5,,215,-225,225,,370,90,Pro Juniors 20-23,M,BD,Raw,145,225,1984
@@ -29,7 +29,7 @@ DQ,Dmitro Cherkay,Дмитро Черкай,Ukraine,71.7,-150,-150,,,-230,,,,,75
 DQ,Maksim Fesun,Максим Фесун,Ukraine,,,,,,,,,,,100,Pro Teen 18-19,M,BD,Multi-ply,,,1995
 1,Oleksandr Levchenko,Олександр Левченко,Ukraine,81.2,-160,160,170,,-200,205,-220,,375,82.5,Pro Juniors 20-23,M,BD,Multi-ply,170,205,1992
 1,Arkadiy Shalokha,Аркадий Шалоха,Ukraine,75.3,-225,230,-245,,285,295,-302.5,,525,82.5,Pro Open,M,BD,Single-ply,230,295,1983
-1,Pavlo Parnak,Павло Парнак,Ukraine,48,65,-70,70,,,,,,70,48,Pro Teen 16-17,M,B,Raw,70,,1996
+1,Pavlo Parnak,Павло Парнак,Ukraine,48,65,-70,70,,,,,,70,52,Pro Teen 16-17,M,B,Raw,70,,1996
 1,Oleg Ogli,Олег Огли,Ukraine,65.8,-90,90,-100,,,,,,90,67.5,Pro Teen 16-17,M,B,Raw,90,,1996
 1,Volodimir Kolisnik,Володимир Колісник,Ukraine,71,125,132.5,-140,,,,,,132.5,75,Pro Teen 16-17,M,B,Raw,132.5,,1997
 DQ,Rostislav Kim,Ростислав Кім,Ukraine,85,,,,,,,,,,90,Pro Teen 16-17,M,B,Raw,,,1996
@@ -41,7 +41,7 @@ DQ,Evgen Kovalenko,Євген Коваленко,Ukraine,78.1,-130,-130,,,,,,,,8
 1,Evgen Nastenko,Євген Настенко,Ukraine,98,155,162.5,-170,,,,,,162.5,100,Pro Juniors 20-23,M,B,Raw,162.5,,1991
 DQ,Maksim Fedotov,Максим Федотов,Ukraine,93,160,,,,,,,,,100,Pro Juniors 20-23,M,B,Raw,160,,1991
 1,Valentin Kazmirenko,Валентин Казьміренко,Ukraine,107.7,170,180,-192.5,,,,,,180,110,Pro Juniors 20-23,M,B,Raw,180,,1991
-1,Anatoliy Mar'Enkov,Анатолій Мар'Єнков,Ukraine,65.3,100,110,-125,,,,,,110,67.5,Pro Open,M,B,Raw,110,,1988
+1,Anatoliy Mar'enkov,Анатолій Мар'єнков,Ukraine,65.3,100,110,-125,,,,,,110,67.5,Pro Open,M,B,Raw,110,,1988
 1,Oleg Mikhaylenko,Олег Михайленко,Ukraine,78.8,155,160,-167.5,,,,,,160,82.5,Pro Open,M,B,Raw,160,,1985
 2,Sergiy Chereshnev,Сергій Черешнєв,Ukraine,82.3,160,-167.5,-167.5,,,,,,160,82.5,Pro Open,M,B,Raw,160,,1978
 3,Maksim Kolodyazhniy,Максим Колодяжний,Ukraine,78.3,110,120,-125,,,,,,120,82.5,Pro Open,M,B,Raw,120,,1987
@@ -98,8 +98,8 @@ DQ,Konstyantin Martinenko,Констянтин Мартиненко,Ukraine,104.
 1,Kirilo Potapov,Кирило Потапов,Ukraine,98.5,,,,,220,230,-240,,230,100,Pro Military/Fire/Police,M,D,Raw,,230,1982
 1,Sergiy Palienko,Сергій Палієнко,Ukraine,94.8,,,,,250,262.5,270,,270,100,Pro Open,M,D,Multi-ply,,270,1987
 1,Yuriy Maligin,Юрій Малигін,Ukraine,102.5,,,,,170,185,200,,200,110,Pro Masters 45-49,M,D,Multi-ply,,200,1967
-1,Dmitro Zaets,Дмитро Заєць,Ukraine,33.6,35,-37.5,-37.5,,80,90,-95,,125,44,Amateur Children 10,M,BD,Raw,35,90,2002
-1,Dmitro Boronnikov,Дмитро Боронніков,Ukraine,51,30,32.5,-35,,75,80,-82.5,,112.5,52,Amateur Children 10,M,BD,Raw,32.5,80,2002
+1,Dmitro Zaets,Дмитро Заєць,Ukraine,33.6,35,-37.5,-37.5,,80,90,-95,,125,44,Amateur Youth 10,M,BD,Raw,35,90,2002
+1,Dmitro Boronnikov,Дмитро Боронніков,Ukraine,51,30,32.5,-35,,75,80,-82.5,,112.5,52,Amateur Youth 10,M,BD,Raw,32.5,80,2002
 1,Mikita Kravets,Микита Кравець,Ukraine,49.2,60,65,-67.5,,97.5,107.5,110,,175,52,Amateur Teen 13-15,M,BD,Raw,65,110,2000
 1,Vladislav Sklyarov,Владислав Скляров,Ukraine,67.4,82.5,-90,-90,,132.5,140,-145,,222.5,67.5,Amateur Teen 13-15,M,BD,Raw,82.5,140,1998
 1,Dmitro Nastekhin,Дмитро Настехін,Ukraine,69.1,82.5,90,92.5,,125,132.5,137.5,,230,75,Amateur Teen 13-15,M,BD,Raw,92.5,137.5,1997
@@ -113,7 +113,7 @@ DQ,Konstyantin Martinenko,Констянтин Мартиненко,Ukraine,104.
 2,Vladislav Neshcheret,Владислав Нещерет,Ukraine,68.7,70,80,85,,135,145,-157.5,,230,75,Amateur Teen 16-17,M,BD,Raw,85,145,1997
 1,Oleksandr Lushchinskiy,Олександр Лущинський,Ukraine,85.6,90,95,100,,175,185,195,,295,90,Amateur Teen 16-17,M,BD,Raw,100,195,1996
 1,Andriy Karaban,Андрій Карабан,Ukraine,95.1,125,130,135,,-222.5,-232.5,232.5,,367.5,100,Amateur Teen 16-17,M,BD,Raw,135,232.5,1997
-2,Dmitro Grigorev,Дмитро Григорьєв,Ukraine,92.8,102.5,107.5,112.5,,172.5,182.5,190,,302.5,100,Amateur Teen 16-17,M,BD,Raw,112.5,190,1997
+2,Dmitro Grigorev #2,Дмитро Григорьєв,Ukraine,92.8,102.5,107.5,112.5,,172.5,182.5,190,,302.5,100,Amateur Teen 16-17,M,BD,Raw,112.5,190,1997
 1,Maksim Markevich,Максим Маркевич,Ukraine,67.5,90,95,-100,,160,-175,-175,,255,67.5,Amateur Teen 18-19,M,BD,Raw,95,160,1994
 2,Yaroslav Kalugin,Ярослав Калугін,Ukraine,61,75,-80,-80,,165,175,-180,,250,67.5,Amateur Teen 18-19,M,BD,Raw,75,175,1994
 1,Yuriy Mar'Yanovskiy,Юрій Мар'яновський,Ukraine,80.7,120,-127.5,-132.5,,210,225,232.5,,352.5,82.5,Amateur Teen 18-19,M,BD,Raw,120,232.5,1995
@@ -133,7 +133,7 @@ DQ,Konstyantin Martinenko,Констянтин Мартиненко,Ukraine,104.
 1,Andriy Shchetinin,Андрій Щетінін,Ukraine,92.7,140,150,155,,240,260,275,,430,100,Amateur Juniors 20-23,M,BD,Raw,155,275,1990
 2,Danilo Udovik,Данило Удовик,Ukraine,94.8,102.5,107.5,112.5,,160,175,182.5,,295,100,Amateur Juniors 20-23,M,BD,Raw,112.5,182.5,1992
 1,Oleg Omelyanenko,Олег Омельяненко,Ukraine,101.6,140,147.5,-152.5,,-185,195,205,,352.5,110,Amateur Juniors 20-23,M,BD,Raw,147.5,205,1993
-1,Dmitro Zaets,Дмитро Заєць,Ukraine,33.6,35,-37.5,-37.5,,80,90,-95,,125,44,Amateur Open,M,BD,Raw,35,90,2002
+1,Dmitro Zaets,Дмитро Заєць,Ukraine,33.6,35,-37.5,-37.5,,80,90,-95,,125,52,Amateur Open,M,BD,Raw,35,90,2002
 1,Mikita Kravets,Микита Кравець,Ukraine,49.2,60,65,-67.5,,97.5,107.5,110,,175,52,Amateur Open,M,BD,Raw,65,110,2000
 1,Vitaliy Muzika,Віталій Музика,Ukraine,66.4,102.5,107.5,110,,182.5,190,200,,310,67.5,Amateur Open,M,BD,Raw,110,200,1995
 2,Vladislav Sklyarov,Владислав Скляров,Ukraine,67.4,82.5,-90,-90,,132.5,140,-145,,222.5,67.5,Amateur Open,M,BD,Raw,82.5,140,1998
@@ -151,7 +151,7 @@ DQ,Konstyantin Martinenko,Констянтин Мартиненко,Ukraine,104.
 DQ,Denis Feklistov,Денис Феклістов,Ukraine,97.3,-140,-140,-140,,-200,,,,,100,Amateur Open,M,BD,Raw,,,1986
 1,Sergiy Bessel,Сергій Бессель,Ukraine,106.7,165,172.5,-180,,240,257.5,262.5,,435,110,Amateur Open,M,BD,Raw,172.5,262.5,1984
 2,Artem Prisyazhniy,Артем Присяжний,Ukraine,107.2,155,-160,-160,,260,272.5,280,,435,110,Amateur Open,M,BD,Raw,155,280,1981
-DD,Vitaliy Alekseev,Віталій Алексеєв,Ukraine,103.3,165,175,185,,300,320,335,,,110,Amateur Open,M,BD,Raw,185,335,1988
+DD,Vitaliy Alekseev #1,Віталій Алексеєв,Ukraine,103.3,165,175,185,,300,320,335,,,110,Amateur Open,M,BD,Raw,185,335,1988
 1,Rodion Kuprin,Родіон Купрін,Ukraine,119.5,170,182.5,-185,,230,240,,,422.5,125,Amateur Open,M,BD,Raw,182.5,240,1981
 1,Volodimir Lesnyak,Володимир Лесняк,Ukraine,108.9,130,145,-155,,190,212.5,220,,365,110,Amateur Submasters 33-39,M,BD,Raw,145,220,1977
 1,Mikhaylo Sizikh,Михайло Сізих,Ukraine,80.1,110,115,-117.5,,130,135,-140,,250,82.5,Amateur Masters 50-54,M,BD,Raw,115,135,1962
@@ -173,8 +173,8 @@ DQ,Tetyana Degtyar,Тетяна Дегтяр,Ukraine,54.9,-57.5,-57.5,-57.5,,-11
 1,Anton Popov,Антон Попов,Ukraine,73.1,140,-147.5,147.5,,190,200,-205,,347.5,75,Amateur Open,M,BD,Multi-ply,147.5,200,1989
 1,Igor Andrusik,Ігор Андрусик,Ukraine,79.4,150,155,162.5,,210,,,,372.5,82.5,Amateur Open,M,BD,Multi-ply,162.5,210,1988
 1,Sergiy Kovalov,Сергій Ковальов,Ukraine,92.7,195,202.5,-207.5,,200,212.5,,,415,100,Amateur Open,M,BD,Multi-ply,202.5,212.5,1988
-1,Dmitro Zaets,Дмитро Заєць,Ukraine,33.6,35,-37.5,-37.5,,,,,,35,44,Amateur Children 10,M,B,Raw,35,,2002
-1,Igor Starchenko,Ігор Старченко,Ukraine,59.5,50,55,57.5,,,,,,57.5,60,Amateur Children 11-12,M,B,Raw,57.5,,2001
+1,Dmitro Zaets,Дмитро Заєць,Ukraine,33.6,35,-37.5,-37.5,,,,,,35,44,Amateur Youth 10,M,B,Raw,35,,2002
+1,Igor Starchenko,Ігор Старченко,Ukraine,59.5,50,55,57.5,,,,,,57.5,60,Amateur Sub-Teen 11-12,M,B,Raw,57.5,,2001
 1,Mikita Kravets,Микита Кравець,Ukraine,49.2,60,65,-67.5,,,,,,65,52,Amateur Teen 13-15,M,B,Raw,65,,2000
 2,Yaroslav Prokopenko,Ярослав Прокопенко,Ukraine,51,-60,60,65,,,,,,65,52,Amateur Teen 13-15,M,B,Raw,65,,1998
 1,Vladislav Ponomarenko,Владислав Пономаренко,Ukraine,61.6,77.5,82.5,-87.5,,,,,,82.5,67.5,Amateur Teen 13-15,M,B,Raw,82.5,,1998
@@ -205,11 +205,11 @@ DD,Mikita Kornev,Микита Корнєв,Ukraine,89.3,130,-140,-140,,,,,,,90,A
 1,Bogdan Postoenko,Богдан Постоєнко,Ukraine,73,75,82.5,-85,,,,,,82.5,75,Amateur Juniors 20-23,M,B,Raw,82.5,,1991
 DQ,Igor Kashinskiy,Ігор Кашинський,Ukraine,74.4,-130,-130,,,,,,,,75,Amateur Juniors 20-23,M,B,Raw,,,1993
 1,Valeriy Khorechko,Валерій Хоречко,Ukraine,78.3,160,167.5,172.5,,,,,,172.5,82.5,Amateur Juniors 20-23,M,B,Raw,172.5,,1992
-2,Oleksandr Klimenko,Олександр Кліменко,Ukraine,76.1,135,140,145,,,,,,145,82.5,Amateur Juniors 20-23,M,B,Raw,145,,1990
+2,Oleksandr Klimenko #1,Олександр Кліменко,Ukraine,76.1,135,140,145,,,,,,145,82.5,Amateur Juniors 20-23,M,B,Raw,145,,1990
 3,Sergiy Marushkin,Сергій Марушкін,Ukraine,81.6,115,-125,-125,,,,,,115,82.5,Amateur Juniors 20-23,M,B,Raw,115,,1992
 1,Artem Salnik,Артем Сальник,Ukraine,86.5,100,105,107.5,,,,,,107.5,90,Amateur Juniors 20-23,M,B,Raw,107.5,,1990
 1,Oleksandr Varenya,Олександр Вареня,Ukraine,104.4,155,160,-162.5,,,,,,160,110,Amateur Juniors 20-23,M,B,Raw,160,,1990
-1,Dmitro Zaets,Дмитро Заєць,Ukraine,33.6,35,-37.5,-37.5,,,,,,35,44,Amateur Open,M,B,Raw,35,,2002
+1,Dmitro Zaets,Дмитро Заєць,Ukraine,33.6,35,-37.5,-37.5,,,,,,35,52,Amateur Open,M,B,Raw,35,,2002
 1,Mikita Kravets,Микита Кравець,Ukraine,49.2,60,65,-67.5,,,,,,65,52,Amateur Open,M,B,Raw,65,,2000
 1,Oleksiy Kudrin,Олексій Кудрін,Ukraine,59.4,85,-97.5,-97.5,,,,,,85,60,Amateur Open,M,B,Raw,85,,1981
 1,Evgen Shevchenko,Євген Шевченко,Ukraine,65.9,100,-110,110,,,,,,110,67.5,Amateur Open,M,B,Raw,110,,1989
@@ -219,7 +219,7 @@ DQ,Igor Kashinskiy,Ігор Кашинський,Ukraine,74.4,-130,-130,,,,,,,,7
 DQ,Denis Avramenko,Денис Авраменко,Ukraine,71.4,-125,-125,-125,,,,,,,75,Amateur Open,M,B,Raw,,,1981
 1,Valeriy Khorechko,Валерій Хоречко,Ukraine,78.3,160,167.5,172.5,,,,,,172.5,82.5,Amateur Open,M,B,Raw,172.5,,1992
 2,Vadim Bilan,Вадим Білан,Ukraine,81.4,145,150,155,,,,,,155,82.5,Amateur Open,M,B,Raw,155,,1987
-3,Oleksandr Klimenko,Олександр Кліменко,Ukraine,76.1,135,140,145,,,,,,145,82.5,Amateur Open,M,B,Raw,145,,1990
+3,Oleksandr Klimenko #1,Олександр Кліменко,Ukraine,76.1,135,140,145,,,,,,145,82.5,Amateur Open,M,B,Raw,145,,1990
 4,Oleksandr Gladkikh,Олександр Гладких,Ukraine,80.5,125,-132.5,-132.5,,,,,,125,82.5,Amateur Open,M,B,Raw,125,,1989
 5,Denis Sharapov,Денис Шарапов,Ukraine,81.7,120,-132.5,-132.5,,,,,,120,82.5,Amateur Open,M,B,Raw,120,,1987
 1,Pavlo Churyakov,Павло Чуряков,Ukraine,87.4,150,157.5,160,,,,,,160,90,Amateur Open,M,B,Raw,160,,1983
@@ -242,7 +242,7 @@ DQ,Denis Feklistov,Денис Феклістов,Ukraine,97.3,-140,-140,-140,,,,
 1,Evgen Zuy,Євген Зуй,Ukraine,66.9,135,-145,-145,,,,,,135,67.5,Amateur Military/Fire/Police,M,B,Raw,135,,1986
 1,Bogdan Postoenko,Богдан Постоєнко,Ukraine,73,75,82.5,-85,,,,,,82.5,75,Amateur Military/Fire/Police,M,B,Raw,82.5,,1991
 1,Sergiy Marushkin,Сергій Марушкін,Ukraine,81.6,115,-125,-125,,,,,,115,82.5,Amateur Military/Fire/Police,M,B,Raw,115,,1992
-1,Alla Smishlyaeva,Алла Смишляєва,Ukraine,59.1,40,47.5,-50,,,,,,47.5,60,Amateur Children 11-12,F,B,Raw,47.5,,2001
+1,Alla Smishlyaeva,Алла Смишляєва,Ukraine,59.1,40,47.5,-50,,,,,,47.5,60,Amateur Sub-Teen 11-12,F,B,Raw,47.5,,2001
 1,Yuliya Gamurar,Юлія Гамурар,Ukraine,59.5,57.5,-62.5,-62.5,,,,,,57.5,60,Amateur Teen 13-15,F,B,Raw,57.5,,1998
 1,Marina Pargentanyan,Марина Паргентанян,Ukraine,57,45,52.5,-57.5,,,,,,52.5,60,Amateur Teen 16-17,F,B,Raw,52.5,,1997
 1,Diana Korobova,Діана Коробова,Ukraine,60,55,57.5,-60,,,,,,57.5,60,Amateur Teen 18-19,F,B,Raw,57.5,,1994
@@ -263,7 +263,7 @@ DQ,Tamara Goncharova,Тамара Гончарова,Ukraine,,,,,,,,,,,56,Amateu
 1,Sergiy Kovalov,Сергій Ковальов,Ukraine,92.7,195,202.5,-207.5,,,,,,202.5,100,Amateur Open,M,B,Multi-ply,202.5,,1988
 DQ,Denis Kovalov,Денис Ковальов,Ukraine,,,,,,,,,,,100,Amateur Open,M,B,Multi-ply,,,1978
 1,Andriy Lomnitskiy,Андрій Ломницький,Ukraine,111.7,255,-260,-260,,,,,,255,125,Amateur Open,M,B,Multi-ply,255,,1980
-1,Dmitro Zaets,Дмитро Заєць,Ukraine,33.6,,,,,80,90,-95,,90,44,Amateur Children 10,M,D,Raw,,90,2002
+1,Dmitro Zaets,Дмитро Заєць,Ukraine,33.6,,,,,80,90,-95,,90,44,Amateur Youth 10,M,D,Raw,,90,2002
 1,Mikita Kravets,Микита Кравець,Ukraine,49.2,,,,,97.5,107.5,110,,110,52,Amateur Teen 13-15,M,D,Raw,,110,2000
 1,Vladislav Polivko,Владислав Поливко,Ukraine,92.4,,,,,140,150,160,,160,100,Amateur Teen 13-15,M,D,Raw,,160,1998
 1,Vitaliy Muzika,Віталій Музика,Ukraine,66.4,,,,,182.5,190,200,,200,67.5,Amateur Teen 16-17,M,D,Raw,,200,1995
@@ -282,7 +282,7 @@ DQ,Denis Kovalov,Денис Ковальов,Ukraine,,,,,,,,,,,100,Amateur Open,
 2,Andriy Korpusenko,Андрій Корпусенко,Ukraine,87.3,,,,,185,-190,190,,190,90,Amateur Juniors 20-23,M,D,Raw,,190,1991
 3,Artem Salnik,Артем Сальник,Ukraine,86.5,,,,,150,160,165,,165,90,Amateur Juniors 20-23,M,D,Raw,,165,1990
 1,Andriy Shchetinin,Андрій Щетінін,Ukraine,92.7,,,,,240,260,275,,275,100,Amateur Juniors 20-23,M,D,Raw,,275,1990
-1,Dmitro Zaets,Дмитро Заєць,Ukraine,33.6,,,,,80,90,-95,,90,44,Amateur Open,M,D,Raw,,90,2002
+1,Dmitro Zaets,Дмитро Заєць,Ukraine,33.6,,,,,80,90,-95,,90,52,Amateur Open,M,D,Raw,,90,2002
 1,Mikita Kravets,Микита Кравець,Ukraine,49.2,,,,,97.5,107.5,110,,110,52,Amateur Open,M,D,Raw,,110,2000
 1,Vitaliy Muzika,Віталій Музика,Ukraine,66.4,,,,,182.5,190,200,,200,67.5,Amateur Open,M,D,Raw,,200,1995
 2,Stanislav Shidlovskiy,Станіслав Шидловський,Ukraine,67.2,,,,,155,175,185,,185,67.5,Amateur Open,M,D,Raw,,185,1984
@@ -294,7 +294,7 @@ DQ,Denis Kovalov,Денис Ковальов,Ukraine,,,,,,,,,,,100,Amateur Open,
 2,Denis Kovalenko,Денис Коваленко,Ukraine,85,,,,,220,230,-240,,230,90,Amateur Open,M,D,Raw,,230,1982
 3,Vadym Kotsaga,Вадим Коцага,Ukraine,88,,,,,190,-205,,,190,90,Amateur Open,M,D,Raw,,190,1977
 1,Denis Feklistov,Денис Феклістов,Ukraine,97.3,,,,,190,205,222.5,,222.5,100,Amateur Open,M,D,Raw,,222.5,1986
-2,Yuriy Kravchenko,Юрій Кравченко,Ukraine,94.3,,,,,180,197.5,205,,205,100,Amateur Open,M,D,Raw,,205,1986
+2,Yuriy Kravchenko #5,Юрій Кравченко,Ukraine,94.3,,,,,180,197.5,205,,205,100,Amateur Open,M,D,Raw,,205,1986
 1,Artem Prisyazhniy,Артем Присяжний,Ukraine,107.2,,,,,260,272.5,280,,280,110,Amateur Open,M,D,Raw,,280,1981
 1,Rodion Kuprin,Родіон Купрін,Ukraine,119.5,,,,,230,240,,,240,125,Amateur Open,M,D,Raw,,240,1981
 1,Vadym Kotsaga,Вадим Коцага,Ukraine,88,,,,,190,-205,,,190,90,Amateur Submasters 33-39,M,D,Raw,,190,1977
@@ -303,6 +303,6 @@ DQ,Denis Kovalov,Денис Ковальов,Ukraine,,,,,,,,,,,100,Amateur Open,
 1,Igor Dolmatov,Ігор Долматов,Ukraine,97.1,,,,,170,180,190,200,190,100,Amateur Masters 55-59,M,D,Raw,,190,1958
 1,Irina Galabir,Ірина Галабір,Ukraine,50.7,,,,,80,90,,,90,52,Amateur Teen 16-17,F,D,Raw,,90,1995
 1,Alona Cheban,Альона Чебан,Ukraine,55.8,,,,,100,117.5,120,,120,56,Amateur Juniors 20-23,F,D,Raw,,120,1990
-1,Mariya Markovich,Марія Маркович,Ukraine,55.9,,,,,92.5,97.5,105,,105,56,Amateur Open,F,D,Raw,,105,1985
+1,Mariya Markovich #1,Марія Маркович,Ukraine,55.9,,,,,92.5,97.5,105,,105,56,Amateur Open,F,D,Raw,,105,1985
 1,Yaroslav Skakunov,Ярослав Скакунов,Ukraine,81.1,,,,,170,180,-200,,180,82.5,Amateur Teen 16-17,M,D,Multi-ply,,180,1995
 1,Igor Andrusik,Ігор Андрусик,Ukraine,79.4,,,,,210,,,,210,82.5,Amateur Open,M,D,Multi-ply,,210,1988

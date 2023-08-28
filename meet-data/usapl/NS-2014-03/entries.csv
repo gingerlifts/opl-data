@@ -13,7 +13,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 7,M,Tristan Ruiz,SBD,M-T3,66,Single-ply,65.7,180,115,195,490,
 8,M,Vincent E. Moon,SBD,M-T3,66,Single-ply,63.5,165,140,180,485,
 9,M,Zach Appelbaum,SBD,M-T3,66,Single-ply,61.7,155,112.5,205,472.5,
-10,M,Ben Winder,SBD,M-T3,66,Single-ply,65.1,152.5,115,200,467.5,1995
+10,M,Benjamin Winder,SBD,M-T3,66,Single-ply,65.1,152.5,115,200,467.5,1995
 11,M,Aleil Riley,SBD,M-T3,66,Single-ply,64.9,155,102.5,177.5,435,1994
 12,M,Austin Robert Martin,SD,M-T3,66,Single-ply,64.3,200,,207.5,407.5,
 13,M,Jesse Rutledge,SB,M-T3,66,Single-ply,64.6,217.5,125,,342.5,
@@ -52,7 +52,7 @@ DQ,M,Ray Smith,SBD,M-T3,93,Single-ply,92.5,,,,,
 1,M,Zachary Newman,SBD,M-Jr,53,Single-ply,51.9,120,60,150,330,1992
 1,M,Sullivan Garth,SBD,M-Jr,59,Single-ply,57,195,132.5,200,527.5,1992
 2,M,Mario Leos,SBD,M-Jr,59,Single-ply,57.7,175,130,195,500,1992
-3,M,Derek Ward,SBD,M-Jr,59,Single-ply,58.4,177.5,122.5,185,485,1992
+3,M,Derek Ward #1,SBD,M-Jr,59,Single-ply,58.4,177.5,122.5,185,485,1992
 4,M,Taskin Amin,SBD,M-Jr,59,Single-ply,56.1,170,102.5,195,467.5,1993
 5,M,Terry Arthur,SBD,M-Jr,59,Single-ply,58.1,170,100,180,450,1994
 6,M,Dom Sentitos,SBD,M-Jr,59,Single-ply,57.7,165,105,167.5,437.5,
@@ -65,8 +65,8 @@ DQ,M,Ray Smith,SBD,M-T3,93,Single-ply,92.5,,,,,
 6,M,Michael Picou,SBD,M-Jr,66,Single-ply,65.3,185,112.5,192.5,490,1992
 7,M,Teddy Perretti,SBD,M-Jr,66,Single-ply,64.1,160,105,202.5,467.5,1994
 1,M,Jordan Dunn #1,SBD,M-Jr,74,Single-ply,73.6,310,210,260,780,1991
-2,M,Benjamin Etringer,SBD,M-Jr,74,Single-ply,73.5,275,182.5,252.5,710,1992
-3,M,Kaleb Rollins,SBD,M-Jr,74,Single-ply,73.6,262.5,170,252.5,685,
+2,M,Ben Etringer,SBD,M-Jr,74,Single-ply,73.5,275,182.5,252.5,710,1992
+3,M,John Kaleb Rollins,SBD,M-Jr,74,Single-ply,73.6,262.5,170,252.5,685,
 4,M,Darion McMahan,SBD,M-Jr,74,Single-ply,72.1,227.5,160,230,617.5,1994
 5,M,Arthur Bui,SBD,M-Jr,74,Single-ply,73.1,225,152.5,237.5,615,1992
 6,M,Casey Jensen #1,SBD,M-Jr,74,Single-ply,73.5,202.5,177.5,232.5,612.5,1992
@@ -103,7 +103,7 @@ DQ,M,Ray Smith,SBD,M-T3,93,Single-ply,92.5,,,,,
 7,M,James Marcotte,SBD,M-Jr,83,Single-ply,82.3,250,212.5,242.5,705,1991
 8,M,Jay Price,SBD,M-Jr,83,Single-ply,81.8,267.5,177.5,250,695,1991
 9,M,Tom Reilly,SBD,M-Jr,83,Single-ply,82,267.5,172.5,245,685,
-10,M,Thomas Evans,SBD,M-Jr,83,Single-ply,76.7,250,155,270,675,1991
+10,M,Thomas Evans #3,SBD,M-Jr,83,Single-ply,76.7,250,155,270,675,1991
 11,M,Michael Mayhew,SBD,M-Jr,83,Single-ply,82.1,250,165,252.5,667.5,1992
 12,M,Jack Morrow,SBD,M-Jr,83,Single-ply,78.4,240,155,260,655,
 13,M,Andrew Reiss,SBD,M-Jr,83,Single-ply,81.7,232.5,197.5,207.5,637.5,1994
@@ -122,7 +122,7 @@ DQ,M,Ray Smith,SBD,M-T3,93,Single-ply,92.5,,,,,
 24,M,Christian Johnston,SBD,M-Jr,83,Single-ply,77.2,202.5,132.5,212.5,547.5,1993
 25,M,James Clayton Gant,SBD,M-Jr,83,Single-ply,79,200,127.5,215,542.5,
 26,M,Bradley Anuszkiewicz,SBD,M-Jr,83,Single-ply,80,187.5,120,200,507.5,1993
-27,M,Conor Sullivan,BD,M-Jr,83,Single-ply,81.5,,187.5,272.5,460,1993
+27,M,Conor Sullivan #1,BD,M-Jr,83,Single-ply,81.5,,187.5,272.5,460,1993
 28,M,Rabih Abifaraj,SBD,M-Jr,83,Single-ply,80.8,215,95,115,425,1992
 29,M,Joseph Porzio,BD,M-Jr,83,Single-ply,81,,157.5,245,402.5,1991
 1,M,Ian Bell,SBD,M-Jr,93,Single-ply,91.6,365,217.5,365,947.5,1992
@@ -130,13 +130,13 @@ DQ,M,Ray Smith,SBD,M-T3,93,Single-ply,92.5,,,,,
 5,M,Jordan Glenn,SBD,M-Jr,93,Single-ply,90.2,282.5,165,315,762.5,1993
 6,M,Matt Cassista,SBD,M-Jr,93,Single-ply,91.6,297.5,185,280,762.5,1992
 7,M,Brennan Riche,SBD,M-Jr,93,Single-ply,92.6,277.5,207.5,275,760,1992
-1,M,Curtis Allen,SBD,M-Jr,93,Single-ply,87.9,275,192.5,275,742.5,1992
+1,M,Curt Allen,SBD,M-Jr,93,Single-ply,87.9,275,192.5,275,742.5,1992
 9,M,Connor Seft,SBD,M-Jr,93,Single-ply,92.4,287.5,212.5,235,735,
 10,M,Kyle B. Holzem,SBD,M-Jr,93,Single-ply,91.3,290,172.5,270,732.5,
 3,M,Christian Baldoni,SBD,M-Jr,93,Single-ply,86.3,262.5,197.5,260,720,1993
-14,M,Tyler Martinez,SBD,M-Jr,93,Single-ply,91.6,240,170,245,655,1992
+14,M,Tyler Martinez #1,SBD,M-Jr,93,Single-ply,91.6,240,170,245,655,1992
 15,M,Clayton Barone,SBD,M-Jr,93,Single-ply,92.5,235,162.5,250,647.5,1992
-4,M,Sam Busche,SBD,M-Jr,93,Single-ply,84.8,245,150,250,645,1992
+4,M,Samuel Busche,SBD,M-Jr,93,Single-ply,84.8,245,150,250,645,1992
 16,M,Christopher Robinson #1,SBD,M-Jr,93,Single-ply,92.1,207.5,210,227.5,645,1990
 6,M,Justin Fratantuono,SBD,M-Jr,93,Single-ply,87.3,245,147.5,237.5,630,1993
 7,M,Hunter Scothom,SBD,M-Jr,93,Single-ply,85.3,212.5,150,262.5,625,
@@ -172,11 +172,11 @@ DQ,M,Kevin Maradiaga,SBD,M-Jr,93,Single-ply,90.7,,,,,
 20,M,Troy Aalund,SBD,M-Jr,105,Single-ply,104.3,225,157.5,230,612.5,1990
 19,M,Ethan Albrecht,SBD,M-Jr,105,Single-ply,96.9,207.5,135,250,592.5,
 21,M,Jesse Burttschell,BD,M-Jr,105,Single-ply,104.8,,215,290,505,1993
-1,M,Preston Turner,SBD,M-Jr,120,Single-ply,119,385,330,320,1035,1992
+1,M,Preston Turner #1,SBD,M-Jr,120,Single-ply,119,385,330,320,1035,1992
 3,M,Andre Sigure,SBD,M-Jr,120,Single-ply,107.1,320,207.5,317.5,845,1992
-3,M,Pooser Hunter,SBD,M-Jr,120,Single-ply,118.3,330,205,310,845,1994
+3,M,Hunter Pooser,SBD,M-Jr,120,Single-ply,118.3,330,205,310,845,1994
 4,M,Richard Covington,SBD,M-Jr,120,Single-ply,113.2,310,265,245,820,1993
-5,M,Andrew Davis,SBD,M-Jr,120,Single-ply,116.3,277.5,210,292.5,780,1991
+5,M,Andrew Davis #3,SBD,M-Jr,120,Single-ply,116.3,277.5,210,292.5,780,1991
 6,M,Chris Hughes #2,SBD,M-Jr,120,Single-ply,105.6,310,182.5,275,767.5,1993
 10,M,James Leron Hutto,SBD,M-Jr,120,Single-ply,107.3,297.5,162.5,297.5,757.5,
 11,M,Lucas Brandt,SBD,M-Jr,120,Single-ply,108.2,272.5,197.5,280,750,1992
@@ -185,7 +185,7 @@ DQ,M,Kevin Maradiaga,SBD,M-Jr,93,Single-ply,90.7,,,,,
 7,M,Adam Alfred,SBD,M-Jr,120,Single-ply,117.9,192.5,152.5,245,590,1992
 22,M,Erik Golabek,S,M-Jr,120,Single-ply,107.4,262.5,,,262.5,1993
 DQ,M,Brandon Graham,SBD,M-Jr,120,Single-ply,119.7,,,,,1991
-1,M,Stephen King,SBD,M-Jr,120+,Single-ply,143.4,370,272.5,292.5,935,1992
+1,M,Stephen King #2,SBD,M-Jr,120+,Single-ply,143.4,370,272.5,292.5,935,1992
 2,M,Scott Dobbins,SBD,M-Jr,120+,Single-ply,123,350,252.5,305,907.5,1992
 2,M,Timothy Johnson,SBD,M-Jr,120+,Single-ply,126.4,342.5,230,312.5,885,1993
 3,M,Ryan Carrillo #1,SBD,M-Jr,120+,Single-ply,157.5,310,300,270,880,1991

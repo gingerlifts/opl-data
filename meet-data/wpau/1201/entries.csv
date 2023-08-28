@@ -6,7 +6,7 @@ Place,Name,CyrillicName,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Bench1Kg,Bench2K
 1,Katerina Melchenko,Катерина Мельченко,60,-70,-70,70,35,-37.5,-37.5,75,80,-82.5,185,60,Amateur Open,F,SBD,Wraps,70,35,80,1988
 1,Irina Fondalyuk,Ірина Фондалюк,80.8,125,135,137.5,55,60,62.5,-130,130,145,345,82.5,Amateur Open,F,SBD,Wraps,137.5,62.5,145,1981
 2,Evgeniya Dorotyuk,Євгенія Доротюк,79.5,60,80,95,50,-55,-57.5,60,90,100,245,82.5,Amateur Open,F,SBD,Wraps,95,50,100,1982
-DQ,Irina Tikhonova,Ірина Тіхонова,68.8,-95,-100,-105,,,,,,,,75,Amateur Masters 40-44,F,SBD,Wraps,,,,1970
+DQ,Irina Tikhonova,Ірина Тихонова,68.8,-95,-100,-105,,,,,,,,75,Amateur Masters 40-44,F,SBD,Wraps,,,,1970
 1,Lyudmila Ishchenko,Людмила Іщенко,74.3,90,100,105,50,-55,57.5,100,110,120,282.5,75,Amateur Masters 50-54,F,SBD,Wraps,105,57.5,120,1961
 1,Dmitro Nastekhin,Дмитро Настехін,59,82.5,90,95,60,67.5,70,70,85,,250,60,Amateur Teen 13-15,M,SBD,Wraps,95,70,85,1997
 1,Maksim Karasev,Максим Карасев,64.6,100,105,-112.5,60,65,67.5,115,125,135,307.5,67.5,Amateur Teen 13-15,M,SBD,Wraps,105,67.5,135,1997
@@ -53,30 +53,30 @@ DQ,Andriy Besedin,Андрій Беседін,72.9,-175,-175,-180,122.5,127.5,13
 1,Vitaliy Palivoda,Віталій Паливода,88.5,225,240,,125,130,-135,220,225,230,600,90,Amateur Open,M,SBD,Wraps,240,130,230,1983
 2,Andriy Goncharov,Андрій Гончаров,89.5,210,-220,220,150,155,-160,215,220,225,600,90,Amateur Open,M,SBD,Wraps,220,155,225,1981
 3,Roman Kachur,Роман Качур,85,170,190,200,115,125,-132.5,200,245,,570,90,Amateur Open,M,SBD,Wraps,200,125,245,1984
-4,Maksim Boyarskiy,Максим Боярський,89.4,180,195,-205,130,-137.5,-137.5,180,195,210,535,90,Amateur Open,M,SBD,Wraps,195,130,210,1984
+4,Maksim Boyarskiy #1,Максим Боярський,89.4,180,195,-205,130,-137.5,-137.5,180,195,210,535,90,Amateur Open,M,SBD,Wraps,195,130,210,1984
 5,Igor Mazur,Ігор Мазур,83.8,180,195,205,110,-120,120,180,185,192.5,517.5,90,Amateur Open,M,SBD,Wraps,205,120,192.5,1989
 6,Andriy Drutsul,Андрій Друцул,84.1,170,180,,110,-120,-120,205,215,,505,90,Amateur Open,M,SBD,Wraps,180,110,215,1989
 7,Mikhaylo Malko,Михайло Малько,88,130,140,-145,110,117.5,122.5,150,170,-180,432.5,90,Amateur Open,M,SBD,Wraps,140,122.5,170,1987
 1,Volodimir Ukhach,Володимир Ухач,97.2,250,265,280,170,180,-185,240,260,270,730,100,Amateur Open,M,SBD,Wraps,280,180,270,1960
 2,Oleg Khmilyak,Олег Хмиляк,93.5,-230,230,,135,-145,-145,220,235,245,610,100,Amateur Open,M,SBD,Wraps,230,135,245,1988
-3,Yuriy Chernyavskiy,Юрій Чернявський,97.5,205,220,-230,155,165,-170,215,225,-230,610,100,Amateur Open,M,SBD,Wraps,220,165,225,1972
+3,Yuriy Chernyavskiy #1,Юрій Чернявський,97.5,205,220,-230,155,165,-170,215,225,-230,610,100,Amateur Open,M,SBD,Wraps,220,165,225,1972
 1,Yuriy Shinkaruk,Юрій Шинкарук,109.5,195,210,220,155,-165,165,195,-215,,580,110,Amateur Open,M,SBD,Wraps,220,165,195,1976
 1,Yuriy Spinov,Юрій Спінов,118.6,240,260,-270,125,132.5,-137.5,280,300,315,707.5,125,Amateur Open,M,SBD,Wraps,260,132.5,315,1962
 2,Mikola Prezhin,Микола Прежин,123.3,210,-230,250,170,185,200,230,250,-272.5,700,125,Amateur Open,M,SBD,Wraps,250,200,250,1981
 3,Oleksandr Shvab,Олександр Шваб,118.2,170,-190,,150,165,175,200,240,,585,125,Amateur Open,M,SBD,Wraps,170,175,240,1976
 1,Volodimir Korenga,Володимир Коренга,80.2,130,-140,-155,125,-135,-135,150,170,190,445,82.5,Amateur Masters 40-44,M,SBD,Wraps,130,125,190,1970
 1,Yaroslav Falbiychuk,Ярослав Фальбійчук,87.9,170,185,-195,140,145,147.5,180,195,200,532.5,90,Amateur Masters 40-44,M,SBD,Wraps,185,147.5,200,1968
-1,Yuriy Chernyavskiy,Юрій Чернявський,97.5,205,220,-230,155,165,-170,215,225,-230,610,100,Amateur Masters 40-44,M,SBD,Wraps,220,165,225,1972
+1,Yuriy Chernyavskiy #1,Юрій Чернявський,97.5,205,220,-230,155,165,-170,215,225,-230,610,100,Amateur Masters 40-44,M,SBD,Wraps,220,165,225,1972
 1,Sergiy Kolisnik,Сергій Колісник,96.8,180,200,210,130,140,145,180,200,210,565,100,Amateur Masters 45-49,M,SBD,Wraps,210,145,210,1963
 2,Yuriy Khanov,Юрій Ханов,98.9,180,-190,-190,110,-115,-115,190,200,,490,100,Amateur Masters 45-49,M,SBD,Wraps,180,110,200,1963
 1,Yuriy Spinov,Юрій Спінов,118.6,240,260,-270,125,132.5,-137.5,280,300,315,707.5,125,Amateur Masters 45-49,M,SBD,Wraps,260,132.5,315,1962
 1,Volodimir Ukhach,Володимир Ухач,97.2,250,265,280,170,180,-185,240,260,270,730,100,Amateur Masters 50-54,M,SBD,Wraps,280,180,270,1960
-1,Valeriy Melnik,Валерій Мельник,107.25,-220,220,,140,-150,150,210,220,,590,110,Amateur Masters 50-54,M,SBD,Wraps,220,150,220,1958
+1,Valeriy Melnik #1,Валерій Мельник,107.25,-220,220,,140,-150,150,210,220,,590,110,Amateur Masters 50-54,M,SBD,Wraps,220,150,220,1958
 1,Mikola Kozma,Микола Козьма,63.9,-110,-110,110,70,75,80,155,162.5,-170,352.5,67.5,Amateur Masters 55-59,M,SBD,Wraps,110,80,162.5,1955
 1,Volodimir Vasilenko,Володимир Василенко,75.6,-105,105,115,60,65,67.5,130,150,,332.5,82.5,Amateur Masters 65-69,M,SBD,Wraps,115,67.5,150,1943
-1,Mikita Kravets,Микита Кравець,40,80,87.5,92.5,42.5,-45,45,80,-87.5,,217.5,44,Amateur Teen,M,SBD,Wraps,92.5,45,80,2000
+1,Mikita Kravets,Микита Кравець,40,80,87.5,92.5,42.5,-45,45,80,-87.5,,217.5,44,Amateur Sub-Teen 11-12,M,SBD,Wraps,92.5,45,80,2000
 1,Maksim Shut,Максим Шуть,66.5,90,100,105,45,50,-52.5,85,95,-100,250,67.5,Amateur Teen,M,SBD,Wraps,105,50,95,1999
-1,Igor Lisenko,Игорь Лысенко,69.7,95,105,110,40,45,-50,-95,95,-105,250,75,Amateur Teen,M,SBD,Wraps,110,45,95,2000
+1,Igor Lisenko,Игорь Лысенко,69.7,95,105,110,40,45,-50,-95,95,-105,250,75,Amateur Sub-Teen 11-12,M,SBD,Wraps,110,45,95,2000
 1,Olena Koroeva,Олена Короєва,56,-92.5,92.5,-100,57.5,60,62.5,100,105,110,265,56,Amateur Open,F,SBD,Multi-ply,92.5,62.5,110,1983
 1,Aleksandr Petrov,Александр Петров,74.35,155,170,-175,127.5,137.5,-145,180,202.5,,510,75,Amateur Juniors 20-23,M,SBD,Multi-ply,170,137.5,202.5,1990
 1,Aleksandr Petrov,Александр Петров,74.35,155,170,-175,127.5,137.5,-145,180,202.5,,510,75,Amateur Open,M,SBD,Multi-ply,170,137.5,202.5,1990
@@ -98,10 +98,10 @@ DQ,Volodimir Kovalenko,Володимир Коваленко,77.1,-170,-170,-170
 1,Vyacheslav Zdorovenko,Вячеслав Здоровенко,86.6,230,-240,240,140,145,147.5,240,-247.5,-247.5,627.5,90,Pro Open,M,SBD,Wraps,240,147.5,240,1983
 2,Oleksiy Fedorenko,Олексій Федоренко,89.5,200,215,-225,140,150,-155,215,225,230,595,90,Pro Open,M,SBD,Wraps,215,150,230,1986
 3,Viktor Galabir,Віктор Галабір,88.9,180,190,200,125,132.5,135,180,200,222.5,557.5,90,Pro Open,M,SBD,Wraps,200,135,222.5,1974
-4,Vitaliy Savelev,Віталій Савельєв,89,160,170,-175,125,135,-140,160,170,192.5,497.5,90,Pro Open,M,SBD,Wraps,170,135,192.5,1979
+4,Vitaliy Savelev #1,Віталій Савельєв,89,160,170,-175,125,135,-140,160,170,192.5,497.5,90,Pro Open,M,SBD,Wraps,170,135,192.5,1979
 1,Andriy Goncharuk,Андрій Гончарук,100,-280,-280,280,160,167.5,-170,280,290,-300,737.5,100,Pro Open,M,SBD,Wraps,280,167.5,290,1988
 2,Evgeniy Gamuryak,Евгений Гамуряк,100,-235,235,-245,185,192.5,-195,270,285,,712.5,100,Pro Open,M,SBD,Wraps,235,192.5,285,1987
-DQ,Yaroslav Trubichkin,Ярослав Трубичкин,94,-300,-320,-320,,,,,,,,100,Pro Open,M,SBD,Wraps,,,,1987
+DQ,Yaroslav Trubichkin,Ярослав Трубічкін,94,-300,-320,-320,,,,,,,,100,Pro Open,M,SBD,Wraps,,,,1987
 1,Oleksandr Shendrik,Олександр Шендрик,109.5,200,210,220,120,130,137.5,200,220,230,587.5,110,Pro Open,M,SBD,Wraps,220,137.5,230,1972
 1,Andriy Yaremus,Андрій Яремус,111.6,-300,300,,175,185,190,265,280,290,780,125,Pro Open,M,SBD,Wraps,300,190,290,1977
 2,Dmitro Putin,Дмитро Путін,117.5,270,-290,-290,130,-140,140,270,285,290,700,125,Pro Open,M,SBD,Wraps,270,140,290,1988
@@ -111,12 +111,12 @@ DQ,Oleksandr Gensitskyy,Олександр Генсіцький,138,,,,,,,,,,,14
 DQ,Dmitro Kabakov,Дмитро Кабаков,,,,,,,,,,,,90,Pro Masters 45-49,M,SBD,Wraps,,,,1963
 DQ,Sergiy Denisov,Сергій Денисов,99.9,-160,-160,-160,-120,-130,-130,,,,,100,Pro Masters 55-59,M,SBD,Wraps,,,,1956
 1,Volodimir Nagalyuk,Володимир Нагалюк,83.6,140,150,160,70,-80,85,170,180,190,435,90,Pro Masters 60-64,M,SBD,Wraps,160,85,190,1951
-1,Viktor Galabir,Віктор Галабір,88.9,180,190,200,125,132.5,135,180,200,222.5,557.5,90,Pro Submasters,M,SBD,Wraps,200,135,222.5,1974
+1,Viktor Galabir,Віктор Галабір,88.9,180,190,200,125,132.5,135,180,200,222.5,557.5,90,Pro Submasters 33-39,M,SBD,Wraps,200,135,222.5,1974
 1,Anton Popov,Антон Попов,69.9,185,-195,-195,135,140,145,170,-177.5,182.5,512.5,75,Pro Juniors 20-23,M,SBD,Multi-ply,185,145,182.5,1989
 1,Volodimir Grammatik,Володимир Грамматик,88.7,310,320,325,-205,205,212.5,270,285,307.5,845,90,Pro Open,M,SBD,Multi-ply,325,212.5,307.5,1982
 2,Sergiy Sokolovskiy,Сергій Соколовський,87,260,275,290,140,147.5,155,280,300,310,755,90,Pro Open,M,SBD,Multi-ply,290,155,310,1976
 DQ,Denis Dubrovskiy,Денис Дубровський,119.7,-350,-370,-370,,,,,,,,125,Pro Open,M,SBD,Multi-ply,,,,1980
-1,Sergiy Sokolovskiy,Сергій Соколовський,87,260,275,290,140,147.5,155,280,300,310,755,90,Pro Submasters,M,SBD,Multi-ply,290,155,310,1976
+1,Sergiy Sokolovskiy,Сергій Соколовський,87,260,275,290,140,147.5,155,280,300,310,755,90,Pro Submasters 33-39,M,SBD,Multi-ply,290,155,310,1976
 1,Irina Galabir,Ірина Галабір,50.9,,,,32.5,37.5,-40,,,,37.5,52,Amateur Teen 16-17,F,B,Raw,,37.5,,1995
 DQ,Olga Yanova,Ольга Янова,54.2,,,,-47.5,-47.5,-52.5,,,,,56,Amateur Juniors 20-23,F,B,Raw,,,,1990
 DQ,Nataliya Galushka,Наталія Галушка,,,,,,,,,,,,48,Amateur Open,F,B,Raw,,,,1977
@@ -152,7 +152,7 @@ DQ,Danilo Ryasniy,Данило Рясний,82.5,,,,-165,-165,-165,,,,,82.5,Amat
 3,Yuriy Pets,Юрій Пець,73.7,,,,125,-130,132.5,,,,132.5,75,Amateur Juniors 20-23,M,B,Raw,,132.5,,1988
 4,Stanislav Gelyuta,Станіслав Гелюта,75,,,,125,130,-132.5,,,,130,75,Amateur Juniors 20-23,M,B,Raw,,130,,1992
 1,Yuriy Matsyuk,Юрій Мацюк,79,,,,135,-145,150,,,,150,82.5,Amateur Juniors 20-23,M,B,Raw,,150,,1988
-2,Oleksandr Lisovskiy,Олександр Лісовський,80.8,,,,132.5,-137.5,137.5,,,,137.5,82.5,Amateur Juniors 20-23,M,B,Raw,,137.5,,1990
+2,Oleksandr Lisovskiy #1,Олександр Лісовський,80.8,,,,132.5,-137.5,137.5,,,,137.5,82.5,Amateur Juniors 20-23,M,B,Raw,,137.5,,1990
 3,Dmitro Gavrilyuk,Дмитро Гаврилюк,79,,,,120,130,-132.5,,,,130,82.5,Amateur Juniors 20-23,M,B,Raw,,130,,1989
 1,Vitaliy Pedan,Віталій Педан,89.2,,,,140,147.5,152.5,,,,152.5,90,Amateur Juniors 20-23,M,B,Raw,,152.5,,1989
 DQ,Oleksandr Tarasov,Олександр Тарасов,88.7,,,,-135,-135,-135,,,,,90,Amateur Juniors 20-23,M,B,Raw,,,,1991
@@ -167,16 +167,16 @@ DQ,Oleksandr Balu,Олександр Балу,67,,,,-120,-120,-120,,,,,67.5,Amat
 1,Oleksandr Vorontsov,Олександр Воронцов,73.7,,,,132.5,137.5,142.5,,,,142.5,75,Amateur Open,M,B,Raw,,142.5,,1987
 2,Andriy Kostyuk,Андрій Костюк,73.6,,,,130,137.5,-140,,,,137.5,75,Amateur Open,M,B,Raw,,137.5,,1986
 3,Stanislav Sheyko,Станислав Шейко,70.8,,,,125,130,-137.5,,,,130,75,Amateur Open,M,B,Raw,,130,,1986
-4,Igor Savin,Ігор Савін,73.6,,,,130,-137.5,-137.5,,,,130,75,Amateur Open,M,B,Raw,,130,,1987
+4,Igor Savin #1,Ігор Савін,73.6,,,,130,-137.5,-137.5,,,,130,75,Amateur Open,M,B,Raw,,130,,1987
 5,Mikola Semikin,Микола Семікін,72.8,,,,112.5,-117.5,-117.5,,,,112.5,75,Amateur Open,M,B,Raw,,112.5,,1986
 1,Andriy Dyatlov,Андрій Дятлов,80,,,,142.5,147.5,150,,,,150,82.5,Amateur Open,M,B,Raw,,150,,1985
 2,Francesco LoPorto,,81.7,,,,140,145,-150,,,,145,82.5,Amateur Open,M,B,Raw,,145,,1980
-3,Oleksandr Lisovskiy,Олександр Лісовський,80.8,,,,132.5,-137.5,137.5,,,,137.5,82.5,Amateur Open,M,B,Raw,,137.5,,1990
+3,Oleksandr Lisovskiy #1,Олександр Лісовський,80.8,,,,132.5,-137.5,137.5,,,,137.5,82.5,Amateur Open,M,B,Raw,,137.5,,1990
 4,Sergiy Petrashchuk,Сергій Петращук,82.3,,,,130,135,-140,,,,135,82.5,Amateur Open,M,B,Raw,,135,,1982
-5,Igor Chernenko,Ігор Черненко,81.3,,,,-125,130,-132.5,,,,130,82.5,Amateur Open,M,B,Raw,,130,,1983
+5,Igor Chernenko #3,Ігор Черненко,81.3,,,,-125,130,-132.5,,,,130,82.5,Amateur Open,M,B,Raw,,130,,1983
 1,Konstyantin Grabovskiy,Констянтин Грабовський,89,,,,-190,190,-195,,,,190,90,Amateur Open,M,B,Raw,,190,,1976
 2,Rostislav Bondarenko,Ростислав Бондаренко,88.8,,,,150,160,170,,,,170,90,Amateur Open,M,B,Raw,,170,,1972
-1,Oleksandr Ageenko,Олександр Агєєнко,98.2,,,,165,170,175,,,,175,100,Amateur Open,M,B,Raw,,175,,1976
+1,Oleksandr Ageenko,Олександр Агеєнко,98.2,,,,165,170,175,,,,175,100,Amateur Open,M,B,Raw,,175,,1976
 2,Oleksiy Bondarenko,Олексій Бондаренко,98.1,,,,155,162.5,-167.5,,,,162.5,100,Amateur Open,M,B,Raw,,162.5,,1981
 3,Leonid Matyukhin,Леонід Матюхін,94.7,,,,150,160,-170,,,,160,100,Amateur Open,M,B,Raw,,160,,1977
 4,Sergiy Sidorchuk,Сергій Сидорчук,95.1,,,,135,140,-145,,,,140,100,Amateur Open,M,B,Raw,,140,,1981
@@ -197,27 +197,27 @@ DQ,Oleksandr Balu,Олександр Балу,67,,,,-120,-120,-120,,,,,67.5,Amat
 1,Mikola Skidanyuk,Микола Скиданюк,81.7,,,,95,105,107.5,,,,107.5,82.5,Amateur Masters 50-54,M,B,Raw,,107.5,,1960
 DD,Volodimir Lizurchik,Володимир Лізурчик,107,,,,-160,-170,-175,,,,,110,Amateur Masters 50-54,M,B,Raw,,,,1958
 1,Mikola Kozma,Микола Козьма,63.9,,,,70,75,80,,,,80,67.5,Amateur Masters 55-59,M,B,Raw,,80,,1955
-1,Viktor Nikitin,Віктор Нікітін,80.5,,,,120,125,-127.5,,,,125,82.5,Amateur Masters 55-59,M,B,Raw,,125,,1956
+1,Viktor Nikitin #1,Віктор Нікітін,80.5,,,,120,125,-127.5,,,,125,82.5,Amateur Masters 55-59,M,B,Raw,,125,,1956
 1,Yuriy Filonenko,Юрій Філоненко,89.5,,,,110,115,120,,,,120,90,Amateur Masters 55-59,M,B,Raw,,120,,1954
 1,Volodimir Makovskiy,Володимир Маковський,75,,,,85,-90,,,,,85,75,Amateur Masters 60-64,M,B,Raw,,85,,1950
 1,Evgeniy Khokhlov,Евгений Хохлов,95,,,,125,130,-135,,,,130,100,Amateur Masters 60-64,M,B,Raw,,130,,1948
 1,Valeriy Gladish,Валерій Гладиш,100,,,,90,95,-100,,,,95,100,Amateur Masters 65-69,M,B,Raw,,95,,1946
 1,Yuriy Kislitsya,Юрій Кислиця,85,,,,50,55,60,,,,60,90,Amateur Masters 70-74,M,B,Raw,,60,,1938
-1,Oleksandr Ageenko,Олександр Агєєнко,98.2,,,,165,170,175,,,,175,100,Amateur Submasters,M,B,Raw,,175,,1976
-1,Vladislav Bondarenko,Владислав Бондаренко,32,,,,35,-37.5,-37.5,,,,35,44,Amateur Teen,M,B,Raw,,35,,1999
-1,Viktor Falbiychuk,Віктор Фальбійчук,40.6,,,,30,35,37.5,,,,37.5,44,Amateur Children,M,B,Raw,,37.5,,2003
+1,Oleksandr Ageenko,Олександр Агеєнко,98.2,,,,165,170,175,,,,175,100,Amateur Submasters 33-39,M,B,Raw,,175,,1976
+1,Vladislav Bondarenko,Владислав Бондаренко,32,,,,35,-37.5,-37.5,,,,35,44,Amateur Sub-Teen 11-12,M,B,Raw,,35,,1999
+1,Viktor Falbiychuk #2,Віктор Фальбійчук,40.6,,,,30,35,37.5,,,,37.5,44,Amateur Youth 8,M,B,Raw,,37.5,,2003
 1,Aleksandr Petrov,Александр Петров,74.35,,,,-135,135,-145,,,,135,75,Amateur Juniors 20-23,M,B,Multi-ply,,135,,1990
-1,Oleksandr Lisovskiy,Олександр Лісовський,80.8,,,,160,-167.5,-170,,,,160,82.5,Amateur Juniors 20-23,M,B,Multi-ply,,160,,1990
+1,Oleksandr Lisovskiy #1,Олександр Лісовський,80.8,,,,160,-167.5,-170,,,,160,82.5,Amateur Juniors 20-23,M,B,Multi-ply,,160,,1990
 2,Dmitro Gavrilyuk,Дмитро Гаврилюк,79,,,,120,,,,,,120,82.5,Amateur Juniors 20-23,M,B,Multi-ply,,120,,1989
 1,Mikhaylo Kozelchuk,Михайло Козельчук,99.7,,,,200,210,220,,,,220,100,Amateur Juniors 20-23,M,B,Multi-ply,,220,,1988
 1,Aleksandr Petrov,Александр Петров,74.35,,,,-135,135,-145,,,,135,75,Amateur Open,M,B,Multi-ply,,135,,1990
 1,Konstyantin Sapunkov,Констянтин Сапунков,82.5,,,,200,-205,205,,,,205,82.5,Amateur Open,M,B,Multi-ply,,205,,1981
-2,Oleksandr Lisovskiy,Олександр Лісовський,80.8,,,,160,-167.5,-167.5,,,,160,82.5,Amateur Open,M,B,Multi-ply,,160,,1990
+2,Oleksandr Lisovskiy #1,Олександр Лісовський,80.8,,,,160,-167.5,-167.5,,,,160,82.5,Amateur Open,M,B,Multi-ply,,160,,1990
 1,Rostislav Bondarenko,Ростислав Бондаренко,88.8,,,,-200,200,210,,,,210,90,Amateur Open,M,B,Multi-ply,,210,,1972
 2,Yuriy Telichko,Юрій Теличко,85.95,,,,160,167.5,170,,,,170,90,Amateur Open,M,B,Multi-ply,,170,,1988
 1,Volodimir Kolyada,Володимир Коляда,104.7,,,,170,180,-200,,,,180,110,Amateur Open,M,B,Multi-ply,,180,,1983
 1,Oleksandr Shvab,Олександр Шваб,118.2,,,,185,200,,,,,200,125,Amateur Open,M,B,Multi-ply,,200,,1976
-1,Vladislav Bondarenko,Владислав Бондаренко,32,,,,37.5,-40,-40,,,,37.5,44,Amateur Children,M,B,Multi-ply,,37.5,,1999
+1,Vladislav Bondarenko,Владислав Бондаренко,32,,,,37.5,-40,-40,,,,37.5,44,Amateur Sub-Teen 11-12,M,B,Multi-ply,,37.5,,1999
 1,Tetyana Kalugina,Тетяна Калугіна,60,,,,90,97.5,100,,,,100,60,Pro Open,F,B,Raw,,100,,1980
 2,Lina Zubritska,Ліна Зубрицька,60,,,,85,92.5,97.5,,,,97.5,60,Pro Open,F,B,Raw,,97.5,,1988
 1,Anna Kurkurina,Анна Куркуріна,73,,,,120,125,127.5,,,,127.5,75,Pro Open,F,B,Raw,,127.5,,1966
@@ -270,7 +270,7 @@ DQ,Sergiy Bragin,Сергій Брагін,67.4,,,,-130,,,,,,,67.5,Pro Juniors 2
 4,Volodimir Labenskiy,Володимир Лабенський,102.4,,,,160,170,-180,,,,170,110,Pro Open,M,B,Raw,,170,,1983
 1,Petro Onishchuk,Петро Онищук,113.7,,,,-240,240,250,,,,250,125,Pro Open,M,B,Raw,,250,,1988
 2,Pavlo Trigub,Павло Тригуб,122,,,,185,200,,,,,200,125,Pro Open,M,B,Raw,,200,,1973
-1,Vadim Aliev,Вадим Алієв,75,,,,140,147.5,-150,,,,147.5,75,Pro Masters 40-44,M,B,Raw,,147.5,,1970
+1,Vadim Aliev #1,Вадим Алієв,75,,,,140,147.5,-150,,,,147.5,75,Pro Masters 40-44,M,B,Raw,,147.5,,1970
 1,Vadim Chekhanyuk,Вадим Чеханюк,81.4,,,,155,162.5,-167.5,,,,162.5,82.5,Pro Masters 40-44,M,B,Raw,,162.5,,1970
 1,Oleksandr Kolyadyuk,Олександр Колядюк,97.7,,,,160,170,-180,,,,170,100,Pro Masters 40-44,M,B,Raw,,170,,1969
 1,Vladislav Fesun,Владислав Фесун,110,,,,140,150,-160,,,,150,110,Pro Masters 40-44,M,B,Raw,,150,,1967
@@ -285,8 +285,8 @@ DQ,Igor Pober,Ігор Побер,,,,,,,,,,,,125,Pro Masters 40-44,M,B,Raw,,,,19
 1,Sergiy Denisov,Сергій Денисов,99.9,,,,120,130,137.5,,,,137.5,100,Pro Masters 55-59,M,B,Raw,,137.5,,1956
 1,Valeriy Kolyadyuk,Валерій Колядюк,103,,,,130,140,150,,,,150,110,Pro Masters 60-64,M,B,Raw,,150,,1949
 1,Viktor Glushchenko,Віктор Глущенко,72.7,,,,107.5,115,-117.5,,,,115,75,Pro Masters 65-69,M,B,Raw,,115,,1942
-1,Volodimir Migas,Володимир Мигас,89,,,,145,155,160,,,,160,90,Pro Submasters,M,B,Raw,,160,,1975
-1,Ivan Shevchenko,Иван Шевченко,73.5,,,,125,-130,-130,,,,125,75,Pro Juniors 20-23,M,B,Multi-ply,,125,,1990
+1,Volodimir Migas,Володимир Мигас,89,,,,145,155,160,,,,160,90,Pro Submasters 33-39,M,B,Raw,,160,,1975
+1,Ivan Shevchenko #1,Іван Шевченко,73.5,,,,125,-130,-130,,,,125,75,Pro Juniors 20-23,M,B,Multi-ply,,125,,1990
 1,Vitaliy Sobkovskiy,Віталій Собковський,80.4,,,,175,-185,-185,,,,175,82.5,Pro Juniors 20-23,M,B,Multi-ply,,175,,1991
 2,Evgen Yatsinenko,Євген Яциненко,81,,,,-160,160,-165,,,,160,82.5,Pro Juniors 20-23,M,B,Multi-ply,,160,,1988
 DQ,Roman Pelikh,Роман Пелих,73.1,,,,-235,-235,-235,,,,,75,Pro Open,M,B,Multi-ply,,,,1985
@@ -299,6 +299,6 @@ DQ,Efim Stepatskiy,Єфим Степацький,90,,,,-195,-202.5,-202.5,,,,,90
 2,Oleksiy Andriyanov,Олексій Андріянов,99.2,,,,170,-180,-185,,,,170,100,Pro Open,M,B,Multi-ply,,170,,1987
 DQ,Valeriy Ternov,Валерій Тернов,116,,,,-290,-290,-300,,,,,125,Pro Open,M,B,Multi-ply,,,,1973
 DQ,Roman Zuzuk,Роман Зузук,,,,,,,,,,,,75,Pro Masters 40-44,M,B,Multi-ply,,,,1971
-DQ,Volodimir Starchenko,Володимир Старченко,81.3,,,,,,,,,,,82.5,Pro Submasters,M,B,Multi-ply,,,,1975
-1,Volodimir Migas,Володимир Мигас,90.1,,,,210,225,,,,,225,100,Pro Submasters,M,B,Multi-ply,,225,,1975
-DQ,Valeriy Ternov,Валерій Тернов,116,,,,-290,-290,-300,,,,,125,Pro Submasters,M,B,Multi-ply,,,,1973
+DQ,Volodimir Starchenko,Володимир Старченко,81.3,,,,,,,,,,,82.5,Pro Submasters 33-39,M,B,Multi-ply,,,,1975
+1,Volodimir Migas,Володимир Мигас,90.1,,,,210,225,,,,,225,100,Pro Submasters 33-39,M,B,Multi-ply,,225,,1975
+DQ,Valeriy Ternov,Валерій Тернов,116,,,,-290,-290,-300,,,,,125,Pro Submasters 33-39,M,B,Multi-ply,,,,1973

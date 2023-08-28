@@ -1,7 +1,7 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
 Boys,51.71,1,Josh Paige,Hitchcock,51.53,122.47,74.84,136.08,333.39,Single-ply,SBD,M
 Boys,51.71,2,Richie Garza,West Columbia,48.63,124.74,58.97,127.01,310.71,Single-ply,SBD,M
-Boys,51.71,3,Eric Tran,Clute Brazoswood,44.36,79.38,40.82,95.25,215.46,Single-ply,SBD,M
+Boys,51.71,3,Eric Tran #3,Clute Brazoswood,44.36,79.38,40.82,95.25,215.46,Single-ply,SBD,M
 Boys,51.71,4,Justin Garner,Sweeny,40.46,86.18,43.09,79.38,208.65,Single-ply,SBD,M
 Boys,55.79,1,Jonathan Cardenas,Freeport Brazosport,55.79,192.78,111.13,195.04,498.95,Single-ply,SBD,M
 Boys,55.79,2,Adarius Jones,Manvel,54.88,133.81,86.18,158.76,378.75,Single-ply,SBD,M
@@ -13,7 +13,7 @@ Boys,55.79,DQ,Jaden Buchanan #2,Sweeny,55.79,111.13,,,,Single-ply,SBD,M
 Boys,59.87,1,Clay Frick,Sweeny,59.51,138.35,79.38,145.15,362.87,Single-ply,SBD,M
 Boys,59.87,2,Jerome Spells,Hitchcock,59.87,133.81,74.84,145.15,353.8,Single-ply,SBD,M
 Boys,59.87,3,Enrique Alvarez,Hitchcock,59.87,129.27,52.16,136.08,317.51,Single-ply,SBD,M
-Boys,59.87,4,Michael Flores,Alvin Shadow Creek,59.69,86.18,70.31,120.2,276.69,Single-ply,SBD,M
+Boys,59.87,4,Michael Flores #4,Alvin Shadow Creek,59.69,86.18,70.31,120.2,276.69,Single-ply,SBD,M
 Boys,,NS,Phong Nguyen,Clute Brazoswood,,,,,,Single-ply,SBD,M
 Boys,,NS,Drevian Archibald,Hitchcock,,,,,,Single-ply,SBD,M
 Boys,67.13,1,Jalen Taylor,Stafford,64.23,181.44,108.86,172.37,462.66,Single-ply,SBD,M
@@ -67,7 +67,7 @@ Boys,99.79,4,Ethan George,Stafford,95.62,201.85,115.67,197.31,514.83,Single-ply,
 Boys,99.79,5,Sammy Romero,Sweeny,94.98,188.24,124.74,185.97,498.95,Single-ply,SBD,M
 Boys,99.79,6,Brendon McDonald,Manvel,92.08,147.42,104.33,213.19,464.93,Single-ply,SBD,M
 Boys,,NS,Hunter Thiem,Hitchcock,,,,,,Single-ply,SBD,M
-Boys,,NS,Jacob Martinez,Alvin Shadow Creek,,,,,,Single-ply,SBD,M
+Boys,,NS,Jacob Martinez #10,Alvin Shadow Creek,,,,,,Single-ply,SBD,M
 Boys,,NS,Danny Marquez,Freeport Brazosport,,,,,,Single-ply,SBD,M
 Boys,,NS,Marc Boles,Freeport Brazosport,,,,,,Single-ply,SBD,M
 Boys,,NS,Charles Nichols,Clute Brazoswood,,,,,,Single-ply,SBD,M
@@ -83,7 +83,7 @@ Boys,124.74,2,CJ Bench,Clute Brazoswood,116.66,235.87,129.27,199.58,564.72,Singl
 Boys,124.74,3,Joseph Solomon,Manvel,113.13,170.1,131.54,185.97,487.61,Single-ply,SBD,M
 Boys,124.74,DQ,Elijah Mason,Hitchcock,119.57,,,,,Single-ply,SBD,M
 Boys,124.74+,1,Michael Willer,Sweeny,137.71,317.51,170.1,265.35,752.96,Single-ply,SBD,M
-Boys,124.74+,2,Jonathan Woods,Sweeny,162.11,244.94,183.7,210.92,639.57,Single-ply,SBD,M
+Boys,124.74+,2,Jonathan Woods #2,Sweeny,162.11,244.94,183.7,210.92,639.57,Single-ply,SBD,M
 Boys,124.74+,3,Luke Brooks,Clute Brazoswood,125.92,249.48,102.06,231.33,582.87,Single-ply,SBD,M
 Boys,124.74+,4,Gustavo Cruz,Hitchcock,127.01,249.48,127.01,204.12,580.6,Single-ply,SBD,M
 Boys,124.74+,5,Raymond Kersten,West Columbia,127.91,215.46,129.27,208.65,553.38,Single-ply,SBD,M

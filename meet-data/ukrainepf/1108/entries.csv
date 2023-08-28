@@ -1,5 +1,5 @@
 Place,Name,BirthYear,BodyweightKg,Best3BenchKg,WeightClassKg,Division,Sex,CyrillicName,Event,TotalKg,Equipment
-1,Anastasiya Derevyanko,1987,46.8,95,47,Open,F,Анастасия Деревянко,B,95,Single-ply
+1,Anastasiya Derevyanko #1,1987,46.8,95,47,Open,F,Анастасія Дерев'янко,B,95,Single-ply
 1,Anna Sinelnikova,1984,51.9,102.5,52,Open,F,Анна Синельникова,B,102.5,Single-ply
 2,Oksana Tenyukh,1980,50.8,100,52,Open,F,Оксана Тенюх,B,100,Single-ply
 3,Natalya Ivan'kova,1974,51.3,100,52,Open,F,Наталія Іванькова,B,100,Single-ply
@@ -67,7 +67,7 @@ G,Yuriy Krokhmal',1974,97.1,185,105,Open,M,Юрій Крохмаль,B,185,Singl
 7,Sergiy Cholach,1975,112.5,217.5,120,Open,M,Сергій Чолач,B,217.5,Single-ply
 DQ,Vyacheslav Kagarlytskyy,1976,108.4,,120,Open,M,В'ячеслав Кагарлицький,B,,Single-ply
 DQ,Sergey Makrushyn,1975,109.3,,120,Open,M,Сергій Макрушин,B,,Single-ply
-DQ,Valeriy Beginin,1979,111.15,,120,Open,M,Валерий Бегинин,B,,Single-ply
+DQ,Valeriy Beginin,1979,111.15,,120,Open,M,Валерій Бегінін,B,,Single-ply
 DQ,Oleksiy Yarosh,1976,117.5,,120,Open,M,Олексій Ярош,B,,Single-ply
 DQ,Oleksandr Petrenko,1979,118.2,,120,Open,M,Олександр Петренко,B,,Single-ply
 1,Viktor Testsov,1989,130.8,342.5,120+,Open,M,Віктор Тесцов,B,342.5,Single-ply
@@ -99,7 +99,7 @@ DQ,Olexandr Grygoriv,1973,133.2,,120+,Open,M,Олександр Григорів
 4,Volodymyr Dytynyuk,1990,73.6,167.5,74,Juniors,M,Володимир Дитинюк,B,167.5,Single-ply
 5,Sergiy Maksimchuk,1989,73.6,157.5,74,Juniors,M,Сергій Максимчук,B,157.5,Single-ply
 1,Mykola Chikanyov,1989,82.2,230,83,Juniors,M,Микола Чиканьов,B,230,Single-ply
-2,Roman Martynenko,1990,80.65,225,83,Juniors,M,Роман Мартиненко,B,225,Single-ply
+2,Roman Martynenko #1,1990,80.65,225,83,Juniors,M,Роман Мартиненко,B,225,Single-ply
 3,Viktor Popyk,1988,82.8,187.5,83,Juniors,M,Віктор Попик,B,187.5,Single-ply
 4,Taras Buben,1990,80.25,182.5,83,Juniors,M,Тарас Бубен,B,182.5,Single-ply
 5,Yuriy Nesterenko,1988,81.45,182.5,83,Juniors,M,Юрій Нестеренко,B,182.5,Single-ply
@@ -107,12 +107,12 @@ DQ,Olexandr Grygoriv,1973,133.2,,120+,Open,M,Олександр Григорів
 7,Vladyslav Sheynin,1992,82.2,162.5,83,Juniors,M,Владислав Шейнін,B,162.5,Single-ply
 1,Bogdan Grynevych,1990,90.6,240,93,Juniors,M,Богдан Гриневич,B,240,Single-ply
 2,Dmytro Melnykov,1989,91.35,220,93,Juniors,M,Дмитро Мельников,B,220,Single-ply
-3,Nazar Dyachuk,1991,91.4,220,93,Juniors,M,Назар Д'ячук,B,220,Single-ply
+3,Nazariy Dyachuk,1991,91.4,220,93,Juniors,M,Назарий Д'ячук,B,220,Single-ply
 4,Oleksiy Gagren',1988,92.1,212.5,93,Juniors,M,Олексій Гагрень,B,212.5,Single-ply
 5,Bogdan Simkin,1990,90.6,210,93,Juniors,M,Богдан Сімкін,B,210,Single-ply
 6,Valeriy Kolesnyk,1988,85.5,200,93,Juniors,M,Валерій Колесник,B,200,Single-ply
 7,Andriy Dmytriev,1990,93,170,93,Juniors,M,Андрій Дмитрієв,B,170,Single-ply
-1,Ibragim Ilkhasan,1989,103.55,267.5,105,Juniors,M,Ибрагим Ильхасан,B,267.5,Single-ply
+1,Ibragim Ilkhasan,1989,103.55,267.5,105,Juniors,M,Ібрагім Ільхасан,B,267.5,Single-ply
 2,Mykhailo Smilyan,1990,104.8,252.5,105,Juniors,M,Михайло Смілян,B,252.5,Single-ply
 3,Valeriy Fedorenko,1988,101.5,207.5,105,Juniors,M,Валерій Федоренко,B,207.5,Single-ply
 4,Artem Lobachov,1988,93.1,200,105,Juniors,M,Артем Лобачов,B,200,Single-ply
@@ -158,7 +158,7 @@ DQ,Andriy Ilnytskyy,1993,82.9,,83,Sub-Juniors,M,Андрій Ільницьки�
 2,Dmytro Kravchenko,1993,90.1,150,93,Sub-Juniors,M,Дмитро Кравченко,B,150,Single-ply
 3,Anton Kozub,1993,90.5,132.5,93,Sub-Juniors,M,Антон Козуб,B,132.5,Single-ply
 1,Andriy Bezhenar,1993,103.2,165,105,Sub-Juniors,M,Андрій Беженар,B,165,Single-ply
-2,Yevgen Vasilyev,1993,101.1,160,105,Sub-Juniors,M,Євген Васильєв,B,160,Single-ply
+2,Yevgen Vasilyev #1,1993,101.1,160,105,Sub-Juniors,M,Євген Васильєв,B,160,Single-ply
 3,Ruslan Alimov,1993,104.4,160,105,Sub-Juniors,M,Руслан Алімов,B,160,Single-ply
 4,Vitaliy Pavlyuk,1993,99.25,150,105,Sub-Juniors,M,Віталій Павлюк,B,150,Single-ply
 1,Anton Tsukanov,1993,111.6,150,120,Sub-Juniors,M,Антон Цуканов,B,150,Single-ply

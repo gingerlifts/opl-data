@@ -72,7 +72,7 @@ DQ,75,M,Open,Dainius Juodgudis,1971,74.6,Lithuania,,,,,SBD,Single-ply
 16,82.5,M,Open,Marcos Sanchéz,1974,78.8,Ecuador,280,150,265,695,SBD,Single-ply
 17,82.5,M,Open,Steve Thompson,1977,82,New Zealand,235,170,200,605,SBD,Single-ply
 1,90,M,Open,Ivan Freydun,1981,89.4,Ukraine,350,245,335,930,SBD,Single-ply
-2,90,M,Open,Nikolay Marozav,1976,88.77,Belarus,332.5,230,330,892.5,SBD,Single-ply
+2,90,M,Open,Nikolai Morozov,1976,88.77,Belarus,332.5,230,330,892.5,SBD,Single-ply
 3,90,M,Open,Dmitriy Fedenko,1975,89.9,Russia,340,210,335,885,SBD,Single-ply
 4,90,M,Open,Petr Theuser,1961,89.99,Czechia,345,222.5,317.5,885,SBD,Single-ply
 5,90,M,Open,Anibal Manuel Coimbra Marques,1972,89.33,Luxembourg,322.5,207.5,325,855,SBD,Single-ply
@@ -84,7 +84,7 @@ DQ,75,M,Open,Dainius Juodgudis,1971,74.6,Lithuania,,,,,SBD,Single-ply
 11,90,M,Open,Roberto Bettati,1964,90,Italy,270,165,280,715,SBD,Single-ply
 12,90,M,Open,Donald Giblin,1977,87.9,New Zealand,250,190,250,690,SBD,Single-ply
 13,90,M,Open,Jeff Butt,1970,89.9,Canada,255,192.5,240,687.5,SBD,Single-ply
-14,90,M,Open,Stephen King,1962,88.5,New Zealand,260,147.5,260,667.5,SBD,Single-ply
+14,90,M,Open,Stephen King #1,1962,88.5,New Zealand,260,147.5,260,667.5,SBD,Single-ply
 DQ,90,M,Open,Mike Mastrean,1971,88.8,USA,335,,,,SBD,Single-ply
 DQ,90,M,Open,Jamie Burke,1976,90,UK,,,,,SBD,Single-ply
 DQ,90,M,Open,Daniele Ghirardi,1969,90,Italy,310,,,,SBD,Single-ply
@@ -99,7 +99,7 @@ DQ,90,M,Open,Daniele Ghirardi,1969,90,Italy,310,,,,SBD,Single-ply
 9,100,M,Open,Simon Weaver,1975,99.2,New Zealand,305,200,285,790,SBD,Single-ply
 10,100,M,Open,Martin Košnar,1978,99.8,Czechia,300,217.5,272.5,790,SBD,Single-ply
 11,100,M,Open,Stefano Bettati,1968,93.2,Italy,300,175,300,775,SBD,Single-ply
-12,100,M,Open,Karu Rain,1976,98.9,Estonia,292.5,175,305,772.5,SBD,Single-ply
+12,100,M,Open,Rain Karu,1976,98.9,Estonia,292.5,175,305,772.5,SBD,Single-ply
 13,100,M,Open,Eric Gagnon,1968,98.3,Canada,297.5,185,267.5,750,SBD,Single-ply
 14,100,M,Open,Michael Oszwald,1965,99.4,Austria,260,155,270,685,SBD,Single-ply
 15,100,M,Open,Dennis Visser,1977,99.7,Netherlands,270,165,240,675,SBD,Single-ply
@@ -120,7 +120,7 @@ DQ,90,M,Open,Daniele Ghirardi,1969,90,Italy,310,,,,SBD,Single-ply
 14,110,M,Open,Juraj Pazstor,1960,110,Slovakia,320,170,325,815,SBD,Single-ply
 15,110,M,Open,Stephan Vorup,1973,109.6,Denmark,330,190,292.5,812.5,SBD,Single-ply
 16,110,M,Open,Mark Neele,1975,109.8,Netherlands,310,190,300,800,SBD,Single-ply
-17,110,M,Open,Alexande Kwaschny,1964,107.5,Germany,275,217.5,305,797.5,SBD,Single-ply
+17,110,M,Open,Alexander Kwaschny,1964,107.5,Germany,275,217.5,305,797.5,SBD,Single-ply
 18,110,M,Open,Jim Hall,1974,106.2,Canada,300,195,275,770,SBD,Single-ply
 19,110,M,Open,Steven Giffin,1963,109.6,Australia,280,190,272.5,742.5,SBD,Single-ply
 20,110,M,Open,Edward Bontekoning,1974,103.2,Netherlands,287.5,155,287.5,730,SBD,Single-ply
@@ -129,7 +129,7 @@ DQ,110,M,Open,Audrius Vosylius,1964,106.4,Lithuania,270,225,,,SBD,Single-ply
 DQ,110,M,Open,France Pellizzoli,1977,108.2,Italy,,,,,SBD,Single-ply
 DQ,110,M,Open,Ignat Belousov,1976,108.6,Belarus,,,,,SBD,Single-ply
 1,125,M,Open,Andrey Malanichev,1977,124.6,Russia,400,250,365,1015,SBD,Single-ply
-2,125,M,Open,Istvan Arvai,1974,118.77,Hungary,390,255,365,1010,SBD,Single-ply
+2,125,M,Open,Istvan Arvai,,118.77,Hungary,390,255,365,1010,SBD,Single-ply
 3,125,M,Open,Volodymyr Muravlyov,1975,123.4,Ukraine,390,250,350,990,SBD,Single-ply
 4,125,M,Open,Auðunn Jónsson,1972,124.9,Iceland,380,250,342.5,972.5,SBD,Single-ply
 5,125,M,Open,Tony Cardella,1977,123.3,USA,365,245,340,950,SBD,Single-ply
@@ -139,7 +139,7 @@ DQ,110,M,Open,Ignat Belousov,1976,108.6,Belarus,,,,,SBD,Single-ply
 9,125,M,Open,Joern Hoeyset,1979,123.7,Norway,342.5,215,342.5,900,SBD,Single-ply
 10,125,M,Open,Masamitsu Ichikawa,1972,114.2,Japan,335,225,320,880,SBD,Single-ply
 11,125,M,Open,Frode Rui,1969,117.9,Norway,340,220,320,880,SBD,Single-ply
-12,125,M,Open,Tamas Haidu,1980,123.5,Hungary,320,215,320,855,SBD,Single-ply
+12,125,M,Open,Tamas Hajdu,1980,123.5,Hungary,320,215,320,855,SBD,Single-ply
 13,125,M,Open,Morten Sørig,1969,124.8,Denmark,325,225,297.5,847.5,SBD,Single-ply
 14,125,M,Open,Koji Tachibana,1966,123.22,Japan,300,200,310,810,SBD,Single-ply
 15,125,M,Open,Steve Lousich,1965,113.8,New Zealand,285,227.5,250,762.5,SBD,Single-ply
@@ -156,4 +156,4 @@ DQ,125,M,Open,Stoian Andreev,1978,124.77,Bulgaria,,,,,SBD,Single-ply
 10,125+,M,Open,Niels Stærkjær,1968,163.2,Denmark,330,280,267.5,877.5,SBD,Single-ply
 11,125+,M,Open,Florent Veldeman,1978,200,Belgium,280,260,280,820,SBD,Single-ply
 12,125+,M,Open,Wim Wamsteeker,1969,136.2,Netherlands,320,200,280,800,SBD,Single-ply
-DQ,125+,M,Open,Vladimir Bondarenko,1978,145.8,Russia,410,265,385,,SBD,Single-ply
+DD,125+,M,Open,Vladimir Bondarenko #1,1978,145.8,Russia,410,265,385,,SBD,Single-ply

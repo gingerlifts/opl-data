@@ -1,5 +1,6 @@
 //! Logic for the display of the records page, like a rankings summary.
 
+use langpack::{localized_name, Language, Locale, LocalizeNumber};
 use opldb::query::direct::*;
 use opldb::{algorithms, Entry, Lifter, Meet, OplDb};
 
@@ -11,10 +12,10 @@ use std::ffi::OsStr;
 use std::path;
 use std::str::FromStr;
 
-use crate::langpack::{self, get_localized_name, Language, Locale, LocalizeNumber};
+use super::FromPathError;
 
 /// Query selection descriptor, corresponding to HTML widgets.
-#[derive(Copy, Clone, PartialEq, Serialize)]
+#[derive(Copy, Clone, PartialEq, Eq, Serialize)]
 pub struct RecordsQuery {
     pub equipment: EquipmentFilter,
     pub federation: FederationFilter,
@@ -41,7 +42,7 @@ impl Default for RecordsQuery {
 
 impl RecordsQuery {
     /// Converts a RecordQuery to a RankingsQuery.
-    pub fn to_full_selection(&self, default: &RankingsQuery) -> RankingsQuery {
+    pub fn to_full_selection(self, default: &RankingsQuery) -> RankingsQuery {
         RankingsQuery {
             filter: EntryFilter {
                 equipment: self.equipment,
@@ -57,17 +58,17 @@ impl RecordsQuery {
     }
 
     /// Translates a URL path to a RecordQuery.
-    pub fn from_path(p: &path::Path, default: &RecordsQuery) -> Result<Self, ()> {
+    pub fn from_path(p: &path::Path, default: &RecordsQuery) -> Result<Self, FromPathError> {
         let mut ret = *default;
 
         // Disallow empty path components.
         if let Some(s) = p.to_str() {
             if s.contains("//") {
-                return Err(());
+                return Err(FromPathError::EmptyComponent);
             }
         } else {
             // Failed parsing UTF-8.
-            return Err(());
+            return Err(FromPathError::NotUtf8);
         }
 
         // Prevent fields from being overwritten or redundant.
@@ -88,57 +89,56 @@ impl RecordsQuery {
             // Check whether this is equipment information.
             if let Ok(e) = segment.parse::<EquipmentFilter>() {
                 if parsed_equipment {
-                    return Err(());
+                    return Err(FromPathError::ConflictingComponent);
                 }
                 ret.equipment = e;
                 parsed_equipment = true;
             // Check whether this is federation information.
-            } else if let Ok(f) = FederationFilter::from_str_preferring(
-                segment,
-                FedPreference::PreferMetaFederation,
-            ) {
+            } else if let Ok(f) =
+                FederationFilter::from_str_preferring(segment, FedPreference::PreferMetaFederation)
+            {
                 if parsed_federation {
-                    return Err(());
+                    return Err(FromPathError::ConflictingComponent);
                 }
                 ret.federation = f;
                 parsed_federation = true;
             // Check whether this is sex information.
             } else if let Ok(s) = segment.parse::<SexFilter>() {
                 if parsed_sex {
-                    return Err(());
+                    return Err(FromPathError::ConflictingComponent);
                 }
                 ret.sex = s;
                 parsed_sex = true;
             // Check whether this is class kind information.
             } else if let Ok(k) = segment.parse::<ClassKind>() {
                 if parsed_classkind {
-                    return Err(());
+                    return Err(FromPathError::ConflictingComponent);
                 }
                 ret.classkind = k;
                 parsed_classkind = true;
             // Check whether this is age class information.
             } else if let Ok(c) = segment.parse::<AgeClassFilter>() {
                 if parsed_ageclass {
-                    return Err(());
+                    return Err(FromPathError::ConflictingComponent);
                 }
                 ret.ageclass = c;
                 parsed_ageclass = true;
             // Check whether this is year information.
             } else if let Ok(y) = segment.parse::<YearFilter>() {
                 if parsed_year {
-                    return Err(());
+                    return Err(FromPathError::ConflictingComponent);
                 }
                 ret.year = y;
                 parsed_year = true;
             } else if let Ok(s) = State::from_full_code(segment) {
                 if parsed_state {
-                    return Err(());
+                    return Err(FromPathError::ConflictingComponent);
                 }
                 ret.state = Some(s);
                 parsed_state = true;
             // Unknown string, therefore malformed URL.
             } else {
-                return Err(());
+                return Err(FromPathError::UnknownComponent);
             }
         }
 
@@ -148,9 +148,10 @@ impl RecordsQuery {
 
 /// Selects what kind of weight classes to use, as opposed to which specific
 /// class.
-#[derive(Copy, Clone, PartialEq, Serialize)]
+#[derive(Copy, Clone, PartialEq, Eq, Serialize)]
 pub enum ClassKind {
     Traditional,
+    Expanded,
     IPF,
     Para,
     WP,
@@ -162,6 +163,7 @@ impl FromStr for ClassKind {
     fn from_str(s: &str) -> Result<Self, Self::Err> {
         match s {
             // No parsing for Traditional: it's the default.
+            "expanded-classes" => Ok(ClassKind::Expanded),
             "ipf-classes" => Ok(ClassKind::IPF),
             "para-classes" => Ok(ClassKind::Para),
             "wp-classes" => Ok(ClassKind::WP),
@@ -195,17 +197,10 @@ pub struct Context<'db> {
 ///
 /// Since this is owned by a RecordCollector, it collects a single record
 /// in a single weightclass.
+#[derive(Default)]
 pub struct SingleRecordCollector<'db> {
     /// Remembers the top Entries during iteration.
     pub accumulator: [Option<&'db Entry>; 3],
-}
-
-impl<'db> Default for SingleRecordCollector<'db> {
-    fn default() -> SingleRecordCollector<'db> {
-        SingleRecordCollector {
-            accumulator: [None; 3],
-        }
-    }
 }
 
 impl<'db> SingleRecordCollector<'db> {
@@ -221,9 +216,7 @@ impl<'db> SingleRecordCollector<'db> {
         // The incoming entry is compared to the last element in the accumulator,
         // which is the Nth-highest-seen value. If it compares favorably, then
         // it replaces that Entry, and the accumulator is re-sorted.
-        if self.accumulator[last]
-            .map_or(true, |e| compare(meets, entry, e) == Ordering::Less)
-        {
+        if self.accumulator[last].map_or(true, |e| compare(meets, entry, e) == Ordering::Less) {
             // This entry matched.
             // Since each lifter is only to be counted once in each category,
             // scan through the accumulator and look to replace an existing entry.
@@ -307,7 +300,7 @@ impl<'db> RecordCollector<'db> {
         }
 
         // Otherwise, check for a SHW category with no recorded bodyweight.
-        if self.class_max_inclusive == WeightKg::max_value() {
+        if self.class_max_inclusive == WeightKg::MAX {
             // Does the minimum weight of the SHW category fit here?
             if let WeightClassKg::Over(w) = entry.weightclasskg {
                 return w >= self.class_min_exclusive;
@@ -346,16 +339,13 @@ impl<'db> RecordCollector<'db> {
     }
 }
 
-fn make_collectors<'db>(
-    sex: SexFilter,
-    classkind: ClassKind,
-) -> Vec<RecordCollector<'db>> {
+fn make_collectors<'db>(sex: SexFilter, classkind: ClassKind) -> Vec<RecordCollector<'db>> {
     let classes = match classkind {
         // Traditional classes.
         ClassKind::Traditional => {
             if sex == SexFilter::Men {
                 vec![
-                    WeightClassFilter::T52,
+                    WeightClassFilter::TUnder52,
                     WeightClassFilter::T56,
                     WeightClassFilter::T60,
                     WeightClassFilter::T67_5,
@@ -384,6 +374,43 @@ fn make_collectors<'db>(
             }
         }
 
+        // Expanded classes.
+        ClassKind::Expanded => {
+            if sex == SexFilter::Men {
+                vec![
+                    WeightClassFilter::TUnder52,
+                    WeightClassFilter::T56,
+                    WeightClassFilter::T60,
+                    WeightClassFilter::T67_5,
+                    WeightClassFilter::T75,
+                    WeightClassFilter::T82_5,
+                    WeightClassFilter::T90,
+                    WeightClassFilter::T100,
+                    WeightClassFilter::T110,
+                    WeightClassFilter::T125,
+                    WeightClassFilter::T140,
+                    WeightClassFilter::TOver140,
+                ]
+            } else {
+                vec![
+                    WeightClassFilter::T44,
+                    WeightClassFilter::T48,
+                    WeightClassFilter::T52,
+                    WeightClassFilter::T56,
+                    WeightClassFilter::T60,
+                    WeightClassFilter::T67_5,
+                    WeightClassFilter::T75,
+                    WeightClassFilter::T82_5,
+                    WeightClassFilter::T90,
+                    WeightClassFilter::T100,
+                    WeightClassFilter::T110,
+                    WeightClassFilter::T125,
+                    WeightClassFilter::T140,
+                    WeightClassFilter::TOver140,
+                ]
+            }
+        }
+
         // IPF new-fangled classes.
         ClassKind::IPF => {
             if sex == SexFilter::Men {
@@ -405,7 +432,8 @@ fn make_collectors<'db>(
                     WeightClassFilter::IpfF52,
                     WeightClassFilter::IpfF57,
                     WeightClassFilter::IpfF63,
-                    WeightClassFilter::IpfF72,
+                    WeightClassFilter::IpfF69,
+                    WeightClassFilter::IpfF76,
                     WeightClassFilter::IpfF84,
                     WeightClassFilter::IpfFOver84,
                 ]
@@ -497,16 +525,15 @@ fn find_records<'db>(
     };
 
     // Get a list of all entries corresponding to the selection.
-    let indices =
-        algorithms::get_entry_indices_for(&sel.to_full_selection(&default).filter, opldb);
+    let indices = algorithms::entry_indices_for(&sel.to_full_selection(&default).filter, opldb);
 
     // Build a vector of structs that can remember records.
     let mut collectors = make_collectors(sel.sex, sel.classkind);
-    let meets = opldb.get_meets();
+    let meets = opldb.meets();
 
     // Mapping indices to entries, run the collectors over each Entry.
     for &index in &indices.0 {
-        let entry = opldb.get_entry(index);
+        let entry = opldb.entry(index);
         if entry.place.is_dq() {
             continue;
         }
@@ -551,11 +578,8 @@ impl<'db> Table<'db> {
     ) where
         F: Fn(&Entry) -> WeightKg,
     {
-        let mut rank: u32 = 0;
-
-        for record in collector.accumulator.iter() {
-            rank += 1;
-
+        for (rank, record) in collector.accumulator.iter().enumerate() {
+            let rank = (rank + 1) as u32; // Start from one.
             let weightclass_display = if rank == 1 { Some(weightclass) } else { None };
 
             let row = match record {
@@ -570,8 +594,8 @@ impl<'db> Table<'db> {
                     lifter: None,
                 },
                 Some(entry) => {
-                    let meet = opldb.get_meet(entry.meet_id);
-                    let lifter = opldb.get_lifter(entry.lifter_id);
+                    let meet = opldb.meet(entry.meet_id);
+                    let lifter = opldb.lifter(entry.lifter_id);
 
                     RecordsRow {
                         rank: locale.ordinal(rank, entry.sex),
@@ -584,10 +608,7 @@ impl<'db> Table<'db> {
                         date: Some(format!("{}", meet.date)),
                         path: Some(&meet.path),
                         federation: Some(meet.federation),
-                        localized_name: Some(get_localized_name(
-                            &lifter,
-                            locale.language,
-                        )),
+                        localized_name: Some(localized_name(lifter, locale.language)),
                         lifter: Some(lifter),
                     }
                 }
@@ -722,8 +743,8 @@ impl<'db> Context<'db> {
 
         Context {
             urlprefix: "/",
-            page_title: &locale.strings.page_titles.records,
-            page_description: &locale.strings.html_header.description,
+            page_title: locale.strings.page_titles.records,
+            page_description: locale.strings.html_header.description,
             language: locale.language,
             strings: locale.strings,
             units: locale.units,

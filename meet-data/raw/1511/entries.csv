@@ -13,9 +13,9 @@ Joni Talavera,SBD,Raw,F,82.5,Open,34,PA,76.5,70,,,,,50,,,,100,220,2
 Joni Talavera,SBD,Raw,F,82.5,Special Olympics,34,PA,76.5,70,,,,,50,,,,100,220,1
 Rebecca Tucker,SBD,Raw,F,90,Open,32,NY,89.5,140,,,,,90,,,,175,405,1
 Ari Kutin,SBD,Raw,M,52,Teen 12-13,12,NJ,52,92.5,,,,,45,,,,117.5,255,1
-Christopher Ferranti,SBD,Raw,M,67.5,Open,26,NC,67.1,195,,,,,140,,,,245,580,1
+Chris Ferranti,SBD,Raw,M,67.5,Open,26,NC,67.1,195,,,,,140,,,,245,580,1
 Mark Bui,SBD,Raw,M,67.5,Open,28,PA,66.8,137.5,,,,,87.5,,,,192.5,417.5,2
-Ben Gibson,SBD,Raw,M,67.5,Open,35,PA,65.8,147.5,,,,,85,,,,175,407.5,3
+Ben Gibson #5,SBD,Raw,M,67.5,Open,35,PA,65.8,147.5,,,,,85,,,,175,407.5,3
 Marc Cephes,SBD,Raw,M,67.5,Open,23,NJ,67.5,115,,,,,-125.0,,,,190,,DQ
 Marc Cephes,SBD,Raw,M,67.5,Juniors 20-24,23,NJ,67.5,115,,,,,-125.0,,,,190,,DQ
 Andrew Duffy,SBD,Raw,M,67.5,Teen 14-15,15,NJ,64.2,105,,,,,105,,,,125,335,1
@@ -39,7 +39,7 @@ Michael Carson,SBD,Raw,M,100,Open,39,PA,93.3,170,,,,,127.5,,,,212.5,510,1
 Theo Vlahos,SBD,Raw,M,100,Teen 16-17,17,NJ,98.2,175,,,,,102.5,,,,175,452.5,1
 Cameron Maxwell,SBD,Raw,M,100,Teen 18-19,19,NJ,97.5,215,,,,,172.5,,,,260,647.5,1
 Ed Kutin,SBD,Raw,M,100,Masters 50-54,52,NJ,98.9,185,,,,,145,,,,237.5,567.5,1
-Robert Ludwig,SBD,Raw,M,100,Masters 55-59,55,PA,99.2,220,,,,,152.5,,,,240,612.5,1
+Robert Ludwig #2,SBD,Raw,M,100,Masters 55-59,55,PA,99.2,220,,,,,152.5,,,,240,612.5,1
 Brian B K Karakaedos,SBD,Raw,M,110,Open,23,PA,106.8,187.5,,,,,140,,,,255,582.5,1
 Brian B K Karakaedos,SBD,Raw,M,110,Juniors 20-24,23,PA,106.8,187.5,,,,,140,,,,255,582.5,1
 Viacheslav Kiselev,SBD,Raw,M,110,Open,27,NY,110,142.5,,,,,142.5,,,,165,450,2
@@ -77,8 +77,8 @@ Sean Kelleher,B,Raw,M,125,Masters 55-59,56,NY,120.8,,160,165,167.5,,167.5,,,,,16
 David Alvarez,B,Raw,M,140,Open,41,NY,133.9,,215,222.5,225,-237.5,225,,,,,225,1
 David Alvarez,B,Raw,M,140,Masters 40-44,41,NY,133.9,,215,222.5,225,-237.5,225,,,,,225,1
 Nicholas Neira,B,Raw,M,140,Open,30,PA,132,,152.5,-157.5,157.5,,157.5,,,,,157.5,2
-Pedro Mejias,B,Raw,M,140+,Open,38,NY,186,,257.5,-270.0,270,,270,,,,,270,1
-Pedro Mejias,B,Raw,M,140+,Submasters 35-39,38,NY,186,,257.5,-270.0,270,,270,,,,,270,1
+Pedro Mejias,B,Raw,M,140+,Open,,NY,186,,257.5,-270.0,270,,270,,,,,270,1
+Pedro Mejias,B,Raw,M,140+,Submasters 35-39,,NY,186,,257.5,-270.0,270,,270,,,,,270,1
 Jauon Mejias,B,Raw,M,140+,Teen 16-17,16,NY,159.9,,-147.5,152.5,-160.0,,152.5,,,,,152.5,1
 Gretchen Tucker,D,Raw,F,75,Open,25,PA,74.1,,,,,,,82.5,90,97.5,97.5,97.5,1
 Kashona Singleton,D,Raw,F,82.5,Open,37,NY,82.1,,,,,,,152.5,170,172.5,172.5,172.5,1

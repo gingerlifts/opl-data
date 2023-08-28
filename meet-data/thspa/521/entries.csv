@@ -5,7 +5,7 @@ Boys,51.71,3,Angel Gomez,Comal Canyon,45.36,102.06,52.16,95.25,249.48,Single-ply
 Boys,51.71,4,Luis Rios,Geronimo Navarro,44.27,72.57,52.16,104.33,229.06,Single-ply,SBD,M
 Boys,51.71,5,Michael Pavia,san marcos,45.99,74.84,47.63,95.25,217.72,Single-ply,SBD,M
 Boys,51.71,6,Collin Everman,Comal Canyon,43.09,72.57,38.56,86.18,197.31,Single-ply,SBD,M
-Boys,55.79,1,Austin Johnson,Bandera,53.98,154.22,106.59,149.69,410.5,Single-ply,SBD,M
+Boys,55.79,1,Austin Johnson #6,Bandera,53.98,154.22,106.59,149.69,410.5,Single-ply,SBD,M
 Boys,55.79,DQ,Chris Jackson #7,Lockhart,55.25,,,,,Single-ply,SBD,M
 Boys,55.79,3,Benito Flores,San Antonio Southside,55.43,124.74,81.65,142.88,349.27,Single-ply,SBD,M
 Boys,55.79,4,Chase Allen,san marcos,54.25,104.33,81.65,113.4,299.37,Single-ply,SBD,M
@@ -40,15 +40,15 @@ Boys,67.13,12,Walker McCandrew,Universal City Randolph,64.77,122.47,79.38,151.95
 Boys,67.13,13,Chris Mirarchi,Universal City Randolph,62.23,113.4,90.72,140.61,344.73,Single-ply,SBD,M
 Boys,67.13,14,Nigel Cardenas,San Antonio Memorial,62.32,113.4,65.77,129.27,308.44,Single-ply,SBD,M
 Boys,67.13,15,Jacob Pate,Austin Lake Travis,61.14,102.06,61.23,124.74,288.03,Single-ply,SBD,M
-Boys,67.13,DQ,Andrew Harris,San Antonio Southside,67.04,190.51,,,,Single-ply,SBD,M
+Boys,67.13,DQ,Andrew Harris #5,San Antonio Southside,67.04,190.51,,,,Single-ply,SBD,M
 Boys,67.13,DQ,Chase Brown,Wimberley,67.13,,,,,Single-ply,SBD,M
 Boys,67.13,DQ,Colby Fonville,Wimberley,67.13,,,,,Single-ply,SBD,M
 Boys,67.13,DQ,Ozzie Valera,Somerset,67.13,,,,,Single-ply,SBD,M
 Boys,74.84,1,Dominique Hardaway,Lockhart,73.84,272.16,142.88,272.16,687.19,Single-ply,SBD,M
 Boys,74.84,2,Jeff Moreno,Comal Canyon,73.94,233.6,120.2,226.8,580.6,Single-ply,SBD,M
-Boys,74.84,3,Payton Smith,Comal Canyon,73.94,188.24,106.59,188.24,483.08,Single-ply,SBD,M
+Boys,74.84,3,Peyton Smith #3,Comal Canyon,73.94,188.24,106.59,188.24,483.08,Single-ply,SBD,M
 Boys,74.84,4,Clay Flinn,Austin Lake Travis,71.67,181.44,104.33,172.37,458.13,Single-ply,SBD,M
-Boys,74.84,5,VIncent Moraida,Buda Hays,71.94,174.63,104.33,163.29,442.25,Single-ply,SBD,M
+Boys,74.84,5,Vincent Moraida,Buda Hays,71.94,174.63,104.33,163.29,442.25,Single-ply,SBD,M
 Boys,74.84,6,Jacob Ritch,San Antonio East Central,69.85,158.76,102.06,179.17,439.98,Single-ply,SBD,M
 Boys,74.84,7,Sean Hancock,Geronimo Navarro,73.66,149.69,124.74,149.69,424.11,Single-ply,SBD,M
 Boys,74.84,8,Will Perrin,Universal City Randolph,70.58,172.37,77.11,172.37,421.84,Single-ply,SBD,M
@@ -88,7 +88,7 @@ Boys,82.1,DQ,Josh Falcon,San Antonio East Central,79.83,,,,,Single-ply,SBD,M
 Boys,82.1,DQ,Daniel Prado,San Antonio Southside,82.1,,,,,Single-ply,SBD,M
 Boys,89.81,1,Ian Bell,Comal Canyon,87.54,310.71,156.49,308.44,775.64,Single-ply,SBD,M
 Boys,89.81,2,Kory Kuhl,Universal City Randolph,89.81,192.78,108.86,219.99,521.63,Single-ply,SBD,M
-Boys,89.81,3,Joe Hernandez,San Antonio East Central,89.81,195.04,111.13,188.24,494.42,Single-ply,SBD,M
+Boys,89.81,3,Joe Hernandez #1,San Antonio East Central,89.81,195.04,111.13,188.24,494.42,Single-ply,SBD,M
 Boys,89.81,4,Shaquille Marable,Austin Lake Travis,84.64,174.63,102.06,215.46,492.15,Single-ply,SBD,M
 Boys,89.81,5,Cody Villarreal,san marcos,89.81,181.44,106.59,181.44,469.47,Single-ply,SBD,M
 Boys,89.81,6,Santos Dominguez,San Antonio East Central,89.81,181.44,97.52,190.51,469.47,Single-ply,SBD,M
@@ -101,7 +101,7 @@ Boys,89.81,12,Austin Metzger,Universal City Randolph,89.81,149.69,90.72,181.44,4
 Boys,89.81,13,Kyle Kimery,Austin Westlake,88.27,154.22,79.38,147.42,381.02,Single-ply,SBD,M
 Boys,89.81,14,Nick Ringler,Universal City Randolph,89.81,127.01,86.18,156.49,369.68,Single-ply,SBD,M
 Boys,89.81,15,Michael Turner,San Antonio East Central,89.81,124.74,90.72,138.35,353.8,Single-ply,SBD,M
-Boys,89.81,DQ,Ricky Hernandez,san marcos,89.81,,,,,Single-ply,SBD,M
+Boys,89.81,DQ,Ricky Hernandez #4,san marcos,89.81,,,,,Single-ply,SBD,M
 Boys,89.81,DQ,Jonathan Ramos,San Antonio Southside,89.81,170.1,,,,Single-ply,SBD,M
 Boys,89.81,DQ,Jeremy Amberger,Austin Lake Travis,86.18,,,,,Single-ply,SBD,M
 Boys,89.81,DQ,Connor Bryne,Austin Westlake,85.28,136.08,,,,Single-ply,SBD,M
@@ -143,8 +143,8 @@ Boys,109.77,DQ,Xavier Lopez,San Antonio Memorial,109.77,,,,,Single-ply,SBD,M
 Boys,109.77,DQ,Abel Gonzales,San Antonio Memorial,102.06,,,,,Single-ply,SBD,M
 Boys,109.77,DQ,Daniel Chavez,San Antonio Memorial,102.06,,,,,Single-ply,SBD,M
 Boys,109.77,DQ,Liam Murphy,Universal City Randolph,106.5,181.44,,,,Single-ply,SBD,M
-Boys,124.74,1,Brandon Rodriguez,Somerset,120.47,294.84,170.1,251.74,716.68,Single-ply,SBD,M
-Boys,124.74,2,Albert Mata,San Antonio Southside,116.75,272.16,158.76,229.06,659.98,Single-ply,SBD,M
+Boys,124.74,1,Brandon Rodriguez #4,Somerset,120.47,294.84,170.1,251.74,716.68,Single-ply,SBD,M
+Boys,124.74,2,Albert Mata #3,San Antonio Southside,116.75,272.16,158.76,229.06,659.98,Single-ply,SBD,M
 Boys,124.74,3,Reynaldo Medina,San Antonio Southside,114.76,272.16,158.76,217.72,648.64,Single-ply,SBD,M
 Boys,124.74,4,William Cavanaugh,Comal Canyon,122.47,258.55,154.22,226.8,639.57,Single-ply,SBD,M
 Boys,124.74,5,Alfred Godines,Somerset,110.95,244.94,167.83,204.12,616.89,Single-ply,SBD,M

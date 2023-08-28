@@ -1,6 +1,6 @@
 Name,WeightClassKg,Division,AgeRange,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Tested,Place
 Terry Gillespie,56,Class II,,M,135,85,155,375,SBD,Single-ply,Yes,2
-Robert Trujillo,56,Class II,,M,130,87.5,182.5,400,SBD,Single-ply,Yes,1
+Reuben Trujillo,56,Class II,,M,130,87.5,182.5,400,SBD,Single-ply,Yes,1
 Dave Edmondson,60,Class II,,M,227.5,125,222.5,575,SBD,Single-ply,Yes,1
 Ken Westbrook,60,Class II,,M,232.5,112.5,227.5,572.5,SBD,Single-ply,Yes,2
 Larry Christ,60,Class II,,M,200,115,215,530,SBD,Single-ply,Yes,3
@@ -9,7 +9,7 @@ D. Allen,60,Class II,,M,182.5,112.5,192.5,487.5,SBD,Single-ply,Yes,5
 R. Todd,60,Class II,,M,162.5,110,195,467.5,SBD,Single-ply,Yes,6
 Todd Hayataka,67.5,Class II,,M,217.5,165,210,592.5,SBD,Single-ply,Yes,1
 Pete Sengos,67.5,Class II,,M,222.5,112.5,215,550,SBD,Single-ply,Yes,2
-D. Scroggins,67.5,Class II,,M,217.5,110,210,537.5,SBD,Single-ply,Yes,3
+Dan Scroggins,67.5,Class II,,M,217.5,110,210,537.5,SBD,Single-ply,Yes,3
 John Cao,67.5,Class II,,M,205,112.5,210,527.5,SBD,Single-ply,Yes,4
 Dan Linehan,67.5,Class II,,M,170,127.5,220,517.5,SBD,Single-ply,Yes,5
 J. Cash,67.5,Class II,,M,,130,190,,SBD,Single-ply,Yes,DQ
@@ -18,7 +18,7 @@ R. Ward,75,Class II,,M,257.5,130,262.5,650,SBD,Single-ply,Yes,2
 L. Navarro,75,Class II,,M,235,137.5,262.5,635,SBD,Single-ply,Yes,3
 Rick Butera,75,Class II,,M,240,150,237.5,627.5,SBD,Single-ply,Yes,4
 J. Moore,75,Class II,,M,235,137.5,245,617.5,SBD,Single-ply,Yes,5
-K. Le,75,Class II,,M,212.5,137.5,255,605,SBD,Single-ply,Yes,6
+Khiem Le,75,Class II,,M,212.5,137.5,255,605,SBD,Single-ply,Yes,6
 K. Jones,75,Class II,,M,187.5,147.5,205,540,SBD,Single-ply,Yes,7
 B. Ramos,75,Class II,,M,192.5,115,,,SBD,Single-ply,Yes,DQ
 Todd Whitton,75,Class II,,M,240,145,,,SBD,Single-ply,Yes,DQ
@@ -37,7 +37,7 @@ J. Adams,90,Class II,,M,295,182.5,295,772.5,SBD,Single-ply,Yes,1
 Dave Gonzales,90,Class II,,M,280,200,267.5,747.5,SBD,Single-ply,Yes,2
 Bob Boyles,90,Class II,,M,292.5,177.5,262.5,732.5,SBD,Single-ply,Yes,3
 T. Booth,90,Class II,,M,275,165,287.5,727.5,SBD,Single-ply,Yes,4
-D. Roach,90,Class II,,M,272.5,162.5,292.5,727.5,SBD,Single-ply,Yes,5
+Davis Roach,90,Class II,,M,272.5,162.5,292.5,727.5,SBD,Single-ply,Yes,5
 H. Durham,90,Class II,,M,270,170,277.5,717.5,SBD,Single-ply,Yes,6
 F. Granthem,90,Class II,,M,270,170,260,700,SBD,Single-ply,Yes,7
 G. Glazer,90,Class II,,M,280,182.5,237.5,700,SBD,Single-ply,Yes,8
@@ -52,7 +52,7 @@ K. McArthur,100,Class II,,M,287.5,160,262.5,710,SBD,Single-ply,Yes,6
 C. Smith,100,Class II,,M,262.5,170,272.5,705,SBD,Single-ply,Yes,7
 Robert Rood Sr,100,Class II,,M,260,170,272.5,702.5,SBD,Single-ply,Yes,8
 Hugh Kirby,100,Class II,,M,275,142.5,275,692.5,SBD,Single-ply,Yes,9
-M. Anderson,100,Class II,,M,257.5,170,260,687.5,SBD,Single-ply,Yes,10
+M. Anderson #16,100,Class II,,M,257.5,170,260,687.5,SBD,Single-ply,Yes,10
 Darrell Latch,100,Class II,,M,245,142.5,255,642.5,SBD,Single-ply,Yes,11
 Pat Workman,110,Class II,,M,317.5,195,287.5,800,SBD,Single-ply,Yes,1
 Solomon Mageo,110,Class II,,M,325,197.5,275,797.5,SBD,Single-ply,Yes,2
@@ -69,23 +69,23 @@ T. Siros,110,Class II,,M,225,147.5,235,607.5,SBD,Single-ply,Yes,12
 Ken Ufford,125,Class II,,M,310,220,337.5,867.5,SBD,Single-ply,Yes,1
 Frank Luna #2,125,Class II,,M,347.5,187.5,282.5,817.5,SBD,Single-ply,Yes,2
 J. King,125,Class II,,M,275,155,287.5,717.5,SBD,Single-ply,Yes,3
-W. Owens,125,Class II,,M,277.5,187.5,250,715,SBD,Single-ply,Yes,4
+Willie Owens,125,Class II,,M,277.5,187.5,250,715,SBD,Single-ply,Yes,4
 Robert Pierce,125,Class II,,M,257.5,150,275,682.5,SBD,Single-ply,Yes,5
 C. Cageland,125+,Class II,,M,285,170,275,730,SBD,Single-ply,Yes,1
 S. Gronemeyer,125+,Class II,,M,227.5,142.5,217.5,587.5,SBD,Single-ply,Yes,2
 D. Long,125+,Class II,,M,195,132.5,230,557.5,SBD,Single-ply,Yes,3
-B. Drybread,125+,Class II,,M,185,130,227.5,542.5,SBD,Single-ply,Yes,4
+Bill Drybread,125+,Class II,,M,185,130,227.5,542.5,SBD,Single-ply,Yes,4
 Bernie Miller,52,Pure,,M,142.5,112.5,157.5,412.5,SBD,Single-ply,Yes,1
 B. Davis,52,Pure,,M,145,92.5,170,407.5,SBD,Single-ply,Yes,2
 Brett Phillabaum,52,Pure,,M,142.5,87.5,165,395,SBD,Single-ply,Yes,3
 J. Charkalis,52,Pure,,M,112.5,77.5,157.5,347.5,SBD,Single-ply,Yes,4
 M. Long,56,Pure,,M,210,125,232.5,567.5,SBD,Single-ply,Yes,1
-M. Gambrell,56,Pure,,M,197.5,107.5,205,510,SBD,Single-ply,Yes,2
+Mike Gambrell,56,Pure,,M,197.5,107.5,205,510,SBD,Single-ply,Yes,2
 Jonathan Arenberg,56,Pure,,M,162.5,130,182.5,475,SBD,Single-ply,Yes,3
 Don Moore,56,Pure,,M,182.5,110,182.5,475,SBD,Single-ply,Yes,4
 Farley Styles,56,Pure,,M,170,100,175,445,SBD,Single-ply,Yes,5
 R. Smith,56,Pure,,M,162.5,122.5,150,435,SBD,Single-ply,Yes,6
-Robert Trujillo,56,Pure,,M,130,87.5,182.5,400,SBD,Single-ply,Yes,7
+Reuben Trujillo,56,Pure,,M,130,87.5,182.5,400,SBD,Single-ply,Yes,7
 Alex Galant,56,Pure,,M,132.5,87.5,170,390,SBD,Single-ply,Yes,8
 Dave Edmondson,60,Pure,,M,227.5,125,222.5,575,SBD,Single-ply,Yes,1
 Keith Scisney,60,Pure,,M,217.5,135,217.5,570,SBD,Single-ply,Yes,2
@@ -103,7 +103,7 @@ Terry Perkins,67.5,Pure,,M,235,137.5,227.5,600,SBD,Single-ply,Yes,3
 J. Lagat,67.5,Pure,,M,222.5,137.5,220,580,SBD,Single-ply,Yes,4
 S. Sielawa,67.5,Pure,,M,212.5,125,235,572.5,SBD,Single-ply,Yes,5
 Pete Sengos,67.5,Pure,,M,222.5,112.5,215,550,SBD,Single-ply,Yes,6
-D. Abbey,67.5,Pure,,M,212.5,122.5,212.5,547.5,SBD,Single-ply,Yes,7
+Doug Abbey,67.5,Pure,,M,212.5,122.5,212.5,547.5,SBD,Single-ply,Yes,7
 G. Groves,67.5,Pure,,M,217.5,112.5,212.5,542.5,SBD,Single-ply,Yes,8
 J. Jiminez,67.5,Pure,,M,200,105,232.5,537.5,SBD,Single-ply,Yes,9
 S. Gonzales,67.5,Pure,,M,192.5,110,235,537.5,SBD,Single-ply,Yes,10
@@ -118,7 +118,7 @@ R. Ward,75,Pure,,M,257.5,130,262.5,650,SBD,Single-ply,Yes,8
 R. Blount,75,Pure,,M,227.5,172.5,272.5,672.5,SBD,Single-ply,Yes,4
 P. Coffman,75,Pure,,M,240,132.5,245,617.5,SBD,Single-ply,Yes,9
 J. Moore,75,Pure,,M,235,172.5,245,652.5,SBD,Single-ply,Yes,6
-K. Le,75,Pure,,M,212.5,137.5,255,605,SBD,Single-ply,Yes,10
+Khiem Le,75,Pure,,M,212.5,137.5,255,605,SBD,Single-ply,Yes,10
 A. Trejo,75,Pure,,M,215,112.5,247.5,575,SBD,Single-ply,Yes,11
 T. Montano,75,Pure,,M,210,107.5,230,547.5,SBD,Single-ply,Yes,12
 E. Rodriguez,75,Pure,,M,172.5,115,205,492.5,SBD,Single-ply,Yes,13
@@ -128,7 +128,7 @@ Curtis Payne,82.5,Pure,,M,277.5,160,307.5,745,SBD,Single-ply,Yes,3
 Kenneth Rollins,82.5,Pure,,M,307.5,160,260,727.5,SBD,Single-ply,Yes,4
 J. Carrance,82.5,Pure,,M,282.5,192.5,245,720,SBD,Single-ply,Yes,5
 R. Pauli,82.5,Pure,,M,277.5,175,267.5,720,SBD,Single-ply,Yes,6
-R. Ethington,82.5,Pure,,M,272.5,137.5,285,695,SBD,Single-ply,Yes,7
+Robert Ethington,82.5,Pure,,M,272.5,137.5,285,695,SBD,Single-ply,Yes,7
 G. Cardin,82.5,Pure,,M,267.5,157.5,265,690,SBD,Single-ply,Yes,8
 S. Earle,82.5,Pure,,M,265,162.5,250,677.5,SBD,Single-ply,Yes,9
 Steve LeMarié,82.5,Pure,,M,255,147.5,275,677.5,SBD,Single-ply,Yes,10
@@ -142,7 +142,7 @@ C. Hirota,90,Pure,,M,212.5,122.5,255,590,SBD,Single-ply,Yes,15
 J. Adams,90,Pure,,M,295,182.5,295,772.5,SBD,Single-ply,Yes,1
 Dave Passon,90,Pure,,M,310,170,272.5,752.5,SBD,Single-ply,Yes,2
 T. Pauli,90,Pure,,M,290,187.5,260,737.5,SBD,Single-ply,Yes,3
-T. Dighello,90,Pure,,M,282.5,152.5,297.5,732.5,SBD,Single-ply,Yes,4
+T. DiGhello,90,Pure,,M,282.5,152.5,297.5,732.5,SBD,Single-ply,Yes,4
 W. Guinn,90,Pure,,M,282.5,162.5,287.5,732.5,SBD,Single-ply,Yes,5
 R. Thompson,90,Pure,,M,272.5,175,272.5,720,SBD,Single-ply,Yes,6
 F. Grantham,90,Pure,,M,270,170,260,700,SBD,Single-ply,Yes,7
@@ -150,7 +150,7 @@ D. Crawford,90,Pure,,M,280,162.5,245,687.5,SBD,Single-ply,Yes,8
 D. Cullinane,90,Pure,,M,257.5,165,260,682.5,SBD,Single-ply,Yes,9
 D. Schwaim,90,Pure,,M,260,177.5,242.5,680,SBD,Single-ply,Yes,10
 A. Marguiles,90,Pure,,M,245,155,260,660,SBD,Single-ply,Yes,11
-D. Farano,90,Pure,,M,250,150,250,650,SBD,Single-ply,Yes,12
+Daniel Farano,90,Pure,,M,250,150,250,650,SBD,Single-ply,Yes,12
 D. Evenson,90,Pure,,M,237.5,155,250,642.5,SBD,Single-ply,Yes,13
 D. Summerford,90,Pure,,M,205,172.5,260,637.5,SBD,Single-ply,Yes,14
 R. Melear,100,Pure,,M,290,200,302.5,792.5,SBD,Single-ply,Yes,1
@@ -158,29 +158,29 @@ R. Pauli,100,Pure,,M,307.5,182.5,272.5,762.5,SBD,Single-ply,Yes,2
 J. Finnels,100,Pure,,M,290,182.5,270,742.5,SBD,Single-ply,Yes,3
 N. Bunch,100,Pure,,M,272.5,182.5,277.5,732.5,SBD,Single-ply,Yes,4
 Steve Pincock,100,Pure,,M,290,155,272.5,717.5,SBD,Single-ply,Yes,5
-D. Mahan,100,Pure,,M,262.5,157.5,277.5,697.5,SBD,Single-ply,Yes,6
+Dan Mahan,100,Pure,,M,262.5,157.5,277.5,697.5,SBD,Single-ply,Yes,6
 G. Siurdak,100,Pure,,M,227.5,182.5,287.5,697.5,SBD,Single-ply,Yes,7
 R. Viator,100,Pure,,M,272.5,172.5,235,680,SBD,Single-ply,Yes,8
 J. Schippee,100,Pure,,M,250,160,235,645,SBD,Single-ply,Yes,9
 J. Ross,100,Pure,,M,227.5,155,255,637.5,SBD,Single-ply,Yes,10
 R. Weaver,110,Pure,,M,300,212.5,280,792.5,SBD,Single-ply,Yes,1
-S. Ross,110,Pure,,M,285,182.5,305,772.5,SBD,Single-ply,Yes,2
+Shane Ross,110,Pure,,M,285,182.5,305,772.5,SBD,Single-ply,Yes,2
 Steve Walsh,110,Pure,,M,292.5,180,282.5,755,SBD,Single-ply,Yes,3
 R. Brown #7,110,Pure,,M,272.5,185,290,747.5,SBD,Single-ply,Yes,4
 Robert Keller #1,110,Pure,,M,292.5,175,275,742.5,SBD,Single-ply,Yes,5
 Bill Truesdale,110,Pure,,M,270,172.5,290,732.5,SBD,Single-ply,Yes,6
 Ed Ferguson,110,Pure,,M,282.5,175,255,712.5,SBD,Single-ply,Yes,7
 T. Fourcade,110,Pure,,M,287.5,185,237.5,710,SBD,Single-ply,Yes,8
-R. Corbellini,110,Pure,,M,262.5,152.5,267.5,682.5,SBD,Single-ply,Yes,9
+Rob Corbellini,110,Pure,,M,262.5,152.5,267.5,682.5,SBD,Single-ply,Yes,9
 L. Prince,110,Pure,,M,250,175,242.5,667.5,SBD,Single-ply,Yes,10
 T. Jones,110,Pure,,M,250,145,260,655,SBD,Single-ply,Yes,11
 B. Farris,110,Pure,,M,245,140,250,635,SBD,Single-ply,Yes,12
 M. Foisy,110,Pure,,M,237.5,150,222.5,610,SBD,Single-ply,Yes,13
 Steve Miller #1,125,Pure,,M,322.5,190,297.5,810,SBD,Single-ply,Yes,1
-Michael Riordan,125,Pure,,M,295,185,305,785,SBD,Single-ply,Yes,2
+Michael Riordan #1,125,Pure,,M,295,185,305,785,SBD,Single-ply,Yes,2
 Willie Dorsey,125,Pure,,M,295,185,297.5,777.5,SBD,Single-ply,Yes,3
 K. Erickson,125,Pure,,M,272.5,182.5,275,730,SBD,Single-ply,Yes,4
-W. Owens,125,Pure,,M,277.5,187.5,250,715,SBD,Single-ply,Yes,5
+Willie Owens,125,Pure,,M,277.5,187.5,250,715,SBD,Single-ply,Yes,5
 W. Goodrow,125,Pure,,M,267.5,170,270,707.5,SBD,Single-ply,Yes,6
 David McCaskill,125,Pure,,M,262.5,162.5,280,705,SBD,Single-ply,Yes,7
 T. English,125,Pure,,M,260,182.5,260,702.5,SBD,Single-ply,Yes,8
@@ -195,9 +195,9 @@ Brad Rutledge,125+,Pure,,M,250,170,242.5,662.5,SBD,Single-ply,Yes,6
 M. Neikkila,125+,Pure,,M,240,165,255,660,SBD,Single-ply,Yes,7
 S. Gronemeyer,125+,Pure,,M,227.5,142.5,217.5,587.5,SBD,Single-ply,Yes,8
 D. Long,125+,Pure,,M,195,132.5,230,557.5,SBD,Single-ply,Yes,9
-B. Drybread,125+,Pure,,M,185,130,227.5,542.5,SBD,Single-ply,Yes,10
-T. Walton,125+,Pure,,M,195,107.5,220,522.5,SBD,Single-ply,Yes,11
-J. Walker,52,Open,,F,110,55,142.5,307.5,SBD,Single-ply,Yes,1
+Bill Drybread,125+,Pure,,M,185,130,227.5,542.5,SBD,Single-ply,Yes,10
+Terry Walton,125+,Pure,,M,195,107.5,220,522.5,SBD,Single-ply,Yes,11
+J. Walker #1,52,Open,,F,110,55,142.5,307.5,SBD,Single-ply,Yes,1
 Gayle Hall,52,Open,,F,115,50,117.5,282.5,SBD,Single-ply,Yes,2
 L. Legg,56,Open,,F,132.5,62.5,147.5,342.5,SBD,Single-ply,Yes,1
 L. Roberts,56,Open,,F,135,57.5,150,342.5,SBD,Single-ply,Yes,2
@@ -224,7 +224,7 @@ Larry Christ,60,Masters 40-49,40-49,M,200,115,215,530,SBD,Single-ply,Yes,1
 W. Bridges,67.5,Masters 40-49,40-49,M,202.5,112.5,217.5,532.5,SBD,Single-ply,Yes,1
 Kenneth Samuel,75,Masters 40-49,40-49,M,227.5,140,235,602.5,SBD,Single-ply,Yes,1
 Chuck Lohman,75,Masters 40-49,40-49,M,202.5,107.5,250,560,SBD,Single-ply,Yes,2
-W. Murphy,75,Masters 40-49,40-49,M,205,100,215,520,SBD,Single-ply,Yes,3
+Walter Murphy,75,Masters 40-49,40-49,M,205,100,215,520,SBD,Single-ply,Yes,3
 J. Caldwell,82.5,Masters 40-49,40-49,M,185,117.5,222.5,525,SBD,Single-ply,Yes,1
 M. Winburn,82.5,Masters 40-49,40-49,M,172.5,125,182.5,480,SBD,Single-ply,Yes,2
 C. Weil,82.5,Masters 40-49,40-49,M,142.5,110,220,472.5,SBD,Single-ply,Yes,3
@@ -240,16 +240,16 @@ J. Lyons,125,Masters 40-49,40-49,M,215,160,265,640,SBD,Single-ply,Yes,2
 W. Coombs,67.5,Masters 50+,50-999,M,152.5,92.5,190,435,SBD,Single-ply,Yes,1
 Roy Mason,75,Masters 50+,50-999,M,132.5,47.5,200,380,SBD,Single-ply,Yes,1
 M. Guadagnoli,75,Masters 50+,50-999,M,117.5,92.5,140,350,SBD,Single-ply,Yes,2
-D. Ramos,82.5,Masters 50+,50-999,M,185,125,190,500,SBD,Single-ply,Yes,1
+Don Ramos,82.5,Masters 50+,50-999,M,185,125,190,500,SBD,Single-ply,Yes,1
 Robert Hoagland,82.5,Masters 50+,50-999,M,187.5,110,187.5,485,SBD,Single-ply,Yes,2
 Mike Stainbrook,82.5,Masters 50+,50-999,M,137.5,122.5,170,430,SBD,Single-ply,Yes,3
 Bob Strange,90,Masters 50+,50-999,M,215,147.5,255,617.5,SBD,Single-ply,Yes,1
 G. Manley,90,Masters 50+,50-999,M,210,117.5,210,537.5,SBD,Single-ply,Yes,2
 B. Moore #3,90,Masters 50+,50-999,M,142.5,110,177.5,430,SBD,Single-ply,Yes,3
-D. Johnson,100,Masters 50+,50-999,M,272.5,160,267.5,700,SBD,Single-ply,Yes,1
+Daryl Johnson,100,Masters 50+,50-999,M,272.5,160,267.5,700,SBD,Single-ply,Yes,1
 J. Robinson,100,Masters 50+,50-999,M,212.5,117.5,217.5,547.5,SBD,Single-ply,Yes,2
 J. Moods,100,Masters 50+,50-999,M,175,105,175,455,SBD,Single-ply,Yes,3
 Frank Safran,110,Masters 50+,50-999,M,190,125,180,495,SBD,Single-ply,Yes,1
 E. Stacy,125,Masters 50+,50-999,M,190,142.5,207.5,540,SBD,Single-ply,Yes,1
 DL Cramer,125+,Masters 50+,50-999,M,192.5,185,212.5,590,SBD,Single-ply,Yes,1
-B. Drybread,125+,Masters 50+,50-999,M,185,130,227.5,542.5,SBD,Single-ply,Yes,2
+Bill Drybread,125+,Masters 50+,50-999,M,185,130,227.5,542.5,SBD,Single-ply,Yes,2

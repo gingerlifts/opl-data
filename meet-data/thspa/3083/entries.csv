@@ -8,7 +8,7 @@ Boys,51.71,6,Johnny Gomez,Rocksprings,51.35,147.42,88.45,149.69,385.55,Single-pl
 Boys,51.71,7,AJ Perez,Ben Bolt-Palito Blanco,51.71,142.88,90.72,142.88,376.48,Single-ply,SBD,M
 Boys,51.71,8,Tyrese Perkins,Cotulla,51.26,120.2,86.18,156.49,362.87,Single-ply,SBD,M
 Boys,51.71,9,Javier Cantu,San Diego,51.53,113.4,63.5,147.42,324.32,Single-ply,SBD,M
-Boys,51.71,10,Joe Castillo,Altair Rice,50.8,127.01,56.7,133.81,317.51,Single-ply,SBD,M
+Boys,51.71,10,Joe Castillo #3,Altair Rice,50.8,127.01,56.7,133.81,317.51,Single-ply,SBD,M
 Boys,51.71,11,Caleb Edwards,Goliad,48.99,102.06,61.23,113.4,276.69,Single-ply,SBD,M
 Boys,51.71,12,Adrian Narvaiz,Cotulla,47.36,83.91,47.63,102.06,233.6,Single-ply,SBD,M
 Boys,55.79,1,Manuel Padilla,Natalia,55.07,181.44,92.99,188.24,462.66,Single-ply,SBD,M
@@ -29,7 +29,7 @@ Boys,59.87,4,Tyrese Martinez,Stockdale,58.97,181.44,104.33,201.85,487.61,Single-
 Boys,59.87,5,Samuel Moczygemba,Poth,59.78,179.17,97.52,174.63,451.32,Single-ply,SBD,M
 Boys,59.87,6,Ryan Saenz,Hebbronville,59.69,174.63,95.25,179.17,449.06,Single-ply,SBD,M
 Boys,59.87,7,Alejandro Ramirez,Falfurrias,59.87,151.95,92.99,192.78,437.72,Single-ply,SBD,M
-Boys,59.87,8,Zach Baker,Hallettsville,59.87,176.9,77.11,176.9,430.91,Single-ply,SBD,M
+Boys,59.87,8,Zach Baker #2,Hallettsville,59.87,176.9,77.11,176.9,430.91,Single-ply,SBD,M
 Boys,59.87,9,Danny Morales,Karnes City,58.51,170.1,83.91,163.29,417.3,Single-ply,SBD,M
 Boys,59.87,10,Andrew Nevarez,Edinburg Idea College Prep,59.78,163.29,86.18,158.76,408.23,Single-ply,SBD,M
 Boys,59.87,11,Ryan Juarez,Natalia,58.51,147.42,72.57,154.22,374.21,Single-ply,SBD,M
@@ -48,7 +48,7 @@ Boys,67.13,DQ,Andrew Powell,Hallettsville,66.77,174.63,,,,Single-ply,SBD,M
 Boys,74.84,1,Javier Rodriguez,San Diego,73.94,274.42,163.29,226.8,664.51,Single-ply,SBD,M
 Boys,74.84,2,Mike Adameit,Lyford,74.84,247.21,136.08,229.06,612.35,Single-ply,SBD,M
 Boys,74.84,3,Gilibaldo Garcia,San Antonio Brooks Academy,74.66,240.4,124.74,244.94,610.08,Single-ply,SBD,M
-Boys,74.84,4,Nick Rodriguez,Dilley,72.3,210.92,115.67,213.19,539.77,Single-ply,SBD,M
+Boys,74.84,4,Nick Rodriguez #1,Dilley,72.3,210.92,115.67,213.19,539.77,Single-ply,SBD,M
 Boys,74.84,5,Arin Saenz,Freer,73.03,210.92,120.2,208.65,539.77,Single-ply,SBD,M
 Boys,74.84,6,Marcus Almeida,Stockdale,73.39,199.58,138.35,199.58,537.51,Single-ply,SBD,M
 Boys,74.84,7,Kaden Crouch,Stockdale,74.84,201.85,131.54,199.58,532.97,Single-ply,SBD,M
@@ -98,7 +98,7 @@ Boys,109.77,5,Austin Kennemer,Agua Dulce,102.97,244.94,142.88,215.46,603.28,Sing
 Boys,109.77,6,Ronnie Ellis,Altair Rice,108.41,233.6,117.93,249.48,601.01,Single-ply,SBD,M
 Boys,109.77,7,Brennan Schimcek,Hallettsville,107.95,226.8,167.83,204.12,598.74,Single-ply,SBD,M
 Boys,109.77,8,Joey Garza,Falfurrias,106.78,244.94,102.06,226.8,573.79,Single-ply,SBD,M
-Boys,109.77,9,Jacob Hernandez,Stockdale,106.41,222.26,136.08,213.19,571.53,Single-ply,SBD,M
+Boys,109.77,9,Jacob Hernandez #8,Stockdale,106.41,222.26,136.08,213.19,571.53,Single-ply,SBD,M
 Boys,109.77,10,David Arvizo,La Pryor,102.97,235.87,124.74,201.85,562.45,Single-ply,SBD,M
 Boys,109.77,11,Baldomero Ortega,Cotulla,109.77,204.12,117.93,235.87,557.92,Single-ply,SBD,M
 Boys,109.77,DQ,Francisco Duran,Marion,101.33,206.38,136.08,,,Single-ply,SBD,M
@@ -107,7 +107,7 @@ Boys,124.74,1,Trace Mascorro,Refugio,119.48,272.16,190.51,276.69,739.36,Single-p
 Boys,124.74,2,Jaime Rosas,Falfurrias,118.12,294.84,158.76,238.14,691.73,Single-ply,SBD,M
 Boys,124.74,3,Jalen Cano,Stockdale,114.03,258.55,142.88,235.87,637.3,Single-ply,SBD,M
 Boys,124.74,4,Oscar Ramirez,Natalia,117.12,249.48,156.49,226.8,632.76,Single-ply,SBD,M
-Boys,124.74,5,Luis Garcia,Odem,119.66,249.48,156.49,226.8,632.76,Single-ply,SBD,M
+Boys,124.74,5,Luis Garcia #5,Odem,119.66,249.48,156.49,226.8,632.76,Single-ply,SBD,M
 Boys,124.74,6,David Mendez,Taft,122.56,249.48,147.42,226.8,623.69,Single-ply,SBD,M
 Boys,124.74,7,Gerardo Garza,Cotulla,124.28,240.4,129.27,254.01,623.69,Single-ply,SBD,M
 Boys,124.74,8,Jason Carrillo,Rocksprings,112.94,229.06,151.95,210.92,591.94,Single-ply,SBD,M

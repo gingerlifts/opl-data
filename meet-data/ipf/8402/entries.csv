@@ -5,8 +5,8 @@ Place,Name,Equipment,Event,Sex,Division,Country,WeightClassKg,BodyweightKg,Squat
 3,John Singleton,Single-ply,SBD,M,Masters 1,UK,56,55.2,120,130,135,135,67.5,72.5,-75,72.5,155,-165,,155,362.5
 1,Lucien DeFaria,Single-ply,SBD,M,Masters 1,France,60,59.4,180,-192.5,-192.5,180,117.5,122.5,-127.5,122.5,240,-280,-280,240,542.5
 2,Iain Burgess,Single-ply,SBD,M,Masters 1,USA,60,59.4,160,-180,180,180,105,115,120,120,182.5,205,-225,205,505
-3,Roger Powell,Single-ply,SBD,M,Masters 1,UK,60,59.9,150,167.5,177.5,177.5,100,105,107.5,107.5,182.5,200,-222.5,200,485
-4,John O'Brien,Single-ply,SBD,M,Masters 1,UK,60,59.9,140,147.5,-152.5,147.5,85,-92.5,-92.5,85,190,-200,,190,422.5
+3,Roger Powell #1,Single-ply,SBD,M,Masters 1,UK,60,59.9,150,167.5,177.5,177.5,100,105,107.5,107.5,182.5,200,-222.5,200,485
+4,John O'Brien #1,Single-ply,SBD,M,Masters 1,UK,60,59.9,140,147.5,-152.5,147.5,85,-92.5,-92.5,85,190,-200,,190,422.5
 1,Mick Barry,Single-ply,SBD,M,Masters 1,UK,67.5,66.6,205,220,-222.5,220,-135,-135,135,135,220,230,-235,230,585
 2,Mauri Lappalainen,Single-ply,SBD,M,Masters 1,Finland,67.5,67.3,205,215,222.5,222.5,105,-112.5,-112.5,105,220,247.5,,247.5,575
 3,Courtney Boyce,Single-ply,SBD,M,Masters 1,Australia,67.5,67.4,190,200,210,210,125,132.5,135,135,230,-242.5,-242.5,230,575
@@ -27,7 +27,7 @@ Place,Name,Equipment,Event,Sex,Division,Country,WeightClassKg,BodyweightKg,Squat
 3,Gary Bunt,Single-ply,SBD,M,Masters 1,New Zealand,90,88.8,-235,235,255,255,137.5,142.5,147.5,147.5,260,277.5,-305,277.5,680
 4,Len Wilson,Single-ply,SBD,M,Masters 1,Australia,90,90,250,-257.5,-257.5,250,150,155,-162.5,155,260,-275,-275,260,665
 5,Akiro Koneshiro,Single-ply,SBD,M,Masters 1,Japan,90,88.7,240,250,260,260,-170,170,-175,170,220,-230,230,230,660
-6,Robert Orr,Single-ply,SBD,M,Masters 1,UK,90,89.2,225,237.5,250,250,135,142.5,147.5,147.5,225,235,245,245,642.5
+6,Robert Orr #3,Single-ply,SBD,M,Masters 1,UK,90,89.2,225,237.5,250,250,135,142.5,147.5,147.5,225,235,245,245,642.5
 7,Maurice Lambert,Single-ply,SBD,M,Masters 1,France,90,84.8,210,-220,220,220,130,140,-155,140,215,225,240,240,600
 1,Don Mills,Single-ply,SBD,M,Masters 1,USA,100,99.2,300,325,-340,325,195,210,217.5,217.5,300,320,,320,862.5
 2,Mitch Mitchell,Single-ply,SBD,M,Masters 1,USA,100,99.1,302.5,-317.5,317.5,317.5,175,187.5,197.5,197.5,282.5,305,-320,305,820
@@ -39,7 +39,7 @@ Place,Name,Equipment,Event,Sex,Division,Country,WeightClassKg,BodyweightKg,Squat
 3,Marcel Vari,Single-ply,SBD,M,Masters 1,Switzerland,110,105.4,242.5,260,280,280,180,190,-202.5,190,240,270,-280,270,740
 4,John Mihaka,Single-ply,SBD,M,Masters 1,Australia,110,104.2,240,250,257.5,257.5,125,130,-132.5,130,235,240,-250,240,627.5
 1,Karl Francis #1,Single-ply,SBD,M,Masters 1,USA,125,111,265,285,295,295,175,190,200,200,272.5,295,-317.5,295,790
-2,Mike Brown,Single-ply,SBD,M,Masters 1,UK,125,122.8,242.5,262.5,277.5,277.5,115,122.5,127.5,127.5,-307.5,307.5,312.5,312.5,717.5
+2,Mike Brown #30,Single-ply,SBD,M,Masters 1,UK,125,122.8,242.5,262.5,277.5,277.5,115,122.5,127.5,127.5,-307.5,307.5,312.5,312.5,717.5
 1,John Earlam,Single-ply,SBD,M,Masters 1,Australia,125+,130.1,300,340,-362.5,340,190,200,205,205,-275,275,-285,275,820
 1,Andrieu Prosper,Single-ply,SBD,M,Masters 2,France,52,51.5,80,105,-115,105,60,67.5,72.5,72.5,140,-155,-155,140,317.5
 1,Bob Cross,Single-ply,SBD,M,Masters 2,UK,56,55,95,105,-110,105,60,65,-67.5,65,135,142.5,147.5,147.5,317.5

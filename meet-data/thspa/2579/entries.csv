@@ -22,7 +22,7 @@ Boys,59.87,4,Maverick Graham,Lytle,56.88,151.95,81.65,163.29,396.89,Single-ply,S
 Boys,59.87,5,Seth Aguinaga,Lytle,55.86,127.01,70.31,154.22,351.53,Single-ply,SBD,M
 Boys,59.87,6,Sutton Lindsley,Bastrop,56.25,92.99,90.72,115.67,299.37,Single-ply,SBD,M
 Boys,59.87,7,David Elizondo,Castroville Medina Valley,59.87,104.33,49.9,129.27,283.5,Single-ply,SBD,M
-Boys,59.87,8,Hunter Young,Marion,58.69,79.38,79.38,95.25,254.01,Single-ply,SBD,M
+Boys,59.87,8,Hunter Young #1,Marion,58.69,79.38,79.38,95.25,254.01,Single-ply,SBD,M
 Boys,59.87,DQ,Christian Anguiano,San Antonio Kennedy,59.87,,,,,Single-ply,SBD,M
 Boys,59.87,DQ,Tristan Lowery,Lytle,59.87,,,,,Single-ply,SBD,M
 Boys,59.87,DQ,Kevin Valdez,Castroville Medina Valley,57.06,97.52,,,,Single-ply,SBD,M
@@ -64,7 +64,7 @@ Boys,74.84,8,Patrick Prieto,Beeville Jones,71.67,201.85,113.4,199.58,514.83,Sing
 Boys,74.84,9,Sergio Villarreal,Castroville Medina Valley,72.3,179.17,111.13,199.58,489.88,Single-ply,SBD,M
 Boys,74.84,10,Michael Rios,San Antonio East Central,69.44,190.51,102.06,190.51,483.08,Single-ply,SBD,M
 Boys,74.84,11,Josh Herrera,Floresville,70.4,190.51,108.86,183.7,483.08,Single-ply,SBD,M
-Boys,74.84,12,John Reyes,Pearsall,73.54,138.35,106.59,235.87,480.81,Single-ply,SBD,M
+Boys,74.84,12,John Reyes #1,Pearsall,73.54,138.35,106.59,235.87,480.81,Single-ply,SBD,M
 Boys,74.84,13,Lucas Byrd,Devine,71.76,181.44,99.79,188.24,469.47,Single-ply,SBD,M
 Boys,74.84,14,Ramiro Flores,Brackettville Brackett,71.67,172.37,106.59,183.7,462.66,Single-ply,SBD,M
 Boys,74.84,15,Abel Carrasco,San Antonio Southwest,74.3,183.7,97.52,170.1,451.32,Single-ply,SBD,M
@@ -85,7 +85,7 @@ Boys,74.84,29,Jeremiah Munoz,Uvalde,68.49,95.25,58.97,136.08,290.3,Single-ply,SB
 Boys,74.84,30,Eloy Barrere,Uvalde,71.4,97.52,54.43,90.72,242.67,Single-ply,SBD,M
 Boys,74.84,DQ,Nakia Gibens,Lytle,73.3,,,,,Single-ply,SBD,M
 Boys,74.84,DQ,Rene Cabrerra,Laredo Cigarroa,70.81,,,,,Single-ply,SBD,M
-Boys,74.84,DQ,Ricky Gomez,Laredo Nixon,69.9,,,,,Single-ply,SBD,M
+Boys,74.84,DQ,Ricky Gomez #2,Laredo Nixon,69.9,,,,,Single-ply,SBD,M
 Boys,74.84,DQ,Hayden Burwell,Devine,74.84,,,,,Single-ply,SBD,M
 Boys,74.84,DQ,Noah Brogdon,Devine,74.84,,,,,Single-ply,SBD,M
 Boys,82.1,1,Isaiah Garza,Somerset,79.9,219.99,142.88,254.01,616.89,Single-ply,SBD,M
@@ -142,7 +142,7 @@ Boys,89.81,DQ,Meme Moreno,Somerset,86.09,,,,,Single-ply,SBD,M
 Boys,89.81,DQ,Josh Montez,San Antonio Southwest,82.92,192.78,,,,Single-ply,SBD,M
 Boys,89.81,DQ,Joseph Bune,Somerset,89.09,,,,,Single-ply,SBD,M
 Boys,89.81,DQ,Josh Alderete,Uvalde,88.9,,,,,Single-ply,SBD,M
-Boys,89.81,DQ,Josh Roberts,Floresville,88,,,,,Single-ply,SBD,M
+Boys,89.81,DQ,Josh Roberts #2,Floresville,88,,,,,Single-ply,SBD,M
 Boys,89.81,DQ,Dominic Rodriguez,Laredo Johnson,85.46,,,,,Single-ply,SBD,M
 Boys,89.81,DQ,Ernie Rangel,Castroville Medina Valley,82.55,142.88,70.31,,,Single-ply,SBD,M
 Boys,99.79,1,Aaron Puga,Beeville Jones,97.16,281.23,142.88,240.4,664.51,Single-ply,SBD,M
@@ -157,7 +157,7 @@ Boys,99.79,9,Manny Valverde,San Antonio Memorial,96.21,190.51,133.81,183.7,508.0
 Boys,99.79,10,Ryan Bechtel,Marion,99.79,190.51,92.99,210.92,494.42,Single-ply,SBD,M
 Boys,99.79,11,George Perez,Somerset,96.62,170.1,117.93,183.7,471.74,Single-ply,SBD,M
 Boys,99.79,12,Joshua Cuevas,Pearsall,91.68,172.37,104.33,192.78,469.47,Single-ply,SBD,M
-Boys,99.79,13,Jose Mendoza,Del Rio,95.75,170.1,108.86,174.63,453.59,Single-ply,SBD,M
+Boys,99.79,13,Jose Mendoza #1,Del Rio,95.75,170.1,108.86,174.63,453.59,Single-ply,SBD,M
 Boys,99.79,14,Gabino Barrera,Del Rio,91.9,172.37,117.93,154.22,444.52,Single-ply,SBD,M
 Boys,99.79,15,Francisco Duran,Marion,92.58,161.03,97.52,179.17,437.72,Single-ply,SBD,M
 Boys,99.79,16,Jose Luis Llanas,Brackettville Brackett,96.25,170.1,83.91,174.63,428.64,Single-ply,SBD,M
@@ -176,7 +176,7 @@ Boys,109.77,3,Jeffrey Perez,Beeville Jones,107.11,235.87,113.4,183.7,532.97,Sing
 Boys,109.77,4,James Durano,San Antonio Southwest,106.5,233.6,102.06,192.78,528.44,Single-ply,SBD,M
 Boys,109.77,5,Tyrone Wilson,Bastrop,107.56,197.31,127.01,204.12,528.44,Single-ply,SBD,M
 Boys,109.77,6,Abel Mendoza,Laredo Nixon,106.59,208.65,127.01,188.24,523.9,Single-ply,SBD,M
-Boys,109.77,7,Nicholas Perez,San Antonio East Central,102.56,179.17,149.69,192.78,521.63,Single-ply,SBD,M
+Boys,109.77,7,Nicholas Perez #4,San Antonio East Central,102.56,179.17,149.69,192.78,521.63,Single-ply,SBD,M
 Boys,109.77,8,Adan Rodriquez,Brackettville Brackett,99.85,183.7,129.27,201.85,514.83,Single-ply,SBD,M
 Boys,109.77,9,Mando Veliz,Del Rio,107.56,192.78,108.86,183.7,485.34,Single-ply,SBD,M
 Boys,109.77,10,Gabriel Martinez,San Antonio East Central,106.96,192.78,117.93,170.1,480.81,Single-ply,SBD,M
@@ -211,7 +211,7 @@ Boys,124.74,19,Kevin Deltorro,San Antonio Kennedy,117.98,138.35,77.11,185.97,401
 Boys,124.74,20,Louis Rico,Somerset,122.83,136.08,106.59,136.08,378.75,Single-ply,SBD,M
 Boys,124.74,21,Ethan Rodriquez,Pearsall,110.22,147.42,77.11,149.69,374.21,Single-ply,SBD,M
 Boys,124.74,DQ,Benjamin Arriaga,San Antonio Memorial,124.74,,,,,Single-ply,SBD,M
-Boys,124.74,DQ,Jose Martinez,Del Rio,124.74,,,,,Single-ply,SBD,M
+Boys,124.74,DQ,Jose Martinez #12,Del Rio,124.74,,,,,Single-ply,SBD,M
 Boys,124.74,DQ,Jacob Reyna,Laredo Cigarroa,124.74,,,,,Single-ply,SBD,M
 Boys,124.74,DQ,Jorge Gutierrez,Laredo Cigarroa,124.74,,,,,Single-ply,SBD,M
 Boys,124.74,DQ,Josh Martinez,San Antonio Southwest,124.74,,,,,Single-ply,SBD,M
@@ -225,7 +225,7 @@ Boys,124.74+,4,Mike Kessler,Castroville Medina Valley,144.29,251.74,136.08,217.7
 Boys,124.74+,5,Tino Torres,Carrizo Springs,126.92,235.87,158.76,183.7,578.33,Single-ply,SBD,M
 Boys,124.74+,6,Luis Barron,Laredo Johnson,132.95,204.12,111.13,190.51,505.76,Single-ply,SBD,M
 Boys,124.74+,7,Sebastian Ramirez,Somerset,133.87,174.63,133.81,195.04,503.49,Single-ply,SBD,M
-Boys,124.74+,8,Jacob Hernandez,San Antonio Memorial,143.38,170.1,136.08,188.24,494.42,Single-ply,SBD,M
+Boys,124.74+,8,Jacob Hernandez #10,San Antonio Memorial,143.38,170.1,136.08,188.24,494.42,Single-ply,SBD,M
 Boys,124.74+,9,Joseph Rodriquez,Del Rio,142.5,142.88,111.13,199.58,453.59,Single-ply,SBD,M
 Boys,124.74+,10,Adrian Ramirez,Laredo Cigarroa,130.27,154.22,83.91,181.44,419.57,Single-ply,SBD,M
 Boys,124.74+,11,Isaiah Reyna,Somerset,141.88,172.37,72.57,174.63,419.57,Single-ply,SBD,M

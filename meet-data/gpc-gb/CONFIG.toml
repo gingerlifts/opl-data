@@ -1,5 +1,8 @@
 # Configuration for GPC-GB.
 
+[options]
+    require_manual_disambiguation = true
+
 [rulesets.default]
     ruleset = ["CombineRawAndWraps", "CombineSingleAndMulti"]
     date_range = ["0000-01-01", "9999-01-01"]
@@ -9,7 +12,7 @@
     for = {name ="F-O", min=0, max=999, sex="F", equipment=["Raw","Wraps"]}
     mgr = {name ="M-G", min=0, max=999, sex="M", equipment=["Raw","Wraps"], place="G"}
     fgr = {name ="F-G", min=0, max=999, sex="F", equipment=["Raw","Wraps"], place="G"}
-    moe = {name ="M-O-E", min=0, max=999, sex="M", equipment=["Single-ply","Multi-ply"]}
+    moe = {name ="M-O-E", min=0, max=999, sex="M", equipment=["Single-ply","Multi-ply","Unlimited"]}
     foe = {name ="F-O-E", min=0, max=999, sex="F", equipment=["Single-ply","Multi-ply"]}
     mt1r = {name ="M-T1", min=13, max=15, sex="M", equipment=["Raw","Wraps"]}
     mt1e = {name ="M-T1-E", min=13, max=15, sex="M", equipment=["Single-ply","Multi-ply"]}
@@ -56,6 +59,7 @@
     fm7r = {name ="F-M7", min=70, max=74, sex="F", equipment=["Raw","Wraps"]}
     fm7e = {name ="F-M7-E", min=70, max=74, sex="F", equipment=["Single-ply","Multi-ply"]}
     mm8r = {name ="M-M8", min=75, max=79, sex="M", equipment=["Raw","Wraps"]}
+    mm8e = {name ="M-M8-E", min=75, max=79, sex="M", equipment=["Single-ply","Multi-ply"]}
     fm8r = {name ="F-M8", min=75, max=79, sex="F", equipment=["Raw","Wraps"]}
     mm9r = {name ="M-M9", min=80, max=999, sex="M", equipment=["Raw","Wraps"]}
     fm9r = {name ="F-M9", min=80, max=999, sex="F", equipment=["Raw","Wraps"]}
@@ -66,8 +70,13 @@
     sex = "M"
 
 [weightclasses.default_F]
+    classes = ["44","48","52","56","60","67.5","75","82.5","90","100","110","110+"]
+    date_range = ["2022-11-01","9999-01-01"]
+    sex = "F"
+
+[weightclasses.new_F]
     classes = ["44","48","52","56","60","67.5","75","82.5","90","110","110+"]
-    date_range = ["2016-01-01","9999-01-01"]
+    date_range = ["2016-01-01","2022-10-31"]
     sex = "F"
 
 [weightclasses.old_F]
@@ -81,5 +90,7 @@
     sex = "M"
 
 [exemptions]
+    2003 = ["ExemptLiftOrder"]  # Lifter allowed to lower weight.
     1914 = ["ExemptWeightClassConsistency"]  # No weightclasses
     1705 = ["ExemptWeightClassConsistency"]  # 100kg class women with no bw info
+    1001 = ["ExemptDivision"]  # combined GPC/BPC

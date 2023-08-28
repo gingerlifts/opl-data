@@ -24,7 +24,7 @@ SBD,F,Lisa Nigh,ON,74.8,84,Masters 1,140.0,80.0,160.0,380.0,Single-ply,2
 SBD,F,Jackie Pritchard,ON,75.0,84,Masters 1,157.5,95.0,152.5,405.0,Single-ply,1
 SBD,F,Julie Watkin,ON,58.8,63,Masters 1,142.5,77.5,152.5,372.5,Single-ply,1
 SBD,M,Peter McGill,ON,130.2,120+,Masters 1,265.0,202.5,190.0,657.5,Single-ply,1
-SBD,M,Andrew Wilson,ON,93.0,93,Juniors,222.5,145.0,240.0,607.5,Single-ply,1
+SBD,M,Andrew Wilson #5,ON,93.0,93,Juniors,222.5,145.0,240.0,607.5,Single-ply,1
 SBD,M,Justin Van Schyndel,ON,70.9,74,Juniors,217.5,150.0,200.0,567.5,Single-ply,1
 SBD,M,Kevin O'Brien,ON,109.5,120,Juniors,230.0,125.0,265.0,620.0,Single-ply,2
 SBD,M,Andrew Cameron,ON,114.0,120,Juniors,332.2,230.0,285.0,847.5,Single-ply,1
@@ -35,7 +35,7 @@ SBD,M,Nello Miele,ON,88.4,93,Open,177.5,122.5,215.0,515.0,Raw,3
 SBD,M,Greg Page,ON,89.7,93,Open,210.0,142.5,237.5,590.0,Raw,2
 SBD,M,Sandro D'Angelo,ON,79.4,83,Open,190.0,130.0,240.0,560.0,Raw,2
 SBD,M,Mark Boyle,ON,81.6,83,Open,152.5,112.5,207.5,472.5,Raw,4
-SBD,M,Jon Stewart,ON,81.9,83,Open,145.0,120.0,215.0,480.0,Raw,3
+SBD,M,Jon Stewart #1,ON,81.9,83,Open,145.0,120.0,215.0,480.0,Raw,3
 SBD,M,Jamie Stephen,ON,75.0,83,Open,210.0,130.0,245.0,585.0,Raw,1
 SBD,M,Tyler Crawford,ON,72.9,74,Open,172.5,107.5,205.0,485.0,Raw,1
 SBD,M,Philippe Bjerring,ON,68.0,74,Open,147.5,102.5,175.0,425,Raw,2
@@ -49,7 +49,7 @@ SBD,M,Tim Ekert,ON,127.3,120+,Open,220.0,195.0,182.5,597.5,Raw,2
 SBD,M,Matt Cuthbert,ON,142.6,120+,Open,200.0,170.0,75.0,445.0,Raw,3
 SBD,M,Jason Byrne #1,ON,128.6,120+,Open,277.5,190.0,302.5,770.0,Raw,1
 SBD,M,Steve Magistrale,ON,119.5,120,Open,255.0,180.0,275.0,710.0,Raw,2
-SBD,M,Michael Sinclair,ON,117.5,120,Open,320.0,220.0,352.5,892.5,Raw,1
+SBD,M,Michael Sinclair #3,ON,117.5,120,Open,320.0,220.0,352.5,892.5,Raw,1
 SBD,M,Atik Taraboulsi,ON,109.2,120,Open,187.5,145.0,255.0,587.5,Raw,3
 SBD,M,Frank Mayer,ON,98.6,105,Open,210.0,150.0,230.0,590.0,Raw,2
 SBD,M,Dave Pigozzo,ON,94.0,105,Open,210.0,140.0,245.0,595.0,Raw,1

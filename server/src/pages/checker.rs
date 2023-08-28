@@ -50,12 +50,16 @@ impl CheckerOutput {
 }
 
 /// Checks a meet.csv encoded as a string.
-fn check_meet(input: &CheckerInput) -> Result<MeetCheckResult, Box<dyn Error>> {
-    checker::check_meet_from_string(&input.meet)
+fn check_meet(
+    reader: &csv::ReaderBuilder,
+    input: &CheckerInput,
+) -> Result<MeetCheckResult, Box<dyn Error>> {
+    checker::check_meet_from_string(reader, &input.meet)
 }
 
 /// Checks an entries.csv encoded as a string.
 fn check_entries(
+    reader: &csv::ReaderBuilder,
     opldb: &OplDb,
     input: &CheckerInput,
     meet: Option<Meet>,
@@ -63,14 +67,14 @@ fn check_entries(
     let EntriesCheckResult {
         mut report,
         entries,
-    } = checker::check_entries_from_string(&input.entries, meet.as_ref())?;
+    } = checker::check_entries_from_string(reader, &input.entries, meet.as_ref())?;
 
     match entries {
         Some(entries) => {
             // Ensure that the username and name do not introduce a conflict.
             for entry in entries.iter() {
-                if let Some(id) = opldb.get_lifter_id(&entry.username) {
-                    let lifter = opldb.get_lifter(id);
+                if let Some(id) = opldb.lifter_id(entry.username.as_str()) {
+                    let lifter = opldb.lifter(id);
                     if lifter.name != entry.name {
                         report.error(format!(
                             "Conflict for '{}': '{}' vs '{}'",
@@ -91,14 +95,17 @@ fn check_entries(
 
 /// Checks a CheckerInput, returning a JSON-serializable CheckerOutput.
 pub fn check(opldb: &OplDb, input: &CheckerInput) -> CheckerOutput {
+    // Compile the DFA that reads the CSV.
+    let reader: csv::ReaderBuilder = checker::checklib::compile_csv_reader();
+
     // First check the meet.csv, because entries.csv date checking is dependent.
-    match check_meet(input) {
+    match check_meet(&reader, input) {
         Ok(MeetCheckResult { report, meet }) => {
             let mut output = CheckerOutput::with_meet_messages(report.messages);
 
             // If the meet.csv parsed successfully, also parse the entries.csv.
             if meet.is_some() {
-                match check_entries(opldb, input, meet) {
+                match check_entries(&reader, opldb, input, meet) {
                     Ok(EntriesCheckResult { report, .. }) => {
                         output.entries_messages = report.messages;
                     }

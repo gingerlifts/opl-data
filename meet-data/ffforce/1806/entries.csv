@@ -10,7 +10,7 @@ Raw,B,F,1985,32,Open,Audrey Auclert,54.89,57,60,62.5,-67.5,62.5,62.5,3
 Raw,B,F,1983,34,Open,Cynthia Ladurelle,56.57,57,57.5,60,-65,60,60,4
 Raw,B,F,1982,35,Open,Isabelle Huchet,56.3,57,52.5,55,-57.5,55,55,5
 Raw,B,F,1993,24,Open,Ludivine Charles,60.58,63,100,105.5,-108,105.5,105.5,1
-Raw,B,F,1994,24,Open,Charlotte Vedel,59.78,63,77.5,82.5,85,85,85,2
+Raw,B,F,1994,24,Open,Charlotte Peyraud,59.78,63,77.5,82.5,85,85,85,2
 Raw,B,F,1994,24,Open,Victoria Pollastri,60.41,63,67.5,72.5,75,75,75,3
 Raw,B,F,1991,27,Open,Jade Peeters,61.86,63,62.5,65,-75,65,65,4
 Raw,B,F,1994,24,Open,Ophélie Lemosquet,61.95,63,57.5,60,-62.5,60,60,5
@@ -38,9 +38,9 @@ Raw,B,F,1969,48,Masters 1,Virginie Philippe,49.89,52,65,67.5,-70,67.5,67.5,3
 Raw,B,F,1970,47,Masters 1,Géraldine Verlaine,51.48,52,62.5,65,-70,65,65,4
 Raw,B,F,1972,45,Masters 1,Christine Argentier,50.49,52,60,62.5,-70,62.5,62.5,5
 Raw,B,F,1969,48,Masters 1,Sylvie Mingot,55.43,57,90,92.5,95,95,95,1
-Raw,B,F,1975,42,Masters 1,Claire Fouilliaron,55.85,57,47.5,52.5,-55,52.5,52.5,2
+Raw,B,F,1975,42,Masters 1,Claire Foulliaron,55.85,57,47.5,52.5,-55,52.5,52.5,2
 Raw,B,F,1975,42,Masters 1,Marie Pierre Fargetas,55.68,57,47.5,-50,-52.5,47.5,47.5,3
-Raw,B,F,1973,44,Masters 1,Christelle Weymel-Clement,62.75,63,57.5,62.5,-65,62.5,62.5,1
+Raw,B,F,1973,44,Masters 1,Christelle Waymel Clement,62.75,63,57.5,62.5,-65,62.5,62.5,1
 Raw,B,F,1975,42,Masters 1,Christelle Maniez,65.76,72,82.5,85.5,88,88,88,1
 Raw,B,F,1972,45,Masters 1,Nicole Cervasio,69.89,72,70,72.5,-75,72.5,72.5,2
 Raw,B,F,1963,54,Masters 2,Corinne Rocchietta,46.89,47,45,47.5,-50,47.5,47.5,1
@@ -76,7 +76,7 @@ Raw,B,M,1974,43,Open,Manuel Virgilio,65.27,66,160,-165,-165,160,160,1
 Raw,B,M,1982,36,Open,Christophe Bello,64.73,66,142.5,147.5,-150,147.5,147.5,2
 Raw,B,M,1986,32,Open,Benjamin Mermoz,65.62,66,135,140,-150,140,140,3
 Raw,B,M,1986,31,Open,Richard Combes,64.91,66,130,-135,-135,130,130,4
-Raw,B,M,1987,31,Open,Frédéric Atangana,60.33,66,160,170,172.5,172.5,172.5,G
+Raw,B,M,1987,31,Open,Conrat Frederic Atangana,60.33,66,160,170,172.5,172.5,172.5,G
 Raw,B,M,1989,28,Open,Sami Fakhet,72.86,74,155,157.5,-170,157.5,157.5,1
 Raw,B,M,1987,31,Open,Damien Thoniel,71.92,74,145,-150,150,150,150,2
 Raw,B,M,1985,33,Open,Jonathan Boulanger,72.71,74,-150,150,-152.5,150,150,3
@@ -137,10 +137,10 @@ Raw,B,M,1999,18,Juniors,Nicolas Peyraud,103.74,105,180,185,-190,185,185,3
 Raw,B,M,1995,22,Juniors,Jason Fretard,104.37,105,-170,170,-175,170,170,4
 Raw,B,M,1996,21,Juniors,Antoine Couvreur,113.25,120,180,190,-200,190,190,1
 Raw,B,M,1995,23,Juniors,Sébastien Meister,111.52,120,165,-175,-175,165,165,2
-Raw,B,M,1973,45,Masters 1,Christophe Lesourd,58.04,59,97.5,105,-110.5,105,105,1
+Raw,B,M,1973,45,Masters 1,Christophe Lesourd #1,58.04,59,97.5,105,-110.5,105,105,1
 Raw,B,M,1977,40,Masters 1,Mickaël Chevalier,65.54,66,125,130,135,135,135,1
 Raw,B,M,1977,40,Masters 1,Damien Chevereau,64.6,66,112.5,117.5,-120,117.5,117.5,2
-Raw,B,M,1971,47,Masters 1,Loîc Agostini,64.88,66,110,115,-120,115,115,3
+Raw,B,M,1971,47,Masters 1,Loïc Agostini,64.88,66,110,115,-120,115,115,3
 Raw,B,M,1974,43,Masters 1,Marc-Olivier Huchet,65.38,66,102.5,105,-107.5,105,105,4
 Raw,B,M,1977,40,Masters 1,Eric Daoud,72.85,74,145,153,155.5,155.5,155.5,1
 Raw,B,M,1974,43,Masters 1,Jean-Pierre Nembrot,72.5,74,150,-153,-155,150,150,2
@@ -184,7 +184,7 @@ Raw,B,M,1959,59,Masters 2,Philippe Valladas,69.43,74,125,130,132.5,132.5,132.5,1
 Raw,B,M,1963,54,Masters 2,Eric Verhaege,71.95,74,125,132.5,-135,132.5,132.5,2
 Raw,B,M,1966,51,Masters 2,Patrice Adam,72.92,74,117.5,125,127.5,127.5,127.5,3
 Raw,B,M,1963,54,Masters 2,Pierre-François Lapeyre,73.63,74,127.5,-130,-130,127.5,127.5,4
-Raw,B,M,1968,50,Masters 2,Oliver Taviot,71.34,74,112.5,115,-117.5,115,115,5
+Raw,B,M,1968,50,Masters 2,Olivier Taviot,71.34,74,112.5,115,-117.5,115,115,5
 Raw,B,M,1965,53,Masters 2,Bruno Bastien,73,74,115,-117.5,-117.5,115,115,6
 Raw,B,M,1965,52,Masters 2,Christophe Hernandez,71.72,74,105,110,-112.5,110,110,7
 Raw,B,M,1967,51,Masters 2,Yannick Lacour,71.94,74,-110,-110,,,,DQ
@@ -204,7 +204,7 @@ Raw,B,M,1966,51,Masters 2,Hervé France,92.24,93,172.5,177.5,182.5,182.5,182.5,1
 Raw,B,M,1966,52,Masters 2,Yves Lemagnen,92.21,93,162.5,165,170,170,170,2
 Raw,B,M,1963,55,Masters 2,Patrick LeBlevennec,91.45,93,155,162.5,-170,162.5,162.5,3
 Raw,B,M,1965,53,Masters 2,Eric Beauregard,87.58,93,145,-147.5,,145,145,4
-Raw,B,M,1968,49,Masters 2,Hervé Saint George,88.98,93,135,140,-145,140,140,5
+Raw,B,M,1968,49,Masters 2,Herve Saint Georges,88.98,93,135,140,-145,140,140,5
 Raw,B,M,1966,51,Masters 2,Pascal Crepelle,91.52,93,135,140,-147.5,140,140,6
 Raw,B,M,1967,50,Masters 2,Pascal Carrere,103.54,105,190,195,-200,195,195,1
 Raw,B,M,1964,53,Masters 2,Philippe Szezepanski,102.76,105,180,190,-195,190,190,2
@@ -221,7 +221,7 @@ Raw,B,M,1951,67,Masters 3,Marc Henry,65.03,66,82.5,-87.5,,82.5,82.5,2
 Raw,B,M,1958,59,Masters 3,Christian Voisin,71.98,74,125,-130,130,130,130,1
 Raw,B,M,1956,61,Masters 3,Bernard Tellechea,72.98,74,-120,120,-125,120,120,2
 Raw,B,M,1954,64,Masters 3,Gérard Leiterer,71.78,74,105,110,115,115,115,3
-Raw,B,M,1951,66,Masters 3,Jean Pierre Cointy,73.38,74,-102.5,102.5,-105,102.5,102.5,4
+Raw,B,M,1951,66,Masters 3,Jean-Pierre Cointy,73.38,74,-102.5,102.5,-105,102.5,102.5,4
 Raw,B,M,1955,63,Masters 3,Philippe Massiot,70.78,74,92.5,95,-97.5,95,95,5
 Raw,B,M,1957,60,Masters 3,Thierry Gautier,72.83,74,90,92.5,-95,92.5,92.5,6
 Raw,B,M,1957,60,Masters 3,Dominique Enault,73.51,74,92.5,-97.5,-97.5,92.5,92.5,7
@@ -274,4 +274,4 @@ Raw,B,M,1945,72,Masters 4,Daniel Aharfi,92.5,93,102.5,-105,,102.5,102.5,5
 Raw,B,M,1944,74,Masters 4,Paul Malicot,91.72,93,92.5,97.5,-105,97.5,97.5,6
 Raw,B,M,1948,69,Masters 4,Alain Moro,102.45,105,115,122.5,127.5,127.5,127.5,1
 Raw,B,M,1940,77,Masters 4,Eugène Mandou,94.44,105,110,-115,-120,110,110,2
-Raw,B,M,1947,71,Masters 4,Joel Leclair,104.61,105,-120,,,,,DQ
+Raw,B,M,1947,71,Masters 4,Joël Leclair,104.61,105,-120,,,,,DQ

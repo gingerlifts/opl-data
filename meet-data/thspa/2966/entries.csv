@@ -1,6 +1,6 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
 Boys,51.71,1,Al Gardner,Sealy,50.85,138.35,70.31,142.88,351.53,Single-ply,SBD,M
-Boys,51.71,2,Joe Castillo,Altair Rice,50.8,127.01,56.7,127.01,310.71,Single-ply,SBD,M
+Boys,51.71,2,Joe Castillo #3,Altair Rice,50.8,127.01,56.7,127.01,310.71,Single-ply,SBD,M
 Boys,51.71,3,Cody Burklund,Sealy,51.35,95.25,77.11,124.74,297.1,Single-ply,SBD,M
 Boys,51.71,4,Cole Brogger,Vanderbilt Industrial,49.62,115.67,56.7,122.47,294.84,Single-ply,SBD,M
 Boys,51.71,5,Jason Brothers,La Grange,47.99,88.45,54.43,124.74,267.62,Single-ply,SBD,M
@@ -12,7 +12,7 @@ Boys,55.79,3,Dalton Opperman,Columbus,54.61,117.93,77.11,124.74,319.78,Single-pl
 Boys,55.79,4,Dedrick Querner,Altair Rice,53.98,102.06,58.97,142.88,303.91,Single-ply,SBD,M
 Boys,55.79,5,Hunter Kohleffel,Columbus,55.79,120.2,54.43,108.86,283.5,Single-ply,SBD,M
 Boys,55.79,6,Joel Gasseott,Sealy,54.25,97.52,61.23,120.2,278.96,Single-ply,SBD,M
-Boys,59.87,1,Zach Baker,Hallettsville,59.28,165.56,81.65,163.29,410.5,Single-ply,SBD,M
+Boys,59.87,1,Zach Baker #2,Hallettsville,59.28,165.56,81.65,163.29,410.5,Single-ply,SBD,M
 Boys,59.87,2,Kolbe Kutac,Schulenburg,59.87,147.42,68.04,149.69,365.14,Single-ply,SBD,M
 Boys,59.87,3,Aldo Rodriguez,Weimar,58.06,140.61,72.57,142.88,356.07,Single-ply,SBD,M
 Boys,59.87,4,Eric Gutierrez,Altair Rice,59.42,138.35,72.57,138.35,349.27,Single-ply,SBD,M
@@ -42,7 +42,7 @@ Boys,82.1,3,Kyle Mikes,East Bernard,81.28,170.1,120.2,183.7,474,Single-ply,SBD,M
 Boys,82.1,4,Trenton Marshall,La Grange,79.56,181.44,113.4,174.63,469.47,Single-ply,SBD,M
 Boys,82.1,5,Hunter Schulz,Schulenburg,79.47,172.37,95.25,167.83,435.45,Single-ply,SBD,M
 Boys,82.1,6,Jericho Haardt,La Grange,76.07,158.76,104.33,154.22,417.3,Single-ply,SBD,M
-Boys,82.1,7,John Jackson,Hempstead,79.24,158.76,99.79,158.76,417.3,Single-ply,SBD,M
+Boys,82.1,7,John Jackson #1,Hempstead,79.24,158.76,99.79,158.76,417.3,Single-ply,SBD,M
 Boys,82.1,8,Benjamin Sandoval,East Bernard,80.51,158.76,92.99,158.76,410.5,Single-ply,SBD,M
 Boys,82.1,9,David Sanchez #5,La Grange,79.15,151.95,95.25,151.95,399.16,Single-ply,SBD,M
 Boys,82.1,10,Omar Castanon,Hempstead,81.28,163.29,77.11,149.69,390.09,Single-ply,SBD,M
@@ -55,7 +55,7 @@ Boys,89.81,DQ,Shannon Tesch,Vanderbilt Industrial,89.77,163.29,,,,Single-ply,SBD
 Boys,99.79,1,Trace McAfee,Hallettsville,94.94,242.67,165.56,222.26,630.49,Single-ply,SBD,M
 Boys,99.79,2,Khamron Thomas,Hempstead,97.39,206.38,124.74,192.78,523.9,Single-ply,SBD,M
 Boys,99.79,3,Sabe Muniz,East Bernard,98.25,192.78,120.2,192.78,505.76,Single-ply,SBD,M
-Boys,99.79,4,Chris Brown,Vanderbilt Industrial,92.94,204.12,102.06,192.78,498.95,Single-ply,SBD,M
+Boys,99.79,4,Chris Brown #4,Vanderbilt Industrial,92.94,204.12,102.06,192.78,498.95,Single-ply,SBD,M
 Boys,99.79,5,Riley Kucera,Vanderbilt Industrial,97.34,183.7,122.47,188.24,494.42,Single-ply,SBD,M
 Boys,99.79,6,Josh Cervantez,La Grange,98.16,188.24,108.86,197.31,494.42,Single-ply,SBD,M
 Boys,99.79,7,Jordan Garza,Weimar,99.43,204.12,106.59,183.7,494.42,Single-ply,SBD,M
@@ -81,7 +81,7 @@ Boys,124.74+,3,Kolton Brod,Columbus,129.41,136.08,104.33,156.49,396.89,Single-pl
 Boys,,NS,Reid Henke,Hallettsville,,,,,,Single-ply,SBD,M
 Boys,,NS,Josh Beane,Columbus,,,,,,Single-ply,SBD,M
 Boys,,NS,Ian Ramsey,Columbus,,,,,,Single-ply,SBD,M
-Boys,,NS,Jose Rodriguez,Sealy,,,,,,Single-ply,SBD,M
+Boys,,NS,Jose Rodriguez #15,Sealy,,,,,,Single-ply,SBD,M
 Boys,,NS,Joseph Clay,Sealy,,,,,,Single-ply,SBD,M
 Boys,,NS,Johnathan Castellano,Weimar,,,,,,Single-ply,SBD,M
 Boys,,NS,John Garza,La Grange,,,,,,Single-ply,SBD,M

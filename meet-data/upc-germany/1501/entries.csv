@@ -92,13 +92,13 @@ Gerd Cedel,M,B,Raw,SV GRIEBE 47,69.7,75,M 70-74,,,,,,82.5,87.5,90,,90,,,,,,90,1
 Siegfried Wege,M,B,Raw,FITNESSSTUDIO GRÜNA,89.6,90,M 70-74,,,,,,107.5,115,-117.5,,115,,,,,,115,1
 Helmut Nebelung,M,B,Raw,,85.1,90,M 70-74,,,,,,90,95,100,,100,,,,,,100,2
 Heiner Schildbach,M,B,Raw,,94,100,M 70-74,,,,,,105,110,-115,,110,,,,,,110,1
-Hans Jürgen Kuhlmeyer,M,B,Raw,,125,125,M 70-74,,,,,,-105,105,120,-130,120,,,,,,120,1
+Hans-Jürgen Kuhlmey,M,B,Raw,,125,125,M 70-74,,,,,,-105,105,120,-130,120,,,,,,120,1
 Bernhard Gromadecki,M,B,Raw,,72.9,75,M 75-79,,,,,,65,-67.5,67.5,,67.5,,,,,,67.5,1
 Gerd Meyerhofer,M,B,Raw,,76.1,82.5,M 75-79,,,,,,60,65,-68,,65,,,,,,65,1
 Sandro Kreller,M,B,Raw,EKV JÖHSTADT,72.4,75,Open,,,,,,152.5,160,162.5,,162.5,,,,,,162.5,1
 Steffen Hackbart,M,B,Raw,ATHLETENSCHMIEDE ELMSHORN,80,82.5,Open,,,,,,150,160,165,,165,,,,,,165,1
 Arne Urban,M,B,Raw,FITNESS- UND DIÄTSHOP ROSTOCK,81.4,82.5,Open,,,,,,135,145,155,,155,,,,,,155,2
-Daniel Eckert,M,B,Raw,KRAFT & FITNESS EILENBURG,80.5,82.5,Open,,,,,,142.5,152.5,-157.5,,152.5,,,,,,152.5,3
+Daniel Eckert #1,M,B,Raw,KRAFT & FITNESS EILENBURG,80.5,82.5,Open,,,,,,142.5,152.5,-157.5,,152.5,,,,,,152.5,3
 Thomas Winkelmann,M,B,Raw,SV 1919 GRIMMA,77.7,82.5,Open,,,,,,132.5,137.5,-145,,137.5,,,,,,137.5,4
 Branko Kautz,M,B,Raw,TSV TANGERMÜNDE,79.3,82.5,Open,,,,,,120,125,127.5,,127.5,,,,,,127.5,5
 Mario Stellmach,M,B,Raw,,90,90,Open,,,,,,160,-180,-180,,160,,,,,,160,1
@@ -156,7 +156,7 @@ Kjeld Mohr,M,SBD,Wraps,TSV KROPP,66.8,67.5,T 18-19,110,130,-137.5,,130,65,72.5,-
 Tristan Cianni,M,SBD,Wraps,POWERGYM ESCHENASY,75,75,T 18-19,145,155,165,175.5,165,95,105,110,-115.5,110,100,145,170,,170,445,1
 Wladimir Litvinenko,M,SBD,Wraps,,80.4,82.5,T 18-19,175,185,190,,190,125,-130.5,130.5,,130.5,205,215,-220,,215,535.5,1
 Kevin Hesse,M,SBD,Wraps,,85.1,90,T 18-19,-205,205,215,,215,122.5,127.5,130,,130,232.5,240,-247.5,,240,585,1
-Hendrik Wobst,M,SBD,Wraps,,88,90,T 18-19,177.5,187.5,192.5,,192.5,107.5,-115,117.5,,117.5,197.5,207.5,-215,,207.5,517.5,2
+Hendrik Wobst #1,M,SBD,Wraps,,88,90,T 18-19,177.5,187.5,192.5,,192.5,107.5,-115,117.5,,117.5,197.5,207.5,-215,,207.5,517.5,2
 Kaspar Dedy,M,SBD,Wraps,KSS ODIN OPLADEN,96.5,100,T 18-19,170,180,190,-200.5,190,100,105,110,,110,190,200,-210,,200,500,1
 Miguel Ohnesorge,M,SBD,Wraps,,97.6,100,T 18-19,-185,190,-200,,190,120,130,135,-137,135,50,100,-240,,100,425,2
 Lukas Pommerenke,M,SBD,Wraps,FITNESSCLUB ALBATROS ANKLAM,73.5,75,Jun,112.5,117.5,122.5,,122.5,92.5,95,100,,100,165,170,175,,175,397.5,1
@@ -226,7 +226,7 @@ Hans Malchau,M,D,Raw,KG SIEBENLEHN-MÖNCHFREI,74.6,75,M 60-64,,,,,,,,,,,125,-130
 Wojtek Kaminski,M,D,Raw,GOLD TEAM KAMINSKI,87.4,90,M 60-64,,,,,,,,,,,170,182.5,195,,195,195,1
 Hartmut Wiechert,M,D,Raw,JUKA DOJO HAMBURG,87.2,90,M 65-69,,,,,,,,,,,130,140,-145,,140,140,1
 Gerd Cedel,M,D,Raw,SV GRIEBE 47,69.7,75,M 70-74,,,,,,,,,,,-120,120,125,,125,125,1
-Hans Jürgen Kuhlmeyer,M,D,Raw,,125,125,M 70-74,,,,,,,,,,,140,160,170,175,170,170,1
+Hans-Jürgen Kuhlmey,M,D,Raw,,125,125,M 70-74,,,,,,,,,,,140,160,170,175,170,170,1
 Gerd Meyerhofer,M,D,Raw,,76.1,82.5,M 75-79,,,,,,,,,,,85,90,95,,95,95,1
 Martin Füssel,M,D,Raw,SV 1919 GRIMMA,73.5,75,Open,,,,,,,,,,,200,210,220,,220,220,1
 Steffen Hackbart,M,D,Raw,,80,82.5,Open,,,,,,,,,,,210,220,230,,230,230,1

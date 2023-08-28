@@ -18,10 +18,10 @@ M,90,M_JEM_AAPF,Multi-ply,Marc Rewerts,22,197.5,217.5,230,230,-167.5,-167.5,,,,,
 M,75,M_TEM_2_AAPF,Multi-ply,Mike Spradling,17,125,140,147.5,147.5,110,120,125,125,125,130,140,140,412.5,1,SBD,Yes
 M,110,M_TEM_2_AAPF,Multi-ply,Douglas Koren,17,205,-222.5,-222.5,205,-125,125,-132.5,125,205,227.5,235,235,565,1,SBD,Yes
 M,75,M_TEM_3_AAPF,Multi-ply,Billy Simonovich,18,177.5,-195,-195,177.5,-105,-105,-105,,,,,,,DQ,SBD,Yes
-M,60,M_SEM_AAPF,Multi-ply,Rob Leoni,34,115,125,137.5,137.5,85,92.5,-97.5,92.5,130,142.5,162.5,162.5,392.5,1,SBD,Yes
+M,60,M_SEM_AAPF,Multi-ply,Robert Leoni,34,115,125,137.5,137.5,85,92.5,-97.5,92.5,130,142.5,162.5,162.5,392.5,1,SBD,Yes
 M,67.5,M_SEM_AAPF,Multi-ply,Michael Robinson,39,-192.5,192.5,205,205,130,-135,-135,130,205,222.5,-237.5,222.5,557.5,1,SBD,Yes
 M,90,M_MEM_1_AAPF,Multi-ply,Duane Winkler,44,242.5,252.5,265,265,160,-172.5,172.5,172.5,237.5,260,270,270,707.5,1,SBD,Yes
-M,125,M_MEM_1_AAPF,Multi-ply,Tim Mitchell,41,-227.5,227.5,265,265,172.5,187.5,195,195,205,227.5,,227.5,687.5,1,SBD,Yes
+M,125,M_MEM_1_AAPF,Multi-ply,Tim Mitchell #4,41,-227.5,227.5,265,265,172.5,187.5,195,195,205,227.5,,227.5,687.5,1,SBD,Yes
 M,100,M_MEM_2_AAPF,Multi-ply,Mark DeTolve,47,237.5,257.5,275,275,92.5,-100,100,100,227.5,250,260,260,635,1,SBD,Yes
 M,82.5,M_MEM_3_AAPF,Multi-ply,Mario Nigro,51,212.5,235,245,245,105,115,,115,170,182.5,,182.5,542.5,1,SBD,Yes
 M,75,M_OEM_APF,Multi-ply,Humberto Medina #1,,,,,,142.5,160,182.5,182.5,,,,,182.5,1,B,
@@ -42,7 +42,7 @@ M,67.5,M_TEM_2_AAPF,Multi-ply,Steven Bazarek,17,,,,,110,115,125,125,,,,,125,1,B,
 M,75,M_TEM_2_AAPF,Multi-ply,Mike Spradling,17,,,,,120,125,-130,125,,,,,125,1,B,Yes
 M,100,M_TEM_3_AAPF,Multi-ply,Tom Kapsch,19,,,,,160,170,-172.5,170,,,,,170,1,B,Yes
 M,75,M_SEM_AAPF,Multi-ply,Marc Schaefer,37,,,,,167.5,177.5,-182.5,177.5,,,,,177.5,1,B,Yes
-M,82.5,M_SEM_AAPF,Multi-ply,Eric Adams,33,,,,,150,160,-165,160,,,,,160,2,B,Yes
+M,82.5,M_SEM_AAPF,Multi-ply,Eric Adams #5,33,,,,,150,160,-165,160,,,,,160,2,B,Yes
 M,82.5,M_SEM_AAPF,Multi-ply,Norman Gorman,37,,,,,160,172.5,-185,172.5,,,,,172.5,1,B,Yes
 M,100,M_SEM_AAPF,Multi-ply,Preston Ball,34,,,,,157.5,182.5,-190,182.5,,,,,182.5,1,B,Yes
 M,110,M_SEM_AAPF,Multi-ply,Tom Nelson,38,,,,,165,-170,170,170,,,,,170,1,B,Yes

@@ -1,6 +1,6 @@
 Place,Name,Sex,Event,Division,WeightClassKg,Equipment,BirthYear,State,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg
 1,George Martin,M,B,MR-M2b,93,Raw,1963,KS,90.70,,,,,127.5,132.5,-137.5,132.5,,,,,132.5
-1,Taylor Armstrong,M,B,MR-O,105,Raw,1997,KS,100.70,,,,,-150,-150,150,150.0,,,,,150
+1,Taylor Armstrong #1,M,B,MR-O,105,Raw,1997,KS,100.70,,,,,-150,-150,150,150.0,,,,,150
 1,Chris Troutner,M,D,MR-O,83,Raw,1993,KS,80.00,,,,,,,,,205,-220,-227.5,205.0,205
 1,Maribeth Orr,F,SBD,FR-M1a,72,Raw,1974,KS,71.10,77.5,87.5,105,105.0,42.5,50,57.5,57.5,115,125,137.5,137.5,300
 1,Stephanie Miller,F,SBD,FR-M1a,84,Raw,1976,KS,78.80,-85,-85,85,85.0,37.5,42.5,50,50.0,107.5,-110,110,110.0,245
@@ -15,7 +15,7 @@ Place,Name,Sex,Event,Division,WeightClassKg,Equipment,BirthYear,State,Bodyweight
 1,Abigayle Berner,F,SBD,FR-T2,72,Raw,2001,KS,67.30,100,107.5,115,115.0,55,65,-70,65.0,115,125,137.5,137.5,317.5
 1,Liliana Arteaga-Harris,F,SBD,FR-Y2,40,Raw,2007,KS,35.20,15,17.5,-27.5,17.5,15,17.5,-20,17.5,30,42.5,45,45.0,80
 1,Lainey Orr,F,SBD,FR-Y3,72,Raw,2005,KS,68.50,20,25,32.5,32.5,15,22.5,25,25.0,25,35,60,60.0,117.5
-1,James West,M,SBD,MR-M4a,105,Raw,1947,KS,99.10,80,82.5,85,85.0,57.5,60,62.5,62.5,110,112.5,115,115.0,262.5
+1,James West #2,M,SBD,MR-M4a,105,Raw,1947,KS,99.10,80,82.5,85,85.0,57.5,60,62.5,62.5,110,112.5,115,115.0,262.5
 1,Joshua Oakley,M,SBD,MR-O,66,Raw,1989,KS,63.90,120,-125,-125,120.0,82.5,87.5,95,95.0,160,170,-185,170.0,385
 1,Payton Ireland,M,SBD,MR-O,83,Raw,1998,MO,82.40,-225,225,-235,225.0,155,165,-170,165.0,272.5,280,-295,280.0,670
 2,Robert Avery #1,M,SBD,MR-O,83,Raw,1989,KS,82.70,187.5,192.5,205,205.0,140,145,-152.5,145.0,260,275,280,280.0,630

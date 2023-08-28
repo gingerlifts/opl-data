@@ -18,6 +18,7 @@
     src: ../build/data/
     dest: "{{ openpl_app_data_path }}/"
     archive: no
+    times: yes
     recursive: yes
     checksum: yes
   notify: restart openpl-app

@@ -27,7 +27,7 @@ Single-ply,Open,M,B,82.5,David Wentworth,150,,150,USA,ME,,,5
 Single-ply,Open,M,B,90,Coby Washburn,237.5,,237.5,USA,TX,,,1
 Single-ply,Open,M,B,90,Jason Taylor,170,,170,USA,MI,,,4
 Single-ply,Open,M,B,90,Nathan Sultemeier,147.5,,147.5,USA,TX,,,8
-Single-ply,Open,M,B,100,James Kelly,292.5,,292.5,USA,HI,,,1
+Single-ply,Open,M,B,100,James Kelly #4,292.5,,292.5,USA,HI,,,1
 Single-ply,Open,M,B,100,Scott Edmondson,267.5,,267.5,USA,OR,,,2
 Single-ply,Open,M,B,100,James Noblit,250,,250,USA,OR,,,3
 Single-ply,Open,M,B,100,Kim Päivöke,245,,245,Finland,,,,4
@@ -63,7 +63,7 @@ Single-ply,Open,M,B,140+,Ricardo Nort,220,,220,Brazil,,230,,6
 Single-ply,Open,M,B,140+,Scott Wesley Jordan,,,,USA,AZ,,,DQ
 Single-ply,Open,M,B,140+,Rich Lopez,,,,USA,CA,,,DQ
 Single-ply,Open,M,B,140+,Merwyn Kekau Mersberg,,,,USA,HI,,,DQ
-Multi-ply,Open,M,B,75,James Lin,130,,130,USA,WA,,,1
+Multi-ply,Open,M,B,75,James Lin #2,130,,130,USA,WA,,,1
 Multi-ply,Open,M,B,110,Joseph Taylor,177.5,,177.5,USA,NV,,,1
 Multi-ply,Open,M,B,125,Joshua Sipes,245,,245,USA,TX,247.5,,3
 Multi-ply,Open,M,B,140+,Keith Sayles,140,,140,USA,TX,,,2
@@ -115,7 +115,7 @@ Single-ply,Teen 14-15,M,B,75,Tyler Rosenquist,55,,55,USA,CA,,,1
 Single-ply,Teen 14-15,M,B,90,Kevin Perez,107.5,,107.5,USA,CA,,,1
 Single-ply,Teen 14-15,M,B,100,Tyler Greene,90,,90,USA,NV,,,1
 Single-ply,Teen 14-15,M,B,110,Nick Pastorello,110,,110,USA,NV,,,1
-Single-ply,Teen 16-17,M,B,67.5,Brandon Jones,115,,115,USA,HI,,,1
+Single-ply,Teen 16-17,M,B,67.5,Brandon Jones #10,115,,115,USA,HI,,,1
 Single-ply,Teen 16-17,M,B,75,Lonnie Overturf,175,,175,USA,TX,182.5,,1
 Single-ply,Teen 16-17,M,B,75,Devin Safley,115,,115,USA,OR,,,2
 Single-ply,Teen 16-17,M,B,82.5,C. J. Hollingshead,180,,180,USA,KS,,,1
@@ -151,7 +151,7 @@ Single-ply,Juniors 20-25,M,B,60,Antonio Moreno,128,,128,USA,TX,,,1
 Single-ply,Juniors 20-25,M,B,75,Ismael Filipe De Nardi,180,,180,Brazil,,,,1
 Single-ply,Juniors 20-25,M,B,75,Martin Esparza,165,,165,USA,TX,,,2
 Single-ply,Juniors 20-25,M,B,75,Luis Perez,160,,160,USA,TX,,,3
-Single-ply,Juniors 20-25,M,B,75,Baljit Singh,145,,145,USA,CA,,,4
+Single-ply,Juniors 20-25,M,B,75,Baljit Singh #3,145,,145,USA,CA,,,4
 Single-ply,Juniors 20-25,M,B,75,Jesus Lozano,145,,145,USA,TX,,,5
 Single-ply,Juniors 20-25,M,B,75,Roy Arispe,137.5,,137.5,USA,TX,,,6
 Single-ply,Juniors 20-25,M,B,82.5,Carlos Mata,207.5,,207.5,USA,TX,,,1
@@ -215,7 +215,7 @@ Single-ply,Masters 40-46,M,B,82.5,Keith Daniels,240.5,,240.5,USA,HI,,,1
 Single-ply,Masters 40-46,M,B,90,Tony Coduto,235.5,,235.5,USA,IL,,,1
 Single-ply,Masters 40-46,M,B,90,Louie Mansanas,227.5,,227.5,USA,HI,,,2
 Single-ply,Masters 40-46,M,B,90,Sean Aberman,183,,183,USA,UT,,,3
-Single-ply,Masters 40-46,M,B,100,James Kelly,292.5,,292.5,USA,HI,,,1
+Single-ply,Masters 40-46,M,B,100,James Kelly #4,292.5,,292.5,USA,HI,,,1
 Single-ply,Masters 40-46,M,B,100,Gary Gulseth,227.5,,227.5,USA,WI,,,2
 Single-ply,Masters 40-46,M,B,100,John Westleigh,222.5,,222.5,USA,ME,,,3
 Single-ply,Masters 40-46,M,B,100,Christian Draayer,145,,145,USA,MN,,,4
@@ -248,7 +248,7 @@ Single-ply,Masters 47-53,M,B,82.5,Fil Dena III,192.5,,192.5,USA,NV,,,3
 Single-ply,Masters 47-53,M,B,82.5,Eric Lumpkin,183,,183,USA,OR,,,4
 Single-ply,Masters 47-53,M,B,90,Doug Noebe,210,,210,USA,OH,,,1
 Single-ply,Masters 47-53,M,B,90,George Phipps,192.5,,192.5,USA,NV,,,2
-Single-ply,Masters 47-53,M,B,100,Brian Reynolds,215,,215,USA,WA,,,1
+Single-ply,Masters 47-53,M,B,100,Brian Reynolds #2,215,,215,USA,WA,,,1
 Single-ply,Masters 47-53,M,B,100,Gene A Wenzel,105,,105,USA,OH,,,2
 Single-ply,Masters 47-53,M,B,100,James Noblit,,,,USA,OR,,,DQ
 Single-ply,Masters 47-53,M,B,110,Ed Macauley,247.5,,247.5,USA,OR,,,1
@@ -594,7 +594,7 @@ Single-ply,Teen 14-15,M,D,90,Kevin Perez,,155,155,USA,CA,,,1
 Single-ply,Teen 14-15,M,D,110,Nick Pastorello,,155,155,USA,NV,,,1
 Single-ply,Teen 14-15,M,D,110,Kyle Capewell,,145,145,USA,CA,,,2
 Single-ply,Teen 14-15,M,D,140,Alex DeSoto,,230,230,USA,AZ,,,1
-Single-ply,Teen 16-17,M,D,67.5,Brandon Jones,,167.5,167.5,USA,HI,,,1
+Single-ply,Teen 16-17,M,D,67.5,Brandon Jones #10,,167.5,167.5,USA,HI,,,1
 Single-ply,Teen 16-17,M,D,75,Lonnie Overturf,,230,230,USA,TX,,,1
 Single-ply,Teen 16-17,M,D,82.5,C. J. Hollingshead,,247.5,247.5,USA,KS,,257.5,1
 Single-ply,Teen 16-17,M,D,82.5,Matthew Ramsdell,,240,240,USA,ME,,,2
@@ -624,7 +624,7 @@ Single-ply,Juniors 20-25,M,D,75,Martin Esparza,,245,245,USA,TX,,,1
 Single-ply,Juniors 20-25,M,D,75,Ismael Filipe De Nardi,,240,240,Brazil,,,,2
 Single-ply,Juniors 20-25,M,D,75,Roy Arispe,,235,235,USA,TX,,,3
 Single-ply,Juniors 20-25,M,D,75,Jesus Lozano,,230,230,USA,TX,,,4
-Single-ply,Juniors 20-25,M,D,75,Baljit Singh,,215,215,USA,CA,,,5
+Single-ply,Juniors 20-25,M,D,75,Baljit Singh #3,,215,215,USA,CA,,,5
 Single-ply,Juniors 20-25,M,D,82.5,Ilian Rojas,,237.5,237.5,USA,TX,,,1
 Single-ply,Juniors 20-25,M,D,82.5,Jordan Mc Peek,,205,205,USA,OH,,,2
 Single-ply,Juniors 20-25,M,D,90,Zack Heppner,,272.5,272.5,USA,OR,,,1
@@ -641,7 +641,7 @@ Single-ply,Juniors 20-25,M,D,110,Jake Garbush,,297.5,297.5,USA,WA,,,1
 Single-ply,Juniors 20-25,M,D,110,Austin Shipley,,295,295,USA,AZ,,,2
 Single-ply,Juniors 20-25,M,D,110,Anthony Rodriguez,,250,250,USA,TX,,,3
 Single-ply,Juniors 20-25,M,D,110,Isaiah Thomas,,240,240,USA,HI,,,4
-Single-ply,Juniors 20-25,M,D,110,Jose Ramirez,,215,215,USA,NV,,,5
+Single-ply,Juniors 20-25,M,D,110,Jose Ramirez #4,,215,215,USA,NV,,,5
 Single-ply,Juniors 20-25,M,D,110,Brian Overholtzer,,192.5,192.5,USA,CA,,,6
 Single-ply,Juniors 20-25,M,D,117.5,Garrett Muro,,320,320,USA,NV,,,1
 Single-ply,Juniors 20-25,M,D,117.5,Nicholas Raymond,,305.5,305.5,USA,OR,,,2
@@ -711,7 +711,7 @@ Single-ply,Masters 54-60,M,D,82.5,Doug Clayton,,232.5,232.5,USA,WY,,,1
 Single-ply,Masters 54-60,M,D,90,Doug Woods,,242.5,242.5,USA,WA,,,1
 Single-ply,Masters 54-60,M,D,100,Duane Burlingame,,260,260,USA,IL,,,1
 Single-ply,Masters 54-60,M,D,100,Jim Curley,,232.5,232.5,USA,CO,,,2
-Single-ply,Masters 54-60,M,D,110,Eddie Morgan,,299,299,USA,AR,,,1
+Single-ply,Masters 54-60,M,D,110,Eddie Morgan #1,,299,299,USA,AR,,,1
 Single-ply,Masters 54-60,M,D,110,Mike Frizzell,,282.5,282.5,USA,IL,,,2
 Single-ply,Masters 54-60,M,D,110,Ron L'Huillier,,277.5,277.5,USA,MI,,,3
 Single-ply,Masters 54-60,M,D,110,Marvin Hollan,,275,275,USA,TX,,,4

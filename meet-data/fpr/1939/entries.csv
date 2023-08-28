@@ -1,5 +1,5 @@
 Place,Name,CyrillicName,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,WeightClassKg,Event,Equipment,Division,Sex,TotalKg,BirthDate
-1,Irina Ivanova,Ирина Иванова,1996,46.9,100,-110,118,118,47,B,Single-ply,Open,F,118,
+1,Irina Ivanova #1,Ирина Иванова,1996,46.9,100,-110,118,118,47,B,Single-ply,Open,F,118,
 1,Anastasiya Kartel,Анастасия Картель,1997,51.42,90,97.5,-105,97.5,52,B,Single-ply,Open,F,97.5,
 2,Ilona Zhanysova,Илона Жанысова,2000,52,90,-95,95,95,52,B,Single-ply,Open,F,95,
 3,Anastasiya Drobysheva,Анастасия Дробышева,1994,51.36,80,-87.5,-90,80,52,B,Single-ply,Open,F,80,
@@ -11,7 +11,7 @@ DQ,Svetlana Polyakova,Светлана Полякова,1988,56.9,-70,,,,57,B,Si
 2,Polina Penkova,Полина Пенькова,2002,63,107.5,115,,115,63,B,Single-ply,Open,F,115,
 1,Irina Karpova,Ирина Карпова,1992,68.38,-147.5,-147.5,147.5,147.5,72,B,Single-ply,Open,F,147.5,
 2,Ekaterina Lyashevskaya,Екатерина Ляшевская,1989,68.92,50,55,-57.5,55,72,B,Single-ply,Open,F,55,
-1,Aleksandr Kuznetsov,Александр Кузнецов,1993,58.78,120,-150,152.5,152.5,59,B,Single-ply,Open,M,152.5,
+1,Aleksandr Kuznetsov #9,Александр Кузнецов,1993,58.78,120,-150,152.5,152.5,59,B,Single-ply,Open,M,152.5,
 2,Dmitriy Gonchar,Дмитрий Гончар,1994,58.06,140,147.5,-152.5,147.5,59,B,Single-ply,Open,M,147.5,
 1,Anton Dauka,Антон Даука,1990,63.9,100,115,125,125,66,B,Single-ply,Open,M,125,
 1,Eduard Kazmin,Эдуард Казьмин,1985,73.46,-210,210,-220,210,74,B,Single-ply,Open,M,210,

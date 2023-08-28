@@ -1,5 +1,5 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
-Boys,51.71,1,Steven Pham,Sunnyvale,51.62,129.27,68.04,151.95,349.27,Single-ply,SBD,M
+Boys,51.71,1,Steven Pham #2,Sunnyvale,51.62,129.27,68.04,151.95,349.27,Single-ply,SBD,M
 Boys,51.71,2,Tyler Lacy,South Garland,49.44,102.06,47.63,113.4,263.08,Single-ply,SBD,M
 Boys,51.71,DQ,Hunter Caves,Mabank,46.45,79.38,,,,Single-ply,SBD,M
 Boys,55.79,1,Devon Harris,North Forney,55.07,165.56,108.86,195.04,469.47,Single-ply,SBD,M
@@ -26,7 +26,7 @@ Boys,59.87,10,Woody Stain,Kaufman,59.24,106.59,70.31,127.01,303.91,Single-ply,SB
 Boys,59.87,11,Jagger Johnson,Forney,59.6,104.33,58.97,108.86,272.16,Single-ply,SBD,M
 Boys,67.13,12,Trent Cantrell,Mabank,60.06,90.72,61.23,115.67,267.62,Single-ply,SBD,M
 Boys,59.87,13,Dalton Newby,Forney,58.97,102.06,52.16,102.06,256.28,Single-ply,SBD,M
-Boys,67.13,1,Luis Gamez,Sulphur Springs,64.23,167.83,111.13,176.9,455.86,Single-ply,SBD,M
+Boys,67.13,1,Luis Gamez #1,Sulphur Springs,64.23,167.83,111.13,176.9,455.86,Single-ply,SBD,M
 Boys,67.13,2,Ta'Monte Mitchell,Greenville,63.96,188.24,99.79,165.56,453.59,Single-ply,SBD,M
 Boys,74.84,3,Derrick Mosley,North Forney,67.31,170.1,102.06,174.63,446.79,Single-ply,SBD,M
 Boys,67.13,4,Kyle Van Pelt,Mansfield Timberview,60.51,158.76,102.06,181.44,442.25,Single-ply,SBD,M
@@ -57,7 +57,7 @@ Boys,74.84,2,Trevor Bell,Sunnyvale,74.3,219.99,99.79,192.78,512.56,Single-ply,SB
 Boys,74.84,3,LaXavier Battee,Kaufman,73.94,190.51,120.2,195.04,505.76,Single-ply,SBD,M
 Boys,74.84,4,Jacob Deaguero,White Oak,74.48,172.37,124.74,208.65,505.76,Single-ply,SBD,M
 Boys,74.84,5,Garrett Ferguson,Sunnyvale,73.3,181.44,108.86,192.78,483.08,Single-ply,SBD,M
-Boys,74.84,6,Brandon Jackson,Cedar Hill,69.22,172.37,113.4,185.97,471.74,Single-ply,SBD,M
+Boys,74.84,6,Brandon Jackson #9,Cedar Hill,69.22,172.37,113.4,185.97,471.74,Single-ply,SBD,M
 Boys,74.84,7,Colt Conway,Mabank,70.13,192.78,104.33,172.37,469.47,Single-ply,SBD,M
 Boys,74.84,8,DeAndre Jackson,North Mesquite,73.03,165.56,102.06,199.58,467.2,Single-ply,SBD,M
 Boys,74.84,9,Cody Coldwell,Sunnyvale,72.48,192.78,97.52,174.63,464.93,Single-ply,SBD,M
@@ -104,7 +104,7 @@ Boys,82.1,19,Daniel Salguero,Red Oak,75.57,158.76,97.52,158.76,415.04,Single-ply
 Boys,82.1,20,Caleb Beard,Sunnyvale,81.01,165.56,102.06,147.42,415.04,Single-ply,SBD,M
 Boys,82.1,21,Alfred Villalobos,North Garland,80.47,149.69,95.25,167.83,412.77,Single-ply,SBD,M
 Boys,82.1,22,Hank Weighter,Bishop Lynch,76.66,147.42,97.52,161.03,405.97,Single-ply,SBD,M
-Boys,82.1,23,Chris Thomas,North Garland,79.83,149.69,92.99,158.76,401.43,Single-ply,SBD,M
+Boys,82.1,23,Chris Thomas #5,North Garland,79.83,149.69,92.99,158.76,401.43,Single-ply,SBD,M
 Boys,82.1,24,Harley Royal,Mabank,79.38,142.88,97.52,154.22,394.63,Single-ply,SBD,M
 Boys,82.1,25,Jared Link,Dallas Highland Park,80.74,158.76,90.72,142.88,392.36,Single-ply,SBD,M
 Boys,82.1,26,Riley Burrus,Canton,80.38,154.22,74.84,149.69,378.75,Single-ply,SBD,M
@@ -150,7 +150,7 @@ Boys,99.79,14,Michael McKinney,Royse City,91.81,210.92,111.13,158.76,480.81,Sing
 Boys,99.79,15,Dacion Harris,Mansfield Timberview,99.25,179.17,115.67,174.63,469.47,Single-ply,SBD,M
 Boys,99.79,16,Micah Mckaly,Sunnyvale,96.43,183.7,92.99,190.51,467.2,Single-ply,SBD,M
 Boys,99.79,17,Dylan Byington,Crandall,98.07,179.17,99.79,188.24,467.2,Single-ply,SBD,M
-Boys,99.79,18,David Brown,Crandall,98.7,181.44,104.33,181.44,467.2,Single-ply,SBD,M
+Boys,99.79,18,David Brown #10,Crandall,98.7,181.44,104.33,181.44,467.2,Single-ply,SBD,M
 Boys,99.79,19,Michael Sheveland,Sunnyvale,96.98,167.83,106.59,181.44,455.86,Single-ply,SBD,M
 Boys,99.79,20,Michael Kelly,Cedar Hill,95.25,181.44,90.72,170.1,442.25,Single-ply,SBD,M
 Boys,99.79,21,Isaac Adewale,North Garland,99.34,147.42,111.13,183.7,442.25,Single-ply,SBD,M
@@ -174,7 +174,7 @@ Boys,109.77,5,Quionte Jones,Cedar Hill,104.42,244.94,122.47,206.38,573.79,Single
 Boys,109.77,6,Justin Jackson #3,Crandall,101.33,210.92,115.67,213.19,539.77,Single-ply,SBD,M
 Boys,109.77,7,Desmond Duncan,Cedar Hill,103.42,204.12,124.74,204.12,532.97,Single-ply,SBD,M
 Boys,109.77,8,Mohammad Al-Rousan,Sunnyvale,109.23,204.12,129.27,199.58,532.97,Single-ply,SBD,M
-Boys,109.77,9,Hunter Smith,Greenville,105.87,195.04,108.86,199.58,503.49,Single-ply,SBD,M
+Boys,109.77,9,Hunter Smith #1,Greenville,105.87,195.04,108.86,199.58,503.49,Single-ply,SBD,M
 Boys,109.77,10,Jack Sides,Dallas Highland Park,108.86,181.44,129.27,181.44,492.15,Single-ply,SBD,M
 Boys,109.77,11,Anthony Urieta,Bishop Lynch,101.33,183.7,106.59,172.37,462.66,Single-ply,SBD,M
 Boys,109.77,12,Ceasal Campuzano,Corsicana,108.95,147.42,111.13,158.76,417.3,Single-ply,SBD,M
@@ -186,7 +186,7 @@ Boys,124.74,2,Dillon Stevens,Greenville,110.86,233.6,131.54,217.72,582.87,Single
 Boys,124.74,3,John Molina,Bishop Lynch,111.22,235.87,140.61,197.31,573.79,Single-ply,SBD,M
 Boys,124.74,4,Brandon Wiggleton,North Mesquite,117.57,204.12,142.88,213.19,560.19,Single-ply,SBD,M
 Boys,124.74,5,Kris Layman,White Oak,114.67,226.8,115.67,192.78,535.24,Single-ply,SBD,M
-Boys,124.74,6,Nick Rodriguez,Kaufman,121.65,206.38,120.2,204.12,530.7,Single-ply,SBD,M
+Boys,124.74,6,Nick Rodriguez #8,Kaufman,121.65,206.38,120.2,204.12,530.7,Single-ply,SBD,M
 Boys,124.74,7,Marquise Engraum,South Garland,115.94,215.46,99.79,201.85,517.1,Single-ply,SBD,M
 Boys,124.74,8,Quavon Freeman,North Forney,120.2,217.72,111.13,167.83,496.68,Single-ply,SBD,M
 Boys,124.74,9,Jeremy Hodowanic,North Forney,118.48,161.03,142.88,174.63,478.54,Single-ply,SBD,M

@@ -1,7 +1,7 @@
 WeightClassKg,Event,Equipment,Division,Sex,Tested,Name,CyrillicName,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place
 56,B,Multi-ply,Pro Open,F,No,Alina Dubrovina,Алина Дубровина,55.8,,70,,70,1
 60,B,Multi-ply,Pro Open,F,No,Ksyusha Baskakova,Ксюша Баскакова,59.7,,80,,80,1
-75,B,Multi-ply,Pro Open,F,No,Yulia Medvedeva,Юлия Медведева,74.8,,165,,165,1
+75,B,Multi-ply,Pro Open,F,No,Yuliya Medvedeva #1,Юлия Медведева,74.8,,165,,165,1
 56,B,Raw,Pro Open,F,No,Natalya Konovalova,Наталья Коновалова,54.1,,115,,115,1
 67.5,B,Raw,Pro Open,F,No,Natalya Korenkova,Наталья Коренкова,67.5,,92.5,,92.5,1
 52,B,Raw,Amateur Teen 18-19,F,Yes,Anzhela Derbeneva,Анжела Дербенева,52,,62.5,,62.5,1
@@ -31,7 +31,7 @@ WeightClassKg,Event,Equipment,Division,Sex,Tested,Name,CyrillicName,BodyweightKg
 67.5,B,Multi-ply,Pro Open,M,No,Evgeniy Gansh,Евгений Ганш,67,,,,,DQ
 75,B,Multi-ply,Pro Open,M,No,Aleksandr Abramov,Александр Абрамов,75,,210,,210,1
 90,B,Multi-ply,Pro Open,M,No,Sergey Konovalov #1,Сергей Коновалов,89,,310,,310,1
-90,B,Multi-ply,Pro Open,M,No,Artem Bykhovets,Артём Быховец,90,,227.5,,227.5,2
+90,B,Multi-ply,Pro Open,M,No,Artem Bykhovets,Артем Быховец,90,,227.5,,227.5,2
 100,B,Multi-ply,Pro Open,M,No,Ivanov Aleksey,Иванов Алексей,95.7,,227.5,,227.5,1
 125,B,Multi-ply,Pro Open,M,No,Sergey Borisov,Сергей Борисов,111.4,,140,,140,1
 75,B,Raw,Pro Teen,M,No,Anton Panasyuk,Антон Панасюк,73.3,,152.5,,152.5,1
@@ -165,7 +165,7 @@ WeightClassKg,Event,Equipment,Division,Sex,Tested,Name,CyrillicName,BodyweightKg
 100,SBD,Raw,Pro Open,M,No,Vladimir Sadreev,Владимир Садреев,94.1,,,,,DQ
 110,SBD,Raw,Pro Open,M,No,Andrey Bondarenko,Андрей Бондаренко,105.3,,,,682.5,1
 110,SBD,Raw,Pro Open,M,No,Viktor Litvinov,Виктор Литвинов,108.8,,,,480,2
-125,SBD,Raw,Pro Open,M,No,Stas Mordvinov,Стас Мордвинов,114.9,,,,810,1
+125,SBD,Raw,Pro Open,M,No,Stanislav Mordvinov,Станислав Мордвинов,114.9,,,,810,1
 125,SBD,Raw,Pro Open,M,No,Sergey Farafontev,Сергей Фарафонтьев,119.1,,,,730,2
 125,SBD,Raw,Pro Open,M,No,Borislav Dzakhsorov,Борислав Дзахсоров,118.5,,,,645,3
 125,SBD,Raw,Pro Open,M,No,Sergey Borisov,Сергей Борисов,113,,,,515,4

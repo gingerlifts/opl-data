@@ -1,6 +1,6 @@
 Place,Name,BirthYear,WeightClassKg,BodyweightKg,Country,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Sex,Division,Event,Equipment
 1,Andrzej Stanaszek,1971,52,51.4,Poland,250,270.5,-272.5,270.5,155,172.5,175,175,130,137.5,145,145,590,M,Open,SBD,Raw
-2,Sergey Zhuravlev,1960,52,51.9,Russia,210,-220,230,230,110,117.5,-122.5,117.5,200,220,-245,220,567.5,M,Open,SBD,Single-ply
+2,Sergey Zhuravlev #1,1960,52,51.9,Russia,210,-220,230,230,110,117.5,-122.5,117.5,200,220,-245,220,567.5,M,Open,SBD,Single-ply
 3,Roy Brandtzæg,1971,52,51.9,Norway,200,210,215,215,-105,105,110,110,190,-200,-200,190,515,M,Open,SBD,Single-ply
 4,Christian Klein,1970,52,51.8,Germany,165,177.5,-185,177.5,-115,-115,115,115,165,175,180,180,472.5,M,Open,SBD,Single-ply
 5,Štefan Koľšovský,1961,52,51.8,Slovakia,175,185,-195,185,112.5,120,-122.5,120,150,-165,-165,150,455,M,Open,SBD,Single-ply
@@ -18,7 +18,7 @@ DQ,Janek Nurmeots,1974,56,55.8,Estonia,-187.5,,-187.5,,,,,,,,,,,M,Open,SBD,Singl
 5,Phil Richard,1971,60,60,UK,230,237.5,-240,237.5,135,-140,140,140,210,-220,-220,210,587.5,M,Open,SBD,Single-ply
 6,Alexey Sidorov,1974,60,59.1,Russia,-200,215,-220,215,142.5,150,-155,150,210,220,-222.5,220,585,M,Open,SBD,Single-ply
 7,Asko Sirviö,1968,60,59.8,Finland,205,212.5,-217.5,212.5,142.5,147.5,-150,147.5,210,217.5,-227.5,217.5,577.5,M,Open,SBD,Single-ply
-8,Alexande Murashko,1972,60,59.4,Belarus,205,-215,215,215,115,-120,-120,115,-220,220,240,240,570,M,Open,SBD,Single-ply
+8,Alexander Murashko,1972,60,59.4,Belarus,205,-215,215,215,115,-120,-120,115,-220,220,240,240,570,M,Open,SBD,Single-ply
 9,Laurent Ledroit,1971,60,59.8,France,205,-215,220,220,120,-127.5,-127.5,120,185,-200,-200,185,525,M,Open,SBD,Single-ply
 DQ,Ronny Celis,1965,60,59.8,Belgium,-210,-210,-210,,,,,,,,,,,M,Open,SBD,Single-ply
 1,Rodney Hypolite,1969,67.5,66.7,UK,-275,275,,275,140,150,160,160,275,295,-313,295,730,M,Open,SBD,Single-ply
@@ -49,8 +49,8 @@ DQ,Ronny Celis,1965,60,59.8,Belgium,-210,-210,-210,,,,,,,,,,,M,Open,SBD,Single-p
 4,Petr Theuser,1961,82.5,82.1,Czechia,300,310,312.5,312.5,-180,180,-187.5,180,280,-290,-290,280,772.5,M,Open,SBD,Single-ply
 5,Jens-Petter Kjos,1971,82.5,81.7,Norway,280,290,-295,290,155,162.5,167.5,167.5,287.5,-307.5,-307.5,287.5,745,M,Open,SBD,Single-ply
 6,Anthony Thornton,1968,82.5,80.4,UK,265,285,-292.5,285,165,-170,-170,165,275,290,-302.5,290,740,M,Open,SBD,Single-ply
-7,Gerrit Hanswijck,1964,82.5,81.3,Belgium,280,-295,295,295,160,167.5,172.5,172.5,260,-272.5,272.5,272.5,740,M,Open,SBD,Single-ply
-8,Tamas Ficzere,1970,82.5,80.5,Hungary,270,-280,-280,270,170,177.5,-185,177.5,270,-277.5,280,280,727.5,M,Open,SBD,Single-ply
+7,Gerrit van Hansewyck,1964,82.5,81.3,Belgium,280,-295,295,295,160,167.5,172.5,172.5,260,-272.5,272.5,272.5,740,M,Open,SBD,Single-ply
+8,Tamás Ficzere,1970,82.5,80.5,Hungary,270,-280,-280,270,170,177.5,-185,177.5,270,-277.5,280,280,727.5,M,Open,SBD,Single-ply
 9,Giancarlo Zerbini,1965,82.5,81,Italy,260,-272.5,272.5,272.5,155,162.5,165,165,275,290,-295,290,727.5,M,Open,SBD,Single-ply
 10,Peter Lüftinger,1972,82.5,82.3,Austria,-250,250,265,265,180,190,195,195,255,265,-270,265,725,M,Open,SBD,Single-ply
 11,Roberto Bettati,1968,82.5,81.7,Italy,275,285,290,290,142.5,150,152.5,152.5,270,277.5,-280,277.5,720,M,Open,SBD,Single-ply
@@ -70,9 +70,9 @@ DQ,Volodimi Makhniuk,1958,82.5,82.2,Ukraine,-280,-280,-280,,,,,,,,,,,M,Open,SBD,
 9,Michael Kalter,1972,90,89.8,Netherlands,270,-277.5,-277.5,270,150,-155,-155,150,310,-325,-325,310,730,M,Open,SBD,Single-ply
 10,Richard Singer,1963,90,87.9,Austria,250,-260,-265,250,185,195,-200,195,260,275,-280,275,720,M,Open,SBD,Single-ply
 DQ,Vladimir Goritsky,1957,90,84.5,Belarus,,,,,,,,,,,,,,M,Open,SBD,Single-ply
-1,Vladimi Markovsky,1969,100,98.8,Russia,340,355,363.5,363.5,200,210,-212.5,210,315,325,-335,325,898.5,M,Open,SBD,Single-ply
+1,Vladimir Markovsky,1969,100,98.8,Russia,340,355,363.5,363.5,200,210,-212.5,210,315,325,-335,325,898.5,M,Open,SBD,Single-ply
 2,Mihailo Starov,1973,100,99.1,Ukraine,330,350,360,360,185,195,-197.5,195,310,320,-345,320,875,M,Open,SBD,Single-ply
-3,Volodimi Ivanenko,1955,100,99.4,Ukraine,-360,360,-370,360,200,210,-215,210,300,-315,-315,300,870,M,Open,SBD,Single-ply
+3,Volodymyr Ivanenko,1955,100,99.4,Ukraine,-360,360,-370,360,200,210,-215,210,300,-315,-315,300,870,M,Open,SBD,Single-ply
 4,Jörgen Ljungberg,1967,100,99.9,Sweden,330,-340,340,340,200,-207.5,210,210,300,317.5,-325,317.5,867.5,M,Open,SBD,Single-ply
 5,Carl Olav Christoffersen,1968,100,99.1,Norway,325,-340,-340,325,215,225,-230,225,295,305,310,310,860,M,Open,SBD,Single-ply
 6,Jarmo Ranta,1957,100,100,Finland,320,335,345,345,180,187.5,192.5,192.5,305,320,-335,320,857.5,M,Open,SBD,Single-ply
@@ -107,7 +107,7 @@ DQ,Michelangelo DiCerbo,1957,110,107.5,Italy,-260,-260,-260,,,,,,,,,,,M,Open,SBD
 6,Eberhard Schwanke,1953,125,121.9,Germany,300,325,335,335,220,-245,245,245,270,300,310,310,890,M,Open,SBD,Single-ply
 7,Charlie Bruce,1965,125,117.2,UK,300,320,-335,320,190,200,-205,200,-340,340,-370,340,860,M,Open,SBD,Single-ply
 8,Aht Stark,1961,125,120,Finland,310,-325,-325,310,-195,-202.5,202.5,202.5,310,325,-330,325,837.5,M,Open,SBD,Single-ply
-DQ,Ryszard Wszola,1962,125,118.3,Poland,-335,-335,-335,,,,,,,,,,,M,Open,SBD,Single-ply
+DQ,Ryszard Wszoła,1962,125,118.3,Poland,-335,-335,-335,,,,,,,,,,,M,Open,SBD,Single-ply
 1,Yuriy Spinov,1962,125+,143.7,Ukraine,390,405,-415,405,190,207.5,210,210,355,362.5,-370,362.5,977.5,M,Open,SBD,Single-ply
 2,Evgueniy Popov,1955,125+,151.9,Bulgaria,350,-365,365,365,210,220,-227.5,220,350,360,365,365,950,M,Open,SBD,Single-ply
 3,Ralf Gierz,1966,125+,139.9,Germany,340,360,-370,360,230,245,252.5,252.5,300,320,-332.5,320,932.5,M,Open,SBD,Single-ply

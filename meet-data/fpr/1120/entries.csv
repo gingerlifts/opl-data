@@ -62,7 +62,7 @@ Mukhamed Khudoyarov,Мухамед Худояров,1991,58.75,215,,,,59,SBD,Sin
 Filipp Utrobin,Филипп Утробин,1992,59,,,,,59,SBD,Single-ply,Juniors,M,,DQ
 Evgeniy Manyanov,Евгений Манянов,1988,65.95,270,170,255,695,66,SBD,Single-ply,Juniors,M,,1
 Aleksandr Molin,Александр Молин,1992,65.1,275,165,252.5,692.5,66,SBD,Single-ply,Juniors,M,,2
-Igor Dolzhenko,Ігор Долженко,1988,65.85,277.5,170,215,662.5,66,SBD,Single-ply,Juniors,M,,3
+Igor Dolzhenko #1,Игорь Долженко,1988,65.85,277.5,170,215,662.5,66,SBD,Single-ply,Juniors,M,,3
 Roman Churbakov,Роман Чурбаков,1992,65.6,275,155,210,640,66,SBD,Single-ply,Juniors,M,,4
 Derenik Muradyan,Дереник Мурадян,1991,65.7,250,145,240,635,66,SBD,Single-ply,Juniors,M,,5
 Dmitriy Chebotarev,Дмитрий Чеботарев,1989,65.8,245,155,230,630,66,SBD,Single-ply,Juniors,M,,6
@@ -101,7 +101,7 @@ Andrey Zhuravlev,Андрей Журавлев,1988,93,360,285,305,950,93,SBD,Si
 Evgeniy Kuzmin,Евгений Кузьмин,1988,92,380,232.5,295,907.5,93,SBD,Single-ply,Juniors,M,,2
 Pavel Eliseev,Павел Елисеев,1988,92.45,340,185,310,835,93,SBD,Single-ply,Juniors,M,,3
 Pavel Kornev,Павел Корнев,1989,91.75,305,230,275,810,93,SBD,Single-ply,Juniors,M,,4
-Sergey Degtyarev,Сергей Дегтярев,1992,91.95,310,225,270,805,93,SBD,Single-ply,Juniors,M,,5
+Sergey Degtyaryov,Сергей Дегтярёв,1992,91.95,310,225,270,805,93,SBD,Single-ply,Juniors,M,,5
 Mikhail Lukyanov,Михаил Лукьянов,1988,89.8,290,170,320,780,93,SBD,Single-ply,Juniors,M,,6
 Bulat Gabdrakhmanov,Булат Габдрахманов,1990,92.1,310,170,,,93,SBD,Single-ply,Juniors,M,,DQ
 Levon Tavakalov,Левон Тавакалов,1988,103.45,345,280,330,955,105,SBD,Single-ply,Juniors,M,,1
@@ -126,7 +126,7 @@ Igor Filippov,Игорь Филиппов,1989,125.75,350,242.5,312.5,905,120+,S
 Aleksandr Kirsanov,Александр Кирсанов,1991,124.7,345,195,300,840,120+,SBD,Single-ply,Juniors,M,,3
 Aleksandr Sabelfeld,Александр Сабельфельд,1991,135.9,300,197.5,290,787.5,120+,SBD,Single-ply,Juniors,M,,4
 Arkadiy Subbotin,Аркадий Субботин,1991,137.85,305,185,270,760,120+,SBD,Single-ply,Juniors,M,,5
-Daniela Kolesnik,Даниэла Колесник,1999,32.05,60,40,85,185,40,SBD,Single-ply,Sub-Juniors,F,,1
+Daniela Kolesnik,Даниела Колесник,1999,32.05,60,40,85,185,40,SBD,Single-ply,Sub-Juniors,F,,1
 Lolita Terskova,Лолита Терскова,1996,35.45,70,40,67.5,177.5,40,SBD,Single-ply,Sub-Juniors,F,,2
 Tatyana Taktamysheva,Татьяна Тактамышева,1994,42.95,112.5,47.5,100,260,43,SBD,Single-ply,Sub-Juniors,F,,3
 Anastasiya Sidorova,Анастасия Сидорова,1994,40.65,112.5,47.5,95,255,43,SBD,Single-ply,Sub-Juniors,F,,4
@@ -137,7 +137,7 @@ Tatiana Smolekho,Татьяна Смолехо,1996,45.4,110,67.5,100,277.5,47,S
 Svetlana Ogorodnikova,Светлана Огородникова,1994,46.8,97.5,40,95,232.5,47,SBD,Single-ply,Sub-Juniors,F,,2
 Madina Makhadbekova,Мадина Махадбекова,1996,45.5,90,35,90,215,47,SBD,Single-ply,Sub-Juniors,F,,3
 Darya Nezhinskaya,Дарья Нежинская,1995,46.5,110,,,,47,SBD,Single-ply,Sub-Juniors,F,,DQ
-Anna Filimonova,Инна Филимонова,1994,50.55,160,97.5,147.5,405,52,SBD,Single-ply,Sub-Juniors,F,,1
+Inna Filimonova #2,Инна Филимонова,1994,50.55,160,97.5,147.5,405,52,SBD,Single-ply,Sub-Juniors,F,,1
 Viktoriya Savkina,Виктория Савкина,1994,51,140,62.5,135,337.5,52,SBD,Single-ply,Sub-Juniors,F,,2
 Ekaterina Ogorodova,Екатерина Огородова,1993,51.65,125,85,105,315,52,SBD,Single-ply,Sub-Juniors,F,,3
 Viktoriya Ermakova,Виктория Ермакова,1995,52,115,67.5,122.5,305,52,SBD,Single-ply,Sub-Juniors,F,,4
@@ -182,7 +182,7 @@ Ivan Suldin,Иван Сульдин,1993,58.15,205,122.5,197.5,525,59,SBD,Single
 Anton Sergeev,Антон Сергеев,1994,58.85,207.5,110,200,517.5,59,SBD,Single-ply,Sub-Juniors,M,,3
 Igor Zhukov,Игорь Жуков,1993,58.7,195,137.5,182.5,515,59,SBD,Single-ply,Sub-Juniors,M,,4
 Anatoliy Chichikhin,Анатолий Чичихин,1994,58.45,207.5,95,200,502.5,59,SBD,Single-ply,Sub-Juniors,M,,5
-Denis Voronin,Денис Воронин,1993,58.65,192.5,120,185,497.5,59,SBD,Single-ply,Sub-Juniors,M,,6
+Denis Voronin #1,Денис Воронин,1993,58.65,192.5,120,185,497.5,59,SBD,Single-ply,Sub-Juniors,M,,6
 Spartak Grigoryan,Спартак Григорян,1993,58.8,200,107.5,217.5,525,59,SBD,Single-ply,Sub-Juniors,M,,7
 Elchin Muradov,Елчин Мурадов,1994,58.5,170,120,200,490,59,SBD,Single-ply,Sub-Juniors,M,,8
 Maksim Melikov,Максим Меликов,1993,57.9,205,100,182.5,487.5,59,SBD,Single-ply,Sub-Juniors,M,,9
@@ -197,7 +197,7 @@ Roman Ozhgibesov,Роман Ожгибесов,1993,58.5,180,,,,59,SBD,Single-pl
 Roman Bakhshiev,Роман Бахшиев,1993,65.95,257.5,157.5,220,635,66,SBD,Single-ply,Sub-Juniors,M,,1
 Aleksandr Dulepov,Александр Дулепов,1993,65.75,250,140,232.5,622.5,66,SBD,Single-ply,Sub-Juniors,M,,2
 Pavel Ostrovnoy,Павел Островной,1993,64.1,225,130,235,590,66,SBD,Single-ply,Sub-Juniors,M,,3
-Igor Kuznetsov,Игорь Кузнецов,1993,64.85,222.5,130,202.5,555,66,SBD,Single-ply,Sub-Juniors,M,,4
+Igor Kuznetsov #4,Игорь Кузнецов,1993,64.85,222.5,130,202.5,555,66,SBD,Single-ply,Sub-Juniors,M,,4
 Evgeniy Kudrov,Евгений Кудров,1993,65.9,210,130,210,550,66,SBD,Single-ply,Sub-Juniors,M,,5
 Vladimir Semenov,Владимир Семенов,1994,63.7,217.5,117.5,207.5,542.5,66,SBD,Single-ply,Sub-Juniors,M,,6
 Sergey Sorokozherdev,Сергей Сорокожердев,1993,65.75,220,110,212.5,542.5,66,SBD,Single-ply,Sub-Juniors,M,,7

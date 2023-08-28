@@ -1,0 +1,26 @@
+Place,Name,State,WeightClassKg,BodyweightKg,BirthDate,Age,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Equipment,Sex,Division,Tested
+1,Eva Turner,GA,52,50.6,,13,60,-65,67.5,67.5,27.5,30,32.5,32.5,70,80,87.5,87.5,187.5,SBD,Raw,F,Juniors 13-15,Yes
+1,Alondra Wedding,GA,90+,97.9,,21,125,137.5,152.5,152.5,45,62.5,72.5,72.5,127.5,150,165,165,390,SBD,Raw,F,Juniors 20-23,Yes
+1,Eva Turner,GA,52,50.6,,13,60,-65,67.5,67.5,27.5,30,32.5,32.5,70,80,87.5,87.5,187.5,SBD,Raw,F,Open,Yes
+1,Kelly Wilkerson,GA,56,54.3,,30,77.5,85,-92.5,85,40,42.5,45,45,90,97.5,-105,97.5,227.5,SBD,Raw,F,Open,Yes
+1,Jasmine Harris,GA,90+,114.2,,29,-92.5,-102.5,102.5,102.5,-47.5,55,-60,55,90,95,100,100,257.5,SBD,Raw,F,Open,Yes
+1,Joan Holladay,GA,90,89.5,,59,97.5,-102.5,-105,97.5,45,-52.5,52.5,52.5,110,117.5,127.5,127.5,277.5,SBD,Raw,F,Masters 55-59,Yes
+1,Spencer Leigh,GA,75,72.2,,19,175,177.5,-180,177.5,102.5,107.5,-112.5,107.5,202.5,210,-217.5,210,495,SBD,Raw,M,Juniors 18-19,Yes
+1,Jake Bracewell,GA,75,69.9,,22,167.5,170,177.5,177.5,107.5,-112.5,-112.5,107.5,195,200,205,205,490,SBD,Raw,M,Juniors 20-23,Yes
+2,Solomon Resenboth,NC,75,74.8,,20,140,150,-160,150,90,102.5,-105,102.5,150,162.5,170,170,422.5,SBD,Raw,M,Juniors 20-23,Yes
+1,Carlos Espinoza,GA,82.5,76.7,,18,102.5,115,120,120,75,82.5,-92.5,82.5,112.5,142.5,-150,142.5,345,SBD,Raw,M,Juniors 18-19,Yes
+1,Drew Mccormack,GA,82.5,80.6,,23,155,165,-177.5,165,132.5,-142.5,-142.5,132.5,200,220,227.5,227.5,525,SBD,Raw,M,Juniors 20-23,Yes
+1,Dalton Brooks,AL,110,107,,19,215,225,237.5,237.5,137.5,142.5,155,155,210,227.5,242.5,242.5,635,SBD,Raw,M,Juniors 18-19,Yes
+1,Elijah Byrd,GA,110,110,,20,207.5,-215,220,220,122.5,127.5,-132.5,127.5,220,227.5,240,240,587.5,SBD,Raw,M,Juniors 20-23,Yes
+1,William Scott,GA,67.5,66.9,,29,137.5,150,-155,150,97.5,-105,105,105,-182.5,190,-202.5,190,445,SBD,Raw,M,Open,Yes
+2,Jonathan Casas,GA,67.5,62.7,,26,107.5,110,117.5,117.5,75,77.5,-82.5,77.5,105,112.5,117.5,117.5,312.5,SBD,Raw,M,Open,Yes
+1,Spencer Leigh,GA,75,72.2,,19,175,177.5,-180,177.5,102.5,107.5,-112.5,107.5,202.5,210,-217.5,210,495,SBD,Raw,M,Open,Yes
+1,Jordan Pleva,AL,90,89.7,,30,262.5,282.5,290,290,197.5,-202.5,-202.5,197.5,-250,-250,250,250,737.5,SBD,Raw,M,Open,Yes
+1,Elmer Herrera,GA,110,107.2,,32,227.5,240,,240,142.5,155,-160,155,227.5,250,-265,250,645,SBD,Raw,M,Open,Yes
+2,Zebulon Bare,GA,110,106.1,,32,202.5,225,232.5,232.5,165,-177.5,-177.5,165,195,205,-220,205,602.5,SBD,Raw,M,Open,Yes
+1,Brian Plows,GA,82.5,79.9,,26,150,-162.5,162.5,162.5,115,120,125,125,-185,197.5,210,210,497.5,SBD,Wraps,M,Open,Yes
+1,Jordan Synoground,GA,90,89.4,,28,-190,190,205,205,105,115,-122.5,115,175,185,-190,185,505,SBD,Wraps,M,Open,Yes
+1,Joshua Porter,GA,125,120.5,,41,315,-330,330,330,-220,220,227.5,227.5,250,272.5,-280,272.5,830,SBD,Single-ply,M,Open,Yes
+1,Joshua Porter,GA,125,120.5,,41,315,-330,330,330,-220,220,227.5,227.5,250,272.5,-280,272.5,830,SBD,Single-ply,M,Masters 40-44,Yes
+1,Anthony Woodall,GA,125,115.6,,21,,,,,170,185,195,195,,,,,195,B,Raw,M,Juniors 20-23,Yes
+1,George Bradley,GA,67.5,65.2,,64,,,,,85,-92.5,-92.5,85,,,,,85,B,Single-ply,M,Masters 60-64,Yes

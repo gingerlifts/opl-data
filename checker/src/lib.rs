@@ -1,129 +1,44 @@
-#![feature(inner_deref)] // Used for converting Option<String> to Option<&str>.
+//! The OpenPowerlifting data checker library.
 
-extern crate chrono; // Used to get the current date.
-extern crate coefficients; // Calculates points.
-extern crate colored; // Used to provide pretty output for debug modes.
-extern crate csv; // Provides CSV reading and writing.
-extern crate opltypes; // Datatypes common to all OpenPowerlifting projects.
+// Suppress clippy warnings for date literals.
+#![allow(clippy::inconsistent_digit_grouping)]
+#![allow(clippy::zero_prefixed_literal)]
+
 #[macro_use]
 extern crate serde_derive; // Provides struct serialization and deserialization.
-extern crate strum; // Used for iterating over enums.
 #[macro_use]
 extern crate strum_macros; // Used for iterating over enums.
-extern crate toml; // Knows how to read the CONFIG.toml format.
-extern crate unicode_normalization; // Used to normalize the name strings
 
 pub mod checklib;
 pub use crate::checklib::config::{check_config, Config};
+pub use crate::checklib::consistency;
 pub use crate::checklib::entries::{
     check_entries, check_entries_from_string, EntriesCheckResult, Entry,
 };
 pub use crate::checklib::lifterdata::{
     check_lifterdata, LifterData, LifterDataCheckResult, LifterDataMap,
 };
-pub use crate::checklib::meet::{
-    check_meet, check_meet_from_string, Meet, MeetCheckResult,
-};
+pub use crate::checklib::meet::{check_meet, check_meet_from_string, Meet, MeetCheckResult};
 pub use crate::checklib::CheckResult;
 
 pub mod compiler;
+pub mod disambiguator;
 
 mod meetdata;
 use meetdata::EntryIndex;
 pub use meetdata::{AllMeetData, LifterMap, SingleMeetData};
 
+mod report;
+pub use report::{Message, Report};
+
+pub mod report_count;
+
 use std::error::Error;
-use std::path::{Path, PathBuf};
-
-/// A data error or warning message that should be reported.
-#[derive(Debug, Serialize)]
-pub enum Message {
-    Error(String),
-    Warning(String),
-}
-
-/// Accumulates messages that should be reported as a single batch.
-#[derive(Debug, Serialize)]
-pub struct Report {
-    pub path: PathBuf,
-    pub messages: Vec<Message>,
-}
-
-impl Report {
-    /// Creates a new Report.
-    pub fn new(path: PathBuf) -> Self {
-        Report {
-            path,
-            messages: Vec::new(),
-        }
-    }
-
-    /// Reports an error, which causes checks to fail.
-    pub fn error(&mut self, message: impl ToString) {
-        self.messages.push(Message::Error(message.to_string()));
-    }
-
-    /// Reports an error on a specific line.
-    pub fn error_on(&mut self, line: u64, message: impl ToString) {
-        let msg = format!(" Line {}: {}", line, message.to_string());
-        self.messages.push(Message::Error(msg));
-    }
-
-    /// Reports a warning, which allows checks to pass with a note.
-    pub fn warning(&mut self, message: impl ToString) {
-        self.messages.push(Message::Warning(message.to_string()));
-    }
-
-    /// Reports a warning on a specific line.
-    pub fn warning_on(&mut self, line: u64, message: impl ToString) {
-        let msg = format!(" Line {}: {}", line, message.to_string());
-        self.messages.push(Message::Warning(msg));
-    }
-
-    /// Whether a report has any messages.
-    pub fn has_messages(&self) -> bool {
-        !self.messages.is_empty()
-    }
-
-    /// Returns how many messages there are of (errors, warnings).
-    pub fn count_messages(&self) -> (usize, usize) {
-        let mut errors = 0;
-        let mut warnings = 0;
-
-        for message in &self.messages {
-            match message {
-                Message::Error(_) => errors += 1,
-                Message::Warning(_) => warnings += 1,
-            }
-        }
-
-        (errors, warnings)
-    }
-
-    /// Returns how many errors there are.
-    pub fn count_errors(&self) -> usize {
-        let (errors, _) = self.count_messages();
-        errors
-    }
-
-    /// Returns how many warnings there are.
-    pub fn count_warnings(&self) -> usize {
-        let (_, warnings) = self.count_messages();
-        warnings
-    }
-
-    /// Returns the name of the parent folder of the given file.
-    pub fn get_parent_folder(&self) -> Result<&str, &str> {
-        self.path
-            .as_path()
-            .parent()
-            .and_then(|p| p.file_name().and_then(std::ffi::OsStr::to_str))
-            .ok_or("Insufficient parent directories")
-    }
-}
+use std::path::Path;
 
 /// Checks a directory with meet data.
 pub fn check(
+    reader: &csv::ReaderBuilder,
     meetdir: &Path,
     config: Option<&Config>,
     lifterdata: Option<&LifterDataMap>,
@@ -131,13 +46,14 @@ pub fn check(
     let mut acc = Vec::new();
 
     // Check the meet.csv.
-    let meetresult = check_meet(meetdir.join("meet.csv"), config)?;
+    let meetresult = check_meet(reader, meetdir.join("meet.csv"), config)?;
     if !meetresult.report.messages.is_empty() {
         acc.push(meetresult.report);
     }
 
     // Check the entries.csv.
     let entriesresult = check_entries(
+        reader,
         meetdir.join("entries.csv"),
         meetresult.meet.as_ref(),
         config,

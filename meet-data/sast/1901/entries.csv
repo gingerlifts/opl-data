@@ -184,7 +184,7 @@ BirthDate,Sex,Division,WeightClassKg,Equipment,Place,Name,BirthYear,BodyweightKg
 ,M,M40-49,82.5,Raw,1,Július Mertvík,1973,82.5,Slovakia,Pro Body & Metal Militia Lučenec,,,,,,155,-160,,155,,,,,,155,B
 ,M,M40-49,90,Raw,1,Jozef Kišš,1975,89.4,Slovakia,ŠK Silák Kokava,,,,,,170,175,182.5,182.5,,,,,,182.5,B
 ,M,M40-49,90,Raw,2,Michal Švajka,1978,88.8,Slovakia,Powerlifting Club Kysuce,,,,,,-152.5,-152.5,152.5,152.5,,,,,,152.5,B
-,M,M40-49,100,Raw,1,Vladimír Urban,1971,99.5,Slovakia,,,,,,,170,175,180,180,,,,,,180,B
+,M,M40-49,100,Raw,1,Vladimír Urban #1,1971,99.5,Slovakia,,,,,,,170,175,180,180,,,,,,180,B
 ,M,M40-49,100,Raw,2,František Sajko,1971,97.4,Slovakia,ŠK PWL FTC Fiľakovo,,,,,,150,160,170,170,,,,,,170,B
 ,M,M40-49,110,Raw,1,Vladimír Karchňák,1976,106.9,Slovakia,Silový trojboj Liptov,,,,,,175,180,-182.5,180,,,,,,180,B
 ,M,M40-49,110,Raw,2,Ján Hodermarszki,1977,102,Slovakia,Bodybuilding klub Drienovec,,,,,,140,,,140,,,,,,140,B
@@ -194,7 +194,7 @@ BirthDate,Sex,Division,WeightClassKg,Equipment,Place,Name,BirthYear,BodyweightKg
 ,M,M40-49,140,Raw,1,Erik Susztay,1972,133,Slovakia,Pro Body & Metal Militia Lučenec,,,,,,200,210,220,220,,,,,,220,B
 ,M,M50-59,82.5,Raw,1,Ladislav Jantek,1965,82.5,Slovakia,Big Bull Rožňava-Tornaľa,,,,,,-165,165,-175,165,,,,,,165,B
 ,M,M50-59,90,Multi-ply,1,Flórián Dolán,1962,86.5,Slovakia,Hurbanovo,,,,,,135,140,,140,,,,,,140,B
-,M,M50-59,110,Raw,1,Vojtech Lázok,1965,110,Slovakia,Big Bull Rožňava-Tornaľa,,,,,,165,170,175,175,,,,,,175,B
+,M,M50-59,110,Raw,1,Vojtech Lázók,1965,110,Slovakia,Big Bull Rožňava-Tornaľa,,,,,,165,170,175,175,,,,,,175,B
 ,M,M50-59,125,Multi-ply,1,Csaba Molnár,1964,124.5,Slovakia,BullStrong Team Zemné,,,,,,215,225,232.5,232.5,,,,,,232.5,B
 ,M,M50-59,125,Raw,1,Csaba Molnár,1964,124.5,Slovakia,BullStrong Team Zemné,,,,,,175,180,,180,,,,,,180,B
 ,M,M50-59,125,Raw,2,Ladislav Beňo,1965,113,Slovakia,Silový trojboj Liptov,,,,,,130,-135,140,140,,,,,,140,B
@@ -288,9 +288,9 @@ BirthDate,Sex,Division,WeightClassKg,Equipment,Place,Name,BirthYear,BodyweightKg
 ,M,M40-49,125,Raw,2,Róbert Kusenda,1978,120.9,Slovakia,KTA GOLEM Nové Mesto nad Váhom,,,,,,,,,,200,215,-225,,215,215,D
 ,M,M50-59,90,Raw,1,Peter Herák,1960,87.5,Slovakia,KTA GOLEM Nové Mesto nad Váhom,,,,,,,,,,230,242.5,,,242.5,242.5,D
 ,M,M50-59,90,Raw,2,Vladislav Minárik,1960,89,Slovakia,Pro Body & Metal Militia Lučenec,,,,,,,,,,165,172.5,180,,180,180,D
-,M,M50-59,100,Raw,1,Mário Hoksza,1969,92.7,Slovakia,K K Šahy,,,,,,,,,,-190,200,215,220,215,215,D
+,M,M50-59,100,Raw,1,Márió Hoksza,1969,92.7,Slovakia,K K Šahy,,,,,,,,,,-190,200,215,220,215,215,D
 ,M,M50-59,110,Raw,1,Tibor Gejdoš,1963,101.3,Slovakia,Powerlifting Liptovský Hrádok,,,,,,,,,,220,240,255,,255,255,D
-,M,M50-59,110,Raw,2,Vojtech Lázok,1965,110,Slovakia,Big Bull Rožňava-Tornaľa,,,,,,,,,,220,235,252.5,,252.5,252.5,D
+,M,M50-59,110,Raw,2,Vojtech Lázók,1965,110,Slovakia,Big Bull Rožňava-Tornaľa,,,,,,,,,,220,235,252.5,,252.5,252.5,D
 ,M,M50-59,125,Raw,1,Péter Szabó,1964,116,Slovakia,Big Bull Rožňava-Tornaľa,,,,,,,,,,210,225,,,225,225,D
 ,M,M50-59,140,Raw,1,Karol Kornel Repiský,1964,134.9,Slovakia,ŠK Kornel Banská Bystrica,,,,,,,,,,220,230,-240,,230,230,D
 ,M,M65-69,110,Raw,1,Vladimír Bátik,1953,103.7,Slovakia,Silový trojboj Liptov,,,,,,,,,,160,-180,-185,,160,160,D

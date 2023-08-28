@@ -33,7 +33,7 @@ WeightClassKg,JapaneseName,Name,Sex,Team,Age,BodyweightKg,Bench1Kg,Bench2Kg,Benc
 63,林 久子,Hisako Hayashi,F,雷神ファクトリー,67,61.25,80,85,-92.5,85,1,85,B,Single-ply,Open
 63,篠原 千絵,,F,ストロングライン,48,61.6,70,75,80,80,1,80,B,Single-ply,Open
 63,柳沢 由紀子,,F,Ｋ'ｓＧＹＭ横浜,51,57.05,60,65,70,70,2,70,B,Single-ply,Open
-63,古味 良子,,F,Ｔ－ＲＥＸ,63,62.55,-107.5,-107.5,-107.5,,DQ,,B,Single-ply,Open
+63,古味 良子,Yoshiko Komi,F,Ｔ－ＲＥＸ,63,62.55,-107.5,-107.5,-107.5,,DQ,,B,Single-ply,Open
 72,照屋 利恵,Rie Teruya,F,ＰＯＷＥＲ ＳＰＯＲＴ,43,69.2,115,125,127.5,127.5,1,127.5,B,Single-ply,Open
 72,櫻井 美幸,Miyuki Sakurai,F,ＢＩＧ ＧＵＮＳ,49,71.3,117.5,-127.5,-130,117.5,2,117.5,B,Single-ply,Open
 72,池田 光咲,,F,神奈川大学,19,68.8,100,-115,-117.5,100,3,100,B,Single-ply,Open
@@ -89,7 +89,7 @@ WeightClassKg,JapaneseName,Name,Sex,Team,Age,BodyweightKg,Bench1Kg,Bench2Kg,Benc
 66,佃 忠和,Tadakazu Tsukuda,M,Ｋ'ｓＧＹＭ横浜,74,64.9,-112.5,-112.5,112.5,112.5,3,112.5,B,Single-ply,Open
 66,松野 翼,,M,Ｋ'ｓＧＹＭ,34,64.35,-140,-140,-140,,DQ,,B,Single-ply,Open
 74,児玉 大紀,Daiki Kodama,M,Ｋ'ｓＧＹＭ,39,72.85,245,255,265,265,1,265,B,Single-ply,Open
-74,菊地 洋介,,M,Ｋ'ｓＧＹＭ横浜,23,72.9,225,235,-257.5,235,2,235,B,Single-ply,Open
+74,菊地 洋介,Yosuke Kikuchi,M,Ｋ'ｓＧＹＭ横浜,23,72.9,225,235,-257.5,235,2,235,B,Single-ply,Open
 74,奥谷 元哉,Motoya Okutani,M,Ｋ'ｓＧＹＭ,38,73.65,-220,-220,220,220,3,220,B,Single-ply,Open
 74,濱田 展行,Nobuyuki Hamada,M,個人,49,73.4,210,-222.5,-222.5,210,4,210,B,Single-ply,Open
 74,三島 忠,Tadashi Mishima,M,Ｋ'ｓＧＹＭ,56,73.4,-210,-210,210,210,1,210,B,Single-ply,Open
@@ -124,7 +124,7 @@ WeightClassKg,JapaneseName,Name,Sex,Team,Age,BodyweightKg,Bench1Kg,Bench2Kg,Benc
 83,高橋 秀輔,,M,パワーハウス,41,82.25,-175,-175,175,175,2,175,B,Single-ply,Open
 83,長門 由輝,,M,Ｐｏｗｅｒ Ｌｉｎｅ,25,82.5,172.5,-180,-185,172.5,6,172.5,B,Single-ply,Open
 83,酒井 豊,,M,ノーリミッツ,41,83,160,172.5,-177.5,172.5,7,172.5,B,Single-ply,Open
-83,山下 卓也,,M,Ｋ'ｓＧＹＭ,50,81.9,160,170,-182.5,170,4,170,B,Single-ply,Open
+83,山下 卓也,Takuya Yamashita,M,Ｋ'ｓＧＹＭ,50,81.9,160,170,-182.5,170,4,170,B,Single-ply,Open
 83,馬倉 実,,M,スリムパワージム,52,82.25,155,-160,160,160,5,160,B,Single-ply,Open
 83,小倉 正樹,,M,ビックタートル深谷,52,80.9,145,-155,155,155,6,155,B,Single-ply,Open
 83,岡田 賢治,,M,パワーハウス山口,48,82,-145,145,-155,145,4,145,B,Single-ply,Open

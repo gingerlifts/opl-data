@@ -11,7 +11,7 @@ Place,Name,CyrillicName,Sex,Event,Equipment,WeightClassKg,Tested,Division,BirthD
 1,Vitaliy Abashev,Виталий Абашев,M,SBD,Wraps,67.5,No,Pro Open,1983-07-07,65.75,150,160,165,,165,90,100,105,,105,160,170,180,,180,450
 2,Dmitriy Solonnikov,Дмитрий Солонников,M,SBD,Wraps,67.5,No,Pro Open,1982-07-03,63,-120,130,140,,140,70,80,90,,90,160,170,-180,,170,400
 1,Vladimir Ustinov,Владимир Устинов,M,SBD,Wraps,67.5,No,Pro Juniors 20-23,1986-03-16,67.45,180,190,200,,200,125,130,135,,135,190,200,210,,210,545
-2,Sergey Sokolov,Сергей Соколов,M,SBD,Wraps,67.5,No,Pro Juniors 20-23,1988-07-21,63.5,140,150,-155,,150,85,95,-100,,95,170,180,190,,190,435
+2,Sergey Sokolov #16,Сергей Соколов,M,SBD,Wraps,67.5,No,Pro Juniors 20-23,1988-07-21,63.5,140,150,-155,,150,85,95,-100,,95,170,180,190,,190,435
 1,Vyacheslav Yurov,Вячеслав Юров,M,SBD,Wraps,67.5,No,Pro Teen 18-19,1991-02-17,66.65,140,-150,160,,160,95,102.5,-110,,102.5,155,-165,,,155,417.5
 3,Vyacheslav Yurov,Вячеслав Юров,M,SBD,Wraps,67.5,No,Pro Teen 18-19,1991-02-17,66.65,140,-150,160,,160,95,102.5,-110,,102.5,155,-165,,,155,417.5
 1,Filipp Kozyrkin,Филипп Козыркин,M,SBD,Wraps,67.5,No,Pro Teen 13-15,1993-05-25,64.2,-100,-100,100,,100,70,75,-80,,75,140,150,160,,160,335
@@ -107,7 +107,7 @@ Place,Name,CyrillicName,Sex,Event,Equipment,WeightClassKg,Tested,Division,BirthD
 1,Dmitriy Bubnov,Дмитрий Бубнов,M,B,Raw,110,No,Pro Open,1973-10-14,109.95,,,,,,190,202.5,-210,,202.5,,,,,,202.5
 2,Yakov Berman,Яков Берман,M,B,Raw,110,No,Pro Open,1972-06-22,103.45,,,,,,200,-210,-210,,200,,,,,,200
 3,Vladislav Manyukov,Владислав Манюков,M,B,Raw,110,No,Pro Open,1972-08-27,108.65,,,,,,175,182.5,192.5,,192.5,,,,,,192.5
-4,Igor Chistyakov,Игорь Чистяков,M,B,Raw,110,No,Pro Open,1975-06-05,108,,,,,,190,-200,-205,,190,,,,,,190
+4,Igor Chistyakov #2,Игорь Чистяков,M,B,Raw,110,No,Pro Open,1975-06-05,108,,,,,,190,-200,-205,,190,,,,,,190
 5,Marat Garaiev,Марат Гараиев,M,B,Raw,110,No,Pro Open,1975-04-09,108.75,,,,,,180,185,-190,,185,,,,,,185
 1,Pavel Redkin,Павел Редькин,M,B,Raw,110,No,Pro Juniors 20-23,1985-07-11,107,,,,,,187.5,190,197.5,,197.5,,,,,,197.5
 2,Ivan Minko,Иван Минко,M,B,Raw,110,No,Pro Juniors 20-23,1988-06-15,103.25,,,,,,150,160,-175,,160,,,,,,160
@@ -126,9 +126,9 @@ Place,Name,CyrillicName,Sex,Event,Equipment,WeightClassKg,Tested,Division,BirthD
 1,Natalya Starygina,Наталья Старыгина,F,SBD,Multi-ply,60,No,Pro Open,,58.8,160,170,185,,185,90,-97.5,97.5,,97.5,145,160,165,,165,447.5
 1,Natalya Starygina,Наталья Старыгина,F,SBD,Multi-ply,60,No,Pro Juniors 20-23,,58.8,160,170,185,,185,90,-97.5,97.5,,97.5,145,160,165,,165,447.5
 2,Anastasiya Amelina,Анастасия Амелина,F,SBD,Multi-ply,60,No,Pro Juniors 20-23,,58.55,180,190,-200,,190,85,-90,90,,90,155,-165,-165,,155,435
-1,Alena Podelko,Алёна Поделко,F,SBD,Multi-ply,60,No,Pro Teen 18-19,,58.4,130,140,-147.5,,140,60,-65,-65,,60,-115,115,120,,120,320
+1,Alena Podelko #1,Алёна Поделко,F,SBD,Multi-ply,60,No,Pro Teen 18-19,,58.4,130,140,-147.5,,140,60,-65,-65,,60,-115,115,120,,120,320
 1,Ekaterina Ustyuzhaninova,Екатерина Устюжанинова,F,SBD,Multi-ply,67.5,No,Pro Juniors 20-23,,67,180,-190,190,,190,-100,-100,100,,100,140,150,-160,,150,440
-1,Yulia Medvedeva,Юлия Медведева,F,SBD,Multi-ply,67.5,No,Pro Open,,67,-220,-220,220,,220,-140,-140,140,,140,190,-200,-200,,190,550
+1,Yuliya Medvedeva #1,Юлия Медведева,F,SBD,Multi-ply,67.5,No,Pro Open,,67,-220,-220,220,,220,-140,-140,140,,140,190,-200,-200,,190,550
 1,Mariya Shmyrina,Мария Шмырина,F,SBD,Multi-ply,75,No,Pro Teen 18-19,,69.2,-130,130,-140,,130,-70,70,77.5,,77.5,115,125,135,,135,342.5
 1,Marina Makedonskikh,Марина Македонских,F,SBD,Multi-ply,82.5,No,Pro Teen 18-19,,82.25,100,140,160,,160,50,60,-70,,60,110,140,-155,,140,360
 1,Vadim Sokushev,Вадим Сокушев,M,SBD,Multi-ply,52,No,Pro Teen 18-19,,51.45,170,180,190,,190,100,110,115,,115,130,150,-175,,150,455
@@ -197,7 +197,7 @@ DQ,Andrey Sharapov,Андрей Шарапов,M,SBD,Multi-ply,90,No,Pro Open,,8
 1,Vladimir Potapov,Владимир Потапов,M,SBD,Multi-ply,100,No,Pro Masters 50-54,,90.75,215,235,245,,245,155,170,175,,175,180,200,-205,,200,620
 2,Vladimir Kopchuk,Владимир Копчук,M,SBD,Multi-ply,100,No,Pro Masters 50-54,,92.15,-200,-220,220,,220,135,145,155,,155,200,215,-230,,215,590
 1,Nikolay Bezuglov,Николай Безуглов,M,SBD,Multi-ply,100,No,Pro Open,,97.4,-350,370,400,,400,200,-240,240,,240,-320,-320,320,,320,960
-2,Aleksey Kozlov,Алексей Козлов,M,SBD,Multi-ply,100,No,Pro Open,,98.15,340,360,,,360,-210,210,-230,,210,300,-330,-330,,300,870
+2,Aleksey Kozlov #1,Алексей Козлов,M,SBD,Multi-ply,100,No,Pro Open,,98.15,340,360,,,360,-210,210,-230,,210,300,-330,-330,,300,870
 3,Aleksey Yudin,Алексей Юдин,M,SBD,Multi-ply,100,No,Pro Open,,97.7,280,295,310,,310,220,-230,230,,230,260,-270,,,260,800
 1,Mikhail Konshin,Михаил Коньшин,M,SBD,Multi-ply,100,No,Pro Teen 18-19,,96,-210,230,245,,245,130,-137.5,,,130,205,225,235,,235,610
 1,Eduard Shpringer,Эдуард Шпрингер,M,SBD,Multi-ply,110,No,Pro Juniors 20-23,,109.65,-310,310,,,310,220,237.5,-255,,237.5,270,280,292.5,,292.5,840
@@ -229,7 +229,7 @@ DQ,Mikhail Brylin,Михаил Брылин,M,SBD,Multi-ply,110,No,Pro Open,,109
 3,Mariya Shcherbakova,Мария Щербакова,F,B,Multi-ply,60,No,Pro Juniors 20-23,,60,,,,,,60,-70,-70,,60,,,,,,60
 2,Marina Gileva,Марина Гилева,F,B,Multi-ply,60,No,Pro Open,,56.9,,,,,,-70,-70,70,,70,,,,,,70
 DQ,Ekaterina Ustyuzhaninova,Екатерина Устюжанинова,F,B,Multi-ply,67.5,No,Pro Juniors 20-23,,67.3,,,,,,-107.5,-107.5,-107.5,,,,,,,,
-1,Yulia Medvedeva,Юлия Медведева,F,B,Multi-ply,67.5,No,Pro Open,,67.45,,,,,,-140,140,-147.5,,140,,,,,,140
+1,Yuliya Medvedeva #1,Юлия Медведева,F,B,Multi-ply,67.5,No,Pro Open,,67.45,,,,,,-140,140,-147.5,,140,,,,,,140
 2,Nellya Maltseva,Нелля Мальцева,F,B,Multi-ply,67.5,No,Pro Open,,65,,,,,,-130,135,145,,145,,,,,,145
 DQ,Irina Pilipishko,Ирина Пилипишко,F,B,Multi-ply,67.5,No,Pro Masters 50-54,,66.5,,,,,,-85,-92.5,-92.5,,,,,,,,
 1,Mariya Shmyrina,Мария Шмырина,F,B,Multi-ply,75,No,Pro Open,,69.5,,,,,,72.5,77.5,-80,,77.5,,,,,,77.5
@@ -277,7 +277,7 @@ DQ,Aleksandr Nikulin,Александр Никулин,M,B,Multi-ply,82.5,No,Pro
 1,Andrey Guz,Андрей Гузь,M,B,Multi-ply,82.5,No,Pro Teen 18-19,,82.5,,,,,,170,,,,170,,,,,,170
 4,Sergey Konovalov #1,Сергей Коновалов,M,B,Multi-ply,90,No,Pro Open,,84.3,,,,,,240,255,-270,,255,,,,,,255
 1,Sergey Konovalov #1,Сергей Коновалов,M,B,Multi-ply,90,No,Pro Juniors 20-23,,84.3,,,,,,240,255,-270,,255,,,,,,255
-2,Andrey Zharyonov,Андрей Жарёнов,M,B,Multi-ply,90,No,Pro Juniors 20-23,,89,,,,,,210,230,237.5,,237.5,,,,,,237.5
+2,Andrey Zharyonov,Андрей Жаренов,M,B,Multi-ply,90,No,Pro Juniors 20-23,,89,,,,,,210,230,237.5,,237.5,,,,,,237.5
 3,Stanislav Alikin,Станислав Аликин,M,B,Multi-ply,90,No,Pro Juniors 20-23,,88.6,,,,,,-230,-235,235,,235,,,,,,235
 4,Yuriy Karpov,Юрий Карпов,M,B,Multi-ply,90,No,Pro Juniors 20-23,,88.9,,,,,,225,235,-240,,235,,,,,,235
 DQ,Vladislav Pudovkin,Владислав Пудовкин,M,B,Multi-ply,90,No,Pro Juniors 20-23,,83.35,,,,,,-190,-202.5,-202.5,,,,,,,,
@@ -315,7 +315,7 @@ DQ,Vladimir Ladeyshchikov,Владимир Ладейщиков,M,B,Multi-ply,10
 1,Dmitriy Tambovtsev,Дмитрий Тамбовцев,M,B,Multi-ply,100,No,Pro Open,,98.2,,,,,,-260,260,-272.5,,260,,,,,,260
 2,Oleg Saydentsal,Олег Сайденцаль,M,B,Multi-ply,100,No,Pro Open,,99.7,,,,,,250,260,-267.5,,260,,,,,,260
 3,Sergey Puzanskiy,Сергей Пузанский,M,B,Multi-ply,100,No,Pro Open,,98.9,,,,,,-250,250,-262.5,,250,,,,,,250
-4,Vladimir Maksimov,Владимир Максимов,M,B,Multi-ply,100,No,Pro Open,,98.85,,,,,,240,-250,-250,,240,,,,,,240
+4,Vladimir Maksimov #1,Владимир Максимов,M,B,Multi-ply,100,No,Pro Open,,98.85,,,,,,240,-250,-250,,240,,,,,,240
 5,Vladimir Omelkov,Владимир Омельков,M,B,Multi-ply,100,No,Pro Open,,99.5,,,,,,-240,240,-252.5,,240,,,,,,240
 6,Maxim Piskunov,Максим Пискунов,M,B,Multi-ply,100,No,Pro Open,,93.3,,,,,,210,-220,220,,220,,,,,,220
 7,Andrey Muratov,Андрей Муратов,M,B,Multi-ply,100,No,Pro Open,,94.65,,,,,,-200,-210,210,,210,,,,,,210
@@ -331,8 +331,8 @@ DQ,Aleksandr Kargopolov,Александр Каргополов,M,B,Multi-ply,10
 DQ,Ivan Poryadin,Иван Порядин,M,B,Multi-ply,100,No,Pro Open,,99.9,,,,,,-290,-290,-290,,,,,,,,
 1,Denis Chernay,Денис Чернай,M,B,Multi-ply,110,No,Pro Juniors 20-23,,106.35,,,,,,-210,210,-220,,210,,,,,,210
 DQ,Anton Pavlov,Антон Павлов,M,B,Multi-ply,110,No,Pro Juniors 20-23,,105.75,,,,,,-220,-220,-220,,,,,,,,
-1,Aleksandr Tretyakov,Александр Третьяков,M,B,Multi-ply,110,No,Pro Open,,108.5,,,,,,-310,310,-320,,310,,,,,,310
-1,Aleksandr Tretyakov,Александр Третьяков,M,B,Multi-ply,110,No,Pro Masters 40-44,,108.5,,,,,,-310,310,-320,,310,,,,,,310
+1,Aleksandr Tretyakov #1,Александр Третьяков,M,B,Multi-ply,110,No,Pro Open,,108.5,,,,,,-310,310,-320,,310,,,,,,310
+1,Aleksandr Tretyakov #1,Александр Третьяков,M,B,Multi-ply,110,No,Pro Masters 40-44,,108.5,,,,,,-310,310,-320,,310,,,,,,310
 2,Vyacheslav Rakhmanov,Вячеслав Рахманов,M,B,Multi-ply,110,No,Pro Masters 40-44,,108.15,,,,,,260,270,280,,280,,,,,,280
 3,Aleksey Chernysh,Алексей Черныш,M,B,Multi-ply,110,No,Pro Masters 40-44,,107.45,,,,,,-220,220,-225,,220,,,,,,220
 DQ,Vladimir Tolmachev,Владимир Толмачев,M,B,Multi-ply,110,No,Pro Masters 40-44,,105.8,,,,,,-170,-170,-170,,,,,,,,
@@ -346,7 +346,7 @@ DQ,Yuriy Pokhvashchev,Юрий Похващев,M,B,Multi-ply,110,No,Pro Masters
 3,Mikhail Brylin,Михаил Брылин,M,B,Multi-ply,110,No,Pro Open,,110,,,,,,240,-260,-260,,240,,,,,,240
 4,Sergey Kostin,Сергей Костин,M,B,Multi-ply,110,No,Pro Open,,109,,,,,,-220,-220,220,,220,,,,,,220
 DQ,Yakov Berman,Яков Берман,M,B,Multi-ply,110,No,Pro Open,,104.4,,,,,,-250,-260,-260,,,,,,,,
-DQ,Denis Semenov,Денис Семенов,M,B,Multi-ply,110,No,Pro Open,,105,,,,,,-220,,,,,,,,,,
+DQ,Denis Semenov #3,Денис Семенов,M,B,Multi-ply,110,No,Pro Open,,105,,,,,,-220,,,,,,,,,,
 DQ,Eduard Khaliullin,Эдуард Халиуллин,M,B,Multi-ply,110,No,Pro Open,,105.2,,,,,,-260,-260,-260,,,,,,,,
 DQ,Denis Plotnikov,Денис Плотников,M,B,Multi-ply,110,No,Pro Open,,107.1,,,,,,-240,-240,-240,,,,,,,,
 DQ,Ivan Kurpishev,Иван Курпишев,M,B,Multi-ply,110,No,Pro Open,,108.15,,,,,,-310,-310,-315,,,,,,,,
@@ -374,7 +374,7 @@ DQ,Vasiliy Matsur,Василий Мацур,M,B,Multi-ply,140,No,Pro Open,,136.5
 1,Timur Akhmedov,Тимур Ахмедов,M,B,Multi-ply,140+,No,Pro Juniors 20-23,,153,,,,,,210,-220,-230,,210,,,,,,210
 1,Denis Vildanov,Денис Вильданов,M,B,Multi-ply,140+,No,Pro Open,,150.5,,,,,,275,-292.5,-292.5,,275,,,,,,275
 2,Aleksandr Ablizin,Александр Аблизин,M,B,Multi-ply,140+,No,Pro Open,,160,,,,,,250,260,-272.5,,260,,,,,,260
-DQ,Aleksey Brazhkin,Алексей Бражкин,M,B,Multi-ply,140+,No,Pro Open,,140.95,,,,,,-280,-280,-292.5,,,,,,,,
+DQ,Alexey Brazhkin,Алексей Бражкин,M,B,Multi-ply,140+,No,Pro Open,,140.95,,,,,,-280,-280,-292.5,,,,,,,,
 1,Galina Sorikhina,Галина Сорихина,F,SBD,Wraps,48,Yes,Amateur Open,,46.5,40,50,55,,55,-25,25,-30,,25,55,65,75,,75,155
 1,Olesya Sinelnikova,Олеся Синельникова,F,SBD,Wraps,56,Yes,Amateur Open,,53.2,75,-85,-85,,75,47.5,50,-55,,50,80,92.5,100,,100,225
 1,Olesya Sinelnikova,Олеся Синельникова,F,SBD,Wraps,56,Yes,Amateur Teen 13-15,,53.2,75,-85,-85,,75,47.5,50,-55,,50,80,92.5,100,,100,225
@@ -525,7 +525,7 @@ DQ,Aleksandr Kozhevin,Александр Кожевин,M,B,Raw,90,Yes,Amateur O
 2,Mikhail Prokopov,Михаил Прокопов,M,B,Raw,100,Yes,Amateur Masters 40-44,,98.95,,,,,,-130,135,142.5,,142.5,,,,,,142.5
 3,Evgeniy Fadeev,Евгений Фадеев,M,B,Raw,100,Yes,Amateur Masters 40-44,,96.9,,,,,,115,125,-142.5,,125,,,,,,125
 1,Viktor Mandrygin,Виктор Мандрыгин,M,B,Raw,100,Yes,Amateur Masters 45-49,,99.4,,,,,,155,165,-172.5,,165,,,,,,165
-1,Gennadiy Semenov,Геннадий Семенов,M,B,Raw,100,Yes,Amateur Masters 50-54,,98.4,,,,,,-122.5,127.5,-132.5,,127.5,,,,,,127.5
+1,Gennadiy Semenov #2,Геннадий Семенов,M,B,Raw,100,Yes,Amateur Masters 50-54,,98.4,,,,,,-122.5,127.5,-132.5,,127.5,,,,,,127.5
 1,Pavel Cheredov,Павел Чередов,M,B,Raw,100,Yes,Amateur Open,,95.75,,,,,,180,187.5,190,,190,,,,,,190
 2,Dmitriy Kozik,Дмитрий Козик,M,B,Raw,100,Yes,Amateur Open,,97.45,,,,,,175,-180,180,,180,,,,,,180
 3,Konstantin Talda,Константин Талда,M,B,Raw,100,Yes,Amateur Open,,97.65,,,,,,-170,170,-175,,170,,,,,,170
@@ -567,7 +567,7 @@ DQ,Evgeniy Krayukhin,Евгений Краюхин,M,B,Raw,100,Yes,Amateur Open,
 2,Vasiliy Petrov,Василий Петров,M,B,Raw,125,Yes,Amateur Open,,120.35,,,,,,210,217.5,-225,,217.5,,,,,,217.5
 3,Sergey Lukyanov,Сергей Лукьянов,M,B,Raw,125,Yes,Amateur Open,,114.3,,,,,,200,207.5,-212.5,,207.5,,,,,,207.5
 4,Mikhail Kekalo,Михаил Кекало,M,B,Raw,125,Yes,Amateur Open,,119.65,,,,,,190,-202.5,202.5,,202.5,,,,,,202.5
-5,Sergey Kolesnichenko,Сергей Колесниченко,M,B,Raw,125,Yes,Amateur Open,,120.85,,,,,,-185,-185,185,,185,,,,,,185
+5,Sergey Kolesnichenko #1,Сергей Колесниченко,M,B,Raw,125,Yes,Amateur Open,,120.85,,,,,,-185,-185,185,,185,,,,,,185
 6,Vyacheslav Marenchuk,Вячеслав Маренчук,M,B,Raw,125,Yes,Amateur Open,,124.25,,,,,,150,155,-165,,155,,,,,,155
 1,Semen Demenev,Семен Деменев,M,B,Raw,125,Yes,Amateur Juniors 20-23,,113.95,,,,,,202.5,207.5,212.5,,212.5,,,,,,212.5
 2,Albert Fakhretdinov,Альберт Фахретдинов,M,B,Raw,125,Yes,Amateur Juniors 20-23,,113.1,,,,,,150,160,165,,165,,,,,,165
@@ -583,7 +583,7 @@ DQ,Evgeniy Krayukhin,Евгений Краюхин,M,B,Raw,100,Yes,Amateur Open,
 1,Kseniya Bulygina,Ксения Булыгина,F,SBD,Multi-ply,56,Yes,Amateur Juniors 20-23,,55.3,-125,135,142.5,,142.5,57.5,60,,,60,110,120,122.5,,122.5,325
 1,Margarita Gaas,Маргарита Гаас,F,SBD,Multi-ply,56,Yes,Amateur Juniors 20-23,,54.75,130,-140,-140,,130,-70,70,75,,75,100,115,-117.5,,115,320
 1,Marina Tuz,Марина Туз,F,SBD,Multi-ply,56,Yes,Amateur Open,,54,115,125,127.5,,127.5,60,65,67.5,,67.5,110,120,125,,125,320
-1,Anastasiya Ladygina,Анастасия Ладыгина,F,SBD,Multi-ply,56,Yes,Amateur Teen 18-19,,54.65,120,130,-140,,130,60,67.5,-72.5,,67.5,115,125,,,125,322.5
+1,Anastasia Ladygina,Анастасия Ладыгина,F,SBD,Multi-ply,56,Yes,Amateur Teen 18-19,,54.65,120,130,-140,,130,60,67.5,-72.5,,67.5,115,125,,,125,322.5
 1,Natalya Avgust,Наталья Август,F,SBD,Multi-ply,60,Yes,Amateur Open,,59.6,125,132.5,140,,140,-77.5,77.5,80,,80,155,165,-167.5,,165,385
 1,Mariya Berezenko,Мария Березенко,F,SBD,Multi-ply,60,Yes,Amateur Teen 18-19,,58.35,135,150,-160,,150,75,80,-85,,80,125,140,155,,155,385
 1,Elena Tokareva,Елена Токарева,F,SBD,Multi-ply,67.5,Yes,Amateur Juniors 20-23,,67.35,130,140,155,,155,80,-85,,,80,110,120,130,,130,365

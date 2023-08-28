@@ -4,7 +4,7 @@ Place,Name,CyrillicName,Sex,Event,Equipment,WeightClassKg,BirthYear,BodyweightKg
 3,Andrey Ustyuzhantsev,Андрей Устюжанцев,M,B,Single-ply,52,1981,51.6,70,75,77.5,,77.5,77.5,Open
 1,Konstantin Pavlov,Константин Павлов,M,B,Single-ply,56,1973,56,155,165,-173,,165,165,Open
 2,Sergey Martynov,Сергей Мартынов,M,B,Single-ply,56,1973,55.8,135,137.5,142.5,,142.5,142.5,Open
-3,Oleg Artemev,Олег Артемьев,M,B,Single-ply,56,1971,54.7,135,140,-145,,140,140,Open
+3,Oleg Artemyev,Олег Артемьев,M,B,Single-ply,56,1971,54.7,135,140,-145,,140,140,Open
 4,Viktor Kurbatov #1,Виктор Курбатов,M,B,Single-ply,56,1978,54.5,125,130,-132.5,,130,130,Open
 5,Igor Druy,Игорь Друй,M,B,Single-ply,56,1984,55,125,-130,-130,,125,125,Open
 6,Rustam Nuriev,Рустам Нуриев,M,B,Single-ply,56,1985,55.8,115,122.5,-132.5,,122.5,122.5,Open
@@ -52,19 +52,19 @@ DQ,Pavel Sled,Павел Следь,M,B,Single-ply,82.5,1972,81.65,-212.5,-212.5
 8,Pavel Kulakov,Павел Кулаков,M,B,Single-ply,90,1974,89,185,-192.5,-192.5,,185,185,Open
 9,Aleksey Korshunov,Алексей Коршунов,M,B,Single-ply,90,1972,89.8,-180,-180,180,,180,180,Open
 DQ,Aleksey Vorobev,Алексей Воробьев,M,B,Single-ply,90,1969,85.9,-255,-260,-260,,,,Open
-DD,Aleksandr Kuznetsov,Александр Кузнецов,M,B,Single-ply,90,1981,85.1,170,180,190,,190,,Open
+DD,Aleksandr Kuznetsov #3,Александр Кузнецов,M,B,Single-ply,90,1981,85.1,170,180,190,,190,,Open
 1,Evgeniy Matasov,Евгений Матасов,M,B,Single-ply,100,1971,99.2,265,277.5,-285,,277.5,277.5,Open
 2,Aleksey Babin,Алексей Бабин,M,B,Single-ply,100,1975,99.6,240,247.5,-255,,247.5,247.5,Open
 3,Aleksey Ryzhov,Алексей Рыжов,M,B,Single-ply,100,1973,94.9,245,-252.5,-252.5,,245,245,Open
 4,Vladislav Kobelev,Владислав Кобелев,M,B,Single-ply,100,1968,96.8,220,230,232.5,,232.5,232.5,Open
-5,Aleksey Kozlov,Алексей Козлов,M,B,Single-ply,100,1970,100,217.5,227.5,232.5,,232.5,232.5,Open
+5,Aleksey Kozlov #1,Алексей Козлов,M,B,Single-ply,100,1970,100,217.5,227.5,232.5,,232.5,232.5,Open
 6,Aleksandr Prokudenkov,Александр Прокуденков,M,B,Single-ply,100,1971,98.7,220,-230,230,,230,230,Open
 7,Sergey Sabarov,Сергей Сабаров,M,B,Single-ply,100,1971,99.3,-215,215,225,,225,225,Open
 8,Evgeniy Fogel,Евгений Фогель,M,B,Single-ply,100,1980,96,215,222.5,-227.5,,222.5,222.5,Open
 9,Aleksandr Durkin,Александр Дуркин,M,B,Single-ply,100,1972,95.6,212.5,220,-222.5,,220,220,Open
 10,Eduard Mikhaylov,Эдуард Михайлов,M,B,Single-ply,100,1975,99,205,215,220,,220,220,Open
 11,Anatoliy Moskalets,Анатолий Москалец,M,B,Single-ply,100,1956,94.1,190,195,200,,200,200,Open
-DQ,Vladimir Volkov,Владимир Волков,M,B,Single-ply,100,1959,96.8,-230,-230,-230,,,,Open
+DQ,Vladimir Volkov #1,Владимир Волков,M,B,Single-ply,100,1959,96.8,-230,-230,-230,,,,Open
 DQ,Igor Kushin,Игорь Кушин,M,B,Single-ply,100,1966,100,-240,-240,-240,,,,Open
 1,Eduard Isakov,Эдуард Исаков,M,B,Single-ply,110,1973,109.7,-265,265,,,265,265,Open
 2,Oleg Kushnaryov,Олег Кушнарёв,M,B,Single-ply,110,1973,108.85,235,247.5,255,,255,255,Open
@@ -81,12 +81,12 @@ DQ,Igor Kushin,Игорь Кушин,M,B,Single-ply,100,1966,100,-240,-240,-240,
 13,Petr Menshikov,Петр Меньшиков,M,B,Single-ply,110,1972,110,200,210,215,,215,215,Open
 DQ,Aleksandr Skachko,Александр Скачко,M,B,Single-ply,110,1974,109.7,-250,-250,-250,,,,Open
 DQ,Konstantin Kuznetsov,Константин Кузнецов,M,B,Single-ply,110,1972,109.2,-220,-230,-230,,,,Open
-1,Vladimir Maksimov,Владимир Максимов,M,B,Single-ply,125,1966,124.5,280,292.5,-297.5,,292.5,292.5,Open
+1,Vladimir Maksimov #1,Владимир Максимов,M,B,Single-ply,125,1966,124.5,280,292.5,-297.5,,292.5,292.5,Open
 2,Dmitriy Sapatov,Дмитрий Сапатов,M,B,Single-ply,125,1974,122.8,255,265,-270,,265,265,Open
 3,Pavel Badyrov,Павел Бадыров,M,B,Single-ply,125,1964,115.8,240,250,262.5,,262.5,262.5,Open
 4,Sergey Grinyaev,Сергей Гриняев,M,B,Single-ply,125,1977,121.8,250,-260,260,,260,260,Open
 5,Vyacheslav Kireev,Вячеслав Киреев,M,B,Single-ply,125,1969,124.2,242.5,252.5,-262.5,,252.5,252.5,Open
-6,Aleksandr Sergeev,Александр Сергеев,M,B,Single-ply,125,1971,117.6,250,-260,-260,,250,250,Open
+6,Aleksandr Sergeev #2,Александр Сергеев,M,B,Single-ply,125,1971,117.6,250,-260,-260,,250,250,Open
 7,Aleksey Rudenko,Алексей Руденко,M,B,Single-ply,125,1972,125,230,237.5,-242.5,,237.5,237.5,Open
 8,Sergey Zubkov,Сергей Зубков,M,B,Single-ply,125,1975,119.2,-230,-230,230,,230,230,Open
 9,Aleksandr Emelin,Александр Емелин,M,B,Single-ply,125,1966,125,220,230,-240,,230,230,Open
@@ -145,7 +145,7 @@ DQ,Konstantin Kuznetsov,Константин Кузнецов,M,B,Single-ply,110
 3,Svetlana Korobeynikova,Светлана Коробейникова,F,B,Single-ply,67.5,1979,66.6,115,120,122.5,,122.5,122.5,Open
 4,Yuliya Perelomova,Юлия Переломова,F,B,Single-ply,67.5,1980,66.4,110,117.5,-125,,117.5,117.5,Open
 5,Marina Mikhaylova,Марина Михайлова,F,B,Single-ply,67.5,1981,66.6,102.5,110,-115,,110,110,Open
-6,Yuliya Matveeva,Юлия Матвеева,F,B,Single-ply,67.5,1977,65.5,97.5,-102.5,102.5,,102.5,102.5,Open
+6,Yuliya Matveeva #1,Юлия Матвеева,F,B,Single-ply,67.5,1977,65.5,97.5,-102.5,102.5,,102.5,102.5,Open
 7,Natalya Avgust,Наталья Август,F,B,Single-ply,67.5,1975,63.7,85,-90,-90,,85,85,Open
 1,Anna Terentyeva,Анна Терентьева,F,B,Single-ply,75,1975,74.5,150,160.5,165,,165,165,Open
 2,Elena Sheverdina,Елена Шевердина,F,B,Single-ply,75,1968,74,130,137.5,-142.5,,137.5,137.5,Open

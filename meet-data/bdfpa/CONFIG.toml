@@ -1,4 +1,8 @@
 # From http://www.idfpf.com/docs/rules/WDFPF_RULEBOOK_Book3_V1_Main_Fundamentals.pdf
+
+[options]
+    require_manual_disambiguation = true
+
 [divisions]
     fo = {name="F-O", min=14, max=999, sex="F"}
     ft1 = {name="F-T1", min=14, max=15, sex="F"}
@@ -47,5 +51,11 @@
     sex = "F"
 
 [exemptions]
+    8901 = ["ExemptDivision"]
+    8902 = ["ExemptDivision"]
+    8903 = ["ExemptDivision"]
+    8904 = ["ExemptDivision","ExemptWeightClassConsistency"]
+    9001 = ["ExemptDivision"]
     1101 = ["ExemptDivision"]
     1302 = ["ExemptDivision"]
+    1801 = ["ExemptDivision"]  # For Mx.

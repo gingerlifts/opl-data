@@ -1,5 +1,5 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
-Chris Morgan,,Teen,M,185,160,227.5,572.5,SBD,Single-ply,1
+Chris Morgan #4,,Teen,M,185,160,227.5,572.5,SBD,Single-ply,1
 Beth Pastore,,Open,F,132.5,57.5,157.5,347.5,SBD,Single-ply,2
 Cheryl Popp,,Open,F,140,62.5,162.5,365,SBD,Single-ply,1
 Maria Ramirez,,Open,F,137.5,45,130,312.5,SBD,Single-ply,3
@@ -37,13 +37,13 @@ Byron Stanko,110,Open,M,265,160,265,690,SBD,Single-ply,7
 Sam Samaniego,125,Open,M,362.5,277.5,295,935,SBD,Single-ply,1
 Randy Scott #1,125,Open,M,342.5,225,310,877.5,SBD,Single-ply,2
 Mark Olenick,125,Open,M,312.5,210,295,817.5,SBD,Single-ply,3
-Dan Hall,125,Open,M,305,172.5,302.5,780,SBD,Single-ply,4
+Dan Hall #1,125,Open,M,305,172.5,302.5,780,SBD,Single-ply,4
 Greg Moodie,125,Open,M,267.5,172.5,257.5,697.5,SBD,Single-ply,5
 Bill Eubanks,125,Open,M,247.5,,,,SBD,Single-ply,DQ
-Stuart Thompson,125+,Open,M,375,200,320,895,SBD,Single-ply,1
+Stuart Thompson #2,125+,Open,M,375,200,320,895,SBD,Single-ply,1
 Charles Ashcraft,125+,Open,M,272.5,172.5,247.5,692.5,SBD,Single-ply,2
 Douglas Allen,52,Below Class II,M,77.5,55,107.5,240,SBD,Single-ply,1
-Michael Lewis,56,Below Class II,M,110,72.5,142.5,325,SBD,Single-ply,1
+Michael Lewis #8,56,Below Class II,M,110,72.5,142.5,325,SBD,Single-ply,1
 Brian Miller,56,Below Class II,M,105,50,102.5,257.5,SBD,Single-ply,2
 Stephen Wunz,60,Below Class II,M,147.5,100,182.5,430,SBD,Single-ply,1
 Stewart Breeding,67.5,Below Class II,M,172.5,107.5,177.5,457.5,SBD,Single-ply,1
@@ -60,5 +60,5 @@ Jeff Watson,82.5,Below Class II,M,157.5,127.5,182.5,467.5,SBD,Single-ply,5
 Don McGregor,100,Below Class II,M,245,165,200,610,SBD,Single-ply,1
 Larry Gault,100,Below Class II,M,210,110,255,575,SBD,Single-ply,2
 Ron DeAmieis,100,Below Class II,M,177.5,137.5,227.5,542.5,SBD,Single-ply,3
-Brian Bell,100,Below Class II,M,182.5,95,217.5,495,SBD,Single-ply,4
+Brian Bell #2,100,Below Class II,M,182.5,95,217.5,495,SBD,Single-ply,4
 Randy Weaver,110,Below Class II,M,222.5,180,262.5,665,SBD,Single-ply,1

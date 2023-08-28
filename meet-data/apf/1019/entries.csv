@@ -7,7 +7,7 @@ Dan Douglas,M,118.66,125,M_OR_APF,,170,,170,1,B,Raw,
 Dan Douglas,M,118.66,125,M_MR_1_APF,,170,,170,1,B,Raw,
 Dru Patrick,M,148.05,140+,M_OR_APF,,242.5,,242.5,1,B,Raw,
 Brandon Branner,M,145.15,140+,M_OR_APF,,255,,255,1,B,Raw,
-John Tyler,M,96.62,100,M_MEM_2_AAPF,,160,,160,1,B,Multi-ply,Yes
+John Tyler #3,M,96.62,100,M_MEM_2_AAPF,,160,,160,1,B,Multi-ply,Yes
 Rachel Nutter,F,124.47,90+,F_OEM_AAPF,,187.5,,187.5,1,B,Multi-ply,Yes
 Rachel Nutter,F,124.47,90+,F_SEM_AAPF,,187.5,,187.5,1,B,Multi-ply,Yes
 Nathan Bratsch,M,96.43,100,M_OEM_AAPF,,240,,240,1,B,Multi-ply,Yes
@@ -16,7 +16,7 @@ Eric Knudsen,M,124.65,125,M_MEM_3_AAPF,,227.5,,227.5,1,B,Multi-ply,Yes
 Dean Reiman,M,81.56,82.5,M_MEM_2_APF,,252.5,,252.5,1,B,Multi-ply,
 Jason Nguyen,M,89.9,90,M_OEM_APF,,232.5,,232.5,1,B,Multi-ply,
 Dale Schmidtke,M,99.06,100,M_MEM_1_APF,,215,,215,1,B,Multi-ply,
-Jorn Berding,M,105.05,110,M_MEM_1_APF,,327.5,,327.5,1,B,Multi-ply,
+John Berding,M,105.05,110,M_MEM_1_APF,,327.5,,327.5,1,B,Multi-ply,
 Jake Prazak,M,107.77,110,M_OEM_APF,,390,,390,1,B,Multi-ply,
 Eric Wills,M,109.68,110,M_OEM_APF,,272.5,,272.5,2,B,Multi-ply,
 Dave Harrison,M,119.2,125,M_MEM_1_APF,,262.5,,262.5,1,B,Multi-ply,
@@ -32,7 +32,7 @@ Brian Graupman,M,97.61,100,M_MR_1_AAPF,200,125,230,555,1,SBD,Raw,Yes
 Erlend Weise,M,106.23,110,M_OR_AAPF,200,150,265,615,1,SBD,Raw,Yes
 Erlend Weise,M,106.23,110,M_OR_AAPF,,150,265,415,1,BD,Raw,Yes
 Jeff Holmgren,M,115.94,125,M_OR_AAPF,217.5,162.5,265,645,1,SBD,Raw,Yes
-Adam Ward,M,146.51,140+,M_JR_AAPF,295,182.5,295,772.5,1,SBD,Raw,Yes
+Adam Ward #4,M,146.51,140+,M_JR_AAPF,295,182.5,295,772.5,1,SBD,Raw,Yes
 Chris Bjork,M,157.67,140+,M_OR_AAPF,242.5,155,242.5,640,1,SBD,Raw,Yes
 Jason Buccek,M,156.13,140+,M_OR_AAPF,,,300,300,1,D,Raw,Yes
 Jason Buccek,M,156.13,140+,M_SR_AAPF,,,300,300,1,D,Raw,Yes

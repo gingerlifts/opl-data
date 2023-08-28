@@ -13,9 +13,18 @@
     for = {name ="F-OR", min=0, max=999, sex="F", equipment=["Raw","Wraps"]}
     mgr = {name ="M-GR", min=0, max=999, sex="M", equipment=["Raw","Wraps"], place="G"}
     fgr = {name ="F-GR", min=0, max=999, sex="F", equipment=["Raw","Wraps"], place="G"}
+
     moe = {name ="M-OE", min=0, max=999, sex="M", equipment=["Single-ply","Multi-ply"]}
     mje = {name ="M-JE", min=20, max=23, sex="M", equipment=["Single-ply","Multi-ply"]}
+    mm1e = {name ="M-M1E", min=40, max=44, sex="M", equipment=["Single-ply","Multi-ply"]}
+    mm2e = {name ="M-M2E", min=45, max=49, sex="M", equipment=["Single-ply","Multi-ply"]}
+    mm3e = {name ="M-M3E", min=50, max=54, sex="M", equipment=["Single-ply","Multi-ply"]}
+    mm4e = {name ="M-M4E", min=55, max=59, sex="M", equipment=["Single-ply","Multi-ply"]}
+    mm5e = {name ="M-M5E", min=60, max=64, sex="M", equipment=["Single-ply","Multi-ply"]}
+
     foe = {name ="F-OE", min=0, max=999, sex="F", equipment=["Single-ply","Multi-ply"]}
+    fje = {name ="F-JE", min=20, max=23, sex="F", equipment=["Single-ply","Multi-ply"]}
+
     mtr = {name ="M-TR", min=13, max=19, sex="M", equipment=["Raw","Wraps"]}
     mt1r = {name ="M-T1R", min=13, max=15, sex="M", equipment=["Raw","Wraps"]}
     mt2r = {name ="M-T2R", min=16, max=17, sex="M", equipment=["Raw","Wraps"]}
@@ -45,14 +54,22 @@
     mm9r = {name ="M-M9R", min=80, max=999, sex="M", equipment=["Raw","Wraps"]}
     fm9r = {name ="F-M9R", min=80, max=999, sex="F", equipment=["Raw","Wraps"]}
 
+
+
+
 [weightclasses.default_M]
     classes = ["56","60","67.5","75","82.5","90","100","110","125","140","125+","140+"]
     date_range = ["2016-01-01","9999-01-01"]
     sex = "M"
 
 [weightclasses.default_F]
+    classes = ["44","48","52","56","60","67.5","75","82.5","90","100","110","110+"]
+    date_range = ["2023-01-01","9999-01-01"]
+    sex = "F"
+
+[weightclasses.2016_2022_F]
     classes = ["44","48","52","56","60","67.5","75","82.5","90","110","110+"]
-    date_range = ["2016-01-01","9999-01-01"]
+    date_range = ["2016-01-01","2022-12-31"]
     sex = "F"
 
 [weightclasses.old_F]
@@ -66,3 +83,5 @@
     sex = "M"
 
 [exemptions]
+    2212 = ["ExemptDivision"] # Submasters
+    2308 = ["ExemptDivision"] # Ruccis ran non-standard divisions in 2023 WA States

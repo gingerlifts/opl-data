@@ -29,7 +29,7 @@ DQ,Pantelis Sapounakis,Greece,,125,110.2,38,-330,-330,-330,,-280,,,,,,,,,,SBD,Si
 1,Mina Ebeed,Egypt,,140+,193,31,100,,,100,-60,60,,60,150,,,150,310,,SBD,Single-ply,M,Open
 DQ,Abdelhakim Riezk,Egypt,,140+,149.4,38,-320,-320,-320,,-160,,,,,,,,,,SBD,Single-ply,M,Open
 1,Olga Polygalova,Russia,,48,46.3,31,,,,,62.5,65,-67.5,65,,,,,65,,B,Raw,F,Open
-1,Teri Ivey,USA,TX,60,59,49,,,,,82.5,84,-97.5,84,,,,,84,,B,Raw,F,Open
+1,Teri Ivey Gehring,USA,TX,60,59,49,,,,,82.5,84,-97.5,84,,,,,84,,B,Raw,F,Open
 2,Christina Leonatti,USA,CO,60,58,51,,,,,77.5,82.5,-87.5,82.5,,,,,82.5,,B,Raw,F,Open
 1,Judy Camsuzou,USA,CA,67.5,67.4,51,,,,,107.5,-125,,107.5,,,,,107.5,,B,Raw,F,Open
 2,Debra Hofer,USA,OK,67.5,64.8,37,,,,,87.5,-97.5,-97.5,87.5,,,,,87.5,,B,Raw,F,Open
@@ -41,7 +41,7 @@ DQ,Abdelhakim Riezk,Egypt,,140+,149.4,38,-320,-320,-320,,-160,,,,,,,,,,SBD,Singl
 1,Ruben Castro,USA,WA,82.5,77.8,37,,,,,187.5,197.5,-205,197.5,,,,,197.5,,B,Raw,M,Open
 2,David Bassett,USA,IL,82.5,82.4,45,,,,,-180,180,-182.5,180,,,,,180,,B,Raw,M,Open
 3,Evan Anderson #1,USA,CO,82.5,79.6,21,,,,,167.5,-175,175,175,,,,,175,,B,Raw,M,Open
-1,Robert Miller,USA,WA,90,89.4,52,,,,,197.5,207.5,212.5,212.5,,,,,212.5,,B,Raw,M,Open
+1,Robert Miller #2,USA,WA,90,89.4,52,,,,,197.5,207.5,212.5,212.5,,,,,212.5,,B,Raw,M,Open
 2,Pavel Silushin,Russia,,90,88.4,29,,,,,170,180,192.5,192.5,,,,,192.5,,B,Raw,M,Open
 1,Kenneth Cook #1,USA,CA,100,99.7,31,,,,,232.5,243,250,250,,,,,250,,B,Raw,M,Open
 2,Demerrius Slocum,USA,LA,100,98.4,34,,,,,217.5,-230,-230,217.5,,,,,217.5,,B,Raw,M,Open
@@ -80,7 +80,7 @@ DQ,Mohamed Samir,Egypt,,90,89.4,42,,,,,-130,-130,-130,,,,,,,,B,Single-ply,M,Open
 4,Trenton Eades,USA,MO,110,107.2,32,,,,,215,225,-235,225,,,,,225,,B,Single-ply,M,Open
 1,Dmitry Gorbachev,Russia,,125,117.5,49,,,,,-310,-310,310,310,,,,,310,,B,Single-ply,M,Open
 2,Pantelis Sapounakis,Greece,,125,111.6,38,,,,,-280,280,-295,280,,,,,280,,B,Single-ply,M,Open
-3,Nicholas Tsourounis,USA,MD,125,114.6,38,,,,,257.5,265,272.5,272.5,,,,,272.5,,B,Single-ply,M,Open
+3,Nick Tsourounis,USA,MD,125,114.6,38,,,,,257.5,265,272.5,272.5,,,,,272.5,,B,Single-ply,M,Open
 DQ,Mario Rumrich,Germany,,125,111.2,40,,,,,,,,,,,,,,,B,Single-ply,M,Open
 1,Tim Moon,USA,GA,140,135.6,55,,,,,332.5,342.5,-367.5,342.5,,,,,342.5,,B,Single-ply,M,Open
 DQ,Tommy Harrison,USA,IL,140,129.6,45,,,,,-332.5,-332.5,,,,,,,,,B,Single-ply,M,Open
@@ -93,7 +93,7 @@ DQ,Greg Powell,USA,TX,110,106,54,,,,,-347.5,-357.5,-357.5,,,,,,,,B,Multi-ply,M,O
 2,Mario Rumrich,Germany,,125,111.2,40,,,,,210,222.5,,222.5,,,,,222.5,,B,Multi-ply,M,Open
 1,Tommy Harrison,USA,IL,140,129.6,45,,,,,277.5,,,277.5,,,,,277.5,,B,Multi-ply,M,Open
 1,Aimee Markwardt,USA,CO,48,46.2,40,,,,,,,,,115,120.5,125,125,125,,D,Raw,F,Open
-1,Tricia Garrett,USA,TX,60,59.2,39,,,,,,,,,137.5,152.5,-160,152.5,152.5,,D,Raw,F,Open
+1,Tricia Dublin,USA,TX,60,59.2,39,,,,,,,,,137.5,152.5,-160,152.5,152.5,,D,Raw,F,Open
 1,Mirian Fernandes,USA,CA,82.5,79,51,,,,,,,,,190,200,215.5,215.5,215.5,,D,Raw,F,Open
 1,Grace Tacuyan-Witt,USA,Guam,90+,102.5,41,,,,,,,,,205,220,-227.5,220,220,,D,Raw,F,Open
 2,Arletha Phillip,USA,AZ,90+,131.9,50,,,,,,,,,187.5,217.5,-220,217.5,217.5,,D,Raw,F,Open
@@ -120,7 +120,7 @@ DQ,Richard Jones #2,UK,,75,74.9,39,,,,,,,,,-212.5,-212.5,-212.5,,,,D,Raw,M,Open
 1,Gary Hunter #1,USA,TX,67.5,67,32,,,,,,,,,227.5,242.5,-258,242.5,242.5,,D,Single-ply,M,Open
 1,Ahmed Taher,Egypt,,75,71,42,,,,,,,,,160,180,195,195,195,,D,Single-ply,M,Open
 1,Chris McGrail,USA,UT,90,86.2,40,,,,,,,,,325,-335,-335,325,325,,D,Single-ply,M,Open
-2,Phil Watkins,UK,,90,89.8,50,,,,,,,,,290,-310,-310,290,290,,D,Single-ply,M,Open
+2,Philip Watkins,UK,,90,89.8,50,,,,,,,,,290,-310,-310,290,290,,D,Single-ply,M,Open
 3,Mohamed Samir,Egypt,,90,89.4,42,,,,,,,,,180,210,225,225,225,,D,Single-ply,M,Open
 1,Rinaldo Visser,Netherlands,,100,96.3,37,,,,,,,,,300,312.5,-320,312.5,312.5,,D,Single-ply,M,Open
 DQ,Andrew Mower,USA,UT,100,90.6,38,,,,,,,,,-337.5,-337.5,-337.5,,,,D,Single-ply,M,Open

@@ -3,7 +3,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3DeadliftKg,TotalKg,Sex,Divi
 1,Samantha Todd,CO,60,60,28,165,165,F,Open,Raw,D,
 2,Daphne Villanueva,NC,60,59.4,34,132.5,132.5,F,Open,Raw,D,
 3,Sally Michel,CO,60,58.1,64,115,115,F,Open,Raw,D,
-1,Molly Johnson,CO,75,69.4,29,195,195,F,Open,Raw,D,
+1,Molly Johnson #1,CO,75,69.4,29,195,195,F,Open,Raw,D,
 2,Megan Miller,WY,75,74.1,24,190,190,F,Open,Raw,D,
 3,Kirstie Chavez,CO,75,71.4,28,162.5,162.5,F,Open,Raw,D,
 4,Natasha Rawlins,CO,75,71.8,31,137.5,137.5,F,Open,Raw,D,
@@ -33,7 +33,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3DeadliftKg,TotalKg,Sex,Divi
 2,Marcus Phelps,CO,125,123.1,33,305,305,M,Open,Raw,D,
 3,James Casterline,CO,125,118.3,38,292.5,292.5,M,Open,Raw,D,295
 4,David Muckel,CO,125,121,32,290,290,M,Open,Raw,D,
-5,William Moore,CO,125,112.5,29,275,275,M,Open,Raw,D,
+5,William Moore #3,CO,125,112.5,29,275,275,M,Open,Raw,D,
 6,Justin Fanshier,CO,125,116.5,30,172.5,172.5,M,Open,Raw,D,
 1,Isaac Dolson,CO,140,129.9,21,197.5,197.5,M,Open,Raw,D,
 1,Jeremy Wade,CO,82.5,76.1,35,120,120,M,Submasters 35-39,Raw,D,

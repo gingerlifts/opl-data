@@ -1,8 +1,8 @@
 Name,Age,Sex,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Squat4Kg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Bench4Kg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Country,Event,Equipment,Tested,Place
 Lamorna Bardwell,23,F,F_JCR_AWPC,51.2,52,95,100,105,105,,60,62.5,-67.5,62.5,,130,140,-150,140,,307.5,UK,SBD,Wraps,Yes,1
-Sophie Fuller,23,F,F_JCR_AWPC,64.15,67.5,105,-110,112.5,112.5,,60,62.5,-63.5,62.5,,137.5,-142.5,-142.5,137.5,,312.5,UK,SBD,Wraps,Yes,1
+Sophie Fuller #1,23,F,F_JCR_AWPC,64.15,67.5,105,-110,112.5,112.5,,60,62.5,-63.5,62.5,,137.5,-142.5,-142.5,137.5,,312.5,UK,SBD,Wraps,Yes,1
 Amy White,20,F,F_JR_AWPC,59.55,60,107.5,115,-120,115,,55,60,-62.5,60,,110,117.5,125,125,,300,Ireland,SBD,Raw,Yes,1
-Catherine Kruger,23,F,F_JR_AWPC,66.6,67.5,,,,,,,,,,,110,120,122.5,122.5,,122.5,Ireland,D,Raw,Yes,1
+Catherine Kruger-Stewart,23,F,F_JR_AWPC,66.6,67.5,,,,,,,,,,,110,120,122.5,122.5,,122.5,UK,D,Raw,Yes,1
 Shannon Clarke,21,F,F_JR_AWPC,66.85,67.5,77.5,82.5,-87.5,82.5,,47.5,-52.5,-52.5,47.5,,105,-110,-110,105,,235,UK,SBD,Raw,Yes,2
 Vera Klauke,22,F,F_JR_AWPC,67.4,67.5,97.5,-102.5,-102.5,97.5,,57.5,60,-62.5,60,,127.5,135,140,140,,297.5,Ireland,SBD,Raw,Yes,1
 Jenny Davies,23,F,F_JR_AWPC,73.45,75,102.5,107.5,112.5,112.5,,52.5,57.5,60,60,,112.5,120,122.5,122.5,,295,UK,SBD,Raw,Yes,2
@@ -50,14 +50,14 @@ Maria Maher,54,F,F_MR_3_AWPC,67.2,67.5,,,,,,67.5,-70,-70,67.5,,,,,,,67.5,Ireland
 Virpi Knuutila,52,F,F_MR_3_WPC,82,82.5,,,,,,122.5,132.5,140,140,,,,,,,140,Finland,B,Raw,,1
 Virpi Knuutila,52,F,F_MR_3_WPC,82,82.5,,,,,,,,,,,205,220,-235,220,,220,Finland,D,Raw,,1
 Linda Hicks,57,F,F_MR_4_AWPC,71.5,75,,,,,,65,70,-75,70,,,,,,,70,UK,B,Raw,Yes,1
-Patricia Wetton,56,F,F_MR_4_AWPC,74.9,75,102.5,-107.5,107.5,107.5,,60,62.5,65,65,,130,135,,135,,307.5,UK,SBD,Raw,Yes,1
+Patricia Wetton,,F,F_MR_4_AWPC,74.9,75,102.5,-107.5,107.5,107.5,,60,62.5,65,65,,130,135,,135,,307.5,UK,SBD,Raw,Yes,1
 Karin Heindl,62,F,F_MR_5_WPC,56.9,60,,,,,,38.5,42.5,45,45,,,,,,,45,Austria,B,Raw,,1
 Lolita Zankl,60,F,F_MR_5_WPC,65.5,67.5,,,,,,100,110,115,115,,,,,,,115,Germany,B,Raw,,1
 Lolita Zankl,60,F,F_MR_5_WPC,65.5,67.5,,,,,,,,,,,160,170,180,180,,180,Germany,D,Raw,,1
 Victoria Court,31,F,F_OCR_AWPC,51.3,52,90,97.5,100,100,,75,-80,-80,75,,112.5,-120,120,120,,295,UK,SBD,Wraps,Yes,1
 Tess O'Flaherty,52,F,F_OCR_AWPC,55.3,56,90,95,-101,95,,55,60,-62.5,60,,105,110,115,115,,270,UK,SBD,Wraps,Yes,1
 Michelle Trench,33,F,F_OCR_AWPC,54.8,56,85,95,-100,95,,47.5,-52.5,52.5,52.5,,125,137.5,-140,137.5,,285,UK,SBD,Wraps,Yes,1
-Lyndsay McGuire,34,F,F_OCR_AWPC,58.55,60,90,97.5,102.5,102.5,,47.5,52.5,55,55,,125,-135,-135,125,,282.5,UK,SBD,Wraps,Yes,1
+Lindsay McGuire #2,34,F,F_OCR_AWPC,58.55,60,90,97.5,102.5,102.5,,47.5,52.5,55,55,,125,-135,-135,125,,282.5,UK,SBD,Wraps,Yes,1
 Aoife Delahunt,37,F,F_OCR_AWPC,64.15,67.5,72.5,80,-85,80,,45,50,-52.5,50,,95,105,110,110,,240,Ireland,SBD,Wraps,Yes,4
 Claire Cartlidge,35,F,F_OCR_AWPC,66.9,67.5,90,95,100,100,,55,-60,-60,55,,130,145,-150,145,,300,UK,SBD,Raw,Yes,3
 Ciara Delahunt,30,F,F_OCR_AWPC,63.65,67.5,130,140,-145,140,,60,65,-67.5,65,,135,145,155,155,,360,Ireland,SBD,Wraps,Yes,2
@@ -147,7 +147,7 @@ Bradley Nortcliffe,23,M,M_JCR_AWPC,59.9,60,170,180,183,183,,105,112.5,117.5,117.
 Tristan McDonagh,22,M,M_JCR_AWPC,71.05,75,-182.5,182.5,-190,182.5,,115,-120,-120,115,,182.5,190,-200,190,,487.5,Ireland,SBD,Wraps,Yes,1
 Dylan Cilliers,20,M,M_JCR_AWPC,80.05,82.5,192.5,202.5,-207.5,202.5,,120,130,-132.5,130,,235,-253,253,253,,585.5,UK,SBD,Wraps,Yes,1
 Sean Green #1,20,M,M_JCR_AWPC,87.2,90,162.5,170,-180,170,,92.5,97.5,-102.5,97.5,,207.5,217.5,-222.5,217.5,,485,UK,SBD,Wraps,Yes,2
-James Martin,23,M,M_JCR_AWPC,88.6,90,180,195,207.5,207.5,,115,122.5,-127.5,122.5,,-210,220,235,235,,565,UK,SBD,Wraps,Yes,1
+James Martin #4,23,M,M_JCR_AWPC,88.6,90,180,195,207.5,207.5,,115,122.5,-127.5,122.5,,-210,220,235,235,,565,UK,SBD,Wraps,Yes,1
 Rhys Manning,21,M,M_JCR_AWPC,98.75,100,195,210,-220,210,,130,137.5,140,140,,230,245,255,255,260,605,Ireland,SBD,Wraps,Yes,1
 Ben Flawith,22,M,M_JCR_AWPC,130.15,140,260,280,-300,280,,175,-190,-190,175,,270,300,-310,300,,755,UK,SBD,Wraps,Yes,1
 Roman Malo,22,M,M_JCR_WPC,74.95,75,200,-210,210,210,,115,-120,120,120,,235,250,-255,250,,580,France,SBD,Wraps,,1
@@ -155,7 +155,7 @@ Ashley Armstrong #1,23,M,M_JCR_WPC,81.9,82.5,-247.5,-247.5,247.5,247.5,,165,172.
 Brian Antonioli,23,M,M_JCR_WPC,105.05,110,240,250,260,260,,135,142.5,150,150,,242.5,252.5,260,260,,670,Italy,SBD,Wraps,,5
 Luca Bartoloni,21,M,M_JCR_WPC,108.65,110,260,-275,-275,260,,157.5,165,167.5,167.5,,260,-285,,260,,687.5,Ireland,SBD,Wraps,,4
 Jose Luis Dominguez Martines,21,M,M_JCR_WPC,106.03,110,240,260,-270,260,,200,-205,-205,200,,240,260,-270,260,,720,Spain,SBD,Wraps,,3
-Ciaran O'Connor,22,M,M_JCR_WPC,106.6,110,250,265,285,285,,-150,150,162.5,162.5,,275,-300,,275,,722.5,Ireland,SBD,Wraps,,2
+Ciaran O'Connor #2,22,M,M_JCR_WPC,106.6,110,250,265,285,285,,-150,150,162.5,162.5,,275,-300,,275,,722.5,Ireland,SBD,Wraps,,2
 Tom Hudson,23,M,M_JCR_WPC,106.6,110,240,265,-282.5,265,,155,-162.5,,155,,305,320,-327.5,320,,740,UK,SBD,Wraps,,1
 Aaron Hayes,22,M,M_JCR_WPC,138,140,270,-290,-290,270,,165,-170,,165,,270,-285,,270,,705,Ireland,SBD,Wraps,,1
 Sean Hough,22,M,M_JEM_WPC,115.6,125,,,,,,-190,200,-210,200,,,,,,,200,Ireland,B,Multi-ply,,1
@@ -183,7 +183,7 @@ Kevin Smith #21,56,M,M_MCR_4_WPC,87.2,90,135,150,157.5,157.5,,107.5,115,-120,115
 John McDaid,61,M,M_MCR_5_AWPC,108.3,110,180,195,205,205,,130,137.5,142.5,142.5,,170,185,-190,185,,532.5,Ireland,SBD,Wraps,Yes,1
 Paudie Phelan,44,M,M_MEM_1_WPC,122.25,125,,,,,,-202.5,-202.5,-202.5,,,,,,,,,Ireland,B,Multi-ply,,DQ
 Paudie Phelan,44,M,M_MEM_1_WPC,122.75,125,,,,,,,,,,,-250,250,265,265,,265,Ireland,D,Multi-ply,,1
-Shane Brodie,46,M,M_MEM_2_WPC,96.3,100,325,345,,345,,185,200,-205,200,,255,265,270,270,,815,Ireland,SBD,Multi-ply,,1
+Shane Brodie,,M,M_MEM_2_WPC,96.3,100,325,345,,345,,185,200,-205,200,,255,265,270,270,,815,Ireland,SBD,Multi-ply,,1
 Eric Platel,47,M,M_MEM_2_WPC,108.6,110,,,,,,285,292.5,-300,292.5,,,,,,,292.5,France,B,Multi-ply,,1
 Marcus Young,54,M,M_MEM_3_WPC,81.4,82.5,,,,,,165,175,185,185,,,,,,,185,Finland,B,Multi-ply,,1
 Tahvo Jauhojärvi,57,M,M_MEM_4_WPC,74.65,75,,,,,,170,-180,-191,170,,,,,,,170,Sweden,B,Multi-ply,,1
@@ -205,9 +205,9 @@ Paul Morgan,46,M,M_MES_2_WPC,106.95,110,,,,,,150,-260,-270,150,,,,,,,150,UK,B,Si
 Andre Du Plessis,54,M,M_MES_3_AWPC,155.9,140+,,,,,,202.5,-212.5,,202.5,,,,,,,202.5,Ireland,B,Single-ply,Yes,1
 Andre Du Plessis,54,M,M_MES_3_AWPC,155.9,140+,,,,,,,,,,,270,290,-300,290,,290,Ireland,D,Single-ply,Yes,1
 Marcus Young,54,M,M_MES_3_WPC,81.4,82.5,,,,,,160,175,-182.5,175,,,,,,,175,Finland,B,Single-ply,,1
-David Gibson,53,M,M_MES_3_WPC,86.7,90,,,,,,160,167.5,172.5,172.5,177.5,,,,,,172.5,UK,B,Single-ply,,1
-David Gibson,53,M,M_MES_3_WPC,86.7,90,,,,,,160,167.5,172.5,172.5,177.5,,,,,,172.5,UK,B,Single-ply,,1
-Phil Watkins,50,M,M_MES_3_WPC,93.45,100,,,,,,,,,,,300,317.5,,317.5,,317.5,UK,D,Single-ply,,1
+David Gibson #2,53,M,M_MES_3_WPC,86.7,90,,,,,,160,167.5,172.5,172.5,177.5,,,,,,172.5,UK,B,Single-ply,,1
+David Gibson #2,53,M,M_MES_3_WPC,86.7,90,,,,,,160,167.5,172.5,172.5,177.5,,,,,,172.5,UK,B,Single-ply,,1
+Philip Watkins,50,M,M_MES_3_WPC,93.45,100,,,,,,,,,,,300,317.5,,317.5,,317.5,UK,D,Single-ply,,1
 Rob Preston,50,M,M_MES_3_WPC,107.65,110,,,,,,235,245,255,255,,,,,,,255,UK,B,Single-ply,,1
 Eric Bar,50,M,M_MES_3_WPC,121.7,125,,,,,,197.5,-205,205,205,,,,,,,205,France,B,Single-ply,,1
 Adrian Phillips,55,M,M_MES_4_AWPC,96.1,100,225,235,-245,235,,142.5,-147.5,-147.5,142.5,,230,245,252.5,252.5,,630,UK,SBD,Single-ply,Yes,1
@@ -221,7 +221,7 @@ David Aboagye,41,M,M_MR_1_AWPC,105.9,110,190,200,210,210,,110,120,-125,120,,190,
 James Hickey,42,M,M_MR_1_AWPC,126.5,140,,,,,,200,210,-220,210,,,,,,,210,Ireland,B,Raw,Yes,1
 James Hickey,42,M,M_MR_1_AWPC,126.5,140,,,,,,,,,,,310,350,-372.5,350,,350,Ireland,D,Raw,Yes,1
 Leo McCabe,44,M,M_MR_1_WPC,88.75,90,,,,,,,,,,,210,220,-225,220,,220,Ireland,D,Raw,,1
-Paul Smith,41,M,M_MR_1_WPC,89.25,90,-160,-160,160,160,,105,110,-112.5,110,,190,205,212.5,212.5,,482.5,Ireland,SBD,Raw,,1
+Paul Smith #3,41,M,M_MR_1_WPC,89.25,90,-160,-160,160,160,,105,110,-112.5,110,,190,205,212.5,212.5,,482.5,Ireland,SBD,Raw,,1
 Andrei Kabantseff,42,M,M_MR_1_WPC,106.55,110,,,,,,145,165,172.5,172.5,,,,,,,172.5,Estonia,B,Raw,,2
 Pawel Stachurski,40,M,M_MR_1_WPC,108.45,110,,,,,,197.5,207.5,-215,207.5,,,,,,,207.5,Ireland,B,Raw,,1
 Sandro Eusébio,44,M,M_MR_1_WPC,109.85,110,,,,,,,,,,,300,-330,-330,300,,300,Portugal,D,Raw,,1
@@ -246,8 +246,8 @@ Michael McLaughlin,54,M,M_MR_3_WPC,78.6,82.5,,,,,,80,87.5,-95,87.5,,,,,,,87.5,Ir
 Marcus Young,54,M,M_MR_3_WPC,81.4,82.5,,,,,,125,132.5,140,140,,,,,,,140,Finland,B,Raw,,1
 Michael McLaughlin,54,M,M_MR_3_WPC,78.6,82.5,,,,,,,,,,,150,155,-162.5,155,,155,Ireland,D,Raw,,1
 Patrick Bevan,52,M,M_MR_3_WPC,86.55,90,,,,,,130,135,,135,,,,,,,135,France,B,Raw,,3
-David Gibson,53,M,M_MR_3_WPC,86.7,90,,,,,,140,145,152.5,152.5,,,,,,,152.5,UK,B,Raw,,2
-David Gibson,53,M,M_MR_3_WPC,86.7,90,,,,,,140,145,152.5,152.5,,,,,,,152.5,UK,B,Raw,,2
+David Gibson #2,53,M,M_MR_3_WPC,86.7,90,,,,,,140,145,152.5,152.5,,,,,,,152.5,UK,B,Raw,,2
+David Gibson #2,53,M,M_MR_3_WPC,86.7,90,,,,,,140,145,152.5,152.5,,,,,,,152.5,UK,B,Raw,,2
 Tilo Kupper,54,M,M_MR_3_WPC,89.1,90,,,,,,150,157.5,-160,157.5,,,,,,,157.5,Switzerland,B,Raw,,1
 Sean Blackburn,51,M,M_MR_3_WPC,122.5,125,,,,,,182.5,187.5,-195,187.5,,,,,,,187.5,UK,B,Raw,,1
 Eric Bar,50,M,M_MR_3_WPC,121.7,125,,,,,,,,,,,230,240,-245,240,,240,France,D,Raw,,1
@@ -274,13 +274,13 @@ Tom Inglis,30,M,M_OCR_AWPC,94.4,100,230,-245,-245,230,,130,-140,-140,130,,225,24
 Martin McDonagh,34,M,M_OCR_AWPC,99.85,100,225,235,240,240,,145,150,155,155,,230,240,245,245,,640,Ireland,SBD,Wraps,Yes,3
 Pete Tryner,47,M,M_OCR_AWPC,91.3,100,205,-215,220,220,,137.5,142.5,-147.5,142.5,,265,282.5,-292.5,282.5,,645,UK,SBD,Wraps,Yes,2
 Kieran Hegarty,36,M,M_OCR_AWPC,99.2,100,245,265,-282.5,265,,150,160,170,170,,225,245,260,260,,695,Ireland,SBD,Wraps,Yes,1
-Chris Brown,35,M,M_OCR_AWPC,107.4,110,230,-245,245,245,,150,-157.5,-157.5,150,,250,260,272.5,272.5,,667.5,UK,SBD,Wraps,Yes,1
+Chris Brown #2,35,M,M_OCR_AWPC,107.4,110,230,-245,245,245,,150,-157.5,-157.5,150,,250,260,272.5,272.5,,667.5,UK,SBD,Wraps,Yes,1
 Scott Neary,29,M,M_OCR_AWPC,115.65,125,-260,-260,260,260,,160,170,-180,170,,240,260,272.5,272.5,,702.5,UK,SBD,Wraps,Yes,2
 William Newton #1,33,M,M_OCR_AWPC,113.7,125,300,312.5,-320,312.5,,170,-177.5,-177.5,170,,345,-355,-355,345,,827.5,UK,SBD,Wraps,Yes,1
 Kane Francis,26,M,M_OCR_AWPC,132.9,140,250,265,,265,,170,-180,180,180,,260,275,290.5,290.5,,735.5,UK,SBD,Raw,Yes,1
 Vincent Todaro,34,M,M_OCR_WPC,59.15,60,165,-170,-170,165,,90,92.5,-97.5,92.5,,200,207.5,210,210,,467.5,France,SBD,Wraps,,1
 Manuel Celeghin,27,M,M_OCR_WPC,69.25,75,150,-170,170,170,,90,-100,-100,90,,180,-200,-200,180,,440,Italy,SBD,Wraps,,3
-Niall Reddan,26,M,M_OCR_WPC,74,75,210,220,-232.5,220,,137.5,140,142.5,142.5,,210,225,235,235,,597.5,Ireland,SBD,Wraps,,2
+Néill Reddan,26,M,M_OCR_WPC,74,75,210,220,-232.5,220,,137.5,140,142.5,142.5,,210,225,235,235,,597.5,Ireland,SBD,Wraps,,2
 Cyril Diago,26,M,M_OCR_WPC,73.85,75,250,262.5,270,270,,145,152.5,155,155,,245,260,-265.5,260,,685,France,SBD,Wraps,,1
 Donovan Rognon,29,M,M_OCR_WPC,77.35,82.5,200,-220,-220,200,,-110,110,-115,110,,-250,250,,250,,560,France,SBD,Wraps,,2
 Sylvain Bayamati,29,M,M_OCR_WPC,81.55,82.5,-220,220,-240,220,,-140,,152.5,152.5,,240,255,-262.5,255,,627.5,France,SBD,Wraps,,1
@@ -297,12 +297,12 @@ Naël Cetout,29,M,M_OCR_WPC,108,110,-280,280,305,305,,200,207.5,-212.5,207.5,,-3
 Filippo Ingrosso,34,M,M_OCR_WPC,105.7,110,340,360,-370,360,,190,200,202.5,202.5,,315,330,,330,,892.5,Italy,SBD,Wraps,,2
 Daniel Martinez #5,44,M,M_OCR_WPC,109.1,110,360,380,390,390,,170,180,185,185,,300,325,-330,325,,900,Spain,SBD,Wraps,,1
 Hristo Muskov,33,M,M_OCR_WPC,124.4,125,290,310,325,325,,185,200,210,210,,325,345,-360,345,,880,Bulgaria,SBD,Wraps,,2
-Mike Overkamp,32,M,M_OCR_WPC,123.3,125,305,320,335,335,,190,202.5,-210,202.5,,310,340,355,355,,892.5,UK,SBD,Wraps,,1
+Mike Overkamp,32,M,M_OCR_WPC,123.3,125,305,320,335,335,,190,202.5,-210,202.5,,310,340,355,355,,892.5,Netherlands,SBD,Wraps,,1
 Eamonn Harford,28,M,M_OCR_WPC,160,140+,325,337.5,,337.5,,195,-200,,195,,322.5,345,-366,345,,877.5,Ireland,SBD,Wraps,,1
 Paulo Vilas-Boas,31,M,M_OEM_WPC,81.5,82.5,310,330,350,350,,185,192.5,-200,192.5,,275,290,310,310,,852.5,Portugal,SBD,Multi-ply,,1
 Jeffrey O'Neill,28,M,M_OEM_WPC,96.5,100,,,,,,192.5,202.5,215,215,,,,,,,215,Ireland,B,Multi-ply,,1
 Carlos Pérez #1,34,M,M_OEM_WPC,95.3,100,305,320,-340,320,,185,195,200,200,,250,270,-280,270,,790,Ireland,SBD,Multi-ply,,2
-Shane Brodie,46,M,M_OEM_WPC,96.3,100,325,345,,345,,185,200,-205,200,,255,265,270,270,,815,Ireland,SBD,Multi-ply,,1
+Shane Brodie,,M,M_OEM_WPC,96.3,100,325,345,,345,,185,200,-205,200,,255,265,270,270,,815,Ireland,SBD,Multi-ply,,1
 Louis Roustant,24,M,M_OEM_WPC,108.1,110,,,,,,245,255,265,265,,,,,,,265,France,B,Multi-ply,,1
 Kalle Ylitalo-James,36,M,M_OEM_WPC,124.8,125,,,,,,-360,-365,-367.5,,,,,,,,,Finland,B,Multi-ply,,DQ
 Bob Kiely,35,M,M_OEM_WPC,139.95,140,375,-400,-400,375,,250,260,272.5,272.5,,250,-275,275,275,,922.5,Ireland,SBD,Multi-ply,,1
@@ -318,7 +318,7 @@ Richie Power,35,M,M_OES_WPC,82.4,82.5,280,-310,-310,280,,210,-220,-220,210,,225,
 Graeme Quirke,40,M,M_OES_WPC,88.75,90,285,300,307.5,307.5,,205,-208,208,208,,245,-255,-260,245,,760.5,Ireland,SBD,Single-ply,,1
 Gavin Browne,28,M,M_OES_WPC,96.65,100,,,,,,-150,155,165,165,,,,,,,165,Ireland,B,Single-ply,,1
 Gavin Browne,28,M,M_OES_WPC,96.65,100,,,,,,,,,,,200,-230,230,230,,230,Ireland,D,Single-ply,,2
-Phil Watkins,50,M,M_OES_WPC,93.45,100,,,,,,,,,,,300,317.5,,317.5,,317.5,UK,D,Single-ply,,1
+Philip Watkins,50,M,M_OES_WPC,93.45,100,,,,,,,,,,,300,317.5,,317.5,,317.5,UK,D,Single-ply,,1
 Rinaldo Visser,37,M,M_OES_WPC,97.15,100,310,325,-340,325,,220,-230,-230,220,,300,315,-325,315,,860,Ireland,SBD,Single-ply,,1
 Paul Morgan,46,M,M_OES_WPC,106.95,110,,,,,,150,-260,-270,150,,,,,,,150,UK,B,Single-ply,,2
 Gaspare Impeduglia,31,M,M_OES_WPC,102.1,110,,,,,,195,205,210,210,,,,,,,210,Italy,B,Single-ply,,1
@@ -383,7 +383,7 @@ Naël Cetout,29,M,M_OR_WPC,106.95,110,,,,,,,,,,,310,-325,-325,310,,310,France,D,
 Samir Mechat,34,M,M_OR_WPC,106.55,110,,,,,,,,,,,310,330,-335,330,,330,France,D,Raw,,1
 Darren Hammond,47,M,M_OR_WPC,106.75,110,215,230,240,240,,132.5,140,-145,140,,275,305,-317.5,305,,685,UK,SBD,Raw,,3
 Arran Sullivan,28,M,M_OR_WPC,108.9,110,-260,260,280,280,,170,182.5,-190,182.5,,265,282.5,-290,282.5,,745,UK,SBD,Raw,,2
-David O'Sullivan,27,M,M_OR_WPC,109.2,110,265,280,-287.5,280,,175,185,190,190,,315,332.5,-345,332.5,,802.5,UK,SBD,Raw,,1
+David O'Sullivan #1,27,M,M_OR_WPC,109.2,110,265,280,-287.5,280,,175,185,190,190,,315,332.5,-345,332.5,,802.5,UK,SBD,Raw,,1
 Hristo Muskov,33,M,M_OR_WPC,123.35,125,,,,,,,,,,,310,335,-352.5,335,,335,Bulgaria,D,Raw,,1
 Alexander Zaitsev,39,M,M_OR_WPC,116.65,125,300,315,325,325,,200,-210,,200,,300,315,-327.5,315,,840,Russia,SBD,Raw,,2
 Alexander Clarke,29,M,M_OR_WPC,122.35,125,277.5,285,290,290,,205,212.5,220,220,,350,-370,-370,350,,860,UK,SBD,Raw,,1
@@ -391,14 +391,14 @@ Claudio Franceschi,26,M,M_OR_WPC,125.8,140,220,235,-250,235,,160,170,-180,170,,2
 Łukasz Toczylowski,34,M,M_OR_WPC,147.95,140+,,,,,,220,232.5,235,235,,,,,,,235,Italy,B,Raw,,1
 Romualdas Bakutis,17,M,M_TCR_2_AWPC,79.65,82.5,170,180,190,190,,110,120,-125,120,,145,155,166,166,,476,UK,SBD,Wraps,Yes,1
 Arnis Piekus,17,M,M_TCR_2_AWPC,89.7,90,180,-190,190,190,,97.5,102.5,-105,102.5,,195,-202.5,207.5,207.5,-212.5,500,Ireland,SBD,Wraps,Yes,1
-William Darcy,16,M,M_TCR_2_AWPC,95.35,100,160,-180,180,180,,87.5,100,-102.5,100,,165,175,187.5,187.5,-200,467.5,Ireland,SBD,Wraps,Yes,1
+Liam Darcy,16,M,M_TCR_2_AWPC,95.35,100,160,-180,180,180,,87.5,100,-102.5,100,,165,175,187.5,187.5,-200,467.5,Ireland,SBD,Wraps,Yes,1
 George Purchase,17,M,M_TCR_2_AWPC,105.05,110,185,200,210,210,,95,105,,105,,185,200,210,210,,525,UK,SBD,Wraps,Yes,1
 Berk Thundzhay Ahmed,17,M,M_TCR_2_WPC,68.5,75,190,200,210,210,,100,-110,-110,100,,200,-215,,200,,510,Spain,SBD,Wraps,,1
 Sam Nejad,18,M,M_TCR_3_AWPC,81.4,82.5,170,182.5,-190,182.5,,-87.5,87.5,-97.5,87.5,,-180,180,190,190,,460,Ireland,SBD,Wraps,Yes,1
 Jake Spottiswood,18,M,M_TCR_3_AWPC,99.8,100,170,180,187.5,187.5,,125,-132.5,-132.5,125,,195,-205,-205,195,,507.5,UK,SBD,Wraps,Yes,1
 Elliot Schorp,19,M,M_TCR_3_WPC,98.5,100,200,215,-230,215,,135,142.5,147.5,147.5,,255,267.5,282.5,282.5,,645,France,SBD,Wraps,,1
 Jake Coleman,13,M,M_TR_1_AWPC,56,56,,,,,,,,,,,70,80,90,90,,90,Ireland,D,Raw,Yes,1
-Luke Thompson,14,M,M_TR_1_AWPC,69.25,75,,,,,,,,,,,100,110,-125,110,,110,Ireland,D,Raw,Yes,1
+Luke Thompson #4,14,M,M_TR_1_AWPC,69.25,75,,,,,,,,,,,100,110,-125,110,,110,Ireland,D,Raw,Yes,1
 Mikey Newby,15,M,M_TR_1_AWPC,80.6,82.5,135,145,-150,145,,65,70,-75,70,,180,190,-200,190,,405,UK,SBD,Raw,Yes,1
 Aaron Ryan,16,M,M_TR_2_AWPC,89.75,90,,,,,,115,120,127.5,127.5,,,,,,,127.5,Ireland,B,Raw,Yes,1
 Aaron Ryan,16,M,M_TR_2_AWPC,89.75,90,,,,,,,,,,,205,215,220,220,,220,Ireland,D,Raw,Yes,1

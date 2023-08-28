@@ -1,0 +1,28 @@
+Place,Name,CyrillicName,BirthYear,WeightClassKg,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Sex,Division
+1,Anna Barkhatenko,Анна Бархатенко,1994,43,40.8,45,35,80,160,SBD,Single-ply,F,Juniors
+1,Ekaterina Gavrilenko,Екатерина Гавриленко,1996,47,46.6,45,25,70,140,SBD,Single-ply,F,Juniors
+1,Valentina Rodionova,Валентина Родионова,1992,52,49.1,137.5,67.5,130,335,SBD,Single-ply,F,Juniors
+2,Darya Polyarzh,Дарья Полярж,1996,52,51.1,45,27.5,75,147.5,SBD,Single-ply,F,Juniors
+1,Victoria Karlysheva,Виктория Карлышева,1993,57,54.3,180,80,155,415,SBD,Single-ply,F,Juniors
+1,Yuliya Shilina,Юлия Шилина,1989,63,57.7,180,107.5,155,442.5,SBD,Single-ply,F,Juniors
+2,Yana Shulikova,Яна Шуликова,1989,63,60.1,90,50,85,225,SBD,Single-ply,F,Juniors
+1,Elena Kucherenko,Елена Кучеренко,1992,84+,92.1,200,105,185,490,SBD,Single-ply,F,Juniors
+2,Anastasiya Balko,Анастасия Балко,1989,84+,96,170,130,165,465,SBD,Single-ply,F,Juniors
+1,Viktor Golubev,Виктор Голубев,1996,53,51.5,140,70,140,350,SBD,Single-ply,M,Juniors
+1,Ivan Suldin,Иван Сульдин,1993,59,58.9,195,112.5,175,482.5,SBD,Single-ply,M,Juniors
+1,Evgeniy Korinovskiy,Евгений Кориновский,1992,66,66,195,100,202.5,497.5,SBD,Single-ply,M,Juniors
+2,Sergey Pavlov,Сергей Павлов,1994,66,64.1,207.5,95,192.5,495,SBD,Single-ply,M,Juniors
+1,Roman Reutov,Роман Реутов,1990,74,69.7,200,142.5,200,542.5,SBD,Single-ply,M,Juniors
+2,Aleksandr Zaikin,Александр Заикин,1991,74,73.2,190,140,185,515,SBD,Single-ply,M,Juniors
+3,Andrey Mashukov,Андрей Машуков,1992,74,72.6,180,120,205,505,SBD,Single-ply,M,Juniors
+4,Aleksandr Dvornikov,Александр Дворников,1993,74,73,190,112.5,200,502.5,SBD,Single-ply,M,Juniors
+5,Aleksey Denisov,Алексей Денисов,1993,74,70.9,180,95,170,445,SBD,Single-ply,M,Juniors
+6,Aleksandr Pisklyukov,Александр Писклюков,1988,74,70.5,165,115,160,440,SBD,Single-ply,M,Juniors
+1,Artem Stupin,Артем Ступин,1992,83,81.2,225,190,235,650,SBD,Single-ply,M,Juniors
+2,Aleksandr Dombrovskiy,Александр Домбровский,1992,83,79,225,165,225,615,SBD,Single-ply,M,Juniors
+3,Nikolay Balko,Николай Балко,1993,83,79.8,200,120,180,500,SBD,Single-ply,M,Juniors
+1,Vasiliy Noyanov,Василий Ноянов,1989,93,88.4,302.5,197.5,280,780,SBD,Single-ply,M,Juniors
+2,Vladimir Razuvaev,Владимир Разуваев,1990,93,84.5,252.5,160,237.5,650,SBD,Single-ply,M,Juniors
+3,Konstantin Tarasov,Константин Тарасов,1990,93,89.8,240,137.5,230,607.5,SBD,Single-ply,M,Juniors
+4,Artem Kuznetsov,Артем Кузнецов,1995,93,89.7,150,90,175,415,SBD,Single-ply,M,Juniors
+1,Sergey Kuznetsov #1,Сергей Кузнецов,1990,105,101.8,290,195,260,745,SBD,Single-ply,M,Juniors

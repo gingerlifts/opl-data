@@ -22,7 +22,7 @@ Tony Quatrochi,IA,SBD,M,No,Multi-ply,38,90,88.2,M_SEM_APF,-215,-237.5,-237.5,,,,
 Zachary Kroeger,IL,SBD,M,No,Multi-ply,30,100,99.7,M_OEM_APF,-320,-320,-320,,,,,,,,,,,DQ
 David Hogan,IA,SBD,M,No,Multi-ply,22,100,99.1,M_JEM_APF,272.5,-292.5,-292.5,272.5,165,175,-185,175,220,227.5,-237.5,227.5,675,1
 Dick Zenzen,IL,SBD,M,No,Multi-ply,54,100,99.6,M_MEM_3_APF,290,327.5,-345,327.5,165,182.5,192.5,192.5,210,237.5,255,255,775,1
-Mike Roberts,OH,SBD,M,No,Multi-ply,27,110,107.1,M_OEM_APF,365,-392.5,392.5,392.5,302.5,-320,320,320,327.5,-365,-365,327.5,1040,1
+Mike Roberts #2,OH,SBD,M,No,Multi-ply,27,110,107.1,M_OEM_APF,365,-392.5,392.5,392.5,302.5,-320,320,320,327.5,-365,-365,327.5,1040,1
 Gerald Gnerre,MN,SBD,M,No,Multi-ply,51,110,109.1,M_MEM_3_APF,317.5,332.5,342.5,342.5,230,235,240,240,-295,295,310,310,892.5,1
 Chris Chilia,OH,SBD,M,No,Multi-ply,32,125,120.6,M_OEM_APF,372.5,395,-410,395,237.5,-250,265,265,287.5,320,-325,320,980,1
 Robert Simnick,IL,SBD,M,No,Multi-ply,25,140,125.7,M_OEM_APF,327.5,347.5,365,365,227.5,235,-242.5,235,285,-310,-310,285,885,1
@@ -38,7 +38,7 @@ Robert Fredenhagen,WI,B,M,Yes,Multi-ply,16,67.5,62.5,M_TEM_2_AAPF,,,,,87.5,92.5,
 Charles Morse,IL,B,M,Yes,Multi-ply,40,75,67.8,M_MEM_1_AAPF,,,,,130,147.5,-152.5,147.5,,,,,147.5,1
 Mike Strom,WI,B,M,Yes,Multi-ply,26,82.5,82,M_OEM_AAPF,,,,,247.5,-265,-265,247.5,,,,,247.5,1
 Brian Dierzen,WI,B,M,Yes,Multi-ply,36,90,88,M_SEM_AAPF,,,,,-142.5,-150,-150,,,,,,,DQ
-Edward Taber,WI,B,M,Yes,Multi-ply,41,90,88.3,M_MEM_1_AAPF,,,,,-195,-205,205,205,,,,,205,1
+Ed Taber,WI,B,M,Yes,Multi-ply,41,90,88.3,M_MEM_1_AAPF,,,,,-195,-205,205,205,,,,,205,1
 David Bauer,IL,B,M,Yes,Multi-ply,22,100,98.3,M_JEM_AAPF,,,,,165,175,-185,175,,,,,175,1
 David Walker,WI,B,M,Yes,Multi-ply,42,110,103.8,M_OEM_AAPF,,,,,287.5,-302.5,-302.5,287.5,,,,,287.5,2
 Bob McConaughey,IL,B,M,Yes,Multi-ply,46,110,106.8,M_OEM_AAPF,,,,,280,-305,317.5,317.5,,,,,317.5,1

@@ -1,6 +1,6 @@
 ### General info
 
-Country: Belgium (Flemish, see LFPH for Walloon)
+Country: Belgium (Flemish regional, see LFPH for Walloon regional and KBGV for national)
 Full name: Vlaamse Gewichtheffers en Powerlifting Federatie
 Abbreviation: VGPF
 Founded: 1977
@@ -9,7 +9,9 @@ Website: http://www.vgpf.be/ ([results page](http://www.vgpf.be/VGPF/Powerliftin
 Facebook: https://www.facebook.com/VGPF0/
 
 Quick Note: Belgium has two IPF recognized federations: VGPF (Flemish) and LFPH (Walloon).
-National competitions are helt jointly by the VGPF and LFPH, alternatingly hosted by one or the other each year.
+When competing internationally, athletes compete under the national federation KBGV instead.
+National competitions are held jointly by the VGPF and LFPH, alternatingly hosted by one or the other each year.
+These national competitions are listed under the KBGV as a parent federation, though they are technically organized by the regional federations.
 Regional competitions are seperate.
 
 ### Weight classes
@@ -17,7 +19,7 @@ Regional competitions are seperate.
 Same as IPF:
 - Men: up to 53 kg (Sub-Junior/Junior), 59 kg, 66 kg, 74 kg, 83 kg, 93 kg, 105 kg, 120 kg, 120 kg+
 
-- Women: up to 43 kg (Sub-Junior/Junior), 47 kg, 52 kg, 57 kg, 63 kg, 72 kg, 84 kg, 84 kg+
+- Women: up to 43 kg (Sub-Junior/Junior), 47 kg, 52 kg, 57 kg, 63 kg, 69 kg, 76 kg, 84 kg, 84 kg+
 
 ### Age classes
 

@@ -1,7 +1,7 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
-Boys,55.79,1,David Garcia,Pharr Valley View,51.94,145.15,88.45,172.37,405.97,Single-ply,SBD,M
+Boys,55.79,1,David Garcia #5,Pharr Valley View,51.94,145.15,88.45,172.37,405.97,Single-ply,SBD,M
 Boys,51.71,2,Israel Macharro,Pharr Valley View,50.98,151.95,92.99,149.69,394.63,Single-ply,SBD,M
-Boys,51.71,3,Angel Flores,Weslaco East,51.26,145.15,79.38,154.22,378.75,Single-ply,SBD,M
+Boys,51.71,3,Angel Flores #2,Weslaco East,51.26,145.15,79.38,154.22,378.75,Single-ply,SBD,M
 Boys,51.71,4,Victor Pedraza,PSJA Southwest,51.3,147.42,79.38,145.15,371.95,Single-ply,SBD,M
 Boys,51.71,5,Rolando Gonzalez,PSJA Southwest,51.17,136.08,81.65,122.47,340.19,Single-ply,SBD,M
 Boys,51.71,6,Kevin Sierra,PSJA Southwest,51.39,120.2,70.31,136.08,326.59,Single-ply,SBD,M
@@ -18,7 +18,7 @@ Boys,55.79,5,Eder Contreras,Hidalgo Early College,52.53,102.06,74.84,136.08,312.
 Boys,59.87,6,Roman Ibragimon,Brownsville Veterans Memorial,55.88,102.06,79.38,124.74,306.17,Single-ply,SBD,M
 Boys,55.79,7,Omar Garcia,Brownsville Veterans Memorial,54.07,95.25,63.5,106.59,265.35,Single-ply,SBD,M
 Boys,55.79,8,Danny Covarrubias,Brownsville Porter,53.25,45.36,43.09,108.86,197.31,Single-ply,SBD,M
-Boys,55.79,DQ,Jose Ramirez,Hidalgo Early College,53.98,,,,,Single-ply,SBD,M
+Boys,55.79,DQ,Jose Ramirez #17,Hidalgo Early College,53.98,,,,,Single-ply,SBD,M
 Boys,67.13,1,Jesus Garcia #1,Mission,60.06,195.04,99.79,188.24,483.08,Single-ply,SBD,M
 Boys,59.87,2,Joshua Garcia,Weslaco,58.79,181.44,95.25,190.51,467.2,Single-ply,SBD,M
 Boys,59.87,3,Victor Acosta,Pharr Valley View,59.42,176.9,99.79,167.83,444.52,Single-ply,SBD,M
@@ -37,7 +37,7 @@ Boys,67.13,5,Andres Trinidad,Brownsville Pace,64.05,147.42,113.4,165.56,426.38,S
 Boys,67.13,6,Jesse Navarro,PSJA,67.13,154.22,108.86,154.22,417.3,Single-ply,SBD,M
 Boys,67.13,7,Isaac Vela,PSJA,67.13,158.76,102.06,154.22,415.04,Single-ply,SBD,M
 Boys,67.13,8,Alex Garcia #8,Brownsville Lopez,64.77,147.42,95.25,170.1,412.77,Single-ply,SBD,M
-Boys,67.13,9,David Garcia,Brownsville Veterans Memorial,60.69,147.42,92.99,165.56,405.97,Single-ply,SBD,M
+Boys,67.13,9,David Garcia #12,Brownsville Veterans Memorial,60.69,147.42,92.99,165.56,405.97,Single-ply,SBD,M
 Boys,74.84,10,Juan Castillo,Brownsville Lopez,67.22,151.95,99.79,145.15,396.89,Single-ply,SBD,M
 Boys,67.13,11,Luis Marina,Mission Sharyland,64.86,129.27,95.25,163.29,387.82,Single-ply,SBD,M
 Boys,67.13,12,Marco Ruiz,Brownsville Veterans Memorial,61.33,131.54,92.99,151.95,376.48,Single-ply,SBD,M
@@ -56,7 +56,7 @@ Boys,74.84,9,Cipriano Montez,La Joya,71.12,151.95,113.4,140.61,405.97,Single-ply
 Boys,74.84,10,Freddy de la Garza,Brownsville Hanna,74.3,124.74,95.25,149.69,369.68,Single-ply,SBD,M
 Boys,74.84,11,Andrew Leija,PSJA North,73.53,140.61,86.18,138.35,365.14,Single-ply,SBD,M
 Boys,74.84,12,Jorge Rodriguez,La Joya,68.67,120.2,74.84,136.08,331.12,Single-ply,SBD,M
-Boys,74.84,13,Jose Martinez,Brownsville Pace,70.85,102.06,83.91,117.93,303.91,Single-ply,SBD,M
+Boys,74.84,13,Jose Martinez #16,Brownsville Pace,70.85,102.06,83.91,117.93,303.91,Single-ply,SBD,M
 Boys,74.84,DQ,Gilbert Guajardo,Pharr Valley View,73.57,151.95,,,,Single-ply,SBD,M
 Boys,74.84,DQ,Franky Valle,Hidalgo Early College,73.3,192.78,,,,Single-ply,SBD,M
 Boys,82.1,1,Armin Solis,Rio Grande City,81.65,260.82,151.95,208.65,621.42,Single-ply,SBD,M
@@ -74,7 +74,7 @@ Boys,82.1,12,Gabriel Alvarado,Brownsville Pace,79.11,154.22,106.59,197.31,458.13
 Boys,82.1,13,Omar Lozano,PSJA Memorial,76.75,154.22,106.59,176.9,437.72,Single-ply,SBD,M
 Boys,82.1,14,Alex Ritta,Brownsville Porter,78.11,136.08,90.72,195.04,421.84,Single-ply,SBD,M
 Boys,82.1,15,Victor Solis,Mission,77.02,151.95,86.18,156.49,394.63,Single-ply,SBD,M
-Boys,82.1,16,Hector Garcia,La Joya,78.65,140.61,111.13,142.88,394.63,Single-ply,SBD,M
+Boys,82.1,16,Hector Garcia #9,La Joya,78.65,140.61,111.13,142.88,394.63,Single-ply,SBD,M
 Boys,82.1,17,Carlos Contreras,Hidalgo Early College,76.2,136.08,92.99,158.76,387.82,Single-ply,SBD,M
 Boys,82.1,18,Victor Estrada,PSJA,75.39,122.47,79.38,142.88,344.73,Single-ply,SBD,M
 Boys,82.1,DQ,Max Gonzalez,Weslaco,82.01,,,,,Single-ply,SBD,M
@@ -87,11 +87,11 @@ Boys,89.81,5,Alex Melendez,Pharr Valley View,86.36,231.33,136.08,231.33,598.74,S
 Boys,89.81,6,Christian Brown,Pharr Valley View,87.09,229.06,138.35,224.53,591.94,Single-ply,SBD,M
 Boys,89.81,7,Ram Mendoza,Weslaco East,85.37,226.8,129.27,210.92,566.99,Single-ply,SBD,M
 Boys,89.81,8,Jesús Torres,Weslaco,89.72,222.26,122.47,217.72,562.45,Single-ply,SBD,M
-Boys,89.81,9,Luis Gamez,La Joya,88,208.65,145.15,199.58,553.38,Single-ply,SBD,M
+Boys,89.81,9,Luis Gamez #2,La Joya,88,208.65,145.15,199.58,553.38,Single-ply,SBD,M
 Boys,89.81,10,Joseph Marquez,Hidalgo Early College,83.82,204.12,124.74,208.65,537.51,Single-ply,SBD,M
 Boys,89.81,11,Edgar Fernandez,Mission Sharyland,83.19,199.58,115.67,199.58,514.83,Single-ply,SBD,M
 Boys,89.81,12,Alex Hernandez #16,Hidalgo Early College,87.72,195.04,117.93,201.85,514.83,Single-ply,SBD,M
-Boys,89.81,13,Juan Villarreal,Hidalgo Early College,86.36,192.78,127.01,192.78,512.56,Single-ply,SBD,M
+Boys,89.81,13,Juan Villarreal #6,Hidalgo Early College,86.36,192.78,127.01,192.78,512.56,Single-ply,SBD,M
 Boys,89.81,14,Sabas Garcia,Mission,85.37,181.44,122.47,206.38,510.29,Single-ply,SBD,M
 Boys,89.81,15,Andres Lucio,Brownsville Rivera,82.46,183.7,127.01,195.04,505.76,Single-ply,SBD,M
 Boys,89.81,16,Eddie Garza,Rio Grande City,88,165.56,106.59,174.63,446.79,Single-ply,SBD,M
@@ -171,6 +171,6 @@ Boys,124.74+,4,Zeke Garza,La Joya,127.73,204.12,124.74,188.24,517.1,Single-ply,S
 Boys,124.74+,5,Anthony Carillo,Brownsville Lopez,136.08,190.51,136.08,181.44,508.02,Single-ply,SBD,M
 Boys,124.74+,6,Gage Rivas,Brownsville Veterans Memorial,127.37,181.44,138.35,176.9,496.68,Single-ply,SBD,M
 Boys,124.74+,7,Daniel Solis,La Joya,126.19,188.24,106.59,174.63,469.47,Single-ply,SBD,M
-Boys,124.74+,8,Martín Muñoz,La Joya Palmview,136.17,172.37,97.52,190.51,460.4,Single-ply,SBD,M
+Boys,124.74+,8,Martin Munoz #2,La Joya Palmview,136.17,172.37,97.52,190.51,460.4,Single-ply,SBD,M
 Boys,124.74+,9,Anselmo Rodriguez,Mission,146.42,154.22,90.72,158.76,403.7,Single-ply,SBD,M
-Boys,124.74+,DQ,Jorge Garcia,Pharr Valley View,129.09,292.57,,,,Single-ply,SBD,M
+Boys,124.74+,DQ,Jorge Garcia #11,Pharr Valley View,129.09,292.57,,,,Single-ply,SBD,M

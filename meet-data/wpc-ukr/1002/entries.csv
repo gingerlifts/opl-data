@@ -12,7 +12,7 @@ DQ,Aleksandr Kovalenko,T2,1993,55.8,-65,-67.5,,,56,M,Александр Кова
 1,Famil Aliev,T1,1995,64.1,-90,-90,100,100,67.5,M,Фаміль Алієв,B,Multi-ply,100
 2,German Litvinov,T1,1995,65.4,90,-95,95,95,67.5,M,Герман Литвинов,B,Multi-ply,95
 3,Evgen Yurchenko,T1,1994,61.6,60,65,70,70,67.5,M,Євген Юрченко,B,Multi-ply,70
-1,Aleksandr Miroshnichenko #1,T2,1992,67.5,107.5,112.5,-117.5,112.5,67.5,M,Олександр Мирошніченко,B,Multi-ply,112.5
+1,Oleksandr Miroshnichenko #1,T2,1992,67.5,107.5,112.5,-117.5,112.5,67.5,M,Олександр Мирошніченко,B,Multi-ply,112.5
 2,Yevgen Lyaskovskiy,T2,1993,67.5,75,80,87.5,87.5,67.5,M,Євген Лясковський,B,Multi-ply,87.5
 1,Vladimir Rudnichenko,O,1973,73.9,115,125,-132.5,125,75,M,Володимир Рудніченко,B,Multi-ply,125
 1,Aleksandr Dashko,T1,1994,72.3,70,75,77.5,77.5,75,M,Олександр Дашко,B,Multi-ply,77.5
@@ -32,10 +32,10 @@ DQ,Bogdan Gritsenko,O,1990,69.2,-90,,,,75,M,Богдан Гриценко,B,Mult
 2,Sergiy Sipkov,J,1989,79.5,135,140,147.5,147.5,82.5,M,Сергій Сіпков,B,Multi-ply,147.5
 3,Dmytro Gavrykh,J,1989,82.3,130,135,137.5,137.5,82.5,M,Дмитро Гаврих,B,Multi-ply,137.5
 4,Sergey Lasitsin,J,1989,81.9,117.5,122.5,125,125,82.5,M,Сергій Ласіцин,B,Multi-ply,125
-5,Anton Lysenko,J,1986,81,110,-115,115,115,82.5,M,Антон Лысенко,B,Multi-ply,115
+5,Anton Lysenko #3,J,1986,81,110,-115,115,115,82.5,M,Антон Лисенко,B,Multi-ply,115
 6,Valentyn Kucheryavyy,J,1990,81.2,110,115,-117.5,115,82.5,M,Валентин Кучерявий,B,Multi-ply,115
 7,Aleksandr Prikhodko,J,1989,79.1,105,110,-115,110,82.5,M,Александр Приходько,B,Multi-ply,110
-1,Vladimir Kosov,O,1982,80.1,130,135,140,140,82.5,M,Владимир Косов,B,Multi-ply,140
+1,Vladimir Kosov,O,1982,80.1,130,135,140,140,82.5,M,Володимир Косов,B,Multi-ply,140
 2,Vyacheslav Valikov,O,1983,81.2,117.5,-125,-125,117.5,82.5,M,Вячеслав Валиков,B,Multi-ply,117.5
 1,Nikolay Nazarov,T2,1993,84.5,50,67.5,-72.5,67.5,90,M,Николай Назаров,B,Multi-ply,67.5
 1,Bogdan Petrischev,T3,1991,88.7,160,170,-180,170,90,M,Богдан Петрищев,B,Multi-ply,170
@@ -46,7 +46,7 @@ DQ,Bogdan Gritsenko,O,1990,69.2,-90,,,,75,M,Богдан Гриценко,B,Mult
 1,Oleg Khristoforov,O,1975,89.76,175,180,185,185,90,M,Олег Христофоров,B,Multi-ply,185
 2,Oleksiy Slyusar,O,1976,89.4,160,170,-172.5,170,90,M,Олексій Слюсар,B,Multi-ply,170
 3,Maxym Motin,O,1983,85.8,130,140,-150,140,90,M,Максим Мотін,B,Multi-ply,140
-1,Vyacheslav Gorbunov,M1,1967,87.9,140,150,155,155,90,M,Вячеслав Горбунов,B,Multi-ply,155
+1,Vyacheslav Gorbunov #1,M1,1967,87.9,140,150,155,155,90,M,В'ячеслав Горбунов,B,Multi-ply,155
 1,Volodymyr Chygyrynskyy,M2,1962,90,130,-145.5,,130,90,M,Володимир Чигиринський,B,Multi-ply,130
 1,Elman Gadzhiev,M3,1959,87.7,140,150,155,155,90,M,Ельман Гаджієв,B,Multi-ply,155
 1,Kamryan Lumedze,T3,1990,92.5,160,170,175,175,100,M,Камрян Лумедзе,B,Multi-ply,175

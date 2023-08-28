@@ -1,9 +1,8 @@
 Name,BodyweightKg,WeightClassKg,Division,AgeRange,Sex,Best3SquatKg,Squat4Kg,Best3BenchKg,Bench4Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,Event,Equipment,Age,Place
 Dominic Page,,60,Teen,13-19,M,,,77.11,,,,77.11,B,Multi-ply,,1
 Bill Poston,,110,Amateur Masters,40-999,M,,,154.22,,,,154.22,B,Multi-ply,,1
-J. McNeill,,90,Amateur Masters 50-54,50-54,M,,,165.56,,,,165.56,B,Multi-ply,,1
+James McNeill,,90,Amateur Masters 50-54,50-54,M,,,165.56,,,,165.56,B,Multi-ply,,1
 Kelly Purnell,,82.5,Amateur Teen,13-19,F,,,63.5,,,,63.5,B,Multi-ply,,1
-J. McNeill,,67.5,Amateur Masters 50-54,50-54,F,,,165.56,,,,165.56,B,Multi-ply,,1
 Dawn Handy,,67.5,Amateur Masters 50-54,50-54,F,,,58.97,,,,58.97,B,Multi-ply,,2
 Susan Scofield,,67.5,Amateur Submasters,33-39,F,,,88.45,,,,88.45,B,Multi-ply,,1
 Cathy Falconio,,75,Amateur Masters,40-999,F,,,92.99,,,,92.99,B,Multi-ply,,1
@@ -15,7 +14,7 @@ Byron Taylor,,125,Special Olympics,,M,154.22,,106.59,,174.63,,435.45,SBD,Multi-p
 James Cathell,,140+,Special Olympics,,M,68.04,,70.31,,142.88,,281.23,SBD,Multi-ply,,1
 Daniel Barnes,,110,Special Olympics Masters,40-999,M,226.8,,138.35,,,,365.14,SB,Multi-ply,,1
 Glendoria Burris,,60,Amateur Open,,F,120.2,,54.43,,129.27,,303.91,SBD,Multi-ply,,1
-Shannon Pole-Summers,,90,Amateur Teen,13-19,F,163.29,,92.99,,149.69,,405.97,SBD,Multi-ply,13,1
+Shannon Pole-Summers,,90,Amateur Teen,13-19,F,163.29,,92.99,,149.69,,405.97,SBD,Single-ply,13,1
 Glendoria Burris,,60,Amateur Submasters,33-39,F,120.2,,54.43,,129.27,,303.91,SBD,Multi-ply,,1
 Christine Welcheck,,90+,Amateur Submasters,33-39,F,113.4,,54.43,,113.4,,281.23,SBD,Multi-ply,,1
 Lynne Barlow,,48,Pro Open,,F,140.61,,79.38,,133.81,,353.8,SBD,Multi-ply,,1
@@ -26,8 +25,8 @@ Franklin McQuaid,,60,Amateur Open,,M,142.88,,97.52,,181.44,,421.84,SBD,Multi-ply
 Matthew Bastdorf,,67.5,Amateur Open,,M,176.9,,97.52,,167.83,,442.25,SBD,Multi-ply,,1
 Roger Smith,,67.5,Amateur Open,,M,142.88,,122.47,,158.76,,424.11,SBD,Multi-ply,,2
 Steve Shanebrook,,75,Amateur Open,,M,215.46,,131.54,,181.44,,528.44,SBD,Multi-ply,,1
-William Powell,,75,Amateur Open,,M,170.1,,108.86,,188.24,,467.2,SBD,Multi-ply,,2
-Vincent Johnson,,82.5,Amateur Open,,M,276.69,,181.44,,267.62,272.16,725.75,SBD,Multi-ply,,1
+William Powell #2,,75,Amateur Open,,M,170.1,,108.86,,188.24,,467.2,SBD,Multi-ply,,2
+Vince Johnson,,82.5,Amateur Open,,M,276.69,,181.44,,267.62,272.16,725.75,SBD,Multi-ply,,1
 T. Jones,,82.5,Amateur Open,,M,165.56,,131.54,,215.46,,512.56,SBD,Multi-ply,,2
 Steven Koch,,82.5,Amateur Open,,M,179.17,,117.93,,197.31,,494.42,SBD,Multi-ply,,3
 Jim McDowell,,90,Amateur Open,,M,288.03,,172.37,,290.3,,750.7,SBD,Multi-ply,,1
@@ -35,7 +34,7 @@ Dave Bartal,,90,Amateur Open,,M,249.48,,149.69,,265.35,,664.51,SBD,Multi-ply,,2
 Graham Wilkins,,90,Amateur Open,,M,249.48,,151.95,,242.67,,644.1,SBD,Multi-ply,,3
 Walter Welcheck,,90,Amateur Open,,M,204.12,,172.37,,263.08,,639.57,SBD,Multi-ply,,4
 Jason Cox,,100,Amateur Open,,M,331.12,,224.53,,281.23,,836.88,SBD,Multi-ply,,1
-Russ McDonnell,,100,Amateur Open,,M,317.52,,190.51,,274.42,,782.45,SBD,Multi-ply,,3
+Russ McDonnell,,100,Amateur Open,,M,317.52,,190.51,,274.42,,782.45,SBD,Wraps,,3
 Ted Clausen,,100,Amateur Open,,M,283.5,,170.1,,272.16,,725.75,SBD,Multi-ply,,4
 R. Krout,,100,Amateur Open,,M,274.42,,172.37,,249.48,,696.27,SBD,Multi-ply,,5
 Lindsey Pigford,,125,Amateur Open,,M,328.85,,183.71,,288.03,,800.59,SBD,Multi-ply,,2
@@ -81,7 +80,7 @@ Paul Eberhardinger,,110,Amateur Masters 75-79,75-79,M,79.38,,45.36,,99.79,,224.5
 Jay Bechtel,,125,Amateur Masters 40-44,40-44,M,265.35,,165.56,,249.48,,680.39,SBD,Multi-ply,,1
 Billy Morgan,,125,Amateur Masters 45-49,45-49,M,142.88,,154.22,,204.12,,501.22,SBD,Multi-ply,,1
 Richard Cerrrato,,140,Amateur Masters 55-59,55-59,M,290.3,,185.97,,254.01,,730.28,SBD,Multi-ply,,1
-William Powell,,75,Police,,M,170.1,,108.86,,188.24,,467.2,SBD,Multi-ply,,1
+William Powell #2,,75,Police,,M,170.1,,108.86,,188.24,,467.2,SBD,Multi-ply,,1
 AJ Henderson,,100,Police,,M,283.5,,115.67,,274.42,,673.59,SBD,Multi-ply,,1
 Art Penn,,110,Police,,M,276.69,,192.78,,226.8,,696.27,SBD,Multi-ply,,1
 Mark Dimiduk,,125,Police,,M,365.14,,190.51,,292.57,,848.22,SBD,Multi-ply,,1
@@ -91,7 +90,7 @@ Anthony Phillips,,140+,Police,,M,276.69,,149.69,,181.44,,607.81,SBD,Multi-ply,,1
 M. Anunon,,67.5,Pro Open,,M,158.76,,163.29,,217.72,,539.78,SBD,Multi-ply,,1
 James McGlynn,,90,Pro Open,,M,331.12,,235.87,,331.12,,898.11,SBD,Multi-ply,,1
 Tony Kamand,,90,Pro Open,,M,385.55,,192.78,,317.52,,895.85,SBD,Multi-ply,,2
-J. Adams,,90,Pro Open,,M,308.44,,242.67,,276.69,,827.81,SBD,Multi-ply,,3
+Jeff Adams,,90,Pro Open,,M,308.44,,242.67,,276.69,,827.81,SBD,Multi-ply,,3
 Matt Hawkins,97.52,100,Pro Open,,M,349.27,,195.04,,297.1,,841.41,SBD,Multi-ply,,1
 Mike Hill,99.79,100,Pro Open,,M,326.59,,229.06,,285.76,,841.41,SBD,Multi-ply,,2
 J. Black Jr,,100,Pro Open,,M,344.73,,147.42,,256.28,,748.43,SBD,Multi-ply,,3
@@ -104,10 +103,10 @@ Alex Klest,,125,Pro Open,,M,362.87,,238.14,,340.19,,941.21,SBD,Multi-ply,,2
 John Bott,,125,Pro Open,,M,385.55,,229.06,,306.18,,920.79,SBD,Multi-ply,,3
 Bob Youngs,,125,Pro Open,,M,365.14,,238.14,,303.91,,907.19,SBD,Multi-ply,,4
 Mark Dimiduk,,125,Pro Open,,M,365.14,,190.51,,292.57,,848.22,SBD,Multi-ply,,5
-Michael Ruggiero,,140,Pro Open,,M,369.68,,244.94,,353.8,,968.42,SBD,Multi-ply,,1
+Mike Ruggiera,,140,Pro Open,,M,369.68,,244.94,,353.8,,968.42,SBD,Multi-ply,,1
 Allan Mehan,,140,Pro Open,,M,369.68,,222.26,,317.52,,909.45,SBD,Multi-ply,,2
 Don Damron,,140,Pro Open,,M,340.19,,251.74,,283.5,,875.43,SBD,Multi-ply,,3
-Steve Brodsky,,140+,Pro Open,,M,374.21,,219.99,,319.78,,913.99,SBD,Multi-ply,,1
+Steve Brodsky,,140+,Pro Open,,M,374.21,,219.99,,319.78,,913.99,SBD,Wraps,,1
 Anthony Clark #1,,140+,Pro Open,,M,,,-365.14,,,,,B,Multi-ply,,DQ
 Michael Ammon,,67.5,Pro Juniors,20-23,M,158.76,,163.29,,217.72,,539.78,SBD,Multi-ply,,1
 Rob Fusner,,140,Pro Juniors,20-23,M,381.02,,276.69,,322.05,,979.76,SBD,Multi-ply,23,1
@@ -118,7 +117,7 @@ John Varrone,,82.5,Pro Masters 50-54,50-54,M,249.48,,120.2,,258.55,,628.23,SBD,M
 Jeff Adams,,90,Pro Masters 40-44,40-44,M,308.44,,242.67,,276.69,,827.81,SBD,Multi-ply,,1
 Len Mintus,,90,Pro Masters 45-49,45-49,M,260.82,,142.88,,238.14,,641.83,SBD,Multi-ply,,1
 Mac Richards,,90,Pro Masters 75-79,75-79,M,199.58,,147.42,,204.12,,551.12,SBD,Multi-ply,,1
-John Black,,100,Pro Masters 45-49,45-49,M,344.73,,147.42,,256.28,,748.43,SBD,Multi-ply,,1
+John Black #1,,100,Pro Masters 45-49,45-49,M,344.73,,147.42,,256.28,,748.43,SBD,Multi-ply,,1
 Mark Dimiduk,,125,Pro Masters 40-44,40-44,M,365.14,,190.51,,292.57,,848.22,SBD,Multi-ply,,1
-John Florio,,125,Pro Masters 45-49,45-49,M,381.02,,204.12,,299.37,,884.51,SBD,Multi-ply,,1
+John Florio #1,,125,Pro Masters 45-49,45-49,M,381.02,,204.12,,299.37,,884.51,SBD,Multi-ply,,1
 Steve Lindway,,140,Pro Masters 45-49,45-49,M,294.84,,68.04,,235.87,,598.74,SBD,Multi-ply,,1

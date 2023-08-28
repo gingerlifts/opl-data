@@ -17,7 +17,7 @@ Place,Name,CyrillicName,WeightClassKg,Sex,BirthYear,BodyweightKg,Best3SquatKg,Be
 DQ,Anastasiya Yablonskaya,Анастасия Яблонская,67.5,F,,64.6,,,,,SBD,Single-ply,Open
 1,Tatyana Zakharova,Татьяна Захарова,75,F,1982,68.5,200,107.5,170,477.5,SBD,Single-ply,Open
 2,Olga Okhapkina,Ольга Охапкина,75,F,1980,71.55,190,97.5,175,462.5,SBD,Single-ply,Open
-1,Valeria Shcheglova,Валерия Щеглова,90,F,1983,89.4,250,172.5,260,682.5,SBD,Single-ply,Open
+1,Valeriya Kholodova,Валерия Холодова,90,F,1983,89.4,250,172.5,260,682.5,SBD,Single-ply,Open
 1,Marina Dzhavikhishvili,Марина Джавихишвили,90+,F,1988,108.3,185,102.5,180,467.5,SBD,Single-ply,Open
 1,Aleksey Petrokaev,Алексей Петрокаев,52,M,1992,48.8,155,87.5,142.5,385,SBD,Single-ply,Open
 1,Kirill Tyurganov,Кирилл Тюрганов,67.5,M,1986,66.25,245,142.5,255,642.5,SBD,Single-ply,Open
@@ -30,8 +30,8 @@ DQ,Anastasiya Yablonskaya,Анастасия Яблонская,67.5,F,,64.6,,,,
 DQ,Roman Stroy,Роман Строй,75,M,1977,74.75,255,165,,,SBD,Single-ply,Open
 1,Nikolay Savostikov,Николай Савостиков,82.5,M,1979,82.3,315,185,275,775,SBD,Single-ply,Open
 2,Ryabinnikov Oleg,Рябинников Олег,82.5,M,1978,75.65,302.5,172.5,280,755,SBD,Single-ply,Open
-3,Dmitriy Solovev,Дмитрий Соловьёв,82.5,M,1988,82.5,282.5,197.5,257.5,737.5,SBD,Single-ply,Open
-4,Aleksey Nikulin,Алексей Никулин,82.5,M,1982,79.65,300,165,260,725,SBD,Single-ply,Open
+3,Dmitriy Solovyev #4,Дмитрий Соловьев,82.5,M,1988,82.5,282.5,197.5,257.5,737.5,SBD,Single-ply,Open
+4,Aleksey Nikulin #1,Алексей Никулин,82.5,M,1982,79.65,300,165,260,725,SBD,Single-ply,Open
 5,Mikhail Rakov,Михаил Раков,82.5,M,1980,82.35,290,157.5,255,702.5,SBD,Single-ply,Open
 6,Aleksey Dementev,Алексей Дементьев,82.5,M,1977,81.75,265,162.5,240,667.5,SBD,Single-ply,Open
 7,Mikhail Kovalenko,Михаил Коваленко,82.5,M,1976,79.5,220,145,210,575,SBD,Single-ply,Open
@@ -42,7 +42,7 @@ DQ,Evgeniy Muravev,Евгений Муравьев,82.5,M,1978,82.4,,,,,SBD,Sing
 2,Nikolay Solovev,Николай Соловьев,90,M,1981,89.65,315,210,300,825,SBD,Single-ply,Open
 3,Yuriy Sakharov,Юрий Сахаров,90,M,1984,89.65,300,200,280,780,SBD,Single-ply,Open
 4,Evgeniy Yamshchikov,Евгений Ямщиков,90,M,1987,84.2,310,182.5,277.5,770,SBD,Single-ply,Open
-5,Dmitriy Frolov,Дмитрий Фролов,90,M,1982,89.6,280,185,292.5,757.5,SBD,Single-ply,Open
+5,Dmitriy Frolov #1,Дмитрий Фролов,90,M,1982,89.6,280,185,292.5,757.5,SBD,Single-ply,Open
 6,Aleksey Proshin,Алексей Прошин,90,M,1984,88.6,265,160,260,685,SBD,Single-ply,Open
 7,Aleksey Kireev,Алексей Киреев,90,M,1980,89.85,260,160,260,680,SBD,Single-ply,Open
 8,Aleksandr Fedorov,Александр Федоров,90,M,1984,89.4,250,175,250,675,SBD,Single-ply,Open
@@ -78,7 +78,7 @@ DQ,Ivan Poryadin,Иван Порядин,100,M,1982,99.7,,,,,SBD,Single-ply,Open
 4,Dmitriy Seregin,Дмитрий Серегин,110,M,1979,108.7,300,215,265,780,SBD,Single-ply,Open
 5,Aleksandr Zakharov,Александр Захаров,110,M,1985,109.1,295,210,275,780,SBD,Single-ply,Open
 6,Andrey Bantserov,Андрей Банцеров,110,M,1983,103.2,290,190,290,770,SBD,Single-ply,Open
-7,Andrey Pavlov,Андрій Павлов,110,M,1971,109.3,305,205,260,770,SBD,Single-ply,Open
+7,Andrey Pavlov #1,Андрей Павлов,110,M,1971,109.3,305,205,260,770,SBD,Single-ply,Open
 8,Konstantin Egrov,Константин Егров,110,M,1979,104.65,297.5,200,270,767.5,SBD,Single-ply,Open
 9,Aleksandr Yurchenko,Александр Юрченко,110,M,1986,105.9,300,200,265,765,SBD,Single-ply,Open
 1,Igor Ariskin,Игорь Арискин,125,M,1980,116.45,320,235,320,875,SBD,Single-ply,Open

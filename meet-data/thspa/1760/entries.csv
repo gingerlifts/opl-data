@@ -1,5 +1,5 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
-Boys,55.79,1,David Garcia,Pharr Valley View,51.8,163.29,92.99,188.24,444.52,Single-ply,SBD,M
+Boys,55.79,1,David Garcia #5,Pharr Valley View,51.8,163.29,92.99,188.24,444.52,Single-ply,SBD,M
 Boys,51.71,2,Tuti Garcia,Los Fresnos,51.26,151.95,90.72,174.63,417.3,Single-ply,SBD,M
 Boys,51.71,3,Dylan Rodriguez,Edcouch-Elsa,51.71,129.27,88.45,165.56,383.29,Single-ply,SBD,M
 Boys,51.71,4,Julian Ortega,Rio Hondo,50.58,129.27,83.91,149.69,362.87,Single-ply,SBD,M
@@ -42,7 +42,7 @@ Boys,67.13,18,Javier Guzman,Rio Hondo,62.82,104.33,79.38,92.99,276.69,Single-ply
 Boys,67.13,DQ,JJ Camacho,Brownsville Pace,61.01,108.86,74.84,,,Single-ply,SBD,M
 Boys,74.84,1,Miguel Mariscal,Edcouch-Elsa,74.39,240.4,142.88,226.8,610.08,Single-ply,SBD,M
 Boys,74.84,2,Bucky Barrera,Edcouch-Elsa,74.84,229.06,142.88,217.72,589.67,Single-ply,SBD,M
-Boys,74.84,3,Diego Garcia,Edcouch-Elsa,74.84,238.14,131.54,217.72,587.4,Single-ply,SBD,M
+Boys,74.84,3,Diego Garcia #9,Edcouch-Elsa,74.84,238.14,131.54,217.72,587.4,Single-ply,SBD,M
 Boys,74.84,4,Jesse Leyva,Raymondville,73.94,222.26,131.54,226.8,580.6,Single-ply,SBD,M
 Boys,74.84,5,James Bain,Corpus Christi Tuloso-Midway,74.39,210.92,120.2,235.87,566.99,Single-ply,SBD,M
 Boys,74.84,6,Miguel Salazar,Corpus Christi Tuloso-Midway,74.16,217.72,140.61,192.78,551.11,Single-ply,SBD,M
@@ -58,7 +58,7 @@ Boys,74.84,15,Juan Zamora,Brownsville Porter,73.48,147.42,88.45,183.7,419.57,Sin
 Boys,74.84,16,Dylan Thomas,Raymondville,67.59,124.74,61.23,156.49,342.46,Single-ply,SBD,M
 Boys,74.84,DQ,Lucas Olivares,Brownsville Hanna,69.17,122.47,83.91,,,Single-ply,SBD,M
 Boys,74.84,DQ,Ivan Rodriguez,Pharr Valley View,74.3,172.37,122.47,,,Single-ply,SBD,M
-Boys,74.84,DQ,Joe Castillo,Santa Rosa,72.12,,,,,Single-ply,SBD,M
+Boys,74.84,DQ,Joe Castillo #5,Santa Rosa,72.12,,,,,Single-ply,SBD,M
 Boys,82.1,1,Ben Navarez,Edcouch-Elsa,82.1,276.69,176.9,278.96,732.55,Single-ply,SBD,M
 Boys,82.1,2,Javi Cruz,Los Fresnos,79.83,229.06,120.2,272.16,621.42,Single-ply,SBD,M
 Boys,82.1,3,Angel Casas,Corpus Christi Tuloso-Midway,81.65,204.12,127.01,183.7,514.83,Single-ply,SBD,M
@@ -125,8 +125,8 @@ Boys,99.79,18,Jonathan Ojeda,Brownsville Pace,93.89,97.52,70.31,136.08,303.91,Si
 Boys,99.79,19,Jaime Vera,Rio Grande City,96.16,90.72,74.84,138.35,303.91,Single-ply,SBD,M
 Boys,99.79,DQ,Vince Narvaez,Corpus Christi Tuloso-Midway,97.07,151.95,106.59,,,Single-ply,SBD,M
 Boys,99.79,DQ,Robert Payan,Brownsville Porter,98.43,199.58,,,,Single-ply,SBD,M
-Boys,99.79,DQ,Matthew Dixon,Corpus Christi Tuloso-Midway,92.53,226.8,,,,Single-ply,SBD,M
-Boys,99.79,DQ,Joseph Rodriguez,Corpus Christi Tuloso-Midway,97.07,156.49,106.59,,,Single-ply,SBD,M
+Boys,99.79,DQ,Matthew Dixon #2,Corpus Christi Tuloso-Midway,92.53,226.8,,,,Single-ply,SBD,M
+Boys,99.79,DQ,Joseph Rodriguez #10,Corpus Christi Tuloso-Midway,97.07,156.49,106.59,,,Single-ply,SBD,M
 Boys,99.79,DQ,Kevin Perez,Corpus Christi Tuloso-Midway,92.53,120.2,,,,Single-ply,SBD,M
 Boys,99.79,DQ,Jordan Hinojosa,Corpus Christi Tuloso-Midway,97.07,,,,,Single-ply,SBD,M
 Boys,99.79,DQ,Armando Mireles,Donna,94.12,,,,,Single-ply,SBD,M
@@ -161,16 +161,16 @@ Boys,124.74,7,Jose Gomez,Mercedes,110.9,226.8,131.54,192.78,551.11,Single-ply,SB
 Boys,124.74,8,Ramiro San Miguel,Weslaco East,124.65,208.65,136.08,204.12,548.85,Single-ply,SBD,M
 Boys,124.74,9,Cristo de la Cruz,Brownsville Pace,122.02,219.99,106.59,201.85,528.44,Single-ply,SBD,M
 Boys,124.74,10,Jaylon Grimaldo,Raymondville,110.45,215.46,111.13,195.04,521.63,Single-ply,SBD,M
-Boys,124.74,11,Jacob Rodriguez,Corpus Christi Tuloso-Midway,115.67,215.46,124.74,174.63,514.83,Single-ply,SBD,M
+Boys,124.74,11,Jacob Rodriguez #4,Corpus Christi Tuloso-Midway,115.67,215.46,124.74,174.63,514.83,Single-ply,SBD,M
 Boys,124.74,12,Josh Castillo,Brownsville Pace,111.36,206.38,124.74,174.63,505.76,Single-ply,SBD,M
 Boys,124.74,13,Kevin Garcia,Brownsville Porter,122.92,188.24,106.59,188.24,483.08,Single-ply,SBD,M
-Boys,124.74,14,Christian Lopez,PSJA North,114.53,192.78,124.74,161.03,478.54,Single-ply,SBD,M
+Boys,124.74,14,Christian Lopez #4,PSJA North,114.53,192.78,124.74,161.03,478.54,Single-ply,SBD,M
 Boys,124.74,15,Luis Costilla,Donna North,112.94,188.24,117.93,151.95,458.13,Single-ply,SBD,M
 Boys,124.74,DQ,Rudy Zarate,Hidalgo Early College,117.48,219.99,154.22,,,Single-ply,SBD,M
 Boys,124.74+,1,Jose Limon,Los Fresnos,152.18,319.78,151.95,274.42,746.16,Single-ply,SBD,M
 Boys,124.74+,2,Manuel Mata,PSJA North,125.19,217.72,149.69,197.31,564.72,Single-ply,SBD,M
 Boys,124.74+,3,Mando Ruvio,Rio Hondo,127.23,224.53,120.2,183.7,528.44,Single-ply,SBD,M
-Boys,124.74+,4,Jose Molina,Donna North,131.54,190.51,122.47,204.12,517.1,Single-ply,SBD,M
+Boys,124.74+,4,Jose Molina #1,Donna North,131.54,190.51,122.47,204.12,517.1,Single-ply,SBD,M
 Boys,124.74+,5,Victor Rodriguez,Brownsville Pace,126.55,174.63,88.45,165.56,428.64,Single-ply,SBD,M
 Boys,124.74+,6,Milton Botti,Brownsville Porter,134.72,167.83,68.04,167.83,403.7,Single-ply,SBD,M
 Boys,124.74+,7,Jaime Morin,Rio Grande City,131.31,151.95,99.79,145.15,396.89,Single-ply,SBD,M

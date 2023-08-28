@@ -51,7 +51,7 @@ def get_header_linenum(sheet):
 
 
 def is_header(line):
-    if '№' in ''.join(line).lower() or 'место' in ''.join(line).lower():
+    if any(x in ''.join(line).lower() for x in ['№', 'место', 'мес-']):
         return True
     return False
 
@@ -91,48 +91,55 @@ def parse_fieldnames(sheet):
                 fieldnames.append('IGNORE')
             elif 'место' in text or 'мес то' in text or text == 'зан м':
                 fieldnames.append('Place')
-            elif 'фамилия имя' in text:
+            elif any(x in text for x in ['фамилия имя', 'участник']):
                 fieldnames.append('CyrillicName')
-            elif any(x in text for x in ['год родж', 'год рожд', 'грожд', 'год рож']):
+            elif any(x in text for x in ['год родж', 'год рожд', 'грожд', 'год рож',
+                                         'гр', 'г/р', 'год', 'дата рожд']):
                 fieldnames.append('BirthYear')
             elif any(x in text for x in ['разряд', 'вып разр', 'звание',
-                                         'раз ряд', 'дата рожд', 'рд зв']):  # Rank
+                                         'раз ряд', 'рд зв',
+                                         'разр']):  # Rank
                 fieldnames.append('IGNORE')
             elif 'регион' in text:  # Region
                 fieldnames.append('IGNORE')
             elif any(x in text for x in ['город', 'субьект рф',
-                                         'область', 'субъект рф']):  # City/Region
+                                         'область', 'субъект рф', 'мо',
+                                         'субьект']):  # City/Region
                 fieldnames.append('IGNORE')
             elif 'вес' in text:
                 fieldnames.append('BodyweightKg')
             elif 'ком очки' in text:
                 fieldnames.append('IGNORE')
             # Wilks/IPF Points
-            elif any(x in text for x in ['очки ipf', 'вилкс', 'абс кооф',
-                                         'очки абс', 'виллк', 'коэф виллс']):
+            elif text in ['очки ipf', 'вилкс', 'абс кооф', 'коэф',
+                          'очки абс', 'виллк',
+                          'коэф виллс', 'очки по вилксу', 'wilks', 'оч к', 'очки ipfgl',
+                          'очки ipf gl']:
                 fieldnames.append('IGNORE')
             elif 'тренер' in text:  # Coach
                 fieldnames.append('IGNORE')
             # Individual points
-            elif text in ['очки', 'оч'] or any(x in text for x in ['оч кт',
-                                                                   'жре бий', 'оч ки',
-                                                                   'вып рд',
-                                                                   'очки ком']):
+            elif text in ['очки', 'оч', 'баллы'] or any(x in text for x in ['оч кт',
+                                                                            'жре бий',
+                                                                            'оч ки',
+                                                                            'вып рд',
+                                                                            'очки ком']):
                 fieldnames.append('IGNORE')
             elif text == 'дсо':  # Something to do with referees?
                 fieldnames.append('IGNORE')
-            elif text == 'возраст кат':
+            elif text in ['возраст кат', 'категория', 'воз кат']:
                 fieldnames.append('Division')
             elif any(x in text for x in ['вуз', 'команда (во / род войск)',
-                                         'спортивная школа', 'команда']):
+                                         'спортивная школа', 'команда', 'дсо кфк',
+                                         'клуб']):
                 fieldnames.append('Team')
             elif text == 'мст':
                 fieldnames.append('IGNORE')
 
-            elif text in ['жим 1', '1']:
-                assert header[i + 3].lower() in ['жим 2', '2']
-                assert header[i + 6].lower() in ['жим 3', '3']
-                assert header[i + 9].lower() in ['рез-т жим', 'рез-т']
+            elif text in ['жим 1', '1'] and header[i + 3].lower() in ['жим 2', '2']:
+                # assert header[i + 3].lower() in ['жим 2', '2']
+                # assert header[i + 6].lower() in ['жим 3', '3']
+                # assert header[i + 9].lower() in ['рез-т жим', 'рез-т']
                 fieldnames.append('Bench1Kg')
                 fieldnames.append('IGNORE')
                 fieldnames.append('IGNORE')
@@ -145,20 +152,71 @@ def parse_fieldnames(sheet):
                 fieldnames.append('Best3BenchKg')
                 [next(iterable) for x in range(9)]
 
-            elif text == 'прис' or any(x in text for x in ['рез-т присед', 'резт присед',
-                                                           'результат присед',
-                                                           'прис резт', 'присед итог',
-                                                           'присед']):
-                fieldnames.append('Best3SquatKg')
-            elif text == 'жим' or any(x in text for x in ['рез-т жим', 'резт жим',
-                                                          'жим резт', 'жим итог']):
+            # FPIO
+            elif text in ['жим лежа 1', 'жим 1'] and header[i + 1].lower() in ['2']:
+                assert header[i + 1].lower() in ['2']
+                assert header[i + 2].lower() in ['3']
+                assert header[i + 3].lower() in ['жим итог', 'итог']
+                fieldnames.append('Bench1Kg')
+                fieldnames.append('Bench2Kg')
+                fieldnames.append('Bench3Kg')
                 fieldnames.append('Best3BenchKg')
-            elif text == 'тяга' or any(x in text for x in ['рез-т тяга', 'резт тяга',
-                                                           'тяга резт', 'тяга итог']):
+                [next(iterable) for x in range(3)]
+            # Rostov
+            elif text in ['приседание'] and header[i + 1] == '':
+                assert header[i + 2] == ''
+                fieldnames.append('Squat1Kg')
+                fieldnames.append('Squat2Kg')
+                fieldnames.append('Squat3Kg')
+                [next(iterable) for x in range(2)]
+            elif text in ['жим лёжа'] and header[i + 1] == '':
+                assert header[i + 2] == ''
+                fieldnames.append('Bench1Kg')
+                fieldnames.append('Bench2Kg')
+                fieldnames.append('Bench3Kg')
+                [next(iterable) for x in range(2)]
+            elif text in ['становая тяга'] and header[i + 1] == '':
+                assert header[i + 2] == ''
+                fieldnames.append('Deadlift1Kg')
+                fieldnames.append('Deadlift2Kg')
+                fieldnames.append('Deadlift3Kg')
+                [next(iterable) for x in range(2)]
+            elif text in ['тяга 1'] and header[i + 3].lower() in ['тяга 2']:
+                # assert header[i + 3].lower() in ['тяга 2', '2']
+                # assert header[i + 6].lower() in ['тяга 3', '3']
+                # assert header[i + 9].lower() in ['рез-т тяга', 'рез-т']
+                fieldnames.append('Deadlift1Kg')
+                fieldnames.append('IGNORE')
+                fieldnames.append('IGNORE')
+                fieldnames.append('Deadlift2Kg')
+                fieldnames.append('IGNORE')
+                fieldnames.append('IGNORE')
+                fieldnames.append('Deadlift3Kg')
+                fieldnames.append('IGNORE')
+                fieldnames.append('IGNORE')
+                fieldnames.append('Best3DeadliftKg')
+                [next(iterable) for x in range(9)]
+            elif text in ['прис', 'пр'] or \
+                    any(x in text for x in ['рез-т присед', 'резт присед',
+                                            'результат присед', 'прис резт',
+                                            'присед итог', 'присед', 'прис результат',
+                                            'результат прис', 'при сед']):
+                fieldnames.append('Best3SquatKg')
+            elif text in ['жим', 'ж/л'] or \
+                    any(x in text for x in ['рез-т жим', 'резт жим', 'жим резт',
+                                            'жим итог']):
+                fieldnames.append('Best3BenchKg')
+            elif text in ['тяга', 'стт'] or \
+                    any(x in text for x in ['рез-т тяга', 'резт тяга',
+                                            'тяга резт', 'тяга итог', 'бал итог']):
                 fieldnames.append('Best3DeadliftKg')
 
             elif 'сумма троеб' in text or text == 'сумма':
                 fieldnames.append('TotalKg')
+            elif text == 'нмомер':  # Lot
+                fieldnames.append('IGNORE')
+            elif text in ['абс', 'абссумма']:  # Absolute Place
+                fieldnames.append('IGNORE')
 
             # FPR fills their spreadsheets with lots of merged blank columns
             elif text == '':
@@ -265,7 +323,10 @@ def parse_sheet(sheet):
         if 'Deadlift1Kg' in csv.fieldnames or 'Best3DeadliftKg' in csv.fieldnames:
             event += 'D'
 
-    for line in sheet[get_header_linenum(sheet) + 2:]:
+    iterable = iter(range(get_header_linenum(sheet)+2, len(sheet)))
+
+    for ii in iterable:
+        line = sheet[ii]
         text = ''.join(line)
 
         # Skip empty lines.
@@ -287,11 +348,24 @@ def parse_sheet(sheet):
             sex = 'F'
             continue
 
+        if 'Sheet' in text:
+            continue
+
         if 'Результаты' in text:
             continue
         elif 'судейская' in text:
             continue
-        elif 'Место' in text:  # Another header
+        elif 'Место' in text or 'Фамилия. Имя' in text:  # Another header
+            continue
+        elif 'Абсолютное' in text:  # Skip until we find another header
+            while iterable is not None and not is_header(line):
+                try:
+                    ii = next(iterable)
+                    line = sheet[ii]
+                except StopIteration:
+                    # if StopIteration is raised, break from loop
+                    break
+
             continue
 
         # Skip lines without a number, I think that these are always not lifter

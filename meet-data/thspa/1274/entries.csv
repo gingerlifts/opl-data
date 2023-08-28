@@ -1,5 +1,5 @@
 Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Equipment,Event,Sex
-Boys,51.71,1,Joey Salinas,Jacksboro,50.62,165.56,79.38,158.76,403.7,Single-ply,SBD,M
+Boys,51.71,1,Joey Salinas #1,Jacksboro,50.62,165.56,79.38,158.76,403.7,Single-ply,SBD,M
 Boys,51.71,2,Tinnin Smith,Jacksboro,51.17,108.86,58.97,102.06,269.89,Single-ply,SBD,M
 Boys,55.79,3,Jacob Jackson,Vernon,51.8,99.79,52.16,106.59,258.55,Single-ply,SBD,M
 Boys,51.71,4,Landon Lama,Iowa Park,46.36,68.04,36.29,68.04,172.37,Single-ply,SBD,M
@@ -25,7 +25,7 @@ Boys,67.13,5,Austin Winter,Iowa Park,61.05,172.37,104.33,136.08,412.77,Single-pl
 Boys,67.13,6,Reagan Brewer,Iowa Park,64.77,165.56,81.65,161.03,408.23,Single-ply,SBD,M
 Boys,67.13,7,Lucas Sosebee,Iowa Park,65.77,149.69,97.52,158.76,405.97,Single-ply,SBD,M
 Boys,67.13,8,Tyral Colbert,Wichita Falls Hirschi,65.05,145.15,92.99,147.42,385.55,Single-ply,SBD,M
-Boys,67.13,9,Chase Thompson,Jacksboro,66.32,140.61,79.38,156.49,376.48,Single-ply,SBD,M
+Boys,67.13,9,Chase Thompson #2,Jacksboro,66.32,140.61,79.38,156.49,376.48,Single-ply,SBD,M
 Boys,67.13,10,Tanner Welch,Petrolia,61.87,124.74,70.31,140.61,335.66,Single-ply,SBD,M
 Boys,67.13,11,Ethan Raber,Wichita Falls City View,63.68,106.59,52.16,129.27,288.03,Single-ply,SBD,M
 Boys,67.13,DQ,Adrian Sias,Wichita Falls Hirschi,65.41,117.93,,,,Single-ply,SBD,M
@@ -37,7 +37,7 @@ Boys,74.84,4,Colton Baley,Wichita Falls Rider,74.48,219.99,120.2,206.38,546.58,S
 Boys,74.84,5,Seth Rogers,Jacksboro,72.76,183.7,117.93,197.31,498.95,Single-ply,SBD,M
 Boys,74.84,6,Will Morath,Petrolia,70.85,181.44,108.86,188.24,478.54,Single-ply,SBD,M
 Boys,74.84,7,Domanic Thrasher,Wichita Falls Rider,69.67,176.9,108.86,181.44,467.2,Single-ply,SBD,M
-Boys,74.84,8,Phillip Brewer,Iowa Park,72.94,185.97,108.86,172.37,467.2,Single-ply,SBD,M
+Boys,74.84,8,Phillip Brewer #2,Iowa Park,72.94,185.97,108.86,172.37,467.2,Single-ply,SBD,M
 Boys,74.84,9,Willie Haymon,Vernon,69.76,170.1,97.52,185.97,453.59,Single-ply,SBD,M
 Boys,74.84,10,Colton Hastings,Electra,73.94,172.37,108.86,172.37,453.59,Single-ply,SBD,M
 Boys,74.84,11,Jesse Herd,Jacksboro,68.67,174.63,113.4,147.42,435.45,Single-ply,SBD,M
@@ -53,7 +53,7 @@ Boys,74.84,DQ,Eli Hatfield,Electra,69.85,142.88,,,,Single-ply,SBD,M
 Boys,82.1,1,OShae Nolan,Wichita Falls City View,81.83,242.67,133.81,242.67,619.15,Single-ply,SBD,M
 Boys,82.1,2,Ramon Salazar,Jacksboro,80.74,238.14,129.27,201.85,569.26,Single-ply,SBD,M
 Boys,82.1,3,Chris Rogers,Burkburnett,80.74,197.31,104.33,199.58,501.22,Single-ply,SBD,M
-Boys,82.1,4,Brandon Williams,Wichita Falls Rider,79.02,195.04,104.33,195.04,494.42,Single-ply,SBD,M
+Boys,82.1,4,Brandon Williams #6,Wichita Falls Rider,79.02,195.04,104.33,195.04,494.42,Single-ply,SBD,M
 Boys,82.1,5,Orlando Haymon,Vernon,79.74,172.37,102.06,206.38,480.81,Single-ply,SBD,M
 Boys,82.1,6,Jared Lott,Wichita Falls Rider,77.11,190.51,117.93,170.1,478.54,Single-ply,SBD,M
 Boys,82.1,7,Blaze Lynn,Electra,77.56,172.37,108.86,188.24,469.47,Single-ply,SBD,M
@@ -77,7 +77,7 @@ Boys,99.79,7,Jack Cummings,Burkburnett,98.79,188.24,122.47,197.31,508.02,Single-
 Boys,99.79,8,Jeramy Garcia,Burkburnett,99.79,192.78,127.01,188.24,508.02,Single-ply,SBD,M
 Boys,99.79,9,Justin Silva,Wichita Falls City View,92.71,174.63,97.52,190.51,462.66,Single-ply,SBD,M
 Boys,99.79,10,Cody Messer,Nocona,92.08,188.24,90.72,174.63,453.59,Single-ply,SBD,M
-Boys,99.79,11,Zach Baker,Petrolia,93.89,181.44,88.45,181.44,451.32,Single-ply,SBD,M
+Boys,99.79,11,Zach Baker #3,Petrolia,93.89,181.44,88.45,181.44,451.32,Single-ply,SBD,M
 Boys,99.79,12,Morgan Glasen,Wichita Falls City View,99.52,142.88,74.84,145.15,362.87,Single-ply,SBD,M
 Boys,109.77,1,Joseph Costa,Henrietta,103.24,251.74,156.49,204.12,612.35,Single-ply,SBD,M
 Boys,109.77,2,David Whited,Wichita Falls City View,107.77,251.74,133.81,204.12,589.67,Single-ply,SBD,M

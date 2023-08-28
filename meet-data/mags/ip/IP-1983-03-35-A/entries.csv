@@ -1,5 +1,5 @@
 WeightClassKg,Name,Team,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,BodyweightKg,Event,Equipment,Division,Sex
-52,John McGrath,Forum,127.5,82.5,150,360,1,51.7,SBD,Single-ply,M-E-Open,M
+52,John McGrath #1,Forum,127.5,82.5,150,360,1,51.7,SBD,Single-ply,M-E-Open,M
 52,Carl Wilkes,Fisher & Ludlow,110,65,117.5,292.5,2,51.5,SBD,Single-ply,M-E-Open,M
 56,Terry Kennedy,Fisher & Ludlow,115,67.5,167.5,350,1,56,SBD,Single-ply,M-E-Open,M
 67.5,Clive Jones,Kings Hth.,200,110,225,535,1,67.5,SBD,Single-ply,M-E-Guest,M
@@ -7,8 +7,8 @@ WeightClassKg,Name,Team,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,
 67.5,Len Bickley,Friary,177.5,132.5,205,515,3,67,SBD,Single-ply,M-E-Open,M
 67.5,Bill Dunn #3,Forum,160,112.5,225,497.5,4,67.3,SBD,Single-ply,M-E-Open,M
 67.5,Mark Hewitt,Forum,160,105,192.5,457.5,5,67.3,SBD,Single-ply,M-E-Open,M
-67.5,Paul Smith,Fisher & Ludlow,,,,,DQ,65.8,SBD,Single-ply,M-E-Open,M
-75,John Mitchell,Royal Sut.,235,132.5,250,617.5,1,73.8,SBD,Single-ply,M-E-Open,M
+67.5,Paul Smith #12,Fisher & Ludlow,,,,,DQ,65.8,SBD,Single-ply,M-E-Open,M
+75,John Mitchell #7,Royal Sut.,235,132.5,250,617.5,1,73.8,SBD,Single-ply,M-E-Open,M
 75,Uvin Forrester,B.A.I.,205,130,260,595,2,73.8,SBD,Single-ply,M-E-Open,M
 75,Ivan Tweed,B.A.I.,170,107.5,225,502.5,3,72.4,SBD,Single-ply,M-E-Guest,M
 75,Bob Carless,Warstock,170,107.5,215,492.5,4,75,SBD,Single-ply,M-E-Guest,M
@@ -31,6 +31,6 @@ WeightClassKg,Name,Team,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Place,
 100,Craig Dagnan,Friary,205,140,272.5,617.5,1,98.4,SBD,Single-ply,M-E-Open,M
 100,Bill Wadrup,Mason Rd.,220,120,240,580,2,94.55,SBD,Single-ply,M-E-Open,M
 100,Paul Wilkes,Fisher & Ludlow,205,110,227.5,542.5,3,97.1,SBD,Single-ply,M-E-Open,M
-110,Gary Smith,Fisher & Ludlow,170,85,217.5,472.5,1,109.35,SBD,Single-ply,M-E-Open,M
+110,Gary Smith #7,Fisher & Ludlow,170,85,217.5,472.5,1,109.35,SBD,Single-ply,M-E-Open,M
 125,Mark Higgins,B.A.I.,225,145,270,640,1,122.65,SBD,Single-ply,M-E-Open,M
 125+,Maurice Tiffin,Fisher & Ludlow,265,142.5,265,672.5,1,139.75,SBD,Single-ply,M-E-Open,M

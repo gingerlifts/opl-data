@@ -11,8 +11,8 @@ Place,Name,BirthDate,BodyweightKg,WeightClassKg,Division,Deadlift1Kg,Deadlift2Kg
 3,Ka Ho Lee,1990-01-01,67.92,74,Open,160,175,195,195,195,D,Raw,M
 4,Wing-Fai Hung,1980-08-07,70.21,74,Open,160,180,185,185,185,D,Raw,M
 5,Cheung Yiu Cheung,1993-04-11,73.16,74,Open,-130,145,155,155,155,D,Raw,M
-1,Chi-Leung Kam,1989-03-18,80.38,83,Open,250,260,265,265,265,D,Raw,M
-2,Chun Wing Lee,1992-10-27,81.05,83,Open,225,240,-247.5,240,240,D,Raw,M
+1,Chi-Leung Kam,1989-03-18,80.38,83,Open,250,260,265,265,265,D,Single-ply,M
+2,Lee Chun Wing,1992-10-27,81.05,83,Open,225,240,-247.5,240,240,D,Raw,M
 3,Marcus Wan,1987-11-01,78.3,83,Open,200,-220,230,230,230,D,Raw,M
 4,Arron Rhodes,1985-08-01,82.8,83,Open,210,220,227.5,227.5,227.5,D,Raw,M
 5,Ka Wang Lo,1989-12-26,79.7,83,Open,220,225,-230,225,225,D,Raw,M
@@ -45,7 +45,7 @@ G,Nicholas Matthew Chan,1999-12-13,74.56,83,Sub-Juniors,110,130,145,145,145,D,Ra
 2,Ka Chun Man,1995-07-31,73.4,74,Juniors,197.5,215,-222.5,215,215,D,Raw,M
 3,Chon In Daryl Yue,1996-08-21,68.53,74,Juniors,190,202.5,207.5,207.5,207.5,D,Raw,M
 4,Michael Rene Gambot Lacson,1995-07-18,71,74,Juniors,170,180,-197.5,180,180,D,Raw,M
-G,Orcino Marco Jerrico,1994-10-11,69.1,74,Juniors,220,230,-240,230,230,D,Raw,M
+G,Marco Castro Orcino Jerrico,1994-10-11,69.1,74,Juniors,220,230,-240,230,230,D,Raw,M
 1,Chi Lun Wong,1994-03-19,91.95,93,Juniors,165,175,185,185,185,D,Raw,M
 1,Yiu Fai Lin,1976-04-07,58.52,59,Masters 1,140,147.5,-155,147.5,147.5,D,Raw,M
 2,Chung Wing Lai,1974-11-24,58.25,59,Masters 1,-90,100,107.5,107.5,107.5,D,Raw,M

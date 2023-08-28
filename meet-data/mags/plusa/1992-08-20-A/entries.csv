@@ -85,15 +85,15 @@ Victor Horne,82.5,Masters 40-49,M,175,107.5,185,467.5,SBD,Single-ply,2
 R. Hammond,82.5,Masters 40-49,M,180,115,172.5,467.5,SBD,Single-ply,3
 J. Covington,90,Masters 40-49,M,192.5,115,227.5,535,SBD,Single-ply,1
 Charles Beane,100,Masters 40-49,M,235,115,212.5,562.5,SBD,Single-ply,1
-A. Ritch,125+,Masters 40-49,M,260,170,230,660,SBD,Single-ply,1
+Andy Ritch,125+,Masters 40-49,M,260,170,230,660,SBD,Single-ply,1
 B. Thomas,125+,Masters 40-49,M,255,175,160,590,SBD,Single-ply,2
 J. Allen,,Masters 40-50,M,127.5,87.5,160,375,SBD,Single-ply,1
 F. Arant,82.5,Masters 40-51,M,127.5,92.5,192.5,412.5,SBD,Single-ply,1
 Tommy Coble,100,Masters 40-52,M,220,137.5,237.5,595,SBD,Single-ply,1
 Russ Murphy,100,Masters 40-53,M,185,137.5,192.5,515,SBD,Single-ply,1
 L. Lyczkowski,125,Masters 40-54,M,260,140,235,635,SBD,Single-ply,1
-L. Gagliano,125,Masters 40-55,M,185,162.5,200,547.5,SBD,Single-ply,1
-B. Zak,52,Class II & Below,M,130,95,165,390,SBD,Single-ply,1
+Lou Gagliano,125,Masters 40-55,M,185,162.5,200,547.5,SBD,Single-ply,1
+Ben Zak,52,Class II & Below,M,130,95,165,390,SBD,Single-ply,1
 A. Gatewood,52,Class II & Below,M,137.5,62.5,155,355,SBD,Single-ply,2
 W. Allen,52,Class II & Below,M,120,70,157.5,347.5,SBD,Single-ply,3
 C. Nettles,56,Class II & Below,M,140,97.5,162.5,400,SBD,Single-ply,1
@@ -129,17 +129,17 @@ P. Young #4,110,Class II & Below,M,200,155,215,570,SBD,Single-ply,3
 B. Womble,110,Class II & Below,M,215,127.5,215,557.5,SBD,Single-ply,4
 K. Ferrerro,110,Class II & Below,M,205,122.5,227.5,555,SBD,Single-ply,5
 H. Brown,125,Class II & Below,M,267.5,167.5,270,705,SBD,Single-ply,1
-J. Thompson #9,125,Class II & Below,M,250,205,250,705,SBD,Single-ply,2
+James Thompson #2,125,Class II & Below,M,250,205,250,705,SBD,Single-ply,2
 D. Falbaum,125,Class II & Below,M,265,177.5,245,687.5,SBD,Single-ply,3
 B. Welch,125,Class II & Below,M,215,170,227.5,612.5,SBD,Single-ply,4
 T. Burr,125,Class II & Below,M,215,150,182.5,547.5,SBD,Single-ply,5
 C. Whittington,125,Class II & Below,M,185,147.5,205,537.5,SBD,Single-ply,6
-B. Hayes,125+,Class II & Below,M,307.5,190,257.5,755,SBD,Single-ply,1
+Bruce Hayes,125+,Class II & Below,M,307.5,190,257.5,755,SBD,Single-ply,1
 Ken Chriscoe,125+,Class II & Below,M,290,147.5,260,697.5,SBD,Single-ply,2
 C. Pearce,125+,Class II & Below,M,260,155,235,650,SBD,Single-ply,3
 J. Ashworth,125+,Class II & Below,M,237.5,140,255,632.5,SBD,Single-ply,4
 A. Thompson,125+,Class II & Below,M,237.5,165,220,622.5,SBD,Single-ply,5
-B. Zak,52,Open,M,130,95,165,390,SBD,Single-ply,1
+Ben Zak,52,Open,M,130,95,165,390,SBD,Single-ply,1
 C. Nettles,56,Open,M,140,97.5,162.5,400,SBD,Single-ply,1
 J. Chrisco,56,Open,M,160,97.5,137.5,395,SBD,Single-ply,2
 Chul-Yun Kim,60,Open,M,162.5,117.5,185,465,SBD,Single-ply,1
@@ -152,10 +152,10 @@ M. Jenkins,75,Open,M,245,147.5,235,627.5,SBD,Single-ply,3
 P. Dees,75,Open,M,202.5,125,220,547.5,SBD,Single-ply,4
 D. Hyatt,75,Open,M,185,145,205,535,SBD,Single-ply,5
 Lee Rorie,82.5,Open,M,257.5,212.5,240,710,SBD,Single-ply,1
-D. Cooke,82.5,Open,M,255,167.5,237.5,660,SBD,Single-ply,2
+Dennis Cooke,82.5,Open,M,255,167.5,237.5,660,SBD,Single-ply,2
 B. White,82.5,Open,M,240,142.5,255,637.5,SBD,Single-ply,3
 Kevin Webber,90,Open,M,267.5,192.5,272.5,732.5,SBD,Single-ply,1
-T. King,90,Open,M,282.5,200,250,732.5,SBD,Single-ply,2
+Tim King,90,Open,M,282.5,200,250,732.5,SBD,Single-ply,2
 Tom Higgins,90,Open,M,305,150,257.5,712.5,SBD,Single-ply,3
 T. Booth,90,Open,M,267.5,160,272.5,700,SBD,Single-ply,4
 T. Gurley,90,Open,M,277.5,155,257.5,690,SBD,Single-ply,5
@@ -169,7 +169,7 @@ T. Spainhgur,100,Open,M,255,145,270,670,SBD,Single-ply,4
 Joe Raynor,110,Open,M,335,222.5,302.5,860,SBD,Single-ply,1
 K. Thompson,110,Open,M,322.5,205,272.5,800,SBD,Single-ply,2
 J. Dills,110,Open,M,245,150,212.5,607.5,SBD,Single-ply,3
-J. Thompson #9,125,Open,M,250,205,250,705,SBD,Single-ply,1
+James Thompson #2,125,Open,M,250,205,250,705,SBD,Single-ply,1
 M. Teal,125,Open,M,297.5,170,235,702.5,SBD,Single-ply,2
 D. Falbaum,125,Open,M,265,177.5,245,687.5,SBD,Single-ply,3
 D. Troxler,125+,Open,M,312.5,217.5,320,850,SBD,Single-ply,1
@@ -185,7 +185,7 @@ D. Hyatt,75,Open,M,,145,,145,B,Single-ply,3
 L. Carson,75,Open,M,,142.5,,142.5,B,Single-ply,4
 L. Rosie,82.5,Open,M,,212.5,,212.5,B,Single-ply,1
 C. Wilkins,82.5,Open,M,,130,,130,B,Single-ply,2
-T. King,90,Open,M,,200,,200,B,Single-ply,1
+Tim King,90,Open,M,,200,,200,B,Single-ply,1
 T. Gurley,90,Open,M,,155,,155,B,Single-ply,2
 J. Imlow,90,Open,M,,145,,145,B,Single-ply,3
 S. Cox,90,Open,M,,125,,125,B,Single-ply,4
@@ -203,6 +203,6 @@ J. McIntire,90,Masters,M,,102.5,,102.5,B,Single-ply,2
 K. Gurley,110,Masters,M,,167.5,,167.5,B,Single-ply,1
 E. Wright,110,Masters,M,,147.5,,147.5,B,Single-ply,2
 C. Orr,125,Masters,M,,205,,205,B,Single-ply,1
-L. Gagliano,125,Masters,M,,162.5,,162.5,B,Single-ply,2
+Lou Gagliano,125,Masters,M,,162.5,,162.5,B,Single-ply,2
 L. Lyczkowski,125,Masters,M,,140,,140,B,Single-ply,3
 B. Thomas,125+,Masters,M,,175,,175,B,Single-ply,1

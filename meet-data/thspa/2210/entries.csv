@@ -31,7 +31,7 @@ Boys,67.13,11,Agustion E,Santa Rosa,67.13,104.33,63.5,106.59,274.42,Single-ply,S
 Boys,74.84,1,Erin Estevanes,Weslaco,74.84,215.46,133.81,247.21,596.47,Single-ply,SBD,M
 Boys,74.84,2,Chris Jackson #13,Weslaco,74.84,215.46,117.93,219.99,553.38,Single-ply,SBD,M
 Boys,74.84,3,Edward Alvarez,San Benito,74.84,197.31,108.86,201.85,508.02,Single-ply,SBD,M
-Boys,74.84,4,Jacob Hernandez,PSJA Memorial,74.84,183.7,124.74,188.24,496.68,Single-ply,SBD,M
+Boys,74.84,4,Jacob Hernandez #11,PSJA Memorial,74.84,183.7,124.74,188.24,496.68,Single-ply,SBD,M
 Boys,74.84,5,Joe H Rodriguez,PSJA Southwest,70.76,192.78,117.93,181.44,492.15,Single-ply,SBD,M
 Boys,74.84,6,Frank Marin,Weslaco,74.84,183.7,117.93,176.9,478.54,Single-ply,SBD,M
 Boys,74.84,7,Romeo Lopez,Sharyland Pioneer,74.84,170.1,113.4,190.51,474,Single-ply,SBD,M
@@ -52,7 +52,7 @@ Boys,82.1,2,Robert Garza,Donna,82.1,238.14,136.08,213.19,587.4,Single-ply,SBD,M
 Boys,82.1,3,Trey Caballero,Weslaco,82.1,206.38,127.01,222.26,555.65,Single-ply,SBD,M
 Boys,82.1,4,Javi Sanchez,Weslaco,82.1,174.63,117.93,217.72,510.29,Single-ply,SBD,M
 Boys,82.1,5,Senon Moya,Sharyland Pioneer,82.1,204.12,122.47,176.9,503.49,Single-ply,SBD,M
-Boys,82.1,6,Carlos Martinez,Sharyland Pioneer,82.1,185.97,111.13,192.78,489.88,Single-ply,SBD,M
+Boys,82.1,6,Carlos Martinez #18,Sharyland Pioneer,82.1,185.97,111.13,192.78,489.88,Single-ply,SBD,M
 Boys,82.1,7,Sal Mendez,PSJA Southwest,82.1,151.95,138.35,192.78,483.08,Single-ply,SBD,M
 Boys,82.1,8,Lazaro Rodriguez,PSJA Memorial,82.1,190.51,99.79,190.51,480.81,Single-ply,SBD,M
 Boys,82.1,9,Jorge Gutierrez,PSJA Memorial,82.1,183.7,120.2,165.56,469.47,Single-ply,SBD,M
@@ -71,7 +71,7 @@ Boys,89.81,8,Victor Garza,PSJA Southwest,89.81,215.46,131.54,181.44,528.44,Singl
 Boys,89.81,9,Jordan Nichols,Weslaco,89.81,195.04,131.54,190.51,517.1,Single-ply,SBD,M
 Boys,89.81,10,Michael Gonzalez,Weslaco,89.81,197.31,108.86,192.78,498.95,Single-ply,SBD,M
 Boys,89.81,11,Steven Martinez,Weslaco,89.81,174.63,106.59,210.92,492.15,Single-ply,SBD,M
-Boys,89.81,12,Carlos Martinez,PSJA,89.81,181.44,115.67,181.44,478.54,Single-ply,SBD,M
+Boys,89.81,12,Carlos Martinez #15,PSJA,89.81,181.44,115.67,181.44,478.54,Single-ply,SBD,M
 Boys,89.81,13,Jonathan Garcia #7,PSJA Memorial,89.81,167.83,120.2,183.7,471.74,Single-ply,SBD,M
 Boys,89.81,14,Caleb Longoria,Rio Grande City,89.81,124.74,83.91,138.35,347,Single-ply,SBD,M
 Boys,99.79,1,Heriberto Hernandez,Weslaco,99.79,247.21,131.54,233.6,612.35,Single-ply,SBD,M
@@ -83,7 +83,7 @@ Boys,99.79,6,Juan Resendez,La Joya,99.79,176.9,127.01,179.17,483.08,Single-ply,S
 Boys,99.79,7,Oscar Pena,Mission Veterans Memorial,99.79,167.83,102.06,208.65,478.54,Single-ply,SBD,M
 Boys,99.79,8,Mike Perez,Mission Veterans Memorial,99.79,183.7,104.33,183.7,471.74,Single-ply,SBD,M
 Boys,99.79,9,Victor G,Santa Rosa,99.79,176.9,86.18,158.76,421.84,Single-ply,SBD,M
-Boys,99.79,10,José Fernández,La Joya,99.79,176.9,88.45,147.42,412.77,Single-ply,SBD,M
+Boys,99.79,10,Jose Fernandez #6,La Joya,99.79,176.9,88.45,147.42,412.77,Single-ply,SBD,M
 Boys,99.79,DQ,Carlos Bocannegra,Port Isabel,99.79,181.44,,,,Single-ply,SBD,M
 Boys,99.79,DQ,Juan Apango,Port Isabel,99.79,183.7,,,,Single-ply,SBD,M
 Boys,109.77,1,Andres Enriquez,PSJA,109.77,267.62,163.29,195.04,625.96,Single-ply,SBD,M
@@ -101,7 +101,7 @@ Boys,124.74,5,Rudy De La Torre,Weslaco,124.74,238.14,117.93,192.78,548.85,Single
 Boys,124.74,6,Angel Valdez,PSJA Southwest,124.74,208.65,136.08,197.31,542.04,Single-ply,SBD,M
 Boys,124.74,7,Juan Mireles,Port Isabel,124.74,206.38,120.2,183.7,510.29,Single-ply,SBD,M
 Boys,124.74,DQ,Ricky Leyva,La Joya,124.74,,,,,Single-ply,SBD,M
-Boys,124.74+,1,Brandon Perez,Weslaco,127.01,233.6,131.54,199.58,564.72,Single-ply,SBD,M
+Boys,124.74+,1,Brandon Perez #2,Weslaco,127.01,233.6,131.54,199.58,564.72,Single-ply,SBD,M
 Boys,124.74+,2,Pedro Sandoval,Weslaco,127.46,183.7,133.81,183.7,501.22,Single-ply,SBD,M
 Boys,124.74+,3,Robert Perez,Weslaco,127.01,185.97,129.27,183.7,498.95,Single-ply,SBD,M
 Boys,124.74+,4,Frank Hernandez,Port Isabel,127.01,183.7,124.74,149.69,458.13,Single-ply,SBD,M

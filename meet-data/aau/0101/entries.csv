@@ -11,13 +11,13 @@ B,F,Sharon Pipes,90,RM 60-64,Raw,63,47.5,,,,47.5,1
 B,F,Valerie Crowell,90+,RM 40-44,Raw,43,85,,,,85,1
 D,F,Betty Lee,52,Open,Single-ply,38,,,152.5,,152.5,1
 D,F,Nancy Edelson,90+,RM 40-44,Raw,40,,,,,,DQ
-BD,F,Kendra Miller,30,RY 8-9,Raw,9,32.5,33.5,75,,107.5,1
+BD,F,Kendra Miller #1,30,RY 8-9,Raw,9,32.5,33.5,75,,107.5,1
 BD,F,Kaitlin Miller,44,Open,Single-ply,11,40,,102.5,,142.5,1
 BD,F,Sara Yu,56,Open,Single-ply,32,,,,,,DQ
 BD,F,Josie Merrell,60,M 75-79,Single-ply,79,22.5,,55,,77.5,1
 BD,F,Betty Kasoma,60,R JR,Raw,20,,,,,,DQ
 BD,F,Jeri Haynes,60,RT 16-17,Raw,16,45,,102.5,,147.5,1
-BD,F,Amanda Smith,60,RT 12-13,Raw,12,35,,92.5,,127.5,1
+BD,F,Amanda Smith #3,60,RT 12-13,Raw,12,35,,92.5,,127.5,1
 BD,F,Maureen Namubiru,67.5,RT 18-19,Raw,19,,,,,,DQ
 BD,F,Gretchen Ashton,75,Life,Single-ply,42,90,,130,,220,1
 BD,F,Gretchen Ashton,75,LM 40-44,Single-ply,42,90,,130,,220,1
@@ -71,7 +71,7 @@ B,M,Todd Campo,90,RM 45-49,Raw,48,155,,,,155,1
 B,M,Gerry Ramsay,90,RM 45-49,Raw,46,,,,,,DQ
 B,M,Todd Cathers,100,Life,Single-ply,33,162.5,,,,162.5,1
 B,M,Ricardo Echeverria,100,M 45-49,Single-ply,,192.5,,,,192.5,1
-B,M,Gerald Homer,100,M 60-64,Single-ply,62,167.5,,,,167.5,1
+B,M,Jerry Homer Sr,100,M 60-64,Single-ply,62,167.5,,,,167.5,1
 B,M,Arnold Narenberg,100,M 60-64,Single-ply,60,,,,,,DQ
 B,M,Matt Saunders,100,Open,Single-ply,,,,,,,DQ
 B,M,Lee Short,100,R Law/Mil,Raw,40,122.5,,,,122.5,1
@@ -79,7 +79,7 @@ B,M,JG Allen,100,R Life,Raw,47,,,,,,DQ
 B,M,Joseph George,100,RLM 50-54,Raw,53,105,,,,105,1
 B,M,John Gilmour,100,RLM 75-79,Raw,79,95,,,,95,1
 B,M,JG Allen,100,RM 45-49,Raw,47,,,,,,DQ
-B,M,Malvin Stewart,100,RM 60-64,Raw,60,160,,,,160,1
+B,M,Melvin Stewart,100,RM 60-64,Raw,60,160,,,,160,1
 B,M,Mo Rau,100,RM 60-64,Raw,63,110,,,,110,2
 B,M,Gerald Fontaine,100,RM 65-69,Raw,69,120,,,,120,1
 B,M,Al Pio,100,RM 70-74,Raw,71,170,,,,170,1
@@ -103,7 +103,7 @@ B,M,Neil Ferone,125,RLM 40-44,Raw,43,177.5,,,,177.5,1
 B,M,Neil Ferone,125,RM 40-44,Raw,43,177.5,,,,177.5,1
 B,M,Jeff Fahrenbruch,125,RM 45-49,Raw,48,182.5,,,,182.5,1
 B,M,William Kanyr,125,RM 60-64,Raw,63,142.5,,,,142.5,1
-B,M,John McIntyre,145,M 65-69,Raw,66,175,,,,175,1
+B,M,John McIntyre #2,145,M 65-69,Raw,66,175,,,,175,1
 B,M,Mario Arrendondo,145,R Law/Mil,Raw,25,190,,,,190,1
 B,M,Mario Arrendondo,145,R Open,Raw,25,190,,,,190,1
 B,M,Mike Earl,145,RLM 40-44,Raw,42,162.5,,,,162.5,1
@@ -130,7 +130,7 @@ D,M,Mike Stainbrook,82.5,RM 65-69,Raw,65,,,120,,120,1
 D,M,Ramon Figueroa #1,82.5,RT 16-17,Raw,16,,,,,,DQ
 D,M,Timothy Kinney,82.5,Sub,Single-ply,38,,,,,,DQ
 D,M,Bob Crouch,90,M 55-59,Single-ply,59,,,185,,185,1
-D,M,John Mendoza,90,Open,Single-ply,32,,,227.5,,227.5,1
+D,M,John Mendoza #6,90,Open,Single-ply,32,,,227.5,,227.5,1
 D,M,Tanner Teal,90,R JR,Raw,20,,,220,,220,1
 D,M,Rex Monohan,90,RLM 75-79,Raw,77,,,142.5,,142.5,1
 D,M,Tom Smith #3,90,RM 55-59,Raw,55,,,245,,245,1
@@ -165,7 +165,7 @@ BD,M,Brett Berteaux,67.5,RT 14-15,Raw,,70,,150,,220,1
 BD,M,Bill Weinstock,75,LM 55-59,Single-ply,55,87.5,,207.5,,295,1
 BD,M,Roger Merrell,75,M 80-84,Single-ply,82,35,,80,,115,1
 BD,M,Mugerwa Sadiki,75,R JR,Raw,23,,,,,,DQ
-BD,M,Miguel Pérez,75,RHS 16-17,Raw,17,100,,140,,240,1
+BD,M,Miguel Perez #2,75,RHS 16-17,Raw,17,100,,140,,240,1
 BD,M,Jim Naftel,75,RLM 55-59,Raw,59,70,,95,,165,1
 BD,M,Jim Naftel,75,RM 55-59,Raw,59,70,,95,,165,1
 BD,M,Jake Randleigh,75,RT 14-15,Raw,,107.5,108,145,,252.5,1
@@ -182,7 +182,7 @@ BD,M,JJ Talton,82.5,T 18-19,Single-ply,18,185,187.5,280,,465,1
 BD,M,Chris Meier,90,Life,Single-ply,,192.5,,280,,472.5,1
 BD,M,Bill Styles,90,M 40-44,Single-ply,41,120,,192.5,,312.5,1
 BD,M,Rocky Gingg,90,M 45-49,Single-ply,47,,,,,,DQ
-BD,M,Tom Jackson,90,M 45-49,Single-ply,46,,,,,,DQ
+BD,M,Tom Jackson #4,90,M 45-49,Single-ply,46,,,,,,DQ
 BD,M,Charley Jones,90,M 50-54,Single-ply,52,120,,185,,305,1
 BD,M,Bill Styles,90,Law/Mil,Single-ply,41,120,,192.5,,312.5,1
 BD,M,Brent Malicote,90,R Novice,Raw,30,110,,182.5,,292.5,1

@@ -30,7 +30,7 @@ WeightClassKg,Name,School,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,
 67.5,Denika Adams,Baylor,110,60,142.5,312.5,F,SBD,Single-ply,7,F-O
 67.5,Paige Bordelon,La. Tech,107.5,55,142.5,305,F,SBD,Single-ply,8,F-O
 67.5,Jennifer Newman,Lsu,115,65,120,300,F,SBD,Single-ply,9,F-O
-67.5,L. Beth Schaefer,Evansville,110,65,120,295,F,SBD,Single-ply,10,F-O
+67.5,Laura Beth Schaefer,Evansville,110,65,120,295,F,SBD,Single-ply,10,F-O
 67.5,Aubrey Dunivan,Ball St.,117.5,57.5,117.5,292.5,F,SBD,Single-ply,11,F-O
 67.5,Bridget Roseboom,La. Tech,105,50,132.5,287.5,F,SBD,Single-ply,12,F-O
 67.5,Tunde Szivak,Usma,105,70,110,285,F,SBD,Single-ply,13,F-O
@@ -66,7 +66,7 @@ WeightClassKg,Name,School,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,
 56,Britt Vallot,Nsu,122.5,72.5,167.5,362.5,M,SBD,Single-ply,2,M-O
 60,Trey Cunningham,La. Tech,207.5,127.5,230,565,M,SBD,Single-ply,1,M-O
 60,Jared Sainato,Usma,180,107.5,175,462.5,M,SBD,Single-ply,2,M-O
-60,James Morris,Usna,165,112.5,182.5,460,M,SBD,Single-ply,3,M-O
+60,James Morris #3,Usna,165,112.5,182.5,460,M,SBD,Single-ply,3,M-O
 60,Jeff Speakman,Usna,160,112.5,185,457.5,M,SBD,Single-ply,4,M-O
 60,Derek Toro,Sw Tex.,167.5,97.5,187.5,452.5,M,SBD,Single-ply,5,M-O
 60,Clint Edwards,La. Tech,157.5,110,177.5,445,M,SBD,Single-ply,6,M-O
@@ -120,7 +120,7 @@ WeightClassKg,Name,School,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,
 82.5,Bryce Wergland,Usna,190,150,222.5,562.5,M,SBD,Single-ply,11,M-O
 82.5,Jacob Allen,La. Tech,215,112.5,227.5,555,M,SBD,Single-ply,12,M-O
 82.5,James Simmons #2,Usafa,210,130,210,550,M,SBD,Single-ply,13,M-O
-82.5,James Baldwin,La. Tech,182.5,110,235,527.5,M,SBD,Single-ply,14,M-O
+82.5,James Baldwin #1,La. Tech,182.5,110,235,527.5,M,SBD,Single-ply,14,M-O
 82.5,Brad Luminais,Lsu,187.5,120,220,527.5,M,SBD,Single-ply,15,M-O
 82.5,Jeremy Welu,Ball St.,175,117.5,230,522.5,M,SBD,Single-ply,16,M-O
 82.5,Joseph Heyman,Usma,,,,,M,SBD,Single-ply,DQ,M-O
@@ -148,7 +148,7 @@ WeightClassKg,Name,School,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,
 100,Trevor Baumgartner,Usna,260,160,250,670,M,SBD,Single-ply,6,M-O
 100,Stefan Arnold,Lsu,242.5,137.5,275,655,M,SBD,Single-ply,7,M-O
 100,Adam Smoot,Usma,227.5,165,245,637.5,M,SBD,Single-ply,8,M-O
-100,Robert Graham,North Tex.,235,175,220,630,M,SBD,Single-ply,9,M-O
+100,Robert Graham #2,North Tex.,235,175,220,630,M,SBD,Single-ply,9,M-O
 100,Justin Binder,Usafa,227.5,127.5,272.5,627.5,M,SBD,Single-ply,10,M-O
 100,Joel Procell,Beloit,232.5,135,252.5,620,M,SBD,Single-ply,11,M-O
 100,Nicholas Sawruk,Usafa,217.5,157.5,227.5,602.5,M,SBD,Single-ply,12,M-O

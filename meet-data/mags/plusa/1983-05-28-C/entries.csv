@@ -1,7 +1,7 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 Joe Cunha,52,Open,M,237.5,137.5,180,555,SBD,Single-ply,1
 Gary Hunnicutt,52,Open,M,170,112.5,172.5,455,SBD,Single-ply,2
-Kathy Tuite,52,Open,F,125,57.5,142.5,325,SBD,Single-ply,3
+Kathy Tuite-Leistner,52,Open,F,125,57.5,142.5,325,SBD,Single-ply,3
 Mateo Mariano,56,Open,M,190,95,192.5,477.5,SBD,Single-ply,1
 Mark Shijo,56,Open,M,150,75,185,410,SBD,Single-ply,2
 Rich Ceraolo,56,Open,M,127.5,90,172.5,390,SBD,Single-ply,3
@@ -23,41 +23,41 @@ Rich Tsutsui,75,Open,M,230,180,210,620,SBD,Single-ply,3
 Fred Deisenroth,75,Open,M,227.5,155,222.5,605,SBD,Single-ply,4
 Stan Brunson,75,Open,M,227.5,137.5,215,580,SBD,Single-ply,5
 P. Magallanez,75,Open,M,197.5,115,247.5,560,SBD,Single-ply,6
-M. Cites,75,Open,M,200,145,192.5,537.5,SBD,Single-ply,7
+Mark Cites,75,Open,M,200,145,192.5,537.5,SBD,Single-ply,7
 R. Cirimele,75,Open,M,187.5,122.5,222.5,532.5,SBD,Single-ply,8
-B. Yamada,75,Open,M,185,137.5,207.5,530,SBD,Single-ply,9
+Bernie Yamada,75,Open,M,185,137.5,207.5,530,SBD,Single-ply,9
 Donna Delleree,75,Open,F,120,65,162.5,347.5,SBD,Single-ply,10
 R. Ciriglinao,75,Open,M,60,60,,,SBD,Single-ply,DQ
 M. Clason,82.5,Open,M,277.5,157.5,272.5,707.5,SBD,Single-ply,1
 Dave Nunes,82.5,Open,M,260,182.5,250,692.5,SBD,Single-ply,2
 Robert Taketa,82.5,Open,M,282.5,160,245,687.5,SBD,Single-ply,3
 Larry Cascio,82.5,Open,M,272.5,147.5,245,665,SBD,Single-ply,4
-J. Sullivan,82.5,Open,M,227.5,167.5,227.5,622.5,SBD,Single-ply,5
+Jim Sullivan,82.5,Open,M,227.5,167.5,227.5,622.5,SBD,Single-ply,5
 T. Cirigliano,82.5,Open,M,242.5,132.5,240,615,SBD,Single-ply,6
-C. Bryant,82.5,Open,M,225,157.5,227.5,610,SBD,Single-ply,7
+C. Bryant #7,82.5,Open,M,225,157.5,227.5,610,SBD,Single-ply,7
 Dan McLaughlin,82.5,Open,M,242.5,115,,,SBD,Single-ply,DQ
 K. LeClere,90,Open,M,297.5,175,305,777.5,SBD,Single-ply,1
 Rick Silva,90,Open,M,272.5,210,272.5,755,SBD,Single-ply,2
-J. Evangelista,90,Open,M,267.5,172.5,277.5,717.5,SBD,Single-ply,3
-R. Gillett,90,Open,M,282.5,177.5,250,710,SBD,Single-ply,4
+Jeff Evangelista,90,Open,M,267.5,172.5,277.5,717.5,SBD,Single-ply,3
+Randy Gillett,90,Open,M,282.5,177.5,250,710,SBD,Single-ply,4
 D. Server,90,Open,M,257.5,187.5,242.5,687.5,SBD,Single-ply,5
 K. Wallis,90,Open,M,250,182.5,252.5,685,SBD,Single-ply,6
 Mark Petkovich,90,Open,M,257.5,155,250,662.5,SBD,Single-ply,7
-D. Siroskey,90,Open,M,237.5,160,250,647.5,SBD,Single-ply,8
+Dan Siroskey,90,Open,M,237.5,160,250,647.5,SBD,Single-ply,8
 D. Hudson,90,Open,M,205,155,205,565,SBD,Single-ply,9
 Wayne Prodger,90,Open,M,175,130,210,515,SBD,Single-ply,10
 Dave Packer,90,Open,M,275,175,,,SBD,Single-ply,DQ
 Rich Caporaso,100,Open,M,255,205,310,770,SBD,Single-ply,1
 M. Evans,100,Open,M,295,177.5,295,767.5,SBD,Single-ply,2
-John Anderson,100,Open,M,282.5,190,277.5,750,SBD,Single-ply,3
+John Anderson #6,100,Open,M,282.5,190,277.5,750,SBD,Single-ply,3
 R. Marinello,100,Open,M,290,172.5,277.5,740,SBD,Single-ply,4
 David Clark,100,Open,M,270,170,272.5,712.5,SBD,Single-ply,5
 A. Enlow,100,Open,M,255,185,255,695,SBD,Single-ply,6
-S. Johnson #9,100,Open,M,227.5,215,242.5,685,SBD,Single-ply,7
+Steve Johnson #7,100,Open,M,227.5,215,242.5,685,SBD,Single-ply,7
 Steve Vogt,100,Open,M,215,190,260,665,SBD,Single-ply,8
 S. Segale,100,Open,M,200,162.5,240,602.5,SBD,Single-ply,9
 J. Hall,100,Open,M,192.5,125,195,512.5,SBD,Single-ply,10
-G. Fortin,110,Open,M,320,192.5,325,837.5,SBD,Single-ply,1
+Glenn Fortin,110,Open,M,320,192.5,325,837.5,SBD,Single-ply,1
 D. Smith,110,Open,M,342.5,192.5,287.5,822.5,SBD,Single-ply,2
 Randy Gaines,110,Open,M,320,192.5,272.5,785,SBD,Single-ply,3
 Doug Pettit,110,Open,M,300,172.5,297.5,770,SBD,Single-ply,4

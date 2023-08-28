@@ -6,7 +6,7 @@ Place,Name,Division,Sex,Age,BodyweightKg,WeightClassKg,Best3SquatKg,Best3BenchKg
 1,Leonie Küttel,F-O,F,26,66,70,110,67.5,140,317.5,Raw,SBD
 2,Yvonne Piech,F-O,F,37,65.8,70,115,60,140,315,Raw,SBD
 1,Monika Kohler-Wiesli,F-M4,F,59,68.3,70,87.5,54,100,241.5,Raw,SBD
-1,Andrea Biswas,F-O,F,33,75.4,80,125,62.5,170,357.5,Raw,SBD
+1,Andrea Biswas Tortajada,F-O,F,33,75.4,80,125,62.5,170,357.5,Raw,SBD
 2,Katia Kellenberger,F-O,F,29,79.2,80,130.5,77.5,140,348,Raw,SBD
 3,Michaela Malachova,F-O,F,25,74.1,80,110,86,110,306,Raw,SBD
 4,Valerie Dorogi,F-O,F,27,78.7,80,95,55,125,275,Raw,SBD
@@ -23,5 +23,5 @@ Place,Name,Division,Sex,Age,BodyweightKg,WeightClassKg,Best3SquatKg,Best3BenchKg
 1,Ramon Gysin,M-O,M,35,101.9,110,255,155,280,690,Raw,SBD
 2,Jonas Ahrens,M-O,M,27,108,110,175,115,235,525,Raw,SBD
 1,Sven Zybell,M-M3,M,51,101,110,147.5,117.5,175,440,Raw,SBD
-1,Christoph Büchi,M-M1,M,43,122.3,125,250,170,280,700,Raw,SBD
+1,Christoph Buechi,M-M1,M,43,122.3,125,250,170,280,700,Raw,SBD
 1,Jerry Crossan,M-O,M,28,117,125,170,95,217.5,482.5,Raw,SBD

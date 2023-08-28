@@ -35,13 +35,13 @@ Moisey Ivanov,Моисей Иванов,Sub-Juniors 17-19,19,M,60,60,Russia,-150
 Pavel Meshkov,Павел Мешков,Juniors 20-23,23,M,67.5,66,Russia,160,-170,175,175,,100,110,-120,110,,200,215,-220,215,,500,Wraps,SBD,1
 Semyon Tkachyov,Семён Ткачёв,Juniors 20-23,22,M,67.5,65.1,Russia,195,-202.5,-202.5,195,,95,-97.5,,95,,175,-185,-185,175,,465,Wraps,SBD,2
 Pavel Tebenkov,Павел Тебеньков,Juniors 20-23,23,M,67.5,62.9,Russia,160,-170,-170,160,,100,105,110,110,,170,175,-180,175,,445,Wraps,SBD,3
-Andrey Kim,Андрей Ким,Open,30,M,67.5,61.7,Kazakhstan,180,200,-210,200,,132.5,140,147.5,147.5,,210,232.5,,232.5,,580,Wraps,SBD,1
+Andrey Kim #1,Андрей Ким,Open,30,M,67.5,61.7,Kazakhstan,180,200,-210,200,,132.5,140,147.5,147.5,,210,232.5,,232.5,,580,Wraps,SBD,1
 Exal García Carrillo,,Open,32,M,67.5,66.6,Chile,170,180,195,195,,135,140,145,145,,180,195,-205,195,,535,Wraps,SBD,2
 Pavel Meshkov,Павел Мешков,Open,23,M,67.5,66,Russia,160,-170,175,175,,100,110,-120,110,,200,215,-220,215,,500,Wraps,SBD,3
 Evgeniy Karpov,Евгений Карпов,Open,37,M,67.5,66.8,Russia,162.5,175,180,180,,-125,125,-127.5,125,,172.5,-180,-180,172.5,,477.5,Wraps,SBD,4
 Evgeniy Vnukov,Евгений Внуков,Open,27,M,67.5,66.5,Russia,-175,-175,175,175,,105,110,115,115,,155,170,180,180,,470,Wraps,SBD,5
 Konstantin Kuznetsov,Константин Кузнецов,Open,35,M,75,74.5,Russia,-202.5,202.5,212.5,212.5,,132.5,137.5,-142.5,137.5,,-197.5,197.5,212.5,212.5,,562.5,Wraps,SBD,1
-Oleg Stepanov,Олег Степанов,Open,26,M,75,74.8,Russia,175,185,200,200,,105,-110,110,110,,212.5,225,-242.5,225,,535,Wraps,SBD,2
+Oleg Stepanov #1,Олег Степанов,Open,26,M,75,74.8,Russia,175,185,200,200,,105,-110,110,110,,212.5,225,-242.5,225,,535,Wraps,SBD,2
 Aleksey German,Алексей Герман,Open,27,M,75,73.8,Russia,180,-200,200,200,,110,120,-122.5,120,,190,-207.5,207.5,207.5,,527.5,Wraps,SBD,3
 Mark Popov,Марк Попов,Open,20,M,75,75,Russia,,,,,,,,,,,,,,,,,Wraps,SBD,DQ
 Sergey Alampiev,Сергей Алампиев,Masters 50-59,59,M,75,72.4,Russia,160,180,-190,180,,90,95,100,100,,180,210,-220,210,,490,Wraps,SBD,1
@@ -119,7 +119,7 @@ Levon Trdatyan,Левон Трдатьян,Open,35,M,125,120.5,Russia,-275,-275,
 Dmitriy Nenartovich,Дмитрий Ненартович,Open,28,M,125,110.4,Russia,235,-250,-250,235,,180,190,-192.5,190,,250,-260,260,260,,685,Wraps,SBD,4
 Denis Trofimov,Денис Трофимов,Open,24,M,125,114.5,Russia,-240,-240,-250,,,-140,,,,,-220,,,,,,Wraps,SBD,DQ
 Georgiy Bebiashvili,Георгий Бебиашвили,Open,19,M,125,125,Russia,,,,,,,,,,,,,,,,,Wraps,SBD,DQ
-Artyom Borontsov,Артём Воронцов,Masters 40-49,40,M,125,113.5,Russia,180,210,240,240,,200,205,210,210,,-250,250,-270,250,,700,Wraps,SBD,1
+Artyom Borontsov,Артем Воронцов,Masters 40-49,40,M,125,113.5,Russia,180,210,240,240,,200,205,210,210,,-250,250,-270,250,,700,Wraps,SBD,1
 Vladimir Polivanov,Владимир Поливанов,Masters 50-59,53,M,125,122.5,Russia,185,-200,205,205,,145,155,162.5,162.5,,240,257.5,-262.5,257.5,,625,Wraps,SBD,1
 Sergey Sventitskiy,Сергей Свентицкий,Juniors 20-23,22,M,140,137.9,Russia,-255,255,-270,255,,190,-197.5,-197.5,190,,275,292.5,-305.5,292.5,,737.5,Wraps,SBD,1
 Aleksey Kotov,Алексей Котов,Open,36,M,140,133.6,Russia,295,305,310,310,,190,197.5,200,200,,280,-300,-300,280,,790,Wraps,SBD,1
@@ -162,7 +162,7 @@ Ayk Andriasyan,Айк Андриасян,Teen 14-16,15,M,67.5,66,Russia,,,,,,-10
 Vladislav Dobrodeev,Владислав Добродеев,Sub-Juniors 17-19,17,M,67.5,67.5,,,,,,,120,125,-127.5,125,,,,,,,125,Raw,B,1
 Evgeniy Nechaev,Евгений Нечаев,Juniors 20-23,23,M,67.5,65.9,Russia,,,,,,125,130,-137.5,130,,,,,,,130,Raw,B,1
 Chermen Savlokhov,Чермен Савлохов,Juniors 20-23,22,M,67.5,64.2,Russia,,,,,,120,125,-127.5,125,,,,,,,125,Raw,B,2
-Andrey Kim,Андрей Ким,Open,30,M,67.5,61.7,Kazakhstan,,,,,,147.5,,,147.5,,,,,,,147.5,Raw,B,1
+Andrey Kim #1,Андрей Ким,Open,30,M,67.5,61.7,Kazakhstan,,,,,,147.5,,,147.5,,,,,,,147.5,Raw,B,1
 Exal García Carrillo,,Open,32,M,67.5,66,Chile,,,,,,145,,,145,,,,,,,145,Raw,B,2
 Nikita Samokhvalov,Никита Самохвалов,Open,28,M,67.5,66.5,Russia,,,,,,135,142.5,-147.5,142.5,,,,,,,142.5,Raw,B,3
 Ivan Luchenkov,Иван Лученков,Open,25,M,67.5,67.5,Russia,,,,,,127.5,-137.5,-137.5,127.5,,,,,,,127.5,Raw,B,4
@@ -170,7 +170,7 @@ Aleksandr Nikolaev,Александр Николаев,Open,28,M,67.5,67.1,Russi
 Leonid Sumtsov,Леонид Сумцов,Open,47,M,67.5,66.4,Russia,,,,,,115,-125,-125,115,,,,,,,115,Raw,B,6
 Evgeniy Karpov,Евгений Карпов,Open,37,M,67.5,66.8,Russia,,,,,,-127.5,-127.5,-127.5,,,,,,,,,Raw,B,DQ
 Leonid Sumtsov,Леонид Сумцов,Masters 40-49,47,M,67.5,66.4,Russia,,,,,,115,-125,-125,115,,,,,,,115,Raw,B,1
-Viktor Misyutinskiy,Виктор Мисютинский,Sub-Juniors 17-19,17,M,75,73.8,Ukraine,,,,,,125,-130,-130,125,,,,,,,125,Raw,B,1
+Viktor Misyutinskiy,Віктор Місютинський,Sub-Juniors 17-19,17,M,75,73.8,Ukraine,,,,,,125,-130,-130,125,,,,,,,125,Raw,B,1
 Roman Kurbanbaev,Роман Курбанбаев,Sub-Juniors 17-19,18,M,75,71.3,Russia,,,,,,105,117.5,-122.5,117.5,,,,,,,117.5,Raw,B,2
 Sergey Chugurov,Сергей Чугуров,Juniors 20-23,23,M,75,74,Russia,,,,,,150,157.5,-162.5,157.5,,,,,,,157.5,Raw,B,1
 Andrey Popov,Андрей Попов,Juniors 20-23,23,M,75,75,Russia,,,,,,140,150,155,155,,,,,,,155,Raw,B,2
@@ -209,7 +209,7 @@ Dmitriy Krivyakin,Дмитрий Кривякин,Open,34,M,82.5,81.8,Russia,,,,
 Eduard Sotnikov,Эдуард Сотников,Masters 40-49,49,M,82.5,82.4,Russia,,,,,,155,-160,-160,155,,,,,,,155,Raw,B,1
 Masimzhan Ismanilov,Масимжан Исмаилов,Masters 40-49,46,M,82.5,79.1,Kazakhstan,,,,,,147.5,152.5,-155,152.5,,,,,,,152.5,Raw,B,2
 Aleksandr Sitnik,Александр Сытник,Masters 40-49,40,M,82.5,80.6,Russia,,,,,,122.5,127.5,-132.5,127.5,,,,,,,127.5,Raw,B,3
-Igor Kovalev,Игорь Ковалев,Masters 50-59,59,M,82.5,78.3,Russia,,,,,,132.5,140,-145,140,,,,,,,140,Raw,B,1
+Igor Kovalev #1,Игорь Ковалев,Masters 50-59,59,M,82.5,78.3,Russia,,,,,,132.5,140,-145,140,,,,,,,140,Raw,B,1
 Aleksey Tushin,Алексей Тушин,Masters 50-59,52,M,82.5,82.5,Russia,,,,,,120,,,120,,,,,,,120,Raw,B,2
 Viktor Fedotov,Виктор Федотов,Teen 14-16,14,M,90,87.8,Russia,,,,,,92.5,100,-105,100,,,,,,,100,Raw,B,1
 Aleksey Shashkov,Алексей Шашков,Sub-Juniors 17-19,19,M,90,89,Russia,,,,,,-165,-165,-165,,,,,,,,,Raw,B,DQ
@@ -235,7 +235,7 @@ Denis Bondik,Денис Бондик,Open,42,M,90,90,Kazakhstan,,,,,,,,,,,,,,,,,
 Evgeniy Shvetsov,Евгений Швецов,Masters 40-49,41,M,90,89.7,Russia,,,,,,150,162.5,165,165,,,,,,,165,Raw,B,1
 Dmitriy Timofeev,Дмитрий Тимофеев,Masters 40-49,40,M,90,89.8,Russia,,,,,,160,165,-167.5,165,,,,,,,165,Raw,B,2
 Yuriy Kruchinin,Юрий Кручинин,Masters 40-49,45,M,90,86.2,Russia,,,,,,-135,137.5,142.5,142.5,,,,,,,142.5,Raw,B,3
-Aleksandr Kuznetsov,Александр Кузнецов,Sub-Juniors 17-19,19,M,100,93.7,Russia,,,,,,165,172.5,-177.5,172.5,,,,,,,172.5,Raw,B,1
+Aleksandr Kuznetsov #13,Александр Кузнецов,Sub-Juniors 17-19,19,M,100,93.7,Russia,,,,,,165,172.5,-177.5,172.5,,,,,,,172.5,Raw,B,1
 Vladislav Karmanov,Владислав Карманов,Sub-Juniors 17-19,18,M,100,99.2,Russia,,,,,,-145,-145,145,145,,,,,,,145,Raw,B,2
 Evgeniy Milovanov,Евгений Милованов,Juniors 20-23,23,M,100,96.8,Russia,,,,,,177.5,185,190,190,,,,,,,190,Raw,B,1
 Aleksandr Kalyagin,Александр Калягин,Open,33,M,100,99.2,Russia,,,,,,190,197.5,202.5,202.5,,,,,,,202.5,Raw,B,1
@@ -245,7 +245,7 @@ Evgeniy Shalaev,Евгений Шалаев,Open,30,M,100,97.8,Russia,,,,,,180,1
 Petr Ulzutuev,Петр Ульзутуев,Open,29,M,100,97.5,Russia,,,,,,162.5,-167.5,167.5,167.5,,,,,,,167.5,Raw,B,5
 Maksim Shevaldin,Максим Шевалдин,Open,31,M,100,99.2,Russia,,,,,,162.5,165,-170,165,,,,,,,165,Raw,B,6
 Zundui Munkh-Erdene,,Open,39,M,100,94.4,Mongolia,,,,,,152.5,-162.5,162.5,162.5,,,,,,,162.5,Raw,B,7
-Aleksey Kolenko,Алексей Коленько,Open,25,M,100,96.8,Russia,,,,,,155,162.5,-165,162.5,,,,,,,162.5,Raw,B,8
+Aleksey Kolenko #1,Алексей Коленько,Open,25,M,100,96.8,Russia,,,,,,155,162.5,-165,162.5,,,,,,,162.5,Raw,B,8
 Ivan Rodionov,Иван Родионов,Open,30,M,100,97.4,Russia,,,,,,140,150,160,160,,,,,,,160,Raw,B,9
 Oleg Sinchugov,Олег Синчугов,Open,27,M,100,99.5,Russia,,,,,,157.5,-162.5,-162.5,157.5,,,,,,,157.5,Raw,B,10
 Maksim Prokopenko,Максим Прокопенко,Open,28,M,100,96,Russia,,,,,,130,140,-145,140,,,,,,,140,Raw,B,11
@@ -288,7 +288,7 @@ Evgeniy Antukh,Евгений Антух,Open,44,M,125,118,Russia,,,,,,177.5,185
 Evgeniy Avdulov,Евгений Авдулов,Open,33,M,125,118.3,Russia,,,,,,185,-195,-195,185,,,,,,,185,Raw,B,3
 Otabek Dzhuraev,Отабек Джураев,Open,31,M,125,112.4,Kazakhstan,,,,,,-175,180,-185,180,,,,,,,180,Raw,B,4
 Artyom Bogdanov,Артём Богданов,Open,29,M,125,119.3,Russia,,,,,,170,-177.5,-177.5,170,,,,,,,170,Raw,B,5
-Artyom Vorontsov,Артём Воронцов,Masters 40-49,40,M,125,113.5,Russia,,,,,,210,,,210,,,,,,,210,Raw,B,1
+Artyom Vorontsov,Артем Воронцов,Masters 40-49,40,M,125,113.5,Russia,,,,,,210,,,210,,,,,,,210,Raw,B,1
 Evgeniy Antukh,Евгений Антух,Masters 40-49,44,M,125,118,Russia,,,,,,177.5,185,-190,185,,,,,,,185,Raw,B,2
 Aleksandr Vasilchenko,Александр Васильченко,Masters 50-59,50,M,125,112.8,Russia,,,,,,175,-182.5,-182.5,175,,,,,,,175,Raw,B,1
 Vladimir Chubarov,Владимир Чубаров,Masters 50-59,52,M,125,120.5,Russia,,,,,,165,-172.5,-175,165,,,,,,,165,Raw,B,2
@@ -323,11 +323,11 @@ Dinara Musaeva,Динара Мусаева,Open,36,F,75,74.1,Russia,,,,,,,,,,,12
 Dinislam Gataev,Динислам Гатаев,Juniors 20-23,20,M,56,56,Russia,,,,,,,,,,,175,,,175,,175,Raw,D,1
 Dinislam Gataev,Динислам Гатаев,Open,20,M,56,56,Russia,,,,,,,,,,,175,,,175,,175,Raw,D,1
 Kirill Korsakov,Кирилл Корсаков,Sub-Juniors 17-19,18,M,67.5,67.4,Russia,,,,,,,,,,,140,150,-160,150,,150,Raw,D,1
-Andrey Kim,Андрей Ким,Open,30,M,67.5,61.7,Kazakhstan,,,,,,,,,,,235,,,235,,235,Raw,D,1
+Andrey Kim #1,Андрей Ким,Open,30,M,67.5,61.7,Kazakhstan,,,,,,,,,,,235,,,235,,235,Raw,D,1
 Pavel Vlasov,Павел Власов,Open,29,M,67.5,66.8,Russia,,,,,,,,,,,215,-225,-225,215,,215,Raw,D,2
 Maksim Sukhobok,Максим Сухобок,Masters 50-59,51,M,67.5,65.7,Russia,,,,,,,,,,,212.5,225,230,230,,230,Raw,D,1
 Nikita Tremaskin,Никита Тремаскин,Sub-Juniors 17-19,17,M,75,71.8,Russia,,,,,,,,,,,177.5,187.5,195,195,,195,Raw,D,1
-Oleg Stepanov,Олег Степанов,Open,26,M,75,74.8,Russia,,,,,,,,,,,225,,,225,,225,Raw,D,1
+Oleg Stepanov #1,Олег Степанов,Open,26,M,75,74.8,Russia,,,,,,,,,,,225,,,225,,225,Raw,D,1
 Aleksey Stepanets,Алексей Степанец,Open,25,M,75,74.5,Russia,,,,,,,,,,,220,-235,-235,220,,220,Raw,D,2
 Ruslan Khilimonchik,Руслан Хилимончик,Masters 40-49,40,M,75,74.4,Belarus,,,,,,,,,,,210,220,-225,220,,220,Raw,D,1
 Sergey Nikitin,Сергей Никитин,Masters 50-59,52,M,75,72.4,Russia,,,,,,,,,,,220,235,242.5,242.5,,242.5,Raw,D,1
@@ -373,6 +373,6 @@ Georgiy Bebiashvili,Георгий Бебиашвили,Sub-Juniors 17-19,19,M,1
 Ivan Regulyarniy,Иван Регулярный,Open,31,M,125,121.1,Russia,,,,,,,,,,,275,295,-305,295,,295,Raw,D,1
 Mikhail Naftulovich,Михаил Нафтулович,Open,24,M,125,112.3,Russia,,,,,,,,,,,260,275,-300,275,,275,Raw,D,2
 Aleksandr Kirichenko,Александр Кириченко,Open,29,M,125,114.7,Russia,,,,,,,,,,,-250,-250,260,260,,260,Raw,D,3
-Artyom Vorontsov,Артём Воронцов,Masters 40-49,40,M,125,113.5,Russia,,,,,,,,,,,250,,,250,,250,Raw,D,1
+Artyom Vorontsov,Артем Воронцов,Masters 40-49,40,M,125,113.5,Russia,,,,,,,,,,,250,,,250,,250,Raw,D,1
 Vladimir Polivanov,Владимир Поливанов,Masters 50-59,53,M,125,122.5,Russia,,,,,,,,,,,257.5,,,257.5,,257.5,Raw,D,1
 Aleksey Shoniya,Алексей Шония,Masters 40-49,46,M,140,129.4,Russia,,,,,,,,,,,220,245,252.5,252.5,,252.5,Raw,D,1

@@ -4,7 +4,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 1,M,Trent Henry,B,MR-O,125,Raw,124.4,,157.5,,157.5,1976
 1,M,Scott Anderton,B,MR-M1a,100,Raw,97.8,,127.5,,127.5,1969
 1,M,David Densford,B,MR-M2a,125,Raw,121.4,,110,,110,1961
-1,F,Jennifer Smith,B,FR-M1a,52,Raw,50.6,,77.5,,77.5,1970
+1,F,Jennifer Smith #5,B,FR-M1a,52,Raw,50.6,,77.5,,77.5,1970
 1,M,Logan Morrison,SBD,MR-T1,82.5,Raw,80,107.5,62.5,120,290,1999
 1,M,Todd Schaffer,SBD,MR-T3,90,Raw,87.4,182.5,112.5,230,525,1995
 1,M,James Rowe,SBD,MR-T3,110,Raw,107.2,207.5,135,227.5,570,1994
@@ -14,7 +14,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 2,M,Phuong Ninh,SBD,MR-Jr,82.5,Raw,80.8,145,102.5,187.5,435,1992
 1,M,Grant Barnett,SBD,MR-Jr,90,Raw,87.6,227.5,135,255,617.5,1993
 2,M,Jeremy Cox,SBD,MR-Jr,90,Raw,88.4,190,137.5,247.5,575,1990
-3,M,Zachary Jones,SBD,MR-Jr,90,Raw,88.2,195,150,217.5,562.5,1990
+3,M,Zachary Jones #1,SBD,MR-Jr,90,Raw,88.2,195,150,217.5,562.5,1990
 4,M,Travis Longo,SBD,MR-Jr,90,Raw,88,200,130,227.5,557.5,1991
 1,M,Elijah York,SBD,MR-Jr,100,Raw,97.4,220,155,257.5,632.5,1993
 2,M,David Braden,SBD,MR-Jr,100,Raw,93.6,185,120,207.5,512.5,1990
@@ -23,7 +23,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 2,M,Brendan Earls,SBD,MR-Jr,110,Raw,103,200,125,237.5,562.5,1991
 3,M,Dylan Bush,SBD,MR-Jr,110,Raw,103.8,207.5,137.5,217.5,562.5,1993
 4,M,Taylor Kersteen,SBD,MR-Jr,110,Raw,106.6,145,115,210,470,1992
-1,M,Stephen Slater,SBD,MR-Jr,125,Raw,124.8,272.5,180,272.5,725,1990
+1,M,Stephen Slater #1,SBD,MR-Jr,125,Raw,124.8,272.5,180,272.5,725,1990
 2,M,Seth Plants,SBD,MR-Jr,125,Raw,115.4,200,110,227.5,537.5,1992
 1,M,Dwon Johnson,SBD,M-O,125+,Single-ply,180.8,342.5,185,305,832.5,1976
 1,M,Drew McKenzie,SBD,MR-O,67.5,Raw,65.6,160,107.5,172.5,440,1980
@@ -36,7 +36,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 4,M,Kevin Bolan,S,MR-O,90,Raw,89.6,202.5,,,202.5,1989
 1,M,Damion Johnson,SBD,MR-O,100,Raw,98.4,197.5,157.5,245,600,1982
 2,M,Robert Bowers,SBD,MR-O,100,Raw,93.6,180,115,180,475,1976
-1,M,Robert Hill,SBD,MR-O,110,Raw,109.4,205,157.5,232.5,595,1983
+1,M,Robert Hill #2,SBD,MR-O,110,Raw,109.4,205,157.5,232.5,595,1983
 2,M,Brian Wickman,SBD,MR-O,110,Raw,104.8,190,150,215,555,1979
 1,M,Michael Carsley,SBD,MR-O,125,Raw,118.2,227.5,152.5,272.5,652.5,1988
 2,M,Leondre Duke,SBD,MR-O,125,Raw,115.8,200,137.5,262.5,600,

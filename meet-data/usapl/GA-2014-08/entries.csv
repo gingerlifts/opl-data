@@ -50,7 +50,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 1,M,Matt Barfield,SBD,MR-T2,100,Raw,95.7,192.5,140,227.5,560,1997
 1,M,Ryan Spiecha,SBD,MR-T2,110,Raw,109.6,227.5,140,227.5,595,1998
 1,M,Jacob Keesee,SBD,MR-T3,67.5,Raw,65.8,175,112.5,192.5,480,1995
-1,M,David Robinson,SBD,MR-T3,67.5,Raw,67,147.5,117.5,205,470,
+1,M,David Robinson #5,SBD,MR-T3,67.5,Raw,67,147.5,117.5,205,470,
 4,M,Giovanni Montes,SBD,MR-T3,75,Raw,75,152.5,105,190,447.5,1996
 1,M,James Miller #1,SBD,MR-T3,82.5,Raw,78.5,195,127.5,227.5,550,1995
 2,M,Steven McDougal,SBD,MR-T3,82.5,Raw,76.2,185,127.5,202.5,515,1995
@@ -67,7 +67,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 1,M,Micheal Khamphoumy,SBD,M-Jr,75,Single-ply,72,187.5,125,200,512.5,
 2,M,Aneeb Ahmed,SBD,M-Jr,75,Single-ply,72.5,147.5,100,237.5,485,1992
 3,M,Steven Brooks,SBD,M-Jr,110,Single-ply,107.4,235,175,240,650,1993
-1,M,Pooser Hunter,SBD,M-Jr,125,Single-ply,114.8,305,202.5,300,807.5,1994
+1,M,Hunter Pooser,SBD,M-Jr,125,Single-ply,114.8,305,202.5,300,807.5,1994
 2,M,James Rowe,SBD,M-Jr,125,Single-ply,116.8,245,162.5,245,652.5,1994
 2,M,Kudo Jang,SBD,MR-Jr,60,Raw,59.4,155,110,175,440,1992
 1,M,Leng Vang,SBD,MR-Jr,60,Raw,57.6,142.5,80,167.5,390,1990
@@ -107,7 +107,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 3,M,Quy Trinh,SBD,MR-O,67.5,Raw,66.5,177.5,105,162.5,445,1989
 2,M,Michael Williams,SBD,MR-O,67.5,Raw,61,160,110,145,415,1983
 6,M,Adam Lazaro,SBD,MR-O,67.5,Raw,66.7,160,70,175,405,1984
-1,M,David Gibson,SBD,MR-O,75,Raw,73.4,157.5,130,216,503.5,1978
+1,M,David Gibson #3,SBD,MR-O,75,Raw,73.4,157.5,130,216,503.5,1978
 4,M,Jason Clemares,SBD,MR-O,75,Raw,71.4,137.5,132.5,162.5,432.5,1986
 5,M,David Martinez #4,SBD,MR-O,75,Raw,72.2,155,85,182.5,422.5,
 7,M,Chris Weitzen,SBD,MR-O,75,Raw,75,102.5,92.5,175,370,1985
@@ -180,7 +180,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 1,F,Casey Kisling,SBD,FR-Jr,67.5,Raw,65.4,115,47.5,140,302.5,1991
 3,F,Ashley Fischer,SBD,FR-Jr,67.5,Raw,66.8,97.5,57.5,117.5,272.5,1993
 2,F,Ann Gore,SBD,FR-Jr,75,Raw,72.1,97.5,70,137.5,305,1993
-2,F,Alyssa Brown,SBD,FR-Jr,75,Raw,68.7,120,57.5,115,292.5,1994
+2,F,Alyssa Brown #1,SBD,FR-Jr,75,Raw,68.7,120,57.5,115,292.5,1994
 1,F,Aneesa Said,SBD,FR-Jr,82.5,Raw,81.2,145,65,172.5,382.5,1994
 3,F,Stephanie Mahan,SBD,FR-Jr,82.5,Raw,82.1,130,70,65,265,1992
 1,F,Erin Cooke,SBD,F-O,90+,Single-ply,104.4,185,127.5,157.5,470,

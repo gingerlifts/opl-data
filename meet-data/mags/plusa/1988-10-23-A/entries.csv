@@ -94,14 +94,14 @@ R. Villagomez,75,Below Class II,,M,,205,137.5,175,517.5,SBD,Single-ply,9
 D. Madre,75,Below Class II,,M,,182.5,142.5,182.5,507.5,SBD,Single-ply,10
 J. Morales,82.5,Below Class II,,M,,235,147.5,250,632.5,SBD,Single-ply,1
 Jonathan Wiseman,82.5,Below Class II,,M,,240,125,250,615,SBD,Single-ply,2
-T. Mata,82.5,Below Class II,,M,,220,147.5,220,587.5,SBD,Single-ply,3
+Tito Mata,82.5,Below Class II,,M,,220,147.5,220,587.5,SBD,Single-ply,3
 R. Caudill,82.5,Below Class II,,M,,215,130,237.5,582.5,SBD,Single-ply,4
 K. Fertitta,82.5,Below Class II,,M,,200,142.5,227.5,570,SBD,Single-ply,5
 J. Ryan,82.5,Below Class II,,M,,212.5,140,210,562.5,SBD,Single-ply,6
 K. Ramey,82.5,Below Class II,,M,,205,115,235,555,SBD,Single-ply,7
 K. Rains,82.5,Below Class II,,M,,182.5,132.5,240,555,SBD,Single-ply,8
 M. Lee,82.5,Below Class II,,M,,200,135,215,550,SBD,Single-ply,9
-L. Neef,82.5,Below Class II,,M,,212.5,120,197.5,530,SBD,Single-ply,10
+Lee Neef,82.5,Below Class II,,M,,212.5,120,197.5,530,SBD,Single-ply,10
 D. Gregory,82.5,Below Class II,,M,,182.5,120,190,492.5,SBD,Single-ply,11
 T. Stephens,82.5,Below Class II,,M,,175,110,182.5,467.5,SBD,Single-ply,12
 G. Robertson,90,Below Class II,,M,,285,177.5,320,782.5,SBD,Single-ply,1
@@ -109,7 +109,7 @@ Shane Fraser,90,Below Class II,,M,,287.5,192.5,265,745,SBD,Single-ply,2
 J. Stewart,90,Below Class II,,M,,265,170,232.5,667.5,SBD,Single-ply,3
 S. Nauls,90,Below Class II,,M,,237.5,155,245,637.5,SBD,Single-ply,4
 J. Gruter,90,Below Class II,,M,,237.5,150,245,632.5,SBD,Single-ply,5
-G. Lewis,90,Below Class II,,M,,235,132.5,222.5,590,SBD,Single-ply,6
+Gary Lewis,90,Below Class II,,M,,235,132.5,222.5,590,SBD,Single-ply,6
 J. Rackley,90,Below Class II,,M,,215,147.5,215,577.5,SBD,Single-ply,7
 J. McDanial,90,Below Class II,,M,,215,137.5,205,557.5,SBD,Single-ply,8
 D. Noitrant,90,Below Class II,,M,,190,145,207.5,542.5,SBD,Single-ply,9
@@ -125,7 +125,7 @@ J. Gaar,100,Below Class II,,M,,205,170,230,605,SBD,Single-ply,8
 R. Bonnet,100,Below Class II,,M,,215,155,200,570,SBD,Single-ply,9
 R. Neal,100,Below Class II,,M,,205,140,220,565,SBD,Single-ply,10
 R. Everett,100,Below Class II,,M,,185,137.5,215,537.5,SBD,Single-ply,11
-M. Paradise,110,Below Class II,,M,,252.5,160,285,697.5,SBD,Single-ply,1
+Mike Paradise,110,Below Class II,,M,,252.5,160,285,697.5,SBD,Single-ply,1
 R. Bueche,110,Below Class II,,M,,220,177.5,235,632.5,SBD,Single-ply,2
 D. Ramirez,110,Below Class II,,M,,250,170,187.5,607.5,SBD,Single-ply,3
 D. Garcia,110,Below Class II,,M,,230,145,230,605,SBD,Single-ply,4
@@ -136,7 +136,7 @@ T. Thomas,125,Below Class II,,M,,282.5,197.5,212.5,692.5,SBD,Single-ply,3
 Willie Tolbert,125,Below Class II,,M,,227.5,217.5,235,680,SBD,Single-ply,4
 D. Muns,125,Below Class II,,M,,252.5,170,257.5,680,SBD,Single-ply,5
 D. Lackey,125+,Below Class II,,M,,285,182.5,265,732.5,SBD,Single-ply,1
-J. Bumpass,125+,Below Class II,,M,,272.5,157.5,272.5,702.5,SBD,Single-ply,2
+John Bumpass,125+,Below Class II,,M,,272.5,157.5,272.5,702.5,SBD,Single-ply,2
 P. Patton,56,Open,,M,,160,85,175,420,SBD,Single-ply,1
 Farley Styles,60,Open,,M,,212.5,120,197.5,530,SBD,Single-ply,1
 L. Fields,60,Open,,M,,125,117.5,150,392.5,SBD,Single-ply,2
@@ -153,15 +153,15 @@ Tee Meyers,82.5,Open,,M,,262.5,147.5,305,715,SBD,Single-ply,3
 Bill Johnson,82.5,Open,,M,41,295,152.5,267.5,715,SBD,Single-ply,4
 G. Mead,82.5,Open,,M,,247.5,165,220,632.5,SBD,Single-ply,5
 B. Pavilla,82.5,Open,,M,,237.5,157.5,232.5,627.5,SBD,Single-ply,6
-Mark Northcutt,90,Open,,M,,337.5,202.5,307.5,847.5,SBD,Single-ply,1
-G. Bloom,90,Open,,M,,340,195,292.5,827.5,SBD,Single-ply,2
+Mark Northcutt #1,90,Open,,M,,337.5,202.5,307.5,847.5,SBD,Single-ply,1
+Greg Bloom,90,Open,,M,,340,195,292.5,827.5,SBD,Single-ply,2
 G. Robertson,90,Open,,M,,285,177.5,320,782.5,SBD,Single-ply,3
-K. Johnson,90,Open,,M,,275,180,305,760,SBD,Single-ply,5
+Kent Johnson,90,Open,,M,,275,180,305,760,SBD,Single-ply,5
 T. Allen,90,Open,,M,,295,187.5,272.5,755,SBD,Single-ply,6
 Shane Fraser,90,Open,,M,,287.5,192.5,265,745,SBD,Single-ply,7
 Chad DeRousselle,90,Open,,M,,312.5,165,290,767.5,SBD,Single-ply,4
 Tim Bruner,90,Open,,M,,280,175,275,730,SBD,Single-ply,8
-D. Dyson,90,Open,,M,,237.5,160,250,647.5,SBD,Single-ply,9
+Donny Dyson,90,Open,,M,,237.5,160,250,647.5,SBD,Single-ply,9
 Bruce Jasperson,90,Open,,M,,250,167.5,227.5,645,SBD,Single-ply,10
 J. Rackley,90,Open,,M,,215,147.5,215,577.5,SBD,Single-ply,11
 Scott Wagner,100,Open,,M,,365,202.5,310,877.5,SBD,Single-ply,1
@@ -177,11 +177,11 @@ C. Glasser,110,Open,,M,,277.5,192.5,262.5,732.5,SBD,Single-ply,5
 R. Bueche,110,Open,,M,,220,177.5,235,632.5,SBD,Single-ply,6
 Joe Regaldo,110,Open,,M,,,162.5,,162.5,B,Single-ply,1
 C. Whaley,125,Open,,M,,340,187.5,307.5,835,SBD,Single-ply,1
-S. Murray,125,Open,,M,,315,210,255,780,SBD,Single-ply,2
+S. Murray #3,125,Open,,M,,315,210,255,780,SBD,Single-ply,2
 J. Neal,125,Open,,M,,242.5,182.5,277.5,702.5,SBD,Single-ply,4
 T. Thomas,125,Open,,M,,282.5,197.5,257.5,737.5,SBD,Single-ply,3
 Anthony Clark #1,125+,Open,,M,,392.5,295,310,997.5,SBD,Single-ply,1
 Frank Luna #2,125+,Open,,M,,367.5,190,287.5,845,SBD,Single-ply,2
-K. Rosa,125+,Open,,M,,305,227.5,312.5,845,SBD,Single-ply,3
+Keith Rosa,125+,Open,,M,,305,227.5,312.5,845,SBD,Single-ply,3
 G. Johnson,125+,Open,,M,,322.5,205,312.5,840,SBD,Single-ply,4
 D. Lackey,125+,Open,,M,,285,182.5,250,717.5,SBD,Single-ply,5

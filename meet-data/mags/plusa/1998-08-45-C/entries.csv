@@ -29,26 +29,26 @@ R. Toole,82.5,Open,M,252.5,185,247.5,685,SBD,Single-ply,2
 R. Mitchell,82.5,Open,M,137.5,125,160,422.5,SBD,Single-ply,3
 K. Strohecker,82.5,Open,M,147.5,105,170,422.5,SBD,Single-ply,4
 J. Pezzuti,82.5,Submasters,M,155,105,172.5,432.5,SBD,Single-ply,1
-D. Banik,82.5,Masters 40-44,M,200,125,245,570,SBD,Single-ply,1
+Dave Banik,82.5,Masters 40-44,M,200,125,245,570,SBD,Single-ply,1
 J. Nealis,82.5,Masters 45-49,M,160,145,195,500,SBD,Single-ply,1
 H. Elsasser,82.5,Masters 45-49,M,160,110,200,470,SBD,Single-ply,2
 D. Malkin,82.5,Masters 50-54,M,187.5,107.5,187.5,482.5,SBD,Single-ply,1
 T. Lloyd,82.5,Submasters,M,67.5,45,87.5,200,SBD,Single-ply,2
 S. Christman,90,Teen 18-19,M,210,155,197.5,562.5,SBD,Single-ply,1
 R. Walker,90,Juniors 20-23,M,187.5,135,242.5,565,SBD,Single-ply,1
-J. McDowell,90,Open,M,255,172.5,290,717.5,SBD,Single-ply,1
-T. Groman,90,Open,M,250,140,277.5,667.5,SBD,Single-ply,2
+Jim McDowell,90,Open,M,255,172.5,290,717.5,SBD,Single-ply,1
+Terry Groman,90,Open,M,250,140,277.5,667.5,SBD,Single-ply,2
 Robert Eckhart,90,Open,M,212.5,157.5,227.5,597.5,SBD,Single-ply,4
 M. Shefler,90,Open,M,205,140,212.5,557.5,SBD,Single-ply,6
-T. Groman,90,Open,M,250,140,277.5,667.5,SBD,Single-ply,3
+Terry Groman,90,Open,M,250,140,277.5,667.5,SBD,Single-ply,3
 Robert Eckhart,90,Open,M,212.5,157.5,227.5,597.5,SBD,Single-ply,5
 M. Shefler,90,Open,M,205,140,212.5,557.5,SBD,Single-ply,7
 J. Breese,90,Open,M,175,135,235,545,SBD,Single-ply,8
-J. McDowell,90,Masters 40-44,M,255,172.5,290,717.5,SBD,Single-ply,1
+Jim McDowell,90,Masters 40-44,M,255,172.5,290,717.5,SBD,Single-ply,1
 A. Bolden,90,Masters 50-54,M,215,115,205,535,SBD,Single-ply,1
 Al Wurz,90,Masters 65-69,M,160,110,170,440,SBD,Single-ply,1
-R. Krukowski,90,Masters 40-44,M,227.5,140,192,559.5,SBD,Single-ply,2
-R. Krukowski,90,Police/Fire,M,227.5,140,192,559.5,SBD,Single-ply,1
+Robert Krukowski,90,Masters 40-44,M,227.5,140,192,559.5,SBD,Single-ply,2
+Robert Krukowski,90,Police/Fire,M,227.5,140,192,559.5,SBD,Single-ply,1
 S. Green,100,Teen 16-17,M,227.5,155,187.5,570,SBD,Single-ply,1
 E. Kline,100,Teen 16-17,M,160,97.5,185,442.5,SBD,Single-ply,2
 C. Draper,100,Juniors 20-23,M,250,147.5,227.5,625,SBD,Single-ply,1
@@ -57,7 +57,7 @@ Russ McDonnell,100,Open,M,287.5,187.5,275,750,SBD,Single-ply,2
 J. Hisch,100,Open,M,272.5,197.5,275,745,SBD,Single-ply,3
 J. Rizzuto,100,Open,M,287.5,175,237.5,700,SBD,Single-ply,4
 A. Faulkner,100,Open,M,245,195,240,680,SBD,Single-ply,5
-D. Lewis,100,Open,M,205,157.5,250,612.5,SBD,Single-ply,6
+Dean Lewis,100,Open,M,205,157.5,250,612.5,SBD,Single-ply,6
 K. Michaels,100,Open,M,215,125,237.5,577.5,SBD,Single-ply,7
 E. Kline,100,Open,M,160,97.5,185,442.5,SBD,Single-ply,8
 E. Kline,100,Lifetime,M,160,97.5,185,442.5,SBD,Single-ply,1
@@ -71,7 +71,7 @@ M. Human,110,Masters 40-44,M,257.5,145,240,642.5,SBD,Single-ply,1
 D. Mozetski,110,Police/Fire,M,255,182.5,252.5,690,SBD,Single-ply,1
 Bruno DiBella,110,Open,M,250,152.5,282.5,685,SBD,Single-ply,2
 K. Eckrote,125,Teen 16-17,M,137.5,110,167.5,415,SBD,Single-ply,1
-J. Bekanich,125,Teen 18-19,M,65,202.5,150,417.5,SBD,Single-ply,2
+Joe Bekanich,125,Teen 18-19,M,65,202.5,150,417.5,SBD,Single-ply,2
 T. Adamitis,125,Teen 18-19,M,170,102.5,207.5,480,SBD,Single-ply,1
 Jim Dundon,125,Open,M,330,210,277.5,817.5,SBD,Single-ply,1
 S. Cosgrove,125,Open,M,322.5,182.5,285,790,SBD,Single-ply,2
@@ -80,5 +80,5 @@ J. Lee,125,Open,M,282.5,157.5,280,720,SBD,Single-ply,4
 J. Lee,125,Lifetime,M,282.5,157.5,280,720,SBD,Single-ply,1
 R. Thomas #7,125,Submasters,M,195,132.5,205,532.5,SBD,Single-ply,1
 A. Stasko,125,Masters 40-44,M,245,160,277.5,682.5,SBD,Single-ply,1
-C. Eckroth,145,Open,M,272.5,185,300,757.5,SBD,Single-ply,1
-C. Eckroth,145,Lifetime,M,272.5,185,300,757.5,SBD,Single-ply,1
+Curt Eckroth,145,Open,M,272.5,185,300,757.5,SBD,Single-ply,1
+Curt Eckroth,145,Lifetime,M,272.5,185,300,757.5,SBD,Single-ply,1

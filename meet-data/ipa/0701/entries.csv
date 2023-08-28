@@ -1,11 +1,11 @@
 WeightClassKg,Sex,Division,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
-60,F,Amateur Juniors 20-23,Jean Forgatsch,138.35,99.79,136.08,374.21,SBD,Multi-ply,1
+60,F,Amateur Juniors 20-23,Jean Forgatsch-Fry,138.35,99.79,136.08,374.21,SBD,Multi-ply,1
 60,F,Amateur Open,Amy Weisberger,267.62,158.76,226.8,653.17,SBD,Multi-ply,1
 67.5,F,Amateur Open,Melissa Henry,170.1,106.59,156.49,433.18,SBD,Multi-ply,1
 75,F,Amateur Open,Lisa Wheeler,195.04,102.06,195.04,492.15,SBD,Multi-ply,1
 90+,F,Amateur Open,Jan Koenig,136.08,77.11,154.22,367.41,SBD,Multi-ply,1
 90,M,Amateur Juniors 20-23,Abe Harrod,340.19,213.19,263.08,816.47,SBD,Multi-ply,1
-140,M,Amateur Juniors 20-23,David Brown,111.13,142.88,226.8,480.81,SBD,Multi-ply,2
+140,M,Amateur Juniors 20-23,David Brown #17,111.13,142.88,226.8,480.81,SBD,Multi-ply,2
 140,M,Amateur Juniors 20-23,Dave Damminga,297.1,201.85,283.5,782.45,SBD,Multi-ply,1
 140,M,Amateur Juniors 20-23,Sean L'Italien,408.23,,,,SBD,Multi-ply,DQ
 140+,M,Amateur Juniors 20-23,Aaron Gibes,385.55,235.87,299.37,920.79,SBD,Multi-ply,1
@@ -46,11 +46,11 @@ WeightClassKg,Sex,Division,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 82.5,M,Pro Open,Angelo Berardinelli,344.73,244.94,272.16,861.83,SBD,Multi-ply,2
 82.5,M,Pro Open,Joe Daugherty,340.19,215.46,285.76,841.41,SBD,Multi-ply,3
 82.5,M,Pro Open,Brian Tincher,,,,,SBD,Multi-ply,DQ
-82.5,M,Pro Open,Tony Ramos,328.85,,,,SBD,Multi-ply,DQ
+82.5,M,Pro Open,Tony Ramos #1,328.85,,,,SBD,Multi-ply,DQ
 90,M,Pro Open,Shawn Frankl,421.84,344.73,322.05,1088.62,SBD,Multi-ply,1
 90,M,Pro Open,Sergiy Naleykin,428.64,290.3,328.85,1047.8,SBD,Multi-ply,2
 90,M,Pro Open,Adam Driggers,378.75,276.69,294.84,950.28,SBD,Multi-ply,3
-90,M,Pro Open,Phil Harrington,399.16,256.28,290.3,945.74,SBD,Multi-ply,4
+90,M,Pro Open,Phil Harrington #1,399.16,256.28,290.3,945.74,SBD,Multi-ply,4
 90,M,Pro Open,Mike Maxwell,331.12,229.06,258.55,818.73,SBD,Multi-ply,6
 90,M,Pro Open,Sam Byrd,476.27,,,,SBD,Multi-ply,DQ
 100,M,Pro Open,Mike Schwanke,412.77,285.76,342.46,1040.99,SBD,Multi-ply,1
@@ -64,7 +64,7 @@ WeightClassKg,Sex,Division,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 110,M,Pro Open,Shawn Nutter,387.82,265.35,297.1,950.28,SBD,Multi-ply,4
 110,M,Pro Open,Vincent Cooke,367.41,294.84,283.5,945.74,SBD,Multi-ply,5
 110,M,Pro Open,Brian Carroll,,,,,SBD,Multi-ply,DQ
-110,M,Pro Open,Luke Edwards,,,,,SBD,Multi-ply,DQ
+110,M,Pro Open,Luke Edwards #1,,,,,SBD,Multi-ply,DQ
 110,M,Pro Open,Joe Norman,442.25,272.16,319.78,,SBD,Multi-ply,DQ
 125,M,Pro Open,Chuck Vogelpohl,498.95,285.76,378.75,1163.46,SBD,Multi-ply,1
 125,M,Pro Open,Ronald Scott Yard,433.18,362.87,317.51,1113.57,SBD,Multi-ply,2
@@ -74,7 +74,7 @@ WeightClassKg,Sex,Division,Name,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalK
 125,M,Pro Open,Scott Mount,430.91,294.84,294.84,1020.58,SBD,Multi-ply,7
 125,M,Pro Open,Allan Mehan,,,,,SBD,Multi-ply,DQ
 140,M,Pro Open,Matt Wenning,467.2,328.85,306.17,1102.23,SBD,Multi-ply,1
-140,M,Pro Open,Mike Brown,408.23,181.44,340.19,929.86,SBD,Multi-ply,3
+140,M,Pro Open,Mike Brown #19,408.23,181.44,340.19,929.86,SBD,Multi-ply,3
 140,M,Pro Open,Mike White,142.88,281.23,272.16,696.26,SBD,Multi-ply,5
 140,M,Pro Open,Mark Bell,430.91,,,,SBD,Multi-ply,DQ
 140,M,Pro Open,Marc Bartley,,,,,SBD,Multi-ply,DQ

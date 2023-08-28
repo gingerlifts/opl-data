@@ -1,7 +1,7 @@
 Name,WeightClassKg,Division,AgeRange,Sex,Best3BenchKg,TotalKg,Event,Equipment,Place
 R. Beavers,52,Teen,13-19,M,61.24,61.24,B,Raw,1
 Dean Kicklighter,52,Teen,13-19,M,54.43,54.43,B,Raw,2
-H. Quarles,52,Teen,13-19,M,27.22,27.22,B,Raw,3
+Harriet Quarles,52,Teen,13-19,F,27.22,27.22,B,Raw,3
 Randall Kea,56,Teen,13-19,M,127.01,127.01,B,Raw,1
 L. Singletary,56,Teen,13-19,M,83.91,83.91,B,Raw,2
 Candice Pardue,56,Teen,13-19,F,81.65,81.65,B,Raw,3
@@ -12,7 +12,7 @@ G. Brown,67.5,Teen,13-19,M,115.67,115.67,B,Raw,1
 S. Krome,67.5,Teen,13-19,M,102.06,102.06,B,Raw,2
 Steve Nimmons,75,Teen,13-19,M,151.95,151.95,B,Raw,1
 M. Walker #5,75,Teen,13-19,M,127.01,127.01,B,Raw,2
-R. Pardue,75,Teen,13-19,M,95.25,95.25,B,Raw,3
+Roger Pardue,75,Teen,13-19,M,95.25,95.25,B,Raw,3
 B. Kotti,82.5,Teen,13-19,M,142.88,142.88,B,Raw,1
 D. Marable,82.5,Teen,13-19,M,136.08,136.08,B,Raw,2
 S. Francz,90,Teen,13-19,M,154.22,154.22,B,Raw,1
@@ -28,7 +28,7 @@ Chuck Dunbar,52,Open,,M,145.15,145.15,B,Raw,1
 H. Quades,52,Open,,M,27.22,27.22,B,Raw,2
 Randall Kea,56,Open,,M,127.01,127.01,B,Raw,1
 Ken Panzella,56,Open,,M,104.33,104.33,B,Raw,2
-G. Bradley,56,Open,,M,97.52,97.52,B,Raw,3
+George Bradley,56,Open,,M,97.52,97.52,B,Raw,3
 G. Panzella,60,Open,,M,127.01,127.01,B,Raw,1
 B. Panzella,60,Open,,M,108.86,108.86,B,Raw,2
 M. Rothstein,60,Open,,M,97.52,97.52,B,Raw,3
@@ -38,7 +38,7 @@ D. Thompson,67.5,Open,,M,147.42,147.42,B,Raw,2
 M. Smith #35,67.5,Open,,M,136.08,136.08,B,Raw,3
 Steve Nimmons,75,Open,,M,151.95,151.95,B,Raw,1
 K. Jonas,75,Open,,M,149.69,149.69,B,Raw,2
-R. Glinski,75,Open,,M,147.42,147.42,B,Raw,3
+Ray Glinski,75,Open,,M,147.42,147.42,B,Raw,3
 A. Gutierrez #2,75,Open,,M,142.88,142.88,B,Raw,4
 J. Rosenbaum,75,Open,,M,140.61,140.61,B,Raw,5
 P. Walpole,75,Open,,M,124.74,124.74,B,Raw,6
@@ -57,7 +57,7 @@ D. Dentham,100,Open,,M,188.24,188.24,B,Raw,1
 Steve Barfield,100,Open,,M,188.24,188.24,B,Raw,2
 D. Dancels,100,Open,,M,172.37,172.37,B,Raw,3
 J. Haley #1,100,Open,,M,165.56,165.56,B,Raw,4
-Mike Smith,100,Open,,M,158.76,158.76,B,Raw,5
+Mike Smith #13,100,Open,,M,158.76,158.76,B,Raw,5
 Eric Redding,100,Open,,M,147.42,147.42,B,Raw,6
 T. Stough,100,Open,,M,145.15,145.15,B,Raw,7
 J. McEntire,100,Open,,M,142.88,142.88,B,Raw,8

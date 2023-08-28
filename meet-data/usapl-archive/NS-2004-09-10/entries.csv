@@ -83,7 +83,7 @@ Joe Bianchi Sr,31,89.4,90,-230,-230,-230,,,,M-LT,M,B,Single-ply,DQ
 Jeff Zick,21,89.2,90,-170,-170,-170,,,,M-Jr,M,B,Single-ply,DQ
 Jeff Zick,21,89.2,90,-170,-170,-170,,,,M-C,M,B,Single-ply,DQ
 Charles Turco,48,99.4,100,-205,-205,205,,205,205,M-M1b,M,B,Single-ply,1
-Brady Stewart,22,97.4,100,187.5,197.5,-200,,197.5,197.5,M-Jr,M,B,Single-ply,1
+Brady Stewart #1,22,97.4,100,187.5,197.5,-200,,197.5,197.5,M-Jr,M,B,Single-ply,1
 Mario Rojas,23,99.2,100,190,-197.5,-200,,190,190,M-Jr,M,B,Single-ply,2
 Al Fortunato,41,98.7,100,170,182.5,-185,,182.5,182.5,M-M1a,M,B,Single-ply,1
 Chris Nasser,22,95.3,100,170,-182.5,-185,,170,170,M-Jr,M,B,Single-ply,3
@@ -131,7 +131,7 @@ Chris Felix,39,120.3,125,205,-240,-245,,205,205,M-M1a,M,B,Single-ply,2
 Larry Maggard,60,116.9,125,180,-190,190,-201,190,190,M-M3a,M,B,Single-ply,1
 Marc Leblanc,41,123.7,125,-157.5,-157.5,157.5,,157.5,157.5,M-M1a,M,B,Single-ply,3
 Ralph Suffredine,67,123.9,125,-187.5,-187.5,-187.5,,,,M-M3b,M,B,Single-ply,DQ
-Ron Beuch,54,122.9,125,-220,-220,-232.5,,,,MR-O,M,B,Raw,DQ
+Ronald Beuch,54,122.9,125,-220,-220,-232.5,,,,MR-O,M,B,Raw,DQ
 Brad Klinger,47,123.4,125,-272.5,-272.5,-272.5,,,,M-O,M,B,Single-ply,DQ
 Brad Klinger,47,123.4,125,-272.5,-272.5,-272.5,,,,M-M1b,M,B,Single-ply,DQ
 Collin Rhodes #1,35,121.7,125,-292.5,-297.5,-297.5,,,,M-O,M,B,Single-ply,DQ
@@ -140,7 +140,7 @@ Horace Lane,39,122,125,-307.5,-307.5,-310,,,,M-M1a,M,B,Single-ply,DQ
 Lance Karabel,32,150.8,125+,272.5,297.5,-320,,297.5,297.5,M-O,M,B,Single-ply,1
 Frank Beeler,50,144.4,125+,247.5,265,-272.5,,265,265,M-M2a,M,B,Single-ply,1
 Chuck McGuire,44,127.9,125+,152.5,-160,-160,,152.5,152.5,M-M1a,M,B,Single-ply,1
-Tiny Meeker,30,134.9,125+,-347.5,-347.5,-365,,,,M-O,M,B,Single-ply,DQ
+Tiny Meeker,,134.9,125+,-347.5,-347.5,-365,,,,M-O,M,B,Single-ply,DQ
 Peter Herdt,54,151.7,125+,-165,-165,-170,,,,M-M2a,M,B,Single-ply,DQ
 Fred Dini,54,128.4,125+,-220,-220,-220,,,,M-M2a,M,B,Single-ply,DQ
 E.C. Strumpf,28,155,125+,-252.5,-252.5,-252.5,,,,M-O,M,B,Single-ply,DQ
@@ -173,7 +173,7 @@ Priscilla Ribic,31,67.1,67.5,127.5,-140,140,-150.5,140,140,F-O,F,B,Single-ply,1
 Heather Whited,17,62.3,67.5,75,82.5,-85,,82.5,82.5,F-T2,F,B,Single-ply,1
 Latasia Anzai,40,65.1,67.5,70,-87.5,-87.5,,70,70,F-M1a,F,B,Single-ply,1
 Latasia Anzai,40,65.1,67.5,70,-87.5,-87.5,,70,70,F-PFM,F,B,Single-ply,1
-Marge Conte,67,62.8,67.5,-35,-35,-37.5,,,,F-M3b,F,B,Single-ply,DQ
+Marjorie Conte,67,62.8,67.5,-35,-35,-37.5,,,,F-M3b,F,B,Single-ply,DQ
 Christy Newman,27,72.5,75,130,137.5,142.5,160.5,142.5,142.5,F-O,F,B,Single-ply,1
 Devan Doan,16,73,75,125,-130,-130,,125,125,F-O,F,B,Single-ply,2
 Devan Doan,16,73,75,125,-130,-130,,125,125,F-T2,F,B,Single-ply,1
@@ -184,8 +184,8 @@ Amanda Locklear,31,78.9,82.5,95,102.5,110,,110,110,F-PFM,F,B,Single-ply,1
 Malinda Baum,42,81.2,82.5,92.5,-97.5,-100,,92.5,92.5,F-M1a,F,B,Single-ply,1
 Kim Newman,46,84.4,90,-70,70,-80,,70,70,F-O,F,B,Single-ply,1
 Kim Newman,46,84.4,90,-70,70,-80,,70,70,F-M1b,F,B,Single-ply,1
-Deb Ferrell,40,120.2,90+,170,182.5,-195,,182.5,182.5,F-O,F,B,Single-ply,1
-Deb Ferrell,40,120.2,90+,170,182.5,-195,,182.5,182.5,F-M1a,F,B,Single-ply,1
+Deborah Ferrell,40,120.2,90+,170,182.5,-195,,182.5,182.5,F-O,F,B,Single-ply,1
+Deborah Ferrell,40,120.2,90+,170,182.5,-195,,182.5,182.5,F-M1a,F,B,Single-ply,1
 Jade Dickens,30,101.6,90+,95,-100,100,,100,100,F-O,F,B,Single-ply,2
 Paulette Calhoun,45,91.3,90+,95,-100,-100,,95,95,F-M1b,F,B,Single-ply,1
 Paulette Calhoun,45,91.3,90+,95,-100,-100,,95,95,F-LT,F,B,Single-ply,1

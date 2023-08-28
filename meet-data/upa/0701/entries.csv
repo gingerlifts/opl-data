@@ -5,7 +5,7 @@ John Chrencik,M,No,IA,43,75,MM1,72,145,-160,-160,,145,145,2,B,Multi-ply
 Gary Reichert,M,No,WI,47,75,MM2,74.4,155,172.5,-182.5,,172.5,172.5,1,B,Multi-ply
 Dave Nelson,M,No,IA,18,82.5,MTX,80.6,-187.5,-205,-205,,,,DQ,B,Multi-ply
 Steve Rieger,M,No,IA,40,82.5,MM1,81.4,182.5,-197.5,-207.5,,182.5,182.5,1,B,Multi-ply
-Nick Farley,M,No,IA,24,82.5,MO,82,-210,-215,217.5,,217.5,217.5,1,B,Multi-ply
+Nick Farley-Wamberg,M,No,IA,24,82.5,MO,82,-210,-215,217.5,,217.5,217.5,1,B,Multi-ply
 Roger Hennigar,M,No,IA,43,90,MM1,86.6,-215,-215,215,,215,215,1,B,Multi-ply
 Randy Egli,M,No,IL,56,90,MM4,89.6,-202.5,-227.5,-235,,,,DQ,B,Multi-ply
 Kory Warstler,M,No,IN,25,90,MO,87.8,-255,255,-265,,255,255,1,B,Multi-ply
@@ -31,15 +31,15 @@ Matt Hobmeier,M,No,IA,24,125,MO,124.2,-312.5,312.5,-320,,312.5,312.5,1,B,Multi-p
 Chad Truitt,M,No,WI,33,125,MO,115.4,-230,-230,-230,,,,DQ,B,Multi-ply
 Steve Greene,M,No,OH,36,125,MO,122.6,-320,-327,-327.5,,,,DQ,B,Multi-ply
 Mark Hennessey #1,M,No,IA,47,140,MM2,127.8,215,-227.5,-237.5,,215,215,1,B,Multi-ply
-Wes Merrill,M,No,NE,,140,MO,140,327.5,337.5,-340,,337.5,337.5,1,B,Multi-ply
+Wesley Merrill,M,No,NE,,140,MO,140,327.5,337.5,-340,,337.5,337.5,1,B,Multi-ply
 Scott Nutter,M,No,MN,40,140+,MM1,220,260,-272.5,-272.5,,260,260,1,B,Multi-ply
-Charles Kadrlik,M,No,MN,32,140+,MO,203.7,277.5,-285,-285,,277.5,277.5,1,B,Multi-ply
+Charlie Kadrlik,M,No,MN,32,140+,MO,203.7,277.5,-285,-285,,277.5,277.5,1,B,Multi-ply
 Karey Yaneff,F,No,IA,31,75,FO,74.6,-82.5,-82.5,82.5,,82.5,82.5,1,B,Multi-ply
 Amanda Quatrochi,F,No,IA,14,56,FTX,54.4,-62.5,-62.5,,,,,DQ,B,Multi-ply
 Adrian Gutierrez,M,Yes,IL,17,67.5,MTX,64.6,-127.5,-140,-140,,,,DQ,B,Multi-ply
 Tony Quatrochi,M,Yes,IA,39,90,MO-AD,89.6,155,165,-182.5,,165,165,1,B,Multi-ply
-Chris Johnson,M,Yes,IA,47,100,MM2-AD,94.6,-150,155,-162.5,,155,155,1,B,Multi-ply
-Steven Sass,M,Yes,IA,31,100,MO-AD,96.2,142.5,147.5,150,-155,150,150,1,B,Multi-ply
+Chris Johnson #19,M,Yes,IA,47,100,MM2-AD,94.6,-150,155,-162.5,,155,155,1,B,Multi-ply
+Steve Sass,M,Yes,IA,31,100,MO-AD,96.2,142.5,147.5,150,-155,150,150,1,B,Multi-ply
 Colin Johnson,M,Yes,IA,16,100,MTX-AD,91.6,125,132.5,-135,,132.5,132.5,1,B,Multi-ply
 Christopher Haigh,M,Yes,,27,125,MO-AD,111,245,-265,265,,265,265,1,B,Multi-ply
 Mike Grimm,M,Yes,IA,35,140,MS-AD,140,-212.5,212.5,-227.5,,212.5,212.5,1,B,Multi-ply
@@ -47,7 +47,7 @@ Roger Ryan,M,Yes,IL,51,140,MM3-AD,128.4,300,-325,-335,,300,300,1,B,Multi-ply
 Jerrod Dotson,M,Yes,IA,24,140+,MO-AD,160,182.5,190,197.5,,197.5,197.5,1,B,Multi-ply
 Rachael Nutter,F,No,MN,36,90+,FO,135.4,-162.5,162.5,-182.5,,162.5,162.5,2,B,Multi-ply
 Becca Swanson,F,No,NE,,90+,FO,104.2,205,220,227.5,235,227.5,227.5,1,B,Multi-ply
-Kathleen Goliszek,F,No,PA,34,82.5,FO,81.8,-175,-185,,,,,DQ,B,Multi-ply
+Kathy Goliszek,F,No,PA,34,82.5,FO,81.8,-175,-185,,,,,DQ,B,Multi-ply
 Teresa Putchio,F,No,IA,34,48,FO,47.4,-92.5,-92.5,-100,,,,DQ,B,Multi-ply
 Rudy Hillyard,M,No,PA,32,82.5,LW,79.8,167.5,-177.5,-182.5,,167.5,167.5,5,B,Multi-ply
 Korey Pfeiffer,M,No,IA,36,82.5,LW,80.6,230,-237.5,237.5,,237.5,237.5,4,B,Multi-ply
@@ -65,5 +65,5 @@ James Burdette,M,No,CA,,90,HW,89.8,-320,-320,-320,,,,DQ,B,Multi-ply
 Paul Rausch,M,No,WA,,140+,SHW,145.8,295,-330,-365,,295,295,3,B,Multi-ply
 Tommy Harrison,M,No,IL,33,125,SHW,121,365,-385,-410,,365,365,2,B,Multi-ply
 Ryan Kennelly,M,No,WA,,140+,SHW,151.4,410,437.5,,,437.5,437.5,1,B,Multi-ply
-Robert Vick,M,No,IL,33,140+,SHW,145.8,-415,-417.5,,,,,DQ,B,Multi-ply
+Robert Vick,M,No,IL,,140+,SHW,145.8,-415,-417.5,,,,,DQ,B,Multi-ply
 Paul Key,M,No,GA,33,140,SHW,134.8,-365,-365,-370,,,,DQ,B,Multi-ply

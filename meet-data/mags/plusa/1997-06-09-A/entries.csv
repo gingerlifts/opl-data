@@ -24,9 +24,9 @@ M. May,58.5,F,75,40,107.5,222.5,SBD,Single-ply,Collegiate,8
 Trina Emerson,63,F,125,62.5,150,337.5,SBD,Single-ply,Collegiate,1
 Angela Corder,63,F,137.5,57.5,130,325,SBD,Single-ply,Collegiate,2
 Jessica Ridgely,63,F,120,62.5,137.5,320,SBD,Single-ply,Collegiate,3
-Coryanne Rickwal,63,F,107.5,65,142.5,315,SBD,Single-ply,Collegiate,4
+Coryanne Rickwalt,63,F,107.5,65,142.5,315,SBD,Single-ply,Collegiate,4
 Angela Casbon,63,F,125,60,127.5,312.5,SBD,Single-ply,Collegiate,5
-Rebecca Roberts,63,F,107.5,55,137.5,300,SBD,Single-ply,Collegiate,6
+Rebecca Roberts #3,63,F,107.5,55,137.5,300,SBD,Single-ply,Collegiate,6
 T. Burns,63,F,105,60,110,275,SBD,Single-ply,Collegiate,7
 A. Koskinski,63,F,82.5,55,130,267.5,SBD,Single-ply,Collegiate,8
 R. Gillingham,63,F,95,52.5,115,262.5,SBD,Single-ply,Collegiate,9
@@ -53,7 +53,7 @@ Pete Gutierrez,56,M,185,92.5,227.5,505,SBD,Single-ply,Collegiate,1
 Glen Lout,60,M,165,105,165,435,SBD,Single-ply,Collegiate,1
 Allan Sobol,60,M,137.5,112.5,182.5,432.5,SBD,Single-ply,Collegiate,2
 Jeffrey Schlueter,60,M,145,92.5,180,417.5,SBD,Single-ply,Collegiate,3
-Michael Long,60,M,165,92.5,155,412.5,SBD,Single-ply,Collegiate,4
+Michael Long #3,60,M,165,92.5,155,412.5,SBD,Single-ply,Collegiate,4
 Eric Johnson,67.5,M,220,130,215,565,SBD,Single-ply,Collegiate,1
 Justin Cecil,67.5,M,205,112.5,222.5,540,SBD,Single-ply,Collegiate,2
 Andrew Nelson,67.5,M,185,137.5,207.5,530,SBD,Single-ply,Collegiate,3
@@ -63,7 +63,7 @@ Calvin Dial,75,M,272.5,160,255,687.5,SBD,Single-ply,Collegiate,1
 Josh Decker,75,M,230,135,260,625,SBD,Single-ply,Collegiate,2
 John Walters,75,M,235,137.5,245,617.5,SBD,Single-ply,Collegiate,3
 Jason Baudendhistel,75,M,227.5,145,220,592.5,SBD,Single-ply,Collegiate,4
-John Mendoza,75,M,220,110,250,580,SBD,Single-ply,Collegiate,5
+John Mendoza #7,75,M,220,110,250,580,SBD,Single-ply,Collegiate,5
 M. Iman,75,M,197.5,120,215,532.5,SBD,Single-ply,Collegiate,6
 M. Quatrara,75,M,192.5,117.5,220,530,SBD,Single-ply,Collegiate,7
 A. Gilbert,75,M,185,122.5,202.5,510,SBD,Single-ply,Collegiate,8
@@ -113,7 +113,7 @@ C. Davis,110,M,250,137.5,242.5,630,SBD,Single-ply,Collegiate,7
 D. Kritschgau,110,M,215,150,240,605,SBD,Single-ply,Collegiate,8
 G. Powell,110,M,232.5,115,232.5,580,SBD,Single-ply,Collegiate,9
 Eric Beltran,110,M,217.5,142.5,215,575,SBD,Single-ply,Collegiate,10
-Brian Crow,125,M,277.5,185,305,767.5,SBD,Single-ply,Collegiate,1
+Brian Crow #1,125,M,277.5,185,305,767.5,SBD,Single-ply,Collegiate,1
 Phillip Battle,125,M,295,172.5,275,742.5,SBD,Single-ply,Collegiate,2
 Jason Buccek,125,M,275,182.5,275,732.5,SBD,Single-ply,Collegiate,3
 Melvin Jenkins,125,M,250,142.5,265,657.5,SBD,Single-ply,Collegiate,4

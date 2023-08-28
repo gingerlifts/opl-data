@@ -1,5 +1,5 @@
 Name,Division,Country,BodyweightKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Squat4Kg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Bench4Kg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,Deadlift4Kg,TotalKg,WeightClassKg,Sex,Equipment,Event,Place
-Andréa Durand,T1,France,47.2,-105,105,112.5,112.5,-120,47.5,52.5,-55.5,52.5,,105,-114,-114,105,-114,270,48,F,Multi-ply,SBD,1
+Andréa Zicaro,T1,France,47.2,-105,105,112.5,112.5,-120,47.5,52.5,-55.5,52.5,,105,-114,-114,105,-114,270,48,F,Multi-ply,SBD,1
 Sabine Guillaume,O,France,47.4,120,125,130,130,,65,-70,70,70,,142.5,152.5,,152.5,,352.5,48,F,Multi-ply,SBD,1
 Natacha Herbepin,O,France,54.7,-150,150,155,155,,-80,85,-90,85,,150,-160,-160,150,,390,56,F,Multi-ply,SBD,1
 Natacha Herbepin,SM,France,54.7,-150,150,155,155,,-80,85,-90,85,,150,-160,-160,150,,390,56,F,Multi-ply,SBD,1
@@ -21,8 +21,8 @@ Maxence Durand,O,France,67,-195,202.5,-220,202.5,,-145,145,150,150,,195,207.5,-2
 Maxence Durand,SM,France,67,-195,202.5,-220,202.5,,-145,145,150,150,,195,207.5,-212.5,207.5,,560,67.5,M,Multi-ply,SBD,1
 Thierry Viller,J,France,74.7,165,175,190,190,,125,-132.5,-137.5,125,,185,197.5,-205,197.5,,512.5,75,M,Multi-ply,SBD,1
 Brieuc De Rudder,J,Belgium,72.8,200,-210,-210,200,,95,102.5,110,110,,180,195,-205,195,,505,75,M,Multi-ply,SBD,2
-Andy Csiszar,O,Hungary,74.3,250,260,-280,260,,155,160,,160,,210,260,,260,,680,75,M,Multi-ply,SBD,1
-Andy Csiszar,SM,Hungary,74.3,250,260,-280,260,,155,160,,160,,210,260,,260,,680,75,M,Multi-ply,SBD,1
+András Csiszár,O,Hungary,74.3,250,260,-280,260,,155,160,,160,,210,260,,260,,680,75,M,Multi-ply,SBD,1
+András Csiszár,SM,Hungary,74.3,250,260,-280,260,,155,160,,160,,210,260,,260,,680,75,M,Multi-ply,SBD,1
 Aurelien Decressat,O,France,75,-180,180,187.5,187.5,,125,130,132.5,132.5,,190,200,210,210,,530,75,M,Multi-ply,SBD,2
 Adriano DaCosta,M2,France,72.2,230,240,260,260,,-165,165,-185,165,,215,225,-240,225,,650,75,M,Multi-ply,SBD,1
 Gérard Dufour,M5,France,74,165,175,190,190,,100,112.5,115,115,,180,202.5,217.5,217.5,,522.5,75,M,Multi-ply,SBD,1
@@ -65,7 +65,7 @@ Jean-Hugues Elie,SM,France,96.3,-220,230,235,235,,150,165,182.5,182.5,,230,-250,
 Jamie Burke,SM,UK,98.8,-350,-350,-350,,,250,-270,-270,250,,290,305,-315,305,,,100,M,Multi-ply,SBD,DQ
 Andrew Saunders,M1,UK,95.6,-250,250,,250,,120,,,120,,140,220,265,265,,635,100,M,Multi-ply,SBD,1
 Franck Weiss,M1,France,98.1,-270,-270,-280,,,,,,,,,,,,,,100,M,Multi-ply,SBD,DQ
-Sam Graham,M2,UK,95.6,290,325,,325,,180,-190,-190,180,,260,300,,300,,805,100,M,Multi-ply,SBD,1
+Sam Graham #1,M2,Ireland,95.6,290,325,,325,,180,-190,-190,180,,260,300,,300,,805,100,M,Multi-ply,SBD,1
 JJ Dunne,M2,Ireland,91,250,-265,,250,,100,,,100,,220,,,220,,570,100,M,Multi-ply,SBD,2
 Libor Hurdálek,M4,Czechia,96,220,-250,-250,220,,125,-145,-145,125,,200,220,-230,220,,565,100,M,Multi-ply,SBD,1
 Pauli Rahkonen,J,Finland,106.6,300,-340,,300,,65,,,65,,240,275,,275,,640,110,M,Multi-ply,SBD,1
@@ -98,7 +98,7 @@ Suzanne Sauvage,M9,France,54.9,,,,,,37.5,42.5,45,45,,,,,,,45,56,F,Multi-ply,B,1
 Marina Medvedeva,O,Russia,59.3,,,,,,100,120,-125,120,,,,,,,120,60,F,Multi-ply,B,1
 Marina Medvedeva,SM,Russia,59.3,,,,,,100,120,-125,120,,,,,,,120,60,F,Multi-ply,B,1
 Iris Shekhter,O,Israel,60,,,,,,120,-125,-125,120,,,,,,,120,60,F,Multi-ply,B,2
-Yulia Medvedeva,O,Russia,74.9,,,,,,160,170,172.5,172.5,,,,,,,172.5,75,F,Multi-ply,B,1
+Yuliya Medvedeva #1,O,Russia,74.9,,,,,,160,170,172.5,172.5,,,,,,,172.5,75,F,Multi-ply,B,1
 Joanne Mitchell,O,Australia,73.1,,,,,,115,127.5,-140,127.5,,,,,,,127.5,75,F,Multi-ply,B,2
 Joanne Mitchell,SM,Australia,73.1,,,,,,115,127.5,-140,127.5,,,,,,,127.5,75,F,Multi-ply,B,1
 Svetlana Odintsova,M1,Russia,73.3,,,,,,100,107.5,110,110,,,,,,,110,75,F,Multi-ply,B,1
@@ -199,7 +199,7 @@ Igor Kushin,M1,Russia,102.8,,,,,,285,295,-300.5,295,,,,,,,295,110,M,Multi-ply,B,
 Eric Barthe,M1,France,108.6,,,,,,205,215,220,220,,,,,,,220,110,M,Multi-ply,B,2
 Robert Brasseur,M2,France,106.8,,,,,,200,210,-230,210,,,,,,,210,110,M,Multi-ply,B,1
 Hans-Ulrich Vetter,M4,Germany,106.2,,,,,,200,212.5,217.5,217.5,,,,,,,217.5,110,M,Multi-ply,B,1
-Herve Pincemin,M4,France,100.3,,,,,,200,-210,212.5,212.5,,,,,,,212.5,110,M,Multi-ply,B,2
+Hervé Pincemin,M4,France,100.3,,,,,,200,-210,212.5,212.5,,,,,,,212.5,110,M,Multi-ply,B,2
 Vladimir Somsák,M5,Slovakia,107.8,,,,,,150,165,-175,165,,,,,,,165,110,M,Multi-ply,B,1
 Filip Čížek,T1,Czechia,115.6,,,,,,180,190,-200,190,200,,,,,,190,125,M,Multi-ply,B,1
 Richard Szanyi,T2,Slovakia,122.3,,,,,,195,205,210,210,-215,,,,,,210,125,M,Multi-ply,B,1
@@ -217,6 +217,6 @@ Marc Savoca,M2,France,112.4,,,,,,202.5,-210,-210,202.5,,,,,,,202.5,125,M,Multi-p
 Václav Vimmer,M3,Czechia,111.1,,,,,,150,-160,-160,150,,,,,,,150,125,M,Multi-ply,B,1
 Georgiy Lopatskiy,O,Russia,125.1,,,,,,255,272.5,280,280,,,,,,,280,140,M,Multi-ply,B,1
 Saksa Josef,O,Slovakia,127,,,,,,205,215,230,230,,,,,,,230,140,M,Multi-ply,B,2
-Michael King,M4,UK,125.7,,,,,,242.5,252.5,-262.5,252.5,,,,,,,252.5,140,M,Multi-ply,B,1
-Aleksey Lisogor,J,Ukraine,149.6,,,,,,250,270,290,290,,,,,,,290,140+,M,Multi-ply,B,1
+Mick King,M4,UK,125.7,,,,,,242.5,252.5,-262.5,252.5,,,,,,,252.5,140,M,Multi-ply,B,1
+Oleksiy Lisogor,J,Ukraine,149.6,,,,,,250,270,290,290,,,,,,,290,140+,M,Multi-ply,B,1
 Péter Mihály,M3,Slovakia,149.6,,,,,,200,215,-230,215,,,,,,,215,140+,M,Multi-ply,B,1

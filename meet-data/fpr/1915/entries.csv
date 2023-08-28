@@ -25,7 +25,7 @@ DQ,Svetlana Deriglazova,Светлана Дериглазова,1975,84,F,SBD,84
 2,Eduard Golnev,Эдуард Гольнев,1999,66,M,SBD,65.3,177.5,160,192.5,530,Single-ply,Open
 DQ,Vyacheslav Ivanov,Вячеслав Иванов,1975,74,M,SBD,73.9,,,,,Single-ply,Open
 1,Dmitriy Chubarov,Дмитрий Чубаров,1996,83,M,SBD,80.6,270,195,255,720,Single-ply,Open
-2,Evgeniy Stepanov,Евгений Степанов,2001,83,M,SBD,76.2,270,190,252.5,712.5,Single-ply,Open
+2,Evgeniy Stepanov #2,Евгений Степанов,2001,83,M,SBD,76.2,270,190,252.5,712.5,Single-ply,Open
 3,Ilya Kolesov,Илья Колесов,1977,83,M,SBD,76.55,260,160,247.5,667.5,Single-ply,Open
 4,Maksim Polyakov,Максим Поляков,2000,83,M,SBD,79.7,262.5,177.5,217.5,657.5,Single-ply,Open
 1,Yuriy Degtyarenko,Юрий Дегтяренко,1994,93,M,SBD,92.2,305,222.5,297.5,825,Single-ply,Open
@@ -89,7 +89,7 @@ DQ,Ekaterina Guseva,Екатерина Гусева,1995,63,F,SBD,62.5,-120,,,,R
 3,Ekaterina Krutaya,Екатерина Крутая,1981,72,F,SBD,71.3,130,72.5,142.5,345,Raw,Open
 4,Elizaveta Ipatova,Елизавета Ипатова,2000,72,F,SBD,72,117.5,82.5,132.5,332.5,Raw,Open
 5,Anastasiya Veber,Анастасия Вебер,2000,72,F,SBD,71.5,135,65,130,330,Raw,Open
-1,Yuliya Novikova,Юлия Новикова,2001,84,F,SBD,77.6,137.5,55,125,317.5,Raw,Open
+1,Yuliya Novikova #4,Юлия Новикова,2001,84,F,SBD,77.6,137.5,55,125,317.5,Raw,Open
 1,Aleksandra Radzhabova,Александра Раджабова,1996,84+,F,SBD,102,165,75,170,410,Raw,Open
 1,Georgiy Tursunov,Георгий Турсунов,1987,59,M,SBD,58.85,150,110,195,455,Raw,Open
 2,Nikita Ermolenko,Никита Ермоленко,1998,59,M,SBD,58.55,170,105,177.5,452.5,Raw,Open
@@ -152,7 +152,7 @@ DQ,Aleksandr Isakov,Александр Исаков,1992,74,M,SBD,73.8,,,,,Raw,O
 22,Aleksey Rodionov,Алексей Родионов,1993,83,M,SBD,82.4,195,137.5,210,542.5,Raw,Open
 23,Andrey Gutovskiy,Андрей Гутовский,1997,83,M,SBD,78.75,205,125,202.5,532.5,Raw,Open
 24,Sergey Eleseev,Сергей Елесеев,1980,83,M,SBD,80.85,170,120,210,500,Raw,Open
-1,Roman Pogorelov,Роман Погорелов,1986,93,M,SBD,88.85,265,177.5,290,732.5,Raw,Open
+1,Roman Pogorelov #1,Роман Погорелов,1986,93,M,SBD,88.85,265,177.5,290,732.5,Raw,Open
 2,Nikolay Tsveloy,Николай Цвелой,1991,93,M,SBD,93,265,180,270,715,Raw,Open
 3,Konstantin Zarembo,Константин Зарембо,1984,93,M,SBD,92.4,257.5,175,270,702.5,Raw,Open
 4,Marat Sharafutdinov,Марат Шарафутдинов,1989,93,M,SBD,92.7,245,170,265,680,Raw,Open

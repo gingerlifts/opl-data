@@ -4,7 +4,7 @@ Place,Name,BodyweightKg,WeightClassKg,Sex,Country,Best3BenchKg,TotalKg,Event,Equ
 3,Thongsa Marasri,,48,M,Thailand,150,150,B,Raw,Open
 4,Shan Ming Chen,,48,M,China,150,150,B,Raw,Open
 5,Thongdaeng Weiktaisong,,48,M,Thailand,145,145,B,Raw,Open
-6,Juan Carlos Garrido,,48,M,Chile,142.5,142.5,B,Raw,Open
+6,Juan Carlos Garrido Acevedo,,48,M,Chile,142.5,142.5,B,Raw,Open
 7,Edmund Klimek,,48,M,Poland,137.5,137.5,B,Raw,Open
 8,Atajan Begniyazov,,48,M,Turkmenistan,135,135,B,Raw,Open
 9,Wayne Sharpe,,48,M,Australia,122.5,122.5,B,Raw,Open
@@ -79,10 +79,10 @@ DQ,Zhaohuo Yang,,60,M,China,,,B,Raw,Open
 DQ,Mariappan Perumal,,67.5,M,Malaysia,,,B,Raw,Open
 1,Haidong Zhang,,75,M,China,240,240,B,Raw,Open
 2,Mansour Dimasi,,75,M,Iran,210,210,B,Raw,Open
-3,Sayed Abd El Aal El,,75,M,Egypt,205,205,B,Raw,Open
+3,El Sayed Abd El Aal,,75,M,Egypt,205,205,B,Raw,Open
 4,David Egbinola,,75,M,Nigeria,202.5,202.5,B,Raw,Open
 5,Ryszard Fornalczyk,,75,M,Poland,200,200,B,Raw,Open
-6,Robert Studzizba,,75,M,Poland,190,190,B,Raw,Open
+6,Robert Studziżba,,75,M,Poland,190,190,B,Raw,Open
 7,Ammar Cheikh Ahmad,,75,M,Syria,185,185,B,Raw,Open
 8,Kenneth Doyle,,75,M,Canada,177.5,177.5,B,Raw,Open
 9,Gregory Jacobs,,75,M,France,175,175,B,Raw,Open
@@ -129,11 +129,11 @@ DQ,John van Ruitenbeek,,82.5,M,Netherlands,,,B,Raw,Open
 9,Andriy Barybin,,90,M,Ukraine,190,190,B,Raw,Open
 10,Sergey Istomin,,90,M,Russia,182.5,182.5,B,Raw,Open
 11,Ahmad Zaki,,90,M,Jordan,180,180,B,Raw,Open
-12,Steven Green,,90,M,Australia,170,170,B,Raw,Open
+12,Steve Green,,90,M,Australia,170,170,B,Raw,Open
 13,Vijay Munishwar,,90,M,India,160,160,B,Raw,Open
 14,Anatoli Kolodiouk,,90,M,Kazakhstan,150,150,B,Raw,Open
 15,Domingo Garcia Perez,,90,M,Spain,150,150,B,Raw,Open
-DQ,Gioundouz Ismailov,,90,M,Azerbaijan,,,B,Raw,Open
+DQ,Gyunduz Ismailov,,90,M,Azerbaijan,,,B,Raw,Open
 DQ,Fadhel Bu Abbas,,90,M,Kuwait,,,B,Raw,Open
 1,Amrollah Dehghani,,100,M,Iran,232.5,232.5,B,Raw,Open
 2,Sherif Bakr,,100,M,Egypt,232.5,232.5,B,Raw,Open
@@ -152,8 +152,8 @@ DQ,Fadhel Bu Abbas,,90,M,Kuwait,,,B,Raw,Open
 15,Ali Mohsein,,100,M,Qatar,182.5,182.5,B,Raw,Open
 16,Adrian Sandu,,100,M,Romania,167.5,167.5,B,Raw,Open
 DQ,Patrick Akutaekwe,,100,M,Nigeria,,,B,Raw,Open
-1,Pernell Cooper,,100+,M,UAE,237.5,237.5,B,Raw,Open
-2,Kim Brownfield,,100+,M,UAE,235,235,B,Raw,Open
+1,Pernell Cooper,,100+,M,USA,237.5,237.5,B,Raw,Open
+2,Kim Brownfield,,100+,M,USA,235,235,B,Raw,Open
 3,Abdelrahim Hamed,,100+,M,Libya,235,235,B,Raw,Open
 4,Leszek Hallmann,,100+,M,Poland,225,225,B,Raw,Open
 5,George Taamaru,,100+,M,New Zealand,222.5,222.5,B,Raw,Open
@@ -214,7 +214,7 @@ DQ,Tracey Wright,,56,F,New Zealand,,,B,Raw,Open
 6,Connie Eisenbraun,,60,F,USA,87.5,87.5,B,Raw,Open
 7,Sana'a Alaskari,,60,F,Kuwait,82.5,82.5,B,Raw,Open
 8,Ya-Hsuan Lin,,60,F,Taiwan,75,75,B,Raw,Open
-9,Carmen Rodriguez,,60,F,Mexico,75,75,B,Raw,Open
+9,Carmen Rodriguez #2,,60,F,Mexico,75,75,B,Raw,Open
 10,Jeannette Thibisay Heredia,,60,F,Venezuela,72.5,72.5,B,Raw,Open
 11,Fatiha Atertor,,60,F,Morocco,67.5,67.5,B,Raw,Open
 1,Patricia Okafor,,67.5,F,Nigeria,122.5,122.5,B,Raw,Open

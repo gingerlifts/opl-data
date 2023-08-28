@@ -43,7 +43,7 @@ John Bertocki,100,M,PA,M-M,49,172.5,182.5,187.5,187.5,,,,,187.5,B,Single-ply,1
 Joe Hirsch,110,M,PA,M-M,40,195,205,212.5,212.5,,,,,212.5,B,Single-ply,1
 Thomas Harman,110,M,PA,M-M,49,185,195,-197.5,195,,,,,195,B,Single-ply,2
 Mark Jenkins,110,M,PA,M-M,44,75,92.5,97.5,97.5,,,,,97.5,B,Single-ply,5
-Raymond Murhon,110,M,PA,M-M,49,172.5,-182.5,187.5,187.5,,,,,187.5,B,Single-ply,3
+Ray Murhon,110,M,PA,M-M,49,172.5,-182.5,187.5,187.5,,,,,187.5,B,Single-ply,3
 Brian Donnelly,125,M,PA,M-M,63,-167.5,175,-182.5,175,,,,,175,B,Single-ply,2
 Al Thompson,125,M,PA,M-M,52,175,-185,-185,175,,,,,175,B,Single-ply,3
 Stan Roesch,125,M,PA,M-M,41,185,-195,195,195,,,,,195,B,Single-ply,1
@@ -72,7 +72,7 @@ Don Wilson,100,M,PA,M-O,,145,155,165,165,,,,,165,B,Single-ply,2
 Cliff Dickey,100,M,PA,M-O,,165,172.5,-182.5,172.5,,,,,172.5,B,Single-ply,1
 Patrick Klacik,110,M,PA,M-O,,147.5,160,-170,160,,,,,160,B,Single-ply,7
 Frank Peters,110,M,PA,M-O,,192.5,200,210,210,,,,,210,B,Single-ply,2
-Raymond Murhon,110,M,PA,M-O,49,172.5,-182.5,187.5,187.5,,,,,187.5,B,Single-ply,4
+Ray Murhon,110,M,PA,M-O,49,172.5,-182.5,187.5,187.5,,,,,187.5,B,Single-ply,4
 Joe Hirsch,110,M,PA,M-O,40,195,205,212.5,212.5,,,,,212.5,B,Single-ply,1
 Kevin Voce,110,M,PA,M-O,,150,165,-170,165,,,,,165,B,Single-ply,6
 Barry Myers,110,M,PA,M-O,,-182.5,182.5,-185,182.5,,,,,182.5,B,Single-ply,5
@@ -83,7 +83,7 @@ Dan Ratchford,125,M,PA,M-O,,215,232.5,-235,232.5,,,,,232.5,B,Single-ply,2
 Jim McElwee,125,M,PA,M-O,,-230,-230,-230,,,,,,,B,Single-ply,DQ
 Al Thompson,125,M,PA,M-O,52,227.5,237.5,245,245,,,,,245,B,Single-ply,1
 Aaron Utermahlen,125+,M,PA,M-O,,192.5,202.5,210,210,,,,,210,B,Single-ply,2
-Niko Hulslander,125+,M,PA,M-O,,275,282.5,-292.5,282.5,,,,,282.5,B,Single-ply,1
+Dennis Hulslander,125+,M,PA,M-O,,275,282.5,-292.5,282.5,,,,,282.5,B,Single-ply,1
 Tony Forella,125+,M,PA,M-O,,-160,160,172.5,172.5,,,,,172.5,B,Single-ply,3
 Kyle Stephens,110,M,,M-G,,215,225,232.5,232.5,,,,,232.5,B,Single-ply,G
 David Pora,82.5,M,,M-G,46,,,,,,,,,,B,Single-ply,DQ
@@ -115,7 +115,7 @@ Andrew Elkin,90,M,PA,M-T3,19,,,,,237.5,-260,-260,237.5,237.5,D,Single-ply,2
 Rocco DeStefano,90,M,PA,M-Jr,21,,,,,227.5,250,-260,250,250,D,Single-ply,1
 Michael Christian,125+,M,PA,M-Jr,23,,,,,255,-272.5,272.5,272.5,272.5,D,Single-ply,1
 Ronald Ragland,82.5,M,PA,M-T3,19,,,,,177.5,182.5,192.5,192.5,192.5,D,Single-ply,1
-Nicholas Theodorou,75,M,PA,M-M,54,,,,,227.5,247.5,262.5,262.5,262.5,D,Single-ply,1
+Nick Theodorou,75,M,PA,M-M,54,,,,,227.5,247.5,262.5,262.5,262.5,D,Single-ply,1
 Baptist Nupieri,90,M,PA,M-M,42,,,,,202.5,207.5,215,215,215,D,Single-ply,1
 Stan Nocek,90,M,PA,M-M,51,,,,,180,190,-195,190,190,D,Single-ply,2
 Mark Jenkins,110,M,PA,M-M,44,,,,,155,175,182.5,182.5,182.5,D,Single-ply,1
@@ -124,8 +124,8 @@ David Pora,82.5,M,,M-G,46,,,,,122.5,137.5,145,145,145,D,Single-ply,G
 Jim Smith #8,67.5,M,PA,M-O,,,,,,172.5,200,-210,200,200,D,Single-ply,2
 Kostadin Bahchevanov,67.5,M,PA,M-O,,,,,,215,225,-235,225,225,D,Single-ply,1
 Mike Cagliola,75,M,PA,M-O,,,,,,,,,,,D,Single-ply,DQ
-Nicholas Theodorou,75,M,PA,M-O,,,,,,,,,,,D,Single-ply,DQ
-William Kelly,75,M,PA,M-O,,,,,,182.5,-200,-200,182.5,182.5,D,Single-ply,1
+Nick Theodorou,75,M,PA,M-O,,,,,,,,,,,D,Single-ply,DQ
+William Kelly #3,75,M,PA,M-O,,,,,,182.5,-200,-200,182.5,182.5,D,Single-ply,1
 Scott Davenport,82.5,M,PA,M-O,,,,,,197.5,-215,215,215,215,D,Single-ply,2
 Terry Dickey,82.5,M,PA,M-O,,,,,,205,217.5,,217.5,217.5,D,Single-ply,1
 Pete Grohoski,90,M,PA,M-O,,,,,,237.5,-247.5,-247.5,237.5,237.5,D,Single-ply,1
@@ -142,6 +142,6 @@ Brian Dacosta,125,M,PA,M-O,,,,,,222.5,237.5,247.5,247.5,247.5,D,Single-ply,2
 Al Thompson,125,M,PA,M-O,52,,,,,227.5,237.5,245,245,245,D,Single-ply,3
 Johnathan Moll,125,M,PA,M-O,,,,,,185,197.5,-202.5,197.5,197.5,D,Single-ply,4
 Aaron Utermahlen,125+,M,PA,M-O,,,,,,227.5,240,250,250,250,D,Single-ply,2
-Niko Hulslander,125+,M,PA,M-O,,,,,,302.5,320,325,325,325,D,Single-ply,1
+Dennis Hulslander,125+,M,PA,M-O,,,,,,302.5,320,325,325,325,D,Single-ply,1
 Tony Forella,125+,M,PA,M-O,,,,,,232.5,242.5,-250,242.5,242.5,D,Single-ply,3
 Mike Robortaccio,100,M,,M-G,23,,,,,-217.5,217.5,230,230,230,D,Single-ply,G

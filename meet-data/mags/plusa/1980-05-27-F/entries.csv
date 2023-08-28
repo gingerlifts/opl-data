@@ -1,6 +1,6 @@
 Name,WeightClassKg,Division,Sex,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Equipment,Place
 K. Burkhard,52,Open,M,90.72,56.7,117.93,265.35,SBD,Single-ply,1
-R. Fogel,56,Open,M,147.42,104.33,170.1,421.84,SBD,Single-ply,1
+Ron Fogel,56,Open,M,147.42,104.33,170.1,421.84,SBD,Single-ply,1
 J. Torelli,56,Open,M,149.69,104.33,151.95,405.97,SBD,Single-ply,2
 S. Tanako,56,Open,M,124.74,68.04,138.35,331.12,SBD,Single-ply,3
 W. Tenor,56,Open,M,99.79,86.18,124.74,310.71,SBD,Single-ply,4
@@ -25,8 +25,8 @@ K. Wantroba,75,Open,M,117.93,102.06,188.24,408.23,SBD,Single-ply,10
 Jeff Orr,82.5,Open,M,249.48,154.22,283.5,687.19,SBD,Single-ply,1
 Terrence Brady,82.5,Open,M,249.48,147.42,238.14,635.03,SBD,Single-ply,2
 G. Fiddler,82.5,Open,M,210.92,140.61,272.16,623.69,SBD,Single-ply,3
-J. DiMaggio,82.5,Open,M,238.14,127.01,244.94,610.08,SBD,Single-ply,4
-G. Zweig,82.5,Open,M,185.97,142.88,260.82,589.67,SBD,Single-ply,5
+Joe DiMaggio Sr,82.5,Open,M,238.14,127.01,244.94,610.08,SBD,Single-ply,4
+Greg Zweig,82.5,Open,M,185.97,142.88,260.82,589.67,SBD,Single-ply,5
 F. Scott,82.5,Open,M,170.1,158.76,226.8,555.65,SBD,Single-ply,6
 B. Hoffmann,82.5,Open,M,181.44,108.86,258.55,548.85,SBD,Single-ply,7
 R. Bianchi,82.5,Open,M,170.1,142.88,226.8,539.78,SBD,Single-ply,8
@@ -34,7 +34,7 @@ S. Studebaker,82.5,Open,M,195.04,124.74,204.12,523.9,SBD,Single-ply,9
 G. Brandt,82.5,Open,M,172.37,129.27,181.44,483.08,SBD,Single-ply,10
 D. Koning,90,Open,M,249.48,176.9,254.01,680.39,SBD,Single-ply,1
 Jim Mize,90,Open,M,238.14,179.17,244.94,662.25,SBD,Single-ply,2
-B. Bleadon,90,Open,M,238.14,154.22,254.01,646.37,SBD,Single-ply,3
+Ben Bleadon,90,Open,M,238.14,154.22,254.01,646.37,SBD,Single-ply,3
 D. Strickl,90,Open,M,204.12,147.42,247.21,598.74,SBD,Single-ply,4
 D. Long,90,Open,M,206.38,142.88,240.4,589.67,SBD,Single-ply,5
 Dave Dick,90,Open,M,215.46,133.81,238.14,587.4,SBD,Single-ply,6
@@ -43,8 +43,8 @@ M. Peleza,90,Open,M,188.24,136.08,208.65,532.97,SBD,Single-ply,8
 M. Snack,90,Open,M,190.51,120.2,183.71,494.42,SBD,Single-ply,9
 G. Andrews,90,Open,M,149.69,90.72,219.99,460.4,SBD,Single-ply,10
 S. Ostojic,90,Open,M,149.69,115.67,183.71,449.06,SBD,Single-ply,11
-J. Frick,100,Open,M,272.16,158.76,272.16,703.07,SBD,Single-ply,1
-R. Falcioni,100,Open,M,242.67,147.42,258.55,648.64,SBD,Single-ply,2
+John Frick,100,Open,M,272.16,158.76,272.16,703.07,SBD,Single-ply,1
+Robert Falcioni,100,Open,M,242.67,147.42,258.55,648.64,SBD,Single-ply,2
 J. Epstein,100,Open,M,217.72,176.9,251.74,646.37,SBD,Single-ply,3
 T. Nenrek,100,Open,M,226.8,167.83,251.74,646.37,SBD,Single-ply,4
 P. Canada,100,Open,M,204.12,140.61,258.55,603.28,SBD,Single-ply,5
@@ -56,5 +56,5 @@ M. Stewart,110,Open,M,254.01,170.1,219.99,644.1,SBD,Single-ply,2
 S. Snitca,110,Open,M,215.46,154.22,272.16,641.83,SBD,Single-ply,3
 Kevin Wold,110,Open,M,226.8,149.69,258.55,635.03,SBD,Single-ply,4
 Mike Pacyga,110,Open,M,210.92,147.42,272.16,630.49,SBD,Single-ply,5
-T. Melinger,110,Open,M,199.58,124.74,249.48,573.8,SBD,Single-ply,6
+Terry Melinger,110,Open,M,199.58,124.74,249.48,573.8,SBD,Single-ply,6
 T. White,125,Open,M,215.46,167.83,238.14,621.42,SBD,Single-ply,1

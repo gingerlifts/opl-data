@@ -2,7 +2,7 @@ Division,WeightClassKg,Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Be
 Boys,51.71,1,Rafael Morales,Laredo Cigarroa,51.62,138.35,79.38,149.69,367.41,Single-ply,SBD,M
 Boys,55.79,2,Michael Davis #1,San Antonio East Central,51.8,99.79,58.97,108.86,267.62,Single-ply,SBD,M
 Boys,51.71,3,Jesus Ramirez,Zapata,45.45,65.77,47.63,99.79,213.19,Single-ply,SBD,M
-Boys,55.79,1,Austin Johnson,Bandera,53.98,147.42,106.59,154.22,408.23,Single-ply,SBD,M
+Boys,55.79,1,Austin Johnson #6,Bandera,53.98,147.42,106.59,154.22,408.23,Single-ply,SBD,M
 Boys,59.87,2,Travis Gaffney,San Antonio East Central,55.97,149.69,81.65,151.95,383.29,Single-ply,SBD,M
 Boys,55.79,3,Felipe Medina,Zapata,55.25,140.61,63.5,154.22,358.34,Single-ply,SBD,M
 Boys,55.79,4,Tj Romero,Jourdanton,55.7,138.35,79.38,138.35,356.07,Single-ply,SBD,M
@@ -13,7 +13,7 @@ Boys,55.79,8,Allan Patty,San Antonio East Central,54.79,102.06,56.7,113.4,272.16
 Boys,59.87,9,Christian Aguirre,Pearsall,55.97,97.52,68.04,,165.56,Single-ply,SB,M
 Boys,55.79,10,Roland Sanchez,Uvalde,55.43,113.4,,,113.4,Single-ply,S,M
 Boys,55.79,DQ,Christian Sanchez,Cotulla,55.79,,,,,Single-ply,S,M
-Boys,59.87,1,Edgar Martinez,Laredo Cigarroa,59.87,179.17,92.99,185.97,458.13,Single-ply,SBD,M
+Boys,59.87,1,Edgar Martinez #4,Laredo Cigarroa,59.87,179.17,92.99,185.97,458.13,Single-ply,SBD,M
 Boys,59.87,2,Thomas Garza,San Antonio East Central,59.42,136.08,106.59,140.61,383.29,Single-ply,SBD,M
 Boys,67.13,3,Marc Campos,San Antonio East Central,60.06,158.76,70.31,149.69,378.75,Single-ply,SBD,M
 Boys,59.87,4,Matt Rodriguez,San Antonio East Central,58.06,138.35,79.38,140.61,358.34,Single-ply,SBD,M
@@ -42,7 +42,7 @@ Boys,67.13,DQ,Jesus Chavez,Uvalde,67.13,,,,,Single-ply,S,M
 Boys,74.84,1,Danny Flores,Zapata,73.03,201.85,111.13,210.92,523.9,Single-ply,SBD,M
 Boys,74.84,2,Eduardo Salinas,Laredo Cigarroa,73.03,185.97,102.06,192.78,480.81,Single-ply,SBD,M
 Boys,74.84,3,Alfredo Castillo,Zapata,73.66,170.1,113.4,185.97,469.47,Single-ply,SBD,M
-Boys,74.84,4,Eddie Flores,Dilley,71.49,170.1,104.33,172.37,446.79,Single-ply,SBD,M
+Boys,74.84,4,Edison Flores,Dilley,71.49,170.1,104.33,172.37,446.79,Single-ply,SBD,M
 Boys,74.84,5,Angel Espinosa,Laredo Cigarroa,70.13,163.29,83.91,163.29,410.5,Single-ply,SBD,M
 Boys,74.84,6,Jose Cardenas,Uvalde,68.04,127.01,83.91,174.63,385.55,Single-ply,SBD,M
 Boys,74.84,7,John Trevino,Hebbronville,71.12,138.35,79.38,167.83,385.55,Single-ply,SBD,M
@@ -71,7 +71,7 @@ Boys,89.81,1,Paul Dupart,San Antonio East Central,89.18,247.21,129.27,183.7,560.
 Boys,89.81,2,Chris Hearn,Cotulla,87.09,192.78,113.4,226.8,532.97,Single-ply,SBD,M
 Boys,89.81,3,Justin Fuentes,Zapata,87.54,197.31,117.93,185.97,501.22,Single-ply,SBD,M
 Boys,89.81,4,Abel Gonzalez,Dilley,89.27,206.38,102.06,192.78,501.22,Single-ply,SBD,M
-Boys,89.81,5,Joe Hernandez,San Antonio East Central,88.27,185.97,106.59,181.44,474,Single-ply,SBD,M
+Boys,89.81,5,Joe Hernandez #1,San Antonio East Central,88.27,185.97,106.59,181.44,474,Single-ply,SBD,M
 Boys,99.79,6,Heriberto Canales,Hebbronville,89.99,170.1,99.79,190.51,460.4,Single-ply,SBD,M
 Boys,89.81,7,Esteban Arredondo,Hebbronville,88.9,151.95,90.72,195.04,437.72,Single-ply,SBD,M
 Boys,89.81,8,Santos Dominguez,San Antonio East Central,85.82,154.22,92.99,185.97,433.18,Single-ply,SBD,M
@@ -98,7 +98,7 @@ Boys,99.79,DQ,Chris McCumber,San Antonio East Central,99.79,,,,,Single-ply,S,M
 Boys,99.79,DQ,MacNeal Price,San Antonio East Central,99.79,,,,,Single-ply,S,M
 Boys,99.79,DQ,Jaime Menchaca,Carrizo Springs,92.9,,,,,Single-ply,S,M
 Boys,109.77,1,Brandon Brashear,Jourdanton,109.04,217.72,149.69,229.06,596.47,Single-ply,SBD,M
-Boys,109.77,2,Raul Hinojosa,Zapata,103.33,217.72,124.74,217.72,560.19,Single-ply,SBD,M
+Boys,109.77,2,Raul Hinojosa #2,Zapata,103.33,217.72,124.74,217.72,560.19,Single-ply,SBD,M
 Boys,109.77,3,Russell Lualemaga,Uvalde,105.14,226.8,99.79,217.72,544.31,Single-ply,SBD,M
 Boys,109.77,4,Michael Dominguez,Hebbronville,106.59,192.78,104.33,226.8,523.9,Single-ply,SBD,M
 Boys,109.77,5,Brian Leal,Pearsall,103.42,158.76,90.72,190.51,439.98,Single-ply,SBD,M

@@ -31,7 +31,7 @@ Place,Name,CyrillicName,BirthYear,WeightClassKg,BodyweightKg,Best3SquatKg,Best3B
 DQ,Yuriy Muretov,Юрий Муретов,1940,90,83.7,190,,,,M,Masters 3,SBD,Single-ply
 1,Pavel Gorte,Павел Гортэ,1947,100,99.35,210,165,200,575,M,Masters 3,SBD,Single-ply
 1,Nikolay Shokat,Николай Шокат,1947,110,100.4,270,200,250,720,M,Masters 3,SBD,Single-ply
-1,Nikolay Aksenov,Николай Аксёнов,1957,56,55.15,180,90,190,460,M,Masters 2,SBD,Single-ply
+1,Nikolay Aksenov,Николай Аксенов,1957,56,55.15,180,90,190,460,M,Masters 2,SBD,Single-ply
 1,Vladislav Timirgaleev,Владислав Тимиргалеев,1956,60,59.9,190,120,175,485,M,Masters 2,SBD,Single-ply
 2,Konstantin Zubov,Константин Зубов,1952,60,59.35,182.5,105,180,467.5,M,Masters 2,SBD,Single-ply
 3,Viktor Goshev,Виктор Гошев,1958,60,59.55,140,92.5,150,382.5,M,Masters 2,SBD,Single-ply
@@ -75,7 +75,7 @@ DQ,Evgeniy Tverdovskiy,Евгений Твердовский,1949,90,88.1,,,,,M,
 2,Konstantin Kiselev,Константин Киселев,1965,90,89.8,265,195,265,725,M,Masters 1,SBD,Single-ply
 3,Gennadiy Chingin,Геннадий Чингин,1962,90,88.65,270,167.5,230,667.5,M,Masters 1,SBD,Single-ply
 4,Dmitriy Nadolin,Дмитрий Надолин,1964,90,87.7,270,150,245,665,M,Masters 1,SBD,Single-ply
-5,Nikolay Kurakin,Николай Куракин,1967,90,88.65,282.5,70,290,642.5,M,Masters 1,SBD,Single-ply
+5,Nikolai Kurakin,Николай Куракин,1967,90,88.65,282.5,70,290,642.5,M,Masters 1,SBD,Single-ply
 6,Gennadiy Deys,Геннадий Дейс,1965,90,87.55,235,165,240,640,M,Masters 1,SBD,Single-ply
 1,Vitaliy Yakovlev,Виталий Яковлев,1961,100,99.75,300,170,280,750,M,Masters 1,SBD,Single-ply
 2,Nikolay Golubev,Николай Голубев,1959,100,98.65,250,145,240,635,M,Masters 1,SBD,Single-ply

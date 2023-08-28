@@ -58,7 +58,7 @@ Max Reichert,M,M_TEM_1_APF,Multi-ply,SBD,100,96,227.5,140,220,587.5,1
 John Caruso,M,M_TEM_3_APF,Multi-ply,SBD,110,104.4,282.5,235,272.5,790,1
 Jay Yates,M,M_TEM_3_APF,Multi-ply,SBD,125,111.8,340,187.5,277.5,805,1
 Nate McCoole,M,M_TEM_2_APF,Multi-ply,SBD,140,137.8,347.5,252.5,260,860,1
-Caleb Smith,M,M_TEM_1_APF,Multi-ply,SBD,140+,147.5,230,120,205,555,1
+Caleb Smith #7,M,M_TEM_1_APF,Multi-ply,SBD,140+,147.5,230,120,205,555,1
 Ja'Mon Williams,M,M_CEM_APF,Multi-ply,SBD,56,55.2,180,95,192.5,467.5,1
 Collin Hughes,M,M_CEM_APF,Multi-ply,SBD,110,105.6,305,190,260,755,1
 Courtney Sharp,M,M_CEM_APF,Multi-ply,SBD,125,121.9,310,,,,DQ
@@ -93,7 +93,7 @@ Alan Cayer,M,M_MEM_4_APF,Multi-ply,SBD,75,74.6,337.5,195,285,817.5,1
 John Fukuda,M,M_MEM_2_APF,Multi-ply,SBD,82.5,79.9,262.5,170,232.5,665,1
 John Wood,M,M_MEM_2_APF,Multi-ply,SBD,82.5,78.8,220,170,240,630,2
 Dennis Pittman,M,M_MEM_5_APF,Multi-ply,SBD,82.5,80.5,237.5,142.5,227.5,607.5,1
-Rick Layman,M,M_MEM_5_APF,Multi-ply,SBD,82.5,79.5,,,,,DQ
+Richard Layman,M,M_MEM_5_APF,Multi-ply,SBD,82.5,79.5,,,,,DQ
 Alex Ortiz #1,M,M_MEM_1_APF,Multi-ply,SBD,90,89.9,320,227.5,260,807.5,1
 Mark Hibbing,M,M_MEM_1_APF,Multi-ply,SBD,90,87.8,280,190,265,735,2
 Tracy Frein,M,M_MEM_3_APF,Multi-ply,SBD,90,89.8,230,100,180,510,1
@@ -105,16 +105,16 @@ Mike Ironfield,M,M_MEM_2_APF,Multi-ply,SBD,100,98.8,365,215,282.5,862.5,1
 Henry Fletcher,M,M_MEM_2_APF,Multi-ply,SBD,100,97.9,372.5,197.5,282.5,852.5,2
 Guadalupe Gonzalez,M,M_MEM_2_APF,Multi-ply,SBD,100,97.1,197.5,112.5,180,490,3
 John Hare,M,M_MEM_3_APF,Multi-ply,SBD,100,98.3,340,232.5,272.5,845,1
-Chris Garcia,M,M_MEM_4_APF,Multi-ply,SBD,100,99.1,342.5,45,142.5,530,1
+Chris Garcia #3,M,M_MEM_4_APF,Multi-ply,SBD,100,99.1,342.5,45,142.5,530,1
 John Burgard,M,M_MEM_5_APF,Multi-ply,SBD,100,97.2,240,140,230,610,1
 Terry Lancaster,M,M_MEM_6_APF,Multi-ply,SBD,100,97.7,182.5,150,210,542.5,1
 Vincent Breaux,M,M_MEM_6_APF,Multi-ply,SBD,100,97.3,172.5,,,,DQ
-Mike Martin,M,M_MEM_1_APF,Multi-ply,SBD,110,109.1,365,260,305,930,1
+Mike Martin #2,M,M_MEM_1_APF,Multi-ply,SBD,110,109.1,365,260,305,930,1
 Scott Johnson,M,M_MEM_1_APF,Multi-ply,SBD,110,108.6,320,217.5,260,797.5,2
 Kelly Jones,M,M_MEM_2_APF,Multi-ply,SBD,110,102.1,272.5,207.5,245,725,1
 Tony Burton,M,M_MEM_2_APF,Multi-ply,SBD,110,108.4,305,67.5,272.5,645,2
 Larry Mistric,M,M_MEM_4_APF,Multi-ply,SBD,110,109,365,240,277.5,882.5,1
-Dick Zenzen,M,M_MEM_6_APF,Multi-ply,SBD,110,108.3,305,,,,DQ
+Dick Zenzen,M,M_MEM_5_APF,Multi-ply,SBD,110,108.3,305,,,,DQ
 Joe Norman,M,M_MEM_1_APF,Multi-ply,SBD,125,116.9,435,305,295,1035,1
 Andrew Yerrakadu,M,M_MEM_1_APF,Multi-ply,SBD,125,118.4,345,227.5,272.5,845,2
 Gregg Damminga,M,M_MEM_3_APF,Multi-ply,SBD,125,124.3,,,,,DQ
@@ -125,7 +125,7 @@ Steve Peterson,M,M_MEM_3_APF,Multi-ply,SBD,140,127.6,,,,,DQ
 Norman Rice,M,M_MEM_2_APF,Multi-ply,SBD,140+,162.6,225,165,245,635,1
 Brent Alapa,M,M_SEM_APF,Multi-ply,SBD,90,88.6,300,210,245,755,1
 Chris Duffin,M,M_SEM_APF,Multi-ply,SBD,100,99.6,395,232.5,330,957.5,1
-Henry Thomason,M,M_OEM_APF,Multi-ply,SBD,140,139.9,477.5,350,230,1057.5,G
+Henry Thomason,M,M_OES_APF,Single-ply,SBD,140,139.9,477.5,350,230,1057.5,G
 Markus Veirs,M,M_MEM_2_APF,Multi-ply,B,75,74.5,,185,,185,1
 Nick Marinis,M,M_MEM_2_APF,Multi-ply,B,82.5,82.2,,30,,30,1
 Ronald Greenlee,M,M_MEM_6_APF,Multi-ply,B,82.5,79.7,,125,,125,1
@@ -135,7 +135,7 @@ Jim Briggs,M,M_MEM_3_APF,Multi-ply,B,90,89.5,,145,,145,2
 Tracy Frein,M,M_MEM_3_APF,Multi-ply,B,90,89.8,,100,,100,3
 Tom West,M,M_MEM_4_APF,Multi-ply,B,90,87.8,,150,,150,1
 Fred Woodson,M,M_MEM_1_APF,Multi-ply,B,100,99.9,,100,,100,1
-Joe Martin,M,M_MEM_2_APF,Multi-ply,B,100,99,,220,,220,1
+Joe Martin #6,M,M_MEM_2_APF,Multi-ply,B,100,99,,220,,220,1
 John Hare,M,M_MEM_3_APF,Multi-ply,B,100,98.3,,232.5,,232.5,1
 Tony Bartolomei,M,M_MEM_3_APF,Multi-ply,B,110,109.4,,235,,235,1
 Joe Smolinski,M,M_MEM_4_APF,Multi-ply,B,110,108,,,,,DQ

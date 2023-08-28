@@ -12,7 +12,7 @@ SBD,F,Shantelle Szuch,SK,62.8,63,Open,180,97.5,187.5,465,Single-ply,2
 SBD,F,Melanie Ziffle,SK,60.9,63,Open,200,105,170,475,Single-ply,1
 SBD,F,Robyn Ripley,ON,57,57,Open,130,67.5,160,357.5,Single-ply,2
 SBD,F,Robyn Price,SK,54.6,57,Open,155,75,127.5,357.5,Single-ply,1
-SBD,F,Steph Kean,NL,51.5,52,Open,155.5,90,165,410.5,Single-ply,1
+SBD,F,Stef Kean,NL,51.5,52,Open,155.5,90,165,410.5,Single-ply,1
 SBD,M,Ryan Stinn,SK,140.3,120+,Open,285,270,310,865,Single-ply,1
 SBD,M,Russell Agnew,SK,114.9,120,Open,295,180,287.5,762.5,Single-ply,3
 SBD,M,Lucas Tetreault,SK,119.4,120,Open,310,220,282.5,812.5,Single-ply,2
@@ -55,7 +55,7 @@ SBD,M,Mike MacDonald #2,AB,92.7,93,Open,245,185,305,735,Raw,4
 SBD,M,Jon Marrese,AB,92,93,Open,240,132.5,255,627.5,Raw,13
 SBD,M,Joël Boulianne,QC,92.4,93,Open,257.5,202.5,290,750,Raw,3
 SBD,M,David Stevens,SK,90.2,93,Open,272.5,170,287.5,730,Raw,7
-SBD,M,Cameron Jones,SK,90.5,93,Open,75,132.5,265,472.5,Raw,14
+SBD,M,Cameron Jones #2,SK,90.5,93,Open,75,132.5,265,472.5,Raw,14
 SBD,M,Brandon Summers,ON,91.9,93,Open,250,177.5,260,687.5,Raw,9
 SBD,M,Ben Kozyra,AB,91.9,93,Open,222.5,157.5,265,645,Raw,11
 SBD,M,Beau Hanrahan,AB,92.2,93,Open,255,175,272.5,702.5,Raw,8
@@ -134,7 +134,7 @@ SBD,M,Serge Gauthier,QC,54,59,Open,152.5,107.5,157.5,417.5,Raw,3
 SBD,M,Jerimiah West,ON,58.8,59,Open,175,110,192.5,477.5,Raw,1
 SBD,M,Alfred Jong,AB,58.2,59,Open,167.5,105,195,467.5,Raw,2
 SBD,F,Naomi Graham,QC,55.6,57,Open,100,55,140,295,Raw,12
-SBD,F,Michelle Smith,NS,56.2,57,Open,125,62.5,157.5,345,Raw,4
+SBD,F,Michelle Smith #3,NS,56.2,57,Open,125,62.5,157.5,345,Raw,4
 SBD,F,Michelle Butler,SK,56.7,57,Open,102.5,52.5,120,275,Raw,14
 SBD,F,Maria Htee,NL,56.8,57,Open,173,95,167.5,435.5,Raw,1
 SBD,F,Julie Mushynsky,SK,56.1,57,Open,130,55,152.5,337.5,Raw,5
@@ -147,7 +147,7 @@ SBD,F,Erin Ashbacher,AB,54.5,57,Open,105,70,122.5,297.5,Raw,11
 SBD,F,Elisabeth Fournier,ON,56.3,57,Open,112.5,60,160,332.5,Raw,7
 SBD,F,Brittney Bergen,SK,56.5,57,Open,140,75,157.5,372.5,Raw,3
 SBD,F,Angela Williams,NL,56.2,57,Open,130,60,142.5,332.5,Raw,6
-SBD,F,Steph Kean,NL,49.7,52,Open,143.5,67.5,150,361,Raw,2
+SBD,F,Stef Kean,NL,49.7,52,Open,143.5,67.5,150,361,Raw,2
 SBD,F,Joanna Rieber,ON,51.7,52,Open,130,85.5,152.5,368,Raw,1
 SBD,F,Jill MacFarlane,PE,48.5,52,Open,72.5,45,87.5,205,Raw,5
 SBD,F,Cynthia Vo,ON,49.8,52,Open,117.5,65,155,337.5,Raw,3
@@ -208,7 +208,7 @@ SBD,F,Stephanie Needham,BC,82.5,84,Masters 2,115,70,140,325,Raw,3
 SBD,F,Shari Khawaja,ON,75.2,84,Masters 2,142.5,87.5,162.5,392.5,Raw,1
 SBD,F,Linda McFeeters,ON,75.7,84,Masters 2,100,65,147.5,312.5,Raw,5
 SBD,F,Janine Wheeler,ON,83.5,84,Masters 2,110,60,125,295,Raw,6
-SBD,F,Janet Martin,NL,83.3,84,Masters 2,122.5,50,150,322.5,Raw,4
+SBD,F,Janet Martin #2,NL,83.3,84,Masters 2,122.5,50,150,322.5,Raw,4
 SBD,F,Genevieve Grant,SK,83.2,84,Masters 2,132.5,82.5,167.5,382.5,Raw,2
 SBD,M,Sandro D'Angelo,ON,82.1,83,Masters 2,207.5,132.5,247.5,587.5,Raw,2
 SBD,M,Jeff Becker,ON,82.7,83,Masters 2,225,145,260,630,Raw,1

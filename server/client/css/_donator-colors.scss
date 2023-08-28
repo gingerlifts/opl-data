@@ -37,12 +37,24 @@
   @include name-color(#AE76FF);
 }
 
+.lavender {
+  @include name-color(#E6E6FA);
+}
+
+.deadlift_purple {
+  @include name-color(#CAA5FF);
+}
+
 .gold {
   @include name-color(#FFD700);
 }
 
 .green {
   @include name-color(#51DA27);
+}
+
+.armygreen {
+  @include name-color(#4B5320);
 }
 
 .darkgreen {
@@ -65,8 +77,17 @@
   @include name-color(#556B2F);
 }
 
+// Same teal color as the $bench-color for OpenPowerlifting.
+.benchteal {
+  @include name-color(#00E0D8);
+}
+
 .lightazure {
   @include name-color(#00AEFF);
+}
+
+.pastelblue {
+  @include name-color(#AEC6CF);
 }
 
 // Like a baby blue.
@@ -93,6 +114,10 @@
 
 .cranberryred {
   @include name-color(#9C0045);
+}
+
+.rosered {
+  @include name-color(#C21E56);
 }
 
 // Color used in the DOTS formula application. A dark red.
@@ -166,6 +191,12 @@
 }
 
 // Blue, white, and red.
+.france {
+  @include gradient-prereqs($default-color);
+  background-image: linear-gradient(to right, #0082CA, #EDF2F4, #ED071E);
+}
+
+// Blue, white, and red.
 .iceland {
   @include gradient-prereqs($default-color);
   background-image: linear-gradient(to right, #005DB5, #EDF2F4, #DD1832);
@@ -196,10 +227,29 @@
       $ireland-orange 67%, $ireland-orange);
 }
 
-//Red, black, white and green.
+// Red, black, white and green.
 .palestine {
   @include gradient-prereqs($default-color);
-  background-image: linear-gradient(to right, #CE1126, #000000, #FFFFFF, #007A3D);
+  background-image: linear-gradient(to right, #CE1126 25%, #000000 25% 50%, #FFFFFF 50% 75%, #007A3D 75%);
+}
+
+// Red, green, white, and black.
+.emirates {
+  @include gradient-prereqs($default-color);
+  background-image: linear-gradient(to right, #C8102E, #00843D, #FFFFFF, #000000);
+}
+
+// A combination of orange, white, and black.
+.tiger {
+  @include gradient-prereqs(#FFA200);
+  background-image: linear-gradient(110deg, #FFA200 10%, #EDF2F4 20%, #444 25%, #EDF2F4 30%, #FFA200 40%, #FFA200 60%, #EDF2F4 70%, #444 75%, #EDF2F4 80%, #FFA200 90%, #FFA200 100%)
+}
+
+.aqua_to_pink {
+  $aqua: #00FFEF;
+  $pink: #FF69B4;
+  @include gradient-prereqs($aqua);
+  background-image: linear-gradient(to right, $aqua, $pink);
 }
 
 .blue_to_gold {
@@ -228,6 +278,21 @@
   $lightblue: #43D1FF;
   @include gradient-prereqs($lightblue);
   background-image: linear-gradient(to right, $blue, $lightblue);
+}
+
+.blue_to_orange {
+  $blue: #507CFF;
+  $orange: #FFA200;
+  @include gradient-prereqs($orange);
+  background-image: linear-gradient(to right, $blue, $orange);
+}
+
+.blue_to_purple_to_red {
+  $blue: #3364ea;
+  $purple: #a747ff;
+  $red: #ff2b6b;
+  @include gradient-prereqs(#33333300);
+  background-image: linear-gradient(to right, $blue, $purple, $red);
 }
 
 .blue_to_yellow {
@@ -265,6 +330,13 @@
   background-image: linear-gradient(to right, $lightblue, $white);
 }
 
+.royalblue_to_lightblue {
+  $royalblue: #507CFF;
+  $lightblue: #00d4FF;
+  @include gradient-prereqs($royalblue);
+  background-image: linear-gradient(to right, $royalblue, $lightblue);
+}
+
 .limegreen_to_gray {
   $limegreen: #32CD32;
   $lightgray: #A1A1A1;
@@ -298,6 +370,13 @@
   $green: #F1DA27;
   @include gradient-prereqs($orange);
   background-image: linear-gradient(to right, $orange, $green);
+}
+
+.orange_to_pink_to_orange {
+  $orange: #FF6600;
+  $pink: #FF0099;
+  @include gradient-prereqs($orange);
+  background-image: linear-gradient(to right, $orange, $pink, $orange);
 }
 
 .pink_to_lightblue {
@@ -390,6 +469,13 @@
       #b387b7, #b580b1, #b678ab);
 }
 
+.red_to_blue {
+  $red: #FB3640;
+  $blue: #3B72FF;
+  @include gradient-prereqs($red);
+  background-image: linear-gradient(to right, $red, $blue);
+}
+
 .red_to_orange {
   $red: #FB3640;
   $orange: #FFA200;
@@ -418,6 +504,14 @@
   background-image: linear-gradient(to right, $red, $yellow, $red);
 }
 
+.red_to_yellow_to_green {
+  $red: #FB3640;
+  $yellow: #FFFC00;
+  $green: #51DA27;
+  @include gradient-prereqs($red);
+  background-image: linear-gradient(to right, $red, $yellow, $green);
+}
+
 .red_to_white {
   $red: #FB3640;
   $white: #EDF2F4;
@@ -430,6 +524,13 @@
   $white: #EDF2F4;
   @include gradient-prereqs($red);
   background-image: linear-gradient(to right, $red, $white, $red);
+}
+
+.pink_to_white_to_pink {
+  $pink: #FFB6C1;
+  $white: #EDF2F4;
+  @include gradient-prereqs($pink);
+  background-image: linear-gradient(to right, $pink, $white, $pink);
 }
 
 .all_red_top_down {
@@ -453,11 +554,27 @@
   background-image: linear-gradient(to right, $turquoise, $magenta);
 }
 
+.yellow_to_orange {
+  $yellow: #FFFC00;
+  $orange: #FFA200;
+  @include gradient-prereqs($yellow);
+  background-image: linear-gradient(to right, $yellow, $orange);
+}
+
 .yellow_to_purple {
   $yellow: #FFFC00;
   $purple: #AE76FF;
   @include gradient-prereqs($yellow);
   background-image: linear-gradient(to right, $yellow, $purple);
+}
+
+// The OpenPowerlifting squat-bench-deadlift colors in a gradient.
+.opl_sbd {
+  $squat: #FFAE20;
+  $bench: #00E0D8;
+  $deadlift: #CAA5FF;
+  @include gradient-prereqs($squat);
+  background-image: linear-gradient(to right, $squat, $bench, $deadlift);
 }
 
 // Red, Gray, Black.
@@ -493,6 +610,21 @@
   background-image: linear-gradient(to bottom, #f00 40%, #fff 40%, #fff 80%, #1E8AFB 80%, #1E8AFB 100%);
 }
 
+// Designed by Robert Knutsson.
+.sweden {
+  $lightblue: #43D1FF;
+  $yellow: #FFFC00;
+  @include gradient-prereqs($yellow);
+  background-image: linear-gradient(to bottom, $lightblue 50%, $yellow 50%);
+}
+
+.tamara {
+  $hotpink: #F442B0;
+  $purple: #AE76FF  ;
+  @include gradient-prereqs($purple);
+  background-image: linear-gradient(to bottom, $hotpink 50%, $purple 50%);
+}
+
 // Designed by Jetter Lewis.
 .jetter_lewis {
   color: #FB3640; // Red
@@ -524,6 +656,14 @@
   to { text-shadow: 0px -1px 3px #ffa200cc; }
 }
 
+.purple_fire_animation {
+  animation: fire_animation 0.75s infinite linear alternate;
+}
+@keyframes purple_fire_animation {
+  from { text-shadow: 0px -1px 3px #ce00f224; }
+  to { text-shadow: 0px -1px 3px #ce00f2cc; }
+}
+
 // Runescape flash3
 @keyframes flash3 {
   0%{
@@ -540,13 +680,13 @@
 
 // Runescape glow3
 @keyframes glow3 {
-  0%{
+  0% {
     color: #FFFFFF;
-  } 25%{
+  } 25% {
     color: #00B000;
   } 50% {
     color: #FFFFFF;
-  } 67.5%{
+  } 67.5% {
     color: #00FFFF;
   } 75% {
     color: #0000FF;
@@ -574,6 +714,39 @@
   animation: scroll_gradient 3s ease infinite;
 }
 
+// Infinite left-to-right looping scroll [gradient].
+// Designed by Johan Frisk.
+// Override animation speed or timing function as necessary.
+// Also add a class with background-image: repeating-linear-gradient to set the colors.
+@keyframes infinite_loop {
+  0% { background-position: 0 0; }
+  100% { background-position: -200% 0; }
+}
+.infinite_loop {
+  width: 100%;
+  height: 100%;
+  background-size: 200% auto;
+  background-position: 0 100%;
+  animation: infinite_loop 8s infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+// Switches from red to gold.
+@keyframes redgold {
+  0% {
+    color: #FB3640;
+  } 50% {
+    color: #FFD700;
+  } 100% {
+    color: #FB3640;
+  }
+}
+
+.redgold_anim {
+  animation: redgold 3s cubic-bezier(.77,0,.18,1) infinite;
+}
+
 .teal-shadow {
   // Sharp offset shadow in teal.
   // 1px blur is more readable than 0px blur at small sizes.
@@ -596,18 +769,60 @@
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
+.helvetica {
+  font-family: "Helvetica";
+}
+
 .papyrus {
   font-family: "Papyrus";
 }
 
-.helvetica {
-  font-family: "Helvetica";
+.segoeui {
+  font-family: "Segoe UI";
 }
 
 .small-caps {
   font-variant: small-caps;
 }
 
+.stencil {
+  font-family: "Stencil";
+}
+
+.tahoma {
+  font-family: "Tahoma";
+}
+
 .letter-spacing-2 {
   letter-spacing: 2px;
+}
+
+.cyan {
+  @include name-color(#00FFFF);
+}
+
+.mattdomney {
+ @include name-color(#129b6c);  
+}
+
+// Animation for Tirsa St. Fort.
+// Designed by Johan Frisk.
+.tirsa_st_fort {
+  $white: #cfcfcf;
+  $gold: #d5af2e;
+  @include gradient-prereqs($white);
+  background-image: repeating-linear-gradient(
+    to right,
+    $white 0%,
+    $white 49%,
+    $gold 50%,
+    $gold 99%,
+    $white 100%
+  );
+}
+
+// Designed by Adam Drozdowski.
+.adam_drozdowski {
+  font-family: monospace;
+  background-image: linear-gradient(to bottom, #c4b454 50%, #241a16 50%, #1E8AFB 100%);
 }

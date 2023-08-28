@@ -36,7 +36,7 @@ SBD,M,Thomas Gear,NL,82.5,83,Open,200.0,172.5,300.0,672.5,Raw,2
 SBD,M,Robert Perry,NL,82.7,83,Open,202.5,145.0,257.5,605.0,Raw,4
 SBD,M,Patrick Stadler,NB,81.6,83,Open,205.0,160.0,217.5,582.5,Raw,5
 SBD,M,Naeem Rohani,PE,81.1,83,Open,195.0,107.5,230.0,532.5,Raw,6
-SBD,M,Marcus Parkus,NS,79.9,83,Open,185.0,125.0,215.0,525.0,Raw,7
+SBD,M,Marcus LeBlanc,NS,79.9,83,Open,185.0,125.0,215.0,525.0,Raw,7
 SBD,M,Justin Quedado,NS,82.5,83,Open,247.5,155.0,270.0,672.5,Raw,3
 SBD,M,Guillaume LeBlanc,NB,81.0,83,Open,250.0,157.5,272.5,680.0,Raw,1
 SBD,M,Steve Doyle,NS,73.2,74,Open,175.0,112.5,202.5,490.0,Raw,3
@@ -71,7 +71,7 @@ SBD,F,Linda Guillemette,NL,80.3,84,Masters 2,102.5,65.0,135.0,302.5,Raw,1
 SBD,M,Brett Zoerb,SK,80.4,83,Masters 2,190.0,115.0,212.5,517.5,Raw,1
 SBD,M,Gerald Chafe,NL,73.5,74,Masters 2,157.5,87.5,185.0,430.0,Raw,1
 SBD,F,Renette Muise,NS,63.7,72,Masters 2,77.5,45.0,105.0,227.5,Raw,1
-SBD,M,Paul Smith,NL,64.9,66,Masters 2,125.0,80.0,179.5,384.5,Raw,1
+SBD,M,Paul Smith #2,NL,64.9,66,Masters 2,125.0,80.0,179.5,384.5,Raw,1
 SBD,F,Anne Graham,NS,63.0,63,Masters 2,90.0,52.5,102.5,245.0,Raw,1
 SBD,F,Anne Beaumaster,NL,56.1,57,Masters 2,77.5,37.5,102.5,217.5,Raw,1
 SBD,M,Larry Walsh,NL,95.1,105,Masters 2,212.5,117.5,237.5,567.5,Raw,1
@@ -82,7 +82,7 @@ SBD,F,Heather Unsworth,NS,79.4,84,Masters 1,125.0,60.0,150.0,335.0,Raw,2
 SBD,M,Sheik Ali,NS,81.0,83,Masters 1,187.5,127.5,205.0,520.0,Raw,1
 SBD,F,Peggy Brogaard,NS,71.6,72,Masters 1,117.5,52.5,137.5,307.5,Raw,1
 SBD,F,Glenda MacDonald,PE,71.2,72,Masters 1,87.5,47.5,125.0,260.0,Raw,2
-SBD,M,John McGrath,NL,63.8,66,Masters 1,140.0,95.0,182.5,417.5,Raw,1
+SBD,M,John McGrath #2,NL,63.8,66,Masters 1,140.0,95.0,182.5,417.5,Raw,1
 SBD,F,Tracy Curran,PE,61.6,63,Masters 1,107.5,60.0,110.0,277.5,Raw,2
 SBD,F,Joanne Rose,NL,60.6,63,Masters 1,102.5,55.0,130.0,287.5,Raw,1
 SBD,F,Ellissa Hull,NL,50.4,52,Masters 1,115.0,60.0,150.0,325.0,Raw,1
@@ -129,7 +129,7 @@ B,M,Gerald Chafe,NS,73.5,74,Masters 2,,90.0,,90.0,Raw,1
 B,F,Karen Hann,NL,56.7,57,Masters 2,,62.5,,62.5,Raw,1
 B,M,John Buchanan,NS,90.9,93,Masters 1,,130.0,,130.0,Raw,1
 B,M,Sheik Ali,NS,81.0,83,Masters 1,,110.0,,110.0,Raw,1
-B,M,John McGrath,NL,64.3,66,Masters 1,,95.0,,95.0,Raw,1
+B,M,John McGrath #2,NL,64.3,66,Masters 1,,95.0,,95.0,Raw,1
 B,M,Devon Yu,NS,72.4,74,Juniors,,132.5,,132.5,Raw,1
 B,M,Logan Vessey,PE,104.9,105,Juniors,,142.5,,142.5,Raw,2
 B,M,Jonathan Kan,NS,97.1,105,Juniors,,142.5,,142.5,Raw,1

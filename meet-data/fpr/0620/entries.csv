@@ -1,5 +1,5 @@
 Place,Name,BirthYear,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,WeightClassKg,Sex,CyrillicName,Equipment,Division,Event,TotalKg
-1,Yuriy Vasilyev,1987,51.95,100,105,-110,105,52,M,Юрій Васильєв,Single-ply,Open,B,105
+1,Yuriy Vasilev #1,1987,51.95,100,105,-110,105,52,M,Юрий Васильев,Single-ply,Open,B,105
 2,Aleksandr Odinokov,1989,52,70,75,-80,75,52,M,Александр Одиноков,Single-ply,Open,B,75
 3,Eduard Naydenov,1989,50,45,50,55,55,52,M,Эдуард Найденов,Single-ply,Open,B,55
 4,Konstantin Pchelkin,1992,50.45,40,-45,,40,52,M,Константин Пчелкин,Single-ply,Open,B,40
@@ -35,7 +35,7 @@ DQ,Andrey Goroshko,1972,88.45,-210,-210,-210,,90,M,Андрей Горошко,S
 2,Lev Kornilov,1983,103.75,200,210,-217.5,210,110,M,Лев Корнилов,Single-ply,Open,B,210
 3,Anatoliy Chirkin,1968,104.4,200,210,-217.5,210,110,M,Анатолий Чиркин,Single-ply,Open,B,210
 4,Konstantin Khomyakov,1978,110,182.5,-192.5,-200,182.5,110,M,Константин Хомяков,Single-ply,Open,B,182.5
-1,Sergei Surov,1974,125,260,272.5,282.5,282.5,125,M,Сергей Суров,Single-ply,Open,B,282.5
+1,Sergey Surov,1974,125,260,272.5,282.5,282.5,125,M,Сергей Суров,Single-ply,Open,B,282.5
 2,Denis Chernigov,1973,119.3,260,270,-280,270,125,M,Денис Чернигов,Single-ply,Open,B,270
 1,Mikhail Lebedenko,1976,127.45,270,275,-280,275,125+,M,Михаил Лебеденко,Single-ply,Open,B,275
 2,Aleksandr Kolchanov,1969,134.75,195,205,210,210,125+,M,Александр Колчанов,Single-ply,Open,B,210

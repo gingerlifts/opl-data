@@ -19,7 +19,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 1,Sara Beller,CA,82.5,80.9,22,122.5,60,155,337.5,F,Juniors 20-23,Raw,SBD
 2,Adriana Guzman,CA,82.5,80.4,21,102.5,40,115,257.5,F,Juniors 20-23,Raw,SBD
 1,Jenny Sutherland,CA,48,47.4,25,135,60,137.5,332.5,F,Open,Raw,SBD
-2,Vy Nguyen,CA,48,46.4,31,120,57.5,130,307.5,F,Open,Raw,SBD
+2,Vy Nguyen #2,CA,48,46.4,31,120,57.5,130,307.5,F,Open,Raw,SBD
 3,Michelle Rodriguez,CA,48,47.4,21,97.5,67.5,132.5,297.5,F,Open,Raw,SBD
 1,Thuy Dao,CA,56,54.7,26,90,57.5,125,272.5,F,Open,Raw,SBD
 2,Kaira Santiago,CA,56,53.4,27,95,47.5,102.5,245,F,Open,Raw,SBD
@@ -28,7 +28,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 3,Alicia Frisbee,CA,60,58.5,33,102.5,52.5,125,280,F,Open,Raw,SBD
 4,Lisa Nguyen,CA,60,59.9,26,97.5,42.5,127.5,267.5,F,Open,Raw,SBD
 5,Diana Huerta,CA,60,59.2,27,85,40,100,225,F,Open,Raw,SBD
-1,Amanda Kohatsu,CA,67.5,67.1,31,157.5,90,180,427.5,F,Open,Raw,SBD
+1,Amanda Kohatsu-Popoola,CA,67.5,67.1,31,157.5,90,180,427.5,F,Open,Raw,SBD
 2,Kylie Brewer,CA,67.5,65.9,20,125,70,135,330,F,Open,Raw,SBD
 3,Andrea Singer,CA,67.5,66.5,23,97.5,62.5,152.5,312.5,F,Open,Raw,SBD
 4,Brittni Moreno,CA,67.5,60.4,26,105,57.5,125,287.5,F,Open,Raw,SBD
@@ -121,14 +121,14 @@ DQ,Kyle Alexander #1,CA,100,98.7,20,285,150,,,M,Juniors 20-23,Raw,SBD
 2,Jorge Bruno,CA,90,89.9,32,235,182.5,265,682.5,M,Open,Raw,SBD
 3,Corey Waibel,CA,90,89.1,21,240,182.5,247.5,670,M,Open,Raw,SBD
 4,Eduardo Payan,CA,90,89.35,30,205,160,272.5,637.5,M,Open,Raw,SBD
-5,Christopher Nguyen,CA,90,89,26,227.5,150,250,627.5,M,Open,Raw,SBD
+5,Christopher Nguyen #3,CA,90,89,26,227.5,150,250,627.5,M,Open,Raw,SBD
 6,Tanner Owings,CA,90,89.6,23,205,137.5,285,627.5,M,Open,Raw,SBD
 7,Will James,CA,90,89.3,50,190,167.5,237.5,595,M,Open,Raw,SBD
 8,Jim Kerns,CA,90,89.9,32,215,150,215,580,M,Open,Raw,SBD
 9,Jonathan Shillcox,CA,90,89.6,31,192.5,120,245,557.5,M,Open,Raw,SBD
 10,Jonathan-Bryant Valledor,CA,90,88.45,26,167.5,120,227.5,515,M,Open,Raw,SBD
 DQ,Joey Palomera,CA,90,89.2,27,-180,120,212.5,,M,Open,Raw,SBD
-DQ,William Vazquez,CA,90,89.25,30,195,-137.5,,,M,Open,Raw,SBD
+DQ,William Vazquez #2,CA,90,89.25,30,195,-137.5,,,M,Open,Raw,SBD
 1,Ollie Meadows,CA,100,95.7,33,262.5,187.5,295,745,M,Open,Raw,SBD
 2,Lemwannde Loet,PA,100,98.9,21,265,167.5,290,722.5,M,Open,Raw,SBD
 3,Kaleb Moore,CA,100,98.9,27,250,195,277.5,722.5,M,Open,Raw,SBD
@@ -144,7 +144,7 @@ DQ,William Vazquez,CA,90,89.25,30,195,-137.5,,,M,Open,Raw,SBD
 1,Lu Cordero,CA,110,108.9,23,272.5,190,320,782.5,M,Open,Raw,SBD
 2,Sean Lugo,CA,110,107.6,30,247.5,167.5,265,680,M,Open,Raw,SBD
 3,Derek Schaeffer,CA,110,107.6,24,227.5,160,272.5,660,M,Open,Raw,SBD
-4,Joe Torres,CA,110,110,28,240,170,247.5,657.5,M,Open,Raw,SBD
+4,Joe Torres #1,CA,110,110,28,240,170,247.5,657.5,M,Open,Raw,SBD
 5,Adam Solorio,CA,110,106.3,28,227.5,145,277.5,650,M,Open,Raw,SBD
 6,Ray Cross #2,CA,110,107.9,23,235,140,265,640,M,Open,Raw,SBD
 7,Anthony Mosallam,CA,110,104,24,220,125,290,635,M,Open,Raw,SBD
@@ -170,7 +170,7 @@ DQ,William Vazquez,CA,90,89.25,30,195,-137.5,,,M,Open,Raw,SBD
 2,Christopher Young #1,CA,125,122.7,35,205,152.5,237.5,595,M,Submasters 35-39,Raw,SBD
 1,Jose Lim-Valle,CA,140,138.9,36,152.5,122.5,205,480,M,Submasters 35-39,Raw,SBD
 1,Gordon Santee,CA,60,59.4,70,70,70,140,280,M,Masters 70-74,Raw,SBD
-1,Jim Gallagher,CA,75,74.4,81,67.5,82.5,147.5,297.5,M,Masters 80+,Raw,SBD
+1,Jim Gallagher #1,CA,75,74.4,81,67.5,82.5,147.5,297.5,M,Masters 80+,Raw,SBD
 2,Phillip Biles,CA,75,71.9,80,52.5,52.5,120,225,M,Masters 80+,Raw,SBD
 1,Javier Avila,CA,82.5,82.5,60,182.5,92.5,230,505,M,Masters 60-64,Raw,SBD
 DQ,Bryan Radosavcev,CA,90,87,40,-185,,,,M,Masters 40-44,Raw,SBD
@@ -197,7 +197,7 @@ DQ,Alex Ramirez,CA,82.5,80.1,21,-160,142.5,205,,M,Juniors 20-23,Wraps,SBD
 1,Manuel Torres,CA,100,98.4,24,260,152.5,262.5,675,M,Open,Wraps,SBD
 2,Ramon Beltran-Cruz Jr,CA,100,95.2,23,205,147.5,250,602.5,M,Open,Wraps,SBD
 3,Julian Gutierrez,CA,100,98.4,29,215,122.5,227.5,565,M,Open,Wraps,SBD
-1,Rocky Ruiz,CA,110,105.1,25,272.5,240,242.5,755,M,Open,Wraps,SBD
+1,Rocky Ruiz #1,CA,110,105.1,25,272.5,240,242.5,755,M,Open,Wraps,SBD
 2,Anthony Ramirez,CA,110,109.8,19,240,155,267.5,662.5,M,Open,Wraps,SBD
 3,Jeremy Saenz,CA,110,108.5,38,195,182.5,227.5,605,M,Open,Wraps,SBD
 4,Karl Davenport,CA,110,109.6,52,200,130,205,535,M,Open,Wraps,SBD

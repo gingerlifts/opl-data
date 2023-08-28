@@ -11,11 +11,11 @@ Place,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Weight
 10,Roman Akperov,51,120,62.5,120,302.5,52,M,Роман Акперов,1994,SBD,Single-ply,Sub-Juniors
 11,Ivan Svachiy,51.9,115,62.5,125,302.5,52,M,Іван Свачій,1994,SBD,Single-ply,Sub-Juniors
 12,Ivan Zhyrov,48.1,105,57.5,122.5,285,52,M,Іван Жиров,1993,SBD,Single-ply,Sub-Juniors
-13,Evgeniy Tokarev,49.7,105,50,125,280,52,M,Евгений Токарев,1991,SBD,Single-ply,Sub-Juniors
+13,Evgeniy Tokarev #2,49.7,105,50,125,280,52,M,Євгеній Токарєв,1991,SBD,Single-ply,Sub-Juniors
 1,Oleksandr Grishin,55.35,190,110,200,500,56,M,Олександр Гришин,1991,SBD,Single-ply,Sub-Juniors
 2,Ilya Krasnoschek,55.4,160,105,170,435,56,M,Илья Краснощек,1993,SBD,Single-ply,Sub-Juniors
 3,Sergiy Galatsko,54.6,142.5,82.5,157.5,382.5,56,M,Сергій Галацко,1991,SBD,Single-ply,Sub-Juniors
-4,Sergiy Pozdeev,55.35,140,85,147.5,372.5,56,M,Сергій Поздєєв,1992,SBD,Single-ply,Sub-Juniors
+4,Sergiy Pozdeev #1,55.35,140,85,147.5,372.5,56,M,Сергій Поздєєв,1992,SBD,Single-ply,Sub-Juniors
 5,Yuriy Prokopchuk,55.4,140,67.5,150,357.5,56,M,Юрій Прокопчук,1993,SBD,Single-ply,Sub-Juniors
 6,Pavel Khmelinin,55.75,120,87.5,135,342.5,56,M,Павел Хмелинин,1991,SBD,Single-ply,Sub-Juniors
 7,Oleg Pidoyma,53.75,125,67.5,140,332.5,56,M,Олег Пидойма,1994,SBD,Single-ply,Sub-Juniors
@@ -32,7 +32,7 @@ Place,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Weight
 1,Mykola Dudin,67.35,227.5,140,222.5,590,67.5,M,Микола Дудін,1991,SBD,Single-ply,Sub-Juniors
 2,Yevgen Kochubey,66.5,205,110,220,535,67.5,M,Євген Кочубей,1991,SBD,Single-ply,Sub-Juniors
 3,Kyrylo Sologub,66.8,212.5,110,190,512.5,67.5,M,Кирило Сологуб,1992,SBD,Single-ply,Sub-Juniors
-4,Igor Lambrozo,67.05,180,100,210,490,67.5,M,Игорь Ламброзо,1992,SBD,Single-ply,Sub-Juniors
+4,Igor Lambrozo,67.05,180,100,210,490,67.5,M,Ігор Ламброзо,1992,SBD,Single-ply,Sub-Juniors
 5,Maxym Kozolup,66.55,185,115,160,460,67.5,M,Максим Козолуп,1993,SBD,Single-ply,Sub-Juniors
 6,Volodymyr Pavlyuk,67.35,160,115,180,455,67.5,M,Володимир Павлюк,1991,SBD,Single-ply,Sub-Juniors
 7,Mikhail Zagorskiy,65.4,150,107.5,182.5,440,67.5,M,Михаил Загорский,1991,SBD,Single-ply,Sub-Juniors
@@ -44,7 +44,7 @@ DQ,Valeriy Gavlitskiy,66.35,185,110,,,67.5,M,Валерий Гавлицкий,1
 DQ,Oleg Tisovskiy,66.2,160,,,,67.5,M,Олег Тисовский,1992,SBD,Single-ply,Sub-Juniors
 DQ,Anatoliy Rotar,66.5,,,,,67.5,M,Анатолій Ротар,1991,SBD,Single-ply,Sub-Juniors
 1,Artem Panteleyev,74.85,265,157.5,237.5,660,75,M,Артем Пантелєєв,1992,SBD,Single-ply,Sub-Juniors
-2,Oleksandr Denisov,73.3,255,140,240,635,75,M,Олександр Денісов,1992,SBD,Single-ply,Sub-Juniors
+2,Oleksandr Denisov #1,73.3,255,140,240,635,75,M,Олександр Денісов,1992,SBD,Single-ply,Sub-Juniors
 3,Igor Kurganov,75,250,110,237.5,597.5,75,M,Ігор Курганов,1991,SBD,Single-ply,Sub-Juniors
 4,Ivan Romanyuk,75,250,130,215,595,75,M,Іван Романюк,1991,SBD,Single-ply,Sub-Juniors
 5,Roman Shepel',70.85,230,130,220,580,75,M,Роман Шепель,1994,SBD,Single-ply,Sub-Juniors
@@ -55,9 +55,9 @@ DQ,Anatoliy Rotar,66.5,,,,,67.5,M,Анатолій Ротар,1991,SBD,Single-pl
 10,Valeriy Unguryan,74.05,180,120,200,500,75,M,Валерий Унгурян,1991,SBD,Single-ply,Sub-Juniors
 11,Bogdan Gaydamakha,69.35,170,95,195,460,75,M,Богдан Гайдамаха,1993,SBD,Single-ply,Sub-Juniors
 DQ,Oleksandr Shitik,73.45,,,,,75,M,Олександр Шитік,1991,SBD,Single-ply,Sub-Juniors
-1,Gennadiy Semenov,78.85,260,150,230,640,82.5,M,Геннадий Семенов,1992,SBD,Single-ply,Sub-Juniors
+1,Gennadiy Semenov #1,78.85,260,150,230,640,82.5,M,Геннадій Семенов,1992,SBD,Single-ply,Sub-Juniors
 2,Oleksandr Matashev,76.75,230,145,210,585,82.5,M,Олександр Маташев,1991,SBD,Single-ply,Sub-Juniors
-3,Nazar Dyachuk,76.6,192.5,155,202.5,550,82.5,M,Назар Д'ячук,1991,SBD,Single-ply,Sub-Juniors
+3,Nazariy Dyachuk,76.6,192.5,155,202.5,550,82.5,M,Назарий Д'ячук,1991,SBD,Single-ply,Sub-Juniors
 4,Vladimir Chornomaz,75.7,185,102.5,200,487.5,82.5,M,Владимир Чорномаз,1992,SBD,Single-ply,Sub-Juniors
 5,Robert Kizlyak,74.45,170,105,182.5,457.5,75,M,Роберт Кизляк,1994,SBD,Single-ply,Sub-Juniors
 DQ,Oleksandr Vinogradskiy,77.35,205,,,,82.5,M,Олександр Виноградський,1992,SBD,Single-ply,Sub-Juniors

@@ -2,7 +2,7 @@ Name,Country,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,
 Patrick Constantine,England,51.85,52,185,-200,200,200,105,110,115,115,200,215,-232.2,,215,530,1,M,Single-ply,SBD,Open
 Gerard Kelly,N.Ireland,51.45,52,110,120,-135,120,80,90,100,100,-160,160,,,160,380,2,M,Single-ply,SBD,Open
 John Maxwell,Scotland,55.95,56,-165,185,195,195,115,125,135,135,205,215,-220,,215,545,1,M,Single-ply,SBD,Open
-Chad Mitchell,England,55.6,56,175,185,192.5,192.5,95,102.5,105,105,170,180,-182.5,,180,477.5,2,M,Single-ply,SBD,Open
+Chad Mitchell #1,England,55.6,56,175,185,192.5,192.5,95,102.5,105,105,170,180,-182.5,,180,477.5,2,M,Single-ply,SBD,Open
 Karl Christians,South Africa,55.65,56,160,-175,-175,160,90,-95,95,95,180,195,-225,,195,450,3,M,Single-ply,SBD,Open
 Marlon Daniels,South Africa,58.85,60,160,175,200,200,80,130,,130,140,170,200,,200,530,1,M,Single-ply,SBD,Open
 Adel Rana,Pakistan,67.25,67.5,235,242.5,250,250,170,175,180,180,-270,-270,270,275,270,700,1,M,Single-ply,SBD,Open
@@ -15,7 +15,7 @@ Wally Schmidt,South Africa,74.5,75,225,235,240,240,155,160,162.5,162.5,260,272.5
 Sean Muir,Australia,74.6,75,232.5,245,252.5,252.5,152.5,157,160,160,252,262.5,-270,,262.5,675,2,M,Single-ply,SBD,Open
 Manoj Chahal,England,74.65,75,230,240,-245,240,150,-160,160,160,235,245,-250,,245,645,3,M,Single-ply,SBD,Open
 Wallace Clarke,N.Ireland,73.9,75,215,225,235,235,140,147.5,152.5,152.5,240,255,-257.5,,255,642.5,4,M,Single-ply,SBD,Open
-Rob Parfitt,Scotland,72.7,75,200,210,220,220,-125,132.5,140,140,230,240,-255,,240,600,5,M,Single-ply,SBD,Open
+Bob Parfitt,Scotland,72.7,75,200,210,220,220,-125,132.5,140,140,230,240,-255,,240,600,5,M,Single-ply,SBD,Open
 Alex McNamara,Scotland,72.3,75,-190,-190,190,190,125,132.5,-140,132.5,-190,190,-200,,190,512.5,6,M,Single-ply,SBD,Open
 David Todd #1,Wales,73.5,75,187.5,-192.5,-192.5,187.5,-125,-125,-125,,-205,217,-230,,217,,DQ,M,Single-ply,SBD,Open
 TS Adewale,England,81.8,82.5,-255,255,267.5,267.5,155,-162.5,162.5,162.5,280,-290,307.5,,307.5,737.5,1,M,Single-ply,SBD,Open
@@ -23,7 +23,7 @@ Garry Bowman,England,81.4,82.5,245,255,265,265,170,-180,182.5,182.5,270,280,287.
 Dean van Wyk,South Africa,81.35,82.5,250,260,-270,260,150,-160,-165,150,265,275,277.5,,277.5,687.5,3,M,Single-ply,SBD,Open
 Robert Beaton,Scotland,82.1,82.5,230,250,265,265,-165,175,182.5,182.5,240,-260,-260,,240,687.5,4,M,Single-ply,SBD,Open
 Robert Wylie,Scotland,80.95,82.5,-245,245,-270,245,155,-160,160,160,245,255,,,255,660,5,M,Single-ply,SBD,Open
-Stephen King,New Zealand,81.45,82.5,230,245,250,250,130,137.5,142.5,142.5,225,240,-247.5,,240,632.5,6,M,Single-ply,SBD,Open
+Stephen King #1,New Zealand,81.45,82.5,230,245,250,250,130,137.5,142.5,142.5,225,240,-247.5,,240,632.5,6,M,Single-ply,SBD,Open
 Nick Rees,Wales,81.45,82.5,210,220,-225,220,137.5,-142.5,-142.5,137.5,255,265,270,,270,627.5,7,M,Single-ply,SBD,Open
 Francois D Preez,South Africa,81.45,82.5,200,225,-235,225,125,135,-145,135,250,-270,-270,,250,610,8,M,Single-ply,SBD,Open
 Darren George,Wales,81.2,82.5,210,220,-230,220,-150,150,-152.5,150,-210,210,220,,220,590,9,M,Single-ply,SBD,Open
@@ -42,7 +42,7 @@ Jamie Burke,N.Ireland,99.85,100,300,-325,325,325,210,222.5,-235,222.5,280,-300,-
 Joe Lampshire,England,97.7,100,310,-325,-325,310,192.5,-200,200,200,270,280,-290,,280,790,2,M,Single-ply,SBD,Open
 Denzil Van Niekerk,South Africa,96.5,100,280,300,-310,300,-165,175,185,185,275,295,-305,,295,780,3,M,Single-ply,SBD,Open
 Stewart Ogg,Scotland,93.1,100,265,-280,280,280,170,-180,180,180,275,297.5,-305,,297.5,757.5,4,M,Single-ply,SBD,Open
-George Mathon,South Africa,98.65,100,260,-280,285,285,170,180,192.5,192.5,250,270,-280,,270,747.5,5,M,Single-ply,SBD,Open
+George Mathom,South Africa,98.65,100,260,-280,285,285,170,180,192.5,192.5,250,270,-280,,270,747.5,5,M,Single-ply,SBD,Open
 Ian Hawkins,England,99.55,100,255,270,280,280,185,-190,192.5,192.5,245,255,262.5,,262.5,735,6,M,Single-ply,SBD,Open
 Eliesa Irava,Fiji,98.75,100,260,270,-275,270,180,200,210,210,240,245,250,,250,730,7,M,Single-ply,SBD,Open
 Cecil Lennox,N.Ireland,95.05,100,-240,240,-250,240,-185,185,-195,185,270,290,-300,,290,715,8,M,Single-ply,SBD,Open
@@ -62,6 +62,6 @@ Andy Hawkins,England,122.25,125,290,305,-320,305,-210,210,230,230,260,280,-307.5
 Michael Jent,Scotland,121.55,125,250,-260,260,260,190,200,210,210,260,-270,280,,280,750,5,M,Single-ply,SBD,Open
 Sanjay Saresai,India,110.6,125,-280,-280,-280,,,,,,,,,,,,DQ,M,Single-ply,SBD,Open
 Andrew Thompson #1,England,162.9,125+,360,-380,-380,360,-270,270,-280,270,300,330,-345,,330,960,1,M,Single-ply,SBD,Open
-Rob Thomas,Wales,147.35,125+,-240,240,-260,240,190,-210,-220,190,240,-255,,,240,670,2,M,Single-ply,SBD,Open
+Rob Thomas #1,Wales,147.35,125+,-240,240,-260,240,190,-210,-220,190,240,-255,,,240,670,2,M,Single-ply,SBD,Open
 James Blanchflower,England,171.6,125+,-360,-360,-380,,-265,-265,-265,,285,300,315,,315,,DQ,M,Single-ply,SBD,Open
 Arno Lamprecht,South Africa,171.9,125+,-360,-360,-390,,180,-245,-270,180,280,305,317.5,,317.5,,DQ,M,Single-ply,SBD,Open

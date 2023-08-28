@@ -41,7 +41,7 @@ Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3D
 3,Veronica Leynes,CA,60,59.3,27,75,52.5,92.5,220,F,Open,Raw,SBD,,,Yes
 DQ,April Disparte,CA,60,59.6,29,,52.5,115,,F,Open,Raw,SBD,,,Yes
 1,Monica Enlow,CA,67.5,67.1,24,137.5,70,162.5,370,F,Open,Raw,SBD,,,Yes
-2,Andrea Gonzalez,CA,67.5,65,26,142.5,65,155,362.5,F,Open,Raw,SBD,,,Yes
+2,Andrea Gonzalez #1,CA,67.5,65,26,142.5,65,155,362.5,F,Open,Raw,SBD,,,Yes
 3,Sarah Hyde,FL,67.5,65.3,27,127.5,67.5,142.5,337.5,F,Open,Raw,SBD,,,Yes
 4,Yolanda Presswood,CA,67.5,60.8,41,128,62.5,142.5,333,F,Open,Raw,SBD,,,Yes
 5,Wendy Munoz,CA,67.5,66.7,28,117.5,60,137.5,315,F,Open,Raw,SBD,,,Yes
@@ -67,7 +67,7 @@ DQ,April Disparte,CA,60,59.6,29,,52.5,115,,F,Open,Raw,SBD,,,Yes
 DQ,Alison Jernigan,CA,90+,103.7,52,,60,157.5,,F,Masters 50-54,Raw,SBD,,,Yes
 1,Steven Diep,CA,52,51,20,125,92.5,155,372.5,M,Juniors 20-23,Raw,SBD,,,Yes
 2,Qui Luong,CA,52,50,20,127.5,67.5,172.5,367.5,M,Juniors 20-23,Raw,SBD,,,Yes
-1,Christopher Nguyen,CA,60,59.3,22,150,92.5,182.5,425,M,Juniors 20-23,Raw,SBD,,,Yes
+1,Christopher Nguyen #4,CA,60,59.3,22,150,92.5,182.5,425,M,Juniors 20-23,Raw,SBD,,,Yes
 2,John Nguyen,CA,60,59.8,23,147.5,72.5,160,380,M,Juniors 20-23,Raw,SBD,,,Yes
 1,Kevin Pak,CA,67.5,65.9,21,170,112.5,230,512.5,M,Juniors 20-23,Raw,SBD,,,Yes
 2,Matthew Jeffrey,CA,67.5,66.4,21,137.5,87.5,175,400,M,Juniors 20-23,Raw,SBD,,,Yes
@@ -93,7 +93,7 @@ DQ,Raul Garcia,CA,67.5,67.1,21,,,,,M,Juniors 20-23,Raw,SBD,,,Yes
 4,Davin Ivosic,CA,82.5,81,22,197.5,137.5,250,585,M,Juniors 20-23,Raw,SBD,,,Yes
 5,Michael Landa,CA,82.5,79.8,23,215,122.5,237.5,575,M,Juniors 20-23,Raw,SBD,,,Yes
 6,Atomu Wakamatsu,CA,82.5,80.7,20,170,135,240,545,M,Juniors 20-23,Raw,SBD,,,Yes
-7,Jose Jimenez,CA,82.5,80.1,23,177.5,130,195,502.5,M,Juniors 20-23,Raw,SBD,,,Yes
+7,Jose Jimenez #6,CA,82.5,80.1,23,177.5,130,195,502.5,M,Juniors 20-23,Raw,SBD,,,Yes
 8,Esteban Llamas,CA,82.5,80.3,21,182.5,115,205,502.5,M,Juniors 20-23,Raw,SBD,,,Yes
 9,Ricky Leiter,CA,82.5,79,21,170,117.5,210,497.5,M,Juniors 20-23,Raw,SBD,,,Yes
 10,Johnson Le,CA,82.5,81,20,175,120,190,485,M,Juniors 20-23,Raw,SBD,,,Yes
@@ -132,12 +132,12 @@ DQ,Mario De Luna,CA,110,105.5,21,172.5,,202.5,,M,Juniors 20-23,Raw,SBD,,,Yes
 6,Danny Phung,CA,67.5,66.5,27,170,102.5,202.5,475,M,Open,Raw,SBD,,,Yes
 7,Kyle Lebel,AZ,67.5,66.9,28,152.5,117.5,205,475,M,Open,Raw,SBD,,,Yes
 8,Bryan Arroyo,CA,67.5,66.2,27,162.5,105,192.5,460,M,Open,Raw,SBD,,,Yes
-9,Juan Perez,CA,67.5,66.2,31,142.5,100,200,442.5,M,Open,Raw,SBD,,,Yes
+9,Juan Perez #9,CA,67.5,66.2,31,142.5,100,200,442.5,M,Open,Raw,SBD,,,Yes
 10,Raymond Ng,CA,67.5,65.1,28,137.5,107.5,152.5,397.5,M,Open,Raw,SBD,,,Yes
 1,William Pham,CA,75,74.7,20,210,120,265,595,M,Open,Raw,SBD,,,Yes
 2,Robert Marquez,CA,75,73.7,25,210,120,235,565,M,Open,Raw,SBD,,,Yes
 3,Miguel Cardenas,CA,75,74.1,29,192.5,122.5,240,555,M,Open,Raw,SBD,,,Yes
-4,Juan Sanchez,CA,75,75,27,182.5,130,235,547.5,M,Open,Raw,SBD,,,Yes
+4,Juan Sanchez #8,CA,75,75,27,182.5,130,235,547.5,M,Open,Raw,SBD,,,Yes
 5,Jordan Bryson,CA,75,74.7,27,175,127.5,237.5,540,M,Open,Raw,SBD,,,Yes
 6,Kevin Suy,CA,75,73.9,26,197.5,120,207.5,525,M,Open,Raw,SBD,,,Yes
 7,Davin Fonseka,CA,75,75,25,185,105,202.5,492.5,M,Open,Raw,SBD,,,Yes
@@ -192,7 +192,7 @@ DQ,Nikko Ordona,CA,110,103.3,26,175,,227.5,,M,Open,Raw,SBD,,,Yes
 2,Billy Boughan,CA,125,122.6,30,220,150,272.5,642.5,M,Open,Raw,SBD,,,Yes
 3,Ryan Maresch,CA,125,124.5,36,245,135,247.5,627.5,M,Open,Raw,SBD,,,Yes
 4,Jose Adrian Lara,CA,125,113.1,24,200,175,235,610,M,Open,Raw,SBD,,,Yes
-5,James Clark,CA,125,116,24,197.5,122.5,252.5,572.5,M,Open,Raw,SBD,,,Yes
+5,James Clark #4,CA,125,116,24,197.5,122.5,252.5,572.5,M,Open,Raw,SBD,,,Yes
 6,Alan Parcero,CA,125,119.1,26,195,147.5,230,572.5,M,Open,Raw,SBD,,,Yes
 7,Jae Penick,CA,125,120.8,27,200,117.5,237.5,555,M,Open,Raw,SBD,,,Yes
 8,Donovan Innes,CA,125,120.8,26,195,112.5,232.5,540,M,Open,Raw,SBD,,,Yes

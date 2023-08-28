@@ -25,7 +25,7 @@ Boys,59.87,7,Robert Carrasco,Pleasanton,59.28,176.9,81.65,,258.55,Single-ply,SB,
 Boys,59.87,8,Gilbert Garcia,Northside Holmes,59.87,102.06,,,102.06,Single-ply,S,M
 Boys,67.13,1,Peter Webre,Comal Canyon,65.32,217.72,117.93,208.65,544.31,Single-ply,SBD,M
 Boys,67.13,2,Jc Carpenter,seguin,66.32,181.44,120.2,192.78,494.42,Single-ply,SBD,M
-Boys,67.13,3,Andrew Harris,San Antonio Southside,67.04,190.51,90.72,183.7,464.93,Single-ply,SBD,M
+Boys,67.13,3,Andrew Harris #5,San Antonio Southside,67.04,190.51,90.72,183.7,464.93,Single-ply,SBD,M
 Boys,67.13,4,Feliciano Delgadillo,San Antonio Southside,67.13,190.51,102.06,149.69,442.25,Single-ply,SBD,M
 Boys,67.13,5,Jacob Torres,Kyle Lehman,63.05,156.49,108.86,174.63,439.98,Single-ply,SBD,M
 Boys,67.13,6,Able Ingle,Floresville,65.32,142.88,95.25,172.37,410.5,Single-ply,SBD,M
@@ -46,7 +46,7 @@ Boys,67.13,DQ,Gage Hadlock,Comal Canyon,67.13,,,,,Single-ply,SBD,M
 Boys,67.13,DQ,Emilio Patlan,Lytle,67.13,,,,,Single-ply,SBD,M
 Boys,74.84,1,Jon Frasier,Kyle Lehman,71.62,195.04,133.81,183.7,512.56,Single-ply,SBD,M
 Boys,74.84,2,Carlton Bullard,Floresville,74.84,188.24,117.93,204.12,510.29,Single-ply,SBD,M
-Boys,74.84,3,Jonathan Parker,Floresville,74.75,161.03,102.06,190.51,453.59,Single-ply,SBD,M
+Boys,74.84,3,Jonathan Parker #4,Floresville,74.75,161.03,102.06,190.51,453.59,Single-ply,SBD,M
 Boys,74.84,4,Gilbert Perez,Floresville,71.3,181.44,81.65,181.44,444.52,Single-ply,SBD,M
 Boys,74.84,5,Daniel Yanez,Lytle,69.67,158.76,102.06,165.56,426.38,Single-ply,SBD,M
 Boys,74.84,6,Vince Zaragosa,San Antonio Highlands,74.75,138.35,88.45,188.24,415.04,Single-ply,SBD,M
@@ -80,7 +80,7 @@ Boys,82.1,3,Bryce Dunman,Comal Canyon,78.47,217.72,120.2,192.78,530.7,Single-ply
 Boys,82.1,4,Jacob Fernandez,Natalia,82.1,197.31,122.47,210.92,530.7,Single-ply,SBD,M
 Boys,82.1,5,Borneman Chezz,Wimberley,81.15,179.17,136.08,190.51,505.76,Single-ply,SBD,M
 Boys,82.1,6,David Armendariz,La Vernia,75.75,197.31,102.06,183.7,483.08,Single-ply,SBD,M
-Boys,82.1,7,Peyton Smith,Comal Canyon,76.11,197.31,97.52,176.9,471.74,Single-ply,SBD,M
+Boys,82.1,7,Peyton Smith #3,Comal Canyon,76.11,197.31,97.52,176.9,471.74,Single-ply,SBD,M
 Boys,82.1,8,Joey Gauna,Floresville,78.11,181.44,99.79,181.44,462.66,Single-ply,SBD,M
 Boys,82.1,9,Justin Roberson,San Antonio Southside,80.33,199.58,102.06,158.76,460.4,Single-ply,SBD,M
 Boys,82.1,10,Daniel Prado,San Antonio Southside,82.1,204.12,113.4,142.88,460.4,Single-ply,SBD,M
@@ -121,7 +121,7 @@ Boys,99.79,9,Garrett Mangold,Boerne Champion,90.45,165.56,129.27,174.63,469.47,S
 Boys,99.79,10,Josh Smith #25,Pleasanton,92.67,190.51,102.06,174.63,467.2,Single-ply,SBD,M
 Boys,99.79,11,Kevin Ibanez,Kyle Lehman,94.3,185.97,99.79,172.37,458.13,Single-ply,SBD,M
 Boys,99.79,12,Richard Porche,Kyle Lehman,97.66,172.37,120.2,165.56,458.13,Single-ply,SBD,M
-Boys,99.79,13,Omar Martinez,Lytle,97.89,172.37,99.79,163.29,435.45,Single-ply,SBD,M
+Boys,99.79,13,Omar Martinez #4,Lytle,97.89,172.37,99.79,163.29,435.45,Single-ply,SBD,M
 Boys,99.79,14,Matt Molina,San Antonio Highlands,97.16,145.15,108.86,167.83,421.84,Single-ply,SBD,M
 Boys,99.79,15,Mundo Perez,Rocksprings,96.98,154.22,99.79,163.29,417.3,Single-ply,SBD,M
 Boys,99.79,16,Jonathon Mendoza,Northside Holmes,96.48,129.27,88.45,151.95,369.68,Single-ply,SBD,M
@@ -144,10 +144,10 @@ Boys,109.77,9,Andres Magallanez,San Antonio Highlands,109.77,142.88,102.06,190.5
 Boys,109.77,10,Ricky Morales,San Antonio Highlands,106.41,117.93,104.33,140.61,362.87,Single-ply,SBD,M
 Boys,109.77,11,Frank Hernandez,Pleasanton,101.92,129.27,77.11,138.35,344.73,Single-ply,SBD,M
 Boys,109.77,12,Leonard Gaona,San Antonio Highlands,106.59,120.2,70.31,120.2,310.71,Single-ply,SBD,M
-Boys,109.77,13,Mike Lopez,San Antonio Highlands,106.64,149.69,,,149.69,Single-ply,S,M
+Boys,109.77,13,Mike Lopez #2,San Antonio Highlands,106.64,149.69,,,149.69,Single-ply,S,M
 Boys,109.77,DQ,Erik Elizondo,San Antonio Highlands,109.77,,,,,Single-ply,S,M
 Boys,124.74,1,Owen Rathburn,Comal Canyon,121.79,258.55,154.22,235.87,648.64,Single-ply,SBD,M
-Boys,124.74,2,Albert Mata,San Antonio Southside,114.03,254.01,151.95,226.8,632.76,Single-ply,SBD,M
+Boys,124.74,2,Albert Mata #3,San Antonio Southside,114.03,254.01,151.95,226.8,632.76,Single-ply,SBD,M
 Boys,124.74,3,Vincent Lee,Northside Holmes,119.39,249.48,154.22,226.8,630.49,Single-ply,SBD,M
 Boys,124.74,4,Reynaldo Medina,San Antonio Southside,115.94,249.48,158.76,217.72,625.96,Single-ply,SBD,M
 Boys,124.74,5,William Cavanaugh,Comal Canyon,122.47,229.06,142.88,226.8,598.74,Single-ply,SBD,M
@@ -166,7 +166,7 @@ Boys,124.74,17,Alex Maltos,Rocksprings,114.76,147.42,97.52,142.88,387.82,Single-
 Boys,124.74,18,Alex Hernandez #19,Lytle,120.66,140.61,97.52,138.35,376.48,Single-ply,SBD,M
 Boys,124.74+,1,Mark Menchaca,Uvalde,134.54,247.21,124.74,238.14,610.08,Single-ply,SBD,M
 Boys,124.74+,2,Nykiren Wellington,Northside Holmes,131.54,226.8,115.67,260.82,603.28,Single-ply,SBD,M
-Boys,124.74+,3,Joe Jimenez,San Antonio Highlands,125.6,249.48,113.4,204.12,566.99,Single-ply,SBD,M
+Boys,124.74+,3,Joe Jimenez #2,San Antonio Highlands,125.6,249.48,113.4,204.12,566.99,Single-ply,SBD,M
 Boys,124.74+,4,Blake Griffith,Floresville,126.82,226.8,115.67,192.78,535.24,Single-ply,SBD,M
 Boys,124.74+,5,Michael Reyes,Natalia,128.82,210.92,124.74,188.24,523.9,Single-ply,SBD,M
 Boys,124.74+,6,James Ximenez,Northside Holmes,130.68,183.7,83.91,208.65,476.27,Single-ply,SBD,M

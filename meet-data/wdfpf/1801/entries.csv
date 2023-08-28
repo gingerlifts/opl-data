@@ -10,11 +10,11 @@ Place,WeightClassKg,Name,Sex,Country,Age,Division,BodyweightKg,Best3SquatKg,Best
 1,80,Nydia Prosper,F,UK,37,F-O,74.2,127.5,77.5,170,375,SBD,Raw
 2,80,Vanessa Marrocco,F,Italy,24,F-O,76.2,130,75,165,370,SBD,Raw
 3,80,Lesley Shinnick,F,Ireland,25,F-O,75.6,137.5,65,140,342.5,SBD,Raw
-4,80,Alicia Bell,F,UK,14,F-T1,75.4,100,60,110,270,SBD,Raw
+4,80,Alicia Bell #1,F,UK,14,F-T1,75.4,100,60,110,270,SBD,Raw
 1,90,Michol Di Perna,F,Italy,21,F-JR,83.2,100,70,145,315,SBD,Raw
 2,90,Emma Wright #1,F,UK,42,F-M1,84.8,115,50,145,310,SBD,Raw
 3,90,Gabriella Pereyra,F,Italy,33,F-O,81.4,95,47.5,132.5,275,SBD,Raw
-1,60,Gareth Walsh,M,Ireland,46,M-M2,58.8,122.5,92.5,165,380,SBD,Raw
+1,60,Gareth Walsh #1,M,Ireland,46,M-M2,58.8,122.5,92.5,165,380,SBD,Raw
 1,67.5,Dumitru Calmic,M,Moldova,21,M-JR,66,145,120,170,435,SBD,Raw
 2,67.5,David Ellul,M,Malta,24,M-O,62.2,105,85,150,340,SBD,Raw
 1,75,Jayda Masudi,M,Belgium,17,M-T2,71.6,170,105,215,490,SBD,Raw
@@ -45,7 +45,7 @@ Place,WeightClassKg,Name,Sex,Country,Age,Division,BodyweightKg,Best3SquatKg,Best
 7,110,John West,M,Ireland,76,M-M8,107.2,145,125,220,490,SBD,Raw
 1,125,Bogdan Vaipan,M,Romania,34,M-O,117.6,300,200,345.5,845.5,SBD,Raw
 2,125,Rhys Charlesworth,M,UK,28,M-O,120,225,190,242.5,657.5,SBD,Raw
-3,125,Trevor Walker #1,M,UK,71,M-M7,117,135,97.5,190,422.5,SBD,Raw
+3,125,Trevor John Walker,M,UK,71,M-M7,117,135,97.5,190,422.5,SBD,Raw
 1,70,Lucy Owen,F,UK,25,F-O,65,125,80,140,345,SBD,Single-ply
 1,67.5,Alessio Santi,M,Italy,30,M-O,66.2,205,150,197.5,552.5,SBD,Single-ply
 1,75,Jayda Masudi,M,Belgium,17,M-T2,71.6,160,100,221,481,SBD,Single-ply

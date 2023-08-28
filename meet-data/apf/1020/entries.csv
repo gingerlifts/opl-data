@@ -17,7 +17,7 @@ Levi Bamber,M,17,M_OEM_AAPF,62.8,67.5,187.5,-192.5,-192.5,187.5,122.5,-135,135,1
 Stephen Ancira,M,30,M_OEM_AAPF,99.5,100,-250,250,-272.5,250,195,205,-215,205,282.5,297.5,-307.5,297.5,752.5,SBD,,1,Yes,Multi-ply
 Luis Juarez,M,20,M_JEM_AAPF,84,90,212.5,-222.5,-227.5,212.5,127.5,-135,135,135,187.5,202.5,220,220,567.5,SBD,Alpha,1,Yes,Multi-ply
 Max Trevino,M,36,M_SR_APF,183.6,140+,215,-237.5,237.5,237.5,142.5,152.5,160,160,220,-245,-245,220,617.5,SBD,Team Nesuda,1,,Raw
-Cameron Jones,M,26,M_OR_APF,74.6,75,-142.5,-160,160,160,80,87.5,-97.5,87.5,165,182.5,200,200,447.5,SBD,Team Nesuda,1,,Raw
+Cameron Jones #5,M,26,M_OR_APF,74.6,75,-142.5,-160,160,160,80,87.5,-97.5,87.5,165,182.5,200,200,447.5,SBD,Team Nesuda,1,,Raw
 Justin Ober,M,17,M_TR_2_APF,77.2,82.5,-137.5,-137.5,-137.5,,-85,-85,-85,,115,-117.5,-117.5,115,,SBD,Huntsville,DQ,,Raw
 Aaron Hodges,M,16,M_TR_2_APF,83.7,90,-160,-160,-160,,,,,,,,,,,SBD,Huntsville,DQ,,Raw
 Justin Reader,M,17,M_TR_2_APF,124.9,125,-182.5,182.5,205,205,125,137.5,-142.5,137.5,222.5,240,-242.5,240,582.5,SBD,,1,,Raw
@@ -28,7 +28,7 @@ Keith Cavaretta,M,44,M_MEM_1_APF,107.1,110,262.5,-282.5,282.5,282.5,220,-227.5,,
 Tim Nack,M,41,M_MEM_1_APF,106,110,205,227.5,-250,227.5,142.5,150,152.5,152.5,210,250,272.5,272.5,652.5,SBD,Martin BB,2,,Multi-ply
 Darren Turley,M,42,M_MEM_1_APF,129,140,352.5,385,-410,385,235,-272.5,272.5,272.5,262.5,277.5,295,295,952.5,SBD,,1,,Multi-ply
 Joe Linney,M,33,M_SEM_APF,99.8,100,-207.5,207.5,,207.5,150,-160,-160,150,220,237.5,-257.5,237.5,595,SBD,Martin BB,1,,Multi-ply
-Mike Martin,M,39,M_SEM_APF,109.2,110,332.5,345,-365,345,-272.5,-272.5,-272.5,,285,,,285,,SBD,Martin BB,DQ,,Multi-ply
+Mike Martin #2,M,39,M_SEM_APF,109.2,110,332.5,345,-365,345,-272.5,-272.5,-272.5,,285,,,285,,SBD,Martin BB,DQ,,Multi-ply
 Mark Ghanayem,M,29,M_OEM_APF,67.4,67.5,137.5,-147.5,-147.5,137.5,85,92.5,-102.5,92.5,115,137.5,150,150,380,SBD,Team Nesuda,1,,Multi-ply
 Greg Green,M,30,M_OEM_APF,90,90,220,235,242.5,242.5,185,202.5,-210,202.5,245,275,282.5,282.5,727.5,SBD,Lockout,1,,Multi-ply
 Jeffrey Allen #1,M,28,M_OEM_APF,90,90,-315,-315,-322.5,,,,,,,,,,,SBD,Thorbecke's,DQ,,Multi-ply
@@ -51,7 +51,7 @@ Michael DeLaval,M,48,M_OR_APF,138.3,140,,,,,-250,-250,-272.5,,,,,,,B,,DQ,,Raw
 Michael DeLaval,M,48,M_MR_2_APF,138.3,140,,,,,-250,-250,-272.5,,,,,,,B,,DQ,,Raw
 Mike Jenkins #1,M,51,M_MR_3_APF,99,100,,,,,160,182.5,-190,182.5,,,,,182.5,B,Houstonian,1,,Raw
 Roy Thelin,M,52,M_MR_3_APF,132.9,140,,,,,165,-175,175,175,,,,,175,B,,1,,Raw
-Joseph Parsons,M,61,M_MR_5_APF,89.5,90,,,,,127.5,137.5,-142.5,137.5,,,,,137.5,B,,1,,Raw
+Joe Parsons,M,61,M_MR_5_APF,89.5,90,,,,,127.5,137.5,-142.5,137.5,,,,,137.5,B,,1,,Raw
 Gene Knight,M,63,M_MR_5_APF,121.6,125,,,,,150,155,-160,155,,,,,155,B,,1,,Raw
 Terry Lancaster,M,68,M_MR_6_APF,98.4,100,,,,,-150,-150,-150,,,,,,,B,Alpha,DQ,,Raw
 Chris Carolan,M,16,M_TEM_2_APF,68.9,75,,,,,92.5,-102.5,102.5,102.5,,,,,102.5,B,Huntsville,1,,Multi-ply

@@ -2,7 +2,8 @@
 
 # The USAPL is in such a bad state that it makes sense to partially-configure it.
 [options]
-    valid_since = "2017-09-01"
+    valid_since = "2017-07-01"
+	require_manual_disambiguation = true
 
 [divisions]
     # Official division names are as described in an email from the USAPL
@@ -82,6 +83,147 @@
     frm7 = {name="FR-M7", min=99.5, max=999, sex="F", equipment="Raw"}
     frg = {name="FR-G", min=0, max=999, sex="F", equipment="Raw", place="G"}
 
+    # Official divisions, Raw Mx.
+    xro = {name="XR-O", min=14, max=999, sex="Mx", equipment="Raw"}
+    xry = {name="XR-Y", min=8, max=13, sex="Mx", equipment="Raw"}
+    xry1 = {name="XR-Y1", min=8, max=9, sex="Mx", equipment="Raw"}
+    xry2 = {name="XR-Y2", min=10, max=11, sex="Mx", equipment="Raw"}
+    xry3 = {name="XR-Y3", min=12, max=13, sex="Mx", equipment="Raw"}
+    xrt = {name="XR-T", min=14, max=19, sex="Mx", equipment="Raw"}
+    xrt1 = {name="XR-T1", min=14, max=15, sex="Mx", equipment="Raw"}
+    xrt2 = {name="XR-T2", min=16, max=17, sex="Mx", equipment="Raw"}
+    xrt3 = {name="XR-T3", min=18, max=19, sex="Mx", equipment="Raw"}
+    xrtj = {name="XR-TJ", min=14, max=23, sex="Mx", equipment="Raw"}
+    xrsj = {name="XR-SJ", min=14, max=19, sex="Mx", equipment="Raw"}
+    xrjr = {name="XR-Jr", min=20, max=23, sex="Mx", equipment="Raw"}
+    xrm1a = {name="XR-M1a", min=39.5, max=43.5, sex="Mx", equipment="Raw"}
+    xrm1b = {name="XR-M1b", min=44.5, max=48.5, sex="Mx", equipment="Raw"}
+    xrm2a = {name="XR-M2a", min=49.5, max=53.5, sex="Mx", equipment="Raw"}
+    xrm2b = {name="XR-M2b", min=54.5, max=59.5, sex="Mx", equipment="Raw"}
+    xrm3a = {name="XR-M3a", min=59.5, max=63.5, sex="Mx", equipment="Raw"}
+    xrm3b = {name="XR-M3b", min=64.5, max=68.5, sex="Mx", equipment="Raw"}
+    xrm4a = {name="XR-M4a", min=69.5, max=73.5, sex="Mx", equipment="Raw"}
+    xrm4b = {name="XR-M4b", min=74.5, max=78.5, sex="Mx", equipment="Raw"}
+    xrm5a = {name="XR-M5a", min=79.5, max=83.5, sex="Mx", equipment="Raw"}
+    xrm5b = {name="XR-M5b", min=84.5, max=88.5, sex="Mx", equipment="Raw"}
+    xrm6a = {name="XR-M6a", min=89.5, max=93.5, sex="Mx", equipment="Raw"}
+    xrm6b = {name="XR-M6b", min=94.5, max=98.5, sex="Mx", equipment="Raw"}
+    xrm = {name="XR-M", min=39.5, max=999, sex="Mx", equipment="Raw"}
+    xrm1 = {name="XR-M1", min=39.5, max=48.5, sex="Mx", equipment="Raw"}
+    xrm2 = {name="XR-M2", min=49.5, max=58.5, sex="Mx", equipment="Raw"}
+    xrm3 = {name="XR-M3", min=59.5, max=68.5, sex="Mx", equipment="Raw"}
+    xrm4 = {name="XR-M4", min=69.5, max=78.5, sex="Mx", equipment="Raw"}
+    xrm5 = {name="XR-M5", min=79.5, max=88.5, sex="Mx", equipment="Raw"}
+    xrm6 = {name="XR-M6", min=89.5, max=98.5, sex="Mx", equipment="Raw"}
+    xrm7 = {name="XR-M7", min=99.5, max=999, sex="Mx", equipment="Raw"}
+    xrg = {name="XR-G", min=0, max=999, sex="Mx", equipment="Raw", place="G"}
+    xrjv = {name="XR-JV", min=0, max=999, sex="Mx", equipment="Raw"}
+
+    # Unofficial divisions, Wraps Men. (USAPL hasn't agreed on a code yet.)
+    mwo = {name="MW-O", min=14, max=999, sex="M", equipment="Wraps"}
+    mwy = {name="MW-Y", min=8, max=13, sex="M", equipment="Wraps"}
+    mwy1 = {name="MW-Y1", min=8, max=9, sex="M", equipment="Wraps"}
+    mwy2 = {name="MW-Y2", min=10, max=11, sex="M", equipment="Wraps"}
+    mwy3 = {name="MW-Y3", min=12, max=13, sex="M", equipment="Wraps"}
+    mwt = {name="MW-T", min=14, max=19, sex="M", equipment="Wraps"}
+    mwt1 = {name="MW-T1", min=14, max=15, sex="M", equipment="Wraps"}
+    mwt2 = {name="MW-T2", min=16, max=17, sex="M", equipment="Wraps"}
+    mwt3 = {name="MW-T3", min=18, max=19, sex="M", equipment="Wraps"}
+    mwtj = {name="MW-TJ", min=14, max=23, sex="M", equipment="Wraps"}
+    mwsj = {name="MW-SJ", min=14, max=19, sex="M", equipment="Wraps"}
+    mwjr = {name="MW-Jr", min=20, max=23, sex="M", equipment="Wraps"}
+    mwm1a = {name="MW-M1a", min=39.5, max=43.5, sex="M", equipment="Wraps"}
+    mwm1b = {name="MW-M1b", min=44.5, max=48.5, sex="M", equipment="Wraps"}
+    mwm2a = {name="MW-M2a", min=49.5, max=53.5, sex="M", equipment="Wraps"}
+    mwm2b = {name="MW-M2b", min=54.5, max=58.5, sex="M", equipment="Wraps"}
+    mwm3a = {name="MW-M3a", min=59.5, max=63.5, sex="M", equipment="Wraps"}
+    mwm3b = {name="MW-M3b", min=64.5, max=68.5, sex="M", equipment="Wraps"}
+    mwm4a = {name="MW-M4a", min=69.5, max=73.5, sex="M", equipment="Wraps"}
+    mwm4b = {name="MW-M4b", min=74.5, max=78.5, sex="M", equipment="Wraps"}
+    mwm5a = {name="MW-M5a", min=79.5, max=83.5, sex="M", equipment="Wraps"}
+    mwm5b = {name="MW-M5b", min=84.5, max=88.5, sex="M", equipment="Wraps"}
+    mwm6a = {name="MW-M6a", min=89.5, max=93.5, sex="M", equipment="Wraps"}
+    mwm6b = {name="MW-M6b", min=94.5, max=98.5, sex="M", equipment="Wraps"}
+    mwm = {name="MW-M", min=39.5, max=999, sex="M", equipment="Wraps"}
+    mwm1 = {name="MW-M1", min=39.5, max=48.5, sex="M", equipment="Wraps"}
+    mwm2 = {name="MW-M2", min=49.5, max=58.5, sex="M", equipment="Wraps"}
+    mwm3 = {name="MW-M3", min=59.5, max=68.5, sex="M", equipment="Wraps"}
+    mwm4 = {name="MW-M4", min=69.5, max=78.5, sex="M", equipment="Wraps"}
+    mwm5 = {name="MW-M5", min=79.5, max=88.5, sex="M", equipment="Wraps"}
+    mwm6 = {name="MW-M6", min=89.5, max=98.5, sex="M", equipment="Wraps"}
+    mwm7 = {name="MW-M7", min=99.5, max=999, sex="M", equipment="Wraps"}
+    mwg = {name="MW-G", min=0, max=999, sex="M", equipment="Wraps", place="G"}
+
+    # Unofficial divisions, Wraps Women. (USAPL hasn't agreed on a code yet.)
+    fwo = {name="FW-O", min=14, max=999, sex="F", equipment="Wraps"}
+    fwy = {name="FW-Y", min=8, max=13, sex="F", equipment="Wraps"}
+    fwy1 = {name="FW-Y1", min=8, max=9, sex="F", equipment="Wraps"}
+    fwy2 = {name="FW-Y2", min=10, max=11, sex="F", equipment="Wraps"}
+    fwy3 = {name="FW-Y3", min=12, max=13, sex="F", equipment="Wraps"}
+    fwt = {name="FW-T", min=14, max=19, sex="F", equipment="Wraps"}
+    fwt1 = {name="FW-T1", min=14, max=15, sex="F", equipment="Wraps"}
+    fwt2 = {name="FW-T2", min=16, max=17, sex="F", equipment="Wraps"}
+    fwt3 = {name="FW-T3", min=18, max=19, sex="F", equipment="Wraps"}
+    fwtj = {name="FW-TJ", min=14, max=23, sex="F", equipment="Wraps"}
+    fwsj = {name="FW-SJ", min=14, max=19, sex="F", equipment="Wraps"}
+    fwjr = {name="FW-Jr", min=20, max=23, sex="F", equipment="Wraps"}
+    fwm1a = {name="FW-M1a", min=39.5, max=43.5, sex="F", equipment="Wraps"}
+    fwm1b = {name="FW-M1b", min=44.5, max=48.5, sex="F", equipment="Wraps"}
+    fwm2a = {name="FW-M2a", min=49.5, max=53.5, sex="F", equipment="Wraps"}
+    fwm2b = {name="FW-M2b", min=54.5, max=58.5, sex="F", equipment="Wraps"}
+    fwm3a = {name="FW-M3a", min=59.5, max=63.5, sex="F", equipment="Wraps"}
+    fwm3b = {name="FW-M3b", min=64.5, max=68.5, sex="F", equipment="Wraps"}
+    fwm4a = {name="FW-M4a", min=69.5, max=73.5, sex="F", equipment="Wraps"}
+    fwm4b = {name="FW-M4b", min=74.5, max=78.5, sex="F", equipment="Wraps"}
+    fwm5a = {name="FW-M5a", min=79.5, max=83.5, sex="F", equipment="Wraps"}
+    fwm5b = {name="FW-M5b", min=84.5, max=88.5, sex="F", equipment="Wraps"}
+    fwm6a = {name="FW-M6a", min=89.5, max=93.5, sex="F", equipment="Wraps"}
+    fwm6b = {name="FW-M6b", min=94.5, max=98.5, sex="F", equipment="Wraps"}
+    fwm = {name="FW-M", min=39.5, max=999, sex="F", equipment="Wraps"}
+    fwm1 = {name="FW-M1", min=39.5, max=48.5, sex="F", equipment="Wraps"}
+    fwm2 = {name="FW-M2", min=49.5, max=58.5, sex="F", equipment="Wraps"}
+    fwm3 = {name="FW-M3", min=59.5, max=68.5, sex="F", equipment="Wraps"}
+    fwm4 = {name="FW-M4", min=69.5, max=78.5, sex="F", equipment="Wraps"}
+    fwm5 = {name="FW-M5", min=79.5, max=88.5, sex="F", equipment="Wraps"}
+    fwm6 = {name="FW-M6", min=89.5, max=98.5, sex="F", equipment="Wraps"}
+    fwm7 = {name="FW-M7", min=99.5, max=999, sex="F", equipment="Wraps"}
+    fwg = {name="FW-G", min=0, max=999, sex="F", equipment="Wraps", place="G"}
+
+    # Unofficial divisions, Wraps Mx. (USAPL hasn't agreed on a code yet.)
+    xwo = {name="XW-O", min=14, max=999, sex="Mx", equipment="Wraps"}
+    xwy = {name="XW-Y", min=8, max=13, sex="Mx", equipment="Wraps"}
+    xwy1 = {name="XW-Y1", min=8, max=9, sex="Mx", equipment="Wraps"}
+    xwy2 = {name="XW-Y2", min=10, max=11, sex="Mx", equipment="Wraps"}
+    xwy3 = {name="XW-Y3", min=12, max=13, sex="Mx", equipment="Wraps"}
+    xwt = {name="XW-T", min=14, max=19, sex="Mx", equipment="Wraps"}
+    xwt1 = {name="XW-T1", min=14, max=15, sex="Mx", equipment="Wraps"}
+    xwt2 = {name="XW-T2", min=16, max=17, sex="Mx", equipment="Wraps"}
+    xwt3 = {name="XW-T3", min=18, max=19, sex="Mx", equipment="Wraps"}
+    xwtj = {name="XW-TJ", min=14, max=23, sex="Mx", equipment="Wraps"}
+    xwsj = {name="XW-SJ", min=14, max=19, sex="Mx", equipment="Wraps"}
+    xwjr = {name="XW-Jr", min=20, max=23, sex="Mx", equipment="Wraps"}
+    xwm1a = {name="XW-Mx1a", min=39.5, max=43.5, sex="M", equipment="Wraps"}
+    xwm1b = {name="XW-Mx1b", min=44.5, max=48.5, sex="M", equipment="Wraps"}
+    xwm2a = {name="XW-Mx2a", min=49.5, max=53.5, sex="M", equipment="Wraps"}
+    xwm2b = {name="XW-Mx2b", min=54.5, max=58.5, sex="M", equipment="Wraps"}
+    xwm3a = {name="XW-Mx3a", min=59.5, max=63.5, sex="M", equipment="Wraps"}
+    xwm3b = {name="XW-Mx3b", min=64.5, max=68.5, sex="M", equipment="Wraps"}
+    xwm4a = {name="XW-Mx4a", min=69.5, max=73.5, sex="M", equipment="Wraps"}
+    xwm4b = {name="XW-Mx4b", min=74.5, max=78.5, sex="M", equipment="Wraps"}
+    xwm5a = {name="XW-Mx5a", min=79.5, max=83.5, sex="M", equipment="Wraps"}
+    xwm5b = {name="XW-Mx5b", min=84.5, max=88.5, sex="M", equipment="Wraps"}
+    xwm6a = {name="XW-Mx6a", min=89.5, max=93.5, sex="M", equipment="Wraps"}
+    xwm6b = {name="XW-Mx6b", min=94.5, max=98.5, sex="M", equipment="Wraps"}
+    xwm = {name="XW-Mx", min=39.5, max=999, sex="M", equipment="Wraps"}
+    xwm1 = {name="XW-Mx1", min=39.5, max=48.5, sex="M", equipment="Wraps"}
+    xwm2 = {name="XW-Mx2", min=49.5, max=58.5, sex="M", equipment="Wraps"}
+    xwm3 = {name="XW-Mx3", min=59.5, max=68.5, sex="M", equipment="Wraps"}
+    xwm4 = {name="XW-Mx4", min=69.5, max=78.5, sex="M", equipment="Wraps"}
+    xwm5 = {name="XW-Mx5", min=79.5, max=88.5, sex="M", equipment="Wraps"}
+    xwm6 = {name="XW-Mx6", min=89.5, max=98.5, sex="M", equipment="Wraps"}
+    xwm7 = {name="XW-Mx7", min=99.5, max=999, sex="M", equipment="Wraps"}
+    xwg = {name="XW-G", min=0, max=999, sex="Mx", equipment="Wraps", place="G"}
+
     # Official divisions, Equipped Men.
     mo = {name="M-O", min=14, max=999, sex="M", equipment="Single-ply"}
     my = {name="M-Y", min=8, max=13, sex="M", equipment="Single-ply"}
@@ -152,6 +294,41 @@
     fm7 = {name="F-M7", min=99.5, max=999, sex="F", equipment="Single-ply"}
     fg = {name="F-G", min=0, max=999, sex="F", equipment="Single-ply", place="G"}
 
+    # Official divisions, Equipped Mx.
+    xo = {name="X-O", min=14, max=999, sex="Mx", equipment="Single-ply"}
+    xy = {name="X-Y", min=8, max=13, sex="Mx", equipment="Single-ply"}
+    xy1 = {name="X-Y1", min=8, max=9, sex="Mx", equipment="Single-ply"}
+    xy2 = {name="X-Y2", min=10, max=11, sex="Mx", equipment="Single-ply"}
+    xy3 = {name="X-Y3", min=12, max=13, sex="Mx", equipment="Single-ply"}
+    xt = {name="X-T", min=14, max=19, sex="Mx", equipment="Single-ply"}
+    xt1 = {name="X-T1", min=14, max=15, sex="Mx", equipment="Single-ply"}
+    xt2 = {name="X-T2", min=16, max=17, sex="Mx", equipment="Single-ply"}
+    xt3 = {name="X-T3", min=18, max=19, sex="Mx", equipment="Single-ply"}
+    xtj = {name="X-TJ", min=14, max=23, sex="Mx", equipment="Single-ply"}
+    xsj = {name="X-SJ", min=14, max=19, sex="Mx", equipment="Single-ply"}
+    xjr = {name="X-Jr", min=20, max=23, sex="Mx", equipment="Single-ply"}
+    xm1a = {name="X-M1a", min=39.5, max=43.5, sex="Mx", equipment="Single-ply"}
+    xm1b = {name="X-M1b", min=44.5, max=48.5, sex="Mx", equipment="Single-ply"}
+    xm2a = {name="X-M2a", min=49.5, max=53.5, sex="Mx", equipment="Single-ply"}
+    xm2b = {name="X-M2b", min=54.5, max=58.5, sex="Mx", equipment="Single-ply"}
+    xm3a = {name="X-M3a", min=59.5, max=63.5, sex="Mx", equipment="Single-ply"}
+    xm3b = {name="X-M3b", min=64.5, max=68.5, sex="Mx", equipment="Single-ply"}
+    xm4a = {name="X-M4a", min=69.5, max=73.5, sex="Mx", equipment="Single-ply"}
+    xm4b = {name="X-M4b", min=74.5, max=78.5, sex="Mx", equipment="Single-ply"}
+    xm5a = {name="X-M5a", min=79.5, max=83.5, sex="Mx", equipment="Single-ply"}
+    xm5b = {name="X-M5b", min=84.5, max=88.5, sex="Mx", equipment="Single-ply"}
+    xm6a = {name="X-M6a", min=89.5, max=93.5, sex="Mx", equipment="Single-ply"}
+    xm6b = {name="X-M6b", min=94.5, max=98.5, sex="Mx", equipment="Single-ply"}
+    xm = {name="X-M", min=39.5, max=999, sex="Mx", equipment="Single-ply"}
+    xm1 = {name="X-M1", min=39.5, max=48.5, sex="Mx", equipment="Single-ply"}
+    xm2 = {name="X-M2", min=49.5, max=58.5, sex="Mx", equipment="Single-ply"}
+    xm3 = {name="X-M3", min=59.5, max=68.5, sex="Mx", equipment="Single-ply"}
+    xm4 = {name="X-M4", min=69.5, max=78.5, sex="Mx", equipment="Single-ply"}
+    xm5 = {name="X-M5", min=79.5, max=88.5, sex="Mx", equipment="Single-ply"}
+    xm6 = {name="X-M6", min=89.5, max=98.5, sex="Mx", equipment="Single-ply"}
+    xm7 = {name="X-M7", min=99.5, max=999, sex="Mx", equipment="Single-ply"}
+    xg = {name="X-G", min=0, max=999, sex="Mx", equipment="Single-ply", place="G"}
+
     # Junior Varsity.
     mrjv = {name="MR-JV", min=0, max=999, sex="M", equipment="Raw"}
     frjv = {name="FR-JV", min=0, max=999, sex="F", equipment="Raw"}
@@ -169,16 +346,22 @@
     frhs = {name="FR-HS", min=0, max=999, sex="F", equipment="Raw"}
     mhs = {name="M-HS", min=0, max=999, sex="M", equipment="Single-ply"}
     fhs = {name="F-HS", min=0, max=999, sex="F", equipment="Single-ply"}
+    mwhs = {name="MW-HS", min=0, max=999, sex="M", equipment="Wraps"}
+    fwhs = {name="FW-HS", min=0, max=999, sex="F", equipment="Wraps"}
 
     # Collegiate.
     mrc = {name="MR-C", min=0, max=999, sex="M", equipment="Raw"}
     frc = {name="FR-C", min=0, max=999, sex="F", equipment="Raw"}
     mc = {name="M-C", min=0, max=999, sex="M", equipment="Single-ply"}
     fc = {name="F-C", min=0, max=999, sex="F", equipment="Single-ply"}
+    mwc = {name="MW-C", min=0, max=999, sex="M", equipment="Wraps"}
+    fwc = {name="FW-C", min=0, max=999, sex="F", equipment="Wraps"}
 
     # Military.
     mrmo = {name="MR-MO", min=0, max=999, sex="M", equipment="Raw"}
     frmo = {name="FR-MO", min=0, max=999, sex="F", equipment="Raw"}
+    mwmo = {name="MW-MO", min=0, max=999, sex="M", equipment="Wraps"}
+    fwmo = {name="FW-MO", min=0, max=999, sex="F", equipment="Wraps"}
     mmo = {name="M-MO", min=0, max=999, sex="M", equipment="Single-ply"}
     fmo = {name="F-MO", min=0, max=999, sex="F", equipment="Single-ply"}
 
@@ -191,6 +374,8 @@
     # Police, Fire, and Military.
     mrpfm = {name="MR-PFM", min=0, max=999, sex="M", equipment="Raw"}
     frpfm = {name="FR-PFM", min=0, max=999, sex="F", equipment="Raw"}
+    mwfm = {name="MW-PFM", min=0, max=999, sex="M", equipment="Wraps"}
+    fwfm = {name="FW-PFM", min=0, max=999, sex="F", equipment="Wraps"}
     mpfm = {name="M-PFM", min=0, max=999, sex="M", equipment="Single-ply"}
     fpfm = {name="F-PFM", min=0, max=999, sex="F", equipment="Single-ply"}
 
@@ -200,19 +385,75 @@
     mso = {name="M-SO", min=0, max=999, sex="M", equipment="Single-ply"}
     fso = {name="F-SO", min=0, max=999, sex="F", equipment="Single-ply"}
 
+	# Adaptive Athletes.
+    mraa = {name="MR-AA", min=0, max=999, sex="M", equipment="Raw"}
+    fraa = {name="FR-AA", min=0, max=999, sex="F", equipment="Raw"}
+    mwaa = {name="MW-AA", min=0, max=999, sex="M", equipment="Wraps"}
+    fwaa = {name="FW-AA", min=0, max=999, sex="F", equipment="Wraps"}
+    maa = {name="M-AA", min=0, max=999, sex="M", equipment="Single-ply"}
+    faa = {name="F-AA", min=0, max=999, sex="F", equipment="Single-ply"}
+
+    # Para Bench.
+    mrpb = {name="MR-PB", min=0, max=999, sex="M", equipment="Raw", event="B"}
+    frpb = {name="FR-PB", min=0, max=999, sex="F", equipment="Raw", event="B"}
+
+    # Pro.
+    mrpro = {name="MR-PRO", min=0, max=999, sex="M", equipment="Raw"}
+    frpro = {name="FR-PRO", min=0, max=999, sex="F", equipment="Raw"}
+
 [weightclasses.default_M]
-    classes = ["59","66","74","83","93","105","120","120+"]
-    date_range=["2015-01-01","9999-01-01"]
+    classes = ["52","56","60","67.5","75","82.5","90","100","110","125","140","140+"]
+    date_range=["2022-01-01","9999-01-01"]
     sex = "M"
 
 [weightclasses.default_F]
+    classes = ["44","48","52","56","60","67.5","75","82.5","90","100","100+"]
+    date_range=["2022-01-01","9999-01-01"]
+    sex = "F"
+
+[weightclasses.year2021_M]
+    classes = ["59","66","74","83","93","105","120","120+"]
+    date_range=["2015-01-01","2021-12-31"]
+    sex = "M"
+
+[weightclasses.year2021_F]
+    classes = ["47","52","57","63","69","76","84","84+"]
+    date_range=["2021-01-01","2021-12-31"]
+    sex = "F"
+
+[weightclasses.default_Mx]
+    classes = ["44","48","52","56","60","67.5","75","82.5","90","100","110","125","140","140+"]
+    date_range=["2021-01-01","9999-01-01"]
+    sex = "Mx"
+
+[weightclasses.year2020_F]
     classes = ["47","52","57","63","72","84","84+"]
-    date_range=["2015-01-01","9999-01-01"]
+    date_range=["2015-01-01","2020-12-31"]
     sex = "F"
 
 [weightclasses.junior_M]
+    classes = ["52","56","60","67.5","75","82.5","90","100","110","125","140","140+"]
+    date_range=["2022-01-01","9999-01-01"]
+    sex = "M"
+    divisions = [
+        "MR-T", "MR-T1", "MR-T2", "MR-T3", "MR-TJ", "MR-Jr",
+        "M-T", "M-T1", "M-T2", "M-T3", "M-TJ", "M-Jr",
+    "MR-JV", "M-JV", "MR-V", "M-V", "MR-HS", "M-HS", "MR-C", "M-C"
+    ]
+
+[weightclasses.junior_F]
+    classes = ["44","48","52","56","60","67.5","75","82.5","90","100","100+"]
+    date_range=["2022-01-01","9999-01-01"]
+    sex = "F"
+    divisions = [
+        "FR-T", "FR-T1", "FR-T2", "FR-T3", "FR-TJ", "FR-Jr",
+        "F-T", "F-T1", "F-T2", "F-T3", "F-TJ", "F-Jr",
+    "FR-JV", "F-JV", "FR-V", "F-V", "FR-HS", "F-HS", "FR-C", "F-C"
+    ]
+
+[weightclasses.year2021_junior_M]
     classes = ["53","59","66","74","83","93","105","120","120+"]
-    date_range=["2015-01-01","9999-01-01"]
+    date_range=["2015-01-01","2021-12-31"]
     sex = "M"
     divisions = [
         "MR-T", "MR-T1", "MR-T2", "MR-T3", "MR-TJ", "MR-Jr",
@@ -220,9 +461,19 @@
 	"MR-JV", "M-JV", "MR-V", "M-V", "MR-HS", "M-HS", "MR-C", "M-C"
     ]
 
-[weightclasses.junior_F]
+[weightclasses.year2021_junior_F]
+    classes = ["43","47","52","57","63","69","76","84","84+"]
+    date_range=["2021-01-01","2021-12-31"]
+    sex = "F"
+    divisions = [
+        "FR-T", "FR-T1", "FR-T2", "FR-T3", "FR-TJ", "FR-Jr",
+        "F-T", "F-T1", "F-T2", "F-T3", "F-TJ", "F-Jr",
+	"FR-JV", "F-JV", "FR-V", "F-V", "FR-HS", "F-HS", "FR-C", "F-C"
+    ]
+
+[weightclasses.year2020_junior_F]
     classes = ["43","47","52","57","63","72","84","84+"]
-    date_range=["2015-01-01","9999-01-01"]
+    date_range=["2015-01-01","2020-12-31"]
     sex = "F"
     divisions = [
         "FR-T", "FR-T1", "FR-T2", "FR-T3", "FR-TJ", "FR-Jr",
@@ -231,14 +482,32 @@
     ]
 
 [weightclasses.youth_M]
-    classes = ["30","35","40","44","48","53","59","66","74","83","93","105","120","120+"]
-    date_range=["2015-01-01","9999-01-01"]
+    classes = ["30","35","40","44","48","52","56","60","67.5","75","82.5","90","100","110","125","140","140+"]
+    date_range=["2022-01-01","9999-01-01"]
     sex = "M"
     divisions = ["MR-Y", "MR-Y1", "MR-Y2", "MR-Y3", "M-Y", "M-Y1", "M-Y2", "M-Y3"]
 
 [weightclasses.youth_F]
+    classes = ["30","35","40","44","48","52","56","60","67.5","75","82.5","90","100","100+"]
+    date_range=["2022-01-01","9999-01-01"]
+    sex = "F"
+    divisions = ["FR-Y", "FR-Y1", "FR-Y2", "FR-Y3", "F-Y", "F-Y1", "F-Y2", "F-Y3"]
+
+[weightclasses.year2021_youth_M]
+    classes = ["30","35","40","44","48","53","59","66","74","83","93","105","120","120+"]
+    date_range=["2015-01-01","2021-12-31"]
+    sex = "M"
+    divisions = ["MR-Y", "MR-Y1", "MR-Y2", "MR-Y3", "M-Y", "M-Y1", "M-Y2", "M-Y3"]
+
+[weightclasses.year2021_youth_F]
+    classes = ["30","35","40","43","47","52","57","63","69","76","84","84+"]
+    date_range=["2021-01-01","2021-12-31"]
+    sex = "F"
+    divisions = ["FR-Y", "FR-Y1", "FR-Y2", "FR-Y3", "F-Y", "F-Y1", "F-Y2", "F-Y3"]
+
+[weightclasses.year2020_youth_F]
     classes = ["30","35","40","43","47","52","57","63","72","84","84+"]
-    date_range=["2015-01-01","9999-01-01"]
+    date_range=["2015-01-01","2020-12-31"]
     sex = "F"
     divisions = ["FR-Y", "FR-Y1", "FR-Y2", "FR-Y3", "F-Y", "F-Y1", "F-Y2", "F-Y3"]
 
@@ -306,6 +575,84 @@
     USAPL-2020-04 = ["ExemptWeightClassConsistency"] # No weight classes used.
     USAPL-2020-06 = ["ExemptWeightClassConsistency"] # No weight classes used.
 
+	# 2021 exemptions.
+	WI-2021-07 = ["ExemptWeightClassConsistency"] # Used an incorrect women's class.
+    VA-2021-05 = ["ExemptDivision"] # Lifter under 14 in the Open division.
+    AL-2021-03 = ["ExemptDivision"] # Lifter under 14 in the Open division.
+    NJ-2021-02 = ["ExemptDivision"] # Lifter under 14 in the Open division.
+    WI-2021-04 = ["ExemptDivision"] # Lifter under 14 in the Open division.
+    SC-2021-04 = ["ExemptDivision"] # Lifter under 14 in the Open division.
+    VA-2021-09 = ["ExemptWeightClassConsistency"] # No weight classes used.
+    LA-2021-10 = ["ExemptWeightClassConsistency"] # No weight classes reported.
+    MA-2021-13 = ["ExemptWeightClassConsistency"] # No weight classes reported.
+    WI-2021-18 = ["ExemptWeightClassConsistency"] # No weight classes reported.
+    FL-2021-14 = ["ExemptWeightClassConsistency"] # No weight classes reported.
+    WI-2021-17 = ["ExemptWeightClassConsistency"] # No weight classes reported.
+
+    # 2022 exemptions.
+    WI-2022-15 = ["ExemptDivision"] # Lifter under 14 in the Open division.
+    NS-2022-01 = ["ExemptWeightClassConsistency"] # No weight classes used.
+    NS-2022-01-B = ["ExemptWeightClassConsistency"] # No weight classes used.
+    NS-2022-01-C = ["ExemptWeightClassConsistency"] # No weight classes used.
+    NS-2022-01-D = ["ExemptWeightClassConsistency"] # No weight classes used.
+    NS-2022-01-E = ["ExemptWeightClassConsistency"] # No weight classes used.
+    NS-2022-01-F = ["ExemptWeightClassConsistency"] # No weight classes used.
+    NS-2022-01-H = ["ExemptWeightClassConsistency", "ExemptDivision"] # No weight classes used + several Raw lifters in Single-ply
+    MN-2022-01 = ["ExemptWeightClassConsistency"] # No weight classes used for Open lifters.
+    LA-2022-04 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Weight classes were combined and scored by formula
+    WI-2022-04 = ["ExemptWeightClassConsistency"] # No weight classes used.
+    LA-2022-08 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Weight classes were combined and scored by formula
+    WI-2022-10 = ["ExemptDivision"] # Lifter under 14 in the Open division.
+    WI-2022-10-B = ["ExemptDivision"] # Lifter under 14 in the Open division.
+    LA-2022-07 = ["ExemptWeightClassConsistency"] # No weight classes used.
+    LA-2022-06 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Some weight classes were combined and scored by formula
+    LA-2022-01 = ["ExemptDivision"] # Lifter under 14 in the Open division.
+    MN-2022-10 = ["ExemptWeightClassConsistency"] # No weight classes used.
+    MA-2022-04 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Some weight classes were combined and scored by formula
+    LA-2022-09 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Some weight classes were combined and scored by formula
+    NH-2022-03 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Some weight classes were combined and scored by formula
+    PA-2022-19 = ["ExemptDivision"] # Out-of-state (guest) lifters competed for placing.
+    MO-2022-07 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Weight classes were combined and scored by formula
+    WI-2022-16 = ["ExemptWeightClassConsistency"] # No weight classes used.
+    NE-2022-06 = ["ExemptWeightClassConsistency"] # No weight classes used.
+    MN-2022-12 = ["ExemptWeightClassConsistency"] # No weight classes used.
+    PA-2022-12 = ["ExemptWeightClassConsistency"] # No weight classes used.
+    IL-2022-05 = ["ExemptDivision"] # Lifter under 14 in the Open division.
+    LA-2022-11 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Some weight classes were combined and scored by formula
+    MA-2022-12 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Weight classes were combined and scored by formula
+    GA-2022-12 = ["ExemptWeightClassConsistency"] # No weight classes used.
+    LA-2022-12 = ["ExemptWeightClassConsistency"] # Weight classes were combined and scored by formula
+    SC-2022-09 = ["ExemptWeightClassConsistency"] # No weight classes used.
+    NH-2022-04 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Weight classes were combined and scored by formula
+    MN-2022-09 = ["ExemptWeightClassConsistency"] # Meet was scored by formula.
+    PA-2022-14 = ["ExemptWeightClassConsistency"] # Meet results sorted by formula.
+    PA-2023-09 = ["ExemptWeightClassConsistency"] # No weight classes reported
+
+    # 2023 exemptions.
+    NY-2023-07 = ["ExemptWeightClassConsistency"] # Meet was scored by formula.
+    LA-2023-01 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Weight classes were combined and scored by formula
+    IL-2023-01 = ["ExemptWeightClassConsistency"] # Meet was scored by formula.
+    PA-2023-08 = ["ExemptWeightClassConsistency"] # Meet was scored by formula.
+    LA-2023-04 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Weight classes were combined and scored by formula
+    MO-2023-02 = ["ExemptWeightClassConsistency"] # Meet was scored by formula.
+    NS-2023-03 = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2023-03-B = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2023-03-C = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2023-03-D = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2023-03-E = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2023-03-F = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2023-03-G = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2023-03-H = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2023-03-I = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2023-03-J = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    MN-2023-03 = ["ExemptWeightClassConsistency"] # Meet was scored by formula.
+    CO-2023-03 = ["ExemptWeightClassConsistency"] # Day 1 (primetime) was scored by formula.
+    IL-2023-07 = ["ExemptWeightClassConsistency"] # Weight classes were combined and scored by formula
+    SC-2023-03 = ["ExemptWeightClassConsistency"] # Meet was scored by formula.
+    WI-2023-10 = ["ExemptWeightClassConsistency"] # Meet was scored by formula.
+    TX-2023-37 = ["ExemptWeightClassConsistency"] # Meet was scored by formula.
+    PA-2023-18 = ["ExemptWeightClassConsistency"] # No weight classes reported.
+
     # Miscellaneous exemptions.
     AK-2014-04 = ["ExemptWeightClassConsistency"] # Unknown bodyweights and classes.
     IA-2014-01 = ["ExemptWeightClassConsistency"] # Unknown bodyweights and classes.
@@ -316,3 +663,5 @@
     2019-03-03 = ["ExemptDivision"] # Amanda Lawrence was Raw in Single-ply.
     GA-2019-05 = ["ExemptDivision"] # Heavyweight/Lightweight.
     NS-2019-02 = ["ExemptDivision"] # Jennifer Thompson benched Raw in Single-ply.
+    WI-2018-24 = ["ExemptDivision"] # Brett Gildenzoph wore Wraps in Single-ply.
+    NS-2022-03-A = ["ExemptDivision"] # Pirro Prifti was Raw in Single-ply.

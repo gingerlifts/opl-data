@@ -7,21 +7,21 @@ F-M1b,F,52,Deb Hairston,115,65,137.5,317.5,SBD,Single-ply,1
 F-M1a,F,56,D. Deutsch,115,70,132.5,317.5,SBD,Single-ply,1
 F-T2,F,56,K. Ramirez,92.5,47.5,102.5,242.5,SBD,Single-ply,1
 F-T1,F,56,A. Baum,70,35,85,190,SBD,Single-ply,1
-F-O,F,56,R. Lopez,,,,,SBD,Single-ply,DQ
+F-O,F,56,Rowena Lopez,,,,,SBD,Single-ply,DQ
 F-O,F,60,Katherine Singletary,130,72.5,152.5,355,SBD,Single-ply,1
 F-O,F,60,S. Miller,75,57.5,100,232.5,SBD,Single-ply,2
-F-M1a,F,60,D. Perryman,87.5,,,,SBD,Single-ply,DQ
+F-M1a,F,60,Denise Perryman,87.5,,,,SBD,Single-ply,DQ
 F-O,F,67.5,Kimberly Walford,170,110,215,495,SBD,Single-ply,1
-F-O,F,75,C. Newman,155,130,150,435,SBD,Single-ply,1
-F-M1a,F,82.5,M. Baum,162.5,95,182.5,440,SBD,Single-ply,1
+F-O,F,75,Christy Newman,155,130,150,435,SBD,Single-ply,1
+F-M1a,F,82.5,Malinda Baum,162.5,95,182.5,440,SBD,Single-ply,1
 F-T2,F,82.5,L. Burdick,132.5,75,137.5,345,SBD,Single-ply,1
 F-T2,F,82.5,K. Gamblin,77.5,50,120,247.5,SBD,Single-ply,2
 F-O,F,82.5,W. Allen,,100,,,SBD,Single-ply,DQ
 F-T2,F,90,B. Burdick,137.5,70,122.5,330,SBD,Single-ply,1
 F-T3,F,90,C. Shavers,135,70,155,360,SBD,Single-ply,1
-F-M1a,F,90+,I. Taylor,160,80,157.5,397.5,SBD,Single-ply,1
+F-M1a,F,90+,Iilani Taylor,160,80,157.5,397.5,SBD,Single-ply,1
 F-Nov,F,90+,R. Richards,80,55,127.5,262.5,SBD,Single-ply,1
-M-T2,M,52,D. Summers,135,,,,SBD,Single-ply,DQ
+M-T2,M,52,D. Summers #1,135,,,,SBD,Single-ply,DQ
 M-T1,M,56,B. Taylor,115,67.5,135,317.5,SBD,Single-ply,1
 M-T1,M,60,Aaron Hickley,120,65,137.5,322.5,SBD,Single-ply,1
 M-T2,M,60,E. Rejcek,160,90,197.5,447.5,SBD,Single-ply,1
@@ -66,7 +66,7 @@ M-T3,M,100,D. Osen,140,80,177.5,397.5,SBD,Single-ply,2
 M-Jr,M,100,C. Kahanek,230,160,285,675,SBD,Single-ply,1
 M-Jr,M,100,A. Franks,250,142.5,265,657.5,SBD,Single-ply,2
 M-Jr,M,100,A. Coggan,222.5,165,212.5,600,SBD,Single-ply,3
-M-Jr,M,100,A. Robinson,197.5,147.5,250,595,SBD,Single-ply,4
+M-Jr,M,100,A. Robinson #1,197.5,147.5,250,595,SBD,Single-ply,4
 M-M1a,M,100,T. Glawe,257.5,172.5,255,685,SBD,Single-ply,1
 M-M1a,M,100,S. Atkins,205,160,215,580,SBD,Single-ply,2
 M-M1a,M,100,C. Bilbey,220,125,207.5,552.5,SBD,Single-ply,3
@@ -74,22 +74,22 @@ M-M1a,M,100,D. Norton,192.5,137.5,195,525,SBD,Single-ply,4
 M-O,M,100,B. Stokes,320,192.5,322.5,835,SBD,Single-ply,1
 M-O,M,100,D. Johnson,282.5,175,300,757.5,SBD,Single-ply,2
 M-O,M,100,Dan Lannamann,220,162.5,235,617.5,SBD,Single-ply,3
-M-T2,M,110,J. Wheeler,295,172.5,280,747.5,SBD,Single-ply,1
+M-T2,M,110,J. Wheeler #1,295,172.5,280,747.5,SBD,Single-ply,1
 M-Nov,M,110,Joe Gremillion,160,125,175,460,SBD,Single-ply,1
 M-Jr,M,110,J. Rifenburgh,202.5,125,227.5,555,SBD,Single-ply,1
 M-O,M,110,E. White,292.5,240,277.5,810,SBD,Single-ply,1
-M-O,M,110,M. Parsons,287.5,187.5,322.5,797.5,SBD,Single-ply,2
+M-O,M,110,Matthew Parsons,287.5,187.5,322.5,797.5,SBD,Single-ply,2
 M-O,M,110,Jon Magendie,282.5,185,287.5,755,SBD,Single-ply,3
 M-O,M,110,M. Espinoza,,205,,,SBD,Single-ply,DQ
 M-O,M,110,Kenneth McFarland,,,,,SBD,Single-ply,DQ
 M-T3,M,125,R. Morehouse,240,162.5,235,637.5,SBD,Single-ply,1
 M-Jr,M,125,R. Alexander,272.5,162.5,245,680,SBD,Single-ply,1
-M-M1a,M,125,J. Capps,290,165,290,745,SBD,Single-ply,1
+M-M1a,M,125,Jeff Capps,290,165,290,745,SBD,Single-ply,1
 M-M2b,M,125,Ernie Surrell,300,177.5,267.5,745,SBD,Single-ply,1
 M-O,M,125,W. Ferguson,327.5,205,295,827.5,SBD,Single-ply,1
 M-O,M,125,D. Mann,297.5,212.5,245,755,SBD,Single-ply,2
-M-O,M,125,S. Baker,262.5,165,325,752.5,SBD,Single-ply,3
+M-O,M,125,Shawn Baker,262.5,165,325,752.5,SBD,Single-ply,3
 M-O,M,125,D. Reece,310,200,,,SBD,Single-ply,DQ
 M-M1b,M,125,Tyrone Wilson,,205,,,SBD,Single-ply,DQ
-M-M1a,M,125+,C. Bryant,250,165,257.5,672.5,SBD,Single-ply,1
+M-M1a,M,125+,C. Bryant #1,250,165,257.5,672.5,SBD,Single-ply,1
 M-O,M,125+,James Vaughn,227.5,,,,SBD,Single-ply,DQ

@@ -31,7 +31,7 @@ John Myers,Open,Single-ply,M,67,67.5,200,210,-220,210,120,-125,125,125,240,250,-
 Daniel Anderson,Open,Single-ply,M,67.2,67.5,-215,215,-225,215,-140,-140,140,140,225,-240,-250,225,580,3,SBD
 Steven Cooney,Open,Single-ply,M,66.2,67.5,202.5,212.5,-220,212.5,115,120,-125,120,222.5,-232.5,-232.5,222.5,555,4,SBD
 Yoji Tomita,Open,Single-ply,M,67.2,67.5,180,200,205,205,145,150,-155,150,180,200,-205,200,555,5,SBD
-Raymond Wong,Open,Single-ply,M,67.5,67.5,185,195,200,200,122.5,130,-135,130,205,212.5,217.5,217.5,547.5,6,SBD
+Raymond Wong #1,Open,Single-ply,M,67.5,67.5,185,195,200,200,122.5,130,-135,130,205,212.5,217.5,217.5,547.5,6,SBD
 Scott Peisley,Open,Single-ply,M,66.2,67.5,185,192.5,-200,192.5,105,,,105,230,245,-257.5,245,542.5,7,SBD
 Minh Nguyen #6,Open,Single-ply,M,67.5,67.5,187.5,200,205,205,102.5,105,-107.5,105,190,202.5,-215,202.5,512.5,8,SBD
 Neville Harris,Open,Single-ply,M,74.9,75,232.5,240,,240,157.5,162.5,-165,162.5,250,-267.5,-267.5,250,652.5,1,SBD
@@ -49,7 +49,7 @@ David Jame,Open,Single-ply,M,89.9,90,275,285,292.5,292.5,150,157.5,-160,157.5,28
 Terry Power,Open,Single-ply,M,89.6,90,242.5,257.5,265,265,145,-155,155,155,255,270,-275,270,690,2,SBD
 James Clarke #2,Open,Single-ply,M,86.4,90,235,250,-260,250,145,155,-175,155,225,232.5,240,240,645,3,SBD
 Jacob Oakenfull,Open,Single-ply,M,88.5,90,210,217.7,-225,217.7,-160,160,-167.5,160,230,-237.5,-237.5,230,607.5,4,SBD
-Thomas McGovern,Open,Single-ply,M,87.7,90,210,220,-230,220,-150,150,-157.5,150,215,-225,-230,215,585,5,SBD
+Thomas McGovern #1,Open,Single-ply,M,87.7,90,210,220,-230,220,-150,150,-157.5,150,215,-225,-230,215,585,5,SBD
 Martin Reynolds,Open,Single-ply,M,89.9,90,200,-210,-210,200,-160,160,-167.5,160,220,-230,-230,220,580,6,SBD
 Wim Van Weenen,Open,Single-ply,M,88.5,90,190,-210,-210,190,105,110,-115,110,220,237.5,-240,237.5,537.5,7,SBD
 Scott Hill #1,Open,Single-ply,M,89.6,90,265,275,-285,275,-195,195,-202.5,195,-260,-260,-260,,,DQ,SBD
@@ -74,7 +74,7 @@ Malcolm Slinger,Open,Single-ply,M,81.4,82.5,,,,,140,-152.5,-152.5,140,,,,,140,3,
 Peter Hinchen-Re,Open,Single-ply,M,81.2,82.5,,,,,-130,-130,-130,,,,,,,DQ,B
 Ray Owen,Open,Single-ply,M,86.8,90,,,,,-180,180,-190,180,,,,,180,1,B
 Steven Berry,Open,Single-ply,M,87.1,90,,,,,162.5,-170,-170,162.5,,,,,162.5,2,B
-Thomas McGovern,Open,Single-ply,M,87.7,90,,,,,145,-155,155,155,,,,,155,3,B
+Thomas McGovern #1,Open,Single-ply,M,87.7,90,,,,,145,-155,155,155,,,,,155,3,B
 Gordon Thorogood,Open,Single-ply,M,90,90,,,,,-132.5,-132.5,-132.5,,,,,,,DQ,B
 Pavel Košnar,Open,Single-ply,M,98.9,100,,,,,190,-195,195,195,,,,,195,1,B
 Florian Loock,Open,Single-ply,M,96.8,100,,,,,190,-215,-215,190,,,,,190,2,B
@@ -83,7 +83,7 @@ Joseph McIvor,Open,Single-ply,M,109.5,110,,,,,-172.5,-172.5,172.5,172.5,,,,,,DQ,
 Mark O'Shea,Open,Single-ply,M,124.9,125,,,,,205,-215,-215,205,,,,,205,1,B
 Damien Ussia,Open,Raw,M,115.9,125,,,,,165,-172.5,-172.5,165,,,,,165,2,B
 Darren Low,Open,Single-ply,M,125,125,,,,,-210,-210,-210,,,,,,,DQ,B
-Steve Little,Open,Single-ply,M,122.9,125,,,,,-240,-247.5,-247.5,,,,,,,DQ,B
+Steve Little #1,Open,Single-ply,M,122.9,125,,,,,-240,-247.5,-247.5,,,,,,,DQ,B
 Clayton Long,Open,Single-ply,M,147.3,125+,,,,,-250,250,-255,250,,,,,250,1,B
 Murray Wilkinson,Open,Single-ply,M,129,125+,,,,,160,172.5,-177.5,172.5,,,,,172.5,2,B
 Strase Stojanoski,Open,Single-ply,M,147.2,125+,,,,,-285,-292.5,-300,,,,,,,DQ,B

@@ -30,7 +30,7 @@ Place,Name,CyrillicName,BirthYear,WeightClassKg,Sex,BodyweightKg,Best3SquatKg,Be
 9,Sergey Kondakov,Сергей Кондаков,1984,82.5,M,81.65,280,162.5,270,712.5,SBD,Single-ply,Open
 10,Vadim Chentsov,Вадим Ченцов,1986,82.5,M,81.55,260,195,245,700,SBD,Single-ply,Open
 11,Vitaliy Demidov,Виталий Демидов,1987,82.5,M,81.2,285,155,250,690,SBD,Single-ply,Open
-12,Maksim Stepanov,Максим Степанов,1987,82.5,M,79.2,250,140,250,640,SBD,Single-ply,Open
+12,Maksim Stepanov #5,Максим Степанов,1987,82.5,M,79.2,250,140,250,640,SBD,Single-ply,Open
 13,Pavel Kuzmich,Павел Кузьмич,1987,82.5,M,78,215,135,217.5,567.5,SBD,Single-ply,Open
 1,Vladimir Grishaev,Владимир Гришаев,1981,90,M,89.45,380,265,305,950,SBD,Single-ply,Open
 2,Maksim Kalabekov,Максим Калабеков,1985,90,M,89.35,310,225,270,805,SBD,Single-ply,Open
@@ -55,7 +55,7 @@ DQ,Dmitriy Stepanov,Дмитрий Степанов,1982,90,M,89.85,,,,,SBD,Sing
 9,Aleksandr Romanov,Александр Романов,1983,100,M,93.35,300,190,270,760,SBD,Single-ply,Open
 10,Aleksandr Belyaev,Александр Беляев,1973,100,M,93.35,300,190,260,750,SBD,Single-ply,Open
 11,Denis Smelkov,Денис Смелков,1978,100,M,95.7,285,200,260,745,SBD,Single-ply,Open
-12,Igor Ivanov,Ігор Іванов,1986,100,M,96.55,255,180,265,700,SBD,Single-ply,Open
+12,Igor Ivanov #4,Игорь Иванов,1986,100,M,96.55,255,180,265,700,SBD,Single-ply,Open
 13,Sergey Timofeev,Сергей Тимофеев,1981,100,M,97.55,265,182.5,250,697.5,SBD,Single-ply,Open
 DQ,Valeriy Klistov,Валерий Клистов,1977,100,M,99.85,,,,,SBD,Single-ply,Open
 1,Nikolay Serikov,Николай Сериков,1984,110,M,108.35,360,260,340,960,SBD,Single-ply,Open
@@ -75,5 +75,5 @@ DQ,Ilya Shulyatev,Илья Шулятьев,1980,110,M,107.75,,,,,SBD,Single-ply
 3,Aleksey Gromov,Алексей Громов,1986,125,M,118.15,290,230,290,810,SBD,Single-ply,Open
 DQ,Vladimir Zuykov,Владимир Зуйков,1976,125,M,115.25,,,,,SBD,Single-ply,Open
 DQ,Vladimir Olchenko,Владимир Ольченко,1973,125,M,120.6,,,,,SBD,Single-ply,Open
-1,Artem Kovalchuk,Артём Ковальчук,1982,125+,M,135.55,400,235,352.5,987.5,SBD,Single-ply,Open
+1,Artem Kovalchuk #1,Артём Ковальчук,1982,125+,M,135.55,400,235,352.5,987.5,SBD,Single-ply,Open
 2,Nikolay Ilalov,Николай Илалов,1980,125+,M,134.1,342.5,217.5,300,860,SBD,Single-ply,Open

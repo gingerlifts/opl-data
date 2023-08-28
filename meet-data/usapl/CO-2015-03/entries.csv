@@ -1,5 +1,5 @@
 Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,BirthYear
-1,M,Tom Cencich,B,M-O,83,Single-ply,82.7,,206.5,,206.5,1960
+1,M,Thomas Cencich,B,M-O,83,Single-ply,82.7,,206.5,,206.5,1960
 1,M,Volodymyr Narolskyy,B,M-O,93,Single-ply,89.6,,300,,300,1977
 2,M,Dennis Cieri,B,M-O,93,Single-ply,92.7,,234,,234,1968
 3,M,Steve Harms,B,M-O,93,Single-ply,92.6,,150,,150,1952
@@ -9,7 +9,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 1,M,Derek Nettingham,B,MR-O,83,Raw,80.6,,175,,175,1989
 1,M,Chris Porter #1,B,MR-M1a,120+,Raw,132.2,,187.5,,187.5,1974
 1,M,Marvin Rodenbeck,B,MR-M2a,120+,Raw,124.9,,205,,205,1962
-1,M,David Robinson,B,MR-M4a,83,Raw,82.8,,85,,85,1941
+1,M,David Robinson #1,B,MR-M4a,83,Raw,82.8,,85,,85,1941
 1,F,Deborah McGovern,B,FR-M3a,57,Raw,56.1,,42.5,,42.5,1955
 1,M,Nikia Davenport,SBD,MR-SO,120,Raw,112.3,85,70,145,300,
 1,M,Michael Berrian,SBD,MR-T1,74,Raw,73.5,140,97.5,172.5,410,2000
@@ -38,14 +38,14 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 1,M,Brian Makofske,SBD,MR-O,105,Raw,97.9,227.5,120,212.5,560,1980
 2,M,Raymond Chard,SBD,MR-O,105,Raw,100.8,187.5,117.5,227.5,532.5,1989
 3,M,Eddie Argumedo,SBD,MR-O,105,Raw,104.8,155,205,162.5,522.5,1972
-1,M,Jose Ramirez,SBD,MR-O,120,Raw,119.9,227.5,182.5,237.5,647.5,1990
+1,M,Jose Ramirez #7,SBD,MR-O,120,Raw,119.9,227.5,182.5,237.5,647.5,1990
 2,M,Alexander Gayed,SBD,MR-O,120,Raw,113.1,175,117.5,215,507.5,1982
 1,M,Clint Poore,SBD,MR-M1a,105,Raw,104.6,235,200,205,640,1973
 1,M,Jason Julian,SBD,M-M2a,120,Single-ply,113.3,235,210,235,680,1960
 1,M,Albert Lopez,SBD,MR-M1b,105,Raw,95.2,210,137.5,240,587.5,1967
 1,M,Terry Moon,SBD,MR-M2a,120+,Raw,127.5,127.5,97.5,157.5,382.5,1961
 1,M,Preston Sumner,SBD,MR-M3a,120,Raw,116.8,165,137.5,75,377.5,1952
-1,M,David Robinson,SBD,MR-M4a,83,Raw,82.8,60,85,95,240,1941
+1,M,David Robinson #1,SBD,MR-M4a,83,Raw,82.8,60,85,95,240,1941
 1,F,Emma Nocas,SBD,FR-T2,72,Raw,67.3,65,55,85,205,1998
 1,F,Angela Ambriz,SBD,FR-T3,72,Raw,65.2,85,57.5,115,257.5,1996
 1,F,Kourtney Tarango,SBD,F-T2,63,Single-ply,58.4,122.5,60,110,292.5,1998

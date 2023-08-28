@@ -216,7 +216,7 @@ DQ,Maryana Naumova,52,B,Raw,F,No,1999-04-22,Russia,Youth,50.4,,,,,,-65,,,,,,,,,,
 DQ,Valeriy Kleshnya,82.5,B,Raw,M,No,1981-02-21,Russia,Open,81.7,,,,,,-145,-145,,,,,,,,,
 1,Roman Koroglishvili,90,B,Raw,M,No,1992-07-17,Russia,T 18-19,89.9,,,,,,170,177.5,,177.5,,,,,,,177.5
 1,Aleksey Sarkisyan,90,B,Raw,M,No,1971-03-16,Russia,M 40-44,89.4,,,,,,165,175,-185,175,,,,,,,175
-1,Sergey Fedorov,90,B,Raw,M,No,1962-04-27,Russia,M 45-49,88.4,,,,,,150,162.5,-170,162.5,,,,,,,162.5
+1,Sergey Fedorov #1,90,B,Raw,M,No,1962-04-27,Russia,M 45-49,88.4,,,,,,150,162.5,-170,162.5,,,,,,,162.5
 1,Evgeniy Basov,90,B,Raw,M,No,1955-02-24,Russia,M 55-59,88.3,,,,,,115,125,,125,,,,,,,125
 2,Vladimir Potapov,90,B,Raw,M,No,1954-05-22,Russia,M 55-59,89.95,,,,,,100,107.5,110,110,,,,,,,110
 DQ,Vladimir Soloboev,90,B,Raw,M,No,1950-05-19,Russia,M 60-64,83.5,,,,,,,,,,,,,,,,
@@ -245,7 +245,7 @@ DQ,Vladimir Soloboev,90,B,Raw,M,No,1950-05-19,Russia,M 60-64,83.5,,,,,,,,,,,,,,,
 2,Ivan Vasyunin,110,B,Raw,M,No,1983-08-01,Russia,Open,100.3,,,,,,-220,220,-232.5,220,,,,,,,220
 3,Sergey Didovyk,110,B,Raw,M,No,1981-11-24,Ukraine,Open,100.2,,,,,,210,-225,-225,210,,,,,,,210
 4,Dmitriy Bal,110,B,Raw,M,No,1974-11-19,Russia,Open,109.5,,,,,,185,195,202.5,202.5,,,,,,,202.5
-5,Yuriy Romanov,110,B,Raw,M,No,1984-01-24,Russia,Open,109.2,,,,,,202.5,-210,-210,202.5,,,,,,,202.5
+5,Yuriy Romanov #1,110,B,Raw,M,No,1984-01-24,Russia,Open,109.2,,,,,,202.5,-210,-210,202.5,,,,,,,202.5
 6,Vitaliy Yakovykh,110,B,Raw,M,No,1983-02-09,Russia,Open,109,,,,,,180,185,-195,185,,,,,,,185
 1,Nikolay Boykov,125,B,Raw,M,No,1969-12-17,Russia,M 40-44,123.6,,,,,,190,-197.5,-200,190,,,,,,,190
 1,Sergey Kirilov,125,B,Raw,M,No,1964-04-21,Russia,M 45-49,115.75,,,,,,200,-205,-205,200,,,,,,,200
@@ -258,13 +258,13 @@ DQ,Vladimir Soloboev,90,B,Raw,M,No,1950-05-19,Russia,M 60-64,83.5,,,,,,,,,,,,,,,
 6,Pavel Redkin,125,B,Raw,M,No,1985-07-11,Russia,Open,111.7,,,,,,200,207.5,212.5,212.5,,,,,,,212.5
 7,Yuriy Polyakov,125,B,Raw,M,No,1982-04-27,Russia,Open,119.5,,,,,,175,185,-200,185,,,,,,,185
 DQ,Mikhail Zinets,125,B,Raw,M,No,1974-09-26,Russia,Open,123.5,,,,,,200,205,210,210,,,,,,,
-1,Vladimir Maksimov,140,B,Raw,M,No,1966-06-07,Russia,Open,134.8,,,,,,250,270,-280,270,,,,,,,270
+1,Vladimir Maksimov #1,140,B,Raw,M,No,1966-06-07,Russia,Open,134.8,,,,,,250,270,-280,270,,,,,,,270
 2,Artem Dolinyan,140,B,Raw,M,No,1974-01-01,Russia,Open,125.5,,,,,,-230,230,-240,230,,,,,,,230
-DQ,Vladimir Maksimov,140,B,Raw,M,No,1966-06-07,Russia,M 45-49,134.8,,,,,,-260,-272.5,-272.5,,,,,,,,
-1,Sergey Kolesnichenko,140+,B,Raw,M,No,1979-11-19,Russia,Open,140.4,,,,,,210,-220,222.5,222.5,,,,,,,222.5
+DQ,Vladimir Maksimov #1,140,B,Raw,M,No,1966-06-07,Russia,M 45-49,134.8,,,,,,-260,-272.5,-272.5,,,,,,,,
+1,Sergey Kolesnichenko #1,140+,B,Raw,M,No,1979-11-19,Russia,Open,140.4,,,,,,210,-220,222.5,222.5,,,,,,,222.5
 1,Tatyana Dzhanpoladova,52,B,Single-ply,F,No,1984-09-15,Russia,Open,51.9,,,,,,82.5,-87.5,-87.5,82.5,,,,,,,82.5
 2,Ekaterina Turkina,52,B,Single-ply,F,No,1987-04-13,Russia,Open,49.8,,,,,,-67.5,-75,75,75,,,,,,,75
-1,Yulia Medvedeva,82.5,B,Single-ply,F,No,1979-07-08,Russia,Open,80.4,,,,,,175,190.5,-200,190.5,,,,,,,190.5
+1,Yuliya Medvedeva #1,82.5,B,Single-ply,F,No,1979-07-08,Russia,Open,80.4,,,,,,175,190.5,-200,190.5,,,,,,,190.5
 1,Pavel Mikheev,67.5,B,Single-ply,M,No,1979-02-19,Russia,Open,63,,,,,,-132.5,132.5,-135,132.5,,,,,,,132.5
 1,Yuriy Kiselev,67.5,B,Single-ply,M,No,1937-11-12,Russia,M 70-74,66.2,,,,,,60,65,,65,,,,,,,65
 1,Ivan Semenikhin,75,B,Single-ply,M,No,1991-03-30,Russia,J 20-23,74.9,,,,,,150,160,170,170,,,,,,,170
@@ -282,7 +282,7 @@ DQ,Andrey Belykh,90,B,Single-ply,M,No,1969-07-19,Russia,M 40-44,89.7,,,,,,-246,-
 1,Valeriy Nugumanov,90,B,Single-ply,M,No,1939-06-25,Russia,M 70-74,88.4,,,,,,110,115,-120,115,,,,,,,115
 1,Evgeniy Kuchin,90,B,Single-ply,M,No,1987-02-20,Russia,Open,86.9,,,,,,-220,-230,230,230,,,,,,,230
 DQ,Evgeniy Kataev,90,B,Single-ply,M,No,1983-08-08,Russia,Open,87.9,,,,,,-210,,,,,,,,,,
-DQ,Aleksandr Kuznetsov,90,B,Single-ply,M,No,1981-12-09,Russia,Open,89.9,,,,,,-215,-215,-215,,,,,,,,
+DQ,Aleksandr Kuznetsov #4,90,B,Single-ply,M,No,1981-12-09,Russia,Open,89.9,,,,,,-215,-215,-215,,,,,,,,
 DQ,Sergey Konovalov #1,90,B,Single-ply,M,No,,Russia,Open,89.9,,,,,,-290,,,,,,,,,,
 1,Bakhteyar Mukhametov,100,B,Single-ply,M,No,1970-02-18,Russia,M 40-44,97.9,,,,,,-200,-200,200,200,,,,,,,200
 DQ,Valeriy Nefedov,100,B,Single-ply,M,No,1967-06-11,Russia,M 40-44,99.9,,,,,,-230,,-230,,,,,,,,
@@ -293,7 +293,7 @@ DQ,Valeriy Snigerev,100,B,Single-ply,M,No,1969-05-07,Russia,M 40-44,95.8,,,,,,-2
 4,Aleksey Tarasov,100,B,Single-ply,M,No,1981-05-24,Russia,Open,96.2,,,,,,-190,200,210,210,,,,,,,210
 DQ,Sergey Didovyk,100,B,Single-ply,M,No,1978-01-20,Ukraine,Open,99.2,,,,,,-290,-297.5,-302.5,,,,,,,,
 1,Roman Brekhov,110,B,Single-ply,M,No,1990-02-24,Russia,J 20-23,109.9,,,,,,-247.5,250,-260,250,,,,,,,250
-1,Aleksandr Tretyakov,110,B,Single-ply,M,No,1967-06-14,Russia,Open,108.8,,,,,,320,330,345,345,,,,,,,345
+1,Aleksandr Tretyakov #1,110,B,Single-ply,M,No,1967-06-14,Russia,Open,108.8,,,,,,320,330,345,345,,,,,,,345
 2,Denis Knyazev,110,B,Single-ply,M,No,1987-09-11,Russia,Open,109.6,,,,,,-330,330,-345,330,,,,,,,330
 3,Sergey Permyakov,110,B,Single-ply,M,No,1983-09-09,Russia,Open,105.4,,,,,,260,277.5,285,285,,,,,,,285
 1,Vitaliy Yakovykh,110,B,Single-ply,M,No,1975-02-25,Russia,Open,109,,,,,,-235,235,-250,235,,,,,,,235
@@ -320,7 +320,7 @@ DQ,Vüsal Mardanov,110,B,Single-ply,M,No,1974-01-01,Azerbaijan,Open,108.9,,,,,,-
 1,Valeriy Nugumanov,90,SBD,Wraps,M,No,1939-06-25,Russia,M 70-74,88.4,-185,185,192.5,192.5,,110,-115,115,115,,180,190,195,195,,502.5
 1,Aleksey Bazhenov,90,SBD,Wraps,M,No,1977-11-01,Russia,Open,87.8,-240,-240,240,240,,160,170,180,180,,255,-267.5,-267.5,255,,675
 2,Denis Krasnov,90,SBD,Wraps,M,No,1971-11-08,Russia,Open,89,-180,180,-200,180,,160,170,-180,170,,210,232.5,-240,232.5,,582.5
-1,Anton Terentyev,100,SBD,Wraps,M,No,1994-08-05,Russia,T 16-17,99.1,160,170,180,180,,110,115,120,120,,205,215,222.5,222.5,,522.5
+1,Anton Terentyev #2,100,SBD,Wraps,M,No,1994-08-05,Russia,T 16-17,99.1,160,170,180,180,,110,115,120,120,,205,215,222.5,222.5,,522.5
 1,Vladimir Minin,100,SBD,Wraps,M,No,1967-08-29,Russia,M 40-44,96.9,280,292.5,300,300,,155,160,-165,160,,280,292.5,,292.5,,752.5
 1,Aslambek Abaev,100,SBD,Wraps,M,No,1959-06-28,Russia,M 50-54,95.7,-250,250,270,270,,200,-210,210,210,,250,270,-275,270,,750
 1,Aleksandr Babkin,100,SBD,Wraps,M,No,1955-02-23,Russia,M 55-59,94.8,160,170,180,180,,120,-130,,120,,180,200,210,210,,510
@@ -338,7 +338,7 @@ DQ,Vüsal Mardanov,110,B,Single-ply,M,No,1974-01-01,Azerbaijan,Open,108.9,,,,,,-
 1,Valeriy Afanasyev,140+,SBD,Wraps,M,No,1983-03-08,Russia,Open,160,220,240,-250,240,,140,150,160,160,,260,280,-302.5,280,,680
 1,Anastasiya Noskova,56,SBD,Single-ply,F,No,1984-02-14,Russia,Open,54.2,110,120,130,130,,55,62.5,-67.5,62.5,,125,-135,-135,125,,317.5
 1,Tatyana Razumak,60,SBD,Single-ply,F,No,1989-12-24,Russia,J 20-23,57.4,140,-150,-150,140,,75,80,85,85,,135,145,-150,145,,370
-1,Yulia Medvedeva,82.5,SBD,Single-ply,F,No,1979-07-08,Russia,Open,80.4,-250,250,,250,,175,190,-200,190,,200,220,240,240,,680
+1,Yuliya Medvedeva #1,82.5,SBD,Single-ply,F,No,1979-07-08,Russia,Open,80.4,-250,250,,250,,175,190,-200,190,,200,220,240,240,,680
 1,Denis Kachesov,67.5,SBD,Single-ply,M,No,1995-02-16,Russia,T 16-17,65.3,170,-185,195,195,,110,117.5,122.5,122.5,,160,-170,170,170,,487.5
 1,Aleksandr Petukhov,75,SBD,Single-ply,M,No,1995-04-01,Russia,T 16-17,68,200,212.5,220,220,,125,130,-142.5,130,,215,230,240,240,,590
 1,Maxim Shvarts,75,SBD,Single-ply,M,No,1989-11-29,Russia,J 20-23,73.5,-290,290,300,300,,150,160,165,165,,250,270,-282.5,270,,735
@@ -358,7 +358,7 @@ DQ,Zaurbek Bagulov,82.5,SBD,Single-ply,M,No,1990-03-01,Russia,Open,79.8,,,250,25
 1,Denis Mosharov,100,SBD,Single-ply,M,No,1992-01-31,Russia,T 18-19,100,-300,300,-320,300,,180,195,200,200,,-255,255,275,275,,775
 1,Bahteyar Muhametov,100,SBD,Single-ply,M,No,1970-02-18,Kyrgyzstan,M 40-44,97.9,100,,,100,,100,,,100,,100,,125,125,,325
 1,Andrey Belyaev #1,100,SBD,Single-ply,M,No,1983-03-16,Russia,Open,95.3,360,385,405,405,,290,310,-320,310,,330,-350,-350,330,,1045
-2,Evgeniy Popov,100,SBD,Single-ply,M,No,1985-11-07,Russia,Open,100,315,330,340,340,,-225,225,240,240,,240,250,260,260,,840
+2,Evgeniy Popov #2,100,SBD,Single-ply,M,No,1985-11-07,Russia,Open,100,315,330,340,340,,-225,225,240,240,,240,250,260,260,,840
 3,Yuriy Ustinov,100,SBD,Single-ply,M,No,1975-05-10,Russia,Open,94.6,260,,,260,,180,190,-200,190,,250,270,,270,,720
 1,Vadim Kulikov,110,SBD,Single-ply,M,No,1967-02-18,Russia,M 40-44,104.9,265,275,280,280,,140,160,170,170,,260,270,285,285,,735
 1,Ivan Vasyunin,110,SBD,Single-ply,M,No,1983-08-01,Russia,Open,100.3,-355,355,370,370,,275,287.5,300,300,,300,-310,310,310,,980

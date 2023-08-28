@@ -1,5 +1,5 @@
 Event,Equipment,Sex,WeightClassKg,Place,Name,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Bench4Kg,Best3BenchKg,TotalKg,Division
-B,Raw,M,49,1,Van Cong Le,Vietnam,47.54,175,-179,181,183,181,181,Open
+B,Raw,M,49,1,Lê Văn Công,Vietnam,47.54,175,-179,181,183,181,181,Open
 B,Raw,M,49,2,Omar Sami Hamadeh Qarada,Jordan,47.05,170,177,-181,,177,177,Open
 B,Raw,M,49,3,Nándor Tunkel,Hungary,47.31,150,155,-160,,155,155,Open
 B,Raw,M,49,4,Farman Basha,India,45.65,140,-150,-155,,140,140,Open
@@ -13,9 +13,9 @@ B,Raw,M,54,2,Jian Wang,China,53.62,170,-175,-179,,170,170,Open
 B,Raw,M,54,3,Dimitrios Bakochristos,Greece,52.57,162,-170,-170,,162,162,Open
 B,Raw,M,54,4,Bruno Carra,Brazil,53.79,-162,162,-163,,162,162,Open
 B,Raw,M,54,5,Esen Kaliev,Kyrgyzstan,53.41,-154,154,-163,,154,154,Open
-B,Raw,M,54,6,Jorge Carinao,Chile,53.94,145,150,-152,,150,150,Open
+B,Raw,M,54,6,Jorge Eduardo Carinao Cardenas,Chile,53.94,145,150,-152,,150,150,Open
 B,Raw,M,54,7,Sergii Khvalinskyi,Ukraine,53.65,-143,143,-150,,143,143,Open
-B,Raw,M,54,8,Gyorgy Sztano,Hungary,52.96,112,-122,-122,,112,112,Open
+B,Raw,M,54,8,György Sztanó,Hungary,52.96,112,-122,-122,,112,112,Open
 B,Raw,M,54,DQ,Tetsuo Nishizaki,Japan,52.88,-127,-127,-127,,,,Open
 B,Raw,M,54,DQ,Binh An Nguyen,Vietnam,53.11,-178,-178,-178,,,,Open
 B,Raw,M,54,DQ,Alidou Diamoutene,Ivory Coast,53.21,-165,-165,-170,,,,Open
@@ -27,7 +27,7 @@ B,Raw,M,59,5,Paschalis Kouloumoglou,Greece,57.18,135,145,,,145,145,Open
 B,Raw,M,59,6,Juhani Kokko,Finland,58.75,-143,-145,145,,145,145,Open
 B,Raw,M,59,7,Agustin Kitan,Philippines,58.81,-145,145,-155,,145,145,Open
 B,Raw,M,59,DQ,Mariusz Tomczyk,Poland,58.01,-175,-175,-176,,,,Open
-B,Raw,M,59,DQ,Juan Carlos Garrido,Chile,58.86,-185,-185,-186,,,,Open
+B,Raw,M,59,DQ,Juan Carlos Garrido Acevedo,Chile,58.86,-185,-185,-186,,,,Open
 B,Raw,M,59,DQ,Gabriel Magu Wanjiku,Kenya,58.02,-120,-125,-125,,,,Open
 B,Raw,M,65,1,Paul Kehinde,Nigeria,63.06,205,210,218,220,218,218,Open
 B,Raw,M,65,2,Peng Hu,China,64.53,195,200,-211,,200,200,Open
@@ -63,7 +63,7 @@ B,Raw,M,88,1,Mohammed Khamis Khalaf,UAE,86.31,212,220,-226,,220,220,Open
 B,Raw,M,88,2,Silva Evanio Da,Brazil,86.35,205,210,-215,,210,210,Open
 B,Raw,M,88,3,Sodnompiljee Enkhbayar,Mongolia,87.53,210,-217,-217,,210,210,Open
 B,Raw,M,88,4,Oninger Jesus Drake Vega,Cuba,86.58,-198,200,205,,205,205,Open
-B,Raw,M,88,5,Opeyemi Jegede,Nigeria,84.8,192,200,-215,,200,200,Open
+B,Raw,M,88,5,Opeyemi Bambo Jegede,Nigeria,84.8,192,200,-215,,200,200,Open
 B,Raw,M,88,6,Hany Abdelhady,Egypt,87.68,180,200,-215,,200,200,Open
 B,Raw,M,88,7,Mu'taz Zakaria Daoud Al Juneidi,Jordan,87.67,-190,190,-200,,190,190,Open
 B,Raw,M,88,8,Hideki Odo,Japan,83.5,160,-170,-170,,160,160,Open
@@ -92,7 +92,7 @@ B,Raw,M,107,9,Ruben Soroseb,Namibia,103.44,-190,190,-200,,190,190,Open
 B,Raw,M,107,DQ,Elshan Huseynov,Azerbaijan,102.9,-232,-232,-232,,,,Open
 B,Raw,M,107+,1,Siamand Rahman,Iran,169.03,270,300,305,310,305,305,Open
 B,Raw,M,107+,2,Amr Mosaad,Egypt,136.43,228,-231,235,,235,235,Open
-B,Raw,M,107+,3,Jamil Elshebli,Jordan,118.11,-230,231,234,,234,234,Open
+B,Raw,M,107+,3,Jamil Saleh Elshebli,Jordan,118.11,-230,231,234,,234,234,Open
 B,Raw,M,107+,4,Konstantinos Dimou,Greece,152.51,220,-229,-229,,220,220,Open
 B,Raw,M,107+,5,Sandor Sas,Hungary,122.56,-207,207,-228,,207,207,Open
 B,Raw,M,107+,6,Marek Kamzik,Slovakia,118,162,170,-175,,170,170,Open
@@ -103,7 +103,7 @@ B,Raw,F,41,2,Zhe Cui,China,39.27,96,102,-105,,102,102,Open
 B,Raw,F,41,3,Ni Nengah Widiasih,Indonesia,40.13,-95,95,-100,,95,95,Open
 B,Raw,F,41,4,Noura Baddour,Syria,37.31,87,90,92,,92,92,Open
 B,Raw,F,41,5,Maryna Kopiika,Ukraine,40.36,-88,88,-96,,88,88,Open
-B,Raw,F,41,6,Leidy Rodriguez,Cuba,39.77,80,-85,-88,,80,80,Open
+B,Raw,F,41,6,Leidy Rodriguez Rodriguez,Cuba,39.77,80,-85,-88,,80,80,Open
 B,Raw,F,41,DQ,Nawal Ramadan,Egypt,39.63,-95,-95,-95,,,,Open
 B,Raw,F,41,DQ,Nsini Ben,Nigeria,39.53,-101,-101,-101,,,,Open
 B,Raw,F,45,1,Dandan Hu,China,44.18,102,105,107,108,107,107,Open
@@ -158,7 +158,7 @@ B,Raw,F,73,7,Larisa Marinenkova,Moldova,70.83,-80,80,90,,90,90,Open
 B,Raw,F,79,1,Bose Omolayo,Nigeria,77.59,-137,138,-141,,138,138,Open
 B,Raw,F,79,2,Lili Xu,China,75.96,-135,135,-140,,135,135,Open
 B,Raw,F,79,3,Tzu-Hui Lin,Taiwan,77.5,-121,125,131,,131,131,Open
-B,Raw,F,79,4,Perla Barcenas,Mexico,78.24,122,126,-132,,126,126,Open
+B,Raw,F,79,4,Perla Patricia Bárcenas Ponce de León,Mexico,78.24,122,126,-132,,126,126,Open
 B,Raw,F,79,5,Siti Mahmudah,Indonesia,76.7,-110,-116,116,,116,116,Open
 B,Raw,F,79,6,Gehan Hassan,Egypt,78.13,115,-122,-122,,115,115,Open
 B,Raw,F,79,7,Lyubov Semenyuk,Ukraine,77.77,95,100,-105,,100,100,Open
@@ -169,7 +169,7 @@ B,Raw,F,86,3,Catalina Diaz Vilchis,Mexico,80.26,113,-116,117,,117,117,Open
 B,Raw,F,86,4,Fengmei Li,China,82.02,111,116,-118,,116,116,Open
 B,Raw,F,86,5,Marcia Cristina Menezes,Brazil,83.85,111,-117,-117,,111,111,Open
 B,Raw,F,86,6,Haifa Naqbi,UAE,82.44,80,-90,-95,,80,80,Open
-B,Raw,F,86+,1,Josephine Orji,Nigeria,133.84,151,-154,154,160,154,154,Open
+B,Raw,F,86+,1,Precious Orji,Nigeria,133.84,151,-154,154,160,154,154,Open
 B,Raw,F,86+,2,Marzena Zieba,Poland,115.27,128,130,134,,134,134,Open
 B,Raw,F,86+,3,Melaica Tuinfort,Netherlands,101.12,125,130,-134,,130,130,Open
 B,Raw,F,86+,4,Hyun Jung Lee,South Korea,99.55,115,-120,-130,,115,115,Open
