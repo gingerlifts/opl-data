@@ -16,7 +16,7 @@ Place,Name,Sex,Event,BirthDate,Equipment,Division,WeightClassKg,BodyweightKg,Ben
 2,Ilia Kochlashvili,M,BD,1991-11-01,Raw,Open,125,120.3,,180,,280,460,Georgia
 1,Amadeusz Guroś,M,BD,1992-11-04,Raw,Open,140,137.2,,210,,310,520,Poland
 1,Johan Liljeblad,M,BD,1989-10-31,Raw,Open,140+,144,,212.5,,327.5,540,Sweden
-1,Marcin Sokołowski,M,BD,1990-01-06,Raw,Submasters,75,72,,135,,220,355,Poland
+1,Marcin Sokołowski #2,M,BD,1990-01-06,Raw,Submasters,75,72,,135,,220,355,Poland
 1,Temur Absaridze,M,BD,,Raw,Submasters,90,84,,145,,230,375,Georgia
 1,Artyom Khugoyan,M,BD,1989-09-10,Raw,Submasters,110,108.5,,197.5,,302.5,500,Armenia
 2,Marcus Westerback,M,BD,1984-07-03,Raw,Submasters,110,106.8,,162.5,,240,402.5,Sweden
@@ -96,7 +96,7 @@ DQ,Damian Miczołek,M,B,,Raw,Juniors,75,74,,,,,,Poland
 2,Daniel Karaszewski,M,B,1991-12-19,Raw,Open,140+,145,,245,,,245,Poland
 3,Marcin Karkula,M,B,1982-12-22,Raw,Open,140+,159,,245,,,245,Poland
 4,Johan Liljeblad,M,B,1989-10-31,Raw,Open,140+,144,,212.5,,,212.5,Sweden
-1,Marcin Sokołowski,M,B,1990-01-06,Raw,Submasters,75,72,,135,,,135,Poland
+1,Marcin Sokołowski #2,M,B,1990-01-06,Raw,Submasters,75,72,,135,,,135,Poland
 1,Mateusz Pawelak,M,B,1990-10-14,Raw,Submasters,82.5,82.5,,200,,,200,Poland
 1,Kamil Kuś,M,B,1990-04-02,Raw,Submasters,90,85.4,,170,,,170,Poland
 DQ,Ashot Antonyan,M,B,1986-12-22,Raw,Submasters,90,85,,,,,,Armenia
@@ -137,7 +137,7 @@ DQ,Ashot Antonyan,M,B,1986-12-22,Raw,Submasters,90,85,,,,,,Armenia
 2,Jerzy Czajka,M,B,1965-11-01,Raw,M4,90,89.2,,187,,,187,Poland
 1,Piotr Strzała,M,B,1966-11-03,Raw,M4,110,101.3,,180,,,180,Poland
 1,Adam Ubertowski,M,B,1967-02-19,Raw,M4,125,123.5,180,160,,,160,Poland
-1,Tahvo Jauhojavri,M,B,1961-12-08,Raw,M5,75,73.2,,140,,,140,Sweden
+1,Tahvo Jauhojärvi,M,B,1961-12-08,Raw,M5,75,73.2,,140,,,140,Sweden
 1,Mirosław Urbaniak,M,B,1961-04-06,Raw,M5,90,88,,157.5,,,157.5,Poland
 2,Krzysztof Kozielski,M,B,1962-07-18,Raw,M5,90,88.8,,125,,,125,Poland
 1,Marek Strzałkowski,M,B,1959-10-30,Raw,M5,100,91.7,152.5,150,,,150,Poland
@@ -162,7 +162,7 @@ DQ,Ashot Antonyan,M,B,1986-12-22,Raw,Submasters,90,85,,,,,,Armenia
 1,Marek Strzałkowski,M,B,1959-10-30,Raw,Paralympics,100,91.7,152.5,150,,,150,Poland
 1,Marcel Vasilenko,M,B,1979-05-15,Single-ply,M1,100,96,,180,,,180,Slovakia
 DQ,Irakli Tskhovrebashvili,M,B,,Single-ply,M1,100,92,,,,,,Georgia
-1,Tahvo Jauhojavri,M,B,1961-12-08,Single-ply,M5,75,73.2,,170,,,170,Sweden
+1,Tahvo Jauhojärvi,M,B,1961-12-08,Single-ply,M5,75,73.2,,170,,,170,Sweden
 1,Mieczysłąw Maczka,M,B,1954-09-11,Single-ply,M6,82.5,81.5,,115,,,115,Germany
 1,Stefan Sochaňski,M,B,1948-11-17,Single-ply,M7,82.5,81.1,,85,,,85,Poland
 1,Kazimierz Tamiłowski,M,B,1948-02-02,Single-ply,M7,90,86.3,,155,,,155,Poland
@@ -217,7 +217,7 @@ DQ,Irakli Tskhovrebashvili,M,B,,Single-ply,M1,100,92,,,,,,Georgia
 1,Amadeusz Guroś,M,D,1992-11-04,Raw,Open,140,137.2,,,,310,310,Poland
 1,Johan Liljeblad,M,D,1989-10-31,Raw,Open,140+,144,,,,327.5,327.5,Sweden
 1,Mariusz Łydziński,M,D,1990-01-25,Raw,Submasters,75,73.5,,,,242.5,242.5,Poland
-2,Marcin Sokołowski,M,D,1990-01-06,Raw,Submasters,75,72,,,,220,220,Poland
+2,Marcin Sokołowski #2,M,D,1990-01-06,Raw,Submasters,75,72,,,,220,220,Poland
 1,Przemysław Klimko,M,D,1984-02-16,Raw,Submasters,82.5,76.6,,,,200,200,Poland
 1,Konrad Kosiński,M,D,1985-02-26,Raw,Submasters,90,86.2,,,,220,220,Poland
 2,Patryk Pietrasiak,M,D,1989-11-29,Raw,Submasters,100,95.8,,,,290,290,Poland
