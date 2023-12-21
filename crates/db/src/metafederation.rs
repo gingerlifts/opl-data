@@ -143,6 +143,8 @@ pub enum MetaFederation {
     AllNetherlands,
     #[strum(to_string = "all-newzealand")]
     AllNewZealand,
+    #[strum(to_string = "all-nicaragua")]
+    AllNicaragua,
     #[strum(to_string = "all-niue")]
     AllNiue,
     #[strum(to_string = "all-norway")]
@@ -189,6 +191,8 @@ pub enum MetaFederation {
     AllSwitzerland,
     #[strum(to_string = "all-syria")]
     AllSyria,
+    #[strum(to_string = "all-taiwan")]
+    AllTaiwan,
     #[strum(to_string = "all-thailand")]
     AllThailand,
     #[strum(to_string = "all-turkey")]
@@ -375,10 +379,10 @@ pub enum MetaFederation {
     #[serde(rename = "GPC-GB")]
     GPCGB,
 
-    /// GPC-WUAP-CRO, but including HPO results and excluding non-Croatians.
-    #[strum(to_string = "gpc-wuap-cro")]
-    #[serde(rename = "GPC-WUAP-CRO")]
-    GPCWUAPCRO,
+    /// GPC-CRO, but including HPO results and excluding non-Croatians.
+    #[strum(to_string = "gpc-cro")]
+    #[serde(rename = "GPC-CRO")]
+    GPCCRO,
 
     /// HKWPA, but with international results also.
     #[strum(to_string = "hkwpa")]
@@ -609,6 +613,11 @@ pub enum MetaFederation {
     #[strum(to_string = "usapl")]
     USAPL,
 
+    /// USAPL, which apparently has an Australian affiliate now.
+    #[strum(to_string = "usapl-australia")]
+    #[serde(rename = "USAPL-Australia")]
+    USAPLAustralia,
+
     /// USPA, plus IPL results for American lifters.
     #[strum(to_string = "uspa")]
     USPA,
@@ -659,6 +668,11 @@ pub enum MetaFederation {
     #[strum(to_string = "wrpf-usa-tested")]
     #[serde(rename = "WRPF-USA-Tested")]
     WRPFUSATested,
+
+    /// WUAP-CRO, but including HPO results and excluding non-Croatians.
+    #[strum(to_string = "wuap-cro")]
+    #[serde(rename = "WUAP-CRO")]
+    WUAPCRO,
 }
 
 /// Helper function for MetaFederation::contains() for AllCountry meta-feds.
@@ -786,6 +800,7 @@ impl MetaFederation {
             MetaFederation::AllNauru => is_from(Country::Nauru, entry, meet),
             MetaFederation::AllNetherlands => is_from(Country::Netherlands, entry, meet),
             MetaFederation::AllNewZealand => is_from(Country::NewZealand, entry, meet),
+            MetaFederation::AllNicaragua => is_from(Country::Nicaragua, entry, meet),
             MetaFederation::AllNiue => is_from(Country::Niue, entry, meet),
             MetaFederation::AllNorway => is_from(Country::Norway, entry, meet),
             MetaFederation::AllOman => is_from(Country::Oman, entry, meet),
@@ -809,6 +824,7 @@ impl MetaFederation {
             MetaFederation::AllSweden => is_from(Country::Sweden, entry, meet),
             MetaFederation::AllSyria => is_from(Country::Syria, entry, meet),
             MetaFederation::AllSwitzerland => is_from(Country::Switzerland, entry, meet),
+            MetaFederation::AllTaiwan => is_from(Country::Taiwan, entry, meet),
             MetaFederation::AllThailand => is_from(Country::Thailand, entry, meet),
             MetaFederation::AllTurkey => is_from(Country::Turkey, entry, meet),
             MetaFederation::AllUSVirginIslands => is_from(Country::USVirginIslands, entry, meet),
@@ -961,8 +977,8 @@ impl MetaFederation {
                     }
                 }
             },
-            MetaFederation::GPCWUAPCRO => {
-                (meet.federation == Federation::GPCWUAPCRO || meet.federation == Federation::HPO)
+            MetaFederation::GPCCRO => {
+                (meet.federation == Federation::GPCCRO || meet.federation == Federation::HPO)
                     && (entry.lifter_country.is_none()
                         || entry.lifter_country == Some(Country::Croatia))
             }
@@ -1060,7 +1076,12 @@ impl MetaFederation {
                             && meet.date <= date!(2021-11-07))
                         || (meet.federation == ADFPA && meet.date < date!(1997-12-05)))
             }
-
+            // Include USAPL Australia results after metafederation formed from 2022-05-14.
+            MetaFederation::USAPLAustralia => {
+                meet.federation == Federation::USAPL
+                    && entry.lifter_country == Some(Country::Australia)
+                    && meet.date >= date!(2022-05-14)
+            }
             MetaFederation::USPA => affiliation!(meet, entry, USPA, IPL),
             MetaFederation::USPATested => {
                 entry.tested && MetaFederation::USPA.contains(entry, meets)
@@ -1085,6 +1106,11 @@ impl MetaFederation {
             },
             MetaFederation::WRPFUSATested => {
                 entry.tested && MetaFederation::WRPFUSA.contains(entry, meets)
+            }
+            MetaFederation::WUAPCRO => {
+                (meet.federation == Federation::WUAPCRO || meet.federation == Federation::HPO)
+                    && (entry.lifter_country.is_none()
+                        || entry.lifter_country == Some(Country::Croatia))
             }
         }
     }

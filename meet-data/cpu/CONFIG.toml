@@ -15,6 +15,7 @@
     specialolympicsjr = {name = "SO Juniors",min=18.5,max=22.5}
     specialolympicsm1 = {name = "SO Masters 1",min=39.5,max=48.5}
     specialolympicsm2 = {name = "SO Masters 2",min=49.5,max=58.5}
+    para = {name = "Para",min=0,max=999}
     blind = {name = "Blind",min=0,max=999}
     disabled = {name = "Disabled",min=0,max=999}
 
@@ -49,6 +50,12 @@
     sex = "M"
     divisions = ["Youth 1","Youth 2","Youth 3"]
 
+[weightclasses.youth_F]
+    classes = ["30","35","40","43","47","52","57","63","69","76","84","84+"]
+    date_range=["2011-01-01","9999-01-01"]
+    sex = "F"
+    divisions = ["Youth 1","Youth 2","Youth 3"]
+    
 [weightclasses.junior_F]
     classes = ["43","47","52","57","63","69","76","84","84+"]
     date_range=["2021-01-01","9999-01-01"]

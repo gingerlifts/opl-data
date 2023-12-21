@@ -29,7 +29,7 @@ pub fn check_duplicates_one(
         date_a.cmp(&date_b)
     };
 
-    ei_by_date.sort_unstable_by(|a, b| date_sort_closure(a, b));
+    ei_by_date.sort_unstable_by(date_sort_closure);
 
     // Compare all pairs of EntryIndexes that occur on the same date.
     //
@@ -92,6 +92,14 @@ pub fn check_duplicates_one(
                 }
                 // uspc/2118 and wp-usa/2103.
                 if cur_meet.date == opltypes::Date::from_parts(2021, 06, 26) {
+                    continue;
+                }
+                // wrpf-argentina/2307 and wrpf-argentina/2309.
+                if cur_meet.date == opltypes::Date::from_parts(2023, 06, 17) {
+                    continue;
+                }   
+                // wrpf-argentina/2308 and wrpf-argentina/2301.
+                if cur_meet.date == opltypes::Date::from_parts(2023, 03, 25) {
                     continue;
                 }
 
