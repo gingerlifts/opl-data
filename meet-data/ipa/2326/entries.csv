@@ -3,7 +3,7 @@ Place,Name,BirthDate,Sex,BirthYear,Age,State,Equipment,Division,BodyweightKg,Wei
 1,Tommye Arnold,,F,1964,59,FL,Unlimited,Pro Masters 55-59,66.6,67.5,,,,,92.5,-97.5,-97.5,92.5,197.5,215,-227.5,215,307.5,BD
 DQ,Amanda Tolley,,F,1990,33,FL,Unlimited,Pro Open,78.7,82.5,,,,,-137.5,-137.5,-137.5,,152.5,165,170,170,,BD
 1,Danielle Anderson,,F,2000,23,FL,Wraps,Amateur Juniors 20-23,60.4,67.5,110,115,-122.5,115,67.5,72.5,-75,72.5,142.5,147.5,155,155,342.5,SBD
-1,Wendy Marchuck,,F,,,,Wraps,Amateur Masters 55-59,59.1,60,72.5,80,85,85,50,55,-57.5,55,97.5,105,107.5,107.5,247.5,SBD
+1,Wendy Marchuck,,F,,,,Raw,Amateur Masters 55-59,59.1,60,72.5,80,85,85,50,55,-57.5,55,97.5,105,107.5,107.5,247.5,SBD
 1,Samantha Gach,,F,1995,28,FL,Wraps,Amateur Open,75.4,82.5,107.5,120,125,125,72.5,77.5,82.5,82.5,130,137.5,147.5,147.5,355,SBD
 1,Nicole Olsen,,F,1986,36,FL,Wraps,Amateur Open,96.1,100,85,92.5,-97.5,92.5,40,47.5,52.5,52.5,102.5,112.5,122.5,122.5,267.5,SBD
 1,Alexia Vizcarra,,F,1986,37,FL,Wraps,Amateur Submasters 35-39,54.9,56,72.5,77.5,82.5,82.5,40,45,-47.5,45,95,102.5,107.5,107.5,235,SBD
@@ -23,7 +23,7 @@ DQ,Amanda Tolley,,F,1990,33,FL,Unlimited,Pro Open,78.7,82.5,,,,,-137.5,-137.5,-1
 1,Jason Bua,,M,1982,41,FL,Unlimited,Pro Open,98.5,100,297.5,320,327.5,327.5,215,230,235,235,255,265,275,275,837.5,SBD
 1,Nicholas Andrus,,M,1995,28,TN,Unlimited,Pro Open,123.9,125,420,-455,-455,420,257.5,272.5,,272.5,302.5,325,-340,325,1017.5,SBD
 2,Justin Osborn,,M,1984,39,FL,Unlimited,Pro Open,119.3,125,432.5,457.5,-477.5,457.5,102.5,-247.5,247.5,247.5,287.5,-300,300,300,1005,SBD
-3,Matthew Wallace #2,,M,1985,38,FL,Unlimited,Pro Open,114.9,125,250,272.5,285,285,220,237.5,245,245,232.5,242.5,255,255,785,SBD
+3,Matthew Wallace #2,,M,1985,38,FL,Multi-ply,Pro Open,114.9,125,250,272.5,285,285,220,237.5,245,245,232.5,242.5,255,255,785,SBD
 DQ,Robert Bain,,M,1982,41,IL,Unlimited,Pro Open,124.1,125,450,482.5,-505,482.5,-272.5,-280,-285,,292.5,-322.5,,292.5,,SBD
 1,Andy Polk,,M,,,,Unlimited,Pro Open,134.1,140,400,425,435,435,275,320,-330,320,300,-325,-325,300,1055,SBD
 2,Kyle O'Leary,,M,1992,31,FL,Unlimited,Pro Open,138.7,140,390,412.5,-435,412.5,-305,-305,305,305,320,335,-350,335,1052.5,SBD
