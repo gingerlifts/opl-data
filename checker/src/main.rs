@@ -82,6 +82,9 @@ fn write_report(handle: &mut io::StdoutLock, report: checker::Report) {
             checker::Message::Error(s) => {
                 let _ = handle.write_fmt(format_args!(" {}\n", s.bold().red()));
             }
+            checker::Message::FixableError(inner) => {
+                let _ = handle.write_fmt(format_args!(" {}\n", inner.to_string().bold().red()));
+            }
             checker::Message::Warning(s) => {
                 let _ = handle.write_fmt(format_args!(" {}\n", s.bold().yellow()));
             }
@@ -195,6 +198,7 @@ fn configurations(meet_data_root: &Path) -> Result<ConfigMap, ReportCount> {
 
                             let report_count = ReportCount::new(
                                 overall_report_count.errors() + 1,
+                                overall_report_count.fixable_errors(),
                                 overall_report_count.warnings(),
                             );
 
@@ -209,6 +213,7 @@ fn configurations(meet_data_root: &Path) -> Result<ConfigMap, ReportCount> {
 
                 let report_count = ReportCount::new(
                     overall_report_count.errors() + 1,
+                    overall_report_count.fixable_errors(),
                     overall_report_count.warnings(),
                 );
 
@@ -335,6 +340,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     maybe_print_elapsed_for("Loaded configurations for federations", timing);
 
     let error_count = AtomicUsize::new(0);
+    let fixable_error_count = AtomicUsize::new(0);
     let warning_count = AtomicUsize::new(0);
 
     // Unexpected errors that occurred while reading files.
@@ -350,10 +356,15 @@ fn main() -> Result<(), Box<dyn Error>> {
     for report in result.reports {
         let report_count = report.count_messages();
         let errors = report_count.errors();
+        let fixable_errors = report_count.fixable_errors();
         let warnings = report_count.warnings();
 
         if errors > 0 {
             error_count.fetch_add(errors, Ordering::SeqCst);
+        }
+
+        if fixable_errors > 0 {
+            fixable_error_count.fetch_add(fixable_errors, Ordering::SeqCst);
         }
 
         if warnings > 0 {
@@ -445,6 +456,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     // Move out of atomics.
     let mut report_count = ReportCount::new(
         error_count.load(Ordering::SeqCst),
+        fixable_error_count.load(Ordering::SeqCst),
         warning_count.load(Ordering::SeqCst),
     );
 
@@ -472,6 +484,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     print_summary(
         ReportCount::new(
             report_count.errors() + internal_error_count,
+            report_count.fixable_errors(),
             report_count.warnings(),
         ),
         &search_root,

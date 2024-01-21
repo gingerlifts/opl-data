@@ -28,6 +28,7 @@ import { csvStandardiseCountries } from "./functions/standardise-countries";
 import { csvRound } from "./functions/round-kg";
 
 let checkButton: HTMLButtonElement;
+let fixButton: HTMLButtonElement;
 let toKgButton: HTMLButtonElement;
 let calcPlaceButton: HTMLButtonElement;
 let standardiseCountriesButton: HTMLButtonElement;
@@ -47,20 +48,48 @@ let entriesErrorPre: HTMLElement;
 // It's defined in Rust, in checker/src/lib.rs.
 interface Message {
   Error?: string;
+  FixableError?: FixableErrorDetails;
   Warning?: string;
 };
+
+interface FixableErrorDetails {
+    line_number: number;
+    inner: FixableError;
+}
+
+type FixableError = NameConflict;
+
+interface NameConflict {
+    username: string;
+    expected: string;
+    found: string;
+}
+
+enum Mode {
+    Check = "Check",
+    Fix = "Fix",
+}
 
 // Converts a Message object to a simple, uncolored string, for the moment.
 function msg2str(msg: Message): string {
     if (msg.hasOwnProperty("Error")) {
         return "Error: " + msg["Error"];
     }
+
+    if (msg.hasOwnProperty("FixableError")) {
+        const obj = msg["FixableError"]!;
+        const line_number = obj["line_number"]!;
+        const { expected, found } = obj["inner"]["NameConflict"]!;
+
+        return `Automatically fixable error on line ${line_number + 1}: expected ${expected} but found ${found}`;
+    }
+
     return "Warning: " + msg["Warning"];
 }
 
-function runChecker(): void {
+function runChecker(mode: Mode): void {
     let handle = new XMLHttpRequest();
-    handle.open("POST", "/dev/checker");
+    handle.open("POST", `/dev/checker?mode=${mode}`);
     handle.responseType = "text";
     handle.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
 
@@ -82,17 +111,24 @@ function runChecker(): void {
                 return;
             }
 
-            if (output.meet_messages.length > 0) {
-                meetErrorPre.innerText = output.meet_messages.map(msg2str).join("\n");
-            } else {
-                meetErrorPre.innerText = "Pass! :)";
+            // Only display check results if we were checking
+            if (mode == Mode.Check) {
+                if (output.meet_messages.length > 0) {
+                    meetErrorPre.innerText = output.meet_messages.map(msg2str).join("\n");
+                } else {
+                    meetErrorPre.innerText = "Pass! :)";
+                }
+
+                if (output.entries_messages.length > 0) {
+                    entriesErrorPre.innerText = output.entries_messages.map(msg2str).join("\n");
+                } else if (output.meet_messages.length === 0) {
+                    // The entries.csv is only checked if the meet.csv passes.
+                    entriesErrorPre.innerText = "Pass! :)";
+                }
             }
 
-            if (output.entries_messages.length > 0) {
-                entriesErrorPre.innerText = output.entries_messages.map(msg2str).join("\n");
-            } else if (output.meet_messages.length === 0) {
-                // The entries.csv is only checked if the meet.csv passes.
-                entriesErrorPre.innerText = "Pass! :)";
+            if (output.entries) {
+                entriesTextArea.value = output.entries;
             }
         }
     };
@@ -114,6 +150,7 @@ function replaceTabs(elem: HTMLTextAreaElement) {
 
 function initializeEventListeners() {
     checkButton = document.getElementById("checkButton") as HTMLButtonElement;
+    fixButton = document.getElementById("fixButton") as HTMLButtonElement;
     toKgButton = document.getElementById("toKgButton") as HTMLButtonElement;
     calcPlaceButton = document.getElementById("calcPlaceButton") as HTMLButtonElement;
     standardiseCountriesButton = document.getElementById("standardiseCountriesButton") as HTMLButtonElement;
@@ -126,7 +163,8 @@ function initializeEventListeners() {
     meetErrorPre = document.getElementById("meetErrorPre") as HTMLElement;
     entriesErrorPre = document.getElementById("entriesErrorPre") as HTMLElement;
 
-    checkButton.addEventListener("click", runChecker, false);
+    checkButton.addEventListener("click", () => runChecker(Mode.Check), false);
+    fixButton.addEventListener("click", () => runChecker(Mode.Fix), false);
 
     toKgButton.addEventListener("click", function () {
         // Parse the entries text field as CSV.

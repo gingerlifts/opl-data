@@ -48,6 +48,7 @@ label {
   <br/>
 
   <button id="checkButton">Check</button>
+  <button id="fixButton">Fix</button>
 
   <br/><br/>
 

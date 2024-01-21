@@ -120,7 +120,7 @@ fn canonicalize_name_utf8(s: &str) -> Cow<'_, str> {
 ///
 /// The intention is for each field to only be parsed once, after
 /// which further processing can use the standard datatype.
-#[derive(Default)]
+#[derive(Clone, Debug, Default)]
 pub struct Entry {
     /// A measurement shows that 99.27% of names benefit from `CompactString`.
     pub name: CompactString,

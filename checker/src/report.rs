@@ -9,14 +9,72 @@
 //!    helps scan through them all.
 //! 3. The context itself is generally not helpful, because the data is CSV.
 
+use std::fmt;
 use std::path::PathBuf;
 
+use crate::editor::{CellIdentifier, Editor, UpdateError};
 use crate::report_count::ReportCount;
+
+#[derive(Clone, Debug, Serialize)]
+pub enum FixableError {
+    NameConflict {
+        username: String,
+        expected: String,
+        found: String,
+    },
+}
+
+impl FixableError {
+    fn fix(&self, line_number: usize, editor: &mut Editor) -> Result<(), UpdateError> {
+        match self {
+            Self::NameConflict { expected, .. } => {
+                editor.update(CellIdentifier::new("Name", line_number), &expected)
+            }
+        }
+    }
+}
+
+impl fmt::Display for FixableError {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        match self {
+            Self::NameConflict {
+                username,
+                expected,
+                found,
+            } => {
+                write!(f, "Conflict for '{username}': '{expected}' vs '{found}'")
+            }
+        }
+    }
+}
+
+#[derive(Clone, Debug, Serialize)]
+pub struct FixableErrorDetails {
+    /// The line the error was found on.
+    line_number: usize,
+    /// The details of the error.
+    inner: FixableError,
+}
+
+impl fmt::Display for FixableErrorDetails {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        self.inner.fmt(f)
+    }
+}
+
+impl FixableErrorDetails {
+    pub fn fix(&self, editor: &mut Editor) -> Result<(), Box<dyn std::error::Error>> {
+        self.inner.fix(self.line_number, editor)?;
+
+        Ok(())
+    }
+}
 
 /// A data error or warning message that should be reported.
 #[derive(Debug, Serialize)]
 pub enum Message {
     Error(String),
+    FixableError(FixableErrorDetails),
     Warning(String),
 }
 
@@ -41,6 +99,12 @@ impl Report {
     /// Reports an error, which causes checks to fail.
     pub fn error(&mut self, message: impl ToString) {
         self.messages.push(Message::Error(message.to_string()));
+    }
+
+    pub fn fixable_error(&mut self, line_number: usize, inner: FixableError) {
+        let message = Message::FixableError(FixableErrorDetails { line_number, inner });
+
+        self.messages.push(message);
     }
 
     /// Reports an error on a specific line.
@@ -68,16 +132,18 @@ impl Report {
     /// Returns how many messages there are of (errors, warnings).
     pub fn count_messages(&self) -> ReportCount {
         let mut errors = 0;
+        let mut fixable_errors = 0;
         let mut warnings = 0;
 
         for message in &self.messages {
             match message {
                 Message::Error(_) => errors += 1,
+                Message::FixableError { .. } => fixable_errors += 1,
                 Message::Warning(_) => warnings += 1,
             }
         }
 
-        ReportCount::new(errors, warnings)
+        ReportCount::new(errors, fixable_errors, warnings)
     }
 
     /// Returns the name of the parent folder of the given file.

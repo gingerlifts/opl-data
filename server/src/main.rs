@@ -32,6 +32,7 @@ use rocket::serde::json::Json;
 use rocket::State;
 use rocket::{Build, Rocket};
 use rocket_dyn_templates::Template;
+use server::pages::checker::Mode;
 use server::referring_path::ReferringPath;
 
 use std::collections::HashMap;
@@ -529,12 +530,13 @@ fn dev_main() -> Template {
 }
 
 /// Handles POST requests for getting data checked.
-#[post("/checker", data = "<input>")]
+#[post("/checker?<mode>", data = "<input>")]
 fn dev_checker_post(
     opldb: &State<ManagedOplDb>,
     input: Json<pages::checker::CheckerInput>,
+    mode: Mode,
 ) -> Option<JsonString> {
-    let output = pages::checker::check(opldb, &input);
+    let output = pages::checker::check(opldb, &input, mode);
     Some(JsonString(serde_json::to_string(&output).ok()?))
 }
 
