@@ -29,7 +29,7 @@ use meetdata::EntryIndex;
 pub use meetdata::{AllMeetData, LifterMap, SingleMeetData};
 
 mod report;
-pub use report::{Message, Report};
+pub use report::{Message, Report, Severity};
 
 pub mod report_count;
 
@@ -84,8 +84,7 @@ pub fn check(
         let extension: &str = entry
             .path()
             .extension()
-            .map(OsStr::to_str)
-            .flatten()
+            .and_then(OsStr::to_str)
             .unwrap_or_default();
 
         if extension == "pdf" {
