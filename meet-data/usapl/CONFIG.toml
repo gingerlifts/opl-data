@@ -658,6 +658,7 @@
     WI-2023-19 = ["ExemptWeightClassConsistency"] # No weight classes reported.
     PA-2023-10 = ["ExemptWeightClassConsistency"] # No weight classes reported.
     MO-2023-09 = ["ExemptWeightClassConsistency"] # No weight classes reported.
+    WI-2023-20 = ["ExemptWeightClassConsistency"] # No weight classes reported.
 
     # Miscellaneous exemptions.
     AK-2014-04 = ["ExemptWeightClassConsistency"] # Unknown bodyweights and classes.
@@ -679,3 +680,6 @@
     OH-2024-01 = ["ExemptDivision"]
     UT-2024-01 = ["ExemptDivision"]
     CA-2024-02 = ["ExemptDivision"]
+    MD-2024-01 = ["ExemptDivision"]
+    WY-2024-01 = ["ExemptDivision"]
+    TX-2024-03 = ["ExemptDivision"]

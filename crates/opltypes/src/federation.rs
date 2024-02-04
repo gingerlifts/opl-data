@@ -654,8 +654,8 @@ pub enum Federation {
     ILPA,
 
     /// Israeli Powerlifting.
-    #[strum(to_string = "ILPL", serialize = "ilpl")]
-    ILPL,
+    #[strum(to_string = "ILPF", serialize = "ilpf")]
+    ILPF,
 
     /// International Nova Strength Association, tiny Texas "fed".
     ///
@@ -1555,6 +1555,11 @@ pub enum Federation {
     #[strum(to_string = "WPPL-Belarus", serialize = "wppl-belarus")]
     WPPLBelarus,
 
+    /// World Power Power League, Georgia.
+    #[serde(rename = "WPPL-Georgia")]
+    #[strum(to_string = "WPPL-Georgia", serialize = "wppl-georgia")]
+    WPPLGeorgia,
+
     /// World Power Power League, Mexico.
     #[serde(rename = "WPPL-Mexico")]
     #[strum(to_string = "WPPL-Mexico", serialize = "wppl-mexico")]
@@ -1955,7 +1960,14 @@ impl Federation {
             Federation::HKPF => FULLY_TESTED,
             Federation::HPF => FULLY_TESTED,
             Federation::ILPA => false,
-            Federation::ILPL => false,
+            Federation::ILPF => {
+                // ILPF switched to IPF and drug-tested
+                if date.year() >= 2023 {
+                    FULLY_TESTED
+                } else {
+                    false
+                }
+            },
             Federation::INSA => false,
             Federation::IPA => false,
             Federation::IPAAZE => false,
@@ -2170,6 +2182,7 @@ impl Federation {
             Federation::WPNZ => FULLY_TESTED,
             Federation::WPPLArgentina => false,
             Federation::WPPLBelarus => false,
+            Federation::WPPLGeorgia => false,
             Federation::WPPLMexico => false,
             Federation::WPPLPeru => false,
             Federation::WPPLRussia => false,
@@ -2369,7 +2382,7 @@ impl Federation {
             Federation::IDFPF => Some(Country::Ireland),
             Federation::IKF => Some(Country::Iceland),
             Federation::ILPA => Some(Country::Israel),
-            Federation::ILPL => Some(Country::Israel),
+            Federation::ILPF => Some(Country::Israel),
             Federation::INSA => Some(Country::USA),
             Federation::IPA => Some(Country::USA),
             Federation::IPAAZE => Some(Country::Azerbaijan),
@@ -2576,6 +2589,7 @@ impl Federation {
             Federation::WPNZ => Some(Country::NewZealand),
             Federation::WPPLArgentina => Some(Country::Argentina),
             Federation::WPPLBelarus => Some(Country::Belarus),
+            Federation::WPPLGeorgia => Some(Country::Georgia),
             Federation::WPPLMexico => Some(Country::Mexico),
             Federation::WPPLPeru => Some(Country::Peru),
             Federation::WPPLRussia => Some(Country::Russia),
@@ -2837,7 +2851,14 @@ impl Federation {
             Federation::IDFPF => Some(Federation::WDFPF),
             Federation::IKF => Some(Federation::GPC),
             Federation::ILPA => Some(Federation::GPA),
-            Federation::ILPL => None,
+            Federation::ILPF => {
+                // Israeli IPF affiliate from 2024
+                if date.year() >= 2024 {
+                    Some(Federation::IPF)
+                } else {
+                    None
+                }
+            }
             Federation::INSA => None,
             Federation::IPA => None,
             Federation::IPAAZE => Some(Federation::IPA),
@@ -3087,6 +3108,7 @@ impl Federation {
             Federation::WPNZ => Some(Federation::WP),
             Federation::WPPLArgentina => None,
             Federation::WPPLBelarus => None,
+            Federation::WPPLGeorgia => None,
             Federation::WPPLMexico => None,
             Federation::WPPLPeru => None,
             Federation::WPPLRussia => None,
@@ -3351,7 +3373,7 @@ impl Federation {
             Federation::IDFPF => PointsSystem::SchwartzMalone,
             Federation::IKF => PointsSystem::Wilks,
             Federation::ILPA => PointsSystem::Wilks,
-            Federation::ILPL => PointsSystem::Wilks,
+            Federation::ILPF => Federation::ipf_rules_on(date),
             Federation::INSA => PointsSystem::Wilks,
             Federation::IPA => PointsSystem::Wilks,
             Federation::IPAAZE => PointsSystem::Wilks,
@@ -3608,6 +3630,7 @@ impl Federation {
             Federation::WPNZ => PointsSystem::Wilks,
             Federation::WPPLArgentina => PointsSystem::Wilks,
             Federation::WPPLBelarus => PointsSystem::Wilks,
+            Federation::WPPLGeorgia => PointsSystem::Wilks,
             Federation::WPPLMexico => PointsSystem::Wilks,
             Federation::WPPLPeru => PointsSystem::Wilks,
             Federation::WPPLRussia => PointsSystem::Wilks,
