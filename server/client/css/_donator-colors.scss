@@ -100,6 +100,11 @@
   @include name-color(#3B72FF);
 }
 
+// The sahde of blue used as one of the colors of the University of North Carolina.
+.carolinablue {
+  @include name-color(#4B9CD3);
+}
+
 .royalblue {
   @include name-color(#507CFF);
 }
@@ -375,6 +380,13 @@
   $royalblue: #507CFF;
   @include gradient-prereqs($neongreen);
   background-image: linear-gradient(to right, $neongreen, $royalblue);
+}
+
+.orange_to_blue_top_down {
+  $blue: #507CFF;
+  $orange: #FFA200;
+  @include gradient-prereqs($orange);
+  background-image: linear-gradient(to bottom, $orange, $blue);
 }
 
 .orange_to_green {
