@@ -660,6 +660,21 @@
     MO-2023-09 = ["ExemptWeightClassConsistency"] # No weight classes reported.
     WI-2023-20 = ["ExemptWeightClassConsistency"] # No weight classes reported.
 
+    # 2024 exemptions.
+    NS-2024-03 = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2024-03-B = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2024-03-C = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2024-03-D = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2024-03-E = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2024-03-F = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2024-03-G = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2024-03-H = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2024-03-I = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2024-03-J = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    LA-2024-06 = ["ExemptWeightClassConsistency"] # No weight classes reported.
+    PA-2024-14 = ["ExemptWeightClassConsistency"] # No weight classes reported.
+    LA-2024-02 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Weight classes were combined and scored by formula
+
     # Miscellaneous exemptions.
     AK-2014-04 = ["ExemptWeightClassConsistency"] # Unknown bodyweights and classes.
     IA-2014-01 = ["ExemptWeightClassConsistency"] # Unknown bodyweights and classes.
@@ -695,3 +710,6 @@
     DE-2024-01 = ["ExemptDivision"]
     NC-2024-01 = ["ExemptDivision"]
     WA-2024-04 = ["ExemptDivision"]
+    CO-2024-01 = ["ExemptDivision"]
+    FL-2024-04 = ["ExemptDivision"]
+    NY-2024-16 = ["ExemptDivision"]
