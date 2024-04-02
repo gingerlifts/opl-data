@@ -1017,6 +1017,11 @@ pub enum Federation {
     #[strum(to_string = "PoliceAL", serialize = "policeal")]
     PoliceAL,
 
+    /// Unaffiliated meets held in Portugal.
+    #[serde(rename = "Portugal-UA")]
+    #[strum(to_string = "Portugal-UA", serialize = "portugal-ua")]
+    PortugalUA,
+
     /// A defunct stand-alone US federation.
     #[strum(to_string = "PRIDE", serialize = "pride")]
     PRIDE,
@@ -1224,8 +1229,13 @@ pub enum Federation {
     /// United Arab Emirates Powerlifting Association, IPF.
     ///
     /// Also called the United Arab Emirates Powerlifting Committee.
-    #[strum(to_string = "UAEPA", serialize = "uaepa")]
-    UAEPA,
+    #[strum(to_string = "UAEPL", serialize = "uaepl")]
+    UAEPL,
+
+    /// Unaffiliated meets held in the UAE.
+    #[serde(rename = "UAE-UA")]
+    #[strum(to_string = "UAE-UA", serialize = "uae-ua")]
+    UAEUA,
 
     /// Ukrainian Drug-Free Powerlifting Federation
     #[strum(to_string = "UDFPF", serialize = "udfpf")]
@@ -2097,6 +2107,7 @@ impl Federation {
             Federation::PNGPF => FULLY_TESTED,
             Federation::PolandUA => false,
             Federation::PRIDE => false,
+            Federation::PortugalUA => false,
             Federation::ProRaw => false,
             Federation::PRPA => false,
             Federation::PS => FULLY_TESTED,
@@ -2151,7 +2162,8 @@ impl Federation {
             Federation::THSPA => FULLY_TESTED,
             Federation::THSWPA => FULLY_TESTED,
             Federation::TPSSF => FULLY_TESTED,
-            Federation::UAEPA => FULLY_TESTED,
+            Federation::UAEPL => FULLY_TESTED,
+            Federation::UAEUA => false,
             Federation::UDFPF => FULLY_TESTED,
             Federation::UgandaPA => false,
             Federation::UgandaPF => FULLY_TESTED,
@@ -2521,6 +2533,7 @@ impl Federation {
             Federation::PNGPF => Some(Country::PapuaNewGuinea),
             Federation::PolandUA => Some(Country::Poland),
             Federation::PRIDE => Some(Country::USA),
+            Federation::PortugalUA => Some(Country::Portugal),
             Federation::ProRaw => Some(Country::Australia),
             Federation::PRPA => Some(Country::USA),
             Federation::PS => Some(Country::Singapore),
@@ -2568,7 +2581,8 @@ impl Federation {
             Federation::THSPA => Some(Country::USA),
             Federation::THSWPA => Some(Country::USA),
             Federation::TPSSF => Some(Country::Turkey),
-            Federation::UAEPA => Some(Country::UAE),
+            Federation::UAEPL => Some(Country::UAE),
+            Federation::UAEUA => Some(Country::UAE),
             Federation::UDFPF => Some(Country::Ukraine),
             Federation::UgandaPA => Some(Country::Uganda),
             Federation::UgandaPF => Some(Country::Uganda),
@@ -3025,6 +3039,7 @@ impl Federation {
             Federation::PNGPF => Some(Federation::IPF),
             Federation::PolandUA => None,
             Federation::PoliceAL => None,
+            Federation::PortugalUA => None,
             Federation::PRIDE => None,
             Federation::ProRaw => None,
             Federation::PRPA => None,
@@ -3080,7 +3095,8 @@ impl Federation {
             Federation::THSPA => None,
             Federation::THSWPA => None,
             Federation::TPSSF => Some(Federation::IPF),
-            Federation::UAEPA => Some(Federation::IPF),
+            Federation::UAEPL => Some(Federation::IPF),
+            Federation::UAEUA => None,
             Federation::UDFPF => Some(Federation::WDFPF),
             Federation::UgandaPA => Some(Federation::WPA),
             Federation::UgandaPF => Some(Federation::WP),
@@ -3558,6 +3574,7 @@ impl Federation {
             Federation::PNGPF => Federation::ipf_rules_on(date),
             Federation::PolandUA => PointsSystem::Wilks,
             Federation::PRIDE => PointsSystem::Wilks,
+            Federation::PortugalUA => PointsSystem::Dots,
             Federation::ProRaw => PointsSystem::Glossbrenner,
             Federation::PRPA => PointsSystem::Wilks,
             Federation::PS => Federation::ipf_rules_on(date),
@@ -3618,7 +3635,8 @@ impl Federation {
             Federation::THSPA => PointsSystem::Wilks,
             Federation::THSWPA => PointsSystem::Wilks,
             Federation::TPSSF => Federation::ipf_rules_on(date),
-            Federation::UAEPA => Federation::ipf_rules_on(date),
+            Federation::UAEPL => Federation::ipf_rules_on(date),
+            Federation::UAEUA => PointsSystem::Dots,
             Federation::UDFPF => PointsSystem::Wilks,
             Federation::UgandaPA => PointsSystem::Wilks,
             Federation::UgandaPF => Federation::wp_rules_on(date),
