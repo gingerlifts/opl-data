@@ -221,7 +221,8 @@
   <option value="chinapa" {% if selection.federation == "ChinaPA" %}selected{% endif %}>ChinaPA - Chinese Powerlifting Association [GPA/IPO]</option>
   <option value="htpl" {% if selection.federation == "HTPL" %}selected{% endif %}>HTPL - Hantang Powerlifting</option>
   <option value="ipf-china" {% if selection.federation == "IPF-China" %}selected{% endif %}>IPF-China - IPF China</option>
-  <option value="ipl-china" {% if selection.federation == "IPL-China" %}selected{% endif %}>IPL-China - IPL China</option>
+  <option value="ipl-china" {% if selection.federation == "IPLChina" %}selected{% endif %}>IPL-China - IPL China</option>
+  <option value="iplchina-tested" {% if selection.federation == "IPLChinaTested" %}selected{% endif %}>IPL-China Tested - IPL China Tested [IPL]</option>
   <option value="wp-china" {% if selection.federation == "WP-China" %}selected{% endif %}>WP-China - World Powerlifting China [WP]</option>
 </optgroup>
 <optgroup label="{{strings.country.colombia}}">
@@ -278,6 +279,7 @@
   <option value="all-france" {% if selection.federation == "AllFrance" %}selected{% endif %}>{{strings.selectors.fed.all_france}}</option>
   <option value="ffforce" {% if selection.federation == "FFForce" %}selected{% endif %}>FFForce - Fédération Française de Force [IPF]</option>
   <option value="fsfa" {% if selection.federation == "FSFA" %}selected{% endif %}>FSFA - Fédération Sportive de Force Athlétique [WDFPF]</option>
+  <option value="gpc-france" {% if selection.federation == "GPC-France" %}selected{% endif %}>GPC France</option>
   <option value="wpc-france" {% if selection.federation == "WPC-France" %}selected{% endif %}>WPC France</option>
 </optgroup>
 <optgroup label="{{strings.country.georgia}}">
