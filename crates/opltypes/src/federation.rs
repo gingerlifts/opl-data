@@ -655,6 +655,11 @@ pub enum Federation {
     #[strum(to_string = "IDFPF", serialize = "idfpf")]
     IDFPF,
 
+    /// Ilinois High School Powerlifting Association.
+    #[strum(to_string = "IHSPA", serialize = "ihspa")]
+    IHSPA,
+
+
     /// Islenska Kraftlyfingafelagid, Icelandic GPC? affiliate.
     #[strum(to_string = "IKF", serialize = "ikf")]
     IKF,
@@ -764,6 +769,11 @@ pub enum Federation {
     #[serde(rename = "KNKF-SP")]
     #[strum(to_string = "KNKF-SP", serialize = "knkf-sp")]
     KNKFSP,
+
+    /// Unaffiliated meets held in South Korea.
+    #[serde(rename = "Korea-UA")]
+    #[strum(to_string = "Korea-UA", serialize = "korea-ua")]
+    KoreaUA,
 
     /// Kazakhstan IPF affiliate.
     #[strum(to_string = "KPF", serialize = "kpf")]
@@ -2018,6 +2028,7 @@ impl Federation {
             Federation::GPCCAN => false,
             Federation::HKPF => FULLY_TESTED,
             Federation::HPF => FULLY_TESTED,
+            Federation::IHSPA => FULLY_TESTED,
             Federation::ILPA => false,
             Federation::ILPF => {
                 // ILPF switched to IPF and drug-tested
@@ -2049,6 +2060,7 @@ impl Federation {
             Federation::KBGV => FULLY_TESTED,
             Federation::KDKS => FULLY_TESTED,
             Federation::KNKFSP => FULLY_TESTED,
+            Federation::KoreaUA => false,
             Federation::KPF => FULLY_TESTED,
             Federation::KRAFT => FULLY_TESTED,
             Federation::KPC => FULLY_TESTED,
@@ -2451,6 +2463,7 @@ impl Federation {
             Federation::IBSA => None,
             Federation::IDFPA => Some(Country::Ireland),
             Federation::IDFPF => Some(Country::Ireland),
+            Federation::IHSPA => Some(Country::USA),
             Federation::IKF => Some(Country::Iceland),
             Federation::ILPA => Some(Country::Israel),
             Federation::ILPF => Some(Country::Israel),
@@ -2476,6 +2489,7 @@ impl Federation {
             Federation::KBGV => Some(Country::Belgium),
             Federation::KDKS => Some(Country::Switzerland),
             Federation::KNKFSP => Some(Country::Netherlands),
+            Federation::KoreaUA => Some(Country::SouthKorea),
             Federation::KPF => Some(Country::Kazakhstan),
             Federation::KRAFT => Some(Country::Iceland),
             Federation::KPC => Some(Country::Kuwait),
@@ -2931,6 +2945,7 @@ impl Federation {
             Federation::IBSA => None,
             Federation::IDFPA => None,
             Federation::IDFPF => Some(Federation::WDFPF),
+            Federation::IHSPA => None,
             Federation::IKF => Some(Federation::GPC),
             Federation::ILPA => Some(Federation::GPA),
             Federation::ILPF => {
@@ -2970,6 +2985,7 @@ impl Federation {
             Federation::KBGV => Some(Federation::IPF),
             Federation::KDKS => Some(Federation::IPF),
             Federation::KNKFSP => Some(Federation::IPF),
+            Federation::KoreaUA => None,
             Federation::KPF => Some(Federation::IPF),
             Federation::KRAFT => Some(Federation::IPF),
             Federation::KPC => Some(Federation::IPF),
@@ -3472,6 +3488,7 @@ impl Federation {
             Federation::IBSA => PointsSystem::Wilks,
             Federation::IDFPA => PointsSystem::Wilks,
             Federation::IDFPF => PointsSystem::SchwartzMalone,
+            Federation::IHSPA => PointsSystem::Wilks,
             Federation::IKF => PointsSystem::Wilks,
             Federation::ILPA => PointsSystem::Wilks,
             Federation::ILPF => Federation::ipf_rules_on(date),
@@ -3504,6 +3521,7 @@ impl Federation {
             Federation::KBGV => Federation::ipf_rules_on(date),
             Federation::KDKS => PointsSystem::Dots,
             Federation::KNKFSP => Federation::ipf_rules_on(date),
+            Federation::KoreaUA => PointsSystem::Dots,
             Federation::KPF => Federation::ipf_rules_on(date),
             Federation::KRAFT => {
                 // On 2020-03-04, KRAFT announced that they voted for Dots since 02-29.
