@@ -70,16 +70,19 @@ def weightclass2kg(s, sex):
         return '90.04'
     if s == '220':  # 220.5 by rulebook
         return '100.02'
+    if s == '242':  # 242.5 by rulebook
+        return '110'  # 109.996 rounded up
     if s == '259':  # 259.5 by rulebook
         return '117.71'
 
+    if s == '220+':  # Assuming 220.5+
+        return '100.02+'
+    if s == '242+':  # 242.5+ by rulebook
+        return '110+'
     if s == '259+':  # 259.5+ by rulebook
         return '117.71+'
     if s == 'SHW':
-        return '117.71+'
-
-    if s == '220+':  # Assuming 220.5+
-        return '100.02+'
+        return '110+'
 
     if s == 'UNC':  # Unconfirmed.
         return ''
@@ -206,8 +209,8 @@ def enterdivision(csv, divurl):
         deadlift = strtokg(cells[8].text)
         total = strtokg(cells[9].text)
 
-        # The whole federation appears to be single-ply.
-        equipment = 'Single-ply'
+        # The federation does not specify canvas-only equipment.
+        equipment = 'Unlimited'
         event = 'SBD'
 
         csv.rows.append([division, weightclass, place, name, team,
