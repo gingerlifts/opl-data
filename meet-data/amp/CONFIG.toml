@@ -50,6 +50,37 @@
     frm5 = {name="FR-M5", min=79.5, max=999, sex="F", equipment="Raw"}
     fm5 = {name="F-M5", min=79.5, max=999, sex="F", equipment="Single-ply"}
 
+    # High School Junior Varsity.
+    mrjv = {name="MR-JV", min=0, max=999, sex="M", equipment="Raw"}
+    frjv = {name="FR-JV", min=0, max=999, sex="F", equipment="Raw"}
+    mjv = {name="M-JV", min=0, max=999, sex="M", equipment="Single-ply"}
+    fjv = {name="F-JV", min=0, max=999, sex="F", equipment="Single-ply"}
+
+    # High School Varsity.
+    mrv = {name="MR-V", min=0, max=999, sex="M", equipment="Raw"}
+    frv = {name="FR-V", min=0, max=999, sex="F", equipment="Raw"}
+    mv = {name="M-V", min=0, max=999, sex="M", equipment="Single-ply"}
+    fv = {name="F-V", min=0, max=999, sex="F", equipment="Single-ply"}
+
+    # High School.
+    mrhs = {name="MR-HS", min=0, max=999, sex="M", equipment="Raw"}
+    frhs = {name="FR-HS", min=0, max=999, sex="F", equipment="Raw"}
+    mhs = {name="M-HS", min=0, max=999, sex="M", equipment="Single-ply"}
+    fhs = {name="F-HS", min=0, max=999, sex="F", equipment="Single-ply"}
+
+    # Collegiate.
+    mru = {name="MR-Uni", min=0, max=999, sex="M", equipment="Raw"}
+    fru = {name="FR-Uni", min=0, max=999, sex="F", equipment="Raw"}
+    mu = {name="M-Uni", min=0, max=999, sex="M", equipment="Single-ply"}
+    fu = {name="F-Uni", min=0, max=999, sex="F", equipment="Single-ply"}
+   
+
+    # Special Olympics.
+    mrso = {name="MR-SO", min=0, max=999, sex="M", equipment="Raw"}
+    frso = {name="FR-SO", min=0, max=999, sex="F", equipment="Raw"}
+    mso = {name="M-SO", min=0, max=999, sex="M", equipment="Single-ply"}
+    fso = {name="F-SO", min=0, max=999, sex="F", equipment="Single-ply"}
+    
     #Misc divisions
     mrg = {name="MR-G", min=0, max=999, sex="M", equipment="Raw", place="G"}
     mg = {name="M-G", min=0, max=999, sex="M", equipment="Single-ply", place="G"}
@@ -70,13 +101,13 @@
     classes = ["53","59","66","74","83","93","105","120","120+"]
     date_range=["2022-01-01","9999-12-31"]
     sex = "M"
-    divisions = ["MR-Jr", "M-Jr", "MR-Sj", "M-Sj", "MR-Pre-Sub-Jr", "MR-PS", "M-PS"]
+    divisions = ["MR-Jr", "M-Jr", "MR-Sj", "M-Sj", "MR-Pre-Sub-Jr", "MR-PS", "M-PS", "M-JV", "MR-JV", "M-V", "MR-V", "M-HS", "MR-HS", "M-Uni", "MR-Uni"]
 
 [weightclasses.junior_F]
     classes = ["43","47","52","57","63","69","76","84","84+"]
     date_range=["2022-01-01","9999-12-31"]
     sex = "F"
-    divisions = ["FR-Jr", "F-Jr", "FR-Sj", "F-Sj", "FR-Pre-Sub-Jr", "F-PS", "FR-PS"]
+    divisions = ["FR-Jr", "F-Jr", "FR-Sj", "F-Sj", "FR-Pre-Sub-Jr", "F-PS", "FR-PS", "F-JV", "FR-JV", "F-V", "FR-V", "F-HS", "FR-HS", "F-Uni", "FR-Uni"]
 
 [weightclasses.youth_F]
     classes = ["0+"]
@@ -107,3 +138,4 @@
     2023-FL-07 = ["ExemptWeightClassConsistency"] #14 Youth Class lifters reported without weights or weight class
     2024-FL-03 = ["ExemptWeightClassConsistency"] #14 Youth Class lifters reported without weights or weight class
     2024-GA-01 = ["ExemptWeightClassConsistency"] #14 Youth Class lifters reported without weights or weight class
+    2024-FL-14 = ["ExemptWeightClassConsistency"] #14 Youth Class lifters reported without weights or weight class
