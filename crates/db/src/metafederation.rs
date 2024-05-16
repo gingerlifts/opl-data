@@ -155,6 +155,8 @@ pub enum MetaFederation {
     AllPapuaNewGuinea,
     #[strum(to_string = "all-oman")]
     AllOman,
+    #[strum(to_string = "all-panama")]
+    AllPanama,
     #[strum(to_string = "all-paraguay")]
     AllParaguay,
     #[strum(to_string = "all-philippines")]
@@ -363,6 +365,10 @@ pub enum MetaFederation {
     #[strum(to_string = "fipl")]
     FIPL,
 
+    /// FPP, but with international results also.
+    #[strum(to_string = "fpp")]
+    FPP,
+
     /// FPPR, but with international results also.
     #[strum(to_string = "fppr")]
     FPPR,
@@ -510,6 +516,10 @@ pub enum MetaFederation {
     /// NIPF, but with BP and international results also.
     #[strum(to_string = "nipf")]
     NIPF,
+
+    /// NPAJ, but with international results also.
+    #[strum(to_string = "npaj")]
+    NPAJ,
 
     /// NSF, but with international results also.
     #[strum(to_string = "nsf")]
@@ -819,6 +829,7 @@ impl MetaFederation {
             MetaFederation::AllNiue => is_from(Country::Niue, entry, meet),
             MetaFederation::AllNorway => is_from(Country::Norway, entry, meet),
             MetaFederation::AllOman => is_from(Country::Oman, entry, meet),
+            MetaFederation::AllPanama => is_from(Country::Panama, entry, meet),
             MetaFederation::AllPapuaNewGuinea => is_from(Country::PapuaNewGuinea, entry, meet),
             MetaFederation::AllParaguay => is_from(Country::Paraguay, entry, meet),
             MetaFederation::AllPhilippines => is_from(Country::Philippines, entry, meet),
@@ -986,6 +997,7 @@ impl MetaFederation {
                     )
             }
             MetaFederation::FIPL => affiliation!(meet, entry, FIPL, IPF, EPF),
+            MetaFederation::FPP => affiliation!(meet, entry, FPP, IPF, NAPF),
             MetaFederation::FPPR => affiliation!(meet, entry, FPPR, IPF, NAPF),
             MetaFederation::FPR => affiliation!(meet, entry, FPR, IPF, EPF),
             MetaFederation::FRPL => affiliation!(meet, entry, FRPL, IPF, EPF),
@@ -1055,6 +1067,7 @@ impl MetaFederation {
             MetaFederation::MUPF => affiliation!(meet, entry, MUPF, IPF, AsianPF),
             MetaFederation::NauruPF => affiliation!(meet, entry, NauruPF, IPF, ORPF),
             MetaFederation::NIPF => affiliation!(meet, entry, NIPF, IPF, EPF, BP),
+            MetaFederation::NPAJ => affiliation!(meet, entry, NPAJ, IPF, NAPF),
             MetaFederation::NSF => affiliation!(meet, entry, NSF, IPF, EPF, NordicPF),
             MetaFederation::NZPF => {
                 meet.federation == Federation::NZPF
