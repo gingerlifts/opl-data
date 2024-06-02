@@ -157,7 +157,8 @@
 
         # New-style divisions, Equipped Tested
     mjea = {name ="M-JE-A", min=20, max=23, sex="M", equipment=["Single-ply","Multi-ply"],tested="Yes"}
-    oea = {name ="M-OE-A", min=0, max=999, sex="M", equipment=["Single-ply","Multi-ply"],tested="Yes"}    
+    oea = {name ="M-OE-A", min=0, max=999, sex="M", equipment=["Single-ply","Multi-ply"],tested="Yes"}   
+    foea = {name ="F-OE-A", min=0, max=999, sex="F", equipment=["Single-ply","Multi-ply"],tested="Yes"}  
 
     # CP Divisions.
     morcpf = {name ="M_OR_CP",min=0,max=999,equipment="Raw",sex="M"}
@@ -313,6 +314,7 @@
     mmcr1acpf = {name ="M_MCR_1_ACP",min=40,max=44,equipment=["Raw","Wraps"],sex="M",tested="Yes"}
     mms1acpf = {name ="M_MES_1_ACP",min=40,max=44,equipment="Single-ply",sex="M",tested="Yes"}
     mmm1acpf = {name ="M_MEM_1_ACP",min=40,max=44,equipment="Multi-ply",sex="M",tested="Yes"}
+    mmu1acpf = {name ="M_MEU_1_ACP",min=40,max=44,equipment="Unlimited",sex="M",tested="Yes"}
     mmr2acpf = {name ="M_MR_2_ACP",min=45,max=49,equipment="Raw",sex="M",tested="Yes"}
     mmcr2acpf = {name ="M_MCR_2_ACP",min=45,max=49,equipment=["Raw","Wraps"],sex="M",tested="Yes"}
     mms2acpf = {name ="M_MES_2_ACP",min=45,max=49,equipment="Single-ply",sex="M",tested="Yes"}

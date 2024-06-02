@@ -33,7 +33,7 @@ pub use crate::metafederation::*;
 ///
 /// The data structure is immutable. To prevent the owner from modifying
 /// owned data, the struct contents are private and accessed through getters.
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Debug)]
 pub struct OplDb {
     /// The LifterID is implicit in the backing vector, as the index.
     ///
@@ -121,7 +121,7 @@ fn import_entries_csv(
 ///
 /// Assumes that the entries vector is sorted by meet_id --
 /// so this is only callable from within `import_entries_csv()`.
-fn precompute_num_unique_lifters(entries: &[Entry], meet_id: u32) -> u32 {
+fn precompute_num_unique_lifters(entries: &[Entry], meet_id: u32) -> u16 {
     let found_index = entries
         .binary_search_by_key(&meet_id, |e| e.meet_id)
         .unwrap();
@@ -153,7 +153,7 @@ fn precompute_num_unique_lifters(entries: &[Entry], meet_id: u32) -> u32 {
         .collect();
 
     lifter_ids.sort_unstable();
-    lifter_ids.into_iter().group_by(|x| *x).into_iter().count() as u32
+    lifter_ids.into_iter().group_by(|x| *x).into_iter().count() as u16
 }
 
 impl OplDb {

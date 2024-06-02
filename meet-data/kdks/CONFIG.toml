@@ -1,3 +1,6 @@
+[options]
+    require_manual_disambiguation = true
+
 [divisions]
     open = {name ="Open",min=0,max=999}
     juniors = {name = "Juniors",min=0,max=22.5}
@@ -32,3 +35,4 @@
     2301 = ["ExemptWeightClassConsistency"]
     2305 = ["ExemptWeightClassConsistency"]
     2401 = ["ExemptWeightClassConsistency"]
+    2403 = ["ExemptWeightClassConsistency"]

@@ -16,6 +16,7 @@
   <option value="wpa" {% if selection.federation == "WPA" %}selected{% endif %}>WPA - World Powerlifting Alliance</option>
   <option value="wpc" {% if selection.federation == "WPC" %}selected{% endif %}>WPC - World Powerlifting Congress</option>
   <option value="wpf" {% if selection.federation == "WPF" %}selected{% endif %}>WPF - World Powerlifting Federation (Incomplete)</option>
+  <option value="wpo" {% if selection.federation == "WPO" %}selected{% endif %}>WPC - World Powerlifting Organization</option>
   <option value="wppl" {% if selection.federation == "WPPL" %}selected{% endif %}>WPPL - World Professional Power League</option>  
   <option value="wppo" {% if selection.federation == "WPPO" %}selected{% endif %}>WPPO - World Para Powerlifting</option>
   <option value="wuap" {% if selection.federation == "WUAP" %}selected{% endif %}>WUAP - World United Amateur Powerlifting</option>
@@ -184,7 +185,7 @@
 <optgroup label="{{strings.country.brazil}}">
   <option value="all-brazil" {% if selection.federation == "AllBrazil" %}selected{% endif %}>{{strings.selectors.fed.all_brazil}}</option>
   <option value="cblb" {% if selection.federation == "CBLB" %}selected{% endif %}>CBLB - Confederação Brasileira de Levantamentos Básicos [IPF]</option>
-  <option value="conbrap" {% if selection.federation == "CONBRAP" %}selected{% endif %}>CONBRAP - Confederação Brasileira de Powerlifting [GPC]</option>
+  <option value="gpc-brazil" {% if selection.federation == "GPC-Brazil" %}selected{% endif %}>GPC Brazil</option>
   <option value="wrpf-brazil" {% if selection.federation == "WRPF-Brazil" %}selected{% endif %}>WRPF Brazil</option>
   <option value="wppl-brazil" {% if selection.federation == "WPPL-Brazil" %}selected{% endif %}>WPPL Brazil</option>
 </optgroup>
@@ -483,6 +484,10 @@
   <option value="all-oman" {% if selection.federation == "AllOman" %}selected{% endif %}>All Oman Lifters</option>
   <option value="ocwp" {% if selection.federation == "OCWP" %}selected{% endif %}>OCWP - Oman Committee for Weightlifting & Powerlifting [IPF]</option>
 </optgroup>
+<optgroup label="{{strings.country.panama}}">
+  <option value="all-panama" {% if selection.federation == "AllPanama" %}selected{% endif %}>{{strings.selectors.fed.all_panama}}</option>
+  <option value="fpp" {% if selection.federation == "FPP" %}selected{% endif %}>FPP - Federación Panameña de Potencia [IPF]</option>
+</optgroup>
 <optgroup label="{{strings.country.papuanewguinea}}">
   <option value="all-papuanewguinea" {% if selection.federation == "AllPapuaNewGuinea" %}selected{% endif %}>{{strings.selectors.fed.all_papuanewguinea}}</option>
   <option value="pngpf" {% if selection.federation == "PNGPF" %}selected{% endif %}>PNGPF - Papua New Guinea Powerlifting Federation [IPF]</option>
@@ -594,7 +599,7 @@
   <option value="all-switzerland" {% if selection.federation == "AllSwitzerland" %}selected{% endif %}>{{strings.selectors.fed.all_switzerland}}</option>
   <option value="swisspl" {% if selection.federation == "SwissPL" %}selected{% endif %}>Swiss Powerlifting</option>
   <option value="sdfpf" {% if selection.federation == "SDFPF" %}selected{% endif %}>SDFPF - Swiss Drug-Free Powerlifting Federation</option>
-  <option value="kdks" {% if selection.federation == "KDKS" %}selected{% endif %}>KDKS - Kraftdreikampfverband Schweiz</option>
+  <option value="kdks" {% if selection.federation == "KDKS" %}selected{% endif %}>KDKS - Kraftdreikampfverband Schweiz [IPF]</option>
 </optgroup>
 <optgroup label="{{strings.country.syria}}">
   <option value="all-syria" {% if selection.federation == "AllSyria" %}selected{% endif %}>All Syrian Lifters</option>

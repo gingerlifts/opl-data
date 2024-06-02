@@ -1,5 +1,5 @@
 Place,Name,Sex,BirthDate,Age,Country,Equipment,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Tested
-1,Chelsea Smith,F,2002-06-18,21,Australia,Raw,J20-23,74.7,75,125,135,-140,135,70,75,77.5,77.5,167.5,180.5,190,190,402.5,SBD,Yes
+1,Chelsea Smith #1,F,2002-06-18,21,Australia,Raw,J20-23,74.7,75,125,135,-140,135,70,75,77.5,77.5,167.5,180.5,190,190,402.5,SBD,Yes
 1,Kahla Gossip,F,2000-04-27,23,Australia,Raw,J20-23,92.1,100,110,120,-125,120,50,55,60,60,120,125,-130,125,305,SBD,Yes
 1,Kaye Mercer,F,1976-02-08,47,Australia,Raw,M45-49,80.8,82.5,140,150,157.5,157.5,70,75,77.5,77.5,145,157.5,165,165,400,SBD,Yes
 1,Madeline Belcher,F,1988-09-06,35,Australia,Raw,Open,55.3,56,85,90,95,95,42.5,45,-47.5,45,115,120,-122.5,120,260,SBD,Yes
@@ -17,7 +17,7 @@ Place,Name,Sex,BirthDate,Age,Country,Equipment,Division,BodyweightKg,WeightClass
 1,William Roshier,M,2001-09-04,22,Australia,Raw,J20-23,108,110,150,165,175,175,-110,117.5,-125,117.5,165,190,205,205,497.5,SBD,Yes
 1,Greg Koppens,M,1981-03-03,42,Australia,Raw,M40-44,85.8,90,135,142.5,150,150,-85,90,95,95,160,170,180,180,425,SBD,Yes
 1,Tansel Boz,M,1981-07-17,42,Australia,Raw,M40-44,93.4,100,185,195,205,205,95,102.5,107.5,107.5,205,220,-230,220,532.5,SBD,Yes
-1,Peter Kelly,M,1980-01-05,43,Australia,Raw,M40-44,109.4,110,215,227.5,-235,227.5,127.5,132.5,-137.5,132.5,282.5,295,-305,295,655,SBD,Yes
+1,Peter Kelly #1,M,1980-01-05,43,Australia,Raw,M40-44,109.4,110,215,227.5,-235,227.5,127.5,132.5,-137.5,132.5,282.5,295,-305,295,655,SBD,Yes
 1,Robert Simpson,M,1974-08-17,49,Australia,Raw,M45-49,88.4,90,160,-170,170,170,112.5,-120,-120,112.5,190,200,-210,200,482.5,SBD,Yes
 1,Adrian Brogan,M,1973-06-03,50,Australia,Raw,M50-54,80.9,82.5,140,147.5,152.5,152.5,140,147.5,-152.5,147.5,190,200,-210,200,500,SBD,Yes
 1,Steve Bowey,M,1970-11-15,53,Australia,Raw,M50-54,99.5,100,180,190,200,200,110,-120,-120,110,200,215,-230,215,525,SBD,Yes

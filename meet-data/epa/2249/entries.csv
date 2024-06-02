@@ -1,7 +1,7 @@
 Name,Team,Division,BodyweightKg,WeightClassKg,BirthDate,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,TotalKg,Place,Equipment,Event,Sex
 Nicola Nash,SE,FR-O,50.9,52,,-52.5,-52.5,52.5,52.5,52.5,1,Raw,B,F
 Laura Petch,SE,FR-O,53.4,57,,57.5,60,-62.5,60,60,1,Raw,B,F
-Prudance Mowbray,SE,FR-O,55.3,57,,55,57.5,-60,57.5,57.5,2,Raw,B,F
+Pru Mowbray,SE,FR-O,55.3,57,,55,57.5,-60,57.5,57.5,2,Raw,B,F
 Elizabeth Ryder,SE,FR-Jr,62.5,63,,72.5,77.5,-80,77.5,77.5,1,Raw,B,F
 Megan Rowland,SE,FR-Jr,59.9,63,,55,60,65,65,65,2,Raw,B,F
 Rachel Spragg,SE,FR-M2,62.5,63,,60,62.5,65,65,65,1,Raw,B,F
@@ -25,7 +25,7 @@ Eric Peart,SE,MR-O,90,93,,160,-175,-175,160,160,3,Raw,B,M
 James Allen #2,SE,MR-O,85,93,,130,140,-147.5,140,140,4,Raw,B,M
 Drew Blackman,SE,MR-M1,91.9,93,,135,140,150,150,150,1,Raw,B,M
 David Glendower,SE,MR-M2,91,93,,62.5,67.5,-70,67.5,67.5,1,Raw,B,M
-Adrian Smith,SE,M-O,104.2,105,,197.5,212.5,220,220,220,1,Single-ply,B,M
+Adrian Smith #2,SE,M-O,104.2,105,,197.5,212.5,220,220,220,1,Single-ply,B,M
 Michael Tennant,SE,MR-O,100.9,105,,147.5,155,162.5,162.5,162.5,1,Raw,B,M
 Alistair Murdoch,SE,MR-M2,101.6,105,,160,180,-200,180,180,1,Raw,B,M
 James Gordon #1,SE,MR-M2,104.3,105,,125,130,132.5,132.5,132.5,2,Raw,B,M

@@ -257,10 +257,6 @@ pub enum Federation {
     #[strum(to_string = "CommonwealthPF", serialize = "commonwealthpf")]
     CommonwealthPF,
 
-    /// Confederacao Brasileira De Powerlifting, GPC.
-    #[strum(to_string = "CONBRAP", serialize = "conbrap")]
-    CONBRAP,
-
     /// Canadian Powerlifting Association, WPA.
     #[strum(to_string = "CPA", serialize = "cpa")]
     CPA,
@@ -450,6 +446,10 @@ pub enum Federation {
     #[strum(to_string = "FPO", serialize = "fpo")]
     FPO,
 
+    /// Federación Panameña de Potencia, IPF.
+    #[strum(to_string = "FPP", serialize = "fpp")]
+    FPP,
+
     /// Federación de Powerlifting de Puerto Rico, IPF.
     #[strum(to_string = "FPPR", serialize = "fppr")]
     FPPR,
@@ -483,6 +483,16 @@ pub enum Federation {
     #[strum(to_string = "GPA", serialize = "gpa")]
     GPA,
 
+    /// Brazilian branch of the GPA.
+    #[serde(rename = "GPA-Brazil")]
+    #[strum(to_string = "GPA-Brazil", serialize = "gpa-brazil")]
+    GPABrazil,
+
+    /// Colombian branch of the GPA.
+    #[serde(rename = "GPA-COL")]
+    #[strum(to_string = "GPA-COL", serialize = "gpa-col")]
+    GPACOL,
+
     /// Croatian branch of the GPA.
     #[serde(rename = "GPA-CRO")]
     #[strum(to_string = "GPA-CRO", serialize = "gpa-cro")]
@@ -501,6 +511,11 @@ pub enum Federation {
     #[serde(rename = "GPC-AUS")]
     #[strum(to_string = "GPC-AUS", serialize = "gpc-aus")]
     GPCAUS,
+
+    /// Confederacao Brasileira De Powerlifting, GPC. Formerly CONBRAP.
+    #[serde(rename = "GPC-Brazil")]
+    #[strum(to_string = "GPC-Brazil", serialize = "gpc-brazil")]
+    GPCBrazil,
 
     /// Canadian branch of the GPC.
     #[serde(rename = "GPC-CAN")]
@@ -1588,6 +1603,10 @@ pub enum Federation {
     #[strum(to_string = "WP-NZ", serialize = "wp-nz")]
     WPNZ,
 
+    /// World Powerlifting Organization.
+    #[strum(to_string = "WPO", serialize = "wpo")]
+    WPO,
+
     /// World Power Power League.
     #[strum(to_string = "WPPL", serialize = "wppl")]
     WPPL,
@@ -1942,7 +1961,6 @@ impl Federation {
             Federation::CNFA => FULLY_TESTED,
             Federation::ColPF => FULLY_TESTED,
             Federation::CommonwealthPF => FULLY_TESTED,
-            Federation::CONBRAP => false,
             Federation::CPA => false,
             Federation::CPC => false,
             Federation::CPF => false,
@@ -1950,6 +1968,7 @@ impl Federation {
             Federation::CPL => false,
             Federation::CPO => false,
             Federation::CPU => FULLY_TESTED,
+            Federation::CroatiaUA => false,
             Federation::CRPL => false,
             Federation::CSST => FULLY_TESTED,
             Federation::DBKV => false,
@@ -1985,6 +2004,7 @@ impl Federation {
             Federation::FinlandUA => false,
             Federation::FIPL => FULLY_TESTED,
             Federation::FPO => false,
+            Federation::FPP => FULLY_TESTED,
             Federation::FPPR => FULLY_TESTED,
             Federation::FPR => FULLY_TESTED,
             Federation::FRPL => FULLY_TESTED,
@@ -1994,10 +2014,14 @@ impl Federation {
             Federation::GFP => false,
             Federation::GlobalPU => false,
             Federation::GPA => false,
+            Federation::GPABrazil => false,
+            Federation::GPACOL => false,
             Federation::GPACRO => false,
             Federation::GPAFinland => false,
             Federation::GPC => false,
             Federation::GPCAUS => false,
+            Federation::GPCBrazil => false,
+            Federation::GPCCAN => false,
             Federation::GPCFrance => false,
             Federation::GPCGB => false,
             Federation::GPCGUPU => false,
@@ -2018,9 +2042,10 @@ impl Federation {
             Federation::GRAWA => false,
             Federation::GSFBelarus => false,
             Federation::Hardcore => false,
-            Federation::CroatiaUA => false,
+            Federation::HKPF => FULLY_TESTED,
             Federation::HKWPA => FULLY_TESTED,
             Federation::HPC => false,
+            Federation::HPF => FULLY_TESTED,
             Federation::HPLS => FULLY_TESTED,
             Federation::HPLSUA => false,
             Federation::HPO => false,
@@ -2030,9 +2055,6 @@ impl Federation {
             Federation::IDFPA => FULLY_TESTED,
             Federation::IDFPF => FULLY_TESTED,
             Federation::IKF => false,
-            Federation::GPCCAN => false,
-            Federation::HKPF => FULLY_TESTED,
-            Federation::HPF => FULLY_TESTED,
             Federation::IHSPLA => FULLY_TESTED,
             Federation::ILPA => false,
             Federation::ILPF => {
@@ -2261,6 +2283,7 @@ impl Federation {
             Federation::WPFRUS => false,
             Federation::WPLeague => false,
             Federation::WPNZ => FULLY_TESTED,
+            Federation::WPO => false,
             Federation::WPPL => false,
             Federation::WPPLArgentina => false,
             Federation::WPPLBelarus => false,
@@ -2379,7 +2402,6 @@ impl Federation {
             Federation::CNFA => Some(Country::France),
             Federation::ColPF => Some(Country::Colombia),
             Federation::CommonwealthPF => None,
-            Federation::CONBRAP => Some(Country::Brazil),
             Federation::CPA => Some(Country::Canada),
             Federation::CPC => Some(Country::Canada),
             Federation::CPF => Some(Country::Canada),
@@ -2422,6 +2444,7 @@ impl Federation {
             Federation::FinlandUA => Some(Country::Finland),
             Federation::FIPL => Some(Country::Italy),
             Federation::FPO => Some(Country::Finland),
+            Federation::FPP => Some(Country::Panama),
             Federation::FPPR => Some(Country::PuertoRico),
             Federation::FPR => Some(Country::Russia),
             Federation::FRPL => Some(Country::Romania),
@@ -2431,10 +2454,13 @@ impl Federation {
             Federation::GFP => Some(Country::Russia),
             Federation::GlobalPU => Some(Country::Ukraine),
             Federation::GPA => None,
+            Federation::GPABrazil => Some(Country::Brazil),
+            Federation::GPACOL => Some(Country::Colombia),
             Federation::GPACRO => Some(Country::Croatia),
             Federation::GPAFinland => Some(Country::Finland),
             Federation::GPC => None,
             Federation::GPCAUS => Some(Country::Australia),
+            Federation::GPCBrazil => Some(Country::Brazil),
             Federation::GPCCAN => Some(Country::Canada),
             Federation::GPCFrance => Some(Country::France),
             Federation::GPCGB => Some(Country::UK),
@@ -2683,6 +2709,7 @@ impl Federation {
             Federation::WPFRUS => Some(Country::Russia),
             Federation::WPLeague => Some(Country::Ukraine),
             Federation::WPNZ => Some(Country::NewZealand),
+            Federation::WPO => None,
             Federation::WPPL => None,
             Federation::WPPLArgentina => Some(Country::Argentina),
             Federation::WPPLBelarus => Some(Country::Belarus),
@@ -2842,7 +2869,6 @@ impl Federation {
             Federation::CNFA => Some(Federation::IPF),
             Federation::ColPF => Some(Federation::IPF),
             Federation::CommonwealthPF => Some(Federation::IPF),
-            Federation::CONBRAP => Some(Federation::GPC),
             Federation::CPA => Some(Federation::WPA),
             Federation::CPC => Some(Federation::WPC),
             Federation::CPF => {
@@ -2898,6 +2924,7 @@ impl Federation {
             Federation::FinlandUA => None,
             Federation::FIPL => Some(Federation::IPF),
             Federation::FPO => Some(Federation::IPA),
+            Federation::FPP => Some(Federation::IPF),
             Federation::FPPR => Some(Federation::IPF),
             Federation::FPR => {
                 // FPR was suspended by the IPF 2022-03-01, effective immediately.
@@ -2914,10 +2941,13 @@ impl Federation {
             Federation::GFP => None,
             Federation::GlobalPU => Some(Federation::GPC),
             Federation::GPA => Some(Federation::GPA),
+            Federation::GPABrazil => Some(Federation::GPA),
+            Federation::GPACOL => Some(Federation::GPA),
             Federation::GPACRO => Some(Federation::GPA),
             Federation::GPAFinland => Some(Federation::GPA),
             Federation::GPC => Some(Federation::GPC),
             Federation::GPCAUS => Some(Federation::GPC),
+            Federation::GPCBrazil => Some(Federation::GPC),
             Federation::GPCCAN => Some(Federation::GPC),
             Federation::GPCFrance => Some(Federation::GPC),
             Federation::GPCGB => Some(Federation::GPC),
@@ -2980,7 +3010,7 @@ impl Federation {
                 } else {
                     None
                 }
-            }        
+            }
             Federation::IranBBF => Some(Federation::IPF),
             Federation::IraqPF => Some(Federation::IPF),
             Federation::IrelandUA => None,
@@ -3223,6 +3253,7 @@ impl Federation {
             Federation::WPFRUS => Some(Federation::WPF),
             Federation::WPLeague => None,
             Federation::WPNZ => Some(Federation::WP),
+            Federation::WPO => Some(Federation::WPO),
             Federation::WPPL => Some(Federation::WPPL),
             Federation::WPPLArgentina => Some(Federation::WPPL),
             Federation::WPPLBelarus => Some(Federation::WPPL),
@@ -3406,7 +3437,6 @@ impl Federation {
             Federation::CNFA => Federation::ipf_rules_on(date),
             Federation::ColPF => Federation::ipf_rules_on(date),
             Federation::CommonwealthPF => Federation::ipf_rules_on(date),
-            Federation::CONBRAP => PointsSystem::Glossbrenner,
             Federation::CPA => PointsSystem::Wilks,
             Federation::CPC => PointsSystem::Wilks,
             Federation::CPF => PointsSystem::Wilks,
@@ -3449,6 +3479,7 @@ impl Federation {
             Federation::FinlandUA => PointsSystem::Wilks,
             Federation::FIPL => Federation::ipf_rules_on(date),
             Federation::FPO => PointsSystem::Wilks,
+            Federation::FPP => Federation::ipf_rules_on(date),
             Federation::FPPR => Federation::ipf_rules_on(date),
             Federation::FPR => Federation::ipf_rules_on(date),
             Federation::FRPL => Federation::ipf_rules_on(date),
@@ -3458,10 +3489,13 @@ impl Federation {
             Federation::GFP => PointsSystem::Wilks,
             Federation::GlobalPU => PointsSystem::Glossbrenner,
             Federation::GPA => PointsSystem::Wilks,
+            Federation::GPABrazil => PointsSystem::Wilks,
+            Federation::GPACOL => PointsSystem::Wilks,
             Federation::GPACRO => PointsSystem::Wilks,
             Federation::GPAFinland => PointsSystem::Wilks,
             Federation::GPC => PointsSystem::Reshel,
             Federation::GPCAUS => PointsSystem::Glossbrenner,
+            Federation::GPCBrazil => PointsSystem::Glossbrenner,
             Federation::GPCCAN => PointsSystem::Glossbrenner,
             Federation::GPCFrance => PointsSystem::Glossbrenner,
             Federation::GPCGB => PointsSystem::Reshel,
@@ -3760,6 +3794,7 @@ impl Federation {
             Federation::WPFRUS => PointsSystem::Wilks,
             Federation::WPLeague => PointsSystem::Wilks,
             Federation::WPNZ => PointsSystem::Wilks,
+            Federation::WPO => PointsSystem::Glossbrenner,
             Federation::WPPL => PointsSystem::Wilks,
             Federation::WPPLArgentina => PointsSystem::Wilks,
             Federation::WPPLBelarus => PointsSystem::Wilks,
