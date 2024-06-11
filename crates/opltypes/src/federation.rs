@@ -674,7 +674,6 @@ pub enum Federation {
     #[strum(to_string = "IHSPLA", serialize = "ihspla")]
     IHSPLA,
 
-
     /// Islenska Kraftlyfingafelagid, Icelandic GPC? affiliate.
     #[strum(to_string = "IKF", serialize = "ikf")]
     IKF,
@@ -1389,6 +1388,11 @@ pub enum Federation {
     #[strum(to_string = "VietnamPA", serialize = "vietnampa")]
     VietnamPA,
 
+    /// Unaffiliated meets held Vietnam.
+    #[serde(rename = "Vietnam-UA")]
+    #[strum(to_string = "Vietnam-UA", serialize = "vietnam-ua")]
+    VietnamUA,
+
     /// Defunct Russian meet.
     #[strum(to_string = "Vityaz", serialize = "vityaz")]
     Vityaz,
@@ -1832,6 +1836,11 @@ pub enum Federation {
     #[strum(to_string = "WRPF-UK", serialize = "wrpf-uk")]
     WRPFUK,
 
+    /// Vietnamese WRPF affiliate.
+    #[serde(rename = "WRPF-Vietnam")]
+    #[strum(to_string = "WRPF-Vietnam", serialize = "wrpf-vietnam")]
+    WRPFVietnam,
+
     /// Washington State High School Powerlifting.
     #[strum(to_string = "WSHSPL", serialize = "wshspl")]
     WSHSPL,
@@ -2064,7 +2073,7 @@ impl Federation {
                 } else {
                     false
                 }
-            },
+            }
             Federation::INSA => false,
             Federation::IPA => false,
             Federation::IPAAZE => false,
@@ -2237,6 +2246,7 @@ impl Federation {
             Federation::VDFPA => FULLY_TESTED,
             Federation::VGPF => FULLY_TESTED,
             Federation::VietnamPA => false,
+            Federation::VietnamUA => false,
             Federation::Vityaz => false,
             Federation::VPF => FULLY_TESTED,
             Federation::WABDL => FULLY_TESTED,
@@ -2329,6 +2339,7 @@ impl Federation {
             Federation::WRPFSRB => false,
             Federation::WRPFSweden => false,
             Federation::WRPFUK => false,
+            Federation::WRPFVietnam => false,
             Federation::WSHSPL => false,
             Federation::WUAP => false,
             Federation::WUAPAUT => false,
@@ -2664,6 +2675,7 @@ impl Federation {
             Federation::VDFPA => Some(Country::Australia),
             Federation::VGPF => Some(Country::Belgium),
             Federation::VietnamPA => Some(Country::Vietnam),
+            Federation::VietnamUA => Some(Country::Vietnam),
             Federation::Vityaz => Some(Country::Russia),
             Federation::VPF => Some(Country::Vietnam),
             Federation::WABDL => Some(Country::USA),
@@ -2756,6 +2768,7 @@ impl Federation {
             Federation::WRPFSRB => Some(Country::Serbia),
             Federation::WRPFSweden => Some(Country::Sweden),
             Federation::WRPFUK => Some(Country::UK),
+            Federation::WRPFVietnam => Some(Country::Vietnam),
             Federation::WSHSPL => Some(Country::USA),
             Federation::WUAP => None,
             Federation::WUAPAUT => Some(Country::Austria),
@@ -2768,8 +2781,8 @@ impl Federation {
             Federation::XPC => Some(Country::USA),
             Federation::XPCPoland => Some(Country::Poland),
             Federation::XPS => Some(Country::USA),
-                }
-            }
+        }
+    }
     /// The parent federation that provides sanction, if any.
     pub fn sanctioning_body(self, date: Date) -> Option<Federation> {
         match self {
@@ -3208,6 +3221,7 @@ impl Federation {
             }
             Federation::VGPF => Some(Federation::IPF),
             Federation::VietnamPA => Some(Federation::GPA),
+            Federation::VietnamUA => None,
             Federation::Vityaz => None,
             Federation::VPF => Some(Federation::IPF),
             Federation::WABDL => None,
@@ -3300,6 +3314,7 @@ impl Federation {
             Federation::WRPFSRB => Some(Federation::WRPF),
             Federation::WRPFSweden => Some(Federation::WRPF),
             Federation::WRPFUK => Some(Federation::WRPF),
+            Federation::WRPFVietnam => Some(Federation::WRPF),
             Federation::WSHSPL => None,
             Federation::WUAP => Some(Federation::WUAP),
             Federation::WUAPAUT => Some(Federation::WUAP),
@@ -3749,6 +3764,7 @@ impl Federation {
             Federation::VDFPA => PointsSystem::SchwartzMalone,
             Federation::VGPF => Federation::ipf_rules_on(date),
             Federation::VietnamPA => PointsSystem::Wilks,
+            Federation::VietnamUA => PointsSystem::Dots,
             Federation::Vityaz => PointsSystem::Wilks,
             Federation::VPF => Federation::ipf_rules_on(date),
             Federation::WABDL => PointsSystem::Wilks,
@@ -3847,6 +3863,7 @@ impl Federation {
             Federation::WRPFSRB => PointsSystem::Wilks,
             Federation::WRPFSweden => PointsSystem::Wilks,
             Federation::WRPFUK => PointsSystem::Wilks,
+            Federation::WRPFVietnam => PointsSystem::Wilks,
             Federation::WSHSPL => PointsSystem::Wilks,
             Federation::WUAP => PointsSystem::Wilks,
             Federation::WUAPAUT => PointsSystem::Wilks,
