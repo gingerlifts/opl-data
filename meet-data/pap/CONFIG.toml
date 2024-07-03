@@ -50,7 +50,7 @@
     divisions = ["J","SJ","C"]
 
 [weightclasses.junior_F]
-    classes = ["43","47","52","57","63","69","76","84","84+"]
+    classes = ["43","47","52","57","63","69","72","76","84","84+"]
     date_range=["2011-01-01","9999-12-31"]
     sex = "F"
     divisions = ["J","SJ","C"]
@@ -76,6 +76,8 @@
     1604 = ["ExemptWeightClassConsistency", "ExemptDivision"]
     1605 = ["ExemptWeightClassConsistency", "ExemptDivision"]
     1606 = ["ExemptWeightClassConsistency", "ExemptDivision"]
-    1607 = ["ExemptWeightClassConsistency", "ExemptDivision"] 
-	2301 = ["ExemptWeightClassConsistency", "ExemptDivision"] 
+    1607 = ["ExemptWeightClassConsistency", "ExemptDivision"]
+    2202 = ["ExemptWeightClassConsistency", "ExemptDivision"] 
+	2301 = ["ExemptWeightClassConsistency", "ExemptDivision"]
+    2302 = ["ExemptWeightClassConsistency", "ExemptDivision"] 
     2303 = ["ExemptWeightClassConsistency", "ExemptDivision"] 	
