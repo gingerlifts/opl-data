@@ -119,7 +119,7 @@ Victor Quispe,Raw,46,M2,M,114,125,-130,-135,140,,140,,,,,,140,B,2
 Victor Quispe,Multi-ply,46,M2,M,114,125,-180,-200,-230,,,,,,,,,B,DQ
 Walter San Miguel,Multi-ply,45,M2,M,135.4,140,160,175,190,,190,,,,,,190,B,1
 Walter San Miguel,Raw,45,M2,M,135.4,140,160,180,190,,190,,,,,,190,B,1
-Daniel Sánchez,Multi-ply,43,M1,M,98.2,100,140,255,-270,,255,,,,,,255,B,1
+Daniel Sánchez #1,Multi-ply,43,M1,M,98.2,100,140,255,-270,,255,,,,,,255,B,1
 Hilario Deleon,Raw,43,M1,M,96.9,100,140,160,165,,165,,,,,,165,B,1
 Hernan Rojas,Raw,40,M1,M,94.5,100,110,120,-125,,120,,,,,,120,B,2
 Victor Favalini,Multi-ply,43,M1,M,149.7,140+,255,265,275,,275,,,,,,275,B,1
@@ -182,7 +182,7 @@ Luciano Fanfliet,Raw,32,MO,M,97.9,100,,,,,,180,190,200,,200,200,D,1
 Julio Fernandez,Raw,39,MO,M,104.1,110,,,,,,240,260,265,,265,265,D,1
 Gonzalo Figueroa,Raw,32,MO,M,107,110,,,,,,240,255,262.5,,262.5,262.5,D,2
 Jonathan Bolada,Raw,34,MO,M,103.8,110,,,,,,230,245,-255,,245,245,D,3
-Juan Santa Rosa,Raw,30,MO,M,103.2,110,,,,,,220,230,240,,240,240,D,4
+Juan Santarosa,Raw,30,MO,M,103.2,110,,,,,,220,230,240,,240,240,D,4
 Nicolas Mateyka,Raw,31,MO,M,114.9,125,,,,,,265,280,-290,,280,280,D,2
 Alfredo Martín Rojas,Raw,31,MO,M,118.8,125,,,,,,290,310,,,310,310,D,1
 Walter Vernay,Raw,32,MO,M,137.2,140,,,,,,220,235,,,235,235,D,1
