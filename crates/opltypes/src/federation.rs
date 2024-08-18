@@ -1156,6 +1156,10 @@ pub enum Federation {
     #[strum(to_string = "SAAS", serialize = "saas")]
     SAAS,
 
+    /// Unaffiliated meets in Saudi Arabia.
+    #[strum(to_string = "Saudi-UA", serialize = "saudi-ua")]
+    SaudiUA,    
+
     /// Slovenská Asociácia Fitnes, Kulturistiky a Silového Trojboja.
     /// Slovakian IPF Affilate.
     #[strum(to_string = "SAFKST", serialize = "safkst")]
@@ -1267,7 +1271,6 @@ pub enum Federation {
     UAEPL,
 
     /// Unaffiliated meets held in the UAE.
-    #[serde(rename = "UAE-UA")]
     #[strum(to_string = "UAE-UA", serialize = "uae-ua")]
     UAEUA,
 
@@ -1720,6 +1723,11 @@ pub enum Federation {
     #[serde(rename = "WRPF-Belarus")]
     #[strum(to_string = "WRPF-Belarus", serialize = "wrpf-belarus")]
     WRPFBelarus,
+
+    /// Bolivian WRPF affiliate.
+    #[serde(rename = "WRPF-Bolivia")]
+    #[strum(to_string = "WRPF-Bolivia", serialize = "wrpf-bolivia")]
+    WRPFBolivia,
 
     /// Brazilian WRPF affiliate.
     #[serde(rename = "WRPF-Brazil")]
@@ -2202,6 +2210,7 @@ impl Federation {
             Federation::RUPC => false,
             Federation::RussiaUA => false,
             Federation::SAAS => false,
+            Federation::SaudiUA => false,
             Federation::SADFPA => FULLY_TESTED,
             Federation::SAFKST => FULLY_TESTED,
             Federation::SAFP => FULLY_TESTED,
@@ -2326,6 +2335,7 @@ impl Federation {
             Federation::WRPFArgentina => false,
             Federation::WRPFAUS => false,
             Federation::WRPFBelarus => false,
+            Federation::WRPFBolivia => false,
             Federation::WRPFBrazil => false,
             Federation::WRPFBulgaria => false,
             Federation::WRPFCAN => false,
@@ -2633,6 +2643,7 @@ impl Federation {
             Federation::RUPC => Some(Country::USA),
             Federation::RussiaUA => Some(Country::Russia),
             Federation::SAAS => Some(Country::USA),
+            Federation::SaudiUA => Some(Country::SaudiArabia),
             Federation::SADFPA => Some(Country::Australia),
             Federation::SAFKST => Some(Country::Slovakia),
             Federation::SAFP => Some(Country::Syria),
@@ -2757,6 +2768,7 @@ impl Federation {
             Federation::WRPFArgentina => Some(Country::Argentina),
             Federation::WRPFAUS => Some(Country::Australia),
             Federation::WRPFBelarus => Some(Country::Belarus),
+            Federation::WRPFBolivia => Some(Country::Bolivia),
             Federation::WRPFBrazil => Some(Country::Brazil),
             Federation::WRPFBulgaria => Some(Country::Bulgaria),
             Federation::WRPFCAN => Some(Country::Canada),
@@ -3152,6 +3164,7 @@ impl Federation {
             Federation::RUPC => None,
             Federation::RussiaUA => None,
             Federation::SAAS => None,
+            Federation::SaudiUA => None,
             Federation::SADFPA => Some(Federation::WDFPF),
             Federation::SAFKST => Some(Federation::IPF),
             Federation::SAFP => Some(Federation::IPF),
@@ -3305,6 +3318,7 @@ impl Federation {
             Federation::WRPFArgentina => Some(Federation::WRPF),
             Federation::WRPFAUS => Some(Federation::WRPF),
             Federation::WRPFBelarus => Some(Federation::WRPF),
+            Federation::WRPFBolivia => Some(Federation::WRPF),
             Federation::WRPFBrazil => Some(Federation::WRPF),
             Federation::WRPFBulgaria => Some(Federation::WRPF),
             Federation::WRPFCAN => Some(Federation::WRPF),
@@ -3704,6 +3718,7 @@ impl Federation {
             Federation::RUPC => PointsSystem::Wilks,
             Federation::RussiaUA => PointsSystem::Wilks,
             Federation::SAAS => PointsSystem::Wilks,
+            Federation::SaudiUA => PointsSystem::Dots,
             Federation::SADFPA => PointsSystem::Wilks,
             Federation::SAFKST => Federation::ipf_rules_on(date),
             Federation::SAFP => Federation::ipf_rules_on(date),
@@ -3856,6 +3871,7 @@ impl Federation {
             Federation::WRPFArgentina => PointsSystem::Wilks,
             Federation::WRPFAUS => PointsSystem::Wilks,
             Federation::WRPFBelarus => PointsSystem::Wilks,
+            Federation::WRPFBolivia => PointsSystem::Wilks,
             Federation::WRPFBrazil => PointsSystem::Wilks,
             Federation::WRPFBulgaria => PointsSystem::Wilks,
             Federation::WRPFCAN => PointsSystem::Wilks,

@@ -689,6 +689,7 @@
     IL-2024-12 = ["ExemptWeightClassConsistency"] # Weight classes were combined and scored by formula
     NJ-2024-10 = ["ExemptWeightClassConsistency"] # Meet was scored by formula.
     TX-2024-48 = ["ExemptWeightClassConsistency"] # Meet was scored by formula.
+    PA-2024-10 = ["ExemptWeightClassConsistency"] # No weight classes reported.
 
     # Miscellaneous exemptions.
     AK-2014-04 = ["ExemptWeightClassConsistency"] # Unknown bodyweights and classes.
@@ -780,3 +781,7 @@
     REG-2024-03 = ["ExemptDivision"]
     VA-2024-03 = ["ExemptDivision"]
     CA-2024-28 = ["ExemptDivision"]
+    MD-2024-06 = ["ExemptDivision"]
+    NM-2024-02 = ["ExemptDivision"]
+    MI-2024-05 = ["ExemptDivision"]
+    AZ-2024-02 = ["ExemptDivision"]
