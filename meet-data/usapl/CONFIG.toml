@@ -370,6 +370,8 @@
     frpf = {name="FR-PF", min=0, max=999, sex="F", equipment="Raw"}
     mpf = {name="M-PF", min=0, max=999, sex="M", equipment="Single-ply"}
     fpf = {name="F-PF", min=0, max=999, sex="F", equipment="Single-ply"}
+    mwpf = {name="MW-PF", min=0, max=999, sex="M", equipment="Wraps"}
+    fwpf = {name="FW-PF", min=0, max=999, sex="F", equipment="Wraps"}
 
     # Police, Fire, and Military.
     mrpfm = {name="MR-PFM", min=0, max=999, sex="M", equipment="Raw"}
@@ -686,6 +688,8 @@
     NY-2024-13 = ["ExemptWeightClassConsistency"] # Meet was scored by formula.
     IL-2024-12 = ["ExemptWeightClassConsistency"] # Weight classes were combined and scored by formula
     NJ-2024-10 = ["ExemptWeightClassConsistency"] # Meet was scored by formula.
+    TX-2024-48 = ["ExemptWeightClassConsistency"] # Meet was scored by formula.
+    PA-2024-10 = ["ExemptWeightClassConsistency"] # No weight classes reported.
 
     # Miscellaneous exemptions.
     AK-2014-04 = ["ExemptWeightClassConsistency"] # Unknown bodyweights and classes.
@@ -763,3 +767,21 @@
     CO-2024-03 = ["ExemptDivision"]
     WY-2024-03 = ["ExemptDivision"]
     MD-2024-07 = ["ExemptDivision"]
+    IL-2024-09 = ["ExemptDivision"]
+    MO-2024-05 = ["ExemptDivision"]
+    PA-2024-03 = ["ExemptDivision"]
+    REG-2024-06 = ["ExemptDivision"]
+    REG-2024-07-B = ["ExemptDivision"]
+    REG-2024-01 = ["ExemptDivision"]
+    IN-2024-08 = ["ExemptDivision"]
+    TX-2024-41 = ["ExemptDivision"]
+    PA-2024-21 = ["ExemptDivision"]
+    OH-2024-07 = ["ExemptDivision"]
+    NS-2024-04-B = ["ExemptDivision"]
+    REG-2024-03 = ["ExemptDivision"]
+    VA-2024-03 = ["ExemptDivision"]
+    CA-2024-28 = ["ExemptDivision"]
+    MD-2024-06 = ["ExemptDivision"]
+    NM-2024-02 = ["ExemptDivision"]
+    MI-2024-05 = ["ExemptDivision"]
+    AZ-2024-02 = ["ExemptDivision"]
