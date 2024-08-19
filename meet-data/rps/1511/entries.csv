@@ -1,9 +1,9 @@
 Sex,Equipment,Division,WeightClassKg,Name,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Event,Place
 F,Raw,Amateur Masters 40-44,48,Lori Head,46.72,72.57,56.7,124.74,254.01,SBD,1
-F,Raw,Amateur Juniors 20-23,56,Hannah Smith,54.25,95.25,45.36,120.2,260.82,SBD,1
+F,Raw,Amateur Juniors 20-23,56,Hannah Smith #1,54.25,95.25,45.36,120.2,260.82,SBD,1
 F,Raw,Amateur Masters 40-44,56,Rebecca Townsend,55.52,74.84,43.09,111.13,229.06,SBD,1
 F,Raw,Amateur Open,56,Samantha Faherty,55.34,117.93,70.31,127.01,315.25,SBD,1
-F,Raw,Amateur Open,56,Hannah Smith,54.25,95.25,45.36,120.2,260.82,SBD,2
+F,Raw,Amateur Open,56,Hannah Smith #1,54.25,95.25,45.36,120.2,260.82,SBD,2
 F,Raw,Amateur Open,56,Nicole Roy,53.61,90.72,52.16,115.67,258.55,SBD,3
 F,Raw,Amateur Open,56,Rebecca Townsend,55.52,74.84,43.09,111.13,229.06,SBD,4
 F,Wraps,Elite Open,56,Siobahn Kinney,55.25,124.74,65.77,140.61,331.12,SBD,1
@@ -36,7 +36,7 @@ F,Raw,Amateur Open,75,Amanda Meyer,72.94,97.52,65.77,131.54,294.84,SBD,4
 F,Raw,Amateur Open,75,Katie Schultz,73.66,106.59,65.77,122.47,294.84,SBD,5
 F,Raw,Amateur Open,75,Polly Heater,70.67,83.91,43.09,117.93,244.94,SBD,6
 F,Raw,Amateur Open,75,Lindsay Costa,69.94,77.11,45.36,108.86,231.33,SBD,7
-F,Wraps,Amateur Open,75,Dominique Constant,71.94,104.33,56.7,127.01,288.03,SBD,1
+F,Wraps,Amateur Open,75,Dominique Constant #1,71.94,104.33,56.7,127.01,288.03,SBD,1
 F,Raw,Amateur Open,82.5,Samantha Krupa,79.74,124.74,61.23,154.22,340.19,SBD,1
 F,Raw,Amateur Open,82.5,Brenna Newfell,80.56,102.06,68.04,145.15,315.25,SBD,2
 F,Raw,Amateur Open,82.5,Anna Mekerian,78.38,83.91,63.5,117.93,265.35,SBD,3
@@ -55,7 +55,7 @@ M,Raw,Amateur Open,75,Bradley Gregg,72.57,174.63,113.4,199.58,487.61,SBD,5
 M,Raw,Amateur Open,75,Stephen H. Becker,73.75,129.27,108.86,190.51,428.64,SBD,7
 M,Raw,Amateur Teen 18-19,75,Steven Volpe,71.85,172.37,111.13,174.63,458.13,SBD,1
 M,Raw,Amateur Teen 18-19,75,Eric Volpe,72.48,183.7,106.59,165.56,455.86,SBD,2
-M,Raw,Police Amateur Open,75,Luis Martinez,73.66,181.44,165.56,190.51,537.51,SBD,1
+M,Raw,Police Amateur Open,75,Luis Martinez #8,73.66,181.44,165.56,190.51,537.51,SBD,1
 M,Wraps,Amateur Open,75,Dalton James Maurice,73.94,158.76,92.99,201.85,453.59,SBD,2
 M,Raw,Amateur Juniors 20-23,82.5,John Pini,81.92,181.44,113.4,213.19,508.02,SBD,1
 M,Raw,Amateur Juniors 20-23,82.5,Matthew Kaufmann,80.65,170.1,104.33,188.24,462.66,SBD,2

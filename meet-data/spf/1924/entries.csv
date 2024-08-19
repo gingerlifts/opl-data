@@ -4,8 +4,8 @@ BirthDate,Name,Division,Equipment,WeightClassKg,BodyweightKg,Event,Best3SquatKg,
 ,Colby Alford,Juniors,Multi-ply,100,99.79,SBD,362.87,235.87,265.35,864.09,M,1
 ,Dillon Ledford,Open,Multi-ply,110,107.32,SBD,333.39,190.51,299.37,823.27,M,1
 ,Frank Phillips #1,Masters 50-54,Multi-ply,118,115.12,SBD,340.19,226.8,272.16,839.15,M,1
-,Shelly Yates,Masters 40-44,Multi-ply,100,96.89,SBD,247.21,72.57,181.44,501.22,F,1
-,Shelly Yates,Open,Multi-ply,100,96.89,SBD,247.21,72.57,181.44,501.22,F,1
+,Shelley Yates,Masters 40-44,Multi-ply,100,96.89,SBD,247.21,72.57,181.44,501.22,F,1
+,Shelley Yates,Open,Multi-ply,100,96.89,SBD,247.21,72.57,181.44,501.22,F,1
 ,Frank Greene,Masters 40-44,Raw,140,126.37,B,,215.46,,215.46,M,1
 ,Frank Greene,Open,Raw,140,126.37,B,,215.46,,215.46,M,3
 ,Henry Mincey,Masters 45-49,Raw,140+,168.92,B,,219.99,,219.99,M,1
@@ -26,7 +26,7 @@ BirthDate,Name,Division,Equipment,WeightClassKg,BodyweightKg,Event,Best3SquatKg,
 ,David Russell,Masters 45-49,Wraps,82.5,80.65,SBD,247.21,154.22,213.19,614.62,M,1
 ,Jordan Berryhill,Open,Wraps,82.5,79.92,SBD,115.67,54.43,108.86,278.96,F,2
 ,Kayla Harris,Teenage 16-17,Wraps,82.5,80.56,SBD,90.72,47.63,149.69,288.03,F,1
-,Rachel Frady,Open,Wraps,82.5,81.37,SBD,199.58,111.13,210.92,521.63,F,1
+,Rachael Frady,Open,Wraps,82.5,81.37,SBD,199.58,111.13,210.92,521.63,F,1
 ,Ryan Kirkpatrick,Open,Wraps,82.5,79.83,SBD,188.24,147.42,226.8,562.45,M,1
 ,Rusty North,Masters 45-49,Raw,90,88.27,B,,124.74,,124.74,M,1
 ,Rusty North,Masters 45-49,Raw,90,88.27,D,,,197.31,197.31,M,1

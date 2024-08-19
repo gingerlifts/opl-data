@@ -45,7 +45,7 @@ Place,Name,Sex,BirthDate,BirthYear,Age,Country,Equipment,Division,BodyweightKg,W
 1,Evelyn Eisensehr,F,,,49,Hungary,Raw,M40-49,79.8,82.5,,,,,,117.5,122.5,-127.5,,122.5,,,,,,122.5,B
 2,Beáta Szalay,F,,,43,Hungary,Raw,M40-49,79.3,82.5,,,,,,70,80,-82.5,,80,,,,,,80,B
 1,Livia Tal Nemethne,F,,,51,Hungary,Raw,M50-59,63.1,67.5,,,,,,40,42.5,45,,45,,,,,,45,B
-1,Mária Hegedüs,F,,,57,Hungary,Raw,M50-59,68.4,75,,,,,,40,42.5,45,,45,,,,,,45,B
+1,Mária Hegedűs,F,,,57,Hungary,Raw,M50-59,68.4,75,,,,,,40,42.5,45,,45,,,,,,45,B
 1,Zsuzsanna Horváth,F,,,60,Hungary,Raw,M60-69,43.5,44,,,,,,40,42.5,-45,,42.5,,,,,,42.5,B
 1,Roksana Blok,F,,,21,Poland,Raw,MPF,65.7,67.5,,,,,,55,-57.5,57.5,,57.5,,,,,,57.5,B
 1,Aleksandra Szymczykowska,F,,,24,Poland,Raw,Open,59.3,60,,,,,,110,115,,,115,,,,,,115,B
@@ -107,7 +107,7 @@ DQ,Paweł Just,M,,,23,Poland,Wraps,J20-23,86.9,90,-275,-275,-275,,,,,,,,,,,,,,SB
 8,William Karlsson Stolt,M,,,20,Sweden,Wraps,J20-23,110,110,-240,240,-260,,240,140,150,160,,160,75,,,,75,475,SBD
 DQ,Grzegorz Bala,M,,,22,Poland,Wraps,J20-23,109.4,110,255,-270,-270,,255,155,-160,,,155,-245,-260,-260,,,,SBD
 DQ,Mariusz Bubula,M,,,22,Poland,Wraps,J20-23,110,110,-240,-255,255,,255,,,,,,,,,,,,SBD
-1,Jakub Wasniewski,M,,,20,Poland,Wraps,J20-23,125,125,240,-262.5,-262.5,,240,-135,-135,135,,135,240,-252.5,,,240,615,SBD
+1,Jakub Waśniewski,M,,,20,Poland,Wraps,J20-23,125,125,240,-262.5,-262.5,,240,-135,-135,135,,135,240,-252.5,,,240,615,SBD
 1,Makar Tamrazyan,M,,,41,Armenia,Wraps,M40-49,67.5,67.5,150,162.5,,,162.5,100,-110,-110,,100,200,-222.5,-222.5,,200,462.5,SBD
 1,Ara Khachatryan,M,,,40,Armenia,Wraps,M40-49,82.5,82.5,230,240,245,,245,125,130,-135,,130,260,270,280,,280,655,SBD
 2,Robert Kucza,M,,,45,Poland,Wraps,M40-49,79.9,82.5,-110,110,-130,,110,100,110,-120,,110,160,170,180,,180,400,SBD
@@ -165,7 +165,7 @@ DQ,Krzysztof Szlachetka,M,,,33,Poland,Wraps,Open,80.3,82.5,-273,-273,-273,,,140,
 16,Norbert Marosik,M,,,29,Poland,Wraps,Open,86.7,90,140,147.5,155,,155,95,100,102.5,,102.5,190,200,205,,205,462.5,SBD
 17,Denis Szymanski,M,,,25,Poland,Wraps,Open,90,90,150,-162.5,-162.5,,150,117.5,122.5,-130,,122.5,170,180,190,,190,462.5,SBD
 18,Bartosz Skalmierski,M,,,28,Poland,Wraps,Open,85.2,90,165,175,185,,185,90,-100,-100,,90,150,160,170,,170,445,SBD
-DQ,Adrian Drozdzynski,M,,,26,Poland,Wraps,Open,88.5,90,-250,-250,-250,,,-130,,,,,-225,,,,,,SBD
+DQ,Adrian Drożdżyński,M,,,26,Poland,Wraps,Open,88.5,90,-250,-250,-250,,,-130,,,,,-225,,,,,,SBD
 DQ,Amadeusz Dziemianko,M,,,29,Poland,Wraps,Open,89.5,90,-290,290,-300,,290,-190,-190,-190,,,,,,,,,SBD
 1,Łukasz Kojder,M,,,29,Poland,Wraps,Open,100,100,250,260,265,,265,185,195,200,,200,285,305,315,,315,780,SBD
 2,Mateusz Morawiec,M,,,37,Poland,Wraps,Open,96.8,100,-270,280,-290,,280,160,167.5,170,,170,290,305,320,,320,770,SBD
@@ -202,7 +202,7 @@ DQ,Attila Zoltán Bús,M,,,37,Hungary,Wraps,Open,108.8,110,-250,-255,-255,,,-140
 3,Artur Solka,M,,,29,Poland,Wraps,Open,117,125,-290,290,305,,305,180,187.5,-192.5,,187.5,260,-270,270,,270,762.5,SBD
 4,Tomáš Tóth,M,,,32,Slovakia,Wraps,Open,111.1,125,250,255,260,,260,170,175,180,,180,-300,-300,300,-343,300,740,SBD
 5,Karol Prawdzik,M,,,30,Poland,Wraps,Open,120,125,230,240,-250,,240,200,210,212.5,,212.5,260,270,280,,280,732.5,SBD
-6,Michal Klimsiak,M,,,35,Poland,Wraps,Open,121.4,125,-200,210,-220,,210,130,140,150,,150,220,235,250,,250,610,SBD
+6,Michał Klimsiak,M,,,35,Poland,Wraps,Open,121.4,125,-200,210,-220,,210,130,140,150,,150,220,235,250,,250,610,SBD
 7,Kamil Kulpa,M,,,34,Poland,Wraps,Open,124.7,125,235,-245,-245,,235,-145,145,-150,,145,-215,-215,215,,215,595,SBD
 DQ,Rafał Wójcik,M,,,35,Poland,Wraps,Open,115.8,125,-280,-290,-290,,,195,200,-205,,200,300,315,325,,325,,SBD
 DQ,Konrad Nowak,M,,,30,Poland,Wraps,Open,123.1,125,240,250,255,,255,180,187.5,-192.5,,187.5,-240,-250,,,,,SBD
@@ -231,7 +231,7 @@ DQ,Roland Hegedüs,M,,,35,Slovakia,Wraps,Open,142.9,140+,-300,-350,,,,-180,,,,,,
 2,Hubert Czajkowski,M,,,16,Poland,Wraps,T16-17,94.6,100,150,-175,175,,175,100,110,115,,115,160,180,200,,200,490,SBD
 1,Pawel Zdzieblowski,M,,,17,Poland,Wraps,T16-17,104.5,110,-190,190,-200,,190,-95,95,102.5,,102.5,195,207.5,220,,220,512.5,SBD
 1,Pawel Wielgosz,M,,,17,Poland,Wraps,T16-17,141.8,140+,180,200,225,,225,87.5,92.5,97.5,,97.5,-180,190,210,,210,532.5,SBD
-1,Dawid Lach,M,,,19,Poland,Wraps,T18-19,81.8,82.5,215.5,227.5,-235,,227.5,128,135,140,,140,200,217.5,-232.5,,217.5,585,SBD
+1,Dawid Łach,M,,,19,Poland,Wraps,T18-19,81.8,82.5,215.5,227.5,-235,,227.5,128,135,140,,140,200,217.5,-232.5,,217.5,585,SBD
 2,Kacper Kłaptocz,M,,,19,Poland,Wraps,T18-19,82.5,82.5,185,192.5,200,,200,115,122.5,-127.5,,122.5,215,227.5,235,,235,557.5,SBD
 3,Rafael Alfaro Alvarado,M,,,19,Poland,Wraps,T18-19,79.5,82.5,-190,190,-202.5,,190,115,122.5,-127.5,,122.5,190,205,-215,,205,517.5,SBD
 1,Konrad Brodzki,M,,,18,Poland,Wraps,T18-19,87.7,90,215,225,-235,,225,120,-130,-130,,120,220,232.5,240,,240,585,SBD
@@ -239,7 +239,7 @@ DQ,Roland Hegedüs,M,,,35,Slovakia,Wraps,Open,142.9,140+,-300,-350,,,,-180,,,,,,
 2,Aleksander Pysz,M,,,19,Poland,Wraps,T18-19,104.5,110,210,220,-225,,220,137.5,-145,-145,,137.5,235,242.5,250,,250,607.5,SBD
 3,Emil Golebiowski,M,,,18,Poland,Wraps,T18-19,109.2,110,200,-210,210,,210,125,-135,135,,135,-195,200,210,,210,555,SBD
 4,Mikołaj Reczyński,M,,,18,Poland,Wraps,T18-19,106.9,110,172.5,182.5,-190,,182.5,132.5,-140,-140,,132.5,195,205,215,,215,530,SBD
-5,Kacper Geborys,M,,,19,Poland,Wraps,T18-19,108.8,110,185,195,-205,,195,95,102.5,-107.5,,102.5,185,202.5,210,,210,507.5,SBD
+5,Kacper Gęborys,M,,,19,Poland,Wraps,T18-19,108.8,110,185,195,-205,,195,95,102.5,-107.5,,102.5,185,202.5,210,,210,507.5,SBD
 1,Konstantinos Chorazak,M,,,18,Poland,Wraps,T18-19,125,125,160,-180,180,,180,100,115,122.5,,122.5,-180,180,210,,210,512.5,SBD
 1,Pasquale Ricci,M,,,44,Italy,Wraps,M40-49,58.4,60,130,140,145,150,145,,,,,,,,,,,145,S
 1,Hayk Afyan,M,,,44,Armenia,Wraps,M40-49,100,100,170,180,-190,,180,,,,,,,,,,,180,S
@@ -363,14 +363,14 @@ DQ,Igor Kalinski,M,,,21,Poland,Raw,J20-23,67.5,67.5,,,,,,-130,-135,-140.5,,,,,,,
 4,Dariusz Nowosielski,M,,,39,Poland,Raw,Open,126.5,140,,,,,,182.5,200,-205,,200,,,,,,200,B
 1,Maciej Kuźma,M,,,28,Poland,Raw,Open,147.8,140+,,,,,,235,240,245,,245,,,,,,245,B
 2,Bartłomiej Jaruga,M,,,36,Poland,Raw,Open,150.4,140+,,,,,,240,,,,240,,,,,,240,B
-3,Palma Andrea Di,M,,,34,Italy,Raw,Open,143.1,140+,,,,,,200,210,215,,215,,,,,,215,B
+3,Andrea Di Palma,M,,,34,Italy,Raw,Open,143.1,140+,,,,,,200,210,215,,215,,,,,,215,B
 4,Marcin Jankowski,M,,,38,Poland,Raw,Open,150.5,140+,,,,,,190,200,-210,,200,,,,,,200,B
 1,Kornel Czajkowski,M,,,13,Poland,Raw,T13-15,59.6,60,,,,,,55,60,62.5,,62.5,,,,,,62.5,B
 1,Jan Bulkowski,M,,,14,Poland,Raw,T13-15,69.2,75,,,,,,82.5,87.5,90,93,90,,,,,,90,B
 1,Michal Serafin,M,,,15,Poland,Raw,T13-15,92.6,100,,,,,,100,-107.5,110,,110,,,,,,110,B
 1,Mateusz Zdzieblowski,M,,,16,Poland,Raw,T16-17,58.4,60,,,,,,65,-70,70,,70,,,,,,70,B
 1,Dawid Bieńko,M,,,17,Poland,Raw,T16-17,80.9,82.5,,,,,,131,,,,131,,,,,,131,B
-1,Arnold Ferenc Busznyak,M,,,17,Hungary,Raw,T16-17,97,100,,,,,,95,-100,,,95,,,,,,95,B
+1,Ferenc Busznyák,M,,,17,Hungary,Raw,T16-17,97,100,,,,,,95,-100,,,95,,,,,,95,B
 1,Łukasz Kaźmierczak,M,,,18,Poland,Raw,T18-19,73.3,75,,,,,,-130,130,-135,,130,,,,,,130,B
 1,Ľubomír Dvorový,M,,,18,Slovakia,Raw,T18-19,88.2,90,,,,,,135,140,-142.5,,140,,,,,,140,B
 1,Bartosz Szczęsny,M,,,19,Poland,Raw,T18-19,92.6,100,,,,,,120,127.5,-132.5,,127.5,,,,,,127.5,B
@@ -399,7 +399,7 @@ DQ,Grzegorz Wałga,M,,,,Poland,Multi-ply,Open,100.6,110,,,,,,-330,-330,-330,,,,,
 1,Jussi Kananen,M,,,38,Finland,Multi-ply,Open,151.7,140+,,,,,,200,-230.5,,,200,,,,,,200,B
 1,Gábor Galambos,M,,,38,Hungary,Multi-ply,Paralympic,94.9,100,,,,,,105,110,115,,115,,,,,,115,B
 1,Armen Nikoghosyan,M,,,16,Armenia,Multi-ply,T16-17,55,56,,,,,,90,100,105,,105,,,,,,105,B
-1,Arnold Ferenc Busznyak,M,,,17,Hungary,Multi-ply,T16-17,97,100,,,,,,-115,115,,,115,,,,,,115,B
+1,Ferenc Busznyák,M,,,17,Hungary,Multi-ply,T16-17,97,100,,,,,,-115,115,,,115,,,,,,115,B
 1,Sorin Gyula Csicso,M,,,22,Hungary,Unlimited,J20-23,81.9,82.5,,,,,,180,-195,195,,195,,,,,,195,B
 1,Artur Wiśniewski,M,,,,Poland,Unlimited,MPF,115.6,125,,,,,,210,-225,-230,,210,,,,,,210,B
 1,Jussi Kananen,M,,,38,Finland,Unlimited,MPF,151.7,140+,,,,,,210,225,250,,250,,,,,,250,B
@@ -464,7 +464,7 @@ DQ,Radosław Kozdrach,M,,,26,Poland,Raw,Open,110,110,,,,,,,,,,,-325,-335,-350,,,
 1,Melsik Martirosyan,M,,,17,Armenia,Raw,T16-17,57,60,,,,,,,,,,,140,155,160,,160,160,D
 1,Ashot Petrosyan,M,,,16,Armenia,Raw,T16-17,89.9,90,,,,,,,,,,,240,260,,,260,260,D
 2,Gracjan Brzeziński,M,,,17,Poland,Raw,T16-17,87.4,90,,,,,,,,,,,210,232.5,-237.5,,232.5,232.5,D
-1,Arnold Ferenc Busznyak,M,,,17,Hungary,Raw,T16-17,97,100,,,,,,,,,,,160,170,185,,185,185,D
+1,Ferenc Busznyák,M,,,17,Hungary,Raw,T16-17,97,100,,,,,,,,,,,160,170,185,,185,185,D
 1,Maciej Trzonkowski,M,,,19,Poland,Raw,T18-19,88.8,90,,,,,,,,,,,235,-250,-250,,235,235,D
 2,Marcin Malinowski,M,,,18,Poland,Raw,T18-19,84.8,90,,,,,,,,,,,200,-225,225,,225,225,D
 3,Nikodem Hapka,M,,,19,Poland,Raw,T18-19,85,90,,,,,,,,,,,-210,225,-230,,225,225,D
@@ -485,7 +485,7 @@ DQ,Radosław Kozdrach,M,,,26,Poland,Raw,Open,110,110,,,,,,,,,,,-325,-335,-350,,,
 3,Gor Hovhannisyan,M,,,33,Armenia,Multi-ply,Open,98.2,100,,,,,,,,,,,160,180,-190,,180,180,D
 1,Péter Pintér,M,,,37,Slovakia,Multi-ply,Open,121.9,125,,,,,,,,,,,305,320,326,-331,326,326,D
 2,Peter Hallberg,M,,,35,Sweden,Multi-ply,Open,118.5,125,,,,,,,,,,,300,322.5,-330,,322.5,322.5,D
-1,Palma Andrea Di,M,,,34,Italy,Multi-ply,Open,143.1,140+,,,,,,,,,,,340,-350,350,-360,350,350,D
+1,Andrea Di Palma,M,,,34,Italy,Multi-ply,Open,143.1,140+,,,,,,,,,,,340,-350,350,-360,350,350,D
 1,Dominik Šafránek,M,,,30,Slovakia,Unlimited,Open,81.1,82.5,,,,,,,,,,,270,290,-302.5,,290,290,D
 2,Maciej Markowski,M,,,38,Poland,Unlimited,Open,82.2,82.5,,,,,,,,,,,-255,255,262.5,,262.5,262.5,D
 1,Jakub Pączkowski,M,,,25,Poland,Unlimited,Open,89.1,90,,,,,,,,,,,275,292.5,300,,300,300,D

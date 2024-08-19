@@ -33,7 +33,7 @@ pub use crate::metafederation::*;
 ///
 /// The data structure is immutable. To prevent the owner from modifying
 /// owned data, the struct contents are private and accessed through getters.
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Debug)]
 pub struct OplDb {
     /// The LifterID is implicit in the backing vector, as the index.
     ///
@@ -121,7 +121,7 @@ fn import_entries_csv(
 ///
 /// Assumes that the entries vector is sorted by meet_id --
 /// so this is only callable from within `import_entries_csv()`.
-fn precompute_num_unique_lifters(entries: &[Entry], meet_id: u32) -> u32 {
+fn precompute_num_unique_lifters(entries: &[Entry], meet_id: u32) -> u16 {
     let found_index = entries
         .binary_search_by_key(&meet_id, |e| e.meet_id)
         .unwrap();
@@ -153,7 +153,7 @@ fn precompute_num_unique_lifters(entries: &[Entry], meet_id: u32) -> u32 {
         .collect();
 
     lifter_ids.sort_unstable();
-    lifter_ids.into_iter().group_by(|x| *x).into_iter().count() as u32
+    lifter_ids.into_iter().group_by(|x| *x).into_iter().count() as u16
 }
 
 impl OplDb {
@@ -206,11 +206,8 @@ impl OplDb {
             }
             owned_strings += mem::size_of::<String>() + meet.name.len();
         }
-        for entry in &self.entries {
-            if let Some(ref division) = entry.division {
-                owned_strings += mem::size_of::<String>() + division.len();
-            }
-        }
+        // TODO(sstangl): Don't know how to account for the global symbol table here.
+        // FIXME(sstangl): This doesn't include the cache.
 
         mem::size_of::<OplDb>() + owned_vectors + owned_strings
     }
@@ -273,17 +270,34 @@ impl OplDb {
     ///
     /// For example, "johndoe" matches "johndoe" and "johndoe1",
     /// but does not match "johndoenut".
-    pub fn lifters_under_username(&self, base: &str) -> Vec<u32> {
+    pub fn lifters_under_username_base(&self, base: &str) -> Vec<u32> {
+        // Disambiguations end with a digit.
+        // Some lifters may have failed to be merged with their disambiguated username.
+        // Therefore, for usernames without a digit, it cannot be assumed that they are
+        // *not* a disambiguation.
+        let is_already_disambiguated: bool =
+            base.chars().last().map_or(false, |c| c.is_ascii_digit());
+        if is_already_disambiguated {
+            if let Some(id) = self.lifter_id(base) {
+                return vec![id]; // The input base was an exact lifter.
+            }
+            return vec![]; // The input base was exact, but with no matches.
+        }
+
         let mut acc = vec![];
-        for i in 0..self.lifters.len() {
-            let username = &self.lifters[i].username;
-            if username.as_str().starts_with(base) {
-                // If the base is shared, the remainder of the string
-                // should be empty or a number for disambiguation.
-                let (_, remainder) = username.as_str().split_at(base.len());
-                if remainder.is_empty() || remainder.parse::<u8>().is_ok() {
-                    acc.push(i as u32);
-                }
+
+        // Look up the name directly.
+        if let Some(id) = self.lifter_id(base) {
+            acc.push(id);
+        }
+
+        // Look up each possible disambiguation value, stopping when one is missing.
+        for i in 1.. {
+            let disambig = format!("{base}{i}");
+            if let Some(id) = self.lifter_id(&disambig) {
+                acc.push(id);
+            } else {
+                break;
             }
         }
         acc
@@ -350,36 +364,67 @@ impl OplDb {
             .collect()
     }
 
-    /// Returns all entries with the given meet_id.
+    /// Returns all entries with the given meet_id, sorted by Lifter ID.
     ///
-    /// Those entries could be located anywhere in the entries vector,
-    /// so they are found using a linear scan.
+    /// This is implemented using a binary search on a cached data structure.
     pub fn entries_for_meet(&self, meet_id: u32) -> Vec<&Entry> {
-        self.entries()
-            .iter()
-            .filter(|&e| e.meet_id == meet_id)
+        self.entry_ids_for_meet(meet_id)
+            .into_iter()
+            .map(|entry_id| self.entry(entry_id))
             .collect()
     }
 
-    /// Returns all entry_ids with the given meet_id.
+    /// Returns all entry_ids with the given meet_id, sorted by Lifter ID.
     ///
-    /// Those entries could be located anywhere in the entries vector,
-    /// so they are found using a linear scan.
+    /// The entries are returned sorted by Lifter ID.
+    ///
+    /// This is implemented using a binary search on a cached data structure.
     pub fn entry_ids_for_meet(&self, meet_id: u32) -> Vec<u32> {
-        self.entries()
-            .iter()
-            .enumerate()
-            .filter(|&(_i, e)| e.meet_id == meet_id)
-            .map(|(i, _e)| i as u32)
-            .collect()
+        let entry_ids_sorted_by_meet_id = &self.cache().entry_ids_sorted_by_meet_id;
+
+        // Perform a binary search on meet_id.
+        let found_index = entry_ids_sorted_by_meet_id
+            .binary_search_by_key(&meet_id, |e| self.entry(*e).meet_id)
+            .unwrap();
+
+        // Scan backwards to find the first match.
+        let mut first_index = found_index;
+        for index in (0..found_index).rev() {
+            let entry_id = entry_ids_sorted_by_meet_id[index];
+            if self.entry(entry_id).meet_id == meet_id {
+                first_index = index;
+            } else {
+                break;
+            }
+        }
+
+        // Scan forwards to find the last.
+        let mut last_index = found_index;
+        for index in (found_index + 1)..entry_ids_sorted_by_meet_id.len() {
+            let entry_id = entry_ids_sorted_by_meet_id[index];
+            if self.entry(entry_id).meet_id == meet_id {
+                last_index = index;
+            } else {
+                break;
+            }
+        }
+
+        // Collect entries between first_index and last_index, inclusive.
+        let mut ret: Vec<u32> = (first_index..=last_index)
+            .map(|i| entry_ids_sorted_by_meet_id[i])
+            .collect();
+
+        // Since the entries table is sorted by lifter_id, sorting by entry_id is equivalent
+        // to sorting by lifter_id.
+        ret.sort_unstable();
+        ret
     }
 
     /// Returns all lifter IDs that competed at the given meet_id.
     pub fn lifter_ids_for_meet(&self, meet_id: u32) -> Vec<u32> {
-        self.entries()
-            .iter()
-            .filter(|&e| e.meet_id == meet_id)
-            .group_by(|e| e.lifter_id)
+        self.entry_ids_for_meet(meet_id)
+            .into_iter()
+            .group_by(|entry_id| self.entry(*entry_id).lifter_id)
             .into_iter()
             .map(|(lifter_id, _group)| lifter_id)
             .collect()

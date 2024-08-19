@@ -18,7 +18,7 @@ Place,Name,Sex,Event,Division,WeightClassKg,Equipment,BirthYear,Team,State,Bodyw
 1,Maura Shuttleworth,F,B,F-O,52,Single-ply,1976,,NM,51.9,100,107.5,112.5,112.5,112.5
 2,Liszette Ortiz-Rosado,F,B,F-O,52,Single-ply,2001,Garcia Elites,TX,52,95,102.5,107.5,107.5,107.5
 1,Rowena Lopez,F,B,F-O,57,Single-ply,1977,,TX,56.5,-125,125,130,130,130
-2,Jennie Faucheaux,F,B,F-O,57,Single-ply,1980,,LA,55.6,-112.5,-112.5,112.5,112.5,112.5
+2,Jennie Hollier,F,B,F-O,57,Single-ply,1980,,LA,55.6,-112.5,-112.5,112.5,112.5,112.5
 1,Jennifer Thompson #1,F,B,FR-O,63,Raw,1973,,NC,62.5,125,137.5,-142.5,137.5,137.5
 1,Nallelly Gutierrez,F,B,F-O,72,Single-ply,2000,Garcia Elites,TX,67.4,-107.5,107.5,120,120,120
 2,Laura Rivera,F,B,F-O,72,Single-ply,1986,,TX,67.7,97.5,102.5,-110,102.5,102.5
@@ -56,7 +56,7 @@ DQ,Samantha Heimer,F,B,F-O,84+,Single-ply,2000,Garcia Elites,TX,108.8,-155,-155,
 1,Cindy Goodrich,F,B,FR-M3,57,Raw,1957,,WA,52.1,55,58,-58.5,58,58
 1,Patricia Boord,F,B,FR-M3,84+,Raw,1955,,VA,91.3,47.5,50,52.5,52.5,52.5
 1,Caycee Bregel,F,B,FR-O,47,Raw,1992,,MN,45.9,52.5,55,57.5,57.5,57.5
-1,Jennie Faucheaux,F,B,FR-O,57,Raw,1980,,LA,55.6,80,82.5,-85,82.5,82.5
+1,Jennie Hollier,F,B,FR-O,57,Raw,1980,,LA,55.6,80,82.5,-85,82.5,82.5
 2,Rose Thompson,F,B,FR-O,57,Raw,1983,,MO,55.9,70,75,-80,75,75
 3,Jodi Funk,F,B,FR-O,57,Raw,1973,,MN,54.9,57.5,60,-62.5,60,60
 4,Jackelin Moran,F,B,FR-O,57,Raw,1992,,VA,56.8,50,55,-60,55,55
@@ -116,7 +116,7 @@ DQ,Steve Johnson #1,M,B,M-M2,120+,Single-ply,1961,,MN,129.6,-185,-185,-185,,
 1,Mike Settles,M,B,M-M4,83,Single-ply,1944,Out of Africa,TX,81.8,-140,142.5,145,145,145
 1,Bill Helmich,M,B,M-M4,105,Single-ply,1942,,NM,103.4,135,140,145,145,145
 1,John Moore,M,B,M-M5,105,Single-ply,1937,,VA,100.8,112.5,115,-117.5,115,115
-1,William Garcia,M,B,M-O,59,Single-ply,1990,,CA,58.7,180,183,-185,183,183
+1,William Garcia #1,M,B,M-O,59,Single-ply,1990,,CA,58.7,180,183,-185,183,183
 2,Arnold Delgadillo,M,B,M-O,59,Single-ply,1997,,TX,57.8,142.5,150,157.5,157.5,157.5
 3,Xaviar Clark,M,B,M-O,59,Single-ply,1989,,TX,58.6,120,-137.5,-137.5,120,120
 1,Kenny Nguyen,M,B,M-O,66,Single-ply,1995,Sam Houston St. Univ. Power,TX,65.1,230.5,240,-250,240,240
@@ -196,7 +196,7 @@ DQ,Volodymyr Narolskyy,M,B,M-O,93,Single-ply,1977,,CO,88.4,-265,-265,-265,,
 1,Iosif Plagov,M,B,MR-M5,66,Raw,1935,Out of Africa,IL,64.7,80,-87.5,-87.5,80,80
 1,Samuel Penner,M,B,MR-M5,83,Raw,1930,,MD,76.2,57.5,60,62.5,62.5,62.5
 1,John Moore,M,B,MR-M5,105,Raw,1937,Out of Africa,VA,100.8,115,120,122.5,122.5,122.5
-1,William Garcia,M,B,MR-O,59,Raw,1990,,CA,58.7,125,137.5,143.5,143.5,143.5
+1,William Garcia #1,M,B,MR-O,59,Raw,1990,,CA,58.7,125,137.5,143.5,143.5,143.5
 2,Quentin Myers,M,B,MR-O,59,Raw,1986,,TX,58.7,130,137.5,-140,137.5,137.5
 3,Michael Bernal,M,B,MR-O,59,Raw,1990,,TX,57.7,115,117.5,-120,117.5,117.5
 4,Xaviar Clark,M,B,MR-O,59,Raw,1989,,TX,58.6,92.5,102.5,107.5,107.5,107.5

@@ -13,7 +13,11 @@ use crate::Report;
 
 /// Product of a successful parse.
 pub struct Meet {
+    /// The path to the meet folder from the root of `meet-data/`.
+    ///
+    /// For example, the file `meet-data/uspa/1234/meet.csv` would have a `path` of `uspa/1234`.
     pub path: String,
+
     pub federation: Federation,
     pub date: Date,
     pub country: Country,
@@ -21,6 +25,14 @@ pub struct Meet {
     pub town: Option<String>,
     pub name: String,
     pub ruleset: RuleSet,
+
+    /// Whether the meet is sanctioned by a recognized federation.
+    pub sanctioned: bool,
+
+    /// If true, allows entries in this meet to appear in other meets.
+    ///
+    /// This is enabled by setting `ExemptDuplicates` for the meet in a `CONFIG.toml`.
+    pub allow_duplicates: bool,
 }
 
 impl Meet {
@@ -36,6 +48,8 @@ impl Meet {
             town: None,
             name: "Test Meet".to_string(),
             ruleset: RuleSet::default(),
+            sanctioned: true,
+            allow_duplicates: false,
         }
     }
 }
@@ -56,7 +70,7 @@ const REQUIRED_HEADERS: [&str; 6] = [
 ];
 
 /// Optional headers may appear after the required ones.
-const OPTIONAL_HEADERS: [&str; 1] = ["RuleSet"];
+const OPTIONAL_HEADERS: [&str; 2] = ["RuleSet", "Sanctioned"];
 
 /// Checks that the headers are fixed and correct.
 fn check_headers(headers: &csv::StringRecord, report: &mut Report) {
@@ -317,6 +331,19 @@ fn check_ruleset(s: &str, report: &mut Report) -> RuleSet {
     }
 }
 
+/// Checks the optional Sanctioned column.
+fn check_sanctioned(s: &str, report: &mut Report) -> bool {
+    match s {
+        "Yes" => true,
+        "No" => false,
+        other => {
+            let msg = format!("Sanctioned column must be either Yes or No, found '{other}'");
+            report.error(msg);
+            true
+        }
+    }
+}
+
 /// Checks a single meet.csv file from an open `csv::Reader`.
 ///
 /// Extracting this out into a `Reader`-specific function is useful
@@ -332,15 +359,35 @@ pub fn do_check<R: io::Read>(
     let initial_errors = report.count_messages().errors();
 
     // Verify column headers. Only continue if they're valid.
-    check_headers(rdr.headers()?, &mut report);
+    let headers = rdr.headers()?;
+    check_headers(headers, &mut report);
     if !report.messages.is_empty() {
         return Ok(MeetCheckResult { report, meet: None });
+    }
+    let num_columns = headers.len();
+
+    // If there are optional columns, remember their indices for later.
+    let ruleset_idx: Option<usize>;
+    let sanctioned_idx: Option<usize>;
+
+    if num_columns > REQUIRED_HEADERS.len() {
+        ruleset_idx = headers.iter().position(|hdr| hdr == "RuleSet");
+        sanctioned_idx = headers.iter().position(|hdr| hdr == "Sanctioned");
+    } else {
+        ruleset_idx = None;
+        sanctioned_idx = None;
     }
 
     // Read a single row.
     let mut record = csv::StringRecord::new();
     if !rdr.read_record(&mut record)? {
         report.error("The second row is missing");
+        return Ok(MeetCheckResult { report, meet: None });
+    }
+
+    // Check that the number of columns in the second row matches the headers row.
+    if record.len() != num_columns {
+        report.error("The second row is missing columns");
         return Ok(MeetCheckResult { report, meet: None });
     }
 
@@ -352,12 +399,18 @@ pub fn do_check<R: io::Read>(
     let town = check_meettown(&record[4], &mut report);
     let name = check_meetname(&record[5], &mut report, &record[0], &record[1]);
 
-    // Check the optional columns.
-    // The RuleSet is set to the federation default, unless it's overridden.
-    let ruleset = if record.len() > REQUIRED_HEADERS.len() {
-        check_ruleset(record.get(REQUIRED_HEADERS.len()).unwrap(), &mut report)
+    // Check the optional columns. They come at the end, in any order.
+    let ruleset = if let Some(idx) = ruleset_idx {
+        check_ruleset(&record[idx], &mut report)
     } else {
         configured_ruleset(config, date)
+    };
+
+    // Check the optional "Sanctioned" column.
+    let sanctioned = if let Some(idx) = sanctioned_idx {
+        check_sanctioned(&record[idx], &mut report)
+    } else {
+        true
     };
 
     // Attempt to read another row -- but there shouldn't be one.
@@ -370,6 +423,29 @@ pub fn do_check<R: io::Read>(
         return Ok(MeetCheckResult { report, meet: None });
     }
 
+    // Check the CONFIG.toml to see if this meet should be excluded from duplicate checking.
+    // If true, this means that identical entries in this meet can appear in other meets.
+    //
+    // Normally, that happens because a meet was entered twice erroneously. Sometimes however
+    // it's intentional, when a single entry counts toward multiple different federations.
+    //
+    // TODO(sstangl): This is ugly. It would be better to make Config non-optional, and always
+    // pass around a default Config, rather than hardcoding things. We could even make that
+    // present in the data itself, by using a `meet-data/CONFIG.toml`.
+    let allow_duplicates = if let Some(config) = config {
+        if let Some((_fedname, meetname)) = meetpath.rsplit_once('/') {
+            if let Some(exemptions) = config.exemptions_for(meetname) {
+                exemptions.contains(&super::config::Exemption::ExemptDuplicates)
+            } else {
+                false
+            }
+        } else {
+            false
+        }
+    } else {
+        false
+    };
+
     match (federation, date, country, name) {
         (Some(federation), Some(date), Some(country), Some(name)) => {
             let meet = Some(Meet {
@@ -381,6 +457,8 @@ pub fn do_check<R: io::Read>(
                 town,
                 name,
                 ruleset,
+                sanctioned,
+                allow_duplicates,
             });
             Ok(MeetCheckResult { report, meet })
         }

@@ -21,7 +21,7 @@ María Luisa Vásquez,Puerto Rico,F,Open,46.8,47,1983,-160,162.5,-170.5,162.5,90
 Tania Saavedra,Ecuador,F,Open,47,47,1979,150,-160,-162.5,150,70,75,80,80,145,155,162.5,162.5,392.5,2,Single-ply,SBD
 Vilma Ochoa Vargas,Ecuador,F,Open,52,52,1980,200,,,200,92.5,-97.5,97.5,97.5,165,-175,175,175,472.5,1,Single-ply,SBD
 Michelle Cevallos,Ecuador,F,Open,51.5,52,1988,160,167.5,-172.5,167.5,87.5,90,92.5,92.5,155,-160,160,160,420,2,Single-ply,SBD
-Juanita Najera,USA,F,Open,52,52,1981,140,147.5,-152.5,147.5,85,-92.5,92.5,92.5,160,167.5,-172.5,167.5,407.5,3,Single-ply,SBD
+Juanita Najera #1,USA,F,Open,52,52,1981,140,147.5,-152.5,147.5,85,-92.5,92.5,92.5,160,167.5,-172.5,167.5,407.5,3,Single-ply,SBD
 Patricia Barbosa,Brazil,F,Open,52,52,1984,140,155,-162.5,155,75,,,75,140,155,-160,155,385,4,Single-ply,SBD
 Frances Báez,Puerto Rico,F,Open,51.8,52,1988,115,122.5,-130,122.5,60,65,70,70,120,130,137.5,137.5,330,5,Single-ply,SBD
 Isabel Maldonado,Ecuador,F,Open,56.5,57,1988,180,190,-195,190,92.5,-97.5,,92.5,180,190,-200,190,472.5,1,Single-ply,SBD
@@ -67,7 +67,7 @@ Lazaro Barbosa,Brazil,M,Masters 1,90.4,93,1965,310,325,335,335,180,187.5,192.5,1
 Jim Brown,USA,M,Masters 1,89.2,93,1965,215,237.5,250,250,165,175,-180,175,215,230,237.5,237.5,662.5,2,Single-ply,SBD
 Henry Gerard,USA,M,Masters 1,91.7,93,1964,25,-27.5,,25,195,-202.5,-202.5,195,225,250,-255,250,470,3,Single-ply,SBD
 Ildefonso Pardo,Mexico,M,Masters 1,102.9,105,1973,295,-312.5,-312.5,295,235,245,-252.5,245,260,-270,-270,260,800,1,Single-ply,SBD
-Antonio González,Puerto Rico,M,Masters 1,96.5,105,1971,300,-307.5,-307.5,300,-187.5,187.5,-205,187.5,260,267.5,-270,267.5,755,2,Single-ply,SBD
+Antonio González #1,Puerto Rico,M,Masters 1,96.5,105,1971,300,-307.5,-307.5,300,-187.5,187.5,-205,187.5,260,267.5,-270,267.5,755,2,Single-ply,SBD
 Christian Plaskett,US Virgin Islands,M,Masters 1,103.8,105,1967,-205,-205,205,205,182.5,197.5,200,200,207.5,227.5,235,235,640,3,Single-ply,SBD
 Jeff Butt,Canada,M,Masters 1,101.9,105,1970,-280,-280,-282.5,,-230,,,,,,,,,DQ,Single-ply,SBD
 John Edwards,Guyana,M,Masters 1,114.8,120,1967,-305,305,-327.5,305,210,-227.5,-227.5,210,275,-282.5,-285,275,790,1,Single-ply,SBD
@@ -102,7 +102,7 @@ Miguel Curipoma,Ecuador,M,Open,72.9,74,1987,265,275,285,285,152.5,160,165,165,25
 Alvaro Mauricio Mejia,Costa Rica,M,Open,73.7,74,1981,230,240,-255,240,160,170,-175,170,230,240,247.5,247.5,657.5,3,Single-ply,SBD
 David Salgado,Mexico,M,Open,73.3,74,1974,-232.5,235,-250,235,150,157.5,162.5,162.5,245,-255,-260,245,642.5,4,Single-ply,SBD
 Carlo Melendez,Puerto Rico,M,Open,72.8,74,1983,-232.5,235,-250,235,170,180,185,185,200,212.5,-222.5,212.5,632.5,6,Single-ply,SBD
-Paul Adams,Guyana,M,Open,73.3,74,1986,227.5,245,-252.5,245,-137.5,137.5,150,150,227.5,237.5,-250,237.5,632.5,7,Single-ply,SBD
+Paul Adams #1,Guyana,M,Open,73.3,74,1986,227.5,245,-252.5,245,-137.5,137.5,150,150,227.5,237.5,-250,237.5,632.5,7,Single-ply,SBD
 José Castillo #1,Ecuador,M,Open,83,83,1986,325,345,,345,215,225,,225,305,325,,325,895,1,Single-ply,SBD
 Randolph Morgan,Guyana,M,Open,81.8,83,1978,295,300,-305,300,205,-220,-220,205,322.5,330,-345.5,330,835,2,Single-ply,SBD
 Anis Ade Thomas,Guyana,M,Open,80.9,83,1989,245,262.5,-272.5,262.5,115,-127.5,-127.5,115,287.5,310,-320,310,687.5,3,Single-ply,SBD
@@ -112,7 +112,7 @@ Lorenzo Donastorg,US Virgin Islands,M,Open,79.4,83,1983,182.5,192.5,-195,192.5,-
 Ivan Reyes,Venezuela,M,Open,81.1,83,1971,-185,185,-195,185,115,125,135,135,140,155,175,175,495,9,Single-ply,SBD
 David Coimbra,Brazil,M,Open,92.8,93,1983,307.5,327.5,342.5,342.5,210,222.5,232.5,232.5,302.5,322.5,-332.5,322.5,897.5,1,Single-ply,SBD
 Ramon Burgos,Puerto Rico,M,Open,92.5,93,1987,312.5,322.5,-327.5,322.5,190,200,-205,200,-320,325,340,340,862.5,2,Single-ply,SBD
-Nelson Martínez,Ecuador,M,Open,92.1,93,1986,300,310,,310,220,232.5,237.5,237.5,275,287.5,-295,287.5,835,3,Single-ply,SBD
+Nelson Martínez #1,Ecuador,M,Open,92.1,93,1986,300,310,,310,220,232.5,237.5,237.5,275,287.5,-295,287.5,835,3,Single-ply,SBD
 Gabriel García Corona,Mexico,M,Open,92.2,93,1975,-300,-300,-312.5,,225,232.5,237.5,237.5,280,295,-305,295,,DQ,Single-ply,SBD
 Adrian Brown,Trinidad and Tobago,M,Open,102.8,105,1975,307.5,315,320,320,180,190,195,195,300,307.5,-315,307.5,822.5,1,Single-ply,SBD
 Michael Fernandez Barrantes,Costa Rica,M,Open,104.4,105,1982,270,-285,285,285,170,-180,182.5,182.5,260,-275,-275,260,727.5,4,Single-ply,SBD
@@ -133,7 +133,7 @@ John Anastasi,USA,M,Juniors,88.7,93,1995,187.5,202.5,-210,202.5,125,130,-137.5,1
 Marzell Pink,USA,M,Masters 1,134.9,120+,1971,177.5,187.5,227.5,227.5,182.5,192.5,200,200,227.5,250,-275,250,677.5,1,Raw,SBD
 Sean Dunston,USA,M,Masters 1,81.1,83,1970,195,205,-217.5,205,105,112.5,117.5,117.5,215,225,-230,225,547.5,2,Raw,SBD
 Lonnie Leger,USA,M,Masters 1,91.3,93,1966,160,-175,-175,160,107.5,115,117.5,117.5,170,180,187.5,187.5,465,3,Raw,SBD
-Dave Schneider,USA,M,Masters 2,105,105,1956,205,-222.5,222.5,222.5,130,-135,-135,130,245,265,-280,265,617.5,1,Raw,SBD
+Dave Schneider #1,USA,M,Masters 2,105,105,1956,205,-222.5,222.5,222.5,130,-135,-135,130,245,265,-280,265,617.5,1,Raw,SBD
 Chuck Akers,USA,M,Masters 2,92.8,93,1959,180,-195,195,195,125,130,132.5,132.5,205,222.5,230,230,557.5,2,Raw,SBD
 Bill Clayton,USA,M,Masters 3,80.9,83,1953,157.5,165,167.5,167.5,92.5,100,-102.5,100,190,-207.5,-207.5,190,457.5,1,Raw,SBD
 Jim Yakubovsky,USA,M,Masters 3,91.6,93,1947,162.5,175,192.5,192.5,70,77.5,-90,77.5,205,-215,-215,205,475,1,Raw,SBD

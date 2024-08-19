@@ -24,6 +24,8 @@
     ft3r = {name ="F-T3R", min=18, max=19, sex="F", equipment="Raw"}
     mjr = {name ="M-JR", min=20, max=23, sex="M", equipment="Raw"}
     fjr = {name ="F-JR", min=20, max=23, sex="F", equipment="Raw"}
+    msr = {name ="M-SR", min=33, max=39, sex="M", equipment="Raw"}
+    fsr = {name ="F-SR", min=33, max=39, sex="F", equipment="Raw"}
     mm1r = {name ="M-M1R", min=40, max=44, sex="M", equipment="Raw"}
     fm1r = {name ="F-M1R", min=40, max=44, sex="F", equipment="Raw"}
     mm2r = {name ="M-M2R", min=45, max=49, sex="M", equipment="Raw"}
@@ -58,6 +60,8 @@
     ft3cr = {name ="F-T3CR", min=18, max=19, sex="F", equipment=["Raw","Wraps"]}
     mjcr = {name ="M-JCR", min=20, max=23, sex="M", equipment=["Raw","Wraps"]}
     fjcr = {name ="F-JCR", min=20, max=23, sex="F", equipment=["Raw","Wraps"]}
+    mscr = {name ="M-SCR", min=33, max=39, sex="M", equipment=["Raw","Wraps"]}
+    fscr = {name ="F-SCR", min=33, max=39, sex="F", equipment=["Raw","Wraps"]}
     mm1cr = {name ="M-M1CR", min=40, max=44, sex="M", equipment=["Raw","Wraps"]}
     fm1cr = {name ="F-M1CR", min=40, max=44, sex="F", equipment=["Raw","Wraps"]}
     mm2cr = {name ="M-M2CR", min=45, max=49, sex="M", equipment=["Raw","Wraps"]}
@@ -92,6 +96,8 @@
     ft3ra = {name ="F-T3R-A", min=18, max=19, sex="F", equipment="Raw",tested="Yes"}
     mjra = {name ="M-JR-A", min=20, max=23, sex="M", equipment="Raw",tested="Yes"}
     fjra = {name ="F-JR-A", min=20, max=23, sex="F", equipment="Raw",tested="Yes"}
+    msra = {name ="M-SR-A", min=33, max=39, sex="M", equipment="Raw",tested="Yes"}
+    fsra = {name ="F-SR-A", min=33, max=39, sex="F", equipment="Raw",tested="Yes"}
     mm1ra = {name ="M-M1R-A", min=40, max=44, sex="M", equipment="Raw",tested="Yes"}
     fm1ra = {name ="F-M1R-A", min=40, max=44, sex="F", equipment="Raw",tested="Yes"}
     mm2ra = {name ="M-M2R-A", min=45, max=49, sex="M", equipment="Raw",tested="Yes"}
@@ -126,6 +132,8 @@
     ft3cra= {name ="F-T3CR-A", min=18, max=19, sex="F", equipment=["Raw","Wraps"],tested="Yes"}
     mjcra= {name ="M-JCR-A", min=20, max=23, sex="M", equipment=["Raw","Wraps"],tested="Yes"}
     fjcra= {name ="F-JCR-A", min=20, max=23, sex="F", equipment=["Raw","Wraps"],tested="Yes"}
+    mscra = {name ="M-SCR-A", min=33, max=39, sex="M", equipment=["Raw","Wraps"],tested="Yes"}
+    fscra = {name ="F-SCR-A", min=33, max=39, sex="F", equipment=["Raw","Wraps"],tested="Yes"}
     mm1cra= {name ="M-M1CR-A", min=40, max=44, sex="M", equipment=["Raw","Wraps"],tested="Yes"}
     fm1cra= {name ="F-M1CR-A", min=40, max=44, sex="F", equipment=["Raw","Wraps"],tested="Yes"}
     mm2cra= {name ="M-M2CR-A", min=45, max=49, sex="M", equipment=["Raw","Wraps"],tested="Yes"}
@@ -157,7 +165,8 @@
 
         # New-style divisions, Equipped Tested
     mjea = {name ="M-JE-A", min=20, max=23, sex="M", equipment=["Single-ply","Multi-ply"],tested="Yes"}
-    oea = {name ="M-OE-A", min=0, max=999, sex="M", equipment=["Single-ply","Multi-ply"],tested="Yes"}    
+    oea = {name ="M-OE-A", min=0, max=999, sex="M", equipment=["Single-ply","Multi-ply"],tested="Yes"}   
+    foea = {name ="F-OE-A", min=0, max=999, sex="F", equipment=["Single-ply","Multi-ply"],tested="Yes"}  
 
     # CP Divisions.
     morcpf = {name ="M_OR_CP",min=0,max=999,equipment="Raw",sex="M"}
@@ -313,6 +322,7 @@
     mmcr1acpf = {name ="M_MCR_1_ACP",min=40,max=44,equipment=["Raw","Wraps"],sex="M",tested="Yes"}
     mms1acpf = {name ="M_MES_1_ACP",min=40,max=44,equipment="Single-ply",sex="M",tested="Yes"}
     mmm1acpf = {name ="M_MEM_1_ACP",min=40,max=44,equipment="Multi-ply",sex="M",tested="Yes"}
+    mmu1acpf = {name ="M_MEU_1_ACP",min=40,max=44,equipment="Unlimited",sex="M",tested="Yes"}
     mmr2acpf = {name ="M_MR_2_ACP",min=45,max=49,equipment="Raw",sex="M",tested="Yes"}
     mmcr2acpf = {name ="M_MCR_2_ACP",min=45,max=49,equipment=["Raw","Wraps"],sex="M",tested="Yes"}
     mms2acpf = {name ="M_MES_2_ACP",min=45,max=49,equipment="Single-ply",sex="M",tested="Yes"}

@@ -2,7 +2,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 1,M,Joseph Peña #1,B,MR-T1,125+,Raw,148.3,,140,,140,1998
 1,M,Gabriel Gigout,B,M-T2,56,Single-ply,52.4,,125,,125,1996
 1,M,Bryce Turner,B,M-T2,82.5,Single-ply,79.1,,170,,170,1996
-1,M,Luis Martinez,B,M-T3,82.5,Single-ply,82.5,,147.5,,147.5,1988
+1,M,Luis Martinez #12,B,M-T3,82.5,Single-ply,82.5,,147.5,,147.5,1988
 1,M,Jamie Czajkowski,B,M-T3,90,Single-ply,84.3,,142.5,,142.5,1995
 1,M,Gustavo Diaz,B,M-T3,125,Single-ply,119.8,,177.5,,177.5,1995
 1,M,William Woods,B,MR-O,110,Raw,101,,150,,150,1985
@@ -96,7 +96,7 @@ Place,Sex,Name,Event,Division,WeightClassKg,Equipment,BodyweightKg,Best3SquatKg,
 1,F,Jasmine Plascencis,SBD,FR-T1,60,Raw,57.4,80,45,80,205,
 1,F,Jasmine Bocanegra,SBD,FR-T1,67.5,Raw,64.4,97.5,50,125,272.5,1998
 1,F,Kaitlin Reyes,SBD,FR-T2,44,Raw,42.2,85,45,90,220,1997
-1,F,Esperanza Delgado,SBD,FR-T2,60,Raw,60,102.5,52.5,120,275,1997
+1,F,Esperanza Delgado #1,SBD,FR-T2,60,Raw,60,102.5,52.5,120,275,1997
 1,F,Kenda Wittenburg,SBD,FR-T2,82.5,Raw,79.7,80,52.5,127.5,260,1996
 1,F,Esme Dela Cruz,SBD,FR-T3,48,Raw,47.6,80,32.5,87.5,200,1996
 1,F,Morgan Kent,SBD,FR-Y,48,Raw,44.8,70,30,67.5,167.5,2002

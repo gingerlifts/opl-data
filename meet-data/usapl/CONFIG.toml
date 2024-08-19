@@ -370,6 +370,8 @@
     frpf = {name="FR-PF", min=0, max=999, sex="F", equipment="Raw"}
     mpf = {name="M-PF", min=0, max=999, sex="M", equipment="Single-ply"}
     fpf = {name="F-PF", min=0, max=999, sex="F", equipment="Single-ply"}
+    mwpf = {name="MW-PF", min=0, max=999, sex="M", equipment="Wraps"}
+    fwpf = {name="FW-PF", min=0, max=999, sex="F", equipment="Wraps"}
 
     # Police, Fire, and Military.
     mrpfm = {name="MR-PFM", min=0, max=999, sex="M", equipment="Raw"}
@@ -553,6 +555,8 @@
     WI-2016-03 = ["ExemptWeightClassConsistency"]
     WI-2016-13 = ["ExemptWeightClassConsistency"]
     WI-2016-08 = ["ExemptWeightClassConsistency"]
+    NS-2016-07 = ["ExemptDuplicates"] # With RG-2016-06.
+    RG-2016-06 = ["ExemptDuplicates"] # With NS-2016-07.
 
     # 2017 Traditional Weight Classes.
     GA-2017-01 = ["ExemptWeightClassConsistency"]
@@ -588,6 +592,8 @@
     WI-2021-18 = ["ExemptWeightClassConsistency"] # No weight classes reported.
     FL-2021-14 = ["ExemptWeightClassConsistency"] # No weight classes reported.
     WI-2021-17 = ["ExemptWeightClassConsistency"] # No weight classes reported.
+    NS-2021-07 = ["ExemptDuplicates"] # With NS-2021-07-B.
+    NS-2021-07-B = ["ExemptDuplicates"] # With NS-2021-07.
 
     # 2022 exemptions.
     WI-2022-15 = ["ExemptDivision"] # Lifter under 14 in the Open division.
@@ -656,6 +662,34 @@
     NS-2023-09 = ["ExemptWeightClassConsistency"] # Meet was scored by formula.
     NS-2023-09-B = ["ExemptWeightClassConsistency"] # Meet was scored by formula.
     WI-2023-19 = ["ExemptWeightClassConsistency"] # No weight classes reported.
+    PA-2023-10 = ["ExemptWeightClassConsistency"] # No weight classes reported.
+    MO-2023-09 = ["ExemptWeightClassConsistency"] # No weight classes reported.
+    WI-2023-20 = ["ExemptWeightClassConsistency"] # No weight classes reported.
+    CA-2023-33 = ["ExemptWeightClassConsistency"] # No weight classes reported.
+
+    # 2024 exemptions.
+    NS-2024-03 = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2024-03-B = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2024-03-C = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2024-03-D = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2024-03-E = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2024-03-F = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2024-03-G = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2024-03-H = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2024-03-I = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    NS-2024-03-J = ["ExemptWeightClassConsistency"] # Arnold (scored by formula)
+    LA-2024-06 = ["ExemptWeightClassConsistency"] # No weight classes reported.
+    PA-2024-14 = ["ExemptWeightClassConsistency"] # No weight classes reported.
+    LA-2024-02 = ["ExemptWeightClassConsistency", "ExemptDivision"] # Weight classes were combined and scored by formula
+    NE-2024-04 = ["ExemptWeightClassConsistency"] # No weight classes reported.
+    WI-2024-13 = ["ExemptWeightClassConsistency"] # No weight classes reported.
+    FL-2024-01 = ["ExemptWeightClassConsistency"] # Meet was scored by formula.
+    VA-2024-06 = ["ExemptLiftOrder"] # See issue #20902
+    NY-2024-13 = ["ExemptWeightClassConsistency"] # Meet was scored by formula.
+    IL-2024-12 = ["ExemptWeightClassConsistency"] # Weight classes were combined and scored by formula
+    NJ-2024-10 = ["ExemptWeightClassConsistency"] # Meet was scored by formula.
+    TX-2024-48 = ["ExemptWeightClassConsistency"] # Meet was scored by formula.
+    PA-2024-10 = ["ExemptWeightClassConsistency"] # No weight classes reported.
 
     # Miscellaneous exemptions.
     AK-2014-04 = ["ExemptWeightClassConsistency"] # Unknown bodyweights and classes.
@@ -669,3 +703,85 @@
     NS-2019-02 = ["ExemptDivision"] # Jennifer Thompson benched Raw in Single-ply.
     WI-2018-24 = ["ExemptDivision"] # Brett Gildenzoph wore Wraps in Single-ply.
     NS-2022-03-A = ["ExemptDivision"] # Pirro Prifti was Raw in Single-ply.
+
+    # Temporary exemptions because Masters divisions are based on Age as of 2024-01-01
+    VA-2024-09 = ["ExemptDivision"]
+    LA-2024-01 = ["ExemptDivision"]
+    IN-2024-02 = ["ExemptDivision"]
+    OH-2024-01 = ["ExemptDivision"]
+    UT-2024-01 = ["ExemptDivision"]
+    CA-2024-02 = ["ExemptDivision"]
+    MD-2024-01 = ["ExemptDivision"]
+    WY-2024-01 = ["ExemptDivision"]
+    TX-2024-03 = ["ExemptDivision"]
+    NE-2024-03 = ["ExemptDivision"]
+    OH-2024-03 = ["ExemptDivision"]
+    PA-2024-12 = ["ExemptDivision"]
+    NY-2024-10 = ["ExemptDivision"]
+    KS-2024-01 = ["ExemptDivision"]
+    TX-2024-08 = ["ExemptDivision"]
+    WA-2024-03 = ["ExemptDivision"]
+    PA-2024-13 = ["ExemptDivision"]
+    KS-2024-02 = ["ExemptDivision"]
+    DE-2024-01 = ["ExemptDivision"]
+    NC-2024-01 = ["ExemptDivision"]
+    WA-2024-04 = ["ExemptDivision"]
+    CO-2024-01 = ["ExemptDivision"]
+    FL-2024-04 = ["ExemptDivision"]
+    NY-2024-16 = ["ExemptDivision"]
+    OR-2024-01 = ["ExemptDivision"]
+    NY-2024-02 = ["ExemptDivision"]
+    NS-2024-06 = ["ExemptDivision"]
+    VA-2024-07 = ["ExemptDivision"]
+    MI-2024-02 = ["ExemptDivision"]
+    CO-2024-02 = ["ExemptDivision"]
+    NY-2024-01 = ["ExemptDivision"]
+    MO-2024-01 = ["ExemptDivision"]
+    TX-2024-02 = ["ExemptDivision"]
+    WI-2024-09 = ["ExemptDivision"]
+    WV-2024-01 = ["ExemptDivision"]
+    NV-2024-03 = ["ExemptDivision"]
+    IN-2024-01 = ["ExemptDivision"]
+    IN-2024-07 = ["ExemptDivision"]
+    NJ-2024-04 = ["ExemptDivision"]
+    TX-2024-38 = ["ExemptDivision"]
+    NY-2024-12 = ["ExemptDivision"]
+    NC-2024-05 = ["ExemptDivision"]
+    AK-2024-01 = ["ExemptDivision"]
+    FL-2024-13 = ["ExemptDivision"]
+    WA-2024-01 = ["ExemptDivision"]
+    MA-2024-07 = ["ExemptDivision"]
+    WI-2024-12 = ["ExemptDivision"]
+    TX-2024-01 = ["ExemptDivision"]
+    NLD-2024-01 = ["ExemptDivision"]
+    HI-2024-02 = ["ExemptDivision"]
+    MI-2024-08 = ["ExemptDivision"]
+    TX-2024-17 = ["ExemptDivision"]
+    MD-2024-05 = ["ExemptDivision"]
+    PA-2024-20 = ["ExemptDivision"]
+    NY-2024-26 = ["ExemptDivision"]
+    CT-2024-03 = ["ExemptDivision"]
+    INT-2024-01 = ["ExemptDivision"]
+    ENG-2024-01 = ["ExemptDivision"]
+    AUS-2024-15 = ["ExemptDivision"]
+    CO-2024-03 = ["ExemptDivision"]
+    WY-2024-03 = ["ExemptDivision"]
+    MD-2024-07 = ["ExemptDivision"]
+    IL-2024-09 = ["ExemptDivision"]
+    MO-2024-05 = ["ExemptDivision"]
+    PA-2024-03 = ["ExemptDivision"]
+    REG-2024-06 = ["ExemptDivision"]
+    REG-2024-07-B = ["ExemptDivision"]
+    REG-2024-01 = ["ExemptDivision"]
+    IN-2024-08 = ["ExemptDivision"]
+    TX-2024-41 = ["ExemptDivision"]
+    PA-2024-21 = ["ExemptDivision"]
+    OH-2024-07 = ["ExemptDivision"]
+    NS-2024-04-B = ["ExemptDivision"]
+    REG-2024-03 = ["ExemptDivision"]
+    VA-2024-03 = ["ExemptDivision"]
+    CA-2024-28 = ["ExemptDivision"]
+    MD-2024-06 = ["ExemptDivision"]
+    NM-2024-02 = ["ExemptDivision"]
+    MI-2024-05 = ["ExemptDivision"]
+    AZ-2024-02 = ["ExemptDivision"]

@@ -15,7 +15,7 @@ Place,WeightClassKg,Division,Sex,Name,BirthYear,Country,BodyweightKg,Best3SquatK
 3,74,Open,M,Yuki Shibuya,1985,Japan,73.45,240,162.5,240,642.5,SBD,Raw
 4,74,Open,M,Amantay Zhandilda,1995,Kazakhstan,73.2,220,152.5,252.5,625,SBD,Raw
 5,74,Open,M,Barak Albedaiwi,1991,Kuwait,73.95,220,132.5,265,617.5,SBD,Raw
-6,74,Open,M,Pin Yeoh Han,1989,Malaysia,72.65,217.5,150,232.5,600,SBD,Raw
+6,74,Open,M,Kelvin Yeoh Han Pin,1989,Malaysia,72.65,217.5,150,232.5,600,SBD,Raw
 7,74,Open,M,Chi Kwon Jung,1994,South Korea,72.5,200,132.5,265,597.5,SBD,Raw
 8,74,Open,M,Sulaiman Hamadah,1990,Kuwait,72.6,197.5,120,232.5,550,SBD,Raw
 9,74,Open,M,Kiu-Wan Law,1992,Hong Kong,73.15,150,152.5,200,502.5,SBD,Raw
@@ -51,7 +51,7 @@ DQ,74,Open,M,Duvjid Boldbaatar,1994,Mongolia,74,230,,242.5,,SBD,Raw
 6,120,Open,M,Tomotake Iwanami,1980,Japan,119.7,280,160,250,690,SBD,Raw
 7,120,Open,M,Faisal Alshammari,1989,Kuwait,118.7,225,177.5,270,672.5,SBD,Raw
 1,120+,Open,M,Mehdi Mafi Gholami,1982,Iran,145.9,342.5,202.5,335.5,880.5,SBD,Raw
-2,120+,Open,M,Nelson Chui,1984,Malaysia,150.9,305,180,280,765,SBD,Raw
+2,120+,Open,M,Nelson Chui Chee Chung,1984,Malaysia,150.9,305,180,280,765,SBD,Raw
 3,120+,Open,M,Vickram Jeet Singh,1996,India,150.2,320,187.5,250,757.5,SBD,Raw
 4,120+,Open,M,Shota Yamamoto,1989,Japan,153.6,272.5,192.5,262.5,727.5,SBD,Raw
 DQ,120+,Open,M,Shatlyk Rahmanov,1982,Turkmenistan,122.7,280,197.5,,,SBD,Raw
@@ -155,7 +155,7 @@ DQ,93,Sub-Juniors,M,Mohammed Abdulameer,2001,Iraq,91,225,,227.5,,SBD,Raw
 2,83,Masters 1,M,Victor Dak,1975,Kazakhstan,83,225,157.5,235,617.5,SBD,Raw
 3,83,Masters 1,M,Davranbek Turakhanov,1974,Kazakhstan,79.85,212.5,130,227.5,570,SBD,Raw
 1,93,Masters 1,M,Yevgeniy Nefedov,1972,Kazakhstan,92.15,235,165,270,670,SBD,Raw
-2,93,Masters 1,M,Fernanandohiran,1975,Sri Lanka,91.8,252.5,137.5,230,620,SBD,Raw
+2,93,Masters 1,M,Hiran Fernando,1975,Sri Lanka,91.8,252.5,137.5,230,620,SBD,Raw
 3,93,Masters 1,M,Te-Feng Huang,,Taiwan,91.35,225,132.5,245,602.5,SBD,Raw
 4,93,Masters 1,M,Sergey Fotiev,,Uzbekistan,93,227.5,120,227.5,575,SBD,Raw
 5,93,Masters 1,M,Tiwari Bal Govind,1972,India,88.2,200,122.5,170,492.5,SBD,Raw
@@ -257,7 +257,7 @@ DQ,57,Open,F,Solongo Munkhbat,1988,Mongolia,56.45,,45,122.5,,SBD,Raw
 3,47,Juniors,F,Hui-Chuan Huang,1996,Taiwan,46.1,82.5,55,122.5,260,SBD,Raw
 4,47,Juniors,F,Benny Sona,1999,India,44.8,75,47.5,122.5,245,SBD,Raw
 5,47,Juniors,F,J L Jenifa,2000,India,45.8,70,25,110,205,SBD,Raw
-1,52,Juniors,F,Kathryn Siew Li Chong,1996,Malaysia,50.8,107.5,55,147.5,310,SBD,Raw
+1,52,Juniors,F,Kathryn Chong Siew Li,1996,Malaysia,50.8,107.5,55,147.5,310,SBD,Raw
 2,52,Juniors,F,Alyona Solopova,1998,Kazakhstan,51.6,115,67.5,117.5,300,SBD,Raw
 3,52,Juniors,F,Aliya Kiskimbayeva,2000,Kazakhstan,51.9,102.5,77.5,100,280,SBD,Raw
 1,57,Juniors,F,Anastasiya Zhurbina,1999,Kazakhstan,56.65,125,97.5,150,372.5,SBD,Raw

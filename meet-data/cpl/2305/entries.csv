@@ -1,6 +1,6 @@
 Place,Name,State,WeightClassKg,BodyweightKg,Age,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,Sex,Equipment,Division,Event,BirthDate,Tested
 1,Alexia Tu,ON,67.5,65.5,19,110,62.5,130,302.5,F,Raw,Juniors 18-19,SBD,,Yes
-1,Sarah Mcloughlin,ON,82.5,75.85,23,127.5,57.5,160,345,F,Raw,Juniors 20-23,SBD,,Yes
+1,Sarah Mcloughlin #2,ON,82.5,75.85,23,127.5,57.5,160,345,F,Raw,Juniors 20-23,SBD,,Yes
 1,Danelys Sarmiento,,56,54.1,48,80,52.5,145,277.5,F,Raw,Open,SBD,,Yes
 1,Carly McInnis,ON,67.5,66.4,24,115,75,127.5,317.5,F,Raw,Open,SBD,,Yes
 2,Katie Macvicar,ON,67.5,65.7,29,110,65,117.5,292.5,F,Raw,Open,SBD,,Yes
@@ -33,7 +33,7 @@ DQ,Michael Agueci,ON,100,99.9,19,220,,250,,M,Raw,Juniors 18-19,SBD,,Yes
 2,Harjit Virdee,ON,100,96.9,45,165,90,215,470,M,Raw,Open,SBD,,Yes
 DQ,Michael Agueci,ON,100,99.9,19,220,,250,,M,Raw,Open,SBD,,Yes
 1,Granville Mayers,ON,110,105.4,48,242.5,182.5,310,735,M,Raw,Open,SBD,,Yes
-2,James Michaud,ON,110,107.5,29,245,160,265,670,M,Raw,Open,SBD,,Yes
+2,James Michaud #2,ON,110,107.5,29,245,160,265,670,M,Raw,Open,SBD,,Yes
 1,Pyoter Radishevsky,QC,75,72.8,45,190,115,210,515,M,Raw,Masters 45-49,SBD,,Yes
 1,Harjit Virdee,ON,100,96.9,45,165,90,215,470,M,Raw,Masters 45-49,SBD,,Yes
 1,Granville Mayers,ON,110,105.4,48,242.5,182.5,310,735,M,Raw,Masters 45-49,SBD,,Yes

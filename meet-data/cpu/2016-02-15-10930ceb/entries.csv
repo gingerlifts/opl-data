@@ -17,7 +17,7 @@ SBD,M,Ryan Stinn,SK,140.3,120+,Open,285,270,310,865,Single-ply,1
 SBD,M,Russell Agnew,SK,114.9,120,Open,295,180,287.5,762.5,Single-ply,3
 SBD,M,Lucas Tetreault,SK,119.4,120,Open,310,220,282.5,812.5,Single-ply,2
 SBD,M,John MacDonald #1,PE,119.5,120,Open,340,280.5,290,910.5,Single-ply,1
-SBD,M,Brandon Ward,ON,96.2,105,Open,272.5,180,275,727.5,Single-ply,1
+SBD,M,Brandon Ward #2,ON,96.2,105,Open,272.5,180,275,727.5,Single-ply,1
 SBD,M,John Fraser,NS,91.2,93,Masters 3,230,172.5,240.5,643,Single-ply,1
 SBD,M,Jerry Marentette,ON,82.6,83,Masters 3,242.5,170,250,662.5,Single-ply,1
 SBD,M,Don Lovell,BC,65,66,Masters 3,143,75,185.5,403.5,Single-ply,1
@@ -126,7 +126,7 @@ SBD,F,Maria Taccone,ON,62,63,Open,145,77.5,162.5,385,Raw,4
 SBD,F,Li-An Chen,SK,58.6,63,Open,120,70,155,345,Raw,12
 SBD,F,Leah Mamane,QC,60.3,63,Open,125,82.5,145,352.5,Raw,11
 SBD,F,Krista Sali,SK,62.3,63,Open,120,57.5,160,337.5,Raw,14
-SBD,F,Jennifer Carter,ON,61.8,63,Open,130,75,155,360,Raw,9
+SBD,F,Jennifer Carter #2,ON,61.8,63,Open,130,75,155,360,Raw,9
 SBD,F,Angela MacKay,SK,62.5,63,Open,137.5,65,165,367.5,Raw,7
 SBD,F,Amy Smith #3,SK,62.7,63,Open,153,82.5,157.5,393,Raw,3
 SBD,F,Amelia Ng,ON,61.7,63,Open,117.5,70,157.5,345,Raw,13
@@ -366,7 +366,7 @@ B,F,Ashley Viklund,SK,108.2,84+,Open,,80,,80,Raw,3
 B,F,Rhaea Stinn,SK,72,72,Open,,110,,110,Raw,1
 B,F,Heidi Fowler,SK,82.2,84,Open,,75,,75,Raw,3
 B,F,Dana Sandler,AB,83.5,84,Open,,80,,80,Raw,2
-B,M,Loc Nguyen,ON,71.5,74,Open,,147.5,,147.5,Raw,1
+B,M,Loc Nguyen #2,ON,71.5,74,Open,,147.5,,147.5,Raw,1
 B,F,Dani Savoie,AB,71.1,72,Open,,95,,95,Raw,1
 B,F,Chelsea Sveinbjornson,SK,69.3,72,Open,,80,,80,Raw,2
 B,F,Alicia Stajniak,SK,65.6,72,Open,,65,,65,Raw,3

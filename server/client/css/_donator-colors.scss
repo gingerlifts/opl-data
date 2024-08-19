@@ -38,7 +38,7 @@
 }
 
 .lavender {
-  @include name-color(#E6E6FA);
+  @include name-color(#C0AADA);
 }
 
 .deadlift_purple {
@@ -82,6 +82,11 @@
   @include name-color(#00E0D8);
 }
 
+// Andrew wants an unreadable name. ¯\_(ツ)_/¯
+.black {
+  @include name-color(#000000);
+}
+
 .lightazure {
   @include name-color(#00AEFF);
 }
@@ -98,6 +103,11 @@
 // A pleasant blue you'd find on a menu screen button.
 .waterblue {
   @include name-color(#3B72FF);
+}
+
+// The sahde of blue used as one of the colors of the University of North Carolina.
+.carolinablue {
+  @include name-color(#4B9CD3);
 }
 
 .royalblue {
@@ -173,6 +183,12 @@
 }
 
 // Red, white, and red.
+.austria {
+  @include gradient-prereqs($default-color);
+  background-image: linear-gradient(to right, #FB3640, #EDF2F4, #FB3640);
+}
+
+// Red, white, and red.
 .canada {
   @include gradient-prereqs($default-color);
   background-image: linear-gradient(to right, #FB3640, #EDF2F4, #FB3640);
@@ -206,6 +222,12 @@
 .italy {
   @include gradient-prereqs($default-color);
   background-image: linear-gradient(to right, #51DA27, #EDF2F4, #DD1832);
+}
+
+// Green, white, and red.
+.mexico {
+  @include gradient-prereqs($default-color);
+  background-image: linear-gradient(to right, #006341, #EDF2F4, #ce1126);
 }
 
 // Millennial pink color palette
@@ -369,6 +391,13 @@
   $royalblue: #507CFF;
   @include gradient-prereqs($neongreen);
   background-image: linear-gradient(to right, $neongreen, $royalblue);
+}
+
+.orange_to_blue_top_down {
+  $blue: #507CFF;
+  $orange: #FFA200;
+  @include gradient-prereqs($orange);
+  background-image: linear-gradient(to bottom, $orange, $blue);
 }
 
 .orange_to_green {
@@ -751,6 +780,25 @@
 
 .redgold_anim {
   animation: redgold 3s cubic-bezier(.77,0,.18,1) infinite;
+}
+
+// Switches from blue to purple to red.
+@keyframes blue_purple_red {
+  0% {
+    color: #3364ea;
+  } 25% {
+    color: #a747ff;
+  } 50% {
+    color: #ff2b6b;
+  } 75% {
+    color: #a747ff;
+  } 100% {
+    color: #3364ea;
+  }
+}
+
+.blue_purple_red_anim {
+  animation: blue_purple_red 3s cubic-bezier(.77,0,.18,1) infinite;
 }
 
 .teal-shadow {

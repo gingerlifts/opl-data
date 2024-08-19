@@ -188,25 +188,7 @@ fn lifter(
 ) -> Option<Result<Template, Redirect>> {
     let locale = make_locale(lang, languages, cookies);
 
-    // Disambiguations end with a digit.
-    // Some lifters may have failed to be merged with their disambiguated username.
-    // Therefore, for usernames without a digit, it cannot be assumed that they are
-    // *not* a disambiguation.
-    let is_definitely_disambiguation: bool = username
-        .chars()
-        .last()
-        .map_or(false, |c| c.is_ascii_digit());
-
-    let lifter_ids: Vec<u32> = if is_definitely_disambiguation {
-        if let Some(id) = opldb.lifter_id(username) {
-            vec![id]
-        } else {
-            vec![]
-        }
-    } else {
-        opldb.lifters_under_username(username)
-    };
-
+    let lifter_ids: Vec<u32> = opldb.lifters_under_username_base(username);
     match lifter_ids.len() {
         // If no LifterID was found, maybe the name just needs to be lowercased.
         0 => {
@@ -589,9 +571,6 @@ Disallow: /
 User-agent: dotbot
 Disallow: /
 
-User-agent: GPTBot
-Disallow: /
-
 User-agent: MJ12bot
 Disallow: /
 
@@ -602,7 +581,30 @@ User-agent: SemrushBot-SA
 Disallow: /
 
 User-agent: BLEXBot
-Disallow: /"#
+Disallow: /
+
+# Disallow bots from LLM-training companies.
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+"#
 }
 
 #[catch(404)]
@@ -727,7 +729,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
     )?;
 
     println!(
-        "DB loaded in {}MB and {:#?}.",
+        "DB loaded in {}MB and {:#?} (not counting the GlobalTable).",
         opldb.size_bytes() / 1024 / 1024,
         start.elapsed()
     );

@@ -60,6 +60,7 @@ fn make_export_row<'a>(entry: &'a Entry, meet: &'a Meet) -> ExportRow<'a> {
         meet_state: meet.state.map(|s| s.to_state_string()),
         meet_town: meet.town.as_deref(),
         meet_name: &meet.name,
+        sanctioned: if meet.sanctioned { "Yes" } else { "No" },
     }
 }
 
@@ -70,10 +71,9 @@ pub fn make_onefile_csv(meetdata: &AllMeetData, buildpath: &Path) -> Result<(), 
         .from_path(buildpath.join("openpowerlifting.csv"))?;
 
     for SingleMeetData { meet, entries } in meetdata.meets() {
-        for entry in entries {
+        for entry in entries.iter() {
             csv.serialize(make_export_row(entry, meet))?;
         }
     }
-
     Ok(())
 }

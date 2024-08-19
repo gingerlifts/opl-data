@@ -88,7 +88,10 @@ impl HeaderIndexMap {
 
 pub struct EntriesCheckResult {
     pub report: Report,
-    pub entries: Option<Vec<Entry>>,
+    // TODO: Memory could be improved further by using bump allocation in an arena.
+    //  Have each worker thread allocate entries into its own pool, rather than a separate
+    //  allocation per meet.
+    pub entries: Option<Box<[Entry]>>,
 }
 
 /// Returns s as a string in Unicode NFKC form.
@@ -270,6 +273,7 @@ enum Header {
     Country,
     EntryDate,
 
+    // Weights in kilograms.
     WeightClassKg,
     BodyweightKg,
     TotalKg,
@@ -292,6 +296,29 @@ enum Header {
     Deadlift3Kg,
     Deadlift4Kg,
 
+    // Weights in pounds. These get converted to kilograms.
+    WeightClassLbs,
+    BodyweightLbs,
+    TotalLbs,
+
+    Best3SquatLbs,
+    Squat1Lbs,
+    Squat2Lbs,
+    Squat3Lbs,
+    Squat4Lbs,
+
+    Best3BenchLbs,
+    Bench1Lbs,
+    Bench2Lbs,
+    Bench3Lbs,
+    Bench4Lbs,
+
+    Best3DeadliftLbs,
+    Deadlift1Lbs,
+    Deadlift2Lbs,
+    Deadlift3Lbs,
+    Deadlift4Lbs,
+
     // Columns below this point are ignored.
     Team,
     State,
@@ -303,7 +330,7 @@ enum Header {
 /// Checks that the headers are valid.
 fn check_headers(
     headers: &csv::StringRecord,
-    meet: Option<&Meet>,
+    meet: &Meet,
     config: Option<&Config>,
     report: &mut Report,
 ) -> HeaderIndexMap {
@@ -343,27 +370,42 @@ fn check_headers(
     let header_map = HeaderIndexMap(header_index_vec);
 
     // If there is data for a particular lift, there must be a 'Best' column.
-    if has_squat && !header_map.has(Header::Best3SquatKg) {
-        report.error("Squat data requires a 'Best3SquatKg' column");
+    if has_squat && !header_map.has(Header::Best3SquatKg) && !header_map.has(Header::Best3SquatLbs)
+    {
+        report.error("Squat data requires a 'Best3SquatKg' or 'Best3SquatLbs' column");
     }
-    if has_bench && !header_map.has(Header::Best3BenchKg) {
-        report.error("Bench data requires a 'Best3BenchKg' column");
+    if has_bench && !header_map.has(Header::Best3BenchKg) && !header_map.has(Header::Best3BenchLbs)
+    {
+        report.error("Bench data requires a 'Best3BenchKg' or 'Best3BenchLbs' column");
     }
-    if has_deadlift && !header_map.has(Header::Best3DeadliftKg) {
-        report.error("Deadlift data requires a 'Best3DeadliftKg' column");
+    if has_deadlift
+        && !header_map.has(Header::Best3DeadliftKg)
+        && !header_map.has(Header::Best3DeadliftLbs)
+    {
+        report.error("Deadlift data requires a 'Best3DeadliftKg' or 'Best3DeadliftLbs' column");
     }
 
     // Require mandatory columns.
     {
         use Header::*;
-        const MANDATORY_COLUMNS: [Header; 6] = [Name, Sex, Equipment, TotalKg, Place, Event];
+        const MANDATORY_COLUMNS: [Header; 5] = [Name, Sex, Equipment, Place, Event];
         for column in &MANDATORY_COLUMNS {
             if !header_map.has(*column) {
                 report.error(format!("There must be a '{column}' column"));
             }
         }
-        if !header_map.has(Header::WeightClassKg) && !header_map.has(Header::BodyweightKg) {
-            report.error("There must be a 'BodyweightKg' or 'WeightClassKg' column");
+        // There must be a total.
+        if !header_map.has(Header::TotalKg) && !header_map.has(Header::TotalLbs) {
+            report.error("There must be a 'TotalKg' or 'TotalLbs' column".to_string());
+        }
+
+        // Some weight-based information must be present.
+        if !header_map.has(Header::WeightClassKg)
+            && !header_map.has(Header::WeightClassLbs)
+            && !header_map.has(Header::BodyweightKg)
+            && !header_map.has(Header::BodyweightLbs)
+        {
+            report.error("There must be a 'BodyweightKg' or 'WeightClassKg' column (or in Lbs)");
         }
     }
 
@@ -382,10 +424,8 @@ fn check_headers(
     //
     // To avoid excessive version-control churn, the BirthDate column is mandatory
     // (even if totally blank) for all meets since 2020.
-    if let Some(meet) = meet {
-        if meet.date.year() >= 2020 && !header_map.has(Header::BirthDate) {
-            report.error("The BirthDate column is mandatory for all meets since 2020");
-        }
+    if meet.date.year() >= 2020 && !header_map.has(Header::BirthDate) {
+        report.error("The BirthDate column is mandatory for all meets since 2020");
     }
 
     header_map
@@ -439,9 +479,9 @@ fn check_column_name(name: &str, line: u64, report: &mut Report) -> CompactStrin
             match word {
                 // Common short words that mostly translate to "the".
                 "bin" | "da" | "de" | "do" | "del" | "den" | "der" | "des" | "di" | "dos"
-                | "du" | "e" | "el" | "in" | "in 't" | "in't" | "la" | "le" | "los" | "op"
-                | "of" | "'t" | "te" | "ten" | "ter" | "und" | "v" | "v." | "v.d." | "van"
-                | "von" | "zur" | "y" | "zu" => {
+                | "du" | "e" | "el" | "i" | "in" | "in 't" | "in't" | "la" | "le" | "los"
+                | "op" | "of" | "'t" | "te" | "ten" | "ter" | "und" | "v" | "v." | "v.d."
+                | "van" | "von" | "zur" | "y" | "zu" => {
                     continue;
                 }
 
@@ -586,12 +626,7 @@ fn check_column_koreanname(s: &str, line: u64, report: &mut Report) -> Option<St
     Some(canonicalize_name_utf8(s).into())
 }
 
-fn check_column_birthyear(
-    s: &str,
-    meet: Option<&Meet>,
-    line: u64,
-    report: &mut Report,
-) -> Option<u32> {
+fn check_column_birthyear(s: &str, meet: &Meet, line: u64, report: &mut Report) -> Option<u32> {
     if s.is_empty() {
         return None;
     }
@@ -611,21 +646,14 @@ fn check_column_birthyear(
     }
 
     // Compare the BirthYear to the meet date for some basic sanity checks.
-    if let Some(m) = meet {
-        if year > m.date.year().saturating_sub(4) || m.date.year().saturating_sub(year) > 98 {
-            report.error_on(line, format!("BirthYear '{year}' looks implausible"));
-            return None;
-        }
+    if year > meet.date.year().saturating_sub(4) || meet.date.year().saturating_sub(year) > 98 {
+        report.error_on(line, format!("BirthYear '{year}' looks implausible"));
+        return None;
     }
     Some(year)
 }
 
-fn check_column_birthdate(
-    s: &str,
-    meet: Option<&Meet>,
-    line: u64,
-    report: &mut Report,
-) -> Option<Date> {
+fn check_column_birthdate(s: &str, meet: &Meet, line: u64, report: &mut Report) -> Option<Date> {
     if s.is_empty() {
         return None;
     }
@@ -633,16 +661,14 @@ fn check_column_birthdate(
     match s.parse::<Date>() {
         Ok(bd) => {
             // Compare the BirthDate to the meet date for some basic sanity checks.
-            if let Some(m) = meet {
-                if bd.year() >= m.date.year() - 4 || m.date.year() - bd.year() > 98 {
-                    report.error_on(line, format!("BirthDate '{s}' looks implausible"));
-                    return None;
-                }
+            if bd.year() >= meet.date.year() - 4 || meet.date.year() - bd.year() > 98 {
+                report.error_on(line, format!("BirthDate '{s}' looks implausible"));
+                return None;
+            }
 
-                if let Err(e) = bd.age_on(m.date) {
-                    report.error_on(line, format!("BirthDate '{s}' error: {e}"));
-                    return None;
-                }
+            if let Err(e) = bd.age_on(meet.date) {
+                report.error_on(line, format!("BirthDate '{s}' error: {e}"));
+                return None;
             }
 
             // Ensure that the BirthDate exists in the Gregorian calendar.
@@ -827,14 +853,26 @@ fn check_column_agerange(
 fn check_column_event(s: &str, line: u64, headers: &HeaderIndexMap, report: &mut Report) -> Event {
     match s.parse::<Event>() {
         Ok(event) => {
-            if event.has_squat() && !headers.has(Header::Best3SquatKg) {
-                report.error_on(line, "Event has 'S', but no Best3SquatKg");
+            if event.has_squat()
+                && !headers.has(Header::Best3SquatKg)
+                && !headers.has(Header::Best3SquatLbs)
+            {
+                report.error_on(line, "Event has 'S', but no Best3SquatKg or Best3SquatLbs");
             }
-            if event.has_bench() && !headers.has(Header::Best3BenchKg) {
-                report.error_on(line, "Event has 'B', but no Best3BenchKg");
+            if event.has_bench()
+                && !headers.has(Header::Best3BenchKg)
+                && !headers.has(Header::Best3BenchLbs)
+            {
+                report.error_on(line, "Event has 'B', but no Best3BenchKg or Best3BenchLbs");
             }
-            if event.has_deadlift() && !headers.has(Header::Best3DeadliftKg) {
-                report.error_on(line, "Event has 'D', but no Best3DeadliftKg");
+            if event.has_deadlift()
+                && !headers.has(Header::Best3DeadliftKg)
+                && !headers.has(Header::Best3DeadliftLbs)
+            {
+                report.error_on(
+                    line,
+                    "Event has 'D', but no Best3DeadliftKg or Best3DeadliftLbs",
+                );
             }
             event
         }
@@ -846,7 +884,7 @@ fn check_column_event(s: &str, line: u64, headers: &HeaderIndexMap, report: &mut
 }
 
 /// Tests a column describing the amount of weight lifted.
-fn check_weight(s: &str, line: u64, header: Header, report: &mut Report) -> WeightKg {
+fn check_weight_kg(s: &str, line: u64, header: Header, report: &mut Report) -> WeightKg {
     // Disallow zeros.
     if s == "0" {
         report.error_on(line, format!("{header} cannot be zero"));
@@ -855,18 +893,18 @@ fn check_weight(s: &str, line: u64, header: Header, report: &mut Report) -> Weig
     }
 
     match s.parse::<WeightKg>() {
-        Ok(w) => {
+        Ok(kg) => {
             // Check for weights that are far beyond what's ever been lifted.
             const MAX_KG: i32 = 650;
             if header != Header::TotalKg
-                && (w > WeightKg::from_i32(MAX_KG) || w < WeightKg::from_i32(-MAX_KG))
+                && (kg > WeightKg::from_i32(MAX_KG) || kg < WeightKg::from_i32(-MAX_KG))
             {
                 report.error_on(
                     line,
                     format!("{header} '{s}' exceeds maximum expected weight"),
                 )
             }
-            w
+            kg
         }
         Err(_) => {
             report.error_on(line, format!("Invalid {header} '{s}'"));
@@ -875,19 +913,74 @@ fn check_weight(s: &str, line: u64, header: Header, report: &mut Report) -> Weig
     }
 }
 
-fn check_nonnegative_weight(s: &str, line: u64, header: Header, report: &mut Report) -> WeightKg {
+fn check_weight_lbs(s: &str, line: u64, header: Header, report: &mut Report) -> WeightKg {
+    // Disallow zeros.
+    if s == "0" {
+        report.error_on(line, format!("{header} cannot be zero"));
+    } else if s.starts_with('0') {
+        report.error_on(line, format!("{header} cannot start with 0 in '{s}'"));
+    }
+
+    match s.parse::<WeightLbs>() {
+        Ok(lbs) => {
+            // Check for weights that are far beyond what's ever been lifted.
+            const MAX_LBS: i32 = 1430;
+            if header != Header::TotalLbs
+                && (lbs > WeightLbs::from_i32(MAX_LBS) || lbs < WeightLbs::from_i32(-MAX_LBS))
+            {
+                report.error_on(
+                    line,
+                    format!("{header} '{s}' exceeds maximum expected weight"),
+                )
+            }
+            WeightKg::from(lbs)
+        }
+        Err(_) => {
+            report.error_on(line, format!("Invalid {header} '{s}'"));
+            WeightKg::default()
+        }
+    }
+}
+
+fn check_nonnegative_weight_kg(
+    s: &str,
+    line: u64,
+    header: Header,
+    report: &mut Report,
+) -> WeightKg {
     if s.starts_with('-') {
         report.error_on(line, format!("{header} '{s}' cannot be negative"))
     }
-    check_weight(s, line, header, report)
+    check_weight_kg(s, line, header, report)
+}
+
+fn check_nonnegative_weight_lbs(
+    s: &str,
+    line: u64,
+    header: Header,
+    report: &mut Report,
+) -> WeightKg {
+    if s.starts_with('-') {
+        report.error_on(line, format!("{header} '{s}' cannot be negative"))
+    }
+    check_weight_lbs(s, line, header, report)
 }
 
 fn check_column_bodyweightkg(s: &str, line: u64, report: &mut Report) -> WeightKg {
-    let weight = check_nonnegative_weight(s, line, Header::BodyweightKg, report);
+    let weight = check_nonnegative_weight_kg(s, line, Header::BodyweightKg, report);
     if weight != WeightKg::from_i32(0)
         && (weight < WeightKg::from_i32(15) || weight > WeightKg::from_i32(300))
     {
         report.error_on(line, format!("Implausible BodyweightKg '{s}'"));
+    }
+    weight
+}
+fn check_column_bodyweightlbs(s: &str, line: u64, report: &mut Report) -> WeightKg {
+    let weight = check_nonnegative_weight_lbs(s, line, Header::BodyweightLbs, report);
+    if weight != WeightKg::from_i32(0)
+        && (weight < WeightKg::from_i32(15) || weight > WeightKg::from_i32(300))
+    {
+        report.error_on(line, format!("Implausible BodyweightLbs '{s}'"));
     }
     weight
 }
@@ -905,6 +998,22 @@ fn check_column_weightclasskg(s: &str, line: u64, report: &mut Report) -> Weight
         Err(e) => {
             report.error_on(line, format!("Invalid WeightClassKg '{s}': {e}"));
             WeightClassKg::default()
+        }
+    }
+}
+fn check_column_weightclasslbs(s: &str, line: u64, report: &mut Report) -> WeightClassKg {
+    // Disallow zeros.
+    if s == "0" {
+        report.error_on(line, "WeightClassLbs cannot be zero");
+    } else if s.starts_with('0') && s != "0+" {
+        report.error_on(line, format!("WeightClassLbs cannot start with 0 in '{s}'"));
+    }
+
+    match s.parse::<WeightClassLbs>() {
+        Ok(w) => w.into(),
+        Err(e) => {
+            report.error_on(line, format!("Invalid WeightClassLbs '{s}': {e}"));
+            WeightClassLbs::default().into()
         }
     }
 }
@@ -985,7 +1094,7 @@ fn check_column_entrydate(s: &str, line: u64, report: &mut Report) -> Option<Dat
 fn check_column_state(
     s: &str,
     lifter_country: Option<Country>,
-    meet: Option<&Meet>,
+    meet: &Meet,
     line: u64,
     report: &mut Report,
 ) -> Option<State> {
@@ -994,23 +1103,14 @@ fn check_column_state(
     }
 
     // Get the country either from the Country column or from the MeetCountry.
-    match lifter_country.or_else(|| meet.map(|m| m.country)) {
-        Some(country) => {
-            let state = State::from_str_and_country(s, country).ok();
-            if state.is_none() {
-                let c = country.to_string();
-                let msg = format!("Unknown State '{s}' for Country '{c}'");
-                report.error_on(line, msg);
-            }
-            state
-        }
-        None => {
-            // This can only happen if the MeetCountry is missing.
-            let msg = format!("Unknown State '{s}': no available Country");
-            report.error_on(line, msg);
-            None
-        }
+    let country = lifter_country.unwrap_or(meet.country);
+    let state = State::from_str_and_country(s, country).ok();
+    if state.is_none() {
+        let c = country.to_string();
+        let msg = format!("Unknown State '{s}' for Country '{c}'");
+        report.error_on(line, msg);
     }
+    state
 }
 
 fn check_event_and_total_consistency(entry: &Entry, line: u64, report: &mut Report) {
@@ -1182,7 +1282,8 @@ fn process_attempt_pair(
     }
 
     // A successful attempt shouldn't have been repeated.
-    if !maxweight.is_failed() && attempt.abs() == maxweight {
+    // However, allow it if `exempt_lift_order` is set: this can happen due to misloads.
+    if !maxweight.is_failed() && attempt.abs() == maxweight && !exempt_lift_order {
         report.error_on(
             line,
             format!("{lift}{attempt_num}Kg '{attempt}' repeated a successful attempt"),
@@ -1302,7 +1403,7 @@ fn check_attempt_consistency(
 }
 
 /// Checks that gear wasn't used prior to its date of invention.
-fn check_equipment_year(entry: &Entry, meet: Option<&Meet>, line: u64, report: &mut Report) {
+fn check_equipment_year(entry: &Entry, meet: &Meet, line: u64, report: &mut Report) {
     // Helper function for checking equipped status.
     fn is_equipped(e: Option<Equipment>) -> bool {
         e.map_or(false, |eq| match eq {
@@ -1311,11 +1412,6 @@ fn check_equipment_year(entry: &Entry, meet: Option<&Meet>, line: u64, report: &
         })
     }
 
-    // Inelegant unwrapping.
-    let date = match meet.map(|m| &m.date) {
-        Some(d) => d,
-        None => return,
-    };
     let event = entry.event;
 
     // Years of equipment invention.
@@ -1327,7 +1423,7 @@ fn check_equipment_year(entry: &Entry, meet: Option<&Meet>, line: u64, report: &
     let deadlift_suit_invention_year = 1980;
 
     // Check that squat equipment isn't listed before its invention.
-    if date.year() < squat_suit_invention_year
+    if meet.date.year() < squat_suit_invention_year
         && (is_equipped(entry.squat_equipment)
             || (event.has_squat() && is_equipped(Some(entry.equipment))))
     {
@@ -1339,7 +1435,7 @@ fn check_equipment_year(entry: &Entry, meet: Option<&Meet>, line: u64, report: &
 
     // Check that bench equipment isn't listed before its invention.
     // TODO: This avoids conflation with the squat equipment.
-    if date.year() < bench_shirt_invention_year
+    if meet.date.year() < bench_shirt_invention_year
         && (is_equipped(entry.bench_equipment)
             || (event.has_bench() && !event.has_squat() && is_equipped(Some(entry.equipment))))
     {
@@ -1351,7 +1447,7 @@ fn check_equipment_year(entry: &Entry, meet: Option<&Meet>, line: u64, report: &
 
     // Check that deadlift equipment isn't listed before its invention.
     // TODO: This avoids conflation with the squat equipment.
-    if date.year() < deadlift_suit_invention_year
+    if meet.date.year() < deadlift_suit_invention_year
         && (is_equipped(entry.deadlift_equipment)
             || (event.has_deadlift() && !event.has_squat() && is_equipped(Some(entry.equipment))))
     {
@@ -1364,7 +1460,7 @@ fn check_equipment_year(entry: &Entry, meet: Option<&Meet>, line: u64, report: &
 
 fn check_weightclass_consistency(
     entry: &Entry,
-    meet: Option<&Meet>,
+    meet: &Meet,
     config: Option<&Config>,
     exempt_weightclass_consistency: bool,
     line: u64,
@@ -1430,7 +1526,6 @@ fn check_weightclass_consistency(
 
     // The no-config case was handled above, so the config can be known here.
     let config = config.unwrap();
-    let date = meet.map_or(Date::from_parts(2016, 01, 01), |m| m.date);
 
     // Attempt to find out what weightclass group this row is a member of.
     //
@@ -1439,7 +1534,7 @@ fn check_weightclass_consistency(
     let mut matched_group: Option<&WeightClassConfig> = None;
     for group in &config.weightclasses {
         // Sex and date information are mandatory and must match.
-        if date < group.date_min || date > group.date_max || entry.sex != group.sex {
+        if meet.date < group.date_min || meet.date > group.date_max || entry.sex != group.sex {
             continue;
         }
 
@@ -1575,25 +1670,17 @@ fn check_weightclass_consistency(
 /// Returns the (min_age, max_age) associated with the Division.
 fn check_division_age_consistency(
     entry: &Entry,
-    meet: Option<&Meet>,
+    meet: &Meet,
     config: Option<&Config>,
     exempt_division: bool,
     line: u64,
     report: &mut Report,
 ) -> (Age, Age) {
-    // If we don't know when the meet was, there's nothing to diff against.
-    let meet_date = match meet {
-        Some(m) => m.date,
-        None => {
-            return (Age::None, Age::None);
-        }
-    };
-
     // Since it will be needed a bunch below, if there's a BirthDate,
     // figure out how old the lifter would be on the meet date.
     let age_from_birthdate: Option<Age> = entry.birthdate.map(|birthdate| {
         // Unwrapping is safe: the BirthDate column check already validated.
-        birthdate.age_on(meet_date).unwrap()
+        birthdate.age_on(meet.date).unwrap()
     });
 
     let birthyear: Option<u32> = entry.birthyearrange.exact_birthyear();
@@ -1601,7 +1688,7 @@ fn check_division_age_consistency(
     // Check that the Age, BirthYear, and BirthDate columns are internally
     // consistent.
     let age_from_birthyear: Option<Age> =
-        birthyear.map(|birthyear| Age::from_birthyear_on_date(birthyear, meet_date));
+        birthyear.map(|birthyear| Age::from_birthyear_on_date(birthyear, meet.date));
     if let Some(birthyear) = birthyear {
         let approx_age = age_from_birthyear.unwrap();
 
@@ -1685,7 +1772,7 @@ fn check_division_age_consistency(
     };
 
     // Use the various age-related columns to calculate a representative Age value.
-    let age = entry.age_on(meet_date);
+    let age = entry.age_on(meet.date);
 
     if age.is_definitely_less_than(min_age) {
         report.error_on(
@@ -1879,12 +1966,10 @@ fn tested_from_division_config(entry: &Entry, config: Option<&Config>) -> bool {
 
 /// Determines whether this meet falls in the valid range for a
 /// partially-configured federation.
-fn should_ignore_config(meet: Option<&Meet>, config: Option<&Config>) -> bool {
+fn should_ignore_config(meet: &Meet, config: Option<&Config>) -> bool {
     if let Some(config) = config {
-        if let Some(meet) = meet {
-            if let Some(valid_since) = config.valid_since() {
-                return meet.date < valid_since;
-            }
+        if let Some(valid_since) = config.valid_since() {
+            return meet.date < valid_since;
         }
     }
     false
@@ -1896,7 +1981,7 @@ fn should_ignore_config(meet: Option<&Meet>, config: Option<&Config>) -> bool {
 /// for creating tests that do not have a backing CSV file.
 pub fn do_check<R: io::Read>(
     rdr: &mut csv::Reader<R>,
-    meet: Option<&Meet>,
+    meet: &Meet,
     config: Option<&Config>,
     lifterdata: Option<&LifterDataMap>,
     mut report: Report,
@@ -1912,8 +1997,7 @@ pub fn do_check<R: io::Read>(
     // Should pending disambiguations be errors?
     let report_disambiguations = config.map_or(false, |c| c.does_require_manual_disambiguation());
 
-    let fourths_may_lower: bool =
-        meet.map_or(false, |m| m.ruleset.contains(Rule::FourthAttemptsMayLower));
+    let fourths_may_lower: bool = meet.ruleset.contains(Rule::FourthAttemptsMayLower);
 
     // Scan for check exemptions.
     let exemptions = {
@@ -1940,7 +2024,6 @@ pub fn do_check<R: io::Read>(
             entries: None,
         });
     }
-    let default_date = meet.map_or_else(Date::default, |m| m.date);
 
     let mut entries: Vec<Entry> = Vec::new();
 
@@ -1958,9 +2041,16 @@ pub fn do_check<R: io::Read>(
         }
 
         let mut entry = Entry {
-            entrydate: default_date, // Either a default, or sourced from the meet.csv.
+            entrydate: meet.date, // The EntryDate column can overwrite this later.
             ..Default::default()
         };
+
+        // TODO: This code currently lets you mix Kg and Lbs, so you can define both TotalKg
+        // and TotalLbs. That's incorrect -- we should force the units in a single direction.
+        // Either the meet is in pounds, or in kilos. However, note that international meets
+        // often do weigh-in in pounds, but lifting in kilos, so keep those separate.
+        //
+        // TODO: Rather than checking the existence of every column manually, walk over the columns.
 
         // Check mandatory fields.
         if let Some(idx) = headers.get(Header::Name) {
@@ -1993,71 +2083,140 @@ pub fn do_check<R: io::Read>(
         }
 
         // Check all the weight fields: they must contain non-zero values.
-        // Squat.
+        // Squat Kg.
         if let Some(idx) = headers.get(Header::Squat1Kg) {
-            entry.squat1kg = check_weight(&record[idx], line, Header::Squat1Kg, &mut report);
+            entry.squat1kg = check_weight_kg(&record[idx], line, Header::Squat1Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Squat2Kg) {
-            entry.squat2kg = check_weight(&record[idx], line, Header::Squat2Kg, &mut report);
+            entry.squat2kg = check_weight_kg(&record[idx], line, Header::Squat2Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Squat3Kg) {
-            entry.squat3kg = check_weight(&record[idx], line, Header::Squat3Kg, &mut report);
+            entry.squat3kg = check_weight_kg(&record[idx], line, Header::Squat3Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Squat4Kg) {
-            entry.squat4kg = check_weight(&record[idx], line, Header::Squat4Kg, &mut report);
+            entry.squat4kg = check_weight_kg(&record[idx], line, Header::Squat4Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Best3SquatKg) {
             entry.best3squatkg =
-                check_weight(&record[idx], line, Header::Best3SquatKg, &mut report);
+                check_weight_kg(&record[idx], line, Header::Best3SquatKg, &mut report);
+        }
+        // Squat Lbs.
+        if let Some(idx) = headers.get(Header::Squat1Lbs) {
+            entry.squat1kg = check_weight_lbs(&record[idx], line, Header::Squat1Lbs, &mut report);
+        }
+        if let Some(idx) = headers.get(Header::Squat2Lbs) {
+            entry.squat2kg = check_weight_lbs(&record[idx], line, Header::Squat2Lbs, &mut report);
+        }
+        if let Some(idx) = headers.get(Header::Squat3Lbs) {
+            entry.squat3kg = check_weight_lbs(&record[idx], line, Header::Squat3Lbs, &mut report);
+        }
+        if let Some(idx) = headers.get(Header::Squat4Lbs) {
+            entry.squat4kg = check_weight_lbs(&record[idx], line, Header::Squat4Lbs, &mut report);
+        }
+        if let Some(idx) = headers.get(Header::Best3SquatLbs) {
+            entry.best3squatkg =
+                check_weight_lbs(&record[idx], line, Header::Best3SquatLbs, &mut report);
         }
 
-        // Bench.
+        // Bench Kg.
         if let Some(idx) = headers.get(Header::Bench1Kg) {
-            entry.bench1kg = check_weight(&record[idx], line, Header::Bench1Kg, &mut report);
+            entry.bench1kg = check_weight_kg(&record[idx], line, Header::Bench1Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Bench2Kg) {
-            entry.bench2kg = check_weight(&record[idx], line, Header::Bench2Kg, &mut report);
+            entry.bench2kg = check_weight_kg(&record[idx], line, Header::Bench2Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Bench3Kg) {
-            entry.bench3kg = check_weight(&record[idx], line, Header::Bench3Kg, &mut report);
+            entry.bench3kg = check_weight_kg(&record[idx], line, Header::Bench3Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Bench4Kg) {
-            entry.bench4kg = check_weight(&record[idx], line, Header::Bench4Kg, &mut report);
+            entry.bench4kg = check_weight_kg(&record[idx], line, Header::Bench4Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Best3BenchKg) {
             entry.best3benchkg =
-                check_weight(&record[idx], line, Header::Best3BenchKg, &mut report);
+                check_weight_kg(&record[idx], line, Header::Best3BenchKg, &mut report);
+        }
+        // Bench Lbs.
+        if let Some(idx) = headers.get(Header::Bench1Lbs) {
+            entry.bench1kg = check_weight_lbs(&record[idx], line, Header::Bench1Lbs, &mut report);
+        }
+        if let Some(idx) = headers.get(Header::Bench2Lbs) {
+            entry.bench2kg = check_weight_lbs(&record[idx], line, Header::Bench2Lbs, &mut report);
+        }
+        if let Some(idx) = headers.get(Header::Bench3Lbs) {
+            entry.bench3kg = check_weight_lbs(&record[idx], line, Header::Bench3Lbs, &mut report);
+        }
+        if let Some(idx) = headers.get(Header::Bench4Lbs) {
+            entry.bench4kg = check_weight_lbs(&record[idx], line, Header::Bench4Lbs, &mut report);
+        }
+        if let Some(idx) = headers.get(Header::Best3BenchLbs) {
+            entry.best3benchkg =
+                check_weight_lbs(&record[idx], line, Header::Best3BenchLbs, &mut report);
         }
 
-        // Deadlift.
+        // Deadlift Kg.
         if let Some(idx) = headers.get(Header::Deadlift1Kg) {
-            entry.deadlift1kg = check_weight(&record[idx], line, Header::Deadlift1Kg, &mut report);
+            entry.deadlift1kg =
+                check_weight_kg(&record[idx], line, Header::Deadlift1Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Deadlift2Kg) {
-            entry.deadlift2kg = check_weight(&record[idx], line, Header::Deadlift2Kg, &mut report);
+            entry.deadlift2kg =
+                check_weight_kg(&record[idx], line, Header::Deadlift2Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Deadlift3Kg) {
-            entry.deadlift3kg = check_weight(&record[idx], line, Header::Deadlift3Kg, &mut report);
+            entry.deadlift3kg =
+                check_weight_kg(&record[idx], line, Header::Deadlift3Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Deadlift4Kg) {
-            entry.deadlift4kg = check_weight(&record[idx], line, Header::Deadlift4Kg, &mut report);
+            entry.deadlift4kg =
+                check_weight_kg(&record[idx], line, Header::Deadlift4Kg, &mut report);
         }
         if let Some(idx) = headers.get(Header::Best3DeadliftKg) {
             entry.best3deadliftkg =
-                check_weight(&record[idx], line, Header::Best3DeadliftKg, &mut report);
+                check_weight_kg(&record[idx], line, Header::Best3DeadliftKg, &mut report);
+        }
+        // Deadlift Lbs.
+        if let Some(idx) = headers.get(Header::Deadlift1Lbs) {
+            entry.deadlift1kg =
+                check_weight_lbs(&record[idx], line, Header::Deadlift1Lbs, &mut report);
+        }
+        if let Some(idx) = headers.get(Header::Deadlift2Lbs) {
+            entry.deadlift2kg =
+                check_weight_lbs(&record[idx], line, Header::Deadlift2Lbs, &mut report);
+        }
+        if let Some(idx) = headers.get(Header::Deadlift3Lbs) {
+            entry.deadlift3kg =
+                check_weight_lbs(&record[idx], line, Header::Deadlift3Lbs, &mut report);
+        }
+        if let Some(idx) = headers.get(Header::Deadlift4Lbs) {
+            entry.deadlift4kg =
+                check_weight_lbs(&record[idx], line, Header::Deadlift4Lbs, &mut report);
+        }
+        if let Some(idx) = headers.get(Header::Best3DeadliftLbs) {
+            entry.best3deadliftkg =
+                check_weight_lbs(&record[idx], line, Header::Best3DeadliftLbs, &mut report);
         }
 
         // TotalKg is a positive weight if present or 0 if missing.
         if let Some(idx) = headers.get(Header::TotalKg) {
             entry.totalkg =
-                check_nonnegative_weight(&record[idx], line, Header::TotalKg, &mut report);
+                check_nonnegative_weight_kg(&record[idx], line, Header::TotalKg, &mut report);
+        }
+        if let Some(idx) = headers.get(Header::TotalLbs) {
+            entry.totalkg =
+                check_nonnegative_weight_lbs(&record[idx], line, Header::TotalLbs, &mut report);
         }
 
         if let Some(idx) = headers.get(Header::BodyweightKg) {
             entry.bodyweightkg = check_column_bodyweightkg(&record[idx], line, &mut report);
         }
+        if let Some(idx) = headers.get(Header::BodyweightLbs) {
+            entry.bodyweightkg = check_column_bodyweightlbs(&record[idx], line, &mut report);
+        }
         if let Some(idx) = headers.get(Header::WeightClassKg) {
             entry.weightclasskg = check_column_weightclasskg(&record[idx], line, &mut report);
+        }
+        if let Some(idx) = headers.get(Header::WeightClassLbs) {
+            entry.weightclasskg = check_column_weightclasslbs(&record[idx], line, &mut report);
         }
 
         // If no bodyweight is given but there is a bounded weightclass,
@@ -2070,9 +2229,7 @@ pub fn do_check<R: io::Read>(
 
         // Set the Tested column early for federations that are fully-Tested.
         // This allows check_column_tested() to override it later if needed.
-        if let Some(meet) = meet {
-            entry.tested = meet.federation.is_fully_tested(meet.date);
-        }
+        entry.tested = meet.federation.is_fully_tested(meet.date);
 
         // Check optional fields.
         if let Some(idx) = headers.get(Header::Division) {
@@ -2081,6 +2238,7 @@ pub fn do_check<R: io::Read>(
         }
 
         // Assign the Tested column if it's configured for the Division.
+        // Note that this check has to occur after setting the division above.
         entry.tested = tested_from_division_config(&entry, config);
 
         // Check the Country and State information.
@@ -2168,16 +2326,14 @@ pub fn do_check<R: io::Read>(
         }
 
         // If the Age wasn't assigned yet, infer it from any surrounding information.
-        if let Some(meet) = meet {
-            if entry.age == Age::None {
-                if let Some(birthdate) = entry.birthdate {
-                    entry.age = birthdate.age_on(meet.date).unwrap_or(Age::None);
-                }
+        if entry.age == Age::None {
+            if let Some(birthdate) = entry.birthdate {
+                entry.age = birthdate.age_on(meet.date).unwrap_or(Age::None);
             }
-            if entry.age == Age::None {
-                if let Some(birthyear) = entry.birthyearrange.exact_birthyear() {
-                    entry.age = Age::from_birthyear_on_date(birthyear, meet.date);
-                }
+        }
+        if entry.age == Age::None {
+            if let Some(birthyear) = entry.birthyearrange.exact_birthyear() {
+                entry.age = Age::from_birthyear_on_date(birthyear, meet.date);
             }
         }
 
@@ -2201,7 +2357,7 @@ pub fn do_check<R: io::Read>(
         // Try narrowing the BirthYearRange based on surrounding information.
         if let Some(birthdate) = entry.birthdate {
             entry.birthyearrange = BirthYearRange::from_birthyear(birthdate.year());
-        } else if let Some(meet) = meet {
+        } else {
             // Try using the AgeRange.
             entry.birthyearrange = entry.birthyearrange.intersect(BirthYearRange::from_range(
                 entry.agerange.min,
@@ -2218,10 +2374,7 @@ pub fn do_check<R: io::Read>(
         }
 
         // Infer the BirthYearClass.
-        if let Some(meet) = meet {
-            entry.birthyearclass =
-                BirthYearClass::from_range(entry.birthyearrange, meet.date.year());
-        }
+        entry.birthyearclass = BirthYearClass::from_range(entry.birthyearrange, meet.date.year());
 
         // If the Name isn't provided, but there is an international name,
         // just use the international name.
@@ -2268,7 +2421,7 @@ pub fn do_check<R: io::Read>(
 
     Ok(EntriesCheckResult {
         report,
-        entries: Some(entries),
+        entries: Some(entries.into_boxed_slice()),
     })
 }
 
@@ -2276,7 +2429,7 @@ pub fn do_check<R: io::Read>(
 pub fn check_entries_from_string(
     reader: &csv::ReaderBuilder,
     entries_csv: &str,
-    meet: Option<&Meet>,
+    meet: &Meet,
 ) -> Result<EntriesCheckResult, Box<dyn Error>> {
     let report = Report::new(PathBuf::from("uploaded/content"));
     let mut rdr = reader.from_reader(entries_csv.as_bytes());
@@ -2287,7 +2440,7 @@ pub fn check_entries_from_string(
 pub fn check_entries(
     reader: &csv::ReaderBuilder,
     entries_csv: PathBuf,
-    meet: Option<&Meet>,
+    meet: &Meet,
     config: Option<&Config>,
     lifterdata: Option<&LifterDataMap>,
 ) -> Result<EntriesCheckResult, Box<dyn Error>> {

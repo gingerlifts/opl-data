@@ -20,7 +20,7 @@
   <option value="aep" {% if selection.federation == "AEP" %}selected{% endif %}>AEP / {{strings.country.spain}}</option>
   <option value="aiwbpa" {% if selection.federation == "AIWBPA" %}selected{% endif %}>AIWBPA / {{strings.country.indonesia}}</option>
   <option value="amp" {% if selection.federation == "AMP" %}selected{% endif %}>AMP / {{strings.country.usa}}</option>
-  <option value="apu" {% if selection.federation == "APU" %}selected{% endif %}>APU / {{strings.country.australia}}</option>
+  <option value="apla" {% if selection.federation == "APLA" %}selected{% endif %}>APLA / {{strings.country.australia}}</option>
   <option value="belpf" {% if selection.federation == "BelPF" %}selected{% endif %}>BelPF / {{strings.country.belarus}}</option>
   <option value="bp" {% if selection.federation == "BP" %}selected{% endif %}>BP / {{strings.country.uk}}</option>
   <option value="bpa" {% if selection.federation == "BPA" %}selected{% endif %}>BPA / {{strings.country.belize}}</option>
@@ -43,6 +43,7 @@
   <option value="femepo" {% if selection.federation == "FEMEPO" %}selected{% endif %}>FEMEPO / {{strings.country.mexico}}</option>
   <option value="ffforce" {% if selection.federation == "FFForce" %}selected{% endif %}>FFForce / {{strings.country.france}}</option>
   <option value="fipl" {% if selection.federation == "FIPL" %}selected{% endif %}>FIPL / {{strings.country.italy}}</option>
+  <option value="fppr" {% if selection.federation == "FPP" %}selected{% endif %}>FPP / {{strings.country.panama}}</option>
   <option value="fppr" {% if selection.federation == "FPPR" %}selected{% endif %}>FPPR / {{strings.country.puertorico}}</option>
   <option value="fpr" {% if selection.federation == "FPR" %}selected{% endif %}>FPR / {{strings.country.russia}}</option>
   <option value="frpl" {% if selection.federation == "FRPL" %}selected{% endif %}>FRPL / {{strings.country.romania}}</option>
@@ -50,6 +51,7 @@
   <option value="hpf" {% if selection.federation == "HPF" %}selected{% endif %}>HPF / {{strings.country.greece}}</option>
   <option value="hpls" {% if selection.federation == "HPLS" %}selected{% endif %}>HPLS / {{strings.country.croatia}}</option>
   <option value="hunpower" {% if selection.federation == "Hunpower" %}selected{% endif %}>Hunpower / {{strings.country.hungary}}</option>
+  <option value="ilpf" {% if selection.federation == "ILPF" %}selected{% endif %}>ILPF / {{strings.country.israel}}</option>
   <option value="all-ipf-belgium" {% if selection.federation == "AllIPFBelgium" %}selected{% endif %}>IPF-Belgium / {{strings.country.belgium}}</option>
   <option value="ipf-china" {% if selection.federation == "IPF-China" %}selected{% endif %}>IPF-China / {{strings.country.china}}</option>
   <option value="iranbbf" {% if selection.federation == "IranBBF" %}selected{% endif %}>IranBBF / {{strings.country.iran}}</option>
@@ -99,7 +101,7 @@
   <option value="svnl" {% if selection.federation == "SVNL" %}selected{% endif %}>SVNL / {{strings.country.finland}}</option>
   <option value="taap" {% if selection.federation == "TAAP" %}selected{% endif %}>TAAP / {{strings.country.thailand}}</option>
   <option value="tpssf" {% if selection.federation == "TPSSF" %}selected{% endif %}>TPSSF / {{strings.country.turkey}}</option>
-  <option value="uaepa" {% if selection.federation == "UAEPA" %}selected{% endif %}>UAEPA / {{strings.country.uae}}</option>
+  <option value="uaepl" {% if selection.federation == "UAEPL" %}selected{% endif %}>UAEPL / {{strings.country.uae}}</option>
   <option value="ukrainepf" {% if selection.federation == "UkrainePF" %}selected{% endif %}>UkrainePF / {{strings.country.ukraine}}</option>
   <option value="usvipf" {% if selection.federation == "USVIPF" %}selected{% endif %}>USVIPF / {{strings.country.usvirginislands}}</option>
   <option value="vgpf" {% if selection.federation == "VGPF" %}selected{% endif %}>VGPF / {{strings.country.belgium}}</option>

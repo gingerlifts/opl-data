@@ -2,7 +2,7 @@ Place,Name,Team,BodyweightKg,Best3SquatKg,Best3BenchKg,Best3DeadliftKg,TotalKg,D
 1,Sebastian Bergström,Föreningen Mics Gym,57.45,82.5,65,120,267.5,Sub-Juniors,M,59,Single-ply,SBD
 1,Oliver Nyqvist-Wallin,Falköpings TK,62.7,170,82.5,175,427.5,Sub-Juniors,M,66,Single-ply,SBD
 2,Simon Gunnare,Jokkmokks SLK,61.5,110,62.5,140,312.5,Sub-Juniors,M,66,Single-ply,SBD
-1,Alexander Eriksson,Sundbybergs TK,73,225,130,225,580,Sub-Juniors,M,74,Single-ply,SBD
+1,Alexander Eriksson #1,Sundbybergs TK,73,225,130,225,580,Sub-Juniors,M,74,Single-ply,SBD
 2,Markus Ottosson,Jönköping SK,68.8,170,82.5,197.5,450,Sub-Juniors,M,74,Single-ply,SBD
 3,Marek Dawidowicz,Täby AK,73.55,195,85,170,450,Sub-Juniors,M,74,Single-ply,SBD
 4,Albin Becker,Karlstads AK,69.8,165,80,190,435,Sub-Juniors,M,74,Single-ply,SBD
@@ -43,7 +43,7 @@ DQ,Mattias Hellman,Luleå AK,108.55,,,,,Sub-Juniors,M,120,Single-ply,SBD
 4,Stefan Borglin,Malmö Lyftarklubb,80.65,207.5,152.5,222.5,582.5,Juniors,M,83,Single-ply,SBD
 5,Andreas Karlsson,Karlstads AK,82.15,180,135,200,515,Juniors,M,83,Single-ply,SBD
 6,Joakim Vikberg,Öjeby AK,81.5,175,112.5,225,512.5,Juniors,M,83,Single-ply,SBD
-DQ,Andre Johansson,Kiruna AK,81.15,,,,,Juniors,M,83,Single-ply,SBD
+DQ,André Johansson,Kiruna AK,81.15,,,,,Juniors,M,83,Single-ply,SBD
 1,Calle Andersson,Broddetorps GOIF,89.35,240,155,255,650,Juniors,M,93,Single-ply,SBD
 2,Robert Lepistö,Hallsbergs AK,87.9,182.5,115,207.5,505,Juniors,M,93,Single-ply,SBD
 3,Johan Börjesson,Mullsjö AK,86.45,185,127.5,190,502.5,Juniors,M,93,Single-ply,SBD

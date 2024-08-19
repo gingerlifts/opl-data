@@ -15,7 +15,7 @@ Place,Name,Sex,BirthDate,Age,Equipment,Division,BodyweightKg,WeightClassKg,Squat
 6,Greta Bassoli,F,,,Raw,Senior,51.87,52,110,115,117.5,117.5,77.5,80,82.5,82.5,140,145,-170,145,345,SBD
 7,Ermina Lapraku,F,,,Raw,Senior,51.43,52,115,120,-125,120,70,72.5,-75,72.5,140,150,-160,150,342.5,SBD
 8,Anastasia Corrias,F,,,Raw,Senior,51.67,52,112.5,120,-125,120,65,67.5,-70,67.5,130,137.5,-142.5,137.5,325,SBD
-9,De Rosa Chiara,F,,,Raw,Senior,51.58,52,115,-122.5,-122.5,115,62.5,-65,65,65,135,-145,-145,135,315,SBD
+9,Chiara De Rosa,F,,,Raw,Senior,51.58,52,115,-122.5,-122.5,115,62.5,-65,65,65,135,-145,-145,135,315,SBD
 10,Chiara Bonaccorso,F,,,Raw,Senior,51.69,52,95,100,-105,100,60,-62.5,-62.5,60,130,140,-150,140,300,SBD
 11,Pasqualina Strati,F,,,Raw,Senior,51.18,52,102.5,110,112.5,112.5,-40,40,42.5,42.5,130,140,-145,140,295,SBD
 12,Camilla Merone,F,,,Raw,Senior,49.91,52,-105,-105,105,105,37.5,40,42.5,42.5,132.5,137.5,142.5,142.5,290,SBD
@@ -56,7 +56,7 @@ Place,Name,Sex,BirthDate,Age,Equipment,Division,BodyweightKg,WeightClassKg,Squat
 13,Monica Zobbi,F,,,Raw,Senior,61.74,63,130,-137.5,-137.5,130,-60,60,65,65,155,162.5,170,170,365,SBD
 14,Giorgia Vecchio,F,,,Raw,Senior,62.56,63,-122.5,125,132.5,132.5,67.5,70,-72.5,70,135,147.5,157.5,157.5,360,SBD
 15,Giulia Salvadori,F,,,Raw,Senior,59.35,63,125,132.5,-137.5,132.5,75,-80,-80,75,135,145,-155,145,352.5,SBD
-16,Giulia Ceru',F,,,Raw,Senior,60.67,63,-120,120,125,125,62.5,65,-67.5,65,150,-155,155,155,345,SBD
+16,Giulia Cerù,F,,,Raw,Senior,60.67,63,-120,120,125,125,62.5,65,-67.5,65,150,-155,155,155,345,SBD
 17,Natascia Rinero,F,,,Raw,Senior,62.65,63,100,110,120,120,65,70,72.5,72.5,152.5,-160,-160,152.5,345,SBD
 18,Asia Pirani,F,,,Raw,Senior,61.65,63,115,117.5,122.5,122.5,70,-72.5,72.5,72.5,135,140,145,145,340,SBD
 19,Giada Trigona,F,,,Raw,Senior,60.91,63,-110,-110,110,110,67.5,72.5,-77.5,72.5,142.5,152.5,-157.5,152.5,335,SBD

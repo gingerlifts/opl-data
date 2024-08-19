@@ -33,6 +33,8 @@ struct MeetsRow<'d> {
     pub name: &'d str,
     #[serde(rename = "RuleSet")]
     pub ruleset: RuleSet,
+    #[serde(rename = "Sanctioned")]
+    pub sanctioned: &'static str,
 }
 
 impl<'d> MeetsRow<'d> {
@@ -47,6 +49,7 @@ impl<'d> MeetsRow<'d> {
             town: meet.town.as_deref(),
             name: &meet.name,
             ruleset: meet.ruleset,
+            sanctioned: if meet.sanctioned { "Yes" } else { "No" },
         }
     }
 }
@@ -320,7 +323,7 @@ pub fn make_csv(
         meets_wtr.serialize(MeetsRow::from(meet, meet_id))?;
 
         // Write a line for each entry.
-        for entry in entries {
+        for entry in entries.iter() {
             // See whether this lifter already exists in the EntryLifterDataMap.
             // If it does not, then we haven't seen the lifter before,
             // so a new LifterID is generated.

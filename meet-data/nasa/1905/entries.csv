@@ -6,7 +6,7 @@ Place,WeightClassKg,Name,BirthDate,State,BodyweightKg,Best3SquatKg,Best3BenchKg,
 1,82.5,Berenice Gill,,NM,81.19,,50,92.5,142.5,wm3,F,BD,Raw
 1,60,Liz Brosnan,,OK,59.24,150,70,155,375,wjr,F,SBD,Wraps
 1,75,Andi Atkinson,,OK,74.57,135,85,162.5,382.5,wsm1,F,SBD,Wraps
-1,56,Erika Ewoldsen,,MO,55.43,120,60,125,305,wmp,F,SBD,Wraps
+1,56,Erika Ewoldsen,,MO,55.43,120,60,125,305,wopen,F,SBD,Wraps
 1,75,Sonja Schofield,,NM,74.21,120,72.5,156,348.5,wm1,F,SBD,Wraps
 1,75,Sonja Schofield,,NM,74.21,120,72.5,156,348.5,wmp,F,SBD,Wraps
 1,75,Kat Reinier,,NM,74.93,122.5,77.5,150,350,retrowpure,F,SBD,Raw
@@ -108,7 +108,7 @@ DQ,75,Teresa Espindola,,NM,68.49,,70,,,wmp,F,BD,Raw
 1,100,Shane Robertson,,TX,97.57,212.5,177.5,280,670,m1,M,SBD,Wraps
 1,100,Shane Robertson,,TX,97.57,212.5,177.5,280,670,open,M,SBD,Wraps
 1,90,Sean McGraw,,OK,88.54,227.5,160,247.5,635,open,M,SBD,Wraps
-1,100,Michael Simonetti,,OK,97.52,232.5,157.5,267.5,657.5,int,M,SBD,Wraps
+1,100,Michael Simonetti #1,,OK,97.52,232.5,157.5,267.5,657.5,int,M,SBD,Wraps
 1,125,Kevin Foster,,OK,122.97,277.5,162.5,265,705,mp,M,SBD,Wraps
 1,100,Nikita Froseth,,OK,99.34,232.5,147.5,257.5,637.5,teen,M,SBD,Wraps
 1,90,Andy Young,,OK,88.45,227.5,137.5,225,590,sm2,M,SBD,Wraps

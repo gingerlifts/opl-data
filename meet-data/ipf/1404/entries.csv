@@ -4,7 +4,7 @@ Place,Name,BirthYear,Country,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchK
 3,Oleg Smirnov #1,1990,Russia,57.49,-185,185,195,195,195,59,Open,B,M,Single-ply
 4,Luis Miguel Jimenez Villalba,1978,Spain,58.27,192.5,-195,-195,192.5,192.5,59,Open,B,M,Single-ply
 5,Igor Garashchenko,1988,Ukraine,58.6,182.5,187.5,-195,187.5,187.5,59,Open,B,M,Single-ply
-6,William Garcia,1990,USA,57.83,-177.5,177.5,-187.5,177.5,177.5,59,Open,B,M,Single-ply
+6,William Garcia #1,1990,USA,57.83,-177.5,177.5,-187.5,177.5,177.5,59,Open,B,M,Single-ply
 7,Sławomir Śledź,1976,Poland,58.47,170,177.5,-187.5,177.5,177.5,59,Open,B,M,Single-ply
 8,Dariusz Wszoła,1978,Poland,58.51,172.5,177.5,-195,177.5,177.5,59,Open,B,M,Single-ply
 1,Ivan Chuprinko,1986,Ukraine,65.67,230,237.5,238,238,238,66,Open,B,M,Single-ply
@@ -88,7 +88,7 @@ DQ,Jens Christalle,1970,Germany,114.86,-300,-300,-315,,,120,Open,B,M,Single-ply
 DQ,Béla Csüllög,1988,Hungary,127.81,-280,-310,-312.5,,,120+,Open,B,M,Single-ply
 DQ,Jeffrey Snyder,1971,USA,131.75,-340,-340,-360,,,120+,Open,B,M,Single-ply
 DQ,Alastair McColl,1981,Norway,140.67,-330,-330,-330,,,120+,Open,B,M,Single-ply
-DQ,Nathan Baxter,1977,Australia,175.3,-335,-342.5,-350,,,120+,Open,B,M,Single-ply
+DQ,Nathan Baxter #1,1977,Australia,175.3,-335,-342.5,-350,,,120+,Open,B,M,Single-ply
 1,Gabriel Gigout,1996,USA,50.8,120,125,-135,125,125,53,Sub-Juniors,B,M,Single-ply
 2,Azamat Asultanov,1997,Russia,52.67,110,122.5,-130,122.5,122.5,53,Sub-Juniors,B,M,Single-ply
 1,Ruslan Balabanov,1996,Russia,58.68,140,150,-173,150,150,59,Sub-Juniors,B,M,Single-ply
@@ -185,7 +185,7 @@ DQ,Niklas Pettersson,1991,Sweden,148.2,-295,-295,-300,,,120+,Juniors,B,M,Single-
 2,Hanna Rantala,1982,Finland,51.71,122.5,125,127.5,127.5,127.5,52,Open,B,F,Single-ply
 3,Yana Zadorina,1982,Russia,51.16,115,122.5,125,125,125,52,Open,B,F,Single-ply
 4,Krisztina Nagypal,1985,Hungary,51.94,-125,125,-132.5,125,125,52,Open,B,F,Single-ply
-5,Juanita Najera,1981,USA,52,90,95,97.5,97.5,97.5,52,Open,B,F,Single-ply
+5,Juanita Najera #1,1981,USA,52,90,95,97.5,97.5,97.5,52,Open,B,F,Single-ply
 6,Trine Øgaard Bagger,1986,Denmark,51.42,77.5,85,-95,85,85,52,Open,B,F,Single-ply
 1,Anastasia Lorents,1985,Russia,56.59,130,137.5,-150.5,137.5,137.5,57,Open,B,F,Single-ply
 2,Hui-Chun Wu,1986,Taiwan,56.83,115,125,-132.5,125,125,57,Open,B,F,Single-ply

@@ -1,6 +1,6 @@
 Name,Event,Equipment,Sex,Age,Division,BodyweightKg,WeightClassKg,Best3SquatKg,Best3BenchKg,Bench4Kg,Best3DeadliftKg,TotalKg,Place
 Jesse Burdick,SBD,Multi-ply,M,33,Heavy,121.11,125,397.5,285,,370,1052.49,1
-Ricardo Morales,SBD,Multi-ply,M,29,Heavy,123.83,125,340,260,,290,889.99,2
+Ricardo Morales #1,SBD,Multi-ply,M,29,Heavy,123.83,125,340,260,,290,889.99,2
 Reilly Cook,SBD,Multi-ply,M,32,Heavy,124.96,125,317.5,215,,272.5,804.99,3
 Taylor Thompson #3,SBD,Multi-ply,M,25,Heavy,110.9,125,250,145,,245,639.99,4
 Tim Pigeon,SBD,Multi-ply,M,31,Middle,102.74,110,355,275,,280,909.99,1
@@ -29,7 +29,7 @@ Mark Giarratana,SBD,Wraps,M,21,Middle,97.98,110,170,127.5,,205,502.49,8
 Addison Turney,SBD,Wraps,M,25,Middle,94.8,110,160,120,,165,445,9
 Cory Boyd,SBD,Wraps,M,31,Crossfit,103.65,110,187.5,137.5,,205,529.99,1
 Mark Wilson,SBD,Wraps,M,49,Crossfit,109.54,110,145,90,,170,405,2
-Jason Burnett,SBD,Wraps,M,30,Crossfit,105.23,110,162.5,,,220,,DQ
+Jason Burnett #2,SBD,Wraps,M,30,Crossfit,105.23,110,162.5,,,220,,DQ
 Chris Ramos #2,SBD,Wraps,M,26,Light,82.33,90,247.5,142.5,,272.5,662.49,1
 Michael Baxter,SBD,Wraps,M,23,Light,89.36,90,222.5,170,,265,657.49,2
 Lars Lucear,SBD,Wraps,M,25,Light,89.36,90,205,165,,275,644.99,3

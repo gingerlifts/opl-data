@@ -1,10 +1,10 @@
 Place,Name,State,WeightClassKg,BodyweightKg,BirthDate,Age,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event,Equipment,Sex,Division,Tested
 1,Sophie McArdle,NC,44,43.5,,23,-62.5,62.5,72.5,72.5,32.5,35,-37.5,35,80,92.5,100,100,207.5,SBD,Raw,F,Juniors 20-23,Yes
 1,Eva Turner,GA,48,46.3,,14,60,67.5,70,70,-30,30,35,35,75,85,92.5,92.5,197.5,SBD,Raw,F,Juniors 13-15,Yes
-1,Monica Ruechel,GA,48,47.7,,23,80,-90,90,90,52.5,60,-65,60,105,120,-130,120,270,SBD,Raw,F,Juniors 20-23,Yes
+1,Monica Durmisevic,GA,48,47.7,,23,80,-90,90,90,52.5,60,-65,60,105,120,-130,120,270,SBD,Raw,F,Juniors 20-23,Yes
 1,CassiDee Rotolo,GA,60,57.9,,20,110,117.5,122.5,122.5,55,57.5,60,60,110,120,125,125,307.5,SBD,Raw,F,Juniors 20-23,Yes
 1,Hannah Lora,GA,90+,132.8,,17,132.5,-152.5,152.5,152.5,-70,75,-80,75,115,127.5,140,140,367.5,SBD,Raw,F,Juniors 16-17,Yes
-1,Monica Ruechel,GA,48,47.7,,23,80,-90,90,90,52.5,60,-65,60,105,120,-130,120,270,SBD,Raw,F,Open,Yes
+1,Monica Durmisevic,GA,48,47.7,,23,80,-90,90,90,52.5,60,-65,60,105,120,-130,120,270,SBD,Raw,F,Open,Yes
 2,Eva Turner,GA,48,46.3,,14,60,67.5,70,70,-30,30,35,35,75,85,92.5,92.5,197.5,SBD,Raw,F,Open,Yes
 1,CassiDee Rotolo,GA,60,57.9,,20,110,117.5,122.5,122.5,55,57.5,60,60,110,120,125,125,307.5,SBD,Raw,F,Open,Yes
 1,Mackenzie Rideout,GA,67.5,66,,29,102.5,112.5,-117.5,112.5,50,55,-60,55,125,135,145,145,312.5,SBD,Raw,F,Open,Yes
@@ -33,7 +33,7 @@ DQ,Mariano Cabrera,GA,75,73.5,,29,175,187.5,200,200,135,142.5,147.5,147.5,-225,-
 2,Matthew DiPaulo,GA,100,99.3,,27,-205,210,227.5,227.5,142.5,-155,-155,142.5,197.5,-210,-225,197.5,567.5,SBD,Raw,M,Open,Yes
 1,Benjamin Bonner,GA,140,125.7,,37,-185,185,207.5,207.5,125,142.5,-152.5,142.5,225,240,245,245,595,SBD,Raw,M,Submasters 35-39,Yes
 1,Carl Cagle,GA,75,73.5,,62,75,-80,80,80,-32.5,32.5,-40,32.5,115,125,132.5,132.5,245,SBD,Raw,M,Masters 60-64,Yes
-1,Ben Clarke,GA,82.5,79.1,,48,-175,175,190,190,-130,140,-145,140,225,245,-255,245,575,SBD,Raw,M,Masters 45-49,Yes
+1,Ben Clarke #2,GA,82.5,79.1,,48,-175,175,190,190,-130,140,-145,140,225,245,-255,245,575,SBD,Raw,M,Masters 45-49,Yes
 1,Brian Lahue,GA,110,102.9,,45,172.5,190,200,200,125,140,-145,140,210,227.5,240,240,580,SBD,Raw,M,Masters 45-49,Yes
 1,Bailey Stephens,GA,60,58.9,,24,142.5,152.5,157.5,157.5,60,65,67.5,67.5,147.5,160,165,165,390,SBD,Wraps,F,Open,Yes
 1,Nathan Walton,GA,82.5,80.5,,45,210,-212.5,,210,-127.5,150,,150,227.5,275,295,295,655,SBD,Wraps,M,Open,Yes

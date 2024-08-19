@@ -22,7 +22,7 @@ DQ,Aleksandr Romanichev,M_OR_WPC,Raw,Israel,59.6,,,,,,-92.5,-92.5,-92.5,,,,,,,,,
 1,Aleksandr Sykmenyov,M_OES_WPC,Single-ply,Russia,113,,,,,,350,365,375,375,,,,,,,375,125,M,Александр Сыкменёв,1978,B
 2,Aleksi Wahlström Arttu,M_OES_WPC,Single-ply,Finland,74.7,,,,,,180,-200,-200,180,,,,,,,180,75,M,,1986,B
 1,Alena Yurechko,F_TR_1_WPC,Raw,Kazakhstan,58.9,75,80,85,85,,30,-35,35,35,,90,100,110,110,,230,60,F,,2001,SBD
-3,Alexandar Pelovski,M_OR_WPC,Raw,Bulgaria,105.1,,,,,,,,,,,270,282.5,292.5,292.5,,292.5,110,M,,1991,D
+3,Aleksandar Pelovski,M_OR_WPC,Raw,Bulgaria,105.1,,,,,,,,,,,270,282.5,292.5,292.5,,292.5,110,M,,1991,D
 1,Alexander Burlakov,M_MR_4_WPC,Raw,Russia,123.3,200,210,215,215,,185,-197.5,-197.5,185,,190,200,210,210,,610,125,M,Александр Бурлаков,1959,SBD
 1,Alexander Kovalevsky,M_MR_3_WPC,Raw,Russia,138.2,,,,,,210,230,240.5,240.5,,,,,,,240.5,140,M,Александр Ковалевский,1963,B
 1,Alexander Petrov,M_MR_4_WPC,Raw,Russia,90.5,,,,,,185,195,200,200,,,,,,,200,100,M,Александр Петров,1960,B
@@ -43,7 +43,7 @@ DQ,Alim Unembaev,M_OR_WPC,Raw,Kazakhstan,74.4,,,,,,,,,,,-180,,,,,,75,M,,1982,D
 2,Anatoliy Evgrafov,M_MR_4_WPC,Raw,Russia,119.5,,,,,,,,,,,275,-285,-285,275,,275,125,M,Анатолий Евграфов,1960,D
 1,Anatoliy Nefedov,M_MR_3_WPC,Raw,Russia,69.1,,,,,,130,140,150,150,,,,,,,150,75,M,Анатолий Нефедов,1963,B
 2,András Szilágyi,M_JR_WPC,Raw,Hungary,108.4,240,250,257.5,257.5,,180,190,197.5,197.5,,270,275,280,280,,735,110,M,,1992,SBD
-2,Andre Silva,M_OEM_WPC,Multi-ply,Portugal,86.9,-300,300,-320,300,,160,170,-180,170,,240,260,275,275,,745,90,M,,1989,SBD
+2,Andre Silva #2,M_OEM_WPC,Multi-ply,Portugal,86.9,-300,300,-320,300,,160,170,-180,170,,240,260,275,275,,745,90,M,,1989,SBD
 DQ,Andreas Dürst,M_OR_WPC,Raw,Switzerland,86.5,-180,-180,-180,,,-140,-140,-140,,,,,,,,,90,M,,1979,SBD
 5,Andrejs Greņs,M_OR_WPC,Raw,Latvia,126.5,,,,,,180,-185,185,185,,,,,,,185,140,M,,1981,B
 6,Andrew Whitaker,M_OR_WPC,Raw,UK,95.9,,,,,,185,195,200,200,,,,,,,200,100,M,,1983,B
@@ -241,8 +241,8 @@ DQ,Hella Schuster,F_MR_9_WPC,Raw,Germany,70,,,,,,-45,-45,-45,,,,,,,,,75,F,,1935,
 1,Helmut Silberbauer,M_MR_3_WPC,Raw,Austria,87.5,,,,,,,,,,,220,240,250,250,,250,90,M,,1964,D
 2,Holly Ware,F_OR_WPC,Raw,UK,73.1,,,,,,90,95,100,100,110.5,,,,,,100,75,F,,1987,B
 1,Holly Ware,F_OR_WPC,Raw,UK,73.1,,,,,,,,,,,170,-182.5,-190,170,,170,75,F,,1987,D
-2,Hristo Muskov Dimitrov,M_OR_WPC,Raw,Bulgaria,119.4,,,,,,,,,,,330,340,-350,340,,340,125,M,,1985,D
-4,Hristo Muskov Dimitrov,M_OR_WPC,Raw,Bulgaria,119,-280,280,-290,280,,215,225,232.5,232.5,,330,-362.5,,330,,842.5,125,M,,1985,SBD
+2,Hristo Muskov,M_OR_WPC,Raw,Bulgaria,119.4,,,,,,,,,,,330,340,-350,340,,340,125,M,,1985,D
+4,Hristo Muskov,M_OR_WPC,Raw,Bulgaria,119,-280,280,-290,280,,215,225,232.5,232.5,,330,-362.5,,330,,842.5,125,M,,1985,SBD
 1,Hugo Batista,M_OR_WPC,Raw,Portugal,58.9,-145,-145,145,145,,110,120,125,125,,170,180,190,190,,460,60,M,,1985,SBD
 3,Igor Kalyamin,M_MES_1_WPC,Single-ply,Kazakhstan,103.4,,,,,,220,225,-230,225,,,,,,,225,110,M,,1973,B
 5,Igor Kalyamin,M_OES_WPC,Single-ply,Kazakhstan,103.4,,,,,,220,225,-230,225,,,,,,,225,110,M,,1973,B
@@ -269,7 +269,7 @@ DQ,Hella Schuster,F_MR_9_WPC,Raw,Germany,70,,,,,,-45,-45,-45,,,,,,,,,75,F,,1935,
 3,Islam Aripov,M_OR_WPC,Raw,Kazakhstan,58.3,130,140,-147.5,140,,105,-115,117.5,117.5,,140,150,,150,,407.5,60,M,,1997,SBD
 2,Ismael Barrio,M_MR_4_WPC,Raw,Spain,79.5,,,,,,,,,,,190,206.5,-207,206.5,,206.5,82.5,M,,1959,D
 DQ,Ismayil Ganjali,M_OES_WPC,Single-ply,Azerbaijan,102.2,,,,,,-200,-225,-230,,,,,,,,,110,M,,1976,B
-2,Israel Hernandez Laguna,M_TR_3_WPC,Raw,Mexico,98.6,210.5,220,-225,220,,135,142.5,-147.5,142.5,,265,275,-280,275,-280.5,637.5,100,M,,1996,SBD
+2,Israel Hernández Laguna,M_TR_3_WPC,Raw,Mexico,98.6,210.5,220,-225,220,,135,142.5,-147.5,142.5,,265,275,-280,275,-280.5,637.5,100,M,,1996,SBD
 1,Israel Laguna,M_TR_3_WPC,Raw,Mexico,97.9,,,,,,,,,,,265,275,-280,275,,275,100,M,,1996,D
 1,István Hegedüs,M_MR_2_WPC,Raw,Hungary,108.2,,,,,,205,215,-230,215,,,,,,,215,110,M,,1967,B
 5,Ivan Claro,M_OR_WPC,Raw,Portugal,73.5,150,160,170,170,,105,-115,-115,105,,185,200,-215,200,,475,75,M,,1987,SBD
@@ -284,7 +284,7 @@ DQ,Ismayil Ganjali,M_OES_WPC,Single-ply,Azerbaijan,102.2,,,,,,-200,-225,-230,,,,
 1,Janet Sink,F_MR_7_WPC,Raw,USA,90.9,,,,,,45,47.5,-50,47.5,,,,,,,47.5,90+,F,,1942,B
 1,Jean-Claude Camicas,M_MR_7_WPC,Raw,France,58.9,,,,,,75,-80,,75,,,,,,,75,60,M,,1943,B
 1,Jean-Philippe Caren,M_MR_1_WPC,Raw,France,119.6,,,,,,,,,,,-290,290,300,300,,300,125,M,,1975,D
-5,Jérémy Babin,M_OR_WPC,Raw,France,82.5,212.5,-220,-220,212.5,,147.5,155,157.5,157.5,,245,255,265,265,,635,82.5,M,,1990,SBD
+5,Jérémy Babin #1,M_OR_WPC,Raw,France,82.5,212.5,-220,-220,212.5,,147.5,155,157.5,157.5,,245,255,265,265,,635,82.5,M,,1990,SBD
 3,Jimmy Latchman,M_JR_WPC,Raw,Canada,74.1,177.5,190,200,200,,102.5,112.5,-117.5,112.5,,220,225,-230,225,,537.5,75,M,,1993,SBD
 1,Jiří Hájek,M_MR_3_WPC,Raw,Czechia,119.2,,,,,,160,170,177.5,177.5,,,,,,,177.5,125,M,,1962,B
 1,Jo Wood #2,F_MR_2_WPC,Raw,UK,57.4,65,77.5,-80,77.5,,40,50,-55,50,,102.5,-122.5,-122.5,102.5,,230,60,F,,1967,SBD

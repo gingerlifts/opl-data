@@ -86,7 +86,7 @@ M,Raw,Darryl Triance,43,M_OR_WPC,89.3,90,205,-212.5,-212.5,,205,130,140,-145,,14
 M,Raw,Dave Rade,49,M_MR_2_WPC,92,100,,,,,,,,,,,270,292.5,-300,,292.5,292.5,1,D,Switzerland
 M,Wraps,Dave Rade,49,M_MCR_2_WPC,94.5,100,220,240,250,,250,145,152.5,-157.5,,152.5,200,,,,200,602.5,3,SBD,Switzerland
 M,Wraps,David Aldworth,36,M_OCR_WPC,110,110,-270,-270,270,,270,185,200,,,200,300,305,-312.5,,305,775,4,SBD,UK
-M,Single-ply,David Campos,25,M_OES_WPC,81.9,82.5,-260,-260,260,,260,150,160,-170,,160,240,260,-270,,260,680,2,SBD,France
+M,Single-ply,David Campos #1,25,M_OES_WPC,81.9,82.5,-260,-260,260,,260,150,160,-170,,160,240,260,-270,,260,680,2,SBD,France
 M,Raw,David Chevron,41,M_OR_WPC,124.8,125,,,,,,,,,,,325,330,-335,,330,330,2,D,France
 M,Wraps,David Chevron,41,M_MCR_1_WPC,124.8,125,240,250,260,,260,150,-160,,,150,300,-330,,,300,710,1,SBD,France
 M,Wraps,David Cross,39,M_OCR_WPC,123.7,125,290,-300,300,,300,165,175,-180,,175,270,285,-300,,285,760,4,SBD,South Africa
@@ -211,7 +211,7 @@ M,Raw,Jean-Luc Leon,30,M_OR_WPC,119.6,125,,,,,,,,,,,310,-325,-330,,310,310,3,D,F
 M,Raw,Jere Marttila,57,M_MR_4_WPC,101.1,110,,,,,,100,110,120,,120,,,,,,120,1,B,Finland
 M,Raw,Jere Marttila,57,M_MR_4_WPC,101.1,110,,,,,,,,,,,170,190,200,,200,200,1,D,Finland
 M,Wraps,Jere Marttila,57,M_MCR_4_WPC,103.5,110,140,160,170,,170,110,120,125,,125,180,200,205,,205,500,2,SBD,Finland
-M,Wraps,Jérémy Babin,29,M_OCR_WPC,82.2,82.5,240,-250,255,,255,145,152.5,-157.5,,152.5,-250,250,-267.5,,250,657.5,2,SBD,France
+M,Wraps,Jérémy Babin #1,29,M_OCR_WPC,82.2,82.5,240,-250,255,,255,145,152.5,-157.5,,152.5,-250,250,-267.5,,250,657.5,2,SBD,France
 F,Raw,Jerna Rytkönen,35,F_OR_WPC,69.9,75,,,,,,,,,,,160,170,-180,,170,170,3,D,Finland
 M,Raw,Jeron Roberson,37,M_OR_WPC,58.8,60,,,,,,-110,,110,,110,,,,,,110,1,B,USA
 M,Raw,Jerry Aittakari,25,M_OR_WPC,102.3,110,,,,,,,,,,,280,300,-315,,300,300,2,D,Finland
@@ -577,7 +577,7 @@ M,Raw,Vladlen Astaptsev,54,M_MR_3_WPC,74.4,75,,,,,,105,110,,,110,,,,,,110,2,B,Fi
 M,Raw,Vladlen Astaptsev,54,M_MR_3_WPC,74.4,75,,,,,,,,,,,180,190,195,,195,195,1,D,Finland
 M,Wraps,Vladlen Astaptsev,54,M_MCR_3_WPC,74.6,75,140,150,155,,155,107.5,112.5,115,,115,182.5,190,,,190,460,1,SBD,Finland
 M,Wraps,Wayne Olivier,36,M_OCR_WPC,73.8,75,180,190,200,,200,115,125,-130,,125,220,-225,225,,225,550,2,SBD,South Africa
-M,Wraps,William Holliday,22,M_JCR_WPC,135.9,140,260,275,290,,290,180,187.5,200,,200,260,280,-310,,280,770,1,SBD,UK
+M,Wraps,Will Holliday,22,M_JCR_WPC,135.9,140,260,275,290,,290,180,187.5,200,,200,260,280,-310,,280,770,1,SBD,UK
 M,Wraps,William McNeil,42,M_MCR_1_WPC,107.6,110,180,200,205,,205,180,190,197.5,,197.5,240,250,260,,260,662.5,1,SBD,UK
 M,Raw,Yerat Nurdykhan,33,M_OR_WPC,,,,,,,,,,,,,,,,,,,NS,B,Mongolia
 M,Single-ply,Yuriy Ustinov,44,M_MES_1_WPC,104.2,110,,,,,,,,,,,240,260,280,,280,280,1,D,Russia

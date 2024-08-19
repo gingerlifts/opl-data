@@ -1,11 +1,11 @@
-﻿Place,Name,BirthDate,State,Division,Event,Sex,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Equipment
+Place,Name,BirthDate,State,Division,Event,Sex,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Equipment
 1,Ashley Schmitz,,BC,Sub-Juniors,SBD,F,74.96,76,70,-75,80,80,42.5,47.5,52.5,52.5,82.5,90,-97.5,90,222.5,Raw
 1,Amelia Smith,,BC,Juniors,SBD,F,62.99,63,105,110,115,115,60,62.5,-65,62.5,137.5,152.5,-170,152.5,330,Raw
 1,Francesca Manson,,BC,Juniors,SBD,F,67.76,69,120,130,137.5,137.5,72.5,77.5,80,80,140,150,157.5,157.5,375,Raw
 2,Francesca Anderson,,BC,Juniors,SBD,F,68.06,69,102.5,110,115,115,67.5,75,-80,75,130,140,-147.5,140,330,Raw
 1,Amy Richardson,,BC,Juniors,SBD,F,78.32,84,115,120,-132.5,120,57.5,62.5,-65,62.5,140,152.5,-160,152.5,335,Raw
 1,Eslin Fougere,,BC,Juniors,SBD,F,92.97,84+,92.5,97.5,105,105,57.5,62.5,67.5,67.5,132.5,145,150,150,322.5,Raw
-1,Sarah Edgar King,,BC,Masters 1,SBD,F,66.02,69,82.5,87.5,92.5,92.5,50,52.5,-57.5,52.5,95,100,105,105,250,Raw
+1,Sarah King,,BC,Masters 1,SBD,F,66.02,69,82.5,87.5,92.5,92.5,50,52.5,-57.5,52.5,95,100,105,105,250,Raw
 1,Karen Beales,,BC,Masters 1,SBD,F,91.92,84+,102.5,-107.5,115,115,57.5,-62.5,-62.5,57.5,125,135,145,145,317.5,Raw
 DQ,Patricia Walker,,BC,Masters 1,SBD,F,93.27,84+,-120,-120,-120,,60,62.5,65,65,142.5,155,160,160,,Raw
 1,Leah Wilson,,BC,Masters 2,SBD,F,70.45,76,85,90,95,95,45,50,52.5,52.5,100,107.5,112.5,112.5,260,Raw
@@ -26,7 +26,7 @@ DQ,Patricia Walker,,BC,Masters 1,SBD,F,93.27,84+,-120,-120,-120,,60,62.5,65,65,1
 3,Iman Alroumani,,BC,Open,SBD,F,134.1,84+,182.5,192.5,-195,192.5,-92.5,92.5,-95,92.5,182.5,192.5,202.5,202.5,487.5,Raw
 4,Amy Dewar,,BC,Open,SBD,F,91.23,84+,115,122.5,127.5,127.5,60,65,-67.5,65,135,142.5,147.5,147.5,340,Raw
 5,Leanne Kirby,,BC,Open,SBD,F,95.8,84+,105,-112.5,115,115,55,60,62.5,62.5,127.5,137.5,142.5,142.5,320,Raw
-1,Joshua Powers,,BC,Youth 1,SBD,M,72,74,90,105,120,120,65,75,77.5,77.5,115,135,150,150,347.5,Raw
+1,Joshua Powers,,BC,Youth 3,SBD,M,72,74,90,105,120,120,65,75,77.5,77.5,115,135,150,150,347.5,Raw
 1,Gracyn Ford,,BC,Sub-Juniors,SBD,M,72.84,74,160,-162.5,170,170,95,105,-107.5,105,-220,220,230,230,505,Raw
 2,Ryan Semkiw,,BC,Sub-Juniors,SBD,M,73.71,74,157.5,167.5,175,175,90,95,97.5,97.5,205,-217.5,225,225,497.5,Raw
 3,Gavin Symington,,BC,Sub-Juniors,SBD,M,71.74,74,-142.5,-150,155,155,70,80,82.5,82.5,170,177.5,182.5,182.5,420,Raw
@@ -42,7 +42,7 @@ DQ,Kimheng Kong,,BC,Juniors,SBD,M,64.39,66,150,165,175,175,90,92.5,102.5,102.5,-
 2,Lochlan Paton,,BC,Juniors,SBD,M,73.51,74,170,182.5,192.5,192.5,-95,95,100,100,212.5,235,-245,235,527.5,Raw
 3,Matteo Bottazzini,,BC,Juniors,SBD,M,71.63,74,147.5,157.5,165,165,100,107.5,120,120,190,202.5,212.5,212.5,497.5,Raw
 1,William Tse,,BC,Juniors,SBD,M,82.67,83,222.5,232.5,-235,232.5,-130,-130,130,130,290,-305.5,-305.5,290,652.5,Raw
-3,Avery Roberts,,BC,Juniors,SBD,M,75.43,83,155,167.5,175,175,95,105,115,115,157.5,160,-185,160,450,Raw
+3,Avery Roberts #1,,BC,Juniors,SBD,M,75.43,83,155,167.5,175,175,95,105,115,115,157.5,160,-185,160,450,Raw
 2,Darcy Palmerley,,BC,Juniors,SBD,M,81.64,83,132.5,145,150,150,90,100,112.5,112.5,175,180,195,195,457.5,Raw
 2,Andrew Durie,,BC,Juniors,SBD,M,90.58,93,225,235,237.5,237.5,125,132.5,135,135,240,255,260,260,632.5,Raw
 1,Eli Cook,,BC,Juniors,SBD,M,92.43,93,220,235,242.5,242.5,122.5,130,135,135,245,260,-272.5,260,637.5,Raw

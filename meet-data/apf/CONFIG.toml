@@ -90,6 +90,9 @@
     mpfemapf = {name ="M_PFEM_APF",min=0,max=999,equipment=["Multi-ply","Unlimited"],sex="M"} #Police/Fire
     mpfrapf = {name ="M_PFR_APF",min=0,max=999,equipment="Raw",sex="M"} #Police/Fire
     mnrapf = {name ="M_NR_APF",min=0,max=999,equipment="Raw",sex="M"} #Novice
+    mnr5apf = {name ="M_NR_5_APF",min=60,max=64,equipment="Raw",sex="M",tested="No"} #Novice
+    mncr1apf = {name ="M_NCR_1_APF",min=40,max=44,equipment=["Raw","Wraps"],sex="M"} #Novice
+    mnesapf = {name ="M_NES_APF",min=0,max=999,equipment="Single-ply",sex="M"} #Novice
     mnemapf = {name ="M_NEM_APF",min=0,max=999,equipment=["Multi-ply","Unlimited"],sex="M"} #Novice
     mcemapf = {name ="M_CEM_APF",min=0,max=999,equipment=["Multi-ply","Unlimited"],sex="M"} #Collegiate
     mgrapf = {name ="M_GR_APF",min=0,max=999,equipment="Raw",sex="M",place="G"} #Guest
@@ -101,6 +104,8 @@
     forlfmapf = {name="F_OR_LFM_APF", min=0, max=999, equipment="Raw", sex="F"} # Military
     mhsemapf = {name="M_HSEM_APF", min=13, max=19, equipment=["Multi-ply","Unlimited"], sex="M"} # High School
     mpfcrapf = {name ="M_PFCR_APF",min=0,max=999,equipment=["Raw","Wraps"],sex="M"} #Police/Fire
+    mmpfcr1apf = {name ="M_MPFCR_1_APF",min=40,max=44,equipment=["Raw","Wraps"],sex="M"} #Police/Fire
+    mmpfr1apf = {name ="M_MPFR_1_APF",min=40,max=44,equipment="Raw",sex="M"} #Police/Fire
 
     forapf = {name ="F_OR_APF",min=0,max=999,equipment="Raw",sex="F"}
     focrapf = {name ="F_OCR_APF",min=0,max=999,equipment=["Raw","Wraps"],sex="F"}
@@ -183,6 +188,9 @@
     framapf = {name="F_RAM_APF", min=0, max=999, equipment=["Multi-ply","Unlimited"], sex="F"} # Soft Equipment.
     fhsemapf = {name="F_HSEM_APF", min=13, max=19, equipment=["Multi-ply","Unlimited"], sex="F"} # High School
     fpfrapf = {name ="F_PFR_APF",min=0,max=999,equipment="Raw",sex="F"} #Police/Fire
+    fmpfcr2apf = {name ="F_MPFCR_2_APF",min=45,max=49,equipment=["Raw","Wraps"],sex="F"} #Police/Fire
+    fmpfr3apf = {name ="F_MPFR_3_APF",min=50,max=54,equipment="Raw",sex="F"} #Police/Fire
+    Mpfesapf = {name ="M_PFES_APF",min=0,max=999,equipment="Single-ply",sex="M"} #Police/Fire
     fpfcrapf = {name ="F_PFCR_APF",min=0,max=999,equipment=["Raw","Wraps"],sex="F"} #Police/Fire
     forlfapf = {name="F_OR_LF_APF",min=0,max=999,equipment="Raw",sex="F"} # Not sure.
     fmr1lfapf = {name="F_MR_1_LF_APF",min=40,max=45,equipment="Raw",sex="F"} # Not sure.
@@ -271,8 +279,11 @@
     mpfcraapf = {name ="M_PFCR_AAPF",min=0,max=999,equipment=["Raw","Wraps"],sex="M",tested="Yes"} #Police/Fire
     mpfesaapf = {name ="M_PFES_AAPF",min=0,max=999,equipment="Single-ply",sex="M",tested="Yes"} #Police/Fire
     mpfemaapf = {name ="M_PFEM_AAPF",min=0,max=999,equipment=["Multi-ply","Unlimited"],sex="M",tested="Yes"} #Police/Fire
+    mmpfr1aapf = {name ="M_MPFR_1_AAPF",min=40,max=44,equipment="Raw",sex="M",tested="Yes"} #Police/Fire
     mnemaapf = {name ="M_NEM_AAPF",min=0,max=999,equipment=["Multi-ply","Unlimited"],sex="M",tested="Yes"} #Novice
     mnraapf = {name ="M_NR_AAPF",min=0,max=999,equipment="Raw",sex="M",tested="Yes"} #Novice
+    mntr3aapf = {name ="M_NTR_3_AAPF",min=17,max=19,equipment="Raw",sex="M",tested="Yes"} #Novice
+    mnr5aapf = {name ="M_NR_5_AAPF",min=60,max=64,equipment="Raw",sex="M",tested="Yes"} #Novice
     mgraapf = {name ="M_GR_AAPF",min=0,max=999,equipment="Raw",sex="M",place="G",tested="Yes"} #Guest
     mgemaapf = {name ="M_GEM_AAPF",min=0,max=999,equipment=["Multi-ply","Unlimited"],sex="M",place="G",tested="Yes"} #Guest
 
@@ -347,6 +358,8 @@
     fyraapf = {name ="F_YR_AAPF",min=0,max=12,equipment="Raw",sex="F",tested="Yes"} #Youth
     fyesaapf = {name ="F_YES_AAPF",min=0,max=12,equipment="Single-ply",sex="F"} #Youth
     fyemaapf = {name ="F_YEM_AAPF",min=0,max=12,equipment=["Multi-ply","Unlimited"],sex="F"} #Youth
+    fnraapf = {name ="F_NR_AAPF",min=0,max=999,equipment="Raw",sex="F",tested="Yes"} #Novice
+    fnr1aapf = {name ="F_NR_1_AAPF",min=40,max=44,equipment="Raw",sex="F",tested="Yes"} #Novice
     fgraapf = {name ="F_GR_AAPF",min=0,max=999,equipment="Raw",sex="F",place="G",tested="Yes"} #Guest
     fpfemapf = {name ="F_PFEM_AAPF",min=0,max=999,equipment=["Multi-ply","Unlimited"],sex="F"} #Police/Fire
     fpfraapf = {name ="F_PFR_AAPF",min=0,max=999,equipment="Raw",sex="F",tested="Yes"} #Police/Fire
@@ -498,6 +511,7 @@
     fsswpc = {name ="F_SES_WPC",min=33,max=39,equipment="Single-ply",sex="F"}
     fsmwpc = {name ="F_SEM_WPC",min=33,max=39,equipment=["Multi-ply","Unlimited"],sex="F"}
     fyrwpc = {name ="F_YR_WPC",min=0,max=12,equipment="Raw",sex="F"} #Youth
+    fycrwpc = {name ="F_YCR_WPC",min=0,max=12,equipment=["Raw","Wraps"],sex="F"} #Youth
     fyeswpc = {name ="F_YES_WPC",min=0,max=12,equipment="Single-ply",sex="F"} #Youth
     fyemwpc = {name ="F_YEM_WPC",min=0,max=12,equipment=["Multi-ply","Unlimited"],sex="F"} #Youth
     fgemwpc = {name ="F_GEM_WPC",min=0,max=999,equipment=["Multi-ply","Unlimited"],sex="F",place="G"} #Guest
@@ -662,6 +676,7 @@
     mmes3wpcdisabled = {name="M_MES_3_WPC_Disabled", min=50, max=55, equipment="Single-ply", sex="M"}
     moeswpcdisabled = {name="M_OES_WPC_Disabled", min=0, max=999, equipment="Single-ply", sex="M"}
     morwpcdisabled = {name="M_OR_WPC_Disabled", min=0, max=999, equipment="Raw", sex="M"}
+    mtr2aapfdisabled = {name="M_TR_2_AAPF_Disabled", min=15, max=17, equipment="Raw",tested="Yes"}
 
 [weightclasses.default_M]
     classes = ["52","56","60","67.5","75","82.5","90","100","110","125","140","140+"]
@@ -758,3 +773,5 @@
     2310 = ["ExemptWeightClassConsistency"] # Two youth lifters missing bodyweight info
     2316 = ["ExemptDivision"] # Pro/Am, different divisions.
     2343 = ["ExemptWeightClassConsistency","ExemptDivision"] # Missing weightclasses
+    2413 = ["ExemptWeightClassConsistency"] # Missing weightclasses
+    2415 = ["ExemptWeightClassConsistency"] # Placed by total

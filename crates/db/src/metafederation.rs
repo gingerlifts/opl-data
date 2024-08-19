@@ -139,6 +139,8 @@ pub enum MetaFederation {
     AllMongolia,
     #[strum(to_string = "all-nauru")]
     AllNauru,
+    #[strum(to_string = "all-nepal")]
+    AllNepal,
     #[strum(to_string = "all-netherlands")]
     AllNetherlands,
     #[strum(to_string = "all-newzealand")]
@@ -153,6 +155,8 @@ pub enum MetaFederation {
     AllPapuaNewGuinea,
     #[strum(to_string = "all-oman")]
     AllOman,
+    #[strum(to_string = "all-panama")]
+    AllPanama,
     #[strum(to_string = "all-paraguay")]
     AllParaguay,
     #[strum(to_string = "all-philippines")]
@@ -251,6 +255,10 @@ pub enum MetaFederation {
     /// APF, buf with international results.
     #[strum(to_string = "apf")]
     APF,
+
+    /// APLA, but with international results also.
+    #[strum(to_string = "apla")]
+    APLA,
 
     /// APP, but with international results also.
     #[strum(to_string = "app")]
@@ -357,6 +365,10 @@ pub enum MetaFederation {
     #[strum(to_string = "fipl")]
     FIPL,
 
+    /// FPP, but with international results also.
+    #[strum(to_string = "fpp")]
+    FPP,
+
     /// FPPR, but with international results also.
     #[strum(to_string = "fppr")]
     FPPR,
@@ -411,6 +423,14 @@ pub enum MetaFederation {
     /// IPF-China, but with international results also.
     #[strum(to_string = "ipf-china")]
     IPFChina,
+
+    /// IPL-China, plus IPL results for Chinese lifters.
+    #[strum(to_string = "ipl-china")]
+    IPLChina,
+
+    /// IPL-China MetaFederation, but only for Tested entries.
+    #[strum(to_string = "iplchina-tested")]
+    IPLChinaTested,
 
     /// IranBBF, but with international results also.
     #[strum(to_string = "iranbbf")]
@@ -496,6 +516,10 @@ pub enum MetaFederation {
     /// NIPF, but with BP and international results also.
     #[strum(to_string = "nipf")]
     NIPF,
+
+    /// NPAJ, but with international results also.
+    #[strum(to_string = "npaj")]
+    NPAJ,
 
     /// NSF, but with international results also.
     #[strum(to_string = "nsf")]
@@ -597,9 +621,9 @@ pub enum MetaFederation {
     #[strum(to_string = "tpssf")]
     TPSSF,
 
-    /// UAEPA, but with international results also.
-    #[strum(to_string = "uaepa")]
-    UAEPA,
+    /// UAEPL, but with international results also.
+    #[strum(to_string = "uaepl")]
+    UAEPL,
 
     /// UgandaPF, but with international results also.
     #[strum(to_string = "ugandapf")]
@@ -798,12 +822,14 @@ impl MetaFederation {
             MetaFederation::AllMoldova => is_from(Country::Moldova, entry, meet),
             MetaFederation::AllMongolia => is_from(Country::Mongolia, entry, meet),
             MetaFederation::AllNauru => is_from(Country::Nauru, entry, meet),
+            MetaFederation::AllNepal => is_from(Country::Nepal, entry, meet),
             MetaFederation::AllNetherlands => is_from(Country::Netherlands, entry, meet),
             MetaFederation::AllNewZealand => is_from(Country::NewZealand, entry, meet),
             MetaFederation::AllNicaragua => is_from(Country::Nicaragua, entry, meet),
             MetaFederation::AllNiue => is_from(Country::Niue, entry, meet),
             MetaFederation::AllNorway => is_from(Country::Norway, entry, meet),
             MetaFederation::AllOman => is_from(Country::Oman, entry, meet),
+            MetaFederation::AllPanama => is_from(Country::Panama, entry, meet),
             MetaFederation::AllPapuaNewGuinea => is_from(Country::PapuaNewGuinea, entry, meet),
             MetaFederation::AllParaguay => is_from(Country::Paraguay, entry, meet),
             MetaFederation::AllPhilippines => is_from(Country::Philippines, entry, meet),
@@ -879,12 +905,22 @@ impl MetaFederation {
                 affiliation!(meet, entry, AMP, IPF, NAPF) && meet.date.year() >= 2022
             }
             MetaFederation::APF => affiliation!(meet, entry, APF, WPC),
+
+            // APLA formed in 2024 and became IPF and ORPF/CommonwealthPF affiliate at this time, replacing APU.
+            MetaFederation::APLA => {
+                affiliation!(meet, entry, APLA, IPF, ORPF, CommonwealthPF)
+                    && meet.date.year() >= 2024
+            }
             MetaFederation::APP => affiliation!(meet, entry, APP, GPA),
 
-            //APU only formed 2018 and became IPF/ORPF affiliate at this time, without checking
-            //date we also get PA, AusPF, and AAPLF lifters in IPF/ORPF comps
+            // APU formed in 2018 and was IPF affiliate until end of 2023.
+            // APU was originally affiliated to ORPF but changed to AsianPF from 2021.
             MetaFederation::APU => {
-                affiliation!(meet, entry, APU, IPF, ORPF) && meet.date.year() >= 2018
+                ((2018..2021).contains(&meet.date.year())
+                    && affiliation!(meet, entry, APU, IPF, CommonwealthPF, ORPF))
+                    || ((2021..2024).contains(&meet.date.year())
+                        && affiliation!(meet, entry, APU, IPF, CommonwealthPF, AsianPF))
+                    || (meet.date.year() >= 2024 && affiliation!(meet, entry, APU, WDFPF))
             }
             MetaFederation::AusPLTested => meet.federation == Federation::AusPL && entry.tested,
             MetaFederation::AWPC => meet.federation == Federation::WPC && entry.tested,
@@ -961,6 +997,7 @@ impl MetaFederation {
                     )
             }
             MetaFederation::FIPL => affiliation!(meet, entry, FIPL, IPF, EPF),
+            MetaFederation::FPP => affiliation!(meet, entry, FPP, IPF, NAPF),
             MetaFederation::FPPR => affiliation!(meet, entry, FPPR, IPF, NAPF),
             MetaFederation::FPR => affiliation!(meet, entry, FPR, IPF, EPF),
             MetaFederation::FRPL => affiliation!(meet, entry, FRPL, IPF, EPF),
@@ -1003,6 +1040,10 @@ impl MetaFederation {
                     | Federation::CommonwealthPF
             ),
             MetaFederation::IPFChina => affiliation!(meet, entry, IPFChina, IPF, AsianPF),
+            MetaFederation::IPLChina => affiliation!(meet, entry, IPLChina, IPL),
+            MetaFederation::IPLChinaTested => {
+                entry.tested && MetaFederation::IPLChina.contains(entry, meets)
+            }
             MetaFederation::IranBBF => affiliation!(meet, entry, IranBBF, IPF, AsianPF),
             MetaFederation::IraqPF => affiliation!(meet, entry, IraqPF, IPF, AsianPF),
             MetaFederation::IrishPF => affiliation!(meet, entry, IrishPF, IPF, EPF),
@@ -1018,7 +1059,7 @@ impl MetaFederation {
             MetaFederation::KDKS => {
                 affiliation!(meet, entry, KDKS, IPF, EPF) && meet.date.year() >= 2020
             }
-            MetaFederation::KPC => affiliation!(meet, entry, KPC, IPF, AsianPF, UAEPA), // Kuwait often use UAE meets for team selection
+            MetaFederation::KPC => affiliation!(meet, entry, KPC, IPF, AsianPF, UAEPL), // Kuwait often use UAE meets for team selection
             MetaFederation::KPF => affiliation!(meet, entry, KPF, IPF, AsianPF),
             MetaFederation::KRAFT => affiliation!(meet, entry, KRAFT, IPF, EPF, NordicPF),
             MetaFederation::ManxPL => affiliation!(meet, entry, ManxPL, IPF, EPF, BP, EPA),
@@ -1026,6 +1067,7 @@ impl MetaFederation {
             MetaFederation::MUPF => affiliation!(meet, entry, MUPF, IPF, AsianPF),
             MetaFederation::NauruPF => affiliation!(meet, entry, NauruPF, IPF, ORPF),
             MetaFederation::NIPF => affiliation!(meet, entry, NIPF, IPF, EPF, BP),
+            MetaFederation::NPAJ => affiliation!(meet, entry, NPAJ, IPF, NAPF),
             MetaFederation::NSF => affiliation!(meet, entry, NSF, IPF, EPF, NordicPF),
             MetaFederation::NZPF => {
                 meet.federation == Federation::NZPF
@@ -1058,11 +1100,19 @@ impl MetaFederation {
             MetaFederation::SSSC => affiliation!(meet, entry, SSSC, IPF, AsianPF),
             MetaFederation::SVNL => affiliation!(meet, entry, SVNL, IPF, EPF, NordicPF),
             MetaFederation::SwissPL => {
-                affiliation!(meet, entry, SwissPL, IPF, EPF) && meet.date.year() < 2020
+                let country: Option<Country> = SwissPL.home_country();
+                match meet.federation {
+                    SwissPL => entry.lifter_country.is_none() || entry.lifter_country == country,
+                    IPF | EPF => {
+                        entry.lifter_country == country
+                            && SwissPL.sanctioning_body(meet.date) == Some(IPF)
+                    }
+                    _ => false,
+                }
             }
             MetaFederation::ThaiPF => affiliation!(meet, entry, ThaiPF, IPF, AsianPF),
             MetaFederation::TPSSF => affiliation!(meet, entry, TPSSF, IPF, EPF),
-            MetaFederation::UAEPA => affiliation!(meet, entry, UAEPA, IPF, AsianPF, OceaniaPF),
+            MetaFederation::UAEPL => affiliation!(meet, entry, UAEPL, IPF, AsianPF, OceaniaPF),
             MetaFederation::UgandaPF => affiliation!(meet, entry, UgandaPF, WP),
             MetaFederation::UkrainePF => affiliation!(meet, entry, UkrainePF, IPF, EPF),
 

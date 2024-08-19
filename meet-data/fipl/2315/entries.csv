@@ -1,4 +1,4 @@
-﻿Place,Name,Sex,BirthDate,Age,Equipment,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event
+Place,Name,Sex,BirthDate,Age,Equipment,Division,BodyweightKg,WeightClassKg,Squat1Kg,Squat2Kg,Squat3Kg,Best3SquatKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,Deadlift1Kg,Deadlift2Kg,Deadlift3Kg,Best3DeadliftKg,TotalKg,Event
 1,Matteo Mistrazzoso,M,,,Raw,Senior,58.96,59,175,182.5,187.5,187.5,112.5,117.5,-120,117.5,-220,220,229,229,534,SBD
 2,Stefano Chiabrando,M,,,Raw,Senior,58.02,59,160,170,-175,170,80,87.5,90,90,200,210,-229.5,210,470,SBD
 3,Alexandru Liviu Maftei,M,,,Raw,Senior,58.12,59,140,150,-155,150,-95,95,-97.5,95,170,185,-190,185,430,SBD
@@ -17,19 +17,19 @@ DQ,Giacomo Marinone,M,,,Raw,Senior,58.44,59,-137.5,-137.5,-137.5,,,,,,,,,,,SBD
 DQ,Emanuele Ventimiglia,M,,,Raw,Senior,65.32,66,-195,-200,-200,,140,147.5,-152.5,147.5,215,-225,230,230,,SBD
 1,Dennis Fastelli,M,,,Raw,Senior,74,74,250,262.5,-270,262.5,130,135,140,140,260,272.5,-294,272.5,675,SBD
 2,Francesco Bosari,M,,,Raw,Senior,71.84,74,232.5,240,-245,240,172.5,180.5,-183,180.5,230,-242.5,-255,230,650.5,SBD
-3,Federico Disaro',M,,,Raw,Senior,73.54,74,230,240,247.5,247.5,150,155,-157.5,155,240,-247.5,-247.5,240,642.5,SBD
+3,Federico Disarò,M,,,Raw,Senior,73.54,74,230,240,247.5,247.5,150,155,-157.5,155,240,-247.5,-247.5,240,642.5,SBD
 4,Filippo Pecchioli,M,,,Raw,Senior,73.49,74,220,232.5,237.5,237.5,135,-140,-140,135,245,257.5,265,265,637.5,SBD
 5,Giacomo Satta,M,,,Raw,Senior,73.79,74,225,232.5,240,240,135,142.5,145,145,225,232.5,-240,232.5,617.5,SBD
 6,Maikol Nosenzo,M,,,Raw,Senior,72.41,74,220,227.5,232.5,232.5,117.5,122.5,-125,122.5,260,-265,-265,260,615,SBD
 7,Raffaele Alfiero,M,,,Raw,Senior,73.58,74,205,217.5,-222.5,217.5,115,125,130,130,240,257.5,267.5,267.5,615,SBD
-8,Florio Stefan Castro,M,,,Raw,Senior,72.79,74,220,230,-237.5,230,130,137.5,142.5,142.5,240,-255,-265,240,612.5,SBD
-9,Matteo Andrea Di,M,,,Raw,Senior,73.53,74,207.5,220,-230,220,135,140,142.5,142.5,235,247.5,-257.5,247.5,610,SBD
+8,Stefano Castro Florio,M,,,Raw,Senior,72.79,74,220,230,-237.5,230,130,137.5,142.5,142.5,240,-255,-265,240,612.5,SBD
+9,Andrea Di Matteo,M,,,Raw,Senior,73.53,74,207.5,220,-230,220,135,140,142.5,142.5,235,247.5,-257.5,247.5,610,SBD
 10,Vincenzo Zara,M,,,Raw,Senior,70.2,74,-200,210,217.5,217.5,125,130,135,135,210,230,247.5,247.5,600,SBD
-11,Galdo Cristian Del,M,,,Raw,Senior,73.32,74,195,207.5,217.5,217.5,-102.5,-112.5,112.5,112.5,240,260,-280,260,590,SBD
+11,Cristian Del Galdo,M,,,Raw,Senior,73.32,74,195,207.5,217.5,217.5,-102.5,-112.5,112.5,112.5,240,260,-280,260,590,SBD
 12,Mattia Zaninetti,M,,,Raw,Senior,73.29,74,185,195,202.5,202.5,132.5,140,-145,140,217.5,235,245,245,587.5,SBD
 13,Alberto Soldi,M,,,Raw,Senior,73.65,74,205,210,215,215,107.5,-112.5,112.5,112.5,245,255,-262.5,255,582.5,SBD
 DQ,Olmo Gasperini,M,,,Raw,Senior,72.78,74,-200,200,210,210,142.5,-147.5,147.5,147.5,-245,-260,-260,,,SBD
-1,Edoard Mazzucchielli,M,,,Raw,Senior,82.85,83,285,300,,300,167.5,172.5,-175,172.5,280,295,-320,295,767.5,SBD
+1,Edoardo Mazzucchielli,M,,,Raw,Senior,82.85,83,285,300,,300,167.5,172.5,-175,172.5,280,295,-320,295,767.5,SBD
 2,Alessandro Messina,M,,,Raw,Senior,81.95,83,245,257.5,-265,257.5,157.5,162.5,-167.5,162.5,305,-317.5,330,330,750,SBD
 3,Matteo Richichi,M,,,Raw,Senior,82.9,83,245,260,267.5,267.5,170,177.5,,177.5,290,305,-310,305,750,SBD
 4,Walter Piccione,M,,,Raw,Senior,81.88,83,230,240,250,250,150,157.5,-162.5,157.5,277.5,-292.5,292.5,292.5,700,SBD
@@ -68,7 +68,7 @@ DQ,Olmo Gasperini,M,,,Raw,Senior,72.78,74,-200,200,210,210,142.5,-147.5,147.5,14
 19,Salvatore Pezza,M,,,Raw,Senior,89.49,93,225,232.5,240,240,155,165,167.5,167.5,247.5,257.5,-267.5,257.5,665,SBD
 20,Jacopo Sala,M,,,Raw,Senior,92.48,93,230,240,250,250,140,145,147.5,147.5,250,-265,-272.5,250,647.5,SBD
 21,Riccardo Barboni,M,,,Raw,Senior,90.4,93,230,237.5,-245,237.5,142.5,147.5,152.5,152.5,245,255,-270,255,645,SBD
-1,Adlani Youssuf El,M,,,Raw,Senior,104.73,105,280,-310,310,310,180,-185,185,185,270,320,350,350,845,SBD
+1,Youssuf El Adlani,M,,,Raw,Senior,104.73,105,280,-310,310,310,180,-185,185,185,270,320,350,350,845,SBD
 2,Alfredo Orsini,M,,,Raw,Senior,104.98,105,270,285,295,295,185,-192.5,192.5,192.5,-290,290,312.5,312.5,800,SBD
 3,Valentino Durastanti,M,,,Raw,Senior,103.42,105,277.5,290,-297.5,290,155,-162.5,-162.5,155,315,340,-355,340,785,SBD
 4,Stefano Allen,M,,,Raw,Senior,104.87,105,260,275,282.5,282.5,172.5,180,182.5,182.5,300,320,-330,320,785,SBD

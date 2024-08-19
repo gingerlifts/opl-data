@@ -3,6 +3,7 @@
 use opltypes::states::*;
 use opltypes::*;
 use smartstring::alias::CompactString;
+use symbol_table::GlobalSymbol;
 
 use crate::yesno::deserialize_yes_no;
 
@@ -57,11 +58,14 @@ pub struct Meet {
     pub name: Box<str>,
     #[serde(rename(deserialize = "RuleSet"))]
     pub ruleset: RuleSet,
+    #[serde(rename(deserialize = "Sanctioned"))]
+    #[serde(deserialize_with = "deserialize_yes_no")]
+    pub sanctioned: bool,
 
     /// Number of unique competitors, by LifterID.
     /// Calculated at load-time.
     #[serde(default)]
-    pub num_unique_lifters: u32,
+    pub num_unique_lifters: u16,
 }
 
 /// The definition of an Entry in the database.
@@ -83,7 +87,7 @@ pub struct Entry {
     #[serde(rename(deserialize = "Age"))]
     pub age: Age,
     #[serde(rename(deserialize = "Division"))]
-    pub division: Option<CompactString>,
+    pub division: Option<GlobalSymbol>,
     #[serde(rename(deserialize = "BodyweightKg"))]
     pub bodyweightkg: WeightKg,
     #[serde(rename(deserialize = "WeightClassKg"))]
@@ -167,7 +171,7 @@ impl Entry {
     /// Borrows the Division string.
     #[inline]
     pub fn division(&self) -> Option<&str> {
-        self.division.as_deref()
+        self.division.map(|symbol| symbol.as_str())
     }
 
     /// Calculates the Entry's points.

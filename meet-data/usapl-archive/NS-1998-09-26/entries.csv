@@ -91,7 +91,7 @@ WeightClassKg,Sex,Equipment,Division,Name,Best3BenchKg,Bench4Kg,Event,TotalKg,Pl
 82.5,M,Single-ply,M-LT,Dennis Brady,177.5,,B,177.5,5
 82.5,M,Single-ply,M-LT,Bill Gallagher,162.5,,B,162.5,6
 82.5,M,Single-ply,M-LT,Ed King,147.5,,B,147.5,7
-82.5,M,Single-ply,M-LT,Patrick Carroll,142.5,,B,142.5,8
+82.5,M,Single-ply,M-LT,Patrick Carroll #1,142.5,,B,142.5,8
 82.5,M,Single-ply,M-LT,Bart Daig,137.5,,B,137.5,9
 82.5,M,Single-ply,M-LT,Raymond Manes,137.5,,B,137.5,10
 82.5,M,Single-ply,M-LT,Brian Hess,122.5,,B,122.5,11
@@ -117,7 +117,7 @@ WeightClassKg,Sex,Equipment,Division,Name,Best3BenchKg,Bench4Kg,Event,TotalKg,Pl
 90,M,Raw,MR-O,Matt Sulzer,127.5,,B,127.5,3
 90,M,Single-ply,M-C,Greg Vanson,160,,B,160,1
 90,M,Single-ply,M-PF,Mike Crawford,190,,B,190,1
-90,M,Single-ply,M-Jr,Jeff Sussman,192.5,,B,192.5,1
+90,M,Single-ply,M-Jr,Jeff Sussman #1,192.5,,B,192.5,1
 100,M,Single-ply,M-O,Anthony Succarotte,235,,B,235,1
 100,M,Single-ply,M-O,Casey Rennart,230,,B,230,2
 100,M,Single-ply,M-O,Ralph Young Jr,227.5,,B,227.5,3
@@ -211,7 +211,7 @@ WeightClassKg,Sex,Equipment,Division,Name,Best3BenchKg,Bench4Kg,Event,TotalKg,Pl
 82.5,M,Single-ply,M-M1a,Dennis Brady,177.5,,B,177.5,1
 82.5,M,Single-ply,M-M1a,Dana Rosenzweig,175,,B,175,2
 82.5,M,Single-ply,M-M1a,Bill Gallagher,162.5,,B,162.5,3
-82.5,M,Single-ply,M-M1a,Patrick Carroll,142.5,,B,142.5,4
+82.5,M,Single-ply,M-M1a,Patrick Carroll #1,142.5,,B,142.5,4
 82.5,M,Single-ply,M-M1b,Raymond Manes,137.5,,B,137.5,1
 82.5,M,Single-ply,M-M2a,Jim Klostergard,180,,B,180,1
 82.5,M,Single-ply,M-M2a,William McLaughlin #3,157.5,,B,157.5,2
@@ -250,7 +250,7 @@ WeightClassKg,Sex,Equipment,Division,Name,Best3BenchKg,Bench4Kg,Event,TotalKg,Pl
 125,M,Single-ply,M-M1b,Fred Dini,227.5,,B,227.5,1
 125,M,Single-ply,M-M1b,Ted Striverson,202.5,,B,202.5,2
 125,M,Single-ply,M-M2a,CJ Batten,230,,B,230,1
-125,M,Single-ply,M-M2a,Robert Moore,185,,B,185,2
+125,M,Single-ply,M-M2a,Robert Moore #1,185,,B,185,2
 125,M,Single-ply,M-M2a,Gary Krueger,182.5,,B,182.5,3
 125,M,Single-ply,M-M2b,Murray Marsh,182.5,,B,182.5,1
 125,M,Single-ply,M-M2b,Richard van Eck,175,,B,175,2

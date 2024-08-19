@@ -16,6 +16,7 @@
     master1 = {name="Master 1", min=40, max=49}
     master2 = {name="Master 2", min=50, max=59}
     master3 = {name="Master 3", min=60, max=69}
+    master4 = {name="Master 4", min=70, max=79}
     novice = {name="Novice", min=0, max=999}
     Intermediate = {name="Intermediate", min=0, max=999}
     first_responder = {name="First Responder", min=0, max=999}
@@ -31,6 +32,7 @@
     dt_master3 = {name="DT Master 3", min=60, max=69, tested="Yes"}
     dt_master4 = {name="DT Master 4", min=70, max=79, tested="Yes"}
     dt_novice = {name="DT Novice", min=0, max=999, tested="Yes"}
+    dt_so = {name="DT Special Olympics", min=0, max=999, tested="Yes"}
     dt_int = {name="DT Int", min=0, max=999, tested="Yes"} # Intermediate
     dt_first_responder = {name="DT First Responder", min=0, max=999, tested="Yes"}
     dt_pfm = {name="DT P/F/M", min=0, max=999, tested="Yes"}
@@ -65,3 +67,4 @@
 [exemptions]
     2003 = ["ExemptDivision", "ExemptWeightClassConsistency"] # Made divisions up as they went along, lifters missing bodyweight
     2004 = ["ExemptDivision"] # Amateur/Elite divisions.
+    2401 = ["ExemptDivision"] # children in teen division

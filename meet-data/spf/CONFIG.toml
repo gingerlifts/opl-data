@@ -45,6 +45,7 @@
     fpm = {name = "FPM", min=0, max=999} # Fire Police Military
 
 	adaptive = {name="Adaptive", min=0, max=999}
+    disabled = {name="Disabled", min=0, max=999}
     police_fire = {name = "Police and Fire", min = 0, max = 999}
     special_olympics = {name = "Special Olympics", min = 0, max = 999}
     crossfit = {name = "Crossfit", min = 0, max = 999}
@@ -55,7 +56,7 @@
     sex = "M"
 
 [weightclasses.default_F]
-    classes = ["44","48","52","56","60","67.5","75","82.5","90","100","110","90+","110+"]
+    classes = ["44","48","52","56","60","67.5","75","82.5","90","100","110","118","90+","110+","140+"]
     date_range = ["1990-01-01", "9999-01-01"]
     sex = "F"
 
