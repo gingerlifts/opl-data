@@ -45,6 +45,7 @@ label {
   <div><b>NEW!</b> Copy/pasting works from spreadsheet software.</div>
   <div><b>NEW!</b> There's a handy button to auto-convert to Kg.</div>
   <div><b>NEW!</b> There's a button that auto-(re)calculates the Place column.</div>
+  <div><b>NEW!</b> There's a button that auto-(re)calculates the Best3{Lift}Kg column(s).</div>
   <br/>
 
   <button id="checkButton">Check</button>
@@ -63,6 +64,7 @@ label {
   <button id="calcPlaceButton">Calculate Place</button>
   <button id="standardiseCountriesButton">Standardise Countries</button>
   <button id="roundKgButton">Round to nearest 0.5kg</button>
+  <button id="calcBestLiftsButton">Calculate best lifts</button>
   <label for="entries">entries.csv:</label>
   <textarea id="entriesTextArea" name="entries" rows="16" cols="120"></textarea>
 </body>
