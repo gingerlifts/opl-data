@@ -20,7 +20,7 @@ def get_weight_class(bodyweight):
 
 def assign_sex(weight_class):
     """Assign Sex based on weight class."""
-    women_classes = ['43', '47', '52', '57', '63', '69', '76', '84', '84+']
+    women_classes = ['43', '47', '52', '57', '63', '69', '76', '83', '83+']
     if weight_class in women_classes:
         return 'W'
     else:
@@ -84,4 +84,4 @@ def process_excel_file(file_path):
     print(f"Processed and saved: {output_file}")
 
 if __name__ == "__main__":
-    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-03-23/lanyiv.xlsx")
+    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-03-23/lanyv.xlsx")
