@@ -27,7 +27,7 @@ Place,Name,BirthYear,Team,BodyweightKg,Bench1Kg,Bench2Kg,Bench3Kg,Best3BenchKg,W
 10,Fehér Milán Rajmond,2009,KerecsMagy,57.84,-55.0,55.0,-57.5,55.0,66,B,Raw,M
 11,Gulyás Áron Mihály,2009,EncsZrínyi,56.86,-50.0,50.0,-52.5,50.0,57,B,Raw,M
 12,Kozák Bálint,2010,GyulaiImpl,55.68,35.0,37.5,40.0,40.0,57,B,Raw,M
-DQ,Szarka Gergő Roland,2009,Olaszliszk,54.26,-62.5,-62.5,-65.0,DSQ,57,B,Raw,M
+DQ,Szarka Gergő Roland,2009,Olaszliszk,54.26,-62.5,-62.5,-65.0,,57,B,Raw,M
 1,Krafcsik Kristóf,2009,Mechwart,62.7,60.0,80.0,-90.0,80.0,66,B,Raw,M
 2,Müller Milán,2009,HermannOtt,63.2,70.0,75.0,80.0,80.0,66,B,Raw,M
 3,Ádám Dávid,2009,Homoktövis,60.0,70.0,72.5,77.5,77.5,66,B,Raw,M
@@ -100,8 +100,8 @@ DQ,Szarka Gergő Roland,2009,Olaszliszk,54.26,-62.5,-62.5,-65.0,DSQ,57,B,Raw,M
 1,Csiki Krisztián,2007,KandóTechn,51.4,70.0,75.0,77.5,77.5,53,B,Raw,M
 2,Szabó Szilveszter,2008,BedőErdész,52.7,57.5,60.0,-65.0,60.0,53,B,Raw,M
 3,Pásztor Milán Ádám,2008,TáncsicsOh,50.3,-52.5,55.0,57.5,57.5,53,B,Raw,M
-DQ,Kádas Dániel,2007,EötvösGimn,50.5,-55.0,-57.5,-57.5,DSQ,53,B,Raw,M
-DQ,Gyenes Máté,2007,FöldesGimn,52.7,-65.0,-65.0,-65.0,DSQ,53,B,Raw,M
+DQ,Kádas Dániel,2007,EötvösGimn,50.5,-55.0,-57.5,-57.5,,53,B,Raw,M
+DQ,Gyenes Máté,2007,FöldesGimn,52.7,-65.0,-65.0,-65.0,,53,B,Raw,M
 1,Homonnai Péter,2007,Lorántffy,57.3,80.0,82.5,85.0,85.0,66,B,Raw,M
 2,Sánta Benjámin Áron,2008,BajaiIIIBé,56.1,70.0,75.0,80.0,80.0,57,B,Raw,M
 3,Petróczki Botond,2007,TáncsicsOh,57.8,75.0,-80.0,80.0,80.0,66,B,Raw,M
@@ -157,11 +157,11 @@ DQ,Gyenes Máté,2007,FöldesGimn,52.7,-65.0,-65.0,-65.0,DSQ,53,B,Raw,M
 25,Zsók Botond,2007,HonvMin,72.05,75.0,-77.5,-77.5,75.0,74,B,Raw,M
 26,Józsa Zalán Ármin,2008,SzentGyAjk,67.3,55.0,60.0,65.0,65.0,74,B,Raw,M
 27,Lakatos Márk,2008,GyulaiImpl,70.4,45.0,50.0,55.0,55.0,74,B,Raw,M
-DQ,Csáki Szabolcs,2008,NémethLGim,66.2,-65.0,-65.0,-65.0,DSQ,74,B,Raw,M
-DQ,Kovács Zsolt,2008,CsihaGyőző,70.5,-70.0,-70.0,-77.5,DSQ,74,B,Raw,M
-DQ,Fraller Marcell,2008,KesztAsb,72.4,-60.0,-65.0,-65.0,DSQ,74,B,Raw,M
-DQ,Takó Boldizsár Felix,2007,GépipInfo,72.7,-90.0,-90.0,-90.0,DSQ,74,B,Raw,M
-DQ,Ravasz Tibor Bendegúz,2007,DunaújDuna,73.9,-120.0,-120.0,-120.0,DSQ,74,B,Raw,M
+DQ,Csáki Szabolcs,2008,NémethLGim,66.2,-65.0,-65.0,-65.0,,74,B,Raw,M
+DQ,Kovács Zsolt,2008,CsihaGyőző,70.5,-70.0,-70.0,-77.5,,74,B,Raw,M
+DQ,Fraller Marcell,2008,KesztAsb,72.4,-60.0,-65.0,-65.0,,74,B,Raw,M
+DQ,Takó Boldizsár Felix,2007,GépipInfo,72.7,-90.0,-90.0,-90.0,,74,B,Raw,M
+DQ,Ravasz Tibor Bendegúz,2007,DunaújDuna,73.9,-120.0,-120.0,-120.0,,74,B,Raw,M
 1,Aleva Gergő,2007,KossuthZsT,76.6,135.0,142.5,147.5,147.5,83,B,Raw,M
 2,Wanous Nabil,2008,Balassi8év,81.48,-127.5,132.5,137.5,137.5,83,B,Raw,M
 3,Dudás Benedek,2008,SzsztmBatt,80.98,120.0,125.0,130.0,130.0,83,B,Raw,M
@@ -189,7 +189,7 @@ DQ,Ravasz Tibor Bendegúz,2007,DunaújDuna,73.9,-120.0,-120.0,-120.0,DSQ,74,B,Ra
 25,Afangide Uwem Jonah,2008,Nagyboldog,74.4,65.0,70.0,77.5,77.5,83,B,Raw,M
 26,Szabó Dávid,2008,SzéchTechn,80.54,70.0,75.0,77.5,77.5,83,B,Raw,M
 27,Soltész Zoltán,2008,KandóMisk,78.72,60.0,65.0,70.0,70.0,83,B,Raw,M
-DQ,Hajdu Zsombor,2007,LévayRef,77.38,-95.0,-100.0,-100.0,DSQ,83,B,Raw,M
+DQ,Hajdu Zsombor,2007,LévayRef,77.38,-95.0,-100.0,-100.0,,83,B,Raw,M
 1,Tornyos Marcell,2007,RáckeveAdy,90.2,140.0,145.0,150.0,150.0,93,B,Raw,M
 2,Gál Dávid,2007,SzegDeák,91.4,125.0,132.5,142.5,142.5,93,B,Raw,M
 3,Ivánfai Koppány Tamás,2007,TóthÁrpád,84.9,130.0,135.0,-140.0,135.0,93,B,Raw,M
@@ -211,7 +211,7 @@ DQ,Hajdu Zsombor,2007,LévayRef,77.38,-95.0,-100.0,-100.0,DSQ,83,B,Raw,M
 19,Ludvig Lázár,2008,CisztSztIs,92.8,-75.0,75.0,-80.0,75.0,93,B,Raw,M
 20,Holéczy Ödön,2008,VetésiGimn,87.7,60.0,65.0,70.0,70.0,93,B,Raw,M
 21,Takács Botond Előd,2008,Nagyboldog,88.9,55.0,60.0,-62.5,60.0,93,B,Raw,M
-DQ,Alföldi Kristóf Attila,2007,CisztSztIs,90.7,-95.0,-95.0,-95.0,DSQ,93,B,Raw,M
+DQ,Alföldi Kristóf Attila,2007,CisztSztIs,90.7,-95.0,-95.0,-95.0,,93,B,Raw,M
 1,Kállai Dániel Bendegúz,2007,Egyházmegy,102.0,120.0,130.0,137.5,137.5,105,B,Raw,M
 2,Kovács Bence Róbert,2008,AndrássyMi,101.5,-125.0,125.0,130.0,130.0,105,B,Raw,M
 3,Egyed Barnabás,2007,GépipInfo,100.9,100.0,110.0,-120.0,110.0,105,B,Raw,M
@@ -235,7 +235,7 @@ DQ,Alföldi Kristóf Attila,2007,CisztSztIs,90.7,-95.0,-95.0,-95.0,DSQ,93,B,Raw,
 4,Magyar Bence,2007,BerKözTech,130.75,80.0,85.0,-90.0,85.0,120+,B,Raw,M
 5,Kátai Lajos Róbert,2008,BarossSzol,136.1,75.0,80.0,-82.5,80.0,120+,B,Raw,M
 6,Péter Zsombor,2008,DeákTechn,120.6,-45.0,45.0,47.5,47.5,120+,B,Raw,M
-DQ,Bodai Barna,2007,EötvösGimn,129.4,-110.0,-110.0,-110.0,DSQ,120+,B,Raw,M
+DQ,Bodai Barna,2007,EötvösGimn,129.4,-110.0,-110.0,-110.0,,120+,B,Raw,M
 1,Zsiga Krisztián Péter,2006,HonvMin,48.8,60.0,67.5,-72.5,67.5,53,B,Raw,M
 1,Sajben Dániel,2006,SzentGyBcs,58.96,95.0,97.5,100.0,100.0,66,B,Raw,M
 2,Tóvizi Bence,2005,PálfyVízüg,56.78,87.5,90.0,92.5,92.5,57,B,Raw,M
@@ -365,8 +365,8 @@ DQ,Bodai Barna,2007,EötvösGimn,129.4,-110.0,-110.0,-110.0,DSQ,120+,B,Raw,M
 27,Kocsis Levente Márk,2006,CsíkFerenc,87.86,85.0,90.0,95.0,95.0,93,B,Raw,M
 28,Talabér Dávid,2006,SportKrea,84.54,80.0,90.0,-100.0,90.0,93,B,Raw,M
 29,Sas Dávid,2006,EgriFőegyh,90.82,75.0,77.5,-80.0,77.5,93,B,Raw,M
-DQ,Pászka Szabolcs János,2005,CsengerAdy,86.44,-105.0,-110.0,-120.0,DSQ,93,B,Raw,M
-DQ,Harmath Levente,2005,DobóEszter,89.4,-90.0,-90.0,-90.0,DSQ,93,B,Raw,M
+DQ,Pászka Szabolcs János,2005,CsengerAdy,86.44,-105.0,-110.0,-120.0,,93,B,Raw,M
+DQ,Harmath Levente,2005,DobóEszter,89.4,-90.0,-90.0,-90.0,,93,B,Raw,M
 1,Porteleki Ádám,2006,FöldesGimn,99.1,130.0,137.5,140.0,140.0,105,B,Raw,M
 2,Svégel László Vilmos,2006,DrávaVölgy,93.02,130.0,-135.0,135.0,135.0,105,B,Raw,M
 3,Lakatos Adolf Kevin,2006,DombrMóra,101.7,-130.0,135.0,-140.0,135.0,105,B,Raw,M
@@ -420,7 +420,7 @@ DQ,Harmath Levente,2005,DobóEszter,89.4,-90.0,-90.0,-90.0,DSQ,93,B,Raw,M
 7,Kozma Zsófia,2009,BesseKisv,47.44,25.0,-27.5,-27.5,25.0,52,B,Raw,W
 8,Balogh Ramóna Ágota,2009,GyulaiImpl,49.96,25.0,-27.5,-27.5,25.0,52,B,Raw,W
 9,Lakatos Arabella Georgina,2009,CsobajiÁI,50.24,25.0,-27.5,-27.5,25.0,52,B,Raw,W
-DQ,Dósa Fruzsina,2009,TújvSzéch,47.58,-25.0,-25.0,-25.0,DSQ,52,B,Raw,W
+DQ,Dósa Fruzsina,2009,TújvSzéch,47.58,-25.0,-25.0,-25.0,,52,B,Raw,W
 1,Palánkai Vásti Hanna,2010,GyarmSport,54.92,42.5,45.0,-50.0,45.0,57,B,Raw,W
 2,Fábián Petra,2009,HajdBárdos,54.8,37.5,40.0,42.5,42.5,57,B,Raw,W
 3,Kotogány Jana Amira,2009,HonvMin,56.94,42.5,-45.0,-45.0,42.5,57,B,Raw,W
@@ -495,8 +495,8 @@ DQ,Dósa Fruzsina,2009,TújvSzéch,47.58,-25.0,-25.0,-25.0,DSQ,52,B,Raw,W
 4,Bodnár Jázmin,2007,HonvMin,64.15,-45.0,45.0,-47.5,45.0,69,B,Raw,W
 5,Nagy-Magyari Csenge,2008,HonvMin,68.45,-42.5,-42.5,42.5,42.5,69,B,Raw,W
 6,Fekete Zsófia,2008,SzegDeák,68.45,35.0,40.0,-42.5,40.0,69,B,Raw,W
-DQ,Orosz Tünde,2007,Comenius,68.25,-62.5,-62.5,-62.5,DSQ,69,B,Raw,W
-DQ,Nováky Janka Luca,2007,ZalaegAdy,68.4,-40.0,X,X,DSQ,69,B,Raw,W
+DQ,Orosz Tünde,2007,Comenius,68.25,-62.5,-62.5,-62.5,,69,B,Raw,W
+DQ,Nováky Janka Luca,2007,ZalaegAdy,68.4,-40.0,X,X,,69,B,Raw,W
 1,Kovács Dalma,2008,GyulaiErke,72.1,55.0,60.0,62.5,62.5,74,B,Raw,W
 2,Pál Dorka,2007,SztLászló,75.25,55.0,60.0,-67.5,60.0,83,B,Raw,W
 3,Karácsony Sára,2008,BesseKisv,75.4,35.0,47.5,52.5,52.5,83,B,Raw,W
@@ -508,14 +508,14 @@ DQ,Nováky Janka Luca,2007,ZalaegAdy,68.4,-40.0,X,X,DSQ,69,B,Raw,W
 2,Trencsényi Boglárka,2007,EgriSzilE,77.52,57.5,62.5,-67.5,62.5,83,B,Raw,W
 3,Pete Fanni,2008,NoszlKapos,79.36,50.0,55.0,-62.5,55.0,83,B,Raw,W
 4,Rékasi Veronika,2008,CsihaGyőző,80.38,40.0,42.5,-45.0,42.5,83,B,Raw,W
-DQ,Balogh Luca Nóra,2007,VáciMadách,79.38,-50.0,-50.0,-50.0,DSQ,83,B,Raw,W
+DQ,Balogh Luca Nóra,2007,VáciMadách,79.38,-50.0,-50.0,-50.0,,83,B,Raw,W
 1,Mucsi Noémi Anna,2008,GálFBcs,111.45,62.5,67.5,70.0,70.0,83+,B,Raw,W
 2,Babinszki Barbara,2008,SzentGyBcs,108.55,60.0,65.0,67.5,67.5,83+,B,Raw,W
 3,Kecskés Kata Nóra,2007,Jendrassik,117.15,55.0,-60.0,-60.0,55.0,83+,B,Raw,W
 4,Siroki Molli Hanna,2007,BerzTechn,103.65,42.5,45.0,47.5,47.5,83+,B,Raw,W
 5,Vass Gvendolin Amarillisz,2008,KandóTechn,108.0,-40.0,45.0,47.5,47.5,83+,B,Raw,W
 1,Pálóczi Csenge,2005,KandóZáhon,39.06,27.5,30.0,-32.5,30.0,43,B,Raw,W
-DQ,Palcsik Flóra Ivett,2005,BesseKisv,40.3,-25.0,-25.0,-25.0,DSQ,43,B,Raw,W
+DQ,Palcsik Flóra Ivett,2005,BesseKisv,40.3,-25.0,-25.0,-25.0,,43,B,Raw,W
 1,Havasi Anna Viola,2006,DeákTechn,46.62,40.0,42.5,-45.0,42.5,47,B,Raw,W
 2,Knapp Virág,2004,HunyTechn,44.08,30.0,35.0,37.5,37.5,47,B,Raw,W
 1,Szücs Anita,2006,VerebélyLá,47.6,55.0,-57.5,60.0,60.0,52,B,Raw,W
@@ -526,7 +526,7 @@ DQ,Palcsik Flóra Ivett,2005,BesseKisv,40.3,-25.0,-25.0,-25.0,DSQ,43,B,Raw,W
 6,Rácz Zsófia Eszter,2006,AjkaiBródy,49.8,30.0,35.0,-37.5,35.0,52,B,Raw,W
 7,El Tanbouli Jasmine,2006,HonvMin,51.1,27.5,-30.0,-30.0,27.5,52,B,Raw,W
 8,Kállai Szonja Borbála,2005,SztIstvBp,49.32,25.0,-27.5,-27.5,25.0,52,B,Raw,W
-DQ,Béres Eszter,2005,MiskZrínyi,50.76,-45.0,-47.5,-47.5,DSQ,52,B,Raw,W
+DQ,Béres Eszter,2005,MiskZrínyi,50.76,-45.0,-47.5,-47.5,,52,B,Raw,W
 1,Savanyu Klaudia,2005,AjkaiBródy,56.0,50.0,55.0,57.5,57.5,57,B,Raw,W
 2,Dékány Lili,2005,KossuthGim,55.06,45.0,50.0,52.5,52.5,57,B,Raw,W
 3,Bata Edina,2006,BedőErdész,55.1,47.5,50.0,-52.5,50.0,57,B,Raw,W
@@ -536,7 +536,7 @@ DQ,Béres Eszter,2005,MiskZrínyi,50.76,-45.0,-47.5,-47.5,DSQ,52,B,Raw,W
 7,Kele Vivien,2006,HonvMin,53.8,35.0,37.5,-40.0,37.5,57,B,Raw,W
 8,Szabó Dorottya Ágnes,2005,SztIstvBp,56.16,35.0,37.5,-40.0,37.5,57,B,Raw,W
 9,Kolossváry Csenge,2006,SztIstvBp,54.2,32.5,35.0,-37.5,35.0,57,B,Raw,W
-DQ,Szónok Sára,2005,VárdayKata,55.86,-25.0,-25.0,X,DSQ,57,B,Raw,W
+DQ,Szónok Sára,2005,VárdayKata,55.86,-25.0,-25.0,X,,57,B,Raw,W
 1,Tomacsek Eszter,2006,BárdosGimn,63.0,65.0,70.0,75.0,75.0,63,B,Raw,W
 2,Zachariás Szandra,2004,SzentGyAjk,57.96,67.5,72.5,-75.0,72.5,63,B,Raw,W
 3,Hegedűs Petra,2006,XántusJán,59.74,52.5,-55.0,55.0,55.0,63,B,Raw,W
@@ -549,7 +549,7 @@ DQ,Szónok Sára,2005,VárdayKata,55.86,-25.0,-25.0,X,DSQ,57,B,Raw,W
 10,Gulyás Szilvia,2005,HunyTechn,59.54,40.0,-42.5,-42.5,40.0,63,B,Raw,W
 11,Ilyés Luca,2006,Széch2tan,60.25,-40.0,40.0,-45.0,40.0,63,B,Raw,W
 12,Pethő Laura Ágnes,2006,KeszthelyK,61.4,40.0,-45.0,-45.0,40.0,63,B,Raw,W
-DQ,Bazsányi Dorka,2006,BerzTechn,60.7,-50.0,-50.0,-55.0,DSQ,63,B,Raw,W
+DQ,Bazsányi Dorka,2006,BerzTechn,60.7,-50.0,-50.0,-55.0,,63,B,Raw,W
 1,Bagossi Lilla,2006,TóthÁrpád,66.2,70.0,75.0,-77.5,75.0,69,B,Raw,W
 2,Borbély Ninetta,2005,XántusJán,65.05,60.0,65.0,67.5,67.5,69,B,Raw,W
 3,Kiss Nóra Ágota,2005,DújvSzéch,68.25,-60.0,60.0,-67.5,60.0,69,B,Raw,W
@@ -563,7 +563,7 @@ DQ,Bazsányi Dorka,2006,BerzTechn,60.7,-50.0,-50.0,-55.0,DSQ,63,B,Raw,W
 11,Tusa Hajnalka,2006,HunyTechn,64.85,32.5,35.0,37.5,37.5,69,B,Raw,W
 12,Vezendi Gréta,2006,CsihaGyőző,67.05,30.0,32.5,-37.5,32.5,69,B,Raw,W
 13,Kertész Viktória,2006,HonvMin,64.6,27.5,-30.0,30.0,30.0,69,B,Raw,W
-DQ,Berecz Lili Emese,2005,SztIstvBp,67.0,-60.0,-60.0,-60.0,DSQ,69,B,Raw,W
+DQ,Berecz Lili Emese,2005,SztIstvBp,67.0,-60.0,-60.0,-60.0,,69,B,Raw,W
 1,Balla Eszter,2005,FöldesGimn,75.4,77.5,-82.5,-85.0,77.5,83,B,Raw,W
 2,Gál-Molnár Blanka,2005,SzinyeiBp,74.76,65.0,70.0,75.0,75.0,83,B,Raw,W
 3,Dús Kinga Orsolya,2004,KapMunkács,70.38,60.0,67.5,-72.5,67.5,74,B,Raw,W
@@ -583,7 +583,7 @@ DQ,Berecz Lili Emese,2005,SztIstvBp,67.0,-60.0,-60.0,-60.0,DSQ,69,B,Raw,W
 1,Petri Regina,2005,SzentGyBcs,80.76,60.0,-65.0,-65.0,60.0,83,B,Raw,W
 2,Sándor Andrea,2005,BarossSzol,76.54,50.0,55.0,-60.0,55.0,83,B,Raw,W
 3,Schlemmer Jázmin,2005,HunyTechn,80.92,50.0,-55.0,-55.0,50.0,83,B,Raw,W
-DQ,Németh Bianka,2006,KőbSztLá,78.52,-60.0,-60.0,-60.0,DSQ,83,B,Raw,W
+DQ,Németh Bianka,2006,KőbSztLá,78.52,-60.0,-60.0,-60.0,,83,B,Raw,W
 1,Dömötör Dóra,2004,ZegKölcsey,97.08,60.0,65.0,-67.5,65.0,83+,B,Raw,W
 2,Ereth Liza,2005,NoszlKapos,97.38,50.0,55.0,57.5,57.5,83+,B,Raw,W
 3,Korcsik Zoé Niobé,2004,EötvösJTec,99.46,55.0,-57.5,-57.5,55.0,83+,B,Raw,W
@@ -592,4 +592,4 @@ DQ,Németh Bianka,2006,KőbSztLá,78.52,-60.0,-60.0,-60.0,DSQ,83,B,Raw,W
 6,Tóth Zsófia Klára,2006,HonvMin,88.36,37.5,40.0,42.5,42.5,83+,B,Raw,W
 7,Orphanides Lukrécia Olimpia,2006,HermannOtt,111.68,-40.0,40.0,-42.5,40.0,83+,B,Raw,W
 8,Csomai Letícia,2006,SzentGyAjk,85.82,32.5,37.5,-40.0,37.5,83+,B,Raw,W
-DQ,Antal Laura,2004,GöndöcsGyu,114.8,-60.0,-60.0,-62.5,DSQ,83+,B,Raw,W
+DQ,Antal Laura,2004,GöndöcsGyu,114.8,-60.0,-60.0,-62.5,,83+,B,Raw,W
