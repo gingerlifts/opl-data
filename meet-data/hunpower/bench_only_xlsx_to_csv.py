@@ -101,9 +101,9 @@ def process_excel_file(file_path):
     df['Equipment'] = 'Raw'
     df['Sex'] = df['WeightClassKg'].apply(lambda wc: assign_sex(wc, is_male))
 
-    # Save the cleaned file with a new name
-    output_file = file_path.replace('.xlsx', '_cleaned.xlsx')
-    df.to_excel(output_file, index=False)
+    # Save the cleaned file as a CSV file with a new name
+    output_file = file_path.replace('.xlsx', '_cleaned.csv')
+    df.to_csv(output_file, index=False, encoding='utf-8')
     print(f"Processed and saved: {output_file}")
 
 if __name__ == "__main__":

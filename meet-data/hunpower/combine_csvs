@@ -1,0 +1,2 @@
+awk '(NR == 1) || (FNR > 1)' file1.csv file2.csv file3.csv > combined.csv
+# This takes multiple files and makes them into 1
