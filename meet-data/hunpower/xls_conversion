@@ -1,0 +1,2 @@
+libreoffice --headless --convert-to xlsx *.xls
+# We need to convert .xls to .xlsx for VBA script to work.
