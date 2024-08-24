@@ -67,8 +67,6 @@
     sex = "F"
     divisions = ["D", "Developmental"]
 
-
-
 [exemptions]
     1601 = ["ExemptWeightClassConsistency", "ExemptDivision"]
     1602 = ["ExemptWeightClassConsistency", "ExemptDivision"]
@@ -78,4 +76,6 @@
     1606 = ["ExemptWeightClassConsistency", "ExemptDivision"]
     1607 = ["ExemptWeightClassConsistency", "ExemptDivision"] 
 	2301 = ["ExemptWeightClassConsistency", "ExemptDivision"] 
-    2303 = ["ExemptWeightClassConsistency", "ExemptDivision"] 	
+    2303 = ["ExemptWeightClassConsistency", "ExemptDivision"]
+    2401 = ["ExemptWeightClassConsistency", "ExemptDivision"]
+    2402 = ["ExemptWeightClassConsistency", "ExemptDivision"]
