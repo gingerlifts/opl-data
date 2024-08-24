@@ -6,7 +6,7 @@ def get_weight_class(bodyweight, is_male):
     if is_male:
         weight_classes = {
             '53': 53.00,
-            '57': 57.00,
+            '59': 59.00,
             '66': 66.00,
             '74': 74.00,
             '83': 83.00,
@@ -23,9 +23,9 @@ def get_weight_class(bodyweight, is_male):
             '57': 57.00,
             '63': 63.00,
             '69': 69.00,
-            '74': 74.00,
-            '83': 83.00,
-            '83+': float('inf')  # '83+' means anything above 83.00
+            '76': 76.00,
+            '84': 84.00,
+            '84+': float('inf')  # '84+' means anything above 84.00
         }
 
     for weight_class, limit in weight_classes.items():
@@ -168,7 +168,9 @@ def process_excel_file(file_path, event_type, division):
     print(f"Processed and saved: {output_file}")
 
 if __name__ == "__main__":
-    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-08-10/Ferfi_B.xlsx", "Bench", "open")
-    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-08-10/Ferfi_D.xlsx", "Deadlift", "open")
-    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-08-10/Noi_B.xlsx", "Bench", "open")
-    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-08-10/Noi_D.xlsx", "Deadlift", "open")
+    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-03-23/fiuiv.xlsx", "Bench", "Juniors")
+    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-03-23/fiuv.xlsx", "Bench", "Juniors")
+    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-03-23/fiuvi.xlsx", "Bench", "Juniors")
+    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-03-23/lanyiv.xlsx", "Bench", "Juniors")
+    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-03-23/lanyv.xlsx", "Bench", "Juniors")
+    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-03-23/lanyvi.xlsx", "Bench", "Juniors")
