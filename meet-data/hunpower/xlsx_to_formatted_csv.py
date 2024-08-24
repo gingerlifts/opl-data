@@ -33,23 +33,15 @@ def get_weight_class(bodyweight, is_male):
             return weight_class
     return None
 
-def assign_sex(weight_class, is_male):
-    """Assign Sex based on weight class."""
-    if is_male:
-        return 'M'
-    else:
-        return 'W'
+def assign_sex(is_male):
+    """Assign Sex based on the is_male flag."""
+    return 'M' if is_male else 'F'
 
 def process_excel_file(file_path, event_type, division):
     """Process the Excel file to clean data and assign weight classes."""
     # Determine if the file is male or female based on the file name
     file_name = os.path.basename(file_path).lower()
-    if "fiu" in file_name or "ferfi" in file_name:
-        is_male = True
-    elif "noi" in file_name or "lany" in file_name:
-        is_male = False
-    else:
-        raise ValueError("Cannot determine gender from file name: {}".format(file_name))
+    is_male = "fiu" in file_name or "ferfi" in file_name
 
     # Load the Excel file and process all data as strings
     df = pd.read_excel(file_path, dtype=str)
@@ -64,8 +56,8 @@ def process_excel_file(file_path, event_type, division):
 
     # 2. Remove all rows after the lifter data has ended
 
-    # Step 1: Create a mask to identify rows that contain the word 'points' (ignoring case)
-    mask = df.apply(lambda col: col.str.contains("points", case=False, na=False)).any(axis=1)
+    # Step 1: Create a mask to identify rows that contain the word '(points)' (ignoring case)
+    mask = df.apply(lambda col: col.str.contains(r"\(points\)", case=False, na=False)).any(axis=1)
 
     # Step 2: Get the index of the first row that matches the criteria
     end_index_candidates = df[mask].index
@@ -75,7 +67,7 @@ def process_excel_file(file_path, event_type, division):
         end_index = end_index_candidates[0]  # Get the first occurrence
         df = df.iloc[:end_index]  # Keep only the rows before this index
     else:
-        print(f"Error: Could not find 'points' in the file {file_path}.")
+        print(f"Error: Could not find '(points)' in the file {file_path}.")
         exit(1)
 
     # 3. Rename columns based on the event type
@@ -91,7 +83,7 @@ def process_excel_file(file_path, event_type, division):
             'Result': 'Best3BenchKg'
         }, inplace=True)
         df['Event'] = 'B'
-        df['TotalKg'] = df['Best3BenchKg']  # Add TotalKg as Best3BenchKg
+        df['TotalKg'] = df['Best3BenchKg'].replace('DSQ', '')  # Add TotalKg as Best3BenchKg
     elif event_type == 'Deadlift':
         df.rename(columns={
             'Rnk': 'Place',
@@ -104,7 +96,7 @@ def process_excel_file(file_path, event_type, division):
             'Result': 'Best3DeadliftKg'
         }, inplace=True)
         df['Event'] = 'D'
-        df['TotalKg'] = df['Best3DeadliftKg']  # Add TotalKg as Best3DeadliftKg
+        df['TotalKg'] = df['Best3DeadliftKg'].replace('DSQ', '')  # Add TotalKg as Best3DeadliftKg
     elif event_type == 'FullPower':
         df.rename(columns={
             'Rnk': 'Place',
@@ -117,25 +109,31 @@ def process_excel_file(file_path, event_type, division):
             'TOTAL': 'TotalKg'
         }, inplace=True)
         df['Event'] = 'SBD'
-
         # Replace DSQ in TotalKg with a blank cell
         df['TotalKg'] = df['TotalKg'].replace('DSQ', '')
 
-    # 4. Remove rows where only the 'Place' column has data (likely weight class rows)
+    # 4. Handle DSQ cases for Best3BenchKg/Best3DeadliftKg
+    if 'Best3BenchKg' in df.columns:
+        df['Best3BenchKg'] = df['Best3BenchKg'].replace('DSQ', '')
+    if 'Best3DeadliftKg' in df.columns:
+        df['Best3DeadliftKg'] = df['Best3DeadliftKg'].replace('DSQ', '')
 
-    # Define the columns you want to check for NaN values
+    # 5. Handle cases where lifters passed on an attempt (marked by "X")
+    for col in ['Bench1Kg', 'Bench2Kg', 'Bench3Kg', 'Deadlift1Kg', 'Deadlift2Kg', 'Deadlift3Kg']:
+        if col in df.columns:
+            df[col] = df[col].replace('X', '')
+
+    # 6. Replace "01.01." in the BirthYear column with "20"
+    df['BirthYear'] = df['BirthYear'].str.replace("01.01.", "20")
+
+    # 7. Remove rows where only the 'Place' column has data (likely weight class rows)
     columns_to_check = ['Name', 'BirthYear', 'Team', 'BodyweightKg', 'Best3BenchKg', 'Best3DeadliftKg', 'Best3SquatKg', 'TotalKg']
+    df = df.dropna(subset=[col for col in columns_to_check if col in df.columns], how='all')
 
-    # Filter out columns that don't exist in the DataFrame
-    existing_columns_to_check = [col for col in columns_to_check if col in df.columns]
-
-    # Drop rows where only the 'Place' column has data
-    df = df.dropna(subset=existing_columns_to_check, how='all')
-
-    # 5. Replace '-' or non-numeric values in 'Place' with 'DQ'
+    # 8. Replace '-' or non-numeric values in 'Place' with 'DQ'
     df['Place'] = df['Place'].apply(lambda x: x if x.strip().isdigit() else 'DQ')
 
-    # 6. Keep only the necessary columns
+    # 9. Keep only the necessary columns
     keep_columns = ['Place', 'Name', 'BirthYear', 'Team', 'BodyweightKg', 'Bench1Kg', 'Bench2Kg', 'Bench3Kg',
                     'Best3BenchKg', 'Deadlift1Kg', 'Deadlift2Kg', 'Deadlift3Kg', 'Best3DeadliftKg',
                     'Best3SquatKg', 'TotalKg', 'Event', 'Equipment', 'Sex', 'BirthDate', 'Division']
@@ -144,7 +142,7 @@ def process_excel_file(file_path, event_type, division):
     # Remove any columns with no headers or that were not explicitly kept
     df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
 
-    # 7. Replace commas with dots in weight-related columns (but keep as strings)
+    # 10. Replace commas with dots in weight-related columns (but keep as strings)
     weight_columns = ['BodyweightKg', 'Bench1Kg', 'Bench2Kg', 'Bench3Kg', 'Best3BenchKg',
                       'Deadlift1Kg', 'Deadlift2Kg', 'Deadlift3Kg', 'Best3DeadliftKg',
                       'Best3SquatKg', 'TotalKg']
@@ -152,13 +150,13 @@ def process_excel_file(file_path, event_type, division):
         if col in df.columns:
             df[col] = df[col].str.replace(',', '.')
 
-    # 8. Assign weight classes based on bodyweight and gender
+    # 11. Assign weight classes based on bodyweight and gender
     df['BodyweightKg'] = pd.to_numeric(df['BodyweightKg'], errors='coerce')
     df['WeightClassKg'] = df['BodyweightKg'].apply(lambda bw: get_weight_class(bw, is_male))
 
-    # 9. Add Equipment, Sex, BirthDate, and Division columns
+    # 12. Add Equipment, Sex, BirthDate, and Division columns
     df['Equipment'] = 'Raw'
-    df['Sex'] = df['WeightClassKg'].apply(lambda wc: assign_sex(wc, is_male))
+    df['Sex'] = assign_sex(is_male)
     df['BirthDate'] = ''  # Add empty BirthDate column
     df['Division'] = division  # Set Division column based on the parameter
 
@@ -166,6 +164,7 @@ def process_excel_file(file_path, event_type, division):
     output_file = file_path.replace('.xlsx', '_cleaned.csv')
     df.to_csv(output_file, index=False, encoding='utf-8')
     print(f"Processed and saved: {output_file}")
+
 
 if __name__ == "__main__":
     process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-03-23/fiuiv.xlsx", "Bench", "Juniors")
