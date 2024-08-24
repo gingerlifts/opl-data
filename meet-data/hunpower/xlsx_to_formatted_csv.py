@@ -167,9 +167,7 @@ def process_excel_file(file_path, event_type, division):
 
 
 if __name__ == "__main__":
-    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-03-23/fiuiv.xlsx", "Bench", "Juniors")
-    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-03-23/fiuv.xlsx", "Bench", "Juniors")
-    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-03-23/fiuvi.xlsx", "Bench", "Juniors")
-    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-03-23/lanyiv.xlsx", "Bench", "Juniors")
-    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-03-23/lanyv.xlsx", "Bench", "Juniors")
-    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-03-23/lanyvi.xlsx", "Bench", "Juniors")
+    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-08-10/Ferfi_B.xlsx", "Bench", "Open")
+    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-08-10/Ferfi_D.xlsx", "Deadlift", "Open")
+    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-08-10/Noi_B.xlsx", "Bench", "Open")
+    process_excel_file("/mnt/c/Users/aronhegedus/Downloads/hunpower2024-08-10/Noi_D.xlsx", "Deadlift", "Open")
